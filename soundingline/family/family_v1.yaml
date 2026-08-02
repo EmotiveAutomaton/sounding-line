@@ -1,0 +1,148 @@
+# The bounded hypothesis family, v1.
+#
+# SPEC §4. This file is DATA, not code, and that is deliberate: D-1 resolves to a fixed,
+# hand-written family, and a hand-written family should be readable by someone who does not
+# read Python. Every dimension here is a commitment that can be argued with directly.
+#
+# The family is the mechanism, not a limitation (SPEC §2). An unbounded reader asked an open
+# question always produces a coherent answer, for anything, including sludge. What separates a
+# human maker is that the human solution space is BOUNDED -- by architecture, embodiment,
+# metabolic cost, and by having to choose one thing over another because doing both was too
+# expensive. This file is that boundedness, written down.
+#
+# CHANGING THIS FILE CHANGES THE INSTRUMENT. It is content-hashed into every reading. A reading
+# produced under one family hash is not comparable to a reading produced under another.
+
+version: 1
+spec_section: "§4"
+decision: "D-1 — fixed and hand-written, not learned from a reference corpus"
+decision_rationale: >
+  A learned family risks absorbing the contamination it is meant to detect. The stated
+  counter-argument, recorded because it is real: a hand-written family encodes the author's
+  assumptions about what people make things for, and that is exactly the kind of assumption this
+  project usually tests rather than asserts. D-1 is therefore the family's own falsifier target
+  — if a learned family outperforms this one at Gate 4, that is a finding, not a defeat.
+
+dimensions:
+
+  purpose:
+    kind: categorical
+    load_bearing: false
+    why_in_family: "the bounded set of things people make artifacts for"
+    values:
+      - id: inform
+        gloss: "transfer something the reader did not know, for the reader's benefit"
+      - id: persuade
+        gloss: "move the reader's position on something the maker holds a stake in"
+      - id: sell
+        gloss: "cause a transaction"
+      - id: entertain
+        gloss: "hold attention as the end rather than the means"
+      - id: coordinate
+        gloss: "get people to act in concert; schedules, protocols, instructions"
+      - id: rank
+        gloss: "improve the artifact's position in some retrieval or ordering system"
+      - id: discharge_obligation
+        gloss: "satisfy a requirement that the artifact exist; compliance, boilerplate, filing"
+      - id: express
+        gloss: "externalise a maker-state, with no required effect on any reader"
+
+  audience:
+    kind: categorical
+    load_bearing: true
+    why_in_family: >
+      The grooming case is a hypothesis IN the family, not an exception to it. "Made for a
+      machine to ingest rather than a person to read" is a purpose the maker HAD, rather than an
+      absence of purpose. Treating it as a hypothesis rather than a residual is what makes this
+      work where detection fails (SPEC §4).
+    values:
+      - id: specific_person
+        gloss: "one named reader the maker could picture"
+      - id: known_group
+        gloss: "a bounded set the maker is a member of or adjacent to"
+      - id: general_public
+        gloss: "an unbounded human readership"
+      - id: machine
+        gloss: >
+          a retrieval system, a ranking system, or a model's training corpus. The reading that
+          §5 reports as the audience posterior. Says the socially useful thing without ever
+          making a claim about authorship.
+      - id: nobody_in_particular
+        gloss: >
+          no modelled reader at all. Distinct from `machine`: this is absence of an audience
+          model, that is presence of a non-human one. Collapsing them would destroy the
+          measurement.
+
+  depth:
+    kind: ordinal
+    load_bearing: true
+    why_in_family: "the V5 construct, directly — how many levels of decision are visible"
+    # E-numbers below refer to the Ghost Scale Simulation's findings. Cited as prior work;
+    # NOT imported (SPEC §9 — carry over the habits, not the code).
+    provenance:
+      - "E30 — depth moves how much of the maker's METHOD transfers, and provably cannot move how much of the PURPOSE does"
+      - "N21 — depth is not effort wearing a hat, but the dissociation is a construction commitment, not a free finding"
+    levels:
+      - id: 0
+        gloss: "no decision recoverable above the sentence"
+      - id: 1
+        gloss: "local choices only — wording, ordering within a section"
+      - id: 2
+        gloss: "structural choices — what to include, what to cut, how to sequence"
+      - id: 3
+        gloss: "framing choices — what the artifact is about, against alternatives visibly rejected"
+      - id: 4
+        gloss: "stance choices — why this artifact rather than none, against a visible cost of making it"
+    falsifier:
+      hazard: "depth is just length"
+      why: "trivially confounded, trivially checked, and embarrassing if missed (SPEC §7)"
+      control: "length must be regressed out before any depth claim is reported"
+
+  cost_borne:
+    kind: ordinal
+    load_bearing: false
+    why_in_family: "the metabolic commitment that makes intent legible at all"
+    gloss: "what the maker spent that they did not have to"
+    levels:
+      - id: 0
+        gloss: "nothing beyond production — no evidence of anything given up"
+      - id: 1
+        gloss: "time or care visible in execution"
+      - id: 2
+        gloss: "specific knowledge that had to be acquired for this artifact"
+      - id: 3
+        gloss: "risk borne — a position taken that costs the maker something if wrong"
+
+  trade_offs:
+    kind: structured
+    load_bearing: true
+    why_in_family: >
+      This is where value extraction actually happens. Values are not visible in what someone
+      said they wanted. They are visible in WHAT THEY GAVE UP. The Zahavian-to-trade-off
+      correction (E51), applied as a measurement rather than an argument.
+    decision: "D-3 — trade-offs only in v1"
+    decision_rationale: >
+      Naming someone's values outright from a web page is a much larger claim and a much larger
+      social liability. What was sacrificed is defensible; what was believed is not.
+    schema:
+      gained: "what the artifact achieves that a cheaper version would not"
+      given_up: "what a different choice would have achieved, and was not taken"
+      may_not_claim: >
+        No named value may be asserted. The output is the trade-off pair. Any rendering of that
+        pair as a value statement belongs to the reader, not the instrument.
+
+# ---------------------------------------------------------------------------------------------
+# What this family may NOT be used to say.
+#
+# Carried from SPEC §1 and it is not decoration -- it is the reason the instrument is publishable.
+may_not_claim:
+  - "that a machine wrote this. The instrument never makes a claim about authorship."
+  - >
+    that low depth means low value. It means few decisions are RECOVERABLE, which is a claim
+    about the artifact and the reader jointly, and which the maker can rebut with evidence.
+  - >
+    that a machine-audience posterior is an accusation. It is a hypothesis in the family with a
+    probability attached, reported alongside three other quantities (SPEC §5).
+  - >
+    any of the four output quantities alone. The reading is the tuple. Report all four always —
+    the simulation's whole methodology is that a single number invites the overclaim.

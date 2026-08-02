@@ -1,0 +1,66 @@
+"""The lock register. Every hash-locked artifact in the project, and its recorded hash.
+
+This is the file that makes the pre-registration checkable by someone who does not trust the
+author — which is the only kind of pre-registration worth having. `pytest tests/test_locks.py`
+verifies all of it and is intended to run in CI on every commit.
+
+**Adding a hash here is not how a locked file gets changed.** See docs/DEVIATIONS.md: record the
+deviation first, retain the original, keep computing it, and report it as failing if it fails.
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+
+from .hashlock import verify
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+# ---------------------------------------------------------------------------------------------
+# Locked at Gate 0, 2026-08-02, before any probe code existed.
+LOCKS: dict[str, str] = {
+    # The spec. Written before code and never edited afterwards; amendments live in
+    # docs/gate0/LITERATURE.md §8 rather than in the spec itself. This hash is the reason that
+    # sentence is verifiable rather than merely asserted.
+    "SOUNDING_LINE_SPEC.md":
+        "09e41edff4e765b6ca13233333c4f936f2e24c6ee955f62ca2e592aabe223b41",
+
+    # The Gate 0 literature review. Locked because it is the gate's verdict — including the
+    # record in §9 of what WOULD have failed the gate, which is worthless if editable after
+    # the fact.
+    "docs/gate0/LITERATURE.md":
+        "b7d2c6e9f12bb78c85aa04424b3396c20fd70a85006be792a52f2901f40fc583",
+
+    # The bounded hypothesis family. Changing this changes the instrument: a reading produced
+    # under one family hash is not comparable to a reading produced under another.
+    "soundingline/family/family_v1.yaml":
+        "6884b59c72fa92e5923f6c01e8ff194d341d0633dfc7a5d9a84db8dd9bb94db8",
+
+    # The Gate 1 pre-registration.
+    "prereg/gate1.py":
+        "c1af65d0886b83cb4fc4e05d913d112c2a603d806f983c3db2356f7b753936f0",
+}
+
+# Not yet locked, and named here so the omissions are deliberate rather than forgotten:
+#
+#   soundingline/probe/prompts/*    -- the prompt IS the measurement apparatus in an LLM-based
+#                                      instrument, and these must be locked before the first
+#                                      Gate 1 run. The simulation had no analogue and this is
+#                                      the most likely place for undocumented drift to enter.
+#   corpora/manifests/*             -- lock when the Gate 1 hand-picked set is chosen, so that
+#                                      "hand-picked by the author" is at least a fixed and
+#                                      inspectable selection.
+
+
+def verify_all() -> None:
+    """Raise on the first locked artifact that no longer matches.
+
+    Called at the top of every experiment, before any model is touched.
+    """
+    for rel, expected in LOCKS.items():
+        verify(REPO_ROOT / rel, expected)
+
+
+if __name__ == "__main__":
+    verify_all()
+    print(f"all {len(LOCKS)} locks verified")
