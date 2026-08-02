@@ -1,0 +1,15 @@
+# Line endings are content here, not formatting.
+#
+# `soundingline/hashlock.py` hashes files as BYTES, deliberately — a line-ending change is a
+# change, and silently normalising it would let a locked file drift while its hash held still.
+# The consequence is that a checkout which converted LF to CRLF would fail every lock and be
+# indistinguishable from someone editing a pre-registered criterion.
+#
+# So: LF everywhere, on every platform, enforced by the repository rather than by each
+# contributor's git config.
+* text=auto eol=lf
+
+# Never touched by newline conversion.
+*.png binary
+*.pdf binary
+*.jpg binary

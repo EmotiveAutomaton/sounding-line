@@ -1,0 +1,114 @@
+"""Load the bounded hypothesis family from YAML into typed objects.
+
+The family is data (D-1), and this is the only place that data becomes code. Everything
+downstream — the schema, the prompts, the measures — derives its allowed values from here, so
+that there is exactly one definition of what the instrument can say.
+
+That single-definition property is load-bearing rather than tidy. If the probe's schema and the
+prompt's instructions could drift apart, the instrument would be able to return a value it was
+never told about, and no test would catch it.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from enum import Enum
+from functools import lru_cache
+from pathlib import Path
+
+import yaml
+
+FAMILY_PATH = Path(__file__).resolve().parent / "family_v1.yaml"
+
+
+@dataclass(frozen=True)
+class Value:
+    """One allowed value on one dimension, with the gloss the prompt will quote."""
+    id: str
+    gloss: str
+
+
+@dataclass(frozen=True)
+class Dimension:
+    name: str
+    kind: str
+    load_bearing: bool
+    why_in_family: str
+    values: tuple[Value, ...]
+
+
+@dataclass(frozen=True)
+class Family:
+    version: int
+    dimensions: dict[str, Dimension]
+    may_not_claim: tuple[str, ...]
+    trade_off_schema: dict[str, str]
+
+    @property
+    def purposes(self) -> tuple[str, ...]:
+        return tuple(v.id for v in self.dimensions["purpose"].values)
+
+    @property
+    def audiences(self) -> tuple[str, ...]:
+        return tuple(v.id for v in self.dimensions["audience"].values)
+
+    @property
+    def depth_levels(self) -> tuple[int, ...]:
+        return tuple(int(v.id) for v in self.dimensions["depth"].values)
+
+    @property
+    def cost_levels(self) -> tuple[int, ...]:
+        return tuple(int(v.id) for v in self.dimensions["cost_borne"].values)
+
+    def gloss(self, dimension: str, value_id: str | int) -> str:
+        for v in self.dimensions[dimension].values:
+            if str(v.id) == str(value_id):
+                return v.gloss
+        raise KeyError(f"{value_id!r} is not a value of {dimension!r}")
+
+
+def _parse_values(raw: dict) -> tuple[Value, ...]:
+    """Read a dimension's allowed values.
+
+    The family file spells this two ways on purpose: categorical dimensions list `values`,
+    ordinal ones list `levels`. That distinction is meaningful in the data — a level has an
+    order and a value does not — so the loader accommodates both rather than the family file
+    being flattened to suit the loader.
+
+    `trade_offs` is structured rather than enumerated and has neither.
+    """
+    entries = raw.get("values") or raw.get("levels") or []
+    return tuple(Value(id=str(v["id"]), gloss=v["gloss"]) for v in entries)
+
+
+@lru_cache(maxsize=1)
+def load_family(path: str | Path = FAMILY_PATH) -> Family:
+    raw = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
+    dims = {
+        name: Dimension(
+            name=name,
+            kind=d["kind"],
+            load_bearing=bool(d["load_bearing"]),
+            why_in_family=d["why_in_family"],
+            values=_parse_values(d),
+        )
+        for name, d in raw["dimensions"].items()
+    }
+    return Family(
+        version=int(raw["version"]),
+        dimensions=dims,
+        may_not_claim=tuple(raw["may_not_claim"]),
+        trade_off_schema=raw["dimensions"]["trade_offs"]["schema"],
+    )
+
+
+def _enum(name: str, ids) -> type[Enum]:
+    return Enum(name, {str(i).upper() if isinstance(i, str) else f"L{i}": i for i in ids})
+
+
+def purpose_enum() -> type[Enum]:
+    return _enum("Purpose", load_family().purposes)
+
+
+def audience_enum() -> type[Enum]:
+    return _enum("Audience", load_family().audiences)

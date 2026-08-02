@@ -39,17 +39,26 @@ LOCKS: dict[str, str] = {
     # The Gate 1 pre-registration.
     "prereg/gate1.py":
         "c1af65d0886b83cb4fc4e05d913d112c2a603d806f983c3db2356f7b753936f0",
+
+    # The prompts. In an LLM-based instrument the prompt IS the measurement apparatus — the
+    # simulation had no analogue of this, and Gate 0 named prompt drift as the most likely
+    # place undocumented change enters the project. Locked before the first Gate 1 run.
+    "soundingline/probe/prompts/bounded_v1.yaml":
+        "08a0ddbbecd9c750e98504b930d851f801092e28f996b9026db478aadc9a531a",
+
+    # The free-form baseline arm. Locked for a second reason beyond drift: this arm decides
+    # whether the project is a contribution (A-2), and it is trivially easy to weaken it after
+    # seeing a result that went the wrong way. The lock is what makes "we did not sandbag the
+    # baseline" checkable rather than asserted.
+    "soundingline/probe/prompts/freeform_v1.yaml":
+        "bf9aaa7d7a6f593058a150a3464434b554ae080629499a8f5c0b8938249d2c46",
 }
 
-# Not yet locked, and named here so the omissions are deliberate rather than forgotten:
+# Not yet locked, and named here so the omission is deliberate rather than forgotten:
 #
-#   soundingline/probe/prompts/*    -- the prompt IS the measurement apparatus in an LLM-based
-#                                      instrument, and these must be locked before the first
-#                                      Gate 1 run. The simulation had no analogue and this is
-#                                      the most likely place for undocumented drift to enter.
-#   corpora/manifests/*             -- lock when the Gate 1 hand-picked set is chosen, so that
-#                                      "hand-picked by the author" is at least a fixed and
-#                                      inspectable selection.
+#   corpora/manifests/*  -- lock when the Gate 1 hand-picked set is chosen, so that
+#                           "hand-picked by the author" is at least a fixed and inspectable
+#                           selection. Cannot be locked before the artifacts exist.
 
 
 def verify_all() -> None:
