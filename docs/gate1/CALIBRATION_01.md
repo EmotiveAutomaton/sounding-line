@@ -260,7 +260,91 @@ flagged it themselves:
 
 ---
 
-## §5. Engagement is not depth, and the curator's data says so loudly
+## §5. Engagement tracked *method acquisition* — corrected
+
+> **Correction, 2026-08-02.** The original §5 concluded that engagement "tracked
+> relevance-to-reader and aesthetic pleasure; it did not track depth, fit, or craft." **The
+> curator rejected that reading of their own data, and they were right.** The original text is
+> retained below §5.1 so the error is visible; this section replaces its conclusion.
+
+The curator's correction, on item 7:
+
+> *"You're misreading the never-craft part... there is a genuine pleasure in receiving an upgrade
+> in craft. The tear was literally that tear in the bomb maker's eye that sees the explosion that
+> they count as beautiful because their craft has been improved in part by seeing things they
+> didn't previously understand. Even if they didn't fully understand it, they could see the edges
+> of it. That's what improving craft feels like viscerally. It is a pleasurable sensation, but it
+> is not [merely that]."*
+
+Separating pleasure from craft was the error. The pleasure **was** the craft transfer — and that
+is not a refinement of the original wording, it is the opposite conclusion.
+
+**This is the theory's own definition of appreciation, observed directly:**
+
+> To appreciate something is to identify the actions that produced it, use them to infer the
+> maker's goals, and let the values those goals imply decide whether you take the method on board.
+
+The tear is the **acceptance gate opening**. Not engagement, not resolution — *uptake*. And the
+curator's phrase *"even if they didn't fully understand it, they could see the edges of it"*
+describes acquisition happening **above the reader's current level**, which is precisely the
+condition the acquisition test was designed around.
+
+**Re-reading the batch under the corrected account, engagement separates cleanly:**
+
+| item | wanted to keep reading | was there method available to take on board? |
+|---|---|---|
+| 3 Cloudflare 2019 | **yes** | yes — *"I would have enjoyed reading this as an example of how an outage was dealt with"* |
+| 7 PG | **yes** | yes — *"an adept seeing a master"* |
+| 1 GitLab | no | no — read as PR performance; nothing to acquire |
+| 2, 6 eHow | no | no — competent, but below the reader's level |
+| 4 eHow Gauss | no (**repulsion**) | no — *"a lack of expertise... trying to sound impressive"* |
+| 5 10-K | no | **blocked** — method present, reader lacks the key (§4) |
+| 8 Cloudflare 2025 | no | no — *"it costs them that kind of human touch"* |
+| 9 Dragon Haven | no | no — sincere, but nothing to learn |
+
+Both "yes" rows are the two artifacts where the curator could **take something away**. Not the
+most careful artifact (item 1 is careful), not the most sincere (item 9 is sincere). The ones with
+transferable method above the reader's level.
+
+**Why this matters more than the finding it replaces.** The Ghost Scale Simulation names the
+acquisition test — *expose a reader to work above its level and measure what it can then produce*
+— as **the sharpest available test of the whole framework**, and as the top external priority it
+deliberately did not simulate because it needs human subjects. What is recorded here is one
+curator, on one artifact, reporting the subjective side of that mechanism unprompted. **It is not
+the acquisition test**: nothing was measured about what the reader could subsequently produce.
+But it locates where the test would attach, and it says the phenomenon is reportable by the
+reader — which was not obvious.
+
+**Consequences:**
+
+- Item 4's **repulsion** stops being an anomaly. Under the corrected account it is the gate
+  slamming on an artifact offering method the reader judged *worse than their own*. Indifference
+  and repulsion are different states and the family represents neither.
+- Item 5 is a **third** state: method present, reader lacks the expertise to take it. Distinct
+  from "no method" and from "method rejected." §4's two-factor decomposition and this are the
+  same finding seen from the reader's side.
+- **The engagement signal should not be discarded**, which the original §5 implied. It appears to
+  track acquisition, which is a quantity the instrument does not currently model at all.
+
+### §5.1 The original text, retained as an error record
+
+*Wanted to keep reading: items 3 and 7 only. Did not want to keep reading: 1, 2, 4, 5, 6, 8, 9 —
+including item 1, a careful artifact by a competent maker, and item 9, which the curator read as
+unmistakably human and sincere. The reasons given are never about quality:*
+
+- *item 1 — "who cares. It didn't directly affect me."*
+- *item 2 — "I wasn't the target audience."*
+- *item 6 — "it doesn't apply to me... It would be useful. I just don't care."*
+- *item 4 — "I was actually repulsed."*
+
+*Engagement tracked relevance-to-reader and aesthetic pleasure; it did not track depth, fit, or
+craft.* ← **wrong; see above.** The quoted evidence is accurate and the inference from it was not.
+Item 6's *"it would be useful, I just don't care"* is in fact the corrected account stating
+itself: useful-in-principle, no acquisition available *for this reader*.
+
+---
+
+## §5-OLD. Engagement is not depth *(superseded — see §5)*
 
 Wanted to keep reading: **items 3 and 7 only.** Did not want to keep reading: **1, 2, 4, 5, 6, 8,
 9** — including item 1, a careful artifact by a competent maker, and item 9, which the curator
