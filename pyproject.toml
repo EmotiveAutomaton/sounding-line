@@ -1,0 +1,43 @@
+[project]
+name = "sounding-line"
+version = "0.1.0"
+description = "An instrument for reading intent out of real artifacts. Not an AI detector — an intent detector."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Abraham Haskins, PhD" }]
+dependencies = [
+    "pyyaml",
+    "pydantic>=2",          # the probe's constrained schema; SPEC §8 — structured output only
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "pytest",
+]
+
+[project.optional-dependencies]
+# The probe arms are optional extras so that the analysis package can be imported, tested, and
+# reasoned about without any model client present. This is not tidiness — it is SPEC §8. A
+# process that cannot import a network client cannot make a network call.
+local = [
+    "ollama",               # A-5 local arm: carries convergence-sampling volume
+]
+api = [
+    "anthropic",            # A-5 reference arm: quality reference on a held-out slice
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["soundingline*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "needs_local: requires a running Ollama with the pinned model; skips otherwise",
+    "needs_api: requires an API credential; skips otherwise, and never runs in the probe process",
+    "gate1: the Gate 1 pre-registered criteria",
+]

@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------------------------
+# SPEC §8: do not re-host the content. Store hashes and offsets publicly, text privately.
+#
+# These four rules are the security posture, not housekeeping. The corpus under study is
+# adversarial content engineered to influence language models. Committing it would republish it.
+corpora/store/
+corpora/cache/
+corpora/**/*.jsonl
+corpora/**/*.txt
+!corpora/manifests/
+!corpora/manifests/**
+
+# Credentials never enter the environment of any process that reads fetched text.
+.env
+.env.*
+*.key
+
+# ---------------------------------------------------------------------------------------------
+# Ordinary Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Results: CSVs and verdict JSON are committed (they are the record). Raw model transcripts are
+# not — they contain the artifact text, which the rule above says stays local.
+results/**/transcripts/
+results/**/raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
