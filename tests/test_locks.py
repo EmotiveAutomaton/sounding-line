@@ -59,16 +59,44 @@ def test_hash_file_is_byte_exact():
 # The family is data, so it gets the checks data gets.
 
 def _family() -> dict:
-    path = REPO_ROOT / "soundingline" / "family" / "family_v1.yaml"
+    path = REPO_ROOT / "soundingline" / "family" / "family_v2.yaml"
     return yaml.safe_load(path.read_text(encoding="utf-8"))
 
 
-def test_family_has_the_five_spec_dimensions():
-    """SPEC §4's table, exactly. Not a superset -- an extra dimension is an unrecorded change
-    to the instrument."""
+def test_family_has_the_v2_dimensions():
+    """SPEC §4's table plus the two dimensions calibration added.
+
+    Still not a superset test by accident: an extra dimension beyond these is an unrecorded
+    change to the instrument. The two additions are recorded in CALIBRATION_02 §5 and in the
+    family file's own `provenance_of_changes`.
+    """
     assert set(_family()["dimensions"]) == {
-        "purpose", "audience", "depth", "cost_borne", "trade_offs"
+        "purpose", "audience", "depth", "cost_borne",
+        "artifact_effort", "demonstrated_work", "trade_offs",
     }
+
+
+def test_effort_is_two_dimensions_not_one():
+    """The curator split effort before it was built; it must not be re-collapsed.
+
+    Collapsing these loses the postmortem case -- a cheap document about an expensive thing --
+    which is where the depth construct attaches for reportage.
+    """
+    dims = _family()["dimensions"]
+    assert "artifact_effort" in dims and "demonstrated_work" in dims
+    assert "effort" not in dims, "effort must not exist as a single collapsed dimension"
+
+
+def test_artifact_effort_records_its_own_recovery_ceiling():
+    """CALIBRATION_02 §7: partially recoverable by construction, because the missing
+    information is how the artifact was made -- which the instrument refuses to claim."""
+    assert "limit" in _family()["dimensions"]["artifact_effort"]
+
+
+def test_family_records_its_known_limits():
+    """A family that cannot say what it cannot express invites the overclaim."""
+    limits = {l["id"] for l in _family()["known_limits"]}
+    assert {"L-1", "L-2", "L-3", "L-4"} <= limits
 
 
 def test_audience_carries_the_two_distinct_empty_cases():
@@ -87,7 +115,7 @@ def test_load_bearing_dimensions_are_marked():
     """Audience, depth and trade-offs are the three the spec calls load-bearing."""
     dims = _family()["dimensions"]
     assert {d for d, v in dims.items() if v["load_bearing"]} == {
-        "audience", "depth", "trade_offs"
+        "audience", "depth", "demonstrated_work", "trade_offs"
     }
 
 

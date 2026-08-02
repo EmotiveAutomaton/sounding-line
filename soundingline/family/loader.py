@@ -18,7 +18,12 @@ from pathlib import Path
 
 import yaml
 
-FAMILY_PATH = Path(__file__).resolve().parent / "family_v1.yaml"
+# v2 is current. v1 is retained, hash-locked and unedited, so that readings taken under it stay
+# comparable to each other. A reading taken under one family is NOT comparable to a reading taken
+# under the other, and the family hash travels with every reading for exactly that reason.
+FAMILY_V1_PATH = Path(__file__).resolve().parent / "family_v1.yaml"
+FAMILY_V2_PATH = Path(__file__).resolve().parent / "family_v2.yaml"
+FAMILY_PATH = FAMILY_V2_PATH
 
 
 @dataclass(frozen=True)
@@ -60,6 +65,18 @@ class Family:
     def cost_levels(self) -> tuple[int, ...]:
         return tuple(int(v.id) for v in self.dimensions["cost_borne"].values)
 
+    @property
+    def artifact_effort_levels(self) -> tuple[int, ...]:
+        """v2 only. Empty under v1, which had no effort dimension."""
+        d = self.dimensions.get("artifact_effort")
+        return tuple(int(v.id) for v in d.values) if d else ()
+
+    @property
+    def demonstrated_work_levels(self) -> tuple[int, ...]:
+        """v2 only. Empty under v1."""
+        d = self.dimensions.get("demonstrated_work")
+        return tuple(int(v.id) for v in d.values) if d else ()
+
     def gloss(self, dimension: str, value_id: str | int) -> str:
         for v in self.dimensions[dimension].values:
             if str(v.id) == str(value_id):
@@ -81,7 +98,7 @@ def _parse_values(raw: dict) -> tuple[Value, ...]:
     return tuple(Value(id=str(v["id"]), gloss=v["gloss"]) for v in entries)
 
 
-@lru_cache(maxsize=1)
+@lru_cache(maxsize=4)
 def load_family(path: str | Path = FAMILY_PATH) -> Family:
     raw = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
     dims = {

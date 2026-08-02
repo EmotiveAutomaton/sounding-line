@@ -27,7 +27,7 @@ import yaml
 from soundingline.family.loader import load_family
 
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
-BOUNDED_PATH = PROMPTS_DIR / "bounded_v1.yaml"
+BOUNDED_PATH = PROMPTS_DIR / "bounded_v2.yaml"   # v1 retained, locked, unedited
 FREEFORM_PATH = PROMPTS_DIR / "freeform_v1.yaml"
 
 
@@ -138,6 +138,8 @@ def stage_d(artifact: Artifact, settled_summary: str) -> str:
         spec["stage_d_tradeoffs"],
         settled_summary=settled_summary,
         cost_options=_options_block("cost_borne"),
+        artifact_effort_options=_options_block("artifact_effort"),
+        demonstrated_work_options=_options_block("demonstrated_work"),
         artifact_block=artifact_block(artifact, spec),
     )
 
@@ -169,5 +171,7 @@ def freeform_coerce(freeform_answer: str) -> str:
         audience_options=_options_block("audience"),
         depth_options=_options_block("depth"),
         cost_options=_options_block("cost_borne"),
+        artifact_effort_options=_options_block("artifact_effort"),
+        demonstrated_work_options=_options_block("demonstrated_work"),
     )
     return filled.replace("{freeform_answer}", freeform_answer)

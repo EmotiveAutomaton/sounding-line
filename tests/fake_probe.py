@@ -66,6 +66,8 @@ class Script:
     decisions: list[dict] = field(default_factory=list)
     trade_offs: list[dict] = field(default_factory=list)
     cost_borne: int = 1
+    artifact_effort: int = 2
+    demonstrated_work: int = 2
     confidence: float = 0.5
     account: str = ""
 
@@ -105,6 +107,8 @@ class FakeProbe:
         elif schema is StageDOut:
             parsed = StageDOut(
                 cost_borne=s.cost_borne,
+                artifact_effort=s.artifact_effort,
+                demonstrated_work=s.demonstrated_work,
                 trade_offs=tuple(s.trade_offs),
                 account=s.account,
             )

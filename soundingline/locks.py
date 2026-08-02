@@ -52,6 +52,29 @@ LOCKS: dict[str, str] = {
     # baseline" checkable rather than asserted.
     "soundingline/probe/prompts/freeform_v1.yaml":
         "bf9aaa7d7a6f593058a150a3464434b554ae080629499a8f5c0b8938249d2c46",
+    # ── family v2 and its prompt. v1 entries above are unchanged and stay locked, so readings
+    # taken under v1 remain comparable to each other. Two families coexist on purpose.
+    "soundingline/family/family_v2.yaml":
+        "ea256f1c664d0fa2d77cc23a38a233361fe94a4f4a08ef930eca0d29108bd89a",
+    # Re-locked once, before commit and before any run: the first hash was taken while the
+    # file still had CRLF line endings, which .gitattributes forbids and which hashlock treats
+    # as content by design. The lock fired on the conversion, correctly. Recorded in
+    # docs/DEVIATIONS.md rather than silently updated — this is a hash recorded in error, not a
+    # criterion changed after seeing a result, and the distinction is the whole point.
+    "soundingline/probe/prompts/bounded_v2.yaml":
+        "8b1f4e0c5cc40bd9ce2ac88d2894549edd506b1a53ce0ea95b9898995ce2b371",
+
+    # ── the generated rich/thin artifacts and their sealed protocol. Locked because the
+    # protocol names which is which and predicts the ordering; a key that can be edited after
+    # the curator answers is not a key.
+    "docs/gate1/artifacts/item_A.md":
+        "3b70b7e3d4bb587dc62811264206c49e4b306d9dec0635dceb88ce049f7ae1c8",
+    "docs/gate1/artifacts/item_B.md":
+        "8042aef86c1ce2c08f1c77f2393d54776cb39f4574d1fd8848c739ca69b58a88",
+    "docs/gate1/artifacts/item_C.md":
+        "a3260b9c432d57bda2a3045ff25dfb08cdd197b2b7267269d3c9afc0fddcf03e",
+    "docs/gate1/artifacts/PROTOCOL_SEALED.md":
+        "1a5bcbb64bf171dc23842700ce10f37b80b330e247b9eec485cdd6a3f3e23b7b",
 }
 
 # Not yet locked, and named here so the omission is deliberate rather than forgotten:

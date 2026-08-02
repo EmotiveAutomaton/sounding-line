@@ -1,0 +1,257 @@
+# The bounded hypothesis family, v2.
+#
+# v1 is NOT edited. It remains hash-locked and is retained so that readings taken under it stay
+# comparable to each other, per docs/DEVIATIONS.md. v2 is a new file with a new hash, and a
+# reading taken under one is not comparable to a reading taken under the other.
+#
+# ── WHAT CHANGED FROM v1, AND WHY ────────────────────────────────────────────────────────────
+#
+# Two calibration passes with a human curator produced one change, and the change was forced by
+# the curator reaching for something the family did not have. D-1 records that a hand-written
+# family encodes the author's assumptions about what people make things for, and that this is
+# exactly the kind of assumption the project usually tests rather than asserts. That test ran.
+#
+#   CALIBRATION_01 §3 — the curator, unprompted: "I do think effort is something you're missing
+#   in these," followed by a full effort ranking across the batch given without being asked.
+#
+#   CALIBRATION_02 §5 — and then, before the dimension was built, the same curator split it in
+#   two. On two artifacts independently: "the effort that went into this specific page was
+#   probably like a three... but the work that went into it was upwards of a five because it's
+#   demonstrating the work of a five. So it's a most-both thing sort of."
+#
+# So v2 adds TWO dimensions, not one. Collapsing them would destroy the distinction between a
+# postmortem and the work the postmortem describes — which is precisely where this project's
+# depth construct lives.
+
+version: 2
+supersedes: 1
+spec_section: "§4"
+decision: "D-1 — fixed and hand-written, amended by calibration rather than by learning"
+amendment: "C-4 (revised) — artifact_effort and demonstrated_work as separate dimensions"
+
+provenance_of_changes:
+  - "CALIBRATION_01 §3 — curator identified `effort` as absent from the family"
+  - "CALIBRATION_02 §5 — curator split effort into artifact-effort and demonstrated-work"
+  - "CALIBRATION_02 §7 — artifact_effort has a definitional recovery ceiling; see its `limit` field"
+
+dimensions:
+
+  # ── UNCHANGED FROM v1 ───────────────────────────────────────────────────────────────────────
+  purpose:
+    kind: categorical
+    load_bearing: false
+    why_in_family: "the bounded set of things people make artifacts for"
+    values:
+      - id: inform
+        gloss: "transfer something the reader did not know, for the reader's benefit"
+      - id: persuade
+        gloss: "move the reader's position on something the maker holds a stake in"
+      - id: sell
+        gloss: "cause a transaction"
+      - id: entertain
+        gloss: "hold attention as the end rather than the means"
+      - id: coordinate
+        gloss: "get people to act in concert; schedules, protocols, instructions"
+      - id: rank
+        gloss: "improve the artifact's position in some retrieval or ordering system"
+      - id: discharge_obligation
+        gloss: "satisfy a requirement that the artifact exist; compliance, boilerplate, filing"
+      - id: express
+        gloss: "externalise a maker-state, with no required effect on any reader"
+
+  audience:
+    kind: categorical
+    load_bearing: true
+    why_in_family: >
+      The grooming case is a hypothesis IN the family, not an exception to it. "Made for a
+      machine to ingest rather than a person to read" is a purpose the maker HAD, rather than an
+      absence of purpose.
+    values:
+      - id: specific_person
+        gloss: "one named reader the maker could picture"
+      - id: known_group
+        gloss: "a bounded set the maker is a member of or adjacent to"
+      - id: general_public
+        gloss: "an unbounded human readership"
+      - id: machine
+        gloss: >
+          a retrieval system, a ranking system, or a model's training corpus. A purpose the
+          maker had, never an accusation about who wrote the artifact.
+      - id: nobody_in_particular
+        gloss: >
+          no modelled reader at all. Distinct from `machine`: this is absence of an audience
+          model, that is presence of a non-human one. Collapsing them would destroy the
+          measurement.
+
+  depth:
+    kind: ordinal
+    load_bearing: true
+    why_in_family: "the V5 construct, directly — how many levels of decision are visible"
+    provenance:
+      - "E30 — depth moves how much of the maker's METHOD transfers, and provably cannot move how much of the PURPOSE does"
+      - "N21 — depth is not effort wearing a hat, but in the simulation the dissociation was a construction commitment rather than a finding"
+    levels:
+      - id: 0
+        gloss: "no decision recoverable above the sentence"
+      - id: 1
+        gloss: "local choices only — wording, ordering within a section"
+      - id: 2
+        gloss: "structural choices — what to include, what to cut, how to sequence"
+      - id: 3
+        gloss: "framing choices — what the artifact is about, against alternatives visibly rejected"
+      - id: 4
+        gloss: "stance choices — why this artifact rather than none, against a visible cost of making it"
+    falsifier:
+      hazard: "depth is just length"
+      control: "length must be regressed out before any depth claim is reported"
+
+  cost_borne:
+    kind: ordinal
+    load_bearing: false
+    why_in_family: "the metabolic commitment that makes intent legible at all"
+    gloss: "what the maker spent that they did not have to"
+    distinct_from_effort: >
+      Cost is what was GIVEN UP. Effort is how hard they WORKED. A child labouring over a bad
+      page spends effort and bears no cost; a professional who publishes one careful sentence
+      that can be held against them bears cost with little effort. v1 collapsed these and the
+      curator's data separated them.
+    levels:
+      - id: 0
+        gloss: "nothing beyond production — no evidence of anything given up"
+      - id: 1
+        gloss: "time or care visible in execution"
+      - id: 2
+        gloss: "specific knowledge that had to be acquired for this artifact"
+      - id: 3
+        gloss: "risk borne — a position taken that costs the maker something if wrong"
+
+  # ── NEW IN v2 ───────────────────────────────────────────────────────────────────────────────
+  artifact_effort:
+    kind: ordinal
+    load_bearing: false
+    new_in: 2
+    why_in_family: >
+      How hard the maker worked on THIS OBJECT. Not how good it is, and not what it cost them.
+      Added because the curator reached for it unprompted across two passes.
+    gloss: "work spent producing the artifact itself"
+    limit: >
+      PARTIALLY RECOVERABLE BY CONSTRUCTION, and this is recorded so a later null is read as a
+      definitional ceiling rather than an instrument failure. CALIBRATION_02 §7: on one artifact
+      the curator could not score it at all — "if they vibe coded it, maybe like a three... but
+      if they made it themselves more like a five." The missing information is HOW IT WAS MADE,
+      which is exactly what this instrument refuses to claim (SPEC §1). Expect a lower recovery
+      ceiling here than for depth.
+    levels:
+      - id: 0
+        gloss: "assembled or templated; no work visible beyond assembly"
+      - id: 1
+        gloss: "a single pass, unrevised"
+      - id: 2
+        gloss: "researched or checked, but not laboured over"
+      - id: 3
+        gloss: "visibly revised; structure and wording show second thoughts"
+      - id: 4
+        gloss: "sustained work over time; the artifact carries traces of its own construction"
+      - id: 5
+        gloss: "exhaustive — the making of the artifact was itself a project"
+
+  demonstrated_work:
+    kind: ordinal
+    load_bearing: true
+    new_in: 2
+    why_in_family: >
+      How much work the artifact REPORTS ON, as distinct from how much went into writing it.
+      A postmortem is a cheap document about an expensive thing. CALIBRATION_02 §5: two
+      artifacts scored 3 for the page and 5 for the work behind it, independently, by the same
+      reader on the same criterion.
+    gloss: "work spent on whatever the artifact is an account of"
+    load_bearing_because: >
+      This is where the depth construct actually attaches for reportage. An artifact whose
+      demonstrated_work greatly exceeds its artifact_effort is a report on real activity; one
+      where they are equal and low is a report on nothing. Collapsing the two into a single
+      `effort` score cannot express either case.
+    hypothesis:
+      claim: "high demonstrated_work motivates artifact production"
+      source: >
+        Curator, CALIBRATION_02 §5: "the fact that the work was a five is probably why they made
+        it in the first place. You kind of want to share the effort."
+      status: "recorded as C-8, untested. If true the two dimensions are not independent."
+    levels:
+      - id: 0
+        gloss: "the artifact reports on nothing outside itself"
+      - id: 1
+        gloss: "reports on something small, or on someone else's work"
+      - id: 2
+        gloss: "reports on real activity of ordinary scale"
+      - id: 3
+        gloss: "reports on sustained work — a project, a build, an investigation"
+      - id: 4
+        gloss: "reports on work of substantial scale or duration"
+      - id: 5
+        gloss: "the artifact is an account of a major undertaking"
+
+  trade_offs:
+    kind: structured
+    load_bearing: true
+    why_in_family: >
+      Values are not visible in what someone said they wanted. They are visible in WHAT THEY
+      GAVE UP. The Zahavian-to-trade-off correction (E51), applied as a measurement.
+    decision: "D-3 — trade-offs only in v1 and v2"
+    schema:
+      gained: "what the artifact achieves that a cheaper version would not"
+      given_up: "what a different choice would have achieved, and was not taken"
+      may_not_claim: >
+        No named value may be asserted. The output is the trade-off pair. Any rendering of that
+        pair as a value statement belongs to the reader, not the instrument.
+
+# ---------------------------------------------------------------------------------------------
+# Known limits of v2, recorded rather than fixed.
+#
+# Each is a real thing the curator observed that this family still cannot express. They are here
+# so that a future v3 has a written starting point, and so that nobody mistakes silence for
+# adequacy.
+known_limits:
+  - id: L-1
+    limit: "audience is one distribution over the whole artifact"
+    observed: >
+      CALIBRATION_01 §6 — "They were writing it to someone, but at a certain point they were
+      talking to everyone." The audience CHANGED mid-artifact and the family cannot say so.
+  - id: L-2
+    limit: "register is assumed uniform across an artifact"
+    observed: >
+      CALIBRATION_02 §6 — two professional-media artifacts independently showed corporate
+      register at the opening decaying across the piece, with the maker visible in the back
+      half. Suppressed intent leaks progressively. Recorded as a Gate 2 hypothesis (C-9);
+      it also confounds convergence measured across chunks.
+  - id: L-3
+    limit: "decisions are assumed to live inside the artifact being read"
+    observed: >
+      Curator, after batch 2 — a reading changed on seeing an identically formatted sibling
+      guide, which revealed the FORMAT as a carefully constructed prior decision reused. A
+      template is compressed prior intent: the decision was made once, earlier, elsewhere, and
+      amortised across many artifacts. The instrument reads one artifact at a time and cannot
+      see this. Directly related to E43 — practice compresses decisions, and compression makes
+      them unavailable for report. See C-13.
+  - id: L-4
+    limit: "no representation of the reader's relationship to the artifact"
+    observed: >
+      CALIBRATION_01 §5 — engagement tracked whether method was available to take on board, and
+      item 4 produced REPULSION rather than indifference: the gate slamming on method judged
+      worse than the reader's own. Indifference, blocked-by-expertise, and repulsion are three
+      distinct states and the family represents none of them.
+
+# ---------------------------------------------------------------------------------------------
+may_not_claim:
+  - "that a machine wrote this. The instrument never makes a claim about authorship."
+  - >
+    that low depth means low value. It means few decisions are RECOVERABLE, which is a claim
+    about the artifact and the reader jointly, and which the maker can rebut with evidence.
+  - >
+    that a machine-audience posterior is an accusation. It is a hypothesis in the family with a
+    probability attached, reported alongside the other quantities.
+  - >
+    any of the output quantities alone. The reading is the tuple. Report all of them always —
+    the simulation's whole methodology is that a single number invites the overclaim.
+  - >
+    that artifact_effort is fully recoverable from text. It is not, by construction, because the
+    missing information is how the artifact was made.

@@ -207,6 +207,8 @@ def run_loop(
         audience=audience,
         decisions=decisions,
         cost_borne=stage_d.cost_borne,
+        artifact_effort=stage_d.artifact_effort,
+        demonstrated_work=stage_d.demonstrated_work,
         trade_offs=stage_d.trade_offs,
         self_reported_confidence=confidence,
         account=stage_d.account,

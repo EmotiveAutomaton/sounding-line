@@ -158,6 +158,13 @@ class Reading(_Strict):
     audience: AudiencePosterior
     decisions: tuple[Decision, ...] = Field(max_length=40)
     cost_borne: int
+
+    # v2. Two dimensions, not one — the curator split them before they were built
+    # (CALIBRATION_02 §5). Collapsing them would destroy the distinction between a postmortem
+    # and the work it describes, which is where the depth construct attaches for reportage.
+    artifact_effort: int
+    demonstrated_work: int
+
     trade_offs: tuple[TradeOff, ...] = Field(max_length=10)
 
     # Self-reported, and used ONLY as a diagnostic. Fit is computed by the measures module from
@@ -169,12 +176,24 @@ class Reading(_Strict):
     account: str = Field(default="", max_length=2000)
 
     @model_validator(mode="after")
-    def _cost_in_family(self):
-        if self.cost_borne not in _FAMILY.cost_levels:
-            raise ValueError(
-                f"cost_borne {self.cost_borne} is not in the family {_FAMILY.cost_levels}"
-            )
+    def _ordinals_in_family(self):
+        for field, levels in (
+            ("cost_borne", _FAMILY.cost_levels),
+            ("artifact_effort", _FAMILY.artifact_effort_levels),
+            ("demonstrated_work", _FAMILY.demonstrated_work_levels),
+        ):
+            if getattr(self, field) not in levels:
+                raise ValueError(f"{field} {getattr(self, field)} is not in the family {levels}")
         return self
+
+    @property
+    def reports_on_work(self) -> int:
+        """How much more work the artifact REPORTS ON than it took to write.
+
+        The postmortem signature: a cheap document about an expensive thing. Large and positive
+        means an account of real activity; zero-and-low means an account of nothing.
+        """
+        return self.demonstrated_work - self.artifact_effort
 
     @property
     def max_depth(self) -> int:
@@ -226,17 +245,22 @@ class StageCOut(_Strict):
 
 
 class StageDOut(_Strict):
-    """Trade-offs and cost borne, read off the settled purpose. D-3 stops here."""
+    """Trade-offs, cost, and the two effort dimensions, read off the settled purpose."""
     cost_borne: int
+    artifact_effort: int
+    demonstrated_work: int
     trade_offs: tuple[TradeOff, ...] = Field(max_length=10)
     account: str = Field(default="", max_length=2000)
 
     @model_validator(mode="after")
-    def _cost_in_family(self):
-        if self.cost_borne not in _FAMILY.cost_levels:
-            raise ValueError(
-                f"cost_borne {self.cost_borne} is not in the family {_FAMILY.cost_levels}"
-            )
+    def _ordinals_in_family(self):
+        for field, levels in (
+            ("cost_borne", _FAMILY.cost_levels),
+            ("artifact_effort", _FAMILY.artifact_effort_levels),
+            ("demonstrated_work", _FAMILY.demonstrated_work_levels),
+        ):
+            if getattr(self, field) not in levels:
+                raise ValueError(f"{field} {getattr(self, field)} is not in the family {levels}")
         return self
 
 
