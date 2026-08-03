@@ -40,6 +40,14 @@ LOCKS: dict[str, str] = {
     "prereg/gate1.py":
         "c1af65d0886b83cb4fc4e05d913d112c2a603d806f983c3db2356f7b753936f0",
 
+    # The Gate 3 pre-registration and its corpus. Gate 3 is a CLAIM gate, so both the criteria
+    # AND the artifact list are locked before the instrument reads any of it — a corpus that can
+    # be edited after a result is not a corpus.
+    "prereg/gate3.py":
+        "57fc1b7eda862f620722b06a93ea4c50a158f943489e44f08d99014a0288b203",
+    "corpora/manifests/gate3.json":
+        "d50f2e946840e10eb233d3c71d9a9195767fe61dd3a137f5e907416689980371",
+
     # The Gate 2 pre-registration. F2 is a CLAIM falsifier — the first point where a failure is
     # allowed to stop the project — so it is locked before the corpus was read, and its stop
     # condition is written into the card rather than decided afterwards.
