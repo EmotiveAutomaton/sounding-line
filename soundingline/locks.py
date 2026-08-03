@@ -40,6 +40,12 @@ LOCKS: dict[str, str] = {
     "prereg/gate1.py":
         "c1af65d0886b83cb4fc4e05d913d112c2a603d806f983c3db2356f7b753936f0",
 
+    # The Gate 2 pre-registration. F2 is a CLAIM falsifier — the first point where a failure is
+    # allowed to stop the project — so it is locked before the corpus was read, and its stop
+    # condition is written into the card rather than decided afterwards.
+    "prereg/gate2.py":
+        "d72ca0db4af17d84f2e4fbf44fd9d66bfeeda22f3de52849d4322476340a8981",
+
     # The prompts. In an LLM-based instrument the prompt IS the measurement apparatus — the
     # simulation had no analogue of this, and Gate 0 named prompt drift as the most likely
     # place undocumented change enters the project. Locked before the first Gate 1 run.
