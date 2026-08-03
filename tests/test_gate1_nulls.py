@@ -216,20 +216,22 @@ def test_n1_a_coherent_reading_scores_high_fit():
     f = fit(run, ARTIFACT_TEXT)
     assert f.grounding == 1.0
     assert f.support == 1.0
-    assert f.combined > 0.6
+    assert f.recovery > 0
     assert f.unverifiable_quotes == 0
 
 
 def test_n1_control_the_wall_scores_low_fit():
-    """The control on the control: an empty, uniform reading must score near zero.
+    """The control on the control: an empty reading must score zero on every component.
 
-    A fit measure that cannot go low is not measuring the wall.
+    A fit panel that cannot go low is not measuring the wall. Note this is now checked
+    component-wise — there is no aggregate to check, by design.
     """
     probe = FakeProbe(Script(purpose_sequence=[flat_purpose(), flat_purpose()]))
     run = run_loop(probe, ARTIFACT)
     f = fit(run, ARTIFACT_TEXT)
-    assert f.concentration == pytest.approx(0.0, abs=1e-9)
-    assert f.combined == pytest.approx(0.0, abs=1e-9)
+    assert f.grounding == pytest.approx(0.0, abs=1e-9)
+    assert f.support == pytest.approx(0.0, abs=1e-9)
+    assert f.recovery == pytest.approx(0.0, abs=1e-9)
 
 
 def test_fabricated_quotes_are_caught_not_averaged_away():
@@ -251,7 +253,7 @@ def test_fabricated_quotes_are_caught_not_averaged_away():
     f = fit(run, ARTIFACT_TEXT)
     assert f.unverifiable_quotes == 1
     assert f.grounding == 0.0
-    assert f.combined == pytest.approx(0.0, abs=1e-9)
+    assert not f.verifiable, "claims were made and none traced; that must be flagged"
 
 
 # =============================================================================================
@@ -353,6 +355,10 @@ def test_measurement_reports_all_four_and_has_no_headline_number():
 
     assert m.fit and m.convergence and m.depth and m.audience
     assert not hasattr(m, "score"), "SPEC §5: the reading is the tuple; no single headline"
+    assert not hasattr(m.fit, "combined"), (
+        "fit must not expose an aggregate — a scalar is what C-18 ranked on, and every one of "
+        "its three components turned out to be measuring the wrong object"
+    )
     assert any("authorship" in c for c in m.may_not_claim)
 
 

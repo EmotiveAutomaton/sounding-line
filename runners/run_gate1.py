@@ -92,6 +92,7 @@ def main() -> None:
             "valid": len(runs),
             "failures": failures,
             "fit": asdict(m.fit),
+            "purpose_breadth": m.purpose_breadth,
             "convergence": asdict(m.convergence),
             "depth": {k: v for k, v in asdict(m.depth).items() if k != "profile"},
             "audience": asdict(m.audience),
@@ -110,21 +111,28 @@ def main() -> None:
     # Only verifiable readings may be ranked. An unverifiable one is not a low score, it is an
     # absence of one, and sorting it as zero would silently rank "we could not check this"
     # below "the family explained nothing" — which is exactly backwards.
-    ranked = sorted(
-        (s for s in summary if "fit" in summary[s]),
-        key=lambda s: summary[s]["fit"]["combined"],
-        reverse=True,
-    )
-    # Flagged rather than excluded: a reading whose claims did not trace still has a fit, and it
-    # is low for a reason the reader of these results needs told apart from an empty artifact.
+    # ── DOMINANCE, NOT RANKING ───────────────────────────────────────────────────────────────
+    # C-18 ranked on a scalar and the scalar is gone (see Fit's docstring). What replaces it is
+    # Pareto dominance over the fit panel: artifacts that trade off against each other come back
+    # INCOMPARABLE rather than being separated by weights nobody agreed on.
+    from soundingline.measures.reading import Fit, dominates
+
+    fits = {s: Fit(**{k: v for k, v in summary[s]["fit"].items()})
+            for s in summary if "fit" in summary[s]}
+    pairs = []
+    for x in fits:
+        for y in fits:
+            if x != y and dominates(fits[x], fits[y]):
+                pairs.append(f"{x.replace('item_','')} > {y.replace('item_','')}")
+    order = "; ".join(pairs) if pairs else "no artifact dominates any other (all incomparable)"
     unverifiable = [s for s in summary
                     if "fit" in summary[s] and not summary[s]["fit"]["verifiable"]]
-    order = " > ".join(r.replace("item_", "") for r in ranked)
-    verdicts = {
-        "A > C > B": "PROTOCOL ORDER — the probe recovered direction the curator could not",
-        "B > C > A": "CURATOR ORDER — the probe shares the surface heuristic; architecture at fault",
-    }
-    verdict = verdicts.get(order, "NEITHER — the probe is measuring a third thing")
+    # C-18 is retained and still computed, per the deviation discipline — but it is recorded as
+    # MIS-SPECIFIED (it ranked on a scalar, which SPEC §5 forbids) and its verdict is reported as
+    # a historical artefact rather than as a finding. See docs/GATES.md.
+    verdict = ("C-18 retained but MIS-SPECIFIED: it ranked artifacts on a single number, which "
+               "SPEC §5 forbids, and the rich-vs-thin comparison is a Gate 2 falsifier rather "
+               "than a Gate 1 criterion. Dominance over the fit panel is reported instead.")
 
     out = {
         "gate": 1,
@@ -133,7 +141,9 @@ def main() -> None:
         "arm": args.arm,
         "k": args.k,
         "elapsed_s": round(time.time() - t_start, 1),
-        "ranking_by_fit": order,
+        "fit_dominance": order,
+        "purpose_breadth": {s: round(summary[s].get("purpose_breadth", 0.0), 3)
+                            for s in summary if "fit" in summary[s]},
         "unverifiable": unverifiable,
         "verdict_C18": verdict,
         "protocol_order": "A > C > B",
@@ -144,7 +154,7 @@ def main() -> None:
         json.dumps(out, indent=2), encoding="utf-8")
 
     print("=" * 78)
-    print(f"RANKING BY FIT : {order}")
+    print(f"FIT DOMINANCE  : {order}")
     if unverifiable:
         print(f"UNTRACED       : {', '.join(unverifiable)} "
               f"(claims made, not found in artifact — low fit for fabrication, not emptiness)")

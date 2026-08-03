@@ -1,0 +1,125 @@
+{
+  "family_sha256": "ea256f1c664d0fa2d77cc23a38a233361fe94a4f4a08ef930eca0d29108bd89a",
+  "arm": "local",
+  "k": 1,
+  "items": {
+    "item_A": {
+      "bounded": [
+        {
+          "artifact_id": "item_A",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 0,
+          "converged": false,
+          "iterations": 5,
+          "settling_rate": 1.909,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.18313953488372092,
+                "persuade": 0.07848837209302326,
+                "sell": 0.029069767441860465,
+                "entertain": 0.10755813953488372,
+                "coordinate": 0.1308139534883721,
+                "rank": 0.25872093023255816,
+                "discharge_obligation": 0.17732558139534885,
+                "express": 0.03488372093023256
+              },
+              "simplex_deviation": 2.44
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.22392638036809817,
+                "known_group": 0.12269938650306748,
+                "general_public": 0.17791411042944785,
+                "machine": 0.19325153374233128,
+                "nobody_in_particular": 0.2822085889570552
+              },
+              "simplex_deviation": 2.26
+            },
+            "decisions": [
+              {
+                "level": 1,
+                "what_was_chosen": "",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "M2",
+                "alternative_rejected": "M1",
+                "evidence": {
+                  "quote": "\"It's not damage... It's that Corpse Piler\""
+                }
+              }
+            ],
+            "cost_borne": 1,
+            "artifact_effort": 2,
+            "demonstrated_work": 0,
+            "trade_offs": [
+              {
+                "gained": "Clarity for the reader who wants to finish without quitting",
+                "given_up": "A route guide for rushing there at level 30",
+                "evidence": {
+                  "quote": "\"Finish it first.\""
+                }
+              },
+              {
+                "gained": "Advice to prioritize Vigor over Dexterity or Arcane for survivability and focus",
+                "given_up": "Optimizing stats immediately upon obtaining the weapon via respeccing later",
+                "evidence": {
+                  "quote": "\"Put levels into Vigor until it says 40.\""
+                }
+              },
+              {
+                "gained": "A specific build target (around 45 Arcane and 20 Dexterity) that works badly-built",
+                "given_up": "Detailed stat calculation or tables, to avoid wasting time on the calculator before playing",
+                "evidence": {
+                  "quote": "\"I'm giving you a target rather than a table because...\""
+                }
+              }
+            ],
+            "confidence_100": 0,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 2.7137,
+              "n_decisions": 2,
+              "changed_because": "inform"
+            },
+            {
+              "iteration": 2,
+              "movement": 2.6859,
+              "n_decisions": 2,
+              "changed_because": ""
+            },
+            {
+              "iteration": 3,
+              "movement": 1.2167,
+              "n_decisions": 5,
+              "changed_because": "The analysis explicitly states the purpose distribution as inform (85) / persuade (15). The audience is stated as specific_person (95) with a note on known_group (5)."
+            },
+            {
+              "iteration": 4,
+              "movement": 2.9289,
+              "n_decisions": 2,
+              "changed_because": "inform"
+            }
+          ]
+        }
+      ],
+      "freeform": [],
+      "failures": []
+    }
+  }
+}

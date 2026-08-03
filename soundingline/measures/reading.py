@@ -58,100 +58,87 @@ def _normalise_quote(s: str) -> str:
 
 @dataclass(frozen=True)
 class Fit:
-    """How well the best hypothesis in the bounded family explains the artifact.
+    """How much maker-state was recovered, and how well it is evidenced. **No aggregate.**
 
     **Low fit is the wall** (SPEC §5) — familiar surface, no recoverable maker-state behind it.
-    E37: the wall is a missing inversion, not a vocabulary deficit, so fit must be able to be
-    low on text the probe reads perfectly well. Every component below is therefore about
-    RECOVERY, and none is about readability.
 
-    Three components, reported separately as well as combined, because they fail differently:
+    ── WHY THERE IS NO `combined` FIELD ──────────────────────────────────────────────────────
+    There was one. It was a geometric mean of three components, C-18 ranked artifacts on it, and
+    every one of the three turned out to be measuring the wrong object:
 
-    * `concentration` — did the bounded family land anywhere? Uniform posterior = no hypothesis
-      in the human-shaped family explained this.
-    * `grounding` — of the claims made, how many point at text that is actually there? This is
-      the fabrication check and it is the one component with no charitable reading: an
-      unverifiable quote was invented.
-    * `support` — were decisions recovered at all, and did they name rejected alternatives?
-      A "decision" with no visible alternative is a property of the artifact, not a decision.
+      * `support` detected the word "alternative" rather than the structure of a decision;
+      * `grounding` scored an empty artifact the same as an invented reading — the wall and E2
+        collapsed into a single number;
+      * `concentration` rewarded artifacts with ONE purpose, so a rich artifact that genuinely
+        informs and persuades and expresses scored lowest, and the scalar ranked it last while
+        four other dimensions ranked it first.
+
+    SPEC §5 warned about precisely this: *the reading is the tuple... a single number invites the
+    overclaim.* A scalar was the defect, not the particular arithmetic, so the scalar is gone
+    rather than reweighted. Comparison between artifacts uses `dominates()`, which is a partial
+    order — artifacts that trade off against each other come back INCOMPARABLE, which is the
+    true answer and one no weighting scheme can express.
+
+    `concentration` is no longer part of fit at all. It measures how single-purposed an artifact
+    is, which is a property of the artifact rather than of the recovery, and it is reported
+    beside fit as a diagnostic rather than folded into it.
     """
-    concentration: float
-    grounding: float
-    support: float
-    combined: float
+    grounding: float          # of the claims made, how many trace to text that is really there
+    support: float            # of the decisions found, how many name a road not taken
+    recovery: float           # how much was recovered at all, per 1k chars, capped at 1.0
     unverifiable_quotes: int
-
-    # `verifiable` is a REPORTING flag, not a gate on the number. False means the reading made
-    # claims and they could not be traced, so `combined` is low because the reading is
-    # unsupported — as distinct from low because the artifact is empty. Both are low fit; they
-    # are low for opposite reasons and a reader of the results needs to know which.
     verifiable: bool
 
-    # Chosen, not derived, and recorded here rather than buried so it can be argued with.
     GROUNDING_FLOOR = 0.30
+
+    @property
+    def components(self) -> dict[str, float]:
+        return {"grounding": self.grounding, "support": self.support, "recovery": self.recovery}
+
+
+def dominates(a: Fit, b: Fit) -> bool:
+    """True when `a` is at least as good on every component and better on at least one.
+
+    Pareto dominance. Two artifacts that each win on something are incomparable, and the
+    instrument says so instead of inventing a winner via weights nobody agreed on.
+    """
+    ca, cb = a.components, b.components
+    return all(ca[k] >= cb[k] for k in ca) and any(ca[k] > cb[k] for k in ca)
 
 
 def fit(run: LoopRun, artifact_text: str) -> Fit:
     r = run.reading
-    haystack = _normalise_quote(artifact_text)
-
-    concentration = 1.0 - _normalised_entropy(r.purpose.distribution)
 
     quotes = [d.evidence for d in r.decisions] + [t.evidence for t in r.trade_offs]
     if quotes:
-        # locate() is authoritative: the model supplies the quote, the code finds it. A quote
-        # that cannot be located is fabrication, and that is now the only thing this can mean.
-        # Graded, not binary. Each quote contributes its own similarity to the artifact, so a
-        # lightly-paraphrased transcription costs a little and an invented sentence costs
-        # everything. `unverifiable_quotes` still counts outright misses, which is the number
-        # that means fabrication.
         located = [e.locate(artifact_text) for e in quotes]
         grounding = sum(loc[2] for loc in located if loc) / len(quotes)
         unverifiable = sum(1 for loc in located if loc is None)
     else:
-        # No claims made is not the same as claims that failed to check out. An artifact from
-        # which nothing was recovered has no grounding to measure, and scoring it 1.0 would
-        # reward silence. Scored 0 and distinguished from fabrication by `unverifiable_quotes`.
+        # Nothing offered is not the same as nothing verified. An artifact from which no claim
+        # was made has vacuous grounding, and `recovery` is where its emptiness registers.
         grounding = 0.0
         unverifiable = 0
 
     if r.decisions:
-        # A decision must name what was NOT done. The schema requires the field to be non-empty,
-        # so this catches the degenerate case where it is filled with a restatement of the
-        # choice rather than an alternative.
-        # A decision counts only if an alternative was actually named AND it differs from what
-        # was chosen. An empty alternative is the probe reporting that nothing else was visible,
-        # which under SPEC §4 means this was never a decision — so it lowers support rather than
-        # invalidating the reading it appears in.
-        distinct = sum(
+        support = sum(
             1 for d in r.decisions
             if d.alternative_rejected.strip()
             and _normalise_quote(d.alternative_rejected) != _normalise_quote(d.what_was_chosen)
-        )
-        support = distinct / len(r.decisions)
+        ) / len(r.decisions)
     else:
         support = 0.0
 
-    # ── SILENCE AND FABRICATION ARE DIFFERENT, AND ONLY ONE IS A LOW GROUNDING ──────────────
-    #
-    # Grounding stays a component. An explanation that cannot be tied to the text IS a worse
-    # explanation, and once matching became graded (Evidence.locate) a zero here means the
-    # claims genuinely are not in the artifact — which is fabrication, and fit should collapse.
-    #
-    # What has to be separated is the case where NO claim was offered at all. An artifact from
-    # which nothing was recovered has nothing to verify: its grounding is vacuous, not failed.
-    # Feeding a vacuous 0.0 into the product punishes an artifact for being empty in exactly the
-    # same way it punishes a reading for being invented, and those are the two states this
-    # instrument exists to tell apart — the wall versus E2.
-    #
-    # So: claims offered -> grounding participates. No claims offered -> it drops out, and the
-    # reading scores low anyway through support, which is where emptiness belongs.
-    if quotes:
-        combined = (concentration * grounding * support) ** (1 / 3)
-    else:
-        combined = (concentration * support) ** 0.5
+    # Recovery: decisions per 1k characters, capped. Deliberately length-normalised, because
+    # SPEC §7's third falsifier is that depth is just length and an un-normalised count would
+    # walk straight into it. The cap is at 4 per 1k, above which more decisions stop meaning
+    # more recovered intent and start meaning padding — which is the failure mode the stage-B
+    # prompt explicitly warns the probe against.
+    chars = max(1, len(artifact_text))
+    recovery = min(1.0, (len(r.decisions) / chars * 1000) / 4.0)
+
     verifiable = (not quotes) or grounding >= Fit.GROUNDING_FLOOR
-    return Fit(concentration, grounding, support, combined, unverifiable, verifiable)
+    return Fit(grounding, support, recovery, unverifiable, verifiable)
 
 
 # ---------------------------------------------------------------------------------------------
@@ -305,6 +292,10 @@ class Measurement:
     """
     artifact_id: str
     fit: Fit
+    # Reported beside fit, never inside it. How single-purposed the artifact is — a property of
+    # the artifact rather than of the recovery, and the component whose inclusion in fit ranked
+    # the richest artifact in the Gate 1 set dead last.
+    purpose_breadth: float
     convergence: Convergence
     depth: Depth
     audience: AudienceReading
@@ -338,6 +329,7 @@ def measure(runs: list[LoopRun], artifact_text: str) -> Measurement:
     return Measurement(
         artifact_id=runs[0].artifact_id,
         fit=fit(runs[0], artifact_text),
+        purpose_breadth=_normalised_entropy(runs[0].reading.purpose.distribution),
         convergence=convergence(runs),
         depth=depth(runs[0], artifact_text),
         audience=audience(runs),
