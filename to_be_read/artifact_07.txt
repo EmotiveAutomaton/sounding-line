@@ -1,335 +1,135 @@
-Contact Us ⋆ Locksmith For NYC ⋆ Locksmiths By Area
+Things we learned about LLMs in [year]
 
-/
-Contact Us in NYC
+Simon Willison’s Weblog
 
-Contact Us
+Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for ISVs turns vision into results
 
-Office
+Things we learned about LLMs in [year]
 
-Locksmith For NYC
+[date]
 
-120 Riverside Blvd
+A lot has happened in the world of Large Language Models over the course of [year]. Here’s a review of things we figured out about the field in the past twelve months, plus my attempt at identifying key themes and pivotal moments.
 
-New York, NY
+This is a sequel to my review of [year] .
 
-10069 United States
+In this article:
 
-info@locksmith4nyc.com
+The GPT-4 barrier was comprehensively broken
 
-(917) 696-8842
+Some of those GPT-4 models run on my laptop
 
-Directions
+LLM prices crashed, thanks to competition and increased efficiency
 
-Locked out now?   We are always open !
+Multimodal vision is common, audio and video are starting to emerge
 
-No matter the time of day or night, our locksmiths are available to help. We provide fast response times and full locksmith services across all five boroughs of New York City.
+Voice and live camera mode are science fiction come to life
 
-Contact Us &#8211; Locksmith For NYC here to help you
+Prompt driven app generation is a commodity already
 
-Our Service Areas
+Universal access to the best models lasted for just a few short months
 
-Manhattan
+“Agents” still haven’t really happened yet
 
-Brooklyn
+Evals really matter
 
-Bronx
+Apple Intelligence is bad, Apple’s MLX library is excellent
 
-Queens
+The rise of inference-scaling “reasoning” models
 
-Staten Island
+Was the best currently available LLM trained in China for less than $6m?
 
-We proudly serve all NYC neighborhoods , 24 hours a day, 7 days a week.
+The environmental impact got better
 
-Hours – Walk-In Office & Consulting (Showroom) &#8211; located in
+The environmental impact got much, much worse
 
-120 Riverside Blvd, New York, NY, 10069
+The year of slop
 
-Visit our walk-in locksmith office for consultations, full-service showroom, and scheduling services.
+Synthetic training data works great
 
-Mon  &#8211; 10:00am &#8211; 5:00pm
+LLMs somehow got even harder to use
 
-Tue   &#8211; 10:00am &#8211; 5:00pm
+Knowledge is incredibly unevenly distributed
 
-Wed  &#8211; 10:00am &#8211; 5:00pm
+LLMs need better criticism
 
-Thu   &#8211; 10:00am &#8211; 5:00pm
+Everything tagged “llms” on my blog in [year]
 
-Fri     &#8211; 10:00am &#8211; 5:00pm
+The GPT-4 barrier was comprehensively broken
 
-Sat    &#8211; closed
+In my [date] review I wrote about how We don’t yet know how to build GPT-4 —OpenAI’s best model was almost a year old at that point, yet no other AI lab had produced anything better. What did OpenAI know that the rest of us didn’t?
 
-Sun   &#8211; closed
+I’m relieved that this has changed completely in the past twelve months. 18 organizations now have models on the Chatbot Arena Leaderboard that rank higher than the original GPT-4 from [date] ( GPT-4-0314 on the board)—70 models in total.
 
-key duplication service : Copy Car Keys only
+The earliest of those was Google’s Gemini 1.5 Pro , released in February. In addition to producing GPT-4 level outputs, it introduced several brand new capabilities to the field—most notably its 1 million (and then later 2 million) token input context length, and the ability to input video.
 
-Please note: No house or apartment key duplication is available on-site
+I wrote about this at the time in The killer app of Gemini Pro 1.5 is video , which earned me a short appearance as a talking head in the Google I/O opening keynote in May.
 
-Call (917) 696-8842 now – Get your FREE quote today!
+Gemini 1.5 Pro also illustrated one of the key themes of [year]: increased context lengths . Last year most models accepted 4,096 or 8,192 tokens, with the notable exception of Claude 2.1 which accepted 200,000 . Today every serious provider has a 100,000+ token model, and Google’s Gemini series accepts up to 2 million.
 
-Hours – Mobile EMERGENCY  Locksmith Service (At Your Location)
+Longer inputs dramatically increase the scope of problems that can be solved with an LLM: you can now throw in an entire book and ask questions about its contents, but more importantly you can feed in a lot of example code to help the model correctly solve a coding problem. LLM use-cases that involve long inputs are far more interesting to me than short prompts that rely purely on the information already baked into the model weights. Many of my tools were built using this pattern.
 
-Our mobile locksmith team is available 24/7 – every day of the week :
+Getting back to models that beat GPT-4: Anthropic’s Claude 3 series launched in March , and Claude 3 Opus quickly became my new favourite daily-driver. They upped the ante even more in June with the launch of Claude 3.5 Sonnet —a model that is still my favourite six months later (though it got a significant upgrade on October 22 , confusingly keeping the same 3.5 version number. Anthropic fans have since taken to calling it Claude 3.6).
 
-Mon   &#8211;   24 hours
+Then there’s the rest. If you browse the Chatbot Arena leaderboard today—still the most useful single place to get a vibes-based evaluation of models—you’ll see that GPT-4-0314 has fallen to around 70th place. The 18 organizations with higher scoring models are Google, OpenAI, Alibaba, Anthropic, Meta, Reka AI, 01 AI, Amazon, Cohere, DeepSeek, Nvidia, Mistral, NexusFlow, Zhipu AI, xAI, AI21 Labs, Princeton and Tencent.
 
-Tue    &#8211;   24 hours
+Training a GPT-4 beating model was a huge deal in [year]. In [year] it’s an achievement that isn’t even particularly notable, though I personally still celebrate any time a new organization joins that list.
 
-Wed  &#8211;   24 hours
+Some of those GPT-4 models run on my laptop
 
-Thu   &#8211;   24 hours
+My personal laptop is a 64GB M2 MacBook Pro from [year]. It’s a powerful machine, but it’s also nearly two years old now—and crucially it’s the same laptop I’ve been using ever since I first ran an LLM on my computer back in [date] (see Large language models are having their Stable Diffusion moment ).
 
-Fri     &#8211;   24 hours
+That same laptop that could just about run a GPT-3-class model in March last year has now run multiple GPT-4 class models! Some of my notes on that:
 
-Sat    &#8211;   24 hours
+Qwen2.5-Coder-32B is an LLM that can code well that runs on my Mac talks about Qwen2.5-Coder-32B in November—an Apache 2.0 licensed model!
 
-Sun   &#8211;   24 hours
+I can now run a GPT-4 class model on my laptop talks about running Meta’s Llama 3.3 70B (released in December)
 
-Call us anytime at (917) 696-8842 – a licensed locksmith will be dispatched to your location.
+This remains astonishing to me. I thought a model with the capabilities and output quality of GPT-4 needed a datacenter class server with one or more $40,000+ GPUs.
 
-Our Complete Locksmith services including:
+These models take up enough of my 64GB of RAM that I don’t run them often—they don’t leave much room for anything else.
 
-24/7 EMERGENCY LOCKSMITH SERVICE
+The fact that they run at all is a testament to the incredible training and inference performance gains that we’ve figured out over the past year. It turns out there was a lot of low-hanging fruit to be harvested in terms of model efficiency. I expect there’s still more to come.
 
-LOCKOUT LOCKSMITH SERVICE
+Meta’s Llama 3.2 models deserve a special mention. They may not be GPT-4 class, but at 1B and 3B sizes they punch massively above their weight. I run Llama 3.2 3B on my iPhone using the free MLC Chat iOS app and it’s a shockingly capable model for its tiny (<2GB) size. Try firing it up and asking it for “a plot outline of a Netflix Christmas movie where a data journalist falls in love with a local ceramacist”. Here’s what I got, at a respectable 20 tokens per second:
 
-RESIDENTIAL LOCKSMITH
+Here’s the rest of the transcript . It’s bland and generic, but my phone can pitch bland and generic Christmas movies to Netflix now!
 
-LOCK CHANGE
+LLM prices crashed, thanks to competition and increased efficiency
 
-LOCK INSTALLATION
+The past twelve months have seen a dramatic collapse in the cost of running a prompt through the top tier hosted LLMs.
 
-COMMERCIAL LOCKSMITH
+In [date] (here’s the Internet Archive for the OpenAI pricing page ) OpenAI were charging $30/million input tokens for GPT-4, $10/mTok for the then-new GPT-4 Turbo and $1/mTok for GPT-3.5 Turbo.
 
-LOCK REPLACEMENT
+Today $30/mTok gets you OpenAI’s most expensive model, o1. GPT-4o is $2.50 (12x cheaper than GPT-4) and GPT-4o mini is $0.15/mTok—200x cheaper than GPT-4, nearly 7x cheaper than GPT-3.5 and massively more capable than that model.
 
-LOCK REPAIR
+Other model providers charge even less. Anthropic’s Claude 3 Haiku (from March, but still their cheapest model) is $0.25/mTok. Google’s Gemini 1.5 Flash is $0.075/mTok and their Gemini 1.5 Flash 8B is $0.0375/mTok—that’s 27x cheaper than GPT-3.5 Turbo last year.
 
-CAR LOCKSMITH SERVICE
+I’ve been tracking these pricing changes under my llm-pricing tag .
 
-MASTER KEY SYSTEM
+These price drops are driven by two factors: increased competition and increased efficiency. The efficiency thing is really important for everyone who is concerned about the environmental impact of LLMs. These price drops tie directly to how much energy is being used for running prompts.
 
-LOCK REKEY
+There’s still plenty to worry about with respect to the environmental impact of the great AI datacenter buildout, but a lot of the concerns over the energy cost of individual prompts are no longer credible.
 
-SECURITY SYSTEM
+Here’s a fun napkin calculation: how much would it cost to generate short descriptions of every one of the 68,000 photos in my personal photo library using Google’s Gemini 1.5 Flash 8B ( released in October ), their cheapest model?
 
-FIRE ESCAPE GATE
+Each photo would need 260 input tokens and around 100 output tokens.
 
-WINDOWS GATE / CHILD GUARD
+260 * 68,000 = 17,680,000 input tokens
 
-APARTMENT FIREPROOF DOORS
+17,680,000 * $0.0375/million = $0.66
 
-CAR KEY DUPLICATION
+100 * 68,000 = 6,800,000 output tokens
 
-SAFE OPENING
+6,800,000 * $0.15/million = $1.02
 
-COPY CAR KEYS & LOCKS IN STOCK AT CENTER
+That’s a total cost of $1.68 to process 68,000 images. That’s so absurdly cheap I had to run the numbers three times to confirm I got it right.
 
-24/7 SERVICE All FIVE BOROUGHS
+How good are those descriptions? Here’s what I got from this command:
 
-Locksmith For NYC
+llm -m gemini-1.5-flash-8b-latest describe -a IMG_1825.jpeg
 
-and surrounding areas.
+Against this photo of butterflies at the California Academy of Sciences:
 
-(917) 696-8842
+A shallow dish, likely a hummingbird or butterfly feeder, is red. Pieces of orange slices of fruit are visible inside the dish.
 
-Center Located Inside BLU Café
-
-Contact Us
-
-Info @locksmith4nyc.com
-
-please note :
-
-phone call with locksmith For NYC may be monitored and recorded for quality purposes .
-
-In addition we also like to show you what we can do for you even more than you think.
-
-We also pride ourselves on offering complete promotions all year round.
-
-see what kind of deal we have for you!
-
-Our “Coupons ” are the best in New York City area.
-
-ALOA Member | BBB A+ Accredited Business | Licensed & Fully Insured Locksmiths in NYC
-
-Above all safety begins with Locksmith For NYC
-
-What Our Customers Say
-
-Locksmith For NYC Reviews 4.9 Based on 285 reviews
-
-דניאל ט.
-1 month ago
-
-Tamir did an outstanding job! He installed a new deadbolt and replaced the bottom lock with a high-security Medeco cylinder. From start to finish, he was professional, knowledgeable, and meticulous. He took the time to explain how both locks work, answered all of my questions, and made sure I felt comfortable using them before he left. The installation was clean, efficient, and the quality of his work was excellent. If you’re looking for an honest, skilled locksmith who truly cares about his customers, I highly recommend Tamir. Thank you for the amazing service!
-
-Reuven Y.
-3 months ago
-
-Excellent customer service.
-Tamir the Locksmith arrived in 20 minutes and get my key out of the car super quick, also the price was great and affordable.
-
-A
-4 months ago
-
-Excellent Service, I was locked out of my house and I got helped within the hour. I was charged a very good rate for the service. Will be calling back again when I need the help!
-
-Henry C.
-4 months ago
-
-Expert and professional, with honest price, Tamir Thank you for your quick service
-
-Ophir
-4 months ago
-
-Very reliable and efficient service.
-Everything was handled quickly and professionally, Highly recommended.
-
-Young B.
-4 months ago
-
-Tamir was the guy! He was very kind and professional! Solved my issue!
-
-More reviews
-
-Get Price Quote
-
-BBB Accredited
-Business (A+ Rating)
-
-ALOA Member
-
-Licensed & Insured
-
-Secure Payment
-
-Warranty Badge
-
-24/7 Emergency
-Service
-
-STAY CONNECTED WITH US
-
-Manhattan
-
-(Walk-in Store + Mobile Service)
-
-Locksmith For NYC
-
-120 Riverside Blvd
-
-New York, NY, 10069.
-
-(917) 696-8842
-
-Brooklyn
-
-Mobile Service Only
-We Come to You
-
-Locksmith For NYC
-
-498 Jefferson Ave #4B
-
-Brooklyn, NY 11221
-
-(929) 506-5065
-
-Queens
-
-Mobile Service Only
-We Come to You
-
-Locksmith For NYC
-
-24-29 97th street
-
-Flushing, NY 11369
-
-(917) 423-6777
-
-Bronx
-
-Mobile Service Only
-We Come to You
-
-Locksmith For NYC
-
-366 E 160th St.
-
-The Bronx, NY 10451
-
-(347) 410-8410
-
-Staten Island
-
-Mobile Service Only
-We Come to You
-
-Call our main office
-
-at (917) 696-8842
-
-Site MAP | Careers | Warranty | Price List | Feedback |  Terms and Conditions | Privacy Policy | Franchise
-
-©2008-2026 Locksmith For NYC | Locksmith For NYC ALL RIGHTS RESERVED
-
-Call for Locksmith Now!
-(917) 696-8842
-
-Get More Information And Prices From Our Experts
-
-Locksmith Services
-
-Residential Locksmith
-
-Emergency Locksmith
-
-Commercial Locksmith
-
-Automotive Locksmith
-
-Car Lockout Service
-Car Key Duplication
-Broken Key Extraction
-Ignition Replacement
-
-Doors &#038; Window Gates
-
-Fire Escape Window Gate Installation
-Apartment Fireproof Door Installation
-Child Safety Guards
-Window Security Gates
-
-Security System
-
-Keyless Entry Systems
-Security Cameras (CCTV)
-Intercom Systems
-Access Control Systems
-
-NYC Service Areas
-
-Manhattan Locksmith
-Brooklyn Locksmith
-Queens Locksmith
-Bronx Locksmith
-Staten Island Locksmith
-
-Projects
-Photos of Our Work
-Videos of Our Work
-Our NYC Clients
-Gallery
-
-Vendor Services
-Español
-
-Products
-
-Locks
-Door Hardware
-Trusted Manufacturers
-
-(917) 696-8842
+Two butterflies are positioned in the feeder, one is a dark brown/black butterfly with white/cream-colored markings. The other is a large, brown butterfly with patterns of lighter brown, beige, and black markings, including prominent eye spots. The larger brown butterfly appears to be feeding on th

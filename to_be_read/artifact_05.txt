@@ -1,41 +1,172 @@
-The Law of Leaky Abstractions &#8211; Joel on Software
+Five-dollar words for programmers: elision
 
-Customize -> Theme Options)
+Skip to primary content
 
-Top 10 , Rock star developer , News
+Good writers borrow from other writers. Great writers steal from them outright. &#8212; Aaron Sorkin
 
-There&#8217;s a key piece of magic in the engineering of the Internet which you rely on every single day. It happens in the TCP protocol, one of the fundamental building blocks of the Internet.
+Sorkin was of course stealing outright from T.S. Eliot, who in [year] wrote:
 
-TCP is a way to transmit data that is reliable . By this I mean: if you send a message over a network using TCP, it will arrive, and it won&#8217;t be garbled or corrupted.
+Immature poets imitate; mature poets steal; bad poets deface what they take, and good poets make it into something better, or at least something different. The good poet welds his theft into a whole of feeling which is unique, utterly different than that from which it is torn; the bad poet throws it into something which has no cohesion. A good poet will usually borrow from authors remote in time, or alien in language, or diverse in interest.
 
-We use TCP for many things like fetching web pages and sending email. The reliability of TCP is why every email arrives in letter-perfect condition. Even if it&#8217;s just some dumb spam.
+Sorkin&#8217;s pithy summary, or a slight modification of it, is often attributed to Pablo Picasso and Oscar Wilde, but I&#8217;ve found no reliable evidence that either man ever said anything like it. See this blog post for details.
 
-By comparison, there is another method of transmitting data called IP which is unreliable . Nobody promises that your data will arrive, and it might get messed up before it arrives. If you send a bunch of messages with IP, don&#8217;t be surprised if only half of them arrive, and some of those are in a different order than the order in which they were sent, and some of them have been replaced by alternate messages, perhaps containing pictures of adorable baby orangutans, or more likely just a lot of unreadable garbage that looks like that spam you get in a foreign language.
+Computer programmers have a habit of taking jargon from one area of study and borrowing it for use in their own. Today&#8217;s five dollar word for programmers is elision ; the verb form is to elide . This term from linguistics is used in two non-standard ways by computer programmers.
 
-Here&#8217;s the magic part: TCP is built on top of IP. In other words, TCP is obliged to somehow send data reliably using only an unreliable tool .
+In natural language linguistics, elisions are the removal of sounds from spoken words that do not change their meaning. Saying
 
-To illustrate why this is magic, consider the following morally equivalent, though somewhat ludicrous, scenario from the real world.
+I&#8217;m gonna eat my vegtables.
 
-Imagine that we had a way of sending actors from Broadway to Hollywood that involved putting them in cars and driving them across the country. Some of these cars crashed, killing the poor actors. Sometimes the actors got drunk on the way and shaved their heads or got nasal tattoos, thus becoming too ugly to work in Hollywood, and frequently the actors arrived in a different order than they had set out, because they all took different routes. Now imagine a new service called Hollywood Express, which delivered actors to Hollywood, guaranteeing that they would (a) arrive (b) in order (c) in perfect condition. The magic part is that Hollywood Express doesn&#8217;t have any method of delivering the actors, other than the unreliable method of putting them in cars and driving them across the country. Hollywood Express works by checking that each actor arrives in perfect condition, and, if he doesn&#8217;t, calling up the home office and requesting that the actor&#8217;s identical twin be sent instead. If the actors arrive in the wrong order Hollywood Express rearranges them. If a large UFO on its way to Area 51 crashes on the highway in Nevada, rendering it impassable, all the actors that went that way are rerouted via Arizona and Hollywood Express doesn&#8217;t even tell the movie directors in California what happened. To them, it just looks like the actors are arriving a little bit more slowly than usual, and they never even hear about the UFO crash.
+instead of
 
-That is, approximately, the magic of TCP. It is what computer scientists like to call an abstraction : a simplification of something much more complicated that is going on under the covers. As it turns out, a lot of computer programming consists of building abstractions. What is a string library? It&#8217;s a way to pretend that computers can manipulate strings just as easily as they can manipulate numbers. What is a file system? It&#8217;s a way to pretend that a hard drive isn&#8217;t really a bunch of spinning magnetic platters that can store bits at certain locations, but rather a hierarchical system of folders-within-folders containing individual files that in turn consist of one or more strings of bytes.
+I am going to eat my veg e tables.
 
-Back to TCP. Earlier for the sake of simplicity I told a little fib, and some of you have steam coming out of your ears by now because this fib is driving you crazy. I said that TCP guarantees that your message will arrive. It doesn&#8217;t, actually. If your pet snake has chewed through the network cable leading to your computer, and no IP packets can get through, then TCP can&#8217;t do anything about it and your message doesn&#8217;t arrive. If you were curt with the system administrators in your company and they punished you by plugging you into an overloaded hub, only some of your IP packets will get through, and TCP will work, but everything will be really slow.
+elides a great many sounds but does not change the meaning.
 
-This is what I call a leaky abstraction . TCP attempts to provide a complete abstraction of an underlying unreliable network, but sometimes, the network leaks through the abstraction and you feel the things that the abstraction can&#8217;t quite protect you from. This is but one example of what I&#8217;ve dubbed the Law of Leaky Abstractions:
+A less common usage of the term &#8220;elision&#8221; in natural linguistics is the omission of entire words. Many of my friends from Pennsylvania, for example, tend to elide the words &#8220;to be&#8221; from sentences that would require them in the Queen&#8217;s English, like &#8220;do you have any towels that need washed?&#8221;
 
-All non-trivial abstractions, to some degree, are leaky.
+It is in this sense that computer language designers have borrowed the term: an elision in a programming language is when the language makes optional what might be thought of as a necessary portion of the grammar.
 
-Abstractions fail. Sometimes a little, sometimes a lot. There&#8217;s leakage. Things go wrong. It happens all over the place when you have abstractions. Here are some examples.
+There are a number of legal elisions in C#. For example, the accessibility modifier private may be elided almost everywhere; you can usually remove private from a declaration without changing the meaning of the program. All versions of C# allow you to elide the array bounds and array type in a local variable initializer. These are all the same:
 
-Something as simple as iterating over a large two-dimensional array can have radically different performance if you do it horizontally rather than vertically, depending on the &#8220;grain of the wood&#8221; &#8212; one direction may result in vastly more page faults than the other direction, and page faults are slow. Even assembly programmers are supposed to be allowed to pretend that they have a big flat address space, but virtual memory means it&#8217;s really just an abstraction, which leaks when there&#8217;s a page fault and certain memory fetches take way more nanoseconds than other memory fetches.
+int[] x = { 10, 20, 30 };
+int[] x = new int[] { 10, 20, 30 };
+int[] x = new int[3] { 10, 20, 30 };
+And C# 3.0 and higher also allow
 
-The SQL language is meant to abstract away the procedural steps that are needed to query a database, instead allowing you to define merely what you want and let the database figure out the procedural steps to query it. But in some cases, certain SQL queries are thousands of times slower than other logically equivalent queries. A famous example of this is that some SQL servers are dramatically faster if you specify &#8220;where a=b and b=c and a=c&#8221; than if you only specify &#8220;where a=b and b=c&#8221; even though the result set is the same. You&#8217;re not supposed to have to care about the procedure, only the specification. But sometimes the abstraction leaks and causes horrible performance and you have to break out the query plan analyzer and study what it did wrong, and figure out how to make your query run faster.
+int[] x = new[] { 10, 20, 30 };
+I said there were two ways in which computer programmers co-opt the word; the second is in optimization theory. As we just saw in my long series on optimizing lifted arithmetic, the optimizer is allowed to elide conversions if it knows that they are unnecessary: in an expression where an int? is added to an int , by rights we ought to be implicitly converting the non-nullable integer to a nullable integer. But the compiler knows that doing so is a pointless waste of time because the conversion can be removed without changing the meaning of the program. Or, as I described back in [year], the compiler will sometimes elide the creation of a temporary when initializing a local variable of value type . This form of elision optimization is called copy elision .
 
-Even though network libraries like NFS and SMB let you treat files on remote machines &#8220;as if&#8221; they were local, sometimes the connection becomes very slow or goes down, and the file stops acting like it was local, and as a programmer you have to write code to deal with this. The abstraction of &#8220;remote file is the same as local file&#8221; leaks . Here&#8217;s a concrete example for Unix sysadmins. If you put users&#8217; home directories on NFS-mounted drives (one abstraction), and your users create .forward files to forward all their email somewhere else (another abstraction), and the NFS server goes down while new email is arriving, the messages will not be forwarded because the .forward file will not be found. The leak in the abstraction actually caused a few messages to be dropped on the floor.
+Next time on FAIC: Integer arithmetic can be tricky. We&#8217;ll try dividing two numbers and see what happens.
 
-C++ string classes are supposed to let you pretend that strings are first-class data. They try to abstract away the fact that strings are hard and let you act as if they were as easy as integers. Almost all C++ string classes overload the + operator so you can write s + &#8220;bar&#8221; to concatenate. But you know what? No matter how hard they try, there is no C++ string class on Earth that will let you type &#8220;foo&#8221; + &#8220;bar&#8221; , because string literals in C++ are always char*&#8217;s, never strings. The abstraction has sprung a leak that the language doesn&#8217;t let you plug. (Amusingly, the history of the evolution of C++ over time can be described as a history of trying to plug the leaks in the string abstraction. Why they couldn&#8217;t just add a native string class to the language itself eludes me at the moment.)
+Share this:
 
-And you can&#8217;t drive as fast when it&#8217;s raining, even though your car has windshield wipers and headlights and a roof and a heater, all of which protect you from caring about the fact that it&#8217;s raining (they abstract away the weather), but lo, you have to worry about hydroplaning (or aquaplaning in England) and sometimes the rain is so strong you can&#8217;t see very far ahead so you go slower in the rain, because the weather can never be completely abstracted away, because of the law of leaky abstractions.
+Share on X (Opens in new window)
+X
 
-One reason the law of leaky abstractions is problematic is that it means that abstractions do not really simplify our lives as much as they were meant to. When I&#8217;m training someone to be a C++ programmer, it would be nice if I never had to teach them about char*&#8217;s and pointer arithmetic. It would be nice if I could go st
+Share on Facebook (Opens in new window)
+Facebook
+
+Like Loading...
+
+Related
+
+19 thoughts on &ldquo; Five-dollar words for programmers: elision &rdquo;
+
+Nice one. All I need to do now is read another 200,000 posts like this and I&#8217;ll be a millionaire.
+
+Reply &darr;
+
+Funnily enough, while it&#8217;s not a word I use *often*, I used it just in the last week for Noda Time. We have the concept of a ZoneInterval: a portion of a time zone where everything is the same, i.e. between transitions. While the typical transition is between daylight saving time and standard time, it&#8217;s possible to have transitions which either *just* change the name, or perhaps change the balance of standard offset vs savings offset, while keeping the same overall (wall) offset.
+
+In ZoneEqualityComparer ( https://code.google.com/p/noda-time/source/browse/src/NodaTime/TimeZones/ZoneEqualityComparer.cs ) I allow two consecutive zone intervals to be &#8220;elided&#8221; if they only differ in ways we don&#8217;t care about for the purposes of equality. The elision is only temporary, so it doesn&#8217;t matter which values we take for the properties we don&#8217;t care about &#8211; the result is one ZoneInterval.
+
+Does this seem a reasonable use of &#8220;elide&#8221; to you? It feels very much like the linguistic &#8220;gonna&#8221; version&#8230; (I use the term in doc comments, so if I&#8217;m using it inappropriately, I&#8217;d love to correct it now&#8230;)
+
+Reply &darr;
+
+And up in the IDE, we have our own uses of the word &#8220;elision&#8221;. The Visual Studio editor API has the concept of an elision buffer, which is a text buffer that contains only parts of another buffer (eliding the rest).
+
+Reply &darr;
+
+And I guess, for those with a liturgical church background, praising God with fewer words would be&#8230; kyrie elision! : )
+
+[Perhaps there needs to be a comments filter to block terrible puns from being published on such a prestigious blog]
+
+Reply &darr;
+
+I don´t like elisions in natural languages, but I certainly love the smart ones in C#.
+
+Thank you Eric
+
+Reply &darr;
+
+I think you mean you *do not* like elisions in natural languages. 🙂
+
+Reply &darr;
+
+Actually, &#8220;do not&#8221; => &#8220;don&#8217;t&#8221; would be a contraction. A minor nit, but aren&#8217;t they all?
+
+Reply &darr;
+
+I would guess that Contraction is a subclass of Elision
+
+Reply &darr;
+
+&#8220;the accessibility modifier private may be elided almost everywhere&#8221;
+
+Why &#8220;almost&#8221; ? I can&#8217;t think of a place where it can&#8217;t be elided&#8230;
+
+Reply &darr;
+
+I try to not use weasel words unnecessarily. 🙂
+
+class C { public int P { get; private set; } }
+Removing the private changes the meaning of the program.
+
+Reply &darr;
+
+In addition to Eric&#8217;s example, there is also the class declaration itself, where the absence of an accessibility modifier results in the class being &#8220;internal&#8221; rather than &#8220;private&#8221;.
+
+Reply &darr;
+
+Ah but that is different. There what is elided is internal, not private. Private wouldn&#8217;t be legal in the first place.
+
+Reply &darr;
+
+Another example is in a partial nested class. &#8220;private partial class A&#8221; and &#8220;partial class A&#8221; do not mean the same thing: &#8220;private partial class A&#8221; means &#8220;A is private, and it is an error if another partial declaration of class A specifies different accessibility&#8221;, while &#8220;partial class A&#8221; means &#8220;A is private, unless another partial declaration of class A specifies the accessibility&#8221;. Of course, Eric&#8217;s note does apply here too: &#8220;private partial class A&#8221; is only legal in those projects where no other partial declaration specifies a different accessibility, so this does not affect a correct C# project. It only changes the meaning of a single valid declaration inside that project.
+
+Reply &darr;
+
+And C# 3.0 and higher also allow
+
+int[] x = new[] { 10, 20, 30 };
+
+No doubt there are good reasons for it, but unfortunately outside of initializers, this variant is as close as we can come to the most concise initializer syntax that&#8217;s permitted (i.e. just &#8220;{ 10, 20, 30 }&#8221; without &#8220;new&#8221; or any of the other stuff).
+
+Reply &darr;
+
+Maybe, do you mean
+
+And C# 3.0 and higher also allow
+
+var x = new[] { 10, 20, 30 };
+
+?
+
+Reply &darr;
+
+Pingback: The Morning Brew - Chris Alcock &raquo; The Morning Brew #1281
+
+Nice to see the return of the five-dollar words articles, its been a while.
+
+Reply &darr;
+
+Pingback: Liens de la semaine &#8211; #15 | frenchcoding
+
+Pingback: Words the confuse the fuck out of me &ndash; elision | Skeptical Exaddict
+
+Leave a comment Cancel reply
+
+Reblog
+
+Subscribed
+
+Fabulous adventures in coding
+
+Already have a WordPress.com account? Log in now.
+
+Fabulous adventures in coding
+
+Subscribed
+
+Copy shortlink
+
+Report this content
+
+View post in Reader
+
+Manage subscriptions
+
+Collapse this bar
+
+%d

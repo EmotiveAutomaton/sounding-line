@@ -1,105 +1,109 @@
-Kill Your Dependencies
+How to Choose a Mattress in [year]: 7
+Skip to main content Los Angeles’ mattress store — 5 showrooms, family-owned since [year] Find a store (800) 218-3578
 
-Kill Your Dependencies
+Call Find a store
 
-This post talks about Ruby but it's true of every language community: Python, JavaScript, Java, etc. The scourge of dependencies spares no one.
+Mattress buying guide · 12 min read · Updated [date]
+How to choose a mattress: the complete [year] buyer&#x27;s guide Learn how to choose a mattress in [year]: match sleep position, body weight, type, firmness, and budget. A complete buyer&#x27;s guide from LA Mattress Store.
 
-This is a dependency visualization of every Rails app I've ever used. Does any of this sound familiar:
+There is no single best mattress. The best mattress is the one matched to you : your primary sleep position, your body weight, how hot you sleep, your firmness preference, whether you share the bed, and your budget. A bed that feels perfect for a 130-pound side sleeper can feel like a board to a 220-pound back sleeper. So instead of chasing a universal winner, this guide walks you through each decision in the order that matters, so you end up with a mattress that fits your body and your life. By the end you will have a clear shortlist and a plan to test it.
 
-Gemfile with 100s of entries.
+At LA Mattress Store , a family-owned shop serving Los Angeles since [year], we have helped tens of thousands of sleepers work through exactly these questions. We do not use commission-only salespeople, so the advice here is the same advice you will hear in any of our showrooms. Use this as your roadmap, then take our sleep quiz or browse all mattresses when you are ready.
 
-Test gems loading in production.
+Step 1: Start with your sleep position
 
-Each Rails process takes 100s of megabytes of RAM.
+Your dominant sleep position is the single most important factor in choosing firmness and feel, because it determines where your body needs pressure relief and where it needs support.
 
-The Rubygems system is commendable for how easy it makes packaging up Ruby for others to reuse. But that very ease means it's also quite easy for those gems to pull in other gems transitively, leading to Rails apps which &ldquo;download the Internet&rdquo; and have hundreds of dependencies.
+Side sleepers need extra cushioning at the shoulders and hips, where body weight concentrates. Too firm and you get pressure points and a numb arm; too soft and your spine sags. Most side sleepers do best on a medium to medium-soft feel. See our dedicated guide to the best mattress for side sleepers .
 
-When you publish a Rubygem, every one of your dependencies transitively becomes a dependency for any app using your gem. This multiplies the impact of bugs in those gems.
+Back sleepers want even support that keeps the natural curve of the spine without letting the hips drop. Medium-firm is the sweet spot for most back sleepers.
 
-The curious case of mime-types
+Stomach sleepers need a firmer surface so the hips do not sink and arch the lower back. Soft beds are usually a poor match here.
 
-The mime-types gem recently optimized its memory usage
-and saved megabytes of RAM.
-Literally every Rails app in existence can benefit from this optimization because Rails depends on the mime-types gem transitively: rails -> actionmailer -> mail -> mime-types .
+Combination sleepers who move through the night are best served by a responsive surface (latex or hybrid) at a medium-firm feel that works reasonably well in every position.
 
-In other words, this gem wasn't used by your app. It wasn't used by Rails directly. It wasn't used by ActionMailer directly. It was used deep in the bowels of the ActionMailer implementation and it was using far too much memory . Every single Rails app in existence was using 10MB too much due to this issue.
+Write down your position now. Every step that follows builds on it.
 
-App Developers, Listen Up!
+Step 2: Factor in your body weight
 
-Every dependency in your application has the potential to bloat your app, to destabilize your app, to inject odd behavior via monkeypatching or buggy native code.
-When you are considering adding a dependency to your Rails app, it's a good idea to do a quick sanity check, in order of preference:
+Body weight changes how any mattress feels, because it changes how far you sink into the comfort layers and how much support you need underneath.
 
-Do I really need this at all? Kill it.
+Lighter sleepers (roughly under 130 lb) do not compress foam as deeply, so a mattress can feel firmer than its label suggests. Softer-to-medium options often feel best.
 
-Can I implement the required minimal functionality myself? Own it.
+Average-weight sleepers (roughly 130 to 230 lb) match most manufacturers' standard firmness ratings, so the labeled feel is usually accurate.
 
-If you need a gem:
+Heavier sleepers (roughly over 230 lb) need stronger support and more durable materials so they do not bottom out. Hybrids and high-density foams with reinforced cores tend to hold up best, and a firmer rating often feels more like medium.
 
-Does the gem have a native extension? Look for pure ruby alternatives.
+If two people of very different weights share the bed, this is where dual-firmness options start to matter, which we cover in Step 7.
 
-Does the gem transitively pull in a lot of other gems? Look for simpler alternatives.
+Step 3: Choose a mattress type
 
-Gems with native extensions can destabilize your system; they can be the source of mysterious bugs and crashes. Avoid gems which pull in more dependencies than their value warrants. Example of a bad gem: the fog gem which pulls in 39 gems, more dependencies than rails itself and most of which are unnecessary.
+Now that you know your position and weight, you can pick the construction that delivers the right feel. There are four core types. For a deeper technical breakdown of each, see our mattress types page .
 
-Lastly, make sure you only load the gem when necessary. Use Bundler's group support to disable test gems when not testing:
+Memory foam
 
-group :test do
-gem 'rspec'
-gem 'timecop'
-# etc
-end
+Feel: slow, contouring, body-hugging with deep pressure relief. Pros: excellent for pressure points and motion isolation, great for side sleepers and couples. Cons: can sleep warmer and feel slow to move on unless it uses gel or open-cell foams. Best for: side sleepers, light to average weight, anyone with shoulder or hip pressure. Price: entry through premium. Browse memory foam mattresses .
 
-Gem Developers, Listen Up!
+Hybrid
 
-Part of your job as a library author is to treat your user and their application with respect. You should make an effort to minimize your own dependencies so they don't load unnecessary code or cause issues in the user's application. You control your own code but you don't control your dependencies. Any bug in a dependency of yours becomes a bug that causes stress for your user and their application.
+Feel: a balance of contouring comfort layers over a coil support core, so you get cushioning plus bounce and airflow. Pros: versatile, supportive for all weights, cooler than all-foam, strong edge support. Cons: heavier and usually pricier than basic foam. Best for: combination sleepers, couples, heavier sleepers, and anyone who wants one bed that does everything well. Price: mid through premium. Browse hybrid mattresses .
 
-As a gem developer, for each of your gem dependencies do you:
+Latex
 
-know how much memory each takes?
+Feel: buoyant, responsive, and naturally cool, with gentle contouring that does not hug. Pros: durable, breathable, naturally derived options available, easy to move on. Cons: premium pricing, firmer and bouncier feel is not for everyone. Best for: combination sleepers, hot sleepers, and shoppers who want longevity and natural materials. Price: premium. Browse latex mattresses .
 
-know how long each takes to require?
+Innerspring
 
-know whether it performs any monkeypatching outside of its own module?
+Feel: traditional, bouncy, firm, and very breathable with a thin comfort layer over coils. Pros: cool sleeping, strong support, budget-friendly, familiar feel. Cons: less pressure relief and less motion isolation than foam or hybrid. Best for: back and stomach sleepers, hot sleepers, and value shoppers. Price: entry through mid. Browse innerspring mattresses .
 
-Sidekiq, with all of its functionality, has only 3 runtime dependencies: rack , connection_pool and redis .
+If you sleep on an adjustable base or plan to, note that foam, latex, and most hybrids flex with it while traditional innersprings often do not. See adjustable beds for compatible pairings.
 
-Die json, die (German for &ldquo;The json, the&rdquo;)
+Step 4: Understand the firmness scale
 
-So many gems declare a dependency on json, oj, multi_json, or yajl-ruby. There's so many ossified layers of cruft around JSON
-processing that only one course of action makes sense: remove it all. JSON has been in the stdlib since 1.9, you don't need to declare any dependencies at all. Just `require 'json'` and let Ruby deal with it.
-Rails did it , so can you!
+The industry rates firmness on a 1 to 10 scale where 1 is the softest and 10 is the firmest. In practice almost everything sold sits between 3 and 8.
 
-Why choose an HTTP client when you can have them all?
+3 to 4 (soft): deep cushioning, best for lighter side sleepers.
 
-Every Rails app pulls in a half dozen different HTTP clients: faraday, rest-client, httparty, excon, typhoeus, curb, etc. This is because various gems use them internally. A Rubygem should never use anything but Net::HTTP internally! Learn the Net:HTTP API, kill those dependencies and stop forcing extra HTTP client gems on your users.
+5 to 6 (medium): balanced, the most common pick for side and combination sleepers.
 
-Let's say you want to offer an optimized version using curb: ok, but make it optional. Allow the application developer to opt into using curb but net/http should always be the default.
+6 to 7 (medium-firm): the default we recommend when you are unsure. It supports the most body types and sleep positions, which is why it is the safest starting point for couples and back sleepers.
 
-Optimizing Rails 5.0
+8 plus (firm): minimal contouring, best for stomach sleepers and heavier back sleepers.
 
-For the last few weeks, I've been working (in tandem with several other developers, hi @_matthewd, @applerebel!) on minimizing gem dependencies in Rails 5.0. Rails 4.2.5 requires 34 gems. Rails 5.0b1 required 55 gems. Rails 5.0b2 required 39 gems. I expect Rails 5.0 to require 37 gems or less. So far we've removed Celluloid, EventMachine, thread_safe, and json.
+Remember that firmness ratings assume average body weight. Lighter sleepers experience any bed as firmer, heavier sleepers as softer. When in doubt, medium-firm is the most forgiving choice.
 
-Unfortunately there's no more low-hanging fruit. I'd love to drop Nokogiri, it's such a huge dependency with a massive native extension component, but there are some non-trivial dependencies on it.
-Oga is a nice, simpler alternative. If you
-ship a gem which depends on Nokogiri, consider making it optional and defaulting to REXML (I know, but at least it's in stdlib) or Oga instead.
+Step 5: Pick the right size
 
-Be Part of the Solution
+Size is about who and what shares the bed, and the room it lives in. Solo sleepers who move a lot or are taller often appreciate a queen or a California king for the extra length. Couples should default to at least a queen, and a king if either partner is restless or you co-sleep with kids or pets. Measure your room and leave walking space on both sides before you commit. Our mattress sizes guide lays out exact dimensions for twin through California king.
 
-I can help with Rails 5.0 but I can't fix every gem. If you are a gem developer, audit your own dependencies and remove as many as you can. If you're an app developer, take a look in your
-Gemfile and see if you can find a gem or two to remove. Simplify, simplify, simplify.
+Step 6: Temperature regulation for hot sleepers
 
-As an example, I think it's possible for the Stripe gem to remove both of its runtime dependencies. (Update: Stripe removed these dependencies from their gem, yay!)
+If you sleep hot or live somewhere warm, breathability should weigh heavily in your decision. Heat builds up when a surface hugs you closely and traps air. The coolest-sleeping constructions, in general, are innerspring and hybrid (coils move air), followed by latex (open cell structure), with dense all-foam being the warmest unless it is engineered with gel infusions, open-cell foam, or breathable covers. If you run hot, lean toward a hybrid or latex build and look for cooling cover technology rather than relying on it to fix an otherwise hot bed.
 
-Rules to Remember
+Step 7: If you share the bed
 
-Some software engineering rules:
+Couples have three extra factors to weigh.
 
-No code runs faster than no code.
+Motion isolation: if one partner moves or gets up at different times, memory foam and foam-heavy hybrids absorb movement best so you are not woken up.
 
-No code has fewer bugs than no code.
+Dual firmness: when partners have very different weights or position needs, look for split or customizable firmness so each side suits its sleeper. Some premium and adjustable setups allow each side to be tuned independently.
 
-No code uses less memory than no code.
+Edge support: a reinforced perimeter gives you usable sleeping surface all the way to the edge and makes getting in and out easier. Hybrids and innersprings typically have the strongest edges.
 
-No code is easier to understand than no code.
+When two people cannot agree, medium-firm with strong motion isolation is the most reliable compromise, and an adjustable base lets each side change angle independently.
 
-Kill those dependencies. Your gems and apps will be better for it.
+Step 8: Special needs
+
+Some sleepers have requirements that override the general rules above.
+
+Back pain : the goal is neutral spinal alignment, which usually means medium-firm with targeted support. Read our full guide to the best mattress for back pain .
+
+Pregnancy: comfort and position needs change through pregnancy. Many find a medium feel with good pressure relief and an adjustable base, which helps with side sleeping and elevation, the most comfortable.
+
+Seniors: easier entry and exit, strong edge support, and pressure relief for joints matter most. An adjustable base can make a large difference in daily comfort and mobility.
+
+Adjustable-base compatibility: if you want or already own an adjustable bed , confirm the mattress is rated to flex with it. Most foam, latex, and hybrid models are.
+
+Step 9: Materials and certifications
+
+Certifications tell you what is inside the bed and t

@@ -1,17 +1,122 @@
-No “yes.” Either “HELL YEAH!” or “no.”
+Engineering for Slow Internet
 
-Use this rule if you’re often over-committed or too scattered.
+Search for Post
 
-If you’re not saying “HELL YEAH!” about something, say no.
+technology
+south pole
 
-When deciding whether to do something, if you feel anything less than “Wow! That would be amazing! Absolutely! Hell yeah!” — then say no.
+Engineering for Slow Internet
 
-When you say no to most things, you leave room in your life to really throw yourself completely into that rare thing that makes you say “HELL YEAH!”
+How to minimize user frustration in Antarctica.
 
-Every event you get invited to.
-Every request to start a new project.
-If you’re not saying “HELL YEAH!” about it, say no.
+brr
+[date]
 
-We’re all busy.
-We’ve all taken on too much.
-Saying yes to less is the way out.
+Hello everyone! I got partway through writing this post while I was still in Antarctica, but I departed before finishing it.
+
+I’m going through my old draft posts, and I found that this one was nearly complete.
+
+It’s a bit of a departure from the normal content you’d find on brr.fyi, but it reflects my software / IT engineering background.
+
+I hope folks find this to be an interesting glimpse into the on-the-ground reality of using the Internet in bandwidth-constrained environments.
+
+Please keep in mind that I wrote the majority of this post ~7 months ago, so it’s likely that the IT landscape has shifted since then.
+
+Welcome back for a ~~bonus post~~ about Engineering for Slow Internet!
+
+For a 14-month period, while working in Antarctica, I had access to the Internet only through an extremely limited series of satellite links provided by the United States Antarctic Program.
+
+Before I go further, this post requires a special caveat, above and beyond my standard disclaimer:
+
+Even though I was an IT worker within the United States Antarctic Program, everything I am going to discuss in this post is based on either publicly-available information, or based on my own observations as a regular participant living on ice.
+
+I have not used any internal access or non-public information in writing this post.
+
+As a condition of my employment, I agreed to a set of restrictions regarding public disclosure of non-public Information Technology material. I fully intend to honor these restrictions. These restrictions are ordinary and typical of US government contract work.
+
+It is
+unlikely that I will be able to answer additional questions about matters I discuss in this post. I’ve taken great care to write as much as I am able to, without disclosing non-public information regarding government IT systems.
+
+Good? Ok, here we go.
+
+… actually wait, sorry, one more disclaimer.
+
+This information reflects my own personal experience in Antarctica, from [date] through [date] at McMurdo, and then from [date] through [date] at the South Pole.
+
+Technology moves quickly, and I make no claims that the circumstances of my own specific experience will hold up over time. In future years, once I’ve long-since forgotten about this post, please do not get mad at me when the on-the-ground IT experience in Antarctica evolves away from the snapshot presented here.
+
+Ok, phew. Here we go for real.
+
+It’s a non-trivial feat of engineering to get any Internet at the South Pole! If you’re bored, check out the South Pole Satellite Communications
+page on the public USAP.gov website, for an overview of the limited selection of satellites available for Polar use.
+
+South Pole's radomes, out in the RF sector. These radomes contain the equipment necessary to communicate with the outside world using our primary satellites.
+
+If you’re interested, perhaps also look into the
+[year] Antarctic Subsea Cable Workshop
+for an overview of some hurdles associated with running traditional fiber to the continent.
+
+I am absolutely not in a position of authority to speculate on the future of Antarctic connectivity! Seriously. I was a low-level, seasonal IT worker in a large, complex organization. Do not email me your
+ideas for improving Internet access in Antarctica – I am not in a position to do anything with them.
+
+I do agree with the widespread consensus on the matter: There is tremendous interest in improving connectivity to US research stations in Antarctica. I would timidly conjecture that, at some point, there will be engineering solutions to these problems.
+Improved connectivity will eventually arrive in Antarctica, either through enhanced satellite technologies or through the arrival of fiber to the continent.
+
+But – that world will only exist at some point in the future. Currently, Antarctic connectivity is extremely limited . What do I mean by that?
+
+Until very recently, at McMurdo, nearly a thousand people , plus numerous scientific projects and operational workloads, all relied on a series of links that provided max, aggregate speeds of a few dozen megabits per second to the entire station .
+For comparison, that’s less bandwidth shared by everyone combined than what everyone individually can get on a typical 4g cellular network in an American suburb.
+
+Things are looking up! The NSF recently
+announced some important developments
+regarding Starlink at McMurdo and Palmer.
+
+I’m aware that the on-the-ground experience in McMurdo and Palmer is better now than it was even just a year ago.
+
+But – as of [date], the situation was still pretty dire at the South Pole. As far as I’m aware, similar developments regarding Starlink have not yet been announced for South Pole Station.
+
+As of [date], South Pole had the limitations described above, plus there was only connectivity for a few hours a day, when the satellites rose above the horizon and the station was authorized to use them.
+The satellite schedule generally shifts forward (earlier) by about 4 minutes per day, due to the difference between Sidereal time and Solar (Civil) time .
+
+The current satellite schedule can be found online, on the South Pole Satellite Communications page
+of the public USAP.gov website. Here’s an example of the schedule from [date]:
+
+South Pole satellite schedule, for two weeks in [date].
+
+These small intermittent links to the outside world are shared by everyone at Pole , for operational, science, and community / morale usage.
+
+Complicating matters further is the unavoidable physics of this connectivity. These satellites are in a high orbit, thousands of miles up. This means high latency. If you’ve used a consumer satellite product such as HughesNet or ViaSat, you’ll understand.
+
+From my berthing room at the South Pole, it was about 750 milliseconds , round trip, for a packet to get to and from a terrestrial US destination. This is about ten times the latency of a round trip
+between the US East and West coasts (up to 75 ms).
+And it’s about thirty times the expected
+latency of a healthy connection from your home, on a terrestrial cable or fiber connection, to most major content delivery networks (up to 25 ms).
+
+Seriously, I can’t emphasize how jarring this is. At my apartment back home, on GPON fiber, it’s about 3 ms roundtrip to Fastly, Cloudflare, CloudFront, Akamai, and Google. At the South Pole, the latency was over two hundred and fifty times greater .
+
+I can’t go into more depth about how USAP does prioritization, shaping, etc, because I’m not authorized to share these details. Suffice to say, if you’re an enterprise network engineer used to working in a bandwidth-constrained environment, you’ll feel right at home with the equipment, tools, and techniques used to manage Antarctic connectivity.
+
+Any individual trying to use the Internet for community use at the South Pole, as of [date], likely faced:
+
+Round-trip latency averaging around 750 milliseconds, with jitter between packets sometimes exceeding several seconds.
+
+Available speeds, to the end-user device, that range from a couple kbps (yes, you read that right), up to 2 mbps on a really good day.
+
+Extreme congestion, queueing, and dropped packets, far in excess of even the worst oversaturated ISP links or bufferbloat-infested routers back home.
+
+Limited availability, frequent dropouts, and occasional service preemptions.
+
+These constraints drastically impact the modern web experience! Some of it is unavoidable. The link characteristics described above are truly bleak. But – a lot of the end-user impact is caused by web and app engineering which fails to take slow/intermittent links into consideration.
+
+If you’re an app developer reading this, can you tell me, off the top of your head, how your app behaves on a link with 40 kbps available bandwidth, 1,000 ms latency, occasional jitter of up to 2,000 ms, packet loss of 10%, and a complete 15-second connectivity dropout every few minutes?
+
+It’s probably not great! And yet – these are real-world performance parameters that I encountered, under certain conditions, at the South Pole.
+It’s normally better than this, but this does occur, and it occurs often enough that it’s worth taking seriously.
+
+This is what happens when you have a tiny pipe to share among high-priority operational needs, plus dozens of community users. Operational needs are aggressively prioritized, and the community soaks up whatever is left.
+
+I’m not expecting miracles here! Obviously no amount of client engineering can make, say, real-time video conferencing work under these conditions. But – getting a few bytes of text in and out should still be possible! I know it is possible, because some apps are still able to do it. Others are not.
+
+Detailed, Real-world Example
+
+One day at the South Pole, I was trying to load the website of <$enterprise_collaboration_platform> in my browser. It’s hu
