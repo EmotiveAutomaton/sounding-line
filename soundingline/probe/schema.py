@@ -15,7 +15,7 @@ behind it, so it must not be able to move a number.
 
 from __future__ import annotations
 
-from typing import Annotated
+from typing import Annotated, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
@@ -267,6 +267,33 @@ class Decision(_Strict):
                 f"depth level {self.level} is not in the family {_FAMILY.depth_levels}"
             )
         return self
+
+
+class DecisionV6(Decision):
+    """A decision, plus WHAT IT WAS AIMED AT. v6 only; `Decision` is unchanged and still locked.
+
+    `docs/theory/SURFACE_AND_DEPTH.md` defines surface and depth as one primitive — decision
+    density — separated by target:
+
+        surface   decisions aimed at THE READER'S ATTENTION. Contrast, rhythm, the punchy opener,
+                  the acronym dropped to signal membership, the professional veneer.
+        depth     decisions aimed at THE ARTIFACT'S CONTENT. What to include, what to cut, which
+                  abstraction, which case to handle, which claim to defend.
+
+    Nothing in v1-v5 distinguishes them, so the two-axis reading the curator produced for all ten
+    artifacts of session 01 has no counterpart in anything the probe emits. This field is that
+    counterpart, and it is what S-1 through S-4 need.
+
+    `both` is a real answer and is not a hedge: an example chosen because it is the clearest case
+    AND because it will land is genuinely aimed at both, and forcing a choice would push those
+    into whichever bucket the model happened to prefer.
+    """
+    targets: Literal["surface", "depth", "both"]
+
+
+class StageBOutV6(_Strict):
+    """Stage B under v6 — the same chain, with each decision's target recorded."""
+    decisions: tuple[DecisionV6, ...] = Field(max_length=20)
 
 
 class TradeOff(_Strict):

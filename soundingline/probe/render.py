@@ -58,7 +58,7 @@ class Artifact:
             )
 
 
-@lru_cache(maxsize=2)
+@lru_cache(maxsize=8)   # v5, v6 and freeform now coexist; 2 thrashed
 def _load(path: Path) -> dict:
     return yaml.safe_load(path.read_text(encoding="utf-8"))
 
@@ -153,8 +153,9 @@ def stage_a(artifact: Artifact, anomalies=None, *,
     return _fill(spec["stage_a_purpose"], **slots)
 
 
-def stage_b(artifact: Artifact, purpose_id: str, audience_id: str) -> str:
-    spec = _load(BOUNDED_PATH)
+def stage_b(artifact: Artifact, purpose_id: str, audience_id: str, *,
+            spec_path: Path = BOUNDED_PATH) -> str:
+    spec = _load(spec_path)
     fam = load_family()
     return _fill(
         spec["stage_b_decisions"],
