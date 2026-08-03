@@ -72,7 +72,21 @@ def profile(runs: list[LoopRun], text: str) -> dict:
     best_p = [r.reading.purpose.best for r in runs]
     named = [sum(1 for d in r.reading.decisions if d.alternative_rejected.strip())
              / max(1, len(r.reading.decisions)) for r in runs]
+    # ADDITIVE DIAGNOSTIC, recorded because F-3 cannot be checked without it.
+    #
+    # `purpose_breadth` is computed by measures.reading for every reading and was stored only by
+    # the Gate 1 runner. C-22's sharp prediction is that Half B shows LOWER breadth than Half A —
+    # single-purposedness as the corporate signature rather than as the simplicity artefact it was
+    # demoted for at Gate 2. Without recording it here, checking F-3 would mean reading the corpus
+    # a second time.
+    #
+    # This changes NOTHING pre-registered: it adds a field to the output, is named in no criterion
+    # on the Gate 3 card, and cannot enter G3.1 through any path. It is recorded, not tested.
+    from soundingline.measures.reading import _normalised_entropy      # noqa: PLC0415
+    breadth = [_normalised_entropy(r.reading.purpose.distribution) for r in runs]
     return {
+        "purpose_breadth": statistics.fmean(breadth),
+        "purpose_breadth_sd": statistics.pstdev(breadth),
         "k": len(runs),
         "unlock": statistics.fmean(unlocks),
         "unlock_sd": statistics.pstdev(unlocks),
