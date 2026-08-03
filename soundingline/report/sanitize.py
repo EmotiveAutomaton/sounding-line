@@ -52,6 +52,47 @@ _NAV_NOISE = re.compile(
 
 _ENTITY = re.compile(r"&#?\w{2,8};")
 
+# ── DATE CENSORING ────────────────────────────────────────────────────────────────────────────
+#
+# The curator, overruling an earlier decision of mine to keep dates on the grounds that they were
+# symmetric across the halves:
+#
+#     I strongly disagree with the decision to keep date in... It is just too strong of a signal
+#     that overrides everything else, and the AI 100% will catch that. If you're doing any kind of
+#     probe, it will hyper focus on that and there's just no reason for it not to, **because it's
+#     what I did and it will be even better about doing that.**
+#
+# He is right and the symmetry test was the wrong test. A cue does not need to be lopsided to do
+# damage; it needs to DOMINATE what follows it. He demonstrated that on himself twice in one
+# session — "in the first sentence I see the smell of AI-isms linked right next to the number 2026,
+# so I'm immediately suspicious and withdrawing", and then "I wasn't able to stop myself from
+# scanning for a date."
+#
+# THE FACT THAT A DATE WAS GIVEN IS KEPT; THE VALUE IS REMOVED. A maker choosing to date their
+# work is a decision and the probe should see it. The specific year is what licenses the shortcut,
+# so it becomes `[year]` and the decision survives without the cue.
+_MONTHS = (r"january|february|march|april|may|june|july|august|september|october|november|"
+           r"december|jan|feb|mar|apr|jun|jul|aug|sept?|oct|nov|dec")
+_DATE_PATTERNS: tuple[tuple[re.Pattern, str], ...] = (
+    (re.compile(rf"\b(?:{_MONTHS})\.?\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s+(?:19|20)\d{{2}}\b", re.I),
+     "[date]"),
+    (re.compile(rf"\b\d{{1,2}}(?:st|nd|rd|th)?\s+(?:{_MONTHS})\.?,?\s+(?:19|20)\d{{2}}\b", re.I),
+     "[date]"),
+    (re.compile(rf"\b(?:{_MONTHS})\.?\s+(?:19|20)\d{{2}}\b", re.I), "[date]"),
+    (re.compile(r"\b(?:19|20)\d{2}[-/]\d{1,2}[-/]\d{1,2}\b"), "[date]"),
+    (re.compile(r"\b\d{1,2}[-/]\d{1,2}[-/](?:19|20)?\d{2}\b"), "[date]"),
+    # Bare years last, so the fuller forms above claim their digits first.
+    (re.compile(r"\b(?:19|20)\d{2}s\b"), "[decade]"),
+    (re.compile(r"\b(?:19|20)\d{2}\b"), "[year]"),
+)
+
+
+def censor_dates(text: str) -> str:
+    """Replace date VALUES with tags, keeping the fact that a date was given."""
+    for pat, tag in _DATE_PATTERNS:
+        text = pat.sub(tag, text)
+    return text
+
 # The archived half of the corpus carries the Wayback Machine's own chrome into the extraction.
 # It names the origin host outright, which defeats blinding on its own, and it is also the largest
 # block of non-artifact text in the store. NOTE FOR THE RECORD: the probe reads this too.
@@ -108,7 +149,7 @@ def _drop_nav_runs(lines: list[str], *, run: int = 6, width: int = 32) -> list[s
     return out
 
 
-def sanitize(text: str, *, reflow: bool = True) -> str:
+def sanitize(text: str, *, reflow: bool = True, dates: bool = True) -> str:
     """Remove pre-reading identity cues and, by default, the line-shape fingerprint.
 
     ``reflow`` joins hard-wrapped lines back into single-line paragraphs. It is the part that
@@ -117,6 +158,8 @@ def sanitize(text: str, *, reflow: bool = True) -> str:
     content rather than a fingerprint. Short lines are therefore treated as deliberate and left
     alone; only runs of long lines are joined.
     """
+    if dates:
+        text = censor_dates(text)
     lines = [_HTML_RESIDUE.sub("", ln).rstrip() for ln in text.splitlines()]
     lines = _strip_wayback(lines)
     lines = [ln for ln in lines if not _is_noise(ln)]
