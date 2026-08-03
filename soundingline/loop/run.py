@@ -90,9 +90,21 @@ class LoopRun:
     reading: Reading
     trajectory: list[Step]
     converged: bool
+
+    # ── E36's temporal result, and the reason the loop gained an extra pass ──────────────────
+    #
+    # "Within a single reading, process recovery before the goal settles is 0.050 and after it is
+    # 0.130 — RESOLVING_THE_GOAL_UNLOCKS_THE_PROCESS."
+    #
+    # The loop used to STOP the moment the posterior settled, which is precisely the moment E36
+    # says the payoff begins. It was quitting at the start of the interesting part. So after
+    # convergence it now runs one more stage B under the settled purpose, and these two fields
+    # are the before/after that E36 compares.
     arm: str
     model: str
     seed: int | None
+    decisions_before_settle: float = 0.0
+    decisions_after_settle: int = 0
     calls: list[ProbeResult] = field(default_factory=list)
 
     @property
@@ -188,6 +200,28 @@ def run_loop(
             converged = True
             break
 
+    # The baseline is the FIRST stage-B pass — method recovered under stage A's un-refined
+    # purpose — not a mean over iterations. E36's comparison is recovery under an unpinned goal
+    # against recovery under a pinned one, and averaging across iterations blends the two.
+    mean_before = float(trajectory[1].n_decisions) if len(trajectory) > 1 else 0.0
+
+    # ── The unlock pass. One extra stage B, under the now-settled purpose. ───────────────────
+    # E36's between-reader form failed in the simulation and its within-reading form held, so
+    # this is deliberately a comparison inside a single reading rather than across samples —
+    # which also routes around E38, since cross-sample agreement is what a machine-matched
+    # reader degrades on.
+    unlock = client.read(
+        system,
+        render.stage_b(artifact, purpose.best, audience.best),
+        StageBOut,
+    )
+    calls.append(unlock)
+    after_decisions = unlock.parsed.decisions          # type: ignore[union-attr]
+    if len(after_decisions) > len(decisions):
+        # Keep the richer chain. The unlock pass reads under a settled purpose and E36 predicts
+        # it recovers more; when it does, that is the reading rather than a duplicate of it.
+        decisions = after_decisions
+
     # ── Stage D: trade-offs, once, after the loop settles ────────────────────────────────────
     # V6's values layer: values are read off the recovered goal, so they cannot arrive before
     # it. Running this inside the loop would let a trade-off reading feed back into the purpose
@@ -219,6 +253,8 @@ def run_loop(
         reading=reading,
         trajectory=trajectory,
         converged=converged,
+        decisions_before_settle=mean_before,
+        decisions_after_settle=len(after_decisions),
         arm=client.arm,
         model=client.model,
         seed=seed,

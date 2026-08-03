@@ -71,6 +71,13 @@ def profile(runs: list[LoopRun]) -> dict:
         "machine": statistics.fmean(r.reading.audience.machine for r in runs),
         "audiences": [r.reading.audience.best for r in runs],
         "artifact_effort": [r.reading.artifact_effort for r in runs],
+        # E36's temporal quantity — the one Gate 2's failure said we should have been measuring.
+        "method_before": statistics.fmean(r.decisions_before_settle for r in runs),
+        "method_after": statistics.fmean(r.decisions_after_settle for r in runs),
+        "method_unlock": (statistics.fmean(r.decisions_after_settle for r in runs)
+                          / statistics.fmean(r.decisions_before_settle for r in runs))
+                         if statistics.fmean(r.decisions_before_settle for r in runs) > 0.05 else 0.0,
+        "settled": sum(1 for r in runs if r.converged) / len(runs),
         "n_chars": 0,
     }
 
@@ -117,9 +124,9 @@ def main() -> None:
         print(f"  {aid:<26} row{row} "
               f"bounded[agree={b.get('purpose_agreement', 0):.2f} "
               f"alt={b.get('named_alternative_rate', 0):.2f} "
-              f"mach={b.get('machine', 0):.2f} depth={b.get('max_depth', 0)}] "
-              f"free[agree={f.get('purpose_agreement', 0):.2f} "
-              f"alt={f.get('named_alternative_rate', 0):.2f}]", flush=True)
+              f"mach={b.get('machine', 0):.2f} depth={b.get('max_depth', 0)} "
+              f"UNLOCK={b.get('method_unlock', 0):.2f} "
+              f"({b.get('method_before', 0):.1f}->{b.get('method_after', 0):.1f})]", flush=True)
 
     RESULTS.mkdir(parents=True, exist_ok=True)
     (RESULTS / f"gate2_{args.arm}_k{args.k}.json").write_text(

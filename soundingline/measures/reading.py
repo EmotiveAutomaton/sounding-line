@@ -144,6 +144,65 @@ def fit(run: LoopRun, artifact_text: str) -> Fit:
 # ---------------------------------------------------------------------------------------------
 
 @dataclass(frozen=True)
+class MethodUnlock:
+    """E36's temporal result, made into a measure. **The quantity this project should have been
+    measuring from the start.**
+
+    ── WHY THIS EXISTS ───────────────────────────────────────────────────────────────────────
+    V6's E36, in the simulation's own words:
+
+        Every measure of what a reader takes on, in every version of this project, has scored
+        how much of the maker's PURPOSE it got. Depth is built so the purpose is equally readable
+        however deep the work is, so that measure could not move with depth whatever was true...
+        On the maker's method, depth moves uptake: 0.179 [0.099, 0.267]. On the maker's purpose,
+        measured on the same cells, it does not: -0.028 [-0.116, 0.058].
+        **The experiment was not wrong; it was pointed at the wrong quantity.**
+
+    Every discriminator Gate 2 used was a purpose measure, and Gate 2 failed. This measures
+    method instead: how much of the maker's execution chain becomes visible once the purpose is
+    pinned.
+
+    Two properties matter beyond that:
+
+    * **It is within-reading.** E36's BETWEEN-reader form failed in the simulation as well
+      (0.047 against a required 0.15); only the temporal, within-reading form held. Cross-sample
+      agreement is also exactly what E38 says a machine-matched reader degrades on — so a
+      within-reading measure routes around the reader problem rather than fighting it.
+    * **It is not constructed flat.** Purpose is equally readable at every depth by design.
+      Method is not, which is why it can move at all.
+
+    **Known limit, recorded rather than hidden:** where the posterior settles on the first
+    iteration, the "before" and "after" purposes are the same and the ratio is trivially 1.0.
+    That is not a defect so much as a boundary — an artifact whose purpose was obvious from the
+    first pass has no refinement to unlock anything — but it means the measure is informative on
+    a SUBSET of artifacts, and the subset is not random. `settled` travels with every reading so
+    the subset can be identified rather than averaged over silently.
+    """
+    before: float          # decisions recovered under stage A's UN-REFINED purpose
+    after: int             # decisions recovered in the pass after it settled
+    unlock: float          # after / before — the ratio E36 reports as 0.130 / 0.050
+    settled: bool          # did the posterior settle at all? an unsettled loop has no "after"
+
+    @property
+    def gained(self) -> float:
+        return self.after - self.before
+
+
+def method_unlock(runs: list[LoopRun]) -> MethodUnlock:
+    """Mean unlock across independent readings of one artifact."""
+    before = mean(r.decisions_before_settle for r in runs)
+    after = mean(r.decisions_after_settle for r in runs)
+    # A guard rather than a silent zero: an artifact from which nothing was recovered before
+    # settling has no baseline to divide by, and reporting an infinite unlock would be a lie
+    # about an artifact the probe found nothing in.
+    ratio = (after / before) if before > 0.05 else 0.0
+    return MethodUnlock(before=before, after=int(round(after)), unlock=ratio,
+                        settled=any(r.converged for r in runs))
+
+
+# ---------------------------------------------------------------------------------------------
+
+@dataclass(frozen=True)
 class Convergence:
     """Agreement across independent reconstructions. SPEC §5.
 
@@ -292,6 +351,7 @@ class Measurement:
     """
     artifact_id: str
     fit: Fit
+    method: MethodUnlock
     # Reported beside fit, never inside it. How single-purposed the artifact is — a property of
     # the artifact rather than of the recovery, and the component whose inclusion in fit ranked
     # the richest artifact in the Gate 1 set dead last.
@@ -329,6 +389,7 @@ def measure(runs: list[LoopRun], artifact_text: str) -> Measurement:
     return Measurement(
         artifact_id=runs[0].artifact_id,
         fit=fit(runs[0], artifact_text),
+        method=method_unlock(runs),
         purpose_breadth=_normalised_entropy(runs[0].reading.purpose.distribution),
         convergence=convergence(runs),
         depth=depth(runs[0], artifact_text),
