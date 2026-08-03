@@ -92,9 +92,13 @@ def fit(run: LoopRun, artifact_text: str) -> Fit:
     if quotes:
         # locate() is authoritative: the model supplies the quote, the code finds it. A quote
         # that cannot be located is fabrication, and that is now the only thing this can mean.
-        verified = sum(1 for e in quotes if e.locate(artifact_text) is not None)
-        grounding = verified / len(quotes)
-        unverifiable = len(quotes) - verified
+        # Graded, not binary. Each quote contributes its own similarity to the artifact, so a
+        # lightly-paraphrased transcription costs a little and an invented sentence costs
+        # everything. `unverifiable_quotes` still counts outright misses, which is the number
+        # that means fabrication.
+        located = [e.locate(artifact_text) for e in quotes]
+        grounding = sum(loc[2] for loc in located if loc) / len(quotes)
+        unverifiable = sum(1 for loc in located if loc is None)
     else:
         # No claims made is not the same as claims that failed to check out. An artifact from
         # which nothing was recovered has no grounding to measure, and scoring it 1.0 would

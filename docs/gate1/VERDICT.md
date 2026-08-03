@@ -1,106 +1,114 @@
-# Gate 1 — verdict: **INCOMPLETE**. Not passed, not failed.
+# Gate 1 — verdict: **REDESIGN the fit measure. Continue everything else.**
 
-**Run 2026-08-02, local arm, qwen3.5:9b, k=3, family v2.**
-Raw output: `results/gate1/gate1_local_k3.json`, `results/gate1/clean_run.log`.
+**Runs 2026-08-02, local arm, qwen3.5:9b, family v2.** k=3 then k=5 with graded grounding.
+Raw: `results/gate1/gate1_local_k5.json`.
 
-Gate 1's honest options are continue, redesign, or stop. The answer is **continue, with the
-headline measure rebuilt first** — and the reason is that one dimension worked and one did not,
-in a way that separates cleanly.
+Gate 1's options are continue, redesign, or stop. **Redesign, narrowly and specifically:** the
+architecture and the loop are sound, one output dimension is working well, and the headline
+measure is measuring the wrong thing in a way this run diagnoses precisely.
 
 ---
 
-## §1. What the run produced
+## §1. The k=5 result
 
-| artifact | valid | fit | conc | ground | supp | agree | depth | audience |
+| artifact | valid | **fit** | conc | ground | **supp** | agree | depth | machine |
 |---|---|---|---|---|---|---|---|---|
-| **A** (rich, 5 revisions) | 3/3 | **0.000** | 0.19 | **0.00** | 0.00 | 0.67 | 0 | `specific_person` ×3 |
-| **B** (thin, 9-word prompt) | 3/3 | **0.600** | 0.65 | 0.33 | 1.00 | 0.67 | 3 | `known_group` / `general_public` |
-| **C** (rich, first draft) | 1/3 | — | — | — | — | — | — | `general_public` |
+| **A** — rich brief, 5 revisions | 5/5 | **0.000** | 0.73 | 0.42 | **0.00** | **1.00** | 0 | 0.00 |
+| **B** — thin, 9-word prompt | 5/5 | 0.560 | 0.65 | 0.27 | 1.00 | 0.80 | 3 | 0.00 |
+| **C** — rich brief, first draft | 3/5 | **0.976** | 1.00 | 0.93 | 1.00 | 1.00 | 1 | 0.02 |
 
-**7 of 9 samples valid.** C fell below the k≥2 that convergence requires, so the three-way
-ranking the gate was built to test could not be computed. `B > A` is what remains, and it is not
-the pre-registered comparison.
+**Ranking by fit: C > B > A.** Protocol order is A > C > B; curator order is B > C > A.
 
-**Verdict against C-18: NEITHER.** The probe is measuring a third thing, and §3 says what.
+**Verdict against C-18: NEITHER — the probe is measuring a third thing.** §3 identifies it.
 
 ---
 
-## §2. The one clean positive, and it is the interesting one
+## §2. The audience dimension works, and it works on the hard case
 
-**All three samples on item A independently returned `audience = specific_person`.**
+**All five samples on item A returned `audience = specific_person`. Agreement 1.00.**
 
-Item A was written to a brief naming one reader — a friend who had bounced off the game twice,
-plays in forty-minute chunks, and had been defeated by a stat calculator. Nothing in the artifact
-says "this is for one person." The probe recovered it three times out of three, with the
-machine-audience hypothesis at 0.02.
+Item A was written to a brief naming one reader and never says so in its text. B returned
+`general_public` / `known_group`; C returned `general_public` five times out of five.
 
-Items B and C, from the same generator on the same topic, returned `known_group` and
-`general_public`. The dimension **separated the artifacts by their actual direction**, and it did
-so in the direction the *protocol* says is correct — which is the direction **the human curator
-did not go**. The curator ranked A dead last, blocked by surface AI markers (CALIBRATION_03 §2).
+The dimension separates the three artifacts by their actual direction, in the protocol's order,
+on the artifact where a domain-expert human reader went the other way — the curator ranked A last
+(CALIBRATION_03 §2).
 
-This is the C-18 "protocol order" outcome appearing on **one dimension**. It is not the verdict —
-fit is the headline and fit failed — but it is the first evidence in the project that the
-instrument can recover something a domain-expert human reader could not, which is the entire
-argument for building it.
+Graded grounding also did its job: item A went from 0.00 to **0.42** once light paraphrase stopped
+being scored as fabrication, which was the fix this run existed to test.
 
-**It must not be over-read.** One dimension, one artifact, k=3, one model, and the person who
-wrote the brief also wrote the code. It is a signal to test properly, not a result.
+**Scope:** one dimension, three artifacts, one model, k=5, and the person who wrote the brief wrote
+the code. It is a reason to test properly, not a result to quote.
 
 ---
 
-## §3. Why fit failed, and why it is not the model's fault
+## §3. What the third thing is
 
-`fit` is the geometric mean of concentration, grounding and support. **Item A scored 0.00 on
-grounding** — not one quote the probe offered could be located in the artifact — so fit went to
-zero regardless of everything else.
+**Item A scored `support` = 0.00 across all five samples.** The probe recovered one to two
+decisions per sample and **never once named a rejected alternative**. B and C both scored 1.00.
 
-That is not the probe hallucinating. Item B, the *thinner* artifact, scored 0.33 on the same
-measure. The pattern across the run is that grounding is low everywhere and collapses where the
-prose is densest, which points at the locator rather than the reader: whitespace-normalised exact
-substring matching is too brittle for a model that paraphrases lightly while quoting.
+That is not a property of item A. Item A is full of explicit rejected alternatives, stated as
+such:
 
-**Consequence:** fit currently punishes artifacts whose language is hardest to quote back
-verbatim, which correlates with exactly the revision-toward-directness that item A received. A
-measure that penalises careful prose is measuring the wrong thing, and the ranking it produced
-cannot be trusted in either direction.
+> *"I'm giving you a target rather than a table because last time you spent an hour on a stat
+> calculator and then didn't play."*
+> *"It works. Do not do it."*
+> *"I'd take the crutch."*
 
-This is a **fixable measurement defect, not an architecture failure**, and it is the reason the
-verdict is incomplete rather than redesign.
+Meanwhile **item B — the nine-word prompt — scored a perfect 1.00**, and item B contains a section
+headed *"Alternative Builds Worth Considering."*
 
----
+**The probe is detecting the word `alternative`, not the structure of a decision.** `support`
+is a lexical marker detector. Where an artifact *labels* its alternatives, the probe finds them;
+where a maker *enacts* a choice and explains the reasoning without using the vocabulary of
+options, the probe finds nothing.
 
-## §4. Reliability, stated plainly
+This is SPEC §7's first falsifier arriving in a specific and diagnosable form — *if the probe
+converges on garbage because the garbage is well-organised, it is a quality classifier with extra
+steps.* Item C is the demonstration: the hedgiest artifact in the set (*"This depends on what
+you're looking for"*) scored **concentration 1.00 and fit 0.976**. Generic, well-sectioned,
+non-committal prose is the easiest thing in the world to classify confidently.
 
-**7/9 samples valid (78%).** The two failures were a truncated JSON string and a quote exceeding
-its length cap. Both are generation-budget problems on a 9B local model, both are recorded, and
-neither was retried — retrying would bias the sample toward artifacts the model finds easy.
-
-The bring-up cost, honestly: **six distinct failure classes** between the model being installed
-and the run completing, each one recorded in the code where it was fixed —
-
-1. thinking collides with constrained decoding (18,889 chars of reasoning, zero of output);
-2. grammar cannot enforce a simplex (a distribution summing to 2.50);
-3. an open object lets the grammar drop hypotheses (`machine` omitted entirely);
-4. the model switches to percentages unprompted;
-5. **asking a model for character offsets is asking it to count characters** — the single worst
-   design error in the build, now replaced by model-quotes / code-locates;
-6. pydantic docstrings bloated the grammar past what the sampler could compile.
-
-Every one is evidence for the two-stage rewrite, which is now in and which raised single-call
-reliability from 4/6 to 6/6 on the smoke test.
+**As built, fit rewards legibility of genre and punishes specificity of direction.** That is the
+opposite of the instrument's purpose, and it is why the ranking inverted the protocol.
 
 ---
 
-## §5. What happens next, in order
+## §4. What this does and does not condemn
 
-1. **Rebuild grounding.** Fuzzy match with a stated threshold, or score locatability per claim
-   rather than as a hard binary. Until then, no fit number leaves this repository.
-2. **Re-run Gate 1** with grounding fixed and k=5, so a single sample failure cannot drop an
-   artifact below the convergence floor.
-3. **Run the API arm** (H1.5). The local arm's 78% and its zero-grounding behaviour are exactly
-   what the reference arm exists to bound — if Opus 5 grounds cleanly on item A, the defect is
-   the 9B model's quoting fidelity rather than the locator, and the fix is different.
+**Not condemned — keep:**
+- the §3 loop. It converges, records trajectories, and the audience dimension rides on it.
+- the bounded family. Every recovered value was in-family; nothing was invented.
+- the two-stage execution. Reliability 13/15 at k=5 versus 4/6 single-call.
+- graded grounding. It fixed the exact failure it was built for.
+- the security architecture. Untouched by any of this.
 
-**No Gate 1 number may be quoted anywhere until step 1 lands.** The audience finding in §2 is the
-sole exception, and only with §2's final paragraph attached.
+**Condemned — rebuild:**
+- **`support`**, entirely. A decision is not "the artifact mentions an alternative." It is a
+  choice with a visible road not taken, and detecting that needs the probe to reason about what
+  the artifact *does not* do — which the current stage-B prompt never asks for.
+- **`fit`'s geometric mean**, consequently. One broken component at zero annihilates the other
+  two, and it annihilated the artifact with the highest audience agreement in the set.
+
+---
+
+## §5. Blocked
+
+**The API arm (H1.5) could not run: no credentials.** `ANTHROPIC_API_KEY` is unset and the `ant`
+CLI is not installed. This matters more than it did before §3 — the reference arm is how we
+separate *"a 9B model cannot see enacted decisions"* from *"the prompt never asks it to."* Those
+need different fixes and the local arm alone cannot distinguish them.
+
+---
+
+## §6. Next, in order
+
+1. **Rewrite stage B** to ask for the road not taken rather than for alternatives, and rewrite
+   `support` to score it. This is the redesign.
+2. **Re-run the local arm** against the same three artifacts. If A's support rises and C's falls,
+   the diagnosis in §3 is confirmed.
+3. **Run the API arm** once credentials exist, to bound §3 against model capability.
+4. Only then re-test C-18.
+
+**No fit number leaves this repository.** The audience result in §2 may be cited with its scope
+paragraph attached; nothing else may.

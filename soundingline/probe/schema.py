@@ -121,18 +121,47 @@ class Evidence(_Strict):
     # The gap is scored where it belongs instead of destroying every other claim in the sample.
     quote: str = Field(default="", max_length=600)
 
-    def locate(self, artifact_text: str) -> tuple[int, int] | None:
-        """Character span of this quote in the artifact, or None if it is not there.
+    def locate(self, artifact_text: str, *, threshold: float = 0.80
+               ) -> tuple[int, int, float] | None:
+        """Best match for this quote in the artifact: (start, end, similarity), or None.
 
-        Whitespace-insensitive, because models re-wrap; otherwise exact. A paraphrase does not
-        match and must not — paraphrase is precisely what this is here to catch.
+        ── WHY THIS IS GRADED RATHER THAN EXACT ──────────────────────────────────────────────
+        The first Gate 1 run scored item A at 0.00 grounding — not one offered quote located —
+        while the thinner item B scored 0.33 on the same measure. Exact substring matching was
+        collapsing hardest on the densest prose, which meant `fit` was penalising artifacts that
+        are hard to quote back verbatim. That correlates with careful revision, so the headline
+        measure was punishing exactly the property the instrument exists to detect.
+
+        Models paraphrase lightly while quoting: a dropped article, a normalised dash, a joined
+        clause. That is a model transcribing text it genuinely read. Inventing a sentence that is
+        not there is a different act, and the gap between them is wide — so similarity is scored
+        continuously and the threshold marks where transcription ends and fabrication begins.
+
+        Whitespace and case are normalised before comparison; nothing else is forgiven.
         """
+        import difflib
         import re
+
         needle = re.sub(r"\s+", " ", self.quote).strip().lower()
         hay = re.sub(r"\s+", " ", artifact_text).strip().lower()
+        if not needle:
+            return None
         i = hay.find(needle)
-        return (i, i + len(needle)) if i >= 0 else None
+        if i >= 0:
+            return (i, i + len(needle), 1.0)
 
+        # No exact hit: find the window of the artifact this quote best corresponds to.
+        # Windows are stepped at a quarter of the quote length so a match cannot fall between
+        # two of them, and each is scored by matched characters over quote length.
+        n = len(needle)
+        best = (0, 0, 0.0)
+        step = max(1, n // 4)
+        for start in range(0, max(1, len(hay) - n + 1), step):
+            window = hay[start:start + int(n * 1.3)]
+            ratio = difflib.SequenceMatcher(None, needle, window, autojunk=False).ratio()
+            if ratio > best[2]:
+                best = (start, start + len(window), ratio)
+        return best if best[2] >= threshold else None
 
 class PurposePosterior(_Strict):
     """Distribution over the family's purpose dimension. Keys are exactly the family's ids."""
