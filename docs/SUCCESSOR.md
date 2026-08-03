@@ -150,6 +150,30 @@ corpus label.
 | fit (Pareto panel) | **kept.** Nothing has argued against it. |
 | surface variance within artifact | **new.** S-1..S-4 in `docs/theory/SURFACE_AND_DEPTH.md`. Nothing measures position. |
 | purpose agreement | **demoted to diagnostic.** E36 says purpose is constructed flat; C-22 says commercial work agrees *more*. |
+| performed affect | **built, unrun.** family v3 + stage E. Blocked on N-AFF. |
+| anomaly entry | **built, unrun.** stage zero. Blocked on nothing but GPU. |
+
+### Build status, 2026-08-03 evening
+
+Everything below exists, is locked where it should be, passes the suite, and **none of it is the
+default path** — the Gate 3 run in flight renders `bounded_v5` against `family_v2`, byte-identical
+to before.
+
+| built | file |
+|---|---|
+| stage zero, the anomaly pass | `prompts/bounded_v6.yaml`, `schema.StageZeroOut`, `loop.run_loop(anomaly_pass=True)` |
+| decision targets, surface vs depth | `schema.DecisionV6`, v6 stage B |
+| position profile, S-1 | `measures/position.py`, `runners/run_s1.py` |
+| performed affect | `family_v3.yaml`, v6 stage E, `schema.StageEOut` |
+| gated unlock | `measures/gated.py` |
+| the no-maker controls | `runners/run_controls.py` |
+
+**What blocks each of them is GPU, not design.** They queue behind Gate 3.
+
+**One thing that cannot be recovered from the Gate 3 run:** it persists profile scalars, not the
+readings themselves, so gated unlock cannot be computed on that corpus without re-reading it. That
+is a gap in the runner rather than in the measure, and it does not block the controls, which run on
+the three generated artifacts.
 
 ---
 
