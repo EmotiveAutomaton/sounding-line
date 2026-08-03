@@ -34,11 +34,42 @@ RESULTS = REPO / "results" / "gate3"
 DOMAIN_CAP = 3
 
 
-def load_corpus() -> list[tuple[str, str, str]]:
-    """(id, half, text) after the pre-registered domain cap.
+def load_corpus(*, sanitise: bool = True) -> list[tuple[str, str, str]]:
+    """(id, half, text) after the pre-registered domain cap, and after extraction cleanup.
 
     The cap is applied HERE, before any statistic, by sorted URL — deterministic and stated in
     the card, so it cannot be tuned after seeing a result.
+
+    ── SANITISATION, ADDED MID-GATE AND LOGGED AS A DEVIATION (D-6) ──────────────────────────
+
+    The curator, on being handed the same bytes the probe reads:
+
+        If I'm using these tricks, then a hyper-optimizing machine that's waiting on every little
+        variable will super focus on things like that... Showing that there are three authors is a
+        direct influence on intentionality readings, obviously. **Both for me and the machine.**
+
+    Measured on this corpus, as the probe was reading it:
+
+        half A   n=28   Wayback banner in the extraction:  0
+        half B   n=23   Wayback banner in the extraction:  7  (30%)
+
+    The archive's banner names the origin host, a capture count and a date, and sits at the TOP of
+    the extraction, inside the 12,000-character window the probe reads. It is present on nearly a
+    third of Half B and on none of Half A. **That is a systematic difference between the halves
+    with nothing to do with any maker, in the input to the primary test.** A significant G3.1 on
+    that input could not be distinguished from an artefact of how the corpus was collected.
+
+    WHAT IS AND IS NOT REMOVED, and the line is between extraction and authorship:
+
+      removed   archive chrome, site navigation, translation link lists, bare URLs, HTML residue,
+                the site name trailing the page title. None of it was written for a reader.
+      kept      dates in prose, bylines, author names, everything the maker put there. These are
+                roughly symmetric across the halves (12 of 28 against 14 of 23 carry a year in the
+                first 2,000 characters) and they are content, not collection artefacts.
+
+    Applied identically to both halves, decided from a property of the corpus rather than from any
+    result, and the run was restarted from zero so that no artifact is scored on different input
+    from any other.
     """
     from urllib.parse import urlparse
     man = json.loads(MANIFEST.read_text(encoding="utf-8"))
@@ -58,7 +89,11 @@ def load_corpus() -> list[tuple[str, str, str]]:
             key = hashlib.sha256(it["requested_url"].encode("utf-8")).hexdigest()[:16]
             p = STORE / f"{key}.txt"
             if p.exists():
-                out.append((it["id"], it["half"], p.read_text(encoding="utf-8")))
+                text = p.read_text(encoding="utf-8")
+                if sanitise:
+                    from soundingline.report.sanitize import sanitize   # noqa: PLC0415
+                    text = sanitize(text)
+                out.append((it["id"], it["half"], text))
     return out
 
 
