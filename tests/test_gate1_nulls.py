@@ -84,8 +84,7 @@ def test_n4_full_pipeline_makes_no_socket_calls(monkeypatch):
         trade_offs=[{
             "gained": "an honest account of three products",
             "given_up": "the at-a-glance comparison a table would have given",
-            "evidence": evidence("described in prose instead",
-                                 ARTIFACT_TEXT.index("described in prose instead")),
+            "evidence": evidence("described in prose instead"),
         }],
     ))
     runs = [run_loop(probe, ARTIFACT, seed=s) for s in range(3)]
@@ -210,7 +209,7 @@ def test_n1_a_coherent_reading_scores_high_fit():
         trade_offs=[{
             "gained": "an honest account",
             "given_up": "the at-a-glance comparison",
-            "evidence": evidence("comparison table", ARTIFACT_TEXT.index("comparison table")),
+            "evidence": evidence("comparison table"),
         }],
     ))
     run = run_loop(probe, ARTIFACT)

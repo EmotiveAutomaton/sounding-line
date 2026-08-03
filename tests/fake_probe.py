@@ -50,7 +50,9 @@ def peaked_audience(winner: str = "general_public", mass: float = 0.7) -> dict[s
 
 
 def evidence(quote: str, start: int = 0):
-    return {"quote": quote, "start": start, "end": start + len(quote)}
+    """`start` is ignored — kept so call sites read naturally. Offsets are computed by
+    Evidence.locate(), never supplied by the model."""
+    return {"quote": quote}
 
 
 @dataclass

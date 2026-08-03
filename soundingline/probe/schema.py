@@ -102,21 +102,36 @@ class _Strict(BaseModel):
 
 
 class Evidence(_Strict):
-    """A verbatim span from the artifact, with its character offsets.
+    """A verbatim quote from the artifact. Offsets are computed by code, never by the model.
 
-    Offsets rather than free text so a claim can be checked against the stored artifact. A probe
-    that cannot point at where it saw something has not recovered a decision; it has produced an
-    impression.
+    ── WHY THE MODEL NO LONGER SUPPLIES OFFSETS ──────────────────────────────────────────────
+    The first Gate 1 run failed on this field more than any other — one sample produced 26
+    validation errors, all of them `end <= start`. Asking a language model for character offsets
+    is asking it to count characters, which it cannot do, and no amount of prompting fixes an
+    arithmetic capability the architecture does not have.
+
+    The requirement was right and the implementation was wrong. What the measurement actually
+    needs is *checkability*: can this claim be traced to text that is really there? The model
+    supplies the quote; `locate()` finds it. A quote that cannot be found is the fabrication
+    signal, and it is now a cleaner signal than before, because a failure to locate means the
+    text is absent rather than that the model mis-counted.
     """
-    quote: str = Field(min_length=1, max_length=600)
-    start: int = Field(ge=0)
-    end: int = Field(ge=0)
+    # Empty is permitted for the same reason as `alternative_rejected`: an empty quote cannot
+    # be located, `locate()` returns None, and `fit.grounding` counts it against the reading.
+    # The gap is scored where it belongs instead of destroying every other claim in the sample.
+    quote: str = Field(default="", max_length=600)
 
-    @model_validator(mode="after")
-    def _ordered(self):
-        if self.end <= self.start:
-            raise ValueError("evidence span must have end > start")
-        return self
+    def locate(self, artifact_text: str) -> tuple[int, int] | None:
+        """Character span of this quote in the artifact, or None if it is not there.
+
+        Whitespace-insensitive, because models re-wrap; otherwise exact. A paraphrase does not
+        match and must not — paraphrase is precisely what this is here to catch.
+        """
+        import re
+        needle = re.sub(r"\s+", " ", self.quote).strip().lower()
+        hay = re.sub(r"\s+", " ", artifact_text).strip().lower()
+        i = hay.find(needle)
+        return (i, i + len(needle)) if i >= 0 else None
 
 
 class PurposePosterior(_Strict):
@@ -193,8 +208,20 @@ class Decision(_Strict):
     is where the instrument earns the word `depth`.
     """
     level: int
-    what_was_chosen: str = Field(min_length=1, max_length=400)
-    alternative_rejected: str = Field(min_length=1, max_length=400)
+    what_was_chosen: str = Field(max_length=400)
+
+    # Deliberately allowed to be EMPTY, and that is the measurement rather than a defect.
+    #
+    # An earlier version required at least one character. Gate 1 then threw away entire readings
+    # because one decision in six came back with no alternative named — five recovered decisions
+    # discarded to punish the sixth. That is the same sample-biasing mistake as rejecting an
+    # untidy distribution, and the same answer applies: keep the reading, score the gap.
+    #
+    # An empty `alternative_rejected` means the probe could not name what else the maker could
+    # have done. Under SPEC §4 that is not a decision at all — it is a property of the artifact —
+    # so it is counted as unsupported by `fit.support` and costs the reading there, which is
+    # where it should cost it.
+    alternative_rejected: str = Field(default="", max_length=400)
     evidence: Evidence
 
     @model_validator(mode="after")
@@ -213,8 +240,8 @@ class TradeOff(_Strict):
     appear here — the output is the pair, and rendering it as a value statement belongs to the
     reader.
     """
-    gained: str = Field(min_length=1, max_length=400)
-    given_up: str = Field(min_length=1, max_length=400)
+    gained: str = Field(default="", max_length=400)
+    given_up: str = Field(default="", max_length=400)
     evidence: Evidence
 
 
@@ -227,7 +254,11 @@ class Reading(_Strict):
     """
     purpose: PurposePosterior
     audience: AudiencePosterior
-    decisions: tuple[Decision, ...] = Field(max_length=40)
+    # 12, not 40. A sample truncated mid-object at line 1070 of generated JSON: the model kept
+    # enumerating decisions until it ran out of budget. Twelve is more than any artifact in the
+    # calibration set produced, and a cap that fits in the generation budget beats a cap that
+    # only fits in principle.
+    decisions: tuple[Decision, ...] = Field(max_length=12)
     cost_borne: int
 
     # v2. Two dimensions, not one — the curator split them before they were built
@@ -305,7 +336,11 @@ class StageAOut(_Strict):
 
 class StageBOut(_Strict):
     """The decision chain visible under a supplied purpose."""
-    decisions: tuple[Decision, ...] = Field(max_length=40)
+    # 12, not 40. A sample truncated mid-object at line 1070 of generated JSON: the model kept
+    # enumerating decisions until it ran out of budget. Twelve is more than any artifact in the
+    # calibration set produced, and a cap that fits in the generation budget beats a cap that
+    # only fits in principle.
+    decisions: tuple[Decision, ...] = Field(max_length=12)
 
 
 class StageCOut(_Strict):
@@ -317,7 +352,9 @@ class StageCOut(_Strict):
     """
     purpose: PurposePosterior
     audience: AudiencePosterior
-    changed_because: str = Field(min_length=1, max_length=800)
+    # Empty is legitimate: it means the method revealed nothing that bears on purpose, and an
+    # unchanged posterior is a real outcome the loop records rather than an omission.
+    changed_because: str = Field(default="", max_length=800)
 
 
 class StageDOut(_Strict):
@@ -357,10 +394,93 @@ def _explicit_distribution(ids) -> dict:
     """
     return {
         "type": "object",
-        "properties": {i: {"type": "integer"} for i in ids},
+        "properties": {i: {"type": "integer", "minimum": 0} for i in ids},
         "required": list(ids),
         "additionalProperties": False,
     }
+
+
+def _inline_refs(node, defs):
+    """Resolve every $ref inline and drop $defs entirely.
+
+    Ollama's grammar compiler rejected the referenced form outright — "failed to initialize
+    samplers: failed to parse grammar" — on every stage that contained a nested model. A schema
+    the sampler cannot compile is not a constraint, it is an outage, so the schema handed to the
+    model is now self-contained.
+    """
+    if isinstance(node, list):
+        return [_inline_refs(n, defs) for n in node]
+    if not isinstance(node, dict):
+        return node
+    if "$ref" in node:
+        name = node["$ref"].rsplit("/", 1)[-1]
+        return _inline_refs({k: v for k, v in defs[name].items()}, defs)
+    return {k: _inline_refs(v, defs) for k, v in node.items() if k != "$defs"}
+
+
+def _apply_family_ordinals(node, fam):
+    """Replace bare integer fields with explicit enums of the family's levels.
+
+    A bare `{"type": "integer"}` let the probe return depth level 5 against a family that stops
+    at 4. An ordinal whose allowed values are known should be enumerated in the grammar rather
+    than checked afterwards — the validator catching it destroys the whole reading, and the
+    grammar preventing it costs nothing.
+    """
+    ordinals = {
+        "level": fam.depth_levels,
+        "cost_borne": fam.cost_levels,
+        "artifact_effort": fam.artifact_effort_levels,
+        "demonstrated_work": fam.demonstrated_work_levels,
+    }
+    if isinstance(node, list):
+        return [_apply_family_ordinals(n, fam) for n in node]
+    if not isinstance(node, dict):
+        return node
+    out = {}
+    for k, v in node.items():
+        if k == "properties" and isinstance(v, dict):
+            props = {}
+            for pname, pschema in v.items():
+                if pname in ordinals and ordinals[pname]:
+                    props[pname] = {"type": "integer", "enum": list(ordinals[pname])}
+                else:
+                    props[pname] = _apply_family_ordinals(pschema, fam)
+            out[k] = props
+        else:
+            out[k] = _apply_family_ordinals(v, fam)
+    return out
+
+
+# Keys the grammar compiler is allowed to see. Everything else is documentation or a constraint
+# the sampler does not honour anyway, and both are actively harmful here.
+#
+# Pydantic emits every docstring as a `description`, so the schema for one stage carried several
+# kilobytes of prose — em-dashes, blank lines, the lot — and Ollama answered "failed to parse
+# grammar" on the stage with the most of it, while compiling the same schema fine in isolation
+# with a short prompt. The model is told what the fields mean by the PROMPT; the grammar only
+# needs to know the shape.
+#
+# Length and range constraints are dropped for a different reason: bring-up showed `maximum` does
+# not bind in the sampler, so leaving them in advertises a guarantee that is not delivered.
+# Pydantic still enforces every one of them on the way back in, where they actually hold.
+_GRAMMAR_KEYS = {
+    "type", "properties", "required", "items", "enum", "additionalProperties", "minimum",
+}
+
+
+def _strip_to_grammar(node):
+    """Reduce a JSON Schema to the subset the sampler needs, recursively."""
+    if isinstance(node, list):
+        return [_strip_to_grammar(n) for n in node]
+    if not isinstance(node, dict):
+        return node
+    out = {}
+    for k, v in node.items():
+        if k == "properties" and isinstance(v, dict):
+            out[k] = {pk: _strip_to_grammar(pv) for pk, pv in v.items()}
+        elif k in _GRAMMAR_KEYS:
+            out[k] = _strip_to_grammar(v)
+    return out
 
 
 def json_schema(model_cls: type[BaseModel] = Reading) -> dict:
@@ -380,4 +500,8 @@ def json_schema(model_cls: type[BaseModel] = Reading) -> dict:
             # simplex_deviation is computed by the validator, never emitted by the model.
             d["properties"].pop("simplex_deviation", None)
             d["required"] = [r for r in d.get("required", []) if r != "simplex_deviation"]
-    return schema
+
+    defs = schema.get("$defs", {})
+    schema = _inline_refs(schema, defs)
+    schema = _apply_family_ordinals(schema, _FAMILY)
+    return _strip_to_grammar(schema)

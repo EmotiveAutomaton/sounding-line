@@ -167,46 +167,66 @@ class LocalClient:
         self.host = host
 
     def read(self, system: str, prompt: str,
-             schema: type[BaseModel] = Reading) -> ProbeResult:
+             schema: type[BaseModel] = Reading, *, two_stage: bool = True) -> ProbeResult:
+        """Two calls: reason in prose, then coerce to schema.
+
+        `two_stage=False` reproduces the old single-call path and exists only so the format tax
+        can be MEASURED rather than asserted. It is not a supported production mode.
+        """
         import ollama  # imported lazily: the analysis package must import with no client present
 
-        client = ollama.Client(host=self.host)
+        from soundingline.probe import render
 
+        client = ollama.Client(host=self.host)
         options: dict[str, Any] = {"num_ctx": self.num_ctx}
         if self.seed is not None:
-            # Recorded per sample. Convergence is measured ACROSS seeds (SPEC §5), so the seed
-            # is an experimental variable, not a reproducibility knob to be fixed.
             options["seed"] = self.seed
 
-        kwargs: dict[str, Any] = {
-            "model": self.model,
-            "messages": [
+        t0 = time.perf_counter()
+        reasoning = ""
+
+        if two_stage:
+            # ── Stage 1: unconstrained prose. No `format`, so nothing competes with reasoning.
+            r1 = client.chat(
+                model=self.model,
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": prompt + render.reason_suffix()},
+                ],
+                options={**options, "num_predict": 1600},
+                keep_alive="10m",
+                think=False,
+            )
+            reasoning = (r1["message"].get("content") or "").strip()
+            if not reasoning:
+                raise ValueError("stage 1 returned no reasoning; nothing to coerce")
+            coerce_messages = [
+                {"role": "system", "content": render.coerce_system()},
+                {"role": "user", "content": render.coerce(reasoning)},
+            ]
+        else:
+            coerce_messages = [
                 {"role": "system", "content": system},
                 {"role": "user", "content": prompt},
-            ],
+            ]
+
+        # ── Stage 2: constrained. The grammar now only has to transcribe, not reason.
+        kwargs: dict[str, Any] = {
+            "model": self.model,
+            "messages": coerce_messages,
             "format": json_schema(schema),
-            "options": options,
+            # Explicit ceiling on the coercion call. Without it a sample truncated mid-object
+            # while enumerating decisions, and a truncated JSON payload is a lost reading rather
+            # than a short one.
+            "options": {**options, "num_predict": 3000},
             "keep_alive": "10m",
-            # Thinking OFF for the local arm, and this is a real cost rather than a preference.
-            #
-            # Qwen3.5 thinks by default. With `format` constraining the output, an unbounded
-            # thinking block burns the whole generation budget before any JSON appears — first
-            # live run: 18,889 characters of thinking, zero characters of content. Capping the
-            # budget instead just truncates mid-object.
-            #
-            # So the local arm pays the format tax in full: it must emit structure without
-            # reasoning first. That is exactly the degradation the Gate 0 research pass found
-            # (10-15%, up to 27pp on reasoning-heavy tasks), and it is the strongest argument
-            # for the two-stage rewrite still owed — reason free-form, then coerce.
             "think": False,
         }
         _assert_no_tools(**kwargs)
-
-        t0 = time.perf_counter()
-        response = client.chat(**kwargs)
+        r2 = client.chat(**kwargs)
         latency = time.perf_counter() - t0
 
-        raw = response["message"]["content"]
+        raw = r2["message"]["content"]
         return ProbeResult(
             parsed=schema.model_validate_json(raw),
             model=self.model,
@@ -215,8 +235,9 @@ class LocalClient:
             response_sha256=_sha(raw),
             latency_s=latency,
             usage={
-                "eval_count": response.get("eval_count"),
-                "prompt_eval_count": response.get("prompt_eval_count"),
+                "reasoning_chars": len(reasoning),
+                "two_stage": two_stage,
+                "eval_count": r2.get("eval_count"),
             },
         )
 

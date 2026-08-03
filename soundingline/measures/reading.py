@@ -90,7 +90,9 @@ def fit(run: LoopRun, artifact_text: str) -> Fit:
 
     quotes = [d.evidence for d in r.decisions] + [t.evidence for t in r.trade_offs]
     if quotes:
-        verified = sum(1 for e in quotes if _normalise_quote(e.quote) in haystack)
+        # locate() is authoritative: the model supplies the quote, the code finds it. A quote
+        # that cannot be located is fabrication, and that is now the only thing this can mean.
+        verified = sum(1 for e in quotes if e.locate(artifact_text) is not None)
         grounding = verified / len(quotes)
         unverifiable = len(quotes) - verified
     else:
@@ -104,9 +106,14 @@ def fit(run: LoopRun, artifact_text: str) -> Fit:
         # A decision must name what was NOT done. The schema requires the field to be non-empty,
         # so this catches the degenerate case where it is filled with a restatement of the
         # choice rather than an alternative.
+        # A decision counts only if an alternative was actually named AND it differs from what
+        # was chosen. An empty alternative is the probe reporting that nothing else was visible,
+        # which under SPEC §4 means this was never a decision — so it lowers support rather than
+        # invalidating the reading it appears in.
         distinct = sum(
             1 for d in r.decisions
-            if _normalise_quote(d.alternative_rejected) != _normalise_quote(d.what_was_chosen)
+            if d.alternative_rejected.strip()
+            and _normalise_quote(d.alternative_rejected) != _normalise_quote(d.what_was_chosen)
         )
         support = distinct / len(r.decisions)
     else:

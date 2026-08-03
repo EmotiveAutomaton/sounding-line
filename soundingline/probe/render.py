@@ -27,7 +27,7 @@ import yaml
 from soundingline.family.loader import load_family
 
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
-BOUNDED_PATH = PROMPTS_DIR / "bounded_v3.yaml"   # v1 and v2 retained, locked, unedited
+BOUNDED_PATH = PROMPTS_DIR / "bounded_v4.yaml"   # v1-v3 retained, locked, unedited
 FREEFORM_PATH = PROMPTS_DIR / "freeform_v1.yaml"
 
 
@@ -175,3 +175,25 @@ def freeform_coerce(freeform_answer: str) -> str:
         demonstrated_work_options=_options_block("demonstrated_work"),
     )
     return filled.replace("{freeform_answer}", freeform_answer)
+
+
+# ---------------------------------------------------------------------------------------------
+# Two-stage execution (v4). See the header of bounded_v4.yaml for why both arms do this.
+
+def reason_suffix() -> str:
+    """Appended to any stage prompt to request unconstrained prose instead of schema."""
+    return _load(BOUNDED_PATH)["reason_suffix"]
+
+
+def coerce_system() -> str:
+    return _load(BOUNDED_PATH)["coerce_system"]
+
+
+def coerce(reasoning: str) -> str:
+    """Render the coercion call. Sees ONLY the reasoning — never the artifact.
+
+    That isolation matters for the same reason it does in the free-form arm: the coercion step
+    must not be able to re-read the artifact and quietly do its own analysis, or the two-stage
+    design collapses back into one stage with extra latency.
+    """
+    return _load(BOUNDED_PATH)["coerce"].replace("{reasoning}", reasoning)

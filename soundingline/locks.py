@@ -65,6 +65,12 @@ LOCKS: dict[str, str] = {
     # asked for floats summing to 1.0, the model returned 2.50, then omitted a family value
     # entirely, then silently switched to percentages. "Distribute 100 points" is a task models
     # do reliably. v2 is retained, locked and unedited.
+    # v4 adds the two-stage execution prompts. Reason in prose, then coerce — the published
+    # mitigation for the format tax, and the fix for a confound that would have biased the
+    # load-bearing comparison: the free-form baseline already had two-call reason-then-coerce
+    # while the bounded arm generated straight into the grammar. Both arms now match.
+    "soundingline/probe/prompts/bounded_v4.yaml":
+        "ea0df083d8def48ee16cf94daf25eb043daf261d72976f8fc0af70ccd63747f9",
     "soundingline/probe/prompts/bounded_v3.yaml":
         "3f220ed07b7574b87545780db2bb95bb70cc6bc843aea4b3b303239e46c351ac",
     "soundingline/probe/prompts/bounded_v2.yaml":

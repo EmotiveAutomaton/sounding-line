@@ -1,0 +1,127 @@
+{
+  "gate": 1,
+  "family_version": 2,
+  "family_sha256": "ea256f1c664d0fa2d77cc23a38a233361fe94a4f4a08ef930eca0d29108bd89a",
+  "arm": "local",
+  "k": 3,
+  "elapsed_s": 745.3,
+  "ranking_by_fit": "B > A",
+  "verdict_C18": "NEITHER \u2014 the probe is measuring a third thing",
+  "protocol_order": "A > C > B",
+  "curator_order": "B > C > A",
+  "per_artifact": {
+    "item_A": {
+      "valid": 3,
+      "failures": [],
+      "fit": {
+        "concentration": 0.18845977111554557,
+        "grounding": 0.0,
+        "support": 0.0,
+        "combined": 0.0,
+        "unverifiable_quotes": 1
+      },
+      "convergence": {
+        "purpose_agreement": 0.6666666666666666,
+        "audience_agreement": 1.0,
+        "posterior_dispersion": 0.10271256696386469,
+        "settling_rate_spread": 0.23100103964339883,
+        "non_convergent_fraction": 1.0,
+        "confident_disagreement": 0.2833333333333334,
+        "k": 3
+      },
+      "depth": {
+        "max_level": 0,
+        "levels_reached": 1,
+        "n_decisions": 1,
+        "artifact_chars": 3441,
+        "per_1k_chars": 0.2906131938390003
+      },
+      "audience": {
+        "machine": 0.016666666666666666,
+        "no_audience_modelled": 0.06333333333333334,
+        "human": 0.9199999999999999,
+        "spread": 0.023570226039551584
+      },
+      "artifact_effort": [
+        2,
+        1,
+        4
+      ],
+      "demonstrated_work": [
+        0,
+        5,
+        5
+      ],
+      "settling_rate": [
+        1.9208,
+        2.4734,
+        2.3027
+      ],
+      "converged": [
+        false,
+        false,
+        false
+      ]
+    },
+    "item_B": {
+      "valid": 3,
+      "failures": [],
+      "fit": {
+        "concentration": 0.6486614089757333,
+        "grounding": 0.3333333333333333,
+        "support": 1.0,
+        "combined": 0.6002040691578531,
+        "unverifiable_quotes": 4
+      },
+      "convergence": {
+        "purpose_agreement": 0.6666666666666666,
+        "audience_agreement": 0.6666666666666666,
+        "posterior_dispersion": 0.0962177647722868,
+        "settling_rate_spread": 0.6759278322187076,
+        "non_convergent_fraction": 0.3333333333333333,
+        "confident_disagreement": 0.31333333333333335,
+        "k": 3
+      },
+      "depth": {
+        "max_level": 3,
+        "levels_reached": 2,
+        "n_decisions": 4,
+        "artifact_chars": 3397,
+        "per_1k_chars": 1.177509567265234
+      },
+      "audience": {
+        "machine": 0.0,
+        "no_audience_modelled": 0.13333333333333333,
+        "human": 0.8666666666666667,
+        "spread": 0.0
+      },
+      "artifact_effort": [
+        2,
+        1,
+        2
+      ],
+      "demonstrated_work": [
+        3,
+        0,
+        0
+      ],
+      "settling_rate": [
+        0.3,
+        0.5928,
+        1.8576
+      ],
+      "converged": [
+        true,
+        true,
+        false
+      ]
+    },
+    "item_C": {
+      "valid": 1,
+      "failures": [
+        "ValidationError: 1 validation error for StageBOut\n  Invalid JSON: EOF while parsing a string at line 8 column 14449 [type=json_invalid, input_value='{\\n\"decisions\": [\\n{\\n\"l..._event_data_competition', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+        "ValidationError: 1 validation error for StageBOut\ndecisions.0.evidence.quote\n  String should have at most 600 characters [type=string_too_long, input_value='\"Rivers of Blood is grea...g game world itself.\", ', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long"
+      ]
+    }
+  }
+}
