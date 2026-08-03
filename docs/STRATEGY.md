@@ -22,7 +22,35 @@ the *provenance*, which was fine.
 
 ---
 
-## §2. The finding I had not extracted: compression hides expertise
+## §2. CORRECTED — compression hides decisions from the MAKER, not from the reader
+
+> **Correction, 2026-08-03, from the curator.** The section below originally argued that expertise
+> compresses decisions out of the artifact, so expert work shows fewer visible decisions. **That is
+> wrong, and the sentence I built it on says so if quoted in full.**
+>
+> E43: *"Practice compresses decisions, and compression is what makes a decision unavailable for
+> report — **while the reader is unaffected.**"* I quoted the first half. The dropped clause states
+> that compression affects the maker's self-report, not the reader's recovery.
+>
+> E33 confirms it from the other side: *a reader can know a maker better than the maker knows
+> themselves, and the margin grows as the maker's self-account degrades.* That is the curator's
+> "reading your own books teaches you about yourself" — the artifact keeps the decisions; the maker
+> loses the report.
+>
+> **The theory's actual explanation is line 233:** *"It is the language of expertise that unlocks
+> the ability to observe the hierarchies of decisions in others."* The decisions are all present in
+> the artifact. The READER needs matching expertise to see them. That is E10 and E38, already
+> established, and not a new mechanism.
+>
+> **Consequence for unlock:** it does not measure decompression of the artifact. It measures how
+> much the reader's own decoder improves once the goal is pinned — E36's "intent is the key; the
+> method is what it opens." The measure survives; the explanation I gave for it did not.
+>
+> Also tried and recorded as not working: holding the process constant to infer the goal. E36's
+> between-reader test failed at 0.047 against a required 0.15 — method is legible *given* purpose,
+> and purpose is not recoverable *given* method. The dependency is one-way.
+
+### The original argument, retained as an error record
 
 This is the one that reframes everything, and it is stated plainly in the essay.
 
