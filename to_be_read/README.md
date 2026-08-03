@@ -1,113 +1,40 @@
-# Session 02 — ten new artifacts
+# Session 02 — per artifact
 
-Session 01's files are in `session_01_done/`. Nothing here has been shown to you before, no two
-are from the same host, and the order is randomised so the halves are interleaved rather than
-clustered.
+Ten new. Stop when it stops being fun.
 
-**Fatigue is a measured effect now**, not a worry — your resolution visibly dropped by slot 09 last
-time and you said so. **Stop when it stops being fun.** Six good readings beat ten tired ones, and
-an artifact you skipped is cleaner data than one you skimmed while gassing out.
+**1. Maker?** feel it / think human, unsure / can't. Then **1–10**.
 
----
+**2. What first made you ask *why that?*** Quote it. "Nothing did" is a real answer.
 
-## What changed from session 01
+**3. Stance — twice.** What **leaked** (unchosen), and what was **shown** on purpose. Say when
+they differ.
+> none_legible · seeking · rage · fear · care · play · lust · grief
 
-**A Likert scale, because you asked for one and you were right.** Sorting was the wrong
-instrument.
+**4. Share.** Roughly what fraction of the decisions serve the biggest single aim — most / half /
+spread.
 
-**Three new questions**, each validating something built today from what you said this afternoon.
-They are marked ⚑ — those are the ones I need most.
+**5. Thirds.** surface and depth, thin/medium/thick, for beginning · middle · end. Six words.
 
-**Fewer questions overall.** Eight was too many. This is six, and two of them are one word.
+**6. Did they pull it off?** Against the goal *you* inferred.
 
----
-
-## Per artifact
-
-### 1. Can you feel the maker?
-
-Your own scale, unchanged:
-
-- **feel the maker** — someone is back there and you can characterise them
-- **think there's a human, not sure** — a person probably, but you can't get hold of them
-- **can't** — nothing resolves behind it
-
-Then **1–10**, integers, no decimals.
-
-### 2. ⚑ What was the first thing that made you stop and ask *why that?*
-
-Quote it, or describe it if it's an absence.
-
-**This is the anomaly pass**, and it is the single most valuable thing session 01 produced. You
-entered all three of your best readings through an oddity — no acronyms anywhere, an admitted fib,
-a self-serving ordering — never through the artifact as a whole. The probe now has a stage that
-does this **before** it proposes any purpose. Your answer is what tells me whether the stage finds
-what you find.
-
-If nothing made you stop, say so. *"Nothing demanded explanation"* is a real answer and I need it
-to be sayable, because the probe is allowed to say it too.
-
-### 3. ⚑ What stance is the artifact showing — and is it felt or put on?
-
-Two answers, from the same list. Your correction: it is both layers, not one.
-
-- **leaked** — what got through *without* being chosen. The run-on where they got going, the word
-  sharper than the argument needed, the caveat that protests too much.
-- **emblematic** — what was displayed *on purpose*.
-
-| | |
-|---|---|
-| **none_legible** | no stance at all — not calm, *absent* |
-| **seeking** | curiosity, enthusiasm, the pleasure of working a problem; also the drive toward standing |
-| **rage** | irritation, frustration, grievance |
-| **fear** | anxiety about exposure or standing — hedging, credentialing, pre-empting |
-| **care** | they wanted to *help*. Narrow: a professional register is usually seeking + grief |
-| **play** | humour, wordplay, delight in the form |
-| **lust** | desire driving the work — usually visible in what the artifact bothers to *justify* |
-| **grief** | loss, nostalgia, resignation; and not wanting to be isolated |
-
-They usually agree. **Say so when they do not** — that gap is the whole reason for asking twice.
-
-**If none of these fit, say what word is missing.** Fastest way to break the list.
-
-### 4. What was it for — and how much of the answer is one thing?
-
-Not *singular or layered*. **Share.** Your correction: *"you'd expect that to be a larger piece,
-not the whole pie."* Roughly what fraction of this artifact's decisions serve the biggest single
-aim — most of them, about half, or is it genuinely spread?
-
-### 5. ⚑ Surface and depth, in thirds
-
-Read as three parts — beginning, middle, end. For each, roughly:
-
-- **surface** — decisions aimed at your *attention*: contrast, rhythm, punchy framing, a hook, an
-  acronym dropped to signal membership
-- **depth** — decisions aimed at the *content*: what to include, what to cut, which abstraction
-
-thin / medium / thick for each, per third. Six words total.
-
-**This is S-1**, and it's the prediction with the sharpest failure condition: depth should be
-roughly stationary across an artifact while surface moves, because surface is a performance held
-consciously and depth is largely automatised. **If both move about equally, the whole
-surface/depth distinction is wrong** and `docs/theory/SURFACE_AND_DEPTH.md` comes out.
-
-### 6. Did they pull it off?
-
-Against the goal *you* inferred. Still the axis the instrument has never measured.
+**Flags:** I know this one · I bounced off (boredom or wall).
 
 ---
 
-## Flags
+<details>
+<summary>why each question exists</summary>
 
-- **I know this one.** The store is nearly exhausted and some of these are by people you'll
-  recognise. Flag it and keep going — recognising an author *after* reading is much less damaging
-  than recognising one before, and it's now unavoidable.
-- **I bounced off.** Where, and whether it was boredom or the wall.
+- **2** — the anomaly pass. You entered all three of your best session-01 readings through an
+  oddity, never through the artifact whole. The probe now has a stage that does this before it
+  proposes any purpose.
+- **3** — validates family v3's eight values. If a word is missing, that breaks the list, which is
+  the most useful thing you can do to it.
+- **4** — C-22 as you corrected it: share, not singularity.
+- **5** — S-1. Depth should be roughly stationary while surface moves. **If both move equally the
+  surface/depth distinction is wrong** and `docs/theory/SURFACE_AND_DEPTH.md` comes out.
+- **6** — the Y-axis. Still the only thing here the instrument has never measured.
 
----
+Some of these are by people you'll recognise; the store is nearly exhausted. Flag and continue.
+Session 03 needs new acquisition — C-14.
 
-## One thing worth knowing before you start
-
-**This is the last full batch this corpus can produce.** After exclusions there were sixteen
-candidates left. Session 03 needs new acquisition — which is C-14, the grooming corpus, owed since
-the beginning and now the thing actually blocking progress.
+</details>

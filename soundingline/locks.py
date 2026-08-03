@@ -80,7 +80,7 @@ LOCKS: dict[str, str] = {
     # reconstructible maker the affective posterior must stay flat. An affective label is exactly
     # what a language model supplies fluently whether or not anything supports it.
     "soundingline/family/family_v3.yaml":
-        "5b3a11f6a975f2e9c18566140ca01c76383b2ea923ab85a6c00b9b6a91098df4",
+        "8ee98009c57dd79e648face0f15603cd0998091c2cc4ecdb5051ef431944ed69",
     "soundingline/family/family_v2.yaml":
         "ea256f1c664d0fa2d77cc23a38a233361fe94a4f4a08ef930eca0d29108bd89a",
     # Re-locked once, before commit and before any run: the first hash was taken while the
