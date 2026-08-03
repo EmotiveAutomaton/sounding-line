@@ -43,7 +43,7 @@ from soundingline.probe.schema import (
     AudiencePosterior,
     PurposePosterior,
     Reading,
-    StageAOut,
+    StageAOut, StageZeroOut,
     StageBOut,
     StageCOut,
     StageDOut,
@@ -103,6 +103,7 @@ class LoopRun:
     arm: str
     model: str
     seed: int | None
+    anomalies: tuple = ()
     decisions_before_settle: float = 0.0
     decisions_after_settle: int = 0
     calls: list[ProbeResult] = field(default_factory=list)
@@ -147,14 +148,33 @@ def run_loop(
     max_iters: int = DEFAULT_MAX_ITERS,
     tol: float = DEFAULT_TOL,
     seed: int | None = None,
+    anomaly_pass: bool = False,
 ) -> LoopRun:
-    """Run the §3 loop to convergence on one artifact, recording the trajectory."""
+    """Run the §3 loop to convergence on one artifact, recording the trajectory.
+
+    ``anomaly_pass`` (v6) runs stage ZERO first and supplies its output to stage A. OFF by
+    default, and the default path renders bounded_v5 exactly as before — a prompt that changes
+    under a running gate is the drift Gate 0 named as this project's likeliest undocumented
+    change, so the new stage is opt-in rather than a new default.
+    """
     fam = load_family()
     system = render.bounded_system()
     calls: list[ProbeResult] = []
 
+    # ── Stage ZERO: what does not fit (v6, opt-in) ───────────────────────────────────────────
+    #
+    # The curator entered every successful reading of session 01 through a specific oddity
+    # rather than through the artifact as a whole, and an anomaly is by construction the part a
+    # whole-artifact summary averages away. Its output is a set of COMPETING maker-hypotheses,
+    # supplied to stage A as hypotheses rather than as findings.
+    anomalies = None
+    if anomaly_pass:
+        z = client.read(system, render.stage_zero(artifact), StageZeroOut)
+        calls.append(z)
+        anomalies = z.parsed.anomalies          # type: ignore[union-attr]
+
     # ── Stage A: bounded goal hypotheses → posterior ─────────────────────────────────────────
-    a = client.read(system, render.stage_a(artifact), StageAOut)
+    a = client.read(system, render.stage_a(artifact, anomalies), StageAOut)
     calls.append(a)
     stage_a: StageAOut = a.parsed  # type: ignore[assignment]
 
@@ -253,6 +273,7 @@ def run_loop(
         reading=reading,
         trajectory=trajectory,
         converged=converged,
+        anomalies=tuple(anomalies or ()),
         decisions_before_settle=mean_before,
         decisions_after_settle=len(after_decisions),
         arm=client.arm,

@@ -74,6 +74,13 @@ LOCKS: dict[str, str] = {
         "bf9aaa7d7a6f593058a150a3464434b554ae080629499a8f5c0b8938249d2c46",
     # ── family v2 and its prompt. v1 entries above are unchanged and stay locked, so readings
     # taken under v1 remain comparable to each other. Two families coexist on purpose.
+    # family v3 adds `performed_affect` — the first non-instrumental dimension, and the answer
+    # C-23 has been owed since it was raised. Locked on creation, NOT the default, and it ships
+    # with a mandatory null (N-AFF) written before the dimension exists: on artifacts with no
+    # reconstructible maker the affective posterior must stay flat. An affective label is exactly
+    # what a language model supplies fluently whether or not anything supports it.
+    "soundingline/family/family_v3.yaml":
+        "2c7f42008326542b0250b224ccea4e3c58060442830eba748d7173b8fda03793",
     "soundingline/family/family_v2.yaml":
         "ea256f1c664d0fa2d77cc23a38a233361fe94a4f4a08ef930eca0d29108bd89a",
     # Re-locked once, before commit and before any run: the first hash was taken while the
@@ -95,6 +102,12 @@ LOCKS: dict[str, str] = {
     # strength of a section headed "Alternative Builds Worth Considering", while item A, whose
     # rejections are stated outright, scored 0.00. Constraining the reading is the same move
     # SPEC §2 makes for the hypothesis family, applied one level down.
+    # v6 adds stage ZERO, the anomaly pass, and a stage A that receives its output. Locked on
+    # creation and NOT the default render path — the Gate 3 run in flight renders v5, and a
+    # prompt that changes under a running gate is the drift Gate 0 named as this project's most
+    # likely undocumented change. Callers opt in.
+    "soundingline/probe/prompts/bounded_v6.yaml":
+        "d9160ab52f2c29d91fcf4abc793607b5012677c9ccb3c88cc8987adac0d88ea2",
     "soundingline/probe/prompts/bounded_v5.yaml":
         "6a0f408f330c6dcf64508b978539d172ff3843e30b338871d49b0a8c9f20ec62",
     "soundingline/probe/prompts/bounded_v4.yaml":

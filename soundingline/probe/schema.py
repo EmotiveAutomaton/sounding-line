@@ -381,6 +381,33 @@ class Reading(_Strict):
 # does NOT get to invent new decisions. That separation is what makes the loop a loop with
 # measurable state rather than four chances to rewrite the whole reading.
 
+class Anomaly(_Strict):
+    """One thing in the artifact that demands an explanation. v6, stage zero.
+
+    THE FIELD THAT MAKES THIS WORTH RUNNING is `candidate_explanations`, plural. An anomaly with
+    one explanation is a conclusion wearing a question's clothes, and the whole point of running
+    this before stage A is to OPEN the space of maker-states rather than to close it. A pass that
+    returns one confident story per anomaly has re-implemented stage A one stage early.
+
+    `is_absence` is separated because absences are the valuable kind and the easy kind to miss.
+    The curator's three successful entries were an absence, a confession, and an ordering — and
+    the absence (a technical piece with no jargon anywhere) is the one no surface scan finds.
+    """
+    what: str = Field(max_length=600)
+    is_absence: bool = False
+    why_it_does_not_fit: str = Field(max_length=600)
+    # Two or more wanted; one is permitted rather than rejected, for the same reason an empty
+    # `alternative_rejected` is permitted — the gap is scored, not punished by discarding the
+    # reading around it.
+    candidate_explanations: tuple[str, ...] = Field(default=(), max_length=4)
+    evidence: Evidence
+
+
+class StageZeroOut(_Strict):
+    """The anomaly pass. Zero anomalies is a real answer and must stay representable."""
+    anomalies: tuple[Anomaly, ...] = Field(default=(), max_length=5)
+
+
 class StageAOut(_Strict):
     """Bounded goal hypotheses → posterior over purpose and audience."""
     purpose: PurposePosterior

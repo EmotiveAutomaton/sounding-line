@@ -28,6 +28,11 @@ from soundingline.family.loader import load_family
 
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
 BOUNDED_PATH = PROMPTS_DIR / "bounded_v5.yaml"   # v1-v4 retained, locked, unedited
+# v6 adds stage ZERO (the anomaly pass) and a stage A that receives its output. It is NOT the
+# default: the Gate 3 run in flight renders from v5, and a prompt path that changes under a
+# running gate is the exact drift Gate 0 named as this project's likeliest undocumented change.
+# Callers opt in explicitly by passing spec_path=BOUNDED_V6_PATH.
+BOUNDED_V6_PATH = PROMPTS_DIR / "bounded_v6.yaml"
 FREEFORM_PATH = PROMPTS_DIR / "freeform_v2.yaml"   # v1 retained, locked, unedited
 
 
@@ -99,14 +104,53 @@ def bounded_system() -> str:
     return _load(BOUNDED_PATH)["system"]
 
 
-def stage_a(artifact: Artifact) -> str:
-    spec = _load(BOUNDED_PATH)
+def stage_zero(artifact: Artifact, *, spec_path: Path = BOUNDED_V6_PATH) -> str:
+    """The anomaly pass. v6 only — v5 has no such stage."""
+    spec = _load(spec_path)
     return _fill(
-        spec["stage_a_purpose"],
+        spec["stage_zero_anomaly"],
+        artifact_block=artifact_block(artifact, spec),
+    )
+
+
+def anomaly_block(anomalies) -> str:
+    """Render stage zero's output for stage A.
+
+    Competing explanations are rendered as competing, not collapsed to the first. Flattening them
+    here would undo the one thing the stage exists to do.
+    """
+    if not anomalies:
+        return ("A first pass found nothing in this artifact that demands explanation. That is a\n"
+                "  finding about the artifact. Do not treat it as licence to invent one.")
+    out = []
+    for i, a in enumerate(anomalies, 1):
+        kind = "ABSENT" if getattr(a, "is_absence", False) else "PRESENT"
+        why = a.why_it_does_not_fit.strip()
+        exps = " | ".join(e.strip() for e in a.candidate_explanations) or "(none offered)"
+        out.append(f"  {i}. [{kind}] {a.what.strip()}\n"
+                   f"     does not fit because: {why}\n"
+                   f"     would fit if the maker: {exps}")
+    return "WHAT DID NOT FIT:\n" + "\n".join(out)
+
+
+def stage_a(artifact: Artifact, anomalies=None, *,
+            spec_path: Path | None = None) -> str:
+    """Stage A. With `anomalies`, renders the v6 template that receives them.
+
+    Default behaviour is unchanged and still renders v5, so every existing caller — including the
+    Gate 3 runner now in flight — produces byte-identical prompts.
+    """
+    if spec_path is None:
+        spec_path = BOUNDED_V6_PATH if anomalies is not None else BOUNDED_PATH
+    spec = _load(spec_path)
+    slots = dict(
         purpose_options=_options_block("purpose"),
         audience_options=_options_block("audience"),
         artifact_block=artifact_block(artifact, spec),
     )
+    if "{anomaly_block}" in spec["stage_a_purpose"]:
+        slots["anomaly_block"] = anomaly_block(anomalies or ())
+    return _fill(spec["stage_a_purpose"], **slots)
 
 
 def stage_b(artifact: Artifact, purpose_id: str, audience_id: str) -> str:
