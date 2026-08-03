@@ -50,6 +50,19 @@ One line per finding. Follow the link only if you need the argument.
 | **LLM internals ≈ core affect** | 171 causal emotion directions; PCs align to **valence/arousal** | **[LEAKAGE](LEAKAGE.md) §4** |
 | **stage E is emblematic-only** | asking for a label returns a content-word judgement, on both outputs | [LEAKAGE](LEAKAGE.md) §1 |
 
+## Options, costed
+
+| | what | cost | gates |
+|---|---|---|---|
+| **D-0** | do function-word vectors separate by maker state? | **2h GPU** | **all of D** |
+| **A** | leaked layer from function-word distributions | hours, no GPU | — |
+| **C** | keep stage E, re-scoped as emblematic-only | free, built | — |
+| **B** | activation readout for valence/arousal | an afternoon + VRAM | — |
+| **D** | inverse planning over artifacts | **2-3 days to runnable** | D-0 |
+
+Full reasoning, including why my first estimate of D was wrong by two orders of magnitude:
+[OPTION_D](OPTION_D.md).
+
 ## Open, and blocking
 
 | | |
