@@ -147,7 +147,7 @@ def run_loop(
     stage_a: StageAOut = a.parsed  # type: ignore[assignment]
 
     purpose, audience = stage_a.purpose, stage_a.audience
-    confidence = stage_a.self_reported_confidence
+    confidence = stage_a.confidence_100
     trajectory = [Step(0, purpose, audience, n_decisions=0, movement=0.0)]
 
     decisions: tuple = ()
@@ -210,7 +210,7 @@ def run_loop(
         artifact_effort=stage_d.artifact_effort,
         demonstrated_work=stage_d.demonstrated_work,
         trade_offs=stage_d.trade_offs,
-        self_reported_confidence=confidence,
+        confidence_100=confidence,
         account=stage_d.account,
     )
 

@@ -50,6 +50,12 @@ LOCKS: dict[str, str] = {
     # whether the project is a contribution (A-2), and it is trivially easy to weaken it after
     # seeing a result that went the wrong way. The lock is what makes "we did not sandbag the
     # baseline" checkable rather than asserted.
+    # v2 adds the two effort dimensions and the 100-point convention so the baseline is coerced
+    # into exactly the form the bounded arm is. Locked for the same reason v1 was: this arm
+    # decides whether the project is a contribution, and it is trivially easy to weaken after
+    # seeing a result go the wrong way.
+    "soundingline/probe/prompts/freeform_v2.yaml":
+        "4d7dcac95828aa6d02f69dd3ece06a7e952e44faf93b6df14d68c7c78ff10a9f",
     "soundingline/probe/prompts/freeform_v1.yaml":
         "bf9aaa7d7a6f593058a150a3464434b554ae080629499a8f5c0b8938249d2c46",
     # ── family v2 and its prompt. v1 entries above are unchanged and stay locked, so readings
@@ -69,6 +75,14 @@ LOCKS: dict[str, str] = {
     # mitigation for the format tax, and the fix for a confound that would have biased the
     # load-bearing comparison: the free-form baseline already had two-call reason-then-coerce
     # while the bounded arm generated straight into the grammar. Both arms now match.
+    # v5 rewrites stage B as bounded counterfactual enumeration: list the moves a maker with
+    # this purpose COULD have made, before reading what this one did. Gate 1 found the previous
+    # wording made `support` a keyword detector — item B, a nine-word prompt, scored 1.00 on the
+    # strength of a section headed "Alternative Builds Worth Considering", while item A, whose
+    # rejections are stated outright, scored 0.00. Constraining the reading is the same move
+    # SPEC §2 makes for the hypothesis family, applied one level down.
+    "soundingline/probe/prompts/bounded_v5.yaml":
+        "6a0f408f330c6dcf64508b978539d172ff3843e30b338871d49b0a8c9f20ec62",
     "soundingline/probe/prompts/bounded_v4.yaml":
         "ea0df083d8def48ee16cf94daf25eb043daf261d72976f8fc0af70ccd63747f9",
     "soundingline/probe/prompts/bounded_v3.yaml":

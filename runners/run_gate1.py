@@ -100,17 +100,25 @@ def main() -> None:
             "settling_rate": [round(r.settling_rate, 4) for r in runs],
             "converged": [r.converged for r in runs],
         }
-        print(f"  {stem}: fit={m.fit.combined:.3f} (conc={m.fit.concentration:.2f} "
+        fit_str = f"{m.fit.combined:.3f}" + ("" if m.fit.verifiable else " [UNTRACED]")
+        print(f"  {stem}: fit={fit_str} (conc={m.fit.concentration:.2f} "
               f"ground={m.fit.grounding:.2f} supp={m.fit.support:.2f}) "
               f"agree={m.convergence.purpose_agreement:.2f} "
               f"depth={m.depth.max_level} machine={m.audience.machine:.2f}\n")
 
     # ── The pre-registered criterion ─────────────────────────────────────────────────────────
+    # Only verifiable readings may be ranked. An unverifiable one is not a low score, it is an
+    # absence of one, and sorting it as zero would silently rank "we could not check this"
+    # below "the family explained nothing" — which is exactly backwards.
     ranked = sorted(
         (s for s in summary if "fit" in summary[s]),
         key=lambda s: summary[s]["fit"]["combined"],
         reverse=True,
     )
+    # Flagged rather than excluded: a reading whose claims did not trace still has a fit, and it
+    # is low for a reason the reader of these results needs told apart from an empty artifact.
+    unverifiable = [s for s in summary
+                    if "fit" in summary[s] and not summary[s]["fit"]["verifiable"]]
     order = " > ".join(r.replace("item_", "") for r in ranked)
     verdicts = {
         "A > C > B": "PROTOCOL ORDER — the probe recovered direction the curator could not",
@@ -126,6 +134,7 @@ def main() -> None:
         "k": args.k,
         "elapsed_s": round(time.time() - t_start, 1),
         "ranking_by_fit": order,
+        "unverifiable": unverifiable,
         "verdict_C18": verdict,
         "protocol_order": "A > C > B",
         "curator_order": "B > C > A",
@@ -136,6 +145,9 @@ def main() -> None:
 
     print("=" * 78)
     print(f"RANKING BY FIT : {order}")
+    if unverifiable:
+        print(f"UNTRACED       : {', '.join(unverifiable)} "
+              f"(claims made, not found in artifact — low fit for fabrication, not emptiness)")
     print(f"protocol       : A > C > B")
     print(f"curator        : B > C > A")
     print(f"VERDICT (C-18) : {verdict}")

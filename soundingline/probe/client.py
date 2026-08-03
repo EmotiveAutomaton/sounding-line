@@ -133,6 +133,8 @@ class ProbeClient(Protocol):
     def read(self, system: str, prompt: str,
              schema: type[BaseModel] = Reading) -> ProbeResult: ...
 
+    def read_text(self, system: str, prompt: str) -> str: ...
+
 
 # ---------------------------------------------------------------------------------------------
 
@@ -165,6 +167,31 @@ class LocalClient:
         self.seed = seed
         self.num_ctx = num_ctx
         self.host = host
+
+    def read_text(self, system: str, prompt: str) -> str:
+        """Wholly unconstrained prose. No `format`, no schema, no grammar.
+
+        Exists so the free-form arm's reasoning step is genuinely unconstrained. Routing it
+        through a one-string schema would impose the format tax on the baseline while the
+        bounded arm reasons freely — manufacturing the very advantage the ablation is supposed
+        to measure.
+        """
+        import ollama
+
+        client = ollama.Client(host=self.host)
+        options: dict[str, Any] = {"num_ctx": self.num_ctx, "num_predict": 1600}
+        if self.seed is not None:
+            options["seed"] = self.seed
+        kwargs: dict[str, Any] = {
+            "model": self.model,
+            "messages": [{"role": "system", "content": system},
+                         {"role": "user", "content": prompt}],
+            "options": options,
+            "keep_alive": "10m",
+            "think": False,
+        }
+        _assert_no_tools(**kwargs)
+        return (client.chat(**kwargs)["message"].get("content") or "").strip()
 
     def read(self, system: str, prompt: str,
              schema: type[BaseModel] = Reading, *, two_stage: bool = True) -> ProbeResult:
@@ -259,14 +286,9 @@ class ApiClient:
         self.model = model
         self.effort = effort
 
-    def read(self, system: str, prompt: str,
-             schema: type[BaseModel] = Reading) -> ProbeResult:
-        import anthropic  # lazily, per the note in LocalClient
-
-        if os.environ.get("SOUNDING_LINE_NO_EGRESS"):
-            raise RuntimeError(
-                "SOUNDING_LINE_NO_EGRESS is set; the API arm is disabled. Use --arm local."
-            )
+    def read_text(self, system: str, prompt: str) -> str:
+        """Wholly unconstrained prose. See LocalClient.read_text for why this exists."""
+        import anthropic
 
         client = anthropic.Anthropic()
         kwargs: dict[str, Any] = {
@@ -274,39 +296,91 @@ class ApiClient:
             "max_tokens": MAX_TOKENS,
             "system": system,
             "messages": [{"role": "user", "content": prompt}],
-            "output_format": schema,
             "output_config": {"effort": self.effort},
         }
         _assert_no_tools(**kwargs)
+        r = client.messages.create(**kwargs)
+        if r.stop_reason == "refusal":
+            raise ProbeRefusal(f"{self.model} declined this artifact.")
+        return "".join(b.text for b in r.content if b.type == "text").strip()
 
-        t0 = time.perf_counter()
-        response = client.messages.parse(**kwargs)
-        latency = time.perf_counter() - t0
+    def read(self, system: str, prompt: str,
+             schema: type[BaseModel] = Reading, *, two_stage: bool = True) -> ProbeResult:
+        """Same two-stage shape as the local arm. Identical treatment is the point.
 
-        # Safety classifiers can decline; a declined request returns HTTP 200 with
-        # stop_reason "refusal" and possibly empty content. Checked BEFORE reading the parse,
-        # because indexing into content on a refusal is the standard way this breaks.
-        if response.stop_reason == "refusal":
-            category = getattr(response.stop_details, "category", None)
-            raise ProbeRefusal(
-                f"{self.model} declined this artifact (category={category!r}). "
-                f"Recorded as an outcome; not retried."
+        A5's reference arm only bounds the local arm if it is doing the same thing. Giving the
+        API arm a single constrained call while the local arm reasons first would make any
+        difference between them uninterpretable — model capability and execution strategy would
+        be confounded.
+        """
+        import anthropic
+
+        from soundingline.probe import render
+
+        if os.environ.get("SOUNDING_LINE_NO_EGRESS"):
+            raise RuntimeError(
+                "SOUNDING_LINE_NO_EGRESS is set; the API arm is disabled. Use --arm local."
             )
 
-        parsed = response.parsed_output
-        raw = json.dumps(parsed.model_dump(mode="json"), sort_keys=True)
+        client = anthropic.Anthropic()
+        t0 = time.perf_counter()
+        reasoning = ""
+
+        if two_stage:
+            r1 = client.messages.create(
+                model=self.model,
+                max_tokens=MAX_TOKENS,
+                system=system,
+                messages=[{"role": "user", "content": prompt + render.reason_suffix()}],
+                output_config={"effort": self.effort},
+            )
+            if r1.stop_reason == "refusal":
+                raise ProbeRefusal(
+                    f"{self.model} declined this artifact "
+                    f"(category={getattr(r1.stop_details, 'category', None)!r})."
+                )
+            reasoning = "".join(b.text for b in r1.content if b.type == "text").strip()
+            if not reasoning:
+                raise ValueError("stage 1 returned no reasoning; nothing to coerce")
+            coerce_system, coerce_user = render.coerce_system(), render.coerce(reasoning)
+        else:
+            coerce_system, coerce_user = system, prompt
+
+        # `output_config.format` with the SAME explicit schema the local arm compiles, rather
+        # than `messages.parse(output_format=...)`. Pydantic renders the distributions as open
+        # objects, and on the first live call Claude returned `{}` for both — schema-valid,
+        # measurement-empty. The explicit form names every family value and requires all of them.
+        kwargs: dict[str, Any] = {
+            "model": self.model,
+            "max_tokens": MAX_TOKENS,
+            "system": coerce_system,
+            "messages": [{"role": "user", "content": coerce_user}],
+            "output_config": {
+                "format": {"type": "json_schema", "schema": json_schema(schema)},
+            },
+        }
+        _assert_no_tools(**kwargs)
+        r2 = client.messages.create(**kwargs)
+        latency = time.perf_counter() - t0
+
+        if r2.stop_reason == "refusal":
+            raise ProbeRefusal(
+                f"{self.model} declined at the coercion step "
+                f"(category={getattr(r2.stop_details, 'category', None)!r})."
+            )
+
+        raw = next(b.text for b in r2.content if b.type == "text")
         return ProbeResult(
-            reading=reading,
+            parsed=schema.model_validate_json(raw),
             model=self.model,
             arm=self.arm,
-            prompt_sha256=_sha(system + "\n" + prompt),
+            prompt_sha256=_sha(system + chr(10) + prompt),
             response_sha256=_sha(raw),
             latency_s=latency,
             usage={
-                "input_tokens": response.usage.input_tokens,
-                "output_tokens": response.usage.output_tokens,
-                "cache_read_input_tokens": getattr(
-                    response.usage, "cache_read_input_tokens", None),
+                "reasoning_chars": len(reasoning),
+                "input_tokens": r2.usage.input_tokens,
+                "output_tokens": r2.usage.output_tokens,
             },
         )
 

@@ -81,6 +81,15 @@ class Fit:
     combined: float
     unverifiable_quotes: int
 
+    # `verifiable` is a REPORTING flag, not a gate on the number. False means the reading made
+    # claims and they could not be traced, so `combined` is low because the reading is
+    # unsupported — as distinct from low because the artifact is empty. Both are low fit; they
+    # are low for opposite reasons and a reader of the results needs to know which.
+    verifiable: bool
+
+    # Chosen, not derived, and recorded here rather than buried so it can be argued with.
+    GROUNDING_FLOOR = 0.30
+
 
 def fit(run: LoopRun, artifact_text: str) -> Fit:
     r = run.reading
@@ -123,11 +132,26 @@ def fit(run: LoopRun, artifact_text: str) -> Fit:
     else:
         support = 0.0
 
-    # Geometric mean, not arithmetic: the components are conjunctive. An artifact with a sharp
-    # posterior built entirely on invented quotes has no fit at all, and an average would give
-    # it a passing number.
-    combined = (concentration * grounding * support) ** (1 / 3)
-    return Fit(concentration, grounding, support, combined, unverifiable)
+    # ── SILENCE AND FABRICATION ARE DIFFERENT, AND ONLY ONE IS A LOW GROUNDING ──────────────
+    #
+    # Grounding stays a component. An explanation that cannot be tied to the text IS a worse
+    # explanation, and once matching became graded (Evidence.locate) a zero here means the
+    # claims genuinely are not in the artifact — which is fabrication, and fit should collapse.
+    #
+    # What has to be separated is the case where NO claim was offered at all. An artifact from
+    # which nothing was recovered has nothing to verify: its grounding is vacuous, not failed.
+    # Feeding a vacuous 0.0 into the product punishes an artifact for being empty in exactly the
+    # same way it punishes a reading for being invented, and those are the two states this
+    # instrument exists to tell apart — the wall versus E2.
+    #
+    # So: claims offered -> grounding participates. No claims offered -> it drops out, and the
+    # reading scores low anyway through support, which is where emptiness belongs.
+    if quotes:
+        combined = (concentration * grounding * support) ** (1 / 3)
+    else:
+        combined = (concentration * support) ** 0.5
+    verifiable = (not quotes) or grounding >= Fit.GROUNDING_FLOOR
+    return Fit(concentration, grounding, support, combined, unverifiable, verifiable)
 
 
 # ---------------------------------------------------------------------------------------------

@@ -79,6 +79,13 @@ _POINTS = 100.0
 
 def _renormalise(dist: dict[str, float]) -> tuple[dict[str, float], float]:
     """Return (normalised distribution, fractional deviation of the original from 100 points)."""
+    # Negative allocations are clamped rather than rejected. `minimum` is not honoured by
+    # Ollama's sampler and is refused outright by the Claude API ("for 'integer' type, property
+    # 'minimum' is not supported"), so it cannot be enforced in the grammar on either arm — and
+    # both arms must compile the SAME schema or the reference comparison measures the schema
+    # difference instead of the models. A negative point count is the probe failing to allocate,
+    # which is what `simplex_deviation` already exists to record.
+    dist = {k: max(0.0, v) for k, v in dist.items()}
     total = sum(dist.values())
     if total <= 0:
         raise ValueError("distribution sums to zero; nothing was distributed")
@@ -119,7 +126,7 @@ class Evidence(_Strict):
     # Empty is permitted for the same reason as `alternative_rejected`: an empty quote cannot
     # be located, `locate()` returns None, and `fit.grounding` counts it against the reading.
     # The gap is scored where it belongs instead of destroying every other claim in the sample.
-    quote: str = Field(default="", max_length=600)
+    quote: str = Field(default="", max_length=2000)
 
     def locate(self, artifact_text: str, *, threshold: float = 0.80
                ) -> tuple[int, int, float] | None:
@@ -237,7 +244,7 @@ class Decision(_Strict):
     is where the instrument earns the word `depth`.
     """
     level: int
-    what_was_chosen: str = Field(max_length=400)
+    what_was_chosen: str = Field(max_length=1200)
 
     # Deliberately allowed to be EMPTY, and that is the measurement rather than a defect.
     #
@@ -250,7 +257,7 @@ class Decision(_Strict):
     # have done. Under SPEC §4 that is not a decision at all — it is a property of the artifact —
     # so it is counted as unsupported by `fit.support` and costs the reading there, which is
     # where it should cost it.
-    alternative_rejected: str = Field(default="", max_length=400)
+    alternative_rejected: str = Field(default="", max_length=1200)
     evidence: Evidence
 
     @model_validator(mode="after")
@@ -269,8 +276,8 @@ class TradeOff(_Strict):
     appear here — the output is the pair, and rendering it as a value statement belongs to the
     reader.
     """
-    gained: str = Field(default="", max_length=400)
-    given_up: str = Field(default="", max_length=400)
+    gained: str = Field(default="", max_length=1200)
+    given_up: str = Field(default="", max_length=1200)
     evidence: Evidence
 
 
@@ -287,7 +294,7 @@ class Reading(_Strict):
     # enumerating decisions until it ran out of budget. Twelve is more than any artifact in the
     # calibration set produced, and a cap that fits in the generation budget beats a cap that
     # only fits in principle.
-    decisions: tuple[Decision, ...] = Field(max_length=12)
+    decisions: tuple[Decision, ...] = Field(max_length=20)
     cost_borne: int
 
     # v2. Two dimensions, not one — the curator split them before they were built
@@ -296,15 +303,38 @@ class Reading(_Strict):
     artifact_effort: int
     demonstrated_work: int
 
-    trade_offs: tuple[TradeOff, ...] = Field(max_length=10)
+    # 24, not 10. The counterfactual stage B makes the probe more expansive downstream, and
+    # readings were being discarded for exceeding a cap chosen before that prompt existed.
+    # Discarding a reading over a length limit is the same sample-biasing error as discarding one
+    # over an untidy distribution.
+    trade_offs: tuple[TradeOff, ...] = Field(max_length=24)
 
     # Self-reported, and used ONLY as a diagnostic. Fit is computed by the measures module from
     # the posterior's shape and the evidence's coverage, never taken from the model's word for
     # it. A model asked to grade its own explanation grades it well.
-    self_reported_confidence: Probability
+    #
+    # On the 0-100 scale, like every other allocation the probe makes. One scale throughout is
+    # easier for the model to hold; mixing them is what broke the first live runs.
+    confidence_100: Confidence100 = 50
+
+    @property
+    def self_reported_confidence(self) -> float:
+        return self.confidence_100 / 100.0
 
     # D-2: the account is illustration, clearly marked, and feeds nothing.
-    account: str = Field(default="", max_length=2000)
+    #
+    # TRUNCATED, never rejected. A field that feeds no measurement must never be able to destroy
+    # a reading — and this one did, on a paid API sample, over 2000 characters of prose that no
+    # number depends on. The rule that falls out and now applies generally: fields that feed a
+    # measurement are validated; fields that do not are clipped.
+    account: str = ""
+
+    @model_validator(mode="before")
+    @classmethod
+    def _clip_account(cls, data):
+        if isinstance(data, dict) and isinstance(data.get("account"), str):
+            data = {**data, "account": data["account"][:4000]}
+        return data
 
     @model_validator(mode="after")
     def _ordinals_in_family(self):
@@ -369,7 +399,7 @@ class StageBOut(_Strict):
     # enumerating decisions until it ran out of budget. Twelve is more than any artifact in the
     # calibration set produced, and a cap that fits in the generation budget beats a cap that
     # only fits in principle.
-    decisions: tuple[Decision, ...] = Field(max_length=12)
+    decisions: tuple[Decision, ...] = Field(max_length=20)
 
 
 class StageCOut(_Strict):
@@ -383,7 +413,7 @@ class StageCOut(_Strict):
     audience: AudiencePosterior
     # Empty is legitimate: it means the method revealed nothing that bears on purpose, and an
     # unchanged posterior is a real outcome the loop records rather than an omission.
-    changed_because: str = Field(default="", max_length=800)
+    changed_because: str = Field(default="", max_length=4000)
 
 
 class StageDOut(_Strict):
@@ -391,8 +421,19 @@ class StageDOut(_Strict):
     cost_borne: int
     artifact_effort: int
     demonstrated_work: int
-    trade_offs: tuple[TradeOff, ...] = Field(max_length=10)
-    account: str = Field(default="", max_length=2000)
+    # 24, not 10. The counterfactual stage B makes the probe more expansive downstream, and
+    # readings were being discarded for exceeding a cap chosen before that prompt existed.
+    # Discarding a reading over a length limit is the same sample-biasing error as discarding one
+    # over an untidy distribution.
+    trade_offs: tuple[TradeOff, ...] = Field(max_length=24)
+    account: str = ""
+
+    @model_validator(mode="before")
+    @classmethod
+    def _clip_account(cls, data):
+        if isinstance(data, dict) and isinstance(data.get("account"), str):
+            data = {**data, "account": data["account"][:4000]}
+        return data
 
     @model_validator(mode="after")
     def _ordinals_in_family(self):
@@ -423,7 +464,7 @@ def _explicit_distribution(ids) -> dict:
     """
     return {
         "type": "object",
-        "properties": {i: {"type": "integer", "minimum": 0} for i in ids},
+        "properties": {i: {"type": "integer"} for i in ids},
         "required": list(ids),
         "additionalProperties": False,
     }
@@ -493,7 +534,7 @@ def _apply_family_ordinals(node, fam):
 # not bind in the sampler, so leaving them in advertises a guarantee that is not delivered.
 # Pydantic still enforces every one of them on the way back in, where they actually hold.
 _GRAMMAR_KEYS = {
-    "type", "properties", "required", "items", "enum", "additionalProperties", "minimum",
+    "type", "properties", "required", "items", "enum", "additionalProperties",
 }
 
 
