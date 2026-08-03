@@ -487,15 +487,31 @@ class AffectPosterior(_Strict):
 
 
 class StageEOut(_Strict):
-    """The affect pass. v6 + family v3 only.
+    """The affect pass. v6 + family v3 only. TWO LAYERS, and the gap between them is the point.
 
-    `evidence` is required for every affect that is not `none_legible`, on the same terms as
-    `alternative_rejected`: an affect that cannot be pointed at was supplied by the reader, not
-    performed by the maker. This is the whole safeguard for the dimension most likely to
-    confabulate, so it is a field rather than a hope.
+        leaked      what got through without being chosen. Ekman's leakage, lexically.
+        emblematic  what was displayed on purpose. A conscious social decision, and therefore a
+                    decision this instrument already knows how to handle.
+
+    They usually agree — "if you have something felt, you kind of want to perform it, it's hard
+    not to" — so `divergence` is the interesting quantity precisely because it is usually small.
+    Leaked without emblematic is concealment; emblematic without leaked is pure performance. One
+    distribution cannot tell those apart, and telling them apart is why there are two.
+
+    `evidence` is required for every value above 10 points in either layer, on the same terms as
+    `alternative_rejected`: an affect that cannot be pointed at was supplied by the reader. This
+    is the whole safeguard for the dimensions most likely to confabulate, so it is a field rather
+    than a hope.
     """
-    affect: AffectPosterior
-    evidence: tuple[Evidence, ...] = Field(default=(), max_length=4)
+    leaked: AffectPosterior
+    emblematic: AffectPosterior
+    evidence: tuple[Evidence, ...] = Field(default=(), max_length=6)
+
+    @property
+    def divergence(self) -> float:
+        """Total variation distance between the two layers. 0 = felt and shown agree."""
+        a, b = self.leaked.distribution, self.emblematic.distribution
+        return 0.5 * sum(abs(a[k] - b.get(k, 0.0)) for k in a)
 
 
 class StageAOut(_Strict):

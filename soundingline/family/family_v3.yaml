@@ -28,7 +28,7 @@ supersedes: 2
 spec_section: "§4"
 decision: "D-1 — fixed and hand-written, amended by calibration rather than by learning"
 amendment: "C-4 (revised) — artifact_effort and demonstrated_work as separate dimensions"
-amendment_v3: "C-23 / S1.4 — a performed-affect dimension, the first non-instrumental one"
+amendment_v3: "C-23 / S1.4 — leaked and emblematic affect, the first non-instrumental dimensions"
 
 provenance_of_changes:
   - "CALIBRATION_01 §3 — curator identified `effort` as absent from the family"
@@ -195,80 +195,132 @@ dimensions:
       - id: 5
         gloss: "the artifact is an account of a major undertaking"
 
-  # ── NEW IN v3 ───────────────────────────────────────────────────────────────────────────────
-  performed_affect:
+  # ---------------------------------------------------------------------------------------------
+  # NEW IN v3 -- TWO LAYERS, NOT ONE.
+  #
+  # This is the curator's correction to my first draft, and it is the whole structure of the
+  # dimension:
+  #
+  #     The whole dimension is not necessarily performed and not felt. It's actually kind of both.
+  #     There is a layer that is TRUE, and I would call that like emotional LEAKAGE that can show
+  #     up in your text and that can be very real... Then there's a second layer, I think Ekman
+  #     would call it the EMBLEMATIC layer, which is a conscious social decision. And so it's both
+  #     performed and felt, and they can be independent, though generally aren't -- I'd say they
+  #     correlate probably. If you have something felt, you kind of want to perform it. It's hard
+  #     not to.
+  #
+  # So: two distributions over one value set, and THE GAP BETWEEN THEM IS ITSELF A MEASUREMENT.
+  # Emblematic without leaked is pure performance. Leaked without emblematic is concealment, which
+  # is where the curator's own session-01 reading lived -- "low-level anger, but performative in
+  # nature. It's not real, but it was real at some point. At this point they're kind of half
+  # recreating it."
+  #
+  # A single performed-not-felt dimension could not represent that sentence, and that sentence is
+  # the observation the dimension exists to capture.
+  # ---------------------------------------------------------------------------------------------
+
+  leaked_affect:
     kind: categorical
     load_bearing: true
     new_in: 3
+    layer: "involuntary -- what got through"
     why_in_family: >
-      Every other dimension in this family is cognitive-instrumental — what the maker wanted, who
-      for, how deep, at what cost. C-23 was the curator's objection that nothing here derives
-      HUMAN-SHAPED maker goals, and reading session 01 supplied both the evidence and the
-      candidate answer. His operative descriptions were almost entirely affective — irritated,
-      performative anger that was real once, quiet expert, no-nonsense gruff contractor, someone
-      with something to prove, a child who just learned a heuristic — and he caught himself doing
-      it: "I reach for the edges of the solution space that humans use to simplify the solution
-      state, and I am reflexively doing so."
-      The prior that makes an unbounded maker-state space tractable for a human reader is
-      affective. The family could not represent it at all.
-
-    basis: >
-      Panksepp's primary-process affective systems, at the curator's suggestion ("Panksepp's
-      primitives, or some such — it's a great starting point"). LUST is omitted: it is not
-      legible in this corpus type and including a value the probe can only confabulate weakens
-      every other value in the dimension. SEEKING, RAGE, FEAR, CARE, PLAY and GRIEF are kept, in
-      the vocabulary of what an artifact can actually show.
-
-    PERFORMED, NOT FELT — the load-bearing scope limit: >
-      This dimension reports the affect the artifact PERFORMS, not the affect the maker had. The
-      curator drew the distinction himself, twice, and it is not a hedge:
-        "low-level anger is something that I get, but performative in nature, frankly. It's not
-         real, but it was real at some point. At this point they're kind of half recreating it."
-        "I'm being presented a specific face... it is the presentation that I'm tapping into, and
-         I'm extrapolating off of that through the ways that they IMPERFECTLY presented it."
-      What is recoverable is a performance and its leaks. A reading that claims to know how the
-      maker felt has left the family.
-
-    values:
+      The true layer. Affect that reaches the text without being chosen: a run-on where the maker
+      got going, a word sharper than the argument needs, a caveat that protests more than the
+      claim warrants. Ekman's leakage, in a medium where the leak is lexical and structural rather
+      than facial.
+    values: &affect_values
       - id: none_legible
         gloss: >
-          no affective stance is performed. Not calm — ABSENT. This is the value that must carry
-          the wall, and it is listed first so it is never the residual.
+          no affective stance is legible. Not calm -- ABSENT. Listed first so it is never the
+          residual: the wall has to be something the instrument can SAY.
       - id: seeking
-        gloss: "curiosity, enthusiasm, the pleasure of working a problem; the maker is interested"
+        gloss: >
+          curiosity, enthusiasm, the pleasure of working a problem; and the drive toward standing
+          and competence in a community. Panksepp's SEEKING is appetitive, not merely pleasant.
       - id: rage
-        gloss: "irritation, frustration, grievance; the maker is annoyed and shows it"
+        gloss: "irritation, frustration, grievance"
       - id: fear
         gloss: >
-          anxiety about standing — hedging, credentialing, pre-empting the objection; the maker is
-          worried about being wrong or about not being taken seriously
+          anxiety about exposure or standing -- hedging, credentialing, pre-empting the objection.
+          SEE THE LITERATURE HAZARD BELOW: this may be conflating Panksepp's FEAR with
+          PANIC/GRIEF's separation distress, and the two have different behavioural signatures.
       - id: care
         gloss: >
-          concern for the reader's success; effort spent making it land rather than making it
-          impressive
+          wanting the reader to succeed, and spending on it. NARROWER THAN IT LOOKS, per the
+          curator's correction: a competent professional register is usually seeking plus grief,
+          not care. Care is when they wanted to HELP.
       - id: play
-        gloss: "humour, wordplay, delight in the form; the maker is enjoying making it"
+        gloss: "humour, wordplay, delight in the form"
+      - id: lust
+        gloss: >
+          desire as a driver of the work. Restored after I wrongly dropped it -- see the note
+          below. Actively concealed rather than absent, and usually visible through what the
+          artifact JUSTIFIES rather than through what it says.
       - id: grief
-        gloss: "loss, nostalgia, resignation; something is over and the artifact knows it"
+        gloss: >
+          loss, nostalgia, resignation -- and separation distress: not wanting to be isolated,
+          wanting to be well regarded and established. Panksepp's PANIC/GRIEF is the social-bond
+          system, not only bereavement.
 
-    null_required: >
-      N-AFF. On artifacts with no reconstructible maker the affective posterior MUST stay flat —
-      normalised entropy above 0.85. This is E36's null N28 applied to a new dimension, written
-      BEFORE the dimension exists rather than discovered after a result.
-      The reason it is mandatory: an affective label is exactly what a language model supplies
-      fluently whether or not anything supports it, so this is the dimension most likely to
-      confabulate. If N-AFF fails, performed_affect is measuring the model's fluency and every
-      number that uses it is uninterpretable.
+  emblematic_affect:
+    kind: categorical
+    load_bearing: true
+    new_in: 3
+    layer: "chosen -- what was displayed"
+    why_in_family: >
+      The performed layer. Ekman's emblematic display: a conscious social decision about which
+      stance to present. This is the layer that is a DECISION, and therefore the layer the rest of
+      this instrument already knows how to handle -- it has an alternative that was rejected, it
+      can be pointed at, and the maker can rebut it.
+    values: *affect_values
 
-    falsifier: >
-      If performed_affect adds nothing to reconstructibility over the v2 family — same cross-seed
-      span agreement with and without it — it is decoration and comes out. It is load_bearing
-      because it is claimed to do work, and a claim that does no work is removed.
+  # ---------------------------------------------------------------------------------------------
+  # WHY LUST IS IN THE SET, HAVING BEEN WRONGLY REMOVED
+  #
+  # I dropped it on the grounds that the probe could only confabulate it. Overruled, and the
+  # reasoning is better than mine:
+  #
+  #     It just seems incorrect. There's no reason to do so, and it does show up... someone in one
+  #     of the builds for Elden Ring might talk about how they prefer playing scantily clad women
+  #     characters. They might justify it by saying it helps field of view, but that's a lust
+  #     statement... It's not necessarily confabulatable. People take actions in accordance with
+  #     lust and it is identifiable. It's more actively CONCEALED, and is often one of the more
+  #     hard to disentangle things. I've heard people say that all art is made for sex reasons,
+  #     and I think this is the source of that. It would be disingenuous to have it removed.
+  #
+  # It is also the family's clearest case of the two layers coming apart: a lust-driven decision is
+  # routinely leaked and almost never emblematic. Removing it would have removed the dimension's
+  # best worked example.
+  # ---------------------------------------------------------------------------------------------
 
-    evidence_rule: >
-      Every non-`none_legible` value requires a located quote, on the same terms as
-      `alternative_rejected`. An affect that cannot be pointed at was not performed; it was
-      supplied by the reader.
+  # ---------------------------------------------------------------------------------------------
+  # THE FLAT-MOTIVE CASE GETS NO VALUE, DELIBERATELY
+  #
+  #     I don't think flat motive needs its own value. I'm kind of hoping that it emerges from the
+  #     data organically... Flat motive should only be AI, because practically speaking nearly all
+  #     of what you would expect human behaviour to do would be driven by some kind of drive or
+  #     another. Be that simple fear if you're a corporate stooge who must do XYZ, or grief in the
+  #     case of someone who wants their business to be well regarded -- also fear in that second
+  #     one, and seeking. Those three are going to link together pretty frequently.
+  #
+  # Recorded as a HAZARD rather than built: if `none_legible` fires only on machine content, it is
+  # a provenance claim wearing an affect label, and SPEC 1 forbids the instrument from making one.
+  # FAMILY_V3_REVIEW.md Q3 is open on exactly this.
+  # ---------------------------------------------------------------------------------------------
+
+  # ---------------------------------------------------------------------------------------------
+  # THE LITERATURE HAZARD, RECORDED BECAUSE IT IS NOT YET DISCHARGED
+  #
+  #     You're going to have to do a pretty decent literature review if you want to align these to
+  #     specific behaviours, because I'd imagine this has been done at length. I'm wondering
+  #     whether this is fertile ground for research even.
+  #
+  # The glosses above are the curator's readings mapped onto Panksepp's names BY THE AUTHOR. There
+  # is no published mapping from primary-process affective systems to TEXTUAL signatures behind
+  # them. Until that review exists the names are provisional, and the boundary between `fear` and
+  # `grief` is the least safe thing in this file.
+  # ---------------------------------------------------------------------------------------------
 
   trade_offs:
     kind: structured
@@ -320,6 +372,25 @@ known_limits:
       worse than the reader's own. Indifference, blocked-by-expertise, and repulsion are three
       distinct states and the family represents none of them.
 
+
+affect_null_required: >
+  N-AFF. On artifacts with no reconstructible maker BOTH distributions must stay flat --
+  normalised entropy above 0.85. E36's null N28 applied to a new dimension, written before the
+  dimension exists rather than discovered after a result. An affective label is exactly what a
+  language model supplies fluently whether or not anything supports it, so if N-AFF fails both
+  layers are measuring the model's fluency and every number using them is uninterpretable.
+
+affect_divergence: >
+  The quantity the two layers exist to produce. Total variation distance between leaked and
+  emblematic. Low divergence is the ordinary case -- "if you have something felt, you kind of
+  want to perform it." High divergence is either concealment (leaked without emblematic) or pure
+  performance (emblematic without leaked), and those are different findings that one distribution
+  cannot tell apart.
+
+affect_evidence_rule: >
+  Every value above 10 points in EITHER layer requires a located quote, on the same terms as
+  `alternative_rejected`. An affect that cannot be pointed at was supplied by the reader.
+
 # ---------------------------------------------------------------------------------------------
 may_not_claim:
   - "that a machine wrote this. The instrument never makes a claim about authorship."
@@ -332,6 +403,18 @@ may_not_claim:
   - >
     any of the output quantities alone. The reading is the tuple. Report all of them always —
     the simulation's whole methodology is that a single number invites the overclaim.
+  - >
+    that `leaked_affect` is what the maker felt. It is what got through into the text, which is
+    evidence about a state and not the state itself. The maker may rebut it, and that is the
+    property keeping this inside an instrument rather than inside a personality test.
+  - >
+    that a flat affective posterior means a machine wrote this. If `none_legible` turns out to
+    fire only on machine content, that is a PROVENANCE claim wearing an affect label, and the spec
+    forbids the instrument from making one. An open hazard, not a feature.
+  - >
+    that the Panksepp value names are validated. They are one reader's readings mapped onto
+    Panksepp's names by the author, with no published mapping from primary-process systems to
+    TEXTUAL signatures behind them. Provisional until that review exists.
   - >
     that performed_affect is what the maker FELT. It is what the artifact performs, and a
     performance is a decision. The maker may rebut it with evidence, which is the property

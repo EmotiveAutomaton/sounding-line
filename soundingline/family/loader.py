@@ -59,8 +59,13 @@ class Family:
 
     @property
     def affects(self) -> tuple[str, ...]:
-        """v3 only. Empty under v1 and v2, which have no affective dimension."""
-        d = self.dimensions.get("performed_affect")
+        """v3 only. Empty under v1 and v2, which have no affective dimension.
+
+        One value set, two layers. `leaked_affect` and `emblematic_affect` share it by YAML
+        anchor, so a value can never exist in one layer and not the other — the divergence
+        between them is the measurement, and a divergence over mismatched supports is not one.
+        """
+        d = self.dimensions.get("leaked_affect")
         return tuple(v.id for v in d.values) if d else ()
 
     @property

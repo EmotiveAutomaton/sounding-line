@@ -47,25 +47,28 @@ what you find.
 If nothing made you stop, say so. *"Nothing demanded explanation"* is a real answer and I need it
 to be sayable, because the probe is allowed to say it too.
 
-### 3. ⚑ What stance is the artifact *performing?*
+### 3. ⚑ What stance is the artifact showing — and is it felt or put on?
 
-Pick from these, or say `none_legible`. More than one is fine; say which dominates.
+Two answers, from the same list. Your correction: it is both layers, not one.
+
+- **leaked** — what got through *without* being chosen. The run-on where they got going, the word
+  sharper than the argument needed, the caveat that protests too much.
+- **emblematic** — what was displayed *on purpose*.
 
 | | |
 |---|---|
-| **none_legible** | no stance is being performed — not calm, *absent* |
-| **seeking** | curiosity, enthusiasm, the pleasure of working a problem |
+| **none_legible** | no stance at all — not calm, *absent* |
+| **seeking** | curiosity, enthusiasm, the pleasure of working a problem; also the drive toward standing |
 | **rage** | irritation, frustration, grievance |
-| **fear** | anxiety about standing — hedging, credentialing, pre-empting the objection |
-| **care** | concern for the reader's success; effort spent making it *land* |
+| **fear** | anxiety about exposure or standing — hedging, credentialing, pre-empting |
+| **care** | they wanted to *help*. Narrow: a professional register is usually seeking + grief |
 | **play** | humour, wordplay, delight in the form |
-| **grief** | loss, nostalgia, resignation |
+| **lust** | desire driving the work — usually visible in what the artifact bothers to *justify* |
+| **grief** | loss, nostalgia, resignation; and not wanting to be isolated |
 
-**Performed, not felt** — your distinction, from *"performative in nature... it's not real, but it
-was real at some point."* You're reporting the face, not the person.
+They usually agree. **Say so when they do not** — that gap is the whole reason for asking twice.
 
-**If none of these fit, say what's missing.** This list is a proposal (see `FAMILY_V3_REVIEW.md`)
-and the fastest way to break it is for you to need a word it doesn't have.
+**If none of these fit, say what word is missing.** Fastest way to break the list.
 
 ### 4. What was it for — and how much of the answer is one thing?
 

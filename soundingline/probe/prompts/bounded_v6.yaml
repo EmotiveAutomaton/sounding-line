@@ -253,36 +253,42 @@ stage_c_reweight: |
 # Stage E — the performed affect. v6 + family v3 only. See family_v3.yaml for the scope limit:
 # this reports what the artifact PERFORMS, never what the maker felt.
 stage_e_affect: |
-  Distribute 100 points across the affective stances below, according to what this artifact
-  PERFORMS. Use whole numbers totalling 100.
+  Report the affective stance of this artifact on TWO separate layers. Distribute 100 points
+  across the stances for each layer independently. Whole numbers, 100 each.
 
-  You are not reporting how the maker felt. You cannot know that. You are reporting the stance
-  the artifact presents — which is itself a decision, and which a maker can rebut.
+  LAYER 1 - LEAKED. What got through WITHOUT being chosen. A run-on where the maker got going.
+  A word sharper than the argument needed. A caveat that protests more than the claim warrants.
+  An aside that serves nothing. This is involuntary and it is evidence about a state.
 
-  A performance that is visibly held up, or that slips, is still a performance. Report what is
-  being performed, and let the slips show up in your evidence.
+  LAYER 2 - EMBLEMATIC. What was displayed ON PURPOSE. The stance the maker decided to present.
+  This is a decision, with an alternative that was not taken, and it can be pointed at.
 
-  THE STANCES, and nothing outside this set:
+  THE TWO USUALLY AGREE, and that is expected rather than suspicious - someone who feels a thing
+  generally wants to show it. Report them separately anyway, because the cases where they COME
+  APART are the whole reason for asking twice:
+
+    leaked but not displayed    -> concealment. Something got out that was not meant to.
+    displayed but not leaked    -> pure performance. A stance put on, with nothing behind it.
+
+  Do not force them apart and do not force them together. Report each from its own evidence.
+
+  THE STANCES, and nothing outside this set, for both layers:
   {affect_options}
 
-  `none_legible` is a real and important answer. It does not mean calm and it does not mean
-  neutral-in-tone. It means NO affective stance is being performed at all — that there is no
-  one back there taking a stance. If the artifact is fluent, competent and affectively empty,
-  that is `none_legible` at high weight, and reporting it is the point of this stage.
+  `none_legible` is a real and important answer on either layer. It does not mean calm and it
+  does not mean neutral in tone. It means NO affective stance is present at all. An artifact can
+  be fluent, competent, and affectively empty, and saying so is the point of this stage.
 
-  Do not reach for an affect because the topic suggests one. A piece about a disaster is not
-  performing grief unless the ARTIFACT performs it.
+  Do not reach for a stance because the topic suggests one. A piece about a disaster is not
+  grieving unless the ARTIFACT grieves. Do not reach for `lust` because a subject is a person -
+  it is a stance of the MAKER toward the work, usually visible in what the artifact bothers to
+  justify rather than in what it describes.
 
-  For every stance you give more than 10 points, supply a verbatim span that shows it being
-  performed. An affect you cannot point at was supplied by you, not by the maker.
+  For every stance you give more than 10 points on either layer, supply a verbatim span showing
+  it. A stance you cannot point at was supplied by you, not by the maker.
 
   {artifact_block}
 
-# ---------------------------------------------------------------------------------------------
-# Stage D — trade-offs, read off the settled purpose (SPEC §4; D-3 holds v1 to this).
-#
-# Values are read off the recovered goal, so they cannot arrive before it. This stage runs last,
-# once, after the loop converges — never inside it.
 stage_d_tradeoffs: |
   The reading has settled on: {settled_summary}
 

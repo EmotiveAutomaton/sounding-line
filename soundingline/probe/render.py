@@ -172,8 +172,11 @@ def stage_e(artifact: Artifact, *, spec_path: Path = BOUNDED_V6_PATH,
     from soundingline.family.loader import load_family as _lf     # noqa: PLC0415
     fam_path = family_path or (Path(__file__).resolve().parents[1] / "family" / "family_v3.yaml")
     fam = _lf(fam_path)
+    # One value set, shared by both layers via a YAML anchor. Rendering from `leaked_affect`
+    # rather than from either layer's own copy makes it structurally impossible to offer the two
+    # layers different options — a divergence measured over mismatched supports is not one.
     options = "\n".join(f"  - {v.id}: {v.gloss}"
-                        for v in fam.dimensions["performed_affect"].values)
+                        for v in fam.dimensions["leaked_affect"].values)
     spec = _load(spec_path)
     return _fill(
         spec["stage_e_affect"],
