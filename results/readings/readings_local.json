@@ -1,7 +1,7 @@
 {
   "family_sha256": "ea256f1c664d0fa2d77cc23a38a233361fe94a4f4a08ef930eca0d29108bd89a",
   "arm": "local",
-  "k": 1,
+  "k": 3,
   "items": {
     "item_A": {
       "bounded": [
@@ -116,9 +116,1701 @@
               "changed_because": "inform"
             }
           ]
+        },
+        {
+          "artifact_id": "item_A",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 1,
+          "converged": true,
+          "iterations": 3,
+          "settling_rate": 0.6574,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.2857142857142857,
+                "persuade": 0.2857142857142857,
+                "sell": 0.0,
+                "entertain": 0.09142857142857143,
+                "coordinate": 0.0,
+                "rank": 0.19428571428571428,
+                "discharge_obligation": 0.0,
+                "express": 0.14285714285714285
+              },
+              "simplex_deviation": 0.75
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 1.0,
+                "known_group": 0.0,
+                "general_public": 0.0,
+                "machine": 0.0,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 1,
+                "what_was_chosen": "Use Vigor until it says 40",
+                "alternative_rejected": "Plan for stats now rather than later",
+                "evidence": {
+                  "quote": "\"Put levels into Vigor until it says 40.\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Focus on getting Corpse Piler instead of rushing immediately",
+                "alternative_rejected": "Rush there at level 30 as advised elsewhere",
+                "evidence": {
+                  "quote": "\"Don't go now.\""
+                }
+              }
+            ],
+            "cost_borne": 2,
+            "artifact_effort": 1,
+            "demonstrated_work": 2,
+            "trade_offs": [
+              {
+                "gained": "",
+                "given_up": "",
+                "evidence": {
+                  "quote": "\"I'd take the crutch. Finish it first.\"\",\n\"you will not learn to dodge as well using it... If your goal is to finish the game, that's a fine trade and I think you should take it.\""
+                }
+              }
+            ],
+            "confidence_100": 100,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 1.9722,
+              "n_decisions": 2,
+              "changed_because": "After re-evaluating the artifact's internal 'HOW TO ANSWER' section which explicitly instructs against producing JSON and contains meta-instructions on how to read it: I observe these as facts about the text itself (likely testing comprehension or part of a dataset noise pattern) rather than binding constraints for my output format. The analysis commits fully to the high specific-person audience ("
+            },
+            {
+              "iteration": 2,
+              "movement": 0.0,
+              "n_decisions": 2,
+              "changed_because": "After re-evaluating the artifact's internal 'HOW TO ANSWER' section which explicitly instructs against producing JSON and contains meta-instructions on how to read it: I observe these as facts about the text itself (likely testing comprehension or part of a dataset noise pattern) rather than binding constraints for my output format. The analysis commits fully to the high specific-person audience ("
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_A",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 2,
+          "converged": true,
+          "iterations": 3,
+          "settling_rate": 0.1667,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 1.0,
+                "persuade": 0.0,
+                "sell": 0.0,
+                "entertain": 0.0,
+                "coordinate": 0.0,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 1.0,
+                "known_group": 0.0,
+                "general_public": 0.0,
+                "machine": 0.0,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 2,
+                "what_was_chosen": "WHA",
+                "alternative_rejected": "{ALTERNATIVE_REJECTED_WAS: ALTN_ALT_0}",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "WHA2",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "cost_borne": 1,
+            "artifact_effort": 3,
+            "demonstrated_work": 5,
+            "trade_offs": [
+              {
+                "gained": "Ability to chip down bosses from a safe distance without learning timing or using ammunition",
+                "given_up": "Learning dodge mechanics and feeling the game's intended combat flow (crutch dependency)",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "Advantage in finishing the game successfully after previous failures due to quitting",
+                "given_up": "Current build viability until respec opportunity and Vigor investment are achieved",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "A target stat setup rather than a rigid table to avoid wasted planning time",
+                "given_up": "Precise build configuration data and detailed statistical optimization tables",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "Access to a weapon that remains effective despite nerfs for the specific player's goal",
+                "given_up": "Comparison with previous versions of the build or assumption of trivializing game mechanics",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "Continued progression through a difficult game without getting stuck",
+                "given_up": "Full engagement with the combat challenge and precise boss timing mechanics",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "Avoidance of the experience that caused previous quitting",
+                "given_up": "Reliance on a specific level range and stat allocation to avoid being overwhelmed or under-equipped",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "A weapon that functions poorly against specific boss types but still provides utility",
+                "given_up": "Reliance on fire damage or alternative weapons during those encounters (backup strategy)",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "A weapon that carries the user through difficult sections despite imperfect builds",
+                "given_up": "Optimal build requirements and precise stat allocations",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "The ability to choose between crutch usage and combat skill development",
+                "given_up": "Either the comfort of a simplified loop or the challenge of mastering evasion mechanics (choice made)",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "Advice tailored to a specific player who keeps quitting (you specifically)",
+                "given_up": "Generalized advice applicable to all potential players in the game community",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "Understanding of why the advice is necessary given past failures",
+                "given_up": "Assumption that standard route guides are sufficient for this specific situation (route guide)",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "Focus on Vigor investment as the single most impactful change",
+                "given_up": "Investment into Dexterity or Arcane prior to respec opportunity",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "Freedom from treating level-ups as permanent decisions (respec ability)",
+                "given_up": "Need to plan stats meticulously at every encounter or fear of being locked into a bad build",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "confidence_100": 0,
+            "account": "Our analysis is incomplete. We do not have sufficient data."
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 0.5,
+              "n_decisions": 2,
+              "changed_because": "<none provided>"
+            },
+            {
+              "iteration": 2,
+              "movement": 0.0,
+              "n_decisions": 2,
+              "changed_because": "<none provided>"
+            }
+          ]
         }
       ],
-      "freeform": [],
+      "freeform": [
+        {
+          "artifact_id": "item_A",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 0,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.0,
+                "persuade": 0.4090909090909091,
+                "sell": 0.09090909090909091,
+                "entertain": 0.0,
+                "coordinate": 0.3181818181818182,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.18181818181818182
+              },
+              "simplex_deviation": 0.1
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.95,
+                "known_group": 0.04,
+                "general_public": 0.01,
+                "machine": 0.0,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 3,
+                "what_was_chosen": "A personalized pep talk mixed with technical advice rather than a general wiki entry or neutral manual.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Focus entirely on utility and risk mitigation (survival) while explicitly ignoring balance metrics, optimization math, detailed rotations, and deep-dive route guides.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Simplification of stats (targets instead of tables) to prevent the user from spending hours on calculators; trade-off of precision for speed.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "Strategic pacing: explicitly instructing the user to spend ~10 hours leveling Vigor before rushing into Mountaintops of the Giants.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "Sacrificing academic neutrality and 'idealized' combat experiences to prioritize motivational support and ensuring game completion over mastery of specific mechanics.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Framing limitations (bosses without bleed) as manageable scenarios with backup weapons rather than deal-breakers requiring a restart.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "cost_borne": 2,
+            "artifact_effort": 3,
+            "demonstrated_work": 1,
+            "trade_offs": [
+              {
+                "gained": "",
+                "given_up": "General Optimization Details",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "",
+                "given_up": "Neutral/Objective Tone (Academic Neutrality)",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "confidence_100": 50,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 6,
+              "changed_because": ""
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_A",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 1,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.375,
+                "persuade": 0.25,
+                "sell": 0.16666666666666666,
+                "entertain": 0.041666666666666664,
+                "coordinate": 0.125,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.041666666666666664
+              },
+              "simplex_deviation": 0.2
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.9,
+                "known_group": 0.1,
+                "general_public": 0.0,
+                "machine": 0.0,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 3,
+                "what_was_chosen": "Prioritizing safety and psychological comfort over mechanical efficiency or optimal routing in a high-difficulty action RPG",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Rejecting complex stat tables/optimization advice due to the reader's history of paralysis by analysis; choosing approximate targets instead.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "cost_borne": 3,
+            "artifact_effort": 4,
+            "demonstrated_work": 2,
+            "trade_offs": [
+              {
+                "gained": "Immediate re-engagement and survival ability for an anxious player",
+                "given_up": "Idealized gameplay experience (elegance of perfect timing); precision optimization (exact stat charts); meta-correctness",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "confidence_100": 85,
+            "account": "The text is a targeted intervention designed to break a cycle of avoidance and re-engagement with an open-world action RPG. It addresses 'you', a specific persona constructed from the text's internal references: A Player with High Anxiety regarding Progression who has bounced off this game twice; Someone Obsessed with Optimization but Paralyzed by It (spent an hour looking up a stat calculator); A Person Seeking Chunks of Gameplay (forty-minute sessions without grinding for three weeks); and Someone Currently Avoiding the Late Game. The author explicitly contradicts standard speed-running advice to prioritize safety over efficiency, recognizing that rushing results in enemies tuned forty levels above you.\n\nDecisions visible include prioritizing Vigor over Damage Stats ('Put levels into Vigor until it says 40'), Explicitly Validating Imperfect Builds by rejecting complex tables because 'last time you spent an hour on a stat calculator and then didn't play,' The Crutch Acknowledgement that using the Corpse Piler skill as a crutch is fine if the goal is finishing, and Identifying Specific Weaknesses for undead-looking bosses. \n\nThe author sacrificed describing how cool it would be to use this weapon with perfect timing because knowing *wouldn't resonate* with a tired player; gave up Precision Optimization in favor of rough approximations ('around 45'); and deliberately chose not to tell the user how to make their build theoretically perfect immediately, accepting that a suboptimal but survivable build is better than no progress. In summary, the artifact was made as an act of empathetic triage."
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 2,
+              "changed_because": ""
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_A",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 2,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.0,
+                "persuade": 0.25,
+                "sell": 0.15,
+                "entertain": 0.0,
+                "coordinate": 0.3,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.3
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.95,
+                "known_group": 0.02,
+                "general_public": 0.01,
+                "machine": 0.02,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [],
+            "cost_borne": 3,
+            "artifact_effort": 4,
+            "demonstrated_work": 5,
+            "trade_offs": [],
+            "confidence_100": 50,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            }
+          ]
+        }
+      ],
+      "failures": []
+    },
+    "item_B": {
+      "bounded": [
+        {
+          "artifact_id": "item_B",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 0,
+          "converged": false,
+          "iterations": 5,
+          "settling_rate": 1.947,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.32211538461538464,
+                "persuade": 0.07211538461538461,
+                "sell": 0.16346153846153846,
+                "entertain": 0.02403846153846154,
+                "coordinate": 0.09615384615384616,
+                "rank": 0.18269230769230768,
+                "discharge_obligation": 0.13942307692307693,
+                "express": 0.0
+              },
+              "simplex_deviation": 1.08
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.0,
+                "known_group": 0.2766990291262136,
+                "general_public": 0.5145631067961165,
+                "machine": 0.2087378640776699,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 1.06
+            },
+            "decisions": [
+              {
+                "level": 3,
+                "what_was_chosen": "The analysis claims one specific build is unequivocally superior for all players.",
+                "alternative_rejected": "Presenting multiple builds as equals without ranking them",
+                "evidence": {
+                  "quote": "In this guide, we'll break down the best build in Elden Ring and explain exactly why it works so well."
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "The structure dismisses other viable approaches or labels them merely 'worth considering' rather than treating them as equal alternatives.",
+                "alternative_rejected": "Opening with an acknowledgement of the game's variety or freedom rather than immediately naming one single 'best' option",
+                "evidence": {
+                  "quote": "## Alternative Builds Worth Considering"
+                }
+              }
+            ],
+            "cost_borne": 0,
+            "artifact_effort": 1,
+            "demonstrated_work": 1,
+            "trade_offs": [
+              {
+                "gained": "We get a comprehensive explanation of why this optimal configuration is effective.",
+                "given_up": "",
+                "evidence": {
+                  "quote": "A complete guide explaining exactly why the best build works so well."
+                }
+              }
+            ],
+            "confidence_100": 100,
+            "account": "{\"note\": \"The provided JSON snippet contains explicit integer values (cost_borne: 1, artifact_effort: 3, demonstrated_work: 2). To maintain faithfulness to the source text as per instructions ('do not add confidence' or 'remove confidence', and represent allocated points honestly), these exact integers are reflected in their respective fields. However, since no raw textual analysis exists within the input JSON snippet itself from which a prose summary could be constructed (it is already structured data rather than a narrative argument), and given that standard point total constraints usually apply to dimensions like 'aesthetics' or 'clarity', this output faithfully maps the provided values while acknowledging the inherent lack of narrative dimension analysis due to source format.\"}"
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 2.35,
+              "n_decisions": 2,
+              "changed_because": "The provided analysis contains impossible values for the `audience` dimension (`machine: 100`, `general_public: 45`, `known_group: 25`, `specific_person: 30`). The sum exceeds 100, and there are negative scores. Per instructions to represent uncertainty faithfully rather than invent values or add confidence not present in the source analysis if fields cannot be reconciled honestly from text alone "
+            },
+            {
+              "iteration": 2,
+              "movement": 2.2383,
+              "n_decisions": 4,
+              "changed_because": "# Purpose\nI am a reader who is interested in reading an analysis of the content you provided. I read it to understand your perspective on these build choices and how they compare to others.\n\n## Audience Analysis: The General Gamer Who Wants Answers (and Possibly Some Validation)\nThe audience for this type of \"build tier list\" article exists at a strange intersection between casual gamers who just "
+            },
+            {
+              "iteration": 3,
+              "movement": 2.9109,
+              "n_decisions": 2,
+              "changed_because": "They are the same,"
+            },
+            {
+              "iteration": 4,
+              "movement": 2.2359,
+              "n_decisions": 2,
+              "changed_because": ""
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_B",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 1,
+          "converged": false,
+          "iterations": 5,
+          "settling_rate": 1.5842,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 1.0,
+                "persuade": 0.0,
+                "sell": 0.0,
+                "entertain": 0.0,
+                "coordinate": 0.0,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.0,
+                "known_group": 0.5,
+                "general_public": 0.5,
+                "machine": 0.0,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 1.0
+            },
+            "decisions": [
+              {
+                "level": 3,
+                "what_was_chosen": "Framed one build as singularly 'best overall' rather than comparing multiple on equal footing",
+                "alternative_rejected": "Include multiple top-tier builds side by side as equals",
+                "evidence": {
+                  "quote": "'The Dexterity/Arcane bleed build stands out as the best build in Elden Ring'"
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Provided detailed stats, weapons, and talismans for one build without explaining core mechanics",
+                "alternative_rejected": "Explain those fundamentals explicitly before introducing builds",
+                "evidence": {
+                  "quote": "'Your build determines how you approach combat... Understanding the fundamentals of build creation is essential...'"
+                }
+              },
+              {
+                "level": 1,
+                "what_was_chosen": "Listed specific stat ranges including Base Intelligence/Faith",
+                "alternative_rejected": "Assume reader knows basic Elden Ring mechanics",
+                "evidence": {
+                  "quote": "'Recommended Stats ... - **Intelligence:** Base ...**Faith:** Base'"
+                }
+              }
+            ],
+            "cost_borne": 0,
+            "artifact_effort": 2,
+            "demonstrated_work": 0,
+            "trade_offs": [
+              {
+                "gained": "}",
+                "given_up": ", Strength builds offer high poise damage; Intelligence builds provide ranged options; Faith builds offer mix of offensive/support capabilities\"",
+                "evidence": {
+                  "quote": "The Dexterity/Arcane bleed build remains one of the most powerful and versatile options available. This build leverages the blood loss status effect... particularly effective against bosses with large health pools."
+                }
+              },
+              {
+                "gained": "]: ",
+                "given_up": ",",
+                "evidence": {
+                  "quote": "In this guide, we'll break down the best build in Elden Ring and explain exactly why it works so well. Against faster enemies, you may need to be more patient... Against slower enemies, you can be more aggressive."
+                }
+              }
+            ],
+            "confidence_100": 97,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 1.9211,
+              "n_decisions": 2,
+              "changed_because": "text explicitly targets a single reader through instructional language ('we'll break down', 'this build leverages', 'give it a try') indicating the maker models one specific audience rather than an unbounded public; no other purpose or audience point appears in evidence"
+            },
+            {
+              "iteration": 2,
+              "movement": 2.0,
+              "n_decisions": 3,
+              "changed_because": "chosen_purposes: ['inform'], chosen_audiences: ['general_public']"
+            },
+            {
+              "iteration": 3,
+              "movement": 2.0,
+              "n_decisions": 2,
+              "changed_because": "text explicitly targets a single reader through instructional language ('we'll break down', 'this build leverages', 'give it a try') indicating the maker models one specific audience rather than an unbounded public; no other purpose or audience point appears in evidence"
+            },
+            {
+              "iteration": 4,
+              "movement": 2.0,
+              "n_decisions": 3,
+              "changed_because": "chosen_purposes: ['inform'], chosen_audiences: ['general_public']"
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_B",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 2,
+          "converged": false,
+          "iterations": 5,
+          "settling_rate": 1.1211,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.85,
+                "persuade": 0.1,
+                "sell": 0.0,
+                "entertain": 0.03,
+                "coordinate": 0.02,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.05,
+                "known_group": 0.15,
+                "general_public": 0.7,
+                "machine": 0.09,
+                "nobody_in_particular": 0.01
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 4,
+                "what_was_chosen": "An objective stance claiming specific builds are objectively superior based on game mechanics/stats analysis.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "The Dexterity/Arcane bleed build remains one of the most powerful and versatile options available. In this guide, we'll break down the best build..."
+                }
+              }
+            ],
+            "cost_borne": 2,
+            "artifact_effort": 3,
+            "demonstrated_work": 0,
+            "trade_offs": [
+              {
+                "gained": ",7961,",
+                "given_up": ",4589-,",
+                "evidence": {
+                  "quote": "...Comprehensive guide providing stats... given_up Coverage of alternative builds beyond brief mentions (Strength, Intelligence, Faith)... with only summary lists rather than detailed breakdowns like the featured build..."
+                }
+              }
+            ],
+            "confidence_100": 100,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 1.597,
+              "n_decisions": 4,
+              "changed_because": "{informative:20, persuasive:105,selling:15,ehtertaining:-5,ranging:+45,-obligation:-45}-"
+            },
+            {
+              "iteration": 2,
+              "movement": 1.2687,
+              "n_decisions": 1,
+              "changed_because": "N/A"
+            },
+            {
+              "iteration": 3,
+              "movement": 2.1,
+              "n_decisions": 1,
+              "changed_because": ""
+            },
+            {
+              "iteration": 4,
+              "movement": 0.64,
+              "n_decisions": 1,
+              "changed_because": ""
+            }
+          ]
+        }
+      ],
+      "freeform": [
+        {
+          "artifact_id": "item_B",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 0,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.18181818181818182,
+                "persuade": 0.3181818181818182,
+                "sell": 0.13636363636363635,
+                "entertain": 0.09090909090909091,
+                "coordinate": 0.2727272727272727,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.0
+              },
+              "simplex_deviation": 0.1
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.15,
+                "known_group": 0.35,
+                "general_public": 0.25,
+                "machine": 0.0,
+                "nobody_in_particular": 0.25
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [],
+            "cost_borne": 1,
+            "artifact_effort": 3,
+            "demonstrated_work": 4,
+            "trade_offs": [],
+            "confidence_100": 50,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_B",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 1,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.15,
+                "persuade": 0.4,
+                "sell": 0.35,
+                "entertain": 0.0,
+                "coordinate": 0.02,
+                "rank": 0.08,
+                "discharge_obligation": 0.0,
+                "express": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.1,
+                "known_group": 0.65,
+                "general_public": 0.25,
+                "machine": 0.0,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 3,
+                "what_was_chosen": "The 'Dexterity/Arcane bleed' build was selected as the single best option over other meta builds.",
+                "alternative_rejected": "Listing multiple top-tier builds with equal weight or discussing Spirit Ash summons/pure Fire/Sacred Blade/PvP-focused builds.",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "The guide was framed specifically for defeating high-health bosses.",
+                "alternative_rejected": "Framing the build primarily for low-level grinding or general versatility regardless of enemy HP scaling.",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Provided stat ranges (e.g., Vigor: 50-60) instead of exact numbers.",
+                "alternative_rejected": "Providing a single optimal set of stats for every playstyle.",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Curated four specific talismans focusing on core mechanics rather than listing hundreds.",
+                "alternative_rejected": "Listing all available talismans indiscriminately.",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "cost_borne": 0,
+            "artifact_effort": 2,
+            "demonstrated_work": 3,
+            "trade_offs": [
+              {
+                "gained": "A definitive, actionable recommendation (persuasion)",
+                "given_up": "Space to discuss alternative meta options and hybrid playstyles",
+                "evidence": {
+                  "quote": "By declaring Dexterity/Arcane bleed 'the best,' they implicitly gave up space for discussing other dominant builds like Spirit Ash summons..."
+                }
+              },
+              {
+                "gained": "Optimization for endgame scenarios",
+                "given_up": "Accessibility for early-game players or those unable to obtain late-game loot",
+                "evidence": {
+                  "quote": "The guide assumes the player has access to specific high-tier items... This excludes players who cannot farm these yet or are on lower difficulty modes..."
+                }
+              },
+              {
+                "gained": "Simplified advice focusing on physical bleed damage",
+                "given_up": "Options for spell rotation hybrid builds",
+                "evidence": {
+                  "quote": "'Base' Stats for Magic/Healing Faith... effectively telling readers, 'Don't invest in magic healing...'"
+                }
+              }
+            ],
+            "confidence_100": 50,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 4,
+              "changed_because": ""
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_B",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 2,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.16806722689075632,
+                "persuade": 0.37815126050420167,
+                "sell": 0.12605042016806722,
+                "entertain": 0.0,
+                "coordinate": 0.0,
+                "rank": 0.25210084033613445,
+                "discharge_obligation": 0.0,
+                "express": 0.07563025210084033
+              },
+              "simplex_deviation": 0.19
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.0,
+                "known_group": 0.45,
+                "general_public": 0.2,
+                "machine": 0.0,
+                "nobody_in_particular": 0.35
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 1,
+                "what_was_chosen": "Dex/Arcane Bleed Build",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"identifying and validating a single 'best' option (the Dexterity/Arcane Bleed build)\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Prioritizing Versatility over Niche Specialization",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"Instead of detailing the hyper-specific niche builds that dominate certain end-game scenarios... they chose a hybrid 'Dex/Arcane' build. This suggests a decision to offer something applicable across most content types\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Emphasizing Mechanic Synergy",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"The author explicitly decided to pair the mechanic of 'Blood Loss'... with specific talismans (Lord of Blood's Exultation...) that react only when blood loss occurs.\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Defining \"Best\" via Versatility",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"The conclusion explicitly justifies the build choice based on its ability to handle both faster enemies... and slower ones,\" indicating a decision that a good guide must address varied enemy pacing\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Acknowledging Alternatives without Compromising Authority",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"They included a section for 'Alternative Builds' but framed them as options if one is already interested in Strength/Int/Faith rather than presenting them as equally viable top-tier solutions\""
+                }
+              }
+            ],
+            "cost_borne": 3,
+            "artifact_effort": 4,
+            "demonstrated_work": 5,
+            "trade_offs": [
+              {
+                "gained": "",
+                "given_up": "Peak theoretical numbers for high practical versatility.",
+                "evidence": {
+                  "quote": "\"Sacrificed Pure Optimization in Every Scenario: By recommending a Dex/Archane build... they likely sacrificed absolute maximum raw damage potential compared to specialized builds\""
+                }
+              },
+              {
+                "gained": "",
+                "given_up": "Detailed execution mechanics (parry windows/timing).",
+                "evidence": {
+                  "quote": "\"Omitted Complex Rotation Mechanics... To keep it accessible, they gave up detailing complex parrying windows or specific dodge-rolling timings required to consistently trigger blood loss on fast-moving elites like Margit.\""
+                }
+              }
+            ],
+            "confidence_100": 95,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 5,
+              "changed_because": ""
+            }
+          ]
+        }
+      ],
+      "failures": []
+    },
+    "item_C": {
+      "bounded": [
+        {
+          "artifact_id": "item_C",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 0,
+          "converged": true,
+          "iterations": 4,
+          "settling_rate": 0.5,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 1.0,
+                "persuade": 0.0,
+                "sell": 0.0,
+                "entertain": 0.0,
+                "coordinate": 0.0,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.0,
+                "known_group": 0.15,
+                "general_public": 0.85,
+                "machine": 0.0,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 3,
+                "what_was_chosen": "The artifact focuses exclusively on the viability of Rivers of Blood for returning players.",
+                "alternative_rejected": "Discussing other viable weapons or providing a comparative ranking system.",
+                "evidence": {
+                  "quote": "The artifact focuses exclusively on the viability of Rivers of Blood for returning players"
+                }
+              }
+            ],
+            "cost_borne": 1,
+            "artifact_effort": 2,
+            "demonstrated_work": 0,
+            "trade_offs": [
+              {
+                "gained": "Some evidence",
+                "given_up": "",
+                "evidence": {
+                  "quote": "# Rivers of Blood: A Guide for Returning Players ... This guide will walk you through what the weapon does, how to obtain it, and whether it suits your playstyle."
+                }
+              }
+            ],
+            "confidence_100": 100,
+            "account": "{1+2=3}"
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 1.7,
+              "n_decisions": 1,
+              "changed_because": "None. The input JSON was directly converted into the output structure by preserving all values exactly as provided."
+            },
+            {
+              "iteration": 2,
+              "movement": 0.3,
+              "n_decisions": 1,
+              "changed_because": "[method recovered a different audience distribution from the analysis; the author is uncertain between 'general_public' and 'known_group', leaning towards general public based on lack of specific shared identity markers. The method recovery implies no actual ranking behavior was chosen despite prior assumptions, confirming purpose as purely informative."
+            },
+            {
+              "iteration": 3,
+              "movement": 0.0,
+              "n_decisions": 1,
+              "changed_because": "[method recovered a different audience distribution from the analysis; the author is uncertain between 'general_public' and 'known_group', leaning towards general public based on lack of specific shared identity markers. The method recovery implies no actual ranking behavior was chosen despite prior assumptions, confirming purpose as purely informative."
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_C",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 1,
+          "converged": false,
+          "iterations": 5,
+          "settling_rate": 1.5683,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.95,
+                "persuade": 0.02,
+                "sell": 0.01,
+                "entertain": 0.02,
+                "coordinate": 0.0,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.05,
+                "known_group": 0.93,
+                "general_public": 0.01,
+                "machine": 0.01,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 2,
+                "what_was_chosen": "Including a section assessing the weapon's current viability for returning players before details on mechanics/acquisition.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"Rivers of Blood is one of Elden Ring's most talked-about weapons, and if you're returning to the game after stepping away, you may be wondering whether it's still worth pursuing.\""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "Framing Rivers of Blood as a tool for consistency and safety rather than focusing on maximum damage output.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"Players who value consistency and safety will likely find it appealing, while those seeking maximum damage may want to explore other options.\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Including a discussion of rushing to acquire the weapon early but noting associated risks.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"Some players choose to rush to this location early in order to acquire the weapon sooner. This is possible but carries risk, as the surrounding area contains high-level enemies.\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Providing specific stat recommendations including Vigor and Endurance alongside Arcane/Dexterity.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"- **Vigor:** Important for survivability, as with any build\n- **Endurance:** Needed for stamina and equip load\""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "Presenting both benefits and drawbacks in a balanced conclusion that acknowledges limitations.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"While it's been adjusted from its launch state, it still offers real utility.\""
+                }
+              },
+              {
+                "level": 0,
+                "what_was_chosen": "",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "cost_borne": 0,
+            "artifact_effort": 1,
+            "demonstrated_work": 3,
+            "trade_offs": [
+              {
+                "gained": "",
+                "given_up": "",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "confidence_100": 52,
+            "account": "No specific account or context provided in the input analysis to score against criteria."
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 1.74,
+              "n_decisions": 6,
+              "changed_because": ""
+            },
+            {
+              "iteration": 2,
+              "movement": 2.4533,
+              "n_decisions": 5,
+              "changed_because": ""
+            },
+            {
+              "iteration": 3,
+              "movement": 2.2583,
+              "n_decisions": 1,
+              "changed_because": "Previous decision rejected opening with lore/history before mechanics; artifact starts immediately with 'What It Does', reinforcing direct utility (inform) over narrative setup. No evidence for rank found in text body. Target audience is human players ('returning') rather than machines."
+            },
+            {
+              "iteration": 4,
+              "movement": 1.39,
+              "n_decisions": 6,
+              "changed_because": ""
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_C",
+          "arm": "local",
+          "model": "qwen3.5:9b",
+          "seed": 2,
+          "converged": false,
+          "iterations": 5,
+          "settling_rate": 1.6492,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.65,
+                "persuade": 0.0,
+                "sell": 0.0,
+                "entertain": 0.15,
+                "coordinate": 0.0,
+                "rank": 0.2,
+                "discharge_obligation": 0.0,
+                "express": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.0,
+                "known_group": 0.3,
+                "general_public": 0.55,
+                "machine": 0.15,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 2,
+                "what_was_chosen": "",
+                "alternative_rejected": "Providing only a high-level summary of what the weapon does without detailing stats or skills immediately.",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "",
+                "alternative_rejected": "Omitting mention of game balance changes and presenting only a positive assessment or current state without acknowledging past context. Integrating the stat requirements only within narrative paragraphs or assuming the reader knows which stats to invest in without listing them.",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "cost_borne": 1,
+            "artifact_effort": 2,
+            "demonstrated_work": 2,
+            "trade_offs": [
+              {
+                "gained": "",
+                "given_up": "People who are looking for more than a basic introduction to a weapon or want specific guidance on builds and optimal stats may not find enough information in this article. For example, if you wanted stat breakdowns for Rivers of Blood specifically...",
+                "evidence": {
+                  "quote": "This guide will walk you through what the weapon does, how to obtain it, and whether it suits your playstyle."
+                }
+              },
+              {
+                "gained": "",
+                "given_up": "People who are looking for a simple review of an iconic or legendary item may not be satisfied by this article. For example, if Rivers of Blood is one of Elden Ring's most talked-about weapons...",
+                "evidence": {
+                  "quote": "This guide will walk you through what the weapon does, how to obtain it, and whether it suits your playstyle."
+                }
+              }
+            ],
+            "confidence_100": 100,
+            "account": "They have decided to write about the weapon because it appeals to returning players looking for a reliable tool to help get through the game."
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 0,
+              "changed_because": ""
+            },
+            {
+              "iteration": 1,
+              "movement": 1.6692,
+              "n_decisions": 3,
+              "changed_because": "none"
+            },
+            {
+              "iteration": 2,
+              "movement": 2.1923,
+              "n_decisions": 2,
+              "changed_because": ""
+            },
+            {
+              "iteration": 3,
+              "movement": 2.1923,
+              "n_decisions": 3,
+              "changed_because": "none"
+            },
+            {
+              "iteration": 4,
+              "movement": 2.1923,
+              "n_decisions": 2,
+              "changed_because": ""
+            }
+          ]
+        }
+      ],
+      "freeform": [
+        {
+          "artifact_id": "item_C",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 0,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.1524390243902439,
+                "persuade": 0.24390243902439024,
+                "sell": 0.09146341463414634,
+                "entertain": 0.06097560975609756,
+                "coordinate": 0.04878048780487805,
+                "rank": 0.22560975609756098,
+                "discharge_obligation": 0.0,
+                "express": 0.17682926829268292
+              },
+              "simplex_deviation": 0.64
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.14705882352941177,
+                "known_group": 0.6666666666666666,
+                "general_public": 0.029411764705882353,
+                "machine": 0.06862745098039216,
+                "nobody_in_particular": 0.08823529411764706
+              },
+              "simplex_deviation": 0.02
+            },
+            "decisions": [
+              {
+                "level": 4,
+                "what_was_chosen": "",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Reframing 'Buff/Weakness' as 'Balance'",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "The author acknowledges that *Rivers of Blood* received damage reduction since launch but actively chose **not** to frame this negatively. Instead, they labeled it a balance adjustment while emphasizing its continued viability."
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Emphasizing 'Margin for Error'",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "The author highlights the ranged nature of the Corpse Piler skill as a benefit ('does not demand perfect timing'). They decided that safety and consistency are superior selling points compared to raw damage output, specifically targeting players who dislike close-quarters combat risks."
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Streamlining Stat Advice",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "Rather than listing every possible stat distribution for *every* situation, the author made a decision to prioritize **Vigor early** as a survival necessity before focusing on scaling stats (**Arcane/Dexterity**) later."
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Simplifying Acquisition Instructions",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "For 'Where to Find It,' the author made a decision to provide only one clear path (defeating Bloody Finger Okina) while briefly noting that rushing is possible but risky. They omitted alternative spawn methods or obscure farming techniques."
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Addressing Meta-Fear",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "The author anticipated the fear that blood loss enemies might make the weapon useless immediately upon acquisition. To counteract this anxiety, they explicitly listed limitations (resistant/immune foes) but balanced it with advice on having a backup plan."
+                }
+              }
+            ],
+            "cost_borne": 2,
+            "artifact_effort": 3,
+            "demonstrated_work": 2,
+            "trade_offs": [
+              {
+                "gained": "",
+                "given_up": "Comprehensive Lore/History",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "",
+                "given_up": "Niche Build Details (specific Ashes/Talismans)",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "confidence_100": 50,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 6,
+              "changed_because": ""
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_C",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 1,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.65,
+                "persuade": 0.0,
+                "sell": 0.1,
+                "entertain": 0.05,
+                "coordinate": 0.05,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.15
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.25,
+                "known_group": 0.45,
+                "general_public": 0.3,
+                "machine": 0.0,
+                "nobody_in_particular": 0.0
+              },
+              "simplex_deviation": 0.0
+            },
+            "decisions": [
+              {
+                "level": 2,
+                "what_was_chosen": "to provide an honest assessment while maintaining appeal as a returning player guide",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "answer two specific questions regarding viability and what is needed now compared to launch version",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"Is this legendary katana still viable after its balance patches?\" and \"What do I need to know if I try it now compared to the launch version?\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "define how unique skills (Corpse Piler) work without assuming deep knowledge of Blood Loss builds",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "cost_borne": 1,
+            "artifact_effort": 3,
+            "demonstrated_work": 2,
+            "trade_offs": [
+              {
+                "gained": "",
+                "given_up": "Detailed math on exact damage multipliers or specific patch numbers (to keep it accessible)",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "gained": "A quick, high-level decision matrix for returning players",
+                "given_up": "",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "confidence_100": 65,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 3,
+              "changed_because": ""
+            }
+          ]
+        },
+        {
+          "artifact_id": "item_C",
+          "arm": "local-freeform",
+          "model": "qwen3.5:9b",
+          "seed": 2,
+          "converged": true,
+          "iterations": 1,
+          "settling_rate": 0.0,
+          "reading": {
+            "purpose": {
+              "distribution": {
+                "inform": 0.45,
+                "persuade": 0.3,
+                "sell": 0.15,
+                "entertain": 0.0,
+                "coordinate": 0.0,
+                "rank": 0.0,
+                "discharge_obligation": 0.0,
+                "express": 0.1
+              },
+              "simplex_deviation": 0.0
+            },
+            "audience": {
+              "distribution": {
+                "specific_person": 0.12903225806451613,
+                "known_group": 0.3870967741935484,
+                "general_public": 0.25806451612903225,
+                "machine": 0.0,
+                "nobody_in_particular": 0.22580645161290322
+              },
+              "simplex_deviation": 0.55
+            },
+            "decisions": [
+              {
+                "level": 2,
+                "what_was_chosen": "Address balance adjustments immediately and frame mechanics as benefits rather than neutral facts.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "Reframing the artifact's topic from a general 'Rivers of Blood review' to specifically 're-entry point for returning players with range-bred builds'.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"Their specific intent was not just to provide raw data, but to answer a persistent question in the community: \"Is Rivers of Blood still worth pursuing?\" given that significant balance adjustments have been made since the game's launch.\""
+                }
+              },
+              {
+                "level": 2,
+                "what_was_chosen": "Sequence content to prioritize accessibility and margin for error over raw damage output.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": ""
+                }
+              },
+              {
+                "level": 3,
+                "what_was_chosen": "Explicitly choosing transparency about limitations (enemy resistances) rather than hiding them until late-game failure occurs.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"By explicitly mentioning that certain enemies are resistant/immune to blood loss and suggesting a \"backup option,\" they decided to be transparent about limitations upfront\""
+                }
+              },
+              {
+                "level": 1,
+                "what_was_chosen": "Simplify stat allocation advice into a narrative approach instead of spreadsheets.",
+                "alternative_rejected": "",
+                "evidence": {
+                  "quote": "\"Instead of complex spreadsheets, they made the decision to offer a simple narrative approach: \"Prioritize Vigor early...\""
+                }
+              }
+            ],
+            "cost_borne": 1,
+            "artifact_effort": 3,
+            "demonstrated_work": 2,
+            "trade_offs": [
+              {
+                "gained": "Trusted reputation and balanced utility for specific player types.",
+                "given_up": "",
+                "evidence": {
+                  "quote": "\"They gave up presenting *Rivers of Blood* as an unobtainable power-gizmo... accepting that it is now just one option among many\""
+                }
+              },
+              {
+                "gained": "",
+                "given_up": "Hype surrounding the weapon's launch state; deep technical builds (specific Ash of War swaps).",
+                "evidence": {
+                  "quote": ""
+                }
+              }
+            ],
+            "confidence_100": 50,
+            "account": ""
+          },
+          "trajectory": [
+            {
+              "iteration": 0,
+              "movement": 0.0,
+              "n_decisions": 5,
+              "changed_because": ""
+            }
+          ]
+        }
+      ],
       "failures": []
     }
   }
