@@ -1,0 +1,38 @@
+{
+  "F1.1": {
+    "verdict": "FAIL",
+    "detail": "named-alternative rate  row2 0.28  vs  row3 0.42"
+  },
+  "F1.2": {
+    "verdict": "FAIL",
+    "detail": "purpose agreement       row2 0.75  vs  row3 0.89"
+  },
+  "F1.3": {
+    "verdict": "PASS",
+    "detail": "machine-audience        row3 0.05  vs  row2 0.03"
+  },
+  "F2.1": {
+    "verdict": "FAIL",
+    "detail": "A separated from B on 1/5 tuple dimensions: machine (lower is richer)"
+  },
+  "F2.2": {
+    "verdict": "FAIL",
+    "detail": "artifact_effort A=[2, 1, 3] B=[1, 4] (no-overlap required)"
+  },
+  "N7": {
+    "verdict": "REPORTED",
+    "detail": "mean chars  row2 10486  row3 5587 (direction of any length confound)"
+  },
+  "N8": {
+    "verdict": "PASS",
+    "detail": "5 distinct purposes ['entertain', 'express', 'inform', 'rank', 'sell'], 5 distinct audiences ['general_public', 'known_group', 'machine', 'nobody_in_particular', 'specific_person']"
+  },
+  "N9": {
+    "verdict": "PASS",
+    "detail": "row5 (pre-2020 human) machine-audience 0.12; must stay below 0.30"
+  },
+  "N10": {
+    "verdict": "FAIL",
+    "detail": "row2-row3 separation on named-alternative rate: bounded -0.14  free-form -0.06"
+  }
+}

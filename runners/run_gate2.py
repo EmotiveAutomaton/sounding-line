@@ -14,6 +14,7 @@ import argparse
 import hashlib
 import json
 import statistics
+import sys
 from pathlib import Path
 
 from soundingline.baselines.freeform import run_freeform
@@ -25,6 +26,7 @@ from soundingline.probe.client import make_client
 from soundingline.probe.render import Artifact
 
 REPO = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO))          # prereg/ is a sibling of the package, not inside it
 STORE = REPO / "corpora" / "store"
 MANIFEST = REPO / "corpora" / "manifests" / "gate2.json"
 GENERATED = REPO / "docs" / "gate1" / "artifacts"
