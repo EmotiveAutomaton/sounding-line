@@ -230,10 +230,15 @@ dimensions:
       claim warrants. Ekman's leakage, in a medium where the leak is lexical and structural rather
       than facial.
     values: &affect_values
-      - id: none_legible
+      - id: none_recoverable
         gloss: >
-          no affective stance is legible. Not calm -- ABSENT. Listed first so it is never the
-          residual: the wall has to be something the instrument can SAY.
+          no affective stance can be recovered from this artifact. NOT a claim that none was
+          present. The curator chose this framing over `none_legible` and the reasoning is
+          decisive: "humans are excellent at concealing motives... I don't think humans do
+          anything unless there's a reason. Really." Concealment through a louder emblematic
+          display, through precise control, or through many layers of editing all produce this
+          reading, and none of them means absence. Listed first so it is never the residual:
+          the wall has to be something the instrument can SAY.
       - id: seeking
         gloss: >
           curiosity, enthusiasm, the pleasure of working a problem; and the drive toward standing
@@ -255,8 +260,11 @@ dimensions:
       - id: lust
         gloss: >
           desire as a driver of the work. Restored after I wrongly dropped it -- see the note
-          below. Actively concealed rather than absent, and usually visible through what the
-          artifact JUSTIFIES rather than through what it says.
+          below. Signature, in the curator's words rather than mine: not justification for an
+          unasked question, but THE THING A READER POLITELY GLOSSES OVER. "Someone ends up
+          talking about feet for a sentence too long and you're like, ooh, buddy." Attention
+          dwelling past what the argument needs. Never emblematic in practice, which makes it
+          the family's purest single-layer value.
       - id: grief
         gloss: >
           loss, nostalgia, resignation -- and separation distress: not wanting to be isolated,
@@ -274,6 +282,20 @@ dimensions:
       this instrument already knows how to handle -- it has an alternative that was rejected, it
       can be pointed at, and the maker can rebut it.
     values: *affect_values
+
+  # ---------------------------------------------------------------------------------------------
+  # A NAMED SIMPLIFICATION: THE TWO LAYERS SHARE ONE VALUE SET
+  #
+  # They are made identical by YAML anchor, which is convenient and is not obviously right. The
+  # second research round found that the leaked/emblematic split maps onto the field's central
+  # unresolved debate -- Panksepp's primary process against Barrett's constructed emotion -- and
+  # Barrett's whole claim is that constructed categories are CULTURALLY VARIABLE while core affect
+  # is not. If that holds, the two layers should not have the same vocabulary.
+  #
+  # Kept shared anyway, for now, because a divergence measured over mismatched supports is not a
+  # divergence, and divergence is the quantity the two layers exist to produce. Recorded as a
+  # simplification with a name rather than left as an unexamined default.
+  # ---------------------------------------------------------------------------------------------
 
   # ---------------------------------------------------------------------------------------------
   # WHY LUST IS IN THE SET, HAVING BEEN WRONGLY REMOVED
@@ -372,6 +394,15 @@ known_limits:
       worse than the reader's own. Indifference, blocked-by-expertise, and repulsion are three
       distinct states and the family represents none of them.
 
+
+affect_null_3_layer_separation: >
+  N-AFF-3. `leaked` and `emblematic` must not come back as the SAME distribution. If mean
+  divergence across a corpus is near zero, the probe is answering one question twice and the
+  two-layer model is unsupported by this instrument, whatever is true of people.
+  And the collapse direction is predicted in advance (docs/theory/AFFECT_ARCHITECTURE.md 1):
+  `leaked` should separate WORSE than `emblematic`, because language encodes the tertiary
+  constructed layer -- that is what words ARE -- while the primary layer reaches text only through
+  leakage. One layer separating and the other not is the expected result, not a design failure.
 
 affect_null_2_discriminant: >
   N-AFF-2. Across a corpus, the eight values must not COLLAPSE. Pairwise correlation of value

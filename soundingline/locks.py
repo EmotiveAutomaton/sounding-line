@@ -80,7 +80,7 @@ LOCKS: dict[str, str] = {
     # reconstructible maker the affective posterior must stay flat. An affective label is exactly
     # what a language model supplies fluently whether or not anything supports it.
     "soundingline/family/family_v3.yaml":
-        "8ee98009c57dd79e648face0f15603cd0998091c2cc4ecdb5051ef431944ed69",
+        "b6beb9f4a07a30bcac472f163beb4ccb15167c6b56a7e7b6e42b527a9ad9166c",
     "soundingline/family/family_v2.yaml":
         "ea256f1c664d0fa2d77cc23a38a233361fe94a4f4a08ef930eca0d29108bd89a",
     # Re-locked once, before commit and before any run: the first hash was taken while the
@@ -107,7 +107,7 @@ LOCKS: dict[str, str] = {
     # prompt that changes under a running gate is the drift Gate 0 named as this project's most
     # likely undocumented change. Callers opt in.
     "soundingline/probe/prompts/bounded_v6.yaml":
-        "e4e3a945504751069281aa40190b33a764a4895383b6f1ad8e0974d247fdcbdd",
+        "6fb0bb7f3d4120527e2894ead5caa6a4ad70bfa9fd5ebd2336f84a11b28e7949",
     "soundingline/probe/prompts/bounded_v5.yaml":
         "6a0f408f330c6dcf64508b978539d172ff3843e30b338871d49b0a8c9f20ec62",
     "soundingline/probe/prompts/bounded_v4.yaml":

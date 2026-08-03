@@ -482,8 +482,9 @@ class AffectPosterior(_Strict):
         return max(self.distribution, key=self.distribution.__getitem__)
 
     @property
-    def none_legible(self) -> float:
-        return self.distribution["none_legible"]
+    def none_recoverable(self) -> float:
+        """A fact about the reading, not a claim that the maker had no stance."""
+        return self.distribution["none_recoverable"]
 
 
 class StageEOut(_Strict):
