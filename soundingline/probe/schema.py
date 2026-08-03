@@ -490,9 +490,24 @@ class AffectPosterior(_Strict):
 class StageEOut(_Strict):
     """The affect pass. v6 + family v3 only. TWO LAYERS, and the gap between them is the point.
 
-        leaked      what got through without being chosen. Ekman's leakage, lexically.
-        emblematic  what was displayed on purpose. A conscious social decision, and therefore a
-                    decision this instrument already knows how to handle.
+        leaked_inferred  the model's OPINION about what got through unchosen.
+        emblematic       what was displayed on purpose.
+
+    ── WHY THE FIRST FIELD IS NAMED `leaked_inferred` AND NOT `leaked` (option C) ────────────
+
+    Asking a language model "what stance is being performed" returns a CONTENT-WORD judgement.
+    That is an emblematic-class instrument, and it is emblematic-class on BOTH of its outputs --
+    no rewording changes what kind of thing a prompt can see. `docs/theory/LEAKAGE.md`.
+
+    The leaked layer is measured by `measures/leakage.py`, from function-word distributions:
+    non-conscious, topic-independent, hard to fake, and validated for sixty years as the channel
+    that carries what a writer did not choose to say.
+
+    So this field is retained under an honest name. It is the model's inference about a layer it
+    cannot observe, and keeping it makes a real test available: does the model's guess about
+    leakage track the measured leakage? That is A-1 in `AFFECT_ARCHITECTURE.md` -- whether a
+    system with a generative model of affect and no interoception can predict the thing it has no
+    access to.
 
     They usually agree — "if you have something felt, you kind of want to perform it, it's hard
     not to" — so `divergence` is the interesting quantity precisely because it is usually small.
@@ -504,14 +519,21 @@ class StageEOut(_Strict):
     is the whole safeguard for the dimensions most likely to confabulate, so it is a field rather
     than a hope.
     """
-    leaked: AffectPosterior
+    leaked_inferred: AffectPosterior
     emblematic: AffectPosterior
     evidence: tuple[Evidence, ...] = Field(default=(), max_length=6)
 
     @property
     def divergence(self) -> float:
-        """Total variation distance between the two layers. 0 = felt and shown agree."""
-        a, b = self.leaked.distribution, self.emblematic.distribution
+        """Total variation distance between the two layers. 0 = felt and shown agree.
+
+        NOTE THE ASYMMETRY THIS QUANTITY NOW CARRIES. `emblematic` is measured by an instrument of
+        the right class; `leaked_inferred` is not. A divergence computed from these two is a
+        divergence between a measurement and an opinion, and the honest version compares
+        `emblematic` against the FUNCTION-WORD profile instead. Kept because comparing the two is
+        itself the test of whether the model can infer what it cannot measure.
+        """
+        a, b = self.leaked_inferred.distribution, self.emblematic.distribution
         return 0.5 * sum(abs(a[k] - b.get(k, 0.0)) for k in a)
 
 
