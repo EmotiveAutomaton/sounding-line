@@ -27,7 +27,7 @@ import yaml
 from soundingline.family.loader import load_family
 
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
-BOUNDED_PATH = PROMPTS_DIR / "bounded_v2.yaml"   # v1 retained, locked, unedited
+BOUNDED_PATH = PROMPTS_DIR / "bounded_v3.yaml"   # v1 and v2 retained, locked, unedited
 FREEFORM_PATH = PROMPTS_DIR / "freeform_v1.yaml"
 
 

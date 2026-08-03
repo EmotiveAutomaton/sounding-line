@@ -50,12 +50,17 @@ EGRESS_ALLOWLIST = frozenset({"127.0.0.1", "localhost", "api.anthropic.com"})
 # A-5, local arm. Deliberately a constant rather than a default argument: the model is part of
 # the measurement, so it is recorded in every ProbeResult and belongs in one place.
 #
-# NOTE FOR GATE 1: this is a placeholder and must be pinned to a model that is actually
-# installed before the first run. The machine currently has only `deepseek-r1`, which is a poor
-# fit — reasoning models emit long chains of thought and adhere weakly to JSON schemas, and the
-# probe needs schema adherence at k× volume rather than visible reasoning. Context length is the
-# binding constraint: a full artifact + the family + the loop state must fit.
-LOCAL_MODEL = "qwen3:8b"
+# Pinned and verified installed, 2026-08-02. 6.6GB of weights on a 12GB card leaves enough KV
+# cache for a full artifact plus the family plus the loop state, which is the binding constraint
+# here rather than parameter count.
+#
+# Two sourcing notes, both recorded because both cost time:
+#   * `qwen3.5:9b-q4` — the tag named in the research pass — DOES NOT EXIST. Ollama's web tag
+#     listing displays quantisation variants that are not published as pullable manifests, and
+#     `ollama pull` answers "file does not exist". The real tag is unsuffixed.
+#   * a stray `qwen3:8b` sat here briefly after a partial edit. Any run recorded against that
+#     string is invalid; none was.
+LOCAL_MODEL = "qwen3.5:9b"
 
 # A-5, reference arm. Structured outputs are supported on this model; `messages.parse()`
 # validates the response against the pydantic schema and the model retries on mismatch.
@@ -142,15 +147,30 @@ class LocalClient:
 
     arm = "local"
 
+    # Pinned to loopback explicitly rather than inherited from OLLAMA_HOST.
+    #
+    # This is a security decision, not a workaround. OLLAMA_HOST is an ambient environment
+    # variable that anything on the machine can set, and the probe is the process that reads
+    # adversarial text — a probe whose model endpoint is settable by the environment is a probe
+    # whose output can be redirected without touching this repository. EGRESS_ALLOWLIST says the
+    # local arm reaches loopback; this is where that is enforced rather than assumed.
+    #
+    # It also happens to fix a real failure: this machine has OLLAMA_HOST=0.0.0.0, a *bind*
+    # address. The client dutifully tried to *connect* to 0.0.0.0 and failed.
+    HOST = "http://127.0.0.1:11434"
+
     def __init__(self, model: str = LOCAL_MODEL, *, seed: int | None = None,
-                 num_ctx: int = 16384) -> None:
+                 num_ctx: int = 16384, host: str = HOST) -> None:
         self.model = model
         self.seed = seed
         self.num_ctx = num_ctx
+        self.host = host
 
     def read(self, system: str, prompt: str,
              schema: type[BaseModel] = Reading) -> ProbeResult:
         import ollama  # imported lazily: the analysis package must import with no client present
+
+        client = ollama.Client(host=self.host)
 
         options: dict[str, Any] = {"num_ctx": self.num_ctx}
         if self.seed is not None:
@@ -167,11 +187,23 @@ class LocalClient:
             "format": json_schema(schema),
             "options": options,
             "keep_alive": "10m",
+            # Thinking OFF for the local arm, and this is a real cost rather than a preference.
+            #
+            # Qwen3.5 thinks by default. With `format` constraining the output, an unbounded
+            # thinking block burns the whole generation budget before any JSON appears — first
+            # live run: 18,889 characters of thinking, zero characters of content. Capping the
+            # budget instead just truncates mid-object.
+            #
+            # So the local arm pays the format tax in full: it must emit structure without
+            # reasoning first. That is exactly the degradation the Gate 0 research pass found
+            # (10-15%, up to 27pp on reasoning-heavy tasks), and it is the strongest argument
+            # for the two-stage rewrite still owed — reason free-form, then coerce.
+            "think": False,
         }
         _assert_no_tools(**kwargs)
 
         t0 = time.perf_counter()
-        response = ollama.chat(**kwargs)
+        response = client.chat(**kwargs)
         latency = time.perf_counter() - t0
 
         raw = response["message"]["content"]

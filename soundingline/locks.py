@@ -61,6 +61,12 @@ LOCKS: dict[str, str] = {
     # as content by design. The lock fired on the conversion, correctly. Recorded in
     # docs/DEVIATIONS.md rather than silently updated — this is a hash recorded in error, not a
     # criterion changed after seeing a result, and the distinction is the whole point.
+    # v3 asks for 100 integer points rather than probabilities. Forced by the live bring-up:
+    # asked for floats summing to 1.0, the model returned 2.50, then omitted a family value
+    # entirely, then silently switched to percentages. "Distribute 100 points" is a task models
+    # do reliably. v2 is retained, locked and unedited.
+    "soundingline/probe/prompts/bounded_v3.yaml":
+        "3f220ed07b7574b87545780db2bb95bb70cc6bc843aea4b3b303239e46c351ac",
     "soundingline/probe/prompts/bounded_v2.yaml":
         "8b1f4e0c5cc40bd9ce2ac88d2894549edd506b1a53ce0ea95b9898995ce2b371",
 

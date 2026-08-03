@@ -92,7 +92,7 @@ class FakeProbe:
             parsed = StageAOut(
                 purpose={"distribution": s.purpose_sequence[0]},
                 audience={"distribution": s.audience},
-                self_reported_confidence=s.confidence,
+                confidence_100=int(round(s.confidence * 100)),
             )
         elif schema is StageBOut:
             parsed = StageBOut(decisions=tuple(s.decisions))

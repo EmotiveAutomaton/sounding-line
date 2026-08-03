@@ -25,10 +25,69 @@ _FAMILY = load_family()
 
 Probability = Annotated[float, Field(ge=0.0, le=1.0)]
 
-# Distributions are allowed to be off by this much before we reject. Model-emitted probabilities
-# do not sum to one, and rejecting a whole reading over a rounding artefact would silently bias
-# the sample toward whatever the model finds easy to be tidy about.
-_SIMPLEX_TOL = 0.02
+# Confidence is asked for on the SAME 0-100 scale as the point allocations, then divided.
+# Mixing conventions in one response is what broke the first three live runs: having been told
+# to distribute 100 points, the model reported confidence as 94. One scale throughout is easier
+# for the model to hold and easier for a human to check.
+Confidence100 = Annotated[int, Field(ge=0, le=100)]
+
+# ── ON SIMPLEX VIOLATIONS, WHICH ARE ROUTINE AND INFORMATIVE ─────────────────────────────────
+#
+# Grammar-constrained decoding guarantees the SHAPE of the JSON. It cannot guarantee that eight
+# numbers sum to one, because JSON Schema has no way to say so. Observed in the first live run:
+# an audience distribution summing to 2.50.
+#
+# Three options were available and only one is honest:
+#
+#   reject the reading  -> silently biases the sample toward artifacts the model finds easy to be
+#                          tidy about, which is exactly the wrong direction for an instrument
+#                          whose subject is content that defeats tidy readings.
+#   widen the tolerance -> 2.50 is not a rounding artefact and pretending otherwise is a lie.
+#   renormalise + record-> keeps every reading, and turns the violation into a measurement.
+#
+# So: renormalise, and record how far off it was. `simplex_deviation` is a free diagnostic of
+# how much the model was actually tracking the constraint rather than pattern-matching the shape
+# of an answer, and it belongs in the record for the same reason the trajectory does.
+_SIMPLEX_TOL = 0.02          # below this, treat as rounding and do not flag
+#
+# There is deliberately NO hard rejection threshold. An earlier version refused any allocation
+# more than 0.5 off, and it threw away a live reading whose points summed to 1.63 — the probe
+# slipping back to the fractional convention mid-run, not the probe failing to distribute.
+#
+# Refusing it would have discarded a perfectly readable posterior, and the reasoning against
+# that is already written above: rejecting readings biases the sample toward artifacts the model
+# finds easy to be tidy about. That argument does not stop applying when the untidiness is the
+# model's arithmetic rather than the artifact's content.
+#
+# Every positive allocation is therefore normalised and kept. What is recorded is which
+# convention the probe used and how far off it was, which is strictly more information than a
+# rejection would have carried.
+
+
+# The probe is asked for INTEGER POINTS OUT OF 100, not probabilities.
+#
+# This is not cosmetic. Asked for floats summing to 1.0, the model emitted (live, in order):
+# a distribution summing to 2.50; then one omitting `discharge_obligation` entirely; then one
+# summing to 100 because it had silently switched to percentages. Numeric `maximum` constraints
+# in the JSON Schema did not bind — grammar-constrained decoding enforces shape, not range.
+#
+# "Distribute 100 points across these options" is a task models do reliably and humans find
+# natural to check. The normalisation below still divides by the actual total, so a probe that
+# hands back 97 or 104 is accommodated rather than rejected, and the miss is recorded.
+_POINTS = 100.0
+
+
+def _renormalise(dist: dict[str, float]) -> tuple[dict[str, float], float]:
+    """Return (normalised distribution, fractional deviation of the original from 100 points)."""
+    total = sum(dist.values())
+    if total <= 0:
+        raise ValueError("distribution sums to zero; nothing was distributed")
+    # Recognise both conventions rather than punishing one. `_POINTS` is what was asked for;
+    # a total near 1.0 is the probe reverting to fractions, which is a slip worth recording and
+    # not a reading worth destroying.
+    reference = _POINTS if abs(total - _POINTS) <= abs(total - 1.0) else 1.0
+    deviation = abs(total - reference) / reference
+    return {k: v / total for k, v in dist.items()}, deviation
 
 
 class _Strict(BaseModel):
@@ -63,6 +122,15 @@ class Evidence(_Strict):
 class PurposePosterior(_Strict):
     """Distribution over the family's purpose dimension. Keys are exactly the family's ids."""
     distribution: dict[str, Probability]
+    simplex_deviation: float = 0.0
+
+    @model_validator(mode="before")
+    @classmethod
+    def _normalise(cls, data):
+        if isinstance(data, dict) and isinstance(data.get("distribution"), dict):
+            dist, dev = _renormalise(data["distribution"])
+            data = {**data, "distribution": dist, "simplex_deviation": dev}
+        return data
 
     @model_validator(mode="after")
     def _matches_family_and_sums(self):
@@ -73,9 +141,6 @@ class PurposePosterior(_Strict):
                 f"purpose distribution must cover exactly the family's purposes; "
                 f"missing={sorted(expected - got)} unexpected={sorted(got - expected)}"
             )
-        total = sum(self.distribution.values())
-        if abs(total - 1.0) > _SIMPLEX_TOL:
-            raise ValueError(f"purpose distribution sums to {total:.4f}, not 1")
         return self
 
     @property
@@ -90,6 +155,15 @@ class AudiencePosterior(_Strict):
     probability attached, never an accusation, and it is reported only as part of the tuple.
     """
     distribution: dict[str, Probability]
+    simplex_deviation: float = 0.0
+
+    @model_validator(mode="before")
+    @classmethod
+    def _normalise(cls, data):
+        if isinstance(data, dict) and isinstance(data.get("distribution"), dict):
+            dist, dev = _renormalise(data["distribution"])
+            data = {**data, "distribution": dist, "simplex_deviation": dev}
+        return data
 
     @model_validator(mode="after")
     def _matches_family_and_sums(self):
@@ -100,9 +174,6 @@ class AudiencePosterior(_Strict):
                 f"audience distribution must cover exactly the family's audiences; "
                 f"missing={sorted(expected - got)} unexpected={sorted(got - expected)}"
             )
-        total = sum(self.distribution.values())
-        if abs(total - 1.0) > _SIMPLEX_TOL:
-            raise ValueError(f"audience distribution sums to {total:.4f}, not 1")
         return self
 
     @property
@@ -224,7 +295,12 @@ class StageAOut(_Strict):
     """Bounded goal hypotheses → posterior over purpose and audience."""
     purpose: PurposePosterior
     audience: AudiencePosterior
-    self_reported_confidence: Probability
+    confidence_100: Confidence100
+
+    @property
+    def self_reported_confidence(self) -> float:
+        """0-1, for everything downstream. Diagnostic only — it feeds no measurement."""
+        return self.confidence_100 / 100.0
 
 
 class StageBOut(_Strict):
@@ -264,10 +340,44 @@ class StageDOut(_Strict):
         return self
 
 
+def _explicit_distribution(ids) -> dict:
+    """A JSON Schema object that NAMES every family value and requires all of them.
+
+    Pydantic renders `dict[str, Probability]` as an open object, and an open object lets
+    grammar-constrained decoding emit any subset of the keys. Observed on the first live run:
+    a purpose distribution missing `discharge_obligation`, and an audience distribution missing
+    both `machine` and `nobody_in_particular` — the two the family exists to keep apart.
+
+    Values are integer POINTS OUT OF 100 (see `_renormalise`), not probabilities.
+
+    Silently dropping a hypothesis is worse than getting it wrong. A missing key is not a low
+    probability, it is the probe declining to consider the option at all, and for `machine` that
+    would quietly remove the measurement SPEC §5 reports. So the grammar is made to enforce what
+    the validator was catching after the fact.
+    """
+    return {
+        "type": "object",
+        "properties": {i: {"type": "integer"} for i in ids},
+        "required": list(ids),
+        "additionalProperties": False,
+    }
+
+
 def json_schema(model_cls: type[BaseModel] = Reading) -> dict:
     """The schema handed to the model for constrained decoding.
 
     Derived from the family at call time rather than written out, so the family file remains the
-    single definition of what the instrument can say.
+    single definition of what the instrument can say — including, now, at the grammar level.
     """
-    return model_cls.model_json_schema()
+    schema = model_cls.model_json_schema()
+    for defname, ids in (
+        ("PurposePosterior", _FAMILY.purposes),
+        ("AudiencePosterior", _FAMILY.audiences),
+    ):
+        d = schema.get("$defs", {}).get(defname)
+        if d and "distribution" in d.get("properties", {}):
+            d["properties"]["distribution"] = _explicit_distribution(ids)
+            # simplex_deviation is computed by the validator, never emitted by the model.
+            d["properties"].pop("simplex_deviation", None)
+            d["required"] = [r for r in d.get("required", []) if r != "simplex_deviation"]
+    return schema
