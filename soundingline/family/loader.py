@@ -58,6 +58,12 @@ class Family:
         return tuple(v.id for v in self.dimensions["audience"].values)
 
     @property
+    def affects(self) -> tuple[str, ...]:
+        """v3 only. Empty under v1 and v2, which have no affective dimension."""
+        d = self.dimensions.get("performed_affect")
+        return tuple(v.id for v in d.values) if d else ()
+
+    @property
     def depth_levels(self) -> tuple[int, ...]:
         return tuple(int(v.id) for v in self.dimensions["depth"].values)
 

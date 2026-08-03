@@ -107,7 +107,7 @@ LOCKS: dict[str, str] = {
     # prompt that changes under a running gate is the drift Gate 0 named as this project's most
     # likely undocumented change. Callers opt in.
     "soundingline/probe/prompts/bounded_v6.yaml":
-        "e829cd780375cf984036015796750e7c9737f411b3c6c7318abfa09a132350c0",
+        "0e4c1d366581e55d92f9f1df164b40243aac133ac85aeec13aef927f583d8784",
     "soundingline/probe/prompts/bounded_v5.yaml":
         "6a0f408f330c6dcf64508b978539d172ff3843e30b338871d49b0a8c9f20ec62",
     "soundingline/probe/prompts/bounded_v4.yaml":

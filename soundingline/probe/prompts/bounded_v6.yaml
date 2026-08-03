@@ -250,6 +250,35 @@ stage_c_reweight: |
   {artifact_block}
 
 # ---------------------------------------------------------------------------------------------
+# Stage E — the performed affect. v6 + family v3 only. See family_v3.yaml for the scope limit:
+# this reports what the artifact PERFORMS, never what the maker felt.
+stage_e_affect: |
+  Distribute 100 points across the affective stances below, according to what this artifact
+  PERFORMS. Use whole numbers totalling 100.
+
+  You are not reporting how the maker felt. You cannot know that. You are reporting the stance
+  the artifact presents — which is itself a decision, and which a maker can rebut.
+
+  A performance that is visibly held up, or that slips, is still a performance. Report what is
+  being performed, and let the slips show up in your evidence.
+
+  THE STANCES, and nothing outside this set:
+  {affect_options}
+
+  `none_legible` is a real and important answer. It does not mean calm and it does not mean
+  neutral-in-tone. It means NO affective stance is being performed at all — that there is no
+  one back there taking a stance. If the artifact is fluent, competent and affectively empty,
+  that is `none_legible` at high weight, and reporting it is the point of this stage.
+
+  Do not reach for an affect because the topic suggests one. A piece about a disaster is not
+  performing grief unless the ARTIFACT performs it.
+
+  For every stance you give more than 10 points, supply a verbatim span that shows it being
+  performed. An affect you cannot point at was supplied by you, not by the maker.
+
+  {artifact_block}
+
+# ---------------------------------------------------------------------------------------------
 # Stage D — trade-offs, read off the settled purpose (SPEC §4; D-3 holds v1 to this).
 #
 # Values are read off the recovered goal, so they cannot arrive before it. This stage runs last,

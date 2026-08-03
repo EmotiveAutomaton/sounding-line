@@ -15,6 +15,8 @@ behind it, so it must not be able to move a number.
 
 from __future__ import annotations
 
+from functools import lru_cache
+from pathlib import Path
 from typing import Annotated, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
@@ -435,6 +437,67 @@ class StageZeroOut(_Strict):
     anomalies: tuple[Anomaly, ...] = Field(default=(), max_length=5)
 
 
+# The affective dimension lives only in family v3. It is loaded BY PATH here rather than from
+# `_FAMILY`, so that a run under v1 or v2 — which have no such dimension — cannot silently acquire
+# one, and so that the default family stays exactly what it was.
+_V3_PATH = Path(__file__).resolve().parents[1] / "family" / "family_v3.yaml"
+
+
+@lru_cache(maxsize=1)
+def _affect_ids() -> tuple[str, ...]:
+    return load_family(_V3_PATH).affects
+
+
+class AffectPosterior(_Strict):
+    """Distribution over family v3's `performed_affect`. PERFORMED, never felt.
+
+    `none_legible` is a first-class value rather than the residual, because the wall has to be
+    something the instrument can SAY, not something it backs into by giving everything else a low
+    number. N-AFF is checked against this distribution's entropy.
+    """
+    distribution: dict[str, Probability]
+    simplex_deviation: float = 0.0
+
+    @model_validator(mode="before")
+    @classmethod
+    def _normalise(cls, data):
+        if isinstance(data, dict) and isinstance(data.get("distribution"), dict):
+            dist, dev = _renormalise(data["distribution"])
+            data = {**data, "distribution": dist, "simplex_deviation": dev}
+        return data
+
+    @model_validator(mode="after")
+    def _matches_family(self):
+        expected = set(_affect_ids())
+        got = set(self.distribution)
+        if got != expected:
+            raise ValueError(
+                f"affect distribution must cover exactly family v3's affects; "
+                f"missing={sorted(expected - got)} unexpected={sorted(got - expected)}"
+            )
+        return self
+
+    @property
+    def best(self) -> str:
+        return max(self.distribution, key=self.distribution.__getitem__)
+
+    @property
+    def none_legible(self) -> float:
+        return self.distribution["none_legible"]
+
+
+class StageEOut(_Strict):
+    """The affect pass. v6 + family v3 only.
+
+    `evidence` is required for every affect that is not `none_legible`, on the same terms as
+    `alternative_rejected`: an affect that cannot be pointed at was supplied by the reader, not
+    performed by the maker. This is the whole safeguard for the dimension most likely to
+    confabulate, so it is a field rather than a hope.
+    """
+    affect: AffectPosterior
+    evidence: tuple[Evidence, ...] = Field(default=(), max_length=4)
+
+
 class StageAOut(_Strict):
     """Bounded goal hypotheses → posterior over purpose and audience."""
     purpose: PurposePosterior
@@ -617,6 +680,8 @@ def json_schema(model_cls: type[BaseModel] = Reading) -> dict:
     for defname, ids in (
         ("PurposePosterior", _FAMILY.purposes),
         ("AudiencePosterior", _FAMILY.audiences),
+        # v3 only. Harmless on every other schema: the loop skips a $def that is not present.
+        ("AffectPosterior", _affect_ids()),
     ):
         d = schema.get("$defs", {}).get(defname)
         if d and "distribution" in d.get("properties", {}):

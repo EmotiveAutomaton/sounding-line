@@ -166,6 +166,22 @@ def stage_b(artifact: Artifact, purpose_id: str, audience_id: str, *,
     )
 
 
+def stage_e(artifact: Artifact, *, spec_path: Path = BOUNDED_V6_PATH,
+            family_path: Path | None = None) -> str:
+    """The performed-affect pass. Requires family v3, which is where the dimension lives."""
+    from soundingline.family.loader import load_family as _lf     # noqa: PLC0415
+    fam_path = family_path or (Path(__file__).resolve().parents[1] / "family" / "family_v3.yaml")
+    fam = _lf(fam_path)
+    options = "\n".join(f"  - {v.id}: {v.gloss}"
+                        for v in fam.dimensions["performed_affect"].values)
+    spec = _load(spec_path)
+    return _fill(
+        spec["stage_e_affect"],
+        affect_options=options,
+        artifact_block=artifact_block(artifact, spec),
+    )
+
+
 def stage_c(artifact: Artifact, decision_summary: str) -> str:
     spec = _load(BOUNDED_PATH)
     return _fill(
