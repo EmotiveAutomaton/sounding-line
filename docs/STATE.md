@@ -53,6 +53,46 @@ is a ceiling on every gate, not a bug in any one of them.
 
 ---
 
+## 3b · What the curator's readings established, and they outrank my measures
+
+Two sessions, eleven artifacts. **These came from a person reading aloud and they have survived
+every measure that has failed.** Full accounts in `../results/readings/`.
+
+**The variation of the veneer is his primary detector.** Not surface *level* — surface **change**.
+An opening reaching for professional register and then relaxing out of it. The performance is what
+costs something, so the performance is what slips, and the slip is where the maker shows.
+*Scope limit he attached: useless on published books, because editing sands the veneer flat.*
+**That cuts at G's books result — 2.05× within-author separation there cannot be surface variance.**
+
+**Depth is a property of the writer WITH RESPECT TO THE DOMAIN.** It does not vary within an
+artifact unless the domain does. This is the sharpest definition of depth the project has, because
+it makes depth a **relation** rather than an attribute. Falsifier attached: depth moves where
+domain moves.
+
+**Reading enters at an anomaly**, never at the whole artifact, and then runs purpose→method AND
+method→purpose. Entry point is set by wherever he has partial expertise.
+
+**Confidence in a maker moves while reading.** "It starts questionable" and "8 or 9 by the end"
+are both true of one artifact; the trajectory carries what the endpoint does not.
+
+**The share question is not answerable by a reader.** *"Fractal layers of nested goals placed there
+by the subconscious. I'm extracting it all equally with no real ability to differentiate."* A share
+needs a denominator and nested goals have none. C-22 keeps `purpose_breadth`; it lost its human
+check, and validation moved to a mechanism test in the sim.
+
+**The emblematic layer cannot use the Panksepp list.** *"People don't perform Panksepp-level
+drives."* The eight values belong to the leaked layer only; emblematic is collected as free text.
+
+**What is recoverable is a presented face and its leaks**, not a person. Scope limit on every claim.
+
+**Artifact 01 of session 02** (`apenwarr.ca`): maker 8–9 by the end but questionable at the start;
+leaked play+grief in the opening, care at the end; the specific leak was defensiveness about being
+in systems design, read as leakage because the professional opening failed; no deception; veneer
+medium→thin→thin; goal met. Contaminated by orthography — "programme" — which is an accepted
+contaminant because normalising spelling would destroy evidence.
+
+---
+
 ## 4 · The affect layer, compressed
 
 Two layers, and they are **the field's reconciliation position**, not a design choice:
@@ -91,7 +131,7 @@ not collapse — predicted failure mode, from LIWC's 0.49 inter-motive correlati
 | ~~D-0~~ | do function-word vectors separate by specified maker state? | 40 min | **INCONCLUSIVE** — ran at 38% power; corrected from FAIL. [verdict](../results/d0/VERDICT.md) |
 | **A** | leaked layer from function-word distributions | hours, no GPU | |
 | **C** | stage E kept, re-scoped as emblematic-only | free, built | |
-| **B** | `transformers` + mid-layer activation readout | an afternoon + VRAM | torch not installed |
+| **B′** | mid-layer activation readout while the model READS; low-order/high-order ratio | an afternoon | **torch installing 2026-08-03** |
 | **D** | inverse planning over artifacts | **2–3 days to runnable** | needs D-0 |
 
 **D-0 was INCONCLUSIVE, not a failure, and the correction is mine.** I set a pass threshold
