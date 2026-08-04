@@ -40,6 +40,20 @@ with the reason.
 
 ---
 
+## Session 02 — stopped after artifact 01 to fix the protocol, 2026-08-03
+
+| # | What he said | What it produced | Where | Status |
+|---|---|---|---|---|
+| S2.1 | *"The variation of the veneer is one of the loudest indicators I've found"* | Not surface LEVEL — surface **change**. S-1 is his primary detector, not my hypothesis. | `curator_session_02.md` §1 | **open** — measure exists, untested |
+| S2.2 | *"Useless against a real published book because of the layers of editing"* | Scope limit on the whole surface-variance measure — **and it says today's books result cannot be surface variance.** | same §1 | **open** — testable, cheap |
+| S2.3 | *"Depth is a property of the writer **with respect to the domain**"* | Sharpest definition of depth the project has. Makes depth a RELATION. Falsifier attached: depth moves where domain moves. | same §2 | **written** |
+| S2.4 | *"People don't perform Panksepp-level drives"* | The emblematic layer cannot use the primary-process list. family_v3's "named simplification" is now a known error. | same §3 | **built** — emblematic is free text |
+| S2.5 | *"Fractal layers of nested goals placed there by the subconscious. I'm extracting it all equally"* | **The share question is not answerable by a reader.** A share needs a denominator; nested goals have none. C-22 keeps `purpose_breadth`, loses its human check. | same §4 | **built** — Q4 cut; C-22 moved to a mechanism test |
+| S2.6 | *"It starts questionable"* and 8–9 by the end | Confidence in a maker MOVES while reading. The trajectory carries what the endpoint does not. | same §5 | **built** — Q1 asks for movement |
+| S2.7 | *"programme"* — spelling gave it away | Orthography is an unlisted contamination channel. Not fixed: normalising spelling would destroy evidence. | same §5 | **accepted contaminant** |
+
+---
+
 ## Before session 01
 
 | # | What he said | What it produced | Where | Status |
