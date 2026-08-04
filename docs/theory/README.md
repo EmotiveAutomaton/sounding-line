@@ -60,8 +60,12 @@ One line per finding. Follow the link only if you need the argument.
 | **B** | activation readout for valence/arousal | an afternoon + VRAM | — |
 | **D** | inverse planning over artifacts | **2-3 days to runnable** | D-0 |
 
-Full reasoning, including why my first estimate of D was wrong by two orders of magnitude:
-[OPTION_D](OPTION_D.md).
+D-0 came back **inconclusive at 38% power** — see [`../../results/d0/VERDICT.md`](../../results/d0/VERDICT.md).
+D-0b is pre-registered with power computed first.
+
+**Six directions, ranked, in [DIRECTIONS](DIRECTIONS.md).** The two strongest read the *reader*
+rather than the artifact, and the cheapest (public-domain books) fixes both D-0's sample problem
+and A's baseline problem at once. Costing of D: [OPTION_D](OPTION_D.md).
 
 ## Open, and blocking
 

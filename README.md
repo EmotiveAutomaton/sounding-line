@@ -3,15 +3,7 @@
 </p>
 
 <div align="center">
-  <sub>
-    <b>◐ This entire document is grey text.</b><br>
-    Written in synthesis with an AI. The ideas, corrections and direction are the author's; the
-    prose is not wholly his. Under the
-    <a href="https://abrahamhaskins.org/art">Ghost Scale</a> that makes it grey, and grey text
-    carries an obligation — it has to be worth the read to justify asking for your attention.<br>
-    <a href="https://github.com/EmotiveAutomaton/ghost-scale-sim">What the Ghost Scale is, and why
-    it exists →</a>
-  </sub>
+  <sub>◯ <a href="https://github.com/EmotiveAutomaton/ghost-scale-sim">Ghost text</a> — all of it.</sub>
 </div>
 
 # Sounding Line
@@ -195,3 +187,7 @@ One curator, one model, English only, a corpus biased by which sites permit craw
 about prevalence, and none about any individual.
 
 **MIT licensed. Read the deviations before quoting a number.**
+
+---
+
+<sub>Haven't edited any of this yet — it's on the list. Should be roughly current.</sub>
