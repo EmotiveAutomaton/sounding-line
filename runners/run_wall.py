@@ -179,8 +179,8 @@ def main() -> None:
     RESULTS.mkdir(parents=True, exist_ok=True)
     (RESULTS / "wall.json").write_text(json.dumps(
         {"model": name, "window_words": WINDOW_WORDS, "layers": layers,
-         "confound_rho": rho, "voided": voided, "verdict": verdict,
-         "human_mean": hm, "generated_mean": mm, "p": pv, "rows": rows}, indent=2),
+         "confound_rho": float(rho), "voided": bool(voided), "verdict": verdict,
+         "human_mean": hm, "generated_mean": mm, "p": float(pv), "rows": rows}, indent=2),
         encoding="utf-8")
 
 
