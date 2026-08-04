@@ -33,3 +33,22 @@ is the only file that has to be current.
 - `torch`/`transformers` are **not** installed — option B needs them.
 - The parent simulation is at `../../AI and Intentionality/Ghost Scale Simulation/ghost-scale-sim`
   and has its own venv with `pymdp` working.
+
+## The parent simulation as a second environment
+
+`../../AI and Intentionality/Ghost Scale Simulation/ghost-scale-sim` has its own venv with
+**pymdp, pandas, matplotlib, seaborn, scipy** — and a mature harness this repo does not have:
+pre-registration cards, bootstrap intervals, verdict files, severity passes, an exact-inference
+path, and four audit passes of scaffolding.
+
+**When a question is about a MECHANISM rather than about real text, it is probably a better
+environment than this one.** Anything needing inverse planning, an agent that acts, a generative
+model to invert, or proper interval estimation belongs there.
+
+Neither venv has `torch`, `transformers`, `sklearn` or `nltk`. The curator has offered to carry
+work between the two repositories — **ask when a test would be higher fidelity over there**, rather
+than hand-rolling a weaker version here.
+
+Hand-rolled statistics in this repo are deliberate where the point is auditability (Burrows' Delta
+in `measures/leakage.py` is forty years old and fits on a screen). They are a defect where the
+point is rigour.

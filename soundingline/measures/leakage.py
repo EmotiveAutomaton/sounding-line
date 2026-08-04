@@ -226,3 +226,72 @@ def separability(groups: dict[str, list[str]]) -> dict:
         "top": sorted(((k, v) for k, v in out.items() if math.isfinite(v)),
                       key=lambda kv: -kv[1])[:5],
     }
+
+
+# ── THE STATISTIC THAT ACTUALLY WORKS ─────────────────────────────────────────────────────────
+#
+# `separability()` above is a univariate F-like ratio averaged over categories. **It badly
+# understates the signal, and it was the wrong statistic from D-0 onward.**
+#
+# The check that caught it: author identification from these same vectors is the most established
+# result in stylometry, so it is a task with a known answer. On 34 public-domain books,
+# leave-one-WORK-out:
+#
+#     univariate separability at 2,000 words   ratio 0.51  -> "no group information"
+#     Burrows' Delta, nearest centroid          52.4% accuracy against 10% chance  -> 5.2x
+#
+# The information is in the JOINT distribution over categories, not in any category alone.
+# Averaging per-category ratios throws away exactly the structure that carries it.
+#
+# `separability()` is retained as a per-category diagnostic — "which categories move" is still
+# worth knowing — but it must not decide anything. This is the fourth instance in this project's
+# lineage of a criterion unable to do its own job, and the first one caught by testing the
+# criterion against a task whose answer was already known.
+
+def delta_classify(groups: dict[str, list[str]], *, leave_out_key=None) -> dict:
+    """Burrows' Delta with a nearest-centroid classifier. Returns accuracy against chance.
+
+    Burrows' Delta is the standard stylometric distance: z-normalise each feature over the whole
+    set, then take the mean absolute difference between a sample and a class centroid. It is
+    forty years old, it is simple enough to read in one screen, and unlike a learned classifier it
+    has no capacity to memorise.
+
+    ``leave_out_key`` supplies a coarser held-out unit than the individual sample — pass the work
+    a window came from, and no window is ever scored against a centroid its own book helped build.
+    Without it this reports leave-one-window-out, which is the right protocol when the grouping
+    variable *is* the work.
+    """
+    rows = [(g, t, profile(t)) for g, ts in groups.items() for t in ts]
+    if len({g for g, _, _ in rows}) < 2:
+        raise ValueError("delta_classify needs at least two groups")
+    keys = tuple(sorted(CATEGORIES))
+    raw = [[p.rates[k] for k in keys] for _, _, p in rows]
+
+    mu = [statistics.fmean(v[i] for v in raw) for i in range(len(keys))]
+    sd = [statistics.pstdev(v[i] for v in raw) or 1e-9 for i in range(len(keys))]
+    z = [[(v[i] - mu[i]) / sd[i] for i in range(len(keys))] for v in raw]
+    labels = [g for g, _, _ in rows]
+    held = [leave_out_key(t) if leave_out_key else i for i, (_, t, _) in enumerate(rows)]
+    classes = sorted(set(labels))
+
+    correct, per_class = 0, {c: [0, 0] for c in classes}
+    for i, x in enumerate(z):
+        tr = [j for j in range(len(z)) if held[j] != held[i]]
+        cents = {c: [statistics.fmean(z[j][k] for j in tr if labels[j] == c)
+                     for k in range(len(keys))]
+                 for c in classes if any(labels[j] == c for j in tr)}
+        if len(cents) < 2:
+            continue
+        guess = min(cents, key=lambda c: statistics.fmean(
+            abs(a - b) for a, b in zip(x, cents[c])))
+        ok = guess == labels[i]
+        correct += ok
+        per_class[labels[i]][0] += ok
+        per_class[labels[i]][1] += 1
+
+    n = sum(v[1] for v in per_class.values())
+    chance = 1.0 / len(classes)
+    acc = correct / n if n else float("nan")
+    return {"accuracy": acc, "chance": chance, "lift": acc / chance if chance else float("nan"),
+            "n": n, "n_classes": len(classes),
+            "per_class": {c: (v[0] / v[1] if v[1] else float("nan")) for c, v in per_class.items()}}
