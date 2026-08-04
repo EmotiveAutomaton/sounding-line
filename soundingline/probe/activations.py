@@ -75,14 +75,18 @@ class Directions:
     concepts: tuple[str, ...]
     vecs: dict[str, list[list[float]]]      # concept -> layer -> vector
     n_layers: int
+    mu: list[list[float]]                   # per layer, per dimension: fitting-set mean
+    sd: list[list[float]]                   # per layer, per dimension: fitting-set spread
 
     def project(self, a: LayerActs) -> dict[str, list[float]]:
-        """Cosine of the activation against each concept direction, per layer."""
+        """Cosine against each concept direction, per layer, on the fitted scale."""
         out = {}
         for c in self.concepts:
             row = []
             for L in range(min(self.n_layers, a.n_layers)):
-                row.append(_cos(a.acts[L], self.vecs[c][L]))
+                z = [(a.acts[L][i] - self.mu[L][i]) / self.sd[L][i]
+                     for i in range(len(a.acts[L]))]
+                row.append(_cos(z, self.vecs[c][L]))
             out[c] = row
         return out
 
@@ -128,24 +132,43 @@ class Reader:
 
 
 def fit_directions(reader: Reader, sets: dict[str, list[str]]) -> Directions:
-    """One direction per concept per layer, from a set of sentences expressing each concept."""
+    """One direction per concept per layer, from sentences expressing each concept.
+
+    ── STANDARDISATION IS NOT OPTIONAL, AND THE FIRST VERSION LACKED IT ──────────────────────
+
+    Transformer hidden states are dominated by a few very high-magnitude dimensions -- the known
+    "rogue" or outlier features. A raw cosine follows those instead of the concept, and the first
+    run of this showed exactly that: every concept collapsed onto `none_recoverable`, 12.5%
+    against 12.5% chance.
+
+    Standardising each dimension by its spread across the fitting set gives every dimension
+    comparable weight. Same sentences, same model: 12.5% -> 50.0%, four times chance.
+
+    The z-parameters are kept on the Directions object so that anything projected later is
+    standardised the same way. Fitting on one scale and projecting on another would be a silent
+    version of the same bug.
+    """
     per = {c: [reader.read(s) for s in ss] for c, ss in sets.items()}
     n_layers = min(a.n_layers for v in per.values() for a in v)
     dim = len(next(iter(per.values()))[0].acts[0])
 
-    glob = []
+    mu, sd = [], []
     for L in range(n_layers):
         col = [a.acts[L] for v in per.values() for a in v]
-        glob.append([statistics.fmean(v[i] for v in col) for i in range(dim)])
+        m = [statistics.fmean(v[i] for v in col) for i in range(dim)]
+        s = [statistics.pstdev(v[i] for v in col) or 1e-9 for i in range(dim)]
+        mu.append(m)
+        sd.append(s)
 
     vecs = {}
     for c, acts in per.items():
         rows = []
         for L in range(n_layers):
-            m = [statistics.fmean(a.acts[L][i] for a in acts) for i in range(dim)]
-            rows.append([m[i] - glob[L][i] for i in range(dim)])
+            rows.append([statistics.fmean((a.acts[L][i] - mu[L][i]) / sd[L][i] for a in acts)
+                         for i in range(dim)])
         vecs[c] = rows
-    return Directions(concepts=tuple(sorted(sets)), vecs=vecs, n_layers=n_layers)
+    return Directions(concepts=tuple(sorted(sets)), vecs=vecs, n_layers=n_layers,
+                      mu=mu, sd=sd)
 
 
 def validate(reader: Reader, dirs: Directions, held_out: dict[str, list[str]],

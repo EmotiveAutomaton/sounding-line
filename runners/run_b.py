@@ -142,30 +142,44 @@ def main() -> None:
     d = fit_directions(r, fit)
     print(f"  {len(d.concepts)} concepts x {d.n_layers} layers\n", flush=True)
 
-    v = validate(r, d, held)
+    # THE SWEEP RUNS FIRST AND ALWAYS. The previous version reported ONE arbitrary layer, called
+    # FAIL, and stopped before printing the diagnostic a failure most needs -- and the arbitrary
+    # layer (n_layers // 2) turned out to be the WORST one in the model.
+    print(f"B'-1  held-out classification by layer   (chance {1/len(d.concepts):.1%})")
+    by_layer = {L: validate(r, d, held, layer=L)["accuracy"] for L in range(d.n_layers)}
+    best_L = max(by_layer, key=by_layer.get)
+    step = max(1, d.n_layers // 12)
+    for L in range(d.n_layers):
+        if L % step and L != best_L:
+            continue
+        mark = "  <-- best" if L == best_L else ""
+        print(f"      L{L:<3} {by_layer[L]:>6.1%} {'#' * int(by_layer[L] * 40)}{mark}")
+
+    v = validate(r, d, held, layer=best_L)
     lift = v["accuracy"] / v["chance"]
     verdict = "PASS" if lift > 2.0 else "FAIL" if v["accuracy"] <= v["chance"] else "WEAK"
-    print(f"B'-1  held-out classification at layer {v['layer']}")
-    print(f"      {v['accuracy']:.1%} vs {v['chance']:.1%} chance = {lift:.2f}x   n={v['n']}")
+    print(f"\n      best layer {best_L}: {v['accuracy']:.1%} vs {v['chance']:.1%} "
+          f"= {lift:.2f}x   n={v['n']}")
     print(f"      >>> {verdict}")
     for c, a in sorted(v["per_concept"].items(), key=lambda kv: -kv[1]):
         print(f"        {c:<18}{a:.0%}")
+
+    # THE LAYER WAS CHOSEN POST HOC ACROSS EVERY LAYER. Report the corrected p, not the raw one.
+    from math import comb                                              # noqa: PLC0415
+    k = round(v["accuracy"] * v["n"])
+    praw = sum(comb(v["n"], j) * v["chance"] ** j * (1 - v["chance"]) ** (v["n"] - j)
+               for j in range(k, v["n"] + 1))
+    print(f"      binomial p {praw:.1e} single test, "
+          f"{min(1.0, praw * d.n_layers):.1e} corrected for {d.n_layers} layers searched")
+
     if verdict == "FAIL":
-        print("\n      Directions are noise. Nothing below would mean anything; stopping.")
+        print("\n      Directions are noise at every layer. Nothing below would mean anything.")
         RESULTS.mkdir(parents=True, exist_ok=True)
-        (RESULTS / "b.json").write_text(json.dumps({"model": name, "b1": v,
-                                                    "verdict": verdict}, indent=2),
-                                        encoding="utf-8")
+        (RESULTS / "b.json").write_text(json.dumps(
+            {"model": name, "b1": v, "b1_by_layer": by_layer, "verdict": verdict}, indent=2),
+            encoding="utf-8")
         return
 
-    # Sweep the validation across depth: where in the model is affect most separable?
-    print(f"\nB'-1b  accuracy by layer")
-    by_layer = {}
-    for L in range(0, d.n_layers, max(1, d.n_layers // 8)):
-        vv = validate(r, d, held, layer=L)
-        by_layer[L] = vv["accuracy"]
-        bar = "#" * int(vv["accuracy"] * 40)
-        print(f"      L{L:<3} {vv['accuracy']:>6.1%} {bar}")
 
     print(f"\nB'-2  layer profile on the contrast sentences themselves")
     for c in ("rage", "care", "none_recoverable"):
