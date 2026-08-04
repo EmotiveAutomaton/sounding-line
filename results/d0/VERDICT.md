@@ -1,74 +1,101 @@
-# D-0 — FAIL
+# D-0 — INCONCLUSIVE. The design could not have detected what it was looking for.
 
-**2026-08-03. 48/48 generations succeeded. Verdict as pre-registered.**
+**Corrected 2026-08-03, hours after first reporting it as FAIL.** The correction is mine and it is
+the same class of error the parent simulation logged four times: *a criterion unable to do its own
+job.*
+
+---
+
+## The observed result
 
 | | ratio | categories > 2.0 | threshold |
 |---|---|---|---|
-| all cells (4 purpose × 4 affect) | **0.78** | **0** | pass needs > 1.5 and ≥ 3 |
-| purpose only | **0.09** | 0 | |
-| affect only | **0.19** | 0 | |
+| all cells (4 purpose × 4 affect) | 0.78 | 0 | pass needs > 1.5 and ≥ 3 |
+| purpose only | 0.09 | 0 | |
+| affect only | 0.19 | 0 | |
 
-**Function-word vectors do not separate artifacts written under specified maker states.**
-The feature channel option D was going to invert is wrong as designed. D does not proceed.
-
-Cost: about forty minutes, against the 2–3 days D would have taken.
+48/48 generations succeeded. **Reported as FAIL. That reading was wrong.**
 
 ---
 
-## What it does not license, and the discipline point
+## The power simulation, which does not touch the data
 
-The per-cell numbers contain a pattern, and it has to be reported without being used:
+The curator's objection was that function words are not frequent enough in a short sample to carry
+detectable variation. That is checkable without looking at any observation — plant a real effect,
+simulate the design, and see whether the statistic finds it.
 
-**first-person-singular rate, pooled across purposes**
+Texts were ~380 words. At an `I`-rate of 13.8 per 1,000 that is **five tokens**. Poisson noise on
+five counts is enormous relative to a between-group difference, and the separability statistic
+divides by a within-group variance made almost entirely of that noise.
 
-| affect | I / 1,000 |
-|---|---|
-| rage | 13.8 |
-| fear | 13.7 |
-| care | 6.8 |
-| seeking | 5.7 |
+**Planted effect: a real 2.4× split, 13.8 / 13.7 / 6.8 / 5.7 per 1,000.**
 
-That is a 2× split in the single most documented function-word signal, in a direction that is not
-absurd — self-reference rising with grievance and anxiety, falling with outward-directed care and
-absorbed curiosity.
+| design | median F | P(F > 1.5) |
+|---|---|---|
+| **D-0 as run** — 380 words, k=3 | **1.17** | **38%** |
+| 1,000 words, k=3 | 2.60 | 78% |
+| 2,000 words, k=3 | 5.02 | 97% |
+| **2,000 words, k=10** | 3.30 | **99%** |
+| 4,000 words, k=10 | 6.47 | 100% |
 
-**And it did not pass, because within-group variance swamps it.** Even for `i` alone the
-between/within ratio is 0.5. With k = 3 per cell, "weak channel" and "underpowered test" are not
-distinguishable, and **noticing that after a failure is exactly the move this project forbids.**
-The threshold was set before the run. It was not met. D does not proceed on a post-hoc look at a
-pattern I went looking for after seeing the verdict.
+*Null control — all four rates identical:* median F = 0.32 at the D-0 design, false-positive rate
+5%. The statistic is well-behaved. It is simply blind at this text length.
 
-What is legitimate: a **new** pre-registration, run separately.
+> **D-0 as run had 38% power against the effect it existed to detect. Its median outcome under a
+> real effect was BELOW its own pass threshold.**
 
-> **D-0b.** Affect only, purpose held fixed, k = 10. 40 generations, ~30 minutes.
-> Pass condition set before it runs, not inherited from D-0.
+A design that fails 62% of the time when the hypothesis is true cannot report a failure as
+evidence. **The verdict is INCONCLUSIVE.**
 
 ---
 
-## The reading that is more interesting than the failure
+## What I got wrong, precisely
 
-D-0 asked whether **a language model instructed to adopt a state** produces state-separable
-function words. It does not. There is a mechanistic account of why, and it is the project's own
-distinction:
+I set the pass threshold from the statistic's meaning (1.0 = no group information) and never asked
+whether the design could reach it. The stylometry literature is explicit that reliable attribution
+needs *at least several hundred words*, and that is for **identity**, which is the strong signal.
+**State** is weaker, so it needs more, and I generated 380-word samples.
 
-> The model has no **leaked** layer, because it has nothing unchosen. Every token it emits is
-> selected. Told to be angry it writes angrier *content*; it has no involuntary production to bend.
+**The earlier note in this file — that the observed I-rate pattern must not be used because
+noticing it after a failure is forbidden — still stands, and for the same reason.** The pattern is
+not evidence. What has changed is that the *failure* is not evidence either. Both directions are
+now blocked by the same arithmetic, which is the correct symmetric outcome.
 
-Function words leak in humans because they are produced below deliberation. A system with no
-below-deliberation has nothing to leak.
+---
 
-**Which makes D-0's failure a prediction about the contrast, not a dead end.** If human artifacts
-show state-separable function-word profiles and machine artifacts do not, that difference is a
-discriminator — and it is one built on *absence of involuntary production* rather than on any
-surface quality, which is exactly the property E40 says a surface measure cannot have.
+## D-0b, pre-registered now, with power computed first
 
-**This is a new hypothesis, not a rescue.** It needs human artifacts with known maker states, which
-this project does not have and which C-14 has owed from the start. Recorded, not acted on.
+> **Design.** Affect only, four states, purpose held fixed, topic held fixed.
+> **2,000+ words per generation, k = 10.** 40 generations.
+>
+> **Power: 99%** against a 2.4× effect in `I`-rate; false-positive rate 0% under the null.
+>
+> **PASS** — ratio > 1.5 and ≥ 3 categories above 2.0, unchanged.
+> **FAIL** — at or below 1.0. At 99% power this *is* informative, which is the whole point of
+> computing power before the run rather than after.
+
+Cost ~40 minutes. It is queued behind Gate 3.
+
+---
+
+## The other reading, unchanged and still not acted on
+
+D-0 asked whether a model *instructed* to adopt a state produces state-separable function words.
+Whatever D-0b returns, there is a mechanistic account worth holding:
+
+> The model has no **leaked** layer, because it has nothing unchosen. Told to be angry it writes
+> angrier *content*; it has no involuntary production to bend. Function words leak in humans
+> because they are produced below deliberation, and a system with no below-deliberation has
+> nothing to leak.
+
+If that is right, D-0b should *also* fail — for a reason that is a finding rather than a defect.
+Distinguishing the two needs the same test on **human** artifacts of adequate length, and the Gate
+3 corpus already has those: 1,500–3,500 words each, which is in range.
 
 ---
 
 ## Kept
 
-- 48 generations at `generations.json` — a small fixed-topic corpus with known specified states,
-  reusable by anything that wants machine text with labels.
+- 48 generations at `generations.json` — fixed-topic machine text with known specified states.
+  Too short for function-word statistics; still usable as a labelled machine corpus.
 - one anomaly, unexplained: `persuade|care` ran 729 words against ~380 everywhere else.

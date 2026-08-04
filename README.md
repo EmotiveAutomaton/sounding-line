@@ -2,6 +2,18 @@
   <img src="docs/assets/sounding-line.jpg" alt="A brass plumb bob and coiled line resting on an open bathymetric chart" width="100%">
 </p>
 
+<div align="center">
+  <sub>
+    <b>◐ This entire document is grey text.</b><br>
+    Written in synthesis with an AI. The ideas, corrections and direction are the author's; the
+    prose is not wholly his. Under the
+    <a href="https://abrahamhaskins.org/art">Ghost Scale</a> that makes it grey, and grey text
+    carries an obligation — it has to be worth the read to justify asking for your attention.<br>
+    <a href="https://github.com/EmotiveAutomaton/ghost-scale-sim">What the Ghost Scale is, and why
+    it exists →</a>
+  </sub>
+</div>
+
 # Sounding Line
 
 **An instrument for reading intent out of real artifacts.**
@@ -89,22 +101,49 @@ Two things happened in one day and they changed the project.
 
 **A human read ten artifacts aloud**, blind, in plain text. That produced more usable design than
 the three gates had: reading starts at **an anomaly** rather than at the whole artifact; the loop
-runs **both ways**, not purpose-first; the corpus split the gates test **may not exist** in the
-shape assumed.
+runs **both ways**, not purpose-first; and the corpus split the gates test **may not exist** in the
+shape assumed — a commercial roofing page read as more human, with more depth beneath it, than a
+personal blog post.
 
-**And the affective layer opened up.** The instrument's hypothesis family was entirely
-cognitive-instrumental, while a human reader's account of a maker is overwhelmingly affective. The
-split that fell out — what **leaked** versus what was **performed** — turns out to be the
-reconciliation position between the two dominant theories of emotion.
+**And the affective layer opened up.** The hypothesis family was entirely cognitive — purpose,
+audience, depth, cost — while a human reader's account of a maker is overwhelmingly *affective*.
+The split that fell out — what **leaked** versus what was **performed** — turns out to be the
+reconciliation position between the two dominant theories of emotion, which was not the plan.
 
-Which produced the finding the next phase is built on:
+### The four experiments this produced, in plain terms
 
-> **Leakage has a measurement channel.** Function words — pronouns, articles, prepositions — are
-> produced non-consciously, are topic-independent, are very hard to fake, and track psychological
-> *state*. They are why authorship attribution works at all.
->
-> And they are structurally the same object as the parent simulation's emission model, which means
-> **the inverse-planning machinery that already exists can be pointed at real text.**
+**A — can you measure what a writer did not choose to say?**
+Function words — *the, of, but, I, without* — are produced below deliberation. They are why
+authorship attribution works: you cannot fake them, because you are not choosing them. If they
+carry a maker's *state* and not only their identity, they are a channel into the part of a person
+that shows up in writing without being put there.
+**Built. Runs on the corpus. Not yet a classifier** — within-group variance swamps the between-group
+difference, and the largest apparent signal is probably genre rather than leakage. What it needs is
+a baseline *per maker* rather than per corpus, which needs a corpus organised by maker.
+
+**C — is asking a model "what stance is this performing" a measurement or an opinion?**
+An opinion. Asking a language model about a text returns a judgement about the words that were
+*chosen*, which is the performed layer by construction — no rewording reaches the unchosen one.
+**So the field was renamed to say so.** It is kept rather than deleted, because comparing the
+model's guess against the measured channel is itself a real test: can a system with no interior
+predict what leaks out of one?
+
+**D-0 — could the whole approach work at all?**
+Before building the expensive thing, the cheap version: have a model write the same piece under
+sixteen different specified states, and see whether the function-word signatures separate.
+**It did not separate — and then the test itself turned out to be too weak to have shown it.**
+At 380 words a category like *I* appears about five times, and five is not a number you can do
+statistics with. A power simulation says the design would have missed a real effect 62% of the
+time. **Verdict corrected from FAIL to INCONCLUSIVE**, which is worse than a failure and more
+useful than a false one. The redesign is written, with its power computed *first* this time.
+
+**B — does the machine already have the thing we are looking for?**
+Recent interpretability work finds that language models build internal emotion structure nobody
+designed: directions in activation space that causally control behaviour, arranged along
+**valence and arousal** — and, tellingly, the low-order features sit near the input while
+higher-order predictive ones sit further out. That is the same two-layer split, appearing
+unbidden in a system built for something else.
+**Not yet built.** It is the most promising and the least certain thing on the list.
 
 Full state, one line per finding: **[docs/theory/README.md](docs/theory/README.md)**
 
