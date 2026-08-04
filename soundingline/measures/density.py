@@ -51,6 +51,16 @@ For windows of increasing size, compress and record the ratio. Two quantities co
 organisation above the sentence — which is what "hierarchical decisions" means when it is written
 down rather than gestured at.
 
+── DISQUALIFIED 2026-08-04. READ THIS BEFORE USING ANYTHING BELOW ────────────────────────────
+
+**`scale_gain` is type-token ratio.** rho = -0.879 against TTR, and the human/no-maker gap survives
+WORD SHUFFLING unchanged (+0.0775 intact, +0.0725 shuffled). Shuffling preserves vocabulary and
+destroys all order, so the measure is not reading hierarchy, structure, or anything the theory
+meant by density. `results/controls/VERDICT.md`.
+
+Retained rather than deleted because the failure is instructive and because `bimodality()` may be
+worth reusing on a measure that survives its controls. **E49's prediction remains untested.**
+
 ── AND THE HONEST PART ───────────────────────────────────────────────────────────────────────
 
 gzip is a lexical compressor. It sees repeated substrings, not repeated *ideas*. It will find that

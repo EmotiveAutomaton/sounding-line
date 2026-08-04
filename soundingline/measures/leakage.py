@@ -295,3 +295,41 @@ def delta_classify(groups: dict[str, list[str]], *, leave_out_key=None) -> dict:
     return {"accuracy": acc, "chance": chance, "lift": acc / chance if chance else float("nan"),
             "n": n, "n_classes": len(classes),
             "per_class": {c: (v[0] / v[1] if v[1] else float("nan")) for c, v in per_class.items()}}
+
+
+# ── THE SHUFFLE TEST — RUN THIS BEFORE BELIEVING ANY TEXT MEASURE ─────────────────────────────
+#
+# Standing requirement as of 2026-08-04, after `measures/density.py` was disqualified by it.
+#
+# Word-shuffling preserves a text's vocabulary and length EXACTLY and destroys every trace of
+# order, syntax and structure. So:
+#
+#     A measure whose effect survives shuffling is a vocabulary or length statistic, whatever it
+#     is called and whatever theory motivated it.
+#
+# Density looked like hierarchy, ranked human > rich > thin > averaged exactly as the theory
+# predicts, held at p = 0.0005 under a permutation null and strict length matching — and its
+# effect was the same size on shuffled text. It was type-token ratio, rho = -0.879.
+#
+# One line, and it would have caught that in the first minute instead of the fifteenth.
+
+def shuffle_control(texts: list[str], measure, seed: int = 0) -> dict:
+    """Measure on intact text and on word-shuffled text. Compare.
+
+    `measure` takes a string and returns a float. A `survival` near 1.0 means the measure never
+    needed the word order — it is reading the bag of words.
+    """
+    import random as _random
+    rng = _random.Random(seed)
+
+    def shuffled(t: str) -> str:
+        w = t.split()
+        rng.shuffle(w)
+        return " ".join(w)
+
+    intact = [measure(t) for t in texts]
+    scrambled = [measure(shuffled(t)) for t in texts]
+    mi, ms = statistics.fmean(intact), statistics.fmean(scrambled)
+    return {"intact": mi, "shuffled": ms,
+            "survival": ms / mi if mi else float("nan"),
+            "reads_order": abs(ms - mi) > 0.25 * abs(mi)}
