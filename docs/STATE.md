@@ -88,13 +88,18 @@ not collapse — predicted failure mode, from LIWC's 0.49 inter-motive correlati
 
 | | what | cost | status |
 |---|---|---|---|
-| **D-0** | do function-word vectors separate by specified maker state? | **2h GPU** | gates all of D |
+| ~~D-0~~ | do function-word vectors separate by specified maker state? | 40 min | **FAILED 2026-08-03** — ratio 0.78, 0 categories above 2.0. [verdict](../results/d0/VERDICT.md) |
 | **A** | leaked layer from function-word distributions | hours, no GPU | |
 | **C** | stage E kept, re-scoped as emblematic-only | free, built | |
 | **B** | `transformers` + mid-layer activation readout | an afternoon + VRAM | torch not installed |
 | **D** | inverse planning over artifacts | **2–3 days to runnable** | needs D-0 |
 
-**D is 2–3 days, not years.** `ghost-scale-sim` already implements the whole inversion —
+**D is blocked, not slow.** D-0 failed: function-word vectors do not separate specified maker
+states in generated text. The mechanistic reading is that a model has no leaked layer because it
+has nothing unchosen — which makes the failure a prediction about the human/machine contrast
+rather than a dead end, and that is a NEW hypothesis needing human artifacts with known states.
+
+The rest of the costing still holds: `ghost-scale-sim` already implements the whole inversion —
 `HumanCreator`, `rollout_observer`, `generative_model`, `exact.py`, pymdp installed and verified.
 The gap is one function: text → feature vector. Function words are that vector. The forward model
 `P(features | state)` comes from having the LLM *write* under specified states and measuring the
