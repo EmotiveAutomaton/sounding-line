@@ -146,9 +146,12 @@ class Fetcher:
             final = resp.geturl()
             self._check_allowed(final)          # a redirect may not leave the allowlist
             ctype = resp.headers.get("Content-Type", "")
+            cenc = (resp.headers.get("Content-Encoding") or "").lower()
             raw = resp.read(MAX_BYTES)
 
+        raw = _decompress(raw, cenc)
         text = _to_text(raw, ctype)
+        _assert_plausible_text(text, url)
         rec = Record(
             sha256=hashlib.sha256(text.encode("utf-8")).hexdigest(),
             requested_url=url,
@@ -165,6 +168,63 @@ class Fetcher:
     def read(self, rec: Record) -> str:
         key = hashlib.sha256(rec.requested_url.encode("utf-8")).hexdigest()[:16]
         return (self.store / f"{key}.txt").read_text(encoding="utf-8")
+
+
+# ── CONTENT-ENCODING, AND THE ARTIFACT THAT WAS NEVER TEXT ────────────────────────────────────
+#
+# Gate 3 artifact `b_a8a3e574` was 14,541 characters of undecompressed gzip stored as text: 44.5%
+# replacement characters, a gzip magic header at position zero, and five ValidationErrors when the
+# probe finally choked on it fourteen hours into a run. `results/gate3/ACCIDENT.md`.
+#
+# Nothing noticed. There was no Content-Encoding handling at all, and nothing downstream checked
+# whether what had been stored was text. Both are fixed here, and the second matters more: an
+# encoding this does not know about will still get through, and a plausibility check catches the
+# whole class rather than one member of it.
+#
+# It also stays inside SPEC 8's constraint. gzip/zlib decompression is bounded, does not execute,
+# and is capped at MAX_BYTES after expansion, so a decompression bomb cannot spend more than the
+# fetch was already allowed to spend.
+
+# Above this fraction of U+FFFD, what was stored is not text and the fetch failed whatever the
+# HTTP status said. Real mojibake runs a fraction of a percent -- the other affected artifact in
+# the Gate 3 corpus has three replacement characters in 2,306.
+MAX_REPLACEMENT_RATIO = 0.02
+
+
+def _decompress(raw: bytes, content_encoding: str) -> bytes:
+    """Undo Content-Encoding. Unknown encodings are left alone and caught by the text check."""
+    if not content_encoding:
+        return raw
+    try:
+        if "gzip" in content_encoding:
+            import gzip                                          # noqa: PLC0415
+            return gzip.decompress(raw)[:MAX_BYTES]
+        if "deflate" in content_encoding:
+            import zlib                                          # noqa: PLC0415
+            return zlib.decompress(raw, -zlib.MAX_WBITS)[:MAX_BYTES]
+        if "br" in content_encoding:
+            import brotli                                        # noqa: PLC0415
+            return brotli.decompress(raw)[:MAX_BYTES]
+    except Exception as e:                                       # noqa: BLE001
+        raise FetchRefused(
+            f"Content-Encoding {content_encoding!r} could not be decoded: {type(e).__name__}"
+        ) from e
+    return raw
+
+
+def _assert_plausible_text(text: str, url: str) -> None:
+    """Refuse to store something that is not text.
+
+    A REFUSAL rather than a repair, deliberately. A fetch that produced binary is a failed fetch,
+    and silently storing it is how one artifact spent fourteen hours in a corpus pretending to be
+    a web page.
+    """
+    if not text.strip():
+        raise FetchRefused(f"empty after extraction: {url}")
+    ratio = text.count("\ufffd") / len(text)
+    if ratio > MAX_REPLACEMENT_RATIO:
+        raise FetchRefused(
+            f"{ratio:.1%} replacement characters — this is not text, the fetch failed: {url}")
 
 
 _TAG = re.compile(r"<[^>]+>")
