@@ -223,6 +223,8 @@ came from more data.
 |---|---|
 | **this file** | the record. Read first |
 | `TODO.md` | ideas not yet run |
+| **`docs/TOOLS.md`** | **what is installed, what each thing does, and what it does not solve** |
+| **`docs/theory/CURATOR_GUESSES.md`** | **your active guesses, extracted from my commentary, with status and what would test each** |
 | `docs/method/` | LEDGER (every test in a table), CONTROLS (what a control licenses), DEVIATIONS |
 | `docs/theory/` | the frame, the affect architecture, the triangle, the essays |
 | `docs/gates/` | gate 0–3 material |

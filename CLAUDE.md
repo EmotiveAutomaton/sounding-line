@@ -18,6 +18,32 @@ context loss.
 - **Every verdict change gets a row in the reversal log**, including who caught it.
 - **Keep the "known weaknesses" section honest and current.** It is the most useful part of the file
   and the temptation is always to let it go stale.
+- **`TODO.md` is updated in the same pass.** An idea that has been run leaves TODO and enters
+  FINDINGS the same session; an idea sitting in TODO across sessions is either blocked, with the
+  blocker named, or should be deleted.
+- **Near-significance means more power, not a verdict.** Standing rule from the curator, 2026-08-05:
+  at these sample sizes a p just above threshold is an instruction to raise n and re-run, not a
+  failure. Do it as a **held-out replication** with every hyperparameter frozen — extending the
+  original set instead would just entrench whatever forking path produced the marginal number.
+  `corpora/ladder2/` is the worked example.
+
+## Hard rule: check the literature before proposing a test
+
+**Before any new measure or test is queued, search for whether it already exists.** Adopted
+2026-08-05 after the tools search found that stylometry + perplexity + lexical diversity reaches
+**F1 ≈ 0.99** on AI-generated-text detection, and function words alone exceed **98%** — meaning
+several things this project treated as open questions are settled, published, and past us.
+
+Two outcomes, and both are useful:
+
+- **It exists and has been attacked with rigour** → do not reinvent it. Cite it, take the ceiling as
+  given, and move on. This is most of the AI-detection space.
+- **It does not exist in the literature** → that is worth knowing explicitly, and it is the case for
+  the intent-vs-machine distinction, the leaked/emblematic split, and the layer-ratio idea.
+
+Record which of the two in the test's own pre-registration, so the answer is not re-derived later.
+Search terms that pay are in `docs/sim/FOR_GHOST_SCALE_SIM_3.md` §4; **search for the symptom, not
+the subject.**
 
 ## Hard rules
 

@@ -15,7 +15,26 @@ Results go in [`FINDINGS.md`](FINDINGS.md).
 | **the measure-evolution loop** | we built a seven-term evaluator and have been feeding it one hand-written candidate at a time. Archive candidates by which controls they survive; let an LLM mutate them | a build decision — it is the only item that changes the *rate* rather than the method. `docs/design/ENGINEERING_LOOP.md` | ~a day |
 | **C-20 — a second reader** | even n = 2 on 3–4 artifacts | needs a person | an hour of someone's time |
 
+## Gated — tier C tools, blocked behind the tier A checks
+
+**The gate:** these do not get installed or built until the 342 off-the-shelf features have been run
+through the evaluator and either found something or provably failed. They are more expensive and
+strictly more speculative than the thing that is already sitting there for free.
+
+| | what | unlocks when |
+|---|---|---|
+| **OpenEvolve** (AlphaEvolve) | LLM as mutation operator over our measure code | the feature sweep has run **and** the pyribs archive exists. If 342 published features carry nothing, evolving new ones is a much longer shot and we will know the shape of the failure |
+| **gplearn `SymbolicTransformer`** | evolves *combinations* of existing features | the feature sweep has run. This is its natural second stage — it needs the 342 as raw material |
+
 ## Ready to run, unblocked
+
+**First up — the tier A sweep, which is why the tools were installed:**
+
+| | what | why | cost |
+|---|---|---|---|
+| **the 342-feature sweep** | extract all features over the ladder, score against rung with **Benjamini-Yekutieli** correction, then put survivors through the full control battery — echo, length, transfer, rung −1 | this is the population fix. **An empty result is a real finding** and a much stronger negative than ten hand-written misses | ~1 h |
+| **ladder 2 replication** | held-out, n = 100, loci frozen. **Generating now** | known weaknesses 2 and 3 at once | running |
+| **cross-validate the layer loci** | Optuna over split points, scored on ladder 2 only | weakness 3 — they were chosen by looking at the answer | ~40 min GPU |
 
 | | what | why | cost |
 |---|---|---|---|
