@@ -85,9 +85,14 @@ def ratio_for(reader, dirs, text: str) -> float:
     for w in windows(text):
         p = dirs.project(reader.read(w))
         n = dirs.n_layers
-        lo, hi = n // 3, 2 * n // 3
-        early = statistics.fmean(abs(v[L]) for v in p.values() for L in range(lo))
-        late = statistics.fmean(abs(v[L]) for v in p.values() for L in range(hi, n))
+        # SPLIT BY THE VALIDATED STRUCTURE, NOT BY THIRDS.
+        # results/b/VERDICT.md found held-out affect accuracy is BIMODAL across depth: a locus at
+        # layers 0-1, a dead middle, a second locus at 22-27 on a 29-layer model. Thirds average
+        # that dead middle into both terms and dilute both. These are the loci themselves.
+        lo_hi = max(2, round(n * 0.07))          # the early locus
+        hi_lo = round(n * 0.76)                  # the late locus
+        early = statistics.fmean(abs(v[L]) for v in p.values() for L in range(lo_hi))
+        late = statistics.fmean(abs(v[L]) for v in p.values() for L in range(hi_lo, n))
         if late > 1e-9:
             vals.append(early / late)
     return statistics.fmean(vals) if vals else float("nan")
