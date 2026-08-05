@@ -88,12 +88,17 @@ def forms(items: list[dict]) -> dict[str, tuple[list[str], list[list[float]]]]:
     for k in keys:
         mcol, ccol = [], []
         for it in usable:
-            vals = [w[k] for w in it["windows"] if k in w]
+            # a single inf/nan in one window would otherwise poison the whole feature, and
+            # statistics.stdev raises an opaque AttributeError on non-finite input
+            vals = [float(w[k]) for w in it["windows"] if k in w and math.isfinite(w.get(k, math.nan))]
             if len(vals) < 2:
                 mcol, ccol = [], []
                 break
             m = statistics.fmean(vals)
             sd = statistics.stdev(vals)
+            if not (math.isfinite(m) and math.isfinite(sd)):
+                mcol, ccol = [], []
+                break
             mcol.append(m)
             ccol.append(sd / abs(m) if abs(m) > 1e-9 else 0.0)
         if mcol and finite(mcol) and finite(ccol):
@@ -115,6 +120,10 @@ def score(name: str, corpus: str, keys: list[str], mat: list[list[float]],
     res = {"corpus": corpus, "form": name, "n_tested": int(len(tbl)),
            "n_uncorrected_p05": raw, "n_expected_by_chance": round(0.05 * len(tbl), 1),
            "n_survive_BY": int(len(rel)),
+           # ALL survivor names, uncapped -- the B1 set comparison below is only valid on full
+           # sets. Capping these at 25 made "cv-only" a comparison of top-25 orderings, which is
+           # not the same question and is not a finding.
+           "survivor_names": [str(r["feature"]) for _, r in rel.iterrows()],
            "survivors": [{"feature": str(r["feature"]), "p": float(r["p_value"])}
                          for _, r in rel.head(25).iterrows()],
            "top_regardless": top}
@@ -176,14 +185,20 @@ def main() -> None:
         by_corpus.setdefault(r["corpus"], {})[r["form"]] = r
     verdict = {}
     for corpus, fs in by_corpus.items():
-        w = {s["feature"] for s in fs.get("whole", {}).get("survivors", [])}
-        c = {s["feature"] for s in fs.get("cv", {}).get("survivors", [])}
-        only_cv = sorted(c - {x.replace("cv_", "") for x in w} - w)
-        print(f"  {corpus:<10} whole:{len(w):>3}   cv:{len(c):>3}   "
-              f"cv-only:{len(only_cv):>3}  {'<<< B1 HAS SOMETHING' if only_cv else ''}")
-        for x in only_cv[:6]:
+        w = set(fs.get("whole", {}).get("survivor_names", []))
+        m = set(fs.get("mean", {}).get("survivor_names", []))
+        c = set(fs.get("cv", {}).get("survivor_names", []))
+        # a feature counts as cv-only if NEITHER whole-document form found it. `mean` is the
+        # control: it uses the same windows as cv, so anything cv finds that mean also finds is
+        # a windowing effect, not a variation effect.
+        only_cv = sorted(c - w - m)
+        print(f"  {corpus:<10} whole:{len(w):>3}  mean:{len(m):>3}  cv:{len(c):>3}   "
+              f"cv-only:{len(only_cv):>3}  "
+              f"{'<<< carries something the mean does not' if only_cv else ''}")
+        for x in only_cv[:8]:
             print(f"             {x}")
-        verdict[corpus] = {"n_whole": len(w), "n_cv": len(c), "cv_only": only_cv}
+        verdict[corpus] = {"n_whole": len(w), "n_mean": len(m), "n_cv": len(c),
+                           "cv_only": only_cv}
 
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "feature_sweep.json").write_text(json.dumps(
