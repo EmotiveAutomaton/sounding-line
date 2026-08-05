@@ -71,14 +71,39 @@ three places has not landed:**
 A `results/<name>/VERDICT.md` is still the primary record of the run itself. These four are the
 *index* — they are what survives a context loss.
 
-## Keep the processor busy, and say when it is not
+## Never go idle — check at the start of every response
 
-**If the GPU or CPU is idle and there is anything runnable in `TODO.md`, start it and say so.** If
-there is nothing runnable, **tell him that explicitly** rather than going quiet — an idle machine
-during a working session is a thing he wants to know about immediately, not discover later.
+**This is a step in composing a reply, not a background preference. It failed twice on 2026-08-05
+and both times he had to point it out.**
 
-Prefer queuing long jobs behind whatever is already running over waiting for a free machine. Report
-what is running whenever asked, and check `bash status.sh`.
+Before writing any response, in this order:
+
+1. **Check whether anything is running.** `bash status.sh`, or look at the GPU and the live logs.
+2. **If nothing is running, open `TODO.md` and start something.** Do it *before* replying, so the
+   reply can say what was started. Do not ask permission for something already on the list — it is
+   on the list because it was agreed.
+3. **If `TODO.md` is empty or nearly empty, say so in the reply.** That is a signal he acts on: it
+   means it is time to generate new work, not time to wait.
+
+There is almost never a legitimate reason to be idle. Items marked "blocked on a decision" are
+**things to hesitate on while working elsewhere**, not stopping points — pick something else and
+keep moving.
+
+Prefer queuing long jobs behind whatever is running over waiting for a free machine, and prefer
+starting a long job before a short one when both are queued.
+
+## Harvest tests from his theory without being asked
+
+When he states a claim, an objection, or an idea — in conversation, in a monologue, anywhere — the
+job is not only to record it in `docs/theory/CURATOR_GUESSES.md`. **Work out what would test it and
+put that in `TODO.md`, in the same pass.**
+
+He should not have to say "and now design an experiment for that." A recorded idea with no test
+attached is an idea that will not be run. If a claim genuinely cannot be tested with what exists,
+write down what would have to be built.
+
+`TODO.md` is fed from three places: results that open questions, his explicit objections, and his
+theory. The third is the one that gets forgotten.
 
 ---
 
