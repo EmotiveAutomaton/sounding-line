@@ -58,7 +58,7 @@ def windows(text: str, n: int = WINDOW, cap: int = MAX_WINDOWS) -> list[str]:
 
 def load_corpus(name: str) -> list[dict]:
     """Every corpus, normalised to {id, group, text}."""
-    if name in ("ladder", "ladder2"):
+    if name in ("ladder", "ladder2", "ladder3"):
         d = REPO / "corpora" / name
         man = json.loads((d / "manifest.json").read_text(encoding="utf-8"))
         return [{"id": it["id"], "group": it["rung"],
