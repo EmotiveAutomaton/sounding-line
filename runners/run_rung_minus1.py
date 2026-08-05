@@ -30,7 +30,7 @@ the measure's own sign against rung, so nothing here assumes which way a measure
     WEAK    shuffled lands inside the rung range          ambiguous; report position as a fraction
 
 **The ablation is reused as a CALIBRATION POINT rather than as a subtraction**, which
-`docs/theory/CONTROLS.md` §3 argues is the only role it is actually valid for.
+`docs/method/CONTROLS.md` §3 argues is the only role it is actually valid for.
 
 ── TEST 2 · THE GRANULARITY SWEEP ────────────────────────────────────────────────────────────
 

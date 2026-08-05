@@ -93,7 +93,7 @@ mean intact, −0.433 of the mean shuffled). The gap was carried along by the sh
 > reported as one. That verdict is unchanged; only its reason is.
 
 Two of the ten dead measures were model-internal and were killed partly on shuffle evidence. They go
-back to **unresolved**, not to alive. See `docs/LEDGER.md`.
+back to **unresolved**, not to alive. See `docs/method/LEDGER.md`.
 
 > ### Follow-up, same day — the sweep ran, and it settles this
 >

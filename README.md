@@ -147,9 +147,9 @@ Full state, one line per finding: **[docs/theory/README.md](docs/theory/README.m
 |---|---|
 | [`SOUNDING_LINE_SPEC.md`](SOUNDING_LINE_SPEC.md) | written before any code, hash-locked, never edited |
 | [`docs/theory/`](docs/theory/) | the live theory, compressed |
-| [`docs/SUCCESSOR.md`](docs/SUCCESSOR.md) | what gets built next, written before Gate 3's result |
-| [`docs/GATES.md`](docs/GATES.md) | instrument gates vs claim gates |
-| [`docs/DEVIATIONS.md`](docs/DEVIATIONS.md) | every change to a locked criterion |
+| [`docs/design/SUCCESSOR.md`](docs/design/SUCCESSOR.md) | what gets built next, written before Gate 3's result |
+| [`docs/gates/README.md`](docs/gates/README.md) | instrument gates vs claim gates |
+| [`docs/method/DEVIATIONS.md`](docs/method/DEVIATIONS.md) | every change to a locked criterion |
 | [`soundingline/family/`](soundingline/family/) | the hypothesis family — **data, not code**, so it can be argued with without reading Python |
 | [`soundingline/probe/`](soundingline/probe/) | prompts (locked), schema, two arms |
 | [`soundingline/measures/`](soundingline/measures/) | fit, unlock, gated unlock, position |

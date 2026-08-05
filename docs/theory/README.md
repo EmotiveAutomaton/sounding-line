@@ -6,7 +6,7 @@ now, and each carries its current status, because several of them contain claims
 since moved.
 
 One line per finding. Follow the link only if you need the argument.
-**Results and verdicts are not here — they are in [`../LEDGER.md`](../LEDGER.md).**
+**Results and verdicts are not here — they are in [`../method/LEDGER.md`](../method/LEDGER.md).**
 
 ---
 
@@ -20,7 +20,7 @@ Also carries **relative goal diversity** (soul = variety of motivations, travell
 via automaticity) and the mechanistic-interpretability angle.
 
 > **Status: partly overturned by simulation T-1, and it should be read alongside
-> [`../FROM_GHOST_SCALE_SIM_2.md`](../FROM_GHOST_SCALE_SIM_2.md).** It is **not a triangle** — three of
+> [`../sim/FROM_GHOST_SCALE_SIM_2.md`](../sim/FROM_GHOST_SCALE_SIM_2.md).** It is **not a triangle** — three of
 > six edges are exactly zero, goal is a sink already at ceiling, process is the source, and the edges
 > are **additive rather than superadditive**, so "bootstrapping" is not what was measured. The
 > **values vertex does not exist** in the model: H(values | goal) = 0. The curator's own open question
@@ -42,7 +42,7 @@ reinterpret them. **Status: standing, but its instrument is gone** — it pointe
 
 ## B · Method — what a control licenses
 
-### [CONTROLS.md](CONTROLS.md) — **read this before designing another test**
+### [CONTROLS.md](../method/CONTROLS.md) — **read this before designing another test**
 **New, 2026-08-05**, at the curator's challenge to the shuffle test. Establishes that the shuffle
 test is exact for text statistics and **invalid for model-internal measures**; that "vocabulary" was
 never a single thing, and word choice is a decision channel; the five-level hierarchy of controls;
@@ -84,10 +84,10 @@ E36's statistic, E37's *legible and empty* wall, E38's ceiling (1.000 machine / 
 the successor's shape, MIN. **Status: standing, and the source of most of the controls.**
 
 Live traffic with the parent repository:
-[`../FOR_GHOST_SCALE_SIM.md`](../FOR_GHOST_SCALE_SIM.md) ·
-[`../FROM_GHOST_SCALE_SIM.md`](../FROM_GHOST_SCALE_SIM.md) ·
-[`../FOR_GHOST_SCALE_SIM_2.md`](../FOR_GHOST_SCALE_SIM_2.md) ·
-[**`../FROM_GHOST_SCALE_SIM_2.md`**](../FROM_GHOST_SCALE_SIM_2.md) ← newest, and it moves things
+[`../sim/FOR_GHOST_SCALE_SIM.md`](../sim/FOR_GHOST_SCALE_SIM.md) ·
+[`../sim/FROM_GHOST_SCALE_SIM.md`](../sim/FROM_GHOST_SCALE_SIM.md) ·
+[`../sim/FOR_GHOST_SCALE_SIM_2.md`](../sim/FOR_GHOST_SCALE_SIM_2.md) ·
+[**`../sim/FROM_GHOST_SCALE_SIM_2.md`**](../sim/FROM_GHOST_SCALE_SIM_2.md) ← newest, and it moves things
 
 ---
 
@@ -120,12 +120,12 @@ next door. **Kept as much for the lesson as for the estimate.**
 ## Reading order, cold start
 
 1. [SIM_REREAD](SIM_REREAD.md) — what is already constrained
-2. [**CONTROLS**](CONTROLS.md) — what a control licenses, and what killed ten measures
+2. [**CONTROLS**](../method/CONTROLS.md) — what a control licenses, and what killed ten measures
 3. [SURFACE_AND_DEPTH](SURFACE_AND_DEPTH.md) — the two axes
 4. [AFFECT_ARCHITECTURE](AFFECT_ARCHITECTURE.md) → [LEAKAGE](LEAKAGE.md) — the live measurement leg
-5. [THE_TRIANGLE](THE_TRIANGLE.md) **with** [`../FROM_GHOST_SCALE_SIM_2.md`](../FROM_GHOST_SCALE_SIM_2.md)
-6. [`../LEDGER.md`](../LEDGER.md) — every result
-7. [`../SUCCESSOR.md`](../SUCCESSOR.md) — what gets built
+5. [THE_TRIANGLE](THE_TRIANGLE.md) **with** [`../sim/FROM_GHOST_SCALE_SIM_2.md`](../sim/FROM_GHOST_SCALE_SIM_2.md)
+6. [`../method/LEDGER.md`](../method/LEDGER.md) — every result
+7. [`../design/SUCCESSOR.md`](../design/SUCCESSOR.md) — what gets built
 
 Provenance for every curator contribution:
 [`../../results/readings/PROVENANCE.md`](../../results/readings/PROVENANCE.md)

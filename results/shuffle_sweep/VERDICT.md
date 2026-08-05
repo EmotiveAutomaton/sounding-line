@@ -45,7 +45,7 @@ Both things are true and both should be said.
 
 **The methodological point stands, and this measures it exactly.** The three grains that stay *in
 distribution* agree tightly — **99%, 103%, 104%.** The word grain jumps to **127%**. That divergence
-is the artefact `docs/theory/CONTROLS.md` §3 predicted: word-shuffled text is out of distribution for
+is the artefact `docs/method/CONTROLS.md` §3 predicted: word-shuffled text is out of distribution for
 the reader, and the measurement moves to a different operating point rather than being ablated.
 **The original "121% survival" was ~27 points of that artefact.** The word shuffle was not entitled
 to its verdict.

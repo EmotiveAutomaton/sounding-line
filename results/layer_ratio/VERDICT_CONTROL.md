@@ -3,7 +3,7 @@
 > ## ⚠ PARTIAL RETRACTION — same day, 2026-08-05
 >
 > **C1 does not license the conclusion it was used for.** The curator challenged the shuffle test
-> hours after this was written, and he was right. See [`../../docs/theory/CONTROLS.md`](../../docs/theory/CONTROLS.md) §3.
+> hours after this was written, and he was right. See [`../../docs/method/CONTROLS.md`](../../docs/method/CONTROLS.md) §3.
 >
 > The shuffle test is exact for statistics computed from text, and **invalid for a measure read out
 > of a model's activations**. A permuted text is not "the same text minus order" — it is word salad,

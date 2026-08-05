@@ -156,7 +156,7 @@ to posterior breadth.
 > real text has been telling us how noisy the artifact is.
 
 **Down to two survivors: function words (ceiling = author ID) and the affect directions.** And
-§3 of `docs/theory/CONTROLS.md` just reopened the layer ratio, so call it two and a half.
+§3 of `docs/method/CONTROLS.md` just reopened the layer ratio, so call it two and a half.
 
 **The curator's mechanism is not refuted** — practice → automaticity → drives → variety is untouched,
 because the simulation says plainly it cannot test causation there. What is refuted is **our
@@ -280,4 +280,4 @@ Three things, and they are method rather than result:
 3. **It found the flaw in S-3's threshold** — fitted on labelled test data — which is precisely the
    class of error this project keeps making, and it caught it in its own work.
 
-`docs/theory/CONTROLS.md` §6 now carries a hierarchy of controls partly because of this file.
+`docs/method/CONTROLS.md` §6 now carries a hierarchy of controls partly because of this file.

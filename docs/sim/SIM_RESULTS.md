@@ -1,7 +1,7 @@
 # What the simulation returned, and what it costs Gate 3
 
 **2026-08-03.** Six questions sent, six answered — S-4 and S-5 merged, for a reason that is itself
-part of the answer. Full report: `../../FROM_GHOST_SCALE_SIM.md`.
+part of the answer. Full report: `../../sim/FROM_GHOST_SCALE_SIM.md`.
 
 **Mechanism only.** Nothing here says anything about real artifacts and none of it should be quoted
 as if it did. What it can do is tell you whether a statistic behaves, in a world where the truth is

@@ -12,7 +12,7 @@ He is right, and the distinction has teeth. The scaffolding I found in the first
 preregistration templates, research compendia, sanity-check statistics — is all for **establishing
 that a claim is true.** None of it helps **find a thing that works.** Those are different activities
 with different tooling, and I sent the first set to the simulation
-([`FOR_GHOST_SCALE_SIM_3.md`](FOR_GHOST_SCALE_SIM_3.md)) because that is the repo doing that job.
+([`FOR_GHOST_SCALE_SIM_3.md`](../sim/FOR_GHOST_SCALE_SIM_3.md)) because that is the repo doing that job.
 
 ---
 

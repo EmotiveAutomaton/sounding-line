@@ -50,7 +50,7 @@ goes.
 > effect "survives" being hit that hard is not a control; the measurement has been moved to a
 > different operating point and the comparison is between two incommensurable things.
 >
-> `docs/theory/CONTROLS.md` §3 argued this from the human/machine numbers (both arms moved up ~14%).
+> `docs/method/CONTROLS.md` §3 argued this from the human/machine numbers (both arms moved up ~14%).
 > **This is the direct measurement of it, on the controlled corpus, and it is worse than argued.**
 
 ### What the curve actually says about the measure

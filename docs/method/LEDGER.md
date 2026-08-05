@@ -5,7 +5,7 @@ consequence. Where a verdict has been revised, both the old and new appear — *
 overwritten**, because the revision history is most of what has been learned.
 
 Narrative versions live in `TEST_RESULT_BANK_1.md` and `TODAY_IN_PLAIN_ENGLISH.md`. **This file is
-the list.** Methodology for the controls: `theory/CONTROLS.md`.
+the list.** Methodology for the controls: `method/CONTROLS.md`.
 
 ---
 
@@ -90,7 +90,7 @@ Four became two and a half in one day.
 |---|---|---|
 | **function words** (`delta_classify`) | **alive** | author identification. 7.6× on identity, 2.05× within-author. Well-established; we are not past the field |
 | **affect directions** (`results/b`) | **alive** | 4× chance on held-out sentences, **not lexical**, bimodal across depth. Real, small, unexploited |
-| **layer ratio** | **reopened** | was called dead on shuffle evidence it was not entitled to. Not a human/machine discriminator (C3), but its status as a measure is **unresolved** — `theory/CONTROLS.md` §3 |
+| **layer ratio** | **reopened** | was called dead on shuffle evidence it was not entitled to. Not a human/machine discriminator (C3), but its status as a measure is **unresolved** — `method/CONTROLS.md` §3 |
 | ~~`purpose_breadth`~~ | **dead** 2026-08-05 | difficulty statistic |
 | **the five controls** | alive | shuffle, length, register, no-maker, and now rung −1 |
 
@@ -106,7 +106,7 @@ Kept in full. This is the most load-bearing section in the file.
 | **D-0** | FAIL | **INCONCLUSIVE** | post-hoc power simulation: 38%. The simulation touched no data |
 | **`separability()`** | trusted since D-0 | **wrong** | understated a known-good signal to absent. Every result using it was re-derived |
 | **`scale_gain`** | the primary measure | **disqualified in its own header** | TTR |
-| **layer ratio** | "the gap is vocabulary, 121% shuffle survival" | **"not a human/machine discriminator, on register grounds"** | the shuffle test is invalid for model-internal measures — it moved **both** arms up ~14%, a common-mode shift, not an ablation. `theory/CONTROLS.md` §3 |
+| **layer ratio** | "the gap is vocabulary, 121% shuffle survival" | **"not a human/machine discriminator, on register grounds"** | the shuffle test is invalid for model-internal measures — it moved **both** arms up ~14%, a common-mode shift, not an ablation. `method/CONTROLS.md` §3 |
 | **sim S-2** | `purpose_breadth` validated at matched density | **retracted** | the emitter ignored `artifact.goal`; feature streams bit-identical with the mixture off |
 | **sim S-3** | shield amplification: +0.125 detectability | **+0.046** | threshold was fitted per-cell on labelled test data. Effect survives at ⅓ size |
 | **the triangle** | three mutually bootstrapping vertices | **a directed flow, source → sink, additive** | T-1: three of six edges exactly zero; superadditive excesses mixed-sign and within noise |
@@ -115,7 +115,7 @@ Kept in full. This is the most load-bearing section in the file.
 
 ## §5. The controls, and their kill counts
 
-Full doctrine in `theory/CONTROLS.md`. Ranked by what they license, not by how often they fire.
+Full doctrine in `method/CONTROLS.md`. Ranked by what they license, not by how often they fire.
 
 | level | control | kills | notes |
 |---|---|---|---|

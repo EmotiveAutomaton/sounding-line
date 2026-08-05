@@ -19,7 +19,7 @@ raises rather than warns for this reason.
 ## Amendments to the spec
 
 `SOUNDING_LINE_SPEC.md` is pre-registered and is **not edited**. Amendments live in
-[`gate0/LITERATURE.md` §8](gate0/LITERATURE.md) — A-1 through A-5 — because that is where they were
+[`gate0/LITERATURE.md` §8](../gates/gate0/LITERATURE.md) — A-1 through A-5 — because that is where they were
 decided. They are indexed here so this file is the single entry point.
 
 | id | what changed | where decided |

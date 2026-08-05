@@ -1,7 +1,23 @@
 # Working notes for an agent picking this up
 
-**Read [`docs/STATE.md`](docs/STATE.md) first.** It is written to survive a context compaction and
-is the only file that has to be current.
+**Read [`FINDINGS.md`](FINDINGS.md) first, then [`docs/STATE.md`](docs/STATE.md).**
+
+`FINDINGS.md` is the **source of truth** and the curator's file — the rolling record of every result,
+tiered so that closed questions compress to one line and live ones keep their method visible.
+`docs/STATE.md` is *your* file: what is running, the working agreements, and orientation after a
+context loss.
+
+## Hard rules about FINDINGS.md
+
+- **Update it at the end of every working session**, not per result.
+- **You may promote an item from tier 1 to tier 2** when it has a verdict file and its controls.
+- **You may never promote to tier 3.** Only the curator closes an item, by reading the method and
+  saying he cannot poke a hole in it. Record the date. This exists so that *you* cannot decide
+  something is settled enough to stop describing.
+- **Nothing is deleted.** A ruled-out result stays, at one line.
+- **Every verdict change gets a row in the reversal log**, including who caught it.
+- **Keep the "known weaknesses" section honest and current.** It is the most useful part of the file
+  and the temptation is always to let it go stale.
 
 ## Hard rules
 

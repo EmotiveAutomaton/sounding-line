@@ -43,7 +43,7 @@ That is why they are ahead of anything that could produce a positive result.
 ## §4. The standing bar — revised
 
 Ten measures died. Each control is a grave with a name on it. **Ordered by what it licenses now,
-not by how often it fires** — see [`theory/CONTROLS.md`](theory/CONTROLS.md).
+not by how often it fires** — see [`method/CONTROLS.md`](../method/CONTROLS.md).
 
 1. **Construction** — hold register, topic, format, generator fixed by *building* the corpus that
    way. The ladder. C3. **This is the only control that has never been wrong.**

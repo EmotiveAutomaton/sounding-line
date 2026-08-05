@@ -20,7 +20,7 @@
 > for it. Any replacement must survive a **difficulty control**, which neither of the two tried so far
 > would have.
 >
-> → [`../../docs/FROM_GHOST_SCALE_SIM_2.md`](../../docs/FROM_GHOST_SCALE_SIM_2.md) · [`../../docs/LEDGER.md`](../../docs/LEDGER.md)
+> → [`../../docs/sim/FROM_GHOST_SCALE_SIM_2.md`](../../docs/sim/FROM_GHOST_SCALE_SIM_2.md) · [`../../docs/method/LEDGER.md`](../../docs/method/LEDGER.md)
 
 **2026-08-05.** 337 windows, 10 authors, early works against late works by the same person.
 Identity controlled by construction. CPU only.

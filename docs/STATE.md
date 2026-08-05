@@ -1,11 +1,14 @@
-# STATE — read this first after any context loss
+# STATE — the agent's operational file
 
-**The one file that survives a compaction.** Updated **2026-08-05**, after the second simulation
-batch returned and after the shuffle test was challenged and partly overturned.
+**Updated 2026-08-05.** Written to survive a context compaction.
 
-> **Two of four surviving measures died on 2026-08-05.** If you are reading this cold, the fastest
-> honest orientation is [`LEDGER.md`](LEDGER.md) — every test, verdict and retraction in one table —
-> followed by [`theory/CONTROLS.md`](theory/CONTROLS.md), which is why several verdicts changed.
+> **Read [`../FINDINGS.md`](../FINDINGS.md) first.** It is the source of truth, it is the curator's
+> file, and it is tiered so closed questions stay short. **Where this file and FINDINGS disagree,
+> FINDINGS wins.**
+>
+> This file is the operational companion: what is running, the working agreements, and the things
+> that were expensive to learn. Then [`method/LEDGER.md`](method/LEDGER.md) for every test in one
+> table, and [`method/CONTROLS.md`](method/CONTROLS.md) for why several verdicts changed.
 
 Everything below is either *true right now* or *the next thing to do*. Argument lives elsewhere and
 is linked.
@@ -31,7 +34,7 @@ against between-half 0.087 — the card says that outranks the p-value).
 
 Next up, and both are methodological because both would have caught errors already made:
 **rung −1** (the ceiling control) then the **shuffle granularity sweep**. Full list:
-[`QUEUE.md`](QUEUE.md).
+[`QUEUE.md`](design/QUEUE.md).
 
 **Standing:** do not narrate per-artifact numbers from a running gate. Score once, at the end,
 with the locked script.
@@ -138,7 +141,7 @@ distribution, and it shifted *both* arms of the layer-ratio comparison upward by
 change of operating point, not an ablation. Underneath that, the premise was also wrong:
 **"vocabulary" is two things**, and word choice is a *decision channel*, not a confound. The confound
 we actually need to exclude is register/topic/genre, and construction excludes it directly.
-→ [`theory/CONTROLS.md`](theory/CONTROLS.md). The curator raised this; he was right.
+→ [`method/CONTROLS.md`](method/CONTROLS.md). The curator raised this; he was right.
 
 **b. `purpose_breadth` is dead.** Sim T-2: it is confounded with **difficulty**. At matched
 difficulty, excess breadth attributable to motivational diversity is **−0.013 to −0.025** — zero.
@@ -158,7 +161,7 @@ instrument consequence.** That result saved a week.
 curator's prior**: the count is well-defined where **mode dwell is long**. Dwell moves posterior
 concentration **2× what artifact length does**. That specifies a corpus.
 
-Full detail: [`FROM_GHOST_SCALE_SIM_2.md`](FROM_GHOST_SCALE_SIM_2.md).
+Full detail: [`FROM_GHOST_SCALE_SIM_2.md`](sim/FROM_GHOST_SCALE_SIM_2.md).
 
 ---
 
@@ -234,12 +237,12 @@ emissions. Synthetic forward, real inverse. See [`theory/OPTION_D.md`](theory/OP
 
 | | |
 |---|---|
-| **every test, verdict and retraction** | [**`LEDGER.md`**](LEDGER.md) |
-| **what a control licenses** | [**`theory/CONTROLS.md`**](theory/CONTROLS.md) |
-| **the second simulation batch** | [**`FROM_GHOST_SCALE_SIM_2.md`**](FROM_GHOST_SCALE_SIM_2.md) |
-| what is left to run, and what was cancelled | [`QUEUE.md`](QUEUE.md) |
+| **every test, verdict and retraction** | [**`LEDGER.md`**](method/LEDGER.md) |
+| **what a control licenses** | [**`method/CONTROLS.md`**](method/CONTROLS.md) |
+| **the second simulation batch** | [**`FROM_GHOST_SCALE_SIM_2.md`**](sim/FROM_GHOST_SCALE_SIM_2.md) |
+| what is left to run, and what was cancelled | [`QUEUE.md`](design/QUEUE.md) |
 | whole theory, organised by content | [`theory/README.md`](theory/README.md) |
-| what gets built next | [`SUCCESSOR.md`](SUCCESSOR.md) |
+| what gets built next | [`SUCCESSOR.md`](design/SUCCESSOR.md) |
 | every curator contribution → what it changed | [`../results/readings/PROVENANCE.md`](../results/readings/PROVENANCE.md) |
 | the two reading sessions | [`../results/readings/`](../results/readings/) |
-| deviations from locked criteria | [`DEVIATIONS.md`](DEVIATIONS.md) |
+| deviations from locked criteria | [`DEVIATIONS.md`](method/DEVIATIONS.md) |
