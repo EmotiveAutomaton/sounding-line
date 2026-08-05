@@ -51,20 +51,32 @@ is no longer a measure; it is that **we have never once had a controlled compari
 You said you keep uncovering little issues in the methods. You are right to, and here is the list I
 would use to attack this project. **None of these are resolved.**
 
-**1 · No multiple-comparison correction anywhere.** We have run roughly 25 tests. At p < 0.05 we
-should expect at least one false positive by chance alone. Our strong positives sit at p < 1e-13 and
-survive any correction; **our one order-dependent effect does not** — see weakness 2.
+**1 · ~~No multiple-comparison correction anywhere.~~ RESOLVED 2026-08-05, and it held up.**
+19 primary tests corrected together (`results/audit/multiplicity.json`; controls excluded, because
+correcting a test whose job is to *kill* one of our measures would make measures harder to kill).
+**12 significant uncorrected → 12 under Benjamini-Hochberg → 10 under Benjamini-Yekutieli.** Only
+`tentative_rate vs rung` and `causal_rate transfer vs thin` were lost, and neither is load-bearing.
+**Everything load-bearing survives.** It also confirms in writing that the layer ratio vs rung was
+never significant at n = 50 — BY p = 0.274. Standing rule now: new tests get added to that family.
 
-**2 · The headline "surviving" effect is not statistically significant.** The layer ratio on the
-ladder is **rho = −0.275, p = 0.0529, n = 50.** That is above 0.05 *uncorrected*. It is the only
-effect in the project that has ever needed word order, and I have been describing it as the most
-interesting thing we have. **It is one artifact's worth of noise away from nothing.** This should be
-the first thing anyone attacks.
+**2 · ~~The headline effect is not statistically significant.~~ RESOLVED 2026-08-05 by replication.**
+It was rho = −0.275, **p = 0.0529, n = 50**. On a held-out 100-artifact ladder with hyperparameters
+frozen: **rho = −0.247 raw (p = 0.0132), and rho = −0.405 length-controlled (p < 0.0001).**
+The curator's rule — *near-significance means raise the power* — worked exactly as stated.
+See `results/ladder2/VERDICT.md`. **The effect is still modest and still only on machine text.**
 
-**3 · Researcher degrees of freedom in the layer ratio.** `ratio_for()` splits the model at layers
-`0.07 × depth` and `0.76 × depth`. Those loci were **chosen by looking at a prior result on the same
-model** and were never cross-validated or held out. That is a forking path, and it is exactly the
-kind of thing that manufactures a p = 0.053.
+**3 · Researcher degrees of freedom in the layer ratio. PARTLY RESOLVED.** `ratio_for()` splits the
+model at `0.07 × depth` and `0.76 × depth`, and those loci were **chosen by looking at a prior result
+on the same model**. They were **frozen and held out** on ladder 2 and produced a *larger* effect on
+data they had never seen, which is the strongest available answer. **Still unresolved:** the choice
+of measure *family* was ours, and no held-out set fixes that.
+
+**3b · Length is a suppressor on the layer ratio, not a confound — and this was found late.**
+Longer texts have a *higher* ratio (+0.248) while higher rungs produce longer texts (+0.401), so
+length pushes the ratio **against** the effect. This is the first time in the project a length
+correlation has not been a cause of death, and it explains ladder 1's marginal p. **Every measure
+killed on a length correlation was killed without checking the direction of the relationship.**
+That is a methodological hole in past work, and it is not yet closed.
 
 **4 · Every positive rides on machine-written or public-domain text.** The ladder is 50 artifacts,
 all generated. Author ID is books. **We have never had a controlled corpus of human artifacts**, which
@@ -88,20 +100,34 @@ Nothing new should be claimed on it.
 
 ## TIER 1 · LIVE — contestable, method visible
 
-### The one order-dependent effect, and it is fragile
+### The one order-dependent effect — **replicated held-out 2026-08-05**
 
-**What we did.** Generated 50 articles from one model on 12 topics, varying only how many
-situational specifications the prompt carried (0/1/3/6/10, drawn at random, so no two prompts alike),
-then measured the ratio of low-order to high-order affective activation in a reading model across the
-rungs.
+**What we did.** Generated 50 articles from one model on 12 topics, varying only how many situational
+specifications the prompt carried (0/1/3/6/10, drawn at random, so no two prompts alike), then
+measured the ratio of low-order to high-order affective activation in a reading model across the
+rungs. When it came back at p = 0.0529, generated **100 more at fresh seeds and rotated topics** and
+re-ran it once with **every hyperparameter frozen**.
 
-**What we found.** The ratio falls as specified intent rises: **rho = −0.275, p = 0.0529.** Shuffling
-paragraphs or sentences leaves it alone; shuffling 5-word phrases costs a full ladder span. So
-whatever it is, it lives at or below the sentence and it needs local word order — **the only effect
-in the project that has ever required order.**
+**What we found.**
 
-**Verdict: OPEN**, and weak. p = 0.053, plus weakness 3 above. Do not build on it until it replicates
-on a corpus that is not this one.
+| | rho | p |
+|---|---|---|
+| ladder 1, n = 50 | −0.275 | 0.0529 |
+| **ladder 2 held out, n = 100, raw** | **−0.247** | 0.0132 |
+| **ladder 2, length-controlled ← primary** | **−0.405** | **<0.0001** |
+
+Shuffling paragraphs or sentences leaves it alone; shuffling 5-word phrases costs a full ladder span.
+**It lives at or below the sentence and it needs local word order — the only effect in this project
+that has ever required order.**
+
+**And length turned out to be hiding it, not causing it.** I wrote the opposite prediction into the
+runner in advance. Longer texts have a higher ratio while higher rungs produce longer texts, so
+length works *against* the effect; removing it nearly doubles it.
+
+**Verdict: OPEN, replicated.** It does **not** move to POSITIVE, and the reason is not statistical:
+**every rung is machine-written by the same model.** It shows the measure tracks specified intent
+within one generator. Whether it does anything on human artifacts is weakness 4, which is a corpus
+problem, not a measurement problem.
 
 ### Stacking weak effects into a detector — your idea, evaluated
 

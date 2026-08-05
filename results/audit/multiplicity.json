@@ -1,0 +1,202 @@
+{
+  "n_family": 19,
+  "n_sig_raw": 12,
+  "n_sig_bh": 12,
+  "n_sig_by": 10,
+  "lost_to_correction": [
+    "ladder: tentative_rate vs rung",
+    "causal_rate transfer: vs thin"
+  ],
+  "tests": [
+    {
+      "test": "layer ratio human vs machine",
+      "p_raw": 1.96e-15,
+      "p_bh": 3.724e-14,
+      "p_by": 1.3211782483203072e-13,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/shuffle_sweep/VERDICT.md"
+    },
+    {
+      "test": "ladder: you_rate vs rung",
+      "p_raw": 1e-07,
+      "p_bh": 9.5e-07,
+      "p_by": 3.3703526742864975e-06,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/ladder/ladder.json"
+    },
+    {
+      "test": "ladder: causal_rate vs rung",
+      "p_raw": 1e-06,
+      "p_bh": 6.3333333333333326e-06,
+      "p_by": 2.246901782857665e-05,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/ladder/ladder.json"
+    },
+    {
+      "test": "ladder: TTR vs rung",
+      "p_raw": 1e-05,
+      "p_bh": 3.8e-05,
+      "p_by": 0.0001348141069714599,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/ladder/ladder.json"
+    },
+    {
+      "test": "ladder: scale_gain vs rung",
+      "p_raw": 1e-05,
+      "p_bh": 3.8e-05,
+      "p_by": 0.0001348141069714599,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/ladder/ladder.json"
+    },
+    {
+      "test": "human vs no-maker, scale_gain",
+      "p_raw": 0.0005,
+      "p_bh": 0.0015833333333333333,
+      "p_by": 0.005617254457144162,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/controls/VERDICT.md"
+    },
+    {
+      "test": "ladder: insight_rate vs rung",
+      "p_raw": 0.0009,
+      "p_bh": 0.002442857142857143,
+      "p_by": 0.008666621162450995,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/ladder/ladder.json"
+    },
+    {
+      "test": "causal_rate transfer: vs rich",
+      "p_raw": 0.0011,
+      "p_bh": 0.0026125000000000002,
+      "p_by": 0.00926846985428787,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/rung_minus1/VERDICT.md"
+    },
+    {
+      "test": "rich vs thin, scale_gain",
+      "p_raw": 0.0032,
+      "p_bh": 0.006459999999999999,
+      "p_by": 0.022918398185148178,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/controls/VERDICT.md"
+    },
+    {
+      "test": "ladder: i_rate vs rung",
+      "p_raw": 0.0034,
+      "p_bh": 0.006459999999999999,
+      "p_by": 0.022918398185148178,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": true,
+      "source": "results/ladder/ladder.json"
+    },
+    {
+      "test": "ladder: tentative_rate vs rung",
+      "p_raw": 0.0133,
+      "p_bh": 0.02297272727272727,
+      "p_by": 0.08150125557820075,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": false,
+      "source": "results/ladder/ladder.json"
+    },
+    {
+      "test": "causal_rate transfer: vs thin",
+      "p_raw": 0.025,
+      "p_bh": 0.03958333333333334,
+      "p_by": 0.14043136142860407,
+      "sig_raw": true,
+      "sig_bh": true,
+      "sig_by": false,
+      "source": "results/rung_minus1/VERDICT.md"
+    },
+    {
+      "test": "layer ratio vs rung (THE ONE)",
+      "p_raw": 0.0529,
+      "p_bh": 0.07731538461538462,
+      "p_by": 0.2742948561073165,
+      "sig_raw": false,
+      "sig_bh": false,
+      "sig_by": false,
+      "source": "results/layer_ratio/layer_ratio.json"
+    },
+    {
+      "test": "causal_rate transfer: vs averaged",
+      "p_raw": 0.069,
+      "p_bh": 0.09364285714285715,
+      "p_by": 0.3322204778939548,
+      "sig_raw": false,
+      "sig_bh": false,
+      "sig_by": false,
+      "source": "results/rung_minus1/VERDICT.md"
+    },
+    {
+      "test": "ladder: exclusive_rate vs rung",
+      "p_raw": 0.0917,
+      "p_bh": 0.11615333333333334,
+      "p_by": 0.4120817869760958,
+      "sig_raw": false,
+      "sig_bh": false,
+      "sig_by": false,
+      "source": "results/ladder/ladder.json"
+    },
+    {
+      "test": "W-1 wall as displacement",
+      "p_raw": 0.53,
+      "p_bh": 0.629375,
+      "p_by": 1.0,
+      "sig_raw": false,
+      "sig_bh": false,
+      "sig_by": false,
+      "source": "results/wall/VERDICT.md"
+    },
+    {
+      "test": "diversity: sign test",
+      "p_raw": 0.62,
+      "p_bh": 0.68,
+      "p_by": 1.0,
+      "sig_raw": false,
+      "sig_bh": false,
+      "sig_by": false,
+      "source": "results/diversity/VERDICT.md"
+    },
+    {
+      "test": "diversity: career vs breadth",
+      "p_raw": 0.65,
+      "p_bh": 0.68,
+      "p_by": 1.0,
+      "sig_raw": false,
+      "sig_bh": false,
+      "sig_by": false,
+      "source": "results/diversity/VERDICT.md"
+    },
+    {
+      "test": "G3.1 method unlock, A vs B",
+      "p_raw": 0.68,
+      "p_bh": 0.68,
+      "p_by": 1.0,
+      "sig_raw": false,
+      "sig_bh": false,
+      "sig_by": false,
+      "source": "results/gate3/VERDICT.md"
+    }
+  ]
+}
