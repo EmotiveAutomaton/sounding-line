@@ -42,7 +42,9 @@ interpretability at once, and the same word means different things in each.
 | **held out** | measured on data that played no part in choosing the measure or its settings |
 | **echo** | the artifact simply repeating something the prompt said. Not a maker signal |
 | **within-artifact variation** | how much a quantity wobbles between the beginning, middle and end of one piece, rather than its average |
-| **legibility** | how recoverable the maker's *goal* is. The third simulation batch makes this the master variable |
+| **register** | the *kind* of writing — an essay, a legal notice, ad copy. Register carries a whole bundle of word choices that follow from the category rather than from the person, which is why it imitates a maker signal so well |
+| **legibility** | how recoverable the maker's *goal* is |
+| **induction** | the prompt *causing* a feature without *containing* it. Distinct from echo, and harder to see |
 
 ---
 
@@ -118,19 +120,45 @@ Reordering paragraphs or whole sentences leaves it untouched; scrambling five-wo
 full ladder's worth of effect. **It lives at or below the sentence and it needs local word order —
 the only effect in this project that has ever required order.**
 
-**Reversal folded in.** This was first reported as *"the gap is vocabulary"* on the basis of a
-word-shuffling control. **That was withdrawn** — the curator challenged the shuffle test and was
-right; scrambling words perturbs the measure about three times harder than the effect being
-adjudicated, so it was never a valid control here. The conclusion it supported (that this is **not**
-a human-versus-machine discriminator) survives on a separate register control that never used
-shuffling.
+Length **hides** this effect rather than causing it: longer texts score higher and higher rungs are
+slightly longer, so length pushes against it.
 
-**Also folded in:** length turned out to be **hiding** this effect rather than causing it. Longer
-texts score higher, and higher rungs are slightly longer, so length pushes against the effect.
+**Its established limits.** It is **not** a human-versus-machine discriminator: on that comparison it
+keeps 99% of its size when every sentence is reordered, and commercial copy sits a quarter of the way
+toward machine text — so on uncontrolled populations it reads **register**, not maker. It only means
+anything where register is fixed by construction, which is what the ladder does.
 
-**Verdict: OPEN, replicated.** It does not become POSITIVE for a non-statistical reason: **every rung
-is machine-written by the same model.** And it is exposed to weakness 3 — semantic induction — which
-is queued.
+**It survives the induction check** — the one that killed all three text-feature candidates. Learning
+out-of-fold how well the identity of the drawn specifications predicts the ratio, and removing both
+that and length, the relationship holds at **−0.26, *p* = 0.009**. Specification identity explains
+0.39 of the ratio on its own, so it is entangled but not explained by it. **One awkward detail worth
+keeping visible:** removing specification identity *alone* weakens the effect to −0.13 and it stops
+being significant; it only firms up when length is removed as well. That is consistent with length
+suppressing it, but it is not a clean pattern.
+
+**Verdict: OPEN, replicated, and it has now passed every control we own** — held-out replication with
+settings frozen, length, word-order granularity, noise ceiling, and induction. It does not become
+POSITIVE for a non-statistical reason: **every rung is machine-written by the same model.** Whether it
+does anything on human artifacts is weakness 1.
+
+### What the simulation says about how to read any process-side number
+
+Four independent modules in the third batch converge on this, and it is the most useful thing they
+have produced:
+
+> **How recoverable the goal is governs how readable everything else is.** Seams between decisions
+> are findable when purpose is legible and nearly invisible when it is not — a threefold to tenfold
+> difference. A process-side reading quoted without a legibility figure beside it is not
+> interpretable.
+
+**The curator's objection, recorded, and it is a real one.** He argues the relationship is not
+one-directional, because **process knowledge ratchets the other way too.** Walking up to an unknown
+oil painting, you can enter through metaphor, through technique, or through mechanics — *how the hand
+moved* — and **any** of the three gets you closer to the maker's goal. The three layers are
+hierarchical, and entry is possible at any level. If that is right, "legibility first" is a property
+of the simulation's particular knob rather than of reading, and the simulation names exactly that
+limit itself: its legibility control attenuates in one specific way, and whether real illegibility has
+that shape is what a simulation cannot say.
 
 ## L2 · Three candidate measures from the feature sweep
 
@@ -154,16 +182,26 @@ echo → **3 that survive length.**
 > **61 of the 81 replicated features were machine-detectors.** Without that filter we would have
 > adopted the solved problem as our result.
 
-| feature | correlation strength, length-controlled |
-|---|---|
-| **conditional constructions** (*if*, *unless*) | **+0.49** |
-| contractions | +0.37 |
-| phrasal coordination | −0.25 |
+Then we asked the harder question the echo check could not: does the prompt *cause* the feature
+without *containing* it? The specifications are drawn at random, so we could learn out-of-fold how
+well the identity of the drawn specifications alone predicts each feature, and test whether the
+amount of intent still predicted what that could not explain.
 
-**Verdict: OPEN, three candidates, none adopted.** They owe the semantic-induction check (weakness 3),
-a transfer test on human text, and a noise-ceiling check. Conditional constructions are the most
-theory-shaped — a conditional is the linguistic form of *a decision under a constraint* — and also the
-most exposed to induction, since several specifications describe varying circumstances.
+| feature | length-controlled | after specification identity | after **both** |
+|---|---|---|---|
+| **conditional constructions** (*if*, *unless*) | +0.49 | +0.25 | **+0.18, not significant** |
+| contractions | +0.37 | +0.03 | — |
+| phrasal coordination | −0.25 | −0.18 | — |
+
+**Specification identity alone explains most of the conditional effect** (0.54 of it). Contractions
+collapse entirely — *"warmly, as though to someone you like"* contains no contractions and produces
+them.
+
+**Verdict: RULED OUT, all three.** The most promising candidate this project has produced from
+outside sources does not survive its own controls. **The funnel worked and the answer is no.**
+
+The one durable result is the funnel itself: **61 of 81 replicated features were machine-detectors**,
+and the filter that removed them is now standard.
 
 ## L3 · Does the variation of the veneer carry the maker?
 
@@ -224,12 +262,10 @@ single component **on held-out data**, and its errors must not be the same error
 |---|---|---|
 | **Decision density can be counted from an artifact** | It was word count (0.88), then after correction it was vocabulary diversity (−0.88) | length, then vocabulary |
 | **Machine text written *with* a purpose ranks above machine text written without** | Perfect theory-shaped ordering, then died to controls | length and register |
-| **Some measure ranks five rungs of specified intent** *(original ladder verdict)* | Voided: rung and output length correlate at 0.40 against a pre-registered 0.40 limit. **Reproduced at 0.40 on the second ladder — structural to the design** | length |
 | **Motivational variety is measurable as breadth of recovered purpose** | Simulation showed it tracks **how hard the goal is to recover**, not variety. Confirmed twice (T-2, T-9) | it is a difficulty meter |
 | **Our own statistic detects whether a feature vector separates groups** | Said "no group information" on **author identification** | wrong statistic; replaced |
 | **A reader moves further from its resting state for a human maker** | −0.005, no effect. Clean measure, real null | genuine negative |
 | **Function-word vectors separate specified maker states** | The channel carries identity, not state | genuine negative |
-| **Low-order affective response separates human from machine text** | The gap keeps 99% of itself when every sentence is reordered; commercial copy sits a quarter of the way toward machine text | register |
 | **Causal connectives track intent** | Ranked the ladder cleanly with no echo, then **inverted on humans** — machines use nearly twice as many | it measures explicitness, not depth |
 
 ## VOID — could not answer their own question
@@ -240,6 +276,7 @@ single component **on held-out data**, and its errors must not be the same error
 | **Function words separate maker states** *(first attempt)* | Ran at 38% power — its median outcome under a real effect was below its own threshold |
 | **A reader refuses differently on human and machine text** | Its pass condition was a coin flip: a 50% false-positive rate by arithmetic |
 | **Reader displacement varies more for machines** | Three artifacts |
+| **Some measure ranks five rungs of specified intent** *(the ladder's own first verdict)* | Voided on its own pre-registered limit: how many specifications a prompt carried and how long the output came out correlate at 0.40 against a 0.40 ceiling. **Reproduced at 0.40 on the second ladder, so it is structural to the design, not bad luck.** The measuring instrument was insufficient; it says nothing about the hypothesis |
 
 ## What the simulation established — with the question each was answering
 
@@ -257,40 +294,6 @@ Ground truth, which we do not have here. Three batches.
 | **T-5** | Reading the process side beats reading the goal side, as a detector | **Tie.** No instrument consequence |
 | **T-7** | Our simulation results survive correction for multiple testing | **Yes** — 17 claims lost, none of them a live effect in a cell with room to measure |
 | **T-8** | Bigger feature banks beat small curated feature sets | **No.** Ten hand-picked features reach near-perfect; sixty more from a generic bank gain little and can lose a lot |
-
-### The batch-two reversal, stated plainly
-
-**I reported to you that the triangle is not a triangle — that it is a one-way flow with the goal as a
-dead end. Withdraw that.** Batch three computed the information budget in closed form rather than by
-sampling, and the edge from goal to process is not dead. It is an edge the model can only *create*
-under a setting that simultaneously removes the room needed to *measure* it. The one measurement that
-did show coupling was dismissed as noise by batch two. **The structure question is open again.**
-
-What does survive: **the three are not symmetric peers.** The goal is free-standing and carries 84% of
-what a single observation offers. The other two are conditional — one of them contributes *exactly
-nothing* on its own and becomes informative only in context.
-
-### The through-line, and it is the most useful thing in three batches
-
-> **Goal legibility is the master variable. Every process-side reading is conditional on it.**
-
-Four independent modules land on this. Seams between decisions are findable when the purpose is
-legible and nearly invisible when it is not — a threefold-to-tenfold difference. What looked like a
-measure of motivational structure was tracking legibility instead.
-
-**For the instrument: measure legibility first, and treat every process-side number as conditional on
-it.** A process reading quoted without a legibility figure beside it is not interpretable.
-
-**And its own stated limit:** there is no human data anywhere in the simulation. Every number is a
-property of one generative model. Quote directions, not magnitudes.
-
-### T-10 — the finding that reopens a closed door
-
-**Hypothesis:** decision-counting is dead because *which* sub-goal is active can never be pinned down.
-**Batch three's correction:** that kills *which*, not *when*. Step-to-step movement of the reader's
-belief ranks true switch-points above non-switch points against a null that preserves the
-trajectory's shape and destroys only its alignment, and the maker's switching **rate** is readable at
-0.45. **Seam-finding is alive.** It is a different instrument from the one we abandoned.
 
 ## The human readings — the most load-bearing evidence, and one reader
 

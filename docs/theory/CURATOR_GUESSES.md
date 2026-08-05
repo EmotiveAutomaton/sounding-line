@@ -212,6 +212,103 @@ something recovered from it. Blocked on A1 — the vertex does not exist yet.
 
 ---
 
+## E · Added 2026-08-05, reading the findings — and two of these are new theory
+
+### E1 · Process is **hierarchical**, and you can enter the decode at any level — **UNTESTED**
+
+> Walking up to an unknown oil painting, you can engage with it on the level of **metaphor** — why
+> did the author craft what they did. On the level of **technique**, like perspective. On the level of
+> **mechanics** — how did they move their hand as they painted.
+>
+> **You can use any piece of knowledge about any of those three channels to begin the decoding.**
+
+**This is a direct challenge to the simulation's headline.** Batch three concluded that goal
+legibility is the master variable and every process-side reading is conditional on it. E1 says the
+ratchet runs both ways: knowing the *mechanics* gets you toward the goal just as knowing the goal gets
+you toward the process.
+
+**And the simulation names exactly this as its own limit** — its legibility knob attenuates in one
+particular way, and whether real illegibility has that shape is what a simulation cannot say. So this
+is not a fringe objection; it is the objection the simulation itself flagged.
+
+**What would test it:** supply *mechanics-level* information (sentence-level craft) rather than
+goal-level information, and measure recovery at the other vertices. That is the missing direction in
+the whole edge programme — every edge tested so far supplies a goal or a process, never a
+**mechanic**.
+
+### E2 · Values are the **alignment of all the hidden goals** — ★ **new, and he flagged it himself**
+
+> Maybe values come from an alignment of all of the hidden author's goals. And the idea that you're
+> **outputting a little bit of all of your goals at all times** — that they're all being satisfied in
+> one way or another. Perhaps that's the binding that we're looking for.
+>
+> *"Everything else before this felt like dithering to me, but this one feels like it might be a real
+> thing."*
+
+**This is a candidate answer to his own longest-standing open question — *are drives values?*** — and
+it arrives from a different direction than the one that failed.
+
+**Why it matters mechanically.** Simulation T-6 found the values vertex does not exist in the current
+model: it is a deterministic coarsening of the goal, adding exactly zero information. E2 says that is
+the wrong construction. Values are not *another vertex* — they are **the constraint that every goal is
+being partially satisfied simultaneously**. That is a property *of the goal mixture*, not a separate
+factor, which would explain why every attempt to model it as a separate factor collapsed.
+
+**What would test it:** a generative model where an emission must partially satisfy *all* active
+drives rather than serving one at a time, and then asking whether the pattern of partial satisfaction
+is recoverable and stable across artifacts by the same maker. **That is a build, and it is the first
+well-posed version of the values question this project has had.**
+
+### E3 · Interest is **unexplained decisions**, and aesthetics is ordered unexplained decisions — **UNTESTED**
+
+> Interest comes from finding decisions that you can't attribute meaning to, which implies there's
+> more meaning you don't fully understand — either a **process** you aren't aware of, or an **extra
+> motivation** you aren't aware of.
+>
+> **Artfulness is making a lot of unexplained decisions. Aesthetics is the appearance of having made
+> unexplained decisions but for a reason, in an ordered sense.**
+
+**This connects his anomaly-entry detector (B2) to a mechanism**, and it lands on established ground
+in empirical aesthetics without having been derived from it — which is worth noting because it is the
+opposite of the hivemind failure.
+
+- **Berlyne's collative variables** — novelty, complexity, uncertainty, conflict — are precisely
+  "features whose explanation is not yet available", and they are the classical drivers of interest
+  and exploratory behaviour, on an inverted-U where too little and too much both kill it.
+- **Processing-fluency** accounts sit at the opposite pole: pleasure from ease. The tension between
+  the two is the live debate.
+- **His "ordered but unexplained" formulation is close to *effective complexity*** — structure that is
+  neither random nor trivially regular. That is a real, formalisable quantity.
+
+**Why this is more than a nice analogy:** it makes *interest* a proxy for *unrecovered decisions*,
+which is the quantity this whole project is trying to measure. If interest is what a reader feels when
+decisions are present but unattributed, then **reader-reported interest is an instrument** — and it is
+one we could ask a human for directly.
+
+### E4 · "Polish", not "veneer" — terminology
+
+His own correction. **Polish** is the better word for the surface layer, and under the theory polish
+is just **aesthetics**. The open question he raised: is there anything in art theory distinguishing
+aesthetics that *indicate* deeper understanding from **performative** aesthetics? E3 is arguably his
+own answer — performative polish would be *ordered* without being *unexplained*.
+
+### E5 · Stacked motivations should raise the intent reading — **UNTESTED, and he disbelieves our null**
+
+> If you gave a machine a bunch of different goals and told it to balance all of them before it wrote
+> something, it would actually get more of a purpose ranking along any intent register.
+>
+> We should **start at the extremes** — three pages of different motivations stacked on top of each
+> other that are all reasonably capable of aligning, against a machine writing with just one or two.
+
+He does not believe the ruled-out verdict on machine-text-written-with-purpose, and the specific
+complaint is that **our manipulation was too weak.** The ladder tops out at ten short specifications.
+He is proposing an order of magnitude more, **with length controlled hard.**
+
+Note this is E2 restated as an experiment: *all goals partially satisfied at once* is exactly what
+"three pages of motivations that all reasonably align" produces.
+
+---
+
 ## D · Method claims he has made, and their track record
 
 **He is 5 for 5 on methodology.** Recorded because it is decision-relevant: when he pushes back on a
