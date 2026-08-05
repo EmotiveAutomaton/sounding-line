@@ -95,6 +95,26 @@ mean intact, −0.433 of the mean shuffled). The gap was carried along by the sh
 Two of the ten dead measures were model-internal and were killed partly on shuffle evidence. They go
 back to **unresolved**, not to alive. See `docs/LEDGER.md`.
 
+> ### Follow-up, same day — the sweep ran, and it settles this
+>
+> `results/shuffle_sweep/VERDICT.md` measured the human/machine gap at all four grains:
+>
+> | | paragraph | **sentence** | phrase | word |
+> |---|---|---|---|---|
+> | gap retained | 103% | **99%** | 104% | **127%** |
+>
+> **The three in-distribution grains agree to within five points; the word grain diverges by 27.**
+> That is the argument of this section turned into a measurement — the word shuffle's inflation is
+> real and quantified.
+>
+> **And the conclusion it was not entitled to was correct anyway.** The gap needs no discourse order
+> at all, so the layer ratio is **settled dead** as a human/machine discriminator rather than
+> unresolved. The retraction improved the reasoning, not the answer. The other model-internal measure
+> remains unresolved.
+>
+> Both replacements are now in service: **sentence shuffle** as the order test, and a **positive
+> control** (Delta author ID, 6.89× identical at all four grains) gating the harness.
+
 ---
 
 ## §4. The randomness worry, in the form that survives

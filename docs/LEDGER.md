@@ -36,6 +36,8 @@ the list.** Methodology for the controls: `theory/CONTROLS.md`.
 | **GRAIN** | shuffle granularity sweep | at what scale does an effect live? | **the control was 3× the signal** | ladder spans 0.050; word-shuffling moves the layer ratio **0.140**. Paragraph/sentence shuffling move it ~nothing |
 | **ECHO** | ladder measures vs their own prompts | is the rung effect instruction echo? | **2 of 5 clean** | `causal_rate` and `i_rate` have **zero** of their category in any prompt. `you_rate` (+0.320) contaminated |
 | **CAUS** | `causal_rate` transfer | does it rank humans above machines? | **NO — inverted** | human 3.162, thin 5.353, **rich 6.080**. It measures explicitness, not depth. E37's *legible and empty*, on real text |
+| **PC-1** | positive control, author ID | is the harness correct? | **PASS** | Delta 6.89× **identical at all four grains** — validates measure pipeline and shuffle code together. Now standing |
+| **SWEEP** | layer ratio human/machine, 4 grains | does the gap need order? | **LEXICAL — settled** | gap keeps **99%** under sentence-shuffle, 103% paragraph, 104% phrase. **Word grain 127% = the out-of-distribution artefact, measured** |
 
 ---
 
