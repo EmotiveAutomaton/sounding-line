@@ -32,6 +32,10 @@ the list.** Methodology for the controls: `theory/CONTROLS.md`.
 | **LR-3** | layer ratio, controls | is the gap real? | **NOT A DISCRIMINATOR** | **reason revised — see §4** |
 | **DIV** | `purpose_breadth` | does it measure motivational variety? | **DEAD** | killed by sim T-2, not by us |
 | **ACC** | the gzip accident | | recorded | bounded arm refused all 5; **free-form returned 5 confident readings at max depth** on 44.5% garbage |
+| **R−1** | rung −1, the ceiling control | does any measure read *noise* as intent? | **CLEAN** | nothing places word salad at/above rung 10. Only meaningful for order-sensitive measures |
+| **GRAIN** | shuffle granularity sweep | at what scale does an effect live? | **the control was 3× the signal** | ladder spans 0.050; word-shuffling moves the layer ratio **0.140**. Paragraph/sentence shuffling move it ~nothing |
+| **ECHO** | ladder measures vs their own prompts | is the rung effect instruction echo? | **2 of 5 clean** | `causal_rate` and `i_rate` have **zero** of their category in any prompt. `you_rate` (+0.320) contaminated |
+| **CAUS** | `causal_rate` transfer | does it rank humans above machines? | **NO — inverted** | human 3.162, thin 5.353, **rich 6.080**. It measures explicitness, not depth. E37's *legible and empty*, on real text |
 
 ---
 
@@ -116,8 +120,11 @@ Full doctrine in `theory/CONTROLS.md`. Ranked by what they license, not by how o
 | 1 | **construction** — hold register/topic/format fixed by building it that way | ladder, C3 | **strongest.** Removes the confound rather than subtracting it |
 | 2 | **matched comparison** — within-author, within-maker | G-2 | matching is never perfect |
 | 3 | **null population** — N28 / no-maker | `scale_gain` ordering | catches measures that move on nothing |
-| 4 | **ceiling population** — rung −1, shuffled text on the ladder | *none yet — new* | catches measures that **peak** on nothing |
-| 5 | **ablation** — the shuffle test | 6 | **valid for text statistics, invalid for model readouts** |
+| 4 | **ceiling population** — rung −1, shuffled text on the ladder | 0 — **ran clean** | catches measures that **peak** on nothing. Uninformative for permutation-invariant statistics |
+| 4b | **prompt echo** — rebuild the prompts, measure the category *in them* | 3 of 5 | new. `you_rate`, `insight_rate`, `tentative_rate` are partly the model repeating its instructions |
+| 4c | **transfer** — does it point the right way on real text? | 1 (`causal_rate`) | a measure can rank a controlled ladder perfectly and still be inverted on humans |
+| 5 | **sentence shuffle** | — | **the replacement.** In-distribution, grammatical, destroys only discourse order |
+| 5b | ~~**word shuffle**~~ | 6 | exact for text statistics. **Retired for order-sensitive measures — it perturbs ~3× the signal** |
 | — | **length** | 3 | run before every verdict, no exceptions |
 | — | **power, computed first** | D-0 | added after D-0 ran at 38% |
 
