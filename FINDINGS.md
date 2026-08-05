@@ -3,243 +3,302 @@
 **The source of truth.** Everything else in this repository is working material. If this file and
 another file disagree, this file is wrong and should be fixed, but it is the one to read first.
 
-**Last updated: 2026-08-05.** Updated at the end of every working session, not per result.
+**Last updated: 2026-08-05**, after the third simulation batch.
 
 ---
 
 ## How this file works
 
-Results move through three tiers and **compress as they go**. The point is that the list of things
-we already know stays short, while anything still contestable keeps its method visible.
+**Every entry states a hypothesis first.** A result without the question it was answering is not
+readable a week later, and most of this file is now more than a week old in effect.
 
-| tier | what it means | how much text |
-|---|---|---|
-| **1 · LIVE** | still contestable. Being worked on, or its method has not been examined | full paragraph, method visible |
-| **2 · SETTLED** | has a verdict file and passed its required controls. **Not yet method-checked by the curator** | 1–2 sentences |
-| **3 · CLOSED** | **the curator has read the method and could not poke a hole in it.** Never revisited unless something contradicts it | one line, forever |
+| | |
+|---|---|
+| **TIER 1 · LIVE** | still contestable, being worked on, or its method has not been examined. Full detail |
+| **TIER 2 · SETTLED** | has a verdict file and passed its controls. Compressed to a few lines, grouped by outcome |
 
-**Promotion 1 → 2 is automatic** when a verdict file and the required controls exist.
-**Promotion 2 → 3 requires the curator's explicit sign-off**, dated, in the table. Not mine. That is
-the whole mechanism: *I* cannot decide something is settled enough to stop describing.
+Promotion from 1 to 2 happens when a result has a verdict file and its required controls. **Nothing
+is deleted** — a ruled-out result stays at one line. **Reversals live inside the entry they belong
+to**, not in a separate log, so the current state and how it got there are read together.
 
-**Nothing skips a tier, and nothing is deleted.** A ruled-out result stays in the list at one line.
-
-**Verdict labels**
+**Outcome labels**
 
 | | |
 |---|---|
 | **POSITIVE** | the effect is real and survived its controls |
 | **RULED OUT** | measured properly, failed, and we know why |
 | **VOID** | the test could not answer its own question. **Not a negative result** — no information either way |
-| **OPEN** | ran, ambiguous, needs more |
+
+## Definitions used in this file
+
+Written out because this project borrows from stylometry, psychometrics, information theory and
+interpretability at once, and the same word means different things in each.
+
+| term | what it means here |
+|---|---|
+| **correlation strength** | how consistently two things rise and fall together. 0 = no relationship, 1 = perfect. Above ~0.4 is a strong relationship in this kind of data |
+| **length-controlled** | the relationship that remains after the effect of how long the text is has been mathematically removed |
+| **survives correction** | still significant after accounting for the fact that we ran many tests at once, so some would look significant by luck |
+| **held out** | measured on data that played no part in choosing the measure or its settings |
+| **echo** | the artifact simply repeating something the prompt said. Not a maker signal |
+| **within-artifact variation** | how much a quantity wobbles between the beginning, middle and end of one piece, rather than its average |
+| **legibility** | how recoverable the maker's *goal* is. The third simulation batch makes this the master variable |
 
 ---
 
 ## Where we are, in one paragraph
 
-Twenty-five tests across four gates and two simulation batches. **Ten measures are ruled out, four
-tests are void, and there are three real positives — none of which measures the thing the project was
-built to measure.** Every measure that reads *the artifact* has died to length, register, or
-vocabulary. The only signals that have ever survived are read out of *the reader*. There is one
-order-dependent effect and **it sits at p = 0.053**, which is not significant. The binding constraint
-is no longer a measure; it is that **we have never once had a controlled comparison on human text.**
+Twenty-eight tests across four gates and three simulation batches. **Ten measures ruled out, four
+tests void, three genuine positives, and three new candidates that have not cleared their controls.**
+Every measure that reads the *artifact* has died to length, register, or vocabulary. The only signals
+that have survived are read out of *the reader*. The binding constraint is no longer a measure — it
+is that **we have never had a controlled comparison on human text**, and the corpora that would fix
+that have now been identified.
 
 ---
 
-## ⚠ Known weaknesses — read before trusting anything below
+## ⚠ Known weaknesses — open ones only
 
-You said you keep uncovering little issues in the methods. You are right to, and here is the list I
-would use to attack this project. **None of these are resolved.**
+Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
 
-**1 · ~~No multiple-comparison correction anywhere.~~ RESOLVED 2026-08-05, and it held up.**
-19 primary tests corrected together (`results/audit/multiplicity.json`; controls excluded, because
-correcting a test whose job is to *kill* one of our measures would make measures harder to kill).
-**12 significant uncorrected → 12 under Benjamini-Hochberg → 10 under Benjamini-Yekutieli.** Only
-`tentative_rate vs rung` and `causal_rate transfer vs thin` were lost, and neither is load-bearing.
-**Everything load-bearing survives.** It also confirms in writing that the layer ratio vs rung was
-never significant at n = 50 — BY p = 0.274. Standing rule now: new tests get added to that family.
+**1 · Every positive rides on machine-written or public-domain text.** The intent ladder is 150
+artifacts, all generated by one model. Author identification is books. **We have never had a
+controlled corpus of human artifacts**, which is why every uncontrolled human comparison has died.
+Three public corpora that would fix this are identified in `TODO.md` and not yet fetched.
 
-**2 · ~~The headline effect is not statistically significant.~~ RESOLVED 2026-08-05 by replication.**
-It was rho = −0.275, **p = 0.0529, n = 50**. On a held-out 100-artifact ladder with hyperparameters
-frozen: **rho = −0.247 raw (p = 0.0132), and rho = −0.405 length-controlled (p < 0.0001).**
-The curator's rule — *near-significance means raise the power* — worked exactly as stated.
-See `results/ladder2/VERDICT.md`. **The effect is still modest and still only on machine text.**
+**2 · One human reader.** Eleven artifacts, one person, and those readings have outperformed every
+measure — so the most load-bearing evidence in the project has a sample size of one.
 
-**3 · Researcher degrees of freedom in the layer ratio. PARTLY RESOLVED.** `ratio_for()` splits the
-model at `0.07 × depth` and `0.76 × depth`, and those loci were **chosen by looking at a prior result
-on the same model**. They were **frozen and held out** on ladder 2 and produced a *larger* effect on
-data they had never seen, which is the strongest available answer. **Still unresolved:** the choice
-of measure *family* was ours, and no held-out set fixes that.
+**3 · The echo check cannot see semantic induction.** It tests whether a prompt *contains* a feature.
+It cannot test whether the prompt *induces* one. *"Acknowledging that circumstances vary a lot"*
+contains no conditional constructions and would obviously produce them. **This affects every
+ladder-based result including the layer ratio**, and the re-run is queued.
 
-**3b · Length is a suppressor on the layer ratio, not a confound — and this was found late.**
-Longer texts have a *higher* ratio (+0.248) while higher rungs produce longer texts (+0.401), so
-length pushes the ratio **against** the effect. This is the first time in the project a length
-correlation has not been a cause of death, and it explains ladder 1's marginal p. **Every measure
-killed on a length correlation was killed without checking the direction of the relationship.**
-That is a methodological hole in past work, and it is not yet closed.
-
-**4 · Every positive rides on machine-written or public-domain text.** The ladder is 50 artifacts,
-all generated. Author ID is books. **We have never had a controlled corpus of human artifacts**, which
-is why every uncontrolled human comparison has died.
-
-**5 · One human reader.** C-20 has been outstanding since the beginning. Eleven artifacts, one
-person, and the readings have outperformed every measure — which means the most load-bearing evidence
-in the project has a sample size of one.
-
-**6 · The no-maker corpus is generated by the same model family we read with.** A shared-representation
+**4 · The no-maker corpus is generated by the same model family we read with.** A shared-representation
 artifact would look exactly like a human/machine difference. Untested.
 
-**7 · A scale gap remains in the affect directions.** They are fitted on 12-word sentences and applied
-to 200-word windows. We caught a worse version of this (4,000-character documents) and fixed it by
-windowing, but a ~16× gap is still there and its effect is unmeasured.
+**5 · A scale gap remains in the affect directions.** Fitted on 12-word sentences, applied to
+200-word windows. A worse version of this was caught and fixed; roughly a 16× gap remains and its
+effect is unmeasured.
 
-**8 · The Gate 3 corpus has been read repeatedly.** It is a diagnostic corpus now, not a test corpus.
-Nothing new should be claimed on it.
+**6 · Feature banks may be the wrong tool, and we just installed one.** Simulation T-8 found that ten
+hand-picked features combined reach near-perfect discrimination, while adding sixty more from a
+generic bank gains a little on average and **loses more than it gains in the worst case**. Our
+342-feature sweep is exactly the thing it warns about.
 
 ---
 
-## TIER 1 · LIVE — contestable, method visible
+# TIER 1 · LIVE
 
-### The one order-dependent effect — **replicated held-out 2026-08-05**
+## L1 · Does a reader's low-order affective response fall as intent rises?
+
+**Hypothesis.** *(The curator's.)* A language model carries lower-order, sensory-adjacent affective
+processing near its input and higher-order, predictive processing deeper in. Human-made or
+intent-dense text should provoke relatively **more** low-order response. So as specified intent
+rises, the ratio of low-order to high-order affective activation should **fall**.
+
+**Research context.** The two-layer affective architecture is the field's live reconciliation between
+basic-emotion and constructed-emotion theories. **The application to reading a language model as an
+instrument is not in the literature** — this is genuinely unclaimed ground.
 
 **What we did.** Generated 50 articles from one model on 12 topics, varying only how many situational
-specifications the prompt carried (0/1/3/6/10, drawn at random, so no two prompts alike), then
-measured the ratio of low-order to high-order affective activation in a reading model across the
-rungs. When it came back at p = 0.0529, generated **100 more at fresh seeds and rotated topics** and
-re-ran it once with **every hyperparameter frozen**.
+specifications the prompt carried, with specifications drawn at random so no two prompts were alike.
+Measured the ratio at two depths in a reading model. When the result came back marginal, generated
+**100 more at fresh seeds and rotated topics** and re-ran once with every setting frozen.
 
 **What we found.**
 
-| | rho | p |
+| | correlation strength | significance |
 |---|---|---|
-| ladder 1, n = 50 | −0.275 | 0.0529 |
-| **ladder 2 held out, n = 100, raw** | **−0.247** | 0.0132 |
-| **ladder 2, length-controlled ← primary** | **−0.405** | **<0.0001** |
+| first ladder, 50 artifacts | −0.275 | marginal, *p* = 0.053 |
+| **held-out ladder, 100 artifacts** | **−0.247** | *p* = 0.013 |
+| **held out, length-controlled** | **−0.405** | *p* < 0.0001 |
 
-Shuffling paragraphs or sentences leaves it alone; shuffling 5-word phrases costs a full ladder span.
-**It lives at or below the sentence and it needs local word order — the only effect in this project
-that has ever required order.**
+Reordering paragraphs or whole sentences leaves it untouched; scrambling five-word phrases costs a
+full ladder's worth of effect. **It lives at or below the sentence and it needs local word order —
+the only effect in this project that has ever required order.**
 
-**And length turned out to be hiding it, not causing it.** I wrote the opposite prediction into the
-runner in advance. Longer texts have a higher ratio while higher rungs produce longer texts, so
-length works *against* the effect; removing it nearly doubles it.
+**Reversal folded in.** This was first reported as *"the gap is vocabulary"* on the basis of a
+word-shuffling control. **That was withdrawn** — the curator challenged the shuffle test and was
+right; scrambling words perturbs the measure about three times harder than the effect being
+adjudicated, so it was never a valid control here. The conclusion it supported (that this is **not**
+a human-versus-machine discriminator) survives on a separate register control that never used
+shuffling.
 
-**Verdict: OPEN, replicated.** It does **not** move to POSITIVE, and the reason is not statistical:
-**every rung is machine-written by the same model.** It shows the measure tracks specified intent
-within one generator. Whether it does anything on human artifacts is weakness 4, which is a corpus
-problem, not a measurement problem.
+**Also folded in:** length turned out to be **hiding** this effect rather than causing it. Longer
+texts score higher, and higher rungs are slightly longer, so length pushes against the effect.
 
-### Stacking weak effects into a detector — your idea, evaluated
+**Verdict: OPEN, replicated.** It does not become POSITIVE for a non-statistical reason: **every rung
+is machine-written by the same model.** And it is exposed to weakness 3 — semantic induction — which
+is queued.
 
-**The proposal:** combine the small surviving effects into one detection algorithm.
+## L2 · Three candidate measures from the feature sweep
 
-**Worth testing, with one specific warning.** Stacking only helps if the components fail
-*independently*. Ours may not: function-word geometry and affect directions are both read from the
-same model on the same text, and both are at least partly lexical. **Stacking effects that share a
-confound produces a strong confound, not a strong signal** — and it would look exactly like success.
+**Hypothesis.** If ~350 published linguistic features are screened against known increasing intent,
+and the ones that merely detect machine text are removed, something may remain that tracks intent
+without tracking provenance.
 
-**Two conditions before believing any stack:** (a) it must beat its own best single component on a
-**held-out** corpus, not the fitting one; (b) its errors must not correlate with the components'
-errors. Both are cheap to check and neither has been done.
+**Research context.** Detecting machine text from linguistic features is **solved** — the literature
+reaches near-perfect discrimination, and function words alone exceed 98%. **Detecting how much intent
+was specified, within one generator, is not addressed anywhere we can find.** That gap is the whole
+reason this is worth running.
 
-**Also worth knowing:** ensembling weak stylometric features is precisely what commercial AI
-detectors do, and it hits the ceiling this project already named (E38: a machine-matched reader scores
-1.000 on machine text and 0.280 on human). **A stack is likely to rediscover a machine detector.** That
-is not fatal — but the ladder is the test that tells the difference, because a machine detector must
-see all five rungs as identical.
+**What we did.** Extracted 342 features per artifact, screened them against the ladder with a
+correction for having run many tests, kept only those that **replicated on the held-out ladder**,
+then removed any that also separate human from machine text, then any that echo the prompt, then any
+that fail once length is accounted for.
 
-**Verdict: OPEN.** Not yet run.
+**What we found.** 342 → 89 → **81 replicated** → 20 that are not machine-detectors → 6 that do not
+echo → **3 that survive length.**
+
+> **61 of the 81 replicated features were machine-detectors.** Without that filter we would have
+> adopted the solved problem as our result.
+
+| feature | correlation strength, length-controlled |
+|---|---|
+| **conditional constructions** (*if*, *unless*) | **+0.49** |
+| contractions | +0.37 |
+| phrasal coordination | −0.25 |
+
+**Verdict: OPEN, three candidates, none adopted.** They owe the semantic-induction check (weakness 3),
+a transfer test on human text, and a noise-ceiling check. Conditional constructions are the most
+theory-shaped — a conditional is the linguistic form of *a decision under a constraint* — and also the
+most exposed to induction, since several specifications describe varying circumstances.
+
+## L3 · Does the variation of the veneer carry the maker?
+
+**Hypothesis.** *(The curator's, and his primary detector when reading by hand.)* Surface performance
+costs effort, so it is the thing that slips. **Within-artifact variation** should carry the maker,
+where the average does not.
+
+**Research context.** Stylometry overwhelmingly uses document-level averages. Within-document variance
+as a maker signal is **not a standard approach** — we found no established treatment of it.
+
+**What we did.** Computed all 342 features per window as well as per document, and compared what each
+form finds.
+
+**What we found.** Within-artifact variation finds **almost nothing on machine text** (1 and 0
+surviving features across 150 artifacts) and **something on human text** (20 surviving on 35, of
+which 7 are found by no document-level form).
+
+**Two readings and we cannot separate them.** Either the mechanism is real — a machine has no
+performance to slip — or it is register, since the human corpus contrasts essays against commercial
+copy, and genres differ in how much they vary internally. **Register is the likelier reading.**
+
+**Important limit:** the ladder **cannot test this hypothesis at all.** It is a claim about a human
+performance decaying under cost, and every ladder artifact is machine-written. A null there is the
+absence of the thing, not evidence against it.
+
+**Verdict: OPEN, and now sharper.** Needs human artifacts with register held constant.
+
+## L4 · Can weak effects be stacked into a detector?
+
+**Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
+instrument where none alone is enough.
+
+**Research context.** This is what commercial machine-text detectors already do, and it reaches
+near-perfect accuracy on that problem. **Simulation T-8 now adds a caution from our own side:** ten
+hand-picked features combined lifted the hardest cases to near-perfect, while adding sixty generic
+bank features gained little on average and **lost more in the worst case**. So: combine, but curate.
+
+**Verdict: OPEN, not yet run.** Two conditions before believing any stack — it must beat its best
+single component **on held-out data**, and its errors must not be the same errors.
 
 ---
 
-## TIER 2 · SETTLED — verdict and controls exist, method not yet checked by you
+# TIER 2 · SETTLED
 
-### Positives
+## POSITIVE
 
-| | what we did | what we found | |
-|---|---|---|---|
-| **G-2** | Held the author fixed and asked whether function words separate *different works by the same person* — 34 books, 10 authors | **2.05× chance**, every one of ten authors above chance, permutation null 31.0% ± 1.7% | **POSITIVE** — the channel carries more than identity, so there is capacity for state |
-| **B** | Fitted affect directions from contrast sentences inside a reading model and tested them on held-out sentences | **4× chance**, and **bag-of-words on the identical sentences scores exactly chance** — so it is not lexical. Accuracy is bimodal across depth | **POSITIVE** — the cleanest result in the project, with a built-in control |
-| **G-1 / PC-1** | Ran author identification via Burrows' Delta as a known-answer check on the pipeline | **7.6×** (6.89× at today's windowing), and **identical to the digit at all four shuffle granularities** | **POSITIVE** — a solved field result, now used as a standing positive control that validates the harness |
-| **GRAIN** | Measured what word-shuffling actually does, by shuffling at four granularities | Three in-distribution grains agree within 5 points; the word grain diverges by **27** | **POSITIVE** — the word shuffle inflates model-internal measures; quantified, not argued |
-| **R−1** | Scored word salad as a rung below rung 0, to see whether any measure reads noise as intent | Nothing places noise at or above the most-specified rung | **POSITIVE** — a failure mode we do not have |
-
-### Ruled out
-
-| | what we did | what we found | |
-|---|---|---|---|
-| **density v1** | Counted decision density per artifact | It was word count: rho = **+0.877** | **RULED OUT** — length |
-| **density v2** | Same, length-controlled | It became type-token ratio: rho = **−0.879**, permutation-invariant | **RULED OUT** — vocabulary |
-| **rich > thin** | Compared machine text written *with* a purpose against *without* | Perfect theory-shaped ordering at p = 0.0005, then died to length and register | **RULED OUT** — confounded |
-| **ladder, overall** | Asked whether any measure ranks five rungs of specified intent | Voided on length: rung vs output length **rho = +0.403** against a pre-registered 0.400 threshold | **RULED OUT** — by a hair, and the hair counts |
-| **`purpose_breadth`** | Used posterior entropy over goals as a measure of motivational variety | Simulation showed it tracks **difficulty**: at matched difficulty, excess breadth from diversity is **−0.013 to −0.025** | **RULED OUT** — confounded with difficulty |
-| **`separability()`** | Our own statistic for whether a feature vector separates groups | Said "no group information" on **author identification** | **RULED OUT** — wrong statistic; replaced by Burrows' Delta |
-| **document activations** | Read activations over whole 4,000-character documents | Every artifact peaked on the concept that scored **0%** in validation | **RULED OUT** — scale mismatch |
-| **W-1, the wall** | Asked whether a reader moves further from its resting state for a human maker | **−0.0049, p = 0.53** — machine content displaced it slightly *more*. Clean measure, no length confound | **RULED OUT** — a real null |
-| **D-0b** | Properly powered retest of function words against maker state | The channel carries identity, not state | **RULED OUT** |
-| **layer ratio, human vs machine** | Compared the low/high-order affect ratio on human against generated text | Gap keeps **99%** of itself when every sentence is reordered; commercial copy sits **26%** of the way from essays toward machine (p = 0.0033) | **RULED OUT** — lexical and register. Never report it as a human/machine discriminator |
-| **`causal_rate`** | Rate of causal connectives, which ranked the ladder at **+0.659** with **zero** prompt echo and survived length control | Inverts on real text: human **3.162**, machine **5.35–6.08**, the purposeful arm highest | **RULED OUT as depth** — but a **POSITIVE about legibility**: it is E37's *legible and empty* wall, seen on real text |
-
-### Void — could not answer their own question
-
-| | what we did | why it means nothing | |
-|---|---|---|---|
-| **Gate 3** | The project's primary: split 51 web artifacts into halves, compare recovered method | Stability null failed — within-artifact sd **0.808** against between-half **0.087**. The simulation then showed the statistic reads **17.65** where truth is 0 and is undefined in 378 of 467 cases | **VOID** — not a negative result |
-| **D-0** | Function words vs maker state on 380-word samples | **38% power.** Its median outcome under a true effect was below its own threshold | **VOID** |
-| **R-1** | Five-component refusal battery | Pass condition was "3 of 5 higher" — a **50% false-positive rate** by arithmetic | **VOID** |
-| **W-2** | Spread of reader displacement | n = 3 | **VOID** |
-
-### What the simulation established (ground truth, which we do not have here)
-
-| | | |
+| hypothesis | what we did | what we found |
 |---|---|---|
-| **S-1** | The unlock statistic is broken — reads 17.65 where truth is 0 | explains Gate 3 |
-| **S-3 / T-4** | The leak is readable at 0.899, and divergence survives a reader that is wrong about almost everything — including a **50% channel swap**. But it **fails at 25% concealment** | the affect leg transports, with a narrow target |
-| **S-4/5** | Reordering the probe's stages changes the answer by **exactly 0.000** | a ~5% cost win, nothing more |
-| **S-6** | Practised surface decays **6.5× faster** than depth; synthetic surface is flat | supports surface≠depth |
-| **T-1** | **The triangle is not a triangle.** Three of six edges are exactly zero, goal is a sink already at ceiling (1.000), edges are additive not superadditive, and the **values vertex does not exist** (H(values\|goal) = 0) | reframes the theory |
-| **T-2** | Kills `purpose_breadth`; also retracted the simulation's own S-2 | see above |
-| **T-3** | **Decision-counting is well-defined where mode dwell is long** — dwell moves posterior concentration **2×** what artifact length does | specifies a corpus |
-| **T-5** | Process-side and goal-side statistics **tie** as detectors | T-1's asymmetry has no instrument consequence — do not rebuild |
+| **Function words carry more than author identity, so they have capacity to carry maker state** | Held the author fixed and asked whether function words separate *different works by the same person*, across 34 books by 10 authors | **Twice chance**, every one of ten authors above chance. The channel has spare capacity |
+| **A reading model contains directions corresponding to affect, and they are not just word-counting** | Fitted affect directions from contrast sentences, tested on held-out sentences, and ran a word-counting model on the identical sentences | **Four times chance**, while word-counting scored **exactly chance**. Accuracy is concentrated at two depths with a dead zone between |
+| **Author identification should work, and can therefore validate the whole pipeline** | Ran classical authorship attribution as a known-answer check before every sweep | **7.6× chance**, and **identical at all four scrambling granularities** — which proves the scrambling code is correct before any real number is computed. Now a standing gate |
+| **Scrambling words is too violent a control for a measure read from a model** | Measured what scrambling actually does, at four granularities | The three that keep the text grammatical agree within five points; **scrambling every word diverges by 27**. The control was perturbing the measure ~3× harder than the effect |
+| **No measure should read noise as maximum intent** | Scored word-salad as a rung below the least-specified rung | Nothing places noise at or above the most-specified rung. **A failure mode we do not have** |
 
-### The human readings — the most load-bearing evidence, and n = 1 reader
+## RULED OUT
 
-Eleven artifacts, two sessions, read aloud. **These have outperformed every measure.** The three
-findings that keep mattering: **the variation of the veneer** is the primary detector (surface
-*change*, not surface level); **depth is a property of the writer with respect to the domain** — a
-relation, not an attribute; and **reading enters at an anomaly**, never at the whole artifact.
+| hypothesis | what we found | why it died |
+|---|---|---|
+| **Decision density can be counted from an artifact** | It was word count (0.88), then after correction it was vocabulary diversity (−0.88) | length, then vocabulary |
+| **Machine text written *with* a purpose ranks above machine text written without** | Perfect theory-shaped ordering, then died to controls | length and register |
+| **Some measure ranks five rungs of specified intent** *(original ladder verdict)* | Voided: rung and output length correlate at 0.40 against a pre-registered 0.40 limit. **Reproduced at 0.40 on the second ladder — structural to the design** | length |
+| **Motivational variety is measurable as breadth of recovered purpose** | Simulation showed it tracks **how hard the goal is to recover**, not variety. Confirmed twice (T-2, T-9) | it is a difficulty meter |
+| **Our own statistic detects whether a feature vector separates groups** | Said "no group information" on **author identification** | wrong statistic; replaced |
+| **A reader moves further from its resting state for a human maker** | −0.005, no effect. Clean measure, real null | genuine negative |
+| **Function-word vectors separate specified maker states** | The channel carries identity, not state | genuine negative |
+| **Low-order affective response separates human from machine text** | The gap keeps 99% of itself when every sentence is reordered; commercial copy sits a quarter of the way toward machine text | register |
+| **Causal connectives track intent** | Ranked the ladder cleanly with no echo, then **inverted on humans** — machines use nearly twice as many | it measures explicitness, not depth |
 
----
+## VOID — could not answer their own question
 
-## TIER 3 · CLOSED — signed off, one line each
+| hypothesis | why it means nothing |
+|---|---|
+| **Half A of a web corpus contains more recoverable method than half B** *(Gate 3, the project's primary)* | Its stability check failed — variation *within* an artifact was nine times the difference *between* halves. Simulation later showed the statistic reads a large number where the truth is zero and is undefined in most cases. **And a second, independent void:** 76 features separate the two halves, meaning they differ so broadly that almost any measure would separate them. Separating them was never evidence of anything |
+| **Function words separate maker states** *(first attempt)* | Ran at 38% power — its median outcome under a real effect was below its own threshold |
+| **A reader refuses differently on human and machine text** | Its pass condition was a coin flip: a 50% false-positive rate by arithmetic |
+| **Reader displacement varies more for machines** | Three artifacts |
 
-*Empty. Nothing has been method-checked and signed off yet.*
+## What the simulation established — with the question each was answering
 
-To close an item: read its method, and if you cannot poke a hole, say so. It gets a date, drops to one
-line, and is never re-litigated.
+Ground truth, which we do not have here. Three batches.
 
----
+| | hypothesis | answer |
+|---|---|---|
+| **S-1** | The unlock statistic used by Gate 3 is sound | **No.** Reads a large positive where truth is zero; undefined in most cases |
+| **S-3 / T-4** | An involuntary "leak" channel is readable, and concealment shows as divergence between leak and display | **Yes**, leak readable at 0.90, and amplifying the display makes concealment *more* detectable. Survives a reader wrong about almost everything — **but fails when concealment is mild** |
+| **S-4/5** | The order of the probe's stages changes its answer | **No** — changes it by exactly zero. A cost saving, nothing more |
+| **S-6** | Practised surface decays faster than depth | **Yes**, 6.5× faster; synthetic surface is flat |
+| **T-1 → T-6** | The three inference problems bootstrap each other symmetrically | **Not symmetric, but the batch-two reading is withdrawn.** See below |
+| **T-2 / T-9** | Motivational variety raises breadth of recovered purpose | **No** — breadth tracks difficulty. Established twice |
+| **T-3 → T-10** | A count of recovered decisions is a well-defined event | **Which** decision: no. **When** a decision happened: **yes** — see below |
+| **T-5** | Reading the process side beats reading the goal side, as a detector | **Tie.** No instrument consequence |
+| **T-7** | Our simulation results survive correction for multiple testing | **Yes** — 17 claims lost, none of them a live effect in a cell with room to measure |
+| **T-8** | Bigger feature banks beat small curated feature sets | **No.** Ten hand-picked features reach near-perfect; sixty more from a generic bank gain little and can lose a lot |
 
-## Reversal log — every verdict that has changed
+### The batch-two reversal, stated plainly
 
-Because the reversals are confusing and the fix is to make them auditable rather than to stop having
-them.
+**I reported to you that the triangle is not a triangle — that it is a one-way flow with the goal as a
+dead end. Withdraw that.** Batch three computed the information budget in closed form rather than by
+sampling, and the edge from goal to process is not dead. It is an edge the model can only *create*
+under a setting that simultaneously removes the room needed to *measure* it. The one measurement that
+did show coupling was dismissed as noise by batch two. **The structure question is open again.**
 
-| date | what | from | to | why | who caught it |
-|---|---|---|---|---|---|
-| 08-04 | Gate 3 | FAIL | **VOID** | the stability null outranks the p-value, per its own card | me |
-| 08-04 | D-0 | FAIL | **VOID** | post-hoc power simulation: 38% | me |
-| 08-04 | `separability()` | trusted | **wrong** | failed a known-answer task (author ID) | me |
-| 08-05 | layer ratio | "vocabulary, 121% survival" | **reason retracted** | the shuffle test is invalid for model-internal measures | **you** |
-| 08-05 | layer ratio | "unresolved" | **ruled out as h/m discriminator** | the granularity sweep confirmed the original conclusion for a valid reason | me |
-| 08-05 | `purpose_breadth` | alive, sim-validated | **ruled out** | confounded with difficulty | simulation |
-| 08-05 | sim S-2 | valid | **retracted** | its emitter never wired up | simulation, auditing itself |
-| 08-05 | the triangle | three coupled problems | **a directed graph with a sink** | three edges exactly zero | simulation |
-| 08-05 | ladder | "no measure ranks the rungs" | **five do; two are echo-free** | the auto-`VOCAB` label was over-firing | **you** |
+What does survive: **the three are not symmetric peers.** The goal is free-standing and carries 84% of
+what a single observation offers. The other two are conditional — one of them contributes *exactly
+nothing* on its own and becomes informative only in context.
 
-**The pattern worth noting:** of nine reversals, **two were caught by you challenging a framing**, two
-by the simulation auditing itself, and five by me applying a control I had not applied before. None
-came from more data.
+### The through-line, and it is the most useful thing in three batches
+
+> **Goal legibility is the master variable. Every process-side reading is conditional on it.**
+
+Four independent modules land on this. Seams between decisions are findable when the purpose is
+legible and nearly invisible when it is not — a threefold-to-tenfold difference. What looked like a
+measure of motivational structure was tracking legibility instead.
+
+**For the instrument: measure legibility first, and treat every process-side number as conditional on
+it.** A process reading quoted without a legibility figure beside it is not interpretable.
+
+**And its own stated limit:** there is no human data anywhere in the simulation. Every number is a
+property of one generative model. Quote directions, not magnitudes.
+
+### T-10 — the finding that reopens a closed door
+
+**Hypothesis:** decision-counting is dead because *which* sub-goal is active can never be pinned down.
+**Batch three's correction:** that kills *which*, not *when*. Step-to-step movement of the reader's
+belief ranks true switch-points above non-switch points against a null that preserves the
+trajectory's shape and destroys only its alignment, and the maker's switching **rate** is readable at
+0.45. **Seam-finding is alive.** It is a different instrument from the one we abandoned.
+
+## The human readings — the most load-bearing evidence, and one reader
+
+**Hypothesis:** a human reader can detect a maker and describe how, on sanitised artifacts with no
+provenance cues. Eleven artifacts, two sessions. Three findings keep mattering: **the variation of
+the veneer** is the primary detector; **depth is a property of the writer with respect to the
+domain** — a relation, not an attribute; and **reading enters at an anomaly**, never at the whole
+artifact.
 
 ---
 
@@ -248,14 +307,11 @@ came from more data.
 | | |
 |---|---|
 | **this file** | the record. Read first |
-| `TODO.md` | ideas not yet run |
-| **`docs/TOOLS.md`** | **what is installed, what each thing does, and what it does not solve** |
-| **`docs/theory/CURATOR_GUESSES.md`** | **your active guesses, extracted from my commentary, with status and what would test each** |
-| `docs/method/` | LEDGER (every test in a table), CONTROLS (what a control licenses), DEVIATIONS |
+| `TODO.md` | ideas not yet run, and the queue |
+| `docs/TOOLS.md` | what is installed, what it does, what it does not solve |
+| `docs/theory/CURATOR_GUESSES.md` | your active claims, with status and what would test each |
+| `docs/method/` | every test in one table; what a control licenses; deviations |
 | `docs/theory/` | the frame, the affect architecture, the triangle, the essays |
-| `docs/gates/` | gate 0–3 material |
-| `docs/sim/` | traffic with the Ghost Scale Simulation, both directions |
-| `docs/design/` | what gets built next — SUCCESSOR, QUEUE, ENGINEERING_LOOP, DWELL_CORPUS |
-| `docs/archive/` | superseded summaries. Kept, not read |
+| `docs/gates/` · `docs/sim/` · `docs/design/` · `docs/archive/` | gate material; simulation traffic; what to build; superseded |
 | `docs/STATE.md` | agent orientation after a context loss. Not for you |
-| `results/*/VERDICT.md` | the primary record of each run, with its retraction banners |
+| `results/*/VERDICT.md` | the primary record of each run |

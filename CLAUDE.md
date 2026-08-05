@@ -21,6 +21,41 @@ a second opinion that has read everything.
 
 The failure mode to avoid is not rudeness, it is **agreeableness that costs him accuracy.**
 
+## How to report a result — every time, in this order
+
+**Requested 2026-08-05.** He is crossing several fields at once, so a term borrowed from an adjacent
+field is actively dangerous. Report in this shape and no other:
+
+1. **What we were testing** — the hypothesis, in a sentence, restated even if it was obvious an hour
+   ago. He will not have it loaded.
+2. **What we did** — the method, plainly.
+3. **What we found** — the numbers, with **every statistic named in words**.
+4. **What it means** — the consequence for the instrument, and what is still owed.
+
+**Language rules, and these are hard:**
+
+- **No variable or column names in prose.** Not `biber_COND`, not `partial rho`, not `cv`, not
+  "the N28 cell". Say *"conditional constructions — if, unless"*, *"the strength of the
+  relationship once length is accounted for"*, *"the within-artifact variation"*, *"the test of
+  whether a measure moves where there is no maker"*.
+- **Define a statistic the first time it appears in a report**, in the sentence that uses it.
+  "Correlation of 0.49 — meaning the ranking is strong and consistent, where 0 is no relationship
+  and 1 is perfect."
+- **Identifiers belong in files, not in reports.** `results/*/VERDICT.md` can use whatever names
+  the code uses. What he reads should be readable without the code open.
+- If a term genuinely has no plain-English equivalent, define it in `FINDINGS.md` under methods and
+  use it consistently thereafter.
+
+## When you find a hole in the battery, re-run what it touches
+
+**Standing rule.** A control that turns out to be wrong or incomplete does not just change the next
+test — it changes every past result that leaned on it. **Find the affected results, re-run them, and
+say what moved.** Do not wait to be asked.
+
+This has already happened three times: the shuffle test being invalid for model-internal measures,
+length being a suppressor rather than a confound, and the echo check being blind to semantic
+induction. Each one has a tail of past results behind it.
+
 ## After every test, update the record in the same pass
 
 Not later, not in a summary at the end of the session. **A result that is not written down in these
