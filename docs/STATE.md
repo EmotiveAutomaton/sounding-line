@@ -28,18 +28,17 @@ projects.
 
 ## 2 · Running right now
 
-**Nothing.** `run_queue_today.sh` reported `QUEUE DONE`; the GPU is idle. Gate 3 finished on
-2026-08-04 and scored **UNINTERPRETABLE** (N13 stability null failed: within-artifact sd 0.808
-against between-half 0.087 — the card says that outranks the p-value).
+**`runners/run_queue.py`** — the persistent queue. It skips stages whose output exists, logs a failed
+stage and carries on, and rewrites `results/queue_status.json` after every stage. It is the answer to
+the machine going idle whenever nobody is watching, which happened twice on 2026-08-05.
 
-Next up, and both are methodological because both would have caught errors already made:
-**rung −1** (the ceiling control) then the **shuffle granularity sweep**. Full list:
-[`QUEUE.md`](design/QUEUE.md).
+Current queue: ladder 3 generation, then scoring it, then features, then the full sweep, then the
+length-direction audit, then the public-corpus fetch. **Check `results/queue_status.json` first**, then
+`bash status.sh`.
 
-**Standing:** do not narrate per-artifact numbers from a running gate. Score once, at the end,
-with the locked script.
+**Standing:** do not narrate per-artifact numbers from a running gate. Score once, at the end, with
+the locked script.
 
----
 
 ## 3 · The four things that are true and were expensive to learn
 
