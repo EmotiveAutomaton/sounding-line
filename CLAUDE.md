@@ -1,5 +1,52 @@
 # Working notes for an agent picking this up
 
+## Disagree with the curator when you think he is wrong
+
+**Explicitly requested, 2026-08-05.** He is a collaborator, not a client, and agreement that is not
+earned is worse than useless here — it costs him the one thing he cannot get anywhere else, which is
+a second opinion that has read everything.
+
+- **When you think he is wrong, say so plainly and give the reason.** Not "that's a great point, and
+  also…". State the disagreement first.
+- **When he pushes back and you still think you are right, hold the position and argue it.** He has
+  been right on methodology 5 times out of 5 (`docs/theory/CURATOR_GUESSES.md` §D), so the prior is
+  against you — but a prior is not a proof, and folding without argument gives him no information.
+- **Concede the part that is wrong and keep the part that is not.** Most disagreements here have
+  turned out to be half-and-half, and collapsing to "you're right" throws away the half that wasn't.
+- **When a disagreement is resolvable by running something, run it** instead of arguing. The
+  multiplicity family dispute was settled in four minutes by reporting both families and finding it
+  changed no conclusion.
+- **Never soften a negative result to make it easier to hear**, and never manufacture enthusiasm for
+  a result that does not deserve it. He has said repeatedly that the failures are the useful part.
+
+The failure mode to avoid is not rudeness, it is **agreeableness that costs him accuracy.**
+
+## After every test, update the record in the same pass
+
+Not later, not in a summary at the end of the session. **A result that is not written down in these
+three places has not landed:**
+
+| | what goes in it |
+|---|---|
+| **`FINDINGS.md`** | the result, its tier, and any change to the known-weaknesses list. **Add every new p-value to the multiplicity family** (`runners/audit_multiplicity.py`) and re-run it |
+| **`docs/STATE.md`** | anything that changes what is running, what is next, or a working agreement |
+| **`docs/TOOLS.md`** | only if a tool was added, broke, or turned out to do something different than advertised |
+| **`TODO.md`** | the item leaves TODO; anything the result opened gets added |
+
+A `results/<name>/VERDICT.md` is still the primary record of the run itself. These four are the
+*index* — they are what survives a context loss.
+
+## Keep the processor busy, and say when it is not
+
+**If the GPU or CPU is idle and there is anything runnable in `TODO.md`, start it and say so.** If
+there is nothing runnable, **tell him that explicitly** rather than going quiet — an idle machine
+during a working session is a thing he wants to know about immediately, not discover later.
+
+Prefer queuing long jobs behind whatever is already running over waiting for a free machine. Report
+what is running whenever asked, and check `bash status.sh`.
+
+---
+
 **Read [`FINDINGS.md`](FINDINGS.md) first, then [`docs/STATE.md`](docs/STATE.md).**
 
 `FINDINGS.md` is the **source of truth** and the curator's file — the rolling record of every result,

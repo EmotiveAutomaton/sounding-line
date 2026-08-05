@@ -18,11 +18,29 @@ and the whole point is to be able to argue about what belongs in the family.
 **Family definition matters more than the arithmetic here**, so it is explicit and contestable:
 
     PRIMARY     a test whose result was used to support or reject a claim about the instrument.
-                These form the correction family.
-    CONTROL     a test run to invalidate one of our own measures. EXCLUDED from the family --
-                these are checks we WANT to fire, and correcting them makes it harder to kill a
-                measure, which is backwards.
-    DIAGNOSTIC  descriptive, never used to support a claim. Excluded.
+    CONTROL     a test run to invalidate one of our own measures.
+    DIAGNOSTIC  descriptive, never used to support a claim. Excluded from both families.
+
+── WHICH FAMILY GETS CORRECTED — AN ARGUMENT WE HAD, SETTLED BY REPORTING BOTH ───────────────
+
+I originally corrected only the primary family, on the grounds that correcting controls "makes it
+harder to kill a measure, which is backwards." **The curator pushed back and he is substantially
+right:** killing a good measure is a real error with a real cost, and weakness 3b is a demonstrated
+instance of exactly that happening here.
+
+Where I still disagree, and it is narrow: **multiplicity correction is the wrong instrument for that
+failure.** The control over-firing we actually found was C2's length correlation at rho = −0.274,
+p = 0.0102, and the error was interpretive — treating any length correlation as fatal without
+checking the *direction* of the relationship. No FDR adjustment would have caught it.
+
+The residual disagreement is a judgement about relative costs, not a fact:
+
+    correcting controls   fewer good measures killed for nothing  (fewer Type I on the control)
+    NOT correcting them   fewer confounded measures survive       (fewer Type II on the control)
+
+I think the second matters more, because a confounded measure that survives becomes a claim. That is
+a position, not arithmetic, so **both families are now reported under both corrections** and the
+reader can hold whichever bar they prefer. It costs nothing and removes my judgement from the result.
 
 Both Benjamini-Hochberg and Benjamini-Yekutieli are reported. **BY is the honest one here** -- our
 tests reuse the same corpora and the same measures, so they are dependent in unknown directions, and
@@ -92,6 +110,35 @@ def by(ps: list[float]) -> list[float]:
     return [min(1.0, p * c) for p in bh(ps)]
 
 
+def report(fam: list[tuple], title: str) -> tuple[list[dict], dict]:
+    ps = [t[1] for t in fam]
+    a_bh, a_by = bh(ps), by(ps)
+    print(f"\n{'=' * 82}\n{title}  (n = {len(fam)})\n{'=' * 82}")
+    print(f"{'test':<36}{'raw p':>11}{'BH':>11}{'BY':>11}  verdict")
+    print("-" * 82)
+    rows = []
+    for (name, p, kind, src), b, y in sorted(zip(fam, a_bh, a_by), key=lambda z: z[0][1]):
+        mark = ("survives" if y < 0.05 else
+                "SURVIVES BH ONLY" if b < 0.05 else
+                ">>> LOST" if p < 0.05 else "was never significant")
+        print(f"{name:<36}{p:>11.2e}{b:>11.3f}{y:>11.3f}  {mark}")
+        rows.append({"test": name, "kind": kind, "p_raw": p, "p_bh": b, "p_by": y,
+                     "sig_raw": p < 0.05, "sig_bh": b < 0.05, "sig_by": y < 0.05,
+                     "source": src})
+    summ = {"n": len(fam),
+            "n_sig_raw": sum(r["sig_raw"] for r in rows),
+            "n_sig_bh": sum(r["sig_bh"] for r in rows),
+            "n_sig_by": sum(r["sig_by"] for r in rows),
+            "expected_false_positives": round(0.05 * len(fam), 1),
+            "lost_to_BY": [r["test"] for r in rows if r["sig_raw"] and not r["sig_by"]]}
+    print(f"\nsignificant uncorrected {summ['n_sig_raw']:>3} | BH {summ['n_sig_bh']:>3} | "
+          f"BY {summ['n_sig_by']:>3}   (expected false positives uncorrected: "
+          f"{summ['expected_false_positives']})")
+    if summ["lost_to_BY"]:
+        print("LOST TO CORRECTION: " + "; ".join(summ["lost_to_BY"]))
+    return rows, summ
+
+
 def main() -> None:
     fam = [t for t in TESTS if t[2] == "primary"]
     ps = [t[1] for t in fam]
@@ -129,10 +176,41 @@ def main() -> None:
             print(f"  - {t}")
     print("=" * 82)
 
+    # ── the curator's position, run as a sensitivity analysis rather than argued about ─────────
+    ctrl = [t for t in TESTS if t[2] == "control"]
+    rows_c, summ_c = report(ctrl, "CONTROLS, corrected — the curator's position")
+    rows_all, summ_all = report([t for t in TESTS if t[2] in ("primary", "control")],
+                                "EVERYTHING IN ONE FAMILY — the most conservative reading")
+
+    print("\n" + "=" * 82)
+    print("DOES THE CHOICE OF FAMILY CHANGE ANY CONCLUSION?")
+    print("=" * 82)
+    by_prim = {r["test"]: r["sig_by"] for r in rows}
+    flips = [r["test"] for r in rows_all
+             if r["kind"] == "primary" and by_prim.get(r["test"]) != r["sig_by"]]
+    if flips:
+        print("  Conclusions that FLIP when controls join the family:")
+        for t in flips:
+            print(f"    - {t}")
+    else:
+        print("  No primary conclusion changes. The disagreement about family membership is")
+        print("  real but does not move a single verdict, so it can be recorded and set aside.")
+    ctrl_lost = summ_c["lost_to_BY"]
+    print(f"\n  Controls that would stop firing if corrected: "
+          f"{', '.join(ctrl_lost) if ctrl_lost else 'none'}")
+    if not ctrl_lost:
+        print("  -> every control that killed a measure would still kill it under correction.")
+        print("     So the argument is moot on this data, whichever side is right in principle.")
+
     RESULTS.mkdir(parents=True, exist_ok=True)
     (RESULTS / "multiplicity.json").write_text(json.dumps(
-        {"n_family": len(fam), "n_sig_raw": n_raw, "n_sig_bh": n_bh, "n_sig_by": n_by,
-         "lost_to_correction": lost, "tests": rows}, indent=2), encoding="utf-8", newline="\n")
+        {"primary": {"summary": {"n_family": len(fam), "n_sig_raw": n_raw, "n_sig_bh": n_bh,
+                                 "n_sig_by": n_by, "lost_to_correction": lost}, "tests": rows},
+         "controls_corrected": {"summary": summ_c, "tests": rows_c},
+         "all_one_family": {"summary": summ_all, "tests": rows_all},
+         "primary_conclusions_that_flip": flips,
+         "controls_that_would_stop_firing": ctrl_lost}, indent=2),
+        encoding="utf-8", newline="\n")
     print(f"\nwrote {(RESULTS / 'multiplicity.json').relative_to(REPO)}")
 
 

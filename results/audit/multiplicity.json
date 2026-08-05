@@ -1,202 +1,555 @@
 {
-  "n_family": 19,
-  "n_sig_raw": 12,
-  "n_sig_bh": 12,
-  "n_sig_by": 10,
-  "lost_to_correction": [
-    "ladder: tentative_rate vs rung",
-    "causal_rate transfer: vs thin"
-  ],
-  "tests": [
-    {
-      "test": "layer ratio human vs machine",
-      "p_raw": 1.96e-15,
-      "p_bh": 3.724e-14,
-      "p_by": 1.3211782483203072e-13,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/shuffle_sweep/VERDICT.md"
+  "primary": {
+    "summary": {
+      "n_family": 19,
+      "n_sig_raw": 12,
+      "n_sig_bh": 12,
+      "n_sig_by": 10,
+      "lost_to_correction": [
+        "ladder: tentative_rate vs rung",
+        "causal_rate transfer: vs thin"
+      ]
     },
-    {
-      "test": "ladder: you_rate vs rung",
-      "p_raw": 1e-07,
-      "p_bh": 9.5e-07,
-      "p_by": 3.3703526742864975e-06,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/ladder/ladder.json"
+    "tests": [
+      {
+        "test": "layer ratio human vs machine",
+        "p_raw": 1.96e-15,
+        "p_bh": 3.724e-14,
+        "p_by": 1.3211782483203072e-13,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/shuffle_sweep/VERDICT.md"
+      },
+      {
+        "test": "ladder: you_rate vs rung",
+        "p_raw": 1e-07,
+        "p_bh": 9.5e-07,
+        "p_by": 3.3703526742864975e-06,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "ladder: causal_rate vs rung",
+        "p_raw": 1e-06,
+        "p_bh": 6.3333333333333326e-06,
+        "p_by": 2.246901782857665e-05,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "ladder: TTR vs rung",
+        "p_raw": 1e-05,
+        "p_bh": 3.8e-05,
+        "p_by": 0.0001348141069714599,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "ladder: scale_gain vs rung",
+        "p_raw": 1e-05,
+        "p_bh": 3.8e-05,
+        "p_by": 0.0001348141069714599,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "human vs no-maker, scale_gain",
+        "p_raw": 0.0005,
+        "p_bh": 0.0015833333333333333,
+        "p_by": 0.005617254457144162,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/controls/VERDICT.md"
+      },
+      {
+        "test": "ladder: insight_rate vs rung",
+        "p_raw": 0.0009,
+        "p_bh": 0.002442857142857143,
+        "p_by": 0.008666621162450995,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "causal_rate transfer: vs rich",
+        "p_raw": 0.0011,
+        "p_bh": 0.0026125000000000002,
+        "p_by": 0.00926846985428787,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/rung_minus1/VERDICT.md"
+      },
+      {
+        "test": "rich vs thin, scale_gain",
+        "p_raw": 0.0032,
+        "p_bh": 0.006459999999999999,
+        "p_by": 0.022918398185148178,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/controls/VERDICT.md"
+      },
+      {
+        "test": "ladder: i_rate vs rung",
+        "p_raw": 0.0034,
+        "p_bh": 0.006459999999999999,
+        "p_by": 0.022918398185148178,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "ladder: tentative_rate vs rung",
+        "p_raw": 0.0133,
+        "p_bh": 0.02297272727272727,
+        "p_by": 0.08150125557820075,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": false,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "causal_rate transfer: vs thin",
+        "p_raw": 0.025,
+        "p_bh": 0.03958333333333334,
+        "p_by": 0.14043136142860407,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": false,
+        "source": "results/rung_minus1/VERDICT.md"
+      },
+      {
+        "test": "layer ratio vs rung (THE ONE)",
+        "p_raw": 0.0529,
+        "p_bh": 0.07731538461538462,
+        "p_by": 0.2742948561073165,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/layer_ratio/layer_ratio.json"
+      },
+      {
+        "test": "causal_rate transfer: vs averaged",
+        "p_raw": 0.069,
+        "p_bh": 0.09364285714285715,
+        "p_by": 0.3322204778939548,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/rung_minus1/VERDICT.md"
+      },
+      {
+        "test": "ladder: exclusive_rate vs rung",
+        "p_raw": 0.0917,
+        "p_bh": 0.11615333333333334,
+        "p_by": 0.4120817869760958,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "W-1 wall as displacement",
+        "p_raw": 0.53,
+        "p_bh": 0.629375,
+        "p_by": 1.0,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/wall/VERDICT.md"
+      },
+      {
+        "test": "diversity: sign test",
+        "p_raw": 0.62,
+        "p_bh": 0.68,
+        "p_by": 1.0,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/diversity/VERDICT.md"
+      },
+      {
+        "test": "diversity: career vs breadth",
+        "p_raw": 0.65,
+        "p_bh": 0.68,
+        "p_by": 1.0,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/diversity/VERDICT.md"
+      },
+      {
+        "test": "G3.1 method unlock, A vs B",
+        "p_raw": 0.68,
+        "p_bh": 0.68,
+        "p_by": 1.0,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/gate3/VERDICT.md"
+      }
+    ]
+  },
+  "controls_corrected": {
+    "summary": {
+      "n": 5,
+      "n_sig_raw": 5,
+      "n_sig_bh": 5,
+      "n_sig_by": 5,
+      "expected_false_positives": 0.2,
+      "lost_to_BY": []
     },
-    {
-      "test": "ladder: causal_rate vs rung",
-      "p_raw": 1e-06,
-      "p_bh": 6.3333333333333326e-06,
-      "p_by": 2.246901782857665e-05,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/ladder/ladder.json"
+    "tests": [
+      {
+        "test": "sweep: word-shuffled gap",
+        "kind": "control",
+        "p_raw": 5.83e-16,
+        "p_bh": 2.9150000000000002e-15,
+        "p_by": 6.655916666666667e-15,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/shuffle_sweep/VERDICT.md"
+      },
+      {
+        "test": "sweep: sentence-shuffled gap",
+        "kind": "control",
+        "p_raw": 1.97e-14,
+        "p_bh": 4.9250000000000005e-14,
+        "p_by": 1.1245416666666668e-13,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/shuffle_sweep/VERDICT.md"
+      },
+      {
+        "test": "C3 register: half A vs half B",
+        "kind": "control",
+        "p_raw": 0.0033,
+        "p_bh": 0.004625000000000001,
+        "p_by": 0.010560416666666668,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/layer_ratio/VERDICT_CONTROL.md"
+      },
+      {
+        "test": "ladder void: rung vs length",
+        "kind": "control",
+        "p_raw": 0.0037,
+        "p_bh": 0.004625000000000001,
+        "p_by": 0.010560416666666668,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/VERDICT.md"
+      },
+      {
+        "test": "C2 layer ratio vs word count",
+        "kind": "control",
+        "p_raw": 0.0102,
+        "p_bh": 0.0102,
+        "p_by": 0.02329,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/layer_ratio/VERDICT_CONTROL.md"
+      }
+    ]
+  },
+  "all_one_family": {
+    "summary": {
+      "n": 24,
+      "n_sig_raw": 17,
+      "n_sig_bh": 17,
+      "n_sig_by": 14,
+      "expected_false_positives": 1.2,
+      "lost_to_BY": [
+        "C2 layer ratio vs word count",
+        "ladder: tentative_rate vs rung",
+        "causal_rate transfer: vs thin"
+      ]
     },
-    {
-      "test": "ladder: TTR vs rung",
-      "p_raw": 1e-05,
-      "p_bh": 3.8e-05,
-      "p_by": 0.0001348141069714599,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/ladder/ladder.json"
-    },
-    {
-      "test": "ladder: scale_gain vs rung",
-      "p_raw": 1e-05,
-      "p_bh": 3.8e-05,
-      "p_by": 0.0001348141069714599,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/ladder/ladder.json"
-    },
-    {
-      "test": "human vs no-maker, scale_gain",
-      "p_raw": 0.0005,
-      "p_bh": 0.0015833333333333333,
-      "p_by": 0.005617254457144162,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/controls/VERDICT.md"
-    },
-    {
-      "test": "ladder: insight_rate vs rung",
-      "p_raw": 0.0009,
-      "p_bh": 0.002442857142857143,
-      "p_by": 0.008666621162450995,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/ladder/ladder.json"
-    },
-    {
-      "test": "causal_rate transfer: vs rich",
-      "p_raw": 0.0011,
-      "p_bh": 0.0026125000000000002,
-      "p_by": 0.00926846985428787,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/rung_minus1/VERDICT.md"
-    },
-    {
-      "test": "rich vs thin, scale_gain",
-      "p_raw": 0.0032,
-      "p_bh": 0.006459999999999999,
-      "p_by": 0.022918398185148178,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/controls/VERDICT.md"
-    },
-    {
-      "test": "ladder: i_rate vs rung",
-      "p_raw": 0.0034,
-      "p_bh": 0.006459999999999999,
-      "p_by": 0.022918398185148178,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": true,
-      "source": "results/ladder/ladder.json"
-    },
-    {
-      "test": "ladder: tentative_rate vs rung",
-      "p_raw": 0.0133,
-      "p_bh": 0.02297272727272727,
-      "p_by": 0.08150125557820075,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": false,
-      "source": "results/ladder/ladder.json"
-    },
-    {
-      "test": "causal_rate transfer: vs thin",
-      "p_raw": 0.025,
-      "p_bh": 0.03958333333333334,
-      "p_by": 0.14043136142860407,
-      "sig_raw": true,
-      "sig_bh": true,
-      "sig_by": false,
-      "source": "results/rung_minus1/VERDICT.md"
-    },
-    {
-      "test": "layer ratio vs rung (THE ONE)",
-      "p_raw": 0.0529,
-      "p_bh": 0.07731538461538462,
-      "p_by": 0.2742948561073165,
-      "sig_raw": false,
-      "sig_bh": false,
-      "sig_by": false,
-      "source": "results/layer_ratio/layer_ratio.json"
-    },
-    {
-      "test": "causal_rate transfer: vs averaged",
-      "p_raw": 0.069,
-      "p_bh": 0.09364285714285715,
-      "p_by": 0.3322204778939548,
-      "sig_raw": false,
-      "sig_bh": false,
-      "sig_by": false,
-      "source": "results/rung_minus1/VERDICT.md"
-    },
-    {
-      "test": "ladder: exclusive_rate vs rung",
-      "p_raw": 0.0917,
-      "p_bh": 0.11615333333333334,
-      "p_by": 0.4120817869760958,
-      "sig_raw": false,
-      "sig_bh": false,
-      "sig_by": false,
-      "source": "results/ladder/ladder.json"
-    },
-    {
-      "test": "W-1 wall as displacement",
-      "p_raw": 0.53,
-      "p_bh": 0.629375,
-      "p_by": 1.0,
-      "sig_raw": false,
-      "sig_bh": false,
-      "sig_by": false,
-      "source": "results/wall/VERDICT.md"
-    },
-    {
-      "test": "diversity: sign test",
-      "p_raw": 0.62,
-      "p_bh": 0.68,
-      "p_by": 1.0,
-      "sig_raw": false,
-      "sig_bh": false,
-      "sig_by": false,
-      "source": "results/diversity/VERDICT.md"
-    },
-    {
-      "test": "diversity: career vs breadth",
-      "p_raw": 0.65,
-      "p_bh": 0.68,
-      "p_by": 1.0,
-      "sig_raw": false,
-      "sig_bh": false,
-      "sig_by": false,
-      "source": "results/diversity/VERDICT.md"
-    },
-    {
-      "test": "G3.1 method unlock, A vs B",
-      "p_raw": 0.68,
-      "p_bh": 0.68,
-      "p_by": 1.0,
-      "sig_raw": false,
-      "sig_bh": false,
-      "sig_by": false,
-      "source": "results/gate3/VERDICT.md"
-    }
-  ]
+    "tests": [
+      {
+        "test": "sweep: word-shuffled gap",
+        "kind": "control",
+        "p_raw": 5.83e-16,
+        "p_bh": 1.3992e-14,
+        "p_by": 5.2833206823127064e-14,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/shuffle_sweep/VERDICT.md"
+      },
+      {
+        "test": "layer ratio human vs machine",
+        "kind": "primary",
+        "p_raw": 1.96e-15,
+        "p_bh": 2.3519999999999997e-14,
+        "p_by": 8.881053634076247e-14,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/shuffle_sweep/VERDICT.md"
+      },
+      {
+        "test": "sweep: sentence-shuffled gap",
+        "kind": "control",
+        "p_raw": 1.97e-14,
+        "p_bh": 1.5759999999999998e-13,
+        "p_by": 5.950910088139526e-13,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/shuffle_sweep/VERDICT.md"
+      },
+      {
+        "test": "ladder: you_rate vs rung",
+        "kind": "primary",
+        "p_raw": 1e-07,
+        "p_bh": 6e-07,
+        "p_by": 2.2655749066521038e-06,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "ladder: causal_rate vs rung",
+        "kind": "primary",
+        "p_raw": 1e-06,
+        "p_bh": 4.8e-06,
+        "p_by": 1.812459925321683e-05,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "ladder: TTR vs rung",
+        "kind": "primary",
+        "p_raw": 1e-05,
+        "p_bh": 3.428571428571429e-05,
+        "p_by": 0.0001294614232372631,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "ladder: scale_gain vs rung",
+        "kind": "primary",
+        "p_raw": 1e-05,
+        "p_bh": 3.428571428571429e-05,
+        "p_by": 0.0001294614232372631,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "human vs no-maker, scale_gain",
+        "kind": "primary",
+        "p_raw": 0.0005,
+        "p_bh": 0.0015,
+        "p_by": 0.00566393726663026,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/controls/VERDICT.md"
+      },
+      {
+        "test": "ladder: insight_rate vs rung",
+        "kind": "primary",
+        "p_raw": 0.0009,
+        "p_bh": 0.0024000000000000002,
+        "p_by": 0.009062299626608417,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "causal_rate transfer: vs rich",
+        "kind": "primary",
+        "p_raw": 0.0011,
+        "p_bh": 0.00264,
+        "p_by": 0.009968529589269257,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/rung_minus1/VERDICT.md"
+      },
+      {
+        "test": "rich vs thin, scale_gain",
+        "kind": "primary",
+        "p_raw": 0.0032,
+        "p_bh": 0.006276923076923077,
+        "p_by": 0.023701399023437396,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/controls/VERDICT.md"
+      },
+      {
+        "test": "C3 register: half A vs half B",
+        "kind": "control",
+        "p_raw": 0.0033,
+        "p_bh": 0.006276923076923077,
+        "p_by": 0.023701399023437396,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/layer_ratio/VERDICT_CONTROL.md"
+      },
+      {
+        "test": "ladder: i_rate vs rung",
+        "kind": "primary",
+        "p_raw": 0.0034,
+        "p_bh": 0.006276923076923077,
+        "p_by": 0.023701399023437396,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "ladder void: rung vs length",
+        "kind": "control",
+        "p_raw": 0.0037,
+        "p_bh": 0.006342857142857143,
+        "p_by": 0.023950363298893673,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": true,
+        "source": "results/ladder/VERDICT.md"
+      },
+      {
+        "test": "C2 layer ratio vs word count",
+        "kind": "control",
+        "p_raw": 0.0102,
+        "p_bh": 0.01632,
+        "p_by": 0.061623637460937235,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": false,
+        "source": "results/layer_ratio/VERDICT_CONTROL.md"
+      },
+      {
+        "test": "ladder: tentative_rate vs rung",
+        "kind": "primary",
+        "p_raw": 0.0133,
+        "p_bh": 0.01995,
+        "p_by": 0.07533036564618245,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": false,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "causal_rate transfer: vs thin",
+        "kind": "primary",
+        "p_raw": 0.025,
+        "p_bh": 0.03529411764705883,
+        "p_by": 0.13326911215600615,
+        "sig_raw": true,
+        "sig_bh": true,
+        "sig_by": false,
+        "source": "results/rung_minus1/VERDICT.md"
+      },
+      {
+        "test": "layer ratio vs rung (THE ONE)",
+        "kind": "primary",
+        "p_raw": 0.0529,
+        "p_bh": 0.07053333333333334,
+        "p_by": 0.266330916804214,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/layer_ratio/layer_ratio.json"
+      },
+      {
+        "test": "causal_rate transfer: vs averaged",
+        "kind": "primary",
+        "p_raw": 0.069,
+        "p_bh": 0.08715789473684211,
+        "p_by": 0.3291045653873583,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/rung_minus1/VERDICT.md"
+      },
+      {
+        "test": "ladder: exclusive_rate vs rung",
+        "kind": "primary",
+        "p_raw": 0.0917,
+        "p_bh": 0.11004,
+        "p_by": 0.41550643787999586,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/ladder/ladder.json"
+      },
+      {
+        "test": "W-1 wall as displacement",
+        "kind": "primary",
+        "p_raw": 0.53,
+        "p_bh": 0.6057142857142858,
+        "p_by": 1.0,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/wall/VERDICT.md"
+      },
+      {
+        "test": "diversity: sign test",
+        "kind": "primary",
+        "p_raw": 0.62,
+        "p_bh": 0.6763636363636363,
+        "p_by": 1.0,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/diversity/VERDICT.md"
+      },
+      {
+        "test": "diversity: career vs breadth",
+        "kind": "primary",
+        "p_raw": 0.65,
+        "p_bh": 0.6782608695652175,
+        "p_by": 1.0,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/diversity/VERDICT.md"
+      },
+      {
+        "test": "G3.1 method unlock, A vs B",
+        "kind": "primary",
+        "p_raw": 0.68,
+        "p_bh": 0.68,
+        "p_by": 1.0,
+        "sig_raw": false,
+        "sig_bh": false,
+        "sig_by": false,
+        "source": "results/gate3/VERDICT.md"
+      }
+    ]
+  },
+  "primary_conclusions_that_flip": [],
+  "controls_that_would_stop_firing": []
 }
