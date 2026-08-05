@@ -285,6 +285,66 @@ which is the quantity this whole project is trying to measure. If interest is wh
 decisions are present but unattributed, then **reader-reported interest is an instrument** — and it is
 one we could ask a human for directly.
 
+### E1c · The layer names — **mechanics / technique / metaphor stands, and Panofsky was the wrong citation**
+
+My first answer was Panofsky's pre-iconographic / iconographic / iconological. **He rejected it and he
+is right.** Those levels are about *what an image depicts* — objects, then symbols, then cultural
+meaning. His are about *how a thing was made*. Reading content and reading production are different
+axes, and I conflated them. Perspective, oil paint and meaning genuinely do not sort into Panofsky's
+scheme.
+
+**The right citation is Dennett's three stances**, and it is a much better fit:
+
+| his label | Dennett | what it reads |
+|---|---|---|
+| **mechanics** | physical stance | how the hand moved; the material act |
+| **technique** | design stance | how it is built to work; perspective, structure |
+| **metaphor** | intentional stance | what the maker meant by it |
+
+**And it is not one person's scheme.** Marr's computational / algorithmic / implementational, and
+Newell's and Pylyshyn's independent versions, all land on three levels with the same structure. Four
+thinkers converging is a real result about the shape of the problem, not a coincidence of naming.
+
+Dennett's framing is also *about predicting behaviour from the appropriate level of abstraction*,
+which is exactly what a reader of an artifact is doing — so it is the right frame, not just a
+convenient label.
+
+**Decision: keep mechanics / technique / metaphor as the working vocabulary.** Dennett is the
+citation, not the terminology. One caveat worth holding: **"metaphor" is narrower than the top layer
+needs** — the intentional stance covers *purpose*, not only *meaning*, and this project's top layer
+has to carry goal.
+
+**Still open, and he flagged it:** whether the layers are really three, or arbitrarily subdividable.
+Nobody in the convergence above argues three is forced; they argue three is *useful*.
+
+### E6 · Values are a weighting over a policy; a goal is one component temporarily amplified — ★
+
+> Take value space and treat it as a sort of **weighting on a policy plan**. And a goal would be just
+> a weighting of a specific policy plan — raising one action within that plan above the rest
+> temporarily, due to attention.
+
+**This closes the project's own loop.** The founding claim was *appreciation is inverse reinforcement
+learning* — the reader inverts the artifact to recover the maker's reward function. E6 says values
+**are** that reward function, and a goal is a temporary re-weighting of it under attention.
+
+**Why it is more than a restatement.** It makes a structural prediction that explains a pile of past
+failures:
+
+> A reward function is not recoverable from one episode. It is recoverable from **behaviour across
+> many episodes**. So **values need multiple artifacts by the same maker; a goal needs only one.**
+
+Every attempt here to extract values from a single artifact failed. Every within-maker,
+multiple-work design has been the one that worked — author identification, and the only within-human
+positive we have. **That is not a coincidence, on this account; it is the prediction.**
+
+It also explains T-6's result that the values vertex adds exactly zero information: a single-artifact
+model cannot represent a quantity that is only defined across artifacts.
+
+**What would test it:** recover a weighting per maker from several of their works, and check it is
+more stable within maker than between makers — the same design as the author-identification positive,
+pointed at a different quantity. **The 34-book corpus already supports this**, and it is the first
+values test this project has been able to specify at all.
+
 ### E4 · "Polish", not "veneer" — terminology
 
 His own correction. **Polish** is the better word for the surface layer, and under the theory polish

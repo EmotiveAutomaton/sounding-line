@@ -20,6 +20,16 @@ Each of these is a claim from `docs/theory/CURATOR_GUESSES.md` turned into somet
 | **E4 · polish vs performative polish** | Is there art theory separating aesthetics that *indicate* deeper understanding from aesthetics that merely perform it? | Literature search. His own E3 may already answer it: performative polish would be **ordered without being unexplained** — which is a measurable distinction, not a vibe | search |
 | **E5 · stacked motivations** | A machine given many aligned motivations should read as more intentional | **Ladder 3, running now.** 0/2/10/30/60 specifications with length nailed by rejection sampling. Also tests whether the effect *accelerates* at the top, which would be evidence for E2 | running |
 
+## Yours — things no corpus can replace
+
+The public corpora fix the *scale* problem. They do not touch these, and two of them are cheap.
+
+| | what | why it cannot be outsourced | cost |
+|---|---|---|---|
+| **Rate interest** | Go back over the eleven artifacts you have already read and give each an interest score, 0–10, with one line on *what* was interesting | Your own E3: interest is what a reader feels when decisions are present but unattributed. **That makes reader-reported interest a direct instrument for the quantity we cannot measure**, and it is the only channel that has outperformed every measure we have built. No download supplies it | ~20 min |
+| **Author a coherent value set** | Write out a value set the way you would describe a person's — five to ten drives, with their relative weight and how they conflict | **This answers your own objection to the extreme ladder.** You predicted no acceleration because an AI has no internal alignment between arbitrary specifications. If you supply a *coherent* value set, we can generate goals derived from it and compare against arbitrary specifications of the same count. That is the difference between a value set and a list | ~30 min |
+| **C-20 — a second reader** | Even two artifacts, answering the same questions | One reader cannot bound their own cap, and this has been outstanding since day one | an hour of someone else's time |
+
 ## Public corpora — found, and the useful ones are not the obvious ones
 
 **The AI-detection corpora exist in abundance and mostly do not help us.** RAID (6M generations, 11
