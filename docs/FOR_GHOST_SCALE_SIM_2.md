@@ -133,3 +133,50 @@ and that should be known before more is built on it.
 Verdict, numbers, and **what would have falsified it** — the format that made the first batch
 useful. **T-1 first if only one runs**, because it decides whether the framework is a chain or a
 triangle, and Sounding Line's entire failed primary was built on assuming a chain.
+
+---
+
+## Addendum — the curator's directional predictions for T-1, recorded before the run
+
+Dictated 2026-08-05, after reading the above and before any of it executed.
+
+> **There is absolutely not going to be symmetry.**
+>
+> The easiest one to figure out is **the goal** — the proximal goal, why this artifact was made —
+> and that informs the other two.
+>
+> That said, I suspect **the strongest predictive help will be the process.** If you have the
+> process, then you can reproduce the artifact.
+
+So the prediction has two parts and they are separable:
+
+| | |
+|---|---|
+| **easiest to recover** | **goal.** Highest accuracy from the artifact alone, no prior supplied. |
+| **most useful when supplied** | **process.** Largest improvement at the other two vertices when given. |
+
+**Those can come apart, and that is what makes it a real prediction.** A vertex that is easy to
+recover is not necessarily the one that helps most once you have it — and if the same vertex wins
+both, the triangle has a natural entry point and the loop should be rebuilt around it.
+
+### And the consequence he drew from it
+
+> If you know the person better, then you can extract their proximal goal and their process more
+> easily. Which makes **showing something you've written a kind of intimacy** — and more so to
+> someone who knows you well.
+
+That is the values vertex acting as a **prior held before the artifact is seen**, rather than as
+something recovered from it. Which means T-1's values→goal and values→process edges are not just
+two more conditions: **they are the formal statement of why sharing work with someone who knows you
+is a different act from publishing it.**
+
+Worth measuring for that reason alone, whatever the numbers do.
+
+### On T-3
+
+> I suspect T-3 is going to come back negative. But you know what, we're going to keep on trying.
+> **Diversity of motivations is probably more easily extractable than decision density.**
+
+Recorded as a prior. If T-3 returns negative — discrete decision-counting dead in principle — the
+follow-on he names is already specified: **diversity as the recoverable quantity, density as the
+one that is not.** T-2 is the test of that and it is in this batch.
