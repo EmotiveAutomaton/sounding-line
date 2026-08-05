@@ -62,6 +62,21 @@ OUT = REPO / "results" / "feature_sweep"
 
 
 def load(corpus: str) -> dict | None:
+    """Load a cached corpus, or synthesise the pooled N28 comparison.
+
+    `n28` is not a corpus on disk. It is the test the sweep was missing: **human artifacts against
+    no-maker artifacts, pooled under a binary label.** The no-maker cache has three kinds
+    (thin/rich/averaged) and tsfresh's relevance table needs two classes, which is why the first
+    run skipped it entirely — and it is the most important cell in the table, because a feature that
+    moves where there is no maker is reading something other than a maker.
+    """
+    if corpus == "n28":
+        human, nm = load("gate3"), load("nomaker")
+        if not human or not nm:
+            return None
+        items = ([{**it, "group": "human"} for it in human["items"]] +
+                 [{**it, "group": "nomaker"} for it in nm["items"]])
+        return {"corpus": "n28", "items": items}
     p = CACHE / f"{corpus}.json"
     if not p.exists():
         return None
