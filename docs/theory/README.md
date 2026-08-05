@@ -1,90 +1,131 @@
-# Theory — the whole state, compressed
+# Theory — organised by what it is about
+
+**Reorganised 2026-08-05.** These files accumulated in the order they were written — research round
+1, round 2, round 3 — which stopped being a useful order some time ago. They are grouped by content
+now, and each carries its current status, because several of them contain claims the evidence has
+since moved.
 
 One line per finding. Follow the link only if you need the argument.
+**Results and verdicts are not here — they are in [`../LEDGER.md`](../LEDGER.md).**
 
 ---
 
-## The instrument's core
+## A · The frame — what the instrument claims to do
 
-| | claim | status |
-|---|---|---|
-| art = compressed intent | decisions per artifact, counting automatised ones | source theory |
-| appreciation = IRL | reader inverts artifact → maker's reward function | source theory |
-| the reading is a tuple | never one number — SPEC §5 | enforced in code |
-| **depth = decisions RECOVERABLE** | a joint claim about artifact *and* reader | the goal |
+### [THE_TRIANGLE.md](THE_TRIANGLE.md) — **the sharpest statement of the theory, and it needs revising**
 
-## What the simulation established, and what this project inherited
+The curator's formalisation: empathy as three coupled variational inference problems — proximal
+goal, process, values/drives — each bootstrapping the others. Sharper than the essay's appendix.
+Also carries **relative goal diversity** (soul = variety of motivations, travelling with expertise
+via automaticity) and the mechanistic-interpretability angle.
 
-| | | where |
-|---|---|---|
-| **E36** | depth moves **method** uptake; provably cannot move **purpose** uptake | method unlock is the primary |
-| **N28** | if a measure moves where there is nothing to measure, every number above it is void | **this project has no analogue** → [SIM_REREAD](SIM_REREAD.md) |
-| **E37** | the wall is *legible and empty* — non-invertibility, not illegibility | the one finding needing a posterior |
-| **E38** | machine-matched reader: 1.000 on machine, 0.280 on human | ceiling on every gate |
-| **E40** | optimise a surface cue and it decouples: pay more, get less | third failure mode |
-| **E43** | compression removes decisions from the maker's **report**, not the artifact | [SIM_REREAD](SIM_REREAD.md) §4 |
-| **E55** | reader-side intent gate cuts damage 23%, costs nothing clean, never reads the label | the successor's shape |
-| **MIN** | no finding survives replacing the maker-modelling reader with a surface classifier | v9 ablation |
+> **Status: partly overturned by simulation T-1, and it should be read alongside
+> [`../FROM_GHOST_SCALE_SIM_2.md`](../FROM_GHOST_SCALE_SIM_2.md).** It is **not a triangle** — three of
+> six edges are exactly zero, goal is a sink already at ceiling, process is the source, and the edges
+> are **additive rather than superadditive**, so "bootstrapping" is not what was measured. The
+> **values vertex does not exist** in the model: H(values | goal) = 0. The curator's own open question
+> — *are drives values?* — is therefore still open and now has a name for what would have to be built.
+>
+> His two directional predictions **both held**: goal easiest to recover, process most useful when
+> supplied. The file has not been rewritten yet; do not read it as current on structure.
 
-## What the curator's readings added
+### [SURFACE_AND_DEPTH.md](SURFACE_AND_DEPTH.md) — two decision densities, split by what the decision targets
+Written after the curator rejected a summary of session 01. **Status: standing.** Sim S-6 supports
+it from the side — practised surface decays 6.5× faster than depth, and synthetic surface is flat.
 
-| | claim | where |
-|---|---|---|
-| **anomaly entry** | reading starts at *what demands explanation*, not at the whole artifact | [SUCCESSOR](../SUCCESSOR.md) §2 |
-| **bidirectional loop** | purpose→method **and** method→purpose; entry set by partial expertise | [SUCCESSOR](../SUCCESSOR.md) §3 |
-| **C-22, corrected** | flattened intent is **share**, not singularity → `purpose_breadth` | [FLATTENED_INTENT](FLATTENED_INTENT.md) |
-| **surface ≠ depth** | two decision densities, split by *what the decision targets* | [SURFACE_AND_DEPTH](SURFACE_AND_DEPTH.md) |
-| **S-1** | depth is stationary within an artifact; surface is not | untested |
-| **persona limit** | what is recoverable is a presented face **and its leaks** | scope limit |
-
-## Affect — the leg that opened up
-
-| | claim | where |
-|---|---|---|
-| **two layers** | leaked (Panksepp primary) vs emblematic (Barrett tertiary) — **this is the field's reconciliation position** | [AFFECT_ARCHITECTURE](AFFECT_ARCHITECTURE.md) §1 |
-| **ANPS dropped LUST** | because a questionnaire only reaches the tertiary layer. Artifacts don't have that limit | §2 |
-| **no mapping exists** | primary-process systems → textual signatures: nothing published | [AFFECT_LITERATURE](AFFECT_LITERATURE.md) §1 |
-| **unsupervised ≈ 0.4** | LIWC-class r=0.35–0.54; supervised transformers 0.85. Stage E is the former | §3–4 |
-| **collapse predicted** | values will merge before they go silent → N-AFF-2 | §4 |
-| **function words = leakage** | non-conscious, topic-independent, hard to fake, track *state* | **[LEAKAGE](LEAKAGE.md) §1** |
-| **LLM internals ≈ core affect** | 171 causal emotion directions; PCs align to **valence/arousal** | **[LEAKAGE](LEAKAGE.md) §4** |
-| **stage E is emblematic-only** | asking for a label returns a content-word judgement, on both outputs | [LEAKAGE](LEAKAGE.md) §1 |
-
-## Options, costed
-
-| | what | cost | gates |
-|---|---|---|---|
-| **D-0** | do function-word vectors separate by maker state? | **2h GPU** | **all of D** |
-| **A** | leaked layer from function-word distributions | hours, no GPU | — |
-| **C** | keep stage E, re-scoped as emblematic-only | free, built | — |
-| **B** | activation readout for valence/arousal | an afternoon + VRAM | — |
-| **D** | inverse planning over artifacts | **2-3 days to runnable** | D-0 |
-
-D-0 came back **inconclusive at 38% power** — see [`../../results/d0/VERDICT.md`](../../results/d0/VERDICT.md).
-D-0b is pre-registered with power computed first.
-
-**Six directions, ranked, in [DIRECTIONS](DIRECTIONS.md).** The two strongest read the *reader*
-rather than the artifact, and the cheapest (public-domain books) fixes both D-0's sample problem
-and A's baseline problem at once. Costing of D: [OPTION_D](OPTION_D.md).
-
-## Open, and blocking
-
-| | |
-|---|---|
-| **C-14** | grooming corpus never sourced. Successor's required corpus, oldest debt |
-| **C-20** | one reader. E10 says reader skill caps extraction; one reader cannot bound their own cap |
-| **C-23** | human-shaped maker goals — partly answered by the two-layer model, unbuilt |
-| **N28-analogue** | Gate 3 has no no-maker control. Gate 2 ran the nearest thing and it **failed** |
-| **A-1** | can a model without interoception predict what affect a human attributes? |
+### [FLATTENED_INTENT.md](FLATTENED_INTENT.md) — intent as *share*, not singularity
+Logged mid-run, before Gate 3 results were read, specifically so it could not be used to
+reinterpret them. **Status: standing, but its instrument is gone** — it pointed at
+`purpose_breadth`, which T-2 retired as a difficulty statistic. The hypothesis needs a new measure.
 
 ---
 
-## Reading order, if starting cold
+## B · Method — what a control licenses
 
-1. [SIM_REREAD](SIM_REREAD.md) — what the simulation constrains
-2. [SURFACE_AND_DEPTH](SURFACE_AND_DEPTH.md) — the two axes, hard-defined
-3. [AFFECT_ARCHITECTURE](AFFECT_ARCHITECTURE.md) — the two layers and why they are the debate
-4. [LEAKAGE](LEAKAGE.md) — how to measure the layer that matters
-5. [../SUCCESSOR.md](../SUCCESSOR.md) — what gets built
+### [CONTROLS.md](CONTROLS.md) — **read this before designing another test**
+**New, 2026-08-05**, at the curator's challenge to the shuffle test. Establishes that the shuffle
+test is exact for text statistics and **invalid for model-internal measures**; that "vocabulary" was
+never a single thing, and word choice is a decision channel; the five-level hierarchy of controls;
+and **rung −1**, the ceiling control that catches measures which *peak* on noise.
 
-Provenance for every curator contribution: [results/readings/PROVENANCE.md](../../results/readings/PROVENANCE.md)
+Carries one retraction: the layer ratio's cause of death.
+
+---
+
+## C · Affect — the leg that opened up
+
+### [AFFECT_ARCHITECTURE.md](AFFECT_ARCHITECTURE.md) — the two layers, and why they are the field's live debate
+Leaked (Panksepp, primary process) vs emblematic (Barrett, constructed). **This is the field's
+reconciliation position, not a design choice.** Diagnoses why ANPS drops LUST — a questionnaire only
+reaches the tertiary layer; artifacts have no such limit. **Status: standing.**
+
+### [LEAKAGE.md](LEAKAGE.md) — how to actually extract the layer that matters
+Function words as a 60-year-old operationalisation of leakage: non-conscious, topic-independent,
+hard to fake, tracking **state**. And: LLM internals already carry ~core affect — 171 causal emotion
+directions, PCs aligning to valence/arousal. **Status: standing, and it is where the two surviving
+measures come from.**
+
+### [AFFECT_LITERATURE.md](AFFECT_LITERATURE.md) — what exists, and what family v3 proposes that does not
+No published mapping from primary-process systems to textual signatures. Unsupervised methods sit at
+r ≈ 0.35–0.54; supervised transformers at 0.85; stage E is the former. **Status: standing.**
+
+### [FAMILY_V3_REVIEW.md](FAMILY_V3_REVIEW.md) — the vocabulary decisions, with the curator's rulings
+Five questions closed: why `none_recoverable` rather than `none_legible`, why LUST stays, the
+fear/grief boundary, and **why leaked > emblematic is not concealment — the shield gets louder**.
+Short, closed, and worth keeping for the rulings rather than the questions.
+
+---
+
+## D · Inherited constraints — what the simulation already settled
+
+### [SIM_REREAD.md](SIM_REREAD.md) — what the simulation says this project is not doing
+Read against the model code, not just the findings. The N28 gap, the unlock statistic not being
+E36's statistic, E37's *legible and empty* wall, E38's ceiling (1.000 machine / 0.280 human), E55 as
+the successor's shape, MIN. **Status: standing, and the source of most of the controls.**
+
+Live traffic with the parent repository:
+[`../FOR_GHOST_SCALE_SIM.md`](../FOR_GHOST_SCALE_SIM.md) ·
+[`../FROM_GHOST_SCALE_SIM.md`](../FROM_GHOST_SCALE_SIM.md) ·
+[`../FOR_GHOST_SCALE_SIM_2.md`](../FOR_GHOST_SCALE_SIM_2.md) ·
+[**`../FROM_GHOST_SCALE_SIM_2.md`**](../FROM_GHOST_SCALE_SIM_2.md) ← newest, and it moves things
+
+---
+
+## E · Build options, costed
+
+### [DIRECTIONS.md](DIRECTIONS.md) — six directions, ranked
+The two strongest read the **reader** rather than the artifact — which is now confirmed by the
+ledger, where every artifact-reading measure has died and both survivors are reader-side.
+**Status: the ranking is still right; the individual costings are stale.**
+
+### [OPTION_D.md](OPTION_D.md) — inverse planning, costed honestly
+Written after an estimate of "years" turned out to be 2–3 days, because pymdp is already installed
+next door. **Kept as much for the lesson as for the estimate.**
+
+---
+
+## F · Open, and blocking
+
+| | | |
+|---|---|---|
+| **the corpus** | everything that works, works when register/topic/format are fixed **by construction**. No such corpus of *human* artifacts with varying maker state exists | **the binding constraint** |
+| **the dwell corpus** | T-3 names a regime where decision-counting is well-defined: makers who hold one sub-goal for long stretches | new, well-specified |
+| **C-14** | grooming corpus never sourced | oldest debt |
+| **C-20** | one reader. E10 says reader skill caps extraction; one reader cannot bound their own cap | blocking |
+| **the values vertex** | H(values \| goal) = 0 in the current model. It has to be **built** before the curator's question can be asked | T-1 |
+| **A-1** | can a model without interoception predict what affect a human attributes? | needs curator labels |
+
+---
+
+## Reading order, cold start
+
+1. [SIM_REREAD](SIM_REREAD.md) — what is already constrained
+2. [**CONTROLS**](CONTROLS.md) — what a control licenses, and what killed ten measures
+3. [SURFACE_AND_DEPTH](SURFACE_AND_DEPTH.md) — the two axes
+4. [AFFECT_ARCHITECTURE](AFFECT_ARCHITECTURE.md) → [LEAKAGE](LEAKAGE.md) — the live measurement leg
+5. [THE_TRIANGLE](THE_TRIANGLE.md) **with** [`../FROM_GHOST_SCALE_SIM_2.md`](../FROM_GHOST_SCALE_SIM_2.md)
+6. [`../LEDGER.md`](../LEDGER.md) — every result
+7. [`../SUCCESSOR.md`](../SUCCESSOR.md) — what gets built
+
+Provenance for every curator contribution:
+[`../../results/readings/PROVENANCE.md`](../../results/readings/PROVENANCE.md)

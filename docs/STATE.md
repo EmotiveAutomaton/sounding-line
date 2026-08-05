@@ -1,6 +1,11 @@
 # STATE — read this first after any context loss
 
-**The one file that survives a compaction.** Updated 2026-08-03, end of day 2.
+**The one file that survives a compaction.** Updated **2026-08-05**, after the second simulation
+batch returned and after the shuffle test was challenged and partly overturned.
+
+> **Two of four surviving measures died on 2026-08-05.** If you are reading this cold, the fastest
+> honest orientation is [`LEDGER.md`](LEDGER.md) — every test, verdict and retraction in one table —
+> followed by [`theory/CONTROLS.md`](theory/CONTROLS.md), which is why several verdicts changed.
 
 Everything below is either *true right now* or *the next thing to do*. Argument lives elsewhere and
 is linked.
@@ -20,15 +25,16 @@ projects.
 
 ## 2 · Running right now
 
-| | |
-|---|---|
-| **Gate 3** | 51 artifacts, k=5, both arms, local. Started 14:57. **ETA ~03:30.** |
-| output | `results/gate3/gate3_local_k5.json`, log `run_parallel.log` |
-| score with | `runners/score_gate3.py` — written before any result, do not edit it to fit |
-| card | `prereg/gate3.py`, hash `d373508e2373` |
-| input | sanitised **and** date-censored (D-6). Restarted twice for this. |
+**Nothing.** `run_queue_today.sh` reported `QUEUE DONE`; the GPU is idle. Gate 3 finished on
+2026-08-04 and scored **UNINTERPRETABLE** (N13 stability null failed: within-artifact sd 0.808
+against between-half 0.087 — the card says that outranks the p-value).
 
-**Do not narrate per-artifact numbers.** Score once, at the end, with the locked script.
+Next up, and both are methodological because both would have caught errors already made:
+**rung −1** (the ceiling control) then the **shuffle granularity sweep**. Full list:
+[`QUEUE.md`](QUEUE.md).
+
+**Standing:** do not narrate per-artifact numbers from a running gate. Score once, at the end,
+with the locked script.
 
 ---
 
@@ -124,15 +130,58 @@ not collapse — predicted failure mode, from LIWC's 0.49 inter-motive correlati
 
 ---
 
+## 4b · What changed on 2026-08-05, and it is a lot
+
+**a. The shuffle test is not what we thought.** It is exact for statistics computed from text and
+**invalid for anything read out of a model's activations** — a permuted text is word salad, out of
+distribution, and it shifted *both* arms of the layer-ratio comparison upward by ~14%. That is a
+change of operating point, not an ablation. Underneath that, the premise was also wrong:
+**"vocabulary" is two things**, and word choice is a *decision channel*, not a confound. The confound
+we actually need to exclude is register/topic/genre, and construction excludes it directly.
+→ [`theory/CONTROLS.md`](theory/CONTROLS.md). The curator raised this; he was right.
+
+**b. `purpose_breadth` is dead.** Sim T-2: it is confounded with **difficulty**. At matched
+difficulty, excess breadth attributable to motivational diversity is **−0.013 to −0.025** — zero.
+Separately, **S-2's validation is retracted** — its emitter ignored `artifact.goal`, so the
+manipulation never reached the reader.
+
+**c. The triangle is not a triangle.** Sim T-1: three of six edges are exactly zero, **goal is a sink
+already at ceiling (1.000)**, process is the source (+0.840 → depth), and the edges are **additive,
+not superadditive**. The **values vertex does not exist**: H(values | goal) = 0. The curator's two
+directional predictions both held.
+
+**d. But do not rebuild around process.** Sim T-5, which the simulation added itself: process-side
+and goal-side statistics tie as detectors (median +0.015 / −0.002). T-1's asymmetry has **no
+instrument consequence.** That result saved a week.
+
+**e. Decision-counting is un-retired, conditionally.** Sim T-3 came back **positive against the
+curator's prior**: the count is well-defined where **mode dwell is long**. Dwell moves posterior
+concentration **2× what artifact length does**. That specifies a corpus.
+
+Full detail: [`FROM_GHOST_SCALE_SIM_2.md`](FROM_GHOST_SCALE_SIM_2.md).
+
+---
+
 ## 5 · Next, in order of value per hour
 
 | | what | cost | status |
 |---|---|---|---|
-| ~~D-0~~ | do function-word vectors separate by specified maker state? | 40 min | **INCONCLUSIVE** — ran at 38% power; corrected from FAIL. [verdict](../results/d0/VERDICT.md) |
+| **rung −1** | does the measure *peak* on word salad? A measure that scores shuffled text above rung 10 reads unpredictability | **25 min** | **unbuilt, and it is first** |
+| **shuffle sweep** | paragraph / sentence / phrase / word — a granularity curve instead of a yes-no | 40 min | unbuilt |
+| **layer ratio** | re-adjudicated against the ladder only, with the two above as controls | 30 min | **reopened**, not dead |
+| **the dwell corpus** | T-3's regime — sustained single-purpose artifacts | acquisition | a sourcing decision |
 | **A** | leaked layer from function-word distributions | hours, no GPU | |
-| **C** | stage E kept, re-scoped as emblematic-only | free, built | |
-| **B′** | mid-layer activation readout while the model READS; low-order/high-order ratio | an afternoon | **torch installing 2026-08-03** |
-| **D** | inverse planning over artifacts | **2–3 days to runnable** | needs D-0 |
+| **D** | inverse planning over artifacts | **2–3 days to runnable** | |
+| ~~D-0~~ | | | **INCONCLUSIVE** — 38% power; corrected from FAIL. [verdict](../results/d0/VERDICT.md) |
+| ~~`purpose_breadth` on books~~ | | | **cancelled** — measure is dead (4b·b) |
+
+**Two survivors left: function words** (ceiling = author ID, 7.6× identity / 2.05× within-author)
+**and the affect directions** (4× chance, **not lexical**, bimodal across depth). The layer ratio is
+a third that is unresolved rather than dead.
+
+Option D's costing still holds: `ghost-scale-sim` implements the whole inversion already —
+`HumanCreator`, `rollout_observer`, `generative_model`, `exact.py`, pymdp verified. The gap is one
+function: text → feature vector. See [`theory/OPTION_D.md`](theory/OPTION_D.md).
 
 **D-0 was INCONCLUSIVE, not a failure, and the correction is mine.** I set a pass threshold
 without checking whether the design could reach it. At 380-word samples an `I`-category appears
@@ -171,8 +220,13 @@ emissions. Synthetic forward, real inverse. See [`theory/OPTION_D.md`](theory/OP
 - **Docs are references, not essays.** He already knows the literature.
 - **Never edit `SPEC` or a locked card.** Deviations go in `docs/DEVIATIONS.md`.
 - He has been right and I have been wrong on: dropping LUST, keeping dates, the divergence
-  direction, the cost of option D. **When he pushes back, check the local information before
-  defending the estimate.**
+  direction, the cost of option D, the rich arm's prompt leaking instruction-following, and
+  **the shuffle test** (2026-08-05 — he doubted it on instinct, and it turned out to be invalid for
+  model-internal measures *and* built on an unexamined premise about vocabulary).
+  **When he pushes back, check the local information before defending the estimate.**
+- **When a question is about mechanism, send it next door.** The simulation has ground truth. In two
+  batches it has killed two of our measures, retracted two of its own results, and talked us out of
+  one unnecessary rebuild. Nothing it found was findable on real text.
 
 ---
 
@@ -180,7 +234,11 @@ emissions. Synthetic forward, real inverse. See [`theory/OPTION_D.md`](theory/OP
 
 | | |
 |---|---|
-| whole theory, one line per finding | [`theory/README.md`](theory/README.md) |
+| **every test, verdict and retraction** | [**`LEDGER.md`**](LEDGER.md) |
+| **what a control licenses** | [**`theory/CONTROLS.md`**](theory/CONTROLS.md) |
+| **the second simulation batch** | [**`FROM_GHOST_SCALE_SIM_2.md`**](FROM_GHOST_SCALE_SIM_2.md) |
+| what is left to run, and what was cancelled | [`QUEUE.md`](QUEUE.md) |
+| whole theory, organised by content | [`theory/README.md`](theory/README.md) |
 | what gets built next | [`SUCCESSOR.md`](SUCCESSOR.md) |
 | every curator contribution → what it changed | [`../results/readings/PROVENANCE.md`](../results/readings/PROVENANCE.md) |
 | the two reading sessions | [`../results/readings/`](../results/readings/) |

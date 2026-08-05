@@ -1,5 +1,26 @@
 # The 52% gap is vocabulary. The ladder signal is not. Both are true.
 
+> ## ⚠ PARTIAL RETRACTION — same day, 2026-08-05
+>
+> **C1 does not license the conclusion it was used for.** The curator challenged the shuffle test
+> hours after this was written, and he was right. See [`../../docs/theory/CONTROLS.md`](../../docs/theory/CONTROLS.md) §3.
+>
+> The shuffle test is exact for statistics computed from text, and **invalid for a measure read out
+> of a model's activations**. A permuted text is not "the same text minus order" — it is word salad,
+> out of distribution for the reader, and it moved **both arms upward by ~14%** (human +12.8%,
+> machine +15.6%). That is a common-mode shift to a different operating point, not an ablation. In
+> proportional terms the gap barely moved at all: −0.409 of the intact mean, −0.433 of the shuffled
+> mean. **The "121% survival" was an artefact of comparing across two operating points.**
+>
+> | | withdrawn | stands |
+> |---|---|---|
+> | "the gap is vocabulary" | ✗ — C1 could not show this | |
+> | "not a human/machine discriminator" | | ✓ — **on C3 alone**, which is a construction control and never used shuffling |
+> | "tenth measure dead" | ✗ — the measure returns to **unresolved** | |
+> | the ladder is the only comparison worth running it on | | ✓ |
+>
+> Everything below is the original text, unedited.
+
 **2026-08-05.** Three controls on the human/machine layer-ratio result.
 
 ---

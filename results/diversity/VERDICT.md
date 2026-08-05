@@ -1,5 +1,27 @@
 # Goal diversity vs expertise — a clean null on a proxy that is probably wrong
 
+> ## ⚠ THE PROPOSED REPLACEMENT IS ALSO DEAD — 2026-08-05
+>
+> This file closes by recommending `purpose_breadth` as the correct measure, run on early vs late
+> works by the same author, with the second prediction that `purpose_agreement` stays flat.
+>
+> **That test is cancelled and `purpose_breadth` is retired.** Simulation T-2 built a pure-difficulty
+> axis with no motivational diversity anywhere in the world and `purpose_breadth` tracked it
+> perfectly (goal accuracy 0.425 → 0.965 as breadth fell 0.793 → 0.272). Against **equally hard
+> single-drive work**, excess breadth attributable to diversity was **−0.013, −0.025, −0.021** — zero
+> or slightly negative, and inside the noise curve. `construct_is_confounded_with_difficulty: true`.
+>
+> Separately, **sim S-2 — cited here as `purpose_breadth`'s validation — is retracted at source.**
+> Its emitter ignored `artifact.goal` once a creator was bound, so the feature streams were
+> bit-identical with the mixture switched off. It measured nothing.
+>
+> **The curator's mechanism is untouched** — practice → automaticity → drives → variety is not
+> refuted, and the simulation says plainly it cannot test that causation. What died is our instrument
+> for it. Any replacement must survive a **difficulty control**, which neither of the two tried so far
+> would have.
+>
+> → [`../../docs/FROM_GHOST_SCALE_SIM_2.md`](../../docs/FROM_GHOST_SCALE_SIM_2.md) · [`../../docs/LEDGER.md`](../../docs/LEDGER.md)
+
 **2026-08-05.** 337 windows, 10 authors, early works against late works by the same person.
 Identity controlled by construction. CPU only.
 
