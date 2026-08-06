@@ -57,6 +57,17 @@ a place where one of us must be wrong**, which is the useful kind of disagreemen
 | **G7 · the layer-count guess** | That parameter distribution across depth may echo receptor/midbrain/neocortex neuron ratios | Cheap desk check against published neuron counts and model architectures. **Flagged speculative by him** | ~1 h |
 | **G8 · the forced architecture** | If models do not have this structure, build one: low-level valence/arousal, mid-level affective primitives, high-level free-floating prediction | Literature first — this smells like existing work in affective computing and neurorobotics. **Review running** | search, then build |
 
+
+## From the Panksepp/Barrett review — `docs/theory/PANKSEPP_BARRETT.md`
+
+| | the friction | the test | cost |
+|---|---|---|---|
+| **H1 · state versus output** | Both camps agree hypothalamus and PAG house pattern generators. They disagree whether that **is** felt affect or its **output**. Not an imaging question | In our terms it is answerable: if the middle layer is a **state**, activation should **outlast** the stimulus that caused it. If it is output, it tracks the input moment by moment. **Measure persistence across windows in the middle layers**, borrowing the line-attractor criterion directly | ~2 h GPU |
+| **H2 · the biphasic signature** | The 2025 cross-species result finds fast broadcast then a persistent trace, decay running subcortical to frontal | Look for the same two-phase structure across model depth: does a fast early response give way to a slower-decaying middle trace? **The sharpest external prediction available to us**, from a paper citing neither camp | ~2 h GPU |
+| **H3 · how many components, honestly** | The seven were never derived from data, the instrument fails at six, and dimensionality is a method artifact — 27 versus 3 on identical stimuli | Decompose our affect directions and **pre-register the stopping criterion before looking**, since that choice drives the answer. Report the number *and* its sensitivity to the criterion | ~1 h |
+| **H4 · affects as regions, not axes** | MicroPsi: *"arousal, valence and aggression are not themselves affects — affects are regions within that space."* Our directions treat them as axes | Test whether the eight concepts are better described as **regions in a low-dimensional modulator space** than as independent directions. If so the instrument is mis-parameterised | ~1 h |
+| **H5 · the unbuilt architecture** | Ortony, Norman and Revelle described our three layers in 2005, nobody implemented it, and a 2025 survey confirms no system combines all three | Scope a minimal build: homeostatic RL underneath (**the only part of that field with theorems**), mid-level primitives as first-class objects, language model on top. **Declare the flat-architecture baseline before building** — the survey documents the whole field failing exactly there | scoping |
+
 ## Beating the field - the races we intend to enter
 
 > If it's a race, I want to know what the finish line looks like and who's in the front.
