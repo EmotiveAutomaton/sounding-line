@@ -45,42 +45,58 @@ STATUS = REPO / "results" / "queue_status.json"
 
 # name, command, produces (skip if exists), needs (defer if missing), rough minutes
 STAGES: list[dict] = [
-    {"name": "ladder3_gen", "est": 150,
-     "cmd": [PY, "runners/make_ladder3.py"],
-     "produces": "corpora/ladder3/r60_14.json", "needs": [],
-     "why": "the curator's extreme ladder, length fixed by rejection sampling"},
+    # ── the wobble claim, on human text where the maker is held fixed ─────────────────────────
+    {"name": "argrewrite_variance", "est": 40,
+     "cmd": [PY, "runners/run_argrewrite_variance.py"],
+     "produces": "results/argrewrite/variance.json", "needs": ["corpora/public/argrewrite/essays"],
+     "why": "does within-document WOBBLE carry what the average does not, on human text"},
 
-    {"name": "ladder3_score", "est": 20,
-     "cmd": [PY, "runners/score_ladder.py", "--corpus", "ladder3"],
-     "produces": "results/ladder3/score.json", "needs": ["corpora/ladder3/r60_14.json"],
-     "why": "layer ratio on a corpus where length cannot be the explanation"},
+    # ── our measures against the field's own race, scored their way ───────────────────────────
+    {"name": "pan_baselines_hard", "est": 3,
+     "cmd": [PY, "runners/run_pan_style.py", "--difficulty", "hard", "--split", "validation"],
+     "produces": "results/pan_style/baselines_hard_validation.json",
+     "needs": ["corpora/public/pan_style/full_dataset"],
+     "why": "floor baselines on the topic-controlled split, scored with the official metric"},
+    {"name": "pan_baselines_easy", "est": 3,
+     "cmd": [PY, "runners/run_pan_style.py", "--difficulty", "easy", "--split", "validation"],
+     "produces": "results/pan_style/baselines_easy_validation.json",
+     "needs": ["corpora/public/pan_style/full_dataset"],
+     "why": "the easy split, to show how much of the field's 0.99 is topic detection"},
 
-    {"name": "features_ladder3", "est": 25,
-     "cmd": [PY, "runners/build_features.py", "--corpora", "ladder3"],
-     "produces": "results/features/ladder3.json", "needs": ["corpora/ladder3/r60_14.json"],
-     "why": "342 features on the extreme ladder"},
+    # ── spec recovery in bits, on the two ladders it has never been run on ────────────────────
+    {"name": "spec_recovery_ladder1", "est": 25,
+     "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder"],
+     "produces": "results/spec_recovery/ladder.json", "needs": ["corpora/ladder/manifest.json"],
+     "why": "does the bits-recovered measure replicate on the first ladder"},
+    {"name": "spec_recovery_ladder3", "est": 30,
+     "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder3"],
+     "produces": "results/spec_recovery/ladder3.json", "needs": ["corpora/ladder3/manifest.json"],
+     "why": "and on the extreme ladder, where specifications run to sixty"},
 
-    {"name": "sweep_all", "est": 15,
-     "cmd": [PY, "runners/run_feature_sweep.py", "--corpora",
-             "ladder,ladder2,ladder3,gate3,n28"],
-     "produces": None, "needs": ["results/features/ladder3.json"],
-     "why": "re-screen every feature now that a length-free ladder exists"},
+    # ── the induction check on the ladders that have not had it ───────────────────────────────
+    {"name": "induction_ladder3", "est": 20,
+     "cmd": [PY, "runners/score_ladder.py", "--corpus", "ladder"],
+     "produces": "results/ladder/score.json", "needs": ["corpora/ladder/manifest.json"],
+     "why": "the first ladder, scored with the same frozen instrument as the other two"},
 
+    # ── everything the feature sweep has not yet seen ─────────────────────────────────────────
+    {"name": "features_argrewrite", "est": 20,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "argrewrite"],
+     "produces": "results/features/argrewrite.json",
+     "needs": ["corpora/public/argrewrite/essays"],
+     "why": "cache 342 features per draft so later analyses are free"},
+
+    # ── audits that must re-run whenever anything above lands ─────────────────────────────────
     {"name": "length_direction_audit", "est": 20,
      "cmd": [PY, "runners/audit_length_direction.py"],
-     "produces": "results/audit/length_direction.json", "needs": [],
-     "why": "weakness 3b — every measure killed on a length correlation, re-checked for SIGN"},
-
-    {"name": "fetch_corpora", "est": 40,
-     "cmd": [PY, "runners/fetch_public_corpora.py"],
-     "produces": "corpora/public/MANIFEST.json", "needs": [],
-     "why": "ArgRewrite, Wikipedia quality classes, RAID — the human-text problem"},
-
+     "produces": None, "needs": [],
+     "why": "weakness 3b: was length a confound or a suppressor, per measure"},
     {"name": "multiplicity", "est": 1,
      "cmd": [PY, "runners/audit_multiplicity.py"],
      "produces": None, "needs": [],
-     "why": "re-run the correction family after new results land"},
+     "why": "re-correct the whole family after new results land"},
 ]
+
 
 
 def rel(p: str) -> Path:

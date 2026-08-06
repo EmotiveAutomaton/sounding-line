@@ -70,6 +70,10 @@ def load_corpus(name: str) -> list[dict]:
         return [{"id": it["id"], "group": it["kind"],
                  "text": (d / f"{it['id']}.txt").read_text(encoding="utf-8")}
                 for it in man["items"] if (d / f"{it['id']}.txt").exists()]
+    if name == "argrewrite":
+        from runners.run_argrewrite import load as la                  # noqa: PLC0415
+        return [{"id": f"{a}_d{d}", "group": d, "text": txt}
+                for a, dr in la().items() for d, txt in dr.items()]
     if name == "gate3":
         from runners.run_gate3 import load_corpus as lc                # noqa: PLC0415
         out = []

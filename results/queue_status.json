@@ -1,59 +1,12 @@
 {
-  "started": "2026-08-05 15:25",
+  "started": "2026-08-06 07:35",
   "stages": [
     {
-      "name": "ladder3_gen",
-      "why": "the curator's extreme ladder, length fixed by rejection sampling",
-      "est_minutes": 150,
-      "status": "DONE",
-      "log": "results\\ladder3_gen.log",
-      "minutes": 161.6
-    },
-    {
-      "name": "ladder3_score",
-      "why": "layer ratio on a corpus where length cannot be the explanation",
-      "est_minutes": 20,
-      "status": "DONE",
-      "log": "results\\ladder3_score.log",
-      "minutes": 1.2
-    },
-    {
-      "name": "features_ladder3",
-      "why": "342 features on the extreme ladder",
-      "est_minutes": 25,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "sweep_all",
-      "why": "re-screen every feature now that a length-free ladder exists",
-      "est_minutes": 15,
-      "status": "DONE",
-      "log": "results\\sweep_all.log",
-      "minutes": 0.6
-    },
-    {
-      "name": "length_direction_audit",
-      "why": "weakness 3b \u2014 every measure killed on a length correlation, re-checked for SIGN",
-      "est_minutes": 20,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "fetch_corpora",
-      "why": "ArgRewrite, Wikipedia quality classes, RAID \u2014 the human-text problem",
+      "name": "argrewrite_variance",
+      "why": "does within-document WOBBLE carry what the average does not, on human text",
       "est_minutes": 40,
-      "status": "DONE",
-      "log": "results\\fetch_corpora.log",
-      "minutes": 0.1
-    },
-    {
-      "name": "multiplicity",
-      "why": "re-run the correction family after new results land",
-      "est_minutes": 1,
-      "status": "DONE",
-      "log": "results\\multiplicity.log",
-      "minutes": 0.0
+      "status": "RUNNING",
+      "log": "results\\argrewrite_variance.log"
     }
-  ],
-  "finished": "2026-08-05 18:08",
-  "failed": []
+  ]
 }

@@ -26,8 +26,18 @@ The failure mode to avoid is not rudeness, it is **agreeableness that costs him 
 **Requested 2026-08-05.** He is crossing several fields at once, so a term borrowed from an adjacent
 field is actively dangerous. Report in this shape and no other:
 
-1. **What we were testing** — the hypothesis, in a sentence, restated even if it was obvious an hour
-   ago. He will not have it loaded.
+1. **What we were testing** — **the hypothesis in plain language, always, no exceptions.** Not a
+   label, not an identifier, not "the probe result". A sentence a person could read cold and
+   understand what question was being asked and why anyone cared.
+
+**Never open with an identifier.** "L6", "F2", "the ladder-3 induction check" mean nothing to him —
+there are dozens of running threads and he is not tracking our numbering. He read a whole section and
+*"didn't have a single word of it in my mind"* because it opened with a code. **Identifiers go in
+parentheses at the end, if at all.** Every result is introduced by its question.
+
+The shape is a very short research paper: **hypothesis → what we did → what we found → what it
+means**, in high-level language, so he can poke at it. **He cannot poke at a result whose question he
+cannot see.**
 2. **What we did** — the method, plainly.
 3. **What we found** — the numbers, with **every statistic named in words**.
 4. **What it means** — the consequence for the instrument, and what is still owed.
