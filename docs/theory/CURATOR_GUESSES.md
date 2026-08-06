@@ -272,9 +272,14 @@ well-posed version of the values question this project has had.**
 in empirical aesthetics without having been derived from it — which is worth noting because it is the
 opposite of the hivemind failure.
 
-- **Berlyne's collative variables** — novelty, complexity, uncertainty, conflict — are precisely
-  "features whose explanation is not yet available", and they are the classical drivers of interest
-  and exploratory behaviour, on an inverted-U where too little and too much both kill it.
+- **Berlyne's collative variables** (1971) — novelty, complexity, uncertainty, conflict — are
+  precisely "features whose explanation is not yet available", and they were the classical drivers of
+  interest, on an inverted-U where too little and too much both kill it.
+  **Correction, 2026-08-05: I first presented this as live theory and it is not.** Reading the source
+  rather than the search snippet: *"Berlyne's arousal theory of aesthetic appreciation has been mostly
+  abandoned"* on mixed empirical results. The vocabulary survives and is still used; the arousal
+  mechanism does not. **His idea should not lean on Berlyne for support** — and the honest position is
+  that the live descendants are the processing-fluency accounts, via Martindale (1988).
 - **Processing-fluency** accounts sit at the opposite pole: pleasure from ease. The tension between
   the two is the live debate.
 - **His "ordered but unexplained" formulation is close to *effective complexity*** — structure that is
