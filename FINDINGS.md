@@ -352,6 +352,42 @@ prediction, from a *p* = 0.053 result, and it should be treated as one.
 (−0.08, *p* = 0.45), which is the first time in this project that a length control has come back
 uninteresting on the first attempt.
 
+## L7 · Does the wobble inside a piece carry the maker, on human text?
+
+**Hypothesis.** The curator's own primary detector when reading by hand is not how polished a piece
+is but **how much the polish varies from beginning to end** — a writer reaching for a professional
+register and then relaxing out of it. Keeping up a performance costs effort, so the performance is
+what slips. Every measure this project has built takes a whole-document average and throws that
+variation away.
+
+**Research context.** Within-document variation is a mature field — GPTZero's *burstiness* is the
+standard deviation of per-sentence perplexity, Koppel's *unmasking* dates to 2004, and PAN has run a
+shared task on it since 2018. **What none of them measures is the variance of arbitrary features**,
+and the version tried here — variance of 342 linguistic features, on human text with the maker held
+fixed — is the one the literature has not pre-empted.
+
+**What we did.** 86 students writing the same essay three times. Split each draft into fixed windows,
+computed each feature's **coefficient of variation** across windows — its wobble relative to its own
+size — and compared draft 1 against draft 3, paired within author. Also computed the ordinary
+**average** as a control, since anything the wobble finds that the average also finds is a windowing
+effect rather than a variation effect.
+
+**What we found. Nothing.**
+
+    wobble    313 features tested   0 survive correction
+    average   313 features tested   12 survive correction
+    wobble-only: 0
+
+**What it means.** On human text, with maker, prompt, topic and register all held fixed, **the
+within-document wobble carries nothing the average does not.** This is the corpus the hypothesis
+needed — the previous attempt was on machine text, where there is no performance to slip, so that
+null was uninformative. This one is not.
+
+**What it does not settle.** The claim is about a performance under *cost*, and revision may be the
+wrong axis: a student redrafting an assignment three times may not be varying their veneer at all.
+The remaining honest version is within-document variation across artifacts of **different kinds** by
+one maker — which is the same diversity-of-conditions requirement everything else keeps arriving at.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

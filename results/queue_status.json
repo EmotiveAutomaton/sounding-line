@@ -5,8 +5,38 @@
       "name": "argrewrite_variance",
       "why": "does within-document WOBBLE carry what the average does not, on human text",
       "est_minutes": 40,
+      "status": "DONE",
+      "log": "results\\argrewrite_variance.log",
+      "minutes": 6.4
+    },
+    {
+      "name": "pan_baselines_hard",
+      "why": "floor baselines on the topic-controlled split, scored with the official metric",
+      "est_minutes": 3,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_baselines_easy",
+      "why": "the easy split, to show how much of the field's 0.99 is topic detection",
+      "est_minutes": 3,
+      "status": "DONE",
+      "log": "results\\pan_baselines_easy.log",
+      "minutes": 0.4
+    },
+    {
+      "name": "spec_recovery_ladder1",
+      "why": "does the bits-recovered measure replicate on the first ladder",
+      "est_minutes": 25,
+      "status": "DONE",
+      "log": "results\\spec_recovery_ladder1.log",
+      "minutes": 1.5
+    },
+    {
+      "name": "spec_recovery_ladder3",
+      "why": "and on the extreme ladder, where specifications run to sixty",
+      "est_minutes": 30,
       "status": "RUNNING",
-      "log": "results\\argrewrite_variance.log"
+      "log": "results\\spec_recovery_ladder3.log"
     }
   ]
 }
