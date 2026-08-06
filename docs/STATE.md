@@ -63,7 +63,7 @@ is a ceiling on every gate, not a bug in any one of them.
 
 ## 3b · What the curator's readings established, and they outrank my measures
 
-Two sessions, eleven artifacts. **These came from a person reading aloud and they have survived
+Two sessions, **fifteen distinct artifacts / sixteen readings** (artifact 01 of session 02 was read twice and revised down). **These came from a person reading aloud and they have survived
 every measure that has failed.** Full accounts in `../results/readings/`.
 
 **The variation of the veneer is his primary detector.** Not surface *level* — surface **change**.

@@ -113,6 +113,30 @@ our 81 ladder survivors into machine-detectors.
 > different declared traditions. Comparative-ethics anthologies are structured exactly this way, and
 > so are advice and ethics columns in publications with different declared commitments.
 
+### The curator's refinement, and it is the design, not a detail
+
+> The key part has **little to do with the work itself**, and more to do with **deep followers** of
+> that work. And then aligning that with the specific values that have **spread out from** that work.
+> We'll have to analyse the work **and** the followers — we can use that to find how much they agreed
+> with the values implied.
+
+**This is a better instrument than the one I proposed, and for a reason worth stating.** A founding
+text is one artifact by one maker under a value set it is itself defining. That is circular. A
+*follower* is a different maker, writing under a value set that already exists independently of them
+— which is exactly the ground truth the project needs, and it comes with a **graded** variable rather
+than a label:
+
+    the declared value set          from the founding work, recoverable independently
+    the follower's artifacts        many makers, many works each
+    degree of alignment             HOW MUCH each follower took on -- and it varies
+
+**That last row is the prize.** Every value corpus we could imagine gave a binary label. This gives a
+*gradient of adherence*, which is a ladder made of humans rather than of prompts — the thing weakness
+1 says we have never had.
+
+It also inverts the confound. Founding texts are lexically distinctive; followers writing about
+ordinary life are not, so **the topic trap is weaker exactly where the signal is.**
+
 ### The design, which also tests §2
 
 Two levels, deliberately:

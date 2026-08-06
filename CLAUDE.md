@@ -76,6 +76,10 @@ A `results/<name>/VERDICT.md` is still the primary record of the run itself. The
 **This is a step in composing a reply, not a background preference. It failed twice on 2026-08-05
 and both times he had to point it out.**
 
+**Open every conversation by reporting queue state** — what is running, what finished since last
+time, what is next. He asked for this explicitly: it is how he knows the machine is working without
+having to ask.
+
 Before writing any response, in this order:
 
 1. **Check whether anything is running.** `bash status.sh`, or look at the GPU and the live logs.
