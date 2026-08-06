@@ -252,6 +252,58 @@ absence of the thing, not evidence against it.
 
 **Verdict: OPEN, and now sharper.** Needs human artifacts with register held constant.
 
+## L5 · Does anything move within one author as they revise?
+
+**Hypothesis.** If revision adds intent, some measurable property of the text should change as the
+same person redrafts the same essay — and because the maker, prompt, topic, register and genre are
+all held fixed by construction, whatever moves cannot be explained by any of them.
+
+**Research context.** This is the first controlled comparison on **human** text in the project's
+history. Known weakness 1 has said since the beginning that every positive rides on machine-written
+or public-domain text. ArgRewrite V.2 (86 university students, one prompt, three drafts each,
+CC-BY-4.0) fixes it. The corpus is used in the literature for **revision-purpose classification**,
+not for this question.
+
+**What we did.** Extracted 342 linguistic features from every draft of every author. Compared draft 1
+against draft 3 **paired within author**, so between-person variation contributes nothing, using a
+signed-rank test with Benjamini-Yekutieli correction for having tested ~320 features. Then re-ran it
+with every author's drafts **truncated to their own shortest draft**, so word count is identical
+across the comparison by construction.
+
+**What we found.**
+
+| | features surviving correction |
+|---|---|
+| raw, drafts as written | **94 of 325** |
+| **length-matched** | **17 of 315** |
+
+**The raw result was length.** Drafts grow 27% (493 → 627 words) and every survivor was a *count* —
+nouns, characters, words, sentences, punctuation. The pre-registered trap fired exactly as written.
+
+**What survives length-matching is one coherent thing.** Words get **longer** (+0.06 characters per
+word), **more polysyllabic** (+0.02 syllables per word), and **rarer** (word-frequency down 0.04);
+**stopwords fall** (−5 per draft); reading-difficulty index rises (+0.38). Sign agreement 70–78%
+across the 86 authors.
+
+> **Within one author, at matched length, revision raises lexical sophistication.** Longer, rarer,
+> fewer function words. That is a single factor showing up under six names.
+
+**What it means.** This is a real within-human effect and it is **not** what the project is looking
+for. It is a *polish* result — plausibly the "Surface" half of ArgRewrite's own annotation scheme,
+which distinguishes Surface revisions (word usage, spelling, organization) from Content revisions
+(claim, evidence, reasoning). **The corpus can settle that**, because 5,834 revisions are
+hand-labelled Surface or Content with 0.71–0.92 agreement. If the effect is carried by
+Surface-annotated revisions, we have measured polish and confirmed it. If it survives among
+Content-only revisions, that is a depth signal on human text and the first one.
+
+**Verdict: OPEN.** The Surface/Content split is the next test and it is the reason this corpus is
+worth more than its size.
+
+**A reporting error found in our own runner, and fixed.** It printed the count surviving *correction*
+next to `0.05 × n_tested` as "expected by chance". Those are not comparable — the second is the
+**uncorrected** expectation. Among 17 corrected survivors the expected false discoveries are at most
+**0.85**, not 16. The first draft of this entry nearly called a real result nothing.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

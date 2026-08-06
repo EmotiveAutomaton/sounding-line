@@ -79,6 +79,9 @@ def load() -> dict[str, dict[int, str]]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--cap", type=int, default=0, help="limit authors, for a smoke test")
+    ap.add_argument("--length-matched", action="store_true",
+                    help="truncate every draft of an author to their SHORTEST draft, so word "
+                         "count is identical across the comparison by construction")
     args = ap.parse_args()
 
     import numpy as np                                                # noqa: PLC0415
@@ -95,6 +98,9 @@ def main() -> None:
     buf = io.StringIO()
     rows = []
     for i, (aid, drafts) in enumerate(authors.items()):
+        if args.length_matched:
+            n = min(len(t.split()) for t in drafts.values())
+            drafts = {d: " ".join(t.split()[:n]) for d, t in drafts.items()}
         with contextlib.redirect_stdout(buf):
             f = {d: extract(t) for d, t in drafts.items()}
         rows.append({"author": aid, "feats": f,
@@ -150,7 +156,8 @@ def main() -> None:
                       "human corpus."))
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / "drafts.json").write_text(json.dumps(
+    name = "drafts_length_matched.json" if args.length_matched else "drafts.json"
+    (RESULTS / name).write_text(json.dumps(
         {"n_authors": len(rows), "n_features": n, "n_survive": int(len(surv)),
          "median_words": {str(d): statistics.median(w[d] for w in wd) for d in (1, 2, 3)},
          "survivors": surv.head(60).to_dict("records")}, indent=2),
