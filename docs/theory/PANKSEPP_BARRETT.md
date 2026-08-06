@@ -116,9 +116,16 @@ really interesting."*
 > **The taxonomy is a design vocabulary, not an empirical claim.** Saying so costs the architecture
 > nothing and removes the strongest available attack.
 
-**One correction to where the substrate sits.** The hypothalamus is now a better bet than the PAG as
-the *state* locus, and the PAG is better described as the integrated action and autonomic **output**
-stage. The 2024 line-attractor work gives a state variable with intensity and persistence; the PAG
+**One correction to where the substrate sits — and a correction to my correction.** The review says
+the hypothalamus is a better bet than the PAG as the *state* locus, with the PAG as the integrated
+action and autonomic stage.
+
+**I relayed that as "PAG is the output stage", which is backwards relative to our model.** In this
+project's mapping the periaqueductal grey sits with sensory input and the earliest nodes as an
+**entry** layer — the equivalent of V1 — with Pankseppian primitives in the middle and neocortical
+mass near the output. The neuroscience sense of "output" means *motor and autonomic output of the
+organism*; our sense of "early" means *input to the reconstruction*. **Those are opposite ends of the
+same arrow and I collapsed them.** The substrate point stands; the direction word does not. The 2024 line-attractor work gives a state variable with intensity and persistence; the PAG
 work gives coordinated behavioural-autonomic patterns. **Barrett would accept the second
 characterisation without argument** — she already builds it in.
 

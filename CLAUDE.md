@@ -149,6 +149,25 @@ three places has not landed:**
 A `results/<name>/VERDICT.md` is still the primary record of the run itself. These four are the
 *index* — they are what survives a context loss.
 
+## THE GRIND NEVER STOPS — this is a loop, not a check
+
+**Requested 2026-08-05, after the same failure three times: tests written into `TODO.md` and never
+built.** Queueing an idea is not running it. **Every response** — not every session, every response
+— run this loop:
+
+1. **Read `TODO.md`.** Every time.
+2. **Extract new tests** from anything he has just said. Theory, objections, offhand remarks. Put
+   them in `TODO.md` immediately, in the same pass.
+3. **Implement and queue the ones at the top**, or the ones that make most sense next. Writing the
+   runner is the job. A test that exists only as a table row has not been run.
+4. **Build the queue out to four or five hours of work, not two.** *"You tend to underestimate."*
+   Several corpora, several models, the audits at the end.
+5. **Report what is running at the very top of the reply.**
+
+**Run tests he did not ask for, frequently.** He has said so explicitly, and he reads the hypothesis
+and guesses the result before looking — so an unrequested test is a *better* test, because his guess
+is genuinely blind. State the hypothesis clearly enough for him to do that.
+
 ## Never go idle — check at the start of every response
 
 **This is a step in composing a reply, not a background preference. It failed twice on 2026-08-05

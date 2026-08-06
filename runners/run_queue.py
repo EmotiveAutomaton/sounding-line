@@ -45,53 +45,57 @@ STATUS = REPO / "results" / "queue_status.json"
 
 # name, command, produces (skip if exists), needs (defer if missing), rough minutes
 STAGES: list[dict] = [
-    # ── the wobble claim, on human text where the maker is held fixed ─────────────────────────
-    {"name": "argrewrite_variance", "est": 40,
-     "cmd": [PY, "runners/run_argrewrite_variance.py"],
-     "produces": "results/argrewrite/variance.json", "needs": ["corpora/public/argrewrite/essays"],
-     "why": "does within-document WOBBLE carry what the average does not, on human text"},
+    # ── THE DEPTH SWEEP: four questions at once, and it retires the hand-picked loci ──────────
+    {"name": "depth_ladder2", "est": 45,
+     "cmd": [PY, "runners/run_depth_sweep.py", "--corpus", "ladder2"],
+     "produces": "results/depth_sweep/ladder2_Qwen2.5-1.5B.json", "needs": [],
+     "why": "one, two or three humps; noisy middle or silent; every layer against its own null"},
+    {"name": "depth_ladder3", "est": 40,
+     "cmd": [PY, "runners/run_depth_sweep.py", "--corpus", "ladder3"],
+     "produces": "results/depth_sweep/ladder3_Qwen2.5-1.5B.json",
+     "needs": ["corpora/ladder3/manifest.json"],
+     "why": "the same profile on the extreme ladder: does the shape depend on the corpus"},
+    {"name": "depth_nomaker", "est": 25,
+     "cmd": [PY, "runners/run_depth_sweep.py", "--corpus", "nomaker"],
+     "produces": "results/depth_sweep/nomaker_Qwen2.5-1.5B.json",
+     "needs": ["corpora/nomaker/manifest.json"],
+     "why": "the profile where there is no maker at all: the N28 control, at every layer"},
 
-    # ── our measures against the field's own race, scored their way ───────────────────────────
-    {"name": "pan_baselines_hard", "est": 3,
-     "cmd": [PY, "runners/run_pan_style.py", "--difficulty", "hard", "--split", "validation"],
-     "produces": "results/pan_style/baselines_hard_validation.json",
-     "needs": ["corpora/public/pan_style/full_dataset"],
-     "why": "floor baselines on the topic-controlled split, scored with the official metric"},
-    {"name": "pan_baselines_easy", "est": 3,
-     "cmd": [PY, "runners/run_pan_style.py", "--difficulty", "easy", "--split", "validation"],
-     "produces": "results/pan_style/baselines_easy_validation.json",
-     "needs": ["corpora/public/pan_style/full_dataset"],
-     "why": "the easy split, to show how much of the field's 0.99 is topic detection"},
+    # ── CROSS-MODEL: one paper reports the affect profile INVERTING between families ──────────
+    {"name": "depth_llama", "est": 60,
+     "cmd": [PY, "runners/run_depth_sweep.py", "--corpus", "ladder2",
+             "--model", "meta-llama/Llama-3.2-1B"],
+     "produces": "results/depth_sweep/ladder2_Llama-3.2-1B.json", "needs": [],
+     "why": "if the profile inverts across families, the measure is a property of a checkpoint"},
+    {"name": "depth_pythia", "est": 55,
+     "cmd": [PY, "runners/run_depth_sweep.py", "--corpus", "ladder2",
+             "--model", "EleutherAI/pythia-1.4b"],
+     "produces": "results/depth_sweep/ladder2_pythia-1.4b.json", "needs": [],
+     "why": "a third family, different training data entirely"},
 
-    # ── spec recovery in bits, on the two ladders it has never been run on ────────────────────
-    {"name": "spec_recovery_ladder1", "est": 25,
-     "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder"],
-     "produces": "results/spec_recovery/ladder.json", "needs": ["corpora/ladder/manifest.json"],
-     "why": "does the bits-recovered measure replicate on the first ladder"},
-    {"name": "spec_recovery_ladder3", "est": 30,
+    # ── the bits-recovered measure on corpora it has not seen ────────────────────────────────
+    {"name": "spec_recovery_ladder3", "est": 35,
      "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder3"],
      "produces": "results/spec_recovery/ladder3.json", "needs": ["corpora/ladder3/manifest.json"],
-     "why": "and on the extreme ladder, where specifications run to sixty"},
+     "why": "bits of specification recovered where specifications run to sixty"},
 
-    # ── the induction check on the ladders that have not had it ───────────────────────────────
-    {"name": "induction_ladder3", "est": 20,
-     "cmd": [PY, "runners/score_ladder.py", "--corpus", "ladder"],
-     "produces": "results/ladder/score.json", "needs": ["corpora/ladder/manifest.json"],
-     "why": "the first ladder, scored with the same frozen instrument as the other two"},
+    # ── features, then a full re-screen including the human corpus ───────────────────────────
+    {"name": "features_ladder3", "est": 25,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "ladder3"],
+     "produces": "results/features/ladder3.json", "needs": ["corpora/ladder3/manifest.json"],
+     "why": "cache 342 features on the extreme ladder"},
+    {"name": "sweep_all", "est": 20,
+     "cmd": [PY, "runners/run_feature_sweep.py", "--corpora",
+             "ladder,ladder2,ladder3,argrewrite,gate3,n28"],
+     "produces": None, "needs": ["results/features/ladder3.json"],
+     "why": "re-screen every feature across every corpus, including the human one"},
 
-    # ── everything the feature sweep has not yet seen ─────────────────────────────────────────
-    {"name": "features_argrewrite", "est": 20,
-     "cmd": [PY, "runners/build_features.py", "--corpora", "argrewrite"],
-     "produces": "results/features/argrewrite.json",
-     "needs": ["corpora/public/argrewrite/essays"],
-     "why": "cache 342 features per draft so later analyses are free"},
-
-    # ── audits that must re-run whenever anything above lands ─────────────────────────────────
+    # ── audits, always last, always re-run ───────────────────────────────────────────────────
     {"name": "length_direction_audit", "est": 20,
      "cmd": [PY, "runners/audit_length_direction.py"],
      "produces": None, "needs": [],
-     "why": "weakness 3b: was length a confound or a suppressor, per measure"},
-    {"name": "multiplicity", "est": 1,
+     "why": "was length a confound or a suppressor, per measure"},
+    {"name": "multiplicity", "est": 2,
      "cmd": [PY, "runners/audit_multiplicity.py"],
      "produces": None, "needs": [],
      "why": "re-correct the whole family after new results land"},

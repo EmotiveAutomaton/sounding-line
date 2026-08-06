@@ -104,7 +104,7 @@ notice and therefore worse.
 **The claim that is load-bearing is not the taxonomy.** It is **midbrain-localised affective
 primitives of some kind**. Panksepp's seven systems are the best available guess at their shape, not
 a commitment to their exact number. A data-driven decomposition returning six, or eight, would be
-informative rather than fatal — *"if a PCA pops out a seventh, that makes the seventh really
+informative rather than fatal — *"if a PCA pops out an eigth, that makes the eigth really
 interesting."*
 
 **A literature review on Panksepp versus Barrett is running**, because this is load-bearing enough
@@ -152,3 +152,99 @@ rejected it: *"that's grandmother-cell thinking and shit's vectorized."* He is r
 coding is the mainstream view, and the disanalogy I reached for was weaker than the ones that
 actually hold, which are the absence of a privileged basis in the residual stream and the fact that
 interpretability scores fail to distinguish a trained model from a randomly initialised one.
+
+
+---
+
+## §7. Corrections and additions, 2026-08-05, after he read the above
+
+### a. Goal direction is not only late — in humans it is everywhere, and mostly middle and late
+
+> Goal direction comes from **all three** in humans. I would say middle and late are where you get
+> most of it. **In AI I genuinely have no idea.** It might be a late affectation, but hard to say.
+
+**Flagged as needing the literature rather than a guess.** The write-up above put goal direction
+squarely in the late layer; that is his claim about *models*, tentatively, and not his claim about
+people.
+
+### b. The friction he wants logged: early-as-valence/arousal does not quite fit ★
+
+**This is the load-bearing discomfort, recorded as discomfort rather than resolved:**
+
+> The prediction that early valence/arousal is what we're mapping — **it doesn't quite fucking
+> fit.** Because the input for humans is **sensory** data. That's kind of what a model gets when it
+> is boiled down into vectors, **but it's not quite the same.**
+>
+> When I say you can't extract emotion words from valence and arousal **directly** — you can get
+> kind of close. I might be over-hedging. I'm noting there's discomfort in the mapping where I don't
+> feel as confident, and **it's absolutely load-bearing.**
+
+**The mismatch is specific.** A human's early layers receive *sensory* input and assign valence to
+it. A model's early layers receive *tokens* — already symbolic, already the output of somebody else's
+whole stack. If the analogy holds it must be because token embeddings function as a sensory surface,
+and that is an assumption, not an observation.
+
+**Nothing downstream should treat this as settled.** It is the weakest joint in the architecture and
+he named it himself before any test did.
+
+### c. Late may be *more* coherent when the goal is clear
+
+> You might also have more agreement in the late, **if the goal is clear.** What you get at the end
+> is my guess. And the middle — yeah, it's convergent.
+
+So the coherence prediction is conditional rather than flat: **late coherence should scale with how
+clearly the goal is specified.** On the ladder that is a directly testable interaction — coherence at
+late layers against rung — and it is now part of the depth sweep's output.
+
+### d. On the seven — he goes further than the review does
+
+> Panksepp specifically noted he grabbed **the easiest ones**, the human-level identifiable ones. **By
+> definition he missed a ton**, because the brain operates in a vector space that is hard for us to
+> intuitively understand. If you told me there were 27, I would believe you. **Some of them might not
+> even have names. These primitives are the key, however many there are. I don't really care how many
+> there are.**
+
+**That is a stronger position than "the taxonomy is a design vocabulary."** It predicts that a
+data-driven decomposition *should* return more components than seven, and that some will be
+unnameable — which makes the 24-to-28-dimension results in the emotion literature evidence *for* the
+framework rather than against it.
+
+### e. Terminology: drives, not feelings — but he yields it
+
+> Emotions and feelings is fine. I've done **emotions and drives**. She can claim the word emotion.
+> But "feeling" is probably incorrect because it implies you don't feel emotion. **Drives feels like
+> a better word.** But I'll use whatever the literature has — it's not big enough a matter to give up
+> the advantage of aligning with research terminology.
+
+**Recorded because it is a deliberate concession**, not an agreement. Use *emotion / feeling* in
+anything outward-facing; **drives** is the internally accurate word.
+
+### f. The alignment weakness he names himself, and the bootstrap that answers it
+
+> It's a weakness to the alignment consequence, because **we have to provide that weighting
+> somehow.** It has to be based on... something? But at the very least it seems like all it needs is
+> a **bootstrap.** You don't need a ton — a little bit would be enough to start the shape, to kick it
+> off in the right direction.
+
+**This is the strongest available answer to "whose values, and who decides."** If the mid-level
+primitives only need to be *seeded* rather than *specified*, the design does not require anyone to
+write down the value set — which `docs/theory/VALUES.md` §4 establishes is impossible anyway. **The
+bootstrap claim and the value-blindness claim fit together**, and neither was stated with the other
+in mind.
+
+### g. Attention as expertise-weighted policy, and the example that sharpens it
+
+> Is this attention mapping onto the policy space **weighted by your expertise as a trajectory**?
+
+And the case he uses to test it on himself:
+
+> If I were forced to design a Nazi camp, part of my motivation would be not dying. But part would be
+> **efficiency** — I could tap a need for efficiency to do this. **But I wouldn't be able to tap into
+> the cruelty a Nazi designer would have. It just wouldn't be there for me to optimise.** I'd have to
+> finagle with my own motivations to get that to happen.
+
+**The claim underneath: you can only route attention onto drives you actually have.** Two makers
+producing the same artifact under the same instruction will do it from different drives, and the
+drives they *lack* constrain what they can produce and how. **That makes the absent drive as
+informative as the present one** — and it is a mechanism for why an artifact can be recognisably
+made-under-duress. Unexplored, and it needs a name.
