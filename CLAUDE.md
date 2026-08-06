@@ -138,6 +138,41 @@ context loss.
   original set instead would just entrench whatever forking path produced the marginal number.
   `corpora/ladder2/` is the worked example.
 
+## How to search — because searching badly here has already cost us
+
+Established 2026-08-05 after the curator observed that research done in chat comes back dramatically
+better than research done here. **He was right, and the mechanism is identifiable rather than
+stochastic:** in one session I ran ~15 searches and **zero fetches**, and reported snippet-level
+confidence as source-level confidence. Two errors came directly from it — Panofsky offered as the
+theory of interpretive layers when it is about depicted content, and **Berlyne offered as live
+support for his interest theory when the field has mostly abandoned it.** One fetch found the second.
+
+1. **Fetch the source. Do not stop at the search summary.** `WebSearch` returns titles plus a
+   machine-written gloss of snippets. That is a pointer, not a finding. **Anything that will be
+   written into a theory document or quoted back to him must come from a fetched source.**
+2. **Search adversarially, not only for support.** Add "criticism of", "failure to replicate",
+   "abandoned", "limitations of". The default habit is to search for confirmation and stop, which is
+   how an abandoned theory got presented as backing.
+3. **Search the symptom, not the subject.** The highest-yield query of four searched for the failure
+   we were having rather than the topic we were working on.
+4. **Say which level a claim came from.** "The abstract says" and "the paper shows" are different
+   claims and he is entitled to know which one he is getting.
+
+## Spawn a research subagent for anything larger than a couple of questions
+
+**Standing authorisation, given 2026-08-05.** *"I want a dedicated research subagent for larger
+tasks — you decide when to spawn one, because I will probably forget to. And frankly just tell me you
+did."*
+
+- **You decide.** Do not ask. Spawn when a question needs more than two or three searches, when it
+  spans several literatures, or when a theory claim needs checking against a field properly.
+- **Tell him you did**, and what it is looking at.
+- **Brief them to fetch and to search adversarially** — the rules above are not automatic for a
+  subagent, so they go in the prompt.
+- **Run several in parallel** over different territory rather than one doing everything serially.
+- Their output is a report to be integrated, not a result. **A subagent's claim still owes the same
+  sourcing standard**, and if it comes back with snippet-level confidence, say so.
+
 ## Hard rule: check the literature before proposing a test
 
 **Before any new measure or test is queued, search for whether it already exists.** Adopted

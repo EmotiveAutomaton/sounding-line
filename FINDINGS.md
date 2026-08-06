@@ -210,8 +210,30 @@ and the filter that removed them is now standard.
 costs effort, so it is the thing that slips. **Within-artifact variation** should carry the maker,
 where the average does not.
 
-**Research context.** Stylometry overwhelmingly uses document-level averages. Within-document variance
-as a maker signal is **not a standard approach** — we found no established treatment of it.
+**Research context — CORRECTED 2026-08-05, and the previous entry here was badly wrong.** This file
+said within-document variance was "not a standard approach" and that "we found no established
+treatment of it." **That is false, and it was load-bearing.** It is:
+
+- **`burstiness`** — GPTZero's second headline metric is literally the standard deviation of
+  per-sentence perplexity across one document. Our hypothesis, shipped commercially since 2023.
+- **`unmasking`** (Koppel & Schler, 2004) — chunk a document, separate the chunks, and read the
+  *shape of the degradation curve*. Canonical in authorship verification for 22 years.
+- **intrinsic plagiarism detection** — find a passage anomalous relative to the rest of its own
+  document, with no reference corpus.
+- **PAN Style Change Detection**, a CLEF shared task running **continuously 2018–2025**.
+
+**The bar is F1 ≈ 0.86** on PAN 2024's topic-controlled HARD split. Anything we produce below that on
+a comparable setup is not a finding. **And PAN's HARD split is the topic-controlled human corpus this
+entry says it needs** — it exists, it is free, and it has seven years of baselines.
+
+Two further cautions from the same audit: PAN 2024 reports pure stylometry has *virtually
+disappeared* in favour of fine-tuned transformers, and a 2025 study of hidden states as author
+representations found **document-level mean pooling best**, which is evidence against the
+within-window variance idea at the representation level.
+
+**What is *not* pre-empted:** within-artifact variance of **probe activations** rather than of
+perplexity or surface style. Burstiness does this with perplexity, PAN with surface style, nobody
+found doing it with probe outputs. That is the narrow version worth keeping.
 
 **What we did.** Computed all 342 features per window as well as per document, and compared what each
 form finds.
