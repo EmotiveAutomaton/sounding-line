@@ -20,8 +20,22 @@ reported this as fatal to the values programme. **It is not, and the counter-arg
 premise rather than the proof.**
 
 > Saying something isn't possible just means you haven't found the way to do it yet — **especially
-> if the world is doing it. Humans do this. Therefore it must be able to be done.** The way that
-> you're doing it is incorrect.
+> if the world is doing it.** The way that you're doing it is incorrect.
+
+**Correction, and it is his, against my own first write-up of this.** I wrote *"humans do this,
+therefore it can be done,"* which claims too much:
+
+> I'm not saying humans arrive at a conclusion of value. I'm saying they use **a bunch of tricks to
+> actively try to get closer** to it.
+>
+> **It's a limit situation.** You get closer and closer over time. There *is* a solution — a perfect
+> mapping of the person's brain — but we approach it **through inference with error**, and we are
+> never sure we have the answer.
+
+**That is the honest claim and it is stronger than the one I wrote**, because it does not need the
+impossibility theorem to be false. The theorem says a unique decomposition is not identifiable. The
+claim here is that **the error shrinks with evidence and constraint**, which is a statement about a
+convergence rate, not about identifiability. Those can both be true.
 
 > **"Irrational agents" is incorrect about humans.** In a lot of ways we are *boundedly
 > hyper-rational.* **It looks like irrationality to have fractal motivations.**
@@ -65,6 +79,21 @@ describe a human reading a human artifact. That is an empirical question, not a 
 > **Panksepp is right, full stop.** Because he's right, that has to be reflected in human behaviour
 > and thus in optimal expression of human activity.
 
+**Walked back by one degree, same day, by him:**
+
+> I'm not sure he was **complete**. It's very possible there are additional channels he did not call.
+> But the ones he did call feel obviously correct. If you wanted to work from the start and just show
+> the concept, you'd begin with **fear and anger — fight or flight** — which you would see echoes of
+> everywhere, in small bits and measures.
+>
+> **Let's not presume we can pre-PCA if we can't identify the six.** But if a PCA pops out a seventh,
+> that makes the seventh really interesting.
+
+**Two instructions fall out of that and they are methodological, not philosophical.** Start the
+demonstration on **fear and anger**, because they are the least contestable and the most likely to
+leave traces everywhere. And **do not reduce the dimensionality before the six are recovered** — an
+unexpected extra component is a finding, and pre-reducing would destroy it.
+
 **This is the answer to "0% prompt recovery from sampled text alone."** That result assumes no prior
 over the emitter. A human reading a human has a very strong one — a shared affective architecture —
 and that is the bootstrap. *"It's the human-shaped piece that's going to be the magic. I just
@@ -100,6 +129,17 @@ answer to the diversity-of-conditions requirement.
 
 First version of the framework that names what each layer **is** rather than what it does. He flags
 it lands next to Friston.
+
+**Correction, and I had this materially wrong.** I wrote it as a description of how a person
+generates their own actions. It is not:
+
+> This is specifically about doing it **to other people**. I'm referring to **the creator**. This is
+> maths you're doing **in your head, through embodied simulation, with the creator.**
+
+So the stack is not the reader's own architecture. **It is the model the reader builds and runs of
+the maker**, using their own machinery as the substrate — which is why the shared-affective-prior
+bootstrap in §2 matters so much, and why expertise is the transition model in §1. **You simulate the
+maker with your own equipment, and the parts you lack are the parts you cannot recover.**
 
 ## §5. Everything is an artifact, including biography ★
 
@@ -191,10 +231,20 @@ conceding to them.
 The pattern across three audits, and it is not discouraging:
 
 > Other people have **fragments** of this framework, and each misinterprets its fragment slightly
-> because they do not have the rest of it. Being able to **predict another group's results while
+> because they do not have the rest of it. Being able to **predict many groups' results while
 > disagreeing with their interpretation** is the signature of holding a piece of the puzzle they do
 > not.
 
-So when a collision is found: **record it, state the difference, and keep the framework's version as
-the working one.** The difference is usually the contribution. It is never a reason to retreat to the
-narrow claim that survives someone else's theorem.
+**His correction to how I first wrote this, and he is right that it read as arrogance:**
+
+> It **is** sometimes a reason to retreat to the narrow claim. It's a nuanced decision, not something
+> you do reflexively — **it's something you test.** Ideally the best response to that kind of friction
+> is to **extract a test from it, because it often means one of us is incorrect.**
+
+So when a collision is found: **record it, state the difference, and turn the difference into a
+test.** The friction is information about which of the two accounts is wrong, and that is worth more
+than either defending or conceding.
+
+**The working rule while the test is pending:** prefer the framework's version, because it is the
+thing being developed and the literature can be re-consulted at any time. That is a working
+preference, not a claim to be right.

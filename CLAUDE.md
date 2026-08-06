@@ -56,6 +56,24 @@ This has already happened three times: the shuffle test being invalid for model-
 length being a suppressor rather than a confound, and the echo check being blind to semantic
 induction. Each one has a tail of past results behind it.
 
+## Write the finding once, then paste it — do not write it twice
+
+**Requested 2026-08-05, and the reason is text divergence.** There is no "new findings" holding area
+in `FINDINGS.md`, deliberately. When a result lands:
+
+1. **Write it in the FINDINGS entry format** — hypothesis, what we did, what we found, what it means.
+2. **Put it in `FINDINGS.md` where it belongs**, at the tier its evidence supports.
+3. **Report that same text in the chat.** Not a re-worded version. The same text.
+
+The failure this prevents: a chat summary and a file entry drifting apart until nobody knows which
+is current. **One artifact, two places, identical.**
+
+## Announce every CLAUDE.md change as you make it
+
+**Requested 2026-08-05.** This file is a shared contract, not my scratchpad. When a rule is added,
+changed or removed here, **say so explicitly in the reply** — what changed and why. He should never
+discover a new standing rule by reading the file later.
+
 ## After every test, update the record in the same pass
 
 Not later, not in a summary at the end of the session. **A result that is not written down in these
