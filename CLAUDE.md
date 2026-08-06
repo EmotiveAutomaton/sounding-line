@@ -92,6 +92,24 @@ cannot see.**
 3. **What we found** — the numbers, with **every statistic named in words**.
 4. **What it means** — the consequence for the instrument, and what is still owed.
 
+**Caption every table. In the chat, not just the file.**
+
+Requested 2026-08-05: *"maybe I've forgotten what ladder 2 and ladder 3 are — in fact I don't
+actually remember the difference."* He is running a dozen threads and will not carry our names in his
+head. **Under every table with numbers in it, write a caption that defines every column and every row
+label**, in plain words, every time — not the first time, every time.
+
+    ladder2 = 100 machine-written articles, 0/1/3/6/10 situational specifications, held out
+    coherence = how much the eight affect concepts agree at that layer, 0 to 1
+    excess over null = how far above matched random directions the signal sits
+
+**A table he cannot read is worse than no table**, because it looks like evidence and passes without
+being checked.
+
+**Estimate from measured rates, not intuition.** On 2026-08-05 a queue estimated at 267 minutes ran
+in **6** — a 45x overestimate — and the queue kept emptying as a result. Time a stage once, then
+multiply. When unsure, **queue more, not fewer**.
+
 **Language rules, and these are hard:**
 
 - **No variable or column names in prose.** Not `biber_COND`, not `partial rho`, not `cv`, not
