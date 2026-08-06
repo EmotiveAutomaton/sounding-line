@@ -20,9 +20,20 @@ is linked.
 Measure **depth**: how many of a maker's decisions are recoverable from what they made.
 Not an AI detector. Never claims authorship. `SPEC` is hash-locked and never edited.
 
-Long-run goal, the curator's, stated plainly: **detect depth → give AI empathy → extract values.**
-The third is the alignment goal. These are the same inversion read out at three levels, not three
-projects.
+Long-run goal, the curator's. **A fourth step was added 2026-08-05 and it is now mechanically
+connected rather than aspirational:**
+
+    detect depth  ->  give AI empathy  ->  extract values  ->  OPTIMALLY DEFINED BEHAVIOUR
+
+These are the same inversion read out at four levels, not four projects. The fourth was a hope until
+active inference supplied the link: **the formalism that describes the extraction also describes what
+to do with the result**, as two terms of one objective — epistemic value (the seeking) and pragmatic
+value (the acting), balanced by surprise minimisation. See [`theory/ALIGNMENT.md`](theory/ALIGNMENT.md).
+
+**A prediction he logged the same day, before any evidence:** *once this process is cracked open in
+any way, AI will supercharge it — as happens with every other fundamental human process we crack
+open. We will get super-empathy out of it, faster than expected.* Recorded as a dated prior, not as
+a finding.
 
 ---
 

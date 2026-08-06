@@ -304,6 +304,54 @@ next to `0.05 × n_tested` as "expected by chance". Those are not comparable —
 **uncorrected** expectation. Among 17 corrected survivors the expected false discoveries are at most
 **0.85**, not 16. The first draft of this entry nearly called a real result nothing.
 
+## L6 · Does the reader's internal state move as an author revises?
+
+**Hypothesis.** The surface result in L5 is polish. If revision also changes something in *the
+reader* — the low-order to high-order affective activation ratio, the project's only replicated
+effect — that is a different quantity moving in the same corpus, and it is the one we care about.
+His framing: *"I find surface-level feature analysis not as interesting. I'm wondering whether we can
+go deeper — probing, mechanistic interpretability."*
+
+**Research context.** The technique is a **probing classifier** on model activations; the field is
+mechanistic interpretability. Reading activations to infer properties of an *author* has been done
+(hidden states as author representations, 2025). Reading the **low-order/high-order affective ratio**
+as a function of maker state has not.
+
+**What we did.** Same instrument as the ladder, loci frozen, directions fitted identically. Scored
+draft 1 against draft 3 **paired within author** across 86 authors. Pre-registered: pass needs
+*p* < 0.01 **and** sign agreement above 60%, surviving length-matching. No direction predicted.
+
+**What we found.**
+
+| | ratio | median length |
+|---|---|---|
+| draft 1 | 0.7669 | 493w |
+| draft 2 | 0.7822 | 562w |
+| draft 3 | 0.7827 | 627w |
+
+    draft 1 -> 3    +0.0100   sign agreement 58%   p = 0.053     <- the pre-registered test
+    draft 1 -> 2                                   p = 0.0039
+    change vs length change   -0.08 (p = 0.45)     <- not length
+
+**Verdict: FAIL.** The pre-registered contrast misses both bars — *p* = 0.053 against 0.01, and 58%
+sign agreement against 60%.
+
+**What is underneath it, reported as suggestive and not as a finding.** Almost all of the movement
+happens at the **first** revision and then stops: 0.7669 → 0.7822 → 0.7827. The first contrast is
+*p* = 0.0039, which survives correcting for having looked at two. But it was not the pre-registered
+primary, so it is **post-hoc** and cannot be claimed. The honest route is a fresh pre-registration on
+a held-out corpus, not a promotion of this one.
+
+**One thing worth noting even so, because it is a sign and not a magnitude.** The ratio moves **up**
+with revision. On the ladder it moves **down** as specified intent rises. If both are real, revision
+is not the same axis as specification — which would mean *revising* and *being told more about the
+situation* are different operations on a text, and the instrument distinguishes them. That is a
+prediction, from a *p* = 0.053 result, and it should be treated as one.
+
+**And it is not length.** The change in ratio does not correlate with the change in word count
+(−0.08, *p* = 0.45), which is the first time in this project that a length control has come back
+uninteresting on the first attempt.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

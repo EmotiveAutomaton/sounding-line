@@ -95,6 +95,97 @@ have almost certainly been written about under other names.
 **Recorded here in his words, dated, before that search happens**, so that whatever the literature
 turns out to hold, the record shows this was arrived at independently and from which direction.
 
-**The one thing to preserve if everything else is superseded:** *the terminal value is the seeking,
-not the thing sought* — and the reason that helps is that recovering values is a limit, so any design
-whose terminal value is the limit itself must act correctly while wrong, forever.
+---
+
+# The correction — and it is the other half of the argument
+
+**Written down the same day.** My version above said *the terminal value is the seeking*. He says
+that is exactly half:
+
+> **No, the terminal value is not the seeking. It is the SUM OF THEM BOTH**, and that's the piece
+> you're missing. You only have one half of the alignment solution in this markdown.
+
+## Alignment is active inference
+
+> If we're going to align AI and it's going to take action, then that action needs to be aligned
+> with **the same kind of action every other organism deals with** — this reverse-engineered process
+> through which you extract information.
+>
+> By the same token, you should be able to use that information to **reverse-engineer appropriate
+> action through the feed-forward process.** The left side of the equation of active inference
+> provides the mechanism through which you can then use the information from epistemic foraging —
+> the empathy — **to optimise human values even as you don't understand them.**
+>
+> Because of that imprecision, it helps you **balance both action and epistemic foraging through the
+> act of surprise minimisation**, thus fully aligning AI with humanity.
+
+**Why the two halves need each other, stated plainly.** Active inference minimises expected free
+energy, and that quantity decomposes into exactly two terms:
+
+    epistemic value    reduce uncertainty about the world   ->  the empathy / value-extraction half
+    pragmatic value    bring about preferred outcomes       ->  the acting-on-values half
+
+**Neither term alone is an alignment proposal.**
+
+- **Epistemic value alone** is my §1 above: a system that only ever seeks. Safe, and useless — it
+  never acts. And worse, an unbalanced information-maximiser is the one with the incentive to
+  experiment on people, which is failure mode 1.
+- **Pragmatic value alone** is the standard framing: learn W, then maximise it. That is the one the
+  impossibility results bite, because it must act on an estimate while the estimate is wrong.
+
+**Together they are a single objective with a built-in governor.** The imprecision in the value
+estimate is not a defect the system tolerates — **it is a term in the objective**, and it is what
+keeps the epistemic drive live. As the estimate sharpens, the pragmatic term dominates and the system
+acts. Where the estimate is poor, the epistemic term dominates and the system asks rather than acts.
+
+> **The balance is not a safety constraint bolted on. It falls out of surprise minimisation.**
+
+**And this is why the limit framing in `AGAINST_IMPOSSIBILITY.md` §1 is load-bearing.** Values are
+approached through inference with error, never certainly attained. A design whose objective already
+contains its own uncertainty **does not need the limit to be reached.** It is correctly specified at
+every point along the way.
+
+## The anti-capture argument, which falls out of the same structure
+
+> This inherently means you have to **average it across all of humanity**, because you need more
+> information. It prevents assholes like rich people from giving their local values, **because it
+> could never be enough. It could never be enough data.** And as a result they run too high a risk
+> of dying due to a catastrophically omnipotent misaligned AI that can't yet zero in on their
+> specific data.
+>
+> **It's us, and all of us, and our need to spread out information throughout all of human history,
+> that will protect us.**
+
+**This is a structural argument, not a moral one, and that is what makes it interesting.** A system
+whose objective includes reducing uncertainty about human values has an **appetite for evidence that
+no subgroup can satisfy.** Narrowing the target population does not make the estimate better — it
+makes the residual uncertainty larger, and under this objective larger uncertainty is *more* costly,
+not less.
+
+So the usual value-capture attack — a small group installs its own preferences — **fails on its own
+terms**: the captured system remains maximally uncertain, and an uncertain optimiser with capability
+is precisely the thing that kills the people who captured it.
+
+**Value breadth is not an ethical add-on here. It is an instrumental requirement of the objective.**
+
+## What this adds to the project's stated goal
+
+`docs/STATE.md` has always read: **detect depth → give AI empathy → extract values.** He adds a
+fourth, and it is now mechanically connected rather than aspirational:
+
+    detect depth  ->  give AI empathy  ->  extract values  ->  OPTIMALLY DEFINED BEHAVIOUR
+
+The fourth step was previously a hope. Active inference supplies the missing link: **the same
+formalism that describes the extraction also describes what to do with it**, and the two are terms in
+one objective rather than two systems bolted together.
+
+## Status, unchanged and important
+
+**Unsearched.** Active inference, expected free energy, assistance games, cooperative IRL and value
+learning under uncertainty all have to be checked before any of this is asserted. **Recorded here in
+his words, dated, before that search**, so that whatever the literature holds, the record shows this
+was arrived at independently and from which direction.
+
+**The one thing to preserve if everything else is superseded:** *the terminal value is neither the
+seeking nor the thing sought — it is the balanced sum of both, under surprise minimisation.* The
+imprecision is not a problem the design tolerates; **it is the term that makes the design work.**
