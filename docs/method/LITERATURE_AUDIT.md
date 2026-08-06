@@ -1,5 +1,21 @@
 # Literature audit — what is occupied, what is refuted, what is left
 
+> ## ⚠ ONE RECOMMENDATION IN THIS FILE WAS REJECTED, AND THE REJECTION WAS CORRECT
+>
+> A later sweep recommended **dropping Panksepp as a load-bearing premise**, and I relayed it as a
+> lead conclusion. **The curator rejected it:** *"Panksepp in general may not be precise, but the
+> idea of midbrain-localised solutions is absolutely load-bearing. If you drop that, we have what
+> everyone else has, which is the wrong part. You did it again."*
+>
+> **"Again" is accurate — this is the second time.** The first was adopting Bullot & Reber's framing
+> over the project's. Same mechanism both times: a literature return arrives in volume and confident
+> prose, and I take its framing without testing between the two accounts.
+>
+> **Read this file with that in mind.** Occupied ground is real; a recommendation to abandon a
+> premise because the literature is crowded is not the same finding, and should be treated as my
+> inference rather than the audit's evidence. The replacement architecture is in
+> [`../theory/THREE_LAYERS.md`](../theory/THREE_LAYERS.md).
+
 **2026-08-05.** Three research subagents, briefed to fetch sources rather than trust search snippets
 and to search adversarially. Every claim below is marked **READ** (source opened) or **SNIPPET**
 (pointer only — verify before quoting). That distinction exists because two errors in this project

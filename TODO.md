@@ -40,6 +40,23 @@ Full argument in `docs/theory/AGAINST_IMPOSSIBILITY.md`.
 | **F9 - practitioner tricks** | Archaeology and the Morellian method hold the accumulated human techniques. **A different literature target: not who claimed it, but what practitioners do** | Research agent: high-resolution read of the *methods* of chaine operatoire and Morellian attribution. Which vertex does each enter at, and on what cue? | research |
 | **F10 - identification as a limit** | Identification is prediction under accumulating evidence, not a different act | Does recovery precision rise monotonically with supplied evidence, and toward what asymptote? A dose-response curve, and the answer to Wimsatt and Beardsley | ~2 h |
 
+
+## Harvested from the trimodal architecture — `docs/theory/THREE_LAYERS.md`
+
+Friction points between our theory and the interpretability literature, turned into tests. **Each is
+a place where one of us must be wrong**, which is the useful kind of disagreement.
+
+| | the friction | the test | cost |
+|---|---|---|---|
+| **G1 · trimodal, not bimodal** | We found two loci; the field mostly finds one mid-peak; he predicts **three** with a noisy middle | Sweep affect-direction accuracy at **every layer** rather than at two chosen loci, and fit one-, two- and three-component profiles. **Report which fits best rather than assuming.** This also retires the hand-picked loci, which is known weakness 3 | ~1 h GPU |
+| **G2 · the middle is noisy, not silent** | A two-way split smears a present-but-incoherent middle into both halves | At each layer report **coherence** — agreement between concepts, variance across windows — not just magnitude. Prediction: middle layers show high activity and low agreement | ~1 h GPU |
+| **G3 · polish is late, leakage is early** | Direct, and we already hold both kinds of measure | Correlate our surface-polish measures against late-layer structure and our leakage measures against early-layer structure, on the same texts. **If the mapping is real this is where it shows** | ~2 h GPU |
+| **G4 · random-direction null at every layer** | The magnitude of our ratio was **not** distinguishable from random directions; only the rung correlation was | Extend the random-direction control across the full depth sweep so every layer claim carries its own null. **Mandatory before any G1 result is believed** | ~1 h GPU |
+| **G5 · cross-model replication** | One paper reports the affect-depth profile **inverting** between model families. Ours is one model | Re-run the depth sweep on two more model families. If the profile inverts, the measure is a property of a checkpoint | ~3 h GPU |
+| **G6 · lexical control stimuli** | Anthropic reads early layers as token valence; he reads them as valence/arousal reconstruction. **Same data, two readings** | Build stimuli where affect is inferable only from situation, with no affect-laden vocabulary. If the early signal survives, it is not lexical | ~2 h |
+| **G7 · the layer-count guess** | That parameter distribution across depth may echo receptor/midbrain/neocortex neuron ratios | Cheap desk check against published neuron counts and model architectures. **Flagged speculative by him** | ~1 h |
+| **G8 · the forced architecture** | If models do not have this structure, build one: low-level valence/arousal, mid-level affective primitives, high-level free-floating prediction | Literature first — this smells like existing work in affective computing and neurorobotics. **Review running** | search, then build |
+
 ## Beating the field - the races we intend to enter
 
 > If it's a race, I want to know what the finish line looks like and who's in the front.
