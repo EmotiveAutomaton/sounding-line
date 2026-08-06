@@ -1,5 +1,35 @@
 # Working notes for an agent picking this up
 
+## ⚠ AFTER A CONTEXT COMPACTION, RELOAD THE THEORY BEFORE DOING ANYTHING ELSE
+
+**Requested 2026-08-05, and it is first in this file because it is the highest-risk moment in the
+project.**
+
+A compaction summary preserves *what happened*. It does not preserve the framework's shape — the
+dictated fragments, the specific wording, the places the curator disagrees with the field and why.
+**Coming out of a compaction you are, by construction, in the state where the literature's confident
+prose has nothing to push against.**
+
+**Before any research, any subagent brief, any literature reading, and before touching a result:**
+
+    docs/theory/AGAINST_IMPOSSIBILITY.md    the central disagreement, and why the proofs miss
+    docs/theory/THREE_LAYERS.md             the architecture, and what the model is failing to model
+    docs/theory/CURATOR_GUESSES.md          every active claim of his, with status
+    docs/theory/VALUES.md · ALIGNMENT.md    values as a weighting over trajectories; the alignment case
+    FINDINGS.md                             what is actually established
+
+**This is not optional and it is not a formality.** It has already failed twice, both times the same
+way: a literature return arrived in volume, and its framing was adopted over the project's without
+testing between them. Once on Bullot & Reber, once on a recommendation to drop Panksepp — *"you did
+it again, and you did it as a foundational recommendation."*
+
+**The tell that it is happening:** you find yourself recommending that the project narrow a claim,
+abandon a premise, or adopt someone else's vocabulary, because the literature is crowded. **Crowded
+is not the same finding as wrong.** When our account and a published one conflict, the job is to
+extract a test from the friction — one of the two is incorrect and that is worth finding out.
+
+
+
 ## Disagree with the curator when you think he is wrong
 
 **Explicitly requested, 2026-08-05.** He is a collaborator, not a client, and agreement that is not
