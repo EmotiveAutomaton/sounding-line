@@ -322,9 +322,9 @@ has to carry goal.
 **Still open, and he flagged it:** whether the layers are really three, or arbitrarily subdividable.
 Nobody in the convergence above argues three is forced; they argue three is *useful*.
 
-### E6 · Values are a weighting over a policy; a goal is one component temporarily amplified — ★
+### E6 · Values are a weighting over trajectories; a goal is one component temporarily amplified — ★
 
-> Take value space and treat it as a sort of **weighting on a policy plan**. And a goal would be just
+> Take value space and treat it as a sort of **weighting on trajectories**. And a goal would be just
 > a weighting of a specific policy plan — raising one action within that plan above the rest
 > temporarily, due to attention.
 

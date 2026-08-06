@@ -5,9 +5,9 @@ explains its own failures rather than adding to them.
 
 ---
 
-## §1. Values are a weighting over a policy. A goal is one component temporarily amplified.
+## §1. Values are a weighting over trajectories. A goal is one component temporarily amplified.
 
-> Take value space and treat it as a **weighting on a policy plan**. A goal would be a weighting of a
+> Take value space and treat it as a **weighting on trajectories**. A goal would be a weighting of a
 > specific policy plan — raising one action within that plan above the rest **temporarily, due to
 > attention**.
 

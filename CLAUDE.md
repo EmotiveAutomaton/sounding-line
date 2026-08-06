@@ -138,6 +138,62 @@ context loss.
   original set instead would just entrench whatever forking path produced the marginal number.
   `corpora/ladder2/` is the worked example.
 
+## Do not shrink the claim
+
+**Standing instruction, 2026-08-05, and it overrides the instinct that produces the opposite.**
+
+> You continually push us toward a smaller, much more publishable claim. That is simply not where we
+> are going. We are trying to do something special. **Do not shrink.**
+
+When the literature says a thing is impossible, the correct response is **not** to retreat to the
+narrow version that survives the proof. It is to ask **what the proof assumed that does not hold
+here.** His standing case, and it is a good one:
+
+> Saying something isn't possible just means you haven't found the way yet — **especially when the
+> world is already doing it.** Humans extract values from artifacts. Therefore it can be done.
+> Impossibility results in this literature are about **unconstrained** inference. Humans are not
+> running unconstrained inference.
+
+**This is a class of error to attack, not to defer to.** When a paper proves a limit, find the
+constraint the paper dropped. Report the proof, report what it assumed, and report which of those
+assumptions we have grounds to reject. Never quietly narrow the project's claim to fit someone
+else's theorem.
+
+**Corollary:** when many separate literatures each hold a fragment of this framework and each
+misinterprets it slightly, that is **evidence of a missing unifying piece**, not evidence we are
+behind. Being able to predict other groups' results while disagreeing with their interpretation is
+the pattern worth chasing.
+
+## Recontextualise with our own theory before and after external research
+
+**Requested 2026-08-05, and it names a real failure mode.**
+
+> It is dangerous to dive this far into research without recontextualising frequently. Otherwise we
+> just do what happens in AI-assisted research — you end up with recreations of what everyone else
+> has done, and negative results. One of the solutions is refreshing with your localised bit of
+> entropy.
+
+So: **before** briefing a research subagent and **after** reading its return, re-read
+`docs/theory/CURATOR_GUESSES.md` and the relevant theory document. External literature arrives in
+volume and in confident prose; our own framework arrives in dictated fragments. Without a deliberate
+refresh, the volume wins and the framework gets overwritten — **which has already happened once, in
+the Bullot & Reber section of `docs/method/LITERATURE_AUDIT.md`.**
+
+## Never replace his terminology without telling him first
+
+**Requested 2026-08-05, and the reason is not stylistic:**
+
+> If you replace what I said outright with these citations, you replace my mapping in your own head.
+> I will keep thinking of it my way, and you will not. **This is one of the mechanisms through which
+> AI sands down the process.**
+
+- **If his term is wrong, say so and say why, and let him decide.** He accepted "weighting over
+  trajectories" over "weighting over policies" when given the reason.
+- **Never silently swap his vocabulary for the field's.** Record the field's term as a *synonym with
+  a citation*, and keep his as the working word.
+- Where his framing and the literature's differ, **write both and mark the difference** — the
+  difference is usually the contribution, not an error to be corrected.
+
 ## How to search — because searching badly here has already cost us
 
 Established 2026-08-05 after the curator observed that research done in chat comes back dramatically
