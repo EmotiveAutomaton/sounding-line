@@ -79,9 +79,7 @@ sets.
 2. **Request PAN22 access from Aston.** It is the race worth entering, the bar is 0.60, and the task
    is the one our framework says is informative. Slow, so start it now.
 
-**Still outstanding from the main research agent:** style change detection datasets (the
-within-document variation task, which is where our veneer claim lives), RAID and HACo-Det
-identifiers, and the list of code worth cloning.
+**RESOLVED — see §7, and it is the best news in this file.**
 
 ---
 
@@ -139,3 +137,87 @@ leaderboards is stale).
 uploader-asserted permissive licence that the original terms do not grant — `pandora-big5` is
 Apache-2.0-tagged Reddit text whose upstream forbids redistribution. Use the request forms for
 anything that ships.
+
+
+---
+
+## §7. We can run the field's race offline, today — and our scoring is verified
+
+**Zenodo record `21768938`, published 2026-08-03 — three days before we found it.** PAN26
+Multi-Author Writing Style Analysis, 252 MB, **CC-BY-4.0, no login, and it ships test partitions with
+ground truth.** Downloaded and extracted to `corpora/public/pan_style/`.
+
+    easy    train 10,500  validation 2,250  test 2,250
+    medium  train 10,500  validation 2,250  test 2,250
+    hard    train 10,500  validation 2,250  test 2,250
+
+**The task is ours.** Split a document into sentences; for each adjacent pair, decide whether the
+author changes. That is within-document style variation — B1's primary detector, and what F7 argues
+is really goal variation seen without the theory.
+
+**Only `hard` counts.** Hard means *every sentence on one topic AND stylistically similar* — topic
+removed by construction, which is the control this project spent three days learning to demand. The
+0.99 numbers that circulate in abstracts are the easy split measuring topic detection.
+
+| | |
+|---|---|
+| 2023 hard (paragraph) | 0.821 |
+| 2024 hard (paragraph) | 0.863 · random baseline 0.495 |
+| **2025 hard (sentence)** | **0.830** · predict-all-zero baseline 0.453 |
+
+### The positive control passed
+
+`runners/run_pan_style.py` implements the official macro-F1 and ships floor baselines.
+
+    predict-none   0.4406      published floor 0.453
+    random         0.4479
+    predict-all    0.1752
+
+> **Our scoring matches the field's to within 0.012.** Until that was true, no number we produced was
+> comparable to anyone's. Now it is. Same logic as the author-identification gate, at 127,380
+> decisions.
+
+**Judge against 0.830.** And note a different team wins each difficulty every year, which suggests
+nobody has a general method.
+
+## §8. Where the state of the art is at or below chance — the openings
+
+Verified from the source papers, not abstracts.
+
+| task | best published | note |
+|---|---|---|
+| **word-level detection on human-AI co-authored text** | **0.462 F1 vs 0.433 random** | 7 of 9 detectors below chance. The paper's own words: *"inferior to random guesses."* **No leaderboard, no gatekeeping** |
+| **recursive paraphrase attack** | AUROC **96.5% → 25.2%** | watermarking 99.3% → 9.7% TPR |
+| zero-shot under perturbation | **≈39% AUROC** | below chance |
+| cross-domain generalisation | RoBERTa **recall 0.2%** | trained Wikipedia, tested WikiHow |
+| **PAN22 cross-genre authorship** | **0.587**, baseline **0.600** | SOTA lost to character n-grams |
+| short text (10 words) | **F1 0.150** | 0.809 at 200 words |
+| **real human-LLM co-writing logs** | **AUC 0.491** | trained on synthetic mixes, deployed on genuine co-writing |
+| non-native English writers | **61.2% false positive rate** | vs 5.2% for US 8th-graders. 97.8% of TOEFL essays flagged by at least one detector |
+
+**Saturated — do not compete:** RAID main split (0.9888), PAN25 Voight-Kampff subtask 1 (0.989),
+M-DAIGT (two teams at F1 = 1.000).
+
+**Largest headroom in any recent shared task:** PAN Voight-Kampff subtask 2, six-class human-AI
+collaboration patterns, best **65.06 F1** — and it sits on exactly the co-authorship axis where the
+detectors above are at chance.
+
+## §9. Code worth cloning, ranked
+
+| | what | licence |
+|---|---|---|
+| **`ryuryukke/mint`** | **15 detection methods in one harness**, runs against RAID. 5 stars, undiscovered, pushed July 2026. Highest leverage single clone | MIT |
+| `liamdugan/raid` | the evaluation substrate, `pip install raid-bench`, target-FPR protocol built in | MIT |
+| **`StyleDistance/styledistance`** | style embeddings trained for **content-independence** — better than Wegmann. The PAN 2025 team built on it | MIT |
+| **`EleutherAI/mdl`** | prequential MDL probing. **Use this, not Voita's** — hers needs LDC-licensed treebank and a stack that no longer resolves | MIT |
+| `pan-webis-de/pan-code` | official scorers per year. Runs standalone, TIRA optional | MIT |
+| `baoguangsheng/fast-detect-gpt` | the only classic detector still maintained | MIT |
+
+**Two corrections worth knowing.** RADAR is **not** at `TrustSafeAI/RADAR` (404) and is RoBERTa-large
+~355M despite the card saying 7B — it runs on a laptop, but its **weights are non-commercial**. And
+`npc_gzip` (1,782 stars) has a confirmed bug: it counts a k=2 tie as correct if either label matches,
+so it reports **top-2 accuracy, not kNN accuracy** — corrected, it goes from best to worst.
+
+**The binding constraint on PAN participant systems is licensing, not availability.** The three most
+useful winning repos ship with **no LICENSE file** — default copyright, not legally reusable without
+contacting the authors.
