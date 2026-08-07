@@ -274,3 +274,17 @@ its own right whenever we take on a published result.
 | **HH-16 · effective complexity** | "Ordered but unexplained" is effective complexity rather than entropy | Operationalise and check it is not just entropy | ~1 h |
 | **HH-17 · polish against effort** | The polish–effort correlation is strong in human corpora and near zero in generated ones | **Blocked on an effort proxy, and automaticity makes effort unobservable by construction** — the same fact that puts values in the residue. Any proxy needs its own defence first | design first |
 | **G67 · the teacher assumption on generated text** | Readers grant intention-to-help to generated text, and that is why it misleads | **A claim about readers, not models.** Different from the polish–effort account, and the two predict different things when provenance is disclosed | ~2 h |
+
+## Next up — 2026-08-07, from the specification-recovery result
+
+**The measure that just passed recovers how much specification a prompt carried, against 48
+topic-matched decoys. Win rate went 52.5% → 66.3% → 91.7% as the manipulation went from ten short
+specifications to sixty.** These follow directly from it.
+
+| | the claim | the test | cost |
+|---|---|---|---|
+| **G68 · where does human text sit on that scale?** ★ | Human artifacts should behave like a very high rung — a person writes under an enormous implicit specification | **The direct measure cannot run**: it needs a known specification and human text has none. **The version that does run inverts it.** Instead of recovering a *given* specification, generate N candidate specifications for an artifact and measure **how sharply the artifact discriminates among them** — dense intent should separate candidates cleanly, thin intent should not. **Calibrate on the ladder first**, where the answer is known: if the candidate-generation version reproduces 52.5 → 66.3 → 91.7, it is measuring the same thing and can be pointed at human text. **Without that calibration step the human number means nothing** | ~4 h |
+| **G69 · does the intent signal move deeper as rung rises?** | *"As intention increases, later layers have to be used to extract it."* Strongest layer was 14, 19, 23 across three ladders of increasing strength | **Between-ladder is confounded three ways.** Ask it *within* one corpus: split by rung and find where the signal peaks for each. **Running now** | free |
+| **G33 · late coherence against goal clarity** | Late-layer coherence should rise with rung; middle-layer should not | Pre-registered and the depth sweep has been emitting the ingredients all along. **Running now** | free |
+| **G70 · bits recovered on the no-maker corpus** | The specification-recovery measure should return **nothing** where there is no maker | **The control that the layer correlation passed and this measure has never been given.** Until it runs, the specification-recovery result has one fewer control than the measure beside it | ~30 min |
+| **PD-33 · do the accounts of machine-text unease dissociate?** | Broken polish–effort, flattened intent, missing translation and wrong shape may be four views of one latent cause — **missing mid-level affective primitives** | **If any one can be manipulated without moving the others, they are not one thing.** The cheapest arm is translation, because translation structure is countable | design first |

@@ -72,15 +72,35 @@ way** — a maker who stops performing does not usually stop labelling.
 that a reader can descend through it.** *"They want to grab your attention through aesthetic capture,
 and they also want to make it easy for you to ingest the data."*
 
-**Which gives the machine question a sharper form.** The unease around generated text has three
-candidate accounts in this repository now, and **they differ in what they say is missing**:
+**Which gives the machine question a sharper form.** The unease around generated text now has several
+candidate accounts in this repository, and they differ in what they say is missing:
 
     broken polish-effort   polish no longer correlates with effort, so a valid inference misfires
     flattened intent       decisions are dense but reduce to a single terminal value
     missing translation    the collaborative half is absent -- it takes without giving
+    wrong shape            expertise is human-shaped -- two hands, two eyes, a body -- and so is
+                           everything built on top of it, all the way up
 
-**The third is new and it is the most directly measurable of the three**, because translation
-structure is countable in a way that effort and terminal value are not.
+**And a proliferation of reasons is itself a signal.** His objection, 2026-08-07: *"now we have a
+proliferation of reasons... this list seems more like the **observable variables**."*
+
+> **The latent variable is midbrain misalignment** — or lacking a midbrain specifically.
+
+**That reframe is worth more than any of the four.** If a model reconstructs everything *except* the
+mid-level affective primitives, then it has no shared prior with the reader — and each of the four
+above is what that absence looks like from a different angle. **Polish stops tracking effort because
+effort was a proxy for a drive being spent. Intent flattens because there is no standing distribution
+for goals to be drawn from. Translation is absent because translation requires modelling a reader you
+have no shared substrate with. And the shape is wrong because the shape came from a body.**
+
+**Whether that is right is a real question and it should not be assumed.** *"That doesn't sound right.
+That doesn't sound right at all... I don't know, they're tied in there somehow."* **The four are
+correlated and one common cause is the parsimonious explanation, not a demonstrated one** — and the
+test is whether they dissociate. **If any one of them can be manipulated without moving the others,
+they are not one thing.**
+
+**The third is the most directly measurable of the four**, because translation structure is countable
+in a way that effort, terminal value and body-shape are not.
 
 **He flags his own uncertainty and it is the right place to flag it:** *"I don't know if they're
 extricable or not."* **If attraction and translation cannot be pulled apart in measurement, this is a
@@ -91,7 +111,8 @@ distinction without an instrument** — and that is the load-bearing test below.
 | **PD-29** | Polish separates into attraction and translation | **OPEN, and everything else here depends on it** | **His own doubt is the right one** — if the two cannot be pulled apart in measurement, this is a distinction without an instrument |
 | **PD-30** | Attraction decays across an artifact; translation does not | **OPEN** | §3's asymmetry should apply to **one of the two and not the other**. A within-artifact test that makes the split falsifiable rather than definitional |
 | **PD-31** | Generated text carries attraction but not translation | **OPEN** | **The most directly measurable of the three accounts of the unease**, because translation structure is countable in a way effort and terminal value are not |
-| **PD-32** | Translation structure is denser where the maker expects a distant reader | Across domains, across expertise gaps, across time | **OPEN** | Predicts a specific, checkable interaction rather than a level difference |
+| **PD-32** | Translation structure is denser where the maker expects a distant reader — across domains, across expertise gaps, across time | **OPEN** | Predicts a specific, checkable **interaction** rather than a level difference |
+| **PD-33** | The candidate accounts of machine-text unease dissociate | **OPEN, and it is the test of the whole list** | **If any one can be manipulated without moving the others, they are not one thing.** If none can, a single latent cause — the missing mid-level primitives — is the parsimonious reading |
 
 **What these add up to.** Nothing is run, and the split is a definitional claim until PD-29 shows the
 two can be separated. **But it repairs a real gap:** §1's definition of polish as *decisions aimed at

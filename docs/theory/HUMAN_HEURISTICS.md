@@ -83,10 +83,13 @@ them overstated how much of this is pre-empted.
 | **L7** | Variance of arbitrary surface features is the right operationalisation | **REJECTED (test).** 0 of 313 features survive on human text with maker, prompt, topic and register fixed | **This is what actually died** — and the plain average found 12 on the same data, so windowing itself was not the problem |
 | **HH-3** | Within-artifact variance of **probe activations** carries what surface-feature variance does not | **OPEN, and not pre-empted by anyone** | Burstiness does it with perplexity, PAN with surface style. **Nobody found doing it with probe outputs** |
 | **HH-4** | Redrafting is the wrong axis; the claim needs artifacts of **different kinds** by one maker | **OPEN** | A student redrafting an assignment three times **may not vary the performance at all**, which would make L7 uninformative rather than negative |
-| **L11** | Our measure beats 0.830 on the topic-controlled split | **RUNNING** — 342 features on PAN hard | **If we land far below, §1 is about our instrument and not about the phenomenon**, and that is worth knowing plainly |
+| **L11** | Our measure beats 0.830 on the topic-controlled split | **REJECTED (test).** 342 features reach **0.565** against a floor of 0.444 and a published best of **0.830** | **Real but not competitive** — a third of the way from floor to bar. **This is the answer to §1: the gap is our instrument.** It also confirms the field's own conclusion that pure stylometry has been displaced by fine-tuned transformers on this task |
 
-**What these add up to.** The claim and our measure of it came apart. **A mature field detects
-within-document variation successfully at 0.830 on topic-controlled data, and we found nothing** —
+**What these add up to.** The claim and our measure of it came apart, **and we now have the number that
+proves it was the measure.** Our 342-feature bank scores **0.565** on the field's own topic-controlled
+task, against a floor of 0.444 and a published best of 0.830 — **real signal, a third of the way from
+floor to bar, and not competitive.** A mature field detects within-document variation successfully and
+we found nothing —
 which points at the instrument rather than the hypothesis, and this file previously got that backwards.
 **Two candidate faults, both fixable, neither tested:** the operationalisation may be wrong (variance
 of arbitrary surface features is not obviously where a performance lives) or the axis may be wrong
