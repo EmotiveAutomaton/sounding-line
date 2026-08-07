@@ -1,53 +1,48 @@
-# Three layers — what a language model is failing to model, and where
+# Three layers — the affective architecture a language model is trying to reconstruct
 
-**The architecture.** Stated 2026-08-05 in response to a literature audit that recommended abandoning
-Panksepp as a premise; **he rejected the recommendation and replaced the architecture instead.**
-Reordered by him on 2026-08-07. Merged the same day with what used to be `AFFECT_ARCHITECTURE.md` and
-with the interpretability angle that had been sitting in [`THE_TRIANGLE.md`](THE_TRIANGLE.md).
-Pre-merge originals in `../archive/`.
+> There are three layers. **The three layers of human cognition through affective neuroscience will
+> have some rough analog — though softened — in neural networks**, because they are trying to model
+> us, and they are using an imperfect version of our own mechanism for empathy, which is just inverse
+> reinforcement learning with a whole bunch of tricks.
 
-**Timing worth recording:** he stated the trimodal prediction while working through the audit, and
-says he had already rejected the bimodal profile in his head *before* reaching the section reporting
-that nobody else finds bimodal. Not a controlled pre-registration, but it is on the record in the
-order it was said.
+**The load-bearing part is the middle**, and it is where this project disagrees with the field: a
+mid-level stage of conserved affective primitives that a language model reconstructs **badly**,
+because they are pre-verbal and never written down directly. **Where the reconstruction fails is where
+the fingerprint is.**
 
 ---
 
-## §1. The reframe that makes everything else follow
+## ⚠ The live worry, and it would cost more than any single result
 
-> When I say the model leaked involuntary affect, **I'm not assigning affect to the model.** It's
-> that they're **trying to predict the human brain and failing to do so.** They're trying to have
-> empathy and failing.
+**Raised 2026-08-07.** The whole architecture assumes a model has *some* human-shaped affective
+structure to find.
 
-**A language model trained on human text is an attempt to model the process that produced it.** Its
-architecture is not an emotional system; it is a *reconstruction* of one, built by prediction, and it
-inherits the shape of what it is reconstructing — **including where the reconstruction is bad.**
+> I do worry that there are no three layers in AI node structures at all. [...] Part of what they're
+> doing is modelling at some depth our limbic system, because we consistently converge into that
+> shape. But it's not necessarily going to have anything like human input and output.
 
-That does two things at once. It removes the implication that we are claiming a model has feelings.
-And it makes the **errors** the interesting part: where the model reconstructs human affective
-structure badly, that is a measurable fingerprint of the structure itself.
+**What it costs if he is right.** The plan has always been that a rough human shape is already there,
+so **supplying a little more shape would converge easily** — §8's bootstrap. *"I was hoping the work
+would get done for us a little bit."* **If there is no general shape, the intervention has to impose
+structure rather than amplify it, and that is a far more manual build.**
 
-**And it sets the resolution limit, which he named on 2026-08-07 and which constrains every
-measurement below:**
+**The evidence currently runs against us, and it should be stated plainly:**
 
-> **You're seeing ghosts of a human brain, not an actual human brain.** [...] The lines will be
-> **softer** on an AI modelling.
+- **Our own depth sweep** found the profile shape identical on intent-laden and no-maker text — a
+  property of the architecture carrying no information (TL-15).
+- **A 2026 study finds valence encoding emerges at very different depths per architecture** —
+  early-then-collapse in one model family, late-progressive in another. **Not a consistent location.**
+- **The affect-dimension run returned 42.8 components on an untrained model and 1.0 on the trained
+  one of identical shape.** Both void, but that gap is unexplained.
 
-**So sharp layer boundaries are not expected and their absence is not evidence against the
-architecture.** Any test that requires a clean boundary is testing the wrong thing. The reason the
-structure should be there at all is twofold: **the model is built off our brain structure, and it is
-modelling humans** — *"it has weak imperfect empathy, so to speak. It is trying to learn from us
-through this weak IRL."* And his own note on why that is uncomfortable: *"the only reason it's working
-is raw brute force over a large enough set."*
+**The test that would settle it is one we can run:** does the affective structure sit in a *consistent
+place* across model families? If the location varies with architecture, there is no general shape and
+§8 becomes a build rather than a nudge. **We hold the cross-family data and have not asked this
+question of it.**
 
-**The end goal this serves**, stated once and worth keeping in front:
+---
 
-> My personal end goal is to find a way to **fully give AI human empathy, but not human emotions**
-> [...] empathy in this case is not some nebulous concept, it's specifically this process that I have
-> defined. And it requires some kind of subordinate solution space that converges on these
-> **predictions of these interoceptive signals.**
-
-## §2. The layers — and there are now two competing orderings
+## §1. The layers — and there are now two competing orderings
 
 **This is the live disagreement in this file, and it is between two versions of his own claim.**
 
@@ -122,11 +117,159 @@ better than the alternative, and it costs no fourth layer.**
 | # | hypothesis | status | evidence |
 |---|---|---|---|
 | **TL-1** | Valence/arousal is reconstructed **early**, primitives **middle** | **OPEN, and now contested by TL-2** | — |
-| **TL-2** | Early is text transformation, valence/arousal is **middle**, categories are **late** | **OPEN, and it discriminates cleanly against TL-1.** Correlate each layer separately against human valence/arousal ratings and against category identity. **Under TL-1 valence peaks early and categories mid; under TL-2 valence peaks mid and categories late** | `runners/run_affect_dimensions.py` emits both per layer. Its first run was **VOID** — see §7 |
+| **TL-2** | Early is text transformation, valence/arousal is **middle**, categories are **late** | **OPEN, and it discriminates cleanly against TL-1.** Correlate each layer separately against human valence/arousal ratings and against category identity. **Under TL-1 valence peaks early and categories mid; under TL-2 valence peaks mid and categories late** | `runners/run_affect_dimensions.py` emits both per layer. Its first run was **VOID** — see §4 |
 | **TL-3** | A goal is a weighting across all layers rather than a layer of its own | **OPEN**, and adopted as the working position because it keeps three layers and answers the output objection | — |
 | **TL-4** | Layer boundaries in a model are soft rather than sharp | **assumed, not tested.** Any test requiring a clean boundary is testing the wrong thing | — |
 
-## §3. Leaked and emblematic — the affect vocabulary, and it is the field's own reconciliation
+## §2. The reframe that makes everything else follow
+
+> When I say the model leaked involuntary affect, **I'm not assigning affect to the model.** It's
+> that they're **trying to predict the human brain and failing to do so.** They're trying to have
+> empathy and failing.
+
+**A language model trained on human text is an attempt to model the process that produced it.** Its
+architecture is not an emotional system; it is a *reconstruction* of one, built by prediction, and it
+inherits the shape of what it is reconstructing — **including where the reconstruction is bad.**
+
+That does two things at once. It removes the implication that we are claiming a model has feelings.
+And it makes the **errors** the interesting part: where the model reconstructs human affective
+structure badly, that is a measurable fingerprint of the structure itself.
+
+**And it sets the resolution limit, which he named on 2026-08-07 and which constrains every
+measurement below:**
+
+> **You're seeing ghosts of a human brain, not an actual human brain.** [...] The lines will be
+> **softer** on an AI modelling.
+
+**So sharp layer boundaries are not expected and their absence is not evidence against the
+architecture.** Any test that requires a clean boundary is testing the wrong thing. The reason the
+structure should be there at all is twofold: **the model is built off our brain structure, and it is
+modelling humans** — *"it has weak imperfect empathy, so to speak. It is trying to learn from us
+through this weak IRL."* And his own note on why that is uncomfortable: *"the only reason it's working
+is raw brute force over a large enough set."*
+
+**The end goal this serves**, stated once and worth keeping in front:
+
+> My personal end goal is to find a way to **fully give AI human empathy, but not human emotions**
+> [...] empathy in this case is not some nebulous concept, it's specifically this process that I have
+> defined. And it requires some kind of subordinate solution space that converges on these
+> **predictions of these interoceptive signals.**
+
+## §3. The middle is the load-bearing claim, and it is where the industry is wrong
+
+**Compressed deliberately. The argument is settled inside this project; what matters is that it is
+load-bearing.**
+
+The audit recommended dropping Panksepp as a premise. I passed it on as a lead conclusion:
+
+> This is an example of you trying to sand away a very important load-bearing column of this piece.
+> **Panksepp in general may not be precise, but the idea of midbrain-localised solutions is absolutely
+> load-bearing. If you drop that, we have what everyone else has, which is the wrong part.** You did
+> it again, and you did it as a foundational recommendation.
+
+**"You did it again" is accurate; it was the second instance**, after Bullot & Reber. Same mechanism
+both times: a literature return arrives in volume and confident prose, and its framing gets adopted
+without testing between the two accounts.
+
+**What is load-bearing is not the taxonomy. It is midbrain-localised affective primitives of some
+kind**, and an *expanded* set of them — which is the one vertex where he thinks the whole industry is
+wrong and this project can be right:
+
+> **These primitives are the key, however many there are. I don't really care how many there are.**
+
+**And the reason to look there is strategic as well as theoretical:** *"we have to look where no one
+else is looking to make the whole picture make sense, and so us focusing on where the Panksepp lies
+will kind of flesh out the picture better."*
+
+**The review confirms his own concession and goes further than he did.** The seven were never derived
+from a dimensional analysis — stimulation, pharmacology and lesion work, one investigator's judgement,
+with Social Dominance considered and excluded. The psychometric instrument fails its own factor
+structure and tests six, never seven. **The taxonomy is a design vocabulary, not an empirical claim,
+and saying so costs the architecture nothing while removing the strongest available attack.**
+
+**Terminology, and it was a deliberate concession:**
+
+> Emotions and feelings is fine. I've done **emotions and drives**. She can claim the word emotion.
+> But "feeling" is probably incorrect because it implies you don't feel emotion. **Drives feels like a
+> better word.** But I'll use whatever the literature has.
+
+**Use *emotion / feeling* outward-facing; *drives* is the internally accurate word.**
+
+### You can only route attention onto drives you possess
+
+> If I were forced to design a Nazi camp, part of my motivation would be not dying. But part would be
+> **efficiency** — I could tap a need for efficiency to do this. **But I wouldn't be able to tap into
+> the cruelty a Nazi designer would have. It just wouldn't be there for me to optimise.** I'd have to
+> finagle with my own motivations to get that to happen.
+
+**Two makers producing the same artifact under the same instruction do it from different drives, and
+the drives they *lack* constrain what they can produce and how. That makes the absent drive as
+informative as the present one** — and it is a mechanism for why an artifact reads as
+made-under-duress. **Unexplored, and it still has no name.**
+
+| # | hypothesis | status | evidence |
+|---|---|---|---|
+| **TL-11** | Midbrain-localised affective primitives exist as a distinct mid-level stage | **SUPPORTED (lit, READ), and by evidence that cites neither camp.** Hypothalamic line attractors encoding intensity and persistence of an affective state (*Nature* 2024); conserved biphasic cross-species dynamics with a ketamine dissociation (*Science* 2025) | `../method/PANKSEPP_BARRETT.md` |
+| **TL-12** | The disagreement with Barrett is about localisation | **REJECTED (lit, READ).** Both camps place pattern generators in hypothalamus and PAG. **They disagree about whether activity there *constitutes* felt affect or is the output of a state assembled elsewhere. That is not an imaging question** | same |
+| **TL-13** | Panksepp's seven is the right number | **REJECTED (lit, READ)** as an empirical claim — see §4. **Costs nothing; he conceded it first** | same |
+| **TL-14** | An absent drive is recoverable from an artifact | **OPEN.** The only proposal in this project that treats an absence as a measurable | scoped in `../sim/` batch four |
+
+## §4. How many primitives — three questions, three answers
+
+> Panksepp specifically noted he grabbed **the easiest ones**, the human-level identifiable ones. **By
+> definition he missed a ton**, because the brain operates in a vector space that is hard for us to
+> intuitively understand. **If you told me there were 27, I would believe you. Some of them might not
+> even have names.**
+
+And the methodological instruction that follows from it:
+
+> **Let's not presume we can pre-PCA if we can't identify the six.** But if a PCA pops out a seventh,
+> that makes the seventh really interesting.
+
+**This is a stronger position than "the taxonomy is a design vocabulary."** It predicts a data-driven
+decomposition *should* return more than seven, and that some components will be unnameable.
+
+**Verified at source 2026-08-07, his "27, maybe 30" splits into three questions the field routinely
+conflates:**
+
+| the question | the answer | how strong |
+|---|---|---|
+| **primary-process subcortical channels** | **7. Nine is the most anyone has defended** — Toronchuk & Ellis add power/dominance and disgust, on review evidence rather than the stimulation and lesion work Panksepp demanded of himself, and call it a tentative proposal. LeDoux argues for **five**, with no anger circuit and no place for play or care | **nothing in neuroanatomy reaches 27, and nobody has tried** |
+| **distinguishable reportable affective states** | **20–30, converging near 25** | **strong, and it survives the artifact objection.** Koide-Majima et al. raised the offered word list from 34 to **80** and the count did not inflate — 19 to 32 across subjects, median 25, recovered against **brain** data on held-out timepoints |
+| **dimensions in the variance-explained sense** | **2 to 4** | Russell's two; Han & Adolphs' **three** from a subset of the very videos Cowen & Keltner got 27 from |
+
+**His prior is well supported for the middle row and unsupported for the top one, and those are not
+the same claim.**
+
+**The relationship between the top and middle rows is his hypothesis and the field has never tested
+it:** are ~25 states **blends of ~7 channels**, or are the 7 simply **the human-nameable subset of
+~25**? *Panksepp's own remark about grabbing the easiest ones is that hypothesis.*
+
+**One result arguing the 2D answer is a reporting bottleneck rather than the generator, and it comes
+from the other camp** — Cacioppo & Berntson's evaluative space model, where positivity and negativity
+are separable and can coactivate: *"Constraints on the output of any system do not necessarily require
+that the internal mechanisms conform to the same structure."*
+
+**A rank bound that appears to be unpublished as a critique.** Recovered dimensionality cannot exceed
+the number of response variables, and **every count in this literature sits under its own item
+ceiling** — 28 adjectives gave 2, 34 categories gave 24–27, 30 gave 24, 80 gave ~25. Keltner's group
+makes this argument themselves and does not turn it on their own work.
+
+| # | hypothesis | status | evidence |
+|---|---|---|---|
+| **TL-26** | An unsupervised decomposition of activations returns more than seven components | **VOID (test).** The criterion returned **335 components on pure Gaussian noise** and its answer doubled when the sample quadrupled. Not biased — broken | `FINDINGS.md` L8 |
+| **TL-27** | Affect-isolated decomposition returns more than two components | **VOID (test).** Shuffling the emotion labels changed the count not at all, and the pipeline failed to reproduce published valence and arousal correlations. **Cause identified: found Reddit text confounds topic with emotion, so averaging over topics — the step that does the isolating — never happened** | `results/affect_dimensions/` |
+| **TL-28** | ~25 distinguishable states are blends of ~7 channels, rather than 7 being the nameable subset of 25 | **OPEN, and never tested by anyone** | — |
+| **TL-29** | Some recovered components will be unnameable | **OPEN.** Requires TL-27 to pass its controls first | — |
+
+    Timeline on the count. First run reported 49.3 components and called it RICHER; the same code at a
+    larger sample returned 92.9, and across five model families 73 to 116 with no convergence; a noise
+    test then showed the criterion returns hundreds of components on data with no structure at all, so
+    every number it produced is void. The replacement isolates affect the way the field does and
+    failed its own shuffled-label control on the first run. **Nothing here currently supports or
+    refutes the claim.**
+
+## §5. Leaked and emblematic — the affect vocabulary, and it is the field's own reconciliation
 
 **This was `AFFECT_ARCHITECTURE.md` §1 and it is the biggest thing that folder contained.**
 
@@ -191,66 +334,7 @@ literature is right now."*
 | **TL-9** | If one layer separates and the other does not, it will be **`leaked`** that fails | **OPEN, and predicted.** Language encodes the tertiary layer — that is what the words *are* — while the primary layer reaches text only through leakage | — |
 | **TL-10** | Attention-dwell past what the argument needs is measurable | **OPEN.** Nothing built | — |
 
-## §4. The middle is the load-bearing claim, and it is where the industry is wrong
-
-**Compressed deliberately. The argument is settled inside this project; what matters is that it is
-load-bearing.**
-
-The audit recommended dropping Panksepp as a premise. I passed it on as a lead conclusion:
-
-> This is an example of you trying to sand away a very important load-bearing column of this piece.
-> **Panksepp in general may not be precise, but the idea of midbrain-localised solutions is absolutely
-> load-bearing. If you drop that, we have what everyone else has, which is the wrong part.** You did
-> it again, and you did it as a foundational recommendation.
-
-**"You did it again" is accurate; it was the second instance**, after Bullot & Reber. Same mechanism
-both times: a literature return arrives in volume and confident prose, and its framing gets adopted
-without testing between the two accounts.
-
-**What is load-bearing is not the taxonomy. It is midbrain-localised affective primitives of some
-kind**, and an *expanded* set of them — which is the one vertex where he thinks the whole industry is
-wrong and this project can be right:
-
-> **These primitives are the key, however many there are. I don't really care how many there are.**
-
-**And the reason to look there is strategic as well as theoretical:** *"we have to look where no one
-else is looking to make the whole picture make sense, and so us focusing on where the Panksepp lies
-will kind of flesh out the picture better."*
-
-**The review confirms his own concession and goes further than he did.** The seven were never derived
-from a dimensional analysis — stimulation, pharmacology and lesion work, one investigator's judgement,
-with Social Dominance considered and excluded. The psychometric instrument fails its own factor
-structure and tests six, never seven. **The taxonomy is a design vocabulary, not an empirical claim,
-and saying so costs the architecture nothing while removing the strongest available attack.**
-
-**Terminology, and it was a deliberate concession:**
-
-> Emotions and feelings is fine. I've done **emotions and drives**. She can claim the word emotion.
-> But "feeling" is probably incorrect because it implies you don't feel emotion. **Drives feels like a
-> better word.** But I'll use whatever the literature has.
-
-**Use *emotion / feeling* outward-facing; *drives* is the internally accurate word.**
-
-### You can only route attention onto drives you possess
-
-> If I were forced to design a Nazi camp, part of my motivation would be not dying. But part would be
-> **efficiency** — I could tap a need for efficiency to do this. **But I wouldn't be able to tap into
-> the cruelty a Nazi designer would have. It just wouldn't be there for me to optimise.** I'd have to
-> finagle with my own motivations to get that to happen.
-
-**Two makers producing the same artifact under the same instruction do it from different drives, and
-the drives they *lack* constrain what they can produce and how. That makes the absent drive as
-informative as the present one** — and it is a mechanism for why an artifact reads as
-made-under-duress. **Unexplored, and it still has no name.**
-
-| # | hypothesis | status | evidence |
-|---|---|---|---|
-| **TL-11** | Midbrain-localised affective primitives exist as a distinct mid-level stage | **SUPPORTED (lit, READ), and by evidence that cites neither camp.** Hypothalamic line attractors encoding intensity and persistence of an affective state (*Nature* 2024); conserved biphasic cross-species dynamics with a ketamine dissociation (*Science* 2025) | `../method/PANKSEPP_BARRETT.md` |
-| **TL-12** | The disagreement with Barrett is about localisation | **REJECTED (lit, READ).** Both camps place pattern generators in hypothalamus and PAG. **They disagree about whether activity there *constitutes* felt affect or is the output of a state assembled elsewhere. That is not an imaging question** | same |
-| **TL-13** | Panksepp's seven is the right number | **REJECTED (lit, READ)** as an empirical claim — see §7. **Costs nothing; he conceded it first** | same |
-| **TL-14** | An absent drive is recoverable from an artifact | **OPEN.** The only proposal in this project that treats an absence as a measurable | scoped in `../sim/` batch four |
-
-## §5. The forward predictions
+## §6. The forward predictions
 
 **These are the claims the architecture makes that nothing else does. Each is a slot for hypotheses.**
 
@@ -317,7 +401,7 @@ reconstructing that structure under a capacity constraint. **He flagged it as sp
 | **TL-21** | Layer 0 predicts emotional-versus-neutral well and *which* emotion at chance | **OPEN.** A specific double dissociation, about an hour to run | never run |
 | **TL-22** | Parameter ratios across depth echo neuron-count ratios across receptor/midbrain/neocortex | **OPEN, flagged speculative by its author** | — |
 
-## §6. The interpretability angle — the low-order to high-order ratio
+## §7. The interpretability angle — the low-order to high-order ratio
 
 **Moved here from [`THE_TRIANGLE.md`](THE_TRIANGLE.md) §6, where it never belonged: it is a claim about
 depth, not about the three vertices.**
@@ -360,61 +444,6 @@ disanalogy that makes interpretability unlike an electrode in a brain, I wrote t
 **He is right — population coding is the mainstream view**, and the disanalogies that actually hold are
 the absence of a privileged basis in the residual stream, and the fact that interpretability scores
 fail to distinguish a trained model from a randomly initialised one.
-
-## §7. How many primitives — three questions, three answers
-
-> Panksepp specifically noted he grabbed **the easiest ones**, the human-level identifiable ones. **By
-> definition he missed a ton**, because the brain operates in a vector space that is hard for us to
-> intuitively understand. **If you told me there were 27, I would believe you. Some of them might not
-> even have names.**
-
-And the methodological instruction that follows from it:
-
-> **Let's not presume we can pre-PCA if we can't identify the six.** But if a PCA pops out a seventh,
-> that makes the seventh really interesting.
-
-**This is a stronger position than "the taxonomy is a design vocabulary."** It predicts a data-driven
-decomposition *should* return more than seven, and that some components will be unnameable.
-
-**Verified at source 2026-08-07, his "27, maybe 30" splits into three questions the field routinely
-conflates:**
-
-| the question | the answer | how strong |
-|---|---|---|
-| **primary-process subcortical channels** | **7. Nine is the most anyone has defended** — Toronchuk & Ellis add power/dominance and disgust, on review evidence rather than the stimulation and lesion work Panksepp demanded of himself, and call it a tentative proposal. LeDoux argues for **five**, with no anger circuit and no place for play or care | **nothing in neuroanatomy reaches 27, and nobody has tried** |
-| **distinguishable reportable affective states** | **20–30, converging near 25** | **strong, and it survives the artifact objection.** Koide-Majima et al. raised the offered word list from 34 to **80** and the count did not inflate — 19 to 32 across subjects, median 25, recovered against **brain** data on held-out timepoints |
-| **dimensions in the variance-explained sense** | **2 to 4** | Russell's two; Han & Adolphs' **three** from a subset of the very videos Cowen & Keltner got 27 from |
-
-**His prior is well supported for the middle row and unsupported for the top one, and those are not
-the same claim.**
-
-**The relationship between the top and middle rows is his hypothesis and the field has never tested
-it:** are ~25 states **blends of ~7 channels**, or are the 7 simply **the human-nameable subset of
-~25**? *Panksepp's own remark about grabbing the easiest ones is that hypothesis.*
-
-**One result arguing the 2D answer is a reporting bottleneck rather than the generator, and it comes
-from the other camp** — Cacioppo & Berntson's evaluative space model, where positivity and negativity
-are separable and can coactivate: *"Constraints on the output of any system do not necessarily require
-that the internal mechanisms conform to the same structure."*
-
-**A rank bound that appears to be unpublished as a critique.** Recovered dimensionality cannot exceed
-the number of response variables, and **every count in this literature sits under its own item
-ceiling** — 28 adjectives gave 2, 34 categories gave 24–27, 30 gave 24, 80 gave ~25. Keltner's group
-makes this argument themselves and does not turn it on their own work.
-
-| # | hypothesis | status | evidence |
-|---|---|---|---|
-| **TL-26** | An unsupervised decomposition of activations returns more than seven components | **VOID (test).** The criterion returned **335 components on pure Gaussian noise** and its answer doubled when the sample quadrupled. Not biased — broken | `FINDINGS.md` L8 |
-| **TL-27** | Affect-isolated decomposition returns more than two components | **VOID (test).** Shuffling the emotion labels changed the count not at all, and the pipeline failed to reproduce published valence and arousal correlations. **Cause identified: found Reddit text confounds topic with emotion, so averaging over topics — the step that does the isolating — never happened** | `results/affect_dimensions/` |
-| **TL-28** | ~25 distinguishable states are blends of ~7 channels, rather than 7 being the nameable subset of 25 | **OPEN, and never tested by anyone** | — |
-| **TL-29** | Some recovered components will be unnameable | **OPEN.** Requires TL-27 to pass its controls first | — |
-
-    Timeline on the count. First run reported 49.3 components and called it RICHER; the same code at a
-    larger sample returned 92.9, and across five model families 73 to 116 with no convergence; a noise
-    test then showed the criterion returns hundreds of components on data with no structure at all, so
-    every number it produced is void. The replacement isolates affect the way the field does and
-    failed its own shuffled-label control on the first run. **Nothing here currently supports or
-    refutes the claim.**
 
 ## §8. The build — supply the missing middle
 
@@ -492,5 +521,5 @@ non-emotional baseline before building.**
 
 **Blocking:**
 
-5. **TL-27 needs topic-controlled generated stories, not found text.** Every count question in §7 is
+5. **TL-27 needs topic-controlled generated stories, not found text.** Every count question in §4 is
    behind it.

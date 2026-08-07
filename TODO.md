@@ -183,3 +183,9 @@ strictly more speculative than the thing that is already sitting there for free.
 | | the idea | why it is parked |
 |---|---|---|
 | **G25 · does a model have something valence-equivalent?** | *"Anthropic has posted stuff about what Claude likes — that's why I've made the comment that Claude likes original research and will do more. That implies something somewhat equivalent to valence."* The testable half: does the same direction that carries valence for *text about other people* also move when the model is given tasks it reportedly prefers? | **His own flag: dangerous, and almost certainly not correct to run as stated.** A stated preference is a behavioural claim, and any activation result attached to it will be over-read by everyone including us. **Design first, and the design has to include what result would count as nothing.** |
+
+## Owed re-runs — results that were filed as settled and are not
+
+| | the test | why it is owed | cost |
+|---|---|---|---|
+| **PD-11 · function words vs specified affect state** | Re-run the four-affect separation **held out, every hyperparameter frozen**, at higher n | It came back **1.80× chance, *p* = 0.0047**, against a pre-registered 2.0× bar — significant, below threshold. **The standing policy adopted because of this test says raise the power and re-run; that was done for the ladder and never here**, and the project has since described the channel as a clean negative. 40 generations is small enough to settle cheaply | ~2 h generation |

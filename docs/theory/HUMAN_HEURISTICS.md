@@ -1,17 +1,20 @@
-# Human empathy heuristics — how a person actually reads intent out of an artifact
+# Human empathy heuristics — the tricks a person uses when the maker is absent
 
-**The thread that had no file until 2026-08-07.** These claims were scattered across
-`CURATOR_GUESSES.md` and individual findings entries since the beginning. They are one perspective and
-they belong together, because **the curator is the only working instrument this project has and this
-is the description of it.**
+**A perfect solution exists in principle.** If you could model every neuron of a human brain, the
+extraction has an answer — assuming no property of a brain adds randomness we are unaware of.
 
-Fifteen artifacts, two sessions, sixteen readings, one reader. **Those readings have outperformed
-every measure we have built.**
+**In practice it is intractable**, and it converges only slowly: value data accumulated over time from
+a variety of stimuli, approaching the answer the way a series approximation does. **So humans do not
+solve the empathy triangle. They run heuristics at it.**
 
-**The name matters.** These are not "reading strategies." They are **the heuristics a human empathy
-system uses when the other person is absent and only their artifact is present** — which is the exact
-process [`THE_TRIANGLE.md`](THE_TRIANGLE.md) formalises. Describing them is describing the thing we
-are trying to build.
+> While I don't expect we will have to rely on these heuristics when designing depth extraction, I
+> expect AI will arrive at most, if not all of them, organically. Nevertheless it's worth keeping track
+> of the ones we have run into that would be relevant as potential **feature-extracting amplifiers** in
+> future, that other research teams may have missed.
+
+**This file is that record.** Fifteen artifacts, two sessions, sixteen readings, one reader — and
+**those readings have outperformed every measure we have built.** The curator is the only working
+instrument this project has, so describing what he does is describing the thing we are trying to build.
 
 ---
 

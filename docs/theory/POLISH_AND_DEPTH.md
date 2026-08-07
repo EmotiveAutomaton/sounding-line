@@ -1,19 +1,16 @@
 # Polish and depth — two decision densities, split by what the decision targets
 
-**Written 2026-08-03** after session 01 produced a thick/thin assessment for ten artifacts and he
-rejected my summary of it. **Merged 2026-08-07** with what used to be `FLATTENED_INTENT.md` and
-`LEAKAGE.md`. Pre-merge originals in `../archive/`.
+> **Polish** is the density of decisions aimed at **the reader's attention**. **Depth** is the density
+> of decisions aimed at **the artifact's content**. Polish is a conscious behaviour that is cognitively
+> effortful, so it moves within a piece; depth is largely automatised, so it does not.
 
-> That's not quite what I meant. Surface thickness kind of stayed the same throughout, I feel like.
-> But the style drift implies there was more. **I feel like surface and depth thickness are nebulous
-> concepts that we need to hard define at this point.**
+**Both are decision densities**, which keeps them inside the theory's one primitive rather than
+introducing a second. **Polish is aesthetics.** It is not a synonym for quality and it is not a synonym
+for machine text — all four corners of the grid are populated by real artifacts.
 
-He was right that they were nebulous — ten readings used the terms and no two used them identically,
-including mine.
-
-**Naming, settled 2026-08-07: the top layer is *polish*, not surface and not veneer.** His own
-correction, and under the theory **polish is just aesthetics**. Used consistently throughout this
-file and everywhere downstream.
+**This file also holds the two claims that follow from the split:** *flattened intent*, where a
+corporate artifact has dense decisions reducing to a single terminal value, and *leakage*, the
+decisions a maker never noticed making.
 
 ---
 

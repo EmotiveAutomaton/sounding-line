@@ -10,10 +10,18 @@ its detail.
 
 ## Format — every section, every file
 
-    1. HIS WORDS, as a blockquote
-    2. WHAT IT SAYS -- mine, short
-    3. HYPOTHESES, with status and evidence
-    4. WHAT WOULD SETTLE THE OPEN ONES
+    TOP OF FILE   a blockquote stating the theory in his words, then two or three lines of what
+                  it claims. A visitor should get the shape from the first screen
+    EACH SECTION  1. the date it was said
+                  2. HIS WORDS, as a blockquote
+                  3. WHAT IT SAYS -- mine, short
+                  4. HYPOTHESES, with status and evidence
+
+**Sections run in decreasing load-bearing order** — the core claim first, then whatever explains the
+theory most naturally. Not the order things were written in.
+
+**Tests go in `TODO.md`, not here.** This folder holds *results*. The exception is a test that cannot
+be run yet, which stays as an OPEN row with the blocker named.
 
 **Blockquotes are the curator's words only** — not superseded claims, not literature, not emphasis.
 Superseded material takes a bold **Superseded —** prefix and stays in the section it belongs to.
@@ -38,10 +46,10 @@ not acceptable.
 
 | | |
 |---|---|
-| **[THE_TRIANGLE.md](THE_TRIANGLE.md)** | the core claim. Goal, process, drives — and what values are. Absorbs `VALUES.md` and the value-recovery half of `AGAINST_IMPOSSIBILITY.md` |
-| **[THREE_LAYERS.md](THREE_LAYERS.md)** | the architecture. What a model reconstructs at each depth and where it fails. Absorbs `AFFECT_ARCHITECTURE.md` |
+| **[THE_TRIANGLE.md](THE_TRIANGLE.md)** | **the empathy triangle** — intent extraction as a triple inference over goal, process and drives. The core claim; everything else is downstream. Also holds what values are, and the disagreement with the impossibility literature |
+| **[THREE_LAYERS.md](THREE_LAYERS.md)** | the affective architecture a model is trying to reconstruct, and where the reconstruction fails. **Carries the project's largest live worry: whether the structure is there at all** |
 | **[POLISH_AND_DEPTH.md](POLISH_AND_DEPTH.md)** | two decision densities, split by what the decision targets. Absorbs `FLATTENED_INTENT.md` and `LEAKAGE.md` |
-| **[HUMAN_HEURISTICS.md](HUMAN_HEURISTICS.md)** | how a person reads intent out of an artifact. He is the instrument; this describes it |
+| **[HUMAN_HEURISTICS.md](HUMAN_HEURISTICS.md)** | the tricks a person uses when the maker is absent. **Candidate feature-extracting amplifiers**, not a method we expect to depend on |
 | **[ALIGNMENT.md](ALIGNMENT.md)** | the terminal value as the balanced sum of seeking and acting. The one claim that does not depend on the rest |
 | **[essays/](essays/)** | the two personal essays, kept as the rawest form of the intent |
 

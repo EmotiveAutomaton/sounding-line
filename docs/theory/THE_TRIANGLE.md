@@ -1,9 +1,15 @@
-# The triangle — empathy as a triple extraction
+# The empathy triangle — intent extraction as a triple inference
 
-**The core claim of the project.** Dictated 2026-08-04, extended repeatedly since, and merged
-2026-08-07 with what used to be `VALUES.md` and the value-recovery half of `AGAINST_IMPOSSIBILITY.md`
-— because those were the same argument split across three files. Pre-merge originals are in
-`../archive/`.
+> Empathy is effectively a variational inference problem — **three separate variational inference
+> problems being solved in parallel**, each bootstrapping the others: the extraction of the **proximal
+> goal**, the extraction of the **process**, and the extraction of the **values and drives**.
+
+**The core claim of the project**, and everything else in this folder is downstream of it. What is
+contested is the *shape* of the relationships between the three, not that there are three.
+
+**This file also holds what values are** — a weighting over trajectories, of which a goal is one
+component temporarily amplified — and **the disagreement with the impossibility literature**, because
+those turned out to be the same argument.
 
 ---
 
