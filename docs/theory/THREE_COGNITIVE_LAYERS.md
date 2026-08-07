@@ -349,7 +349,8 @@ ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 | **G22** | The trimodal structure is recoverable in the *residual* after fitting a single peak | **OPEN** | His, and **nobody in the field has looked for it** |
 | **G31** | The middle layer is high-activity and low-coherence | **OPEN** | Never isolated from the bimodal profile's death, so it has never actually been tested |
 | **G32** | Polish correlates with late-layer structure, leakage with early | **OPEN** | Uses measures we already own on both sides |
-| **G33** | Late-layer coherence rises with how clearly the goal is specified | **OPEN, and the data already exists** | **The depth sweep emits this interaction and nobody has read it out.** Free |
+| **G33** | Late-layer coherence rises with how clearly the goal is specified | **REJECTED (test), and it runs the other way.** Coherence **falls** with rung — early −0.69/−0.64/−0.73, late −0.36/−0.25/−0.61 across three ladders, all significant | **The middle band is the only one that does not move** (+0.14, +0.12, −0.15, none significant). **A replicated effect with an internal null in exactly the band the theory says is load-bearing** |
+| **G69** | The intent signal peaks deeper as rung rises | **REJECTED (test).** The peak sits at **layer 2 in every rung of every ladder** — it does not move at all | **The peak of raw affect magnitude and the layer that best *correlates* with rung are two different quantities, and the runner conflated them.** The moving numbers (14, 19, 23) were the second; this measured the first |
 | **G21** | Layer 0 predicts emotional-versus-neutral well and *which* emotion at chance | **OPEN** | A clean double dissociation, and our corpus has neutral as a labelled category |
 | **G34** | Parameter ratios across depth echo neuron-count ratios across receptor/midbrain/neocortex | **OPEN, flagged speculative by its author** | — |
 
@@ -357,8 +358,21 @@ ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 quantity read two ways: **the *magnitude* of affective response across depth is architectural and
 carries nothing, while the *correlation* of that response with specified intent carries a signal two
 independent ladders agree on at 0.97.** That is the most useful single thing in this file — **how much
-a layer responds is noise; how much its response tracks the maker is not.** Every remaining prediction
-here is a different readout of that same distinction, which is why they are cheap.
+a layer responds is noise; how much its response tracks the maker is not.**
+
+**The 2026-08-07 readouts sharpen that and cost the section two predictions.** The magnitude peak sits
+at **layer 2 regardless of rung, in every ladder** — fully architectural, exactly as the profile
+result said, and it does not move with intent (**G69**). And **coherence among the eight affect
+concepts falls as specification rises**, replicated across three ladders, where the prediction was
+that late coherence would *rise* when the goal is clear (**G33**).
+
+**The direction is wrong but the pattern is informative, and the informative part is where it is
+absent.** Early and late bands both lose coherence as intent rises; **the middle band does not move at
+all, in any of the three corpora.** So specifying more intent makes the affect concepts *scatter* at
+the ends and leaves the middle untouched — **which is a dissociation between the middle and the rest,
+found by a test that was not looking for one, in the band this file says is load-bearing.** Whether
+that is the noisy middle of §6b or an insensitivity of the coherence measure at that depth is not
+something this run can say.
 
 ## §7. The interpretability angle — the low-order to high-order ratio
 

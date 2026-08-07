@@ -522,6 +522,39 @@ would have fired somewhere in eleven no-maker attempts. **What does not transfer
 the surviving layers move by model and by corpus, so every headline layer number in this project is
 Qwen-specific.
 
+## L13 · Does affect-concept agreement rise or fall as intent is specified?
+
+**Hypothesis.** *(The curator's, pre-registered.)* *"You might also have more agreement in the late,
+**if the goal is clear.**"* So coherence — how much the eight affect concepts point the same way at a
+layer — should **rise** with rung at late depths, and the middle should be convergent regardless. **A
+conditional prediction, not a flat one.**
+
+**What we did.** Split every ladder artifact into windows, projected the eight affect concepts at every
+layer, and computed agreement among them per layer. Averaged into early, middle and late thirds and
+correlated against rung. Three ladders, same model, settings frozen.
+
+| band | first ladder (50) | held-out (100) | extreme (75) |
+|---|---|---|---|
+| **early** | **−0.694** (*p* < 0.0001) | **−0.640** (*p* < 0.0001) | **−0.726** (*p* < 0.0001) |
+| **middle** | +0.136 (*p* = 0.35) | +0.118 (*p* = 0.24) | −0.149 (*p* = 0.20) |
+| **late** | **−0.356** (*p* = 0.011) | **−0.253** (*p* = 0.011) | **−0.612** (*p* < 0.0001) |
+
+*Correlation between rung — how many specifications the prompt carried — and agreement among the eight
+affect concepts at that depth. Negative means the concepts scatter more as intent rises.*
+
+**Verdict: REJECTED, and the direction is inverted.** Coherence **falls** with specified intent, not
+rises, and it does so at both ends.
+
+**The useful part is the null.** The middle band does not move in any of the three corpora, while early
+and late both drop hard and replicate. **That is a dissociation between the middle and the rest, found
+by a test that was not looking for one.** Whether it reflects the noisy middle the architecture
+predicts, or an insensitivity of this coherence measure at that depth, this run cannot say.
+
+**And a second prediction died in the same run.** The layer where affect magnitude peaks sits at
+**layer 2 in every rung of every ladder** — it does not move with intent. **The moving numbers reported
+earlier (layers 14, 19, 23) were the layer that best *correlates* with rung, which is a different
+quantity; the runner conflated them and that was my error.**
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

@@ -161,8 +161,13 @@ def main() -> None:
             v2 = "INVERTED"
         else:
             v2 = "FLAT"
-        v1 = ("SHIFTS" if (not np.isnan(r_peak) and r_peak > 0.7) else
-              "FIXED" if (not np.isnan(r_peak) and abs(r_peak) < 0.4) else "NOISE")
+        # all peaks identical -> zero variance -> nan correlation. That is FIXED, not NOISE.
+        if len(set(peaks.values())) == 1:
+            v1 = "FIXED"
+        elif np.isnan(r_peak):
+            v1 = "NOISE"
+        else:
+            v1 = "SHIFTS" if r_peak > 0.7 else "FIXED" if abs(r_peak) < 0.4 else "NOISE"
         print(f"\n  >>> depth-of-peak: {v1}     late coherence: {v2}")
         out[corpus] = {"n": len(rows), "peak_by_rung": peaks,
                        "peak_vs_rung_rho": float(r_peak), "peak_vs_rung_p": float(p_peak),
