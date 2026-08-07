@@ -67,95 +67,103 @@ boundedness is the mechanism, not a limitation.
 
 ## Where it actually stands
 
-Honest version, because the honest version is the point.
+**2026-08-07. Roughly forty tests across four gates, three simulation batches and eleven model
+families.** The honest version, because the honest version is the point.
+
+### What has survived its controls
 
 | | |
 |---|---|
-| **Gate 0** literature | passed |
-| **Gate 1** the family exists, an artifact can be read | passed |
-| **Gate 2** the falsifiers | **failed** on purpose-based measures. Diagnosed to two findings from the parent simulation, and rebuilt. |
-| **Gate 3** the claim gate — does method unlock separate care from filler? | **running**, 51 artifacts, pre-registered and hash-locked |
+| **The per-layer intent correlation** | Correlation between how much intent a prompt specified and the reader's affective signal, computed layer by layer. **25 runs across 11 model families, 18 survive.** And the control that matters: **11 no-maker runs, all dead, zero false positives** |
+| **Specification recovery** | How much of a prompt's specification can be recovered from the artifact, against 48 topic-matched decoys. **Win rate 52.5% → 66.3% → 91.7% as specifications go from ten to sixty** — it scales with the strength of the manipulation |
+| **Function words against specified state** | Closed-class word rates classify which rung an artifact came from at **1.6× to 3.0× chance**, scaling the same way. **No model involved.** Two independent channels agreeing on the same scaling is worth more than either |
+| **Affect directions are real** | Four times chance on held-out sentences, while a word-counting model scored **exactly** chance |
+| **Authorship as a calibration** | 7.6× chance, and identical at all four scrambling granularities — which proves the scrambling code is correct before any real number is computed |
 
-**A control that already failed, and matters more than any of the above.** Artifacts with no
-maker at all — machine-generated — scored *higher* on method unlock than competent commercial work.
-If a measure moves where there is nothing to measure, it is reading something else. That result is
-why the successor design exists and why it was written before Gate 3's numbers were seen.
+### What died, and why it is the useful half
 
-Everything is pre-registered and content-hash-locked before it runs. Criteria that were changed
-afterwards are logged, the originals retained and still computed, and reported as failing if they
-fail.
+**Every measure that reads the *artifact* has died — to length, then register, then vocabulary, in
+that order.** Decision density was word count, then vocabulary diversity. Of 342 published linguistic
+features, **61 of the 81 that replicated were machine-detectors**; the three survivors died to a test
+of whether the prompt *caused* a feature without *containing* it.
+
+**The depth profile across layers is architectural.** Identical between intent-laden text and text
+with no maker at all, in **every one of nine model families**, with the peak landing anywhere from
+layer 2 to layer 47. **The bimodal profile this project once reported was a two-model artifact.**
+
+**Gate 3, the primary for a month, is void twice over** — its statistic reads a large positive where
+the truth is zero, and 76 features separate its two halves, so almost any measure would.
+
+### Three criteria that could not do their own job
+
+**This is the recurring failure and it is worth more than any single result.**
+
+    the unlock statistic          read a large positive where the ground truth was zero
+    parallel analysis             returned 335 components on pure Gaussian noise
+    the ladder's length ceiling   voided the founding question on a rank correlation over a
+                                  4% length difference
+
+**A standing rule now covers it: run every measure on data whose answer you already know, before
+running it on data whose answer you don't.** Noise in, zero out.
+
+### The binding constraint
+
+It is no longer a measure. **Three separate hypotheses are blocked on the same corpus: one maker
+across different KINDS of artifact** — different register, audience and purpose, not different
+topics. Depth as a relation to a domain needs it; the polish-variation claim needs it; values needing
+many works needs it.
+
+**It turns out to be genuinely rare.** The cross-genre authorship literature describes its own data as
+*"scarce and very limited in size"*, and most corpora carrying a "cross-domain" label are cross-*topic*
+underneath — PAN's cross-domain tasks are all fan fiction, varying fandom rather than kind.
 
 ---
 
 ## What is being built now
 
-Two things happened in one day and they changed the project.
+**One human read fifteen artifacts aloud, blind, in plain text.** That produced more usable design
+than three gates: reading starts at **an anomaly** rather than at the whole artifact, the loop runs
+**both ways**, and *"depth is a property of the writer with respect to the domain"* — which makes
+depth a **relation** rather than an attribute, and is why the missing corpus is fatal rather than
+inconvenient. **A relation cannot be measured by varying one side.**
 
-**A human read ten artifacts aloud**, blind, in plain text. That produced more usable design than
-the three gates had: reading starts at **an anomaly** rather than at the whole artifact; the loop
-runs **both ways**, not purpose-first; and the corpus split the gates test **may not exist** in the
-shape assumed — a commercial roofing page read as more human, with more depth beneath it, than a
-personal blog post.
+**Those readings have outperformed every measure built here**, which means the most load-bearing
+evidence in the project has a sample size of one reader.
 
-**And the affective layer opened up.** The hypothesis family was entirely cognitive — purpose,
-audience, depth, cost — while a human reader's account of a maker is overwhelmingly *affective*.
-The split that fell out — what **leaked** versus what was **performed** — turns out to be the
-reconciliation position between the two dominant theories of emotion, which was not the plan.
+### The theory, in five files
 
-### The four experiments this produced, in plain terms
+[`docs/theory/`](docs/theory/) is the hypothesis store — every claim, its status, and what would test
+it. **117 numbered hypotheses**, each carrying whether it was checked on real text, in the parent
+simulation, or against published work.
 
-**A — can you measure what a writer did not choose to say?**
-Function words — *the, of, but, I, without* — are produced below deliberation. They are why
-authorship attribution works: you cannot fake them, because you are not choosing them. If they
-carry a maker's *state* and not only their identity, they are a channel into the part of a person
-that shows up in writing without being put there.
-**Built. Runs on the corpus. Not yet a classifier** — within-group variance swamps the between-group
-difference, and the largest apparent signal is probably genre rather than leakage. What it needs is
-a baseline *per maker* rather than per corpus, which needs a corpus organised by maker.
-
-**C — is asking a model "what stance is this performing" a measurement or an opinion?**
-An opinion. Asking a language model about a text returns a judgement about the words that were
-*chosen*, which is the performed layer by construction — no rewording reaches the unchosen one.
-**So the field was renamed to say so.** It is kept rather than deleted, because comparing the
-model's guess against the measured channel is itself a real test: can a system with no interior
-predict what leaks out of one?
-
-**D-0 — could the whole approach work at all?**
-Before building the expensive thing, the cheap version: have a model write the same piece under
-sixteen different specified states, and see whether the function-word signatures separate.
-**It did not separate — and then the test itself turned out to be too weak to have shown it.**
-At 380 words a category like *I* appears about five times, and five is not a number you can do
-statistics with. A power simulation says the design would have missed a real effect 62% of the
-time. **Verdict corrected from FAIL to INCONCLUSIVE**, which is worse than a failure and more
-useful than a false one. The redesign is written, with its power computed *first* this time.
-
-**B — does the machine already have the thing we are looking for?**
-Recent interpretability work finds that language models build internal emotion structure nobody
-designed: directions in activation space that causally control behaviour, arranged along
-**valence and arousal** — and, tellingly, the low-order features sit near the input while
-higher-order predictive ones sit further out. That is the same two-layer split, appearing
-unbidden in a system built for something else.
-**Not yet built.** It is the most promising and the least certain thing on the list.
-
-Full state, one line per finding: **[docs/theory/README.md](docs/theory/README.md)**
+| | |
+|---|---|
+| **the empathy triangle** | intent extraction as a triple inference over goal, process and drives. The core claim; everything else is downstream |
+| **three cognitive layers** | the affective architecture a model is trying to reconstruct, and where the reconstruction fails |
+| **polish and depth** | two decision densities, split by what the decision targets — and polish itself splits again, into attraction and translation |
+| **human empathy heuristics** | the tricks a person uses when the maker is absent, with an instrument panel recording what each is measured to be worth |
+| **alignment** | the terminal value as the balanced sum of seeking and acting. The furthest from current work and by a wide margin the least tested |
 
 ---
-
 ## Repository
 
 | | |
 |---|---|
 | [`SOUNDING_LINE_SPEC.md`](SOUNDING_LINE_SPEC.md) | written before any code, hash-locked, never edited |
-| [`docs/theory/`](docs/theory/) | the live theory, compressed |
-| [`docs/design/SUCCESSOR.md`](docs/design/SUCCESSOR.md) | what gets built next, written before Gate 3's result |
+| [`docs/theory/`](docs/theory/) | **the hypothesis store** — every claim, its status, and what would test it |
+| [`FINDINGS.md`](FINDINGS.md) | **the method archive** — how each test was actually run |
+| [`TODO.md`](TODO.md) | what has not been run, under the same identifiers as the theory |
+| [`docs/method/`](docs/method/) | what a control licenses, the ledger, deviations, literature reviews |
+| [`docs/sim/`](docs/sim/) | traffic with the parent simulation, both directions |
 | [`docs/gates/README.md`](docs/gates/README.md) | instrument gates vs claim gates |
-| [`docs/method/DEVIATIONS.md`](docs/method/DEVIATIONS.md) | every change to a locked criterion |
 | [`soundingline/family/`](soundingline/family/) | the hypothesis family — **data, not code**, so it can be argued with without reading Python |
 | [`soundingline/probe/`](soundingline/probe/) | prompts (locked), schema, two arms |
 | [`soundingline/measures/`](soundingline/measures/) | fit, unlock, gated unlock, position |
 | [`prereg/`](prereg/) | the cards, locked before each run |
 | [`results/readings/`](results/readings/) | human reading sessions, and a provenance ledger |
 | [`fetch/`](fetch/) | corpus acquisition — imports nothing from the analysis package, by design |
+| [`runners/`](runners/) | one file per experiment, each opening with its own pre-registration |
+| [`run_forever.sh`](run_forever.sh) · [`run_overnight.sh`](run_overnight.sh) | the queue, one job at a time or the whole machine |
 
 ---
 

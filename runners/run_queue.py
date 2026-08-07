@@ -43,6 +43,10 @@ REPO = Path(__file__).resolve().parents[1]
 PY = str(REPO / ".venv" / "Scripts" / "python.exe")
 STATUS = REPO / "results" / "queue_status.json"
 
+
+def _status_path():
+    return STATUS if SHARDS == 1 else STATUS.with_name(f"queue_status_{SHARD}of{SHARDS}.json")
+
 # name, command, produces (skip if exists), needs (defer if missing), rough minutes
 STAGES: list[dict] = [
     {"name": "void_v2_displacement", "est": 40,
@@ -151,6 +155,15 @@ def rel(p: str) -> Path:
 
 LOCK = REPO / "results" / ".queue.lock"
 
+# Sharding exists so the overnight runner can use the whole machine without two processes ever
+# picking the same stage. Stage i belongs to shard (i % shards). **No claim files, no races** --
+# ownership is decided by arithmetic before anything starts.
+SHARD, SHARDS = 0, 1
+
+
+def _lock_path() -> Path:
+    return LOCK if SHARDS == 1 else LOCK.with_suffix(f".{SHARD}of{SHARDS}.lock")
+
 
 def _claim_lock() -> bool:
     """Refuse to start if another queue is already running.
@@ -161,10 +174,11 @@ def _claim_lock() -> bool:
     is cleared automatically, because a queue that refuses to start is worse than one that races.
     """
     import os                                                         # noqa: PLC0415
-    LOCK.parent.mkdir(parents=True, exist_ok=True)
-    if LOCK.exists():
+    lk = _lock_path()
+    lk.parent.mkdir(parents=True, exist_ok=True)
+    if lk.exists():
         try:
-            pid = int(LOCK.read_text(encoding="utf-8").strip())
+            pid = int(lk.read_text(encoding="utf-8").strip())
         except (ValueError, OSError):
             pid = -1
         alive = False
@@ -175,24 +189,41 @@ def _claim_lock() -> bool:
             except OSError:
                 alive = False
         if alive:
-            print(f"another queue is already running as pid {pid}. Refusing to start.")
+            print(f"another queue is already running on this shard as pid {pid}. Refusing.")
             return False
         print(f"clearing a stale lock from pid {pid}")
-    LOCK.write_text(str(os.getpid()), encoding="utf-8", newline="\n")
+    lk.write_text(str(os.getpid()), encoding="utf-8", newline="\n")
     return True
 
 
 def main() -> None:
+    global SHARD, SHARDS
+    import argparse                                                   # noqa: PLC0415
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--shard", type=int, default=0)
+    ap.add_argument("--shards", type=int, default=1,
+                    help="run this process as one of N. Stage i is owned by shard i %% N, so two "
+                         "shards can never pick the same stage")
+    a = ap.parse_args()
+    SHARD, SHARDS = a.shard, a.shards
+    if not (0 <= SHARD < SHARDS):
+        print(f"shard {SHARD} is not in range for {SHARDS} shards")
+        return
     if not _claim_lock():
         return
     state: dict = {"started": time.strftime("%Y-%m-%d %H:%M"), "stages": []}
-    STATUS.parent.mkdir(parents=True, exist_ok=True)
+    _status_path().parent.mkdir(parents=True, exist_ok=True)
 
     def save() -> None:
-        STATUS.write_text(json.dumps(state, indent=2), encoding="utf-8", newline="\n")
+        _status_path().write_text(json.dumps(state, indent=2), encoding="utf-8", newline="\n")
+
+    mine = [s for i, s in enumerate(STAGES) if i % SHARDS == SHARD]
+    if SHARDS > 1:
+        print(f"shard {SHARD} of {SHARDS}: {len(mine)} of {len(STAGES)} stages")
+    state["shard"] = f"{SHARD}/{SHARDS}"
 
     failed: set[str] = set()
-    for st in STAGES:
+    for st in mine:
         name = st["name"]
         entry = {"name": name, "why": st["why"], "est_minutes": st["est"]}
 
@@ -241,7 +272,7 @@ def main() -> None:
 
 def _release_lock() -> None:
     try:
-        LOCK.unlink()
+        _lock_path().unlink()
     except OSError:
         pass
 
