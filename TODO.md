@@ -189,3 +189,32 @@ strictly more speculative than the thing that is already sitting there for free.
 | | the test | why it is owed | cost |
 |---|---|---|---|
 | **PD-11 · function words vs specified affect state** | Re-run the four-affect separation **held out, every hyperparameter frozen**, at higher n | It came back **1.80× chance, *p* = 0.0047**, against a pre-registered 2.0× bar — significant, below threshold. **The standing policy adopted because of this test says raise the power and re-run; that was done for the ladder and never here**, and the project has since described the channel as a clean negative. 40 generations is small enough to settle cheaply | ~2 h generation |
+
+## Harvested 2026-08-07 from the theory pass — the layers file
+
+**Every hypothesis in `docs/theory/THREE_COGNITIVE_LAYERS.md` that is OPEN has a row here.** The
+identifier is the same in both places; that is the point of the numbering.
+
+| | the claim | the test | cost |
+|---|---|---|---|
+| **G39 · three subspaces, not three depths** ★ | The three layers exist as **subspaces of the residual stream** rather than as depths. A transformer's computation is strictly ordered, but every layer reads and writes the *same* residual stream, so abstraction need not be partitioned along that ordering | **Principal-angle alignment between the per-layer affect subspaces**, within a model and across families, against a random-direction null. If the subspace is consistent across depth where the *profile* is not, we have been measuring the wrong axis. **This is the candidate answer to the live worry and it uses data we already hold** | ~1 h GPU |
+| **G40 · is affect localised at all?** | Affect sits at a consistent depth across model families | Same run. **The literature already says no** — valence emerges early in one family and late in another. If both this and G39 fail, the bootstrap is a manual build and we should say so | with G39 |
+| **G41 · later layers carry expertise** ★ | *"Later layers of a model will have more expertise decoding and encoding capabilities."* The precise form of "goals are late" — in humans, trajectory is stored in neocortex and executive function applies it, which is why goals *seem* to come from there | Supply expertise-level information and measure where in depth the effect lands. **Expertise is suppliable and variable; goal is only observable, so this is the testable half of the pair** and a positive constrains both orderings at once | ~2 h GPU |
+| **G26 · goal as a weighting across layers** | A goal is not a layer but a weighting applied across all of them | Requires a way to vary attention-weighting independently of content. **Not yet specifiable** | design first |
+| **G27 · soft boundaries** | Layer boundaries in a model are soft rather than sharp | Assumed, not tested. **Any test requiring a clean boundary is testing the wrong thing**, so this is a constraint on other designs rather than a study | — |
+| **G28 · do the two layers separate?** | `leaked` and `emblematic` do not come back as the same distribution | The layer-separation null. **If mean divergence across a corpus is near zero, the probe is answering one question twice.** This should come before anything that reports the two layers separately, and it never has | ~1 h |
+| **G29 · which layer fails first** | If one layer separates and the other does not, it will be `leaked` | Falls out of G28. Predicted in advance | with G28 |
+| **G30 · attention dwell** | Text spent on something past what the argument needs is measurable | The LUST signature and a second leakage channel at once. **Needs a model of argumentative need**, which is the unbuilt part | design first |
+| **G31 · the noisy middle** | The middle layer is high-activity and low-coherence | Activity and coherence reported separately per layer, on the ladder against the no-maker control. **Never isolated from the bimodal profile's death** | ~1 h |
+| **G32 · polish late, leakage early** | Polish measures correlate with late-layer structure, leakage measures with early | Uses measures we already own on both sides | ~1 h |
+| **G33 · late coherence rises with goal clarity** ★ | Late-layer coherence should scale with how clearly the goal is specified | **The depth sweep already emits this interaction and nobody has read it out.** Free — a reporting gap, not an experiment | minutes |
+| **G34 · parameter ratios** | Parameter ratios across depth echo neuron-count ratios across receptor/midbrain/neocortex | Flagged speculative by its author. Checkable against published architectures | ~1 h |
+| **G35 · are 25 states blends of 7 channels?** | Or are the 7 simply the human-nameable subset of ~25 | **Never tested by anyone.** Both numbers are well established; the relation between them is empty ground. Blocked on L9 passing its controls | blocked |
+| **G36 · unnameable components** | Some recovered components will be neither valence, arousal, nor any named category | Blocked on L9 | blocked |
+| **G37 · generative model without the state** | Reading another's affect needs no internal state, only a generative model of one | Can the probe predict *which affect a human reader will attribute* to an artifact? **If no, this project needs an architecture it does not have** | ~2 h + his ratings |
+| **G38 · seeding, not specifying** | The mid-level primitives need only a bootstrap | **Depends on G39** — you cannot seed a structure that is not there to seed | a build |
+
+**Reproducing the field's own results is a precondition, not a formality.** L9 failed because we
+substituted found text for their topic-controlled generation. **We cannot argue past anyone's stopping
+criterion until we can hit their number with their method**, and that now goes in as a hypothesis in
+its own right whenever we take on a published result.
