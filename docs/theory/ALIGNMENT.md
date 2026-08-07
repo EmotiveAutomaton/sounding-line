@@ -189,3 +189,24 @@ was arrived at independently and from which direction.
 **The one thing to preserve if everything else is superseded:** *the terminal value is neither the
 seeking nor the thing sought — it is the balanced sum of both, under surprise minimisation.* The
 imprecision is not a problem the design tolerates; **it is the term that makes the design work.**
+
+---
+
+## Hypotheses
+
+**Every row here is unsearched. That is the point of the file and it is also its largest weakness** —
+this is the biggest claim the project makes and no literature check has ever been run against it.
+
+| # | hypothesis | status | evidence |
+|---|---|---|---|
+| **AL-1** | Making the terminal value the *balanced sum* of epistemic and pragmatic value avoids the failure mode that bites "learn W then maximise W" | **OPEN, unsearched.** Nearest literatures: assistance games, cooperative IRL, value learning under uncertainty, active preference elicitation. **None fetched** | — |
+| **AL-2** | Epistemic value alone is safe and useless — a system that only ever seeks never acts | **OPEN**, and it is my §1 above, which he corrected as exactly half the argument | — |
+| **AL-3** | An unbalanced information-maximiser has an incentive to experiment on people | **OPEN, and it is failure mode 1.** Not obviously answerable by a side-constraint, because side-constraints are what this design was meant to avoid needing | — |
+| **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and it is the one to take most seriously.** Same structure as this project's own recurring error: an instrument that optimises a proxy destroys the thing. **We have watched that happen ten times at small scale** | — |
+| **AL-5** | Value capture fails structurally, because no subgroup can satisfy the appetite for evidence | **OPEN, unsearched.** Social-choice work on value aggregation usually argues the *opposite* — that aggregation is where alignment gets hard. **A collision worth finding** | — |
+| **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment | `../sim/` |
+| **AL-7** | The instrument this project is building *is* the seeking apparatus this proposal requires | **OPEN, and it is why this file lives in this repository.** If the instrument worked, it would be the component that does the approaching | — |
+
+**The one thing to preserve if everything else is superseded:** *the terminal value is neither the
+seeking nor the thing sought — it is the balanced sum of both, under surprise minimisation. The
+imprecision is not a problem the design tolerates; it is the term that makes the design work.*

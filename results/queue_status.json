@@ -1,12 +1,170 @@
 {
-  "started": "2026-08-07 01:10",
+  "started": "2026-08-07 06:13",
   "stages": [
     {
-      "name": "decomp_qwen_5k",
-      "why": "component count at 5000 human utterances -- does it stabilise or keep climbing",
-      "est_minutes": 90,
+      "name": "affdim_Qwen2.5-1.5B",
+      "why": "how many affective components survive once affect is isolated, Qwen2.5-1.5B",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "affdim_Qwen2.5-0.5B",
+      "why": "how many affective components survive once affect is isolated, Qwen2.5-0.5B",
+      "est_minutes": 40,
+      "status": "DONE",
+      "log": "results\\affdim_Qwen2.5-0.5B.log",
+      "minutes": 2.9
+    },
+    {
+      "name": "affdim_pythia-1.4b",
+      "why": "how many affective components survive once affect is isolated, pythia-1.4b",
+      "est_minutes": 40,
+      "status": "DONE",
+      "log": "results\\affdim_pythia-1.4b.log",
+      "minutes": 1.9
+    },
+    {
+      "name": "affdim_gpt2-medium",
+      "why": "how many affective components survive once affect is isolated, gpt2-medium",
+      "est_minutes": 40,
+      "status": "DONE",
+      "log": "results\\affdim_gpt2-medium.log",
+      "minutes": 1.7
+    },
+    {
+      "name": "affdim_random",
+      "why": "the same count on an UNTRAINED model of identical shape -- the control the SAE literature failed",
+      "est_minutes": 40,
+      "status": "DONE",
+      "log": "results\\affdim_random.log",
+      "minutes": 3.1
+    },
+    {
+      "name": "scaling_pythia-1.4b",
+      "why": "does the component count track the sample rather than the text, pythia-1.4b",
+      "est_minutes": 35,
+      "status": "DONE",
+      "log": "results\\scaling_pythia-1.4b.log",
+      "minutes": 13.8
+    },
+    {
+      "name": "scaling_gpt2-medium",
+      "why": "does the component count track the sample rather than the text, gpt2-medium",
+      "est_minutes": 35,
+      "status": "DONE",
+      "log": "results\\scaling_gpt2-medium.log",
+      "minutes": 7.6
+    },
+    {
+      "name": "corr48_ladder2",
+      "why": "per-layer intent correlation on ladder2 with a 4x tighter random-direction null",
+      "est_minutes": 8,
+      "status": "DONE",
+      "log": "results\\corr48_ladder2.log",
+      "minutes": 1.7
+    },
+    {
+      "name": "corr48_ladder3",
+      "why": "per-layer intent correlation on ladder3 with a 4x tighter random-direction null",
+      "est_minutes": 8,
+      "status": "DONE",
+      "log": "results\\corr48_ladder3.log",
+      "minutes": 1.2
+    },
+    {
+      "name": "corr48_nomaker",
+      "why": "per-layer intent correlation on nomaker with a 4x tighter random-direction null",
+      "est_minutes": 8,
+      "status": "DONE",
+      "log": "results\\corr48_nomaker.log",
+      "minutes": 0.7
+    },
+    {
+      "name": "corr48_ladder",
+      "why": "per-layer intent correlation on ladder with a 4x tighter random-direction null",
+      "est_minutes": 8,
+      "status": "DONE",
+      "log": "results\\corr48_ladder.log",
+      "minutes": 1.1
+    },
+    {
+      "name": "corr_ladder2_Qwen2.5-3B",
+      "why": "per-layer intent correlation, ladder2 read by Qwen2.5-3B",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "depth_ladder2_Qwen2.5-3B",
+      "why": "depth profile shape, ladder2 read by Qwen2.5-3B",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "corr_nomaker_Qwen2.5-3B",
+      "why": "per-layer intent correlation, nomaker read by Qwen2.5-3B",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "depth_nomaker_Qwen2.5-3B",
+      "why": "depth profile shape, nomaker read by Qwen2.5-3B",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "corr_ladder2_gpt2-xl",
+      "why": "per-layer intent correlation, ladder2 read by gpt2-xl",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "depth_ladder2_gpt2-xl",
+      "why": "depth profile shape, ladder2 read by gpt2-xl",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "corr_nomaker_gpt2-xl",
+      "why": "per-layer intent correlation, nomaker read by gpt2-xl",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "depth_nomaker_gpt2-xl",
+      "why": "depth profile shape, nomaker read by gpt2-xl",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "corr_ladder2_pythia-2.8b",
+      "why": "per-layer intent correlation, ladder2 read by pythia-2.8b",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "depth_ladder2_pythia-2.8b",
+      "why": "depth profile shape, ladder2 read by pythia-2.8b",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "corr_nomaker_pythia-2.8b",
+      "why": "per-layer intent correlation, nomaker read by pythia-2.8b",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "depth_nomaker_pythia-2.8b",
+      "why": "depth profile shape, nomaker read by pythia-2.8b",
+      "est_minutes": 14,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "bits48_ladder",
+      "why": "bits of specification recovered from ladder against 48 matched decoys",
+      "est_minutes": 30,
       "status": "RUNNING",
-      "log": "results\\decomp_qwen_5k.log"
+      "log": "results\\bits48_ladder.log"
     }
   ]
 }

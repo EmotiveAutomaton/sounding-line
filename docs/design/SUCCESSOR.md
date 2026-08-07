@@ -148,7 +148,7 @@ corpus label.
 | gated unlock | **built, untested.** `measures/gated.py`. Its first job is the control raw unlock failed. |
 | raw unlock | **kept as a baseline.** Gate 3's primary; the gated version has to beat it. |
 | fit (Pareto panel) | **kept.** Nothing has argued against it. |
-| surface variance within artifact | **new.** S-1..S-4 in `docs/theory/SURFACE_AND_DEPTH.md`. Nothing measures position. |
+| surface variance within artifact | **new.** S-1..S-4 in `docs/theory/POLISH_AND_DEPTH.md`. Nothing measures position. |
 | purpose agreement | **demoted to diagnostic.** E36 says purpose is constructed flat; C-22 says commercial work agrees *more*. |
 | performed affect | **built, unrun.** family v3 + stage E. Blocked on N-AFF. |
 | anomaly entry | **built, unrun.** stage zero. Blocked on nothing but GPU. |

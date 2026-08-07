@@ -1,0 +1,659 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "random_weights": false,
+  "emotions": [
+    "admiration",
+    "amusement",
+    "anger",
+    "annoyance",
+    "approval",
+    "caring",
+    "confusion",
+    "curiosity",
+    "desire",
+    "disappointment",
+    "disapproval",
+    "disgust",
+    "embarrassment",
+    "excitement",
+    "fear",
+    "gratitude",
+    "grief",
+    "joy",
+    "love",
+    "nervousness",
+    "optimism",
+    "pride",
+    "realization",
+    "relief",
+    "remorse",
+    "sadness",
+    "surprise",
+    "neutral"
+  ],
+  "per_emotion": 160,
+  "subsets": 8,
+  "layers": [
+    {
+      "participation_naive": 28.963857221568915,
+      "participation_corrected": 34.54776672321694,
+      "bcv": 40,
+      "parallel": 28,
+      "pc1_var": 0.1332898071981634,
+      "pc2_var": 0.07502797635093876,
+      "pc1_pc2_var": 0.2083177835491022,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 0,
+      "valence_r": 0.26322986636537676,
+      "arousal_r": 0.17375756761117284
+    },
+    {
+      "participation_naive": 38.242845015410275,
+      "participation_corrected": 48.618445991696866,
+      "bcv": 40,
+      "parallel": 23,
+      "pc1_var": 0.08489828856334335,
+      "pc2_var": 0.06338867866607051,
+      "pc1_pc2_var": 0.14828696722941387,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 1,
+      "valence_r": 0.43874192023211717,
+      "arousal_r": 0.2101259555757356
+    },
+    {
+      "participation_naive": 33.54786352266011,
+      "participation_corrected": 41.27489845777844,
+      "bcv": 40,
+      "parallel": 25,
+      "pc1_var": 0.09927803098708715,
+      "pc2_var": 0.06790416781490503,
+      "pc1_pc2_var": 0.1671821988019922,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 2,
+      "valence_r": 0.4071167861819679,
+      "arousal_r": 0.11271174721973486
+    },
+    {
+      "participation_naive": 1.0323437285586152,
+      "participation_corrected": 1.0383253617921502,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9842062670718222,
+      "pc2_var": 0.0015474792906062412,
+      "pc1_pc2_var": 0.9857537463624285,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 3,
+      "valence_r": 0.3247427755826473,
+      "arousal_r": 0.24084192483572697
+    },
+    {
+      "participation_naive": 1.010255088351446,
+      "participation_corrected": 1.0159827767997687,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9949111503921171,
+      "pc2_var": 0.0005331923031295142,
+      "pc1_pc2_var": 0.9954443426952466,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 4,
+      "valence_r": 0.37489464114355425,
+      "arousal_r": 0.17312130447493673
+    },
+    {
+      "participation_naive": 1.0170134733897684,
+      "participation_corrected": 1.0228182722946395,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9915991005037579,
+      "pc2_var": 0.0009705583668450157,
+      "pc1_pc2_var": 0.9925696588706029,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 5,
+      "valence_r": 0.373929795727567,
+      "arousal_r": 0.153352747796032
+    },
+    {
+      "participation_naive": 1.0175292739221258,
+      "participation_corrected": 1.023339979201211,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9913476437818861,
+      "pc2_var": 0.0009864135217026216,
+      "pc1_pc2_var": 0.9923340573035887,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 6,
+      "valence_r": 0.36610205758056746,
+      "arousal_r": 0.12276170652629818
+    },
+    {
+      "participation_naive": 1.0207009163884728,
+      "participation_corrected": 1.0265480061799046,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9898057192104086,
+      "pc2_var": 0.0011544455669202658,
+      "pc1_pc2_var": 0.9909601647773288,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 7,
+      "valence_r": 0.37005868249968454,
+      "arousal_r": 0.15945001467490572
+    },
+    {
+      "participation_naive": 1.0234444083218432,
+      "participation_corrected": 1.0293230630833912,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9884776047710759,
+      "pc2_var": 0.0012889917348058687,
+      "pc1_pc2_var": 0.9897665965058818,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 8,
+      "valence_r": 0.4010757750477365,
+      "arousal_r": 0.13762684265289224
+    },
+    {
+      "participation_naive": 1.0268333703664436,
+      "participation_corrected": 1.0327511344744915,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9868442287524934,
+      "pc2_var": 0.001532994292074646,
+      "pc1_pc2_var": 0.9883772230445681,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 9,
+      "valence_r": 0.42342877842226334,
+      "arousal_r": 0.10506608821987254
+    },
+    {
+      "participation_naive": 1.0256064097711237,
+      "participation_corrected": 1.0315099994316153,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9874344982130447,
+      "pc2_var": 0.0015682083281478223,
+      "pc1_pc2_var": 0.9890027065411926,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 10,
+      "valence_r": 0.4528967459028531,
+      "arousal_r": 0.09769515709850682
+    },
+    {
+      "participation_naive": 1.0353644588135655,
+      "participation_corrected": 1.0413812508627738,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9827672559830275,
+      "pc2_var": 0.0022737152133371795,
+      "pc1_pc2_var": 0.9850409711963647,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 11,
+      "valence_r": 0.43455863419452484,
+      "arousal_r": 0.11261269558510584
+    },
+    {
+      "participation_naive": 1.0313472729138695,
+      "participation_corrected": 1.0373173309519474,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9846809357438937,
+      "pc2_var": 0.0018628141296579942,
+      "pc1_pc2_var": 0.9865437498735516,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 12,
+      "valence_r": 0.42062505190160837,
+      "arousal_r": 0.13497229356566076
+    },
+    {
+      "participation_naive": 1.0292998286056936,
+      "participation_corrected": 1.0352461381624756,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9856599399335033,
+      "pc2_var": 0.0019600805786710337,
+      "pc1_pc2_var": 0.9876200205121743,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 13,
+      "valence_r": 0.3959099720323065,
+      "arousal_r": 0.0998280602627295
+    },
+    {
+      "participation_naive": 1.0321787787447445,
+      "participation_corrected": 1.0381584950817813,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9842834165481397,
+      "pc2_var": 0.0020827340797614346,
+      "pc1_pc2_var": 0.9863661506279011,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 14,
+      "valence_r": 0.4632817130843265,
+      "arousal_r": 0.07651542744286882
+    },
+    {
+      "participation_naive": 1.0468597411058218,
+      "participation_corrected": 1.053011276329706,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9773514367147436,
+      "pc2_var": 0.00297465807884529,
+      "pc1_pc2_var": 0.9803260947935889,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 15,
+      "valence_r": 0.4708502494301937,
+      "arousal_r": 0.0867221964206584
+    },
+    {
+      "participation_naive": 1.0486192307947373,
+      "participation_corrected": 1.0547915225078006,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9765298542763163,
+      "pc2_var": 0.0031789010339647837,
+      "pc1_pc2_var": 0.9797087553102811,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 16,
+      "valence_r": 0.4633795126101278,
+      "arousal_r": 0.06347832965044066
+    },
+    {
+      "participation_naive": 1.075337210845005,
+      "participation_corrected": 1.081829013265407,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9643067659988833,
+      "pc2_var": 0.004632799443124921,
+      "pc1_pc2_var": 0.9689395654420082,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 17,
+      "valence_r": 0.4532803192441494,
+      "arousal_r": 0.08011904838612555
+    },
+    {
+      "participation_naive": 1.0927245719437941,
+      "participation_corrected": 1.0994286607423005,
+      "bcv": 40,
+      "parallel": 1,
+      "pc1_var": 0.9565913719235719,
+      "pc2_var": 0.005450151699841274,
+      "pc1_pc2_var": 0.9620415236234132,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 18,
+      "valence_r": 0.4816844872391076,
+      "arousal_r": 0.07037192184377714
+    },
+    {
+      "participation_naive": 1.1255372928608132,
+      "participation_corrected": 1.1326513628872596,
+      "bcv": 40,
+      "parallel": 5,
+      "pc1_var": 0.9425167347101983,
+      "pc2_var": 0.006863665629809883,
+      "pc1_pc2_var": 0.9493804003400081,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 19,
+      "valence_r": 0.5241018093898727,
+      "arousal_r": 0.05422193384675109
+    },
+    {
+      "participation_naive": 1.1689049458164031,
+      "participation_corrected": 1.176579665628345,
+      "bcv": 40,
+      "parallel": 9,
+      "pc1_var": 0.924804351539477,
+      "pc2_var": 0.00945676231921205,
+      "pc1_pc2_var": 0.934261113858689,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 20,
+      "valence_r": 0.5367845640156961,
+      "arousal_r": 0.02567619581794047
+    },
+    {
+      "participation_naive": 1.2256110957608068,
+      "participation_corrected": 1.2340512009203206,
+      "bcv": 40,
+      "parallel": 10,
+      "pc1_var": 0.9030647736199054,
+      "pc2_var": 0.01229213717808516,
+      "pc1_pc2_var": 0.9153569107979906,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 21,
+      "valence_r": 0.600049705655518,
+      "arousal_r": 0.024474282149157985
+    },
+    {
+      "participation_naive": 24.255612968919934,
+      "participation_corrected": 28.05268346480065,
+      "bcv": 40,
+      "parallel": 19,
+      "pc1_var": 0.12472190940653917,
+      "pc2_var": 0.08370122092676946,
+      "pc1_pc2_var": 0.20842313033330861,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 22,
+      "valence_r": 0.6801381725184633,
+      "arousal_r": 0.2026325852548583
+    },
+    {
+      "participation_naive": 24.994236259795223,
+      "participation_corrected": 29.045393823937466,
+      "bcv": 40,
+      "parallel": 20,
+      "pc1_var": 0.11993393327344476,
+      "pc2_var": 0.08173456459083407,
+      "pc1_pc2_var": 0.20166849786427882,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 23,
+      "valence_r": 0.6854163408634393,
+      "arousal_r": 0.22849267429961873
+    },
+    {
+      "participation_naive": 15.536593124570327,
+      "participation_corrected": 17.011484369515347,
+      "bcv": 40,
+      "parallel": 10,
+      "pc1_var": 0.13746199733732067,
+      "pc2_var": 0.12275210019601274,
+      "pc1_pc2_var": 0.2602140975333334,
+      "n_vectors": 224,
+      "n_dims": 896,
+      "layer": 24,
+      "valence_r": 0.4957371615545474,
+      "arousal_r": 0.13712323392454717
+    }
+  ],
+  "middle_corrected": 1.0373373360472729,
+  "middle_bcv": 40.0,
+  "valence_r": 0.6854163408634393,
+  "arousal_r": 0.24084192483572697,
+  "component_labels": [
+    {
+      "component": 0,
+      "variance": 0.12173999660014585,
+      "low": [
+        "gratitude",
+        "excitement",
+        "joy",
+        "love",
+        "pride"
+      ],
+      "high": [
+        "anger",
+        "disapproval",
+        "disgust",
+        "annoyance",
+        "fear"
+      ],
+      "valence_r": 0.7376250335259702,
+      "arousal_r": 0.07657408216977461,
+      "reads_as": "valence"
+    },
+    {
+      "component": 1,
+      "variance": 0.08080255435828945,
+      "low": [
+        "remorse",
+        "gratitude",
+        "confusion",
+        "nervousness",
+        "caring"
+      ],
+      "high": [
+        "admiration",
+        "love",
+        "excitement",
+        "disgust",
+        "anger"
+      ],
+      "valence_r": 0.160176498567712,
+      "arousal_r": 0.2642498314353071,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 2,
+      "variance": 0.07436600214742621,
+      "low": [
+        "curiosity",
+        "confusion",
+        "disapproval",
+        "admiration",
+        "surprise"
+      ],
+      "high": [
+        "grief",
+        "nervousness",
+        "sadness",
+        "caring",
+        "relief"
+      ],
+      "valence_r": 0.22292703090651814,
+      "arousal_r": 0.11692341079975821,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 3,
+      "variance": 0.05563831264219464,
+      "low": [
+        "pride",
+        "nervousness",
+        "love",
+        "desire",
+        "curiosity"
+      ],
+      "high": [
+        "grief",
+        "anger",
+        "gratitude",
+        "amusement",
+        "remorse"
+      ],
+      "valence_r": 0.2890902687573829,
+      "arousal_r": 0.04407820987281248,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 4,
+      "variance": 0.052566333472703494,
+      "low": [
+        "amusement",
+        "embarrassment",
+        "disgust",
+        "nervousness",
+        "remorse"
+      ],
+      "high": [
+        "caring",
+        "grief",
+        "optimism",
+        "curiosity",
+        "neutral"
+      ],
+      "valence_r": 0.2266229792679231,
+      "arousal_r": 0.3421577510343687,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 5,
+      "variance": 0.040940713396441265,
+      "low": [
+        "grief",
+        "curiosity",
+        "pride",
+        "surprise",
+        "remorse"
+      ],
+      "high": [
+        "caring",
+        "anger",
+        "love",
+        "annoyance",
+        "optimism"
+      ],
+      "valence_r": 0.27871248008008703,
+      "arousal_r": 0.09904476868279617,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 6,
+      "variance": 0.03242375367417518,
+      "low": [
+        "desire",
+        "love",
+        "pride",
+        "confusion",
+        "anger"
+      ],
+      "high": [
+        "relief",
+        "gratitude",
+        "optimism",
+        "disappointment",
+        "approval"
+      ],
+      "valence_r": 0.053298499517139365,
+      "arousal_r": 0.3426907813526456,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 7,
+      "variance": 0.028087723465872905,
+      "low": [
+        "desire",
+        "neutral",
+        "nervousness",
+        "optimism",
+        "amusement"
+      ],
+      "high": [
+        "gratitude",
+        "pride",
+        "love",
+        "anger",
+        "remorse"
+      ],
+      "valence_r": 0.08871321321724408,
+      "arousal_r": 0.14472804602538875,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 8,
+      "variance": 0.022844862887262677,
+      "low": [
+        "relief",
+        "optimism",
+        "anger",
+        "surprise",
+        "desire"
+      ],
+      "high": [
+        "gratitude",
+        "admiration",
+        "disgust",
+        "fear",
+        "caring"
+      ],
+      "valence_r": 0.156052519470665,
+      "arousal_r": 0.13689819276786128,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 9,
+      "variance": 0.021560975730680897,
+      "low": [
+        "desire",
+        "disapproval",
+        "disgust",
+        "realization",
+        "grief"
+      ],
+      "high": [
+        "nervousness",
+        "curiosity",
+        "excitement",
+        "anger",
+        "caring"
+      ],
+      "valence_r": 0.03739734829917995,
+      "arousal_r": 0.4465829358632132,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 10,
+      "variance": 0.020622010538087727,
+      "low": [
+        "curiosity",
+        "relief",
+        "confusion",
+        "surprise",
+        "love"
+      ],
+      "high": [
+        "pride",
+        "disappointment",
+        "optimism",
+        "annoyance",
+        "anger"
+      ],
+      "valence_r": 0.20010084034219658,
+      "arousal_r": 0.08135308144702978,
+      "reads_as": "unnamed"
+    },
+    {
+      "component": 11,
+      "variance": 0.01682696181573212,
+      "low": [
+        "caring",
+        "relief",
+        "nervousness",
+        "surprise",
+        "embarrassment"
+      ],
+      "high": [
+        "grief",
+        "love",
+        "desire",
+        "gratitude",
+        "curiosity"
+      ],
+      "valence_r": 0.032475605907438525,
+      "arousal_r": 0.03863192368390347,
+      "reads_as": "unnamed"
+    }
+  ],
+  "shuffled_labels": {
+    "participation_naive": 1.0218305451040164,
+    "participation_corrected": 1.0276906213754358,
+    "bcv": 40,
+    "parallel": 1,
+    "pc1_var": 0.9892590848944751,
+    "pc2_var": 0.0007228506608892532,
+    "pc1_pc2_var": 0.9899819355553644,
+    "n_vectors": 224,
+    "n_dims": 896
+  },
+  "split_half_alignment": 0.9716784294910111,
+  "verdict": "VOID"
+}

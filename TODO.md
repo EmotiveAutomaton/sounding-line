@@ -9,12 +9,12 @@ Results go in [`FINDINGS.md`](FINDINGS.md).
 
 ## Harvested from theory — tests for the curator's claims
 
-Each of these is a claim from `docs/theory/CURATOR_GUESSES.md` turned into something runnable.
+Each of these is a claim from `docs/theory/` (the hypothesis tables) turned into something runnable.
 
 | | the claim | the test | cost |
 |---|---|---|---|
 | **E6 · values need many works** | Values are a weighting over trajectories; a goal is one component temporarily amplified. **A reward function needs many episodes, so values need many artifacts per maker while a goal needs one** | **The 34-book corpus already supports this.** Recover a weighting per maker from several of their works and check it is more stable within maker than between. Same design as the author-identification positive, pointed at a different quantity — and the first values test this project has been able to specify at all | ~2 h |
-| **E7 · declared-value ground truth** | Values are normally latent. The rare exception is corpora where **many makers deliberately aligned to one declared value set** — religious traditions, political manifestos, professional codes, movement writing | Hold **topic** constant by construction — the same practical question answered from within different declared traditions — or it recovers topic, which is the trap that turned 61 of our 81 ladder survivors into machine-detectors. Two levels: several makers per value set, several works per maker, which tests E6 at the same time. Design and its objections in `docs/theory/VALUES.md` §5 | sourcing, then ~3 h |
+| **E7 · declared-value ground truth** | Values are normally latent. The rare exception is corpora where **many makers deliberately aligned to one declared value set** — religious traditions, political manifestos, professional codes, movement writing | Hold **topic** constant by construction — the same practical question answered from within different declared traditions — or it recovers topic, which is the trap that turned 61 of our 81 ladder survivors into machine-detectors. Two levels: several makers per value set, several works per maker, which tests E6 at the same time. Design and its objections in `docs/theory/THE_TRIANGLE.md` §7 | sourcing, then ~3 h |
 | **E1 · mechanic entry** | You can enter the decode at metaphor, technique **or mechanics**, and any of the three ratchets toward the maker's goal. *"The expert can see the feelings of the novice through the actions they took, because they can disassemble the process."* | **Every edge test so far supplies a goal or a process. None has ever supplied a MECHANIC.** Give the probe sentence-level craft information — cadence, clause habits, punctuation practice — instead of a stated purpose, and measure goal recovery against a control given nothing. If mechanics unlock goal, legibility-first is wrong | ~2 h GPU |
 | **E1b · are the layers infinite?** | *"It would have more layers than three... how far can we subdivide them is an interesting question."* And: do the layers map onto goals at all? *"A single layer might have 20 goals in it."* | **Literature first** — empirical aesthetics named the collative variables, so a layers-of-analysis theory plausibly exists and we should not reinvent it. Then: ask the probe to read at N specified depths and test whether recovery is monotone in depth or saturates | search, then ~1 h |
 | **E2 · values as constraint** | Values are not a separate factor but **the constraint that every goal is partially satisfied at once** | **Ladder 3 is the first half** (running): 60 simultaneous specifications that must all be honoured. Second half, and it is the sharper one: if values are a stable constraint on the goal mixture, **a maker's pattern of partial satisfaction should be stable across their own works** — testable within-author on the 34-book corpus, which already gives a within-author positive | ~2 h |
@@ -25,7 +25,7 @@ Each of these is a claim from `docs/theory/CURATOR_GUESSES.md` turned into somet
 
 ## Harvested 2026-08-05 from the literature audit and his response to it
 
-Full argument in `docs/theory/AGAINST_IMPOSSIBILITY.md`.
+Full argument in `docs/theory/THE_TRIANGLE.md` §8.
 
 | | the claim | the test | cost |
 |---|---|---|---|
@@ -40,6 +40,19 @@ Full argument in `docs/theory/AGAINST_IMPOSSIBILITY.md`.
 | **F9 - practitioner tricks** | Archaeology and the Morellian method hold the accumulated human techniques. **A different literature target: not who claimed it, but what practitioners do** | Research agent: high-resolution read of the *methods* of chaine operatoire and Morellian attribution. Which vertex does each enter at, and on what cue? | research |
 | **F10 - identification as a limit** | Identification is prediction under accumulating evidence, not a different act | Does recovery precision rise monotonically with supplied evidence, and toward what asymptote? A dose-response curve, and the answer to Wimsatt and Beardsley | ~2 h |
 
+
+## Harvested 2026-08-07, from the morning monologue on component counts and SAEs
+
+**Six new claims, and one of them revises the architecture.**
+
+| | the claim | the test | cost |
+|---|---|---|---|
+| **G20 · the layer ordering may be wrong, and his revision is sharper** ★ | *"Early layers are doing some kind of text transformation — more like early sensory processing. Then the middle layers have valence/arousal, and the upper layers have emotions attached."* **This is a different ordering from `THREE_LAYERS.md`**, which puts valence/arousal early and primitives in the middle. It also reconciles the two contradicting literatures: the mid-layer-peak consensus would be reading valence/arousal, and the sparse-autoencoder result finding emotion features **late** would be reading the attached categories | **Directly runnable and it discriminates the two orderings.** Correlate each layer's structure against (a) human valence/arousal ratings and (b) emotion *category* identity, separately. Under our current model valence peaks early and categories mid. Under his revision valence peaks **mid** and categories **late**. `run_affect_dimensions.py` already emits both per layer — **this needs reading out, not building** | free, data pending |
+| **G21 · is the first layer binary salience?** | His question, asked directly: *"the initial layer is binary saliency, do you think?"* The adjacent literature finds affect **presence** dissociable from affect **category** early — no sign, no intensity, just *something is here* | Test whether layer-0 structure predicts **emotional versus neutral** at high accuracy while predicting **which emotion** at chance. That is a specific, falsifiable double dissociation, and GoEmotions has neutral as a labelled category | ~1 h GPU |
+| **G22 · the trimodal is being read as a blurry unimodal middle peak** ★ | *"We're finding ratio variance relationships between early and late despite there being a peak in the middle. It implies a sort of shape that I don't think anyone else has glommed on to."* **A three-locus structure with a noisy middle would smear into a single mid-peak under any measure that averages** — which is what everyone reports | Do not test the peak; test the **residual**. Fit a single-peak profile to the layer curve and ask whether the residual has structure at the early and late positions specifically. A unimodal truth leaves unstructured residual; a smeared trimodal leaves residual at exactly two places. **He is right that nobody has looked for this and it is cheap** | ~1 h |
+| **G23 · assign labels to the components, do not just count them** | Counting is the weaker half. *"If we can assign a label to them, because we're expecting all of these labels to be emotional primitives, then it allows us to get a sense of whether we're picking up ghosts from the presumed early or late peak"* | For each recovered component, find the emotion categories that load on it most and least, and check whether the loading pattern matches **Panksepp's seven** better than **Ekman's six**. **That contrast is genuinely unclaimed — Panksepp has never been probed in a language model, zero hits across four searches** | ~1 h once counts land |
+| **G24 · Panksepp channels have an upper bound around 30** | *"I've never seen a number of potential Pankseppian channels higher than 30. I'd put that as a reasonable limit, but I could be wrong about that"* | **Literature agent running.** Whatever it returns is a prior on the count, not a result. Note the count is a criterion artifact for everyone — seven, twenty-seven and forty-nine are all stopping-rule outputs | research |
+| **G25 · does a model have something valence-equivalent?** | *"Anthropic has posted stuff about what Claude likes — that's why I've made the comment that Claude likes original research and will do more. That implies something somewhat equivalent to valence."* **He flags it himself as possibly a research question rather than a study question** | The honest version: a model's stated preferences are a *behavioural* claim, and the testable part is whether the same activation direction that carries valence for *text about others* also moves when the model is given tasks it reportedly prefers. **Anthropic's own steering results give the direction; the preference half is ours.** Design before running — this is the one most likely to produce a result that reads as more than it is | design first |
 
 ## Harvested from the trimodal architecture — `docs/theory/THREE_LAYERS.md`
 
@@ -86,7 +99,7 @@ The public corpora fix the *scale* problem. They do not touch these, and two of 
 | | what | why it cannot be outsourced | cost |
 |---|---|---|---|
 | **Rate interest** | Go back over every artifact you have read and give each an interest score, 0–10, with one line on *what* was interesting | Your own E3: interest is what a reader feels when decisions are present but unattributed. **That makes reader-reported interest a direct instrument for the quantity we cannot measure**, and it is the only channel that has outperformed every measure we have built. No download supplies it | ~20 min |
-| ~~Author a coherent value set~~ | **Withdrawn — you cannot, and the reason is a hard constraint on method, not modesty.** You are blind to your own values; a third party describing someone else's is a second-order guess. If values were introspectively available, art would not be one of the ways people find them. Recorded in `docs/theory/VALUES.md` §4, and it kills a whole class of designs | — |
+| ~~Author a coherent value set~~ | **Withdrawn — you cannot, and the reason is a hard constraint on method, not modesty.** You are blind to your own values; a third party describing someone else's is a second-order guess. If values were introspectively available, art would not be one of the ways people find them. Recorded in `docs/theory/THE_TRIANGLE.md` §6, and it kills a whole class of designs | — |
 | **C-20 — a second reader** | Even two artifacts, answering the same questions | One reader cannot bound their own cap, and this has been outstanding since day one | an hour of someone else's time |
 
 ## Public corpora — found, and the useful ones are not the obvious ones
@@ -161,3 +174,12 @@ strictly more speculative than the thing that is already sitting there for free.
 **More function-word work** — the ceiling is author identification and we are past it.
 **Anything new on the Gate 3 corpus** — it has been read too many times to be a test corpus.
 **An end-to-end research agent** — its documented failure mode is the one we already have.
+
+## Only when we have genuinely run out of ideas
+
+**Not a backlog. A parking space for things that need designing before they are safe to run**, where
+"safe" means the result would not read as far more than it is. **We are nowhere near needing these.**
+
+| | the idea | why it is parked |
+|---|---|---|
+| **G25 · does a model have something valence-equivalent?** | *"Anthropic has posted stuff about what Claude likes — that's why I've made the comment that Claude likes original research and will do more. That implies something somewhat equivalent to valence."* The testable half: does the same direction that carries valence for *text about other people* also move when the model is given tasks it reportedly prefers? | **His own flag: dangerous, and almost certainly not correct to run as stated.** A stated preference is a behavioural claim, and any activation result attached to it will be over-read by everyone including us. **Design first, and the design has to include what result would count as nothing.** |

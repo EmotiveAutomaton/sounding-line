@@ -3,8 +3,7 @@
 > ## ⚠ IF YOU HAVE JUST BEEN COMPACTED: RELOAD THE THEORY FIRST
 >
 > Before any research, any subagent brief, any literature reading, or any judgement about a result:
-> **`docs/theory/AGAINST_IMPOSSIBILITY.md`, `THREE_LAYERS.md`, `CURATOR_GUESSES.md`, then
-> `FINDINGS.md`.** A compaction preserves what happened and loses the framework's shape, which is
+> **read the whole of `docs/theory/`, newest first, then `FINDINGS.md`.** A compaction preserves what happened and loses the framework's shape, which is
 > exactly the state in which confident literature overwrites it. That has happened twice. See
 > `CLAUDE.md`, first section.
 
