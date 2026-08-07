@@ -18,6 +18,46 @@ instrument this project has, so describing what he does is describing the thing 
 
 ---
 
+## §0. The instrument panel — what each heuristic is worth, measured
+
+**Added 2026-08-07 at the curator's instruction.** A heuristic that has been confirmed is not the same
+as a heuristic that is *useful*, and the difference is a number. **Once a heuristic is found to work,
+record how well** — because the expectation is that no single one carries enough signal and several
+will have to be stacked.
+
+> I'm expecting human heuristics to end up having to **stack a few of these** to extract intent value.
+
+**So this table is the stacking budget.** It says what is available to combine and how much each
+brings, and it is the first thing to consult before proposing that some combination will work.
+
+| heuristic | measured strength | against what baseline | status |
+|---|---|---|---|
+| **polish variation within an artifact** (§1) | **0.565** macro-F1 on the field's topic-controlled task | floor **0.444**, published best **0.830** | real, **not competitive.** A third of the way from floor to bar |
+| **reading enters at an anomaly** (§2) | — | — | never measured. The simulation says stage order changes the answer by **exactly zero**, so expect a cost saving |
+| **the confidence trajectory** (§3) | — | — | never measured; we have only ever kept means |
+| **depth as a relation to a domain** (§4) | — | — | **blocked on a corpus that does not exist** |
+| **enter at mechanics / technique / metaphor** (§5) | — | — | never measured in any direction |
+| **interest as unrecovered decisions** (§6) | — | — | **blocked on an hour of his time**, and it is the cheapest unmeasured item here |
+| **polish against effort** (§8) | — | — | blocked on an effort proxy, which automaticity makes unobservable |
+
+**Two rules for this table.**
+
+**Report strength against a named baseline, never alone.** *"Separates at 0.6"* is unreadable; *"0.6
+against a chance of 0.2"* is three times chance and *"0.6 against a floor of 0.44 and a bar of 0.83"*
+is mediocre. **The same number means opposite things depending on what it is next to.**
+
+**Nothing enters this table until it has passed its controls.** A strength recorded before the
+induction check is a strength recorded for something that may be reading the prompt. **The one
+measured row above has been through its controls; anything added must be too.**
+
+**What the table currently says.** One of seven heuristics has a number, and that number is
+uncompetitive. **Six of the seven have never been measured at all, and three of those are blocked on
+things we could actually get** — an hour of his time, an effort proxy, and one corpus. **The stacking
+question cannot be asked yet**, because there is nothing to stack: you cannot combine one measured
+signal with six unknowns and predict anything about the combination.
+
+---
+
 ## §1. The primary detector is the *variation* of the polish, not its level
 
 > When I've been talking about the veneer in my head, I've been thinking about the imagery and

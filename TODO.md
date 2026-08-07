@@ -321,3 +321,5 @@ GPU.**
 | **V3** | refusal with a threshold whose false-positive rate is computed first | ~1 h |
 | **V4 / V5** | function-word separability on book-length text | ~2 h |
 | **V6** | affect decomposition on topic-controlled generated stories | ~4 h |
+
+| **G75 · characterise the induction control's own aggressiveness** ★ | The induction check regresses the measure on *which specifications were drawn*. The held-out ladder draws from a pool of 10; the extreme ladder from a pool of 60. **With six times the regressors the control removes far more, whether or not induction is happening** | **Plant a known effect that is definitely not induced, and see how much each pool size removes.** If a pool of 60 eats a real effect, every induction result on ladder3 is uninterpretable — and it is the control this project trusts most | ~2 h |

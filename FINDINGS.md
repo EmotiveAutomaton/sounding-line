@@ -662,6 +662,48 @@ verdict gate imported it and had to be corrected.**
 prompt carried, so the classifier may be reading style the prompt *induced* rather than a maker state.
 **That control killed all three text-feature candidates last time and this has not had it.**
 
+## L17 · The founding question, re-scored on the extreme ladder
+
+**Hypothesis.** Some measure ranks five rungs of specified intent. **This was voided in 2026 on its own
+pre-registered ceiling** — rung and output length correlating at 0.40 against a 0.40 limit. The audit
+found that ceiling used a *rank* correlation to gate a question about *magnitude*, and the actual
+length spread is 4.2% of a 1,400-word median.
+
+**Method.** Score the extreme ladder — 0/2/10/30/60 specifications, length held by rejection sampling —
+with the low-order to high-order affective ratio, reporting the relationship raw, with length removed,
+with the identity of the drawn specifications removed out-of-fold, and with both removed. **The last
+column is the induction control that killed all three text-feature candidates.**
+
+| | strength | *p* |
+|---|---|---|
+| raw | **−0.565** | < 0.0001 |
+| length removed | **−0.524** | < 0.0001 |
+| specification identity removed | −0.192 | 0.100 |
+| **both removed** | **−0.207** | **0.074** |
+
+*Correlation between how many specifications the prompt carried and the reader's low-order/high-order
+affective ratio. Negative was the prediction.*
+
+**What we found. The raw effect is more than twice the size of the held-out ladder's** (−0.565 against
+−0.247) — **and it does not survive the induction control** (−0.207, *p* = 0.074), where on the
+held-out ladder it did (−0.26, *p* = 0.009).
+
+**The asymmetry is probably in the control, not in the effect.** The induction check regresses the
+ratio on *which specifications were drawn*. The held-out ladder draws from a pool of 10; the extreme
+ladder draws from a pool of 60. **With six times the regressors and fewer artifacts, the control
+removes far more, and it would do so whether or not induction is what is happening.** That is a real
+confound in the control itself and it has not been characterised.
+
+**Two other things fell out.** The scorer's own length check fires at +0.414 and prints *"length still
+varies with rung"* — **it is the same scale-free statistic on the same 1.9% spread**, so that check
+inherits the flaw the audit found. And the **acceleration** prediction — that the effect should
+steepen at the top of the ladder, which would be evidence for values as a constraint on the goal
+mixture — **is not supported**: +0.104 on the lower half, −0.007 on the upper.
+
+**Verdict: OPEN, and the void is lifted without the question being answered.** The design limitation
+that voided it was misdiagnosed; the effect is large and length-robust; **and whether it survives
+induction now depends on a control whose aggressiveness scales with the specification pool.**
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
