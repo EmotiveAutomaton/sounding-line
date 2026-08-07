@@ -14,6 +14,56 @@ decisions a maker never noticed making.
 
 ---
 
+## ⚠ A proposed redefinition, 2026-08-07 — under consideration, not adopted
+
+**The whole file is provisional pending this.** *"I think polish and depth have become loaded terms
+that are being defined poorly at this point, but they are becoming central."*
+
+> **Polish is surface-level goals** — all of the conscious ones. And **three of them are reliable
+> enough to treat as always present**: attractiveness, teaching, and epistemic foraging.
+>
+> That gives you **three rule-outs**, and it lets you focus on **the residual** — everything else that
+> doesn't meet one of those three goals. And that ends up looking like **process, expertise, minus
+> whatever the goal was.**
+>
+> **Depth is expertise being used, stripped of attractiveness, teaching and epistemic foraging.**
+
+**Why this is different from what the file currently says.** §1 defines the two by *what the decision
+targets* — the reader's attention versus the artifact's content. **This defines them by subtraction
+instead**, and subtraction is computable where "what a decision targets" is a judgement.
+
+**The three rule-outs are principled rather than convenient.** Each is present for a structural
+reason: **you want to be looked at**; **you want to be understood** — the two halves of the maker as a
+bard; and **you were finding things out as you went**. And epistemic foraging is already established
+here as *never becoming habit*, because it never repeats — so it belongs in the goal layer and is
+absent from the residue by construction.
+
+**It makes the same move twice, at two levels.** Goal space minus the always-present goals is depth.
+Expertise minus what got optimised is values. **One operation, applied to its own output** — which
+gives the ladder *surface goals → applied expertise → values*, and that is the empathy triangle
+approached from the other end.
+
+**Two objections that have to be answered before adoption.**
+
+**1. It collapses a distinction that was doing work.** *Depth is expertise* makes depth a property of
+the **maker's competence**. The project's operating definition has been *decisions recoverable*, which
+is a property of **what a reader can get out**. Those come apart: an expert can produce something
+whose expertise is invisible, and a novice can leave their working exposed. **The theory has to pick
+whether depth is the expertise that is there or the expertise that is recoverable**, and the two
+imply different instruments.
+
+**2. Subtraction assumes separability, and he flagged the doubt himself** — *"I don't know if they're
+extricable or not."* **If an expert's aesthetic choices ARE their expertise**, then removing
+attractiveness removes signal rather than nuisance. The same worry applies to teaching: a good
+explanation is a display of expertise, not a subtraction from it.
+
+**One thing it fixes that nothing else has.** *"Twain said a lot with a little."* Under the current
+measures that is invisible, because everything scales with the text rather than with the decisions in
+it. **Under the residual definition, high applied expertise at low surface is exactly what high depth
+looks like.**
+
+---
+
 ## §1. The definitions
 
 Both are **decision densities**, which keeps them inside the theory's one primitive rather than

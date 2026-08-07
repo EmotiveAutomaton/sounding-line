@@ -704,6 +704,44 @@ mixture — **is not supported**: +0.104 on the lower half, −0.007 on the uppe
 that voided it was misdiagnosed; the effect is large and length-robust; **and whether it survives
 induction now depends on a control whose aggressiveness scales with the specification pool.**
 
+## L18 · Does depth move when the domain moves? — a pilot, and it measured the wrong thing
+
+**Hypothesis.** *(The curator's.)* Depth is a property of the writer **with respect to the domain** —
+a relation, not an attribute. **Falsifier: depth moves where domain moves.**
+
+**Method.** Three authors in the book corpus who wrote across genuinely different kinds — Darwin's
+scientific treatises against the *Voyage of the Beagle*; Twain's novels against *Innocents Abroad*;
+Wollstonecraft's *Vindication* against her Swedish letters. For each maker, compare the distance
+between two works of the **same** kind against two works of **different** kinds, with the maker held
+fixed in both. Plus a control that should not move — **function-word rates, which carry identity**,
+because the person did not change.
+
+| maker | "depth" within-kind | across-kind | ratio | identity within | across | ratio |
+|---|---|---|---|---|---|---|
+| Darwin | 0.0004 | 0.0002 | **0.46** | 0.0236 | 0.0115 | **0.49** |
+| Twain | 0.0010 | 0.0017 | **1.68** | 0.0477 | 0.0810 | **1.70** |
+| Wollstonecraft | — | 0.0003 | — | — | 0.0664 | — |
+
+**Verdict: VOID, and for a reason the pre-registration did not anticipate.**
+
+**The control moved exactly as much as the measure.** Darwin 0.46 against 0.49, Twain 1.68 against
+1.70. Whatever separates these works is not specific to the quantity being tested — it is whatever
+separates any two texts by one person written for different purposes. **That is the GENRE outcome,
+pre-registered as a void, arriving disguised as ATTRIBUTE because the verdict logic checked the
+makers-majority condition before checking the control.**
+
+**And the deeper fault: the column labelled "depth" was not depth.** It was the affect-projection
+profile — the eight affect concepts projected at every layer — which is the only reader-side quantity
+this project has. **Labelling it depth was reaching for the hypothesis's vocabulary and attaching it
+to whichever instrument happened to be built.** The curator caught it by asking how we were measuring
+depth on Darwin, and the honest answer is that we were not.
+
+**What this does establish.** The design needs the identity control to be **decoupled** from the
+depth measure before it can answer anything, and two usable makers cannot do that. **It is a design
+finding rather than a result about depth**, and it makes the corpus question more urgent rather than
+less — but it also shows the corpus is downstream, because a better corpus read by a non-depth
+measure answers nothing.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
