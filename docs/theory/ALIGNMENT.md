@@ -6,27 +6,38 @@
 > information. **And because of that imprecision, it helps you balance both action and epistemic
 > foraging through the act of surprise minimisation.**
 
+> **It's us, and all of us, and our need to spread out information throughout all of human history,
+> that will protect us.**
+
 **The largest claim this project makes.** Not *learn human values then optimise them* — that is the
 framing the impossibility results bite, because it must act on an estimate while the estimate is
 wrong. **Here the imprecision is a term in the objective rather than a defect the design tolerates.**
 
-## ⚠ On priority, stated plainly
+**And the structure fights capture.** The signal is weak, the inference is intractable in the exact
+sense [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) §8 sets out — approached through error,
+never certainly attained — and
+[`HUMAN_HEURISTICS.md`](HUMAN_HEURISTICS.md) is the record of how much machinery a *person* needs to
+do it badly. **That weakness is what protects the objective from being owned.** A system whose
+terminal value includes reducing uncertainty about what humans want has an appetite for evidence
+**no individual and no subgroup can satisfy** — so narrowing the target does not sharpen the
+estimate, it enlarges the residual, and under this objective a larger residual is more costly. **The
+captured system stays maximally uncertain, and an uncertain optimiser with capability is exactly what
+kills whoever captured it.** Value breadth is not an ethical add-on. It is instrumentally forced.
 
-**These sections were arrived at independently, and the author was not aware at the time that most of
-the components already exist in the literature.** Active inference and its decomposition into
-epistemic and pragmatic value are established; so are assistance games, cooperative inverse
-reinforcement learning, value learning under uncertainty, and active preference elicitation. **Learning
-that was a disappointment, and it is recorded as one rather than obscured.**
+## Where this sits in the project
 
-**What the existing work does not supply is the third component: the extraction mechanism itself** —
-something that actually recovers a maker's goals, process and drives from what they produce, and gets
-better at it with more and more varied evidence. **That is [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) and
-[`HUMAN_HEURISTICS.md`](HUMAN_HEURISTICS.md), and it is what this repository is building.**
+**This is the file furthest from anything we are currently working on, and by a wide margin the least
+tested.** That is deliberate rather than neglectful: **we are solving the near problems before the far
+ones**, on the expectation that we arrive at this one holding more pieces than we do now.
 
-**Our own literature check is still owed.** Everything below was recorded in his words and dated
-**2026-08-05, before any search**, so whatever the field turns out to hold, the record shows this was
-arrived at independently and from which direction. **Nothing here should be asserted as novel until
-AL-1 through AL-5 have been searched properly.**
+**The first piece is the one being built.** Collecting value data by reverse-engineering it —
+**laddering up from intent to process to values** — is the project's current best bet for how any of
+this gets grounded, and it is the whole of the rest of this folder. **It genuinely might be the
+answer.**
+
+**What this file is for is the shape from a distance**, so we know what parts we need to arrive with.
+Nothing here has been searched or simulated, and the next honest step is one or two simulations rather
+than an argument.
 
 ---
 

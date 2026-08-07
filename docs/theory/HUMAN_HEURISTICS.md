@@ -280,7 +280,59 @@ locating pleasure in *ease* rather than in unresolved structure. **That tension 
 the claim; it is the thing HH-14 would adjudicate**, because the two accounts predict opposite
 correlations between interest and recoverability.
 
-## §7. Aesthetics was the cheat, and AI broke it
+## §7. The maker is a bard, not a teacher — and that is two motivations, not one
+
+**2026-08-07.** The cooperative-IRL literature says inference gets easier if you assume a **teacher**
+— someone who intends to be understood. **His refinement is that a maker is something more specific
+than a teacher, and the difference is the part nobody has formalised.**
+
+> What we're actually looking for is **a bard**, to be a little bit more precise. **There are two
+> motivations. They want to grab your attention through aesthetic capture, and they also want to make
+> it easy for you to ingest the data.** And that's the teacher aspect.
+
+> How on earth do they shape it in order to create that effect? **I assume they try to model the brain
+> of their listener. Of course they do.** Which makes all interactions this kind of **collaborative
+> back-and-forth.**
+
+**So the maker is running the empathy triangle in reverse while making the thing.** They model the
+reader, then shape the artifact so the reader's inference lands where they want it. **That means an
+artifact is not a trace of a maker's process — it is a trace of a maker's process *plus their model of
+you*.** Which is a second inference problem sitting on top of the one this project is trying to solve,
+and it is the reason the teacher assumption pays: **structure placed to be understood is structure
+that can be read.**
+
+**And the asymmetry he names is the sharpest thing here:**
+
+> **AI isn't interacting with this. It's only trying to take, it's not giving.**
+
+**A model generating text is not modelling your inference and shaping for it** — not in the sense a
+bard does, where the shaping is the point. **If that is right, the missing thing in generated text is
+not effort and not polish. It is the second half of a collaboration**, and that is a different account
+of the unease from either the polish–effort story in §8 or the flattened-intent story in
+[`POLISH_AND_DEPTH.md`](POLISH_AND_DEPTH.md) §4.
+
+**He flags the obvious objection himself:** *"yes, this is just a restatement of CIRL with different
+terms."* **It is, up to the aesthetic layer — and that layer is the addition.** Cooperative IRL has
+the teacher and the shared task. It does not have *attention capture as a separate motivation from
+comprehensibility*, and it does not have the observation that both are deliberately placed.
+
+| # | hypothesis | status | notables |
+|---|---|---|---|
+| **HH-19** | A maker has two shaping motivations — attention capture and comprehensibility — and they are separable | **OPEN** | **This splits polish into two constructs.** See [`POLISH_AND_DEPTH.md`](POLISH_AND_DEPTH.md) §2b, which carries the measurement side |
+| **HH-20** | Makers model the reader's inference and shape the artifact for it | **OPEN** | If true, **an artifact is a trace of the maker's process plus their model of the reader** — a second inference problem sitting on the first |
+| **G62** | Assuming the maker intends to be understood improves recovery | **OPEN** | **Must be tested against concealment**, where the assumption is false and licenses confident wrong inference |
+| **HH-21** | Generated text lacks the collaborative half — it takes without giving | **OPEN, and it is a claim about what is absent** | **A third account of the unease**, distinct from broken polish–effort and from flattened intent, and the three predict different things |
+
+**What these add up to.** This is the newest material in the file and none of it is measured, **but it
+is the only account here that makes the maker an active participant rather than a source of traces.**
+Its value is that it converts a vague prior — *assume good faith* — into two specific, separable
+things a maker deliberately does, one of which (comprehensibility scaffolding) is **exactly the
+structure a reader would exploit** and has never been looked for. **The risk is that it is
+unfalsifiable as stated**: almost any artifact property can be called reader-modelling after the fact,
+so HH-19's separability is the load-bearing test — **if attention capture and comprehensibility cannot
+be pulled apart in measurement, this is a story rather than a mechanism.**
+
+## §8. Aesthetics was the cheat, and AI broke it
 
 > Aesthetics is one of the **easiest goals to judge**, because it is literally surface polish — you
 > can explicitly judge whether the maker succeeded at it, and implicitly the value of what you are

@@ -8,7 +8,7 @@
 introducing a second. **Polish is aesthetics.** It is not a synonym for quality and it is not a synonym
 for machine text — all four corners of the grid are populated by real artifacts.
 
-**This file also holds the two claims that follow from the split:** *flattened intent*, where a
+**Polish itself splits again — into attraction and translation — which is §2. This file also holds:** *flattened intent*, where a
 corporate artifact has dense decisions reducing to a single terminal value, and *leakage*, the
 decisions a maker never noticed making.
 
@@ -44,7 +44,64 @@ looks like:
 | angry expert essay | high | high | **the polish work is the reason it lands** |
 | the one he called *"thick on top and just empty beneath"* | high | low | |
 
-## §2. The asymmetry, and why it should exist
+## §2. Polish is two things, not one — attraction and translation ★
+
+**2026-08-07, and it splits the file's central construct.** §1 defines polish as decisions aimed at
+the reader's attention. **That turns out to be only half of what a maker deliberately puts on top.**
+
+> The pieces that the human is putting in **voluntarily** on top — the polish is made up of **two
+> things, not just one.** The first would be the **attractiveness**: how much you can make the
+> artifact eye-catching. And the second is... **everyone tries to make things understandable to other
+> people. We add labels and tags if we're an engineer. We build in metaphor as an artist that's
+> understandable across domains. I think that's the second piece.** We also all layer in this
+> **translatable** layer.
+
+|  | what it is for | what it looks like |
+|---|---|---|
+| **attraction** | being *attended to* | contrast, rhythm, the punchy opener, the confident frame, the acronym that signals membership |
+| **translation** | being *understood* | labels and tags, section structure, worked examples, metaphor that carries across domains, the sentence that says what the next paragraph is about |
+
+**Why this matters more than a definitional tidy-up.** The two have **different causes and different
+predictions.** Attraction is a performance aimed at a specific audience on a specific occasion, so
+§3's asymmetry applies to it — held consciously, expensive, and the thing that slips. **Translation is
+aimed at comprehension rather than attention, and there is no obvious reason it should decay the same
+way** — a maker who stops performing does not usually stop labelling.
+
+**And it is where the maker's model of the reader becomes visible.** Translation is
+[`HUMAN_HEURISTICS.md`](HUMAN_HEURISTICS.md) §7's *bard* half made measurable: **structure placed so
+that a reader can descend through it.** *"They want to grab your attention through aesthetic capture,
+and they also want to make it easy for you to ingest the data."*
+
+**Which gives the machine question a sharper form.** The unease around generated text has three
+candidate accounts in this repository now, and **they differ in what they say is missing**:
+
+    broken polish-effort   polish no longer correlates with effort, so a valid inference misfires
+    flattened intent       decisions are dense but reduce to a single terminal value
+    missing translation    the collaborative half is absent -- it takes without giving
+
+**The third is new and it is the most directly measurable of the three**, because translation
+structure is countable in a way that effort and terminal value are not.
+
+**He flags his own uncertainty and it is the right place to flag it:** *"I don't know if they're
+extricable or not."* **If attraction and translation cannot be pulled apart in measurement, this is a
+distinction without an instrument** — and that is the load-bearing test below.
+
+| # | hypothesis | status | notables |
+|---|---|---|---|
+| **PD-29** | Polish separates into attraction and translation | **OPEN, and everything else here depends on it** | **His own doubt is the right one** — if the two cannot be pulled apart in measurement, this is a distinction without an instrument |
+| **PD-30** | Attraction decays across an artifact; translation does not | **OPEN** | §3's asymmetry should apply to **one of the two and not the other**. A within-artifact test that makes the split falsifiable rather than definitional |
+| **PD-31** | Generated text carries attraction but not translation | **OPEN** | **The most directly measurable of the three accounts of the unease**, because translation structure is countable in a way effort and terminal value are not |
+| **PD-32** | Translation structure is denser where the maker expects a distant reader | Across domains, across expertise gaps, across time | **OPEN** | Predicts a specific, checkable interaction rather than a level difference |
+
+**What these add up to.** Nothing is run, and the split is a definitional claim until PD-29 shows the
+two can be separated. **But it repairs a real gap:** §1's definition of polish as *decisions aimed at
+attention* silently excluded everything a maker does to be **understood**, which is most of what an
+engineer's or a teacher's polish consists of. **Under the old definition a heavily-labelled technical
+document reads as low-polish, which is plainly wrong.** The split also makes §3's decay prediction
+sharper rather than weaker — **it should apply to attraction only**, and if it applies to both then
+the split is not carving anything.
+
+## §3. The asymmetry, and why it should exist
 
 **His revision, and it is the substantive contribution here:**
 
@@ -70,7 +127,7 @@ or relaxes into their own register.**
 **This is a falsifiable claim about position within an artifact, and for most of this project's life
 nothing measured position** — every quantity the probe emitted was an artifact-level scalar.
 
-## §3. What the readings actually showed, kept honest
+## §4. What the readings actually showed, kept honest
 
 **The transcript contains both directions and the record should say so rather than tidy it:**
 
@@ -111,7 +168,7 @@ of surface *features* — on one axis, redrafting, which may not vary the perfor
 stated has still never been run, because it asks about depth-side and polish-side quantities
 separately and the test that failed measured neither.**
 
-## §4. Flattened intent — three categories, and the project ran a two-category design
+## §5. Flattened intent — three categories, and the project ran a two-category design
 
 **Logged 2026-08-03 while Gate 3 was still running and before any result was read.** He raised it
 unprompted and chose to log it then precisely so it could not be used to reinterpret Gate 3
@@ -226,7 +283,7 @@ specifications, and machine-text-written-with-purpose was recorded RULED OUT on 
 | **PD-18** | A machine given many aligned motivations reads as more intentional than one given two | **RULED OUT (test) at ten specifications** — died to length and register. **CONTESTED by the curator on grounds of manipulation strength.** The extreme ladder runs 0/2/10/30/60 with length nailed by rejection sampling | `corpora/ladder3`, `FINDINGS.md` |
 | **PD-19** | The effect *accelerates* at the top of the ladder | **OPEN** — and acceleration rather than a straight line would be evidence for TR-13 specifically | ladder3 |
 
-## §5. Leakage — the channel where the automatic decisions live
+## §6. Leakage — the channel where the automatic decisions live
 
 **This is the other half of the polish/depth split, seen from the maker's side.** Polish is held
 consciously and slips. **Leakage is what was never held at all.**
@@ -299,7 +356,7 @@ formalised, already implemented for spatial agents. **This project's version is 
 over artifacts instead of trajectories. Nothing needs inventing; it needs porting to a domain nobody
 has ported it to.**
 
-## §6. Counting decisions from the artifact directly — the programme that died
+## §7. Counting decisions from the artifact directly — the programme that died
 
 **Depth is decisions recoverable, so the obvious instrument counts them from the text. Ten measures
 tried it. All ten died, and they died to the same three things: length, register, and vocabulary.**
@@ -331,7 +388,7 @@ home in the theory folder.** Every row below is a real test with a verdict file.
 has died. **The only signals that survived are read out of the reader** — which is
 [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §6, and it is why the project moved to activations.
 
-## §7. Revision — the one controlled human comparison, and what it moved
+## §8. Revision — the one controlled human comparison, and what it moved
 
 **86 university students, one prompt, three drafts each. Maker, prompt, topic, register and genre all
 fixed by construction, so whatever moves cannot be explained by any of them.** This is the first
