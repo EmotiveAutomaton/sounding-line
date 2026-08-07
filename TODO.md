@@ -323,3 +323,30 @@ GPU.**
 | **V6** | affect decomposition on topic-controlled generated stories | ~4 h |
 
 | **G75 · characterise the induction control's own aggressiveness** ★ | The induction check regresses the measure on *which specifications were drawn*. The held-out ladder draws from a pool of 10; the extreme ladder from a pool of 60. **With six times the regressors the control removes far more, whether or not induction is happening** | **Plant a known effect that is definitely not induced, and see how much each pool size removes.** If a pool of 60 eats a real effect, every induction result on ladder3 is uninterpretable — and it is the control this project trusts most | ~2 h |
+
+## Corpus sourcing — 2026-08-07, the one-maker-many-kinds problem
+
+**Three hypotheses are blocked on the same corpus and it turns out to be genuinely rare rather than
+merely unfound.** The cross-genre authorship literature describes its own data as *"scarce and very
+limited in size"*, and most corpora carrying a "cross-domain" label are cross-**topic** underneath.
+
+| | corpus | kinds | makers | why it may not work |
+|---|---|---|---|---|
+| **C-30** | **CROSSNEWS** | bylined news articles vs the same journalist's social posts | 53 with both in a 40k-row sample; hundreds in full | **SURVEYED, and the survey is the problem.** Articles are fine — median **883 words**, 42% over 1,000. **Posts have a median of 17 words and *none* reach 300.** Usable only as pseudo-documents |
+| **C-31** | **Guardian cross-genre** | opinion articles vs **book reviews**, both ~1,200 words | **13 at best, 5 in the accessible copy** | Under the 20-maker minimum, copyrighted, no clear licence. **But the kinds are comparable in form**, which CROSSNEWS's are not |
+| **C-32** | **CMCC** | blog · email · essay · chat · discussion · interview, crossed with 6 fixed topics | 21 | **Exactly our design** — a deliberately crossed maker × kind matrix. **No download page found**; request-only until proven otherwise. Chat and email are short |
+| **C-33** | longitudinal multi-domain, ~412 authors × {abstracts, blogs, news} | three real kinds | 412 | **Unverified** — repo referenced but not opened, identity method and licence unknown, abstracts likely under 300 words |
+| — | PAN cross-domain attribution (2018–2021) | **DEAD END** | — | *"Cross-domain" means cross-fandom.* Every artifact is fan fiction — same genre, register, audience, purpose. **It varies topic, not kind**, which is the axis the whole hypothesis turns on |
+
+**The objection that applies to CROSSNEWS and not to the Guardian, and it is the important one.** A
+17-word post and an 883-word article do not differ by *kind* in the sense we need — **they differ by
+medium, and length alone separates them completely.** That is the Gate 3 trap: two halves so broadly
+different that almost any measure separates them, so separating them is never evidence. **A kind
+contrast is only informative when the kinds are comparable in form.**
+
+| | the job | cost |
+|---|---|---|
+| **C-30a** | Re-survey CROSSNEWS at 500k rows — 40k rows is 2.7% of it, so a maker's second genre may simply not have appeared | ~20 min |
+| **C-30b** | If pseudo-documents are accepted, **state what changes**: a concatenation of a person's posts is a *sample of their writing in a register*, not a thing they made. **Legitimate for the relation test, illegitimate for anything within-artifact** | design |
+| **C-31a** | Chase the full Guardian corpus, 13 authors. **Fewer makers but a fairer kind contrast** — and it may be the better test despite the size | sourcing |
+| **C-32a** | Write to the CMCC authors. **It is the only corpus found that was built for exactly this question** | an email |
