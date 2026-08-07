@@ -149,7 +149,42 @@ def rel(p: str) -> Path:
     return REPO / p
 
 
+LOCK = REPO / "results" / ".queue.lock"
+
+
+def _claim_lock() -> bool:
+    """Refuse to start if another queue is already running.
+
+    On 2026-08-07 two loops ran concurrently for twelve minutes, both executing the same stage and
+    both writing the same output file. **That is a correctness risk, not a waste of cycles** — the
+    loser's partial write can land on top of the winner's result. A stale lock from a killed process
+    is cleared automatically, because a queue that refuses to start is worse than one that races.
+    """
+    import os                                                         # noqa: PLC0415
+    LOCK.parent.mkdir(parents=True, exist_ok=True)
+    if LOCK.exists():
+        try:
+            pid = int(LOCK.read_text(encoding="utf-8").strip())
+        except (ValueError, OSError):
+            pid = -1
+        alive = False
+        if pid > 0:
+            try:                                                      # Windows: signal 0 is a probe
+                os.kill(pid, 0)
+                alive = True
+            except OSError:
+                alive = False
+        if alive:
+            print(f"another queue is already running as pid {pid}. Refusing to start.")
+            return False
+        print(f"clearing a stale lock from pid {pid}")
+    LOCK.write_text(str(os.getpid()), encoding="utf-8", newline="\n")
+    return True
+
+
 def main() -> None:
+    if not _claim_lock():
+        return
     state: dict = {"started": time.strftime("%Y-%m-%d %H:%M"), "stages": []}
     STATUS.parent.mkdir(parents=True, exist_ok=True)
 
@@ -204,5 +239,15 @@ def main() -> None:
     print(f"status: {STATUS.relative_to(REPO)}")
 
 
+def _release_lock() -> None:
+    try:
+        LOCK.unlink()
+    except OSError:
+        pass
+
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    finally:
+        _release_lock()
