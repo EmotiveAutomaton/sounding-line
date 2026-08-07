@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-07 06:13",
+  "started": "2026-08-07 09:57",
   "stages": [
     {
       "name": "affdim_Qwen2.5-1.5B",
@@ -11,49 +11,37 @@
       "name": "affdim_Qwen2.5-0.5B",
       "why": "how many affective components survive once affect is isolated, Qwen2.5-0.5B",
       "est_minutes": 40,
-      "status": "DONE",
-      "log": "results\\affdim_Qwen2.5-0.5B.log",
-      "minutes": 2.9
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "affdim_pythia-1.4b",
       "why": "how many affective components survive once affect is isolated, pythia-1.4b",
       "est_minutes": 40,
-      "status": "DONE",
-      "log": "results\\affdim_pythia-1.4b.log",
-      "minutes": 1.9
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "affdim_gpt2-medium",
       "why": "how many affective components survive once affect is isolated, gpt2-medium",
       "est_minutes": 40,
-      "status": "DONE",
-      "log": "results\\affdim_gpt2-medium.log",
-      "minutes": 1.7
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "affdim_random",
       "why": "the same count on an UNTRAINED model of identical shape -- the control the SAE literature failed",
       "est_minutes": 40,
-      "status": "DONE",
-      "log": "results\\affdim_random.log",
-      "minutes": 3.1
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "scaling_pythia-1.4b",
       "why": "does the component count track the sample rather than the text, pythia-1.4b",
       "est_minutes": 35,
-      "status": "DONE",
-      "log": "results\\scaling_pythia-1.4b.log",
-      "minutes": 13.8
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "scaling_gpt2-medium",
       "why": "does the component count track the sample rather than the text, gpt2-medium",
       "est_minutes": 35,
-      "status": "DONE",
-      "log": "results\\scaling_gpt2-medium.log",
-      "minutes": 7.6
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "corr48_ladder2",
@@ -61,7 +49,7 @@
       "est_minutes": 8,
       "status": "DONE",
       "log": "results\\corr48_ladder2.log",
-      "minutes": 1.7
+      "minutes": 2.7
     },
     {
       "name": "corr48_ladder3",
@@ -69,7 +57,7 @@
       "est_minutes": 8,
       "status": "DONE",
       "log": "results\\corr48_ladder3.log",
-      "minutes": 1.2
+      "minutes": 2.0
     },
     {
       "name": "corr48_nomaker",
@@ -77,7 +65,7 @@
       "est_minutes": 8,
       "status": "DONE",
       "log": "results\\corr48_nomaker.log",
-      "minutes": 0.7
+      "minutes": 1.0
     },
     {
       "name": "corr48_ladder",
@@ -85,7 +73,7 @@
       "est_minutes": 8,
       "status": "DONE",
       "log": "results\\corr48_ladder.log",
-      "minutes": 1.1
+      "minutes": 1.4
     },
     {
       "name": "corr_ladder2_Qwen2.5-3B",
@@ -163,32 +151,8 @@
       "name": "bits48_ladder",
       "why": "bits of specification recovered from ladder against 48 matched decoys",
       "est_minutes": 30,
-      "status": "DONE",
-      "log": "results\\bits48_ladder.log",
-      "minutes": 6.0
-    },
-    {
-      "name": "bits48_ladder2",
-      "why": "bits of specification recovered from ladder2 against 48 matched decoys",
-      "est_minutes": 30,
-      "status": "DONE",
-      "log": "results\\bits48_ladder2.log",
-      "minutes": 11.8
-    },
-    {
-      "name": "bits48_ladder3",
-      "why": "bits of specification recovered from ladder3 against 48 matched decoys",
-      "est_minutes": 30,
-      "status": "DONE",
-      "log": "results\\bits48_ladder3.log",
-      "minutes": 9.7
-    },
-    {
-      "name": "pan_feat_hard",
-      "why": "342 features on PAN hard style change, the only split where topic is controlled",
-      "est_minutes": 170,
       "status": "RUNNING",
-      "log": "results\\pan_feat_hard.log"
+      "log": "results\\bits48_ladder.log"
     }
   ]
 }

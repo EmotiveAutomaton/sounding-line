@@ -47,8 +47,13 @@ worth keeping even when its conclusion was wrong; the reasoning behind a claim t
 not.
 
 **Under every hypothesis table, a short paragraph saying what those results add up to.** Not how many
-were run. **A first pass at combining them into a claim**, so the section has a conclusion and not
-just a ledger.
+were run. **A first pass at combining them into a claim** — relative strength of the evidence, what
+follows logically, what cannot all be true at once — so the section has a conclusion and not just a
+ledger.
+
+**Whenever a table changes in any way, the paragraph under it is revisited in the same edit.** A new
+row can change what the set implies even when it changes nothing else. **A stale conclusion under a
+fresh table is worse than no conclusion**, because it reads as current.
 
 **Identifiers are stable — never reused, never renumbered.**
 
