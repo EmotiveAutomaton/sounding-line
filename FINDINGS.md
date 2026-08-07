@@ -388,6 +388,48 @@ wrong axis: a student redrafting an assignment three times may not be varying th
 The remaining honest version is within-document variation across artifacts of **different kinds** by
 one maker — which is the same diversity-of-conditions requirement everything else keeps arriving at.
 
+## L8 · How many affective components are there, when nothing is imposed?
+
+**Hypothesis.** *(The curator's.)* The field probes language models for six or seven emotion
+categories because that is what a person can name and read off a face — *"let's not presume we can
+pre-PCA if we can't identify the six. But if a PCA pops out a seventh, that makes the seventh really
+interesting."* If the middle layers hold more structure than seven categories, everyone fitting seven
+labels is fitting too few.
+
+**Research context, and it is the sharpest part.** A literature check across four targeted searches
+found: **Panksepp has never been probed in a language model — zero hits.** And **nobody has run an
+unsupervised decomposition on activations of emotional text without a taxonomy baked in.** Every
+decomposition in the field is applied to vectors *built from a labelled emotion word list*, so the
+taxonomy enters before the maths — which is why they all recover a two-dimensional valence/arousal
+circumplex. They cannot recover anything else. One paper does decompose raw activations at every
+layer, and **never inspects how many components it kept or what they are.**
+
+**What we did.** Took the corpus from the study that found the mid-layer peak, kept **only the
+untouched human Reddit portion** — their other rows were machine-rewritten or synthesised — and
+ignored their labels entirely, since those were assigned by a language model rather than people. Read
+1,200 human utterances at every layer and decomposed with **no taxonomy at all**. The stopping rule
+was fixed before running: keep components whose eigenvalue beats the 95th percentile of eigenvalues
+from shuffled data of identical shape.
+
+**What we found.** **49.3 components in the middle layers**, against 7 for Ekman's six plus neutral.
+Verdict by the pre-registered criterion: **RICHER**.
+
+**What it means — and the caveat is bigger than the result.** **49 is almost certainly not 49
+affective components.** The decomposition ran on raw activations of arbitrary Reddit text, so most of
+that structure is topic, syntax, length and register, not affect. **Nothing in the method isolates
+emotion**, which means the number answers "how many dimensions of structure are in these
+activations" and not the question we asked.
+
+For scale: a Harvard group reports roughly **10–17 effective dimensions** for mid-layer affect using
+affect-specific contrasts — and reports it in passing without following it up. **Theirs is
+affect-isolated and ours is not, so 49 against 17 is not a comparison.** Their number is the better
+evidence for the curator's prediction, and it is sitting unused in someone else's paper.
+
+**Verdict: OPEN, and the method needs a fix before the number means anything.** The unclaimed
+experiment is still unclaimed — but it needs affect isolated without the taxonomy entering first.
+The version that would work: decompose raw activations, then measure **how many components are needed
+to predict the labels**, which uses the labels as a target rather than as a basis.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
