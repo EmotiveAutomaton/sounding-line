@@ -14,7 +14,7 @@
 > **Read this file with that in mind.** Occupied ground is real; a recommendation to abandon a
 > premise because the literature is crowded is not the same finding, and should be treated as my
 > inference rather than the audit's evidence. The replacement architecture is in
-> [`../theory/THREE_LAYERS.md`](../theory/THREE_LAYERS.md).
+> [`../theory/THREE_COGNITIVE_LAYERS.md`](../theory/THREE_COGNITIVE_LAYERS.md).
 
 **2026-08-05.** Three research subagents, briefed to fetch sources rather than trust search snippets
 and to search adversarially. Every claim below is marked **READ** (source opened) or **SNIPPET**

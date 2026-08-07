@@ -77,13 +77,22 @@ perplexity or surface style. Nobody found doing that.
 author spliced in*. **That is not one author's goals shifting across their own piece**, and merging
 them overstated how much of this is pre-empted.
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
-| **HH-1** | Within-artifact variation of polish carries the maker | **SUPPORTED (lit) that the phenomenon exists** — seven years of shared-task baselines at 0.830 on topic-controlled data. **Our own measure of it: REJECTED (test)**, 0 of 313 features | `FINDINGS.md` L7 |
-| **HH-2** | Variance of arbitrary surface features is the right operationalisation | **REJECTED (test).** This is what actually died | `FINDINGS.md` L7 |
-| **HH-3** | Within-artifact variance of **probe activations** carries what surface-feature variance does not | **OPEN, and not pre-empted by anyone** | never run |
-| **HH-4** | Redrafting is the wrong axis; the claim needs artifacts of **different kinds** by one maker | **OPEN.** Same diversity-of-conditions requirement every thread arrives at | corpus does not exist |
-| **HH-5** | Our measure should beat 0.830 on the topic-controlled split before any of this is claimed | **RUNNING** — 342 features on PAN hard | `results/pan_features/` |
+| **lit** | Within-artifact variation of polish carries the maker | **SUPPORTED (READ)** — seven years of shared-task baselines at **0.830** on topic-controlled data | **The phenomenon is real and other people measure it well.** That changes what our null means |
+| **L7** | Variance of arbitrary surface features is the right operationalisation | **REJECTED (test).** 0 of 313 features survive on human text with maker, prompt, topic and register fixed | **This is what actually died** — and the plain average found 12 on the same data, so windowing itself was not the problem |
+| **HH-3** | Within-artifact variance of **probe activations** carries what surface-feature variance does not | **OPEN, and not pre-empted by anyone** | Burstiness does it with perplexity, PAN with surface style. **Nobody found doing it with probe outputs** |
+| **HH-4** | Redrafting is the wrong axis; the claim needs artifacts of **different kinds** by one maker | **OPEN** | A student redrafting an assignment three times **may not vary the performance at all**, which would make L7 uninformative rather than negative |
+| **L11** | Our measure beats 0.830 on the topic-controlled split | **RUNNING** — 342 features on PAN hard | **If we land far below, §1 is about our instrument and not about the phenomenon**, and that is worth knowing plainly |
+
+**What these add up to.** The claim and our measure of it came apart. **A mature field detects
+within-document variation successfully at 0.830 on topic-controlled data, and we found nothing** —
+which points at the instrument rather than the hypothesis, and this file previously got that backwards.
+**Two candidate faults, both fixable, neither tested:** the operationalisation may be wrong (variance
+of arbitrary surface features is not obviously where a performance lives) or the axis may be wrong
+(redrafting may not vary the performance at all). **HH-3 is the version nobody has pre-empted** —
+variance of *probe activations* rather than of perplexity or surface style — and it is the only route
+here that is both untried by the field and untried by us.
 
 ### What this retires
 
@@ -107,7 +116,7 @@ effect and declines to claim even that.
 > that I can't find an explanation for.**
 
 Then it runs purpose→method **and** method→purpose, with the entry point set by wherever he has
-partial expertise — which is [`THE_TRIANGLE.md`](THE_TRIANGLE.md) §2's enter-at-any-sub-level claim
+partial expertise — which is [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) §2's enter-at-any-sub-level claim
 described from the inside.
 
 **His own discomfort, recorded because he raised it:** *"I hate that a lot of this is me picking out
@@ -119,11 +128,18 @@ cause*, so the maker's response to it is a decision with its alternatives visibl
 the mistake — the mistake, and the way the author can be presumed to have responded to it, is one of
 the more useful pieces of information once you have observed it."*
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
-| **HH-6** | Entering at the anomaly beats entering at the whole artifact | **OPEN.** The machinery exists — `bounded_v6` has a stage zero that runs the anomaly pass first and feeds stage A. **It is content-hash locked, opt-in, and has never been the live path.** So this is a flag flip and a comparison, not a build | `soundingline/loop/run.py`, `anomaly_pass` |
-| **HH-7** | Local decision density around a mistake exceeds baseline | **OPEN.** Needs mistakes located first, which nothing does | — |
-| **HH-8** | Stage ordering changes the answer | **REJECTED (sim)** — by exactly zero. Anomaly-first settles ~5% sooner. **A cost saving, which weakens HH-6's expected size before it is run** | sim S-4/S-5 |
+| **HH-6** | Entering at the anomaly beats entering at the whole artifact | **OPEN** | **The machinery exists and has never been the live path** — `bounded_v6`'s stage zero runs the anomaly pass first and feeds stage A. A flag flip and a comparison, not a build |
+| **HH-7** | Local decision density around a mistake exceeds baseline | **OPEN** | Needs mistakes *located* first, and nothing does that. **A mistake is an anomaly with a known cause**, which is what makes it more tractable than an anomaly |
+| **S-4/S-5** | Stage ordering changes the answer | **REJECTED (sim)** — by exactly zero; anomaly-first settles ~5% sooner | **This weakens HH-6's expected size before it is run.** Honest prediction: a cost saving, not a finding |
+
+**What these add up to.** The entry-point claim is cheap to test and **the simulation has already
+lowered what we should expect from it** — reordering the probe's stages changed the answer by exactly
+zero, and only the cost moved. **So HH-6 is worth running to close the question rather than to open
+one.** The more interesting row is HH-7, because a mistake is an anomaly whose *cause is known*, which
+means the maker's response to it is a decision with its alternatives visible — **the only place in
+this file where we could see a decision and its counterfactual at the same time.**
 
 ## §3. Confidence in a maker moves while reading
 
@@ -136,9 +152,16 @@ number.
 information is, and we have only ever kept means. **The same 2025 result that found document-level
 mean pooling best is evidence against both.**
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
-| **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN.** Score windows sequentially and keep the series | never run |
+| **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN.** Score windows sequentially and keep the series | **Every reading this project records is a final number**, so the series has never existed to be checked |
+
+**What this adds up to.** One row, never run, and it shares a fate with §1: **both say the
+within-artifact *series* is where the information is, and we have only ever kept means.** The one
+piece of external evidence bears against both — a 2025 study of hidden states as author
+representations found document-level mean pooling best. **That is not decisive, because it was
+optimising for author identity rather than for maker state**, but it is the reason neither row should
+be run expecting a large effect.
 
 ## §4. Depth is a property of the writer **with respect to the domain**
 
@@ -151,9 +174,16 @@ an attribute — and it arrived with its own falsifier attached: *depth moves wh
 a controlled human corpus. **This says why that is fatal rather than inconvenient: a relation cannot
 be measured by varying one side.** Every measure that has died, died reading artifacts alone.
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
-| **HH-10** | Depth measured on one maker moves when the domain moves and not otherwise | **OPEN, and blocked on a corpus we do not have** — artifacts by one maker spanning two domains, one where they are expert and one where they are not. **Previously written up here as "directly runnable"; that was wrong. It is directly *specifiable*, and nothing we hold supplies it** | corpus does not exist |
+| **HH-10** | Depth measured on one maker moves when the domain moves and not otherwise | **OPEN, blocked on a corpus we do not have** | **Previously written up as "directly runnable". That was wrong** — it is directly *specifiable*, and nothing we hold supplies it |
+
+**What this adds up to, and it is the most consequential row in the file.** Making depth a *relation*
+rather than an attribute explains why the corpus problem is fatal rather than inconvenient: **a
+relation cannot be measured by varying one side, and every measure that died, died reading artifacts
+alone.** The falsifier came attached to the claim — *depth moves where domain moves* — which is rare
+and makes this cheap to settle the moment the corpus exists. **It is the same corpus HH-4 needs, and
+the same one three sections of the empathy triangle need.**
 
 ## §5. Process is hierarchical, and you can enter the decode at any level
 
@@ -187,11 +217,19 @@ Nobody in that convergence argues three is forced; they argue three is *useful*.
 
 ### This is where we collide with the literature, and the collision is the contribution
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
-| **HH-11** | Entry is possible at any of the three levels and ratchets to the others | **CONTESTED (lit, READ).** Bullot & Reber assert a **strict ordering** — the design stance is *"requisite for"* artistic understanding. The BBS commentaries attacked precisely the relations among their modes. **This contradiction is our contribution surface** | `../method/LITERATURE_AUDIT.md` |
-| **HH-12** | Bullot & Reber's framework is well supported | **REJECTED (lit, READ-FULL).** Chmiel & Schubert tested its core prediction across 34 experiments in 23 publications: **26% support, 18% inconclusive, 56% no support.** An occupied lot with a shaky building on it | same |
-| **HH-13** | Supplying **mechanics-level** information unlocks goal recovery | **OPEN, and it is the missing direction in the whole edge programme.** Every edge tested so far supplies a goal or a process; **none has ever supplied a mechanic** | never run. Same as `THE_TRIANGLE.md` TR-22 |
+| **lit** | Entry is possible at any of the three levels and ratchets to the others | **CONTESTED (READ)** | **Bullot & Reber assert a strict ordering** — the design stance is *"requisite for"* artistic understanding — and the open peer commentary attacked precisely the relations among their modes. **This contradiction is our contribution surface** |
+| **lit** | Bullot & Reber's framework is well supported | **REJECTED (READ-FULL)** | Chmiel & Schubert, 34 experiments across 23 publications: **26% support, 18% inconclusive, 56% no support.** An occupied lot with a shaky building on it |
+| **G56** | Supplying **mechanics-level** information unlocks goal recovery | **OPEN, and it is the missing direction in the whole edge programme** | **Every edge tested so far supplies a goal or a process. None has ever supplied a mechanic.** Same row as the empathy triangle's G56 |
+
+**What these add up to.** We disagree with the only framework that occupies this ground, **and that
+framework is weakly supported by its own field's replication record** — so the collision is worth
+taking rather than conceding. **The disagreement is specific and testable**: they say the design
+stance is a prerequisite, we say entry is possible anywhere and ratchets. **G56 is the experiment,
+and it has never been run in either direction by anyone.** The formal home for our side is one we have
+never read — **Rasmussen's abstraction hierarchy**, five levels with explicit means-ends links, built
+for diagnosis *from any level*, forty years of use.
 
 **The formal match we have never looked at is Rasmussen's abstraction hierarchy** — five levels with
 explicit means-ends links, built for diagnosis **from any level**, forty years of use. **That is a
@@ -228,11 +266,19 @@ sits on one side of it.**
 **His "ordered but unexplained" is close to effective complexity** — structure that is neither random
 nor trivially regular. **That is a real, formalisable quantity and it is the better formal target.**
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
-| **HH-14** | Reader-reported interest correlates with unrecovered decisions | **OPEN, and blocked on him.** Interest ratings on his fifteen read artifacts. **An hour of his time, and it uses the one channel that has beaten every measure we own** | owed |
-| **HH-15** | Berlyne's collative variables support the interest claim | **REJECTED (lit, READ).** The arousal theory is mostly abandoned | one fetch found it |
-| **HH-16** | "Ordered but unexplained" is effective complexity rather than entropy | **OPEN.** Operationalise it and check it is not just entropy | never run |
+| **HH-14** | Reader-reported interest correlates with unrecovered decisions | **OPEN, blocked on him.** Interest ratings on his fifteen read artifacts | **An hour of his time, and it turns the one channel that has beaten every measure we own into data** |
+| **lit** | Berlyne's collative variables support the interest claim | **REJECTED (READ)** | *"Berlyne's arousal theory of aesthetic appreciation has been mostly abandoned."* **One fetch found this after fifteen searches had not** — the vocabulary survives, the mechanism does not |
+| **HH-16** | "Ordered but unexplained" is effective complexity rather than entropy | **OPEN** | Effective complexity is a real formalisable quantity — **neither random nor trivially regular** — and it is a better target than the vocabulary we borrowed |
+
+**What these add up to.** The idea is intact and the support I first gave it was wrong. **Interest as
+a proxy for *unrecovered decisions* is the only claim in this project that turns the reader into an
+instrument**, and it costs an hour rather than a corpus. Its formal home is effective complexity, not
+Berlyne — **and the live debate in the field runs the opposite way**, with processing-fluency accounts
+locating pleasure in *ease* rather than in unresolved structure. **That tension is not a problem for
+the claim; it is the thing HH-14 would adjudicate**, because the two accounts predict opposite
+correlations between interest and recoverability.
 
 ## §7. Aesthetics was the cheat, and AI broke it
 
@@ -251,32 +297,15 @@ higher when told more effort went in, more so when quality is ambiguous. The lit
 that as an adversarial reading of depth — a bias in the reader. **On his account it is not a bias. It
 is a normally-valid inference that a new kind of artifact has broken.**
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
-| **HH-17** | The polish–effort correlation is strong in human corpora and near zero in generated ones | **OPEN, and the corpora are already held.** Needs an effort proxy, which is the part nobody has specified | never run |
-| **HH-18** | The effort heuristic is a valid inference broken by a new artifact class, not a reader bias | **OPEN**, and it follows from HH-17 rather than standing alone | — |
+| **HH-17** | The polish–effort correlation is strong in human corpora and near zero in generated ones | **OPEN, and the corpora are already held** | **Needs an effort proxy, which is the unspecified part** — and effort is exactly the quantity automaticity makes unobservable |
+| **HH-18** | The effort heuristic is a valid inference broken by a new artifact class, not a reader bias | **OPEN**, and it follows from HH-17 | **The reframe is the contribution.** The literature calls it a bias in the reader; this calls it a normally-valid inference that something new has broken |
 
----
+**What these add up to.** Both rows rest on being able to measure **effort**, and nothing in this
+project can. That is not an oversight — **automaticity makes effort unobservable by construction**,
+which is the same fact that makes the polish/depth asymmetry work and the same fact that puts values
+in the residue rather than the signal. **So the sharpest testable claim in this file is blocked on the
+quantity the rest of the theory says is hidden**, and any proxy we adopt will need its own defence
+before HH-17 means anything.
 
-## What this file says to do next
-
-**Cheapest, and it is a flag flip rather than a build:**
-
-1. **HH-6 — entering at the anomaly.** `bounded_v6`'s stage zero already exists and has never been the
-   live path. Run the comparison. **Temper the expectation first: the simulation says ordering changes
-   the answer by exactly zero, so the honest prediction is a cost saving.**
-
-**Blocked on him, and worth more than anything above:**
-
-2. **HH-14 — interest ratings on the fifteen artifacts.** One hour, and it turns the only instrument
-   that has ever beaten our measures into data.
-
-**Blocked on a corpus that does not exist:**
-
-3. **HH-4 and HH-10** — one maker across different *kinds* of artifact, and across two domains. **These
-   are the same corpus, and it is the same one every other thread in this folder arrives at wanting.**
-
-**Running:**
-
-4. **HH-5** — 342 features against the field's topic-controlled bar of 0.830. **If we are far below it,
-   §1 is about our instrument and not about the phenomenon, and that is worth knowing plainly.**

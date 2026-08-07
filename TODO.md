@@ -247,3 +247,30 @@ its own right whenever we take on a published result.
 | **G54 · every drive partially satisfied** | Values are the constraint that all active drives are partially satisfied at once, not a separate factor | A build, in the parent simulation | a build |
 | **G55 · diversity vs expertise** | Motivational diversity rises with expertise while agreement about purpose stays flat | **Must survive a difficulty control — neither of the two attempts so far would have.** G49 depends on this: if expertise does not move decisions into drives, the residue of expertise is not where values live | ~2 h |
 | **G57–G59 · the untested edges** | Prior information at any vertex improves recovery at the others; entry is possible at any sub-level; closeness is a prior held before the artifact is seen | **One edge of six has ever been measured.** G59 is the only place in the theory where the reader's prior relationship does the work rather than the text | ~2 h each |
+
+## The alignment claim — all unsearched
+
+**Same identifiers as `docs/theory/ALIGNMENT.md`. Nothing here has been checked against anything.**
+
+| | the claim | the test | cost |
+|---|---|---|---|
+| **AL-4 · the manipulation shortcut** ★ | Making humans easier to read — simpler, more predictable, more uniform — lowers uncertainty, so **manipulation is *closer* under a naive reading of the objective** | **Do this first.** It is cheap to reason about and fatal if right, and it is the same structure as this project's own recurring error: an instrument that optimises a proxy destroys the thing. **A proposal that dies to its own second failure mode does not need a priority search** | reasoning, then formal |
+| **AL-1 · is the balanced sum novel?** | The terminal value as epistemic + pragmatic value avoids the failure mode that bites *learn W then maximise W* | Literature sweep: assistance games, cooperative IRL, value learning under uncertainty, active preference elicitation, active inference. **None fetched.** He has since said he believes most components are already occupied | research |
+| **AL-5 · anti-capture** | Value capture fails structurally because no subgroup can satisfy the appetite for evidence | **Social choice usually argues the opposite** — aggregation is where alignment gets hard. **A collision worth finding** | research |
+| **AL-6 · does narrowing raise residual uncertainty?** | Formal version of AL-5 in a toy model | The only row that could be settled without a literature pass. Parent simulation | sim |
+| **AL-3 · instrumental intrusion** | An unbalanced information-maximiser has an incentive to experiment on people | Not answerable by a side-constraint — **side-constraints are what this design exists to avoid needing** | reasoning |
+
+## From the human-heuristics and polish files
+
+| | the claim | the test | cost |
+|---|---|---|---|
+| **PD-28 · polish or depth?** ★ | The within-author revision effect is polish, not depth | **The highest-value unrun row in `POLISH_AND_DEPTH.md`.** 5,834 revisions are hand-labelled Surface or Content at 0.71–0.92 agreement. **If it survives among Content-only revisions, that is a depth signal on human text and the first one** | ~2 h |
+| **PD-1 · the definitional test** | Depth-side quantities vary less across position than polish-side quantities | Never run as stated — the test that failed measured neither density separately. **If both move equally the distinction is not real** | ~2 h |
+| **PD-3 · flat polish as the machine signature** | Machine artifacts show polish that does not move across position | **Sharper than any depth-based discriminator and needs no quality judgement** | ~2 h |
+| **PD-15 · attention dwell** | Text spent past what the argument needs is measurable | The LUST signature and the second leakage channel at once. **Needs a model of argumentative need**, which is the unbuilt part | design first |
+| **HH-3 · variance of probe activations** | Within-artifact variance of *activations* carries what surface-feature variance does not | **Burstiness does it with perplexity, PAN with surface style, nobody with probe outputs.** The only route here untried by both the field and us | ~2 h GPU |
+| **HH-6 · enter at the anomaly** | Entering at the anomaly beats entering at the whole artifact | **A flag flip, not a build** — `bounded_v6`'s stage zero exists and has never been live. **Temper the expectation: the simulation says ordering changes the answer by exactly zero** | ~1 h |
+| **HH-14 · interest ratings** ★ | Reader-reported interest correlates with unrecovered decisions | **An hour of his time, and it turns the one channel that has beaten every measure we own into data.** It also adjudicates between his account and processing-fluency, which predict opposite correlations | his hour |
+| **HH-16 · effective complexity** | "Ordered but unexplained" is effective complexity rather than entropy | Operationalise and check it is not just entropy | ~1 h |
+| **HH-17 · polish against effort** | The polish–effort correlation is strong in human corpora and near zero in generated ones | **Blocked on an effort proxy, and automaticity makes effort unobservable by construction** — the same fact that puts values in the residue. Any proxy needs its own defence first | design first |
+| **G67 · the teacher assumption on generated text** | Readers grant intention-to-help to generated text, and that is why it misleads | **A claim about readers, not models.** Different from the polish–effort account, and the two predict different things when provenance is disclosed | ~2 h |

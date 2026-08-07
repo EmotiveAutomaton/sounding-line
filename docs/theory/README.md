@@ -61,8 +61,8 @@ fresh table is worse than no conclusion**, because it reads as current.
 
 | | |
 |---|---|
-| **[THE_TRIANGLE.md](THE_TRIANGLE.md)** | **the empathy triangle** — intent extraction as a triple inference over goal, process and drives. The core claim; everything else is downstream. Also holds what values are, and the disagreement with the impossibility literature |
-| **[THREE_LAYERS.md](THREE_LAYERS.md)** | the affective architecture a model is trying to reconstruct, and where the reconstruction fails. **Carries the project's largest live worry: whether the structure is there at all** |
+| **[THE_EMPATHY_TRIANGLE.md](THE_EMPATHY_TRIANGLE.md)** | **the empathy triangle** — intent extraction as a triple inference over goal, process and drives. The core claim; everything else is downstream. Also holds what values are, and the disagreement with the impossibility literature |
+| **[THREE_COGNITIVE_LAYERS.md](THREE_COGNITIVE_LAYERS.md)** | the affective architecture a model is trying to reconstruct, and where the reconstruction fails. **Carries the project's largest live worry: whether the structure is there at all** |
 | **[POLISH_AND_DEPTH.md](POLISH_AND_DEPTH.md)** | two decision densities, split by what the decision targets. Absorbs `FLATTENED_INTENT.md` and `LEAKAGE.md` |
 | **[HUMAN_HEURISTICS.md](HUMAN_HEURISTICS.md)** | the tricks a person uses when the maker is absent. **Candidate feature-extracting amplifiers**, not a method we expect to depend on |
 | **[ALIGNMENT.md](ALIGNMENT.md)** | the terminal value as the balanced sum of seeking and acting. The one claim that does not depend on the rest |

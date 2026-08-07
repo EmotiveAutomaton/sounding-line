@@ -20,7 +20,7 @@ that was a disappointment, and it is recorded as one rather than obscured.**
 
 **What the existing work does not supply is the third component: the extraction mechanism itself** —
 something that actually recovers a maker's goals, process and drives from what they produce, and gets
-better at it with more and more varied evidence. **That is [`THE_TRIANGLE.md`](THE_TRIANGLE.md) and
+better at it with more and more varied evidence. **That is [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) and
 [`HUMAN_HEURISTICS.md`](HUMAN_HEURISTICS.md), and it is what this repository is building.**
 
 **Our own literature check is still owed.** Everything below was recorded in his words and dated
@@ -52,7 +52,7 @@ and the system asks rather than acts.
 
 > **The balance is not a safety constraint bolted on. It falls out of surprise minimisation.**
 
-**And this is why the limit framing in [`THE_TRIANGLE.md`](THE_TRIANGLE.md) §8 is load-bearing rather
+**And this is why the limit framing in [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) §8 is load-bearing rather
 than a hedge.** Values are approached through inference with error and never certainly attained. **A
 design whose objective already contains its own uncertainty does not need the limit to be reached. It
 is correctly specified at every point along the way.**
@@ -133,15 +133,22 @@ this proposal requires: the part that does the approaching.**
 
 **Every row is unsearched. That is the point of the file and also its largest weakness.**
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
-| **AL-1** | Making the terminal value the *balanced sum* avoids the failure mode that bites "learn W then maximise W" | **OPEN, unsearched.** Nearest literatures: assistance games, cooperative IRL, value learning under uncertainty, active preference elicitation. **None fetched** | — |
-| **AL-2** | Epistemic value alone is safe and useless | **OPEN.** My first write-up, which he corrected as exactly half the argument | — |
-| **AL-3** | An unbalanced information-maximiser has an incentive to experiment on people | **OPEN, and it is failure mode 1** | — |
-| **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and the one to take most seriously** | — |
-| **AL-5** | Value capture fails structurally, because no subgroup can satisfy the appetite for evidence | **OPEN, unsearched.** Social-choice work on value aggregation usually argues the *opposite* — that aggregation is where alignment gets hard. **A collision worth finding** | — |
-| **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment | scoped in `../sim/` |
-| **AL-7** | The instrument this project is building *is* the seeking apparatus this proposal requires | **OPEN, and it is why this file lives here** | — |
+| **AL-1** | Making the terminal value the *balanced sum* avoids the failure mode that bites "learn W then maximise W" | **OPEN, unsearched** | Nearest literatures — assistance games, cooperative IRL, value learning under uncertainty, active preference elicitation. **None fetched.** He has since said he believes most components are already occupied |
+| **AL-2** | Epistemic value alone is safe and useless | **OPEN** | My first write-up, **which he corrected as exactly half the argument** |
+| **AL-3** | An unbalanced information-maximiser has an incentive to experiment on people | **OPEN** | Failure mode 1, and **not answerable by a side-constraint** — side-constraints are what this design exists to avoid needing |
+| **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and the one to take most seriously** | **Same structure as this project's own recurring error** — an instrument that optimises a proxy destroys the thing. We have watched it happen ten times at small scale |
+| **AL-5** | Value capture fails structurally, because no subgroup can satisfy the appetite for evidence | **OPEN, unsearched** | **Social-choice work on value aggregation usually argues the opposite** — that aggregation is where alignment gets hard. A collision worth finding |
+| **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment | The only row here that could be settled without a literature pass |
+| **AL-7** | The instrument this project is building *is* the seeking apparatus this proposal requires | **OPEN** | **It is why this file lives in this repository** rather than in a notebook |
+
+**What these add up to.** **Nothing here has been checked against anything, and that is the file's
+defining fact.** The seven rows are not independent: AL-1 is the claim, AL-2 and AL-3 are the halves
+it is built from, AL-4 and AL-5 are the two attacks that would kill it, and AL-6 and AL-7 are what it
+would take to build. **The ordering that matters is that AL-4 is cheap to reason about and fatal if
+right, while AL-1 needs a literature sweep before it can even be stated as novel.** Do AL-4 first —
+**a proposal that dies to its own second failure mode does not need a priority search.**
 
 ---
 

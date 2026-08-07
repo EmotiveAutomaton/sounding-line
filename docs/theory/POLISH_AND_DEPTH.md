@@ -90,13 +90,15 @@ performance is what changes, whatever direction it changes in.**
 
 **The decay-specifically claim is a second, sharper one and it needs the first to hold first.**
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
 | **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **OPEN.** *If both move equally, the distinction is not real and this document is wrong* | never run as stated |
 | **PD-2** | Polish decays across an artifact specifically, rather than merely moving | **OPEN**, and depends on PD-1 | — |
 | **PD-3** | Machine artifacts show **flat polish across position**, because there is no maker to tire and no natural register to drift toward | **OPEN, and it is the sharper prediction:** the signature of the machine is not thin depth but **a polish that does not move** | never run |
 | **PD-4** | Polish variance is **larger in less practised makers**, since an expert has partly automatised the performance too | **OPEN.** The one prediction that cuts against a naive reading where expertise means more of everything | never run |
-| **PD-5** | Practised polish decays faster than depth | **SUPPORTED (sim)** — **6.5× faster**, and synthetic polish is **flat**, which is PD-3's direction | sim S-6 |
+| **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** — **6.5× faster**, and synthetic polish is **flat** | **Synthetic polish being flat is PD-3's prediction arriving from a different direction**, and it is the only support the machine-signature claim has |
+
+**What these add up to.** The asymmetry is a prediction with a mechanism behind it — automaticity makes content decisions cheap and leaves performance expensive — **and the only thing that has tested it is a simulation of a constructed emitter.** PD-1, the definitional test, has still never been run, because the measurement that failed on human text measured neither density separately. **So the definitions in §1 are undamaged by that null and remain unexamined.** The row worth noticing is PD-3: **the machine signature it predicts is not thin depth but a polish that does not move**, which needs no quality judgement and no human baseline.
 
     Timeline on the polish-variance idea. Predicted from automaticity; supported in simulation at
     6.5x; then measured on real text as within-artifact variance of 342 linguistic features and found
@@ -177,13 +179,15 @@ value* to which all instrumental decisions reduce. Whether that value is always 
 claim this project is not positioned to make, and the instrument should measure **singularity of
 terminal value**, not presence of a profit motive.
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
 | **PD-6** | Commercial work shows **higher** purpose agreement than individual work, not lower | **OPEN, and pre-registered before Gate 3** | Gate 2 is suggestive and was read many times, so it cannot serve as the test |
 | **PD-7** | Commercial work shows **lower purpose breadth** than individual work | **INSTRUMENT DEAD (sim, twice).** `purpose_breadth` tracks **how hard the goal is to recover**, not variety of purpose. **This was the sharp prediction and its measure is gone** | sim T-2, T-9 |
 | **PD-8** | Commercial decision density is **not** systematically lower than individual | **OPEN** | never isolated |
 | **PD-9** | Machine text shows **low agreement AND low breadth** — no coherent maker-state to converge on, as against a flattened one | **OPEN** | never run |
-| **PD-9b** | Half A of a web corpus contains more recoverable method than half B *(the project's primary for a month)* | **VOID (test), twice over.** Its stability check failed — variation *within* an artifact was **nine times** the difference *between* halves — and the statistic it used reads a large number where the truth is zero and is undefined in most cases. **And independently: 76 features separate the two halves**, meaning they differ so broadly that almost any measure would. **Separating them was never evidence of anything** | `results/gate3`, sim S-1 |
+| **G3** | Half A of a web corpus contains more recoverable method than half B *(the project's primary for a month)* | **VOID (test), twice over** | Its stability check failed — within-artifact variation was **nine times** the between-halves difference — and the statistic reads a large number where the truth is zero. **Independently, 76 features separate the two halves**, so almost any measure would. **Separating them was never evidence of anything** |
+
+**What these add up to.** The reframe is better supported than any of its measures. **Three categories rather than two — individual, corporate, machine — explains a Gate 2 result that was recorded as a failure**, because immediately-reconstructable motivation *should* produce high agreement between independent readings. But that cannot be claimed retrospectively, the sharp prediction's instrument turned out to be a difficulty meter, and the corpus it was tested on has been read too many times to test anything again. **What survives is a better description of what the instrument should report** — *whether a maker's terminal value is singular or layered* — which is more defensible than either detection or intent-density, and has never been built.
 | **PD-10** | Singularity of terminal value is measurable at all | **OPEN, and it is the successor instrument.** Needs a corpus this project has not seen; refitting to the 51 artifacts already read would be unfalsifiable | — |
 
 ### Dense polish as concealment — the predicted inversion
@@ -209,14 +213,14 @@ value produces thin depth, and the polish is what covers for it.
 > other that are all reasonably capable of aligning, against a machine writing with just one or two.
 
 **This is the mirror of §4.** Flattened intent is *one* terminal value; this asks what happens at the
-opposite end. **And it is [`THE_TRIANGLE.md`](THE_TRIANGLE.md) TR-13 restated as an experiment** —
+opposite end. **And it is [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) TR-13 restated as an experiment** —
 *all goals partially satisfied at once* is exactly what three pages of aligned motivations produces.
 
 **His specific complaint is that our manipulation was too weak**: the ladder tops out at ten short
 specifications, and machine-text-written-with-purpose was recorded RULED OUT on that basis. **He is
 5 for 5 on methodology, so the prior says take it seriously.**
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
 | **PD-17** | Commercial work shows high polish density with low depth density | **OPEN**, and blocked on PD-1 — the two densities have never been measured separately | the 26% number is suggestive, not a test |
 | **PD-18** | A machine given many aligned motivations reads as more intentional than one given two | **RULED OUT (test) at ten specifications** — died to length and register. **CONTESTED by the curator on grounds of manipulation strength.** The extreme ladder runs 0/2/10/30/60 with length nailed by rejection sampling | `corpora/ladder3`, `FINDINGS.md` |
@@ -263,15 +267,17 @@ cross-linguistic study argues the limits of deception detection from text are re
 ones, the ones the maker never noticed making — has a measurement channel this project spent a long
 time not using. **The essay already said the automatised decisions count; nothing ever counted them.**
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
 | **PD-11** | Function words carry maker *state*, not only identity | **AMBIGUOUS (test), and this project has been recording it as a clean negative.** With purpose and topic **fixed by construction**, function-word style separates four specified affect states at **45% against 25% chance — 1.80×, binomial *p* = 0.0047, 2.92 sd above chance.** The pre-registered pass needed 2.0×. **The threshold was missed; the effect is significant.** Per-affect: care 60%, seeking 50%, rage 40%, fear 30% | `results/d0b` |
 | **PD-11b** | The first attempt at PD-11 answered its own question | **VOID (test).** It ran at 38% power — its median outcome under a real effect was below its own threshold | `results/leakage` |
 | **PD-12** | Function words have spare capacity beyond author identity | **SUPPORTED (test).** Holding the author fixed, they separate *different works by the same person* at **twice chance**, every one of ten authors above chance | `FINDINGS.md` tier 2 |
 | **PD-13** | Asking a model *"what stance is performed"* reaches the leaked layer | **REJECTED by construction.** It returns a content-word judgement, so it is an **emblematic** instrument on both its outputs. **The leaked layer needs a different kind of measurement, not a differently-worded prompt** | — |
-| **PD-14** | Reading the model's activations reaches the leaked layer where its text does not | **SUPPORTED (test), and it became the live path.** *The model's activations are closer to the leaked layer than its outputs are — its text is emblematic, its internals are dimensional.* This is the low-order/high-order ratio in [`THREE_LAYERS.md`](THREE_LAYERS.md) §6 | `FINDINGS.md` L1 |
-| **PD-15** | Attention dwell past argumentative need is measurable | **OPEN.** Nothing built. Also the LUST signature in [`THREE_LAYERS.md`](THREE_LAYERS.md) §3 | — |
-| **PD-16** | Cognitive-load signatures leak despite narrative management | **OPEN** — never tested here | — |
+| **PD-14** | Reading the model's activations reaches the leaked layer where its text does not | **SUPPORTED (test), and it became the live path.** *The model's activations are closer to the leaked layer than its outputs are — its text is emblematic, its internals are dimensional.* This is the low-order/high-order ratio in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §6 | `FINDINGS.md` L1 |
+| **PD-15** | Attention dwell past argumentative need is measurable | **OPEN.** Nothing built. Also the LUST signature in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §3 | — |
+| **PD-16** | Cognitive-load signatures leak despite narrative management | **OPEN** — never tested here | Reduced concrete detail, oversimplification, generalisation. **A 2025 cross-linguistic study argues the limits of deception detection from text are real and structural — take the features, not the promise** |
+
+**What these add up to, and it is the file's clearest reversal of expectation.** The cheap route was tried first and failed; the expensive route worked. **Function words were sixty years of validation, no GPU, and available immediately — and they carried identity but not state.** Reading the model's activations needed machinery we did not have, and produced the project's only replicated effect. **The lesson is not that cheap routes are bad but that a channel validated for one quantity is not thereby validated for another** — authorship attribution works, and that says nothing about whether the same channel carries maker *state*. The one row that has never been touched is PD-15, **attention dwell**, which is simultaneously the LUST signature and the second leakage channel, and which needs a model of argumentative need that nobody has built.
 
     Timeline on the leaked layer. Function words proposed as the cheap operationalisation; the first
     run was underpowered and VOID; the redo with purpose and topic fixed came back at 1.80x chance,
@@ -301,14 +307,16 @@ tried it. All ten died, and they died to the same three things: length, register
 **This section exists because it is the largest block of work this project has done and it had no
 home in the theory folder.** Every row below is a real test with a verdict file.
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
 | **PD-20** | Decision density can be counted from an artifact | **REJECTED (test).** It was word count (0.88); after correcting for that it was vocabulary diversity (−0.88). **Two confounds in sequence, and nothing left underneath** | `results/gate1`, `results/gate2` |
 | **PD-21** | Published linguistic features track how much intent was specified, once machine-detectors are removed | **REJECTED (test).** 342 features → 89 → **81 replicated** → 20 that are not machine-detectors → 6 that do not echo → **3 that survive length** → **0 that survive the induction check** | `FINDINGS.md` L2, `results/feature_sweep` |
 | **PD-22** | Causal connectives track depth | **REJECTED (test).** Ranked the ladder cleanly with no echo, then **inverted on humans** — machines use nearly twice as many. **It measures explicitness, not depth** | `results/` |
 | **PD-23** | A larger feature bank beats a small curated set | **REJECTED (sim).** Ten hand-picked features reach near-perfect on the hardest cases; sixty more from a generic bank gain little on average and **lose more in the worst case** | sim T-8 |
 | **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, with a warning.** Stacking effects that share a confound produces a **strong confound**, and a stylometric stack already reaches F1 ≈ 0.99 on machine-text detection. **The ladder is the only thing that tells the difference, because a machine detector must see all five rungs as identical** | `FINDINGS.md` L4 |
-| **PD-25** | No measure reads noise as maximum intent | **SUPPORTED (test).** Word-salad scored as a rung below the least-specified rung: **nothing places noise at or above the most-specified rung.** A failure mode we do not have | `results/rung_minus1` |
+| **rung −1** | No measure reads noise as maximum intent | **SUPPORTED (test)** | Word-salad scored below the least-specified rung. **A failure mode we do not have** — and the only ceiling control in the project |
+
+**What these add up to.** **Ten measures read the artifact directly and all ten died, to length, register or vocabulary in that order.** The pattern is not that the measures were bad; it is that every property of a text that correlates with intent also correlates with something cheaper, and the cheaper thing wins. **The funnel is the durable product** — 61 of 81 replicated features were machine detectors, and without that filter this project would have adopted the solved problem as its result. **The artifact-side route is closed for now**, which is why the only surviving signals are read out of the reader.
 
     Timeline on counting decisions. Counted directly and it was length; corrected for length and it
     was vocabulary; replaced with a 342-feature bank screened against the ladder, which produced 81
@@ -321,7 +329,7 @@ home in the theory folder.** Every row below is a real test with a verdict file.
 
 **What this leaves.** The artifact-side route is closed for now: every measure that reads the *text*
 has died. **The only signals that survived are read out of the reader** — which is
-[`THREE_LAYERS.md`](THREE_LAYERS.md) §6, and it is why the project moved to activations.
+[`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §6, and it is why the project moved to activations.
 
 ## §7. Revision — the one controlled human comparison, and what it moved
 
@@ -329,24 +337,14 @@ has died. **The only signals that survived are read out of the reader** — whic
 fixed by construction, so whatever moves cannot be explained by any of them.** This is the first
 controlled comparison on human text in the project's history.
 
-| # | hypothesis | status | evidence |
+| # | hypothesis | status | notables |
 |---|---|---|---|
 | **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test), and it is one coherent thing.** At matched length, revision raises **lexical sophistication** — words longer (+0.06 chars), more polysyllabic, rarer (frequency −0.04), stopwords down 5 per draft, reading difficulty up. Sign agreement 70–78% across 86 authors. **A single factor under six names** | `FINDINGS.md` L5 |
 | **PD-27** | That effect is length | **REJECTED (test), and the trap fired as pre-registered.** Raw: 94 of 325 features survive, every one a *count*. Length-matched: **17 of 315**, and none of them counts | same |
-| **PD-28** | The surviving effect is **polish**, not depth | **OPEN, and the corpus can settle it.** 5,834 revisions are hand-labelled Surface or Content at 0.71–0.92 agreement. **If the effect is carried by Surface-annotated revisions we have measured polish and confirmed it; if it survives among Content-only revisions, that is a depth signal on human text and the first one** | not run |
+| **PD-28** | The surviving effect is **polish**, not depth | **OPEN, and the corpus can settle it** | 5,834 revisions are hand-labelled Surface or Content at 0.71–0.92 agreement. **If Surface-annotated revisions carry it we have measured polish; if it survives among Content-only revisions, that is a depth signal on human text and the first one** |
+
+**What these add up to.** This is the project's first controlled human comparison and **it found a real effect that is probably the wrong one.** Revision raises lexical sophistication — longer, rarer, fewer function words — as a single factor showing up under six names, and it survives length-matching, which is the control that killed the raw result. **The question of whether that is polish or depth is answerable from labels already in the corpus and has not been asked**, which makes PD-28 the highest-value unrun row in the file: it is the one place where a *depth* signal on human text could be demonstrated rather than argued.
 
 **PD-28 is the sharpest unrun test in this file**, and it is the reason that corpus is worth more than
 its size.
 
----
-
-## What this file says to do next
-
-1. **PD-1 — depth-side and polish-side quantities measured separately across position.** The
-   definitional test, and it has still never been run. Everything else in §2 and §3 is behind it.
-2. **PD-3 — flat polish as the machine signature.** Sharper than any depth-based discriminator, and it
-   requires no quality judgement.
-3. **PD-15 — attention dwell.** It is the LUST signature and the second leakage channel at once, and
-   nothing has been built for it.
-4. **PD-7 needs a new instrument.** Singularity of terminal value is the successor design, and the
-   measure it was going to use turned out to be a difficulty meter.

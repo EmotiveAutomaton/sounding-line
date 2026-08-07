@@ -46,13 +46,6 @@ the formalisation:
 **2026-08-04 through 2026-08-07.** This is where the results land, and they had been scattered across
 three files.
 
-    drives  ------->  process  ------->  goal
-    (upstream)        (source)           (sink, already at ceiling)
-       ^                                    |
-       |____________ a goal is a local ____|
-                     weighting on the
-                     standing distribution
-
 **What the simulation measured.** Three of six edges are exactly zero. **Goal is a sink** already at
 ceiling (1.000). **Process is the source**, contributing +0.840 to depth. And the edges are
 **additive, not superadditive** — so "each one bootstraps the others" is not what was measured.
@@ -172,6 +165,27 @@ you've taken those actions many times, and therefore that itself is information.
 carrier.** A habit is evidence that a choice was available and taken repeatedly, and that is a
 statement about a weighting over trajectories, which is what §3 says a value is.
 
+### It also disposes of epistemic foraging, which nothing else in this project could
+
+**2026-08-07, and it is a second argument for the same account.** Epistemic foraging — going and
+finding things out — has been a persistent contaminant: it is goal-directed behaviour that looks like
+value-directed behaviour and there was no principled way to separate them.
+
+> **Epistemic foraging is always different. And it always looks different.** So it wouldn't get baked
+> in through associative learning. **It doesn't exist in behaviour.** Epistemic foraging is its own
+> separate goal.
+
+**Under the residue account it removes itself.** Associative learning bakes in what *repeats*.
+Foraging is by definition non-repeating — each act of finding out is a different act, aimed at a
+different unknown — **so it never becomes habit, and it is therefore absent from the residue.**
+
+> **You remove it at the top. It doesn't exist at the bottom.**
+
+**This is the strongest structural argument for §4 and it did not come from the values question.** A
+proposal that solves a contaminant it was not designed to address is doing something the alternatives
+are not — every other values measure would have had to control for foraging explicitly, and this one
+never encounters it.
+
 ### The objection this has to survive, and a fix
 
 **The residual contains both values and arbitrariness, and nothing in the proposal separates them.**
@@ -188,7 +202,7 @@ is weak evidence that it is the right requirement.**
 
 | # | hypothesis | status | notables |
 |---|---|---|---|
-| **G49** | Values live in the residual of expertise after removing what expertise is optimised for | **OPEN, and it is the first well-posed place to look.** Requires a model of what a domain's expertise *is* optimised for, which is the unbuilt part | **It inverts the search.** Every dead measure looked in the optimised part, which is exactly where selection has flattened the individual out |
+| **G49** | Values live in the residual of expertise after removing what expertise is optimised for | **OPEN, and it is the first well-posed place to look.** Requires a model of what a domain's expertise *is* optimised for, which is the unbuilt part | **It inverts the search** — every dead measure looked in the optimised part, where selection has flattened the individual out. **And it disposes of epistemic foraging for free**, because foraging never repeats and so never becomes habit |
 | **G50** | The value-carrying part of that residual is what survives a domain change | **OPEN.** The separator between value and arbitrariness | Needs one maker across different kinds of artifact — **the corpus every thread here keeps arriving at** |
 | **G51** | Repetition itself carries information about the weighting | **OPEN** | *"The way it's baked in implies you've taken those actions many times, and that itself is information."* **A habit is evidence a choice was available and repeatedly taken** |
 
@@ -391,6 +405,28 @@ fails are exactly the concealment cases this project also wants to read. **A tea
 is wrong is worse than no assumption**, because it licenses confident inference from structure that
 was placed to mislead.
 
+**And that failure already has a name in the expertise literature, running the other way.**
+
+> That's kind of the whole premise for **failure to transfer** — this lack of transfer as a result of
+> expertise. **Same idea, different direction.**
+
+Expertise fails to transfer because the learner assumed the structure they were given generalised, and
+it did not. **A wrong teacher assumption and a failed transfer are the same error at opposite ends of
+the same channel**: one is the reader over-trusting structure, the other is the learner over-trusting
+structure they were taught.
+
+**Which lands somewhere uncomfortable:**
+
+> **AI is being treated like a teacher also. It's getting the benefit — and maybe that's part of the
+> problem, at least.**
+
+**A model's output is read as if it were placed to be understood**, because that is the framing under
+which text arrives. **The teacher assumption is being granted to a system that has no intention to
+help and no expertise to transfer** — which is not a failure of the reader's inference so much as an
+inference running correctly on a false premise. **That is a testable claim about readers rather than
+about models**, and it is a different account of why generated text misleads than the polish–effort
+account in `POLISH_AND_DEPTH.md`.
+
 | # | hypothesis | status | notables |
 |---|---|---|---|
 | **lit** | A reward function is not identifiable from one episode | **SUPPORTED (READ)** | **Amin, Jiang & Singh (NeurIPS 2017) state our decomposition and our consequence verbatim, nine years early** |
@@ -400,6 +436,7 @@ was placed to mislead.
 | **G62** | Assuming the maker intends to be understood improves recovery | **OPEN, and unused.** A fourth constraint on the hypothesis space | **Must be tested against concealment cases**, where the assumption is false and would license confident wrong inference |
 | **G63** | Aesthetic structure functions as deliberately-left scaffolding for descent | **OPEN** | Would make polish partly communicative rather than only performative — **a different claim from anything in `POLISH_AND_DEPTH.md`** |
 | **G64** | Re-reading one artifact recovers the tail, so depth of reading substitutes partially for breadth of corpus | **OPEN** | **§4 says the tail is where the un-optimised residue lives**, so this and the values claim are the same bet from opposite ends |
+| **G67** | Readers grant the teacher assumption to generated text, and that is why it misleads | **OPEN.** A claim about **readers**, not models — an inference running correctly on a false premise | **A different account from the polish–effort story**, and the two make different predictions about what happens when provenance is disclosed |
 
 **What these add up to.** The theorems are real, recent and proved, and **the project's position is
 not that they are wrong but that their conditions do not describe the case** — which makes this an
