@@ -218,3 +218,7 @@ identifier is the same in both places; that is the point of the numbering.
 substituted found text for their topic-controlled generation. **We cannot argue past anyone's stopping
 criterion until we can hit their number with their method**, and that now goes in as a hypothesis in
 its own right whenever we take on a published result.
+
+| **G44 · recover the depth transform** | The affect subspace rotates through depth, so the same concept is written differently at each layer. **Is that transform recoverable?** | Fit it from the alignment matrix we already produced — **we measured the amount of rotation and never the rotation itself** | ~1 h |
+| **G45 · reposition and strengthen** ★ | *"Could we force them to be in a layer we think is correct and then strengthen them?"* If the structure is real but badly placed, **the intervention is relocation and reinforcement, not construction** | Needs G44. **A far smaller build than supplying the middle from scratch** | a build |
+| **G46 · do worse models place affect worse?** ★ | *"Is there evidence of worse models having more poorly placed emotional concepts?"* | **Free — we already hold four families from 360M to 1.5B and have not asked this of them.** Informative both ways: if placement improves with capability it is learned, not architectural; if it does not, the structure is architectural, which is the strongest thing available | minutes |

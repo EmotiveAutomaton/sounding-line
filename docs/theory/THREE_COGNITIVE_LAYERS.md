@@ -21,105 +21,6 @@ reconstruction fails is where the fingerprint is.**
 
 ---
 
-## ⚠ The live worry — and one candidate way out
-
-**2026-08-07.** The whole architecture assumes a model has *some* human-shaped affective structure to
-find.
-
-> I do worry that there are no three layers in AI node structures at all. [...] Part of what they're
-> doing is modelling at some depth our limbic system, because we consistently converge into that
-> shape. But it's not necessarily going to have anything like human input and output.
-
-**What it costs if he is right.** *"I was hoping the work would get done for us a little bit."* If
-there is no general shape, the intervention has to **impose** structure rather than amplify it, and
-§8's bootstrap becomes a far more manual build.
-
-**The evidence currently runs against us:**
-
-- our depth sweep found the profile identical on intent-laden and no-maker text — architectural,
-  carrying no information (**L1**);
-- a 2026 study finds valence encoding emerging at **very different depths per architecture** —
-  early-then-collapse in one family, late-progressive in another;
-- the affect-dimension run returned **42.8 components on an untrained model against 1.0 on the trained
-  one of identical shape**. Both void, and that gap is unexplained.
-
-### The candidate solution: three subspaces, not three depths
-
-**Superseded — proposed 2026-08-07, tested the same day, and rejected. Kept because the reasoning
-is what produced the measurement that answered the worry.** The result is immediately below.
-
-**Proposed 2026-08-07 and agreed as worth testing.** We assumed depth-in-the-network maps onto
-depth-in-the-brain because both look like processing stages. **A transformer's computation is strictly
-ordered — that part is not in doubt.** What is in doubt is whether *abstraction* is partitioned along
-that ordering, because **every layer reads from and writes to the same residual stream.** There is no
-anatomical separation between stages the way there is in a brain.
-
-**So affect appearing throughout the layers is not evidence against three layers. It is evidence that
-layer index may not be where the structure lives.**
-
-**If the three layers exist as three *subspaces of the residual stream* rather than three depths:**
-
-- everything measured so far has been on the wrong axis;
-- **it explains why the depth profile is architectural and carries no information, while the per-layer
-  *correlation* does** — the correlation would be picking up subspace overlap that happens to vary
-  with depth, not depth itself;
-- it survives the softness limit below, because a subspace has no reason to respect a layer boundary.
-
-**And it changes what the bootstrap is.** If the relations are present but unlocalised, the model has
-the map without the terrain, and supplying shape is about **binding** existing structure rather than
-**amplifying** localised structure. A different build, and a more tractable one than imposing an
-architecture from scratch.
-
-### What the check returned — 2026-08-07, four model families
-
-**Run the same day it was proposed.** Fit the affect directions at every layer, take the subspace they
-span, and compare subspaces across depth by **principal angles** — 1.0 is identical, 0.0 orthogonal.
-
-| model | adjacent layers | most distant layers | random-subspace null |
-|---|---|---|---|
-| GPT-2 medium | 0.852 | 0.399 | 0.074 |
-| Pythia 1.4B | 0.800 | 0.290 | 0.052 |
-| SmolLM2 360M | 0.779 | 0.274 | 0.076 |
-| Qwen 2.5 1.5B | 0.751 | 0.305 | 0.060 |
-
-*How much the affect subspace at one layer overlaps the affect subspace at another. "Adjacent" is
-neighbouring layers; "most distant" averages pairs at least half the model's depth apart. The null is
-matched random subspaces of the same dimension in the same width.*
-
-**Three things follow and they do not all point the same way.**
-
-**1. The subspace proposal is rejected.** The subspace **rotates with depth** — 0.80 between
-neighbours falling to 0.32 at the far end. It is not one fixed subspace threaded through the stream,
-so layer index *is* where some of the structure lives, and the original architecture survives on that
-axis.
-
-**2. The worry is not confirmed, and this is the load-bearing part.** At **maximum layer distance the
-subspace still sits four to six times above its null**, in every family. **There is a coherent affect
-subspace and it is not an artifact of adjacency. The structure is there to amplify.**
-
-**3. The strongest boundary sits at layer 2, in all four families.** Sweeping every possible two-way
-split, the split that best separates within-group from across-group alignment is the same one
-everywhere — **layers 0-1 against everything else** — and it beats any three-equal-band split
-(gap 0.27-0.38 against 0.21-0.26). **That is where G20b puts the text-transformation boundary.**
-
-**The caveat on point 3, and it is real:** the first layers of any model sit next to the embedding and
-are atypical for reasons that have nothing to do with affect. **A boundary at layer 2 may be trivially
-true rather than evidence for the reordering.** Separating those two readings needs a non-affective
-control subspace measured identically, and that has not been run.
-
-**Beyond layer 2 it is mostly smooth.** A model using only layer *distance* explains **69-81%** of the
-alignment matrix, leaving 19-31% that distance does not account for. **That is not three bands. It is
-a continuous rotation with one early break, and some residual structure nobody has looked at.**
-
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **G39** | The three layers are subspaces of the residual stream rather than depths | **REJECTED (test).** The subspace rotates with depth: 0.80 adjacent, 0.32 most-distant | **Proposed and killed the same day.** The bootstrap stays an amplification problem, not a binding one |
-| **G40** | There is a coherent affect subspace at all, consistent across families | **SUPPORTED (test).** Four to six times its null at maximum layer distance, across 360M to 1.5B and three architectures | **This is the answer to the worry.** The rotation *rate* is consistent across families even where the magnitude profile is not — the shape is real, and it was the profile that was the wrong measure |
-| **G42** | The affect subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at **layer 2** beats any three-band split in all four families | **The one break is very early**, which is where G20b puts the text-transformation boundary — but see G43 |
-| **G43** | The layer-2 break is affective rather than an artifact of proximity to the embedding | **OPEN, and it gates how G42 reads** | Needs a non-affective control subspace measured identically. **Cheap, and it decides whether we have evidence for the reordering or a well-known property of layer 0** |
-
----
-
 ## §1. The layers — and there are two competing orderings
 
 ### The original ordering, 2026-08-05
@@ -206,10 +107,12 @@ produces output. **Agreed as fitting the theory better, and it costs no fourth l
 | **G26** | A goal is a weighting across all layers rather than a layer of its own | **OPEN**, adopted as the working position | It is the only version that keeps three layers and answers *an emotion cannot directly produce output* |
 | **G27** | Layer boundaries in a model are soft rather than sharp | **assumed, not tested** | *"You're seeing ghosts of a human brain, not an actual human brain."* Any test requiring a clean boundary is testing the wrong thing |
 
-**Where this leaves the ordering.** Two orderings, one discriminating test, and **neither has been
-run** — the runner that would settle it exists and its first pass was void. **G41 is the more valuable
-of the pair to run first**, because expertise is a variable we control and goal is not, and because a
-positive there constrains both orderings at once.
+**What these add up to.** Both orderings agree that **valence/arousal and the primitives are adjacent,
+and that expertise sits at the far end from the input** — they disagree only about whether anything
+sits *before* valence. **That is a narrower disagreement than it looks**, and §8's subspace result
+bears on it directly: the one sharp boundary in the whole model is at layer 2, exactly where a
+text-transformation stage would end. **If that boundary survives its control, G20b is the ordering and
+the argument is over.**
 
 ## §2. The reframe that makes everything else follow
 
@@ -274,10 +177,13 @@ unnamed.**
 | **lit** | Panksepp's seven is the right number | **REJECTED (READ)** as an empirical claim | The seven were never derived from a dimensional analysis, and **the standard instrument tests six, never seven** — LUST was dropped for social desirability |
 | **S-14** | An absent drive is recoverable from an artifact | **OPEN**, scoped for the simulation | **The only proposal in this project that treats an absence as a measurable** |
 
-**Where this leaves the middle.** The structural claim is in better shape than it was in 2017 and it is
-supported by work that does not use Panksepp's framework at all. **What is not supported is the
-number** — which costs nothing, because he conceded the taxonomy first and the architecture never
-depended on it.
+**What these add up to.** The mid-level stage is better supported now than when this project started,
+**and the strongest support cites neither Panksepp nor Barrett** — line attractors and conserved
+cross-species dynamics were found by people not fighting this argument. **What both camps actually
+agree on is that hypothalamus and PAG house coordinated affective machinery; they disagree about
+whether that machinery constitutes felt affect or reports it.** So the architecture's structural claim
+is uncontested and only its *interpretation* is in dispute — which means **imaging will never settle
+it, and waiting for the debate to resolve is a mistake.**
 
 ## §4. How many primitives — three questions, three answers
 
@@ -322,11 +228,13 @@ themselves and does not turn it on their own work.**
     test then showed the criterion returns hundreds of components on data with no structure at all.
     The replacement isolates affect the way the field does and failed its own shuffled-label control.
 
-**Where this leaves the count. Nothing here currently supports or refutes the claim, and that is the
-honest summary of two days of work.** The one durable thing learned is methodological and it now
-applies project-wide: **run a measure on data whose answer you already know before running it on data
-whose answer you don't.** Reproducing the field's own numbers is a precondition, not a formality —
-**we cannot argue past their stopping criterion until we can hit their result with their method.**
+**What these add up to. Every number in this literature, ours included, is a stopping-rule output.**
+Seven came from one investigator's judgement; 24–27 from significance testing under a 34-item ceiling;
+two from stopping when the circumplex appeared; 49 and 93 from a criterion that returns 335 components
+on pure noise. **The one number that behaves differently is ~25** — raising the offered word list from
+34 to 80 did *not* inflate it, and it was recovered against brain data rather than against more words.
+**That is the only count in the field with a ceiling test behind it, and it sits far above seven.**
+Which is his prediction, arrived at by someone else, for a quantity he was not claiming.
 
 ## §5. Leaked and emblematic — the affect vocabulary
 
@@ -385,10 +293,12 @@ literature is right now."*
 | **G29** | If one layer separates and the other does not, it will be **`leaked`** that fails | **OPEN, and predicted in advance** | Language encodes the tertiary layer — *that is what the words are* — while the primary reaches text only through leakage |
 | **G30** | Attention-dwell past what the argument needs is measurable | **OPEN.** Nothing built | It is the LUST signature and a second leakage channel at once |
 
-**Where this leaves the two layers.** The vocabulary is in better shape than the measurements: **the
-split is the field's own reconciliation position and he arrived at it independently**, but the null
-that would show our probe is not answering one question twice has never been run. **G28 should come
-before anything that reports the two layers separately**, and it has not.
+**What these add up to.** The leak channel is readable, and concealment is detectable **in the opposite
+direction from the one I proposed** — the display gets *louder*, not quieter, and that held under a
+reader wrong about almost everything including a 50% channel swap. **But it only catches heavy
+concealers, failing at 25%**, which means the measure is reading *effort spent hiding* rather than
+hiding itself. **And the two layers have never been shown to be two.** Until G28 runs, every result
+here is equally compatible with the probe asking one question twice and averaging the answers.
 
 ## §6. The forward predictions
 
@@ -443,11 +353,12 @@ ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 | **G21** | Layer 0 predicts emotional-versus-neutral well and *which* emotion at chance | **OPEN** | A clean double dissociation, and our corpus has neutral as a labelled category |
 | **G34** | Parameter ratios across depth echo neuron-count ratios across receptor/midbrain/neocortex | **OPEN, flagged speculative by its author** | — |
 
-**Where this leaves the predictions.** **One is dead, one is the project's best-replicated result, and
-six have never been run.** The pattern is worth naming: the two that were tested were the two that
-needed no new machinery, and **the six untested ones are untested because each needs a different
-readout of data we already have.** That is a reporting gap rather than an experimental one — G33 in
-particular is sitting in a file on disk.
+**What these add up to.** The prediction that died and the prediction that replicated were the same
+quantity read two ways: **the *magnitude* of affective response across depth is architectural and
+carries nothing, while the *correlation* of that response with specified intent carries a signal two
+independent ladders agree on at 0.97.** That is the most useful single thing in this file — **how much
+a layer responds is noise; how much its response tracks the maker is not.** Every remaining prediction
+here is a different readout of that same distinction, which is why they are cheap.
 
 ## §7. The interpretability angle — the low-order to high-order ratio
 
@@ -481,11 +392,12 @@ them rather than the thing itself.**
 | **W-1b** | Reader displacement varies more for machine text | **VOID (test)** | Three artifacts |
 | **L10** | How much of the specification is recoverable, in bits | **OPEN, running** | **The only measure that reports goal recovery on a scale rather than as a correlation**, which is what the convergence-rate question needs |
 
-**Where this leaves the reader-side programme.** Four measures read out of the reader; **three died and
-one replicated.** The three that died all shared a shape — they asked whether the reader's *state*
-differed, and state is not stable enough to measure. **The one that survived asks about a *ratio
-between two of the reader's own layers on the same text*, which cancels what killed the others.** That
-is the generalisable lesson, and it should constrain every future reader-side design.
+**What these add up to, and it is the most transferable lesson in the file.** The three reader-side
+measures that died all asked whether the reader's *state* differed — displacement, refusal,
+displacement variance — and a reader's state is not stable enough to carry a signal across texts that
+differ in length, register and vocabulary. **The one that survived asks about a ratio between two of
+the reader's own layers on the same text**, so those three confounds cancel before the measurement
+happens. **Design reader-side measures as within-text ratios, or expect them to die.**
 
 **A methodological correction worth keeping, because it was mine and it was wrong.** I offered "neurons
 are plausibly natural units" as the disanalogy that makes interpretability unlike an electrode. He
@@ -494,7 +406,48 @@ coding is the mainstream view**, and the disanalogies that hold are the absence 
 in the residual stream, and the fact that interpretability scores fail to distinguish a trained model
 from a randomly initialised one.
 
-## §8. The build — supply the missing middle
+## §8. The live worry — is there a structure to amplify at all?
+
+**2026-08-07.** Everything in this file assumes a model has *some* human-shaped affective structure to
+find, and §9's build rests on being able to amplify it rather than construct it.
+
+> I do worry that there are no three layers in AI node structures at all. [...] Part of what they're
+> doing is modelling at some depth our limbic system, because we consistently converge into that
+> shape. But it's not necessarily going to have anything like human input and output.
+
+**What it costs if he is right.** *"I was hoping the work would get done for us a little bit."* If
+there is no general shape, the intervention has to **impose** structure rather than amplify it, and
+the bootstrap becomes a far more manual build.
+
+**The evidence against:** our depth sweep found the profile identical on intent-laden and no-maker
+text (**L1**); a 2026 study finds valence encoding emerging at very different depths per architecture;
+and the affect-dimension run returned 42.8 components on an untrained model against 1.0 on the trained
+one of identical shape.
+
+**The evidence for, 2026-08-07.** We checked whether a coherent affect subspace exists across four
+model families — 360M to 1.5B, three architectures. **It does, sitting four to six times above a
+matched random null even between the most distant layers, at a rate consistent across families.**
+
+**That is weak evidence for the three-layer structure and it does not settle the worry.** It says
+there is *something* coherent to find. It does not say the something has three parts, or that its
+parts correspond to anything in a midbrain.
+
+**Superseded — one candidate explanation, tested and rejected.** That the three layers might be three
+*subspaces* of the residual stream rather than three depths. **The subspace rotates with depth**, so
+that is not what is happening.
+
+| # | hypothesis | status | notables |
+|---|---|---|---|
+| **G40** | There is a coherent affect subspace at all, consistent across families | **SUPPORTED (test).** 4-6x its null at maximum layer distance, in every family | **The rotation rate is consistent across families even though the magnitude profile is not** — so it was the profile that was the wrong measure, not the idea |
+| **G42** | The affect subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at **layer 2** beats any three-band split in all four families; distance alone explains 69-81% of the alignment matrix | **The one strong break is very early**, where G20b puts the text-transformation boundary. But see G43 |
+| **G43** | The layer-2 break is affective, not an artifact of proximity to the embedding | **OPEN, and it gates how G42 reads** | Cheap. Needs a non-affective control subspace measured identically |
+| **G39** | The three layers are subspaces rather than depths | **REJECTED (test)** | — |
+
+**Reading them together: there is one coherent affective structure, it rotates continuously through
+depth rather than sitting in bands, and its one sharp boundary is at the very front of the model.**
+That is a shape, and it is a consistent one — but it is not yet the shape this file claims.
+
+## §9. The build — supply the missing middle
 
 > If this structure is not what happens in naturally occurring language models, **I wonder if we could
 > force it** — make an empathic bot with lower-order valence and arousal, medium human-mapped
@@ -516,6 +469,46 @@ claim and the value-blindness claim fit together, and neither was stated with th
 
 **A question raised and deliberately deferred:** whether such an architecture needs something
 thalamus-like to gate between the layers.
+
+### What if it is the shape and not the location? — 2026-08-07
+
+**A reframe of the build, and it follows directly from §8.** The subspace result says a coherent
+affective structure exists but **rotates continuously through depth** rather than sitting where the
+architecture predicts. The obvious reading is that we have the wrong architecture. **His reading is
+that we may have the wrong target.**
+
+> What if it's not the **location** of where they are, but rather their **shape** that we need to care
+> about? What if the values are somehow **extractable and repositionable as meta-concepts**? They'd
+> have to change depending on where they are in the hierarchy. **Could we force them to be in a layer
+> we think is correct and then strengthen them?**
+
+**Why this is a different build from §9's.** The bootstrap as stated supplies *content* — seed the
+mid-level primitives and let training shape them. **This supplies *position*:** take the affective
+structure the model already has, and move it. **If the structure is real but badly placed, then the
+intervention is relocation and reinforcement, not construction** — and that is a far smaller build
+than the one §9 describes.
+
+**It also changes what the rotation means.** A structure that rotates through depth is a structure
+whose representation is *depth-dependent* — the same concept written differently at different layers.
+**If that transform is recoverable, the concept is repositionable by construction**, because
+repositioning is applying the transform.
+
+**And it gives the live worry a second test.** *"Is there evidence of worse models having more poorly
+placed emotional concepts?"* **If placement is something a model gets better at, placement is a
+capability rather than an architecture** — which would mean the structure is not innate to the shape
+of the network, and the amplification story needs a scale story attached.
+
+| # | hypothesis | status | notables |
+|---|---|---|---|
+| **G44** | The depth-dependent transform of the affect subspace is recoverable | **OPEN.** If the same concept is written differently at each layer and that mapping can be fitted, **repositioning is applying it** | The alignment matrix from §8 already contains the data to fit it — we measured the *amount* of rotation and never the *rotation itself* |
+| **G45** | An affective concept can be forced into a chosen layer and strengthened there | **OPEN, and it is the build.** Relocation and reinforcement rather than construction | **A much smaller build than §9's** if it works, and it needs G44 first |
+| **G46** | Weaker or smaller models place affective concepts more poorly | **OPEN, and it is a second test of §8's worry.** If placement improves with capability, **placement is learned rather than architectural** | We already hold four families spanning 360M to 1.5B and have not asked this of them. **Cheap** |
+
+**What these add up to.** Nothing has been run, but the three are ordered: **G46 is free and decides
+whether placement is a property of the network or of training; G44 is the measurement that makes G45
+possible; G45 is the build.** And G46 has the useful property of being informative in both
+directions — **if placement does not improve with scale, that is evidence the structure is
+architectural, which is the strongest thing §8 could return.**
 
 ### What is needed is a generative model, not a state
 
@@ -540,9 +533,13 @@ through a few feelings and adjusting it a little bit until it fits."*
 | **G37** | Reading another's affect requires no internal state, only a generative model of one | **OPEN** | Cheap: can the probe predict *which affect a human reader will attribute*? If no, **this project needs an architecture it does not have** |
 | **G38** | The mid-level primitives need only seeding, not specification | **OPEN** | It is the answer to "whose values", and **it depends on G39** — you cannot seed a structure that is not there to seed |
 
-**Where this leaves the build.** The ground is unclaimed on the survey's own word, the closest
-theoretical match is twenty years old and unimplemented, and **the only precedent is a proposal.** What
-gates it is not novelty but G39: **whether there is a structure to amplify at all.** And the field's own
-warning applies to us first — *"we have not seen any test scenarios being borrowed from other
-emotion-learning implementations."* **Everyone builds a bespoke gridworld and beats a strawman. Decide
-the fair non-emotional baseline before building.**
+**What these add up to.** The layered architecture is unclaimed on the survey's own word, was described
+in full in 2005, and the one public proposal to build it remains a proposal. **Twenty-one years of
+nobody doing it is either a large opportunity or a signal that the hard part is somewhere we have not
+looked** — and §8 says the hard part is not *finding* the structure, because a coherent affective
+structure is present in every model we have checked. **What is unproven is that it can be seeded
+rather than specified**, and that is the single claim the whole build rests on.
+
+**The field's own warning applies to us first** — *"we have not seen any test scenarios being borrowed
+from other emotion-learning implementations."* **Everyone builds a bespoke gridworld and beats a
+strawman. Decide the fair non-emotional baseline before building.**

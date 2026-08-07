@@ -40,6 +40,16 @@ INSTRUMENT DEAD (*our measure died, not the idea*).
 **A hypothesis with a history gets one indented timeline line.** Contradiction without a timeline is
 not acceptable.
 
+**A disconfirmed thing gets one line and no elaboration.** State what was checked and what came back,
+and stop. **Nobody is going to ask a follow-up about a dead idea**, so auxiliary detail about it is
+pure cost — it buries the live claims around it. The reasoning that produced a *useful* measurement is
+worth keeping even when its conclusion was wrong; the reasoning behind a claim that simply failed is
+not.
+
+**Under every hypothesis table, a short paragraph saying what those results add up to.** Not how many
+were run. **A first pass at combining them into a claim**, so the section has a conclusion and not
+just a ledger.
+
 **Identifiers are stable — never reused, never renumbered.**
 
 ## Files
