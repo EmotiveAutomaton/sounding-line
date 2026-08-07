@@ -555,6 +555,71 @@ predicts, or an insensitivity of this coherence measure at that depth, this run 
 earlier (layers 14, 19, 23) were the layer that best *correlates* with rung, which is a different
 quantity; the runner conflated them and that was my error.**
 
+## L14 · Does the affective-response profile across depth carry any information about the maker?
+
+**Hypothesis.** *(The curator's.)* A model reconstructs human affective structure at three depths, so
+the *shape* of its affective response across layers should be a fingerprint of that structure — and
+should differ between text with a maker and text without one.
+
+**Method.** For each artifact, project the eight affect concepts at every layer, average the absolute
+projections into a per-layer signal, and price each layer against matched random directions. Detect
+peaks in the resulting profile with a prominence criterion fixed before the run. **Run on three
+ladders and on the no-maker corpus — 36 runs across nine model families from 0.35B to 3B.** The
+no-maker corpus is the control: it is text with no maker, so any profile feature that appears there
+cannot be about a maker.
+
+**What we found.**
+
+| | |
+|---|---|
+| **peak location, ladder vs no-maker** | **identical in every one of the nine models** |
+| shape | **27 of 36 runs UNIMODAL** |
+| multimodality | appears only in **gpt2-large** (5–6 peaks) and **pythia-410m** (2–3), and appears in their no-maker runs too |
+| **peak depth across families** | **layer 2 of 29 in Qwen-1.5B, layer 47 of 49 in gpt2-xl** — 3, 4, 5, 8, 13 elsewhere |
+| layers beating the random null | **all of them, in 28 of 36 runs** |
+| middle-band verdict | 16 NOISY, 20 COHERENT — no consistency |
+
+**Verdict: RULED OUT.** The depth profile is a property of the architecture. **It is identical with and
+without a maker in every model tested**, which is as clean as this control gets.
+
+**Two things it settles beyond the original question.** The **bimodal** profile this project once
+reported was a two-model artifact — gpt2-large and pythia-410m — and does not generalise. And **the
+peak sits anywhere from the second layer to the forty-seventh depending on family**, with no relation
+to size or depth, which means **no claim naming a specific depth transfers across architectures.**
+
+**What survives is the per-layer *correlation* with specified intent (L12), not the profile.** How much
+a layer responds is architectural; how much its response tracks the maker is not.
+
+## L15 · Is the component-count criterion measuring anything?
+
+**Hypothesis.** The unsupervised decomposition that returned 49 affective components, then 93 on the
+same data at a larger sample, was using a criterion that could not do its job.
+
+**Method.** Read activations once at 4,000 utterances, cache them, then subsample at six sizes so every
+criterion sees identical text and only the sample size varies. Five criteria — parallel analysis,
+eigenvalue > 1, 90%-of-variance, cross-validated reconstruction, and participation ratio — plus a null
+in which every dimension is independently permuted across utterances, which destroys all cross-dimension
+structure and must return nothing.
+
+**What we found**, across three model families:
+
+| criterion | growth from smallest to largest sample |
+|---|---|
+| cross-validated rank | 14.3× · 3.2× · 2.8× |
+| parallel analysis | 6.2× · 4.0× · 3.2× |
+| 90% of variance | 5.4× · 5.5× · 4.1× |
+| eigenvalue > 1 | 1.5× · 2.4× · 1.5× |
+| **participation ratio** | **1.0× · 1.6× · 1.6×** |
+
+*A 27-fold increase in sample size, on identical text. A criterion measuring the text should not move.*
+
+**And the null fails outright.** Parallel analysis returns **160 components on 600 rows of pure Gaussian
+noise and 335 on 4,000** — data with no structure whatsoever. Participation ratio separates the two
+cleanly: **1,109 on noise against 6.9 on real activations.**
+
+**Verdict: VOID, all three runs.** Not biased — broken. **Every number that criterion produced is
+withdrawn**, and the participation ratio is the only one of the five that behaves.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

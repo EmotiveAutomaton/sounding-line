@@ -69,9 +69,17 @@ slightly, that is evidence of a missing unifying piece, not evidence we are behi
 ## How to report a result
 
 **Open with the hypothesis, in plain language, always.** A sentence someone could read cold and
-understand what was being asked and why anyone cared. Then: what we did, what we found, what it
-means. A very short paper. **He cannot poke at a result whose question he cannot see.** An identifier
-in a heading is fine; an identifier *instead of* the question is not.
+understand what was being asked and why anyone cared. **He cannot poke at a result whose question he
+cannot see.** An identifier in a heading is fine; an identifier *instead of* the question is not.
+
+**Then a METHOD sentence, every time, in the chat and in `FINDINGS.md`.** One or two sentences saying
+what was actually done — what was measured, on what, against what null. **This project now runs a
+dozen different methods and the hypothesis alone does not identify which one produced a number.**
+Without it a table is unreadable even when every column is captioned.
+
+    hypothesis  ->  method  ->  what we found  ->  what it means
+
+A very short paper, in that order, no exceptions.
 
 - **Caption every table in the chat, every time** — define every column and every row label in plain
   words. He is running a dozen threads and will not carry our names in his head.
@@ -121,9 +129,13 @@ request an ETA.** Do not poll and do not sleep-loop waiting.
    Do not ask permission for something already on the list.
 3. **Check for orphaned results.** Anything in `results/` newer than its last mention in the docs is
    a dropped result. **This is a real failure mode with a real instance behind it.**
-4. **Harvest tests from anything he just said** into `TODO.md`, in the same pass. **He should not have
-   to say "and now design an experiment for that."**
-5. **Keep the queue four to five hours deep.** Several corpora, several models, audits last.
+4. **Read `TODO.md` and top it up.** Harvest tests from anything he just said, in the same pass — **he
+   should not have to say "and now design an experiment for that."** **And read what is already
+   there**, because the list is the queue's only source and a thin list means an idle machine.
+5. **Implement the top items and run them one at a time.** `TODO.md` → a runner → a queue stage is a
+   **manual translation and it stays manual.** Automating it would produce stages nobody read, which
+   is a systemic error rather than a slow one. **You are the automation.**
+6. **Keep the queue four to five hours deep.** Several corpora, several models, audits last.
    **Every stage needs a `produces` guard** — one without it re-ran at 160 minutes a pass.
    Estimate from measured rates; when unsure, **queue more, not fewer**.
 

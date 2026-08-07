@@ -85,6 +85,12 @@ def main() -> None:
     ap.add_argument("--decoys", type=int, default=8)
     ap.add_argument("--max-words", type=int, default=700, help="score the opening N words")
     ap.add_argument("--device", default="cuda")
+    ap.add_argument("--shuffle-specs", action="store_true",
+                    help="CONTROL: give each artifact another artifact's specification. Destroys the "
+                         "artifact-specification link and keeps everything else. Win rate must "
+                         "collapse to chance, 1/(decoys+1). This is the analogue of the no-maker "
+                         "control, which cannot be run here because no-maker text has no "
+                         "specification to recover.")
     args = ap.parse_args()
 
     import torch                                                      # noqa: PLC0415
@@ -152,6 +158,9 @@ def main() -> None:
                     f"Write about {topic}. Every one of the following must be honoured, and they "
                     f"are all simultaneously true of your situation: " + "; ".join(specs) + ".")
 
+        if args.shuffle_specs:
+            true_specs = decoys[0]        # a real specification, but not this artifact's
+            decoys = decoys[1:]
         s_true = logprob(prompt_for(true_specs), text)
         s_dec = [logprob(prompt_for(dd), text) for dd in decoys]
 
@@ -165,8 +174,8 @@ def main() -> None:
 
         # echo: how much of the true specification's content actually appears in the artifact
         tw = content_words(text)
-        overlap = sum(len(content_words(s) & tw) / max(len(content_words(s)), 1)
-                      for s in true_specs) / len(true_specs)
+        overlap = (sum(len(content_words(s) & tw) / max(len(content_words(s)), 1)
+                       for s in true_specs) / len(true_specs)) if true_specs else 0.0
 
         rows.append({"id": it["id"], "rung": rung, "bits": bits,
                      "won": s_true >= max(s_dec), "margin": s_true - max(s_dec),
@@ -201,8 +210,9 @@ def main() -> None:
     print(f"\n  >>> {verdict}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / f"{args.corpus}.json").write_text(json.dumps(
+    (RESULTS / (f"{args.corpus}_shuffled.json" if args.shuffle_specs else f"{args.corpus}.json")).write_text(json.dumps(
         {"corpus": args.corpus, "decoys": args.decoys, "n": len(rows),
+         "shuffled_specs": args.shuffle_specs,
          "rho_bits": float(rho_b), "p": float(p_b), "rho_echo": float(rho_e),
          "rho_length": float(rho_l), "win_rate": won, "verdict": verdict,
          "by_rung": {str(g): {"bits": statistics.fmean(r["bits"] for r in rows if r["rung"] == g),

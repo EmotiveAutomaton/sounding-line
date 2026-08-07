@@ -344,7 +344,8 @@ ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 
 | # | hypothesis | status | notables |
 |---|---|---|---|
-| **L1** | The depth profile is bimodal | **REJECTED (test)** | **Identical on no-maker text.** The no-maker corpus is the control that killed it, and it killed the two hand-picked loci with it |
+| **L14** | The depth profile is bimodal | **REJECTED (test), and now across nine families.** **27 of 36 runs are unimodal**; multimodality appears only in gpt2-large and pythia-410m, **and in their no-maker runs too** | **The bimodal profile was a two-model artifact** |
+| **L14** | The depth profile carries information about the maker | **RULED OUT (test).** Peak location is **identical between ladder and no-maker in every one of nine models** | **The peak sits at layer 2 of 29 in Qwen-1.5B and layer 47 of 49 in gpt2-xl**, with no relation to size or depth — **so no claim naming a specific depth transfers** |
 | **L1** | Per-layer correlation with specified intent carries information | **SUPPORTED (test)** | **Two independently generated ladders agree at 0.97** on which layers carry it — the strongest replication in the project |
 | **G22** | The trimodal structure is recoverable in the *residual* after fitting a single peak | **OPEN** | His, and **nobody in the field has looked for it** |
 | **G31** | The middle layer is high-activity and low-coherence | **OPEN** | Never isolated from the bimodal profile's death, so it has never actually been tested |
