@@ -64,6 +64,100 @@ looks like.**
 
 ---
 
+## The naming search — 2026-08-07, and the literature has two of the three
+
+**Run because he asked for existing terms rather than coined ones**, and because *"polish"* and
+*"depth"* have become loaded while becoming central. **Every claim below is SNIPPET-level unless
+marked otherwise** — canonical citations verified as existing, wording not checked against full text.
+
+### The surface layer — the literature does NOT have it, and the obvious candidate is a trap
+
+**No established term covers both sub-goals.** *Be attended to* and *be ingested* are treated
+separately everywhere.
+
+| term | what it actually means | verdict |
+|---|---|---|
+| **audience design** (Bell 1984) | stylistic choices driven by a model of the receiver rather than by content. **Structurally our definition** | closest real match, but it is a *social-identity* mechanism — style-shifting to signal solidarity or distance — so importing it drags accommodation theory in |
+| **reader-based prose** (Flower 1979) | prose restructured to serve the reader rather than reflecting the writer's own discovery process | **low collision risk**, and it already carries the subtract-the-maker-directed logic. Limits: text only, and normative — reader-based is *good*, where our surface layer is neutral |
+| **surface features** (Chi, Feltovich & Glaser 1981) | **the literal objects in a physics problem** — inclined planes, pulleys — that novices sort on, against deep structure meaning the governing principle | **A jingle-jangle trap that sounds perfect.** It is a claim about the *perceiver's categorisation*, not the *maker's reader-directed choices*. **Nobody in that literature is polishing anything.** I flagged it as the likely import and I was wrong |
+| aesthetic labour (Witz et al. 2003) | employees paid to look and sound right **with their own bodies** | hard collision. Not about artifacts at all |
+
+**An adversarial find worth keeping.** The *attractiveness* sub-goal has an established **negative**
+literature — the **seductive details effect** (Harp & Mayer 1998): attention-grabbing surface material
+demonstrably **reduces recall and transfer**. **If the framework treats attractiveness as a benign
+component of the surface layer, that is a live objection**, and it bears directly on whether
+attractiveness can be cleanly subtracted.
+
+### The deep layer — the terms exist, and they are in archaeology and art history
+
+**Direct answer to the question that prompted the search: yes, there is an established family of terms
+for "expertise recoverable from a product rather than from watching the person."** And it is not where
+we would have looked.
+
+> **Cognitive expertise research — Ericsson, Chi — is overwhelmingly *process*-based: protocols,
+> representative tasks, deliberate practice. It has no clean product-inference construct.**
+
+| term | what it means | note |
+|---|---|---|
+| **chaîne opératoire** (Leroi-Gourhan 1964; Lemonnier 1986) | the full operational sequence of gestures and decisions **reconstructed backwards from the object**, explicitly including the maker's *skill level* and technological choices | **the strongest match to "skill visible in the traces of decisions made"** |
+| **facture** (technical art history) | the manner in which a thing was made, as legible in the object — handling, touch, layering | precisely expertise-as-recoverable. Niche, reads as art jargon |
+| **technological style** (Lechtman 1977) | non-random patterning in *how* something was made — **largely invisible to the maker** | also bears on the values layer. "Style" collides with the art-historical sense, which is the visible manner |
+| **Morellian method** (Morelli 1870s; Ginzburg 1979) | attribution from small **involuntary, routinised** details, *precisely because* they are executed unconsciously and so escape imitation | **this is our leaked layer, named in 1870** |
+| tacit knowledge (Polanyi) | knowledge that **cannot be articulated** | **reject.** It commits us to inarticulability, which contradicts a framework built on recovering it |
+
+**And the critique of chaîne opératoire is almost word for word the attack we will face:**
+*"overformalized,"* giving *"an illusion of reading the minds of prehistoric knappers."*
+
+### The framework — Baxandall already has it, triangle included
+
+**Michael Baxandall, *Patterns of Intention* (1985), "inferential criticism" and the "triangle of
+re-enactment."** [READ, via a full secondary exposition]
+
+    the Charge   the general imperative -- "Paint!"
+    the Brief    the specific, situated set of problems the maker faced
+
+**Three points of the triangle: the description of the work, the maker's rational reflection, and an
+individual selection from collective resources directed at a task.**
+
+**And he takes our position on intention, forty years early:** intention is *"not a biographical
+mental fact"* but **"a general condition of rational human action which I posit in the course of
+arranging my circumstantial facts."** That is the answer to Wimsatt & Beardsley that
+[`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) §8 says has never been written up — **it has,
+and not by us.**
+
+**He also supplies an epistemic guardrail we should adopt:** you **cannot** reconstruct the
+stroke-by-stroke serial process. **That bounds what the deep layer can claim.**
+
+| rejected | why |
+|---|---|
+| **inverse planning** | hard homonym with IMRT radiotherapy dose optimisation, and it takes **action sequences** as input where we have only residue. **That gap is our contribution and the name papers over it** |
+| **the design stance** | runs *forward*, design → prediction. We run backward. Adopting it inverts the meaning |
+| reverse engineering | recovers function and mechanism, not goals or values |
+| anything with **"empathy"** in it | read as affective rather than inferential, and empathy is itself notorious — **43 distinct definitions catalogued** (Cuff et al. 2016) |
+
+### The subtraction move
+
+**"Partialling out"** is the standard name; **residualisation** and **orthogonalisation** are
+synonyms in practice. **Frisch–Waugh–Lovell is the theorem that justifies it, not a name for it** —
+citing FWL as the label is a category error econometricians will notice.
+
+> **One inversion to flag explicitly, or reviewers will misread it: in statistics a residual is the
+> *error*. In this framework the residual is the *quantity of interest*.**
+
+### What this changes, and what it does not
+
+**Two of the three constructs have real homes and one does not**, which is the pattern this project
+keeps hitting: **many literatures each hold a fragment.** The surface layer is split across
+sociolinguistics and composition with no term covering both halves; the deep layer is fully developed
+in archaeology and art history and **absent from the psychology of expertise**; the framework is
+Baxandall's.
+
+**The gap that is genuinely ours is the join.** Nobody has run chaîne-opératoire-style inference over
+*text at scale*, and nobody has connected the archaeological product-inference tradition to the
+IRL formalism. **Baxandall gives the frame and the guardrail. He does not give a measure.**
+
+---
+
 ## §1. The definitions
 
 Both are **decision densities**, which keeps them inside the theory's one primitive rather than
