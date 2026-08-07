@@ -469,6 +469,59 @@ categories, three counting criteria including two with a real stopping point, an
 including **the same pipeline on an untrained model of identical shape.** It gates on reproducing the
 published valence and arousal correlations before any count is read.
 
+## L10 · How much of the prompt's specification survives into the artifact?
+
+**Hypothesis.** *(The curator's, against our own verdict.)* Machine text written *with* purpose was
+recorded RULED OUT. He disputed it on grounds of manipulation strength: *"we should start at the
+extremes — three pages of different motivations stacked on top of each other."* If the effect is real,
+**strengthening the manipulation should strengthen it.**
+
+**What we did.** For each artifact, ask whether its true specification can be picked out from **48
+decoys matched on topic**. Reported as bits recovered and as win rate. Run on three ladders of
+increasing manipulation strength, with length controlled by rejection sampling on the extreme one.
+
+| ladder | specifications per prompt | n | win rate vs 48 decoys | correlation with rung | *p* |
+|---|---|---|---|---|---|
+| first, 50 artifacts | 0/1/3/6/10 | 40 | 52.5% | 0.205 | 0.20 |
+| held-out, 100 | 0/1/3/6/10 | 80 | 66.3% | 0.366 | 0.0008 |
+| **extreme, 75** | **0/2/10/30/60** | 60 | **91.7%** | **0.435** | **0.0005** |
+
+*Chance is 2%. "Correlation with rung" is how strongly recovered information tracks how many
+specifications the prompt carried.*
+
+**Not echo, not length.** On the extreme ladder, correlation with prompt-echo is **−0.236** —
+negative — and with length **+0.061**.
+
+**Verdict: OPEN and strong.** The effect scales with the manipulation exactly as predicted, which
+means the earlier ruled-out verdict was premature rather than wrong. **Owed: the no-maker control**,
+which the layer correlation passed and this has never been given.
+
+## L12 · Does the per-layer intent correlation transfer across architectures?
+
+**Hypothesis.** The only measure that has replicated is the per-layer correlation between specified
+intent and affective signal. **If it reads something real about the text it should appear in other
+models; if it reads an artifact of one architecture it should not.**
+
+**What we did.** Ran it on **11 model families from 0.35B to 3B parameters**, on three ladders and the
+no-maker control, with 48 matched random directions per layer and both length and specification
+identity removed.
+
+| | |
+|---|---|
+| ladder runs | **25 across 11 families — 18 survive** |
+| **no-maker runs** | **11 — all DEAD, zero false positives** |
+| fails everywhere | **gpt2-large**, on all three ladders |
+| weakest family | GPT-2 (medium 2/3, large 0/3, xl 0/1) |
+| strongest | Qwen and SmolLM2 |
+
+**The failures cluster by family, not by scale.** gpt2-large sits between pythia-410m and pythia-1.4b
+in size, and both of those survive.
+
+**Verdict: OPEN, and the control is the stronger half.** A measure reading labels rather than text
+would have fired somewhere in eleven no-maker attempts. **What does not transfer is the location** —
+the surviving layers move by model and by corpus, so every headline layer number in this project is
+Qwen-specific.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

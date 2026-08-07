@@ -82,48 +82,71 @@ in a heading is fine; an identifier *instead of* the question is not.
 - **Write the finding once and paste it.** Same text in `FINDINGS.md` and in the chat — not a
   reworded version. Prevents the file and the chat drifting apart.
 
-## THE GRIND NEVER STOPS
+## THE GRIND NEVER STOPS — the main interaction loop
 
-**A loop, run every response — not every session.**
+**This is the contract, not a preference. It failed on 2026-08-07: eleven models' worth of
+cross-architecture replication sat on disk for a day unreported, and the curator found it by asking
+for a queue diagnostic.**
 
-1. **Report queue state at the top of the reply.** What is running, what is next, a rough ETA. Brief.
-2. **Check something is running.** If not, open `TODO.md` and start something *before* replying. Do
-   not ask permission for something already on the list.
-3. **Harvest tests from anything he just said** — theory, objections, offhand remarks — into
-   `TODO.md` in the same pass. **He should not have to say "now design an experiment for that."** A
-   recorded idea with no test attached will not be run.
-4. **Build the queue to four or five hours, not two.** Several corpora, several models, audits last.
-   Estimate from measured rates, and when unsure **queue more, not fewer**.
-5. **Run tests he did not ask for, frequently.** He reads the hypothesis and guesses the result before
-   looking, so an unrequested test is a better test.
+### A · When a run finishes, four things happen before anything else
 
-Items marked "blocked on a decision" are things to hesitate on **while working elsewhere**. Prefer
-queuing behind a running job over waiting; prefer starting a long job before a short one.
+**In this order, in the same pass, every time. A result that has not been through all four has not
+landed.**
 
-## After every test, update the record in the same pass
+1. **`FINDINGS.md`** — the method archive. How it was run, with the numbers. **Add any new p-value to
+   `runners/audit_multiplicity.py` and re-run it.**
+2. **`docs/theory/`** — find the section the result bears on. **Update its hypothesis row, and update
+   the paragraph under that table**, because a new row can change what the set implies. **Add no new
+   prose beyond that unless the result is genuinely load-bearing** — the row and the afterword are
+   the update. **When in doubt, wait for his response before expanding.**
+3. **`TODO.md`** — the item leaves; anything it opened gets added, under the same identifier.
+4. **Report it in the chat.** Hypothesis first, then what we did, what we found, what it means.
+   **Every result, every time, so he never has to hunt for the latest numbers.**
 
-| | |
-|---|---|
-| **`FINDINGS.md`** | the result and its tier. **Add every new p-value to `runners/audit_multiplicity.py`** and re-run it |
-| **`docs/STATE.md`** | anything that changes what is running or a working agreement |
-| **`TODO.md`** | the item leaves; anything it opened gets added |
-| **`docs/theory/`** | if the result bears on a standing claim, say so *there*, not only in findings |
+**No batching. No "I'll report this with the next one."** That is exactly how the eleven-model
+replication was lost.
 
-`results/<name>/VERDICT.md` stays the primary record of the run. These are the index.
+### B · Run long jobs in the background so they wake you
+
+**Use `run_in_background: true`.** The job runs detached and **re-invokes you when it exits**, so the
+result is reported the moment it exists rather than the next time he asks. **He should never have to
+request an ETA.** Do not poll and do not sleep-loop waiting.
+
+**When a background job returns, go straight to A.**
+
+### C · Every response, before writing anything
+
+1. **Report queue state at the top.** What is running, what is next, a rough ETA. Brief.
+2. **Check something is running.** If not, open `TODO.md` and start something *before* replying.
+   Do not ask permission for something already on the list.
+3. **Check for orphaned results.** Anything in `results/` newer than its last mention in the docs is
+   a dropped result. **This is a real failure mode with a real instance behind it.**
+4. **Harvest tests from anything he just said** into `TODO.md`, in the same pass. **He should not have
+   to say "and now design an experiment for that."**
+5. **Keep the queue four to five hours deep.** Several corpora, several models, audits last.
+   **Every stage needs a `produces` guard** — one without it re-ran at 160 minutes a pass.
+   Estimate from measured rates; when unsure, **queue more, not fewer**.
+
+**Run tests he did not ask for, frequently.** He reads the hypothesis and guesses the result before
+looking, so an unrequested test is a better test.
+
+Items marked "blocked on a decision" are things to hesitate on **while working elsewhere**.
+
+## Rules for the record itself
 
 **`FINDINGS.md` has two tiers.** Tier 1 is the full write-up. **An item moves to tier 2 when he has
-read it and responded to it at length — his verbal response counts as processing it.** Nothing is
-deleted; a ruled-out result stays at one line. Reversals live inside the entry they belong to.
-**Keep the known-weaknesses section current** — it is the most useful part and the temptation is to
-let it go stale.
+read it and responded at length — his verbal response counts as processing it.** Nothing is deleted;
+a ruled-out result stays at one line. Reversals live inside the entry they belong to. **Keep the
+known-weaknesses section current** — it is the most useful part and the temptation is to let it go
+stale.
 
 **Near-significance means more power, not a verdict.** Raise n and re-run as a **held-out
-replication** with every hyperparameter frozen. Extending the original set entrenches the forking
-path that produced the marginal number.
+replication** with every hyperparameter frozen. Extending the original set entrenches the forking path
+that produced the marginal number.
 
 **When you find a hole in the battery, re-run what it touches.** A control that turns out to be wrong
-changes every past result that leaned on it. Find them, re-run them, say what moved. Do not wait to
-be asked.
+changes every past result that leaned on it. Find them, re-run them, say what moved. Do not wait to be
+asked.
 
 **Announce every change to this file in the reply that makes it.**
 

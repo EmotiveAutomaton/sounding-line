@@ -390,7 +390,8 @@ them rather than the thing itself.**
 | **W-1** | A reader moves further from its resting state for a human maker | **REJECTED (test)** | −0.005. **A clean measure and a real null**, and the measure the layer ratio replaced — *displacement from a resting state, in a model that has no self to be displaced from* |
 | **R-1** | A reader refuses differently on human and machine text | **VOID (test)** | Its pass condition was a coin flip — **a 50% false-positive rate by arithmetic** |
 | **W-1b** | Reader displacement varies more for machine text | **VOID (test)** | Three artifacts |
-| **L10** | How much of the specification is recoverable, in bits | **OPEN, running** | **The only measure that reports goal recovery on a scale rather than as a correlation**, which is what the convergence-rate question needs |
+| **L10** | How much of the specification is recoverable, in bits | **SUPPORTED (test), and it scales with the manipulation.** Win rate against 48 topic-matched decoys: **52.5% → 66.3% → 91.7%** as specifications go 10 → 10 → 60 (*p* = 0.20, 0.0008, 0.0005) | **The curator disputed the earlier ruled-out verdict on grounds of manipulation strength and was right.** On the extreme ladder, echo correlation is **−0.236** — negative, so the artifact is not repeating the prompt — and length correlation is +0.061. **It has never been run on the no-maker control** |
+| **L12** | The per-layer intent correlation transfers across architectures | **SUPPORTED (test), and the control is the stronger half.** 25 ladder runs across **11 model families from 0.35B to 3B**: 18 survive. **11 no-maker runs: 11 DEAD, zero false positives** | **The failures cluster by family, not by scale** — gpt2-large is dead on all three ladders while pythia-410m and SmolLM2-360M, both smaller, survive. **That points at tokenizer or training data rather than capacity**, and it means any claim naming a specific layer is model-specific |
 
 **What these add up to, and it is the most transferable lesson in the file.** The three reader-side
 measures that died all asked whether the reader's *state* differed — displacement, refusal,
@@ -398,6 +399,17 @@ displacement variance — and a reader's state is not stable enough to carry a s
 differ in length, register and vocabulary. **The one that survived asks about a ratio between two of
 the reader's own layers on the same text**, so those three confounds cancel before the measurement
 happens. **Design reader-side measures as within-text ratios, or expect them to die.**
+
+**And the two newest rows change how much weight the section carries.** Specification recovery
+(**L10**) is the first measure here that reports goal recovery **on a scale rather than as a
+correlation**, and it grew from ambiguous to a 91.7% win rate purely by strengthening the
+manipulation — **which retroactively explains why the earlier ruled-out verdict was premature rather
+than wrong.** The cross-architecture replication (**L12**) supplies the control the whole programme
+needed: **eleven no-maker runs across eleven families, all dead.** A measure that reads labels rather
+than text would have fired somewhere in eleven attempts. **What neither supplies is transferability
+of the *location*** — the surviving layers move by model and by corpus, so the measure generalises and
+the address does not. **L10 has not yet been given the no-maker control that made L12 credible**, and
+until it is, the strongest new result has one fewer control than the one beside it.
 
 **A methodological correction worth keeping, because it was mine and it was wrong.** I offered "neurons
 are plausibly natural units" as the disanalogy that makes interpretability unlike an electrode. He
