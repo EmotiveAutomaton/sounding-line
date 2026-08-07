@@ -348,7 +348,8 @@ time not using. **The essay already said the automatised decisions count; nothin
 | # | hypothesis | status | notables |
 |---|---|---|---|
 | **PD-11** | Function words carry maker *state*, not only identity | **AMBIGUOUS (test), and this project has been recording it as a clean negative.** With purpose and topic **fixed by construction**, function-word style separates four specified affect states at **45% against 25% chance — 1.80×, binomial *p* = 0.0047, 2.92 sd above chance.** The pre-registered pass needed 2.0×. **The threshold was missed; the effect is significant.** Per-affect: care 60%, seeking 50%, rage 40%, fear 30% | `results/d0b` |
-| **PD-11b** | The first attempt at PD-11 answered its own question | **VOID (test).** It ran at 38% power — its median outcome under a real effect was below its own threshold | `results/leakage` |
+| **PD-11b** | The first attempt at PD-11 answered its own question | **VOID (test).** It ran at 38% power — its median outcome under a real effect was below its own threshold | Superseded by L16 below |
+| **L16** | Function words separate specified maker states, once the design has power | **SEPARATES (test), on all three ladders, and it scales with the manipulation.** 0.320 / 0.330 / **0.467** against a chance of 0.200; pooled in threes, **0.600** on the extreme ladder | **The power fix worked but not for the stated reason.** The ladder is third-person and has almost no first-person content, so the separating information is in other function words entirely — **the original first-person diagnosis was right about that design and wrong as a general precondition.** Owed: the induction control, which killed all three text-feature candidates last time |
 | **PD-12** | Function words have spare capacity beyond author identity | **SUPPORTED (test).** Holding the author fixed, they separate *different works by the same person* at **twice chance**, every one of ten authors above chance | `FINDINGS.md` tier 2 |
 | **PD-13** | Asking a model *"what stance is performed"* reaches the leaked layer | **REJECTED by construction.** It returns a content-word judgement, so it is an **emblematic** instrument on both its outputs. **The leaked layer needs a different kind of measurement, not a differently-worded prompt** | — |
 | **PD-14** | Reading the model's activations reaches the leaked layer where its text does not | **SUPPORTED (test), and it became the live path.** *The model's activations are closer to the leaked layer than its outputs are — its text is emblematic, its internals are dimensional.* This is the low-order/high-order ratio in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §6 | `FINDINGS.md` L1 |
@@ -361,7 +362,10 @@ time not using. **The essay already said the automatised decisions count; nothin
     run was underpowered and VOID; the redo with purpose and topic fixed came back at 1.80x chance,
     p = 0.0047, MISSING a pre-registered 2.0x bar. Meanwhile the activation route -- the higher-ceiling
     option, needing machinery we did not have at the time -- was built and produced the project's only
-    replicated effect, and attention moved there.
+    replicated effect, and attention moved there. Then in 2026-08-07 the void was re-run at power on
+    all three ladders and SEPARATED on every one, at 1.6x to 3.0x chance, scaling with the strength of
+    the manipulation. So the cheap channel was never dead; it was measured three times at a sample
+    size that could not see it.
 
 **⚠ PD-11 is owed a re-run and has not had one.** The standing policy from the curator, adopted after
 this and applied everywhere since, is that **near-significance means raise the power, not report a

@@ -620,6 +620,48 @@ cleanly: **1,109 on noise against 6.9 on real activations.**
 **Verdict: VOID, all three runs.** Not biased — broken. **Every number that criterion produced is
 withdrawn**, and the participation ratio is the only one of the five that behaves.
 
+## L16 · Do function words separate specified maker states, at power?
+
+**Hypothesis.** Function words — pronouns, articles, prepositions, auxiliaries — are produced
+non-consciously and are topic-independent, so texts written under different specified states should
+separate on their function-word distribution. **This was recorded VOID at 38% power**: the original ran
+on ~380-word texts, where a first-person rate of 13.8 per 1,000 words gives **five tokens**, and the
+statistic divides by a within-group variance made almost entirely of Poisson noise on five counts.
+
+**Method.** Compute the rate per 1,000 words of 130 closed-class function words for each artifact,
+then classify which rung it came from, cross-validated, against a chance rate of 1/5. Run at three
+pooling levels — single artifacts, and artifacts concatenated in threes and fives within a rung — so
+the token count and the sample size trade off visibly rather than being chosen. **Each ladder is run
+separately**, because rung schemes differ between them and pooling the corpora would let the
+classifier identify the rung by identifying the corpus.
+
+**What we found.**
+
+| ladder | max specifications | single artifacts | pooled in 3s | pooled in 5s | chance |
+|---|---|---|---|---|---|
+| first, 50 | 10 | 0.320 | 0.400 | 0.300 | 0.200 |
+| held-out, 100 | 10 | 0.330 | 0.333 | 0.350 | 0.200 |
+| **extreme, 75** | **60** | **0.467** | **0.600** | **0.600** | **0.200** |
+
+*Cross-validated accuracy at predicting which rung an artifact came from, from function-word rates
+alone. Chance is 0.200 because there are five rungs.*
+
+**Verdict: SEPARATES on all three, and it scales with the manipulation.** 1.6× chance at ten
+specifications, **2.3× at sixty without pooling and 3.0× pooled.** That is the same scaling the
+specification-recovery measure showed, arrived at through a completely different channel — one reads
+the model's internals, this reads closed-class word rates with no model at all.
+
+**The void was a power failure and the redesign fixed it, but not the way the power analysis
+predicted.** Pooling was supposed to raise the first-person token count; **the ladder is written in
+the third person and has essentially no first-person content at all** — 0 to 17 tokens even pooled.
+**The separating information is in other function words entirely**, which means the original
+first-person-rate diagnosis was right about that design and wrong as a general precondition. **My
+verdict gate imported it and had to be corrected.**
+
+**Owed before this counts as a positive: the induction control.** Rung is how many specifications the
+prompt carried, so the classifier may be reading style the prompt *induced* rather than a maker state.
+**That control killed all three text-feature candidates last time and this has not had it.**
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

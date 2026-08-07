@@ -570,3 +570,31 @@ rather than specified**, and that is the single claim the whole build rests on.
 **The field's own warning applies to us first** — *"we have not seen any test scenarios being borrowed
 from other emotion-learning implementations."* **Everyone builds a bespoke gridworld and beats a
 strawman. Decide the fair non-emotional baseline before building.**
+
+### There is no positive channel, and that is a gap rather than an omission
+
+**Noticed 2026-08-07.** The eight concepts this project reads are **Panksepp's seven plus
+`none_recoverable`** — the *no maker-affect legible* class. **There is no happiness channel and no
+positive-valence channel.**
+
+> Happiness is often modelled as one of two things: either **positive valence of those need
+> networks**, or as **a conjoined channel that all seven of them have to not be inhibiting** in order
+> for happiness to flow.
+
+**Neither is represented.** Positive affect is currently distributed across seeking, play and care by
+implication, and never measured as such. **The two models he names are architecturally different** —
+one is a readout over the seven, the other is a gate requiring all seven to be un-blocked — **and they
+make different predictions about what should happen when a single channel is suppressed.** Under the
+readout account, suppressing one channel moves the positive signal a little. Under the gate account,
+suppressing any one channel should collapse it.
+
+| # | hypothesis | status | notables |
+|---|---|---|---|
+| **G73** | Positive affect is a readout over the seven channels | **OPEN** | Suppressing one channel should move it proportionally |
+| **G74** | Positive affect is a conjoined gate requiring all seven to be un-inhibited | **OPEN** | **Suppressing any single channel should collapse it** — a sharp, cheap dissociation between the two accounts |
+
+**What these add up to.** Nothing has been run and the channel does not exist in our instrument, **so
+every affect reading this project has produced is blind to positive affect except where it leaks
+through seeking, play or care.** That is a real limit on the eight-concept design rather than a
+refinement of it, and **the two accounts are separable by a single suppression experiment**, which
+makes this cheaper to settle than most things in this file.

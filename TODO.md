@@ -293,3 +293,31 @@ specifications to sixty.** These follow directly from it.
 | **G71 · why does gpt2-large fail everywhere?** | The per-layer correlation is DEAD on all three ladders in gpt2-large while smaller models survive | **Failures cluster by family, not by scale.** Points at tokenizer or training data rather than capacity. Cheap diagnostic: does gpt2-large also fail the affect-direction fit that everything else passes? | ~1 h |
 
 | **G72 · why does the middle not move?** ★ | Coherence falls with rung at early and late depths and **does not move in the middle**, replicated across three ladders. Is that the noisy middle the architecture predicts, or an insensitivity of the coherence measure at that depth? | **Discriminate with a positive control**: construct a manipulation the middle *must* respond to and check the measure detects it there. If it does, the null is real and it is a dissociation in the load-bearing band | ~2 h |
+
+## The void audit — 2026-08-07
+
+**Every result recorded VOID or INCONCLUSIVE, re-assessed against what we now hold that we did not
+then: eleven model families, a length-controlled extreme ladder, a no-maker corpus, 86 humans × 3
+drafts, six years of topic-controlled style-change data, 43k human-labelled emotion comments, and a
+GPU.**
+
+| | what was voided | why it died | re-runnable now? |
+|---|---|---|---|
+| **V1 · the founding question** ★ | *Some measure ranks five rungs of specified intent* | Voided on its own pre-registered ceiling: rung and length correlate at 0.40 against a 0.40 limit | **YES, and the ceiling itself was wrong.** The 0.40 is a *rank* correlation over a **4.2% length spread** — 58 words on a 1,400-word median. Ladder 3 halves the spread to 1.9% and the rank correlation is unchanged at 0.414, because Spearman is scale-free. **A criterion that cannot tell a 4% difference from a confound.** Re-scoring now |
+| **V2 · reader displacement varies more for machines** | Three artifacts | pure sample size | **YES, trivially.** 150 ladder artifacts, 36 no-maker, 86 authors × 3 drafts |
+| **V3 · a reader refuses differently on human and machine text** | Pass condition had a **50% false-positive rate by arithmetic** | broken threshold, not broken design | **YES**, with a pre-registered threshold and power computed before the run |
+| **V4 · function words separate maker states** | 38% power | short texts — at 380 words the pronoun rate gives **five tokens**, and the statistic divides by a variance made of Poisson noise on five counts | **YES, on longer text.** The 34-book corpus is 22M characters; ladder artifacts are 1,400 words. **D-0's own power analysis says exactly what to fix** |
+| **V5 · purpose × affect separability** (D-0) | Same cause as V4 — the design could not have detected what it looked for at that text length | | **YES, same fix** |
+| **V6 · affect-isolated decomposition** | Shuffling the labels changed the count not at all — found Reddit text confounds topic with emotion | the isolation step never ran | **YES, with topic-controlled generation** rather than found text |
+| **V7 · half A contains more recoverable method than half B** (Gate 3) | Statistic reads a large positive where truth is zero; **and 76 features separate the halves**, so almost any measure would | corpus is confounded and has been read too many times | **NO on that corpus.** Needs a fresh one, and the question should be re-specified as singularity of terminal value |
+| **V8 · the values vertex carries no information** | A single-artifact model cannot represent a quantity defined only across artifacts | | **NO — a build, not a re-run.** Scoped in `../sim/` |
+
+**Six of eight are re-runnable, and two of those were killed by a criterion rather than by a result.**
+
+| | the run | cost |
+|---|---|---|
+| **V1** | re-score the extreme ladder now that the ceiling is understood | running |
+| **V2** | displacement variance at n = 150 rather than n = 3 | ~1 h |
+| **V3** | refusal with a threshold whose false-positive rate is computed first | ~1 h |
+| **V4 / V5** | function-word separability on book-length text | ~2 h |
+| **V6** | affect decomposition on topic-controlled generated stories | ~4 h |
