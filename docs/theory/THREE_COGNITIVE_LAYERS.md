@@ -236,7 +236,11 @@ two from stopping when the circumplex appeared; 49 and 93 from a criterion that 
 on pure noise. **The one number that behaves differently is ~25** — raising the offered word list from
 34 to 80 did *not* inflate it, and it was recovered against brain data rather than against more words.
 **That is the only count in the field with a ceiling test behind it, and it sits far above seven.**
-Which is his prediction, arrived at by someone else, for a quantity he was not claiming.
+Which is his prediction, arrived at by someone else, for a quantity he was not claiming. **And both
+of our own attempts at the count are now instrument-dead — the first to a criterion that returns
+components from noise (L8), the second to the four defects the audit confirmed (L9, L26/G106) — so
+this project currently holds no count of its own, and the ~25 stands on the field's ceiling test
+alone.**
 
 ## §5. Leaked and emblematic — the affect vocabulary
 
@@ -367,19 +371,17 @@ side (L25): the middle third's activity profile — mostly a *quiet* middle, not
 one — shows the same distribution on the no-maker control. Architecture again. (The coherence half of
 that test fell with the statistic — L26/G105; the quiet-middle reading is activity-only and stands.)
 
-**The 2026-08-07 readouts sharpen that and cost the section two predictions.** The magnitude peak sits
-at **layer 2 regardless of rung, in every ladder** — fully architectural, exactly as the profile
-result said, and it does not move with intent (**G69**). And **coherence among the eight affect
-concepts falls as specification rises**, replicated across three ladders, where the prediction was
-that late coherence would *rise* when the goal is clear (**G33**).
-
-**The direction is wrong but the pattern is informative, and the informative part is where it is
-absent.** Early and late bands both lose coherence as intent rises; **the middle band does not move at
-all, in any of the three corpora.** So specifying more intent makes the affect concepts *scatter* at
-the ends and leaves the middle untouched — **which is a dissociation between the middle and the rest,
-found by a test that was not looking for one, in the band this file says is load-bearing.** Whether
-that is the noisy middle of §6b or an insensitivity of the coherence measure at that depth is not
-something this run can say.
+**The 2026-08-07 readouts sharpened the magnitude half, and the audit then took the coherence half
+away (L26).** What stands: the magnitude peak sits at **layer 2 regardless of rung, in every
+ladder** — fully architectural, exactly as the profile result said — and in Qwen it does not move
+with intent (**G69**; the cross-family "shifts deeper" revival was an argmax artifact, withdrawn,
+re-runs queued). What does not stand: everything this section briefly said about **coherence** — the
+falling direction, the Qwen inversion, and the untouched-middle "dissociation found by a test that
+was not looking for one." **The statistic cannot register agreement — the eight fitted directions sum
+to zero by construction — so those patterns were readings of an arbitrary axis, and they are
+withdrawn rather than reinterpreted (G33 → VOID-INSTRUMENT; G105 is the rebuild).** The §6e
+prediction — late coherence rises when the goal is clear — is back to **untested, not rejected**: the
+one instrument pointed at it could not have seen it either way.
 
 ## §7. The interpretability angle — the low-order to high-order ratio
 
@@ -404,15 +406,15 @@ them rather than the thing itself.**
 
 | # | hypothesis | status | notables |
 |---|---|---|---|
-| **L1** | The ratio falls as specified intent rises, where register is fixed by construction | **SUPPORTED (test), replicated, passed every control we own** — held-out at −0.247 (*p* = 0.013), −0.405 length-controlled, surviving induction at −0.26 (*p* = 0.009) | **The only effect in this project that requires local word order.** Length *hides* it rather than causing it — a suppressor, not a confound. **And under the rebuilt fair control (L23) it survives all three ladders at −0.42 to −0.52, every *p* ≤ 0.0004 — stronger after the control than before it** |
+| **L1** | The ratio falls as specified intent rises, where register is fixed by construction | **SUPPORTED (test), replicated, passed every control we own** — held-out at −0.247 (*p* = 0.013), −0.405 length-controlled, surviving induction at −0.26 (*p* = 0.009) | **The only effect in this project that requires local word order.** Length *hides* it rather than causing it — a suppressor, not a confound. **And under the rebuilt fair control (L23) it survives all three ladders at −0.42 to −0.52, every *p* ≤ 0.0004 — stronger after the control than before it.** Outside Qwen the sign flips (L28): gpt2-medium mirrors it at equal strength, pythia and SmolLM2 are null — **real in at least two architectures, and the sign is a family property** |
 | **L1** | The ratio discriminates human from machine text | **REJECTED (test)** | **It keeps 99% of itself when every sentence is reordered**, and tracks register — commercial copy sits a quarter of the way toward machine text |
 | **B-1** | Affect directions exist in a reading model and are not word-counting | **SUPPORTED (test)** | Four times chance while a word-counting model scored **exactly** chance. **Accuracy concentrated at two depths with a dead zone between** — the observation that started the whole depth programme |
 | **L6** | The ratio moves the same direction for revision as for specified intent | **REJECTED (test)** | **The sign is the interesting part.** It falls with specification and **rises** with revision — so if both are real, *revising* and *being told more about the situation* are different operations and the instrument distinguishes them. From a *p* = 0.053 result, so treat as a prediction |
 | **W-1** | A reader moves further from its resting state for a human maker | **REJECTED (test)** | −0.005. **A clean measure and a real null**, and the measure the layer ratio replaced — *displacement from a resting state, in a model that has no self to be displaced from* |
 | **R-1** | A reader refuses differently on human and machine text | **VOID (test)** | Its pass condition was a coin flip — **a 50% false-positive rate by arithmetic** |
 | **W-1b / L21** | Reader displacement varies more for machine text | **REJECTED (test) at n = 261.** All four corpora indistinguishable — displacement variance 0.209–0.216, *p* ≥ 0.71 against no-maker | **The informative null the three-artifact void could not supply.** Third confirmation: reader *state* carries nothing; within-text ratios do |
-| **L10 / L19** | How much of the specification is recoverable, in bits | **SUPPORTED (test), scales with the manipulation, and now controlled.** Win rate against 48 decoys: **52.5% → 66.3% → 91.7%** as specifications go 10 → 10 → 60. **Shuffling the artifact–specification link collapses it to 1.3% against a 2.0% chance rate.** Doubling to 96 decoys costs 1.7 points while chance halves | **The curator disputed the earlier ruled-out verdict on grounds of manipulation strength and was right.** Echo correlation is **−0.236** — negative, so the artifact is not repeating the prompt. **The best-supported measure in the project** |
-| **L12** | The per-layer intent correlation transfers across architectures | **SUPPORTED (test), and the control is the stronger half.** 25 ladder runs across **11 model families from 0.35B to 3B**: 18 survive. **11 no-maker runs: 11 DEAD, zero false positives** | **The failures cluster by family, not by scale** — gpt2-large is dead on all three ladders while pythia-410m and SmolLM2-360M, both smaller, survive. **That points at tokenizer or training data rather than capacity**, and it means any claim naming a specific layer is model-specific |
+| **L10 / L19** | How much of the specification is recoverable, in bits | **SUPPORTED (test), scales with the manipulation, and now controlled.** Win rate against 48 decoys: **52.5% → 66.3% → 91.7%** as specifications go 10 → 10 → 60. **Shuffling the artifact–specification link collapses it to 1.3% against a 2.0% chance rate.** Doubling to 96 decoys costs 1.7 points while chance halves | **The curator disputed the earlier ruled-out verdict on grounds of manipulation strength and was right.** Echo correlation is **−0.236** — negative, so the artifact is not repeating the prompt. **Audit bound (L26): the extreme ladder's top rungs exhaust the decoy pool, so those contests are not the 49/97-way their chance figures claim — the clean rungs alone still carry +0.53.** Still the best-supported measure here, now with its resolution honestly bounded; the pre-registered echo restriction is finally implemented and queued |
+| **L12** | The per-layer intent correlation transfers across architectures | **SUPPORTED (test); the control claim corrected by the audit (L26).** 25 ladder runs across **11 model families from 0.35B to 3B**: 18 survive. The no-maker verdict gate **could not fail** (NaN); re-adjudicated, **5 of 11 fire — at luck-level rates overall, but the flagship's fires overlap its own surviving layers, with layer 21 firing everywhere.** A permutation null decides it (G107) | **The failures cluster by family, not by scale** — gpt2-large is dead on all three ladders while pythia-410m and SmolLM2-360M, both smaller, survive. **That points at tokenizer or training data rather than capacity**, and it means any claim naming a specific layer is model-specific |
 
 **What these add up to, and it is the most transferable lesson in the file.** The three reader-side
 measures that died all asked whether the reader's *state* differed — displacement, refusal,
@@ -425,9 +427,11 @@ happens. **Design reader-side measures as within-text ratios, or expect them to 
 (**L10**) is the first measure here that reports goal recovery **on a scale rather than as a
 correlation**, and it grew from ambiguous to a 91.7% win rate purely by strengthening the
 manipulation — **which retroactively explains why the earlier ruled-out verdict was premature rather
-than wrong.** The cross-architecture replication (**L12**) supplies the control the whole programme
-needed: **eleven no-maker runs across eleven families, all dead.** A measure that reads labels rather
-than text would have fired somewhere in eleven attempts. **What neither supplies is transferability
+than wrong.** The cross-architecture replication (**L12**) was to supply the control the whole programme
+needed — **and the audit found its verdict gate could not fail (L26).** Re-adjudicated, the no-maker
+runs fire at roughly the rate luck supplies, except that the flagship's fires sit on its own
+surviving layers — **so the control now flags a question instead of answering one (G107).**
+**What neither supplies is transferability
 of the *location*** — the surviving layers move by model and by corpus, so the measure generalises and
 the address does not. **L10 has not yet been given the no-maker control that made L12 credible**, and
 until it is, the strongest new result has one fewer control than the one beside it.
@@ -475,7 +479,7 @@ that is not what is happening.
 | # | hypothesis | status | notables |
 |---|---|---|---|
 | **G40** | There is a coherent affect subspace at all, consistent across families | **SUPPORTED (test).** 4-6x its null at maximum layer distance, in every family | **The rotation rate is consistent across families even though the magnitude profile is not** — so it was the profile that was the wrong measure, not the idea |
-| **G42** | The affect subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at **layer 2** beats any three-band split in all four families; distance alone explains 69-81% of the alignment matrix | **The one strong break is very early**, where G20b puts the text-transformation boundary. But see G43 |
+| **G42** | The affect subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at **layer 2** beats any three-band split in all four families; distance alone explains 69-81% of the alignment matrix | **The one strong break is very early**, where G20b puts the text-transformation boundary. But see G43. **Two-band split tested in the original four families only — the seven runs the audit surfaced (L26) are owed the same test** |
 | **G43** | The layer-2 break is affective, not an artifact of proximity to the embedding | **OPEN, and it gates how G42 reads** | Cheap. Needs a non-affective control subspace measured identically |
 | **G39** | The three layers are subspaces rather than depths | **REJECTED (test)** | — |
 

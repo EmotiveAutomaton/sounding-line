@@ -32,7 +32,7 @@ brings, and it is the first thing to consult before proposing that some combinat
 
 | heuristic | measured strength | against what baseline | status |
 |---|---|---|---|
-| **polish variation within an artifact** (§1) | **0.565** macro-F1 on the field's topic-controlled task | floor **0.444**, published best **0.830** | real, **not competitive.** A third of the way from floor to bar |
+| **polish variation within an artifact** (§1) | **0.565** macro-F1 on the field's topic-controlled task; **0.969 on the easy split, above its published best of 0.959** (audit-surfaced orphan, L26) | floor **0.444**, bar **0.830** (topic-controlled) / **0.959** (easy) | real, **not competitive where topic is controlled** — and above the bar where it is not, which probably means topic is doing the work there |
 | **reading enters at an anomaly** (§2) | — | — | never measured. The simulation says stage order changes the answer by **exactly zero**, so expect a cost saving |
 | **the confidence trajectory** (§3) | — | — | never measured; we have only ever kept means |
 | **depth as a relation to a domain** (§4) | — | — | **blocked on a corpus that does not exist** |
@@ -50,8 +50,9 @@ is mediocre. **The same number means opposite things depending on what it is nex
 induction check is a strength recorded for something that may be reading the prompt. **The one
 measured row above has been through its controls; anything added must be too.**
 
-**What the table currently says.** One of seven heuristics has a number, and that number is
-uncompetitive. **Six of the seven have never been measured at all, and three of those are blocked on
+**What the table currently says.** One of seven heuristics has a number — uncompetitive on the
+topic-controlled task, above the published bar on the uncontrolled split, which is probably topic
+riding rather than the heuristic (L26). **Six of the seven have never been measured at all, and three of those are blocked on
 things we could actually get** — an hour of his time, an effort proxy, and one corpus. **The stacking
 question cannot be asked yet**, because there is nothing to stack: you cannot combine one measured
 signal with six unknowns and predict anything about the combination.
