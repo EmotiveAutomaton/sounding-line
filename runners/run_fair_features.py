@@ -27,7 +27,7 @@ sys.path.insert(0, str(REPO))
 
 RESULTS = REPO / "results" / "fair_features"
 LADDERS = {"ladder": (70000, "base"), "ladder2": (90000, "base"), "ladder3": (110000, "extended")}
-PATTERNS = {"conditionals": ["cond"], "contractions": ["contr"], "coordination": ["coord", "phc"]}
+PATTERNS = {"conditionals": ["biber_cond"], "contractions": ["biber_cont"], "coordination": ["biber_phc"]}
 
 
 def main() -> None:
