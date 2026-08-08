@@ -322,7 +322,8 @@ GPU.**
 | **V4 / V5** | function-word separability on book-length text | ~2 h |
 | **V6** | affect decomposition on topic-controlled generated stories | ~4 h |
 
-| **G75 · rebuild the induction control with the dose removed from its regressors** ★★ | **The audit found the mechanism (L22): the indicator matrix's row-sum IS the rung**, so the control absorbs the true effect at a rate set by the regulariser, and at ladder3's top rung (pool = 60, all drawn) the regressor block is constant | **Centre the indicator within rung** — test whether *which* specs were drawn predicts the measure orthogonally to *how many* — and re-run every induction verdict: L1, L2's three kills, L17. **This is the control the design intended and it has never been run** | ~2 h ★ first |
+| **G100 · re-test L2's three killed candidates under the fair control** ★ | Conditional constructions, contractions and phrasal coordination were killed by the dose-eating control (L22/L23). **A feature that genuinely tracks dose would have been killed the same way** | **CPU-only**: cached feature values + the verified spec reconstruction + within-rung centring. If any candidate survives, L2's verdict partially reverses | ~1 h |
+| **G101 · add L23's p-values to `audit_multiplicity.py`** | the standing rule | mechanical | minutes |
 
 ## Corpus sourcing — 2026-08-07, the one-maker-many-kinds problem
 

@@ -162,13 +162,19 @@ asked.
 
 **Announce every change to this file in the reply that makes it.**
 
-## Subagents — FORBIDDEN (2026-08-08, his instruction, token limits)
+## Subagents — only when he asks (policy corrected 2026-08-08)
 
-**Spawn nothing.** No Agent tool, no Workflow tool, no research fleets, no "just one quick search
-agent." The standing authorisation from 08-05 is **suspended by the curator explicitly** — a nine-agent
-audit fleet burned the session limit mid-flight. **Do all nine audit scopes and all research inline,
-yourself, slowly.** Do not resume workflow `wf_8f6826fa-9ee`. He may restore a fleet later; until he
-says so in his own words, this rule wins over every older instruction in this file.
+**Spawning requires his explicit request, per task.** The 08-05 standing authorisation (spawn at my
+discretion) is retired; the 08-08 blanket ban was a **temporary token measure that I over-wrote as
+permanent — corrected**. Now:
+
+- **He asks for research agents → spawn them**, briefed per the process below.
+- **He says "ultracode" → use the Workflow tool**, sized conservatively unless he says otherwise.
+- **Otherwise all research and audit work is inline.** No self-initiated fleets or "one quick agent."
+
+Briefing rules when he does ask: **fetch sources rather than trusting snippets; search adversarially;
+their report opens with the word `Subagent`** so he can tell their text from mine; their output is a
+report, not a result, and owes the READ-vs-SNIPPET sourcing standard.
 
 ## How to search
 

@@ -11,10 +11,9 @@
 
 ## ⚠ HARD CONSTRAINTS, SET BY THE CURATOR 2026-08-08
 
-1. **NO SUBAGENTS. NONE.** No Agent tool, no Workflow tool, no research agents, no fleets. The
-   standing authorisation from 08-05 is **suspended by him, explicitly** — token limits. Do all nine
-   audit scopes and all research **inline, yourself, slowly**. He may restore a fleet later; until he
-   says so in his own words, spawn nothing. **Do not resume workflow `wf_8f6826fa-9ee`.**
+1. **SUBAGENTS ONLY WHEN HE ASKS** (corrected 2026-08-08 — the blanket ban was temporary and I
+   over-wrote it). He asks → spawn, briefed per CLAUDE.md; he says "ultracode" → Workflow tool,
+   conservatively sized; otherwise inline. The 08-05 spawn-at-discretion authorisation stays retired.
 2. **Token conservation.** Most important work first; batch tool calls; no polling loops; keep
    replies dense. The session usage limit was hit once already (9-agent fleet died mid-flight).
 3. **Model is now Fable at max effort** (was Opus at medium for most of the project — he considers
@@ -73,7 +72,7 @@ Format spec is in `docs/theory/README.md`. Per file, in this order:
 
 ## Open decisions / owed
 
-- **G75 result → re-adjudicate L1 / L2 / L17 in FINDINGS and theory tables when it lands.**
+- **G75 DONE (L23): survives all three ladders −0.42 to −0.52, p ≤ 0.0004; L17 resolved; L2's kills owed the G100 re-test.**
 - The four-file corpus problem (one maker, many kinds): CROSSNEWS = pseudo-documents only;
   Guardian (13 authors) better kind-contrast; CMCC = email the authors (C-32a).
 - Interest ratings on his 15 artifacts — owed by him, cheapest instrument test (HH-14).

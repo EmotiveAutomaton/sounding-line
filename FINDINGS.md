@@ -152,6 +152,8 @@ keeping visible:** removing specification identity *alone* weakens the effect to
 being significant; it only firms up when length is removed as well. That is consistent with length
 suppressing it, but it is not a clean pattern.
 
+**Fair-control update, 2026-08-08 (L23):** under the rebuilt induction control with the dose removed from its regressors, the effect survives **all three ladders at −0.42 to −0.52, every *p* ≤ 0.0004** — stronger than the old numbers, which a dose-eating control had suppressed.
+
 **Verdict: OPEN, replicated, and it has now passed every control we own** — held-out replication with
 settings frozen, length, word-order granularity, noise ceiling, and induction. It does not become
 POSITIVE for a non-statistical reason: **every rung is machine-written by the same model.** Whether it
@@ -891,6 +893,45 @@ design intended. Queued as the sharpened G75.
 **Verdict: CONFIRMED defect in the control's construction; no verdict changes sign, but two verdicts
 change meaning.** Found by reading, verified by arithmetic, and it is the most useful thing the audit
 day produced.
+
+## L23 · The fair induction control — the effect survives all three ladders, and gets stronger
+
+**Hypothesis.** L22 showed the induction control's regressors contain the dose (row-sum of the
+spec-indicator = rung), so every prior induction verdict was set by the regulariser. **If the effect
+is real, it should survive a control with the dose arithmetically removed; if the old control was
+eating it, the effect should come back *stronger* under the fair one.**
+
+**Method.** `run_induction_v2.py`: centre the specification-indicator matrix **within each rung
+stratum**, so it carries only *which* specifications were drawn given *how many*. Out-of-fold ridge
+prediction from the centred matrix, removed along with length; old control run alongside. The
+smoking-gun diagnostic is each control's own prediction correlated with rung — **the dose leak,
+measured directly.** Per-artifact rows saved, so re-analyses are CPU-only.
+
+| ladder | old control's dose leak | old both-removed | **fair both-removed** | *p* |
+|---|---|---|---|---|
+| first (n=50) | −0.476 | −0.386 (*p* = 0.006) | **−0.484** | **0.0004** |
+| held-out (n=100) | −0.450 | −0.259 (*p* = 0.009) | **−0.422** | **< 0.0001** |
+| **extreme (n=75)** | **−0.778** | −0.207 (*p* = 0.074) | **−0.516** | **< 0.0001** |
+
+*"Dose leak" is the correlation between the control's own prediction and rung — how much of the
+treatment the control was absorbing. The fair control's leak is +0.10 / +0.06 / −0.02: ~zero by
+construction, as designed.*
+
+**What we found.** Everything L22 predicted, quantitatively. The old control was predicting the dose
+— at **−0.778** on the extreme ladder, it was mostly a rung detector. **Under the fair control the
+effect survives on all three ladders at −0.42 to −0.52, every *p* ≤ 0.0004, and is *stronger* after
+the control than the old numbers suggested** — including on the first ladder, whose raw correlation
+was only marginal (*p* = 0.053).
+
+**What it re-adjudicates.** **L17's extreme-ladder "failure" was entirely the control's** — with the
+dose removed from the regressors, the strongest manipulation shows the strongest controlled effect,
+which is the dose-response shape the founding question wanted. **L1 now survives a fair control, not
+merely a conservative one.** And **L2's three killed candidates were killed by the dose-eating
+control** — they are owed a CPU-only re-test under the fair one (G100) before their deaths stand.
+
+**Verdict: OPEN and the strongest result in the project.** The low-order/high-order ratio tracks
+specified intent after removing length and within-rung specification identity, replicated across
+three independently generated corpora at three manipulation strengths.
 
 ## L4 · Can weak effects be stacked into a detector?
 
