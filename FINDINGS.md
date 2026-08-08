@@ -374,7 +374,9 @@ fixed — is the one the literature has not pre-empted.
 requirement and enter the analysis** (the recorded n; the undisclosed drop was an audit find, L26).
 **Audit correction (L26): the hand-rolled Benjamini–Yekutieli ran its monotonicity pass in the wrong
 direction** — strictly more conservative than BY, so "0 wobble survivors" was never established under
-the pre-registered procedure; corrected and re-run 2026-08-08, raw p-values now persisted.
+the pre-registered procedure; corrected and re-run 2026-08-08, raw p-values now persisted. **Outcome: the verdict stands — 0
+wobble survivors and 12 average survivors under correct BY too. The conclusion was right; its
+arithmetic was not.**
 Split each draft into fixed windows,
 computed each feature's **coefficient of variation** across windows — its wobble relative to its own
 size — and compared draft 1 against draft 3, paired within author. Also computed the ordinary
@@ -702,7 +704,9 @@ classifier identify the rung by identifying the corpus. **The runner's own defau
 pooling until 2026-08-08 (audit L26) — and it wrote every run to one filename, so the held-out and
 extreme raw files were overwritten before their only commit. The held-out and extreme rows below
 survived only in this text.** Both defects fixed (single-corpus default, per-corpora filenames,
-corpora recorded inside the JSON); both arms re-run 2026-08-08 to restore primary records.
+corpora recorded inside the JSON); both arms re-run 2026-08-08 to restore primary records. **Restored: held-out 0.330/0.333/0.350,
+extreme 0.467/0.600/0.600 — matching the destroyed rows to the digit** (seeded pooling), so every
+number in the table below has a file behind it again.
 
 **What we found.**
 
@@ -1094,6 +1098,50 @@ against the code that produced them — something no amount of re-running does, 
 caught what the battery could not. Same-day: eight runners repaired, four readout re-runs and the
 pre-registered echo restriction queued, instrument rebuilds and the permutation null opened as
 G105–G108.
+
+## L27 · Is the first layer binary salience? No — it already knows which emotion
+
+**Hypothesis.** *(His, asked directly: "the initial layer is binary saliency, do you think?")* Layer
+0 should carry *whether* affect is present at near-full strength while carrying *which* emotion at
+chance — a double dissociation.
+
+**Method.** `run_binary_salience.py`: per layer, two cross-validated linear probes on 1,113
+human-labelled GoEmotions comments — emotional-versus-neutral (balanced binary, chance 50%) and
+27-way which-emotion among the emotional items (chance 3.7%).
+
+**Verdict: NO DISSOCIATION — and the failure runs in the informative direction.** Layer 0 carries
+*category* at **8.4× chance** (31.2% of 27-way) — the first layer is not category-blind, which the
+salience hypothesis requires. Presence at layer 0 is undetectable (48.7%, a coin flip) — though that
+half is under-powered (only 40 neutral items survive the length filter; a better-powered presence
+probe is cheap if wanted). Across depth, category peaks at layer 10 and presence at layer 20 — the
+reverse ordering of the hypothesis, and evidence for the layer-ordering question (G20a/G20b) once
+the presence curve gets real power.
+
+## L28 · The fair-control flagship outside Qwen: the sign is a family property
+
+**Hypothesis.** L23's flagship — the early/late affective-activation ratio tracking specified intent
+through the fair within-rung control — should replicate in other reader families if it reads makers
+rather than one architecture.
+
+**Method.** `run_induction_v2.py --model` on the held-out ladder for three non-Qwen families, same
+relative loci (7% and 76% of depth), same fair control, model-tagged output files.
+
+| family | raw | old control | **fair control** | *p* | dose leak, old → fair |
+|---|---|---|---|---|---|
+| Qwen-1.5B (flagship) | −0.247 | −0.259 | **−0.422** | **< 0.0001** | −0.45 → +0.06 |
+| gpt2-medium | +0.499 | +0.042 | **+0.514** | **< 0.0001** | +0.68 → −0.27 |
+| pythia-1.4b | +0.212 | +0.041 | +0.163 | 0.105 | +0.41 → −0.12 |
+| SmolLM2-360M | +0.067 | −0.050 | +0.014 | 0.889 | +0.27 → +0.04 |
+
+*"Dose leak" is each control's own prediction correlated with rung — the L22 diagnostic. The old
+control leaks everywhere; the fair one does not.*
+
+**Verdict: REJECTED as universal.** All three recorded DEAD — the pre-registered rule requires the
+negative direction Qwen shows. But **gpt2-medium is the mirror image at equal strength**: its ratio
+*rises* with intent and survives the same fair control at the same significance. Two families are
+null. Same lesson as the per-layer map: **the measure reads something real in more than one
+architecture, and its sign is a family property** — fixed depth fractions straddle different
+machinery in different families. The gpt2 mirror is a lead, not a failure (G112).
 
 ## L4 · Can weak effects be stacked into a detector?
 
