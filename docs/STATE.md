@@ -31,7 +31,7 @@
 
 ## Renaming, done 2026-08-08
 
-**THE_TRIPLE_INFERENCE.md → THE_TRIPLE_INFERENCE.md**, references updated repo-wide, his choice.
+**THE_EMPATHY_TRIANGLE.md became THE_TRIPLE_INFERENCE.md**, references updated repo-wide, his choice.
 **The provenance must never be lost:** he is *specifically modelling human empathy* — the process he
 believes human empathy is. "Triple inference" names the mechanism; empathy remains the phenomenon.
 His words to that effect are the second blockquote of the renamed file. TR- identifiers unchanged.
