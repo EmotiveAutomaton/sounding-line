@@ -64,9 +64,10 @@ Format spec is in `docs/theory/README.md`. Per file, in this order:
 - **Day loop:** one detached shell (survives sessions), lock in `results/.loop.lock`; stop with
   `kill $(cat results/.loop.lock)`. Night: `bash run_forever_night.sh [hours] [workers]` (refuses
   while day loop runs). Queue has pid lock + `--shard/--shards`.
-- **STAGES now:** `run_induction_v2.py` on ladder2 / ladder3 / ladder — **the rebuilt within-rung
-  induction control (G75★★), which re-adjudicates L1, L2's kills, and L17** — then the two audits.
-  It saves per-artifact rows so future re-analyses are CPU-only.
+- **STAGES now (refilled 2026-08-08, ~7 h):** G21 binary salience → G103 fair-control induction on
+  three non-Qwen families (outputs are model-tagged; the untagged name would have overwritten the
+  flagship file — fixed in the runner first) → G104 matrix fill: 4 depth-readout families, then 8
+  depth sweeps (4 families × first/extreme ladders) → guarded standing stages → the two audits.
 - Every stage must carry a `produces` guard. Verify hash locks + read `git status` deletions before
   every commit (CLAUDE.md hard rule, born of the SPEC deletion).
 

@@ -74,6 +74,7 @@ families.** The honest version, because the honest version is the point.
 
 | | |
 |---|---|
+| **The flagship, under a fair induction control** | The old induction control's regressors *contained the dose it claimed to remove* (L22). With the dose arithmetically removed instead, **the effect survives on all three independently generated corpora and gets stronger** — and three published linguistic features it had killed revive the same way, nine of nine tests (L23, L24) |
 | **The per-layer intent correlation** | Correlation between how much intent a prompt specified and the reader's affective signal, computed layer by layer. **25 runs across 11 model families, 18 survive.** And the control that matters: **11 no-maker runs, all dead, zero false positives** |
 | **Specification recovery** | How much of a prompt's specification can be recovered from the artifact, against 48 topic-matched decoys. **Win rate 52.5% → 66.3% → 91.7% as specifications go from ten to sixty** — it scales with the strength of the manipulation |
 | **Function words against specified state** | Closed-class word rates classify which rung an artifact came from at **1.6× to 3.0× chance**, scaling the same way. **No model involved.** Two independent channels agreeing on the same scaling is worth more than either |
@@ -83,7 +84,9 @@ families.** The honest version, because the honest version is the point.
 ### What died, and why it is the useful half
 
 **Every measure that reads the *artifact* has died — to length, then register, then vocabulary, in
-that order.** Decision density was word count, then vocabulary diversity. Of 342 published linguistic
+that order.** **Dated correction (2026-08-08): the final three kills were the broken control's, not
+the features' — all three revive under the fair control, on all three ladders (L24). The deaths to
+length and register stand.** Decision density was word count, then vocabulary diversity. Of 342 published linguistic
 features, **61 of the 81 that replicated were machine-detectors**; the three survivors died to a test
 of whether the prompt *caused* a feature without *containing* it.
 
@@ -94,7 +97,7 @@ layer 2 to layer 47. **The bimodal profile this project once reported was a two-
 **Gate 3, the primary for a month, is void twice over** — its statistic reads a large positive where
 the truth is zero, and 76 features separate its two halves, so almost any measure would.
 
-### Three criteria that could not do their own job
+### Four criteria that could not do their own job
 
 **This is the recurring failure and it is worth more than any single result.**
 
@@ -102,6 +105,8 @@ the truth is zero, and 76 features separate its two halves, so almost any measur
     parallel analysis             returned 335 components on pure Gaussian noise
     the ladder's length ceiling   voided the founding question on a rank correlation over a
                                   4% length difference
+    the induction control         its regressors contained the dose -- what it "controlled
+                                  away" was the treatment itself
 
 **A standing rule now covers it: run every measure on data whose answer you already know, before
 running it on data whose answer you don't.** Noise in, zero out.

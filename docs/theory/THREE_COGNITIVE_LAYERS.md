@@ -348,7 +348,7 @@ ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 | **L14** | The depth profile carries information about the maker | **RULED OUT (test).** Peak location is **identical between ladder and no-maker in every one of nine models** | **The peak sits at layer 2 of 29 in Qwen-1.5B and layer 47 of 49 in gpt2-xl**, with no relation to size or depth — **so no claim naming a specific depth transfers** |
 | **L1** | Per-layer correlation with specified intent carries information | **SUPPORTED (test)** | **Two independently generated ladders agree at 0.97** on which layers carry it — the strongest replication in the project |
 | **G22** | The trimodal structure is recoverable in the *residual* after fitting a single peak | **OPEN** | His, and **nobody in the field has looked for it** |
-| **G31** | The middle layer is high-activity and low-coherence | **OPEN** | Never isolated from the bimodal profile's death, so it has never actually been tested |
+| **G31** | The middle layer is high-activity and low-coherence | **REJECTED (test, L25)** | Isolated from the bimodal profile at last: the signature appears in **2 of 25** maker-corpus sweeps. The modal pattern is the **opposite — a *quiet* middle** (12/25), the no-maker control shows the same distribution, and which pattern a model shows is set by its family. Architecture, not makers |
 | **G32** | Polish correlates with late-layer structure, leakage with early | **OPEN** | Uses measures we already own on both sides |
 | **G33** | Late-layer coherence rises with how clearly the goal is specified | **REJECTED (test) as universal; family-conditional form OPEN.** In Qwen coherence falls with rung at both ends; **in SmolLM2-360M it RISES at every band — the predicted direction**; gpt2 and pythia are positive early/middle, negative late | **The only near-universal: late-band coherence falls with rung in 3 of 4 families.** The Qwen middle-band null does not generalise. Readout code handed to the audit before this hardens |
 | **G69** | The intent signal peaks deeper as rung rises | **REJECTED (test) in Qwen; OPEN as family-conditional.** Peak fixed at layer 2 in Qwen — but **SHIFTS deeper with rung in SmolLM2-360M and pythia-1.4b**, NOISE in gpt2 | **The rejection was premature.** Also: peak-of-magnitude and best-correlating-layer are different quantities and the first runner conflated them |
@@ -359,7 +359,9 @@ ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 quantity read two ways: **the *magnitude* of affective response across depth is architectural and
 carries nothing, while the *correlation* of that response with specified intent carries a signal two
 independent ladders agree on at 0.97.** That is the most useful single thing in this file — **how much
-a layer responds is noise; how much its response tracks the maker is not.**
+a layer responds is noise; how much its response tracks the maker is not.** G31 now lands on the same
+side (L25): the middle third's activity/coherence profile — mostly a *quiet* middle, not the
+predicted noisy one — shows the same distribution on the no-maker control. Architecture again.
 
 **The 2026-08-07 readouts sharpen that and cost the section two predictions.** The magnitude peak sits
 at **layer 2 regardless of rung, in every ladder** — fully architectural, exactly as the profile

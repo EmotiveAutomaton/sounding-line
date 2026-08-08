@@ -1,8 +1,14 @@
 {
   "features_matched": {
-    "conditionals": [],
-    "contractions": [],
-    "coordination": []
+    "conditionals": [
+      "biber_COND"
+    ],
+    "contractions": [
+      "biber_CONT"
+    ],
+    "coordination": [
+      "biber_PHC"
+    ]
   },
   "corpora": {
     "ladder": {
@@ -16,6 +22,18 @@
         "fair": [
           0.6491872555834125,
           3.4021170712756946e-07
+        ]
+      },
+      "biber_CONT": {
+        "group": "contractions",
+        "raw": 0.4350362765382864,
+        "old": [
+          0.11217556247080789,
+          0.4379903298048761
+        ],
+        "fair": [
+          0.4327594901485106,
+          0.0016961114312771483
         ]
       },
       "biber_PHC": {
@@ -44,6 +62,18 @@
           4.833582110372295e-08
         ]
       },
+      "biber_CONT": {
+        "group": "contractions",
+        "raw": 0.4839201673818943,
+        "old": [
+          0.005274764846244179,
+          0.9584610967744728
+        ],
+        "fair": [
+          0.4794575218261859,
+          4.490861536175887e-07
+        ]
+      },
       "biber_PHC": {
         "group": "coordination",
         "raw": -0.3494445232500085,
@@ -56,11 +86,49 @@
           0.0069798923175558875
         ]
       }
+    },
+    "ladder3": {
+      "biber_COND": {
+        "group": "conditionals",
+        "raw": 0.7797857561367884,
+        "old": [
+          0.10477274370340567,
+          0.3710094303643507
+        ],
+        "fair": [
+          0.7266092912612154,
+          1.5945771885275195e-13
+        ]
+      },
+      "biber_CONT": {
+        "group": "contractions",
+        "raw": 0.35426556761768047,
+        "old": [
+          -0.0694359486783874,
+          0.5538853077956312
+        ],
+        "fair": [
+          0.3188989267616083,
+          0.005294211754640494
+        ]
+      },
+      "biber_PHC": {
+        "group": "coordination",
+        "raw": -0.5470158107138492,
+        "old": [
+          -0.0730208409273023,
+          0.5335542361826364
+        ],
+        "fair": [
+          -0.4422789683284294,
+          7.101686589840497e-05
+        ]
+      }
     }
   },
   "verdicts": {
     "conditionals": "REVIVED",
-    "contractions": "DEAD",
+    "contractions": "REVIVED",
     "coordination": "REVIVED"
   }
 }

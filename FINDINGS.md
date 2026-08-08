@@ -56,7 +56,7 @@ interpretability at once, and the same word means different things in each.
 replication and a standing integrity audit. **The flagship result:** the low-order/high-order ratio
 tracks specified intent under a fair induction control on three independent corpora, scaling with
 manipulation strength (L23), with specification recovery agreeing through an entirely different
-channel (L19) — and two artifact-side features now survive the same fair control (L24), reopening a
+channel (L19) — and all three artifact-side features now survive the same fair control (L24), reopening a
 route that had been declared closed. The recurring failure mode has been **criteria that could not do
 their own jobs**; four were caught and each changed verdicts. The binding constraints now: **one
 reader's readings as the only human ground truth**, and **no corpus with one maker across different
@@ -200,7 +200,7 @@ amount of intent still predicted what that could not explain.
 collapse entirely — *"warmly, as though to someone you like"* contains no contractions and produces
 them.
 
-**Partial reversal, 2026-08-08 (L24):** under the fair control, conditionals revive at **+0.65 / +0.51** and phrasal coordination at **−0.41 / −0.27**, all *p* ≤ 0.007, on both testable ladders — the kills were the dose-eating control's (L22). Contractions could not be re-tested (key absent from the cache).
+**Reversal, completed 2026-08-08 (L24):** under the fair control **all three revive, on all three ladders** — conditionals **+0.65 / +0.51 / +0.73**, contractions **+0.43 / +0.48 / +0.32**, phrasal coordination **−0.41 / −0.27 / −0.44**, nine of nine tests *p* ≤ 0.007. The kills were the dose-eating control's (L22). The contraction key that first "could not be re-tested" was Biber's uppercase tag `biber_CONT`, which a lowercase search pattern missed — a string-matching artifact stacked on a control artifact.
 
 **Verdict: RULED OUT, all three** *as originally recorded; see the reversal above.* The most promising candidate this project has produced from
 outside sources does not survive its own controls. **The funnel worked and the answer is no.**
@@ -935,7 +935,7 @@ control** — they are owed a CPU-only re-test under the fair one (G100) before 
 specified intent after removing length and within-rung specification identity, replicated across
 three independently generated corpora at three manipulation strengths.
 
-## L24 · Two of L2's three executed candidates revive under the fair control
+## L24 · All three of L2's executed candidates revive under the fair control — nine of nine
 
 **Hypothesis.** L2's three text features were killed by the induction control that L22 showed contains
 the dose. **A feature genuinely tracking dose would have been executed exactly like an induced one**,
@@ -949,25 +949,48 @@ length and *which-specs-given-how-many*, then test the residual against rung.
 |---|---|---|---|---|---|
 | conditional constructions | first ladder | +0.692 | +0.224 (n.s.) | **+0.649** | **< 0.0001** |
 | conditional constructions | held-out | +0.579 | +0.180 (n.s.) | **+0.513** | **< 0.0001** |
+| conditional constructions | extreme | +0.780 | +0.105 (n.s.) | **+0.727** | **< 0.0001** |
+| contractions | first ladder | +0.435 | +0.112 (n.s.) | **+0.433** | **0.0017** |
+| contractions | held-out | +0.484 | +0.005 (n.s.) | **+0.479** | **< 0.0001** |
+| contractions | extreme | +0.354 | −0.069 (n.s.) | **+0.319** | **0.0053** |
 | phrasal coordination | first ladder | −0.531 | −0.039 (n.s.) | **−0.406** | **0.0034** |
 | phrasal coordination | held-out | −0.349 | −0.132 (n.s.) | **−0.268** | **0.0070** |
+| phrasal coordination | extreme | −0.547 | −0.073 (n.s.) | **−0.442** | **< 0.0001** |
 
 *"Old control" is what L2 used — the dose-eating regressors. "Fair control" removes length and
 within-rung specification identity. Signs match L2's original directions.*
 
-**Verdict: REVIVED, both, on both testable ladders.** The artifact-side route is not as closed as L2
-concluded — **two published linguistic features track specified intent through a fair control**, with
-the same sign structure L2 found before the kill.
+**Verdict: REVIVED — all three, on all three ladders, nine of nine tests significant, every sign
+matching L2's original directions.** The artifact-side route L2 closed is open: **three published
+linguistic features track specified intent through a fair control**, including on the extreme
+ladder's doubled specification pool.
 
-**Two caveats, honestly.** **Contractions were not re-tested** — no feature key matching them exists
-in the cache, so that death is *unadjudicated*, not confirmed (G100b: locate the original key). And
-**the extreme ladder's feature cache was stale** — built when the corpus was a quarter generated, 23
-usable rows — so ladder3 is rebuilding and will be the held-out confirmation or the check on these
-revivals.
+**Both caveats from the first report closed the same day.** The missing contraction key was
+`biber_CONT` — Biber's own uppercase tag, which a lowercase search pattern missed; one-line fix, and
+the feature revives on all three ladders. And the extreme ladder's stale quarter-corpus cache was
+rebuilt (75 artifacts, 13 min) — far from checking the revivals, it produced the strongest single
+result in the set (conditionals **+0.727**). Held-out confirmation, not contradiction.
 
 **Originality, his call 2026-08-08:** *"It seems like no one else is tracking layer ratio with respect
 to intent — it feels like an obvious hit."* Recorded as believed-original; **a prior-art sweep (G102)
 is owed before any public claim.**
+
+## L25 · The noisy middle, isolated at last — and rejected
+
+**Hypothesis.** The middle of the model is high-activity and low-coherence (G31) — a claim that rode
+along with the bimodal depth profile, died with it, and was **never tested on its own**.
+
+**Method.** `run_noisy_middle.py`, CPU-only over the 36 saved depth sweeps (11 families × up to 4
+corpora): rank each layer's affective signal (activity) and cross-window coherence within its own
+model, split the layers into thirds, and ask whether the middle third sits **above** the outer thirds
+on activity while sitting **below** them on coherence.
+
+**Verdict: REJECTED.** The predicted signature appears in **2 of 25 maker-corpus sweeps** — both the
+same small model (pythia-410m). The modal pattern is the **opposite: a *quiet* middle** (12/25 — all
+of gpt2, the larger pythias, Qwen 3B), with the Qwen and SmolLM families flat. **And the no-maker
+control shows the same distribution (6/11 quiet)**, so whatever middle structure exists is
+architecture, not anything about makers. One more layer-location claim that is family-conditional
+rather than universal — the running theme of the cross-family replication.
 
 ## L4 · Can weak effects be stacked into a detector?
 

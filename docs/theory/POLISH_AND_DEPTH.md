@@ -661,26 +661,30 @@ home in the theory folder.** Every row below is a real test with a verdict file.
 | # | hypothesis | status | notables |
 |---|---|---|---|
 | **PD-20** | Decision density can be counted from an artifact | **REJECTED (test).** It was word count (0.88); after correcting for that it was vocabulary diversity (−0.88). **Two confounds in sequence, and nothing left underneath** | `results/gate1`, `results/gate2` |
-| **PD-21** | Published linguistic features track how much intent was specified, once machine-detectors are removed | **PARTIALLY REVERSED (test, L24).** The funnel's final kill used the dose-eating control (L22). Under the fair control, **conditionals (+0.65/+0.51) and phrasal coordination (−0.41/−0.27) revive, *p* ≤ 0.007 on both testable ladders**; contractions untested (key absent); ladder3 rebuilding | `FINDINGS.md` L2, `results/feature_sweep` |
+| **PD-21** | Published linguistic features track how much intent was specified, once machine-detectors are removed | **REVERSED (test, L24).** The funnel's final kills used the dose-eating control (L22). Under the fair control **all three revive on all three ladders** — conditionals (+0.65/+0.51/+0.73), contractions (+0.43/+0.48/+0.32), phrasal coordination (−0.41/−0.27/−0.44), **nine of nine tests *p* ≤ 0.007** | `FINDINGS.md` L24, `results/fair_features` |
 | **PD-22** | Causal connectives track depth | **REJECTED (test).** Ranked the ladder cleanly with no echo, then **inverted on humans** — machines use nearly twice as many. **It measures explicitness, not depth** | `results/` |
 | **PD-23** | A larger feature bank beats a small curated set | **REJECTED (sim).** Ten hand-picked features reach near-perfect on the hardest cases; sixty more from a generic bank gain little on average and **lose more in the worst case** | sim T-8 |
 | **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, with a warning.** Stacking effects that share a confound produces a **strong confound**, and a stylometric stack already reaches F1 ≈ 0.99 on machine-text detection. **The ladder is the only thing that tells the difference, because a machine detector must see all five rungs as identical** | `FINDINGS.md` L4 |
 | **rung −1** | No measure reads noise as maximum intent | **SUPPORTED (test)** | Word-salad scored below the least-specified rung. **A failure mode we do not have** — and the only ceiling control in the project |
 
-**What these add up to.** **Ten measures read the artifact directly and all ten died, to length, register or vocabulary in that order.** The pattern is not that the measures were bad; it is that every property of a text that correlates with intent also correlates with something cheaper, and the cheaper thing wins. **The funnel is the durable product** — 61 of 81 replicated features were machine detectors, and without that filter this project would have adopted the solved problem as its result. **The artifact-side route is closed for now**, which is why the only surviving signals are read out of the reader.
+**What these add up to.** **Ten measures read the artifact directly and all ten died, to length, register or vocabulary in that order.** The pattern is not that the measures were bad; it is that every property of a text that correlates with intent also correlates with something cheaper, and the cheaper thing wins. **The funnel is the durable product** — 61 of 81 replicated features were machine detectors, and without that filter this project would have adopted the solved problem as its result. **The closure of the artifact-side route reversed on 2026-08-08:** the final three deaths were the broken induction control's, not the features' — under the fair control all three revive on all three ladders (PD-21, L24). The deaths to length and register stand, and the funnel's machine-detector filter stands with them.
 
     Timeline on counting decisions. Counted directly and it was length; corrected for length and it
     was vocabulary; replaced with a 342-feature bank screened against the ladder, which produced 81
     replicated features of which **61 were machine-detectors**; the three that survived every other
     control then died to the induction check -- the test of whether a prompt CAUSES a feature without
-    CONTAINING it. The funnel worked exactly as designed and the answer is no.
+    CONTAINING it. The funnel worked exactly as designed and the answer was no -- until the induction
+    check itself failed ITS check: its regressors contained the dose (L22). Under the fair version,
+    all three survivors revive (L24). The answer is yes, three features deep.
 
 > **The one durable result is the funnel itself.** 61 of 81 replicated features were machine
 > detectors, and without that filter we would have adopted the solved problem as our result.
 
-**What this leaves.** The artifact-side route is closed for now: every measure that reads the *text*
-has died. **The only signals that survived are read out of the reader** — which is
-[`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §6, and it is why the project moved to activations.
+**What this leaves.** Both routes are live. **The reader-side signals remain the strongest** —
+[`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §6, and the move to activations was made
+under the belief the artifact route was closed — but the artifact now carries three fair-control
+survivors of its own (conditionals, contractions, phrasal coordination), which is what a stacking
+instrument (PD-24) needs: **channels with different failure modes, not one channel.**
 
 ## §8. Revision — the one controlled human comparison, and what it moved
 

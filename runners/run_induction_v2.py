@@ -160,8 +160,10 @@ def main() -> None:
           f"{new['pred_vs_rung']:+.3f} — should be ~0 by construction")
     print(f"\n  >>> {verdict}")
 
+    # cross-family runs get their own file — an untagged name would overwrite the flagship result
+    stem = args.corpus if args.model is None else f"{args.corpus}_{args.model.split('/')[-1]}"
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / f"{args.corpus}.json").write_text(json.dumps(out, indent=2),
+    (RESULTS / f"{stem}.json").write_text(json.dumps(out, indent=2),
                                                  encoding="utf-8", newline="\n")
     print(f"\nwrote {(RESULTS / f'{args.corpus}.json').relative_to(REPO)}")
 
