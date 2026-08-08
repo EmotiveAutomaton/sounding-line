@@ -58,6 +58,460 @@ signal with six unknowns and predict anything about the combination.
 
 ---
 
+## §0a. Techniques harvested from archaeology — and the ground truth we said did not exist
+
+**2026-08-07.** Lithic analysis has spent forty years reconstructing makers from products. **It has a
+validation protocol we have been saying nobody has, and we independently rebuilt it.**
+
+### The intention-elicitation protocol — and our ladder is already a version of it
+
+**Nonaka, Bril & Rein 2010, *Journal of Human Evolution* 59:155–167** [READ]. The design is startling
+in its simplicity: **before each strike, the knapper draws the outline of the flake they intend to
+detach directly onto the core**, in paint marker. Then they strike. The gap between intended and
+realised is measured on matched attributes.
+
+| skill grade | flaking success | mean prediction error, lateral axis | intended vs realised length |
+|---|---|---|---|
+| **experts** | 73% | **8.2 mm** | **R² = 0.655**, *p* < 0.001 |
+| intermediates | 61% | 18.9 mm | not significant |
+| novices | 54% | 25.8 mm | not significant |
+
+*22 participants, 104 strikes. Skill is measured as intention–outcome fidelity, not as output quality.*
+
+**Two things follow and the second is the more important.**
+
+**Our intent ladder is this protocol.** Specify the intention first, produce the artifact, measure how
+much of the specification is recoverable. **We arrived at it independently, and it has been validated
+on stone since 2010.** That is a citation we did not know we had.
+
+> **Even experts account for only ~65% of the variance in their own stated intention.**
+
+**That is the most honest calibration target in this report.** Any instrument claiming to recover
+intent from a product is working against a ceiling that **expert self-prediction already fails to
+reach** — and it reframes what a good result looks like. **We should stop treating the gap between
+our recovery and perfect recovery as failure.**
+
+### The mechanical null model — the answer to decision-versus-constraint
+
+**Dibble & Rezek 2009; Li, Lin, Rezek, Dibble et al., PLOS ONE 2020** [READ]. Controlled experiments
+on **molded glass cores** show flake size and shape are dominated by two measurable geometric
+variables — exterior platform angle and platform depth. Platform width follows mechanically from the
+Hertzian cone angle, ~136°, a material constant, and is explicitly **"not under direct control by the
+knapper."**
+
+> **Model what the medium forces. Call only the residual a choice.**
+
+**This is the correct shape of an answer to our central problem, and it is the one thing the
+chaîne opératoire tradition itself never built.** It is also the same subtraction the depth
+redefinition needs — but with the nuisance model *derived from mechanics* rather than assumed.
+
+**The caveat from the same paper is severe:** the model explains high variance in controlled glass and
+**"far lower"** variance in real assemblages. **The null model degrades badly off the bench.**
+
+### Recurrence as the criterion of intentionality — and its weakness
+
+**Soressi & Geneste 2011** [READ], the load-bearing sentence:
+
+> *"It is because a gesture is constant or recurrent that it can be interpreted as intentional."*
+
+**That is the repetition claim, named, in another field.** And the honest reading is the one the
+harvest supplies: **recurrence is equally consistent with habit, with training, and with a constraint
+that is itself constant.** Which is the habit-shadow objection arriving from archaeology.
+
+### Stage-differentiated signal — different features carry different things
+
+**Gosselain 2000** [SNIPPET — the open PDF is scanned images with no text layer]. Different stages of
+production carry different social information **because they are learned differently and are
+differently visible**:
+
+    fashioning / shaping    embodied motor habit, early apprenticeship, low visibility,
+                            highly resistant to change  ->  deep group boundaries
+    decoration / surface    highly visible, consciously borrowed in contact  ->  fluid,
+                            situational identity
+    clay selection          tracks local environment, not identity at all
+
+**This is the leaked/emblematic split and the polish split, arrived at from pottery.** The text
+partition it implies: **sentence rhythm, clause-embedding habits and punctuation reflexes** are
+low-visibility and early-acquired; **vocabulary, formatting and structural convention** are visible
+and easily copied. **They should carry information about different things at different scales**, which
+is a structural hypothesis rather than an analogy.
+
+### Error handling beats error rate
+
+**Val Lastari core-skill study, *Lithic Technology* 49(4), 2024** [SNIPPET, 403]. The diagnostic is not
+the error but the response. **Novice cores show "insistence and stacked steps"** — repeated failed
+strikes on a surface already ruined, errors compounding. **Expert cores show hinges that "determine
+the abandon of the core"** — the expert recognises an unrecoverable state and stops, or executes a
+corrective removal.
+
+> **Error rate is a weak signal. Error handling is a strong one**, and it measures metacognitive
+> self-monitoring rather than execution quality.
+
+### Rigidity, not error, is the novice signature
+
+**Roux & Bril 2005; Bril et al. 2010** [SNIPPET]. Expertise shows as **invariance under perturbation**
+— experts adjust their striking movement to a changed hammer weight so that kinetic energy at impact
+stays constant. Low-skilled artisans **"had great difficulties adapting to new raw material (glass
+instead of stone), revealing rigid skills."**
+
+**This suggests an active probe rather than passive reading:** perturb the task — change genre, length,
+audience — and measure whether quality is preserved.
+
+### Three reliability numbers that should frighten us
+
+| | |
+|---|---|
+| diacritical scar-ordering error rate | **21% overall**, 25% for beginners, **15% even for experts**, and errors are *"not random but mostly in specific-difficult places"* |
+| blind test, heat-treatment diagnosis | **72.6%** overall — but **43.3%** for one material, **worse than chance**, hidden inside the aggregate |
+| inter-analyst reliability for chaîne opératoire coding | **it exists, and I recorded the opposite an hour ago.** See below — the correction matters more than the original claim |
+
+**Two rules follow directly:** report **per-feature** accuracy rather than an aggregate, because the
+aggregate hid a 43% category here — and **measure inter-annotator agreement before believing any
+extraction.**
+
+### The reliability study does exist, and its result is worse than its absence would have been
+
+**Correction to what I wrote an hour ago.** I recorded that no inter-analyst reliability study exists
+for this coding step. **One does**, and it is the most rigorous thing in the harvest.
+
+**Pargeter et al. 2023, *American Antiquity* 88(2):163–186** [READ, full PDF, open access]. **Eleven
+analysts, 100 flakes, 38 attributes, two years**, all flakes knapped by one person, analysts blind to
+which of two production strategies each came from.
+
+| attribute class | result |
+|---|---|
+| **ratio** — mass, dimensions, technological length | **10 strong, 7 substantial, none below** |
+| **discrete** — dorsal scar counts by sector | only the total and the proximal sector reach substantial; **the rest fall below** |
+| **nominal** — plan form, edge shape, cross-section, **platform morphology** | **5 strong, 4 substantial, and 7 below substantial** |
+
+**The failures concentrate in exactly the interpretively loaded attributes**, and the Levallois-specific
+finding is the one that should worry us most: **platform morphology agreement was 0.22 *worse* on the
+Levallois assemblage**, and four of five scar-sector discrepancies came from it. **The attributes that
+diagnose the sophisticated method are the least reliably coded.**
+
+**Two findings that generalise past lithics.**
+
+> **Years of experience had no effect. Training background did.** *"Increasing replicability in lithic
+> analysis is more about changing training than increasing experience per se."*
+
+**And they agreed a unified set of definitions in advance and still found significant disagreement.**
+Shared definitions are not sufficient.
+
+**The defence, published 2026 [SNIPPET], and it is a real dilemma rather than a dodge:** selecting
+attributes *for* replicability **privileges the trivially measurable over the behaviourally
+meaningful** — and their named example is platform morphology, precisely the attribute that failed.
+*"Discarding attributes because differently-trained analysts disagree risks discarding data that are
+crucial for meaningful inference."*
+
+> **That cuts directly at us.** Our 342-feature funnel drops features that fail a filter. **If the
+> meaningful features are systematically the hard-to-code ones, a reliability filter removes signal
+> and looks like rigour while doing it.**
+
+### The falsification test they ran on themselves — and it is the most damaging result here
+
+**Bar-Yosef & Van Peer 2009, *Current Anthropology* 50(1)** [READ, full text plus all seven comments
+and the authors' reply]. They took a site with a **65% refit rate** — where the true sequence is
+physically known — reconstructed two sequences by the standard mental method, and **compared the
+reconstruction against the refits.**
+
+| what the mental reconstruction said | what the refits showed |
+|---|---|
+| a "preferential Levallois flake" | refits onto a *unipolar-recurrent* blank |
+| a "unipolar-recurrent" series | part of a *bipolar* exploitation |
+| three "centripetal-recurrent" flakes | **not Levallois flakes at all** — convexity-maintenance flakes |
+| a "centripetal-recurrent method" present in the assemblage | **no evidence of it whatsoever.** The method was an artifact of the analysis |
+| a blank read as an **early**-stage product | **the 25th flake of 37** |
+
+> **The model invented a production method that never happened, and misdated a late product to the
+> beginning of the sequence.**
+
+**And the formal categories dissolved at the individual scale.** Four technical groups were resolved
+into four individual knappers — **each of whom produced the entire formal range.** *"From a
+behavioural point of view, it seems that our formal categories have little significance."*
+
+**Their own footnote:** the two analyses *"should have been independently performed by two or more
+analysts, whereas they have now been executed by the same person."* **n = 1.**
+
+**The honest scope of the critique, because it is routinely overread.** The authors **conceded the
+defence in their own reply**: *"we concur with the general consensus that the problem is not with the
+operational sequence concept itself but with its implementation."* **Anyone citing this as a refutation
+of the method is overreading its authors.**
+
+### Four more attacks, and each has a version aimed at us
+
+**The desired-product fallacy.** *"It is within our framework of reference that the predetermined
+product looks as if it must have been the desired product, not within theirs."* **Our version: the
+feature we find most recoverable is not thereby the thing the maker was trying to do.**
+
+**Operational sequences do not imply agency.** Davidson's comment: sequences exist in carcass
+disarticulation with no agency at all, so *"demonstration of OS alone does not establish either agency
+or intentionality."* **And his inversion is sharper** — non-Levallois flakes show use-wear *more* often
+than the supposedly desired Levallois ones. *"They almost look like accidents."*
+
+**The return of the expert, named from inside the French tradition.** Djindjian: *"les études de
+chaîne opératoire depuis le milieu des années 1980 ne font appel à aucune quantification"* — a
+deliberate reaction against the quantitative turn, replacing argument with **"un retour de l'expert,
+qui serait seul capable, par l'expérimentation."* Tostevin's version: *"the absence of standard
+reporting of data produces a scientifically unconvincing argument beyond the appeal to authority."*
+
+**And the reason it is not settled: nobody answered.** Tostevin, on the state of the debate —
+*"so one-sided as barely to deserve the label... I know of no direct response from chaîne opératoire
+proponents"* in eight years, and fifteen years of silence on an earlier polite critique. **No French
+practitioner commented on the flagship critique of their method.**
+
+### The one reframing worth stealing outright
+
+**Tostevin's wine analogy.** Both traditions label assemblages the way one labels a château. *"Using
+such labels, neither approach can tell you how similar the wines really are to each other."* What is
+needed is the **cépage** — 85% Cabernet Sauvignon, 10% Cabernet Franc, 5% Merlot — **comparable
+continuous variables, so that similarity becomes a measurable quantity rather than a type
+assignment.**
+
+> **That is the difference between saying "this artifact is high-depth" and saying "this artifact is
+> 40% attractiveness-directed, 25% teaching-directed, 35% residual."** The second is arguable; the
+> first is a label.
+
+### How to report an identifiability claim
+
+Two studies put numbers on equifinality: preferential Levallois flakes classify at **89.3%**
+cross-validated against 33.3% chance; Discoid versus centripetal Levallois separates at **80%** with
+random forest. **Two genuinely distinct production concepts still overlap 20% in their products.**
+
+> **Not "we can read the maker" but "these two processes separate at 80% under cross-validation, on
+> this feature set."** Adopt the convention.
+
+### The critique, and the parts that land
+
+**"An illusion of reading the minds of prehistoric knappers"** is the charge of **overformalization** —
+that a rich descriptive vocabulary creates the *feeling* of explanation while adding no predictive
+content. **His inversion of this is recorded in [`POLISH_AND_DEPTH.md`](POLISH_AND_DEPTH.md)** and it
+holds, but the mechanism named here is worth keeping separately: **a vocabulary can feel explanatory
+and predict nothing.**
+
+**The field's three named structural limits map one-to-one onto ours:**
+
+| their problem | ours |
+|---|---|
+| **co-occurrence** — several unrelated processes in one assemblage, and *"it is impossible to determine"* whether that is one group using several or several groups in succession | **multi-author and mixed human/tool provenance.** They say it is unsolvable without refitting |
+| **representation** — only steps present in numbers can be recognised; with few pieces *"it is impossible to determine whether this process is representative or anecdotal"* | small-n readings |
+| **completeness** — reconstructed sequences *"cannot be considered as exhaustive"* | **there is no way to bound what you missed** |
+
+**And one practice to refuse outright.** The French approach defines attributes **after** laying the
+assemblage out and seeing what looks interesting, and defends it: *"this a posteriori definition of
+attributes is not less objective than an a priori attribute definition."* **That defence is wrong, it
+is a garden of forking paths, and if we do anything resembling it we will deserve what follows.
+Pre-register the feature set.**
+
+### Where we actually stand relative to them
+
+> **We are in the position of an archaeologist handed one finished handaxe and no flakes** — which is
+> the position in which every practitioner in this literature agrees inference is weakest.
+
+Refitting — physically reassembling debitage — is their gold standard precisely because it is
+**non-inferential**: *"when two pieces go CLICK, there is no other match possible."* At one site 51%
+of the assemblage refitted and resolved **three distinct knappers**. **We have no debitage.** The text
+analogue exists and is a century old — **genetic criticism**, the *avant-texte* of notes, drafts and
+proofs — but it needs the drafts, which finished text does not supply.
+
+| # | technique | status | notables |
+|---|---|---|---|
+| **G85** | Intention elicitation with a pre-registered target | **ALREADY BUILT — the intent ladder is this protocol**, arrived at independently | **Validated on stone since 2010.** And it supplies a calibration ceiling: experts reach only R² = 0.655 against their *own* stated intention |
+| **G86** | A mechanical null model — subtract what the medium forces, call the residual choice | **OPEN, and it is the right shape for decision-versus-constraint** | **The one thing chaîne opératoire never built.** Caveat: the analogous model degrades badly off the bench |
+| **G87** | Stage-differentiated partition of features by visibility and acquisition age | **OPEN** | Low-visibility early-acquired features track deep identity; visible ones track situational identity. **A structural hypothesis, not an analogy** |
+| **G88** | Error *handling* rather than error rate | **OPEN** | Novices thrash on a ruined surface; experts abandon or repair. **Measures metacognition, not execution** |
+| **G89** | Rigidity under perturbation as the novice signature | **OPEN, and it implies an active probe** | Change genre, length or audience and measure whether quality is preserved |
+| **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention** | *"These two processes separate at 80%"*, never *"we can read the maker"* |
+| **G91** | Inter-annotator agreement and per-feature accuracy before any extraction is believed | **OPEN, and mandatory** | Their aggregate of 72.6% concealed a **43.3%** category — worse than chance |
+
+**What these add up to.** **Seven techniques, one of which we already built without knowing it.** The
+most valuable is not a technique but a number: **expert knappers predict only 65% of the variance in
+their own intentions**, which means the ceiling on intent recovery is set by the maker's own
+self-knowledge and not by our instrument. **That reframes every null in this project** — we have been
+measuring our distance from perfect recovery when perfect recovery is not the relevant target.
+
+**The second most valuable is the mechanical null model**, because it is the only principled answer
+anyone has to decision-versus-constraint and **it is the same subtraction the depth redefinition
+needs**, with the nuisance derived rather than assumed. **And the three reliability numbers are the
+warning**: a field that skipped inter-annotator agreement, defended post-hoc feature selection, and
+reported aggregates that hid a worse-than-chance category is a field whose methods we should take and
+whose habits we should not.
+
+---
+
+## §0b. Techniques harvested from connoisseurship and technical art history
+
+**2026-08-07.** Art history has been reading makers off objects for 150 years and we had never mined
+it for **method**. This is the harvest: not who said what, but the actual moves. **Everything here is
+a candidate import, not an adopted one**, and the failure record at the end is as important as the
+techniques.
+
+### The Morellian filter — an admissibility test for features, and the best single import
+
+**The ears were never the point.** Morelli **repudiated the ear and hand plates** as *"caricatures
+made to engage the public"* and deleted them from his definitive edition. **Anyone porting "look at
+the ears" has ported the anecdote.** What he actually stated is a **selection rule**, and it stacks
+two independent filters:
+
+> …the most conspicuous characteristics of a painting, which are the easiest to imitate: eyes raised
+> towards the heavens in the figures of Perugino, Leonardo's smiles, and so on. **We should examine
+> instead the most trivial details that would have been influenced least by the mannerisms of the
+> artist's school:** earlobes, fingernails, shapes of fingers and of toes.
+>
+> — Ginzburg, *Clues*, 96–97 [READ verbatim]
+
+**Imitability** — what a forger copies — and **school contamination** — what the tradition supplies
+rather than the individual. And the four-part admissibility test reconstructed from Wollheim: a
+feature may be used only if it
+
+    1. has a form amenable to individual expression
+    2. is NOT characteristic of a school or tradition
+    3. is NOT depicted in an accidental or haphazard fashion
+    4. is NOT one of a suite of similar features that require variation
+
+**Criterion 4 is the non-obvious one and it is the highest-leverage import.** Four ears standing side
+by side in a group portrait: the maker must **deliberately differentiate** them, so habit is
+suppressed. **It predicts where habit gets switched off**, which is a failure mode stylometry ignores
+entirely. The text analogue is elegant variation — a writer avoiding repetition is a writer overriding
+their own defaults, so **exactly the places our measures find most "varied" may be the places carrying
+least individual signal.**
+
+### The inverse-salience rule — and it is our concealment answer
+
+**Diagnostic weight is *inversely* proportional to how conspicuous a feature is**, because attention —
+the imitator's — flows to the conspicuous. Berenson's version: a *"subconscious signature"* of *"small
+particularities which escape even the notice of copyists and forgers."*
+
+**Cheap to implement and counter-intuitive: build a salience model, then deliberately discard your most
+interpretable features.**
+
+**The honest limit:** this is a claim about **the adversary's attention budget**, not about physics.
+A sophisticated adversary who has read Morelli inverts it. **It buys asymmetry, not security.**
+
+### Reserve versus overpaint — recoverable from a single static artifact
+
+**The best import after the filter, and it needs no version history.**
+
+A conservator asks whether the maker left a **gap** for an element — planned — or painted it **on top
+of** existing figures — a late addition. In the Beuckelaer study the roasted goat *"was added only as
+work on the composition was still progressing"*, which reads as **late narrative emphasis rather than
+initial intent.**
+
+**The text analogue is direct and computable.** Did the document's structure **make room** for a claim
+— it is in the outline, a section exists for it, forward references anticipate it — or was the claim
+**inserted into** a structure that does not accommodate it: a parenthesis, an appendix, a paragraph
+breaking the section's parallelism? **That separates load-bearing commitments from bolted-on ones, on
+one static text.**
+
+**And abandoned scaffolding ports as well:** squaring grids present on the preparatory drawings and
+absent from the final panels mean *"this plan must have been abandoned."* In text: a numbering scheme
+that stops, a *"we return to this below"* that never lands, a defined term used once.
+
+### Self-revision versus an imposed hand — distributional, not semantic
+
+The field enforces a hard gate: a change made by a later restorer **is not a pentimento**. How they
+tell, from documented patron-forced revisions: imposed changes show *"distinct steps"*, while
+Beuckelaer's are *"of like kind"* throughout with *"constant adjustment."*
+
+> **Imposed changes are lumpy, discrete and heterogeneous. Self-revision is homogeneous, continuous
+> and of like kind.**
+
+**That is computable and it is the discriminator this project needs most** — author against editor
+against co-author against tool. **Essential rather than optional.**
+
+### Suspicious regularity — and it may invert one of our assumptions
+
+Forensic document examination formalises copying as a loss of **line quality**. The counter-intuitive
+tell is that **the imitator is *more* regular than the genuine article**, because they are executing
+carefully rather than habitually — *"they will form the characters more carefully, creating even lines
+with no variation in pen pressure."*
+
+> **If our instrument treats high internal consistency as evidence of expertise, this literature says
+> we may have it backwards.** Genuine habitual production carries characteristic irregularity, and its
+> absence is the tell.
+
+[SNIPPET only — forensic specifics not reached at primary-source depth.]
+
+### The graded attribution vocabulary — steal it wholesale
+
+**by · attributed to · studio of · circle of · school of · follower of · manner of · after**
+
+**It is not a probability scale.** It factors uncertainty along **three independent axes at once** —
+*proximity* (social distance from the maker), *temporality* (contemporary or later), and *intent*
+(**after** is an honest copy; **manner of** is where deliberate fakes cluster). And *attributed to*
+encodes **partial authorship** — *"either in part or completely"* — which a scalar cannot express.
+
+> **"Workshop of" is the category this project will need most and would not have invented:
+> partial, supervised, mixed human-and-tool provenance.**
+
+### Baseline-relative diagnosticity — infrastructure, not technique
+
+Morelli's method is feature-matching **against a school baseline**, requiring *"repeated and
+painstaking visual comparisons"* over large numbers of works. *"As the botanist lives among his fresh
+or dried plants… so the art connoisseur ought to live among his photographs."*
+
+> **Without a genre and register baseline corpus you cannot tell an individual habit from a
+> convention, and the instrument will confidently report the genre's decisions as the author's. This
+> is the most likely way it fails silently** — and it is the same failure that killed 61 of our 81
+> replicated features.
+
+### Two channels, never averaged
+
+**The failure record is one-directional and it should determine the architecture.** Every historical
+exposure of a forgery came from a **hard external falsifier** — titanium white in a 1914 painting, a
+broken provenance chain, a confession. **The stylistic channel has never independently caught a
+competent forger.** Berenson was fooled for years. Beltracchi produced ~300 forgeries over 35 years,
+entered catalogues raisonnés, and was caught by a **pigment supply-chain accident.** The Rembrandt
+Research Project demoted *The Polish Rider* and then re-promoted it from the same object.
+
+> **Build two channels: hard falsifiers that can veto, stylistic inference that can propose and never
+> veto. Do not average them into one score.** The fields that averaged them produced the Getty kouros.
+
+### What Ginzburg says we are not allowed to claim
+
+The evidential paradigm — Morelli, Freud and Holmes as one epistemology — is *"totally unrelated to
+the scientific criteria of the Galileian paradigm."* It is **individualising rather than
+generalising**: *"indirect, presumptive, conjectural,"* with *"an unsuppressible speculative margin."*
+
+> **If the instrument outputs a confidence percentage, it is claiming a status this entire tradition
+> says is unavailable.** That is why the field built a graded *vocabulary* instead of a numeric scale.
+
+### And the finding that should temper all of it
+
+**Morelli did not practise his own method.** A study of his 1865 notebooks found **one** morphological
+attribution in the entire account; *"the overriding ground for attribution is quality."* His famous
+Giorgione attribution, in his own words: *"the spirit of the master met mine, and the truth flashed
+upon me."*
+
+> **We are importing a promising untested specification, not a validated instrument with a 150-year
+> track record.** The Morellian filter is a good idea that happens to be well stated in Morelli's
+> theoretical writing, and it was largely not used. **Say so in our own documentation.**
+
+**A scope mismatch to hold onto.** Connoisseurship optimises for *who made this*. We want *what
+decisions, expertise and values are legible in this*. **Reserve/overpaint, self-revision, pentimenti
+and cross-version differencing transfer cleanly. The filter and the inverse-salience rule were built
+for identity and need re-aiming** — a feature can be highly individuating and reveal nothing about
+values, and **the conspicuous features Morelli tells us to discard may be exactly where values live.**
+
+| # | technique | status | notables |
+|---|---|---|---|
+| **G79** | The four-part admissibility filter, criterion 4 especially | **OPEN, and the best single import** | **Predicts where habit is switched off** — elegant variation suppresses the individual signal exactly where our measures see most variety |
+| **G80** | Reserve versus overpaint, on text structure | **OPEN** | **Computable on one static text with no version history.** Separates load-bearing commitments from bolted-on ones |
+| **G81** | Self-revision is homogeneous, imposed change is lumpy | **OPEN, and the discriminator we need most** | Author vs editor vs co-author vs tool. **Distributional, not semantic** |
+| **G82** | High internal consistency indicates *imitation*, not expertise | **OPEN, and it may invert an assumption we hold** | The imitator executes carefully; the habitual producer is irregular |
+| **G83** | Adopt the graded attribution vocabulary | **OPEN** | Three axes at once, and **"workshop of" is the mixed-provenance category we would not have invented** |
+| **G84** | Two channels — falsifiers veto, style proposes, never averaged | **OPEN, architectural** | **Every historical catch came from a hard falsifier; the stylistic channel has never caught a competent forger unaided** |
+
+**What these add up to.** **Six operational techniques, none of them ours, none of them yet run**, and
+three of the six attack problems this project has been stuck on: which features are admissible at all,
+how to tell the maker's revision from someone else's, and how to express partial authorship. **The
+import is cheap because the thinking is done.** What it costs is the tradition's own liabilities —
+unfalsifiability, a market-tainted history, and an inventor who did not follow his own rule — and the
+correct response to that is Morelli's own scope limit: **a check on a prior judgement, not a generator
+of judgements.** Position it that way and we inherit 150 years of defensibility; position it as an
+oracle and we inherit 150 years of well-earned attacks.
+
+---
+
 ## §1. The primary detector is the *variation* of the polish, not its level
 
 > When I've been talking about the veneer in my head, I've been thinking about the imagery and
