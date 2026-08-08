@@ -43,6 +43,69 @@ Expertise minus what got optimised is values. **One operation, applied to its ow
 gives the ladder *surface goals → applied expertise → values*, and that is the empathy triangle
 approached from the other end.
 
+**⚠ A fourth objection, from the only field that has tried this, and it lands on "depth is
+expertise" specifically — 2026-08-07.**
+
+**The redefinition makes depth *applied expertise*. Archaeology has spent forty years inferring
+expertise from products, and a targeted search of its validation record found the following.**
+
+| | |
+|---|---|
+| **blind tests of skill classification** | **none found.** Blind testing is standard in that field for *use-wear* and for *raw-material sourcing* — a forty-year tradition — **but not for skill** |
+| confusion matrices, accuracy figures, train/test splits | **none found in any skill-attribution study reached** |
+| the criteria themselves | a citation-consensus checklist of presence/absence characteristics with **no threshold, no cut-off, no rate and no effect size** in it |
+| typical validation | 1–5 experts against 4–11 novices, **knapper identity never modelled as a random effect**, so flakes are pseudo-replicated within knappers |
+| the current 3D-scoring frontier | trains on **two people**. Knapper identity is perfectly confounded with skill level |
+
+**And the one properly factorial study reverses the result.** Crossing raw material × percussion
+technique × skill with hierarchical linear models, 37 cores and 1,598 products:
+
+    skill on proportion of angular fragments      p = 0.771   no influence
+    skill on proportion of sharp-edged flakes     p = 0.075   and NOVICES scored slightly higher
+    skill on cutting-edge extension               p = 0.011   only in combination with the other two
+
+> **"The skills reflected in these assemblages cannot be directly assessed based on standard
+> quantitative proxies, which are highly raw material and technique dependent."**
+
+**A second study makes the mechanism explicit: 9 of 12 flake attributes vary significantly between
+raw materials for novices.** Skill analysis must be done **within** material class and never pooled.
+And a third **withdraws economy of material as a skill proxy outright** — *"it is unlikely that the
+amount of waste production can be used as a measure of skill level where more than one rock type was
+used."*
+
+**What this costs the redefinition.** If depth is applied expertise, and expertise-from-product is
+unvalidated in the field that invented it and mostly vanishes once the medium is controlled, **then
+"depth is expertise" inherits an inference nobody has shown works.**
+
+**What it does not cost, and this is the honest asymmetry.** Their confound is **raw material** —
+quartzite against chert against basalt, three materials with different fracture mechanics. **Our
+medium is language, and it is far more uniform than that.** The Shungura result says skill vanishes
+once you control the medium; **we largely have the medium controlled by construction.** That is a real
+difference and it is a reason to expect a better outcome, not a reason to dismiss the warning.
+
+**Three findings to import directly.**
+
+**Error persistence, not error rate** — and now with a mechanism attached: **errors are clustered, not
+Poisson.** In a 100-core sequence overshoots *"recurred in bursts separated by runs of properly
+constrained strikes."* **An error rate computed on a small sample is measuring which burst you
+sampled.**
+
+**Distinctions are best made on the residual, not the whole sequence** — *"less visible at the level
+of the entire reduction sequence, because of masking"*, and best recovered *"by comparing attributes
+of the residual cores."* **That is the residual definition arrived at independently, from the other
+side.**
+
+**And the single largest untested confound in their literature is ours:** **nobody has had an expert
+work deliberately fast or carelessly and then asked whether analysts can tell that from novice work.**
+Our README already claims *"firing on hurried human work is the measurement working."* **That claim
+has never been tested by anyone, in any medium**, and it is cheap for us to test and impossible for
+them — we can commission the same maker to work carefully and hurriedly.
+
+**One methodological control worth stealing.** **Porcelain precores**: cast to identical starting
+geometry, fracture conchoidally, remove blank-shape and material variance at a stroke. **The text
+analogue is the ladder** — identical topic, identical length band, varying only the specification.
+**We built the control they say is underused.**
+
 **⚠ A third objection, his own, and it is the serious one — 2026-08-07.**
 
 > The residual is habits that have been unconsciously baked into your process, right? **But
