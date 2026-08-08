@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-08 11:41",
+  "started": "2026-08-08 11:58",
   "stages": [
     {
       "name": "induction_v2_ladder2",
@@ -23,9 +23,16 @@
       "name": "length_direction_audit",
       "why": "was length a confound or a suppressor, per measure",
       "est_minutes": 3,
-      "status": "RUNNING",
-      "log": "results\\length_direction_audit.log"
+      "status": "DONE",
+      "log": "results\\length_direction_audit.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "multiplicity",
+      "why": "re-correct the whole family after new results land",
+      "est_minutes": 1,
+      "status": "DONE",
+      "log": "results\\multiplicity.log",
+      "minutes": 0.0
     }
   ],
-  "shard": "0/1"
-}

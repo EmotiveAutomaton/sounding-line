@@ -10,11 +10,9 @@ by construction in the state where the literature's confident prose has nothing 
 Before any research, any subagent brief, any result: read **everything in `docs/theory/`** — not a
 named file, the folder, newest first — and `FINDINGS.md`. Filenames go stale; the folder does not.
 
-**This has already failed twice**, both times the same way: a literature return arrived in volume and
-its framing was adopted over the project's without testing between them. Bullot & Reber, then a
-recommendation to drop Panksepp. **The tell is that you find yourself recommending the project narrow
-a claim or adopt someone else's vocabulary because the literature is crowded. Crowded is not wrong.**
-When our account and a published one conflict, extract a test from the friction.
+**Failed twice already (Bullot & Reber; drop-Panksepp), the same way both times.** The tell:
+recommending we narrow a claim or adopt the field's vocabulary because the literature is crowded.
+**Crowded is not wrong.** When accounts conflict, extract a test from the friction.
 
 ## Tone, and disagreeing with the curator
 
@@ -92,9 +90,7 @@ A very short paper, in that order, no exceptions.
 
 ## THE GRIND NEVER STOPS — the main interaction loop
 
-**This is the contract, not a preference. It failed on 2026-08-07: eleven models' worth of
-cross-architecture replication sat on disk for a day unreported, and the curator found it by asking
-for a queue diagnostic.**
+**This is the contract, not a preference.**
 
 ### A · When a run finishes, four things happen before anything else
 
@@ -111,24 +107,20 @@ landed.**
 4. **Report it in the chat.** Hypothesis first, then what we did, what we found, what it means.
    **Every result, every time, so he never has to hunt for the latest numbers.**
 
-**No batching. No "I'll report this with the next one."** That is exactly how the eleven-model
-replication was lost.
+**No batching** — that is how an eleven-model replication was lost for a day.
 
 ### B · Run long jobs in the background so they wake you
 
-**Use `run_in_background: true`.** The job runs detached and **re-invokes you when it exits**, so the
-result is reported the moment it exists rather than the next time he asks. **He should never have to
-request an ETA.** Do not poll and do not sleep-loop waiting.
-
-**When a background job returns, go straight to A.**
+**Use `run_in_background: true`** — the job re-invokes you when it exits, so results are reported
+the moment they exist and he never has to ask for an ETA. No polling, no sleep loops. **When a
+background job returns, go straight to A.**
 
 ### C · Every response, before writing anything
 
 1. **Report queue state at the top.** What is running, what is next, a rough ETA. Brief.
 2. **Check something is running.** If not, open `TODO.md` and start something *before* replying.
    Do not ask permission for something already on the list.
-3. **Check for orphaned results.** Anything in `results/` newer than its last mention in the docs is
-   a dropped result. **This is a real failure mode with a real instance behind it.**
+3. **Check for orphaned results** — anything in `results/` newer than its last mention in the docs.
 4. **Read `TODO.md` and top it up.** Harvest tests from anything he just said, in the same pass — **he
    should not have to say "and now design an experiment for that."** **And read what is already
    there**, because the list is the queue's only source and a thin list means an idle machine.
@@ -152,13 +144,9 @@ a ruled-out result stays at one line. Reversals live inside the entry they belon
 known-weaknesses section current** — it is the most useful part and the temptation is to let it go
 stale.
 
-**Near-significance means more power, not a verdict.** Raise n and re-run as a **held-out
-replication** with every hyperparameter frozen. Extending the original set entrenches the forking path
-that produced the marginal number.
-
-**When you find a hole in the battery, re-run what it touches.** A control that turns out to be wrong
-changes every past result that leaned on it. Find them, re-run them, say what moved. Do not wait to be
-asked.
+**Near-significance means more power, not a verdict** — raise n as a held-out replication with every
+hyperparameter frozen. **When you find a hole in the battery, re-run what it touches** — a broken
+control changes every past result that leaned on it; find them, re-run them, say what moved.
 
 **Announce every change to this file in the reply that makes it.**
 
@@ -192,13 +180,11 @@ in the test's own pre-registration.
 
 ## Hard rules
 
-- **Validate the ruler, not just the signal. Run every measure on data whose answer you already know
-  before running it on data whose answer you don't.** Noise in, zero out. A criterion we trusted
-  returned **335 components on pure Gaussian noise**; ten seconds of this would have caught it.
+- **Validate the ruler, not just the signal — run every measure on data whose answer you already
+  know first.** Noise in, zero out (a trusted criterion once returned 335 components on pure noise).
 - **Verify the hash locks and read the deletion lines of `git status` before every commit.** An
-  unintended deletion is a stop-everything event. This exists because `SOUNDING_LINE_SPEC.md` was
-  deleted by an unidentified operation, swept into a bulk `git add -A`, pushed, and caught only by
-  the lock audit hours later.
+  unintended deletion is a stop-everything event (born of the SPEC deletion, caught only by the
+  lock audit).
 - **Every measure ships with a null that can fail it, written before the run.**
 - **Never edit `SOUNDING_LINE_SPEC.md`, `prereg/*.py`, or `soundingline/locks.py`** — content-hash
   locked. Changes go in `docs/method/DEVIATIONS.md`, original retained and still computed.
@@ -218,9 +204,6 @@ in the test's own pre-registration.
 
 - venv at `.venv`, Windows: `./.venv/Scripts/python.exe`. 12GB card.
 - Local model `qwen3.5:9b` via Ollama on loopback, `OLLAMA_NUM_PARALLEL=3`.
-- **The parent simulation** is at `../../AI and Intentionality/Ghost Scale Simulation/ghost-scale-sim`,
-  with its own venv, `pymdp`, and a mature harness this repo lacks — pre-registration cards, bootstrap
-  intervals, verdict files, severity passes. **When a question is about a MECHANISM rather than about
-  real text, it is probably the better environment.** Anything needing inverse planning, an acting
-  agent, a generative model to invert, or ground truth belongs there. **Ask** rather than hand-rolling
-  a weaker version here.
+- **The parent simulation** (`../../AI and Intentionality/Ghost Scale Simulation/ghost-scale-sim`,
+  own venv, `pymdp`, mature harness): **mechanism questions belong there** — inverse planning, acting
+  agents, ground truth. Ask rather than hand-rolling a weaker version here.

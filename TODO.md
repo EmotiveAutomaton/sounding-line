@@ -322,8 +322,8 @@ GPU.**
 | **V4 / V5** | function-word separability on book-length text | ~2 h |
 | **V6** | affect decomposition on topic-controlled generated stories | ~4 h |
 
-| **G100 · re-test L2's three killed candidates under the fair control** ★ | Conditional constructions, contractions and phrasal coordination were killed by the dose-eating control (L22/L23). **A feature that genuinely tracks dose would have been killed the same way** | **CPU-only**: cached feature values + the verified spec reconstruction + within-rung centring. If any candidate survives, L2's verdict partially reverses | ~1 h |
-| **G101 · add L23's p-values to `audit_multiplicity.py`** | the standing rule | mechanical | minutes |
+| **G100b · finish the L24 revival** | Conditionals and coordination revived under the fair control; **contractions were never re-tested** (no cache key matches) and ladder3's cache was stale (rebuilding) | Locate the contraction feature's original key from the L2-era sweep output; rerun `run_fair_features.py` when the ladder3 rebuild lands | ~30 min |
+| **G102 · prior-art sweep before claiming originality** ★ | *"No one else is tracking layer ratio with respect to intent"* — his call, 2026-08-08 | Inline literature sweep (no agents needed): layer-wise affect ratio vs prompt specification, probing-by-depth vs instruction density. **Owed before any public claim** | ~1 h inline |
 
 ## Corpus sourcing — 2026-08-07, the one-maker-many-kinds problem
 

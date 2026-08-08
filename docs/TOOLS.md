@@ -187,3 +187,17 @@ move it without re-running the import check:
 ```
 
 Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature libraries.
+
+
+---
+
+## Added or learned since 2026-08-05 (updated 2026-08-08)
+
+| tool / infrastructure | what it gives us | status |
+|---|---|---|
+| **HuggingFace `datasets`** | streaming reads of GoEmotions, LLM-Emotion, CROSSNEWS — survey a 1.3 GB corpus without downloading it | ✅ used throughout the affect work |
+| **the queue** (`runners/run_queue.py`) | output-guarded stages, pid lock, `--shard/--shards` for the night runner | ✅ hardened after the double-loop race |
+| **`run_forever_day.sh` / `run_forever_night.sh`** | one-job-at-a-time loop with a shell-level lock; whole-machine night mode with mutual exclusion and a deadline | ✅ |
+| **hash-lock ritual** | `soundingline/locks.py` verification before every commit; 5 gate files relocated (map in DEVIATIONS) | ✅ caught a deleted spec |
+| **TransformerLens** | still installed, **still unused** — raw `transformers` + mean-pooled hidden states have sufficed | ⚠ candidate for removal |
+| **per-artifact row caches** | `run_induction_v2` and `run_fair_features` save rows, so re-analyses are CPU-only | ✅ new convention: every GPU runner should |

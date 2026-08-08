@@ -19,7 +19,7 @@ readable a week later, and most of this file is now more than a week old in effe
 | **TIER 1 · LIVE** | still contestable, being worked on, or its method has not been examined. Full detail |
 | **TIER 2 · SETTLED** | has a verdict file and passed its controls. Compressed to a few lines, grouped by outcome |
 
-Promotion from 1 to 2 happens when a result has a verdict file and its required controls. **Nothing
+Promotion from 1 to 2 happens **when the curator has read the entry and responded to it at length** — his verbal response counts as processing it. **Nothing
 is deleted** — a ruled-out result stays at one line. **Reversals live inside the entry they belong
 to**, not in a separate log, so the current state and how it got there are read together.
 
@@ -52,12 +52,15 @@ interpretability at once, and the same word means different things in each.
 
 ## Where we are, in one paragraph
 
-Twenty-eight tests across four gates and three simulation batches. **Ten measures ruled out, four
-tests void, three genuine positives, and three new candidates that have not cleared their controls.**
-Every measure that reads the *artifact* has died to length, register, or vocabulary. The only signals
-that have survived are read out of *the reader*. The binding constraint is no longer a measure — it
-is that **we have never had a controlled comparison on human text**, and the corpora that would fix
-that have now been identified.
+**2026-08-08.** Forty-odd tests across four gates, three simulation batches, an eleven-family
+replication and a standing integrity audit. **The flagship result:** the low-order/high-order ratio
+tracks specified intent under a fair induction control on three independent corpora, scaling with
+manipulation strength (L23), with specification recovery agreeing through an entirely different
+channel (L19) — and two artifact-side features now survive the same fair control (L24), reopening a
+route that had been declared closed. The recurring failure mode has been **criteria that could not do
+their own jobs**; four were caught and each changed verdicts. The binding constraints now: **one
+reader's readings as the only human ground truth**, and **no corpus with one maker across different
+kinds of artifact**.
 
 ---
 
@@ -81,12 +84,7 @@ domain, values needing many episodes, the polish that only slips when the perfor
 outperformed every measure we have built, so the most load-bearing evidence in the project has a
 sample size of one reader.
 
-**3 · RESOLVED — the induction check was built and run, and it changed verdicts.** The echo check
-could only test whether a prompt *contains* a feature, never whether it *induces* one. That gap has
-been closed: specification identity is now learned out-of-fold and removed. **It killed all three
-surviving text-feature candidates (L2) and L1 survived it.** Folded into the entries it affected.
-
-**7 · NEW — a criterion we trusted returned 335 components on pure noise.** Parallel analysis, applied
+**3 · A criterion we trusted returned 335 components on pure noise.** Parallel analysis, applied
 to raw high-dimensional activations, counts structure in data that has none. **Every number it
 produced is void** (L8). The general lesson is now a hard rule in `CLAUDE.md`: **run every measure on
 data whose answer you already know before running it on data whose answer you don't.** No other
@@ -202,7 +200,9 @@ amount of intent still predicted what that could not explain.
 collapse entirely — *"warmly, as though to someone you like"* contains no contractions and produces
 them.
 
-**Verdict: RULED OUT, all three.** The most promising candidate this project has produced from
+**Partial reversal, 2026-08-08 (L24):** under the fair control, conditionals revive at **+0.65 / +0.51** and phrasal coordination at **−0.41 / −0.27**, all *p* ≤ 0.007, on both testable ladders — the kills were the dose-eating control's (L22). Contractions could not be re-tested (key absent from the cache).
+
+**Verdict: RULED OUT, all three** *as originally recorded; see the reversal above.* The most promising candidate this project has produced from
 outside sources does not survive its own controls. **The funnel worked and the answer is no.**
 
 The one durable result is the funnel itself: **61 of 81 replicated features were machine-detectors**,
@@ -730,6 +730,8 @@ mixture — **is not supported**: +0.104 on the lower half, −0.007 on the uppe
 that voided it was misdiagnosed; the effect is large and length-robust; **and whether it survives
 induction now depends on a control whose aggressiveness scales with the specification pool.**
 
+**Resolved, 2026-08-08 (L23).** Under the within-rung control the extreme ladder survives at **−0.516, *p* < 0.0001** — the failure was entirely the control's, whose dose leak here was −0.778.
+
 ## L18 · Does depth move when the domain moves? — a pilot, and it measured the wrong thing
 
 **Hypothesis.** *(The curator's.)* Depth is a property of the writer **with respect to the domain** —
@@ -932,6 +934,40 @@ control** — they are owed a CPU-only re-test under the fair one (G100) before 
 **Verdict: OPEN and the strongest result in the project.** The low-order/high-order ratio tracks
 specified intent after removing length and within-rung specification identity, replicated across
 three independently generated corpora at three manipulation strengths.
+
+## L24 · Two of L2's three executed candidates revive under the fair control
+
+**Hypothesis.** L2's three text features were killed by the induction control that L22 showed contains
+the dose. **A feature genuinely tracking dose would have been executed exactly like an induced one**,
+so the deaths were suspended pending a re-test under the within-rung fair control.
+
+**Method.** CPU-only (`run_fair_features.py`): feature values from the cached 342-feature extractions,
+specifications from the verified reconstruction, and the same within-rung centring as L23 — remove
+length and *which-specs-given-how-many*, then test the residual against rung.
+
+| feature | corpus | raw | old control | **fair control** | *p* |
+|---|---|---|---|---|---|
+| conditional constructions | first ladder | +0.692 | +0.224 (n.s.) | **+0.649** | **< 0.0001** |
+| conditional constructions | held-out | +0.579 | +0.180 (n.s.) | **+0.513** | **< 0.0001** |
+| phrasal coordination | first ladder | −0.531 | −0.039 (n.s.) | **−0.406** | **0.0034** |
+| phrasal coordination | held-out | −0.349 | −0.132 (n.s.) | **−0.268** | **0.0070** |
+
+*"Old control" is what L2 used — the dose-eating regressors. "Fair control" removes length and
+within-rung specification identity. Signs match L2's original directions.*
+
+**Verdict: REVIVED, both, on both testable ladders.** The artifact-side route is not as closed as L2
+concluded — **two published linguistic features track specified intent through a fair control**, with
+the same sign structure L2 found before the kill.
+
+**Two caveats, honestly.** **Contractions were not re-tested** — no feature key matching them exists
+in the cache, so that death is *unadjudicated*, not confirmed (G100b: locate the original key). And
+**the extreme ladder's feature cache was stale** — built when the corpus was a quarter generated, 23
+usable rows — so ladder3 is rebuilding and will be the held-out confirmation or the check on these
+revivals.
+
+**Originality, his call 2026-08-08:** *"It seems like no one else is tracking layer ratio with respect
+to intent — it feels like an obvious hit."* Recorded as believed-original; **a prior-art sweep (G102)
+is owed before any public claim.**
 
 ## L4 · Can weak effects be stacked into a detector?
 
