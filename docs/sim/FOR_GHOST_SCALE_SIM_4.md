@@ -213,3 +213,33 @@ to hold in the real environment for the result to carry.**
 
 **S-11 first, and by a distance.** Everything this project might claim about how many affective
 primitives there are is currently resting on a criterion we have already caught being wrong.
+
+
+---
+
+## S-16 · Which subtraction recovers a planted residual? — added 2026-08-07
+
+**The depth redefinition says: remove the always-present reader-directed goals — attractiveness,
+teaching, epistemic foraging — and the residual is applied expertise; remove what expertise optimised
+and the residual of *that* is values.** The objection on record says the three goals leave
+**habit-shaped shadows** — repetition bakes them into process — so a goal-shaped subtraction cannot
+remove them. And the curator doubts the obvious statistical tool: *"partialling out — I'm not sure
+it's mathematically appropriate for what we're doing here."*
+
+**The build.** An emitter with known drives plus three always-on reader-directed goal families whose
+expression is **habitual** — it repeats, so it bakes in exactly as the objection says. Recover the
+drive residual three ways: **(a)** linear partialling-out; **(b)** constraining the recoverable class,
+IRL-style; **(c)** removing the three habit families by repetition-matching.
+
+**Pre-registered.** Which method recovers the planted residual; and specifically **does linear
+partialling delete signal** — the habit-shadow objection made quantitative. This settles which
+subtraction vocabulary the project commits to (TODO G78) before either is used on real text.
+
+## S-17 · Drives upstream of process — the missing edge (G47)
+
+**The measured ordering is process → goal, one edge of six.** His extension: *"I would assume that
+drives are upstream of even process."* **The build:** supply the reader the maker's true drives and
+measure process recovery, against the measured baseline of supplying process and measuring goal
+recovery. **If the drives → process edge exists and is comparable in size, the generative chain
+drives → process → goal is complete — and "river versus triangle" becomes a measurement rather than
+a metaphor.**

@@ -482,7 +482,7 @@ increasing manipulation strength, with length controlled by rejection sampling o
 
 | ladder | specifications per prompt | n | win rate vs 48 decoys | correlation with rung | *p* |
 |---|---|---|---|---|---|
-| first, 50 artifacts | 0/1/3/6/10 | 40 | 52.5% | 0.205 | 0.20 |
+| first ladder — 50 artifacts, **40 scorable** (rung 0 carries no specification) | 0/1/3/6/10 | 40 | 52.5% | 0.205 | 0.20 |
 | held-out, 100 | 0/1/3/6/10 | 80 | 66.3% | 0.366 | 0.0008 |
 | **extreme, 75** | **0/2/10/30/60** | 60 | **91.7%** | **0.435** | **0.0005** |
 
@@ -554,6 +554,30 @@ predicts, or an insensitivity of this coherence measure at that depth, this run 
 **layer 2 in every rung of every ladder** — it does not move with intent. **The moving numbers reported
 earlier (layers 14, 19, 23) were the layer that best *correlates* with rung, which is a different
 quantity; the runner conflated them and that was my error.**
+
+**Cross-family replication, 2026-08-07 — and the clean story does not survive it.** The same readout
+on three more families, three ladders each:
+
+| band × rung correlation | Qwen-1.5B | SmolLM2-360M | gpt2-medium | pythia-1.4b |
+|---|---|---|---|---|
+| early | −0.69 / −0.64 / −0.73 | **+0.67 / +0.57 / +0.56** | +0.74 / +0.65 / +0.74 | +0.18 / −0.07 / −0.41 |
+| middle | +0.14 / +0.12 / −0.15 | +0.46 / +0.33 / +0.17 | **+0.73 / +0.64 / +0.77** | +0.49 / +0.46 / +0.31 |
+| **late** | **−0.36 / −0.25 / −0.61** | +0.59 / +0.46 / +0.28 | **−0.36 / −0.31 / −0.53** | **−0.58 / −0.46 / −0.60** |
+
+*Correlation between rung and agreement among the eight affect concepts, per depth band, for the
+three ladders in each model family.*
+
+**Four things move.** The inversion is **Qwen-specific** — SmolLM2 shows the *predicted* positive
+relationship at every band. The Qwen dissociation — "the middle does not move" — **does not
+generalise**: the middle moves strongly in gpt2 and pythia. The only near-universal pattern is that
+**late-band coherence falls with rung in three of four families**. And the depth-of-peak verdicts
+split: FIXED in Qwen, **SHIFTS — the peak moves deeper as rung rises — in SmolLM2 and pythia**, NOISE
+in gpt2. **So the earlier rejection of "deeper intent needs deeper machinery" was premature: the claim
+is family-conditional, not false.**
+
+**Verdict unchanged for the universal claims — REJECTED — and the family-conditional versions are
+OPEN.** The readout code itself goes to the audit before any of this hardens: a sign convention or a
+band-boundary artifact could manufacture exactly this kind of family difference.
 
 ## L14 · Does the affective-response profile across depth carry any information about the maker?
 
@@ -771,6 +795,13 @@ reported as if it had been.
 
 **Verdict: OPEN and now well controlled.** This is the best-supported measure in the project.
 
+**A queue defect found in the Fable audit pass, 2026-08-07.** The 96-decoy stage writes the **same
+file** as the 48-decoy run, so `results/spec_recovery/ladder3.json` now holds the 96-decoy result and
+the 48-decoy raw file is gone — its numbers survive only in this entry. And with no output guard the
+stage re-ran on **every** loop pass at ~20 GPU-minutes each; three passes burned an hour recomputing a
+result that existed. Guarded now; *same-output-path-different-parameters* goes to the audit as a
+class.
+
 ## L20 · Two queue stages that did not test what they were queued to test
 
 **Recorded because a stage that runs to completion and reports a verdict is more dangerous than one
@@ -796,6 +827,31 @@ sample was never the problem.
 **Verdict: both VOID.** Neither is a result. **The queueing error was mine in both cases** — one
 stage assumed an argument that does not exist, the other assumed the void was about power when the
 diagnosis on record says it was about arithmetic.
+
+## L21 · Does a reader's state move more erratically over machine text? — the void, resolved
+
+**Hypothesis.** *(V2, voided at three artifacts.)* A reader's affective state should wobble more
+between consecutive windows on text with no maker than on ladder text.
+
+**Method.** For each artifact, project the eight affect concepts at every layer per window; take the
+size of the step between consecutive windows; displacement variance is the spread of those steps
+within one artifact, **normalised by its own mean step** so a text that merely moves more does not
+read as more erratic. Permutation test against the no-maker corpus, 5,000 label shuffles.
+
+| corpus | n | displacement variance | *p* against no-maker |
+|---|---|---|---|
+| first ladder | 50 | 0.209 | 0.958 |
+| held-out ladder | 100 | 0.216 | 0.711 |
+| extreme ladder | 75 | 0.209 | 0.919 |
+| **no-maker** | 36 | 0.210 | — |
+
+*Mean within-artifact variability of the reader's affect trajectory. The no-maker corpus is text with
+no maker; identical values there mean the wobble carries nothing about a maker.*
+
+**Verdict: REJECTED, cleanly, at n = 261.** The four corpora are indistinguishable to two decimal
+places. This is the informative null the three-artifact void could not supply, and the third
+confirmation of the reader-side lesson: **a reader's state does not carry the signal; ratios between
+the reader's own layers on the same text do.**
 
 ## L4 · Can weak effects be stacked into a detector?
 
