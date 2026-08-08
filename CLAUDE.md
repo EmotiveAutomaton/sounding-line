@@ -162,16 +162,13 @@ asked.
 
 **Announce every change to this file in the reply that makes it.**
 
-## Subagents
+## Subagents — FORBIDDEN (2026-08-08, his instruction, token limits)
 
-**Standing authorisation — spawn one whenever a question needs more than two or three searches, spans
-several literatures, or needs a field checked properly. Do not ask. Say that you did.**
-
-- **Brief them to fetch sources and search adversarially** — those rules are not automatic for them.
-- **Require their report to open with the word `Subagent`.** He reads the chat linearly and cannot
-  otherwise tell their output from yours, which costs him more than the research is worth.
-- Run several in parallel over different territory rather than one serially.
-- **Their output is a report, not a result**, and owes the same sourcing standard.
+**Spawn nothing.** No Agent tool, no Workflow tool, no research fleets, no "just one quick search
+agent." The standing authorisation from 08-05 is **suspended by the curator explicitly** — a nine-agent
+audit fleet burned the session limit mid-flight. **Do all nine audit scopes and all research inline,
+yourself, slowly.** Do not resume workflow `wf_8f6826fa-9ee`. He may restore a fleet later; until he
+says so in his own words, this rule wins over every older instruction in this file.
 
 ## How to search
 

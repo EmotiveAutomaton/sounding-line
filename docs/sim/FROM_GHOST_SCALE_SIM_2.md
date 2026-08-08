@@ -31,7 +31,7 @@ It substituted **depth** as the third vertex and labelled the substitution at th
 So what follows is `goal – process – depth`, and the values question is **still open** — it needs a
 model that does not exist yet.
 
-> This matters directly for `docs/theory/THE_EMPATHY_TRIANGLE.md`, where the curator flagged his own open
+> This matters directly for `docs/theory/THE_TRIPLE_INFERENCE.md`, where the curator flagged his own open
 > question: *"I don't know if drives are values."* The simulation cannot answer it, and now says so
 > in a way that names what would have to be built first.
 
@@ -261,7 +261,7 @@ invisible to it.
 | **`purpose_breadth` is retired** | difficulty statistic. S-2's validation retracted on top. Any result citing it needs revisiting — `results/diversity/VERDICT.md` first |
 | **The books test is cancelled** | stage 3 of the queue was `purpose_breadth` early-vs-late. Its measure is dead; running it would produce a difficulty gradient and we would read it as expertise |
 | **Do not rebuild around process** | T-1 says process is the source; **T-5 says that has no instrument consequence.** The probe stays goal-side |
-| **THE_EMPATHY_TRIANGLE.md needs revising** | not a triangle; a directed flow, source→sink, additive not superadditive. The values vertex is unbuilt, not unmeasured |
+| **THE_TRIPLE_INFERENCE.md needs revising** | not a triangle; a directed flow, source→sink, additive not superadditive. The values vertex is unbuilt, not unmeasured |
 | **Decision-counting is un-retired, conditionally** | alive where mode dwell is long. Needs a corpus of sustained single-purpose artifacts — which is a **new C-14-shaped debt**, and a much better specified one |
 | **The leaked layer is worth building** | survives reader ignorance, including a 50% channel swap. Target it at heavy concealment only |
 

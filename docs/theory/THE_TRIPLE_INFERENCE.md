@@ -1,8 +1,18 @@
-# The empathy triangle — intent extraction as a triple inference
+# The triple inference — a model of human empathy
+
+*(formerly "the empathy triangle" — renamed 2026-08-08 at the curator's instruction)*
 
 > Empathy is effectively a variational inference problem — **three separate variational inference
 > problems being solved in parallel**, each bootstrapping the others: the extraction of the **proximal
 > goal**, the extraction of the **process**, and the extraction of the **values and drives**.
+
+> I'm **specifically modelling it after human empathy** — what seems to be the process that I believe
+> human empathy is.
+
+**The name changed; the target did not.** *Empathy* carries 43 catalogued definitions and invites an
+affective reading of an inferential claim, so the mechanism is now named for what it does — a **triple
+inference**. **The phenomenon being modelled remains human empathy**, and every claim in this file is
+a claim about how that process works.
 
 **The core claim of the project.** Everything else in this folder is downstream of it. What is
 contested is the *shape* of the relationships between the three, not that there are three.

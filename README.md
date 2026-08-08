@@ -138,7 +138,7 @@ simulation, or against published work.
 
 | | |
 |---|---|
-| **the empathy triangle** | intent extraction as a triple inference over goal, process and drives. The core claim; everything else is downstream |
+| **the triple inference** | intent extraction as a triple inference over goal, process and drives. The core claim; everything else is downstream |
 | **three cognitive layers** | the affective architecture a model is trying to reconstruct, and where the reconstruction fails |
 | **polish and depth** | two decision densities, split by what the decision targets — and polish itself splits again, into attraction and translation |
 | **human empathy heuristics** | the tricks a person uses when the maker is absent, with an instrument panel recording what each is measured to be worth |

@@ -5,7 +5,7 @@ extraction has an answer — assuming no property of a brain adds randomness we 
 
 **In practice it is intractable**, and it converges only slowly: value data accumulated over time from
 a variety of stimuli, approaching the answer the way a series approximation does. **So humans do not
-solve the empathy triangle. They run heuristics at it.**
+solve the triple inference. They run heuristics at it.**
 
 > While I don't expect we will have to rely on these heuristics when designing depth extraction, I
 > expect AI will arrive at most, if not all of them, organically. Nevertheless it's worth keeping track
@@ -613,7 +613,7 @@ effect and declines to claim even that.
 > that I can't find an explanation for.**
 
 Then it runs purpose→method **and** method→purpose, with the entry point set by wherever he has
-partial expertise — which is [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) §2's enter-at-any-sub-level claim
+partial expertise — which is [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §2's enter-at-any-sub-level claim
 described from the inside.
 
 **His own discomfort, recorded because he raised it:** *"I hate that a lot of this is me picking out
@@ -680,7 +680,7 @@ rather than an attribute explains why the corpus problem is fatal rather than in
 relation cannot be measured by varying one side, and every measure that died, died reading artifacts
 alone.** The falsifier came attached to the claim — *depth moves where domain moves* — which is rare
 and makes this cheap to settle the moment the corpus exists. **It is the same corpus HH-4 needs, and
-the same one three sections of the empathy triangle need.**
+the same one three sections of the triple inference need.**
 
 ## §5. Process is hierarchical, and you can enter the decode at any level
 
@@ -718,7 +718,7 @@ Nobody in that convergence argues three is forced; they argue three is *useful*.
 |---|---|---|---|
 | **lit** | Entry is possible at any of the three levels and ratchets to the others | **CONTESTED (READ)** | **Bullot & Reber assert a strict ordering** — the design stance is *"requisite for"* artistic understanding — and the open peer commentary attacked precisely the relations among their modes. **This contradiction is our contribution surface** |
 | **lit** | Bullot & Reber's framework is well supported | **REJECTED (READ-FULL)** | Chmiel & Schubert, 34 experiments across 23 publications: **26% support, 18% inconclusive, 56% no support.** An occupied lot with a shaky building on it |
-| **G56** | Supplying **mechanics-level** information unlocks goal recovery | **OPEN, and it is the missing direction in the whole edge programme** | **Every edge tested so far supplies a goal or a process. None has ever supplied a mechanic.** Same row as the empathy triangle's G56 |
+| **G56** | Supplying **mechanics-level** information unlocks goal recovery | **OPEN, and it is the missing direction in the whole edge programme** | **Every edge tested so far supplies a goal or a process. None has ever supplied a mechanic.** Same row as the triple inference's G56 |
 
 **What these add up to.** We disagree with the only framework that occupies this ground, **and that
 framework is weakly supported by its own field's replication record** — so the collision is worth
@@ -791,7 +791,7 @@ than a teacher, and the difference is the part nobody has formalised.**
 > of their listener. Of course they do.** Which makes all interactions this kind of **collaborative
 > back-and-forth.**
 
-**So the maker is running the empathy triangle in reverse while making the thing.** They model the
+**So the maker is running the triple inference in reverse while making the thing.** They model the
 reader, then shape the artifact so the reader's inference lands where they want it. **That means an
 artifact is not a trace of a maker's process — it is a trace of a maker's process *plus their model of
 you*.** Which is a second inference problem sitting on top of the one this project is trying to solve,

@@ -75,7 +75,7 @@ direction" late. That was imprecise about both halves of the analogy.
 > goals come from the neocortex: because that's where your trajectory is stored.**
 
 **So in humans, goal is not stored late. Trajectory is stored late, and goal is what executive
-function does with it.** That is the same relation as [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md)
+function does with it.** That is the same relation as [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md)
 §5 — *expertise × weighted policy map → actions* — seen from the neuroanatomy rather than from the
 formalism.
 
@@ -491,7 +491,7 @@ from, then supplying the missing middle is an intervention rather than an observ
 
 **This is the strongest available answer to "whose values, and who decides."** If the mid-level
 primitives only need to be *seeded* rather than *specified*, the design does not require anyone to
-write down the value set — which the empathy triangle establishes is impossible anyway. **The bootstrap
+write down the value set — which the triple inference establishes is impossible anyway. **The bootstrap
 claim and the value-blindness claim fit together, and neither was stated with the other in mind.**
 
 **A question raised and deliberately deferred:** whether such an architecture needs something

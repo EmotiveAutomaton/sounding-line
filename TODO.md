@@ -223,9 +223,9 @@ its own right whenever we take on a published result.
 | **G45 · reposition and strengthen** ★ | *"Could we force them to be in a layer we think is correct and then strengthen them?"* If the structure is real but badly placed, **the intervention is relocation and reinforcement, not construction** | Needs G44. **A far smaller build than supplying the middle from scratch** | a build |
 | **G46 · do worse models place affect worse?** ★ | *"Is there evidence of worse models having more poorly placed emotional concepts?"* | **Free — we already hold four families from 360M to 1.5B and have not asked this of them.** Informative both ways: if placement improves with capability it is learned, not architectural; if it does not, the structure is architectural, which is the strongest thing available | minutes |
 
-## Harvested 2026-08-07 from the theory pass — the empathy triangle
+## Harvested 2026-08-07 from the theory pass — the triple inference
 
-**Same identifiers as `docs/theory/THE_EMPATHY_TRIANGLE.md`.**
+**Same identifiers as `docs/theory/THE_TRIPLE_INFERENCE.md`.**
 
 | | the claim | the test | cost |
 |---|---|---|---|

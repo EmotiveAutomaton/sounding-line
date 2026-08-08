@@ -14,7 +14,7 @@ framing the impossibility results bite, because it must act on an estimate while
 wrong. **Here the imprecision is a term in the objective rather than a defect the design tolerates.**
 
 **And the structure fights capture.** The signal is weak, the inference is intractable in the exact
-sense [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) §8 sets out — approached through error,
+sense [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §8 sets out — approached through error,
 never certainly attained — and
 [`HUMAN_HEURISTICS.md`](HUMAN_HEURISTICS.md) is the record of how much machinery a *person* needs to
 do it badly. **That weakness is what protects the objective from being owned.** A system whose
@@ -63,7 +63,7 @@ and the system asks rather than acts.
 
 > **The balance is not a safety constraint bolted on. It falls out of surprise minimisation.**
 
-**And this is why the limit framing in [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) §8 is load-bearing rather
+**And this is why the limit framing in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §8 is load-bearing rather
 than a hedge.** Values are approached through inference with error and never certainly attained. **A
 design whose objective already contains its own uncertainty does not need the limit to be reached. It
 is correctly specified at every point along the way.**

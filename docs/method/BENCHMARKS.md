@@ -22,7 +22,7 @@ email and a text message? 112 authors, four discourse types, 61% of pairs are em
 > bar for a field that scores 0.95 on the easy version.
 
 **And it is the right task for us, not just a soft target.** Same maker, different discourse type,
-is precisely the *diversity of conditions* that `../theory/THE_EMPATHY_TRIANGLE.md` §8 says values recovery
+is precisely the *diversity of conditions* that `../theory/THE_TRIPLE_INFERENCE.md` §8 says values recovery
 requires. The field is failing at the exact comparison our framework says is the informative one.
 
 **The access problem is real.** Zenodo record `6337151` has public metadata and **restricted files**;

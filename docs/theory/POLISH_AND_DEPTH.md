@@ -40,7 +40,7 @@ absent from the residue by construction.
 
 **It makes the same move twice, at two levels.** Goal space minus the always-present goals is depth.
 Expertise minus what got optimised is values. **One operation, applied to its own output** — which
-gives the ladder *surface goals → applied expertise → values*, and that is the empathy triangle
+gives the ladder *surface goals → applied expertise → values*, and that is the triple inference
 approached from the other end.
 
 **⚠ A fourth objection, from the only field that has tried this, and it lands on "depth is
@@ -235,7 +235,7 @@ individual selection from collective resources directed at a task.**
 **And he takes our position on intention, forty years early:** intention is *"not a biographical
 mental fact"* but **"a general condition of rational human action which I posit in the course of
 arranging my circumstantial facts."** That is the answer to Wimsatt & Beardsley that
-[`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) §8 says has never been written up — **it has,
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §8 says has never been written up — **it has,
 and not by us.**
 
 **He also supplies an epistemic guardrail we should adopt:** you **cannot** reconstruct the
@@ -560,7 +560,7 @@ value produces thin depth, and the polish is what covers for it.
 > other that are all reasonably capable of aligning, against a machine writing with just one or two.
 
 **This is the mirror of §4.** Flattened intent is *one* terminal value; this asks what happens at the
-opposite end. **And it is [`THE_EMPATHY_TRIANGLE.md`](THE_EMPATHY_TRIANGLE.md) TR-13 restated as an experiment** —
+opposite end. **And it is [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) TR-13 restated as an experiment** —
 *all goals partially satisfied at once* is exactly what three pages of aligned motivations produces.
 
 **His specific complaint is that our manipulation was too weak**: the ladder tops out at ten short
