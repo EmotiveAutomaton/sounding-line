@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# OVERNIGHT — use the whole machine. Nobody is watching, so every safety here is load-bearing.
+# NIGHT — use the whole machine. Nobody is watching, so every safety here is load-bearing.
 #
-# The daytime loop (run_forever.sh) runs one job at a time so the machine stays responsive. This one
+# The daytime loop (run_forever_day.sh) runs one job at a time so the machine stays responsive. This one
 # does not care about lag. What it cares about is the failure that actually happened on 2026-08-07:
 # four loops running at once, each respawning a queue, each queue launching a duplicate of the same
 # GPU job, every result written twice, and nobody there to notice.
@@ -17,7 +17,7 @@
 #   4. A DEADLINE.      It stops on its own. An unattended loop with no end is how a machine is found
 #                        at 100% three days later.
 #
-# Usage:  bash run_overnight.sh [hours] [workers]
+# Usage:  bash run_forever_night.sh [hours] [workers]
 #         defaults: 10 hours, 3 workers
 #
 # WORKER COUNT IS A MEMORY DECISION, not a speed one. Three concurrent readers on a 12 GB card used
@@ -60,7 +60,7 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
-echo "=== OVERNIGHT started $(date) as pid $$ — ${HOURS}h deadline, ${WORKERS} workers ===" >> "$LOG"
+echo "=== NIGHT started $(date) as pid $$ — ${HOURS}h deadline, ${WORKERS} workers ===" >> "$LOG"
 echo "started. ${HOURS}h deadline, ${WORKERS} shards. Stop early with:  kill $$"
 
 PASS=0
@@ -85,5 +85,5 @@ while [ "$(date +%s)" -lt "$DEADLINE" ]; do
   sleep 60
 done
 
-echo "=== OVERNIGHT deadline reached $(date), ${PASS} passes ===" >> "$LOG"
+echo "=== NIGHT deadline reached $(date), ${PASS} passes ===" >> "$LOG"
 echo "deadline reached after ${PASS} passes."

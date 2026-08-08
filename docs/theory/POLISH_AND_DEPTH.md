@@ -43,6 +43,36 @@ Expertise minus what got optimised is values. **One operation, applied to its ow
 gives the ladder *surface goals → applied expertise → values*, and that is the empathy triangle
 approached from the other end.
 
+**⚠ A third objection, his own, and it is the serious one — 2026-08-07.**
+
+> The residual is habits that have been unconsciously baked into your process, right? **But
+> repetition does appear in other places.** It's not just the leakage you continually show that gets
+> baked into your habits. **It's also the aesthetic habit and the teaching habit**, both of which will
+> be baked into the process as goals. So if you can't fully account for them — **and I don't think
+> you'll be able to** — then it does mean you get that seductive details effect.
+
+**This is the objection that could sink the subtraction.** The definition removes the always-present
+goals on the grounds that they are *goals*. **But automaticity does not care what a repeated action
+was for.** A practised writer's attention-grabbing opener and their habit of signposting are as
+automatised as anything else they do, so they are baked into the process and sit **in the residue** —
+which is exactly where the definition says they are not.
+
+**So the three rule-outs cannot be removed by subtracting goals. They have habit-shaped shadows that
+survive the subtraction**, and those shadows are indistinguishable in form from the thing being looked
+for.
+
+**And it explains the seductive details effect from the inside**, which is what makes it more than an
+objection. Attention-grabbing surface material reduces recall and transfer — established in the
+education literature and, until now, an awkward external finding. **Under this account it is what
+happens when a maker's aesthetic habit runs automatically and unchecked:** the practised move fires
+because it is practised, not because it serves the reader, and the reader pays.
+
+**What it costs and what it leaves.** It does not kill the residual definition. **It says the residual
+is contaminated by exactly three known things, and their contamination is habit-shaped rather than
+goal-shaped.** That is a harder subtraction but a better-specified one — **you are no longer removing
+goals, you are removing three specific habit families**, and habits are more tractable than
+intentions because they repeat, which is the one property this framework already knows how to detect.
+
 **Two objections that have to be answered before adoption.**
 
 **1. It collapses a distinction that was doing work.** *Depth is expertise* makes depth a property of
@@ -108,6 +138,26 @@ we would have looked.
 **And the critique of chaîne opératoire is almost word for word the attack we will face:**
 *"overformalized,"* giving *"an illusion of reading the minds of prehistoric knappers."*
 
+**His reading of that critique, and it inverts it — 2026-08-07:**
+
+> I actually find that line about the attack on chaîne opératoire to be **quite optimistic**.
+> Something that's over-formalised and also gives the illusion of reading the minds of people that
+> aren't there, and the creators — **sounds frankly like exactly what we're looking for.** It's
+> unscientific, but also perhaps a very natural human thing that does have error bars that are by
+> definition unscientific. **The natural process probably is captured, or is related to and uses
+> several of the main channels that we all naturally use anyway.**
+
+**The critics are describing the phenomenon rather than refuting the method.** *Reading the minds of
+people who are not there* is what a reader does. **If the archaeological formalism produces that
+illusion reliably, it is producing the same illusion a human reader produces** — which is the thing
+this project is trying to instrument, not an error in it. **The error bars are unscientific because
+the process is; that is a fact about the target, not about the measurement.**
+
+**The limit that survives the inversion:** an illusion that reliably reproduces a human reading is
+still an illusion about the *maker*. **It licenses claims about what a reader would recover, not about
+what the maker did** — the same limit Baxandall states when he says you cannot reconstruct the
+stroke-by-stroke sequence.
+
 ### The framework — Baxandall already has it, triangle included
 
 **Michael Baxandall, *Patterns of Intention* (1985), "inferential criticism" and the "triangle of
@@ -143,6 +193,18 @@ citing FWL as the label is a category error econometricians will notice.
 
 > **One inversion to flag explicitly, or reviewers will misread it: in statistics a residual is the
 > *error*. In this framework the residual is the *quantity of interest*.**
+
+**His reservation, and it should be settled before the vocabulary is adopted — 2026-08-07:**
+*"Partialling out — I'm familiar with it, but I'm not sure it's mathematically appropriate for what
+we're doing here. We kind of need to find something that works with the alignment research as much as
+possible."*
+
+**He is right to hesitate, and the objection above is why.** Partialling out is **linear**, and it
+assumes the nuisance is **additive and separable**. The habit-shaped-shadow problem says the three
+goals leave residue that is neither. **And the alignment side names the same move differently:** in
+inverse reinforcement learning you constrain the reward class, you do not regress out a component.
+**Which framing is correct is open, and a simulation could settle it before either is committed to** —
+plant a known residual under a known nuisance and see which recovery method finds it.
 
 ### What this changes, and what it does not
 

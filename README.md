@@ -163,7 +163,7 @@ simulation, or against published work.
 | [`results/readings/`](results/readings/) | human reading sessions, and a provenance ledger |
 | [`fetch/`](fetch/) | corpus acquisition — imports nothing from the analysis package, by design |
 | [`runners/`](runners/) | one file per experiment, each opening with its own pre-registration |
-| [`run_forever.sh`](run_forever.sh) · [`run_overnight.sh`](run_overnight.sh) | the queue, one job at a time or the whole machine |
+| [`run_forever_day.sh`](run_forever_day.sh) · [`run_forever_night.sh`](run_forever_night.sh) | the queue, one job at a time or the whole machine |
 
 ---
 

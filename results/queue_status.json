@@ -1,13 +1,11 @@
 {
-  "started": "2026-08-07 13:34",
+  "started": "2026-08-07 18:49",
   "stages": [
     {
       "name": "void_v2_displacement",
       "why": "V2 -- does reader displacement vary more for machine text, at n=261 rather than n=3",
       "est_minutes": 40,
-      "status": "DONE",
-      "log": "results\\void_v2_displacement.log",
-      "minutes": 3.0
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "void_v1_ladder3",
@@ -19,9 +17,7 @@
       "name": "void_v1_ladder2",
       "why": "V1 -- the same re-score on the held-out ladder, for comparison",
       "est_minutes": 35,
-      "status": "DONE",
-      "log": "results\\void_v1_ladder2.log",
-      "minutes": 1.3
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "void_v4_induction",
@@ -29,7 +25,7 @@
       "est_minutes": 20,
       "status": "DONE",
       "log": "results\\void_v4_induction.log",
-      "minutes": 1.4
+      "minutes": 1.3
     },
     {
       "name": "void_v3_refusal",
@@ -43,88 +39,75 @@
       "name": "readout_pythia-1.4b",
       "why": "does the coherence-falls-with-rung effect replicate in pythia-1.4b",
       "est_minutes": 15,
-      "status": "DONE",
-      "log": "results\\readout_pythia-1.4b.log",
-      "minutes": 3.0
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "readout_gpt2-medium",
       "why": "does the coherence-falls-with-rung effect replicate in gpt2-medium",
       "est_minutes": 15,
-      "status": "DONE",
-      "log": "results\\readout_gpt2-medium.log",
-      "minutes": 1.5
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "readout_SmolLM2-360M",
       "why": "does the coherence-falls-with-rung effect replicate in SmolLM2-360M",
       "est_minutes": 15,
-      "status": "DONE",
-      "log": "results\\readout_SmolLM2-360M.log",
-      "minutes": 2.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "subspace_Qwen2.5-3B",
       "why": "affect-subspace alignment across depth in Qwen2.5-3B -- does placement improve with capability",
       "est_minutes": 8,
-      "status": "DONE",
-      "log": "results\\subspace_Qwen2.5-3B.log",
-      "minutes": 0.3
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "subspace_gpt2-large",
       "why": "affect-subspace alignment across depth in gpt2-large -- does placement improve with capability",
       "est_minutes": 8,
-      "status": "DONE",
-      "log": "results\\subspace_gpt2-large.log",
-      "minutes": 0.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "subspace_pythia-410m",
       "why": "affect-subspace alignment across depth in pythia-410m -- does placement improve with capability",
       "est_minutes": 8,
-      "status": "DONE",
-      "log": "results\\subspace_pythia-410m.log",
-      "minutes": 0.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "subspace_Qwen2.5-0.5B",
       "why": "affect-subspace alignment across depth in Qwen2.5-0.5B -- does placement improve with capability",
       "est_minutes": 8,
-      "status": "DONE",
-      "log": "results\\subspace_Qwen2.5-0.5B.log",
-      "minutes": 0.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "subspace_SmolLM2-1.7B",
       "why": "affect-subspace alignment across depth in SmolLM2-1.7B -- does placement improve with capability",
       "est_minutes": 8,
-      "status": "DONE",
-      "log": "results\\subspace_SmolLM2-1.7B.log",
-      "minutes": 0.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "subspace_gpt2-xl",
       "why": "affect-subspace alignment across depth in gpt2-xl -- does placement improve with capability",
       "est_minutes": 8,
-      "status": "DONE",
-      "log": "results\\subspace_gpt2-xl.log",
-      "minutes": 0.3
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "subspace_pythia-2.8b",
       "why": "affect-subspace alignment across depth in pythia-2.8b -- does placement improve with capability",
       "est_minutes": 8,
-      "status": "DONE",
-      "log": "results\\subspace_pythia-2.8b.log",
-      "minutes": 0.3
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "bits_shuffled_ladder2",
       "why": "the shuffled-specification control on the held-out ladder -- win rate must collapse to chance",
       "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "bits96_ladder3",
+      "why": "specification recovery against 96 decoys -- twice the discrimination",
+      "est_minutes": 45,
       "status": "RUNNING",
-      "log": "results\\bits_shuffled_ladder2.log"
+      "log": "results\\bits96_ladder3.log"
     }
-  ]
+  ],
+  "shard": "0/1"
 }

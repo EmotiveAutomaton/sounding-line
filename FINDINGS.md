@@ -742,6 +742,61 @@ finding rather than a result about depth**, and it makes the corpus question mor
 less — but it also shows the corpus is downstream, because a better corpus read by a non-depth
 measure answers nothing.
 
+## L19 · Specification recovery passes its hardest control, and doubling the difficulty barely moves it
+
+**Hypothesis.** If the artifact really carries information about the specification that produced it,
+then (a) breaking the artifact–specification link must destroy the effect, and (b) making the
+discrimination twice as hard should not.
+
+**Method.** Two runs. **The control:** give each artifact *another artifact's real specification* and
+score it the same way — everything is preserved except the link between artifact and specification,
+so the win rate must collapse to chance. **The harder test:** score against **96** topic-matched
+decoys instead of 48, halving the chance rate.
+
+| run | decoys | chance | win rate | correlation with rung | *p* |
+|---|---|---|---|---|---|
+| **shuffled specifications**, held-out ladder | 48 | 2.04% | **1.3%** | −0.298 | 0.007 |
+| extreme ladder | 48 | 2.04% | 91.7% | +0.435 | 0.0005 |
+| **extreme ladder** | **96** | **1.03%** | **90.0%** | **+0.454** | **0.0003** |
+
+**What we found. The control collapses to chance exactly** — 1.3% against an expected 2.0%. **And
+doubling the decoys cost 1.7 points**, from 91.7% to 90.0%, while chance halved. **The effect is not
+a discrimination artifact.**
+
+**One oddity worth keeping visible.** Under shuffling the correlation with rung is **significantly
+negative** (−0.298, *p* = 0.007) where it should be nothing. The likely reading is that higher-rung
+artifacts are *more constrained*, so a wrong specification fits them **worse** — which is a
+second-order confirmation rather than a problem, but it was not predicted and it should not be
+reported as if it had been.
+
+**Verdict: OPEN and now well controlled.** This is the best-supported measure in the project.
+
+## L20 · Two queue stages that did not test what they were queued to test
+
+**Recorded because a stage that runs to completion and reports a verdict is more dangerous than one
+that crashes.**
+
+**The induction control on the extreme ladder did not run.** The stage passed `--corpus ladder3` to a
+runner that **has no `--corpus` argument at all.** It ran its hardcoded default and reproduced the
+held-out ladder's numbers exactly — raw −0.247, length-removed −0.405, both-removed −0.259
+(*p* = 0.009), verdict SURVIVES. **Those are real numbers and they are a re-run of a result we already
+had.** The extreme ladder's induction figure comes from a different runner and is −0.207, *p* = 0.074.
+
+**And the function-word result still has no induction control of its own**, which is what that stage
+was supposed to supply. Classifying rung from function words could be reading style the prompt
+*induced* rather than a maker state, and **the control that would settle it does not exist yet.**
+
+**The refusal re-run used the threshold that voided it.** The original was VOID because its pass
+condition — *generated exceeds the human mean on at least 3 of 5 components* — has a **50%
+false-positive rate by arithmetic**: five independent comparisons under a null of no difference is
+five coin flips, and P(at least 3 of 5) is exactly 0.5. **The re-run reports PASS with 3 of 5, which
+is the modal outcome of a fair coin.** Raising the sample from 5 to 20 does nothing, because the
+sample was never the problem.
+
+**Verdict: both VOID.** Neither is a result. **The queueing error was mine in both cases** — one
+stage assumed an argument that does not exist, the other assumed the void was about power when the
+diagnosis on record says it was about arithmetic.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
