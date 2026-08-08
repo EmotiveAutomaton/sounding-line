@@ -163,7 +163,9 @@ def run_v2(args) -> dict:
         ps = [x["p"] for x in out["vs_nomaker"].values()]
         out["verdict"] = "SEPARATES" if min(ps) < 0.05 else "NULL"
     else:
-        out["verdict"] = "NULL"
+        # no baseline corpus -> no comparison was performed. This must not share a verdict
+        # string with a genuinely tested null (audit L26).
+        out["verdict"] = "NOT-RUN (no nomaker baseline in --corpora)"
     print(f"\n  >>> V2 {out['verdict']}")
     if out["verdict"] == "NULL":
         print("  An informative null this time: n is above 100, not 3.")
@@ -247,17 +249,27 @@ def run_v4(args) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--test", choices=["v2", "v4"], required=True)
-    ap.add_argument("--corpora", default="ladder,ladder2,ladder3,nomaker")
+    # Default is a SINGLE ladder: pooling ladders lets a classifier recover rung by recognising
+    # corpus style (disjoint rung schemes, different prompt templates), and the old pooled
+    # default also overwrote per-ladder runs under one filename (audit L26). L16's held-out and
+    # extreme raw files were destroyed exactly that way.
+    ap.add_argument("--corpora", default="ladder2")
     ap.add_argument("--pool-sizes", default="1,3,5,15")
     ap.add_argument("--model", default=None)
     ap.add_argument("--device", default="cuda")
     args = ap.parse_args()
 
+    if args.test == "v4" and len(args.corpora.split(",")) > 1:
+        print("WARNING: pooled corpora — rung is partly identifiable from corpus style, and the "
+              "printed chance misstates the task. Pool only for diagnostics, never a verdict.")
+
     out = run_v2(args) if args.test == "v2" else run_v4(args)
+    out["corpora"] = args.corpora
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / f"{args.test}.json").write_text(json.dumps(out, indent=2),
-                                               encoding="utf-8", newline="\n")
-    print(f"\nwrote {(RESULTS / f'{args.test}.json').relative_to(REPO)}")
+    stem = f"{args.test}_{args.corpora.replace(',', '+')}"
+    (RESULTS / f"{stem}.json").write_text(json.dumps(out, indent=2),
+                                          encoding="utf-8", newline="\n")
+    print(f"\nwrote {(RESULTS / f'{stem}.json').relative_to(REPO)}")
 
 
 if __name__ == "__main__":

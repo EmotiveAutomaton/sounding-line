@@ -1,0 +1,99 @@
+{
+  "rule": "beats_null AND |rho|>0.2 AND |partial_length|>0.2 (no induction term)",
+  "models": [
+    {
+      "model": "gpt2-large",
+      "n_layers": 37,
+      "beats_null": 17,
+      "joint_pass_layers": [
+        23
+      ],
+      "verdict": "FALSE-POSITIVE"
+    },
+    {
+      "model": "gpt2-medium",
+      "n_layers": 25,
+      "beats_null": 5,
+      "joint_pass_layers": [
+        22
+      ],
+      "verdict": "FALSE-POSITIVE"
+    },
+    {
+      "model": "gpt2-xl",
+      "n_layers": 49,
+      "beats_null": 7,
+      "joint_pass_layers": [],
+      "verdict": "CLEAN"
+    },
+    {
+      "model": "pythia-1.4b",
+      "n_layers": 25,
+      "beats_null": 1,
+      "joint_pass_layers": [
+        14
+      ],
+      "verdict": "FALSE-POSITIVE"
+    },
+    {
+      "model": "pythia-2.8b",
+      "n_layers": 33,
+      "beats_null": 3,
+      "joint_pass_layers": [],
+      "verdict": "CLEAN"
+    },
+    {
+      "model": "pythia-410m",
+      "n_layers": 25,
+      "beats_null": 3,
+      "joint_pass_layers": [],
+      "verdict": "CLEAN"
+    },
+    {
+      "model": "Qwen2.5-0.5B",
+      "n_layers": 25,
+      "beats_null": 4,
+      "joint_pass_layers": [],
+      "verdict": "CLEAN"
+    },
+    {
+      "model": "Qwen2.5-1.5B",
+      "n_layers": 29,
+      "beats_null": 7,
+      "joint_pass_layers": [
+        5,
+        7,
+        13,
+        17,
+        21
+      ],
+      "verdict": "FALSE-POSITIVE"
+    },
+    {
+      "model": "Qwen2.5-3B",
+      "n_layers": 37,
+      "beats_null": 5,
+      "joint_pass_layers": [
+        24,
+        29
+      ],
+      "verdict": "FALSE-POSITIVE"
+    },
+    {
+      "model": "SmolLM2-1.7B",
+      "n_layers": 25,
+      "beats_null": 3,
+      "joint_pass_layers": [],
+      "verdict": "CLEAN"
+    },
+    {
+      "model": "SmolLM2-360M",
+      "n_layers": 33,
+      "beats_null": 3,
+      "joint_pass_layers": [],
+      "verdict": "CLEAN"
+    }
+  ],
+  "beats_null_rate": 0.16909620991253643,
+  "joint_rate": 0.029154518950437316
+}

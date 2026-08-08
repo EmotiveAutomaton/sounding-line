@@ -84,6 +84,9 @@ def main() -> None:
     ap.add_argument("--corpus", default="ladder2")
     ap.add_argument("--decoys", type=int, default=8)
     ap.add_argument("--max-words", type=int, default=700, help="score the opening N words")
+    ap.add_argument("--no-echo", action="store_true",
+                    help="the pre-registered echo restriction: score only specifications whose "
+                         "content words are absent from the artifact")
     ap.add_argument("--device", default="cuda")
     ap.add_argument("--shuffle-specs", action="store_true",
                     help="CONTROL: give each artifact another artifact's specification. Destroys the "
@@ -149,6 +152,9 @@ def main() -> None:
         for k in range(args.decoys):
             r2 = random.Random(rng_global.randrange(1 << 30))
             decoys.append(r2.sample(others, min(rung, len(others))))
+        # decoy-pool exhaustion (audit L26): when rung >= len(others), every decoy is the same
+        # complement set reordered — or empty — and the contest is no longer (decoys+1)-way.
+        distinct_sets = len({tuple(sorted(d)) for d in decoys})
 
         def prompt_for(specs):
             r = random.Random(0)
@@ -158,6 +164,16 @@ def main() -> None:
                     f"Write about {topic}. Every one of the following must be honoured, and they "
                     f"are all simultaneously true of your situation: " + "; ".join(specs) + ".")
 
+        if args.no_echo:
+            # The pre-registered echo restriction, implemented at last (audit L26 found the
+            # docstring promised it and the code never had it): score only specifications whose
+            # content words never appear in the artifact, so lexical echo cannot do the work.
+            tw_early = content_words(text)
+            keep = [s for s in true_specs if not (content_words(s) & tw_early)]
+            if rung > 0 and not keep:
+                continue
+            true_specs = keep
+            decoys = [dd[: len(true_specs)] for dd in decoys]   # size-matched prompts
         if args.shuffle_specs:
             true_specs = decoys[0]        # a real specification, but not this artifact's
             decoys = decoys[1:]
@@ -177,8 +193,11 @@ def main() -> None:
         overlap = (sum(len(content_words(s) & tw) / max(len(content_words(s)), 1)
                        for s in true_specs) / len(true_specs)) if true_specs else 0.0
 
+        # strict >: an exact tie must not count as a win — with degenerate decoys every
+        # candidate can be the identical prompt, and >= scored those as 100% wins (audit L26)
         rows.append({"id": it["id"], "rung": rung, "bits": bits,
-                     "won": s_true >= max(s_dec), "margin": s_true - max(s_dec),
+                     "won": s_true > max(s_dec), "margin": s_true - max(s_dec),
+                     "distinct_decoy_sets": distinct_sets,
                      "echo_overlap": overlap, "words": it["n_words"]})
         if len(rows) % 15 == 0:
             print(f"  {len(rows)} scored", flush=True)
@@ -207,10 +226,22 @@ def main() -> None:
     verdict = ("CEILING" if won > 0.97 else
                "PASS" if rho_b > 0.3 and p_b < 0.01 else
                "FAIL" if abs(rho_b) < 0.15 else "AMBIGUOUS")
+    degen = [g for g in rungs if g > 0 and statistics.fmean(
+        r["distinct_decoy_sets"] for r in rows if r["rung"] == g) < args.decoys / 2]
+    if degen:
+        verdict += "-DEGENERATE-RUNGS"
+        clean = [r for r in rows if r["rung"] not in degen]
+        if len({r["rung"] for r in clean}) >= 2:
+            rc, pc = stats.spearmanr([r["rung"] for r in clean], [r["bits"] for r in clean])
+            print(f"\n  WARNING: decoy pool exhausted at rungs {degen} — those contests are not "
+                  f"{args.decoys + 1}-way (audit L26).")
+            print(f"  clean rungs only: rung vs bits {rc:+.3f}  p={pc:.4f}  (n={len(clean)})")
     print(f"\n  >>> {verdict}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / (f"{args.corpus}_shuffled.json" if args.shuffle_specs else f"{args.corpus}.json")).write_text(json.dumps(
+    (RESULTS / (f"{args.corpus}_shuffled.json" if args.shuffle_specs else
+                f"{args.corpus}_noecho.json" if args.no_echo else
+                f"{args.corpus}.json")).write_text(json.dumps(
         {"corpus": args.corpus, "decoys": args.decoys, "n": len(rows),
          "shuffled_specs": args.shuffle_specs,
          "rho_bits": float(rho_b), "p": float(p_b), "rho_echo": float(rho_e),

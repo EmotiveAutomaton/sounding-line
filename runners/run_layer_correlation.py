@@ -177,21 +177,33 @@ def main() -> None:
         print(f"{L:>6}{r:>+9.3f}  [{lo:+.3f},{hi:+.3f}]{'  yes' if beats else '   no':>7}"
               f"{pr:>+10.3f}{ind:>+11.3f}")
 
-    surv = [o for o in out if o["beats_null"] and abs(o["after_induction"]) > 0.2
-            and abs(o["rho"]) > 0.2]
+    if has_specs:
+        surv = [o for o in out if o["beats_null"] and abs(o["after_induction"]) > 0.2
+                and abs(o["rho"]) > 0.2]
+    else:
+        # No specifications exist (the no-maker corpus): the induction term is undefined, and
+        # requiring abs(nan) > 0.2 silently forced surv empty — a control that could not fail
+        # (audit L26). The computable rule: a layer correlating with arbitrary labels on
+        # maker-less text, with length removed, is a false positive.
+        surv = [o for o in out if o["beats_null"] and abs(o["partial_length"]) > 0.2
+                and abs(o["rho"]) > 0.2]
     print(f"\n  layers beating their null: {sum(o['beats_null'] for o in out)}/{n_layers}")
     print(f"  layers surviving BOTH length and induction: {len(surv)}")
     if surv:
         b = max(surv, key=lambda o: abs(o["after_induction"]))
         print(f"  strongest survivor: layer {b['layer']}  raw {b['rho']:+.3f}  "
               f"after both controls {b['after_induction']:+.3f}")
-    verdict = "SURVIVES" if surv else "DEAD"
+    if has_specs:
+        verdict = "SURVIVES" if surv else "DEAD"
+    else:
+        verdict = "FALSE-POSITIVE" if surv else "CLEAN"
     print(f"\n  >>> {verdict}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
     tag = f"{args.corpus}_{model_name.split('/')[-1]}"
     (RESULTS / f"{tag}.json").write_text(json.dumps(
         {"corpus": args.corpus, "model": model_name, "n": len(rows),
+         "control_rule": "full" if has_specs else "no-induction-term",
          "layers": out, "n_survivors": len(surv), "verdict": verdict},
         indent=2), encoding="utf-8", newline="\n")
     print(f"\nwrote {(RESULTS / f'{tag}.json').relative_to(REPO)}")

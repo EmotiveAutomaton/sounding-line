@@ -226,7 +226,9 @@ themselves and does not turn it on their own work.**
     Timeline on the count. First run reported 49.3 components and called it RICHER; the same code at a
     larger sample returned 92.9, and across five model families 73 to 116 with no convergence; a noise
     test then showed the criterion returns hundreds of components on data with no structure at all.
-    The replacement isolates affect the way the field does and failed its own shuffled-label control.
+    The replacement isolates affect the way the field does; VOID stands — but the audit (L26) found
+    its shuffled-label gate arithmetically unpassable and its VAD reference written from memory, so
+    VOID-for-the-right-reason holds in at most two of five runs. G106 rebuilds the instrument.
 
 **What these add up to. Every number in this literature, ours included, is a stopping-rule output.**
 Seven came from one investigator's judgement; 24–27 from significance testing under a 34-item ceiling;
@@ -350,8 +352,8 @@ ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 | **G22** | The trimodal structure is recoverable in the *residual* after fitting a single peak | **OPEN** | His, and **nobody in the field has looked for it** |
 | **G31** | The middle layer is high-activity and low-coherence | **REJECTED (test, L25)** | Isolated from the bimodal profile at last: the signature appears in **2 of 25** maker-corpus sweeps. The modal pattern is the **opposite — a *quiet* middle** (12/25), the no-maker control shows the same distribution, and which pattern a model shows is set by its family. Architecture, not makers |
 | **G32** | Polish correlates with late-layer structure, leakage with early | **OPEN** | Uses measures we already own on both sides |
-| **G33** | Late-layer coherence rises with how clearly the goal is specified | **REJECTED (test) as universal; family-conditional form OPEN.** In Qwen coherence falls with rung at both ends; **in SmolLM2-360M it RISES at every band — the predicted direction**; gpt2 and pythia are positive early/middle, negative late | **The only near-universal: late-band coherence falls with rung in 3 of 4 families.** The Qwen middle-band null does not generalise. Readout code handed to the audit before this hardens |
-| **G69** | The intent signal peaks deeper as rung rises | **REJECTED (test) in Qwen; OPEN as family-conditional.** Peak fixed at layer 2 in Qwen — but **SHIFTS deeper with rung in SmolLM2-360M and pythia-1.4b**, NOISE in gpt2 | **The rejection was premature.** Also: peak-of-magnitude and best-correlating-layer are different quantities and the first runner conflated them |
+| **G33** | Late-layer coherence rises with how clearly the goal is specified | **VOID-INSTRUMENT (audit L26).** The coherence statistic cannot register agreement: the eight fitted directions sum to zero by construction, and the number reduces to an arbitrary-axis projection whose sign flipped in 11 of 20 refit simulations | **Handing the readout code to the audit was the right call — it did not harden.** The whole family table (Qwen inverted, SmolLM2 positive) is withdrawn with the statistic; a valid replacement is G105 |
+| **G69** | The intent signal peaks deeper as rung rises | **REJECTED (test) in Qwen; the SmolLM2/pythia SHIFTS revival is WITHDRAWN (audit L26).** The "shift" was an argmax crossover between two static near-tied loci (embedding layer and layer 4, under 4% apart) with opposite rung correlations, p = 0.058 gating nothing | **The premature-rejection story was itself premature.** Verdict logic rebuilt (prominence + significance + TIED-LOCI); re-runs queued. Peak-of-magnitude vs best-correlating-layer conflation stands as the original sin |
 | **G21** | Layer 0 predicts emotional-versus-neutral well and *which* emotion at chance | **OPEN** | A clean double dissociation, and our corpus has neutral as a labelled category |
 | **G34** | Parameter ratios across depth echo neuron-count ratios across receptor/midbrain/neocortex | **OPEN, flagged speculative by its author** | — |
 
@@ -360,8 +362,9 @@ quantity read two ways: **the *magnitude* of affective response across depth is 
 carries nothing, while the *correlation* of that response with specified intent carries a signal two
 independent ladders agree on at 0.97.** That is the most useful single thing in this file — **how much
 a layer responds is noise; how much its response tracks the maker is not.** G31 now lands on the same
-side (L25): the middle third's activity/coherence profile — mostly a *quiet* middle, not the
-predicted noisy one — shows the same distribution on the no-maker control. Architecture again.
+side (L25): the middle third's activity profile — mostly a *quiet* middle, not the predicted noisy
+one — shows the same distribution on the no-maker control. Architecture again. (The coherence half of
+that test fell with the statistic — L26/G105; the quiet-middle reading is activity-only and stands.)
 
 **The 2026-08-07 readouts sharpen that and cost the section two predictions.** The magnitude peak sits
 at **layer 2 regardless of rung, in every ladder** — fully architectural, exactly as the profile
@@ -453,8 +456,11 @@ text (**L1**); a 2026 study finds valence encoding emerging at very different de
 and the affect-dimension run returned 42.8 components on an untrained model against 1.0 on the trained
 one of identical shape.
 
-**The evidence for, 2026-08-07.** We checked whether a coherent affect subspace exists across four
-model families — 360M to 1.5B, three architectures. **It does, sitting four to six times above a
+**The evidence for, 2026-08-07 — extended by the audit, 08-08.** We checked whether a coherent
+affect subspace exists across four model families — and the audit (L26) surfaced seven further
+completed runs sitting unrecorded: **all eleven families agree, 0.35B to 3B, four architectures**
+(one caveat riding along: the basis carries a rank-7 span in eight columns — G111 — which dilutes
+the numbers ~1/8 but flips no verdict at current margins). **It does, sitting four to six times above a
 matched random null even between the most distant layers, at a rate consistent across families.**
 
 **That is weak evidence for the three-layer structure and it does not settle the worry.** It says

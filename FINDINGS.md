@@ -370,7 +370,12 @@ shared task on it since 2018. **What none of them measures is the variance of ar
 and the version tried here — variance of 342 linguistic features, on human text with the maker held
 fixed — is the one the literature has not pre-empted.
 
-**What we did.** 86 students writing the same essay three times. Split each draft into fixed windows,
+**What we did.** 86 students writing the same essay three times — **59 of whom clear the windowing
+requirement and enter the analysis** (the recorded n; the undisclosed drop was an audit find, L26).
+**Audit correction (L26): the hand-rolled Benjamini–Yekutieli ran its monotonicity pass in the wrong
+direction** — strictly more conservative than BY, so "0 wobble survivors" was never established under
+the pre-registered procedure; corrected and re-run 2026-08-08, raw p-values now persisted.
+Split each draft into fixed windows,
 computed each feature's **coefficient of variation** across windows — its wobble relative to its own
 size — and compared draft 1 against draft 3, paired within author. Also computed the ordinary
 **average** as a control, since anything the wobble finds that the average also finds is a windowing
@@ -464,7 +469,16 @@ and the field routinely conflates them:
 number has been shown to fail on our own data. Nothing here is evidence either way about how many
 affective components exist.
 
-**What replaces it, and it is running.** `run_affect_dimensions.py` isolates affect the way the field
+**What replaced it ran on 2026-08-07 and returned VOID in all five runs — and the audit (L26) found
+the instrument itself quadruple-broken (G106): its "corrected participation ratio" is not the cited
+estimator and collapses on scale-outlier channels (recorded counts of ~1.0 beside parallel-analysis
+counts of 25-38); its bi-cross-validation argmin sat on the max_k=40 cap in 135 of 138 fits, a
+boundary recorded as a rank; its shuffled-label gate demanded the statistic *shrink* below a
+threshold that was under the statistic's arithmetic floor in every recorded run, so VOID was decided
+before the shuffle ran; and its frozen VAD reference was written from memory — 18 of 28 entries
+differ from the real NRC-VAD by more than 0.1, so the replication gate was judged against a
+fabricated reference. The five VOIDs stand, but VOID-for-the-right-reason holds in at most two.**
+`run_affect_dimensions.py` isolates affect the way the field
 isolates it — average activations over many topics per emotion, then subtract the mean across
 emotions, so the taxonomy selects which items to average and never supplies a basis. Human-labelled
 categories, three counting criteria including two with a real stopping point, and three controls
@@ -480,7 +494,9 @@ extremes — three pages of different motivations stacked on top of each other."
 
 **What we did.** For each artifact, ask whether its true specification can be picked out from **48
 decoys matched on topic**. Reported as bits recovered and as win rate. Run on three ladders of
-increasing manipulation strength, with length controlled by rejection sampling on the extreme one.
+increasing manipulation strength, with length band-targeted by rejection sampling on the extreme one
+(the band held in absolute terms — 1.9% spread — **but the rank-space check failed at +0.414**, and
+`score.json` records that honestly; the prose here previously claimed achieved control — audit L26).
 
 | ladder | specifications per prompt | n | win rate vs 48 decoys | correlation with rung | *p* |
 |---|---|---|---|---|---|
@@ -489,7 +505,8 @@ increasing manipulation strength, with length controlled by rejection sampling o
 | **extreme, 75** | **0/2/10/30/60** | 60 | **91.7%** | **0.435** | **0.0005** |
 
 *Chance is 2%. "Correlation with rung" is how strongly recovered information tracks how many
-specifications the prompt carried.*
+specifications the prompt carried.* **Audit note (L26): at the extreme ladder's rungs 30 and 60 the
+decoy pool is exhausted and those contests are not 49-way — see L19's correction.**
 
 **Not echo, not length.** On the extreme ladder, correlation with prompt-echo is **−0.236** —
 negative — and with length **+0.061**.
@@ -511,7 +528,7 @@ identity removed.
 | | |
 |---|---|
 | ladder runs | **25 across 11 families — 18 survive** |
-| **no-maker runs** | **11 — all DEAD, zero false positives** |
+| **no-maker runs** | **11 — re-adjudicated (audit L26): the DEAD verdicts were forced by a broken gate. Under the computable rule, 5 of 11 fire — at luck-level rates overall, concentrated in the flagship** |
 | fails everywhere | **gpt2-large**, on all three ladders |
 | weakest family | GPT-2 (medium 2/3, large 0/3, xl 0/1) |
 | strongest | Qwen and SmolLM2 |
@@ -519,10 +536,17 @@ identity removed.
 **The failures cluster by family, not by scale.** gpt2-large sits between pythia-410m and pythia-1.4b
 in size, and both of those survive.
 
-**Verdict: OPEN, and the control is the stronger half.** A measure reading labels rather than text
-would have fired somewhere in eleven no-maker attempts. **What does not transfer is the location** —
-the surviving layers move by model and by corpus, so every headline layer number in this project is
-Qwen-specific.
+**Verdict: OPEN — and the control claim is retracted (audit L26, 2026-08-08).** "Zero false
+positives" was manufactured: on the no-maker corpus no specifications exist, the induction term is
+NaN, and the survivor gate required `abs(nan) > 0.2` — **DEAD was the only reachable verdict, a
+criterion that could not fail.** Re-adjudicated under the computable rule (beats its null + strength
++ length), the eleven runs fire at **2.9% of layers, roughly what the three stacked cuts supply by
+luck** (16.9% beat their 12-direction nulls; ~15% would by chance). The exception is the flagship:
+**Qwen-1.5B fires at layers [5, 7, 13, 17, 21], overlapping its held-out-ladder survivors three of
+five where chance gives under one — and layer 21 fires on all three ladders *and* on maker-less
+text.** A label-permutation null (G107) decides whether that is clustered luck or a real label leak.
+**What does not transfer is the location** — the surviving layers move by model and by corpus, so
+every headline layer number in this project is Qwen-specific.
 
 ## L13 · Does affect-concept agreement rise or fall as intent is specified?
 
@@ -577,6 +601,21 @@ split: FIXED in Qwen, **SHIFTS — the peak moves deeper as rung rises — in Sm
 in gpt2. **So the earlier rejection of "deeper intent needs deeper machinery" was premature: the claim
 is family-conditional, not false.**
 
+**Audit corrections, 2026-08-08 (L26), and they cut deep.** **The coherence statistic cannot measure
+what this table says it measures.** The eight fitted directions sum to exactly zero by construction
+(global centring, equal sentences per concept), so eight-way agreement is geometrically impossible —
+the recorded number is a projection onto an arbitrary axis that exists only through noise in the
+eight four-sentence fits, and its sign flipped in 11 of 20 refit simulations. Every cell in the table
+above, and the coherence half of every depth-sweep middle verdict, is read from that instrument:
+**VOID-INSTRUMENT until a statistic valid under the sum-zero constraint replaces it (G105).** And
+**the SHIFTS verdicts were an argmax artifact**: two static near-tied loci — the embedding layer and
+layer 4 — with opposite rung correlations swap rank by under 4% of amplitude. A crossover between
+fixed loci, not a peak moving deeper, at p = 0.058 which gated nothing. **The revival of "deeper
+intent needs deeper machinery" is withdrawn to VOID-INSTRUMENT**; verdict logic fixed (v2: prominence,
+significance, a TIED-LOCI category), all four families re-queued. One inoculation worth recording:
+SmolLM2's all-bands-positive pattern was machine-labelled FLAT by a taxonomy hole — the prose here
+quoted the numbers and routed around the wrong token, but the JSONs carried it.
+
 **Verdict unchanged for the universal claims — REJECTED — and the family-conditional versions are
 OPEN.** The readout code itself goes to the audit before any of this hardens: a sign convention or a
 band-boundary artifact could manufacture exactly this kind of family difference.
@@ -598,9 +637,9 @@ cannot be about a maker.
 
 | | |
 |---|---|
-| **peak location, ladder vs no-maker** | **identical in every one of the nine models** |
+| **peak location, ladder vs no-maker** | **identical or within one layer in every model** (gpt2-medium differs by one on the extreme ladder — audit L26) |
 | shape | **27 of 36 runs UNIMODAL** |
-| multimodality | appears only in **gpt2-large** (5–6 peaks) and **pythia-410m** (2–3), and appears in their no-maker runs too |
+| multimodality | **gpt2-large** (5–6 peaks) and **pythia-410m** (2–3), in their no-maker runs too — **and pythia-1.4b's no-maker run alone is bimodal** while its three ladder runs are unimodal (audit L26) |
 | **peak depth across families** | **layer 2 of 29 in Qwen-1.5B, layer 47 of 49 in gpt2-xl** — 3, 4, 5, 8, 13 elsewhere |
 | layers beating the random null | **all of them, in 28 of 36 runs** |
 | middle-band verdict | 16 NOISY, 20 COHERENT — no consistency |
@@ -659,7 +698,11 @@ then classify which rung it came from, cross-validated, against a chance rate of
 pooling levels — single artifacts, and artifacts concatenated in threes and fives within a rung — so
 the token count and the sample size trade off visibly rather than being chosen. **Each ladder is run
 separately**, because rung schemes differ between them and pooling the corpora would let the
-classifier identify the rung by identifying the corpus.
+classifier identify the rung by identifying the corpus. **The runner's own default did exactly that
+pooling until 2026-08-08 (audit L26) — and it wrote every run to one filename, so the held-out and
+extreme raw files were overwritten before their only commit. The held-out and extreme rows below
+survived only in this text.** Both defects fixed (single-corpus default, per-corpora filenames,
+corpora recorded inside the JSON); both arms re-run 2026-08-08 to restore primary records.
 
 **What we found.**
 
@@ -715,20 +758,24 @@ affective ratio. Negative was the prediction.*
 held-out ladder it did (−0.26, *p* = 0.009).
 
 **The asymmetry is probably in the control, not in the effect.** The induction check regresses the
-ratio on *which specifications were drawn*. The held-out ladder draws from a pool of 10; the extreme
-ladder draws from a pool of 60. **With six times the regressors and fewer artifacts, the control
+ratio on *which specifications were drawn*. The held-out ladder draws from a pool of 30; the extreme
+ladder draws from a pool of 60. **With twice the regressors and fewer artifacts, the control
 removes far more, and it would do so whether or not induction is what is happening.** That is a real
 confound in the control itself and it has not been characterised.
 
 **Two other things fell out.** The scorer's own length check fires at +0.414 and prints *"length still
 varies with rung"* — **it is the same scale-free statistic on the same 1.9% spread**, so that check
-inherits the flaw the audit found. And the **acceleration** prediction — that the effect should
+inherits the flaw the audit found — the honest phrasing everywhere is *band-targeted*, not
+*controlled*, since the rank-space criterion failed even where the absolute spread is 1.9%. And the **acceleration** prediction — that the effect should
 steepen at the top of the ladder, which would be evidence for values as a constraint on the goal
 mixture — **is not supported**: +0.104 on the lower half, −0.007 on the upper.
 
 **Verdict: OPEN, and the void is lifted without the question being answered.** The design limitation
 that voided it was misdiagnosed; the effect is large and length-robust; **and whether it survives
 induction now depends on a control whose aggressiveness scales with the specification pool.**
+**Resolved by L23:** the fair within-rung control removes the pool-scaling confound entirely, and the
+extreme ladder survives it at **−0.516, p < 0.0001**. This entry's worry was the control's fault,
+exactly as suspected.
 
 **Resolved, 2026-08-08 (L23).** Under the within-rung control the extreme ladder survives at **−0.516, *p* < 0.0001** — the failure was entirely the control's, whose dose leak here was −0.778.
 
@@ -798,6 +845,18 @@ second-order confirmation rather than a problem, but it was not predicted and it
 reported as if it had been.
 
 **Verdict: OPEN and now well controlled.** This is the best-supported measure in the project.
+
+**Second audit hit, 2026-08-08 (L26): decoy-pool exhaustion.** The extreme ladder's pool holds 60
+specifications and its top rungs *are* 30 and 60 of them. At rung 60 the complement is empty — **all
+96 "decoys" are the same bare prompt** — and at rung 30 every decoy is the one 30-spec complement
+reordered. **Half the extreme-ladder items were never a 97-way contest**, the printed "chance 1.03%"
+does not apply to them, and their bits pin at the 6.6 cap by construction. **The clean rungs (2 and
+10) carry the effect alone: +0.529, p = 0.0027** — so a rung-bits relationship survives on the
+non-degenerate half; what the exhaustion manufactured was the 97-way framing and the top-rung curve.
+The runner now counts distinct decoy sets, appends `-DEGENERATE-RUNGS` to any verdict they touch, and
+scores exact ties as losses (they counted as wins). A wider pool is the real fix (G108). **And the
+echo restriction the pre-registration made mandatory — "survives the echo restriction" — was never
+implemented**; it exists now (`--no-echo`) and is queued on the held-out ladder.
 
 **Resolution limit found by the audit, 2026-08-08.** Per-item bits are **saturated**: 35 of 40, 57 of
 80 and 52 of 60 artifacts sit at one of the two extremes, because the per-token re-normalisation
@@ -991,6 +1050,50 @@ of gpt2, the larger pythias, Qwen 3B), with the Qwen and SmolLM families flat. *
 control shows the same distribution (6/11 quiet)**, so whatever middle structure exists is
 architecture, not anything about makers. One more layer-location claim that is family-conditional
 rather than universal — the running theme of the cross-family replication.
+
+**Same-day caveat (L26):** the audit voided the coherence statistic (sum-zero constraint, G105),
+which is the "low-coherence" half of the NOISY criterion here. **The activity half — and therefore
+the quiet-middle finding, which is signal-rank only — stands**; the 2/25 NOISY count can only shrink.
+
+## L26 · The adversarial audit — sixteen claims verified, fifteen confirmed
+
+**Hypothesis.** *(His, standing: "search the entire repo for problems we're not aware of.")* Does the
+battery contain more criteria that cannot fail, silent overwrites, or claims the saved data
+contradicts?
+
+**Method.** Subagent fleet, conservatively sized: four read-only finders (reader-side mathematics;
+decomposition and spec recovery; docs versus data; corpora, features and queue), 34 raw findings
+deduplicated, the 16 most severe handed to an independent adversarial verifier instructed to refute
+each. **15 confirmed, 1 refuted**, 18 lower-severity findings passed through unverified.
+
+**Confirmed, by class.** *Criteria that could not fail:* the no-maker verdict gate (NaN — corrected
+in L12); the affect-count shuffle gate (threshold below the statistic's arithmetic floor in every
+recorded run). *Instruments measuring something else:* the coherence statistic (sum-zero directions
+— G105); SHIFTS-by-argmax (withdrawn in L13); the participation-ratio "correction" (not the cited
+estimator; collapses on scale-outlier channels; its bi-cross-validation pinned at the cap in 135 of
+138 fits); the VAD reference written from memory (G106). *Degenerate contests:* extreme-ladder decoy
+exhaustion (corrected in L19). *Wrong arithmetic:* the argrewrite Benjamini–Yekutieli ran backwards
+(corrected in L7, re-run). *Destruction and races:* v4's single-filename overwrite destroyed two of
+three raw files (L16, restored); the feature cache was written incrementally under its final name, so
+a concurrent audit committed prefix statistics three times, including at HEAD (atomic writes and
+completeness checks now in place); the same cache silently froze three days of empty extractions
+behind a bare `except` (validation added).
+
+**Also from the sweep, the clearances.** Every corpus manifest matches disk exactly; zero duplicate
+texts across ladders; the PAN splits are leak-free and the macro-F1 implementation matches the
+official evaluator to 1e-12. **G99 resolved:** the 78-second re-score was honest determinism — same
+code path, same inputs, bit-identical floats — though for that very reason it verified nothing; a
+real re-check must vary something. **And one orphan surfaced:** a PAN *easy-split* run from 08-06
+recorded **macro-F1 0.969 against a published best of 0.959** — the 342-feature bank beats the
+published bar on the split where topic is available. The easy split is not topic-controlled, so the
+win may ride topic; recorded beside L11 as split-conditional rather than overturning its rejection.
+
+**What this means.** Five of the six deepest hits are one failure class, the one this file already
+names: **a criterion that cannot fail is not a control.** They were found by evaluating saved outputs
+against the code that produced them — something no amount of re-running does, which is why the audit
+caught what the battery could not. Same-day: eight runners repaired, four readout re-runs and the
+pre-registered echo restriction queued, instrument rebuilds and the permutation null opened as
+G105–G108.
 
 ## L4 · Can weak effects be stacked into a detector?
 

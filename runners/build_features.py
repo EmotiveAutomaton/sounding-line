@@ -95,8 +95,17 @@ def main() -> None:
     for cname in args.corpora.split(","):
         dest = OUT / f"{cname}.json"
         if dest.exists() and not args.force:
-            print(f"{cname}: cached, skipping")
-            continue
+            # A cache written by a broken environment holds empty feature dicts, and skipping it
+            # froze a corrupt file for three days (audit L26). Validate before trusting.
+            try:
+                cached = json.loads(dest.read_text(encoding="utf-8"))["items"]
+                ok = bool(cached) and bool(cached[0].get("whole")) and bool(cached[-1].get("whole"))
+            except Exception:                                          # noqa: BLE001
+                ok = False
+            if ok:
+                print(f"{cname}: cached, skipping")
+                continue
+            print(f"{cname}: cache invalid (empty or truncated) — rebuilding")
         try:
             rows = load_corpus(cname)
         except Exception as e:                                         # noqa: BLE001
@@ -111,6 +120,9 @@ def main() -> None:
             with contextlib.redirect_stdout(buf):                      # biberplus is noisy
                 whole = extract(r["text"])
                 wfeat = [extract(w) for w in ws]
+            if not whole:
+                raise RuntimeError(f"{cname}/{r['id']}: extract() returned 0 features — "
+                                   "environment broken, refusing to write a poisoned cache")
             out.append({"id": r["id"], "group": r["group"],
                         "n_words": len(r["text"].split()),
                         "n_windows": len(ws),
@@ -120,9 +132,14 @@ def main() -> None:
                 el = time.time() - t0
                 print(f"  {i + 1}/{len(rows)}  {el / (i + 1):.1f}s each, "
                       f"~{el / (i + 1) * (len(rows) - i - 1) / 60:.0f} min left", flush=True)
-            dest.write_text(json.dumps({"corpus": cname, "window": WINDOW,
-                                        "min_windows": MIN_WINDOWS, "items": out}),
-                            encoding="utf-8", newline="\n")
+            # checkpoint under a temp name: a reader must never see a partial cache at the
+            # final path (a concurrent audit recorded prefix statistics — audit L26)
+            dest.with_suffix(".building").write_text(
+                json.dumps({"corpus": cname, "window": WINDOW,
+                            "min_windows": MIN_WINDOWS, "items": out}),
+                encoding="utf-8", newline="\n")
+        import os                                                      # noqa: PLC0415
+        os.replace(dest.with_suffix(".building"), dest)
         short = sum(1 for o in out if not o["enough_windows"])
         print(f"  done in {(time.time() - t0) / 60:.1f} min. "
               f"{short} artifacts with <{MIN_WINDOWS} windows (excluded from variance analyses)",

@@ -154,20 +154,38 @@ def main() -> None:
             band[name] = {"rho": float(r), "p": float(p), "mean": float(v.mean())}
             print(f"  {name:>8}{r:>+20.3f}{p:>10.4f}")
 
-        late, mid = band["late"], band["middle"]
-        if late["p"] < 0.05 and late["rho"] > 0 and not (mid["p"] < 0.05 and mid["rho"] > 0):
-            v2 = "CONDITIONAL"
-        elif late["rho"] < 0 and late["p"] < 0.05:
-            v2 = "INVERTED"
-        else:
-            v2 = "FLAT"
+        # The coherence statistic |sum(cos)|/sum|cos| is VOID as an instrument (audit L26): the
+        # eight fitted directions sum to exactly zero (global centring, equal n per concept), so
+        # 8-way agreement is geometrically impossible and the number reduces to a projection on
+        # an arbitrary norm-dispersion axis whose sign is unstable across refits. Band numbers
+        # stay recorded for continuity; no verdict is read from them until G105 lands.
+        v2 = "VOID-INSTRUMENT (G105)"
+        print("  NOTE: coherence bands recorded but not adjudicated — sum-zero statistic (G105)")
+        # SHIFTS needs more than a bare argmax — that is the artifact class the depth sweep
+        # pre-registered against. The winning locus must clearly beat any DISTANT runner-up
+        # (near-tied far loci make argmax a coin flip), and the trend must be significant.
+        prom_ok = True
+        for rung_v, pk in peaks.items():
+            m = rungs == rung_v
+            prof = sig[m].mean(0)
+            order = np.argsort(prof)[::-1]
+            top, second = float(prof[order[0]]), float(prof[order[1]])
+            span = float(prof.max() - prof.min()) + 1e-12
+            if abs(int(order[0]) - int(order[1])) > 1 and (top - second) < 0.05 * span:
+                prom_ok = False
         # all peaks identical -> zero variance -> nan correlation. That is FIXED, not NOISE.
         if len(set(peaks.values())) == 1:
             v1 = "FIXED"
         elif np.isnan(r_peak):
             v1 = "NOISE"
+        elif r_peak > 0.7 and p_peak < 0.05 and prom_ok:
+            v1 = "SHIFTS"
+        elif r_peak > 0.7 and not prom_ok:
+            v1 = "TIED-LOCI"   # argmax crossover between near-tied static loci, not a moving peak
+        elif abs(r_peak) < 0.4:
+            v1 = "FIXED"
         else:
-            v1 = "SHIFTS" if r_peak > 0.7 else "FIXED" if abs(r_peak) < 0.4 else "NOISE"
+            v1 = "NOISE"
         print(f"\n  >>> depth-of-peak: {v1}     late coherence: {v2}")
         out[corpus] = {"n": len(rows), "peak_by_rung": peaks,
                        "peak_vs_rung_rho": float(r_peak), "peak_vs_rung_p": float(p_peak),
@@ -176,7 +194,8 @@ def main() -> None:
     RESULTS.mkdir(parents=True, exist_ok=True)
     tag = model_name.split("/")[-1]
     (RESULTS / f"{tag}.json").write_text(json.dumps(
-        {"model": model_name, "corpora": out}, indent=2), encoding="utf-8", newline="\n")
+        {"model": model_name, "verdict_version": 2, "corpora": out},
+        indent=2), encoding="utf-8", newline="\n")
     print(f"\nwrote {(RESULTS / f'{tag}.json').relative_to(REPO)}")
 
     if out:

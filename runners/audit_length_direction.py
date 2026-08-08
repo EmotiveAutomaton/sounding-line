@@ -54,6 +54,18 @@ def main() -> None:
             print(f"{corpus}: no cache, skipping")
             continue
         items = json.loads(p.read_text(encoding="utf-8"))["items"]
+        # never record corpus statistics from a mid-build cache prefix (audit L26)
+        man = CACHE.parents[1] / "corpora" / corpus / "manifest.json"
+        if man.exists():
+            expected = len(json.loads(man.read_text(encoding="utf-8"))["items"])
+            if len(items) != expected:
+                print(f"{corpus}: cache holds {len(items)}/{expected} items — mid-build, STALE, skipping")
+                report[corpus] = {"stale": True, "n": len(items), "expected": expected}
+                continue
+        if not items or not items[0].get("whole"):
+            print(f"{corpus}: cache empty — STALE, skipping")
+            report[corpus] = {"stale": True, "n": len(items)}
+            continue
         groups = [it["group"] for it in items]
         if not all(isinstance(g, (int, float)) for g in groups):
             continue

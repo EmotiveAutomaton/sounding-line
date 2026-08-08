@@ -64,10 +64,18 @@ Format spec is in `docs/theory/README.md`. Per file, in this order:
 - **Day loop:** one detached shell (survives sessions), lock in `results/.loop.lock`; stop with
   `kill $(cat results/.loop.lock)`. Night: `bash run_forever_night.sh [hours] [workers]` (refuses
   while day loop runs). Queue has pid lock + `--shard/--shards`.
-- **STAGES now (refilled 2026-08-08, ~7 h):** G21 binary salience → G103 fair-control induction on
+- **STAGES now (refilled 2026-08-08, ~8.5 h):** G21 binary salience → G103 fair-control induction on
   three non-Qwen families (outputs are model-tagged; the untagged name would have overwritten the
-  flagship file — fixed in the runner first) → G104 matrix fill: 4 depth-readout families, then 8
-  depth sweeps (4 families × first/extreme ladders) → guarded standing stages → the two audits.
+  flagship file — fixed in the runner first) → L26 repairs: 4 depth-readout re-runs under v2 verdict
+  rules + the pre-registered `--no-echo` spec-recovery run → G104 matrix fill: 4 new readout families,
+  8 depth sweeps → guarded standing stages → the two audits.
+- **Audit L26 landed (2026-08-08, the conservative fleet):** 15 confirmed defects. Two more criteria
+  that could not fail (no-maker NaN gate — re-adjudicated, luck-level overall, flagship concentration
+  → G107; affect shuffle gate below its arithmetic floor). Coherence statistic VOID (G105), SHIFTS
+  argmax artifact (withdrawn, re-runs queued), ladder3 decoy exhaustion (clean rungs still carry
+  +0.529), argrewrite BY backwards (re-run), affect-dims quadruple-broken (G106), atomic cache writes
+  + completeness checks in. **FINDINGS L26 is the index; the fleet's full output holds the line-level
+  list for G109/G110.**
 - Every stage must carry a `produces` guard. Verify hash locks + read `git status` deletions before
   every commit (CLAUDE.md hard rule, born of the SPEC deletion).
 

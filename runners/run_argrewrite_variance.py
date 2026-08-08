@@ -130,10 +130,15 @@ def main() -> None:
         tbl = pd.DataFrame(recs).sort_values("p")
         n = len(tbl)
         c = sum(1.0 / j for j in range(1, n + 1))
-        tbl["p_adj"] = (tbl["p"] * n / (np.arange(n) + 1) * c).cummax().clip(upper=1.0)
+        # BY step-up: running MIN from the least-significant end. The first version ran cummax
+        # from the most-significant end — monotonicity in the wrong direction, strictly more
+        # conservative than BY, and its adjusted values were provably not BY values (audit L26).
+        q = tbl["p"].to_numpy() * n / (np.arange(n) + 1) * c
+        tbl["p_adj"] = np.minimum.accumulate(q[::-1])[::-1].clip(max=1.0)
         surv = tbl[tbl["p_adj"] < 0.05]
         out[kind] = {"n_tested": n, "n_survive": int(len(surv)),
-                     "survivors": surv.head(40).to_dict("records")}
+                     "survivors": surv.head(40).to_dict("records"),
+                     "all_p": tbl[["feature", "p", "p_adj"]].to_dict("records")}
         print(f"{kind.upper():<6} {n} features tested, {len(surv)} survive correction")
         for _, r in surv.head(8).iterrows():
             print(f"        {r['feature']:<32}{r['median_delta']:>+12.4f}"
