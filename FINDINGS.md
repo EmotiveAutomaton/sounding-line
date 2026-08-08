@@ -795,6 +795,12 @@ reported as if it had been.
 
 **Verdict: OPEN and now well controlled.** This is the best-supported measure in the project.
 
+**Resolution limit found by the audit, 2026-08-08.** Per-item bits are **saturated**: 35 of 40, 57 of
+80 and 52 of 60 artifacts sit at one of the two extremes, because the per-token re-normalisation
+exponentiates log-probability differences over ~1,400-word texts. **"Bits recovered" is effectively
+binary at these lengths; the honest statistic is the win rate**, and the rung correlations should be
+read as rank-coded win/lose rather than a graded information measure.
+
 **A queue defect found in the Fable audit pass, 2026-08-07.** The 96-decoy stage writes the **same
 file** as the 48-decoy run, so `results/spec_recovery/ladder3.json` now holds the 96-decoy result and
 the 48-decoy raw file is gone — its numbers survive only in this entry. And with no output guard the
