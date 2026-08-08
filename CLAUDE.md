@@ -192,6 +192,10 @@ in the test's own pre-registration.
 - **Validate the ruler, not just the signal. Run every measure on data whose answer you already know
   before running it on data whose answer you don't.** Noise in, zero out. A criterion we trusted
   returned **335 components on pure Gaussian noise**; ten seconds of this would have caught it.
+- **Verify the hash locks and read the deletion lines of `git status` before every commit.** An
+  unintended deletion is a stop-everything event. This exists because `SOUNDING_LINE_SPEC.md` was
+  deleted by an unidentified operation, swept into a bulk `git add -A`, pushed, and caught only by
+  the lock audit hours later.
 - **Every measure ships with a null that can fail it, written before the run.**
 - **Never edit `SOUNDING_LINE_SPEC.md`, `prereg/*.py`, or `soundingline/locks.py`** — content-hash
   locked. Changes go in `docs/method/DEVIATIONS.md`, original retained and still computed.

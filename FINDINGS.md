@@ -779,7 +779,7 @@ decoys instead of 48, halving the chance rate.
 
 | run | decoys | chance | win rate | correlation with rung | *p* |
 |---|---|---|---|---|---|
-| **shuffled specifications**, held-out ladder | 48 | 2.04% | **1.3%** | −0.298 | 0.007 |
+| **shuffled specifications**, held-out ladder | 48 | 2.08% | **1.3%** | −0.298 | 0.007 |
 | extreme ladder | 48 | 2.04% | 91.7% | +0.435 | 0.0005 |
 | **extreme ladder** | **96** | **1.03%** | **90.0%** | **+0.454** | **0.0003** |
 
@@ -852,6 +852,39 @@ no maker; identical values there mean the wobble carries nothing about a maker.*
 places. This is the informative null the three-artifact void could not supply, and the third
 confirmation of the reader-side lesson: **a reader's state does not carry the signal; ratios between
 the reader's own layers on the same text do.**
+
+## L22 · The induction control's regressors contain the dose — found by the integrity audit
+
+**Hypothesis.** The induction control — regress a measure on *which specifications were drawn*,
+out-of-fold, and test what survives — removes only specification *identity*, leaving the effect of
+specification *count* (the rung) intact to be tested.
+
+**Method.** Read the control's construction directly. Its regressor matrix is the binary indicator of
+drawn specifications: one column per specification in the pool, one row per artifact.
+
+**What we found. The row-sum of that matrix IS the rung.** An artifact at rung 6 has exactly six ones
+in its row. A ridge model over those columns can recover the dose from the sum alone — so **what the
+control removes is not chosen by the design; it is chosen by the regulariser.** With light shrinkage
+it eats the entire rung-linked component, including any true effect. And on the extreme ladder it is
+worse by construction: **the pool holds exactly 60 specifications, so every rung-60 artifact draws all
+of them** — the top rung's regressor block is constant, perfectly collinear with membership of the
+top rung.
+
+**What this changes about three recorded results.**
+
+| | before | after |
+|---|---|---|
+| **L1** — the ratio survives induction on the held-out ladder (−0.26, *p* = 0.009) | survival | **survival against a control that can absorb the true effect — stronger evidence than the design intended** |
+| **L17** — the extreme ladder fails induction (−0.207, *p* = 0.074) | read as the effect failing | **expected by construction and uninterpretable as evidence against** — the control is at its most absorbent exactly there |
+| **L2** — the three text-feature candidates killed by this control | read as induction | **the control cannot distinguish *induced by which specs* from *responds to how many***, so the kills are sound but the mechanism stated for them is not established |
+
+**The fix, and it is cheap:** centre the indicator within rung — equivalently, test whether *which*
+specifications were drawn predicts the measure **orthogonally to how many**. That is the control the
+design intended. Queued as the sharpened G75.
+
+**Verdict: CONFIRMED defect in the control's construction; no verdict changes sign, but two verdicts
+change meaning.** Found by reading, verified by arithmetic, and it is the most useful thing the audit
+day produced.
 
 ## L4 · Can weak effects be stacked into a detector?
 

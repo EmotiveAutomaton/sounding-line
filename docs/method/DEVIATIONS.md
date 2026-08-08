@@ -54,3 +54,28 @@ readings taken under v1 remain comparable to each other.
 | C-11 | Flag curator readings of artifacts resembling the curator's own work | permanent |
 | C-13 | **Decisions can be amortised into templates.** A reading changed on seeing an identically formatted sibling guide, revealing the format as a prior decision reused across artifacts. The instrument reads one artifact at a time and cannot see this. Related to E43. | curator, post-batch-2 |
 | C-14 | **Row 1 (grooming networks) deferred to Gate 2.** Research organisations deliberately do not republish primary text, and A-4 forbids live fetching until Gate 2. | CURATION_BATCH_3 §1 |
+
+
+## 2026-08-08 · SOUNDING_LINE_SPEC.md was deleted, pushed, and restored
+
+**The hash-locked specification was deleted from the working tree by an unidentified operation in the
+window between commits `bd83706` and `3c4a257` (2026-08-07 evening), swept into a bulk `git add -A`,
+committed, and pushed.** It sat deleted in public history for roughly two hours. **Caught by hash-lock
+verification during the 2026-08-08 integrity audit** — not by any person or process noticing.
+
+Restored from `3c4a257~1` and **verified byte-exact against its locked sha256.** The deletion and the
+restore both remain in history, which is the honest audit trail. The mechanism of deletion was not
+identified; the window is narrow and the operations in it are logged in the transcript.
+
+**Process change (in `CLAUDE.md` hard rules):** the lock check runs before every commit, and the
+deletion lines of `git status` are read before any bulk stage. An unintended deletion is a
+stop-everything event.
+
+## 2026-08-08 · Five gate-era locked files live at new paths
+
+`soundingline/locks.py` records `docs/gate0/…` and `docs/gate1/…`; the files were moved to
+`docs/gates/gate0/…` and `docs/gates/gate1/…` in an earlier documentation reorganisation. **All five
+verified hash-identical to their locks at the new paths** (`LITERATURE.md`, `item_A.md`, `item_B.md`,
+`item_C.md`, `PROTOCOL_SEALED.md`). `locks.py` is itself never-edit, so the path mapping is recorded
+here rather than there. `verify_all()` will report these five as missing until a wrapper maps paths;
+use this entry as the map.

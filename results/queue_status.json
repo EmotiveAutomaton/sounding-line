@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-07 19:55",
+  "started": "2026-08-08 06:08",
   "stages": [
     {
       "name": "void_v2_displacement",
@@ -23,17 +23,13 @@
       "name": "void_v4_induction",
       "why": "V4 -- the induction control the function-word result is owed, on the extreme ladder",
       "est_minutes": 20,
-      "status": "DONE",
-      "log": "results\\void_v4_induction.log",
-      "minutes": 1.5
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "void_v3_refusal",
       "why": "V3 -- refusal, at four times the original sample, with the false-positive rate reported",
       "est_minutes": 25,
-      "status": "DONE",
-      "log": "results\\void_v3_refusal.log",
-      "minutes": 0.0
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "readout_pythia-1.4b",
@@ -105,8 +101,44 @@
       "name": "bits96_ladder3",
       "why": "specification recovery against 96 decoys -- twice the discrimination",
       "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "corr_ladder3_pythia-1.4b",
+      "why": "per-layer intent correlation on the extreme ladder read by pythia-1.4b",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "corr_ladder3_gpt2-medium",
+      "why": "per-layer intent correlation on the extreme ladder read by gpt2-medium",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "corr_ladder3_SmolLM2-360M",
+      "why": "per-layer intent correlation on the extreme ladder read by SmolLM2-360M",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scaling_SmolLM2-360M",
+      "why": "does the component count track the sample rather than the text, SmolLM2-360M",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scaling_Qwen2.5-0.5B",
+      "why": "does the component count track the sample rather than the text, Qwen2.5-0.5B",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "length_direction_audit",
+      "why": "was length a confound or a suppressor, per measure",
+      "est_minutes": 3,
       "status": "RUNNING",
-      "log": "results\\bits96_ladder3.log"
+      "log": "results\\length_direction_audit.log"
     }
   ],
   "shard": "0/1"
