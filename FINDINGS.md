@@ -1131,11 +1131,17 @@ human-labelled GoEmotions comments — emotional-versus-neutral (balanced binary
 
 **Verdict: NO DISSOCIATION — and the failure runs in the informative direction.** Layer 0 carries
 *category* at **8.4× chance** (31.2% of 27-way) — the first layer is not category-blind, which the
-salience hypothesis requires. Presence at layer 0 is undetectable (48.7%, a coin flip) — though that
-half is under-powered (only 40 neutral items survive the length filter; a better-powered presence
-probe is cheap if wanted). Across depth, category peaks at layer 10 and presence at layer 20 — the
-reverse ordering of the hypothesis, and evidence for the layer-ordering question (G20a/G20b) once
-the presence curve gets real power.
+salience hypothesis requires. Presence at layer 0 read as a coin flip (48.7%), but on 40 neutral
+items only.
+
+**Powered re-run, same evening (G21b: 500 neutral items, n = 1,573).** The presence curve was upside
+down at low power: **layer 0 is the presence *peak* — 0.637, the best in the entire model** — and
+category still peaks at layer 10 with layer-0 category unchanged at 8.4× chance. **So his intuition
+is half right, and it is the architecturally interesting half: the strongest
+is-there-affect-here signal in the model sits at the very first layer.** What fails is only the
+blindness clause — layer 0 knows *which* emotion too, so early presence is not a *separate*
+salience stage. NO DISSOCIATION stands; "binary" falls, "salience-first" survives. Feeds G20a/G20b
+with the corrected ordering: presence earliest, category mid.
 
 ## L28 · The fair-control flagship outside Qwen: the sign is a family property
 
@@ -1146,22 +1152,27 @@ rather than one architecture.
 **Method.** `run_induction_v2.py --model` on the held-out ladder for three non-Qwen families, same
 relative loci (7% and 76% of depth), same fair control, model-tagged output files.
 
-| family | raw | old control | **fair control** | *p* | dose leak, old → fair |
-|---|---|---|---|---|---|
-| Qwen-1.5B (flagship) | −0.247 | −0.259 | **−0.422** | **< 0.0001** | −0.45 → +0.06 |
-| gpt2-medium | +0.499 | +0.042 | **+0.514** | **< 0.0001** | +0.68 → −0.27 |
-| pythia-1.4b | +0.212 | +0.041 | +0.163 | 0.105 | +0.41 → −0.12 |
-| SmolLM2-360M | +0.067 | −0.050 | +0.014 | 0.889 | +0.27 → +0.04 |
+| family | first ladder | held-out | extreme |
+|---|---|---|---|
+| Qwen-1.5B (flagship) | **−0.484** ★ | **−0.422** ★ | **−0.516** ★ |
+| gpt2-medium | **+0.552** ★ | **+0.514** ★ | **+0.377** ★ |
+| SmolLM2-360M | +0.010 | +0.014 | **+0.298** ★ |
+| pythia-1.4b | +0.201 | +0.163 | +0.204 |
 
-*"Dose leak" is each control's own prediction correlated with rung — the L22 diagnostic. The old
-control leaks everywhere; the fair one does not.*
+*Fair-control correlations between the early/late activation ratio and specified intent, per reader
+family per corpus. ★ = p < 0.01. The dose-leak diagnostic behaved in all twelve runs (old control
+leaks up to +0.81; fair control ≤ |0.30|).*
 
-**Verdict: REJECTED as universal.** All three recorded DEAD — the pre-registered rule requires the
-negative direction Qwen shows. But **gpt2-medium is the mirror image at equal strength**: its ratio
-*rises* with intent and survives the same fair control at the same significance. Two families are
-null. Same lesson as the per-layer map: **the measure reads something real in more than one
-architecture, and its sign is a family property** — fixed depth fractions straddle different
-machinery in different families. The gpt2 mirror is a lead, not a failure (G112).
+**Verdict: REJECTED as universal — and completed 2026-08-08 evening across all three corpora, the
+picture sharpens into something better than a mirror.** All non-Qwen arms record DEAD because the
+pre-registered rule requires Qwen's negative direction. But **gpt2-medium runs positive
+three-for-three at Qwen's strength** — a replicated phenomenon, not a fluke — **SmolLM2 joins the
+positive side exactly where the manipulation is strongest**, and pythia trends positive n.s. on all
+three. **No family shares Qwen's sign. The flagship's negative direction — the one the verdict rule
+enshrines — is the outlier, not the norm.** Where the ratio reads intent outside Qwen, it rises with
+it. Same lesson as the per-layer map, now with teeth: the measure is real in at least three
+architectures and **the pre-registered direction was an artifact of which family we explored first**
+(G112 characterises what the fixed depth fractions straddle per family).
 
 ## L4 · Can weak effects be stacked into a detector?
 

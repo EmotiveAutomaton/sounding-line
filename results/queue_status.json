@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-08 17:59",
+  "started": "2026-08-08 19:31",
   "stages": [
     {
       "name": "binary_salience",
@@ -131,16 +131,90 @@
       "name": "induction_v2_ladder_gpt2-medium",
       "why": "G103b: does the gpt2 mirror (+0.51, L28) replicate on the first ladder?",
       "est_minutes": 25,
-      "status": "DONE",
-      "log": "results\\induction_v2_ladder_gpt2-medium.log",
-      "minutes": 1.0
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "induction_v2_ladder3_gpt2-medium",
       "why": "G103b: the gpt2 mirror on the extreme ladder \u2014 three-for-three or a fluke",
       "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder_pythia-1.4b",
+      "why": "G103b: pythia was null on the held-out ladder \u2014 null everywhere, or corpus-specific?",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder3_pythia-1.4b",
+      "why": "G103b: pythia on the extreme ladder",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder_SmolLM2-360M",
+      "why": "G103b: SmolLM2 on the first ladder",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder3_SmolLM2-360M",
+      "why": "G103b: SmolLM2 on the extreme ladder",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "binary_salience_powered",
+      "why": "G21b: L27's presence probe had 40 neutral items \u2014 a coin flip with no power. 500 decides it",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "compression_ladder",
+      "why": "G116: the essays' Kolmogorov and regression-to-the-mean claims, first test",
+      "est_minutes": 3,
+      "status": "DONE",
+      "log": "results\\compression_ladder.log",
+      "minutes": 0.1
+    },
+    {
+      "name": "placement_scale",
+      "why": "G46: do weaker models place affective structure more poorly? (the live worry's second test)",
+      "est_minutes": 2,
+      "status": "DONE",
+      "log": "results\\placement_scale.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "subspace_bands11",
+      "why": "G42b: two-band split on all 11 families; G44a: transform composability",
+      "est_minutes": 2,
+      "status": "DONE",
+      "log": "results\\subspace_bands11.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "acceleration_reread",
+      "why": "PD-19 close-out over L23's saved per-artifact rows",
+      "est_minutes": 1,
+      "status": "DONE",
+      "log": "results\\acceleration_reread.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "author_convergence",
+      "why": "G60: the convergence curve and its asymptote, on the 34-book corpus",
+      "est_minutes": 5,
+      "status": "FAILED (exit 1)",
+      "log": "results\\author_convergence.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "nomaker_specrec",
+      "why": "G117: the no-maker control spec recovery never had \u2014 sharper after the echo kill",
+      "est_minutes": 30,
       "status": "RUNNING",
-      "log": "results\\induction_v2_ladder3_gpt2-medium.log"
+      "log": "results\\nomaker_specrec.log"
     }
   ],
   "shard": "0/1"
