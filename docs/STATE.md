@@ -70,14 +70,16 @@ program (process recovery first, longitudinal value prediction later). THREE_COG
 instrument research only (do model quantities improve choice recovery). ALIGNMENT is dormant, a
 boundary specification with a written wake condition.
 
-**The queue, in order.** Re-adjudicate stale labels (done, L2/L30/L34/L36/L40/L42). Preregister
-the ArgRewrite choice-recovery analysis (G129). Build the shared event-level recovery harness with
-known-answer, shuffled-label, unchanged-passage, and matched-decoy controls (G130). Run the
-factorial target/amount/coupling/realization benchmark (G131). Import ScholaWrite as five
-top-level units (G132). Commission the small crossed human pilot only after the harness recovers
-known synthetic decisions without lexical shortcuts (G133). Then the expertise-residual tournament
-in the parent simulation, exact solver first (G134). Human value prediction only after the
-residual estimator has a mapped failure boundary (G135).
+**The queue, in order.** Re-adjudicate stale labels (done, L2/L30/L34/L36/L40/L42). Build and
+validate the shared event-level recovery harness (G130, **done, HARNESS-VALID, L56**). Then the
+frontier-recreation phase his 08-09 evening directive inserted ahead of everything else: recreate
+ArgRewrite's published revision-classification baselines (G136, the gate G129 runs behind),
+recreate the Baker–Saxe–Tenenbaum gridworld in the parent sim (G137, G134's substrate), recreate
+the Armstrong–Mindermann unidentifiability construction then relax it with the three human priors
+(G138). Then the program proper: G129 preregistered ArgRewrite choice recovery, G130b lexical
+matching, G131 factorial benchmark, G132 ScholaWrite behind its own baseline recreation, G133
+commissioned pilot, G134 estimator tournament, G135 held-out tradeoff prediction. `TODO.md` now
+opens with the plan and carries the full phase tables.
 
 **Deprioritized by name.** Detector races, feature stacking before choice recovery validates,
 entropy and compression style summaries, more global averages, more transformer address searches,
@@ -122,11 +124,11 @@ blockquotes are untouchable; my prose compresses. Structural changes are proposa
   loop now runs at WINDOWS pid 107224.** Kill loops with `Stop-Process` on Windows pids from
   `Get-CimInstance`, never the lock files' pids (G121 makes the scripts record winpids). Queue
   integrity held throughout; produces-guards kept the lineages off each other's outputs.
-  **2026-08-09 evening state.** The DAY9 battery burned far ahead of estimate on cached
-  activations. Coherence v2 (8), block contribution (8), control subspaces (11), subspace v2
-  (11), CKA, pooling falsifier, and convergence v3 all landed and were written through (L44 to
-  L50); the powered binary map landed (L51); the PD-1 chain (w80 cache → positional polish →
-  revision homogeneity) refires on the current queue pass after its L43 repair.
+  **2026-08-09 evening state.** DAY9 fully burned and written through (L44 to L55). DAY10 loaded
+  in program order: the event-recovery harness (validated, L56), the PD-33 decomposition (MAKER,
+  L57), and the G128 alignment null (GPU, in flight). Next builds are Phase 1's frontier
+  recreations (G136 ArgRewrite baselines, G137 gridworld, G138 impossibility construction), per
+  the plan at the head of `TODO.md`.
 - **Audit L26 landed (2026-08-08, the conservative fleet):** 15 confirmed defects. Two more criteria
   that could not fail (the no-maker NaN gate, re-adjudicated at luck level overall with the flagship
   concentration sent to G107; the affect shuffle gate below its arithmetic floor). Coherence

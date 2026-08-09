@@ -49,6 +49,20 @@ def _status_path():
 
 # name, command, produces (skip if exists), needs (defer if missing), rough minutes
 STAGES: list[dict] = [
+    # ── DAY10 2026-08-09 evening: the program's first buildable stages, in program order
+    {"name": "event_harness_synthetic", "est": 5,
+     "cmd": [PY, "runners/run_event_harness.py"],
+     "produces": "results/event_harness/synthetic_validation.json", "needs": [],
+     "why": "G130: the shared choice-recovery harness must pass five known-answer gates before any real corpus"},
+    {"name": "pd33_decomposition", "est": 5,
+     "cmd": [PY, "runners/run_pd33_decomposition.py"],
+     "produces": "results/positional_polish/pd33_decomposition.json",
+     "needs": ["results/features/argrewrite_w80.json"],
+     "why": "PD-33: does the polish side's essay-boundness follow the author (maker signature) or the draft (state)?"},
+    {"name": "cka_null_g128", "est": 45,
+     "cmd": [PY, "runners/run_cka_null.py"],
+     "produces": "results/cka_alignment/null_g128.json", "needs": [],
+     "why": "G128: the permutation null L45's alignment still owes -- real correspondence or matrix smoothness?"},
     # ── refill 2026-08-08: G21, G103 (fair control cross-family), G104 (finish the 11-family matrix)
     {"name": "binary_salience", "est": 45,
      "cmd": [PY, "runners/run_binary_salience.py"],

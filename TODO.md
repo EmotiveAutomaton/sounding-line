@@ -1,28 +1,117 @@
-# TODO — ideas not yet run
+# TODO: the study queue
 
-**2026-08-05.** Short by design. Ideas here normally get run within a day; anything sitting for more
-than a session is either blocked or should be deleted. If an item is blocked, the blocker is named.
+**Reordered 2026-08-09 (evening) around the program and the frontier-first principle.** Results go
+in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
+archive, kept whole, mined but never deleted.
 
-Results go in [`FINDINGS.md`](FINDINGS.md).
-
----
-
-## THE PROGRAM (2026-08-09) — the standing order of work, above everything below
+## THE PLAN (the grounding he will never read, so it is written for me)
 
 The unit of analysis changed from one number per artifact to the recorded decision event, which
 carries target, alternatives, choice, dependencies, and context. Event recovery must validate
 before any summary statistic means anything. Full statement in `docs/STATE.md` and the README.
 
-| | what it is | the test | status |
+**The standing priority order, his directive.** First, RECREATE the frontier experimental space
+relevant to us, meaning the published experiments our claims sit next to get reproduced with our
+tooling so their numbers become our known answers. Only then push a bit further, one extension
+per recreated anchor. The reasons this ordering wins here: every recreation doubles as a
+known-answer gate for the instrument that will run the extension; a recreation that fails flags
+our tooling before it flags the world; and the project's recurring death (criteria that could not
+fail) is exactly what recreation catches cheap.
+
+**The phase logic.** Phase 0 is whatever is running or just landed. Phase 1 is the frontier
+recreations, split into already-in-hand (marked, with their landing) and owed (the builds).
+Phase 2 is the program proper, each step gated on its Phase 1 anchor. Phase 3 is blocked on
+people, corpora, or decisions. A stage enters the machine queue (`run_queue.py`) only from Phase
+0 or from a Phase whose gate has passed. Queue-of-studies format: each row is one study with its
+method sketch and its gate.
+
+---
+
+## Phase 0 — running or just landed
+
+| | study | state |
+|---|---|---|
+| **G130 · the event-recovery harness** | Five known-answer gates on synthetic decision events before any real corpus | **VALID (L56).** Two catches during the build: a mis-specified decoy arm replaced, and deterministic tie-breaking caught by the symmetry gate. One recorded eyebrow (unchanged arm mildly high inside its band) |
+| **PD-33 · essay-boundness decomposition** | Author against draft grouping on the 258-draft cache | **MAKER (L57).** Polish-side author share 0.262 vs depth 0.174, p = 6 × 10⁻⁷; draft shares tiny and equal. The maker-signature claim's second number |
+| **G128 · the alignment permutation null** | Text-correspondence broken 100× per family; do L45's landing depths survive? | **in the machine queue** (GPU, ~45 min) |
+
+## Phase 1 — recreate the frontier before pushing past it
+
+**Already in hand**, each one a recreation that already ran here, with its landing:
+
+| anchor | our recreation | landed |
+|---|---|---|
+| PAN style-change detection (0.830 bar, topic-controlled) | our feature bank on their split | **L11: we lose to the bar where topic is controlled.** The recreation stands; the goal-variation push waits on G131 |
+| function-word authorship attribution | the 34-book baseline, scrambling-validated | **7.6× chance, granularity-invariant.** Recreated and adopted as calibration |
+| Gosselain's visibility partition (pottery) | low-vis/high-vis features on authors against draft stage | **L41: clean double crossover, first pass** |
+| connoisseurship's revision homogeneity | dispersion of change magnitudes, real against spliced | **L52: AUC 1.0 against the weakest adversary** |
+| Hadidi's pooling-choice attack | the flagship profile and ratio under three poolings | **L44: geography survives, ratio does not** |
+| Kornblith CKA cross-network alignment | the event-alignment table | **L45, with its null in flight (G128)** |
+
+**Owed, the builds, in run order:**
+
+| | study | method and gate | cost |
 |---|---|---|---|
-| **G129 · preregister the ArgRewrite choice-recovery analysis** | Each aligned revision is an event with a recorded fine-grained purpose, not a feature carrier. The best immediate bridge corpus, since it holds two revision cycles, purpose labels at two grains, assigned goals, and scores | Bounded candidate set per revision (true purpose plus matched false purposes); reader gets brief and final artifact only; score against brief alone, source alone, shuffled labels, unchanged passages, matched surface revisions. Split train/test **by author, never by revision**. Report confusion matrices by fine purpose, per-author recovery, failure categories, decoy performance, error clustering | preregistration first, then ~half day |
-| **G130 · the shared event-level recovery harness** | One harness every recovery test runs through, so controls stop being reinvented per runner | Known-answer synthetic events, shuffled-label null, unchanged-passage null, matched-decoy construction as library code; a runner passes the harness before its numbers count | ~1 day, gates G129 |
-| **G130b · the decisive lexical-matching control** | L42's relabel hangs on this. If "content" stops being identifiable once lexical sophistication is unavailable as a shortcut, L42 was another sophistication measure | Match content and surface revisions on insertion/deletion size, word-count change, word rarity, sentence position, original difficulty, feedback-prompted or not; re-run purpose classification on the matched set | ~2 h once G129 runs |
-| **G131 · the factorial choice-structure benchmark** | The ladder varies specification count and cannot separate target from amount from coupling from realization. Four factors the theory treats as distinct | Paired artifacts from same base material, matched vocabulary, instruction count, topic, register, length. Crossings answer which construct the dose-responsive quantities track (prompt pressure, intent density, instruction volume, integration, or embodied choices). Specification recovery rebuilds here with candidates differing by **structural consequence**, not echoable words | design ~1 day, generation ~2 h |
-| **G132 · ScholaWrite as process evidence** | Dense longitudinal keystroke and intention records, nearly 62,000 edits, but five preprints, so five top-level units and weak population evidence. Complementary to ArgRewrite | Do decision traces persist into finals; does recovered ordering match real ordering; do integrated changes trace differently from isolated ones; do reader entry points coincide with real revision events. Nesting stays explicit in every number | import ~2 h, analyses ~1 day |
-| **G133 · the commissioned crossed pilot** | Public cross-domain corpora vary topic, not kind; the search became a time sink. Four makers suffice to debug measurement and estimate variance, not to support claims | Cross domain familiarity, effort condition, revision target, and at least two artifact kinds. Record brief, version history, post-task decision cards, alternatives considered, independent quality judgments, later blind recovery by multiple readers. No think-aloud, it changes the process. **Blocked until the harness recovers known synthetic decisions without lexical shortcuts.** Reader agreement is reliability, not validity | his sourcing + design ~2 days |
-| **G134 · the estimator tournament in the parent simulation** | A statistic gets tested where ground truth exists first, and the variational solver once returned a confident wrong answer that exact inference corrected | Small decision-generating world; compare direct choice recovery, residualisation after predicted expertise, constrained joint inference, no-values baseline, identity-only baseline. Exact inference first, PyMDP as approximation check. Deliverable is a **failure-boundary map** (expertise error, artifact count, kind diversity, commission alignment, drive visibility, concealment, reader misspecification), not an average | sim-side, brief to ghost-scale |
-| **G135 · held-out tradeoff prediction** | The residual hypothesis survives only if an inferred profile predicts unseen choices across kinds. Biography resemblance is not ground truth, and humans confidently overread makers too | Infer profile from several artifacts; present a new kind containing a real tradeoff; predict the compromise; compare against expertise plus brief plus context without the profile; repeat under commission | **blocked on G133 + G134** |
+| **G136 · recreate ArgRewrite's own published task** | The corpus paper reports revision-purpose classification baselines at coarse and fine grain. Reproduce them with our tooling on their splits, author-split enforced. **Their published numbers become our known answer; matching them is the gate G129 runs behind** | Parse the annotation workbooks (parser exists from L42), features or the harness reader, confusion matrices by purpose | ~half day |
+| **G137 · recreate Bayesian inverse planning on the classic gridworld** | Baker, Saxe & Tenenbaum's goal inference from partial trajectories is the direct precedent for the whole project. Reproduce the canonical posterior-over-goals curves in the parent simulation's pymdp. **The substrate G134's estimator tournament runs on; qualitative match to the published curves is the gate** | Sim-side brief to ghost-scale; small state space, exact inference | sim-side, ~1 day |
+| **G138 · recreate the impossibility construction, then relax it** | Armstrong & Mindermann's planner/reward degeneracy, built as a runnable toy. **First reproduce unidentifiability** (the recreation), then add the three human priors one at a time (bounded hypothesis family, known transition model as expertise, near-optimality) and measure posterior narrowing at each step. The §7 disagreement made executable, and the sharpest recreate-then-push in the plan | Toy MDP, enumerable reward/planner pairs, posterior mass curves | ~1 day |
+
+## Phase 2 — the program proper, each step behind its anchor
+
+| | study | gate it waits on | state |
+|---|---|---|---|
+| **G129 · ArgRewrite choice-recovery, preregistered** | Bounded candidate sets per revision, brief-and-artifact reader, five controls, author-split, confusion matrices by fine purpose | G136 matched + G130 valid (half met) | preregistration draft is the next writing task |
+| **G130b · the lexical-matching control** | Match content and surface revisions on size, rarity, position, difficulty, feedback-prompted; does "content" survive? | runs inside G129 | designed |
+| **G131 · the factorial choice-structure benchmark** | Target × amount × coupling × realization, paired artifacts, matched everything; the construct test for every dose-responsive quantity; spec recovery rebuilds here with candidates differing by structural consequence | none, buildable after G129 preregisters | design ~1 day |
+| **G132 · ScholaWrite import** | Five preprints as five top-level units; ordering, integration, entry-point analyses | **G141 gate: reproduce their published intention-classification baseline first** | after G131 |
+| **G133 · the commissioned crossed pilot** | Four makers, domain familiarity × effort × revision target × kind; keystrokes, decision cards, blind recovery | harness recovering known synthetic decisions without lexical shortcuts (met, L56) plus G129's real-text result; his sourcing | design ready when he is |
+| **G134 · the estimator tournament** | Direct recovery, residualisation, joint inference, no-values, identity-only; failure-boundary map, exact solver first | G137's gridworld substrate | sim-side |
+| **G135 · held-out tradeoff prediction** | Profile from several artifacts predicts an unseen tradeoff, against expertise-plus-brief | G133 + G134 | last, by design |
+
+## Phase 3 — blocked, on people or corpora or decisions
+
+| | item | blocker |
+|---|---|---|
+| **G125 · commissioned absent-drive work** | his sourcing (same brief, repeated makers, process records) |
+| **E7b · follower-corpus sourcing** | his side; the values ladder made of humans |
+| **HH-14 · interest ratings** | an hour of his time; informs `READER_HEURISTICS` only, never ground truth |
+| **PAN22 access, key rotation** | his side |
+| **G102 · prior-art sweep** | before any public ratio-versus-dose claim; reading task, unblocked but unscheduled |
+
+---
+
+### Phase 2 method detail, kept in full
+
+- **G129.** Bounded candidate set per revision (true purpose plus matched false purposes); the
+  reader gets brief and final artifact only, scope preregistered; score against brief alone,
+  source alone, shuffled labels, unchanged passages, matched surface revisions; split train/test
+  **by author, never by revision**; report confusion matrices by fine purpose, per-author
+  recovery, failure categories, decoy performance, and whether errors cluster by essay or author.
+- **G130b.** Match content and surface revisions on insertion/deletion size, word-count change,
+  word rarity, sentence position, original sentence difficulty, and feedback-prompted or not;
+  re-run purpose classification on the matched set; if "content" stops being identifiable, L42
+  was a sophistication measure.
+- **G131.** Paired artifacts from the same base material with vocabulary, instruction count,
+  topic, register, and length matched; the crossings answer which construct the dose-responsive
+  quantities track (prompt pressure, recoverable intent density, instruction volume, integration,
+  or embodied choices); specification recovery rebuilds here with candidates differing by
+  structural consequence, not echoable words.
+- **G132.** Nearly 62,000 edits across five preprints as five top-level units; do traces persist
+  into finals, does recovered ordering match real ordering, do integrated changes trace
+  differently from isolated edits, do reader entry points coincide with real revision events.
+- **G133.** Four makers crossing domain familiarity, effort condition, revision target, and at
+  least two artifact kinds; record brief, nonintrusive version history, post-task decision cards,
+  alternatives considered, independent quality judgments, later blind recovery by multiple
+  readers; no think-aloud, it changes the process; reader agreement is reliability, not validity.
+- **G134.** Small decision-generating world; compare direct choice recovery, residualisation
+  after predicted expertise, constrained joint inference, a no-values baseline, an identity-only
+  baseline; exact inference first, PyMDP as approximation check; the deliverable is a
+  failure-boundary map over expertise error, artifact count, kind diversity, commission
+  alignment, drive visibility, concealment, and reader misspecification, never an average.
+- **G135.** Infer a maker profile from several artifacts; present a new kind containing a real
+  tradeoff; predict the compromise; compare against expertise plus brief plus context without the
+  profile; repeat under commission, where the proximal goal may conflict with the persistent
+  profile.
 
 **Deprioritized by the program, by name.** Detector benchmark races. Feature stacking before choice
 recovery validates. Entropy, compression, effective complexity, component counts, centroid
@@ -34,6 +123,8 @@ ground truth (still useful inside `READER_HEURISTICS`). Alignment experiments, p
 ruling in `ALIGNMENT.md`.
 
 ---
+
+## The backlog archive — pre-program harvests, kept whole, mined by the phases above
 
 ## Harvested from theory — tests for the curator's claims
 

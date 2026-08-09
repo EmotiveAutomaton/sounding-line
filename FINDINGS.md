@@ -1916,6 +1916,65 @@ maker-signature half of the traces claim, that polish variation carries *who* wh
 features run corpus-generic. First pass, one corpus, and the draft/author decomposition is the
 obvious next cut.
 
+## L56 · The event-recovery harness passes its five gates, and two of the gates earned their keep during the build
+
+**Hypothesis.** *(G130, the program's shared instrument.)* Every choice-recovery test will run
+through one harness, so the harness itself must first recover known synthetic decisions and fail
+correctly on every null, per the standing known-answer rule.
+
+**Method.** `run_event_harness.py`: a synthetic world of 40 makers × 12 decision events, each
+event one purpose-linked phrasing choice among four (signal rate 0.7, so noisy like real text); a
+bag-of-evidence reader trained on a disjoint maker split; five pre-set gates.
+
+| arm | what it must show | result |
+|---|---|---|
+| oracle | real access scores above chance | 0.796 against 0.25 chance |
+| shuffled labels | chance | 0.225 |
+| unchanged passages | chance | 0.282 (n = 1,200) |
+| blind reader | chance | 0.227 (n = 1,200) |
+| decoy symmetry | no candidate structurally favoured on null text | picks 0.23 to 0.28 |
+
+*Chance is 0.25 throughout; the chance arms carry a fixed ±0.06 band that was never widened.*
+
+**Verdict: HARNESS-VALID, with two catches recorded.** The build's first decoy arm scored a
+remapped truth, which with real signal present must land below chance, so it re-measured signal
+upside down and was replaced by the candidate-symmetry check before any real corpus was touched.
+That symmetry check then immediately caught a real fault, deterministic tie-breaking handing
+every null-text pick to the first candidate, the strict-ties class the audit found once before in
+specification recovery. Ties now break randomly. One eyebrow stays recorded: the unchanged arm
+sits slightly above chance at power (0.282, about 2.6 standard deviations) while inside its
+pre-set band; if it persists across the harness's future runs it gets hunted. **Means: G129's
+ArgRewrite analysis has a validated instrument to run through, which was the program's stated
+gate for touching the real corpus.**
+
+## L57 · The essay-boundness split follows the author, not the draft — the maker-signature reading stands
+
+**Hypothesis.** *(PD-33's decomposition; L55 found polish-side features 2.5× more essay-bound
+than depth-side at fixed topic, and "essay" conflated author with draft stage.)* If the polish
+side's excess boundness follows the author, polish variation carries the maker; if it follows the
+draft, it carries revision state.
+
+**Method.** `run_pd33_decomposition.py` over the 258-draft cache (86 authors × up to 3 drafts,
+topic and assignment constant): per feature, the share of pool variance lying between authors,
+then between drafts within authors; the two feature sides compared on each share. Known-answer
+gates first: a planted author-constant feature must land all-author (it did, 1.00/0.00), a
+planted draft-varying feature must land majority-draft (it did, 0.68 draft share).
+
+| variance share | polish-side median | depth-side median | difference |
+|---|---|---|---|
+| between authors | 0.262 | 0.174 | p = 6 × 10⁻⁷ |
+| between drafts, within author | 0.042 | 0.036 | p = 0.98 |
+
+*Shares are fractions of each feature's total variance; author share is what a feature knows
+about who wrote it, draft share what it knows about which revision pass it came from.*
+
+**Verdict: MAKER.** The polish side's excess boundness is author-boundness, half again the depth
+side's, while draft-stage information is small and identical on both sides. **Means: "polish
+variance is a maker signature" now has a second, sharper artifact-side number, and it is
+specifically the maker.** The near-zero draft shares also bound how much these window features
+can know about revision state, which sits consistently with L42's relabel. One corpus, one
+window size; the cross-corpus check rides along free whenever another windowed cache exists.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

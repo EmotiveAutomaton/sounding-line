@@ -132,7 +132,7 @@ direction**. The performance is what changes, whichever way it changes.
 |---|---|---|
 | **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **VOID as operationalised (test, L53/L55), with the route closed in principle.** The first valid pass ran inverted; the matched null then showed the inversion was per-window sampling noise, and the algebra shows dispersion statistics cannot measure movement at all, since variance is order-invariant and the shuffle ratio cannot exceed one for any data. A movement claim needs an order-sensitive statistic or the program's event level. Not a negative result about the claim; the instrument class was wrong for the question |
 |   | | *(instrument history: v1 scored zero essays on a mis-sized cache and verdicted anyway; v2's z-scored variance was 1 by construction; v3 gated and ran inverted; v3b's matched null exposed the in-principle void and one of its own verdict branches as unreachable)* |
-| **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic | **SUPPORTED (test), first pass, found by accident (L55).** Between-essay variance share 20% against 8% (p < 10⁻⁴, 258 drafts, topic and assignment constant), so polish-side variation carries the essay's identity where depth-side features run corpus-generic. The first artifact-side evidence for the maker-signature half of this section's claim; the author/draft decomposition is the next cut |
+| **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic, and the boundness follows the author | **SUPPORTED (test), decomposed (L55, L57).** Between-essay share 20% against 8%, and the decomposition lands MAKER: author shares 0.262 against 0.174 (p = 6 × 10⁻⁷) while draft-within-author shares are small and identical (0.04 apiece, p = 0.98). Polish-side variation carries *who*, on 86 authors at fixed topic; draft stage carries almost nothing on either side. Gated both times; one corpus, one window size |
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **SUPPORTED (test), first pass.** Human long-form variance 0.0102 vs machine 0.0065 at matched series length, *p* = 0.002, the flat-machine signature measured reader-side; register rides along uncontrolled |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
 | **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **OPEN as an artifact-side measure; its reader-side cousin just landed (the HH-3 / L39 row)** |
@@ -146,8 +146,9 @@ direction**. The performance is what changes, whichever way it changes.
 **What the table says.** The definitional test ate its own operationalisation and paid out
 anyway. Window-dispersion statistics turn out to be unable to measure movement in principle, so
 the stationarity claim is untested rather than falsified, and what the exercise surfaced instead
-is that polish-side features are far more essay-bound than depth-side ones at fixed topic, which
-is the maker-signature half of this section's closing quote given its first artifact-side number.
+is that polish-side features are far more essay-bound than depth-side ones at fixed topic, and
+the decomposition pins the excess on the author specifically rather than the draft, which is the
+maker-signature half of this section's closing quote given its first two artifact-side numbers.
 The other clean positive stands apart. The reader's affective series moves through human
 long-form and stays comparatively flat through machine text. The rest is the simulation's 6.5×
 decay asymmetry plus unrun tests, with the attraction/translation split gating the lot.
