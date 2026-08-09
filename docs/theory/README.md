@@ -78,9 +78,9 @@ A mixed table joins two of these with a semicolon, each tied in plain words to t
 
 | | |
 |---|---|
-| **[THE_TRIPLE_INFERENCE.md](THE_TRIPLE_INFERENCE.md)** | **the triple inference** — intent extraction as a triple inference over goal, process and drives. The core claim; everything else is downstream. Also holds what values are, and the disagreement with the impossibility literature |
-| **[THREE_COGNITIVE_LAYERS.md](THREE_COGNITIVE_LAYERS.md)** | the affective architecture a model is trying to reconstruct, and where the reconstruction fails. **Carries the project's largest live worry: whether the structure is there at all** |
-| **[POLISH_AND_DEPTH.md](POLISH_AND_DEPTH.md)** | two decision densities, split by what the decision targets. Absorbs `FLATTENED_INTENT.md` and `LEAKAGE.md` |
+| **[THE_TRIPLE_INFERENCE.md](THE_TRIPLE_INFERENCE.md)** | **What is inferred?** Goal, process/expertise, and drives/values — the core claim; everything else is downstream. Also holds what values are, and the disagreement with the impossibility literature |
+| **[THREE_COGNITIVE_LAYERS.md](THREE_COGNITIVE_LAYERS.md)** | **What latent human structure constrains those variables, and what analogue might a model reconstruct?** Carries the missing-middle prediction and the build gates |
+| **[DECISION_TRACES.md](DECISION_TRACES.md)** | **What survives in the artifact, deliberately or involuntarily, and how is it measured?** Target × control × terminal topology. *(Renamed from `POLISH_AND_DEPTH.md` 2026-08-09; absorbs flattened intent and leakage)* |
 | **[HUMAN_HEURISTICS.md](HUMAN_HEURISTICS.md)** | the tricks a person uses when the maker is absent. **Candidate feature-extracting amplifiers**, not a method we expect to depend on |
 | **[ALIGNMENT.md](ALIGNMENT.md)** | the terminal value as the balanced sum of seeking and acting. The one claim that does not depend on the rest |
 | **[essays/](essays/)** | the two personal essays, kept as the rawest form of the intent |

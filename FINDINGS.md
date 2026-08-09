@@ -1327,6 +1327,105 @@ afford one obvious surface description, and rich human prose affords many true o
 between the two accounts remains live and untested. The fix is named (G114b): topic-matched groups,
 graded answer-similarity instead of token overlap, and the essays-path repair.
 
+## L36 · The graded echo curve — specification recovery is an echo detector
+
+**Hypothesis.** The strict echo kill left two readings: the measure's information is carried by
+lexical echo, or honouring a specification inevitably shares its words and the strict test is
+over-harsh. The graded curve separates them: if honouring-inevitably-echoes were the story,
+partially-echoed specifications should still carry signal.
+
+**Method.** `run_spec_recovery` at 96 decoys on the held-out ladder, scoring restricted to
+specifications whose content-word overlap with the artifact is ≤ 100% (unrestricted), ≤ 50%, ≤ 25%,
+and 0%; plus the strict arm replicated on the first ladder.
+
+| overlap allowed | n | correlation with rung | win rate |
+|---|---|---|---|
+| everything (unrestricted) | 80 | **+0.344** (*p* = 0.002) | 61% |
+| ≤ half | 75 | +0.041 (*p* = 0.73) | 37% |
+| ≤ quarter | 62 | −0.132 (*p* = 0.31) | 24% |
+| zero | 50 | −0.147 (*p* = 0.31) | 8% |
+
+*The first-ladder strict arm lands negative (−0.430, p = 0.046, 5% win) — below-chance recovery on
+unechoed specifications.*
+
+**Verdict: ECHO-CARRIED.** The signal does not degrade gracefully as echo is restricted — **it
+vanishes between full and half overlap** and trends negative below that. With the no-maker control
+already awarding it wins where nothing is true (L32), the conclusion is one sentence:
+**specification recovery, as built, is a lexical-echo detector whose echo happens to track dose.**
+The dose-tracking is real but it is a property of the *echo*, not of recovery. Every number the
+measure produced is re-read under that light; the honest instrument here would measure echo
+directly and own it.
+
+## L37 · The provenance prior replicates on all three corpora
+
+**Hypothesis.** L33's framing effect — telling the reader identical text is machine-made shifts its
+affective read — was one corpus; the standing rule says near-armed results replicate before they
+harden.
+
+**Method.** Same paired design, thirty artifacts per corpus, both remaining ladders.
+
+**Verdict: FRAMING-MOVES, three for three.** The ratio shift is +0.0071 / +0.0066 / +0.0097 and the
+affect-magnitude drop −0.00064 / −0.00063 / −0.00075, every arm at *p* < 2×10⁻⁸ paired. **Means:
+the provenance prior in the reading machinery is now replicated and controlled** — small, fixed in
+direction, and present on every corpus we can ask. Unframed measurements sit on a neutral knob;
+disclosure is not affect-neutral even for a machine reader.
+
+## L38 · The presence peak is not an architecture fact — the address lesson again
+
+**Hypothesis.** G21b found layer 0 is the model's strongest is-affect-present signal in the home
+family; if that is an architecture fact it should hold in other families.
+
+**Method.** The powered probe (500 neutral items) on gpt2-medium and pythia-1.4b.
+
+**Verdict: family-specific, like every address claim.** gpt2-medium's presence curve is nearly flat
+(layer 0 at 0.628 versus a 0.636 peak at layer 8); pythia's peak sits *late* (0.657 at layer 19,
+layer 0 at 0.598). Category still far above chance at layer 0 in both (8.8× and 8.7×), category
+peaks mid. NO DISSOCIATION everywhere. **Means: salience-first was a home-family fact.** The
+one address claim that looked like it might travel does not — the address umbrella's
+mostly-no hardens.
+
+## L39 · Within-artifact activation variance: the human series moves, the machine one is flat
+
+**Hypothesis.** The §1 heuristic's untried operationalisation (HH-3, pre-empted by nobody): the
+within-artifact variance of the reader's own affective series should be higher for human long-form
+than machine ladder text (the flat-machine-polish signature), and might track dose.
+
+**Method.** `run_activation_variance.py`: the early/late ratio per 200-word window as a positional
+series, variance at matched series length (subsampled to six windows), books versus both machine
+ladders, plus rung-versus-variance within ladders.
+
+**Verdict: HUMAN-MOVES; RUNG-FLAT.** Books' median within-artifact variance is 0.0102 against the
+machine ladders' 0.0065, one-sided *p* = 0.0024; variance does not track dose within machine text
+(−0.14 / −0.17, both n.s.). **Means: the first positive instrument number the primary-detector
+heuristic has ever had** — the human affective series moves and the machine one is comparatively
+flat, exactly the signature the theory names. Register and genre ride along uncontrolled, so this
+is one corpus-pairing away from hardening, not there.
+
+## L40 · The flagship's no-maker concentration is clustered luck
+
+**Hypothesis.** The audit's open question: the home family's false fires on maker-less text overlap
+its own surviving layers — real label leak, or clustering luck?
+
+**Method.** `run_nomaker_permutation.py`: 2,000 label permutations over the saved per-artifact
+signal matrix; joint-rule pass count and overlap with the ladder survivor set, conditioned on the
+observed direction-null passes.
+
+**Verdict: CLUSTERED-LUCK.** Observed 7 joint layers against a null mean of 1.9 (*p* = 0.095) and
+overlap 4 against 0.79 (*p* = 0.089) — elevated, and not significant at either test. **Means: the
+control question closes in the flagship's favour, with a residual eyebrow** — both p-values sit
+just above the line, so the survivor list keeps its layers and the eyebrow is recorded rather than
+erased. The re-adjudicated no-maker control now reads: luck-level fires overall, borderline
+concentration in one family, no demonstrated leak.
+
+## The family-sign map is complete — 33 of 33 cells (folds into L28)
+
+Final cells: gpt2-large +0.227 (*p* = 0.0499) on the extreme — six of six positive; SmolLM2-1.7B
++0.283 (*p* = 0.014) — starred on two corpora; pythia-2.8b −0.061 n.s. — zero at the family's top.
+And the depth-readout matrix completed under v2 rules: **FIXED peaks in every remaining family —
+zero SHIFTS anywhere in eleven families.** The map's standing sentence is unchanged and now rests
+on every cell: the sign is a family constant, no family shares the home family's negative, and the
+positive camp's largest members go quiet.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

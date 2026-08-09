@@ -1,4 +1,4 @@
-# Three cognitive layers — the affective architecture a model is trying to reconstruct
+# Three cognitive layers — the latent architecture, and what a model reconstructs of it
 
 > If human empathy relies on a **constraint of the solution space in the midbrain**, then we are going
 > to have to similarly constrain the solution space somehow — or else we run into the impossibility of
@@ -10,26 +10,35 @@
 > using an imperfect version of our own mechanism for empathy, which is just inverse reinforcement
 > learning with a whole bunch of tricks.
 
-**The first theory in this file is that the mapping is already there.** That something in a model's
-nodes already has the shape of the midbrain constraint, **and that we can amplify it** rather than
-build it. Everything downstream — the bootstrap, the build, the whole alignment consequence — rests on
-that being true.
+Four claims, stated separately because they live or die separately:
 
-**The load-bearing part is the middle**: a stage of conserved affective primitives that a model
-reconstructs **badly**, because they are pre-verbal and never written down directly. **Where the
-reconstruction fails is where the fingerprint is.**
+1. **Human proposal** — core affect/salience, drive constraints, and expertise-conditioned
+   construction are distinct functional levels of one system.
+2. **Model proposal** — a next-token model may *reconstruct* aspects of those functions, without
+   feeling anything.
+3. **Load-bearing prediction** — the drive constraints are reconstructed *worst*, because they are
+   conserved but under-expressed in text; the shape of that error is a large source of failed goal
+   inference.
+4. **Current verdict** — coherent affect geometry exists in every model checked; three depth bands
+   do not; intent *tracking* exists and transfers; causal function is untested.
+
+**This file owns** the latent architecture: what human structure exists, what a model might
+reconstruct, where reconstruction fails, and what intervention could follow. **It does not own** the
+artifact-facing traces ([`DECISION_TRACES.md`](DECISION_TRACES.md)), the inference itself
+([`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md)), or the alignment consequence
+([`ALIGNMENT.md`](ALIGNMENT.md)).
 
 ---
 
-## §1. The layers — and there are two competing orderings
+# Part I — The theory
 
-### The original ordering, 2026-08-05
+## §1. The human functional scaffold
 
-| depth | what it reconstructs | why | quality |
-|---|---|---|---|
-| **early** | **valence and arousal** | the lowest-level, most universal, most consistent thing in the training signal | **good.** Easiest to capture |
-| **middle** | **midbrain-localised primitives** — the ancestral, baked-in affective systems | conserved across humans, so it is *there* in the data, but **pre-verbal and not directly expressed** | **bad, and noisily so.** The model struggles here |
-| **late** | **expertise, and the goal direction that runs on it** | individual to the person | **chaotic.** A genuinely high-variance target |
+| function | what it is | quality of the training signal |
+|---|---|---|
+| **core affect / salience** | valence and arousal — the lowest-level, most universal thing in the signal | good; easiest to capture |
+| **drive constraints** | the ancestral, conserved affective systems | present but **pre-verbal, never written down directly** |
+| **expertise-conditioned construction** | trajectories, higher-order predictions and controls, the goal machinery that runs on them | individual, chaotic, high-variance |
 
 > The middle one we wouldn't be able to converge upon... that's the part of the human brain that is
 > baked in a little bit, that is a little bit more ancestral. **And it's struggling to model that.**
@@ -39,611 +48,307 @@ reconstruction fails is where the fingerprint is.**
 > **The lack of Panksepp is where a lot of misalignment comes from, specifically. We have to give
 > emotions in order to converge upon a more appropriate goal extraction.**
 
-### The reordering, 2026-08-07
+**Goal is not a fourth level.** He declined one: *"that's just not reasonable. It wouldn't be
+separable. Three, frankly, barely won't be."* A goal is **a weighting applied across all of them** —
+one component of the value weighting temporarily amplified by attention — so it needs to be readable
+as a modulation of whatever sits at each depth, not found at an address of its own.
 
-> It is possible that the **early layers are doing some kind of text transformation** — more like
-> early sensory processing. And then the **middle layers have valence/arousal**, and the upper layers
-> have **emotions attached**, or something like that.
-
-**This is not a minor revision. It moves every layer.** And it reconciles two published results that
-currently contradict each other outright:
-
-| published result | what it would be reading, under the reordering |
-|---|---|
-| the mid-layer peak for emotion categories — the field's consensus | **valence and arousal**, sitting mid |
-| a sparse-autoencoder study finding emotion features emerge **late**, after a syntax → semantics → emotion cascade | **the attached categories**, sitting late |
-
-It also resolves the discomfort he flagged himself and called load-bearing:
-
-> The prediction that early valence/arousal is what we're mapping — **it doesn't quite fucking fit.**
-> Because the input for humans is **sensory** data. That's kind of what a model gets when it is boiled
-> down into vectors, **but it's not quite the same.**
-
-**The mismatch is specific.** A human's early layers receive *sensory* input and assign valence to it.
-A model's early layers receive *tokens* — already symbolic, already the output of somebody else's whole
-stack. **If early is text transformation rather than valence assignment, the analogy stops being
-strained.** And he states the cost: *"it does break our theory to say so, and it makes it harder to
-imagine setting up this conformance manually."*
-
-### Where goal lives — expertise is the thing that is late, and goal runs on it
-
-**Refined 2026-08-07, and it is more precise than the original.** The first version put "goal
-direction" late. That was imprecise about both halves of the analogy.
+**Expertise is the late thing, and goal runs on it:**
 
 > **Executive function is historically associated with goals** — with organising, with making
 > sub-goals. Is the executive function applying the trajectory? Well, of course it is. **That's why
 > goals come from the neocortex: because that's where your trajectory is stored.**
 
-**So in humans, goal is not stored late. Trajectory is stored late, and goal is what executive
-function does with it.** That is the same relation as [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md)
-§5 — *expertise × weighted policy map → actions* — seen from the neuroanatomy rather than from the
-formalism.
-
-**The precise version for models, in his words:**
-
 > **Later layers of a model will have more expertise decoding and encoding capabilities.**
 
-**That is the claim to test, and it is sharper than "goals are late"** — it is about *expertise*, which
-we can supply and vary, rather than about *goal*, which we can only observe.
+Cognitive expertise here means the higher-order metaphorical layer — the entry vertex most people
+use on media at all (**media literacy** is the common-language name for exactly this general skill),
+as against the mechanical layer. And in humans goal direction draws on all three levels: *"I would
+say middle and late are where you get most of it. **In AI I genuinely have no idea.**"*
 
-**And goal itself is not a layer.** He declined a fourth: *"that's just not reasonable. It wouldn't be
-separable. Three, frankly, barely won't be."* The version that keeps three: **a goal is a weighting
-applied across all of them** — already his own definition, where a goal is one component of the value
-weighting temporarily amplified by attention. **If that is what a goal is, it does not need a depth of
-its own; it needs to be readable as a modulation of whatever sits at each depth.** It also answers the
-emotion-cannot-produce-output objection, because under that reading *nothing* at any single layer
-produces output. **Agreed as fitting the theory better, and it costs no fourth layer.**
+**The scaffold has a known gap: no positive channel.** The eight concepts read are Panksepp's seven
+plus `none_recoverable` — no happiness, no positive valence as such:
 
-**Consistent with what he says about humans**, which was never the same as his claim about models:
+> Happiness is often modelled as one of two things: either **positive valence of those need
+> networks**, or as **a conjoined channel that all seven of them have to not be inhibiting** in order
+> for happiness to flow.
 
-> Goal direction comes from **all three** in humans. I would say middle and late are where you get
-> most of it. **In AI I genuinely have no idea.**
+| # | hypothesis | status |
+|---|---|---|
+| **G26** | A goal is a weighting across all levels rather than a level of its own | **OPEN, adopted as the working position** |
+| **G41** | Later blocks carry more expertise encoding and decoding | **OPEN** — the testable form of "goals are late": expertise is suppliable and variable |
+| **G27** | Level boundaries in a model are soft rather than sharp | **assumed, not tested** — any test requiring a clean boundary is testing the wrong thing |
+| **G73** | Positive affect is a readout over the seven channels | **OPEN** — suppressing one channel should move it proportionally |
+| **G74** | Positive affect is a conjoined gate requiring all seven un-inhibited | **OPEN** — suppressing any one should collapse it; a single suppression experiment separates the two |
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **G20a** | Valence/arousal is reconstructed **early**, primitives **middle** | **OPEN**, and contested by G20b | The original ordering. Nothing has ever tested it directly |
-| **G20b** | Early is text transformation, valence/arousal **middle**, categories **late** | **OPEN, and it discriminates cleanly against G20a.** Under G20a valence peaks early and categories mid; under G20b valence peaks mid and categories late | **It reconciles two literatures that currently contradict each other**, which no other version of the ordering does |
-| **G41** | Later layers carry more expertise encoding and decoding | **OPEN**, and it is the precise form of "goals are late" | Expertise is suppliable and variable; goal is only observable. **This is the testable half of the pair** |
-| **G26** | A goal is a weighting across all layers rather than a layer of its own | **OPEN**, adopted as the working position | It is the only version that keeps three layers and answers *an emotion cannot directly produce output* |
-| **G27** | Layer boundaries in a model are soft rather than sharp | **assumed, not tested** | *"You're seeing ghosts of a human brain, not an actual human brain."* Any test requiring a clean boundary is testing the wrong thing |
+**What the table says.** The scaffold itself is theory: its one adopted position (goal as weighting)
+and its one testable sharpening (expertise-late) have never been run, and every affect reading the
+project has produced is blind to positive affect except where it leaks through seeking, play, or
+care. Confidence: untested — logic only.
 
-**What these add up to.** Both orderings agree that **valence/arousal and the primitives are adjacent,
-and that expertise sits at the far end from the input** — they disagree only about whether anything
-sits *before* valence. **That is a narrower disagreement than it looks**, and §8's subspace result
-bears on it directly: the one sharp boundary in the whole model is at layer 2, exactly where a
-text-transformation stage would end. **If that boundary survives its control, G20b is the ordering and
-the argument is over.** **Confidence: untested — logic only; the boundary fact it leans on has not
-had its own control run.**
-
-## §2. The reframe that makes everything else follow
+## §2. The reconstruction bridge — what a model is doing, in reserved words
 
 > When I say the model leaked involuntary affect, **I'm not assigning affect to the model.** It's that
 > they're **trying to predict the human brain and failing to do so.** They're trying to have empathy
 > and failing.
 
-**A language model trained on human text is an attempt to model the process that produced it.** Its
-architecture is not an emotional system; it is a *reconstruction* of one, built by prediction, and it
-inherits the shape of what it is reconstructing — **including where the reconstruction is bad.** That
-removes the implication that we are claiming a model has feelings, and it makes the **errors** the
-interesting part.
-
 > **You're seeing ghosts of a human brain, not an actual human brain.** [...] The lines will be
 > **softer** on an AI modelling.
 
-**So sharp layer boundaries are not expected, and their absence is not evidence against the
-architecture.** The reason the structure should be there at all is twofold: **the model is built off
-our brain structure, and it is modelling humans** — *"it has weak imperfect empathy. It is trying to
-learn from us through this weak IRL."* And why that is uncomfortable: *"the only reason it's working is
-raw brute force over a large enough set."*
+A language model trained on human text is a *reconstruction* of the process that produced the text,
+built by prediction, inheriting the shape of what it reconstructs — including where the
+reconstruction is bad. The errors are the interesting part.
 
-**The end goal this serves:**
+**Reserved vocabulary, because "layer" had come to mean four different things:**
 
-> My personal end goal is to find a way to **fully give AI human empathy, but not human emotions**
-> [...] it requires some kind of subordinate solution space that converges on these **predictions of
-> these interoceptive signals.**
+    functional level   what a stage DOES, in the human theory (core affect, drives, construction)
+    region             anatomy — subcortical structures, neocortex
+    block              a transformer layer, by index
+    subspace           representational structure WITHIN blocks — channels, directions, geometry
 
-## §3. The middle is the load-bearing claim, and it is where the industry is wrong
+"Layer" without a qualifier is banned in this folder. And two grounded cautions from the
+commissioned analogue research ([`../method/NEURAL_ANALOGUES.md`](../method/NEURAL_ANALOGUES.md)):
+**nothing in a dense transformer can "peak" in the energy sense** — every block spends identical
+compute, so only decodability varies, and cross-domain claims must compare decoding to decoding
+(the field's own move, since univariate bright-peaks failed for emotion there too); and **"noise"
+has no biophysical referent at temperature zero** — say *unmodeled variance*, and treat rogue
+dimensions as the artifact class, not the signal. **Token transformation is an input adapter** —
+the model-side counterpart of sensory transduction, not a fourth cognitive level:
 
-The audit recommended dropping Panksepp as a premise. I passed it on as a lead conclusion:
+> The prediction that early valence/arousal is what we're mapping — **it doesn't quite fucking fit.**
+> Because the input for humans is **sensory** data. That's kind of what a model gets when it is boiled
+> down into vectors, **but it's not quite the same.**
 
-> This is an example of you trying to sand away a very important load-bearing column of this piece.
-> **Panksepp in general may not be precise, but the idea of midbrain-localised solutions is absolutely
-> load-bearing. If you drop that, we have what everyone else has, which is the wrong part.**
+**The two orderings are competing model *mappings*, not competing definitions of cognition** — the
+question is where each function is reconstructed in blocks, given where it lives in regions:
 
-**What is load-bearing is not the taxonomy. It is midbrain-localised affective primitives of some
-kind**, in an *expanded* set — the one vertex where he thinks the whole industry is wrong and this
-project can be right. *"These primitives are the key, however many there are. I don't really care how
-many there are."* And the reason to look there is strategic as well as theoretical: *"we have to look
-where no one else is looking to make the whole picture make sense."*
-
-**Terminology, a deliberate concession:** *"Emotions and feelings is fine. I've done emotions and
-drives. [...] **Drives feels like a better word.** But I'll use whatever the literature has."* — use
-*emotion / feeling* outward-facing, **drives** internally.
-
-### You can only route attention onto drives you possess
-
-> If I were forced to design a Nazi camp, part of my motivation would be not dying. But part would be
-> **efficiency** — I could tap a need for efficiency to do this. **But I wouldn't be able to tap into
-> the cruelty a Nazi designer would have. It just wouldn't be there for me to optimise.**
-
-**Two makers producing the same artifact under the same instruction do it from different drives, and
-the drives they lack constrain what they can produce. That makes the absent drive as informative as
-the present one** — a mechanism for why an artifact reads as made-under-duress. **Unexplored, still
-unnamed.**
-
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **lit** | Midbrain-localised affective primitives exist as a distinct mid-level stage | **SUPPORTED (READ)** | **The strongest support cites neither camp** — hypothalamic line attractors encoding intensity and persistence (*Nature* 2024), conserved biphasic cross-species dynamics with a ketamine dissociation (*Science* 2025) |
-| **lit** | The disagreement with Barrett is about localisation | **REJECTED (READ)** | Both camps place pattern generators in hypothalamus and PAG. **They disagree about whether activity there *constitutes* felt affect or is the output of a state assembled elsewhere — not an imaging question**, so it will not resolve on imaging |
-| **lit** | Panksepp's seven is the right number | **REJECTED (READ)** as an empirical claim | The seven were never derived from a dimensional analysis, and **the standard instrument tests six, never seven** — LUST was dropped for social desirability |
-| **S-14** | An absent drive is recoverable from an artifact | **OPEN**, scoped for the simulation | **The only proposal in this project that treats an absence as a measurable** |
-
-**What these add up to.** The mid-level stage is better supported now than when this project started,
-**and the strongest support cites neither Panksepp nor Barrett** — line attractors and conserved
-cross-species dynamics were found by people not fighting this argument. **What both camps actually
-agree on is that hypothalamus and PAG house coordinated affective machinery; they disagree about
-whether that machinery constitutes felt affect or reports it.** So the architecture's structural claim
-is uncontested and only its *interpretation* is in dispute — which means **imaging will never settle
-it, and waiting for the debate to resolve is a mistake.** **Confidence: the mid-level stage is
-replicated and controlled in the published record; everything this project builds on top of it is
-untested — logic only.**
-
-## §4. How many primitives — three questions, three answers
-
-> Panksepp specifically noted he grabbed **the easiest ones**, the human-level identifiable ones. **By
-> definition he missed a ton.** [...] **If you told me there were 27, I would believe you. Some of them
-> might not even have names.**
-
-> **Let's not presume we can pre-PCA if we can't identify the six.** But if a PCA pops out a seventh,
-> that makes the seventh really interesting.
-
-**Verified at source 2026-08-07, "27, maybe 30" splits into three questions the field conflates:**
-
-| the question | the answer | how strong |
+| # | hypothesis | status |
 |---|---|---|
-| **primary-process subcortical channels** | **7. Nine is the most anyone has defended** — Toronchuk & Ellis add power/dominance and disgust on review evidence, and call it a tentative proposal. LeDoux argues for **five**, with no anger circuit and no place for play or care | **nothing in neuroanatomy reaches 27, and nobody has tried** |
-| **distinguishable reportable affective states** | **20–30, converging near 25** | **strong, and it survives the artifact objection.** Koide-Majima et al. raised the offered word list from 34 to **80** and the count did not inflate — 19 to 32 across subjects, median 25, against **brain** data on held-out timepoints |
-| **dimensions in the variance-explained sense** | **2 to 4** | Russell's two; Han & Adolphs' **three** from a subset of the very videos Cowen & Keltner got 27 from |
+| **G20a** | Mapping A: core affect reconstructed in early blocks, drive constraints mid | **OPEN** — never tested directly |
+| **G20b** | Mapping B: early blocks are the input adapter, core affect mid, categories late | **OPEN, and it discriminates cleanly against G20a** — under A valence peaks early and categories mid; under B valence peaks mid and categories late. It also reconciles the two published results that contradict each other (the field's mid-block emotion peak; a sparse-autoencoder cascade putting emotion late) |
+| **G34** | Parameter ratios across depth echo neuron-count ratios across regions | **WITHDRAWN — misattributed.** The suggestion on record was to *build* structures mapped this way; it was never a prediction that current models show it |
 
-**His prior is well supported for the middle row and unsupported for the top one, and those are not the
-same claim.** The relationship between them is his hypothesis and **the field has never tested it**:
-are ~25 states **blends of ~7 channels**, or are the 7 **the human-nameable subset of ~25**?
+**Why the middle would be the latent variable behind the machine-text unease** — the derivation
+that used to sit with the traces: the unease has four candidate accounts (broken polish–effort,
+flattened intent, missing translation, wrong shape), and his objection to the list was the point —
+*"now we have a proliferation of reasons... this list seems more like the **observable variables**."*
 
-**One result arguing the 2D answer is a reporting bottleneck rather than the generator, from the other
-camp** — Cacioppo & Berntson's evaluative space model, where positivity and negativity are separable
-and can coactivate: *"Constraints on the output of any system do not necessarily require that the
-internal mechanisms conform to the same structure."*
+> **The latent variable is midbrain misalignment** — or lacking a midbrain specifically.
 
-**A rank bound that appears to be unpublished as a critique.** Recovered dimensionality cannot exceed
-the number of response variables, and **every count sits under its own item ceiling** — 28 adjectives
-gave 2, 34 categories gave 24–27, 30 gave 24, 80 gave ~25. **Keltner's group makes this argument
-themselves and does not turn it on their own work.**
+If a model reconstructs everything *except* the mid-level drive constraints, it has no shared prior
+with the reader, and each account is that absence seen from a different angle. Whether that is
+right is a real question and not assumed — *"That doesn't sound right. That doesn't sound right at
+all... I don't know, they're tied in there somehow"* — and the test is whether the four dissociate.
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **L8** | An unsupervised decomposition of activations returns more than seven components | **VOID (test)** | **The criterion returned 335 components on pure Gaussian noise.** Not biased — broken. Its answer also doubled when the sample quadrupled |
-| **L9** | Affect-isolated decomposition returns more than two components | **VOID (test)** | **Shuffling the emotion labels changed the count not at all.** Cause identified: found Reddit text confounds topic with emotion, so averaging over topics — the step that does the isolating — never ran |
-| **G35** | ~25 distinguishable states are blends of ~7 channels, rather than 7 being the nameable subset of 25 | **OPEN** | **Never tested by anyone.** Both numbers are well established; the relation between them is empty ground |
-| **G36** | Some recovered components will be unnameable | **OPEN**, behind L9 | If true it is the sharpest form of the claim, and the hardest to publish |
+**What the table says.** Both mappings are open; the one wrong attribution is withdrawn; the bridge
+itself (reconstruction-without-feeling) is the file's working frame rather than a tested claim.
+Confidence: untested — logic only.
 
-    Timeline on the count. First run reported 49.3 components and called it RICHER; the same code at a
-    larger sample returned 92.9, and across five model families 73 to 116 with no convergence; a noise
-    test then showed the criterion returns hundreds of components on data with no structure at all.
-    The replacement isolates affect the way the field does; VOID stands — but the audit (L26) found
-    its shuffled-label gate arithmetically unpassable and its VAD reference written from memory, so
-    VOID-for-the-right-reason holds in at most two of five runs. G106 rebuilds the instrument.
+## §3. The missing middle — the load-bearing prediction
 
-**What these add up to. Every number in this literature, ours included, is a stopping-rule output.**
-Seven came from one investigator's judgement; 24–27 from significance testing under a 34-item ceiling;
-two from stopping when the circumplex appeared; 49 and 93 from a criterion that returns 335 components
-on pure noise. **The one number that behaves differently is ~25** — raising the offered word list from
-34 to 80 did *not* inflate it, and it was recovered against brain data rather than against more words.
-**That is the only count in the field with a ceiling test behind it, and it sits far above seven.**
-Which is his prediction, arrived at by someone else, for a quantity he was not claiming. Both of
-this project's own attempts at a count died as instruments rather than as answers, so the field's
-~25 is the only number left standing, and it stands on its ceiling test alone. **Confidence: the
-~25 is replicated and controlled; our own counting instrument is instrument-dead — it says nothing
-either way, and a rebuilt one is owed before this project has a number of its own.**
+Stated formally, in his words:
 
-## §5. Leaked and emblematic — the affect vocabulary
+> Nonverbal drive constraints from Panksepp are systematically underdetermined from human text, so
+> that when a model reconstructs them, it has worse access to them than surface affect or learned
+> expertise, both of which are more accessible as they are closer to the later layers of output in
+> the human brain. **The shape of this reconstruction error for the model is a large source of
+> failed goal inference.**
 
-> **leaked** — a layer that is TRUE... emotional leakage that can show up in your text
->
-> **emblematic** — a conscious social decision
+Three consequences make it testable rather than atmospheric. **Absent drives are constraints** — you
+can only route attention onto drives you possess, so a drive the maker lacks bounds what they can
+make (the artifact-side face of this lives with the traces; the alignment face in
+[`ALIGNMENT.md`](ALIGNMENT.md)). **The predicted error is *specific*** — drive ambiguity should
+produce a distinctive goal-inference failure while surface affect, category, and expertise reads
+stay intact; that fingerprint experiment is what keeps this from collapsing into generic emotion
+probing, and it has never been run. **And the prediction prices the middle**: reconstruction should
+be measurably worse there than at either end, once "there" can be located at all — which Part II
+shows is the hard part.
 
-He arrived at that split from ten artifacts and a think-aloud, with no reference to the literature. **It
-maps exactly onto the field's central unresolved debate:**
+| # | hypothesis | status |
+|---|---|---|
+| **S-14** | An absent drive is recoverable from artifacts | **SUPPORTED (sim, V11) as method; OPEN on real artifacts.** Near-invisible in spontaneous work (0.61), perfect under commission toward the missing channel (1.00), pure compliance collapses to exactly 0.5 — *how the goal is pursued* is the discriminator. The made-under-duress mechanism, first working form; real commissioned work is the missing half |
 
-| his layer | the field's level |
-|---|---|
-| **leaked** | **Panksepp's primary process.** Core affect. Involuntary, conserved, pre-linguistic |
-| **emblematic** | **Barrett's tertiary.** Constructed emotion. Conceptual, culturally learned, categorical |
+**What the table says.** The prediction's first mechanism check exists only in simulation, where it
+behaves exactly as the theory wants — absence reads, and reads through pursuit rather than content.
+Confidence: sim-only; the real-artifact claim is untested.
 
-**The reconciliation position, as the literature states it:** *basic emotion theories are theories of
-**emotion**, while the theory of constructed emotion is a theory of **feeling**.* **The two-layer model
-requires both to be true of different things**, which is where the reconciliation literature converged.
+# Part II — The evidence
 
-**It also means the two layers should not be assumed to share a value set** — Barrett's point is that
-constructed categories are culturally variable while core affect is not. Giving both layers the same
-eight values is a **named simplification**.
+## §4. Human evidence — conserved machinery, and how many primitives
 
-**And it diagnoses the field's LUST problem, which he called before the argument existed:**
+| # | hypothesis | status |
+|---|---|---|
+| **lit** | Conserved **subcortical affective control machinery** exists as a distinct stage | **SUPPORTED (READ).** The strongest support cites neither camp — hypothalamic line attractors encoding intensity and persistence (*Nature* 2024), conserved biphasic cross-species dynamics with a ketamine dissociation (*Science* 2025). *Anatomical honesty: that evidence is hypothalamic and PAG — subcortical, not specifically midbrain — and the machinery being coordinated is uncontested while its reading as a separable affective-primitive stage is not* |
+| **lit** | The Panksepp–Barrett disagreement is about localisation | **REJECTED (READ)** — both camps place the machinery in hypothalamus and PAG; they disagree on whether activity there *constitutes* affect or reports it, so imaging will not settle it |
+| **lit** | Panksepp's seven is the right number | **REJECTED (READ) as an empirical claim** — never derived from a dimensional analysis; the standard instrument tests six |
+| **G35** | The ~25 distinguishable states are the **human-nameable subset** of the subcortical channels' combinations — nameability, not blending, is the relation | **OPEN — never tested by anyone.** *(Reframed 2026-08-09: "blends of seven" was the wrong form — channels are distinct subcortically and combine only at the neocortical level through predictions and controls of them)* |
+| **G36** | Some recovered components will be unnameable | **OPEN**, behind a working count instrument |
+| **L8 / L9** | Our own two counting attempts | **VOID / INSTRUMENT DEAD** — a criterion that returned components from noise, then a rebuilt instrument with four confirmed defects. This project holds no count of its own |
 
-> I think they were just catching the fact that leakage — they were assuming that **leaked fear and
-> performed fear are the same thing.** [...] That's why lust is kind of bullshit in this framework,
-> because **the easiest thing to catch is the performed section.**
+**What the table says.** The subcortical stage is better supported than when the project started,
+and by work from outside the argument; every count in the field is a stopping-rule output except
+~25, which survived its own ceiling test — and our instruments have contributed nothing to the
+question yet. Confidence: the machinery is replicated and controlled in the published record; the
+count relation and everything of ours is untested or instrument-dead.
 
-**A questionnaire can only reach the tertiary level**, so LUST is the system least available to it —
-for social rather than neural reasons. The instrument did not find LUST unmeasurable; it found it
-**unreportable at the layer a questionnaire reaches**, then dropped the value. **Artifacts have no such
-limit, and this is the clearest statement of what this project could contribute that the existing
-instrument cannot.** Its signature is his: **the thing a reader politely glosses over** — *"someone
-ends up talking about feet for a sentence too long and you're like, ooh, buddy."*
+## §5. Does a corresponding model structure exist?
 
-**No additions to the eight.** *"We shouldn't add anything, because that's kind of just where the
-literature is right now."*
+| # | hypothesis | status |
+|---|---|---|
+| **G40** | A coherent affect subspace exists, consistent across families | **SUPPORTED (test).** Four to six times its matched null even between the most distant blocks, in **all eleven families**, 0.35B–3B, four architectures — the rotation *rate* is consistent where the magnitude profile never was |
+| **G42** | The subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at the earliest boundary beats any three-band split — in the original four families and in all eleven on the extended check |
+| **G43** | The early break is affective rather than an input-adapter artifact | **OPEN, and it gates how the break reads** — non-affective control subspaces (syntax, topic, frequency, position), measured identically, is the first test to run; if everything breaks at the same place, the boundary is the adapter's edge and says nothing about the mappings |
+| **G44** | The depth transform of the subspace is recoverable | **OPEN — first bite landed.** Alignment *composes* lawfully in pythia (R² 0.88–0.92) and gpt2 (0.78–0.84), weakly in SmolLM2, **not in Qwen (0.20–0.30)** — fit the transform where it is lawful, and note the home family is the outlier again |
+| **G46** | Weaker models place the structure more poorly | **REJECTED (test) as a scale story** — placement quality tracks parameter count at rho +0.05 across eleven families: **architectural, not learned**, which is the direction the amplify-rather-than-build strategy needed |
+| **G39** | The three levels are subspaces rather than depths | **REJECTED (test)** — the subspace rotates with depth |
 
-### Concealment: the shield matches the leak
+One caveat rides all the numbers: the fitted basis carries a rank-7 span in eight columns, diluting
+alignments ~1/8 without flipping any verdict — a fix is queued.
 
-**I had this backwards and he corrected it:**
+**What the table says.** There is one coherent affective structure; it rotates continuously through
+depth rather than sitting in bands; its one sharp boundary is at the very front; its placement does
+not improve with scale; and its rotation is lawful enough to fit in some families. **That is a
+consistent shape — and it is not yet the shape this file claims**, because nothing ties the
+structure to drives, to the middle, or to any causal role. Confidence: existence, rotation, and
+the scale result are replicated and controlled; the boundary's meaning and the transform are one
+bad test away.
 
-> Leaked greater than emblematic **doesn't even count as concealment**... if anything the emblematic
-> would get larger. **You perform louder to cover up. I get extra quiet if I'm extra angry. The shield
-> matches the leak.**
+## §6. Address versus tracking — the two umbrellas the predictions became
 
-**Concealment is not absence of display — it is display shaped *against* the leak.**
+### Address: specific jobs at specific depths
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **S-3** | An involuntary leak channel is readable | **SUPPORTED (sim)** at 0.90 | — |
-| **S-3** | Concealment shows as divergence between leak and display | **REJECTED (sim)** in that form | **His direction is the one that held**, against mine |
-| **T-4** | Amplifying the display makes concealment *more* detectable | **SUPPORTED (sim)** | Survives a reader wrong about almost everything, **including a 50% channel swap** — but **fails at 25% concealment. It detects heavy concealers only** |
-| **G28** | `leaked` and `emblematic` do not come back as the same distribution | **OPEN** | If their mean divergence is near zero, **the probe is answering one question twice** |
-| **G29** | If one layer separates and the other does not, it will be **`leaked`** that fails | **OPEN, and predicted in advance** | Language encodes the tertiary layer — *that is what the words are* — while the primary reaches text only through leakage |
-| **G30** | Attention-dwell past what the argument needs is measurable | **OPEN.** Nothing built | It is the LUST signature and a second leakage channel at once |
-
-**What these add up to.** The leak channel is readable, and concealment is detectable **in the opposite
-direction from the one I proposed** — the display gets *louder*, not quieter, and that held under a
-reader wrong about almost everything including a 50% channel swap. **But it only catches heavy
-concealers, failing at 25%**, which means the measure is reading *effort spent hiding* rather than
-hiding itself. **And the two layers have never been shown to be two.** Until G28 runs, every result
-here is equally compatible with the probe asking one question twice and averaging the answers.
-**Confidence: one bad test away throughout — every row is a single simulation, and the
-two-layers-are-actually-two question has never been asked of real text.**
-
-## §6. The forward predictions — two umbrellas
-
-**Restructured 2026-08-09 at his direction.** These predictions were always instances of two larger
-bets, visible as such only now that most of them have verdicts. Split accordingly; §6A/§6B keeps
-every cross-reference to later sections valid.
-
-### §6A. Predictions of address — the architecture puts specific jobs at specific depths
-
-**The umbrella: if the three layers are real in a model, *where* things sit should itself be
-diagnostic.** Depths should have jobs, the jobs should show, and reading an address should tell you
-something about the maker being reconstructed.
-
-**a. Trimodal, not bimodal.** Three loci with two troughs, not two loci with one dead middle.
-
-**Superseded in its instrument, not its content.** The depth sweep found the profile **identical on
-intent-laden and no-maker text** — architectural, no information. **Both the bimodal claim and the two
-hand-picked loci are dead.** What survived is the per-layer correlation, which two independent ladders
-agree on at 0.97. **The trimodal prediction is not thereby confirmed; it lost the instrument that was
-going to test it.**
-
-**And his route back in, which nobody has tried:**
+The bet: if the three levels are real in a model, *where* things sit should itself be diagnostic.
+The route back in for the three-locus version, nobody having tried it:
 
 > We're finding **ratio variance relationships between early and late** despite there being a peak in
 > the middle. It implies a sort of shape that **I don't think anyone else has glommed on to.**
 
-**A three-locus structure with a noisy middle would smear into a single mid-peak under any measure that
-averages across position** — which is what every published depth profile does. **The way in is not to
-test the peak but to test the residual:** fit a single-peak profile and ask whether what is left over
-has structure at the early and late positions specifically. **A unimodal truth leaves unstructured
-residual; a smeared three-locus structure leaves residual at exactly two places.**
+| # | hypothesis | status |
+|---|---|---|
+| **L14** | The depth profile carries information about the maker | **REJECTED (test).** The profile is identical (or within one block) with and without a maker, in every family; the peak sits anywhere from block 2 of 29 to 47 of 49 with no relation to size |
+| **G22** | A smeared three-locus structure is recoverable in the *residual* after fitting one peak | **OPEN on real models; the instrument has an operating regime (sim, V11).** The smear is architectural — a planted three-locus world reads as one mid peak in 100% of runs *and* 100% of reparameterisations, so published mid-peak profiles are uninformative against a three-locus truth. The residual statistic separates the worlds at AUC 0.87 in 25% of parameterisations — **feasibility in a bounded regime, not universality** |
+| **G31** | The middle is high-activity and low-coherence | **REJECTED (test)** — 2 of 33 runs; the modal pattern is a *quiet* middle, identically on maker-less text |
+| **G69** | The intent signal peaks deeper as rung rises | **REJECTED (test)** — the apparent shifts were two near-tied fixed loci trading rank; regenerated verdicts show fixed peaks in all eleven families |
+| **G21** | Block 0 is a pure salience gate — presence without category | **REJECTED (test); half-survived at power in the home family only.** At 500 neutral items block 0 is the *presence peak* there (0.637, best in the model) while carrying category at 8.4× chance — and the presence peak sits at block 8 in gpt2, block 19 in pythia. **Salience-first was a home-family fact** |
+| **L14** | The depth profile is bimodal | **REJECTED (test)** — 27 of 36 runs unimodal; the exceptions are two families and appear in their no-maker runs too |
 
-**b. The middle is high-activity and low-coherence.** Not silent — *noisy*.
+**What the table says.** Where things sit in a model is a fact about the model, not about the
+maker: the profile ignores the maker, the peak never moves with intent, the middle is quiet, the
+one address that looked portable (presence at block 0) is home-family-specific, and the only
+address claim that transfers is the very early boundary — whose meaning awaits its control. What
+survives of the umbrella: the residual-trimodal instrument has a proven operating regime in
+simulation and has never been pointed at a real model, and the polish/leakage depth split has
+never run at all. Confidence: the rejections are replicated and controlled; the two unrun rows are
+untested.
 
-**c. Polish lives late; leakage lives early.**
+### Tracking: reconstruction quality follows the maker
 
-**d. Cognitive expertise is late.** *"Nearly everything you get out of text would be late."* With his
-caveat: motor expertise may be distributed, and he cannot speak to that from text.
+The bet: whatever sits at a depth, how strongly its response follows the maker's specified intent
+is the signal. The conditional form: *"You might also have more agreement in the late, **if the
+goal is clear.**"*
 
-**e. Why models never peak in the final layer.** *"They can't get through the middle layer to get to the
-final layer, so their final layer just kind of **randomly optimises upon the noise of the middle
-layer.**"* **A failure of the middle propagates as noise into the top.**
+| # | hypothesis | status |
+|---|---|---|
+| **L1** | Per-block correlation with specified intent carries information | **SUPPORTED (test).** Two independently generated ladders agree at 0.97 on which blocks carry it — the strongest replication in the project |
+| **G103** | The flagship ratio's tracking transfers across families | **REJECTED as universal; the sign is a family constant (test), on the complete 33-cell map.** Qwen negative at all three sizes; gpt2 positive at medium and large, null at xl; SmolLM2 positive at both sizes; pythia positive small, zero at 2.8b. **No family shares the home family's sign, and the positive camp's largest members go quiet** |
+| **G33** | Late coherence rises when the goal is clear | **INSTRUMENT DEAD** — the coherence statistic could not measure agreement in principle; untested, not rejected |
 
-**f. Is the first layer binary salience?** *"The initial layer is binary saliency, do you think?"* The
-adjacent literature finds affect **presence** dissociable from affect **category** early.
+**What the table says.** Tracking is the surviving half: the per-block signal replicates nearly
+perfectly across corpora and stands in at least five families — with its direction fixed inside
+each family and different between them, so the *existence* transfers and no *direction* does. The
+goal-clarity form waits on a rebuilt statistic. Confidence: the tracking results are replicated and
+controlled; the newest map cells are one bad test away; goal-clarity is instrument-dead.
 
-**g. A layer-count ratio, offered as a guess.** That parameter ratios across depth may echo neuron-count
-ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
+## §7. Within-reader measurements — ratios, recovery, and the design lesson
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **L14** | The depth profile is bimodal | **REJECTED (test), and now across nine families.** **27 of 36 runs are unimodal**; multimodality appears only in gpt2-large and pythia-410m, **and in their no-maker runs too** | **The bimodal profile was a two-model artifact** |
-| **L14** | The depth profile carries information about the maker | **RULED OUT (test).** Peak location is **identical or within one layer between ladder and no-maker in every model** | **The peak sits at layer 2 of 29 in Qwen-1.5B and layer 47 of 49 in gpt2-xl**, with no relation to size or depth — **so no claim naming a specific depth transfers** |
-| **G22** | The trimodal structure is recoverable in the *residual* after fitting a single peak | **OPEN** | His, and **nobody in the field has looked for it** |
-| **G31** | The middle layer is high-activity and low-coherence | **REJECTED (test, L25)** | Isolated from the bimodal profile at last: the signature appears in **2 of 33** maker-corpus runs on the completed matrix. The modal pattern is the **opposite — a *quiet* middle** (18/33), the no-maker control shows the same distribution, and which pattern a model shows is set by its family. Architecture, not makers |
-| **G32** | Polish correlates with late-layer structure, leakage with early | **OPEN** | Uses measures we already own on both sides |
-| **G69** | The intent signal peaks deeper as rung rises | **REJECTED (test) in Qwen; the SmolLM2/pythia SHIFTS revival is WITHDRAWN (audit L26).** The "shift" was an argmax crossover between two static near-tied loci (embedding layer and layer 4, under 4% apart) with opposite rung correlations, p = 0.058 gating nothing | **The premature-rejection story was itself premature.** Verdict logic rebuilt; regenerated: **TIED-LOCI on all six ladders across both families — confirmed crossover, not movement.** Peak-of-magnitude vs best-correlating-layer conflation stands as the original sin |
-| **G21** | Layer 0 predicts emotional-versus-neutral well and *which* emotion at chance | **REJECTED as stated; HALF-SUPPORTED powered (test, L27 + G21b).** At real power (500 neutral), **layer 0 is the presence *peak* — 0.637, best in the model** — but it also carries category at 8.4× chance, so the blindness clause fails | **Salience-first survives; "binary" falls.** Presence earliest, category mid (layer 10) — the powered ordering that feeds G20a/G20b. Cross-family arms queued |
-| **G34** | Parameter ratios across depth echo neuron-count ratios across receptor/midbrain/neocortex | **OPEN, flagged speculative by its author** | — |
-
-**What these add up to.** The umbrella has an answer and it is mostly no: **where things sit in a
-model is a fact about the model, not about the maker.** The depth profile's shape is identical with
-and without a maker and its peak never moves with intent; the middle is *quieter* than predicted,
-equally so on maker-less text; the apparent deepening of the peak was two fixed spots trading rank;
-and the first layer, at real power, does hold the model's strongest is-affect-present signal — but
-it knows the category too, so it is a salience *peak*, not a salience *gate*. What remains of the
-umbrella is specific: two address predictions have simply never run — the residual-trimodal test
-and the polish/leakage depth split — and the layer-0 presence peak is a genuine, replicable address
-fact that has not yet been asked outside one family. **Confidence: the rejections are replicated
-and controlled; the presence-peak is one bad test away; the two unrun predictions are untested.**
-
-### §6B. Predictions of tracking — reconstruction quality follows the maker
-
-**The umbrella: whatever sits at a depth, how strongly its response follows the maker's specified
-intent is the signal.** Tracking is informative even where address is not — and if the two
-dissociate, this is the half an instrument can be built on.
-
-**The one conditional prediction here:** *"You might also have more agreement in the late, **if the
-goal is clear.**"* — late coherence should rise when the goal is legible, an interaction between
-depth and legibility rather than a flat effect.
-
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **L1** | Per-layer correlation with specified intent carries information | **SUPPORTED (test)** | **Two independently generated ladders agree at 0.97** on which layers carry it — the strongest replication in the project |
-| **G33** | Late-layer coherence rises with how clearly the goal is specified | **VOID-INSTRUMENT (audit L26).** The coherence statistic cannot register agreement: the eight fitted directions sum to zero by construction, and the number reduces to an arbitrary-axis projection whose sign flipped in 11 of 20 refit simulations | **Handing the readout code to the audit was the right call — it did not harden.** The family table once here is withdrawn with the statistic; a valid replacement is G105 |
-| **G103** | The fair-control flagship (early/late ratio vs intent) transfers across families | **REJECTED as universal; the sign is a family constant (test, L28).** Qwen negative at **all three sizes** (0.5B, 1.5B ★★★, 3B ★); gpt2 positive at medium and large (5/5 ★), **null at xl on all three ladders**; SmolLM2 positive at both sizes and on two corpora at 1.7B (★ twice); pythia positive at 410m, fading to zero by 2.8b | **No family shares Qwen's sign — and the biggest member of gpt2 and pythia goes quiet while SmolLM2's larger size holds.** Three facts for G112: the sign, the fade, and SmolLM2's exemption. Three cells still running |
-
-**What these add up to.** This umbrella is the project's surviving half, and it has sharpened three
-times over. How strongly each layer's response follows specified intent replicates across
-independently generated corpora at near-perfect agreement, and across eleven model families with a
-no-maker control that now fails honestly at luck rates. The flagship ratio tracks intent in at
-least five families — with its *direction* fixed inside each family, our home family the lone
-negative, and the effect fading at the largest sizes of two positive families: **the tracking is
-real; the sign and the strength are family facts.** The goal-clarity prediction cannot currently be
-judged at all — the one instrument pointed at it was structurally unable to measure agreement — so
-it is untested, not rejected. **Confidence: the tracking results are replicated and controlled; the
-newest family-map cells are one bad test away; the goal-clarity claim is instrument-dead.**
-
-## §7. The interpretability angle — the low-order to high-order ratio
-
-> Finding divergence between lower-level and higher-level activation as an AI processes text...
-> **AI text would not trigger that lower-level activation as frequently.**
-
-**Made precise:** reading **human** text should produce *more* low-order affective activation relative
-to high-order than reading **machine** text does. **That is the leaked/emblematic ratio measured in the
-reader**, and it has a reason to work that the displacement measure lacked — it is a **ratio between
-two layers of the same reader on the same text**, so length, register and vocabulary largely cancel.
-
-**And his reading of what Anthropic found**, disputing the interpretation and not the finding:
+**Made precise:** reading human text should produce more low-order affective activation relative to
+high-order than machine text does — the leaked/emblematic ratio *measured in the reader*, where
+length, register, and vocabulary largely cancel because it is a ratio between two depths of the
+same reader on the same text. His reading of what interpretability found stands here too: the
+early-block "token valence" results and a reconstructed valence assignment are the same observation
+under two readings, with the emotion vocabulary as the interface —
 
 > They're reading the valence and arousal layers and **interpreting those as lexical**, because there
 > **is** a casual lexical mapping through the emotion wheel we all use. But what that emotion wheel is
 > really doing is **defining and elaborating higher-order predictions and controls OF valence and
 > arousal.**
 
-So "early layers encode token valence" and "early layers reconstruct a valence/arousal assignment" are
-the same observation under two readings, and **the emotion-word vocabulary is the interface between
-them rather than the thing itself.**
+| # | hypothesis | status |
+|---|---|---|
+| **L1** | The ratio falls as specified intent rises, register fixed by construction | **SUPPORTED (test), replicated, and stronger under the fair control** — all three ladders at −0.42 to −0.52, every *p* ≤ 0.0004; sign family-bound per G103 |
+| **B-1** | Affect directions exist in a reading model and are not word-counting | **SUPPORTED (test)** — four times chance while a word-counting model scored exactly chance |
+| **L12** | The per-block correlation transfers across architectures | **SUPPORTED (test)** — 25 ladder runs, 18 survive; the re-adjudicated no-maker control fires at luck rates, and the home family's borderline concentration came back **clustered luck** on a 2,000-permutation null (*p* = 0.095/0.089 — the eyebrow is recorded, not erased) |
+| **L10 / L19** | Specification recovery: how much of the prompt survives, in bits | **REJECTED as recovery (test) — it is a lexical-echo detector.** The graded curve kills it: +0.34 unrestricted, +0.04 at half-overlap, negative below; the no-maker control awards it wins where nothing is true (3/36, *p* = 0.006); the first-ladder strict arm lands *below* chance. The dose-tracking was real and belonged to the echo |
+| **L6** | The ratio moves the same direction for revision as for specification | **REJECTED (test)** — it falls with specification and rises with revision (*p* = 0.053): if both are real, the instrument distinguishes being-told-more from revising |
+| **W-1 / W-1b / R-1 / L1-discrimination** | Reader-*state* measures: displacement, displacement variance, refusal, human-vs-machine discrimination | **REJECTED or VOID across the board** — state is not stable enough to carry a signal; the discrimination read register |
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **L1** | The ratio falls as specified intent rises, where register is fixed by construction | **SUPPORTED (test), replicated, passed every control we own** — held-out at −0.247 (*p* = 0.013), −0.405 length-controlled, surviving induction at −0.26 (*p* = 0.009) | **The only effect in this project that requires local word order.** Length *hides* it rather than causing it — a suppressor, not a confound. **And under the rebuilt fair control (L23) it survives all three ladders at −0.42 to −0.52, every *p* ≤ 0.0004 — stronger after the control than before it.** Outside Qwen the sign flips (L28): gpt2-medium mirrors it at equal strength, pythia and SmolLM2 are null — **real in at least two architectures, and the sign is a family property** |
-| **L1** | The ratio discriminates human from machine text | **REJECTED (test)** | **It keeps 99% of itself when every sentence is reordered**, and tracks register — commercial copy sits a quarter of the way toward machine text |
-| **B-1** | Affect directions exist in a reading model and are not word-counting | **SUPPORTED (test)** | Four times chance while a word-counting model scored **exactly** chance. **Accuracy concentrated at two depths with a dead zone between** — the observation that started the whole depth programme |
-| **L6** | The ratio moves the same direction for revision as for specified intent | **REJECTED (test)** | **The sign is the interesting part.** It falls with specification and **rises** with revision — so if both are real, *revising* and *being told more about the situation* are different operations and the instrument distinguishes them. From a *p* = 0.053 result, so treat as a prediction |
-| **W-1** | A reader moves further from its resting state for a human maker | **REJECTED (test)** | −0.005. **A clean measure and a real null**, and the measure the layer ratio replaced — *displacement from a resting state, in a model that has no self to be displaced from* |
-| **R-1** | A reader refuses differently on human and machine text | **VOID (test)** | Its pass condition was a coin flip — **a 50% false-positive rate by arithmetic** |
-| **W-1b / L21** | Reader displacement varies more for machine text | **REJECTED (test) at n = 261.** All four corpora indistinguishable — displacement variance 0.209–0.216, *p* ≥ 0.71 against no-maker | **The informative null the three-artifact void could not supply.** Third confirmation: reader *state* carries nothing; within-text ratios do |
-| **L10 / L19** | How much of the specification is recoverable, in bits | **SUPPORTED (test), scales with the manipulation, and now controlled.** Win rate against 48 decoys: **52.5% → 66.3% → 91.7%** as specifications go 10 → 10 → 60. **Shuffling the artifact–specification link collapses it to 1.3% against a 2.0% chance rate.** Doubling to 96 decoys costs 1.7 points while chance halves | **The curator disputed the earlier ruled-out verdict on grounds of manipulation strength and was right.** Echo correlation is **−0.236** — negative, so the artifact is not repeating the prompt. **Audit bound (L26): the extreme ladder's top rungs exhaust the decoy pool, so those contests are not the 49/97-way their chance figures claim — the clean rungs alone still carry +0.53.** **And two of its three newest controls now flag it: the strict echo restriction fires its kill (recovery collapses to −0.15 n.s., 8% win on unechoed specs), and the no-maker control awards it wins where nothing is true (L32: 3/36 vs 0.37 expected, p = 0.006).** Either lexical echo and style carry the measure, or the strict tests are over-harsh by construction — G113's graded curve adjudicates. Best-supported status **withdrawn pending G113 + G108** |
-| **L12** | The per-layer intent correlation transfers across architectures | **SUPPORTED (test); the control claim corrected by the audit (L26).** 25 ladder runs across **11 model families from 0.35B to 3B**: 18 survive. The no-maker verdict gate **could not fail** (NaN); re-adjudicated, **5 of 11 fire — at luck-level rates overall, but the flagship's fires overlap its own surviving layers, with layer 21 firing everywhere.** A permutation null decides it (G107) | **The failures cluster by family, not by scale** — gpt2-large is dead on all three ladders while pythia-410m and SmolLM2-360M, both smaller, survive. **That points at tokenizer or training data rather than capacity**, and it means any claim naming a specific layer is model-specific |
+**What the table says.** The design lesson is the most transferable sentence in the file: measures
+that ask about the reader's *state* die, and the one that survived asks about a **ratio between two
+depths of the same reader on the same text**, where the big confounds cancel before measurement.
+The recovery measure that briefly looked strongest is now honestly reclassified as an echo
+detector, which leaves the ratio family and the per-block map as the reader-side instruments — both
+replicated, both family-conditional in their specifics. Confidence: the ratio and per-block results
+are replicated and controlled; the echo reclassification is days old — one bad test away by age,
+in the direction of further demotion.
 
-**What these add up to, and it is the most transferable lesson in the file.** The three reader-side
-measures that died all asked whether the reader's *state* differed — displacement, refusal,
-displacement variance — and a reader's state is not stable enough to carry a signal across texts that
-differ in length, register and vocabulary. **The one that survived asks about a ratio between two of
-the reader's own layers on the same text**, so those three confounds cancel before the measurement
-happens. **Design reader-side measures as within-text ratios, or expect them to die.**
+# Part III — Consequences
 
-**And the section's two flagship measures have traded places.** Specification recovery — picking a
-text's true instruction set out of dozens of decoys — once looked like the best-supported measure in
-the project. It now fails two of its own controls: exclude every instruction whose words appear in
-the text and recovery collapses to nothing, and on maker-less text, where no candidate is true, it
-still hands out wins well above chance. Until the graded version separates *the measure only reads
-shared words* from *honouring an instruction inevitably shares its words*, none of its numbers are
-quoted as recovery. The per-layer correlation moved the opposite way: it survived a re-adjudicated
-no-maker control at roughly the rate luck supplies, and kept its cross-family replication — with one
-open question, because our home family's few false fires sit suspiciously on its own surviving
-layers, and a permutation test decides whether that is clustered luck or a real leak. What neither
-measure supplies is a transferable *address*: which layers carry the signal moves by model and by
-corpus, every time. **Confidence: the within-text-ratio design lesson and the correlation's
-replication are replicated and controlled; specification recovery is one bad test away in the wrong
-direction — under active suspicion; the no-maker leak question is untested until the permutation
-lands.**
-
-**A methodological correction worth keeping, because it was mine and it was wrong.** I offered "neurons
-are plausibly natural units" as the disanalogy that makes interpretability unlike an electrode. He
-rejected it: *"that's grandmother-cell thinking and shit's vectorized."* **He is right — population
-coding is the mainstream view**, and the disanalogies that hold are the absence of a privileged basis
-in the residual stream, and the fact that interpretability scores fail to distinguish a trained model
-from a randomly initialised one.
-
-## §8. The live worry — is there a structure to amplify at all?
-
-**2026-08-07.** Everything in this file assumes a model has *some* human-shaped affective structure to
-find, and §9's build rests on being able to amplify it rather than construct it.
-
-> I do worry that there are no three layers in AI node structures at all. [...] Part of what they're
-> doing is modelling at some depth our limbic system, because we consistently converge into that
-> shape. But it's not necessarily going to have anything like human input and output.
-
-**What it costs if he is right.** *"I was hoping the work would get done for us a little bit."* If
-there is no general shape, the intervention has to **impose** structure rather than amplify it, and
-the bootstrap becomes a far more manual build.
-
-**The evidence against:** our depth sweep found the profile identical on intent-laden and no-maker
-text (**L1**); a 2026 study finds valence encoding emerging at very different depths per architecture;
-and the affect-dimension run returned 42.8 components on an untrained model against 1.0 on the trained
-one of identical shape.
-
-**The evidence for, 2026-08-07 — extended by the audit, 08-08.** We checked whether a coherent
-affect subspace exists across four model families — and the audit (L26) surfaced seven further
-completed runs sitting unrecorded: **all eleven families agree, 0.35B to 3B, four architectures**
-(one caveat riding along: the basis carries a rank-7 span in eight columns — G111 — which dilutes
-the numbers ~1/8 but flips no verdict at current margins). **It does, sitting four to six times above a
-matched random null even between the most distant layers, at a rate consistent across families.**
-
-**That is weak evidence for the three-layer structure and it does not settle the worry.** It says
-there is *something* coherent to find. It does not say the something has three parts, or that its
-parts correspond to anything in a midbrain.
-
-**Superseded — one candidate explanation, tested and rejected.** That the three layers might be three
-*subspaces* of the residual stream rather than three depths. **The subspace rotates with depth**, so
-that is not what is happening.
-
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **G40** | There is a coherent affect subspace at all, consistent across families | **SUPPORTED (test).** 4-6x its null at maximum layer distance, in every family | **The rotation rate is consistent across families even though the magnitude profile is not** — so it was the profile that was the wrong measure, not the idea |
-| **G42** | The affect subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at **layer 2** beats any three-band split in all four families; distance alone explains 69-81% of the alignment matrix. **Extended to all eleven (L31): the best split sits at the earliest boundary in every family** (an off-by-one between the two runners' indexing is flagged, unresolved) | **The very-early break is universal — the one location claim in the project that transfers**, and it sits where G20b puts the text-transformation boundary. But see G43 |
-| **G43** | The layer-2 break is affective, not an artifact of proximity to the embedding | **OPEN, and it gates how G42 reads** | Cheap. Needs a non-affective control subspace measured identically |
-| **G39** | The three layers are subspaces rather than depths | **REJECTED (test)** | — |
-
-**Reading them together: there is one coherent affective structure, it rotates continuously through
-depth rather than sitting in bands, and its one sharp boundary is at the very front of the model.**
-That is a shape, and it is a consistent one — but it is not yet the shape this file claims.
-**Confidence: the structure's existence and rotation are replicated and controlled (eleven
-families); what the early boundary *means* is one bad test away — its control has not run.**
-
-## §9. The build — supply the missing middle
+## §8. Build gates — what must be true, in order, before anything is moved
 
 > If this structure is not what happens in naturally occurring language models, **I wonder if we could
 > force it** — make an empathic bot with lower-order valence and arousal, medium human-mapped
 > Pankseppian structures, and higher-order predictions and controls on those that are free-floating and
 > subject to rapid change.
 
-**The constructive version of the whole framework**, and it converts a measurement project into an
-architectural one. **If the middle is where models fail, and if that failure is where misalignment comes
-from, then supplying the missing middle is an intervention rather than an observation.**
-
 > It's a weakness to the alignment consequence, because **we have to provide that weighting somehow.**
 > [...] But at the very least it seems like all it needs is a **bootstrap.** You don't need a ton — a
 > little bit would be enough to start the shape, to kick it off in the right direction.
 
-**This is the strongest available answer to "whose values, and who decides."** If the mid-level
-primitives only need to be *seeded* rather than *specified*, the design does not require anyone to
-write down the value set — which the triple inference establishes is impossible anyway. **The bootstrap
-claim and the value-blindness claim fit together, and neither was stated with the other in mind.**
-
-**A question raised and deliberately deferred:** whether such an architecture needs something
-thalamus-like to gate between the layers.
-
-### What if it is the shape and not the location? — 2026-08-07
-
-**A reframe of the build, and it follows directly from §8.** The subspace result says a coherent
-affective structure exists but **rotates continuously through depth** rather than sitting where the
-architecture predicts. The obvious reading is that we have the wrong architecture. **His reading is
-that we may have the wrong target.**
+**The gates, in order: (1) coherent structure exists — passed; (2) the structure plays a *causal*
+role in intent inference — untested, and everything below waits on it; (3) the depth transform is
+recoverable — first bite passed where the rotation composes; (4) the structure is controllable.
+Only then seeding, relocation, or reinforcement.** Moving a merely-decodable correlate and reading
+the disruption as an empathy intervention is the named failure mode. Causal work means patching,
+erasing, or steering the recovered geometry and asking whether goal and process inference change
+while lexical and topical performance hold; and cross-model comparison should align computational
+events rather than percentage depth, which has already failed to transfer.
 
 > What if it's not the **location** of where they are, but rather their **shape** that we need to care
 > about? What if the values are somehow **extractable and repositionable as meta-concepts**? They'd
 > have to change depending on where they are in the hierarchy. **Could we force them to be in a layer
 > we think is correct and then strengthen them?**
 
-**Why this is a different build from §9's.** The bootstrap as stated supplies *content* — seed the
-mid-level primitives and let training shape them. **This supplies *position*:** take the affective
-structure the model already has, and move it. **If the structure is real but badly placed, then the
-intervention is relocation and reinforcement, not construction** — and that is a far smaller build
-than the one §9 describes.
+| # | hypothesis | status |
+|---|---|---|
+| **G45** | An affective concept can be forced into a chosen block and strengthened there | **OPEN — the build**, gated on causality and the transform |
+| **G38** | The mid-level primitives need only seeding, not specification | **OPEN.** *(Dependency corrected 2026-08-09: it rests on coherent structure existing (passed), on the causal gate, and on controllability — not on the rejected subspaces-not-depths claim it used to cite)* |
 
-**It also changes what the rotation means.** A structure that rotates through depth is a structure
-whose representation is *depth-dependent* — the same concept written differently at different layers.
-**If that transform is recoverable, the concept is repositionable by construction**, because
-repositioning is applying the transform.
+**What the table says.** The build now has an honest gate order with the first gate passed and the
+decisive one — causality — untested; its address, if the transform work holds, is a family where
+the rotation composes rather than the home family. Confidence: untested — the gates are logic; only
+gate one has evidence behind it.
 
-**And it gives the live worry a second test.** *"Is there evidence of worse models having more poorly
-placed emotional concepts?"* **If placement is something a model gets better at, placement is a
-capability rather than an architecture** — which would mean the structure is not innate to the shape
-of the network, and the amplification story needs a scale story attached.
+## §9. Reading versus caring
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **G44** | The depth-dependent transform of the affect subspace is recoverable | **OPEN — first bite landed (G44a, L31).** Alignment *composes* lawfully in pythia (R² 0.88–0.92) and gpt2 (0.78–0.84), weakly in SmolLM2, **and not in Qwen (0.20–0.30)** | **Fit the transform in pythia first.** The flagship family, where every headline result lives, is the wrong place to look for a lawful rotation — the outlier again (L28) |
-| **G45** | An affective concept can be forced into a chosen layer and strengthened there | **OPEN, and it is the build.** Relocation and reinforcement rather than construction | **A much smaller build than §9's** if it works, and it needs G44 first |
-| **G46** | Weaker or smaller models place affective concepts more poorly | **TESTED — ARCHITECTURAL (L30).** Across eleven families, 0.35B–3B: break sharpness vs size rho **+0.05** (p = 0.89), decay lawfulness rho +0.40 (p = 0.22) | **Placement does not scale — the strongest thing §8 could return.** The structure's location reads as a property of the network, not of training. n = 11; the rho is the result, the label a summary |
-
-**What these add up to.** The build's three questions are coming back in the right order.
-Placement of the affective structure does not improve with model size — which reads as architecture
-rather than learned skill, and is the direction the whole amplify-rather-than-build strategy
-needed. The structure's rotation through depth is lawful enough to fit in two model families — and,
-tellingly, *not* in the family every headline result comes from. So the build has a concrete path:
-**fit the transform where it is lawful, then ask whether our home family's unruly rotation is noise
-or a genuinely different organisation.** The relocation experiment itself remains unrun, but it now
-has an address. **Confidence: one bad test away throughout — each of these is a single pass over
-saved data, informative but young.**
-
-### What is needed is a generative model, not a state
-
-The affective-computing literature says a system needs *an internal state similar to human emotion*.
-The stated goal is empathy **without** giving the machine emotions. **Those look incompatible and are
-not:**
+The affective-computing literature says a system needs an internal state like emotion; the stated
+goal is empathy *without* emotions. Not incompatible:
 
 > **You do not need interoceptive states. You need an interoceptive generative model.**
 
-What simulation requires is the mapping *situation → predicted bodily state → emotion category*.
-Running it forward as a **prediction about someone else** does not require instantiating the bodily
-state. **A language model plausibly has that mapping, because humans write it down constantly.** Which
-is his own method from the other side: *"the mechanism I use to tell how the author felt is by cycling
-through a few feelings and adjusting it a little bit until it fits."*
+Simulation requires the mapping *situation → predicted state → category*, run forward as a
+prediction about someone else — and a language model plausibly has that mapping, because humans
+write it down constantly. **The limit, honestly: the substrate may be unnecessary for *reading* and
+still necessary for *caring*.** An interoceptive generative model may suffice to predict how
+another feels; nothing anywhere shows the prediction creates a motivation to protect. Reading
+empathy and motivational alignment are **separate engineering problems**, and the second belongs to
+[`ALIGNMENT.md`](ALIGNMENT.md).
 
-**The limit, honestly:** the substrate may be unnecessary for *reading* and still necessary for
-*caring*. **Nothing here bears on the second, and the second is the harder half of the stated goal.**
+| # | hypothesis | status |
+|---|---|---|
+| **lit** | Nobody has built a layered core-affect / discrete-emotion / constructed-emotion architecture | **SUPPORTED (READ)** — the 2025 survey states it; described in 2005, never implemented; the one public proposal remains a proposal |
+| **G37** | Reading another's affect requires no internal state, only a generative model of one | **OPEN** — cheap: can the probe predict which affect a human reader will attribute? |
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **lit** | Nobody has built a layered core-affect / discrete-emotion / constructed-emotion architecture | **SUPPORTED (READ)** | The 2025 *Artificial Emotion* survey states it explicitly. **Ortony, Norman & Revelle described it in 2005 and it was never implemented; Solms has publicly proposed it and it remains a proposal** |
-| **G37** | Reading another's affect requires no internal state, only a generative model of one | **OPEN** | Cheap: can the probe predict *which affect a human reader will attribute*? If no, **this project needs an architecture it does not have** |
-| **G38** | The mid-level primitives need only seeding, not specification | **OPEN** | It is the answer to "whose values", and **it depends on G39** — you cannot seed a structure that is not there to seed |
-
-**What these add up to.** The layered architecture is unclaimed on the survey's own word, was described
-in full in 2005, and the one public proposal to build it remains a proposal. **Twenty-one years of
-nobody doing it is either a large opportunity or a signal that the hard part is somewhere we have not
-looked** — and §8 says the hard part is not *finding* the structure, because a coherent affective
-structure is present in every model we have checked. **What is unproven is that it can be seeded
-rather than specified**, and that is the single claim the whole build rests on. **Confidence: the
-architecture-is-unclaimed fact is replicated and controlled (the field's own survey); everything
-else here is untested — logic only.**
-
-**The field's own warning applies to us first** — *"we have not seen any test scenarios being borrowed
-from other emotion-learning implementations."* **Everyone builds a bespoke gridworld and beats a
-strawman. Decide the fair non-emotional baseline before building.**
-
-### There is no positive channel, and that is a gap rather than an omission
-
-**Noticed 2026-08-07.** The eight concepts this project reads are **Panksepp's seven plus
-`none_recoverable`** — the *no maker-affect legible* class. **There is no happiness channel and no
-positive-valence channel.**
-
-> Happiness is often modelled as one of two things: either **positive valence of those need
-> networks**, or as **a conjoined channel that all seven of them have to not be inhibiting** in order
-> for happiness to flow.
-
-**Neither is represented.** Positive affect is currently distributed across seeking, play and care by
-implication, and never measured as such. **The two models he names are architecturally different** —
-one is a readout over the seven, the other is a gate requiring all seven to be un-blocked — **and they
-make different predictions about what should happen when a single channel is suppressed.** Under the
-readout account, suppressing one channel moves the positive signal a little. Under the gate account,
-suppressing any one channel should collapse it.
-
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **G73** | Positive affect is a readout over the seven channels | **OPEN** | Suppressing one channel should move it proportionally |
-| **G74** | Positive affect is a conjoined gate requiring all seven to be un-inhibited | **OPEN** | **Suppressing any single channel should collapse it** — a sharp, cheap dissociation between the two accounts |
-
-**What these add up to.** Nothing has been run and the channel does not exist in our instrument, **so
-every affect reading this project has produced is blind to positive affect except where it leaks
-through seeking, play or care.** That is a real limit on the eight-concept design rather than a
-refinement of it, and **the two accounts are separable by a single suppression experiment**, which
-makes this cheaper to settle than most things in this file. **Confidence: untested — logic only.**
+**What the table says.** The architecture is unclaimed on the field's own word, and the project's
+goal needs only the generative model for its reading half — while the caring half is explicitly not
+addressed by anything here. Confidence: the unclaimed-ground fact is replicated and controlled;
+the rest is untested.

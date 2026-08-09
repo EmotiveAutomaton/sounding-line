@@ -87,14 +87,14 @@ drives are what is left when you subtract the part of expertise that got optimis
 > local weighting. **It's not a line because they are recursively interacting with each other
 > somehow.** And it's additive.
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **T-1** | The three problems bootstrap each other superadditively | **REJECTED (sim)** as stated. Three of six edges are exactly zero; the edges are **additive, not superadditive** | — |
-| **T-1** | Goal is the easiest vertex to recover | **SUPPORTED (sim)** — a *sink*, already at ceiling (1.000) | **Predicted before the run** |
-| **T-1** | Process is the most useful vertex when supplied | **SUPPORTED (sim)** — the *source*, +0.840 to depth | **Predicted before the run** |
-| **T-6** | The values vertex carries no information | **VOID** — the model could not represent a quantity that is only defined across artifacts | — |
-| **G47** | Drives are upstream of process | **OPEN.** Completes the generative ordering, and predicts that supplying drives should improve process recovery as much as supplying process improves goal recovery | **Never tested, and it is the one edge that would distinguish a river from a triangle** |
-| **S-4/S-5** | Reordering the probe's stages changes its answer | **REJECTED (sim)** — by exactly zero. Reverse and anomaly-first settle ~5% sooner | A cost saving, nothing more |
+| # | hypothesis | status |
+|---|---|---|
+| **T-1** | The three problems bootstrap each other superadditively | **REJECTED (sim)** as stated. Three of six edges are exactly zero; the edges are **additive, not superadditive** |
+| **T-1** | Goal is the easiest vertex to recover | **SUPPORTED (sim)** — a *sink*, already at ceiling (1.000) — **Predicted before the run** |
+| **T-1** | Process is the most useful vertex when supplied | **SUPPORTED (sim)** — the *source*, +0.840 to depth — **Predicted before the run** |
+| **T-6** | The values vertex carries no information | **VOID** — the model could not represent a quantity that is only defined across artifacts |
+| **G47** | Drives are upstream of process | **OPEN.** Completes the generative ordering, and predicts that supplying drives should improve process recovery as much as supplying process improves goal recovery — **Never tested, and it is the one edge that would distinguish a river from a triangle** |
+| **S-4/S-5** | Reordering the probe's stages changes its answer | **REJECTED (sim)** — by exactly zero. Reverse and anomaly-first settle ~5% sooner — A cost saving, nothing more |
 
 **What these add up to.** **The generative direction and the recovery direction are opposite, and that
 is the most useful structural fact we have.** Drives generate process generates goal; goal recovers
@@ -128,10 +128,11 @@ distribution that goals are drawn from.**
 **Terminology, a deliberate concession:** he accepted *"weighting over trajectories"* over *"weighting
 over policies"* **when given the reason.**
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **L-tier2** | Values need many artifacts by one maker; a goal needs only one | **SUPPORTED (test)**, indirectly but consistently | Author identification **7.6× chance**, within-author work separation **2.05×** — the only within-human positive we have. **Every single-artifact values attempt failed and every within-maker multi-work design worked.** That pattern was the prediction, not a coincidence |
-| **G48** | A maker's weighting is more stable within maker than between makers | **OPEN.** The 34-book corpus already supports the design | **The first values test this project has been able to specify at all** |
+| # | hypothesis | status |
+|---|---|---|
+| **L-tier2** | Values need many artifacts by one maker; a goal needs only one | **SUPPORTED (test)**, indirectly but consistently — author identification 7.6× chance, within-author work separation 2.05×; every single-artifact values attempt failed and every within-maker multi-work design worked, which was the prediction |
+| **S-15** | Value-profile recovery converges with artifacts per maker, and the residual is priced | **SUPPORTED (sim, V11)** — 0.53 → 0.98 over 1–50 artifacts, residual 0.009; the bounded-family assumption is worth 0.24 of error; **corpus price: ~20 works per maker at curator-tier noise.** And a construction discriminator: conjunctive satisfaction reads a profile from one artifact (0.97) where amplification cannot (0.53) — **the single-artifact failure record is the amplification signature** |
+| **G48** | A maker's weighting is more stable within maker than between makers | **OPEN** — the 34-book corpus already supports the design; the first values test this project could specify at all |
 
 **What these add up to.** The project's entire failure record on values is **the prediction of this
 section, not a counterexample to it.** A reward function is not identifiable from one episode, so a
@@ -213,11 +214,11 @@ domains**; arbitrary residue should not. So the residual has to be measured on o
 **That is the same diversity-of-conditions requirement every thread in this folder arrives at, which
 is weak evidence that it is the right requirement.**
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **G49** | Values live in the residual of expertise after removing what expertise is optimised for | **OPEN, and it is the first well-posed place to look.** Requires a model of what a domain's expertise *is* optimised for, which is the unbuilt part | **It inverts the search** — every dead measure looked in the optimised part, where selection has flattened the individual out. **And it disposes of epistemic foraging for free**, because foraging never repeats and so never becomes habit |
-| **G50** | The value-carrying part of that residual is what survives a domain change | **OPEN.** The separator between value and arbitrariness | Needs one maker across different kinds of artifact — **the corpus every thread here keeps arriving at** |
-| **G51** | Repetition itself carries information about the weighting | **OPEN** | *"The way it's baked in implies you've taken those actions many times, and that itself is information."* **A habit is evidence a choice was available and repeatedly taken** |
+| # | hypothesis | status |
+|---|---|---|
+| **G49** | Values live in the residual of expertise after removing what expertise is optimised for | **OPEN, and it is the first well-posed place to look.** Requires a model of what a domain's expertise *is* optimised for, which is the unbuilt part — **It inverts the search** — every dead measure looked in the optimised part, where selection has flattened the individual out. **And it disposes of epistemic foraging for free**, because foraging never repeats and so never becomes habit |
+| **G50** | The value-carrying part of that residual is what survives a domain change | **OPEN.** The separator between value and arbitrariness — Needs one maker across different kinds of artifact — **the corpus every thread here keeps arriving at** |
+| **G51** | Repetition itself carries information about the weighting | **OPEN** — *"The way it's baked in implies you've taken those actions many times, and that itself is information."* **A habit is evidence a choice was available and repeatedly taken** |
 
 **What these add up to.** Nothing is run, but the three are ordered and each is a precondition for the
 next. **The claim's strength is that it explains the project's failures rather than adding to them** —
@@ -269,11 +270,11 @@ process mapping is exactly how you get back toward values.
 > **attention is kind of often a god-of-the-gaps thing. You just sprinkle it in where you think
 > consciousness should be.**
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **G52** | What an artifact exposes is values composed with the process mapping | **OPEN** | Predicts recovery improves when process is supplied, **which is the direction T-1 already found** |
-| **G53** | Attention is doing real work here rather than papering a gap | **OPEN, and flagged as suspect by its own author** | Any design leaning on it must state what would show attention is *not* needed |
-| **G54** | Values are the constraint that **every** drive is partially satisfied at once | **OPEN** | *"Everything else before this felt like dithering to me, but this one feels like it might be a real thing."* Would explain why modelling values as a separate factor always collapsed |
+| # | hypothesis | status |
+|---|---|---|
+| **G52** | What an artifact exposes is values composed with the process mapping | **OPEN** — Predicts recovery improves when process is supplied, **which is the direction T-1 already found** |
+| **G53** | Attention is doing real work here rather than papering a gap | **OPEN, and flagged as suspect by its own author** — Any design leaning on it must state what would show attention is *not* needed |
+| **G54** | Values are the constraint that **every** drive is partially satisfied at once | **OPEN** — *"Everything else before this felt like dithering to me, but this one feels like it might be a real thing."* Would explain why modelling values as a separate factor always collapsed |
 
 **What these add up to.** All three are unmeasured, and they are not independent: **G52 says the third
 vertex is contaminated by the second, §4 says the contamination is removable, and G54 says the third
@@ -298,10 +299,10 @@ a novice's, without the expert choosing it.
 each other. It explains why an expert cannot say *why* they did something and why their artifact shows
 more of what they are, at the same time and for the same reason.
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **T-2 / T-9** | Motivational variety is measurable as breadth of recovered purpose | **INSTRUMENT DEAD (sim, twice)** | `purpose_breadth` tracks **how hard the goal is to recover**, not variety. At matched difficulty the excess from diversity is −0.013 to −0.025. **The simulation stated explicitly it cannot test whether practice *causes* drive-multiplicity** |
-| **G55** | Diversity rises with expertise while agreement about purpose stays flat | **OPEN** | A two-measure prediction using quantities that already exist |
+| # | hypothesis | status |
+|---|---|---|
+| **T-2 / T-9** | Motivational variety is measurable as breadth of recovered purpose | **INSTRUMENT DEAD (sim, twice)** — `purpose_breadth` tracks **how hard the goal is to recover**, not variety. At matched difficulty the excess from diversity is −0.013 to −0.025. **The simulation stated explicitly it cannot test whether practice *causes* drive-multiplicity** |
+| **G55** | Diversity rises with expertise while agreement about purpose stays flat | **OPEN** — A two-measure prediction using quantities that already exist |
 
 **What these add up to.** The idea survived and the instrument did not, twice, for the same reason:
 **everything that looks like motivational variety also looks like difficulty**, and the two were never
@@ -341,13 +342,13 @@ illegibility has that shape is what a simulation cannot say.
 assume it's the only layer that does so."* **An instrument that assumes exactly three levels, or that
 goal lives only at the top, assumes more than the theory supports.**
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **sim b3** | Goal legibility governs process-side readability | **SUPPORTED (sim), CONTESTED in scope** | Real, but demonstrated for **one knob only** |
-| **G56** | Supplied expertise unlocks the rest as effectively as supplied legibility | **OPEN, and it is the missing arm** | **Every edge tested so far supplies a goal or a process. None has ever supplied a mechanic** |
-| **G57** | Prior information at *any* vertex improves recovery at the others | **OPEN** — one of six edges has ever been tested | goal→process only, which was Gate 3's entire primary |
-| **G58** | Entry is possible at any sub-level, and expertise sets which one | **OPEN** | — |
-| **G59** | Closeness to the maker is a measurable prior held *before* the artifact is seen | **OPEN** | *"Showing someone your writing is a kind of intimacy."* **The only place in the theory where the reader's prior relationship does the work rather than the text** |
+| # | hypothesis | status |
+|---|---|---|
+| **sim b3** | Goal legibility governs process-side readability | **SUPPORTED (sim), CONTESTED in scope** — Real, but demonstrated for **one knob only** |
+| **G56** | Supplied expertise unlocks the rest as effectively as supplied legibility | **OPEN, and it is the missing arm** — **Every edge tested so far supplies a goal or a process. None has ever supplied a mechanic** |
+| **G57** | Prior information at *any* vertex improves recovery at the others | **OPEN** — one of six edges has ever been tested — goal→process only, which was Gate 3's entire primary |
+| **G58** | Entry is possible at any sub-level, and expertise sets which one | **OPEN** |
+| **G59** | Closeness to the maker is a measurable prior held *before* the artifact is seen | **OPEN** — *"Showing someone your writing is a kind of intimacy."* **The only place in the theory where the reader's prior relationship does the work rather than the text** |
 
 **What these add up to.** One edge of six has been measured, and the conclusion drawn from it —
 legibility first — was drawn from a single knob in a simulation that flagged that limitation itself.
@@ -413,7 +414,7 @@ structure is exploitable prior information.
 **If that is right, aesthetics is not only attention-grabbing — it is scaffolding for the reader's
 descent through the mechanics/technique/metaphor hierarchy**, deliberately left. Which would make
 polish partly a *communicative* act rather than only a performative one, and that is a different
-claim from anything in `POLISH_AND_DEPTH.md`.
+claim from anything in `DECISION_TRACES.md`.
 
 **His own caveat, and it is the right one:** *"humans actively, constantly pretend they're teachers
 under certain framings. Does that always hold?"* — **it plainly does not**, and the cases where it
@@ -441,19 +442,19 @@ which text arrives. **The teacher assumption is being granted to a system that h
 help and no expertise to transfer** — which is not a failure of the reader's inference so much as an
 inference running correctly on a false premise. **That is a testable claim about readers rather than
 about models**, and it is a different account of why generated text misleads than the polish–effort
-account in `POLISH_AND_DEPTH.md`.
+account in `DECISION_TRACES.md`.
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **lit** | A reward function is not identifiable from one episode | **SUPPORTED (READ)** | **Amin, Jiang & Singh (NeurIPS 2017) state our decomposition and our consequence verbatim, nine years early** |
-| **lit** | Recovery stays impossible even with unlimited episodes | **CONTESTED (READ)** | Armstrong & Mindermann; Skalse et al.; Cao et al. — partial identifiability persists in the infinite-data limit. **We do not dispute the proofs. We dispute that their conditions describe a human reading a human artifact** |
-| **G60** | Recovery error shrinks with more artifacts by one maker, toward a small residual | **FIRST MEASUREMENT (test, L34).** Author recovery from function words: **0.54 → 0.61 → 0.60** against 0.20 chance as reference works grow 1 → 3 — **converges, then flattens, residual 0.40** | **The asymptote is now a number, not a metaphor** — measured on five authors and the cheapest channel we own, so it is a floor for better designs, and both halves of the limit framing (real convergence, irreducible residual) are visible in one curve |
-| **G61** | Supplying an explicit competence estimate improves goal recovery | **OPEN** | If it does, **the "fatal unknown" is an input we can provide** |
-| **G62** | Assuming the maker intends to be understood improves recovery | **OPEN, and unused.** A fourth constraint on the hypothesis space | **Must be tested against concealment cases**, where the assumption is false and would license confident wrong inference |
-| **G63** | Aesthetic structure functions as deliberately-left scaffolding for descent | **OPEN** | Would make polish partly communicative rather than only performative — **a different claim from anything in `POLISH_AND_DEPTH.md`** |
-| **G64** | Re-reading one artifact recovers the tail, so depth of reading substitutes partially for breadth of corpus | **OPEN** | **§4 says the tail is where the un-optimised residue lives**, so this and the values claim are the same bet from opposite ends |
-| **G67** | Readers grant the teacher assumption to generated text, and that is why it misleads | **OPEN.** A claim about **readers**, not models — an inference running correctly on a false premise | **A different account from the polish–effort story**, and the two make different predictions about what happens when provenance is disclosed |
-| **G115** | A reader model's affective read shifts under a provenance frame alone | **SUPPORTED (test, L33).** Identical text framed "by a person" vs "by an AI": the early/late ratio moves +0.007 and affect magnitude drops, both paired *p* < 1e-8 | **The provenance prior exists in the reading machinery itself** — the model-side face of G67. Tiny in size, unambiguous in sign; disclosure is not affect-neutral even for a machine reader. Replications on the other ladders queued |
+| # | hypothesis | status |
+|---|---|---|
+| **lit** | A reward function is not identifiable from one episode | **SUPPORTED (READ)** — **Amin, Jiang & Singh (NeurIPS 2017) state our decomposition and our consequence verbatim, nine years early** |
+| **lit** | Recovery stays impossible even with unlimited episodes | **CONTESTED (READ)** — Armstrong & Mindermann; Skalse et al.; Cao et al. — partial identifiability persists in the infinite-data limit. **We do not dispute the proofs. We dispute that their conditions describe a human reading a human artifact** |
+| **G60** | Recovery error shrinks with more artifacts by one maker, toward a small residual | **FIRST MEASUREMENT (test, L34).** Author recovery from function words: **0.54 → 0.61 → 0.60** against 0.20 chance as reference works grow 1 → 3 — **converges, then flattens, residual 0.40** — **The asymptote is now a number, not a metaphor** — measured on five authors and the cheapest channel we own, so it is a floor for better designs, and both halves of the limit framing (real convergence, irreducible residual) are visible in one curve |
+| **G61** | Supplying an explicit competence estimate improves goal recovery | **OPEN** — If it does, **the "fatal unknown" is an input we can provide** |
+| **G62** | Assuming the maker intends to be understood improves recovery | **OPEN, and unused.** A fourth constraint on the hypothesis space — **Must be tested against concealment cases**, where the assumption is false and would license confident wrong inference |
+| **G63** | Aesthetic structure functions as deliberately-left scaffolding for descent | **OPEN** — Would make polish partly communicative rather than only performative — **a different claim from anything in `DECISION_TRACES.md`** |
+| **G64** | Re-reading one artifact recovers the tail, so depth of reading substitutes partially for breadth of corpus | **OPEN** — **§4 says the tail is where the un-optimised residue lives**, so this and the values claim are the same bet from opposite ends |
+| **G67** | Readers grant the teacher assumption to generated text, and that is why it misleads | **OPEN.** A claim about **readers**, not models — an inference running correctly on a false premise — **A different account from the polish–effort story**, and the two make different predictions about what happens when provenance is disclosed |
+| **G115** | A reader model's affective read shifts under a provenance frame alone | **SUPPORTED (test, L33).** Identical text framed "by a person" vs "by an AI": the early/late ratio moves +0.007 and affect magnitude drops, both paired *p* < 1e-8 — **The provenance prior exists in the reading machinery itself** — the model-side face of G67. Tiny in size, unambiguous in sign; disclosure is not affect-neutral even for a machine reader. Replications on the other ladders queued |
 
 **What these add up to.** The theorems are real, recent and proved, and **the project's position is
 not that they are wrong but that their conditions do not describe the case** — which makes this an
@@ -482,6 +483,13 @@ teacher-assumption programme is untested.**
 from the same maker**, which is exactly what G60's diversity-of-conditions requirement asks for. It
 also disposes of the "the person is not there" objection: *"you're responding to their sound waves and
 it's the same maths."*
+
+**The end this serves, in his words** *(moved here 2026-08-09 — it is a claim about the inference,
+not the architecture)*:
+
+> My personal end goal is to find a way to **fully give AI human empathy, but not human emotions**
+> [...] it requires some kind of subordinate solution space that converges on these **predictions of
+> these interoceptive signals.**
 
 **Identification is the limit of prediction, not a different act.** Against Dennett's intentional
 stance licensing prediction but not identification: *"It's a question of limit. We're doing a Taylor
@@ -555,10 +563,10 @@ is a confound, and **declared values are not held values.** That last is less da
 the project does not need to know what a maker truly valued, only a ground-truth label for the value
 set an artifact was made *under*.
 
-| # | hypothesis | status | notables |
-|---|---|---|---|
-| **G65** | Value recovery improves sharply with more works per maker, while goal recovery does not | **OPEN** | The two-level design tests this and G48 at once |
-| **G66** | Degree of adherence to a declared value set is recoverable as a graded quantity | **OPEN** | **A ladder made of humans**, which is the thing every corpus we hold fails to be |
+| # | hypothesis | status |
+|---|---|---|
+| **G65** | Value recovery improves sharply with more works per maker, while goal recovery does not | **OPEN** — The two-level design tests this and G48 at once |
+| **G66** | Degree of adherence to a declared value set is recoverable as a graded quantity | **OPEN** — **A ladder made of humans**, which is the thing every corpus we hold fails to be |
 
 **What these add up to.** Neither is run and the corpus is not sourced, but the design is the only one
 in the project that would give values a ground truth rather than a proxy. **Its value is structural:
