@@ -93,6 +93,7 @@ A mixed table joins two of these with a semicolon, each tied in plain words to t
 | [`../method/`](../method/) | what a control licenses, the ledger, deviations, literature reviews |
 | [`../sim/`](../sim/) | simulation traffic, both directions. Newest first |
 | [`../archive/`](../archive/) | superseded. Nothing deleted, only moved |
+| [the simulation's theory store](https://github.com/EmotiveAutomaton/ghost-scale-sim/blob/main/docs/theory/READING_INTENT.md) | **the most live representation of the author's theory — art, empathy, values, and AI — in an accurately tested, applied form.** Every claim of the ghost-scale model under its umbrella hypothesis, each row carrying a committed-verdict status; the surrounding [theory folder](https://github.com/EmotiveAutomaton/ghost-scale-sim/tree/main/docs/theory) holds the essays and the code-to-theory crosswalk. What this folder states as claims, that one runs as a model |
 
 ## His methodology record — 5 for 5
 
