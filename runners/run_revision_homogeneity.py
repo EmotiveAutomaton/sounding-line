@@ -15,6 +15,7 @@ from __future__ import annotations
 import difflib
 import json
 import random
+import re
 import sys
 from pathlib import Path
 
@@ -46,9 +47,14 @@ def dispersion(profile: list[float]) -> float:
 def main() -> None:
     import numpy as np                                                # noqa: PLC0415
 
-    d1 = {p.stem: p.read_text(encoding="utf-8", errors="ignore")
+    # draft folders disagree on stems: Draft1 holds draft1_2018argrewrite_N, Draft3 holds
+    # 2018argrewrite_N — normalise by stripping any draftN_ prefix before pairing
+    def norm(stem: str) -> str:
+        return re.sub(r"^draft\d+_", "", stem)
+
+    d1 = {norm(p.stem): p.read_text(encoding="utf-8", errors="ignore")
           for p in (ESSAYS / "Draft1").glob("*.txt")}
-    d3 = {p.stem: p.read_text(encoding="utf-8", errors="ignore")
+    d3 = {norm(p.stem): p.read_text(encoding="utf-8", errors="ignore")
           for p in (ESSAYS / "Draft3").glob("*.txt")}
     ids = sorted(set(d1) & set(d3))
     print(f"{len(ids)} authors with draft 1 and draft 3")

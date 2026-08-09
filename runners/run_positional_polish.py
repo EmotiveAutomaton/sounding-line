@@ -26,9 +26,13 @@ RESULTS = REPO / "results" / "positional_polish"
 CACHE = REPO / "results" / "features" / "argrewrite_w80.json"
 
 POLISH_PATTERNS = ("readability", "flesch", "ttr", "type_token", "punct", "exclam",
-                   "uppercase", "smog", "coleman", "kincaid", "ari_")
-DEPTH_PATTERNS = ("cond", "caus", "subord", "nominal", "clause", "infinitive",
-                  "agentless", "conc", "wh_")
+                   "uppercase", "smog", "coleman", "kincaid", "ari_", "lix", "rix",
+                   "unique_tokens")
+# v2: v1's descriptive words missed Biber's tag codes (3 hits of ~20 intended); mapped to the
+# actual inventory BEFORE the first valid run — v1 scored zero essays, so nothing was fit to
+DEPTH_PATTERNS = ("caus", "conc", "cond", "osub", "whcl", "whsub", "whobj", "thac",
+                  "thvc", "tsub", "tobj", "nomz", "bypa", "pastp", "wzpast", "wzpres",
+                  "presp", "pire", "dependency_distance")
 
 
 def main() -> None:
@@ -62,6 +66,11 @@ def main() -> None:
         if pv is not None and dv is not None:
             pairs.append((it["id"], pv, dv))
     print(f"{len(pairs)} essays with >= 4 windows")
+    if len(pairs) < 12:
+        # no summary written on purpose: the produces-guard must stay missing so the
+        # stage refires once the cache is rebuilt at the real window size
+        print(f">>> NEEDS-DATA — only {len(pairs)} usable essays; cache or corpus is wrong")
+        sys.exit(1)
     pv = np.array([p[1] for p in pairs])
     dv = np.array([p[2] for p in pairs])
     _, p = stats.wilcoxon(pv, dv) if len(pairs) > 10 else (None, 1.0)

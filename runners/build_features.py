@@ -125,7 +125,7 @@ def main() -> None:
         out = []
         buf = io.StringIO()
         for i, r in enumerate(rows):
-            ws = windows(r["text"])
+            ws = windows(r["text"], WINDOW, MAX_WINDOWS)
             with contextlib.redirect_stdout(buf):                      # biberplus is noisy
                 whole = extract(r["text"])
                 wfeat = [extract(w) for w in ws]

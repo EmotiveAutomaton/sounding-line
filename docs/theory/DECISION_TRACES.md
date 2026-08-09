@@ -109,7 +109,8 @@ direction**: the performance is what changes, whichever way it changes.
 
 | # | hypothesis | status |
 |---|---|---|
-| **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **OPEN — the definitional test, never run.** *If both move equally, the distinction is not real and this document is wrong* |
+| **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **OPEN — the definitional test; still no valid run.** *If both move equally, the distinction is not real and this document is wrong* |
+|   | | *— first attempt (2026-08-09) scored zero essays: the window cache was built at the wrong size and the verdict fired on empty data; quarantined, instrument repaired, re-queued* |
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **SUPPORTED (test), first pass.** Human long-form variance 0.0102 vs machine 0.0065 at matched series length, *p* = 0.002 — the flat-machine signature, measured reader-side; register rides along uncontrolled |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
 | **PD-3** | Machine artifacts show flat polish across position — no maker to tire, no register to drift toward | **OPEN as an artifact-side measure; its reader-side cousin just landed (the HH-3 / L39 row)** |
@@ -266,20 +267,23 @@ without the expert choosing it. This is the mechanism the residue account of val
 | **PD-8** | Commercial decision density is *not* systematically lower than individual | **OPEN** |
 | **PD-9** | Machine text shows low agreement *and* low breadth — no coherent maker-state, as against a flattened one | **OPEN** |
 | **PD-10** | Singularity of terminal value is measurable at all | **OPEN — the successor instrument**, needing a corpus this project has not seen |
-| **G114** | Independent readers' goal-guesses converge more where intent is dense | **INSTRUMENT-QUESTIONED (test)** — flat across a ten-specification gap and highest on maker-less text; the overlap metric reads topic first. Rebuild specified |
+| **G114** | Independent readers' goal-guesses converge more where intent is dense | **NOT SUPPORTED (test), three designs deep.** Bits recovered died to empty answers; token overlap read topic; judge-rated similarity with topic held fixed saturates near 0.9 on everything and the ten-specification dose gap comes out at −0.02 — wrong sign, negligible. The third instrument produced orderly numbers (books score lowest, plausibly summarisation difficulty) and the dose is simply not in them |
 | **T-2 / T-9** | Motivational variety is measurable as breadth of recovered purpose | **INSTRUMENT DEAD (sim, twice)** — the breadth measure tracked how hard the goal is to recover, not variety; at matched difficulty the diversity excess is negative. The simulation itself states it cannot test whether practice *causes* drive-multiplicity |
 | **G55** | Diversity rises with expertise while agreement about purpose stays flat | **OPEN** — a two-measure prediction using quantities that already exist, and the second attempt must survive a difficulty control that neither prior try would have |
 | **PD-7** | Commercial work shows lower purpose *breadth* | **INSTRUMENT DEAD (sim, twice)** — the breadth measure read difficulty |
 | **G3** | Half A of a web corpus contains more recoverable method than half B | **VOID (test), twice over** |
 
 **What the table says.** The layered end of the topology is the best-evidenced thing in this file —
-three independent measures peak where motivations stack — while the flattened end is a reframe with
-no surviving instrument: both breadth-style measures read difficulty, the convergence attempt read
-topic, and the singularity measure has never been built. The soul claim's mechanism matters beyond
-this section: if expertise does not move decisions into drives, the residue account of values loses
-its engine. The topology is a good description still waiting for its first honest number.
-Confidence: the stacked-motivations reversal is replicated and controlled; everything else here is
-untested or instrument-dead.
+three independent measures peak where motivations stack — while the flattened end now carries its
+first genuine negative: reader convergence has failed to move with intent density in three separate
+designs, the last with topic held fixed and an instrument that produced orderly numbers, so
+agreement-between-readers looks like a property of coherent text rather than of dense intent. The
+breadth-style measures read difficulty, and the singularity measure has never been built. The soul
+claim's mechanism matters beyond this section: if expertise does not move decisions into drives,
+the residue account of values loses its engine. The topology remains a good description whose
+positive half is measured and whose flattened half keeps refusing to be. Confidence: the
+stacked-motivations reversal is replicated and controlled; the convergence null is one bad test
+away; the rest is untested or instrument-dead.
 
 # Part II — The measurement ledger
 

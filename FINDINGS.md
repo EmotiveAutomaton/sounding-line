@@ -1480,6 +1480,159 @@ blocks across corpora). L12's totals update: **of 33 ladder runs across eleven f
 survive**, failures still clustering in the gpt2 family, surviving blocks still moving by model and
 corpus — the address never transfers, the tracking usually does.
 
+## L43 · PD-1's first run scored zero essays — two instrument faults, caught by the n field
+
+**Hypothesis.** None adjudicated — this is an instrument record. The definitional polish/depth test
+(PD-1) appeared to complete and returned NO-ASYMMETRY.
+
+**What actually happened.** Two faults stacked. The small-window feature cache was built at the OLD
+window size while stamping the new one in its own metadata — the window override set a module
+global after Python had already bound the old value as the function's default argument, so every
+essay got 1–2 windows instead of 5–10 and the runner's ≥4-window filter passed **zero essays**.
+Then the verdict logic, lacking a zero-data guard, fired its no-difference verdict on an empty
+comparison — the criterion-that-cannot-fail class again, in a runner built after the audit that
+named it. A third fault surfaced in the same landing window: the revision-homogeneity runner (G81)
+found zero authors because the draft folders disagree on file stems (draft-1 files carry a
+`draft1_` prefix; draft-3 files do not), and crashed on the empty set.
+
+**Fixes, all applied before any valid run existed.** Window size now passed explicitly at the call
+site; the runner exits without writing its summary below 12 usable essays, so the produces-guard
+refires after the cache rebuild; the depth-side feature list was remapped from descriptive words to
+the actual Biber tag codes (v1 matched 3 features of ~20 intended — also caught by a printed
+count); draft stems normalised before pairing. The zero-window cache and the empty verdict are
+quarantined (`argrewrite_w80_broken_wbind.json`, `positional_polish/v1_zerowindow/`). Both stages
+re-queued. **PD-1 remains unrun; no result of any kind exists for it yet.**
+
+## L44 · The block geography survives pooling; the flagship ratio does not
+
+**Hypothesis.** *(G127, from the neural-analogues review: extraction choice systematically biases
+layer-wise conclusions — Hadidi 2025 — and every profile this project owns mean-pools.)* If the
+early/late story is an artifact of mean pooling, it should move under last-token and max pooling.
+
+**Method.** `run_pooling_falsifier.py`: the home model re-read with all three poolings — the mean
+over token positions (ours), the last token only, and the elementwise maximum. Two quantities per
+pooling: the per-block affect-work profile (correlated across poolings — does the *shape* move?),
+and the flagship early/late ratio against ladder rung (does the *dose statistic* move?).
+
+| pooling | profile r vs mean | peak block | ratio-vs-rung | p |
+|---|---|---|---|---|
+| mean (ours) | — | 2 of 28 | −0.045 | 0.78 |
+| last token | 0.992 | 2 of 28 | +0.218 | 0.18 |
+| max | 0.979 | 2 of 28 | −0.335 | 0.034 |
+
+*Columns: correlation of the 29-block profile with the mean-pooled profile; which block peaks;
+correlation of the early/late ratio with induction rung; its uncorrected p.*
+
+**Verdict: POOLING-BOUND — for the ratio; the geography is pooling-invariant.** The profile keeps
+its shape (r ≥ 0.98) and its peak block under every pooling — so the address results, all measured
+under mean pooling, do not hang on that choice. The ratio-vs-rung statistic lands in a different
+(sign, significance) class under each pooling: null-negative, null-positive, significantly
+negative. **Means: the flagship dose ratio, already fair-control-dead and family-sign-bound, is
+also an artifact of the pooling choice within its home model.** The one significant cell (max,
+p = 0.034) is one of three uncorrected looks and gets no weight on its own.
+
+## L45 · Aligned by computational events, the early locus is early everywhere but one family
+
+**Hypothesis.** *(G124.)* Block addresses never transfer as fractions of depth — the loci are
+Qwen-shaped. If families are aligned by what the blocks *compute* rather than where they sit, the
+reference loci should land somewhere lawful in each family.
+
+**Method.** `run_cka_alignment.py`: linear CKA (centered-kernel similarity between block
+activations, 0–1) between the home model and five others on 30 shared texts; for each home-model
+block, the best-matching block in each family; then read off where the home early locus (block 2)
+and late locus (block 22 of 28) land, as a fraction of the target's depth.
+
+| family | early locus lands at | late locus lands at |
+|---|---|---|
+| gpt2-medium | block 1 — 4% deep | block 20 — 83% |
+| gpt2-large | block 0 — 0% | block 30 — 83% |
+| pythia-1.4b | block 3 — 13% | block 15 — 63% |
+| Qwen2.5-0.5B | block 4 — 17% | block 16 — 67% |
+| SmolLM2-360M | **block 9 — 28%** | block 24 — 75% |
+
+*Columns: the target-family block whose activity best matches the home model's locus block, and
+that block's relative depth.*
+
+**Verdict: the events are portable even though the addresses are not.** In four of five families
+the home early locus matches a block in the first sixth of the stack, and the late locus lands at
+62–83% depth in all five — a lawful coordinate system where raw block numbers gave none. The
+exception is SmolLM2, whose best match to our block-2 events sits over a quarter of the way in —
+**the odd family again** (it is also the family exempted in the sign map's fade pattern). **Means:
+"where things sit is a fact about the model" now has a translation table; cross-family claims can
+be stated at aligned stages instead of raw depths.** No permutation null yet — the best-match
+assignment has not been tested against label-shuffled texts — so this is one bad test away
+(follow-on filed as G128).
+
+## L46 · The third convergence design still cannot see the dose — readers agree about everything
+
+**Hypothesis.** *(G114b, third build; the claim under test is G60/G114: independent readers'
+goal-guesses converge more where intent is dense.)* v1 died to empty answers, v2's token overlap
+read topic. v3 fixes both: a judge model rates answer-pair goal-similarity directly, and the dose
+comparison holds topic fixed.
+
+**Method.** `run_reader_convergence3.py`: five independent one-sentence goal-guesses per artifact
+(local 9B model), convergence = mean judge-rated pairwise similarity of the guesses (0–1). Groups:
+ladder rung 1 versus rung 10 **on the same five topics** (the fixed-topic dose contrast v2 never
+had), eight human essays, eight books.
+
+| group | n | convergence |
+|---|---|---|
+| machine, ten stacked specifications (fixed topics) | 5 | 0.908 |
+| machine, one specification (same topics) | 5 | 0.932 |
+| human essays | 8 | 0.933 |
+| human books | 8 | 0.864 |
+
+*Convergence: mean judge-rated similarity of five readers' goal-guesses, 0 = unrelated, 1 =
+identical.*
+
+**Verdict: NEITHER-CLEANLY.** The fixed-topic dose gap is −0.02 — wrong sign, negligible size. The
+judge saturates near 0.9 on every coherent text; the only structure it saw is books scoring lower,
+which reads most naturally as long-form summarisation difficulty, not intent. **Means: three
+independent operationalisations — bits recovered, token overlap, judge-rated similarity — have now
+each failed to make reader convergence move with intent density.** The claim is not
+instrument-dead this time; the instrument produced orderly numbers and the dose is simply not in
+them. The row moves to NOT SUPPORTED in this design; whether the convergence family retires
+entirely is his call (filed as a decision item).
+
+## L47 · The rebuilt agreement statistic works — and agreement falls where the goal is clearest
+
+**Hypothesis.** *(G105 rebuilding the instrument; G33 is the claim under test — his conditional:
+"you might also have more agreement in the late, if the goal is clear.")* The original coherence
+statistic was geometrically incapable of measuring agreement (globally centred directions sum to
+zero — L26). The rebuild: mean pairwise sign agreement of block responses across texts, on
+uncentred per-concept contrasts, gated on synthetic known-answer data before any real read.
+
+**Method.** `run_coherence_v2.py`, seven families so far (the eighth still running): the gate first
+— constructed agreeing texts must score high and random vectors near 0.5 — then agreement at early,
+middle, and late blocks correlated against induction rung on all three ladders.
+
+| family | gate (agree / random) | ladder | ladder2 | ladder3 | late-block correlations |
+|---|---|---|---|---|---|
+| Qwen2.5-1.5B (home) | 1.00 / 0.49 | falls | falls | falls | −0.43, −0.29, −0.41 |
+| Qwen2.5-0.5B | 1.00 / 0.49 | falls | falls | falls | −0.61, −0.44, −0.63 |
+| gpt2-large | 1.00 / 0.49 | flat | falls | falls | −0.23, −0.38, −0.40 |
+| gpt2-medium | 1.00 / 0.49 | flat | flat | falls | −0.13, +0.05, −0.47 |
+| pythia-410m | 1.00 / 0.49 | falls | flat | flat | −0.33, −0.16, −0.20 |
+| pythia-1.4b | 1.00 / 0.49 | flat | flat | flat | −0.03, +0.01, −0.01 |
+| SmolLM2-360M | 1.00 / 0.49 | flat | flat | flat | −0.08, +0.14, 0.00 |
+
+*Gate: the statistic's score on texts built to agree versus random vectors — 1.00/0.49 means it
+separates perfectly, so unlike its predecessor it can measure agreement. Corpus columns: the
+per-ladder verdict on whether agreement rises with specification dose. Last column: the rank
+correlation of late-block agreement with rung on each ladder (negative = agreement falls as
+specifications stack).*
+
+**Verdict: the claim's direction is dead — 0 of 21 corpus-cells rise; 10 fall, 11 are flat.** In
+the home family agreement falls robustly at every depth (home-model late cells p = 0.0019, 0.0038,
+0.0002). The family structure repeats the sign map's shape: strongest in Qwen, weaker in gpt2,
+absent in pythia's larger member and SmolLM2. **Means: where the goal is clearest, late-block
+responses agree *less* across texts, not more** — as constraints stack, states differentiate
+rather than converge. Two cautions before leaning on the reversal: the contrasts are uncentred by
+design (agreement needs raw signs), so the induction confound is not partialled here; and one
+observation goes unclaimed — real-text agreement sits slightly *below* the random baseline
+everywhere (≈0.43 vs 0.49), which the gate's synthetic construction does not explain. The
+instrument is validated; the direction is one bad test away.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

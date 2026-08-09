@@ -1,0 +1,136 @@
+{
+  "model": "qwen3.5:9b",
+  "samples": 5,
+  "groups": {
+    "machine_dense_fixedtopic": {
+      "n": 5,
+      "mean": 0.908,
+      "items": [
+        {
+          "id": "r10_15",
+          "convergence": 0.7
+        },
+        {
+          "id": "r10_16",
+          "convergence": 0.99
+        },
+        {
+          "id": "r10_17",
+          "convergence": 0.9800000000000001
+        },
+        {
+          "id": "r10_18",
+          "convergence": 0.93
+        },
+        {
+          "id": "r10_19",
+          "convergence": 0.9400000000000001
+        }
+      ]
+    },
+    "machine_sparse_fixedtopic": {
+      "n": 5,
+      "mean": 0.932,
+      "items": [
+        {
+          "id": "r1_15",
+          "convergence": 0.9199999999999999
+        },
+        {
+          "id": "r1_16",
+          "convergence": 0.9199999999999999
+        },
+        {
+          "id": "r1_17",
+          "convergence": 1.0
+        },
+        {
+          "id": "r1_18",
+          "convergence": 0.9099999999999999
+        },
+        {
+          "id": "r1_19",
+          "convergence": 0.9099999999999999
+        }
+      ]
+    },
+    "human_essays": {
+      "n": 8,
+      "mean": 0.9325,
+      "items": [
+        {
+          "id": "2018argrewrite_45",
+          "convergence": 0.96
+        },
+        {
+          "id": "2018argrewrite_24",
+          "convergence": 0.9
+        },
+        {
+          "id": "2018argrewrite_54",
+          "convergence": 0.97
+        },
+        {
+          "id": "2018argrewrite_85",
+          "convergence": 0.96
+        },
+        {
+          "id": "2018argrewrite_11",
+          "convergence": 0.93
+        },
+        {
+          "id": "2018argrewrite_15",
+          "convergence": 0.9
+        },
+        {
+          "id": "2018argrewrite_71",
+          "convergence": 0.9400000000000001
+        },
+        {
+          "id": "2018argrewrite_18",
+          "convergence": 0.9
+        }
+      ]
+    },
+    "human_books": {
+      "n": 8,
+      "mean": 0.86375,
+      "items": [
+        {
+          "id": "stevenson__kidnapped",
+          "convergence": 0.76
+        },
+        {
+          "id": "austen__persuasion",
+          "convergence": 0.7
+        },
+        {
+          "id": "dickens__david-copperfield",
+          "convergence": 0.9099999999999999
+        },
+        {
+          "id": "austen__sense-and-sensibility",
+          "convergence": 0.9
+        },
+        {
+          "id": "austen__northanger-abbey",
+          "convergence": 0.9
+        },
+        {
+          "id": "wells__island-of-doctor-moreau",
+          "convergence": 0.93
+        },
+        {
+          "id": "wells__time-machine",
+          "convergence": 0.89
+        },
+        {
+          "id": "wells__war-of-the-worlds",
+          "convergence": 0.9199999999999999
+        }
+      ]
+    }
+  },
+  "fixed_topic_dose_gap": -0.02400000000000002,
+  "verdict": "NEITHER-CLEANLY"
+}
