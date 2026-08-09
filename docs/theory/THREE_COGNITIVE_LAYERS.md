@@ -32,7 +32,7 @@ supports the artifact criterion rather than becoming the criterion.
 
 ---
 
-# Part I — The theory
+# Part I: The theory
 
 ## §1. The human functional scaffold
 
@@ -174,7 +174,7 @@ shows is the hard part.
 behaves exactly as the theory wants. Absence reads, and reads through pursuit rather than content.
 Confidence: sim-only; the real-artifact claim is untested.
 
-# Part II — The evidence
+# Part II: The evidence
 
 ## §4. Human evidence: conserved machinery, and how many primitives
 
@@ -322,7 +322,7 @@ dose within one generator until the program's construct tests say more. Confiden
 per-block results are replicated and controlled; the echo reclassification is days old, one bad
 test away by age, in the direction of further demotion.
 
-# Part III — Consequences
+# Part III: Consequences
 
 ## §8. Build gates: what must be true, in order, before anything is moved
 

@@ -33,7 +33,7 @@ heuristics ([`READER_HEURISTICS.md`](READER_HEURISTICS.md)), model depth, or ali
 
 ---
 
-# Part I — The inference problem
+# Part I: The inference problem
 
 ## §1. The three target families
 
@@ -174,7 +174,7 @@ in the current construction; the topology involving values is unknown.** The dri
 (the one that would distinguish a river from a triangle) is queued in the simulation that now has a
 working values construction. All rows in §8.
 
-# Part II — The difficult third inference
+# Part II: The difficult third inference
 
 ## §4. Drives, values, and goals
 
@@ -285,7 +285,7 @@ values are not held values, which is tolerable because the label needed is what 
 made *under*, not what the maker truly valued. Sourcing detail and procedure live in `TODO.md`; the
 blocking rows stay in §8.
 
-# Part III — Epistemic limits and evidence
+# Part III: Epistemic limits and evidence
 
 ## §7. Identifiability, not impossibility
 

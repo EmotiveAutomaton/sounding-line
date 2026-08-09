@@ -1855,6 +1855,67 @@ variance at matched window counts, which cancels the sampling floor. Until that 
 statement is narrow. On student essays the polish/depth feature sides do not move equally, and the
 excess sits on the depth side.
 
+## L54 · The length re-audit confirms the named weakness: one in six killed effects was suppressed, not confounded
+
+**Hypothesis.** *(Known weakness 3b, the direction re-audit.)* Every measure killed on "correlates
+with length" was killed without checking the sign of the length relationship against the sign of
+the effect. Length can work *against* an effect (suppression), in which case the kill was the
+method's error.
+
+**Method.** `length_direction_audit`: for every feature with a dose effect on each ladder, the raw
+correlation against the length-partialled correlation, classified as confounded (effect shrinks
+when length is removed) or suppressed (effect emerges or strengthens).
+
+| corpus | features with an effect | length-confounded | length-suppressed |
+|---|---|---|---|
+| first ladder | 295 | 120 | 56 |
+| second ladder | 284 | 128 | 73 |
+| third ladder | 299 | 148 | 34 |
+
+*Confounded means length was inflating the effect and the kill was right; suppressed means length
+was masking it and the kill logic was backwards for that feature.*
+
+**Verdict: the weakness was real at scale.** Roughly one in six effect-bearing features per corpus
+was in the suppression regime, and the recurring rescue is the readability-ease family (Flesch
+reading ease appears in the strict rescue list on two of three ladders). What this does not do is
+revive anything by itself. The rescued quantities are dose correlates within one generator, the
+class the program has stopped chasing, so the audit's value is bookkeeping. Deaths pronounced on
+raw length correlation carry a one-in-six method error, recorded here so no old kill is cited as
+clean. Diagnostic entry; no claim family touched.
+
+## L55 · The dispersion route to the definitional test is void in principle, and it leaked one real fact on the way out
+
+**Hypothesis.** *(PD-1b, the matched null for L53's inversion.)* If depth-side features only
+"moved more" because sparse counts are noisier per window, dividing each feature's within-essay
+variance by its own across-essay shuffle null should cancel the sampling floor and reveal which
+side carries genuine positional structure.
+
+**Method.** `run_positional_polish_b.py`: per feature, observed mean within-essay variance over
+its value under 200 window shuffles across essays; the two feature sides' ratio distributions
+compared. Its between-essay-only planted control behaved (ratio 0.00 as required).
+
+**What came back, and what it actually means.** Polish-side median ratio 0.802, depth-side 0.923,
+difference significant at p < 10⁻⁴. Both sit *below* one, and working the algebra afterward shows
+they must. Mean within-essay variance equals the pool variance minus the between-essay variance,
+so the ratio is one minus the between-essay share and **cannot exceed one for any data**. The
+"depth moves" branch of my own verdict rule was unreachable, the criterion-that-cannot-fire class
+again, caught by derivation this time rather than by a zero. Worse and more useful: **variance is
+order-invariant, so no dispersion statistic can measure positional movement at all.** The entire
+window-dispersion operationalisation of PD-1, v3 included, was structurally unable to see the
+quantity the hypothesis names.
+
+**Verdicts, three of them.** For PD-1 as operationalised: **VOID in principle**, the L53 inversion
+now fully explained as per-window sampling noise plus this identity, and a movement claim needs an
+order-sensitive statistic (positional trend, lag differences) or the program's event level. For
+the instrument class: dispersion ratios measure **essay-boundness**, a real quantity. And the
+incidental finding: **at fixed topic and assignment, polish-side features are two and a half times
+more essay-bound than depth-side features** (between-essay variance share 20% against 8%,
+p < 10⁻⁴, 258 drafts). With topic held constant by construction, between-essay variance is
+author-and-draft variance, which makes this the first artifact-side evidence for the
+maker-signature half of the traces claim, that polish variation carries *who* while depth-side
+features run corpus-generic. First pass, one corpus, and the draft/author decomposition is the
+obvious next cut.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

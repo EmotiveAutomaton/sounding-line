@@ -26,7 +26,7 @@ and the forced-constraint nulls.
 
 ---
 
-# Part I — The canonical model
+# Part I: The canonical model
 
 ## §1. The coordinate system: target, control, and terminal topology are independent
 
@@ -130,8 +130,9 @@ direction**. The performance is what changes, whichever way it changes.
 
 | # | hypothesis | status |
 |---|---|---|
-| **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **INVERTED on first valid pass (test, L53), one confound named.** Depth-side features move *more* than polish-side across 258 essays (0.74 vs 0.58 in corpus-scale units, p = 2.6 × 10⁻⁸), against the prediction. The candidate artifact: the depth side is sparse counts and the polish side dense indices, so the sides differ in per-window sampling variance mechanically; PD-1b's within/between-variance ratio decides whether the inversion is real. *If it survives, this section's definition is wrong as stated* |
-|   | | *(instrument history: v1 scored zero essays on a mis-sized window cache and verdicted anyway; v2's z-scored variance was 1 by construction, a criterion that could not fail; v3 is corpus-normalized and known-answer gated, and its gate passed)* |
+| **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **VOID as operationalised (test, L53/L55), with the route closed in principle.** The first valid pass ran inverted; the matched null then showed the inversion was per-window sampling noise, and the algebra shows dispersion statistics cannot measure movement at all, since variance is order-invariant and the shuffle ratio cannot exceed one for any data. A movement claim needs an order-sensitive statistic or the program's event level. Not a negative result about the claim; the instrument class was wrong for the question |
+|   | | *(instrument history: v1 scored zero essays on a mis-sized cache and verdicted anyway; v2's z-scored variance was 1 by construction; v3 gated and ran inverted; v3b's matched null exposed the in-principle void and one of its own verdict branches as unreachable)* |
+| **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic | **SUPPORTED (test), first pass, found by accident (L55).** Between-essay variance share 20% against 8% (p < 10⁻⁴, 258 drafts, topic and assignment constant), so polish-side variation carries the essay's identity where depth-side features run corpus-generic. The first artifact-side evidence for the maker-signature half of this section's claim; the author/draft decomposition is the next cut |
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **SUPPORTED (test), first pass.** Human long-form variance 0.0102 vs machine 0.0065 at matched series length, *p* = 0.002, the flat-machine signature measured reader-side; register rides along uncontrolled |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
 | **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **OPEN as an artifact-side measure; its reader-side cousin just landed (the HH-3 / L39 row)** |
@@ -142,15 +143,17 @@ direction**. The performance is what changes, whichever way it changes.
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
 | **PD-32** | Translation is denser where the maker expects a distant reader | **OPEN** |
 
-**What the table says.** The section's own definitional test came back backwards at first pass.
-Depth-side features moved more than polish-side ones on student essays, which either falsifies the
-stationarity claim as stated or measures the mechanical fact that sparse count features are
-noisier per window than dense indices, and the matched-null follow-up decides which. The one clean
-positive stands apart. The reader's affective series moves through human long-form and stays
-comparatively flat through machine text, the signature this section predicts. The rest is the
-simulation's 6.5× decay asymmetry plus unrun tests, with the attraction/translation split gating
-the lot. Confidence: the inversion and the movement result are each one bad test away; the rest is
-untested or sim-only.
+**What the table says.** The definitional test ate its own operationalisation and paid out
+anyway. Window-dispersion statistics turn out to be unable to measure movement in principle, so
+the stationarity claim is untested rather than falsified, and what the exercise surfaced instead
+is that polish-side features are far more essay-bound than depth-side ones at fixed topic, which
+is the maker-signature half of this section's closing quote given its first artifact-side number.
+The other clean positive stands apart. The reader's affective series moves through human
+long-form and stays comparatively flat through machine text. The rest is the simulation's 6.5×
+decay asymmetry plus unrun tests, with the attraction/translation split gating the lot.
+Confidence: the essay-boundness and movement results are each one bad test away; the movement
+claim itself is untested pending an order-sensitive or event-level design; the rest is untested
+or sim-only.
 
 ## §3. Automatic traces: leakage, concealment, and the channels that carry them
 
@@ -310,7 +313,7 @@ description whose positive half is measured and whose flattened half keeps refus
 Confidence: the stacked-motivations reversal is replicated and controlled; the convergence null is
 one bad test away; the rest is untested or instrument-dead.
 
-# Part II — The measurement ledger
+# Part II: The measurement ledger
 
 ## §5. Reading the artifact directly: the funnel, the deaths, and the three survivors
 
@@ -370,7 +373,7 @@ projections, within-text ratios, and specification-conditional scoring. **Its ca
 conclusions transmit. Within-text ratios survive where reader-state measures die, and the
 within-artifact *movement* of the reader's affective series carries the polish signature (§2).
 
-# Part III — Contested estimators and prior art
+# Part III: Contested estimators and prior art
 
 ## §8. Residualisation: the proposed depth estimator, and its objections
 

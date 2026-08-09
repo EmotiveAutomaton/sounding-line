@@ -83,6 +83,8 @@ TESTS = [
     ("L47 late agreement falls, ladder",  1.857e-03, "primary", "results/coherence_v2/Qwen2.5-1.5B.json"),
     ("L47 late agreement falls, ladder2", 3.842e-03, "primary", "results/coherence_v2/Qwen2.5-1.5B.json"),
     ("L47 late agreement falls, ladder3", 2.270e-04, "primary", "results/coherence_v2/Qwen2.5-1.5B.json"),
+    ("L53 PD-1 v3 side difference",       2.600e-08, "primary", "results/positional_polish/summary.json"),
+    ("L55 essay-boundness split",         1.000e-04, "primary", "results/positional_polish/summary_b.json"),
     ("L24 biber_CONT fair, ladder",       1.700e-03, "primary", "results/fair_features/summary.json"),
     ("L24 biber_CONT fair, ladder2",      4.490e-07, "primary", "results/fair_features/summary.json"),
     ("L24 biber_COND fair, ladder3",      1.590e-13, "primary", "results/fair_features/summary.json"),
