@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-09 13:39",
+  "started": "2026-08-09 13:44",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -569,8 +569,16 @@
       "name": "length_direction_audit",
       "why": "was length a confound or a suppressor, per measure",
       "est_minutes": 3,
+      "status": "DONE",
+      "log": "results\\length_direction_audit.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "multiplicity",
+      "why": "re-correct the whole family after new results land",
+      "est_minutes": 1,
       "status": "RUNNING",
-      "log": "results\\length_direction_audit.log"
+      "log": "results\\multiplicity.log"
     }
   ],
   "shard": "0/1"

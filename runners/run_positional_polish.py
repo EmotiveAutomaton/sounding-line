@@ -49,14 +49,40 @@ def main() -> None:
     dep = [k for k in keys if any(p in k.lower() for p in DEPTH_PATTERNS)]
     print(f"{len(pol)} polish-side features, {len(dep)} depth-side features")
 
+    # v3: v2 z-scored each series by its own std before taking variance, and the variance of a
+    # z-scored series is 1 by construction -- the criterion could not fail (both medians landed at
+    # 0.9999999, p=5e-44 on epsilon arithmetic; quarantined in v2_zvar_degenerate/). The honest
+    # unit: positional variance in CORPUS-scale units, so features are comparable while the
+    # within-artifact movement stays the measured quantity.
+    corpus_std = {}
+    for k in keys:
+        allvals = np.array([float(w.get(k, 0.0) or 0.0) for it in items
+                            for w in it.get("windows", [])])
+        corpus_std[k] = float(np.nanstd(allvals))
+
     def posvar(it, ks):
-        # mean over features of the within-artifact positional variance of the z-scored series
         vals = []
         for k in ks:
+            if corpus_std[k] <= 0 or not np.isfinite(corpus_std[k]):
+                continue
             series = np.array([float(w.get(k, 0.0) or 0.0) for w in it["windows"]])
-            if series.std() > 0:
-                vals.append(float(np.var((series - series.mean()) / (series.std() + 1e-9))))
+            series = series[np.isfinite(series)]
+            if len(series) < 4:
+                continue
+            vals.append(float(np.var((series - series.mean()) / corpus_std[k])))
         return float(np.mean(vals)) if vals else None
+
+    # known-answer gate, per the standing rule: a planted flat series must score near zero and a
+    # planted moving series must score high, or the statistic cannot measure what it claims
+    flat = {"windows": [{"ka": 5.0} for _ in range(6)], "n_windows": 6}
+    moving = {"windows": [{"ka": float(v)} for v in (1, 9, 2, 8, 1, 9)], "n_windows": 6}
+    corpus_std["ka"] = 3.0
+    ka_flat, ka_move = posvar(flat, ["ka"]), posvar(moving, ["ka"])
+    print(f"known-answer gate: flat {ka_flat:.4f} moving {ka_move:.4f}")
+    if not (ka_flat < 0.01 and ka_move > 0.5):
+        print(">>> GATE-FAILED — statistic cannot separate flat from moving; no verdict")
+        sys.exit(1)
+    del corpus_std["ka"]
 
     pairs = []
     for it in items:

@@ -104,9 +104,9 @@ reconstruction is bad. The errors are the interesting part.
 **Reserved vocabulary, because "layer" had come to mean four different things:**
 
     functional level   what a stage DOES, in the human theory (core affect, drives, construction)
-    region             anatomy — subcortical structures, neocortex
+    region             anatomy -- subcortical structures, neocortex
     block              a transformer layer, by index
-    subspace           representational structure WITHIN blocks — channels, directions, geometry
+    subspace           representational structure WITHIN blocks -- channels, directions, geometry
 
 "Layer" without a qualifier is banned in this folder. And two grounded cautions from the
 commissioned analogue research ([`../method/NEURAL_ANALOGUES.md`](../method/NEURAL_ANALOGUES.md)).

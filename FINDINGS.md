@@ -1815,6 +1815,46 @@ statistic works and real self-revision genuinely sits low. What it cannot yet cl
 self-revision from *realistic* imposition — an editor's same-register touch — which is the mixed-
 provenance case the import exists for. One bad test away, and the next test is a subtler splice.
 
+## L53 · The definitional test's first valid run inverts the prediction, with a named confound
+
+**Hypothesis.** *(PD-1, the polish/depth split's own falsifier, first valid run after two
+instrument faults.)* Depth-side quantities should show smaller between-position variance than
+polish-side quantities within one artifact. The traces file's own words say that if both move
+equally the distinction is not real.
+
+**The second fault first.** The rebuilt runner's v2 statistic z-scored each feature series by its
+own spread before taking variance, and the variance of a z-scored series is 1 by construction.
+Both medians landed at 0.9999999 and the p-value of 10⁻⁴⁴ measured epsilon arithmetic. A criterion
+that could not fail, quarantined (`v2_zvar_degenerate/`), and the class the audit named now has a
+member written by the auditor. v3 normalizes each series by its feature's corpus-level spread
+instead, and ships a known-answer gate. A planted flat series must score near zero and a planted
+moving series high, before any real read (flat 0.0000, moving 1.52, gate passed).
+
+**Method.** `run_positional_polish.py` v3 over the rebuilt 80-word window cache (258 essays, five
+to eight windows each). 28 polish-side features (readability indices, type-token, punctuation)
+against 20 depth-side features (Biber's causal, conditional, concessive, relative, nominalization
+and participial tags, plus dependency distance); per essay, the mean within-artifact positional
+variance of each side in corpus-scale units; paired comparison across essays.
+
+| side | median positional variance |
+|---|---|
+| polish-side features | 0.583 |
+| depth-side features | 0.744 |
+
+*Positional variance: how much a feature moves between an essay's windows, in units of that
+feature's corpus-wide spread; the paired difference is significant at p = 2.6 × 10⁻⁸.*
+
+**Verdict: DEPTH-MOVES, the inverted direction, first pass, one confound named before anyone
+leans on it.** Depth-side features move *more* across positions than polish-side features on this
+corpus, and the prediction ran the other way. The confound is mechanical. The depth side is built
+from sparse count features (a window with one conditional against a window with none is a rate
+spike), while readability indices are dense over every word and smooth by construction, so the
+sides differ in sampling variance per window regardless of what the maker did. The discriminating
+follow-up (PD-1b) compares each feature's within-artifact variance to its between-artifact
+variance at matched window counts, which cancels the sampling floor. Until that runs, the licensed
+statement is narrow. On student essays the polish/depth feature sides do not move equally, and the
+excess sits on the depth side.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
