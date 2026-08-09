@@ -1179,12 +1179,13 @@ architectures and **the pre-registered direction was an artifact of which family
 **The map at eleven families, updated as cells land (2026-08-09).** Qwen runs negative at **all
 three of its sizes** — 0.5B (3/3 negative, ★ on the extreme), 1.5B (3/3 ★), and now 3B (−0.376,
 *p* = 0.007 on the first ladder) — **the only negative family, everywhere it is measured.** The
-positive camp: gpt2 strong at medium and large (5/5 ★), null at xl; SmolLM2 positive at both sizes
-(1.7B: +0.345, *p* = 0.014); pythia positive at 410m, fading through 1.4b to zero at 2.8b (−0.115
-n.s.). Two patterns stand: **the sign is a family constant, and within the positive camp the effect
-fades at each family's largest tested size** — gpt2 and pythia both go quiet at the top, which the
-characterisation work (G112) now has to explain alongside the sign itself. Five cells still
-running.
+positive camp: gpt2 strong at medium and large (5/5 ★), **null at xl on all three ladders** (the
+extreme arm landed at +0.05 n.s.); SmolLM2 positive at both sizes and on two corpora at 1.7B
+(+0.345, *p* = 0.014 and +0.229, *p* = 0.022); pythia positive at 410m, fading through 1.4b to zero
+at 2.8b (−0.115 n.s.). Two patterns stand: **the sign is a family constant, and the biggest member
+of gpt2 and pythia goes quiet while SmolLM2's larger size holds its sign** — so the fade is a
+top-of-family phenomenon with one exemption, and the characterisation work (G112) has three facts
+to explain: the sign, the fade, and the exemption. Three cells still running.
 
 ## L29 · The essays' two information-theory claims, first contact — both miss as operationalised
 
