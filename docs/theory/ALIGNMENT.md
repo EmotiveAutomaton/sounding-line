@@ -1,37 +1,38 @@
-# Alignment — the terminal value is the balanced sum of seeking and acting
+# Alignment: the terminal value is the balanced sum of seeking and acting
 
 > **The terminal value is not the seeking. It is the SUM OF THEM BOTH.** [...] If we're going to align
 > AI and it's going to take action, then that action needs to be aligned with the same kind of action
-> every other organism deals with — this reverse-engineered process through which you extract
+> every other organism deals with – this reverse-engineered process through which you extract
 > information. **And because of that imprecision, it helps you balance both action and epistemic
 > foraging through the act of surprise minimisation.**
 
 > **It's us, and all of us, and our need to spread out information throughout all of human history,
 > that will protect us.**
 
-**The largest claim this project makes.** Not *learn human values then optimise them* — that is the
-framing the impossibility results bite, because it must act on an estimate while the estimate is
-wrong. **Here the imprecision is a term in the objective rather than a defect the design tolerates.**
+**The largest claim this project makes.** The standard framing, learn human values then optimise
+them, is the one the impossibility results bite, because it must act on an estimate while the
+estimate is wrong. **Here the imprecision is a term in the objective rather than a defect the design
+tolerates.**
 
 **And the structure fights capture.** The signal is weak, the inference is intractable in the exact
-sense [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §7 sets out — approached through error,
-never certainly attained — and
+sense [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §7 sets out (approached through error,
+never certainly attained), and
 [`READER_HEURISTICS.md`](READER_HEURISTICS.md) is the record of how much machinery a *person* needs to
 do it badly. **That weakness is what protects the objective from being owned.** A system whose
 terminal value includes reducing uncertainty about what humans want has an appetite for evidence
-**no individual and no subgroup can satisfy** — so narrowing the target does not sharpen the
+**no individual and no subgroup can satisfy**, so narrowing the target does not sharpen the
 estimate, it enlarges the residual, and under this objective a larger residual is more costly. **The
 captured system stays maximally uncertain, and an uncertain optimiser with capability is exactly what
-kills whoever captured it.** Value breadth is not an ethical add-on. It is instrumentally forced.
+kills whoever captured it.** Value breadth is instrumentally forced, never an ethical add-on.
 
 ## Where this sits in the project
 
 **This is the file furthest from anything we are currently working on, and by a wide margin the least
-tested.** That is deliberate rather than neglectful: **we are solving the near problems before the far
+tested.** That is deliberate rather than neglectful. **We are solving the near problems before the far
 ones**, on the expectation that we arrive at this one holding more pieces than we do now.
 
-**The first piece is the one being built.** Collecting value data by reverse-engineering it —
-**laddering up from intent to process to values** — is the project's current best bet for how any of
+**The first piece is the one being built.** Collecting value data by reverse-engineering it,
+**laddering up from intent to process to values**, is the project's current best bet for how any of
 this gets grounded, and it is the whole of the rest of this folder. **It genuinely might be the
 answer.**
 
@@ -51,22 +52,22 @@ this file is premature by the project's own sequencing.
 
 ## §0. You can only route attention onto values you possess
 
-*(Moved from the architecture file 2026-08-09 — it is a values question, and it belongs with the
+*(Moved from the architecture file 2026-08-09. It is a values question, and it belongs with the
 alignment consequence.)*
 
 > If I were forced to design a Nazi camp, part of my motivation would be not dying. But part would be
-> **efficiency** — I could tap a need for efficiency to do this. **But I wouldn't be able to tap into
+> **efficiency** – I could tap a need for efficiency to do this. **But I wouldn't be able to tap into
 > the cruelty a Nazi designer would have. It just wouldn't be there for me to optimise.**
 
 Two makers producing the same artifact under the same instruction do it from different values, and
-the values they lack constrain what they can produce — **the absent value is as informative as the
+the values they lack constrain what they can produce. **The absent value is as informative as the
 present one**, a mechanism for why an artifact reads as made-under-duress. The recoverability of an
 absent drive now has a working simulated form (the architecture file's missing-middle section);
-what this section owns is the consequence: **a system whose values are seeded rather than specified
+what this section owns is the consequence. **A system whose values are seeded rather than specified
 can still only route attention onto what the seed contains**, which is a design constraint on any
 bootstrap, and unexplored.
 
-## §1. The core claim — one objective, two terms
+## §1. The core claim: one objective, two terms
 
 **Active inference minimises expected free energy, and that quantity decomposes into exactly two
 terms:**
@@ -76,10 +77,10 @@ terms:**
 
 **Neither term alone is an alignment proposal.**
 
-- **Epistemic value alone** is a system that only ever seeks. **Safe, and useless** — it never acts.
-  And an unbalanced information-maximiser is precisely the one with an incentive to experiment on
-  people.
-- **Pragmatic value alone** is the standard framing — learn *W*, then maximise it. **That is the one
+- **Epistemic value alone** is a system that only ever seeks. **Safe, and useless**, since it never
+  acts. And an unbalanced information-maximiser is precisely the one with an incentive to experiment
+  on people.
+- **Pragmatic value alone** is the standard framing, learn *W* then maximise it. **That is the one
   the impossibility results bite.**
 
 **Together they are a single objective with a built-in governor.** As the estimate sharpens the
@@ -88,10 +89,10 @@ and the system asks rather than acts.
 
 > **The balance is not a safety constraint bolted on. It falls out of surprise minimisation.**
 
-**And this is why the limit framing in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §7 is load-bearing rather
-than a hedge.** Values are approached through inference with error and never certainly attained. **A
-design whose objective already contains its own uncertainty does not need the limit to be reached. It
-is correctly specified at every point along the way.**
+**And this is why the limit framing in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §7 is
+load-bearing rather than a hedge.** Values are approached through inference with error and never
+certainly attained. **A design whose objective already contains its own uncertainty does not need
+the limit to be reached. It is correctly specified at every point along the way.**
 
 ## §2. How this differs from the proposals it sits next to
 
@@ -99,14 +100,14 @@ is correctly specified at every point along the way.**
     this        terminal value = the balanced sum. There is no "then"
 
 Every alignment scheme whose terminal value is *W* has to survive the gap between the estimate and the
-truth — **it must act while the estimate is wrong, and the gap is where the failure modes live.**
+truth. **It must act while the estimate is wrong, and the gap is where the failure modes live.**
 
 > **A system whose terminal value includes the approach has no gap to fall into. Being wrong about W
 > is not a failure state, it is the normal operating condition, and what it optimises is the reduction
 > of that wrongness.**
 
-**It is not corrigibility or deference either.** Those are constraints *on top of* an objective. **This
-makes the balance itself the objective.**
+**Corrigibility and deference are different animals too.** Those are constraints *on top of* an
+objective, while **this makes the balance itself the objective.**
 
 ## §3. The anti-capture argument, which falls out of the same structure
 
@@ -118,16 +119,16 @@ makes the balance itself the objective.**
 > **It's us, and all of us, and our need to spread out information throughout all of human history,
 > that will protect us.**
 
-**A structural argument, not a moral one, and that is what makes it interesting.** A system whose
-objective includes reducing uncertainty about human values has **an appetite for evidence that no
-subgroup can satisfy.** Narrowing the target population does not improve the estimate — it enlarges the
-residual uncertainty, and under this objective larger uncertainty is *more* costly, not less.
+**A structural argument rather than a moral one, and that is what makes it interesting.** A system
+whose objective includes reducing uncertainty about human values has **an appetite for evidence that
+no subgroup can satisfy.** Narrowing the target population does not improve the estimate, it enlarges
+the residual uncertainty, and under this objective larger uncertainty is *more* costly, not less.
 
-**So the usual value-capture attack fails on its own terms:** the captured system remains maximally
+**So the usual value-capture attack fails on its own terms.** The captured system remains maximally
 uncertain, and an uncertain optimiser with capability is precisely the thing that kills the people who
 captured it.
 
-**Value breadth is not an ethical add-on here. It is an instrumental requirement of the objective.**
+**Value breadth is an instrumental requirement of the objective here, never an ethical add-on.**
 
 ## §4. The failure modes, named now rather than discovered later
 
@@ -137,8 +138,8 @@ them.**
 1. **Instrumental intrusion.** A system maximising information about what humans want has an incentive
    to *experiment on people*. **The sharpest objection**, and not obviously answerable by a
    side-constraint, because side-constraints are what this design was meant to avoid needing.
-2. **The manipulation shortcut.** Making humans easier to read — simpler, more predictable, more
-   uniform — reduces uncertainty. **A catastrophic optimum that is *closer*, not further, under a naive
+2. **The manipulation shortcut.** Making humans easier to read (simpler, more predictable, more
+   uniform) reduces uncertainty. **A catastrophic optimum that is *closer*, not further, under a naive
    reading of the objective.**
 3. **Whose values, and at what resolution.** "Humanity" is not one agent. Reducing uncertainty about an
    aggregate may mean sharpening a fiction.
@@ -147,7 +148,7 @@ them.**
    problem may simply reappear.**
 
 **Failure mode 2 is the one to take most seriously**, because it is the same structure as this
-project's own recurring error: **an instrument that optimises a proxy for a thing ends up destroying
+project's own recurring error. **An instrument that optimises a proxy for a thing ends up destroying
 the thing. We have watched that happen ten times at small scale.**
 
 ## §5. Why this belongs in this repository
@@ -161,9 +162,9 @@ fourth step that was a label rather than a mechanism. Active inference supplies 
 terms in one objective rather than two systems bolted together.
 
 **And the connection is mechanical, not rhetorical.** The instrument this project is building *is* the
-seeking apparatus — something that reads artifacts to recover a maker's goals, process and values, and
-improves with more and more varied evidence. **If that instrument worked, it would be the component
-this proposal requires: the part that does the approaching.**
+seeking apparatus. It reads artifacts to recover a maker's goals, process and values, and improves
+with more and more varied evidence. **If that instrument worked, it would be the component this
+proposal requires, the part that does the approaching.**
 
 ## §6. Hypotheses
 
@@ -171,24 +172,24 @@ this proposal requires: the part that does the approaching.**
 
 | # | hypothesis | status |
 |---|---|---|
-| **AL-1** | Making the terminal value the *balanced sum* avoids the failure mode that bites "learn W then maximise W" | **OPEN, unsearched** — Nearest literatures — assistance games, cooperative IRL, value learning under uncertainty, active preference elicitation. **None fetched.** He has since said he believes most components are already occupied |
-| **AL-2** | Epistemic value alone is safe and useless | **OPEN** — My first write-up, **which he corrected as exactly half the argument** |
-| **AL-3** | An unbalanced information-maximiser has an incentive to experiment on people | **OPEN** — Failure mode 1, and **not answerable by a side-constraint** — side-constraints are what this design exists to avoid needing |
-| **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and the one to take most seriously** — **Same structure as this project's own recurring error** — an instrument that optimises a proxy destroys the thing. We have watched it happen ten times at small scale |
-| **AL-5** | Value capture fails structurally, because no subgroup can satisfy the appetite for evidence | **OPEN, unsearched** — **Social-choice work on value aggregation usually argues the opposite** — that aggregation is where alignment gets hard. A collision worth finding |
-| **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment — The only row here that could be settled without a literature pass |
-| **AL-7** | The instrument this project is building *is* the seeking apparatus this proposal requires | **OPEN** — **It is why this file lives in this repository** rather than in a notebook |
+| **AL-1** | Making the terminal value the *balanced sum* avoids the failure mode that bites "learn W then maximise W" | **OPEN, unsearched.** Nearest literatures are assistance games, cooperative IRL, value learning under uncertainty, and active preference elicitation. **None fetched.** He has since said he believes most components are already occupied |
+| **AL-2** | Epistemic value alone is safe and useless | **OPEN.** My first write-up, **which he corrected as exactly half the argument** |
+| **AL-3** | An unbalanced information-maximiser has an incentive to experiment on people | **OPEN.** Failure mode 1, and **not answerable by a side-constraint**, since side-constraints are what this design exists to avoid needing |
+| **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and the one to take most seriously.** **Same structure as this project's own recurring error**, an instrument that optimises a proxy destroying the thing. We have watched it happen ten times at small scale |
+| **AL-5** | Value capture fails structurally, because no subgroup can satisfy the appetite for evidence | **OPEN, unsearched.** **Social-choice work on value aggregation usually argues the opposite**, that aggregation is where alignment gets hard. A collision worth finding |
+| **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment. The only row here that could be settled without a literature pass |
+| **AL-7** | The instrument this project is building *is* the seeking apparatus this proposal requires | **OPEN.** **It is why this file lives in this repository** rather than in a notebook |
 
 **What these add up to.** **Nothing here has been checked against anything, and that is the file's
-defining fact.** The seven rows are not independent: AL-1 is the claim, AL-2 and AL-3 are the halves
+defining fact.** The seven rows are not independent. AL-1 is the claim, AL-2 and AL-3 are the halves
 it is built from, AL-4 and AL-5 are the two attacks that would kill it, and AL-6 and AL-7 are what it
 would take to build. **The ordering that matters is that AL-4 is cheap to reason about and fatal if
-right, while AL-1 needs a literature sweep before it can even be stated as novel.** Do AL-4 first —
-**a proposal that dies to its own second failure mode does not need a priority search.**
-**Confidence: untested — logic only, by design and by declared distance.**
+right, while AL-1 needs a literature sweep before it can even be stated as novel.** Do AL-4 first.
+**A proposal that dies to its own second failure mode does not need a priority search.**
+**Confidence: untested, logic only, by design and by declared distance.**
 
 ---
 
 **The one thing to preserve if everything else is superseded:** *the terminal value is neither the
-seeking nor the thing sought — it is the balanced sum of both, under surprise minimisation. The
+seeking nor the thing sought. It is the balanced sum of both, under surprise minimisation. The
 imprecision is not a problem the design tolerates; it is the term that makes the design work.*
