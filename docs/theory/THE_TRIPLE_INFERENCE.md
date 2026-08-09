@@ -441,12 +441,13 @@ account in `POLISH_AND_DEPTH.md`.
 |---|---|---|---|
 | **lit** | A reward function is not identifiable from one episode | **SUPPORTED (READ)** | **Amin, Jiang & Singh (NeurIPS 2017) state our decomposition and our consequence verbatim, nine years early** |
 | **lit** | Recovery stays impossible even with unlimited episodes | **CONTESTED (READ)** | Armstrong & Mindermann; Skalse et al.; Cao et al. — partial identifiability persists in the infinite-data limit. **We do not dispute the proofs. We dispute that their conditions describe a human reading a human artifact** |
-| **G60** | Recovery error shrinks with more artifacts by one maker, toward a small residual | **OPEN.** The disagreement stated as something measurable rather than argued | **Report the asymptote, not just the slope** — the theorems constrain how much ambiguity is left, and nobody has measured it |
+| **G60** | Recovery error shrinks with more artifacts by one maker, toward a small residual | **FIRST MEASUREMENT (test, L34).** Author recovery from function words: **0.54 → 0.61 → 0.60** against 0.20 chance as reference works grow 1 → 3 — **converges, then flattens, residual 0.40** | **The asymptote is now a number, not a metaphor** — measured on five authors and the cheapest channel we own, so it is a floor for better designs, and both halves of the limit framing (real convergence, irreducible residual) are visible in one curve |
 | **G61** | Supplying an explicit competence estimate improves goal recovery | **OPEN** | If it does, **the "fatal unknown" is an input we can provide** |
 | **G62** | Assuming the maker intends to be understood improves recovery | **OPEN, and unused.** A fourth constraint on the hypothesis space | **Must be tested against concealment cases**, where the assumption is false and would license confident wrong inference |
 | **G63** | Aesthetic structure functions as deliberately-left scaffolding for descent | **OPEN** | Would make polish partly communicative rather than only performative — **a different claim from anything in `POLISH_AND_DEPTH.md`** |
 | **G64** | Re-reading one artifact recovers the tail, so depth of reading substitutes partially for breadth of corpus | **OPEN** | **§4 says the tail is where the un-optimised residue lives**, so this and the values claim are the same bet from opposite ends |
 | **G67** | Readers grant the teacher assumption to generated text, and that is why it misleads | **OPEN.** A claim about **readers**, not models — an inference running correctly on a false premise | **A different account from the polish–effort story**, and the two make different predictions about what happens when provenance is disclosed |
+| **G115** | A reader model's affective read shifts under a provenance frame alone | **SUPPORTED (test, L33).** Identical text framed "by a person" vs "by an AI": the early/late ratio moves +0.007 and affect magnitude drops, both paired *p* < 1e-8 | **The provenance prior exists in the reading machinery itself** — the model-side face of G67. Tiny in size, unambiguous in sign; disclosure is not affect-neutral even for a machine reader. Replications on the other ladders queued |
 
 **What these add up to.** The theorems are real, recent and proved, and **the project's position is
 not that they are wrong but that their conditions do not describe the case** — which makes this an
@@ -456,6 +457,11 @@ near-optimality were the three that matched the proofs' requirements; **the teac
 fourth, it is standard in the cooperative-IRL literature, and it is free.** Its cost is that it fails
 exactly where concealment lives, so it cannot be adopted globally — **which makes *when to assume a
 teacher* a measurable question in its own right, and nobody has asked it.**
+Two measurements arrived overnight (2026-08-09) and both sit here: **the convergence curve exists**
+(G60 — recovery sharpens with works, flattens, and leaves a 0.40 residual on the cheapest channel,
+so the limit framing now has a measured shape), and **the provenance prior is real in the reading
+machinery itself** (G115 — a one-line frame moves the affective read at *p* < 1e-8), the first
+empirical foothold this section has for the teacher-assumption family of claims.
 
 **Everything is an artifact, including biography.**
 

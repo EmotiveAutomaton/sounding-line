@@ -850,9 +850,11 @@ artifacts are *more constrained*, so a wrong specification fits them **worse** �
 second-order confirmation rather than a problem, but it was not predicted and it should not be
 reported as if it had been.
 
-**Verdict: OPEN — well controlled against decoys and shuffling, and now FAILING its pre-registered
-echo restriction as strictly implemented (two blocks down).** Best-supported-in-the-project status
-suspended pending G113.
+**Verdict: OPEN, under active suspicion — two of its three newest controls flag it.** The strict
+echo restriction fires its kill (below), and **the no-maker control awards it wins where nothing is
+true (L32: 3 of 36 against 0.37 expected, *p* = 0.006)**, on top of the decoy-degeneracy bound.
+Best-supported-in-the-project status withdrawn; its numbers are not quoted as recovery until the
+graded-echo curve (G113) and a wider pool (G108) adjudicate.
 
 **Second audit hit, 2026-08-08 (L26): decoy-pool exhaustion.** The extreme ladder's pool holds 60
 specifications and its top rungs *are* 30 and 60 of them. At rung 60 the complement is empty — **all
@@ -1174,6 +1176,16 @@ it. Same lesson as the per-layer map, now with teeth: the measure is real in at 
 architectures and **the pre-registered direction was an artifact of which family we explored first**
 (G112 characterises what the fixed depth fractions straddle per family).
 
+**Overnight extension, 2026-08-09 — eight of eleven families now have cells, and the sign is a
+family constant.** Qwen-0.5B runs negative on all three ladders (−0.344, *p* = 0.0025 on the
+extreme) — **the Qwen sign holds within the family at a fifth the size.** gpt2-large joins
+gpt2-medium at full strength (+0.526, *p* = 8.6e-5 / +0.452, *p* = 2.3e-6) — **but gpt2-xl is
+near-null** (+0.03 / +0.12), so the positive effect fades at the family's top size. And
+pythia-410m reaches significance on the extreme ladder (+0.338, *p* = 0.003), joining SmolLM2-360M
+in the pattern where **the positive camp becomes significant preferentially where the manipulation
+is strongest.** Missing cells (Qwen-3B, SmolLM2-1.7B, pythia-2.8b, two ladder3 arms) timed out
+overnight under two-shard GPU contention and re-run serially today.
+
 ## L29 · The essays' two information-theory claims, first contact — both miss as operationalised
 
 **Hypothesis.** From the essays, untested until tonight: machine text lacks the Kolmogorov
@@ -1192,6 +1204,10 @@ though register and length are uncontrolled in that comparison and the books gro
 first pass (store-mapping bug, fixed, re-queued). **Means:** whatever the ladder's specifications
 add, it is not lzma-visible structure; and "the average fish" needs a register-matched test before
 it survives contact — as run, the *human* essays hug the centroid.
+
+**Books arm landed overnight: no Kolmogorov gap.** Human long-form and machine ladder text are
+equally compressible at matched length — **0.4552 versus 0.4562** — with no-maker text slightly
+*less* compressible than either. Both essay claims stay missed with the clean comparison in.
 
 ## L30 · Placement does not scale — the live worry's second test returns its strongest answer
 
@@ -1226,6 +1242,57 @@ location claim in the project that transfers — and **the depth transform is la
 pythia and gpt2 but not in the flagship family.** G44's fit-the-transform build should start in
 pythia; **Qwen, where all the flagship results live, is the wrong place to look for a lawful
 rotation — one more way the flagship family is the outlier (after L28).**
+
+## L32 · Specification recovery awards wins on maker-less text — the third strike
+
+**Hypothesis.** The no-maker control the measure never had (owed explicitly in the theory
+afterword): on text with no maker, where a randomly assigned "true" specification set is exactly as
+false as its 96 decoys, the contest should win at the 1-in-97 chance rate and recover ~zero bits.
+
+**Method.** `run_nomaker_specrec.py`: every no-maker artifact gets a pseudo-true set (rung 2, 6 or
+10) plus 96 disjoint decoys — a ladder item's contest with no true candidate anywhere in it.
+
+**Verdict: READS-STYLE.** The pseudo-true set wins **3 of 36 contests against an expected 0.37**
+(binomial *p* = 0.0061), and mean recovered bits sit at 0.89 rather than near zero. **Means:** the
+contest can award wins for something that is not executed specifications — on three artifacts the
+arbitrary set fit maker-less text better than 96 equally false alternatives. Three artifacts is a
+thin base and the pseudo-prompt template differs from the ladder's; but **this is the second live
+control to flag the measure in two days** (after the strict echo kill, L19), on top of the decoy
+bound. Specification recovery's evidence now runs through the graded-echo curve (G113) and a wider
+pool (G108) before any of its numbers are quoted as recovery.
+
+## L33 · The reader carries a provenance prior — framing alone moves the affective read
+
+**Hypothesis.** *(The paper's H1, run in the reader model.)* If a one-line frame — "The following
+passage was written by a person." versus "…by an AI." — changes the reader's affective activations
+on identical text, the reader has a provenance prior, and every unframed measurement in this
+project sits on the neutral setting of a knob nobody had turned.
+
+**Method.** `run_provenance_framing.py`: 30 held-out-ladder artifacts, every 200-word window read
+under both frames (token-length matched), paired per artifact: the flagship early/late ratio and
+mean affect magnitude.
+
+**Verdict: FRAMING-MOVES.** The ratio shifts **+0.0066 under the AI frame** (paired Wilcoxon
+*p* = 5.6e-9) and affect magnitude drops −0.0006 (*p* = 1.9e-9). **Means:** tiny in absolute terms,
+unambiguous in sign — **the reading machinery itself responds to claimed provenance**, the
+model-side analogue of granting text a teacher (G67). The early-relative shift under the AI frame
+is the opposite direction of a human's engagement collapse, which is worth its own thought.
+Replication arms on the other two ladders run today.
+
+## L34 · The convergence curve exists — recovery sharpens with works, flattens, and leaves a residual
+
+**Hypothesis.** *(§8's disagreement with the impossibility proofs, stated measurably: G60.)*
+Recovery of a maker should improve with more artifacts by that maker, approach an asymptote, and
+leave the residual the theorems demand — *"report the asymptote, not just the slope."*
+
+**Method.** `run_author_convergence.py`: function-word centroids per author from k = 1, 2, 3
+reference books; held-out 1,000-word chunks classified by nearest centroid; 20 random splits.
+
+**Verdict: CONVERGES, then flattens.** Accuracy 0.541 → 0.614 → 0.604 against a 0.20 chance rate;
+**the residual at k = 3 is 0.40.** **Means:** the limit-approached-through-error shape §8 predicts,
+with both halves visible — real convergence, and a large measured residual, on a small author pool
+(five) and the cheapest channel we own. The asymptote is now a number future designs must beat
+rather than a metaphor.
 
 ## L4 · Can weak effects be stacked into a detector?
 

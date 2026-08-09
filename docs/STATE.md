@@ -64,11 +64,14 @@ Format spec is in `docs/theory/README.md`. Per file, in this order:
 - **Day loop:** one detached shell (survives sessions), lock in `results/.loop.lock`; stop with
   `kill $(cat results/.loop.lock)`. Night: `bash run_forever_night.sh [hours] [workers]` (refuses
   while day loop runs). Queue has pid lock + `--shard/--shards`.
-- **STAGES now (refilled 2026-08-08, ~8.5 h):** G21 binary salience → G103 fair-control induction on
-  three non-Qwen families (outputs are model-tagged; the untagged name would have overwritten the
-  flagship file — fixed in the runner first) → L26 repairs: 4 depth-readout re-runs under v2 verdict
-  rules + the pre-registered `--no-echo` spec-recovery run → G104 matrix fill: 4 new readout families,
-  8 depth sweeps → guarded standing stages → the two audits.
+- **Morning state 2026-08-09:** night ran 10 h × 2 shards and delivered the family-sign map's small
+  and medium arms plus the derived-test battery — **but six heavy-model induction arms burned 2 h
+  each into TIMEO** (two shards co-loading 3B-class models thrash the card; G120). Day loop running
+  the ~30-stage backlog serially: remaining induction cells, the G113 echo curve, G115 replications,
+  G21b cross-family, HH-3 activation variance, G107 permutation, 3 readouts, 8 correlation cells,
+  G114 v2 (first up, running). **Switchover note: I deleted the night lock before killing the night
+  shell — the reverse of the kill order the history teaches; no double-write resulted (disjoint
+  stages), but the order was wrong and is re-recorded here.**
 - **Audit L26 landed (2026-08-08, the conservative fleet):** 15 confirmed defects. Two more criteria
   that could not fail (no-maker NaN gate — re-adjudicated, luck-level overall, flagship concentration
   → G107; affect shuffle gate below its arithmetic floor). Coherence statistic VOID (G105), SHIFTS
