@@ -87,13 +87,22 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--corpora", default="ladder,ladder2,nomaker,gate3")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--window", type=int, default=None,
+                    help="override the window size (G119 needs small windows on short essays)")
+    ap.add_argument("--suffix", default="",
+                    help="cache filename suffix so a re-windowed build never overwrites the main cache")
     args = ap.parse_args()
+
+    # G119: a positional analysis needs more than one window per short essay
+    global WINDOW
+    if args.window:
+        WINDOW = args.window
 
     from soundingline.measures.features import extract                 # noqa: PLC0415
 
     OUT.mkdir(parents=True, exist_ok=True)
     for cname in args.corpora.split(","):
-        dest = OUT / f"{cname}.json"
+        dest = OUT / f"{cname}{args.suffix}.json"
         if dest.exists() and not args.force:
             # A cache written by a broken environment holds empty feature dicts, and skipping it
             # froze a corrupt file for three days (audit L26). Validate before trusting.

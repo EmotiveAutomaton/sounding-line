@@ -114,18 +114,29 @@ class Reader:
         self.max_tokens = max_tokens
         self.name = model_name
 
-    def read(self, text: str) -> LayerActs:
-        """Mean-pooled hidden state per layer, over real tokens only.
+    def read(self, text: str, pooling: str = "mean") -> LayerActs:
+        """Hidden state per layer, over real tokens only. Default pooling is MEAN.
 
         Mean-pooled rather than last-token because an artifact has no meaningful final token — it
         is not a prompt awaiting a completion. Padding is masked out so a short text is not
         averaged toward whatever the pad embedding happens to be.
+
+        `pooling` exists for the falsifier arm only (G127): extraction choice systematically
+        biases layer-wise conclusions (Hadidi 2025), so profile claims are re-checked under
+        "last" and "max". Every standing result uses the default.
         """
         t = self.tok(text, return_tensors="pt", truncation=True,
                      max_length=self.max_tokens).to(self.device)
         with self.torch.no_grad():
             out = self.model(**t)
         mask = t["attention_mask"].unsqueeze(-1).float()
+        if pooling == "last":
+            idx = int(t["attention_mask"].sum().item()) - 1
+            return LayerActs(acts=[h[0, idx].float().tolist() for h in out.hidden_states])
+        if pooling == "max":
+            neg = (1.0 - mask) * -1e9
+            return LayerActs(acts=[(h * mask + neg).max(dim=1).values.squeeze(0).float().tolist()
+                                   for h in out.hidden_states])
         n = mask.sum()
         return LayerActs(acts=[((h * mask).sum(dim=1) / n).squeeze(0).float().tolist()
                                for h in out.hidden_states])

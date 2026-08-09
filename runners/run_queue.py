@@ -226,6 +226,83 @@ STAGES: list[dict] = [
      "why": "re-correct the whole family after new results land"},
 ]
 
+# ── BUILD DAY 2026-08-09 — ten new instruments, loaded deep. CPU first, GPU, Ollama last.
+STAGES_DAY9 = [
+    {"name": "revision_homogeneity", "est": 6,
+     "cmd": [PY, "runners/run_revision_homogeneity.py"],
+     "produces": "results/revision_homogeneity/summary.json", "needs": [],
+     "why": "G81: self-revision homogeneous vs imposed lumpy, with a synthetic-splice control"},
+    {"name": "revision_purpose", "est": 12,
+     "cmd": [PY, "runners/run_revision_purpose.py"],
+     "produces": "results/revision_purpose/summary.json", "needs": [],
+     "why": "PD-28: polish or the first depth signal on human text — the labels were on disk all along"},
+    {"name": "feature_visibility", "est": 20,
+     "cmd": [PY, "runners/run_feature_visibility.py"],
+     "produces": "results/feature_visibility/summary.json", "needs": [],
+     "why": "G87: low-visibility features carry who, high-visibility carry what"},
+    {"name": "argrewrite_w80_cache", "est": 25,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "argrewrite", "--window", "80",
+             "--suffix", "_w80"],
+     "produces": "results/features/argrewrite_w80.json", "needs": [],
+     "why": "G119 input: the small-window cache positional analysis needs"},
+    {"name": "positional_polish", "est": 5,
+     "cmd": [PY, "runners/run_positional_polish.py"],
+     "produces": "results/positional_polish/summary.json",
+     "needs": ["results/features/argrewrite_w80.json"],
+     "why": "PD-1 at last: the definitional polish/depth test — the file's own falsifier"},
+    {"name": "pooling_falsifier", "est": 40,
+     "cmd": [PY, "runners/run_pooling_falsifier.py"],
+     "produces": "results/pooling_falsifier/Qwen2.5-1.5B.json", "needs": [],
+     "why": "G127: does the early/late story survive last-token and max pooling?"},
+    {"name": "cka_alignment", "est": 45,
+     "cmd": [PY, "runners/run_cka_alignment.py"],
+     "produces": "results/cka_alignment/summary.json", "needs": [],
+     "why": "G124: align families by computational events; where do the loci actually land?"},
+    {"name": "reader_convergence3", "est": 80,
+     "cmd": [PY, "runners/run_reader_convergence3.py"],
+     "produces": "results/reader_convergence/summary_v3.json", "needs": [],
+     "why": "G114b: judge-rated goal similarity + fixed-topic dose — the discriminator, rebuilt"},
+]
+for _m in ("Qwen/Qwen2.5-1.5B", "openai-community/gpt2-medium", "EleutherAI/pythia-1.4b",
+           "HuggingFaceTB/SmolLM2-360M", "Qwen/Qwen2.5-0.5B", "openai-community/gpt2-large",
+           "EleutherAI/pythia-410m", "HuggingFaceTB/SmolLM2-1.7B"):
+    _t = _m.split("/")[-1]
+    STAGES_DAY9.append({"name": f"coherence_v2_{_t}", "est": 20,
+                        "cmd": [PY, "runners/run_coherence_v2.py", "--model", _m],
+                        "produces": f"results/coherence_v2/{_t}.json", "needs": [],
+                        "why": "G105: the rebuilt agreement statistic, known-answer gated — re-adjudicates G33"})
+for _m in ("Qwen/Qwen2.5-1.5B", "openai-community/gpt2-medium", "EleutherAI/pythia-1.4b",
+           "HuggingFaceTB/SmolLM2-360M", "openai-community/gpt2-large", "Qwen/Qwen2.5-0.5B",
+           "EleutherAI/pythia-410m", "HuggingFaceTB/SmolLM2-1.7B"):
+    _t = _m.split("/")[-1]
+    STAGES_DAY9.append({"name": f"block_contribution_{_t}", "est": 20,
+                        "cmd": [PY, "runners/run_block_contribution.py", "--model", _m],
+                        "produces": f"results/block_contribution/{_t}.json", "needs": [],
+                        "why": "G126: write norm, affect work, d-prime — the defensible per-block quantities"})
+for _m in ("Qwen/Qwen2.5-1.5B", "openai-community/gpt2-medium", "EleutherAI/pythia-1.4b",
+           "HuggingFaceTB/SmolLM2-360M", "Qwen/Qwen2.5-0.5B", "openai-community/gpt2-large",
+           "openai-community/gpt2-xl", "EleutherAI/pythia-410m", "EleutherAI/pythia-2.8b",
+           "HuggingFaceTB/SmolLM2-1.7B", "Qwen/Qwen2.5-3B"):
+    _t = _m.split("/")[-1]
+    STAGES_DAY9.append({"name": f"control_subspaces_{_t}", "est": 12,
+                        "cmd": [PY, "runners/run_control_subspaces.py", "--model", _m],
+                        "produces": f"results/control_subspaces/{_t}.json", "needs": [],
+                        "why": "G43: is the early break affective or the input adapter's edge?"})
+    STAGES_DAY9.append({"name": f"subspace_v2_{_t}", "est": 5,
+                        "cmd": [PY, "runners/run_subspace_alignment.py", "--model", _m],
+                        "produces": f"results/subspace/{_t}.json", "needs": [],
+                        "why": "G111: regenerate under the rank-truncated basis and distant-matched null"})
+for _m in ("HuggingFaceTB/SmolLM2-360M", "Qwen/Qwen2.5-0.5B", "Qwen/Qwen2.5-3B",
+           "openai-community/gpt2-large", "openai-community/gpt2-xl",
+           "EleutherAI/pythia-410m", "EleutherAI/pythia-2.8b", "HuggingFaceTB/SmolLM2-1.7B"):
+    _t = _m.split("/")[-1]
+    STAGES_DAY9.append({"name": f"binary_powered_{_t}", "est": 40,
+                        "cmd": [PY, "runners/run_binary_salience.py", "--model", _m,
+                                "--neutral-per", "500"],
+                        "produces": f"results/binary_salience/{_t}_powered.json", "needs": [],
+                        "why": "G21b map: where does the presence peak sit, family by family?"})
+STAGES = STAGES_DAY9 + STAGES
+
 # ── NIGHT LOAD 2026-08-08 — generated blocks: explicit model lists, deterministic order, every
 # stage produces-guarded. Heavy models are spaced inside each corpus block so two shards rarely
 # co-load more than ~9 GB; a rare unlucky alignment fails once and retries next pass.

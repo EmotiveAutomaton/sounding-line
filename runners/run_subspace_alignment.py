@@ -93,11 +93,16 @@ def main() -> None:
     print(f"  {n_layers} layers, {len(concepts)} affect concepts\n", flush=True)
 
     def basis(L: int) -> np.ndarray:
-        """Orthonormal basis for the subspace spanned by the affect directions at layer L."""
+        """Orthonormal basis for the subspace spanned by the affect directions at layer L.
+
+        Rank-truncated (audit G111): centring 8 vectors leaves a rank-7 span, and the old
+        min(8, dim) kept one numerically arbitrary filler column that diluted every alignment.
+        """
         M = np.array([np.asarray(dirs.vecs[c][L], dtype=float) for c in concepts])
         M = M - M.mean(0)
-        q, _ = np.linalg.qr(M.T)
-        return q[:, : min(M.shape[0], M.shape[1])]
+        q, r = np.linalg.qr(M.T)
+        keep = np.abs(np.diag(r)) > 1e-8
+        return q[:, keep]
 
     B = [basis(L) for L in range(n_layers)]
     widths = [b.shape[0] for b in B]
@@ -114,16 +119,20 @@ def main() -> None:
         for j in range(n_layers):
             A_mat[i, j] = align(B[i], B[j])
 
-    # null: random subspaces of identical dimension in the same ambient width
+    # null: random 8-vector sets, CENTRED AND RANK-TRUNCATED IDENTICALLY to the real basis, and
+    # scored on DISTANT pairs only — the statistic the verdict compares against (audit G111: the
+    # old null pooled all pairs, making it anti-conservative for any borderline model)
     nulls = []
     for _ in range(args.n_random):
         R = []
         for L in range(n_layers):
-            q, _ = np.linalg.qr(rng.standard_normal((widths[L], k)))
-            R.append(q)
+            V = rng.standard_normal((len(concepts), widths[L]))
+            V = V - V.mean(0)
+            q, r = np.linalg.qr(V.T)
+            R.append(q[:, np.abs(np.diag(r)) > 1e-8])
         nulls.append(np.mean([align(R[i], R[j])
                               for i in range(n_layers) for j in range(i + 1, n_layers)
-                              if widths[i] == widths[j]]))
+                              if j - i >= n_layers // 2 and widths[i] == widths[j]]))
     null_mean = float(np.mean(nulls))
     null_hi = float(np.percentile(nulls, 97.5))
 
