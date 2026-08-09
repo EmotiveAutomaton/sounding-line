@@ -327,8 +327,9 @@ constraint is communicative intent:
 > **CIRL literature makes it easier for you to learn if you assume you have a teacher**, assuming that
 > teacher exists and helps. **You can assume intention to help from the evidence.**
 
-That prior is canonical in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §1, with its concealment
-caveat; here it is one identifiability assumption among four, adoptable only conditionally.
+That prior is canonical in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) (stated in its §1, tested
+in its §8), with its concealment caveat; here it is one identifiability assumption among four,
+adoptable only conditionally.
 
 ## §8. The evidence ledger
 

@@ -197,15 +197,14 @@ count relation and everything of ours is untested or instrument-dead.
 |---|---|---|
 | **G40** | A coherent affect subspace exists, consistent across families | **SUPPORTED (test).** Four to six times its matched null even between the most distant blocks, in **all eleven families**, 0.35B–3B, four architectures — the rotation *rate* is consistent where the magnitude profile never was |
 | **G42** | The subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at the earliest boundary beats any three-band split — in the original four families and in all eleven on the extended check |
-| **G43** | The early break is affective rather than an input-adapter artifact | **REJECTED (test), first three families of eleven, unanimous.** Topic, syntax, and frequency subspaces measured identically all snap at the same block the affect subspace does — the boundary is the input adapter's edge and carries no mapping information. The gate he set resolves in the deflationary direction |
+| **G43** | The early break is affective rather than an input-adapter artifact | **REJECTED (test), all eleven families, unanimous.** Topic, syntax, and frequency subspaces measured identically all snap at the same block the affect subspace does, in every family — the boundary is the input adapter's edge and carries no mapping information. The gate he set resolves in the deflationary direction |
 | **G44** | The depth transform of the subspace is recoverable | **OPEN — first bite landed.** Alignment *composes* lawfully in pythia (R² 0.88–0.92) and gpt2 (0.78–0.84), weakly in SmolLM2, **not in Qwen (0.20–0.30)** — fit the transform where it is lawful, and note the home family is the outlier again |
 | **G46** | Weaker models place the structure more poorly | **REJECTED (test) as a scale story** — placement quality tracks parameter count at rho +0.05 across eleven families: **architectural, not learned**, which is the direction the amplify-rather-than-build strategy needed |
 | **G39** | The three levels are subspaces rather than depths | **REJECTED (test)** — the subspace rotates with depth |
 
-The rank-dilution caveat that rode all these numbers is retiring: rank-truncated bases against a
-distant-matched null reproduce the rotation in the first three families re-run (neighbouring
-blocks share most of the subspace, distant blocks a third, everything five to eight times above
-chance) — no verdict flips; eight families remain.
+The rank-dilution caveat that rode all these numbers is retired: rank-truncated bases against a
+distant-matched null reproduce the rotation in all eleven families (adjacent blocks share
+0.78–0.96 of the subspace, distant 0.21–0.42, chance ~0.05) — no verdict flips anywhere.
 
 **What the table says.** There is one coherent affective structure; it rotates continuously
 through depth rather than sitting in bands; its placement does not improve with scale; and its
@@ -214,9 +213,9 @@ meaning: every content type measured — topic, syntax, frequency — snaps at t
 so the break is the input adapter's seam and says nothing about affect. **What remains is a
 consistent shape that is not yet the shape this file claims**, because nothing ties the structure
 to drives, to the middle, or to any causal role — and its one candidate landmark just proved
-generic. Confidence: existence, rotation, and the scale result are replicated and controlled; the
-adapter-edge rejection and the repaired-basis confirmation are each one bad test away until their
-batteries complete.
+generic. Confidence: existence, rotation, the scale result, the adapter-edge rejection, and the
+repaired-basis confirmation are all replicated and controlled — eleven families each; what the
+structure *means* remains gated on causality.
 
 ## §6. Address versus tracking — the two umbrellas the predictions became
 
@@ -234,14 +233,16 @@ The route back in for the three-locus version, nobody having tried it:
 | **G22** | A smeared three-locus structure is recoverable in the *residual* after fitting one peak | **OPEN on real models; the instrument has an operating regime (sim, V11).** The smear is architectural — a planted three-locus world reads as one mid peak in 100% of runs *and* 100% of reparameterisations, so published mid-peak profiles are uninformative against a three-locus truth. The residual statistic separates the worlds at AUC 0.87 in 25% of parameterisations — **feasibility in a bounded regime, not universality** |
 | **G31** | The middle is high-activity and low-coherence | **REJECTED (test)** — 2 of 33 runs; the modal pattern is a *quiet* middle, identically on maker-less text |
 | **G69** | The intent signal peaks deeper as rung rises | **REJECTED (test)** — the apparent shifts were two near-tied fixed loci trading rank; regenerated verdicts show fixed peaks in all eleven families |
-| **G21** | Block 0 is a pure salience gate — presence without category | **REJECTED (test); half-survived at power in the home family only.** At 500 neutral items block 0 is the *presence peak* there (0.637, best in the model) while carrying category at 8.4× chance — and the presence peak sits at block 8 in gpt2, block 19 in pythia. **Salience-first was a home-family fact** |
+| **G21** | Block 0 is a pure salience gate — presence without category | **REJECTED (test) at power, all eleven families — including the home-family half-survival.** Presence is near-flat through every stack (block 0 within a few points of the best block everywhere), so the scattered "peak locations" were argmaxes of level curves, the home block-0 peak included; and block 0 carries category at 8–9× chance in every family. **No model has a presence-only stage at its front door** |
 | **L14** | The depth profile is bimodal | **REJECTED (test)** — 27 of 36 runs unimodal; the exceptions are two families and appear in their no-maker runs too |
 | **G124** | Aligned by computational events rather than depth fractions, the loci land somewhere lawful across families | **SUPPORTED (test), first pass.** Activation-similarity alignment against five families: the home early locus matches a block in the first sixth of the stack in four of five, and the late locus lands at 62–83% depth in all five. The exception is SmolLM2 — the odd family again — whose best match to the early events sits 28% deep. No permutation null yet |
 | **G126** | The maker-blindness of the profiles survives translation into defensible units | **SUPPORTED (test), all eight families.** Write norm, signed affect work, and probe signal-to-noise per block, QC-clean throughout: the write/work geography is near-identical with and without a maker at every block, and concentrates at the input edge universally. Discriminability placement obeys no law — early at both Qwen sizes, scattering early-to-late across the others with size reversing direction between families; **the home family's early placement, where this project's loci were chosen, is the exception rather than the rule** |
 
 **What the table says.** Where things sit in a model is a fact about the model, not about the
-maker: the profile ignores the maker, the peak never moves with intent, the middle is quiet, the
-one address that looked portable (presence at block 0) is home-family-specific. But the addresses
+maker: the profile ignores the maker, the peak never moves with intent, the middle is quiet, and
+the last candidate for a portable address died at power — presence is flat through every stack and
+never category-blind, so there is no salience gate anywhere, the home family included. But the
+addresses
 that refuse to transfer as raw block numbers do translate: aligned by what the blocks compute, the
 early and late events land at lawful relative depths in almost every family (G124), so
 cross-family claims can be stated at aligned stages instead of raw depths — with one family

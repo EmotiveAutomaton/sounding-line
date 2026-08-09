@@ -136,22 +136,42 @@ than three gates: reading starts at **an anomaly** rather than at the whole arti
 depth a **relation** rather than an attribute, and is why the missing corpus is fatal rather than
 inconvenient. **A relation cannot be measured by varying one side.**
 
-**Those readings have outperformed every measure built here**, which means the most load-bearing
-evidence in the project has a sample size of one reader.
+**Those readings are the richest hypothesis source the project has** — not a validated instrument,
+because no independent ground truth has ever scored them — which means the most generative evidence
+in the project has a sample size of one reader, and is treated accordingly.
+
+### The proximal goals
+
+Because depth is a relation, the near-term work is scoped by what can be measured *without* the
+missing corpus while the corpus is pursued:
+
+1. **Run the definitional test.** Depth-side quantities should hold still across an artifact's
+   positions while polish-side quantities move; if both move equally the polish/depth split is
+   wrong by its own words. Built, currently re-running after a false start its own sample count
+   caught.
+2. **Cross the causal gate.** Everything decodable so far could be a correlate; patching and
+   erasing the recovered structure while measuring what changes is the decisive test the
+   architecture claims wait on.
+3. **Price the third target.** Value recovery works as *method* in the parent simulation —
+   profiles converge across artifacts, an absent drive reads under commission. What it needs on
+   real text is exactly the corpus problem above, so corpus sourcing is a research task, not
+   logistics.
+4. **Keep killing our own instruments first.** The audit record below is the point, not the
+   embarrassment.
 
 ### The theory, in five files
 
 [`docs/theory/`](docs/theory/) is the hypothesis store — every claim, its status, and what would test
-it. **117 numbered hypotheses**, each carrying whether it was checked on real text, in the parent
-simulation, or against published work.
+it. **More than 130 numbered hypotheses**, each carrying whether it was checked on real text, in the
+parent simulation, or against published work. Each file owns one question and they do not overlap:
 
 | | |
 |---|---|
-| **the triple inference** | intent extraction as a triple inference over goal, process and drives. The core claim; everything else is downstream |
-| **three cognitive layers** | the affective architecture a model is trying to reconstruct, and where the reconstruction fails |
-| **polish and depth** | two decision densities, split by what the decision targets — and polish itself splits again, into attraction and translation |
-| **human empathy heuristics** | the tricks a person uses when the maker is absent, with an instrument panel recording what each is measured to be worth |
-| **alignment** | the terminal value as the balanced sum of seeking and acting. The furthest from current work and by a wide margin the least tested |
+| **the triple inference** | *what is inferred* — three target families at different timescales (proximal goal, process, persistent motivational organization), their dependencies, and what makes values identifiable at all |
+| **three cognitive layers** | *what architecture might support the inference* — the affective-machinery claim, its evidence in eleven model families, and the build gates |
+| **decision traces** | *what observable traces decisions leave* — target × control × terminal topology as independent axes of every trace, with polish splitting into attraction and translation |
+| **reader heuristics** | *how a bounded reader finds and combines those traces* — priors, entry cues, traversal, calibration, and an instrument panel recording what each heuristic is measured to be worth |
+| **alignment** | *what objective should govern a system that can read them* — the terminal value as the balanced sum of seeking and acting. The furthest from current work and by a wide margin the least tested |
 
 ---
 ## Repository
@@ -204,7 +224,3 @@ One curator, one model, English only, a corpus biased by which sites permit craw
 about prevalence, and none about any individual.
 
 **MIT licensed. Read the deviations before quoting a number.**
-
----
-
-<sub>Haven't edited any of this yet — it's on the list. Should be roughly current.</sub>

@@ -1700,8 +1700,9 @@ same place for all four content types, in all five families so far.*
 shows is shared by every content type measured — it is the seam where the input representation
 hands over to the residual stream, not a fact about affect. **Means: any reading of the two-way
 split (G42) as an affective boundary is dead; the front break carries no mapping information.**
-The deflationary arm of his gating question, exactly as he posed it. Six families in flight;
-folding in as they land.
+The deflationary arm of his gating question, exactly as he posed it. **Complete: eleven of eleven
+families, unanimous** — the remaining six landed identically (every subspace type, block 1, every
+family).
 
 ## L50 · The affect subspace's depth rotation survives its own repair — rank-truncated, against a matched null
 
@@ -1726,10 +1727,53 @@ matched random subspaces of the same rank on the same grid.
 between the most separated blocks; what matched random subspaces share by chance; and the
 per-family verdict that the structure is depth-organised.*
 
-**Verdict: DEPTH, in all five so far — the rotation is real and the repair changes nothing.**
-Neighbouring blocks share most of the subspace, distant blocks about a third, everything sits four
-to eight times above a properly matched null. The v1 caveat retires for these families: the
-structure was not the fit's artifact. Six families in flight; folding in as they land.
+**Verdict: DEPTH, eleven of eleven — the rotation is real and the repair changes nothing.**
+Across the complete set neighbouring blocks share 0.78–0.96 of the subspace, distant blocks
+0.21–0.42, chance ~0.05–0.07 — everything four to eight times above a properly matched null, in
+every family (the six later landings: gpt2-large 0.95/0.41, gpt2-xl 0.96/0.40, pythia-410m
+0.86/0.24, pythia-2.8b 0.90/0.28, Qwen-3B 0.84/0.22, SmolLM2-1.7B 0.81/0.21). The v1 rank caveat
+retires entirely: the structure was never the fit's artifact.
+
+## L51 · At power, the salience gate is dead everywhere — presence is flat and block 0 always knows the category
+
+**Hypothesis.** *(G21b, the powered cross-family map; G21 is the claim: block 0 is a pure salience
+gate — presence without category.)* The underpowered pass left a home-family survival ("salience-
+first was a home-family fact") and scattered presence peaks elsewhere. At 500 neutral items and
+1,573 total, family by family: does any model hold presence early while staying category-blind?
+
+**Method.** `run_binary_salience.py --neutral-per 500`, all eleven families: per-block decodability
+of *whether* affect is present (binary) and of *which* category (27-way, chance 3.7%); the
+dissociation gate requires block 0 to carry presence at ≥ 90% of its best-block level while
+carrying category at under twice chance.
+
+| family | presence at block 0 | best presence anywhere | category at block 0 | verdict |
+|---|---|---|---|---|
+| Qwen2.5-1.5B (home) | 0.637 | 0.637 (block 0) | 0.312 — 8.4× chance | NO DISSOCIATION |
+| Qwen2.5-0.5B | 0.621 | 0.633 | 0.281 — 7.6× | NO DISSOCIATION |
+| Qwen2.5-3B | 0.607 | 0.642 | 0.335 — 9.0× | NO DISSOCIATION |
+| gpt2-medium | 0.628 | 0.636 | 0.325 — 8.8× | NO DISSOCIATION |
+| gpt2-large | 0.622 | 0.643 | 0.322 — 8.7× | NO DISSOCIATION |
+| gpt2-xl | 0.617 | 0.633 | 0.336 — 9.1× | NO DISSOCIATION |
+| pythia-410m | 0.593 | 0.641 | 0.309 — 8.3× | NO DISSOCIATION |
+| pythia-1.4b | 0.598 | 0.657 | 0.322 — 8.7× | NO DISSOCIATION |
+| pythia-2.8b | 0.589 | 0.651 | 0.337 — 9.1× | NO DISSOCIATION |
+| SmolLM2-360M | 0.610 | 0.622 | 0.297 — 8.0× | NO DISSOCIATION |
+| SmolLM2-1.7B | 0.616 | 0.655 | 0.334 — 9.0× | NO DISSOCIATION |
+
+*Columns: how well block 0 decodes affect-present-versus-neutral (0.5 is chance); the best any
+block manages; how well block 0 decodes the 27-way affect category against 3.7% chance; the
+dissociation verdict.*
+
+**Verdict: NO DISSOCIATION, eleven of eleven.** Two facts replace the old reading. **Presence is
+near-flat through every stack** — block 0 sits within a few points of the best block in every
+family (0.59–0.64 against bests of 0.62–0.66), so the "presence peak locations" that scattered
+across families in the underpowered pass were argmaxes of level curves, noise on flatness — the
+home family's block-0 peak included. **And block 0 always knows the category** — eight to nine
+times chance in every family, so no model has a presence-only stage at its front door. **Means:
+the salience-gate hypothesis is dead at power across the entire map, home family included; what
+exists instead is weak, depth-uniform presence information with category information everywhere.**
+The two curves' *relative* placement (category peaking mid-stack, blocks 7–18) stays available to
+the layer-ordering question.
 
 ## L4 · Can weak effects be stacked into a detector?
 

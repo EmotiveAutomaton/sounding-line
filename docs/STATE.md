@@ -28,12 +28,40 @@
    (details in `FINDINGS.md`).
 3. **Minor errors**, prioritised at my discretion.
 
-## Renaming, done 2026-08-08
+## Renaming and the five-file contract (renames 2026-08-08/09, contract final 2026-08-09)
 
 **THE_EMPATHY_TRIANGLE.md became THE_TRIPLE_INFERENCE.md**, references updated repo-wide, his choice.
 **The provenance must never be lost:** he is *specifically modelling human empathy* — the process he
 believes human empathy is. "Triple inference" names the mechanism; empathy remains the phenomenon.
 His words to that effect are the second blockquote of the renamed file. TR- identifiers unchanged.
+Then **POLISH_AND_DEPTH.md became DECISION_TRACES.md** and **HUMAN_HEURISTICS.md became
+READER_HEURISTICS.md** (2026-08-09, both his restructure directives; PD-/HH- identifiers unchanged).
+
+**Each theory file owns exactly one question — cross-links transmit conclusions only:**
+
+    THE_TRIPLE_INFERENCE     what is inferred; dependencies among targets; identifiability
+    THREE_COGNITIVE_LAYERS   what architecture might support the inference
+    DECISION_TRACES          what observable traces the maker's decisions leave
+    READER_HEURISTICS        how a bounded reader finds, combines, and calibrates those traces
+    ALIGNMENT                what objective should govern a system after it can read them
+
+**Reserved vocabulary:** functional level / region / block / subspace — "layer" unqualified is
+banned. Blockquotes are the curator's words only. The corrected ontology's load-bearing
+distinctions: **process ≠ expertise, drives ≠ values, three questions not three equal nodes,
+depth is domain-relative** (the relation cannot be measured by varying one side).
+
+## Current proximal goals (scoped 2026-08-09)
+
+1. **The definitional test (PD-1):** polish moves across an artifact's positions, depth does not —
+   the traces file is wrong by its own words if both move equally. Re-queued after a
+   zero-window false start (L43).
+2. **The causal gate (G122/G123):** patch or erase the recovered structure and see what changes —
+   everything decodable so far could be a correlate; this is the decisive architecture gate.
+3. **The third target's corpus:** value recovery is sim-validated method (S-14/S-15); real-text
+   progress is blocked on the one-maker-many-kinds / follower corpora (G125, E7b) — sourcing is
+   research, not logistics.
+4. **Instrument audit continues:** G106 affect rebuild, G102 prior-art sweep before any public
+   ratio-vs-intent claim.
 
 ## The solo audit — nine scopes, status
 
@@ -41,7 +69,7 @@ His words to that effect are the second blockquote of the renamed file. TR- iden
 |---|---|
 | **queue ↔ runner contracts** | **PARTIAL.** Found: 3 unguarded stages churning (fixed); bits96 overwrote the 48-decoy file; two stages tested nothing (L20). **Remaining:** systematic argparse-vs-STAGES sweep; explain the 78-second ladder2 re-score (G99) |
 | **spec reconstruction vs generation** | **CLEARED, decisively.** 100/100 ladder2 seeds and 175/175 topics match the consumer formula; ladder3 generation holds draws constant across retries. Plus the find of the day: **L22 — the induction control's regressors contain the dose** (row-sum = rung; ladder3 pool = 60 = all drawn at top rung) |
-| **reader-side statistics** | **NOT STARTED.** Priority items: run_depth_readouts coherence formula and band split (cross-family sign flips now carry theory weight — could a per-family sign convention manufacture them?); run_subspace_alignment basis dimension after centring (span ≤ 7 not 8?); run_layer_correlation null symmetry |
+| **reader-side statistics** | **LARGELY DONE via rebuilds.** Coherence formula: statistic was geometrically void (L26) → rebuilt known-answer-gated, G33 re-adjudicated across eight families (L47). Subspace basis: rank-7-in-8 confirmed → rank-truncated v2 with matched null, no verdict flips, eleven families (L50). Remaining: run_layer_correlation null symmetry |
 | **spec-recovery / void_power math** | **PARTIAL.** Found: bits saturated (near-binary; win rate is the honest statistic); shuffle chance 1/48 = 2.08%. **Remaining:** tie rule `>=`, decoy construction overlap, v4 StratifiedKFold degeneracy |
 | **features / BY / units** | **NOT STARTED.** Priority: run_pan_features keys-from-first-problem-only; BY implementation in select.py; units consistency across the three feature libraries |
 | **decomposition family** | **NOT STARTED.** Priority: the participation-ratio correction formula (behavioural test on known-rank synthetic data); **the hard-coded VAD table in run_affect_dimensions is UNVERIFIED against real NRC-VAD — fabrication risk on the replication gate** |
@@ -49,15 +77,15 @@ His words to that effect are the second blockquote of the renamed file. TR- iden
 | **docs vs data** | **PARTIAL** (n=40 label fixed). **Remaining:** systematic sweep of every FINDINGS number against its JSON; orphan sweep; G-identifier collisions (G70/G70b known) |
 | **corpora integrity** | **NOT STARTED.** Priority: ladder3 out-of-band tail rung-correlation in absolute words; manifest-vs-disk counts; PAN train/validation leakage |
 
-## The theory glance-clean worklist (priority 1), file by file
+## The theory glance-clean worklist (priority 1)
 
-Format spec is in `docs/theory/README.md`. Per file, in this order:
-1. **THE_TRIPLE_INFERENCE.md** — rename landed; check flow after all insertions; §2 additivity-vs-Venn discussion could compress.
-2. **DECISION_TRACES.md** — grew the most mid-session: the redefinition block + four objections + naming search + latent-variable insert sit ABOVE §1. **Restructure so the current definition and its status are §1**, the naming search compresses, and the objections sit with the definition they attack.
-3. **THREE_COGNITIVE_LAYERS.md** — verify section numbering after the worry-section move; the two-orderings §1 is good; §8 (worry) and §9 (build) flow.
-4. **READER_HEURISTICS.md** — §0a/§0b harvest sections are long; consider moving the technique tables to `docs/method/` with one-line pointers, keeping only what changes theory.
-5. **ALIGNMENT.md** — smallest, mostly fine.
-**Rule for the pass: his blockquotes are untouchable; my prose compresses.**
+**Both directed restructure passes landed 2026-08-09** — THREE_COGNITIVE_LAYERS (four-claim first
+screen, address/tracking umbrellas), DECISION_TRACES (Part I model / II ledger / III contested
+estimators), THE_TRIPLE_INFERENCE (object table, generative account, four value-carrier accounts,
+single ledger §8), READER_HEURISTICS (loop / cue families / calibration, dashboard last). Format
+spec in `docs/theory/README.md`: afterword read before table, fixed confidence vocabulary, no
+notables columns, voids one line at bottom. **Standing rule: his blockquotes are untouchable; my
+prose compresses. Structural changes are proposals in chat first.**
 
 ## Queue / infrastructure state
 
@@ -72,10 +100,12 @@ Format spec is in `docs/theory/README.md`. Per file, in this order:
   2-hour timeouts. **All lineages killed via Windows pids (PowerShell); exactly one day loop now
   runs at WINDOWS pid 107224.** Kill loops with `Stop-Process` on Windows pids from
   `Get-CimInstance`, never the lock files' pids (G121 makes the scripts record winpids). Queue
-  integrity held throughout: produces-guards kept the lineages off each other's outputs. Backlog
-  (~30 stages) now burns serially, genuinely uncontended for the first time: G114 v2 running, then
-  the echo curve, G115 replications, G21b cross-family, HH-3, G107 permutation, readouts,
-  correlation cells, remaining induction arms.
+  integrity held throughout: produces-guards kept the lineages off each other's outputs.
+  **2026-08-09 evening state:** the DAY9 battery burned far ahead of estimate on cached
+  activations — coherence v2 (8), block contribution (8), control subspaces (11), subspace v2
+  (11), CKA, pooling falsifier, convergence v3 all landed and written through (L44–L50); powered
+  binary map landing now; the PD-1 chain (w80 cache → positional polish → revision homogeneity)
+  refires next queue pass after its L43 repair.
 - **Audit L26 landed (2026-08-08, the conservative fleet):** 15 confirmed defects. Two more criteria
   that could not fail (no-maker NaN gate — re-adjudicated, luck-level overall, flagship concentration
   → G107; affect shuffle gate below its arithmetic floor). Coherence statistic VOID (G105), SHIFTS

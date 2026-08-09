@@ -19,6 +19,18 @@ the ontology of artifact traces ([`DECISION_TRACES.md`](DECISION_TRACES.md)), mo
 ([`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md)), or alignment. *(Renamed from
 `HUMAN_HEURISTICS.md` 2026-08-09.)*
 
+The file by function — a **prior** is held before the artifact is opened; a **cue** is a local,
+readable feature that licenses an inference; a **heuristic** is any of the loop's cheap
+approximations; the **traces** cues point at belong to the decision-traces file:
+
+| function | sections | measured so far |
+|---|---|---|
+| priors before inspection | §1 | the provenance prior (replicated ×3) |
+| finding an entry point | §2 | two variation measures (surface; probe-activation) |
+| traversal, updating, stopping | §3–§5 | nothing — one sim bound on ordering |
+| cue families: constraint, habit, shaping | §6–§8 | the visibility partition (double crossover) |
+| calibration and reporting | §9–§11 | the dashboard's rules; the rest is discipline |
+
 ---
 
 # Part I — The reader's loop
@@ -407,7 +419,7 @@ rate and next to a field bar.
 | **within-artifact variation, probe activations** (§2) | human long-form variance 0.0102 vs machine 0.0065, *p* = 0.002 | matched series length | **SUPPORTED (test), first pass** — the operationalisation nobody pre-empted; register uncontrolled |
 | **visibility partition** (§6) | authors at 0.78 (low-vis) vs 0.38 (high-vis); draft-stage 0.48 (high) vs 0.30 (low) | chance 0.10 / 0.33 | **SUPPORTED (test)** — clean double crossover, first pass |
 | **provenance prior** (§1) | ratio shift +0.007, *p* < 2×10⁻⁸, three corpora | paired identical text | **SUPPORTED (test), replicated** — in the reader model; human-side untested |
-| anomaly entry (§2) · confidence trajectory (§4) · domain relation · interest ratings (§5) · effort correlation (§8) | — | — | unmeasured: one simulation bound, two corpus blocks, an hour of his time, an undefended proxy |
+| anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | — | — | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
 **What the dashboard says.** Four heuristics now carry numbers — up from one — and two of the four
 landed this week at first-pass strength. The stacking question is still premature but no longer
