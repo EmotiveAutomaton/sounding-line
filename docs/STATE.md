@@ -55,7 +55,7 @@ Format spec is in `docs/theory/README.md`. Per file, in this order:
 1. **THE_TRIPLE_INFERENCE.md** — rename landed; check flow after all insertions; §2 additivity-vs-Venn discussion could compress.
 2. **DECISION_TRACES.md** — grew the most mid-session: the redefinition block + four objections + naming search + latent-variable insert sit ABOVE §1. **Restructure so the current definition and its status are §1**, the naming search compresses, and the objections sit with the definition they attack.
 3. **THREE_COGNITIVE_LAYERS.md** — verify section numbering after the worry-section move; the two-orderings §1 is good; §8 (worry) and §9 (build) flow.
-4. **HUMAN_HEURISTICS.md** — §0a/§0b harvest sections are long; consider moving the technique tables to `docs/method/` with one-line pointers, keeping only what changes theory.
+4. **READER_HEURISTICS.md** — §0a/§0b harvest sections are long; consider moving the technique tables to `docs/method/` with one-line pointers, keeping only what changes theory.
 5. **ALIGNMENT.md** — smallest, mostly fine.
 **Rule for the pass: his blockquotes are untouchable; my prose compresses.**
 

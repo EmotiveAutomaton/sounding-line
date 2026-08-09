@@ -16,7 +16,7 @@ wrong. **Here the imprecision is a term in the objective rather than a defect th
 **And the structure fights capture.** The signal is weak, the inference is intractable in the exact
 sense [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §8 sets out — approached through error,
 never certainly attained — and
-[`HUMAN_HEURISTICS.md`](HUMAN_HEURISTICS.md) is the record of how much machinery a *person* needs to
+[`READER_HEURISTICS.md`](READER_HEURISTICS.md) is the record of how much machinery a *person* needs to
 do it badly. **That weakness is what protects the objective from being owned.** A system whose
 terminal value includes reducing uncertainty about what humans want has an appetite for evidence
 **no individual and no subgroup can satisfy** — so narrowing the target does not sharpen the

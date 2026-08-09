@@ -17,7 +17,7 @@ untested; and no direct scalar measure of depth yet exists.**
 differ, how they are measured. **It does not own** the latent architecture a model reconstructs
 ([`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md)), the three-way inference itself
 ([`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md)), or the reader's shortcuts
-([`HUMAN_HEURISTICS.md`](HUMAN_HEURISTICS.md)). *(Renamed from `POLISH_AND_DEPTH.md` 2026-08-09 —
+([`READER_HEURISTICS.md`](READER_HEURISTICS.md)). *(Renamed from `POLISH_AND_DEPTH.md` 2026-08-09 —
 the old name had become too narrow for a file that absorbed flattened intent and leakage.)*
 
 ---
@@ -78,7 +78,7 @@ No direct test of the coordinate system itself exists; its components are tested
 The two have different causes and different predictions: attraction is a performance aimed at a
 specific audience on a specific occasion; translation is aimed at comprehension, and a maker who
 stops performing does not usually stop labelling. Translation is the *bard*'s second motivation
-([`HUMAN_HEURISTICS.md`](HUMAN_HEURISTICS.md) §7) made measurable. His own doubt is the load-bearing
+([`READER_HEURISTICS.md`](READER_HEURISTICS.md) §7) made measurable. His own doubt is the load-bearing
 test: *"I don't know if they're extricable or not."*
 
 **Movement within an artifact** is the other reader-directed prediction:
@@ -218,6 +218,19 @@ arrived after the result). What the instrument should report: *whether a maker's
 singular or layered* — never built. His own caution kept: measure **singularity of terminal
 value**, not presence of a profit motive.
 
+**Soul is the layered end named from the maker's side** *(moved from the triple inference
+2026-08-09 — motivational variety is an artifact property)*:
+
+> When we talk about something having **soul**, what that means is **a variety of motivations**. And
+> it tends to travel with expertise — because as processes are baked in with automaticity, you lose
+> conscious access to them and they start to be tied more to your **drives**.
+
+The chain: practice → automaticity → the decision leaves deliberate control → it is made by
+whatever is underneath → an expert's artifact carries more drive-derived variety than a novice's,
+without the expert choosing it. This is the mechanism the residue account of values runs on
+([`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §5), and it explains why an expert cannot say
+*why* they did something while their artifact shows more of what they are.
+
 **Dense polish as concealment** is the same claim seen from the artifact side:
 
 > I do think the density of decision-making is by necessity a little bit thinner on corporate art.
@@ -241,15 +254,19 @@ value**, not presence of a profit motive.
 | **PD-9** | Machine text shows low agreement *and* low breadth — no coherent maker-state, as against a flattened one | **OPEN** |
 | **PD-10** | Singularity of terminal value is measurable at all | **OPEN — the successor instrument**, needing a corpus this project has not seen |
 | **G114** | Independent readers' goal-guesses converge more where intent is dense | **INSTRUMENT-QUESTIONED (test)** — flat across a ten-specification gap and highest on maker-less text; the overlap metric reads topic first. Rebuild specified |
+| **T-2 / T-9** | Motivational variety is measurable as breadth of recovered purpose | **INSTRUMENT DEAD (sim, twice)** — the breadth measure tracked how hard the goal is to recover, not variety; at matched difficulty the diversity excess is negative. The simulation itself states it cannot test whether practice *causes* drive-multiplicity |
+| **G55** | Diversity rises with expertise while agreement about purpose stays flat | **OPEN** — a two-measure prediction using quantities that already exist, and the second attempt must survive a difficulty control that neither prior try would have |
 | **PD-7** | Commercial work shows lower purpose *breadth* | **INSTRUMENT DEAD (sim, twice)** — the breadth measure read difficulty |
 | **G3** | Half A of a web corpus contains more recoverable method than half B | **VOID (test), twice over** |
 
 **What the table says.** The layered end of the topology is the best-evidenced thing in this file —
 three independent measures peak where motivations stack — while the flattened end is a reframe with
-no surviving instrument: the sharp prediction's measure read difficulty, the convergence attempt
-read topic, and the singularity measure has never been built. The topology is a good description
-still waiting for its first honest number. Confidence: the stacked-motivations reversal is
-replicated and controlled; everything else here is untested or instrument-dead.
+no surviving instrument: both breadth-style measures read difficulty, the convergence attempt read
+topic, and the singularity measure has never been built. The soul claim's mechanism matters beyond
+this section: if expertise does not move decisions into drives, the residue account of values loses
+its engine. The topology is a good description still waiting for its first honest number.
+Confidence: the stacked-motivations reversal is replicated and controlled; everything else here is
+untested or instrument-dead.
 
 # Part II — The measurement ledger
 
