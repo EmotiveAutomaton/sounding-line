@@ -1176,15 +1176,15 @@ it. Same lesson as the per-layer map, now with teeth: the measure is real in at 
 architectures and **the pre-registered direction was an artifact of which family we explored first**
 (G112 characterises what the fixed depth fractions straddle per family).
 
-**Overnight extension, 2026-08-09 — eight of eleven families now have cells, and the sign is a
-family constant.** Qwen-0.5B runs negative on all three ladders (−0.344, *p* = 0.0025 on the
-extreme) — **the Qwen sign holds within the family at a fifth the size.** gpt2-large joins
-gpt2-medium at full strength (+0.526, *p* = 8.6e-5 / +0.452, *p* = 2.3e-6) — **but gpt2-xl is
-near-null** (+0.03 / +0.12), so the positive effect fades at the family's top size. And
-pythia-410m reaches significance on the extreme ladder (+0.338, *p* = 0.003), joining SmolLM2-360M
-in the pattern where **the positive camp becomes significant preferentially where the manipulation
-is strongest.** Missing cells (Qwen-3B, SmolLM2-1.7B, pythia-2.8b, two ladder3 arms) timed out
-overnight under two-shard GPU contention and re-run serially today.
+**The map at eleven families, updated as cells land (2026-08-09).** Qwen runs negative at **all
+three of its sizes** — 0.5B (3/3 negative, ★ on the extreme), 1.5B (3/3 ★), and now 3B (−0.376,
+*p* = 0.007 on the first ladder) — **the only negative family, everywhere it is measured.** The
+positive camp: gpt2 strong at medium and large (5/5 ★), null at xl; SmolLM2 positive at both sizes
+(1.7B: +0.345, *p* = 0.014); pythia positive at 410m, fading through 1.4b to zero at 2.8b (−0.115
+n.s.). Two patterns stand: **the sign is a family constant, and within the positive camp the effect
+fades at each family's largest tested size** — gpt2 and pythia both go quiet at the top, which the
+characterisation work (G112) now has to explain alongside the sign itself. Five cells still
+running.
 
 ## L29 · The essays' two information-theory claims, first contact — both miss as operationalised
 
@@ -1293,6 +1293,38 @@ reference books; held-out 1,000-word chunks classified by nearest centroid; 20 r
 with both halves visible — real convergence, and a large measured residual, on a small author pool
 (five) and the cheapest channel we own. The asymptote is now a number future designs must beat
 rather than a metaphor.
+
+## L35 · Goal-guess convergence discriminates nothing as built — and maker-less text converges hardest
+
+**Hypothesis.** The virus paper's H2 and the flattened-intent claim collide head-on: H2 predicts
+independent readers *scatter* when reverse-engineering a machine artifact's goal (no latent reward
+to converge on), while the corporate-text account predicts dense specified intent produces *high*
+agreement. The ordering across groups was to discriminate them.
+
+**Method.** `run_reader_convergence.py` v2: eight independent local-model readings per artifact
+("in one sentence: what was the maker trying to achieve?"), convergence as mean pairwise
+content-word overlap of the answers, ten artifacts per group. (v1 returned all-empty answers — the
+thinking model spent its whole token budget on its hidden channel; fixed with think-off, a real
+budget, and empty-answer guards. The student-essay group was lost to a file-extension assumption
+and returned n = 0.)
+
+| group | convergence |
+|---|---|
+| no-maker text | **0.285** |
+| machine, ten stacked specifications | 0.222 |
+| machine, zero-or-one specification | 0.219 |
+| human books | 0.184 |
+
+*Higher = the eight goal-guesses share more content words.*
+
+**Verdict: the discriminator did not discriminate — instrument, not answer.** The pre-registered
+label fires on its letter (dense-machine ≥ human), but the spirit fails twice: there is **no dose
+response at all** (0.222 versus 0.219 across a ten-specification gap), and **maker-less text
+converges hardest**, which neither account predicts. **Means:** as operationalised, agreement
+between goal-guesses reads *topical narrowness* before it reads latent intent — no-maker texts
+afford one obvious surface description, and rich human prose affords many true ones. The collision
+between the two accounts remains live and untested. The fix is named (G114b): topic-matched groups,
+graded answer-similarity instead of token overlap, and the essays-path repair.
 
 ## L4 · Can weak effects be stacked into a detector?
 

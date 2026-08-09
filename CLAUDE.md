@@ -110,7 +110,10 @@ landed.**
 4. **Report it in the chat.** Hypothesis first, then what we did, what we found, what it means.
    **Every result, every time, so he never has to hunt for the latest numbers.**
 
-**No batching** — that is how an eleven-model replication was lost for a day.
+**No batching, and no verdict-only reporting** — a result that has appeared in any form (a queue
+log, a committed file, a notification) gets its FULL write-through in the same message, appended
+automatically; "entry next pass" is the leak he keeps catching (2026-08-09). That is how an
+eleven-model replication was lost for a day and how a week of results arrived as headlines.
 
 ### B · Run long jobs in the background so they wake you
 

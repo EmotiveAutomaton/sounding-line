@@ -311,7 +311,17 @@ here is equally compatible with the probe asking one question twice and averagin
 **Confidence: one bad test away throughout — every row is a single simulation, and the
 two-layers-are-actually-two question has never been asked of real text.**
 
-## §6. The forward predictions
+## §6. The forward predictions — two umbrellas
+
+**Restructured 2026-08-09 at his direction.** These predictions were always instances of two larger
+bets, visible as such only now that most of them have verdicts. Split accordingly; §6A/§6B keeps
+every cross-reference to later sections valid.
+
+### §6A. Predictions of address — the architecture puts specific jobs at specific depths
+
+**The umbrella: if the three layers are real in a model, *where* things sit should itself be
+diagnostic.** Depths should have jobs, the jobs should show, and reading an address should tell you
+something about the maker being reconstructed.
 
 **a. Trimodal, not bimodal.** Three loci with two troughs, not two loci with one dead middle.
 
@@ -339,52 +349,64 @@ residual; a smeared three-locus structure leaves residual at exactly two places.
 **d. Cognitive expertise is late.** *"Nearly everything you get out of text would be late."* With his
 caveat: motor expertise may be distributed, and he cannot speak to that from text.
 
-**e. Late coherence should rise when the goal is clear.** *"You might also have more agreement in the
-late, **if the goal is clear.**"* — **conditional rather than flat**, an interaction between depth and
-legibility.
-
-**f. Why models never peak in the final layer.** *"They can't get through the middle layer to get to the
+**e. Why models never peak in the final layer.** *"They can't get through the middle layer to get to the
 final layer, so their final layer just kind of **randomly optimises upon the noise of the middle
 layer.**"* **A failure of the middle propagates as noise into the top.**
 
-**g. Is the first layer binary salience?** *"The initial layer is binary saliency, do you think?"* The
+**f. Is the first layer binary salience?** *"The initial layer is binary saliency, do you think?"* The
 adjacent literature finds affect **presence** dissociable from affect **category** early.
 
-**h. A layer-count ratio, offered as a guess.** That parameter ratios across depth may echo neuron-count
+**g. A layer-count ratio, offered as a guess.** That parameter ratios across depth may echo neuron-count
 ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 
 | # | hypothesis | status | notables |
 |---|---|---|---|
 | **L14** | The depth profile is bimodal | **REJECTED (test), and now across nine families.** **27 of 36 runs are unimodal**; multimodality appears only in gpt2-large and pythia-410m, **and in their no-maker runs too** | **The bimodal profile was a two-model artifact** |
-| **L14** | The depth profile carries information about the maker | **RULED OUT (test).** Peak location is **identical between ladder and no-maker in every one of nine models** | **The peak sits at layer 2 of 29 in Qwen-1.5B and layer 47 of 49 in gpt2-xl**, with no relation to size or depth — **so no claim naming a specific depth transfers** |
-| **L1** | Per-layer correlation with specified intent carries information | **SUPPORTED (test)** | **Two independently generated ladders agree at 0.97** on which layers carry it — the strongest replication in the project |
+| **L14** | The depth profile carries information about the maker | **RULED OUT (test).** Peak location is **identical or within one layer between ladder and no-maker in every model** | **The peak sits at layer 2 of 29 in Qwen-1.5B and layer 47 of 49 in gpt2-xl**, with no relation to size or depth — **so no claim naming a specific depth transfers** |
 | **G22** | The trimodal structure is recoverable in the *residual* after fitting a single peak | **OPEN** | His, and **nobody in the field has looked for it** |
 | **G31** | The middle layer is high-activity and low-coherence | **REJECTED (test, L25)** | Isolated from the bimodal profile at last: the signature appears in **2 of 33** maker-corpus runs on the completed matrix. The modal pattern is the **opposite — a *quiet* middle** (18/33), the no-maker control shows the same distribution, and which pattern a model shows is set by its family. Architecture, not makers |
 | **G32** | Polish correlates with late-layer structure, leakage with early | **OPEN** | Uses measures we already own on both sides |
-| **G33** | Late-layer coherence rises with how clearly the goal is specified | **VOID-INSTRUMENT (audit L26).** The coherence statistic cannot register agreement: the eight fitted directions sum to zero by construction, and the number reduces to an arbitrary-axis projection whose sign flipped in 11 of 20 refit simulations | **Handing the readout code to the audit was the right call — it did not harden.** The whole family table (Qwen inverted, SmolLM2 positive) is withdrawn with the statistic; a valid replacement is G105 |
 | **G69** | The intent signal peaks deeper as rung rises | **REJECTED (test) in Qwen; the SmolLM2/pythia SHIFTS revival is WITHDRAWN (audit L26).** The "shift" was an argmax crossover between two static near-tied loci (embedding layer and layer 4, under 4% apart) with opposite rung correlations, p = 0.058 gating nothing | **The premature-rejection story was itself premature.** Verdict logic rebuilt; regenerated: **TIED-LOCI on all six ladders across both families — confirmed crossover, not movement.** Peak-of-magnitude vs best-correlating-layer conflation stands as the original sin |
-| **G21** | Layer 0 predicts emotional-versus-neutral well and *which* emotion at chance | **REJECTED as stated; HALF-SUPPORTED powered (test, L27 + G21b).** At real power (500 neutral), **layer 0 is the presence *peak* — 0.637, best in the model** — but it also carries category at 8.4× chance, so the blindness clause fails | **Salience-first survives; "binary" falls.** Presence earliest, category mid (layer 10) — the powered ordering that feeds G20a/G20b |
-| **G103** | The fair-control flagship (early/late ratio vs intent) transfers across families | **REJECTED as universal; the sign is a family constant (test, L28, extended overnight).** Qwen negative at both tested sizes (1.5B: 3/3 ★; 0.5B: 3/3, ★ on extreme); gpt2 positive at medium AND large (5/5 ★) **fading to null at xl**; SmolLM2-360M and pythia-410m positive, ★ on the extreme ladder only; pythia-1.4b positive n.s. 3/3 | **No family shares Qwen's sign, and each family keeps its own sign across sizes and corpora.** The positive camp reaches significance preferentially where the manipulation is strongest. Five cells re-run today (overnight GPU-contention timeouts). G112 characterises the machinery |
+| **G21** | Layer 0 predicts emotional-versus-neutral well and *which* emotion at chance | **REJECTED as stated; HALF-SUPPORTED powered (test, L27 + G21b).** At real power (500 neutral), **layer 0 is the presence *peak* — 0.637, best in the model** — but it also carries category at 8.4× chance, so the blindness clause fails | **Salience-first survives; "binary" falls.** Presence earliest, category mid (layer 10) — the powered ordering that feeds G20a/G20b. Cross-family arms queued |
 | **G34** | Parameter ratios across depth echo neuron-count ratios across receptor/midbrain/neocortex | **OPEN, flagged speculative by its author** | — |
 
-**What these add up to.** Every prediction in this table asked one of two questions, and the two
-questions met opposite fates. The **where** questions — which depth holds the peak, whether the
-middle is noisy, whether the peak moves deeper with intent, whether the first layer is a pure
-salience gate — either died or turned out to depend on which model family you ask. The peak's
-location is a property of the architecture and never moves with the maker; the middle is *quieter*
-than predicted, identically so on maker-less text; the apparent peak-shifts were two fixed spots
-trading rank; and the first layer does hold the strongest is-affect-here signal in the model, but it
-already knows *which* emotion too, so it is not a blind gate. The **does-it-track** questions
-survived and grew: how strongly a layer's response follows specified intent replicates across
-independently generated corpora and now across model families — with the ratio's direction fixed
-inside each family and different between them, our own home family being the lone negative. So the
-section's one standing sentence: **how much a layer responds is architecture; how much its response
-tracks the maker is signal; and *where* either lives does not travel between models.** One
-prediction cannot currently be judged at all — that agreement among the affect concepts rises when
-the goal is clear — because the statistic built for it turned out unable to measure agreement in
-principle; that question is back to untested, not rejected. **Confidence: the tracking results are
-replicated and controlled; the location claims are one bad test away where they stand at all; the
-goal-clarity coherence claim is instrument-dead.**
+**What these add up to.** The umbrella has an answer and it is mostly no: **where things sit in a
+model is a fact about the model, not about the maker.** The depth profile's shape is identical with
+and without a maker and its peak never moves with intent; the middle is *quieter* than predicted,
+equally so on maker-less text; the apparent deepening of the peak was two fixed spots trading rank;
+and the first layer, at real power, does hold the model's strongest is-affect-present signal — but
+it knows the category too, so it is a salience *peak*, not a salience *gate*. What remains of the
+umbrella is specific: two address predictions have simply never run — the residual-trimodal test
+and the polish/leakage depth split — and the layer-0 presence peak is a genuine, replicable address
+fact that has not yet been asked outside one family. **Confidence: the rejections are replicated
+and controlled; the presence-peak is one bad test away; the two unrun predictions are untested.**
+
+### §6B. Predictions of tracking — reconstruction quality follows the maker
+
+**The umbrella: whatever sits at a depth, how strongly its response follows the maker's specified
+intent is the signal.** Tracking is informative even where address is not — and if the two
+dissociate, this is the half an instrument can be built on.
+
+**The one conditional prediction here:** *"You might also have more agreement in the late, **if the
+goal is clear.**"* — late coherence should rise when the goal is legible, an interaction between
+depth and legibility rather than a flat effect.
+
+| # | hypothesis | status | notables |
+|---|---|---|---|
+| **L1** | Per-layer correlation with specified intent carries information | **SUPPORTED (test)** | **Two independently generated ladders agree at 0.97** on which layers carry it — the strongest replication in the project |
+| **G33** | Late-layer coherence rises with how clearly the goal is specified | **VOID-INSTRUMENT (audit L26).** The coherence statistic cannot register agreement: the eight fitted directions sum to zero by construction, and the number reduces to an arbitrary-axis projection whose sign flipped in 11 of 20 refit simulations | **Handing the readout code to the audit was the right call — it did not harden.** The family table once here is withdrawn with the statistic; a valid replacement is G105 |
+| **G103** | The fair-control flagship (early/late ratio vs intent) transfers across families | **REJECTED as universal; the sign is a family constant (test, L28).** Qwen negative at **all three sizes** (0.5B, 1.5B ★★★, 3B ★); gpt2 positive at medium and large (5/5 ★), null at xl; SmolLM2 positive at both sizes (1.7B ★); pythia positive at 410m, fading to zero by 2.8b | **No family shares Qwen's sign — and within the positive camp the effect fades at each family's largest size** (gpt2 and pythia both go quiet at the top). Two facts for G112 to explain: the sign, and the fade. Five cells still running |
+
+**What these add up to.** This umbrella is the project's surviving half, and it has sharpened three
+times over. How strongly each layer's response follows specified intent replicates across
+independently generated corpora at near-perfect agreement, and across eleven model families with a
+no-maker control that now fails honestly at luck rates. The flagship ratio tracks intent in at
+least five families — with its *direction* fixed inside each family, our home family the lone
+negative, and the effect fading at the largest sizes of two positive families: **the tracking is
+real; the sign and the strength are family facts.** The goal-clarity prediction cannot currently be
+judged at all — the one instrument pointed at it was structurally unable to measure agreement — so
+it is untested, not rejected. **Confidence: the tracking results are replicated and controlled; the
+newest family-map cells are one bad test away; the goal-clarity claim is instrument-dead.**
 
 ## §7. The interpretability angle — the low-order to high-order ratio
 
