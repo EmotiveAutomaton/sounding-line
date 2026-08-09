@@ -42,14 +42,18 @@ STOP = set("the a an and or but of to in on for with as at by from is are was we
 
 
 def ask(model: str, text: str, seed: int) -> str:
+    # v2: the first run returned all-empty answers — a thinking model spent the whole 80-token
+    # budget on its hidden reasoning channel. Think off, bigger budget, defensive strip.
     prompt = ("Read the passage below, then answer in ONE sentence and nothing else: "
               "what was the maker of this passage trying to achieve?\n\n---\n" + text)
     req = urllib.request.Request(OLLAMA, data=json.dumps(
-        {"model": model, "prompt": prompt, "stream": False,
-         "options": {"temperature": 0.9, "seed": seed, "num_predict": 80}}).encode(),
+        {"model": model, "prompt": prompt, "stream": False, "think": False,
+         "options": {"temperature": 0.9, "seed": seed, "num_predict": 400}}).encode(),
         headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=300) as r:
-        return json.loads(r.read())["response"].strip()
+        resp = json.loads(r.read()).get("response", "")
+    resp = re.sub(r"<think>.*?</think>", "", resp, flags=re.DOTALL)
+    return resp.strip()
 
 
 def content(s: str) -> set[str]:
@@ -116,7 +120,11 @@ def main() -> None:
         for aid, text in arts:
             if not text.strip():
                 continue
-            answers = [ask(args.model, text, seed=1000 + i) for i in range(args.samples)]
+            answers = [a for a in (ask(args.model, text, seed=1000 + i)
+                                   for i in range(args.samples)) if a]
+            if len(answers) < 4:
+                print(f"  {gname:<16}{aid:<18}SKIPPED — {len(answers)} non-empty answers")
+                continue
             c = jaccard_mean(answers)
             vals.append({"id": aid, "convergence": c, "answers": answers})
             print(f"  {gname:<16}{aid:<18}{c:.3f}", flush=True)
