@@ -64,14 +64,18 @@ Format spec is in `docs/theory/README.md`. Per file, in this order:
 - **Day loop:** one detached shell (survives sessions), lock in `results/.loop.lock`; stop with
   `kill $(cat results/.loop.lock)`. Night: `bash run_forever_night.sh [hours] [workers]` (refuses
   while day loop runs). Queue has pid lock + `--shard/--shards`.
-- **Morning state 2026-08-09:** night ran 10 h × 2 shards and delivered the family-sign map's small
-  and medium arms plus the derived-test battery — **but six heavy-model induction arms burned 2 h
-  each into TIMEO** (two shards co-loading 3B-class models thrash the card; G120). Day loop running
-  the ~30-stage backlog serially: remaining induction cells, the G113 echo curve, G115 replications,
-  G21b cross-family, HH-3 activation variance, G107 permutation, 3 readouts, 8 correlation cells,
-  G114 v2 (first up, running). **Switchover note: I deleted the night lock before killing the night
-  shell — the reverse of the kill order the history teaches; no double-write resulted (disjoint
-  stages), but the order was wrong and is re-recorded here.**
+- **Morning state 2026-08-09, revised after the process audit:** the overnight TIMEOs had a deeper
+  cause than two-shard contention — **the 2026-08-07 day loop never died.** The lock files record
+  MSYS pids that do not map to Task Manager, so every lock-based kill since 08-07 hit the wrong
+  process; the immortal loop (plus both night shards, whose cleanup trap also failed on Windows)
+  kept spawning queue lineages, and by morning up to four lineages shared the one card — hence the
+  2-hour timeouts. **All lineages killed via Windows pids (PowerShell); exactly one day loop now
+  runs at WINDOWS pid 107224.** Kill loops with `Stop-Process` on Windows pids from
+  `Get-CimInstance`, never the lock files' pids (G121 makes the scripts record winpids). Queue
+  integrity held throughout: produces-guards kept the lineages off each other's outputs. Backlog
+  (~30 stages) now burns serially, genuinely uncontended for the first time: G114 v2 running, then
+  the echo curve, G115 replications, G21b cross-family, HH-3, G107 permutation, readouts,
+  correlation cells, remaining induction arms.
 - **Audit L26 landed (2026-08-08, the conservative fleet):** 15 confirmed defects. Two more criteria
   that could not fail (no-maker NaN gate — re-adjudicated, luck-level overall, flagship concentration
   → G107; affect shuffle gate below its arithmetic floor). Coherence statistic VOID (G105), SHIFTS
