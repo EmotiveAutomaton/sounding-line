@@ -1643,29 +1643,32 @@ norm** (how much a block actually changes the stream — what BOLD-style signals
 and **per-block d′** (the probe's honest signal-to-noise), plus a **rogue-share alarm** (does one
 dimension dominate the projection — the standard artifact).
 
-**Method.** `run_block_contribution.py`, two families landed of eight: cached block states over 160
+**Method.** `run_block_contribution.py`, six families landed of eight: cached block states over 160
 specification-ladder windows and 144 maker-less windows; the three quantities per block per
 corpus; QC threshold at half the projection carried by one dimension.
 
-| quantity | Qwen2.5-1.5B (home) | gpt2-medium |
-|---|---|---|
-| rogue share (QC) | 0.02 — clean | 0.22 — clean |
-| write / work peak | block 1 of 27, sharply (77× the neighbours) | block 0 of 23 (4.5× ) |
-| d′ peak | block 6 — 22% deep, 2.76 | block 22 — **96% deep**, 2.37 |
-| maker-less vs ladder | identical to two decimals throughout | identical to two decimals throughout |
+| family | signal-to-noise peak | work peak | maker-vs-none gap | rogue share |
+|---|---|---|---|---|
+| Qwen2.5-1.5B (home) | block 6 of 27 — 22% deep, 2.76 | block 1 | ≤ 0.15 | 0.02 |
+| Qwen2.5-0.5B | block 3 of 23 — 13%, 3.38 | block 2 | 0.06 | 0.03 |
+| gpt2-medium | block 22 of 23 — **96%**, 2.37 | block 0 | 0.01 | 0.22 |
+| gpt2-large | block 16 of 35 — 46%, 2.21 | block 0 | 0.02 | 0.05 |
+| SmolLM2-360M | block 18 of 31 — 58%, 2.82 | block 3 | 0.16 | 0.03 |
+| pythia-1.4b | block 11 of 23 — 48%, 2.29 | block 3 | 0.08 | 0.01 |
 
-*Rows: whether any single dimension dominates the affect projection (below 0.5 = clean); where the
-raw update magnitude and the signed affect movement concentrate; where the probe's
-signal-to-noise peaks and how deep that is; and whether any of it moves when the maker is removed.*
+*Columns: where the probe's per-block d′ peaks (block, relative depth, value); which block does
+the most signed affect work (raw write magnitude peaks in the same place in every family); the
+largest difference any block shows between ladder text and maker-less text, against work values
+running 4–77; and the QC alarm (below 0.5 = no single dimension dominates).*
 
-**Verdict: both standing facts survive translation into the defensible units, in the first two
-families.** The write/work geography is *maker-blind* — specification-ladder text and maker-less
-text produce the same profile to two decimals, the address-umbrella rejection (L14) in honest
-units — and it concentrates at the input edge (blocks 0–1), right where the control-subspace
-question (G43) put the boundary. Discriminability is *family-inverted*: the home model's d′ peaks
-a fifth of the way in, gpt2-medium's at the last block — the sign map's family-boundness, again in
-honest units. Both QC-clean, so none of this is a rogue-dimension artifact. Six families in
-flight; the entry completes as they land.
+**Verdict: both standing facts survive translation into the defensible units, now in six
+families.** The write/work geography is *maker-blind* — the ladder-vs-maker-less gap is negligible
+at every block in every family, the address-umbrella rejection (L14) in honest units — and it
+concentrates at the input edge (blocks 0–3) universally, right where the control-subspace question
+(G43) put the boundary. Discriminability placement is family-specific in the familiar shape: early
+in both Qwen sizes (13–22%), mid-stack in gpt2-large, pythia, and SmolLM2 (46–58%), and the last
+block in gpt2-medium. All six QC-clean, so none of this is a rogue-dimension artifact. Two
+families in flight; the entry completes as they land.
 
 ## L4 · Can weak effects be stacked into a detector?
 
