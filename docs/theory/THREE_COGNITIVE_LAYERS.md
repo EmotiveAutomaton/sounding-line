@@ -232,7 +232,7 @@ The route back in for the three-locus version, nobody having tried it:
 | **G21** | Block 0 is a pure salience gate — presence without category | **REJECTED (test); half-survived at power in the home family only.** At 500 neutral items block 0 is the *presence peak* there (0.637, best in the model) while carrying category at 8.4× chance — and the presence peak sits at block 8 in gpt2, block 19 in pythia. **Salience-first was a home-family fact** |
 | **L14** | The depth profile is bimodal | **REJECTED (test)** — 27 of 36 runs unimodal; the exceptions are two families and appear in their no-maker runs too |
 | **G124** | Aligned by computational events rather than depth fractions, the loci land somewhere lawful across families | **SUPPORTED (test), first pass.** Activation-similarity alignment against five families: the home early locus matches a block in the first sixth of the stack in four of five, and the late locus lands at 62–83% depth in all five. The exception is SmolLM2 — the odd family again — whose best match to the early events sits 28% deep. No permutation null yet |
-| **G126** | The maker-blindness of the profiles survives translation into defensible units | **SUPPORTED (test), six families of eight.** Write norm, signed affect work, and probe signal-to-noise per block, QC-clean in all six: the write/work geography is near-identical with and without a maker at every block, and concentrates at the input edge universally — while discriminability peaks early in Qwen (13–22% deep), mid-stack in three families, and at the last block in gpt2-medium: the family-boundness again, in honest units |
+| **G126** | The maker-blindness of the profiles survives translation into defensible units | **SUPPORTED (test), all eight families.** Write norm, signed affect work, and probe signal-to-noise per block, QC-clean throughout: the write/work geography is near-identical with and without a maker at every block, and concentrates at the input edge universally. Discriminability placement obeys no law — early at both Qwen sizes, scattering early-to-late across the others with size reversing direction between families; **the home family's early placement, where this project's loci were chosen, is the exception rather than the rule** |
 
 **What the table says.** Where things sit in a model is a fact about the model, not about the
 maker: the profile ignores the maker, the peak never moves with intent, the middle is quiet, the
@@ -242,11 +242,16 @@ early and late events land at lawful relative depths in almost every family (G12
 cross-family claims can be stated at aligned stages instead of raw depths — with one family
 refusing the alignment, the same one the sign map exempts. The profile geography itself is not an
 artifact of our pooling choice: its shape and peak survive last-token and max pooling essentially
-unchanged (the G127 row under the next table). What survives of the umbrella beyond that: the
+unchanged (the G127 row under the next table). And re-measured in the units a neural analogy
+actually licenses — write magnitude, signed affect work, probe signal-to-noise — the
+maker-blindness holds at every block in all eight families, the work concentrates at the input
+edge everywhere, and the depth at which the probe discriminates best obeys no law across families:
+it sits early only in the home family, which is where this project's loci were chosen — a
+selection caution, not a coincidence to lean on. What survives of the umbrella beyond that: the
 residual-trimodal instrument has a proven operating regime in simulation and has never been
 pointed at a real model, and the polish/leakage depth split has never run at all. Confidence: the
-rejections are replicated and controlled; the alignment result is one bad test away — its null is
-still owed.
+rejections are replicated and controlled; the alignment and defensible-units results are each one
+bad test away — the alignment's null is still owed.
 
 ### Tracking: reconstruction quality follows the maker
 

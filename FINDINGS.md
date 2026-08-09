@@ -1643,7 +1643,7 @@ norm** (how much a block actually changes the stream — what BOLD-style signals
 and **per-block d′** (the probe's honest signal-to-noise), plus a **rogue-share alarm** (does one
 dimension dominate the projection — the standard artifact).
 
-**Method.** `run_block_contribution.py`, six families landed of eight: cached block states over 160
+**Method.** `run_block_contribution.py`, all eight families: cached block states over 160
 specification-ladder windows and 144 maker-less windows; the three quantities per block per
 corpus; QC threshold at half the projection carried by one dimension.
 
@@ -1651,9 +1651,11 @@ corpus; QC threshold at half the projection carried by one dimension.
 |---|---|---|---|---|
 | Qwen2.5-1.5B (home) | block 6 of 27 — 22% deep, 2.76 | block 1 | ≤ 0.15 | 0.02 |
 | Qwen2.5-0.5B | block 3 of 23 — 13%, 3.38 | block 2 | 0.06 | 0.03 |
-| gpt2-medium | block 22 of 23 — **96%**, 2.37 | block 0 | 0.01 | 0.22 |
+| gpt2-medium | block 22 of 23 — 96%, 2.37 | block 0 | 0.01 | 0.22 |
 | gpt2-large | block 16 of 35 — 46%, 2.21 | block 0 | 0.02 | 0.05 |
 | SmolLM2-360M | block 18 of 31 — 58%, 2.82 | block 3 | 0.16 | 0.03 |
+| SmolLM2-1.7B | block 23 of 23 — 100%, 3.06 | block 7 | 0.06 | 0.02 |
+| pythia-410m | block 21 of 23 — 91%, 2.69 | block 5 | 0.11 | 0.03 |
 | pythia-1.4b | block 11 of 23 — 48%, 2.29 | block 3 | 0.08 | 0.01 |
 
 *Columns: where the probe's per-block d′ peaks (block, relative depth, value); which block does
@@ -1661,14 +1663,16 @@ the most signed affect work (raw write magnitude peaks in the same place in ever
 largest difference any block shows between ladder text and maker-less text, against work values
 running 4–77; and the QC alarm (below 0.5 = no single dimension dominates).*
 
-**Verdict: both standing facts survive translation into the defensible units, now in six
-families.** The write/work geography is *maker-blind* — the ladder-vs-maker-less gap is negligible
-at every block in every family, the address-umbrella rejection (L14) in honest units — and it
-concentrates at the input edge (blocks 0–3) universally, right where the control-subspace question
-(G43) put the boundary. Discriminability placement is family-specific in the familiar shape: early
-in both Qwen sizes (13–22%), mid-stack in gpt2-large, pythia, and SmolLM2 (46–58%), and the last
-block in gpt2-medium. All six QC-clean, so none of this is a rogue-dimension artifact. Two
-families in flight; the entry completes as they land.
+**Verdict: two universals and one lawless quantity, on the complete set.** Universal one: the
+write/work geography is *maker-blind* — the ladder-vs-maker-less gap is negligible at every block
+in all eight families, the address-umbrella rejection (L14) in honest units. Universal two: the
+signed affect work concentrates at the input edge (blocks 0–7, mostly 0–3) everywhere, right where
+the control-subspace question (G43) put the boundary. The lawless one: where discriminability
+peaks follows neither family nor size — Qwen sits early at both sizes (13–22%), but pythia goes
+late-to-mid as it grows (91% → 48%), SmolLM2 mid-to-late (58% → 100%), gpt2 late-to-mid (96% →
+46%). **The home family's consistently early d′ is the exception, not a law — and it is exactly
+where this project's loci were chosen, a selection caution the cross-family failures keep
+confirming.** All eight QC-clean, so none of this is a rogue-dimension artifact.
 
 ## L4 · Can weak effects be stacked into a detector?
 
