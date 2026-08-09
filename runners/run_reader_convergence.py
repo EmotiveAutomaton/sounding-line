@@ -78,11 +78,19 @@ def main() -> None:
     groups: dict[str, list[tuple[str, str]]] = {}
     books = json.loads((REPO / "corpora" / "manifests" / "books.json").read_text(encoding="utf-8"))
     items = books["items"] if isinstance(books, dict) else books
+    lut = {}
+    for m in (REPO / "corpora" / "store").glob("*.meta.json"):
+        meta = json.loads(m.read_text(encoding="utf-8"))
+        for k in ("requested_url", "final_url"):
+            if meta.get(k):
+                lut[meta[k]] = m.with_name(m.name.replace(".meta.json", ".txt"))
     picks = rng.sample(items, min(args.per_group, len(items)))
-    groups["human_books"] = [
-        (it["id"], take((REPO / "corpora" / "store" / f"{it['id']}.txt")
-                        .read_text(encoding="utf-8", errors="ignore")[5000:40000]))
-        for it in picks if (REPO / "corpora" / "store" / f"{it['id']}.txt").exists()]
+    groups["human_books"] = []
+    for it in picks:
+        p = lut.get(it.get("url")) or lut.get(it.get("final_url"))
+        if p and p.exists():
+            groups["human_books"].append(
+                (it["id"], take(p.read_text(encoding="utf-8", errors="ignore")[5000:40000])))
 
     arg_dir = REPO / "corpora" / "public" / "argrewrite" / "essays"
     essays = sorted(arg_dir.glob("*.txt")) if arg_dir.exists() else []

@@ -74,10 +74,17 @@ def main() -> None:
     groups = {}
     books = json.loads((REPO / "corpora" / "manifests" / "books.json").read_text(encoding="utf-8"))
     bitems = books["items"] if isinstance(books, dict) else books
+    # the store keys files by URL hash, not manifest id
+    lut = {}
+    for m in (REPO / "corpora" / "store").glob("*.meta.json"):
+        meta = json.loads(m.read_text(encoding="utf-8"))
+        for k in ("requested_url", "final_url"):
+            if meta.get(k):
+                lut[meta[k]] = m.with_name(m.name.replace(".meta.json", ".txt"))
     vals = []
     for it in bitems:
-        p = REPO / "corpora" / "store" / f"{it['id']}.txt"
-        if p.exists():
+        p = lut.get(it.get("url")) or lut.get(it.get("final_url"))
+        if p and p.exists():
             vals.append(incompress(truncate(p.read_text(encoding="utf-8", errors="ignore")[5000:])))
     groups["human_books"] = vals
     for corpus in ("ladder2", "nomaker"):

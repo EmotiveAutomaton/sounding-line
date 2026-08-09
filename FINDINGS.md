@@ -1174,6 +1174,59 @@ it. Same lesson as the per-layer map, now with teeth: the measure is real in at 
 architectures and **the pre-registered direction was an artifact of which family we explored first**
 (G112 characterises what the fixed depth fractions straddle per family).
 
+## L29 · The essays' two information-theory claims, first contact — both miss as operationalised
+
+**Hypothesis.** From the essays, untested until tonight: machine text lacks the Kolmogorov
+complexity "inherent to biological constraint satisfaction," and generation is "a regression toward
+the mean — the average fish."
+
+**Method.** `run_compression_ladder.py`, CPU: (1) per-artifact incompressibility (lzma output/input
+bytes) against rung with length partialled, three ladders; (2) distance from each artifact's
+342-feature vector to the pooled z-scored centroid, machine (held-out ladder) versus human (student
+essays).
+
+**Found.** Incompressibility does not track specified intent: +0.04 / +0.05 / +0.19, all n.s. — 60
+stacked specifications add no measurable description length. And the centroid test came back
+**backwards: machine text sits *farther* from the mean than human text (23.2 vs 15.3)** —
+though register and length are uncontrolled in that comparison and the books group was empty on the
+first pass (store-mapping bug, fixed, re-queued). **Means:** whatever the ladder's specifications
+add, it is not lzma-visible structure; and "the average fish" needs a register-matched test before
+it survives contact — as run, the *human* essays hug the centroid.
+
+## L30 · Placement does not scale — the live worry's second test returns its strongest answer
+
+**Hypothesis.** *(His, §8: "Is there evidence of worse models having more poorly placed emotional
+concepts?")* If placement improves with capability, placement is learned and the amplification
+story needs a scale story.
+
+**Method.** `run_placement_scale.py`, CPU over the 11 saved subspace matrices: per family, the
+sharpness of the early two-band break and the lawfulness of alignment decay (R² of log-alignment on
+layer distance), each correlated with parameter count.
+
+**Found: ARCHITECTURAL.** Break sharpness against size: rho +0.05 (p = 0.89). Decay lawfulness:
+rho +0.40 (p = 0.22). Eleven families, 0.35B–3B. **Means:** placement quality shows no sign of
+being a capability — **the affective structure's location reads as a property of the network, not
+of training scale, which is the direction §8's build needs.** Eleven points is a small n; the rho
+is the result and the label is a summary.
+
+## L31 · The early break is universal; the rotation composes everywhere except Qwen
+
+**Hypothesis.** G42's two-band break (found in four families) should hold in the seven
+audit-surfaced runs; and if one lawful transform carries the affect subspace through depth (G44),
+alignment should *compose* — align(i,k) predictable from align(i,j)·align(j,k).
+
+**Method.** `run_subspace_bands11.py`, CPU over the 11 alignment matrices: best two-way split per
+family; composability R² over all layer triples.
+
+**Found.** The best split sits at the **earliest boundary in all eleven families** (layer 1 by this
+runner's indexing — an off-by-one against the original's "layer 2" convention is flagged, not
+resolved). And composability splits by family, hard: **pythia 0.88–0.92, gpt2 0.78–0.84, SmolLM2
+0.45–0.58, Qwen 0.20–0.30.** **Means:** the very-early break is universal — the one
+location claim in the project that transfers — and **the depth transform is lawful enough to fit in
+pythia and gpt2 but not in the flagship family.** G44's fit-the-transform build should start in
+pythia; **Qwen, where all the flagship results live, is the wrong place to look for a lawful
+rotation — one more way the flagship family is the outlier (after L28).**
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

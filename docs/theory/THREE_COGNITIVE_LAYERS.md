@@ -479,7 +479,7 @@ that is not what is happening.
 | # | hypothesis | status | notables |
 |---|---|---|---|
 | **G40** | There is a coherent affect subspace at all, consistent across families | **SUPPORTED (test).** 4-6x its null at maximum layer distance, in every family | **The rotation rate is consistent across families even though the magnitude profile is not** — so it was the profile that was the wrong measure, not the idea |
-| **G42** | The affect subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at **layer 2** beats any three-band split in all four families; distance alone explains 69-81% of the alignment matrix | **The one strong break is very early**, where G20b puts the text-transformation boundary. But see G43. **Two-band split tested in the original four families only — the seven runs the audit surfaced (L26) are owed the same test** |
+| **G42** | The affect subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at **layer 2** beats any three-band split in all four families; distance alone explains 69-81% of the alignment matrix. **Extended to all eleven (L31): the best split sits at the earliest boundary in every family** (an off-by-one between the two runners' indexing is flagged, unresolved) | **The very-early break is universal — the one location claim in the project that transfers**, and it sits where G20b puts the text-transformation boundary. But see G43 |
 | **G43** | The layer-2 break is affective, not an artifact of proximity to the embedding | **OPEN, and it gates how G42 reads** | Cheap. Needs a non-affective control subspace measured identically |
 | **G39** | The three layers are subspaces rather than depths | **REJECTED (test)** | — |
 
@@ -540,15 +540,16 @@ of the network, and the amplification story needs a scale story attached.
 
 | # | hypothesis | status | notables |
 |---|---|---|---|
-| **G44** | The depth-dependent transform of the affect subspace is recoverable | **OPEN.** If the same concept is written differently at each layer and that mapping can be fitted, **repositioning is applying it** | The alignment matrix from §8 already contains the data to fit it — we measured the *amount* of rotation and never the *rotation itself* |
+| **G44** | The depth-dependent transform of the affect subspace is recoverable | **OPEN — first bite landed (G44a, L31).** Alignment *composes* lawfully in pythia (R² 0.88–0.92) and gpt2 (0.78–0.84), weakly in SmolLM2, **and not in Qwen (0.20–0.30)** | **Fit the transform in pythia first.** The flagship family, where every headline result lives, is the wrong place to look for a lawful rotation — the outlier again (L28) |
 | **G45** | An affective concept can be forced into a chosen layer and strengthened there | **OPEN, and it is the build.** Relocation and reinforcement rather than construction | **A much smaller build than §9's** if it works, and it needs G44 first |
-| **G46** | Weaker or smaller models place affective concepts more poorly | **OPEN, and it is a second test of §8's worry.** If placement improves with capability, **placement is learned rather than architectural** | We already hold four families spanning 360M to 1.5B and have not asked this of them. **Cheap** |
+| **G46** | Weaker or smaller models place affective concepts more poorly | **TESTED — ARCHITECTURAL (L30).** Across eleven families, 0.35B–3B: break sharpness vs size rho **+0.05** (p = 0.89), decay lawfulness rho +0.40 (p = 0.22) | **Placement does not scale — the strongest thing §8 could return.** The structure's location reads as a property of the network, not of training. n = 11; the rho is the result, the label a summary |
 
-**What these add up to.** Nothing has been run, but the three are ordered: **G46 is free and decides
-whether placement is a property of the network or of training; G44 is the measurement that makes G45
-possible; G45 is the build.** And G46 has the useful property of being informative in both
-directions — **if placement does not improve with scale, that is evidence the structure is
-architectural, which is the strongest thing §8 could return.**
+**What these add up to.** The order held and the first two have now run (2026-08-08 night). **G46
+returned the strong direction: placement does not improve with scale — architectural (L30).** And
+G44's first bite says the transform is fittable, **just not in the flagship family**: the rotation
+composes lawfully in pythia and gpt2 and barely in Qwen (L31). So the build's path is concrete —
+**fit the transform where it composes, then ask whether Qwen's non-composing rotation is noise or a
+genuinely different organisation.** G45 remains the build, and it now has an address.
 
 ### What is needed is a generative model, not a state
 

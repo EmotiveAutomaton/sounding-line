@@ -47,14 +47,29 @@ def fw_vector(text: str):
     return np.array([c[w] / n for w in FUNCTION_WORDS], dtype=float)
 
 
+def store_lookup():
+    """The store keys files by URL hash, not manifest id — map url -> text path (audit of my
+    own first attempt: both books-reading runners silently found zero files)."""
+    lut = {}
+    for m in (REPO / "corpora" / "store").glob("*.meta.json"):
+        d = json.loads(m.read_text(encoding="utf-8"))
+        p = m.with_name(m.name.replace(".meta.json", ".txt"))
+        for k in ("requested_url", "final_url"):
+            if d.get(k):
+                lut[d[k]] = p
+    return lut
+
+
 def main() -> None:
     import numpy as np                                                # noqa: PLC0415
 
     man = json.loads((REPO / "corpora" / "manifests" / "books.json").read_text(encoding="utf-8"))
     items = man["items"] if isinstance(man, dict) else man
+    lut = store_lookup()
     by_author: dict[str, list[list]] = {}
     for it in items:
-        p = REPO / "corpora" / "store" / f"{it['id']}.txt"
+        p = (lut.get(it.get("url")) or lut.get(it.get("final_url"))
+             or REPO / "corpora" / "store" / f"{it['id']}.txt")
         if not p.exists():
             continue
         words = p.read_text(encoding="utf-8", errors="ignore").split()
