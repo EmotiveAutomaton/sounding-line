@@ -1426,6 +1426,14 @@ zero SHIFTS anywhere in eleven families.** The map's standing sentence is unchan
 on every cell: the sign is a family constant, no family shares the home family's negative, and the
 positive camp's largest members go quiet.
 
+**The per-block correlation matrix also completed (folds into L12): 33 of 33 ladder cells.** The
+eight new cells: Qwen-3B SURVIVES on both remaining ladders (12 and 3 surviving blocks), SmolLM2-1.7B
+both (9 and 5), pythia-2.8b both (8 and 2), gpt2-xl one survivor on the first ladder and DEAD on
+the extreme — completing gpt2's family-wide weakness (large 0/3, xl now effectively 0-1 surviving
+blocks across corpora). L12's totals update: **of 33 ladder runs across eleven families, 25
+survive**, failures still clustering in the gpt2 family, surviving blocks still moving by model and
+corpus — the address never transfers, the tracking usually does.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
