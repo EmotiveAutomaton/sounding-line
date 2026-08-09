@@ -1775,6 +1775,35 @@ exists instead is weak, depth-uniform presence information with category informa
 The two curves' *relative* placement (category peaking mid-stack, blocks 7–18) stays available to
 the layer-ordering question.
 
+## L52 · Self-revision is homogeneous, splices are lumpy — perfect separation, against the weakest adversary
+
+**Hypothesis.** *(G81, the connoisseurship import.)* A maker's own revisions are "of like kind"
+throughout while imposed changes arrive in distinct steps — operationalised distributionally: the
+dispersion of paragraph-level change magnitudes between drafts should be low for real
+self-revision and high where change was imposed.
+
+**Method.** `run_revision_homogeneity.py`: 66 essay authors with both first and third drafts
+(pairable after the stem-normalisation fix of L43); per author, the spread of per-paragraph change
+magnitudes across the revision; the control is a synthetic splice — paragraphs from another author
+inserted into the first draft at the same total change volume.
+
+| | dispersion of change magnitudes |
+|---|---|
+| real self-revision (66 authors) | 0.45 |
+| synthetic splice, same change volume | 1.94 |
+
+*Dispersion: spread of per-paragraph change sizes relative to their mean — low means the revision
+touched the artifact evenly, "of like kind"; the two distributions separate with no overlap
+(AUC 1.0, where 0.5 is chance and 1.0 is perfect).*
+
+**Verdict: SEPARATES, at ceiling — and the ceiling is the caveat.** The pre-registered bar (0.7)
+is cleared at 1.0, which mostly measures how weak the adversary is: a cross-author paragraph
+splice produces near-zero local similarity, so the statistic may be reading *different author
+present* rather than *imposed change lumpy*. What the first pass establishes: the homogeneity
+statistic works and real self-revision genuinely sits low. What it cannot yet claim: separating
+self-revision from *realistic* imposition — an editor's same-register touch — which is the mixed-
+provenance case the import exists for. One bad test away, and the next test is a subtler splice.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

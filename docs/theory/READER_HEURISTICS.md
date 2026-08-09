@@ -136,6 +136,13 @@ He predicts a vague unifying effect there and declines to claim even that.
 | **HH-7** | Local decision density around a mistake exceeds baseline | **OPEN** — needs mistakes located first; the one place a decision and its counterfactual are visible together |
 | **S-4/S-5** | Stage ordering changes the answer | **REJECTED (sim)** — by exactly zero; ~5% cost saving only |
 
+**What the table says.** The entry-point family has one live positive and one honest defeat: the
+reader's own affective series moves through human text and not machine text, while every surface
+operationalisation of the same idea loses to the field's bar once topic is controlled. Ordering
+effects are bounded near zero, the wobble test is retired on the curator's own account, and the
+anomaly rows — the family's core — remain unrun. Confidence: the probe-activation result is one
+bad test away; the surface defeats are replicated and controlled; the rest is untested.
+
 ## §3. Traversing explanatory levels
 
 > Walking up to an unknown oil painting, you can engage with it on the level of **metaphor** — why did
@@ -172,6 +179,11 @@ exactly the ambiguities that matter here.
 | **lit** | Entry at any level, ratcheting to the others | **CONTESTED (READ)** — Bullot & Reber make design-stance understanding a *necessary condition*; the disagreement is over necessity, not temporal order (their own response describes recursive processing) |
 | **lit** | Bullot & Reber's framework is well supported | **REJECTED (READ-FULL)** — 34 experiments across 23 publications: 26% support, 56% none |
 
+**What the table says.** The only occupying framework makes level-entry a necessity claim with a
+weak empirical record, which leaves enter-anywhere both undefended in the literature and untested
+here — the deciding experiment is the triple inference's missing mechanics arm. Confidence:
+untested — logic only, resting on a contested literature.
+
 ## §4. Updating and active search
 
 > It starts questionable... 8 or 9 by the end.
@@ -192,6 +204,12 @@ the reason to expect modest effects.
 |---|---|---|
 | **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN** — every reading this project records is a final number, so the series has never existed to be checked |
 | **G64** | Re-reading one artifact recovers the tail | **OPEN** — canonical in the triple inference's ledger; the reader-side strategy is this section's |
+
+**What the table says.** Nothing here has a number because the data has never been recorded — the
+confidence series is the cheapest unbuilt instrument in the file, needing only that readings log a
+trajectory instead of an endpoint. One external result points against series-carrying claims at
+the representation level, which is a reason to expect modest effects, not to skip the test.
+Confidence: untested — logic only.
 
 ## §5. Continuation and stopping
 
@@ -224,6 +242,12 @@ Stopping is the calibration side: graded attribution when evidence supports only
 | **HH-14** | Reader-reported interest correlates with unrecovered decisions | **OPEN, blocked on him** — interest ratings on the fifteen read artifacts; an hour that turns the richest hypothesis source into data |
 | **HH-16** | "Ordered but unexplained" is effective complexity rather than entropy | **OPEN** — a real, formalisable target |
 | **lit** | Berlyne's collative variables support the interest claim | **REJECTED (READ)** — the arousal theory is *"mostly abandoned"*; one fetch found this after fifteen searches had not |
+
+**What the table says.** The interest account survived losing its supposed backing: the abandoned
+arousal theory is replaced by a sharper formal target (effective complexity), and the live
+opposing account — pleasure from processing ease — predicts the *opposite* correlation between
+interest and recoverability, which is exactly what the blocked ratings test would adjudicate.
+Confidence: untested — logic only, blocked on an hour of the curator's time.
 
 # Part II — Cue families
 
@@ -268,6 +292,13 @@ The cue family, by function rather than by source:
 | **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention** |
 | **G91** | Inter-annotator agreement and per-feature accuracy before believing any extraction | **OPEN, and mandatory** — an aggregate concealed a worse-than-chance category |
 
+**What the table says.** The forty-year practice arrives as one measured win, one protocol we had
+already built, and a discipline: the visibility partition produced a clean double crossover on its
+first pass, the intent ladder turns out to be the field's own elicitation protocol with a ceiling
+attached that reframes every recovery number, and the rest of the family is method, not yet
+measurement. Confidence: the partition is one bad test away; the ceiling import is replicated in
+its home field; the open rows are untested.
+
 ## §7. Habit, concealment, and revision
 
 The reader's rules for exploiting the automatic traces (the trace ontology itself is
@@ -302,10 +333,17 @@ The reader's rules for exploiting the automatic traces (the trace ontology itsel
 |---|---|---|
 | **G79** | The four-part admissibility filter, criterion 4 especially | **OPEN — the best single import**; predicts where habit is switched off |
 | **G80** | Reserve versus overpaint, on text structure | **OPEN** — computable on one static text |
-| **G81** | Self-revision is homogeneous, imposed change is lumpy | **OPEN; first in-project measurement queued** — the mixed-provenance discriminator |
+| **G81** | Self-revision is homogeneous, imposed change is lumpy | **SUPPORTED (test), first pass, against the weakest adversary** — 66 authors, real revision dispersion 0.45 vs cross-author splice 1.94, separation perfect (AUC 1.0). The ceiling is the caveat: a crude splice may be read as *different author* rather than *imposed change*; the realistic same-register imposition is the untested case |
 | **G82** | High internal consistency indicates *imitation*, not expertise | **OPEN** — may invert an assumption we hold |
 | **G83** | Adopt the graded attribution vocabulary | **OPEN** |
 | **G84** | Two channels — falsifiers veto, style proposes, never averaged | **OPEN, architectural** — every historical catch came from a hard falsifier |
+
+**What the table says.** The concealment family has its first number and it sits suspiciously at
+ceiling: real self-revision is measurably even-handed, but the adversary it beat was the crudest
+possible splice, so the mixed-provenance question the family exists for is still open. The
+admissibility filter's fourth criterion remains the best-rated unrun import — it predicts where
+habit is switched *off*, which is information every other measure discards. Confidence: the
+homogeneity result is one bad test away; everything else is untested.
 
 ## §8. Communicative shaping — the bard
 
@@ -364,6 +402,13 @@ automaticity makes unobservable by construction.
 | **HH-21** | Generated text lacks the collaborative half — it takes without giving | **OPEN** — the third account of the unease, and the three predict different things |
 | **HH-17** | The polish–effort correlation is strong in human corpora, near zero in generated | **OPEN** — blocked on an effort proxy |
 | **HH-18** | The effort heuristic is a broken valid inference, not a reader bias | **OPEN** — follows from HH-17; the reframe is the contribution |
+
+**What the table says.** The bard refinement is the most theory-dense unmeasured material in the
+file: it splits polish into two motivations, predicts a specific missing half in generated text,
+and reframes the effort heuristic as a valid inference a new artifact class broke — three claims
+that predict different things and share one blocker, a defensible proxy for effort. The
+communicative assumption itself is the one prior whose failure mode (confident inference from
+structure placed to mislead) is worse than not holding it. Confidence: untested — logic only.
 
 # Part III — Calibration
 
