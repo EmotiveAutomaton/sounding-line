@@ -1674,6 +1674,59 @@ late-to-mid as it grows (91% → 48%), SmolLM2 mid-to-late (58% → 100%), gpt2 
 where this project's loci were chosen, a selection caution the cross-family failures keep
 confirming.** All eight QC-clean, so none of this is a rogue-dimension artifact.
 
+## L49 · The early break is the adapter's edge — every control subspace snaps in the same place
+
+**Hypothesis.** *(G43, the test he ordered first.)* The affect subspace's one sharp boundary sits
+at the very front of every model. If it is an *affective* boundary it should be absent for
+non-affective content; if syntax, topic, and frequency subspaces all break at the same place, the
+boundary is the input adapter's edge and says nothing about the affect mappings.
+
+**Method.** `run_control_subspaces.py`, three families landed of eleven: topic, syntax, and
+frequency subspaces authored and fitted identically to the affect one (same rank, same fitting
+path, same block grid), then the location of each subspace's sharpest adjacent-block overlap drop.
+
+| family | affect breaks at | topic | syntax | frequency | verdict |
+|---|---|---|---|---|---|
+| Qwen2.5-1.5B (home) | block 1 | block 1 | block 1 | block 1 | ADAPTER-EDGE |
+| gpt2-medium | block 1 | block 1 | block 1 | block 1 | ADAPTER-EDGE |
+| pythia-1.4b | block 1 | block 1 | block 1 | block 1 | ADAPTER-EDGE |
+
+*Columns: the block index of the sharpest break in each content type's subspace continuity — the
+same place for all four content types, in all three families so far.*
+
+**Verdict: ADAPTER-EDGE, unanimous in the first three families.** The break the affect subspace
+shows is shared by every content type measured — it is the seam where the input representation
+hands over to the residual stream, not a fact about affect. **Means: any reading of the two-way
+split (G42) as an affective boundary is dead; the front break carries no mapping information.**
+The deflationary arm of his gating question, exactly as he posed it. Eight families in flight;
+folding in as they land.
+
+## L50 · The affect subspace's depth rotation survives its own repair — rank-truncated, against a matched null
+
+**Hypothesis.** *(G111.)* Every subspace-continuity number so far carried a known dilution: the
+fitted basis spans rank 7 in eight columns. The repair — rank-truncated bases and a
+distant-pairs-matched null — must not flip the verdicts, or the rotation story was an artifact of
+the fit.
+
+**Method.** `run_subspace_alignment.py` v2, three families landed of eleven: subspace overlap
+between adjacent blocks, between distant blocks, and over all pairs, against a null built from
+matched random subspaces of the same rank on the same grid.
+
+| family | adjacent overlap | distant overlap | null | verdict |
+|---|---|---|---|---|
+| Qwen2.5-1.5B (home) | 0.82 | 0.31 | 0.056 | DEPTH |
+| gpt2-medium | 0.92 | 0.42 | 0.069 | DEPTH |
+| pythia-1.4b | 0.87 | 0.28 | 0.049 | DEPTH |
+
+*Columns: mean shared fraction of the 7-dimensional affect subspace between neighbouring blocks;
+between the most separated blocks; what matched random subspaces share by chance; and the
+per-family verdict that the structure is depth-organised.*
+
+**Verdict: DEPTH, in all three so far — the rotation is real and the repair changes nothing.**
+Neighbouring blocks share most of the subspace, distant blocks a third, everything sits five to
+eight times above a properly matched null. The v1 caveat retires for these families: the
+structure was not the fit's artifact. Eight families in flight; folding in as they land.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

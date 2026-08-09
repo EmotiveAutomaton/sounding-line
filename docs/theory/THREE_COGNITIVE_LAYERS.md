@@ -197,21 +197,26 @@ count relation and everything of ours is untested or instrument-dead.
 |---|---|---|
 | **G40** | A coherent affect subspace exists, consistent across families | **SUPPORTED (test).** Four to six times its matched null even between the most distant blocks, in **all eleven families**, 0.35B–3B, four architectures — the rotation *rate* is consistent where the magnitude profile never was |
 | **G42** | The subspace is organised in three bands | **REJECTED (test) as equal thirds.** A two-way split at the earliest boundary beats any three-band split — in the original four families and in all eleven on the extended check |
-| **G43** | The early break is affective rather than an input-adapter artifact | **OPEN, and it gates how the break reads** — non-affective control subspaces (syntax, topic, frequency, position), measured identically, is the first test to run; if everything breaks at the same place, the boundary is the adapter's edge and says nothing about the mappings |
+| **G43** | The early break is affective rather than an input-adapter artifact | **REJECTED (test), first three families of eleven, unanimous.** Topic, syntax, and frequency subspaces measured identically all snap at the same block the affect subspace does — the boundary is the input adapter's edge and carries no mapping information. The gate he set resolves in the deflationary direction |
 | **G44** | The depth transform of the subspace is recoverable | **OPEN — first bite landed.** Alignment *composes* lawfully in pythia (R² 0.88–0.92) and gpt2 (0.78–0.84), weakly in SmolLM2, **not in Qwen (0.20–0.30)** — fit the transform where it is lawful, and note the home family is the outlier again |
 | **G46** | Weaker models place the structure more poorly | **REJECTED (test) as a scale story** — placement quality tracks parameter count at rho +0.05 across eleven families: **architectural, not learned**, which is the direction the amplify-rather-than-build strategy needed |
 | **G39** | The three levels are subspaces rather than depths | **REJECTED (test)** — the subspace rotates with depth |
 
-One caveat rides all the numbers: the fitted basis carries a rank-7 span in eight columns, diluting
-alignments ~1/8 without flipping any verdict — a fix is queued.
+The rank-dilution caveat that rode all these numbers is retiring: rank-truncated bases against a
+distant-matched null reproduce the rotation in the first three families re-run (neighbouring
+blocks share most of the subspace, distant blocks a third, everything five to eight times above
+chance) — no verdict flips; eight families remain.
 
-**What the table says.** There is one coherent affective structure; it rotates continuously through
-depth rather than sitting in bands; its one sharp boundary is at the very front; its placement does
-not improve with scale; and its rotation is lawful enough to fit in some families. **That is a
-consistent shape — and it is not yet the shape this file claims**, because nothing ties the
-structure to drives, to the middle, or to any causal role. Confidence: existence, rotation, and
-the scale result are replicated and controlled; the boundary's meaning and the transform are one
-bad test away.
+**What the table says.** There is one coherent affective structure; it rotates continuously
+through depth rather than sitting in bands; its placement does not improve with scale; and its
+rotation is lawful enough to fit in some families. Its one sharp boundary, though, has lost its
+meaning: every content type measured — topic, syntax, frequency — snaps at the same front block,
+so the break is the input adapter's seam and says nothing about affect. **What remains is a
+consistent shape that is not yet the shape this file claims**, because nothing ties the structure
+to drives, to the middle, or to any causal role — and its one candidate landmark just proved
+generic. Confidence: existence, rotation, and the scale result are replicated and controlled; the
+adapter-edge rejection and the repaired-basis confirmation are each one bad test away until their
+batteries complete.
 
 ## §6. Address versus tracking — the two umbrellas the predictions became
 
