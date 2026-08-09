@@ -87,6 +87,9 @@ def main() -> None:
     ap.add_argument("--no-echo", action="store_true",
                     help="the pre-registered echo restriction: score only specifications whose "
                          "content words are absent from the artifact")
+    ap.add_argument("--echo-threshold", type=float, default=None,
+                    help="G113 graded restriction: keep specifications whose content-word overlap "
+                         "fraction with the artifact is <= this (0.0 == --no-echo, 1.0 == keep all)")
     ap.add_argument("--device", default="cuda")
     ap.add_argument("--shuffle-specs", action="store_true",
                     help="CONTROL: give each artifact another artifact's specification. Destroys the "
@@ -164,12 +167,18 @@ def main() -> None:
                     f"Write about {topic}. Every one of the following must be honoured, and they "
                     f"are all simultaneously true of your situation: " + "; ".join(specs) + ".")
 
-        if args.no_echo:
-            # The pre-registered echo restriction, implemented at last (audit L26 found the
-            # docstring promised it and the code never had it): score only specifications whose
-            # content words never appear in the artifact, so lexical echo cannot do the work.
+        if args.no_echo or args.echo_threshold is not None:
+            # The pre-registered echo restriction (strict at 0 overlap) and its graded form (G113):
+            # the strict version removes every honoured specification too, since honouring shares
+            # words. Thresholds separate echo-carried from echo-inevitable.
+            thr = 0.0 if args.no_echo else args.echo_threshold
             tw_early = content_words(text)
-            keep = [s for s in true_specs if not (content_words(s) & tw_early)]
+
+            def overlap_frac(s):
+                cw = content_words(s)
+                return len(cw & tw_early) / max(len(cw), 1)
+
+            keep = [s for s in true_specs if overlap_frac(s) <= thr]
             if rung > 0 and not keep:
                 continue
             true_specs = keep
@@ -239,9 +248,14 @@ def main() -> None:
     print(f"\n  >>> {verdict}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / (f"{args.corpus}_shuffled.json" if args.shuffle_specs else
-                f"{args.corpus}_noecho.json" if args.no_echo else
-                f"{args.corpus}.json")).write_text(json.dumps(
+    _suffix = ("_shuffled" if args.shuffle_specs else
+               "_noecho" if args.no_echo else
+               f"_echo{int(args.echo_threshold * 100)}" if args.echo_threshold is not None else "")
+    # non-default decoy counts get their own file — the untagged name is how L16's raw files died
+    # (ladder3.json remains the historical 96-decoy record; new runs are always tagged)
+    if args.decoys != 48 and not _suffix:
+        _suffix = f"_d{args.decoys}"
+    (RESULTS / f"{args.corpus}{_suffix}.json").write_text(json.dumps(
         {"corpus": args.corpus, "decoys": args.decoys, "n": len(rows),
          "shuffled_specs": args.shuffle_specs,
          "rho_bits": float(rho_b), "p": float(p_b), "rho_echo": float(rho_e),

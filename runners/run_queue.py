@@ -226,6 +226,92 @@ STAGES: list[dict] = [
      "why": "re-correct the whole family after new results land"},
 ]
 
+# ── NIGHT LOAD 2026-08-08 — generated blocks: explicit model lists, deterministic order, every
+# stage produces-guarded. Heavy models are spaced inside each corpus block so two shards rarely
+# co-load more than ~9 GB; a rare unlucky alignment fails once and retries next pass.
+_NIGHT_IND = ["openai-community/gpt2-xl", "Qwen/Qwen2.5-0.5B", "EleutherAI/pythia-2.8b",
+              "EleutherAI/pythia-410m", "Qwen/Qwen2.5-3B", "HuggingFaceTB/SmolLM2-1.7B",
+              "openai-community/gpt2-large"]
+for _c in ("ladder", "ladder2", "ladder3"):
+    for _m in _NIGHT_IND:
+        _t = _m.split("/")[-1]
+        STAGES.append({"name": f"induction_v2_{_c}_{_t}", "est": 20,
+                       "cmd": [PY, "runners/run_induction_v2.py", "--corpus", _c, "--model", _m],
+                       "produces": f"results/induction_v2/{_c}_{_t}.json", "needs": [],
+                       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders"})
+for _m in ("HuggingFaceTB/SmolLM2-1.7B", "openai-community/gpt2-xl", "EleutherAI/pythia-2.8b"):
+    _t = _m.split("/")[-1]
+    STAGES.append({"name": f"readouts_{_t}", "est": 15,
+                   "cmd": [PY, "runners/run_depth_readouts.py", "--model", _m],
+                   "produces": f"results/depth_readouts/{_t}.json", "needs": [],
+                   "why": "G104 completion: v2-rule readouts for the last three families"})
+for _m in ("Qwen/Qwen2.5-3B", "HuggingFaceTB/SmolLM2-1.7B",
+           "openai-community/gpt2-xl", "EleutherAI/pythia-2.8b"):
+    _t = _m.split("/")[-1]
+    for _c in ("ladder", "ladder3"):
+        STAGES.append({"name": f"layercorr_{_c}_{_t}", "est": 15,
+                       "cmd": [PY, "runners/run_layer_correlation.py",
+                               "--corpus", _c, "--model", _m],
+                       "produces": f"results/layer_correlation/{_c}_{_t}.json", "needs": [],
+                       "why": "L12 matrix completion: one of the 8 missing ladder cells"})
+STAGES += [
+    {"name": "specrec_ladder_d96", "est": 30,
+     "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder", "--decoys", "96"],
+     "produces": "results/spec_recovery/ladder_d96.json", "needs": [],
+     "why": "L19: halve the chance rate on the first ladder (decoys-tagged filename, no overwrite)"},
+    {"name": "specrec_ladder2_d96", "est": 40,
+     "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder2", "--decoys", "96"],
+     "produces": "results/spec_recovery/ladder2_d96.json", "needs": [],
+     "why": "L19: halve the chance rate on the held-out ladder"},
+    {"name": "specrec_ladder2_echo50", "est": 40,
+     "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder2", "--decoys", "96",
+             "--echo-threshold", "0.5"],
+     "produces": "results/spec_recovery/ladder2_echo50.json", "needs": [],
+     "why": "G113: graded echo — does recovery survive at half-overlap specs?"},
+    {"name": "specrec_ladder2_echo25", "est": 40,
+     "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder2", "--decoys", "96",
+             "--echo-threshold", "0.25"],
+     "produces": "results/spec_recovery/ladder2_echo25.json", "needs": [],
+     "why": "G113: graded echo at quarter-overlap"},
+    {"name": "specrec_ladder_noecho", "est": 30,
+     "cmd": [PY, "runners/run_spec_recovery.py", "--corpus", "ladder", "--decoys", "96",
+             "--no-echo"],
+     "produces": "results/spec_recovery/ladder_noecho.json", "needs": [],
+     "why": "G113: does the strict echo kill replicate on the first ladder?"},
+    {"name": "provenance_ladder", "est": 30,
+     "cmd": [PY, "runners/run_provenance_framing.py", "--corpus", "ladder"],
+     "produces": "results/provenance_framing/ladder.json", "needs": [],
+     "why": "G115 replication arm, first ladder"},
+    {"name": "provenance_ladder3", "est": 35,
+     "cmd": [PY, "runners/run_provenance_framing.py", "--corpus", "ladder3"],
+     "produces": "results/provenance_framing/ladder3.json", "needs": [],
+     "why": "G115 replication arm, extreme ladder"},
+    {"name": "binary_powered_gpt2-medium", "est": 40,
+     "cmd": [PY, "runners/run_binary_salience.py", "--model", "openai-community/gpt2-medium",
+             "--neutral-per", "500"],
+     "produces": "results/binary_salience/gpt2-medium_powered.json", "needs": [],
+     "why": "G21b cross-family: is layer-0-as-presence-peak a Qwen fact or an architecture fact?"},
+    {"name": "binary_powered_pythia-1.4b", "est": 40,
+     "cmd": [PY, "runners/run_binary_salience.py", "--model", "EleutherAI/pythia-1.4b",
+             "--neutral-per", "500"],
+     "produces": "results/binary_salience/pythia-1.4b_powered.json", "needs": [],
+     "why": "G21b cross-family, second architecture"},
+    {"name": "activation_variance", "est": 45,
+     "cmd": [PY, "runners/run_activation_variance.py"],
+     "produces": "results/activation_variance/summary.json", "needs": [],
+     "why": "HH-3/PD-3: within-artifact variance of the reader's affective series — not pre-empted by anyone"},
+    {"name": "layercorr_nomaker_sig", "est": 15,
+     "cmd": [PY, "runners/run_layer_correlation.py", "--corpus", "nomaker",
+             "--model", "Qwen/Qwen2.5-1.5B", "--save-signals"],
+     "produces": "results/layer_correlation/nomaker_Qwen2.5-1.5B_sig.json", "needs": [],
+     "why": "G107 input: the per-artifact signal matrix the permutation null needs"},
+    {"name": "nomaker_permutation", "est": 5,
+     "cmd": [PY, "runners/run_nomaker_permutation.py"],
+     "produces": "results/audit/nomaker_permutation.json",
+     "needs": ["results/layer_correlation/nomaker_Qwen2.5-1.5B_sig.json"],
+     "why": "G107: clustered luck or label leak — the flagship control question, decided by permutation"},
+]
+
 
 
 def rel(p: str) -> Path:

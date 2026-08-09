@@ -57,6 +57,9 @@ LADDERS = {
 
 def main() -> None:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--save-signals", action="store_true",
+                    help="write to a _sig-suffixed file (fresh, never guarded-skipped) — the "
+                         "permutation null (G107) needs the per-artifact signal matrix")
     ap.add_argument("--corpus", default="ladder2")
     ap.add_argument("--model", default=None)
     ap.add_argument("--n-random", type=int, default=12)
@@ -200,10 +203,11 @@ def main() -> None:
     print(f"\n  >>> {verdict}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    tag = f"{args.corpus}_{model_name.split('/')[-1]}"
+    tag = f"{args.corpus}_{model_name.split('/')[-1]}" + ("_sig" if args.save_signals else "")
     (RESULTS / f"{tag}.json").write_text(json.dumps(
         {"corpus": args.corpus, "model": model_name, "n": len(rows),
          "control_rule": "full" if has_specs else "no-induction-term",
+         "signals": sig.tolist(), "groups": grp.tolist(), "words": wds.tolist(),
          "layers": out, "n_survivors": len(surv), "verdict": verdict},
         indent=2), encoding="utf-8", newline="\n")
     print(f"\nwrote {(RESULTS / f'{tag}.json').relative_to(REPO)}")
