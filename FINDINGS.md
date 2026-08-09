@@ -614,7 +614,9 @@ above, and the coherence half of every depth-sweep middle verdict, is read from 
 layer 4 — with opposite rung correlations swap rank by under 4% of amplitude. A crossover between
 fixed loci, not a peak moving deeper, at p = 0.058 which gated nothing. **The revival of "deeper
 intent needs deeper machinery" is withdrawn to VOID-INSTRUMENT**; verdict logic fixed (v2: prominence,
-significance, a TIED-LOCI category), all four families re-queued. One inoculation worth recording:
+significance, a TIED-LOCI category), all four families re-queued. **Regenerated the same day:
+TIED-LOCI on every ladder in both families — the crossover reading confirmed by the fixed
+instrument.** One inoculation worth recording:
 SmolLM2's all-bands-positive pattern was machine-labelled FLAT by a taxonomy hole — the prose here
 quoted the numbers and routed around the wrong token, but the JSONs carried it.
 
@@ -848,7 +850,9 @@ artifacts are *more constrained*, so a wrong specification fits them **worse** �
 second-order confirmation rather than a problem, but it was not predicted and it should not be
 reported as if it had been.
 
-**Verdict: OPEN and now well controlled.** This is the best-supported measure in the project.
+**Verdict: OPEN — well controlled against decoys and shuffling, and now FAILING its pre-registered
+echo restriction as strictly implemented (two blocks down).** Best-supported-in-the-project status
+suspended pending G113.
 
 **Second audit hit, 2026-08-08 (L26): decoy-pool exhaustion.** The extreme ladder's pool holds 60
 specifications and its top rungs *are* 30 and 60 of them. At rung 60 the complement is empty — **all
@@ -860,7 +864,20 @@ non-degenerate half; what the exhaustion manufactured was the 97-way framing and
 The runner now counts distinct decoy sets, appends `-DEGENERATE-RUNGS` to any verdict they touch, and
 scores exact ties as losses (they counted as wins). A wider pool is the real fix (G108). **And the
 echo restriction the pre-registration made mandatory — "survives the echo restriction" — was never
-implemented**; it exists now (`--no-echo`) and is queued on the held-out ladder.
+implemented**; it exists now (`--no-echo`) and ran the same evening.
+
+**The echo restriction fires the pre-registered kill.** Method: score each artifact only against
+specifications sharing **zero content words** with its text — the strict reading of the docstring —
+decoys size-matched, 96 decoys, held-out ladder. **Only 50 of 100 artifacts retain any unechoed
+specification at all** (rung 1 keeps 5 of 20 — a single honoured specification almost always shares
+a word), and on those, recovery collapses: correlation with rung **−0.15, p = 0.31** (was +0.37,
+p = 0.001 unrestricted), win rate **8%**, bits near floor at every rung above 1. **This is one of two
+things.** Either the measure's information is carried by lexical echo — or **honouring a
+specification inevitably shares its words**, in which case zero-overlap exclusion removes exactly the
+executed specifications and the strict test is over-harsh by construction. The unrestricted run's
+near-zero echo–bits correlations (+0.10 / −0.24) sit with the second reading; the pre-registration
+named this condition, so the record shows the failure either way. **G113 separates the readings:
+graded overlap thresholds, and scoring on function words only, where echo is impossible.**
 
 **Resolution limit found by the audit, 2026-08-08.** Per-item bits are **saturated**: 35 of 40, 57 of
 80 and 52 of 60 artifacts sit at one of the two extremes, because the per-token re-normalisation
@@ -1058,6 +1075,9 @@ rather than universal — the running theme of the cross-family replication.
 **Same-day caveat (L26):** the audit voided the coherence statistic (sum-zero constraint, G105),
 which is the "low-coherence" half of the NOISY criterion here. **The activity half — and therefore
 the quiet-middle finding, which is signal-rank only — stands**; the 2/25 NOISY count can only shrink.
+**And it did — extended the same evening over the completed 11-family matrix: 2 of 33 maker runs
+NOISY, 18 of 33 QUIET, no-maker distribution unchanged.** The majority pattern is the claim's
+opposite.
 
 ## L26 · The adversarial audit — sixteen claims verified, fifteen confirmed
 

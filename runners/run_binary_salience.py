@@ -33,6 +33,9 @@ RESULTS = REPO / "results" / "binary_salience"
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--per-class", type=int, default=40)
+    ap.add_argument("--neutral-per", type=int, default=None,
+                    help="oversample neutral to this many — the G21b powered presence probe "
+                         "(L27's binary side ran on 40 neutral items, a coin flip with no power)")
     ap.add_argument("--model", default=None)
     ap.add_argument("--device", default="cuda")
     args = ap.parse_args()
@@ -57,7 +60,8 @@ def main() -> None:
         if len(row["labels"]) != 1 or len(row["text"].split()) < 6:
             continue
         n = names[row["labels"][0]]
-        if len(by[n]) < args.per_class:
+        cap = args.neutral_per if (n == "neutral" and args.neutral_per) else args.per_class
+        if len(by[n]) < cap:
             by[n].append(row["text"])
     classes = [n for n in names if len(by[n]) >= args.per_class // 2]
     print(f"  {len(classes)} classes at up to {args.per_class} items", flush=True)
@@ -114,7 +118,8 @@ def main() -> None:
     print(f"\n  >>> {verdict}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    tag = model_name.split("/")[-1]
+    # a powered rerun must not overwrite the original record (the L26 overwrite class)
+    tag = model_name.split("/")[-1] + ("_powered" if args.neutral_per else "")
     (RESULTS / f"{tag}.json").write_text(json.dumps(
         {"model": model_name, "n": int(len(y)), "n_neutral": int(is_neutral.sum()),
          "cat_chance": cat_chance, "layers": out, "presence_peak": peak_p,

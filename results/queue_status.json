@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-08 12:59",
+  "started": "2026-08-08 17:59",
   "stages": [
     {
       "name": "binary_salience",
@@ -29,24 +29,118 @@
       "name": "readouts_refresh_Qwen2.5-1.5B",
       "why": "L26: regenerate flagship readout under v2 verdict rules",
       "est_minutes": 15,
-      "status": "DONE",
-      "log": "results\\readouts_refresh_Qwen2.5-1.5B.log",
-      "minutes": 4.0
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "readouts_refresh_SmolLM2-360M",
       "why": "L26: regenerate under v2 verdict rules (v1 mislabelled all-bands-positive as FLAT)",
       "est_minutes": 15,
-      "status": "DONE",
-      "log": "results\\readouts_refresh_SmolLM2-360M.log",
-      "minutes": 3.4
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "readouts_refresh_gpt2-medium",
       "why": "L26: regenerate under v2 verdict rules",
       "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "readouts_refresh_pythia-1.4b",
+      "why": "L26: regenerate under v2 verdict rules (v1 SHIFTS was an argmax crossover)",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "specrec_noecho_ladder2",
+      "why": "L26: the pre-registered echo restriction, promised in the docstring, never implemented until now",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "readouts_Qwen2.5-0.5B",
+      "why": "G104: depth readouts, fifth family/size",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "readouts_gpt2-large",
+      "why": "G104: depth readouts, sixth",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "readouts_pythia-410m",
+      "why": "G104: depth readouts, seventh",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "readouts_Qwen2.5-3B",
+      "why": "G104: depth readouts, eighth -- largest that fits the card",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sweep_ladder_Qwen2.5-3B",
+      "why": "G104: fill the 11-family matrix -- first ladder, Qwen 3B",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sweep_ladder3_Qwen2.5-3B",
+      "why": "G104: extreme ladder, Qwen 3B",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sweep_ladder_SmolLM2-1.7B",
+      "why": "G104: first ladder, SmolLM2 1.7B",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sweep_ladder3_SmolLM2-1.7B",
+      "why": "G104: extreme ladder, SmolLM2 1.7B",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sweep_ladder_gpt2-xl",
+      "why": "G104: first ladder, gpt2-xl",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sweep_ladder3_gpt2-xl",
+      "why": "G104: extreme ladder, gpt2-xl",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sweep_ladder_pythia-2.8b",
+      "why": "G104: first ladder, pythia 2.8b",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sweep_ladder3_pythia-2.8b",
+      "why": "G104: extreme ladder, pythia 2.8b",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder_gpt2-medium",
+      "why": "G103b: does the gpt2 mirror (+0.51, L28) replicate on the first ladder?",
+      "est_minutes": 25,
+      "status": "DONE",
+      "log": "results\\induction_v2_ladder_gpt2-medium.log",
+      "minutes": 1.0
+    },
+    {
+      "name": "induction_v2_ladder3_gpt2-medium",
+      "why": "G103b: the gpt2 mirror on the extreme ladder \u2014 three-for-three or a fluke",
+      "est_minutes": 35,
       "status": "RUNNING",
-      "log": "results\\readouts_refresh_gpt2-medium.log"
+      "log": "results\\induction_v2_ladder3_gpt2-medium.log"
     }
   ],
   "shard": "0/1"

@@ -118,12 +118,30 @@
       "verdict": "QUIET MIDDLE"
     },
     {
+      "file": "ladder3_gpt2-xl",
+      "corpus": "ladder3",
+      "model": "gpt2-xl",
+      "n_layers": 49,
+      "mid_signal_rank_delta": -3.422794117647058,
+      "mid_coherence_rank_delta": -3.602941176470587,
+      "verdict": "QUIET MIDDLE"
+    },
+    {
       "file": "ladder3_pythia-1.4b",
       "corpus": "ladder3",
       "model": "pythia-1.4b",
       "n_layers": 25,
       "mid_signal_rank_delta": -9.20138888888889,
       "mid_coherence_rank_delta": -7.291666666666666,
+      "verdict": "QUIET MIDDLE"
+    },
+    {
+      "file": "ladder3_pythia-2.8b",
+      "corpus": "ladder3",
+      "model": "pythia-2.8b",
+      "n_layers": 33,
+      "mid_signal_rank_delta": -16.5,
+      "mid_coherence_rank_delta": -5.8636363636363615,
       "verdict": "QUIET MIDDLE"
     },
     {
@@ -154,6 +172,24 @@
       "verdict": "NO PATTERN"
     },
     {
+      "file": "ladder3_Qwen2.5-3B",
+      "corpus": "ladder3",
+      "model": "Qwen2.5-3B",
+      "n_layers": 37,
+      "mid_signal_rank_delta": -0.47435897435897445,
+      "mid_coherence_rank_delta": 1.5416666666666679,
+      "verdict": "QUIET MIDDLE"
+    },
+    {
+      "file": "ladder3_SmolLM2-1.7B",
+      "corpus": "ladder3",
+      "model": "SmolLM2-1.7B",
+      "n_layers": 25,
+      "mid_signal_rank_delta": 6.25,
+      "mid_coherence_rank_delta": 2.604166666666666,
+      "verdict": "NO PATTERN"
+    },
+    {
       "file": "ladder3_SmolLM2-360M",
       "corpus": "ladder3",
       "model": "SmolLM2-360M",
@@ -181,12 +217,30 @@
       "verdict": "QUIET MIDDLE"
     },
     {
+      "file": "ladder_gpt2-xl",
+      "corpus": "ladder",
+      "model": "gpt2-xl",
+      "n_layers": 49,
+      "mid_signal_rank_delta": -4.954044117647058,
+      "mid_coherence_rank_delta": -2.341911764705884,
+      "verdict": "QUIET MIDDLE"
+    },
+    {
       "file": "ladder_pythia-1.4b",
       "corpus": "ladder",
       "model": "pythia-1.4b",
       "n_layers": 25,
       "mid_signal_rank_delta": -10.243055555555555,
       "mid_coherence_rank_delta": -5.729166666666666,
+      "verdict": "QUIET MIDDLE"
+    },
+    {
+      "file": "ladder_pythia-2.8b",
+      "corpus": "ladder",
+      "model": "pythia-2.8b",
+      "n_layers": 33,
+      "mid_signal_rank_delta": -16.5,
+      "mid_coherence_rank_delta": -4.772727272727272,
       "verdict": "QUIET MIDDLE"
     },
     {
@@ -214,6 +268,24 @@
       "n_layers": 29,
       "mid_signal_rank_delta": 2.9000000000000004,
       "mid_coherence_rank_delta": 2.094444444444443,
+      "verdict": "NO PATTERN"
+    },
+    {
+      "file": "ladder_Qwen2.5-3B",
+      "corpus": "ladder",
+      "model": "Qwen2.5-3B",
+      "n_layers": 37,
+      "mid_signal_rank_delta": -0.7115384615384599,
+      "mid_coherence_rank_delta": 1.4230769230769234,
+      "verdict": "QUIET MIDDLE"
+    },
+    {
+      "file": "ladder_SmolLM2-1.7B",
+      "corpus": "ladder",
+      "model": "SmolLM2-1.7B",
+      "n_layers": 25,
+      "mid_signal_rank_delta": 5.555555555555557,
+      "mid_coherence_rank_delta": 2.9513888888888893,
       "verdict": "NO PATTERN"
     },
     {
@@ -327,9 +399,9 @@
   ],
   "counts": {
     "ladder": {
-      "QUIET MIDDLE": 12,
+      "QUIET MIDDLE": 18,
       "NOISY MIDDLE": 2,
-      "NO PATTERN": 11
+      "NO PATTERN": 13
     },
     "nomaker": {
       "QUIET MIDDLE": 6,

@@ -82,6 +82,8 @@ TESTS = [
     ("L24 biber_COND fair, ladder3",      1.590e-13, "primary", "results/fair_features/summary.json"),
     ("L24 biber_CONT fair, ladder3",      5.290e-03, "primary", "results/fair_features/summary.json"),
     ("L24 biber_PHC fair, ladder3",       7.100e-05, "primary", "results/fair_features/summary.json"),
+    ("L19 echo restriction, ladder2",     3.068e-01, "primary", "results/spec_recovery/ladder2_noecho.json"),
+    ("L28 fair induction, gpt2-medium",   1.000e-06, "primary", "results/induction_v2/ladder2_gpt2-medium.json"),
     ("ladder: tentative_rate vs rung",    0.0133,    "primary", "results/ladder/ladder.json"),
     ("ladder: exclusive_rate vs rung",    0.0917,    "primary", "results/ladder/ladder.json"),
     ("ladder: TTR vs rung",               1e-5,      "primary", "results/ladder/ladder.json"),
