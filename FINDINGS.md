@@ -1602,9 +1602,9 @@ statistic was geometrically incapable of measuring agreement (globally centred d
 zero — L26). The rebuild: mean pairwise sign agreement of block responses across texts, on
 uncentred per-concept contrasts, gated on synthetic known-answer data before any real read.
 
-**Method.** `run_coherence_v2.py`, seven families so far (the eighth still running): the gate first
-— constructed agreeing texts must score high and random vectors near 0.5 — then agreement at early,
-middle, and late blocks correlated against induction rung on all three ladders.
+**Method.** `run_coherence_v2.py`, all eight families: the gate first — constructed agreeing texts
+must score high and random vectors near 0.5 — then agreement at early, middle, and late blocks
+correlated against induction rung on all three ladders.
 
 | family | gate (agree / random) | ladder | ladder2 | ladder3 | late-block correlations |
 |---|---|---|---|---|---|
@@ -1615,6 +1615,7 @@ middle, and late blocks correlated against induction rung on all three ladders.
 | pythia-410m | 1.00 / 0.49 | falls | flat | flat | −0.33, −0.16, −0.20 |
 | pythia-1.4b | 1.00 / 0.49 | flat | flat | flat | −0.03, +0.01, −0.01 |
 | SmolLM2-360M | 1.00 / 0.49 | flat | flat | flat | −0.08, +0.14, 0.00 |
+| SmolLM2-1.7B | 1.00 / 0.49 | flat | falls | flat | −0.21, −0.20, −0.01 |
 
 *Gate: the statistic's score on texts built to agree versus random vectors — 1.00/0.49 means it
 separates perfectly, so unlike its predecessor it can measure agreement. Corpus columns: the
@@ -1622,7 +1623,7 @@ per-ladder verdict on whether agreement rises with specification dose. Last colu
 correlation of late-block agreement with rung on each ladder (negative = agreement falls as
 specifications stack).*
 
-**Verdict: the claim's direction is dead — 0 of 21 corpus-cells rise; 10 fall, 11 are flat.** In
+**Verdict: the claim's direction is dead — 0 of 24 corpus-cells rise; 11 fall, 13 are flat.** In
 the home family agreement falls robustly at every depth (home-model late cells p = 0.0019, 0.0038,
 0.0002). The family structure repeats the sign map's shape: strongest in Qwen, weaker in gpt2,
 absent in pythia's larger member and SmolLM2. **Means: where the goal is clearest, late-block
@@ -1632,6 +1633,39 @@ design (agreement needs raw signs), so the induction confound is not partialled 
 observation goes unclaimed — real-text agreement sits slightly *below* the random baseline
 everywhere (≈0.43 vs 0.49), which the gate's synthetic construction does not explain. The
 instrument is validated; the direction is one bad test away.
+
+## L48 · The defensible per-block units retell both standing facts — first two families
+
+**Hypothesis.** *(G126, from the neural-analogues review.)* The per-block profiles this project has
+argued from were never the quantities a neural analogy licenses. The three that are: the **write
+norm** (how much a block actually changes the stream — what BOLD-style signals track), the
+**affect work** (the signed movement along the affect projection, telescoping to the final read),
+and **per-block d′** (the probe's honest signal-to-noise), plus a **rogue-share alarm** (does one
+dimension dominate the projection — the standard artifact).
+
+**Method.** `run_block_contribution.py`, two families landed of eight: cached block states over 160
+specification-ladder windows and 144 maker-less windows; the three quantities per block per
+corpus; QC threshold at half the projection carried by one dimension.
+
+| quantity | Qwen2.5-1.5B (home) | gpt2-medium |
+|---|---|---|
+| rogue share (QC) | 0.02 — clean | 0.22 — clean |
+| write / work peak | block 1 of 27, sharply (77× the neighbours) | block 0 of 23 (4.5× ) |
+| d′ peak | block 6 — 22% deep, 2.76 | block 22 — **96% deep**, 2.37 |
+| maker-less vs ladder | identical to two decimals throughout | identical to two decimals throughout |
+
+*Rows: whether any single dimension dominates the affect projection (below 0.5 = clean); where the
+raw update magnitude and the signed affect movement concentrate; where the probe's
+signal-to-noise peaks and how deep that is; and whether any of it moves when the maker is removed.*
+
+**Verdict: both standing facts survive translation into the defensible units, in the first two
+families.** The write/work geography is *maker-blind* — specification-ladder text and maker-less
+text produce the same profile to two decimals, the address-umbrella rejection (L14) in honest
+units — and it concentrates at the input edge (blocks 0–1), right where the control-subspace
+question (G43) put the boundary. Discriminability is *family-inverted*: the home model's d′ peaks
+a fifth of the way in, gpt2-medium's at the last block — the sign map's family-boundness, again in
+honest units. Both QC-clean, so none of this is a rogue-dimension artifact. Six families in
+flight; the entry completes as they land.
 
 ## L4 · Can weak effects be stacked into a detector?
 
