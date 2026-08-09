@@ -1417,6 +1417,52 @@ just above the line, so the survivor list keeps its layers and the eyebrow is re
 erased. The re-adjudicated no-maker control now reads: luck-level fires overall, borderline
 concentration in one family, no demonstrated leak.
 
+## L41 · Low-visibility features carry *who*, high-visibility features carry *what* — the pottery prediction, first pass
+
+**Hypothesis.** *(The archaeology harvest's structural claim, G87 — Gosselain's stage-differentiated
+signal.)* Features acquired early and invisible to the maker (function words, syntactic reflexes,
+punctuation habits) should carry deep identity; visible, easily-copied features (lexical richness,
+readability) should carry the situation instead.
+
+**Method.** `run_feature_visibility.py`: partition the feature bank by named visibility patterns;
+leave-one-out nearest-centroid on two tasks — author identification (34 books, ten authors, two
+chunks each) and draft-stage separation (student essays, three drafts).
+
+| task | low-visibility features | high-visibility features |
+|---|---|---|
+| author identification (chance ~0.10) | **0.779** | 0.382 |
+| draft-stage separation (chance 0.33) | 0.302 | **0.477** |
+
+**Verdict: STAGE-DIFFERENTIATED — a clean double crossover on the first pass.** The invisible
+habits identify the maker at eight times chance while barely seeing the situation; the visible
+features do the reverse. **Means:** the pottery import is not an analogy — the partition carries
+exactly the structure it predicts, and it hands the leakage channel a principled feature split for
+free. One corpus pairing, crude partitions by name-pattern; one bad test away.
+
+## L42 · The revision effect survives among content-only revisions — the first depth signal on human text
+
+**Hypothesis.** *(PD-28, the highest-value unrun row in the traces file.)* The one controlled human
+comparison found revision raises lexical sophistication (L5). If that effect lives in
+surface-labelled revisions it is polish; **if it survives among content-labelled revisions, it is a
+depth signal on human text — demonstrated rather than argued.**
+
+**Method.** `run_revision_purpose.py`: the ArgRewrite annotation workbooks (172 parsed; two-sheet
+aligned-sentence schema with purpose labels at two levels; the files carry a broken dimension
+record that silently truncates naive readers — found and handled). Sentence-level sophistication
+deltas (word length, rare-word rate, stopword rate) per purpose class, ArgRewrite's own
+surface/content taxonomy.
+
+| class | n | word-length delta | rare-word delta |
+|---|---|---|---|
+| surface-labelled revisions | 1,347 | +0.038 | +0.0035 |
+| content-labelled revisions | 364 | +0.034 | **+0.0054** |
+
+**Verdict: DEPTH-SIGNAL.** The sophistication shift holds at full strength among content-labelled
+revisions — the rare-word component is *stronger* there. **Means: the project has its first
+measured depth signal on human text.** What the traces file called demonstrable-rather-than-arguable
+is demonstrated, at first-pass strength: one corpus, three crude proxies, sentence-level — one bad
+test away, and the most direct evidence the depth construct has ever had.
+
 ## The family-sign map is complete — 33 of 33 cells (folds into L28)
 
 Final cells: gpt2-large +0.227 (*p* = 0.0499) on the extreme — six of six positive; SmolLM2-1.7B

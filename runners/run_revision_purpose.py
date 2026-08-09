@@ -50,55 +50,70 @@ def main() -> None:
 
     files = sorted(ANNOT.rglob("*.xlsx"))
     print(f"{len(files)} annotation workbooks")
-
-    # schema mapping on the first three
-    schema_dump = []
-    purpose_col = old_col = new_col = None
-    for f in files[:3]:
-        wb = load_workbook(f, read_only=True, data_only=True)
-        ws = wb.active
-        header = [str(c.value).strip().lower() if c.value else "" for c in next(ws.iter_rows())]
-        schema_dump.append({"file": f.name, "header": header})
-        for i, h in enumerate(header):
-            if purpose_col is None and any(t in h for t in ("purpose", "label", "type", "category")):
-                purpose_col = i
-            if old_col is None and any(t in h for t in ("old", "before", "original", "draft1", "d1")):
-                old_col = i
-            if new_col is None and any(t in h for t in ("new", "after", "revised", "draft2", "d2")):
-                new_col = i
-        wb.close()
-    print("schema:", json.dumps(schema_dump[:1], indent=1)[:400])
-    if purpose_col is None or new_col is None:
-        RESULTS.mkdir(parents=True, exist_ok=True)
-        (RESULTS / "summary.json").write_text(json.dumps(
-            {"verdict": "NEEDS-SCHEMA", "schema_dump": schema_dump}, indent=2),
-            encoding="utf-8", newline="\n")
-        print(">>> NEEDS-SCHEMA — headers dumped, no purpose/new column recognised")
-        return
+    # Real schema (probed 2026-08-09): sheets 'Old Draft'/'New Draft'; columns include
+    # 'Aligned Index' (old->new sentence mapping, comma-separated) and
+    # 'Revision Purpose Level 0/1' with the ArgRewrite taxonomy labels.
 
     deltas = {"surface": [], "content": [], "other": []}
+    parsed = 0
     for f in files:
         try:
             wb = load_workbook(f, read_only=True, data_only=True)
-            ws = wb.active
-            rows = ws.iter_rows()
-            next(rows)
-            for r in rows:
-                vals = [c.value for c in r]
-                if len(vals) <= max(purpose_col, new_col):
+            if "Old Draft" not in wb.sheetnames or "New Draft" not in wb.sheetnames:
+                wb.close()
+                continue
+
+            def sheet_rows(name):
+                ws = wb[name]
+                ws.reset_dimensions()   # the files carry a broken A1:A1 dimension record
+                it = ws.iter_rows(values_only=True)
+                header = [str(v).strip().lower() if v else "" for v in next(it)]
+                col = {h: i for i, h in enumerate(header)}
+                return col, list(it)
+
+            ocol, orows = sheet_rows("Old Draft")
+            ncol, nrows = sheet_rows("New Draft")
+
+            def cell(r, i):
+                return r[i] if (i is not None and i < len(r)) else None
+
+            new_by_idx = {}
+            for r in nrows:
+                try:
+                    new_by_idx[int(float(cell(r, ncol.get("sentence index", 0))))] = r
+                except (TypeError, ValueError):
                     continue
-                purpose = str(vals[purpose_col] or "").strip().lower()
-                new_s = str(vals[new_col] or "")
-                old_s = str(vals[old_col] or "") if old_col is not None else ""
-                if not purpose or not new_s:
+            for r in orows:
+                old_s = str(cell(r, ocol.get("sentence content", 1)) or "")
+                aligned = str(cell(r, ocol.get("aligned index", 2)) or "")
+                purposes = []
+                for lvl in ("revision purpose level 0", "revision purpose level 1"):
+                    v = cell(r, ocol.get(lvl))
+                    if v:
+                        purposes.append(str(v).strip().lower())
+                if not purposes or not aligned:
                     continue
-                cls = ("surface" if any(t in purpose for t in SURFACE) else
-                       "content" if any(t in purpose for t in CONTENT) else "other")
+                new_parts = []
+                for tok in aligned.split(","):
+                    try:
+                        nr = new_by_idx.get(int(float(tok.strip())))
+                        if nr is not None:
+                            new_parts.append(str(cell(nr, ncol.get("sentence content", 1)) or ""))
+                    except (TypeError, ValueError):
+                        continue
+                if not new_parts:
+                    continue
+                new_s = " ".join(new_parts)
                 sn, so = soph(new_s), soph(old_s)
-                deltas[cls].append([sn[i] - so[i] for i in range(3)])
+                for purpose in purposes:
+                    cls = ("surface" if any(t in purpose for t in SURFACE) else
+                           "content" if any(t in purpose for t in CONTENT) else "other")
+                    deltas[cls].append([sn[i] - so[i] for i in range(3)])
+            parsed += 1
             wb.close()
         except Exception as e:                                        # noqa: BLE001
             print(f"  skip {f.name}: {type(e).__name__}")
+    print(f"parsed {parsed} workbooks")
 
     out = {"counts": {k: len(v) for k, v in deltas.items()}}
     print("revision counts:", out["counts"])

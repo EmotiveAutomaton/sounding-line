@@ -170,17 +170,20 @@ a long time not counting.
 | **PD-13** | Asking a model *"what stance is performed"* reaches the leaked layer | **REJECTED by construction** — it returns a content-word judgement either way |
 | **PD-15** | Attention dwell past argumentative need is measurable | **OPEN.** Nothing built; needs a model of argumentative need. *(Absorbs G30, which duplicated it.)* |
 | **PD-16** | Cognitive-load signatures leak despite narrative management | **OPEN** — take the deception literature's features, not its promise |
+| **G87** | Low-visibility features carry *who*; high-visibility features carry *what* | **SUPPORTED (test), a clean double crossover on the first pass (L41).** Invisible habits identify the author at 0.78 vs 0.38 for visible features; visible features separate draft-stage at 0.48 vs 0.30 — the pottery prediction, measured |
 | **G28** | `leaked` and `emblematic` do not come back as the same distribution | **OPEN — until this runs, every leak result is equally compatible with the probe asking one question twice** |
 | **G29** | If one layer separates and the other does not, it is `leaked` that fails | **OPEN, predicted in advance** |
 | **PD-11b** | The first function-word attempt answered its own question | **VOID (test)** — ran at 38% power |
 
 **What the table says.** The automatic channel is real on every instrument that has touched it:
 readable in simulation, twice chance on real authors with identity held fixed, separating specified
-states on all three ladders, and concealment detectable in his predicted direction rather than
-mine. What is missing is the license to call it *affect* rather than *style* — the induction
-control has never run on this channel, and the two-layers-are-two question has never been asked.
-Confidence: the capacity results are replicated and controlled; the state reading is one bad test
-away; the sim rows are sim-only.
+states on all three ladders, concealment detectable in his predicted direction rather than mine —
+and now stage-differentiated exactly as the pottery import predicts, with the invisible habits
+carrying identity and the visible features carrying situation. What is missing is the license to
+call it *affect* rather than *style* — the induction control has never run on this channel, and the
+two-layers-are-two question has never been asked. Confidence: the capacity results are replicated
+and controlled; the visibility crossover and the state reading are one bad test away each; the sim
+rows are sim-only.
 
     Timeline on the leaked layer. Proposed as the cheap channel; first run underpowered and VOID;
     re-run with purpose and topic fixed came back at 1.80x against a 2.0x bar; the activation route
@@ -288,14 +291,16 @@ all fixed by construction.**
 |---|---|---|
 | **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test), one coherent thing:** at matched length, revision raises lexical sophistication — longer, rarer, more polysyllabic words, fewer stopwords — one factor under six names, sign agreement 70–78% across authors |
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered** — raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
-| **PD-28** | The surviving effect is polish, not depth | **OPEN, and the corpus can settle it** — 5,834 revisions are hand-labelled Surface or Content at 0.71–0.92 agreement. **The one place a depth signal on human text could be demonstrated rather than argued** |
+| **PD-28** | The surviving effect is polish, not depth | **DEPTH-SIGNAL (test, L42).** Across 1,711 labelled revisions, the sophistication shift holds at full strength among *content*-labelled revisions — the rare-word component is stronger there than in surface-labelled ones. **The first measured depth signal on human text** |
 
 **What the table says.** The project's one controlled human comparison found a real, length-robust
-effect that is probably the wrong one — and whether it is the wrong one is answerable from labels
-already on disk, which makes the unrun row here the highest-value cheap test in the file. The
-hurried-versus-careful commission (the confound archaeology never tested) remains the designed
-extension. Confidence: the effect is one corpus away from replicated; its interpretation is
-untested.
+effect — and the labels on disk have now answered what it is: **the effect survives among
+content-only revisions, which makes it the first depth signal ever measured on human text** rather
+than a polish artifact. The hurried-versus-careful commission (the confound archaeology never
+tested) remains the designed extension, and the natural next step is the same split under sharper
+sophistication measures than the three first-pass proxies. Confidence: the revision effect is one
+corpus away from replicated; the depth reading is one bad test away — first-pass proxies,
+sentence-level, one corpus.
 
 ## §7. Reader-side measurement — the second channel, briefly
 
