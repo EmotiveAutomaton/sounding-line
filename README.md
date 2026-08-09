@@ -74,10 +74,9 @@ families.** The honest version, because the honest version is the point.
 
 | | |
 |---|---|
-| **The flagship, under a fair induction control** | The old induction control's regressors *contained the dose it claimed to remove* (L22). With the dose arithmetically removed instead, **the effect survives on all three independently generated corpora and gets stronger** — and three published linguistic features it had killed revive the same way, nine of nine tests (L23, L24) |
-| **The per-layer intent correlation** | Correlation between how much intent a prompt specified and the reader's affective signal, computed layer by layer. **25 runs across 11 model families, 18 survive.** The no-maker control, re-adjudicated after an audit found its verdict gate could not fail (L26): **false fires at the rate luck supplies overall — but concentrated in the flagship family, where layer 21 fires on all three ladders and on maker-less text.** A permutation null decides it |
-| **Specification recovery** | How much of a prompt's specification can be recovered from the artifact, against 48 topic-matched decoys. **Win rate 52.5% → 66.3% → 91.7% as specifications go from ten to sixty** — it scales with the strength of the manipulation |
-| **Function words against specified state** | Closed-class word rates classify which rung an artifact came from at **1.6× to 3.0× chance**, scaling the same way. **No model involved.** Two independent channels agreeing on the same scaling is worth more than either |
+| **The flagship, under a fair induction control** | The old induction control's regressors *contained the dose it claimed to remove* (L22). With the dose arithmetically removed instead, **the effect survives on all three independently generated corpora and gets stronger**, and three published linguistic features it had killed revive the same way, nine of nine tests (L23, L24). What this measures is response to **specified constraint dose** within one generator. Whether it touches human intent, depth, or decisions is exactly what the current program tests |
+| **The per-layer dose correlation** | Correlation between a prompt's specified constraint dose and the reader's affective signal, computed block by block. **25 runs across 11 model families, 18 survive.** The no-maker control, re-adjudicated after an audit found its verdict gate could not fail (L26), fires at the rate luck supplies overall but concentrates in the flagship family. The permutation test ran and **could not distinguish leak from luck** (L40), so that concentration stands as an open liability |
+| **Function words against specified dose** | Closed-class word rates classify which rung an artifact came from at **1.6× to 3.0× chance**, scaling with dose. **No model involved.** (Specification recovery, which once corroborated this through a second channel, turned out to be carried by lexical echo and left the flagship summary, L36) |
 | **Affect directions are real** | Four times chance on held-out sentences, while a word-counting model scored **exactly** chance |
 | **Authorship as a calibration** | 7.6× chance, and identical at all four scrambling granularities — which proves the scrambling code is correct before any real number is computed |
 
@@ -90,9 +89,10 @@ length and register stand.** Decision density was word count, then vocabulary di
 features, **61 of the 81 that replicated were machine-detectors**; the three survivors died to a test
 of whether the prompt *caused* a feature without *containing* it.
 
-**The depth profile across layers is architectural.** Identical between intent-laden text and text
-with no maker at all, in **every one of nine model families**, with the peak landing anywhere from
-layer 2 to layer 47. **The bimodal profile this project once reported was a two-model artifact.**
+**The block profile is a fact about the model, not the maker.** Identical between intent-laden
+text and text with no maker at all, in **every one of eleven model families**, with the peak
+landing anywhere from block 2 to block 47. **The bimodal profile this project once reported was a
+two-model artifact.**
 
 **Gate 3, the primary for a month, is void twice over** — its statistic reads a large positive where
 the truth is zero, and 76 features separate its two halves, so almost any measure would.
@@ -142,22 +142,32 @@ in the project has a sample size of one reader, and is treated accordingly.
 
 ### The proximal goals
 
-Because depth is a relation, the near-term work is scoped by what can be measured *without* the
-missing corpus while the corpus is pursued:
+The unit of analysis is changing. The program stops searching for a scalar that correlates with
+"depth" and starts validating recovery of individual, independently recorded choices. A decision
+event carries its target, the alternatives that were available, the choice made, its dependencies,
+and its context. For each event the question is whether the finished artifact lets a bounded
+reader recover the actual choice better than context alone and better than matched false
+alternatives. Only after that works do recovered events get summarized as amount, breadth, and
+integration, with calibration reported separately. The denominator is declared choice
+opportunities or revision events, never words, because per-word density recreates the length trap.
 
-1. **Run the definitional test.** Depth-side quantities should hold still across an artifact's
-   positions while polish-side quantities move; if both move equally the polish/depth split is
-   wrong by its own words. Built, currently re-running after a false start its own sample count
-   caught.
-2. **Cross the causal gate.** Everything decodable so far could be a correlate; patching and
-   erasing the recovered structure while measuring what changes is the decisive test the
-   architecture claims wait on.
-3. **Price the third target.** Value recovery works as *method* in the parent simulation —
-   profiles converge across artifacts, an absent drive reads under commission. What it needs on
-   real text is exactly the corpus problem above, so corpus sourcing is a research task, not
-   logistics.
+1. **Turn the revision corpus into a choice-recovery study.** Each labelled revision is an event
+   with a recorded purpose. The reader picks the actual purpose from a bounded candidate set,
+   scored against the brief alone, shuffled labels, unchanged passages, and matched decoys, split
+   by author. The decisive control matches content and surface revisions on lexical sophistication
+   and asks whether "content" remains identifiable once the shortcut is gone.
+2. **Replace the ladder with a factorial benchmark** crossing target (surface against
+   problem-directed), amount, coupling, and realization, so the dose-responsive quantities face a
+   real construct test.
+3. **Validate estimators where ground truth exists.** The parent simulation runs the estimator
+   tournament with exact inference first and reports a failure-boundary map, not an average score.
 4. **Keep killing our own instruments first.** The audit record below is the point, not the
    embarrassment.
+
+The nearest defensible public result is narrow. Given a fixed brief and a held-out human author,
+the finished artifact allowed a bounded reader to recover specified problem-directed revision
+purposes above matched alternatives, beyond what the brief and surface changes supplied. That is
+small enough to defend and large enough to justify everything downstream.
 
 ### The theory, in five files
 

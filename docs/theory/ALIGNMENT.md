@@ -39,6 +39,14 @@ answer.**
 Nothing here has been searched or simulated, and the next honest step is one or two simulations rather
 than an argument.
 
+**Dormancy ruling (2026-08-09, the program pass).** This file is formally dormant. It retains the
+failure conditions as a boundary specification and no alignment experiments are engineered against
+them yet, because the upstream instrument cannot supply calibrated goal, process, or value
+posteriors for anything to be aligned to. The wake condition is written in the program. First
+specific recorded choices become recoverable on held-out makers, then an expertise-conditioned
+remainder transfers across kinds and predicts unseen tradeoffs. Until both hold, work billed to
+this file is premature by the project's own sequencing.
+
 ---
 
 ## §0. You can only route attention onto values you possess

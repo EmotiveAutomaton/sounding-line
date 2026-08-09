@@ -52,15 +52,17 @@ interpretability at once, and the same word means different things in each.
 
 ## Where we are, in one paragraph
 
-**2026-08-08.** Forty-odd tests across four gates, three simulation batches, an eleven-family
-replication and a standing integrity audit. **The flagship result:** the low-order/high-order ratio
-tracks specified intent under a fair induction control on three independent corpora, scaling with
-manipulation strength (L23), with specification recovery agreeing through an entirely different
-channel (L19) — and all three artifact-side features now survive the same fair control (L24), reopening a
-route that had been declared closed. The recurring failure mode has been **criteria that could not do
-their own jobs**; four were caught and each changed verdicts. The binding constraints now: **one
-reader's readings as the only human ground truth**, and **no corpus with one maker across different
-kinds of artifact**.
+**2026-08-09.** Fifty-odd tests across four gates, three simulation batches, an eleven-family
+replication and a standing integrity audit. **The flagship result, stated at its licensed
+strength.** Within three machine-generated ladders, specified constraint dose reliably moves an
+activation ratio and three linguistic features after a fair within-rung control (L23, L24). That
+is a within-generator dose response. It is not yet a measure of human intent, depth, or decisions,
+and specification recovery no longer corroborates it, since that score turned out to be carried by
+lexical echo (L36). The recurring failure mode has been **criteria that could not do their own
+jobs**; four were caught and each changed verdicts. The binding constraints now are **one reader's
+readings as the only human ground truth** and **no corpus with one maker across different kinds of
+artifact**, and the program's next unit of analysis is the individual recorded choice rather than
+any per-artifact scalar.
 
 ---
 
@@ -80,9 +82,10 @@ none of the human corpora supply is one maker across DIFFERENT KINDS of artifact
 diversity-of-conditions requirement that every dead thread arrives at — depth as a relation to a
 domain, values needing many episodes, the polish that only slips when the performance is costly.
 
-**2 · One human reader.** **Fifteen artifacts across two sessions, sixteen readings** — one person. Those readings have
-outperformed every measure we have built, so the most load-bearing evidence in the project has a
-sample size of one reader.
+**2 · One human reader.** **Fifteen artifacts across two sessions, sixteen readings**, one person.
+Those readings are the richest hypothesis source the project has, and no independent ground truth
+has ever scored them, so the most generative evidence in the project has a sample size of one
+unvalidated reader.
 
 **3 · A criterion we trusted returned 335 components on pure noise.** Parallel analysis, applied
 to raw high-dimensional activations, counts structure in data that has none. **Every number it
@@ -202,8 +205,11 @@ them.
 
 **Reversal, completed 2026-08-08 (L24):** under the fair control **all three revive, on all three ladders** — conditionals **+0.65 / +0.51 / +0.73**, contractions **+0.43 / +0.48 / +0.32**, phrasal coordination **−0.41 / −0.27 / −0.44**, nine of nine tests *p* ≤ 0.007. The kills were the dose-eating control's (L22). The contraction key that first "could not be re-tested" was Biber's uppercase tag `biber_CONT`, which a lowercase search pattern missed — a string-matching artifact stacked on a control artifact.
 
-**Verdict: RULED OUT, all three** *as originally recorded; see the reversal above.* The most promising candidate this project has produced from
-outside sources does not survive its own controls. **The funnel worked and the answer is no.**
+**Verdict: REVERSED (2026-08-09 relabel).** The original RULED OUT was the broken control's verdict
+and cannot stand beneath a nine-of-nine reversal. Current state, per L24 above, is that all three
+features track specified constraint dose under the fair control on all three ladders. What the
+reversal does not license is any claim past the ladders, since dose is instruction count to one
+generator, not human intent.
 
 The one durable result is the funnel itself: **61 of 81 replicated features were machine-detectors**,
 and the filter that removed them is now standard.
@@ -1210,7 +1216,7 @@ it survives contact — as run, the *human* essays hug the centroid.
 equally compressible at matched length — **0.4552 versus 0.4562** — with no-maker text slightly
 *less* compressible than either. Both essay claims stay missed with the clean comparison in.
 
-## L30 · Placement does not scale — the live worry's second test returns its strongest answer
+## L30 · No detected relationship between placement quality and scale, at eleven points
 
 **Hypothesis.** *(His, §8: "Is there evidence of worse models having more poorly placed emotional
 concepts?")* If placement improves with capability, placement is learned and the amplification
@@ -1220,11 +1226,12 @@ story needs a scale story.
 sharpness of the early two-band break and the lawfulness of alignment decay (R² of log-alignment on
 layer distance), each correlated with parameter count.
 
-**Found: ARCHITECTURAL.** Break sharpness against size: rho +0.05 (p = 0.89). Decay lawfulness:
-rho +0.40 (p = 0.22). Eleven families, 0.35B–3B. **Means:** placement quality shows no sign of
-being a capability — **the affective structure's location reads as a property of the network, not
-of training scale, which is the direction §8's build needs.** Eleven points is a small n; the rho
-is the result and the label is a summary.
+**Found: NO DETECTED SCALE RELATIONSHIP (2026-08-09 relabel; was "ARCHITECTURAL").** Break
+sharpness against size, rho +0.05 (p = 0.89); decay lawfulness, rho +0.40 (p = 0.22); eleven
+families, 0.35B–3B. **Means exactly that and no more.** At n = 11 an undetected relationship is
+not proof that training scale is irrelevant, and the old label claimed the stronger thing. What
+survives for §8's build is the weaker, honest form, which is that placement quality gave no sign
+of tracking capability in the one range measured.
 
 ## L31 · The early break is universal; the rotation composes everywhere except Qwen
 
@@ -1289,11 +1296,11 @@ leave the residual the theorems demand — *"report the asymptote, not just the 
 **Method.** `run_author_convergence.py`: function-word centroids per author from k = 1, 2, 3
 reference books; held-out 1,000-word chunks classified by nearest centroid; 20 random splits.
 
-**Verdict: CONVERGES, then flattens.** Accuracy 0.541 → 0.614 → 0.604 against a 0.20 chance rate;
-**the residual at k = 3 is 0.40.** **Means:** the limit-approached-through-error shape §8 predicts,
-with both halves visible — real convergence, and a large measured residual, on a small author pool
-(five) and the cheapest channel we own. The asymptote is now a number future designs must beat
-rather than a metaphor.
+**Verdict: EARLY PLATEAU, one channel (2026-08-09 relabel; this does not estimate an asymptote).**
+Accuracy 0.541 → 0.614 → 0.604 against a 0.20 chance rate. Recovery rises from one to two
+reference works and does not improve at three. That is a plateau in one author-identification
+channel on five authors, and three points cannot locate an asymptote. The limit-framing language
+the entry used to carry claimed more than the curve shows.
 
 ## L35 · Goal-guess convergence discriminates nothing as built — and maker-less text converges hardest
 
@@ -1401,7 +1408,7 @@ heuristic has ever had** — the human affective series moves and the machine on
 flat, exactly the signature the theory names. Register and genre ride along uncontrolled, so this
 is one corpus-pairing away from hardening, not there.
 
-## L40 · The flagship's no-maker concentration is clustered luck
+## L40 · The flagship's no-maker concentration — the permutation test could not decide leak from luck
 
 **Hypothesis.** The audit's open question: the home family's false fires on maker-less text overlap
 its own surviving layers — real label leak, or clustering luck?
@@ -1410,12 +1417,13 @@ its own surviving layers — real label leak, or clustering luck?
 signal matrix; joint-rule pass count and overlap with the ladder survivor set, conditioned on the
 observed direction-null passes.
 
-**Verdict: CLUSTERED-LUCK.** Observed 7 joint layers against a null mean of 1.9 (*p* = 0.095) and
-overlap 4 against 0.79 (*p* = 0.089) — elevated, and not significant at either test. **Means: the
-control question closes in the flagship's favour, with a residual eyebrow** — both p-values sit
-just above the line, so the survivor list keeps its layers and the eyebrow is recorded rather than
-erased. The re-adjudicated no-maker control now reads: luck-level fires overall, borderline
-concentration in one family, no demonstrated leak.
+**Verdict: UNDECIDED (2026-08-09 relabel; was "CLUSTERED-LUCK").** Observed 7 joint layers against
+a null mean of 1.9 (*p* = 0.095) and overlap 4 against 0.79 (*p* = 0.089). Failure to reject
+leakage is not evidence for luck, and the old label converted a non-result into an exoneration.
+The honest state is that the experiment could not distinguish a real label leak from clustering
+luck at this power. The survivor list keeps its layers only in the sense that nothing convicted
+them; the concentration stands as an open liability against the flagship family, and any claim
+that leans on those layers inherits it.
 
 ## L41 · Low-visibility features carry *who*, high-visibility features carry *what* — the pottery prediction, first pass
 
@@ -1439,7 +1447,7 @@ features do the reverse. **Means:** the pottery import is not an analogy — the
 exactly the structure it predicts, and it hands the leakage channel a principled feature split for
 free. One corpus pairing, crude partitions by name-pattern; one bad test away.
 
-## L42 · The revision effect survives among content-only revisions — the first depth signal on human text
+## L42 · Lexical sophistication also rises inside content-labelled revisions
 
 **Hypothesis.** *(PD-28, the highest-value unrun row in the traces file.)* The one controlled human
 comparison found revision raises lexical sophistication (L5). If that effect lives in
@@ -1457,11 +1465,14 @@ surface/content taxonomy.
 | surface-labelled revisions | 1,347 | +0.038 | +0.0035 |
 | content-labelled revisions | 364 | +0.034 | **+0.0054** |
 
-**Verdict: DEPTH-SIGNAL.** The sophistication shift holds at full strength among content-labelled
-revisions — the rare-word component is *stronger* there. **Means: the project has its first
-measured depth signal on human text.** What the traces file called demonstrable-rather-than-arguable
-is demonstrated, at first-pass strength: one corpus, three crude proxies, sentence-level — one bad
-test away, and the most direct evidence the depth construct has ever had.
+**Verdict: CONTENT-REVISION-ASSOCIATED LEXICAL CHANGE (2026-08-09 relabel; was "DEPTH-SIGNAL").**
+The sophistication shift holds at full strength among content-labelled revisions, and the
+rare-word component is stronger there. What that licenses is exactly the title. What it does not
+license is "the first measured depth signal on human text", because the result shows lexical
+change travelling with a content label, not recovery of problem-directed choice structure. The
+discriminating test is the choice-recovery design now at the head of the program, with these
+features demoted to explanatory variables. If recovery disappears once revisions are matched on
+lexical sophistication, this was another sophistication measure.
 
 ## The family-sign map is complete — 33 of 33 cells (folds into L28)
 

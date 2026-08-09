@@ -1,4 +1,4 @@
-# STATE — the agent's operational file
+# STATE: the agent's operational file
 
 > ## ⚠ IF YOU HAVE JUST BEEN COMPACTED: RELOAD THE THEORY FIRST
 >
@@ -11,33 +11,33 @@
 
 ## ⚠ HARD CONSTRAINTS, SET BY THE CURATOR 2026-08-08
 
-1. **SUBAGENTS ONLY WHEN HE ASKS** (corrected 2026-08-08 — the blanket ban was temporary and I
+1. **SUBAGENTS ONLY WHEN HE ASKS** (corrected 2026-08-08; the blanket ban was temporary and I
    over-wrote it). He asks → spawn, briefed per CLAUDE.md; he says "ultracode" → Workflow tool,
    conservatively sized; otherwise inline. The 08-05 spawn-at-discretion authorisation stays retired.
 2. **Token conservation.** Most important work first; batch tool calls; no polling loops; keep
    replies dense. The session usage limit was hit once already (9-agent fleet died mid-flight).
-3. **Model is now Fable at max effort** (was Opus at medium for most of the project — he considers
-   that a possible source of accumulated sloppiness, hence the standing audit).
+3. **Model is now Fable at max effort** (was Opus at medium for most of the project, which he
+   considers a possible source of accumulated sloppiness, hence the standing audit).
 
 ## The priority ladder, his words, in order
 
 1. **`docs/theory/` files (not `essays/`) perfectly interpretable at a glance and very clean.**
-   His quotations are the most valuable information in the project — never delete them; shrink or
+   His quotations are the most valuable information in the project. Never delete them; shrink or
    move only if no longer relevant to their section.
-2. **The model and all the tests** — the solo audit of every runner and recorded number
+2. **The model and all the tests**, meaning the solo audit of every runner and recorded number
    (details in `FINDINGS.md`).
 3. **Minor errors**, prioritised at my discretion.
 
 ## Renaming and the five-file contract (renames 2026-08-08/09, contract final 2026-08-09)
 
 **THE_EMPATHY_TRIANGLE.md became THE_TRIPLE_INFERENCE.md**, references updated repo-wide, his choice.
-**The provenance must never be lost:** he is *specifically modelling human empathy* — the process he
+**The provenance must never be lost.** He is *specifically modelling human empathy*, the process he
 believes human empathy is. "Triple inference" names the mechanism; empathy remains the phenomenon.
 His words to that effect are the second blockquote of the renamed file. TR- identifiers unchanged.
 Then **POLISH_AND_DEPTH.md became DECISION_TRACES.md** and **HUMAN_HEURISTICS.md became
 READER_HEURISTICS.md** (2026-08-09, both his restructure directives; PD-/HH- identifiers unchanged).
 
-**Each theory file owns exactly one question — cross-links transmit conclusions only:**
+**Each theory file owns exactly one question, and cross-links transmit conclusions only:**
 
     THE_TRIPLE_INFERENCE     what is inferred; dependencies among targets; identifiability
     THREE_COGNITIVE_LAYERS   what architecture might support the inference
@@ -45,82 +45,106 @@ READER_HEURISTICS.md** (2026-08-09, both his restructure directives; PD-/HH- ide
     READER_HEURISTICS        how a bounded reader finds, combines, and calibrates those traces
     ALIGNMENT                what objective should govern a system after it can read them
 
-**Reserved vocabulary:** functional level / region / block / subspace — "layer" unqualified is
+**Reserved vocabulary:** functional level / region / block / subspace. "Layer" unqualified is
 banned. Blockquotes are the curator's words only. The corrected ontology's load-bearing
 distinctions: **process ≠ expertise, drives ≠ values, three questions not three equal nodes,
 depth is domain-relative** (the relation cannot be measured by varying one side).
 
-## Current proximal goals (scoped 2026-08-09)
+**Style rules for every curated markdown (his directive, 2026-08-09).** No em dashes and no en
+dashes in prose; restructure the sentence instead. Colons live in headers, titles, and labels
+only, never as transition devices inside sentences. Inside his quote blocks an em dash becomes an
+en dash and nothing else changes. No "it's not A, it's B" punchline constructions.
 
-1. **The definitional test (PD-1):** polish moves across an artifact's positions, depth does not —
-   the traces file is wrong by its own words if both move equally. Re-queued after a
-   zero-window false start (L43).
-2. **The causal gate (G122/G123):** patch or erase the recovered structure and see what changes —
-   everything decodable so far could be a correlate; this is the decisive architecture gate.
-3. **The third target's corpus:** value recovery is sim-validated method (S-14/S-15); real-text
-   progress is blocked on the one-maker-many-kinds / follower corpora (G125, E7b) — sourcing is
-   research, not logistics.
-4. **Instrument audit continues:** G106 affect rebuild, G102 prior-art sweep before any public
-   ratio-vs-intent claim.
+## The research program (superseded the 08-09 morning scoping, same day)
 
-## The solo audit — nine scopes, status
+**The unit of analysis changed.** Stop searching for a scalar that correlates with depth. Validate
+recovery of individual, independently recorded choices, where a decision event carries target,
+alternatives, choice, dependencies, and context. Summaries (amount, breadth, integration, with
+calibration separate) come only after event recovery works. Denominator is choice opportunities,
+never words. "Specified intent" is now "specified constraint dose" wherever the ladder is meant.
+
+**Allocation across the five files.** DECISION_TRACES is primary (choice-event recovery, depth
+against polish, forced-constraint nulls). READER_HEURISTICS is operational support (bounded
+candidates, entry points, calibration, reader disagreement). THE_TRIPLE_INFERENCE is the secondary
+program (process recovery first, longitudinal value prediction later). THREE_COGNITIVE_LAYERS is
+instrument research only (do model quantities improve choice recovery). ALIGNMENT is dormant, a
+boundary specification with a written wake condition.
+
+**The queue, in order.** Re-adjudicate stale labels (done, L2/L30/L34/L36/L40/L42). Preregister
+the ArgRewrite choice-recovery analysis (G129). Build the shared event-level recovery harness with
+known-answer, shuffled-label, unchanged-passage, and matched-decoy controls (G130). Run the
+factorial target/amount/coupling/realization benchmark (G131). Import ScholaWrite as five
+top-level units (G132). Commission the small crossed human pilot only after the harness recovers
+known synthetic decisions without lexical shortcuts (G133). Then the expertise-residual tournament
+in the parent simulation, exact solver first (G134). Human value prediction only after the
+residual estimator has a mapped failure boundary (G135).
+
+**Deprioritized by name.** Detector races, feature stacking before choice recovery validates,
+entropy and compression style summaries, more global averages, more transformer address searches,
+values from the 34-book corpus, interest ratings as ground truth (still useful inside
+READER_HEURISTICS), alignment experiments.
+
+## The solo audit: nine scopes, status
 
 | scope | status |
 |---|---|
 | **queue ↔ runner contracts** | **PARTIAL.** Found: 3 unguarded stages churning (fixed); bits96 overwrote the 48-decoy file; two stages tested nothing (L20). **Remaining:** systematic argparse-vs-STAGES sweep; explain the 78-second ladder2 re-score (G99) |
-| **spec reconstruction vs generation** | **CLEARED, decisively.** 100/100 ladder2 seeds and 175/175 topics match the consumer formula; ladder3 generation holds draws constant across retries. Plus the find of the day: **L22 — the induction control's regressors contain the dose** (row-sum = rung; ladder3 pool = 60 = all drawn at top rung) |
+| **spec reconstruction vs generation** | **CLEARED, decisively.** 100/100 ladder2 seeds and 175/175 topics match the consumer formula; ladder3 generation holds draws constant across retries. Plus the find of the day, **L22, where the induction control's regressors contain the dose** (row-sum = rung; ladder3 pool = 60 = all drawn at top rung) |
 | **reader-side statistics** | **LARGELY DONE via rebuilds.** Coherence formula: statistic was geometrically void (L26) → rebuilt known-answer-gated, G33 re-adjudicated across eight families (L47). Subspace basis: rank-7-in-8 confirmed → rank-truncated v2 with matched null, no verdict flips, eleven families (L50). Remaining: run_layer_correlation null symmetry |
 | **spec-recovery / void_power math** | **PARTIAL.** Found: bits saturated (near-binary; win rate is the honest statistic); shuffle chance 1/48 = 2.08%. **Remaining:** tie rule `>=`, decoy construction overlap, v4 StratifiedKFold degeneracy |
 | **features / BY / units** | **NOT STARTED.** Priority: run_pan_features keys-from-first-problem-only; BY implementation in select.py; units consistency across the three feature libraries |
-| **decomposition family** | **NOT STARTED.** Priority: the participation-ratio correction formula (behavioural test on known-rank synthetic data); **the hard-coded VAD table in run_affect_dimensions is UNVERIFIED against real NRC-VAD — fabrication risk on the replication gate** |
-| **core package + locks** | **DONE for locks:** SPEC was deleted 08-07, caught by hash check, restored byte-exact (DEVIATIONS); 5 gate files relocated to docs/gates/, hash-verified. **Remaining:** activations.py token pooling (BOS handling per family — candidate mechanism for cross-family sign flips); n=4 direction stability |
+| **decomposition family** | **NOT STARTED.** Priority: the participation-ratio correction formula (behavioural test on known-rank synthetic data); **the hard-coded VAD table in run_affect_dimensions is UNVERIFIED against real NRC-VAD, a fabrication risk on the replication gate** |
+| **core package + locks** | **DONE for locks:** SPEC was deleted 08-07, caught by hash check, restored byte-exact (DEVIATIONS); 5 gate files relocated to docs/gates/, hash-verified. **Remaining:** activations.py token pooling (BOS handling per family, a candidate mechanism for cross-family sign flips); n=4 direction stability |
 | **docs vs data** | **PARTIAL** (n=40 label fixed). **Remaining:** systematic sweep of every FINDINGS number against its JSON; orphan sweep; G-identifier collisions (G70/G70b known) |
 | **corpora integrity** | **NOT STARTED.** Priority: ladder3 out-of-band tail rung-correlation in absolute words; manifest-vs-disk counts; PAN train/validation leakage |
 
 ## The theory glance-clean worklist (priority 1)
 
-**Both directed restructure passes landed 2026-08-09** — THREE_COGNITIVE_LAYERS (four-claim first
+**Both directed restructure passes landed 2026-08-09.** THREE_COGNITIVE_LAYERS (four-claim first
 screen, address/tracking umbrellas), DECISION_TRACES (Part I model / II ledger / III contested
 estimators), THE_TRIPLE_INFERENCE (object table, generative account, four value-carrier accounts,
 single ledger §8), READER_HEURISTICS (loop / cue families / calibration, dashboard last). Format
-spec in `docs/theory/README.md`: afterword read before table, fixed confidence vocabulary, no
-notables columns, voids one line at bottom. **Standing rule: his blockquotes are untouchable; my
-prose compresses. Structural changes are proposals in chat first.**
+spec in `docs/theory/README.md` covers the afterword-before-table rule, the fixed confidence
+vocabulary, no notables columns, and voids at one line each at the bottom. **Standing rule: his
+blockquotes are untouchable; my prose compresses. Structural changes are proposals in chat first.**
 
 ## Queue / infrastructure state
 
 - **Day loop:** one detached shell (survives sessions), lock in `results/.loop.lock`; stop with
   `kill $(cat results/.loop.lock)`. Night: `bash run_forever_night.sh [hours] [workers]` (refuses
   while day loop runs). Queue has pid lock + `--shard/--shards`.
-- **Morning state 2026-08-09, revised after the process audit:** the overnight TIMEOs had a deeper
-  cause than two-shard contention — **the 2026-08-07 day loop never died.** The lock files record
-  MSYS pids that do not map to Task Manager, so every lock-based kill since 08-07 hit the wrong
-  process; the immortal loop (plus both night shards, whose cleanup trap also failed on Windows)
-  kept spawning queue lineages, and by morning up to four lineages shared the one card — hence the
-  2-hour timeouts. **All lineages killed via Windows pids (PowerShell); exactly one day loop now
-  runs at WINDOWS pid 107224.** Kill loops with `Stop-Process` on Windows pids from
+- **Morning state 2026-08-09, revised after the process audit.** The overnight TIMEOs had a deeper
+  cause than two-shard contention, because **the 2026-08-07 day loop never died.** The lock files
+  record MSYS pids that do not map to Task Manager, so every lock-based kill since 08-07 hit the
+  wrong process; the immortal loop (plus both night shards, whose cleanup trap also failed on
+  Windows) kept spawning queue lineages, and by morning up to four lineages shared the one card,
+  hence the 2-hour timeouts. **All lineages killed via Windows pids (PowerShell); exactly one day
+  loop now runs at WINDOWS pid 107224.** Kill loops with `Stop-Process` on Windows pids from
   `Get-CimInstance`, never the lock files' pids (G121 makes the scripts record winpids). Queue
-  integrity held throughout: produces-guards kept the lineages off each other's outputs.
-  **2026-08-09 evening state:** the DAY9 battery burned far ahead of estimate on cached
-  activations — coherence v2 (8), block contribution (8), control subspaces (11), subspace v2
-  (11), CKA, pooling falsifier, convergence v3 all landed and written through (L44–L50); powered
-  binary map landing now; the PD-1 chain (w80 cache → positional polish → revision homogeneity)
-  refires next queue pass after its L43 repair.
+  integrity held throughout; produces-guards kept the lineages off each other's outputs.
+  **2026-08-09 evening state.** The DAY9 battery burned far ahead of estimate on cached
+  activations. Coherence v2 (8), block contribution (8), control subspaces (11), subspace v2
+  (11), CKA, pooling falsifier, and convergence v3 all landed and were written through (L44 to
+  L50); the powered binary map landed (L51); the PD-1 chain (w80 cache → positional polish →
+  revision homogeneity) refires on the current queue pass after its L43 repair.
 - **Audit L26 landed (2026-08-08, the conservative fleet):** 15 confirmed defects. Two more criteria
-  that could not fail (no-maker NaN gate — re-adjudicated, luck-level overall, flagship concentration
-  → G107; affect shuffle gate below its arithmetic floor). Coherence statistic VOID (G105), SHIFTS
-  argmax artifact (withdrawn, re-runs queued), ladder3 decoy exhaustion (clean rungs still carry
-  +0.529), argrewrite BY backwards (re-run), affect-dims quadruple-broken (G106), atomic cache writes
-  + completeness checks in. **FINDINGS L26 is the index; the fleet's full output holds the line-level
-  list for G109/G110.**
+  that could not fail (the no-maker NaN gate, re-adjudicated at luck level overall with the flagship
+  concentration sent to G107; the affect shuffle gate below its arithmetic floor). Coherence
+  statistic VOID (G105), SHIFTS argmax artifact (withdrawn, re-runs queued), ladder3 decoy
+  exhaustion (clean rungs still carry +0.529), argrewrite BY backwards (re-run), affect-dims
+  quadruple-broken (G106), atomic cache writes + completeness checks in. **FINDINGS L26 is the
+  index; the fleet's full output holds the line-level list for G109/G110.**
 - Every stage must carry a `produces` guard. Verify hash locks + read `git status` deletions before
   every commit (CLAUDE.md hard rule, born of the SPEC deletion).
 
 ## Open decisions / owed
 
-- **G75 DONE (L23): survives all three ladders −0.42 to −0.52, p ≤ 0.0004; L17 resolved; L2's kills owed the G100 re-test.**
+- **G75 DONE (L23): survives all three ladders −0.42 to −0.52, p ≤ 0.0004; L17 resolved; L2's kills
+  reversed under the fair control and relabelled (2026-08-09).**
 - The four-file corpus problem (one maker, many kinds): CROSSNEWS = pseudo-documents only;
-  Guardian (13 authors) better kind-contrast; CMCC = email the authors (C-32a).
-- Interest ratings on his 15 artifacts — owed by him, cheapest instrument test (HH-14).
-- PAN22 Aston application — his side.
-- Rotate the Anthropic API key pasted early in the project — his side, still owed.
+  Guardian (13 authors) better kind-contrast; CMCC = email the authors (C-32a). The program's G133
+  commissioned pilot now leads this thread.
+- Interest ratings on his 15 artifacts, owed by him; per the program they inform READER_HEURISTICS
+  only, never ground truth (HH-14).
+- PAN22 Aston application, his side.
+- Rotate the Anthropic API key pasted early in the project, his side, still owed.

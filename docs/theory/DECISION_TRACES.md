@@ -54,6 +54,23 @@ while epistemic foraging is consciously held but problem-directed. The categorie
 cleanly. And it names the estimator honestly: **applied expertise is a *source* of depth, not the
 definition of depth; residualisation is a proposed estimator, not the ontology** (Part III).
 
+**The adopted definition, standing over the whole file.** Depth is the recoverable density of
+problem-directed choice structure embodied in an artifact, conditional on domain, brief, medium,
+and forced constraints. The conditioning clause is load-bearing, since a constraint the medium
+forces is not a choice, and a brief the maker was handed is not their goal.
+
+**And the unit of analysis is the decision event, not the artifact scalar (adopted 2026-08-09).**
+A decision event carries five things. Its target, the alternatives that were available, the choice
+made, its dependencies on other choices, and its context. For each recorded event the measurement
+question is whether the finished artifact lets a bounded reader recover the actual choice better
+than context alone and better than matched false alternatives. Only after event recovery works do
+events get summarized, as amount (how many independently recorded choices are recovered), breadth
+(how many distinct problem dimensions they constrain), integration (how many true dependency
+relations among them are recovered), and calibration (how often proposed recoveries are right,
+reported separately, never folded into depth). The denominator is declared choice opportunities or
+revision events, never words. Per-word density recreates the length trap that killed the first
+generation of measures.
+
 The essay already names polish's first half: aesthetics is *"the honeypot... the word for how much an
 object forces you to stare at it."* **Polish is honeypot density plus scaffolding density. It is not
 a synonym for quality and it is not a synonym for AI** — a ten-item reading sample populated all
@@ -325,7 +342,7 @@ all fixed by construction.**
 |---|---|---|
 | **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test), one coherent thing:** at matched length, revision raises lexical sophistication — longer, rarer, more polysyllabic words, fewer stopwords — one factor under six names, sign agreement 70–78% across authors |
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered** — raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
-| **PD-28** | The surviving effect is polish, not depth | **DEPTH-SIGNAL (test, L42).** Across 1,711 labelled revisions, the sophistication shift holds at full strength among *content*-labelled revisions — the rare-word component is stronger there than in surface-labelled ones. **The first measured depth signal on human text** |
+| **PD-28** | The surviving effect is polish, not depth | **OPEN after relabel (test, L42).** Across 1,711 labelled revisions the sophistication shift holds at full strength among *content*-labelled revisions, with the rare-word component stronger there. That is content-revision-associated lexical change, not yet recovery of problem-directed choice. The discriminating test is event-level purpose recovery with revisions matched on lexical sophistication; if recovery vanishes under matching, this was a sophistication measure |
 
 **What the table says.** The project's one controlled human comparison found a real, length-robust
 effect — and the labels on disk have now answered what it is: **the effect survives among
