@@ -222,11 +222,18 @@ data specifically"*: the tail is where un-optimized residue lives, which makes r
 G64) the same bet from the other end. Repetition is the proposed carrier: *"the way it's baked in
 implies that you've taken those actions many times, and therefore that itself is information."*
 Its objections: the residual contains values **and** arbitrariness, and only a domain-change test
-separates them; and the epistemic-foraging disposal this file once claimed is **withdrawn** — his
-quote stands (*"Epistemic foraging is always different... You remove it at the top. It doesn't
-exist at the bottom"*), but foraging **strategies** recur even where targets change: search order,
-source selection, stopping rules, and uncertainty tolerance can all bake in and survive in the
-residue. The confound remains, and the account must carry it. **4. Absence under commission** — a
+separates them; and the epistemic-foraging disposal this file once claimed is **withdrawn**. His
+argument stands as spoken:
+
+> **Epistemic foraging is always different. And it always looks different.** So it wouldn't get baked
+> in through associative learning. **It doesn't exist in behaviour.** Epistemic foraging is its own
+> separate goal.
+
+> **You remove it at the top. It doesn't exist at the bottom.**
+
+— but foraging **strategies** recur even where targets change: search order, source selection,
+stopping rules, and uncertainty tolerance can all bake in and survive in the residue. The confound
+remains, and the account must carry it. **4. Absence under commission** — a
 missing drive becomes legible through *how* an imposed goal is pursued (the made-under-duress
 mechanism; the routing consequence lives in [`ALIGNMENT.md`](ALIGNMENT.md) §0).
 

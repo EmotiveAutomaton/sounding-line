@@ -59,6 +59,19 @@ object forces you to stare at it."* **Polish is honeypot density plus scaffoldin
 a synonym for quality and it is not a synonym for AI** — a ten-item reading sample populated all
 four corners of the polish × depth grid, including *"thick on top and just empty beneath."*
 
+**And depth is domain-relative** *(moved from the reader-heuristics file 2026-08-09 — it is a
+property of the target, not a reading strategy)*:
+
+> It does not vary within an artifact unless the domain does.
+
+The sharpest definition in the project, because it makes depth a **relation** between writer and
+domain rather than an attribute — with its falsifier attached (*depth moves where domain moves*),
+and with the consequence that explains the corpus problem: **a relation cannot be measured by
+varying one side**, and every artifact-direct measure that died, died reading artifacts alone.
+**(HH-10:** depth measured on one maker moves when the domain moves and not otherwise — **OPEN,
+blocked on the one-maker-many-kinds corpus its own definition demands** — the same corpus the
+values thread keeps arriving at.**)**
+
 No direct test of the coordinate system itself exists; its components are tested below.
 
 ## §2. Reader-directed traces — attraction, translation, and movement

@@ -29,8 +29,24 @@
       "name": "argrewrite_w80_cache",
       "why": "G119 input: the small-window cache positional analysis needs",
       "est_minutes": 25,
+      "status": "DONE",
+      "log": "results\\argrewrite_w80_cache.log",
+      "minutes": 18.9
+    },
+    {
+      "name": "positional_polish",
+      "why": "PD-1 at last: the definitional polish/depth test \u2014 the file's own falsifier",
+      "est_minutes": 5,
+      "status": "DONE",
+      "log": "results\\positional_polish.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "pooling_falsifier",
+      "why": "G127: does the early/late story survive last-token and max pooling?",
+      "est_minutes": 40,
       "status": "RUNNING",
-      "log": "results\\argrewrite_w80_cache.log"
+      "log": "results\\pooling_falsifier.log"
     }
   ],
   "shard": "0/1"

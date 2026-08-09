@@ -26,8 +26,13 @@ the ontology of artifact traces ([`DECISION_TRACES.md`](DECISION_TRACES.md)), mo
 ## §1. Priors held before inspection
 
 What a reader brings before the artifact is opened: **domain expertise** (which sets the available
-entry points, §3); **closeness to the maker** — *"Showing someone your writing is a kind of
-intimacy"* — the one prior where the relationship does the work rather than the text; **biography
+entry points, §3); **closeness to the maker** — the one prior where the relationship does the work
+rather than the text:
+
+> Showing someone your writing is a kind of intimacy.
+
+**(G59:** closeness as a measurable prior held before the artifact is seen — **OPEN**, canonical
+here.**)**; **biography
 and prior artifacts**, which are more observations, not context (*"Everything's an artifact. Even
 information about their life"* — canonical in the triple inference, operational here); **provenance
 framing**; and the **communicative assumption** — treating the maker as intending to be understood.
@@ -95,6 +100,30 @@ discontinuity*; the interpretation that the variation is **goal** variation is e
 open. Intrinsic plagiarism detection is also a different thing — a spliced author, not one author's
 goals moving — a distinction he separated after I collapsed it.
 
+**And the revision-wobble test is retired on his own account** — human redrafting was the wrong
+axis, before the null even needed explaining:
+
+> The problem is that revisions from a human author are always going to carry **the same level of
+> intent density across the board.**
+
+What would have been interesting instead, in his words — *AI* revision, the moment the model's
+attentional mapping shifts away from your goal and you reach out to correct it:
+
+> Allow me to pick you up with the largest pole of the tent in my distorted policy space.
+
+He predicts a vague unifying effect there and declines to claim even that.
+
+| # | hypothesis | status |
+|---|---|---|
+| **lit** | Within-artifact variation of polish carries the maker | **SUPPORTED (READ)** — seven years of shared-task baselines at 0.830 on topic-controlled data; what they validate is variation-detection, with the goal-variation reading open |
+| **L7** | Variance of arbitrary surface features is the right operationalisation | **REJECTED (test)** — 0 of 313 features survive with maker, prompt, topic and register fixed; the plain average found 12, so windowing was not the problem |
+| **L11** | Our feature bank beats the field's bar on the topic-controlled split | **REJECTED (test)** — 0.565 against floor 0.444 and bar 0.830; the uncontrolled-split 0.969 probably rides topic |
+| **HH-3** | Within-artifact variance of *probe activations* carries what surface variance does not | **SUPPORTED (test), first pass** — dashboard §11 |
+| **HH-4** | Redrafting is the wrong axis; the claim needs artifacts of different kinds by one maker | **OPEN** — and his intent-density quote above says why in advance |
+| **HH-6** | Entering at the anomaly beats entering at the whole artifact | **OPEN** — the machinery exists (`bounded_v6` stage zero); a flag flip and a comparison |
+| **HH-7** | Local decision density around a mistake exceeds baseline | **OPEN** — needs mistakes located first; the one place a decision and its counterfactual are visible together |
+| **S-4/S-5** | Stage ordering changes the answer | **REJECTED (sim)** — by exactly zero; ~5% cost saving only |
+
 ## §3. Traversing explanatory levels
 
 > Walking up to an unknown oil painting, you can engage with it on the level of **metaphor** — why did
@@ -126,6 +155,11 @@ hierarchy (means–ends diagnosis from any level, decades of use) is worth readi
 formal home, not adopting sight unseen — it has published methodological criticisms (Lind) aimed at
 exactly the ambiguities that matter here.
 
+| # | hypothesis | status |
+|---|---|---|
+| **lit** | Entry at any level, ratcheting to the others | **CONTESTED (READ)** — Bullot & Reber make design-stance understanding a *necessary condition*; the disagreement is over necessity, not temporal order (their own response describes recursive processing) |
+| **lit** | Bullot & Reber's framework is well supported | **REJECTED (READ-FULL)** — 34 experiments across 23 publications: 26% support, 56% none |
+
 ## §4. Updating and active search
 
 > It starts questionable... 8 or 9 by the end.
@@ -141,6 +175,11 @@ One external caution bears on the whole series family: a study of hidden states 
 representations found document-level mean pooling best, which is evidence against series-carrying
 claims at the representation level — not decisive (it optimized for identity, not maker state), but
 the reason to expect modest effects.
+
+| # | hypothesis | status |
+|---|---|---|
+| **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN** — every reading this project records is a final number, so the series has never existed to be checked |
+| **G64** | Re-reading one artifact recovers the tail | **OPEN** — canonical in the triple inference's ledger; the reader-side strategy is this section's |
 
 ## §5. Continuation and stopping
 
@@ -167,6 +206,12 @@ correlations between interest and recoverability.
 
 Stopping is the calibration side: graded attribution when evidence supports only that (§10), and a
 **hard falsifier ends the inference outright** — the two-channel rule of §9.
+
+| # | hypothesis | status |
+|---|---|---|
+| **HH-14** | Reader-reported interest correlates with unrecovered decisions | **OPEN, blocked on him** — interest ratings on the fifteen read artifacts; an hour that turns the richest hypothesis source into data |
+| **HH-16** | "Ordered but unexplained" is effective complexity rather than entropy | **OPEN** — a real, formalisable target |
+| **lit** | Berlyne's collative variables support the interest claim | **REJECTED (READ)** — the arousal theory is *"mostly abandoned"*; one fetch found this after fifteen searches had not |
 
 # Part II — Cue families
 
@@ -201,6 +246,16 @@ The cue family, by function rather than by source:
   against a ceiling that expert self-prediction already fails to reach — stop treating distance from
   perfect recovery as failure.
 
+| # | hypothesis | status |
+|---|---|---|
+| **G85** | Intention elicitation with a pre-registered target | **ALREADY BUILT** — the intent ladder is this protocol, validated on stone since 2010, with the R² = 0.655 ceiling attached |
+| **G86** | A mechanical null model — subtract what the medium forces | **OPEN** — the right shape for choice-versus-constraint; the analogous model degrades badly off the bench |
+| **G87** | Stage-differentiated partition by visibility | **SUPPORTED (test)** — clean double crossover; canonical row in `DECISION_TRACES.md` §3, dashboard §11 |
+| **G88** | Error *handling* rather than error rate | **OPEN** — measures metacognition, not execution |
+| **G89** | Rigidity under perturbation as the novice signature | **OPEN** — implies the active probe |
+| **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention** |
+| **G91** | Inter-annotator agreement and per-feature accuracy before believing any extraction | **OPEN, and mandatory** — an aggregate concealed a worse-than-chance category |
+
 ## §7. Habit, concealment, and revision
 
 The reader's rules for exploiting the automatic traces (the trace ontology itself is
@@ -230,6 +285,15 @@ The reader's rules for exploiting the automatic traces (the trace ontology itsel
 - **Mixed provenance takes the graded vocabulary** — *by · attributed to · studio of · circle of ·
   school of · follower of · manner of · after* — three axes at once (proximity, temporality,
   intent), with *workshop of* the category this project needs most and would not have invented.
+
+| # | hypothesis | status |
+|---|---|---|
+| **G79** | The four-part admissibility filter, criterion 4 especially | **OPEN — the best single import**; predicts where habit is switched off |
+| **G80** | Reserve versus overpaint, on text structure | **OPEN** — computable on one static text |
+| **G81** | Self-revision is homogeneous, imposed change is lumpy | **OPEN; first in-project measurement queued** — the mixed-provenance discriminator |
+| **G82** | High internal consistency indicates *imitation*, not expertise | **OPEN** — may invert an assumption we hold |
+| **G83** | Adopt the graded attribution vocabulary | **OPEN** |
+| **G84** | Two channels — falsifiers veto, style proposes, never averaged | **OPEN, architectural** — every historical catch came from a hard falsifier |
 
 ## §8. Communicative shaping — the bard
 
@@ -277,6 +341,17 @@ predict different things. The effort heuristic belongs to the same family:
 On his account the effort heuristic is not a reader bias but a normally-valid inference a new
 artifact class has broken — and both rows testing it are blocked on measuring *effort*, the quantity
 automaticity makes unobservable by construction.
+
+| # | hypothesis | status |
+|---|---|---|
+| **G62** | Assuming the maker intends to be understood improves recovery | **OPEN — canonical here.** Must be tested against concealment, where the assumption licenses confident wrong inference |
+| **G63** | Aesthetic structure functions as deliberately-left scaffolding for descent | **OPEN** — polish partly communicative, not only performative |
+| **G67** | Readers grant the communicative assumption to generated text, and that is why it misleads | **OPEN** — a claim about readers; the model-side provenance prior (§1) is its first adjacent measurement |
+| **HH-19** | Attention capture and comprehensibility are separable shaping motivations | **OPEN — the load-bearing test**; measurement side in `DECISION_TRACES.md` §2 |
+| **HH-20** | Makers model the reader's inference and shape the artifact for it | **OPEN** — an artifact as process *plus the maker's model of you* |
+| **HH-21** | Generated text lacks the collaborative half — it takes without giving | **OPEN** — the third account of the unease, and the three predict different things |
+| **HH-17** | The polish–effort correlation is strong in human corpora, near zero in generated | **OPEN** — blocked on an effort proxy |
+| **HH-18** | The effort heuristic is a broken valid inference, not a reader bias | **OPEN** — follows from HH-17; the reframe is the contribution |
 
 # Part III — Calibration
 
