@@ -1688,17 +1688,19 @@ path, same block grid), then the location of each subspace's sharpest adjacent-b
 | family | affect breaks at | topic | syntax | frequency | verdict |
 |---|---|---|---|---|---|
 | Qwen2.5-1.5B (home) | block 1 | block 1 | block 1 | block 1 | ADAPTER-EDGE |
+| Qwen2.5-0.5B | block 1 | block 1 | block 1 | block 1 | ADAPTER-EDGE |
 | gpt2-medium | block 1 | block 1 | block 1 | block 1 | ADAPTER-EDGE |
 | pythia-1.4b | block 1 | block 1 | block 1 | block 1 | ADAPTER-EDGE |
+| SmolLM2-360M | block 1 | block 1 | block 1 | block 1 | ADAPTER-EDGE |
 
 *Columns: the block index of the sharpest break in each content type's subspace continuity — the
-same place for all four content types, in all three families so far.*
+same place for all four content types, in all five families so far.*
 
-**Verdict: ADAPTER-EDGE, unanimous in the first three families.** The break the affect subspace
+**Verdict: ADAPTER-EDGE, unanimous in the first five families.** The break the affect subspace
 shows is shared by every content type measured — it is the seam where the input representation
 hands over to the residual stream, not a fact about affect. **Means: any reading of the two-way
 split (G42) as an affective boundary is dead; the front break carries no mapping information.**
-The deflationary arm of his gating question, exactly as he posed it. Eight families in flight;
+The deflationary arm of his gating question, exactly as he posed it. Six families in flight;
 folding in as they land.
 
 ## L50 · The affect subspace's depth rotation survives its own repair — rank-truncated, against a matched null
@@ -1715,17 +1717,19 @@ matched random subspaces of the same rank on the same grid.
 | family | adjacent overlap | distant overlap | null | verdict |
 |---|---|---|---|---|
 | Qwen2.5-1.5B (home) | 0.82 | 0.31 | 0.056 | DEPTH |
+| Qwen2.5-0.5B | 0.78 | 0.26 | 0.074 | DEPTH |
 | gpt2-medium | 0.92 | 0.42 | 0.069 | DEPTH |
 | pythia-1.4b | 0.87 | 0.28 | 0.049 | DEPTH |
+| SmolLM2-360M | 0.85 | 0.27 | 0.071 | DEPTH |
 
 *Columns: mean shared fraction of the 7-dimensional affect subspace between neighbouring blocks;
 between the most separated blocks; what matched random subspaces share by chance; and the
 per-family verdict that the structure is depth-organised.*
 
-**Verdict: DEPTH, in all three so far — the rotation is real and the repair changes nothing.**
-Neighbouring blocks share most of the subspace, distant blocks a third, everything sits five to
-eight times above a properly matched null. The v1 caveat retires for these families: the
-structure was not the fit's artifact. Eight families in flight; folding in as they land.
+**Verdict: DEPTH, in all five so far — the rotation is real and the repair changes nothing.**
+Neighbouring blocks share most of the subspace, distant blocks about a third, everything sits four
+to eight times above a properly matched null. The v1 caveat retires for these families: the
+structure was not the fit's artifact. Six families in flight; folding in as they land.
 
 ## L4 · Can weak effects be stacked into a detector?
 
