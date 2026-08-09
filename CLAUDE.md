@@ -102,7 +102,10 @@ landed.**
 2. **`docs/theory/`** — find the section the result bears on. **Update its hypothesis row, and update
    the paragraph under that table**, because a new row can change what the set implies. **Add no new
    prose beyond that unless the result is genuinely load-bearing** — the row and the afterword are
-   the update. **When in doubt, wait for his response before expanding.**
+   the update. **When in doubt, wait for his response before expanding. Structural changes — new
+   sections, moved blocks, splits — are proposals in chat first, never unilateral** (his files, his
+   call; 2026-08-09). Afterwords follow the format spec in `docs/theory/README.md`: standing
+   interpretation, no changelog, fixed confidence vocabulary.
 3. **`TODO.md`** — the item leaves; anything it opened gets added, under the same identifier.
 4. **Report it in the chat.** Hypothesis first, then what we did, what we found, what it means.
    **Every result, every time, so he never has to hunt for the latest numbers.**

@@ -389,7 +389,8 @@ attention* silently excluded everything a maker does to be **understood**, which
 engineer's or a teacher's polish consists of. **Under the old definition a heavily-labelled technical
 document reads as low-polish, which is plainly wrong.** The split also makes §3's decay prediction
 sharper rather than weaker — **it should apply to attraction only**, and if it applies to both then
-the split is not carving anything.
+the split is not carving anything. **Confidence: untested — logic only, and the separability row is
+the gate for everything else here.**
 
 ## §3. The asymmetry, and why it should exist
 
@@ -445,7 +446,7 @@ performance is what changes, whatever direction it changes in.**
 | **PD-4** | Polish variance is **larger in less practised makers**, since an expert has partly automatised the performance too | **OPEN.** The one prediction that cuts against a naive reading where expertise means more of everything | never run |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** — **6.5× faster**, and synthetic polish is **flat** | **Synthetic polish being flat is PD-3's prediction arriving from a different direction**, and it is the only support the machine-signature claim has |
 
-**What these add up to.** The asymmetry is a prediction with a mechanism behind it — automaticity makes content decisions cheap and leaves performance expensive — **and the only thing that has tested it is a simulation of a constructed emitter.** PD-1, the definitional test, has still never been run, because the measurement that failed on human text measured neither density separately. **So the definitions in §1 are undamaged by that null and remain unexamined.** The row worth noticing is PD-3: **the machine signature it predicts is not thin depth but a polish that does not move**, which needs no quality judgement and no human baseline.
+**What these add up to.** The asymmetry is a prediction with a mechanism behind it — automaticity makes content decisions cheap and leaves performance expensive — **and the only thing that has tested it is a simulation of a constructed emitter.** PD-1, the definitional test, has still never been run, because the measurement that failed on human text measured neither density separately. **So the definitions in §1 are undamaged by that null and remain unexamined.** The row worth noticing is PD-3: **the machine signature it predicts is not thin depth but a polish that does not move**, which needs no quality judgement and no human baseline. **Confidence: one bad test away — a single simulation carries all of it, and the definitional test has never run on real text.**
 
     Timeline on the polish-variance idea. Predicted from automaticity; supported in simulation at
     6.5x; then measured on real text as within-artifact variance of 342 linguistic features and found
@@ -535,7 +536,7 @@ terminal value**, not presence of a profit motive.
 | **G3** | Half A of a web corpus contains more recoverable method than half B *(the project's primary for a month)* | **VOID (test), twice over** | Its stability check failed — within-artifact variation was **nine times** the between-halves difference — and the statistic reads a large number where the truth is zero. **Independently, 76 features separate the two halves**, so almost any measure would. **Separating them was never evidence of anything** |
 | **PD-10** | Singularity of terminal value is measurable at all | **OPEN, and it is the successor instrument.** Needs a corpus this project has not seen; refitting to the 51 artifacts already read would be unfalsifiable | — |
 
-**What these add up to.** The reframe is better supported than any of its measures. **Three categories rather than two — individual, corporate, machine — explains a Gate 2 result that was recorded as a failure**, because immediately-reconstructable motivation *should* produce high agreement between independent readings. But that cannot be claimed retrospectively, the sharp prediction's instrument turned out to be a difficulty meter, and the corpus it was tested on has been read too many times to test anything again. **What survives is a better description of what the instrument should report** — *whether a maker's terminal value is singular or layered* — which is more defensible than either detection or intent-density, and has never been built.
+**What these add up to.** The reframe is better supported than any of its measures. **Three categories rather than two — individual, corporate, machine — explains a Gate 2 result that was recorded as a failure**, because immediately-reconstructable motivation *should* produce high agreement between independent readings. But that cannot be claimed retrospectively, the sharp prediction's instrument turned out to be a difficulty meter, and the corpus it was tested on has been read too many times to test anything again. **What survives is a better description of what the instrument should report** — *whether a maker's terminal value is singular or layered* — which is more defensible than either detection or intent-density, and has never been built. **Confidence: instrument-dead on the sharp prediction; the three-category reframe itself is untested.**
 
 ### Dense polish as concealment — the predicted inversion
 
@@ -573,13 +574,17 @@ specifications, and machine-text-written-with-purpose was recorded RULED OUT on 
 | **PD-18** | A machine given many aligned motivations reads as more intentional than one given two | **REVERSED IN DIRECTION (test) — the contest was right.** At 30/60 stacked specifications: the three artifact features revive strongest there (L24, conditionals +0.73), the flagship survives the fair control strongest there (L23, −0.52), and specification recovery scales 52.5% → 66.3% → 91.7% (L10) | **Two bounds (L26): the extreme ladder's top-rung recovery contests are decoy-degenerate**, and the recovery leg's strict echo restriction now fails (G113 pending) — **so PD-18 leans on the feature and flagship legs**, which are echo-immune. Length is *band-targeted*, not nailed: the rank-space check failed at +0.414 |
 | **PD-19** | The effect *accelerates* at the top of the ladder | **NOT SUPPORTED — re-confirmed on the modern rows (L23 data, 08-08 night): STRAIGHT, and stronger — the dose-response *concentrates in the lower half*** (first ladder −0.59 lower vs −0.04 upper; extreme −0.66 vs +0.06). The ratio **saturates** at high rungs | Acceleration would have been evidence for **G54**. What arrived instead is saturation — **echoing the bits ceiling: two independent measures flatten at the top of the same ladder**, which reads as instrument ceiling or true diminishing returns, and a doubling of window count at high rungs would separate those |
 
-**What these add up to.** The stacked-motivations bet has flipped from ruled-out to being carried by
-the project's strongest results: **he contested a null on power grounds and the extreme ladder
-vindicated the contest three separate ways** — features, flagship, and recovery are all strongest
-there. What has *not* arrived is the acceleration that would tie the top of the ladder to the values
-claim (G54): the curve is straight. And the top rungs now carry an audit bound — the recovery
-contests are degenerate there (L26), so extreme-rung claims lean on the fair-control results rather
-than the bits table. **PD-17 remains blocked on PD-1, which remains the file's oldest unpaid debt.**
+**What these add up to.** The bet that stacking many aligned motivations makes machine text read as
+*more* intentional has flipped from ruled-out to carried by the strongest results in the project:
+the revived features, the flagship ratio, and recovery all peak on the corpus with the most stacked
+instructions — the contest he lodged against the original null was right. What has *not* appeared is
+acceleration: the response to added intent is a straight line that flattens at the top rather than
+compounding, which withholds the one signature that would tie this table to the values claim. And
+the top of the ladder carries a known bound — its recovery contests were degenerate — so
+extreme-rung claims lean on the ratio and the features, which are immune. The high-polish-thin-depth
+prediction stays blocked on the file's oldest unpaid debt, the never-run definitional test.
+**Confidence: the reversal is replicated and controlled (three independent measures, three
+corpora); the saturation reading is one bad test away.**
 
 ## §6. Leakage — the channel where the automatic decisions live
 
@@ -633,7 +638,7 @@ time not using. **The essay already said the automatised decisions count; nothin
 | **PD-15** | Attention dwell past argumentative need is measurable | **OPEN.** Nothing built. Also the LUST signature in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §3 | — |
 | **PD-16** | Cognitive-load signatures leak despite narrative management | **OPEN** — never tested here | Reduced concrete detail, oversimplification, generalisation. **A 2025 cross-linguistic study argues the limits of deception detection from text are real and structural — take the features, not the promise** |
 
-**What these add up to, and it is the file's clearest reversal of expectation.** The cheap route was tried first and failed; the expensive route worked. **Function words were sixty years of validation, no GPU, and available immediately — and they carried identity but not state.** Reading the model's activations needed machinery we did not have, and produced the project's only replicated effect. **The lesson is not that cheap routes are bad but that a channel validated for one quantity is not thereby validated for another** — authorship attribution works, and that says nothing about whether the same channel carries maker *state*. The one row that has never been touched is PD-15, **attention dwell**, which is simultaneously the LUST signature and the second leakage channel, and which needs a model of argumentative need that nobody has built.
+**What these add up to, and it is the file's clearest reversal of expectation.** The cheap route was tried first and failed; the expensive route worked. **Function words were sixty years of validation, no GPU, and available immediately — and they carried identity but not state.** Reading the model's activations needed machinery we did not have, and produced the project's only replicated effect. **The lesson is not that cheap routes are bad but that a channel validated for one quantity is not thereby validated for another** — authorship attribution works, and that says nothing about whether the same channel carries maker *state*. The one row that has never been touched is PD-15, **attention dwell**, which is simultaneously the LUST signature and the second leakage channel, and which needs a model of argumentative need that nobody has built. **Confidence: the spare-capacity and state-separation results are replicated and controlled; reading them as maker *state* rather than style is one bad test away until the fair induction control runs on this channel.**
 
     Timeline on the leaked layer. Function words proposed as the cheap operationalisation; the first
     run was underpowered and VOID; the redo with purpose and topic fixed came back at 1.80x chance,
@@ -677,9 +682,10 @@ home in the theory folder.** Every row below is a real test with a verdict file.
 | **G116** | Specified intent adds description length (the essays' Kolmogorov claim) | **REJECTED (test, L29).** Incompressibility is flat across all three ladders (all n.s.), and human long-form matches machine text at matched length (0.4552 vs 0.4562) | Whatever sixty stacked specifications add, **it is not lzma-visible structure** — one more cheap text-level property that does not carry intent, which is this section's oldest lesson |
 
 **What these add up to.** **Ten measures read the artifact directly and all ten died, to length, register or vocabulary in that order.** The pattern is not that the measures were bad; it is that every property of a text that correlates with intent also correlates with something cheaper, and the cheaper thing wins. **The funnel is the durable product** — 61 of 81 replicated features were machine detectors, and without that filter this project would have adopted the solved problem as its result. **The closure of the artifact-side route reversed on 2026-08-08:** the final three deaths were the broken induction control's, not the features' — under the fair control all three revive on all three ladders (PD-21, L24). The deaths to length and register stand, and the funnel's machine-detector filter stands with them.
-And the newest row extends the lesson below the feature level: **even raw description length — the
-information-theoretic floor of the artifact — carries nothing (G116)**, so the three fair-control
-survivors above remain the only artifact-side signals standing.
+Even raw description length — the information-theoretic floor of a text — carries nothing, so the
+three revived features remain the only artifact-side signals standing. **Confidence: the funnel and
+the deaths are replicated and controlled; the three revivals hold on all three corpora but are two
+days old — one bad test away by age alone.**
 
     Timeline on counting decisions. Counted directly and it was length; corrected for length and it
     was vocabulary; replaced with a 342-feature bank screened against the ladder, which produced 81
@@ -710,7 +716,7 @@ controlled comparison on human text in the project's history.
 | **PD-27** | That effect is length | **REJECTED (test), and the trap fired as pre-registered.** Raw: 94 of 325 features survive, every one a *count*. Length-matched: **17 of 315**, and none of them counts | same |
 | **PD-28** | The surviving effect is **polish**, not depth | **OPEN, and the corpus can settle it** | 5,834 revisions are hand-labelled Surface or Content at 0.71–0.92 agreement. **If Surface-annotated revisions carry it we have measured polish; if it survives among Content-only revisions, that is a depth signal on human text and the first one** |
 
-**What these add up to.** This is the project's first controlled human comparison and **it found a real effect that is probably the wrong one.** Revision raises lexical sophistication — longer, rarer, fewer function words — as a single factor showing up under six names, and it survives length-matching, which is the control that killed the raw result. **The question of whether that is polish or depth is answerable from labels already in the corpus and has not been asked**, which makes PD-28 the highest-value unrun row in the file: it is the one place where a *depth* signal on human text could be demonstrated rather than argued.
+**What these add up to.** This is the project's first controlled human comparison and **it found a real effect that is probably the wrong one.** Revision raises lexical sophistication — longer, rarer, fewer function words — as a single factor showing up under six names, and it survives length-matching, which is the control that killed the raw result. **The question of whether that is polish or depth is answerable from labels already in the corpus and has not been asked**, which makes PD-28 the highest-value unrun row in the file: it is the one place where a *depth* signal on human text could be demonstrated rather than argued. **Confidence: the revision effect is replicated within its corpus and length-controlled — one bad test away only in the sense that one corpus carries it; its interpretation is untested.**
 
 **PD-28 is the sharpest unrun test in this file**, and it is the reason that corpus is worth more than
 its size.

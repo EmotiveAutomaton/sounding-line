@@ -104,7 +104,9 @@ values are absent but because they are furthest upstream from anything an artifa
 additivity says the three are separable contributions rather than a mutually amplifying loop, which is
 a weaker claim than the original and a more tractable one: **separable contributions can be supplied
 one at a time and measured.** What no result has yet touched is whether the drives → process edge
-exists at all (**G47**), and until it does the ordering above is half-measured.
+exists at all (**G47**), and until it does the ordering above is half-measured. **Confidence: one
+bad test away — the whole structure rests on one simulation, and its most important edge is
+untested.**
 
 ## §3. Values are a weighting over trajectories; a goal is one component temporarily amplified
 
@@ -136,7 +138,8 @@ section, not a counterexample to it.** A reward function is not identifiable fro
 single-artifact design cannot recover values no matter how good the measure is — which means **ten
 dead measures say nothing about whether values are recoverable**, only that they were pointed at one
 artifact each. **The corpus that would test it has been sitting in the repository since the beginning**
-and the test has never been run.
+and the test has never been run. **Confidence: the failure-pattern is replicated and controlled —
+it is the project's whole history; the positive claim it points to is untested.**
 
 ## §4. Where values are actually found — the residue of expertise ★
 
@@ -221,7 +224,9 @@ next. **The claim's strength is that it explains the project's failures rather t
 if values are the un-optimised residue, then every measure that read the *dominant* structure of an
 artifact was reading the part where individuality has been selected out, and ten nulls become one
 null with a cause. **Its weakness is that "residual" and "noise" are currently the same thing to us**,
-and G50 is the only proposal on the table for telling them apart.
+and G50 is the only proposal on the table for telling them apart. **Confidence: untested — logic
+only, and its free disposal of epistemic foraging is the strongest purely structural argument in
+the file.**
 
 ## §5. The policy-mapping mess — what an artifact actually exposes
 
@@ -275,7 +280,7 @@ vertex is contaminated by the second, §4 says the contamination is removable, a
 vertex may not be a vertex at all.** They cannot all be right. **The cheapest discriminator is G52**,
 because supplying process is something we already know how to do and T-1 already found that direction
 productive — **if removing process from the reading changes what is recovered, the composition is
-real and §4 has something to subtract.**
+real and §4 has something to subtract.** **Confidence: untested — logic only.**
 
 ## §6. Soul is a variety of motivations, and expertise moves decisions into drives
 
@@ -303,7 +308,8 @@ more of what they are, at the same time and for the same reason.
 separated. **Any second attempt must survive a difficulty control and neither of the two tried would
 have.** The reason this matters beyond one dead measure is that §4 depends on it — **if expertise does
 not move decisions into drives, then the residue of expertise is not where values live**, and the
-sharpest claim in this file loses its mechanism.
+sharpest claim in this file loses its mechanism. **Confidence: instrument-dead twice on the
+measure; the idea itself is untested.**
 
 ## §7. Entry — legibility is not the only governor
 
@@ -348,7 +354,7 @@ legibility first — was drawn from a single knob in a simulation that flagged t
 **The honest state is that we do not know whether entry is symmetric, and the whole enter-anywhere
 claim rests on one untested edge.** G56 is the one to run because it is the arm that would falsify
 legibility-first, and because **supplying expertise is the same operation §4 needs in order to
-subtract it.**
+subtract it.** **Confidence: one bad test away — one edge of six, one knob, one simulation.**
 
 ## §8. Why this is possible at all — the impossibility proofs assume unconstrained inference
 
@@ -456,12 +462,15 @@ we have been using only three of the available constraints.** Convergent midbrai
 near-optimality were the three that matched the proofs' requirements; **the teacher assumption is a
 fourth, it is standard in the cooperative-IRL literature, and it is free.** Its cost is that it fails
 exactly where concealment lives, so it cannot be adopted globally — **which makes *when to assume a
-teacher* a measurable question in its own right, and nobody has asked it.**
-Two measurements arrived overnight (2026-08-09) and both sit here: **the convergence curve exists**
-(G60 — recovery sharpens with works, flattens, and leaves a 0.40 residual on the cheapest channel,
-so the limit framing now has a measured shape), and **the provenance prior is real in the reading
-machinery itself** (G115 — a one-line frame moves the affective read at *p* < 1e-8), the first
-empirical foothold this section has for the teacher-assumption family of claims.
+teacher* a measurable question in its own right, and nobody has asked it.** Two of this section's
+questions now have first numbers. Recovery of a maker does sharpen as more of their work is seen,
+then flattens well short of certainty — the exact curve the limit framing predicts, with the
+residual the theorems demand now measured rather than conceded. And the reading machinery itself
+carries a provenance prior: telling a reader model that identical text is machine-made shifts its
+affective read — the first empirical foothold the teacher-assumption family of claims has ever had.
+**Confidence: the reading of the theorems is replicated and controlled — it is proved work; the
+convergence curve and the provenance prior are one bad test away each; the rest of the
+teacher-assumption programme is untested.**
 
 **Everything is an artifact, including biography.**
 
@@ -555,7 +564,9 @@ set an artifact was made *under*.
 in the project that would give values a ground truth rather than a proxy. **Its value is structural:
 it supplies many makers × many works × a graded outcome**, which is simultaneously what §3 says values
 require, what §4's domain-change separator requires, and what §8's convergence-rate question requires.
-**One sourcing effort would unblock three sections**, which is not true of anything else on the list.
+**One sourcing effort would unblock three sections**, which is not true of anything else on the
+list. **Confidence: untested — design only, and the only design in the project with ground truth
+in it.**
 
 ---
 

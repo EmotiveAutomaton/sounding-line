@@ -55,6 +55,23 @@ ledger.
 row can change what the set implies even when it changes nothing else. **A stale conclusion under a
 fresh table is worse than no conclusion**, because it reads as current.
 
+**The paragraph is read BEFORE the table, not after.** A reader lands on the conclusion first and
+climbs up only if they want the detail — so it must stand alone: plain words, the current state as
+one interpretation, **no dated update-narrative** ("extended 08-09…" is a changelog, not a
+conclusion; the folded-in rule applies to these paragraphs hardest of all), and identifiers only in
+parentheses after the plain-language claim they tag, never as the subject of a sentence.
+
+**Every paragraph ends with a fixed-vocabulary confidence line**, so validity is read at a glance
+instead of re-derived per claim:
+
+    Confidence: untested — logic only.
+    Confidence: one bad test away.           a single run or family, or controls still outstanding
+    Confidence: replicated and controlled.   multiple corpora or families, survived the audit —
+                                             reversing it needs a NEW kind of fault, not a subtle one
+    Confidence: instrument-dead.             the measure failed, so this says nothing either way
+
+A mixed table joins two of these with a semicolon, each tied in plain words to the half it rates.
+
 **Identifiers are stable — never reused, never renumbered.**
 
 ## Files

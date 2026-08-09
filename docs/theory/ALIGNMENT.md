@@ -160,6 +160,7 @@ it is built from, AL-4 and AL-5 are the two attacks that would kill it, and AL-6
 would take to build. **The ordering that matters is that AL-4 is cheap to reason about and fatal if
 right, while AL-1 needs a literature sweep before it can even be stated as novel.** Do AL-4 first —
 **a proposal that dies to its own second failure mode does not need a priority search.**
+**Confidence: untested — logic only, by design and by declared distance.**
 
 ---
 

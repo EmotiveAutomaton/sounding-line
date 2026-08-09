@@ -50,9 +50,12 @@ is mediocre. **The same number means opposite things depending on what it is nex
 induction check is a strength recorded for something that may be reading the prompt. **The one
 measured row above has been through its controls; anything added must be too.**
 
-**What the table currently says.** One of seven heuristics has a number — uncompetitive on the
-topic-controlled task, above the published bar on the uncontrolled split, which is probably topic
-riding rather than the heuristic (L26). **Six of the seven have never been measured at all, and three of those are blocked on
+**What the table currently says.** One heuristic of seven has a measured number — real signal, well
+short of the field's bar where topic is controlled, above the bar where topic is free to help,
+which probably credits topic rather than the heuristic. Six have never been measured, and three of
+those are blocked on things obtainable within a week: an hour of ratings, an effort proxy, one
+corpus. **There is still nothing to stack. Confidence: the one number is replicated and controlled;
+every other row is untested.** **Six of the seven have never been measured at all, and three of those are blocked on
 things we could actually get** — an hour of his time, an effort proxy, and one corpus. **The stacking
 question cannot be asked yet**, because there is nothing to stack: you cannot combine one measured
 signal with six unknowns and predict anything about the combination.
@@ -335,7 +338,8 @@ anyone has to decision-versus-constraint and **it is the same subtraction the de
 needs**, with the nuisance derived rather than assumed. **And the three reliability numbers are the
 warning**: a field that skipped inter-annotator agreement, defended post-hoc feature selection, and
 reported aggregates that hid a worse-than-chance category is a field whose methods we should take and
-whose habits we should not.
+whose habits we should not. **Confidence: untested here — proven practice in their field, logic
+only in ours.**
 
 ---
 
@@ -509,7 +513,8 @@ import is cheap because the thinking is done.** What it costs is the tradition's
 unfalsifiability, a market-tainted history, and an inventor who did not follow his own rule — and the
 correct response to that is Morelli's own scope limit: **a check on a prior judgement, not a generator
 of judgements.** Position it that way and we inherit 150 years of defensibility; position it as an
-oracle and we inherit 150 years of well-earned attacks.
+oracle and we inherit 150 years of well-earned attacks. **Confidence: untested here — proven
+practice in their field, logic only in ours.**
 
 ---
 
@@ -590,7 +595,9 @@ which points at the instrument rather than the hypothesis, and this file previou
 of arbitrary surface features is not obviously where a performance lives) or the axis may be wrong
 (redrafting may not vary the performance at all). **HH-3 is the version nobody has pre-empted** —
 variance of *probe activations* rather than of perplexity or surface style — and it is the only route
-here that is both untried by the field and untried by us.
+here that is both untried by the field and untried by us. **Confidence: the
+phenomenon-is-real-and-our-measure-missed-it diagnosis is replicated and controlled (the field's
+own baselines prove the phenomenon); our untried route is untested and queued.**
 
 ### What this retires
 
@@ -637,7 +644,8 @@ lowered what we should expect from it** — reordering the probe's stages change
 zero, and only the cost moved. **So HH-6 is worth running to close the question rather than to open
 one.** The more interesting row is HH-7, because a mistake is an anomaly whose *cause is known*, which
 means the maker's response to it is a decision with its alternatives visible — **the only place in
-this file where we could see a decision and its counterfactual at the same time.**
+this file where we could see a decision and its counterfactual at the same time.** **Confidence:
+one bad test away — a single simulation bounds the expectation, and nothing has run on text.**
 
 ## §3. Confidence in a maker moves while reading
 
@@ -659,7 +667,7 @@ within-artifact *series* is where the information is, and we have only ever kept
 piece of external evidence bears against both — a 2025 study of hidden states as author
 representations found document-level mean pooling best. **That is not decisive, because it was
 optimising for author identity rather than for maker state**, but it is the reason neither row should
-be run expecting a large effect.
+be run expecting a large effect. **Confidence: untested.**
 
 ## §4. Depth is a property of the writer **with respect to the domain**
 
@@ -681,7 +689,8 @@ rather than an attribute explains why the corpus problem is fatal rather than in
 relation cannot be measured by varying one side, and every measure that died, died reading artifacts
 alone.** The falsifier came attached to the claim — *depth moves where domain moves* — which is rare
 and makes this cheap to settle the moment the corpus exists. **It is the same corpus HH-4 needs, and
-the same one three sections of the triple inference need.**
+the same one three sections of the triple inference need.** **Confidence: untested — blocked on the
+corpus its own definition demands.**
 
 ## §5. Process is hierarchical, and you can enter the decode at any level
 
@@ -732,6 +741,8 @@ for diagnosis *from any level*, forty years of use.
 **The formal match we have never looked at is Rasmussen's abstraction hierarchy** — five levels with
 explicit means-ends links, built for diagnosis **from any level**, forty years of use. **That is a
 better formal home for the ratcheting claim than anything we have cited, and nobody here has read it.**
+**Confidence: the collision is replicated and controlled on their side (their own field's
+replication record); our alternative is untested.**
 
 ## §6. Interest is unexplained decisions — which makes the reader an instrument
 
@@ -776,7 +787,7 @@ instrument**, and it costs an hour rather than a corpus. Its formal home is effe
 Berlyne — **and the live debate in the field runs the opposite way**, with processing-fluency accounts
 locating pleasure in *ease* rather than in unresolved structure. **That tension is not a problem for
 the claim; it is the thing HH-14 would adjudicate**, because the two accounts predict opposite
-correlations between interest and recoverability.
+correlations between interest and recoverability. **Confidence: untested — an hour of ratings away.**
 
 ## §7. The maker is a bard, not a teacher — and that is two motivations, not one
 
@@ -828,7 +839,9 @@ things a maker deliberately does, one of which (comprehensibility scaffolding) i
 structure a reader would exploit** and has never been looked for. **The risk is that it is
 unfalsifiable as stated**: almost any artifact property can be called reader-modelling after the fact,
 so HH-19's separability is the load-bearing test — **if attention capture and comprehensibility cannot
-be pulled apart in measurement, this is a story rather than a mechanism.**
+be pulled apart in measurement, this is a story rather than a mechanism.** **Confidence: untested —
+logic only, except the provenance-prior half, which now has one supporting measurement in the
+reader model and is one bad test away.**
 
 ## §8. Aesthetics was the cheat, and AI broke it
 
@@ -857,5 +870,6 @@ project can. That is not an oversight — **automaticity makes effort unobservab
 which is the same fact that makes the polish/depth asymmetry work and the same fact that puts values
 in the residue rather than the signal. **So the sharpest testable claim in this file is blocked on the
 quantity the rest of the theory says is hidden**, and any proxy we adopt will need its own defence
-before HH-17 means anything.
+before HH-17 means anything. **Confidence: untested — and unmeasurable until an effort proxy is
+defended.**
 

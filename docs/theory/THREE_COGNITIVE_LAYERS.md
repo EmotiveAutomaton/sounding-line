@@ -3,7 +3,7 @@
 > If human empathy relies on a **constraint of the solution space in the midbrain**, then we are going
 > to have to similarly constrain the solution space somehow — or else we run into the impossibility of
 > value extraction. **But if we can constrain the solution space sufficiently, we can get there**
-> through a mechanism analogous to the empathy triangle.
+> through a mechanism analogous to the empathy triangle [now called triple inference].
 
 > There are three layers. The three layers of human cognition through affective neuroscience will have
 > some rough analog — **though softened** — in neural networks, because they are trying to model us
@@ -112,7 +112,8 @@ and that expertise sits at the far end from the input** — they disagree only a
 sits *before* valence. **That is a narrower disagreement than it looks**, and §8's subspace result
 bears on it directly: the one sharp boundary in the whole model is at layer 2, exactly where a
 text-transformation stage would end. **If that boundary survives its control, G20b is the ordering and
-the argument is over.**
+the argument is over.** **Confidence: untested — logic only; the boundary fact it leans on has not
+had its own control run.**
 
 ## §2. The reframe that makes everything else follow
 
@@ -183,7 +184,9 @@ cross-species dynamics were found by people not fighting this argument. **What b
 agree on is that hypothalamus and PAG house coordinated affective machinery; they disagree about
 whether that machinery constitutes felt affect or reports it.** So the architecture's structural claim
 is uncontested and only its *interpretation* is in dispute — which means **imaging will never settle
-it, and waiting for the debate to resolve is a mistake.**
+it, and waiting for the debate to resolve is a mistake.** **Confidence: the mid-level stage is
+replicated and controlled in the published record; everything this project builds on top of it is
+untested — logic only.**
 
 ## §4. How many primitives — three questions, three answers
 
@@ -236,11 +239,11 @@ two from stopping when the circumplex appeared; 49 and 93 from a criterion that 
 on pure noise. **The one number that behaves differently is ~25** — raising the offered word list from
 34 to 80 did *not* inflate it, and it was recovered against brain data rather than against more words.
 **That is the only count in the field with a ceiling test behind it, and it sits far above seven.**
-Which is his prediction, arrived at by someone else, for a quantity he was not claiming. **And both
-of our own attempts at the count are now instrument-dead — the first to a criterion that returns
-components from noise (L8), the second to the four defects the audit confirmed (L9, L26/G106) — so
-this project currently holds no count of its own, and the ~25 stands on the field's ceiling test
-alone.**
+Which is his prediction, arrived at by someone else, for a quantity he was not claiming. Both of
+this project's own attempts at a count died as instruments rather than as answers, so the field's
+~25 is the only number left standing, and it stands on its ceiling test alone. **Confidence: the
+~25 is replicated and controlled; our own counting instrument is instrument-dead — it says nothing
+either way, and a rebuilt one is owed before this project has a number of its own.**
 
 ## §5. Leaked and emblematic — the affect vocabulary
 
@@ -305,6 +308,8 @@ reader wrong about almost everything including a 50% channel swap. **But it only
 concealers, failing at 25%**, which means the measure is reading *effort spent hiding* rather than
 hiding itself. **And the two layers have never been shown to be two.** Until G28 runs, every result
 here is equally compatible with the probe asking one question twice and averaging the answers.
+**Confidence: one bad test away throughout — every row is a single simulation, and the
+two-layers-are-actually-two question has never been asked of real text.**
 
 ## §6. The forward predictions
 
@@ -362,30 +367,24 @@ ratios across receptor / midbrain / neocortex. **He flagged it as speculative.**
 | **G103** | The fair-control flagship (early/late ratio vs intent) transfers across families | **REJECTED as universal; the sign is a family constant (test, L28, extended overnight).** Qwen negative at both tested sizes (1.5B: 3/3 ★; 0.5B: 3/3, ★ on extreme); gpt2 positive at medium AND large (5/5 ★) **fading to null at xl**; SmolLM2-360M and pythia-410m positive, ★ on the extreme ladder only; pythia-1.4b positive n.s. 3/3 | **No family shares Qwen's sign, and each family keeps its own sign across sizes and corpora.** The positive camp reaches significance preferentially where the manipulation is strongest. Five cells re-run today (overnight GPU-contention timeouts). G112 characterises the machinery |
 | **G34** | Parameter ratios across depth echo neuron-count ratios across receptor/midbrain/neocortex | **OPEN, flagged speculative by its author** | — |
 
-**What these add up to.** The prediction that died and the prediction that replicated were the same
-quantity read two ways: **the *magnitude* of affective response across depth is architectural and
-carries nothing, while the *correlation* of that response with specified intent carries a signal two
-independent ladders agree on at 0.97.** That is the most useful single thing in this file — **how much
-a layer responds is noise; how much its response tracks the maker is not.** G31 now lands on the same
-side (L25): the middle third's activity profile — mostly a *quiet* middle, not the predicted noisy
-one — shows the same distribution on the no-maker control. Architecture again. (The coherence half of
-that test fell with the statistic — L26/G105; the quiet-middle reading is activity-only and stands.)
-And the family-sign map completing overnight adds the sharpest version of the family lesson: **the
-flagship ratio's sign is a family constant — Qwen negative at every size, everyone else positive
-where significant — so no direction claim transfers, while the existence claim now stands in at
-least five families (L28).**
-
-**The 2026-08-07 readouts sharpened the magnitude half, and the audit then took the coherence half
-away (L26).** What stands: the magnitude peak sits at **layer 2 regardless of rung, in every
-ladder** — fully architectural, exactly as the profile result said — and in Qwen it does not move
-with intent (**G69**; the cross-family "shifts deeper" revival was an argmax artifact, withdrawn,
-re-runs queued). What does not stand: everything this section briefly said about **coherence** — the
-falling direction, the Qwen inversion, and the untouched-middle "dissociation found by a test that
-was not looking for one." **The statistic cannot register agreement — the eight fitted directions sum
-to zero by construction — so those patterns were readings of an arbitrary axis, and they are
-withdrawn rather than reinterpreted (G33 → VOID-INSTRUMENT; G105 is the rebuild).** The §6e
-prediction — late coherence rises when the goal is clear — is back to **untested, not rejected**: the
-one instrument pointed at it could not have seen it either way.
+**What these add up to.** Every prediction in this table asked one of two questions, and the two
+questions met opposite fates. The **where** questions — which depth holds the peak, whether the
+middle is noisy, whether the peak moves deeper with intent, whether the first layer is a pure
+salience gate — either died or turned out to depend on which model family you ask. The peak's
+location is a property of the architecture and never moves with the maker; the middle is *quieter*
+than predicted, identically so on maker-less text; the apparent peak-shifts were two fixed spots
+trading rank; and the first layer does hold the strongest is-affect-here signal in the model, but it
+already knows *which* emotion too, so it is not a blind gate. The **does-it-track** questions
+survived and grew: how strongly a layer's response follows specified intent replicates across
+independently generated corpora and now across model families — with the ratio's direction fixed
+inside each family and different between them, our own home family being the lone negative. So the
+section's one standing sentence: **how much a layer responds is architecture; how much its response
+tracks the maker is signal; and *where* either lives does not travel between models.** One
+prediction cannot currently be judged at all — that agreement among the affect concepts rises when
+the goal is clear — because the statistic built for it turned out unable to measure agreement in
+principle; that question is back to untested, not rejected. **Confidence: the tracking results are
+replicated and controlled; the location claims are one bad test away where they stand at all; the
+goal-clarity coherence claim is instrument-dead.**
 
 ## §7. The interpretability angle — the low-order to high-order ratio
 
@@ -427,20 +426,21 @@ differ in length, register and vocabulary. **The one that survived asks about a 
 the reader's own layers on the same text**, so those three confounds cancel before the measurement
 happens. **Design reader-side measures as within-text ratios, or expect them to die.**
 
-**And the two newest rows change how much weight the section carries.** Specification recovery
-(**L10**) is the first measure here that reports goal recovery **on a scale rather than as a
-correlation**, and it grew from ambiguous to a 91.7% win rate purely by strengthening the
-manipulation — **which retroactively explains why the earlier ruled-out verdict was premature rather
-than wrong.** The cross-architecture replication (**L12**) was to supply the control the whole programme
-needed — **and the audit found its verdict gate could not fail (L26).** Re-adjudicated, the no-maker
-runs fire at roughly the rate luck supplies, except that the flagship's fires sit on its own
-surviving layers — **so the control now flags a question instead of answering one (G107).**
-**What neither supplies is transferability
-of the *location*** — the surviving layers move by model and by corpus, so the measure generalises and
-the address does not. **L10 got its no-maker control at last — and did not pass it cleanly (L32):**
-three wins of thirty-six where chance supplies a third of one, *p* = 0.006. Together with the strict
-echo kill, specification recovery is under active suspicion — its numbers wait on the graded-echo
-curve (G113) and a wider pool (G108) before being quoted as recovery of anything.
+**And the section's two flagship measures have traded places.** Specification recovery — picking a
+text's true instruction set out of dozens of decoys — once looked like the best-supported measure in
+the project. It now fails two of its own controls: exclude every instruction whose words appear in
+the text and recovery collapses to nothing, and on maker-less text, where no candidate is true, it
+still hands out wins well above chance. Until the graded version separates *the measure only reads
+shared words* from *honouring an instruction inevitably shares its words*, none of its numbers are
+quoted as recovery. The per-layer correlation moved the opposite way: it survived a re-adjudicated
+no-maker control at roughly the rate luck supplies, and kept its cross-family replication — with one
+open question, because our home family's few false fires sit suspiciously on its own surviving
+layers, and a permutation test decides whether that is clustered luck or a real leak. What neither
+measure supplies is a transferable *address*: which layers carry the signal moves by model and by
+corpus, every time. **Confidence: the within-text-ratio design lesson and the correlation's
+replication are replicated and controlled; specification recovery is one bad test away in the wrong
+direction — under active suspicion; the no-maker leak question is untested until the permutation
+lands.**
 
 **A methodological correction worth keeping, because it was mine and it was wrong.** I offered "neurons
 are plausibly natural units" as the disanalogy that makes interpretability unlike an electrode. He
@@ -492,6 +492,8 @@ that is not what is happening.
 **Reading them together: there is one coherent affective structure, it rotates continuously through
 depth rather than sitting in bands, and its one sharp boundary is at the very front of the model.**
 That is a shape, and it is a consistent one — but it is not yet the shape this file claims.
+**Confidence: the structure's existence and rotation are replicated and controlled (eleven
+families); what the early boundary *means* is one bad test away — its control has not run.**
 
 ## §9. The build — supply the missing middle
 
@@ -550,12 +552,15 @@ of the network, and the amplification story needs a scale story attached.
 | **G45** | An affective concept can be forced into a chosen layer and strengthened there | **OPEN, and it is the build.** Relocation and reinforcement rather than construction | **A much smaller build than §9's** if it works, and it needs G44 first |
 | **G46** | Weaker or smaller models place affective concepts more poorly | **TESTED — ARCHITECTURAL (L30).** Across eleven families, 0.35B–3B: break sharpness vs size rho **+0.05** (p = 0.89), decay lawfulness rho +0.40 (p = 0.22) | **Placement does not scale — the strongest thing §8 could return.** The structure's location reads as a property of the network, not of training. n = 11; the rho is the result, the label a summary |
 
-**What these add up to.** The order held and the first two have now run (2026-08-08 night). **G46
-returned the strong direction: placement does not improve with scale — architectural (L30).** And
-G44's first bite says the transform is fittable, **just not in the flagship family**: the rotation
-composes lawfully in pythia and gpt2 and barely in Qwen (L31). So the build's path is concrete —
-**fit the transform where it composes, then ask whether Qwen's non-composing rotation is noise or a
-genuinely different organisation.** G45 remains the build, and it now has an address.
+**What these add up to.** The build's three questions are coming back in the right order.
+Placement of the affective structure does not improve with model size — which reads as architecture
+rather than learned skill, and is the direction the whole amplify-rather-than-build strategy
+needed. The structure's rotation through depth is lawful enough to fit in two model families — and,
+tellingly, *not* in the family every headline result comes from. So the build has a concrete path:
+**fit the transform where it is lawful, then ask whether our home family's unruly rotation is noise
+or a genuinely different organisation.** The relocation experiment itself remains unrun, but it now
+has an address. **Confidence: one bad test away throughout — each of these is a single pass over
+saved data, informative but young.**
 
 ### What is needed is a generative model, not a state
 
@@ -585,7 +590,9 @@ in full in 2005, and the one public proposal to build it remains a proposal. **T
 nobody doing it is either a large opportunity or a signal that the hard part is somewhere we have not
 looked** — and §8 says the hard part is not *finding* the structure, because a coherent affective
 structure is present in every model we have checked. **What is unproven is that it can be seeded
-rather than specified**, and that is the single claim the whole build rests on.
+rather than specified**, and that is the single claim the whole build rests on. **Confidence: the
+architecture-is-unclaimed fact is replicated and controlled (the field's own survey); everything
+else here is untested — logic only.**
 
 **The field's own warning applies to us first** — *"we have not seen any test scenarios being borrowed
 from other emotion-learning implementations."* **Everyone builds a bespoke gridworld and beats a
@@ -617,4 +624,4 @@ suppressing any one channel should collapse it.
 every affect reading this project has produced is blind to positive affect except where it leaks
 through seeking, play or care.** That is a real limit on the eight-concept design rather than a
 refinement of it, and **the two accounts are separable by a single suppression experiment**, which
-makes this cheaper to settle than most things in this file.
+makes this cheaper to settle than most things in this file. **Confidence: untested — logic only.**

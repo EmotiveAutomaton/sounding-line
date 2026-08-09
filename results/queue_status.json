@@ -215,8 +215,82 @@
       "name": "reader_convergence",
       "why": "G114: the paper's H2 vs flattened-intent \u2014 goal-inference convergence across five groups",
       "est_minutes": 90,
+      "status": "DONE",
+      "log": "results\\reader_convergence.log",
+      "minutes": 41.0
+    },
+    {
+      "name": "noisy_middle",
+      "why": "G31: middle-third activity vs coherence, CPU readout over saved sweeps",
+      "est_minutes": 1,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder2",
+      "why": "G75: the within-rung induction control -- re-adjudicates L1, L2 and L17 on ladder2",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder3",
+      "why": "G75: the within-rung induction control -- re-adjudicates L1, L2 and L17 on ladder3",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder",
+      "why": "G75: the within-rung induction control -- re-adjudicates L1, L2 and L17 on ladder",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "length_direction_audit",
+      "why": "was length a confound or a suppressor, per measure",
+      "est_minutes": 3,
+      "status": "DONE",
+      "log": "results\\length_direction_audit.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "multiplicity",
+      "why": "re-correct the whole family after new results land",
+      "est_minutes": 1,
+      "status": "DONE",
+      "log": "results\\multiplicity.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "induction_v2_ladder_gpt2-xl",
+      "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder_Qwen2.5-0.5B",
+      "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder_pythia-2.8b",
+      "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
+      "est_minutes": 20,
+      "status": "DONE",
+      "log": "results\\induction_v2_ladder_pythia-2.8b.log",
+      "minutes": 1.5
+    },
+    {
+      "name": "induction_v2_ladder_pythia-410m",
+      "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder_Qwen2.5-3B",
+      "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
+      "est_minutes": 20,
       "status": "RUNNING",
-      "log": "results\\reader_convergence.log"
+      "log": "results\\induction_v2_ladder_Qwen2.5-3B.log"
     }
   ],
   "shard": "0/1"
