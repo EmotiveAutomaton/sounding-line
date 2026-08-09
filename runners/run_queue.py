@@ -218,7 +218,7 @@ STAGES: list[dict] = [
      "why": "G75: the within-rung induction control -- re-adjudicates L1, L2 and L17 on ladder"},
     {"name": "length_direction_audit", "est": 3,
      "cmd": [PY, "runners/audit_length_direction.py"],
-     "produces": None, "needs": [],
+     "produces": "results/audit/length_direction.json", "needs": [],
      "why": "was length a confound or a suppressor, per measure"},
     {"name": "multiplicity", "est": 1,
      "cmd": [PY, "runners/audit_multiplicity.py"],
