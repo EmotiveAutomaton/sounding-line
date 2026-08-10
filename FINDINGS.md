@@ -2172,6 +2172,40 @@ curves from the paper's three experiments are saved for the figure-level half, w
 remaining part of the pass and is not claimed. Means: the substrate the estimator tournament
 (G134) needs now exists and behaves lawfully.
 
+## L64 · The night batch: the matching refused to be theatre, and the pilot's floor followed the truth
+
+**The matched control (G130b) returned MATCHING-FAILED, by its own gate.** Content and surface
+revisions differ enormously on the matching covariates (standardized mean differences 0.49 to
+1.29 before matching), and greedy one-to-one matching with a caliper improved balance without
+reaching the pre-set 0.25 bar (worst covariate 0.486 after, 640 pairs). No verdict was issued on
+the survives-or-collapses question, which is the instrument behaving correctly, since a
+classification run on unbalanced "matched" sets would have been theatre. The v2 design is
+coarsened exact matching on binned covariates, which buys guaranteed balance at the price of
+sample, queued today.
+
+**Pilot-b (uniform candidates) taught the second construction lesson.** Uniform decoy sampling
+did not flatten the blind floor (blind 0.348, shuffle 0.328 against nominal 0.25), because the
+leak was never only the decoys, the *truth* follows the corpus label marginal while decoys do
+not, whichever way decoys are drawn. The estimand that survives both lessons is the **margin
+over the measured blind floor**, and it is stable: 0.204 under weighted candidates, 0.189 under
+uniform (recovery 0.537 against floor 0.348). The coarse arm's controls landed too (blind 0.511,
+shuffle 0.510 against recovery 0.585), putting the coarse margin at a modest 0.074, so **the
+delta carries roughly nineteen points of fine-grained purpose information and seven points of
+coarse**, on 2,748 and 2,806 events. Pilot-c (truth-balanced subsampling, where the blind floor
+is analytic) is the quotable-number design, queued today.
+
+**The night's failures, all diagnosed.** ScholaWrite is a gated dataset and needs an
+authenticated token, his side, moved to blocked. The books cache died on a flag typo (the
+builder takes a plural flag), fixed and re-queued. The twelve-candidate stage wrote its output
+under the true capped name while the queue watched for the guessed one, a produces-name
+mismatch, fixed; its result landed regardless (0.307 at eight candidates against 0.125 nominal,
+consistent with the margin story). The exact replication ran all night on the grid and its
+interim numbers already tell the story: binary close but not matched (0.874 to 0.878 against
+0.90 to 0.93), fine catastrophically off (0.27 against 0.44 to 0.49), with the label-conflicting
+duplicates from comma-splitting as the prime suspect, since first-purpose-only extraction lands
+at 3,323 against their 3,238. The v3 extraction reruns today with per-cycle counts against
+their published split.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

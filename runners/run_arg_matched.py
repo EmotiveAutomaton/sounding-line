@@ -64,19 +64,27 @@ def main() -> None:
     y = np.array([e["coarse"] == "content" for e in events])
     Z = (C - C.mean(0)) / (C.std(0) + 1e-9)
 
-    ci, si = np.where(y)[0], np.where(~y)[0]
-    D = cdist(Z[ci], Z[si])
-    used, pairs = set(), []
-    order = np.argsort(D.min(axis=1))
-    for row in order:
-        cols = np.argsort(D[row])
-        for c in cols:
-            if c not in used and D[row, c] < 1.0 * np.sqrt(Z.shape[1]):
-                used.add(c)
-                pairs.append((ci[row], si[c]))
-                break
+    # v2: coarsened exact matching. v1's greedy nearest-neighbour could not balance these
+    # covariates (worst SMD 0.486 after matching, gate 0.25 -- L64) because content and surface
+    # revisions occupy different covariate regions. CEM bins each covariate into terciles and
+    # pairs only within identical strata, buying guaranteed balance at the price of sample.
+    rng = np.random.default_rng(41)
+    bins = np.stack([np.digitize(Z[:, j], np.quantile(Z[:, j], [1 / 3, 2 / 3]))
+                     for j in range(Z.shape[1])], axis=1)
+    strata: dict = {}
+    for i, b in enumerate(bins):
+        strata.setdefault(tuple(b), {"c": [], "s": []})["c" if y[i] else "s"].append(i)
+    pairs = []
+    for st in strata.values():
+        n = min(len(st["c"]), len(st["s"]))
+        if n == 0:
+            continue
+        cs = rng.permutation(st["c"])[:n]
+        ss = rng.permutation(st["s"])[:n]
+        pairs.extend(zip(cs.tolist(), ss.tolist()))
     keep = sorted({i for p in pairs for i in p})
-    print(f"{len(events)} events -> {len(pairs)} matched pairs "
+    print(f"{len(events)} events -> {len(pairs)} CEM pairs across "
+          f"{sum(1 for st in strata.values() if min(len(st['c']), len(st['s'])) > 0)} strata "
           f"({len(events) - len(keep)} dropped)")
 
     def smd(idx):

@@ -152,8 +152,23 @@ def extract_v2():
     for e in events:
         e["fine"] = FINE9.get(e["raw"])
     events = [e for e in events if e["fine"]]
+    # v3: one purpose per revision pair. v2's comma-splitting produced label-conflicting
+    # duplicates of the same (old, new) pair, which is the prime suspect for the fine-task
+    # collapse (0.27 vs the published 0.44+) -- the paper's n is 3,238 and the split gave 3,365.
+    seen: set = set()
+    first_only = []
+    for e in events:
+        key = (e["author"], e["cycle"], e["old"], e["new"])
+        if key in seen:
+            continue
+        seen.add(key)
+        first_only.append(e)
+    events = first_only
     for e in events:
         e["binary"] = "surface" if e["fine"] in SURFACE9 else "content"
+    from collections import Counter                                   # noqa: PLC0415
+    cyc = Counter(e["cycle"] for e in events)
+    print(f"v3 per-cycle n: {dict(cyc)} (total {len(events)}; paper sentential 3,238)")
     return events
 
 

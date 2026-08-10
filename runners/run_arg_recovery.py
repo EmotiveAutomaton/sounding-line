@@ -56,6 +56,9 @@ def main() -> None:
     ap.add_argument("--uniform", action="store_true",
                     help="uniform decoy sampling -- the pilot's blind arm ran above chance "
                          "because frequency-weighted decoys leak the label prior (L62)")
+    ap.add_argument("--balance", action="store_true",
+                    help="truth-balanced subsample: equal events per label, so the blind floor "
+                         "is analytic at 1/k -- pilot-c, the second leak lesson (L64)")
     args = ap.parse_args()
 
     import numpy as np                                                # noqa: PLC0415
@@ -69,7 +72,18 @@ def main() -> None:
     k = min(args.k, len(keep))
     shuffled = list(rng.permutation([e[args.grain] for e in sub]))
 
-    tag = f"{args.grain}_k{k}{'u' if args.uniform else ''}_{args.arm}"
+    if args.balance:
+        per = min(sum(1 for e in sub if e[args.grain] == l) for l in keep)
+        by_lab: dict = {}
+        for e in sub:
+            by_lab.setdefault(e[args.grain], []).append(e)
+        sub = [e for l in keep for e in
+               [by_lab[l][int(i)] for i in rng.permutation(len(by_lab[l]))[:per]]]
+        shuffled = list(rng.permutation([e[args.grain] for e in sub]))
+        print(f"balanced: {per} per label, {len(sub)} events")
+
+    tag = (f"{args.grain}_k{k}{'u' if args.uniform else ''}"
+           f"{'b' if args.balance else ''}_{args.arm}")
     part = RESULTS / f"{tag}_partial.jsonl"
     RESULTS.mkdir(parents=True, exist_ok=True)
     done = set()

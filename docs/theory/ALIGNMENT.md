@@ -193,3 +193,21 @@ right, while AL-1 needs a literature sweep before it can even be stated as novel
 **The one thing to preserve if everything else is superseded:** *the terminal value is neither the
 seeking nor the thing sought. It is the balanced sum of both, under surprise minimisation. The
 imprecision is not a problem the design tolerates; it is the term that makes the design work.*
+
+---
+
+## Appendix: recreating the existing alignment research, an early project goal
+
+The dormancy ruling stands; this appendix records only the frontier recreations that happen to be
+alignment research, under the exact-value standard (a recreation passes by matching the published
+numbers precisely, and simulation results need somewhere to live). Kept short by instruction.
+
+| anchor | recreation state |
+|---|---|
+| Armstrong & Mindermann's unidentifiability construction | **PASSED (test-side toy, L60).** The reward/planner degeneracy reproduced at exactly 0.5/0.5, then relaxed: the bounded human-shaped family narrows the posterior twentyfold, known near-optimality twofold, both fortyfold. The one exact-value pass the recreation phase holds so far |
+| Baker, Saxe & Tenenbaum's inverse planning | **HALF-PASSED (L63).** The three models pass their analytic gates (the zero-switch identity at 10⁻¹², monotone convergence, switch-tracking); the figure-level comparison against the published best-fit correlations (.83/.98/.94, .57/.95/.58, .96) is the owed half |
+| the estimator tournament over these substrates (G134) | **NOT STARTED**, and it is the step where these recreations stop being recreations and start pricing the residualisation estimator's failure boundary |
+
+What this buys the dormant file: when the wake condition is ever met, the impossibility results
+it leans on will already exist here as running code with their relaxations mapped, rather than as
+citations.
