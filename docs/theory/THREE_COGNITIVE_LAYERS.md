@@ -1,14 +1,19 @@
 # Three cognitive layers: the latent architecture, and what a model reconstructs of it
 
 > If human empathy relies on a **constraint of the solution space in the midbrain**, then we are going
-> to have to similarly constrain the solution space somehow – or else we run into the impossibility of
-> value extraction. **But if we can constrain the solution space sufficiently, we can get there**
-> through a mechanism analogous to the empathy triangle [now called triple inference].
+> to have to similarly constrain the solution space somehow. That's the only way we can get closer to
+> actual value extraction, given the intractability of the problem. **We can get there through a
+> mechanism analogous to empathy that I'm calling the triple inference.**
 
-> There are three layers. The three layers of human cognition through affective neuroscience will have
-> some rough analog – **though softened** – in neural networks, because they are trying to model us
-> using an imperfect version of our own mechanism for empathy, which is just inverse reinforcement
-> learning with a whole bunch of tricks.
+> There are **three functional levels** of human cognition, which correlate with the three brain
+> regions described in affective neuroscience. We'll have some similar analog – **though softened** –
+> in neural network blocks, because they're trying to model us using an imperfect version of our own
+> mechanism for empathy, which at the end of the day is just **inverse reinforcement learning with a
+> whole bunch of tricks**.
+
+> We're not assuming that there's a similar three-level structure. We expect to find some types of
+> commonalities that we can elaborate on as **a vertex for exploration**, much like the proposed
+> triple inference process of empathy itself.
 
 Four claims, stated separately because they live or die separately:
 
@@ -55,13 +60,20 @@ separable. Three, frankly, barely won't be."* A goal is **a weighting applied ac
 one component of the value weighting temporarily amplified by attention, so it needs to be readable
 as a modulation of whatever sits at each depth, not found at an address of its own.
 
-**Expertise is the late thing, and goal runs on it:**
+**Expertise is weighted late, and goal reads through it:**
 
 > **Executive function is historically associated with goals** – with organising, with making
-> sub-goals. Is the executive function applying the trajectory? Well, of course it is. **That's why
-> goals come from the neocortex: because that's where your trajectory is stored.**
+> sub-goals. Is the executive function applying the trajectory? Well, of course it is.
 
-> **Later layers of a model will have more expertise decoding and encoding capabilities.**
+> Goals don't just come from the neocortex. That was me overstating an initial thought, which is
+> that they may be **weighted at the later levels**, higher brain regions, and maybe even later
+> blocks. Even though executive function and learned competence both contribute to goals, **there's
+> no single anatomical address** for these things. But you would expect a more accurate weighting
+> with respect to observed behaviors, because they've passed through the expertise layer.
+
+> Later blocks are probably going to make expertise-related information **more usable or decodable**
+> in some way. There's just a lot more of it in general. And you'd expect more goal-related
+> information to be somehow associated with the actual process itself.
 
 Cognitive expertise here means the higher-order metaphorical layer, the entry vertex most people
 use on media at all (**media literacy** is the common-language name for exactly this general skill),
@@ -75,18 +87,24 @@ Panksepp's seven plus `none_recoverable`, with no happiness and no positive vale
 > networks**, or as **a conjoined channel that all seven of them have to not be inhibiting** in order
 > for happiness to flow.
 
+Both are candidate modelings rather than a claimed dichotomy. What positive affect actually is
+there would come out of the data, not out of an initial musing on one specific channel; the
+suppression experiment below separates these two without excluding others.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G26** | A goal is a weighting across all levels rather than a level of its own | **OPEN, adopted as the working position** |
-| **G41** | Later blocks carry more expertise encoding and decoding | **OPEN.** The testable form of "goals are late"; expertise is suppliable and variable |
+| **G41** | Later blocks make expertise-related information more usable or decodable | **OPEN.** The testable form of the late-weighting restatement; expertise is suppliable and variable |
 | **G27** | Level boundaries in a model are soft rather than sharp | **assumed, not tested.** Any test requiring a clean boundary is testing the wrong thing |
 | **G73** | Positive affect is a readout over the seven channels | **OPEN.** Suppressing one channel should move it proportionally |
 | **G74** | Positive affect is a conjoined gate requiring all seven un-inhibited | **OPEN.** Suppressing any one should collapse it; a single suppression experiment separates the two |
 
-**What the table says.** The scaffold itself is theory. Its one adopted position (goal as weighting)
-and its one testable sharpening (expertise-late) have never been run, and every affect reading the
-project has produced is blind to positive affect except where it leaks through seeking, play, or
-care. Confidence: untested, logic only.
+**What the table says.** The scaffold itself is theory. Its one adopted position (goal as
+weighting) and its one testable sharpening (late blocks making expertise more decodable, with no
+single anatomical address claimed) have never been run, and every affect reading the project has
+produced is blind to positive affect except where it leaks through seeking, play, or care, with
+the two positive-affect rows held as candidate modelings rather than an exhaustive pair.
+Confidence: untested, logic only.
 
 ## §2. The reconstruction bridge: what a model is doing, in reserved words
 
@@ -94,8 +112,17 @@ care. Confidence: untested, logic only.
 > they're **trying to predict the human brain and failing to do so.** They're trying to have empathy
 > and failing.
 
+> They're not automatically trying to empathize; that's speaking in high-level terms. Practically,
+> because they're trained on human-produced text, you'd expect them to **reconstruct the functional
+> regularities of the generating process** that led to it. I'm recontextualizing the concept of
+> empathy as, at least somewhat, **a form of inverse reinforcement learning**. I'm not assigning
+> affect to AI at this time.
+
 > **You're seeing ghosts of a human brain, not an actual human brain.** [...] The lines will be
 > **softer** on an AI modelling.
+
+> That's what I mean by ghosts of a human brain. An **imperfect reconstruction of functional aspects
+> of human anatomy**, or expertise and experience, perhaps even distributed.
 
 A language model trained on human text is a *reconstruction* of the process that produced the text,
 built by prediction, inheriting the shape of what it reconstructs, including where the
@@ -115,11 +142,17 @@ identical compute, so only decodability varies, and cross-domain claims must com
 decoding (the field's own move, since univariate bright-peaks failed for emotion there too). And
 **"noise" has no biophysical referent at temperature zero**, so say *unmodeled variance*, and treat
 rogue dimensions as the artifact class, not the signal. **Token transformation is an input
-adapter**, the model-side counterpart of sensory transduction, not a fourth cognitive level:
+adapter**, the model-side counterpart of sensory transduction, not a fourth cognitive level. And
+the search target is stated deliberately loosely:
 
-> The prediction that early valence/arousal is what we're mapping – **it doesn't quite fucking fit.**
-> Because the input for humans is **sensory** data. That's kind of what a model gets when it is boiled
-> down into vectors, **but it's not quite the same.**
+> We are trying to find **any kind of correlates that could be explored or used functionally** to
+> help identify value data. That may include finding a mapping space for valence and arousal, or
+> even for sensory transformation, though that's unlikely, because the most likely crossover is
+> **textual embedding and transformation being equivalent to sensory transduction in humans**. Past
+> that, you would expect **a sort of convergence, and that's what we're seeking more than
+> anything.** An affective reconstruction that appears after that initial transformation. Not that
+> it's a natural thing, but that humans do it and we are the source data, and therefore **ghosts of
+> it would appear**.
 
 **The two orderings are competing model *mappings*, not competing definitions of cognition.** The
 question is where each function is reconstructed in blocks, given where it lives in regions:
@@ -130,21 +163,23 @@ question is where each function is reconstructed in blocks, given where it lives
 | **G20b** | Mapping B: early blocks are the input adapter, core affect mid, categories late | **OPEN, and it discriminates cleanly against G20a.** Under A valence peaks early and categories mid; under B valence peaks mid and categories late. It also reconciles the two published results that contradict each other (the field's mid-block emotion peak; a sparse-autoencoder cascade putting emotion late) |
 | **G34** | Parameter ratios across depth echo neuron-count ratios across regions | **WITHDRAWN, misattributed.** The suggestion on record was to *build* structures mapped this way; it was never a prediction that current models show it |
 
+**What the table says.** Both mappings are open; the one wrong attribution is withdrawn; the bridge
+itself (reconstruction-without-feeling) is the file's working frame rather than a tested claim.
+Confidence: untested, logic only.
+
 **Why the middle would be the latent variable behind the machine-text unease**, the derivation
-that used to sit with the traces. The unease has four candidate accounts (broken polish–effort,
+that used to sit with the traces. The unease has four candidate accounts (broken polish-effort,
 flattened intent, missing translation, wrong shape), and his objection to the list was the point.
 *"Now we have a proliferation of reasons... this list seems more like the **observable variables**."*
 
-> **The latent variable is midbrain misalignment** – or lacking a midbrain specifically.
+> **The latent variable is the midbrain misalignment that I suggest.** It could absolutely be simply
+> a **poor reconstruction of conserved drive constraints**, the goals that arise from the midbrain.
+> Those are the drives to which I refer.
 
 If a model reconstructs everything *except* the mid-level drive constraints, it has no shared prior
 with the reader, and each account is that absence seen from a different angle. Whether that is
 right is a real question and not assumed. *"That doesn't sound right. That doesn't sound right at
 all... I don't know, they're tied in there somehow."* The test is whether the four dissociate.
-
-**What the table says.** Both mappings are open; the one wrong attribution is withdrawn; the bridge
-itself (reconstruction-without-feeling) is the file's working frame rather than a tested claim.
-Confidence: untested, logic only.
 
 ## §3. The missing middle: the load-bearing prediction
 
@@ -181,7 +216,7 @@ Confidence: sim-only; the real-artifact claim is untested.
 | # | hypothesis | status |
 |---|---|---|
 | **lit** | Conserved **subcortical affective control machinery** exists as a distinct stage | **SUPPORTED (READ).** The strongest support cites neither camp. Hypothalamic line attractors encoding intensity and persistence (*Nature* 2024), conserved biphasic cross-species dynamics with a ketamine dissociation (*Science* 2025). *Anatomical honesty: that evidence is hypothalamic and PAG, subcortical rather than specifically midbrain, and the machinery being coordinated is uncontested while its reading as a separable affective-primitive stage is not* |
-| **lit** | The Panksepp–Barrett disagreement is about localisation | **REJECTED (READ).** Both camps place the machinery in hypothalamus and PAG; they disagree on whether activity there *constitutes* affect or reports it, so imaging will not settle it |
+| **lit** | The Panksepp-Barrett disagreement is about localisation | **REJECTED (READ).** Both camps place the machinery in hypothalamus and PAG; they disagree on whether activity there *constitutes* affect or reports it, so imaging will not settle it |
 | **lit** | Panksepp's seven is the right number | **REJECTED (READ) as an empirical claim.** Never derived from a dimensional analysis; the standard instrument tests six |
 | **G35** | The ~25 distinguishable states are the **human-nameable subset** of the subcortical channels' combinations, where nameability rather than blending is the relation | **OPEN, never tested by anyone.** *(Reframed 2026-08-09: "blends of seven" was the wrong form. Channels are distinct subcortically and combine only at the neocortical level through predictions and controls of them)* |
 | **G36** | Some recovered components will be unnameable | **OPEN**, behind a working count instrument |
@@ -298,10 +333,11 @@ same reader on the same text. His reading of what interpretability found stands 
 early-block "token valence" results and a reconstructed valence assignment are the same observation
 under two readings, with the emotion vocabulary as the interface:
 
-> They're reading the valence and arousal layers and **interpreting those as lexical**, because there
-> **is** a casual lexical mapping through the emotion wheel we all use. But what that emotion wheel is
-> really doing is **defining and elaborating higher-order predictions and controls OF valence and
-> arousal.**
+> There is a lexical mapping to valence and arousal through **the emotion wheel we all use**, but
+> that's not quite what they're catching. What it's really doing is **defining and elaborating these
+> higher-order predictions and controls of valence and arousal**, which would hypothetically provide
+> an output that would look very similar to **an input for a mid-layer, limbic-system-like
+> transformation**. That's possible.
 
 | # | hypothesis | status |
 |---|---|---|
@@ -326,6 +362,11 @@ test away by age, in the direction of further demotion.
 # Part III: Consequences
 
 ## §8. Build gates: what must be true, in order, before anything is moved
+
+Any intervention designed here waits on actual causal relevance, recoverable transformations, and
+controllability. The section states functional constraints rather than running tests; it exists so
+the early thoughts on possible ways forward are not lost by the time later stages of this process
+arrive.
 
 > If this structure is not what happens in naturally occurring language models, **I wonder if we could
 > force it** – make an empathic bot with lower-order valence and arousal, medium human-mapped
@@ -365,7 +406,8 @@ only gate one has evidence behind it.
 The affective-computing literature says a system needs an internal state like emotion; the stated
 goal is empathy *without* emotions. Not incompatible:
 
-> **You do not need interoceptive states. You need an interoceptive generative model.**
+> **You probably do not need interoceptive states. You probably need an interoceptive generative
+> model.**
 
 Simulation requires the mapping *situation → predicted state → category*, run forward as a
 prediction about someone else, and a language model plausibly has that mapping, because humans

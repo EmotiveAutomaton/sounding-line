@@ -1,16 +1,25 @@
 # docs/ — working material, filed by topic
 
-**The source of truth is [`../FINDINGS.md`](../FINDINGS.md), not this folder.** Everything here is
-material to hand an agent when it needs a particular kind of context.
+**The claims live in [`theory/`](theory/), organised by what we believe; the methods live in
+[`../FINDINGS.md`](../FINDINGS.md), organised by when we ran them.** A result exists in both or
+it is lost. Everything else here is material to hand an agent when it needs a particular kind of
+context.
 
-| folder | what is in it | when to reach for it |
+| folder / file | what is in it | when to reach for it |
 |---|---|---|
-| [`method/`](method/) | **CONTROLS** (what a control licenses), **LEDGER** (every test in one table), DEVIATIONS, ANTI_CONVENTION | designing a test, or doubting one |
-| [`theory/`](theory/) | the frame, affect architecture, the triangle, leakage, the essays | after a context loss, or when a result needs interpreting |
+| [`theory/`](theory/) | **the hypothesis store**: five files, one question each (inference targets / architecture / decision traces / reader heuristics / alignment), format spec in its README | after a context loss, when a result needs a home, before any edit inside it |
+| [`TOOLS.md`](TOOLS.md) | installed libraries AND the built-here instrument ledger with validation states | before building an instrument, or when one misbehaves |
+| [`method/`](method/) | CONTROLS (what a control licenses), LEDGER, DEVIATIONS, NEURAL_ANALOGUES, literature reviews | designing a test, or doubting one |
 | [`gates/`](gates/) | gate 0–3 material, curation batches, calibration | archaeology on an old gate |
-| [`sim/`](sim/) | traffic with the Ghost Scale Simulation, both directions | anything about mechanism |
+| [`sim/`](sim/) | traffic with the Ghost Scale Simulation, both directions, newest first | anything about mechanism |
 | [`design/`](design/) | SUCCESSOR, QUEUE, ENGINEERING_LOOP, DWELL_CORPUS | deciding what to build |
-| [`archive/`](archive/) | superseded summaries | rarely |
-| `STATE.md` | agent orientation after compaction | first thing an agent reads, after FINDINGS |
+| [`archive/`](archive/) | superseded, nothing deleted | rarely |
+| `STATE.md` | agent orientation: hard constraints, the research program, the queue's state | first thing after a compaction, with FINDINGS and the theory folder |
 
-**Primary records of runs are not here.** They are `results/*/VERDICT.md`, alongside the data.
+**The working loop is a skill.** `.claude/skills/grind/SKILL.md` (`/grind`) holds the full
+results-processing loop, harvest-first; `tools/theory_lint.py` enforces the theory folder's
+mechanical format rules through a PostToolUse hook. Day queue (`run_forever_day.sh`) is the
+default engine; night (`run_forever_night.sh`) only on the curator's explicit call.
+
+**Primary records of runs are not here.** They are `results/*/VERDICT.md` and the per-run JSONs,
+alongside the data.

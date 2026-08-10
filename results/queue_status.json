@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-10 05:58",
+  "started": "2026-08-10 07:02",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -371,8 +371,98 @@
       "name": "argrec_fine_k4ub_recovery",
       "why": "G129-pilot-c: truth-balanced, the floor is analytic at 1/k -- the quotable design",
       "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_fine_k4ub_blind",
+      "why": "G129-pilot-c control: blind must now sit at 0.25 or the construction is still leaking",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_matched_control",
+      "why": "G130b: the decisive lexical-matching control -- does 'content' survive matching?",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "bst_gridworld",
+      "why": "G137 v1: the three inverse-planning models with internal analytic gates",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scholawrite_download",
+      "why": "G141 input: the dataset, schema dumped, fail-loudly on surprise",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scholawrite_bert",
+      "why": "G141: fine-tuned BERT against the published 0.64 weighted F1",
+      "est_minutes": 200,
+      "status": "DONE",
+      "log": "results\\scholawrite_bert.log",
+      "minutes": 98.7
+    },
+    {
+      "name": "scholawrite_roberta",
+      "why": "G141: fine-tuned RoBERTa against the published 0.64",
+      "est_minutes": 200,
+      "status": "DONE",
+      "log": "results\\scholawrite_roberta.log",
+      "minutes": 55.9
+    },
+    {
+      "name": "scholawrite_reader",
+      "why": "G141: zero-shot local reader, the analogue of their 0.13 Llama baseline",
+      "est_minutes": 90,
+      "status": "DONE",
+      "log": "results\\scholawrite_reader.log",
+      "minutes": 12.0
+    },
+    {
+      "name": "argrec_fine_k4u_recovery",
+      "why": "G129-pilot-b: uniform candidates -- the prior-leak fix (L62)",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_fine_k4u_blind",
+      "why": "G129-pilot-b control: blind must sit at chance under uniform candidates",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_fine_k4u_shuffle",
+      "why": "G129-pilot-b control: shuffled truth at chance",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_coarse_k2_blind",
+      "why": "G129-pilot: the coarse arm's missing blind control",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_coarse_k2_shuffle",
+      "why": "G129-pilot: the coarse arm's missing shuffle control",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_fine_k12u_recovery",
+      "why": "G129-pilot-b: the candidate-size curve's third point (capped at the label count)",
+      "est_minutes": 55,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_replication",
+      "why": "G136-exact: their features, their USE encoder, their XGBoost grid, their 5-fold -- PASS only at two-decimal match",
+      "est_minutes": 90,
       "status": "RUNNING",
-      "log": "results\\argrec_fine_k4ub_recovery.log"
+      "log": "results\\arg_replication.log"
     }
   ],
   "shard": "0/1"

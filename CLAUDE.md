@@ -40,6 +40,16 @@ He is a collaborator. Agreement that is not earned costs him the one thing he ca
 - **Inline links, primary sources over aggregators.** Bold key concepts. **Show empathy when
   appropriate.**
 
+## READMEs bind at the moment of use, not at the moment of loading
+
+**Before each batch of edits inside a folder that carries a README or format spec, re-read that
+spec — every batch, not just after compactions.** Context-held rules decay over long sessions,
+and the observed failure pattern (late-session format lapses, skipped report steps) tracks that
+decay exactly. Code-side rules (gates, guards) have held where prose rules drifted; until the
+prose side gets structural enforcement (skills / hooks — research pending 2026-08-10), the
+re-read habit is the binding mechanism. `docs/theory/README.md` before theory edits is the
+load-bearing case.
+
 ## The pull toward the average — one class of error, many faces
 
 **This is the error that recurs.** Novel research has no established path, so there is constant
@@ -90,7 +100,10 @@ A very short paper, in that order, no exceptions.
 
 ## THE GRIND NEVER STOPS — the main interaction loop
 
-**This is the contract, not a preference.**
+**This is the contract, not a preference.** It now exists as a loadable skill
+(`.claude/skills/grind/SKILL.md`, invoke as `/grind`) so the full step list can be pulled fresh
+instead of recalled — when he says "run the grind" or any queue/results/reporting work begins,
+load the skill first. The README re-read is step zero of that loop.
 
 ### A · When a run finishes, four things happen before anything else
 

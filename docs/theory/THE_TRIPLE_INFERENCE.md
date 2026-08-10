@@ -2,12 +2,13 @@
 
 *(formerly "the empathy triangle", renamed 2026-08-08 at the curator's instruction)*
 
-> Empathy is effectively a variational inference problem – **three separate variational inference
-> problems being solved in parallel**, each bootstrapping the others: the extraction of the **proximal
-> goal**, the extraction of the **process**, and the extraction of the **values and drives**.
-
-> I'm **specifically modelling it after human empathy** – what seems to be the process that I believe
-> human empathy is.
+> While I have previously described the triple inference idea as three separate variational
+> inference problems being solved in parallel with each bootstrapping the others, a more precise
+> description would be **three constrained target families that are operating at different
+> timescales**. That's about as loosely as I can claim currently with the evidence that I've got.
+> This process is still modeled directly after the process of appreciation of intent and intent
+> extraction, something that I believe to be **the central mechanism for human empathy** across the
+> board, frankly.
 
 **The canonical claim, in the corrected vocabulary.** The triple inference names **three target
 families at different timescales**, not three equivalent nodes, and not necessarily three separate
@@ -24,8 +25,9 @@ it has ([`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md)).
 On the words. *Variational inference*, technically, means approximating an intractable posterior by
 optimizing over a restricted family (Blei et al.); the cognitive claim as evidenced is **Bayesian
 inverse planning / joint latent-variable inference** (Baker, Saxe & Tenenbaum is the direct
-precedent), for which variational inference would be one possible implementation. His quotes stand
-as spoken; the file's own prose uses the precise terms.
+precedent), for which variational inference would be one possible implementation. The canonical
+statement above is his own restatement in the corrected vocabulary (2026-08-10); the original
+variational phrasing survives in §1 as a superseded form.
 
 **This file owns** the inference targets, their dependencies, value identifiability, and
 convergence. **It does not own** artifact cues ([`DECISION_TRACES.md`](DECISION_TRACES.md)), reader
@@ -40,6 +42,8 @@ rows live in the section that interprets them *(the single end-of-file ledger di
 
 ## §1. The three target families
 
+**Superseded** by the restatement at the head of the file, kept as the original form:
+
 > I think empathy is effectively a variational inference problem – **three separate variational
 > inference problems being solved in parallel, and each one bootstraps the others.** The more
 > information you have in one, the easier it is to solve the others. They have relative strengths,
@@ -49,10 +53,15 @@ rows live in the section that interprets them *(the single end-of-file ledger di
 > 2. the extraction of the **process**
 > 3. the extraction of the **values / drives**
 
-> This is why an expert can instantly understand what a novice was thinking as they were making
+> This is why an expert can more readily understand what a novice was thinking as they were making
 > something, in a way that another person cannot. This is why being close friends with someone, you
 > can read their book and get more of a sense of why they made certain choices. **This is why
 > information is passed more easily between people who are close.**
+
+The current claim for the expert and friend cases is deliberately modest. Expertise and
+familiarity supply **priors and entry points that may improve recovery**, nothing stronger, and
+the closeness prior itself is untested (G59, canonical in
+[`READER_HEURISTICS.md`](READER_HEURISTICS.md) §1).
 
 Translated into objects, before any claims about their shape:
 
@@ -109,26 +118,40 @@ His account of the machinery, which is about reading *other people*, corrected a
 self-generation:
 
 > Attention directs toward **policy space**. You use the **trajectory mapping – which is our
-> expertise** – layered over a **weighted policy map, which is our outcomes**. From that we get our
-> actions.
+> expertise** – layered over a **weighted policy map, which is our outcomes**. From that we get a
+> **weighted map of possible actions**.
 
 > This is specifically about doing it **to other people**. I'm referring to **the creator**. This is
 > maths you're doing **in your head, through embodied simulation, with the creator.**
 
 The stack is the model the reader builds and runs of the maker, on their own machinery. You
 simulate the maker with your own equipment, and the parts you lack are the parts you cannot recover.
-Embodied simulation is a candidate human *solver*, not part of the problem's definition. What comes
+Embodied simulation is a candidate human *solver*, not part of the problem's definition, and his
+position on that framing is on record with its evidence named:
+
+> This is one of the pieces that AI continually tries to sand down, the idea that human processes
+> are just one of many potential processes for reaching the goal. I am being led by the guiding
+> light that **trying to enact human processes in this space explicitly** is what's leading to me
+> being able to replicate the research on the cutting edge so easily and predict their outcomes so
+> frequently. But yes, technically it's possible that embodied simulation is just one candidate
+> process. **So it is clearly a load-bearing one for me.**
+
+A methodological bet rather than a finding, held with its own concession attached. What comes
 out is distorted:
 
 > If there's a policy space, then there's some kind of weighted mapping on top of that that is
 > transformed through **attentional mapping**. This weighted mapping is based on attention and it's
 > transformed through your **trajectory mapping**. And that creates **proximal goals.**
->
-> The problem is those **drives then are not values.** They are... perhaps they are the **values times
-> the process mapping.**
+
+> It's more correct to say that **expertise distorts the available possibilities, based on value
+> realization in a given environment, due to the context available.** One's values are exposed
+> through proximal goals that are themselves attention-weighted, expertise-distorted values. And it
+> helps that there is some kind of **drive commonality** through which that expertise distortion
+> exists.
 
 So the third target arrives composed with the second. An artifact exposes values already pushed
-through expertise and attention, and his warning about his own mechanism stands:
+through expertise and attention under context, with a shared drive substrate as the assumption
+that keeps the distortion decodable at all, and his warning about his own mechanism stands:
 
 > Attention mucks things up. I have said that it distorts it, and it seems like it should, but
 > **attention is kind of often a god-of-the-gaps thing. You just sprinkle it in where you think
@@ -137,22 +160,25 @@ through expertise and attention, and his warning about his own mechanism stands:
 On the formalisms, once, so they stop substituting for each other. **Inverse planning** is the broad
 model (hidden mental states from behavior). **IRL** is the narrower reward-recovery problem.
 **MaxEnt** is one rationality/noise model within IRL. **CIRL** is an interactive cooperative game
-and does not describe every maker–reader relationship. **Variational inference** is an approximation
+and does not describe every maker-reader relationship. **Variational inference** is an approximation
 method. Each informs a part of this file; none is the claim.
 
 | # | hypothesis | status |
 |---|---|---|
-| **G52** | An artifact exposes values composed with the process mapping | **OPEN.** Predicts supplying process changes what is recovered, the direction the goal–process run already found |
+| **G52** | An artifact exposes values already distorted by expertise and attention under context | **OPEN.** Predicts supplying process changes what is recovered, the direction the goal-process run already found |
 | **G53** | Attention does real work rather than papering a gap | **OPEN, flagged suspect by its own author** |
 | **S-4/S-5** | Reordering the reader's stages changes the answer | **REJECTED (sim)** by exactly zero; a cost saving only |
 
 **State of the section's claim.** The generative account remains a framework rather than a
-finding, and its two composition claims are open, with the composition claim carrying a testable
-direction the one coupling run already leaned toward. The single behavioral fact here cuts the
-right way for a *joint* account, since a staged pipeline would care about stage order and the
-simulated reader's answer does not move at all when the order changes. The distortion story's
-weakest named part is attention, flagged by its own author before anyone else could. Confidence:
-the order-insensitivity is sim-only; the composition claims are untested, logic only.
+finding, and its composition claim now stands in the restated form, expertise distorting the
+available possibilities under context rather than a multiplicative shorthand, with drive
+commonality named as the assumption that keeps the distortion decodable. Both composition rows
+are open, and the restated claim carries the same testable direction the one coupling run
+already leaned toward. The single behavioral fact here cuts the right way for a *joint* account,
+since a staged pipeline would care about stage order and the simulated reader's answer does not
+move at all when the order changes. The distortion story's weakest named part is attention,
+flagged by its own author before anyone else could. Confidence: the order-insensitivity is
+sim-only; the composition claims are untested, logic only.
 
 ## §3. Coupling, without premature topology
 
@@ -160,28 +186,26 @@ The correction that started the file. The project had been treating one edge, go
 single encounter, as the whole thing. **That is one of six directed edges**, and whichever target
 you can reach first is the one to enter by:
 
-> I'm trying to find some layer within which I can use my expertise, then use that expertise to solve
-> the easy part, and then I use that to get the motivation, and then that I can use to
-> reverse-engineer the rest of it that I don't understand. **Is it a three goddamn part process?**
+> I'm trying to find some target or sub-level within which I can use my expertise, then use that
+> expertise to solve the easy part, and then I use that to get the motivation, and then that I can
+> use to reverse-engineer the rest of it that I don't understand. **Is it a three goddamn part
+> process?**
 
-The shape hypotheses, held as hypotheses:
+> **Enter wherever your prior expertise provides maximum traction**, and then you let the evidence
+> constrain the other targets from there.
+
+On the shape of the three mappings and their relationship to each other, the file has cycled
+through several mental heuristics. Rivers and tributaries, Venn diagrams, a subtraction, increasing
+residuals being contained. Each is preserved in the git history and none is adopted. The actual
+relationship is being circled and is deliberately not yet committed to writing, and the one shape
+quote that stays is the upstream conjecture, restated without a presupposed mathematical form:
 
 > **I would assume that drives are upstream of even process.** And again, it would require several
-> samples both within and across a given individual. And that would create this kind of Lagrangian
-> Taylor-series-looking thing where you're moving towards a limit.
+> samples both within and across a given individual, a situation where repeated within-person and
+> cross-context observations produce increasing convergence towards the creator's policy map. I'm
+> not going to presuppose any particular mathematical shape yet.
 
-> If empathy is not a triangle but **a river, what are its tributaries?** If it's additive, that
-> implies there's something else being added to it. And there's only so many things it could be.
-> **Certainly expertise is part of it. Is it goals minus expertise equals drives?**
-
-> If you already have someone's values – say you're reading a book from someone you love – **you have
-> a much easier time extracting that piece.** So maybe it's more like a **Venn diagram.** Goals are a
-> local weighting. **It's not a line because they are recursively interacting with each other
-> somehow.** And it's additive.
-
-(The subtraction equation is dimensionally odd, since a weighting and a transition model do not
-subtract, but the intuition survives as §5's residue account.) And entry is finer-grained than
-three:
+And entry is finer-grained than three:
 
 > Not only would it be fractal, but there'd be **dozens of each layer**. There are various techniques
 > layered on top of each other and various mechanics layered on top of each other. **Those are
@@ -196,7 +220,7 @@ theory supports.
 
 **What is actually measured, stated without the chain.** The first coupling simulation used a
 substitute construction with **no working values vertex**, so it can say nothing about any edge
-involving values. It measured the goal–process pair. There, goal recovery sat at ceiling (so "goal
+involving values. It measured the goal-process pair. There, goal recovery sat at ceiling (so "goal
 is a sink" is partly a ceiling artifact, not yet a general cognitive fact), supplying process moved
 depth substantially, three of six edges were exactly zero, and the coupling was additive rather
 than mutually amplifying. The honest position. **Goal and process show asymmetric information flow
@@ -206,23 +230,23 @@ working values construction.
 
 | # | hypothesis | status |
 |---|---|---|
-| **T-1** | The goal–process pair in the substitute construction (no values vertex): superadditive bootstrapping; goal easiest; process most useful when supplied | **One run, three findings (sim).** Superadditivity REJECTED, edges additive, three of six exactly zero; goal-easiest SUPPORTED at ceiling (a ceiling result, not yet a general fact); process-most-useful SUPPORTED (+0.84 to depth). Both directional findings were predicted before the run |
+| **T-1** | The goal-process pair in the substitute construction (no values vertex): superadditive bootstrapping; goal easiest; process most useful when supplied | **One run, three findings (sim).** Superadditivity REJECTED, edges additive, three of six exactly zero; goal-easiest SUPPORTED at ceiling (a ceiling result, not yet a general fact); process-most-useful SUPPORTED (+0.84 to depth). Both directional findings were predicted before the run |
 | **sim b3** | Goal legibility governs process-side readability | **SUPPORTED (sim), CONTESTED in scope.** One knob, and the simulation flags the limit itself |
 | **T-6** | The substitute construction's values vertex carries information | **VOID (sim).** It could not represent a cross-artifact quantity |
 | **G56** | Supplying mechanics-level information unlocks goal recovery | **OPEN, the missing arm.** Every edge tested supplies a goal or a process, never a mechanic |
 | **G57** | Prior information at any target improves the others | **OPEN.** One of six edges ever tested |
 | **G58** | Entry is possible at any sub-level, with expertise setting which | **OPEN** |
-| **G47** | Drives are upstream of process | **OPEN, now testable.** The values construction exists in the simulation; the coupling run is queued there. The one edge that would distinguish a river from a triangle |
+| **G47** | Drives are upstream of process | **OPEN, now testable.** The values construction exists in the simulation; the coupling run is queued there. The first edge that would begin to discriminate among the candidate shapes the prose declines to name |
 
 **State of the section's claim.** Coupling is real and directional in the one pair ever tested,
-and everything past that pair is shape-guessing the file explicitly declines to commit to. The
-tested edge behaves like a genuine joint inference with an important asterisk, since goal sat at
-ceiling and a ceiling can manufacture both "goal easiest" and "goal is a sink". Five of six edges
-have never been supplied, the mechanics arm has never existed, and the substitute construction's
-values vertex was void, so no statement about a chain, river, or Venn diagram has evidential
-standing yet. The single edge that would begin to discriminate those shapes is finally runnable
-where a working values construction exists. Confidence: the goal–process findings are one bad
-test away and sim-only; every shape hypothesis is untested, logic only.
+and everything past that pair is shape territory the file explicitly declines to write down.
+The tested edge behaves like a genuine joint inference with an important asterisk, since goal sat
+at ceiling and a ceiling can manufacture both "goal easiest" and "goal is a sink". Five of six
+edges have never been supplied, the mechanics arm has never existed, and the substitute
+construction's values vertex was void, so no shape statement has evidential standing yet. The
+single edge that would begin to discriminate candidate shapes is finally runnable where a working
+values construction exists. Confidence: the goal-process findings are one bad test away and
+sim-only; the upstream conjecture is untested, logic only.
 
 # Part II: The difficult third inference
 
@@ -232,10 +256,10 @@ The project's proposed ontology. Proposed, not standard reinforcement-learning v
 
 > Take value space and treat it as a **weighting on trajectories**. A goal would be a weighting of a
 > specific policy plan – raising one action within that plan above the rest **temporarily, due to
-> attention**.
+> attention, under the constraint of context**.
 
-> You need all of the actions of the person to extract their value map. We need as much information as
-> possible to get as close to an accurate value mapping as we can.
+> The actual value data you get is **sparse and error-prone**. So you end up needing as much
+> information as possible to get as close to an accurate value mapping as we can.
 
 (*"Weighting over trajectories"* over *"weighting over policies"* was his deliberate concession when
 given the reason.) Under §1's table this reads as follows. Values are the standing organization; a
@@ -265,34 +289,39 @@ preserves value information:
 
 > Drives would mostly be present through **long-term stochastic views of your behaviour**, as adjusted
 > by local goals in proximal situations. And that by definition is **baked into your habits through
-> automaticity, because they were habits. It's a record.** That's why drives are values – **it's
-> literally a record of your past behaviour.**
+> automaticity, because they were habits. It's a record.**
 
-> What we'd have to do is **extract the useless parts of the expertise.** Because the useful parts were
-> the parts that are **maxed** – and we don't want that. **Values are everything else. Everything you
-> accidentally baked in through expertise, extracted over time.**
+> **Habit could preserve traces of persistent motivational organization.** But it's going to be
+> messier than we expect. It's also going to preserve training, convenience, accident, and repeated
+> attention-directed behavior as well. We'll have to extract that, and it makes it very error-prone.
+> But we do have, baked into expertise, a record of past behavior through habits. **It's weak, but
+> it's extractable.**
+
+> **A candidate value signal is the cross-episode component of expertise-shaped behavior that is
+> left after modeling the domain competence and each episode's proximal, attention-weighted goal.**
+> It's a mouthful, but we have a picture, so it's fine.
 
 > **It's noise. It looks like noise, but it's the noise of habit** – the habit that you have a record
-> of because it's baked in alongside your expertise. **There it is. Those are your values.**
+> of because it's baked in alongside your expertise. **There it is. Those are your values**, after we
+> can get rid of the rest of the noise in this signal. But humans do it, so it's definitely possible.
 
 The residue account inverts the search. Every direct measure read the optimized part, where
 selection has flattened the individual out, and *"the tail motivations are where you get the value
 data specifically"*. The tail is where un-optimized residue lives, which makes re-reading (G64,
 this section's table) the same bet from the other end. Repetition is the proposed carrier. *"The
 way it's baked in implies that you've taken those actions many times, and therefore that itself is
-information."* Its objections. The residual contains values **and** arbitrariness, and only a
-domain-change test separates them; and the epistemic-foraging disposal this file once claimed is
-**withdrawn**. His argument stands as spoken:
+information."* Its objection. The residual contains values **and** arbitrariness, and only a
+domain-change test separates them. On epistemic foraging the position has moved from categorical
+absence to weak baking:
 
-> **Epistemic foraging is always different. And it always looks different.** So it wouldn't get baked
-> in through associative learning. **It doesn't exist in behaviour.** Epistemic foraging is its own
-> separate goal.
+> Some of the properties baked into habit alongside the expertise transition mapping will have
+> useful properties. **Epistemic foraging is particularly high-variance behavior**, dependent upon
+> context and previous information. **It resists repetition, and thus is baked in more weakly.**
 
-> **You remove it at the top. It doesn't exist at the bottom.**
-
-But foraging **strategies** recur even where targets change. Search order, source selection,
-stopping rules, and uncertainty tolerance can all bake in and survive in the residue. The confound
-remains, and the account must carry it. **4. Absence under commission.** A missing drive becomes
+The restatement absorbs the earlier objection from within. Strategies that recur, search order,
+source selection, stopping rules, can still bake in, while targets vary with context and mostly do
+not, so the foraging component of the residue is expected weak rather than absent, and the
+domain-change separator carries the load either way. **4. Absence under commission.** A missing drive becomes
 legible through *how* an imposed goal is pursued (the made-under-duress mechanism; the routing
 consequence lives in [`ALIGNMENT.md`](ALIGNMENT.md) §0).
 
@@ -314,17 +343,22 @@ been recovered.**
 **State of the section's claim.** Four accounts stand, none dead, one favoured, and the favourite
 was a surprise, since the section's original headline account (residue) now runs last by the
 program's own sequencing while conjunctive satisfaction, the account he flagged as the first
-non-dithering idea, is the one the constructed world discriminates toward. The absence mechanism
-is the section's cleanest result anywhere, reading a *missing* drive through pursuit style at
-sim-perfect strength under commission. Every one of these remains a claim about constructed
-worlds; no real maker's values have been read by any account. Confidence: the sim discriminations
-are sim-only, authoritative about method; all four accounts are untested on real text.
+non-dithering idea, is the one the constructed world discriminates toward. The residue account
+itself now stands in its restated, weaker form, a candidate value signal defined as the
+cross-episode remainder after modeling domain competence and each episode's attention-weighted
+goal, expected messy because habit also records training, convenience, accident, and repeated
+attention. The absence mechanism is the section's cleanest result anywhere, reading a *missing*
+drive through pursuit style at sim-perfect strength under commission. Every one of these remains
+a claim about constructed worlds; no real maker's values have been read by any account.
+Confidence: the sim discriminations are sim-only, authoritative about method; all four accounts
+are untested on real text.
 
 ## §6. Value blindness, and where longitudinal ground truth could come from
 
 Self-report is closed as ground truth, and the reason is not modesty:
 
-> You always have an imperfect view of anyone else's value set, and **you are blind to your own.**
+> You always have an imperfect view of anyone else's value set, and your own introspective and
+> interoceptive access is **systematically limited and biased.**
 > It's why artists will make art and look at it – in part to get a sense of their own values. They
 > learn about themselves through that expression.
 >
@@ -332,8 +366,8 @@ Self-report is closed as ground truth, and the reason is not modesty:
 > will be **my view of my own value set.**
 
 If values were introspectively available, art would not be one of the ways people discover them.
-Under the residue account the blindness is a *prediction*, since automaticity put the values where
-introspection does not reach. This kills the author-a-value-set-and-generate design class. One
+Under the residue account the limited access is a *prediction*, since automaticity put the values
+where introspection reaches poorly. This kills the author-a-value-set-and-generate design class. One
 artifact is insufficient for the same identifiability reason a reward function needs many episodes;
 **diversity of conditions** is what separates value from arbitrary residue; and *everything is an
 artifact* extends the observation set:
@@ -342,9 +376,16 @@ artifact* extends the observation set:
 > the world counts. [...] You will use **epistemic foraging** to find more things out about the artist
 > if you want to.
 
+Any behavior or persistent world trace becomes an observation, rated the way any observation is,
+through provenance, context, and reliability assessment. And self-report joins the same pile
+rather than sitting above it:
+
+> **Biology is no more ground truth of internal state than the word of a museum curator.** It's just
+> binary sensory inputs weighted differently.
+
 *"You're responding to their sound waves and it's the same maths."* The corpus that would supply
-ground truth is makers deliberately aligned to a declared value set, read through **deep
-followers**:
+ground truth is makers deliberately aligned to a **declared value tradition**, read through **deep
+followers**, with religious traditions one instance of the design rather than the design itself:
 
 > Religion is probably the strongest force for value alignment I can think of in the world. It does
 > curiously suggest you'd be able to **extract someone's religion from their words.** [...] That's
@@ -353,6 +394,10 @@ followers**:
 > The key part has **little to do with the work itself**, and more to do with **deep followers** of
 > that work. And then aligning that with the specific values that have **spread out from** that work.
 > We'll have to analyse the work **and** the followers.
+
+> We'll be able to identify a testing bed as **graded adherence to a declared value tradition**, and
+> then try to lexically extract that for ourselves using the same human empathic process. Trying to
+> figure out if we can **predict patterns of uptake or adherence specifically through behavior.**
 
 The design's prize is a **gradient of adherence, a ladder made of humans**, with topic held
 constant by construction (the same practical question answered from within different traditions),
@@ -367,10 +412,12 @@ the blocking rows stay below.
 | **G60** | Recovery error shrinks with works, toward a small residual | **EARLY PLATEAU (test, L34), one channel (relabelled 2026-08-09).** 0.54 → 0.61 → 0.60 against 0.20 chance over one-to-three reference works. Rises from one to two works and not at three, on five authors and the cheapest channel. Three points cannot locate an asymptote, so the limit-framing reading this row used to carry was unlicensed |
 | **G48** | A maker's weighting is more stable within than between makers | **OPEN.** The 34-book corpus supports the design, and per the program another stable author vector would be circular without behavioral tradeoffs; G135's held-out tradeoff prediction is the honest form |
 | **G65** | Value recovery improves sharply with works per maker while goal recovery does not | **OPEN.** The follower-corpus design tests this and G48 at once |
-| **G66** | Adherence to a declared value set is recoverable as a graded quantity | **OPEN.** A ladder made of humans; blocked on sourcing |
+| **G66** | Adherence to a declared value tradition is recoverable as a graded quantity | **OPEN.** A ladder made of humans; the honest output is predicted patterns of uptake or adherence from behavior; blocked on sourcing |
 
 **State of the section's claim.** The longitudinal requirement is the best-motivated unmet need in
-the file. The blindness argument closes self-report, the simulation prices the corpus at roughly
+the file. The limited-access argument closes self-report as ground truth while demoting nothing
+else, since every trace, biology and testimony included, enters as an observation rated for
+provenance and reliability, the simulation prices the corpus at roughly
 twenty works per maker with convergence to a small residual, and the one real-text curve rises
 then plateaus early in a single cheap identity channel that cannot speak to an asymptote. What is
 missing is not motivation but material, since every open row waits on either the follower corpus
@@ -396,15 +443,20 @@ His correction of my own overclaim ("humans do this, therefore it can be done"):
 > mapping of the person's brain – but we approach it **through inference with error**, and we are
 > never sure we have the answer.
 
-> **"Irrational agents" is incorrect about humans.** In a lot of ways we are *boundedly
-> hyper-rational.* **It looks like irrationality to have fractal motivations.**
+> I need to concede that I'm not claiming at this point that convergence is possible, but rather
+> that **substantive human priors can produce a more useful narrowing.**
+
+> Behavior that looks irrational under simple reward models can instead be **evidence of cognitively
+> bounded agents with multiple, changing, and nested motivations**, expressed through a variable
+> possibility space of context-sensitive expertise.
 
 The theorems are real. A policy cannot uniquely identify both a reward function and an unknown
 planning algorithm, even with unlimited data; additional normative assumptions are required
 (Armstrong & Mindermann). The project's response, stated carefully. **Human readers use substantive
 priors about human bodies, competence, contexts, and communicative behaviour that may improve
-useful recovery without producing unique identification. That is a convergence claim, not a
-refutation of the theorem.** The priors line up with what the proofs demand:
+useful recovery without producing unique identification. That is a narrowing claim, not a
+refutation of the theorem, and the stronger convergence form is conceded above.** The priors line
+up with what the proofs demand:
 
 | what the proof needs | what he already assumes | his name for it |
 |---|---|---|
@@ -421,9 +473,11 @@ candidate constraint is communicative intent:
 > **CIRL literature makes it easier for you to learn if you assume you have a teacher**, assuming that
 > teacher exists and helps. **You can assume intention to help from the evidence.**
 
-That prior is canonical in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) (stated in its §1, tested
-in its §8), with its concealment caveat; here it is one identifiability assumption among four,
-adoptable only conditionally.
+The same cooperative-intent framing has an adversarial use. Propaganda, seduction, and obligation
+are the counter cases, structure placed so that the reader takes an incorrect model away from the
+artifact, which is why the prior is adoptable only conditionally. It is canonical in
+[`READER_HEURISTICS.md`](READER_HEURISTICS.md) (stated in its §1, tested in its §8) with the
+concealment caveat carried there; here it is one identifiability assumption among four.
 
 | # | hypothesis | status |
 |---|---|---|
@@ -451,12 +505,12 @@ is not caring.** Nothing in this file bears on motivation to protect, which is
 [`ALIGNMENT.md`](ALIGNMENT.md)'s problem. **A model can reconstruct without experiencing**, the
 architecture file's bridge. **And value recovery is posterior narrowing, not mind duplication**:
 
-> My personal end goal is to find a way to **fully give AI human empathy, but not human emotions**
+> My personal end goal is to find a way to **give AI human empathy, but not human emotions**
 > [...] it requires some kind of subordinate solution space that converges on these **predictions of
 > these interoceptive signals.**
 
 Against Dennett's stance that prediction never licenses identification: *"It's a question of limit.
-We're doing a Taylor series approximation – increasing precision based on Bayesian updating.
+We're doing a Taylor series approximation, increasing precision based on Bayesian updating.
 Eventually, hypothetically, the only way to do it fully would be to hold someone else entirely in
 your mind."* A statable position in the intentionalism debate that answers Wimsatt & Beardsley
 rather than conceding to them, and it has never been written up as such.

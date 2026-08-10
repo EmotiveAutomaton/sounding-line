@@ -2206,6 +2206,141 @@ duplicates from comma-splitting as the prime suspect, since first-purpose-only e
 at 3,323 against their 3,238. The v3 extraction reruns today with per-cycle counts against
 their published split.
 
+## L65 · Pilot-c: the floor comes clean and the margin survives it — the pilot's quotable number
+
+**Hypothesis.** *(G129-pilot-c, the third construction.)* With truth labels balanced by
+subsampling, the blind floor is analytic at one over the candidate count; if blind lands there,
+the construction has stopped leaking and the recovery margin is quotable.
+
+**Method.** `run_arg_recovery.py --uniform --balance`: 77 events per fine label, 616 total, four
+candidates, recovery and blind arms.
+
+| arm | accuracy | floor |
+|---|---|---|
+| blind (candidates only) | 0.232 | 0.25 analytic |
+| recovery (delta shown) | **0.477** | 0.25 verified |
+
+**Verdict: the construction is clean and the margin is real.** Blind sits at chance (0.232
+against 0.25, within one standard error at this n), so the two earlier leaks are gone, and
+recovery holds **0.477 against a verified 0.25 floor, a 22.7-point margin on 616 balanced
+events**, consistent with the 0.19 to 0.20 margins the crooked-floor constructions implied.
+The pilot concludes: **recorded fine-grained revision purposes are recoverable from deltas by a
+zero-shot bounded reader at roughly twenty points over chance**, with three construction lessons
+banked in the instruments ledger. What the margin is made of is the next question, and L66 makes
+it urgent.
+
+## L66 · The matched control landed COLLAPSES — "content" does not survive its covariates
+
+**Hypothesis.** *(G130b v2; L42's relabel hangs on it.)* If content revisions stop being
+identifiable once matched to surface revisions on size, rarity, position, and difficulty, the
+content-associated lexical effect was those covariates, not recoverable content-ness.
+
+**Method.** `run_arg_matched.py` v2, coarsened exact matching on terciled covariates: 342 pairs
+across the common-support strata, balance verified (worst standardized difference 0.20, the rest
+at or under 0.09, gate 0.25), then the same diff-features classifier that scores 0.857 unmatched.
+
+**Verdict: COLLAPSES.** Matched-set macro-F1 **0.507 against 0.5 chance**, from 0.857 unmatched.
+Within the covariate-overlap region, nothing in the diff text identifies content beyond what
+revision size, rarity shift, and position already say. **Means: PD-28 resolves in its own stated
+direction — the surviving revision effect is sophistication and magnitude, not recoverable
+depth** (L42's demotion was right, and is now the verdict rather than a caution). Two scope notes
+carried honestly: coarsened matching kept only the common-support fifth of the corpus (684 of
+3,046 events), so the claim is about comparable revisions, exactly where the claim matters; and
+the pilot's fine-grained margin (L65) is untested under matching, so whether *purpose* recovery
+also rides these covariates is now the sharpest open question (G130c, filed).
+
+## L67 · The replication's v1 full verdict: the majority baselines match exactly, the model arms do not
+
+**Hypothesis.** *(G136-exact, v1 extraction.)* The overnight grid completed before the engine
+swap; this is its full verdict on the split extraction (n = 3,365).
+
+| cell | ours | published |
+|---|---|---|
+| binary majority | 0.369 / 0.584 | 0.37 / 0.58 |
+| fine majority | 0.053 / 0.313 | 0.05 / 0.29 |
+| binary features / USE / both | 0.878 / 0.874 / 0.874 | 0.90 / 0.92 / 0.93 |
+| fine features / USE / both | 0.278 / 0.267 / 0.276 | 0.44 / 0.49 / 0.51 |
+
+*Each cell is macro-F1 / accuracy.*
+
+**Verdict: NOT-MATCHED, with the informative half being what does match.** The majority
+baselines land on the published numbers to two decimals, which validates the extraction's class
+composition, so the defect is in the model arms, not the dataset. Binary sits 0.02 to 0.06 low
+(candidate causes: the USE variant, the unspecified embedding combination, grid selection); fine
+sits 0.16+ low, with label-conflicting duplicate pairs still the prime suspect, and v3
+(one purpose per pair) is re-queued behind the running fine-tune. The pass standard stands;
+nothing here is claimed passed.
+
+## L68 · The first ScholaWrite arm overshoots its gate, and the split audit explains why
+
+**Hypothesis.** *(G141, the recreation's first fine-tune.)* BERT fine-tuned on the shipped
+train split should land on the published weighted F1 of 0.64.
+
+**Found.** Weighted F1 **0.741 on the shipped test split** (49,212 train / 12,292 test, three
+epochs), overshooting the gate by ten points. NOT-MATCHED, and overshooting diagnoses
+differently from falling short. The immediate structural audit of the local dataset: **all five
+projects appear in both train and test in proportional counts** (a within-project split), and
+**1,060 of 1,241 unique test before-text prefixes also occur in train**, 85 percent overlap.
+Keystroke-adjacent writing states are near-duplicates, so the shipped split leaks text across
+the boundary and inflates any model evaluated on it.
+
+**Means.** Our pipeline is not vindicated by the higher number; the published 0.64 was earned
+on some stricter protocol the paper's evaluation section must pin down (candidates: the
+test_small split of 3,238, a project-held-out design, or different training length), and the
+recreation is not passed until that protocol is identified and matched. The RoBERTa arm is
+running under the identical shipped-split protocol and now serves as a replication of the
+anomaly rather than an independent gate attempt. Next: fetch the paper's exact evaluation
+paragraph, add an evaluation arm on test_small, and a leave-one-project-out arm, which the
+five-project structure makes cheap to define.
+
+## L69 · RoBERTa replicates the overshoot, which pins the inflation on the split rather than the pipeline
+
+**Hypothesis.** *(G141, the recreation's second fine-tune.)* If the BERT overshoot (L68) comes
+from the leaky shipped split rather than from a fault in our fine-tuning pipeline, a second
+architecture trained under the identical protocol should overshoot by a similar amount.
+
+**Method.** RoBERTa fine-tuned three epochs on the shipped train split (49,212 events),
+evaluated on the shipped test split (12,292 events), weighted F1 against the published 0.64.
+
+| arm | weighted F1 | published gate | verdict |
+|---|---|---|---|
+| BERT (L68) | 0.741 | 0.64 | NOT-MATCHED, overshoot |
+| RoBERTa (this entry) | 0.730 | 0.64 | NOT-MATCHED, overshoot |
+
+*Caption: the two fine-tuned encoder arms of the ScholaWrite recreation, identical protocol, on
+the shipped train/test split. The gate is the paper's published weighted F1 for both models.*
+
+**Found.** Weighted F1 **0.730**, nine points over the gate and within 1.1 points of BERT. Two
+architectures, one protocol, one overshoot.
+
+**Means.** The inflation is a property of the split, not of either model or of our pipeline,
+which is what the L68 audit predicted (a within-project split with 85 percent unique
+before-text overlap across the boundary). The recreation stays NOT-PASSED until the paper's
+actual evaluation protocol is pinned and matched; the owed arms are the fetch of their exact
+evaluation paragraph, an evaluation on the test_small split, and a leave-one-project-out
+design.
+
+## L70 · The zero-shot reader arm lands in the published collapse regime, and cannot match the value by construction
+
+**Hypothesis.** *(G141, the baseline arm.)* The paper's zero-shot baseline (Llama-8B, weighted
+F1 0.13) collapses far below the fine-tuned encoders; a local model run zero-shot on the same
+task should land in that collapse regime.
+
+**Method.** The local nine-billion-parameter reader, zero-shot with the paper's fifteen
+intention labels, on 1,500 events sampled from the shipped test split, weighted F1 against
+their Llama-8B's 0.13.
+
+**Found.** Weighted F1 **0.172**. NOT-MATCHED under the exact-value standard, and this arm
+cannot pass that standard as run, because it uses a different model than the paper's.
+
+**Means.** The paper's headline contrast reproduces qualitatively: fine-tuned encoders sit near
+0.73 here while a zero-shot reader sits near 0.17, so the intention taxonomy is learnable from
+the data and not available by prompting. Two honesty notes. The 0.042 excess over their 0.13
+is owned by the model difference, and closing it exactly would mean downloading, running, and
+removing their exact Llama-8B, held as an option and low priority since this arm is a baseline
+rather than the claim. And unlike the fine-tuned arms, no train/test leak can inflate a
+zero-shot reader, so this number does not ride the split caveat.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

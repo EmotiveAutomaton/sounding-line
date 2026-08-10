@@ -186,6 +186,16 @@ not overlap:
 | **reader heuristics** | *how a bounded reader finds and combines those traces*. Priors, entry cues, traversal, calibration, and an instrument panel recording what each heuristic is measured to be worth |
 | **alignment** | *what objective should govern a system that can read them*. The terminal value as the balanced sum of seeking and acting. Formally dormant, a boundary specification with a written wake condition |
 
+<p align="center">
+  <img src="docs/assets/visual-map.png" alt="Layered visual map of behavior selection: a latent preference field, an attention beam lifting the current proximal goal, an elastic expertise lattice, a habit layer, and the composed policy-propensity landscape whose peaks meet a selection plane where one behavior point is chosen among lower-likelihood alternatives" width="100%">
+</p>
+
+<div align="center">
+  <sub>The curator's visual map of the forward model: values, attention, expertise, and habit
+  composing into the surface a behavior is selected from. The reader's problem, and this
+  project's, is inverting it from the selected point back down.</sub>
+</div>
+
 ---
 ## Repository
 
@@ -195,6 +205,7 @@ not overlap:
 | [`docs/theory/`](docs/theory/) | **the hypothesis store**, every claim, its status, and what would test it |
 | [`FINDINGS.md`](FINDINGS.md) | **the method archive**, how each test was actually run |
 | [`TODO.md`](TODO.md) | what has not been run, under the same identifiers as the theory |
+| [`docs/TOOLS.md`](docs/TOOLS.md) | installed libraries and the built-here instrument ledger, each with its validation state |
 | [`docs/method/`](docs/method/) | what a control licenses, the ledger, deviations, literature reviews |
 | [`docs/sim/`](docs/sim/) | traffic with the parent simulation, both directions |
 | [`docs/gates/README.md`](docs/gates/README.md) | instrument gates vs claim gates |

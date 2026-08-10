@@ -53,7 +53,7 @@ treating the maker as intending to be understood.
 
 The communicative assumption is the strongest and the most dangerous of these. It is standard in
 cooperative inverse reinforcement learning, where teaching behaviour is part of a shared objective.
-But that models a cooperative game, not every maker–reader relationship, and his own caveat marks
+But that models a cooperative game, not every maker-reader relationship, and his own caveat marks
 the limit. *"Humans actively, constantly pretend they're teachers under certain framings. Does that
 always hold?"* It plainly does not; concealment, propaganda, seduction, and audience mis-modelling
 are the countercases, and a wrong communicative assumption licenses confident inference from
@@ -61,12 +61,25 @@ structure placed to mislead, the same error the expertise literature calls failu
 running the other way:
 
 > That's kind of the whole premise for **failure to transfer** – this lack of transfer as a result of
-> expertise. **Same idea, different direction.**
+> domain-specific expertise. **Same idea, different direction.** Expertise can improve some
+> inferences while creating incorrect assumptions about another set of stimuli or domain. And we
+> expect this to fire in particular with AI.
 
 And it lands on generated text specifically:
 
-> **AI is being treated like a teacher also. It's getting the benefit – and maybe that's part of the
-> problem, at least.**
+> **AI is being treated like a teacher also**, or at least like a human that's trying to express
+> themselves in a way that is to be understood. It's getting the benefit of understanding that it
+> is not granted. So people **converge faster, perhaps, onto a false mental model.**
+
+One conjecture rides on that convergence claim, reaching outside this project's own evidence and
+held as exactly that:
+
+> This may be the reason for some of the unusual results out of education, where AI-assisted
+> learning helps one gain knowledge quickly but then it fades away. I would assume due to the lack
+> of structure that would be boiled down through the slow-wave thalamic pulses they recently pulled
+> out, the **vectorization of your memory through dreams**. That process would be more difficult
+> without structures both **handed to you human-shaped** and existing in the first place as a
+> **human-constrained solution set**.
 
 The provenance prior is no longer speculative. A reader model's affective read of identical text
 shifts when told the text is machine-made, small, fixed in direction, replicated on three corpora
@@ -99,7 +112,9 @@ here).
 level:
 
 > When I've been talking about the veneer in my head, I've been thinking about the imagery and
-> iconography.
+> iconography. But the veneer needs to go away as a term. We're talking about **polish**, and it's
+> not just imagery and iconography, or aesthetics, or teaching. It's **everything directed at the
+> reader.**
 
 *The performance is what costs something, so the performance is what slips, and the slip is where
 the maker shows*, with his own scope limit attached. Useless on published books, because editing
@@ -120,6 +135,15 @@ axis, before the null even needed explaining:
 
 > The problem is that revisions from a human author are always going to carry **the same level of
 > intent density across the board.**
+
+> Actually, I'm going to caveat that. All human behavior having the same level of intent density,
+> by definition that's not the case. But you would expect **a more human-readable resolution in
+> intents, as they shift at more human timescales**, whereas the more rapidly shifting goals from
+> the AI would blur together into **a kind of gray entropy space.** I'm not sure about that. It's a
+> guess I can argue either way. Just an area of interest, perhaps.
+
+The caveat is a hypothesis and marked as one, not a claim this file asserts; the retirement of the
+wobble test stands either way.
 
 What would have been interesting instead, in his words: *AI* revision, the moment the model's
 attentional mapping shifts away from your goal and you reach out to correct it:
@@ -154,10 +178,12 @@ bad test away; the surface defeats are replicated and controlled; the rest is un
 >
 > **You can use any piece of knowledge about any of those three channels to begin the decoding.**
 
-Working vocabulary. **Mechanics** (physical realization), **technique** (organized method), and
-**purpose** (local and higher-order intent; "metaphor" names a subtype of this level, and is
-narrower than the level needs, since the top has to carry goal). Dennett's three stances are the
-closest citation (physical/design/intentional), and Panofsky was the wrong one. He rejected it
+Working vocabulary. **Purpose** (local and higher-order intent; "metaphor" names a subtype of this
+level, and is narrower than the level needs, since the top has to carry goal), **technique**
+(organized method), and **mechanics** (physical realization). While the three he initially stated
+are supported in literature, they are **more categorical than they are separable in any real
+way**. Dennett's three stances are the closest citation (physical/design/intentional), and
+Panofsky was the wrong one. He rejected it
 correctly, since Panofsky's levels are about what an image *depicts*. Structural resemblances to
 Marr's or Newell's levels supply vocabulary, not evidence. Those frameworks partition different
 objects for different purposes, and counting them as independent convergence overstated the case.
@@ -173,7 +199,7 @@ one-way. Their framework's replication record is weak (34 experiments: 26% suppo
 makes the collision worth taking. The experiment that would decide our side, supplying
 mechanics-level information and measuring goal recovery, is canonical in the triple inference
 (G56); this section describes the human strategy it operationalizes. Rasmussen's abstraction
-hierarchy (means–ends diagnosis from any level, decades of use) is worth reading as a candidate
+hierarchy (means-ends diagnosis from any level, decades of use) is worth reading as a candidate
 formal home, not adopting sight unseen. It has published methodological criticisms (Lind) aimed at
 exactly the ambiguities that matter here.
 
@@ -190,6 +216,10 @@ untested, logic only, resting on a contested literature.
 ## §4. Updating and active search
 
 > It starts questionable... 8 or 9 by the end.
+
+The quote is pulled from a specific reading of one artifact, the updating and active-search
+process run live while answering author and provenance questions during early corpus
+construction, and *"the read-alongs ended up being more useful than the actual corpuses."*
 
 **Confidence moves while reading, and the trajectory carries what the endpoint does not.** Every
 reading this project records is a final number, so the series has never existed to be checked. The
@@ -220,8 +250,14 @@ Confidence: untested, logic only.
 > more meaning you don't fully understand – either a **process** you aren't aware of, or an **extra
 > motivation** you aren't aware of.
 >
-> **Artfulness is making a lot of unexplained decisions. Aesthetics is the appearance of having made
-> unexplained decisions but for a reason, in an ordered sense.**
+> **Artsiness is making a lot of unexplained decisions**, getting into a flow state in which you use
+> the decisions given by a subordinate goal, doing things you aren't quite sure why you're doing.
+> Often related to proximal goals, but sometimes just for the sake of doing it. That's different
+> from **artfulness, which is simply decision density.** Aesthetics is the appearance of having made
+> unexplained decisions but for a reason, in an ordered sense. And unexplained decisions show up
+> when **structured choices are unexplained**; those tend to create interest. If you identify the
+> structure but can't identify the function of it, then it remains **part of a puzzle to be
+> solved.**
 
 **Interest is the continuation signal.** Unresolved but apparently structured decisions keep the
 reader searching, which makes reader-reported interest an instrument:
@@ -363,26 +399,47 @@ the difference is the part nobody has formalised:
 > of their listener. Of course they do.** Which makes all interactions this kind of **collaborative
 > back-and-forth.**
 
+> The bard was a note that those two motivations are in there, but I'm not willing to treat that as
+> complete yet. It's not obvious if there are others. I don't think there are. I think it might
+> even be straight up an addition, but let's not presuppose that we're not missing something. **We
+> can't even suggest that it's a subtraction yet. The shape of the relationship isn't clear, but
+> those are candidate variables of interest at least.**
+
+> Modeling the creator is still a hypothesis, but it is our **main central hypothesis. Everything
+> else crumbles if people aren't having to model the generating model that created the artifact in
+> some way in order to learn from it.** It seems patently self-obvious to me that this is
+> occurring, but I get such strong pushback from any AI that interacts with this system that I
+> can't help but feel the weight of the average opinion against me. Regardless, this is a
+> **load-bearing assumption from which everything else downstream arises.** But we still want to
+> find proof for it. It is still a hypothesis that we want to directly find evidence for.
+
 So the maker runs the triple inference in reverse while making. They model the reader, then shape
 the artifact so the reader's inference lands where they want it, which makes an artifact a trace of
 the maker's process *plus their model of you*. The reader's corresponding prior: **conspicuous
-structure may have been placed to guide my inference**, aesthetics as deliberately-left scaffolding
-for the descent through the levels:
+structure may have been placed to guide my inference.** The scaffolding-for-descent idea was once
+bound to aesthetics, and he has since unbound it:
 
-> Part of aesthetics might be **leaving the kinds of hooks in your program that make it easier to
-> deconstruct it.** Metacommentary or high-level metaphor that can be used to **move down through** the
-> levels.
+> That was me reconstructing **comprehension support** and binding it to aesthetics incorrectly. It
+> is a **different goal that can very much be treated as orthogonal from aesthetics**, though the
+> two of course correlate, through expertise, in terms of their detectable structure.
 
 (The measurement side of the attraction/translation split lives in `DECISION_TRACES.md` §2.) He
 flags the restatement risk himself. *"Yes, this is just a restatement of CIRL with different terms."*
 It is, up to the aesthetic layer, which is the addition; and CIRL's cooperative-game framing does
-not describe every maker–reader relationship, so this prior carries §1's concealment caveat in
+not describe every maker-reader relationship, so this prior carries §1's concealment caveat in
 full. The asymmetry he names is the sharpest thing here:
 
 > **AI isn't interacting with this. It's only trying to take, it's not giving.**
 
+> It's more an issue of **recoverability.** The question is whether the reader can recover a
+> coherent model of the creator's understanding of the artifact from the artifact. Without the
+> **comprehension support efforts** on the part of the creator, it becomes much more difficult. It
+> moves you from a person reading a fellow human's experiences into **an archaeologist trying to
+> understand a tool created by a culture of one-armed blind people.** With a different midbrain, I
+> guess.
+
 If right, the missing thing in generated text is the second half of a collaboration, a third
-account of the unease, distinct from broken polish–effort and flattened intent, and the three
+account of the unease, distinct from broken polish-effort and flattened intent, and the three
 predict different things. The effort heuristic belongs to the same family:
 
 > Aesthetics is one of the **easiest goals to judge**, because it is literally surface polish – you
@@ -395,25 +452,33 @@ predict different things. The effort heuristic belongs to the same family:
 
 On his account the effort heuristic is a normally-valid inference a new artifact class has broken,
 never a reader bias, and both rows testing it are blocked on measuring *effort*, the quantity
-automaticity makes unobservable by construction.
+automaticity makes unobservable by construction. The aesthetics note is now split into three open
+hypotheses at his direction: whether attraction success is actually judgeable by the reader from
+their own response, whether readers historically used polish as an effort cue, and whether
+generated objects break that relationship (HH-22, HH-17, and HH-18 below).
 
 | # | hypothesis | status |
 |---|---|---|
 | **G62** | Assuming the maker intends to be understood improves recovery | **OPEN, canonical here.** Must be tested against concealment, where the assumption licenses confident wrong inference |
-| **G63** | Aesthetic structure functions as deliberately-left scaffolding for descent | **OPEN.** Polish partly communicative, not only performative |
+| **G63** | Comprehension-support structure functions as deliberately-left scaffolding for descent, orthogonal to aesthetics though correlated through expertise | **OPEN.** Unbound from aesthetics 2026-08-10; the measurement side is the attraction/translation split in `DECISION_TRACES.md` §2 |
 | **G67** | Readers grant the communicative assumption to generated text, and that is why it misleads | **OPEN.** A claim about readers; the model-side provenance prior (§1) is its first adjacent measurement |
 | **HH-19** | Attention capture and comprehensibility are separable shaping motivations | **OPEN, the load-bearing test.** Measurement side in `DECISION_TRACES.md` §2 |
 | **HH-20** | Makers model the reader's inference and shape the artifact for it | **OPEN.** An artifact as process *plus the maker's model of you* |
-| **HH-21** | Generated text lacks the collaborative half; it takes without giving | **OPEN.** The third account of the unease, and the three predict different things |
-| **HH-17** | The polish–effort correlation is strong in human corpora, near zero in generated | **OPEN.** Blocked on an effort proxy |
+| **HH-21** | Generated text lacks the collaborative half; recast as recoverability, whether a coherent model of the creator's understanding can be recovered without the creator's comprehension-support efforts | **OPEN.** The third account of the unease, and the three predict different things |
+| **HH-17** | Readers historically used polish as an effort cue; the correlation is strong in human corpora, near zero in generated | **OPEN.** Blocked on an effort proxy |
 | **HH-18** | The effort heuristic is a broken valid inference, not a reader bias | **OPEN.** Follows from HH-17; the reframe is the contribution |
+| **HH-22** | Attraction success is judgeable by the reader from their own response | **OPEN.** The self-referring goal read as an instrument; split out of the aesthetics note 2026-08-10 |
 
 **What the table says.** The bard refinement is the most theory-dense unmeasured material in the
-file. It splits polish into two motivations, predicts a specific missing half in generated text,
-and reframes the effort heuristic as a valid inference a new artifact class broke, three claims
-that predict different things and share one blocker, a defensible proxy for effort. The
-communicative assumption itself is the one prior whose failure mode (confident inference from
-structure placed to mislead) is worse than not holding it. Confidence: untested, logic only.
+file, now carrying its own incompleteness caveat, two candidate variables of interest with the
+shape of their relationship deliberately uncommitted. The section also now holds the project's
+declared center of gravity, that readers must model the generating model to learn from an
+artifact, a load-bearing assumption still owed direct evidence. Comprehension support stands
+unbound from aesthetics as its own goal, the generated-text asymmetry is recast as a
+recoverability question, and the effort note is split into three separable opens sharing one
+blocker, a defensible proxy for effort. The communicative assumption itself is the one prior
+whose failure mode (confident inference from structure placed to mislead) is worse than not
+holding it. Confidence: untested, logic only.
 
 # Part III: Calibration
 
@@ -460,7 +525,7 @@ is why the field built a graded vocabulary instead.
 
 ## §11. The instrument dashboard: adopted heuristics with measured strength
 
-**Only heuristics measured in this project enter; candidate imports stay in §§6–8 until tested.**
+**Only heuristics measured in this project enter; candidate imports stay in §§6 to §8 until tested.**
 Strength is always against a named baseline. The same number means opposite things next to a chance
 rate and next to a field bar.
 

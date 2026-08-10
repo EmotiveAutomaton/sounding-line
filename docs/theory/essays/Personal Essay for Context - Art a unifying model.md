@@ -1,3 +1,17 @@
+> **Historical status, added 2026-08-10.** This essay preserves an early formulation of the project.
+> Subsequent simulation, real-text experiments, literature review, and repeated instrument audits
+> have materially revised its vocabulary, mechanisms, and evidentiary claims; several statements
+> below are now narrowed, superseded, rejected, or still untested. It is retained as provenance and
+> as a source of conceptual context when later summaries compress the theory too aggressively. It
+> should not be treated as the project's current claim store. The living theory is in
+> `docs/theory/`, with methods and results in `FINDINGS.md`.
+>
+> The main revised claim, for posterity: "generated objects have no latent intent" (r of 0) is
+> superseded. It is more precise to say they have a latent intent that cannot be easily translated
+> using the same human heuristics we use for other difficult inference problems of the same class.
+> Our empathy doesn't work on it. But there is something there; there just aren't any easy vertices
+> for reverse-engineering it.
+
 The following This is a simple copy-paste of the artist-facing, description of this model at https://abrahamhaskins.org/art. Note that there is a great bit of interactivity to this website and only the text is being collected here. You're missing images, the captions will seem out of place, and the citations may simply appear as numbers that have hover text that could be explored by the user and so on. Human readers are encouraged to visit the link above instead of reading this. 
 
 ←

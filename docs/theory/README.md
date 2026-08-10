@@ -25,7 +25,9 @@ be run yet, which stays as an OPEN row with the blocker named.
 
 **Blockquotes are the curator's words only.** Not superseded claims, not literature, not emphasis.
 Superseded material takes a bold **Superseded** prefix and stays in the section it belongs to.
-**Corrections are folded in, never appended.**
+**Corrections are folded in, never appended.** Two rulings from the 2026-08-10 quote pass: the
+curator may supply direct edits to his own quote blocks without restating them, and when he
+directs outright removal of a quote, remove it; the git history is the record then.
 
 **Status:** SUPPORTED · REJECTED · VOID (*could not answer its own question, which is not a negative
 result*) · OPEN · CONTESTED (*the literature says the opposite; that difference is the contribution*) ·
@@ -73,6 +75,15 @@ instead of re-derived per claim:
 A mixed table joins two of these with a semicolon, each tied in plain words to the half it rates.
 
 **Identifiers are stable. Never reused, never renumbered.**
+
+**A result-bearing row cites its FINDINGS entry inline** — `(test, L53)` — so the row-to-entry
+mapping stays greppable in both directions.
+
+**The mechanical half of this spec is enforced in code.** `tools/theory_lint.py` runs after
+every edit to this folder (a PostToolUse hook) and flags a missing afterword, a wrong Confidence
+vocabulary, or a dash in prose for same-turn correction. The judgment-shaped rules above are not
+mechanically checkable and still bind by being read — re-read this block before each batch of
+edits here.
 
 ## Files
 

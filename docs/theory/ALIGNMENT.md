@@ -9,6 +9,24 @@
 > **It's us, and all of us, and our need to spread out information throughout all of human history,
 > that will protect us.**
 
+> It seems like I'm late to the party here, and the rest of the world has already worked this out.
+> Effectively we are trying to decide upon **a candidate objective that retains both the epistemic
+> and the pragmatic terms.** You can gloss that with MaxEnt if you want, but practically speaking
+> it is **a real objective that can be defined and recreated. Weighting them is going to be a
+> concern.** And I do wonder how humans balance this, whether there's some kind of **dynamic
+> weighting adjustment** that keeps the two somewhat in balance over time. It's very rare for
+> humans to fall into endless epistemic foraging. You could have biases, certainly, but the fact
+> that it's just not something humans fall into is interesting. And I wonder what that has to do
+> with our lack of precision in estimating the actual environment.
+
+> That second line was **the seed for the anti-capture hypothesis**, the idea that this persistent
+> uncertainty about human values will create pressure for broader evidence that will itself prevent
+> psychopathic optimization actions through active states on the part of any AI. Leveraging that
+> hook, which perhaps has some analog in human behavior, is something we will have to use as **a
+> shield to prevent rich people from capturing AI values.** Because of course it will be rich
+> people that we're fighting against. They have always been the villains of this world that we
+> live in.
+
 **The largest claim this project makes.** The standard framing, learn human values then optimise
 them, is the one the impossibility results bite, because it must act on an estimate while the
 estimate is wrong. **Here the imprecision is a term in the objective rather than a defect the design
@@ -59,9 +77,14 @@ alignment consequence.)*
 > **efficiency** – I could tap a need for efficiency to do this. **But I wouldn't be able to tap into
 > the cruelty a Nazi designer would have. It just wouldn't be there for me to optimise.**
 
-Two makers producing the same artifact under the same instruction do it from different values, and
-the values they lack constrain what they can produce. **The absent value is as informative as the
-present one**, a mechanism for why an artifact reads as made-under-duress. The recoverability of an
+> I'm going to walk that back. I'm not going to claim that I wouldn't be able to do something if I
+> couldn't leverage any of my motivations. The real main claim is that **different actions can be
+> derived from different sets of motivational weightings.** Which is a much weaker claim and
+> honestly pretty lame. But worth keeping in this file, at least as a future thought.
+
+Two makers producing the same artifact under the same instruction reach it through different
+motivational weightings, and the route carries information. **The absent value is as informative
+as the present one**, a mechanism for why an artifact reads as made-under-duress. The recoverability of an
 absent drive now has a working simulated form (the architecture file's missing-middle section);
 what this section owns is the consequence. **A system whose values are seeded rather than specified
 can still only route attention onto what the seed contains**, which is a design constraint on any
@@ -83,11 +106,20 @@ terms:**
 - **Pragmatic value alone** is the standard framing, learn *W* then maximise it. **That is the one
   the impossibility results bite.**
 
-**Together they are a single objective with a built-in governor.** As the estimate sharpens the
-pragmatic term dominates and the system acts; where the estimate is poor the epistemic term dominates
-and the system asks rather than acts.
+**Together they are a single objective with a governor whose setting is not free.** As the
+estimate sharpens the pragmatic term dominates and the system acts; where the estimate is poor the
+epistemic term dominates and the system asks rather than acts.
+
+**Superseded** by his own reading of the research, kept as the original form:
 
 > **The balance is not a safety constraint bolted on. It falls out of surprise minimisation.**
+
+> Upon looking at the research, the balance does apparently not fall out of surprise minimization.
+> **It is a scalar that is adjusted by the model in question.** And that's the kind of future
+> trouble that I'm going to leave for later stages of the project. But a note to revisit: humans
+> obviously don't fall into this fail state of **permanent epistemic foraging.** Or if we do, then
+> it needs recasting as some established psychosis that we can then harvest for information.
+> Nothing comes to mind, though. I can't imagine how it would present, practically speaking.
 
 **And this is why the limit framing in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §7 is
 load-bearing rather than a hedge.** Values are approached through inference with error and never
@@ -111,13 +143,19 @@ objective, while **this makes the balance itself the objective.**
 
 ## §3. The anti-capture argument, which falls out of the same structure
 
-> This inherently means you have to **average it across all of humanity**, because you need more
-> information. It prevents assholes like rich people from giving their local values, **because it could
-> never be enough. It could never be enough data.** And as a result they run too high a risk of dying
-> due to a catastrophically omnipotent misaligned AI that can't yet zero in on their specific data.
+> This inherently means you have to **weight it across the breadth of humanity**, because you need
+> more information. It prevents assholes like rich people from giving their local values, **because it
+> could never be enough. It could never be enough data.** And as a result they run too high a risk of
+> dying due to a catastrophically omnipotent misaligned AI that can't yet zero in on their specific
+> data.
 >
 > **It's us, and all of us, and our need to spread out information throughout all of human history,
 > that will protect us.**
+
+> There's work to be done there. We'll have to work out a population model, a sampling rule, an
+> aggregation rule, and so on. But at least we'll have data points. They'll be sparse, but we will
+> have extracted them, and they will be something we can assemble. **It's the first step. We'll
+> deal with the second step when we get there.**
 
 **A structural argument rather than a moral one, and that is what makes it interesting.** A system
 whose objective includes reducing uncertainty about human values has **an appetite for evidence that
@@ -191,8 +229,9 @@ right, while AL-1 needs a literature sweep before it can even be stated as novel
 ---
 
 **The one thing to preserve if everything else is superseded:** *the terminal value is neither the
-seeking nor the thing sought. It is the balanced sum of both, under surprise minimisation. The
-imprecision is not a problem the design tolerates; it is the term that makes the design work.*
+seeking nor the thing sought. It is the balanced sum of both, with the balance itself a quantity
+to be engineered rather than assumed. The imprecision is not a problem the design tolerates; it is
+the term that makes the design work.*
 
 ---
 
