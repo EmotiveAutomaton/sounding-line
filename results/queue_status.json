@@ -361,8 +361,30 @@
       "name": "arg_reader_23_fine",
       "why": "G136: reader arm, second cycle, fine",
       "est_minutes": 110,
+      "status": "DONE",
+      "log": "results\\arg_reader_23_fine.log",
+      "minutes": 9.5
+    },
+    {
+      "name": "am_construction",
+      "why": "G138: reproduce the impossibility degeneracy exactly, then relax it with the three human priors",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_coarse_k2_recovery",
+      "why": "G129-pilot: can the reader pick the recorded coarse purpose from the delta?",
+      "est_minutes": 40,
+      "status": "DONE",
+      "log": "results\\argrec_coarse_k2_recovery.log",
+      "minutes": 17.2
+    },
+    {
+      "name": "argrec_fine_k4_recovery",
+      "why": "G129-pilot: fine purposes, four candidates",
+      "est_minutes": 50,
       "status": "RUNNING",
-      "log": "results\\arg_reader_23_fine.log"
+      "log": "results\\argrec_fine_k4_recovery.log"
     }
   ],
   "shard": "0/1"

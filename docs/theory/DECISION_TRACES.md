@@ -89,7 +89,7 @@ The sharpest definition in the project, because it makes depth a **relation** be
 domain rather than an attribute, with its falsifier attached (*depth moves where domain moves*),
 and with the consequence that explains the corpus problem. **A relation cannot be measured by
 varying one side**, and every artifact-direct measure that died, died reading artifacts alone.
-**(HH-10:** depth measured on one maker moves when the domain moves and not otherwise. **OPEN,
+**(HH-10:** depth measured on one maker moves when the domain moves and not otherwise. **OPEN (the L18 pilot measured the corpus gap instead),
 blocked on the one-maker-many-kinds corpus its own definition demands**, the same corpus the
 values thread keeps arriving at.**)**
 
@@ -291,12 +291,12 @@ without the expert choosing it. This is the mechanism the residue account of val
 | # | hypothesis | status |
 |---|---|---|
 | **PD-18** | A machine given many aligned motivations reads as more intentional than one given two | **REVERSED IN DIRECTION (test); his contest of the original null was right.** The revived features, the flagship ratio, and the (now echo-suspect) recovery all peak on the most-stacked corpus |
-| **PD-19** | The effect *accelerates* at the top of the ladder | **NOT SUPPORTED (test), twice.** A straight line that flattens at the top; the saturation echoes the bits ceiling |
+| **PD-19** | The effect *accelerates* at the top of the ladder | **NOT SUPPORTED (test, L17/L25), twice.** A straight line that flattens at the top; the saturation echoes the bits ceiling |
 | **PD-6** | Commercial work shows *higher* purpose agreement than individual work | **OPEN, pre-registered before Gate 3.** Gate 2 is suggestive and cannot serve as the test |
 | **PD-8** | Commercial decision density is *not* systematically lower than individual | **OPEN** |
 | **PD-9** | Machine text shows low agreement *and* low breadth, no coherent maker-state as against a flattened one | **OPEN** |
 | **PD-10** | Singularity of terminal value is measurable at all | **OPEN, the successor instrument**, needing a corpus this project has not seen |
-| **G114** | Independent readers' goal-guesses converge more where intent is dense | **NOT SUPPORTED (test), three designs deep.** Bits recovered died to empty answers; token overlap read topic; judge-rated similarity with topic held fixed saturates near 0.9 on everything and the ten-specification dose gap comes out at −0.02, wrong sign, negligible. The third instrument produced orderly numbers (books score lowest, plausibly summarisation difficulty) and the dose is simply not in them |
+| **G114** | Independent readers' goal-guesses converge more where intent is dense | **NOT SUPPORTED (test, L35/L46), three designs deep.** Bits recovered died to empty answers; token overlap read topic; judge-rated similarity with topic held fixed saturates near 0.9 on everything and the ten-specification dose gap comes out at −0.02, wrong sign, negligible. The third instrument produced orderly numbers (books score lowest, plausibly summarisation difficulty) and the dose is simply not in them |
 | **T-2 / T-9** | Motivational variety is measurable as breadth of recovered purpose | **INSTRUMENT DEAD (sim, twice).** The breadth measure tracked how hard the goal is to recover, not variety; at matched difficulty the diversity excess is negative. The simulation itself states it cannot test whether practice *causes* drive-multiplicity |
 | **G55** | Diversity rises with expertise while agreement about purpose stays flat | **OPEN.** A two-measure prediction using quantities that already exist, and the second attempt must survive a difficulty control that neither prior try would have |
 | **PD-7** | Commercial work shows lower purpose *breadth* | **INSTRUMENT DEAD (sim, twice).** The breadth measure read difficulty |
@@ -324,12 +324,12 @@ to belong to a broken control, not to the features.**
 
 | # | hypothesis | status |
 |---|---|---|
-| **PD-21** | Published linguistic features track specified constraint dose, once machine-detectors are removed | **REVERSED (test).** Under the fair induction control **all three candidates revive on all three ladders**: conditionals (+0.65/+0.51/+0.73), contractions (+0.43/+0.48/+0.32), phrasal coordination (−0.41/−0.27/−0.44), nine of nine at *p* ≤ 0.007 |
+| **PD-21** | Published linguistic features track specified constraint dose, once machine-detectors are removed | **REVERSED (test, L2/L23/L24).** Under the fair induction control **all three candidates revive on all three ladders**: conditionals (+0.65/+0.51/+0.73), contractions (+0.43/+0.48/+0.32), phrasal coordination (−0.41/−0.27/−0.44), nine of nine at *p* ≤ 0.007 |
 | **PD-20** | Decision density can be counted from an artifact | **REJECTED (test).** It was word count (0.88), then vocabulary diversity (−0.88); two confounds in sequence, nothing underneath |
 | **PD-22** | Causal connectives track depth | **REJECTED (test).** Ranked the ladder, then inverted on humans; it measures explicitness |
-| **G116** | Specified dose adds description length, the essays' Kolmogorov claim | **REJECTED (test).** Incompressibility flat across all rungs; human long-form matches machine text at matched length |
+| **G116** | Specified dose adds description length, the essays' Kolmogorov claim | **REJECTED (test, L29).** Incompressibility flat across all rungs; human long-form matches machine text at matched length |
 | **PD-23** | A larger feature bank beats a small curated set | **REJECTED (sim).** Sixty generic features gain little and lose more in the worst case |
-| **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, with a warning, and deprioritized by the program until choice recovery validates.** Stacking shared confounds produces a strong confound; the ladder is the only thing that tells the difference |
+| **PD-24** | Weak effects can be stacked into a usable detector | **OPEN (L4), with a warning, and deprioritized by the program until choice recovery validates.** Stacking shared confounds produces a strong confound; the ladder is the only thing that tells the difference |
 | **rung −1** | No measure reads noise as maximum intent | **SUPPORTED (test).** The only ceiling control in the project |
 
 **What the table says.** Every cheap property of a text that correlates with dose also correlates
@@ -353,7 +353,7 @@ all fixed by construction.**
 
 | # | hypothesis | status |
 |---|---|---|
-| **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test), one coherent thing.** At matched length, revision raises lexical sophistication (longer, rarer, more polysyllabic words, fewer stopwords), one factor under six names, sign agreement 70 to 78% across authors |
+| **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test, L5), one coherent thing.** At matched length, revision raises lexical sophistication (longer, rarer, more polysyllabic words, fewer stopwords), one factor under six names, sign agreement 70 to 78% across authors |
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered.** Raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
 | **PD-28** | The surviving effect is polish, not depth | **OPEN after relabel (test, L42).** Across 1,711 labelled revisions the sophistication shift holds at full strength among *content*-labelled revisions, with the rare-word component stronger there. That is content-revision-associated lexical change, not yet recovery of problem-directed choice. The discriminating test is event-level purpose recovery with revisions matched on lexical sophistication; if recovery vanishes under matching, this was a sophistication measure |
 

@@ -2042,9 +2042,9 @@ for G129 is the published number, not our own.
 **And the design fact for everything downstream.** On the raw sentence pair the classifier learns
 nothing, because every essay answers one prompt and sentence text encodes topic; **the entire
 signal is in the delta.** G129's candidate scoring reads deltas or it reads nothing, and the
-pilot's prompts are built that way. Reader arms so far: cycle-one coarse 0.664 and fine 0.254
-(against 0.5 and 0.125 chance), cycle-two coarse 0.648, replicating cycle one's level; the last
-arm completes in the queue.
+pilot's prompts are built that way. Reader arms, complete: cycle-one coarse 0.664 and fine 0.254
+(against 0.5 and 0.125 chance), cycle-two coarse 0.648 and fine 0.249 (against 0.143), the two
+cycles replicating each other's level at both grains.
 
 **Addendum, the raised standard (2026-08-10, his ruling).** The comparison above does not count
 as a pass. A recreation passes by reproducing the published exact values, and 0.857 against 0.93
@@ -2088,6 +2088,39 @@ Means: the project's convergence position now has a running existence proof at t
 substantive priors buy large posterior narrowing without unique identification (0.31 is nowhere
 near 1.0, exactly as the position claims). A seven-state chain with one-step lookahead is the
 loudest caveat; the gridworld recreation (G137) is where this grows teeth.
+
+## L61 · The recreation re-audit: one true pass, exact gates fetched for the rest, and a coverage sweep of this file
+
+**What was asked.** Pre-verify the planned recreations with precise pass gates; re-verify every
+claimed recreation against its paper's specific numbers; and verify every entry in this file
+appears in the theory table that interprets it.
+
+**The recreation re-audit.** Under the exact-value standard, none of the six previously claimed
+anchors was a value pass; the Phase 1 table now carries per-row honest statuses. One true pass
+exists, the impossibility construction's analytic 0.5/0.5 (L60). ArgRewrite is NOT PASSED with
+the exact pipeline in the queue. The BST gates were fetched from the paper itself (Experiment 1
+best-fit correlations .83/.98/.94 for the three models; Experiment 2 cross-validated .57/.95/.58
+with the heuristic at .91; Experiment 3 subgoal model .96), with the scope note that the human
+side lives in figures, so the pass is on model predictions and parameter dependence. The
+ScholaWrite gates were fetched (fine-tuned BERT and RoBERTa at weighted F1 0.64, Llama-8B 0.13,
+GPT-4o 0.08, agreement 0.71, 61,504 keystrokes, ten writers, five preprints). Four rows are
+EXEMPT with reasons, method or protocol imports with no foreign number to hit (the pottery
+partition, revision homogeneity, the pooling attack, our own attribution calibration).
+
+**The CKA sanity check, run as part of closing its row.** Self-similarity, isotropic scaling, and
+orthogonal invariance all pass at machine precision. The check also surfaced a real fact:
+**independent random matrices score 0.985 at thirty samples in two thousand dimensions**, so raw
+similarity magnitudes in our alignment work were never interpretable, only the null-tested match
+structure was, which is what the permutation null (L58) enforced and why the odd family's null
+band spanned the stack. Recorded into the alignment row.
+
+**The coverage sweep.** All 58 entries checked against the five theory files at content level.
+Twenty-seven hypothesis rows gained explicit L-citations so the mapping is auditable by grep.
+Five entries are method-archive-only by design and carry no theory row: the stage audit (L20),
+the adversarial audit (L26), the instrument false start (L43), the length-direction bookkeeping
+(L54), and the harness validation (L56), each an audit or instrument record rather than a claim
+adjudication. Zero-shot reader arms completed meanwhile: cycle-two fine 0.249 against 0.143
+chance, closing the four-arm set (0.664/0.254/0.648/0.249).
 
 ## L4 · Can weak effects be stacked into a detector?
 

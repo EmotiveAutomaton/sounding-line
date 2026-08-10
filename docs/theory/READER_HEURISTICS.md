@@ -338,7 +338,7 @@ The reader's rules for exploiting the automatic traces (the trace ontology itsel
 |---|---|---|
 | **G79** | The four-part admissibility filter, criterion 4 especially | **OPEN, the best single import.** Predicts where habit is switched off |
 | **G80** | Reserve versus overpaint, on text structure | **OPEN.** Computable on one static text |
-| **G81** | Self-revision is homogeneous, imposed change is lumpy | **SUPPORTED (test), first pass, against the weakest adversary.** 66 authors, real revision dispersion 0.45 vs cross-author splice 1.94, separation perfect (AUC 1.0). The ceiling is the caveat, since a crude splice may be read as *different author* rather than *imposed change*; the realistic same-register imposition is the untested case |
+| **G81** | Self-revision is homogeneous, imposed change is lumpy | **SUPPORTED (test, L52), first pass, against the weakest adversary.** 66 authors, real revision dispersion 0.45 vs cross-author splice 1.94, separation perfect (AUC 1.0). The ceiling is the caveat, since a crude splice may be read as *different author* rather than *imposed change*; the realistic same-register imposition is the untested case |
 | **G82** | High internal consistency indicates *imitation*, not expertise | **OPEN.** May invert an assumption we hold |
 | **G83** | Adopt the graded attribution vocabulary | **OPEN** |
 | **G84** | Two channels: falsifiers veto, style proposes, never averaged | **OPEN, architectural.** Every historical catch came from a hard falsifier |

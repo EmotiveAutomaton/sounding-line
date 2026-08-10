@@ -45,23 +45,30 @@ downloading, running, and then removing the exact model a paper used. Stochastic
 variation may be *mentioned*, never leaned on. Nothing below advances to its Phase 2 extension
 until its recreation passes this bar.
 
-**Already in hand**, each one a recreation that already ran here, with its landing:
+**Re-audited under the exact-value standard (2026-08-10): none of the six previously claimed
+anchors was a value-exact pass.** Each is reclassified below by what the standard can even ask of
+it. Only one true value pass exists so far, the impossibility construction's analytic 0.5/0.5
+(L60). The phase does not close until every row below reads PASSED or EXEMPT-with-reason.
 
-| anchor | our recreation | landed |
-|---|---|---|
-| PAN style-change detection (0.830 bar, topic-controlled) | our feature bank on their split | **L11: we lose to the bar where topic is controlled.** The recreation stands; the goal-variation push waits on G131 |
-| function-word authorship attribution | the 34-book baseline, scrambling-validated | **7.6× chance, granularity-invariant.** Recreated and adopted as calibration |
-| Gosselain's visibility partition (pottery) | low-vis/high-vis features on authors against draft stage | **L41: clean double crossover, first pass** |
-| connoisseurship's revision homogeneity | dispersion of change magnitudes, real against spliced | **L52: AUC 1.0 against the weakest adversary** |
-| Hadidi's pooling-choice attack | the flagship profile and ratio under three poolings | **L44: geography survives, ratio does not** |
-| Kornblith CKA cross-network alignment | the event-alignment table | **L45, with its null in flight (G128)** |
+| anchor | its published value | what we did | honest status |
+|---|---|---|---|
+| ArgRewrite classification | binary F1 .93/.93, fine .51/.63 (fetched, Tables 6/7) | crude arms 0.857/0.233; exact pipeline queued | **NOT PASSED, exact replication in the queue** |
+| A-M impossibility construction | the analytic 0.5/0.5 degeneracy | reproduced at exactly 0.5, then relaxed | **PASSED (L60), the phase's only value pass** |
+| PAN style-change task | winner F1 0.830 on PAN-21 style change | our bank scored 0.565 on their split (L11), never their method | **NOT PASSED as recreation; reclassed low-priority (adjacent to detector races). Passing means reproducing the winning system's 0.830, owed only if the goal-variation push (G131) needs it** |
+| BST inverse planning | Exp 1 best-fit r: M1 .83, M2 .98, M3 .94; Exp 2 BSCV ⟨r⟩: .57/.95/.58, heuristic .91; Exp 3: M3 .96 (best fit .97), M1 −.03, M2/H .54 (fetched from the paper this pass) | not started; gates now exact | **OWED (G137), gates recorded.** Scope note: model-side recreation is fully specified by the paper; the human-judgment side exists only in their figures, so the pass is on model predictions and parameter dependence |
+| ScholaWrite intention prediction | fine-tuned BERT/RoBERTa weighted F1 0.64, Llama-8B 0.13, GPT-4o 0.08; IAA 0.71 (fetched) | not started; gates now exact | **OWED (G141), gates recorded, gate for G132** |
+| Gosselain visibility partition | ethnographic; no published statistic to hit | the text analogue's double crossover (L41) | **EXEMPT, method import.** The source is field observation without a reproducible number; the import's own first-pass measurement stands on its own terms |
+| connoisseurship revision homogeneity | historical practice; no published statistic | first-ever measurement (L52) | **EXEMPT, method import**, same reason |
+| Hadidi pooling attack | an attack protocol, applied to one's own instrument by design | applied to ours (L44) | **EXEMPT, protocol import.** There is no foreign value to hit; the protocol was executed in full |
+| Kornblith CKA | method paper; analytic sanity properties (self-similarity 1.0, isotropic-scaling invariance) | used for L45/L58; sanity identities never explicitly checked | **NEARLY EXEMPT, one cheap owed check.** Verify cka(X,X)=1 and scale invariance on our real activations, one minute of CPU, then EXEMPT |
+| function-word attribution | no single canonical published value for this corpus | our own calibration baseline (7.6× chance) | **EXEMPT, self-calibration**, never claimed against a foreign number again |
 
 **Owed, the builds, in run order:**
 
 | | study | method and gate | cost |
 |---|---|---|---|
 | **G136 · recreate ArgRewrite's own published task** | The corpus paper reports revision-purpose classification baselines at coarse and fine grain. Reproduce them with our tooling, author-split enforced. **Their published numbers become our known answer; matching them is the gate G129 runs behind** | **Half landed (L59): 2,806 events extracted (G129's dataset); features arm at 0.857 coarse / 0.233 fine, and the signal is entirely in the delta.** Four reader arms run overnight, checkpointed; the paper-table comparison is owed on fetch | readers overnight; paper fetch next |
-| **G137 · recreate Bayesian inverse planning on the classic gridworld** | Baker, Saxe & Tenenbaum's goal inference from partial trajectories is the direct precedent for the whole project. Reproduce the canonical posterior-over-goals curves in the parent simulation's pymdp. **The substrate G134's estimator tournament runs on; qualitative match to the published curves is the gate** | Sim-side brief to ghost-scale; small state space, exact inference | sim-side, ~1 day |
+| **G137 · recreate Bayesian inverse planning on the classic gridworld** | Baker, Saxe & Tenenbaum's goal inference from partial trajectories is the direct precedent for the whole project. Reproduce their three models (M1 static-goal, M2 goal-switching, M3 subgoal) at their best-fit parameters (M2 β=2.0 γ=0.25 for Exp 1; β=0.5 γ=0.65 for Exp 2; M3 β=5.0 κ=0.6 for Exp 3) on their maze-world stimuli. **The exact gates, fetched from the paper: Exp 1 best-fit r .83/.98/.94; Exp 2 BSCV ⟨r⟩ .57/.95/.58 with heuristic .91; Exp 3 M3 .96.** Model predictions and parameter-dependence curves are fully recreatable; the human side lives in their figures, and the pass is judged on the model side | Sim-side brief to ghost-scale; small state space, exact inference | sim-side, ~1 day |
 | **G138 · recreate the impossibility construction, then relax it** | Armstrong & Mindermann's planner/reward degeneracy, built as a runnable toy, then relaxed with the three human priors | **done (L60): RECREATED at exactly 0.5/0.5, then NARROWS.** Bounded family 20×, known planner 2×, both 40×, noise-robust. The bounded family is the load-bearing prior. Next scale: the G137 gridworld |
 
 ## Phase 2 — the program proper, each step behind its anchor
