@@ -29,7 +29,10 @@ as spoken; the file's own prose uses the precise terms.
 
 **This file owns** the inference targets, their dependencies, value identifiability, and
 convergence. **It does not own** artifact cues ([`DECISION_TRACES.md`](DECISION_TRACES.md)), reader
-heuristics ([`READER_HEURISTICS.md`](READER_HEURISTICS.md)), model depth, or alignment.
+heuristics ([`READER_HEURISTICS.md`](READER_HEURISTICS.md)), model depth, or alignment. Evidence
+rows live in the section that interprets them *(the single end-of-file ledger dissolved
+2026-08-10, his instruction)*; sources are (test) real text here, (sim) the parent simulation,
+(lit) published work.
 
 ---
 
@@ -72,6 +75,19 @@ file's history. Where his quotes say "values/drives" as one item, the prose keep
 **"Three" refers to three questions, not three ontologically equal objects.** Goal and process are
 episode-things; the third question, the maker's persistent motivational organization, is a
 different *kind* of thing, defined across episodes, which is most of why it has been the hard one.
+
+| # | hypothesis | status |
+|---|---|---|
+| **L-tier2** | Values need many artifacts; a goal needs one, because they live at different timescales | **SUPPORTED (test), indirectly.** Every single-artifact values attempt failed; every within-maker multi-work design worked (7.6× and 2.05× chance) |
+
+**State of the section's claim.** The object table is definitional and mostly untestable as
+stated, but its load-bearing asymmetry, that the third target is a different timescale of thing,
+has the project's most consistent indirect evidence behind it. Nothing has ever recovered values
+from one artifact and everything multi-work has found signal, which is exactly the pattern the
+timescale column predicts. The two conflation-dissolving distinctions (process against expertise,
+drives against values) remain unmeasured distinctions of vocabulary whose first bites arrive
+through §5 and §6. Confidence: the timescale asymmetry is one bad test away, resting on
+convergent nulls rather than a designed comparison; the rest is untested, logic only.
 
 ## §2. Forward generation and inverse recovery
 
@@ -124,6 +140,20 @@ model (hidden mental states from behavior). **IRL** is the narrower reward-recov
 and does not describe every maker–reader relationship. **Variational inference** is an approximation
 method. Each informs a part of this file; none is the claim.
 
+| # | hypothesis | status |
+|---|---|---|
+| **G52** | An artifact exposes values composed with the process mapping | **OPEN.** Predicts supplying process changes what is recovered, the direction the goal–process run already found |
+| **G53** | Attention does real work rather than papering a gap | **OPEN, flagged suspect by its own author** |
+| **S-4/S-5** | Reordering the reader's stages changes the answer | **REJECTED (sim)** by exactly zero; a cost saving only |
+
+**State of the section's claim.** The generative account remains a framework rather than a
+finding, and its two composition claims are open, with the composition claim carrying a testable
+direction the one coupling run already leaned toward. The single behavioral fact here cuts the
+right way for a *joint* account, since a staged pipeline would care about stage order and the
+simulated reader's answer does not move at all when the order changes. The distortion story's
+weakest named part is attention, flagged by its own author before anyone else could. Confidence:
+the order-insensitivity is sim-only; the composition claims are untested, logic only.
+
 ## §3. Coupling, without premature topology
 
 The correction that started the file. The project had been treating one edge, goal → process in a
@@ -172,7 +202,27 @@ depth substantially, three of six edges were exactly zero, and the coupling was 
 than mutually amplifying. The honest position. **Goal and process show asymmetric information flow
 in the current construction; the topology involving values is unknown.** The drives→process edge
 (the one that would distinguish a river from a triangle) is queued in the simulation that now has a
-working values construction. All rows in §8.
+working values construction.
+
+| # | hypothesis | status |
+|---|---|---|
+| **T-1** | The goal–process pair in the substitute construction (no values vertex): superadditive bootstrapping; goal easiest; process most useful when supplied | **One run, three findings (sim).** Superadditivity REJECTED, edges additive, three of six exactly zero; goal-easiest SUPPORTED at ceiling (a ceiling result, not yet a general fact); process-most-useful SUPPORTED (+0.84 to depth). Both directional findings were predicted before the run |
+| **sim b3** | Goal legibility governs process-side readability | **SUPPORTED (sim), CONTESTED in scope.** One knob, and the simulation flags the limit itself |
+| **T-6** | The substitute construction's values vertex carries information | **VOID (sim).** It could not represent a cross-artifact quantity |
+| **G56** | Supplying mechanics-level information unlocks goal recovery | **OPEN, the missing arm.** Every edge tested supplies a goal or a process, never a mechanic |
+| **G57** | Prior information at any target improves the others | **OPEN.** One of six edges ever tested |
+| **G58** | Entry is possible at any sub-level, with expertise setting which | **OPEN** |
+| **G47** | Drives are upstream of process | **OPEN, now testable.** The values construction exists in the simulation; the coupling run is queued there. The one edge that would distinguish a river from a triangle |
+
+**State of the section's claim.** Coupling is real and directional in the one pair ever tested,
+and everything past that pair is shape-guessing the file explicitly declines to commit to. The
+tested edge behaves like a genuine joint inference with an important asterisk, since goal sat at
+ceiling and a ceiling can manufacture both "goal easiest" and "goal is a sink". Five of six edges
+have never been supplied, the mechanics arm has never existed, and the substitute construction's
+values vertex was void, so no statement about a chain, river, or Venn diagram has evidential
+standing yet. The single edge that would begin to discriminate those shapes is finally runnable
+where a working values construction exists. Confidence: the goal–process findings are one bad
+test away and sim-only; every shape hypothesis is untested, logic only.
 
 # Part II: The difficult third inference
 
@@ -193,6 +243,14 @@ given the reason.) Under §1's table this reads as follows. Values are the stand
 instructions, and constraints, and can be imposed against all of them; and an **expressed trajectory
 may misrepresent all three**. The four are distinct, and any measure that collapses them inherits
 the collapse.
+
+**State of the section's claim.** No row sits here because the fourfold distinction has never been
+tested as a distinction; it is the file's working vocabulary, adopted for the reasons above. Its
+first empirical bite arrives sideways, through §5's commission result, where an imposed goal
+pursued without a drive reads differently from the same goal pursued with one, which is the
+distinction between goal and drive doing observable work in the constructed world. Until real
+artifacts show the same, this section rates as vocabulary with one simulated demonstration.
+Confidence: untested, logic only, with the sim demonstration held by §5.
 
 ## §5. Where value information could live: four competing accounts
 
@@ -219,12 +277,12 @@ preserves value information:
 
 The residue account inverts the search. Every direct measure read the optimized part, where
 selection has flattened the individual out, and *"the tail motivations are where you get the value
-data specifically"*. The tail is where un-optimized residue lives, which makes re-reading (§8's
-G64) the same bet from the other end. Repetition is the proposed carrier. *"The way it's baked in
-implies that you've taken those actions many times, and therefore that itself is information."*
-Its objections. The residual contains values **and** arbitrariness, and only a domain-change test
-separates them; and the epistemic-foraging disposal this file once claimed is **withdrawn**. His
-argument stands as spoken:
+data specifically"*. The tail is where un-optimized residue lives, which makes re-reading (G64,
+this section's table) the same bet from the other end. Repetition is the proposed carrier. *"The
+way it's baked in implies that you've taken those actions many times, and therefore that itself is
+information."* Its objections. The residual contains values **and** arbitrariness, and only a
+domain-change test separates them; and the epistemic-foraging disposal this file once claimed is
+**withdrawn**. His argument stands as spoken:
 
 > **Epistemic foraging is always different. And it always looks different.** So it wouldn't get baked
 > in through associative learning. **It doesn't exist in behaviour.** Epistemic foraging is its own
@@ -242,7 +300,25 @@ The constructed world's discrimination so far, method-validating and nothing mor
 satisfaction read a profile from one constructed artifact where amplification could not; profiles
 converged across artifacts; and an absent drive became recoverable under commission, with pure
 compliance collapsing to exactly chance. **None of this is evidence that real human values have
-been recovered.** Rows in §8.
+been recovered.**
+
+| # | hypothesis | status |
+|---|---|---|
+| **G54** | Conjunctive satisfaction: values constrain how all drives are jointly satisfied | **OPEN on real text; the account the constructed world favours.** It read a profile from one artifact where amplification could not |
+| **G49** | Longitudinal residue: values live in the un-optimized residual of expertise | **OPEN.** Requires a model of what a domain's expertise is optimized for; carries the habit-shadow and foraging-strategy confounds. Per the program it runs **last**, behind choice recovery, expertise separation, and a transferring remainder |
+| **G50** | The value-carrying residual is what survives a domain change | **OPEN.** The only proposed separator of value from arbitrariness |
+| **G51** | Repetition itself carries the weighting | **OPEN** |
+| **G64** | Re-reading one artifact recovers the tail | **OPEN.** The residue account's other end; the reader-side strategy is `READER_HEURISTICS.md` §4's |
+| **S-14** | An absent drive is recoverable | **SUPPORTED (sim) as method; OPEN on real artifacts.** Near-invisible spontaneous (0.61), perfect under commission (1.00), compliance collapses to exactly 0.5; *how the goal is pursued* discriminates |
+
+**State of the section's claim.** Four accounts stand, none dead, one favoured, and the favourite
+was a surprise, since the section's original headline account (residue) now runs last by the
+program's own sequencing while conjunctive satisfaction, the account he flagged as the first
+non-dithering idea, is the one the constructed world discriminates toward. The absence mechanism
+is the section's cleanest result anywhere, reading a *missing* drive through pursuit style at
+sim-perfect strength under commission. Every one of these remains a claim about constructed
+worlds; no real maker's values have been read by any account. Confidence: the sim discriminations
+are sim-only, authoritative about method; all four accounts are untested on real text.
 
 ## §6. Value blindness, and where longitudinal ground truth could come from
 
@@ -282,8 +358,25 @@ The design's prize is a **gradient of adherence, a ladder made of humans**, with
 constant by construction (the same practical question answered from within different traditions),
 and the honest objections kept. Canon formation selects, translation and era confound, and declared
 values are not held values, which is tolerable because the label needed is what an artifact was
-made *under*, not what the maker truly valued. Sourcing detail and procedure live in `TODO.md`; the
-blocking rows stay in §8.
+made *under*, not what the maker truly valued. Sourcing detail and procedure live in `TODO.md`;
+the blocking rows stay below.
+
+| # | hypothesis | status |
+|---|---|---|
+| **S-15** | Value-profile recovery converges with artifacts, residual priced | **SUPPORTED (sim).** 0.53 → 0.98 over 1 to 50 artifacts, residual 0.009; bounded-family assumption worth 0.24; **corpus price ~20 works per maker**; conjunctive-vs-amplification discriminates constructions |
+| **G60** | Recovery error shrinks with works, toward a small residual | **EARLY PLATEAU (test), one channel (relabelled 2026-08-09).** 0.54 → 0.61 → 0.60 against 0.20 chance over one-to-three reference works. Rises from one to two works and not at three, on five authors and the cheapest channel. Three points cannot locate an asymptote, so the limit-framing reading this row used to carry was unlicensed |
+| **G48** | A maker's weighting is more stable within than between makers | **OPEN.** The 34-book corpus supports the design, and per the program another stable author vector would be circular without behavioral tradeoffs; G135's held-out tradeoff prediction is the honest form |
+| **G65** | Value recovery improves sharply with works per maker while goal recovery does not | **OPEN.** The follower-corpus design tests this and G48 at once |
+| **G66** | Adherence to a declared value set is recoverable as a graded quantity | **OPEN.** A ladder made of humans; blocked on sourcing |
+
+**State of the section's claim.** The longitudinal requirement is the best-motivated unmet need in
+the file. The blindness argument closes self-report, the simulation prices the corpus at roughly
+twenty works per maker with convergence to a small residual, and the one real-text curve rises
+then plateaus early in a single cheap identity channel that cannot speak to an asymptote. What is
+missing is not motivation but material, since every open row waits on either the follower corpus
+or a tradeoff design that no public corpus supplies, which is why the program routes this through
+a commissioned pilot rather than more corpus hunting. Confidence: the convergence pricing is
+sim-only; the plateau curve is one bad test away; the corpus rows are untested and blocked.
 
 # Part III: Epistemic limits and evidence
 
@@ -332,58 +425,23 @@ That prior is canonical in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) (state
 in its §8), with its concealment caveat; here it is one identifiability assumption among four,
 adoptable only conditionally.
 
-## §8. The evidence ledger
-
-One table, grouped by the question each row bears on. Sources: (test) real text here, (sim) the
-parent simulation, (lit) published work.
-
-| # | question · hypothesis | status |
+| # | hypothesis | status |
 |---|---|---|
-| | **Are goal and process separable, and does supplying one help the other?** | |
-| **T-1** | The goal–process pair in the substitute construction (no values vertex): superadditive bootstrapping; goal easiest; process most useful when supplied | **One run, three findings (sim).** Superadditivity REJECTED, edges additive, three of six exactly zero; goal-easiest SUPPORTED at ceiling (a ceiling result, not yet a general fact); process-most-useful SUPPORTED (+0.84 to depth). Both directional findings were predicted before the run |
-| **sim b3** | Goal legibility governs process-side readability | **SUPPORTED (sim), CONTESTED in scope.** One knob, and the simulation flags the limit itself |
-| **G56** | Supplying mechanics-level information unlocks goal recovery | **OPEN, the missing arm.** Every edge tested supplies a goal or a process, never a mechanic |
-| **G57** | Prior information at any target improves the others | **OPEN.** One of six edges ever tested |
-| **G58** | Entry is possible at any sub-level, with expertise setting which | **OPEN** |
-| **G47** | Drives are upstream of process | **OPEN, now testable.** The values construction exists in the simulation; the coupling run is queued there. The one edge that would distinguish a river from a triangle |
-| | **Is the third target contaminated, and by what?** | |
-| **G52** | An artifact exposes values composed with the process mapping | **OPEN.** Predicts supplying process changes what is recovered, the direction the goal–process run already found |
-| **G53** | Attention does real work rather than papering a gap | **OPEN, flagged suspect by its own author** |
-| **T-6** | The substitute construction's values vertex carries information | **VOID (sim).** It could not represent a cross-artifact quantity |
-| | **Where does value information live? (§5's four accounts)** | |
-| **G54** | Conjunctive satisfaction: values constrain how all drives are jointly satisfied | **OPEN on real text; the account the constructed world favours.** It read a profile from one artifact where amplification could not |
-| **G49** | Longitudinal residue: values live in the un-optimized residual of expertise | **OPEN.** Requires a model of what a domain's expertise is optimized for; carries the habit-shadow and foraging-strategy confounds. Per the program it runs **last**, behind choice recovery, expertise separation, and a transferring remainder |
-| **G50** | The value-carrying residual is what survives a domain change | **OPEN.** The only proposed separator of value from arbitrariness |
-| **G51** | Repetition itself carries the weighting | **OPEN** |
-| **S-14** | An absent drive is recoverable | **SUPPORTED (sim) as method; OPEN on real artifacts.** Near-invisible spontaneous (0.61), perfect under commission (1.00), compliance collapses to exactly 0.5; *how the goal is pursued* discriminates |
-| | **Do more artifacts per maker improve recovery, toward what residual?** | |
-| **S-15** | Value-profile recovery converges with artifacts, residual priced | **SUPPORTED (sim).** 0.53 → 0.98 over 1 to 50 artifacts, residual 0.009; bounded-family assumption worth 0.24; **corpus price ~20 works per maker**; conjunctive-vs-amplification discriminates constructions |
-| **G60** | Recovery error shrinks with works, toward a small residual | **EARLY PLATEAU (test), one channel (relabelled 2026-08-09).** 0.54 → 0.61 → 0.60 against 0.20 chance over one-to-three reference works. Rises from one to two works and not at three, on five authors and the cheapest channel. Three points cannot locate an asymptote, so the limit-framing reading this row used to carry was unlicensed |
-| **L-tier2** | Values need many artifacts; a goal needs one | **SUPPORTED (test), indirectly.** Every single-artifact values attempt failed; every within-maker multi-work design worked (7.6× and 2.05× chance) |
-| **G48** | A maker's weighting is more stable within than between makers | **OPEN.** The 34-book corpus supports the design, and per the program another stable author vector would be circular without behavioral tradeoffs; G135's held-out tradeoff prediction is the honest form |
-| **G64** | Re-reading one artifact recovers the tail | **OPEN.** The residue account's other end |
-| | **Is values recovery distinct from identity recovery?** | |
-| **G65** | Value recovery improves sharply with works per maker while goal recovery does not | **OPEN.** The follower-corpus design tests this and G48 at once |
-| **G66** | Adherence to a declared value set is recoverable as a graded quantity | **OPEN.** A ladder made of humans; blocked on sourcing |
-| | **What do the theorems leave open?** | |
 | **lit** | A reward function is not identifiable from one episode | **SUPPORTED (READ).** Amin, Jiang & Singh state the decomposition and the consequence |
 | **lit** | Recovery stays impossible with unlimited episodes | **CONTESTED (READ).** Armstrong & Mindermann and successors prove partial identifiability persists; we dispute that their conditions describe a human reading a human artifact, as a convergence claim |
 | **G61** | An explicit competence estimate improves goal recovery | **OPEN.** If yes, the "fatal unknown" is an input |
-| **S-4/S-5** | Reordering the reader's stages changes the answer | **REJECTED (sim)** by exactly zero; a cost saving only |
+| **G138** | The impossibility construction, reproduced exactly, then relaxed with the three human priors one at a time | **queued (test-side toy, in the machine queue).** The recreation gate is the exact 0.5/0.5 degeneracy; the push is posterior narrowing under each added prior, the disagreement made executable |
 
-**What the ledger says.** The goal–process pair behaves like a real coupled inference in the one
-construction that has tested it, with the important caveat that goal sat at ceiling. Everything
-touching values divides cleanly into method-validating simulation results (profiles converge,
-absence reads under commission, conjunctive satisfaction beats amplification) and open real-text
-rows blocked on the corpus every thread arrives at, many makers, many works, graded outcomes. The
-one real-text convergence curve shows an early plateau in a single identity channel and cannot
-speak to an asymptote. The topology involving values is unknown, and the drives→process run that
-would start settling it is queued where it can now be run. **Confidence: the goal–process findings
-and the identifiability reading are one bad test away and replicated-in-literature respectively;
-the value accounts are sim-validated methods at best, untested on any real maker; the plateau
-curve is one bad test away.**
+**State of the section's claim.** The position is fully articulated and almost fully unmeasured.
+The theorems are conceded as theorems, the disagreement is confined to whether their conditions
+describe a human reading a human artifact, and the three priors the response leans on are
+exactly the three assumptions the proofs name as missing, which is either the argument's strength
+or its circularity, and only the running toy decides which. Its recreation-then-relax design is
+the sharpest test the section has ever had, and G61 remains the cheap real-model version nobody
+has run. Confidence: the literature reading is replicated in its sources; the response is
+untested, logic only, with its first instrument in the queue tonight.
 
-## §9. Scope and boundaries
+## §8. Scope and boundaries
 
 **Human empathy is the motivating phenomenon, not an established synonym.** *Empathy* carries 43
 catalogued definitions, which is why the mechanism is named for what it does. **Accurate attribution

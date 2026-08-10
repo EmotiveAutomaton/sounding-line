@@ -206,7 +206,7 @@ the reason to expect modest effects.
 | # | hypothesis | status |
 |---|---|---|
 | **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN.** Every reading this project records is a final number, so the series has never existed to be checked |
-| **G64** | Re-reading one artifact recovers the tail | **OPEN.** Canonical in the triple inference's ledger; the reader-side strategy is this section's |
+| **G64** | Re-reading one artifact recovers the tail | **OPEN.** Canonical in the triple inference §5; the reader-side strategy is this section's |
 
 **What the table says.** Nothing here has a number because the data has never been recorded. The
 confidence series is the cheapest unbuilt instrument in the file, needing only that readings log a

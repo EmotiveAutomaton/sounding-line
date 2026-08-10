@@ -105,7 +105,8 @@ READER_HEURISTICS), alignment experiments.
 **Both directed restructure passes landed 2026-08-09.** THREE_COGNITIVE_LAYERS (four-claim first
 screen, address/tracking umbrellas), DECISION_TRACES (Part I model / II ledger / III contested
 estimators), THE_TRIPLE_INFERENCE (object table, generative account, four value-carrier accounts,
-single ledger §8), READER_HEURISTICS (loop / cue families / calibration, dashboard last). Format
+evidence rows distributed into the sections that interpret them, 08-10), READER_HEURISTICS (loop /
+cue families / calibration, dashboard last). Format
 spec in `docs/theory/README.md` covers the afterword-before-table rule, the fixed confidence
 vocabulary, no notables columns, and voids at one line each at the bottom. **Standing rule: his
 blockquotes are untouchable; my prose compresses. Structural changes are proposals in chat first.**

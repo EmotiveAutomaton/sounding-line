@@ -80,6 +80,29 @@ def load_corpus(name: str) -> list[dict]:
         for i, (aid, half, text) in enumerate(lc()):
             out.append({"id": str(aid), "group": str(half), "text": text})
         return out
+    if name == "books":
+        # store keys files by URL hash, not manifest id -- the lut lesson from the
+        # author-convergence runner; each book contributes its middle as 3 x 2000-word segments
+        # so the windowed cache stays a manageable size with author carried in the id
+        from runners.run_author_convergence import store_lookup        # noqa: PLC0415
+        man = json.loads((REPO / "corpora" / "manifests" / "books.json").read_text(
+            encoding="utf-8"))
+        items = man["items"] if isinstance(man, dict) else man
+        lut = store_lookup()
+        out = []
+        for it in items:
+            p = (lut.get(it.get("url")) or lut.get(it.get("final_url"))
+                 or REPO / "corpora" / "store" / f"{it['id']}.txt")
+            if not p.exists():
+                continue
+            words = p.read_text(encoding="utf-8", errors="ignore").split()
+            if len(words) < 12000:
+                continue
+            for si, start in enumerate((2000, len(words) // 2, len(words) - 4000)):
+                seg = " ".join(words[start:start + 2000])
+                out.append({"id": f"{it['author']}__seg{si}", "group": it["author"],
+                            "text": seg})
+        return out
     raise ValueError(name)
 
 

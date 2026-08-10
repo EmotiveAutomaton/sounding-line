@@ -2029,14 +2029,20 @@ tokens (words added, words removed) featured.
 *Macro-F1 averages per-class accuracy so frequent classes cannot carry it; author-split means no
 writer appears in both train and test.*
 
-**What it means, two things.** First, the recreation's feature arm lands at 0.857 coarse, in the
-plausible published range, with fine purposes hard for a linear model, consistent with the
-field's experience; the direct comparison to the paper's own tables is owed on fetching the paper
-and is deliberately not quoted from memory. Second, and the design fact for everything
-downstream: **on the raw sentence pair the classifier learns nothing, because every essay answers
-one prompt and sentence text encodes topic; the entire signal is in the delta.** G129's candidate
-scoring reads deltas or it reads nothing. The four reader arms (a local model classifying each
-event, both cycles, both grains, checkpointed) run overnight and complete the recreation.
+**The published bar, fetched and read the same night.** The paper reports XGBoost with USE
+embeddings at **F1 0.93 on the binary task and 0.51 on nine fine classes** (sentential), on 86
+writers and 3,238 sentential revisions; our extraction found the same 86 writers and 2,806
+labelled events, the shortfall plausibly unlabelled and identical-pair rows. Against that bar our
+crude arms sit **below**: features-with-diff at 0.857 coarse and 0.233 fine, and the zero-shot
+reader's first arm at 0.664 accuracy on cycle-one coarse against 0.5 chance (per-author spread
+0.23 to 1.0). The recreation gate is therefore **not yet matched**; the owed push is a features
+arm with embeddings and revision-operation features, and until it closes the gap our known-answer
+for G129 is the published number, not our own.
+
+**And the design fact for everything downstream.** On the raw sentence pair the classifier learns
+nothing, because every essay answers one prompt and sentence text encodes topic; **the entire
+signal is in the delta.** G129's candidate scoring reads deltas or it reads nothing, and the
+pilot's prompts are built that way. The remaining reader arms complete overnight.
 
 ## L4 · Can weak effects be stacked into a detector?
 
