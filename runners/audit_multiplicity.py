@@ -86,6 +86,7 @@ TESTS = [
     ("L53 PD-1 v3 side difference",       2.600e-08, "primary", "results/positional_polish/summary.json"),
     ("L55 essay-boundness split",         1.000e-04, "primary", "results/positional_polish/summary_b.json"),
     ("L57 author-share split",            6.090e-07, "primary", "results/positional_polish/pd33_decomposition.json"),
+    ("L71 PD-33b books polish-vs-depth",  2.825e-07, "primary", "results/positional_polish/pd33_books.json"),
     ("L24 biber_CONT fair, ladder",       1.700e-03, "primary", "results/fair_features/summary.json"),
     ("L24 biber_CONT fair, ladder2",      4.490e-07, "primary", "results/fair_features/summary.json"),
     ("L24 biber_COND fair, ladder3",      1.590e-13, "primary", "results/fair_features/summary.json"),

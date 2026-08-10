@@ -2341,6 +2341,35 @@ removing their exact Llama-8B, held as an option and low priority since this arm
 rather than the claim. And unlike the fine-tuned arms, no train/test leak can inflate a
 zero-shot reader, so this number does not ride the split caveat.
 
+## L71 · The polish-side author-share excess replicates on books
+
+**Hypothesis.** *(PD-33b.)* The L57 finding, polish-side features carrying more author-bound
+variance than depth-side features at fixed topic, should hold in the same direction on a second
+corpus of a different register and genre, the 34-book fiction corpus.
+
+**Method.** Window features (80-word windows) over book segments, 10 authors, 102 segments. For
+each feature, the between-author share of its variance; the polish-side and depth-side feature
+banks then compared as two distributions of that share (Mann-Whitney, two-sided). On books the
+author share includes topic, since each author's books carry their own subjects, so the
+polish-against-depth contrast within the corpus is the comparison that survives that
+contamination, and the absolute shares are not comparable to the essay corpus's.
+
+| feature side | median between-author variance share |
+|---|---|
+| polish-side | 0.061 |
+| depth-side | 0.020 |
+
+*Caption: between-author share of variance per feature, medians over each feature bank, on the
+books corpus. Mann-Whitney two-sided p = 2.8 × 10⁻⁷. Verdict REPLICATES.*
+
+**Found.** The polish side carries three times the depth side's author-bound share, same
+direction as the essays, p = 2.8 × 10⁻⁷.
+
+**Means.** The maker-signature reading of the polish side holds beyond student essays, now on
+two corpora with different registers, genres, and topic structures. What this corpus cannot
+speak to is the absolute size of the effect, since author and topic are confounded here by
+construction; the direction and the contrast are the replication. Still one window size.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
