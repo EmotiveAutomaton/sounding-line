@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-09 19:09",
+  "started": "2026-08-09 20:56",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -353,17 +353,13 @@
       "name": "arg_reader_23_coarse",
       "why": "G136: reader arm, second revision cycle, coarse",
       "est_minutes": 100,
-      "status": "DONE",
-      "log": "results\\arg_reader_23_coarse.log",
-      "minutes": 2.1
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "arg_reader_23_fine",
       "why": "G136: reader arm, second cycle, fine",
       "est_minutes": 110,
-      "status": "DONE",
-      "log": "results\\arg_reader_23_fine.log",
-      "minutes": 9.5
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "am_construction",
@@ -372,19 +368,11 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "argrec_coarse_k2_recovery",
-      "why": "G129-pilot: can the reader pick the recorded coarse purpose from the delta?",
-      "est_minutes": 40,
-      "status": "DONE",
-      "log": "results\\argrec_coarse_k2_recovery.log",
-      "minutes": 17.2
-    },
-    {
-      "name": "argrec_fine_k4_recovery",
-      "why": "G129-pilot: fine purposes, four candidates",
-      "est_minutes": 50,
+      "name": "arg_replication",
+      "why": "G136-exact: their features, their USE encoder, their XGBoost grid, their 5-fold -- PASS only at two-decimal match",
+      "est_minutes": 90,
       "status": "RUNNING",
-      "log": "results\\argrec_fine_k4_recovery.log"
+      "log": "results\\arg_replication.log"
     }
   ],
   "shard": "0/1"

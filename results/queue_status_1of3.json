@@ -1,0 +1,150 @@
+{
+  "started": "2026-08-09 21:25",
+  "stages": [
+    {
+      "name": "revision_purpose",
+      "why": "PD-28: polish or the first depth signal on human text \u2014 the labels were on disk all along",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "positional_polish",
+      "why": "PD-1 at last: the definitional polish/depth test \u2014 the file's own falsifier",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "reader_convergence3",
+      "why": "G114b: judge-rated goal similarity + fixed-topic dose \u2014 the discriminator, rebuilt",
+      "est_minutes": 80,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "coherence_v2_pythia-1.4b",
+      "why": "G105: the rebuilt agreement statistic, known-answer gated \u2014 re-adjudicates G33",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "coherence_v2_gpt2-large",
+      "why": "G105: the rebuilt agreement statistic, known-answer gated \u2014 re-adjudicates G33",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "block_contribution_Qwen2.5-1.5B",
+      "why": "G126: write norm, affect work, d-prime \u2014 the defensible per-block quantities",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "block_contribution_SmolLM2-360M",
+      "why": "G126: write norm, affect work, d-prime \u2014 the defensible per-block quantities",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "block_contribution_pythia-410m",
+      "why": "G126: write norm, affect work, d-prime \u2014 the defensible per-block quantities",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "subspace_v2_Qwen2.5-1.5B",
+      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "control_subspaces_pythia-1.4b",
+      "why": "G43: is the early break affective or the input adapter's edge?",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "subspace_v2_SmolLM2-360M",
+      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "control_subspaces_gpt2-large",
+      "why": "G43: is the early break affective or the input adapter's edge?",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "subspace_v2_gpt2-xl",
+      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "control_subspaces_pythia-2.8b",
+      "why": "G43: is the early break affective or the input adapter's edge?",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "subspace_v2_SmolLM2-1.7B",
+      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "binary_powered_SmolLM2-360M",
+      "why": "G21b map: where does the presence peak sit, family by family?",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "binary_powered_gpt2-large",
+      "why": "G21b map: where does the presence peak sit, family by family?",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "binary_powered_pythia-2.8b",
+      "why": "G21b map: where does the presence peak sit, family by family?",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_features",
+      "why": "G136: recreate the published classification task, feature arm, author-split",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_reader_23_coarse",
+      "why": "G136: reader arm, second revision cycle, coarse",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_matched_control",
+      "why": "G130b: the decisive lexical-matching control -- does 'content' survive matching?",
+      "est_minutes": 25,
+      "status": "FAILED (exit 1)",
+      "log": "results\\arg_matched_control.log",
+      "minutes": 0.1
+    },
+    {
+      "name": "scholawrite_bert",
+      "why": "G141: fine-tuned BERT against the published 0.64 weighted F1",
+      "est_minutes": 200,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scholawrite/schema.json"
+      ]
+    },
+    {
+      "name": "argrec_fine_k4u_recovery",
+      "why": "G129-pilot-b: uniform candidates -- the prior-leak fix (L62)",
+      "est_minutes": 45,
+      "status": "RUNNING",
+      "log": "results\\argrec_fine_k4u_recovery.log"
+    }
+  ],
+  "shard": "1/3"
+}

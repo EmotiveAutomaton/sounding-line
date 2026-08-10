@@ -355,16 +355,19 @@ all fixed by construction.**
 |---|---|---|
 | **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test, L5), one coherent thing.** At matched length, revision raises lexical sophistication (longer, rarer, more polysyllabic words, fewer stopwords), one factor under six names, sign agreement 70 to 78% across authors |
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered.** Raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
-| **PD-28** | The surviving effect is polish, not depth | **OPEN after relabel (test, L42).** Across 1,711 labelled revisions the sophistication shift holds at full strength among *content*-labelled revisions, with the rare-word component stronger there. That is content-revision-associated lexical change, not yet recovery of problem-directed choice. The discriminating test is event-level purpose recovery with revisions matched on lexical sophistication; if recovery vanishes under matching, this was a sophistication measure |
+| **PD-28** | The surviving effect is polish, not depth | **OPEN after relabel (test, L42).** Across 1,711 labelled revisions the sophistication shift holds at full strength among *content*-labelled revisions, with the rare-word component stronger there. That is content-revision-associated lexical change, not yet recovery of problem-directed choice. The discriminating test is event-level purpose recovery with revisions matched on lexical sophistication (G130b, in the night queue); if recovery vanishes under matching, this was a sophistication measure |
+| **G129-pilot** | Recorded revision purposes are recoverable from the delta by a bounded reader | **FIRST PASS WITH A CAUGHT INSTRUMENT FAULT (test, L62).** Recovery 0.529 at four candidates against a control-measured floor of 0.325, a twenty-point delta-carried margin, consistent across candidate sizes; the blind and shuffle controls both ran above nominal chance, exposing a label-prior leak in frequency-weighted candidate construction. Nominal numbers not believed per the preregistration's own gate; the uniform-candidate redesign runs tonight |
 
 **What the table says.** The project's one controlled human comparison found a real, length-robust
-effect, and what that effect *is* remains the open question. Lexical sophistication rises with
-revision and rises fully inside content-labelled revisions, which is compatible with a depth
-signal and equally compatible with sophistication tracking content work for shallower reasons, so
-the claim waits on the program's choice-recovery design with lexical matching as its decisive
-control. The hurried-versus-careful commission remains the designed extension. Confidence: the
-revision effect is one corpus away from replicated; what it measures is untested, pending the
-matched recovery test.
+effect, and what that effect *is* remains the open question, while the program's first real-text
+recovery numbers now exist beside it. A zero-shot reader picks recorded purposes from deltas
+twenty points above a floor its own controls measured, at every candidate-set size tried, and the
+controls' misbehaviour caught a real construction fault before anything was believed, which is
+the discipline working on its first contact with the flagship corpus. Whether "content" is more
+than sophistication still waits on the matched control, queued tonight, and the
+hurried-versus-careful commission remains the designed extension. Confidence: the revision effect
+is one corpus away from replicated; the pilot margin is one redesign away from quotable; what the
+effect measures is untested pending the matched test.
 
 ## §7. Reader-side measurement: the second channel, briefly
 

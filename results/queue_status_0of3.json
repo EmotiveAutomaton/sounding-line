@@ -1,0 +1,156 @@
+{
+  "started": "2026-08-09 21:25",
+  "stages": [
+    {
+      "name": "revision_homogeneity",
+      "why": "G81: self-revision homogeneous vs imposed lumpy, with a synthetic-splice control",
+      "est_minutes": 6,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrewrite_w80_cache",
+      "why": "G119 input: the small-window cache positional analysis needs",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "cka_alignment",
+      "why": "G124: align families by computational events; where do the loci actually land?",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "coherence_v2_gpt2-medium",
+      "why": "G105: the rebuilt agreement statistic, known-answer gated \u2014 re-adjudicates G33",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "coherence_v2_Qwen2.5-0.5B",
+      "why": "G105: the rebuilt agreement statistic, known-answer gated \u2014 re-adjudicates G33",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "coherence_v2_SmolLM2-1.7B",
+      "why": "G105: the rebuilt agreement statistic, known-answer gated \u2014 re-adjudicates G33",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "block_contribution_pythia-1.4b",
+      "why": "G126: write norm, affect work, d-prime \u2014 the defensible per-block quantities",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "block_contribution_Qwen2.5-0.5B",
+      "why": "G126: write norm, affect work, d-prime \u2014 the defensible per-block quantities",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "control_subspaces_Qwen2.5-1.5B",
+      "why": "G43: is the early break affective or the input adapter's edge?",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "subspace_v2_gpt2-medium",
+      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "control_subspaces_SmolLM2-360M",
+      "why": "G43: is the early break affective or the input adapter's edge?",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "subspace_v2_Qwen2.5-0.5B",
+      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "control_subspaces_gpt2-xl",
+      "why": "G43: is the early break affective or the input adapter's edge?",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "subspace_v2_pythia-410m",
+      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "control_subspaces_SmolLM2-1.7B",
+      "why": "G43: is the early break affective or the input adapter's edge?",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "subspace_v2_Qwen2.5-3B",
+      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "binary_powered_Qwen2.5-3B",
+      "why": "G21b map: where does the presence peak sit, family by family?",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "binary_powered_pythia-410m",
+      "why": "G21b map: where does the presence peak sit, family by family?",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_extract",
+      "why": "G136 input: every labelled revision as a choice event -- also G129's dataset",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_reader_12_fine",
+      "why": "G136: reader arm, first cycle, fine purposes",
+      "est_minutes": 110,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "am_construction",
+      "why": "G138: reproduce the impossibility degeneracy exactly, then relax it with the three human priors",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scholawrite_download",
+      "why": "G141 input: the dataset, schema dumped, fail-loudly on surprise",
+      "est_minutes": 25,
+      "status": "FAILED (exit 1)",
+      "log": "results\\scholawrite_download.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "scholawrite_reader",
+      "why": "G141: zero-shot local reader, the analogue of their 0.13 Llama baseline",
+      "est_minutes": 90,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scholawrite/schema.json"
+      ]
+    },
+    {
+      "name": "argrec_fine_k4u_shuffle",
+      "why": "G129-pilot-b control: shuffled truth at chance",
+      "est_minutes": 45,
+      "status": "RUNNING",
+      "log": "results\\argrec_fine_k4u_shuffle.log"
+    }
+  ],
+  "shard": "0/3"
+}

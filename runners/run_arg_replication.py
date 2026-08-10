@@ -193,6 +193,7 @@ def main() -> None:
     print("loading Universal Sentence Encoder (transformer variant)...", flush=True)
     import os                                                         # noqa: PLC0415
     os.environ.setdefault("TFHUB_CACHE_DIR", str(REPO / "results" / "use_cache"))
+    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"   # TF on CPU; the card belongs to torch and ollama
     import tensorflow_hub as hub                                      # noqa: PLC0415
     use = hub.load("https://tfhub.dev/google/universal-sentence-encoder-large/5")
 

@@ -25,6 +25,8 @@
 # used 11.3 GB. Heavy 3B-class models need workers=2 or the day loop instead (G120).
 
 cd "$(dirname "$0")" || exit 1
+# launched bare (Start-Process) there is no PATH; every external tool needs these
+export PATH="/usr/bin:/bin:/c/Windows/System32:/c/Windows/System32/WindowsPowerShell/v1.0:$PATH"
 HOURS="${1:-10}"
 WORKERS="${2:-3}"
 LOCK="results/.loop.lock"

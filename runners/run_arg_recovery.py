@@ -53,6 +53,9 @@ def main() -> None:
     ap.add_argument("--grain", required=True, choices=["coarse", "fine"])
     ap.add_argument("--k", type=int, default=4)
     ap.add_argument("--arm", required=True, choices=["recovery", "blind", "shuffle"])
+    ap.add_argument("--uniform", action="store_true",
+                    help="uniform decoy sampling -- the pilot's blind arm ran above chance "
+                         "because frequency-weighted decoys leak the label prior (L62)")
     args = ap.parse_args()
 
     import numpy as np                                                # noqa: PLC0415
@@ -66,7 +69,7 @@ def main() -> None:
     k = min(args.k, len(keep))
     shuffled = list(rng.permutation([e[args.grain] for e in sub]))
 
-    tag = f"{args.grain}_k{k}_{args.arm}"
+    tag = f"{args.grain}_k{k}{'u' if args.uniform else ''}_{args.arm}"
     part = RESULTS / f"{tag}_partial.jsonl"
     RESULTS.mkdir(parents=True, exist_ok=True)
     done = set()
@@ -89,9 +92,13 @@ def main() -> None:
                 continue
             truth = shuffled[i] if args.arm == "shuffle" else e[args.grain]
             decoys = [l for l in keep if l != truth]
-            w = np.array([freq[l] for l in decoys], float)
-            picks = list(rng.choice(decoys, size=min(k - 1, len(decoys)),
-                                    replace=False, p=w / w.sum()))
+            if args.uniform:
+                picks = list(rng.choice(decoys, size=min(k - 1, len(decoys)),
+                                        replace=False))
+            else:
+                w = np.array([freq[l] for l in decoys], float)
+                picks = list(rng.choice(decoys, size=min(k - 1, len(decoys)),
+                                        replace=False, p=w / w.sum()))
             cands = picks + [truth]
             rng.shuffle(cands)
             body = "" if args.arm == "blind" else delta(e) + "\n"

@@ -15,6 +15,8 @@
 # Stop this loop with:   taskkill //F //T //PID $(sed -n 2p results/.loop.lock)
 
 cd "$(dirname "$0")" || exit 1
+# launched bare (Start-Process) there is no PATH; every external tool needs these
+export PATH="/usr/bin:/bin:/c/Windows/System32:/c/Windows/System32/WindowsPowerShell/v1.0:$PATH"
 LOCK="results/.loop.lock"
 NIGHT="results/.overnight.lock"
 LOG="results/queue_main.log"

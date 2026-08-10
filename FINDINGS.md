@@ -2122,6 +2122,56 @@ the adversarial audit (L26), the instrument false start (L43), the length-direct
 adjudication. Zero-shot reader arms completed meanwhile: cycle-two fine 0.249 against 0.143
 chance, closing the four-arm set (0.664/0.254/0.648/0.249).
 
+## L62 · The pilot's five arms: recovery beats its floor, and the controls caught the floor being crooked
+
+**Hypothesis.** *(G129-pilot, preregistered in the runner.)* Can a bounded zero-shot reader pick
+the recorded revision purpose from a bounded candidate set, above chance and above its own
+controls?
+
+**Method.** `run_arg_recovery.py` on the 2,806-event dataset: the true purpose plus
+frequency-weighted decoys, delta shown; blind (candidates only) and shuffled-truth controls.
+
+| arm | accuracy | nominal chance |
+|---|---|---|
+| coarse, two candidates | 0.585 | 0.50 |
+| fine, four candidates | 0.529 | 0.25 |
+| fine, eight candidates | 0.290 | 0.125 |
+| fine k=4, **blind** | **0.325** | 0.25 |
+| fine k=4, **shuffled truth** | **0.310** | 0.25 |
+
+*Blind shows the reader candidates with no revision; shuffled swaps in another event's label.
+Both should sit at nominal chance and neither does.*
+
+**Verdict: the controls fired, exactly as designed.** Frequency-weighted decoys leak the label
+prior, since the true label is drawn from the real distribution and is more often the globally
+common one than any single decoy, so a reader can beat nominal chance knowing nothing. The
+honest read is therefore recovery against the crooked floor the controls measured: **0.529
+against 0.325 at four candidates, a twenty-point margin carried by the delta**, consistent
+across candidate-set sizes. Per the preregistration's own gate the nominal numbers are not
+believed, and the redesign (uniform candidate sampling, pilot-b) is built and in the night
+queue with its own controls. The pilot did what pilots are for; the measurement lesson is now
+code.
+
+## L63 · The inverse-planning models pass their analytic gates — the recreation's model side stands up
+
+**Hypothesis.** *(G137 v1.)* Before any figure-level comparison, the three models must pass
+gates the mathematics fixes in advance: the switching model at zero switch rate must equal the
+static model exactly; the posterior must converge on the true goal as action noise vanishes;
+and after a mid-path goal switch, the switching model must track while the static model stays
+stuck.
+
+**Method.** `run_bst_gridworld.py`: exact value iteration on a reconstructed maze-world (the
+published stimuli are figures; the reconstruction is the recorded deviation), Boltzmann action
+noise, online posteriors for the static, switching, and subgoal models; forty sampled paths per
+gate cell.
+
+**Found.** The zero-rate identity holds at a maximum gap of 10⁻¹²; true-goal mass rises 0.63 →
+0.89 → 1.00 → 1.00 as noise falls, monotone; after a switch the switching model puts 0.899 on
+the new goal while the static model holds 0.158. **GATES-PASSED.** The best-fit parameter
+curves from the paper's three experiments are saved for the figure-level half, which is the
+remaining part of the pass and is not claimed. Means: the substrate the estimator tournament
+(G134) needs now exists and behaves lawfully.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
