@@ -4,7 +4,7 @@
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
 archive, kept whole, mined but never deleted.
 
-## THE PLAN (the grounding he will never read, so it is written for me)
+## THE PLAN (overall plan for AI, not human consumption. The phases that are part of the plan are to be abbreviated, not removed, upon completion and record-transcribing to Findings/Theory. When a particular phase of the plan is complete, include that note as part of the test report.)
 
 The unit of analysis changed from one number per artifact to the recorded decision event, which
 carries target, alternatives, choice, dependencies, and context. Event recovery must validate
@@ -33,7 +33,7 @@ method sketch and its gate.
 |---|---|---|
 | **G130 · the event-recovery harness** | Five known-answer gates on synthetic decision events before any real corpus | **VALID (L56).** Two catches during the build: a mis-specified decoy arm replaced, and deterministic tie-breaking caught by the symmetry gate. One recorded eyebrow (unchanged arm mildly high inside its band) |
 | **PD-33 · essay-boundness decomposition** | Author against draft grouping on the 258-draft cache | **MAKER (L57).** Polish-side author share 0.262 vs depth 0.174, p = 6 × 10⁻⁷; draft shares tiny and equal. The maker-signature claim's second number |
-| **G128 · the alignment permutation null** | Text-correspondence broken 100× per family; do L45's landing depths survive? | **in the machine queue** (GPU, ~45 min) |
+| **G128 · the alignment permutation null** | Text-correspondence broken 100× per family; do L45's landing depths survive? | **done (L58): 6 of 10 cells REAL.** The late locus survives in all four decidable families; the early landings are partly matrix smoothness; SmolLM2 undecidable |
 
 ## Phase 1 — recreate the frontier before pushing past it
 
@@ -52,7 +52,7 @@ method sketch and its gate.
 
 | | study | method and gate | cost |
 |---|---|---|---|
-| **G136 · recreate ArgRewrite's own published task** | The corpus paper reports revision-purpose classification baselines at coarse and fine grain. Reproduce them with our tooling on their splits, author-split enforced. **Their published numbers become our known answer; matching them is the gate G129 runs behind** | Parse the annotation workbooks (parser exists from L42), features or the harness reader, confusion matrices by purpose | ~half day |
+| **G136 · recreate ArgRewrite's own published task** | The corpus paper reports revision-purpose classification baselines at coarse and fine grain. Reproduce them with our tooling, author-split enforced. **Their published numbers become our known answer; matching them is the gate G129 runs behind** | **Half landed (L59): 2,806 events extracted (G129's dataset); features arm at 0.857 coarse / 0.233 fine, and the signal is entirely in the delta.** Four reader arms run overnight, checkpointed; the paper-table comparison is owed on fetch | readers overnight; paper fetch next |
 | **G137 · recreate Bayesian inverse planning on the classic gridworld** | Baker, Saxe & Tenenbaum's goal inference from partial trajectories is the direct precedent for the whole project. Reproduce the canonical posterior-over-goals curves in the parent simulation's pymdp. **The substrate G134's estimator tournament runs on; qualitative match to the published curves is the gate** | Sim-side brief to ghost-scale; small state space, exact inference | sim-side, ~1 day |
 | **G138 · recreate the impossibility construction, then relax it** | Armstrong & Mindermann's planner/reward degeneracy, built as a runnable toy. **First reproduce unidentifiability** (the recreation), then add the three human priors one at a time (bounded hypothesis family, known transition model as expertise, near-optimality) and measure posterior narrowing at each step. The §7 disagreement made executable, and the sharpest recreate-then-push in the plan | Toy MDP, enumerable reward/planner pairs, posterior mass curves | ~1 day |
 

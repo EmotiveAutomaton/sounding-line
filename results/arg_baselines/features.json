@@ -1,0 +1,120 @@
+{
+ "coarse": {
+  "n": 2806,
+  "n_labels": 2,
+  "macro_f1": 0.8565839556131494,
+  "labels": [
+   "content",
+   "surface"
+  ],
+  "confusion": [
+   [
+    1119,
+    315
+   ],
+   [
+    86,
+    1286
+   ]
+  ],
+  "chance_f1_lowerbound": 0.5
+ },
+ "fine": {
+  "n": 2748,
+  "n_labels": 8,
+  "macro_f1": 0.23309286888449438,
+  "labels": [
+   "claims/ideas",
+   "conventions/grammar/spelling",
+   "evidence",
+   "general content development",
+   "organization",
+   "precision",
+   "warrant/reasoning/backing",
+   "word-usage/clarity"
+  ],
+  "confusion": [
+   [
+    4,
+    0,
+    0,
+    104,
+    0,
+    0,
+    41,
+    26
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    240
+   ],
+   [
+    0,
+    0,
+    12,
+    65,
+    0,
+    0,
+    32,
+    43
+   ],
+   [
+    5,
+    0,
+    1,
+    288,
+    0,
+    0,
+    112,
+    113
+   ],
+   [
+    1,
+    0,
+    0,
+    9,
+    0,
+    0,
+    5,
+    62
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    83
+   ],
+   [
+    0,
+    0,
+    0,
+    174,
+    0,
+    0,
+    180,
+    104
+   ],
+   [
+    0,
+    0,
+    0,
+    6,
+    0,
+    0,
+    6,
+    1030
+   ]
+  ],
+  "chance_f1_lowerbound": 0.125
+ }
+}

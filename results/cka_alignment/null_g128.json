@@ -1,0 +1,107 @@
+{
+  "reference": "Qwen/Qwen2.5-1.5B",
+  "n_perm": 100,
+  "families": {
+    "openai-community/gpt2-medium": {
+      "observed": {
+        "early": 0.041666666666666664,
+        "late": 0.8333333333333334
+      },
+      "null_band": {
+        "early": [
+          0.0,
+          0.625
+        ],
+        "late": [
+          0.0,
+          0.306249999999995
+        ]
+      },
+      "verdicts": {
+        "early": "SMOOTHNESS",
+        "late": "REAL"
+      }
+    },
+    "EleutherAI/pythia-1.4b": {
+      "observed": {
+        "early": 0.125,
+        "late": 0.625
+      },
+      "null_band": {
+        "early": [
+          0.0,
+          0.0
+        ],
+        "late": [
+          0.0,
+          0.0
+        ]
+      },
+      "verdicts": {
+        "early": "REAL",
+        "late": "REAL"
+      }
+    },
+    "HuggingFaceTB/SmolLM2-360M": {
+      "observed": {
+        "early": 0.28125,
+        "late": 0.75
+      },
+      "null_band": {
+        "early": [
+          0.0,
+          0.96875
+        ],
+        "late": [
+          0.0,
+          0.96875
+        ]
+      },
+      "verdicts": {
+        "early": "SMOOTHNESS",
+        "late": "SMOOTHNESS"
+      }
+    },
+    "openai-community/gpt2-large": {
+      "observed": {
+        "early": 0.0,
+        "late": 0.8333333333333334
+      },
+      "null_band": {
+        "early": [
+          0.0,
+          0.6020833333333316
+        ],
+        "late": [
+          0.0,
+          0.0
+        ]
+      },
+      "verdicts": {
+        "early": "SMOOTHNESS",
+        "late": "REAL"
+      }
+    },
+    "Qwen/Qwen2.5-0.5B": {
+      "observed": {
+        "early": 0.16666666666666666,
+        "late": 0.6666666666666666
+      },
+      "null_band": {
+        "early": [
+          0.0,
+          0.125
+        ],
+        "late": [
+          0.0,
+          0.041666666666666664
+        ]
+      },
+      "verdicts": {
+        "early": "REAL",
+        "late": "REAL"
+      }
+    }
+  },
+  "verdict": "6 of 10 loci-cells REAL"
+}

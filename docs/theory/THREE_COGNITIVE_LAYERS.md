@@ -238,7 +238,7 @@ diagnostic. The route back in for the three-locus version, nobody having tried i
 | **G69** | The dose signal peaks deeper as rung rises | **REJECTED (test).** The apparent shifts were two near-tied fixed loci trading rank; regenerated verdicts show fixed peaks in all eleven families |
 | **G21** | Block 0 is a pure salience gate, presence without category | **REJECTED (test) at power, all eleven families, including the home-family half-survival.** Presence is near-flat through every stack (block 0 within a few points of the best block everywhere), so the scattered "peak locations" were argmaxes of level curves, the home block-0 peak included; and block 0 carries category at 8 to 9× chance in every family. **No model has a presence-only stage at its front door** |
 | **L14** | The depth profile is bimodal | **REJECTED (test).** 27 of 36 runs unimodal; the exceptions are two families and appear in their no-maker runs too |
-| **G124** | Aligned by computational events rather than depth fractions, the loci land somewhere lawful across families | **SUPPORTED (test), first pass.** Activation-similarity alignment against five families: the home early locus matches a block in the first sixth of the stack in four of five, and the late locus lands at 62 to 83% depth in all five. The exception is SmolLM2, the odd family again, whose best match to the early events sits 28% deep. No permutation null yet |
+| **G124** | Aligned by computational events rather than depth fractions, the loci land somewhere lawful across families | **SUPPORTED for the late locus, softened for the early (test, with its null).** The late landings (62 to 83% depth) survive text-correspondence breaking in all four decidable families, so the deep alignment is carried by shared per-text computation. The early landings survive the null only where it is tight and are reproduced by smoothness in both gpt2 members, since early blocks match early-to-early even for mismatched texts. SmolLM2's null spans the stack and decides nothing, the odd family again. Thirty texts, one corpus |
 | **G126** | The maker-blindness of the profiles survives translation into defensible units | **SUPPORTED (test), all eight families.** Write norm, signed affect work, and probe signal-to-noise per block, QC-clean throughout. The write/work geography is near-identical with and without a maker at every block, and concentrates at the input edge universally. Discriminability placement obeys no law, early at both Qwen sizes and scattering early-to-late across the others with size reversing direction between families; **the home family's early placement, where this project's loci were chosen, is the exception rather than the rule** |
 
 **What the table says.** Where things sit in a model is a fact about the model, not about the
@@ -258,8 +258,9 @@ It sits early only in the home family, which is where this project's loci were c
 caution rather than a coincidence to lean on. What survives of the umbrella beyond that is narrow.
 The residual-trimodal instrument has a proven operating regime in simulation and has never been
 pointed at a real model, and the polish/leakage depth split has never run at all. Confidence: the
-rejections are replicated and controlled; the alignment and defensible-units results are each one
-bad test away, with the alignment's null still owed.
+rejections are replicated and controlled; the defensible-units result is one bad test away; the
+alignment now carries its null, which confirms the late-locus half outright and demotes the
+early-locus half to partly generic geometry, both on thirty texts and one corpus.
 
 ### Tracking: reconstruction quality follows the maker
 

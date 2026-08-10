@@ -1975,6 +1975,69 @@ specifically the maker.** The near-zero draft shares also bound how much these w
 can know about revision state, which sits consistently with L42's relabel. One corpus, one
 window size; the cross-corpus check rides along free whenever another windowed cache exists.
 
+## L58 · The alignment null lands split: the late locus is real, the early landings are partly generic geometry
+
+**Hypothesis.** *(G128, the null L45 owed.)* If the event alignment's lawful landing depths are an
+artifact of similarity-matrix smoothness, they should survive breaking text correspondence; if
+they are carried by shared per-text computation, the null should scatter.
+
+**Method.** `run_cka_null.py`: the block-matching recomputed 100 times per family with reference
+activations of text i paired against target activations of a permuted text j; the observed
+early/late landing depths tested against the null's central 95% band.
+
+| family | early locus | late locus |
+|---|---|---|
+| gpt2-medium | inside the null band | **REAL** (0.83 against a band topping at 0.31) |
+| gpt2-large | inside the null band | **REAL** (0.83 against a collapsed band) |
+| pythia-1.4b | **REAL** | **REAL** |
+| Qwen2.5-0.5B | **REAL** | **REAL** |
+| SmolLM2-360M | undecidable | undecidable |
+
+*REAL means the observed landing depth falls outside what mismatched-text pairings produce;
+"inside" means smoothness alone reproduces it; SmolLM2's null bands span nearly the whole stack,
+so nothing could fall outside them.*
+
+**Verdict: 6 of 10 cells REAL, and the split is informative.** The **late** locus survives the
+null in all four decidable families, so the deep event alignment is carried by genuine shared
+per-text computation. The **early** landings survive only where the null is tight (pythia, small
+Qwen) and are reproduced by smoothness in both gpt2 members, which makes sense of itself, since
+early blocks process input generically and match early-to-early even for mismatched texts. L45
+softens accordingly. The lawful late-locus table keeps its evidential weight; the early-locus
+lawfulness is partly generic geometry; and the family that refused the alignment (SmolLM2) is
+also the one whose null cannot decide, consistent with its odd-family record. One caution rides
+the whole battery: thirty texts, one corpus.
+
+## L59 · The ArgRewrite recreation, first two arms: the purpose signal lives in the delta
+
+**Hypothesis.** *(G136, Phase 1's first owed recreation.)* Reproduce the corpus's own published
+classification task (revision purpose at coarse and fine grain) with our tooling, so the
+published numbers become our known answer and the event extraction becomes G129's dataset.
+
+**Method.** `run_arg_baselines.py`. The extract arm parses every annotation workbook on the real
+two-sheet schema (Old Draft / New Draft, aligned sentence indices, purpose columns at two
+levels), yielding **2,806 labelled revision events across 86 authors and 26 fine labels**, cached
+as the choice-event dataset. The features arm runs bag-of-words logistic classification under
+author-split five-fold cross-validation, first on the raw sentence pair, then with explicit diff
+tokens (words added, words removed) featured.
+
+| arm | coarse (surface/content) | fine (8 labels ≥ 30 support) |
+|---|---|---|
+| sentence pair only | 0.503 macro-F1 | 0.109 |
+| with diff tokens | **0.857 macro-F1** | 0.233 |
+| chance floor | ~0.5 (binary) | 0.125 |
+
+*Macro-F1 averages per-class accuracy so frequent classes cannot carry it; author-split means no
+writer appears in both train and test.*
+
+**What it means, two things.** First, the recreation's feature arm lands at 0.857 coarse, in the
+plausible published range, with fine purposes hard for a linear model, consistent with the
+field's experience; the direct comparison to the paper's own tables is owed on fetching the paper
+and is deliberately not quoted from memory. Second, and the design fact for everything
+downstream: **on the raw sentence pair the classifier learns nothing, because every essay answers
+one prompt and sentence text encodes topic; the entire signal is in the delta.** G129's candidate
+scoring reads deltas or it reads nothing. The four reader arms (a local model classifying each
+event, both cycles, both grains, checkpointed) run overnight and complete the recreation.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
