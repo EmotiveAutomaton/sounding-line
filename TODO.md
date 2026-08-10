@@ -37,6 +37,14 @@ method sketch and its gate.
 
 ## Phase 1 — recreate the frontier before pushing past it
 
+**The pass standard, his ruling (2026-08-10).** A recreation passes by reproducing the published
+**exact values**, close enough that a thousandth-place discrepancy reads as a typo, never by
+reproducing the conclusions. Landing well below a published number means our model of their
+pipeline is wrong, and the gap is a defect to hunt, not a caveat to record. This includes
+downloading, running, and then removing the exact model a paper used. Stochastic and version
+variation may be *mentioned*, never leaned on. Nothing below advances to its Phase 2 extension
+until its recreation passes this bar.
+
 **Already in hand**, each one a recreation that already ran here, with its landing:
 
 | anchor | our recreation | landed |
@@ -54,7 +62,7 @@ method sketch and its gate.
 |---|---|---|---|
 | **G136 · recreate ArgRewrite's own published task** | The corpus paper reports revision-purpose classification baselines at coarse and fine grain. Reproduce them with our tooling, author-split enforced. **Their published numbers become our known answer; matching them is the gate G129 runs behind** | **Half landed (L59): 2,806 events extracted (G129's dataset); features arm at 0.857 coarse / 0.233 fine, and the signal is entirely in the delta.** Four reader arms run overnight, checkpointed; the paper-table comparison is owed on fetch | readers overnight; paper fetch next |
 | **G137 · recreate Bayesian inverse planning on the classic gridworld** | Baker, Saxe & Tenenbaum's goal inference from partial trajectories is the direct precedent for the whole project. Reproduce the canonical posterior-over-goals curves in the parent simulation's pymdp. **The substrate G134's estimator tournament runs on; qualitative match to the published curves is the gate** | Sim-side brief to ghost-scale; small state space, exact inference | sim-side, ~1 day |
-| **G138 · recreate the impossibility construction, then relax it** | Armstrong & Mindermann's planner/reward degeneracy, built as a runnable toy. **First reproduce unidentifiability** (the recreation), then add the three human priors one at a time (bounded hypothesis family, known transition model as expertise, near-optimality) and measure posterior narrowing at each step. The §7 disagreement made executable, and the sharpest recreate-then-push in the plan | Toy MDP, enumerable reward/planner pairs, posterior mass curves | ~1 day |
+| **G138 · recreate the impossibility construction, then relax it** | Armstrong & Mindermann's planner/reward degeneracy, built as a runnable toy, then relaxed with the three human priors | **done (L60): RECREATED at exactly 0.5/0.5, then NARROWS.** Bounded family 20×, known planner 2×, both 40×, noise-robust. The bounded family is the load-bearing prior. Next scale: the G137 gridworld |
 
 ## Phase 2 — the program proper, each step behind its anchor
 

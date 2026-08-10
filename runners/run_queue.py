@@ -83,6 +83,11 @@ STAGES: list[dict] = [
      "cmd": [PY, "runners/run_am_construction.py"],
      "produces": "results/am_construction/summary.json", "needs": [],
      "why": "G138: reproduce the impossibility degeneracy exactly, then relax it with the three human priors"},
+    # ── DAY10d: the capability pass -- recreate the paper's exact numbers (his standard, 08-10)
+    {"name": "arg_replication", "est": 90,
+     "cmd": [PY, "runners/run_arg_replication.py"],
+     "produces": "results/arg_baselines/replication.json", "needs": [],
+     "why": "G136-exact: their features, their USE encoder, their XGBoost grid, their 5-fold -- PASS only at two-decimal match"},
     # ── DAY10c: G129-pilot (zero-shot choice recovery, preregistered in the runner) + PD-33 replication
     {"name": "argrec_coarse_k2_recovery", "est": 40,
      "cmd": [PY, "runners/run_arg_recovery.py", "--grain", "coarse", "--k", "2", "--arm", "recovery"],

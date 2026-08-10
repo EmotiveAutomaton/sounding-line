@@ -2042,7 +2042,52 @@ for G129 is the published number, not our own.
 **And the design fact for everything downstream.** On the raw sentence pair the classifier learns
 nothing, because every essay answers one prompt and sentence text encodes topic; **the entire
 signal is in the delta.** G129's candidate scoring reads deltas or it reads nothing, and the
-pilot's prompts are built that way. The remaining reader arms complete overnight.
+pilot's prompts are built that way. Reader arms so far: cycle-one coarse 0.664 and fine 0.254
+(against 0.5 and 0.125 chance), cycle-two coarse 0.648, replicating cycle one's level; the last
+arm completes in the queue.
+
+**Addendum, the raised standard (2026-08-10, his ruling).** The comparison above does not count
+as a pass. A recreation passes by reproducing the published exact values, and 0.857 against 0.93
+means our model of their pipeline was wrong, which the protocol details confirm on the fetch.
+Three identified divergences: their five-fold has **no author grouping** (ours was author-split,
+strictly harder), their features are length, position, POS-tag and transition-word frequencies
+with **Universal Sentence Encoder** embeddings of the pair, and their classifier is **XGBoost**
+over a stated grid. The exact-replication runner reproduces all of it (their encoder downloaded
+to a local cache for the run), extraction v2 closes the dataset gap (3,365 examples against
+their 3,238, within four percent, purposes unioned across both sheets and multi-purpose cells
+split), and the pass gate is a two-decimal match on the Features+USE cells of both tasks. In the
+queue; the zero-shot reader arms (0.664 coarse, 0.254 fine against 0.125 chance so far) stand as
+a separate arm and are not the pass.
+
+## L60 · The impossibility construction reproduces exactly, and the bounded family is the prior that does the work
+
+**Hypothesis.** *(G138, Phase 1's sharpest recreate-then-push.)* First reproduce Armstrong &
+Mindermann's reward/planner degeneracy exactly; then add the three human priors §7 of the triple
+inference leans on, one at a time, and measure posterior narrowing.
+
+**Method.** `run_am_construction.py`: a seven-state chain world, exact enumeration over 2,186
+reward functions × four planners (optimal, anti-optimal, lazy, weakly rational), posterior over
+pairs from the observed policy; 20 seeds per cell, observation noise swept 0 to 0.2.
+
+| condition | posterior mass on the true reward (clean observations) |
+|---|---|
+| no priors (the theorem's setting) | 0.008 |
+| A: bounded, human-shaped reward family | 0.156 |
+| B: planner known near-optimal | 0.015 |
+| C: both | 0.308 |
+
+*Mass 1.0 would be unique identification; the theorem's two-reward construction first reproduced
+at exactly 0.5/0.5, the recreation gate, passed to the digit.*
+
+**Verdict: RECREATED+NARROWS.** The recreation is exact, and the push orders the three
+assumptions. **The bounded hypothesis family is the load-bearing prior**, worth twenty times the
+baseline alone, while a known planner barely doubles it, and the two compound to forty times,
+holding under noise. Read against §7's table, "convergent midbrains" is the assumption doing the
+heavy lifting in this toy, and near-optimality only pays once the family is already bounded.
+Means: the project's convergence position now has a running existence proof at toy scale, that
+substantive priors buy large posterior narrowing without unique identification (0.31 is nowhere
+near 1.0, exactly as the position claims). A seven-state chain with one-step lookahead is the
+loudest caveat; the gridworld recreation (G137) is where this grows teeth.
 
 ## L4 · Can weak effects be stacked into a detector?
 

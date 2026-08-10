@@ -430,16 +430,18 @@ adoptable only conditionally.
 | **lit** | A reward function is not identifiable from one episode | **SUPPORTED (READ).** Amin, Jiang & Singh state the decomposition and the consequence |
 | **lit** | Recovery stays impossible with unlimited episodes | **CONTESTED (READ).** Armstrong & Mindermann and successors prove partial identifiability persists; we dispute that their conditions describe a human reading a human artifact, as a convergence claim |
 | **G61** | An explicit competence estimate improves goal recovery | **OPEN.** If yes, the "fatal unknown" is an input |
-| **G138** | The impossibility construction, reproduced exactly, then relaxed with the three human priors one at a time | **queued (test-side toy, in the machine queue).** The recreation gate is the exact 0.5/0.5 degeneracy; the push is posterior narrowing under each added prior, the disagreement made executable |
+| **G138** | The impossibility construction, reproduced exactly, then relaxed with the three human priors one at a time | **RECREATED+NARROWS (test-side toy, L60).** The degeneracy reproduced at exactly 0.5/0.5; the bounded human-shaped family alone narrows the posterior twentyfold, known near-optimality alone barely doubles it, both together fortyfold, holding under noise. Convergence without unique identification, at toy scale, with the seven-state world as the loud caveat |
 
-**State of the section's claim.** The position is fully articulated and almost fully unmeasured.
-The theorems are conceded as theorems, the disagreement is confined to whether their conditions
-describe a human reading a human artifact, and the three priors the response leans on are
-exactly the three assumptions the proofs name as missing, which is either the argument's strength
-or its circularity, and only the running toy decides which. Its recreation-then-relax design is
-the sharpest test the section has ever had, and G61 remains the cheap real-model version nobody
-has run. Confidence: the literature reading is replicated in its sources; the response is
-untested, logic only, with its first instrument in the queue tonight.
+**State of the section's claim.** The position now has its first number and the number behaves.
+The theorems are conceded as theorems, reproduced here to the digit, and the disagreement's
+content, that substantive human priors buy useful narrowing without unique identification, is
+what the toy shows, with posterior mass rising fortyfold under the combined priors while staying
+far from certainty. The ordering inside the result sharpens the position, since the bounded
+hypothesis family carries most of the effect and near-optimality pays only after boundedness,
+which makes "convergent midbrains" the assumption the whole response leans on hardest. A
+seven-state chain is not a maker reading an artifact; the gridworld substrate and G61's cheap
+real-model test are where this either grows or dies. Confidence: the literature reading is
+replicated in its sources; the narrowing result is one bad test away, one toy world deep.
 
 ## §8. Scope and boundaries
 

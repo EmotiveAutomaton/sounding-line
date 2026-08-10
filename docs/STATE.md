@@ -72,7 +72,11 @@ boundary specification with a written wake condition.
 
 **The queue, in order.** Re-adjudicate stale labels (done, L2/L30/L34/L36/L40/L42). Build and
 validate the shared event-level recovery harness (G130, **done, HARNESS-VALID, L56**). Then the
-frontier-recreation phase his 08-09 evening directive inserted ahead of everything else: recreate
+frontier-recreation phase his 08-09 evening directive inserted ahead of everything else. **The
+pass standard (his ruling, 08-10): a recreation passes only by reproducing published exact
+values to roughly typo distance; a large shortfall is a defect in our model of their pipeline
+and is hunted, not caveated; download, run, and remove the exact models papers used where
+needed.** The recreations: recreate
 ArgRewrite's published revision-classification baselines (G136, the gate G129 runs behind),
 recreate the Baker–Saxe–Tenenbaum gridworld in the parent sim (G137, G134's substrate), recreate
 the Armstrong–Mindermann unidentifiability construction then relax it with the three human priors
