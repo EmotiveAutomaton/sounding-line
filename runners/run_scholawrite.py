@@ -83,6 +83,11 @@ def main() -> None:
                     help="evaluate on this shipped split (train always the shipped train)")
     ap.add_argument("--lopo", type=int, default=None,
                     help="leave-one-project-out fold index; overrides --eval")
+    ap.add_argument("--faithful", action="store_true",
+                    help="the authors' exact protocol per the 2026-08-11 subagent pin: "
+                         "full before-text head-truncated at 512, the <INPUT><BT>...</BF> "
+                         "wrapper with its published typo, six added special tokens, balanced "
+                         "class weights with the arange hack, seed 42; pair with --epochs 10")
     args = ap.parse_args()
     RESULTS.mkdir(parents=True, exist_ok=True)
 
@@ -149,6 +154,8 @@ def main() -> None:
         whole = ds[splits[0]].train_test_split(test_size=0.2, seed=42)
         train, test = whole["train"], whole["test"]
         split_note = "80/20 seed-42 (no published split shipped; recorded deviation)"
+    if args.faithful:
+        suffix += "_faithful"
     labels = sorted(set(train[label_col]) | set(test[label_col]))
     lab2i = {l: i for i, l in enumerate(labels)}
     print(f"{len(train)} train / {len(test)} test, {len(labels)} labels ({split_note})")
@@ -207,13 +214,29 @@ def main() -> None:
                                   AutoTokenizer)
         name = {"bert": "bert-base-uncased", "roberta": "roberta-base"}[args.arm]
         acquire_gpu_lock()
+        if args.faithful:
+            torch.manual_seed(42)
+            np.random.seed(42)
         tok = AutoTokenizer.from_pretrained(name)
         model = AutoModelForSequenceClassification.from_pretrained(
-            name, num_labels=len(labels)).cuda()
+            name, num_labels=len(labels))
+        if args.faithful:
+            for t in ("<INPUT>", "</INPUT>", "<BT>", "</BT>", "<PWA>", "</PWA>"):
+                tok.add_tokens(t)
+            model.resize_token_embeddings(len(tok))
+        model = model.cuda()
 
         def make_loader(split, shuffle):
-            enc = tok([str(x)[-1500:] for x in split[text_col]], truncation=True,
-                      max_length=512, padding="max_length", return_tensors="pt")
+            if args.faithful:
+                # Their exact input: full before-text, head-kept by right truncation at
+                # model_max_length; the </BF> closing tag is the published run's typo, kept.
+                texts = ["<INPUT><BT>" + str(x) + "</BF> </INPUT>"
+                         for x in split[text_col]]
+                enc = tok(texts, truncation=True, padding="max_length",
+                          return_tensors="pt")
+            else:
+                enc = tok([str(x)[-1500:] for x in split[text_col]], truncation=True,
+                          max_length=512, padding="max_length", return_tensors="pt")
             ys = torch.tensor([lab2i[l] for l in split[label_col]])
             data = torch.utils.data.TensorDataset(enc["input_ids"],
                                                   enc["attention_mask"], ys)
@@ -222,12 +245,27 @@ def main() -> None:
         tr_loader = make_loader(train, True)
         te_loader = make_loader(test, False)
         opt = torch.optim.AdamW(model.parameters(), lr=2e-5)
+        loss_fn = None
+        if args.faithful:
+            from sklearn.utils.class_weight import compute_class_weight  # noqa: PLC0415
+            y_tr = np.array([lab2i[l] for l in train[label_col]])
+            aug = np.concatenate((y_tr, np.arange(len(labels))))
+            cw = compute_class_weight(class_weight="balanced",
+                                      classes=np.unique(aug), y=aug)
+            cwt = torch.tensor(cw, dtype=torch.float)
+            cwt = cwt / cwt.sum()
+            loss_fn = torch.nn.CrossEntropyLoss(weight=cwt.cuda())
         model.train()
         for ep in range(args.epochs):
             for bi, (ids, mask, ys) in enumerate(tr_loader):
                 opt.zero_grad()
-                loss = model(input_ids=ids.cuda(), attention_mask=mask.cuda(),
-                             labels=ys.cuda()).loss
+                if loss_fn is not None:
+                    logits = model(input_ids=ids.cuda(),
+                                   attention_mask=mask.cuda()).logits
+                    loss = loss_fn(logits, ys.cuda())
+                else:
+                    loss = model(input_ids=ids.cuda(), attention_mask=mask.cuda(),
+                                 labels=ys.cuda()).loss
                 loss.backward()
                 opt.step()
                 if bi % 100 == 0:
@@ -242,7 +280,19 @@ def main() -> None:
         f1 = float(f1_score(truths, preds, average="weighted", zero_division=0))
         out = {"arm": args.arm, "n_train": len(train), "n_test": len(test),
                "weighted_f1": f1, "gate": GATES[args.arm], "epochs": args.epochs,
-               "split": split_note}
+               "split": split_note, "faithful": bool(args.faithful)}
+        if args.faithful:
+            from sklearn.metrics import classification_report            # noqa: PLC0415
+            rep = classification_report([labels[t] for t in truths],
+                                        [labels[p] for p in preds],
+                                        output_dict=True, zero_division=0)
+            out["per_class_f1"] = {k: round(v["f1-score"], 3) for k, v in rep.items()
+                                   if isinstance(v, dict) and "f1-score" in v
+                                   and k not in ("macro avg", "weighted avg")}
+            out["report_weighted_f1"] = round(rep["weighted avg"]["f1-score"], 4)
+            out["paper_inconsistency_note"] = (
+                "the published 0.64 is unreachable from the paper's own v5 per-class "
+                "table (~0.59 on test); the per-class profile is the sharper target")
         print(f"{args.arm} weighted-F1 {f1:.3f} (gate {GATES[args.arm]})")
 
     if args.lopo is not None:

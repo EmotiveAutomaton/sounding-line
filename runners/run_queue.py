@@ -612,6 +612,30 @@ for _k in range(5):
                    "needs": ["results/scholawrite/schema.json"],
                    "why": f"G141 leak-free protocol, second architecture, project {_k}"})
 
+# ── NIGHT12c 2026-08-11: the faithful ScholaWrite arms per the subagent protocol pin --
+# balanced class weights, head-of-document truncation, the published wrapper typo, 10 epochs.
+# The pass target is the paper's own per-class table (its printed 0.64 is internally
+# inconsistent by ~0.05); the revision diff gates interpretation.
+STAGES += [
+    {"name": "sw_revision_diff", "est": 40,
+     "cmd": [PY, "runners/run_sw_revision_diff.py"],
+     "produces": "results/scholawrite/revision_diff.json",
+     "needs": ["results/scholawrite/schema.json"],
+     "why": "G141: is revision 'anonymous_data' (pinned by their code) identical to main?"},
+    {"name": "scholawrite_bert_faithful", "est": 400,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert", "--faithful",
+             "--epochs", "10"],
+     "produces": "results/scholawrite/bert_faithful.json",
+     "needs": ["results/scholawrite/schema.json"],
+     "why": "G141 faithful arm: their exact protocol; compare the per-class profile, not one digit"},
+    {"name": "scholawrite_roberta_faithful", "est": 400,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "roberta", "--faithful",
+             "--epochs", "10"],
+     "produces": "results/scholawrite/roberta_faithful.json",
+     "needs": ["results/scholawrite/schema.json"],
+     "why": "G141 faithful arm, second architecture"},
+]
+
 # ── NIGHT12b 2026-08-11: the composition arm the dedup hunt earned (CPU, runs beside the GPU)
 STAGES.append({"name": "arg_fine_noprecision", "est": 240,
                "cmd": [PY, "runners/run_arg_replication.py", "--drop-raw", "precision",

@@ -2538,6 +2538,47 @@ the level-0 fallback our extractor uses where level-1 annotation is empty. The c
 (fine task with 'precision' dropped, n = 3,238) is queued; the multi-purpose pick-priority
 census is the next cheap diagnostic if it falls short.
 
+## L77 · The ScholaWrite protocol, pinned at source: two missing levers, a published bug, and a self-inconsistent target
+
+**Hypothesis.** *(G141.)* The published training and evaluation protocol, recovered from
+primary sources, explains why 0.64 matched no shipped protocol under our recipe (L75).
+
+**Method.** Research subagent over primary sources: the arXiv LaTeX for four paper versions
+read directly, the authors' repository cloned with its git history, the HF dataset API, and
+the project's GitHub issues. Every load-bearing claim below is from a READ source.
+
+**Found.**
+1. **The shipped train/test is the published split**, random over keystrokes, so the
+   within-project leak we measured is inherent to the published protocol; no leak-free
+   variant exists in the paper. The small test split is the 300-per-label budget subset built
+   for the LLM baselines (GPT-4o's 0.08 is on it, definitively), not the agreement subset;
+   the 0.71 agreement number is a 12-class, 1,011-item quantity including an Artifact class,
+   not comparable to the model F1s.
+2. **Two protocol levers our recipe lacked.** Balanced class-weighted cross-entropy (built
+   with an arange hack that adds one phantom instance per class, then weight-sum
+   normalization), and input equal to the FULL before-text right-truncated at 512 tokens,
+   which keeps the near-invariant head of the LaTeX document, wrapped in special tags whose
+   mismatched closing tag is a real bug in the published run; the senior author's own open
+   issue says it "silently corrupts all training samples" and calls for "retraining
+   compromised checkpoints." Also: 10 epochs, weight decay 0.01, no dev set, no early
+   stopping, the final-epoch checkpoint, and the reported metric read off a printed
+   classification report's weighted-average row.
+3. **The published 0.64 is not self-consistent.** The paper's own per-class table (14 classes
+   listed; Scientific Accuracy silently absent) reweights to about 0.59 under the full test
+   distribution and about 0.51 under the small split. No class distribution reaches 0.64
+   from the paper's own per-class values.
+4. The training code pins a dataset revision (`anonymous_data`) that outsiders cannot read;
+   our gated access can, so the membership diff is runnable here and gates interpretation.
+
+**Means, the model-structure record.** Our overshoot decomposes into three named causes: our
+tail-of-text input saw the live editing region where theirs saw the document head, our
+unweighted loss rode the 57 percent majority class where theirs sacrificed it, and both
+recipes share the split leak. The recreation's gate is redefined honestly: matching a printed
+digit the paper's own table contradicts is not a pass, so the faithful arms reproduce their
+exact pipeline, bug included, and the pass comparison is the per-class F1 profile against
+their table, with the headline expected in the 0.59 to 0.64 band. Queued: the revision diff,
+then both faithful arms.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
