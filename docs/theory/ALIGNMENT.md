@@ -244,7 +244,7 @@ numbers precisely, and simulation results need somewhere to live). Kept short by
 | anchor | recreation state |
 |---|---|
 | Armstrong & Mindermann's unidentifiability construction | **PASSED (test-side toy, L60).** The reward/planner degeneracy reproduced at exactly 0.5/0.5, then relaxed: the bounded human-shaped family narrows the posterior twentyfold, known near-optimality twofold, both fortyfold. The one exact-value pass the recreation phase holds so far |
-| Baker, Saxe & Tenenbaum's inverse planning | **HALF-PASSED (L63).** The three models pass their analytic gates (the zero-switch identity at 10⁻¹², monotone convergence, switch-tracking); the figure-level comparison against the published best-fit correlations (.83/.98/.94, .57/.95/.58, .96) is the owed half |
+| Baker, Saxe & Tenenbaum's inverse planning | **HALF-PASSED (L63), the other half now runnable (L78).** The three models pass their analytic gates (the zero-switch identity at 10⁻¹², monotone convergence, switch-tracking); the human judgment data is digitized from the paper's vector figures and validated eight for eight against the printed correlations, the fitting procedure is pinned from the supplementary appendix, and the owed figure arm has a concrete implementation list (the H heuristic, the exact switch parameterization, the wide goal prior, the Exp-3 z-score pipeline, stimulus geometry) |
 | the estimator tournament over these substrates (G134) | **NOT STARTED**, and it is the step where these recreations stop being recreations and start pricing the residualisation estimator's failure boundary |
 
 What this buys the dormant file: when the wake condition is ever met, the impossibility results

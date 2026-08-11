@@ -2579,6 +2579,54 @@ exact pipeline, bug included, and the pass comparison is the per-class F1 profil
 their table, with the headline expected in the 0.59 to 0.64 band. Queued: the revision diff,
 then both faithful arms.
 
+## L78 · The BST figure-level half becomes runnable: the human data digitized from vector figures and validated eight for eight
+
+**Hypothesis.** *(G137.)* The figure-level half of the inverse-planning recreation needs the
+paper's human judgment data, which no archive supplies; the question was whether it is
+recoverable at all.
+
+**Method.** Research subagent over primary sources: both PDF versions of the paper, the
+11-page supplementary appendix (the formal model specification, freely hosted by the
+publisher's CDN), and the first author's successor codebase. The decisive move: every figure
+in the paper is pure vector, the scatter markers are zero-length dot paths whose coordinates
+decode to data units, so the agent extracted the marker sets and rebuilt the data. Validation
+is threefold in the source and re-run locally: recomputing Pearson r from the extracted
+columns reproduces every printed correlation; consecutive rating triples sum to 1.000,
+matching the paper's per-stimulus normalization; and the human coordinates are identical
+across model panels to five decimal places.
+
+| experiment | recomputed r (M1 / M2 / M3 / H) | printed |
+|---|---|---|
+| Exp 1 (Fig 5, 100 triples) | .8271 / .9780 / .9424 / .9658 | .83 / .98 / .94 / .97 |
+| Exp 2 (Fig 8, 285 points) | .5804 / .9501 / .5892 / .9178 | .58 / .95 / .59 / .92 |
+
+*Caption: correlations recomputed from the digitized human and model columns against the
+paper's printed values; the local re-check (`run_bst_refcheck.py`) passes all eight. The
+reference data lives at `results/bst2009_reference/` with the extraction scripts.*
+
+**Found.** The behavioral data is recovered, not approximated: 100 Experiment-1 stimuli, 95
+Experiment-2 points, and the complete 32-value Experiment-3 human side, with the
+targeted-analysis subset recoverable as a flag. The exact fitting procedure is pinned from
+the appendix: plain Pearson pooled over all conditions and judgment points; grids of ten
+beta values 0.5 to 5 and twenty gamma or kappa values 0.05 to 1; bootstrap cross-validation
+resampling data points (not subjects), ten thousand iterations, training size 50 for
+Experiments 1 and 2 and 20 for Experiment 3; Experiment 3 alone maps model log-odds through
+z-scores and the normal CDF before correlating.
+
+**Means, the model-structure record.** Four of our recorded gate facts were wrong or
+incomplete and are corrected in the same pass: the M3 parameters we carried for Experiment 1
+were Experiment 3's; best-fit and cross-validated values are different numbers per cell and
+must never be crossed; the H heuristic (M2 with gamma exactly 1) was missing from our
+implementation plan entirely, and it beats M3 in both experiments, a headline of the paper;
+and the goal prior is uniform over all non-obstacle grid squares, not the three marked
+goals. Two contradictions live in the source itself, the text's 99 stimuli against the
+figure's 100 distinct triples, and Fig 5 against Fig 6f on M3's beta, so an off-by-one in
+stimulus alignment is expected rather than alarming. Owed to the figure arm now: the H
+model, the exact gamma parameterization with its self-transition mass, the wide prior, the
+Experiment-3 pipeline, and the stimulus geometry extraction from Fig 3 (walls are filled
+rects, paths are positioned glyphs, so it decodes the same way). No independent quantitative
+replication of this paper exists anywhere the agent could find; ours would be the first.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
