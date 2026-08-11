@@ -2907,6 +2907,54 @@ export), which the archaeology subagent is resolving; its answer either supplies
 pin to try or closes the binary row as encoder-version indeterminacy with the gap bounded at
 three to four points.
 
+## L85 · The binary gap is not the encoder: two checkpoints agree, and nineteen string-diff features reach their Features row
+
+**Hypothesis.** *(G136.)* The residual 3 to 4 point binary shortfall (L84) is encoder-version
+drift between their 2021-era sentence encoder and our current export.
+
+**Method.** Research subagent, but this one tested rather than argued: our exact numbers
+reproduced first, then each candidate run directly on the real task with the published
+hyperparameters and five folds. Encoder variants swapped (the transformer export against the
+deep-averaging export, the only two readings of their one-sentence description, both released
+before their submission), classifier families compared on identical embeddings, tree method
+and fold stratification varied, duplicate and author leakage audited, then a headroom probe
+with nineteen cheap surface features measuring what changed.
+
+| candidate | effect on binary macro F1 |
+|---|---|
+| encoder variant (deep-averaging against transformer) | ≤ 0.3 points, mixed sign |
+| classifier family (logistic, linear and radial SVM against boosted trees) | boosted trees already best; ceiling ~.876 |
+| tree method (histogram, exact, approximate) | 0 to 0.3 points |
+| stratified folds | −0.4, the wrong direction |
+| duplicate pairs, author leakage | zero; ±0.7 mixed |
+| **nineteen string-diff features alone** | **.8968 F1 / .8993 accuracy** |
+
+*Caption: each candidate measured on our own pipeline. The last row is nineteen integer
+features, no embeddings, against their published Features row of .90/.90.*
+
+**Found.** The encoder hypothesis is refuted: the two candidate checkpoints agree to a
+quarter point on every arm, and no classifier family exceeds .876 on either. Meanwhile
+nineteen surface measures of the delta beat all thousand-dimensional embedding
+representations and land on their Features row, and **adding embeddings to them costs a
+point**. Forty-eight percent of these pairs have one empty side, so how much changed is most
+of the available signal. The distinguishing signature is structural: their arms rise
+monotonically (.90, .92, .93) while ours plateau and invert, embeddings never beating counts.
+
+**Means, the model-structure record.** The irreducible unknown is upstream of everything we
+had been varying. Their pairs came from a sentence aligner named only in a **deleted line of
+the paper's own source** (a 2014 sentence-level alignment method, struck before publication),
+and matching their example count and class balance does not pin the alignment, since two
+aligners can agree on both while differing in how semantically coherent each pair is. Tighter
+pairs would make embeddings informative, which is exactly the difference between their
+monotone rise and our plateau. Compounding it: the two-vector combination is unstated, and
+the reported cells may be maxima of the randomized search the paper describes. So the honest
+close is **the Features row is reproducible and the embedding rows are not reproducible from
+the published description**, gap bounded at 3.3 points best against best, with author contact
+the only remaining route. Two hazards of ours were fixed in the same pass: thread count was
+tied to whatever else the host was running (now pinned), and the change-feature finding
+transfers directly to our own instruments, since a revision is defined by its delta and no
+representation that fails to state the delta will carry the task.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

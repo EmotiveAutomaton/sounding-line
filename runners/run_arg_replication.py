@@ -63,6 +63,44 @@ TRANSITIONS = ("however", "therefore", "moreover", "furthermore", "consequently"
 TAGSET19 = ("ADJ", "ADP", "ADV", "AUX", "CCONJ", "CONJ", "DET", "INTJ", "NOUN", "NUM",
             "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X", "SPACE")
 
+
+def change_features(old: str, new: str) -> list[float]:
+    """Nineteen surface measures of WHAT CHANGED between the two sentences.
+
+    The pair tasks' load-bearing signal (L85): a revision is defined by its delta, and
+    neither a bare concatenation of sentence embeddings nor per-sentence counts state the
+    delta anywhere. Half these pairs have one empty side, so 'how much changed' is most of
+    the recoverable structure.
+    """
+    from difflib import SequenceMatcher                               # noqa: PLC0415
+    ot, nt = old.split(), new.split()
+    so, sn = set(ot), set(nt)
+    union = len(so | sn) or 1
+    inter = len(so & sn)
+    char_ratio = SequenceMatcher(None, old, new).ratio() if (old or new) else 1.0
+    sm = SequenceMatcher(None, ot, nt)
+    tok_ratio = sm.ratio() if (ot or nt) else 1.0
+    ins = dele = rep = eq = 0
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag == "insert":
+            ins += j2 - j1
+        elif tag == "delete":
+            dele += i2 - i1
+        elif tag == "replace":
+            rep += max(i2 - i1, j2 - j1)
+        else:
+            eq += i2 - i1
+    return [
+        inter / union, char_ratio, tok_ratio,
+        float(ins), float(dele), float(rep), float(eq),
+        float(len(ot)), float(len(nt)), float(len(nt) - len(ot)),
+        float(abs(len(nt) - len(ot))),
+        float(len(new) - len(old)), float(abs(len(new) - len(old))),
+        float(len(sn - so)), float(len(so - sn)), float(inter),
+        float(not ot), float(not nt),
+        (len(nt) / len(ot)) if ot else 0.0,
+    ]
+
 # Appendix C, Table 8: the six transition-word groups; the feature is one count per group.
 TRANSITION_GROUPS = {
     "reasoning": ("consequently", "clearly", "then", "furthermore", "additionally",
@@ -317,6 +355,10 @@ def main() -> None:
     ap.add_argument("--diff-features", action="store_true",
                     help="augment USE with explicit change features: E_old-E_new, |diff|, "
                          "cosine (the concatenation-never-states-the-change suspect)")
+    ap.add_argument("--change-features", action="store_true",
+                    help="add the 19 surface string-diff features (L85): token Jaccard, "
+                         "sequence-matcher ratios, insert/delete/replace counts, length "
+                         "deltas, empty-side flags. Cheap, and they carry the binary task")
     ap.add_argument("--oversample", type=float, default=0.0,
                     help="pre-CV oversample factor for the five underrepresented classes; "
                          "1.49 tests the L79-supplement arithmetic (predicts majority .29, "
@@ -385,6 +427,11 @@ def main() -> None:
 
     print("featurizing (spaCy POS + transitions)...", flush=True)
     X_trad = np.array([trad(e) for e in events], float)
+    X_change = None
+    if args.change_features:
+        X_change = np.array([change_features(e["old"], e["new"]) for e in events], float)
+        X_trad = np.hstack([X_trad, X_change])
+        print(f"change features on: X_trad now {X_trad.shape[1]}-dim", flush=True)
 
     # ── USE embeddings of the <old, new> pair, concatenated
     print("loading Universal Sentence Encoder (transformer variant)...", flush=True)
@@ -424,6 +471,8 @@ def main() -> None:
         y = np.array([classes.index(v) for v in y_raw])
         arms = {"majority": None, "features": X_trad, "use": X_use,
                 "features_use": np.hstack([X_trad, X_use])}
+        if X_change is not None:
+            arms["change_only"] = X_change
         res = {}
         kf = KFold(n_splits=5, shuffle=True, random_state=42)
         for arm, X in arms.items():
@@ -444,7 +493,9 @@ def main() -> None:
             for g in search:
                 f1s, accs = [], []
                 for tr, te in kf.split(X):
-                    clf = XGBClassifier(**g, tree_method="hist", n_jobs=-1,
+                    # n_jobs fixed, not -1: XGBoost is thread-order dependent above one
+                    # thread, so -1 tied every number to whatever else the host was running.
+                    clf = XGBClassifier(**g, tree_method="hist", n_jobs=8,
                                         eval_metric="mlogloss", verbosity=0)
                     sw = (compute_sample_weight("balanced", y[tr])
                           if args.balanced else None)
