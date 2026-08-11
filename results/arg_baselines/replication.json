@@ -1,0 +1,144 @@
+{
+ "n": 3323,
+ "targets": {
+  "binary": {
+   "majority": [
+    0.37,
+    0.58
+   ],
+   "features": [
+    0.9,
+    0.9
+   ],
+   "use": [
+    0.92,
+    0.92
+   ],
+   "features_use": [
+    0.93,
+    0.93
+   ]
+  },
+  "fine": {
+   "majority": [
+    0.05,
+    0.29
+   ],
+   "features": [
+    0.44,
+    0.58
+   ],
+   "use": [
+    0.49,
+    0.62
+   ],
+   "features_use": [
+    0.51,
+    0.63
+   ]
+  }
+ },
+ "results": {
+  "binary": {
+   "majority": {
+    "f1": 0.36704761904761907,
+    "acc": 0.5798976828167318
+   },
+   "features": {
+    "f1": 0.8787773013721477,
+    "acc": 0.880233263882598,
+    "grid": {
+     "n_estimators": 250,
+     "max_depth": 3,
+     "learning_rate": 0.1
+    }
+   },
+   "use": {
+    "f1": 0.8742460426946772,
+    "acc": 0.8751145937131988,
+    "grid": {
+     "n_estimators": 500,
+     "max_depth": 3,
+     "learning_rate": 0.01
+    }
+   },
+   "features_use": {
+    "f1": 0.8739583257832191,
+    "acc": 0.8748120300751878,
+    "grid": {
+     "n_estimators": 500,
+     "max_depth": 3,
+     "learning_rate": 0.01
+    }
+   }
+  },
+  "fine": {
+   "majority": {
+    "f1": 0.05339633185998069,
+    "acc": 0.31628046945531146
+   },
+   "features": {
+    "f1": 0.28066137646906186,
+    "acc": 0.5037621161337078,
+    "grid": {
+     "n_estimators": 750,
+     "max_depth": 4,
+     "learning_rate": 0.1
+    }
+   },
+   "use": {
+    "f1": 0.2695488495253001,
+    "acc": 0.5368629404837394,
+    "grid": {
+     "n_estimators": 1000,
+     "max_depth": 3,
+     "learning_rate": 0.1
+    }
+   },
+   "features_use": {
+    "f1": 0.2765203985274988,
+    "acc": 0.5368633934233173,
+    "grid": {
+     "n_estimators": 1000,
+     "max_depth": 3,
+     "learning_rate": 0.1
+    }
+   }
+  }
+ },
+ "deltas": {
+  "binary/majority": {
+   "f1": -0.003,
+   "acc": -0.0
+  },
+  "binary/features": {
+   "f1": -0.021,
+   "acc": -0.02
+  },
+  "binary/use": {
+   "f1": -0.046,
+   "acc": -0.045
+  },
+  "binary/features_use": {
+   "f1": -0.056,
+   "acc": -0.055
+  },
+  "fine/majority": {
+   "f1": 0.003,
+   "acc": 0.026
+  },
+  "fine/features": {
+   "f1": -0.159,
+   "acc": -0.076
+  },
+  "fine/use": {
+   "f1": -0.22,
+   "acc": -0.083
+  },
+  "fine/features_use": {
+   "f1": -0.233,
+   "acc": -0.093
+  }
+ },
+ "verdict": "NOT-MATCHED"
+}

@@ -567,6 +567,51 @@ STAGES += [
      "why": "G107: clustered luck or label leak — the flagship control question, decided by permutation"},
 ]
 
+# ── NIGHT12 2026-08-10: overnight + workday — ScholaWrite protocol arms and PD-34.
+# The encoder stages serialize themselves on one GPU through results/.gpu.lock inside the
+# runner, so the night shards cannot collide on the card.
+STAGES += [
+    {"name": "pd34_argrewrite", "est": 25,
+     "cmd": [PY, "runners/run_pd34_movement.py",
+             "--cache", "results/features/argrewrite_w80.json",
+             "--out", "results/positional_polish/pd34_argrewrite.json"],
+     "produces": "results/positional_polish/pd34_argrewrite.json",
+     "needs": ["results/features/argrewrite_w80.json"],
+     "why": "PD-34: polish movement in the order-sensitive form PD-1's void demanded, essays"},
+    {"name": "pd34_books", "est": 25,
+     "cmd": [PY, "runners/run_pd34_movement.py",
+             "--cache", "results/features/books_w80.json",
+             "--out", "results/positional_polish/pd34_books.json"],
+     "produces": "results/positional_polish/pd34_books.json",
+     "needs": ["results/features/books_w80.json"],
+     "why": "PD-34 second corpus: does the movement asymmetry hold on books?"},
+    {"name": "scholawrite_bert_testsmall", "est": 200,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert", "--eval", "test_small"],
+     "produces": "results/scholawrite/bert_testsmall.json",
+     "needs": ["results/scholawrite/schema.json"],
+     "why": "G141 protocol pin: is the published 0.64 earned on the shipped test_small split?"},
+    {"name": "scholawrite_roberta_testsmall", "est": 200,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "roberta", "--eval", "test_small"],
+     "produces": "results/scholawrite/roberta_testsmall.json",
+     "needs": ["results/scholawrite/schema.json"],
+     "why": "G141 protocol pin, second architecture"},
+]
+for _k in range(5):
+    STAGES.append({"name": f"scholawrite_bert_lopo{_k}", "est": 200,
+                   "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert",
+                           "--lopo", str(_k)],
+                   "produces": f"results/scholawrite/bert_lopo{_k}.json",
+                   "needs": ["results/scholawrite/schema.json"],
+                   "why": f"G141 leak-free protocol: hold out project {_k}, the number the "
+                          f"within-project split cannot supply"})
+for _k in range(5):
+    STAGES.append({"name": f"scholawrite_roberta_lopo{_k}", "est": 200,
+                   "cmd": [PY, "runners/run_scholawrite.py", "--arm", "roberta",
+                           "--lopo", str(_k)],
+                   "produces": f"results/scholawrite/roberta_lopo{_k}.json",
+                   "needs": ["results/scholawrite/schema.json"],
+                   "why": f"G141 leak-free protocol, second architecture, project {_k}"})
+
 
 
 def rel(p: str) -> Path:

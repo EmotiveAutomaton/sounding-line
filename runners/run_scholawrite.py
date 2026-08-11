@@ -35,6 +35,38 @@ RESULTS = REPO / "results" / "scholawrite"
 CACHE = RESULTS / "hf_cache"
 OLLAMA = "http://127.0.0.1:11434/api/generate"
 GATES = {"bert": 0.64, "roberta": 0.64, "reader": 0.13}
+GPU_LOCK = REPO / "results" / ".gpu.lock"
+
+
+def release_gpu_lock() -> None:
+    try:
+        GPU_LOCK.unlink()
+    except OSError:
+        pass
+
+
+def acquire_gpu_lock() -> None:
+    """One GPU training at a time, whatever shard we run on. Stale after 5h."""
+    import atexit                                                     # noqa: PLC0415
+    import os                                                         # noqa: PLC0415
+    import time                                                       # noqa: PLC0415
+    while True:
+        try:
+            fd = os.open(GPU_LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            os.write(fd, str(os.getpid()).encode())
+            os.close(fd)
+            atexit.register(release_gpu_lock)
+            return
+        except FileExistsError:
+            try:
+                age = time.time() - GPU_LOCK.stat().st_mtime
+            except OSError:
+                continue
+            if age > 5 * 3600:
+                release_gpu_lock()
+                continue
+            print("  gpu lock held, waiting 120s", flush=True)
+            time.sleep(120)
 
 
 def load_local():
@@ -47,6 +79,10 @@ def main() -> None:
     ap.add_argument("--arm", required=True,
                     choices=["download", "bert", "roberta", "reader"])
     ap.add_argument("--epochs", type=int, default=3)
+    ap.add_argument("--eval", default="test", choices=["test", "test_small"],
+                    help="evaluate on this shipped split (train always the shipped train)")
+    ap.add_argument("--lopo", type=int, default=None,
+                    help="leave-one-project-out fold index; overrides --eval")
     args = ap.parse_args()
     RESULTS.mkdir(parents=True, exist_ok=True)
 
@@ -86,7 +122,27 @@ def main() -> None:
         sys.exit(1)
     print(f"using text column {text_col!r}, label column {label_col!r}, splits {splits}")
 
-    if "train" in splits and "test" in splits:
+    suffix = ""
+    if args.lopo is not None:
+        from datasets import concatenate_datasets                     # noqa: PLC0415
+        proj_col = next((c for c in ds[splits[0]].column_names
+                         if re.search(r"project|preprint|doc", c, re.I)), None)
+        if not proj_col:
+            print(f">>> SCHEMA-SURPRISE: no project column in "
+                  f"{ds[splits[0]].column_names}; no verdict")
+            sys.exit(1)
+        whole = concatenate_datasets([ds["train"], ds["test"]])
+        projects = sorted(set(whole[proj_col]))
+        held = projects[args.lopo % len(projects)]
+        train = whole.filter(lambda r: r[proj_col] != held)
+        test = whole.filter(lambda r: r[proj_col] == held)
+        split_note = f"leave-one-project-out, held out {held!r} of {len(projects)}"
+        suffix = f"_lopo{args.lopo}"
+    elif args.eval == "test_small" and "test_small" in splits:
+        train, test = ds["train"], ds["test_small"]
+        split_note = "shipped train, evaluated on shipped test_small"
+        suffix = "_testsmall"
+    elif "train" in splits and "test" in splits:
         train, test = ds["train"], ds["test"]
         split_note = "their split"
     else:
@@ -150,6 +206,7 @@ def main() -> None:
         from transformers import (AutoModelForSequenceClassification,  # noqa: PLC0415
                                   AutoTokenizer)
         name = {"bert": "bert-base-uncased", "roberta": "roberta-base"}[args.arm]
+        acquire_gpu_lock()
         tok = AutoTokenizer.from_pretrained(name)
         model = AutoModelForSequenceClassification.from_pretrained(
             name, num_labels=len(labels)).cuda()
@@ -188,12 +245,15 @@ def main() -> None:
                "split": split_note}
         print(f"{args.arm} weighted-F1 {f1:.3f} (gate {GATES[args.arm]})")
 
-    out["verdict"] = ("PASS" if abs(out["weighted_f1"] - GATES[args.arm]) <= 0.01
-                      else "NOT-MATCHED")
+    if args.lopo is not None:
+        out["verdict"] = "DIAGNOSTIC"        # no published number for this protocol
+    else:
+        out["verdict"] = ("PASS" if abs(out["weighted_f1"] - GATES[args.arm]) <= 0.01
+                          else "NOT-MATCHED")
     print(f"  >>> {out['verdict']}")
-    (RESULTS / f"{args.arm}.json").write_text(json.dumps(out, indent=1),
-                                              encoding="utf-8", newline="\n")
-    print(f"wrote {(RESULTS / f'{args.arm}.json').relative_to(REPO)}")
+    out_path = RESULTS / f"{args.arm}{suffix}.json"
+    out_path.write_text(json.dumps(out, indent=1), encoding="utf-8", newline="\n")
+    print(f"wrote {out_path.relative_to(REPO)}")
 
 
 if __name__ == "__main__":
