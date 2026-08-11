@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-10 21:11",
+  "started": "2026-08-11 13:35",
   "stages": [
     {
       "name": "feature_visibility",
@@ -353,9 +353,50 @@
       "name": "scholawrite_bert_testsmall",
       "why": "G141 protocol pin: is the published 0.64 earned on the shipped test_small split?",
       "est_minutes": 200,
-      "status": "RUNNING",
-      "log": "results\\scholawrite_bert_testsmall.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scholawrite_bert_lopo1",
+      "why": "G141 leak-free protocol: hold out project 1, the number the within-project split cannot supply",
+      "est_minutes": 200,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scholawrite_bert_lopo4",
+      "why": "G141 leak-free protocol: hold out project 4, the number the within-project split cannot supply",
+      "est_minutes": 200,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scholawrite_roberta_lopo2",
+      "why": "G141 leak-free protocol, second architecture, project 2",
+      "est_minutes": 200,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sw_revision_diff",
+      "why": "G141: is revision 'anonymous_data' (pinned by their code) identical to main?",
+      "est_minutes": 40,
+      "status": "FAILED (exit 1)",
+      "log": "results\\sw_revision_diff.log",
+      "minutes": 0.1
+    },
+    {
+      "name": "arg_v4_fixed",
+      "why": "G136 v4: the pinned construction with published hyperparameters, both tasks",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_v4_oversample",
+      "why": "G136 single-cause hypothesis: a 1.49x oversample of the five small classes predicts majority .29, word-usage F1 .45, and rare classes .35-.54 all at once",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-11 13:35",
+  "failed": [
+    "sw_revision_diff"
+  ]
 }

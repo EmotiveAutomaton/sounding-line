@@ -2799,6 +2799,87 @@ non-augmented classes within a dime of published, the five augmented classes exe
 mechanism shown rather than merely inferred. The binary .93 gate stays live, with the
 difference features queued there as the last lever.
 
+## L82 · The full leak-free grid: cross-project transfer is project-dependent and far below the published number, and the small split fails for both architectures
+
+**Hypothesis.** *(G141.)* The leave-one-project-out folds give the leak-free difficulty of
+intention prediction, and the second small-split arm tests whether the published 0.64 lives
+there.
+
+**Method.** All ten leave-one-project-out folds (both architectures, three epochs, identical
+recipe), plus BERT trained on the shipped train and evaluated on the shipped small split, as
+RoBERTa was in L75.
+
+| held-out project | test n | BERT F1 | RoBERTa F1 |
+|---|---|---|---|
+| 1 | 14,217 | 0.458 | 0.520 |
+| 2 | 5,059 | 0.263 | 0.355 |
+| 3 | 6,641 | 0.512 | 0.608 |
+| 4 | 8,348 | 0.378 | 0.381 |
+| 5 | 27,239 | 0.348 | 0.359 |
+| mean | | 0.392 | 0.445 |
+
+*Caption: weighted F1 per leave-one-project-out fold. For reference, the same recipe scores
+0.741/0.730 on the leaky shipped split and the paper prints 0.64. The small split: BERT
+0.526, RoBERTa 0.468, both far under 0.64 and six points apart.*
+
+**Found.** Leak-free transfer ranges 0.26 to 0.61 by project, means 0.39 and 0.44, so the
+within-project leak is worth roughly thirty points on average, not the twenty the first two
+folds suggested. The small split fails as the 0.64 protocol for both architectures, and the
+six-point architecture disagreement there sits oddly against the paper's identical 0.64/0.64
+pair. One infrastructure fact closes an arm: the dataset revision pinned by their training
+code no longer exists on the Hub even under our gated access, so the shipped main revision is
+the only canonical data anyone can now train on, and the revision caveat becomes permanent
+but soft.
+
+**Means.** The recreation's remaining hope is the faithful arms now training (their exact
+protocol, bug included, per-class gate). What the grid contributes regardless is the honest
+structure of the task: intention prediction transfers across projects at 0.4-ish with high
+project dependence, everything above that is memorization of a writer-project's local
+patterns, and any future use of this dataset in the program (G132) must be leave-one-project-out
+by construction.
+
+## L83 · Phase-1 lessons: what three recreations taught about modeling, recorded as method
+
+**Hypothesis.** *(The curator's directive: lessons learned in modeling from the duplication
+efforts are part of the experiment record.)* The recreation phase should yield transferable
+method, not only verdicts.
+
+**Method.** Synthesis over L60 to L82, the three subagent source-pins, and the discriminator
+arms.
+
+**Found, five lessons.**
+1. **Composition before tuning, always.** Every gap that closed in this phase closed through
+   construction, the unit rule, the split, the oversample, never through hyperparameters; the
+   one grid search we ran over-selected (picking a learning rate the authors' own footnote
+   contradicts) and still explained nothing.
+2. **Published tables fail their own arithmetic at working rates.** Three of four majority
+   rows in ArgRewrite contradict its own class table; ScholaWrite's headline is unreachable
+   from its own per-class table; BST's text and figures disagree on a count and a parameter.
+   Three papers, three internal inconsistencies. The standing step this adds: before gating
+   on a published number, check it against every other number in the paper that constrains it
+   (the F1 identity, distribution reweighting, subtotal sums). It cost minutes and caught all
+   three.
+3. **Protocol leverage dwarfs model leverage.** Measured on these tasks: split leakage twenty
+   to thirty points; pre-evaluation oversampling thirty-two macro points; class weighting
+   two; architecture choice one to six. A benchmark number is mostly its construction, which
+   is this project's own thesis (the reading lives in the making) arriving from an unexpected
+   direction.
+4. **Pair tasks need the change stated.** Explicit difference features rescued exactly the
+   classes defined by small surface edits (grammar/spelling .06 to .49). The transfer to our
+   own instruments is direct: any reader arm judging a revision must see the delta
+   explicitly, which the G129 candidate-set design already does by construction and must
+   keep through every redesign.
+5. **Deliberate contamination is an instrument.** Reproducing an "impossible" published cell
+   by seeded pre-CV duplication (L81) turned an inference into a demonstration. The
+   duplication probe enters the toolkit with its signature named: exact majority-row
+   reproduction plus rare-class overshoot above the published band.
+
+**Means.** Phase 1's product is not the verdicts alone but a recreation protocol: pin the
+construction at source, self-consistency-check the paper's numbers, reproduce bug-for-bug,
+and when a number resists, try to reproduce it by breaking your own pipeline in the way you
+suspect theirs was broken. That last move is what separates "we failed to match" from "we
+know why the number is what it is."
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
