@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-10 05:57",
+  "started": "2026-08-10 21:11",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -128,232 +128,242 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "scholawrite_download",
-      "why": "G141 input: the dataset, schema dumped, fail-loudly on surprise",
-      "est_minutes": 25,
-      "status": "FAILED (exit 1)",
-      "log": "results\\scholawrite_download.log",
-      "minutes": 0.1
-    },
-    {
-      "name": "scholawrite_reader",
-      "why": "G141: zero-shot local reader, the analogue of their 0.13 Llama baseline",
-      "est_minutes": 90,
-      "status": "DEFERRED",
-      "missing": [
-        "results/scholawrite/schema.json"
-      ]
-    },
-    {
-      "name": "argrec_fine_k4u_shuffle",
-      "why": "G129-pilot-b control: shuffled truth at chance",
-      "est_minutes": 45,
+      "name": "argrec_matched_recovery",
+      "why": "G130c: the collision -- does the recovery margin survive the matching that killed content-ness?",
+      "est_minutes": 35,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "argrec_fine_k12u_recovery",
-      "why": "G129-pilot-b: the candidate-size curve's third point (capped at the label count)",
-      "est_minutes": 55,
-      "status": "DONE",
-      "log": "results\\argrec_fine_k12u_recovery.log",
-      "minutes": 0.0
-    },
-    {
-      "name": "argrec_fine_k4_recovery",
-      "why": "G129-pilot: fine purposes, four candidates",
-      "est_minutes": 50,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "argrec_fine_k4_shuffle",
-      "why": "G129-pilot control: shuffled truth -- must sit at chance",
-      "est_minutes": 45,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "event_harness_synthetic",
-      "why": "G130: the shared choice-recovery harness must pass five known-answer gates before any real corpus",
-      "est_minutes": 5,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "binary_salience",
-      "why": "G21: his question -- is layer 0 binary salience? presence-vs-category double dissociation",
-      "est_minutes": 45,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "induction_v2_ladder2_SmolLM2-360M",
-      "why": "G103: fair-control flagship, third independent family",
+      "name": "bst_gridworld",
+      "why": "G137 v1: the three inverse-planning models with internal analytic gates",
       "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "readouts_refresh_gpt2-medium",
-      "why": "L26: regenerate under v2 verdict rules",
+      "name": "scholawrite_roberta",
+      "why": "G141: fine-tuned RoBERTa against the published 0.64",
+      "est_minutes": 200,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_fine_k4u_blind",
+      "why": "G129-pilot-b control: blind must sit at chance under uniform candidates",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_coarse_k2_shuffle",
+      "why": "G129-pilot: the coarse arm's missing shuffle control",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_coarse_k2_recovery",
+      "why": "G129-pilot: can the reader pick the recorded coarse purpose from the delta?",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_fine_k4_blind",
+      "why": "G129-pilot control: no delta shown -- must sit at chance",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd33_books",
+      "why": "PD-33 replication: does the polish-side author-share excess hold on books?",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "cka_null_g128",
+      "why": "G128: the permutation null L45's alignment still owes -- real correspondence or matrix smoothness?",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder2_gpt2-medium",
+      "why": "G103: fair-control flagship, second independent family",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "readouts_refresh_SmolLM2-360M",
+      "why": "L26: regenerate under v2 verdict rules (v1 mislabelled all-bands-positive as FLAT)",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "readouts_Qwen2.5-0.5B",
-      "why": "G104: depth readouts, fifth family/size",
+      "name": "specrec_noecho_ladder2",
+      "why": "L26: the pre-registered echo restriction, promised in the docstring, never implemented until now",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "readouts_pythia-410m",
+      "why": "G104: depth readouts, seventh",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "readouts_Qwen2.5-3B",
-      "why": "G104: depth readouts, eighth -- largest that fits the card",
-      "est_minutes": 20,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "sweep_ladder_SmolLM2-1.7B",
-      "why": "G104: first ladder, SmolLM2 1.7B",
+      "name": "sweep_ladder3_Qwen2.5-3B",
+      "why": "G104: extreme ladder, Qwen 3B",
       "est_minutes": 25,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "sweep_ladder3_gpt2-xl",
-      "why": "G104: extreme ladder, gpt2-xl",
+      "name": "sweep_ladder_gpt2-xl",
+      "why": "G104: first ladder, gpt2-xl",
       "est_minutes": 35,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder_gpt2-medium",
-      "why": "G103b: does the gpt2 mirror (+0.51, L28) replicate on the first ladder?",
+      "name": "sweep_ladder3_pythia-2.8b",
+      "why": "G104: extreme ladder, pythia 2.8b",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder_pythia-1.4b",
+      "why": "G103b: pythia was null on the held-out ladder \u2014 null everywhere, or corpus-specific?",
       "est_minutes": 25,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder3_pythia-1.4b",
-      "why": "G103b: pythia on the extreme ladder",
-      "est_minutes": 35,
+      "name": "induction_v2_ladder3_SmolLM2-360M",
+      "why": "G103b: SmolLM2 on the extreme ladder",
+      "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "binary_salience_powered",
-      "why": "G21b: L27's presence probe had 40 neutral items \u2014 a coin flip with no power. 500 decides it",
-      "est_minutes": 50,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "subspace_bands11",
-      "why": "G42b: two-band split on all 11 families; G44a: transform composability",
+      "name": "placement_scale",
+      "why": "G46: do weaker models place affective structure more poorly? (the live worry's second test)",
       "est_minutes": 2,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "nomaker_specrec",
-      "why": "G117: the no-maker control spec recovery never had \u2014 sharper after the echo kill",
-      "est_minutes": 30,
+      "name": "author_convergence",
+      "why": "G60: the convergence curve and its asymptote, on the 34-book corpus",
+      "est_minutes": 5,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "noisy_middle",
-      "why": "G31: middle-third activity vs coherence, CPU readout over saved sweeps",
+      "name": "reader_convergence",
+      "why": "G114: the paper's H2 vs flattened-intent \u2014 goal-inference convergence across five groups",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder3",
+      "why": "G75: the within-rung induction control -- re-adjudicates L1, L2 and L17 on ladder3",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "multiplicity",
+      "why": "re-correct the whole family after new results land",
       "est_minutes": 1,
-      "status": "SKIPPED (already done)"
+      "status": "DONE",
+      "log": "results\\multiplicity.log",
+      "minutes": 0.0
     },
     {
-      "name": "induction_v2_ladder",
-      "why": "G75: the within-rung induction control -- re-adjudicates L1, L2 and L17 on ladder",
-      "est_minutes": 25,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "induction_v2_ladder_gpt2-xl",
+      "name": "induction_v2_ladder_pythia-2.8b",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder_pythia-410m",
+      "name": "induction_v2_ladder_SmolLM2-1.7B",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder_gpt2-large",
+      "name": "induction_v2_ladder2_Qwen2.5-0.5B",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder2_pythia-2.8b",
+      "name": "induction_v2_ladder2_Qwen2.5-3B",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder2_SmolLM2-1.7B",
+      "name": "induction_v2_ladder3_gpt2-xl",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder3_Qwen2.5-0.5B",
+      "name": "induction_v2_ladder3_pythia-410m",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder3_Qwen2.5-3B",
+      "name": "induction_v2_ladder3_gpt2-large",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "readouts_SmolLM2-1.7B",
+      "name": "readouts_pythia-2.8b",
       "why": "G104 completion: v2-rule readouts for the last three families",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "layercorr_ladder_Qwen2.5-3B",
+      "name": "layercorr_ladder_SmolLM2-1.7B",
       "why": "L12 matrix completion: one of the 8 missing ladder cells",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "layercorr_ladder3_SmolLM2-1.7B",
+      "name": "layercorr_ladder3_gpt2-xl",
       "why": "L12 matrix completion: one of the 8 missing ladder cells",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "layercorr_ladder_pythia-2.8b",
-      "why": "L12 matrix completion: one of the 8 missing ladder cells",
-      "est_minutes": 15,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "specrec_ladder2_d96",
-      "why": "L19: halve the chance rate on the held-out ladder",
-      "est_minutes": 40,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "specrec_ladder_noecho",
-      "why": "G113: does the strict echo kill replicate on the first ladder?",
+      "name": "specrec_ladder_d96",
+      "why": "L19: halve the chance rate on the first ladder (decoys-tagged filename, no overwrite)",
       "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "binary_powered_gpt2-medium",
-      "why": "G21b cross-family: is layer-0-as-presence-peak a Qwen fact or an architecture fact?",
+      "name": "specrec_ladder2_echo25",
+      "why": "G113: graded echo at quarter-overlap",
       "est_minutes": 40,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "layercorr_nomaker_sig",
-      "why": "G107 input: the per-artifact signal matrix the permutation null needs",
-      "est_minutes": 15,
+      "name": "provenance_ladder3",
+      "why": "G115 replication arm, extreme ladder",
+      "est_minutes": 35,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "activation_variance",
+      "why": "HH-3/PD-3: within-artifact variance of the reader's affective series \u2014 not pre-empted by anyone",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_argrewrite",
+      "why": "PD-34: polish movement in the order-sensitive form PD-1's void demanded, essays",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scholawrite_roberta_testsmall",
+      "why": "G141 protocol pin, second architecture",
+      "est_minutes": 200,
+      "status": "RUNNING",
+      "log": "results\\scholawrite_roberta_testsmall.log"
     }
   ],
-  "shard": "0/3",
-  "finished": "2026-08-10 05:57",
-  "failed": [
-    "scholawrite_download"
-  ]
+  "shard": "0/3"
 }

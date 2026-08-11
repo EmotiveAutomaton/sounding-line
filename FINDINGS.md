@@ -2370,6 +2370,105 @@ two corpora with different registers, genres, and topic structures. What this co
 speak to is the absolute size of the effect, since author and topic are confounded here by
 construction; the direction and the contrast are the replication. Still one window size.
 
+## L72 · The exact replication, v3: binary side nearly theirs, fine side still structurally short
+
+**Hypothesis.** *(G136.)* With multi-purpose cells reduced to one purpose per revision pair
+(v3), their features, their sentence encoder, their classifier grid, and their five folds should
+reproduce all eight published cells to two decimals.
+
+**Method.** 3,323 sentence pairs, XGBoost over their published grid, the large Universal
+Sentence Encoder, plain five-fold cross-validation, unweighted-average F1 and accuracy per arm,
+each against the paper's number.
+
+| arm | our F1 / acc | published F1 / acc | delta (F1, acc) |
+|---|---|---|---|
+| binary, majority | 0.367 / 0.580 | 0.37 / 0.58 | −0.003, −0.000 |
+| binary, features | 0.879 / 0.880 | 0.90 / 0.90 | −0.021, −0.020 |
+| binary, USE | 0.874 / 0.875 | 0.92 / 0.92 | −0.046, −0.045 |
+| binary, features+USE | 0.874 / 0.875 | 0.93 / 0.93 | −0.056, −0.055 |
+| fine, majority | 0.053 / 0.316 | 0.05 / 0.29 | +0.003, +0.026 |
+| fine, features | 0.281 / 0.504 | 0.44 / 0.58 | −0.159, −0.076 |
+| fine, USE | 0.270 / 0.537 | 0.49 / 0.62 | −0.220, −0.083 |
+| fine, features+USE | 0.277 / 0.537 | 0.51 / 0.63 | −0.233, −0.093 |
+
+*Caption: all eight cells of the ArgRewrite sentential replication, one purpose per pair, against
+the published values. Verdict NOT-MATCHED.*
+
+**Found.** The binary majority baseline matches to rounding and the fine majority F1 does too,
+while the fine majority *accuracy* runs 2.6 points high; binary model arms sit 2 to 6 points
+short; fine model arms remain 16 to 23 F1 points short.
+
+**Means.** The extraction's class composition is nearly theirs but not exactly: 3,323 pairs
+against their 3,238, and the majority-accuracy excess says the class marginal still differs,
+so a dedup or filtering rule of theirs is still unmodeled. The n is the search map: find the
+rule that yields exactly 3,238 and the fine-task composition should follow. The binary side is
+close enough that only the composition hunt separates it from a pass; the fine side's gap is
+structural, not tuning.
+
+## L73 · The collision: the recovery margin survives matching in reduced form, inside the prereg's silent band
+
+**Hypothesis.** *(G130c.)* Does the pilot's 22.7-point purpose-recovery margin survive the same
+covariate matching that collapsed content identifiability (L66)? Pre-registered bands: SURVIVES
+at margin ≥ 0.10, COLLAPSES under 0.05.
+
+**Method.** The coarsened-exact-matched event subset reconstructed by shared seed (674 events on
+common support, four candidates, analytic chance 0.25); the recovery arm (sees the revision
+delta) and the blind arm (does not) run identically to pilot-c; the arms compared pairwise on
+the same events (exact McNemar).
+
+| construction | blind floor | recovery | margin over blind |
+|---|---|---|---|
+| full pilot-c set (L65) | 0.232 | 0.477 | 22.7 points |
+| matched subset (this run) | 0.402 | 0.484 | 8.2 points |
+
+*Caption: purpose recovery against its text-blind floor, on the full truth-balanced set and on
+the covariate-matched subset. Chance is 0.25 in both.*
+
+**Found.** Recovery barely moves under matching (0.477 to 0.484). The floor is what moves: the
+blind arm jumps from 0.232 to 0.402, so the margin falls from 22.7 to 8.2 points. The remaining
+margin is real, 147 events right only with the delta against 92 right only without it, exact
+McNemar p = 4.5 × 10⁻⁴.
+
+**Means.** On common support, purposes are substantially guessable without ever seeing the
+revision, so most of the headline margin was carried by the covariates that matching balances,
+and what seeing the delta itself adds is roughly eight points, significant and 2.8× smaller.
+The pre-registration's own bands leave 0.05 to 0.10 silent, so the formal verdict is neither
+SURVIVES nor COLLAPSES; the number landed in the gap the prereg left. Follow-ups filed: a
+powered replication of the matched construction, and a floor decomposition asking which
+covariates raised the blind arm to 0.40.
+
+## L74 · Polish moves and depth stays, on books; both flat on short essays — the movement claim's first valid instrument
+
+**Hypothesis.** *(PD-34.)* The restated movement account, attention reallocating across
+sub-goals over a long stay with a piece, predicts polish-side features carry positional
+structure while depth-side features are stationary. PD-1's void showed dispersion statistics
+cannot ask this; an order-sensitive statistic can.
+
+**Method.** Per item and feature, the absolute Spearman trend of the 80-word-window series
+against window position, z-scored against 100 within-item shuffles (a null that is valid here
+precisely because the statistic is order-sensitive); planted-trend and planted-noise ruler gates
+run before any data (passed: planted trend z 4.8, planted noise mean z 0.14); polish-side and
+depth-side feature banks compared across features by Mann-Whitney.
+
+| corpus | items | polish median z | depth median z | p | verdict |
+|---|---|---|---|---|---|
+| books | 102 | 0.52 | 0.013 | 1.3 × 10⁻⁵ | POLISH-MOVES-MORE |
+| student essays | 197 | 0.024 | 0.005 | 0.42 | NO-DIFFERENCE |
+
+*Caption: positional structure per feature side, mean shuffle-z per feature, medians over each
+bank. Higher z means the series carries more order than its own shuffles.*
+
+**Found.** On books, polish-side features carry real positional structure while depth-side
+features sit at their shuffle null, forty-fold apart at p = 1.3 × 10⁻⁵. On the short student
+essays both sides are flat.
+
+**Means.** The section-closing claim, depth stationary within an artifact while polish is not,
+has its first support from an instrument that can actually see movement, and only on long-form.
+The essays' double-flat is what the mechanism itself predicts, since attention reallocation
+needs a long stay and an eight-window essay barely has one, but corpus length is confounded
+with genre and editing here, so the moderation reading stays a hypothesis. Banks are 34 against
+14 features, one window size.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

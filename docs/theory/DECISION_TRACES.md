@@ -156,24 +156,27 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic, and the boundness follows the author | **SUPPORTED (test), decomposed (L55, L57), direction replicated on books (L71).** Between-essay share 20% against 8%, and the decomposition lands MAKER: author shares 0.262 against 0.174 (p = 6 × 10⁻⁷) while draft-within-author shares are small and identical (0.04 apiece, p = 0.98). Polish-side variation carries *who*, on 86 authors at fixed topic; draft stage carries almost nothing on either side. On the 10-author book corpus the polish side carries three times the depth side's author-bound share (medians 0.061 against 0.020, p = 3 × 10⁻⁷), with author and topic confounded there by construction, so only the contrast transfers. Two corpora, one window size |
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **SUPPORTED (test), first pass.** Human long-form variance 0.0102 vs machine 0.0065 at matched series length, *p* = 0.002, the flat-machine signature measured reader-side; register rides along uncontrolled |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
+| **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS (test, L74), ruler-gated.** On books the asymmetry is large and clean, polish mean shuffle-z 0.52 against depth 0.013 (p = 1.3 × 10⁻⁵); on the short student essays both sides sit flat at their shuffle null. Long-form carries the movement, which the long-stay reallocation account predicts, with length confounded with genre and editing on this pair of corpora |
 | **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **OPEN as an artifact-side measure; its reader-side cousin just landed (the HH-3 / L39 row)** |
-| **PD-2** | Polish *decays* specifically, rather than merely moving | **OPEN**, and depends on PD-1 |
+| **PD-2** | Polish *decays* specifically, rather than merely moving | **OPEN.** PD-34's absolute-trend form found the movement; the signed-trend form is the decay question |
 | **PD-4** | Polish variance is larger in less practised makers | **OPEN** |
 | **PD-29** | Polish separates into attraction and translation | **OPEN, and everything in this section depends on it** |
 | **PD-30** | Attraction decays across an artifact; translation does not | **OPEN** |
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
 | **PD-32** | Translation is denser where the maker expects a distant reader | **OPEN** |
 
-**What the table says.** The definitional test ate its own operationalisation and paid out
-anyway. Window-dispersion statistics turn out to be unable to measure movement in principle, so
-the stationarity claim is untested rather than falsified, and the movement account itself now
-reads as attention reallocating across concurrent sub-goals over a long stay with a piece, which
-is a claim an order-sensitive or event-level measurement could reach where dispersion cannot.
-What the exercise surfaced instead is that polish-side features are far more essay-bound than
-depth-side ones at fixed topic, the decomposition pins the excess on the author specifically
-rather than the draft, and the direction now replicates on a second corpus of a different genre,
-which together are the maker-signature half of this section's closing quote given
-artifact-side numbers on two corpora. The other clean positive stands apart. The reader's
+**What the table says.** The movement claim now has its first result from an instrument that can
+see movement at all. On books, polish-side features carry real positional structure while
+depth-side features sit at their own shuffle null, which is this section's closing quote
+measured, and on short essays both sides are flat, which the long-stay reallocation account
+predicts while length stays confounded with genre and editing. The dispersion route remains
+void in principle, so PD-34's order-sensitive form is now the family's live instrument, with
+the signed form holding the decay question. Alongside it, polish-side features are far more
+essay-bound than depth-side ones at fixed topic, the decomposition pins the excess on the
+author rather than the draft, and that direction replicates on books, the maker-signature half
+of the same quote on two corpora. Confidence: the books movement asymmetry and the
+essay-boundness results are each one bad test away; the corpus-length moderation reading is
+untested, logic only; the rest is untested or sim-only. The other clean positive stands apart. The reader's
 affective series moves through human long-form and stays comparatively flat through machine text.
 The rest is the simulation's 6.5× decay asymmetry plus unrun tests, with the
 attraction/translation split gating the lot. Confidence: the essay-boundness and movement results
@@ -424,18 +427,21 @@ all fixed by construction.**
 | **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test, L5), one coherent thing.** At matched length, revision raises lexical sophistication (longer, rarer, more polysyllabic words, fewer stopwords), one factor under six names, sign agreement 70 to 78% across authors |
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered.** Raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
 | **PD-28** | The surviving effect is polish, not depth | **SUPPORTED (test, L42/L66), the matched control decided it.** With content and surface revisions balanced on size, rarity shift, position, and difficulty (coarsened exact matching, balance verified), content identifiability collapses from 0.857 to 0.507 against 0.5 chance. Within common support, the content-associated lexical effect *was* its covariates: sophistication and magnitude, not recoverable depth. Scope: the matched fifth of the corpus, which is where comparable revisions live |
-| **G129-pilot** | Recorded revision purposes are recoverable from the delta by a bounded reader | **CONCLUDED, RECOVERABLE (test, L62/L64/L65).** Under the clean construction (truth-balanced, floor verified analytic: blind 0.232 against 0.25) recovery holds 0.477 against 0.25, a 22.7-point margin on 616 events, consistent with both crooked-floor estimates. Whether that margin itself rides the matching covariates is G130c, the sharpest open question after L66's collapse |
+| **G129-pilot** | Recorded revision purposes are recoverable from the delta by a bounded reader | **CONCLUDED, RECOVERABLE (test, L62/L64/L65).** Under the clean construction (truth-balanced, floor verified analytic: blind 0.232 against 0.25) recovery holds 0.477 against 0.25, a 22.7-point margin on 616 events, consistent with both crooked-floor estimates |
+| **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither; most of the headline margin was covariate-carried on common support and a significant delta-specific remainder stands. Owed: the powered matched replication, and the floor decomposition naming which covariates raised the blind arm |
 
-**What the table says.** The section's question got its answer and the answer cuts both ways.
-The matched control collapsed content identifiability to chance within common support, so the
-one controlled human comparison's celebrated effect is sophistication and magnitude, which is
-what this row's hypothesis said before the effect was ever found. And yet purpose recovery is
-real: under a construction whose floor is verified clean, a zero-shot reader recovers recorded
-fine-grained purposes at twenty-three points over chance. The two results sharpen into one
-question, whether the recovery margin survives the same covariate matching that killed
-content-ness (G130c), and that question now gates every depth claim this section could make. The
-hurried-versus-careful commission remains the designed extension. Confidence: the collapse and
-the pilot margin are each one bad test away, and they are one experiment from colliding.
+**What the table says.** The collision ran and split the difference in an instructive way. The
+matched control collapsed content identifiability to chance, and under the same matching the
+recovery margin shrinks by two thirds without vanishing: the floor rises, not the recovery,
+which says most of what the headline margin was reading lives in the covariates
+(sophistication, magnitude, position) while a significant remainder is only available by
+actually seeing the revision. Recorded purposes are recoverable; the delta-specific part of
+that recoverability is roughly eight points, and the prereg's own bands decline to grade it, an
+honest gap to close with power rather than interpretation. The floor decomposition matters as
+much as the replication, since a blind arm at 0.40 on common support means the matched events'
+purposes are half-predictable from context alone. The hurried-versus-careful commission remains
+the designed extension. Confidence: the collapse, the pilot margin, and the collision are each
+one bad test away, and the collision's verdict band is a prereg defect now on record.
 
 ## §7. Reader-side measurement: the second channel, briefly
 
