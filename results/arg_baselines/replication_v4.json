@@ -1,0 +1,200 @@
+{
+ "n": 3236,
+ "drop_raw": "",
+ "tasks": [
+  "binary",
+  "fine"
+ ],
+ "extract": "v4",
+ "grid": false,
+ "balanced": false,
+ "diff_features": false,
+ "oversample": 0.0,
+ "targets": {
+  "binary": {
+   "majority": [
+    0.37,
+    0.58
+   ],
+   "features": [
+    0.9,
+    0.9
+   ],
+   "use": [
+    0.92,
+    0.92
+   ],
+   "features_use": [
+    0.93,
+    0.93
+   ]
+  },
+  "fine": {
+   "majority": [
+    0.05,
+    0.29
+   ],
+   "features": [
+    0.44,
+    0.58
+   ],
+   "use": [
+    0.49,
+    0.62
+   ],
+   "features_use": [
+    0.51,
+    0.63
+   ]
+  }
+ },
+ "results": {
+  "binary": {
+   "majority": {
+    "f1": 0.3688228104483894,
+    "acc": 0.5846695097983095
+   },
+   "features": {
+    "f1": 0.8828431548555276,
+    "acc": 0.8844271757589635,
+    "grid": {
+     "n_estimators": 500,
+     "max_depth": 4,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "content": 0.896,
+     "surface": 0.87
+    }
+   },
+   "use": {
+    "f1": 0.8747142023759016,
+    "acc": 0.875773751598069,
+    "grid": {
+     "n_estimators": 500,
+     "max_depth": 4,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "content": 0.885,
+     "surface": 0.865
+    }
+   },
+   "features_use": {
+    "f1": 0.8716164266942844,
+    "acc": 0.8726830385253879,
+    "grid": {
+     "n_estimators": 500,
+     "max_depth": 4,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "content": 0.882,
+     "surface": 0.862
+    }
+   }
+  },
+  "fine": {
+   "majority": {
+    "f1": 0.05398213877356597,
+    "acc": 0.32139027229186945
+   },
+   "features": {
+    "f1": 0.24620316430748032,
+    "acc": 0.5126719713015437,
+    "grid": {
+     "n_estimators": 750,
+     "max_depth": 5,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "claim": 0.109,
+     "evidence": 0.264,
+     "general_content": 0.489,
+     "grammar_spelling": 0.161,
+     "organization": 0.0,
+     "precision": 0.039,
+     "reasoning": 0.428,
+     "rebuttal": 0.0,
+     "word_usage": 0.742
+    }
+   },
+   "use": {
+    "f1": 0.24856548460376496,
+    "acc": 0.5525297193123055,
+    "grid": {
+     "n_estimators": 750,
+     "max_depth": 5,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "claim": 0.152,
+     "evidence": 0.226,
+     "general_content": 0.546,
+     "grammar_spelling": 0.064,
+     "organization": 0.0,
+     "precision": 0.022,
+     "reasoning": 0.486,
+     "rebuttal": 0.0,
+     "word_usage": 0.753
+    }
+   },
+   "features_use": {
+    "f1": 0.24904075911805953,
+    "acc": 0.5503677943786136,
+    "grid": {
+     "n_estimators": 750,
+     "max_depth": 5,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "claim": 0.138,
+     "evidence": 0.255,
+     "general_content": 0.538,
+     "grammar_spelling": 0.064,
+     "organization": 0.0,
+     "precision": 0.022,
+     "reasoning": 0.484,
+     "rebuttal": 0.0,
+     "word_usage": 0.752
+    }
+   }
+  }
+ },
+ "fine_majority_note": "the printed fine Majority row (.05/.29) contradicts the paper's own Table 4 (word-usage 1,030 of 3,238 implies .05/.32); we gate the majority arm against the table-implied values (L79)",
+ "deltas": {
+  "binary/majority": {
+   "f1": -0.001,
+   "acc": 0.005
+  },
+  "binary/features": {
+   "f1": -0.017,
+   "acc": -0.016
+  },
+  "binary/use": {
+   "f1": -0.045,
+   "acc": -0.044
+  },
+  "binary/features_use": {
+   "f1": -0.058,
+   "acc": -0.057
+  },
+  "fine/majority": {
+   "f1": 0.004,
+   "acc": 0.031
+  },
+  "fine/features": {
+   "f1": -0.194,
+   "acc": -0.067
+  },
+  "fine/use": {
+   "f1": -0.241,
+   "acc": -0.067
+  },
+  "fine/features_use": {
+   "f1": -0.261,
+   "acc": -0.08
+  }
+ },
+ "verdict": "NOT-MATCHED"
+}

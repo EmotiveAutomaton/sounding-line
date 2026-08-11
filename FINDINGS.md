@@ -2696,6 +2696,48 @@ hypothesis is inference from arithmetic, marked as such, and it predicts the fin
 be faithfully reproduced from the released 3,238 without the rebalancing; both arms are
 queued, and the oversample arm's three predictions make it self-gating.
 
+## L80 · v4 under the published hyperparameters: both majority baselines exact, large classes reproduce, small classes collapse
+
+**Hypothesis.** *(G136.)* With the pinned construction (L79) and the paper's published
+footnote hyperparameters, the eight cells should land on the published values, against the
+corrected fine-majority gate.
+
+**Method.** The v4 extraction (3,236 units), their features (POS-19, six transition groups,
+both positions), USE-large embeddings, XGBoost at the footnote settings (binary 500/4/.05,
+fine 750/5/.05), plain five-fold, macro F1 and accuracy averaged over folds, per-class F1
+from pooled out-of-fold predictions.
+
+| arm | our F1 / acc | target F1 / acc | delta F1 |
+|---|---|---|---|
+| binary majority | 0.369 / 0.585 | .37 / .58 | −0.001 |
+| binary features | 0.883 / 0.884 | .90 / .90 | −0.017 |
+| binary USE | 0.875 / 0.876 | .92 / .92 | −0.045 |
+| binary features+USE | 0.872 / 0.873 | .93 / .93 | −0.058 |
+| fine majority | 0.054 / 0.321 | .05 / .32 (table-implied) | +0.004 |
+| fine features | 0.246 / 0.513 | .44 / .58 | −0.194 |
+| fine USE | 0.249 / 0.553 | .49 / .62 | −0.241 |
+| fine features+USE | 0.249 / 0.550 | .51 / .63 | −0.261 |
+
+*Caption: all eight cells under the pinned construction and published hyperparameters. The
+fine majority gate is the Table-4-implied value per L79; the printed .29 row stands confirmed
+unreachable from the released data.*
+
+**Found.** Both majority baselines now match their self-consistent published values to
+rounding, so composition is validated end to end. The per-class profile reproduces the
+agent's localization in our own pipeline: word-usage 0.75, general-content 0.54, reasoning
+0.48 (their .79/.60/.60), while organization and rebuttal sit at exactly zero, precision at
+0.02, grammar/spelling at 0.06.
+
+**Means.** The recreation has split into a solved half and a sharply-posed half. Everything
+about the data is now right, and the binary arms sit two to six points short, close enough
+that encoder-version drift is a live explanation. The fine model arms are not short, they are
+structurally different: the accuracy gap is seven points while the macro-F1 gap is
+twenty-six, which is exactly the signature of rare classes the published row somehow scores
+and ours never predicts. The two queued mechanism arms (explicit difference features; the
+1.49× five-class oversample with its three self-gating predictions) are the discriminators,
+and if both miss, the honest close of this row is that the published fine numbers are not
+reproducible from the released corpus as described.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
