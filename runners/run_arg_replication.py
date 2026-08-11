@@ -60,7 +60,8 @@ TRANSITIONS = ("however", "therefore", "moreover", "furthermore", "consequently"
                "specifically", "accordingly", "besides", "still", "yet", "so", "but", "and")
 
 
-def extract_v2():
+def extract_raw():
+    """Every (pair, purpose) event before label filtering or dedup — the hunt's raw stream."""
     from openpyxl import load_workbook                                # noqa: PLC0415
 
     events = []
@@ -149,6 +150,11 @@ def extract_v2():
                 events.append({"author": author, "cycle": cyc, "raw": p,
                                "old": str(r["txt"] or "").strip()[:600], "new": "",
                                "pos_idx": i})
+    return events
+
+
+def extract_v2():
+    events = extract_raw()
     for e in events:
         e["fine"] = FINE9.get(e["raw"])
     events = [e for e in events if e["fine"]]
@@ -173,12 +179,25 @@ def extract_v2():
 
 
 def main() -> None:
+    import argparse                                                   # noqa: PLC0415
     import numpy as np                                                # noqa: PLC0415
     from sklearn.model_selection import KFold                         # noqa: PLC0415
     from sklearn.metrics import f1_score, accuracy_score              # noqa: PLC0415
     from xgboost import XGBClassifier                                 # noqa: PLC0415
 
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--drop-raw", default="",
+                    help="comma-separated raw purpose labels to exclude (composition arms)")
+    ap.add_argument("--tasks", default="binary,fine")
+    ap.add_argument("--out", default="replication.json")
+    args = ap.parse_args()
+
     events = extract_v2()
+    if args.drop_raw:
+        drops = {s.strip().lower() for s in args.drop_raw.split(",") if s.strip()}
+        before = len(events)
+        events = [e for e in events if e["raw"] not in drops]
+        print(f"drop-raw {sorted(drops)}: {before} -> {len(events)} examples")
     print(f"extract v2: {len(events)} examples "
           f"(paper sentential n = 3,238), {len({e['author'] for e in events})} authors")
 
@@ -259,13 +278,15 @@ def main() -> None:
                   f"(target {TARGETS[task][arm]})", flush=True)
         return res
 
-    out = {"n": len(events), "targets": TARGETS, "results": {}}
-    for task in ("binary", "fine"):
+    run_tasks = [t.strip() for t in args.tasks.split(",") if t.strip() in TARGETS]
+    out = {"n": len(events), "drop_raw": args.drop_raw, "tasks": run_tasks,
+           "targets": TARGETS, "results": {}}
+    for task in run_tasks:
         print(f"== {task}", flush=True)
         out["results"][task] = evaluate(task)
 
     deltas, passed = {}, True
-    for task in TARGETS:
+    for task in run_tasks:
         for arm, (tf1, tacc) in TARGETS[task].items():
             r = out["results"][task][arm]
             deltas[f"{task}/{arm}"] = {"f1": round(r["f1"] - tf1, 3),
@@ -278,9 +299,9 @@ def main() -> None:
     print(f"\n  >>> {out['verdict']}\n  deltas: {json.dumps(deltas, indent=1)}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / "replication.json").write_text(json.dumps(out, indent=1),
-                                              encoding="utf-8", newline="\n")
-    print(f"wrote {(RESULTS / 'replication.json').relative_to(REPO)}")
+    (RESULTS / args.out).write_text(json.dumps(out, indent=1),
+                                    encoding="utf-8", newline="\n")
+    print(f"wrote {(RESULTS / args.out).relative_to(REPO)}")
 
 
 if __name__ == "__main__":

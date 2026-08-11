@@ -2469,6 +2469,75 @@ needs a long stay and an eight-window essay barely has one, but corpus length is
 with genre and editing here, so the moderation reading stays a hypothesis. Banks are 34 against
 14 features, one window size.
 
+## L75 · The protocol arms' first returns: 0.64 matches neither obvious split, and the leak is worth twenty points
+
+**Hypothesis.** *(G141.)* The published 0.64 was earned on one of the candidate protocols the
+shipped dataset supports: the leaky shipped test split, the small test split, or a
+project-held-out design.
+
+**Method.** Identical fine-tuning (three epochs, same hyperparameters as the L68/L69 arms),
+evaluated per protocol. Leave-one-project-out trains on the combined shipped splits minus one
+project and tests on that project.
+
+| protocol | model | weighted F1 | against the published 0.64 |
+|---|---|---|---|
+| shipped test (within-project, leaks) | BERT / RoBERTa | 0.741 / 0.730 | +10 / +9 |
+| shipped test_small | RoBERTa | 0.468 | −17 |
+| held-out project 1 | RoBERTa | 0.520 | −12, no published analogue |
+| held-out project 3 | BERT | 0.512 | −13, no published analogue |
+
+*Caption: the same training recipe under four evaluation protocols. The remaining test_small
+and leave-one-project-out folds land through the day.*
+
+**Found.** The small split undershoots the published number by seventeen points; leak-free
+cross-project evaluation sits at 0.51 to 0.52 for both architectures.
+
+**Means, recorded as part of the experiment record per the standing directive.** What we now
+know about their construction: the published 0.64 sits strictly between the leaky
+within-project protocol (nine to ten points above) and every leak-free protocol we can build
+from the shipped data (twelve to seventeen below), so their evaluation was neither of the
+obvious candidates run with this recipe. The remaining candidates are a different training
+regime (more epochs, dev-set early stopping, different windowing) or an unshipped split. Two
+structural facts came out regardless: the within-project leak is worth about twenty points at
+matched architecture, and cross-project intention transfer at 0.51 is the honest difficulty of
+the task, far above the 0.13 zero-shot floor. The exact-evaluation-paragraph fetch is now the
+blocking item for this recreation.
+
+## L76 · The n hunt: no dedup rule exists, one label is exactly the excess, and their own F1 pins their majority share
+
+**Hypothesis.** *(G136.)* Some deduplication or filtering rule yields the paper's 3,238
+sentential examples from our 3,323.
+
+**Method.** Fourteen extraction-rule variants enumerated on the raw event stream (dedup keys
+over pair, sentence, and cycle; no-op, pure-addition, and pure-deletion drops), each reporting
+its n and majority shares; then per-raw-label counts inside the fine classes; run as
+`run_arg_dedup_hunt.py`, composition arithmetic only.
+
+| rule family | n | note |
+|---|---|---|
+| split-all purposes (v2) | 3,365 | |
+| first-per-pair (v3) and every dedup variant of it | 3,323 | a fixed point; there are no duplicates left to remove |
+| structural drops (additions, deletions, aligned-only) | 2,236 / 2,812 / 1,725 | all overshoot far past the target |
+| v3 minus the raw label 'precision' | **3,238** | exact, the label carries exactly 85 events |
+
+*Caption: the hunt for the paper's n. No dedup rule reaches it; one label exclusion does,
+exactly.*
+
+**Found.** The +85 excess is composition, not duplication. The raw purpose 'precision' carries
+exactly 85 events. Separately, the paper's published majority F1 of 0.05 pins their majority
+share arithmetically: the unweighted nine-class F1 of a majority-only predictor is
+(2s/(1+s))/9, which equals 0.0500 at share s = 0.290 exactly.
+
+**Means, the model-structure record.** Their construction differs from ours in at least two
+places, and the two are now separable. Dropping 'precision' hits their n exactly but moves our
+majority share the wrong way (0.316 to 0.325 against their 0.290), so beyond the 85-event
+exclusion there is a redistribution out of the word-usage/clarity class (ours 1,051 events,
+theirs about 939 by the F1 identity). The suspects for the redistribution are our
+first-listed-purpose pick among multi-purpose pairs against some other priority of theirs, and
+the level-0 fallback our extractor uses where level-1 annotation is empty. The confirmation arm
+(fine task with 'precision' dropped, n = 3,238) is queued; the multi-purpose pick-priority
+census is the next cheap diagnostic if it falls short.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

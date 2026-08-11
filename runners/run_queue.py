@@ -612,6 +612,15 @@ for _k in range(5):
                    "needs": ["results/scholawrite/schema.json"],
                    "why": f"G141 leak-free protocol, second architecture, project {_k}"})
 
+# ── NIGHT12b 2026-08-11: the composition arm the dedup hunt earned (CPU, runs beside the GPU)
+STAGES.append({"name": "arg_fine_noprecision", "est": 240,
+               "cmd": [PY, "runners/run_arg_replication.py", "--drop-raw", "precision",
+                       "--tasks", "fine", "--out", "replication_noprec.json"],
+               "produces": "results/arg_baselines/replication_noprec.json",
+               "needs": [],
+               "why": "G136 composition arm: without 'precision' n hits their 3,238 exactly; "
+                      "does the fine task move toward the published 0.44+?"})
+
 
 
 def rel(p: str) -> Path:

@@ -1,0 +1,104 @@
+{
+ "target_n": 3238,
+ "rows": [
+  {
+   "rule": "A  split-all (v2)",
+   "n": 3365,
+   "fine_majority_share": 0.3132,
+   "binary_majority_share": 0.584,
+   "n_delta": 127
+  },
+  {
+   "rule": "B  first-per-pair (v3)",
+   "n": 3323,
+   "fine_majority_share": 0.3163,
+   "binary_majority_share": 0.5799,
+   "n_delta": 85
+  },
+  {
+   "rule": "C  B + drop old==new",
+   "n": 3323,
+   "fine_majority_share": 0.3163,
+   "binary_majority_share": 0.5799,
+   "n_delta": 85
+  },
+  {
+   "rule": "D  B + drop pure additions",
+   "n": 2236,
+   "fine_majority_share": 0.4691,
+   "binary_majority_share": 0.6167,
+   "n_delta": -1002
+  },
+  {
+   "rule": "E  B + drop pure deletions",
+   "n": 2812,
+   "fine_majority_share": 0.3734,
+   "binary_majority_share": 0.511,
+   "n_delta": -426
+  },
+  {
+   "rule": "F  B + aligned pairs only",
+   "n": 1725,
+   "fine_majority_share": 0.6075,
+   "binary_majority_share": 0.7872,
+   "n_delta": -1513
+  },
+  {
+   "rule": "G  B + global (old,new) dedup",
+   "n": 3323,
+   "fine_majority_share": 0.3163,
+   "binary_majority_share": 0.5799,
+   "n_delta": 85
+  },
+  {
+   "rule": "H  first-per-pair, cycle-blind",
+   "n": 3323,
+   "fine_majority_share": 0.3163,
+   "binary_majority_share": 0.5799,
+   "n_delta": 85
+  },
+  {
+   "rule": "I  first-per-old-sentence",
+   "n": 2368,
+   "fine_majority_share": 0.443,
+   "binary_majority_share": 0.5735,
+   "n_delta": -870
+  },
+  {
+   "rule": "J  first-per-new-sentence",
+   "n": 2918,
+   "fine_majority_share": 0.3598,
+   "binary_majority_share": 0.5243,
+   "n_delta": -320
+  },
+  {
+   "rule": "K  C + drop pure additions",
+   "n": 2236,
+   "fine_majority_share": 0.4691,
+   "binary_majority_share": 0.6167,
+   "n_delta": -1002
+  },
+  {
+   "rule": "L  C + drop pure deletions",
+   "n": 2812,
+   "fine_majority_share": 0.3734,
+   "binary_majority_share": 0.511,
+   "n_delta": -426
+  },
+  {
+   "rule": "M  C + aligned pairs only",
+   "n": 1725,
+   "fine_majority_share": 0.6075,
+   "binary_majority_share": 0.7872,
+   "n_delta": -1513
+  },
+  {
+   "rule": "N  F, cycle-blind key",
+   "n": 1725,
+   "fine_majority_share": 0.6075,
+   "binary_majority_share": 0.7872,
+   "n_delta": -1513
+  }
+ ],
+ "verdict": "NO-EXACT-HIT"
+}
