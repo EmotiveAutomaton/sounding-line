@@ -2880,6 +2880,33 @@ and when a number resists, try to reproduce it by breaking your own pipeline in 
 suspect theirs was broken. That last move is what separates "we failed to match" from "we
 know why the number is what it is."
 
+## L84 · Difference features on the binary task: a point and a half, gap narrowed to three to four, encoder version now the sole candidate
+
+**Hypothesis.** *(G136.)* The explicit-change features that rescued grammar/spelling on the
+fine task should also help the binary surface/content split, the one gate still live from
+the released data.
+
+**Method.** The v4 construction, binary task, published hyperparameters, with the USE block
+extended by the embedding delta, its absolute value, and the cosine.
+
+| arm | without diff (L80) | with diff | target |
+|---|---|---|---|
+| binary features | .883 | .883 | .90 |
+| binary USE | .875 | .888 | .92 |
+| binary features+USE | .872 | .887 | .93 |
+
+*Caption: the difference features buy 1.3 to 1.5 points on the embedding arms and nothing on
+the feature-only arm they do not touch. Majority stays exact.*
+
+**Found.** The gap narrows to 1.7 points on features and 3.2 to 4.3 on the embedding arms.
+
+**Means.** Every in-corpus lever is now spent: composition exact, features theirs,
+hyperparameters theirs, the change stated explicitly. What remains between .887 and .93 has
+one named candidate left, the encoder version (their 2021-era USE against our current hub
+export), which the archaeology subagent is resolving; its answer either supplies a version
+pin to try or closes the binary row as encoder-version indeterminacy with the gap bounded at
+three to four points.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
