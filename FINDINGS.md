@@ -2738,6 +2738,24 @@ and ours never predicts. The two queued mechanism arms (explicit difference feat
 and if both miss, the honest close of this row is that the published fine numbers are not
 reproducible from the released corpus as described.
 
+**Supplement (same day, the agent's final diagnosis).** Difference features are a partial
+fix with the mechanism confirmed: adding the explicit delta and cosine to the embedding block
+buys +.036 macro, and the gain lands exactly where the mechanism says, grammar/spelling
+rising from .12 to .47 and overtaking the paper's own .39, since a spelling fix is defined by
+a small surface change a bare concatenation never states. The decisive finding is a perfect
+partition: across the nine classes, our mean gap against the paper is −.025 on the four
+classes their §5.4.1 does NOT list for augmentation and −.338 on the five it does, and the
+split is not a size effect, since grammar/spelling (239 examples, not listed) is one we now
+beat while claim (234, listed) trails by 21 points. With three facts converging, the fine
+majority row implying ~314 extra examples outside word-usage, the binary majority matching
+the unaugmented table exactly, and the gap partitioning along the augmentation list, the
+inference (marked as inference) is that their fine BASE rows were computed on an
+already-oversampled set, with +DA a further augmentation on top. The prediction: the
+published fine rows are not reproducible from the released 3,238, and roughly .30 is the
+correct unaugmented number for their feature set. The gates are re-scoped accordingly in the
+TODO row, and the binary arms, where the released data supports the target, get the
+difference features next.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

@@ -669,6 +669,14 @@ STAGES += [
      "needs": [],
      "why": "G136 single-cause hypothesis: a 1.49x oversample of the five small classes "
             "predicts majority .29, word-usage F1 .45, and rare classes .35-.54 all at once"},
+    {"name": "arg_v4_diff_binary", "est": 50,
+     "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--diff-features",
+             "--tasks", "binary", "--out", "replication_v4_diff_binary.json"],
+     "produces": "results/arg_baselines/replication_v4_diff_binary.json",
+     "needs": [],
+     "why": "G136 binary gate: the .93 target is live from the released data and the "
+            "difference features are untried there; the last binary lever short of encoder "
+            "archaeology"},
 ]
 
 

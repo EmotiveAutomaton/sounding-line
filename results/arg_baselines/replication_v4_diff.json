@@ -1,0 +1,138 @@
+{
+ "n": 3236,
+ "drop_raw": "",
+ "tasks": [
+  "fine"
+ ],
+ "extract": "v4",
+ "grid": false,
+ "balanced": false,
+ "diff_features": true,
+ "oversample": 0.0,
+ "targets": {
+  "binary": {
+   "majority": [
+    0.37,
+    0.58
+   ],
+   "features": [
+    0.9,
+    0.9
+   ],
+   "use": [
+    0.92,
+    0.92
+   ],
+   "features_use": [
+    0.93,
+    0.93
+   ]
+  },
+  "fine": {
+   "majority": [
+    0.05,
+    0.29
+   ],
+   "features": [
+    0.44,
+    0.58
+   ],
+   "use": [
+    0.49,
+    0.62
+   ],
+   "features_use": [
+    0.51,
+    0.63
+   ]
+  }
+ },
+ "results": {
+  "fine": {
+   "majority": {
+    "f1": 0.05398213877356597,
+    "acc": 0.32139027229186945
+   },
+   "features": {
+    "f1": 0.24620316430748032,
+    "acc": 0.5126719713015437,
+    "grid": {
+     "n_estimators": 750,
+     "max_depth": 5,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "claim": 0.109,
+     "evidence": 0.264,
+     "general_content": 0.489,
+     "grammar_spelling": 0.161,
+     "organization": 0.0,
+     "precision": 0.039,
+     "reasoning": 0.428,
+     "rebuttal": 0.0,
+     "word_usage": 0.742
+    }
+   },
+   "use": {
+    "f1": 0.299032851671197,
+    "acc": 0.5840522258476921,
+    "grid": {
+     "n_estimators": 750,
+     "max_depth": 5,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "claim": 0.131,
+     "evidence": 0.226,
+     "general_content": 0.547,
+     "grammar_spelling": 0.507,
+     "organization": 0.0,
+     "precision": 0.0,
+     "reasoning": 0.512,
+     "rebuttal": 0.0,
+     "word_usage": 0.78
+    }
+   },
+   "features_use": {
+    "f1": 0.2994720671064831,
+    "acc": 0.5843618218940219,
+    "grid": {
+     "n_estimators": 750,
+     "max_depth": 5,
+     "learning_rate": 0.05
+    },
+    "per_class_f1": {
+     "claim": 0.144,
+     "evidence": 0.231,
+     "general_content": 0.551,
+     "grammar_spelling": 0.49,
+     "organization": 0.0,
+     "precision": 0.0,
+     "reasoning": 0.514,
+     "rebuttal": 0.0,
+     "word_usage": 0.779
+    }
+   }
+  }
+ },
+ "fine_majority_note": "the printed fine Majority row (.05/.29) contradicts the paper's own Table 4 (word-usage 1,030 of 3,238 implies .05/.32); we gate the majority arm against the table-implied values (L79)",
+ "deltas": {
+  "fine/majority": {
+   "f1": 0.004,
+   "acc": 0.031
+  },
+  "fine/features": {
+   "f1": -0.194,
+   "acc": -0.067
+  },
+  "fine/use": {
+   "f1": -0.191,
+   "acc": -0.036
+  },
+  "fine/features_use": {
+   "f1": -0.211,
+   "acc": -0.046
+  }
+ },
+ "verdict": "NOT-MATCHED"
+}
