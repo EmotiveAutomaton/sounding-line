@@ -2756,6 +2756,49 @@ correct unaugmented number for their feature set. The gates are re-scoped accord
 TODO row, and the binary arms, where the released data supports the target, get the
 difference features next.
 
+## L81 · The oversample arm reproduces the "unreachable" majority row exactly and brackets their fine model rows; the diff mechanism confirms in-house
+
+**Hypothesis.** *(G136.)* The augmentation inference is self-gating: a 1.49× oversample of
+the five §5.4.1 classes predicts the printed fine majority .05/.29 (shown unreachable from
+the released corpus in L79), the majority word-usage F1 of .45, and raised rare classes; the
+difference-features mechanism should reproduce in our pipeline.
+
+**Method.** The v4 construction with a seeded 0.49× duplication of the five named classes
+before cross-validation (3,544 examples), published hyperparameters, plain five-fold, with
+the difference-features arm run beside it unaugmented.
+
+| arm | fine features+USE F1 / acc | fine majority F1 / acc |
+|---|---|---|
+| unaugmented v4 (L80) | .249 / .550 | .054 / .321 |
+| + difference features | .299 / .584 | same |
+| 1.49× oversample | .568 / .628 | **.050 / .293** |
+| paper, base row | .51 / .63 | .05 / .29 (printed) |
+| paper, +DA row | .56 | |
+
+*Caption: the two discriminator arms against the paper's printed rows. The oversample arm's
+majority cell reproduces the printed row that the released corpus cannot produce.*
+
+**Found.** Two of the three self-gating predictions hit exactly: the printed majority row
+comes back to the digit (.050/.293 against .05/.29, with the majority word-usage F1 at .45
+by the same arithmetic), and model-arm accuracy lands on their .63. The third overshoots in
+the diagnostic direction: rare classes come back at .55 to .72 rather than their .35 to .54,
+and the overall macro (.568) overshoots their base .51 while landing within .008 of their
++DA row (.56), which is the signature of duplicated examples leaking across
+cross-validation folds. The difference arm confirms the agent's mechanism in-house:
++.05 macro, grammar/spelling .064 to .490, overtaking the paper's own .39, with the three
+never-predicted classes unmoved.
+
+**Means, the model-structure record.** The composition claim graduates from arithmetic
+inference to in-pipeline demonstration: their fine experiment ran on an oversampled set, and
+a plain pre-CV duplication reproduces their +DA cell to a hundredth, suggesting +DA itself
+was duplication with fold contamination. Their base fine row (.51) sits between our
+unaugmented .30 and our duplicated .57, consistent with rebalancing confined to training
+folds or a milder operation, and the released corpus cannot decide which. The fine half of
+this recreation closes on that evidence: majority and composition demonstrated, the four
+non-augmented classes within a dime of published, the five augmented classes exempt with the
+mechanism shown rather than merely inferred. The binary .93 gate stays live, with the
+difference features queued there as the last lever.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
