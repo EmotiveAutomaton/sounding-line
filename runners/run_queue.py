@@ -636,14 +636,24 @@ STAGES += [
      "why": "G141 faithful arm, second architecture"},
 ]
 
-# ── NIGHT12b 2026-08-11: the composition arm the dedup hunt earned (CPU, runs beside the GPU)
-STAGES.append({"name": "arg_fine_noprecision", "est": 240,
-               "cmd": [PY, "runners/run_arg_replication.py", "--drop-raw", "precision",
-                       "--tasks", "fine", "--out", "replication_noprec.json"],
-               "produces": "results/arg_baselines/replication_noprec.json",
-               "needs": [],
-               "why": "G136 composition arm: without 'precision' n hits their 3,238 exactly; "
-                      "does the fine task move toward the published 0.44+?"})
+# ── NIGHT12b 2026-08-11, REVISED by the subagent pin (L79): the noprecision arm is
+# disconfirmed (precision is a real class; two different 85s). The v4 arms carry the pinned
+# construction: Revision-Index units, multi-purpose discard, their features, their published
+# footnote hyperparameters. Cheap without the grid; CPU, runs beside the GPU stages.
+STAGES += [
+    {"name": "arg_v4_fixed", "est": 60,
+     "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4",
+             "--out", "replication_v4.json"],
+     "produces": "results/arg_baselines/replication_v4.json",
+     "needs": [],
+     "why": "G136 v4: the pinned construction with published hyperparameters, both tasks"},
+    {"name": "arg_v4_balanced", "est": 45,
+     "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--balanced",
+             "--tasks", "fine", "--out", "replication_v4_balanced.json"],
+     "produces": "results/arg_baselines/replication_v4_balanced.json",
+     "needs": [],
+     "why": "G136 rare-class suspect: does balanced sample weighting close the fine macro gap?"},
+]
 
 
 

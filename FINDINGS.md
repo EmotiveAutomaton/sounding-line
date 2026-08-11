@@ -2538,6 +2538,12 @@ the level-0 fallback our extractor uses where level-1 annotation is empty. The c
 (fine task with 'precision' dropped, n = 3,238) is queued; the multi-purpose pick-priority
 census is the next cheap diagnostic if it falls short.
 
+**Reversal (2026-08-11, L79).** Both working inferences above died to the paper's own Table 4.
+'Precision' is a real class carrying 85 examples (two different 85s, a coincidence), and the
+0.290 majority share was derived from a printed Majority row that contradicts the paper's own
+class table; the true construction is the Revision-Index unit with multi-purpose discard. The
+noprecision arm was withdrawn before running.
+
 ## L77 · The ScholaWrite protocol, pinned at source: two missing levers, a published bug, and a self-inconsistent target
 
 **Hypothesis.** *(G141.)* The published training and evaluation protocol, recovered from
@@ -2626,6 +2632,54 @@ model, the exact gamma parameterization with its self-transition mass, the wide 
 Experiment-3 pipeline, and the stimulus geometry extraction from Fig 3 (walls are filled
 rects, paths are positioned glyphs, so it decodes the same way). No independent quantitative
 replication of this paper exists anywhere the agent could find; ours would be the first.
+
+## L79 · The ArgRewrite construction, pinned at source: the unit was wrong, two candidates die, and the published majority row contradicts the paper's own table
+
+**Hypothesis.** *(G136.)* The paper's exact sentential construction, recovered from primary
+sources, explains the remaining composition gap (L72/L76).
+
+**Method.** Research subagent over the paper's LaTeX source (the accepted manuscript's actual
+markup, not a rendering), the corpus's canonical Java toolkit, a third-party notebook using
+the same corpus, and our local spreadsheets, with the candidate rules executed against them.
+
+**Found.**
+1. **The unit is the Revision Index.** One example per group of rows sharing 'Revision Index
+   Level 0', purposes unioned across the group, many-to-many texts joined; and units carrying
+   more than one distinct purpose are **discarded outright** (the paper: annotation-guideline
+   violations, 54 of them), not resolved to a first or priority label. The corpus's own
+   toolkit and an independent third-party notebook both implement exactly this.
+2. **Both of our L76 candidates are dead.** 'Precision' is one of the nine classes with 85
+   examples in the paper's own Table 4, so our 85-event excess matching it was a coincidence
+   of two different 85s. And the .29 fine-majority target was arithmetic on a bad row: Table 4
+   puts word-usage at 1,030 of 3,238 (share .318, implying Majority .32/.48), so the printed
+   .29/.45 contradicts the paper's own table, the same defect appearing in three of the four
+   Majority cells. **Our measured 0.316 was correct behavior, not a composition error.**
+3. **Our extractor's rebuilt v4 lands at 3,236 of their 3,238**, cycle-1 count exact at
+   1,627, four classes exact, and the residual is a known ~11-unit word-usage/organization
+   label difference between the released spreadsheets and the authors' snapshot, unrecoverable
+   and worth 0.3 percent. Our old aligned-index parsing also had a real bug (comma-separated
+   many-to-many indices truncated to the first, orphaning sentences into fake deletions).
+4. **The rest of the pipeline is pinned.** Features: per sentence, length, position, a
+   19-tag POS term frequency (their worked example fixes the tag order), and one count per
+   transition-word **group** (six groups, their Appendix C list). Classifier: the final
+   hyperparameters are published in table footnotes (binary 500 estimators, depth 4, rate
+   .05; fine 750, depth 5, .05), so no grid search is needed; evaluation is plain 5-fold,
+   macro F1, mean over folds. The USE embedding channel was independently health-checked and
+   is not the problem.
+5. **The remaining fine-arm gap has a named suspect.** The paper's per-class fine F1s (.54 on
+   an 85-example class, .45 on precision) are implausible from unweighted training under
+   plain 5-fold; undescribed class rebalancing is the leading candidate, queued as an arm.
+
+**Means, the model-structure record.** Composition is now pinned to two examples out of
+3,238 against a corpus release that itself differs from the authors' snapshot by about
+fourteen units, which is as exact as the public data permits. The fine Majority gate is
+corrected to the table-implied .05/.32, with the printed row's contradiction recorded rather
+than chased. What remains between us and the model-arm numbers is protocol, not data: the v4
+arms run with the published hyperparameters, with and without balanced weighting, and if the
+fine arms stay near .28 after that, the residual lives in an evaluation choice the paper does
+not describe. The lesson that generalizes: both of yesterday's plausible inferences (an
+exclusion rule and a pinned share) were killed by one table read at source, which is exactly
+why the recreation standard demands the fetch before the chase.
 
 ## L4 · Can weak effects be stacked into a detector?
 

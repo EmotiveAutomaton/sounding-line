@@ -60,6 +60,124 @@ TRANSITIONS = ("however", "therefore", "moreover", "furthermore", "consequently"
                "specifically", "accordingly", "besides", "still", "yet", "so", "but", "and")
 
 
+TAGSET19 = ("ADJ", "ADP", "ADV", "AUX", "CCONJ", "CONJ", "DET", "INTJ", "NOUN", "NUM",
+            "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X", "SPACE")
+
+# Appendix C, Table 8: the six transition-word groups; the feature is one count per group.
+TRANSITION_GROUPS = {
+    "reasoning": ("consequently", "clearly", "then", "furthermore", "additionally",
+                  "moreover", "because", "besides", "also"),
+    "evidence": ("illustration", "e.g.", "example", "instance", "specifically",
+                 "demonstrate", "illustrate"),
+    "rebuttal": ("however", "but", "yet", "although", "despite", "contrast",
+                 "nevertheless", "nonetheless", "notwithstanding", "contrary",
+                 "otherwise", "though"),
+    "conclusion": ("therefore", "hence", "conclusion", "consideration", "indeed",
+                   "finally", "lastly"),
+    "details": ("specifically", "especially", "particular", "explain", "list",
+                "enumerate", "detail", "namely", "including"),
+    "causation": ("accordingly", "so", "because", "consequently", "hence", "since",
+                  "therefore", "thus"),
+}
+
+
+def extract_v4():
+    """The pinned construction (2026-08-11 subagent, L79): a unit is the set of rows sharing
+    'Revision Index Level 0' (per the corpus toolkit's mergeUnit), purposes unioned across the
+    unit, units with more than one distinct purpose DISCARDED (the paper's rule, not
+    first-pick), many-to-many texts joined with spaces, no truncation."""
+    from openpyxl import load_workbook                                # noqa: PLC0415
+
+    units: dict = {}
+    for wb_path in sorted(ANNOT.rglob("*.xlsx")):
+        if wb_path.name.startswith("~$"):
+            continue
+        m = re.search(r"[\\/](12|23)[\\/]", str(wb_path))
+        cyc = m.group(1) if m else "??"
+        am = re.search(r"argrewrite_(\d+)", wb_path.stem)
+        author = am.group(1) if am else wb_path.stem
+        try:
+            wb = load_workbook(wb_path, read_only=True, data_only=True)
+        except Exception:
+            continue
+
+        def table(ws):
+            ws.reset_dimensions()
+            rows = list(ws.iter_rows(values_only=True))
+            if not rows:
+                return None
+            hdr = [str(c).strip().lower() if c is not None else "" for c in rows[0]]
+
+            def col(nm):
+                return next((i for i, h in enumerate(hdr) if nm in h), None)
+
+            ix = {"i": col("sentence index"), "txt": col("sentence content"),
+                  "p": col("revision purpose level 0"),
+                  "ri": col("revision index level 0")}
+            if ix["i"] is None or ix["txt"] is None or ix["ri"] is None:
+                return None
+            return [{k: (r[v] if v is not None and v < len(r) else None)
+                     for k, v in ix.items()} for r in rows[1:]]
+
+        sheets = {ws.title.lower(): table(ws) for ws in wb.worksheets}
+        wb.close()
+
+        def as_i(v):
+            try:
+                return int(float(str(v).split(",")[0]))
+            except (TypeError, ValueError):
+                return None
+
+        for kname, rows in sheets.items():
+            if not rows:
+                continue
+            side = "old" if "old" in kname else "new"
+            for r in rows:
+                ri = as_i(r["ri"])
+                if ri is None:
+                    continue
+                u = units.setdefault((str(wb_path), ri),
+                                     {"author": author, "cycle": cyc, "purposes": [],
+                                      "old": [], "new": [], "oi": [], "ni": []})
+                txt = str(r["txt"] or "").strip()
+                if txt:
+                    u[side].append(txt)
+                idx = as_i(r["i"])
+                if idx is not None:
+                    u["oi" if side == "old" else "ni"].append(idx)
+                if r["p"]:
+                    for p in str(r["p"]).lower().split(","):
+                        p = p.strip()
+                        if p and p not in ("none", "nan") and p not in u["purposes"]:
+                            u["purposes"].append(p)
+
+    events = []
+    n_multi = 0
+    for u in units.values():
+        if not u["purposes"]:
+            continue
+        if len(u["purposes"]) > 1:
+            n_multi += 1
+            continue
+        fine = FINE9.get(u["purposes"][0])
+        if not fine:
+            continue
+        events.append({"author": u["author"], "cycle": u["cycle"],
+                       "raw": u["purposes"][0], "fine": fine,
+                       "binary": "surface" if fine in SURFACE9 else "content",
+                       "old": " ".join(u["old"]), "new": " ".join(u["new"]),
+                       "pos_idx": (min(u["ni"]) if u["ni"]
+                                   else (min(u["oi"]) if u["oi"] else 0)),
+                       "pos_old": min(u["oi"]) if u["oi"] else 0})
+    from collections import Counter                                   # noqa: PLC0415
+    cyc_n = Counter(e["cycle"] for e in events)
+    cls_n = Counter(e["fine"] for e in events)
+    print(f"v4 units: {len(events)} (paper 3,238); multi-purpose discarded {n_multi}; "
+          f"per-cycle {dict(cyc_n)}")
+    print(f"v4 per-class: {dict(cls_n)}")
+    return events
+
+
 def extract_raw():
     """Every (pair, purpose) event before label filtering or dedup — the hunt's raw stream."""
     from openpyxl import load_workbook                                # noqa: PLC0415
@@ -190,15 +308,21 @@ def main() -> None:
                     help="comma-separated raw purpose labels to exclude (composition arms)")
     ap.add_argument("--tasks", default="binary,fine")
     ap.add_argument("--out", default="replication.json")
+    ap.add_argument("--extract", default="v4", choices=["v4", "v2"],
+                    help="v4 is the pinned construction (L79); v2 kept for provenance")
+    ap.add_argument("--grid", action="store_true",
+                    help="search the 36-point grid instead of the published footnote values")
+    ap.add_argument("--balanced", action="store_true",
+                    help="balanced sample weights in fit (the rare-class-gap suspect)")
     args = ap.parse_args()
 
-    events = extract_v2()
+    events = extract_v4() if args.extract == "v4" else extract_v2()
     if args.drop_raw:
         drops = {s.strip().lower() for s in args.drop_raw.split(",") if s.strip()}
         before = len(events)
         events = [e for e in events if e["raw"] not in drops]
         print(f"drop-raw {sorted(drops)}: {before} -> {len(events)} examples")
-    print(f"extract v2: {len(events)} examples "
+    print(f"extract {args.extract}: {len(events)} examples "
           f"(paper sentential n = 3,238), {len({e['author'] for e in events})} authors")
 
     # ── traditional features: length, position, POS tag TFs, transition TFs (old and new)
@@ -208,6 +332,25 @@ def main() -> None:
                      "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X"})
 
     def trad(e):
+        if args.extract == "v4":
+            # Their feature set: per sentence, length + position + POS-19 term frequency
+            # + one count per transition group (six).
+            row = []
+            for txt, pos in ((e["old"], e.get("pos_old", 0)),
+                             (e["new"], e.get("pos_idx", 0))):
+                row.append(len(txt.split()))
+                row.append(pos)
+                doc = nlp(txt) if txt else []
+                counts = {t: 0 for t in TAGSET19}
+                for tok in doc:
+                    if tok.pos_ in counts:
+                        counts[tok.pos_] += 1
+                row.extend(counts[t] for t in TAGSET19)
+                low = " " + txt.lower() + " "
+                for grp in TRANSITION_GROUPS.values():
+                    row.append(sum(low.count(w) if w.endswith(".")
+                                   else low.count(" " + w + " ") for w in grp))
+            return row
         row = [len(e["old"].split()), len(e["new"].split()), e["pos_idx"]]
         for txt in (e["old"], e["new"]):
             doc = nlp(txt) if txt else []
@@ -245,7 +388,11 @@ def main() -> None:
     GRID = [{"n_estimators": n, "max_depth": d, "learning_rate": lr}
             for n in (250, 500, 750, 1000) for d in (3, 4, 5) for lr in (.1, .05, .01)]
 
+    FIXED = {"binary": {"n_estimators": 500, "max_depth": 4, "learning_rate": .05},
+             "fine": {"n_estimators": 750, "max_depth": 5, "learning_rate": .05}}
+
     def evaluate(task):
+        from sklearn.utils.class_weight import compute_sample_weight  # noqa: PLC0415
         y_raw = [e[task] for e in events]
         classes = sorted(set(y_raw))
         y = np.array([classes.index(v) for v in y_raw])
@@ -255,18 +402,26 @@ def main() -> None:
         kf = KFold(n_splits=5, shuffle=True, random_state=42)
         for arm, X in arms.items():
             if arm == "majority":
-                maj = np.bincount(y).argmax()
-                preds = np.full_like(y, maj)
-                res[arm] = {"f1": float(f1_score(y, preds, average="macro")),
-                            "acc": float(accuracy_score(y, preds))}
+                f1s, accs = [], []
+                for tr, te in kf.split(np.zeros(len(y))):
+                    maj = np.bincount(y[tr]).argmax()
+                    preds = np.full_like(y[te], maj)
+                    f1s.append(f1_score(y[te], preds, average="macro"))
+                    accs.append(accuracy_score(y[te], preds))
+                res[arm] = {"f1": float(np.mean(f1s)), "acc": float(np.mean(accs))}
+                print(f"  {task}/majority: F1 {res[arm]['f1']:.3f} acc "
+                      f"{res[arm]['acc']:.3f} (target {TARGETS[task][arm]})", flush=True)
                 continue
+            search = GRID if args.grid else [FIXED[task]]
             best = None
-            for g in GRID:
+            for g in search:
                 f1s, accs = [], []
                 for tr, te in kf.split(X):
                     clf = XGBClassifier(**g, tree_method="hist", n_jobs=-1,
                                         eval_metric="mlogloss", verbosity=0)
-                    clf.fit(X[tr], y[tr])
+                    sw = (compute_sample_weight("balanced", y[tr])
+                          if args.balanced else None)
+                    clf.fit(X[tr], y[tr], sample_weight=sw)
                     p = clf.predict(X[te])
                     f1s.append(f1_score(y[te], p, average="macro"))
                     accs.append(accuracy_score(y[te], p))
@@ -280,7 +435,12 @@ def main() -> None:
 
     run_tasks = [t.strip() for t in args.tasks.split(",") if t.strip() in TARGETS]
     out = {"n": len(events), "drop_raw": args.drop_raw, "tasks": run_tasks,
-           "targets": TARGETS, "results": {}}
+           "extract": args.extract, "grid": bool(args.grid),
+           "balanced": bool(args.balanced), "targets": TARGETS, "results": {},
+           "fine_majority_note": (
+               "the printed fine Majority row (.05/.29) contradicts the paper's own "
+               "Table 4 (word-usage 1,030 of 3,238 implies .05/.32); we gate the "
+               "majority arm against the table-implied values (L79)")}
     for task in run_tasks:
         print(f"== {task}", flush=True)
         out["results"][task] = evaluate(task)
