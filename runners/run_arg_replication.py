@@ -314,6 +314,13 @@ def main() -> None:
                     help="search the 36-point grid instead of the published footnote values")
     ap.add_argument("--balanced", action="store_true",
                     help="balanced sample weights in fit (the rare-class-gap suspect)")
+    ap.add_argument("--diff-features", action="store_true",
+                    help="augment USE with explicit change features: E_old-E_new, |diff|, "
+                         "cosine (the concatenation-never-states-the-change suspect)")
+    ap.add_argument("--oversample", type=float, default=0.0,
+                    help="pre-CV oversample factor for the five underrepresented classes; "
+                         "1.49 tests the L79-supplement arithmetic (predicts majority .29, "
+                         "word-usage F1 .45, rare classes .35 to .54)")
     args = ap.parse_args()
 
     events = extract_v4() if args.extract == "v4" else extract_v2()
@@ -322,6 +329,19 @@ def main() -> None:
         before = len(events)
         events = [e for e in events if e["raw"] not in drops]
         print(f"drop-raw {sorted(drops)}: {before} -> {len(events)} examples")
+    if args.oversample > 1.0:
+        import random                                                 # noqa: PLC0415
+        rng = random.Random(41)
+        five = ("claim", "evidence", "organization", "precision", "rebuttal")
+        extra = []
+        for cls in five:
+            pool = [e for e in events if e["fine"] == cls]
+            k = round((args.oversample - 1.0) * len(pool))
+            extra.extend(dict(e) for e in rng.choices(pool, k=k))
+        events = events + extra
+        print(f"oversampled the five small classes x{args.oversample}: "
+              f"+{len(extra)} -> {len(events)} (duplicates enter the CV pool by design; "
+              f"that leakage is the hypothesis under test)")
     print(f"extract {args.extract}: {len(events)} examples "
           f"(paper sentential n = 3,238), {len({e['author'] for e in events})} authors")
 
@@ -383,7 +403,13 @@ def main() -> None:
     print("embedding old/new sentences...", flush=True)
     E_old = embed([e["old"] or " " for e in events])
     E_new = embed([e["new"] or " " for e in events])
-    X_use = np.hstack([E_old, E_new])
+    if args.diff_features:
+        d = E_old - E_new
+        denom = np.linalg.norm(E_old, axis=1) * np.linalg.norm(E_new, axis=1)
+        cos = (np.sum(E_old * E_new, axis=1) / np.where(denom == 0, 1, denom))[:, None]
+        X_use = np.hstack([E_old, E_new, d, np.abs(d), cos])
+    else:
+        X_use = np.hstack([E_old, E_new])
 
     GRID = [{"n_estimators": n, "max_depth": d, "learning_rate": lr}
             for n in (250, 500, 750, 1000) for d in (3, 4, 5) for lr in (.1, .05, .01)]
@@ -414,6 +440,7 @@ def main() -> None:
                 continue
             search = GRID if args.grid else [FIXED[task]]
             best = None
+            oof = np.empty(len(y), dtype=int) if len(search) == 1 else None
             for g in search:
                 f1s, accs = [], []
                 for tr, te in kf.split(X):
@@ -423,11 +450,18 @@ def main() -> None:
                           if args.balanced else None)
                     clf.fit(X[tr], y[tr], sample_weight=sw)
                     p = clf.predict(X[te])
+                    if oof is not None:
+                        oof[te] = p
                     f1s.append(f1_score(y[te], p, average="macro"))
                     accs.append(accuracy_score(y[te], p))
                 cand = {"f1": float(np.mean(f1s)), "acc": float(np.mean(accs)), "grid": g}
                 if best is None or cand["f1"] > best["f1"]:
                     best = cand
+            if oof is not None:
+                pc = f1_score(y, oof, average=None,
+                              labels=list(range(len(classes))), zero_division=0)
+                best["per_class_f1"] = {classes[i]: round(float(v), 3)
+                                        for i, v in enumerate(pc)}
             res[arm] = best
             print(f"  {task}/{arm}: F1 {best['f1']:.3f} acc {best['acc']:.3f} "
                   f"(target {TARGETS[task][arm]})", flush=True)
@@ -436,7 +470,8 @@ def main() -> None:
     run_tasks = [t.strip() for t in args.tasks.split(",") if t.strip() in TARGETS]
     out = {"n": len(events), "drop_raw": args.drop_raw, "tasks": run_tasks,
            "extract": args.extract, "grid": bool(args.grid),
-           "balanced": bool(args.balanced), "targets": TARGETS, "results": {},
+           "balanced": bool(args.balanced), "diff_features": bool(args.diff_features),
+           "oversample": args.oversample, "targets": TARGETS, "results": {},
            "fine_majority_note": (
                "the printed fine Majority row (.05/.29) contradicts the paper's own "
                "Table 4 (word-usage 1,030 of 3,238 implies .05/.32); we gate the "

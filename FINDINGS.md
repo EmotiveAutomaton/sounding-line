@@ -2681,6 +2681,21 @@ not describe. The lesson that generalizes: both of yesterday's plausible inferen
 exclusion rule and a pinned share) were killed by one table read at source, which is exactly
 why the recreation standard demands the fetch before the chase.
 
+**Supplement (same day, the agent's own runs on the corrected construction).** Balanced
+sample weighting is falsified as the missing ingredient, moving fine macro F1 by at most
+0.02; the corrected feature spec lifts the binary features arm to .887 against their .90; and
+the per-class breakdown localizes the entire fine gap to the six small classes, with the
+model never emitting organization, rebuttal, or precision at all, and grammar/spelling at .12
+against their .39 despite 239 examples, so scarcity alone is not the story. Two mechanism
+candidates follow. Concatenated embeddings never state *what changed*, so explicit difference
+features are one arm; and an arithmetic single-cause hypothesis, that their fine experiment
+mildly oversampled (about 1.49×) exactly the five classes their own §5.4.1 calls
+underrepresented, would simultaneously produce the printed .29 majority, the .45 word-usage
+F1, and rare-class F1s of .35 to .54, none of which are otherwise reproducible. That
+hypothesis is inference from arithmetic, marked as such, and it predicts the fine row cannot
+be faithfully reproduced from the released 3,238 without the rebalancing; both arms are
+queued, and the oversample arm's three predictions make it self-gating.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

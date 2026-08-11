@@ -652,7 +652,23 @@ STAGES += [
              "--tasks", "fine", "--out", "replication_v4_balanced.json"],
      "produces": "results/arg_baselines/replication_v4_balanced.json",
      "needs": [],
-     "why": "G136 rare-class suspect: does balanced sample weighting close the fine macro gap?"},
+     "why": "G136 in-house confirmation: the subagent's run falsified balanced weighting "
+            "(+0.01-0.02 only); this replicates that in our pipeline"},
+    {"name": "arg_v4_diff", "est": 50,
+     "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--diff-features",
+             "--tasks", "fine", "--out", "replication_v4_diff.json"],
+     "produces": "results/arg_baselines/replication_v4_diff.json",
+     "needs": [],
+     "why": "G136 change-representation suspect: concatenated embeddings never state what "
+            "changed; explicit difference features are the mechanism candidate for the "
+            "small-class collapse"},
+    {"name": "arg_v4_oversample", "est": 50,
+     "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--oversample",
+             "1.49", "--tasks", "fine", "--out", "replication_v4_oversample.json"],
+     "produces": "results/arg_baselines/replication_v4_oversample.json",
+     "needs": [],
+     "why": "G136 single-cause hypothesis: a 1.49x oversample of the five small classes "
+            "predicts majority .29, word-usage F1 .45, and rare classes .35-.54 all at once"},
 ]
 
 
