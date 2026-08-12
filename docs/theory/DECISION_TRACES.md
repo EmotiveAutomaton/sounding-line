@@ -157,28 +157,28 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **SUPPORTED (test), first pass.** Human long-form variance 0.0102 vs machine 0.0065 at matched series length, *p* = 0.002, the flat-machine signature measured reader-side; register rides along uncontrolled |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
 | **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS AND NOW BY WINDOW (test, L74/L89), ruler-gated.** On books at the 80-word window the asymmetry is large (polish z 0.52 against 0.013, p = 1.3 × 10⁻⁵); at the 40-word window it does not transfer (p = 0.15); short essays flat at both. And the machine control reversed the interpretation, see PD-3 |
-| **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED (test, L89).** The machine extreme-specification corpus shows the *largest* polish-side positional structure in the family (z 0.65 against depth −0.05, p = 2 × 10⁻⁶), so positional polish movement cannot be read as a maker-attention signature; generic position-register structure is the live rival account for the whole movement family |
-| **PD-2** | Polish *decays* specifically, rather than merely moving | **SUPPORTED IN DIRECTION (test, L89), meaning contested.** Signed trends are negative on the polish side on both human corpora (books −0.30, p = 0.012; essays −0.17, p = 3.6 × 10⁻⁶, including where magnitude showed nothing, so the decay is many small sign-consistent slopes). Whether the fall is a maker's attention or the document's register geography is exactly what PD-3's reversal leaves open |
+| **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), window-robust.** The machine corpus shows the *largest* positional polish structure in the family, and in signed form it **rises** (+0.92, p = 3 × 10⁻⁶) where humans fall. Flatness is dead; what replaced it is a provenance-separating direction on the same instrument, a candidate discriminator owing the full funnel before belief |
+| **PD-2** | Polish *decays* specifically, rather than merely moving | **SUPPORTED FOR HUMANS, AND THE DIRECTION DISSOCIATES BY PROVENANCE (test, L89/L90).** Essays decay at both windows (−0.17 and −0.14, p ≤ 4 × 10⁻⁶); books decay at the wide window only (−0.30, p = 0.012; null at 40); the machine corpus rises. The dissociation weakens the register-geography rival, which predicted a shared direction, and restores the reallocation account's essays evidence; the books' window-boundness keeps the long-form claim modest |
 | **PD-4** | Polish variance is larger in less practised makers | **OPEN** |
 | **PD-29** | Polish separates into attraction and translation | **OPEN, and everything in this section depends on it** |
 | **PD-30** | Attraction decays across an artifact; translation does not | **OPEN** |
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
 | **PD-32** | Translation is denser where the maker expects a distant reader | **OPEN** |
 
-**What the table says.** The movement family delivered a direction and lost an interpretation
-in the same night. Polish-side features decay across position on both human corpora, the
-original quote's direction, visible even where magnitude statistics saw nothing because the
-slopes are small and sign-consistent. But the machine control reversed its prediction, showing
-the largest positional polish structure in the family, so movement cannot currently be read as
-a maker-attention signature at all: generic position-register geography (openings, closings,
-and scaffolding differing in readability-class features) rivals the reallocation account for
-every positional result here, and the books asymmetry is additionally window-bound. The
-separating design is a maker-varied corpus at fixed document geography, or the event level.
-The robust half of the section is the maker signature: polish-side features carry the author
-at fixed topic on two corpora and two window sizes with no exceptions, and the reader's
-affective series still moves through human long-form and not machine text. Confidence: the
-decay direction and the machine reversal are each one bad test away; the reallocation reading
-is contested by its own control; the essay-boundness family is replicated and controlled. The other clean positive stands apart. The reader's
+**What the table says.** The movement family ran its own separator and the accounts came
+apart by provenance. Human polish falls across position (essays at both windows; books only
+at the wide one) while machine polish rises strongly at both, so the simple register-geography
+rival, which predicted a shared direction, is weakened, and the reallocation account gets its
+essays evidence back with the books held modest. What fell out unplanned is a candidate
+discriminator, the sign of the polish trend separating human from machine long-form on one
+instrument, and it owes the full funnel (register-matched pairs, length control, a second
+generator) before anyone believes it, this project having buried ten cheap discriminators for
+less. The robust half of the section is still the maker signature: polish-side features carry
+the author at fixed topic on two corpora and two window sizes with no exceptions, and the
+reader's affective series still moves through human long-form and not machine text.
+Confidence: the essays decay is replicated across windows and one bad test away as a family;
+the machine rise and the books decay are each one bad test away, the books additionally
+window-bound; the discriminator reading is untested pending its funnel. The other clean positive stands apart. The reader's
 affective series moves through human long-form and stays comparatively flat through machine text.
 The rest is the simulation's 6.5× decay asymmetry plus unrun tests, with the
 attraction/translation split gating the lot. Confidence: the essay-boundness and movement results

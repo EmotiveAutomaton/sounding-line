@@ -2977,7 +2977,12 @@ release at 94 to 96 percent, exactly the aligner's own published accuracy band, 
 disagreement is an error relative to the human correction. The remaining unpinned surface is
 the evaluation protocol itself: the source carries a stray "10-fold cross-validation" comment
 against the published "5-fold", and the cells may be randomized-search maxima. The 10-fold
-arm is the last cheap lever and is running; behind it stands only author contact.
+arm is the last cheap lever and is running; behind it stands only author contact. An
+exhaustive follow-up sweep confirmed no processed pair file for this corpus exists anywhere
+public (their project domain is dead and was never archived with data), and found one
+corroboration: the only public third-party preprocessor for these spreadsheets reads exactly
+the columns and purpose mapping our v4 construction reads, an independent implementation
+agreeing with ours.
 
 ## L86 · The faithful ScholaWrite arm lands on the paper's self-consistent value, not on its printed one
 
@@ -3158,6 +3163,40 @@ nothing, but its meaning inherits the same ambiguity. Meanwhile the maker-signat
 the family (PD-33) is the robust one: two corpora, two window sizes, four results, no
 exceptions. Window size joins the lessons as a member of the statistic family rather than a
 nuisance choice.
+
+## L90 · The account separator: human polish falls, machine polish rises, on the same instrument
+
+**Hypothesis.** *(The PD-2/PD-3 collision's separator.)* If positional polish movement is
+generic document-register geography, machine long-form should share the human direction; if
+the movement carries the maker, the directions may dissociate.
+
+**Method.** The signed movement arm on the machine extreme-specification corpus, plus
+window-robustness arms for every signed result.
+
+| arm | polish signed z | test against zero | verdict |
+|---|---|---|---|
+| essays, 80-word window | −0.17 | p = 3.6 × 10⁻⁶ | decays |
+| essays, 40-word window | −0.14 | p = 4 × 10⁻⁶ | decays, window-robust |
+| books, 80-word window | −0.30 | p = 0.012 | decays |
+| books, 40-word window | +0.01 | p = 1.0 | null; the books decay is window-bound |
+| machine, 80-word window | **+0.92** | p = 3 × 10⁻⁶ | **RISES** |
+| machine, 40-word window (unsigned) | +0.31 | p = 2 × 10⁻⁴ | movement window-robust |
+
+*Caption: signed positional trend of polish-side features, per corpus and window. Human
+corpora fall; the machine corpus rises, strongly, at both windows.*
+
+**Found.** The direction dissociates by provenance. Both human corpora trend downward (the
+essays at both windows; the books only at the wide one), while machine polish climbs across
+position with the largest magnitude in the family.
+
+**Means.** The simple register-geography account predicted a shared direction and is
+weakened; attention-reallocation regains the essays evidence it lost to yesterday's reversal.
+And an unplanned instrument fell out of the collision: **the sign of the polish trend
+separates human from machine long-form** on this instrument, a candidate discriminator that
+now owes the full funnel (register-matched pairs, length control, a second machine generator)
+before it is believed, since the machine corpus here is specification-stacked essays rather
+than register-matched prose, and this project has buried ten cheap discriminators for less.
+The books' fragility keeps the human-side claim modest: the robust human decay is the essays'.
 
 ## L4 · Can weak effects be stacked into a detector?
 
