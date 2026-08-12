@@ -146,7 +146,10 @@ background job returns, go straight to A.**
 5. **Implement the top items and run them one at a time.** `TODO.md` → a runner → a queue stage is a
    **manual translation and it stays manual.** Automating it would produce stages nobody read, which
    is a systemic error rather than a slow one. **You are the automation.**
-6. **Keep the queue four to five hours deep.** Several corpora, several models, audits last.
+6. **Keep the queue loaded to the gear.** Second gear (`run_second_gear.sh`, the whole machine)
+   carries **about a day's worth of analyses ahead of time**; first gear (`run_first_gear.sh`,
+   part of the CPU, the GPU mostly his) carries four to eight hours of light stages. Several
+   corpora, several models, audits last.
    **Every stage needs a `produces` guard** — one without it re-ran at 160 minutes a pass.
    Estimate from measured rates; when unsure, **queue more, not fewer**.
 

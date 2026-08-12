@@ -138,10 +138,13 @@ fold it; never append a contradiction.
 ## §5. Before queueing or touching the loop infrastructure
 
 - **Every stage carries a `produces` guard**; one without it re-ran 160 minutes per pass.
-- **Underestimate runtimes 2-3×** and keep the queue 4-8 hours deep. GPU stages serialize
-  through `results/.gpu.lock` inside the runner, so shards cannot collide on the card; expect
-  lock-queue starvation to reorder stages and read per-stage logs, not shard logs, for stage
-  output. (TOOLS loop-scripts row)
+- **Underestimate runtimes 2-3×** and keep the queue loaded to the gear: second gear
+  (`run_second_gear.sh`, the whole machine) carries about a day's worth of analyses, first gear
+  (`run_first_gear.sh`, part of the CPU, the GPU mostly the curator's) four to eight hours of
+  light stages. GPU stages serialize through `results/.gpu.lock` inside the runner, so shards
+  cannot collide on the card; expect lock-queue starvation to reorder stages and read per-stage
+  logs, not shard logs, for stage output. (TOOLS gear-scripts row; gears replaced day/night
+  2026-08-12)
 - **Bare-launched shells have no PATH** (`date`/`cat` silently empty, deadline arithmetic
   collapses); loop scripts export PATH first. Kill loops by the lock's WINDOWS pid (line 2) with
   a tree kill; msys pids do not map. Sweep orphans at startup. (G121 history)

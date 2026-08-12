@@ -65,8 +65,16 @@ def count_abandoned(text: str) -> dict:
 
 
 def main() -> None:
+    import argparse                                                   # noqa: PLC0415
+
     import numpy as np                                                # noqa: PLC0415
     from scipy import stats                                           # noqa: PLC0415
+
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--fiction", action="store_true",
+                    help="the register-matched second comparison: whole-document machine "
+                         "fiction (two families) against the drafts and the old machine arm")
+    args = ap.parse_args()
 
     # ── ruler gate
     planted = ("There are three reasons this matters. First, the cost. I never got to the "
@@ -80,20 +88,23 @@ def main() -> None:
         sys.exit(1)
     print(f"gate ok: planted {g1}, clean {g0}")
 
-    corpora = {
-        "human_drafts": sorted((REPO / "corpora" / "public" / "argrewrite" / "essays"
-                                / "Draft1").glob("*.txt")),
-        "books": None,
-        "machine": sorted((REPO / "corpora" / "ladder3").glob("*.txt")),
-    }
     texts: dict[str, list[str]] = {}
     texts["human_drafts"] = [p.read_text(encoding="utf-8", errors="replace")
-                             for p in corpora["human_drafts"]]
-    sys.path.insert(0, str(REPO / "runners"))
-    from run_g28_twolayers import load_texts                          # noqa: PLC0415
-    texts["books"] = [t["text"] for t in load_texts()]
-    texts["machine"] = [p.read_text(encoding="utf-8", errors="replace")
-                        for p in corpora["machine"]]
+                             for p in sorted((REPO / "corpora" / "public" / "argrewrite"
+                                              / "essays" / "Draft1").glob("*.txt"))]
+    if args.fiction:
+        for tag in ("qwen", "ds"):
+            texts[f"fiction_{tag}"] = [
+                p.read_text(encoding="utf-8", errors="replace")
+                for p in sorted((REPO / "corpora" / f"machine_fiction_{tag}").glob("*.txt"))]
+        texts["machine"] = [p.read_text(encoding="utf-8", errors="replace")
+                            for p in sorted((REPO / "corpora" / "ladder3").glob("*.txt"))]
+    else:
+        sys.path.insert(0, str(REPO / "runners"))
+        from run_g28_twolayers import load_texts                      # noqa: PLC0415
+        texts["books"] = [t["text"] for t in load_texts()]
+        texts["machine"] = [p.read_text(encoding="utf-8", errors="replace")
+                            for p in sorted((REPO / "corpora" / "ladder3").glob("*.txt"))]
 
     out = {"gate": {"planted": g1, "clean": g0}, "corpora": {}}
     rates = {}
@@ -107,18 +118,19 @@ def main() -> None:
         print(f"{name:14s} n={len(counts):4d} mean {r:.3f} "
               f"any {out['corpora'][name]['share_with_any']:.2f}")
 
-    u_hb = stats.mannwhitneyu(rates["human_drafts"], rates["books"],
-                              alternative="two-sided")
-    u_hm = stats.mannwhitneyu(rates["human_drafts"], rates["machine"],
-                              alternative="two-sided")
-    out["human_vs_books_p"] = float(u_hb.pvalue)
-    out["human_vs_machine_p"] = float(u_hm.pvalue)
-    out["verdict"] = "INSTRUMENT-FIRST-PASS"
+    base = rates["human_drafts"]
+    for name in texts:
+        if name == "human_drafts" or not rates[name]:
+            continue
+        u = stats.mannwhitneyu(base, rates[name], alternative="two-sided")
+        out[f"human_vs_{name}_p"] = float(u.pvalue)
+        print(f"human-vs-{name} p {u.pvalue:.3g}")
+    out["verdict"] = "INSTRUMENT-FIRST-PASS" if not args.fiction else "FICTION-ARM"
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "summary.json").write_text(json.dumps(out, indent=1), encoding="utf-8",
-                                      newline="\n")
-    print(f"human-vs-books p {u_hb.pvalue:.3g} | human-vs-machine p {u_hm.pvalue:.3g}")
-    print(f"wrote {(OUT / 'summary.json').relative_to(REPO)}")
+    name_out = "summary_fiction.json" if args.fiction else "summary.json"
+    (OUT / name_out).write_text(json.dumps(out, indent=1), encoding="utf-8",
+                                newline="\n")
+    print(f"wrote {(OUT / name_out).relative_to(REPO)}")
 
 
 if __name__ == "__main__":

@@ -33,10 +33,12 @@ landed. Late sessions skip steps; this list exists so they don't.
 ## 2. Queue state
 
 - `tail results/queue_main.log`; confirm the loop process is alive (two-line lock, winpid).
-- **Day and night are distinct settings.** Day (`run_forever_day.sh`, serial, machine stays
-  usable) is the DEFAULT whenever he is talking at all regularly. Night
-  (`run_forever_night.sh`, sharded, whole machine) only when he explicitly calls for the
-  transition. Never switch to night on inference.
+- **First gear and second gear are distinct settings** (renamed from day/night 2026-08-12).
+  First gear (`run_first_gear.sh`, serial, part of the CPU, the GPU mostly his because games
+  need it) is the DEFAULT whenever he is talking at all regularly, and the mode for when he
+  wants the machine. Second gear (`run_second_gear.sh`, sharded, as much CPU and GPU as the
+  work can take) only when he explicitly calls for it, **loaded with about a day's worth of
+  analyses ahead of time**. Never shift to second gear on inference; he calls the gear.
 - If nothing is running and the queue has stages, find out why before anything else.
 
 ## 3. Gather landings
@@ -65,7 +67,9 @@ landed. Late sessions skip steps; this list exists so they don't.
 
 ## 6. Refill
 
-- Keep the queue 4-8 hours deep with produces-guarded stages; underestimate runtimes by 2-3×.
+- Keep the queue loaded to the gear: second gear carries about a day's worth of analyses ahead
+  of time, first gear four to eight hours of light stages. Produces-guarded stages only;
+  underestimate runtimes by 2-3×.
 - Phase order comes from the plan at the head of `TODO.md`; recreations pass only on exact
   published values.
 - **Before building or extending any runner, re-read `docs/method/LESSONS.md` §3 to §5**

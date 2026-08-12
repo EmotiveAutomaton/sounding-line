@@ -1,36 +1,41 @@
 #!/usr/bin/env bash
-# NIGHT — use the whole machine. Nobody is watching, so every safety here is load-bearing.
+# SECOND GEAR — use the whole machine. As much CPU and GPU as the work can take, loaded with
+# about a day's worth of analyses ahead of time. Nobody is watching, so every safety here is
+# load-bearing. (Renamed from run_forever_night.sh 2026-08-12; gears replace day/night as the
+# standard. First gear is for when the curator wants the machine; this one uses everything.)
 #
-# The daytime loop (run_forever_day.sh) runs one job at a time so the machine stays responsive.
-# This one does not care about lag. It cares about the failures that actually happened: 2026-08-07,
-# four loops respawning duplicate queues; and repeatedly since, ORPHANED STAGE PROCESSES surviving
-# the death of their queue, because the old cleanup (pkill -P) killed children but never
-# grandchildren, and the locks stored MSYS pids that no other session could check or kill.
+# The failures these guards answer: 2026-08-07, four loops respawning duplicate queues; and
+# repeatedly since, ORPHANED STAGE PROCESSES surviving the death of their queue, because the old
+# cleanup (pkill -P) killed children but never grandchildren, and the locks stored MSYS pids that
+# no other session could check or kill.
 #
 # FIVE GUARDS (G121 implemented 2026-08-10), none optional:
 #
 #   1. ONE LOOP.         Lock stores msys pid (line 1) AND Windows pid (line 2); liveness is
 #                        checked with tasklist on the winpid, which works from ANY session.
-#   2. MUTUAL EXCLUSION. Refuses while the day loop's winpid is alive, and vice versa.
+#   2. MUTUAL EXCLUSION. Refuses while first gear's winpid is alive, and vice versa.
 #   3. NO SHARED STAGES. Workers are SHARDS: stage i is owned by shard i % N by arithmetic.
 #   4. A DEADLINE.       Stops on its own.
 #   5. TREE KILLS + ORPHAN SWEEP. Every worker is killed as a WINDOWS PROCESS TREE (taskkill //T)
 #                        so its stage dies with it; startup kills any queue/stage python that no
 #                        live recorded loop owns. No more processes found in the morning.
 #
-# Usage:  bash run_forever_night.sh [hours] [workers]      defaults: 10 hours, 3 workers
-# Stop early with:   taskkill //F //T //PID $(sed -n 2p results/.overnight.lock)
+# Usage:  bash run_second_gear.sh [hours] [workers]      defaults: 12 hours, 3 workers
+# Stop early with:   taskkill //F //T //PID $(sed -n 2p results/.gear2.lock)
 #
 # WORKER COUNT IS A MEMORY DECISION, not a speed one. Three concurrent readers on a 12 GB card
-# used 11.3 GB. Heavy 3B-class models need workers=2 or the day loop instead (G120).
+# used 11.3 GB. Heavy 3B-class models need workers=2 or first gear instead (G120).
 
 cd "$(dirname "$0")" || exit 1
 # launched bare (Start-Process) there is no PATH; every external tool needs these
 export PATH="/usr/bin:/bin:/c/Windows/System32:/c/Windows/System32/WindowsPowerShell/v1.0:$PATH"
-HOURS="${1:-10}"
+HOURS="${1:-12}"
 WORKERS="${2:-3}"
-LOCK="results/.loop.lock"
-NIGHT="results/.overnight.lock"
+LOCK="results/.gear1.lock"
+GEAR2="results/.gear2.lock"
+# legacy lock paths from the day/night era; checked so a still-running old loop is never missed
+LEGACY_GEAR1="results/.loop.lock"
+LEGACY_GEAR2="results/.overnight.lock"
 LOG="results/queue_main.log"
 mkdir -p results
 
@@ -39,40 +44,45 @@ WINPID=$(cat /proc/$$/winpid 2>/dev/null)
 alive_win() { [ -n "$1" ] && tasklist //FI "PID eq $1" 2>/dev/null | grep -q " $1 "; }
 lock_winpid() { sed -n 2p "$1" 2>/dev/null; }
 
-# Guard 2 — mutual exclusion with the day loop, by WINDOWS pid.
-if [ -f "$LOCK" ] && alive_win "$(lock_winpid "$LOCK")"; then
-  echo "the day loop is running (winpid $(lock_winpid "$LOCK")). Stop it first:"
-  echo "  taskkill //F //T //PID $(lock_winpid "$LOCK")"
-  exit 1
-fi
-
-# Guard 1 — one overnight loop, by WINDOWS pid.
-if [ -f "$NIGHT" ]; then
-  OLDWIN=$(lock_winpid "$NIGHT")
-  if alive_win "$OLDWIN"; then
-    echo "an overnight loop is already running (winpid $OLDWIN). Refusing."
-    exit 0
+# Guard 2 — mutual exclusion with first gear (and any legacy loop), by WINDOWS pid.
+for other in "$LOCK" "$LEGACY_GEAR1"; do
+  if [ -f "$other" ] && alive_win "$(lock_winpid "$other")"; then
+    echo "first gear is running (winpid $(lock_winpid "$other") via $other). Stop it first:"
+    echo "  taskkill //F //T //PID $(lock_winpid "$other")"
+    exit 1
   fi
-  echo "clearing a stale overnight lock (winpid $OLDWIN is dead)"
-fi
-printf '%s\n%s\n' "$$" "$WINPID" > "$NIGHT"
+done
 
-# Guard 5a — startup orphan sweep, shared with the day loop.
+# Guard 1 — one second-gear loop, by WINDOWS pid.
+for self in "$GEAR2" "$LEGACY_GEAR2"; do
+  if [ -f "$self" ]; then
+    OLDWIN=$(lock_winpid "$self")
+    if alive_win "$OLDWIN"; then
+      echo "a second-gear loop is already running (winpid $OLDWIN). Refusing."
+      exit 0
+    fi
+    echo "clearing a stale lock $self (winpid $OLDWIN is dead)"
+    rm -f "$self"
+  fi
+done
+printf '%s\n%s\n' "$$" "$WINPID" > "$GEAR2"
+
+# Guard 5a — startup orphan sweep, shared with first gear.
 powershell -NoProfile -File tools/orphan_sweep.ps1 -Keep "$WINPID" 2>/dev/null
 
 # Guard 4 — a deadline; Guard 5b — cleanup kills every worker's WINDOWS TREE.
 DEADLINE=$(( $(date +%s) + HOURS * 3600 ))
 WORKER_WINPIDS=()
 cleanup() {
-  echo "=== overnight stopping, killing worker trees ===" >> "$LOG"
+  echo "=== second gear stopping, killing worker trees ===" >> "$LOG"
   for w in "${WORKER_WINPIDS[@]}"; do
     [ -n "$w" ] && taskkill //F //T //PID "$w" >/dev/null 2>&1
   done
-  rm -f "$NIGHT" results/.queue.*of*.lock
+  rm -f "$GEAR2" results/.queue.*of*.lock
 }
 trap cleanup EXIT INT TERM
 
-echo "=== NIGHT started $(date) msys $$ / winpid $WINPID — ${HOURS}h, ${WORKERS} shards ===" >> "$LOG"
+echo "=== SECOND GEAR started $(date) msys $$ / winpid $WINPID — ${HOURS}h, ${WORKERS} shards ===" >> "$LOG"
 echo "started. ${HOURS}h deadline, ${WORKERS} shards. Stop early with:"
 echo "  taskkill //F //T //PID $WINPID"
 
@@ -98,5 +108,5 @@ while [ "$(date +%s)" -lt "$DEADLINE" ]; do
   sleep 60
 done
 
-echo "=== NIGHT deadline reached $(date), ${PASS} passes ===" >> "$LOG"
+echo "=== SECOND GEAR deadline reached $(date), ${PASS} passes ===" >> "$LOG"
 echo "deadline reached after ${PASS} passes."

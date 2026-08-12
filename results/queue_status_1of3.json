@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-12 05:33",
+  "started": "2026-08-12 11:41",
   "stages": [
     {
       "name": "revision_purpose",
@@ -380,77 +380,77 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "scholawrite_roberta_faithful",
-      "why": "G141 faithful arm, second architecture",
-      "est_minutes": 400,
+      "name": "arg_v4_fixed",
+      "why": "G136 v4: the pinned construction with published hyperparameters, both tasks",
+      "est_minutes": 60,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "arg_v4_diff",
-      "why": "G136 change-representation suspect: concatenated embeddings never state what changed; explicit difference features are the mechanism candidate for the small-class collapse",
+      "name": "arg_v4_oversample",
+      "why": "G136 single-cause hypothesis: a 1.49x oversample of the five small classes predicts majority .29, word-usage F1 .45, and rare classes .35-.54 all at once",
       "est_minutes": 50,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "features_argrewrite_w40",
-      "why": "PD-33/34 robustness input: the second window size",
-      "est_minutes": 30,
+      "name": "features_books_w40",
+      "why": "PD-33/34 robustness input, books",
+      "est_minutes": 60,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd33_books_w40",
-      "why": "PD-33 robustness: does the author-share split survive the window choice?",
-      "est_minutes": 10,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "pd2_signed_books",
-      "why": "PD-2 at last: the signed-trend decay form on the corpus where movement exists",
+      "name": "pd34_argrewrite_w40",
+      "why": "PD-34 robustness, essays at the second window",
       "est_minutes": 25,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g28_twolayers",
-      "why": "G28: leaked vs emblematic as two distributions or one question twice, with the test-retest arm as the built-in null; the caveat over the whole leak battery",
-      "est_minutes": 200,
+      "name": "pd2_signed_argrewrite",
+      "why": "PD-2 control surface: essays were flat in |trend|, so signed should be too",
+      "est_minutes": 25,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_SmolLM2-360M",
+      "name": "g20_mapping_Qwen2.5-0.5B",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_pythia-1.4b",
+      "name": "g20_mapping_gpt2-medium",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_Qwen2.5-3B",
+      "name": "g20_mapping_SmolLM2-1.7B",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd2_signed_books_w40",
-      "why": "PD-2 robustness: is the decay window-robust where the magnitude asymmetry was not?",
+      "name": "g20_mapping_gpt2-xl",
+      "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_argrewrite_w40",
+      "why": "PD-2 robustness, essays at the second window",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd34_ladder3_w40",
-      "why": "machine window-robustness input",
-      "est_minutes": 30,
+      "name": "pd3_ladder3_w40",
+      "why": "PD-3 reversal robustness at the second window",
+      "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "gen_fiction",
-      "why": "sign-funnel step 1: register-matched machine fiction, two generator families",
-      "est_minutes": 200,
+      "name": "features_fiction_qwen",
+      "why": "sign-funnel input, generator one",
+      "est_minutes": 25,
       "status": "RUNNING",
-      "log": "results\\gen_fiction.log"
+      "log": "results\\features_fiction_qwen.log"
     }
   ],
   "shard": "1/3"

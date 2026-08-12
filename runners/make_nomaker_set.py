@@ -80,9 +80,12 @@ SMOOTH = ("Rewrite the following so it reads more smoothly and professionally. K
 
 
 def gen(client, prompt: str, target: int) -> str:
-    return client.read_text(
+    import re                                                          # noqa: PLC0415
+    txt = client.read_text(
         f"You write long-form prose. Write at least {target} words. No headings, no lists.",
         prompt)
+    # reasoning-family models (the weakness-6 second-family arm) emit think blocks; strip them
+    return re.sub(r"<think>.*?</think>", "", txt, flags=re.S).strip()
 
 
 def main() -> None:
@@ -90,14 +93,32 @@ def main() -> None:
     ap.add_argument("--arm", default="local")
     ap.add_argument("--per-kind", type=int, default=12)
     ap.add_argument("--words", type=int, default=TARGET_WORDS)
+    # expansion arms (2026-08-12, the L93 plan): fresh output dir so the original 36 are never
+    # touched, fresh seed base per the frozen-rerun policy, and a --model for the second family
+    ap.add_argument("--out-dir", default=str(OUT))
+    ap.add_argument("--seed-base", type=int, default=9000)
+    ap.add_argument("--model", default=None,
+                    help="ollama model for the local arm; default is the standard local model")
     args = ap.parse_args()
 
-    OUT.mkdir(parents=True, exist_ok=True)
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock  # noqa: PLC0415
+    acquire_gpu_lock("make_nomaker_set")
+    out = Path(args.out_dir)
+    out.mkdir(parents=True, exist_ok=True)
     manifest = []
+    if (out / "manifest.json").exists():
+        manifest = json.loads((out / "manifest.json").read_text(encoding="utf-8"))["items"]
+    have = {m["id"] for m in manifest}
     for i in range(args.per_kind):
         topic = TOPICS[i % len(TOPICS)]
         for kind in ("thin", "rich", "averaged"):
-            c = make_client(args.arm, seed=9000 + i * 10 + ("thin", "rich", "averaged").index(kind))
+            name = f"{kind}_{i:02d}"
+            if name in have and (out / f"{name}.txt").exists():
+                continue
+            kw = {"seed": args.seed_base + i * 10 + ("thin", "rich", "averaged").index(kind)}
+            if args.model:
+                kw["model"] = args.model
+            c = make_client(args.arm, **kw)
             try:
                 if kind == "thin":
                     text = gen(c, THIN.format(topic=topic), args.words)
@@ -111,14 +132,24 @@ def main() -> None:
             except Exception as e:                                    # noqa: BLE001
                 print(f"  {kind}/{i}: {type(e).__name__}", flush=True)
                 continue
-            name = f"{kind}_{i:02d}"
-            (OUT / f"{name}.txt").write_text(text, encoding="utf-8", newline="\n")
+            if len(text.split()) < 300:
+                print(f"  {name}: only {len(text.split())}w, skipped", flush=True)
+                continue
+            (out / f"{name}.txt").write_text(text, encoding="utf-8", newline="\n")
             manifest.append({"id": name, "kind": kind, "topic": topic,
                              "n_words": len(text.split()), "n_chars": len(text)})
             print(f"  {name:<14} {kind:<9} {len(text.split()):>5}w  {topic}", flush=True)
-            (OUT / "manifest.json").write_text(json.dumps(
+            (out / "manifest.json").write_text(json.dumps(
                 {"why": "no-maker control set; see runners/make_nomaker_set.py",
-                 "arm": args.arm, "items": manifest}, indent=2), encoding="utf-8")
+                 "arm": args.arm, "model": args.model or "default local",
+                 "seed_base": args.seed_base, "items": manifest},
+                indent=2), encoding="utf-8", newline="\n")
+    # the manifest is written incrementally for checkpointing, so a produces guard must watch
+    # this completion marker instead — a partial manifest would read as done otherwise
+    (out / "COMPLETE.json").write_text(json.dumps(
+        {"per_kind_requested": args.per_kind, "items_written": len(manifest)}),
+        encoding="utf-8", newline="\n")
+    release_gpu_lock()
 
     import statistics
     for kind in ("thin", "rich", "averaged"):

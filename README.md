@@ -207,7 +207,7 @@ text, in the parent simulation, or against published work. Each file owns one qu
 | [`results/readings/`](results/readings/) | human reading sessions, and a provenance ledger |
 | [`fetch/`](fetch/) | corpus acquisition, importing nothing from the analysis package by design |
 | [`runners/`](runners/) | one file per experiment, each opening with its own pre-registration |
-| [`run_forever_day.sh`](run_forever_day.sh) · [`run_forever_night.sh`](run_forever_night.sh) | the queue, one job at a time or the whole machine |
+| [`run_first_gear.sh`](run_first_gear.sh) · [`run_second_gear.sh`](run_second_gear.sh) | the queue engines: first gear runs one job at a time and leaves the GPU alone; second gear uses the whole machine |
 
 ---
 

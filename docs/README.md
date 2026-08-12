@@ -18,8 +18,10 @@ context.
 
 **The working loop is a skill.** `.claude/skills/grind/SKILL.md` (`/grind`) holds the full
 results-processing loop, harvest-first; `tools/theory_lint.py` enforces the theory folder's
-mechanical format rules through a PostToolUse hook. Day queue (`run_forever_day.sh`) is the
-default engine; night (`run_forever_night.sh`) only on the curator's explicit call.
+mechanical format rules through a PostToolUse hook. First gear (`run_first_gear.sh`, part of
+the machine, the GPU mostly the curator's) is the default engine; second gear
+(`run_second_gear.sh`, everything, loaded about a day deep) only on his explicit call. The
+gears replaced day/night as the standard on 2026-08-12.
 
 **Primary records of runs are not here.** They are `results/*/VERDICT.md` and the per-run JSONs,
 alongside the data.

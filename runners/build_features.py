@@ -103,6 +103,23 @@ def load_corpus(name: str) -> list[dict]:
                 out.append({"id": f"{it['author']}__seg{si}", "group": it["author"],
                             "text": seg})
         return out
+    # generic fallback: any corpora/<name>/ of .txt files is loadable without a registry edit.
+    # The fiction stages sat DEFERRED for a day because this raise fired silently (2026-08-12);
+    # a manifest's kind/rung becomes the group when one exists, else the corpus name.
+    d = REPO / "corpora" / name
+    if d.is_dir():
+        groups = {}
+        man_p = d / "manifest.json"
+        if man_p.exists():
+            man = json.loads(man_p.read_text(encoding="utf-8"))
+            for it in (man["items"] if isinstance(man, dict) else man):
+                if "id" in it:
+                    groups[it["id"]] = it.get("kind", it.get("rung", name))
+        rows = [{"id": p.stem, "group": groups.get(p.stem, name),
+                 "text": p.read_text(encoding="utf-8", errors="replace")}
+                for p in sorted(d.glob("*.txt"))]
+        if rows:
+            return rows
     raise ValueError(name)
 
 
@@ -141,8 +158,10 @@ def main() -> None:
         try:
             rows = load_corpus(cname)
         except Exception as e:                                         # noqa: BLE001
-            print(f"{cname}: SKIPPED — {type(e).__name__}: {e}")
-            continue
+            # exit nonzero so the queue records the failure instead of a hollow DONE — a
+            # ValueError here ran as "DONE" for a day while its consumers sat DEFERRED
+            print(f"{cname}: FAILED — {type(e).__name__}: {e}")
+            sys.exit(1)
         print(f"{cname}: {len(rows)} artifacts", flush=True)
         t0 = time.time()
         out = []

@@ -617,11 +617,9 @@ for _k in range(5):
 # The pass target is the paper's own per-class table (its printed 0.64 is internally
 # inconsistent by ~0.05); the revision diff gates interpretation.
 STAGES += [
-    {"name": "sw_revision_diff", "est": 40,
-     "cmd": [PY, "runners/run_sw_revision_diff.py"],
-     "produces": "results/scholawrite/revision_diff.json",
-     "needs": ["results/scholawrite/schema.json"],
-     "why": "G141: is revision 'anonymous_data' (pinned by their code) identical to main?"},
+    # sw_revision_diff REMOVED 2026-08-12: terminal-benign — the pinned revision no longer
+    # exists on the Hub even under gated access (L82), so the stage can never succeed and was
+    # failing every pass. Main is canonical by default; the runner stays for the record.
     {"name": "scholawrite_bert_faithful", "est": 400,
      "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert", "--faithful",
              "--epochs", "10"],
@@ -850,6 +848,46 @@ STAGES += [
             "v2 is full-n with a mean-arm reproduce-gate before the other poolings are read"},
 ]
 
+# ── SECOND GEAR restock 2026-08-12 (the gear-rename pass): the no-maker expansion serving
+# L40's power and weakness 6 in one chain; G80's register-matched fiction comparison.
+STAGES += [
+    {"name": "g80_fiction", "est": 10,
+     "cmd": [PY, "runners/run_g80_scaffolding.py", "--fiction"],
+     "produces": "results/g80_scaffolding/summary_fiction.json",
+     "needs": ["corpora/machine_fiction_manifest.json"],
+     "why": "G80's cleaner machine comparison: whole-document fiction, two generator families"},
+    {"name": "nomaker2_gen", "est": 200,
+     "cmd": [PY, "runners/make_nomaker_set.py", "--out-dir", "corpora/nomaker2",
+             "--per-kind", "24", "--seed-base", "20000"],
+     "produces": "corpora/nomaker2/COMPLETE.json", "needs": [],
+     "why": "L40 power: 72 more no-maker artifacts, frozen construction, fresh seeds"},
+    {"name": "nomaker_ds_gen", "est": 260,
+     "cmd": [PY, "runners/make_nomaker_set.py", "--out-dir", "corpora/nomaker_ds",
+             "--per-kind", "24", "--seed-base", "30000", "--model", "deepseek-r1:7b"],
+     "produces": "corpora/nomaker_ds/COMPLETE.json", "needs": [],
+     "why": "weakness 6 at last: the no-maker construction from a second generator family"},
+    {"name": "layercorr_nomaker2", "est": 60,
+     "cmd": [PY, "runners/run_layer_correlation.py", "--corpus", "nomaker2",
+             "--save-signals"],
+     "produces": "results/layer_correlation/nomaker2_Qwen2.5-1.5B_sig.json",
+     "needs": ["corpora/nomaker2/COMPLETE.json"],
+     "why": "the signal matrix the powered permutation test needs"},
+    {"name": "layercorr_nomaker_ds", "est": 60,
+     "cmd": [PY, "runners/run_layer_correlation.py", "--corpus", "nomaker_ds",
+             "--save-signals"],
+     "produces": "results/layer_correlation/nomaker_ds_Qwen2.5-1.5B_sig.json",
+     "needs": ["corpora/nomaker_ds/COMPLETE.json"],
+     "why": "the same reader over the second family's no-maker text — the shared-"
+            "representation cell (weakness 6)"},
+    {"name": "g107_powered", "est": 30,
+     "cmd": [PY, "runners/run_nomaker_permutation.py", "--corpora", "nomaker,nomaker2",
+             "--perms", "5000", "--out-tag", "_powered"],
+     "produces": "results/audit/nomaker_permutation_powered.json",
+     "needs": ["results/layer_correlation/nomaker2_Qwen2.5-1.5B_sig.json"],
+     "why": "L40 was UNDECIDED at 36 artifacts (p=.095/.089); the identical test at 108 "
+            "with 5000 permutations, per the near-significance policy"},
+]
+
 
 
 def rel(p: str) -> Path:
@@ -953,6 +991,10 @@ def main() -> None:
                 r = subprocess.run(st["cmd"], cwd=REPO, stdout=fh,
                                    stderr=subprocess.STDOUT, timeout=max(st["est"], 5) * 60 * 6)
             entry["status"] = "DONE" if r.returncode == 0 else f"FAILED (exit {r.returncode})"
+            # a clean exit that never wrote its produce is a failure, not a DONE — the fiction
+            # feature stages ran "DONE" for a day on a silent per-corpus skip (2026-08-12)
+            if entry["status"] == "DONE" and st.get("produces") and not rel(st["produces"]).exists():
+                entry["status"] = "FAILED (exit 0, no produce)"
         except subprocess.TimeoutExpired:
             entry["status"] = "TIMEOUT"
         except Exception as e:                                        # noqa: BLE001

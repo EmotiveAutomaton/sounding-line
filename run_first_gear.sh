@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# One job at a time, forever. Lives in the repo rather than /tmp so there is exactly one copy.
+# FIRST GEAR — the curator is using the machine. One job at a time, forever, and the GPU is
+# the bigger threat to his use (games), so heavy GPU arms belong in second gear; first gear
+# keeps things reasonable: part of the CPU, the card only briefly and one stage at a time.
+# (Renamed from run_forever_day.sh 2026-08-12; gears replace day/night as the standard.)
 #
 # HISTORY, because every guard here is a scar. On 2026-08-07 four copies of the previous loop ran
 # at once, each respawning a queue. The lock then stored the MSYS pid, which no other session and
@@ -12,13 +15,16 @@
 #   * startup sweeps for orphans: any run_queue.py python not belonging to a live recorded loop
 #     is killed by tree before this loop starts
 #
-# Stop this loop with:   taskkill //F //T //PID $(sed -n 2p results/.loop.lock)
+# Stop this loop with:   taskkill //F //T //PID $(sed -n 2p results/.gear1.lock)
 
 cd "$(dirname "$0")" || exit 1
 # launched bare (Start-Process) there is no PATH; every external tool needs these
 export PATH="/usr/bin:/bin:/c/Windows/System32:/c/Windows/System32/WindowsPowerShell/v1.0:$PATH"
-LOCK="results/.loop.lock"
-NIGHT="results/.overnight.lock"
+LOCK="results/.gear1.lock"
+GEAR2="results/.gear2.lock"
+# legacy lock paths from the day/night era; checked so a still-running old loop is never missed
+LEGACY_SELF="results/.loop.lock"
+LEGACY_OTHER="results/.overnight.lock"
 LOG="results/queue_main.log"
 mkdir -p results
 
@@ -28,21 +34,27 @@ WINPID=$(cat /proc/$$/winpid 2>/dev/null)
 alive_win() { [ -n "$1" ] && tasklist //FI "PID eq $1" 2>/dev/null | grep -q " $1 "; }
 lock_winpid() { sed -n 2p "$1" 2>/dev/null; }
 
-# ── mutual exclusion with the night loop, by WINDOWS pid
-if [ -f "$NIGHT" ] && alive_win "$(lock_winpid "$NIGHT")"; then
-  echo "the night loop is running (winpid $(lock_winpid "$NIGHT")). Refusing."
-  exit 1
-fi
-
-# ── one day loop, by WINDOWS pid
-if [ -f "$LOCK" ]; then
-  OLDWIN=$(lock_winpid "$LOCK")
-  if alive_win "$OLDWIN"; then
-    echo "a loop is already running (winpid $OLDWIN). Refusing to start a second."
-    exit 0
+# ── mutual exclusion with second gear (and any legacy loop), by WINDOWS pid
+for other in "$GEAR2" "$LEGACY_OTHER"; do
+  if [ -f "$other" ] && alive_win "$(lock_winpid "$other")"; then
+    echo "second gear is running (winpid $(lock_winpid "$other") via $other). Stop it first:"
+    echo "  taskkill //F //T //PID $(lock_winpid "$other")"
+    exit 1
   fi
-  echo "clearing a stale loop lock (winpid $OLDWIN is dead)"
-fi
+done
+
+# ── one first-gear loop, by WINDOWS pid
+for self in "$LOCK" "$LEGACY_SELF"; do
+  if [ -f "$self" ]; then
+    OLDWIN=$(lock_winpid "$self")
+    if alive_win "$OLDWIN"; then
+      echo "a first-gear loop is already running (winpid $OLDWIN). Refusing to start a second."
+      exit 0
+    fi
+    echo "clearing a stale lock $self (winpid $OLDWIN is dead)"
+    rm -f "$self"
+  fi
+done
 printf '%s\n%s\n' "$$" "$WINPID" > "$LOCK"
 
 # ── startup orphan sweep: kill any queue/stage python that no live loop owns
@@ -58,7 +70,7 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
-echo "=== loop started $(date) as msys $$ / winpid $WINPID ===" >> "$LOG"
+echo "=== FIRST GEAR started $(date) as msys $$ / winpid $WINPID ===" >> "$LOG"
 while true; do
   ./.venv/Scripts/python.exe runners/run_queue.py >> "$LOG" 2>&1 &
   QPID=$!

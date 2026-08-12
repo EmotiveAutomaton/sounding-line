@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-12 05:33",
+  "started": "2026-08-12 11:41",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -382,78 +382,105 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "scholawrite_bert_faithful",
-      "why": "G141 faithful arm: their exact protocol; compare the per-class profile, not one digit",
+      "name": "scholawrite_roberta_faithful",
+      "why": "G141 faithful arm, second architecture",
       "est_minutes": 400,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "arg_v4_balanced",
-      "why": "G136 in-house confirmation: the subagent's run falsified balanced weighting (+0.01-0.02 only); this replicates that in our pipeline",
-      "est_minutes": 45,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "arg_v4_diff_binary",
-      "why": "G136 binary gate: the .93 target is live from the released data and the difference features are untried there; the last binary lever short of encoder archaeology",
+      "name": "arg_v4_diff",
+      "why": "G136 change-representation suspect: concatenated embeddings never state what changed; explicit difference features are the mechanism candidate for the small-class collapse",
       "est_minutes": 50,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "features_ladder3_w80",
-      "why": "PD-3 input: machine long-form windows",
+      "name": "features_argrewrite_w40",
+      "why": "PD-33/34 robustness input: the second window size",
       "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd34_books_w40",
-      "why": "PD-34 robustness, books at the second window",
+      "name": "pd33_books_w40",
+      "why": "PD-33 robustness: does the author-share split survive the window choice?",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_books",
+      "why": "PD-2 at last: the signed-trend decay form on the corpus where movement exists",
       "est_minutes": 25,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd3_machine_ladder3",
-      "why": "PD-3: machine artifacts should show flat polish across position, no maker to reallocate attention",
-      "est_minutes": 25,
+      "name": "g28_twolayers",
+      "why": "G28: leaked vs emblematic as two distributions or one question twice, with the test-retest arm as the built-in null; the caveat over the whole leak battery",
+      "est_minutes": 200,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_pythia-410m",
+      "name": "g20_mapping_SmolLM2-360M",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_Qwen2.5-1.5B",
+      "name": "g20_mapping_pythia-1.4b",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_gpt2-large",
+      "name": "g20_mapping_Qwen2.5-3B",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_pythia-2.8b",
-      "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
-      "est_minutes": 90,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "pd2_signed_ladder3",
-      "why": "the account separator: if machine polish also DECAYS the register account gains; if machine rises while humans fall, reallocation regains ground",
+      "name": "pd2_signed_books_w40",
+      "why": "PD-2 robustness: is the decay window-robust where the magnitude asymmetry was not?",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd11_rerun_k20",
-      "why": "PD-11's owed powered re-run per the standing near-significance policy: held out, hyperparameters frozen, fresh seeds, doubled n against the 2.0x bar",
-      "est_minutes": 250,
-      "status": "RUNNING",
-      "log": "results\\pd11_rerun_k20.log"
+      "name": "pd34_ladder3_w40",
+      "why": "machine window-robustness input",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "gen_fiction",
+      "why": "sign-funnel step 1: register-matched machine fiction, two generator families",
+      "est_minutes": 200,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_qwen",
+      "why": "the sign-funnel's decisive cell: does register-matched machine fiction still rise where human fiction falls?",
+      "est_minutes": 20,
+      "status": "DEFERRED",
+      "missing": [
+        "results/features/machine_fiction_qwen_w80.json"
+      ]
+    },
+    {
+      "name": "g80_fiction",
+      "why": "G80's cleaner machine comparison: whole-document fiction, two generator families",
+      "est_minutes": 10,
+      "status": "DONE",
+      "log": "results\\g80_fiction.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "layercorr_nomaker2",
+      "why": "the signal matrix the powered permutation test needs",
+      "est_minutes": 60,
+      "status": "DEFERRED",
+      "missing": [
+        "corpora/nomaker2/COMPLETE.json"
+      ]
     }
   ],
-  "shard": "0/3"
+  "shard": "0/3",
+  "finished": "2026-08-12 11:41",
+  "failed": []
 }

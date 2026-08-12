@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-12 05:33",
+  "started": "2026-08-12 11:41",
   "stages": [
     {
       "name": "feature_visibility",
@@ -374,101 +374,96 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "sw_revision_diff",
-      "why": "G141: is revision 'anonymous_data' (pinned by their code) identical to main?",
-      "est_minutes": 40,
-      "status": "FAILED (exit 1)",
-      "log": "results\\sw_revision_diff.log",
-      "minutes": 0.0
-    },
-    {
-      "name": "arg_v4_fixed",
-      "why": "G136 v4: the pinned construction with published hyperparameters, both tasks",
-      "est_minutes": 60,
+      "name": "scholawrite_bert_faithful",
+      "why": "G141 faithful arm: their exact protocol; compare the per-class profile, not one digit",
+      "est_minutes": 400,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "arg_v4_oversample",
-      "why": "G136 single-cause hypothesis: a 1.49x oversample of the five small classes predicts majority .29, word-usage F1 .45, and rare classes .35-.54 all at once",
+      "name": "arg_v4_balanced",
+      "why": "G136 in-house confirmation: the subagent's run falsified balanced weighting (+0.01-0.02 only); this replicates that in our pipeline",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_v4_diff_binary",
+      "why": "G136 binary gate: the .93 target is live from the released data and the difference features are untried there; the last binary lever short of encoder archaeology",
       "est_minutes": 50,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "features_books_w40",
-      "why": "PD-33/34 robustness input, books",
-      "est_minutes": 60,
+      "name": "features_ladder3_w80",
+      "why": "PD-3 input: machine long-form windows",
+      "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd34_argrewrite_w40",
-      "why": "PD-34 robustness, essays at the second window",
+      "name": "pd34_books_w40",
+      "why": "PD-34 robustness, books at the second window",
       "est_minutes": 25,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd2_signed_argrewrite",
-      "why": "PD-2 control surface: essays were flat in |trend|, so signed should be too",
+      "name": "pd3_machine_ladder3",
+      "why": "PD-3: machine artifacts should show flat polish across position, no maker to reallocate attention",
       "est_minutes": 25,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_Qwen2.5-0.5B",
+      "name": "g20_mapping_pythia-410m",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_gpt2-medium",
+      "name": "g20_mapping_Qwen2.5-1.5B",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_SmolLM2-1.7B",
+      "name": "g20_mapping_gpt2-large",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_gpt2-xl",
+      "name": "g20_mapping_pythia-2.8b",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd2_signed_argrewrite_w40",
-      "why": "PD-2 robustness, essays at the second window",
+      "name": "pd2_signed_ladder3",
+      "why": "the account separator: if machine polish also DECAYS the register account gains; if machine rises while humans fall, reallocation regains ground",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd3_ladder3_w40",
-      "why": "PD-3 reversal robustness at the second window",
-      "est_minutes": 20,
+      "name": "pd11_rerun_k20",
+      "why": "PD-11's owed powered re-run per the standing near-significance policy: held out, hyperparameters frozen, fresh seeds, doubled n against the 2.0x bar",
+      "est_minutes": 250,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "features_fiction_qwen",
-      "why": "sign-funnel input, generator one",
+      "name": "features_fiction_ds",
+      "why": "sign-funnel input, generator two",
       "est_minutes": 25,
-      "status": "DEFERRED",
-      "missing": [
-        "corpora/machine_fiction_manifest.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd2_signed_fiction_ds",
-      "why": "the same cell under a second generator family, the shared-representation guard",
-      "est_minutes": 20,
-      "status": "DEFERRED",
-      "missing": [
-        "results/features/machine_fiction_ds_w80.json"
-      ]
+      "name": "pooling_falsifier_v2",
+      "why": "L44 correction: v1 read rungs 0-1 only (rung-ordered manifest truncated at 40); v2 is full-n with a mean-arm reproduce-gate before the other poolings are read",
+      "est_minutes": 75,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "nomaker_ds_gen",
+      "why": "weakness 6 at last: the no-maker construction from a second generator family",
+      "est_minutes": 260,
+      "status": "RUNNING",
+      "log": "results\\nomaker_ds_gen.log"
     }
   ],
-  "shard": "2/3",
-  "finished": "2026-08-12 05:33",
-  "failed": [
-    "sw_revision_diff"
-  ]
+  "shard": "2/3"
 }

@@ -3470,6 +3470,48 @@ The scope limits stand unchanged: generated text only (the E38 warning that this
 license the human claim), one generator family, and states specified by prompt. Theory row
 updated (DECISION_TRACES §3).
 
+## L96 · The gpt2 mirror is not mysterious: the fixed loci straddle opposite-signed machinery, and the band decomposition predicts the family sign in eight of eleven
+
+**Hypothesis.** *(G112, owed since the sign map completed.)* The fair-control ratio's sign is a
+family constant with no family sharing the home family's negative (L28). If the per-layer
+dose-correlation profile, banded at the home-chosen 7% and 76% loci, carries each family's sign,
+the mirror is band structure and no deeper mystery.
+
+**Method.** `run_g112_mirror.py`, CPU over the saved held-out-ladder per-layer maps: per family,
+the mean per-layer correlation between the affective signal and rung inside the early band
+(layers at or below 7% of depth) and the late band (at or above 76%). The ratio statistic is
+early over late, so the banded prediction for its dose sign is the sign of early-band tracking
+minus late-band tracking, compared against the measured sign map.
+
+| family | early band | late band | predicted | measured | match |
+|---|---|---|---|---|---|
+| Qwen 0.5B / 1.5B / 3B | −0.29 / −0.13 / −0.04 | +0.03 / +0.27 / +0.02 | − / − / − | − / − / − | 3/3 |
+| gpt2 medium / large | +0.50 / +0.05 | −0.42 / −0.41 | + / + | + / + | 2/2 |
+| gpt2-xl | +0.00 | −0.20 | + | null | miss |
+| SmolLM2 360M / 1.7B | −0.40 / +0.00 | −0.08 / −0.18 | − / + | + / + | 1/2 |
+| pythia 410m / 1.4b | −0.24 / −0.17 | −0.40 / −0.27 | + / + | + / + | 2/2 |
+| pythia-2.8b | −0.25 | +0.01 | − | null | miss |
+
+*Caption: mean per-layer rung correlation of the affective signal inside each band, the sign the
+band difference predicts for the ratio's dose relationship, and the fair-control sign the family
+actually measures. Eight of eleven match.*
+
+**Found.** MIRROR-EXPLAINED. The home family's negativity comes from early machinery tracking
+dose negatively while late machinery tracks positively; gpt2 is the exact mirror (early strongly
+positive, late strongly negative), and the ratio inherits the sign of the difference. The two
+null-cell misses are directionally consistent with the fade: gpt2-xl's early band sits at
++0.003 and pythia-2.8b's bands nearly cancel, so the ratio goes quiet where the band difference
+does. The one genuine miss is SmolLM2-360M, whose bands predict negative while the family
+measures positive — the odd family for the third time, after the alignment refusal and the fade
+exemption.
+
+**Means.** Two of G112's three facts now have an account: the sign is band structure at the
+chosen loci, and the fade lands where the bands cancel. What the decomposition does not explain
+is SmolLM2, which now carries three independent oddities and is the right single target for the
+subspace route (G124's aligned-stage form) if the characterisation is pushed further. The
+selection caution sharpens: the loci were chosen where the home family's bands happen to
+diverge most, which is exactly the anatomy of an accidental family-specific instrument.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

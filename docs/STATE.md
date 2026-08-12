@@ -117,9 +117,14 @@ blockquotes are untouchable; my prose compresses. Structural changes are proposa
 
 ## Queue / infrastructure state
 
-- **Day loop:** one detached shell (survives sessions), lock in `results/.loop.lock`; stop with
-  `kill $(cat results/.loop.lock)`. Night: `bash run_forever_night.sh [hours] [workers]` (refuses
-  while day loop runs). Queue has pid lock + `--shard/--shards`.
+- **The gears (renamed from day/night 2026-08-12).** First gear: `bash run_first_gear.sh`, one
+  detached shell (survives sessions), serial, part of the CPU with the GPU mostly the curator's;
+  lock in `results/.gear1.lock`, stop with `taskkill //F //T //PID $(sed -n 2p
+  results/.gear1.lock)`. Second gear: `bash run_second_gear.sh [hours] [workers]`, sharded,
+  as much CPU and GPU as the work can take, loaded about a day deep; lock in
+  `results/.gear2.lock` (each refuses while the other's winpid is alive; legacy
+  `.loop.lock`/`.overnight.lock` still checked through the transition). Queue has pid lock +
+  `--shard/--shards`.
 - **Morning state 2026-08-09, revised after the process audit.** The overnight TIMEOs had a deeper
   cause than two-shard contention, because **the 2026-08-07 day loop never died.** The lock files
   record MSYS pids that do not map to Task Manager, so every lock-based kill since 08-07 hit the

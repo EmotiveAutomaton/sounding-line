@@ -313,6 +313,7 @@ late, **if the goal is clear.**"*
 |---|---|---|
 | **L1** | Per-block correlation with specified constraint dose carries information | **SUPPORTED (test).** Two independently generated ladders agree at 0.97 on which blocks carry it, the strongest replication in the project |
 | **G103** | The flagship ratio's tracking transfers across families | **REJECTED as universal; the sign is a family constant (test, L28), on the complete 33-cell map.** Qwen negative at all three sizes; gpt2 positive at medium and large, null at xl; SmolLM2 positive at both sizes; pythia positive small, zero at 2.8b. **No family shares the home family's sign, and the positive camp's largest members go quiet** |
+| **G112** | The family sign is band structure at the chosen loci, not a deeper mystery | **MIRROR-EXPLAINED (test, L96), eight of eleven families.** The per-layer dose maps, banded at the 7%/76% loci, predict each family's ratio sign from early-band tracking minus late-band tracking: the home family runs early-negative late-positive, gpt2 the exact mirror, and the fade's null cells land where the bands cancel. The one genuine miss is SmolLM2-360M, the odd family's third independent oddity |
 | **G33** | Late coherence rises when the goal is clear | **REJECTED IN DIRECTION (test, L13/L47), all eight families.** With a statistic that provably can measure agreement (known-answer gated), not one of 24 family-corpus cells rises with specification dose. Agreement at the late blocks *falls* robustly in the Qwen family, weakly in gpt2 and mid-size SmolLM2, and is flat in pythia, the family-constant shape again. Uncentred by design, so the induction confound is unpartialled |
 |   | | *(the first statistic was geometrically incapable of agreement and its verdicts are void; this row's history is instrument-death on 08-08, then rebuild and reversal on 08-09)* |
 | **G127** | The early/late story survives the pooling choice | **SPLIT (test, L44 with its v2 rerun).** The block profile's shape and peak are pooling-invariant (r ≥ 0.98), so the geography does not hang on mean pooling. The ratio's dose relationship is **direction-stable and detectability-bound**: at full dose range with the reproduce-gate passed to the third decimal, the correlation is negative under all three poolings (mean −0.405, max −0.295 significant; last-token −0.109 null), so the direction does not move with extraction and the effect weakens to null when only the final token position is read |
@@ -324,15 +325,19 @@ least five families, direction fixed inside each family and different between th
 goal-clarity conditional, finally measured with an instrument that works, runs backwards where it
 runs at all. As specifications stack, late-block responses agree *less* across texts, most
 strongly in the home family, not at all in two others. Differentiation with dose, not convergence.
-The flagship ratio's direction still binds to the family (G103), so nothing downstream leans on
-its sign across families; inside the home model the direction is pooling-stable, negative under
-all three extractions at full dose range, and what pooling moves is detectability, with the
-effect vanishing when only the final token position is read. The first run to claim a pooling
+The family sign itself now has an account (G112): the fixed loci straddle machinery whose dose
+response runs in opposite directions per family, the ratio inherits the sign of early-band
+tracking minus late-band tracking, and the fade's null cells sit where those bands cancel — so
+the loci were chosen where the home family's bands happen to diverge most, which is the anatomy
+of an accidental family-specific instrument, and nothing downstream leans on the ratio's sign
+across families. Inside the home model the direction is pooling-stable, negative under all
+three extractions at full dose range, and what pooling moves is detectability, with the effect
+vanishing when only the final token position is read. The first run to claim a pooling
 sign-flip was computed on two rungs of five and is withdrawn; the gated full-range rerun
-replaced it. The profile geography survives every pooling measured. Confidence: the tracking
-existence results are replicated and controlled; the agreement reversal and the pooling
-attenuation are each one bad test away, the reversal's contrasts carrying the induction
-confound unpartialled and the attenuation resting on one corpus in one family.
+replaced it. The profile geography survives every pooling measured. SmolLM2 is the standing
+exception to all of it, three independent oddities now. Confidence: the tracking existence
+results are replicated and controlled; the agreement reversal, the pooling attenuation, and
+the band account of the sign are each one bad test away.
 
 ## §7. Within-reader measurements: ratios, recovery, and the design lesson
 
