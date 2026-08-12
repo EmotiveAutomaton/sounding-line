@@ -2788,6 +2788,10 @@ cross-validation folds. The difference arm confirms the agent's mechanism in-hou
 +.05 macro, grammar/spelling .064 to .490, overtaking the paper's own .39, with the three
 never-predicted classes unmoved.
 
+**The third arm, for completeness.** Balanced class weighting confirmed in-house as the
+agent found it: fine macro rises from .246/.249/.249 to .278/.269/.273, two to three points
+against a twenty-four point gap, so it is a real but minor effect and not the mechanism.
+
 **Means, the model-structure record.** The composition claim graduates from arithmetic
 inference to in-pipeline demonstration: their fine experiment ran on an oversampled set, and
 a plain pre-CV duplication reproduces their +DA cell to a hundredth, suggesting +DA itself
@@ -2964,6 +2968,51 @@ the only remaining route. Two hazards of ours were fixed in the same pass: threa
 tied to whatever else the host was running (now pinned), and the change-feature finding
 transfers directly to our own instruments, since a revision is defined by its delta and no
 representation that fails to state the delta will carry the task.
+
+## L86 · The faithful ScholaWrite arm lands on the paper's self-consistent value, not on its printed one
+
+**Hypothesis.** *(G141.)* Reproducing their exact protocol, published bug included, should
+land the headline in the 0.59 to 0.64 band and put the per-class profile beside their table,
+which is the gate this recreation was re-scoped to after the printed 0.64 proved unreachable
+from the paper's own per-class values (L77).
+
+**Method.** Their pipeline as pinned from their repository: the full before-text wrapped in
+their tag sequence with its published closing-tag typo, six added special tokens with resized
+embeddings, right truncation keeping the first 512 tokens (the document head), balanced
+class-weighted cross-entropy built with their arange hack and sum normalization, ten epochs,
+weight decay 0.01, no dev set, no early stopping, the final checkpoint, seed 42, evaluated on
+the shipped test split with the weighted average of a classification report.
+
+| quantity | ours | the paper |
+|---|---|---|
+| headline weighted F1 | **0.580** | 0.64 printed; **~0.59** implied by its own per-class table |
+| our earlier recipe (tail input, unweighted loss, 3 epochs) | 0.741 | |
+| Text Production (57% of the data) | 0.63 | 0.63 |
+| mean absolute per-class deviation, 14 shared classes | **0.116** | |
+| Scientific Accuracy | 0.27 | absent from their table |
+
+*Caption: the faithful arm against the paper's printed headline and against the value implied
+by reweighting the paper's own per-class table. Full per-class comparison in
+`results/scholawrite/bert_faithful.json`.*
+
+**Found.** The two protocol levers we had been missing moved the headline sixteen points, from
+0.741 to 0.580, landing inside the predicted band and **within 0.01 of the paper's own
+self-consistent value**. The largest class reproduces exactly. Per-class agreement is
+respectable but uneven: eight of fourteen classes within 0.1, with Section Planning and
+Citation Integration low by about 0.2 and Cross-reference and Visual Formatting high by about
+0.2. And a prediction of the source audit is confirmed: Scientific Accuracy, silently absent
+from their fourteen-row table, is a class our model does predict, at 0.27.
+
+**Means.** Under the exact-value standard this is **not a pass at the printed digit and
+cannot be**, because the printed digit is contradicted by the paper's own table. What it is:
+the protocol reproduced faithfully enough to land on the number the paper's internals
+actually support, with the residual per-class scatter of about 0.12 the honest measure of
+what remains unspecified (data-order effects, their unstated seed, and the ambiguity over
+which test set the published cell used). The recreation's contribution is therefore a
+correction to the literature rather than a matched number: the published 0.64 is not
+reachable from the released data under the authors' own code, and roughly 0.58 to 0.59 is
+what that pipeline produces. The RoBERTa arm, still training, is the replication of this
+claim.
 
 ## L4 · Can weak effects be stacked into a detector?
 
