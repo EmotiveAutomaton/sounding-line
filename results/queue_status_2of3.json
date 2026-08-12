@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-12 04:44",
+  "started": "2026-08-12 04:57",
   "stages": [
     {
       "name": "feature_visibility",
@@ -379,7 +379,7 @@
       "est_minutes": 40,
       "status": "FAILED (exit 1)",
       "log": "results\\sw_revision_diff.log",
-      "minutes": 0.1
+      "minutes": 0.0
     },
     {
       "name": "arg_v4_fixed",
@@ -439,9 +439,20 @@
       "name": "pd2_signed_argrewrite_w40",
       "why": "PD-2 robustness, essays at the second window",
       "est_minutes": 20,
-      "status": "RUNNING",
-      "log": "results\\pd2_signed_argrewrite_w40.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd3_ladder3_w40",
+      "why": "PD-3 reversal robustness at the second window",
+      "est_minutes": 20,
+      "status": "DONE",
+      "log": "results\\pd3_ladder3_w40.log",
+      "minutes": 1.1
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-12 04:58",
+  "failed": [
+    "sw_revision_diff"
+  ]
 }

@@ -363,6 +363,9 @@ def main() -> None:
                     help="pre-CV oversample factor for the five underrepresented classes; "
                          "1.49 tests the L79-supplement arithmetic (predicts majority .29, "
                          "word-usage F1 .45, rare classes .35 to .54)")
+    ap.add_argument("--folds", type=int, default=5,
+                    help="cross-validation folds; their source carries a stray '10-fold' "
+                         "comment against the published 5-fold (the L85 follow-up lead)")
     args = ap.parse_args()
 
     events = extract_v4() if args.extract == "v4" else extract_v2()
@@ -474,7 +477,7 @@ def main() -> None:
         if X_change is not None:
             arms["change_only"] = X_change
         res = {}
-        kf = KFold(n_splits=5, shuffle=True, random_state=42)
+        kf = KFold(n_splits=args.folds, shuffle=True, random_state=42)
         for arm, X in arms.items():
             if arm == "majority":
                 f1s, accs = [], []

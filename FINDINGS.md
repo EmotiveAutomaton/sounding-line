@@ -2955,19 +2955,29 @@ fixed in the same pass: the new arm has no published target and the reporting li
 every arm had one, which crashed the first run after all four numbers had been computed.
 
 **Means, the model-structure record.** The irreducible unknown is upstream of everything we
-had been varying. Their pairs came from a sentence aligner named only in a **deleted line of
-the paper's own source** (a 2014 sentence-level alignment method, struck before publication),
-and matching their example count and class balance does not pin the alignment, since two
-aligners can agree on both while differing in how semantically coherent each pair is. Tighter
-pairs would make embeddings informative, which is exactly the difference between their
-monotone rise and our plateau. Compounding it: the two-vector combination is unstated, and
-the reported cells may be maxima of the randomized search the paper describes. So the honest
-close is **the Features row is reproducible and the embedding rows are not reproducible from
-the published description**, gap bounded at 3.3 points best against best, with author contact
-the only remaining route. Two hazards of ours were fixed in the same pass: thread count was
-tied to whatever else the host was running (now pinned), and the change-feature finding
-transfers directly to our own instruments, since a revision is defined by its delta and no
-representation that fails to state the delta will carry the task.
+had been varying. At the time of this entry the leading candidate was the sentence alignment
+behind their pairs, named in a deleted line of the paper's source; the two-vector combination
+and possible search optimism rode behind it. So the close was **the Features row is
+reproducible and the embedding rows are not reproducible from the published description**,
+gap bounded at 3.3 points best against best. Two hazards of ours were fixed in the same
+pass: thread count was tied to whatever else the host was running (now pinned), and the
+change-feature finding transfers directly to our own instruments, since a revision is defined
+by its delta and no representation that fails to state the delta will carry the task.
+
+**The alignment candidate refuted at source (next day).** A follow-up agent read Zhang &
+Litman 2014, both corpus papers, and both public aligner repositories, then reimplemented the
+aligner and measured it against the released spreadsheets. Three published statements pin the
+provenance: sentences were "first automatically aligned (Zhang and Litman, 2014), then
+manually corrected by human"; the alignment was "performed semi-manually"; and the
+experiments "assume revisions are pre-segmented and pre-aligned." The purpose labels are
+physically attached to the human-corrected alignment (the deleted line was a redundant
+restatement of a surviving sentence), so **the released alignment IS the experiments'
+alignment and no tighter set of pairs exists**; the reimplemented aligner agrees with the
+release at 94 to 96 percent, exactly the aligner's own published accuracy band, and every
+disagreement is an error relative to the human correction. The remaining unpinned surface is
+the evaluation protocol itself: the source carries a stray "10-fold cross-validation" comment
+against the published "5-fold", and the cells may be randomized-search maxima. The 10-fold
+arm is the last cheap lever and is running; behind it stands only author contact.
 
 ## L86 · The faithful ScholaWrite arm lands on the paper's self-consistent value, not on its printed one
 
