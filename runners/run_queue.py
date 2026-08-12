@@ -679,6 +679,87 @@ STAGES += [
             "archaeology"},
 ]
 
+# ── NIGHT13 2026-08-11: the tertiary-prediction burn. Phase 1's remainder (the BST figure
+# arm) is implementation work, not compute, so it stays day-work; tonight burns GPU and CPU
+# on accrued OPEN rows. GPU stages serialize through soundingline/gpulock.
+STAGES += [
+    # CPU: window-size robustness for the PD-33/34 family (the "one window size" caveat)
+    {"name": "features_argrewrite_w40", "est": 30,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "argrewrite", "--window", "40",
+             "--suffix", "_w40"],
+     "produces": "results/features/argrewrite_w40.json", "needs": [],
+     "why": "PD-33/34 robustness input: the second window size"},
+    {"name": "features_books_w40", "est": 60,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "books", "--window", "40",
+             "--suffix", "_w40"],
+     "produces": "results/features/books_w40.json", "needs": [],
+     "why": "PD-33/34 robustness input, books"},
+    {"name": "features_ladder3_w80", "est": 30,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "ladder3", "--window", "80",
+             "--suffix", "_w80"],
+     "produces": "results/features/ladder3_w80.json", "needs": [],
+     "why": "PD-3 input: machine long-form windows"},
+    {"name": "pd33_books_w40", "est": 10,
+     "cmd": [PY, "runners/run_pd33_books.py", "--cache", "results/features/books_w40.json",
+             "--out", "results/positional_polish/pd33_books_w40.json"],
+     "produces": "results/positional_polish/pd33_books_w40.json",
+     "needs": ["results/features/books_w40.json"],
+     "why": "PD-33 robustness: does the author-share split survive the window choice?"},
+    {"name": "pd34_argrewrite_w40", "est": 25,
+     "cmd": [PY, "runners/run_pd34_movement.py",
+             "--cache", "results/features/argrewrite_w40.json",
+             "--out", "results/positional_polish/pd34_argrewrite_w40.json"],
+     "produces": "results/positional_polish/pd34_argrewrite_w40.json",
+     "needs": ["results/features/argrewrite_w40.json"],
+     "why": "PD-34 robustness, essays at the second window"},
+    {"name": "pd34_books_w40", "est": 25,
+     "cmd": [PY, "runners/run_pd34_movement.py",
+             "--cache", "results/features/books_w40.json",
+             "--out", "results/positional_polish/pd34_books_w40.json"],
+     "produces": "results/positional_polish/pd34_books_w40.json",
+     "needs": ["results/features/books_w40.json"],
+     "why": "PD-34 robustness, books at the second window"},
+    {"name": "pd2_signed_books", "est": 25,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/books_w80.json",
+             "--out", "results/positional_polish/pd2_signed_books.json"],
+     "produces": "results/positional_polish/pd2_signed_books.json",
+     "needs": ["results/features/books_w80.json"],
+     "why": "PD-2 at last: the signed-trend decay form on the corpus where movement exists"},
+    {"name": "pd2_signed_argrewrite", "est": 25,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/argrewrite_w80.json",
+             "--out", "results/positional_polish/pd2_signed_argrewrite.json"],
+     "produces": "results/positional_polish/pd2_signed_argrewrite.json",
+     "needs": ["results/features/argrewrite_w80.json"],
+     "why": "PD-2 control surface: essays were flat in |trend|, so signed should be too"},
+    {"name": "pd3_machine_ladder3", "est": 25,
+     "cmd": [PY, "runners/run_pd34_movement.py",
+             "--cache", "results/features/ladder3_w80.json",
+             "--out", "results/positional_polish/pd3_ladder3.json"],
+     "produces": "results/positional_polish/pd3_ladder3.json",
+     "needs": ["results/features/ladder3_w80.json"],
+     "why": "PD-3: machine artifacts should show flat polish across position, no maker to "
+            "reallocate attention"},
+    # GPU, serialized by the lock: the two-layers question, then the mapping sweep
+    {"name": "g28_twolayers", "est": 200,
+     "cmd": [PY, "runners/run_g28_twolayers.py"],
+     "produces": "results/g28_twolayers/summary.json", "needs": [],
+     "why": "G28: leaked vs emblematic as two distributions or one question twice, with the "
+            "test-retest arm as the built-in null; the caveat over the whole leak battery"},
+]
+for _m in ("Qwen/Qwen2.5-0.5B", "EleutherAI/pythia-410m", "HuggingFaceTB/SmolLM2-360M",
+           "openai-community/gpt2-medium", "Qwen/Qwen2.5-1.5B", "EleutherAI/pythia-1.4b",
+           "HuggingFaceTB/SmolLM2-1.7B", "openai-community/gpt2-large", "Qwen/Qwen2.5-3B",
+           "openai-community/gpt2-xl", "EleutherAI/pythia-2.8b"):
+    _t = _m.split("/")[-1]
+    STAGES.append({"name": f"g20_mapping_{_t}", "est": 90,
+                   "cmd": [PY, "runners/run_g20_mapping.py", "--model", _m],
+                   "produces": f"results/g20_mapping/{_t}.json", "needs": [],
+                   "why": "G20a vs G20b, never tested directly: valence/category/beyond-"
+                          "lexicon curves per block, thirds-banded verdict, permutation-"
+                          "gated; the beyond-lexicon rise is G143's handoff candidate"})
+
 
 
 def rel(p: str) -> Path:

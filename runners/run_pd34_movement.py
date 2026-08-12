@@ -40,12 +40,15 @@ DEPTH_PATTERNS = ("caus", "conc", "cond", "osub", "whcl", "whsub", "whobj", "tha
 N_PERM = 100
 MIN_WINDOWS = 6
 RNG = np.random.default_rng(2026)
+SIGNED = False
 
 
 def abs_rho(series: np.ndarray) -> float:
     pos = np.arange(len(series), dtype=float)
     r = stats.spearmanr(series, pos).statistic
-    return float(abs(r)) if np.isfinite(r) else 0.0
+    if not np.isfinite(r):
+        return 0.0
+    return float(r) if SIGNED else float(abs(r))
 
 
 def shuffle_z(series: np.ndarray) -> float | None:
@@ -65,10 +68,15 @@ def shuffle_z(series: np.ndarray) -> float | None:
 
 
 def main() -> None:
+    global SIGNED
     ap = argparse.ArgumentParser()
     ap.add_argument("--cache", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--signed", action="store_true",
+                    help="PD-2's decay form: signed trend instead of |trend|; negative "
+                         "medians mean the side falls across the artifact")
     args = ap.parse_args()
+    SIGNED = bool(args.signed)
 
     # ── the ruler gate, before any data
     trend = np.arange(12, dtype=float) + RNG.normal(0, 0.1, 12)
@@ -107,14 +115,20 @@ def main() -> None:
     dz = np.array([z for z in (feature_mean_z(k) for k in dep) if z is not None])
     _, p = stats.mannwhitneyu(pz, dz, alternative="two-sided")
     pm, dm = float(np.median(pz)), float(np.median(dz))
-    if p < 0.05:
+    if SIGNED:
+        _, p_pol = stats.wilcoxon(pz) if len(pz) >= 10 else (None, 1.0)
+        if p_pol < 0.05:
+            verdict = "POLISH-DECAYS" if pm < 0 else "POLISH-RISES"
+        else:
+            verdict = "NO-SIGNED-TREND"
+    elif p < 0.05:
         verdict = "POLISH-MOVES-MORE" if pm > dm else "DEPTH-MOVES-MORE"
     else:
         verdict = "NO-DIFFERENCE"
     print(f"positional structure (mean shuffle-z per feature): polish {pm:.2f} vs "
           f"depth {dm:.2f} (p={p:.2e})\n  >>> {verdict}")
 
-    out = {"corpus": d.get("corpus"), "n_items": len(items),
+    out = {"corpus": d.get("corpus"), "signed": SIGNED, "n_items": len(items),
            "n_polish_features": int(len(pz)), "n_depth_features": int(len(dz)),
            "polish_median_z": pm, "depth_median_z": dm, "p": float(p),
            "gate": gate, "verdict": verdict}

@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-11 20:48",
+  "started": "2026-08-11 21:00",
   "stages": [
     {
       "name": "feature_visibility",
@@ -392,11 +392,14 @@
       "why": "G136 single-cause hypothesis: a 1.49x oversample of the five small classes predicts majority .29, word-usage F1 .45, and rare classes .35-.54 all at once",
       "est_minutes": 50,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_books_w40",
+      "why": "PD-33/34 robustness input, books",
+      "est_minutes": 60,
+      "status": "RUNNING",
+      "log": "results\\features_books_w40.log"
     }
   ],
-  "shard": "2/3",
-  "finished": "2026-08-11 20:48",
-  "failed": [
-    "sw_revision_diff"
-  ]
+  "shard": "2/3"
 }

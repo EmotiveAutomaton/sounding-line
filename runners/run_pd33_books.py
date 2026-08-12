@@ -31,10 +31,16 @@ DEPTH_PATTERNS = ("caus", "conc", "cond", "osub", "whcl", "whsub", "whobj", "tha
 
 
 def main() -> None:
+    import argparse                                                   # noqa: PLC0415
     import numpy as np                                                # noqa: PLC0415
     from scipy import stats                                           # noqa: PLC0415
 
-    items = [it for it in json.loads(CACHE.read_text(encoding="utf-8"))["items"]
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--cache", default=str(CACHE))
+    ap.add_argument("--out", default=str(RESULTS / "pd33_books.json"))
+    args = ap.parse_args()
+
+    items = [it for it in json.loads(Path(args.cache).read_text(encoding="utf-8"))["items"]
              if it.get("windows")]
     keys = sorted(set.intersection(*(set(it["windows"][0]) for it in items)))
     pol = [k for k in keys if any(p in k.lower() for p in POLISH_PATTERNS)]
@@ -84,11 +90,11 @@ def main() -> None:
     print(f"author share: polish {pm:.3f} vs depth {dm:.3f} (p={p:.2e})\n  >>> {verdict}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / "pd33_books.json").write_text(json.dumps(
+    Path(args.out).write_text(json.dumps(
         {"n_segments": len(items), "n_authors": n_auth, "polish_median": pm,
          "depth_median": dm, "p": float(p), "verdict": verdict}, indent=2),
         encoding="utf-8", newline="\n")
-    print(f"wrote {(RESULTS / 'pd33_books.json').relative_to(REPO)}")
+    print(f"wrote {Path(args.out).relative_to(REPO)}")
 
 
 if __name__ == "__main__":

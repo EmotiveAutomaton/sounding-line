@@ -35,38 +35,7 @@ RESULTS = REPO / "results" / "scholawrite"
 CACHE = RESULTS / "hf_cache"
 OLLAMA = "http://127.0.0.1:11434/api/generate"
 GATES = {"bert": 0.64, "roberta": 0.64, "reader": 0.13}
-GPU_LOCK = REPO / "results" / ".gpu.lock"
-
-
-def release_gpu_lock() -> None:
-    try:
-        GPU_LOCK.unlink()
-    except OSError:
-        pass
-
-
-def acquire_gpu_lock() -> None:
-    """One GPU training at a time, whatever shard we run on. Stale after 5h."""
-    import atexit                                                     # noqa: PLC0415
-    import os                                                         # noqa: PLC0415
-    import time                                                       # noqa: PLC0415
-    while True:
-        try:
-            fd = os.open(GPU_LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
-            os.write(fd, str(os.getpid()).encode())
-            os.close(fd)
-            atexit.register(release_gpu_lock)
-            return
-        except FileExistsError:
-            try:
-                age = time.time() - GPU_LOCK.stat().st_mtime
-            except OSError:
-                continue
-            if age > 5 * 3600:
-                release_gpu_lock()
-                continue
-            print("  gpu lock held, waiting 120s", flush=True)
-            time.sleep(120)
+from soundingline.gpulock import acquire_gpu_lock                     # noqa: E402
 
 
 def load_local():
