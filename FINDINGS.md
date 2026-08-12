@@ -3021,6 +3021,115 @@ small-split protocols showed. The claim replicates: this pipeline, run as publis
 0.55 to 0.58, and the paper's identical 0.64/0.64 pair is not a reachable outcome of the
 released materials. The ScholaWrite recreation row closes on that finding.
 
+## L87 · The mapping sweep: neither G20a nor G20b in any of eleven families, and one new universal
+
+**Hypothesis.** *(G20a/G20b, with G143 riding along.)* The two candidate block-mappings, never
+tested directly: under A, valence decodability peaks early and category mid; under B, valence
+mid and category late. G143's operational form: the block where decodability beyond the
+lexicon starts rising is the interface handoff candidate.
+
+**Method.** Per family, per block: valence probes (positive against negative single-label
+emotion sentences), category probes (among the emotional classes), and the same valence probe
+on word-shuffled copies, whose gap against the original is decodability beyond the lexicon.
+Pre-registered thirds for the mapping verdict, a peak-prominence rule (0.03 over the curve
+median, else FLAT and no address claimed), and a label-permutation ruler gate per family.
+Eleven families, 0.35B to 3B, four architectures.
+
+| verdict | families |
+|---|---|
+| FLAT, no address claimable | six |
+| NEITHER band pattern | five |
+| G20a or G20b | **zero** |
+
+*Caption: all gates clean (permuted-label probes 0.49 to 0.54). Valence decodability sits
+near 0.78 to 0.81 at nearly every depth in every family, category near 0.31 to 0.38; peak
+prominences hover at 0.02 to 0.05 and peak locations scatter from 0.17 to 0.71 of depth with
+no cross-family law. Full curves in `results/g20_mapping/`.*
+
+**Found.** Affect information is distributed nearly uniformly through depth everywhere.
+Neither mapping survives contact with a direct test, in the same deflationary way every
+address claim in the project has resolved. The one positive universal: a beyond-lexicon
+component exists in **all eleven families**, the original-text probe pulling ahead of the
+lexicon-preserving shuffled probe by a sustained margin somewhere between 0.11 and 0.53 of
+depth, onset obeying no law.
+
+**Means.** The G20 question dissolves rather than resolves: the rotating-subspace picture
+(one coherent affect structure decodable almost everywhere, rotating with depth) was already
+the standing account, and this sweep confirms there is no address for the mappings to
+disagree over. G143's handoff, read as an address, fails like every address; read as an
+existence claim, it survives, since composition-beyond-lexicon is real and universal. The
+word-shuffle condition carries its known caveat as an out-of-distribution input; here it
+defines the lexical bound rather than controlling a fixed measure, and the bound is the
+comparison both curves share.
+
+## L88 · Two layers, not one question twice: the leak battery's standing caveat resolves in its favor
+
+**Hypothesis.** *(G28.)* The leaked and emblematic reads may be one question asked twice;
+until tested, every leak result was equally compatible with that.
+
+**Method.** 150 complete triples over book segments: a leaked-layer read, an emblematic-layer
+read, and a second leaked read at a different seed as the built-in test-retest ceiling; each
+read distributes 100 points over the eight concepts; per-text profile correlations, paired
+bootstrap on the difference.
+
+| comparison | mean profile correlation |
+|---|---|
+| leaked against emblematic | 0.597 |
+| leaked against leaked, retest | 0.725 |
+| difference | 0.128, CI [0.069, 0.188] |
+
+*Caption: the between-layer agreement sits clearly below the same prompt's own test-retest
+agreement. Verdict TWO-LAYERS.*
+
+**Found.** The two prompts return reliably different affect distributions from the same
+texts, beyond reader noise.
+
+**Means.** The probe is not asking one question twice, which un-hedges every leaked-layer
+result in the battery by exactly the amount that caveat was worth. The modest retest ceiling
+(0.725) prices the reader's own noise, and the open successor is G29, which layer carries the
+maker signal, predicted in advance to be the leaked one if either fails.
+
+## L89 · Polish decays, machines move most, and the movement asymmetry is window-bound: three corrections in one family
+
+**Hypothesis.** *(PD-2, PD-3, and the robustness caveats on PD-33/PD-34.)* The signed form
+of the movement statistic tests decay specifically; machine long-form tests the no-maker
+prediction of flatness; and the second window size tests whether the family's results are
+window artifacts.
+
+**Method.** The PD-34 instrument in signed mode (mean signed trend per feature, Wilcoxon on
+the polish bank against zero, ruler gates passing in both modes), on books, essays, and the
+machine extreme-specification corpus; the unsigned form and the author-share split rerun at a
+40-word window.
+
+| test | result | verdict |
+|---|---|---|
+| PD-2, books | polish median signed z −0.30, p = 0.012 | POLISH-DECAYS |
+| PD-2, essays | polish −0.17, p = 3.6 × 10⁻⁶ | POLISH-DECAYS |
+| PD-3, machine long-form | polish z **+0.65** against depth −0.05, p = 2 × 10⁻⁶ | **REVERSED: machine moves most** |
+| PD-34 at w40, books | polish 0.15 vs depth −0.02, p = 0.15 | NO-DIFFERENCE, the w80 asymmetry does not transfer |
+| PD-33 at w40, books | shares 0.033 vs 0.017, p = 3.6 × 10⁻⁶ | REPLICATES |
+
+*Caption: the signed arm, the machine control, and the window-robustness arms. Note the
+essays showed no |trend| asymmetry yet decay cleanly in signed form: many small
+sign-consistent trends are invisible to magnitude statistics.*
+
+**Found.** Polish-side features fall across position on both human corpora, the direction the
+original get-lazy quote predicted before its restatement. But the machine corpus, predicted
+flat, shows the **largest** polish movement in the family, and the books movement asymmetry
+vanishes at the smaller window while the author-share split survives it untouched.
+
+**Means, and the afterword-level correction.** The attention-reallocation reading of L74 is
+now contested by its own control: a corpus with no maker and no attention moves more than the
+books do, so generic position-register structure (openings, closings, and specification
+scaffolding differing in readability-class features) is a live rival account for all
+positional polish movement, and the long-stay story cannot claim the books result until a
+design separates position-register from reallocation. The decay direction (PD-2) survives
+this reinterpretation, since it holds on both human corpora including where magnitude showed
+nothing, but its meaning inherits the same ambiguity. Meanwhile the maker-signature half of
+the family (PD-33) is the robust one: two corpora, two window sizes, four results, no
+exceptions. Window size joins the lessons as a member of the statistic family rather than a
+nuisance choice.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

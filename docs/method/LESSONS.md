@@ -92,6 +92,20 @@ fold it; never append a contradiction.
   dimensions on the published pair task, and embeddings ADDED to change signal can hurt. Any
   reader arm judging a revision sees the diff explicitly, and the 19-dim change block is a
   declared baseline it must beat. (L85; `change_features()` in `run_arg_replication.py`)
+- **Magnitude and signed forms of a trend statistic dissociate; run both.** Essays showed no
+  |trend| asymmetry yet decay cleanly in signed form, because many small sign-consistent
+  slopes are invisible to magnitude statistics. A movement claim and a direction claim are
+  different instruments. (L89)
+- **Window size is a member of the statistic family, not a nuisance choice.** The books
+  movement asymmetry held at the 80-word window and vanished at 40 while the author-share
+  split survived both; claim nothing from one window. (L89)
+- **Run the interpretation control before adopting the reading, not after.** PD-3's machine
+  corpus was queued as a formality and instead reversed the interpretation of a standing human
+  positive (machine text moves MOST, so positional movement is not a maker-attention
+  signature). A control that cannot flip the result can still flip the reading. (L89)
+- **Every statistic a verdict rests on gets written to the output file, not only printed.**
+  The signed arm's Wilcoxon backed its verdict and existed nowhere on disk; it had to be
+  recomputed before it could be quoted. (L89; runner patched same pass)
 - **Run the explored-paths check before adopting any established technique.** Three questions,
   all must pass: what is this technique's ceiling, and is our question below it (stylometry's
   ceiling is author identity; LIWC's is r≈0.3 self-report correlation)? What do we have that its

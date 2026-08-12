@@ -159,13 +159,19 @@ question is where each function is reconstructed in blocks, given where it lives
 
 | # | hypothesis | status |
 |---|---|---|
-| **G20a** | Mapping A: core affect reconstructed in early blocks, drive constraints mid | **OPEN.** Never tested directly |
-| **G20b** | Mapping B: early blocks are the input adapter, core affect mid, categories late | **OPEN, and it discriminates cleanly against G20a.** Under A valence peaks early and categories mid; under B valence peaks mid and categories late. It also reconciles the two published results that contradict each other (the field's mid-block emotion peak; a sparse-autoencoder cascade putting emotion late) |
+| **G20a** | Mapping A: core affect reconstructed in early blocks, drive constraints mid | **REJECTED (test, L87), eleven families, gates clean.** Valence decodability sits near 0.8 at almost every depth; prominences hover at the flatness threshold; peak locations scatter 0.17 to 0.71 with no law |
+| **G20b** | Mapping B: early blocks are the input adapter, core affect mid, categories late | **REJECTED (test, L87), the same sweep.** No family matches either band pattern; the question dissolves the way every address claim here has, into flat curves over a rotating structure |
 | **G34** | Parameter ratios across depth echo neuron-count ratios across regions | **WITHDRAWN, misattributed.** The suggestion on record was to *build* structures mapped this way; it was never a prediction that current models show it |
 
-**What the table says.** Both mappings are open; the one wrong attribution is withdrawn; the bridge
-itself (reconstruction-without-feeling) is the file's working frame rather than a tested claim.
-Confidence: untested, logic only.
+**What the table says.** The two mappings are now measured and neither exists: affect
+information is spread nearly uniformly through depth in every family checked, which is what
+the rotating-subspace picture (§5) already implied and the address rejections (§6) already
+rehearsed. One universal did fall out: a beyond-lexicon component, the original-text probe
+pulling ahead of a lexicon-preserving shuffle, exists in all eleven families with its onset
+obeying no law, so composition is real everywhere and addressable nowhere. The bridge itself
+(reconstruction-without-feeling) remains the file's working frame rather than a tested claim.
+Confidence: the mapping rejections are replicated and controlled at eleven families; the
+beyond-lexicon universal is one bad test away, one corpus and one shuffle condition deep.
 
 **Why the middle would be the latent variable behind the machine-text unease**, the derivation
 that used to sit with the traces. The unease has four candidate accounts (broken polish-effort,

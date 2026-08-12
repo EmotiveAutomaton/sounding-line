@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-11 21:00",
+  "started": "2026-08-12 04:44",
   "stages": [
     {
       "name": "revision_purpose",
@@ -395,8 +395,50 @@
       "name": "features_argrewrite_w40",
       "why": "PD-33/34 robustness input: the second window size",
       "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd33_books_w40",
+      "why": "PD-33 robustness: does the author-share split survive the window choice?",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_books",
+      "why": "PD-2 at last: the signed-trend decay form on the corpus where movement exists",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g28_twolayers",
+      "why": "G28: leaked vs emblematic as two distributions or one question twice, with the test-retest arm as the built-in null; the caveat over the whole leak battery",
+      "est_minutes": 200,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g20_mapping_SmolLM2-360M",
+      "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g20_mapping_pythia-1.4b",
+      "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g20_mapping_Qwen2.5-3B",
+      "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_books_w40",
+      "why": "PD-2 robustness: is the decay window-robust where the magnitude asymmetry was not?",
+      "est_minutes": 20,
       "status": "RUNNING",
-      "log": "results\\features_argrewrite_w40.log"
+      "log": "results\\pd2_signed_books_w40.log"
     }
   ],
   "shard": "1/3"

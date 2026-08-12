@@ -115,6 +115,7 @@ def main() -> None:
     dz = np.array([z for z in (feature_mean_z(k) for k in dep) if z is not None])
     _, p = stats.mannwhitneyu(pz, dz, alternative="two-sided")
     pm, dm = float(np.median(pz)), float(np.median(dz))
+    p_pol = None
     if SIGNED:
         _, p_pol = stats.wilcoxon(pz) if len(pz) >= 10 else (None, 1.0)
         if p_pol < 0.05:
@@ -128,7 +129,9 @@ def main() -> None:
     print(f"positional structure (mean shuffle-z per feature): polish {pm:.2f} vs "
           f"depth {dm:.2f} (p={p:.2e})\n  >>> {verdict}")
 
-    out = {"corpus": d.get("corpus"), "signed": SIGNED, "n_items": len(items),
+    out = {"corpus": d.get("corpus"), "signed": SIGNED,
+           "p_polish_wilcoxon": (round(float(p_pol), 6) if p_pol is not None else None),
+           "n_items": len(items),
            "n_polish_features": int(len(pz)), "n_depth_features": int(len(dz)),
            "polish_median_z": pm, "depth_median_z": dm, "p": float(p),
            "gate": gate, "verdict": verdict}

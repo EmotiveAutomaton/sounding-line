@@ -153,30 +153,32 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 |---|---|---|
 | **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **VOID as operationalised (test, L53/L55), with the route closed in principle.** The first valid pass ran inverted; the matched null then showed the inversion was per-window sampling noise, and the algebra shows dispersion statistics cannot measure movement at all, since variance is order-invariant and the shuffle ratio cannot exceed one for any data. A movement claim needs an order-sensitive statistic or the program's event level. Not a negative result about the claim; the instrument class was wrong for the question |
 |   | | *(instrument history: v1 scored zero essays on a mis-sized cache and verdicted anyway; v2's z-scored variance was 1 by construction; v3 gated and ran inverted; v3b's matched null exposed the in-principle void and one of its own verdict branches as unreachable)* |
-| **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic, and the boundness follows the author | **SUPPORTED (test), decomposed (L55, L57), direction replicated on books (L71).** Between-essay share 20% against 8%, and the decomposition lands MAKER: author shares 0.262 against 0.174 (p = 6 × 10⁻⁷) while draft-within-author shares are small and identical (0.04 apiece, p = 0.98). Polish-side variation carries *who*, on 86 authors at fixed topic; draft stage carries almost nothing on either side. On the 10-author book corpus the polish side carries three times the depth side's author-bound share (medians 0.061 against 0.020, p = 3 × 10⁻⁷), with author and topic confounded there by construction, so only the contrast transfers. Two corpora, one window size |
+| **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic, and the boundness follows the author | **SUPPORTED (test), decomposed (L55, L57), replicated on books (L71) and across window sizes (L89).** Between-essay share 20% against 8%, and the decomposition lands MAKER: author shares 0.262 against 0.174 (p = 6 × 10⁻⁷) while draft-within-author shares are small and identical (0.04 apiece, p = 0.98). Polish-side variation carries *who*, on 86 authors at fixed topic; draft stage carries almost nothing on either side. On the 10-author book corpus the polish side carries three times the depth side's author-bound share (p = 3 × 10⁻⁷ at the 80-word window, p = 4 × 10⁻⁶ at the 40-word), with author and topic confounded there by construction, so only the contrast transfers. Two corpora, two window sizes, no exceptions |
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **SUPPORTED (test), first pass.** Human long-form variance 0.0102 vs machine 0.0065 at matched series length, *p* = 0.002, the flat-machine signature measured reader-side; register rides along uncontrolled |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
-| **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS (test, L74), ruler-gated.** On books the asymmetry is large and clean, polish mean shuffle-z 0.52 against depth 0.013 (p = 1.3 × 10⁻⁵); on the short student essays both sides sit flat at their shuffle null. Long-form carries the movement, which the long-stay reallocation account predicts, with length confounded with genre and editing on this pair of corpora |
-| **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **OPEN as an artifact-side measure; its reader-side cousin just landed (the HH-3 / L39 row)** |
-| **PD-2** | Polish *decays* specifically, rather than merely moving | **OPEN.** PD-34's absolute-trend form found the movement; the signed-trend form is the decay question |
+| **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS AND NOW BY WINDOW (test, L74/L89), ruler-gated.** On books at the 80-word window the asymmetry is large (polish z 0.52 against 0.013, p = 1.3 × 10⁻⁵); at the 40-word window it does not transfer (p = 0.15); short essays flat at both. And the machine control reversed the interpretation, see PD-3 |
+| **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED (test, L89).** The machine extreme-specification corpus shows the *largest* polish-side positional structure in the family (z 0.65 against depth −0.05, p = 2 × 10⁻⁶), so positional polish movement cannot be read as a maker-attention signature; generic position-register structure is the live rival account for the whole movement family |
+| **PD-2** | Polish *decays* specifically, rather than merely moving | **SUPPORTED IN DIRECTION (test, L89), meaning contested.** Signed trends are negative on the polish side on both human corpora (books −0.30, p = 0.012; essays −0.17, p = 3.6 × 10⁻⁶, including where magnitude showed nothing, so the decay is many small sign-consistent slopes). Whether the fall is a maker's attention or the document's register geography is exactly what PD-3's reversal leaves open |
 | **PD-4** | Polish variance is larger in less practised makers | **OPEN** |
 | **PD-29** | Polish separates into attraction and translation | **OPEN, and everything in this section depends on it** |
 | **PD-30** | Attraction decays across an artifact; translation does not | **OPEN** |
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
 | **PD-32** | Translation is denser where the maker expects a distant reader | **OPEN** |
 
-**What the table says.** The movement claim now has its first result from an instrument that can
-see movement at all. On books, polish-side features carry real positional structure while
-depth-side features sit at their own shuffle null, which is this section's closing quote
-measured, and on short essays both sides are flat, which the long-stay reallocation account
-predicts while length stays confounded with genre and editing. The dispersion route remains
-void in principle, so PD-34's order-sensitive form is now the family's live instrument, with
-the signed form holding the decay question. Alongside it, polish-side features are far more
-essay-bound than depth-side ones at fixed topic, the decomposition pins the excess on the
-author rather than the draft, and that direction replicates on books, the maker-signature half
-of the same quote on two corpora. Confidence: the books movement asymmetry and the
-essay-boundness results are each one bad test away; the corpus-length moderation reading is
-untested, logic only; the rest is untested or sim-only. The other clean positive stands apart. The reader's
+**What the table says.** The movement family delivered a direction and lost an interpretation
+in the same night. Polish-side features decay across position on both human corpora, the
+original quote's direction, visible even where magnitude statistics saw nothing because the
+slopes are small and sign-consistent. But the machine control reversed its prediction, showing
+the largest positional polish structure in the family, so movement cannot currently be read as
+a maker-attention signature at all: generic position-register geography (openings, closings,
+and scaffolding differing in readability-class features) rivals the reallocation account for
+every positional result here, and the books asymmetry is additionally window-bound. The
+separating design is a maker-varied corpus at fixed document geography, or the event level.
+The robust half of the section is the maker signature: polish-side features carry the author
+at fixed topic on two corpora and two window sizes with no exceptions, and the reader's
+affective series still moves through human long-form and not machine text. Confidence: the
+decay direction and the machine reversal are each one bad test away; the reallocation reading
+is contested by its own control; the essay-boundness family is replicated and controlled. The other clean positive stands apart. The reader's
 affective series moves through human long-form and stays comparatively flat through machine text.
 The rest is the simulation's 6.5× decay asymmetry plus unrun tests, with the
 attraction/translation split gating the lot. Confidence: the essay-boundness and movement results
@@ -261,17 +263,20 @@ restated goal they are recorded decisions like any other, recovered first and su
 | **PD-15** | Attention dwell past argumentative need is measurable | **OPEN.** Nothing built; needs a model of argumentative need. *(Absorbs G30, which duplicated it.)* |
 | **PD-16** | Cognitive-load signatures leak despite narrative management | **OPEN.** Take the deception literature's features, not its promise |
 | **G87** | Low-visibility features carry *who*; high-visibility features carry *what* | **SUPPORTED (test), a clean double crossover on the first pass (L41).** Invisible habits identify the author at 0.78 vs 0.38 for visible features; visible features separate draft-stage at 0.48 vs 0.30. The pottery prediction, measured; what it licenses is an identity/stage split, with the deep-identity and values readings still needing discriminating tests |
-| **G28** | `leaked` and `emblematic` do not come back as the same distribution | **OPEN. Until this runs, every leak result is equally compatible with the probe asking one question twice** |
-| **G29** | If one layer separates and the other does not, it is `leaked` that fails | **OPEN, predicted in advance** |
+| **G28** | `leaked` and `emblematic` do not come back as the same distribution | **SUPPORTED (test, L88).** Between-layer profile agreement 0.597 against the same prompt's own test-retest 0.725, difference CI [0.07, 0.19] on 150 book segments with the retest arm as the built-in null. The probe is not asking one question twice |
+| **G29** | If one layer separates and the other does not, it is `leaked` that fails | **OPEN, predicted in advance; now the family's next test**, with G28's triples as its data |
 | **PD-11b** | The first function-word attempt answered its own question | **VOID (test).** Ran at 38% power |
 
 **What the table says.** The automatic channel is real on every instrument that has touched it.
 Readable in simulation, twice chance on real authors with identity held fixed, separating specified
 states on all three ladders, concealment detectable in his predicted direction rather than mine,
 and now stage-differentiated exactly as the pottery import predicts, with the invisible habits
-carrying identity and the visible features carrying situation. What is missing is the license to
-call it *affect* rather than *style*. The induction control has never run on this channel, and the
-two-layers-are-two question has never been asked. The channel's one process lesson stays woven in
+carrying identity and the visible features carrying situation. The two-layers-are-two question
+has now been asked and answered in the battery's favor, the leaked and emblematic reads coming
+back as reliably different distributions against a built-in retest ceiling, which removes the
+one-question-twice hedge from every leaked row above. What is still missing is the license to
+call it *affect* rather than *style*: the induction control has never run on this channel, and
+which layer carries the maker is G29's question. The channel's one process lesson stays woven in
 rather than appended: it was measured three times at sample sizes that could not see it before the
 powered re-run separated on all three ladders, so the cheap channel was never dead, only
 underpowered, the full sequence being in the git history. Confidence: the capacity results are

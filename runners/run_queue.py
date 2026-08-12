@@ -760,6 +760,44 @@ for _m in ("Qwen/Qwen2.5-0.5B", "EleutherAI/pythia-410m", "HuggingFaceTB/SmolLM2
                           "lexicon curves per block, thirds-banded verdict, permutation-"
                           "gated; the beyond-lexicon rise is G143's handoff candidate"})
 
+# ── NIGHT13b 2026-08-12: the follow-ups the landings earned (all CPU, all existing runners)
+STAGES += [
+    {"name": "pd2_signed_books_w40", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/books_w40.json",
+             "--out", "results/positional_polish/pd2_signed_books_w40.json"],
+     "produces": "results/positional_polish/pd2_signed_books_w40.json",
+     "needs": ["results/features/books_w40.json"],
+     "why": "PD-2 robustness: is the decay window-robust where the magnitude asymmetry was not?"},
+    {"name": "pd2_signed_argrewrite_w40", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/argrewrite_w40.json",
+             "--out", "results/positional_polish/pd2_signed_argrewrite_w40.json"],
+     "produces": "results/positional_polish/pd2_signed_argrewrite_w40.json",
+     "needs": ["results/features/argrewrite_w40.json"],
+     "why": "PD-2 robustness, essays at the second window"},
+    {"name": "pd2_signed_ladder3", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/ladder3_w80.json",
+             "--out", "results/positional_polish/pd2_signed_ladder3.json"],
+     "produces": "results/positional_polish/pd2_signed_ladder3.json",
+     "needs": ["results/features/ladder3_w80.json"],
+     "why": "the account separator: if machine polish also DECAYS the register account gains; "
+            "if machine rises while humans fall, reallocation regains ground"},
+    {"name": "pd34_ladder3_w40", "est": 30,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "ladder3", "--window", "40",
+             "--suffix", "_w40"],
+     "produces": "results/features/ladder3_w40.json", "needs": [],
+     "why": "machine window-robustness input"},
+    {"name": "pd3_ladder3_w40", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py",
+             "--cache", "results/features/ladder3_w40.json",
+             "--out", "results/positional_polish/pd3_ladder3_w40.json"],
+     "produces": "results/positional_polish/pd3_ladder3_w40.json",
+     "needs": ["results/features/ladder3_w40.json"],
+     "why": "PD-3 reversal robustness at the second window"},
+]
+
 
 
 def rel(p: str) -> Path:
