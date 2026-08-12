@@ -3031,6 +3031,25 @@ small-split protocols showed. The claim replicates: this pipeline, run as publis
 0.55 to 0.58, and the paper's identical 0.64/0.64 pair is not a reachable outcome of the
 released materials. The ScholaWrite recreation row closes on that finding.
 
+**The provenance hunt completed the chain (next day).** A follow-up agent traced the 0.64 to
+its source and it is a **stale first-version number never recomputed**: byte-identical across
+four arXiv revisions and into the ACL camera-ready while models were added around it, and
+silently contradicted by the per-class table that first appears in the fifth revision, whose
+weighted reweighting is **0.5939 on the full test split**, within 0.014 of our faithful BERT,
+with no per-label-capped subsample able to exceed it. The vanished private evaluation repo is
+identified by composition (it is the 300-per-label subsample, verified as exactly the shipped
+small split's construction and a strict subset of test), and it moves scores DOWN, so it
+cannot be the 0.64's source; the vanished dataset revision had the shipped composition (the
+camera-ready's per-project table totals the shipped corpus exactly), so no earlier-data story
+survives either. The published run's input-corruption bug is confirmed present at both
+training and evaluation, exactly as our faithful arms reproduce it. One ambiguity remains in
+their sources and it is testable: their inference script's checkpoint number factorizes as
+epoch 10 at effective batch 16 or **epoch 5 at effective batch 8**, the appendix's
+one-GPU-batch-8 wording supports the second reading, and epoch 5 sits precisely where our
+3-epoch (0.741) to 10-epoch (0.580) bracket crosses 0.64. That arm is running; if it lands
+near 0.64, the printed number was an epoch-5 checkpoint read, and the recreation closes
+matched rather than corrected.
+
 ## L87 · The mapping sweep: neither G20a nor G20b in any of eleven families, and one new universal
 
 **Hypothesis.** *(G20a/G20b, with G143 riding along.)* The two candidate block-mappings, never

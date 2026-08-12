@@ -57,6 +57,11 @@ def main() -> None:
                          "full before-text head-truncated at 512, the <INPUT><BT>...</BF> "
                          "wrapper with its published typo, six added special tokens, balanced "
                          "class weights with the arange hack, seed 42; pair with --epochs 10")
+    ap.add_argument("--batch", type=int, default=16,
+                    help="effective batch size; their checkpoint-30760 is epoch 10 at 16 OR "
+                         "epoch 5 at 8, the provenance hunt's one live lever")
+    ap.add_argument("--out-tag", default="",
+                    help="suffix appended to the output filename, for protocol variants")
     args = ap.parse_args()
     RESULTS.mkdir(parents=True, exist_ok=True)
 
@@ -125,6 +130,7 @@ def main() -> None:
         split_note = "80/20 seed-42 (no published split shipped; recorded deviation)"
     if args.faithful:
         suffix += "_faithful"
+    suffix += args.out_tag
     labels = sorted(set(train[label_col]) | set(test[label_col]))
     lab2i = {l: i for i, l in enumerate(labels)}
     print(f"{len(train)} train / {len(test)} test, {len(labels)} labels ({split_note})")
@@ -209,7 +215,7 @@ def main() -> None:
             ys = torch.tensor([lab2i[l] for l in split[label_col]])
             data = torch.utils.data.TensorDataset(enc["input_ids"],
                                                   enc["attention_mask"], ys)
-            return DataLoader(data, batch_size=16, shuffle=shuffle)
+            return DataLoader(data, batch_size=args.batch, shuffle=shuffle)
 
         tr_loader = make_loader(train, True)
         te_loader = make_loader(test, False)
