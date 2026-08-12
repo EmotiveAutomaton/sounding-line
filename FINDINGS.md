@@ -3205,6 +3205,68 @@ before it is believed, since the machine corpus here is specification-stacked es
 than register-matched prose, and this project has buried ten cheap discriminators for less.
 The books' fragility keeps the human-side claim modest: the robust human decay is the essays'.
 
+## L91 · Which layer carries the maker: both do, weakly, and the predicted asymmetry does not appear
+
+**Hypothesis.** *(G29, predicted in advance: if one layer fails to separate, it is leaked.)*
+Author classification from the eight-concept profiles of the G28 triples, per layer.
+
+**Method.** 150 book segments, 9 authors, logistic classification of author from the 8-dim
+profile per arm, five-fold; floor is the measured majority share (0.133); sixty
+label-permutations per arm as the null; the leaked-retest arm doubles as the stability
+reference.
+
+| arm | author accuracy | permutation p |
+|---|---|---|
+| leaked | 0.193 | 0.033 |
+| emblematic | 0.227 | 0.016 |
+| leaked, retest | 0.240 | 0.016 |
+
+*Caption: all three arms beat the floor and their permutation nulls; none is strong. Chance
+under permutation ~0.12.*
+
+**Found.** Both layers carry author identity above floor and null, at 1.4 to 1.8 times the
+floor; neither fails, so the advance prediction's trigger condition never fires. The nuance
+runs slightly against the Morellian expectation: the emblematic (performed) layer carries as
+much or more identity than the leaked layer here.
+
+**Means.** A first-pass answer with named limits: eight numbers per text from one reader is a
+narrow pipe, and "author" on this corpus is confounded with era and genre, so the performed
+layer may be carrying period convention rather than person, which would explain the
+direction. The two-layers result (L88) stands unaffected, since distinctness was established
+against retest, not against identity-carrying. The clean next form is the same analysis at
+fixed era, or on the function-word side where identity machinery is already validated.
+
+## L92 · Abandoned scaffolding, first pass: the instrument works, and machine text carries the most debris
+
+**Hypothesis.** *(G80, reserve versus overpaint's cheapest observable.)* Abandoned
+scaffolding (promised counts unfulfilled, orphan "first"s, dangling forward references) is
+computable on one static text.
+
+**Method.** Three regex-family counters, ruler-gated (a planted document with two known
+abandonments and a clean document score 2 and 0 before any corpus is read); run over human
+first drafts (86 whole documents), book segments (170 mid-book excerpts), and machine
+long-form (75 whole documents).
+
+| corpus | mean abandoned per doc | share with any |
+|---|---|---|
+| human first drafts | 0.186 | 0.19 |
+| books (excerpts) | 0.271 | 0.27 |
+| machine long-form | **0.400** | 0.40 |
+
+*Caption: human-vs-machine p = 0.0028; human-vs-books p = 0.16. The books number is inflated
+by construction, since mid-book excerpts truncate enumeration chains and orphan their
+ordinals, so the clean whole-document comparison is drafts against machine.*
+
+**Found.** The instrument passes its gate and separates on first use: machine long-form
+leaves abandoned scaffolding at twice the human-draft rate.
+
+**Means.** Read within its limits, this is the overpaint side of the cue made countable, and
+the direction is theory-consistent: a generator plants structural promises (the
+specification-stacked corpus promises much) and does not track their fulfilment the way a
+maker revising toward a reader does. First pass only: regex counters, one machine corpus, and
+the books-excerpt confound named above; the fiction-register machine corpus now being
+generated gives this instrument its cleaner second comparison for free.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

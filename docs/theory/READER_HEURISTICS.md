@@ -373,18 +373,20 @@ The reader's rules for exploiting the automatic traces (the trace ontology itsel
 | # | hypothesis | status |
 |---|---|---|
 | **G79** | The four-part admissibility filter, criterion 4 especially | **OPEN, the best single import.** Predicts where habit is switched off |
-| **G80** | Reserve versus overpaint, on text structure | **OPEN.** Computable on one static text |
+| **G80** | Reserve versus overpaint, on text structure | **FIRST PASS LANDED (test, L92), ruler-gated.** Abandoned scaffolding is countable on one text, and machine long-form carries it at twice the human-draft rate (0.400 against 0.186 per document, p = 0.003); the books arm is inflated by excerpt truncation and stays uncompared. Regex counters, one machine corpus; the register-matched fiction corpus gives the second comparison |
 | **G81** | Self-revision is homogeneous, imposed change is lumpy | **SUPPORTED (test, L52), first pass, against the weakest adversary.** 66 authors, real revision dispersion 0.45 vs cross-author splice 1.94, separation perfect (AUC 1.0). The ceiling is the caveat, since a crude splice may be read as *different author* rather than *imposed change*; the realistic same-register imposition is the untested case |
 | **G82** | High internal consistency indicates *imitation*, not expertise | **OPEN.** May invert an assumption we hold |
 | **G83** | Adopt the graded attribution vocabulary | **OPEN** |
 | **G84** | Two channels: falsifiers veto, style proposes, never averaged | **OPEN, architectural.** Every historical catch came from a hard falsifier |
 
-**What the table says.** The concealment family has its first number and it sits suspiciously at
-ceiling. Real self-revision is measurably even-handed, but the adversary it beat was the crudest
-possible splice, so the mixed-provenance question the family exists for is still open. The
-admissibility filter's fourth criterion remains the best-rated unrun import; it predicts where
-habit is switched *off*, which is information every other measure discards. Confidence: the
-homogeneity result is one bad test away; everything else is untested.
+**What the table says.** The concealment family now has two numbers. Real self-revision is
+measurably even-handed, against the crudest possible splice, so the mixed-provenance question
+stays open; and the reserve/overpaint cue is countable on one text, with machine long-form
+leaving abandoned scaffolding at twice the human-draft rate on its ruler-gated first pass.
+The admissibility filter's fourth criterion remains the best-rated unrun import; it predicts
+where habit is switched *off*, which is information every other measure discards. Confidence:
+the homogeneity result and the scaffolding first pass are each one bad test away; everything
+else is untested.
 
 ## §8. Communicative shaping: the bard
 

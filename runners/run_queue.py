@@ -798,6 +798,48 @@ STAGES += [
      "why": "PD-3 reversal robustness at the second window"},
 ]
 
+# ── NIGHT13c 2026-08-12: the owed backlog, crafted (PD-11 standing-policy rerun; the
+# sign-funnel's register-matched fiction; the fiction arms of PD-2 and G80)
+STAGES += [
+    {"name": "pd11_rerun_k20", "est": 250,
+     "cmd": [PY, "runners/run_d0b.py", "--arm", "local", "--k", "20",
+             "--seed-base", "9000", "--out-tag", "_rerun_k20"],
+     "produces": "results/d0b/d0b_rerun_k20.json", "needs": [],
+     "why": "PD-11's owed powered re-run per the standing near-significance policy: held out, "
+            "hyperparameters frozen, fresh seeds, doubled n against the 2.0x bar"},
+    {"name": "gen_fiction", "est": 200,
+     "cmd": [PY, "runners/run_gen_fiction.py"],
+     "produces": "corpora/machine_fiction_manifest.json", "needs": [],
+     "why": "sign-funnel step 1: register-matched machine fiction, two generator families"},
+    {"name": "features_fiction_qwen", "est": 25,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "machine_fiction_qwen",
+             "--window", "80", "--suffix", "_w80"],
+     "produces": "results/features/machine_fiction_qwen_w80.json",
+     "needs": ["corpora/machine_fiction_manifest.json"],
+     "why": "sign-funnel input, generator one"},
+    {"name": "features_fiction_ds", "est": 25,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "machine_fiction_ds",
+             "--window", "80", "--suffix", "_w80"],
+     "produces": "results/features/machine_fiction_ds_w80.json",
+     "needs": ["corpora/machine_fiction_manifest.json"],
+     "why": "sign-funnel input, generator two"},
+    {"name": "pd2_signed_fiction_qwen", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/machine_fiction_qwen_w80.json",
+             "--out", "results/positional_polish/pd2_signed_fiction_qwen.json"],
+     "produces": "results/positional_polish/pd2_signed_fiction_qwen.json",
+     "needs": ["results/features/machine_fiction_qwen_w80.json"],
+     "why": "the sign-funnel's decisive cell: does register-matched machine fiction still "
+            "rise where human fiction falls?"},
+    {"name": "pd2_signed_fiction_ds", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/machine_fiction_ds_w80.json",
+             "--out", "results/positional_polish/pd2_signed_fiction_ds.json"],
+     "produces": "results/positional_polish/pd2_signed_fiction_ds.json",
+     "needs": ["results/features/machine_fiction_ds_w80.json"],
+     "why": "the same cell under a second generator family, the shared-representation guard"},
+]
+
 
 
 def rel(p: str) -> Path:

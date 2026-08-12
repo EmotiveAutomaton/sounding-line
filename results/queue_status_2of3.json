@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-12 05:06",
+  "started": "2026-08-12 05:32",
   "stages": [
     {
       "name": "feature_visibility",
@@ -446,10 +446,28 @@
       "why": "PD-3 reversal robustness at the second window",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_fiction_qwen",
+      "why": "sign-funnel input, generator one",
+      "est_minutes": 25,
+      "status": "DEFERRED",
+      "missing": [
+        "corpora/machine_fiction_manifest.json"
+      ]
+    },
+    {
+      "name": "pd2_signed_fiction_ds",
+      "why": "the same cell under a second generator family, the shared-representation guard",
+      "est_minutes": 20,
+      "status": "DEFERRED",
+      "missing": [
+        "results/features/machine_fiction_ds_w80.json"
+      ]
     }
   ],
   "shard": "2/3",
-  "finished": "2026-08-12 05:06",
+  "finished": "2026-08-12 05:32",
   "failed": [
     "sw_revision_diff"
   ]

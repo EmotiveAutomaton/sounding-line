@@ -47,6 +47,7 @@ sys.path.insert(0, str(REPO))
 
 from soundingline.measures.leakage import delta_classify, profile   # noqa: E402
 from soundingline.probe.client import make_client                   # noqa: E402
+from soundingline.gpulock import acquire_gpu_lock                    # noqa: E402
 
 RESULTS = REPO / "results" / "d0b"
 
@@ -79,8 +80,13 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", default="local")
     ap.add_argument("--k", type=int, default=10)
+    ap.add_argument("--seed-base", type=int, default=5000,
+                    help="held-out reruns use a fresh base so no generation is reused")
+    ap.add_argument("--out-tag", default="",
+                    help="suffix for output files so a rerun never clobbers the original")
     args = ap.parse_args()
 
+    acquire_gpu_lock("d0b")
     print(f"D-0b | arm={args.arm} | {len(AFFECTS)} affects x k={args.k} "
           f"| purpose and topic FIXED | target 2000+ words\n", flush=True)
 
@@ -88,7 +94,7 @@ def main() -> None:
     short = []
     for ai, (a, gloss) in enumerate(AFFECTS.items()):
         for s in range(args.k):
-            c = make_client(args.arm, seed=5000 + ai * 100 + s)
+            c = make_client(args.arm, seed=args.seed_base + ai * 100 + s)
             try:
                 out = c.read_text(SYSTEM, PROMPT.format(topic=TOPIC, purpose=PURPOSE, affect=gloss))
             except Exception as e:                                   # noqa: BLE001
@@ -103,7 +109,7 @@ def main() -> None:
         mw = statistics.fmean(len(t.split()) for t in texts[a]) if n else 0
         print(f"  {a:<10} {n}/{args.k} usable   mean {mw:.0f} words", flush=True)
         RESULTS.mkdir(parents=True, exist_ok=True)
-        (RESULTS / "generations.json").write_text(
+        (RESULTS / f"generations{args.out_tag}.json").write_text(
             json.dumps({"topic": TOPIC, "purpose": PURPOSE, "short": short, "texts": texts},
                        indent=2), encoding="utf-8")
 
@@ -134,7 +140,7 @@ def main() -> None:
     for a, v in usable.items():
         print(f"        {a:<10}{statistics.fmean(profile(t).rates['i'] for t in v):>7.1f}")
 
-    (RESULTS / "d0b.json").write_text(json.dumps(
+    (RESULTS / f"d0b{args.out_tag}.json").write_text(json.dumps(
         {"verdict": verdict, "result": r, "short": short,
          "i_rate": {a: statistics.fmean(profile(t).rates["i"] for t in v)
                     for a, v in usable.items()}}, indent=2), encoding="utf-8")

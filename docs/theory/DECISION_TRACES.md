@@ -264,7 +264,7 @@ restated goal they are recorded decisions like any other, recovered first and su
 | **PD-16** | Cognitive-load signatures leak despite narrative management | **OPEN.** Take the deception literature's features, not its promise |
 | **G87** | Low-visibility features carry *who*; high-visibility features carry *what* | **SUPPORTED (test), a clean double crossover on the first pass (L41).** Invisible habits identify the author at 0.78 vs 0.38 for visible features; visible features separate draft-stage at 0.48 vs 0.30. The pottery prediction, measured; what it licenses is an identity/stage split, with the deep-identity and values readings still needing discriminating tests |
 | **G28** | `leaked` and `emblematic` do not come back as the same distribution | **SUPPORTED (test, L88).** Between-layer profile agreement 0.597 against the same prompt's own test-retest 0.725, difference CI [0.07, 0.19] on 150 book segments with the retest arm as the built-in null. The probe is not asking one question twice |
-| **G29** | If one layer separates and the other does not, it is `leaked` that fails | **OPEN, predicted in advance; now the family's next test**, with G28's triples as its data |
+| **G29** | If one layer separates and the other does not, it is `leaked` that fails | **ANSWERED FIRST-PASS (test, L91): both carry, neither fails**, so the trigger never fires. Author accuracy 0.19/0.23 (leaked/emblematic) against a 0.13 floor, both permutation-significant, with the performed layer carrying as much identity as the leaked, likely era-and-genre convention on this corpus. Fixed-era or function-word-side is the clean second form |
 | **PD-11b** | The first function-word attempt answered its own question | **VOID (test).** Ran at 38% power |
 
 **What the table says.** The automatic channel is real on every instrument that has touched it.
@@ -276,7 +276,9 @@ has now been asked and answered in the battery's favor, the leaked and emblemati
 back as reliably different distributions against a built-in retest ceiling, which removes the
 one-question-twice hedge from every leaked row above. What is still missing is the license to
 call it *affect* rather than *style*: the induction control has never run on this channel, and
-which layer carries the maker is G29's question. The channel's one process lesson stays woven in
+G29's first pass says both layers carry a little identity with no asymmetry, the performed
+layer plausibly riding era convention, so the which-layer question stays open in its
+fixed-era form. The channel's one process lesson stays woven in
 rather than appended: it was measured three times at sample sizes that could not see it before the
 powered re-run separated on all three ladders, so the cheap channel was never dead, only
 underpowered, the full sequence being in the git history. Confidence: the capacity results are
