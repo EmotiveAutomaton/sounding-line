@@ -121,6 +121,10 @@ def main() -> None:
     print("\n" + "=" * 72)
     r = delta_classify(usable)
     lift = r["lift"]
+    # the verdict statistic is written to the output, not only printed (LESSONS §3, the L89 defect)
+    from scipy import stats as _st                                     # noqa: PLC0415
+    r["binomial_p"] = float(_st.binomtest(round(r["accuracy"] * r["n"]), r["n"], r["chance"],
+                                          alternative="greater").pvalue)
     verdict = "PASS" if lift > 2.0 else "FAIL" if r["accuracy"] <= r["chance"] else "AMBIGUOUS"
     print(f"D-0b  Burrows' Delta, leave-one-out, {len(usable)} affects")
     print(f"      {r['accuracy']:.1%} vs {r['chance']:.1%} chance = {lift:.2f}x   n={r['n']}")
@@ -143,7 +147,7 @@ def main() -> None:
     (RESULTS / f"d0b{args.out_tag}.json").write_text(json.dumps(
         {"verdict": verdict, "result": r, "short": short,
          "i_rate": {a: statistics.fmean(profile(t).rates["i"] for t in v)
-                    for a, v in usable.items()}}, indent=2), encoding="utf-8")
+                    for a, v in usable.items()}}, indent=2), encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":

@@ -1559,6 +1559,18 @@ The rerun is queued: all 100 items, rung composition recorded, gated on the mean
 reproducing the known value before the last-token and max arms are read. Until it lands, no
 pooling claim about the dose ratio exists in either direction.
 
+**The v2 rerun landed the same day, and the gate passed to the third decimal.** All 100 items,
+twenty per rung; the mean-pooling arm reproduces the known length-controlled value exactly
+(−0.4052 observed against −0.405 recorded), which licenses reading the other two arms. At full
+dose range the ratio-versus-rung correlation is **negative under every pooling** — mean −0.405
+(p < 10⁻⁴), max −0.295 (p = 0.003), last-token −0.109 (p = 0.28) — so **v1's sign-flip claim was
+the selection artifact talking** (its last-token cell read +0.22 on rungs 0 and 1). What
+survives as a real caveat is attenuation: the dose relationship weakens to null when only the
+final token position is read, and holds under mean and max pooling. The profile-shape invariance
+reconfirms at full n (r ≥ 0.98 across poolings). The recorded verdict stays POOLING-BOUND under
+the pre-set rule, because the significance class moves even though the sign does not; the
+honest sentence is that the ratio's direction is pooling-stable and its detectability is not.
+
 ## L45 · Aligned by computational events, the early locus is early everywhere but one family
 
 **Hypothesis.** *(G124.)* Block addresses never transfer as fractions of depth — the loci are
@@ -3423,6 +3435,40 @@ regression control. The first-ladder collapse reads most naturally as power at t
 consistent with L16's own effect-size ordering; it is recorded as COLLAPSES on that corpus, not
 explained away. Theory row updated (DECISION_TRACES §3); the old-form demonstration closes the
 stale G76 spec permanently.
+
+## L95 · PD-11 at power: function words separate specified affect states at the pre-registered bar
+
+**Hypothesis.** *(PD-11, the test the standing near-significance policy was adopted for and never
+re-run on.)* Function-word rates separate texts generated under four specified maker affect
+states. The original came back at 1.80× chance (p = 0.0047) against a pre-registered 2.0× bar —
+significant, below threshold — and the policy says raise the power with everything frozen.
+
+**Method.** `run_d0b.py --arm local --k 20 --seed-base 9000`: the original design held out and
+frozen (same four affect specifications, same generator, same Burrows-Delta leave-one-out
+classifier over closed-class rates), fresh seeds, twenty generations per state against the
+original ten — doubled scored n (80 against 40). The verdict statistic was recomputed inline as
+an exact binomial (the runner printed its verdict on the lift alone and now writes the p, the
+L89 lesson applied).
+
+| arm | accuracy | chance | lift | exact binomial p |
+|---|---|---|---|---|
+| original (k = 10) | 0.450 | 0.25 | 1.80× | 0.0047 |
+| **powered rerun (k = 20)** | **0.5625** | 0.25 | **2.25×** | **2.6 × 10⁻⁹** |
+
+*Caption: leave-one-out accuracy assigning each generated text to its specified affect state from
+function-word rates alone. Per-class on the rerun: seeking 0.85, fear 0.55, rage 0.50, care 0.35.
+First-person rates run 14.5 to 19.0 per thousand words, so the Poisson-floor failure that voided
+the first attempt is gone.*
+
+**Found.** The powered rerun clears the pre-registered bar: 2.25× chance, forty-five of eighty
+correct where chance expects twenty. Seeking is nearly ceiling; care is the weak class.
+
+**Means.** The standing policy earns its keep on the test that created it: what was recorded as
+"significant but below its bar" is a clean pass at doubled n with everything frozen. Function
+words track specified maker *state* on generated text, at the bar, with no model in the loop.
+The scope limits stand unchanged: generated text only (the E38 warning that this does not
+license the human claim), one generator family, and states specified by prompt. Theory row
+updated (DECISION_TRACES §3).
 
 ## L4 · Can weak effects be stacked into a detector?
 
