@@ -2974,10 +2974,17 @@ physically attached to the human-corrected alignment (the deleted line was a red
 restatement of a surviving sentence), so **the released alignment IS the experiments'
 alignment and no tighter set of pairs exists**; the reimplemented aligner agrees with the
 release at 94 to 96 percent, exactly the aligner's own published accuracy band, and every
-disagreement is an error relative to the human correction. The remaining unpinned surface is
+disagreement is an error relative to the human correction. The remaining unpinned surface was
 the evaluation protocol itself: the source carries a stray "10-fold cross-validation" comment
-against the published "5-fold", and the cells may be randomized-search maxima. The 10-fold
-arm is the last cheap lever and is running; behind it stands only author contact. An
+against the published "5-fold", and the cells may be randomized-search maxima. **The 10-fold
+arm ran and missed**: fold count moves every arm by at most half a point with mixed sign
+(features .8948, embeddings .887 to .891 against .92/.93). That exhausts every public route:
+composition exact, features theirs, hyperparameters theirs, encoder refuted, alignment
+refuted at source, folds refuted. Final state: the Features row is reproduced (.895 against
+.90, inside the field's own reproduction band), the embedding rows are not reproducible from
+the published description with the gap bounded near three points, and the surviving
+candidates are randomized-search optimism and the unstated vector combination, reachable only
+through the authors. An
 exhaustive follow-up sweep confirmed no processed pair file for this corpus exists anywhere
 public (their project domain is dead and was never archived with data), and found one
 corroboration: the only public third-party preprocessor for these spreadsheets reads exactly
