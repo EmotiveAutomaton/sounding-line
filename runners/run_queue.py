@@ -840,6 +840,16 @@ STAGES += [
      "why": "the same cell under a second generator family, the shared-representation guard"},
 ]
 
+# ── METHODS PASS 2026-08-12 (L93): reruns the audit earned, each behind its own gate.
+# Stages enter here only once their runner exists; the rest of the plan lives in TODO.md.
+STAGES += [
+    {"name": "pooling_falsifier_v2", "est": 75,
+     "cmd": [PY, "runners/run_pooling_falsifier.py"],
+     "produces": "results/pooling_falsifier/Qwen2.5-1.5B_v2.json", "needs": [],
+     "why": "L44 correction: v1 read rungs 0-1 only (rung-ordered manifest truncated at 40); "
+            "v2 is full-n with a mean-arm reproduce-gate before the other poolings are read"},
+]
+
 
 
 def rel(p: str) -> Path:

@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-08-07.**
+**Last updated: 2026-08-12.**
 
 ---
 
@@ -742,6 +742,9 @@ verdict gate imported it and had to be corrected.**
 **Owed before this counts as a positive: the induction control.** Rung is how many specifications the
 prompt carried, so the classifier may be reading style the prompt *induced* rather than a maker state.
 **That control killed all three text-feature candidates last time and this has not had it.**
+**The control ran 2026-08-12 (L94): SURVIVES on the held-out and extreme ladders in the fair
+within-rung form, COLLAPSES on this table's weakest corpus** — the license is granted where the
+manipulation is strong, and the first ladder's cell is a power casualty, not an exoneration.
 
 ## L17 · The founding question, re-scored on the extreme ladder
 
@@ -1541,6 +1544,20 @@ under mean pooling, do not hang on that choice. The ratio-vs-rung statistic land
 negative. **Means: the flagship dose ratio, already fair-control-dead and family-sign-bound, is
 also an artifact of the pooling choice within its home model.** The one significant cell (max,
 p = 0.034) is one of three uncorrected looks and gets no weight on its own.
+
+**Correction, found by the methods pass (2026-08-12, L93): the ratio half of this verdict is
+withdrawn to VOID — a selection artifact.** The runner truncated the held-out ladder's manifest to
+its first forty items, and that manifest is ordered by rung, so every ratio-versus-rung cell above
+was computed on **rungs 0 and 1 only** — a dose-response correlation with eighty percent of the
+dose axis absent by selection. The tell was in plain sight: the mean-pooling arm's own baseline
+(−0.045) reproduces neither the raw held-out value (−0.247, n = 100) nor the length-controlled one
+(−0.405), and instead of hunting that failed reproduction, the entry explained it away. The clause
+"already fair-control-dead" was also wrong on its face — the home family survives the fair control
+on all three ladders (L23) and no entry anywhere says otherwise. What stands: the profile-shape
+half (pooling-invariant geography), which is not a dose statistic and holds on any text sample.
+The rerun is queued: all 100 items, rung composition recorded, gated on the mean-pooling arm
+reproducing the known value before the last-token and max arms are read. Until it lands, no
+pooling claim about the dose ratio exists in either direction.
 
 ## L45 · Aligned by computational events, the early locus is early everywhere but one family
 
@@ -3062,6 +3079,21 @@ one-GPU-batch-8 wording supports the second reading, and epoch 5 sits precisely 
 near 0.64, the printed number was an epoch-5 checkpoint read, and the recreation closes
 matched rather than corrected.
 
+**The epoch-5 arm landed (2026-08-12): 0.6094, NOT-MATCHED, and the correction is final.**
+The last live route to a matched close misses by three points — the epoch axis is now swept
+end to end under the faithful protocol (3 epochs 0.741, 5 epochs 0.609, 10 epochs 0.580,
+RoBERTa at 10 epochs 0.546) and the printed 0.64/0.64 is unreachable from the released
+materials at any checkpoint reading. The reproducible band from their own code and data is
+0.55 to 0.61, bracketing the value their own per-class table implies (0.5939) from both
+sides; the epoch-5 cell sits at the top of that band, closest to the print and still short.
+Scientific Accuracy is again predicted (0.328) while absent from their table. The only
+residue left is their unstated seed and data order, which no public lever reaches. **The
+ScholaWrite recreation closes as a correction to the literature: roughly 0.58 to 0.61 is
+what the published pipeline produces, and the printed digit is a stale first-version number.**
+One process note rides along (L93): this arm took two days to land a three-hour training
+because it ran as a standalone process that every engine relaunch's orphan sweep killed
+mid-epoch; the lesson is banked in LESSONS §5.
+
 ## L87 · The mapping sweep: neither G20a nor G20b in any of eleven families, and one new universal
 
 **Hypothesis.** *(G20a/G20b, with G143 riding along.)* The two candidate block-mappings, never
@@ -3266,6 +3298,131 @@ specification-stacked corpus promises much) and does not track their fulfilment 
 maker revising toward a reader does. First pass only: regex counters, one machine corpus, and
 the books-excerpt confound named above; the fiction-register machine corpus now being
 generated gives this instrument its cleaner second comparison for free.
+
+## L93 · The methods pass: one live entry rests on a selection artifact, one positive still runs uncontrolled, and the void shelf sorts into four flippable and two not
+
+**Hypothesis.** *(His directive, 2026-08-12: go through the findings very carefully, informed by
+the method section; report mistakes given current knowledge, plan the reruns, and try to flip
+voids.)* The record, read against the lessons file it postdates, should contain entries whose
+methods violate what we now know.
+
+**Method.** The five method-shelf files re-read in full, then every Tier-1 entry and the Tier-2
+tables read against them: each verdict checked for the lesson classes (known-answer gates,
+criteria that can fail, selection and range restriction, owed interpretation controls, power
+versus verdict, statistics written to disk), each owed follow-up traced into TODO.md and the
+queue, and every VOID assessed for a flip route. Suspicious cells re-derived from the runners and
+raw outputs rather than from the entries' prose.
+
+**Found, in severity order.**
+
+1. **L44 (the pooling falsifier) rested on a selection artifact and is corrected this pass.** The
+   runner took the first forty manifest items of a rung-ordered manifest: every ratio-versus-rung
+   cell was computed on rungs 0 and 1 only, the mean-pooling baseline (−0.045) reproduced no known
+   value of the quantity it attacked, and the failed reproduction was explained away in prose that
+   also mis-stated the fair-control record. The recreation standard we apply to other people's
+   papers (a large shortfall means your pipeline model is wrong, hunt it) was not applied to our
+   own falsifier. Correction folded into L44; theory row and afterword corrected; rerun queued
+   with a reproduce-gate.
+2. **L16's function-word separation still has no induction control (G76), and the TODO spec for
+   that control is itself stale** — it specifies regressing on raw specification identity, the
+   dose-eating construction L22 proved absorbs the true effect. The control must be built in the
+   within-rung form (L23). Until it runs, a three-corpus SEPARATES verdict on the second
+   artifact-side channel is uncontrolled against induction, the exact confound that killed three
+   candidates before the fair control revived them.
+3. **The choice-recovery margin's verdict sits in its prereg's silent band with both filed
+   follow-ups unrun** (L73: powered matched replication; floor decomposition). The program's head
+   result (8.2-point margin, p = 4.5 × 10⁻⁴) is real but unadjudicated by its own bands.
+4. **Two standing weaknesses have no queue presence at all.** Weakness 5 (the 16× scale gap
+   between the affect directions' 12-word fitting sentences and the 200-word windows they score)
+   is marked "effect unmeasured" and touches every affect-projection result in the project.
+   Weakness 6 (the no-maker corpus generated by the reading model's own family) now has its
+   second-family generator confirmed available and still no consumer stage.
+5. **L40 (the flagship's no-maker layer concentration) is UNDECIDED at power** (p = 0.095/0.089)
+   with 36 no-maker artifacts; the standing near-significance policy (raise n, freeze everything)
+   was never applied to it. Expanding the no-maker corpus with the second family flips this and
+   tests weakness 6 in one stage.
+6. **Cheap owed methods checks never run:** G112 (characterise the gpt2 mirror, saved maps
+   suffice), G94 (the Taramsa test — does our reconstruction posit decisions that were not
+   there, runnable on the ladder where truth is known), G97 (maker as a random effect —
+   our within-maker positives pool artifacts within makers and have never been re-fit
+   hierarchically), G102 (the prior-art sweep owed before any public ratio-versus-dose claim),
+   and L39's register-matched machine arm (the fiction corpus now generating supplies it).
+7. **One infrastructure defect, mechanism pinned:** the night loop's startup orphan sweep kills
+   any stage python no live loop owns; the standalone epoch-5 ScholaWrite arm was exactly such an
+   orphan, so every engine relaunch killed the training mid-epoch and the waiter restarted it
+   from zero — roughly two days of Sisyphus for a three-hour job. Long standalone GPU arms need
+   either checkpoint-resume, queue membership, or a keep-list entry in the sweep.
+
+**The void shelf, assessed for flips.** Four flippable: **the refusal test** (V3/G77 — the
+question is intact, the 50%-false-positive threshold just needs replacing with a permutation
+test); **the affect-count instrument** (V6/G106 — four named defects, all repairable, plus
+topic-controlled generation replacing found text); **L40's undecided permutation null** (power,
+per item 5); **and the L44 ratio cells** (rerun queued). Two not flippable as posed: **Gate 3's
+half-corpus question** (the corpus is burned — over-read and broadly confounded; the question
+re-poses honestly only at the event level, which is G129's preregistration, so the program IS the
+flip); **L18's depth-follows-domain pilot** (blocked on the one-maker-many-kinds corpus, the
+sourcing problem, not a method fix). Already flipped by earlier work and needing nothing: V1
+(L17/L23), V2 (L21), V4/V5 (L16 at power; PD-11's powered rerun running now), the coherence
+instrument (G105 → L47), and PD-1's dispersion void (the movement statistic, L74).
+
+**Verified clean while looking.** The multiplicity audit is current (reran this morning, no
+flips); the Tier-2 settled tables contradict nothing in Tier 1; the 08-11 result files that
+looked like silent re-runs were first landings committed the same day (no wasted compute); and
+the L47 sub-chance agreement baseline (0.43 against a 0.49 random floor) stands as the one open
+instrument anomaly, recorded, unclaimed, and not load-bearing for any verdict.
+
+**Means.** The record holds one defective live entry (corrected), one uncontrolled positive
+(control queued), and a backlog whose common shape is controls-owed-but-unscheduled rather than
+wrong verdicts. The reruns are queued in cost order: the pooling rerun and G76 first (hours,
+cached inputs), then the no-maker expansion serving L40 and weakness 6 together, the G130c floor
+decomposition, and the cheap CPU checks (G112, G94, G97); the scale-gap measurement (weakness 5)
+is the largest build and the deepest reach, since it underlies every affect-projection number in
+the file.
+
+## L94 · The function-word channel survives its owed induction control on the two strong ladders, and the old control form is shown killing everything
+
+**Hypothesis.** *(G76, owed since L16 landed; built this pass in the fair form after the methods
+audit found the filed spec still described the dose-eating construction L22 killed.)* The
+function-word separation may be reading style the prompt induced rather than a maker state; if
+the separation is not explained by which specifications were drawn, it should survive
+residualization on the within-rung-centred specification indicators.
+
+**Method.** `run_g76_fw_induction.py`, CPU. Per ladder: the 124 closed-class rates per artifact
+(L16's frozen list), the seeded specification-indicator reconstruction (verified arithmetic from
+the fair-control runner), within-rung centring, out-of-fold ridge residualization of every rate,
+then rung classification from the residuals (logistic, stratified folds, accuracies averaged
+over ten fold seeds because the n = 50 corpus proved fold-seed fragile). Floors measured by 200
+label permutations. Known-answer gates before any real read: a planted dose bank must survive
+the control (it does, 0.52 against 0.20 chance), a planted pure-identity bank must classify at
+chance in both arms (it does, 0.17/0.24). The raw arm doubles as a reproduce-gate against L16's
+recorded cells.
+
+| ladder | raw (L16 reference) | fair-residual | permutation p | old-form residual | verdict |
+|---|---|---|---|---|---|
+| first (n = 50) | 0.288 (0.32) | 0.252 | 0.22 | 0.130 | **COLLAPSES** |
+| held-out (n = 100) | 0.359 (0.33) | **0.439** | < 0.005 | 0.134 | **SURVIVES** |
+| extreme (n = 75) | 0.435 (0.467) | **0.443** | < 0.005 | 0.167 | **SURVIVES** |
+
+*Caption: accuracy classifying which of five rungs an artifact came from (chance 0.200), from
+raw function-word rates, from the rates after fair (within-rung) specification-identity removal,
+and from the rates after the old dose-eating removal. All three raw baselines reproduce L16
+within tolerance.*
+
+**Found.** On the held-out and extreme ladders the separation survives the fair control at full
+strength — the controlled accuracy even sits above raw, the suppression signature the ratio
+showed under the same control. On the first ladder (the weakest manipulation, ten
+specifications, fifty artifacts) it collapses to chance. And the old form of the control, the
+one the TODO spec still described, lands every corpus at or below chance with dose leaks of
+0.45 to 0.71 — it would have killed a channel the fair form passes, exactly as L22 predicted.
+
+**Means.** The second artifact-side channel now carries the same license as the ratio and the
+three revived features: on the strong ladders, what the function words separate is not explained
+by which specifications were drawn. The inherited caveat travels with it (L22): induction
+operating through the count of specifications is indistinguishable from a dose response by any
+regression control. The first-ladder collapse reads most naturally as power at the weakest dose,
+consistent with L16's own effect-size ordering; it is recorded as COLLAPSES on that corpus, not
+explained away. Theory row updated (DECISION_TRACES §3); the old-form demonstration closes the
+stale G76 spec permanently.
 
 ## L4 · Can weak effects be stacked into a detector?
 

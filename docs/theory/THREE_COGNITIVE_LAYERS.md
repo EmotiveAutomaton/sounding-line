@@ -315,7 +315,8 @@ late, **if the goal is clear.**"*
 | **G103** | The flagship ratio's tracking transfers across families | **REJECTED as universal; the sign is a family constant (test, L28), on the complete 33-cell map.** Qwen negative at all three sizes; gpt2 positive at medium and large, null at xl; SmolLM2 positive at both sizes; pythia positive small, zero at 2.8b. **No family shares the home family's sign, and the positive camp's largest members go quiet** |
 | **G33** | Late coherence rises when the goal is clear | **REJECTED IN DIRECTION (test, L13/L47), all eight families.** With a statistic that provably can measure agreement (known-answer gated), not one of 24 family-corpus cells rises with specification dose. Agreement at the late blocks *falls* robustly in the Qwen family, weakly in gpt2 and mid-size SmolLM2, and is flat in pythia, the family-constant shape again. Uncentred by design, so the induction confound is unpartialled |
 |   | | *(the first statistic was geometrically incapable of agreement and its verdicts are void; this row's history is instrument-death on 08-08, then rebuild and reversal on 08-09)* |
-| **G127** | The early/late story survives the pooling choice | **SPLIT (test, L44).** The block profile's shape and peak are pooling-invariant (r ≥ 0.98 against last-token and max pooling), so the geography does not hang on mean pooling. The flagship ratio-vs-dose statistic lands in a different sign-and-significance class under each pooling, so the ratio is pooling-bound on top of family-bound |
+| **G127** | The early/late story survives the pooling choice | **SPLIT, and the ratio half is withdrawn (test, L44, corrected in L93).** The block profile's shape and peak are pooling-invariant (r ≥ 0.98 against last-token and max pooling), so the geography does not hang on mean pooling. The ratio-versus-dose cells are void by selection, since the run truncated a rung-ordered manifest to its first forty items, leaving only rungs 0 and 1 of five, and its baseline arm reproduced no known value of the statistic it attacked. The full-dose rerun is queued behind a reproduce-gate |
+|   | | *(this row's history is a pooling-bound verdict on 08-10, then the selection artifact found and the ratio half withdrawn on 08-12)* |
 
 **What the table says.** Tracking is the surviving half, but its shape keeps inverting the
 predictions. The per-block signal replicates nearly perfectly across corpora and stands in at
@@ -323,12 +324,13 @@ least five families, direction fixed inside each family and different between th
 goal-clarity conditional, finally measured with an instrument that works, runs backwards where it
 runs at all. As specifications stack, late-block responses agree *less* across texts, most
 strongly in the home family, not at all in two others. Differentiation with dose, not convergence.
-The flagship ratio carries a second disqualification, since its dose relationship changes sign
-with the pooling choice inside the home model, so nothing downstream should lean on that ratio's
-direction anywhere. The profile geography, by contrast, survives every pooling. Confidence: the
-tracking existence results are replicated and controlled; the agreement reversal and the pooling
-split are each one bad test away, and the reversal's contrasts carry the induction confound
-unpartialled.
+The flagship ratio's direction still binds to the family (G103), so nothing downstream leans on
+its sign across families; whether the pooling choice also moves it inside the home model is an
+open question again, because the run that said it did was computed on two rungs of five and is
+withdrawn. The profile geography, by contrast, survives every pooling measured. Confidence: the
+tracking existence results are replicated and controlled; the agreement reversal is one bad test
+away, with its contrasts carrying the induction confound unpartialled; the pooling half is
+instrument-dead until the gated rerun lands.
 
 ## §7. Within-reader measurements: ratios, recovery, and the design lesson
 

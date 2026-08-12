@@ -106,6 +106,12 @@ fold it; never append a contradiction.
 - **Every statistic a verdict rests on gets written to the output file, not only printed.**
   The signed arm's Wilcoxon backed its verdict and existed nowhere on disk; it had to be
   recomputed before it could be quoted. (L89; runner patched same pass)
+- **A falsifier is an instrument, and its baseline arm is a known-answer gate.** Before an attack
+  run's deltas mean anything, the arm that reproduces our own published pipeline must land on the
+  known value; a mismatch there is hunted, never explained away in the verdict prose. And after
+  any truncation or subsetting, print the design composition (rung counts, class counts) —
+  ordered manifests turn head-truncation into silent selection, which is how a pooling attack was
+  run on two rungs of five and read as a dose result. (L44 correction, L93)
 - **Run the explored-paths check before adopting any established technique.** Three questions,
   all must pass: what is this technique's ceiling, and is our question below it (stylometry's
   ceiling is author identity; LIWC's is r≈0.3 self-report correlation)? What do we have that its
@@ -144,3 +150,9 @@ fold it; never append a contradiction.
   (it matches memory columns); query the process list structurally. (the waiter bug, 08-10)
 - **Long jobs run in the background and wake the agent**; results are written through the same
   message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)
+- **The orphan sweep kills what no live loop owns — including legitimate standalone arms.** A
+  training launched outside the queue dies at the next engine relaunch and, if a waiter restarts
+  it, loops from epoch zero forever; the failure is invisible until someone asks for an ETA. A
+  long standalone GPU arm gets one of three protections before launch: queue membership (a stage
+  with a produces guard), checkpoint-resume, or its winpid on the sweep's keep-list. (L93, the
+  epoch-5 arm's two-day restart cycle)

@@ -1,0 +1,30 @@
+{
+ "arm": "bert",
+ "n_train": 49212,
+ "n_test": 12292,
+ "weighted_f1": 0.6093522771942229,
+ "gate": 0.64,
+ "epochs": 5,
+ "split": "their split",
+ "faithful": true,
+ "per_class_f1": {
+  "Citation Integration": 0.406,
+  "Clarity": 0.499,
+  "Coherence": 0.264,
+  "Cross-reference": 0.284,
+  "Fluency": 0.118,
+  "Idea Generation": 0.75,
+  "Idea Organization": 0.342,
+  "Linguistic Style": 0.222,
+  "Macro Insertion": 0.788,
+  "Object Insertion": 0.615,
+  "Scientific Accuracy": 0.328,
+  "Section Planning": 0.412,
+  "Structural": 0.374,
+  "Text Production": 0.697,
+  "Visual Formatting": 0.605
+ },
+ "report_weighted_f1": 0.6094,
+ "paper_inconsistency_note": "the published 0.64 is unreachable from the paper's own v5 per-class table (~0.59 on test); the per-class profile is the sharper target",
+ "verdict": "NOT-MATCHED"
+}

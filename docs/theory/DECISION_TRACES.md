@@ -255,7 +255,8 @@ restated goal they are recorded decisions like any other, recovered first and su
 | **S-3** | An involuntary leak channel is readable | **SUPPORTED (sim)** at 0.90 |
 | **T-4** | Amplifying the display makes concealment *more* detectable, his direction against mine | **SUPPORTED (sim)**, surviving a reader wrong about almost everything including a 50% channel swap, but **failing at 25% concealment: it reads effort spent hiding, and catches heavy concealers only** |
 | **PD-12** | Function words have spare capacity beyond author identity | **SUPPORTED (test).** Author held fixed, they separate different works by the same person at twice chance, ten of ten authors above chance |
-| **L16** | Function words separate specified maker states, once the design has power | **SUPPORTED (test) on all three ladders**, 1.6× to 3.0× chance, scaling with the manipulation. Owed: the fair induction control |
+| **L16** | Function words separate specified maker states, once the design has power | **SUPPORTED (test) on all three ladders**, 1.6× to 3.0× chance, scaling with the manipulation. **The owed fair induction control ran (test, L94): SURVIVES on the held-out and extreme ladders** (0.44 against 0.20 chance after within-rung identity removal, permutation p < 0.005, raw baselines reproducing the originals) **and collapses on the first ladder** (0.25, p = 0.22), the weakest manipulation at the smallest n. The old dose-eating form of the control would have killed all three (0.13 to 0.17), measured alongside as the demonstration |
+|   | | *(this row's history is SEPARATES-uncontrolled from 08-08, the control built and passed on the two stronger ladders 08-12)* |
 | **PD-11** | Function words carry maker *state*, not only identity | **AMBIGUOUS (test).** 1.80× chance at *p* = 0.0047 against a pre-registered 2.0× bar; the threshold was missed, the effect is significant; owed its powered re-run |
 | **PD-14** | Reading the model's activations reaches the leaked layer where its text does not | **SUPPORTED (test), and it became the live path.** The interpretation lives here; the empirical activation rows live in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) Part II |
 | **G32** | Polish correlates with late structure, leakage with early | **OPEN.** The depth-band version of this section's split |
@@ -274,16 +275,19 @@ and now stage-differentiated exactly as the pottery import predicts, with the in
 carrying identity and the visible features carrying situation. The two-layers-are-two question
 has now been asked and answered in the battery's favor, the leaked and emblematic reads coming
 back as reliably different distributions against a built-in retest ceiling, which removes the
-one-question-twice hedge from every leaked row above. What is still missing is the license to
-call it *affect* rather than *style*: the induction control has never run on this channel, and
-G29's first pass says both layers carry a little identity with no asymmetry, the performed
-layer plausibly riding era convention, so the which-layer question stays open in its
-fixed-era form. The channel's one process lesson stays woven in
-rather than appended: it was measured three times at sample sizes that could not see it before the
-powered re-run separated on all three ladders, so the cheap channel was never dead, only
-underpowered, the full sequence being in the git history. Confidence: the capacity results are
-replicated and controlled; the visibility crossover and the state reading are one bad test away
-each; the sim rows are sim-only.
+one-question-twice hedge from every leaked row above. The state reading now carries its induction control on the two
+ladders with the strongest manipulations: what the function words separate there is not
+explained by which specifications were drawn, the same license the ratio and the three revived
+features hold, with the first ladder's collapse reading most naturally as power at the weakest
+dose. What is still missing is the license to call it *affect* rather than *style*, and G29's
+first pass says both layers carry a little identity with no asymmetry, the performed layer
+plausibly riding era convention, so the which-layer question stays open in its fixed-era form.
+The channel's one process lesson stays woven in rather than appended: it was measured three
+times at sample sizes that could not see it before the powered re-run separated on all three
+ladders, so the cheap channel was never dead, only underpowered, the full sequence being in the
+git history. Confidence: the capacity results are replicated and controlled; the state reading
+under its control is replicated on two corpora and one bad test away as a set; the visibility
+crossover is one bad test away; the sim rows are sim-only.
 
 ## §4. Terminal organisation: layered, flattened, and non-invertible
 
