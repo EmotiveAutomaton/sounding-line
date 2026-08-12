@@ -3011,8 +3011,15 @@ what remains unspecified (data-order effects, their unstated seed, and the ambig
 which test set the published cell used). The recreation's contribution is therefore a
 correction to the literature rather than a matched number: the published 0.64 is not
 reachable from the released data under the authors' own code, and roughly 0.58 to 0.59 is
-what that pipeline produces. The RoBERTa arm, still training, is the replication of this
-claim.
+what that pipeline produces.
+
+**The replication landed (same day).** RoBERTa under the identical faithful protocol:
+weighted F1 **0.546**, against its printed 0.64, with mean per-class disagreement between the
+two architectures of 0.044. Both faithful arms land in the mid-to-high 0.5s, both far from
+the printed digit, and their three-point spread is the same architecture spread the leaky and
+small-split protocols showed. The claim replicates: this pipeline, run as published, produces
+0.55 to 0.58, and the paper's identical 0.64/0.64 pair is not a reachable outcome of the
+released materials. The ScholaWrite recreation row closes on that finding.
 
 ## L4 · Can weak effects be stacked into a detector?
 
