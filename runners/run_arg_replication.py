@@ -514,14 +514,16 @@ def main() -> None:
                 best["per_class_f1"] = {classes[i]: round(float(v), 3)
                                         for i, v in enumerate(pc)}
             res[arm] = best
+            tgt = TARGETS[task].get(arm, "no published target")
             print(f"  {task}/{arm}: F1 {best['f1']:.3f} acc {best['acc']:.3f} "
-                  f"(target {TARGETS[task][arm]})", flush=True)
+                  f"(target {tgt})", flush=True)
         return res
 
     run_tasks = [t.strip() for t in args.tasks.split(",") if t.strip() in TARGETS]
     out = {"n": len(events), "drop_raw": args.drop_raw, "tasks": run_tasks,
            "extract": args.extract, "grid": bool(args.grid),
            "balanced": bool(args.balanced), "diff_features": bool(args.diff_features),
+           "change_features": bool(args.change_features),
            "oversample": args.oversample, "targets": TARGETS, "results": {},
            "fine_majority_note": (
                "the printed fine Majority row (.05/.29) contradicts the paper's own "

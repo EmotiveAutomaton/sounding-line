@@ -2940,6 +2940,15 @@ point**. Forty-eight percent of these pairs have one empty side, so how much cha
 of the available signal. The distinguishing signature is structural: their arms rise
 monotonically (.90, .92, .93) while ours plateau and invert, embeddings never beating counts.
 
+**Confirmed in-house, same day.** The change block reimplemented in our own pipeline with a
+known-answer check (identical sentences give unit similarity and zero edits; an emptied
+sentence gives zero similarity and the right delete count) reproduces the effect: change
+features alone .892/.895, the features arm rising .883 to **.895 against their .90**, and the
+combined arm .896 against their .93. So their feature row is effectively reproduced and the
+embedding rows are not, in our hands as in the agent's. One defect of ours fired and was
+fixed in the same pass: the new arm has no published target and the reporting line assumed
+every arm had one, which crashed the first run after all four numbers had been computed.
+
 **Means, the model-structure record.** The irreducible unknown is upstream of everything we
 had been varying. Their pairs came from a sentence aligner named only in a **deleted line of
 the paper's own source** (a 2014 sentence-level alignment method, struck before publication),
