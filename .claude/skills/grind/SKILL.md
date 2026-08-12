@@ -24,6 +24,9 @@ landed. Late sessions skip steps; this list exists so they don't.
 - Then design a test that would prove, disprove, or provide evidence either way, and file it in
   `TODO.md` under an identifier, in the right phase. The studies' responses come back through
   this same loop.
+- **Before the design is filed, read the matching sections of `docs/method/LESSONS.md`** (and
+  `CONTROLS.md` if a control is involved). The lessons file exists so mistakes are made once;
+  a design that repeats a receipted mistake is a defect even if it would have worked.
 - If nothing was suggested, say so in the report ("no tests harvested this pass") so the step
   is visibly run, not silently skipped.
 
@@ -65,6 +68,8 @@ landed. Late sessions skip steps; this list exists so they don't.
 - Keep the queue 4-8 hours deep with produces-guarded stages; underestimate runtimes by 2-3×.
 - Phase order comes from the plan at the head of `TODO.md`; recreations pass only on exact
   published values.
+- **Before building or extending any runner, re-read `docs/method/LESSONS.md` §3 to §5**
+  (statistic, model arm, infra). New lessons land there in the same pass that earns them.
 
 ## 7. Close
 

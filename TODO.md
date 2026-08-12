@@ -219,7 +219,7 @@ a place where one of us must be wrong**, which is the useful kind of disagreemen
 | **G8 · the forced architecture** | If models do not have this structure, build one: low-level valence/arousal, mid-level affective primitives, high-level free-floating prediction | Literature first — this smells like existing work in affective computing and neurorobotics. **Review running** | search, then build |
 
 
-## From the Panksepp/Barrett review — `docs/theory/PANKSEPP_BARRETT.md`
+## From the Panksepp/Barrett review — now `docs/method/LITERATURE.md` §2 (original archived)
 
 | | the friction | the test | cost |
 |---|---|---|---|

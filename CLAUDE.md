@@ -197,6 +197,11 @@ report, not a result, and owes the READ-vs-SNIPPET sourcing standard.
 with rigour → cite it and move on; it does not exist → that is worth knowing explicitly. Record which
 in the test's own pre-registration.
 
+**Check the lessons before designing or building.** `docs/method/LESSONS.md` holds every receipted
+mistake and win, sectioned by trigger moment (adopting a gate, building an extractor, building a
+statistic, the model arm, infra). It exists so mistakes are made once; new lessons land there in
+the same pass that earns them. The method shelf's README maps each file to its reach-for moment.
+
 ## Hard rules
 
 - **Validate the ruler, not just the signal — run every measure on data whose answer you already

@@ -1,0 +1,30 @@
+{
+ "arm": "roberta",
+ "n_train": 49212,
+ "n_test": 12292,
+ "weighted_f1": 0.54577369267803,
+ "gate": 0.64,
+ "epochs": 10,
+ "split": "their split",
+ "faithful": true,
+ "per_class_f1": {
+  "Citation Integration": 0.331,
+  "Clarity": 0.5,
+  "Coherence": 0.223,
+  "Cross-reference": 0.288,
+  "Fluency": 0.143,
+  "Idea Generation": 0.745,
+  "Idea Organization": 0.386,
+  "Linguistic Style": 0.164,
+  "Macro Insertion": 0.743,
+  "Object Insertion": 0.638,
+  "Scientific Accuracy": 0.275,
+  "Section Planning": 0.416,
+  "Structural": 0.342,
+  "Text Production": 0.59,
+  "Visual Formatting": 0.646
+ },
+ "report_weighted_f1": 0.5458,
+ "paper_inconsistency_note": "the published 0.64 is unreachable from the paper's own v5 per-class table (~0.59 on test); the per-class profile is the sharper target",
+ "verdict": "NOT-MATCHED"
+}

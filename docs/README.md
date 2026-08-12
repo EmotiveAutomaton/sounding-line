@@ -9,7 +9,7 @@ context.
 |---|---|---|
 | [`theory/`](theory/) | **the hypothesis store**: five files, one question each (inference targets / architecture / decision traces / reader heuristics / alignment), format spec in its README | after a context loss, when a result needs a home, before any edit inside it |
 | [`TOOLS.md`](TOOLS.md) | installed libraries AND the built-here instrument ledger with validation states | before building an instrument, or when one misbehaves |
-| [`method/`](method/) | CONTROLS (what a control licenses), LEDGER, DEVIATIONS, NEURAL_ANALOGUES, literature reviews | designing a test, or doubting one |
+| [`method/`](method/) | **LESSONS (read before designing or building anything)**, CONTROLS, LITERATURE, DEVIATIONS, NEURAL_ANALOGUES; its README maps each file to its reach-for moment | designing a test, building a runner, doubting a control, claiming novelty |
 | [`gates/`](gates/) | gate 0–3 material, curation batches, calibration | archaeology on an old gate |
 | [`sim/`](sim/) | traffic with the Ghost Scale Simulation, both directions, newest first | anything about mechanism |
 | [`design/`](design/) | SUCCESSOR, QUEUE, ENGINEERING_LOOP, DWELL_CORPUS | deciding what to build |
