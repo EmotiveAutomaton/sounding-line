@@ -393,9 +393,18 @@
       "name": "arg_v4_balanced",
       "why": "G136 in-house confirmation: the subagent's run falsified balanced weighting (+0.01-0.02 only); this replicates that in our pipeline",
       "est_minutes": 45,
-      "status": "RUNNING",
-      "log": "results\\arg_v4_balanced.log"
+      "status": "DONE",
+      "log": "results\\arg_v4_balanced.log",
+      "minutes": 24.7
+    },
+    {
+      "name": "arg_v4_diff_binary",
+      "why": "G136 binary gate: the .93 target is live from the released data and the difference features are untried there; the last binary lever short of encoder archaeology",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "0/3"
+  "shard": "0/3",
+  "finished": "2026-08-11 17:04",
+  "failed": []
 }

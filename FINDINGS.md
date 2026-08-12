@@ -2901,11 +2901,12 @@ the feature-only arm they do not touch. Majority stays exact.*
 **Found.** The gap narrows to 1.7 points on features and 3.2 to 4.3 on the embedding arms.
 
 **Means.** Every in-corpus lever is now spent: composition exact, features theirs,
-hyperparameters theirs, the change stated explicitly. What remains between .887 and .93 has
-one named candidate left, the encoder version (their 2021-era USE against our current hub
-export), which the archaeology subagent is resolving; its answer either supplies a version
-pin to try or closes the binary row as encoder-version indeterminacy with the gap bounded at
-three to four points.
+hyperparameters theirs, the change stated explicitly. What remains between .887 and .93 had
+one named candidate left at the time of this entry, the encoder version (their 2021-era
+sentence encoder against our current export). **That candidate was then refuted rather than
+confirmed (L85): the two plausible checkpoints agree to a quarter point, so the gap is not
+encoder-version indeterminacy and must not be recorded as such.** The live account is
+upstream of the encoder entirely.
 
 ## L85 · The binary gap is not the encoder: two checkpoints agree, and nineteen string-diff features reach their Features row
 
