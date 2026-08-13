@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-12 11:41",
+  "started": "2026-08-12 17:35",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -457,30 +457,27 @@
       "name": "pd2_signed_fiction_qwen",
       "why": "the sign-funnel's decisive cell: does register-matched machine fiction still rise where human fiction falls?",
       "est_minutes": 20,
-      "status": "DEFERRED",
-      "missing": [
-        "results/features/machine_fiction_qwen_w80.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g80_fiction",
       "why": "G80's cleaner machine comparison: whole-document fiction, two generator families",
       "est_minutes": 10,
-      "status": "DONE",
-      "log": "results\\g80_fiction.log",
-      "minutes": 0.0
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "layercorr_nomaker2",
       "why": "the signal matrix the powered permutation test needs",
       "est_minutes": 60,
-      "status": "DEFERRED",
-      "missing": [
-        "corpora/nomaker2/COMPLETE.json"
-      ]
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "gen_fiction_r2",
+      "why": "the powered fiction round: 15 more pieces per family at fresh seeds",
+      "est_minutes": 220,
+      "status": "RUNNING",
+      "log": "results\\gen_fiction_r2.log"
     }
   ],
-  "shard": "0/3",
-  "finished": "2026-08-12 11:41",
-  "failed": []
+  "shard": "0/3"
 }

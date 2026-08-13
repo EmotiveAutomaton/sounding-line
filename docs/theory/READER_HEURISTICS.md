@@ -373,20 +373,23 @@ The reader's rules for exploiting the automatic traces (the trace ontology itsel
 | # | hypothesis | status |
 |---|---|---|
 | **G79** | The four-part admissibility filter, criterion 4 especially | **OPEN, the best single import.** Predicts where habit is switched off |
-| **G80** | Reserve versus overpaint, on text structure | **FIRST PASS LANDED (test, L92), ruler-gated.** Abandoned scaffolding is countable on one text, and machine long-form carries it at twice the human-draft rate (0.400 against 0.186 per document, p = 0.003); the books arm is inflated by excerpt truncation and stays uncompared. Regex counters, one machine corpus; the register-matched fiction corpus gives the second comparison |
+| **G80** | Reserve versus overpaint, on text structure | **DEFLATED BY ITS OWN SECOND COMPARISON (test, L92 then L98).** Abandoned scaffolding is countable and ruler-gated, and the first pass separated machine long-form from drafts at 2× (p = 0.003). The register-matched round then landed both fiction families at human-draft rates (0.267 and 0.077 against 0.186, p = 0.48 and 0.34), so the separation was carried by the specification-stacked prompt, and the instrument measures **unfulfilled prompt burden**, a real countable quantity but not provenance. The reserve/overpaint import needs a subtler observable |
+|   | | *(this row's history is a 2× machine separation on 08-12 morning, deflated by the register-matched arms the same evening)* |
 | **G81** | Self-revision is homogeneous, imposed change is lumpy | **SUPPORTED (test, L52), first pass, against the weakest adversary.** 66 authors, real revision dispersion 0.45 vs cross-author splice 1.94, separation perfect (AUC 1.0). The ceiling is the caveat, since a crude splice may be read as *different author* rather than *imposed change*; the realistic same-register imposition is the untested case |
 | **G82** | High internal consistency indicates *imitation*, not expertise | **OPEN.** May invert an assumption we hold |
 | **G83** | Adopt the graded attribution vocabulary | **OPEN** |
 | **G84** | Two channels: falsifiers veto, style proposes, never averaged | **OPEN, architectural.** Every historical catch came from a hard falsifier |
 
-**What the table says.** The concealment family now has two numbers. Real self-revision is
-measurably even-handed, against the crudest possible splice, so the mixed-provenance question
-stays open; and the reserve/overpaint cue is countable on one text, with machine long-form
-leaving abandoned scaffolding at twice the human-draft rate on its ruler-gated first pass.
+**What the table says.** The concealment family now has two numbers, one of which just taught
+the standard lesson. Real self-revision is measurably even-handed, against the crudest possible
+splice, so the mixed-provenance question stays open. The scaffolding cue is countable and its
+first-pass separation did not survive its own register-matched control: what it counts is
+unfulfilled prompt burden, which follows the instruction load, not the maker, and the
+reserve/overpaint idea goes back to needing an observable that structure alone cannot fake.
 The admissibility filter's fourth criterion remains the best-rated unrun import; it predicts
 where habit is switched *off*, which is information every other measure discards. Confidence:
-the homogeneity result and the scaffolding first pass are each one bad test away; everything
-else is untested.
+the homogeneity result is one bad test away; the scaffolding instrument is re-scoped with its
+provenance reading rejected on the matched arms; everything else is untested.
 
 ## §8. Communicative shaping: the bard
 

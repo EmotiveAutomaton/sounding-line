@@ -65,32 +65,41 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--models", default="qwen3.5:9b=machine_fiction_qwen,"
                                         "deepseek-r1:7b=machine_fiction_ds")
+    # expansion round (the near-significance policy): same premises at fresh seeds, pieces
+    # numbered after the first round's, so a marginal cell can be re-run at doubled n frozen
+    ap.add_argument("--round", type=int, default=0,
+                    help="0 = first round (seeds 8000+); N shifts piece numbers and seeds")
     args = ap.parse_args()
 
     from soundingline.gpulock import acquire_gpu_lock                 # noqa: PLC0415
     acquire_gpu_lock("gen_fiction")
 
+    off = args.round * len(PREMISES)
     manifest = []
     for spec in args.models.split(","):
         model, dirname = spec.split("=")
         out_dir = REPO / "corpora" / dirname
         out_dir.mkdir(parents=True, exist_ok=True)
         for i, premise in enumerate(PREMISES):
-            p = out_dir / f"piece_{i:02d}.txt"
+            n = i + off
+            p = out_dir / f"piece_{n:02d}.txt"
             if p.exists():
                 continue
-            txt = gen(model, premise, seed=8000 + i)
+            txt = gen(model, premise, seed=8000 + n)
             if txt is None:
-                txt = gen(model, premise, seed=8500 + i)
+                txt = gen(model, premise, seed=8500 + n)
             if txt is None:
-                print(f"  {model} piece {i}: failed twice, skipped", flush=True)
+                print(f"  {model} piece {n}: failed twice, skipped", flush=True)
                 continue
             p.write_text(txt, encoding="utf-8", newline="\n")
-            manifest.append({"model": model, "piece": i, "words": len(txt.split())})
-            print(f"  {model} piece {i}: {len(txt.split())} words", flush=True)
+            manifest.append({"model": model, "piece": n, "words": len(txt.split())})
+            print(f"  {model} piece {n}: {len(txt.split())} words", flush=True)
     out = REPO / "corpora" / "machine_fiction_manifest.json"
+    prev = json.loads(out.read_text(encoding="utf-8")) if out.exists() else []
+    have = {(m["model"], m["piece"]) for m in manifest}
+    manifest = [m for m in prev if (m["model"], m["piece"]) not in have] + manifest
     out.write_text(json.dumps(manifest, indent=1), encoding="utf-8", newline="\n")
-    print(f"wrote {out.relative_to(REPO)} ({len(manifest)} new pieces)")
+    print(f"wrote {out.relative_to(REPO)} ({len(manifest)} pieces total)")
 
 
 if __name__ == "__main__":

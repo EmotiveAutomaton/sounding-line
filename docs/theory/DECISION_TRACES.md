@@ -157,7 +157,7 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **SUPPORTED (test), first pass.** Human long-form variance 0.0102 vs machine 0.0065 at matched series length, *p* = 0.002, the flat-machine signature measured reader-side; register rides along uncontrolled |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
 | **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS AND NOW BY WINDOW (test, L74/L89), ruler-gated.** On books at the 80-word window the asymmetry is large (polish z 0.52 against 0.013, p = 1.3 × 10⁻⁵); at the 40-word window it does not transfer (p = 0.15); short essays flat at both. And the machine control reversed the interpretation, see PD-3 |
-| **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), window-robust.** The machine corpus shows the *largest* positional polish structure in the family, and in signed form it **rises** (+0.92, p = 3 × 10⁻⁶) where humans fall. Flatness is dead; what replaced it is a provenance-separating direction on the same instrument, a candidate discriminator owing the full funnel before belief |
+| **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), and the funnel's register-matched round split it by generator family (test, L97).** The home generator's output shows the largest positional polish structure in the family and **rises** in signed form on essays (+0.92) and on register-matched fiction (+1.03, p = 0.009), so the rise is not register. The second family's fiction is positionally quiet in magnitude and trends weakly *downward* (−0.28, p = 0.055 at n = 13), the human direction. Flatness is dead; the provenance discriminator is dead as a universal; what stands is a **generator-family fingerprint**, register-robust inside the family that carries it, artifact-side so no shared-representation caveat applies. The powered second round is queued on the marginal cell |
 | **PD-2** | Polish *decays* specifically, rather than merely moving | **SUPPORTED FOR HUMANS, AND THE DIRECTION DISSOCIATES BY PROVENANCE (test, L89/L90).** Essays decay at both windows (−0.17 and −0.14, p ≤ 4 × 10⁻⁶); books decay at the wide window only (−0.30, p = 0.012; null at 40); the machine corpus rises. The dissociation weakens the register-geography rival, which predicted a shared direction, and restores the reallocation account's essays evidence; the books' window-boundness keeps the long-form claim modest |
 | **PD-4** | Polish variance is larger in less practised makers | **OPEN** |
 | **PD-29** | Polish separates into attraction and translation | **OPEN, and everything in this section depends on it** |
@@ -165,25 +165,23 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
 | **PD-32** | Translation is denser where the maker expects a distant reader | **OPEN** |
 
-**What the table says.** The movement family ran its own separator and the accounts came
-apart by provenance. Human polish falls across position (essays at both windows; books only
-at the wide one) while machine polish rises strongly at both, so the simple register-geography
-rival, which predicted a shared direction, is weakened, and the reallocation account gets its
-essays evidence back with the books held modest. What fell out unplanned is a candidate
-discriminator, the sign of the polish trend separating human from machine long-form on one
-instrument, and it owes the full funnel (register-matched pairs, length control, a second
-generator) before anyone believes it, this project having buried ten cheap discriminators for
-less. The robust half of the section is still the maker signature: polish-side features carry
-the author at fixed topic on two corpora and two window sizes with no exceptions, and the
-reader's affective series still moves through human long-form and not machine text.
-Confidence: the essays decay is replicated across windows and one bad test away as a family;
-the machine rise and the books decay are each one bad test away, the books additionally
-window-bound; the discriminator reading is untested pending its funnel. The other clean positive stands apart. The reader's
-affective series moves through human long-form and stays comparatively flat through machine text.
-The rest is the simulation's 6.5× decay asymmetry plus unrun tests, with the
-attraction/translation split gating the lot. Confidence: the essay-boundness and movement results
-are each one bad test away; the movement claim itself is untested pending the order-sensitive or
-event-level design; the rest is untested or sim-only.
+**What the table says.** The movement family ran its own separator twice and the picture
+sharpened both times. Human polish falls across position (essays at both windows; books only at
+the wide one). Machine polish rises, and the register-matched round shows the rise is a
+generator-family fact: the home generator rises on essays and fiction alike, while the second
+family's fiction is quiet and trends weakly toward the human direction. So the sign of the
+polish trend is not a machine detector, it is a family fingerprint, register-robust where it
+exists, and the register-geography rival, which predicted one shared direction for everything,
+stays weakened. The reallocation account keeps its essays evidence, holds the books modestly,
+and gains nothing on machines, whose movement needs its own account entirely. The robust half of
+the section is still the maker signature: polish-side features carry the author at fixed topic
+on two corpora and two window sizes with no exceptions, and the reader's affective series still
+moves through human long-form and not machine text. The rest is the simulation's 6.5× decay
+asymmetry plus unrun tests, with the attraction/translation split gating the lot. Confidence:
+the essays decay is replicated across windows and one bad test away as a family; the home
+generator's rise is now two-register and one bad test away; the second family's quiet is one
+bad test away pending its powered round; the books decay stays window-bound; the essay-boundness
+results are one bad test away; the rest is untested or sim-only.
 
 ## §3. Automatic traces: leakage, concealment, and the channels that carry them
 

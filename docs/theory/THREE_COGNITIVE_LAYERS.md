@@ -358,7 +358,8 @@ under two readings, with the emotion vocabulary as the interface:
 |---|---|---|
 | **L1** | The ratio falls as specified constraint dose rises, register fixed by construction | **SUPPORTED (test, L22/L23), replicated, and stronger under the fair control.** All three ladders at −0.42 to −0.52, every *p* ≤ 0.0004; sign family-bound per G103; what dose measures is instruction count to one generator |
 | **B-1** | Affect directions exist in a reading model and are not word-counting | **SUPPORTED (test).** Four times chance while a word-counting model scored exactly chance |
-| **L12** | The per-block correlation transfers across architectures | **SUPPORTED (test, L12/L40).** 25 ladder runs, 18 survive; the re-adjudicated no-maker control fires at luck rates overall, and the home family's concentration went to a 2,000-permutation null that **could not distinguish leak from luck** (*p* = 0.095/0.089, relabelled 2026-08-09), so the concentration stands as an open liability on the home family's cells |
+| **L12** | The per-block correlation transfers across architectures | **SUPPORTED (test, L12/L40/L99), and the home family's liability resolves at power.** 25 ladder runs, 18 survive. The no-maker concentration that a 36-artifact permutation null could not adjudicate (p = 0.095/0.089) vanishes entirely at 108 artifacts under the identical rule — zero firing layers, zero survivor overlap — with the original seven fires explained as small-n noise under a fixed correlation threshold. The second family's no-maker arm sits inside its null the same way, so the control's cleanliness is not a shared-representation artifact. The survivor list keeps its layers without the asterisk |
+|   | | *(this row's history is an open liability from the 08-09 relabel, resolved by the powered rerun and the second-family arm on 08-12)* |
 | **L10 / L19** | Specification recovery: how much of the prompt survives, in bits | **REJECTED as recovery (test, L32/L36); it is a lexical-echo detector.** The graded curve kills it, +0.34 unrestricted, +0.04 at half-overlap, negative below; the no-maker control awards it wins where nothing is true (3/36, *p* = 0.006); the first-ladder strict arm lands *below* chance. The dose-tracking was real and belonged to the echo |
 | **L6** | The ratio moves the same direction for revision as for specification | **REJECTED (test).** It falls with specification and rises with revision (*p* = 0.053); if both are real, the instrument distinguishes being-told-more from revising |
 | **G115** | The reader's affective read shifts under a provenance frame alone | **SUPPORTED (test, L33/L37), replicated.** Identical text framed "by a person" vs "by an AI": ratio +0.007, magnitude down, every arm *p* < 2×10⁻⁸, three corpora. The reading machinery carries a provenance prior; the reader-side conclusion lives in `READER_HEURISTICS.md` §1 |
@@ -370,9 +371,12 @@ depths of the same reader on the same text**, where the big confounds cancel bef
 The recovery measure that briefly looked strongest is now honestly reclassified as an echo
 detector, which leaves the ratio family and the per-block map as the reader-side instruments, both
 replicated, both family-conditional in their specifics, and both measuring response to constraint
-dose within one generator until the program's construct tests say more. Confidence: the ratio and
-per-block results are replicated and controlled; the echo reclassification is days old, one bad
-test away by age, in the direction of further demotion.
+dose within one generator until the program's construct tests say more. The per-block map's one
+standing asterisk is gone: the no-maker concentration that could not be adjudicated at small n
+vanishes at three times the data, and it vanishes the same way on no-maker text the reader's own
+family never generated. Confidence: the ratio and per-block results are replicated and
+controlled; the echo reclassification is days old, one bad test away by age, in the direction of
+further demotion.
 
 # Part III: Consequences
 

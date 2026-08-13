@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-12 11:41",
+  "started": "2026-08-12 17:35",
   "stages": [
     {
       "name": "feature_visibility",
@@ -461,9 +461,25 @@
       "name": "nomaker_ds_gen",
       "why": "weakness 6 at last: the no-maker construction from a second generator family",
       "est_minutes": 260,
-      "status": "RUNNING",
-      "log": "results\\nomaker_ds_gen.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g107_powered",
+      "why": "L40 was UNDECIDED at 36 artifacts (p=.095/.089); the identical test at 108 with 5000 permutations, per the near-significance policy",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_fiction_ds_r2",
+      "why": "both-rounds cache, generator two",
+      "est_minutes": 40,
+      "status": "DEFERRED",
+      "missing": [
+        "corpora/machine_fiction_qwen/piece_29.txt"
+      ]
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-12 17:35",
+  "failed": []
 }

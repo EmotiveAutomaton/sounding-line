@@ -888,6 +888,44 @@ STAGES += [
             "with 5000 permutations, per the near-significance policy"},
 ]
 
+# ── SIGN-FUNNEL ROUND 2 (2026-08-12 evening, L97's near-significance): the deepseek signed
+# cell landed marginal in the HUMAN direction (-0.28, p=.055, n=13); the policy says double n
+# with everything frozen. Same premises, fresh seeds, both families for symmetry.
+STAGES += [
+    {"name": "gen_fiction_r2", "est": 220,
+     "cmd": [PY, "runners/run_gen_fiction.py", "--round", "1"],
+     # the qwen arm never drops pieces, so its last round-2 piece is the completion marker;
+     # deepseek retries ride along on later passes via per-piece skip-if-exists
+     "produces": "corpora/machine_fiction_qwen/piece_29.txt", "needs": [],
+     "why": "the powered fiction round: 15 more pieces per family at fresh seeds"},
+    {"name": "features_fiction_qwen_r2", "est": 40,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "machine_fiction_qwen",
+             "--window", "80", "--suffix", "_w80r2"],
+     "produces": "results/features/machine_fiction_qwen_w80r2.json",
+     "needs": ["corpora/machine_fiction_qwen/piece_29.txt"],
+     "why": "both-rounds cache, generator one"},
+    {"name": "features_fiction_ds_r2", "est": 40,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "machine_fiction_ds",
+             "--window", "80", "--suffix", "_w80r2"],
+     "produces": "results/features/machine_fiction_ds_w80r2.json",
+     "needs": ["corpora/machine_fiction_qwen/piece_29.txt"],
+     "why": "both-rounds cache, generator two"},
+    {"name": "pd2_signed_fiction_qwen_r2", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/machine_fiction_qwen_w80r2.json",
+             "--out", "results/positional_polish/pd2_signed_fiction_qwen_r2.json"],
+     "produces": "results/positional_polish/pd2_signed_fiction_qwen_r2.json",
+     "needs": ["results/features/machine_fiction_qwen_w80r2.json"],
+     "why": "the rise cell at doubled n, frozen"},
+    {"name": "pd2_signed_fiction_ds_r2", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/machine_fiction_ds_w80r2.json",
+             "--out", "results/positional_polish/pd2_signed_fiction_ds_r2.json"],
+     "produces": "results/positional_polish/pd2_signed_fiction_ds_r2.json",
+     "needs": ["results/features/machine_fiction_ds_w80r2.json"],
+     "why": "the decisive powered cell: does deepseek fiction DECAY like human text at n~28"},
+]
+
 
 
 def rel(p: str) -> Path:

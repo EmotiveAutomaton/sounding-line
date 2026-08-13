@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-12 11:41",
+  "started": "2026-08-12 17:35",
   "stages": [
     {
       "name": "revision_purpose",
@@ -449,9 +449,46 @@
       "name": "features_fiction_qwen",
       "why": "sign-funnel input, generator one",
       "est_minutes": 25,
-      "status": "RUNNING",
-      "log": "results\\features_fiction_qwen.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_ds",
+      "why": "the same cell under a second generator family, the shared-representation guard",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "nomaker2_gen",
+      "why": "L40 power: 72 more no-maker artifacts, frozen construction, fresh seeds",
+      "est_minutes": 200,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "layercorr_nomaker_ds",
+      "why": "the same reader over the second family's no-maker text \u2014 the shared-representation cell (weakness 6)",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_fiction_qwen_r2",
+      "why": "both-rounds cache, generator one",
+      "est_minutes": 40,
+      "status": "DEFERRED",
+      "missing": [
+        "corpora/machine_fiction_qwen/piece_29.txt"
+      ]
+    },
+    {
+      "name": "pd2_signed_fiction_ds_r2",
+      "why": "the decisive powered cell: does deepseek fiction DECAY like human text at n~28",
+      "est_minutes": 20,
+      "status": "DEFERRED",
+      "missing": [
+        "results/features/machine_fiction_ds_w80r2.json"
+      ]
     }
   ],
-  "shard": "1/3"
+  "shard": "1/3",
+  "finished": "2026-08-12 17:35",
+  "failed": []
 }
