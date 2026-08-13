@@ -3694,6 +3694,49 @@ a distillation onto the home family's own base architecture, so the flip tracks
 post-training, not the base — and the 2×2 that separates base from post-training is now
 queued (G146).
 
+## L102 · The PAN winner pinned at source: the printed target is unreachable by construction, the metric's prose is falsified by its own evaluator, and the reachable gates are the notebook's validation table
+
+**Hypothesis.** *(G147, opened at his ruling reinstating the PAN recreation.)* The 2024
+hard-split winner's system and exact numbers, recovered from primary sources, define what a
+faithful local recreation can and cannot hit.
+
+**Method.** Research subagent over READ sources: both task overview papers (2024, 2025), the
+winner's notebook and the runner-up's, the 2023 overview for a data ambiguity, the official
+evaluator's source code verbatim, and an adversarial released-code hunt across GitHub, lab
+pages, and archives.
+
+**Found.**
+1. **The metric's published prose is wrong about its own evaluator.** All three overview papers
+   describe per-document F1 macro-averaged over documents; the evaluator pools every decision
+   from every document into one flat list and takes two-class macro-F1, silently dropping any
+   document whose prediction length mismatches. The pooled reading is confirmed by six exact
+   back-calculations of published baselines from the implied change rates (both years, all
+   splits) — the fourth paper this phase whose printed methods contradict a checkable artifact.
+2. **The headline 0.863 is on the held-back TIRA test set** (15% of the data, never released),
+   so no local recreation can touch it. The notebook publishes its own validation table, and
+   that becomes the honest gate: single arms 0.8423 / 0.8567 / 0.8490 (roberta / deberta /
+   ernie), majority vote 0.8658.
+3. **The hard-split system is smaller than its reputation:** three base-size encoders,
+   consecutive-paragraph pairs at max length 256, lr 5e-5, dropout 0.25, ten epochs, effective
+   batch 60, two-of-three vote — and the LaBSE similarity stage applies to easy and medium
+   only, so the hard result needs none of it. Training data is PAN24 hard plus PAN23 hard
+   (4,200 documents each; a typo in the notebook resolved against the 2023 overview). Six
+   hyperparameters are unstated (optimizer, warmup, weight decay, schedule, seed, loss) and
+   are recorded as named assumptions in our runner.
+4. **No released code or weights exist for either year's winner**; the 2024 runner-up released
+   partial training code with no license. The winner's notebook also mis-states its own ranks
+   twice (team counts and easy-split rank), settled against the overview's table.
+5. A calibration fact from the runner-up's own tables: one plain deberta-base, fully
+   fine-tuned, scores 0.821 hard on the held-back test set — within 0.042 of the winning
+   ensemble — so the single-model reference point is strong and cheap.
+
+**Means.** The recreation is running with honest targets: four queued arms (three members plus
+the vote) against the validation gates, per-epoch validation recorded so the unstated
+checkpoint rule is measurable, our pooled-form scorer smoke-tested against the published
+predict-all-one baseline (0.313 local validation against 0.320 printed test). The metric
+correction is banked for LESSONS: an evaluator's source outranks its paper's prose, and the
+self-consistency check now includes back-calculating baselines from class priors.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

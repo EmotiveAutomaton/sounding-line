@@ -976,6 +976,31 @@ STAGES += [
      "why": "G146: does llama-base instruct RISE like the qwen-base instruct cell did"},
 ]
 
+# ── G147 2026-08-13: the PAN 2024 hard-split winner, recreated from its notebook paper at his
+# ruling. The printed 0.863 is on the held-back TIRA test set; the exact-value gates are the
+# notebook's own validation table (single arms .8423/.8567/.8490, majority vote .8658).
+STAGES += [
+    {"name": "pan_roberta_hard", "est": 120,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "roberta"],
+     "produces": "results/pan_winner/roberta_hard.json", "needs": [],
+     "why": "G147 member 1 of 3: roberta-base pair classifier, their published recipe"},
+    {"name": "pan_deberta_hard", "est": 120,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta"],
+     "produces": "results/pan_winner/deberta_hard.json", "needs": [],
+     "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate)"},
+    {"name": "pan_ernie_hard", "est": 120,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "ernie"],
+     "produces": "results/pan_winner/ernie_hard.json", "needs": [],
+     "why": "G147 member 3 of 3: ernie-2.0-base-en"},
+    {"name": "pan_vote_hard", "est": 5,
+     "cmd": [PY, "runners/run_pan_winner.py", "--vote"],
+     "produces": "results/pan_winner/vote_hard.json",
+     "needs": ["results/pan_winner/roberta_hard.json",
+               "results/pan_winner/deberta_hard.json",
+               "results/pan_winner/ernie_hard.json"],
+     "why": "G147 the system: 2-of-3 majority vote against the .8658 validation gate"},
+]
+
 
 
 def rel(p: str) -> Path:

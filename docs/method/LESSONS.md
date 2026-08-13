@@ -33,6 +33,15 @@ fold it; never append a contradiction.
 - **Expect the published protocol to include the paper's own bugs.** ScholaWrite's 0.64 was
   produced with a token-wrapper typo its senior author later confirmed; a faithful arm reproduces
   the bug, and "fixing" it silently is a deviation from the recreation. (L77, L86)
+- **An evaluator's source outranks its paper's prose, and baselines back-calculate.** All three
+  PAN overview papers describe per-document macro-averaging; the shipped evaluator pools every
+  decision and macro-averages over the two classes. Six published baseline cells back-calculated
+  exactly from the implied class priors under the pooled reading and falsified the prose. Before
+  gating on a benchmark number: read the evaluator's code, and check that predict-all-X baselines
+  reproduce from the class marginal under your reading of the metric. (L102)
+- **A held-back test set makes the printed headline unreachable by construction; the notebook's
+  own validation table is the honest gate.** Check which split a published number lives on before
+  adopting it — TIRA-style shared tasks never release theirs. (L102)
 - **When a number resists, try to reproduce it by breaking your pipeline the way you suspect
   theirs was broken.** The duplication probe (seeded pre-CV oversampling) turned an augmentation
   inference into a demonstration by reproducing the "impossible" majority row to the digit; its
