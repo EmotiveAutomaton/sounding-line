@@ -3737,6 +3737,44 @@ predict-all-one baseline (0.313 local validation against 0.320 printed test). Th
 correction is banked for LESSONS: an evaluator's source outranks its paper's prose, and the
 self-consistency check now includes back-calculating baselines from class priors.
 
+## L103 · The 2×2 lands: three of four machine cells rise, and the human-side decay is one model's exception, not a lineage law
+
+**Hypothesis.** *(G146.)* The sign flip between the first two generator families tracks either
+the base architecture or the post-training lineage; a 2×2 crossing base (qwen / llama) with
+post-training (instruct / reasoning-distill) separates them.
+
+**Method.** The two llama-base cells generated on the same fifteen premises, two rounds each
+(the llama-base reasoning cell is the R1 distillation onto llama-8B, the same post-training as
+the qwen-base reasoning cell; llama-instruct is llama3.1-8B), then the signed movement
+instrument, frozen, ruler gates passing.
+
+| cell (base × post-training) | n | polish signed z | Wilcoxon p | verdict |
+|---|---|---|---|---|
+| qwen × instruct | 30 | +1.01 | 0.007 | RISES |
+| qwen × reasoning-distill | 27 | **−0.20** | 0.044 | **DECAYS** |
+| llama × instruct | 23 | +0.82 | 3.8 × 10⁻⁵ | RISES |
+| llama × reasoning-distill | 30 | +0.32 | 0.0028 | RISES |
+
+*Caption: the completed cross. Human references: essays −0.17, books −0.30.*
+
+**Found.** Neither factor explains the flip. The same R1 distillation that decays on the qwen
+base rises on the llama base, and both instruct cells rise. Three of four machine cells rise;
+the human-direction decay is confined to exactly one model.
+
+**Means.** The G146 question sharpens rather than resolves: the decay is a property of one
+model (the qwen-7B R1 distill), an interaction or an idiosyncrasy, not a lineage law. Two
+consequences. The "machine polish rises" regularity is rehabilitated as a strong default —
+three of four cells, two bases, two post-trainings — with one named exception, which is a
+better shape for a characterization than a 2×2 main effect would have been, and a worse shape
+for any provenance use, which stays dead (the exception exists and generalization is
+unknowable per family). And the human-decay constraint on the reallocation account (L100)
+softens back: the one machine cell that decays is a single model, so machine decay is rare
+rather than generic, and the reallocation reading regains some of its footing. Window
+robustness for all four cells is queued (every cell so far is the 80-word window, the exact
+caveat the books result taught); the reader-side instrument's four-family arm is queued
+alongside. The adversarial lit check on positional structure under different post-trainings
+stays owed.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

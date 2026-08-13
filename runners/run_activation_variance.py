@@ -78,8 +78,11 @@ def main() -> None:
         return float(np.var(s))
 
     rows = []
-    machine_corpora = (("machine_fiction_qwen", "machine_fiction_ds") if args.fiction
-                       else ("ladder2", "ladder3", "nomaker"))
+    if args.fiction:
+        machine_corpora = tuple(sorted(
+            d.name for d in (REPO / "corpora").glob("machine_fiction_*") if d.is_dir()))
+    else:
+        machine_corpora = ("ladder2", "ladder3", "nomaker")
     for corpus in machine_corpora:
         d = REPO / "corpora" / corpus
         if args.fiction:
@@ -129,7 +132,7 @@ def main() -> None:
     hb = [r["variance"] for r in rows if r["group"] == "human_books"]
     if args.fiction:
         # the register-matched comparisons, one per generator family, L39's stated direction
-        for fam in ("machine_fiction_qwen", "machine_fiction_ds"):
+        for fam in machine_corpora:
             mv = [r["variance"] for r in rows if r["group"] == fam]
             if hb and mv:
                 u, p = stats.mannwhitneyu(hb, mv, alternative="greater")
@@ -143,9 +146,10 @@ def main() -> None:
                            else "NO-DIFFERENCE"}
         print(f"\n  >>> {out['verdicts']['register_matched']}")
         RESULTS.mkdir(parents=True, exist_ok=True)
-        (RESULTS / "summary_fiction.json").write_text(json.dumps(out, indent=2),
-                                                     encoding="utf-8", newline="\n")
-        print(f"wrote {(RESULTS / 'summary_fiction.json').relative_to(REPO)}")
+        name_out = f"summary_fiction{len(machine_corpora)}.json"
+        (RESULTS / name_out).write_text(json.dumps(out, indent=2),
+                                        encoding="utf-8", newline="\n")
+        print(f"wrote {(RESULTS / name_out).relative_to(REPO)}")
         return
     mach = [r["variance"] for r in rows if r["group"] in ("ladder2", "ladder3")]
     if hb and mach:

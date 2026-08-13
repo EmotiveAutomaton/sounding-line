@@ -1,0 +1,31 @@
+{
+ "arm": "roberta",
+ "checkpoint": "roberta-base",
+ "difficulty": "hard",
+ "macro_f1_final_epoch": 0.352203230359103,
+ "per_epoch_validation": [
+  0.352203230359103,
+  0.352203230359103,
+  0.352203230359103,
+  0.352203230359103,
+  0.352203230359103,
+  0.352203230359103,
+  0.352203230359103,
+  0.352203230359103,
+  0.352203230359103,
+  0.352203230359103
+ ],
+ "best_epoch_f1": 0.352203230359103,
+ "gate_validation": 0.8423,
+ "delta": -0.49009676964089705,
+ "n_train_pairs": 38109,
+ "n_pan23_problems": 4200,
+ "assumptions": "AdamW wd=0, no warmup, CE loss, CLS linear head, pair-encoded longest-first truncation, seed 42, final epoch",
+ "hypers": {
+  "lr": 5e-05,
+  "batch_effective": 60,
+  "epochs": 10,
+  "max_len": 256,
+  "dropout": 0.25
+ }
+}

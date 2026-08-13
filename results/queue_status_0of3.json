@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-13 05:24",
+  "started": "2026-08-13 16:50",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -487,8 +487,20 @@
       "name": "gen_fiction_g146",
       "why": "G146 round 0: fifteen chapters each from the llama-base cells of the 2x2",
       "est_minutes": 260,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_fiction_llama",
+      "why": "G146 cache: llama-base instruct cell",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_roberta_hard",
+      "why": "G147 member 1 of 3: roberta-base. Collapsed to constant predictions without warmup at their lr (archived _collapsed); 0.06 recorded as the divergence fix",
+      "est_minutes": 120,
       "status": "RUNNING",
-      "log": "results\\gen_fiction_g146.log"
+      "log": "results\\pan_roberta_hard.log"
     }
   ],
   "shard": "0/3"

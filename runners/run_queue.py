@@ -981,9 +981,10 @@ STAGES += [
 # notebook's own validation table (single arms .8423/.8567/.8490, majority vote .8658).
 STAGES += [
     {"name": "pan_roberta_hard", "est": 120,
-     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "roberta"],
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "roberta", "--warmup", "0.06"],
      "produces": "results/pan_winner/roberta_hard.json", "needs": [],
-     "why": "G147 member 1 of 3: roberta-base pair classifier, their published recipe"},
+     "why": "G147 member 1 of 3: roberta-base. Collapsed to constant predictions without "
+            "warmup at their lr (archived _collapsed); 0.06 recorded as the divergence fix"},
     {"name": "pan_deberta_hard", "est": 120,
      "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta"],
      "produces": "results/pan_winner/deberta_hard.json", "needs": [],
@@ -999,6 +1000,51 @@ STAGES += [
                "results/pan_winner/deberta_hard.json",
                "results/pan_winner/ernie_hard.json"],
      "why": "G147 the system: 2-of-3 majority vote against the .8658 validation gate"},
+]
+
+# ── 24H RESTOCK 2026-08-13 evening: the missed-test audit's catches and the completion arms.
+# The window lesson (LESSONS §3) demands the 40-word window for every fiction movement cell;
+# the reader-side and scaffolding arms extend to all four generator families.
+for _fam in ("qwen", "ds", "r1l8", "llama"):
+    STAGES += [
+        {"name": f"features_fiction_{_fam}_w40", "est": 30,
+         "cmd": [PY, "runners/build_features.py", "--corpora", f"machine_fiction_{_fam}",
+                 "--window", "40", "--suffix", "_w40"],
+         "produces": f"results/features/machine_fiction_{_fam}_w40.json",
+         "needs": [],
+         "why": f"window-robustness cache, {_fam} family (the w80-only caveat)"},
+        {"name": f"pd2_signed_fiction_{_fam}_w40", "est": 15,
+         "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+                 "--cache", f"results/features/machine_fiction_{_fam}_w40.json",
+                 "--out", f"results/positional_polish/pd2_signed_fiction_{_fam}_w40.json"],
+         "produces": f"results/positional_polish/pd2_signed_fiction_{_fam}_w40.json",
+         "needs": [f"results/features/machine_fiction_{_fam}_w40.json"],
+         "why": f"the {_fam} sign cell at the second window; claim nothing from one window"},
+    ]
+STAGES += [
+    {"name": "pd34_fiction_r1l8", "est": 15,
+     "cmd": [PY, "runners/run_pd34_movement.py",
+             "--cache", "results/features/machine_fiction_r1l8_w80.json",
+             "--out", "results/positional_polish/pd34_fiction_r1l8.json"],
+     "produces": "results/positional_polish/pd34_fiction_r1l8.json",
+     "needs": ["results/features/machine_fiction_r1l8_w80.json"],
+     "why": "unsigned magnitude cell for the llama-base reasoning family"},
+    {"name": "pd34_fiction_llama", "est": 15,
+     "cmd": [PY, "runners/run_pd34_movement.py",
+             "--cache", "results/features/machine_fiction_llama_w80.json",
+             "--out", "results/positional_polish/pd34_fiction_llama.json"],
+     "produces": "results/positional_polish/pd34_fiction_llama.json",
+     "needs": ["results/features/machine_fiction_llama_w80.json"],
+     "why": "unsigned magnitude cell for the llama-base instruct family"},
+    {"name": "activation_variance_fiction4", "est": 75,
+     "cmd": [PY, "runners/run_activation_variance.py", "--fiction"],
+     "produces": "results/activation_variance/summary_fiction4.json", "needs": [],
+     "why": "the reader-side cell for all four generator families; completes the 2x2 on the "
+            "second instrument"},
+    {"name": "g80_fiction4", "est": 12,
+     "cmd": [PY, "runners/run_g80_scaffolding.py", "--fiction"],
+     "produces": "results/g80_scaffolding/summary_fiction4.json", "needs": [],
+     "why": "prompt-burden rates for the two new families, extending L98"},
 ]
 
 

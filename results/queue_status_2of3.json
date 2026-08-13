@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-13 05:23",
+  "started": "2026-08-13 16:50",
   "stages": [
     {
       "name": "feature_visibility",
@@ -480,9 +480,41 @@
       "why": "L39's owed register-matched arm: does the reader's affective series still move more through books than through machine FICTION, per generator family",
       "est_minutes": 45,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_fiction_r1l8",
+      "why": "G146 cache: llama-base reasoning cell",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_llama",
+      "why": "G146: does llama-base instruct RISE like the qwen-base instruct cell did",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_ernie_hard",
+      "why": "G147 member 3 of 3: ernie-2.0-base-en",
+      "est_minutes": 120,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_qwen_w40",
+      "why": "the qwen sign cell at the second window; claim nothing from one window",
+      "est_minutes": 15,
+      "status": "DEFERRED",
+      "missing": [
+        "results/features/machine_fiction_qwen_w40.json"
+      ]
+    },
+    {
+      "name": "features_fiction_r1l8_w40",
+      "why": "window-robustness cache, r1l8 family (the w80-only caveat)",
+      "est_minutes": 30,
+      "status": "RUNNING",
+      "log": "results\\features_fiction_r1l8_w40.log"
     }
   ],
-  "shard": "2/3",
-  "finished": "2026-08-13 05:23",
-  "failed": []
+  "shard": "2/3"
 }

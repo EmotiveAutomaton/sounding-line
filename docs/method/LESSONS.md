@@ -162,6 +162,11 @@ fold it; never append a contradiction.
   (it matches memory columns); query the process list structurally. (the waiter bug, 08-10)
 - **Long jobs run in the background and wake the agent**; results are written through the same
   message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)
+- **A deadline exit with no successor idles the machine silently.** Second gear stopped at its
+  deadline mid-morning and nothing relaunched it; seven hours of a prescribed 24-hour window
+  burned before the evening check noticed. Size the deadline to the curator's stated window at
+  launch, and treat "the engine exited" as a wake-and-decide event, never as background noise.
+  (2026-08-13; the launcher's exit notification is the wake signal)
 - **The orphan sweep kills what no live loop owns — including legitimate standalone arms.** A
   training launched outside the queue dies at the next engine relaunch and, if a waiter restarts
   it, loops from epoch zero forever; the failure is invisible until someone asks for an ETA. A

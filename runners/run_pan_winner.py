@@ -93,6 +93,10 @@ def main() -> None:
     ap.add_argument("--max-len", type=int, default=256)
     ap.add_argument("--lr", type=float, default=5e-5)
     ap.add_argument("--dropout", type=float, default=0.25)
+    ap.add_argument("--warmup", type=float, default=0.0,
+                    help="linear warmup ratio. Unstated by the paper; roberta-base collapsed "
+                         "to constant predictions without it at their lr, so its arm runs 0.06 "
+                         "as a recorded divergence-fix assumption")
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--no-2023", action="store_true",
                     help="drop the PAN23 augmentation (the paper uses it for medium+hard)")
@@ -156,12 +160,8 @@ def main() -> None:
     name = ENCODERS[args.encoder]
     acquire_gpu_lock(f"pan_{args.encoder}")
     tok = AutoTokenizer.from_pretrained(name)
-    model = AutoModelForSequenceClassification.from_pretrained(
-        name, num_labels=2, classifier_dropout=None)
+    model = AutoModelForSequenceClassification.from_pretrained(name, num_labels=2)
     # the stated dropout, applied where the architecture exposes it
-    for attr in ("classifier_dropout", "hidden_dropout_prob", "cls_dropout"):
-        if hasattr(model.config, attr) and getattr(model.config, attr) is not None:
-            pass
     if hasattr(model, "dropout") and isinstance(model.dropout, torch.nn.Dropout):
         model.dropout.p = args.dropout
     dev = "cuda" if torch.cuda.is_available() else "cpu"
@@ -187,6 +187,11 @@ def main() -> None:
     dl = DataLoader(Pairs(pairs), batch_size=args.batch, shuffle=True,
                     collate_fn=collate, num_workers=0)
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=0.0)
+    sched = None
+    if args.warmup > 0:
+        from transformers import get_linear_schedule_with_warmup      # noqa: PLC0415
+        total = (len(dl) // args.accum + 1) * args.epochs
+        sched = get_linear_schedule_with_warmup(opt, int(total * args.warmup), total)
     scaler = torch.amp.GradScaler("cuda", enabled=dev == "cuda")
 
     def predict_validation() -> dict[str, list[int]]:
@@ -221,6 +226,8 @@ def main() -> None:
             if (bi + 1) % args.accum == 0:
                 scaler.step(opt)
                 scaler.update()
+                if sched is not None:
+                    sched.step()
                 opt.zero_grad()
             if bi % 100 == 0:
                 print(f"epoch {ep} batch {bi} loss {loss.item():.3f}", flush=True)
@@ -238,11 +245,11 @@ def main() -> None:
            "macro_f1_final_epoch": f1, "per_epoch_validation": history,
            "best_epoch_f1": max(history), "gate_validation": gate, "delta": f1 - gate,
            "n_train_pairs": len(pairs), "n_pan23_problems": n23,
-           "assumptions": "AdamW wd=0, no warmup, CE loss, CLS linear head, "
+           "assumptions": f"AdamW wd=0, warmup {args.warmup}, CE loss, CLS linear head, "
                           "pair-encoded longest-first truncation, seed 42, final epoch",
            "hypers": {"lr": args.lr, "batch_effective": args.batch * args.accum,
                       "epochs": args.epochs, "max_len": args.max_len,
-                      "dropout": args.dropout}}
+                      "dropout": args.dropout, "warmup": args.warmup}}
     (RESULTS / f"{args.encoder}_{args.difficulty}.json").write_text(
         json.dumps(out, indent=1), encoding="utf-8", newline="\n")
     print(f"\n{args.encoder} {args.difficulty}: final {f1:.4f} vs gate {gate} "

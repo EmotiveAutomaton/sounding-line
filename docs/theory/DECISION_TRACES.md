@@ -158,7 +158,7 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 |   | | *(this row's history is a first-pass human-moves on 08-09, deflated by the register-matched fiction arm on 08-13)* |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
 | **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS AND NOW BY WINDOW (test, L74/L89), ruler-gated.** On books at the 80-word window the asymmetry is large (polish z 0.52 against 0.013, p = 1.3 × 10⁻⁵); at the 40-word window it does not transfer (p = 0.15); short essays flat at both. And the machine control reversed the interpretation, see PD-3 |
-| **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), split by generator family at the register-matched round (test, L97), and the split CONFIRMED AT POWER with the second family landing on the human side (test, L100).** The home generator rises on essays (+0.92) and fiction (+1.01 at n = 30, p = 0.007), so the rise is neither register nor noise. The second family's fiction **decays** at power (−0.20 at n = 27, p = 0.044), at human-comparable magnitude, between the essays' and books' values. Flatness is dead; the provenance sign is dead conclusively, since one machine family falls where humans fall; what stands is a **generator-family fingerprint** whose training-lineage mechanism is the filed follow-up (G146). Artifact-side, so no shared-representation caveat applies |
+| **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), split by family at power (test, L97/L100), and the 2×2 resolves the split into one model's exception (test, L103).** Three of four base × post-training cells RISE (qwen-instruct +1.01, llama-instruct +0.82, llama-reasoning +0.32, every p ≤ 0.007); the human-direction decay belongs to exactly one model (the qwen-7B reasoning distill, −0.20, p = 0.044), and the same distillation on the llama base rises. Flatness is dead; rising polish is the strong machine default with one named exception; provenance use stays dead because the exception exists. Artifact-side, no shared-representation caveat. Window robustness for all four cells queued |
 | **PD-2** | Polish *decays* specifically, rather than merely moving | **SUPPORTED FOR HUMANS, AND THE DIRECTION DISSOCIATES BY PROVENANCE (test, L89/L90).** Essays decay at both windows (−0.17 and −0.14, p ≤ 4 × 10⁻⁶); books decay at the wide window only (−0.30, p = 0.012; null at 40); the machine corpus rises. The dissociation weakens the register-geography rival, which predicted a shared direction, and restores the reallocation account's essays evidence; the books' window-boundness keeps the long-form claim modest |
 | **PD-4** | Polish variance is larger in less practised makers | **OPEN** |
 | **PD-29** | Polish separates into attraction and translation | **OPEN, and everything in this section depends on it** |
@@ -166,17 +166,18 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
 | **PD-32** | Translation is denser where the maker expects a distant reader | **OPEN** |
 
-**What the table says.** The movement family ran its separator to the end and the answer is
-stranger than either account expected. Human polish falls across position (essays at both
-windows; books only at the wide one). Machine polish has no single direction at all: the home
-generator rises on essays and fiction alike at doubled n, and the second family's fiction
-falls, significantly, at human-comparable magnitude. So the sign of the polish trend is a
-generator-family fingerprint, worthless for provenance and sharp as characterization, and the
-register-geography rival stays weakened since register never set the direction anywhere. The
-reallocation account keeps its human evidence but inherits a hard constraint: a model with no
-attention to reallocate now shows the same decay humans show, so decay alone cannot certify
-reallocation, and the mechanism question moves to what training lineage does to positional
-structure (G146). The robust half of the section is still the maker signature: polish-side
+**What the table says.** The movement family ran its separator to the end and then completed
+the cross, and the picture settled into a strong default with one exception. Human polish falls
+across position (essays at both windows; books only at the wide one). Machine polish rises in
+three of four base × post-training cells, across two bases, two post-trainings, and two
+registers, so rising polish is the machine default; the single decaying cell is one model, the
+qwen-7B reasoning distill, whose sibling distillation on another base rises. Provenance use of
+the sign stays dead because the exception exists and nothing predicts where the next one
+lands. The register-geography rival stays weakened since register never set the direction
+anywhere. The reallocation account keeps its human evidence and recovers some footing: machine
+decay is rare rather than generic, so human decay carrying reallocation is again tenable,
+though undemonstrated, and the mechanism question narrows to what makes that one model
+different (G146). The robust half of the section is still the maker signature: polish-side
 features carry the author at fixed topic on two corpora and two window sizes with no
 exceptions. The reader-side variance claim joined the artifact-side sign in deflating to a
 family fact at its register-matched arm: the home generator's fiction moves like books through

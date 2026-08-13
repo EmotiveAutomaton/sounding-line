@@ -93,10 +93,11 @@ def main() -> None:
                              for p in sorted((REPO / "corpora" / "public" / "argrewrite"
                                               / "essays" / "Draft1").glob("*.txt"))]
     if args.fiction:
-        for tag in ("qwen", "ds"):
-            texts[f"fiction_{tag}"] = [
-                p.read_text(encoding="utf-8", errors="replace")
-                for p in sorted((REPO / "corpora" / f"machine_fiction_{tag}").glob("*.txt"))]
+        for d in sorted((REPO / "corpora").glob("machine_fiction_*")):
+            if d.is_dir():
+                texts[d.name.replace("machine_", "")] = [
+                    p.read_text(encoding="utf-8", errors="replace")
+                    for p in sorted(d.glob("*.txt"))]
         texts["machine"] = [p.read_text(encoding="utf-8", errors="replace")
                             for p in sorted((REPO / "corpora" / "ladder3").glob("*.txt"))]
     else:
@@ -127,7 +128,8 @@ def main() -> None:
         print(f"human-vs-{name} p {u.pvalue:.3g}")
     out["verdict"] = "INSTRUMENT-FIRST-PASS" if not args.fiction else "FICTION-ARM"
     OUT.mkdir(parents=True, exist_ok=True)
-    name_out = "summary_fiction.json" if args.fiction else "summary.json"
+    n_fic = sum(1 for k in texts if k.startswith("fiction_"))
+    name_out = f"summary_fiction{n_fic}.json" if args.fiction else "summary.json"
     (OUT / name_out).write_text(json.dumps(out, indent=1), encoding="utf-8",
                                 newline="\n")
     print(f"wrote {(OUT / name_out).relative_to(REPO)}")
