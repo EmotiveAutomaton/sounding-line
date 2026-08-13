@@ -118,6 +118,8 @@ TESTS = [
     ("L99 G107 second-family count",      1.650e-01, "primary", "results/audit/nomaker_permutation_ds.json"),
     ("L100 fiction qwen r2 wilcoxon",     7.020e-03, "primary", "results/positional_polish/pd2_signed_fiction_qwen_r2.json"),
     ("L100 fiction ds r2 wilcoxon",       4.447e-02, "primary", "results/positional_polish/pd2_signed_fiction_ds_r2.json"),
+    ("L101 books vs fiction qwen",        5.560e-01, "primary", "results/activation_variance/summary_fiction.json"),
+    ("L101 books vs fiction ds",          2.740e-04, "primary", "results/activation_variance/summary_fiction.json"),
     ("L44v2 pooling max arm",             2.900e-03, "primary", "results/pooling_falsifier/Qwen2.5-1.5B_v2.json"),
     ("L44v2 pooling last-token arm",      2.820e-01, "primary", "results/pooling_falsifier/Qwen2.5-1.5B_v2.json"),
     ("L24 biber_CONT fair, ladder",       1.700e-03, "primary", "results/fair_features/summary.json"),

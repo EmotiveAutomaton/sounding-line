@@ -3657,6 +3657,43 @@ inherits a constraint it did not ask for: whatever produces decay in the second 
 output has no attention and no fatigue, so decay alone cannot carry the reallocation reading
 without a design that separates the mechanisms.
 
+## L101 · The reader-side variance signature splits by family too — and its provenance reading deflates to register plus family
+
+**Hypothesis.** *(L39's owed register-matched arm.)* The reader's affective series moves more
+within human long-form than machine text (books 0.0102 against ladder text 0.0065, L39), with
+register uncontrolled. Register-matched: does the reader's series still sit flat on machine
+*fiction*?
+
+**Method.** The same instrument (early/late ratio per 200-word window as a positional series,
+variance at matched series length), books against the two fiction corpora, per generator
+family, one-sided in L39's direction.
+
+| comparison | books median | fiction median | n | p |
+|---|---|---|---|---|
+| books vs home-generator fiction | 0.0102 | **0.0117** | 34 / 30 | 0.56 |
+| books vs second-family fiction | 0.0102 | **0.0045** | 34 / 23 | 0.0003 |
+
+*Caption: within-artifact variance of the reader's affective series. The home generator's
+fiction moves as much as the books do; the second family's sits flat below everything. One
+honesty note: the runner's pre-set verdict string keyed on any cell reaching significance and
+printed HUMAN-MOVES; the finding is the split, and the label under-describes it.*
+
+**Found.** Register-matched, the home generator's fiction is as dynamically mobile as human
+books — the original flat-machine reading was carried by comparing books against essay-register
+ladder text. The second family is genuinely flat even at matched register.
+
+**Means.** L39's provenance reading deflates the same way the artifact-side sign did: what
+looked like human-versus-machine was register plus generator family. And the convergence is
+now the result: **two independent instruments — the artifact-side polish trend and the
+reader-side affective series — split identically by family**, the home generator mobile on
+both, the second family quiet on both, humans mobile-and-decaying. Whatever G146's mechanism
+turns out to be, it moves both the text's surface statistics and a reader model's internal
+trajectory together, which is what a real generation-dynamics difference should do. The
+sharpened base-versus-post-training fact belongs here too: the second family's local build is
+a distillation onto the home family's own base architecture, so the flip tracks
+post-training, not the base — and the 2×2 that separates base from post-training is now
+queued (G146).
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

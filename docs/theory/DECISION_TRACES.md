@@ -154,7 +154,8 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **VOID as operationalised (test, L53/L55), with the route closed in principle.** The first valid pass ran inverted; the matched null then showed the inversion was per-window sampling noise, and the algebra shows dispersion statistics cannot measure movement at all, since variance is order-invariant and the shuffle ratio cannot exceed one for any data. A movement claim needs an order-sensitive statistic or the program's event level. Not a negative result about the claim; the instrument class was wrong for the question |
 |   | | *(instrument history: v1 scored zero essays on a mis-sized cache and verdicted anyway; v2's z-scored variance was 1 by construction; v3 gated and ran inverted; v3b's matched null exposed the in-principle void and one of its own verdict branches as unreachable)* |
 | **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic, and the boundness follows the author | **SUPPORTED (test), decomposed (L55, L57), replicated on books (L71) and across window sizes (L89).** Between-essay share 20% against 8%, and the decomposition lands MAKER: author shares 0.262 against 0.174 (p = 6 × 10⁻⁷) while draft-within-author shares are small and identical (0.04 apiece, p = 0.98). Polish-side variation carries *who*, on 86 authors at fixed topic; draft stage carries almost nothing on either side. On the 10-author book corpus the polish side carries three times the depth side's author-bound share (p = 3 × 10⁻⁷ at the 80-word window, p = 4 × 10⁻⁶ at the 40-word), with author and topic confounded there by construction, so only the contrast transfers. Two corpora, two window sizes, no exceptions |
-| **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **SUPPORTED (test), first pass.** Human long-form variance 0.0102 vs machine 0.0065 at matched series length, *p* = 0.002, the flat-machine signature measured reader-side; register rides along uncontrolled |
+| **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **DEFLATED TO REGISTER PLUS FAMILY at the register-matched arm (test, L39 then L101).** The first pass separated books from ladder text (0.0102 vs 0.0065, p = 0.002) with register uncontrolled; register-matched, the home generator's fiction moves as much as the books (0.0117, p = 0.56) while the second family sits flat below everything (0.0045, p = 0.0003). The provenance reading is dead; the instrument reads generation dynamics that split by family, in lockstep with the artifact-side sign (L100), which is the surviving and sharper fact |
+|   | | *(this row's history is a first-pass human-moves on 08-09, deflated by the register-matched fiction arm on 08-13)* |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
 | **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS AND NOW BY WINDOW (test, L74/L89), ruler-gated.** On books at the 80-word window the asymmetry is large (polish z 0.52 against 0.013, p = 1.3 × 10⁻⁵); at the 40-word window it does not transfer (p = 0.15); short essays flat at both. And the machine control reversed the interpretation, see PD-3 |
 | **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), split by generator family at the register-matched round (test, L97), and the split CONFIRMED AT POWER with the second family landing on the human side (test, L100).** The home generator rises on essays (+0.92) and fiction (+1.01 at n = 30, p = 0.007), so the rise is neither register nor noise. The second family's fiction **decays** at power (−0.20 at n = 27, p = 0.044), at human-comparable magnitude, between the essays' and books' values. Flatness is dead; the provenance sign is dead conclusively, since one machine family falls where humans fall; what stands is a **generator-family fingerprint** whose training-lineage mechanism is the filed follow-up (G146). Artifact-side, so no shared-representation caveat applies |
@@ -177,13 +178,15 @@ attention to reallocate now shows the same decay humans show, so decay alone can
 reallocation, and the mechanism question moves to what training lineage does to positional
 structure (G146). The robust half of the section is still the maker signature: polish-side
 features carry the author at fixed topic on two corpora and two window sizes with no
-exceptions, and the reader's affective series still moves through human long-form and not
-machine text, with its register-matched arm now running. The rest is the simulation's 6.5×
-decay asymmetry plus unrun tests, with the attraction/translation split gating the lot.
-Confidence: the essays decay and both family cells are replicated at doubled n and one bad
-test away as a set; the books decay stays window-bound; the essay-boundness results are one
-bad test away; the reallocation reading is contested by its own control; the rest is untested
-or sim-only.
+exceptions. The reader-side variance claim joined the artifact-side sign in deflating to a
+family fact at its register-matched arm: the home generator's fiction moves like books through
+the reader while the second family sits flat, so both instruments now split identically by
+generator family and neither reads provenance. The rest is the simulation's 6.5× decay
+asymmetry plus unrun tests, with the attraction/translation split gating the lot. Confidence:
+the essays decay and both family cells are replicated at doubled n and one bad test away as a
+set; the books decay stays window-bound; the essay-boundness results are one bad test away;
+the reallocation reading is contested by its own control; the family-split convergence across
+the two instruments is one bad test away; the rest is untested or sim-only.
 
 ## §3. Automatic traces: leakage, concealment, and the channels that carry them
 

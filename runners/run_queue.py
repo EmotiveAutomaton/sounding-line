@@ -932,6 +932,50 @@ STAGES += [
             "more through books than through machine FICTION, per generator family"},
 ]
 
+# ── G146 2026-08-13: the 2x2 that separates base from post-training. The local second family
+# is a distillation onto the home family's own base, so the sign flip (L100/L101) tracks
+# post-training; the cross needs llama-base cells in both lineages: deepseek-r1:latest is the
+# llama-8B reasoning distill (installed), llama3.1:8b the llama instruct (pulled 08-13).
+G146_MODELS = ("deepseek-r1:latest=machine_fiction_r1l8,"
+               "llama3.1:8b=machine_fiction_llama")
+STAGES += [
+    {"name": "gen_fiction_g146", "est": 260,
+     "cmd": [PY, "runners/run_gen_fiction.py", "--models", G146_MODELS],
+     "produces": "corpora/machine_fiction_llama/piece_14.txt", "needs": [],
+     "why": "G146 round 0: fifteen chapters each from the llama-base cells of the 2x2"},
+    {"name": "gen_fiction_g146_r2", "est": 260,
+     "cmd": [PY, "runners/run_gen_fiction.py", "--models", G146_MODELS, "--round", "1"],
+     "produces": "corpora/machine_fiction_llama/piece_29.txt",
+     "needs": ["corpora/machine_fiction_llama/piece_14.txt"],
+     "why": "G146 round 1: the powered n per cell, matching the first two families"},
+    {"name": "features_fiction_r1l8", "est": 40,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "machine_fiction_r1l8",
+             "--window", "80", "--suffix", "_w80"],
+     "produces": "results/features/machine_fiction_r1l8_w80.json",
+     "needs": ["corpora/machine_fiction_llama/piece_29.txt"],
+     "why": "G146 cache: llama-base reasoning cell"},
+    {"name": "features_fiction_llama", "est": 40,
+     "cmd": [PY, "runners/build_features.py", "--corpora", "machine_fiction_llama",
+             "--window", "80", "--suffix", "_w80"],
+     "produces": "results/features/machine_fiction_llama_w80.json",
+     "needs": ["corpora/machine_fiction_llama/piece_29.txt"],
+     "why": "G146 cache: llama-base instruct cell"},
+    {"name": "pd2_signed_fiction_r1l8", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/machine_fiction_r1l8_w80.json",
+             "--out", "results/positional_polish/pd2_signed_fiction_r1l8.json"],
+     "produces": "results/positional_polish/pd2_signed_fiction_r1l8.json",
+     "needs": ["results/features/machine_fiction_r1l8_w80.json"],
+     "why": "G146: does llama-base reasoning DECAY like the qwen-base reasoning cell did"},
+    {"name": "pd2_signed_fiction_llama", "est": 20,
+     "cmd": [PY, "runners/run_pd34_movement.py", "--signed",
+             "--cache", "results/features/machine_fiction_llama_w80.json",
+             "--out", "results/positional_polish/pd2_signed_fiction_llama.json"],
+     "produces": "results/positional_polish/pd2_signed_fiction_llama.json",
+     "needs": ["results/features/machine_fiction_llama_w80.json"],
+     "why": "G146: does llama-base instruct RISE like the qwen-base instruct cell did"},
+]
+
 
 
 def rel(p: str) -> Path:
