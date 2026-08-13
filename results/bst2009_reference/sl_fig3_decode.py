@@ -89,18 +89,25 @@ if DUMP:
 
 # ── full decode ──────────────────────────────────────────────────────────────────────────────
 # Lattice, calibrated from anchors verified in the dump: within a panel, A sits at cell (16,0),
-# B at (16,8), the wall at column 8, the start 'x' at (0,8). Panel rows repeat at 54.83pt.
-PANEL_H = 54.83
-ROW0_Y = 58.51                      # y of row-0 anchors (goal letters' centers)
+# B at (16,8), the wall at column 8, the start 'x' at (0,8). Row origins are EMPIRICAL: the
+# figure inserts extra spacing between its three path groups, so each panel row's y comes from
+# its own 'A' goal glyph in panel column 0 rather than a fixed pitch.
 XPITCH = 4.60
 YPITCH = 5.50
 X16 = 181.88                        # x of the A/B column (cell 16) in panel column 0
 GRID_W, GRID_H = 17, 9
 
-n_rows = 9
+a_ys = sorted(c["y"] for c in chars
+              if c["c"] == "A" and abs(c["x"] - X16) < 3)
+row_origins = []
+for y in a_ys:
+    if not row_origins or y - row_origins[-1] > 20:
+        row_origins.append(y)
+print(f"empirical panel-row origins from 'A' anchors: "
+      f"{[round(y, 1) for y in row_origins]} ({len(row_origins)} rows)")
+
 panels = []
-for ri in range(n_rows):
-    py0 = ROW0_Y + ri * PANEL_H
+for ri, py0 in enumerate(row_origins):
     for ci in range(len(col_left)):
         xoff = col_left[ci] - col_left[0]
 
@@ -128,11 +135,13 @@ for ri in range(n_rows):
                 path_atoms.append(("step", col, row, c["x"]))
             elif c["c"].isdigit():
                 digits.append((c["x"], c["y"], c["c"], col, row))
-        # digit glyphs group into numbers by x-adjacency at the same y
+        # digit glyphs group into numbers by x-adjacency at the same y. Intra-number glyph gap
+        # measures 3.58-3.86pt, inter-number 4.12+; the threshold sits between them, and
+        # grouping happens BEFORE cell snapping because a two-digit number straddles cells
         digits.sort(key=lambda d: (round(d[1], 1), d[0]))
         numbers = []
         for x, y, ch, col, row in digits:
-            if numbers and abs(numbers[-1]["y"] - y) < 2 and x - numbers[-1]["x1"] < 4.2:
+            if numbers and abs(numbers[-1]["y"] - y) < 2 and x - numbers[-1]["x1"] < 4.0:
                 numbers[-1]["text"] += ch
                 numbers[-1]["x1"] = x
             else:
