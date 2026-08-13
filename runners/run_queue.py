@@ -924,6 +924,12 @@ STAGES += [
      "produces": "results/positional_polish/pd2_signed_fiction_ds_r2.json",
      "needs": ["results/features/machine_fiction_ds_w80r2.json"],
      "why": "the decisive powered cell: does deepseek fiction DECAY like human text at n~28"},
+    {"name": "activation_variance_fiction", "est": 45,
+     "cmd": [PY, "runners/run_activation_variance.py", "--fiction"],
+     "produces": "results/activation_variance/summary_fiction.json",
+     "needs": ["corpora/machine_fiction_qwen/piece_29.txt"],
+     "why": "L39's owed register-matched arm: does the reader's affective series still move "
+            "more through books than through machine FICTION, per generator family"},
 ]
 
 

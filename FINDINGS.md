@@ -3621,6 +3621,42 @@ cleanliness is not a shared-representation artifact. The weakness narrows to the
 results that compare machine and human text directly, where the second-family fiction corpus
 now supplies the control arm (L97 already uses it).
 
+## L100 · At power, the second family's fiction decays like human text — the two generators sit on opposite sides of the human sign
+
+**Hypothesis.** *(L97's queued round 2, per the near-significance policy.)* The second family's
+marginal downward trend (−0.28, p = 0.055, n = 13) either firms into a significant decay at
+doubled n, putting one machine family on the human side of the sign, or dissolves as noise.
+
+**Method.** Fifteen more chapters per family, same fifteen premises at fresh seeds, both-round
+feature caches, the signed movement instrument frozen; the powered cells are the pre-registered
+second look the policy licenses.
+
+| cell | n | polish signed z | Wilcoxon p | verdict |
+|---|---|---|---|---|
+| home generator, round 1 | 15 | +1.03 | 0.0088 | POLISH-RISES |
+| **home generator, powered** | **30** | **+1.01** | **0.0070** | **POLISH-RISES** |
+| second family, round 1 | 13 | −0.28 | 0.055 | marginal |
+| **second family, powered** | **27** | **−0.20** | **0.0445** | **POLISH-DECAYS** |
+
+*Caption: signed positional trend of polish-side features on register-matched machine fiction,
+first round and powered round. Human reference points: essays −0.17, books −0.30 (L89).*
+
+**Found.** Both cells hold their direction at doubled n. The home generator's rise is stable to
+the second decimal; the second family's decay crosses its threshold — its fiction's polish
+falls across position at human-comparable magnitude, sitting between the essays' and books'
+decay values.
+
+**Means.** The family split is confirmed at power, and it is stronger than a split: **one
+machine family carries the human decay signature**. Any provenance use of the sign is now dead
+conclusively, since a second-family text does not merely fail to rise, it falls where humans
+fall. What remains is a sharp characterization question, filed as G146: the two generators
+differ in training lineage (a reasoning-RL model against an instruction-tuned one), and
+whichever training difference flips this sign is a mechanism question the parent simulation and
+the literature can both bite on. The attention-reallocation account of human decay also
+inherits a constraint it did not ask for: whatever produces decay in the second family's
+output has no attention and no fatigue, so decay alone cannot carry the reallocation reading
+without a design that separates the mechanisms.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

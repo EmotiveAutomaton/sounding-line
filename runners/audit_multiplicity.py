@@ -116,6 +116,8 @@ TESTS = [
     ("L98 G80 human vs fiction ds",       3.370e-01, "primary", "results/g80_scaffolding/summary_fiction.json"),
     ("L99 G107 powered count",            1.000e+00, "primary", "results/audit/nomaker_permutation_powered.json"),
     ("L99 G107 second-family count",      1.650e-01, "primary", "results/audit/nomaker_permutation_ds.json"),
+    ("L100 fiction qwen r2 wilcoxon",     7.020e-03, "primary", "results/positional_polish/pd2_signed_fiction_qwen_r2.json"),
+    ("L100 fiction ds r2 wilcoxon",       4.447e-02, "primary", "results/positional_polish/pd2_signed_fiction_ds_r2.json"),
     ("L44v2 pooling max arm",             2.900e-03, "primary", "results/pooling_falsifier/Qwen2.5-1.5B_v2.json"),
     ("L44v2 pooling last-token arm",      2.820e-01, "primary", "results/pooling_falsifier/Qwen2.5-1.5B_v2.json"),
     ("L24 biber_CONT fair, ladder",       1.700e-03, "primary", "results/fair_features/summary.json"),

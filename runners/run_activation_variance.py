@@ -37,6 +37,9 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default=None)
     ap.add_argument("--device", default="cuda")
+    ap.add_argument("--fiction", action="store_true",
+                    help="the register-matched arm L39 owed: books against machine fiction, "
+                         "two generator families, same statistic, own output file")
     args = ap.parse_args()
 
     import numpy as np                                                # noqa: PLC0415
@@ -75,8 +78,19 @@ def main() -> None:
         return float(np.var(s))
 
     rows = []
-    for corpus in ("ladder2", "ladder3", "nomaker"):
+    machine_corpora = (("machine_fiction_qwen", "machine_fiction_ds") if args.fiction
+                       else ("ladder2", "ladder3", "nomaker"))
+    for corpus in machine_corpora:
         d = REPO / "corpora" / corpus
+        if args.fiction:
+            for p in sorted(d.glob("*.txt")):
+                s = series(p.read_text(encoding="utf-8", errors="replace"))
+                if len(s) >= 4:
+                    rows.append({"group": corpus, "id": p.stem, "rung": None,
+                                 "n_windows": len(s), "variance": var6(s),
+                                 "mean": statistics.fmean(s)})
+            print(f"{corpus}: {sum(r['group'] == corpus for r in rows)} artifacts", flush=True)
+            continue
         man = json.loads((d / "manifest.json").read_text(encoding="utf-8"))
         for it in man["items"]:
             p = d / f"{it['id']}.txt"
@@ -113,6 +127,26 @@ def main() -> None:
 
     out = {"model": model_name, "rows": rows, "tests": {}}
     hb = [r["variance"] for r in rows if r["group"] == "human_books"]
+    if args.fiction:
+        # the register-matched comparisons, one per generator family, L39's stated direction
+        for fam in ("machine_fiction_qwen", "machine_fiction_ds"):
+            mv = [r["variance"] for r in rows if r["group"] == fam]
+            if hb and mv:
+                u, p = stats.mannwhitneyu(hb, mv, alternative="greater")
+                out["tests"][f"books_vs_{fam}"] = {
+                    "books_median": float(np.median(hb)), "fiction_median": float(np.median(mv)),
+                    "n_books": len(hb), "n_fiction": len(mv), "p": float(p)}
+                print(f"  books {np.median(hb):.4f} vs {fam} {np.median(mv):.4f} "
+                      f"(one-sided p={p:.4f})")
+        ps = [t["p"] for t in out["tests"].values()]
+        out["verdicts"] = {"register_matched": "HUMAN-MOVES" if ps and min(ps) < 0.01
+                           else "NO-DIFFERENCE"}
+        print(f"\n  >>> {out['verdicts']['register_matched']}")
+        RESULTS.mkdir(parents=True, exist_ok=True)
+        (RESULTS / "summary_fiction.json").write_text(json.dumps(out, indent=2),
+                                                     encoding="utf-8", newline="\n")
+        print(f"wrote {(RESULTS / 'summary_fiction.json').relative_to(REPO)}")
+        return
     mach = [r["variance"] for r in rows if r["group"] in ("ladder2", "ladder3")]
     if hb and mach:
         u, p = stats.mannwhitneyu(hb, mach, alternative="greater")
