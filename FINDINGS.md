@@ -3033,7 +3033,7 @@ features-plus-delta arm, not their row. For the embedding rows the honest label 
 points — and the two surviving candidates turn out to be locally measurable after all:
 max-over-their-published-grid is queued, and the standard four-block pair encoding
 [u; v; |u−v|; u⊙v] is the owed build. "Reachable only through the authors" was premature;
-author contact remains the step after both arms run. An
+the two arms are the last word; author contact is off the table, his ruling 2026-08-14. An
 exhaustive follow-up sweep confirmed no processed pair file for this corpus exists anywhere
 public (their project domain is dead and was never archived with data), and found one
 corroboration: the only public third-party preprocessor for these spreadsheets reads exactly
@@ -3977,7 +3977,7 @@ framework-faithful means the framework, not the printed hyperparameters; contami
 pre-training gate with a near-duplicate pass still owed; the reproduce/replicate/robustness
 vocabulary per row; specification curves over point verdicts; confirmatory arms implement the
 named mechanism; predictions persisted always; artifact versions re-checked before closing;
-author contact as a required step with the non-response as data; irreproducibility stated as
+author contact SUPERSEDED by the curator's ruling (2026-08-14: off the table, never suggested again); irreproducibility stated as
 a bounded effect). Every demanded test is queued or built into today's plan; the Phase-1
 table rows carry their reopened statuses; and the assessment package for the curator now
 includes this audit beside the closures it moved.

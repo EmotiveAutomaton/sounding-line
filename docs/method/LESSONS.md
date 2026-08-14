@@ -109,8 +109,11 @@ preserved whole.
   treat search-maxima cells as possibly optimistic, and when running a grid-max arm persist
   every candidate with the published config's rank so the optimism is measured, not assumed.
   (L80, L85, L108)
-- **Author contact is a required step before declaring irreproducibility**, with the dated
-  attempt and any non-response recorded as data. (L107)
+- **Author contact is OFF THE TABLE, the curator's standing ruling (2026-08-14).** Do not
+  suggest it, file it, or condition any wording on it. Irreproducibility wording stands on the
+  exhausted-public-routes evidence alone, stated as "not reproduced by us from the released
+  materials" with the gap bounded. (Overrides the referee import that briefly made contact a
+  required step.)
 - **Overshooting a published gate diagnoses differently from undershooting**: overshoot says
   inflation (leakage, duplication, memorization) somewhere; undershoot says a missing lever.
   (L68, L75, L106)
