@@ -72,13 +72,22 @@ fold it; never append a contradiction.
   split (contamination, per-class, per-covariate) is minutes instead of a retrain. And
   **author contact is a required step before declaring irreproducibility**, with the dated
   attempt and any non-response recorded as data. (L107)
-- **When a number resists, try to reproduce it by breaking your pipeline the way you suspect
-  theirs was broken.** The duplication probe (seeded pre-CV oversampling) turned an augmentation
-  inference into a demonstration by reproducing the "impossible" majority row to the digit; its
-  signature is exact majority reproduction plus rare-class overshoot. (L81)
+- **When a number resists, breaking your pipeline the way you suspect theirs was broken is a
+  DIAGNOSTIC, never a demonstration.** The duplication probe reproduced the "impossible"
+  majority row to the digit and was recorded as confirming their mechanism — then the paper's
+  own text named a different, fold-safe mechanism, and sibling cells contradicted the
+  inference (the L107 downgrade). The probe's honest product is the signature of what a
+  defect class looks like from outside; confirming a specific mechanism requires implementing
+  the mechanism the source names. (L81 as corrected by L107)
 - **Grid searches over-select.** Our grid picked a learning rate the authors' own footnote
   contradicts and still explained nothing; prefer published hyperparameters when they exist,
   and treat search-maxima cells as possibly optimistic. (L80, L85)
+- **When a protocol is underdetermined, report the specification curve, not one faithful
+  point.** Enumerate the defensible readings of every unstated choice (epochs, batch,
+  schedule, checkpoint rule, input variant), run the set, and state where the published value
+  falls in that band — "above the k-th percentile of the protocol space" is falsifiable where
+  "our faithful run missed it" is one point against one point. The ScholaWrite epoch sweep
+  was most of one and was never framed as one. (L107)
 
 ## §2. Before building an extractor over someone else's data
 
