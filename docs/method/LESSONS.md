@@ -8,33 +8,37 @@ a design becomes a runner, the matching section here gets read first.**
 
 Maintenance: a new lesson lands in the same pass as the finding that earned it, in the section
 matching its trigger moment, one entry per lesson, receipt required. When a lesson is refined,
-fold it; never append a contradiction.
+fold it; never append a contradiction. **Reorganised 2026-08-14 at the curator's direction**
+(the gate section had grown into a wall; it is now four trigger moments with an index), entries
+preserved whole.
+
+## THE TRIGGER INDEX — the moment you are in → the section you read
+
+| you are about to… | read |
+|---|---|
+| adopt a published number as a gate, or believe a benchmark cell | **§1a** |
+| build or modify a faithful/recreation arm (theirs, re-run) | **§1b** |
+| issue a MATCHED / NOT-MATCHED / irreproducible verdict | **§1c** |
+| train on any corpus that blends editions, years, or releases | **§1d** |
+| write an extractor over someone else's data | **§2** |
+| build a statistic, instrument, control, or falsifier | **§3** |
+| train or configure a model arm | **§4** |
+| add a queue stage, touch the loop scripts, or launch anything long-running | **§5** |
+| choose or doubt a control | `CONTROLS.md` |
+| touch a hash-locked file or protocol | `DEVIATIONS.md` |
+| claim novelty, adopt a field framing, pick a corpus | `LITERATURE.md` |
+| map model quantities onto brain vocabulary | `NEURAL_ANALOGUES.md` |
 
 ---
 
-## §1. Before adopting a published number as a gate
+## §1a. Before adopting a published number as a gate
 
 - **Run the self-consistency check first.** Test the number against every other number in the
   paper that constrains it: the majority-F1 identity ((2s/(1+s))/k pins a majority share), class
-  distributions reweighting per-class tables, subtotal sums. Three papers checked this way, three
-  internal contradictions found: ArgRewrite's fine Majority row contradicts its own Table 4;
-  ScholaWrite's 0.64 is unreachable from its own per-class table; BST's text and figures disagree
-  on a count and a parameter. (L77, L78, L79; the check is a TOOLS instrument row.)
-- **Composition before tuning, always.** Every recreation gap that closed, closed through
-  construction (the unit rule, the split, the oversample), never hyperparameters. If n or a
-  baseline row is off, stop modeling and hunt the construction; the n is the search map. (L72,
-  L76, L79, L80)
-- **Protocol leverage dwarfs model leverage.** Measured here: split leakage 20-30 points;
-  pre-evaluation oversampling 32 macro points; input truncation side ~16 points; class weighting
-  2-3; architecture 1-6; encoder version ≤0.3. A benchmark number is mostly its construction.
-  (L82, L81, L86, L85)
-- **Best-fit and cross-validated cells are different numbers.** Never cross them when recording
-  gates; record both if the paper reports both. (L78)
-- **Expect the published protocol to include the paper's own bugs — and then measure whether
-  the bug has any leverage before citing it.** ScholaWrite's token-wrapper typo was faithfully
-  reproduced, and the second referee then showed it inert: same tag on both sides in the
-  paper-era code, truncated away on 87 percent of inputs. Reproducing a bug is correct;
-  attributing any gap to an unmeasured bug is not. (L77, L86, corrected by L108)
+  distributions reweighting per-class tables, subtotal sums, printed accuracy against printed F1.
+  Five papers checked this phase, five internal contradictions found (ArgRewrite's Majority rows;
+  ScholaWrite's 0.64; BST's stimulus count, M3 β, and goal prior; PAN's metric prose). (L77, L78,
+  L79, L102, L107; the check is a TOOLS instrument row.)
 - **An evaluator's source outranks its paper's prose, and baselines back-calculate.** All three
   PAN overview papers describe per-document macro-averaging; the shipped evaluator pools every
   decision and macro-averages over the two classes. Six published baseline cells back-calculated
@@ -44,52 +48,92 @@ fold it; never append a contradiction.
 - **A held-back test set makes the printed headline unreachable by construction; the notebook's
   own validation table is the honest gate.** Check which split a published number lives on before
   adopting it — TIRA-style shared tasks never release theirs. (L102)
-- **Sibling-edition augmentation gets exact-hash dedup against every evaluation split before
-  training.** PAN deduplicates within-year and not across years: the winner's own recipe put
-  16 percent of validation pairs verbatim into training, and the models scored 1.0 on them.
-  A leaked-subset score at ceiling is the memorization signature; rescore blended results on
-  the leak-free subset before quoting capability. Exact-hash is a lower bound; the
-  near-duplicate pass (MinHash or 13-gram Jaccard) is part of the gate. (L106, L107)
-- **No MATCHED / NOT-MATCHED verdict on a fine-tune arm from one seed.** Single-seed
-  fine-tuning moves task metrics one to two points routinely (Dodge 2020; Mosbach 2021);
-  the minimum standard is three seeds, mean and spread reported, the published value judged
-  against the seed interval, and irreproducibility stated as a bounded gap, never a binary.
-  (L107; every prior ScholaWrite arm was seed 42, n = 1)
+- **Best-fit and cross-validated cells are different numbers.** Never cross them when recording
+  gates; record both if the paper reports both. (L78)
+- **State which of reproduce / replicate / robustness a row attempts** (same artifacts, same
+  methods on our artifacts, or our methods entirely), because "not reproducible" means a
+  different thing in each. (L107)
+- **Re-check paper, repo, and dataset versions before closing a row** — a revision posted after
+  a bug fix can silently invalidate a closure, and ScholaWrite's per-class table first appeared
+  eleven days after its training-script fix. (L107)
+
+## §1b. Before building a faithful or recreation arm
+
+- **Composition before tuning, always.** Every recreation gap that closed, closed through
+  construction (the unit rule, the split, the oversample), never hyperparameters. If n or a
+  baseline row is off, stop modeling and hunt the construction; the n is the search map. (L72,
+  L76, L79, L80)
+- **Protocol leverage dwarfs model leverage.** Measured here: split leakage 20-30 points;
+  pre-evaluation oversampling 32 macro points; input truncation side ~16 points; cross-year
+  memorization ~3 blended points; class weighting 2-3; architecture 1-6; encoder version ≤0.3.
+  A benchmark number is mostly its construction. (L82, L81, L86, L85, L106)
 - **A faithful arm reproduces the training FRAMEWORK, not the printed hyperparameters.**
   Framework defaults are load-bearing and unstated by construction: HF Trainer silently
   supplies linear LR decay to zero, gradient clipping at 1.0, and weight-decay exclusion of
   bias/LayerNorm. If the authors used Trainer, match Trainer — a hand-rolled loop matching
   the four printed numbers is a different pipeline. (L107, the ScholaWrite reopening)
+- **Expect the published protocol to include the paper's own bugs — and then measure whether
+  the bug has any leverage before citing it.** ScholaWrite's token-wrapper typo was faithfully
+  reproduced, and the second referee then showed it inert: same tag on both sides in the
+  paper-era code, truncated away on 87 percent of inputs. Reproducing a bug is correct;
+  attributing any gap to an unmeasured bug is not. (L77, L86, corrected by L108)
 - **A confirmatory arm implements the NAMED mechanism, not just the target number.** If the
   source says training-fold synonym replacement, the arm is that; reproducing the printed
   cell by pre-CV duplication — a mechanism the source disclaims — is a coincidence read as
   confirmation, the modeling face of the criterion that cannot fail. Check the inference
   against every sibling cell it also constrains before calling it demonstrated. (L107, the
   ArgRewrite downgrade)
-- **State which of reproduce / replicate / robustness a row attempts** (same artifacts, same
-  methods on our artifacts, or our methods entirely), because "not reproducible" means a
-  different thing in each; and **re-check paper, repo, and dataset versions before closing a
-  row** — a revision posted after a bug fix can silently invalidate a closure. (L107)
-- **Persist predictions from every model arm** — id, truth, prediction, score — so any later
-  split (contamination, per-class, per-covariate) is minutes instead of a retrain. And
-  **author contact is a required step before declaring irreproducibility**, with the dated
-  attempt and any non-response recorded as data. (L107)
 - **When a number resists, breaking your pipeline the way you suspect theirs was broken is a
   DIAGNOSTIC, never a demonstration.** The duplication probe reproduced the "impossible"
   majority row to the digit and was recorded as confirming their mechanism — then the paper's
   own text named a different, fold-safe mechanism, and sibling cells contradicted the
-  inference (the L107 downgrade). The probe's honest product is the signature of what a
-  defect class looks like from outside; confirming a specific mechanism requires implementing
-  the mechanism the source names. (L81 as corrected by L107)
-- **Grid searches over-select.** Our grid picked a learning rate the authors' own footnote
-  contradicts and still explained nothing; prefer published hyperparameters when they exist,
-  and treat search-maxima cells as possibly optimistic. (L80, L85)
+  inference. The probe's honest product is the signature of what a defect class looks like
+  from outside. (L81 as corrected by L107)
+- **Persist predictions from every model arm** — id, truth, prediction, score — so any later
+  split (contamination, per-class, per-covariate) is minutes instead of a retrain. (L107;
+  the PAN contamination split took two minutes because predictions existed)
+
+## §1c. Before issuing a MATCHED / NOT-MATCHED / irreproducible verdict
+
+- **No verdict on a fine-tune arm from one seed.** Single-seed fine-tuning moves task metrics
+  one to two points routinely (Dodge 2020; Mosbach 2021); the minimum standard is three seeds,
+  mean and spread reported, the published value judged against the seed interval, and
+  irreproducibility stated as a bounded gap, never a binary. (L107)
 - **When a protocol is underdetermined, report the specification curve, not one faithful
   point.** Enumerate the defensible readings of every unstated choice (epochs, batch,
   schedule, checkpoint rule, input variant), run the set, and state where the published value
   falls in that band — "above the k-th percentile of the protocol space" is falsifiable where
-  "our faithful run missed it" is one point against one point. The ScholaWrite epoch sweep
-  was most of one and was never framed as one. (L107)
+  "our faithful run missed it" is one point against one point. (L107)
+- **Grid searches over-select.** Our grid picked a learning rate the authors' own footnote
+  contradicts and still explained nothing; prefer published hyperparameters when they exist,
+  treat search-maxima cells as possibly optimistic, and when running a grid-max arm persist
+  every candidate with the published config's rank so the optimism is measured, not assumed.
+  (L80, L85, L108)
+- **Author contact is a required step before declaring irreproducibility**, with the dated
+  attempt and any non-response recorded as data. (L107)
+- **Overshooting a published gate diagnoses differently from undershooting**: overshoot says
+  inflation (leakage, duplication, memorization) somewhere; undershoot says a missing lever.
+  (L68, L75, L106)
+
+## §1d. Before training on blended corpora — benchmark data hygiene
+
+- **Sibling-edition augmentation gets exact-hash dedup against every evaluation split before
+  training.** PAN deduplicates within-year and not across years: the winner's own recipe put
+  16 percent of validation pairs verbatim into training, and the models scored 1.0 on them.
+  A leaked-subset score at ceiling is the memorization signature; rescore blended results on
+  the leak-free subset before quoting capability. Exact-hash proved tight here (normalization
+  moved nothing), but the near-duplicate pass is part of the gate until measured. (L106, L107,
+  L108)
+- **Check within-year too.** PAN's own easy and medium splits leak their validation from their
+  own training data (13-19 percent); only hard was clean. Organizer dedup is a claim to verify,
+  never an assumption. (L108)
+- **A settling arm must be identified.** Removing a whole augmentation to test its leak
+  confounds the leak with the data volume; the identified form drops only the contaminated
+  documents (210 of 4,200 here, keeping 97 percent). (L108)
+- **Audit the shipped split before trusting any number computed on it.** ScholaWrite's shipped
+  train/test is within-project with 85 percent before-text overlap, and that leak IS the
+  published protocol. Grouped (leave-one-project-out) evaluation is the leak-free form, and any
+  program use of such data must be grouped by construction. (L68, L82)
 
 ## §2. Before building an extractor over someone else's data
 
@@ -100,14 +144,14 @@ fold it; never append a contradiction.
   units outright; our silent first-listed pick redistributed classes. (L79)
 - **Parse compound references completely.** Our aligned-index reader truncated comma-separated
   many-to-many indices to their first entry, orphaning sentences into fake deletions. (L79)
-- **Audit the shipped split before trusting any number computed on it.** ScholaWrite's shipped
-  train/test is within-project with 85 percent before-text overlap, and that leak IS the
-  published protocol. Grouped (leave-one-project-out) evaluation is the leak-free form, and any
-  program use of such data must be grouped by construction. (L68, L82)
 - **Look for the absent class.** A class present in the data but missing from the paper's
   per-class table (Scientific Accuracy) is a protocol clue, not noise. (L77, L86)
 - **Pinned revisions rot.** The dataset revision ScholaWrite's code pins no longer exists even
   under gated access; record what is canonical-by-default when the pin is dead. (L82)
+- **A decode of published figures has its own known-answer gate: the paper's printed counts.**
+  The Fig-3 stimulus decode looked healthy at the panel level and held a third of the paper's
+  99 stimuli; nothing downstream of an extraction means anything until the extraction hits the
+  source's own totals. (L107, L108, the BST decode gate)
 
 ## §3. Before building a statistic or instrument
 
@@ -121,6 +165,9 @@ fold it; never append a contradiction.
 - **Match the statistic's invariances to the question.** Variance cannot see movement; an
   order-sensitive statistic (trend, changepoint) can, and it re-licenses the within-item shuffle
   null that dispersion voided. (L55, L74)
+- **Fix the label set in every averaged F1.** Macro-F1 without labels= silently shrinks its
+  denominator when a near-empty class misses a fold, inflating the score; every per-class
+  average declares its class list. (L108)
 - **In the n << d regime, raw similarity magnitudes are uninterpretable.** Independent noise
   scores 0.985 under CKA at 30×2048; only null-tested match structure is ever quotable. (L61)
 - **Blind floors follow the truth's label marginal, whatever the decoys.** The estimand is the
@@ -147,12 +194,11 @@ fold it; never append a contradiction.
   slopes are invisible to magnitude statistics. A movement claim and a direction claim are
   different instruments. (L89)
 - **Window size is a member of the statistic family, not a nuisance choice.** The books
-  movement asymmetry held at the 80-word window and vanished at 40 while the author-share
-  split survived both; claim nothing from one window. (L89)
+  movement asymmetry held at the 80-word window and vanished at 40, and later the one machine
+  decay cell did exactly the same; claim nothing from one window. (L89, L105)
 - **Run the interpretation control before adopting the reading, not after.** PD-3's machine
   corpus was queued as a formality and instead reversed the interpretation of a standing human
-  positive (machine text moves MOST, so positional movement is not a maker-attention
-  signature). A control that cannot flip the result can still flip the reading. (L89)
+  positive. A control that cannot flip the result can still flip the reading. (L89)
 - **Every statistic a verdict rests on gets written to the output file, not only printed.**
   The signed arm's Wilcoxon backed its verdict and existed nowhere on disk; it had to be
   recomputed before it could be quoted. (L89; runner patched same pass)
@@ -173,21 +219,37 @@ fold it; never append a contradiction.
 
 ## §4. Before the model arm
 
+- **Set model internals structurally, assert the change took, and record the measured value.**
+  A dropout setter keyed on one attribute silently missed roberta's (it lives on the
+  classifier), and the output file recorded the requested 0.25 while the model ran 0.1 — a
+  false provenance record, worse than a missing one. Iterate modules, assert, write what was
+  measured, never what was asked. (L108)
+- **Record environment versions in every output that will be compared to a published number**
+  (transformers, torch, sklearn at minimum); the comparison is across days and against a
+  foreign machine by construction. (L108; every active model runner now does)
+- **Watch for architecture-specific training hazards**: roberta-base collapses to constant
+  predictions at lr 5e-5 without warmup; DeBERTa-v1's disentangled attention overflows under
+  fp16 autocast. A member that diverges is rerun under a recorded stabilizer, never quietly
+  dropped, and every member of an ensemble shares one recipe. (L104, L108)
 - **Class/sample weighting is a small lever** (2-3 macro points against 24-point gaps); do not
   expect it to explain a collapse. (L81 supplement, in-house confirmation)
 - **Difference features rescue exactly the classes defined by small edits** (grammar/spelling
   .06 → .49); apply them where the class semantics are about the change. (L85)
 - **Pin determinism**: fixed seeds, fixed thread counts (`n_jobs=-1` ties results to host load;
-  boosted trees are thread-order dependent), record library versions when a number will be
-  compared across days. (L85)
+  boosted trees are thread-order dependent). (L85)
 - **Encoder/library version drift is usually small** (≤0.3 points across sentence-encoder
   checkpoints; ≤0.3 across tree-method variants) — measure it before blaming it. (L85)
-- **Overshooting a published gate diagnoses differently from undershooting**: overshoot says
-  inflation (leakage, duplication) somewhere; undershoot says a missing lever. (L68, L75)
 
 ## §5. Before queueing or touching the loop infrastructure
 
-- **Every stage carries a `produces` guard**; one without it re-ran 160 minutes per pass.
+- **Every stage carries a `produces` guard**; one without it re-ran 160 minutes per pass. **And
+  no two stages may ever share a produces path** — the earlier stage runs first, writes, and
+  the later (corrected) stage skips forever; the queue asserts uniqueness at load. (L108)
+- **A corrective stage list is audited with the same rigor as the results it corrects.** The
+  second referee found the fix-arms themselves carrying three recipe divergences, one of them
+  training at that moment. (L108)
+- **A clean exit that wrote no produce is a failure, not a DONE** — the queue enforces it; a
+  silent per-corpus skip ran "DONE" for a day while its consumers sat deferred. (2026-08-13)
 - **Underestimate runtimes 2-3×** and keep the queue loaded to the gear: second gear
   (`run_second_gear.sh`, the whole machine) carries about a day's worth of analyses, first gear
   (`run_first_gear.sh`, part of the CPU, the GPU mostly the curator's) four to eight hours of
@@ -198,28 +260,18 @@ fold it; never append a contradiction.
 - **Bare-launched shells have no PATH** (`date`/`cat` silently empty, deadline arithmetic
   collapses); loop scripts export PATH first. Kill loops by the lock's WINDOWS pid (line 2) with
   a tree kill; msys pids do not map. Sweep orphans at startup. (G121 history)
-- **Verify hash locks and read git-status deletion lines before any commit**; locked files live
-  at recorded paths in DEVIATIONS when they move. Never grep a pid out of tasklist by substring
-  (it matches memory columns); query the process list structurally. (the waiter bug, 08-10)
-- **No two stages may share a produces path** — the earlier stage runs first, writes, and the
-  later (corrected) stage skips forever; the queue now asserts uniqueness at load. And a
-  corrective stage list is audited with the same rigor as the results it corrects: the second
-  referee found the fix-arms themselves carrying three recipe divergences. (L108)
-- **Set model internals structurally, assert the change took, and record the measured value.**
-  A dropout setter keyed on one attribute silently missed roberta's (it lives on the
-  classifier), and the output file recorded the requested 0.25 while the model ran 0.1 — a
-  false provenance record, worse than a missing one. Iterate modules, assert, write what was
-  measured, never what was asked. (L108)
-- **Long jobs run in the background and wake the agent**; results are written through the same
-  message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)
+- **The orphan sweep kills what no live loop owns — including legitimate standalone arms.** A
+  training launched outside the queue dies at the next engine relaunch and, if a waiter restarts
+  it, loops from epoch zero forever; the failure is invisible until someone asks for an ETA. A
+  long standalone GPU arm gets one of three protections before launch: queue membership (a stage
+  with a produces guard), checkpoint-resume, or its winpid on the sweep's keep-list. (L93)
 - **A deadline exit with no successor idles the machine silently.** Second gear stopped at its
   deadline mid-morning and nothing relaunched it; seven hours of a prescribed 24-hour window
   burned before the evening check noticed. Size the deadline to the curator's stated window at
   launch, and treat "the engine exited" as a wake-and-decide event, never as background noise.
   (2026-08-13; the launcher's exit notification is the wake signal)
-- **The orphan sweep kills what no live loop owns — including legitimate standalone arms.** A
-  training launched outside the queue dies at the next engine relaunch and, if a waiter restarts
-  it, loops from epoch zero forever; the failure is invisible until someone asks for an ETA. A
-  long standalone GPU arm gets one of three protections before launch: queue membership (a stage
-  with a produces guard), checkpoint-resume, or its winpid on the sweep's keep-list. (L93, the
-  epoch-5 arm's two-day restart cycle)
+- **Verify hash locks and read git-status deletion lines before any commit**; locked files live
+  at recorded paths in DEVIATIONS when they move. Never grep a pid out of tasklist by substring
+  (it matches memory columns); query the process list structurally. (the waiter bug, 08-10)
+- **Long jobs run in the background and wake the agent**; results are written through the same
+  message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)

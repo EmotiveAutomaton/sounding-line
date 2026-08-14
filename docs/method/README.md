@@ -6,7 +6,7 @@ file whose moment you are in.
 
 | file | reach for it when |
 |---|---|
-| [`LESSONS.md`](LESSONS.md) | **designing any test or building any runner** — sections by trigger: adopting a published gate, building an extractor, building a statistic, the model arm, queue/infra. Every entry carries its receipt. Wired into grind steps 1 and 6 |
+| [`LESSONS.md`](LESSONS.md) | **designing any test or building any runner** — opens with a TRIGGER INDEX (the moment you are in → the section you read); the gate section is split into four moments (adopting a number §1a, building a faithful arm §1b, issuing a verdict §1c, blended-corpus hygiene §1d), then extractors §2, statistics §3, model arms §4, queue/infra §5. Every entry carries its receipt. Wired into grind steps 1 and 6 |
 | [`CONTROLS.md`](CONTROLS.md) | choosing or doubting a control — what each control class licenses, and what the shuffle test does not |
 | [`LITERATURE.md`](LITERATURE.md) | claiming novelty, adopting a field framing, or picking a corpus/benchmark — the occupied/refuted map, the Panksepp/Barrett evidence, affect-in-text, verified benchmark records and traps |
 | [`DEVIATIONS.md`](DEVIATIONS.md) | anything touches a hash-locked file or a locked protocol — the append-only deviation log (never merged, never renamed; locked tooling points here) |
