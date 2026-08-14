@@ -1,5 +1,11 @@
 # The queue — what is left, in order, with what it costs
 
+> **SUPERSEDED 2026-08-14.** The live queue is `TODO.md` (the phase tables at its head) plus
+> the stage list in `runners/run_queue.py`; the engines are `run_first_gear.sh` and
+> `run_second_gear.sh`. This file is the 2026-08-05 snapshot, kept whole for its measured
+> rates and its ordering rationale; items 1-3 and 6 have since run, item 4 (the dwell corpus)
+> remains a sourcing decision, item 5 remains blocked on the curator's readings.
+
 **2026-08-05, rewritten after the second simulation batch returned.** Rates are measured from real
 runs, not guessed: **one probe loop ≈ 1.9 min · one generation ≈ 1.1 min · one activation read
 ≈ 0.3 s on GPU.**

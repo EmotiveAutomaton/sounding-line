@@ -136,15 +136,27 @@ with exact fetched values; this section keeps the field map and the traps.
 **Verified records worth knowing**: PAN22 cross-genre authorship verification, best submission
 0.587 **against a character-n-gram baseline of 0.600**, the race where SOTA lost to the baseline
 and the task is exactly cross-condition identity (access via Aston, slow); PAN20/21 fanfiction AV
-0.935/0.9545 (do not confuse the two regimes); PAN26 multi-author style (hard split) 0.830 with
-our scorer verified to 0.012 (`runners/run_pan_style.py`, corpus fetched, only `hard` counts);
-word-level co-authorship detection 0.462 F1 vs 0.433 random, and real human-LLM co-writing logs
-AUC 0.491, the openings where detectors sit at chance; non-native writers false-positive at 61.2%
-(the fairness result to cite).
+0.935/0.9545 (do not confuse the two regimes); word-level co-authorship detection 0.462 F1 vs
+0.433 random, and real human-LLM co-writing logs AUC 0.491, the openings where detectors sit at
+chance; non-native writers false-positive at 61.2% (the fairness result to cite).
+
+**PAN multi-author style analysis, corrected at source during the recreation (L102, L106, L108,
+L109)**: the earlier "PAN26" labels here were wrong (the editions on disk are 2018/2022-2025).
+The metric is POOLED two-class macro-F1 over all pairs, against every overview paper's own
+prose (evaluator source + six baseline back-calculations). Winner records: 2024 hard 0.863
+(nycu-nlp, three-base-encoder vote; its validation table blends ~16 percent cross-year
+memorization from the PAN23 augmentation its own recipe uses); 2025 hard 0.830 (wqd, single
+deberta-base, fully specified). Test splits are TIRA-held-back EXCEPT 2025, whose labeled test
+split is on disk and verified genuine (printed baselines reproduce to 0.0004) — the one
+reachable test-set gate. Contamination map: 2024↔2023 cross-year 15.8 percent of hard
+validation pairs; 2024 easy/medium leak within-year (19 percent of easy paragraphs, 13.5
+percent of medium pairs) while 2024 hard and all of 2025 are within-year clean (0.2-0.4
+percent). Any blended-edition training obeys LESSONS §1d.
 
 **Corpora on disk**: ArgRewrite V.2 (`corpora/public/argrewrite/`, 86 authors × 3 drafts,
-purpose-annotated; the construction subtleties are now pinned in FINDINGS L79); PAN26 style
-(`corpora/public/pan_style/`). Verified available: PERSUADE 2.0, ASAP 2.0 (CC BY 4.0), ELLIPSE,
+purpose-annotated; the construction subtleties are now pinned in FINDINGS L79); PAN
+multi-author style 2018/2022/2023/2024/2025 (`corpora/public/pan_style/`, 2025 including its
+labeled test split). Verified available: PERSUADE 2.0, ASAP 2.0 (CC BY 4.0), ELLIPSE,
 IBM argument quality (best published Pearson 0.52), Essays/Big-Five (~58 macro-F1 field bar).
 
 **Traps, each verified the hard way**: `pan.webis.de/data.html` is unscrapable (use Zenodo record

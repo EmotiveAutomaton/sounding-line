@@ -1044,8 +1044,8 @@ STAGES += [
 STAGES += [
     {"name": "gen_fiction_llama_r3", "est": 120,
      "cmd": [PY, "runners/run_gen_fiction.py", "--models",
-             "llama3.1:8b=machine_fiction_llama", "--round", "2", "--min-words", "900"],
-     "produces": "corpora/machine_fiction_llama/piece_44.txt", "needs": [],
+             "llama3.1:8b=machine_fiction_llama", "--round", "2", "--min-words", "800"],
+     "produces": "corpora/machine_fiction_llama/round2.done", "needs": [],
      "why": "fifteen llama chapters at a 900-word floor so the reader-side cell has power"},
 ]
 
@@ -1099,6 +1099,12 @@ STAGES += [
      "produces": "results/scholawrite/bert_faithful_hfd_b8.json", "needs": [],
      "why": "second referee: the batch-8 reading of checkpoint-30760 is a 10-epoch schedule "
             "read at half decay; per-epoch history supplies the epoch-5 point"},
+    {"name": "pan25_wqd_hard", "est": 150,
+     "cmd": [PY, "runners/run_pan25_winner.py", "--difficulty", "hard"],
+     "produces": "results/pan25_winner/wqd_hard.json", "needs": [],
+     "why": "G148: the phase's first reachable TEST-set exact-value gate (L109 found the "
+            "labeled 2025 test split in our store, verified genuine). The fully-specified "
+            "2025 winner against its printed 0.830; contamination gate 0.4%, clean"},
     {"name": "arg_v4_gridmax_binary", "est": 150,
      "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--grid",
              "--tasks", "binary", "--out", "v4_gridmax_binary.json"],

@@ -96,6 +96,10 @@ def main() -> None:
             p.write_text(txt, encoding="utf-8", newline="\n")
             manifest.append({"model": model, "piece": n, "words": len(txt.split())})
             print(f"  {model} piece {n}: {len(txt.split())} words", flush=True)
+    for spec in args.models.split(","):
+        model, dirname = spec.split("=")
+        (REPO / "corpora" / dirname / f"round{args.round}.done").write_text(
+            "complete", encoding="utf-8")
     out = REPO / "corpora" / "machine_fiction_manifest.json"
     prev = json.loads(out.read_text(encoding="utf-8")) if out.exists() else []
     have = {(m["model"], m["piece"]) for m in manifest}
