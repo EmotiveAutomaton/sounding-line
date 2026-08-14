@@ -12,8 +12,14 @@ targeted-analysis flag), `SL_BST2009_exp2_from_fig8.csv` (285 rows), `SL_BST2009
 
 Validation, three independent checks plus one local re-check: recomputed Pearson r per panel
 reproduces every printed correlation to two decimals (e.g. Exp 1: .8271/.9780/.9424/.9658
-against printed .83/.98/.94/.97); consecutive rating triples sum to 1.000, matching the
-paper's per-stimulus normalization; human coordinates are identical across panels to 5e-5.
+against printed .83/.98/.94/.97); human coordinates are identical across panels to 5e-5.
+**Scope narrowed 2026-08-14 (second referee, L108): the sum-to-one triple check holds for
+Experiment 1 ONLY. All 95 Experiment-2 triples fail it (sums 1.13-1.68), the Exp-2 file
+carries no stimulus grouping (rows are bare enumeration order), and 285 points against
+Experiment 1's 300 suggests coincident markers were lost. Exp-2's pooled correlations still
+reproduce; no per-stimulus Exp-2 comparison can be built from this file as it stands. Exp-1
+per-stimulus use must also exclude the ~12 rows whose human means collide at 5e-5, where the
+cross-panel index join is blind to reordering.**
 Known caveats from the source paper itself: the text says 99 Exp-1 stimuli while the figure
 plots 100 distinct triples; Fig 5 and Fig 6f disagree on M3's beta (2.5 vs 2.0).
 

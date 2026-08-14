@@ -68,6 +68,15 @@ def load_split(d: Path) -> list[dict]:
     return out
 
 
+def versions() -> dict:
+    """The environment-pinning lesson: every number compared to a published one records these."""
+    import sklearn                                                     # noqa: PLC0415
+    import torch                                                       # noqa: PLC0415
+    import transformers                                                # noqa: PLC0415
+    return {"transformers": transformers.__version__, "torch": torch.__version__,
+            "sklearn": sklearn.__version__}
+
+
 def pooled_macro_f1(truths: list[list[int]], preds: list[list[int]]) -> float:
     from itertools import chain                                        # noqa: PLC0415
 
@@ -105,6 +114,11 @@ def main() -> None:
                     help="suffix for protocol variants so arms never clobber")
     ap.add_argument("--no-2023", action="store_true",
                     help="drop the PAN23 augmentation (the paper uses it for medium+hard)")
+    ap.add_argument("--drop-leaked-2023", action="store_true",
+                    help="the identified settling arm: keep the PAN23 augmentation but drop "
+                         "the ~210 documents sharing any verbatim pair with the validation "
+                         "split (97.3% of data retained; --no-2023 confounds leak with a "
+                         "50% data cut)")
     args = ap.parse_args()
 
     RESULTS.mkdir(parents=True, exist_ok=True)
@@ -155,7 +169,23 @@ def main() -> None:
     train = load_split(PAN24 / args.difficulty / "train")
     n23 = 0
     if not args.no_2023 and args.difficulty in ("medium", "hard"):
-        extra = load_split(PAN23_HARD)   # hard only; a medium arm needs dataset2 wired
+        if args.difficulty != "hard":
+            raise SystemExit("PAN23 augmentation is wired for hard only; a medium arm "
+                             "needs dataset2 before it may run")
+        extra = load_split(PAN23_HARD)
+        if args.drop_leaked_2023:
+            import hashlib                                             # noqa: PLC0415
+
+            def pkey(a, b):
+                return hashlib.md5((a.strip() + "|PAIR|" + b.strip()).encode()).hexdigest()
+            vp = {pkey(q["paragraphs"][i], q["paragraphs"][i + 1])
+                  for q in val for i in range(len(q["paragraphs"]) - 1)}
+            before = len(extra)
+            extra = [q for q in extra
+                     if not any(pkey(q["paragraphs"][i], q["paragraphs"][i + 1]) in vp
+                                for i in range(len(q["paragraphs"]) - 1))]
+            print(f"drop-leaked-2023: {before - len(extra)} contaminated docs removed, "
+                  f"{len(extra)} kept", flush=True)
         n23 = len(extra)
         train = train + [{**p, "id": "p23_" + p["id"]} for p in extra]
     pairs = [(p["paragraphs"][i], p["paragraphs"][i + 1], p["changes"][i])
@@ -166,9 +196,16 @@ def main() -> None:
     acquire_gpu_lock(f"pan_{args.encoder}")
     tok = AutoTokenizer.from_pretrained(name)
     model = AutoModelForSequenceClassification.from_pretrained(name, num_labels=2)
-    # the stated dropout, applied where the architecture exposes it
-    if hasattr(model, "dropout") and isinstance(model.dropout, torch.nn.Dropout):
-        model.dropout.p = args.dropout
+    # the stated dropout, applied STRUCTURALLY (the second referee: roberta's lives at
+    # classifier.dropout, so the old hasattr check silently left it at 0.1 while recording 0.25)
+    n_set = 0
+    for m in model.modules():
+        if isinstance(m, torch.nn.Dropout):
+            m.p = args.dropout
+            n_set += 1
+    assert n_set > 0, "no Dropout modules found to set"
+    measured_dropout = sorted({round(m.p, 3) for m in model.modules()
+                               if isinstance(m, torch.nn.Dropout)})
     dev = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(dev)
 
@@ -195,7 +232,8 @@ def main() -> None:
     # one recipe for every member (the referee caught roberta on linear decay while ernie ran
     # constant): linear decay to zero always, warmup ratio from the arg
     from transformers import get_linear_schedule_with_warmup          # noqa: PLC0415
-    total = (len(dl) // args.accum + 1) * args.epochs
+    import math                                                        # noqa: PLC0415
+    total = math.ceil(len(dl) / args.accum) * args.epochs
     sched = get_linear_schedule_with_warmup(opt, int(total * args.warmup), total)
     use_amp = dev == "cuda" and not args.no_amp
     scaler = torch.amp.GradScaler("cuda", enabled=use_amp)
@@ -229,7 +267,7 @@ def main() -> None:
             with torch.amp.autocast("cuda", enabled=use_amp):
                 loss = torch.nn.functional.cross_entropy(model(**enc).logits, y)
             scaler.scale(loss / args.accum).backward()
-            if (bi + 1) % args.accum == 0:
+            if (bi + 1) % args.accum == 0 or (bi + 1) == len(dl):
                 scaler.step(opt)
                 scaler.update()
                 if sched is not None:
@@ -255,7 +293,10 @@ def main() -> None:
                           "pair-encoded longest-first truncation, seed 42, final epoch",
            "hypers": {"lr": args.lr, "batch_effective": args.batch * args.accum,
                       "epochs": args.epochs, "max_len": args.max_len,
-                      "dropout": args.dropout, "warmup": args.warmup}}
+                      "dropout_requested": args.dropout,
+                      "dropout_measured": measured_dropout,
+                      "warmup": args.warmup, "amp": not args.no_amp},
+           "versions": versions()}
     (RESULTS / f"{args.encoder}_{args.difficulty}{args.out_tag}.json").write_text(
         json.dumps(out, indent=1), encoding="utf-8", newline="\n")
     print(f"\n{args.encoder} {args.difficulty}: final {f1:.4f} vs gate {gate} "

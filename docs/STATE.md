@@ -102,7 +102,7 @@ READER_HEURISTICS), alignment experiments.
 | **decomposition family** | **NOT STARTED.** Priority: the participation-ratio correction formula (behavioural test on known-rank synthetic data); **the hard-coded VAD table in run_affect_dimensions is UNVERIFIED against real NRC-VAD, a fabrication risk on the replication gate** |
 | **core package + locks** | **DONE for locks:** SPEC was deleted 08-07, caught by hash check, restored byte-exact (DEVIATIONS); 5 gate files relocated to docs/gates/, hash-verified. **Remaining:** activations.py token pooling (BOS handling per family, a candidate mechanism for cross-family sign flips); n=4 direction stability |
 | **docs vs data** | **PARTIAL** (n=40 label fixed). **Remaining:** systematic sweep of every FINDINGS number against its JSON; orphan sweep; G-identifier collisions (G70/G70b known) |
-| **corpora integrity** | **NOT STARTED.** Priority: ladder3 out-of-band tail rung-correlation in absolute words; manifest-vs-disk counts; PAN train/validation leakage |
+| **corpora integrity** | **NOT STARTED.** Priority: ladder3 out-of-band tail rung-correlation in absolute words; manifest-vs-disk counts; PAN train/validation leakage (DONE 2026-08-14: L106/L108 — cross-year 16-20%, within-year on easy/medium, leaked pairs score 1.0) |
 
 ## The theory glance-clean worklist (priority 1)
 

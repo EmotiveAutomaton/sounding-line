@@ -112,10 +112,8 @@ STAGES: list[dict] = [
      "produces": "results/arg_baselines/matched_control.json",
      "needs": ["results/arg_baselines/events.json"],
      "why": "G130b: the decisive lexical-matching control -- does 'content' survive matching?"},
-    {"name": "bst_gridworld", "est": 30,
-     "cmd": [PY, "runners/run_bst_gridworld.py"],
-     "produces": "results/bst_gridworld/summary.json", "needs": [],
-     "why": "G137 v1: the three inverse-planning models with internal analytic gates"},
+    # bst_gridworld DISABLED 2026-08-14 (second referee, item 7): the 4-action model's
+    # summary is archived as summary_4action.json; the 9-action rebuild gets its own stage
     {"name": "scholawrite_download", "est": 25,
      "cmd": [PY, "runners/run_scholawrite.py", "--arm", "download"],
      "produces": "results/scholawrite/schema.json",
@@ -986,21 +984,14 @@ STAGES += [
      "why": "G147 member 1 of 3: roberta-base. Collapsed to constant predictions without "
             "warmup at their lr (archived _collapsed); 0.06 recorded as the divergence fix"},
     {"name": "pan_deberta_hard", "est": 240,
-     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta", "--no-amp"],
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta", "--no-amp",
+             "--warmup", "0.06"],
      "produces": "results/pan_winner/deberta_hard.json", "needs": [],
      "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate); "
             "fp32 because its disentangled attention overflows under fp16 autocast"},
-    {"name": "pan_ernie_hard", "est": 120,
-     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "ernie"],
-     "produces": "results/pan_winner/ernie_hard.json", "needs": [],
-     "why": "G147 member 3 of 3: ernie-2.0-base-en"},
-    {"name": "pan_vote_hard", "est": 5,
-     "cmd": [PY, "runners/run_pan_winner.py", "--vote"],
-     "produces": "results/pan_winner/vote_hard.json",
-     "needs": ["results/pan_winner/roberta_hard.json",
-               "results/pan_winner/deberta_hard.json",
-               "results/pan_winner/ernie_hard.json"],
-     "why": "G147 the system: 2-of-3 majority vote against the .8658 validation gate"},
+    # pan_ernie_hard (no-warmup) DELETED 2026-08-14: superseded by pan_ernie_hard_sched;
+    # two stages must never share a produces (second referee, item 1)
+    # pan_vote_hard RELOCATED behind the corrected members (second referee, item 4)
 ]
 
 # ── 24H RESTOCK 2026-08-13 evening: the missed-test audit's catches and the completion arms.
@@ -1066,12 +1057,12 @@ STAGES += [
      "produces": "results/pan_winner/ernie_hard.json", "needs": [],
      "why": "referee: members ran under different LR schedules (constant-LR result archived); "
             "one recipe for all three before the vote"},
-    {"name": "pan_roberta_no2023", "est": 130,
+    {"name": "pan_roberta_leakfree23", "est": 130,
      "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "roberta", "--warmup", "0.06",
-             "--no-2023", "--out-tag", "_no2023"],
-     "produces": "results/pan_winner/roberta_hard_no2023.json", "needs": [],
-     "why": "referee: the settling test — a single-year member near the leak-free 0.82-0.84 "
-            "means the PAN23 augmentation is pure memorization"},
+             "--drop-leaked-2023", "--out-tag", "_leakfree23"],
+     "produces": "results/pan_winner/roberta_hard_leakfree23.json", "needs": [],
+     "why": "second referee: the IDENTIFIED settling arm — drop only the 210 contaminated "
+            "PAN23 docs (97.3% of data kept); --no-2023 confounded leak with a 50% cut"},
     {"name": "sw_bert_hfd_s42", "est": 300,
      "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert", "--faithful",
              "--hf-defaults", "--epochs", "10", "--seed", "42", "--out-tag", "_hfd_s42"],
@@ -1088,6 +1079,26 @@ STAGES += [
              "--hf-defaults", "--epochs", "10", "--seed", "44", "--out-tag", "_hfd_s44"],
      "produces": "results/scholawrite/bert_faithful_hfd_s44.json", "needs": [],
      "why": "seed 3 of 3; the published value is judged against the seed interval"},
+    {"name": "pan_vote_hard", "est": 5,
+     "cmd": [PY, "runners/run_pan_winner.py", "--vote"],
+     "produces": "results/pan_winner/vote_hard.json",
+     "needs": ["results/pan_winner/roberta_hard.json",
+               "results/pan_winner/deberta_hard.json",
+               "results/pan_winner/ernie_hard.json"],
+     "why": "the system vote, now behind three same-recipe members (gate .8658)"},
+    {"name": "sw_roberta_hfd_s42", "est": 300,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "roberta", "--faithful",
+             "--hf-defaults", "--epochs", "10", "--seed", "42", "--out-tag", "_hfd_s42"],
+     "produces": "results/scholawrite/roberta_faithful_hfd_s42.json", "needs": [],
+     "why": "second referee: the 0.64 is claimed for BOTH architectures and roberta is the "
+            "worse miss; its framework arm cannot stay unrun"},
+    {"name": "sw_bert_hfd_b8", "est": 420,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert", "--faithful",
+             "--hf-defaults", "--epochs", "10", "--batch", "8", "--seed", "42",
+             "--out-tag", "_hfd_b8"],
+     "produces": "results/scholawrite/bert_faithful_hfd_b8.json", "needs": [],
+     "why": "second referee: the batch-8 reading of checkpoint-30760 is a 10-epoch schedule "
+            "read at half decay; per-epoch history supplies the epoch-5 point"},
     {"name": "arg_v4_gridmax_binary", "est": 150,
      "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--grid",
              "--tasks", "binary", "--out", "v4_gridmax_binary.json"],
@@ -1096,6 +1107,11 @@ STAGES += [
             "is the like-for-like number for the embedding rows"},
 ]
 
+
+
+_prods = [s_["produces"] for s_ in STAGES]
+_shared = sorted({q for q in set(_prods) if _prods.count(q) > 1})
+assert not _shared, f"stages share a produces path: {_shared}"
 
 
 def rel(p: str) -> Path:

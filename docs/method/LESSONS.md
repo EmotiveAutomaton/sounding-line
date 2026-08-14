@@ -199,6 +199,15 @@ fold it; never append a contradiction.
 - **Verify hash locks and read git-status deletion lines before any commit**; locked files live
   at recorded paths in DEVIATIONS when they move. Never grep a pid out of tasklist by substring
   (it matches memory columns); query the process list structurally. (the waiter bug, 08-10)
+- **No two stages may share a produces path** — the earlier stage runs first, writes, and the
+  later (corrected) stage skips forever; the queue now asserts uniqueness at load. And a
+  corrective stage list is audited with the same rigor as the results it corrects: the second
+  referee found the fix-arms themselves carrying three recipe divergences. (L108)
+- **Set model internals structurally, assert the change took, and record the measured value.**
+  A dropout setter keyed on one attribute silently missed roberta's (it lives on the
+  classifier), and the output file recorded the requested 0.25 while the model ran 0.1 — a
+  false provenance record, worse than a missing one. Iterate modules, assert, write what was
+  measured, never what was asked. (L108)
 - **Long jobs run in the background and wake the agent**; results are written through the same
   message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)
 - **A deadline exit with no successor idles the machine silently.** Second gear stopped at its

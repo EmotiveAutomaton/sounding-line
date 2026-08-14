@@ -493,6 +493,7 @@ def main() -> None:
             search = GRID if args.grid else [FIXED[task]]
             best = None
             oof = np.empty(len(y), dtype=int) if len(search) == 1 else None
+            all_cands = []
             for g in search:
                 f1s, accs = [], []
                 for tr, te in kf.split(X):
@@ -506,9 +507,12 @@ def main() -> None:
                     p = clf.predict(X[te])
                     if oof is not None:
                         oof[te] = p
-                    f1s.append(f1_score(y[te], p, average="macro"))
+                    f1s.append(f1_score(y[te], p, average="macro",
+                                        labels=list(range(len(classes))),
+                                        zero_division=0))
                     accs.append(accuracy_score(y[te], p))
                 cand = {"f1": float(np.mean(f1s)), "acc": float(np.mean(accs)), "grid": g}
+                all_cands.append(cand)
                 if best is None or cand["f1"] > best["f1"]:
                     best = cand
             if oof is not None:
@@ -516,6 +520,17 @@ def main() -> None:
                               labels=list(range(len(classes))), zero_division=0)
                 best["per_class_f1"] = {classes[i]: round(float(v), 3)
                                         for i, v in enumerate(pc)}
+            if len(all_cands) > 1:
+                # the honest grid-max form (second referee): every candidate persisted, and
+                # the published FIXED config's rank and percentile within the search space
+                best["grid_candidates"] = sorted((c["f1"] for c in all_cands), reverse=True)
+                fx = FIXED.get(task, {})
+                fixed_cand = next((c for c in all_cands if all(
+                    c["grid"].get(k) == v for k, v in fx.items())), None)
+                if fixed_cand:
+                    rank = 1 + sum(c["f1"] > fixed_cand["f1"] for c in all_cands)
+                    best["fixed_config_f1"] = fixed_cand["f1"]
+                    best["fixed_config_rank"] = f"{rank} of {len(all_cands)}"
             res[arm] = best
             tgt = TARGETS[task].get(arm, "no published target")
             print(f"  {task}/{arm}: F1 {best['f1']:.3f} acc {best['acc']:.3f} "

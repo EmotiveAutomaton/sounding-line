@@ -3100,8 +3100,12 @@ identified by composition (it is the 300-per-label subsample, verified as exactl
 small split's construction and a strict subset of test), and it moves scores DOWN, so it
 cannot be the 0.64's source; the vanished dataset revision had the shipped composition (the
 camera-ready's per-project table totals the shipped corpus exactly), so no earlier-data story
-survives either. The published run's input-corruption bug is confirmed present at both
-training and evaluation, exactly as our faithful arms reproduce it. One ambiguity remains in
+survives either. The tag typo's status is corrected by the second referee (L108): the
+paper-era code carried the same wrong closing tag on BOTH sides, so there was never a
+train/eval mismatch to reproduce, 87 percent of inputs truncate the tag away entirely, and
+the current repository's one-sided "fix" created the mismatch it appears to document. The
+typo is inert; nothing about the 0.64 gap can be attributed to it, which strengthens the
+irreproducibility reading. One ambiguity remains in
 their sources and it is testable: their inference script's checkpoint number factorizes as
 epoch 10 at effective batch 16 or **epoch 5 at effective batch 8**, the appendix's
 one-GPU-batch-8 wording supports the second reading, and epoch 5 sits precisely where our
@@ -3919,8 +3923,11 @@ code, its own contamination check run blind to L106's.
 1. **ScholaWrite: the correction is CONFIRMED and strengthened, the closure is PREMATURE.**
    Confirmed: the reweighting arithmetic reproduces (0.5947 full test, 0.5059 small); two new
    internal checks land (the printed macro-average is exactly the mean of the fourteen listed
-   classes, proving the absent class is genuinely absent; the paper's own printed accuracy of
-   0.56 sits where our faithful arm sits, 0.08 below its printed F1); the 0.64 is
+   classes, proving the absent class is genuinely absent; the paper's own printed accuracy of 0.56
+   sits 0.08 below its printed F1 — **corrected by the second referee (L108): our arms never
+   recorded accuracy, so the "sits where ours sits" half compared their accuracy to our F1
+   and is struck; the internal inversion in their own numbers stands, and the framework arms
+   now record accuracy so the real check can run**); the 0.64 is
    byte-identical across revisions; the bug attribution to the senior author holds. Broken:
    our "faithful" loop dropped three things their Trainer supplied silently — **linear LR
    decay to zero, gradient clipping at 1.0, and weight-decay exclusion of bias/LayerNorm** —
@@ -3949,8 +3956,9 @@ code, its own contamination check run blind to L106's.
    under different LR schedules (a conditional scheduler bug — constant-LR ernie archived, the
    consistent rerun queued), and a dead ternary in the augmentation path. The settling test is
    queued: a no-augmentation member; if it lands at the leak-free level, the winning recipe's
-   augmentation is pure memorization. Noted for the record: roberta's epoch-4 value (0.8424)
-   sits within 10⁻⁴ of the notebook's printed cell.
+   augmentation is pure memorization. The roberta epoch-4 coincidence
+   first noted here is retracted (L108): ernie's ten epochs come nowhere near its own gate,
+   so no checkpoint rule explains both members and the match is noise.
 4. **BST: three design corrections before the model was built.** The MDP has **nine actions
    including Stay at cost −1** (the eight-move set is the stimulus-generation description, a
    different object); the 36 conditions factor as 4 goal configurations × 3 path groups × 3
@@ -3971,6 +3979,78 @@ author contact as a required step with the non-response as data; irreproducibili
 a bounded effect). Every demanded test is queued or built into today's plan; the Phase-1
 table rows carry their reopened statuses; and the assessment package for the curator now
 includes this audit beside the closures it moved.
+
+## L108 · The second referee's residue register: twenty-five findings, four of them live fire, and the corrective arms themselves needed correcting
+
+**Hypothesis.** *(His order: a second Opus referee, mandated to find every remaining edge case,
+auditing the first referee and the corrective arms as code.)* The corrections were themselves
+clean, or they weren't.
+
+**Method.** Second adversarial subagent: corpora re-hashed at three granularities with
+normalization, runners executed against live models to test their own patches, the queue's
+stage wiring audited for collisions, the first referee's load-bearing claims re-verified at
+source, the digitized BST reference validated computationally.
+
+**Found — the live fire, all fixed in this pass.**
+1. The fp32 deberta arm was training *at that moment* without warmup — the exact configuration
+   that collapsed roberta. Killed mid-epoch, stage corrected to the shared recipe.
+2. The superseded ernie stage and its corrective replacement shared one produces path; the old
+   one would have run first and blocked the fix forever. Deleted, and a permanent guard now
+   asserts no two stages ever share a produces.
+3. **The landed roberta member never received the paper's dropout** — roberta's dropout lives
+   at a different attribute, the setter silently missed it, and the result file recorded 0.25
+   while the model ran 0.1: a false provenance record, not a missing one. Dropout is now set
+   structurally over every module, asserted, and recorded as measured; the member is archived
+   and reruns.
+4. The vote sat before the corrective arms and would have frozen a mixed-recipe number behind
+   its guard. Relocated behind three same-recipe members.
+
+**Found — the design corrections.** The queued settling arm was not identified: removing the
+whole PAN23 augmentation confounds the leak with a fifty-percent data cut, while dropping only
+the 210 contaminated documents keeps 97.3 percent of the data — the arm is replaced with the
+identified form. The ArgRewrite macro-F1 ran without a fixed label set, so folds missing a
+near-empty class inflated their scores — a one-line fix that may move every fine cell,
+including a majority gate claimed as met. The grid arm would have returned one uninterpretable
+maximum; it now persists all thirty-six candidates with the published config's rank. The
+ScholaWrite program gained the missing roberta framework arm and the batch-8 reading of the
+checkpoint arithmetic (a ten-epoch schedule read at half decay — a different pipeline, not a
+different stopping point), with per-epoch history now recorded for the specification curve.
+
+**Found — the record corrections.** Two first-referee claims retracted: the roberta epoch-four
+coincidence is noise (ernie's ten epochs come nowhere near its own gate, so no checkpoint rule
+explains both), and L107's "their accuracy sits where our arm sits" compared their accuracy to
+our F1 with our accuracy never recorded — struck, with the real check (does our F1-minus-
+accuracy gap reproduce their inversion) assigned to the framework arms. The ScholaWrite tag
+typo is **inert and was never a train/eval mismatch**: the paper-era code used the same wrong
+tag on both sides, 87 percent of inputs truncate it away entirely, and the current repo's
+"fix" created the mismatch it appears to document — so "we reproduce their bug" is vacuous
+and the irreproducibility reading strengthens. The teacher-forcing input variant is gold-label
+by construction and dead code besides; it enters the specification curve only as a labelled
+upper bound. And the BST reference's own README overclaimed: the sum-to-one validation holds
+for Experiment 1 and **fails for all 95 Experiment-2 triples**, whose file carries no stimulus
+grouping at all — no per-stimulus Experiment-2 comparison can be built from it as it stands.
+
+**Found — the clean sweeps, as results.** The framework-faithful reimplementation is verified
+equivalent to their Trainer (parameter grouping identical against the reference implementation,
+step counts exact to their released checkpoint number, optimizer defaults matched; batch 16 is
+the correct reading of their two-GPU arithmetic). Near-duplicate contamination residue is nil —
+normalization moves no overlap figure by more than a tenth of a point, so the owed MinHash pass
+is answered cheaply and negatively. The label space is fifteen everywhere; the weighted-F1
+readings agree across methods; alphabetical label ordering matches their encoder. And two new
+contamination facts for any future PAN use: the 2023 validation split adds 4.8 points of
+overlap on top of train's, and **the easy and medium splits leak within-year** (13.5 percent of
+medium validation pairs from medium's own training set; 18.9 percent of easy paragraphs) — the
+organizers' dedup held only on hard.
+
+**Means.** The register's pattern is the same one twice over: every defect that mattered was a
+correction applied at lower rigor than the finding it corrected. The fixes are in; the BST
+build stays blocked behind its decode gate (the second referee confirms: six of thirty-six
+panels fully chained, two of three route conditions recovered, seventy-six judgment points
+against the paper's ninety-nine) exactly so a nine-action model is never fitted to a
+one-sixth-decoded stimulus set. Environment versions now ride in every model-arm output. The
+GPU program the two referees have queued exceeds one night on one card; the ordering puts the
+PAN member corrections first, the ScholaWrite framework arms second, and the batch-8 and grid
+arms behind them.
 
 ## L4 · Can weak effects be stacked into a detector?
 

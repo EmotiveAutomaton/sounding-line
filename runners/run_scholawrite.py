@@ -251,6 +251,18 @@ def main() -> None:
             cwt = torch.tensor(cw, dtype=torch.float)
             cwt = cwt / cwt.sum()
             loss_fn = torch.nn.CrossEntropyLoss(weight=cwt.cuda())
+        def eval_f1():
+            model.eval()
+            pr, tr_ = [], []
+            with torch.no_grad():
+                for ids, mask, ys in te_loader:
+                    lg = model(input_ids=ids.cuda(), attention_mask=mask.cuda()).logits
+                    pr.extend(lg.argmax(-1).cpu().tolist())
+                    tr_.extend(ys.tolist())
+            model.train()
+            return float(f1_score(tr_, pr, average="weighted", zero_division=0))
+
+        history = []
         model.train()
         for ep in range(args.epochs):
             for bi, (ids, mask, ys) in enumerate(tr_loader):
@@ -270,6 +282,8 @@ def main() -> None:
                     sched.step()
                 if bi % 100 == 0:
                     print(f"  epoch {ep} batch {bi} loss {float(loss):.3f}", flush=True)
+            history.append(eval_f1())
+            print(f"  epoch {ep} test weighted-F1 {history[-1]:.4f}", flush=True)
         model.eval()
         preds, truths = [], []
         with torch.no_grad():
@@ -281,8 +295,12 @@ def main() -> None:
         acc = float(sum(int(t == q) for t, q in zip(truths, preds)) / max(len(truths), 1))
         out = {"arm": args.arm, "n_train": len(train), "n_test": len(test),
                "weighted_f1": f1, "accuracy": acc, "gate": GATES[args.arm],
-               "epochs": args.epochs, "seed": args.seed,
+               "epochs": args.epochs, "batch": args.batch, "seed": args.seed,
                "hf_defaults": bool(args.hf_defaults),
+               "per_epoch_test_f1": history,
+               "versions": {m.__name__: m.__version__ for m in
+                            (__import__("transformers"), __import__("torch"),
+                             __import__("sklearn"))},
                "split": split_note, "faithful": bool(args.faithful)}
         (RESULTS / f"{args.arm}{suffix}_preds.json").write_text(json.dumps(
             {"labels": labels, "y_true": truths, "y_pred": preds}),
