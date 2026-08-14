@@ -30,9 +30,11 @@ fold it; never append a contradiction.
   (L82, L81, L86, L85)
 - **Best-fit and cross-validated cells are different numbers.** Never cross them when recording
   gates; record both if the paper reports both. (L78)
-- **Expect the published protocol to include the paper's own bugs.** ScholaWrite's 0.64 was
-  produced with a token-wrapper typo its senior author later confirmed; a faithful arm reproduces
-  the bug, and "fixing" it silently is a deviation from the recreation. (L77, L86)
+- **Expect the published protocol to include the paper's own bugs — and then measure whether
+  the bug has any leverage before citing it.** ScholaWrite's token-wrapper typo was faithfully
+  reproduced, and the second referee then showed it inert: same tag on both sides in the
+  paper-era code, truncated away on 87 percent of inputs. Reproducing a bug is correct;
+  attributing any gap to an unmeasured bug is not. (L77, L86, corrected by L108)
 - **An evaluator's source outranks its paper's prose, and baselines back-calculate.** All three
   PAN overview papers describe per-document macro-averaging; the shipped evaluator pools every
   decision and macro-averages over the two classes. Six published baseline cells back-calculated
