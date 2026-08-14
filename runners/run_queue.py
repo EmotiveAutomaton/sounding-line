@@ -1102,7 +1102,7 @@ STAGES += [
     {"name": "arg_v4_gridmax_binary", "est": 150,
      "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--grid",
              "--tasks", "binary", "--out", "v4_gridmax_binary.json"],
-     "produces": "results/argrewrite/v4_gridmax_binary.json", "needs": [],
+     "produces": "results/arg_baselines/v4_gridmax_binary.json", "needs": [],
      "why": "referee: if the published cells are grid maxima, max-over-their-36-point-grid "
             "is the like-for-like number for the embedding rows"},
 ]

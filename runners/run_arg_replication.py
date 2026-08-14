@@ -484,7 +484,8 @@ def main() -> None:
                 for tr, te in kf.split(np.zeros(len(y))):
                     maj = np.bincount(y[tr]).argmax()
                     preds = np.full_like(y[te], maj)
-                    f1s.append(f1_score(y[te], preds, average="macro"))
+                    f1s.append(f1_score(y[te], preds, average="macro",
+                                   labels=list(range(len(classes))), zero_division=0))
                     accs.append(accuracy_score(y[te], preds))
                 res[arm] = {"f1": float(np.mean(f1s)), "acc": float(np.mean(accs))}
                 print(f"  {task}/majority: F1 {res[arm]['f1']:.3f} acc "

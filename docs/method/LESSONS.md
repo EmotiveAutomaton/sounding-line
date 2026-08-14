@@ -64,7 +64,7 @@ preserved whole.
   baseline row is off, stop modeling and hunt the construction; the n is the search map. (L72,
   L76, L79, L80)
 - **Protocol leverage dwarfs model leverage.** Measured here: split leakage 20-30 points;
-  pre-evaluation oversampling 32 macro points; input truncation side ~16 points; cross-year
+  pre-evaluation oversampling 32 macro points; the non-faithful-to-faithful recipe composite (input side + loss + epochs together) ~16 points; cross-year
   memorization ~3 blended points; class weighting 2-3; architecture 1-6; encoder version ≤0.3.
   A benchmark number is mostly its construction. (L82, L81, L86, L85, L106)
 - **A faithful arm reproduces the training FRAMEWORK, not the printed hyperparameters.**
@@ -75,7 +75,7 @@ preserved whole.
 - **Expect the published protocol to include the paper's own bugs — and then measure whether
   the bug has any leverage before citing it.** ScholaWrite's token-wrapper typo was faithfully
   reproduced, and the second referee then showed it inert: same tag on both sides in the
-  paper-era code, truncated away on 87 percent of inputs. Reproducing a bug is correct;
+  paper-era code, truncated away on 89 percent of inputs. Reproducing a bug is correct;
   attributing any gap to an unmeasured bug is not. (L77, L86, corrected by L108)
 - **A confirmatory arm implements the NAMED mechanism, not just the target number.** If the
   source says training-fold synonym replacement, the arm is that; reproducing the printed

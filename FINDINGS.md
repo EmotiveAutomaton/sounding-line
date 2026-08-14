@@ -2691,7 +2691,7 @@ the same corpus, and our local spreadsheets, with the candidate rules executed a
    .29/.45 contradicts the paper's own table, the same defect appearing in three of the four
    Majority cells. **Our measured 0.316 was correct behavior, not a composition error.**
 3. **Our extractor's rebuilt v4 lands at 3,236 of their 3,238**, cycle-1 count exact at
-   1,627, four classes exact, and the residual is a known ~11-unit word-usage/organization
+   1,627, three fine classes exact (a fourth only if the binary Content cell counts, L109), and the residual is a known ~11-unit word-usage/organization
    label difference between the released spreadsheets and the authors' snapshot, unrecoverable
    and worth 0.3 percent. Our old aligned-index parsing also had a real bug (comma-separated
    many-to-many indices truncated to the first, orphaning sentences into fake deletions).
@@ -3025,8 +3025,10 @@ against the published "5-fold", and the cells may be randomized-search maxima. *
 arm ran and missed**: fold count moves every arm by at most half a point with mixed sign
 (features .8948, embeddings .887 to .891 against .92/.93). That exhausts every public route:
 composition exact, features theirs, hyperparameters theirs, encoder refuted, alignment
-refuted at source, folds refuted. Final state: the Features row is reproduced (.895 against
-.90, inside the field's own reproduction band); for the embedding rows the honest label is
+refuted at source, folds refuted. Final state, corrected by the consensus fleet (L109): the faithful Features arm lands at
+.883 against their .90 (gap .017); the .895 previously labeled "the Features row" carries our
+19-dimension change block, which the paper's 5.1 does not include, so it is our
+features-plus-delta arm, not their row. For the embedding rows the honest label is
 **we did not reproduce them** (the referee's relabel, L107) with the gap bounded near three
 points — and the two surviving candidates turn out to be locally measurable after all:
 max-over-their-published-grid is queued, and the standard four-block pair encoding
@@ -3088,7 +3090,7 @@ two architectures of 0.044. Both faithful arms land in the mid-to-high 0.5s, bot
 the printed digit, and their three-point spread is the same architecture spread the leaky and
 small-split protocols showed. The claim replicates: this pipeline, run as published, produces
 0.55 to 0.58, and the paper's identical 0.64/0.64 pair is not a reachable outcome of the
-released materials. The ScholaWrite recreation row closes on that finding.
+released materials. The ScholaWrite recreation row closes on that finding. *(Superseded: CLOSURE-PENDING per L107/L109; the correction stands, the closure awaits the framework-faithful seed interval.)*
 
 **The provenance hunt completed the chain (next day).** A follow-up agent traced the 0.64 to
 its source and it is a **stale first-version number never recomputed**: byte-identical across
@@ -3102,7 +3104,7 @@ cannot be the 0.64's source; the vanished dataset revision had the shipped compo
 camera-ready's per-project table totals the shipped corpus exactly), so no earlier-data story
 survives either. The tag typo's status is corrected by the second referee (L108): the
 paper-era code carried the same wrong closing tag on BOTH sides, so there was never a
-train/eval mismatch to reproduce, 87 percent of inputs truncate the tag away entirely, and
+train/eval mismatch to reproduce, 89 percent of inputs truncate the tag away entirely, and
 the current repository's one-sided "fix" created the mismatch it appears to document. The
 typo is inert; nothing about the 0.64 gap can be attributed to it, which strengthens the
 irreproducibility reading. One ambiguity remains in
@@ -3880,7 +3882,7 @@ predictions rescored on the leaked and leak-free pair subsets separately.
 |---|---|---|
 | whole documents (verbatim) | 0 | **49** |
 | paragraphs | 0.2% | **20.5%** |
-| consecutive pairs | 0.2% | **15.7% (651 of 4,132)** |
+| consecutive pairs | 0.2% | **15.8% (651 of 4,131 scored)** |
 
 | member | blended (L104) | leak-free pairs | leaked pairs |
 |---|---|---|---|
@@ -4022,13 +4024,15 @@ explains both), and L107's "their accuracy sits where our arm sits" compared the
 our F1 with our accuracy never recorded — struck, with the real check (does our F1-minus-
 accuracy gap reproduce their inversion) assigned to the framework arms. The ScholaWrite tag
 typo is **inert and was never a train/eval mismatch**: the paper-era code used the same wrong
-tag on both sides, 87 percent of inputs truncate it away entirely, and the current repo's
+tag on both sides, 89 percent of inputs truncate it away entirely, and the current repo's
 "fix" created the mismatch it appears to document — so "we reproduce their bug" is vacuous
 and the irreproducibility reading strengthens. The teacher-forcing input variant is gold-label
 by construction and dead code besides; it enters the specification curve only as a labelled
-upper bound. And the BST reference's own README overclaimed: the sum-to-one validation holds
-for Experiment 1 and **fails for all 95 Experiment-2 triples**, whose file carries no stimulus
-grouping at all — no per-stimulus Experiment-2 comparison can be built from it as it stands.
+upper bound. And a BST claim of this entry was itself REVERSED by the consensus fleet (L109): the
+Experiment-2 reference file is fully valid — its triples are three contiguous 95-row goal
+blocks (stimulus i = rows i, i+95, i+190), all 95 sum to one within the digitization band, all
+four model columns likewise, and 285 equals the paper's own 95 stimuli times three, complete.
+The "all fail" result here was a grouping-stride artifact.
 
 **Found — the clean sweeps, as results.** The framework-faithful reimplementation is verified
 equivalent to their Trainer (parameter grouping identical against the reference implementation,
@@ -4051,6 +4055,68 @@ one-sixth-decoded stimulus set. Environment versions now ride in every model-arm
 GPU program the two referees have queued exceeds one night on one card; the ordering puts the
 PAN member corrections first, the ScholaWrite framework arms second, and the batch-8 and grid
 arms behind them.
+
+## L109 · The consensus fleet: twenty-one claims settled unanimously, three record corrections, and a reachable test-set gate found in our own corpus store
+
+**Hypothesis.** *(His order: a fleet of Opus agents returning one cohesive picture instead of
+serial upheavals.)* The Phase-1 record, stated as twenty-five numbered claims, survives
+independent multi-agent adjudication — or the dissents localize what doesn't.
+
+**Method.** Nine Opus specialists on a fixed ballot, every claim deep-verified at source by at
+least two where coverage allowed, a meta-auditor verifying that previously claimed fixes exist
+in the code, new findings capped at three per agent and severity-gated. Nine of nine returned;
+1.1M agent tokens; the tally is the deliverable.
+
+**The tally.** **Twenty-one of twenty-five claims CONFIRMED with no dissent**, most with
+computed or read evidence stronger than the record's own: the ScholaWrite stale-number chain
+(now with an adversarial-distribution analysis showing only implausible concentrations reach
+0.64), the tag-typo inertness (both scripts, both paper-era commits, ~89 percent truncation),
+the framework-arm equivalence, the teacher-forcing dead code, the ArgRewrite composition and
+Majority contradictions (STRENGTHENED: the printed binary and fine Majority rows are mutually
+incompatible with each other — disjoint implied corpus sizes — independent of Table 4, which
+removes the last motivation for the oversampling inference), every PAN contamination and
+metric claim, the BST action set, factorization, goal-prior contradiction, and decode gate,
+and both methods standards.
+
+**The three refutations, all of our record, all corrected this pass.**
+1. **The ".895 Features row reproduced" claim was wrong** (two agents, independently): the
+   .895 runs carry our nineteen-dimension change block, which the paper's feature list does
+   not include. The faithful Features arm is 0.883 against their 0.90 — a 1.7-point gap, not
+   a reproduction. Entry, TODO row, and the phase scorecard corrected.
+2. **The Experiment-2 reference file is VALID after all** (two agents, decisively): its rows
+   are three contiguous 95-row goal blocks — stimulus i lives at rows i, i+95, i+190 — and
+   under that grouping all 95 human triples and all four model columns sum to one within the
+   digitization band. The second referee's "all fail" was a grouping-stride artifact, its
+   printed range was wrong besides, and 285 equals the paper's own 95 stimuli times three,
+   complete. My README narrowing is reversed; as a bonus, the Experiment-1 collision caveat
+   is discharged (all twelve collisions are cross-stimulus), so all 300 Exp-1 rows are usable.
+3. **The lessons file carried two wrong statements** — the unqualified "unreachable from its
+   own per-class table" survived in the shelf after being corrected in the entries, and the
+   "~16 points for truncation side" credited one lever with a three-lever composite. Both
+   folded.
+
+**The capped findings channel, triaged.** The largest: **the PAN 2025 test split, with truth
+labels, is in our corpus store and verified genuine** (the printed test baselines reproduce
+from it to 0.0004) — so a published *test-set* exact-value gate is locally reachable after
+all, and the fully-specified 2025 winner (single deberta-base, every hyperparameter stated) is
+the cleanest recreation target the phase has ever had; the build is filed. Wiring: the
+grid-max stage pointed at the wrong output directory (fixed before it burned 150 minutes per
+pass) and the settling filter upgraded to paragraph keys (245 documents dropped, residual
+overlap at the within-year floor). Numbers: the labels= fix is verified INERT on v4 (no class
+ever misses a fold at these sizes — a clean null), the truncation figure corrects 87→89
+percent, the pair denominator 4,132→4,131, the reweight 0.5939→0.5947, "four classes exact"
+→ three, and the strict-tier PAN leak-free numbers are 0.8235/0.8355 (neither-paragraph-seen,
+n = 3,127). Closure-language residue in two entries struck. Table 4 carries two internal
+arithmetic errors of its own, recorded. Easy's within-year leak is paragraph-level only
+(pair-level 0.24 percent), and the held-back easy/medium test priors are shifted from the
+released splits, both recorded for any future use.
+
+**Means.** This is the cohesive picture the fleet was sent for: the record's *findings about
+the papers* are now settled to a depth no single referee reached, the residue is three
+localized corrections all applied, and the go-forward set is short — the corrected GPU arms
+already queued, the BST decode-to-99 gate, and the newly-found 2025 test-gate build. Nothing
+in the tally reopens a settled claim, and the claim list itself becomes the Phase-1
+assessment's spine.
 
 ## L4 · Can weak effects be stacked into a detector?
 

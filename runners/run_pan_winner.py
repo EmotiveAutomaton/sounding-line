@@ -176,14 +176,15 @@ def main() -> None:
         if args.drop_leaked_2023:
             import hashlib                                             # noqa: PLC0415
 
-            def pkey(a, b):
-                return hashlib.md5((a.strip() + "|PAIR|" + b.strip()).encode()).hexdigest()
-            vp = {pkey(q["paragraphs"][i], q["paragraphs"][i + 1])
-                  for q in val for i in range(len(q["paragraphs"]) - 1)}
+            def hkey(t):
+                return hashlib.md5(t.strip().encode()).hexdigest()
+            # paragraph-keyed (the fleet's upgrade): a pair-keyed filter left 1.6 percent of
+            # validation paragraphs reachable in other pairings; paragraph keys drop ~245 docs,
+            # keep 97.1 percent, and push residual overlap to the within-year floor
+            vp = {hkey(x) for q in val for x in q["paragraphs"]}
             before = len(extra)
             extra = [q for q in extra
-                     if not any(pkey(q["paragraphs"][i], q["paragraphs"][i + 1]) in vp
-                                for i in range(len(q["paragraphs"]) - 1))]
+                     if not any(hkey(x) in vp for x in q["paragraphs"])]
             print(f"drop-leaked-2023: {before - len(extra)} contaminated docs removed, "
                   f"{len(extra)} kept", flush=True)
         n23 = len(extra)
