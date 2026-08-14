@@ -101,6 +101,8 @@ def main() -> None:
                     help="fp32 training. DeBERTa-v1's disentangled attention overflows under "
                          "fp16 autocast (finfo(half).min masked_fill), so its arm runs fp32")
     ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--out-tag", default="",
+                    help="suffix for protocol variants so arms never clobber")
     ap.add_argument("--no-2023", action="store_true",
                     help="drop the PAN23 augmentation (the paper uses it for medium+hard)")
     args = ap.parse_args()
@@ -153,7 +155,7 @@ def main() -> None:
     train = load_split(PAN24 / args.difficulty / "train")
     n23 = 0
     if not args.no_2023 and args.difficulty in ("medium", "hard"):
-        extra = load_split(PAN23_HARD if args.difficulty == "hard" else PAN23_HARD)
+        extra = load_split(PAN23_HARD)   # hard only; a medium arm needs dataset2 wired
         n23 = len(extra)
         train = train + [{**p, "id": "p23_" + p["id"]} for p in extra]
     pairs = [(p["paragraphs"][i], p["paragraphs"][i + 1], p["changes"][i])
@@ -190,11 +192,11 @@ def main() -> None:
     dl = DataLoader(Pairs(pairs), batch_size=args.batch, shuffle=True,
                     collate_fn=collate, num_workers=0)
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=0.0)
-    sched = None
-    if args.warmup > 0:
-        from transformers import get_linear_schedule_with_warmup      # noqa: PLC0415
-        total = (len(dl) // args.accum + 1) * args.epochs
-        sched = get_linear_schedule_with_warmup(opt, int(total * args.warmup), total)
+    # one recipe for every member (the referee caught roberta on linear decay while ernie ran
+    # constant): linear decay to zero always, warmup ratio from the arg
+    from transformers import get_linear_schedule_with_warmup          # noqa: PLC0415
+    total = (len(dl) // args.accum + 1) * args.epochs
+    sched = get_linear_schedule_with_warmup(opt, int(total * args.warmup), total)
     use_amp = dev == "cuda" and not args.no_amp
     scaler = torch.amp.GradScaler("cuda", enabled=use_amp)
 
@@ -243,7 +245,7 @@ def main() -> None:
     preds = predict_validation()
     f1 = pooled_macro_f1(truths, [preds[p["id"]] for p in val_ok])
     gate = GATES_HARD.get(args.encoder)
-    (RESULTS / f"{args.encoder}_{args.difficulty}_val_preds.json").write_text(
+    (RESULTS / f"{args.encoder}_{args.difficulty}{args.out_tag}_val_preds.json").write_text(
         json.dumps(preds), encoding="utf-8", newline="\n")
     out = {"arm": args.encoder, "checkpoint": name, "difficulty": args.difficulty,
            "macro_f1_final_epoch": f1, "per_epoch_validation": history,
@@ -254,7 +256,7 @@ def main() -> None:
            "hypers": {"lr": args.lr, "batch_effective": args.batch * args.accum,
                       "epochs": args.epochs, "max_len": args.max_len,
                       "dropout": args.dropout, "warmup": args.warmup}}
-    (RESULTS / f"{args.encoder}_{args.difficulty}.json").write_text(
+    (RESULTS / f"{args.encoder}_{args.difficulty}{args.out_tag}.json").write_text(
         json.dumps(out, indent=1), encoding="utf-8", newline="\n")
     print(f"\n{args.encoder} {args.difficulty}: final {f1:.4f} vs gate {gate} "
           f"(delta {f1 - gate:+.4f}); best epoch {max(history):.4f}")

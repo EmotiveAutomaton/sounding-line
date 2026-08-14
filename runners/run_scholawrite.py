@@ -60,6 +60,13 @@ def main() -> None:
     ap.add_argument("--batch", type=int, default=16,
                     help="effective batch size; their checkpoint-30760 is epoch 10 at 16 OR "
                          "epoch 5 at 8, the provenance hunt's one live lever")
+    ap.add_argument("--seed", type=int, default=42,
+                    help="the referee's multi-seed rule: no fine-tune verdict from one seed")
+    ap.add_argument("--hf-defaults", action="store_true",
+                    help="framework-faithful optimization, the referee's catch: their Trainer "
+                         "silently supplies linear LR decay to zero, max_grad_norm 1.0, and "
+                         "weight-decay exclusion of bias/LayerNorm; this arm reproduces all "
+                         "three plus weight_decay 0.01")
     ap.add_argument("--out-tag", default="",
                     help="suffix appended to the output filename, for protocol variants")
     args = ap.parse_args()
@@ -190,8 +197,8 @@ def main() -> None:
         name = {"bert": "bert-base-uncased", "roberta": "roberta-base"}[args.arm]
         acquire_gpu_lock()
         if args.faithful:
-            torch.manual_seed(42)
-            np.random.seed(42)
+            torch.manual_seed(args.seed)
+            np.random.seed(args.seed)
         tok = AutoTokenizer.from_pretrained(name)
         model = AutoModelForSequenceClassification.from_pretrained(
             name, num_labels=len(labels))
@@ -219,7 +226,21 @@ def main() -> None:
 
         tr_loader = make_loader(train, True)
         te_loader = make_loader(test, False)
-        opt = torch.optim.AdamW(model.parameters(), lr=2e-5)
+        if args.hf_defaults:
+            no_decay = ("bias", "LayerNorm.weight")
+            groups = [
+                {"params": [q for n_, q in model.named_parameters()
+                            if not any(nd in n_ for nd in no_decay)], "weight_decay": 0.01},
+                {"params": [q for n_, q in model.named_parameters()
+                            if any(nd in n_ for nd in no_decay)], "weight_decay": 0.0},
+            ]
+            opt = torch.optim.AdamW(groups, lr=2e-5)
+            from transformers import get_linear_schedule_with_warmup  # noqa: PLC0415
+            sched = get_linear_schedule_with_warmup(
+                opt, 0, len(tr_loader) * args.epochs)
+        else:
+            opt = torch.optim.AdamW(model.parameters(), lr=2e-5)
+            sched = None
         loss_fn = None
         if args.faithful:
             from sklearn.utils.class_weight import compute_class_weight  # noqa: PLC0415
@@ -242,7 +263,11 @@ def main() -> None:
                     loss = model(input_ids=ids.cuda(), attention_mask=mask.cuda(),
                                  labels=ys.cuda()).loss
                 loss.backward()
+                if args.hf_defaults:
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
                 opt.step()
+                if sched is not None:
+                    sched.step()
                 if bi % 100 == 0:
                     print(f"  epoch {ep} batch {bi} loss {float(loss):.3f}", flush=True)
         model.eval()
@@ -253,9 +278,15 @@ def main() -> None:
                 preds.extend(out_l.argmax(-1).cpu().tolist())
                 truths.extend(ys.tolist())
         f1 = float(f1_score(truths, preds, average="weighted", zero_division=0))
+        acc = float(sum(int(t == q) for t, q in zip(truths, preds)) / max(len(truths), 1))
         out = {"arm": args.arm, "n_train": len(train), "n_test": len(test),
-               "weighted_f1": f1, "gate": GATES[args.arm], "epochs": args.epochs,
+               "weighted_f1": f1, "accuracy": acc, "gate": GATES[args.arm],
+               "epochs": args.epochs, "seed": args.seed,
+               "hf_defaults": bool(args.hf_defaults),
                "split": split_note, "faithful": bool(args.faithful)}
+        (RESULTS / f"{args.arm}{suffix}_preds.json").write_text(json.dumps(
+            {"labels": labels, "y_true": truths, "y_pred": preds}),
+            encoding="utf-8", newline="\n")
         if args.faithful:
             from sklearn.metrics import classification_report            # noqa: PLC0415
             rep = classification_report([labels[t] for t in truths],

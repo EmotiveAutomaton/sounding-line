@@ -46,7 +46,32 @@ fold it; never append a contradiction.
   training.** PAN deduplicates within-year and not across years: the winner's own recipe put
   16 percent of validation pairs verbatim into training, and the models scored 1.0 on them.
   A leaked-subset score at ceiling is the memorization signature; rescore blended results on
-  the leak-free subset before quoting capability. (L106)
+  the leak-free subset before quoting capability. Exact-hash is a lower bound; the
+  near-duplicate pass (MinHash or 13-gram Jaccard) is part of the gate. (L106, L107)
+- **No MATCHED / NOT-MATCHED verdict on a fine-tune arm from one seed.** Single-seed
+  fine-tuning moves task metrics one to two points routinely (Dodge 2020; Mosbach 2021);
+  the minimum standard is three seeds, mean and spread reported, the published value judged
+  against the seed interval, and irreproducibility stated as a bounded gap, never a binary.
+  (L107; every prior ScholaWrite arm was seed 42, n = 1)
+- **A faithful arm reproduces the training FRAMEWORK, not the printed hyperparameters.**
+  Framework defaults are load-bearing and unstated by construction: HF Trainer silently
+  supplies linear LR decay to zero, gradient clipping at 1.0, and weight-decay exclusion of
+  bias/LayerNorm. If the authors used Trainer, match Trainer — a hand-rolled loop matching
+  the four printed numbers is a different pipeline. (L107, the ScholaWrite reopening)
+- **A confirmatory arm implements the NAMED mechanism, not just the target number.** If the
+  source says training-fold synonym replacement, the arm is that; reproducing the printed
+  cell by pre-CV duplication — a mechanism the source disclaims — is a coincidence read as
+  confirmation, the modeling face of the criterion that cannot fail. Check the inference
+  against every sibling cell it also constrains before calling it demonstrated. (L107, the
+  ArgRewrite downgrade)
+- **State which of reproduce / replicate / robustness a row attempts** (same artifacts, same
+  methods on our artifacts, or our methods entirely), because "not reproducible" means a
+  different thing in each; and **re-check paper, repo, and dataset versions before closing a
+  row** — a revision posted after a bug fix can silently invalidate a closure. (L107)
+- **Persist predictions from every model arm** — id, truth, prediction, score — so any later
+  split (contamination, per-class, per-covariate) is minutes instead of a retrain. And
+  **author contact is a required step before declaring irreproducibility**, with the dated
+  attempt and any non-response recorded as data. (L107)
 - **When a number resists, try to reproduce it by breaking your pipeline the way you suspect
   theirs was broken.** The duplication probe (seeded pre-CV oversampling) turned an augmentation
   inference into a demonstration by reproducing the "impossible" majority row to the digit; its

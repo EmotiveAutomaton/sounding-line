@@ -1058,6 +1058,44 @@ STAGES += [
      "why": "fifteen llama chapters at a 900-word floor so the reader-side cell has power"},
 ]
 
+# ── THE REFEREE'S ARMS (2026-08-14, Opus adversarial audit at his order): the tests each
+# reopened verdict demands, queued the same day.
+STAGES += [
+    {"name": "pan_ernie_hard_sched", "est": 150,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "ernie", "--warmup", "0.06"],
+     "produces": "results/pan_winner/ernie_hard.json", "needs": [],
+     "why": "referee: members ran under different LR schedules (constant-LR result archived); "
+            "one recipe for all three before the vote"},
+    {"name": "pan_roberta_no2023", "est": 130,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "roberta", "--warmup", "0.06",
+             "--no-2023", "--out-tag", "_no2023"],
+     "produces": "results/pan_winner/roberta_hard_no2023.json", "needs": [],
+     "why": "referee: the settling test — a single-year member near the leak-free 0.82-0.84 "
+            "means the PAN23 augmentation is pure memorization"},
+    {"name": "sw_bert_hfd_s42", "est": 300,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert", "--faithful",
+             "--hf-defaults", "--epochs", "10", "--seed", "42", "--out-tag", "_hfd_s42"],
+     "produces": "results/scholawrite/bert_faithful_hfd_s42.json", "needs": [],
+     "why": "referee: their Trainer supplied linear decay, clipping, and decay exclusions "
+            "our loop dropped; framework-faithful arm, seed 1 of 3"},
+    {"name": "sw_bert_hfd_s43", "est": 300,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert", "--faithful",
+             "--hf-defaults", "--epochs", "10", "--seed", "43", "--out-tag", "_hfd_s43"],
+     "produces": "results/scholawrite/bert_faithful_hfd_s43.json", "needs": [],
+     "why": "seed 2 of 3: no fine-tune verdict from one seed"},
+    {"name": "sw_bert_hfd_s44", "est": 300,
+     "cmd": [PY, "runners/run_scholawrite.py", "--arm", "bert", "--faithful",
+             "--hf-defaults", "--epochs", "10", "--seed", "44", "--out-tag", "_hfd_s44"],
+     "produces": "results/scholawrite/bert_faithful_hfd_s44.json", "needs": [],
+     "why": "seed 3 of 3; the published value is judged against the seed interval"},
+    {"name": "arg_v4_gridmax_binary", "est": 150,
+     "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--grid",
+             "--tasks", "binary", "--out", "v4_gridmax_binary.json"],
+     "produces": "results/argrewrite/v4_gridmax_binary.json", "needs": [],
+     "why": "referee: if the published cells are grid maxima, max-over-their-36-point-grid "
+            "is the like-for-like number for the embedding rows"},
+]
+
 
 
 def rel(p: str) -> Path:

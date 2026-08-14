@@ -2605,8 +2605,10 @@ the project's GitHub issues. Every load-bearing claim below is from a READ sourc
    classification report's weighted-average row.
 3. **The published 0.64 is not self-consistent.** The paper's own per-class table (14 classes
    listed; Scientific Accuracy silently absent) reweights to about 0.59 under the full test
-   distribution and about 0.51 under the small split. No class distribution reaches 0.64
-   from the paper's own per-class values.
+   distribution and about 0.51 under the small split. No *plausible* test distribution
+   reaches 0.64 from the paper's own per-class values (the referee's correction, L107: the
+   literal maximum over arbitrary distributions is 0.83, so the original "no class
+   distribution" wording overstated).
 4. The training code pins a dataset revision (`anonymous_data`) that outsiders cannot read;
    our gated access can, so the membership diff is runnable here and gates interpretation.
 
@@ -2837,6 +2839,15 @@ non-augmented classes within a dime of published, the five augmented classes exe
 mechanism shown rather than merely inferred. The binary .93 gate stays live, with the
 difference features queued there as the last lever.
 
+**Referee downgrade (2026-08-14, L107): the demonstration reverts to inference, with
+counter-evidence logged.** The paper's §5.4.1 names training-fold synonym replacement at
+about 3.4×, a mechanism that cannot leak across folds, where this arm was pre-CV exact
+duplication at 1.49× — hitting their cell by a mechanism the source disclaims is a
+coincidence, not a confirmation. And the inference fails on the sibling table: the
+subsentential fine and binary Majority cells deviate in the wrong direction for a systematic
+oversample. What survives: the released 3,238 cannot produce the printed fine-Majority row
+under any construction yet found, and the four non-augmented classes are within a dime.
+
 ## L82 · The full leak-free grid: cross-project transfer is project-dependent and far below the published number, and the small split fails for both architectures
 
 **Hypothesis.** *(G141.)* The leave-one-project-out folds give the leak-free difficulty of
@@ -3015,10 +3026,12 @@ arm ran and missed**: fold count moves every arm by at most half a point with mi
 (features .8948, embeddings .887 to .891 against .92/.93). That exhausts every public route:
 composition exact, features theirs, hyperparameters theirs, encoder refuted, alignment
 refuted at source, folds refuted. Final state: the Features row is reproduced (.895 against
-.90, inside the field's own reproduction band), the embedding rows are not reproducible from
-the published description with the gap bounded near three points, and the surviving
-candidates are randomized-search optimism and the unstated vector combination, reachable only
-through the authors. An
+.90, inside the field's own reproduction band); for the embedding rows the honest label is
+**we did not reproduce them** (the referee's relabel, L107) with the gap bounded near three
+points — and the two surviving candidates turn out to be locally measurable after all:
+max-over-their-published-grid is queued, and the standard four-block pair encoding
+[u; v; |u−v|; u⊙v] is the owed build. "Reachable only through the authors" was premature;
+author contact remains the step after both arms run. An
 exhaustive follow-up sweep confirmed no processed pair file for this corpus exists anywhere
 public (their project domain is dead and was never archived with data), and found one
 corroboration: the only public third-party preprocessor for these spreadsheets reads exactly
@@ -3890,6 +3903,74 @@ percent of decisions. The lesson is banked: any augmentation from a sibling edit
 exact-hash dedup against every evaluation split before training, and a leaked-subset score of
 1.0 is the memorization signature to check for. The deberta arm and the vote will be rescored
 on both subsets when they land.
+
+## L107 · The adversarial referee: three of four Phase-1 verdicts move, and the demanded arms are queued
+
+**Hypothesis.** *(His order: an Opus referee, mandated to disagree, over the four assessments
+he was uncomfortable with.)* The closures survive independent adversarial reading of the
+primary sources, or they don't.
+
+**Method.** One Opus subagent, primary sources fetched and read end to end (five papers, two
+supplements, three code repositories, version histories, issue trackers), our runners read as
+code, its own contamination check run blind to L106's.
+
+**Found, by assessment.**
+
+1. **ScholaWrite: the correction is CONFIRMED and strengthened, the closure is PREMATURE.**
+   Confirmed: the reweighting arithmetic reproduces (0.5947 full test, 0.5059 small); two new
+   internal checks land (the printed macro-average is exactly the mean of the fourteen listed
+   classes, proving the absent class is genuinely absent; the paper's own printed accuracy of
+   0.56 sits where our faithful arm sits, 0.08 below its printed F1); the 0.64 is
+   byte-identical across revisions; the bug attribution to the senior author holds. Broken:
+   our "faithful" loop dropped three things their Trainer supplied silently — **linear LR
+   decay to zero, gradient clipping at 1.0, and weight-decay exclusion of bias/LayerNorm** —
+   so the schedule axis was never swept; the released `include_prev_label` input variant was
+   never run; every arm is one seed; and our runner persisted neither predictions nor
+   accuracy. One overstatement corrected in place: L77's "no class distribution reaches 0.64"
+   is literally false (the claim is no *plausible* distribution). One live alternative logged:
+   the per-class table first appears in the paper version posted eleven days after the bug
+   fix, so it may describe a post-fix run while 0.64 describes the pre-fix one. **Three
+   framework-faithful seeds are queued tonight.**
+2. **ArgRewrite: the oversampling *demonstration* is DOWNGRADED to inference with
+   counter-evidence.** The paper's own §5.4.1 names training-fold synonym replacement at
+   ~3.4× — a mechanism that cannot leak across folds — where our arm was pre-CV exact
+   duplication at 1.49×; reproducing their cell by a mechanism the source disclaims is a
+   coincidence read as confirmation, the modeling face of the criterion-that-cannot-fail. And
+   the inference fails on the sibling table: two of the three defective Majority cells deviate
+   in the *wrong* direction for a systematic oversample. What stands: the released corpus
+   cannot produce the printed fine-Majority row under any known construction, composition is
+   exact, and the four non-augmented classes are within a dime. For the embedding rows the
+   honest label is "we did not reproduce it": two locally reachable routes were never run —
+   **max-over-their-published-grid** (queued) and the standard four-block pair encoding
+   `[u; v; |u−v|; u⊙v]` (build owed).
+3. **PAN: L106 independently confirmed** (its own blind check: 20.5% of validation paragraphs,
+   0.982/0.981 on doubly-seen pairs), L104's "nothing here has the inflation signature"
+   formally falsified, and **two defects of ours caught**: the two landed members trained
+   under different LR schedules (a conditional scheduler bug — constant-LR ernie archived, the
+   consistent rerun queued), and a dead ternary in the augmentation path. The settling test is
+   queued: a no-augmentation member; if it lands at the leak-free level, the winning recipe's
+   augmentation is pure memorization. Noted for the record: roberta's epoch-4 value (0.8424)
+   sits within 10⁻⁴ of the notebook's printed cell.
+4. **BST: three design corrections before the model was built.** The MDP has **nine actions
+   including Stay at cost −1** (the eight-move set is the stimulus-generation description, a
+   different object); the 36 conditions factor as 4 goal configurations × 3 path groups × 3
+   obstacle/route conditions; and the goal prior is a **fourth internal source contradiction**
+   (main text: the three marked goals; appendix: all non-obstacle squares), which silently
+   sets K in the γ reparameterization (1.5 versus ~1.007) — both readings will run as arms.
+   Confirmed correct: the γ footnote, the Boltzmann convention, H = M2 at γ = 1, the BSCV
+   parameters, the Exp-3 pipeline. And the Fig-3 extraction now has its decisive known-answer
+   gate: it must produce the paper's own 99 unique stimuli, which the current chained decode
+   (34) does not yet.
+
+**Means.** The referee's nine missing concepts are banked in LESSONS (multi-seed verdicts;
+framework-faithful means the framework, not the printed hyperparameters; contamination as a
+pre-training gate with a near-duplicate pass still owed; the reproduce/replicate/robustness
+vocabulary per row; specification curves over point verdicts; confirmatory arms implement the
+named mechanism; predictions persisted always; artifact versions re-checked before closing;
+author contact as a required step with the non-response as data; irreproducibility stated as
+a bounded effect). Every demanded test is queued or built into today's plan; the Phase-1
+table rows carry their reopened statuses; and the assessment package for the curator now
+includes this audit beside the closures it moved.
 
 ## L4 · Can weak effects be stacked into a detector?
 
