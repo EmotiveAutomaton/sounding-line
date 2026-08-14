@@ -3848,6 +3848,49 @@ fact: surface polish trend and reader-trajectory mobility are different quantiti
 different family structure, which the theory afterword now carries, and it argues for
 reporting the two instruments separately rather than as one "movement" story.
 
+## L106 · The PAN overshoot explained: cross-year contamination, with the leaked pairs scored at exactly 1.0
+
+**Hypothesis.** *(The curator's discomfort with L104's overshoot, made testable.)* PAN datasets
+are rebuilt from the same Reddit source across years; if the PAN23-hard training documents the
+winner's recipe adds overlap the PAN24-hard validation split, every validation number trained
+under that recipe — theirs and ours — is inflated by memorization.
+
+**Method.** Exact-hash overlap at three granularities (whole documents, paragraphs, consecutive
+pairs) between each training set and the validation split; then the landed members' saved
+predictions rescored on the leaked and leak-free pair subsets separately.
+
+| overlap with PAN24-hard validation | PAN24-hard train | PAN23-hard train |
+|---|---|---|
+| whole documents (verbatim) | 0 | **49** |
+| paragraphs | 0.2% | **20.5%** |
+| consecutive pairs | 0.2% | **15.7% (651 of 4,132)** |
+
+| member | blended (L104) | leak-free pairs | leaked pairs |
+|---|---|---|---|
+| roberta | 0.8558 | 0.8273 | **1.0000** |
+| ernie | 0.8650 | 0.8381 | **0.9984** |
+
+*Caption: the organizers deduplicated within-year and not across years. On the 651 pairs seen
+verbatim in training, both members are perfect or one decision short of it — the memorization
+signature — while leak-free capability sits at 0.83 to 0.84.*
+
+**Found.** The overshoot's mechanism is measured: about sixteen percent of validation pairs are
+verbatim training pairs under the winner's own augmentation recipe, and the models simply
+recall them. The winner's published validation table (our gates) carries the same blend by
+construction. Whether the held-back test set shares the contamination is unknowable from
+outside, and the printed 0.863 inherits that question.
+
+**Means.** Three readings, kept separate. As a recreation, the gate comparison stands and
+sharpens: same recipe, same leak, both sides blended the same way, our members one to two
+points over their cells. As a capability claim, the honest numbers are the leak-free 0.827 and
+0.838, and those are what any layering experiment builds on. And as a literature fact, this is
+the fifth paper artifact of the phase: a shared task whose cross-year augmentation (used by its
+winners, encouraged by continuity) silently overlaps its own evaluation split at sixteen
+percent of decisions. The lesson is banked: any augmentation from a sibling edition gets
+exact-hash dedup against every evaluation split before training, and a leaked-subset score of
+1.0 is the memorization signature to check for. The deberta arm and the vote will be rescored
+on both subsets when they land.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

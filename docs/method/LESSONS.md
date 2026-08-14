@@ -42,6 +42,11 @@ fold it; never append a contradiction.
 - **A held-back test set makes the printed headline unreachable by construction; the notebook's
   own validation table is the honest gate.** Check which split a published number lives on before
   adopting it — TIRA-style shared tasks never release theirs. (L102)
+- **Sibling-edition augmentation gets exact-hash dedup against every evaluation split before
+  training.** PAN deduplicates within-year and not across years: the winner's own recipe put
+  16 percent of validation pairs verbatim into training, and the models scored 1.0 on them.
+  A leaked-subset score at ceiling is the memorization signature; rescore blended results on
+  the leak-free subset before quoting capability. (L106)
 - **When a number resists, try to reproduce it by breaking your pipeline the way you suspect
   theirs was broken.** The duplication probe (seeded pre-CV oversampling) turned an augmentation
   inference into a demonstration by reproducing the "impossible" majority row to the digit; its
