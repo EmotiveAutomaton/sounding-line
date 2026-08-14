@@ -158,25 +158,58 @@ for ri, py0 in enumerate(row_origins):
             for r in range(max(0, r0), min(GRID_H - 1, r1) + 1):
                 wall_cells.add((wc, r))
 
-        # chain the path from the start by 8-adjacency over the atom cells
+        # chain the path from the start over the atom cells: exhaustive DFS for a Hamiltonian
+        # path (greedy misordered wherever the path doubled back — the L108 defect). Dash
+        # atoms must be strictly 8-adjacent; number atoms tolerate one extra column of slack
+        # because multi-digit glyph groups straddle cells.
         atom_cells = {}
         for kind, col, row, _ in path_atoms:
             atom_cells.setdefault((col, row), []).append(kind)
         start = next(((c, r) for (c, r), ks in atom_cells.items() if "start" in ks), None)
+
+        def adjacent(a, b):
+            dx, dy = abs(a[0] - b[0]), abs(a[1] - b[1])
+            loose = any(k.startswith("jp") for k in atom_cells[a] + atom_cells[b])
+            return (dx <= (2 if loose else 1)) and dy <= 1 and (dx or dy)
+
         chain, jps = [], {}
         if start:
-            seen = {start}
-            cur = start
-            chain = [cur]
-            while True:
-                nxt = [n for n in atom_cells
-                       if n not in seen and max(abs(n[0] - cur[0]), abs(n[1] - cur[1])) == 1]
-                if not nxt:
-                    break
-                nxt.sort(key=lambda n: (abs(n[0] - cur[0]) + abs(n[1] - cur[1])))
-                cur = nxt[0]
-                seen.add(cur)
-                chain.append(cur)
+            nodes = list(atom_cells)
+
+            def label_cost(acc):
+                # the paper's own step numbers are the ground truth for ordering: a correct
+                # chain places judgment label k at index k-1
+                cost = 0
+                for i, cellc in enumerate(acc):
+                    for k in atom_cells.get(cellc, []):
+                        if k.startswith("jp"):
+                            cost += abs(i - (int(k[2:]) - 1))
+                return cost
+
+            hold = {"best": [], "cost": 10 ** 9}
+
+            def dfs(cur, seen, acc):
+                if len(acc) == len(nodes):
+                    c = label_cost(acc)
+                    if (len(acc), -c) > (len(hold["best"]), -hold["cost"]):
+                        hold["best"], hold["cost"] = list(acc), c
+                    return
+                progressed = False
+                for n in nodes:
+                    if n not in seen and adjacent(cur, n):
+                        progressed = True
+                        seen.add(n)
+                        acc.append(n)
+                        dfs(n, seen, acc)
+                        acc.pop()
+                        seen.remove(n)
+                if not progressed:
+                    c = label_cost(acc)
+                    if (len(acc), -c) > (len(hold["best"]), -hold["cost"]):
+                        hold["best"], hold["cost"] = list(acc), c
+
+            dfs(start, {start}, [start])
+            chain = hold["best"]
             for i, cellc in enumerate(chain):
                 for k in atom_cells.get(cellc, []):
                     if k.startswith("jp"):
