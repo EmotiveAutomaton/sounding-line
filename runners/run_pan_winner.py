@@ -97,6 +97,9 @@ def main() -> None:
                     help="linear warmup ratio. Unstated by the paper; roberta-base collapsed "
                          "to constant predictions without it at their lr, so its arm runs 0.06 "
                          "as a recorded divergence-fix assumption")
+    ap.add_argument("--no-amp", action="store_true",
+                    help="fp32 training. DeBERTa-v1's disentangled attention overflows under "
+                         "fp16 autocast (finfo(half).min masked_fill), so its arm runs fp32")
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--no-2023", action="store_true",
                     help="drop the PAN23 augmentation (the paper uses it for medium+hard)")
@@ -192,7 +195,8 @@ def main() -> None:
         from transformers import get_linear_schedule_with_warmup      # noqa: PLC0415
         total = (len(dl) // args.accum + 1) * args.epochs
         sched = get_linear_schedule_with_warmup(opt, int(total * args.warmup), total)
-    scaler = torch.amp.GradScaler("cuda", enabled=dev == "cuda")
+    use_amp = dev == "cuda" and not args.no_amp
+    scaler = torch.amp.GradScaler("cuda", enabled=use_amp)
 
     def predict_validation() -> dict[str, list[int]]:
         model.eval()
@@ -206,7 +210,7 @@ def main() -> None:
                     a, b = zip(*vp[j:j + 64])
                     enc = tok(list(a), list(b), truncation=True, max_length=args.max_len,
                               padding=True, return_tensors="pt").to(dev)
-                    with torch.amp.autocast("cuda", enabled=dev == "cuda"):
+                    with torch.amp.autocast("cuda", enabled=use_amp):
                         logits = model(**enc).logits
                     preds.extend(logits.argmax(-1).tolist())
                 out[p["id"]] = preds
@@ -220,7 +224,7 @@ def main() -> None:
         for bi, (enc, y) in enumerate(dl):
             enc = {k: v.to(dev) for k, v in enc.items()}
             y = y.to(dev)
-            with torch.amp.autocast("cuda", enabled=dev == "cuda"):
+            with torch.amp.autocast("cuda", enabled=use_amp):
                 loss = torch.nn.functional.cross_entropy(model(**enc).logits, y)
             scaler.scale(loss / args.accum).backward()
             if (bi + 1) % args.accum == 0:

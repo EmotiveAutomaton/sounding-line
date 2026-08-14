@@ -3775,6 +3775,79 @@ caveat the books result taught); the reader-side instrument's four-family arm is
 alongside. The adversarial lit check on positional structure under different post-trainings
 stays owed.
 
+## L104 · The PAN recreation, first two members: both land above their gates, and the third's crash is the encoder's own fp16 incompatibility
+
+**Hypothesis.** *(G147.)* The winner's three single-encoder arms, trained under their stated
+recipe with our named assumptions, should land on the notebook's validation table.
+
+**Method.** Consecutive-paragraph pairs from PAN24-hard plus PAN23-hard train (their
+augmentation), max length 256, lr 5e-5, dropout 0.25, ten epochs, effective batch 60, pooled
+two-class macro-F1 on the released validation split, per-epoch scores recorded.
+
+| member | our final (best epoch) | their validation gate | delta |
+|---|---|---|---|
+| roberta-base | 0.8558 (0.8620) | 0.8423 | **+0.014** |
+| ernie-2.0-base-en | 0.8650 (0.8701) | 0.8490 | **+0.016** |
+| deberta-base (v1) | rerunning fp32 | 0.8567 | — |
+
+*Caption: two of three members land one to two points above the notebook's own numbers. The
+majority vote (gate 0.8658) runs when the third lands.*
+
+**Found.** Two members reproduce above gate on the first working run each. Two instrument
+facts came out of the failures: roberta-base collapses to constant predictions at the paper's
+learning rate without warmup (the paper states none; a 6% warmup is recorded as the
+divergence-fix assumption, and their own result implies their run had some equivalent), and
+DeBERTa-v1's disentangled attention overflows under fp16 autocast (a masked-fill at half
+precision's minimum), so that arm runs fp32.
+
+**Means.** The recipe reconstruction is sound: with six unstated hyperparameters guessed at
+defaults, both completed members sit slightly above the printed validation cells, the
+direction expected if the authors' unstated choices were near-default and our per-epoch
+best-checkpoint numbers bracket their unstated selection rule. The overshoot is one to two
+points, not the twenty of a leak; nothing here has the inflation signature. Entry extends
+when the deberta arm and the vote land.
+
+## L105 · The window sweep and the four-family completion: the lone decay is window-bound, the two instruments dissociate, and no fiction family carries scaffolding after correction
+
+**Hypothesis.** *(The missed-test audit's catches: every fiction movement cell ran at one
+window; the reader-side and scaffolding arms had two-family coverage.)* Window robustness for
+all four signed cells; the reader-side variance across the full 2×2; scaffolding rates for
+the two new families.
+
+**Method.** The frozen instruments at the 40-word window (signed cells, four families); the
+reader-side series variance, books against each family; the ruler-gated scaffolding counters
+across all four fiction corpora.
+
+| cell | w80 (established) | w40 | reader-side variance vs books | scaffolding vs drafts |
+|---|---|---|---|---|
+| qwen instruct | +1.01, p = .007 | +0.64, p = .13 | **parity** (0.0096 vs 0.0099, p = .58) | 0.300, n.s. |
+| qwen reasoning | **−0.20, p = .044** | +0.20, p = .18 | flat (0.0045, p = .0005) | 0.148, n.s. |
+| llama reasoning | +0.32, p = .003 | **+0.42, p = .006** | flat (0.0031, p < 10⁻⁴) | 0.367, p = .045 uncorrected |
+| llama instruct | +0.82, p = 4×10⁻⁵ | **+0.37, p = 10⁻⁴** | flat (0.0026, n = 3, underpowered) | 0.217, n.s. |
+
+*Caption: the four generator families across three instruments. The llama reader-side cell has
+three usable chapters only (its pieces run short of the four-window floor); a 900-word top-up
+round is queued.*
+
+**Found.** Three corrections in one sweep. **The lone human-direction decay is window-bound**:
+at 40 words the qwen-reasoning cell flips to a positive nonsignificant trend, exactly how the
+books decay behaved (L89), while both llama rises are window-robust and the qwen-instruct rise
+weakens below significance. **The two instruments dissociate at four families**: the
+artifact-side rise holds in three of four, but reader-side mobility at book level belongs to
+qwen-instruct alone, so the earlier lockstep claim (two families, L101) does not survive its
+own extension, and what the reader's trajectory tracks is not what the surface trend tracks.
+**And no fiction family separates from human drafts on scaffolding once four comparisons are
+corrected** (the one nominal 0.045 does not survive), leaving the prompt-burden reading of
+L98 intact.
+
+**Means.** The movement family's honest summary shrinks to what is window-robust: llama-base
+fiction rises at both windows, humans decay where they decay (essays both windows, books wide
+only), and every other cell is window- or instrument-conditional. The decay exception of L103
+is now doubly qualified (one model, one window). The dissociation is the interesting new
+fact: surface polish trend and reader-trajectory mobility are different quantities with
+different family structure, which the theory afterword now carries, and it argues for
+reporting the two instruments separately rather than as one "movement" story.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

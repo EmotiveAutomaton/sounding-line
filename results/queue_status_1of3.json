@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-13 16:50",
+  "started": "2026-08-14 05:14",
   "stages": [
     {
       "name": "revision_purpose",
@@ -495,10 +495,42 @@
     },
     {
       "name": "pan_deberta_hard",
-      "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate)",
+      "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate); fp32 because its disentangled attention overflows under fp16 autocast",
+      "est_minutes": 240,
+      "status": "FAILED (exit 1)",
+      "log": "results\\pan_deberta_hard.log",
+      "minutes": 1.0
+    },
+    {
+      "name": "features_fiction_qwen_w40",
+      "why": "window-robustness cache, qwen family (the w80-only caveat)",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_ds_w40",
+      "why": "the ds sign cell at the second window; claim nothing from one window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_fiction_llama_w40",
+      "why": "window-robustness cache, llama family (the w80-only caveat)",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_llama",
+      "why": "unsigned magnitude cell for the llama-base instruct family",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "gen_fiction_llama_r3",
+      "why": "fifteen llama chapters at a 900-word floor so the reader-side cell has power",
       "est_minutes": 120,
       "status": "RUNNING",
-      "log": "results\\pan_deberta_hard.log"
+      "log": "results\\gen_fiction_llama_r3.log"
     }
   ],
   "shard": "1/3"

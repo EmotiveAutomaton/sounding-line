@@ -46,7 +46,7 @@ PROMPT = ("Write a chapter of literary fiction, roughly 1,200 words, third perso
           "{premise}. Prose only, no headings, no lists. Write it in full.")
 
 
-def gen(model: str, premise: str, seed: int) -> str | None:
+def gen(model: str, premise: str, seed: int, min_words: int = 700) -> str | None:
     req = urllib.request.Request(OLLAMA, data=json.dumps(
         {"model": model, "prompt": PROMPT.format(premise=premise), "stream": False,
          "think": False,
@@ -58,7 +58,7 @@ def gen(model: str, premise: str, seed: int) -> str | None:
     except Exception:                                                  # noqa: BLE001
         return None
     txt = re.sub(r"<think>.*?</think>", "", txt, flags=re.S).strip()
-    return txt if len(txt.split()) >= 700 else None
+    return txt if len(txt.split()) >= min_words else None
 
 
 def main() -> None:
@@ -67,6 +67,8 @@ def main() -> None:
                                         "deepseek-r1:7b=machine_fiction_ds")
     # expansion round (the near-significance policy): same premises at fresh seeds, pieces
     # numbered after the first round's, so a marginal cell can be re-run at doubled n frozen
+    ap.add_argument("--min-words", type=int, default=700,
+                    help="reject shorter generations; the reader-side arm needs 4x200-word windows, so top-up rounds pass 900")
     ap.add_argument("--round", type=int, default=0,
                     help="0 = first round (seeds 8000+); N shifts piece numbers and seeds")
     args = ap.parse_args()
@@ -85,9 +87,9 @@ def main() -> None:
             p = out_dir / f"piece_{n:02d}.txt"
             if p.exists():
                 continue
-            txt = gen(model, premise, seed=8000 + n)
+            txt = gen(model, premise, seed=8000 + n, min_words=args.min_words)
             if txt is None:
-                txt = gen(model, premise, seed=8500 + n)
+                txt = gen(model, premise, seed=8500 + n, min_words=args.min_words)
             if txt is None:
                 print(f"  {model} piece {n}: failed twice, skipped", flush=True)
                 continue

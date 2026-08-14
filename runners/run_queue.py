@@ -985,10 +985,11 @@ STAGES += [
      "produces": "results/pan_winner/roberta_hard.json", "needs": [],
      "why": "G147 member 1 of 3: roberta-base. Collapsed to constant predictions without "
             "warmup at their lr (archived _collapsed); 0.06 recorded as the divergence fix"},
-    {"name": "pan_deberta_hard", "est": 120,
-     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta"],
+    {"name": "pan_deberta_hard", "est": 240,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta", "--no-amp"],
      "produces": "results/pan_winner/deberta_hard.json", "needs": [],
-     "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate)"},
+     "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate); "
+            "fp32 because its disentangled attention overflows under fp16 autocast"},
     {"name": "pan_ernie_hard", "est": 120,
      "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "ernie"],
      "produces": "results/pan_winner/ernie_hard.json", "needs": [],
@@ -1045,6 +1046,16 @@ STAGES += [
      "cmd": [PY, "runners/run_g80_scaffolding.py", "--fiction"],
      "produces": "results/g80_scaffolding/summary_fiction4.json", "needs": [],
      "why": "prompt-burden rates for the two new families, extending L98"},
+]
+
+# ── 24H RESTOCK round 2 (2026-08-14 morning): the llama reader-cell top-up (its chapters run
+# short of the four-window floor, n = 3 in the four-family reader arm) and the fp32 deberta.
+STAGES += [
+    {"name": "gen_fiction_llama_r3", "est": 120,
+     "cmd": [PY, "runners/run_gen_fiction.py", "--models",
+             "llama3.1:8b=machine_fiction_llama", "--round", "2", "--min-words", "900"],
+     "produces": "corpora/machine_fiction_llama/piece_44.txt", "needs": [],
+     "why": "fifteen llama chapters at a 900-word floor so the reader-side cell has power"},
 ]
 
 

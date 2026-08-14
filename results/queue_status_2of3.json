@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-13 16:50",
+  "started": "2026-08-14 05:14",
   "stages": [
     {
       "name": "feature_visibility",
@@ -503,18 +503,28 @@
       "name": "pd2_signed_fiction_qwen_w40",
       "why": "the qwen sign cell at the second window; claim nothing from one window",
       "est_minutes": 15,
-      "status": "DEFERRED",
-      "missing": [
-        "results/features/machine_fiction_qwen_w40.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "features_fiction_r1l8_w40",
       "why": "window-robustness cache, r1l8 family (the w80-only caveat)",
       "est_minutes": 30,
-      "status": "RUNNING",
-      "log": "results\\features_fiction_r1l8_w40.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_llama_w40",
+      "why": "the llama sign cell at the second window; claim nothing from one window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "activation_variance_fiction4",
+      "why": "the reader-side cell for all four generator families; completes the 2x2 on the second instrument",
+      "est_minutes": 75,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-14 05:14",
+  "failed": []
 }

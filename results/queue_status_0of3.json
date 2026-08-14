@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-13 16:50",
+  "started": "2026-08-14 05:14",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -499,9 +499,43 @@
       "name": "pan_roberta_hard",
       "why": "G147 member 1 of 3: roberta-base. Collapsed to constant predictions without warmup at their lr (archived _collapsed); 0.06 recorded as the divergence fix",
       "est_minutes": 120,
-      "status": "RUNNING",
-      "log": "results\\pan_roberta_hard.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_vote_hard",
+      "why": "G147 the system: 2-of-3 majority vote against the .8658 validation gate",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "results/pan_winner/deberta_hard.json"
+      ]
+    },
+    {
+      "name": "features_fiction_ds_w40",
+      "why": "window-robustness cache, ds family (the w80-only caveat)",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_r1l8_w40",
+      "why": "the r1l8 sign cell at the second window; claim nothing from one window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_r1l8",
+      "why": "unsigned magnitude cell for the llama-base reasoning family",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g80_fiction4",
+      "why": "prompt-burden rates for the two new families, extending L98",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "0/3"
+  "shard": "0/3",
+  "finished": "2026-08-14 05:14",
+  "failed": []
 }
