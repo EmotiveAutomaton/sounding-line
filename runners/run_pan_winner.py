@@ -95,6 +95,11 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--encoder", choices=sorted(ENCODERS), default=None)
     ap.add_argument("--vote", action="store_true")
+    ap.add_argument("--member-tags", default="",
+                    help="comma list enc=tag choosing which arm's predictions each vote member "
+                         "reads, e.g. 'roberta=_headdrop25'. Untagged members read the plain "
+                         "file. Exists because the all-module dropout reading collapsed "
+                         "roberta, so the faithful member carries an out-tag")
     ap.add_argument("--difficulty", default="hard")
     ap.add_argument("--epochs", type=int, default=10)
     ap.add_argument("--batch", type=int, default=30)
@@ -102,6 +107,13 @@ def main() -> None:
     ap.add_argument("--max-len", type=int, default=256)
     ap.add_argument("--lr", type=float, default=5e-5)
     ap.add_argument("--dropout", type=float, default=0.25)
+    ap.add_argument("--dropout-scope", choices=["all", "head"], default="all",
+                    help="where the stated 0.25 applies. 'all' sets every Dropout module "
+                         "(encoder hidden + attention included); 'head' sets only the "
+                         "classification-head modules outside the base encoder, the usual "
+                         "meaning of a notebook's classifier dropout. The paper does not say; "
+                         "the all-module reading collapsed roberta-base (9-epoch flatline at "
+                         "0.352), so both readings run as arms")
     ap.add_argument("--warmup", type=float, default=0.0,
                     help="linear warmup ratio. Unstated by the paper; roberta-base collapsed "
                          "to constant predictions without it at their lr, so its arm runs 0.06 "
@@ -128,9 +140,10 @@ def main() -> None:
           flush=True)
 
     if args.vote:
+        tags = dict(kv.split("=", 1) for kv in args.member_tags.split(",") if "=" in kv)
         preds = {}
         for enc in sorted(ENCODERS):
-            f = RESULTS / f"{enc}_{args.difficulty}_val_preds.json"
+            f = RESULTS / f"{enc}_{args.difficulty}_val_preds{tags.get(enc, '')}.json"
             if not f.exists():
                 print(f"missing {f.name}; train the {enc} arm first")
                 sys.exit(1)
@@ -149,7 +162,10 @@ def main() -> None:
         gate = GATES_HARD["vote"]
         out = {"arm": "vote", "difficulty": args.difficulty, "macro_f1": f1,
                "gate_validation": gate, "delta": f1 - gate,
-               "members": sorted(ENCODERS)}
+               "members": sorted(ENCODERS),
+               "member_pred_files": {e: f"{e}_{args.difficulty}_val_preds"
+                                        f"{tags.get(e, '')}.json"
+                                     for e in sorted(ENCODERS)}}
         (RESULTS / f"vote_{args.difficulty}.json").write_text(
             json.dumps(out, indent=1), encoding="utf-8", newline="\n")
         print(f"VOTE {args.difficulty}: {f1:.4f} vs gate {gate} (delta {f1 - gate:+.4f})")
@@ -198,10 +214,15 @@ def main() -> None:
     tok = AutoTokenizer.from_pretrained(name)
     model = AutoModelForSequenceClassification.from_pretrained(name, num_labels=2)
     # the stated dropout, applied STRUCTURALLY (the second referee: roberta's lives at
-    # classifier.dropout, so the old hasattr check silently left it at 0.1 while recording 0.25)
+    # classifier.dropout, so the old hasattr check silently left it at 0.1 while recording 0.25).
+    # Scope 'head' = only Dropout modules outside the base encoder (the head), encoder dropouts
+    # left at their pretrained defaults.
+    base_prefix = model.base_model_prefix
     n_set = 0
-    for m in model.modules():
+    for mname, m in model.named_modules():
         if isinstance(m, torch.nn.Dropout):
+            if args.dropout_scope == "head" and mname.startswith(base_prefix):
+                continue
             m.p = args.dropout
             n_set += 1
     assert n_set > 0, "no Dropout modules found to set"
@@ -295,6 +316,7 @@ def main() -> None:
            "hypers": {"lr": args.lr, "batch_effective": args.batch * args.accum,
                       "epochs": args.epochs, "max_len": args.max_len,
                       "dropout_requested": args.dropout,
+                      "dropout_scope": args.dropout_scope,
                       "dropout_measured": measured_dropout,
                       "warmup": args.warmup, "amp": not args.no_amp},
            "versions": versions()}

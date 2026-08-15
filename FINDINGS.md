@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-08-12.**
+**Last updated: 2026-08-14.**
 
 ---
 
@@ -3845,8 +3845,11 @@ across all four fiction corpora.
 | llama instruct | +0.82, p = 4×10⁻⁵ | **+0.37, p = 10⁻⁴** | flat (0.0026, n = 3, underpowered) | 0.217, n.s. |
 
 *Caption: the four generator families across three instruments. The llama reader-side cell has
-three usable chapters only (its pieces run short of the four-window floor); a 900-word top-up
-round is queued.*
+three usable chapters only (its pieces run short of the four-window floor) and stays that way:
+the top-up failed outright — zero of forty-five pieces met the floor at 900 then at 800 words,
+each retried twice — so the model's own chapter length is the ceiling, and scaffolding the
+prompt to force length would break the same-prompt construction across families (the L98
+lesson). The cell is permanently underpowered at this model.*
 
 **Found.** Three corrections in one sweep. **The lone human-direction decay is window-bound**:
 at 40 words the qwen-reasoning cell flips to a positive nonsignificant trend, exactly how the
@@ -4117,6 +4120,156 @@ localized corrections all applied, and the go-forward set is short — the corre
 already queued, the BST decode-to-99 gate, and the newly-found 2025 test-gate build. Nothing
 in the tally reopens a settled claim, and the claim list itself becomes the Phase-1
 assessment's spine.
+
+## L110 · The framework arms land above the print: the 0.64 sits inside this pipeline's own training trajectory, not outside it
+
+**Hypothesis.** *(The referee's demanded closure arms, L107; the ScholaWrite row closes on the
+seed interval.)* The framework-faithful recipe — their split, their recipe reading, and the HF
+Trainer defaults our hand-rolled loop dropped (parameter-grouped weight decay excluding
+bias/LayerNorm, linear decay to zero, clipping at 1.0) — either reproduces the printed 0.64
+within the seed interval or fixes the direction of the correction.
+
+**Method.** The faithful arm with `--hf-defaults`, ten epochs at batch 16, seeds 42 and 43
+(44 in the queue), per-epoch test weighted-F1 recorded for the specification curve, predictions
+and accuracy persisted (the L108 requirements).
+
+| arm | weighted F1 | accuracy | vs the print (F1 .64 / acc .56) |
+|---|---|---|---|
+| **framework, seed 42** | **0.6595** | 0.6288 | **+0.020** / +0.069 |
+| **framework, seed 43** | **0.6592** | 0.6274 | **+0.019** / +0.067 |
+| hand-rolled faithful (L86) | 0.580 | never recorded | −0.060 |
+| epoch-5-at-batch-8 reading, pre-framework | 0.6094 | — | −0.031 |
+| non-faithful recipe (L68) | 0.741 | — | +0.101 |
+
+*Caption: the specification curve around the printed cell. The two framework seeds differ by
+0.0003 final; their per-epoch paths differ normally and converge at the end.*
+
+**Found.** Three things. **Restoring the Trainer defaults is worth +0.079** — the framework was
+the hand-rolled gap, and the faithful arm now lands two points ABOVE the print, not six below.
+**Both seeds cross 0.64 mid-trajectory** (seed 42 reads 0.637 at epoch four, seed 43 reads
+0.640 at epoch six), and the camera-ready per-class table's implied 0.5947 also sits on these
+trajectories (epoch five reads 0.591) — so an unstated earlier stopping rule prints their
+headline from exactly this pipeline. And **the F1-above-accuracy inversion reproduces in
+direction but not size** (ours 0.659 against 0.628, a 0.031 gap; theirs 0.64 against 0.56,
+a 0.080 gap) — the real check L108 assigned, half-passed.
+
+**Means.** The correction stands but its shape changes. The paper's numbers remain internally
+inconsistent — the camera-ready table and the headline cannot describe the same run — and no
+configuration we have run *produces* 0.64 at its stated final-epoch reading. But "stale and
+unreachable" softens to **bracketed**: the print sits inside the specification range
+(hand-rolled 0.580, batch-8 0.609, framework 0.659, non-faithful 0.741), and the
+checkpoint-rule reading reproduces it from inside the framework trajectory. That reading
+carries an explicit caution: it is the same shape as the PAN epoch-four coincidence L108
+retracted, and its discriminating test is already running — the paper prints 0.64 for BOTH
+architectures, so the roberta framework arm either also crosses 0.64 mid-trajectory (the
+reading survives) or never reaches it (the reading dies the same death). Closure waits on seed
+44, the roberta arm, and the batch-8 framework reading.
+
+## L111 · The corrected members split three ways: ernie above gate, roberta killed by the all-module reading of the printed dropout, deberta stopped by memory
+
+**Hypothesis.** *(L108's corrective arms: one recipe for all three members before the vote.)*
+Under the shared recipe — linear decay, warmup 0.06, and the stated dropout 0.25 now applied
+structurally and recorded as measured — all three members land above their validation gates.
+
+**Method.** Same-recipe reruns of the ernie and roberta members; dropout set over every Dropout
+module (the L108 false-provenance fix) and the achieved values written to the result file.
+
+| member | dropout actually applied | final (best) | gate | delta |
+|---|---|---|---|---|
+| **ernie, rescheduled** | all modules 0.25 | **0.8798 (0.8800)** | 0.8490 | **+0.031** |
+| roberta, structural | all modules 0.25 | 0.5890, flatlined at 0.352 through epoch nine | 0.8423 | −0.253 |
+| roberta, archived (L108) | pretrained defaults, 0.1 | 0.8558 (0.8620) | 0.8423 | +0.014 |
+| deberta, fp32 | — | CUDA out-of-memory, no result | 0.8567 | — |
+
+*Caption: the member set after the referee's corrections. The archived roberta row is the run
+whose recorded 0.25 was false provenance; it is kept as the default-dropout data point.*
+
+**Found.** Ernie reproduces above its gate under the corrected schedule, higher than its
+archived constant-LR run (0.8650), so the schedule fix cost nothing and the third member is
+landed. Roberta cannot train at all under the all-module reading of the winner's 0.25 — nine
+epochs at the constant-prediction floor with one late escape — while ernie trains fine under
+the identical setting, so the fragility is model-conditional, roberta's second knife-edge
+after the no-warmup collapse (L104). Deberta's fp32 arm ran out of memory at batch 30 on the
+shared card: infrastructure, not evidence.
+
+**Means.** The printed "dropout 0.25" is scope-ambiguous, and the scopes are not
+interchangeable. The collapse itself is the strongest scope inference available without their
+code: their roberta validation cell exists, and a configuration that flatlines cannot print
+0.8423 — so their run was NOT the all-module reading. All three members now rerun under the
+head-only scope (the usual meaning of a notebook's classifier dropout, encoder dropouts at
+pretrained defaults), the vote sits behind those three so it compares one recipe to one
+recipe, and deberta refits at micro-batch 12 with accumulation 5, preserving the effective
+batch and step count. The scope fork enters the record as a specification-curve axis, not a
+tuning choice.
+
+## L112 · Grid-max does not close the embedding rows: search optimism dies as the explanation, one local route left
+
+**Hypothesis.** *(Referee route 1, L107.)* If the published embedding cells are maxima over the
+paper's own printed hyperparameter grid, our maximum over the same 36-point grid is the
+like-for-like comparison and should close the roughly three-point gap.
+
+**Method.** The v4 extraction, binary task, all 36 grid points fitted per arm under the
+standard fold protocol, every candidate persisted with the published configuration's rank.
+
+| arm | grid max (F1 / acc) | their print | gap after grid | fixed config's rank |
+|---|---|---|---|---|
+| majority | .3688 / .5847 | .37 / .58 | exact | — |
+| features | .8836 / .8850 | .90 / .90 | −.016 | 4 of 36 |
+| use | .8774 / .8782 | .92 / .92 | **−.043** | 15 of 36 |
+| features + use | .8783 / .8792 | .93 / .93 | **−.052** | 26 of 36 |
+
+*Caption: the maximum any of their 36 printed hyperparameter settings can produce from the
+released corpus under our construction, against the printed cells.*
+
+**Found.** The grid maximum moves the Features cell by less than a point over the fixed
+config and leaves both embedding rows more than four points short. The published cells sit
+above every one of the 36 candidates on both embedding arms.
+
+**Means.** Search optimism over their own printed grid is refuted as the explanation of the
+embedding rows. "Not reproduced by us" stands, now with the gap bounded UNDER their grid, and
+one locally reachable route remains: the standard four-block pair encoding [u; v; |u−v|; u⊙v],
+queued at the published configuration. If it also lands short, the irreproducibility wording
+rests where the standing evidence already put it — the sentence aligner named only in a
+deleted line of their own source, the vector combination unstated — on exhausted public
+routes.
+
+## L113 · The unsigned mobility square completes: movement magnitude tracks post-training lineage exactly, and the three movement instruments measure three different things
+
+**Hypothesis.** *(The unsigned form's missing half; L103 completed the signed square, these
+are the two llama cells for the magnitude square.)* The magnitude instrument — does the
+polish bank MOVE more than the depth bank across position, sign ignored — either follows the
+signed form's three-of-four rise or draws its own family structure.
+
+**Method.** The frozen unsigned instrument (per-feature absolute-trend shuffle-z, polish
+against depth banks, Mann-Whitney), 80-word windows, on the two llama fiction cells; the qwen
+cells stand from L97.
+
+| cell (base × post-training) | n | polish z | depth z | p | verdict |
+|---|---|---|---|---|---|
+| qwen × instruct (L97) | 15 | 1.17 | 0.33 | 5.3 × 10⁻⁴ | MOVES-MORE |
+| qwen × reasoning-distill (L97) | 13 | 0.32 | 0.10 | 0.16 | NO-DIFFERENCE |
+| **llama × instruct** | 23 | 0.47 | −0.04 | **0.0081** | **MOVES-MORE** |
+| **llama × reasoning-distill** | 30 | 0.003 | −0.14 | 0.38 | **NO-DIFFERENCE** |
+
+*Caption: the completed magnitude square. Both instruct cells mobile on the polish side, both
+reasoning-distill cells positionally quiet, across two bases.*
+
+**Found.** A clean two-by-two alignment: instruction-tuned output carries mobile surface
+polish and R1-distilled output does not, on either base architecture. The unsigned form is
+the first movement instrument whose family structure IS the post-training lineage.
+
+**Means.** The three movement instruments now dissociate three ways, which is the sharpest
+version of L105's dissociation: the SIGNED trend is a strong machine default with one
+model-level exception (three of four cells rise, L103); the MAGNITUDE tracks post-training
+exactly (this entry); and the READER-side series belongs to one model alone (L105). G146's
+mechanism question gets its sharpest form — whatever reasoning distillation does, it
+suppresses the positional movement of surface polish without setting its sign — and the owed
+adversarial lit check inherits that query. Two cautions carried: both llama cells are
+80-word-window only, so the 40-word cells are queued before the alignment is called
+window-robust; and a four-cell pattern with its weakest member at p = 0.0081 is a pattern,
+not a law — under the record-wide multiplicity correction that cell loses significance, so
+the square stands on its two strong cells plus the alignment, and the w40 rerun is its
+robustness test.
 
 ## L4 · Can weak effects be stacked into a detector?
 

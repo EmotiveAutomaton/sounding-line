@@ -355,6 +355,11 @@ def main() -> None:
     ap.add_argument("--diff-features", action="store_true",
                     help="augment USE with explicit change features: E_old-E_new, |diff|, "
                          "cosine (the concatenation-never-states-the-change suspect)")
+    ap.add_argument("--pair-encoding", choices=["concat", "fourblock"], default="concat",
+                    help="how the two USE vectors combine. 'fourblock' is the standard "
+                         "[u; v; |u-v|; u*v] pair encoding, the referee's second locally "
+                         "reachable route for the unexplained embedding rows; ignored when "
+                         "--diff-features is set")
     ap.add_argument("--change-features", action="store_true",
                     help="add the 19 surface string-diff features (L85): token Jaccard, "
                          "sequence-matcher ratios, insert/delete/replace counts, length "
@@ -458,6 +463,10 @@ def main() -> None:
         denom = np.linalg.norm(E_old, axis=1) * np.linalg.norm(E_new, axis=1)
         cos = (np.sum(E_old * E_new, axis=1) / np.where(denom == 0, 1, denom))[:, None]
         X_use = np.hstack([E_old, E_new, d, np.abs(d), cos])
+    elif args.pair_encoding == "fourblock":
+        # the standard sentence-pair encoding [u; v; |u-v|; u*v] (InferSent/SBERT lineage),
+        # the second locally reachable route the referee named for the embedding rows
+        X_use = np.hstack([E_old, E_new, np.abs(E_old - E_new), E_old * E_new])
     else:
         X_use = np.hstack([E_old, E_new])
 
@@ -542,6 +551,7 @@ def main() -> None:
     out = {"n": len(events), "drop_raw": args.drop_raw, "tasks": run_tasks,
            "extract": args.extract, "grid": bool(args.grid),
            "balanced": bool(args.balanced), "diff_features": bool(args.diff_features),
+           "pair_encoding": args.pair_encoding,
            "change_features": bool(args.change_features),
            "oversample": args.oversample, "targets": TARGETS, "results": {},
            "fine_majority_note": (

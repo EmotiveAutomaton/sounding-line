@@ -529,9 +529,34 @@
       "name": "sw_bert_hfd_s42",
       "why": "referee: their Trainer supplied linear decay, clipping, and decay exclusions our loop dropped; framework-faithful arm, seed 1 of 3",
       "est_minutes": 300,
-      "status": "RUNNING",
-      "log": "results\\sw_bert_hfd_s42.log"
+      "status": "DONE",
+      "log": "results\\sw_bert_hfd_s42.log",
+      "minutes": 229.0
+    },
+    {
+      "name": "pan_vote_hard",
+      "why": "the system vote, now behind three same-recipe members (gate .8658)",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "results/pan_winner/roberta_hard.json",
+        "results/pan_winner/deberta_hard.json",
+        "results/pan_winner/ernie_hard.json"
+      ]
+    },
+    {
+      "name": "arg_v4_gridmax_binary",
+      "why": "referee: if the published cells are grid maxima, max-over-their-36-point-grid is the like-for-like number for the embedding rows",
+      "est_minutes": 150,
+      "status": "FAILED (exit 0, no produce)",
+      "log": "results\\arg_v4_gridmax_binary.log",
+      "minutes": 63.5
     }
   ],
-  "shard": "1/3"
+  "shard": "1/3",
+  "finished": "2026-08-14 11:24",
+  "failed": [
+    "arg_v4_gridmax_binary",
+    "gen_fiction_llama_r3"
+  ]
 }

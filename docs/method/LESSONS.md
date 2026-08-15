@@ -115,8 +115,17 @@ preserved whole.
   materials" with the gap bounded. (Overrides the referee import that briefly made contact a
   required step.)
 - **Overshooting a published gate diagnoses differently from undershooting**: overshoot says
-  inflation (leakage, duplication, memorization) somewhere; undershoot says a missing lever.
-  (L68, L75, L106)
+  inflation (leakage, duplication, memorization) somewhere, OR a stopping-rule difference —
+  check the per-epoch history before alleging inflation, because a print that sits inside the
+  faithful arm's own training trajectory is consistent with an unstated earlier checkpoint,
+  no inflation required. Undershoot says a missing lever. (L68, L75, L106, L110)
+- **A mid-trajectory crossing is a checkpoint-rule HYPOTHESIS, never a closure; its
+  discriminating test is the second architecture.** Both ScholaWrite framework seeds cross the
+  printed 0.64 mid-training and pass the table-implied 0.59 at epoch five — and the
+  same-shaped PAN epoch-four coincidence died when the second member's trajectory refuted it.
+  A paper printing one value for two architectures hands you the test: the reading survives
+  only if both trajectories cross it. Report the bracket (the print inside the specification
+  range) and run the second arm before believing the crossing. (L108, L110)
 
 ## §1d. Before training on blended corpora — benchmark data hygiene
 
@@ -234,6 +243,14 @@ preserved whole.
   predictions at lr 5e-5 without warmup; DeBERTa-v1's disentangled attention overflows under
   fp16 autocast. A member that diverges is rerun under a recorded stabilizer, never quietly
   dropped, and every member of an ensemble shares one recipe. (L104, L108)
+- **A printed regularizer without a stated scope is ambiguous, and the scopes are not
+  interchangeable; run the readings as arms and let a member-level collapse identify the
+  paper's.** All-module dropout 0.25 flatlined roberta-base for nine epochs while ernie
+  trained fine under the identical setting; head-only is the usual notebook meaning; and the
+  paper's roberta cell existing proves their run was not the all-module reading — the
+  strongest scope inference available without their code. Fragility is model-conditional
+  (roberta is also the member that collapsed without warmup), so a scope that one member
+  tolerates can kill another. (L111)
 - **Class/sample weighting is a small lever** (2-3 macro points against 24-point gaps); do not
   expect it to explain a collapse. (L81 supplement, in-house confirmation)
 - **Difference features rescue exactly the classes defined by small edits** (grammar/spelling
@@ -253,12 +270,21 @@ preserved whole.
   training at that moment. (L108)
 - **A clean exit that wrote no produce is a failure, not a DONE** — the queue enforces it; a
   silent per-corpus skip ran "DONE" for a day while its consumers sat deferred. (2026-08-13)
+  **And the exists() check retries up to ten seconds before declaring no-produce**: one stage
+  recorded a false failure with its produce on disk at the stage-end minute (mechanism
+  unidentified; filesystem visibility straight after subprocess exit is not trusted bare). A
+  false no-produce costs a 150-minute rerun; the poll costs nothing. (gridmax, 2026-08-14)
+- **The GPU lock's staleness window must exceed the longest queued training.** The 5-hour
+  window sat under the 5-to-7-hour framework arms, so a live holder's lock was reclaimed
+  mid-run, two trainings collided on the card, and the fp32 deberta arm OOMed. Raised to 9
+  hours; re-check whenever a longer stage enters the queue. (L111, gpulock.py)
 - **Underestimate runtimes 2-3×** and keep the queue loaded to the gear: second gear
   (`run_second_gear.sh`, the whole machine) carries about a day's worth of analyses, first gear
   (`run_first_gear.sh`, part of the CPU, the GPU mostly the curator's) four to eight hours of
   light stages. GPU stages serialize through `results/.gpu.lock` inside the runner, so shards
-  cannot collide on the card; expect lock-queue starvation to reorder stages and read per-stage
-  logs, not shard logs, for stage output. (TOOLS gear-scripts row; gears replaced day/night
+  cannot collide on the card while the lock's staleness window exceeds every stage's runtime
+  (see the staleness entry below); expect lock-queue starvation to reorder stages and read
+  per-stage logs, not shard logs, for stage output. (TOOLS gear-scripts row; gears replaced day/night
   2026-08-12)
 - **Bare-launched shells have no PATH** (`date`/`cat` silently empty, deadline arithmetic
   collapses); loop scripts export PATH first. Kill loops by the lock's WINDOWS pid (line 2) with

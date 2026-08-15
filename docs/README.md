@@ -12,7 +12,7 @@ context.
 | [`method/`](method/) | **LESSONS (read before designing or building anything)**, CONTROLS, LITERATURE, DEVIATIONS, NEURAL_ANALOGUES; its README maps each file to its reach-for moment | designing a test, building a runner, doubting a control, claiming novelty |
 | [`gates/`](gates/) | gate 0–3 material, curation batches, calibration | archaeology on an old gate |
 | [`sim/`](sim/) | traffic with the Ghost Scale Simulation, both directions, newest first | anything about mechanism |
-| [`design/`](design/) | SUCCESSOR, QUEUE, ENGINEERING_LOOP, DWELL_CORPUS | deciding what to build |
+| [`design/`](design/) | SUCCESSOR, QUEUE, ENGINEERING_LOOP, DWELL_CORPUS; its README states the split from method (method binds every test, design briefs one build) and maps each file to its build | deciding what to build |
 | [`archive/`](archive/) | superseded, nothing deleted | rarely |
 | `STATE.md` | agent orientation: hard constraints, the research program, the queue's state | first thing after a compaction, with FINDINGS and the theory folder |
 

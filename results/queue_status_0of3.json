@@ -497,8 +497,40 @@
       "name": "pan_deberta_hard",
       "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate); fp32 because its disentangled attention overflows under fp16 autocast",
       "est_minutes": 240,
+      "status": "FAILED (exit 1)",
+      "log": "results\\pan_deberta_hard.log",
+      "minutes": 234.4
+    },
+    {
+      "name": "features_fiction_ds_w40",
+      "why": "window-robustness cache, ds family (the w80-only caveat)",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_r1l8_w40",
+      "why": "the r1l8 sign cell at the second window; claim nothing from one window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_r1l8",
+      "why": "unsigned magnitude cell for the llama-base reasoning family",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g80_fiction4",
+      "why": "prompt-burden rates for the two new families, extending L98",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_roberta_leakfree23",
+      "why": "second referee: the IDENTIFIED settling arm \u2014 drop only the 210 contaminated PAN23 docs (97.3% of data kept); --no-2023 confounded leak with a 50% cut",
+      "est_minutes": 130,
       "status": "RUNNING",
-      "log": "results\\pan_deberta_hard.log"
+      "log": "results\\pan_roberta_leakfree23.log"
     }
   ],
   "shard": "0/3"

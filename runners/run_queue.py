@@ -983,12 +983,14 @@ STAGES += [
      "produces": "results/pan_winner/roberta_hard.json", "needs": [],
      "why": "G147 member 1 of 3: roberta-base. Collapsed to constant predictions without "
             "warmup at their lr (archived _collapsed); 0.06 recorded as the divergence fix"},
-    {"name": "pan_deberta_hard", "est": 240,
+    {"name": "pan_deberta_hard", "est": 300,
      "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta", "--no-amp",
-             "--warmup", "0.06"],
+             "--warmup", "0.06", "--batch", "12", "--accum", "5"],
      "produces": "results/pan_winner/deberta_hard.json", "needs": [],
      "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate); "
-            "fp32 because its disentangled attention overflows under fp16 autocast"},
+            "fp32 because its disentangled attention overflows under fp16 autocast. Micro-batch "
+            "12 x accum 5 (same effective 60, same step count): batch 30 fp32 OOMed on the "
+            "shared card 2026-08-14"},
     # pan_ernie_hard (no-warmup) DELETED 2026-08-14: superseded by pan_ernie_hard_sched;
     # two stages must never share a produces (second referee, item 1)
     # pan_vote_hard RELOCATED behind the corrected members (second referee, item 4)
@@ -1039,15 +1041,12 @@ STAGES += [
      "why": "prompt-burden rates for the two new families, extending L98"},
 ]
 
-# ── 24H RESTOCK round 2 (2026-08-14 morning): the llama reader-cell top-up (its chapters run
-# short of the four-window floor, n = 3 in the four-family reader arm) and the fp32 deberta.
-STAGES += [
-    {"name": "gen_fiction_llama_r3", "est": 120,
-     "cmd": [PY, "runners/run_gen_fiction.py", "--models",
-             "llama3.1:8b=machine_fiction_llama", "--round", "2", "--min-words", "800"],
-     "produces": "corpora/machine_fiction_llama/round2.done", "needs": [],
-     "why": "fifteen llama chapters at a 900-word floor so the reader-side cell has power"},
-]
+# ── 24H RESTOCK round 2 (2026-08-14 morning): the llama reader-cell top-up. RETIRED 2026-08-14
+# midday: llama3.1:8b produced ZERO chapters meeting the floor across two rounds (0/45 pieces
+# at 900 then at 800 words, each retried twice) — the model's chapter length is the ceiling,
+# and scaffolding the prompt to force length would break the same-prompt construction across
+# families (the G80/L98 lesson: prompt structure is itself a signal). The llama reader-side
+# cell stays n = 3, recorded as underpowered in L105's caption.
 
 # ── THE REFEREE'S ARMS (2026-08-14, Opus adversarial audit at his order): the tests each
 # reopened verdict demands, queued the same day.
@@ -1080,12 +1079,15 @@ STAGES += [
      "produces": "results/scholawrite/bert_faithful_hfd_s44.json", "needs": [],
      "why": "seed 3 of 3; the published value is judged against the seed interval"},
     {"name": "pan_vote_hard", "est": 5,
-     "cmd": [PY, "runners/run_pan_winner.py", "--vote"],
+     "cmd": [PY, "runners/run_pan_winner.py", "--vote", "--member-tags",
+             "roberta=_headdrop25,deberta=_headdrop25,ernie=_headdrop25"],
      "produces": "results/pan_winner/vote_hard.json",
-     "needs": ["results/pan_winner/roberta_hard.json",
-               "results/pan_winner/deberta_hard.json",
-               "results/pan_winner/ernie_hard.json"],
-     "why": "the system vote, now behind three same-recipe members (gate .8658)"},
+     "needs": ["results/pan_winner/roberta_hard_headdrop25.json",
+               "results/pan_winner/deberta_hard_headdrop25.json",
+               "results/pan_winner/ernie_hard_headdrop25.json"],
+     "why": "the system vote (gate .8658), behind three members under ONE recipe: head-scope "
+            "dropout 0.25, warmup 0.06. The all-module scope reading collapsed roberta "
+            "(9-epoch flatline), so scope joins schedule in the one-recipe rule"},
     {"name": "sw_roberta_hfd_s42", "est": 300,
      "cmd": [PY, "runners/run_scholawrite.py", "--arm", "roberta", "--faithful",
              "--hf-defaults", "--epochs", "10", "--seed", "42", "--out-tag", "_hfd_s42"],
@@ -1112,6 +1114,55 @@ STAGES += [
      "why": "referee: if the published cells are grid maxima, max-over-their-36-point-grid "
             "is the like-for-like number for the embedding rows"},
 ]
+
+# ── MIDDAY RESTOCK 2026-08-14: the dropout-scope fork (the all-module reading of the winner's
+# 0.25 collapsed roberta to a 9-epoch flatline while ernie trained fine under it, so the
+# printed number is scope-ambiguous; the head-only reading is the usual notebook meaning and
+# all three members rerun under it so the vote compares one recipe to one recipe), plus the
+# referee's second ArgRewrite route.
+STAGES += [
+    {"name": "pan_roberta_headdrop25", "est": 130,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "roberta", "--warmup", "0.06",
+             "--dropout-scope", "head", "--out-tag", "_headdrop25"],
+     "produces": "results/pan_winner/roberta_hard_headdrop25.json", "needs": [],
+     "why": "scope fork, member 1: head-only 0.25 (encoder dropouts at pretrained defaults). "
+            "All-module 0.25 flatlined 9 epochs at 0.352; default-0.1 scored 0.8558"},
+    {"name": "pan_ernie_headdrop25", "est": 150,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "ernie", "--warmup", "0.06",
+             "--dropout-scope", "head", "--out-tag", "_headdrop25"],
+     "produces": "results/pan_winner/ernie_hard_headdrop25.json", "needs": [],
+     "why": "scope fork, member 2: ernie landed 0.8798 under all-module 0.25, so its head-only "
+            "cell measures the scope lever on a member that tolerates both"},
+    {"name": "pan_deberta_headdrop25", "est": 300,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta", "--no-amp",
+             "--warmup", "0.06", "--batch", "12", "--accum", "5",
+             "--dropout-scope", "head", "--out-tag", "_headdrop25"],
+     "produces": "results/pan_winner/deberta_hard_headdrop25.json", "needs": [],
+     "why": "scope fork, member 3: fp32 (fp16 overflow), micro-batch 12 x accum 5 after the "
+            "batch-30 fp32 OOM; the vote's strongest member (.8567 gate)"},
+    {"name": "arg_v4_fourblock_binary", "est": 90,
+     "cmd": [PY, "runners/run_arg_replication.py", "--extract", "v4", "--pair-encoding",
+             "fourblock", "--tasks", "binary", "--out", "v4_fourblock_binary.json"],
+     "produces": "results/arg_baselines/v4_fourblock_binary.json", "needs": [],
+     "why": "referee route 2 for the embedding rows: the standard [u; v; |u-v|; u*v] pair "
+            "encoding at the published config. Grid-max over the bare concatenation landed "
+            "NOT-MATCHED (-.043/-.052), so this is the last unexplored local route"},
+]
+
+# ── The L113 window cells: the magnitude square's llama half ran wide-window only, and the
+# window lesson (LESSONS §3) says no fiction movement cell is believed at one window. Cheap
+# CPU stages over the cached w40 features; the qwen cells get their w40 reading in the same
+# sweep so the whole square carries both windows.
+for _fam in ("qwen", "ds", "llama", "r1l8"):
+    STAGES += [
+        {"name": f"pd34_fiction_{_fam}_w40", "est": 15,
+         "cmd": [PY, "runners/run_pd34_movement.py",
+                 "--cache", f"results/features/machine_fiction_{_fam}_w40.json",
+                 "--out", f"results/positional_polish/pd34_fiction_{_fam}_w40.json"],
+         "produces": f"results/positional_polish/pd34_fiction_{_fam}_w40.json",
+         "needs": [f"results/features/machine_fiction_{_fam}_w40.json"],
+         "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window"},
+    ]
 
 
 
@@ -1222,9 +1273,17 @@ def main() -> None:
                                    stderr=subprocess.STDOUT, timeout=max(st["est"], 5) * 60 * 6)
             entry["status"] = "DONE" if r.returncode == 0 else f"FAILED (exit {r.returncode})"
             # a clean exit that never wrote its produce is a failure, not a DONE — the fiction
-            # feature stages ran "DONE" for a day on a silent per-corpus skip (2026-08-12)
-            if entry["status"] == "DONE" and st.get("produces") and not rel(st["produces"]).exists():
-                entry["status"] = "FAILED (exit 0, no produce)"
+            # feature stages ran "DONE" for a day on a silent per-corpus skip (2026-08-12).
+            # The exists() check retries briefly: one stage (gridmax, 2026-08-14) recorded a
+            # false no-produce with the file on disk at the stage-end minute, so filesystem
+            # visibility immediately after subprocess exit is not trusted bare.
+            if entry["status"] == "DONE" and st.get("produces"):
+                for _ in range(20):
+                    if rel(st["produces"]).exists():
+                        break
+                    time.sleep(0.5)
+                if not rel(st["produces"]).exists():
+                    entry["status"] = "FAILED (exit 0, no produce)"
         except subprocess.TimeoutExpired:
             entry["status"] = "TIMEOUT"
         except Exception as e:                                        # noqa: BLE001
