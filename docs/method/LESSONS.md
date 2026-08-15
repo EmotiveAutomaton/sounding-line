@@ -307,8 +307,11 @@ preserved whole.
   burned before the evening check noticed. Size the deadline to the curator's stated window at
   launch, and treat "the engine exited" as a wake-and-decide event, never as background noise.
   (2026-08-13; the launcher's exit notification is the wake signal)
-- **Verify hash locks and read git-status deletion lines before any commit**; locked files live
-  at recorded paths in DEVIATIONS when they move. Never grep a pid out of tasklist by substring
-  (it matches memory columns); query the process list structurally. (the waiter bug, 08-10)
+- **Verify hash locks and read git-status deletion lines before any commit — from the repo
+  root, with the commit GATED on the check's exit.** A lock check chained before a commit
+  failed on a wrong working directory and the commit ran anyway (clean by luck, verified
+  post hoc). Locked files live at recorded paths in DEVIATIONS when they move. Never grep a
+  pid out of tasklist by substring (it matches memory columns); query the process list
+  structurally. (the waiter bug, 08-10; the ungated commit, 08-14)
 - **Long jobs run in the background and wake the agent**; results are written through the same
   message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)

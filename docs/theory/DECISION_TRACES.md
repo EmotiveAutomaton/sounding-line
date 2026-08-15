@@ -157,7 +157,7 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **DEFLATED TO REGISTER PLUS FAMILY (test, L39 then L101), and at four families the instrument DISSOCIATES from the artifact-side sign (test, L105).** Register-matched, book-level trajectory mobility belongs to qwen-instruct alone (parity with books, p = 0.58); the other three families sit flat (down to p < 10⁻⁴; the llama-instruct cell is n = 3 and permanently underpowered, the top-up having failed at two length floors because the model cannot write chapters that long), while on the artifact side three of the same four families rise. The provenance reading is dead; the lockstep-with-the-sign reading died at its own extension; what the reader's trajectory tracks is a different family structure than the surface trend, and the two instruments report separately from here |
 |   | | *(this row's history is a first-pass human-moves on 08-09, deflated to family on 08-13, and the lockstep reading killed by the four-family arm on 08-14)* |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
-| **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS AND NOW BY WINDOW (test, L74/L89), ruler-gated; ON MACHINE FICTION THE MAGNITUDE TRACKS POST-TRAINING LINEAGE EXACTLY (test, L97/L113).** On books at the 80-word window the asymmetry is large (polish z 0.52 against 0.013, p = 1.3 × 10⁻⁵); at the 40-word window it does not transfer (p = 0.15); short essays flat at both. Across the four generator families the square is clean; both instruct cells move more on the polish side (p = 5.3 × 10⁻⁴ and p = 0.0081), both reasoning-distill cells are positionally quiet, on either base architecture. The llama cells are wide-window only until the queued 40-word rerun. And the machine control reversed the human-side interpretation, see PD-3 |
+| **PD-34** | Polish-side features carry positional structure while depth-side features are stationary, the movement claim in the order-sensitive form | **SPLIT BY CORPUS AND BY WINDOW EVERYWHERE IT IS TESTED (test, L74/L89/L113/L116), ruler-gated.** On books at the 80-word window the asymmetry is large (polish z 0.52 against 0.013, p = 1.3 × 10⁻⁵); at the 40-word window it does not transfer (p = 0.15); short essays flat at both. On machine fiction the wide window drew a clean post-training split (instruct cells mobile, distill cells quiet, both bases) and the 40-word window scrambled it into a nominal base split, so neither alignment is a lineage law; the one cell mobile at both windows is qwen-instruct (p = 5.3 × 10⁻⁴ and 7.8 × 10⁻⁴), the same single model the reader-side instrument isolates. And the machine control reversed the human-side interpretation, see PD-3 |
 | **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), split by family at power (test, L97/L100), the 2×2 resolving the split into one model's exception (test, L103), and the window sweep qualifying it further (test, L105).** What is window-robust: both llama-base cells RISE at 80 and 40 words (up to p = 10⁻⁴). What is not: the qwen-instruct rise weakens below significance at 40, and the lone human-direction decay (the qwen-7B reasoning distill) vanishes at 40 exactly as the books decay did. Flatness is dead; rising polish is the machine default where anything is window-robust; the decay exception is one model at one window; provenance use stays dead. Artifact-side, no shared-representation caveat |
 | **PD-2** | Polish *decays* specifically, rather than merely moving | **SUPPORTED FOR HUMANS, AND THE DIRECTION DISSOCIATES BY PROVENANCE (test, L89/L90).** Essays decay at both windows (−0.17 and −0.14, p ≤ 4 × 10⁻⁶); books decay at the wide window only (−0.30, p = 0.012; null at 40); the machine corpus rises. The dissociation weakens the register-geography rival, which predicted a shared direction, and restores the reallocation account's essays evidence; the books' window-boundness keeps the long-form claim modest |
 | **PD-4** | Polish variance is larger in less practised makers | **OPEN** |
@@ -166,28 +166,30 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
 | **PD-32** | Translation is denser where the maker expects a distant reader | **OPEN** |
 
-**What the table says.** The movement family completed its cross, its window sweep, and now
-its magnitude square, and the three instruments turn out to measure three different things.
-Human polish falls across position where it falls (essays at both windows, books at the wide
-one only). The SIGN of machine polish movement is a rising default with one model-level
-exception (three of four cells rise; the lone decay is one model at one window). The
-MAGNITUDE of machine polish movement follows post-training lineage exactly; instruction-tuned
-output carries mobile polish and reasoning-distilled output sits positionally quiet, on
-either base, which is the cleanest lineage fact the family has produced. And the READER-side
-trajectory belongs to one model alone, so it echoes neither the sign nor the magnitude. Each
-instrument reports separately from here, and provenance use of any of them stays dead. The
-register-geography rival stays weakened; reallocation keeps its human evidence,
-undemonstrated as mechanism; G146's mechanism question is now sharp enough to state in one
-sentence, namely what reasoning distillation removes that leaves polish movement suppressed
-without setting its direction. The maker-signature half of the section is untouched by all
-of it: polish-side features carry the author at fixed topic on two corpora and two window
-sizes with no exceptions. The rest is the simulation's 6.5× decay asymmetry plus unrun
-tests, with the attraction/translation split gating the lot. Confidence: the essays decay
-and the signed family cells are replicated at doubled n and one bad test away as a set; the
-books decay stays window-bound; the magnitude-tracks-lineage square is one bad test away,
-its llama half wide-window only until the queued rerun; the essay-boundness results are one
-bad test away; the reallocation reading is contested by its own control; the rest is
-untested or sim-only.
+**What the table says.** The movement family completed its cross, its window sweep, and its
+magnitude square with the square's own window test, and the durable residue is smaller and
+stranger than any of the intermediate stories. Human polish falls across position where it
+falls (essays at both windows, books at the wide one only). The SIGN of machine polish
+movement is a rising default with one model-level exception (three of four cells rise; the
+lone decay is one model at one window). The MAGNITUDE of machine polish movement obeys no
+lineage law; the wide window read as a post-training split and the narrow window scrambled
+it, so magnitude claims are window-conditional everywhere they have been tested. What is
+robust at both windows is one cell; qwen-instruct's output is positionally mobile wherever
+it is measured, and it is the same single model whose text moves a reader model's internal
+trajectory (the two instruments that dissociated across families reconverge on this one
+model). Each instrument reports separately, and provenance use of any of them stays dead.
+The register-geography rival stays weakened; reallocation keeps its human evidence,
+undemonstrated as mechanism; G146's question is now about that one model, namely what makes
+its output positionally mobile on every instrument while every other cell is conditional.
+The maker-signature half of the section is untouched by all of it: polish-side features
+carry the author at fixed topic on two corpora and two window sizes with no exceptions. The
+rest is the simulation's 6.5× decay asymmetry plus unrun tests, with the
+attraction/translation split gating the lot. Confidence: the essays decay and the signed
+family cells are replicated at doubled n and one bad test away as a set; the books decay
+stays window-bound; the magnitude square is settled as window-conditional with the
+qwen-instruct constant one bad test away; the essay-boundness results are one bad test
+away; the reallocation reading is contested by its own control; the rest is untested or
+sim-only.
 
 ## §3. Automatic traces: leakage, concealment, and the channels that carry them
 

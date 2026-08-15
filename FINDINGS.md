@@ -4258,18 +4258,15 @@ reasoning-distill cells positionally quiet, across two bases.*
 polish and R1-distilled output does not, on either base architecture. The unsigned form is
 the first movement instrument whose family structure IS the post-training lineage.
 
-**Means.** The three movement instruments now dissociate three ways, which is the sharpest
-version of L105's dissociation: the SIGNED trend is a strong machine default with one
-model-level exception (three of four cells rise, L103); the MAGNITUDE tracks post-training
-exactly (this entry); and the READER-side series belongs to one model alone (L105). G146's
-mechanism question gets its sharpest form — whatever reasoning distillation does, it
-suppresses the positional movement of surface polish without setting its sign — and the owed
-adversarial lit check inherits that query. Two cautions carried: both llama cells are
-80-word-window only, so the 40-word cells are queued before the alignment is called
-window-robust; and a four-cell pattern with its weakest member at p = 0.0081 is a pattern,
-not a law — under the record-wide multiplicity correction that cell loses significance, so
-the square stands on its two strong cells plus the alignment, and the w40 rerun is its
-robustness test.
+**Means. Superseded on the window axis by its own robustness test (L116): the lineage
+alignment is wide-window-only** — at 40 words the square scrambles into a nominal base
+split, so neither alignment is a law, and the two-window-robust residue is qwen-instruct's
+mobility alone, converging with the reader-side instrument's isolation of the same model
+(L105). The original reading, kept for the record: the three movement instruments
+dissociate three ways (signed trend a machine default with one exception, L103; magnitude
+apparently tracking post-training, this entry; reader-side one model, L105), with the
+cautions that the llama cells were one-window and the weakest cell fails the record-wide
+correction. The caution was the operative half.
 
 ## L114 · The Fig-3 decode passes its known-answer gate: 99 of 99 stimuli, label-perfect, every path a legal walk
 
@@ -4325,6 +4322,70 @@ still be caught downstream. The ruler lesson is the entry's method: every mechan
 measured in the raw glyph coordinates before being coded against, and the final identity
 rule needed no tolerance at all for 96 of 99 because the corrected decode made same-stimulus
 prefixes byte-identical.
+
+## L115 · The four-block arm lands short too: the embedding rows close as not reproducible, every public route now measured
+
+**Hypothesis.** *(Referee route 2, the last locally runnable candidate for ArgRewrite's
+embedding cells.)* The standard four-block sentence-pair encoding [u; v; |u−v|; u⊙v] at the
+published configuration closes the roughly three-point gap the bare concatenation leaves.
+
+**Method.** The v4 extraction, binary task, four-block USE encoding, standard fold protocol.
+
+| arm | four-block (F1 / acc) | bare concat | grid max | their print | remaining gap |
+|---|---|---|---|---|---|
+| use | **.8866 / .8884** | .8809 | .8774 | .92 / .92 | **−.033** |
+| features + use | **.8860 / .8878** | .8783* | .8783 | .93 / .93 | **−.044** |
+| features (unchanged arm) | .8828 / .8844 | — | .8836 | .90 / .90 | −.017 |
+| majority (sanity) | .3688 / .5847 | — | — | .37 / .58 | exact |
+
+*Caption: the last local route. Four-block beats both the bare concatenation and the grid
+maximum by about a point and still lands three to four points short of the printed cells.*
+
+**Found.** The encoding upgrade is real but small: plus one point, minus the gap. No
+locally runnable construction reaches the printed embedding rows.
+
+**Means.** The embedding rows close as **not reproduced by us from the released materials**,
+with the gap bounded at three to four points and every public route now measured rather than
+presumed: composition exact, features theirs, hyperparameters theirs, encoder refuted across
+checkpoints, sentence alignment refuted at source, folds refuted, grid-max refuted, and now
+the standard pair encoding refuted. The surviving candidates (search optimism beyond their
+printed grid, an unstated vector combination) are not publicly resolvable, and the wording
+stands on that exhausted-routes evidence per the standing ruling. The ArgRewrite recreation
+is fully settled: everything reachable reproduced or bounded, nothing left to run.
+
+## L116 · The magnitude square does not survive its window test: the lineage alignment is wide-window-only, and one model is the only constant
+
+**Hypothesis.** *(L113's own named robustness test.)* The clean post-training alignment of
+the magnitude instrument (instruct cells mobile, distill cells quiet) holds at the 40-word
+window, or it is window-bound like most of the movement family.
+
+**Method.** The frozen unsigned instrument over the four fiction families at the 40-word
+window, cached features, ruler gates as always.
+
+| cell (base × post-training) | w80 verdict | w40 polish z / depth z | w40 p | w40 verdict |
+|---|---|---|---|---|
+| qwen × instruct | MOVES-MORE | 0.83 / 0.11 | **0.0008** | **MOVES-MORE** |
+| qwen × reasoning-distill | no difference | 0.22 / 0.01 | 0.037 | MOVES-MORE (uncorr.) |
+| llama × instruct | MOVES-MORE | 0.08 / 0.29 | 0.27 | NO-DIFFERENCE |
+| llama × reasoning-distill | no difference | 0.19 / 0.09 | 0.081 | NO-DIFFERENCE |
+
+*Caption: the magnitude square at both windows. At 40 words the qwen-base cells move and the
+llama-base cells sit quiet, the mirror of the wide window's post-training split.*
+
+**Found.** The alignment scrambles: at the narrow window the square reads as a BASE split
+(both qwen cells nominally mobile, both llama cells quiet), where the wide window read as a
+post-training split. Two windows produce two different clean alignments, so neither is a
+lineage law. The one cell robust at both windows is qwen-instruct.
+
+**Means.** L113's lineage claim retracts to window-bound, exactly the outcome its own
+caution named — the correction is folded there. What survives is sharper than what died:
+**qwen-instruct's positional mobility is the movement family's one two-window-robust
+magnitude fact, and it is the same single model the reader-side instrument isolated
+(L105)** — the two instruments that dissociated across families reconverge on this one
+model. G146's question updates a second time: not what distillation removes, but what makes
+this one model's output positionally mobile in ways every other cell shows only
+conditionally. The ds cell's nominal 0.037 does not survive the standing correction and is
+recorded as uncorrected.
 
 ## L4 · Can weak effects be stacked into a detector?
 
