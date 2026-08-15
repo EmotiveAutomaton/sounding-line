@@ -65,12 +65,12 @@ consensus fleet (L107, L108, L109 — 21 of 25 ballot claims unanimous):
   CLOSURE-PENDING on the framework-faithful three-seed arms now in the queue. The tag typo is
   inert (never a train/eval mismatch; ~89% truncation). The 0.741 cell is the non-faithful
   recipe.
-- **ArgRewrite**: composition exact (3,236/3,238); binary Majority to the digit; the printed
-  Majority rows are mutually incompatible with each other (fleet's strengthening), so the fine
-  printed rows are unexplainable by any hidden dataset; the oversampling claim is inference
-  only (their §5.4.1 names fold-safe synonym replacement); faithful Features arm .883 vs .90
-  (the old ".895 reproduced" claim wrongly included our change block); embedding rows "not
-  reproduced by us," with grid-max queued and the four-block encoding the owed build.
+- **ArgRewrite: FULLY SETTLED (L115), nothing left to run.** Composition exact (3,236/3,238);
+  binary Majority to the digit; the printed Majority rows mutually incompatible (fleet's
+  strengthening); the oversampling claim inference only; faithful Features .883 vs .90; the
+  embedding rows TERMINALLY CLOSED as not reproduced from the released materials — grid-max
+  refuted (fixed config ranks 15/26 of 36) and the four-block encoding refuted (+1 point,
+  still 3-4 short), every public route measured, gap bounded.
 - **PAN 2024**: two members above their validation gates under the corrected recipe, but all
   validation numbers (theirs and ours) blend ~16% cross-year memorization (leaked pairs score
   1.0); strict leak-free capability 0.8235/0.8355. Corrected same-recipe members + vote +
@@ -94,9 +94,12 @@ preregistration (the delta stated in every arm; the 19-dim change block as decla
 **The artifact-side science meanwhile (the movement family, settled at four generator
 families):** rising positional polish is the machine default (3 of 4 base × post-training
 cells, window-robust in the llama cells), the lone human-direction decay is one model at one
-window, the reader-side instrument dissociates from the artifact side (mobility is
-qwen-instruct-specific), the scaffolding instrument measures prompt burden not provenance,
-and the no-maker control is clean at n=108 with the reader family-neutral (weakness 6's
+window, the magnitude square is window-conditional (the wide-window post-training alignment
+scrambled at 40 words, L116), and the one constant across instruments and windows is
+qwen-instruct — mobile on the artifact side at both windows AND the reader-side instrument's
+lone mobile family, so the dissociated instruments reconverge on that single model (G146's
+re-aimed question). The scaffolding instrument measures prompt burden not provenance, and
+the no-maker control is clean at n=108 with the reader family-neutral (weakness 6's
 load-bearing cell closed, weakness 4 narrowed). The maker-signature results (PD-33 family)
 stand untouched. Function words carry state at the pre-registered bar (PD-11 at power) and
 survive the fair induction control on the two strong ladders (G76/L94).
@@ -108,10 +111,15 @@ survive the fair induction control on the two strong ladders (G76/L94).
   paths still checked). Kill by winpid tree; sweep orphans; standalone GPU arms need queue
   membership, checkpoint-resume, or the sweep keep-list. The queue asserts produces-path
   uniqueness at load; a clean exit with no produce records FAILED.
-- **In flight at rewrite time:** second gear mid-burn on the referee arms — pan deberta
-  (fp32+warmup), roberta rerun (structural dropout), then ernie-sched, vote, leak-free arm,
-  three framework-faithful ScholaWrite seeds + roberta arm + batch-8 reading, grid-max, the
-  wqd 2025 test gate, w40/fiction completion cells, llama top-up round.
+- **In flight (relaunched 2026-08-14 night, 24h):** second gear on the decision-critical GPU
+  block — the ScholaWrite roberta framework arm (the checkpoint-reading's discriminating
+  test) + seed 44 + batch-8, the deberta refit (micro-batch 12 × accum 5 after the OOM), the
+  leak-free settling arm, three head-scope dropout members + the rewired vote, and the three
+  wqd 2025 TEST-set gates (hard 0.830, easy 0.958, medium 0.823). GPU work exceeds the
+  window by design; the queue continues next lineage. First gear now runs `run_queue.py
+  --no-gpu` (trainings and sustained generation hold for second gear); the GPU lock's
+  staleness window is 9h; the regear waiter cancels by FILE (`results/.regear.cancel`),
+  never by pid.
 - **The audit-history index:** L26 (the first fleet), L61 (recreation re-audit), L93 (the
   methods pass), L107/L108 (the two referees), L109 (the consensus fleet). The old solo-audit
   scope table this file used to carry is superseded by that chain.

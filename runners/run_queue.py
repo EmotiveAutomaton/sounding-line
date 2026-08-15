@@ -1149,6 +1149,22 @@ STAGES += [
             "NOT-MATCHED (-.043/-.052), so this is the last unexplored local route"},
 ]
 
+# ── NIGHT RESTOCK 2026-08-14: the wqd runner carries pinned printed TEST gates for all
+# three difficulties (easy 0.958, medium 0.823, hard 0.830) and the 2025 edition is
+# within-year clean at every split (0.2-0.4%, L108/L109; the runner's own contamination
+# gate aborts above 1% regardless) — so the phase's reachable test-set exact-value gate
+# count goes from one to three for the cost of two stages.
+STAGES += [
+    {"name": "pan25_wqd_easy", "est": 150,
+     "cmd": [PY, "runners/run_pan25_winner.py", "--difficulty", "easy"],
+     "produces": "results/pan25_winner/wqd_easy.json", "needs": [],
+     "why": "G148 test-set gate 2 of 3: the 2025 winner's printed easy test 0.958"},
+    {"name": "pan25_wqd_medium", "est": 150,
+     "cmd": [PY, "runners/run_pan25_winner.py", "--difficulty", "medium"],
+     "produces": "results/pan25_winner/wqd_medium.json", "needs": [],
+     "why": "G148 test-set gate 3 of 3: the 2025 winner's printed medium test 0.823"},
+]
+
 # ── The L113 window cells: the magnitude square's llama half ran wide-window only, and the
 # window lesson (LESSONS §3) says no fiction movement cell is believed at one window. Cheap
 # CPU stages over the cached w40 features; the qwen cells get their w40 reading in the same
