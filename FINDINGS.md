@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-08-14.**
+**Last updated: 2026-08-15.**
 
 ---
 
@@ -4193,14 +4193,15 @@ after the no-warmup collapse (L104). Deberta's fp32 arm ran out of memory at bat
 shared card: infrastructure, not evidence.
 
 **Means.** The printed "dropout 0.25" is scope-ambiguous, and the scopes are not
-interchangeable. The collapse itself is the strongest scope inference available without their
-code: their roberta validation cell exists, and a configuration that flatlines cannot print
-0.8423 — so their run was NOT the all-module reading. All three members now rerun under the
-head-only scope (the usual meaning of a notebook's classifier dropout, encoder dropouts at
-pretrained defaults), the vote sits behind those three so it compares one recipe to one
-recipe, and deberta refits at micro-batch 12 with accumulation 5, preserving the effective
-batch and step count. The scope fork enters the record as a specification-curve axis, not a
-tuning choice.
+interchangeable. **Corrected by L118: the collapse is stochastic, not deterministic** — the
+leak-free arm ran the identical all-module setting and trained normally — so the scope
+inference downgrades from "their run cannot have been all-module" to "all-module is
+knife-edge unstable at these hyperparameters," which is itself the reason it cannot anchor
+a comparison. All three members now rerun under the head-only scope (the usual meaning of a
+notebook's classifier dropout, encoder dropouts at pretrained defaults), the vote sits
+behind those three so it compares one recipe to one recipe, and deberta refits at
+micro-batch 12 with accumulation 5, preserving the effective batch and step count. The
+scope fork enters the record as a specification-curve axis, not a tuning choice.
 
 ## L112 · Grid-max does not close the embedding rows: search optimism dies as the explanation, one local route left
 
@@ -4386,6 +4387,87 @@ model. G146's question updates a second time: not what distillation removes, but
 this one model's output positionally mobile in ways every other cell shows only
 conditionally. The ds cell's nominal 0.037 does not survive the standing correction and is
 recorded as uncorrected.
+
+## L117 · ScholaWrite closes: the seed interval contains the print, one seed lands on it to the third decimal, and the checkpoint reading survives its discriminating test
+
+**Hypothesis.** *(L110's named closure conditions: seed 44 completes the interval, and the
+roberta framework arm is the discriminating test for the checkpoint-rule reading — the paper
+prints 0.64 for BOTH architectures, so the reading survives only if roberta's trajectory
+also crosses it.)*
+
+**Method.** The framework-faithful recipe, seeds 42/43/44 for bert and seed 42 for roberta,
+per-epoch test weighted-F1 recorded, accuracy and predictions persisted.
+
+| arm | final weighted F1 | accuracy | crosses 0.64 mid-trajectory? |
+|---|---|---|---|
+| bert seed 42 | 0.6595 | 0.6288 | yes (epoch 4 reads 0.637) |
+| bert seed 43 | 0.6592 | 0.6274 | yes (epoch 6 reads 0.640) |
+| **bert seed 44** | **0.6391** | 0.6089 | yes (jumps 0.608 → 0.655 across epoch 7) |
+| **roberta seed 42** | **0.6512** | 0.6177 | **yes (epoch 7 reads 0.6414)** |
+
+*Caption: the closure arms. The bert three-seed interval is [0.639, 0.660]; the printed 0.64
+sits inside it, and seed 44's final lands within 0.0009 of the print.*
+
+**Found.** Three things, each moving the verdict. **The seed interval contains the print**:
+the tight two-seed spread of L110 broke open at seed 44, which finals at 0.6391 — the
+printed 0.64 to the third decimal, a pass under the exact-value standard's own tolerance
+and under the interval rule both. **The discriminating test came back positive**: all four
+framework trajectories cross 0.64 mid-training, roberta's at epoch seven within 0.0014 of
+the print, so the identical printed 0.64/0.64 pair is consistent with one pipeline read at
+unstated stopping points, and the refutation that killed the same-shaped PAN coincidence
+did not occur. And **the accuracy residue stays**: every arm's final accuracy (0.609 to
+0.629) sits well above their printed 0.56, which remains unexplained at the final-epoch
+reading and consistent with an earlier-checkpoint reading that per-epoch accuracy was not
+recorded to check.
+
+**Means. The ScholaWrite row closes.** The F1 headline is REPRODUCED: within the three-seed
+framework interval, on the print at one seed, and on every trajectory as a crossing. What
+the correction keeps is the paper's internal story, now sharper for being explicable: its
+own camera-ready per-class table (implying 0.59) and printed accuracy (0.56) cannot
+describe the same run as its 0.64 headline — but all three numbers are consistent with
+different checkpoints and seeds of the one described pipeline, which our specification
+curve produces end to end (0.58 to 0.74 across recipe readings, 0.59 at mid-trajectory,
+0.64 at crossings and at seed 44's final, 0.66 at the interval's top). The stale-number
+narrative softens accordingly: nothing needs to have been stale; the paper's numbers are a
+sampler of one pipeline's readings, published without the stopping rule that indexes them.
+The batch-8 protocol arm still lands as the specification curve's last point; it gates
+nothing.
+
+## L118 · The identified settling arm confirms the contamination account from a third direction, and the roberta collapse turns out stochastic
+
+**Hypothesis.** *(The second referee's identified settling arm.)* Retraining the roberta
+member with only the 245 leaked documents removed (94 percent of the augmentation kept)
+lands at the leak-free capability level if the recipe's above-gate margin is memorization,
+or at the blended level if the augmentation carries real signal.
+
+**Method.** Same recipe, paragraph-keyed leak filter, 36,897 training pairs (against
+38,109 blended), per-epoch validation recorded.
+
+| arm | validation macro-F1 | vs winner's gate (0.8423) |
+|---|---|---|
+| blended member (L106) | 0.8558 | +0.014 |
+| blended member, leak-free pairs rescored | 0.8273 | — |
+| strict-tier rescoring (L109) | 0.8235 | — |
+| **retrained leak-free** | **0.8108** | **−0.032** |
+
+*Caption: the same capability question asked three ways — rescore the blended model on
+clean pairs, rescore strictly, retrain clean — answering 0.81 to 0.83 from every
+direction.*
+
+**Found.** Removing six percent of training documents erases the member's entire above-gate
+margin and 4.5 points besides: the winning recipe's edge over its own validation gates is
+the contamination, and honest capability sits in the 0.81 to 0.83 band whichever way it is
+measured. One instrument surprise: this arm ran the all-module dropout 0.25 that flatlined
+the blended rerun for nine epochs (L111) — and trained normally, climbing smoothly from
+epoch one.
+
+**Means.** The contamination story is now closed from three independent directions, and any
+layering experiment on this benchmark builds on 0.81-0.83, never the printed gates. The
+L111 fold-in: the all-module collapse is **stochastic fragility, not determinism** — one
+run flatlines, a near-identical run trains — so the scope inference ("their cell exists,
+therefore their run was not all-module") downgrades from proof to plausibility, and the
+one-recipe head-scope member set stays the right vote design for exactly this reason: a
+recipe that sometimes collapses cannot anchor a comparison either way.
 
 ## L4 · Can weak effects be stacked into a detector?
 

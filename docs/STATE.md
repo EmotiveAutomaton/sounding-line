@@ -60,24 +60,30 @@ consensus fleet (L107, L108, L109 — 21 of 25 ballot claims unanimous):
 
 - **Armstrong–Mindermann**: PASSED exactly (analytic 0.5/0.5), extended (bounded family 20×,
   both priors 40×).
-- **ScholaWrite**: CORRECTION-CONFIRMED (the printed 0.64 is stale and contradicted by the
-  paper's own v5 table, reweighting to 0.5947; its own printed accuracy corroborates),
-  CLOSURE-PENDING on the framework-faithful three-seed arms now in the queue. The tag typo is
-  inert (never a train/eval mismatch; ~89% truncation). The 0.741 cell is the non-faithful
-  recipe.
+- **ScholaWrite: CLOSED (L117), the F1 headline REPRODUCED on the seed interval.** The
+  framework-faithful three-seed interval [0.639, 0.660] contains the printed 0.64; seed 44
+  finals on it to the third decimal; all four trajectories (both architectures) cross it
+  mid-training, so the identical 0.64/0.64 print reads as one pipeline at unstated stopping
+  points. The paper's internal inconsistency (its own table implies 0.59, accuracy 0.56)
+  stands as a literature fact, explicable as different checkpoints of the same pipeline.
+  Accuracy residue recorded (ours 0.61-0.63 vs their 0.56). Tag typo inert; 0.741 is the
+  non-faithful recipe.
 - **ArgRewrite: FULLY SETTLED (L115), nothing left to run.** Composition exact (3,236/3,238);
   binary Majority to the digit; the printed Majority rows mutually incompatible (fleet's
   strengthening); the oversampling claim inference only; faithful Features .883 vs .90; the
   embedding rows TERMINALLY CLOSED as not reproduced from the released materials — grid-max
   refuted (fixed config ranks 15/26 of 36) and the four-block encoding refuted (+1 point,
   still 3-4 short), every public route measured, gap bounded.
-- **PAN 2024**: two members above their validation gates under the corrected recipe, but all
-  validation numbers (theirs and ours) blend ~16% cross-year memorization (leaked pairs score
-  1.0); strict leak-free capability 0.8235/0.8355. Corrected same-recipe members + vote +
-  paragraph-keyed leak-free settling arm in the queue. **PAN 2025**: the labeled TEST split is
-  on disk and verified genuine — the fully-specified 2025 winner (deberta-base, printed test
-  0.830 hard) is queued as the phase's first reachable test-set exact-value gate (G148),
-  contamination-gated at 0.4%, clean.
+- **PAN 2024**: two members above their validation gates under the corrected recipe
+  (ernie 0.8798, roberta 0.8558), but all validation numbers (theirs and ours) blend ~16%
+  cross-year memorization. **The contamination account is CLOSED from three directions
+  (L118): rescore 0.8273 / strict tier 0.8235 / retrain-leak-free 0.8108 (−0.032 below the
+  winner's own gate) — the recipe's edge IS the leak; capability is 0.81-0.83.** The
+  all-module dropout collapse is stochastic (L118 fold to L111). Remaining: head-scope
+  one-recipe member set + vote + deberta refit, in the burn. **PAN 2025**: the labeled TEST
+  split is on disk and verified genuine — the 2025 winner runs against three printed
+  test-set exact-value gates (hard 0.830, easy 0.958, medium 0.823), contamination-gated
+  clean.
 - **BST**: reference data validated (Exp 1 fully; Exp 2 fully after the fleet found the
   column-major grouping — stimulus i = rows i, i+95, i+190; all sums pass; my earlier
   narrowing was wrong and is reversed). Design corrected by the referees: NINE actions
@@ -129,8 +135,10 @@ survive the fair induction control on the two strong ladders (G76/L94).
 - **His:** the Phase-1 final assessment when the queue lands + BST rebuild finishes; the
   Phase-2 go; interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access;
   rotate the early-project API key.
-- **Mine, in order:** BST decode-to-99 then the 9-action rebuild; write-throughs as arms land;
-  the four-block encoding arm; the specification-percentile function over arm files; TOOLS
-  rows for the contamination gate and consensus-ballot practice.
+- **Mine, in order:** the 9-action BST rebuild (decode gate passed L114; the phase's last
+  open implementation); write-throughs as tonight's arms land (head-scope members, vote,
+  deberta, three wqd test gates, batch-8); then the owed CPU builds (G130c floor
+  decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile
+  function).
 - **The one-maker-many-kinds corpus problem** stands (CROSSNEWS pseudo-documents only;
   Guardian small; CMCC request-only); the program's G133 commissioned pilot leads this thread.

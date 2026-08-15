@@ -1,0 +1,51 @@
+{
+ "arm": "bert",
+ "n_train": 49212,
+ "n_test": 12292,
+ "weighted_f1": 0.6390908939202693,
+ "accuracy": 0.6088512853888708,
+ "gate": 0.64,
+ "epochs": 10,
+ "batch": 16,
+ "seed": 44,
+ "hf_defaults": true,
+ "per_epoch_test_f1": [
+  0.46227599397244207,
+  0.531477224922484,
+  0.5264740165126678,
+  0.5304080693634226,
+  0.6148599473533257,
+  0.6075367908289271,
+  0.654731200714667,
+  0.6528026735599698,
+  0.6433785480720191,
+  0.6390908939202693
+ ],
+ "versions": {
+  "transformers": "5.14.1",
+  "torch": "2.13.0+cu126",
+  "sklearn": "1.9.0"
+ },
+ "split": "their split",
+ "faithful": true,
+ "per_class_f1": {
+  "Citation Integration": 0.567,
+  "Clarity": 0.55,
+  "Coherence": 0.311,
+  "Cross-reference": 0.309,
+  "Fluency": 0.149,
+  "Idea Generation": 0.785,
+  "Idea Organization": 0.408,
+  "Linguistic Style": 0.281,
+  "Macro Insertion": 0.794,
+  "Object Insertion": 0.665,
+  "Scientific Accuracy": 0.513,
+  "Section Planning": 0.58,
+  "Structural": 0.398,
+  "Text Production": 0.707,
+  "Visual Formatting": 0.675
+ },
+ "report_weighted_f1": 0.6391,
+ "paper_inconsistency_note": "the published 0.64 is unreachable from the paper's own v5 per-class table (~0.59 on test); the per-class profile is the sharper target",
+ "verdict": "PASS"
+}

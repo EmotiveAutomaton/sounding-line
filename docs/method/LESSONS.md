@@ -244,13 +244,14 @@ preserved whole.
   fp16 autocast. A member that diverges is rerun under a recorded stabilizer, never quietly
   dropped, and every member of an ensemble shares one recipe. (L104, L108)
 - **A printed regularizer without a stated scope is ambiguous, and the scopes are not
-  interchangeable; run the readings as arms and let a member-level collapse identify the
-  paper's.** All-module dropout 0.25 flatlined roberta-base for nine epochs while ernie
-  trained fine under the identical setting; head-only is the usual notebook meaning; and the
-  paper's roberta cell existing proves their run was not the all-module reading — the
-  strongest scope inference available without their code. Fragility is model-conditional
-  (roberta is also the member that collapsed without warmup), so a scope that one member
-  tolerates can kill another. (L111)
+  interchangeable; run the readings as arms — and treat a member-level collapse as evidence
+  of an instability region, never as proof of the paper's scope.** All-module dropout 0.25
+  flatlined roberta-base for nine epochs, then a near-identical run trained normally
+  (L118): the collapse is stochastic fragility. A configuration that sometimes collapses
+  cannot anchor a comparison in either direction; the one-recipe vote uses the scope that
+  trains reliably, with the fork recorded as a specification axis. Fragility is
+  model-conditional besides (roberta is also the member that collapsed without warmup).
+  (L111, corrected by L118)
 - **Class/sample weighting is a small lever** (2-3 macro points against 24-point gaps); do not
   expect it to explain a collapse. (L81 supplement, in-house confirmation)
 - **Difference features rescue exactly the classes defined by small edits** (grammar/spelling
