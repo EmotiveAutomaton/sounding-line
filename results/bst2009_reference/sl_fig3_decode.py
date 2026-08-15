@@ -29,15 +29,20 @@ p = doc[PAGE - 1]
 # ── collect atoms ────────────────────────────────────────────────────────────────────────────
 raw = p.get_text("rawdict")
 chars = []
-for b in raw["blocks"]:
-    for line in b.get("lines", []):
-        for s in line["spans"]:
-            for c in s["chars"]:
-                x0, y0, x1, y1 = c["bbox"]
-                chars.append({"c": c["c"], "x": (x0 + x1) / 2, "y": (y0 + y1) / 2,
-                              "size": round(s["size"], 1)})
-# figure area only (the big frame found by the probe: x 41-507, y 55-614)
-chars = [c for c in chars if 41 <= c["x"] <= 508 and 54 <= c["y"] <= 615 and c["c"].strip()]
+for li, (b, line) in enumerate((b, line) for b in raw["blocks"]
+                               for line in b.get("lines", [])):
+    for s in line["spans"]:
+        for c in s["chars"]:
+            x0, y0, x1, y1 = c["bbox"]
+            chars.append({"c": c["c"], "x": (x0 + x1) / 2, "y": (y0 + y1) / 2,
+                          "x0": x0, "x1": x1, "line": li,
+                          "size": round(s["size"], 1)})
+# figure area only (the big frame found by the probe: x 41-507, y 55-614). Space characters
+# are KEPT: they are the only reliable delimiter between adjacent-cell numbers ("10 11")
+# and the digits of one number ("15"), whose x-gap distributions overlap (4.48 vs 4.6+ pt
+# under the figure's varying character advance).
+chars = [c for c in chars if 41 <= c["x"] <= 508 and 54 <= c["y"] <= 615
+         and (c["c"].strip() or c["c"] == " ")]
 
 walls = []
 for d in p.get_drawings():
@@ -123,32 +128,139 @@ for ri, py0 in enumerate(row_origins):
               if col_left[ci] <= (w[0] + w[2]) / 2 <= col_left[ci] + dx
               and py0 - 4 <= w[1] <= py0 + 8 * YPITCH + 6]
 
+        # ── line-aware column assignment. The stimulus rows are monospace text strings whose
+        # glyph-pair advance (~4.98pt) exceeds the wall/goal-calibrated grid pitch (4.60pt),
+        # so per-glyph lattice snapping accumulates ~0.38pt of drift per cell and rounds the
+        # tail of a long run one column right (caught 2026-08-14: '7' at fractional column
+        # 6.53, '10' at 9.8 in a run whose truth is 6 and 9). Within a line, RELATIVE columns
+        # are exact by construction: consecutive glyph groups advance by whole slots, so
+        # cumulative rounding of consecutive gaps carries no drift. The anchor is the line's
+        # first group, where the string starts and the lattice snap is still clean.
         goals, path_atoms = {}, []
-        digits = []
+        jp_raw = {}
+        by_line = defaultdict(list)
         for c in sel:
-            col, row = cell(c["x"], c["y"])
-            if c["c"] in "ABC":
-                goals[c["c"]] = (col, row)
-            elif c["c"] == "x":
-                path_atoms.append(("start", col, row, c["x"]))
-            elif c["c"] == "-":
-                path_atoms.append(("step", col, row, c["x"]))
-            elif c["c"].isdigit():
-                digits.append((c["x"], c["y"], c["c"], col, row))
-        # digit glyphs group into numbers by x-adjacency at the same y. Intra-number glyph gap
-        # measures 3.58-3.86pt, inter-number 4.12+; the threshold sits between them, and
-        # grouping happens BEFORE cell snapping because a two-digit number straddles cells
-        digits.sort(key=lambda d: (round(d[1], 1), d[0]))
-        numbers = []
-        for x, y, ch, col, row in digits:
-            if numbers and abs(numbers[-1]["y"] - y) < 2 and x - numbers[-1]["x1"] < 4.0:
-                numbers[-1]["text"] += ch
-                numbers[-1]["x1"] = x
-            else:
-                numbers.append({"text": ch, "x0": x, "x1": x, "y": y})
-        for n in numbers:
-            col, row = cell((n["x0"] + n["x1"]) / 2, n["y"])
-            path_atoms.append((f"jp{int(n['text'])}", col, row, n["x0"]))
+            by_line[c["line"]].append(c)
+        # pass 1: per line, glyph groups + drift-free relative columns + anchor confidence.
+        # Digit runs merge into one number below one slot (~4.98pt): intra-number gaps run
+        # 3.58-4.5pt (the '15' split at 4.1 taught the old 4.0 threshold), two separate
+        # numbers in adjacent cells sit a full slot apart.
+        lines = []
+        clusters = []
+        for li, lchars in by_line.items():
+            # a rawdict line can carry spans from different grid rows (a goal letter beside
+            # a judgment number); sorting such a line by x interleaves them and splits the
+            # number. Cluster by y first, each cluster its own run.
+            lchars.sort(key=lambda c: c["y"])
+            cur = [lchars[0]]
+            for c in lchars[1:]:
+                if c["y"] - cur[-1]["y"] > 2.5:
+                    clusters.append(cur)
+                    cur = [c]
+                else:
+                    cur.append(c)
+            clusters.append(cur)
+        for lchars in clusters:
+            lchars.sort(key=lambda c: c["x"])
+            gs, space_break = [], True
+            for c in lchars:
+                if c["c"] == " ":
+                    space_break = True
+                    continue
+                if (c["c"].isdigit() and gs and gs[-1]["text"].isdigit()
+                        and not space_break and c["x"] - gs[-1]["xlast"] < 6.0):
+                    gs[-1]["text"] += c["c"]
+                    gs[-1]["xlast"] = c["x"]
+                    gs[-1]["x1"] = c["x1"]
+                    gs[-1]["chars"].append(c)
+                else:
+                    gs.append({"text": c["c"], "x": c["x"], "xlast": c["x"],
+                               "x0": c["x0"], "x1": c["x1"], "y": c["y"],
+                               "chars": [c]})
+                space_break = False
+            # an unbroken digit run longer than two is adjacent-cell two-digit numbers
+            # packed without a delimiter ("1011" = 10 then 11); chunk in pairs. An odd run
+            # takes the split whose values are all plausible labels (<= 16), leading single
+            # first if both work.
+            split = []
+            for g in gs:
+                t = g["text"]
+                if t.isdigit() and len(t) >= 3:
+                    chs = g["chars"]
+                    if len(t) % 2 == 0:
+                        chunks = [chs[i:i + 2] for i in range(0, len(chs), 2)]
+                    else:
+                        a = [chs[:1]] + [chs[i:i + 2] for i in range(1, len(chs), 2)]
+                        b = [chs[i:i + 2] for i in range(0, len(chs) - 1, 2)] + [chs[-1:]]
+                        va = [int("".join(c["c"] for c in ch)) for ch in a]
+                        vb = [int("".join(c["c"] for c in ch)) for ch in b]
+                        chunks = a if all(v <= 16 for v in va) else b
+                        if all(v <= 16 for v in va) and all(v <= 16 for v in vb):
+                            print(f"  WARNING odd digit run {t!r}: both splits plausible, "
+                                  f"took {va}")
+                    for ci_, ch in enumerate(chunks):
+                        split.append({"text": "".join(c["c"] for c in ch),
+                                      "x": (ch[0]["x"] + ch[-1]["x"]) / 2,
+                                      "xlast": ch[-1]["x"], "x0": ch[0]["x0"],
+                                      "x1": ch[-1]["x1"], "y": ch[0]["y"], "chars": ch,
+                                      "run_prev": ci_ > 0})
+                else:
+                    split.append(g)
+            gs = split
+            for g in gs:
+                if g["text"].isdigit() and len(g["text"]) > 1:
+                    g["x"] = (g["x0"] + g["x1"]) / 2
+            gaps = [gs[i + 1]["x"] - gs[i]["x"] for i in range(len(gs) - 1)]
+            slot_gaps = sorted(g_ for g_ in gaps if 3.5 <= g_ <= 6.5)
+            slot = slot_gaps[len(slot_gaps) // 2] if slot_gaps else 4.98
+            rel, rels = 0, [0]
+            for i in range(1, len(gs)):
+                # chunks of one packed digit run are adjacent cells BY CONSTRUCTION; their
+                # centers sit ~1.5 slots apart (wide digit advance) and gap-rounding would
+                # skip a cell
+                if gs[i].get("run_prev"):
+                    rel += 1
+                else:
+                    rel += max(1, round((gs[i]["x"] - gs[i - 1]["x"]) / slot))
+                rels.append(rel)
+            # anchor on the FIRST CHAR of the first group: a two-digit number spans ~1.5
+            # cells, so its group center sits half a cell right of the cell it occupies
+            ax = gs[0]["chars"][0]
+            anchor_x = (ax["x0"] + ax["x1"]) / 2 if len(gs[0]["chars"]) > 1 else gs[0]["x"]
+            latcol0 = (anchor_x - (X16 + xoff)) / XPITCH + 16
+            frac = abs(latcol0 - round(latcol0))
+            rows = [cell(g["x"], g["y"])[1] for g in gs]
+            lines.append({"gs": gs, "rels": rels, "rows": rows,
+                          "latcol0": latcol0, "frac": frac})
+        # pass 2: anchor selection by CHAIN VALIDITY. A line whose first glyph sits near a
+        # column boundary can round one column off; for those lines every shift in
+        # {-1, 0, +1} is tried and the winning combination is the one whose atoms form the
+        # best single chain (most atoms chained, then lowest label cost, then fewest
+        # non-strict steps, then least total shift). The walk's own connectivity is the
+        # constraint; local adjacency voting proved fragile (it broke two panels).
+        ambiguous = [ln for ln in lines if 0.35 <= ln["frac"] <= 0.65]
+        ambiguous = sorted(ambiguous, key=lambda l_: -l_["frac"])[:3]
+
+        def build_atoms(shift_map):
+            g_, pa_, raw_ = {}, [], {}
+            for ln in lines:
+                c0 = round(ln["latcol0"]) + shift_map.get(id(ln), 0)
+                for g, rel_, row in zip(ln["gs"], ln["rels"], ln["rows"]):
+                    col, t = c0 + rel_, g["text"]
+                    if t in "ABC":
+                        g_[t] = (col, row)
+                    elif t == "x":
+                        pa_.append(("start", col, row, g["x"]))
+                    elif t == "-":
+                        pa_.append(("step", col, row, g["x"]))
+                    elif t.isdigit():
+                        pa_.append((f"jp{int(t)}", col, row, g["x0"]))
+                        # raw local coordinates (panel-relative) so a downstream pass can
+                        # tell decode jitter from a genuinely different judgment placement
+                        raw_[int(t)] = [round(g["x0"] - (X16 + xoff), 2),
+                                        round(g["x1"] - (X16 + xoff), 2),
+                                        round(g["y"] - py0, 2)]
+            return g_, pa_, raw_
 
         wall_cells = set()
         for w in pw:
@@ -162,18 +274,12 @@ for ri, py0 in enumerate(row_origins):
         # path (greedy misordered wherever the path doubled back — the L108 defect). Dash
         # atoms must be strictly 8-adjacent; number atoms tolerate one extra column of slack
         # because multi-digit glyph groups straddle cells.
-        atom_cells = {}
-        for kind, col, row, _ in path_atoms:
-            atom_cells.setdefault((col, row), []).append(kind)
-        start = next(((c, r) for (c, r), ks in atom_cells.items() if "start" in ks), None)
+        def chain_atoms(atom_cells, start):
+            def adjacent(a, b):
+                dx, dy = abs(a[0] - b[0]), abs(a[1] - b[1])
+                loose = any(k.startswith("jp") for k in atom_cells[a] + atom_cells[b])
+                return (dx <= (2 if loose else 1)) and dy <= 1 and (dx or dy)
 
-        def adjacent(a, b):
-            dx, dy = abs(a[0] - b[0]), abs(a[1] - b[1])
-            loose = any(k.startswith("jp") for k in atom_cells[a] + atom_cells[b])
-            return (dx <= (2 if loose else 1)) and dy <= 1 and (dx or dy)
-
-        chain, jps = [], {}
-        if start:
             nodes = list(atom_cells)
 
             def label_cost(acc):
@@ -209,14 +315,37 @@ for ri, py0 in enumerate(row_origins):
                         hold["best"], hold["cost"] = list(acc), c
 
             dfs(start, {start}, [start])
-            chain = hold["best"]
-            for i, cellc in enumerate(chain):
-                for k in atom_cells.get(cellc, []):
-                    if k.startswith("jp"):
-                        jps[int(k[2:])] = i
+            nonstrict = sum(1 for i in range(len(hold["best"]) - 1)
+                            if max(abs(hold["best"][i][0] - hold["best"][i + 1][0]),
+                                   abs(hold["best"][i][1] - hold["best"][i + 1][1])) != 1)
+            return hold["best"], hold["cost"], nonstrict
+
+        from itertools import product as iproduct
+        best = None
+        for combo in iproduct((-1, 0, 1), repeat=len(ambiguous)) if ambiguous else [()]:
+            shift_map = {id(ln): s for ln, s in zip(ambiguous, combo)}
+            g_, pa_, raw_ = build_atoms(shift_map)
+            atom_cells = {}
+            for kind, col, row, _ in pa_:
+                atom_cells.setdefault((col, row), []).append(kind)
+            start = next(((c, r) for (c, r), ks in atom_cells.items()
+                          if "start" in ks), None)
+            if start is None:
+                continue
+            chain, cost, nonstrict = chain_atoms(atom_cells, start)
+            score = (len(chain), -cost, -nonstrict, -sum(abs(s) for s in combo))
+            if best is None or score > best[0]:
+                jps = {}
+                for i, cellc in enumerate(chain):
+                    for k in atom_cells.get(cellc, []):
+                        if k.startswith("jp"):
+                            jps[int(k[2:])] = i
+                best = (score, g_, raw_, atom_cells, start, chain, jps)
+
+        _, goals, jp_raw, atom_cells, start, chain, jps = best
         panels.append({"row": ri, "col": ci, "goals": goals,
                        "wall_cells": sorted(wall_cells), "start": start,
-                       "path": chain, "judgment_steps": jps,
+                       "path": chain, "judgment_steps": jps, "jp_raw": jp_raw,
                        "n_atoms": len(atom_cells)})
 
 ok = sum(1 for pl in panels if pl["path"] and len(pl["path"]) == pl["n_atoms"])

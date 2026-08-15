@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-14 19:09",
+  "started": "2026-08-14 19:35",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -1411,8 +1411,31 @@
       "name": "arg_v4_fourblock_binary",
       "why": "referee route 2 for the embedding rows: the standard [u; v; |u-v|; u*v] pair encoding at the published config. Grid-max over the bare concatenation landed NOT-MATCHED (-.043/-.052), so this is the last unexplored local route",
       "est_minutes": 90,
-      "status": "RUNNING",
-      "log": "results\\arg_v4_fourblock_binary.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_qwen_w40",
+      "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_ds_w40",
+      "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_llama_w40",
+      "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_r1l8_w40",
+      "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
     }
   ],
   "held_for_gear2": [
@@ -1455,5 +1478,7 @@
     "pan_ernie_headdrop25",
     "pan_deberta_headdrop25"
   ],
-  "shard": "0/1"
+  "shard": "0/1",
+  "finished": "2026-08-14 19:35",
+  "failed": []
 }

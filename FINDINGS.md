@@ -4271,6 +4271,61 @@ not a law — under the record-wide multiplicity correction that cell loses sign
 the square stands on its two strong cells plus the alignment, and the w40 rerun is its
 robustness test.
 
+## L114 · The Fig-3 decode passes its known-answer gate: 99 of 99 stimuli, label-perfect, every path a legal walk
+
+**Hypothesis.** *(The decode gate the referees fixed, L107/L108: the extraction must produce
+the paper's own 99 unique stimuli before any model is fitted to it.)* The remaining 108-vs-99
+residue was conjectured to be cross-panel single-cell jitter breaking nine dedup merges.
+
+**Method.** Ruler validation at the glyph level, then a rebuilt extraction. Four mechanisms
+found, each measured at source before being coded against:
+1. **The figure's long runs are not on the grid.** Stimulus rows are drawn at a ~5.0-5.2 pt
+   glyph advance against the 4.60 pt wall/goal-calibrated cell pitch, so per-glyph lattice
+   snapping accumulates drift and rounds the tail of a long run one column right (a '7' at
+   fractional column 6.53 whose truth is 6). Columns are now line-relative: cumulative
+   rounding of consecutive gaps, drift-free by construction, anchored at each line's first
+   character.
+2. **Goal letters share text lines with judgment numbers.** Sorting such a line by x
+   interleaves the letter between the number's digits and splits it into phantom labels
+   (a '15' became labels 1 and 5). Lines now cluster by y before grouping.
+3. **Adjacent two-digit numbers pack without a delimiter** ('1011' is 10 then 11), and the
+   intra- and inter-number gap distributions overlap, so no distance threshold separates
+   them. Digit runs of even length chunk in pairs; chunks advance exactly one cell.
+4. **A two-digit number anchoring its own line pulls the anchor half a cell right** (the
+   group spans ~1.5 cells); anchors now use the first character. Residually ambiguous
+   anchors (fractional column 0.35-0.65) are resolved by chain validity: every shift
+   combination is tried and the winner is the one whose atoms form the best single chain.
+Identity across panels is then decided at the glyph, not the snapped cell: prefixes are the
+same stimulus iff equal, or differing only at judgment cells whose raw panel-local
+coordinates agree sub-point (repeat-draws land within 0.6 pt; different placements sit a
+full 4.6 pt pitch apart).
+
+| state | chained panels | label anomalies | unique stimuli | illegal steps |
+|---|---|---|---|---|
+| greedy chaining (pre-L108) | 6/36 | — | — | — |
+| exhaustive DFS, per-glyph snap | 36/36 | 0 | 108 vs 99 | 31 paths |
+| **line-aware decode + glyph identity** | **36/36** | **0** | **99 vs 99** | **0** |
+
+*Caption: the decode gate's progression. 170 judgment instances across 36 panels resolve to
+exactly the paper's 99 unique stimuli; 96 canonical paths are strictly 8-adjacent as
+decoded and three repair uniquely under the one-column judgment-cell slack.*
+
+**Found.** The gate passes exactly: 99 unique (world, prefix) stimuli, every judgment label
+at precisely its own step index in all 36 panels, and every canonical path a legal
+8-connected walk. The conjectured jitter was real but the mechanism was richer: a figure
+whose text layer is systematically off its own grid, plus three typography traps.
+
+**Means.** The BST stimulus extraction is done and validated against the paper's own count —
+the first time the full 99-stimulus set has existed outside the authors' lost originals, to
+our knowledge. The nine-action model rebuild is unblocked: `fig3_stimuli_canon.json` carries
+worlds (goals, walls, start), canonical legal paths, judgment labels, and member panels, and
+the content-based alignment check against the reference model predictions (the M2 column)
+remains the rebuild's own first gate, so an extraction error that survived this pass would
+still be caught downstream. The ruler lesson is the entry's method: every mechanism was
+measured in the raw glyph coordinates before being coded against, and the final identity
+rule needed no tolerance at all for 96 of 99 because the corrected decode made same-stimulus
+prefixes byte-identical.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
