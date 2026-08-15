@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-14 06:27",
+  "started": "2026-08-14 19:08",
   "stages": [
     {
       "name": "revision_purpose",
@@ -518,45 +518,24 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "gen_fiction_llama_r3",
-      "why": "fifteen llama chapters at a 900-word floor so the reader-side cell has power",
-      "est_minutes": 120,
-      "status": "FAILED (exit 0, no produce)",
-      "log": "results\\gen_fiction_llama_r3.log",
-      "minutes": 4.5
-    },
-    {
-      "name": "sw_bert_hfd_s42",
-      "why": "referee: their Trainer supplied linear decay, clipping, and decay exclusions our loop dropped; framework-faithful arm, seed 1 of 3",
-      "est_minutes": 300,
-      "status": "DONE",
-      "log": "results\\sw_bert_hfd_s42.log",
-      "minutes": 229.0
-    },
-    {
-      "name": "pan_vote_hard",
-      "why": "the system vote, now behind three same-recipe members (gate .8658)",
-      "est_minutes": 5,
-      "status": "DEFERRED",
-      "missing": [
-        "results/pan_winner/roberta_hard.json",
-        "results/pan_winner/deberta_hard.json",
-        "results/pan_winner/ernie_hard.json"
-      ]
-    },
-    {
-      "name": "arg_v4_gridmax_binary",
-      "why": "referee: if the published cells are grid maxima, max-over-their-36-point-grid is the like-for-like number for the embedding rows",
+      "name": "pan_ernie_hard_sched",
+      "why": "referee: members ran under different LR schedules (constant-LR result archived); one recipe for all three before the vote",
       "est_minutes": 150,
-      "status": "FAILED (exit 0, no produce)",
-      "log": "results\\arg_v4_gridmax_binary.log",
-      "minutes": 63.5
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sw_bert_hfd_s43",
+      "why": "seed 2 of 3: no fine-tune verdict from one seed",
+      "est_minutes": 300,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sw_roberta_hfd_s42",
+      "why": "second referee: the 0.64 is claimed for BOTH architectures and roberta is the worse miss; its framework arm cannot stay unrun",
+      "est_minutes": 300,
+      "status": "RUNNING",
+      "log": "results\\sw_roberta_hfd_s42.log"
     }
   ],
-  "shard": "1/3",
-  "finished": "2026-08-14 11:24",
-  "failed": [
-    "arg_v4_gridmax_binary",
-    "gen_fiction_llama_r3"
-  ]
+  "shard": "1/3"
 }

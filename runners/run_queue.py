@@ -1166,6 +1166,15 @@ for _fam in ("qwen", "ds", "llama", "r1l8"):
 
 
 
+# ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
+# ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
+# ("the card only briefly" is first gear's own contract).
+_GPU_HEAVY_PREFIXES = ("pan_", "pan25_", "sw_", "scholawrite_", "gen_fiction")
+_GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen"}
+for s_ in STAGES:
+    if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
+        s_["gpu"] = True
+
 _prods = [s_["produces"] for s_ in STAGES]
 _shared = sorted({q for q in set(_prods) if _prods.count(q) > 1})
 assert not _shared, f"stages share a produces path: {_shared}"
@@ -1226,6 +1235,10 @@ def main() -> None:
     ap.add_argument("--shards", type=int, default=1,
                     help="run this process as one of N. Stage i is owned by shard i %% N, so two "
                          "shards can never pick the same stage")
+    ap.add_argument("--no-gpu", action="store_true",
+                    help="first gear: skip stages marked gpu (heavy trainings and sustained "
+                         "generation). The card is the curator's; those stages wait for second "
+                         "gear. Brief GPU touches by unmarked stages are allowed by design")
     a = ap.parse_args()
     SHARD, SHARDS = a.shard, a.shards
     if not (0 <= SHARD < SHARDS):
@@ -1240,6 +1253,13 @@ def main() -> None:
         _status_path().write_text(json.dumps(state, indent=2), encoding="utf-8", newline="\n")
 
     mine = [s for i, s in enumerate(STAGES) if i % SHARDS == SHARD]
+    if a.no_gpu:
+        held = [s["name"] for s in mine if s.get("gpu")]
+        mine = [s for s in mine if not s.get("gpu")]
+        if held:
+            print(f"[gear1] holding {len(held)} gpu stage(s) for second gear: "
+                  f"{', '.join(held)}", flush=True)
+        state["held_for_gear2"] = held
     if SHARDS > 1:
         print(f"shard {SHARD} of {SHARDS}: {len(mine)} of {len(STAGES)} stages")
     state["shard"] = f"{SHARD}/{SHARDS}"

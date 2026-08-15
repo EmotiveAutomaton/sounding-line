@@ -72,7 +72,8 @@ trap cleanup EXIT INT TERM
 
 echo "=== FIRST GEAR started $(date) as msys $$ / winpid $WINPID ===" >> "$LOG"
 while true; do
-  ./.venv/Scripts/python.exe runners/run_queue.py >> "$LOG" 2>&1 &
+  # --no-gpu: heavy trainings and sustained generation hold for second gear; the card is his
+  ./.venv/Scripts/python.exe runners/run_queue.py --no-gpu >> "$LOG" 2>&1 &
   QPID=$!
   wait "$QPID"
   QPID=""

@@ -289,6 +289,14 @@ preserved whole.
 - **Bare-launched shells have no PATH** (`date`/`cat` silently empty, deadline arithmetic
   collapses); loop scripts export PATH first. Kill loops by the lock's WINDOWS pid (line 2) with
   a tree kill; msys pids do not map. Sweep orphans at startup. (G121 history)
+- **A harness-killed background shell can survive as an msys child and keep executing; any
+  long-lived waiter honors a CANCEL FILE checked every poll and again immediately before its
+  action.** A relaunch waiter reported successfully stopped fired its relaunch thirty seconds
+  later, colliding a fresh second-gear lineage into a first-gear shift; the rogue lineage ran
+  LOCKLESS (its lock file lost to an rm race), so it was findable only by process enumeration,
+  never by lock. When a lineage might be lockless, verify by enumerating processes, not by
+  reading locks. (2026-08-14, the gear-shift incident; regear2_when_idle.sh carries the
+  cancel-file protocol)
 - **The orphan sweep kills what no live loop owns — including legitimate standalone arms.** A
   training launched outside the queue dies at the next engine relaunch and, if a waiter restarts
   it, loops from epoch zero forever; the failure is invisible until someone asks for an ETA. A
