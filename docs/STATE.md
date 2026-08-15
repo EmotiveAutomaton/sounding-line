@@ -89,10 +89,12 @@ consensus fleet (L107, L108, L109 — 21 of 25 ballot claims unanimous):
   narrowing was wrong and is reversed). Design corrected by the referees: NINE actions
   including Stay at cost −1, 36 = 4 goal configs × 3 path groups × 3 route conditions, the
   goal prior is a source contradiction (both readings run as arms; it sets K in the γ factor).
-  **The Fig-3 decode gate PASSED (L114): 99 of 99 stimuli, label-perfect, every path a legal
-  walk (fig3_stimuli_canon.json). The remaining block is the 9-action rebuild with
-  marginalized path likelihoods and dual goal-prior arms.** Old 4-action results archived as
-  summary_4action.json.
+  **The Fig-3 decode gate PASSED (L114), and EXPERIMENT 1 PASSED AT EXACT-VALUE GRADE
+  (L119): the v2 rebuild lands all four Fig-5 correlations at printed precision and matches
+  the paper's own digitized predictions to ≤0.001 across all 297 cells; the 99-vs-100
+  contradiction is located (ref index 92). Remaining: grid+BSCV gates, the all-squares
+  prior arm, and Exp 2/3 (each needs its own stimulus decode, same machinery).** Old
+  4-action results archived as summary_4action.json.
 
 **Phase 2 waits on his ruling over that package.** Its head is the G129 choice-recovery
 preregistration (the delta stated in every arm; the 19-dim change block as declared baseline).

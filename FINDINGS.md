@@ -4469,6 +4469,55 @@ therefore their run was not all-module") downgrades from proof to plausibility, 
 one-recipe head-scope member set stays the right vote design for exactly this reason: a
 recipe that sometimes collapses cannot anchor a comparison either way.
 
+## L119 · The BST Experiment-1 recreation lands at exact-value grade: four models, four printed correlations, all at printed precision, and the 99-versus-100 contradiction located
+
+**Hypothesis.** *(G137's figure-level half, the phase's last open implementation.)* The four
+models rebuilt under the referee-corrected design, run on the decoded 99-stimulus set,
+reproduce the paper's Figure-5 best-fit correlations (M1 .83, M2 .98, M3 .94, H .97).
+
+**Method.** Full rebuild against the formal appendix, read at source this pass: nine actions
+with blocked moves UNAVAILABLE (their words), costs −1/−√2/−1 with Stay at −1, the SOFT
+Bellman fixed point (the value function of the Boltzmann policy itself, iterated to a 10⁻⁹
+residual — hard-max iteration, the v1 form, is a different pipeline), state-sequence
+observation with actions marginalized, M2's exact goal-chain parameterization from footnote
+1, M3 as 0-or-1 subgoal uniform over all squares with segment likelihoods, H as M2 at γ = 1,
+goal support per the Exp-1 main text (the three marked goals; the appendix's all-squares
+reading runs as the second arm, queued). Readout renormalized over the marked goals,
+matching the paper's own subject-side normalization; judgment label ℓ reads the path prefix
+to index ℓ−1 (the decode's label-perfect invariant). Alignment to the digitized reference is
+a Hungarian assignment on the twelve-number four-model signature per stimulus — all four
+models at once, so no single model's fit is circular.
+
+| gate | printed | ours | delta |
+|---|---|---|---|
+| M1 best-fit r | .83 | 0.8281 | −0.002 |
+| M2 best-fit r | .98 | 0.9780 | −0.002 |
+| M3 best-fit r | .94 | 0.9440 | +0.004 |
+| H best-fit r | .97 | 0.9661 | −0.004 |
+
+*Caption: correlations with the 297 human judgment cells under the fixed content-based
+alignment. Every value rounds to the printed two decimals.*
+
+**Found.** Three results in one run. **The alignment is total**: 99 of 99 stimuli matched
+with a median twelve-number assignment cost of 0.002 (sub-digitization), and the paper's
+99-versus-100 stimulus-count contradiction is now LOCATED — reference index 92 is the one
+Figure-5 stimulus with no counterpart in Figure 3's panels. **The pipeline is verified cell
+by cell, not just by correlation**: our model predictions match the paper's own digitized
+prediction columns to a maximum absolute difference of 0.0003 (M1), 0.0002 (M2), 0.001
+(M3), 0.0002 (H) across all 297 cells — agreement at the digitization band itself. And
+**all four human-correlation gates land at printed precision** on the first complete run.
+
+**Means.** The Experiment-1 half of the BST recreation PASSES at exact-value grade — the
+strictest pass in the phase after the analytic Armstrong–Mindermann cell, and the first on
+real behavioral data. The load-bearing choices were all referee catches or source reads
+that a plausible implementation would have missed: the soft value function (Eq. 4 is the
+Boltzmann policy's own fixed point), blocked-action masking, marginalized state
+transitions, the goal-chain parameterization, and the decode gate that supplied the
+stimulus set (L114). Remaining for the anchor: the parameter-grid and BSCV gates (appendix
+Fig. 2 and Table 1), the all-squares goal-prior arm, and Experiments 2 and 3, which need
+their own stimulus extractions (the same decode machinery applies). Filed as queue stages;
+the maze-world engine is done.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
