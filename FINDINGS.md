@@ -4518,6 +4518,41 @@ Fig. 2 and Table 1), the all-squares goal-prior arm, and Experiments 2 and 3, wh
 their own stimulus extractions (the same decode machinery applies). Filed as queue stages;
 the maze-world engine is done.
 
+## L120 · The goal-prior contradiction resolves empirically: the paper computed with the three marked goals, and only the cell-level gate could tell
+
+**Hypothesis.** *(The referee's fourth source contradiction, both readings as arms: the
+Exp-1 main text says the three marked goals; the appendix's general prior says every
+non-obstacle square.)* The two supports produce distinguishable predictions, and the
+paper's own digitized numbers identify which one their computation used.
+
+**Method.** The v2 engine's second arm: all-squares support (K ≈ 140 per world), same
+best-fit parameters, same alignment, against the marked arm (L119).
+
+| model | marked arm vs their digitized predictions (max abs) | all-squares arm |
+|---|---|---|
+| M1 | 0.0003 | 0.0003 |
+| M2 | 0.0002 | **0.1289** |
+| M3 | 0.001 | 0.001 |
+| H | 0.0002 | 0.0002 |
+
+*Caption: agreement with the paper's own prediction columns under the two goal-prior
+readings. M1, M3 and H are readout-invariant to the support (per-goal likelihoods do not
+depend on it, and the marked-goal renormalization cancels the prior's size); M2 is the one
+model where K enters the dynamics, through the switch mixture.*
+
+**Found.** The marked arm matches their M2 column to two ten-thousandths; the all-squares
+arm deviates by up to thirteen points of probability. The paper's numbers were computed
+under the three-marked-goals reading, as its Experiment-1 text states; the appendix's
+all-squares prose does not describe the Experiment-1 computation. A methods note worth
+keeping: the human-correlation gate barely notices the fork (0.9774 against 0.9780), so
+only the cell-level comparison discriminates — correlation gates are too coarse to catch a
+wrong prior support.
+
+**Means.** The fourth source contradiction closes with a winner rather than a caveat, and
+the K in M2's switch factor is settled at 3 for any Exp-1 use. The cell-level-outranks-
+correlation lesson is banked. Remaining on this anchor: the grid and BSCV gates, then
+Experiments 2 and 3 behind their own stimulus extractions.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
