@@ -56,6 +56,27 @@ RATES = {"A100": 2.50, "H100": 3.95, "L40S": 1.95, "L4": 0.80}   # Modal $/h, 20
 SAFETY = 1.4                      # estimate tax: image pull, data mount, eval overhead
 
 
+LEDGER_LOCK = LEDGER.with_suffix(".lock")
+
+
+def _lock_ledger() -> None:
+    """The ledger is the stone's enforcement record; concurrent package invocations must
+    never lose a spend entry to a read-modify-write race."""
+    import os
+    for _ in range(600):
+        try:
+            fd = os.open(LEDGER_LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            os.close(fd)
+            return
+        except FileExistsError:
+            time.sleep(0.5)
+    raise RuntimeError("gear3 ledger lock held for 5 minutes; investigate before spending")
+
+
+def _unlock_ledger() -> None:
+    LEDGER_LOCK.unlink(missing_ok=True)
+
+
 def load_ledger() -> dict:
     if LEDGER.exists():
         return json.loads(LEDGER.read_text(encoding="utf-8"))
@@ -133,12 +154,27 @@ def main() -> None:
         print("gear3 run needs --cmd and --produces")
         sys.exit(2)
 
-    # ── STONE RULE 2: the $10 window ─────────────────────────────────────────────────────
-    if window_spend(led) + est > HARD_CAP_DOLLARS:
-        if not args.cap_approval.strip():
-            refuse_over_cap(led, est, args)
-        led["cap_approvals"].append({"ts": time.time(), "text": args.cap_approval,
-                                     "amount_at_approval": round(window_spend(led) + est, 2)})
+    # ── STONE RULE 2: the $10 window, checked AND reserved under the ledger lock so
+    # parallel package chains cannot each pass the ceiling before the other's spend lands.
+    # The estimate is written as the entry's cost at launch (conservative) and corrected to
+    # the measured figure at completion.
+    _lock_ledger()
+    try:
+        led = load_ledger()
+        if window_spend(led) + est > HARD_CAP_DOLLARS:
+            if not args.cap_approval.strip():
+                _unlock_ledger()
+                refuse_over_cap(led, est, args)
+            led["cap_approvals"].append({"ts": time.time(), "text": args.cap_approval,
+                                         "amount_at_approval": round(window_spend(led) + est, 2)})
+        t0 = time.time()
+        led["runs"].append({"ts": t0, "cmd": args.cmd, "gpu": args.gpu,
+                            "est_dollars": est, "duration_s": None,
+                            "est_actual_dollars": est, "approval": args.approval,
+                            "returncode": None, "status": "LAUNCHED"})
+        save_ledger(led)
+    finally:
+        _unlock_ledger()
 
     # ── the cloud call ───────────────────────────────────────────────────────────────────
     import modal                                                      # noqa: PLC0415
@@ -178,17 +214,20 @@ def main() -> None:
 
     print(f"[gear3] launching {args.gpu} (~{args.est_minutes} min, est ${est:.2f}) "
           f"under approval: {args.approval!r}", flush=True)
-    t0 = time.time()
     with modal.enable_output(), app.run():
         result = run_stage.remote(args.cmd, args.produces, timeout_s - 60)
     dur = time.time() - t0
     actual = round(RATES[args.gpu] * (dur / 3600.0) * 1.05, 2)
 
-    led["runs"].append({"ts": t0, "cmd": args.cmd, "gpu": args.gpu,
-                        "est_dollars": est, "duration_s": round(dur, 1),
-                        "est_actual_dollars": actual, "approval": args.approval,
-                        "returncode": result["returncode"]})
-    save_ledger(led)
+    _lock_ledger()
+    try:
+        led = load_ledger()                       # reload under the lock: parallel chains
+        mine = next(r for r in led["runs"] if r["ts"] == t0)
+        mine.update({"duration_s": round(dur, 1), "est_actual_dollars": actual,
+                     "returncode": result["returncode"], "status": "DONE"})
+        save_ledger(led)
+    finally:
+        _unlock_ledger()
 
     dest = REPO / args.produces
     if "produced" in result:
