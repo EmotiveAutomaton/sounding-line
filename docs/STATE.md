@@ -115,8 +115,17 @@ eight-agent external-verification fleet (L107, L108, L109, L123):
   stimulus decode (the L114 machinery).** Old 4-action results archived as
   summary_4action.json.
 
-**Phase 2 waits on his ruling over that package.** Its head is the G129 choice-recovery
-preregistration (the delta stated in every arm; the 19-dim change block as declared baseline).
+**Phase 2.0 is GOVERNED (2026-08-16): his handoff brief landed and is archived at
+`docs/design/PHASE_2_0_CONTEXT.md`; the live sub-goal map (2.0A to 2.0H, identifiers G152 to
+G157 plus the absorbed G129/G130/G131/G149) is the Phase 2.0 section of `TODO.md`.** The
+mission: a deployable binary AI-provenance classifier whose differentiating contribution is
+recoverable decision structure, one vertical slice from benchmark through release, with the
+decision representation validated on known answers BEFORE any fusion and the curator
+interface running at theory-group level (roll-ups: Strengthens | Narrows | Kills |
+Infrastructure — the contract is folded into `CLAUDE.md` and the grind skill). The slice's
+head remains the G129 choice-recovery preregistration (the delta stated in every arm; the
+19-dim change block as declared baseline), now joined by the G152 frozen evaluation
+contract as the phase's second writing task.
 
 **The artifact-side science meanwhile (the movement family, settled at four generator
 families):** rising positional polish is the machine default (3 of 4 base × post-training

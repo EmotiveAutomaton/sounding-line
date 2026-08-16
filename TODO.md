@@ -71,7 +71,47 @@ it. Only one true value pass exists so far, the impossibility construction's ana
 | **G137 · recreate Bayesian inverse planning on the classic gridworld** | Baker, Saxe & Tenenbaum's goal inference from partial trajectories is the direct precedent for the whole project. Reproduce their three models (M1 static-goal, M2 goal-switching, M3 subgoal) at their best-fit parameters (M2 β=2.0 γ=0.25 for Exp 1; β=0.5 γ=0.65 for Exp 2; M3 β=5.0 κ=0.6 for Exp 3) on their maze-world stimuli. **The exact gates, fetched from the paper: Exp 1 best-fit r .83/.98/.94; Exp 2 BSCV ⟨r⟩ .57/.95/.58 with heuristic .91; Exp 3 M3 .96.** Model predictions and parameter-dependence curves are fully recreatable; the human side lives in their figures, and the pass is judged on the model side | Sim-side brief to ghost-scale; small state space, exact inference | **v1 landed here instead (L63): all three analytic gates pass** (γ→0 identity at 10⁻¹², monotone convergence, switch-tracking 0.899 vs 0.158); the figure-level half of the pass is owed next |
 | **G138 · recreate the impossibility construction, then relax it** | Armstrong & Mindermann's planner/reward degeneracy, built as a runnable toy, then relaxed with the three human priors | **done (L60): RECREATED at exactly 0.5/0.5, then NARROWS.** Bounded family 20×, known planner 2×, both 40×, noise-robust. The bounded family is the load-bearing prior. Next scale: the G137 gridworld |
 
-## Phase 2 — the program proper, each step behind its anchor
+## Phase 2.0 — the vertical slice (governing brief: `docs/design/PHASE_2_0_CONTEXT.md`, 2026-08-16)
+
+**The mission, his directive:** build and controlled-ground-truth validate a deployable binary
+AI-provenance classifier whose differentiating contribution is recoverable decision structure,
+while constructing the reusable intent-reading machinery for later process and value inference.
+One complete vertical slice: benchmark → decision representation → stacked classification →
+held-out evaluation → packaging → public demonstration. The detector is the public wedge;
+recoverable decision structure is the project. Every study names its theory group; every landing
+gets a curator roll-up (Strengthens | Narrows | Kills | Infrastructure).
+
+**Migration note (2.0A, 2026-08-16).** What moved: the context file archived to
+`docs/design/PHASE_2_0_CONTEXT.md`; the program's 2026-08-09 deprioritization of "detector
+benchmark races / feature stacking before choice recovery validates" is superseded by the
+curator's Phase 2.0 directive — with its core discipline PRESERVED (all advanced fusion stays
+gated on an independently validated decision representation; the brief itself mandates it). What
+stayed: every identifier below; G129/G130/G131 become 2.0D's validation program; G150's null is
+an integration constraint (naive late fusion on the style-change task did not help), never a core
+verdict; G151 (gear 3) is the burst engine under the stone rules. What was deferred: G132–G135,
+G142–G146 continue as wider-program items behind their own gates, outside the slice; value
+recovery is explicitly out of Phase 2.0 (the schema preserves its variables). Phase 1's tail
+(wqd test gates, deberta ladder, BST Exps 2–3) lands through the existing workflow alongside.
+
+| sub-goal | identifier | what it builds | gate / dependency | state |
+|---|---|---|---|---|
+| **2.0A reconcile** | this pass | dependency map, migration note, contract amendment | none | **DONE this pass** |
+| **2.0B evaluation contract** | **G152** | frozen task definition BEFORE optimization: operational binary-label guide (substantial model contribution, with adjudication examples), full 8-regime authorship taxonomy, primary/secondary metrics (F1 at declared prevalence; TPR at 1% human-FPR; calibration; worst-slice), split logic (lineage/author/domain/generator grouping), baseline-selection rule with date, claim language per outcome tier | none; the next writing task after the G129 prereg | **OPEN, first build block** |
+| **2.0C crossed benchmark** | **G153** | provenance × delegated-human-choice factorial: 8 regimes, domain/register/length/quality/generator strata, counterexamples that break every shortcut (quality-matched pairs, low-decision human vs high-decision AI, same source under different histories), lineage-safe splits, full record schema §11.3 | G152 frozen first; generator sourcing + API budget = curator decisions | **OPEN; design can start, data acquisition blocked on his decisions** |
+| **2.0D decision-reader validation** | **G129 + G130c follow-ups + G131 + G149** | the differentiating representation proven on known answers: G129 preregistered choice recovery (the prereg draft is the standing next writing task); G130c's powered matched replication + floor decomposition; G131 factorial construct test; G149 channel validation against KNOWN motivation-shift points (the BST engine's ground-truth goal switches — the validated inventory supplies exactly this) | G130 harness VALID (L56); G136 half-met | **OPEN, the core; local, mostly cheap** |
+| **2.0E competitive substrate** | **G154** | the honest finish line for AI-provenance (NOT the style-change substrate — a new reproduction target): selection survey of strongest reproducible detectors current at implementation date (one strong trained detector; one zero-shot/statistical with distinct errors; one surface/metadata leakage reference), then faithful reproduction with frozen outputs and error slices on G153 | G153 exists to score against; training likely gear-3 scale → cap approvals per the stone | **OPEN; survey first, reproduction second** |
+| **2.0F stack + ablation** | **G155** | substrate alone / decision layer alone / calibrated late stack / interaction-aware stack / deeper fusion ONLY after complementarity shown; decision reader frozen during the first ablation so provenance supervision cannot replace its construct; preregistered | 2.0D passed AND 2.0E frozen; G150's null = the integration constraint (fusion seed variance ~2× substrate; naive concat insufficient) | **GATED** |
+| **2.0G shift hardening** | **G156** | unseen generators/domains/authors, both rewrite directions, rich prompting, low-effort human negatives, short texts, benign transformations; worst-slice + calibration reporting, never one aggregate | 2.0F verdict | **GATED** |
+| **2.0H productize + release** | **G157** | installable package, scoring CLI, small API, versioned+checksummed weights, manifests, CI tiers, calibration artifacts, model card, demo-as-evidence-viewer with abstention | infra workstream STARTS NOW per the locked decisions (CI/packaging are first-class, not post-result); release gated on the frozen gate | **OPEN (infra) / GATED (release)** |
+
+**Standing rules for the slice:** intent = recoverable problem-directed organization of choices
+under bounded context, never an unconstrained latent state; the public label is "probability a
+generative model made a substantial contribution to final wording or structure," never "the
+author is AI"; abstention is a product behavior; no aggregate intent score replaces the tuple;
+escalation list and claims policy per the brief §§16, 18. Result routing per §13.4: every null
+must remove, narrow, or redirect something.
+
+## Phase 2 — the wider program, each step behind its anchor (items outside the 2.0 slice continue here)
 
 | | study | gate it waits on | state |
 |---|---|---|---|
@@ -143,7 +183,10 @@ it. Only one true value pass exists so far, the impossibility construction's ana
   profile; repeat under commission, where the proximal goal may conflict with the persistent
   profile.
 
-**Deprioritized by the program, by name.** Detector benchmark races. Feature stacking before choice
+**Deprioritized by the program, by name** *(the first two items superseded 2026-08-16 by the
+Phase 2.0 directive, which makes the detector the public wedge — while preserving the discipline
+that motivated the deprioritization: all fusion stays gated on an independently validated decision
+representation)*. Detector benchmark races. Feature stacking before choice
 recovery validates. Entropy, compression, effective complexity, component counts, centroid
 distance (L29 showed the failure). More global averages (L35 showed the failure). More transformer
 address searches, since the transferable result is tracking, and architecture work now supports an

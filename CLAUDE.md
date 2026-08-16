@@ -105,9 +105,9 @@ A very short paper, in that order, no exceptions.
 instead of recalled — when he says "run the grind" or any queue/results/reporting work begins,
 load the skill first. The README re-read is step zero of that loop.
 
-### A · When a run finishes, four things happen before anything else
+### A · When a run finishes, five things happen before anything else
 
-**In this order, in the same pass, every time. A result that has not been through all four has not
+**In this order, in the same pass, every time. A result that has not been through all five has not
 landed.**
 
 1. **`FINDINGS.md`** — the method archive. How it was run, with the numbers. **Add any new p-value to
@@ -122,6 +122,19 @@ landed.**
 3. **`TODO.md`** — the item leaves; anything it opened gets added, under the same identifier.
 4. **Report it in the chat.** Hypothesis first, then what we did, what we found, what it means.
    **Every result, every time, so he never has to hunt for the latest numbers.**
+5. **The curator roll-up** (Phase 2.0 contract, 2026-08-16; full form in
+   `docs/design/PHASE_2_0_CONTEXT.md` §15). Appended to the FINDINGS entry, once, never
+   duplicated elsewhere: theory group · question in plain language · outcome class, exactly one of
+   **Strengthens | Narrows | Kills | Infrastructure** ("interesting" and "mixed" are not classes)
+   · one-sentence result with at most one number · project meaning · next engineering obligation ·
+   public claim (newly licensed / unchanged / weakened / forbidden) · curator decision required
+   (No, or Yes with one recommended answer) · detail pointer.
+
+**Two reporting modes (same contract).** Execution mode: queue state and landing detail stay
+visible while work runs, as always. **Curator synthesis mode: when he asks where the project
+stands, the reply begins at theory groups and Phase 2.0 sub-goals; queue detail moves to a
+compact appendix unless it alters a decision.** Escalations carry one recommended answer, the
+decisive evidence, the strongest real objection, and the consequences — never an unranked menu.
 
 **No batching, and no verdict-only reporting** — a result that has appeared in any form (a queue
 log, a committed file, a notification) gets its FULL write-through in the same message, appended

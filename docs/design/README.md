@@ -10,6 +10,7 @@ curator's prompt).
 
 | file | reach for it when |
 |---|---|
+| [`PHASE_2_0_CONTEXT.md`](PHASE_2_0_CONTEXT.md) | **the governing brief for Phase 2.0**, the curator's handoff (2026-08-16, snapshot 1d38130): mission, locked design decisions, sub-goals 2.0A to 2.0H, benchmark and evaluation contracts, claims policy, curator abstraction boundary. Read before any Phase 2.0 design or build decision; the live sub-goal map lives in `TODO.md`. Archived here from the repo top level per its own §17 routing |
 | [`DWELL_CORPUS.md`](DWELL_CORPUS.md) | sourcing or scoping the dwell corpus. Sim T-3 named the regime where decision-counting is a well-defined event; this is the first corpus request in the project with a reason attached rather than a vibe. Still a sourcing decision |
 | [`ENGINEERING_LOOP.md`](ENGINEERING_LOOP.md) | choosing tooling or framing for the build side. The curator's engineering-loops reframe, in his words: this project is not only establishing claims, it is trying to make something. Quote discipline applies; his blockquote is untouchable |
 | [`QUEUE.md`](QUEUE.md) | never for the live queue. The live queue is `TODO.md` plus `runners/run_queue.py`; this is the 2026-08-05 snapshot, superseded with a banner, kept whole for its measured rates and its ordering rationale |
