@@ -4768,6 +4768,72 @@ grain excluded can participate. Package cost ~$8.20 total, window honest at ever
 and the whole cycle - preregister, fire, land, verdict - took one afternoon, which is the
 gear-3 iteration speed working as intended even when the answer is no.
 
+## L126 · The matched blind floor decomposed: 87% of its rise was label composition meeting the reader's default guesses
+
+**Hypothesis.** *(The G130c follow-up owed by L73: which covariates raised the matched blind
+arm from the analytic 0.25 to 0.402?)* Since the blind arm never sees text, the rise must
+travel through label composition rather than through any covariate the reader could read.
+
+**Method.** Reconstructed the L73 matched subset exactly (same seed, same code path, join
+verified event by event against the recorded blind arm), then decomposed the floor three
+ways on the existing 674 records: the truth and pick label marginals; a Monte Carlo
+"alignment floor" (expected accuracy if the reader picks by its own empirical label
+preference restricted to each candidate set, fresh uniform decoy draws, 200 repetitions per
+event); and logistic regression of blind correctness on the six matching covariates, with
+and without truth-label dummies. CPU only, no model calls, every statistic on disk
+(`results/arg_recovery/floor_decomp.json`).
+
+| quantity | value |
+|---|---|
+| blind accuracy (the L73 floor) | 0.402 |
+| analytic floor at k = 4 | 0.250 |
+| marginal-alignment floor (Monte Carlo) | 0.382 |
+| share of the rise explained by alignment alone | **0.866** |
+| largest truth share in the matched subset | word-usage/clarity, 0.405 |
+| blind accuracy on that label | 0.652 |
+| blind accuracy on "evidence" (n = 36) | 0.000 |
+
+*Caption: the floor rise decomposed. "Alignment floor" is what a reader with the observed
+label preferences would score by guessing labels alone, never seeing text; it reaches 0.382
+of the observed 0.402, so 86.6 percent of the rise above chance is label-marginal
+alignment. The per-label rows show the mechanism: matching concentrated the subset onto
+word-usage/clarity, exactly the label the blind reader guesses most and best.*
+
+**Found.** DECOMPOSED, and the answer is composition, not covariates: matching reweighted
+the truth marginal toward the labels the blind reader guesses by default (two labels,
+word-usage/clarity and precision, carry 52 percent of matched truth and the reader's
+highest blind hit rates), and that alignment alone reproduces 87 percent of the floor's
+rise. The covariate logistic reaches 0.60 training accuracy only by proxying the truth
+label; the blind reader never saw a covariate, so residual covariate coefficients after
+label dummies are label-correlation artifacts, not information flow.
+
+**Means.** The L73 "floor jumps under matching" phenomenon is now mechanically explained
+and it changes the confirmatory design before its freeze: the G129 matched draw is
+truth-balanced WITHIN common support, which restores the analytic 1/k floor and makes the
+matched margin directly readable instead of margin-over-a-moving-floor. The lesson
+generalizes the L62/L64 chain one step: matching is a reweighting, and any reweighting
+moves the blind floor through the label marginal, so every matched design either
+re-balances truth or re-measures its floor (LESSONS §3 already carries the rule; this is
+its mechanism).
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Was the raised floor under covariate matching hiding real
+  text information, or was it an artifact of how matching reshuffled the labels?
+- **Outcome class:** Narrows
+- **Result:** 87 percent of the matched blind floor's rise is label-marginal alignment; no
+  text information was involved.
+- **Project meaning:** The delta-specific recovery margin (8.2 points, L73) stands against a
+  floor now known to be compositional; the confirmatory design balances truth within the
+  matched support so its floor is analytic.
+- **Next engineering obligation:** Run the G129 confirmatory battery per its preregistration
+  once the queue clears the wqd gates.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** G130c follow-up → `results/arg_recovery/floor_decomp.json`,
+  `runners/run_g130c_floor_decomp.py`, prereg amendment in `prereg/g129.py`.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

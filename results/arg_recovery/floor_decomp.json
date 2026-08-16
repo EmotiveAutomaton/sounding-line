@@ -1,0 +1,84 @@
+{
+ "question": "which covariates raised the matched blind floor (0.402 vs analytic 0.25)",
+ "n": 674,
+ "k": 4,
+ "blind_accuracy": 0.4021,
+ "truth_marginal": {
+  "claims/ideas": 0.0371,
+  "conventions/grammar/spelling": 0.0326,
+  "evidence": 0.0534,
+  "general content development": 0.1617,
+  "organization": 0.0653,
+  "precision": 0.1187,
+  "warrant/reasoning/backing": 0.1261,
+  "word-usage/clarity": 0.405
+ },
+ "pick_marginal": {
+  "claims/ideas": 0.0757,
+  "conventions/grammar/spelling": 0.1083,
+  "evidence": 0.0015,
+  "general content development": 0.0401,
+  "organization": 0.0608,
+  "precision": 0.1573,
+  "warrant/reasoning/backing": 0.1306,
+  "word-usage/clarity": 0.4258
+ },
+ "alignment_floor_mc": 0.3817,
+ "alignment_share_of_rise": 0.866,
+ "per_label_blind_accuracy": {
+  "claims/ideas": {
+   "n": 25,
+   "acc": 0.24
+  },
+  "conventions/grammar/spelling": {
+   "n": 22,
+   "acc": 0.2273
+  },
+  "evidence": {
+   "n": 36,
+   "acc": 0.0
+  },
+  "general content development": {
+   "n": 109,
+   "acc": 0.0642
+  },
+  "organization": {
+   "n": 44,
+   "acc": 0.2045
+  },
+  "precision": {
+   "n": 80,
+   "acc": 0.5125
+  },
+  "warrant/reasoning/backing": {
+   "n": 85,
+   "acc": 0.2941
+  },
+  "word-usage/clarity": {
+   "n": 273,
+   "acc": 0.652
+  }
+ },
+ "logistic_covariates_only": {
+  "train_accuracy": 0.6024,
+  "coefs": {
+   "words_added": 0.0153,
+   "words_removed": -0.2856,
+   "length_change": -0.2603,
+   "rarity_shift": -0.0017,
+   "sentence_length": 0.0191,
+   "original_rarity": 0.1365
+  }
+ },
+ "logistic_with_label_dummies": {
+  "coefs_covariate_part": {
+   "words_added": 0.3779,
+   "words_removed": -0.2707,
+   "length_change": -0.4901,
+   "rarity_shift": 0.0292,
+   "sentence_length": -0.1167,
+   "original_rarity": 0.1674
+  }
+ },
+ "mc_reps": 200
+}

@@ -449,20 +449,22 @@ all fixed by construction.**
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered.** Raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
 | **PD-28** | The surviving effect is polish, not depth | **SUPPORTED (test, L42/L66), the matched control decided it.** With content and surface revisions balanced on size, rarity shift, position, and difficulty (coarsened exact matching, balance verified), content identifiability collapses from 0.857 to 0.507 against 0.5 chance. Within common support, the content-associated lexical effect *was* its covariates: sophistication and magnitude, not recoverable depth. Scope: the matched fifth of the corpus, which is where comparable revisions live |
 | **G129-pilot** | Recorded revision purposes are recoverable from the delta by a bounded reader | **CONCLUDED, RECOVERABLE (test, L62/L64/L65).** Under the clean construction (truth-balanced, floor verified analytic: blind 0.232 against 0.25) recovery holds 0.477 against 0.25, a 22.7-point margin on 616 events, consistent with both crooked-floor estimates |
-| **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither; most of the headline margin was covariate-carried on common support and a significant delta-specific remainder stands. Owed: the powered matched replication, and the floor decomposition naming which covariates raised the blind arm |
+| **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73), the raised floor DECOMPOSED (test, L126).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither. The floor's rise is 87% label-marginal alignment: matching reweighted the truth labels toward the ones the blind reader guesses by default, no text information involved, so the delta-specific remainder stands against a compositional floor rather than a covariate-information one. Owed: the powered matched replication, now the G129 confirmatory battery, whose matched draw truth-balances within common support to restore the analytic floor |
 
 **What the table says.** The collision ran and split the difference in an instructive way. The
 matched control collapsed content identifiability to chance, and under the same matching the
-recovery margin shrinks by two thirds without vanishing: the floor rises, not the recovery,
-which says most of what the headline margin was reading lives in the covariates
-(sophistication, magnitude, position) while a significant remainder is only available by
-actually seeing the revision. Recorded purposes are recoverable; the delta-specific part of
-that recoverability is roughly eight points, and the prereg's own bands decline to grade it, an
-honest gap to close with power rather than interpretation. The floor decomposition matters as
-much as the replication, since a blind arm at 0.40 on common support means the matched events'
-purposes are half-predictable from context alone. The hurried-versus-careful commission remains
-the designed extension. Confidence: the collapse, the pilot margin, and the collision are each
-one bad test away, and the collision's verdict band is a prereg defect now on record.
+recovery margin shrinks by two thirds without vanishing: the floor rises, not the recovery.
+The decomposition then explained the rise itself: it is composition, not context. Matching
+reshuffled which purposes dominate the subset, and the labels that survive matching are the
+ones a text-blind reader guesses by default, so the higher floor never meant the matched
+events' purposes were half-predictable from context; it meant the label mix had drifted onto
+the reader's priors. What stands is a recoverable-purposes claim with a delta-specific part of
+roughly eight points, graded by no band because the prereg's own bands declined to cover it,
+an honest gap the confirmatory battery closes with power and an analytic floor (truth balance
+inside the matched support). The hurried-versus-careful commission remains the designed
+extension. Confidence: the collapse, the pilot margin, and the collision are each one bad
+test away; the floor decomposition is one bad test away and mechanically checkable from its
+own output file.
 
 ## §7. Reader-side measurement: the second channel, briefly
 
