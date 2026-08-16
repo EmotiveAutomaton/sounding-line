@@ -9,7 +9,10 @@
 > section. Then read `docs/method/LESSONS.md`'s trigger index before designing or building
 > anything.
 
-**Rewritten 2026-08-14, immediately before an expected compaction.** Everything below is current.
+**Rewritten 2026-08-14 immediately before an expected compaction; consolidated 2026-08-16 at
+the curator's direction for the Phase-1 wrap (the distilled-chronology section is the load-
+bearing addition — it exists because interim summaries kept outliving their corrections).**
+Everything below is current.
 
 ## ⚠ HARD CONSTRAINTS AND STANDING RULINGS, SET BY THE CURATOR
 
@@ -54,9 +57,14 @@ rules in `docs/theory/README.md`; the linter enforces the mechanical half.
 
 ## Where the program stands (2026-08-14)
 
-**Phase 1 (frontier recreations) is one implementation and one queue-burn from his final
-assessment.** The scorecard, settled by two adversarial Opus referees and a nine-agent
-consensus fleet (L107, L108, L109 — 21 of 25 ballot claims unanimous):
+**Phase 1 (frontier recreations) is at wrap: three anchors closed, BST's Experiment 1
+complete with Experiments 2-3 open behind their stimulus decodes, PAN's tail (wqd test
+gates, ernie head-scope, vote, the deberta stabilizer ladder) in the machine. Phase 2 is
+TENTATIVELY OPEN by his ruling (2026-08-16): the detector-layering A/B on the wqd substrate
+(G150 channels landed), with the honest framing that the channels are motivation-shift
+samplers (G149), not a depth detector, and the L4 stacking conditions preregistered.** The
+scorecard, settled by two adversarial Opus referees, a nine-agent consensus fleet, and an
+eight-agent external-verification fleet (L107, L108, L109, L123):
 
 - **Armstrong–Mindermann**: PASSED exactly (analytic 0.5/0.5), extended (bounded family 20×,
   both priors 40×).
@@ -131,8 +139,58 @@ survive the fair induction control on the two strong ladders (G76/L94).
   staleness window is 9h; the regear waiter cancels by FILE (`results/.regear.cancel`),
   never by pid.
 - **The audit-history index:** L26 (the first fleet), L61 (recreation re-audit), L93 (the
-  methods pass), L107/L108 (the two referees), L109 (the consensus fleet). The old solo-audit
-  scope table this file used to carry is superseded by that chain.
+  methods pass), L107/L108 (the two referees), L109 (the consensus fleet), L123 (the external
+  verification fleet). The old solo-audit scope table this file used to carry is superseded by
+  that chain.
+
+## THE PHASE-1 CHRONOLOGY, DISTILLED — read before believing any summary of Phase 1
+
+Compactions preserve summaries, and several interim summaries of this phase were later walked
+back by our own audits. This section exists so a future context lands on the END STATES and
+cannot resurrect a dead interim claim. Per anchor: the final verdict, then the claims that
+died on the way and must stay dead.
+
+- **Armstrong–Mindermann.** Final: PASSED exactly, extended (bounded family 20×, both priors
+  40×). Never swung, and carried ZERO internal contradictions — never lump it into the
+  contradiction tally (L123 corrected the loose "all five papers" phrasing; the true tally is
+  four of five works, matching meta-research base rates).
+- **ScholaWrite.** Final (L117): the printed F1 headline is REPRODUCED — inside the
+  three-seed framework interval, one seed on it to the third decimal, every trajectory
+  crossing it on both architectures. The paper stays internally inconsistent (its own table
+  implies 0.59, accuracy 0.56), explicable as one pipeline read at different checkpoints; the
+  shipped split leaks by construction; the accuracy residue is open. DEAD, do not resurrect:
+  "0.64 is stale/unreachable" (the 08-11/08-12 closed-as-correction story — reversed when the
+  framework arms landed); "flawlessly matched" (never true at any point); 0.741 as anything
+  but the non-faithful recipe.
+- **ArgRewrite.** Final (L115/L123): composition exact (3,236/3,238); binary Majority to the
+  digit; faithful Features .883 vs .90; the embedding rows not reproduced from public
+  materials with the gap bounded at 3-4 points AND the surviving candidates named (search
+  optimism past their grid; an unstated vector combination — "nothing left WE can run," never
+  "nothing left to run"); the fine half rests on the independently confirmed Table-4
+  contradiction, with the augmentation story held as inference-with-counter-evidence. DEAD,
+  do not resurrect: ".895 Features reproduced" (it carried our change block); "fine half
+  closed, composition demonstrated in-pipeline" (downgraded by L107); L109's "Majority rows
+  mutually incompatible independent of Table 4" (downgraded by L123 — a second derivation
+  could not reconstruct it).
+- **PAN.** Final: the metric is POOLED two-class macro-F1 (evaluator read verbatim in all
+  three years, twice-derived, no reconciling reading); the contamination account is closed
+  three ways with honest capability 0.81-0.83; members reproduce above validation gates under
+  the head-scope one-recipe set; the 2025 labeled test split is genuine and its three printed
+  test values are the phase's exact-value crown. DEAD: "nothing here has the inflation
+  signature" (L104, falsified by L106); "their run cannot have been all-module dropout"
+  (downgraded to knife-edge instability by L118).
+- **BST.** Final (L119/L120/L122): Experiment 1 complete at exact-value grade — fourteen
+  printed values at printed precision, the sweep re-deriving their best-fit parameters, the
+  goal prior resolved at K=3 by the cell-level gate, the 99-stimulus set decoded label-perfect
+  (L114). Experiments 2 and 3 open behind their own stimulus decodes. DEAD: the 4-action
+  hard-max engine (the paper's Eq. 4 is the SOFT Bellman fixed point); my Exp-2 reference
+  narrowing (reversed by L109 — column-major grouping validates the file); "text says 99,
+  caption says 100" (both say 99; the 100th datum exists only in the plotted vector content).
+- **The shape to internalize:** every one of those dead claims was retired by the audit chain
+  above, not by outside correction — and each was, for a time, the confident summary a
+  compacted context would have inherited. The standing conclusions live in the TODO Phase-1
+  rows and FINDINGS end-states as folded; an interim summary, including one written by a
+  previous self in chat, is evidence of what was believed, never of what is true.
 
 ## Open decisions / owed
 

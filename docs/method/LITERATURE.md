@@ -141,7 +141,11 @@ and the task is exactly cross-condition identity (access via Aston, slow); PAN20
 chance; non-native writers false-positive at 61.2% (the fairness result to cite).
 
 **PAN multi-author style analysis, corrected at source during the recreation (L102, L106, L108,
-L109)**: the earlier "PAN26" labels here were wrong (the editions on disk are 2018/2022-2025).
+L109; externally verified L123 — the evaluator re-read verbatim in all three years with no
+reconciling reading, the contamination unclaimed anywhere through the 2026 overview, and the
+same organizing group's own SPIRE-22 paper documents the identical cross-benchmark leakage
+mechanism in a different task family)**: the earlier "PAN26" labels here were wrong (the
+editions on disk are 2018/2022-2025).
 The metric is POOLED two-class macro-F1 over all pairs, against every overview paper's own
 prose (evaluator source + six baseline back-calculations). Winner records: 2024 hard 0.863
 (nycu-nlp, three-base-encoder vote; its validation table blends ~16 percent cross-year

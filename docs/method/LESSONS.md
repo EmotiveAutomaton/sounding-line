@@ -12,6 +12,18 @@ fold it; never append a contradiction. **Reorganised 2026-08-14 at the curator's
 (the gate section had grown into a wall; it is now four trigger moments with an index), entries
 preserved whole.
 
+**What the recreation phase did to this file, in one paragraph (consolidated 2026-08-16).**
+Phase 1 tripled the shelf and changed its center of gravity: the project entered the phase
+believing a recreation was a run and left knowing it is a chain of custody. The pattern that
+recurred at every scale — in the papers we checked, and three times in our own record — is
+that a conclusion outran its verification and was later walked back by a stricter pass
+(closed-as-correction twice before the headline turned out reproducible; a "reproduced" cell
+carrying our own features; a fleet strengthening recorded without its arithmetic). Every §1
+entry is a scar from that pattern, and the audit chain that caught each instance
+(L26→L61→L93→L107→L108→L109→L123) is itself the method: verdicts are provisional until an
+adversarial pass has tried to kill them, corrections get the same rigor as findings, and the
+current truth lives in the folded end-state of the record, never in an interim summary.
+
 ## THE TRIGGER INDEX — the moment you are in → the section you read
 
 | you are about to… | read |
@@ -36,9 +48,12 @@ preserved whole.
 - **Run the self-consistency check first.** Test the number against every other number in the
   paper that constrains it: the majority-F1 identity ((2s/(1+s))/k pins a majority share), class
   distributions reweighting per-class tables, subtotal sums, printed accuracy against printed F1.
-  Five papers checked this phase, five internal contradictions found (ArgRewrite's Majority rows;
-  ScholaWrite's 0.64; BST's stimulus count, M3 β, and goal prior; PAN's metric prose). (L77, L78,
-  L79, L102, L107; the check is a TOOLS instrument row.)
+  Stated precisely (L123's correction of the loose tally): four of the five works checked this
+  phase carried internal inconsistencies (ArgRewrite's Majority rows vs Table 4; ScholaWrite's
+  0.64 vs its own table and accuracy; BST's stimulus count vs plotted content and its M3 β
+  captions; the PAN metric prose vs its own evaluator, one defect shared across sibling overview
+  papers) — the analytic paper was clean, and the hit rate matches the meta-research base rates,
+  not a broken check. (L77, L78, L79, L102, L107, L123; the check is a TOOLS instrument row.)
 - **An evaluator's source outranks its paper's prose, and baselines back-calculate.** All three
   PAN overview papers describe per-document macro-averaging; the shipped evaluator pools every
   decision and macro-averages over the two classes. Six published baseline cells back-calculated
@@ -296,7 +311,7 @@ preserved whole.
   (`run_first_gear.sh`, part of the CPU, the GPU mostly the curator's) four to eight hours of
   light stages. GPU stages serialize through `results/.gpu.lock` inside the runner, so shards
   cannot collide on the card while the lock's staleness window exceeds every stage's runtime
-  (see the staleness entry below); expect lock-queue starvation to reorder stages and read
+  (the staleness entry above); expect lock-queue starvation to reorder stages and read
   per-stage logs, not shard logs, for stage output. (TOOLS gear-scripts row; gears replaced day/night
   2026-08-12)
 - **Bare-launched shells have no PATH** (`date`/`cat` silently empty, deadline arithmetic
