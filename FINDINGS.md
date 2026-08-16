@@ -2599,8 +2599,10 @@ the project's GitHub issues. Every load-bearing claim below is from a READ sourc
    normalization), and input equal to the FULL before-text right-truncated at 512 tokens,
    which keeps the near-invariant head of the LaTeX document, wrapped in special tags whose
    mismatched closing tag is a real bug in the published run; the senior author's own open
-   issue says it "silently corrupts all training samples" and calls for "retraining
-   compromised checkpoints." Also: 10 epochs, weight decay 0.01, no dev set, no early
+   issue says it "silently corrupts all training samples" and calls for retraining the
+   affected checkpoints (verbatim: "Retrain any checkpoints that were produced with the
+   buggy tokenization"; the earlier paraphrase here wore quote marks it had not earned —
+   corrected 2026-08-16 against the fetched issue text). Also: 10 epochs, weight decay 0.01, no dev set, no early
    stopping, the final-epoch checkpoint, and the reported metric read off a printed
    classification report's weighted-average row.
 3. **The published 0.64 is not self-consistent.** The paper's own per-class table (14 classes
@@ -3892,7 +3894,8 @@ predictions rescored on the leaked and leak-free pair subsets separately.
 | roberta | 0.8558 | 0.8273 | **1.0000** |
 | ernie | 0.8650 | 0.8381 | **0.9984** |
 
-*Caption: the organizers deduplicated within-year and not across years. On the 651 pairs seen
+*Caption: organizer dedup never crosses years (and L108 later showed within-year dedup held
+only on the hard split). On the 651 pairs seen
 verbatim in training, both members are perfect or one decision short of it — the memorization
 signature — while leak-free capability sits at 0.83 to 0.84.*
 
