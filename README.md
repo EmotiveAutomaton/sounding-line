@@ -59,17 +59,32 @@ boundedness is the mechanism.
 
 ---
 
-## Status, 2026-08-12
+## Status, 2026-08-16
 
-Ninety-odd findings entries across four gates, three simulation batches, eleven model families,
-and three publication recreations. The record keeps failures beside survivors.
+One hundred twenty-odd findings entries across four gates, three simulation batches, eleven
+model families, and five publication recreations. The record keeps failures beside survivors.
+
+The recreation phase is at wrap. Three anchors closed at the exact-value standard
+(Armstrong-Mindermann reproduced analytically and extended; ArgRewrite settled with its
+embedding rows bounded as not reproducible from public materials; ScholaWrite's printed
+headline reproduced inside a three-seed interval after twice being wrongly ruled stale by our
+own interim passes). A fourth carries a complete Experiment 1 at printed precision on all
+fourteen of its published values (Baker, Saxe and Tenenbaum, on a stimulus set decoded from
+the paper's own figure to its exact count). The fifth (the PAN style-change task) has its
+science settled and its final gates in the machine. The phase also produced findings about
+the field itself, each independently re-verified by an external-verification fleet: internal
+inconsistencies in four of the five works (at the base rate the meta-research literature
+predicts), a shared task whose winning recipe's own augmentation leaks a sixth of its
+validation set, an evaluation metric whose shipped code contradicts its published description
+in three consecutive overview papers, and the discovery that none of these numbers had ever
+been independently re-run by anyone.
 
 ### What has survived its controls
 
 | | |
 |---|---|
 | **The flagship, under a fair induction control** | The first induction control's regressors contained the dose it claimed to remove (L22). With the dose arithmetically removed, the effect survives on all three independently generated corpora and gets stronger, and three published linguistic features it had killed revive the same way, nine of nine tests (L23, L24). What this measures is response to specified constraint dose within one generator. Whether it touches human intent, depth, or decisions is what the current program tests |
-| **The per-block dose correlation** | Correlation between a prompt's specified constraint dose and the reader's affective signal, computed block by block. 25 runs across 11 model families, 18 survive. The no-maker control, re-adjudicated after an audit found its verdict gate could not fail (L26), fires at the rate luck supplies overall but concentrates in the flagship family. The permutation test could not distinguish leak from luck (L40), so that concentration stands as an open liability |
+| **The per-block dose correlation** | Correlation between a prompt's specified constraint dose and the reader's affective signal, computed block by block. 25 runs across 11 model families, 18 survive. The no-maker control, re-adjudicated after an audit found its verdict gate could not fail (L26), came back clean at power: the small-sample concentration that stood as an open liability vanished entirely at three times the data (zero firing layers at n = 108, L99), and the reader's null behavior is generator-family-neutral |
 | **Function words against specified dose** | Closed-class word rates classify which rung an artifact came from at 1.6× to 3.0× chance, scaling with dose, with no model involved. The separation survives the fair induction control on the two strongest corpora and collapses on the weakest (L94). Specification recovery, which once corroborated this through a second channel, turned out to be carried by lexical echo (L36) |
 | **Affect directions are real** | Four times chance on held-out sentences, while a word-counting model scored exactly chance |
 | **Authorship as a calibration** | 7.6× chance, identical at all four scrambling granularities, which proves the scrambling code correct before any real number is computed |
@@ -207,7 +222,7 @@ text, in the parent simulation, or against published work. Each file owns one qu
 | [`results/readings/`](results/readings/) | human reading sessions, and a provenance ledger |
 | [`fetch/`](fetch/) | corpus acquisition, importing nothing from the analysis package by design |
 | [`runners/`](runners/) | one file per experiment, each opening with its own pre-registration |
-| [`run_first_gear.sh`](run_first_gear.sh) · [`run_second_gear.sh`](run_second_gear.sh) | the queue engines: first gear runs one job at a time and leaves the GPU alone; second gear uses the whole machine |
+| [`run_first_gear.sh`](run_first_gear.sh) · [`run_second_gear.sh`](run_second_gear.sh) · [`runners/gear3.py`](runners/gear3.py) | the queue engines: first gear runs one job at a time and leaves the GPU alone; second gear uses the whole machine; gear three bursts to cloud GPUs, rarely, behind hard spending guardrails and the curator's per-use approval |
 
 ---
 

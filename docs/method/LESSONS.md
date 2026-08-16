@@ -345,6 +345,10 @@ current truth lives in the folded end-state of the record, never in an interim s
   message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)
 - **Gear 3 (cloud burst) runs ONLY through `runners/gear3.py`, never a bare modal call.** The
   wrapper is where the curator's stone rules live: per-use approval required, the $10 window
-  with the final-approval-request refusal path, the ledger, the timeout kill, and the
-  estimate tax. Recreation-gate arms stay local; gear-3 comparisons are internal to one
-  cloud run. (his ruling 2026-08-16; STATE standing ruling 6)
+  with launch-time reservation under a file lock (parallel chains cannot both pass the
+  ceiling) and the final-approval-request refusal path, the ledger, the timeout kill, and
+  the estimate tax. Recreation-gate arms stay local; gear-3 comparisons are internal to one
+  cloud run. **And the produce retrieval brings home every sibling sharing the produce's
+  stem** — the persist-predictions lesson crosses the wire; the first package's error-overlap
+  read was lost with the containers before this was fixed. (his rulings 2026-08-16; STATE
+  standing ruling 6; L124, L125)

@@ -62,14 +62,16 @@ headers and labels; no "it's not A, it's B" constructions. Reserved vocabulary: 
 level / region / block / subspace; "layer" unqualified is banned. Format spec and afterword
 rules in `docs/theory/README.md`; the linter enforces the mechanical half.
 
-## Where the program stands (2026-08-14)
+## Where the program stands (2026-08-16)
 
 **Phase 1 (frontier recreations) is at wrap: three anchors closed, BST's Experiment 1
 complete with Experiments 2-3 open behind their stimulus decodes, PAN's tail (wqd test
 gates, ernie head-scope, vote, the deberta stabilizer ladder) in the machine. Phase 2 is
-TENTATIVELY OPEN by his ruling (2026-08-16): the detector-layering A/B on the wqd substrate
-(G150 channels landed), with the honest framing that the channels are motivation-shift
-samplers (G149), not a depth detector, and the L4 stacking conditions preregistered.** The
+OPEN and its first result is in: the detector-layering A/B ran on gear 3 and returned a
+NULL under its preregistered rule (L125) — the channels lose to the substrate at naive
+late-fusion (means 0.8278 vs 0.8343), with the channels-alone reference at 0.6283 and the
+next designs filed (more seeds, earlier fusion, the document-grain task). Gear 3 itself is
+VALIDATED and live-fired (L124/L125), stone rules enforced in code.** The
 scorecard, settled by two adversarial Opus referees, a nine-agent consensus fleet, and an
 eight-agent external-verification fleet (L107, L108, L109, L123):
 
