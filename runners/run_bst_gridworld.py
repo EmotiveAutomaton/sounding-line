@@ -158,6 +158,21 @@ class World:
         return out
 
 
+def _corr(x, y, np):
+    if len(x) < 3 or np.std(x) == 0 or np.std(y) == 0:
+        return float("nan")
+    return float(np.corrcoef(x, y)[0, 1])
+
+
+def _batch_corr(P, h, np):
+    """Pearson r of each row of P against h, vectorized."""
+    Pc = P - P.mean(axis=1, keepdims=True)
+    hc = h - h.mean()
+    denom = np.sqrt((Pc ** 2).sum(axis=1) * (hc ** 2).sum())
+    with np.errstate(invalid="ignore", divide="ignore"):
+        return (Pc @ hc) / denom
+
+
 def load_stimuli():
     data = json.loads(STIMS.read_text(encoding="utf-8"))
     stims = []
@@ -236,7 +251,7 @@ def main() -> None:
         lps = {}
         for g in support:
             whole = float(base[g].sum())
-            tot = [math.log((1 - kappa) / len(support)) + whole]
+            tot = [math.log(max(1 - kappa, 1e-300) / len(support)) + whole]
             for v, (k, subll) in seg.items():
                 ll = subll if k is None else subll + float(base[g][k:].sum())
                 if ll > -math.inf:
@@ -349,6 +364,74 @@ def main() -> None:
         print(f"  best-fit r: {arm_out['bestfit_r']} (printed {PRINTED['bestfit_r']})",
               flush=True)
         out["rows_" + arm] = rows
+
+    # ── the parameter grid and BSCV (appendix Fig 2 and Table 1), marked arm ─────────────
+    # K = 3 is settled (L120), so the grid runs on the marked support only. The alignment
+    # is FIXED from the best-fit pass above (the printed parameters), so the sweep cannot
+    # steer its own row mapping.
+    if args.grid and "marked" in out["arms"]:
+        rows = out["rows_marked"]
+        hum = np.array([r["human"] for r in rows])
+        row_key = [(r["our"], r["goal"]) for r in rows]
+
+        def collect(model):
+            grids = {}
+            if model in ("M1", "H"):
+                params = [{"beta": b} for b in BETAS]
+            elif model == "M2":
+                params = [{"beta": b, "gamma": g} for b in BETAS for g in MIXES]
+            else:
+                params = [{"beta": b, "kappa": k} for b in BETAS for k in MIXES]
+            for p in params:
+                preds = {}
+                for mi, s in enumerate(stims):
+                    sup = support_for(s, "marked")
+                    if model == "M1":
+                        preds[mi] = m1_read(s, p["beta"], sup)
+                    elif model == "H":
+                        preds[mi] = h_read(s, p["beta"], sup)
+                    elif model == "M2":
+                        preds[mi] = m2_read(s, p["beta"], p["gamma"], sup)
+                    else:
+                        preds[mi] = m3_read(s, p["beta"], p["kappa"], sup)
+                grids[tuple(sorted(p.items()))] = np.array(
+                    [preds[mi][g] for (mi, g) in row_key])
+                print(f"  grid {model} {p}", flush=True)
+            return grids
+
+        grid_out, bscv_out = {}, {}
+        rng = np.random.default_rng(args.seed)
+        for model in ("M1", "M2", "M3", "H"):
+            grids = collect(model)
+            keys = list(grids)
+            P = np.stack([grids[k] for k in keys])        # [G, N]
+            rall = _batch_corr(P, hum, np)
+            best_i = int(np.argmax(rall))
+            grid_out[model] = {
+                "max_r": round(float(rall[best_i]), 4),
+                "argmax": dict(keys[best_i]),
+                "printed_max": PRINTED["grid_max_r"][model],
+                "delta": round(float(rall[best_i]) - PRINTED["grid_max_r"][model], 4)}
+            # BSCV: train on k sampled rows (with replacement), pick argmax-r params,
+            # score on the untouched complement
+            N = len(hum)
+            rs = np.empty(args.bscv)
+            for it in range(args.bscv):
+                tr = rng.integers(0, N, size=args.bscv_k)
+                te = np.setdiff1d(np.arange(N), np.unique(tr))
+                rtr = _batch_corr(P[:, tr], hum[tr], np)
+                rs[it] = _corr(P[int(np.argmax(rtr))][te], hum[te], np)
+            bscv_out[model] = {
+                "mean_r": round(float(np.nanmean(rs)), 4),
+                "printed": PRINTED["bscv_r"][model],
+                "delta": round(float(np.nanmean(rs)) - PRINTED["bscv_r"][model], 4),
+                "N": args.bscv, "k": args.bscv_k}
+            print(f"grid {model}: max r {grid_out[model]['max_r']} at "
+                  f"{grid_out[model]['argmax']} (printed {PRINTED['grid_max_r'][model]}); "
+                  f"BSCV <r> {bscv_out[model]['mean_r']} "
+                  f"(printed {PRINTED['bscv_r'][model]})", flush=True)
+        out["grid"] = grid_out
+        out["bscv"] = bscv_out
 
     import scipy                                                      # noqa: PLC0415
     out["versions"] = {"numpy": np.__version__, "scipy": scipy.__version__,

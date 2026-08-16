@@ -1172,6 +1172,17 @@ STAGES += [
      "why": "the goal-prior contradiction's second arm: the appendix's all-non-obstacle-"
             "squares support, same best-fit gates; the marked arm (the Exp-1 main text) "
             "landed at printed precision (L119)"},
+    # ── MORNING 2026-08-16: deberta's head-scope arm collapsed flat (its second failure
+    # mode after the fp16 overflow). The stabilizer ladder runs recipe-preserving order
+    # (L118's stochastic-fragility lesson): seed change first.
+    {"name": "pan_deberta_headdrop25_s43", "est": 620,
+     "cmd": [PY, "runners/run_pan_winner.py", "--encoder", "deberta", "--no-amp",
+             "--warmup", "0.06", "--batch", "12", "--accum", "5",
+             "--dropout-scope", "head", "--seed", "43", "--out-tag", "_headdrop25_s43"],
+     "produces": "results/pan_winner/deberta_hard_headdrop25_s43.json", "needs": [],
+     "why": "stabilizer rung 1 for the collapsed deberta member: same recipe, seed 43. If "
+            "it collapses too, rung 2 is warmup 0.10, rung 3 lr 4e-5, each recorded as a "
+            "named divergence-fix assumption"},
 ]
 
 # ── The L113 window cells: the magnitude square's llama half ran wide-window only, and the

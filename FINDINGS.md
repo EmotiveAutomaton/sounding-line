@@ -4430,8 +4430,10 @@ curve produces end to end (0.58 to 0.74 across recipe readings, 0.59 at mid-traj
 0.64 at crossings and at seed 44's final, 0.66 at the interval's top). The stale-number
 narrative softens accordingly: nothing needs to have been stale; the paper's numbers are a
 sampler of one pipeline's readings, published without the stopping rule that indexes them.
-The batch-8 protocol arm still lands as the specification curve's last point; it gates
-nothing.
+The batch-8 protocol arm landed as promised (0.7496 final, accuracy 0.7454) and gates
+nothing: it extends the specification curve's top (hand-rolled 0.580, framework batch-16
+0.639 to 0.660, non-faithful 0.741, framework batch-8 0.750), its trajectory crosses 0.64
+at epoch two like every other framework arm, and the print stays inside the family's span.
 
 ## L118 · The identified settling arm confirms the contamination account from a third direction, and the roberta collapse turns out stochastic
 
@@ -4552,6 +4554,74 @@ wrong prior support.
 the K in M2's switch factor is settled at 3 for any Exp-1 use. The cell-level-outranks-
 correlation lesson is banked. Remaining on this anchor: the grid and BSCV gates, then
 Experiments 2 and 3 behind their own stimulus extractions.
+
+## L121 · The head-scope member set, first returns: roberta lands above gate with the scope verified in the record, and deberta collapses its second way
+
+**Hypothesis.** *(L111's one-recipe design: all three members under head-only dropout 0.25,
+the vote behind them.)* Each member lands above its validation gate under the shared
+recipe.
+
+**Method.** Head-scope structural dropout (encoder modules at pretrained defaults, head at
+0.25 — the measured record reads [0.1, 0.25], the scope verified, the L108 false-provenance
+class closed), warmup 0.06, one recipe.
+
+| member | config | final (best) | gate | delta |
+|---|---|---|---|---|
+| **roberta, head-scope** | fp16, batch 30 × 2 | **0.8633 (0.8633)** | 0.8423 | **+0.021** |
+| deberta, head-scope | fp32, micro-batch 12 × 5 | 0.3522, flat all ten epochs | 0.8567 | −0.504 |
+| ernie, head-scope | queued behind the running arms | — | 0.8490 | — |
+
+*Caption: the one-recipe set's first two returns. Roberta's head-scope member sits above
+its archived default-dropout run (0.8558) and above gate.*
+
+**Found.** Roberta reproduces above gate under the head-only reading, its third
+above-gate configuration (default dropout 0.8558, leak-free-retrained 0.811 against a
+different question, head-scope 0.8633). Deberta never escaped the constant-prediction
+floor: ten epochs flat at 0.3522 in fp32 — its second distinct failure mode after the fp16
+overflow, so the paper's strongest member (their 0.8567) is the one we cannot yet train at
+all under the shared recipe reading.
+
+**Means.** The L118 fragility lesson applies verbatim: a collapse is an instability draw,
+not a verdict, so the stabilizer ladder runs in the recipe-preserving order — seed change
+first (queued), then a warmup raise, then the learning rate, each recorded as a named
+assumption if it becomes the divergence fix. The vote waits on deberta by construction.
+Nothing in this changes the PAN science (L106/L118 closed the contamination account); what
+hangs on deberta is the recreation completeness of the member set and the vote's gate
+comparison.
+
+## L122 · Experiment 1 completes: the grid maxima and the bootstrap table land at printed precision, and the sweep independently selects the paper's own best-fit parameters
+
+**Hypothesis.** *(L119's named remaining gates.)* The parameter grid (10 β × 20 γ/κ, the
+appendix's own lattice) and the bootstrap cross-validation (N = 10,000, k = 50) reproduce
+the appendix Figure-2 maxima and the Table-1 values.
+
+**Method.** The full grid on the marked arm (K = 3 settled by L120), row alignment FIXED
+from the best-fit pass so the sweep cannot steer its own mapping; BSCV per the paper's
+protocol: fifty rows sampled with replacement as training, argmax-correlation parameters
+selected on them, scored on the untouched complement, ten thousand iterations.
+
+| model | grid max r (printed floor) | grid argmax | their best-fit | BSCV ⟨r⟩ (printed) |
+|---|---|---|---|---|
+| M1 | 0.8281 (>.82) | β 0.5 | β 0.5 | 0.8212 (.82) |
+| M2 | 0.9780 (>.97) | β 2.0, γ 0.25 | β 2.0, γ 0.25 | 0.9743 (.97) |
+| M3 | 0.9440 (>.94) | β 2.5, κ 0.5 | β 2.5, κ 0.5 | 0.9345 (.93) |
+| H | 0.9661 (>.96) | β 2.5 | β 2.5 | 0.9653 (.96) |
+
+*Caption: every cell at printed precision, and the grid's argmax IS the paper's published
+best-fit parameter set, model for model — our sweep re-derives their parameter choices
+independently.*
+
+**Found.** All eight remaining gates land. The parameter sweep's argmaxes reproduce the
+paper's best-fit choices exactly on all four models, which is the strongest available form
+of the parameter-level recreation: their fits fall out of our pipeline rather than being
+assumed into it.
+
+**Means.** **Experiment 1 of the BST anchor is COMPLETE at exact-value grade across every
+published number it carries**: the Figure-5 correlations (L119), the cell-level prediction
+columns (L119), the goal-prior resolution (L120), the appendix Figure-2 grid, and the
+Table-1 bootstrap values — fourteen printed values, all at printed precision. What remains
+for the anchor is Experiments 2 and 3, each behind its own stimulus extraction; the engine,
+the alignment method, and the analysis pipelines are all validated inventory now.
 
 ## L4 · Can weak effects be stacked into a detector?
 
