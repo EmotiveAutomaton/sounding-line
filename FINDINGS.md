@@ -4182,7 +4182,7 @@ module (the L108 false-provenance fix) and the achieved values written to the re
 | **ernie, rescheduled** | all modules 0.25 | **0.8798 (0.8800)** | 0.8490 | **+0.031** |
 | roberta, structural | all modules 0.25 | 0.5890, flatlined at 0.352 through epoch nine | 0.8423 | −0.253 |
 | roberta, archived (L108) | pretrained defaults, 0.1 | 0.8558 (0.8620) | 0.8423 | +0.014 |
-| deberta, fp32 | — | CUDA out-of-memory, no result | 0.8567 | — |
+| deberta, fp32 refit (all-scope) | all modules 0.25 | 0.3522, flat all ten epochs | 0.8567 | −0.504 |
 
 *Caption: the member set after the referee's corrections. The archived roberta row is the run
 whose recorded 0.25 was false provenance; it is kept as the default-dropout data point.*
@@ -4192,8 +4192,11 @@ archived constant-LR run (0.8650), so the schedule fix cost nothing and the thir
 landed. Roberta cannot train at all under the all-module reading of the winner's 0.25 — nine
 epochs at the constant-prediction floor with one late escape — while ernie trains fine under
 the identical setting, so the fragility is model-conditional, roberta's second knife-edge
-after the no-warmup collapse (L104). Deberta's fp32 arm ran out of memory at batch 30 on the
-shared card: infrastructure, not evidence.
+after the no-warmup collapse (L104). Deberta's refit all-scope arm landed flat at the
+constant floor for all ten epochs (fold 2026-08-16 evening) — matching its head-scope twin
+exactly, so BOTH scope readings collapse in fp32 at these hyperparameters locally: three
+distinct deberta failures now (fp16 overflow, and both fp32 scopes flat), against the
+paper's printed 0.8567 for this member.
 
 **Means.** The printed "dropout 0.25" is scope-ambiguous, and the scopes are not
 interchangeable. **Corrected by L118: the collapse is stochastic, not deterministic** — the
