@@ -4626,6 +4626,68 @@ Table-1 bootstrap values — fourteen printed values, all at printed precision. 
 for the anchor is Experiments 2 and 3, each behind its own stimulus extraction; the engine,
 the alignment method, and the analysis pipelines are all validated inventory now.
 
+## L123 · The external-verification fleet: the contradictions survive independent re-derivation, the "someone would have noticed" prior dissolves on contact, and one of our own strengthenings is downgraded
+
+**Hypothesis.** *(His suspicion, made testable: "finding internal contradictions in nearly
+every paper is too many coincidences — others must have found them, or explanations must
+exist.")* Eight Sonnet verifiers, read-only, snippets-with-sources: external corroboration
+per claim family, an adversarial audit of every irreproducibility claim, the base-rate
+literature, and falsification attempts on our negative claims.
+
+**Found, by question.**
+
+1. **"Waves of reviewers would have caught this" — the waves do not exist.** ScholaWrite:
+   zero OpenReview notes, one bot post on the dataset hub, twelve citing papers none of
+   which use its labels, no benchmark page, no third-party fine-tune number anywhere — the
+   only external 0.64 is the authors' own model cards. ArgRewrite: no classification code
+   ever released, zero repo issues, no citing work restating the disputed rows, the
+   original lab's own 2025 follow-up building a new corpus instead. BST: no independent
+   replication, no data release found (course reimplementations use toy grids), no
+   erratum. PAN: the metric mismatch appears in no issue, forum, or paper through the 2026
+   overview, and participants reproduce the evaluator's output and call it by the prose's
+   name. Nobody ran the numbers; there was no one to notice.
+2. **The base rates say a clean sweep would have been the anomaly.** statcheck: 49.6
+   percent of psychology articles carry at least one internal reporting inconsistency
+   (12.9 percent a gross one); GRIM: 50.7 percent; an ML-paper audit: 44.9 percent with
+   demonstrable errors. Under any of those per-check rates, five to ten checks per paper
+   make at-least-one-hit the modal outcome; our one clean paper is the analytic one with
+   no empirical tables to fail.
+3. **Independent re-derivations, all passed**: the PAN evaluator (all three years read
+   verbatim: one pooled two-class call, no per-document scoring, silent dropping) against
+   all three overview papers' per-document prose — no reconciling reading; BST's M3 β
+   contradiction (Fig 5 caption 2.5 vs Fig 6f caption 2.0) and the Exp-1 marked-goals
+   sentence, both from the primary PDF; ArgRewrite's Table-4 contradiction re-derived from
+   freshly fetched tables (three of four Majority rows contradict Table 4, matching L83);
+   the ScholaWrite issue confirmed verbatim and authored by the senior author, the 0.64
+   byte-identical in v1 and v5 re-confirmed. The 99-vs-100 framing is corrected: no "100"
+   is printed anywhere — text and caption both say 99, and the 100th datum exists only in
+   the plotted vector content, which only a decoder would ever see.
+4. **Our own record took five corrections**: a paraphrase wearing unearned quote marks
+   (replaced with the verbatim issue text); the L106 caption's over-credit of organizer
+   dedup; the TOOLS negative claim's missing hedge; the TODO ArgRewrite row's unfolded
+   superseded language (the audit's one OVERSTATED rating — a fold-discipline violation,
+   not an evidence defect); and **one substantive downgrade: L109's strengthening that the
+   printed Majority rows are "mutually incompatible independent of Table 4" could not be
+   reconstructed by a second derivation** (the natural containment check passes), so that
+   clause is UNVERIFIED pending its arithmetic being spelled out, and the fine-half
+   account rests on the independently confirmed Table-4 contradiction alone.
+5. **Named open leads, honestly carried**: Kashefi's dissertation (403-blocked) and the
+   Zhang–Litman predecessor tables are where a dissolving explanation for ArgRewrite would
+   most plausibly hide; archive.org and MIT DSpace were unreachable for the BST negative
+   claims; the ScholaWrite paper's current arXiv table may carry a revised zero-shot row
+   (version re-check owed at next touch).
+
+**Means.** The suspicion was the right instinct pointed at the wrong layer: the
+contradictions are real and now independently re-derived, but they were never findings
+reviewers missed — they are arithmetic nobody runs, in papers nobody re-ran, at exactly
+the base rate the meta-research literature predicts. What the audit actually caught was
+ours: interim reports that overstated (three verdict swings a reader could reasonably
+have taken as final), one appended-not-folded row, one unearned quotation, one
+fleet-strengthening that outran its recorded derivation. All corrected in place. The
+standing lessons are banked: check whether anyone ever ran the numbers before weighting
+the no-one-noticed prior, and a strengthened claim whose derivation is not written into
+the record is not yet a claim.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

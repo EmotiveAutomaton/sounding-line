@@ -56,6 +56,18 @@ preserved whole.
 - **Re-check paper, repo, and dataset versions before closing a row** — a revision posted after
   a bug fix can silently invalidate a closure, and ScholaWrite's per-class table first appeared
   eleven days after its training-script fix. (L107)
+- **Before weighting "someone would have noticed," check whether anyone ever ran the
+  numbers.** The external sweep found zero third-party reproductions for either ScholaWrite
+  (twelve citing papers, none using its labels) or ArgRewrite (no classification code ever
+  released, zero issues) and no BST replication in seventeen years: absence of complaints
+  measured absence of scrutiny, not correctness. The meta-research base rates (statcheck
+  49.6 percent of articles with at least one internal inconsistency; GRIM 50.7; ML audits
+  44.9) make at-least-one-hit-per-paper the modal outcome of running real checks. (L123)
+- **A strengthened claim whose derivation is not written into the record is not yet a
+  claim.** L109's "Majority rows mutually incompatible independent of Table 4" could not be
+  reconstructed by a second verifier and was downgraded; the conclusion had been recorded
+  without its arithmetic. Fleet findings enter the record with their derivation spelled out
+  or they enter as PLAUSIBLE, never CONFIRMED. (L123)
 
 ## §1b. Before building a faithful or recreation arm
 
