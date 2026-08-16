@@ -159,12 +159,14 @@ def main() -> None:
         import subprocess
         import zipfile
         from pathlib import Path as _P
-        # corpora ship as one zip on the volume (thousands of small files transfer poorly);
-        # unpack container-locally where the runners expect them
-        corp = _P("/repo/corpora/public/pan_style")
-        if not corp.exists():
-            corp.mkdir(parents=True)
-            zipfile.ZipFile("/vol/pan_style.zip").extractall(corp)
+        # data ships as zips on the volume (thousands of small files transfer poorly);
+        # unpack container-locally where the runners expect each tree
+        for zname, dest in (("pan_style.zip", "/repo/corpora/public/pan_style"),
+                            ("pan25_channels.zip", "/repo/results/pan25_channels")):
+            zp, dp = _P("/vol") / zname, _P(dest)
+            if zp.exists() and not dp.exists():
+                dp.mkdir(parents=True)
+                zipfile.ZipFile(zp).extractall(dp)
         r = subprocess.run(["python"] + _shlex.split(cmd), cwd="/repo",
                            capture_output=True, text=True, timeout=tmo)
         out = {"returncode": r.returncode, "stdout_tail": r.stdout[-4000:],

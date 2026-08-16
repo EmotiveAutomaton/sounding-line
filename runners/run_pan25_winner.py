@@ -94,6 +94,13 @@ def main() -> None:
     ap.add_argument("--hidden", type=int, default=768)
     ap.add_argument("--dropout", type=float, default=0.1)
     ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--channels", default="",
+                    help="G150 fusion arm: path prefix of the channel matrices "
+                         "(results/pan25_channels/hard); concatenates the 158-dim "
+                         "pair channels to the CLS embedding before the head. "
+                         "Standardized on TRAIN statistics only")
+    ap.add_argument("--out-tag", default="",
+                    help="suffix so A/B arms never clobber")
     args = ap.parse_args()
 
     import numpy as np                                                 # noqa: PLC0415
@@ -126,24 +133,50 @@ def main() -> None:
         print(">>> ABORT: train-test overlap above one percent; the gate is not honest")
         sys.exit(1)
 
-    pairs = [(q["sents"][i], q["sents"][i + 1], float(q["changes"][i]))
+    pairs = [(q["sents"][i], q["sents"][i + 1], float(q["changes"][i]), q["id"], i)
              for q in train if q["ok"] for i in range(len(q["changes"]))]
     print(f"train pairs: {len(pairs)}", flush=True)
+
+    # ── G150 channels: per-pair 158-dim vectors aligned to load_split order, standardized
+    # on TRAIN statistics only so no eval-side numbers enter the representation
+    CH = None
+    if args.channels:
+        import numpy as _np
+        CH = {}
+        mu = sd = None
+        for split_name, probs in (("train", train), ("validation", val), ("test", test)):
+            X = _np.load(f"{args.channels}_{split_name}.npz")["X"].astype("float32")
+            meta = json.loads(Path(f"{args.channels}_{split_name}_meta.json")
+                              .read_text(encoding="utf-8"))
+            if split_name == "train":
+                mu, sd = X.mean(0), X.std(0) + 1e-6
+            X = (X - mu) / sd
+            k = 0
+            for m in meta["problems"]:
+                for i in range(m["n_pairs"]):
+                    CH[(m["id"], i)] = X[k]
+                    k += 1
+            assert k == X.shape[0], (split_name, k, X.shape)
+        print(f"channels: {len(CH)} pair vectors x {X.shape[1]} dims", flush=True)
 
     acquire_gpu_lock("pan25_wqd")
     tok = AutoTokenizer.from_pretrained("microsoft/deberta-base")
     dev = "cuda" if torch.cuda.is_available() else "cpu"
+
+    n_chan = 0 if CH is None else next(iter(CH.values())).shape[0]
 
     class Wqd(nn.Module):
         def __init__(self):
             super().__init__()
             self.enc = AutoModel.from_pretrained("microsoft/deberta-base")
             self.head = nn.Sequential(
-                nn.Linear(self.enc.config.hidden_size, args.hidden), nn.ReLU(),
+                nn.Linear(self.enc.config.hidden_size + n_chan, args.hidden), nn.ReLU(),
                 nn.Dropout(args.dropout), nn.Linear(args.hidden, 1))
 
-        def forward(self, **enc):
+        def forward(self, chan=None, **enc):
             h = self.enc(**enc).last_hidden_state[:, 0]
+            if chan is not None:
+                h = torch.cat([h, chan], dim=1)
             return self.head(h).squeeze(-1)
 
     model = Wqd().to(dev)
@@ -159,10 +192,14 @@ def main() -> None:
             return self.rows[i]
 
     def collate(batch):
-        a, b, y = zip(*batch)
+        a, b, y, pid, pi = zip(*batch)
         enc = tok(list(a), list(b), truncation=True, max_length=args.max_len,
                   padding="max_length", return_tensors="pt")
-        return enc, torch.tensor(y)
+        chan = None
+        if CH is not None:
+            import numpy as _np
+            chan = torch.from_numpy(_np.stack([CH[(p_, i_)] for p_, i_ in zip(pid, pi)]))
+        return enc, chan, torch.tensor(y)
 
     dl = DataLoader(Pairs(pairs), batch_size=args.batch, shuffle=True, collate_fn=collate)
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr)
@@ -181,7 +218,12 @@ def main() -> None:
                     a, b = zip(*sp[j:j + 64])
                     enc = tok(list(a), list(b), truncation=True, max_length=args.max_len,
                               padding=True, return_tensors="pt").to(dev)
-                    preds.extend((model(**enc) > 0).long().tolist())
+                    c = None
+                    if CH is not None:
+                        import numpy as _np
+                        c = torch.from_numpy(_np.stack(
+                            [CH[(q["id"], j + k_)] for k_ in range(len(a))])).to(dev)
+                    preds.extend((model(chan=c, **enc) > 0).long().tolist())
                 out[q["id"]] = preds
         model.train()
         return out
@@ -194,9 +236,10 @@ def main() -> None:
     best_f1, best_state, history = -1.0, None, []
     model.train()
     for ep in range(args.epochs):
-        for bi, (enc, y) in enumerate(dl):
+        for bi, (enc, chan, y) in enumerate(dl):
             enc = {k: v.to(dev) for k, v in enc.items()}
-            loss = loss_fn(model(**enc), y.to(dev))
+            c = chan.to(dev) if chan is not None else None
+            loss = loss_fn(model(chan=c, **enc), y.to(dev))
             opt.zero_grad()
             loss.backward()
             opt.step()
@@ -216,6 +259,7 @@ def main() -> None:
     val_f1 = score(val, val_preds)
     test_f1 = score(test, test_preds)
     out = {"arm": "wqd", "difficulty": d, "test_macro_f1": test_f1,
+           "channels": bool(args.channels), "n_channel_dims": n_chan,
            "gate_test_printed": GATES_TEST[d], "delta_test": test_f1 - GATES_TEST[d],
            "val_macro_f1_best": val_f1, "gate_val_printed": GATES_VAL[d],
            "per_epoch_val": history, "n_train_pairs": len(pairs),
@@ -225,11 +269,11 @@ def main() -> None:
            "hypers": {"lr": args.lr, "batch": args.batch, "epochs": args.epochs,
                       "max_len": args.max_len},
            "versions": versions()}
-    (RESULTS / f"wqd_{d}.json").write_text(json.dumps(out, indent=1),
+    (RESULTS / f"wqd_{d}{args.out_tag}.json").write_text(json.dumps(out, indent=1),
                                            encoding="utf-8", newline="\n")
-    (RESULTS / f"wqd_{d}_test_preds.json").write_text(json.dumps(test_preds),
+    (RESULTS / f"wqd_{d}{args.out_tag}_test_preds.json").write_text(json.dumps(test_preds),
                                                       encoding="utf-8", newline="\n")
-    (RESULTS / f"wqd_{d}_val_preds.json").write_text(json.dumps(val_preds),
+    (RESULTS / f"wqd_{d}{args.out_tag}_val_preds.json").write_text(json.dumps(val_preds),
                                                      encoding="utf-8", newline="\n")
     print(f"\nWQD {d}: TEST {test_f1:.4f} vs printed {GATES_TEST[d]} "
           f"(delta {test_f1 - GATES_TEST[d]:+.4f}); val best {val_f1:.4f} vs "
