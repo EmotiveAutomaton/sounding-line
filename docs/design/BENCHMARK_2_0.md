@@ -58,11 +58,14 @@ not just vendor, and include one local family so unseen-family is not confounded
 deployment channel. API-family lineage independence is undisclosed and is stated as an
 assumption in the preregistration.
 
-**Budget (curator decisions pending):** pilot expected ~$57, envelope $120; full scale
-expected ~$395, envelope $600 as a separate later decision. External API spend is its own
-governance line, NOT gear 3. Free credits worth applying for: OpenAI Researcher Access
-($1,000, quarterly review) and Anthropic AI for Science (up to $20,000) — either covers the
-full benchmark; the pilot does not block on them.
+**Budget (his ruling 2026-08-16, STATE standing ruling 7): NOT APPROVED, gated behind
+results.** The pilot envelope ($120 expected ~$57) and full-scale figure ($600 expected
+~$395) are recorded for when the gate opens and are otherwise dead. Frontier-API acquisition
+unlocks only after the decision reader passes its known-answer gates AND the stack shows
+held-out lift on the FREE local-family benchmark — spend buys generalization evidence, never
+discovery. Grant applications rejected as premature, same ruling. Until then the benchmark
+runs its free path: local families (qwen3.5:9b seen, llama3.1:8b held out), held human
+corpora, and the curator's own logged revision passes for the mixed regimes.
 
 **Binding ToS constraints, planned into the split design NOW:** (1) OpenAI's classifier
 carve-out is conditioned on non-distribution of the trained model, so **OpenAI-generated

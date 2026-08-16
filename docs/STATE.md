@@ -40,6 +40,19 @@ Everything below is current.
    `results/gear3_ledger.json`), never by memory. Gear 3 is for RARE bursts; recreation-gate
    arms stay local (hardware/precision drift). The Modal token lives in `~/.modal.toml`,
    outside the repo, and was pasted in-chat 2026-08-16 — rotation owed on his side.**
+7. **ALL MATERIAL SPEND IS GATED BEHIND POSITIVE RESULTS (his ruling 2026-08-16).** The $120
+   pilot generation envelope is NOT APPROVED, and no comparable dollar amount will be, unless
+   prior free-path results make an unequivocally positive outcome close to certain. His words:
+   *"I would like to have that monetary cost be gated behind explicit positive results that
+   strongly imply that we're going to find exactly what we want... I'm not willing to spend
+   any amount twice at this point... These dollar amounts are far too large. This is a home
+   project."* Consequence: the Phase 2.0 slice proceeds on the free path (local generation,
+   held corpora, CPU/local-GPU analysis); frontier-API acquisition unlocks only after (a) the
+   decision reader passes its known-answer gates AND (b) the stack shows held-out lift on the
+   local-family benchmark, so spend buys generalization evidence, never discovery. **Research
+   grant applications are likewise REJECTED as premature** — no initial results justify them,
+   they slow us down, and actual research funding "would require a different conversation
+   entirely." Do not re-raise either without new positive results in hand.
 
 ## The priority ladder, his words, in order
 
