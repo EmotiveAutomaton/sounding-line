@@ -343,3 +343,8 @@ current truth lives in the folded end-state of the record, never in an interim s
   structurally. (the waiter bug, 08-10; the ungated commit, 08-14)
 - **Long jobs run in the background and wake the agent**; results are written through the same
   message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)
+- **Gear 3 (cloud burst) runs ONLY through `runners/gear3.py`, never a bare modal call.** The
+  wrapper is where the curator's stone rules live: per-use approval required, the $10 window
+  with the final-approval-request refusal path, the ledger, the timeout kill, and the
+  estimate tax. Recreation-gate arms stay local; gear-3 comparisons are internal to one
+  cloud run. (his ruling 2026-08-16; STATE standing ruling 6)

@@ -221,6 +221,9 @@ the same pass that earns them. The method shelf's README maps each file to its r
 - **`bounded_v5` + `family_v2` is the live path.** v6 and v3 are locked and opt-in.
 - **Refer to folders, not filenames.** Specific documents go stale; "the newest file in `docs/sim/`"
   does not.
+- **Gear 3 (cloud burst) is stone: never without the curator's explicit per-use approval, never
+  past $10 without his detailed final approval — enforced by `runners/gear3.py` only, never a
+  bare modal invocation.** (his ruling 2026-08-16; full form in STATE standing ruling 6)
 - The reading is a tuple. There is no aggregate score, deliberately.
 - Fields that feed a measurement are validated; fields that do not are clipped. Never discard a
   reading over a length cap.

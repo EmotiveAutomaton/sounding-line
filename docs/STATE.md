@@ -33,6 +33,13 @@ Everything below is current.
 5. **Gears, not day/night (renamed 2026-08-12).** First gear = his machine (serial, GPU mostly
    his); second gear = everything, loaded about a day deep, ONLY on his call, sized to his
    stated window. A deadline exit is a wake-and-decide event.
+6. **GEAR 3 (cloud burst, Modal) IS STONE (his ruling 2026-08-16): it NEVER runs without his
+   explicit per-use approval, and no more than $10 may ever run without a fresh detailed
+   final-approval request to him (exact commands, durations, test details, total dollars) —
+   both enforced in code by `runners/gear3.py` (refusal paths, the ledger at
+   `results/gear3_ledger.json`), never by memory. Gear 3 is for RARE bursts; recreation-gate
+   arms stay local (hardware/precision drift). The Modal token lives in `~/.modal.toml`,
+   outside the repo, and was pasted in-chat 2026-08-16 — rotation owed on his side.**
 
 ## The priority ladder, his words, in order
 
