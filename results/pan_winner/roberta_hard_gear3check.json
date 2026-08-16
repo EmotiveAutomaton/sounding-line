@@ -1,0 +1,43 @@
+{
+ "arm": "roberta",
+ "checkpoint": "roberta-base",
+ "difficulty": "hard",
+ "macro_f1_final_epoch": 0.8650624975031549,
+ "per_epoch_validation": [
+  0.7247366914144873,
+  0.7954432422014199,
+  0.8361171245011106,
+  0.849087931460597,
+  0.8580550868212053,
+  0.85881219213703,
+  0.8627118321623661,
+  0.8681244236664705,
+  0.8633669913523739,
+  0.8650624975031549
+ ],
+ "best_epoch_f1": 0.8681244236664705,
+ "gate_validation": 0.8423,
+ "delta": 0.022762497503154844,
+ "n_train_pairs": 38109,
+ "n_pan23_problems": 4200,
+ "assumptions": "AdamW wd=0, warmup 0.06, CE loss, CLS linear head, pair-encoded longest-first truncation, seed 42, final epoch",
+ "hypers": {
+  "lr": 5e-05,
+  "batch_effective": 60,
+  "epochs": 10,
+  "max_len": 256,
+  "dropout_requested": 0.25,
+  "dropout_scope": "head",
+  "dropout_measured": [
+   0.1,
+   0.25
+  ],
+  "warmup": 0.06,
+  "amp": true
+ },
+ "versions": {
+  "transformers": "5.15.0",
+  "torch": "2.13.0+cu130",
+  "sklearn": "1.9.0"
+ }
+}

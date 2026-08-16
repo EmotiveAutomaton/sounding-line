@@ -42,6 +42,15 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 LEDGER = REPO / "results" / "gear3_ledger.json"
 
+# Modal's rich progress output prints unicode glyphs; the Windows console's cp1252 raised
+# UnicodeEncodeError mid-run and killed the client (2026-08-16). Force utf-8, never crash
+# on a glyph.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:                                                 # noqa: BLE001
+        pass
+
 HARD_CAP_DOLLARS = 10.00          # the curator's stone ceiling - never edit without his words
 RATES = {"A100": 2.50, "H100": 3.95, "L40S": 1.95, "L4": 0.80}   # Modal $/h, 2026-08-16
 SAFETY = 1.4                      # estimate tax: image pull, data mount, eval overhead
@@ -135,7 +144,8 @@ def main() -> None:
     import modal                                                      # noqa: PLC0415
 
     timeout_s = int((args.timeout_minutes or args.est_minutes * 3) * 60)
-    image = (modal.Image.debian_slim(python_version="3.12")
+    # serialized functions require the image's python minor to match the local interpreter
+    image = (modal.Image.debian_slim(python_version="3.13")
              .uv_pip_install("torch", "transformers", "scikit-learn", "numpy")
              .add_local_dir(str(REPO / "runners"), "/repo/runners")
              .add_local_dir(str(REPO / "soundingline"), "/repo/soundingline"))
@@ -143,7 +153,7 @@ def main() -> None:
     app = modal.App("sounding-line-gear3")
 
     @app.function(image=image, gpu=args.gpu, timeout=timeout_s,
-                  volumes={"/vol": vol})
+                  volumes={"/vol": vol}, serialized=True)
     def run_stage(cmd: str, produces: str, tmo: int) -> dict:
         import shlex as _shlex
         import subprocess

@@ -4688,6 +4688,38 @@ standing lessons are banked: check whether anyone ever ran the numbers before we
 the no-one-noticed prior, and a strengthened claim whose derivation is not written into
 the record is not yet a claim.
 
+## L124 · Gear 3 validates: the cloud rerun lands within two thousandths of the local answer for seventy-three cents
+
+**Hypothesis.** *(The curator's wiring test, his approval 2026-08-16.)* The gear-3 pipeline —
+the guardrail wrapper, the corpus volume, the serialized remote stage — reproduces a known
+local result within hardware-and-precision noise (the pre-stated band: ±0.01).
+
+**Method.** The head-scope roberta member (local answer 0.8633, seed 42, same recipe) rerun
+on a Modal A100 through `runners/gear3.py` under his recorded approval; scope asserted in
+the measured record; versions recorded (the container runs newer transformers and CUDA than
+local, which is precisely why recreation gates stay local).
+
+| | final macro-F1 | best epoch | wall | cost |
+|---|---|---|---|---|
+| local (RTX 3060, 08-16) | 0.8633 | 0.8633 | ~27 min train | $0 |
+| **gear 3 (A100)** | **0.8651** | 0.8681 | **16.8 min incl. setup** | **~$0.73** |
+
+*Caption: delta +0.0018 at the final epoch, inside the band; the dropout scope reads
+[0.1, 0.25] in both records; the ledger's first entry carries the run and his approval.*
+
+**Found.** The wiring works end to end on first cloud contact — all five failures en route
+were Windows-client defects, each now fixed in the wrapper permanently (MSYS path conversion
+mangles /-prefixed remote paths; thousands of small files upload poorly, ship a zip; rich
+console output crashes cp1252, force utf-8; background shells drift directories; serialized
+functions require matching Python minors). Cross-hardware drift for this arm class is
+measured at +0.002, the empirical justification for the recreation-gates-stay-local rule.
+
+**Means.** Gear 3 is OPERATIONAL under the stone rules (per-use approval, the $10 window
+with the final-approval-request refusal, the ledger) and costs what the assessment said it
+would: this validation ran 1.6x faster than local end to end for under a dollar, and the
+fan-out capability waits for a Phase-2 fleet on his call. Rotation of the in-chat token
+stays owed on his side.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable
