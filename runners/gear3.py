@@ -182,7 +182,8 @@ def main() -> None:
     timeout_s = int((args.timeout_minutes or args.est_minutes * 3) * 60)
     # serialized functions require the image's python minor to match the local interpreter
     image = (modal.Image.debian_slim(python_version="3.13")
-             .uv_pip_install("torch", "transformers", "scikit-learn", "numpy")
+             .uv_pip_install("torch", "transformers", "scikit-learn", "numpy", "nltk")
+             .run_commands("python -m nltk.downloader punkt punkt_tab")
              .add_local_dir(str(REPO / "runners"), "/repo/runners")
              .add_local_dir(str(REPO / "soundingline"), "/repo/soundingline"))
     vol = modal.Volume.from_name("sounding-line-corpora", create_if_missing=True)
@@ -210,6 +211,12 @@ def main() -> None:
         p = _P("/repo") / produces
         if p.exists():
             out["produced"] = p.read_text(encoding="utf-8")
+            # the persist-predictions lesson crosses the wire: every sibling sharing the
+            # produce's stem (preds files and friends) comes home too, or a later split
+            # analysis needs a $1.30 retrain instead of a two-minute read (L125)
+            out["siblings"] = {f.name: f.read_text(encoding="utf-8")
+                               for f in p.parent.glob(p.stem + "*")
+                               if f != p and f.stat().st_size < 50_000_000}
         return out
 
     print(f"[gear3] launching {args.gpu} (~{args.est_minutes} min, est ${est:.2f}) "
@@ -233,6 +240,8 @@ def main() -> None:
     if "produced" in result:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(result["produced"], encoding="utf-8", newline="\n")
+        for name, content in result.get("siblings", {}).items():
+            (dest.parent / name).write_text(content, encoding="utf-8", newline="\n")
         print(f"[gear3] wrote {args.produces} ({dur / 60:.1f} min, ~${actual:.2f}; "
               f"window ${window_spend(led):.2f}/${HARD_CAP_DOLLARS:.2f})")
     else:

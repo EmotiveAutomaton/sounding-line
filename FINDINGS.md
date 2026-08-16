@@ -4720,6 +4720,51 @@ would: this validation ran 1.6x faster than local end to end for under a dollar,
 fan-out capability waits for a Phase-2 fleet on his call. Rotation of the in-chat token
 stays owed on his side.
 
+## L125 · The first Phase-2 A/B returns a null: the channels do not improve the substrate, and the fusion arm is less stable
+
+**Hypothesis.** *(G150, preregistered before any result: the fusion arm wins only if its
+mean test score beats the substrate's mean across three seeds, with error-overlap reported;
+the show-stopper claim additionally required beating the printed 0.830.)* The 158-dim
+motivation-shift channels, concatenated to the encoder representation, improve the 2025
+style-change substrate.
+
+**Method.** Six A100 runs on gear 3 under his package approval: substrate (A) and
+substrate-plus-channels (B) at seeds 42/43/44, channels standardized on train statistics
+only, best-val checkpointing within arm, test read once per run by the recreation runner's
+own design. The channels-only reference arm ran locally first (boosted trees: 0.6283 test,
+real standalone signal far below the substrate).
+
+| seed | A (substrate) test | B (fusion) test | delta |
+|---|---|---|---|
+| 42 | 0.8280 | 0.8296 | +0.0016 |
+| 43 | 0.8352 | 0.8372 | +0.0020 |
+| 44 | 0.8398 | 0.8167 | **−0.0231** |
+| **mean** | **0.8343** | **0.8278** | **−0.0065** |
+
+*Caption: the preregistered read. Two small consistent gains erased by one large fusion
+failure; the fusion arm's seed spread (0.021) runs nearly double the substrate's (0.012).*
+
+**Found.** THE FUSION ARM LOSES under the preregistered rule: B's mean sits 0.65 points
+below A's, the two positive seeds erased by seed 44's collapse to 0.8167. The informative
+residue: (a) the substrate itself averaged 0.8343 with the printed 0.830 inside its seed
+spread — the cloud-side echo of the G148 gate, with the official recreation read still
+owed locally per the hardware rule; (b) the fusion arm doubles the seed variance, so
+whatever the channels contribute, they buy instability at this integration point; (c) the
+error-overlap half of the read could NOT be computed: the wrapper retrieved only the
+produces file and the prediction siblings died with the containers — a gear-3 wiring
+defect, fixed the same pass (siblings now come home with every produce).
+
+**Means.** The honest first Phase-2 result is a null with a lesson attached, not a
+show-stopper: naive late-fusion of the channels into the classifier head does not beat the
+encoder at these seeds, exactly the outcome the L4 stacking conditions exist to catch, and
+the channels-alone 0.63 says the information is real but largely subsumed. The next
+designs, in cost order: more seeds to settle whether seed 44 is an unlucky draw or the
+arm's true variance; earlier fusion or channel-gated attention rather than head
+concatenation; and the document-grain 2024 task where the movement channels the sentence
+grain excluded can participate. Package cost ~$8.20 total, window honest at every step,
+and the whole cycle - preregister, fire, land, verdict - took one afternoon, which is the
+gear-3 iteration speed working as intended even when the answer is no.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

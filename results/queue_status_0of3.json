@@ -497,8 +497,55 @@
       "name": "pan_deberta_hard",
       "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate); fp32 because its disentangled attention overflows under fp16 autocast. Micro-batch 12 x accum 5 (same effective 60, same step count): batch 30 fp32 OOMed on the shared card 2026-08-14",
       "est_minutes": 300,
+      "status": "DONE",
+      "log": "results\\pan_deberta_hard.log",
+      "minutes": 1179.1
+    },
+    {
+      "name": "features_fiction_ds_w40",
+      "why": "window-robustness cache, ds family (the w80-only caveat)",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_r1l8_w40",
+      "why": "the r1l8 sign cell at the second window; claim nothing from one window",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_r1l8",
+      "why": "unsigned magnitude cell for the llama-base reasoning family",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g80_fiction4",
+      "why": "prompt-burden rates for the two new families, extending L98",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "sw_bert_hfd_s42",
+      "why": "referee: their Trainer supplied linear decay, clipping, and decay exclusions our loop dropped; framework-faithful arm, seed 1 of 3",
+      "est_minutes": 300,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_vote_hard",
+      "why": "the system vote (gate .8658), behind three members under ONE recipe: head-scope dropout 0.25, warmup 0.06. The all-module scope reading collapsed roberta (9-epoch flatline), so scope joins schedule in the one-recipe rule",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "results/pan_winner/ernie_hard_headdrop25.json"
+      ]
+    },
+    {
+      "name": "pan25_wqd_hard",
+      "why": "G148: the phase's first reachable TEST-set exact-value gate (L109 found the labeled 2025 test split in our store, verified genuine). The fully-specified 2025 winner against its printed 0.830; contamination gate 0.4%, clean",
+      "est_minutes": 150,
       "status": "RUNNING",
-      "log": "results\\pan_deberta_hard.log"
+      "log": "results\\pan25_wqd_hard.log"
     }
   ],
   "shard": "0/3"
