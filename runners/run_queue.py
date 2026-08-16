@@ -1163,6 +1163,15 @@ STAGES += [
      "cmd": [PY, "runners/run_pan25_winner.py", "--difficulty", "medium"],
      "produces": "results/pan25_winner/wqd_medium.json", "needs": [],
      "why": "G148 test-set gate 3 of 3: the 2025 winner's printed medium test 0.823"},
+    # ── BST v2 follow-ups (L119 landed Exp-1 marked arm at printed precision). CPU stages;
+    # they never touch the GPU lock, so they run beside the trainings.
+    {"name": "bst_exp1_all", "est": 90,
+     "cmd": [PY, "runners/run_bst_gridworld.py", "--arm", "all",
+             "--out", "exp1_v2_all.json"],
+     "produces": "results/bst_gridworld/exp1_v2_all.json", "needs": [],
+     "why": "the goal-prior contradiction's second arm: the appendix's all-non-obstacle-"
+            "squares support, same best-fit gates; the marked arm (the Exp-1 main text) "
+            "landed at printed precision (L119)"},
 ]
 
 # ── The L113 window cells: the magnitude square's llama half ran wide-window only, and the
