@@ -1080,14 +1080,15 @@ STAGES += [
      "why": "seed 3 of 3; the published value is judged against the seed interval"},
     {"name": "pan_vote_hard", "est": 5,
      "cmd": [PY, "runners/run_pan_winner.py", "--vote", "--member-tags",
-             "roberta=_headdrop25,deberta=_headdrop25,ernie=_headdrop25"],
+             "roberta=_headdrop25,deberta=_headdrop25_s43,ernie=_headdrop25"],
      "produces": "results/pan_winner/vote_hard.json",
      "needs": ["results/pan_winner/roberta_hard_headdrop25.json",
-               "results/pan_winner/deberta_hard_headdrop25.json",
+               "results/pan_winner/deberta_hard_headdrop25_s43.json",
                "results/pan_winner/ernie_hard_headdrop25.json"],
      "why": "the system vote (gate .8658), behind three members under ONE recipe: head-scope "
-            "dropout 0.25, warmup 0.06. The all-module scope reading collapsed roberta "
-            "(9-epoch flatline), so scope joins schedule in the one-recipe rule"},
+            "dropout 0.25, warmup 0.06. Deberta member retargeted to the s43 stabilizer rung "
+            "(2026-08-16): the seed-42 head-scope run collapsed flat and wrote no prediction "
+            "siblings, so the vote gates on the rung that might train"},
     {"name": "sw_roberta_hfd_s42", "est": 300,
      "cmd": [PY, "runners/run_scholawrite.py", "--arm", "roberta", "--faithful",
              "--hf-defaults", "--epochs", "10", "--seed", "42", "--out-tag", "_hfd_s42"],
@@ -1286,6 +1287,21 @@ STAGES += [
      "produces": "corpora/g153_pilot/llama/manifest.json", "needs": [],
      "why": "G153 free path: the HELD-OUT local lineage's arm of the same pilot"},
 ]
+
+# ── EVENING RESTOCK 2026-08-16: the wqd hard gate landed 0.8293 vs printed 0.830 (seven
+# ten-thousandths; L128) and easy landed 0.9535 vs 0.958. The fine-tune verdict rule
+# (standing ruling 3, the referee refinement) grades on the three-seed interval, so both
+# gates get their local seed arms; medium's follow when its seed-42 lands.
+for _d, _s in (("hard", 43), ("hard", 44), ("easy", 43), ("easy", 44),
+               ("medium", 43), ("medium", 44)):
+    STAGES += [
+        {"name": f"pan25_wqd_{_d}_s{_s}", "est": 150,
+         "cmd": [PY, "runners/run_pan25_winner.py", "--difficulty", _d,
+                 "--seed", str(_s), "--out-tag", f"_s{_s}"],
+         "produces": f"results/pan25_winner/wqd_{_d}_s{_s}.json", "needs": [],
+         "why": f"G148 {_d} gate, seed {_s}: the three-seed interval the fine-tune "
+                "verdict rule requires; the official reads stay local per the stone"},
+    ]
 
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design

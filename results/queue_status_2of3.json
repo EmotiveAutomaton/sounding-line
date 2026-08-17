@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-15 17:09",
+  "started": "2026-08-16 20:07",
   "stages": [
     {
       "name": "feature_visibility",
@@ -535,17 +535,13 @@
       "name": "sw_bert_hfd_b8",
       "why": "second referee: the batch-8 reading of checkpoint-30760 is a 10-epoch schedule read at half decay; per-epoch history supplies the epoch-5 point",
       "est_minutes": 420,
-      "status": "DONE",
-      "log": "results\\sw_bert_hfd_b8.log",
-      "minutes": 334.4
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "pan_roberta_headdrop25",
       "why": "scope fork, member 1: head-only 0.25 (encoder dropouts at pretrained defaults). All-module 0.25 flatlined 9 epochs at 0.352; default-0.1 scored 0.8558",
       "est_minutes": 130,
-      "status": "DONE",
-      "log": "results\\pan_roberta_headdrop25.log",
-      "minutes": 26.6
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "arg_v4_fourblock_binary",
@@ -560,13 +556,24 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd34_fiction_llama_w40",
+      "name": "pd34_fiction_ds_w40",
       "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129_change_block",
+      "why": "G129 A4: the 19-dim declared baseline the reader must beat (L85), author-grouped CV, probabilities restricted to the shared candidate sets",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129_shuffle",
+      "why": "G129 A3, the leakage arm: permuted truth must read at chance or the run is VOID",
+      "est_minutes": 90,
+      "status": "RUNNING",
+      "log": "results\\g129_shuffle.log"
     }
   ],
-  "shard": "2/3",
-  "finished": "2026-08-15 23:10",
-  "failed": []
+  "shard": "2/3"
 }

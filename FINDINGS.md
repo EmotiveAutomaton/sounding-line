@@ -4899,6 +4899,101 @@ work.
 - **Detail pointer:** G149 → `results/g149/switch_sampler.json`,
   `runners/run_g149_switch_sampler.py`.
 
+## L128 · The 2025 hard test gate lands seven ten-thousandths from the print: the phase's cleanest anchor is matching
+
+**Hypothesis.** *(G148: the PAN 2025 winner's printed TEST scores are reachable exactly from
+its fully specified recipe, on the genuine labeled test split in our store, contamination-
+gated clean — the phase's only test-set exact-value gates.)*
+
+**Method.** The winner's own sentence-level recipe (deberta-base, every hyperparameter
+stated in their notebook), trained locally in fp32 at seed 42, best-validation checkpoint,
+scored with the pooled two-class macro-F1 the evaluator's source defines, test read once.
+The runner's contamination gate aborts above 1% train-test overlap; both splits measured
+well under it.
+
+| gate | printed test | our test (seed 42, local) | delta | contamination |
+|---|---|---|---|---|
+| **hard** | 0.830 | **0.8293** | **−0.0007** | 0.39% |
+| easy | 0.958 | 0.9535 | −0.0045 | 0.84% |
+| medium | 0.823 | training now | — | — |
+
+*Caption: each row is one difficulty's official local read against the winner's printed
+test score. Hard lands inside the exact-value tolerance on the first seed; easy lands half
+a point short, inside ordinary fine-tune seed noise, so the standing interval rule grades
+it on three seeds (43/44 queued for both, plus medium's pair when its first read lands).
+One residue recorded: our best validation on hard reads 0.8244 against their printed
+validation 0.8331, the same kind of secondary-number gap ScholaWrite's accuracy showed.*
+
+**Found.** THE HARD GATE MATCHES at exact-value tolerance: 0.8293 against 0.830, and the
+cloud three-seed spread from the A/B (0.8280 to 0.8398, hardware caveat attached) brackets
+the print, so the number is not a lucky seed. This is the contamination-clean anchor the
+PAN 2024 work could never supply — the 2025 splits carry 0.4 to 0.8% overlap against
+PAN 2024's ~16%, and the gate read is on a genuine held-out test set rather than a blended
+validation. Easy sits at −0.0045 pending its interval; the formal G148 verdict completes
+when medium and the six seed arms land.
+
+**Means.** The recreation phase's cleanest target is behaving exactly as a faithful
+recreation should: first-seed agreement to the third decimal on the primary number, with
+the secondary-number residue recorded rather than explained away. For Phase 2.0 this
+matters twice — the recipe is now a validated candidate for the detector substrate's
+trained component (2.0E), and the clean 2025 splits are the natural first scoring ground
+for the free-path stack.
+
+### Curator roll-up
+
+- **Theory group:** Infrastructure only
+- **Question in plain language:** Can we hit the 2025 winner's held-out test numbers
+  exactly, on clean data, from their published recipe?
+- **Outcome class:** Infrastructure
+- **Result:** Hard test gate matched at −0.0007; easy at −0.0045 pending its three-seed
+  interval; medium training.
+- **Project meaning:** The phase's cleanest anchor validates our training pipeline at
+  test-set grade, and the recipe graduates to candidate substrate for the Phase 2.0
+  detector.
+- **Next engineering obligation:** Land medium and the six interval seeds; then the G148
+  verdict block.
+- **Public claim:** Unchanged until the full verdict.
+- **Curator decision required:** No.
+- **Detail pointer:** G148 → `results/pan25_winner/wqd_hard.json`, `wqd_easy.json`,
+  L125's cloud seed spread, prediction siblings on disk.
+
+## L129 · The third member clears its gate under the corrected scope, and the vote re-gates on the stabilizer rung
+
+**Hypothesis.** *(The PAN 2024 scope fork, member 2: ernie under head-scope dropout 0.25
+should hold its above-gate margin, having tolerated both scope readings.)*
+
+**Method.** The winner's recipe with dropout confined to the classification head (the
+notebook's usual meaning), ten epochs, seed 42, validation macro-F1 against the notebook's
+own member gate; the blended-leak caveat (L118) rides every PAN 2024 validation number,
+theirs and ours alike.
+
+**Found.** Ernie head-scope reads 0.8792 at the final epoch (best 0.8795) against the 0.849
+member gate: +0.030 above, the third member confirmed under the one-recipe rule. The system
+vote could not run — the deberta member's collapsed run wrote no prediction files — and is
+retargeted to gate on the seed-43 stabilizer rung now training; if that rung collapses too,
+the ladder's next rungs (warmup 0.10, then lr 4e-5) decide whether the vote ever gets its
+third member.
+
+**Means.** Two of three members now sit above their gates under the corrected scope with
+the third blocked on the one model this card keeps failing to train; the vote, and with it
+the last PAN 2024 comparison, waits on the deberta ladder.
+
+### Curator roll-up
+
+- **Theory group:** Infrastructure only
+- **Question in plain language:** Does the ensemble's third member hold up under the
+  corrected dropout reading, and can the vote run?
+- **Outcome class:** Infrastructure
+- **Result:** Ernie +0.030 above its member gate; the vote re-gated on the deberta
+  stabilizer rung.
+- **Project meaning:** The PAN 2024 member set is one trainable deberta away from its vote.
+- **Next engineering obligation:** The stabilizer ladder (rung 1 training; rungs 2 and 3
+  queue on its result; rung 4 remains the priced cloud diagnostic pending approval).
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/pan_winner/ernie_hard_headdrop25.json`; the vote stage's
+  retarget in `runners/run_queue.py`.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

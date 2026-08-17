@@ -109,11 +109,13 @@ eight-agent external-verification fleet (L107, L108, L109, L123):
   cross-year memorization. **The contamination account is CLOSED from three directions
   (L118): rescore 0.8273 / strict tier 0.8235 / retrain-leak-free 0.8108 (−0.032 below the
   winner's own gate) — the recipe's edge IS the leak; capability is 0.81-0.83.** The
-  all-module dropout collapse is stochastic (L118 fold to L111). Remaining: head-scope
-  one-recipe member set + vote + deberta refit, in the burn. **PAN 2025**: the labeled TEST
-  split is on disk and verified genuine — the 2025 winner runs against three printed
-  test-set exact-value gates (hard 0.830, easy 0.958, medium 0.823), contamination-gated
-  clean.
+  all-module dropout collapse is stochastic (L118 fold to L111). Two of three head-scope
+  members above gate (ernie 0.8792 +0.030, L129; roberta 0.8633 +0.021, L121); the vote
+  gates on the deberta stabilizer ladder (rung 1 training). **PAN 2025: THE HARD TEST GATE
+  MATCHED (L128) — 0.8293 vs printed 0.830, seven ten-thousandths, contamination 0.39%,
+  the phase's cleanest anchor landing at exact-value grade; easy 0.9535 vs 0.958 inside
+  seed noise with its interval arms queued; medium training. The recipe graduates to
+  candidate trained substrate for the Phase 2.0 detector (2.0E).**
 - **BST**: reference data validated (Exp 1 fully; Exp 2 fully after the fleet found the
   column-major grouping — stimulus i = rows i, i+95, i+190; all sums pass; my earlier
   narrowing was wrong and is reversed). Design corrected by the referees: NINE actions

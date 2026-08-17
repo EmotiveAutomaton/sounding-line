@@ -1,0 +1,43 @@
+{
+ "arm": "ernie",
+ "checkpoint": "nghuyong/ernie-2.0-base-en",
+ "difficulty": "hard",
+ "macro_f1_final_epoch": 0.8792479012549859,
+ "per_epoch_validation": [
+  0.8288623141564317,
+  0.8627940062211814,
+  0.8671686639434403,
+  0.8641974990326782,
+  0.8756441721931444,
+  0.8772637165007348,
+  0.8727462166665159,
+  0.8743465098910561,
+  0.879538992295861,
+  0.8792479012549859
+ ],
+ "best_epoch_f1": 0.879538992295861,
+ "gate_validation": 0.849,
+ "delta": 0.030247901254985887,
+ "n_train_pairs": 38109,
+ "n_pan23_problems": 4200,
+ "assumptions": "AdamW wd=0, warmup 0.06, CE loss, CLS linear head, pair-encoded longest-first truncation, seed 42, final epoch",
+ "hypers": {
+  "lr": 5e-05,
+  "batch_effective": 60,
+  "epochs": 10,
+  "max_len": 256,
+  "dropout_requested": 0.25,
+  "dropout_scope": "head",
+  "dropout_measured": [
+   0.1,
+   0.25
+  ],
+  "warmup": 0.06,
+  "amp": true
+ },
+ "versions": {
+  "transformers": "5.14.1",
+  "torch": "2.13.0+cu126",
+  "sklearn": "1.9.0"
+ }
+}

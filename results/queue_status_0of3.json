@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-15 17:09",
+  "started": "2026-08-16 20:07",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -497,9 +497,7 @@
       "name": "pan_deberta_hard",
       "why": "G147 member 2 of 3: deberta-base (v1), their strongest single arm (.8567 gate); fp32 because its disentangled attention overflows under fp16 autocast. Micro-batch 12 x accum 5 (same effective 60, same step count): batch 30 fp32 OOMed on the shared card 2026-08-14",
       "est_minutes": 300,
-      "status": "DONE",
-      "log": "results\\pan_deberta_hard.log",
-      "minutes": 1179.1
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "features_fiction_ds_w40",
@@ -535,17 +533,34 @@
       "name": "pan_vote_hard",
       "why": "the system vote (gate .8658), behind three members under ONE recipe: head-scope dropout 0.25, warmup 0.06. The all-module scope reading collapsed roberta (9-epoch flatline), so scope joins schedule in the one-recipe rule",
       "est_minutes": 5,
-      "status": "DEFERRED",
-      "missing": [
-        "results/pan_winner/ernie_hard_headdrop25.json"
-      ]
+      "status": "FAILED (exit 1)",
+      "log": "results\\pan_vote_hard.log",
+      "minutes": 0.0
     },
     {
       "name": "pan25_wqd_hard",
       "why": "G148: the phase's first reachable TEST-set exact-value gate (L109 found the labeled 2025 test split in our store, verified genuine). The fully-specified 2025 winner against its printed 0.830; contamination gate 0.4%, clean",
       "est_minutes": 150,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_ernie_headdrop25",
+      "why": "scope fork, member 2: ernie landed 0.8798 under all-module 0.25, so its head-only cell measures the scope lever on a member that tolerates both",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan25_wqd_easy",
+      "why": "G148 test-set gate 2 of 3: the 2025 winner's printed easy test 0.958",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_deberta_headdrop25_s43",
+      "why": "stabilizer rung 1 for the collapsed deberta member: same recipe, seed 43. If it collapses too, rung 2 is warmup 0.10, rung 3 lr 4e-5, each recorded as a named divergence-fix assumption",
+      "est_minutes": 620,
       "status": "RUNNING",
-      "log": "results\\pan25_wqd_hard.log"
+      "log": "results\\pan_deberta_headdrop25_s43.log"
     }
   ],
   "shard": "0/3"
