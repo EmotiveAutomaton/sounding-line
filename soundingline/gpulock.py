@@ -17,7 +17,11 @@ import time
 from pathlib import Path
 
 GPU_LOCK = Path(__file__).resolve().parents[1] / "results" / ".gpu.lock"
-STALE_S = 9 * 3600
+# 9h reclaimed a LIVE 620-minute deberta rung at hour nine and put an ollama generation on
+# the card beside it (2026-08-17), the same failure mode as the original 5h window. The
+# window must exceed the longest queued stage's REAL runtime (est x 2-3 underestimate), so
+# it tracks the queue's longest est, currently 620 min -> 22h.
+STALE_S = 22 * 3600
 
 
 def release_gpu_lock() -> None:

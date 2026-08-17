@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_01_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5303
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether schools should teach handwriting. Prose only, no headings.",
+ "text": "In an era where digital communication reigns supreme, the debate rages on about whether schools should prioritize teaching handwriting as a fundamental skill. While some argue that handwriting is a redundant skill in today's technology-driven world, I firmly believe that it remains an essential tool for students to master.\n\nOne of the primary reasons schools should continue to teach handwriting is its impact on cognitive development and fine motor skills. Handwriting requires coordination between hand-eye movements, muscle memory, and attention to detail \u2013 all of which are fundamental building blocks for brain development. Studies have shown that children who learn cursive writing exhibit improved cognitive performance in areas such as language, reading comprehension, and math. Moreover, the act of putting pen to paper fosters creativity, self-expression, and critical thinking skills, which are increasingly valuable in an age where digital media dominates.\n\nCritics argue that handwriting is a slow and laborious process that takes away from more pressing curriculum demands. However, this criticism overlooks the long-term benefits of mastering handwriting. In professional settings, clear and legible writing skills remain a vital aspect of effective communication \u2013 essential for business correspondence, contracts, and even medical records. Moreover, as we increasingly rely on digital tools, it's crucial that students develop fundamental literacy skills to navigate these technologies effectively.\n\nFurthermore, the emotional value of handwriting cannot be overstated. In an era where screen time dominates, the tactile experience of writing with a pen or pencil provides a much-needed respite from the virtual world. Writing by hand allows children to connect with their emotions and express themselves in a more authentic way, which is lost when relegated solely to digital communication.\n\nIn conclusion, schools should indeed prioritize teaching handwriting as an essential skill for students to master. The cognitive, fine motor, and creative benefits, coupled with its enduring relevance in professional settings, make it a vital component of a well-rounded education.",
+ "n_words": 316,
+ "generated_at": "2026-08-17 05:24:52",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether schools should teach handwriting",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_01_medium"
+}

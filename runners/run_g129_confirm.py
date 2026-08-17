@@ -70,13 +70,23 @@ def covs(e) -> list[float]:
 
 
 def ask(prompt: str, seed: int) -> str:
+    import time                                                       # noqa: PLC0415
     req = urllib.request.Request(OLLAMA, data=json.dumps(
         {"model": MODEL, "prompt": prompt, "stream": False, "think": False,
          "options": {"temperature": 0.0, "seed": seed, "num_predict": 30}}).encode(),
         headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=300) as r:
-        resp = json.loads(r.read()).get("response", "")
-    return re.sub(r"<think>.*?</think>", "", resp, flags=re.DOTALL).strip()
+    # ollama returns transient 500s under VRAM churn (an arm died to one at 0.6 min,
+    # 2026-08-17); retry with backoff, die only after sustained failure
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=300) as r:
+                resp = json.loads(r.read()).get("response", "")
+            return re.sub(r"<think>.*?</think>", "", resp, flags=re.DOTALL).strip()
+        except Exception:                                             # noqa: BLE001
+            if attempt == 5:
+                raise
+            time.sleep(20 * (attempt + 1))
+    return ""
 
 
 def delta_text(e) -> str:

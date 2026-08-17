@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_02_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5305
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether professional sports teams should be publicly owned. Prose only, no headings.",
+ "text": "The notion of professional sports teams being publicly owned has gained significant traction in recent years, with some arguing that it would promote community ownership and reduce the influence of wealthy individuals or corporations. However, I firmly believe that public ownership would ultimately undermine the success and competitiveness of these teams.\n\nOne of the primary concerns is the lack of accountability and efficiency that often comes with government-run entities. Publicly owned sports teams would be subject to bureaucratic red tape, with decision-making processes slowed down by layers of administrative approval. This would hinder the ability of team management to make swift and informed decisions about player signings, trades, and other important roster moves.\n\nFurthermore, public ownership would inevitably lead to a decrease in the quality of service provided to fans. Municipal-owned teams would be beholden to taxpayers, who often have competing priorities for their hard-earned dollars. As a result, team budgets would likely suffer, leading to reduced spending on player talent, facilities, and overall fan experience.\n\nThe other argument in favor of public ownership \u2013 that it would promote community involvement \u2013 is also misguided. While community engagement can be beneficial, there are already numerous ways to achieve this without sacrificing the effectiveness of the team. For instance, non-profit organizations and local businesses can partner with teams to create initiatives that foster community interaction and ownership.\n\nUltimately, professional sports teams operate in a competitive market where success often hinges on making savvy business decisions. Public ownership would only serve as an obstacle to achieving this goal, leading to stagnation and mediocrity. Private ownership allows for more nimble decision-making and access to capital, enabling teams to attract top talent and compete at the highest level.",
+ "n_words": 284,
+ "generated_at": "2026-08-17 05:38:15",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether professional sports teams should be publicly owned",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_02_medium"
+}

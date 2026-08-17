@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_00_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5301
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether cities should ban private cars from their centers. Prose only, no headings.",
+ "text": "As urban populations continue to swell and concerns about climate change intensify, the question of how to navigate city centers has become increasingly pressing. While some argue that banning private cars from city centers is an overreach, I firmly believe it's a necessary step towards creating more livable, sustainable cities.\n\nThe primary argument against car bans is economic: businesses and residents will be inconvenienced by reduced access to their homes and workplaces. However, this perspective overlooks the benefits of reducing congestion and pollution in city centers. By promoting alternative modes of transportation such as buses, bicycles, and walking, we can alleviate the pressure on public health infrastructure while also stimulating local economies through increased foot traffic.\n\nMoreover, cities have a moral obligation to protect their citizens' health. Air pollution from private cars is a well-documented killer, responsible for thousands of premature deaths annually. By removing private vehicles from city centers, governments can take concrete action towards meeting climate goals and ensuring the well-being of residents. Furthermore, this initiative would also provide an opportunity to repurpose streets as vibrant public spaces \u2013 think pedestrianized shopping districts, bike-share programs, or community gardens.\n\nWhile some may argue that car bans will disproportionately affect low-income communities who rely on private transportation for work and daily life, cities can implement exemptions and compensation packages to mitigate these effects. For example, designated parking lots could be established at the city's periphery, allowing residents to park their cars while still accessing public transport or ride-sharing services.\n\nUltimately, banning private cars from city centers is a bold but necessary step towards reimagining urban spaces that prioritize people over vehicles. Cities must lead by example in addressing climate change and promoting sustainable, equitable transportation solutions for all citizens.",
+ "n_words": 289,
+ "generated_at": "2026-08-17 05:11:09",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether cities should ban private cars from their centers",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_00_medium"
+}

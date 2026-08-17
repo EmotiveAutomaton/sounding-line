@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_01_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5304
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word argumentative essay taking a clear position on: whether schools should teach handwriting. Prose only, no headings.",
+ "text": "In an era where digital communication has become the norm, it's tempting to dismiss handwriting as an obsolete skill. However, with a growing body of research highlighting the cognitive and motor skills associated with handwriting, it's increasingly clear that teaching this fundamental ability is essential in schools.\n\nOne of the primary reasons for including handwriting in school curricula is its impact on children's cognitive development. Handwriting involves not only fine motor control but also spatial awareness, working memory, and language processing. Studies have shown that young children who practice writing by hand exhibit improved literacy skills, including spelling and reading comprehension (Hill, 2012). Furthermore, handwriting has been linked to enhanced executive function in children, encompassing planning, organization, and self-regulation (Case-Smith & Holland, 2009).\n\nMoreover, the emphasis on digital communication can lead to a decline in critical thinking and writing skills. When students rely primarily on keyboards or touchscreens for expression, they are less likely to engage with their thoughts at a deeper level. Handwriting forces individuals to slow down and think more deliberately about what they want to convey. This slower pace allows for more reflection and consideration of ideas before putting them into words (Klein & Rosebery, 2010). The deliberate movement involved in handwriting can even trigger the release of dopamine, further reinforcing the process (Cohen et al., 1997).\n\nAnother argument in favor of teaching handwriting is its relevance to everyday life. With an increasing amount of written communication taking place online, there are numerous situations where hand-written correspondence or documents are still necessary. This might include signing official documents, writing thank-you notes, or even creating personal journal entries. As students grow into adulthood and engage with more formal institutions, they will be expected to interact with handwritten materials.\n\nSome critics argue that the emphasis on handwriting detracts from the importance of digital literacy, which is equally essential in today's technological landscape. However, this dichotomy is not necessarily mutually exclusive. Teaching children to write by hand can coexist alongside digital skills and knowledge. In fact, research has shown that students who practice both typing and handwriting tend to perform better on writing tasks than those who rely solely on one modality (Gruber et al., 2012).\n\nSome may also argue that handwriting is a skill that can be learned outside of school through personal interest or parental instruction. However, the availability of such opportunities cannot be taken for granted. Not all students have access to supportive home environments where they can develop their handwriting skills freely. Schools play a vital role in providing a comprehensive education, one that includes basic skills such as reading, writing, and arithmetic.\n\nOthers might contend that time spent on handwriting could be better allocated to more modern skills like coding or data analysis. While these subjects undoubtedly hold value in today's world, they should not come at the expense of fundamental abilities essential for everyday functioning. Handwriting is a skill that transcends specific curricular goals; it is a basic tool that underlies numerous aspects of life.\n\nIn conclusion, given the cognitive, motor, and practical benefits associated with handwriting, schools must prioritize its inclusion in their curricula. This may involve dedicating more time to handwriting instruction or integrating it into other subjects such as writing and language arts. While digital literacy is undeniably important, there should be no trade-off between teaching handwriting and preparing students for the demands of modern communication.\n\nReferences:\nCase-Smith, J., & Holland, S. (2009). The effects of handwriting on executive function in young children. American Journal of Occupational Therapy, 63(3), 311-321.\n\nCohen, J., Young, R., & van der Meulden, M. (1997). Handwriting: The neglected communication skill. Journal of Writing Research, 1(2), 121-135.\n\nGruber, D. A., et al. (2012). Writing and typing in elementary school: Are they interchangeable skills? Journal of Educational Psychology, 104(4), 1003-1016.\n\nHill, E. L. (2012). The relationship between handwriting and literacy development. Journal of Educational Research, 105(5), 347-359.\n\nKlein, P., & Rosebery, A. (2010). Writing to think: From writing workshops to thinking class. Educational Leadership, 67(8), 50-53.",
+ "n_words": 668,
+ "generated_at": "2026-08-17 05:36:06",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether schools should teach handwriting",
+ "length_bin": "long",
+ "lineage_id": "r1_argument_01_long"
+}

@@ -571,9 +571,48 @@
       "name": "g129_shuffle",
       "why": "G129 A3, the leakage arm: permuted truth must read at chance or the run is VOID",
       "est_minutes": 90,
-      "status": "RUNNING",
-      "log": "results\\g129_shuffle.log"
+      "status": "TIMEOUT",
+      "log": "results\\g129_shuffle.log",
+      "minutes": 540.0
+    },
+    {
+      "name": "g129_unchanged",
+      "why": "G129 A7 (Amendment 1): no-op deltas with an explicit no-revision option; fabrication rate = the reader's Taramsa bound, symmetric changed control beside",
+      "est_minutes": 45,
+      "status": "FAILED (exit 1)",
+      "log": "results\\g129_unchanged.log",
+      "minutes": 0.6
+    },
+    {
+      "name": "g129_verdict",
+      "why": "G129: the preregistered bands, McNemar reader-vs-block, VOID gates, and fabrication rates, computed once, every statistic on disk",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "results/g129/recovery.json",
+        "results/g129/blind.json",
+        "results/g129/shuffle.json",
+        "results/g129/brief.json",
+        "results/g129/source.json",
+        "results/g129/unchanged.json",
+        "results/g129/recovery_matched.json",
+        "results/g129/blind_matched.json"
+      ]
+    },
+    {
+      "name": "g153_gen_llama",
+      "why": "G153 free path: the HELD-OUT local lineage's arm of the same pilot",
+      "est_minutes": 240,
+      "status": "FAILED (exit 1)",
+      "log": "results\\g153_gen_llama.log",
+      "minutes": 92.3
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-17 06:40",
+  "failed": [
+    "g129_shuffle",
+    "g129_unchanged",
+    "g153_gen_llama"
+  ]
 }

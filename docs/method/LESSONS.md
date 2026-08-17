@@ -302,10 +302,21 @@ current truth lives in the folded end-state of the record, never in an interim s
   recorded a false failure with its produce on disk at the stage-end minute (mechanism
   unidentified; filesystem visibility straight after subprocess exit is not trusted bare). A
   false no-produce costs a 150-minute rerun; the poll costs nothing. (gridmax, 2026-08-14)
-- **The GPU lock's staleness window must exceed the longest queued training.** The 5-hour
-  window sat under the 5-to-7-hour framework arms, so a live holder's lock was reclaimed
-  mid-run, two trainings collided on the card, and the fp32 deberta arm OOMed. Raised to 9
-  hours; re-check whenever a longer stage enters the queue. (L111, gpulock.py)
+- **The GPU lock's staleness window must exceed the longest queued stage's REAL runtime,
+  which is its estimate times the 2-3× underestimate rule — and QUEUEING A LONGER STAGE IS
+  THE TRIGGER TO RE-CHECK.** The 5-hour window sat under the 5-to-7-hour framework arms and
+  collided two trainings (the fp32 deberta OOM); raised to 9 hours, and then a 620-minute
+  stabilizer rung outran THAT window at hour nine, its live lock reclaimed by an ollama
+  generation that then shared the 12GB card with a mid-epoch training. Same failure, second
+  window. Now 22 hours, and the re-check is part of adding any stage whose estimate exceeds
+  a third of the current window. (L111 then 2026-08-17, gpulock.py)
+- **A model-serving endpoint under VRAM churn throws transient 500s; every caller retries
+  with backoff before dying, and a generation stage never writes its manifest over a thin
+  yield.** An arm died at 0.6 minutes to one transient 500; and the generation runner's
+  produces-guard would have been satisfied by a manifest written after silent per-artifact
+  failures, permanently freezing a thin corpus. Retry loops in every ollama caller;
+  manifests withheld (nonzero exit, stage retries) below 90% yield. (2026-08-17,
+  run_g129_confirm.py / run_g153_local_gen.py)
 - **Underestimate runtimes 2-3×** and keep the queue loaded to the gear: second gear
   (`run_second_gear.sh`, the whole machine) carries about a day's worth of analyses, first gear
   (`run_first_gear.sh`, part of the CPU, the GPU mostly the curator's) four to eight hours of

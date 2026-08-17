@@ -93,13 +93,16 @@ def call(model: str, prompt: str, seed: int) -> str | None:
         {"model": model, "prompt": prompt, "stream": False, "think": False,
          "options": {**DECODING, "seed": seed}}).encode(),
         headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=900) as r:
-            resp = json.loads(r.read()).get("response", "")
-    except Exception as e:                                            # noqa: BLE001
-        print(f"  call failed: {e}")
-        return None
-    return re.sub(r"<think>.*?</think>", "", resp, flags=re.DOTALL).strip()
+    # transient ollama 500s under VRAM churn: retry with backoff before giving up
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=900) as r:
+                resp = json.loads(r.read()).get("response", "")
+            return re.sub(r"<think>.*?</think>", "", resp, flags=re.DOTALL).strip()
+        except Exception as e:                                        # noqa: BLE001
+            print(f"  call failed (attempt {attempt + 1}): {e}")
+            time.sleep(20 * (attempt + 1))
+    return None
 
 
 def model_identity(model: str) -> dict:
@@ -178,13 +181,20 @@ def main() -> None:
                           "source_ref": str(src.relative_to(REPO)), "seed": seed})
             print(f"{aid}: {len(text.split())}w <- {src.name}")
 
-    manifest = {"family": args.family, "model": ident, "n_artifacts": n_written,
-                "existing": len(list(outdir.glob("*.json"))) - 1
-                if (outdir / "manifest.json").exists() else len(list(outdir.glob("*.json"))),
+    n_expected = len(DOMAINS) * 10 * len(LENGTHS) + N_REWRITES
+    n_on_disk = len([p for p in outdir.glob("*.json") if p.name != "manifest.json"])
+    if n_on_disk < int(0.9 * n_expected):
+        # a transient failure must not satisfy the produces-guard with a thin corpus;
+        # exit nonzero so the queue retries and the per-artifact checkpoints fill the gaps
+        print(f"INCOMPLETE: {n_on_disk}/{n_expected} artifacts; manifest withheld, stage "
+              f"will retry")
+        sys.exit(1)
+    manifest = {"family": args.family, "model": ident, "n_artifacts_on_disk": n_on_disk,
+                "n_expected": n_expected, "n_written_this_pass": n_written,
                 "decoding_schema_version": "g153.v1"}
     (outdir / "manifest.json").write_text(json.dumps(manifest, indent=1),
                                           encoding="utf-8", newline="\n")
-    print(f"done: {len(list(outdir.glob('*.json'))) - 1} artifacts on disk for {args.family}")
+    print(f"done: {n_on_disk} artifacts on disk for {args.family}")
 
 
 if __name__ == "__main__":

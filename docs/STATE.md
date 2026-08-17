@@ -75,7 +75,7 @@ headers and labels; no "it's not A, it's B" constructions. Reserved vocabulary: 
 level / region / block / subspace; "layer" unqualified is banned. Format spec and afterword
 rules in `docs/theory/README.md`; the linter enforces the mechanical half.
 
-## Where the program stands (2026-08-16)
+## Where the program stands (2026-08-17)
 
 **Phase 1 (frontier recreations) is at wrap: three anchors closed, BST's Experiment 1
 complete with Experiments 2-3 open behind their stimulus decodes, PAN's tail (wqd test
