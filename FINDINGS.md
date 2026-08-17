@@ -4834,6 +4834,71 @@ its mechanism).
 - **Detail pointer:** G130c follow-up → `results/arg_recovery/floor_decomp.json`,
   `runners/run_g130c_floor_decomp.py`, prereg amendment in `prereg/g129.py`.
 
+## L127 · The motivation-shift sampler finds planted switches: G149's ruler gate passes on the validated gridworld
+
+**Hypothesis.** *(G149, his reframe: the movement instruments sample shifting motivations
+over time, the policy-propensity landscape's peaks moving. Before any such sampler touches
+text, it must find motivation shifts where they are REAL by construction.)* A window-local
+shift statistic, blind to the generative parameters, can detect and localize goal switches
+planted in Boltzmann paths on the validated BST engine.
+
+**Method.** Paths sampled from the exact-value-validated gridworld engine (L119/L122
+inventory) on the four decoded stimulus worlds: the active goal switches at a known step in
+the planted arm, never in the null arm. The sampler computes, at each interior step, the
+best two-goal split likelihood minus the best single-goal likelihood (summed step
+log-likelihoods over the marked goals); detection threshold = the 95th percentile of the
+null arm's maxima, so false alarms are priced at 5% by construction; a detection counts
+only if localized within two steps of the planted switch. Two hundred paths per cell,
+rationality crossed at four levels.
+
+| walker rationality (β) | detected AND localized | localization error (steps) | null paths behind the threshold |
+|---|---|---|---|
+| 0.5 (noisy) | 58.5% | 1.13 | 200 |
+| 1.0 | 72.5% | 0.48 | 199 |
+| **2.0 (the paper's own fit)** | **89.5%** | **0.30** | 137 |
+| 4.0 (near-deterministic) | 98.4% | 0.10 | 13 |
+
+*Caption: each row is one rationality level. "Detected and localized" is the share of 200
+planted-switch paths where the sampler's peak clears the 5%-false-alarm threshold and lands
+within two steps of the true switch. The last column counts the no-switch paths that set
+each threshold; the β = 4 row rests on only 13 nulls (near-deterministic single-goal
+walkers reach their goal before twenty steps, so full-length no-switch paths are rare
+there) and its threshold is correspondingly soft.*
+
+**Found.** THE RULER PASSES. At the rationality the paper itself fitted to humans, nine of
+ten planted switches are found and placed within a fraction of a step, against a threshold
+that holds the quiet worlds quiet at 5%. Detection is monotone in rationality exactly as
+the framing predicts: the more coherent the walker, the more legible the moment its
+motivation moved. The β = 4 cell's threshold is underpowered (13 nulls) and is reported,
+not leaned on; the load-bearing cell (β = 2) has 137 nulls behind it.
+
+**Means.** The motivation-shift sampling concept has its first known-answer license: a
+window-local statistic CAN locate real motivation shifts with priced false alarms, in the
+one environment where the shifts are ground truth. What this does not license is any claim
+about text: the next step is the same sampler ported to stimuli with known specified-state
+shifts (the ladder corpora), and only after that does it earn a place among the
+detector-facing channels. This is the first positive result of the free path under
+standing ruling 7 — zero dollars, one afternoon, the validated Phase-1 inventory doing the
+work.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Can a motivation-shift sampler actually find the moment a
+  maker's goal changed, where we know the truth?
+- **Outcome class:** Strengthens
+- **Result:** 89.5% of planted goal switches detected and localized within two steps at the
+  paper's own fitted rationality, false alarms priced at 5%.
+- **Project meaning:** The movement family's reframe (sampling motivation shifts, not
+  measuring depth) now has a validated instrument in principle; the text port is what stands
+  between it and the detector stack.
+- **Next engineering obligation:** Port the sampler to the ladder corpora, where specified
+  states shift at known points in text.
+- **Public claim:** Unchanged (constructed world only).
+- **Curator decision required:** No.
+- **Detail pointer:** G149 → `results/g149/switch_sampler.json`,
+  `runners/run_g149_switch_sampler.py`.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

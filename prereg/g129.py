@@ -97,6 +97,18 @@ CARD = {
                         "failure, G94's question, measured here on real text)",
     },
 
+    # AMENDMENT 1 (2026-08-16, before any arm ran; the build pass). A7's chance-level design
+    # measured nothing: with no true label, accuracy against an arbitrary pseudo-truth is 1/k
+    # by construction whatever the reader does. Refined instrument: every A7 candidate set
+    # carries an explicit extra option, "no revision was made", and the delta shown is the
+    # honest no-op (nothing added, nothing removed, before = after). Correct behavior is
+    # picking the no-revision option; the FABRICATION RATE is the share of unchanged events
+    # where the reader asserts a purpose anyway. Symmetric control in the same arm: a matched
+    # sample of REAL changed events gets the same extra option, and the miss rate (calling a
+    # real revision "no revision") is reported beside the fabrication rate. Verdict band
+    # updated: CLEAN = fabrication rate <= 0.10; OVER-READS = above, with the rate carried as
+    # the reader's warning label. The changed-side miss rate is reported, not banded.
+
     # ------------------------------------------------------------------------------------------
     # Verdict bands -- EXHAUSTIVE, the L73 lesson. Margins are over the MEASURED floor of the
     # same population (analytic 1/k for the balanced full set; the blind arm's read for the

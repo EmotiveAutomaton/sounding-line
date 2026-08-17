@@ -161,6 +161,7 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), split by family at power (test, L97/L100), the 2×2 resolving the split into one model's exception (test, L103), and the window sweep qualifying it further (test, L105).** What is window-robust: both llama-base cells RISE at 80 and 40 words (up to p = 10⁻⁴). What is not: the qwen-instruct rise weakens below significance at 40, and the lone human-direction decay (the qwen-7B reasoning distill) vanishes at 40 exactly as the books decay did. Flatness is dead; rising polish is the machine default where anything is window-robust; the decay exception is one model at one window; provenance use stays dead. Artifact-side, no shared-representation caveat |
 | **PD-2** | Polish *decays* specifically, rather than merely moving | **SUPPORTED FOR HUMANS, AND THE DIRECTION DISSOCIATES BY PROVENANCE (test, L89/L90).** Essays decay at both windows (−0.17 and −0.14, p ≤ 4 × 10⁻⁶); books decay at the wide window only (−0.30, p = 0.012; null at 40); the machine corpus rises. The dissociation weakens the register-geography rival, which predicted a shared direction, and restores the reallocation account's essays evidence; the books' window-boundness keeps the long-form claim modest |
 | **PD-4** | Polish variance is larger in less practised makers | **OPEN** |
+| **G149** | Movement instruments sample shifting motivations over time, and a window-local sampler can locate a real shift | **RULER PASSED (test-side toy, L127).** On the validated gridworld engine, planted goal switches are detected and localized within two steps at 89.5% at the paper's own fitted rationality, false alarms priced at 5% from no-switch paths, detection monotone in walker rationality (58.5% noisy to 98.4% near-deterministic, the last cell's threshold on 13 nulls and soft). Constructed world only; the text port (known specified-state shifts in the ladder corpora) is the step that would let the reading touch artifacts |
 | **PD-29** | Polish separates into attraction and translation | **OPEN, and everything in this section depends on it** |
 | **PD-30** | Attraction decays across an artifact; translation does not | **OPEN** |
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
@@ -182,14 +183,18 @@ The register-geography rival stays weakened; reallocation keeps its human eviden
 undemonstrated as mechanism; G146's question is now about that one model, namely what makes
 its output positionally mobile on every instrument while every other cell is conditional.
 The maker-signature half of the section is untouched by all of it: polish-side features
-carry the author at fixed topic on two corpora and two window sizes with no exceptions. The
-rest is the simulation's 6.5× decay asymmetry plus unrun tests, with the
-attraction/translation split gating the lot. Confidence: the essays decay and the signed
-family cells are replicated at doubled n and one bad test away as a set; the books decay
-stays window-bound; the magnitude square is settled as window-conditional with the
-qwen-instruct constant one bad test away; the essay-boundness results are one bad test
-away; the reallocation reading is contested by its own control; the rest is untested or
-sim-only.
+carry the author at fixed topic on two corpora and two window sizes with no exceptions.
+The family's reframe (movement as motivation-shift sampling rather than depth) now has its
+first instrument license: where motivation shifts are real by construction, a window-local
+sampler finds nine of ten of them at the fitted human rationality with false alarms priced,
+so the reading is measurable in principle and awaits its text port before it can claim
+anything about artifacts. The rest is the simulation's 6.5× decay asymmetry plus unrun
+tests, with the attraction/translation split gating the lot. Confidence: the essays decay
+and the signed family cells are replicated at doubled n and one bad test away as a set; the
+books decay stays window-bound; the magnitude square is settled as window-conditional with
+the qwen-instruct constant one bad test away; the essay-boundness results are one bad test
+away; the reallocation reading is contested by its own control; the shift-sampler license
+is one bad test away and constructed-world only; the rest is untested or sim-only.
 
 ## §3. Automatic traces: leakage, concealment, and the channels that carry them
 

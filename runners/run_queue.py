@@ -1202,11 +1202,99 @@ for _fam in ("qwen", "ds", "llama", "r1l8"):
 
 
 
+# ── PHASE 2.0 FREE-PATH RESTOCK 2026-08-16: the week's grind under standing ruling 7 (no
+# material spend; everything below is local). The G129 confirmatory battery runs the prereg
+# card (prereg/g129.py, Amendment 1) off the shared manifest so every arm sees identical
+# events and candidate sets; the verdict stage computes the preregistered bands only after
+# every arm has landed. G149's ruler gate validates the motivation-shift sampler on planted
+# switches in the validated BST engine. G153's local pilot proves the benchmark's
+# process-recording loop on the two independent local lineages at zero dollars.
+STAGES += [
+    {"name": "g129_change_block", "est": 25,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "change_block"],
+     "produces": "results/g129/change_block.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129 A4: the 19-dim declared baseline the reader must beat (L85), "
+            "author-grouped CV, probabilities restricted to the shared candidate sets"},
+    {"name": "g129_recovery", "est": 90,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "recovery"],
+     "produces": "results/g129/recovery.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129 A1, the claim arm: delta + candidates on the balanced full set (H-A)"},
+    {"name": "g129_blind", "est": 60,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "blind"],
+     "produces": "results/g129/blind.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129 A2, the floor arm: VOID gate if off the analytic 1/k"},
+    {"name": "g129_shuffle", "est": 90,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "shuffle"],
+     "produces": "results/g129/shuffle.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129 A3, the leakage arm: permuted truth must read at chance or the run is VOID"},
+    {"name": "g129_brief", "est": 60,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "brief"],
+     "produces": "results/g129/brief.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129 A5: assignment context alone, no delta (context-only control)"},
+    {"name": "g129_source", "est": 60,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "source"],
+     "produces": "results/g129/source.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129 A6: original sentence alone, no delta (topic-only control)"},
+    {"name": "g129_unchanged", "est": 45,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "unchanged"],
+     "produces": "results/g129/unchanged.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129 A7 (Amendment 1): no-op deltas with an explicit no-revision option; "
+            "fabrication rate = the reader's Taramsa bound, symmetric changed control beside"},
+    {"name": "g129_recovery_matched", "est": 40,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "recovery_matched"],
+     "produces": "results/g129/recovery_matched.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129 H-B: the truth-balanced matched draw (L126's analytic-floor amendment); "
+            "n=176 of the powered 283, shortfall clause engages at verdict"},
+    {"name": "g129_blind_matched", "est": 30,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--arm", "blind_matched"],
+     "produces": "results/g129/blind_matched.json",
+     "needs": ["results/g129/manifest.json"],
+     "why": "G129: the matched floor arm, expected back at analytic 1/k after balancing"},
+    {"name": "g129_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--verdict"],
+     "produces": "results/g129/verdict.json",
+     "needs": ["results/g129/recovery.json", "results/g129/blind.json",
+               "results/g129/shuffle.json", "results/g129/brief.json",
+               "results/g129/source.json", "results/g129/unchanged.json",
+               "results/g129/recovery_matched.json", "results/g129/blind_matched.json",
+               "results/g129/change_block.json"],
+     "why": "G129: the preregistered bands, McNemar reader-vs-block, VOID gates, and "
+            "fabrication rates, computed once, every statistic on disk"},
+    {"name": "g149_switch_sampler", "est": 90,
+     "cmd": [PY, "runners/run_g149_switch_sampler.py"],
+     "produces": "results/g149/switch_sampler.json",
+     "needs": ["results/bst2009_reference/fig3_stimuli_canon.json"],
+     "why": "G149 ruler gate: planted goal switches in the validated BST engine; the "
+            "shift sampler must detect and localize them with false alarms priced at 5% "
+            "before any motivation-shift claim touches text. CPU, runs beside trainings"},
+    {"name": "g153_gen_qwen", "est": 240,
+     "cmd": [PY, "runners/run_g153_local_gen.py", "--family", "qwen"],
+     "produces": "corpora/g153_pilot/qwen/manifest.json", "needs": [],
+     "why": "G153 free path: the benchmark's process-recording loop proven end to end on "
+            "the seen local lineage (R1 thin-prompt 4 domains x 2 lengths + R3 rewrites), "
+            "explicit decoding recorded at generation time"},
+    {"name": "g153_gen_llama", "est": 240,
+     "cmd": [PY, "runners/run_g153_local_gen.py", "--family", "llama"],
+     "produces": "corpora/g153_pilot/llama/manifest.json", "needs": [],
+     "why": "G153 free path: the HELD-OUT local lineage's arm of the same pilot"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
 _GPU_HEAVY_PREFIXES = ("pan_", "pan25_", "sw_", "scholawrite_", "gen_fiction")
-_GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen"}
+_GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen_llama",
+                    "g129_recovery", "g129_blind", "g129_shuffle", "g129_brief",
+                    "g129_source", "g129_unchanged", "g129_recovery_matched",
+                    "g129_blind_matched"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

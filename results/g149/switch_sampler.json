@@ -1,0 +1,48 @@
+{
+ "seed": 47,
+ "n_paths": 200,
+ "path_len": 20,
+ "loc_tol": 2,
+ "betas": {
+  "0.5": {
+   "threshold_null_q95": 3.305,
+   "n_null": 200,
+   "n_planted": 200,
+   "null_max_median": 0.7,
+   "detected_and_localized": 117,
+   "detection_rate": 0.585,
+   "over_threshold_rate": 0.675,
+   "localization_mae": 1.133
+  },
+  "1.0": {
+   "threshold_null_q95": 3.848,
+   "n_null": 199,
+   "n_planted": 200,
+   "null_max_median": 0.542,
+   "detected_and_localized": 145,
+   "detection_rate": 0.725,
+   "over_threshold_rate": 0.765,
+   "localization_mae": 0.484
+  },
+  "2.0": {
+   "threshold_null_q95": 3.26,
+   "n_null": 137,
+   "n_planted": 200,
+   "null_max_median": 0.398,
+   "detected_and_localized": 179,
+   "detection_rate": 0.895,
+   "over_threshold_rate": 0.915,
+   "localization_mae": 0.301
+  },
+  "4.0": {
+   "threshold_null_q95": 2.877,
+   "n_null": 13,
+   "n_planted": 182,
+   "null_max_median": 0.131,
+   "detected_and_localized": 179,
+   "detection_rate": 0.9835,
+   "over_threshold_rate": 0.9945,
+   "localization_mae": 0.099
+  }
+ }
+}
