@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_01_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5323
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a weather forecaster in a town where she is always wrong. Prose only, no headings.",
+ "text": "Elena watched the humidity gauge waver like a nervous heartbeat before dawn, knowing by experience that it would rise until noon and then precipitate into nothingness. In Oakhaven, rain was not governed by pressure systems or jet streams but by her own anxiety levels; if she slept poorly, the sky stayed stubbornly blue regardless of what models predicted from three states away. She stood on her porch wrapping a shawl around herself while neighbors rushed to secure shutters against storms that would never arrive, their frantic energy only deepening her guilt. Yesterday's forecast had called for heavy thunderstorms and she had tried desperately to warn them, but the clouds merely drifted lazily by as if mocking her authority. Now another day began with identical skepticism etched into the faces of those who looked at her not as a scientist but as an omen wrapped in wool sweaters.\n\nInside her small office filled with charts that seemed to rearrange themselves overnight when no one was looking, Elena opened her laptop to check satellite imagery for comfort if nothing else. The data suggested stability yet she knew better; the air felt too still, charged with a silence that promised disaster despite appearances. She typed out another bulletin predicting clear skies but hesitated over every word before pressing send because somehow she suspected they would interpret even this caution as prophecy itself. When Mrs. Gable called to ask why it hadn't rained last week when Elena had insisted on flooding streets, the voice on the other end carried disappointment that stung worse than any physical blow could ever hope to be.\n\nElena closed her eyes against the weight of expectations she knew were impossible yet somehow felt entirely real within their tiny community where belief superseded logic and fear replaced facts every single morning without fail or reason behind why things happened this way instead otherwise around them constantly questioning everything unless someone else told them differently today again tomorrow never ending cycle until perhaps one day soon maybe something finally changes forever more nothing ever does happen exactly as planned anywhere near correctly here now always wrong everywhere all at once somehow still standing anyway.",
+ "n_words": 363,
+ "generated_at": "2026-08-17 21:50:17",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a weather forecaster in a town where she is always wrong",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_01_medium"
+}

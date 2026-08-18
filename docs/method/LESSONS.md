@@ -215,6 +215,14 @@ current truth lives in the folded end-state of the record, never in an interim s
 - **Matching can raise the floor instead of lowering the signal.** The G130c collision left
   recovery untouched and moved the blind floor from 0.23 to 0.40; always re-measure the floor on
   the matched subset. And leave no silent band between pre-registered verdict thresholds. (L73)
+- **Every void gate states its DIRECTION and its expectation under the ALTERNATIVE, not only
+  under the null.** The G129 shuffle gate said "at chance or void" and then fired on a
+  below-chance read that is the a-priori signature of the very success the battery was testing
+  (shuffled labels fall outside truth-anchored candidate sets, expected 0.125 for a
+  delta-tracking reader, observed 0.110), while the leak it guarded against pushes the number
+  UP. A gate that can void the alternative's own fingerprint is mis-specified; derive both
+  expectations before the run and write the failure direction into the card. Same defect class
+  as the silent-band lesson above. (L132)
 - **Power before verdicts.** The leaked channel was measured three times at sample sizes that
   could not see it; near-significance means raise n with everything frozen, not report a
   failure. (FINDINGS L16 history; D5 in the methodology record)

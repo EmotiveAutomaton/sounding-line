@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_04_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5370
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word professional workplace message about: declining a vendor proposal politely. Plain prose.",
+ "text": "Subject: Evaluation of Proposal for [Project/Service]\n\nDear [Vendor Representative],\n\nI am writing to express our appreciation for the time and effort invested in preparing your proposal for [project/service]. Your team's submission was thoroughly evaluated as part of our comprehensive procurement process, and we appreciate the opportunity to consider your offering.\n\nAfter careful analysis and evaluation of several key criteria, including value, feasibility, and alignment with our organizational goals, we regret to inform you that we will not be proceeding with your proposal at this time. While your team presented a strong case for their services, other factors influenced our decision-making process.\n\nWe want to highlight that the decision is in no way a reflection on the quality of your work or the expertise of your team. Your organization has demonstrated capabilities and accomplishments that are impressive, and we recognize the value you bring to similar projects.\n\nThe evaluation committee considered multiple proposals from various vendors, each with their unique strengths and approaches. Our selection process was guided by our project requirements and objectives, as well as our organization's procurement policies. The choice of vendor is ultimately based on a combination of factors, including technical merit, pricing, delivery timelines, and cultural fit.\n\nPlease know that we appreciate your interest in working with us and value the potential partnership. We encourage you to continue pursuing new business opportunities, leveraging the skills and expertise that set you apart in the industry.\n\nTo support your ongoing efforts, we will be providing a comprehensive debriefing of our evaluation process. This document will outline the key factors considered during the selection process, highlighting areas where your proposal excelled and those where it did not meet our specific needs. The debriefing aims to provide actionable insights that can inform future proposals and improve the overall quality of your submission.\n\nThe debriefing package will be made available on our procurement portal within two weeks from this notification. If you would like to schedule a follow-up meeting or discussion, please do not hesitate to contact me directly.\n\nOnce again, thank you for considering [project/service] as an opportunity for collaboration. We appreciate the time and resources invested by your team and look forward to the possibility of working with you in the future on other projects that align more closely with our needs.\n\nPlease feel free to reach out if you have any questions or concerns regarding this decision or would like to discuss further opportunities for partnership.\n\nBest regards,\n\n[Your Name]\n[Your Title]\n[Organization]",
+ "n_words": 415,
+ "generated_at": "2026-08-17 20:52:28",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "declining a vendor proposal politely",
+ "length_bin": "long",
+ "lineage_id": "r1_professional_04_long"
+}

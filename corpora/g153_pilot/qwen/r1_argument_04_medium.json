@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_04_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5309
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether space exploration deserves public funding. Prose only, no headings.",
+ "text": "The question of whether to allocate taxpayer dollars toward the pursuit of distant stars and alien worlds is not merely an exercise in astronomical curiosity; it is a fundamental test of our society's values regarding innovation and long-term survival. While critics often argue that billions spent on rocket launches could be better utilized solving immediate earthly crises like poverty, disease, or climate change, I contend that space exploration deserves robust public funding because the challenges we face are inextricably linked to the very technologies developed through aerospace research.\n\nThe most compelling argument for investment lies in the tangible technological spinoffs that arise from high-risk scientific endeavors. The origins of numerous devices essential to modern life\u2014ranging from satellite communications and GPS navigation to advanced medical imaging systems like MRI machines\u2014are rooted directly in space programs designed originally with no commercial intent in mind. Public funding acts as a catalyst for breakthroughs that private enterprise alone might not undertake due to the immense costs and risks involved. By supporting agencies such as NASA or ESA, we are essentially investing in an R&D pipeline that yields dividends far exceeding their initial cost, solving problems at the intersection of physics, biology, and materials science that benefit all humanity regardless of location on Earth.\n\nFurthermore, viewing space exploration solely through a terrestrial lens ignores our species' existential trajectory. Resources within our solar system represent potential solutions to overpopulation and resource depletion back home. Asteroid mining could one day provide rare earth metals without industrial destruction on our planet, while understanding the atmospheres of other worlds is crucial for preparing humanity against planetary-scale catastrophes like asteroid impacts or nuclear winter scenarios that no single nation can defend alone independently.\n\nFinally, there is an intangible yet vital psychological component to looking upward. History suggests that when a civilization ceases to explore its own horizon, it risks stagnation and decline. Funding space programs inspires generations of scientists, engineers, and dreamers who go on to innovate in every sector of the economy. Therefore, public funding for space exploration is not an expense but a strategic investment in our collective future security, technological prowess, and continued evolution as a species ready to welcome new challenges rather than fear them.",
+ "n_words": 369,
+ "generated_at": "2026-08-17 21:47:53",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether space exploration deserves public funding",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_04_medium"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_26",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5407
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars are a adaption of auto-pilot mode for air planes. It is a promising invention for people in big cities, where pollution and  traffic are going and space is decreasing. Imagine, just sit in the air conditioned car, sleep for half an hour and  [...source elided...]",
+ "text": "Self-driving vehicles represent the automotive industry's adaptation of autopilot systems currently used in aviation. This innovation holds immense promise for residents of major metropolitan areas plagued by congestion and air pollution while available parking spaces dwindle. Consider the convenience: one could simply relax inside a climate-controlled cabin, perhaps even take a short nap, to arrive safely at one's destination without ever worrying about navigating traffic or finding a parking spot.\n\nAs with any significant technological leap, this advancement presents both advantages and drawbacks. For instance, while passengers would no longer need to worry about rain ruining their commute, there is the risk that sensor malfunctions could lead to a loss of vehicle control. Furthermore, some argue that traditional insurance models might become obsolete since computers dictate driving decisions; however, in the unfortunate event of an accident, this raises complex questions regarding liability and who exactly can be held responsible.\n\nDespite these concerns, self-driving technology offers transformative benefits such as improved healthcare logistics through faster transport times, superior traffic flow management, and optimized parking solutions closer to users. While there is ongoing debate about whether the technology has fully matured, the stakes are incredibly high given that errors could result in loss of life or substantial financial damage. These vehicles operate outside a controlled environment where human unpredictability\u2014such as drunk drivers, pedestrians ignoring signals, children wandering into traffic, and inexperienced motorists missing signs\u2014remains a factor. Additionally, adverse weather conditions present challenges that cannot be easily mitigated.\n\nNevertheless, after weighing the evidence equally, I believe self-driving cars are an essential necessity for the future. The strongest proof of their viability lies in the fact that similar autonomous systems already operate safely in commercial aviation and as Automated People Movers within airport terminals. Major technology corporations across the board are fully backing this shift toward autonomy.\n\nThis breakthrough will be particularly life-changing for individuals with disabilities, freeing them from reliance on public transit and granting them the independence to attend university or seek employment without needing a driver's license\u2014a boon not just for them but for their families as well. Operationally simple enough that no technical expertise is required, these vehicles allow both children and elderly passengers to travel safely alone or together.\n\nMajor cities like New York, Shanghai, Hong Kong, and Mumbai would particularly benefit by utilizing this technology to reclaim valuable time lost in traffic while simultaneously reducing urban pollution. All of these factors make a compelling case for adopting autonomous driving. Even if skepticism remains, consider specific scenarios: transporting an intoxicated driver home safely, rushing a pregnant woman immediately to a hospital delivery room, carrying a mother with crying children without her having to drive, or assisting an elderly person who cannot withstand the glare of oncoming headlights. When we imagine these critical situations resolved successfully, it becomes clear how grateful society would be for this technology.",
+ "n_words": 477,
+ "generated_at": "2026-08-17 22:04:18",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_31",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_31.txt"
+}

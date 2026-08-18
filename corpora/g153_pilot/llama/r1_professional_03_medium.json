@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_03_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5367
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: onboarding notes for a new colleague. Plain prose.",
+ "text": "Subject: Onboarding Notes and Resources for [Colleague's Name]\n\nDear Team,\n\nI am pleased to welcome our newest member, [Colleague's Name], to our team. As we continue to grow and evolve, it is essential that we provide a smooth onboarding experience to ensure their success in their new role.\n\nBelow are some key onboarding notes and resources that will assist [Colleague's Name] as they settle into the organization:\n\n**Key Contacts:**\n\n* Their direct supervisor: [Supervisor's Name], [Supervisor's Email]\n* IT Support: [IT Contact Information]\n* HR Representative: [HR Contact Information]\n\n**Onboarding Process:**\n\n* Review of company policies and procedures\n* Introduction to team members and key stakeholders\n* Familiarization with our organizational structure and workflow\n\n**Important Resources:**\n\n* Company Handbook: available on the intranet site, [Handbook URL]\n* Employee Portal: accessible through [Portal URL], where they can find information on benefits, time-off requests, and performance evaluations.\n* IT Guidelines: found in the knowledge base, [Guidelines URL]\n\n**Next Steps:**\n\n* Schedule a meeting with [Supervisor's Name] to discuss their first week and any questions or concerns\n* Complete all necessary paperwork and forms provided by HR\n\nI would like to extend an invitation for all team members to welcome [Colleague's Name] and offer your support during this transition period. Your participation in making them feel part of our organization is greatly appreciated.\n\nPlease direct any onboarding-related inquiries or questions to me, and I will ensure that they are addressed promptly.\n\nThank you for your collaboration in supporting our new colleague.\n\nBest regards,\n\n[Your Name]\n[Your Title]",
+ "n_words": 254,
+ "generated_at": "2026-08-17 20:52:09",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "onboarding notes for a new colleague",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_03_medium"
+}

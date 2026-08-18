@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_04",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5385
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe idea of having self driving cars may have seemed far away into the future until now. Or is it. The initial reaction would be to love the new, innovative idea. However, every time technology introduces a revolutionary invention, it is always met with vario [...source elided...]",
+ "text": "The notion of self-driving cars was once considered a futuristic concept, but with recent advancements, it's no longer just a dream of the future. While the initial excitement about this innovative technology is understandable, it's essential to examine its drawbacks. The benefits, such as reduced accidents and drunk driving, may seem appealing at first glance, but they're overshadowed by the potential risks.\n\nOne of the primary concerns is the impact on employment. The introduction of self-driving cars would lead to widespread job losses in the transportation sector, affecting not just taxi drivers and bus operators but also auto manufacturers and the gasoline industry. America cannot afford to lose these significant revenue-generating sectors. Moreover, self-driving cars are likely to be prohibitively expensive for the average consumer, with costs estimated at over $100,000 due to complex engineering, software, sensors, and computer requirements.\n\nProponents of self-driving cars argue that they could alleviate transportation problems in cities with inadequate public transit systems. However, this is a flawed assumption, as it would only serve to displace existing public transportation infrastructure, leaving people without affordable options. Ultimately, embracing self-driving cars would be a misguided decision that would harm workers and the economy.\n\nAnother significant risk associated with self-driving cars is their vulnerability to security threats. The integration of computers in vehicles would introduce all the risks inherent in computer systems, including identity theft and data breaches. Personal information stored on these systems could be compromised by hackers, posing both safety and financial hazards.\n\nFurthermore, self-driving cars are only designed to function optimally in perfect conditions, making them prone to technological failures in adverse weather situations or when encountering unexpected obstacles such as road hazards, detours, or accidents. The reliance on GPS technology, which is not foolproof, adds another layer of risk, particularly if the systems provide inaccurate directions that could lead drivers off course.\n\nWhile a utopian society might be able to successfully implement self-driving cars, our current reality is far from it. Only with flawless test results and a complete absence of flaws would there be justification for transforming the automobile industry. Until then, rushing to adopt this technology without addressing its significant shortcomings would be premature. Promises and potential benefits are not enough to justify abandoning traditional transportation systems in favor of unproven technology.",
+ "n_words": 380,
+ "generated_at": "2026-08-17 20:53:59",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_102",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_102.txt"
+}

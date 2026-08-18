@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_03",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5384
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAs technology slowly begins to overtake human development and the economy starts to grow, the need for efficiency is inevitable. With this desire in mind, investors and developers are targeting everyday actions in hopes of eliminating menial tasks. This can b [...source elided...]",
+ "text": "As technology advances at an increasingly rapid pace and economic growth accelerates, the drive for greater efficiency has become unavoidable. Consequently, investors and developers are seeking to automate routine human activities by eliminating mundane chores. We have already witnessed this trend with earlier innovations like robotic vacuum cleaners and automatic dishwashers. Today, however, industry attention is shifting toward automobiles. Given that cars serve as a primary mode of transport across the United States and are utilized daily by millions, there has been significant investment in self-driving vehicles to free up driving time for more productive endeavors. By removing the burden of steering from human hands, these autonomous systems would allow drivers to focus entirely on work or leisure rather than traffic distractions; however, as technology evolves, so too do the associated risks. While automation promises increased societal efficiency, it should not be implemented because specific confounding factors could render society more vulnerable and expose it to heightened security threats.\n\nThe proliferation of advanced technology inevitably empowers those with deep technical knowledge, making widespread integration a double-edged sword regarding cybersecurity. The deployment of self-driving cars would leave the population exposed to malicious actors capable of exploiting system vulnerabilities. Hackers who breach these networks could cause catastrophic chaos on roadways by remotely controlling vehicles and potentially overriding safety features. Beyond physical control, attackers could also snoop into private data stored within car systems, exposing owners' personal information and compounding existing risks associated with driving. Furthermore, while vehicle-to-vehicle communication is a feature of autonomous design, it does not guarantee the prevention of accidents. In scenarios where collisions occur despite automation, assigning liability becomes complex rather than straightforward. The consequences extend beyond physical injury to include potential fraud and theft resulting from compromised systems. Ultimately, although technology aims to simplify life, self-driving cars introduce new layers of danger and confusion that outweigh their benefits.\n\nMoreover, technology is inherently fallible and often fragile; there remains a perpetual risk of malfunctions or unforeseen software errors. For instance, during adverse weather conditions such as heavy rain, fog, or snow, vehicle sensors may malfunction due to interference or debris, leading to erroneous readings that endanger passengers. This reliance on digital infrastructure forces individuals to surrender control over their safety from human hands entirely to algorithms and code\u2014a dangerous proposition given the myriad of unpredictable variables in our world. Despite potential gains in efficiency, the numerous unknowns surrounding these systems suggest that self-driving cars are not yet ready for widespread adoption without addressing critical vulnerabilities first.",
+ "n_words": 417,
+ "generated_at": "2026-08-17 22:00:54",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_101",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_101.txt"
+}

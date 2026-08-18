@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_00_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5321
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a locksmith who keeps one uncut key. Prose only, no headings.",
+ "text": "Elias was the city's keeper of iron and brass, his shop smelling perpetually of oil, rust, and old paper. For thirty years, he had drilled into existence thousands of tumblers, sliced metal to fit specific pins, and turned countless locks open for people who needed a fresh start or simply forgot their keys in the rain. Each cut key was an entry ticket back into a life, a promise that safety could be reconstructed if one only knew where to turn them. Yet tucked behind his workbench, wrapped in velvet against the dust of commerce, sat a single piece of steel: uncut, blank, and heavier than it should have been for so little metal.\n\nIt was never meant for sale; indeed, Elias refused to touch it with any tool but his bare hands when he thought no one could see. To cut this key would be an act of betrayal against the very silence that protected him. He had found it in a gutter years ago, half-buried under leaves near a boarded-up tenement on the edge of town where history seemed to rot faster than memory. It belonged to something he never quite understood\u2014a lock perhaps made before locks were meant for houses or banks but rather for secrets that did not wish to be opened by hand alone.\n\nThere are days when the weight of it is too much, and Elias stares at the sharp edge until his eyes water. He imagines cutting a profile into its surface, matching it against some phantom mechanism hidden in the attic of his own mind. But he does not cut it. The blankness represents a door that remains firmly shut, preserved exactly as fate intended, neither open nor forced wide by human intervention. Sometimes he wonders if keeping this one uncut key is an act of cowardice or perhaps the only true form of courage available to him now. Outside his shop window, thousands of lives pass through hinges and bolts daily; inside, amidst rows of organized chaos, lies a single point of absolute stillness that defies all logic, waiting in the dark for a master who will never arrive.",
+ "n_words": 358,
+ "generated_at": "2026-08-17 21:49:56",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a locksmith who keeps one uncut key",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_00_medium"
+}

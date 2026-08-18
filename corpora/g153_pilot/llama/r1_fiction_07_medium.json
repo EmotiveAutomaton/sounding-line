@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_07_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5335
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a bricklayer building his last wall. Prose only, no headings.",
+ "text": "As he stepped onto the scaffolding, the morning sun crept over the rooftops, casting long shadows across the streets below. John had worked as a bricklayer for nigh on 30 years, but this was to be his final project \u2013 his last wall. The house stood empty, a family having moved out just days before, leaving behind only memories and an unfinished living room.\n\nJohn reached into his apron pocket and produced a small photograph of his wife, Margaret. She had passed away six months prior, and the pain still lingered like a sore tooth. He tucked the photo back in its hiding place and began to lay bricks with practiced ease, his mind drifting back to the countless walls he'd built over the years.\n\nThe mortar between the blocks would set quickly today \u2013 it was a crisp autumn morning, perfect for laying brick. As John worked, the sounds of the city began to awaken: the rumble of buses, chatter from pedestrians, and the distant hum of construction sites. But he tuned them out, his focus solely on this final wall.\n\nA particular block caught his eye, an irregular shape that threatened to disrupt the otherwise seamless pattern. Without hesitation, John removed it and set it aside, a small act of defiance against the unpredictability of life. As he sealed the last joint, the mortar gave off a faint hiss, like the exhalation of a sigh.\n\nJohn stepped back from the wall, surveying his handiwork with pride. The sun was climbing higher now, casting a warm glow across the newly laid bricks. He took one last look before turning to leave \u2013 this, he thought, would be his lasting monument.",
+ "n_words": 281,
+ "generated_at": "2026-08-17 20:48:08",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a bricklayer building his last wall",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_07_medium"
+}

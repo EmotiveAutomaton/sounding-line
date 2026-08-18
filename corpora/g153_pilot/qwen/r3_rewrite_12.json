@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_12",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5393
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf driving cars will be the most innovative technology of the 21st century.I want to eagerly wait in line for these cars. Just think,you get into your car can sightsee.have a martini,or do work at home in your car. What an exciting prospect, These smart car [...source elided...]",
+ "text": "Self-driving vehicles represent the most transformative innovation of the twenty-first century, and I eagerly anticipate joining the waitlist for them. Imagine stepping into your vehicle not just as transportation, but as a mobile living room: you could enjoy scenic drives while sightseeing, relax with a cocktail en route to dinner, or even work remotely from home. This technology promises to revolutionize our commute experience entirely.\n\nOne of the most significant benefits would be the elimination of traffic congestion through \"platooning,\" where autonomous cars maintain optimal speeds and distances without the erratic braking caused by impatient human drivers reacting too late in stop-and-go conditions. We could also bid farewell to excessive ticketing for minor infractions, leading to substantial tax savings that families currently spend on these unfair fines. Furthermore, the insurance industry would undergo a massive shift; if liability falls squarely on software and system errors rather than individual negligence, premiums could drop drastically or become optional in ways we haven't yet imagined.\n\nInstead of drivers hunting desperately for parking spots at shopping centers only to find them full while burning fuel waiting, autonomous fleets would efficiently deliver passengers directly to their destinations upon request. This change might encourage people to take short walks from the car's drop-off point, providing a much-needed boost to public health and exercise routines. While there are certainly technical hurdles to overcome, highly skilled engineers will undoubtedly refine these systems to address any emerging issues over time. Legally speaking, if accidents occur due to mechanical or software failure rather than user error, determining liability would be significantly clearer, eventually simplifying legal processes.\n\nConcerns about job displacement should also be addressed positively; while trucking and driving roles might evolve, there are vast opportunities in sectors like retail, hospitality, and healthcare that could absorb these workers, possibly alongside retraining programs to help them transition into new careers. Additionally, logistics would become dramatically more efficient: goods delivered by autonomous vehicles round-the-clock without fatigue or breaks would drastically reduce costs for consumers and retailers alike. This efficiency supports a greener future by reducing the number of non-essential trucks clogging our roads, thereby lowering emissions significantly.\n\nInitially, self-driving cars may be accessible primarily to those with higher incomes, but as history shows with every major technological breakthrough\u2014such as smartphones or computers\u2014the cost will inevitably decrease until they become affordable for everyone. Mobility would also transform lives for the disabled; individuals who currently rely on overcrowded public transit due to inaccessible buses could easily access medical appointments and social gatherings via autonomous ride-sharing services.\n\nThese intelligent vehicles, guided by sophisticated algorithms, would strictly obey traffic laws including speed limits, stop signs, and red lights\u2014effectively eliminating human error as a cause of accidents. By removing the vast majority of preventable crashes, our court systems would save millions in time and resources spent on unnecessary litigation, meaning fewer people dragged into legal battles over minor disputes or \"ambulance chasing\" lawsuits that plague today's justice system.\n\nThe advantages extend far beyond convenience; constructing the necessary infrastructure for this network will generate countless high-quality jobs across engineering, maintenance, software development, and customer service. Ultimately, self-driving cars promise to save us immeasurable time and money while making transportation safe, equitable, and efficient for all members of society\u2014including those with physical limitations who currently face barriers in mobility. I am ready to wait patiently until the first models roll off production lines so that we can finally experience this future together.",
+ "n_words": 573,
+ "generated_at": "2026-08-17 22:02:15",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_18",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_18.txt"
+}

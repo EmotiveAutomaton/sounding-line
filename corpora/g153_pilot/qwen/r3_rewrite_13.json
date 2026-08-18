@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_13",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5394
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nIn today's age we are always looking for the 'next thing' in terms of technological advancement. Google is one company that continuously strives to answer that call. Recently they have been doing so by researching the technology for and creating self-driving  [...source elided...]",
+ "text": "In our current era, there is an insatiable hunger for technological breakthroughs, with Google standing as a prime example of this relentless pursuit. Lately, they have channeled that drive into developing autonomous vehicles. Although self-driving cars often seem like science fiction plucked from *Back to the Future*, these machines are no longer just concepts; they exist today and are undergoing real-world trials right now.\n\nThe impact on our mobility would be transformative if we adopted this technology en masse. Currently, human error is responsible for roughly 81% of vehicular collisions. A universal shift to autonomous driving could theoretically erase that variable from the equation, leading to a massive drop in accidents. Furthermore, traffic dynamics would evolve significantly. Autonomous systems can monitor their distance from other vehicles and modulate speed or position instantly, potentially optimizing road efficiency and reducing commute times. Perhaps the most compelling benefit is convenience: *The New York Times* notes that these cars could offer independence to people with disabilities, freeing them from reliance on public transit. Additionally, commuters would gain back valuable time during their journeys\u2014the ability to work on a laptop or converse without distraction\u2014since they wouldn't need to focus on steering and braking.\n\nAt this juncture, your reaction might be enthusiastic agreement: \"This sounds perfect; I'm in!\" However, it is wise to pause and reconsider before embracing the technology uncritically. While self-driving cars are wonderful in theory, practical application reveals significant hurdles. Consider a scenario where an intoxicated individual enters their vehicle. Theoretically, this poses no threat because the car drives itself while the passenger remains safe in the back seat, avoiding danger to themselves or others. Yet, complications arise quickly: what happens if the vehicle approaches a malfunctioning traffic light and encounters a police officer directing traffic manually? Autonomous systems lack human judgment and cannot interpret such signals. Unable for an occupant to intervene due to incapacitation from intoxication, the car might blindly speed through the intersection based on sensor data alone, causing an accident. In this instance, is it the drunk driver's fault, the software manufacturer's, or others involved? The liability remains murky, yet the outcome mirrors exactly what would have happened if a drunken person had simply chosen to drive manually.\n\nHumans are fallible; technology is not perfect either. Both possess the capability to operate a vehicle, but neither guarantees absolute safety. While autonomous driving represents an incredible technological achievement with the potential to revolutionize transportation and serve many beneficial purposes, it should remain strictly a tool. It must never replace human agency entirely. We must retain the fundamental ability to take manual control if the technology glitches or fails, ensuring that both we ourselves and others can stay safe when machines are not enough.",
+ "n_words": 453,
+ "generated_at": "2026-08-17 22:02:24",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_19",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_19.txt"
+}

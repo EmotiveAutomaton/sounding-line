@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_22",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5403
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars seem to be a thing of the future, but as reports of self-driving cars on the streets keep coming up in the media, their dawn on society is evident. There are several proponents against the use of self-driving cars, citing issues of increases [...source elided...]",
+ "text": "While autonomous vehicles may currently feel like a futuristic concept, their arrival in everyday life has become undeniable thanks to frequent media coverage of self-driving cars navigating public roads. Although various critics oppose the adoption of this technology\u2014citing concerns over rising fatalities, higher expenses, and complex legal liabilities\u2014the industry continues its push for testing. Ultimately, the advantages offered by autonomous driving appear to significantly outweigh these drawbacks.\n\nThe primary argument against widespread implementation stems from a fear that accidents will become more common without human intervention. Critics worry that computers are prone to errors which could lead to collisions or loss of life. However, dwelling on past incidents involving fatalities in autonomous vehicles often leads to an overly pessimistic outlook. The reality is different: approximately 81% of all vehicle crashes result from human error. Widespread adoption of self-driving technology would effectively eliminate this massive portion of accidents. Consequently, any remaining collisions caused by computer systems are statistically expected to be far fewer and less severe than those resulting from human mistakes.\n\nA second frequent objection concerns the financial burden of integrating advanced hardware such as sensors and sophisticated software into vehicles. It is true that these components will increase the upfront purchase price of cars due to research and development costs. Yet, this perspective often ignores the substantial long-term savings in insurance premiums and healthcare expenses. Since human error causes 81% of crashes\u2014events covered by auto liability policies\u2014a shift to autonomous driving could drastically lower insurance payouts. In fact, with a U.S. Department of Transportation valuation placing the economic cost of a human life at roughly $9.2 million, eliminating driver-caused accidents represents immense savings for both individuals and insurers. Furthermore, autonomy saves money by converting commute time into productive hours; drivers can work or relax without worrying about traffic signals or lane changes, effectively turning travel time into valuable income-generating opportunities.\n\nThe final concern centers on the lack of established legal precedents regarding liability when autonomous vehicles are involved in accidents. Questions about responsibility and compensation will undoubtedly arise as society adopts this technology faster than current laws evolve. However, hesitating to embrace innovation due to fears over undefined legal frameworks would only hinder progress. Stifling technological advancement out of caution prevents us from finding solutions to modern problems. If self-driving cars represent a pathway toward greater safety, efficiency, and economic productivity, it is our collective responsibility as a society to ensure their successful integration rather than delaying them for the sake of theoretical legal complications.",
+ "n_words": 416,
+ "generated_at": "2026-08-17 22:03:42",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_27",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_27.txt"
+}

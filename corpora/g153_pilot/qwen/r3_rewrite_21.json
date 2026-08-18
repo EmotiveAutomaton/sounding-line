@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_21",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5402
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThere has been much discussion on the topic of self driving cars recently. Many people think that having self driving cars on the road would be a bad idea. They worry about things like liability in the case of accidents, and loss of jobs for truck drivers and [...source elided...]",
+ "text": "Lately, autonomous vehicles have sparked intense debate across society. While some individuals argue against integrating these machines into our traffic systems\u2014citing fears regarding liability in collisions and potential job losses for truckers and other automotive workers\u2014the prevailing view here is that self-driving cars represent an inevitable future. The advantages they offer far surpass the drawbacks, promising to uplift communities through broad societal benefits while propelling humanity forward in both scientific innovation and technological advancement.\n\nThe introduction of autonomous driving technology presents numerous opportunities for human progress. A primary example lies in driver distraction, currently one of the most significant contributors to traffic fatalities in the United States. By transferring control to a computer system incapable of losing focus or succumbing to fatigue, accident rates would plummet dramatically. Beyond saving lives, this shift could yield substantial economic gains: current estimates suggest millions are lost annually due to accidents; reducing these incidents would free up funds previously allocated for emergency responses and insurance payouts, allowing those resources to be redirected toward infrastructure improvements and other critical areas. Furthermore, the transition is not as radical a leap as skeptics assume. Many modern vehicles already incorporate foundational autonomous features such as object-detection sensors and automatic braking systems. Building upon this existing groundwork makes the move to full autonomy a logical next step rather than an impossible jump. Clearly, self-driving cars hold immense potential to aid humanity, though current discussions only scratch the surface of their capabilities.\n\nDespite these clear benefits, valid concerns remain among critics. Some worry that drivers may eventually lack the necessary skills to regain control during emergencies or if technical glitches occur. However, straightforward regulatory measures could address this by mandating periodic re-testing for driver competency to ensure readiness when manual intervention is required. Another frequent objection involves trusting a machine with vehicle operation and fearing errors stemming from software bugs. Yet, such fears are unfounded because every unit would undergo rigorous testing before reaching the public. Moreover, human error remains far more dangerous than computational malfunctions; statistically, humans cause significantly more accidents simply through distraction or judgment lapses compared to algorithms executing precise code. While apprehensions about societal impacts exist, autonomous vehicles will ultimately deliver net positive outcomes that outweigh any risks.\n\nAutonomous cars remain a subject of intense scrutiny with polarized opinions on both sides of the debate. Nevertheless, following this exploration of their merits and counterarguments regarding self-driving technology, it is hoped that you now recognize the transformative advantages they offer and find yourself among those supporting their widespread adoption.",
+ "n_words": 422,
+ "generated_at": "2026-08-17 22:03:34",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_26",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_26.txt"
+}

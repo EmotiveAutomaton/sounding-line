@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_03_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5307
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether social media accounts should require age verification. Prose only, no headings.",
+ "text": "The debate over implementing mandatory age verification for social media accounts has intensified as concerns regarding youth safety and data privacy collide with the fundamental principles of digital freedom. While proponents argue that such measures are essential to shield minors from predatory content and harmful algorithms, I contend that compulsory age verification systems pose a greater threat to societal progress by enabling mass surveillance, stifling free expression, and disproportionately affecting marginalized communities.\n\nThe primary motivation for age verification is undoubtedly protective; platforms like X (formerly Twitter) face increasing pressure following tragedies involving youth suicide and cyberbullying. However, the most common proposed method\u2014requiring government-issued identification or third-party apps that scan documents\u2014is a solution laden with severe unintended consequences. These systems do not merely check ages; they create centralized databases of sensitive personal information containing names, birthdates, and sometimes biometric data. In an era where tech giants already harvest excessive user data for profit, mandating age checks would effectively grant private corporations or state actors carte blanche to compile comprehensive dossiers on the entire population. This normalization of digital surveillance erodes privacy norms that have taken decades to build, setting a dangerous precedent where identity documents become standard entry tickets to public discourse rather than specialized tools reserved for legal transactions like banking or voting.\n\nFurthermore, these barriers will inevitably create a two-tiered internet. Strict verification hurdles will likely drive users who value anonymity and free speech off mainstream platforms, pushing them toward encrypted, unregulated alternatives that lack safety features but offer genuine autonomy. This fragmentation does not solve the problem of online harm; it simply shifts the battlefield to spaces where moderation is even more lax. Ultimately, while protecting children from digital predators is a noble goal, achieving this through invasive age gates sacrifices civil liberties for an illusion of security. Instead of policing identity at the gate, resources should be directed toward improving existing platform algorithms and enforcing strict accountability on how content is moderated regardless of user demographics. True safety lies in fostering a transparent environment where adults are held responsible for their actions online, rather than silencing voices through bureaucratic checks that compromise our collective freedom.",
+ "n_words": 358,
+ "generated_at": "2026-08-17 21:47:33",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether social media accounts should require age verification",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_03_medium"
+}

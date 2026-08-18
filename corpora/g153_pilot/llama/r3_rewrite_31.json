@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_31",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5412
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nI marvel at the ingenuity of our scientists and engineers in bringing us so close to the possibility of self-driven vehicles. \n\nFurthermore, I am a free spirit who cherishes her independence, including the freedom to go where she pleases when she pleases, wit [...source elided...]",
+ "text": "The rapid progress made by scientists and engineers in developing self-driving vehicles is a testament to human ingenuity. As someone who values independence and autonomy, I'm particularly drawn to the potential benefits these cars could bring to seniors and people with disabilities who rely on others for transportation.\n\nMoreover, self-driving electric vehicles have the potential to drastically reduce our reliance on fossil fuels, which is crucial for mitigating the effects of climate change. However, despite these advantages, I find myself hesitant to fully endorse self-driven cars at present.\n\nMy reservations stem from a deeper concern about ceding too much control to machines. We're already surrendering many aspects of our lives to computers, and while this has its benefits in areas like data analysis, I worry that we're losing essential skills in the process. Driving is a case in point \u2013 it's not just about navigating roads; it also requires attention, alertness, and social awareness.\n\nThese abilities are crucial in an increasingly individualized world, where people often lack the capacity for collective action or shared responsibility. By outsourcing driving to computers, we risk eroding our ability to navigate complex situations with empathy and compassion.\n\nFurthermore, there's a pressing concern about safety. While computer algorithms have their limitations, human drivers possess a unique capacity for adaptability in unexpected situations. Self-driving vehicles can malfunction due to software glitches, hardware failures, or even hacking \u2013 leaving riders without the resources to respond effectively.\n\nI'm not naive to the dangers posed by drunk or distracted driving, but I believe that humans retain a vital role in navigating dynamic environments. The removal of human agency from the driving process could lead to a kind of \"thralldom\" to machines, where we become helpless and reliant on technology rather than our own abilities.\n\nIn an era where we're increasingly dependent on computers for even the most mundane tasks, I worry that this trend will leave us feeling diminished as humans. By preserving our capacity for agency and self-reliance, we can cultivate virtues like compassion and empathy \u2013 essential qualities that are in danger of being lost in a world dominated by machines.",
+ "n_words": 354,
+ "generated_at": "2026-08-17 20:56:43",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_36",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_36.txt"
+}

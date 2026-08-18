@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_06_long",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5354
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: how noise-cancelling headphones work. Prose only, no headings or lists.",
+ "text": "Noise-cancelling technology has revolutionized the way we listen to audio by effectively silencing the chaotic world around us, turning noisy commutes and bustling offices into pockets of serene focus. At its core, this magic is not achieved through a complex mechanical barrier alone, but rather through a sophisticated interplay of electronics and physics that harnesses the principle known as destructive interference. To understand how these headphones achieve such auditory clarity, one must first appreciate the nature of sound itself: it travels as pressure waves moving through the air, constantly bouncing off surfaces until they reach our ears. In an uncontrolled environment like an airplane cabin or a busy street, thousands of random external sounds\u2014engine roars, chatter, and wind\u2014all combine to create what engineers refer to as ambient noise. This unwanted audio landscape is overwhelming and difficult for the human brain to filter out completely because it lacks consistent patterns that our ears naturally ignore.\n\nWhen you put on active noise-cancelling headphones, a tiny microphone located on the outside of each earcup immediately begins scanning this external soundscape. These microphones are highly sensitive and capture even the faintest whispers or low-frequency rumbles before they can disturb your concentration. Once these external sound waves are digitized by the microphone, they are sent to an onboard processor that acts as a very fast and intelligent mathematical engine. This chip analyzes the incoming audio signal in milliseconds, determining its specific frequency, amplitude, and phase. Crucially, it then generates a new, artificial electrical signal designed to be the exact opposite of what was just heard outside. In physics terms, this is an \"anti-noise\" wave that matches the original sound wave's volume but possesses precisely inverted polarity, meaning where the original wave pushes air molecules together (compression), the anti-wave pulls them apart equally hard (rarefaction).\n\nThis generation process relies on a technique called destructive interference. When two waves of identical frequency and amplitude meet perfectly out of phase\u2014meaning they are exactly 180 degrees opposite\u2014they cancel each other out completely, resulting in zero net sound pressure at that specific point in space. The processor calculates the precise inverse waveform for every fraction of a second because ambient noise is never static; it changes constantly as you move or as wind patterns shift. By updating this anti-noise signal hundreds of times per second, often up to 100 updates each millisecond, the headphones maintain a dynamic shield against low-frequency sounds like airplane engines, air conditioners, and distant traffic. These frequencies are particularly easy for active noise cancellation to handle because they tend to be more uniform in their wave pattern compared to sharp, sudden noises like clattering dishes or someone snapping fingers nearby.\n\nHowever, achieving perfect silence is an ongoing challenge due to the physical limitations of human anatomy. The headphones must also deal with sound that leaks directly into your ear canal from any gap between the cushion and your skin, known as passive leakage. Furthermore, sounds generated inside your own head, such as chewing or breathing, cannot be cancelled because there are no microphones positioned behind your eardrums to detect them; these internal noises must instead rely on high-quality insulation materials like memory foam to block passively. Additionally, the rapid-fire nature of anti-noise generation introduces a potential latency issue where sound waves change faster than the electronics can react, which is why current technology struggles more with mid-range and high-frequency sounds above 1000 Hertz. These higher frequencies are typically handled by passive isolation provided by the physical design of the earcups rather than electronic cancellation, as generating an anti-wave fast enough to keep up with a sudden crash or scream requires processing speeds that exceed current miniaturized chip capabilities in consumer electronics.\n\nDespite these hurdles, the result is profoundly effective for daily use. The combination of active noise cancelling and passive isolation allows users to engage deeply with their music, podcasts, and calls without being distracted by the environment. As technology advances, newer algorithms now include wind-noise reduction filters that analyze turbulent air currents specifically generated when walking outside or riding in an open vehicle, further refining the listening experience. The evolution from bulky airplane units worn around the neck of early adopters to sleek modern designs integrated seamlessly into our daily lives demonstrates a remarkable convergence of acoustics and digital signal processing. Ultimately, noise-cancelling headphones do not create silence; they subtract the world's constant din by playing back the mathematical opposite of it in real-time, allowing your ears to hear only what matters most while digitally erasing everything else that stands in the way.",
+ "n_words": 758,
+ "generated_at": "2026-08-17 21:55:54",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how noise-cancelling headphones work",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_06_long"
+}

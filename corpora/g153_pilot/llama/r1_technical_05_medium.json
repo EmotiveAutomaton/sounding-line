@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_05_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5351
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: why the sky is blue. Prose only, no headings or lists.",
+ "text": "The sky appears blue to our eyes because of the way that light interacts with tiny particles in the Earth's atmosphere. This phenomenon is known as Rayleigh scattering, named after the British physicist Lord Rayleigh who first described it in the late 19th century.\n\nWhen sunlight enters the Earth's atmosphere, it consists of a broad spectrum of colors - all the different wavelengths of visible light that our eyes can perceive. As this light travels through the air, it encounters tiny molecules of gases such as nitrogen and oxygen. These particles are much smaller than the wavelength of light itself, so they scatter the shorter (blue) wavelengths more than the longer (red) wavelengths.\n\nThis scattering effect is not limited to the atmosphere alone - it's a fundamental property of how particles interact with light. But in the case of the Earth's atmosphere, the blue light is scattered in all directions by the tiny gas molecules, while the red light continues on its path relatively unimpeded. As a result, when we look up at the sky during the day, what we see is predominantly blue light that has been scattered from the direct sunlight.\n\nAt sunrise and sunset, the sky can take on hues of red and orange because the sun's rays are passing through more of the Earth's atmosphere to reach our eyes. This longer path allows even more scattering of shorter wavelengths, so the colors that make it to our eyes are biased towards the longer wavelengths - hence the warm tones we see during these times.\n\nThe color of the sky is not just a matter of aesthetics, though - it's also an important diagnostic tool for scientists studying the Earth's atmosphere and climate. By analyzing the way that different wavelengths of light interact with gases in the air, researchers can gain insights into conditions such as pollution levels, dust storms, and even volcanic eruptions.",
+ "n_words": 317,
+ "generated_at": "2026-08-17 20:50:15",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "why the sky is blue",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_05_medium"
+}

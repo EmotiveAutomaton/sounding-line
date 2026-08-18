@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_05",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5386
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nWith the advent of self driving car technology, as with any new invention, people debate its positives and its negatives. They can make the roads safer, make traffic less congestive, save people time, free up police, and have a multitude of other benefits, bu [...source elided...]",
+ "text": "The emergence of self-driving car technology has sparked a lively debate about its merits and drawbacks. On one hand, these vehicles have the potential to significantly improve road safety, reduce congestion, and increase productivity. By eliminating human error - which accounts for 81% of accidents - they can potentially save over 27,000 lives annually. Moreover, self-driving cars don't get distracted or impaired, making them a more reliable option than human drivers.\n\nThe benefits extend beyond individual safety, too. With reduced traffic congestion and improved traffic flow, police resources can be allocated to other pressing concerns. The rise of autonomous vehicles also enables passengers to work or engage in leisure activities during their commute, freeing up time for more productive pursuits. Furthermore, the seamless communication between self-driving cars can optimize traffic patterns, reducing travel times and making our society more efficient.\n\nHowever, some critics argue that self-driving cars are susceptible to hacking and may not perform well in adverse weather conditions - concerns that will undoubtedly be addressed as technology advances. They also claim that these vehicles are too expensive for widespread adoption, but this is a temporary issue that will dissipate as the industry scales up production and economies of scale kick in.\n\nOthers worry about the impact on certain industries, such as gas stations or driving schools. But we should consider whether these concerns justify hindering progress and benefiting society at large. We have previously confronted similar dilemmas - for instance, when we shifted from manual to automatic vehicles. The benefits of self-driving cars far outweigh the drawbacks, and I firmly believe that this technology will revolutionize transportation in ways both practical and profound.\n\nIn my opinion, the advantages of self-driving cars make them a groundbreaking innovation worthy of support. Their widespread adoption may take time, but I am confident that it is an essential step towards creating a more efficient, safer, and more productive society - one where people can travel freely without worrying about traffic congestion or safety concerns.",
+ "n_words": 332,
+ "generated_at": "2026-08-17 20:54:05",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_103",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_103.txt"
+}

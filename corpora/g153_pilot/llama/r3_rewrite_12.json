@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_12",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5393
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf driving cars will be the most innovative technology of the 21st century.I want to eagerly wait in line for these cars. Just think,you get into your car can sightsee.have a martini,or do work at home in your car. What an exciting prospect, These smart car [...source elided...]",
+ "text": "The advent of self-driving cars promises to revolutionize the 21st century with unprecedented innovation. The prospect of jumping into one's vehicle to enjoy scenic views, savor a martini, or tackle work assignments while on the go is undeniably thrilling. \n\nOne of the most significant advantages of these intelligent vehicles will be their ability to mitigate traffic congestion through platooning - maintaining a steady speed even in heavy traffic. No longer will drivers succumb to frustration and speed recklessly, exacerbating gridlock. Moreover, the absence of human error behind the wheel means an end to frivolous citations issued by law enforcement officers, resulting in substantial tax savings.\n\nThe elimination of car insurance premiums will also bring welcome relief to vehicle owners. And with the potential for self-driving cars to drop passengers off at their destinations, the need for close parking spaces near shopping centers may diminish, prompting a welcome increase in pedestrian activity and physical exercise.\n\nOf course, there are technical hurdles to overcome, but the expertise of engineers working on these vehicles will undoubtedly address any quirks or disadvantages. In cases of accidents, liability would eventually be clarified under existing laws. Regarding job displacement, those formerly employed in transportation sectors may find alternative work in retail, fast food, or healthcare industries, or they might opt for retraining programs.\n\nThe reduced need for human drivers means lower costs, making goods more affordable and allowing a self-driving car to run continuously for 24 hours without fatigue. As with any technology, initial costs will inevitably drop, enabling even the most budget-constrained consumers to access these vehicles. People with mobility impairments will also benefit from the freedom to travel independently.\n\nAdditionally, reduced traffic congestion and fewer accidents imply significant savings for law enforcement and the court system. No longer would courts be burdened by cases related to reckless driving or speeding, freeing up time and resources for more pressing issues. The notion of a court clogged with cases sparked by self-driving car incidents is also highly unlikely.\n\nIn fact, numerous experts predict that the infrastructure required for these vehicles will generate millions of high-paying jobs and create an accessible transportation solution for everyone. With this innovation on the horizon, I am eager to be among the first in line when self-driving cars become available.\n\nNote: I made some minor changes to make the text flow better, but preserved its original meaning and structure.",
+ "n_words": 398,
+ "generated_at": "2026-08-17 20:54:47",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_18",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_18.txt"
+}

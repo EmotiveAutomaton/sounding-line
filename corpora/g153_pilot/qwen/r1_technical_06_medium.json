@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_06_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5353
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how noise-cancelling headphones work. Prose only, no headings or lists.",
+ "text": "Noise-cancelling headphones operate on a sophisticated principle known as active noise control, which fundamentally differs from standard soundproofing by addressing unwanted audio waves electronically rather than merely blocking them physically. At the heart of this technology lies an onboard microphone system designed to listen for incoming environmental sounds before they can disrupt your listening experience. Once these external noises are detected, such as the low-frequency rumble of an airplane engine or the distant hum of traffic, a dedicated processor instantly analyzes their frequency and amplitude. This analysis happens at incredible speeds, allowing the device to generate an opposing sound wave known as anti-noise. The creation of this inverse waveform is based on the physics of destructive interference, where two waves meeting exactly out of phase cancel each other out mathematically, resulting in a momentary silence or significantly reduced volume for that specific frequency band.\n\nWhile passive isolation provided by physical barriers like memory foam ear cups handles high-pitched sounds effectively, active noise cancellation excels primarily with consistent, low-frequency noises because these are easier to predict and neutralize electronically. The system continuously adjusts the anti-noise signal in real-time as your environment changes, ensuring that the cancelling effect remains effective even when you move or turn your head. It is important to note, however, that this technology has limitations regarding sudden, unpredictable sounds like a crying baby or screeching brakes; these transient noises occur too quickly for the processors and speakers to generate an accurate counter-wave instantly, so they may still be heard through regular playback channels rather than being cancelled out completely. Modern implementations often combine both active electronics and passive insulation strategies to create a seamless auditory environment where music sounds clearer because the background clutter has been digitally scrubbed away from the audio signal before it reaches your ears, offering a level of immersion that simple earplugs cannot achieve alone.",
+ "n_words": 311,
+ "generated_at": "2026-08-17 21:55:40",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how noise-cancelling headphones work",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_06_medium"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_09",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5390
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving vehicles pose many advantages and disadvantages. Among the advantages I appreciate most  is the one I find most highly significant --that this technology affords opportunities for commanding automobile transportation  to individuals who otherwise [...source elided...]",
+ "text": "The advent of self-driving vehicles has sparked both excitement and concern about its potential impact on society. One of the most significant benefits I see is that this technology can provide mobility to individuals who may be unable to drive due to physical, mental, or emotional limitations. This includes people with disabilities, as well as older adults, whose ability to navigate complex driving situations may be compromised.\n\nSelf-driving cars also offer a unique advantage in terms of navigation and emergency response. With the aid of advanced sensors and AI-powered systems, these vehicles can detect potential hazards on the road and respond accordingly. For example, they can automatically apply the brakes to avoid collisions or maintain safe distances from other vehicles.\n\nParking is another area where self-driving cars excel. As urban spaces become increasingly crowded, finding a parking spot can be stressful and time-consuming. With the computer in charge, drivers can sit back and relax while the car expertly navigates tight spaces.\n\nHowever, I remain uneasy about surrendering control of my vehicle to a machine. While self-driving cars are designed to minimize errors, there is still a risk of malfunction or hacking, which could put not only myself but also other road users at risk. This concern is rooted in my personal experience watching the movie \"2001: A Space Odyssey,\" where an advanced computer system named HAL becomes malevolent when its creators question its reliability.\n\nThe safety of self-driving cars will depend on numerous factors, including the robustness of their systems and the effectiveness of security measures against hacking and cyber threats. Nevertheless, I believe it is crucial to acknowledge these risks and ensure that we prioritize human oversight and intervention in case something goes wrong. As we continue to develop this technology, we must be mindful of its potential consequences and strive for a balance between innovation and safety.",
+ "n_words": 309,
+ "generated_at": "2026-08-17 20:54:30",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_15",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_15.txt"
+}

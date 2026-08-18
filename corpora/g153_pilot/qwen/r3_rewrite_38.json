@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_38",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5419
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nOn the night of my roommate\u2019s twenty first birthday, a group of her friends swerved on a windy and slippery road into a tree and were profoundly injured while on the way to meet us to celebrate.\n\nThere are many factors that influence our decisions when drivin [...source elided...]",
+ "text": "The night before my roommate's twenty-first birthday turned into a disaster: her friends navigated a treacherous, windy stretch of pavement only to lose control, strike a tree, and suffer severe injuries en route to our celebration. This tragic incident highlights just one example among countless others where poor choices behind the wheel lead to catastrophe. Decisions made while driving are influenced by a complex array of factors\u2014ranging from fatigue accumulated over previous nights and scattered mental focus to the tempting presence of alcohol when judgment is compromised. Given how frequently such tragedies occur, an urgent question arises: what steps can we take to make our roads safer for everyone?\n\nStatistics reveal that eighty-one percent of vehicle collisions stem directly from human error, which has prompted many to advocate for computer-operated vehicles as a viable solution. Articles often point out that machines do not suffer from distractions in the way humans do; however, relying entirely on this assumption is questionable. Like people, computers are susceptible to errors and malfunctions. Furthermore, even if autonomous vehicles can be programmed to behave more defensively and courteously than average drivers, they cannot completely eradicate the risk of accidents. Several critical variables must be weighed when considering personal reliance on self-driving technology: adverse weather conditions, interactions with human-driven traditional cars, and the potential for unauthorized or inexperienced individuals\u2014such as children\u2014to somehow gain control. In emergency scenarios where a malfunction occurs, passengers inside an autonomous vehicle might lack the necessary knowledge or training to react appropriately and safely regain manual control if needed.\n\nNevertheless, one compelling argument in favor of self-driving vehicles is their capacity to assist people with disabilities who currently depend on public transit for mobility. Implementing such technology would significantly expand access to various destinations for those unable to drive themselves. Additionally, these electric autonomous cars offer environmental advantages by eliminating the need for gasoline, which would simultaneously lower operating costs and reduce carbon emissions, benefiting both users and the planet.\n\nDespite these promising innovations, I remain cautious about adopting automatic driving systems and have no intention of purchasing one personally. For me, there is an inherent joy and sense of calm derived from being behind the wheel, a sentiment that likely resonates with many others. That said, regardless of technological advancements or personal preferences, every individual bears the responsibility to make informed decisions while operating a vehicle, ensuring their own safety as well as protecting fellow road users.",
+ "n_words": 405,
+ "generated_at": "2026-08-17 22:06:04",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_42",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_42.txt"
+}

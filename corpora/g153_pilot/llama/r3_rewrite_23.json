@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_23",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5404
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nUp with Self-Driving Cars and Down with Gasoline Industry\n     Self-driving cars will eliminate many accidents and the gasoline industry which causes too much pollution and whose time has run out. The computer running the car won\u2019t be distracted like humans.  [...source elided...]",
+ "text": "The rise of self-driving cars is a game-changer for road safety and our environment. Not only do human errors account for 94% of traffic accidents, but also the distractions that plague drivers behind the wheel are a major contributor to these incidents. Whether it's texting, talking, eating, or simply being preoccupied, humans often lose focus on the road, putting themselves and others at risk.\n\nSelf-driving cars, on the other hand, will eliminate many of these preventable accidents. Equipped with advanced technology and algorithms, they can respond quickly and accurately to changing situations, reducing the likelihood of collisions caused by distracted driving. This innovation has the potential to significantly reduce traffic fatalities and injuries.\n\nBut the benefits don't stop there. Self-driving cars are likely to be electric vehicles (EVs), which offer a cleaner alternative to traditional gas-powered cars. EVs produce less pollution, require less maintenance, and are more energy-efficient than their gasoline counterparts. In fact, studies show that EVs can reduce greenhouse gas emissions by up to 70% compared to gas-guzzlers.\n\nFurthermore, the shift towards electric transportation has significant environmental benefits. Gasoline is a major source of air pollution, contributing to respiratory problems, cancer-causing chemicals like benzene, and other health issues. As our reliance on fossil fuels dwindles, it's time to phase out the gasoline industry and transition to cleaner, more efficient technologies.\n\nSome might worry about job losses in the gas industry, but history shows that progress often requires adaptation. When we switched from horse-drawn carriages to cars, we didn't let concerns about jobs dictate our path forward. Similarly, those working in gas garages can be retrained or repurposed to work on electric vehicles or other emerging technologies.\n\nIn conclusion, the emergence of self-driving cars and electric transportation is a critical step towards reducing traffic accidents, pollution, and our reliance on fossil fuels. By embracing this innovation, we can create a safer, cleaner, and more sustainable transportation system for future generations.",
+ "n_words": 321,
+ "generated_at": "2026-08-17 20:55:53",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_28",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_28.txt"
+}

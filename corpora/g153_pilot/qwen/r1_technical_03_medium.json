@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_03_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5347
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: what a database index does. Prose only, no headings or lists.",
+ "text": "Imagine walking through a vast library containing millions of books to find a specific title written by an author with a very uncommon name. If you were forced to walk down every single aisle and check the spine of every book on every shelf one by one, it would take hours or even days depending on the size of the collection. This exhaustive search method is analogous to how computers scan data without optimization; they must read through entire tables row by row until they find what they need, a process known as a full table scan. While this works for tiny datasets found in small spreadsheets, it becomes incredibly slow and resource-intensive when dealing with massive volumes of information like those held by online banking systems or social media platforms where fractions of a second matter to the user experience.\n\nTo solve this efficiency problem, database engineers utilize structures called indexes. An index functions much like the subject index printed at the back of a large textbook or the alphabetical card catalog found in older libraries. Instead of forcing you to read every book on the shelves, these tools provide a separate reference map that lists exactly where specific information is stored within the larger dataset. When a database query asks for records matching a particular condition, such as finding all accounts owned by \"Smith,\" the system consults this pre-built index first. The index allows the computer to jump directly to the precise location of those rows in memory or storage rather than scanning everything sequentially. This mechanism relies on highly optimized mathematical structures like B-trees or hash tables that keep data sorted and organized, enabling rapid lookup times regardless of how large the underlying table grows.\n\nHowever, this speed comes with a trade-off. Every time new data is added to the database, such as creating a new user account or updating an existing balance, the system must also update all relevant indexes to maintain their accuracy. This maintenance overhead means that heavy write operations can slow down slightly because the computer has multiple tasks to perform simultaneously: writing the actual data and rewriting the index structures. Despite this cost, for most read-heavy applications where users frequently search and filter information, the dramatic reduction in query time far outweighs the slight penalty during updates. Ultimately, an index acts as a crucial navigation tool that transforms database operations from linear searches into instant lookups, ensuring that even billions of rows of data can be retrieved with remarkable speed.",
+ "n_words": 418,
+ "generated_at": "2026-08-17 21:54:38",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "what a database index does",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_03_medium"
+}

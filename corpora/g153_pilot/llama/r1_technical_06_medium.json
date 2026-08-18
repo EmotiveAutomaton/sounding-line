@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_06_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5353
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how noise-cancelling headphones work. Prose only, no headings or lists.",
+ "text": "Noise-cancelling headphones use a technology called active noise control to block out unwanted sounds. The process starts with tiny microphones embedded in the headphones that pick up ambient noise and send it to an electronic circuit inside the earcup. This circuit compares the sound of the outside world to a \"cancelled\" sound, essentially its opposite, and then generates a new sound that's equal in amplitude but 180 degrees out of phase.\n\nThis opposing sound is fed back into the headphones' speakers, where it combines with the original noise to cancel it out. The result is a quieter listening experience, as if you're not even hearing the outside world. This technique relies on the principle that when two identical sounds are played at the same time but one is inverted, they completely cancel each other out.\n\nThe cancellation process works best for constant, low-frequency noises like engine rumble or airplane hum, where it can be highly effective in eliminating up to 90% of the sound. For higher-pitched noises and sudden bursts of sound, like a siren or construction noise, active noise control may have less impact, but even then, it can still make a noticeable difference.\n\nAnother important aspect is that noise-cancelling headphones need power to function - usually drawn from a battery or, in some cases, through the audio source itself. This means they can become less effective over time as the batteries drain or if there's interference from other devices. Nonetheless, their advanced electronics and sophisticated sound processing make them stand out among standard headphones for those seeking better focus and improved listening experiences.",
+ "n_words": 265,
+ "generated_at": "2026-08-17 20:50:31",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how noise-cancelling headphones work",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_06_medium"
+}

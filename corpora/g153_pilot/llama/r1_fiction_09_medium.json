@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_09_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5339
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a bell that rings a day early. Prose only, no headings.",
+ "text": "In the quiet hours before dawn, when shadows still clung to the edges of things, the church bell stirred to life. It was a sound out of rhythm, a discordant note in the symphony of morning routines and daily expectations. The bell's ringing echoed through the deserted streets, its metallic voice proclaiming an event yet to come: Sunday.\n\nIn a world governed by schedules and calendars, where time itself was a strict taskmaster, this premature tolling felt like an affront. It shattered the illusion that even the tiniest fragments of existence were neatly compartmentalized within predetermined parameters. The bell's ringing spoke of irregularities and mishaps waiting in the wings, ready to upend carefully laid plans.\n\nAs people emerged from their homes, bleary-eyed and confused, they exchanged bewildered glances, unsure what to make of this early call to worship. Some shrugged it off as a prank or a mistake, while others stood transfixed by the bell's unwavering insistence that Sunday had already arrived.\n\nTheir faces reflected the chaos brewing within: fear of being out of sync with the world; anxiety about missed opportunities and forgotten responsibilities; or perhaps, a glimmer of liberation from the strictures that bound them to schedules and deadlines. Whatever their emotions, one thing was certain \u2013 nothing would ever be the same again. The bell's premature ringing had unraveled the fabric of time, revealing the hidden threads of chaos and unpredictability that lurked beneath the surface of their carefully constructed lives.\n\nAs the sun rose over the city, casting its warm light on the bewildered faces, it became clear: no one was prepared for this sudden shift in tempo. But some whispered, hushed voices carrying on the wind, that perhaps it was time to stop trying to keep pace with a world that ran on arbitrary rhythms and instead learn to dance with the bells' errant song.",
+ "n_words": 310,
+ "generated_at": "2026-08-17 20:48:42",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a bell that rings a day early",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_09_medium"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_08",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5389
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nIt seems that cars have always been the same: four wheels, a body, a steering wheel. They are ridiculously simple! Compare to the history of bicycles for example. If you happen to have seen those old black and white photographs of early bicycles, you will see [...source elided...]",
+ "text": "The world of transportation has long been dominated by a simple, static concept: four wheels, a body, and a steering wheel. This straightforward design has remained largely unchanged over the years. In contrast, the history of bicycles is marked by a complex evolution, with innovations and improvements emerging at a rapid pace.\n\nHowever, a revolution is brewing on the horizon that promises to shake up the automotive industry in fundamental ways. The advent of self-driving cars is already sparking heated debates about their benefits and drawbacks. Proponents argue that autonomous vehicles will save countless lives by eliminating human error, such as distracted driving or reckless behavior under the influence of substances. They also claim that coordinated traffic flow will reduce congestion and travel times, while enabling more efficient use of road space.\n\nMoreover, self-driving cars could have a profoundly positive impact on society by providing mobility to the disabled and elderly. As autonomous vehicles become more widespread, proponents suggest that safety, fuel efficiency, and congestion will all improve dramatically. They envision a future where cities are optimized for traffic flow, with reduced need for policing and infrastructure.\n\nBut opponents of self-driving cars raise legitimate concerns about the technology's limitations. While some criticisms are trivial or easily dismissed (e.g., the prospect of human drivers becoming stranded in case of a breakdown), others pose genuine challenges. For example, how will autonomous vehicles perform in adverse weather conditions or on poorly maintained roads? However, the developers of self-driving technology argue that these issues are being addressed through continuous improvement.\n\nBeyond these surface-level concerns lies a deeper problem: the security risks associated with interconnected software and data transmission between cars. If hackers were to exploit vulnerabilities in this system, the consequences could be catastrophic. Ensuring robust cybersecurity while maintaining affordability is a significant challenge.\n\nA more profound obstacle facing self-driving cars is their potential impact on society. The benefits listed above assume that a critical mass of autonomous vehicles will be adopted. However, if only a small percentage of cars on the road are self-driving, the advantages may not materialize. It's ironic that those who follow traffic rules most closely may even become the source of frustration and danger for others.\n\nGiven the high cost and public resistance to change, it seems unlikely that self-driving cars will soon become mainstream. For now, they will likely remain a niche concept, sparking imagination and debate but not driving widespread adoption. We are simply not yet ready to integrate autonomous vehicles into our transportation infrastructure on a large scale.",
+ "n_words": 422,
+ "generated_at": "2026-08-17 20:54:25",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_14",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_14.txt"
+}

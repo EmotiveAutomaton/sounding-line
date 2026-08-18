@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_04_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5329
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: two strangers repainting the same fence. Prose only, no headings.",
+ "text": "They stood on opposite sides of the fence, each holding a paintbrush like it was an extension of their own hand. The morning sun cast long shadows across the lawn, making it seem as though they were separated by twice the distance between them.\n\nAs he began to apply the first coat of blue, she hesitated, her brush hovering above the pickets. He glanced over, catching a glimpse of the uncertainty etched on her face. A strand of hair had escaped her ponytail and now danced in the breeze like a rebellious spirit.\n\nShe looked up, caught him staring, and their eyes met for an instant before she turned back to the fence. He felt a strange pang, as though he'd stumbled into a conversation mid-sentence without knowing the context. The silence between them grew thick with unspoken words.\n\nHe painted in steady strokes, his mind wandering through the day's possibilities \u2013 would it rain tomorrow? Would he have time for lunch? \u2013 while she worked in hesitant dabs, as though trying to recall a forgotten recipe. Their brushstrokes seemed to be the only sounds they shared: scratches and swishes that blended together like the murmur of running water.\n\nTime lost all meaning as they painted side by side, their faces set against the brightness of the day. The fence began to take shape beneath their coats of blue, but it was almost as though the colors were bleeding into each other, blending into a haze of uncertainty rather than a clear distinction between them and everything else.",
+ "n_words": 258,
+ "generated_at": "2026-08-17 20:47:22",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "two strangers repainting the same fence",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_04_medium"
+}

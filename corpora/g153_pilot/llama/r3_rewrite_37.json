@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_37",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5418
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe day someone learns how to drive is a turning point in their lives and the lives of their family members. The new driver has a freshly established sense of independence and their family members no longer have to carpool them to wherever they need to go. Ho [...source elided...]",
+ "text": "The moment a person learns how to drive marks a significant turning point in their life and the lives of those around them. With newfound independence comes a shift in responsibility, as well as potential risks on the road. Amidst these concerns, self-driving cars are emerging as a seemingly promising solution. However, their impact may be more negative than positive, owing to several factors.\n\nAcquiring the skills to operate a vehicle can be a lengthy and arduous process, requiring extensive training and a substantial amount of practice hours. Adding further education requirements for self-driving cars would be impractical, especially considering the disparity in technological aptitude among different age groups. Younger generations may find it effortless to grasp the complexities of self-driving technology, but older adults and elderly individuals might struggle, rendering these vehicles inaccessible to them. If an individual is still required to operate a self-driving car, then what's the point of having this innovation in the first place?\n\nEven if every American were to adopt self-driving cars, the benefits would likely be diminished by widespread non-compliance. The potential drawbacks include not only the initial cost but also the necessity for extensive training and adaptation. Furthermore, the integration of self-driving cars with regular vehicles on the road could lead to confusion and safety issues.\n\nWhile technology has advanced significantly, human emotion and rational thinking are essential components in driving. Decision-making and reaction time are critical factors that self-driving cars cannot replicate. Moreover, relying solely on a robotic system for transportation might be too great a leap of faith. The absence of human input, particularly in situations requiring adaptability and quick response, poses a significant risk.\n\nIn summary, while the concept of self-driving cars has its appeal, their practicality and feasibility raise serious concerns. The education required to operate these vehicles, combined with the need for widespread compliance among Americans, makes it unlikely that they will become the standard on our roads anytime soon.",
+ "n_words": 323,
+ "generated_at": "2026-08-17 20:57:16",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_41",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_41.txt"
+}

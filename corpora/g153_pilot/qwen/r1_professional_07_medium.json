@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_07_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5375
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: proposing a change to the on-call rotation. Plain prose.",
+ "text": "Subject: Proposal for Adjusting Our On-Call Rotation Schedule\n\nDear Team,\n\nI am writing to propose a thoughtful adjustment to our current on-call rotation schedule following recent observations regarding team sustainability and response efficiency. While our existing roster has functioned adequately in the past, the increasing frequency of critical incidents late at night over the last quarter suggests that we may need to restructure how responsibilities are distributed.\n\nThe primary issue lies with the \"swing\" shifts, which currently span from 7:00 PM to 8:00 AM without any dedicated breaks. This continuous stretch is causing documented fatigue among team members, leading to slower reaction times during peak incident windows and, in some cases, burnout that affects daytime performance as well. Furthermore, our current grouping forces two senior engineers onto the same weekend shift twice a month, leaving other critical systems less covered by experienced eyes when those individuals are unavailable for support calls from their home offices.\n\nI propose implementing a modified rotation model with three key changes. First, we should introduce mandatory rest periods within overnight shifts to ensure anyone waking up is alert enough to handle complex escalations immediately upon arrival in the morning. Second, I suggest staggering our weekends so that no more than one senior engineer covers any given weekend, balancing workload and ensuring diverse perspectives are available for troubleshooting. Third, let us consider rotating through specific \"heavy incident\" periods evenly rather than clustering them on a single night or week.\n\nAdopting this structure will not only improve individual well-being but also enhance our overall system reliability by keeping the team fresher when it matters most. I believe these changes represent a proactive step toward building a more resilient and supportive engineering culture. I would appreciate your thoughts on this proposal during tomorrow's stand-up meeting, where we can discuss potential implementation timelines and any concerns you might have regarding resource allocation or coverage gaps during the transition period.\n\nThank you for considering this suggestion to ensure our long-term operational success.",
+ "n_words": 332,
+ "generated_at": "2026-08-17 21:59:36",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "proposing a change to the on-call rotation",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_07_medium"
+}

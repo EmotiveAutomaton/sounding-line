@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_19",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5400
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAs with the advent and introduction of any new technology, there are pros and cons that arise with the implementation of that technology. This is also true with autonomous, or self-driving, cars. With the testing of self-driving cars currently happening in se [...source elided...]",
+ "text": "The advent of autonomous vehicles has sparked a heated debate about their benefits and drawbacks. As cities across the United States test self-driving cars, concerns about their safety have come to the forefront. However, some argue that these vehicles could revolutionize transportation by reducing accidents caused by human error.\n\nOne of the primary advantages of self-driving cars is their potential to significantly reduce accidents on the road. While mechanical failures contribute to a small percentage of crashes, most are caused by distracted or impaired drivers. Computers, which can process information more efficiently and make decisions based on algorithms, would be less prone to making mistakes. Furthermore, self-driving cars could optimize traffic flow, allowing for more efficient use of roads and reduced commute times.\n\nIn addition to improved safety, autonomous vehicles have the potential to bring numerous benefits, including increased accessibility for people with disabilities and reduced congestion in urban areas. With self-driving cars, drivers would no longer need to worry about parking or navigating complex routes, freeing up time for other activities. Moreover, police officers could focus on more pressing matters, while manufacturers and tech companies would create new job opportunities.\n\nHowever, there are also concerns that need to be addressed. The high cost of implementing autonomous technology may deter many consumers from adopting it, potentially displacing workers in the transportation industry. Additionally, the widespread adoption of electric cars powered by computers could disrupt the gas industry, leading to economic strain. As reliance on technology grows, industries like driving education, insurance, and registration services may also be impacted.\n\nOther challenges associated with autonomous vehicles include the limitations of their sensors and algorithms. For instance, self-driving cars may struggle to detect road closures or interpret human hand signals. Extreme weather conditions could also damage sensors, while cybersecurity threats are a constant concern. What happens when technology fails, leaving passengers stranded or unable to navigate complex situations?\n\nDespite these challenges, society appears to be moving towards embracing autonomous vehicles. While there are valid concerns about the impact on employment and infrastructure, the benefits of increased safety, accessibility, and environmental sustainability make self-driving cars an attractive proposition. Ultimately, it is likely that the integration of autonomous technology will require a phased approach, with gradual implementation and adaptation over time.",
+ "n_words": 376,
+ "generated_at": "2026-08-17 20:55:31",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_24",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_24.txt"
+}

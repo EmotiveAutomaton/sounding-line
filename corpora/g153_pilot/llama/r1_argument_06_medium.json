@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_06_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5313
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether tipping should be abolished. Prose only, no headings.",
+ "text": "The practice of tipping has become an ingrained aspect of modern service culture, but it is nothing more than a burdensome expectation that unfairly shifts the financial burden onto customers. The argument in favor of abolishing tipping is clear-cut: when patrons are forced to fork over extra cash for decent service, it creates an atmosphere where servers and other service workers are treated as inferior employees.\n\nThe truth is that tipping does not provide a stable income for service industry personnel. Many rely on tips to make ends meet, which can lead to financial instability and stress. This situation is exacerbated by the fact that employers often pay their employees lower wages with the understanding that they will be making up the difference through tips. In essence, this system allows businesses to circumvent minimum wage laws while still profiting from their customers' generosity.\n\nFurthermore, tipping fosters an uneven playing field where service workers are judged based on their ability to elicit a good tip rather than their actual work performance. This not only creates unhealthy competition among servers but also pressures them into providing overly attentive and often invasive service. It is high time for society to recognize that tipping perpetuates inequality in the workplace.\n\nThe simplest solution would be for employers to pay their employees a living wage, allowing them to provide quality service without having to rely on tips to make ends meet. This change in policy would undoubtedly have far-reaching benefits, including increased job satisfaction and reduced turnover rates among service industry workers. The abolition of tipping is long overdue and would usher in a more equitable future for the millions of individuals who rely on it to get by.",
+ "n_words": 283,
+ "generated_at": "2026-08-17 20:45:26",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether tipping should be abolished",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_06_medium"
+}

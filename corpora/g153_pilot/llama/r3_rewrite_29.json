@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_29",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5410
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nTechnological advances have made our society more convenient and efficient in a variety of areas, including social networking services, shopping experiences, and personalized online streaming services, although there has always been controversy on whether the [...source elided...]",
+ "text": "The advent of cutting-edge technology has significantly improved our lives in various aspects, including social media, shopping experiences, and personalized streaming services. Nevertheless, there is ongoing debate about whether these innovations truly make our society better or worse. One area where technology is being vigorously tested is the development of self-driving cars, which employ sophisticated algorithms to ensure safer travel. However, concerns about potential accidents have led many people to question the safety of this emerging technology.\n\nWhile it's true that relying on self-driving vehicles poses risks, I firmly believe that these advances can open up new possibilities for individuals who face difficulties driving or accessing public transportation. For example, the elderly, those with disabilities, pregnant women, and others who struggle behind the wheel often rely on public transit or seek assistance when running errands or commuting. In areas with limited public transportation infrastructure or bustling city centers, this can be particularly challenging.\n\nSelf-driving cars offer a more personalized and convenient solution for these individuals, allowing them to travel safely without worrying about navigating complex routes or dealing with congested roads. Although self-driving technology is not foolproof and may struggle in adverse weather conditions or unusual traffic scenarios, it's essential to consider that human drivers are also prone to errors, such as distraction, intoxication, or fatigue.\n\nMoreover, the benefits of self-driving cars can be significantly amplified by continuous improvement through data collection. When an accident occurs, the collected data allows for a precise analysis of what went wrong, enabling algorithm updates and enhancements to prevent similar incidents in the future. In contrast, human errors are often difficult to pinpoint, and implementing policy changes or educational programs may take time to yield tangible results.\n\nIn conclusion, while acknowledging the potential risks associated with self-driving technology, I firmly believe that its introduction can provide a safer and more accessible transportation option for those who struggle with traditional driving methods. As data collection and analysis continue to refine the algorithms, we can expect a decrease in accidents and an overall enhancement of the transportation experience for all users.",
+ "n_words": 345,
+ "generated_at": "2026-08-17 20:56:30",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_34",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_34.txt"
+}

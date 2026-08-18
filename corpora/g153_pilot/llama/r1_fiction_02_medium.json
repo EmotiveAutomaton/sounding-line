@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_02_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5325
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: the last week of a village post office. Prose only, no headings.",
+ "text": "The village post office stood as a steadfast sentinel on Main Street, its brass doorknob polished to a warm sheen by generations of fingers. For decades, it had been the gathering point for news, gossip, and whispers. But now, with just seven days left before its doors would close forever, the air was heavy with farewell.\n\nMrs. Patel, the postmistress, moved with the deliberate pace of a woman performing a final ritual. She sorted the last of the mail, each letter and package a reminder of the village's dwindling connections to the outside world. Her eyes lingered on a hand-written note from a local farmer, its creased paper testament to the postal service that had crisscrossed the countryside since the 19th century.\n\nIn the corner, Jaya fidgeted with her phone, trying to snap one last photo of the post office for social media. Her father, Mr. Patel's deputy, stood watchfully nearby, as if guarding a treasured relic from desecration. Behind them, the rows of wooden pigeonholes seemed to whisper secrets, their empty spaces a haunting echo of absences to come.\n\nOutside, children played tag around the post office's perimeter, oblivious to its fate. But Mrs. Patel noticed, her gaze tracing the footprints on the sidewalk where generations of villagers had stopped and started their days. She remembered when the postman would deliver a weekly paper, newsprint crackling with international events and local tidings. Now, that same paper arrived at dawn via an automated machine in the village square.\n\nAs the last evening sun dipped behind the village's clustered roofs, the lights inside the post office flickered to life, casting shadows on the worn floorboards. Mrs. Patel's slender hands wrapped around a small package, its contents sealed with her own private label. She placed it in an envelope, sealing the final communication from this corner of the world.",
+ "n_words": 307,
+ "generated_at": "2026-08-17 20:46:51",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "the last week of a village post office",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_02_medium"
+}

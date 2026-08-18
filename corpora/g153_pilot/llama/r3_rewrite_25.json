@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_25",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5406
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars, though only recently becoming a technological feasibility, have advanced rapidly in their short time of development and have thoroughly captured the public eye. The debate on their fitness to our automotive environment and on their desirabl [...source elided...]",
+ "text": "The emergence of self-driving cars has sparked intense debate about their suitability for our roads and society as a whole. Despite being a relatively new concept, these vehicles have already made significant strides in development and have captured the public's attention. In this essay, I will argue that, despite some limitations, the prospect of driver-less roads presents a substantial improvement over our current transportation system.\n\nOne of the primary concerns with human drivers is their inherent fallibility. We regularly get behind the wheel without getting enough rest, neglect to check blind spots, and allow distractions to divert our attention from the road. The alarming statistic of 33,000 annual fatalities in the US alone underscores the need for improvement. While it's unclear whether self-driving cars will drastically reduce this number, their lack of human error is a promising aspect. Additionally, unlike human drivers, who can fall prey to complacency and decreased vigilance over time, self-driving cars can be designed to continually improve their safety record.\n\nMoreover, self-driving cars have the potential to revolutionize transportation by providing greater accessibility and flexibility. Currently, driving privileges are limited to those with the means to own a vehicle or pass a driving test. This restricts not only individuals who cannot afford a car but also children, seniors, and others with mobility issues. Self-driving vehicles could alleviate these restrictions by allowing for more flexible car-sharing arrangements, which would be particularly beneficial for those with limited budgets. Furthermore, self-driving cars could transform public transportation by enabling buses or fleets of cars to have dynamic routes that cater to diverse populations.\n\nThe implementation of self-driving cars will undoubtedly shape their success and impact on society. While it's uncertain whether they will entirely replace our current system, it's clear that they present a compelling alternative with significant potential benefits. Given the substantial limitations and problems plaguing our current transportation infrastructure, it's reasonable to conclude that self-driving cars could bring about transformative improvements.\n\nI made changes to preserve the original meaning, position, and structure of the essay while providing fresh wording throughout. I:\n\n* Changed sentence structures and word orders\n* Replaced certain phrases with synonyms or more concise expressions\n* Added a few words for clarity and flow\n* Emphasized key points and arguments\n\nNote that some minor changes in tone and emphasis were also made to achieve a smoother, more polished narrative.",
+ "n_words": 394,
+ "generated_at": "2026-08-17 20:56:07",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_3",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_3.txt"
+}

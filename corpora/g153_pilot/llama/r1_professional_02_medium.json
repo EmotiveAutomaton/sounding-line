@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_02_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5365
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: summarizing quarterly results for the team. Plain prose.",
+ "text": "Subject: Quarterly Results Summary and Team Update\n\nDear Team,\n\nI wanted to take a moment to share with you our quarterly results, which reflect our collective efforts over the past three months. As we continue to navigate the current market trends and industry developments, I'd like to provide an overview of our key performance indicators (KPIs) and notable achievements.\n\nIn Q1, our revenue growth exceeded expectations by 5% year-over-year, driven primarily by the success of our new product launch in February. Our sales team has demonstrated exceptional adaptability in response to changes in market demand, which allowed us to capitalize on emerging opportunities.\n\nOur expenses remained under budget, with a notable reduction in overhead costs due to the ongoing efforts of our operations team to optimize processes and streamline workflows. This efficiency will contribute significantly to our bottom-line performance for the year.\n\nOn the marketing front, we saw significant engagement on social media platforms, with our campaign reaching 25% more users than projected. The creative direction of our content has been well-received by our audience, generating a substantial increase in brand recognition and preference.\n\nHowever, despite these positive outcomes, there are areas that require our focus to improve moving forward. Our return on investment (ROI) for certain marketing initiatives is lower than anticipated, which we will address through data-driven analysis and iterative refinements.\n\nAs we move into Q2, I encourage each of you to continue driving innovation and collaboration in your respective roles. Your collective contributions have been instrumental in our success thus far, and I'm confident that together, we'll surpass our targets for the year.\n\nIf you have any questions or would like to discuss these results in greater detail, please don't hesitate to reach out.",
+ "n_words": 287,
+ "generated_at": "2026-08-17 20:51:56",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "summarizing quarterly results for the team",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_02_medium"
+}

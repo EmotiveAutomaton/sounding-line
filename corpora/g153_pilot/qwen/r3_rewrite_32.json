@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_32",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5413
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nToday's society is seeing the start of a new era in technology, where artificial intelligence is becoming mainstream, and so is our reliance on them. This includes the gradual integration of self-driving cars, or cars that rely on computer programming to give [...source elided...]",
+ "text": "We are entering a transformative epoch defined by the widespread adoption of artificial intelligence, marked by our growing dependence on these systems. This trend is already visible in the slow but steady emergence of autonomous vehicles\u2014cars that navigate using advanced computer algorithms rather than human input.\n\nSuch technology holds immense promise for enhancing road safety, offering a significantly safer mode of transportation compared to traditional driving. Human drivers are inherently prone to error; fatigue, distraction, impairment by substances, and simple lapses in judgment frequently lead to accidents. In contrast, software-driven systems do not suffer from these biological vulnerabilities or succumb to such mistakes.\n\nFurthermore, autonomous vehicles possess the ability to communicate seamlessly with one another. If multiple self-driving cars share a road simultaneously, they can exchange data within milliseconds, creating a synchronized network that allows them to anticipate each other's movements and navigate traffic fluidly without collision.\n\nNevertheless, these systems are not infallible. They remain susceptible to hacking and deception by sophisticated actors or unforeseen scenarios. Moreover, their success currently depends on human cooperation; until the majority of drivers transition to autonomous fleets manually operated vehicles will continue to pose risks, meaning accidents cannot be entirely eradicated overnight.\n\nHowever, as readers may appreciate, these challenges are not insurmountable but rather solvable through time and innovation. We stand at the dawn of a new phase in automation\u2014a process that aligns with our historical trajectory toward relying on emerging technologies for societal advancement. This evolution is organic and inevitable.\n\nAs we dedicate more resources to refining this technology, it will naturally become safer. Developers can release software patches to close security loopholes against hacking. Engineers can enhance spatial perception algorithms to make deception difficult or impossible. Simultaneously, as the tech matures and scales up production costs will drop, rendering autonomous vehicles affordable for a broader segment of the population.\n\nThere is also legitimate anxiety regarding a potential descent into dystopia: \"What if society becomes overly dependent on technology that then fails or turns hostile?\" To this fear, I respond with perspective drawn from history and logic. Science fiction remains in the realm of fiction today. The invention of calculators did not halt mathematical education; autopilot systems have never replaced pilot training; similarly, autonomous driving will not erase our ability to operate vehicles manually. We remain the operators behind the wheel of progress.\n\nYet, one final truth I must share with you: the manual stick shift deserves a quiet retirement and should be consigned to history forever.",
+ "n_words": 414,
+ "generated_at": "2026-08-17 22:05:12",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_37",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_37.txt"
+}

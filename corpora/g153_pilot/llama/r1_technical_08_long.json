@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_08_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5358
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: how GPS locates a phone. Prose only, no headings or lists.",
+ "text": "To locate a phone using GPS technology, a series of complex steps must occur in rapid succession. At the heart of this process is the Global Positioning System (GPS), a network of satellites orbiting the Earth that provide location information to GPS receivers on the ground.\n\nThe journey begins with the phone's GPS receiver, which is essentially a tiny antenna that picks up signals broadcast by the GPS satellites. The receiver then uses these signals to determine its exact location by calculating the time it takes for the signal to travel from each satellite to the phone. This may sound simple, but in reality, it involves some sophisticated mathematics and precision timing.\n\nThe key principle at play here is trilateration \u2013 determining a point's location based on its distance from multiple known points. In this case, those known points are the positions of the GPS satellites relative to the Earth. By calculating the time delay between when a signal was sent by each satellite and when it was received by the phone, the receiver can pinpoint its own position on the globe.\n\nEach GPS satellite transmits two types of signals: a coarse/acquisition (C/A) signal, which is used for initial synchronization with the receiver, and a precise (P) code, which provides more accurate location data. The C/A signal allows the receiver to quickly establish contact with the satellites and start gathering data for trilateration. The P code, on the other hand, contains a unique identifier for each satellite and provides a more precise timing reference.\n\nAs the phone's GPS receiver collects signals from multiple satellites \u2013 typically at least four are required to calculate an accurate location \u2013 it uses this information to generate a solution, or a set of possible locations based on the received data. This solution is then passed to the phone's operating system for further processing and to determine the most likely location.\n\nOne factor that complicates GPS signal reception is the ionosphere and troposphere \u2013 layers of the Earth's atmosphere that can distort or delay signals en route from satellites to receivers on the ground. To mitigate this, modern smartphones often use a technique called dual-frequency tracking, which involves simultaneously monitoring both L1 and L5 frequencies transmitted by the GPS satellites. The phone then uses complex algorithms to adjust for any differences in signal delay caused by atmospheric interference.\n\nAnother consideration is satellite geometry \u2013 the arrangement of satellites relative to each other and their angles of view from the receiver's location. While four or more satellites are typically required for accurate trilateration, their positions must also be optimal for maximizing location accuracy. Satellites situated too close together can result in a \"satellite multipath\" effect, where signals bounce off nearby surfaces before reaching the receiver, causing errors.\n\nOnce the phone has determined its location using GPS data, it combines this information with other sources of data to improve the overall accuracy and reliability of the solution. This might include input from cellular networks or Wi-Fi access points, which can provide additional position fixes based on signal strength and timing. The phone's operating system also uses a technique called \"dead reckoning,\" where it continuously updates its estimated location by incorporating data from sensors such as accelerometers and gyroscopes.\n\nAt the end of this process lies an incredibly accurate picture of the phone's location \u2013 often within just a few meters or even centimeters in ideal conditions. The speed and sophistication of modern GPS technology make it possible for our phones to pinpoint their locations with unprecedented precision, enabling everything from navigation apps to emergency services.",
+ "n_words": 598,
+ "generated_at": "2026-08-17 20:51:12",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how GPS locates a phone",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_08_long"
+}

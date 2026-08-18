@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_11",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5392
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf driving cars may seem too futuristic to believe, but they have become a reality.\nThey are a symbol of technological advancement we have been able to achieve. They bring with them the hope of increased road safety and awareness. When they become a reality [...source elided...]",
+ "text": "Self-driving vehicles may currently feel like science fiction, yet they have already transitioned from concept to reality. They stand as a testament to the remarkable technological strides humanity has made, offering the promise of significantly safer roads and heightened driver awareness. Once fully realized, this innovation will revolutionize the transportation sector by boosting operational efficiency and reducing overall costs. However, despite these immense potential benefits, widespread commercialization remains some way off due to significant hurdles: exorbitant equipment expenses, privacy concerns regarding the vast amounts of personal data collected, and limitations in operating under severe weather conditions without robust sensor support.\n\nDespite lingering skepticism from many observers, I remain convinced that autonomous vehicles will enhance road safety and expand mobility access across the United States. These cars rely on advanced algorithms capable of precisely calculating braking distances and reaction times, thereby drastically lowering accident rates. Furthermore, they eliminate major internal distractions such as texting, engaging with passengers, or drowsiness, all of which can lead to accidents when a human is at the wheel.\n\nAutonomous driving also promises greater accessibility for seniors and individuals with disabilities who currently struggle to navigate public transit systems. Large urban centers lacking adequate infrastructure could leverage this technology to serve remote communities effectively. Additionally, these vehicles can operate continuously without breaks, completely removing the risks associated with driver fatigue. The shift toward autonomous fleets will likely reduce incidents of road rage and drunk driving, allowing law enforcement to allocate resources more efficiently to other critical issues. Moreover, since most self-driving cars are expected to be electric, their adoption would contribute to lower pollution levels and optimize energy consumption.\n\nParking constraints could also diminish significantly; vehicles can drop passengers off at their exact destinations before traveling miles away for automated parking, thereby reducing the congestion caused by circling streets in search of spaces or occupying spots while waiting. In terms of design, creating intuitive user interfaces is essential to ensure people fully benefit from the underlying technology without feeling alienated. Developers must prioritize seamless compatibility with standard driving expectations and avoid requiring specialized training that could deter adoption.\n\nAlthough building a self-driving car today appears financially prohibitive, advancing computational power is lowering costs while government support initiatives promise to make this incredible technology accessible to local populations in the near future.",
+ "n_words": 384,
+ "generated_at": "2026-08-17 22:02:05",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_17",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_17.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_09_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5359
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: why ships float. Prose only, no headings or lists.",
+ "text": "When you think about it, the idea that massive vessels can simply rise to the surface and stay there is quite remarkable. Yet, this is precisely what happens when a ship \"floats\" \u2013 it displaces water equal in weight to its own mass. The principle behind this phenomenon lies in the concept of buoyancy, which describes the upward force exerted on an object by the surrounding fluid (in this case, water).\n\nAccording to Archimedes' Principle, named after the ancient Greek mathematician who first formulated it, the magnitude of the buoyant force is equal to the weight of the displaced fluid. This means that if a ship has a mass of 10,000 tons, for example, it will displace exactly 10,000 tons of water \u2013 and it's this equilibrium between the weight of the ship and the weight of the water it displaces that allows it to remain afloat.\n\nBut why does the ship displace so much more water than its own mass would suggest? The answer lies in the fundamental properties of matter: density. Ships are composed of various materials, such as steel and wood, which have densities significantly lower than those of most metals or other solids. When these lightweight materials are combined to form a massive vessel, they create an enormous volume \u2013 often with only a small percentage of their mass actually being above the waterline.\n\nAs a result, when you place this ship in the ocean, it will displace an enormous amount of water to accommodate its immense volume. Since the weight of the displaced water is equal to the weight of the ship itself, the upward force exerted by the buoyant water precisely counteracts the downward pull of gravity \u2013 and voil\u00e0! The ship floats.",
+ "n_words": 289,
+ "generated_at": "2026-08-17 20:51:17",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "why ships float",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_09_medium"
+}

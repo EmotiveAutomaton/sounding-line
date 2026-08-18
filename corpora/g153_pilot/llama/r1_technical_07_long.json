@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_07_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5356
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: what happens during a compile. Prose only, no headings or lists.",
+ "text": "When you write code in a programming language like C++ or Java, it doesn't run directly on your computer's processor. Instead, the code has to be translated into machine code that the CPU understands before it can execute. This process is called compilation.\n\nThe first step in the compilation process is preprocessing. During this phase, the compiler reads the source code files and performs tasks like expanding macros and including header files. Macros are essentially placeholders for code fragments that get replaced with actual code during compilation. Header files contain declarations of functions and variables that can be used by multiple programs, so they don't have to be written out in full each time.\n\nAfter preprocessing, the compiler starts its main job: parsing the source code. This involves breaking down the program into individual elements like syntax tokens, which are essentially basic building blocks of language-specific instructions. The parser checks for errors and identifies the different components that make up the code, such as identifiers (like variable names), keywords, and symbols (including punctuation marks).\n\nOnce the compiler has a parsed representation of the source code, it starts semantic analysis. During this phase, the compiler looks at the relationships between these elements to check whether they conform to the language's syntax rules. For example, in most programming languages, each statement should end with a semicolon. The compiler checks that every such statement adheres to this rule and flags any discrepancies.\n\nSemantic analysis is a crucial step in ensuring the code works as intended because it involves checking for dependencies between different parts of the program. It verifies whether all declared variables have been initialized before they're used, whether functions are called with the correct number of arguments, and so on. This phase helps catch logic errors that might lead to problems later.\n\nAfter semantic analysis, the compiler's backend starts generating assembly code or intermediate representations (IR), depending on the compiler type. Assembly code is a low-level language consisting of machine-specific instructions that directly correspond to CPU operations. IRs, on the other hand, are platform-independent and can be translated into assembly code for different architectures.\n\nThe backend translates high-level language constructs like loops, conditional statements, or function calls into their corresponding assembly instructions or IRs. This process is often referred to as code generation. The compiler uses its knowledge of the target architecture to ensure that the generated code aligns with the CPU's capabilities and performance characteristics.\n\nIf the compiler encounters any errors during these phases, it will either halt the compilation process and report them or continue in a way that minimizes damage (known as \"as-if\" behavior). For instance, some compilers might silently ignore a particular issue while still attempting to compile the rest of the program. In many cases, however, this can lead to problems later on when the code is run.\n\nWhen compilation is complete, the resulting machine code or IRs are saved in an object file. The programmer can then use other tools like linkers and loaders to combine multiple object files into a single executable program. This process involves resolving external references made by the compiled code against libraries or object files that contain their definitions.\n\nThroughout this entire compilation process, there are numerous optimizations taking place. These aim to improve the performance of the generated machine code by minimizing memory accesses, optimizing register usage, and reducing unnecessary computations. Many compilers also support link-time optimization (LTO), which allows for global analysis across multiple translation units (i.e., individual source files) to further boost efficiency.\n\nThe end result of this intricate process is an executable program that can run directly on your computer's processor without requiring any additional compilation steps.",
+ "n_words": 611,
+ "generated_at": "2026-08-17 20:50:58",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "what happens during a compile",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_07_long"
+}

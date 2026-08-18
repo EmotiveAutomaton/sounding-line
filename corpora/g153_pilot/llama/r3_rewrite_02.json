@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_02",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5383
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nCar accidents have been a major problem in the United States for decades. Centers for Disease Control states that fatalities from traffic incidents happen on an annual basis upwards of 33,000 people. In previous years, many researchers are discovering possibl [...source elided...]",
+ "text": "The issue of car accidents has plagued the United States for decades, with statistics from the Centers for Disease Control indicating that over 33,000 people lose their lives on America's roads each year. In recent years, researchers have been exploring innovative solutions to this problem, one of which is the widespread adoption of self-driving vehicles. While proponents of autonomous cars argue that they offer a promising solution to eliminate car accidents, I am more cautious in my assessment.\n\nSelf-driving cars may indeed reduce accidents caused by human error, such as distracted driving or drunk driving. By removing these variables from the equation, self-driving vehicles could potentially save thousands of lives annually. Additionally, the technology has the potential to minimize the impact of vehicle malfunctions, which often lead to devastating consequences on the road.\n\nHowever, there are also valid concerns about the practicality and feasibility of self-driving cars. One major drawback is their exorbitant cost, which may not be justifiable given the environmental benefits they offer. Furthermore, a shift towards autonomous vehicles could lead to job losses in industries related to transportation and petroleum production.\n\nMoreover, relying on advanced technology like self-driving cars has its own set of risks. If drivers become too reliant on these vehicles and lose their basic driving skills, it may put them at greater risk if the car experiences a malfunction or encounters unforeseen circumstances. This is particularly worrying for people living in areas prone to inclement weather conditions, where traditional human driving skills are essential.\n\nIn conclusion, while I acknowledge that self-driving cars hold some potential benefits, I believe they should not be pursued as a panacea to the problem of car accidents. With so many uncertainties and risks associated with this technology, it is essential to carefully weigh its costs against its advantages before investing heavily in it. Ultimately, we must consider how autonomous vehicles will interact with human drivers and the broader driving environment before deciding whether they are a viable solution to America's traffic troubles.",
+ "n_words": 333,
+ "generated_at": "2026-08-17 20:53:48",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_100",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_100.txt"
+}

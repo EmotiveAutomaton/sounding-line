@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_01_long",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5344
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: why bridges have expansion joints. Prose only, no headings or lists.",
+ "text": "Bridges are often celebrated as marvels of engineering and enduring symbols of human ingenuity, yet they possess a vulnerability that is invisible to the casual observer until it manifests in visible damage or catastrophic failure: thermal stress. The primary reason for incorporating expansion joints into bridge design is to accommodate the natural physical behaviors of materials under changing environmental conditions, specifically temperature fluctuations, while also addressing minor seismic activity and structural settlement. Without these specialized mechanisms, a long span of concrete or steel would inevitably buckle, crack, or suffer devastating structural deformations simply because it expands when hot and contracts when cold.\n\nThe fundamental physics governing this necessity is the coefficient of thermal expansion, a property inherent to all construction materials used in bridge building, including steel, reinforced concrete, and asphalt. As sunlight warms the surface of a bridge deck on a sunny afternoon or during summer months, the atoms within the material vibrate more vigorously, causing the entire structure to lengthen slightly. Conversely, when temperatures drop at night or during winter freezes, atomic vibrations decrease, allowing the structure to contract. A standard steel girder, for instance, expands by approximately one ten-thousandth of its original length for every degree Fahrenheit increase in temperature. For a bridge spanning several miles, this seemingly negligible rate multiplies into substantial dimensions; without room to move, the ends of such a massive beam could theoretically rise up like an accordion or buckle outward with enough force to shear welds and snap bolts.\n\nTo prevent this accumulation of internal stress from exceeding the material's yield strength, engineers install expansion joints at strategic intervals along the bridge length. These joints are not merely gaps; they are highly engineered assemblies designed to allow relative movement between adjacent structural segments while maintaining a continuous traffic surface for vehicles passing over them. When heat causes one section of the bridge to expand, it pushes against these joints rather than transferring that force into the fixed piers or abutments at either end of the structure. The joint effectively acts as a release valve for this thermal energy, permitting horizontal displacement ranging from several inches in smaller spans up to fifteen feet or more on extremely long viaducts where temperature differentials between summer and winter are extreme.\n\nBeyond simple linear expansion, these joints must also function seamlessly under vertical loads. A vehicle traveling over the bridge cannot stop abruptly at a gap; therefore, modern expansion joints often incorporate rubber bearings or elastomeric seals that compress vertically to support traffic while sliding horizontally on low-friction surfaces like Teflon plates bonded between steel rails. This dual capability ensures safety and comfort for drivers without compromising structural integrity during movement. Furthermore, the design must account for long-term effects such as creep in concrete\u2014where materials slowly deform over time under constant load\u2014and seismic events where ground shaking could induce lateral shifts that would otherwise lock rigid structures into a state of catastrophic failure.\n\nDespite their necessity, expansion joints are frequently points of failure due to water infiltration and debris accumulation if not properly maintained. Rainwater entering the joint can freeze in colder climates, expanding further than thermal stresses alone and cracking adjacent concrete or rusting reinforcing steel from within. Debris like rocks and ice chunks can become lodged between sliding surfaces, preventing smooth movement and causing uneven wear on bearings, which eventually leads to misalignment of the tracks above. Consequently, maintenance crews regularly inspect these joints for signs of deterioration such as crumbling waterproof seals or rust staining on the concrete deck below.\n\nIn essence, expansion joints represent a critical compromise in structural design where rigidity is sacrificed at specific points to ensure overall system survival against environmental forces. They allow bridges to \"breathe\" and move naturally within their operating envelope, preventing the buildup of destructive internal stresses that could lead to sudden collapse. By acknowledging the dynamic nature of materials under temperature changes, engineers have ensured that our infrastructure can withstand decades of thermal cycling while continuing to serve as vital arteries for transportation networks across the globe.",
+ "n_words": 673,
+ "generated_at": "2026-08-17 21:54:11",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "why bridges have expansion joints",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_01_long"
+}

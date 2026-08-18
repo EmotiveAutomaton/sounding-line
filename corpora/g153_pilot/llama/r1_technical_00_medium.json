@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_00_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5341
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how public-key cryptography works. Prose only, no headings or lists.",
+ "text": "Public-key cryptography is a method used to secure online transactions and communications by ensuring the confidentiality and integrity of data exchange between two parties. At its core, it relies on a pair of keys: one for encrypting messages (the public key) and another for decrypting them (the private key).\n\nWhen a user wants to send a message securely to another party, they obtain that person's public key from a trusted source. They then use an encryption algorithm to scramble the original message using this public key. The encrypted message can only be decrypted by someone possessing the corresponding private key.\n\nThis is where the magic of mathematics comes in: large prime numbers and complex mathematical functions are used to generate these keys, ensuring that they are unique to each pair of users and virtually unguessable. The private key is kept secure by its owner, while the public key is freely shared with anyone who needs to communicate securely.\n\nWhen the intended recipient receives the encrypted message, they use their corresponding private key to decrypt it. This process relies on another fundamental aspect of mathematics: the properties of numbers that allow for efficient encryption and decryption.\n\nIn essence, public-key cryptography works by leveraging the computational difficulty of certain mathematical problems to prevent unauthorized access to messages. While a skilled mathematician or computer scientist might be able to decipher an encrypted message if they had enough time and computing power, the amount of time required is so vast that it's impractical for all but the most determined attackers.\n\nThis method has become a cornerstone of modern cybersecurity, particularly in secure online transactions such as e-commerce and secure messaging services. Its widespread use has been driven by its ability to balance convenience with security, allowing users to send sensitive information across the internet without the fear of interception or tampering.",
+ "n_words": 307,
+ "generated_at": "2026-08-17 20:48:57",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how public-key cryptography works",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_00_medium"
+}

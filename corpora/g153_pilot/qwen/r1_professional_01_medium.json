@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_01_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5363
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: requesting budget approval for new equipment. Plain prose.",
+ "text": "Subject: Request for Budget Approval: Acquisition of New Field Monitoring Equipment\n\nI am writing to formally request your approval for the acquisition of advanced field monitoring equipment, necessary to address current operational bottlenecks and ensure our team meets upcoming project deadlines with precision. Currently, our existing inventory relies on legacy hardware that is approaching end-of-life status, resulting in frequent downtime and compromised data integrity during critical site visits. These limitations have already caused minor delays in the Q3 reporting cycle and increased maintenance costs by approximately fifteen percent over the last six months.\n\nThe proposed investment involves securing three units of next-generation sensors paired with enhanced ruggedized tablets designed for high-mobility environments. This upgrade will directly address our primary pain points: reduced latency in data transmission, improved battery life essential for remote operations, and a more intuitive interface that minimizes training time for new hires. By transitioning to this technology stack, we project an immediate reduction in error rates related to manual data entry, estimated at twenty percent within the first quarter of implementation. Furthermore, real-time connectivity will allow the central team to react instantly to field anomalies, potentially saving significant hours of post-processing work and travel costs associated with revisiting sites for re-surveying.\n\nThe total projected cost is $18,500, which aligns well with our current capital expenditure cap for operational improvements this fiscal year. Funding can be sourced through the existing IT infrastructure reserve without requiring additional budget allocation or shareholder approval at this time. I have attached a detailed specification sheet and a comparative analysis of vendor options that highlights cost-efficiency alongside performance metrics.\n\nApproving this purchase now is crucial to maintaining our competitive edge as project scopes expand in late spring. Delaying this acquisition risks further degradation of equipment reliability, which could impact client deliverables and contractual SLAs during peak seasons. I am confident that the return on investment will be realized through enhanced productivity and reduced operational friction within three months of deployment.\n\nThank you for your time and consideration regarding this vital upgrade to our field capabilities. Please let me know if you require any further details or wish to schedule a brief walkthrough of the proposed specifications before making a final decision.",
+ "n_words": 368,
+ "generated_at": "2026-08-17 21:57:21",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "requesting budget approval for new equipment",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_01_medium"
+}

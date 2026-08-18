@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_07_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5315
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether voting should be compulsory. Prose only, no headings.",
+ "text": "Compulsory voting is an effective way to increase voter turnout and ensure that citizens have a say in the democratic process. The main argument against compulsory voting is that it infringes upon individual freedom of choice, forcing people to participate in the electoral system whether they wish to or not. However, I firmly believe that this concern is outweighed by the benefits of mandatory voting.\n\nFirstly, compulsory voting would likely lead to a more representative government as a wider range of perspectives and opinions are brought to the table. When citizens feel forced to vote, they are less likely to simply cast their ballots based on habit or party loyalty, and instead take an active interest in the issues at hand. This shift towards informed decision-making is essential for a healthy democracy.\n\nFurthermore, compulsory voting would also lead to increased voter turnout among marginalized groups who often have little incentive to participate in the electoral process. When people are forced to vote, they are more likely to feel a sense of civic duty and take their right to vote seriously, rather than dismissing it as an option. This leads to a more inclusive democracy that is better equipped to address the needs and concerns of all citizens.\n\nFinally, the argument that compulsory voting infringes upon individual freedom of choice is overstated. Voting is not inherently an optional activity; it is a fundamental right and responsibility that comes with citizenship. By making voting mandatory, we are not forcing people to participate in politics or impose their will on others, but rather ensuring that they take an active role in shaping the country's future.\n\nIn conclusion, compulsory voting would have numerous benefits for society as a whole, including increased voter turnout, a more representative government, and greater inclusivity. While some may argue that it infringes upon individual freedom of choice, I firmly believe that this is outweighed by the importance of ensuring all citizens participate in the democratic process.",
+ "n_words": 327,
+ "generated_at": "2026-08-17 20:45:41",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether voting should be compulsory",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_07_medium"
+}

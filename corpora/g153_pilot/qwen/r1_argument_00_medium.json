@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_00_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5301
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether cities should ban private cars from their centers. Prose only, no headings.",
+ "text": "Banning private cars from city centers is not merely an idealistic dream of urban planners but a necessary evolution for sustainable and livable metropolitan areas. While the argument often hinges on environmental concerns, the true imperative lies in reclaiming public space to prioritize human interaction over mechanical transit. The current dominance of automobiles has transformed once-vibrant plazas into congested arteries where pedestrians feel like secondary passengers trapped by noise and pollution. By strictly prohibiting private vehicles from entering central districts, municipalities can force a fundamental shift toward walking and cycling, activities that are not only zero-emission but also invigorating for mental health.\n\nCritics frequently argue that such bans impose undue inconvenience on residents without adequate alternatives or fail to account for emergency services. However, this opposition relies on the false premise that modern life requires constant private mobility within dense urban cores. In a well-designed city center, most essential needs\u2014from grocery shopping and medical visits to cultural engagement\u2014are walkable distances away when car dependency is removed. Furthermore, advanced public transportation systems, including high-frequency buses and electric trams, can seamlessly replace personal vehicles for those traveling from the periphery. Emergency services operate on dedicated lanes or specific exemptions that do not undermine the general ban's integrity; their speed relies on clear roads rather than competitive traffic flow with thousands of other drivers.\n\nMoreover, the economic revitalization potential cannot be overstated. Studies consistently show that pedestrian-friendly zones generate higher retail sales because shoppers linger longer when they are walking comfortably between stores. The removal of parking infrastructure frees up valuable land for green spaces, community gardens, or widened sidewalks, directly enhancing quality of life. Ultimately, allowing private cars in city centers is a relic of the mid-20th-century sprawl mentality that prioritized speed over connection. To build resilient cities capable of withstanding climate change and social fragmentation, we must courageously ban private cars from our hearts, transforming them into thriving communal hubs where people meet face-to-face rather than passing each other in silent metal cages. This bold step is not about limiting freedom; it is about redefining it for the collective good.",
+ "n_words": 349,
+ "generated_at": "2026-08-17 21:46:32",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether cities should ban private cars from their centers",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_00_medium"
+}

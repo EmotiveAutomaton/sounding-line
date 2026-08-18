@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_09_long",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5360
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: why ships float. Prose only, no headings or lists.",
+ "text": "The ability of massive steel vessels to traverse the open ocean without sinking defies our everyday intuition about density and weight, yet it is governed by fundamental principles of physics that have been understood since antiquity. At its core, why ships float comes down to a precise balance between two opposing forces: gravity pulling the ship downward and buoyancy pushing it upward. Gravity acts on every atom within the vessel, including the hull, the cargo, and even the air trapped inside any enclosed spaces. This gravitational force depends entirely on mass; because the Earth's pull is constant regardless of what an object is made of, a ton of iron weighs exactly as much as a ton of feathers when placed in the same location. However, density\u2014the amount of matter packed into a specific volume\u2014is where the distinction lies for floating objects. An object will sink if it is denser than the fluid it displaces and float if it is less dense. Water has a standard density, roughly one gram per cubic centimeter under normal conditions. A solid block of iron is far denser than water; therefore, if you drop it into a pool, gravity wins immediately, and it sinks to the bottom because its weight exceeds the upward pressure exerted by the displaced water.\n\nShips solve this problem not by changing their composition or lightening their load magically, but through architectural design that alters how they interact with water volume. Instead of being solid blocks of metal, ships are essentially hollow boxes constructed from steel plates riveted or welded together to form a watertight enclosure. This construction creates a large internal cavity filled primarily with air. Air is incredibly light and has negligible density compared to liquid water. By incorporating this vast pocket of low-density material into the ship's overall structure, engineers drastically reduce the average density of the entire vessel. When calculating whether an object floats, one must look at its total mass divided by its total volume that extends below the waterline. Because the air inside contributes almost no weight but does contribute significantly to the total volume occupied by the hull, the ratio known as average density becomes much lower than that of pure iron or even fresh timber alone. As long as this calculated average density remains less than the density of seawater\u2014which is slightly denser due to dissolved salts\u2014the ship will float.\n\nThis interaction is quantified and explained by Archimedes' Principle, which states that any object submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid it displaces. When a ship enters the water, gravity pulls it down until it sinks low enough into the ocean surface to displace a volume of water whose weight matches exactly the total weight of the ship and its cargo. At this specific point called equilibrium, the downward pull of gravity is perfectly counteracted by the upward push of buoyancy, allowing the vessel to rest steadily on the water's surface without accelerating up or down. The shape of the hull plays a critical role in maximizing efficiency; a flat-bottomed boat displaces less water initially than one with a rounded bow and stern designed for forward motion, yet both must displace enough mass relative to their volume to stay aloft. This is why cargo ships often sit lower in the water when fully loaded compared to an empty vessel; as weight increases, they sink deeper until they are forced to displace more heavy seawater, generating a correspondingly larger buoyant force to restore balance.\n\nIt is also important to distinguish between fresh and saltwater environments because salinity affects density. Seawater contains high concentrations of dissolved salts like sodium chloride, making it heavier per unit volume than freshwater from lakes or rivers. Consequently, a ship will naturally float higher in the ocean off Florida than it would if it were docked at a port on the Great Lakes. This phenomenon is why vessels traveling between fresh and saltwater must often adjust their cargo loads to prevent excessive sinking when entering denser waters. Despite these nuances, the fundamental mechanism remains unchanged: gravity pulls down while buoyancy pushes up based strictly on displaced mass. Even modern container ships carrying thousands of heavy steel containers remain afloat because they are essentially giant floating balloons filled with air and surrounded by water-resistant metal skins. The magic is not in defying physics but rather in applying it cleverly to create an object that, as a whole system including its internal atmosphere, is lighter per unit of volume than the surrounding liquid, ensuring that humanity's maritime endeavors remain safe atop the waves rather than succumbing to them beneath the surface.",
+ "n_words": 778,
+ "generated_at": "2026-08-17 21:56:54",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "why ships float",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_09_long"
+}

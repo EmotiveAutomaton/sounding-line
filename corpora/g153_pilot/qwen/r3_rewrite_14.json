@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_14",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5395
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving car is a new technology and receives a lot of debates recently. On one hand, self-driving cars offer positive impacts, e.g. safer commuting, cost savings, and give opportunities to many people who can't travel by themselves at this moment. On the [...source elided...]",
+ "text": "The advent of autonomous vehicles has sparked intense discussion as an emerging technological frontier. On the positive side, these cars promise significant advantages, including enhanced road safety, financial efficiency, and expanded mobility for individuals currently unable to drive themselves. Conversely, critics have voiced apprehensions regarding security risks, overall safety, and economic implications associated with this innovation.\n\nI firmly advocate for the widespread adoption of self-driving technology due to its potential benefits for humanity. Firstly, these vehicles promise substantial cost savings. As autonomous fleets become common and begin communicating directly with one another, they will effectively mitigate traffic congestion and navigate unpredictable road conditions more efficiently than human drivers. Secondly, safety is expected to improve dramatically because computers eliminate the errors inherent in human operation. The most prevalent cause of accidents involves impairment due to alcohol, drugs, or fatigue. Furthermore, experienced human drivers often develop overconfidence from years on the road, which can ironically increase accident risk\u2014a flaw that autonomous systems do not possess. Finally, and perhaps most importantly, this technology promotes equity by providing mobility solutions for those with physical limitations, such as the elderly or persons with disabilities. While public transit exists in many urban areas, it is limited to fixed routes and schedules, often requiring passengers to travel to a specific stop rather than their final destination; autonomous cars offer door-to-door flexibility that addresses these gaps.\n\nOpposition to self-driving cars generally falls into two categories: concerns about the technology's current readiness versus misconceptions about its nature. The \"not-ready\" arguments highlight challenges in mass deployment, such as liability for accidents caused by AI systems and critical security vulnerabilities like data privacy breaches or cyber-hijacking. Moreover, there are profound ethical questions regarding how software should act in unavoidable crash scenarios\u2014for instance, whether an algorithm should prioritize saving a child over an elderly pedestrian. These complex issues must be resolved before the technology is rolled out widely. The \"not-true\" group addresses false assumptions held by skeptics. For example, fears that drivers will lose essential skills are overstated; society already functions with low technical literacy regarding daily items like washing machines or car repairs, relying instead on professional services when needed. Similarly, worries about regional differences in traffic laws (like turning right on red) are unfounded, as vehicle algorithms can adapt instantly based on GPS data and local jurisdiction settings. Additionally, the role of police officers directing traffic will evolve; rather than physically entering busy lanes, they could remotely manage flow via high-speed communication networks once a fleet operates autonomously. Finally, concerns that manufacturers might sell fewer cars ignore reality: autonomous vehicles still require manufacturing, and industry leaders like Toyota, Honda, Volvo, BMW, and others are actively expanding their involvement in this sector.\n\nIn summary, while self-driving cars represent a transformative revolution offering immense societal benefits, some legitimate challenges remain to be solved before the technology can serve everyone effectively.",
+ "n_words": 478,
+ "generated_at": "2026-08-17 22:02:33",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_2",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_2.txt"
+}

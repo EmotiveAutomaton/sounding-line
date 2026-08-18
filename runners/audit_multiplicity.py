@@ -88,6 +88,7 @@ TESTS = [
     ("L57 author-share split",            6.090e-07, "primary", "results/positional_polish/pd33_decomposition.json"),
     ("L71 PD-33b books polish-vs-depth",  2.825e-07, "primary", "results/positional_polish/pd33_books.json"),
     ("L73 G130c matched margin McNemar",  4.534e-04, "primary", "results/arg_recovery/matched_k4_recovery.json"),
+    ("L132 G129 reader-vs-block McNemar", 9.750e-03, "primary", "results/g129/verdict.json"),
     ("L74 PD-34 books movement split",    1.263e-05, "primary", "results/positional_polish/pd34_books.json"),
     ("L74 PD-34 essays movement split",   4.207e-01, "primary", "results/positional_polish/pd34_argrewrite.json"),
     ("L89 PD-3 machine movement",         2.015e-06, "primary", "results/positional_polish/pd3_ladder3.json"),

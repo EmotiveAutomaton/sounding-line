@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_02_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5345
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how a refrigerator moves heat. Prose only, no headings or lists.",
+ "text": "A refrigerator operates on the fundamental principle that it does not cool food directly; instead, it actively transfers thermal energy from the warm interior to the cooler surrounding air. This process relies entirely on thermodynamics and requires an external power source because heat naturally flows only from hot objects to cold ones without assistance. To reverse this natural flow, a mechanical system known as a vapor-compression cycle is employed, utilizing a carefully selected refrigerant fluid that possesses unique chemical properties allowing it to evaporate at very low pressures but boil off easily when compressed into high-pressure gas.\n\nThe journey begins in the back of your kitchen appliance where an electric compressor acts like the heart of the unit, pumping liquid refrigerant with tremendous pressure toward the condenser coils located on the exterior casing or underneath the fridge. Here, the hot, pressurized gas releases its excess heat directly to the room air and physically transforms into a warm, high-pressure liquid as it travels through these metal fins. Next, this superheated liquid passes through an internal component called a thermal expansion valve which abruptly reduces pressure within the system. This sudden drop allows the refrigerant to expand rapidly and cool down significantly before entering the evaporator coils situated inside your food storage compartments.\n\nInside these insulated interior walls, the cold refrigerant absorbs heat from your groceries, milk, or vegetables by boiling off into a gaseous state again, effectively removing warmth from the enclosed space. This now-warm but low-pressure gas is then drawn back to the compressor to restart the cycle. While modern appliances often add electronic controls and fans to optimize this airflow for efficiency, their core function remains identical: they force heat out of your cold box by constantly pumping a working fluid through four distinct stages of compression, condensation, expansion, and evaporation.",
+ "n_words": 302,
+ "generated_at": "2026-08-17 21:54:17",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how a refrigerator moves heat",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_02_medium"
+}

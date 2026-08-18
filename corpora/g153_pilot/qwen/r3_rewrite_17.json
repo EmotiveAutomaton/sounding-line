@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_17",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5398
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars have beneficial and disadvantageous effects on society. Although the benefits of self-driving cars may seem promising, the adverse effects might deter one from investing in them as the future of automobile technology. First, let\u2019s review the [...source elided...]",
+ "text": "The advent of autonomous vehicles presents a complex mix of advantages and drawbacks for society. While their potential benefits appear compelling, significant downsides suggest they might not be ready to replace human-driven cars as the dominant form of transportation investment. To understand this debate fully, we must first examine the optimistic outlook before weighing it against the serious concerns.\n\nOn one hand, self-driving technology offers substantial safety improvements, particularly for vulnerable groups like high school students commuting independently. With automated control, teens would no longer be susceptible to distractions such as texting or speeding impulses; they could simply enjoy the ride without needing to focus on traffic laws. On a societal level, if adoption became universal, accident rates and speed violations would plummet significantly. This shift would liberate law enforcement resources currently tied up in enforcing basic driving regulations, allowing officers to redirect their efforts toward more serious criminal activities. Furthermore, autonomy would drastically improve mobility for the elderly and those with disabilities, who currently rely heavily on others or public transit just to leave their homes.\n\nFrom an economic standpoint, the transition promises a new era of industrial expansion. It would stimulate job creation in specialized fields requiring expertise in machine learning and advanced technology development. This innovation could also spill over into other sectors, potentially revolutionizing mass transit through fleets of self-operating buses and trains. Additionally, if these vehicles operate primarily on electricity rather than fossil fuels, gas stations may eventually become obsolete, shifting the energy landscape entirely.\n\nHowever, despite these promising prospects, every technological leap carries inherent risks that cannot be ignored. Cybersecurity remains a primary concern; hackers could potentially intercept vehicle data to track where individuals frequently travel. Such information could be weaponized for targeted advertising or exploited by criminals planning robberies by identifying when homes are empty and routes are predictable. Moreover, the technology is not infallible in all conditions. In poor weather or on slippery roads with obscured vision, accident risks increase significantly. Current systems also lack true situational awareness; if a vehicle spins out of control, its programming cannot replicate human judgment to make split-second decisions, such as choosing between swerving into an adult pedestrian to save a child\u2014a choice humans might instinctively make but algorithms currently struggle with legally and ethically.\n\nLegal accountability presents another formidable hurdle. In the event of a crash involving an autonomous vehicle that has taken control from its passenger, who is liable? A car cannot be prosecuted for manslaughter, yet neither can human occupants if they were not actively driving at the time. While manufacturers could theoretically bear responsibility, this outcome seems unjust to many observers. Consequently, entirely new legal frameworks would need to be established to address these ambiguous scenarios of liability and ethics.\n\nThe economic ripple effects are equally severe. While some sectors thrive, others face decline; traditional taxi drivers, bus operators, and train conductors risk widespread unemployment as automation renders their roles redundant. The collapse of the gasoline industry could also negatively impact global export markets for oil-dependent nations. Furthermore, if governments or companies rush to implement this technology prematurely without solving these safety and security issues, entire industries may suffer catastrophic failures due to a rapid, disruptive technological shift that outpaces societal readiness.\n\nIn conclusion, while autonomous vehicles offer specific conveniences and benefits, the cumulative risks outweigh the rewards. The potential for data breaches, loss of personal independence, ethical dilemmas in life-or-death programming choices, job displacement across multiple sectors, and industrial instability creates an environment where this technology may ultimately cause more harm than good. Until these profound challenges are thoroughly resolved through robust legislation and advanced engineering, society should proceed with extreme caution regarding the mass adoption of fully self-driving cars.",
+ "n_words": 619,
+ "generated_at": "2026-08-17 22:03:00",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_22",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_22.txt"
+}

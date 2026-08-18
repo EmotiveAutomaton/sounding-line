@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_07_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5355
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: what happens during a compile. Prose only, no headings or lists.",
+ "text": "When you write code in a programming language like Java or C++, your computer doesn't directly understand it yet. The next step is to translate that code into machine language that the computer's processor can execute, which is where compilation comes in.\n\nDuring this process, called compiling, the compiler takes your source code as input and produces an executable file as output. This translation involves a few key stages. First, the preprocessor scans the code for any special directives or macros it contains, such as conditional compilation or include statements. It then expands these into their corresponding code, which gets rewritten to reflect what the programmer intended.\n\nNext, the compiler's parser analyzes the syntax of your source code, checking that the language rules are being followed and identifying errors if there are any. It breaks the code down into its constituent parts \u2013 functions, loops, variables, etc. \u2013 and assigns meaning to each one according to the programming language's grammar.\n\nThe next stage is semantic analysis, where the compiler examines what these broken-down parts mean in terms of the overall program. This includes checking that memory addresses are valid, that types match up correctly between function calls and return values, and other similar checks.\n\nWith that done, the code generator produces machine code from the parsed output. This involves translating high-level programming language concepts like loops into low-level instructions for the processor to execute directly.\n\nIn some cases, additional steps may be involved, such as linking static libraries or incorporating runtime dependencies required by the program. Once these steps complete, you're left with an executable file that your computer's processor can run natively.",
+ "n_words": 273,
+ "generated_at": "2026-08-17 20:50:48",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "what happens during a compile",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_07_medium"
+}

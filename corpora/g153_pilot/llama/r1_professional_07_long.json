@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_07_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5376
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word professional workplace message about: proposing a change to the on-call rotation. Plain prose.",
+ "text": "Subject: Proposal for Revised On-Call Rotation Schedule\n\nDear Team,\n\nAs we continue to grow and evolve as an organization, it is essential that our internal processes and procedures remain flexible and adaptable to meet the changing demands of our operations. With this in mind, I would like to propose a change to our current on-call rotation schedule.\n\nCurrently, our on-call rotation rotates on a weekly basis, with each team member receiving approximately four weeks of on-call duty per quarter. This system has served us well in the past, providing a fair distribution of responsibilities and allowing for adequate coverage during off-hours. However, as we expand our services and take on additional projects, I believe it is prudent to reassess our current rotation schedule to ensure it remains optimal.\n\nThe proposed change involves implementing a bi-weekly on-call rotation, where each team member will receive two weeks of on-call duty per month. This revised schedule aims to achieve several key benefits:\n\n1. **Enhanced coverage**: With more frequent rotations, we can maintain a higher level of visibility and responsiveness during off-hours, reducing the likelihood of issues arising without prompt attention.\n2. **Reduced burnout**: By shortening the duration of each on-call period, we can help prevent burnout and ensure that all team members remain energized and focused throughout their shifts.\n3. **Improved handoff process**: A bi-weekly rotation will enable us to refine our handoff procedures, ensuring a smoother transition between shifts and minimizing any potential disruptions.\n4. **Better utilization of skills**: With more frequent rotations, we can better match the skills and expertise of each team member with specific on-call duties, resulting in more efficient resolution of issues.\n\nTo implement this revised schedule, I propose the following:\n\n* The current monthly calendar will be divided into two bi-weekly periods.\n* Team members will receive email notifications approximately one week prior to their scheduled on-call rotation, allowing them sufficient time to prepare and plan accordingly.\n* A designated contact person will remain available during off-hours for any urgent matters that may arise.\n* Regular reviews and evaluations will be conducted to ensure the revised schedule is meeting its intended goals and to identify areas for further improvement.\n\nI believe this proposed change will not only enhance our overall operational efficiency but also contribute to a healthier work environment by reducing on-call duties and fostering greater teamwork. I would appreciate any feedback or concerns from team members regarding this proposal, which will be taken into consideration during the implementation process.\n\nTo facilitate an open discussion and gather input from the team, I suggest scheduling a meeting for [Date] at [Time]. During this session, we can explore the proposed changes in more detail and address any questions or concerns that may arise. Your participation and contributions are invaluable to this process, and I look forward to hearing your thoughts.\n\nPlease do not hesitate to reach out to me directly if you have any immediate feedback or suggestions. I am committed to ensuring a seamless transition into our revised on-call rotation schedule and appreciate your cooperation in implementing these changes.\n\nBest regards,\n\n[Your Name]\n[Your Title]",
+ "n_words": 518,
+ "generated_at": "2026-08-17 20:53:05",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "proposing a change to the on-call rotation",
+ "length_bin": "long",
+ "lineage_id": "r1_professional_07_long"
+}

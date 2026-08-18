@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_06_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5313
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether tipping should be abolished. Prose only, no headings.",
+ "text": "The practice of leaving tips for service workers has long been the subject of intense debate within the realm of labor economics and social ethics. While proponents argue that gratuities are essential to sustaining low wages in an aging industry, I firmly contend that tipping should be abolished entirely and replaced with a standardized, living wage system enforced by government policy or strict corporate mandates. The current reliance on tips creates an unpredictable financial environment for workers, fosters inequality among staff members depending on their ability to charm customers, and places the burden of fair compensation directly on patrons rather than employers.\n\nUnder the existing model, businesses are often legally permitted to pay service employees significantly below minimum wage, operating under the assumption that customer generosity will make up the difference. This reliance is not only volatile but also discriminatory; workers who serve those unable or unwilling to tip\u2014such as individuals with disabilities, non-native speakers, or even children\u2014are systematically penalized without recourse. Furthermore, this system incentivizes performative friendliness and creates an adversarial dynamic where customers feel pressured to over-tip out of guilt rather than genuine appreciation for quality service. The psychological toll on workers who must constantly navigate the anxiety of whether a meal will yield adequate pay is immense and contributes to high turnover rates in hospitality sectors globally.\n\nAbolishing tipping would not necessarily lead to higher prices for consumers; instead, it would allow businesses to build sustainable models based on predictable revenue streams rather than erratic gratuities. Companies could absorb these costs through economies of scale or operational efficiencies while guaranteeing fair wages that reflect the true value of skilled labor. By removing tips from the equation, we eliminate the stigma associated with low-income service jobs and treat all workers as professionals deserving of compensation commensurate with their effort, regardless of who walks into the establishment door. Ultimately, a tip-free society would prioritize dignity over charity, ensuring that every worker's income is secure before they even clock in for their shift.",
+ "n_words": 333,
+ "generated_at": "2026-08-17 21:48:35",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether tipping should be abolished",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_06_medium"
+}

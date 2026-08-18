@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_30",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5411
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nIn our rapidly developing society, new technology has an impact on so many new industries, especially in transportation. Currently, many cars have features such as motion sensors and autonomous braking. As these features become more prevalent, there is a ques [...source elided...]",
+ "text": "In our quickly evolving world, emerging technologies are reshaping numerous sectors, with transportation being among the most significantly affected. Today, vehicles increasingly incorporate advanced features like motion sensors and automatic braking systems. As these innovations become standard, many ask whether autonomous vehicles will eventually dominate roadways. There is a strong consensus that self-driving cars offer greater safety than human-operated ones by eliminating mistakes caused by drivers. They also promise higher efficiency, as the computer manages navigation rather than a person, making mobility possible for those unable to drive themselves. However, there are drawbacks to consider. Machines cannot interpret non-verbal social cues or handle unpredictable scenarios with the same nuance as humans, posing potential safety risks. Furthermore, widespread adoption could disrupt the economy by displacing professions such as taxi drivers, driving instructors, and personal injury attorneys. Despite these challenges, the benefits regarding safety, operational efficiency, and inclusivity suggest that autonomous vehicles represent a highly advantageous addition to society.\n\nThe most critical benefit of this technology is enhanced safety. Studies indicate that approximately 81% of collisions stem from human error. Humans are vulnerable to distractions, impaired driving due to alcohol or drugs, and reckless speeding. In contrast, automated systems rely on precise algorithms and remain unaffected by these factors, drastically lowering accident probabilities. While autonomous vehicles do face unique vulnerabilities\u2014such as performance issues during adverse weather or the inability to adhere strictly to human-driven traffic signals\u2014and drivers must have contingency plans for technical failures\u2014all of which happen relatively infrequently\u2014the instances where this technology prevents injury occur far more often, confirming that safety gains supersede potential risks.\n\nAutonomous cars also deliver significant improvements in cost and time efficiency. A reduction in accidents would lower expenses related to insurance claims and medical care. Additionally, passengers could utilize travel time for work or leisure since the vehicle operates without their active control. In fleets of vehicles capable of \"platooning,\" cars communicate with one another to maintain optimal spacing, which smooths traffic flow, reduces congestion, minimizes hazardous conditions, conserves fuel, and permits faster speeds\u2014all contributing to saved driving time. Consequently, autonomous technology streamlines road usage while simultaneously enhancing overall safety.\n\nFinally, the ability to drive without a human behind the wheel expands transportation options for those who currently lack mobility due to disability or age. Individuals with disabilities often depend on others or rely on limited public transit systems that restrict their independence. Autonomous vehicles would provide these individuals with convenient and independent travel solutions. This advantage extends to senior citizens as well; families frequently struggle between ensuring safety and preserving the autonomy of aging parents reluctant to stop driving entirely. Self-driving technology resolves this dilemma by allowing continued mobility without requiring manual operation.\n\nAlthough fully realized autonomous vehicle technology is not yet complete, current developments illustrate how innovation can amplify safety, efficiency, and access. Should further development prove successful, these vehicles will positively transform both the transportation industry and society as a whole.",
+ "n_words": 488,
+ "generated_at": "2026-08-17 22:04:54",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_35",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_35.txt"
+}

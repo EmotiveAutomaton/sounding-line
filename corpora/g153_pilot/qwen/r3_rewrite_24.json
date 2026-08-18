@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_24",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5405
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf driving cars are a highly debated topic simply because they pose virtually equal amounts of advantages and disadvantages. They offer more efficient transportation, mobility for all people, theoretically safer roads, and overall convenience by improving q [...source elided...]",
+ "text": "The rise of autonomous vehicles has sparked intense debate because they present an almost perfect balance between significant benefits and notable drawbacks. On one hand, these cars promise greater transportation efficiency, universal mobility, theoretically safer streets, and a boost in overall quality of life through increased convenience. However, on the other side lie serious concerns: threats to employment for drivers, potential hazards from mechanical failures, an inability to comprehend human intent, and dependence on occasionally unreliable GPS technology. Faced with such compelling pros and cons, one must wonder if accepting these risks is truly justified. While society might not strictly *need* autonomous cars at this exact moment, the rapid trajectory of recent technological progress makes them a logical evolution. The core mission of our digital era is to enhance life for everyone, and self-driving vehicles possess immense potential to achieve exactly that. Ultimately, their advantages are so profound that they outweigh the costs\u2014which are largely solvable\u2014making them beneficial for society as a whole.\n\nThe merits of autonomous driving are so compelling that they effectively neutralize much of the opposition against them. It is undeniable that humans have become deeply addicted to technology and struggle with sustained focus. This reality is evident in how drivers frequently check their phones for trivial messages or calls, breaking concentration while behind the wheel. These seemingly harmless distractions result in thousands of deaths annually, despite existing bans on texting or calling while driving. Consider Maryland: even though it enforces some of the toughest laws against cell phone use in vehicles, it still ranks among the states with the most dangerous drivers and highest fatality rates. Individuals often choose to ignore regulations, but machines do not get distracted; a computer will remain focused as long as programmed correctly. Critics may argue that while computers avoid distraction, they can malfunction. However, mechanical failures occur even in traditional vehicles without any digital assistance\u2014news reports frequently detail sudden brake failures leading to crashes. Furthermore, software glitches and malfunctions are preventable or manageable if manufacturers mandate routine maintenance checks and regular updates for autonomous systems. Essentially, the disadvantages cited by skeptics represent problems that can be solved rather than permanent reasons to reject this technology. Take, for instance, the claim that self-driving cars cannot interpret human traffic signals; developers could embed software capable of recognizing when a signal fails and identifying when a human is directing traffic manually. The vehicle would then analyze the situation or query passengers for instructions. While challenging, there are plenty of brilliant minds ready to tackle this hurdle along with others like it. From environmental improvements to reduced congestion and enhanced mobility for seniors and people with disabilities, self-driving cars offer countless advantages that society seems hesitant to adopt.\n\nGiven that the benefits significantly outweigh the costs, autonomous vehicles should be integrated into future transportation technology. If greater transparency is provided regarding these innovations\u2014and if strategies are outlined for managing and preventing their associated risks\u2014public acceptance will grow, encouraging more people to embrace this safer and easier way of living. The choice appears straightforward: the necessary technology already exists; the only remaining question is whether society is finally ready to step into its own future.",
+ "n_words": 530,
+ "generated_at": "2026-08-17 22:04:01",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_29",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_29.txt"
+}

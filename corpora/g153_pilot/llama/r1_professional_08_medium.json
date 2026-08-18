@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_08_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5377
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: thanking a team after a launch. Plain prose.",
+ "text": "Subject: Launch Success - A Heartfelt Thank You to the Team\n\nDear Colleagues,\n\nI wanted to take a moment to express my sincerest gratitude and appreciation for the incredible effort put forth by each of you in making our recent product launch a resounding success. The dedication, expertise, and commitment shown by every team member has truly been remarkable.\n\nFrom the outset, it was clear that this would be a challenging project, but your collective energy and drive transformed what could have been a daunting task into an opportunity to shine. Your tireless work ethic, creative problem-solving skills, and willingness to lend support when needed made all the difference in bringing our vision to life.\n\nThe launch event itself was a testament to your hard work, with outstanding feedback from attendees and media coverage that exceeded expectations. I'm particularly proud of how you came together as a team to overcome obstacles and address concerns in real-time.\n\nThis achievement wouldn't have been possible without each of your individual contributions. Your commitment to delivering exceptional results is what sets our organization apart, and I feel privileged to work alongside such a talented and motivated group.\n\nPlease know that this success is a direct reflection of your dedication, expertise, and passion for excellence. As we continue to build on this momentum, I encourage you to celebrate not only the launch itself but also the incredible team spirit that made it happen.\n\nOnce again, thank you for an outstanding effort. Your collaboration, perseverance, and unwavering commitment have been an inspiration to me personally and a testament to our organization's strength as a whole.\n\nBest regards,\n\n[Your Name]",
+ "n_words": 273,
+ "generated_at": "2026-08-17 20:53:09",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "thanking a team after a launch",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_08_medium"
+}

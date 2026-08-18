@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_27",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5408
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSociety is constantly growing and adapting in regards to its' technology. Products becoming available to the public nowadays would have been completely unfathomable years prior. One futuristic concept being tested now is the idea of self-driving cars.This tec [...source elided...]",
+ "text": "Society is in a perpetual state of evolution regarding technological advancements; items we take for granted today were once considered impossible years ago. Currently, one such futuristic concept under active testing is the self-driving automobile. This technology attracts public interest for several compelling reasons: increased accessibility for all, the belief that it will lower accident rates, and projected improvements in traffic flow. However, there are significant drawbacks to integrating autonomous vehicles into our daily lives, including prohibitive costs, software failures, potential driver atrophy leading to incompetence, and the eventual obsolescence of many jobs centered around physical driving. Ultimately, despite the potential advantages, the disadvantages of self-driving cars outweigh their benefits for society as a whole.\n\nThe primary motivation behind adopting autonomous vehicles is often cited in articles: the drastic reduction of road accidents. Yet, this outcome relies on a level of perfection that simply does not exist. Even with automation, passengers must retain knowledge of vehicle mechanics to handle emergencies; since human error remains possible, an accident-free guarantee is impossible. Furthermore, adverse weather conditions can interfere with laser sensors mounted atop these vehicles. Consequently, the driver must remain ready to intervene if the system fails, meaning accidents caused by human reaction times will still occur. Additionally, software cannot possibly encode every local traffic law, road hazard, or temporary construction detour. Even GPS systems are not infallible; whereas a manual driver can navigate around inaccuracies in real-time, an autonomous car lacking this adaptability could easily result in collisions. It is impossible to ensure that self-driving cars will revolutionize safety records as intended. Moreover, when accidents inevitably happen\u2014perhaps due to glitches or recalls\u2014the legal landscape becomes muddled regarding liability: Is the fault with the vehicle? The manufacturer? Or the passenger?\n\nBeyond safety concerns and legal complexities, autonomous vehicles pose a greater net harm than good to society at large. Primarily, they remain inaccessible to the vast majority of people. Current engineering costs, power requirements, and associated expenses estimate these cars as costing upwards of $100,000. To derive any meaningful societal benefit from this technology, it would need widespread adoption across all demographics, which currently appears impractical. Even if mass implementation were achieved, it would render numerous vital professions obsolete. Industries such as auto manufacturing, driver education firms, personal injury law practices, and the gasoline sector would face severe workforce reductions. Many individuals could lose their livelihoods due to this reduced demand for human drivers, leading to negative economic repercussions and higher unemployment rates.\n\nWhile technology offers immense advantages in modern life, it should only be deployed where genuinely necessary. Should we desire a future where humanity loses its ability to operate basic vehicles? Is it wise to create a society so dependent on automation that a single software glitch or recall leaves millions stranded with no means of transportation? Do we truly want an innovation that precipitates the mass displacement of American workers? Why should we endure these economic, moral, and safety dilemmas when manual driving effectively resolves most of them without such risks?",
+ "n_words": 502,
+ "generated_at": "2026-08-17 22:04:28",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_32",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_32.txt"
+}

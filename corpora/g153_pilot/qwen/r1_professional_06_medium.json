@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_06_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5373
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: documenting a process handover. Plain prose.",
+ "text": "Subject: Documentation and Handover of Current Operational Processes\n\nI am writing to formally initiate the documentation phase for the upcoming transition of our current operational workflows, effective next month as we integrate new team members into existing roles. The primary objective is to ensure a seamless transfer of responsibility that minimizes disruption while preserving institutional knowledge. This process involves meticulously recording standard operating procedures (SOPs), key decision-making frameworks, and established communication channels for each major project portfolio under our purview.\n\nTo begin, I have compiled the initial draft within the shared repository, categorizing tasks by complexity and dependency levels. Each section includes step-by-step instructions, relevant asset links, and a list of potential troubleshooting scenarios derived from past experiences. This structured approach ensures that any\u63a5\u624ber can not only replicate current output but also understand the \"why\" behind specific actions, fostering better adaptability during unforeseen challenges. I have highlighted critical dependencies on external stakeholders within these documents to prevent bottlenecks once the handover is complete.\n\nFurthermore, this documentation serves as a living guide rather than a static manual. It will be updated quarterly to reflect process optimizations and changes in regulatory requirements. By establishing this baseline now, we are proactively addressing potential gaps that often arise during personnel shifts. I request your review of the attached files by Friday so we can finalize any necessary clarifications before launching into live simulations next week. Our goal is to achieve a 100% comprehension rate among new hires within their first thirty days on the job, ensuring they feel confident and competent immediately upon taking over duties.\n\nPlease let me know if you identify any critical areas missing from this initial draft or if there are specific nuances regarding our legacy systems that require immediate elaboration. I am available to discuss these points in a brief meeting at your earliest convenience. Together, we will ensure that the transition reflects the highest standards of professional continuity and operational excellence expected within our organization.",
+ "n_words": 327,
+ "generated_at": "2026-08-17 21:59:15",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "documenting a process handover",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_06_medium"
+}

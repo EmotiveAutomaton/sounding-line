@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_39",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5420
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAfter decades of the prosperous advances of artificial intelligence (AI), especially among the last several years when we have benefited from AI tremendously on a variety of domains such as medicine, e-commerce and digit devices, one futuristic industry also  [...source elided...]",
+ "text": "Following years of remarkable progress in artificial intelligence (AI)\u2014particularly recent breakthroughs that have revolutionized fields like healthcare, online retail, and consumer electronics\u2014a transformative industry powered by AI is slowly entering our daily lives: autonomous vehicles.\n\nWe are fortunate to witness a pivotal shift in transportation history unfolding right now. The most significant development currently underway involves self-driving cars; as the name suggests, these vehicles navigate without human intervention, often referred to as \"driverless.\" This reality is closer than many realize today. Residents across several states, including Washington D.C., Nevada, Florida, Michigan, California, and Pennsylvania, have already experienced tested autonomous vehicles cruising smoothly through city streets. Adorned with numerous sensors that give them a futuristic appearance, these cars may look unusual but are undeniably promising.\n\nWhile this technology is still maturing and not yet fully realized everywhere, the debate regarding its advantages and disadvantages has intensified. Is it a divine gift or another Pandora's box risk? Opinions vary widely. However, given that hundreds of major corporations\u2014such as Google (now Alphabet), Apple, Audi, Baidu, and Tencent\u2014are investing heavily in this research, one might wonder if they are acting irrationally or squandering resources on flawed products.\n\nThe answer is clear: autonomous vehicles represent a magnificent gift to humanity.\n\nThere are countless benefits associated with these machines, two of which stand out above all others. The primary advantage lies in safety. While mechanical failures can occasionally cause accidents, human error remains the leading factor behind road collisions. Chris Urmson, former head of Google's self-driving car division, noted that their vehicles excel by being more courteous and defensive than typical drivers. Effectively acting as ideal motorists, computer algorithms precisely calculate braking distances and gaps between other vehicles to drastically reduce accident risks.\n\nThe second major benefit is enhanced mobility for everyone, particularly those who require it most. Self-driving technology offers unprecedented freedom to individuals unable to drive due to disability, intoxication, or advanced age. For these groups, reliance on public transit or assistance from others will diminish significantly as autonomous cars become widely available.\n\nSkeptics may still voice concerns about potential downsides, though such apprehensions often overlook the bigger picture. We can address two of the most contentious arguments: data privacy and job displacement.\n\nFirst, some worry that embedded computers in these vehicles could collect personal information. While this risk exists today, it is not unique to autonomous cars. As our world becomes increasingly interconnected through the Internet of Things (IoT), virtually every device will generate and share digital data to enhance intelligence and convenience. Furthermore, we anticipate that future advancements will significantly strengthen private data protections.\n\nSecond, there is fear regarding job losses in transportation sectors like freight logistics and taxi services. While this shift may temporarily impact employment rates, it serves a greater long-term purpose for human progress. Rejecting innovation based on short-term economic anxieties would hinder overall societal advancement; embracing automation ultimately leads to more efficient systems.\n\nIn conclusion, we should wholeheartedly welcome the bright future of self-driving technology and look forward to enjoying its conveniences soon!",
+ "n_words": 505,
+ "generated_at": "2026-08-17 22:06:14",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_43",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_43.txt"
+}

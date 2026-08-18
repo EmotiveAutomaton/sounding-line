@@ -453,23 +453,24 @@ all fixed by construction.**
 | **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test, L5), one coherent thing.** At matched length, revision raises lexical sophistication (longer, rarer, more polysyllabic words, fewer stopwords), one factor under six names, sign agreement 70 to 78% across authors |
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered.** Raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
 | **PD-28** | The surviving effect is polish, not depth | **SUPPORTED (test, L42/L66), the matched control decided it.** With content and surface revisions balanced on size, rarity shift, position, and difficulty (coarsened exact matching, balance verified), content identifiability collapses from 0.857 to 0.507 against 0.5 chance. Within common support, the content-associated lexical effect *was* its covariates: sophistication and magnitude, not recoverable depth. Scope: the matched fifth of the corpus, which is where comparable revisions live |
-| **G129-pilot** | Recorded revision purposes are recoverable from the delta by a bounded reader | **CONCLUDED, RECOVERABLE (test, L62/L64/L65).** Under the clean construction (truth-balanced, floor verified analytic: blind 0.232 against 0.25) recovery holds 0.477 against 0.25, a 22.7-point margin on 616 events, consistent with both crooked-floor estimates |
+| **G129** | Recorded revision purposes are recoverable from the delta by a bounded reader, beyond matched alternatives and beyond a cheap change-feature baseline | **CONFIRMED AT CONFIRMATORY GRADE, WITH THE BASELINE WINNING THE INSTRUMENT CONTEST (test, L132; pilot chain L62/L64/L65).** On the preregistered battery (shared manifest, exhaustive bands): full-set recovery 0.4854 against the analytic 0.25 floor (REPLICATES); the matched draw, truth-balanced per L126, holds 0.4148 against its restored analytic floor (SURVIVES at 16.5 points, n 176 of the powered 283, disclosed); blind arms at chance; brief-alone 0.274 and source-alone 0.305, so context and topic supply little and the delta supplies the rest; fabrication rate 0.000 on two hundred no-op deltas with the symmetric control missing 1 of 200. The 19-dim change block beats the zero-shot reader head to head (0.5552, exact McNemar p = 0.0097), so the detector-facing features build on the block while the reader supplies the abstention behavior the block cannot. The shuffle gate fired below chance exactly as a delta-tracking reader predicts (expected 0.125, read 0.110); the gate's missing direction is a recorded specification defect, not leakage |
 | **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73), the raised floor DECOMPOSED (test, L126).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither. The floor's rise is 87% label-marginal alignment: matching reweighted the truth labels toward the ones the blind reader guesses by default, no text information involved, so the delta-specific remainder stands against a compositional floor rather than a covariate-information one. Owed: the powered matched replication, now the G129 confirmatory battery, whose matched draw truth-balances within common support to restore the analytic floor |
 
-**What the table says.** The collision ran and split the difference in an instructive way. The
-matched control collapsed content identifiability to chance, and under the same matching the
-recovery margin shrinks by two thirds without vanishing: the floor rises, not the recovery.
-The decomposition then explained the rise itself: it is composition, not context. Matching
-reshuffled which purposes dominate the subset, and the labels that survive matching are the
-ones a text-blind reader guesses by default, so the higher floor never meant the matched
-events' purposes were half-predictable from context; it meant the label mix had drifted onto
-the reader's priors. What stands is a recoverable-purposes claim with a delta-specific part of
-roughly eight points, graded by no band because the prereg's own bands declined to cover it,
-an honest gap the confirmatory battery closes with power and an analytic floor (truth balance
-inside the matched support). The hurried-versus-careful commission remains the designed
-extension. Confidence: the collapse, the pilot margin, and the collision are each one bad
-test away; the floor decomposition is one bad test away and mechanically checkable from its
-own output file.
+**What the table says.** Recorded purposes are recoverable from the delta, and the claim now
+stands at confirmatory grade rather than pilot grade: recovery far above an analytic floor at
+power, a matched-and-balanced margin twice the collision's ambiguous eight points, context and
+topic arms showing the information lives in the delta, and a reader that asserted a purpose on
+exactly zero unchanged sentences, which is the fabrication bound every downstream use inherits.
+The instructive residue is the instrument contest: nineteen surface measures of what changed
+beat the language-model reader head to head on identical events, so recoverability of the
+choice and the best reader of the choice are different questions with different answers, and
+the detector-facing representation starts from the feature block while the reader contributes
+calibrated refusal. What the battery cannot say is whether any of this tracks decision
+structure rather than this corpus's particulars; that construct question belongs to the
+factorial benchmark, which is now the section's live build. The hurried-versus-careful
+commission remains the designed extension. Confidence: the confirmatory battery is replicated
+and controlled on this corpus (one corpus, one reader family); the matched arm is one bad test
+away by its own power shortfall; the collapse and the floor decomposition stand as before.
 
 ## §7. Reader-side measurement: the second channel, briefly
 

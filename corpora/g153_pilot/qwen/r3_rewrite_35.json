@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_35",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5416
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThere are many advantages for the United States to transition to self-driving cars. The primary benefit is simply the amount of lives saved due to the elimination of intoxicated, distracted, or otherwise dangerous drivers. Computers provide a precise, safe al [...source elided...]",
+ "text": "Shifting toward autonomous vehicles offers significant advantages for the United States above all else: the preservation of human life. By removing intoxicated, distracted, or fatigued drivers from the equation, self-driving cars eliminate a major source of danger that stems directly from fallible humans and replace it with computer systems capable of precise, safe navigation. Beyond saving lives, this transition promises financial relief through reduced insurance premiums and infrastructure modernization, while simultaneously easing traffic congestion and lowering environmental impact. Nevertheless, obstacles remain. These hurdles include the steep learning curve associated with adoption, high upfront costs, current technological unreliability, and the threat to employment in specific sectors.\n\nDebate often revolves around whether a proposed change benefits or harms society at large. To take a stance on such issues\u2014be it for or against\u2014we must rigorously examine four critical questions: Who exactly constitutes \"society\"? What defines what is beneficial? What are our collective needs? And ultimately, how much of an individual sacrifice does the pursuit of the public good require?\n\nIn this specific context regarding autonomous driving technology, those answers become clear and straightforward. Any innovation with the capacity to prevent loss of life serves both the individual and society simultaneously. While we must acknowledge existing technological gaps, financial barriers, and a potentially difficult adjustment period, self-driving cars represent an inevitable future where lives are saved above all else. No other advantage can outweigh this primary benefit, nor should any limitation halt our progress.\n\nThe United States currently faces a severe crisis on the roads. Annually, approximately 33,000 individuals lose their lives in vehicle collisions; tragically, most of these tragedies could have been avoided had drivers not been impaired by alcohol, fatigue, distraction, or poor judgment. The toll is perhaps even more heartbreaking when considering teenagers. Automobile accidents are the leading cause of death for this demographic, with a vast majority being preventable events. Cognitive science and psychology confirm that adolescents are prone to risky behaviors, including dangerous driving under the influence. While obtaining a driver's license has long been seen as an American rite of passage, it is time to halt the needless devastation caused by car crashes before more young lives are lost.\n\nFurthermore, recent calculations suggesting a monetary value per human life (such as the Department of Transportation's figure of $9.2 million) miss the fundamental truth: a human existence is priceless. No amount of money can restore someone who has been killed, nor replace the void left behind by their absence.\n\nOf course, skepticism regarding self-driving cars due to fears of technical malfunction is understandable and shared here as well. The recent fatality in Arizona involving a test vehicle that struck a pedestrian outside a crosswalk serves as a stark reminder that we have not yet perfected this technology. We are still years away from large-scale implementation and must navigate complex ethical, legal, and policy challenges. Yet, despite these hurdles, the potential reward is immense: saving countless lives and preventing debilitating injuries for many others. It remains our moral duty to harness innovation as history has shown us how best to apply it\u2014by enhancing society and improving the quality of life for all Americans.",
+ "n_words": 523,
+ "generated_at": "2026-08-17 22:05:41",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_4",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_4.txt"
+}

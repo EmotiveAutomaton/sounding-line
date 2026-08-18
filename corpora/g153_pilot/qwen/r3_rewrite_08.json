@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_08",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5389
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nIt seems that cars have always been the same: four wheels, a body, a steering wheel. They are ridiculously simple! Compare to the history of bicycles for example. If you happen to have seen those old black and white photographs of early bicycles, you will see [...source elided...]",
+ "text": "It appears automobiles have remained remarkably consistent throughout their history: four wheels, a chassis, and a steering wheel. They seem absurdly basic! Consider the evolution of bicycles instead; examining vintage black-and-white images reveals a intricate progression that mirrors biological development. Yet, something is brewing on the horizon destined to overturn everything we know about cars (though the vehicles themselves will likely remain four-wheeled).\n\nAutonomous vehicles are already here, sparking intense debate regarding their benefits and drawbacks. Supporters of automation argue that self-driving cars could eradicate the staggering number of fatal accidents by removing human error; machines cannot be distracted by music or pedestrians, nor can they drive while intoxicated or under the influence of drugs. Another key benefit is the potential for massive vehicle-to-vehicle communication within a city. This connectivity would allow fleets to coordinate speeds and manage red-light timing to optimize traffic flow and minimize travel times. Furthermore, their precision could enable vehicles to pack tighter without causing congestion. Finally, automated cars offer vital assistance to the disabled and elderly. Advocates claim that once automation becomes widespread, society as a whole will reap rewards such as saved lives, reduced financial losses from crashes, lower fuel consumption, and decreased need for traffic enforcement personnel.\n\nConversely, opponents of this technology raise valid concerns. However, some of these objections are superficial or easily dismissed. For instance, the fear that a disabled human driver might panic if an autonomous vehicle breaks down is unrealistic; today's average person often struggles to manually restart a car stuck in traffic anyway, and such incidents rarely cause city-wide chaos. Other criticisms focus on environmental limitations: \"What happens when it snows?\" or \"How do they handle potholes like those in Pittsburgh?\" While these are genuine questions, they do not render the technology unworkable; daily advancements suggest these edge cases will eventually be solved.\n\nSetting aside these surface-level critiques, we must address deeper structural issues. On an infrastructural level, there is the critical challenge of cybersecurity for a delicate network of interconnected software that constantly exchanges data between vehicles. If security breaches occur\u2014as suggested by some reports allowing hackers to manipulate such systems\u2014it could lead to catastrophic disaster. Achieving robust protection might be prohibitively expensive, potentially negating any savings gained from reduced fuel consumption.\n\nNevertheless, the most significant hurdle facing self-driving cars is their adoption rate. The advantages listed above rely entirely on widespread deployment. If autonomous vehicles only replace 2% of the total fleet, the benefits of coordinated traffic flow will remain negligible, and safety gains will be limited. This dynamic applies to human driving behavior as well; ironically, strictly adherent drivers often cause accidents when others exceed speed limits or cut them off. Imagine a road with a 50 mph limit where everyone speeds up unless police are watching; the single driver obeying the law becomes a source of frustration and danger for themselves and others. Consequently, the true potential of autonomous vehicles will only materialize once a significant portion of society adopts them.\n\nGiven their current high cost and natural public resistance to technological shifts, it seems self-driving cars will remain on the periphery for some time. They may continue to fuel imagination and debate but are unlikely to see mass adoption in the near future. Right now, humanity is simply not ready to embrace this technology at scale.",
+ "n_words": 553,
+ "generated_at": "2026-08-17 22:01:42",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_14",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_14.txt"
+}

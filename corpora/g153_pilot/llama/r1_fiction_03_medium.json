@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_03_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5327
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a piano tuner who hears a note nobody played. Prose only, no headings.",
+ "text": "As he tightened the final string, Erich felt it - that slight warble in the silence. He paused, fingers hovering above the keys, and listened more intently. The stillness of the room seemed to amplify the sound, making it almost palpable. It was a note that shouldn't be there, yet somehow it was. A fleeting presence, a whispered secret.\n\nErich's eyes wandered around the empty concert hall, as if searching for a culprit. But he knew better - he had been tuning pianos for over two decades, and this phenomenon was nothing new. Some said it was the result of a faulty piano, or an overly sensitive ear. But Erich knew that wasn't true.\n\nHe had heard this note before, in other rooms, with other instruments. Always fleeting, always just out of reach. It was as if the music itself had developed a life beyond its players - a ghostly echo that lingered long after the last chord faded away.\n\nErich's thoughts drifted back to his own childhood, listening to the old upright piano at home. His mother would play Chopin nocturnes for hours on end, and Erich would sit entranced by the sound. And then, sometimes - just as suddenly as it began - the music would stop, leaving behind that same unplayed note.\n\nHe took a step back from the instrument, his ears still straining to catch the sound. For a moment, he held his breath, waiting for the silence to yield its secret once more. But it was gone now, lost in the quiet of the room. Erich sighed, and began to pack up his tools - another day's work done, but the note remained elusive, taunting him with its presence just out of hearing range.",
+ "n_words": 289,
+ "generated_at": "2026-08-17 20:47:08",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a piano tuner who hears a note nobody played",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_03_medium"
+}

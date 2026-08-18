@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_24",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5405
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf driving cars are a highly debated topic simply because they pose virtually equal amounts of advantages and disadvantages. They offer more efficient transportation, mobility for all people, theoretically safer roads, and overall convenience by improving q [...source elided...]",
+ "text": "The development of self-driving cars has sparked a contentious discussion due to their dual nature: both promising significant benefits and harboring considerable drawbacks. On one hand, they offer enhanced efficiency, accessibility for all individuals, theoretically safer roads, and increased convenience by improving overall quality of life. Conversely, they pose job threats for transportation workers, potential hazards in the event of malfunctioning systems, limitations in understanding human intentions, and reliance on potentially faulty GPS technology.\n\nWhile weighing these competing considerations raises valid concerns about whether the risks justify the potential advantages, it is essential to acknowledge that technological advancements are driving society towards a future where automation becomes increasingly integrated into daily life. The digital age has brought numerous innovations aimed at improving living standards, and self-driving cars have sufficient potential to contribute positively in this regard.\n\nThe benefits of self-driving vehicles far outweigh their drawbacks, making them a valuable addition to modern transportation systems. In fact, the argument against them is somewhat diminished by the evident advantages they offer. The widespread use of technology among drivers is a stark reminder of our addiction to digital devices while behind the wheel. Even with stringent laws in place, such as those in Maryland, accidents caused by distracted driving continue to claim thousands of lives annually. In contrast, self-driving cars are less susceptible to these hazards since their onboard computers cannot be distracted or swayed from their tasks.\n\nThose who argue that a malfunctioning computer poses an insurmountable risk can be countered by noting the inherent vulnerabilities of traditional vehicles. Breakdowns and malfunctions do occur in human-driven cars as well, sometimes resulting in catastrophic consequences. However, it is feasible to mitigate such risks through routine maintenance, software updates, and careful planning.\n\nThe challenges posed by self-driving cars \u2013 from interpreting traffic signals to managing complex scenarios \u2013 are not insurmountable obstacles but rather opportunities for innovation and problem-solving. Embedding sophisticated algorithms that can analyze human gestures or solicit input from passengers could address issues like traffic signal interpretation. Moreover, numerous benefits of self-driving cars, including environmental sustainability, reduced congestion, and increased mobility for seniors and individuals with disabilities, make them a valuable asset for society.\n\nGiven the significant advantages offered by self-driving cars, their integration into our transportation systems is a crucial step forward. By sharing information about these vehicles' capabilities and the measures that can be taken to mitigate potential risks, more people will be encouraged to adopt this technology, leading to safer, more convenient lives for all. Ultimately, the decision to implement self-driving cars hinges on whether society is prepared to seize the opportunities presented by technological progress.",
+ "n_words": 437,
+ "generated_at": "2026-08-17 20:56:00",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_29",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_29.txt"
+}

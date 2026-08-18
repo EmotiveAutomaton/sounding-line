@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_07",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5388
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe new technology of self-driving cars is decades in the making in Pittsburgh, with Carnegie Mellon first leading the way in the 1990s.  Since then the city has been a literal testing ground for companies like Uber and Argo AI, with the mayor keen on attract [...source elided...]",
+ "text": "The development of autonomous vehicle technology has been cultivated within Pittsburgh for decades, with Carnegie Mellon University setting the stage as early as the 1990s. Over time, the city evolved into an actual proving ground for major industry players such as Uber and Argo AI, a trajectory supported by a mayor eager to draw in\u2014and retain\u2014the world's leading innovators in this field. Despite official enthusiasm, public sentiment has often been divided; opposition was already present before recent tragedies, notably following a fatal incident involving an Uber autonomous vehicle that brought testing operations to a standstill. However, the intense backlash observed after such accidents seems puzzling when one considers that these machines are statistically far safer than human operators\u2014or rather, reveals just how dangerous typical human drivers truly are.\n\nWhile the death of one individual in an automated Uber led to immediate suspension of their tests, it is estimated that roughly 81% of all car crashes stem from mistakes made by people behind the wheel. Workers based in Oakland frequently witness this pattern firsthand: human error does not just affect other cars but also endangers pedestrians and cyclists. People simply cannot react quickly enough to sudden environmental shifts\u2014whether a person steps onto Forbes Avenue or another vehicle swerves sharply to avoid debris like potholes. Furthermore, drivers are becoming increasingly divided by distractions; many choose to multitask while driving for everything from applying makeup to watching live TV streams. Autonomous cars also offer a solution to drunk driving challenges. Since independent designated driver services and reliable taxi options remain scarce in the region, intoxicated individuals often feel compelled to drive themselves\u2014traveling routes like those between Southside and South Hills\u2014with predictable and devastating outcomes.\n\nAccessibility and inclusion are central concerns as well. As Pittsburgh plans upgrades to its rapid transit network intended to speed up connections for current users, there is a risk that low-income residents and people with disabilities will be left out of the conversation entirely. Autonomous fleets could serve dual purposes: safely transporting intoxicated passengers while simultaneously providing mobility solutions for those currently excluded from transportation due to location or ability. This includes residents in areas where public transit options are virtually nonexistent. The elderly and disabled populations, who once had greater access through paratransit programs before severe budget reductions dismantled these systems, face particular vulnerability without alternative transport means.\n\nOne common rebuttal to the accessibility argument is undoubtedly the steep price tag of autonomous technology today. With upfront costs exceeding $100,000 per unit, there exists almost no intersection between individuals currently dependent on public transit and those who could immediately afford such vehicles\u2014scarcely any car owners could manage this expense right now either. Fortunately, two factors may mitigate these concerns over time. First, as history has shown with VHS tapes, Game Boys, personal computers, and other tech staples from our past, the cost of cutting-edge technology almost always declines significantly over years of mass adoption\u2014what seems unaffordable today might be commonplace tomorrow. The bigger uncertainty lies in whether Pittsburgh can overcome its entrenched car-centric culture to embrace shared autonomous vehicles as part of a modernized public transit ecosystem that serves everyone equally well.",
+ "n_words": 524,
+ "generated_at": "2026-08-17 22:01:32",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_13",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_13.txt"
+}

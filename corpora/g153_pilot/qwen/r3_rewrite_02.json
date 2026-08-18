@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_02",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5383
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nCar accidents have been a major problem in the United States for decades. Centers for Disease Control states that fatalities from traffic incidents happen on an annual basis upwards of 33,000 people. In previous years, many researchers are discovering possibl [...source elided...]",
+ "text": "For many decades, motor vehicle collisions have remained a critical challenge across the United States. According to data from the Centers for Disease Control and Prevention, traffic-related fatalities number more than 33,000 annually. While researchers in prior years identified various potential remedies, one emerging concept has recently gained significant traction: autonomous vehicles. Although this technology appears promising as a method to eradicate crashes, I remain skeptical regarding its viability.\n\nAt first glance, self-driving cars seem like an effective answer to reducing accidents; however, insufficient testing currently exists to confirm their absolute safety and utility in resolving the problem. It is true that lack of attention is a primary cause of collisions, so theoretically, removing human distraction could improve road safety. Additionally, these vehicles have the potential to significantly reduce drunk driving incidents, thereby saving countless lives.\n\nDespite these apparent benefits, many argue that autonomous cars are not enough for our current needs. A major concern is their exorbitant manufacturing cost, which makes them inaccessible solutions. Furthermore, widespread adoption of this technology could devastate employment within both transportation and fuel industries, creating significant economic repercussions.\n\nIf society becomes increasingly reliant on automated driving systems, there is a risk that we will lose the fundamental skill of operating vehicles manually. This dependency creates a dangerous scenario: should an autonomous system malfunction while the driver lacks the ability to take control immediately, serious accidents could occur. Ultimately, too much investment has been poured into a solution that does not guarantee enhanced safety for all road users. Beyond economic displacement and environmental risks in poor weather conditions\u2014where current computer systems struggle\u2014the transition to full autonomy poses substantial dangers. We must carefully consider how this advanced technology will coexist with human drivers before it becomes the standard, as relying on unproven systems is neither wise nor safe.",
+ "n_words": 302,
+ "generated_at": "2026-08-17 22:00:47",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_100",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_100.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_07_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5335
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a bricklayer building his last wall. Prose only, no headings.",
+ "text": "The trowel felt heavier today than any other in thirty years of labor, the steel blade slick with mortar that wouldn't quite stick to his thumb despite how many times he wiped it clean against his trousers. Elias stood before a plot of land where an old farmhouse once lay in ruins, swallowed by vines and time. He was here for one final job: closing the gap between two crumbling foundations where no new house would ever rise. It was not part of the original contract; the owner had simply asked him to \"tidy up\" before moving his belongings back into a larger property down the lane.\n\nElias began at the corner, mixing sand and lime with eyes that had seen too many seasons pass without changing much in their essence. The rhythm of work is hypnotic: scoop, drag, press, smooth. But as he laid each brick, the mortar seemed to set faster than before, binding him tighter to this quiet afternoon. A pigeon landed on a rusted fence post nearby and watched him with unblinking eyes; Elias smiled at it without looking up from his work. He thought about why men stop building\u2014the hands give out, or the heart hardens into dust that scatters when one stops trying to hold things together.\n\nWhen he placed the final brick atop the north corner, sealing a space where silence had reigned for decades, he leaned back and wiped sweat from his brow with a rag stained gray. The wall stood straight and true against an afternoon sky turning shades of bruised purple and burnt orange. It was not a grand structure; it would hold no memories or shelter anyone but the dust motes dancing in its shadowed throat. Yet, as he stepped back to admire his handiwork, Elias felt a strange sense of completion wash over him. The world outside continued turning indifferent, unaware that for this brief moment, something lasting had been created from nothing more than stone and sweat. He packed up his gear slowly, each movement deliberate, knowing the bell in his pocket would ring one last time before he hung it forever on the nail behind his door.",
+ "n_words": 361,
+ "generated_at": "2026-08-17 21:52:25",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a bricklayer building his last wall",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_07_medium"
+}

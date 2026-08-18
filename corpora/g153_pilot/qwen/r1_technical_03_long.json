@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_03_long",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5348
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: what a database index does. Prose only, no headings or lists.",
+ "text": "Imagine you are trying to find a specific recipe in an enormous cookbook that contains thousands of pages and hundreds of recipes. If the book were unorganized, your only option would be to start at page one and flip through every single entry until you found the correct title, a process known as a linear scan. In this worst-case scenario, if there are ten thousand recipes, it might take you half an hour or longer just to locate one specific dish because you have no other choice but to examine each item sequentially. Now imagine that instead of flipping pages randomly, every recipe had its own unique title listed at the very front of a small card catalog in alphabetical order. When someone asks for \"Pancakes,\" you do not need to open the main book; you simply look up \"P\" and then navigate directly to the section where all pancakes are grouped together based on their first letter, allowing you to jump straight from the start of that category right down to your target recipe in a matter of seconds. This card catalog is precisely what a database index functions as within the vast digital libraries known as databases.\n\nIn computer science terms, a database stores massive amounts of data organized into tables composed of rows and columns where each row represents an entity like a customer or a product while specific cells hold attributes such as names, prices, or dates. While computers are incredibly fast processors capable of executing billions of calculations per second, they still face limitations when dealing with datasets containing millions or even billions of records. Without assistance, the database engine must evaluate every single record in a table to determine which ones satisfy certain conditions during a query operation. This exhaustive approach becomes inefficient as data volume grows exponentially, leading to sluggish performance and frustrating delays for users waiting for search results or reports to generate. The index solves this problem by creating an auxiliary structure that maps the contents of one column directly to its location within the underlying table storage.\n\nThe most common type of indexing mechanism works much like a traditional book's table of contents but is more sophisticated, handling multiple columns and complex data types simultaneously. When you create an index on a specific field, such as a customer email address or a product SKU, the database software constructs this separate lookup structure that typically keeps those values sorted in ascending order. This sorting capability allows the system to employ highly efficient search algorithms known as binary searches rather than checking every row linearly. With a binary search approach, if you have a million records and need to find one specific value, the computer can eliminate half of the remaining possibilities with each step it takes, reducing what would be a potentially hours-long task into mere milliseconds or microseconds depending on hardware speed. This dramatic reduction in lookup time is why modern applications feel instant even when querying huge amounts of data; without these hidden structures behind the scenes, simple searches could freeze an entire system under heavy load.\n\nIt is important to understand that indexes are not free magic but rather a trade-off involving storage space and write performance on one hand versus read speed on the other. Every time you add or modify data in a table\u2014such as inserting a new user record or updating a price\u2014the database must simultaneously update every relevant index structure to maintain their integrity and sorting order. This overhead means that tables with very few columns or where updates are frequent might actually perform better without an index, although this is relatively rare for large-scale applications like e-commerce platforms or social media networks where reading data far outweighs writing new rows by orders of magnitude. Furthermore, different databases support various types of indexes ranging from standard B-tree structures optimized for range queries and equality checks to specialized hash indexes used primarily for exact match lookups in memory-resident systems. More advanced systems also offer bitmap indexes tailored for columns containing low-cardinality data like gender or status flags found frequently in reporting dashboards rather than transactional processing.\n\nUltimately, the effectiveness of an index relies heavily on how well it aligns with the patterns of access defined by user queries and application logic. A poorly designed database might waste resources maintaining redundant indices that are never queried while failing to provide necessary speed for critical operations. Skilled developers analyze query execution plans generated by their specific database management system to determine exactly which columns would benefit most from indexing based on selectivity, data distribution, and the frequency of access patterns in production environments. By strategically placing these digital bookmarks throughout a dataset, administrators ensure that applications remain responsive as they scale up over time, transforming what could be an insurmountable mountain of raw data into accessible information available instantly with just a few keystrokes from anywhere in the world.",
+ "n_words": 822,
+ "generated_at": "2026-08-17 21:54:52",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "what a database index does",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_03_long"
+}

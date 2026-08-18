@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_02_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5346
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: how a refrigerator moves heat. Prose only, no headings or lists.",
+ "text": "At its core, a refrigerator is a complex device that leverages the fundamental laws of thermodynamics to move heat from one location to another. In essence, it's a machine designed to perform the seemingly impossible task of making a cooler place even cooler by transferring heat away from it. But how does it actually work?\n\nThe process begins with the refrigeration cycle, which is driven by a type of fluid called a refrigerant. This substance has some unique properties that make it well-suited for its role: it can change state easily between liquid and gas, and it absorbs heat readily when it's in its gaseous state. When electricity flows through the compressor, it compresses the refrigerant, which in turn causes its temperature to rise dramatically. This hot compressed gas then travels to the condenser coils located at the back of the refrigerator.\n\nHere's where things get interesting: as this hot gas passes over a series of tubes in the condenser coils, it releases its heat into the surrounding air. This is an example of a fundamental thermodynamic principle known as convection, where heat transfer occurs through the movement of fluids. In this case, the refrigerant is doing all the hard work by transferring its heat to the environment.\n\nBut what's happening here is not just some mechanical process; it's also governed by the laws of physics. As the hot gas releases its heat, it begins to expand, which causes its temperature to drop slightly. This decrease in temperature is a result of the refrigerant following the principle of adiabatic cooling, where the expansion of a gas results in a corresponding drop in its temperature.\n\nOnce the hot compressed gas has released some of its heat and expanded into a lower-temperature state, it enters a device known as the expansion valve. This valve essentially acts as a choke point for the refrigerant, restricting its flow and causing its pressure to decrease further. As a result, the refrigerant's temperature drops even more significantly, often by as much as 20 or 30 degrees Fahrenheit.\n\nWith the refrigerant now in this cold state, it enters the evaporator coils located inside the refrigerator itself. This is where magic happens \u2013 literally. As this cold fluid passes over a series of tubes and fins within the evaporator coils, it absorbs heat from its surroundings. In other words, it takes advantage of another thermodynamic principle: latent heat absorption.\n\nLatent heat absorption occurs when a substance changes state (in this case, liquid to gas) while absorbing or releasing heat energy. When the refrigerant passes over the evaporator coils, it rapidly expands and turns back into a gas as it absorbs heat from its surroundings. This process is essentially the reverse of what happened in the condenser coils: instead of releasing heat, the refrigerant now absorbs it.\n\nAs this cold gas continues to circulate through the refrigerator, it eventually returns to the compressor where the cycle begins anew. The continuous flow of hot and then cold refrigerant creates a circulation loop that effectively moves heat from inside the fridge to outside the fridge \u2013 or, rather, to the environment.\n\nAt its core, the process is deceptively simple: compress, condense, expand, evaporate, and repeat. But as you can see, it's built on some fundamental principles of thermodynamics and fluid dynamics that are both fascinating and mind-bending when considered in detail. It's this intricate interplay between heat transfer, pressure changes, and state transitions that allows a refrigerator to defy the natural order by making a cooler place even cooler.",
+ "n_words": 588,
+ "generated_at": "2026-08-17 20:49:36",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how a refrigerator moves heat",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_02_long"
+}

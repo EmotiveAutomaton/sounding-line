@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_15",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5396
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAs with any new invention, technological or otherwise, there is both major benefits that make the research and development worthwhile and equally major concerns that come from unknown consequences of the new product. For self-driving cars, the benefits are ob [...source elided...]",
+ "text": "Like any groundbreaking innovation\u2014whether technological or otherwise\u2014the development of self-driving vehicles presents a dual reality: substantial advantages that justify the investment against significant concerns stemming from uncertain side effects. The primary benefits are clear: they minimize human error, enhance mobility for those unable to drive manually (such as the elderly, disabled, or intoxicated), improve traffic efficiency, and save time. Yet, these gains come with steep financial costs and unresolved variables, including data privacy risks, the behavior of drivers in conventional vehicles nearby, potential mechanical failures, and complex legal challenges. The fact that major corporations like Google are pouring vast resources into this field suggests a consensus that long-term benefits will eventually surpass expenses. However, until there is broader discussion regarding the necessary training for users to effectively manage these systems, the perceived advantages may be overstated.\n\nContrary to claims found in an *Auto Insurance Center* article titled \"Top 20 Pros and Cons Associated with Self-Driving Cars\"\u2014which erroneously lists avoiding a specialized DMV license as a pro\u2014the reality is quite different. As noted by other industry sources like Teletrac under the section on drawbacks, operators must still undergo specific training to run these vehicles safely. Furthermore, while one potential benefit cited is improved access for individuals who typically cannot drive (due to disability, age, or intoxication), this overlooks a critical limitation: even with specialized instruction regarding autonomous systems, many of these individuals may lack the physical strength or cognitive ability required to take manual control when necessary.\n\nThe same article also highlights that excessive reliance on automation could lead drivers to lose their fundamental skills for overriding the system during malfunctions. Consequently, self-driving cars actually demand *more* education than standard vehicles: users must be proficient in both operating autonomous protocols and maintaining regular driving competencies. With adequate training, many of the touted advantages become viable realities, such as reduced distracted driving, increased productivity during commutes, and greater travel efficiency.\n\nWhile enhanced education can help balance potential risks against rewards, it is important to recognize that \"self-driving\" is ultimately a misnomer; an operator must always be prepared to intervene immediately if the system fails or encounters unexpected road conditions. Therefore, all listed benefits are conditional, as drivers must remain vigilant enough to assume control instantly during emergencies.",
+ "n_words": 375,
+ "generated_at": "2026-08-17 22:02:41",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_20",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_20.txt"
+}

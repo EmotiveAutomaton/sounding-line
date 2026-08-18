@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_17",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5398
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars have beneficial and disadvantageous effects on society. Although the benefits of self-driving cars may seem promising, the adverse effects might deter one from investing in them as the future of automobile technology. First, let\u2019s review the [...source elided...]",
+ "text": "The advent of self-driving cars presents a complex mix of advantages and disadvantages that warrant careful consideration. While these vehicles promise numerous benefits, they also pose significant risks that could undermine their potential value.\n\nOn the one hand, self-driving cars have the potential to revolutionize transportation by providing an added layer of safety for vulnerable individuals such as teenagers and the elderly. Parents would no longer need to worry about their children being distracted while driving, reducing the risk of accidents on school commutes. Moreover, these vehicles could significantly decrease the number of traffic-related incidents, freeing up law enforcement resources to tackle more pressing issues.\n\nFrom an economic perspective, the transition to self-driving cars is likely to create new opportunities for employment in fields related to artificial intelligence and machine learning. This could also lead to innovations in public transportation, potentially replacing human drivers with autonomous buses and trains.\n\nHowever, these advantages must be weighed against the potential risks associated with self-driving cars. For instance, there is a growing concern about data security: hackers may exploit vulnerabilities in vehicle systems to gain access to sensitive information, such as frequent destinations or travel patterns. This could lead to targeted advertising or even more sinister uses like identifying vulnerable targets for theft or robbery.\n\nFurthermore, the reliance on complex algorithms and sensors means that self-driving cars may struggle with situations requiring human intuition, such as navigating slippery roads or avoiding pedestrians in emergency scenarios. Additionally, determining liability in the event of an accident involving a self-driving car raises questions about who should bear responsibility \u2013 the manufacturer, the vehicle's owner, or another party altogether.\n\nIn addition to these technical concerns, there are also economic implications to consider. The shift towards autonomous vehicles could lead to job losses for taxi drivers and public transportation personnel. Moreover, the oil and gas industries may suffer as electric-powered self-driving cars gain traction, potentially disrupting global supply chains.\n\nUltimately, while self-driving cars may offer some benefits, their potential risks and drawbacks outweigh these advantages. As a society, we must carefully consider the long-term consequences of embracing this technology, particularly in light of its vulnerability to cyber threats and the uncertainty surrounding liability and regulatory frameworks.",
+ "n_words": 368,
+ "generated_at": "2026-08-17 20:55:18",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_22",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_22.txt"
+}

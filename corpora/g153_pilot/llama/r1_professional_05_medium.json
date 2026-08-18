@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_05_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5371
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: escalating a slipped deadline. Plain prose.",
+ "text": "Subject: Update on Project Timeline and Request for Resources\n\nDear [Manager's Name],\n\nI am writing to inform you that I have hit a snag in meeting the original deadline for our ongoing project. Despite my best efforts, I am now several days behind schedule. This delay is due to unforeseen challenges in obtaining necessary information from external stakeholders.\n\nIn light of this development, I would like to request your assistance in revising the project timeline and allocating additional resources as needed. Specifically, I will require an extension of [X] weeks to ensure that all aspects of the project are completed with the desired quality.\n\nTo mitigate any potential impact on our deliverables, I propose implementing a revised plan to compensate for lost time. This includes prioritizing tasks, reassigning responsibilities where possible, and utilizing available expertise from team members.\n\nI believe that with your support and authorization, we can get back on track and meet the revised deadline of [New Deadline]. To confirm this adjustment, I will prepare an updated project plan outlining the revised schedule, resource allocation, and any necessary adjustments to our current workflow.\n\nPlease let me know if you require any additional information or would like to discuss this proposal further. If there are any concerns or questions regarding the proposed timeline, I am more than happy to address them in a timely manner.\n\nThank you for your understanding and support during this period. I look forward to hearing back from you soon.\n\nBest regards,\n\n[Your Name]",
+ "n_words": 249,
+ "generated_at": "2026-08-17 20:52:32",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "escalating a slipped deadline",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_05_medium"
+}

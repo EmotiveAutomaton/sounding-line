@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_14",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5395
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving car is a new technology and receives a lot of debates recently. On one hand, self-driving cars offer positive impacts, e.g. safer commuting, cost savings, and give opportunities to many people who can't travel by themselves at this moment. On the [...source elided...]",
+ "text": "The emergence of self-driving cars has sparked a lively debate, with proponents highlighting numerous benefits and detractors raising concerns about security, safety, and economic viability. As we move forward with this technology, I firmly believe that its advantages far outweigh the drawbacks.\n\nOne of the most significant advantages of self-driving cars is their potential to revolutionize transportation, making it safer, more efficient, and accessible to all. By leveraging advanced technologies such as communication between vehicles and real-time traffic updates, congestion can be reduced, saving time and fuel costs for commuters. Moreover, by eliminating human error, self-driving cars can significantly decrease the likelihood of accidents caused by reckless driving or driver fatigue.\n\nAnother significant benefit is the increased mobility it will provide to individuals with disabilities or mobility impairments. Traditional public transportation systems often have limited accessibility and flexibility, whereas self-driving cars can be programmed to navigate complex routes and drop passengers off at specific locations.\n\nHowever, there are valid concerns about the security and safety of self-driving technology. For instance, how will liability be assigned in the event of an accident? How will personal data be protected from hacking or theft? Moreover, what moral dilemmas will arise in situations where a choice must be made between different outcomes?\n\nIt's essential to address these issues before deploying self-driving cars on a large scale. Unfortunately, some concerns are based on misconceptions about the technology. For example, it's often assumed that drivers will lose their skills if they rely on self-driving cars, but this is not necessarily true. Most people use public transportation or roadside assistance services when their vehicles break down, and they don't need to know how to repair them themselves.\n\nSimilarly, some argue that self-driving cars can't adapt to local driving regulations or police signals. However, GPS technology allows for real-time updates of local laws and regulations, and communication channels with law enforcement agencies enable seamless traffic management.\n\nAnother misconception is the worry that auto manufacturers will lose sales if everyone buys self-driving cars. This is not necessarily true, as self-driving vehicles still require manufacturing and maintenance, and many major carmakers are already investing in this technology.\n\nIn conclusion, while there are valid concerns about self-driving cars, I firmly believe that their benefits far outweigh the risks. With careful planning and address of security and safety issues, we can unlock the full potential of this technology to revolutionize transportation and improve lives worldwide.",
+ "n_words": 403,
+ "generated_at": "2026-08-17 20:55:00",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_2",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_2.txt"
+}

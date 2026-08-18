@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_20",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5401
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThis article was interesting and mentioned points that I hadn't thought of before.  I do think that the self driving cars would help decrease the number of accidents that are caused by human error.  There are many heart breaking stories of death or serious in [...source elided...]",
+ "text": "This piece was engaging and highlighted several perspectives I had not previously considered. I strongly agree that autonomous vehicles could significantly reduce traffic fatalities caused by human mistakes, particularly those stemming from driving under the influence. It is tragic to witness so many incidents involving intoxicated drivers; consequently, one might expect crash rates to drop as ride-sharing services like Uber and Lyft become more affordable and accessible. These apps make it effortless to travel between locations without having to rely on peers who are drunk or impaired to act responsibly by picking up a designated driver. However, despite these conveniences, many individuals still opt for the risk of driving themselves rather than using available alternatives.\n\nThe primary drawback I identified involves complex logistical and ethical questions regarding accountability. When an autonomous vehicle fails to stop in time because it missed a child darting into the road, who bears responsibility? The public will likely debate whether a human driver would have spotted the danger from their peripheral vision or anticipated the hazard well enough to prevent the collision. Furthermore, blame may shift toward manufacturers for alleged visibility flaws, while others might insist that drivers were still negligent. This raises difficult regulatory questions: must operators maintain 100% focus even in semi-autonomous systems? If strict attention is required, does this undermine the core argument that intoxicated individuals can safely access their vehicles via ride-share apps or autonomous tech?\n\nIn conclusion, although self-driving technology offers notable advantages, I do not believe it should completely replace human drivers at this stage. If our goal is enhanced safety and fewer accidents, full automation alone may be insufficient because driving dynamics are too intricate to entrust entirely to machines. Humans possess the ability to make split-second judgments that can save lives\u2014actions a robot cannot replicate. Moreover, over-reliance on automated systems might breed complacency; drivers could feel falsely secure behind the wheel of an autonomous car and become less vigilant. Therefore, even with advanced technology in place, I maintain that human operators must remain responsible for accidents unless directly caused by a genuine manufacturing defect. Ultimately, it remains incumbent upon humans to operate vehicles safely.",
+ "n_words": 357,
+ "generated_at": "2026-08-17 22:03:27",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_25",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_25.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_06_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5333
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: an archivist who finds her own handwriting in an old file. Prose only, no headings.",
+ "text": "As she dug through the dusty boxes, her eyes scanning the yellowed documents and faded photographs, Emily felt the familiar thrill of discovery. She had spent years working as an archivist at this crumbling library, uncovering secrets and stories from its musty shelves. But on this particular afternoon, something unexpected caught her eye.\n\nA file, bound in worn leather, slipped out of its box with a faint creak. Emily's heart quickened as she opened the cover, revealing a series of letters tied together with a faded ribbon. The handwriting was familiar \u2013 or at least, it should have been. As she unknotted the ribbon and began to read, Emily felt a shiver run down her spine.\n\nThe words on the page were hers. The script, the phrasing, even the occasional typo \u2013 all unmistakable hallmarks of her own hand. She felt as though she had stumbled upon a fragment of herself from another life. Who was this person who wrote about love and heartbreak, about hopes and fears? Emily had been twenty when these letters were written; she had just started college, and her world was still expanding.\n\nAs she read on, the words began to blur together on the page. The story of the writer \u2013 herself, years ago \u2013 became a jumbled tapestry of emotions. But one phrase stood out: \"I'm not sure who I am yet.\" Emily felt a pang of recognition; it was as though this younger version of herself had spoken directly into her ear.\n\nShe sat back in her chair, the file still clutched in her hands, and let the words sink in. Who was she now? What had become of the woman who wrote these letters with such urgency and uncertainty? Emily's fingers drifted to the edges of the page, tracing the lines of her own handwriting like a map back into her own past.",
+ "n_words": 312,
+ "generated_at": "2026-08-17 20:47:53",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "an archivist who finds her own handwriting in an old file",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_06_medium"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_05_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5331
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a night ferry that takes no passengers. Prose only, no headings.",
+ "text": "The ferry chugged through the inky blackness, its lights slicing through the void like a harpoon. The water's surface was a perfect mirror, reflecting the stars above with eerie precision. It moved silently, as if carried on an invisible tide of its own.\n\nInside, the crew went about their duties with numb efficiency. They polished the deck, checked the engines, and restocked the galley without so much as a word to each other. The silence was almost palpable, a physical presence that hung in the air like a fog.\n\nAs the night wore on, the ferry's course remained unchanged. It was a vessel adrift, carrying nothing but its own weight into the darkness. No one had set foot on board for weeks, months maybe \u2013 no one could say exactly how long it had been since a passenger last boarded. The crew didn't seem to mind. They'd grown accustomed to the emptiness.\n\nThe captain stood at the helm, eyes fixed on some point beyond the horizon. He seemed lost in thought, oblivious to the world around him. His face was a map of creases and furrows, etched by years at sea. The only sound from his direction was the soft scratch of his pencil on paper \u2013 a sketch of something that didn't quite exist.\n\nThe ferry continued its journey, bound for some destination unknown or unseen. It was a machine without purpose, carrying no cargo but its own inertia through the night. And as it slid deeper into the darkness, the stars above seemed to fade from view, leaving only an endless expanse of nothingness in their place.",
+ "n_words": 269,
+ "generated_at": "2026-08-17 20:47:38",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a night ferry that takes no passengers",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_05_medium"
+}

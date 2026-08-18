@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_08_long",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5358
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: how GPS locates a phone. Prose only, no headings or lists.",
+ "text": "The Global Positioning System, commonly known as GPS, is often misunderstood by the average user who simply looks at a map on their smartphone and assumes it knows exactly where they are through some form of direct communication with satellites orbiting overhead in real time. In reality, your phone does not talk to the satellites directly; instead, you act more like an observer passively receiving signals that allow complex mathematical calculations to pinpoint your location. At the heart of this process is a constellation of at least twenty-four active satellites circling the Earth twice every day, broadcasting timing and positioning data on precise frequencies. These satellites are not powered by solar cells alone but also carry atomic clocks that keep time with extreme accuracy, ensuring that even tiny fractions of a second in drift would result in massive errors miles away on the ground. Your smartphone contains what is known as a receiver capable of picking up signals from at least four different satellites simultaneously to perform trilateration rather than simple triangulation, which relies on angles and involves more complex geometric assumptions about signal paths.\n\nWhen you enable location services, your phone's GPS chip listens for these radio transmissions without needing to transmit any data back to the space-based infrastructure itself. Each satellite continuously sends out a message containing its exact position in orbit and the precise time that message was sent. Because radio waves travel at the speed of light, roughly 300 million meters per second, there is a measurable delay between when the signal leaves the satellite and when it arrives at your device. By comparing the timestamp on the incoming data packet with the current time recorded by an internal clock in your phone\u2014which is far less accurate than the atomic clocks aboard the satellites\u2014your receiver can calculate exactly how long the signal took to travel through space. Multiplying this duration of delay by the speed of light yields the distance, or range, between that specific satellite and your device.\n\nHowever, obtaining a single distance measurement from just one point in space only tells you where you are located somewhere on an imaginary sphere centered around that particular satellite with your phone at its surface intersection; it does not give you a precise two-dimensional fix for latitude and longitude yet. To narrow this down further, the system requires data from a second satellite. With two satellites, you now have two intersecting spheres, creating a circle of possible locations where those surfaces meet on Earth's curvature. Adding a third satellite refines the calculation by introducing another sphere that intersects with the previous ones at just two points; one of these points will clearly be out in space somewhere far above or below your actual position, while the other point represents your true location on the planet's surface. This triangulation-like process is technically called trilateration because it relies entirely on distances rather than angles to determine position.\n\nA fourth satellite becomes essential not just for refining spatial accuracy but primarily to correct timing errors inherent in consumer electronics. The atomic clocks inside satellites are incredibly stable, whereas the quartz oscillators used in your phone drift slightly over time and temperature changes. If a receiver were using only three satellites, it would be forced to assume its own clock was perfect, introducing significant calculation errors that could push location accuracy off by hundreds of meters. By incorporating signals from four or more satellites simultaneously, the receiver can solve for latitude, longitude, altitude, and crucially, the precise time offset caused by the phone's imperfect internal clock, effectively synchronizing it with satellite time in real-time without needing an external atomic reference. This ability to correct timing errors is what allows your device to achieve sub-meter or even centimeter-level accuracy depending on atmospheric conditions and signal quality.\n\nIt is also important to acknowledge that clear views of the sky are vital for this system, as buildings, dense forests, and mountains can block line-of-sight signals or cause them to bounce off surfaces in a phenomenon known as multipath error, which distorts the timing data and degrades accuracy. Consequently, modern smartphones often fuse GPS readings with other sensors like cell tower triangulation and Wi-Fi positioning networks when satellite visibility is obstructed indoors. Cell towers can be located relatively easily by knowing where they are situated geographically and measuring signal strength to estimate distance, while databases of known Wi-Fi access points provide another layer of positional reference based on their fixed locations in specific neighborhoods. This sensor fusion ensures that whether you are standing in the middle of a desert with unlimited sky visibility or navigating through a crowded city canyon between skyscrapers, your device maintains a consistent and reliable understanding of its location relative to the Earth's surface, transforming raw mathematical distance measurements into the intuitive map displays we rely on daily for navigation.",
+ "n_words": 809,
+ "generated_at": "2026-08-17 21:56:33",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how GPS locates a phone",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_08_long"
+}

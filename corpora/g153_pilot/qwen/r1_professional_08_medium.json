@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_08_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5377
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: thanking a team after a launch. Plain prose.",
+ "text": "Subject: Huge Congratulations on Our Successful Launch\n\nTeam,\n\nI am writing this to express my deepest gratitude for the incredible effort and dedication you all poured into our recent product launch. As we reflect on the last few weeks leading up to go-live, it is clear that every late night, early morning meeting, and rigorous test cycle directly contributed to a seamless rollout. The fact that we launched without critical issues speaks volumes about your technical expertise and unwavering attention to detail.\n\nWhat truly stands out today is not just the flawless execution of our code or infrastructure, but the culture you fostered throughout this process. I have witnessed genuine collaboration across departments where engineers reached out to product managers for clarification before a meeting even started, marketers adjusted their messaging based on real-time developer feedback, and support staff prepared comprehensive guides while features were still being finalized. This level of cross-functional alignment is rare and serves as the foundation for our long-term success.\n\nThe positive reception from early adopters confirms that your hard work has paid off in tangible ways. Users are engaging with new features immediately, which validates months of planning and iteration. However, beyond these metrics, I want to acknowledge how much energy you invested emotionally during times when deadlines were tight or obstacles seemed insurmountable. There were moments where burnout was a real risk, yet everyone pushed through because they believed in the mission we are building together.\n\nMoving forward, let us take this momentum and apply it as we continue refining our roadmap for Q3. Please remember that your well-being is just as important as our project goals; celebrate these wins by stepping away from screens and recharging so you can sustain this pace into the future. Thank you once again for making history with us today. I am incredibly proud to work alongside such a talented, resilient, and passionate group of people.\n\nLet's keep building something amazing together.",
+ "n_words": 324,
+ "generated_at": "2026-08-17 21:59:55",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "thanking a team after a launch",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_08_medium"
+}

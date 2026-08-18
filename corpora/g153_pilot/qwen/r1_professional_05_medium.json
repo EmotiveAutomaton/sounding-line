@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_05_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5371
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: escalating a slipped deadline. Plain prose.",
+ "text": "Subject: Urgent Update Regarding Project Timeline Slip-up\n\nHi Team,\n\nI am writing to address an important update regarding the current project schedule. Due to unforeseen complications that have developed over the last few days specifically within our development phase of Module B, we need to escalate a potential deadline slip. While my initial estimate suggested completion by Friday, I must be transparent about the reality on the ground: delivering high-quality work under these new constraints is no longer feasible without compromising our standards or burning out the team overnight.\n\nThe core issue stems from an unexpected integration conflict with the legacy data system that was not fully documented in the original requirements gathering phase. Despite allocating additional resources to resolve this early Thursday, the complexity of migrating specific historical records has proven more time-intensive than anticipated. We have been working overtime every evening since then, but it is becoming clear that compressing a three-day buffer into forty-eight hours will inevitably lead to testing oversights and potential post-launch errors.\n\nTo ensure we launch successfully on schedule next week as originally planned for the client presentation, I propose we adjust our interim milestones slightly. Specifically, I recommend shifting the internal \"feature freeze\" deadline by 48 hours to allow us a final day of rigorous stress-testing before delivery. This minor adjustment ensures that when the product reaches stakeholders and end-users, it is stable, secure, and fully functional rather than rushed.\n\nI understand this may require recalibrating expectations with upper management and key partners immediately. I have already drafted an email outlining these specific technical hurdles to our VP of Operations for your review before you send yours out. My goal here is not to hide a delay but to proactively manage it so that we can pivot quickly without jeopardizing the final outcome.\n\nThank you for understanding the gravity of this situation and for supporting me in communicating clearly with all stakeholders early rather than letting concerns fester until they become crises. I am committed to resolving this swiftly and will provide hourly updates on our progress toward stabilizing the timeline today before we finalize a new plan tomorrow morning.",
+ "n_words": 357,
+ "generated_at": "2026-08-17 21:58:44",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "escalating a slipped deadline",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_05_medium"
+}

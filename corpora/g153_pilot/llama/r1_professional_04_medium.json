@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_04_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5369
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: declining a vendor proposal politely. Plain prose.",
+ "text": "Subject: Response to Vendor Proposal for [Project/Service]\n\nDear [Vendor Representative's Name],\n\nI appreciate the time and effort you have invested in preparing your proposal for [Project/Service] at our organization. We value the partnership with vendors who can provide innovative solutions that align with our business objectives.\n\nAfter careful review of your submission, we have decided not to move forward with your proposal at this time. While your offering showed potential benefits, it did not fully meet our requirements or budget constraints for this specific project.\n\nPlease note that our decision is in no way a reflection on the quality of your services or your company's capabilities. We recognize the value you bring to the market and appreciate the expertise you have shared with us throughout the proposal process.\n\nWe would like to express gratitude for the opportunity to review your proposal and consider your solutions. If future opportunities arise that align more closely with our needs, we will not hesitate to reach out to explore further collaboration.\n\nThank you again for submitting a comprehensive proposal and for being an interested partner in this project. We wish you continued success in finding suitable clients for your services.\n\nSincerely,\n\n[Your Name]\n[Your Title]",
+ "n_words": 201,
+ "generated_at": "2026-08-17 20:52:22",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "declining a vendor proposal politely",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_04_medium"
+}

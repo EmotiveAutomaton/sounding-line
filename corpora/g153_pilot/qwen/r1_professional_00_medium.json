@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_00_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5361
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: announcing a change to the meeting schedule. Plain prose.",
+ "text": "Subject: Important Update Regarding Our Weekly Meeting Schedule\n\nHello Team,\n\nI am writing to inform you of an upcoming adjustment to our standard weekly meeting structure, effective next Monday. After reviewing current team workflows and feedback from several recent check-ins, we have identified opportunities to streamline our communication rhythm and reclaim valuable work hours for focused project execution. While collaboration remains central to our success, the frequency of these gatherings has occasionally interrupted deep-work cycles without providing a proportional return on investment regarding immediate deliverables.\n\nMoving forward, we will transition from holding full-team syncs every Tuesday afternoon to implementing bi-weekly strategic alignment sessions scheduled for alternating Tuesdays and Thursdays at 10:00 AM. These new meetings will continue our core objectives of reviewing progress metrics, addressing cross-departmental blockers, and brainstorming innovative solutions; however, the agenda will now require strict pre-reading materials so that discussion time can be reserved exclusively for high-priority decision-making rather than status updates. Additionally, day-to-day operational questions or minor escalations should no longer interrupt this dedicated block but instead be routed through our established ticketing system and addressed during one-on-one check-ins with direct supervisors before the scheduled group call begins.\n\nWe recognize that change requires an adjustment period, and we appreciate your flexibility as we implement these new protocols. Rest assured, productivity remains our primary concern in driving forward under this revised structure. To ensure a smooth transition, department heads will circulate updated calendar invitations by end-of-day Friday so everyone can prepare accordingly. If you foresee any specific conflicts with the alternating schedule that cannot be resolved through rescheduling individual appointments during your direct manager's availability, please let them know immediately so we can find an alternative solution before next week begins.\n\nThank you for your continued dedication and adaptability as we optimize our collective workflow to better serve both client needs and internal growth goals. Let us move forward with confidence in this more efficient approach to collaboration.",
+ "n_words": 321,
+ "generated_at": "2026-08-17 21:57:00",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "announcing a change to the meeting schedule",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_00_medium"
+}

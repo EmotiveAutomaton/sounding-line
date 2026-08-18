@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_06",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5387
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nWhile reading the article the following advantages and disadvantages where more obvious to me than others. Self-driving cars can decrease the percentage of car crashes. \nAccording to  The U.S.  Department  of  Transportation the $9,000,200.00 of each human li [...source elided...]",
+ "text": "Here's the rewritten essay in fresh wording:\n\nUpon reading the article, several key benefits and drawbacks became apparent to me. One of the most significant advantages of self-driving cars is their potential to drastically reduce car accidents. According to the U.S. Department of Transportation, the staggering cost of human life - estimated at over $9 billion per person - would be significantly reduced through lower insurance costs and healthcare expenses related to accident recovery. Self-driving cars also offer drivers the opportunity to multitask during their commute, alleviating traffic congestion and reducing travel times in high-traffic areas.\n\nFurthermore, self-driving technology could revolutionize urban transportation, enabling cities to provide more efficient and accessible services to residents. As a result, tax revenue would likely decrease due to reduced driver's license issuances. While there are certainly downsides to consider, these benefits make a compelling case for the implementation of self-driving cars.\n\nHowever, some concerns do arise. For instance, the initial cost of self-driving vehicles may be prohibitively expensive for low-income individuals, potentially exacerbating existing social and economic disparities. Additionally, widespread adoption of self-driving technology could lead to job losses in industries such as trucking and taxi services, with potential negative impacts on the unemployment rate and economy.\n\nIn extreme weather conditions, such as heavy rain, self-driving cars may be vulnerable to damage from their laser sensors, while also posing the risk of driverless drivers losing essential driving skills. Nevertheless, it is evident that the advantages of self-driving technology far outweigh its disadvantages in today's society.\n\nHaving absorbed the article's insights, I firmly believe that self-driving cars are becoming increasingly beneficial to our world. In fact, data from consulting firms like McKinsey & Company suggests that self-driving cars could reduce traffic fatalities by as much as 90% once fully integrated into transportation systems. According to the National Highway Traffic Safety Administration, over 37,000 lives were lost in motor vehicle crashes in 2016 alone - a staggering statistic that highlights the pressing need for more effective solutions like self-driving technology.\n\nNot only can self-driving cars save countless lives, but they also promise to reduce police activity and alleviate tensions between law enforcement and citizens. By reducing the likelihood of traffic-related confrontations, we can create safer, more harmonious communities. As we continue to navigate the complexities of transportation in today's society, I firmly believe that self-driving technology is a vital step forward - one that has already made significant strides since its introduction just over a decade ago.",
+ "n_words": 411,
+ "generated_at": "2026-08-17 20:54:12",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_11",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_11.txt"
+}

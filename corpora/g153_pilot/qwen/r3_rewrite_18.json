@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_18",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5399
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAs technology continues to progress at a rapid pace innovators have begun to explore the possibility of self-driving cars. A self-driving car sounds like a child\u2019s fantasy of what a futuristic dystopian society looks like. However, self-driving cars are no lo [...source elided...]",
+ "text": "The relentless acceleration of technological advancement has prompted innovators to investigate the feasibility of autonomous vehicles. Initially, the concept of a driverless car might appear as little more than a child's fantasy or an element of futuristic dystopian fiction. Yet, this idea is no longer merely theoretical; self-driving cars are here and poised to exert a profound influence on our society. Proponents envision these vehicles as symbols of pure leisure, eliminating the stress associated with operating a motor vehicle since another entity assumes control of the steering. Furthermore, such technology promises to drastically reduce accidents by removing human error from the equation; theoretically programmed only to obey traffic laws and evade collisions, they seem like a logical upgrade in safety.\n\nHowever, this perspective remains overly idealistic, as self-driving cars introduce significant negative societal impacts that cannot be ignored. While it is true that these machines aim to eliminate mistakes made by humans behind the wheel, they simultaneously replace one form of human error with another: programming and technological failure. If the software algorithms are miscalculated or if the hardware malfunctions, the result could be a level of danger comparable\u2014if not exceeding\u2014that posed by an average human driver. Consequently, aggressively pushing for the widespread adoption of autonomous vehicles may not serve society's best interests at this time.\n\nThe risks associated with integrating self-driving cars into daily life appear too formidable to overcome despite their proposed advantages. A common argument in favor of automation is that algorithms can eliminate distractions like texting or daydreaming, which plague human drivers. While it is accurate that humans face numerous temptations while driving, they possess reactive instincts and cognitive abilities that current machines cannot replicate. The critical flaw lies in decision-making scenarios requiring complex ethical judgment. Although a machine's logic might seem superior on paper to a human's intuition, it lacks the moral compass required for split-second life-or-death choices.\n\nConsider a scenario where an autonomous vehicle travels steadily past a grocery store when a shopping cart suddenly rolls into its path with insufficient distance to brake safely. The algorithm would likely calculate that swerving is necessary to avoid impact. However, what if a pedestrian steps out from behind the cart at that exact moment? How can the software determine whether it should strike the inanimate object or spare the human life, potentially sacrificing one for the other? A machine lacks the nuanced judgment and instinctual reaction time required to process such variables instantly. In contrast, a human driver possesses an innate ability to prioritize saving a person's life over property damage without hesitation.\n\nWhile this specific incident represents only one of thousands of potential edge cases, it highlights a fundamental limitation: self-driving cars lack the depth of human instinct and moral reasoning that no algorithm can mimic. Given these unknown variables and the substantial risks involved, it is both prudent and safest to refrain from implementing autonomous vehicles as currently conceived. Ultimately, the dangers they present appear to far outweigh any potential societal benefits they might offer.",
+ "n_words": 501,
+ "generated_at": "2026-08-17 22:03:09",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_23",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_23.txt"
+}

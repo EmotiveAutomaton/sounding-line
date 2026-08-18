@@ -1,0 +1,43 @@
+{
+ "arm": "wqd",
+ "difficulty": "hard",
+ "test_macro_f1": 0.8276161079437676,
+ "channels": false,
+ "n_channel_dims": 0,
+ "gate_test_printed": 0.83,
+ "delta_test": -0.0023838920562323507,
+ "val_macro_f1_best": 0.8260993701776105,
+ "gate_val_printed": 0.8331,
+ "per_epoch_val": [
+  0.7875717671664998,
+  0.8066652520385328,
+  0.8010074594809173,
+  0.8260993701776105,
+  0.8191501867067255
+ ],
+ "n_train_pairs": 47137,
+ "contamination": {
+  "train_vs_test": {
+   "pairs_b": 10440,
+   "shared": 41,
+   "share": 0.003927203065134099
+  },
+  "train_vs_val": {
+   "pairs_b": 10033,
+   "shared": 42,
+   "share": 0.004186185587561049
+  }
+ },
+ "assumptions": "head hidden 768, dropout 0.1, seed 44, fp32",
+ "hypers": {
+  "lr": 1e-05,
+  "batch": 16,
+  "epochs": 5,
+  "max_len": 128
+ },
+ "versions": {
+  "transformers": "5.14.1",
+  "torch": "2.13.0+cu126",
+  "sklearn": "1.9.0"
+ }
+}

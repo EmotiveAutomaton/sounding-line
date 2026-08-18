@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_01_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5324
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word piece of literary short fiction about: a weather forecaster in a town where she is always wrong. Prose only, no headings.",
+ "text": "She stood at the desk, a map unfurled behind her like a spectral entity. The camera panned across her face, illuminating the precise features that seemed to belie the chaos brewing outside. Her eyes narrowed as she spoke into the microphone, her voice steady and assured.\n\n\"Today will be mostly sunny with a high of seventy-five and a gentle breeze out of the north. Any lingering moisture from last night's thunderstorms should have burned off by dawn.\"\n\nBut it was already pouring.\n\nShe spoke on, though her gaze drifted out the window to where rain drummed against the glass like a thousand tiny drums, each beat insistent and unforgiving. The townsfolk scurried about, some dashing for umbrellas while others cursed their forgotten raingear.\n\nInside the station, her producer scribbled notes on a pad as she spoke, his brow furrowed in concern. \"That's not quite what we got from satellite imaging,\" he muttered to himself, his eyes straying to the clock on the wall.\n\nShe finished her forecast and turned to him, still speaking into the mic though it was no longer necessary. \"I recommend a high of eighty-five today, with partly cloudy skies giving way to clear conditions by evening.\"\n\nThe producer's expression transformed from skepticism to outright alarm as he realized where she was headed. \"Uh, actually\u2014\"\n\nShe overrode his correction, her words spilling out like an uncontainable tide. \"And I'd like to remind everyone that this rain will be a nice respite for our parched fields and lakes.\"\n\nOut on the street, children laughed as they played in puddles while adults fretted about flooded basements and ruined crops. They gathered at the station's entrance, shaking their heads and exchanging knowing glances.\n\nShe stepped out of the studio, still speaking into her earpiece though she'd finished broadcasting half an hour ago. \"I'm telling you, it'll clear up by late afternoon.\"\n\nThe producer trailed behind her, trying to intervene but ultimately resigned to the inevitable. As they walked through the downpour, a gust of wind sent sheets of rain rippling across the sidewalk.\n\nShe paused beneath a lamppost's awning, tilting her face upwards as if to drink in the deluge. Her hair clung to her scalp like wet threads, but she didn't seem to notice. \"Just you wait,\" she said to no one in particular, her voice an almost-whisper amidst the roar of rain.\n\nIt would have been easy for someone else to take issue with her forecast \u2013 and they did, by the dozen. But not here. This was a town where accuracy was seen as a quaint notion, a myth perpetuated by outsiders who couldn't grasp the way things worked around these parts.\n\nShe smiled as she walked back into the station's dry warmth, shaking water off her jacket like a dog shedding its winter coat. \"Well,\" she said to the producer, her voice now tinged with a hint of mischief, \"I guess I was wrong again.\"\n\nHe blinked at her incredulity before shrugging it off. What else could you say in this town where the weather seemed determined to defy all logic?",
+ "n_words": 515,
+ "generated_at": "2026-08-17 20:46:46",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a weather forecaster in a town where she is always wrong",
+ "length_bin": "long",
+ "lineage_id": "r1_fiction_01_long"
+}

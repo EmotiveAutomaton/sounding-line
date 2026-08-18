@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_38",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5419
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nOn the night of my roommate\u2019s twenty first birthday, a group of her friends swerved on a windy and slippery road into a tree and were profoundly injured while on the way to meet us to celebrate.\n\nThere are many factors that influence our decisions when drivin [...source elided...]",
+ "text": "My roommate's twenty-first birthday celebration turned tragic when a group of her friends' car careened into a tree on a treacherous road, seriously injuring everyone involved. This incident highlights the pressing issue of making our roads safer for all.\n\nSeveral factors contribute to driving errors, including fatigue, mental distractions, and reckless behavior. Given the alarming rate of human error in car crashes \u2013 an astonishing 81% \u2013 it's tempting to consider a radical solution: computer-operated vehicles. While proponents argue that computers can't be distracted, this notion is too simplistic. Computers, like humans, are prone to mistakes. Moreover, self-driving cars don't eliminate the risk of accidents; they merely shift the liability from human error to technological failure.\n\nThere are many scenarios where self-driving cars could falter: inclement weather, other drivers' recklessness, or even a child accidentally getting behind the wheel. In such cases, passengers may struggle to respond effectively and safely intervene in emergency situations.\n\nOn the other hand, there are some compelling arguments in favor of self-driving cars. For instance, they could greatly benefit individuals with disabilities who rely on public transportation. Additionally, self-driving cars would be a boon for the environment, as electric vehicles would reduce emissions and save users money.\n\nDespite these benefits, I'm hesitant to fully endorse self-driving cars. Driving is a sensory experience that many people enjoy, and I believe we should preserve this freedom while also acknowledging our responsibility to drive safely. Ultimately, personal accountability remains essential in making roads safer for all \u2013 by being mindful of our decisions and actions behind the wheel.\n\nNote: I've rewritten the essay in my own words while preserving its meaning, position, and structure.",
+ "n_words": 276,
+ "generated_at": "2026-08-17 20:57:20",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_42",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_42.txt"
+}

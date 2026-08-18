@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_09_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5319
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether zoos should exist. Prose only, no headings.",
+ "text": "The question of whether zoos should continue to operate in their current form is not merely about animal welfare but touches upon fundamental ethical responsibilities regarding biodiversity and education. While traditional menageries that display animals purely for public entertainment are morally indefensible due to the inherent cruelty and psychological distress they inflict, I argue that modern accredited zoological gardens must exist if they evolve into sanctuaries of conservation rather than mere exhibits. The primary justification for their existence lies in their unparalleled role as active participants in species preservation. Unlike private individuals or small-scale breeders, major institutions possess the genetic expertise, veterinary resources, and funding necessary to manage endangered populations through carefully calculated breeding programs that prevent inbreeding depression and ensure genetic diversity. Many iconic species, such as the California condor and various rhinoceros subspecies, have been pulled from the brink of extinction primarily because these organizations maintained viable captive populations while wild habitats crumbled under human encroachment.\n\nFurthermore, zoos serve an indispensable educational function that is critical for fostering a global conservation ethic. By bringing endangered species into view, they create an emotional connection between humans and wildlife that abstract documentaries often fail to achieve. When visitors witness the reality of extinction up close, they become advocates for habitat protection and policy change in their home countries and abroad. This direct engagement transforms passive observers into active participants in environmental stewardship. However, this mandate requires strict adherence to high ethical standards; enclosures must be spacious enough to allow natural behaviors, diets must mimic wild nutrition, and animals should ideally remain only when no suitable reintroduction site exists or until they are released back into protected reserves.\n\nUltimately, the existence of zoos depends entirely on their transformation from places of captivity to centers of hope for biodiversity. If institutions can demonstrate a tangible track record of saving species in the wild through genetic management and public education while providing genuine welfare standards that rival natural habitats, then they retain a vital place in our society as essential bridges between humanity and the natural world we strive to protect.",
+ "n_words": 348,
+ "generated_at": "2026-08-17 21:49:36",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether zoos should exist",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_09_medium"
+}

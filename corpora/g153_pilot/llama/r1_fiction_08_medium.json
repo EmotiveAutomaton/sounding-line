@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_08_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5337
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a child's map of a city that does not exist yet. Prose only, no headings.",
+ "text": "In the corner of her bedroom, Emily's map sprawled across the floor, its edges rumpled and creased from countless foldings and unfoldings. She had drawn it herself, using every color in her box, every twist of her imagination to bring into being a city that didn't yet exist outside these four walls. The paper was worn thin at the corners, but she could still make out the faint outlines of its streets and buildings.\n\nTo one side lay the glittering lake of Starlight Boulevard, where children floated on rainbow-hued boats and laughed with their parents as they strolled along the water's edge. On the other, the towering spires of Castle Oakwood pierced the sky like shards of crystal, while behind them, the markets of Willow Street bustled with merchants hawking exotic wares to eager buyers.\n\nBut it wasn't just buildings Emily had drawn \u2013 she'd also sketched in her own family. Her parents stood proudly on a hill overlooking the city, their arms outstretched as they welcomed visitors from far and wide. And herself? She was always perched atop the highest spire of Castle Oakwood, where she ruled supreme over this fantastical realm.\n\nAs the night drew in outside, Emily's fingers would stray back to her map again and again, tracing its contours with a reverent touch. This city, so fragile and ephemeral as it lay on her floor, was all hers \u2013 a world born of love and possibility, yet bound by the limits of paper and pencil. She felt an ache in her chest, wondering when she'd finally get to step out into this shimmering metropolis, with its lakes and spires and markets full of wonder.\n\nBut until that day came, Emily knew that as long as her map existed \u2013 crumpled and creased though it might be \u2013 the city would too.",
+ "n_words": 305,
+ "generated_at": "2026-08-17 20:48:25",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a child's map of a city that does not exist yet",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_08_medium"
+}

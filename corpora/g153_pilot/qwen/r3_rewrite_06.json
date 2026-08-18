@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_06",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5387
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nWhile reading the article the following advantages and disadvantages where more obvious to me than others. Self-driving cars can decrease the percentage of car crashes. \nAccording to  The U.S.  Department  of  Transportation the $9,000,200.00 of each human li [...source elided...]",
+ "text": "After reviewing the article, several key benefits and drawbacks regarding autonomous vehicles became immediately apparent to me. A primary advantage is their potential to significantly reduce accident rates. According to data from the U.S. Department of Transportation, saving even one human life translates to approximately $9 million in savings when accounting for insurance premiums and medical expenses related to crash recovery alone. Furthermore, self-driving technology allows passengers to perform other tasks while commuting. These vehicles also promise to optimize traffic flow by eliminating congestion, which would shorten commute times in busy areas and reduce gasoline waste. Additionally, large cities could offer improved transportation networks to their citizens, potentially lowering the need for traditional driver's licenses and resulting in reduced tax expenditures on licensing fees.\n\nHowever, significant challenges exist as well. The high initial cost of autonomous vehicles makes them unaffordable for low-income individuals; without universal adoption, society will continue to suffer losses in life, time, and money. There is also a substantial risk of job displacement within the transportation sector, particularly affecting freight drivers and taxi operators, which could negatively impact unemployment rates and the broader economy. Environmental factors pose another threat: heavy rainfall can severely damage the laser sensors mounted on vehicle roofs. Finally, there is the concern that reliance on automation might cause current drivers to lose their essential skills for operating vehicles manually.\n\nDespite weighing these pros and cons, I am convinced that self-driving cars represent a net positive development in modern society. My perspective has shifted significantly after reading this article; whereas ten years ago, around 2008, the question of supporting or opposing autonomous technology left me undecided due to uncertainty about their viability, today's landscape is far clearer thanks to advancements in mechanics, accuracy, and algorithms since then. The most compelling argument remains that these vehicles could save tens of thousands of lives annually. Research from McKinsey & Company (2015) indicated a potential 90% reduction in traffic fatalities upon full deployment. This aligns with alarming statistics showing over 37,000 motor vehicle deaths in the U.S. alone in 2016, making road accidents a leading cause of death nationally; autonomous technology currently offers our best chance to reverse this trend. Moreover, self-driving cars could drastically reduce police involvement in minor traffic infractions. In today's environment, even simple violations can escalate into confrontations with law enforcement that may lead to unwarranted arrests or incidents involving police brutality and shootings. It is evident that removing human error from driving not only saves lives but also fosters a safer relationship between citizens and the legal system.",
+ "n_words": 426,
+ "generated_at": "2026-08-17 22:01:22",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_11",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_11.txt"
+}

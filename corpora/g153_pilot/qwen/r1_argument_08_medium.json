@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_08_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5317
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether remote work should be a legal right. Prose only, no headings.",
+ "text": "The question of whether remote work must become a codified legal right represents more than a simple debate over office locations; it is fundamentally about labor equity and the evolving nature of productivity in the twenty-first century. While employers frequently cite logistical challenges or costs as reasons to resist mandatory flexibility, enshrinning remote work as a legal entitlement would ultimately correct decades of systemic disadvantage for workers who need to balance professional obligations with caregiving duties. To argue against such legislation is to ignore how modern technology has decoupled the necessity of physical presence from economic value generation, leaving many employees trapped in an adversarial position regarding their employers' preferences.\n\nProponents often claim that requiring remote work capabilities imposes undue financial burdens on businesses or disrupts team cohesion. However, these concerns are increasingly unfounded given widespread adoption of collaboration tools and hybrid models already thriving globally. The true cost to society is the exclusion of millions who cannot commute due to disability, distance, or primary caregiving responsibilities for children or aging relatives without state support. If remote work remains a privilege granted at management discretion rather than a right protected by law, it entrenches inequality where flexibility becomes a perk available only to those in non-essential roles or high-demand industries. Legal mandates would shift the onus from individual negotiation to structural fairness, ensuring that an employee's value is judged solely on output and reliability rather than their proximity to a building.\n\nFurthermore, mandating remote work options does not preclude occasional collaboration; it simply ensures access to flexibility as a baseline standard. Without legal protection, workers fear reprisal for requesting adjustments, creating a culture of silence where burnout goes unchecked. By establishing this right, governments would signal that labor laws must adapt to post-pandemic realities rather than clinging to industrial-era norms. Ultimately, recognizing remote work as a legal necessity prioritizes human dignity and economic stability over arbitrary corporate convenience, ensuring that the workforce can thrive regardless of their physical location or personal circumstances.",
+ "n_words": 332,
+ "generated_at": "2026-08-17 21:49:16",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether remote work should be a legal right",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_08_medium"
+}

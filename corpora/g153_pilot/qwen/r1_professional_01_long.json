@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_01_long",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5364
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word professional workplace message about: requesting budget approval for new equipment. Plain prose.",
+ "text": "Subject: Proposal and Request for Budget Approval: Upgrade of Departmental Field Equipment\n\nDear Senior Leadership Team,\n\nI am writing to formally submit a proposal regarding the acquisition of essential new field equipment for our operations team, accompanied by a request for budget approval effective immediately. Over the past fiscal quarter, our current inventory has reached its end-of-life threshold in several critical areas, creating operational bottlenecks that directly impact our project timelines and service delivery metrics. This message outlines the specific need for this investment, details the cost-benefit analysis, and presents a clear request for authorization to proceed with procurement.\n\nCurrently, approximately forty percent of our active workforce relies on equipment manufactured over eight years ago. While these units performed adequately during their initial cycles, they have begun exhibiting signs of significant degradation that compromise both efficiency and safety standards. Specifically, the aging diagnostic tablets are experiencing frequent battery failures and screen fractures, leading to an average downtime rate of three hours per week across the affected teams. Similarly, our portable data acquisition sensors operate with reduced precision, occasionally skewing results by margins greater than 5%, which forces costly remeasurements and delays in client reporting. The cumulative effect of these issues is a measurable decline in output velocity; we are currently unable to accept new contracts at our desired pace because the existing fleet cannot sustain the workload required to meet contractual obligations without risking equipment failure mid-project.\n\nThe proposed acquisition targets the replacement of thirty units with next-generation models that incorporate ruggedized designs, extended battery life exceeding twelve hours on a single charge, and integrated cloud connectivity for real-time data synchronization. These technological advancements are not merely incremental improvements but fundamental shifts in how we execute our core mission. Real-time synchronization will eliminate the need for manual data entry at end-of-day transfers, thereby reducing administrative overhead by an estimated fifteen percent annually. Furthermore, the enhanced durability of these units is projected to extend their service life to ten years or more, effectively doubling their useful lifespan compared to current assets and smoothing out capital expenditure requirements over future budgets. Safety is also a primary driver for this request; newer models include advanced fall-detection sensors and improved thermal regulation, directly addressing our recently updated risk management protocols regarding extreme weather conditions in the field.\n\nFrom a financial perspective, I have prepared a comprehensive cost analysis that demonstrates the long-term viability of this investment against our current operational costs. The total requested budget for equipment acquisition is $145,000. This figure includes unit purchase prices, necessary protective cases and docking stations, software licensing fees, and shipping logistics. While this represents a significant upfront outlay, it must be weighed against the hidden costs of our current situation: overtime pay required to manage slow turnover rates due to downtime, expense reports filed for temporary rentals during equipment failures, and the potential reputational risk associated with delayed project completions or inaccurate data submission. When amortized over five years, this investment translates to a monthly operational cost that is actually lower than what we are currently paying in indirect costs related to maintenance and inefficiency. Additionally, many of these new units come with manufacturer warranties covering both hardware failure and battery replacement for three years, providing financial protection against early obsolescence or manufacturing defects.\n\nThe impact on our team morale cannot be overstated either. Our field operators have consistently expressed frustration regarding the unreliability of their current tools in a variety of environmental conditions. Providing them with reliable, high-performance equipment serves as a tangible recognition of their hard work and commitment to excellence. This investment signals that the organization values their safety and productivity, fostering an environment where talent retention is strengthened and innovation can flourish without being constrained by outdated infrastructure. We have already received preliminary interest from two major prospective clients who specifically inquired about our technological capabilities during recent site visits; upgrading now positions us competitively against rival firms still operating with legacy systems.\n\nGiven that the current fiscal year allows for a remaining allocation of 18% above baseline operational expenses, this request falls within an acceptable variance range when adjusted for the projected return on investment described above. I have attached a detailed line-item breakdown, technical specifications, and comparative quotes from three reputable vendors to support this recommendation. My team is prepared to finalize contracts immediately upon approval, ensuring that new units are deployed before the start of Q4 operations.\n\nI respectfully request your review of this proposal at your earliest convenience and authorization for the release of funds to initiate the procurement process. I am available to present a brief verbal briefing or answer any specific questions regarding the technical specifications or financial projections during our next scheduled meeting. Thank you for considering this critical step toward enhancing our operational resilience, safety standards, and competitive advantage in the marketplace.\n\nSincerely,\n\n[Your Name]\nHead of Operations",
+ "n_words": 813,
+ "generated_at": "2026-08-17 21:57:36",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "requesting budget approval for new equipment",
+ "length_bin": "long",
+ "lineage_id": "r1_professional_01_long"
+}

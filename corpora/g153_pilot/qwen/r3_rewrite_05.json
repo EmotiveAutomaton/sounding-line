@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_05",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5386
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nWith the advent of self driving car technology, as with any new invention, people debate its positives and its negatives. They can make the roads safer, make traffic less congestive, save people time, free up police, and have a multitude of other benefits, bu [...source elided...]",
+ "text": "The emergence of autonomous vehicle technology has sparked the same kinds of debates surrounding any major innovation: a weighing of its advantages against its drawbacks. Proponents argue that these vehicles could enhance road safety, alleviate traffic congestion, reduce travel times, free up law enforcement resources, and offer numerous other perks. However, critics point to valid concerns such as vulnerability to cyberattacks, potential job displacement for drivers, and the inherent imperfections of current systems. In my view, despite these challenges, self-driving cars represent a net positive advancement. I believe that many of the cited downsides are simply temporary growing pains common to new technologies, issues that will be resolved relatively quickly through continued development.\n\nThe primary argument in favor is safety; approximately 81% of all accidents result from human error. Given roughly 33,000 annual road fatalities, widespread adoption could theoretically save about 27,000 lives each year by eliminating mistakes made by humans. Most crashes stem from distraction or impairment\u2014problems a machine cannot replicate since it never looks away from the road and can never be intoxicated. Furthermore, reduced accident rates would allow police officers to focus on higher-priority matters rather than issuing tickets for minor infractions. The rise of autonomous vehicles also promises convenience; cars could drop off passengers at their destinations, park themselves autonomously, and wait until needed for return trips. Meanwhile, occupants are liberated from the stress of driving, gaining valuable time to work or relax. Additionally, these vehicles communicate with one another to share real-time traffic data, optimizing flow and reducing gridlock. This efficiency not only speeds up commutes but fosters a more productive society where individuals can travel promptly without being held hostage by congestion.\n\nNaturally, skeptics have raised concerns about the potential negatives of this technology, yet most are solvable with rigorous testing and industry support. Critics worry about hacking risks and reduced effectiveness in severe weather conditions; however, these are typical hurdles faced by emerging tech that will be addressed through incremental improvements until they become negligible issues. Financial cost is another frequent objection, as autonomous vehicles remain expensive today. Yet, like any new product, prices should decline over time due to economies of scale and technological refinement. Even if high costs persist for personal ownership, the industry could evolve a service model similar to Uber or Lyft, allowing users to summon rides on demand without needing to own a vehicle themselves\u2014a shift that would further reduce car dependency. Finally, some argue that widespread adoption will devastate certain sectors like gasoline sales and driving instruction. To this, I ask: did we invent cars specifically to keep blacksmiths or horseshoe makers in business? Of course not. We should prioritize broad societal progress over protecting the interests of a select few who are rendered obsolete by innovation.\n\nIn conclusion, autonomous vehicles mark a significant positive step forward for human civilization. While challenges exist, they are expected to be overcome as the technology matures. The benefits of implementing this innovation are immense and transformative. I anticipate their widespread integration in the near future and eagerly await that day.",
+ "n_words": 510,
+ "generated_at": "2026-08-17 22:01:14",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_103",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_103.txt"
+}

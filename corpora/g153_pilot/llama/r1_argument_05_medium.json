@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_05_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5311
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether museums should return colonial-era artifacts. Prose only, no headings.",
+ "text": "The decision to return colonial-era artifacts from museums back to their countries of origin has been a contentious issue for decades. While some argue that these relics belong in the public domain and can be preserved for future generations, I firmly believe that it is morally imperative for museums to repatriate them.\n\nThese artifacts were often taken by force or coercion during periods of colonization, with the intention of enriching European empires at the expense of indigenous cultures. The idea that a museum has the right to possess such items today is built on a flawed premise - that the artifact's historical significance outweighs the cultural and spiritual connection it holds for its original community. This paternalistic attitude assumes that the colonizers' interest in these artifacts somehow validates their removal.\n\nIn reality, many of these artifacts hold deep cultural and spiritual meaning for communities that are still waiting to be reunited with them. The repatriation of such items would not only honor the history and heritage of these cultures but also serve as a tangible symbol of reconciliation between colonizer and colonized. Furthermore, it would demonstrate a genuine commitment by museums to acknowledge the dark legacy of colonialism.\n\nOf course, some might argue that returning artifacts will lead to their destruction or misuse. However, this assumes that communities incapable of preserving their own cultural heritage for centuries are suddenly unable to do so today. The reality is that many indigenous cultures have been expertly curating and restoring their artifacts without external interference for generations.\n\nUltimately, the decision to return colonial-era artifacts should not be driven by concerns about preservation or tourism but rather by a commitment to justice and reconciliation. Museums have a responsibility to acknowledge the historical injustices of colonization and take tangible steps towards rectifying them.",
+ "n_words": 298,
+ "generated_at": "2026-08-17 20:45:12",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether museums should return colonial-era artifacts",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_05_medium"
+}

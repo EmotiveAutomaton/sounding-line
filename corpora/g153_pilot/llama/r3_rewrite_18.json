@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_18",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5399
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAs technology continues to progress at a rapid pace innovators have begun to explore the possibility of self-driving cars. A self-driving car sounds like a child\u2019s fantasy of what a futuristic dystopian society looks like. However, self-driving cars are no lo [...source elided...]",
+ "text": "The rapid advancement of technology has led innovators to explore the concept of self-driving cars, a notion that was once confined to futuristic dystopian fantasies. However, as this technology becomes increasingly viable, its potential impact on society is significant. Self-driving cars promise to revolutionize transportation by providing a stress-free and leisurely driving experience. With these vehicles handling the driving duties, human error caused by fatigue, distraction, or inexperience would theoretically be eliminated. The programming of self-driving cars could potentially prevent accidents altogether, as they would be designed to follow traffic laws and avoid hazards.\n\nYet, this optimistic perspective overlooks the inherent risks associated with self-driving technology. Rather than eliminating human error, these vehicles may simply shift the liability from drivers to manufacturers or programmers. If algorithms are flawed or technology is faulty, the consequences could be just as severe as those caused by human negligence. Furthermore, relying on machines to make decisions in high-pressure situations poses significant concerns.\n\nOne argument in favor of self-driving cars is that they would eliminate distracted driving, which is a major contributor to accidents. However, this perspective overlooks a crucial aspect: while humans are susceptible to distractions, we also possess instincts and judgment that can't be replicated by machines. In emergency situations, a human driver's ability to react and make split-second decisions may prove superior to the programming of a self-driving car.\n\nFor instance, imagine a scenario in which a self-driving car approaches an intersection where a pedestrian is about to cross the road, just as a shopping cart suddenly comes into view. The algorithm might instruct the vehicle to swerve around the cart, but this could put the pedestrian at risk. A human driver, on the other hand, would have the capacity to make a conscious decision and prioritize the safety of the pedestrian.\n\nThis thought experiment highlights a fundamental limitation of self-driving cars: their inability to replicate human judgment and instinct in high-pressure situations. While it's impossible to anticipate every possible scenario, it's clear that these vehicles lack the critical thinking and decision-making capabilities that are inherent in human drivers.\n\nGiven the numerous unknowns and risks associated with self-driving technology, it seems prudent to adopt a cautious approach and avoid implementing these vehicles into society. The potential negative outcomes may outweigh any benefits, making it safer and more responsible to prioritize traditional transportation methods for the time being.",
+ "n_words": 395,
+ "generated_at": "2026-08-17 20:55:25",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_23",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_23.txt"
+}

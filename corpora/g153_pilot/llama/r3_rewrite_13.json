@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_13",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5394
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nIn today's age we are always looking for the 'next thing' in terms of technological advancement. Google is one company that continuously strives to answer that call. Recently they have been doing so by researching the technology for and creating self-driving  [...source elided...]",
+ "text": "In today's era of rapid technological progress, Google is at the forefront of innovation with its pursuit of self-driving cars. This concept, reminiscent of science fiction movies like Back to the Future, is already being tested in real-world settings. The potential benefits of such technology are substantial. By eliminating human error, which accounts for approximately 81% of car accidents, self-driving cars could significantly reduce the number of crashes on our roads.\n\nMoreover, these vehicles would revolutionize traffic patterns by optimizing speed and positioning to minimize congestion. Commutes could become shorter, more efficient, and less stressful. One of the most exciting aspects of self-driving cars is their potential to enhance mobility for individuals with disabilities, providing them with greater independence and convenience. Additionally, commuters could utilize this technology to work or engage in activities during their daily journeys.\n\nHowever, as we enthusiastically envision a future with self-driving cars, it's essential to consider the practical implications. While these vehicles may seem like a panacea for many of our transportation woes, they are not without their limitations. For instance, how would a self-driving car navigate situations where human judgment is required, such as when encountering a traffic signal malfunction or a pedestrian who fails to obey traffic rules?\n\nIn scenarios like these, the question arises: whose responsibility would it be in the event of an accident? Is it the intoxicated individual in the backseat, the technology itself, or perhaps another vehicle involved? The answer is far from clear-cut. It highlights the inherent limitations of relying solely on technology, particularly when human error is a significant contributor to accidents.\n\nWe must recognize that both humans and machines have their flaws. While self-driving cars are an incredible achievement, they should not be seen as a replacement for human judgment. Rather, they should be viewed as tools designed to augment our capabilities, ensuring safety and efficiency in transportation. Ultimately, the ability to manually drive a car is still essential, particularly when technology fails or encounters situations that require human intuition.\n\nThe potential of self-driving cars lies in their ability to improve mobility, convenience, and traffic flow. However, it's crucial to acknowledge both the benefits and limitations of this technology. By striking a balance between automation and human control, we can harness the power of innovation while prioritizing safety and responsible use.",
+ "n_words": 385,
+ "generated_at": "2026-08-17 20:54:53",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_19",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_19.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_03_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5347
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: what a database index does. Prose only, no headings or lists.",
+ "text": "When you store data in a database, it's often scattered across multiple locations on the hard drive, making it difficult and time-consuming to retrieve specific information. That's where indexes come in - they act as roadmaps that help the database quickly locate the exact spot where relevant data is stored.\n\nThink of an index like a catalog card in a library. When you're searching for a particular book, you wouldn't browse through every shelf, examining each title until you find it. Instead, you'd look up the book's author or subject in the catalog and be directed to its exact location on the shelf.\n\nSimilarly, a database index stores information about where specific data is located within the database. This metadata includes not only the location of individual records but also the order and structure of the data itself. When you issue a query to retrieve data from the database, the index is consulted first to determine which sections of the hard drive need to be accessed.\n\nBy using an index, the database can significantly reduce the time it takes to locate relevant data. Rather than scanning through every record in the table, the database simply looks up the index and jumps straight to the correct location. This not only speeds up query times but also reduces the load on the database's resources, making it more efficient overall.\n\nHowever, indexes do come with some costs. They require extra storage space to store the metadata and can slow down data insertion or deletion operations if the index needs to be updated frequently. Nevertheless, for most databases, the benefits of using an index far outweigh these drawbacks, making them a crucial tool in optimizing database performance.",
+ "n_words": 283,
+ "generated_at": "2026-08-17 20:49:41",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "what a database index does",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_03_medium"
+}

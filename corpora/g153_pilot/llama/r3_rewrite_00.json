@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_00",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5381
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe topic of self-driving cars is highly debated especially in light of recent event with the death of an Arizona woman at the hands of a self-driving Uber. Those for self-driving cars argue that they reduce the rate of accidents as a result of distracted dri [...source elided...]",
+ "text": "The debate over self-driving cars has intensified in recent years, particularly following the tragic accident in Arizona involving a pedestrian and an Uber vehicle. Those in favor of self-driving technology argue that it can significantly reduce accidents caused by distracted driving, improve traffic flow, and provide substantial cost savings in terms of time and insurance premiums. Additionally, they contend that self-driving cars could greatly enhance mobility for the elderly and disabled. On the other hand, detractors claim that the technology is not foolproof, requires a steep learning curve, and might displace jobs in related industries. They also point out instances where the system failed to make critical decisions.\n\nWhile both sides present valid points, the benefits of implementing self-driving cars far outweigh their drawbacks. Proponents often overlook the fact that this technology is still in its formative stages and can be refined over time, much like any other innovation. Moreover, it's essential to acknowledge that human drivers are not perfect; they cause a substantial number of accidents each year due to errors. According to statistics, nearly 1.3 million people lose their lives annually on the roads, with approximately 81% of those fatalities attributed to driver error.\n\nCritics also worry about the financial implications of investing in self-driving technology, arguing that it might divert resources from other sectors of the economy. However, as our reliance on technology continues to grow, it's becoming increasingly clear that this investment will yield substantial long-term benefits and create new job opportunities. By embracing innovation, we can not only reduce the number of accidents but also generate significant cost savings in areas such as healthcare and insurance.\n\nThese savings are no small matter; according to the U.S. Department of Transportation, human life is valued at 9.2 million dollars per capita. Moreover, self-driving cars promise to revolutionize our transportation habits by freeing up time for other activities and reducing driving times overall. With the potential to decrease traffic congestion, this technology holds immense promise for improving our daily lives.\n\nWhile some may remain skeptical about the idea of self-driving cars, the fact remains that various features like autonomous braking, self-parking, and sensor detectors are already being integrated into vehicles on the market. This demonstrates the availability and readiness of the underlying technology. It is essential to prioritize investment in this area, as it has the potential to save countless lives and generate significant economic benefits.\n\nIn conclusion, despite some valid concerns about the limitations of self-driving cars, the advantages of adopting this technology far outweigh its drawbacks. By embracing innovation, we can create a safer, more efficient transportation system that benefits society as a whole.",
+ "n_words": 438,
+ "generated_at": "2026-08-17 20:53:38",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_1",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_1.txt"
+}

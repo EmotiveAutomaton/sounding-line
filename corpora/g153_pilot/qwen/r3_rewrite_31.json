@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_31",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5412
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nI marvel at the ingenuity of our scientists and engineers in bringing us so close to the possibility of self-driven vehicles. \n\nFurthermore, I am a free spirit who cherishes her independence, including the freedom to go where she pleases when she pleases, wit [...source elided...]",
+ "text": "I am genuinely awed by the ingenuity of our scientists and engineers as they bring us tantalizingly close to the reality of fully autonomous vehicles.\n\nAs someone who values her independence above all else, including the freedom to travel whenever and wherever I choose without being constrained by others' schedules or preferences\u2014and specifically free from judgment regarding what a woman of my age ought or ought not do\u2014I feel a profound connection with seniors and those with disabilities who cannot drive for themselves. For their sake alone, autonomous cars hold immense appeal.\n\nFurthermore, since these vehicles are almost certainly to be electric, they represent the potential end of our dependence on fossil fuels\u2014a goal that resonates deeply with anyone concerned about preserving our planet from further pollution.\n\nYet, despite these advantages, a deeper force\u2014perhaps even irrational but unavoidable for me personally\u2014prevents my endorsement of self-driving cars at least for now.\n\nWe seem eager to surrender more and more aspects of our lives to computing systems. In matters where machines vastly outperform humans, such as analyzing vast amounts of critical health data, relying on them exclusively is unquestionably wise. However, I fear we risk losing essential everyday skills in areas where computers do not necessarily surpass human capability. Driving serves as a prime example. You might ask why this skill holds any special value; indeed, for many it feels routine or even burdensome. Nevertheless, the act of driving encompasses far more than mere movement from point A to B. It involves maintaining acute alertness in dynamic environments and collaborating with others\u2014including cyclists and pedestrians\u2014to negotiate traffic safely while minimizing inconvenience. In our increasingly fragmented world, these capacities are too vital to relinquish; much is at stake beyond what we might initially perceive.\n\nAdditionally, there remains the critical issue of safety. We all recognize that computer algorithms are not infallible: software can be compromised by viruses, hardware may fail unexpectedly, and systems remain vulnerable to cyberattacks. Human drivers possess a rich repertoire of instincts and adaptive skills for handling unforeseen crises\u2014whether an accident occurs, weather turns severe, or even in the face of acts of terrorism. As far as I know, computer programs capable of navigating highly dynamic scenarios without human oversight are still exceedingly rare. So what would happen if you were not tech-savvy when confronted with a complex, fluid situation? You might argue that we already feel powerless due to drunk drivers or distracted motorists, evidenced by the alarming statistics on accidents\u2014I cannot dispute that reality. Still, I must stand my ground. Picture this scenario: your self-driving vehicle fails to adapt in time, nor can any other cars around you; suddenly, everyone finds themselves hurtling toward disaster with no possible recourse\u2014whereas if a human were at the wheel, someone could have made an attempt to mitigate harm. It is precisely this erosion of human agency that troubles me. This helplessness represents not natural vulnerability but enslavement to machines. Unlike inherent human frailty\u2014which can spark virtues like compassion and empathy\u2014this dependency generates nothing; it renders us inert in a manner akin to lifeless matter. I do not wish to be reduced to such a state.",
+ "n_words": 524,
+ "generated_at": "2026-08-17 22:05:04",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_36",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_36.txt"
+}

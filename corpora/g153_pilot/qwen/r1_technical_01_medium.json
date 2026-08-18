@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_01_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5343
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: why bridges have expansion joints. Prose only, no headings or lists.",
+ "text": "Bridges are massive structures designed to span gaps and carry heavy loads across obstacles like rivers, valleys, or highways, but their greatest engineering challenge is not merely supporting weight; it is accommodating constant movement without failing. This necessity gives rise to expansion joints, the visible seams often seen as long grooves running along bridge decks. These components exist primarily because materials change size due to temperature fluctuations and other environmental factors. On a hot summer day, asphalt or concrete absorbs heat and expands significantly, potentially increasing in length by several inches over hundreds of feet. Conversely, during freezing nights, these same materials contract. If a long bridge were constructed as one single continuous piece without breaks, this thermal expansion would generate immense internal stresses that could warp the structure, buckle the deck plates, or even shatter rigid concrete components.\n\nBeyond temperature, bridges must also absorb other forms of motion caused by wind forces, seismic activity, and the sheer vibration induced by heavy traffic flowing over them from all directions. Expansion joints act as controlled release valves for these physical pressures. They consist of complex assemblies that include flexible metal plates or rubber beams sealed within grooves to prevent debris intrusion while allowing lateral movement vertically and horizontally. When a bridge expands in summer heat, the deck simply pushes against the ends of adjacent joint segments rather than building up destructive force within the material itself. Similarly, when winter contraction occurs, the joints accommodate shortening without cracking the road surface or damaging internal reinforcements. Modern designs often incorporate specialized drainage systems alongside these gaps to manage water runoff effectively, preventing corrosion that could compromise structural integrity over time. Without these critical mechanical features, bridges would quickly succumb to the relentless push and pull of nature's cycles, leading to catastrophic collapse under loads they were originally engineered to support safely for decades or centuries.",
+ "n_words": 312,
+ "generated_at": "2026-08-17 21:53:59",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "why bridges have expansion joints",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_01_medium"
+}

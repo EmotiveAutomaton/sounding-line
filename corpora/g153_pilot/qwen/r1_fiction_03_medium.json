@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_03_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5327
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a piano tuner who hears a note nobody played. Prose only, no headings.",
+ "text": "The dust in the old town hall floated like suspended time, catching the afternoon light that slanted through the high, arched windows. Elias adjusted his spectacles, the brass rims cold against his nose, and leaned into the grand piano's cavernous throat. His fingers danced across the strings a third from the end of the frame, listening for the specific harmonic decay he sought to correct. It was Tuesday in November; the heating vents hummed their low, indifferent tune, but inside this wooden beast, there was only silence until his own breath filled it.\n\nThen, as if triggered by an invisible switch, a note bloomed. It wasn't loud, nor did it vibrate through the floorboards with any physical weight. Yet, it was undeniably present: a C-sharp in the middle register, pure and clear, hanging there without source or player. Elias froze his hand mid-stretch. He listened again, straining to isolate where the sound originated, but no finger had touched that key, no pedal had depressed, and the air itself seemed unvibrated by any external force.\n\nHe looked left, then right; behind him stood only a stack of sheet music gathered in decades and a coat rack draped with wool. The note persisted, shimmering faintly like heat haze on asphalt. It was too perfect to be natural, possessing an acoustic purity that defied the piano's usual mechanical imperfections. Elias felt a strange lurch in his chest, part professional unease and something deeper, more primal\u2014a recognition of intrusion into the sanctity of sound itself.\n\nHe sat back heavily, the leather creaking under his weight. The phantom C-sharp remained, hovering between existence and memory. Outside, traffic roared up Elm Street, a chaotic symphony of engines and horns clashing with reality. But here, in this stillness, Elias was trapped inside a melody no one had composed. He closed his eyes, wondering if the piano possessed a soul that could dream while sleeping, or if he himself was simply losing touch with the empty rooms of his mind. The note didn't fade; it waited for him to decide whether to tune it out or finally acknowledge its silent singer.",
+ "n_words": 353,
+ "generated_at": "2026-08-17 21:50:59",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a piano tuner who hears a note nobody played",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_03_medium"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_29",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5410
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nTechnological advances have made our society more convenient and efficient in a variety of areas, including social networking services, shopping experiences, and personalized online streaming services, although there has always been controversy on whether the [...source elided...]",
+ "text": "Technological progress has undoubtedly enhanced societal convenience and efficiency across many domains, from social media platforms to online shopping and tailored streaming content. However, this evolution has consistently sparked debate regarding whether these advancements ultimately benefit or harm our society. Just as we have long envisioned them, sophisticated algorithms are now being deployed to develop autonomous vehicles aimed at increasing road safety. Despite the potential for human error leading to accidents when relying on such technology, public skepticism remains high concerning its widespread adoption. While I acknowledge that risks exist and may be significant, I maintain that self-driving technology offers invaluable opportunities for individuals with mobility challenges and facilitates continuous improvement by identifying specific \"errors,\" thereby refining the system over time.\n\nFirstly, autonomous vehicles hold immense value not only for able-bodied drivers but also for disabled individuals, pregnant women, and others who struggle to operate a standard vehicle. For these groups, navigating daily life\u2014whether commuting, shopping, or traveling often requires public transit or external assistance, which can be particularly difficult in areas with inadequate infrastructure, such as bustling downtowns where people are pressed for time.\n\nSelf-driving cars offer a superior, personalized alternative for those unable to drive or who find using existing public transport challenging. Although concerns exist regarding the technology's performance under diverse weather conditions and complex traffic scenarios, these risks should not be viewed in isolation. Human drivers face inherent dangers such as distraction, intoxication, fatigue, and drowsiness. Since driving always carries some level of risk regardless of whether a vehicle is automated or manually operated, it seems reasonable to introduce autonomous technology to expand transportation options for those who otherwise struggle with mobility constraints.\n\nMoreover, many of the aforementioned risks can be significantly mitigated through data collection. A key advantage of self-driving cars lies in their ability to analyze accidents; when an incident occurs, the gathered data can pinpoint its cause. This insight allows developers to update algorithms that subsequently prevent similar future occurrences. In contrast, determining the precise and granular cause of a human-induced accident is nearly impossible. Even if contributing factors are identified after such incidents, immediate remediation rarely happens instantly. While educational initiatives and policy reforms aim to reduce accidents, their impact takes considerable time to materialize.\n\nIn conclusion, I am convinced that integrating self-driving vehicles can create vital new opportunities for individuals facing driving difficulties while simultaneously reducing accident rates through data-driven improvements in technology. This dual benefit promises a safer and more reliable transportation experience for everyone.",
+ "n_words": 415,
+ "generated_at": "2026-08-17 22:04:45",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_34",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_34.txt"
+}

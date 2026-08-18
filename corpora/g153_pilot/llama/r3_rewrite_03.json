@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_03",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5384
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAs technology slowly begins to overtake human development and the economy starts to grow, the need for efficiency is inevitable. With this desire in mind, investors and developers are targeting everyday actions in hopes of eliminating menial tasks. This can b [...source elided...]",
+ "text": "As technology increasingly dominates our lives and economic growth accelerates, it's becoming harder to ignore the push for efficiency. With the aim of streamlining daily routines, investors and developers are now targeting one of the most fundamental aspects of modern life: transportation. The introduction of autonomous vehicles is a prime example, as they promise to transform the way we travel by freeing up time previously spent on driving. However, this vision of a driverless future comes with a significant caveat.\n\nWhile self-driving cars hold the potential for increased productivity and reduced distractions, their integration into society also raises several red flags. The primary concern lies in the vulnerability of these systems to cyber threats. Hackers could potentially access and control autonomous vehicles, putting lives at risk and compromising personal data. This is particularly alarming given that the vast majority of Americans rely on cars as their primary mode of transportation.\n\nFurthermore, even with advanced communication capabilities between autonomous vehicles, there's still a significant chance of accidents occurring. In such cases, apportioning blame becomes increasingly complicated, while also opening up avenues for fraud and theft. Rather than providing a solution to our daily problems, self-driving cars introduce new risks that could have far-reaching consequences.\n\nTechnology is inherently imperfect and susceptible to technical issues, which raises concerns about the reliability of autonomous vehicles in unpredictable environments like inclement weather. In such scenarios, sensors on the cars may malfunction or become overwhelmed, posing an additional risk to passengers. Ultimately, relying on a computer program to navigate the roads puts human lives at its mercy.\n\nDespite the promise of increased efficiency, the integration of self-driving cars into our society is fraught with uncertainty and potential dangers.",
+ "n_words": 282,
+ "generated_at": "2026-08-17 20:53:53",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_101",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_101.txt"
+}

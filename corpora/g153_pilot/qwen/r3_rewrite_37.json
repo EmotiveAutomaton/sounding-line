@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_37",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5418
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe day someone learns how to drive is a turning point in their lives and the lives of their family members. The new driver has a freshly established sense of independence and their family members no longer have to carpool them to wherever they need to go. Ho [...source elided...]",
+ "text": "Obtaining a driver's license marks a pivotal moment not only for the individual but also for their household; it grants newfound autonomy while relieving family members from the burden of transporting them everywhere. Yet, this freedom carries significant weight and inherent risks. Consequently, the automotive industry has begun exploring autonomous vehicles\u2014promised \"ideal drivers\" that resist distraction, respond instantly to surrounding traffic, and promise smoother flow. The critical question remains: will these innovations genuinely enhance road safety, or are they merely a passing trend? In reality, due to the rigorous training required for operation, the necessity of widespread public adoption, and the removal of human emotional judgment in favor of algorithmic decision-making, autonomous vehicles pose more challenges than solutions at this stage.\n\nBefore becoming a licensed operator today, one must endure an exhausting period behind the wheel as a student driver followed by passing comprehensive examinations. Mandating even greater complexity to operate advanced self-driving systems might appeal to enthusiasts but is impractical for the general population. Furthermore, while younger demographics are increasingly adept with digital interfaces, older citizens often struggle to keep pace with evolving technology; expecting those who find smartphones or computers difficult to master to safely navigate autonomous vehicles seems unreasonable. Additionally, if a human must still monitor and control these machines, the core benefit of allowing passengers to focus on other activities is negated. Therefore, the notion that most American drivers will willingly undergo this additional training and succeed with it remains unrealistic.\n\nIn an ideal scenario where every vehicle owner possessed and effectively utilized self-driving technology, highways would see fewer accidents, congestion would diminish, and law enforcement could redirect efforts toward more critical matters beyond speed limits. However, given widespread disinterest driven by high costs, demanding learning curves, or a perceived lack of necessity, mass compliance is unlikely to materialize. Moreover, creating a mixed traffic environment where conventional cars share the road with autonomous ones introduces confusion and potential hazards rather than resolving them.\n\nWhile artificial intelligence may outperform human cognition in specific tasks, it fundamentally lacks both emotional intelligence and rational judgment\u2014qualities essential for driving. Whether choosing an alternate route or reacting to unexpected obstacles on the street, drivers constantly exercise complex thought processes. Entrusting robotic systems with full control over such dynamic situations, particularly when public safety is at stake, represents a risky leap of faith that may not be warranted. Although there is undeniable demand for safer roads and better driving practices, the barriers surrounding necessary training, low adoption rates, and reliance on human oversight suggest that autonomous vehicles will not soon define the future of American transportation.",
+ "n_words": 434,
+ "generated_at": "2026-08-17 22:05:57",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_41",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_41.txt"
+}

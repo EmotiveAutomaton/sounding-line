@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_02_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5365
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: summarizing quarterly results for the team. Plain prose.",
+ "text": "Team,\n\nAs we approach the close of Q2, it is time to reflect on our collective performance and acknowledge the significant strides we have made together over these past three months. This quarter has been defined by resilience, innovation, and a shared commitment to delivering exceptional value for our clients. Below is a high-level summary of where we stand.\n\nOn the revenue front, we exceeded our quarterly targets by fifteen percent, driven largely by the successful launch of our new enterprise solutions package. The sales team's persistence in navigating complex procurement cycles paid off, securing three major contracts that will provide stable long-term growth. Additionally, our customer retention rate improved to its highest point in two years, a direct result of the dedicated support efforts from both engineering and account management teams who went above and beyond to resolve critical issues before they escalated.\n\nOperationally, we made commendable progress on several strategic initiatives. The migration to our updated cloud infrastructure was completed ahead of schedule, resulting in a twenty percent reduction in system latency and enhanced security posture for all user accounts. Furthermore, the cross-functional task force focused on streamlining internal workflows has implemented three key automation tools that are already saving us approximately ten hours per week across departments. These efficiencies will allow us to redirect resources toward high-impact projects without increasing our headcount.\n\nHowever, as we celebrate these wins, I must also highlight areas requiring immediate attention. Project delays in the mobile application development timeline were noted and require a recalibration of resource allocation moving forward. We need to ensure that communication loops remain tight between product design and engineering to prevent similar bottlenecks next quarter. Please review your upcoming sprint plans with this context in mind, prioritizing critical path items over less essential tasks.\n\nLooking ahead to Q3, our primary objectives are clear: finalize the beta testing phase for the AI-driven analytics module and prepare a robust go-to-market strategy for the European expansion. The foundation we have laid this quarter positions us exceptionally well to execute these goals with confidence. I want to thank each of you for your hard work, adaptability, and collaborative spirit during a demanding period. Let's maintain this momentum as we move into our next phase of growth. Thank you for everything you do every day.",
+ "n_words": 383,
+ "generated_at": "2026-08-17 21:57:43",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "summarizing quarterly results for the team",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_02_medium"
+}

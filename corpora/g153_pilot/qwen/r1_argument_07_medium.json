@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_07_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5315
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether voting should be compulsory. Prose only, no headings.",
+ "text": "The debate over making voting compulsory is fundamentally about the nature of civic duty and who holds true power within a democracy. While some argue that free will means citizens can always choose not to vote, I contend that mandatory voting laws are essential for strengthening democratic legitimacy and reducing political polarization. In its purest form, democracy relies on the consent of the governed, yet this principle is hollow if only a subset of the population participates based on transient enthusiasm rather than civic obligation.\n\nWhen voter turnout depends solely on individual motivation, elections often reflect the views of specific demographics\u2014typically those with higher education and more flexible schedules\u2014who are disproportionately represented in many Western nations. This skew distorts the popular will, ensuring that policies cater to an engaged minority while ignoring the concerns of working-class citizens or marginalized groups who face systemic barriers like long commutes or inflexible work hours. Compulsory voting levels this playing field by forcing politicians to appeal to a broader cross-section of society rather than just their most loyal base. This shift inevitably leads to more centrist platforms, as candidates must address the needs of average families to secure victory, thereby reducing extreme partisan rhetoric that thrives when elected officials need only energize a small segment of the electorate.\n\nCritics argue that forcing people to vote infringes on personal liberty and punishes those who are apathetic or uninformed. However, this perspective misunderstands the purpose of voting; it is not merely an expression of preference but a mandatory act of citizenship akin to jury duty or paying taxes. In countries like Australia and Belgium, where voting is compulsory, rates remain consistently high without sacrificing freedom. These systems often provide \"None of the Above\" options for those who strongly disagree with all candidates, ensuring that abstention does not equate to support for any specific outcome but rather a conscious choice against representation by others.\n\nUltimately, if we claim our system represents \"all the people,\" then every person must have a voice in it. Mandatory voting ensures that elections represent genuine consensus rather than the preferences of the politically active few, fostering a healthier society where governance truly reflects the collective will of the nation.",
+ "n_words": 367,
+ "generated_at": "2026-08-17 21:48:57",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether voting should be compulsory",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_07_medium"
+}

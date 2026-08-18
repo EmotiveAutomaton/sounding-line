@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_34",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5415
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe self-driving car is a groundbreaking piece of technology. There is no doubt about that. However, I really question how feasible it is to transition them into every day life in America. The potential advantages of self-driving cars are incredible: safer dr [...source elided...]",
+ "text": "The advent of autonomous vehicles represents a truly revolutionary technological milestone; there can be no denying their innovation. That said, I seriously doubt whether these machines are ready for widespread adoption within daily American life right now. The benefits they promise are immense: significantly enhanced safety through fewer collisions, the elimination of human distraction and fatigue, superior traffic monitoring capabilities, liberation from the need for a designated driver, cost savings, and reclaimed time. Conversely, the drawbacks are deeply concerning. These systems struggle in adverse weather conditions, often fail to interpret complex human-driven traffic signals, carry inherent risks of malfunction that could endanger passengers even further, depend on supporting technologies we have not yet fully perfected, and threaten employment sectors tied directly to transportation. Essentially, there is currently no concrete proof that these cars offer qualitative safety improvements over traditional vehicles.\n\nIn my view, it is simply too early to introduce them broadly into our society. We require a dedicated period of development to advance the technology sufficiently such that any market rollout would proceed smoothly with minimal negative impact on third parties. While autonomous driving holds immense promise for long-term societal benefit, now is not the appropriate moment to pursue immediate implementation.\n\nImplementing these vehicles today would lead to widespread failure across multiple fronts. Currently, affordability remains a major barrier; at prices exceeding $100,000 and requiring specialized training to operate safely, only a tiny fraction of the population could own them. Moreover, for this technology to succeed, it requires mass adoption by everyone, which is impossible if access is restricted solely to the wealthy. Security poses another critical threat: malicious hackers would target these systems with great interest, while vulnerable computers could facilitate massive breaches of personal data collection. Even if prices were lowered to make them accessible to the general public, significant economic damage would follow through mass layoffs in the transportation industry. If electric models become standard, the gasoline sector would collapse; driver's education programs would become obsolete; and liability lawyers specializing in personal injury cases would face drastically reduced earnings due to a decline in accident-related claims. Such outcomes would harm countless individuals and destabilize the broader economy. For these reasons, I conclude that: 1) it is not feasible for the general public to adopt self-driving cars at this time, and 2) even if universal adoption were somehow achieved, the resulting economic fallout would be devastating.",
+ "n_words": 399,
+ "generated_at": "2026-08-17 22:05:31",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_39",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_39.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_36",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5417
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf Driving Cars is something almost everybody wishes would become reality, but don't know how they would work once they did. Self-driving cars in theory are a wonderful thing; You would save so much time that you would have spent driving, and there wouldn't [...source elided...]",
+ "text": "Most people dream of seeing autonomous vehicles become a reality, even though few can fully imagine how such technology will operate in practice. Theoretically, these cars represent an ideal solution: you could reclaim countless hours lost to commuting without any risk of human error, which is the primary cause of the annual wave of traffic accidents we read about. Yet, as this technology moves from concept to active development, what is the prevailing public sentiment? How does society view it now?\n\nA fascinating paradox exists with self-driving cars: their greatest strengths simultaneously act as significant weaknesses. If one were to list the advantages, the top entry would be the complete elimination of risks introduced by human drivers. Autonomous systems offer perfect control over vehicle operation, removing dangers associated with drunk driving or erratic maneuvers caused by distracted operators. Ideally, widespread adoption could eradicate human error entirely and save countless lives currently lost in vehicular incidents.\n\nHowever, taking humans out of the loop is not without drawbacks, particularly given where this technology stands today. Without a person at the wheel, there is no immediate cognitive judgment regarding safety; an algorithm might prioritize the most efficient route rather than the safest one for passengers. Furthermore, these vehicles may struggle in adverse weather conditions, as heavy rain or snow could impair critical sensors essential to their operation. They also lack the nuanced perception humans possess, such as recognizing a blinking turn signal on another vehicle before it activates. While removing the human driver eliminates individual mistakes, it simultaneously strips away the adaptive problem-solving abilities that people bring to complex situations.\n\nDespite these challenges, I am strongly supportive of self-driving cars. Partly because I admit my own driving skills are far from ideal, but largely because advancing this technology pushes the boundaries of Computer Science in profound ways. For instance, a vehicle must be capable of identifying other automobiles, measuring precise distances between objects, and distinguishing various road hazards; achieving all this demands highly advanced computer vision systems to function correctly.\n\nMoreover, many people simply prefer comfort or wish to maximize their working hours rather than spend time driving unnecessarily. Autonomous cars promise exactly that: saving both effort and valuable time, thereby making daily life significantly easier for everyone. I firmly believe in the potential of self-driving vehicles and consider them a vital step toward building a better future.",
+ "n_words": 395,
+ "generated_at": "2026-08-17 22:05:49",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_40",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_40.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_21",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5402
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThere has been much discussion on the topic of self driving cars recently. Many people think that having self driving cars on the road would be a bad idea. They worry about things like liability in the case of accidents, and loss of jobs for truck drivers and [...source elided...]",
+ "text": "The debate surrounding self-driving cars has been ongoing in recent times, with some people voicing concerns about their potential impact on society. Critics worry that liability issues following accidents and job losses for truck drivers and automotive industry workers will outweigh any benefits. However, as technology continues to advance, it's clear that the advantages of self-driving cars far surpass the drawbacks.\n\nSelf-driving cars have the potential to revolutionize transportation, reducing accidents caused by human distraction, which is a leading cause of motor vehicle crashes in the US. Computers can remain focused on the road, significantly decreasing the number of accidents and associated costs. According to current estimates, over $9 million is spent on road accident-related expenses annually; with fewer accidents, this money could be redirected towards infrastructure development.\n\nFurthermore, the existence of features such as object detection sensors, autonomous braking systems, and other driver-assistance technologies in modern vehicles suggests that transitioning to fully autonomous cars may not be as daunting a task as critics claim. By embracing self-driving technology, we can unlock numerous benefits for society, only some of which are explored here.\n\nWhile concerns about the feasibility of self-driving cars persist, many of these issues have practical solutions. For instance, requiring drivers to periodically demonstrate their ability to take control in emergency situations through regular testing could mitigate potential problems. Another worry is that a computer malfunctioning due to coding errors could cause harm. However, this concern can be allayed by rigorous pre-consumer testing and the fact that human error also causes accidents.\n\nDespite these concerns, it's clear that self-driving cars have more to offer society than they do drawbacks. As the discussion surrounding this topic continues, I hope that readers will come to see the benefits of embracing self-driving technology and join me in advocating for its widespread adoption.",
+ "n_words": 301,
+ "generated_at": "2026-08-17 20:55:41",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_26",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_26.txt"
+}

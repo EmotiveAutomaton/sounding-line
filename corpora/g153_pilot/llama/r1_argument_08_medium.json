@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_08_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5317
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether remote work should be a legal right. Prose only, no headings.",
+ "text": "In an era where technological advancements have made it increasingly feasible for employees to perform their duties from anywhere, the notion of remote work has become more prevalent than ever before. As a result, advocates have begun arguing that remote work should be recognized as a fundamental right, akin to those afforded under existing labor laws. While proponents of this stance point to the increased flexibility and productivity that comes with working remotely, I firmly believe that such an extension is unwarranted.\n\nOne major concern with codifying remote work as a legal right lies in its potential unintended consequences on certain industries or job roles. For example, many blue-collar positions require hands-on training and supervision, which are often impossible to replicate in a remote setting. Similarly, jobs that necessitate close collaboration and teamwork would likely suffer without the in-person interactions that foster camaraderie and creative problem-solving.\n\nFurthermore, enshrining remote work as an unassailable right could have far-reaching implications for businesses seeking to adapt to changing market conditions. Faced with mandatory allowances for remote working arrangements, companies might struggle to remain agile and competitive in a rapidly shifting economy. Such constraints would not only compromise their ability to innovate but also potentially hinder job creation.\n\nWhile the benefits of remote work are undeniable, we should tread carefully before bestowing it with legislative protection. In my opinion, what is crucial at this juncture is not codifying specific rights for employees but rather focusing on fostering an environment that encourages flexibility and experimentation between employers and workers. With nuanced legislation and open communication, companies can establish their own tailored policies for remote work without the need for forced conformity to a one-size-fits-all framework.",
+ "n_words": 280,
+ "generated_at": "2026-08-17 20:45:55",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether remote work should be a legal right",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_08_medium"
+}

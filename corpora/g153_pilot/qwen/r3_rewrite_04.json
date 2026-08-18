@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_04",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5385
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe idea of having self driving cars may have seemed far away into the future until now. Or is it. The initial reaction would be to love the new, innovative idea. However, every time technology introduces a revolutionary invention, it is always met with vario [...source elided...]",
+ "text": "The concept of autonomous vehicles once seemed like a distant dream confined to science fiction; yet today, that future feels surprisingly close at hand. While our initial instinct might be to embrace such an innovative breakthrough with enthusiasm, history teaches us that revolutionary technologies often face significant drawbacks upon arrival. Proponents argue that computer-controlled cars could drastically reduce accidents caused by human error or intoxication, ease traffic congestion through optimized operations, and potentially allow for higher speeds via precise digital calculations. However, these potential benefits are currently overshadowed by severe consequences. In today's context, the disadvantages outweigh the advantages due to substantial risks on the horizon.\n\nFirst and foremost, widespread adoption of self-driving technology would trigger massive unemployment within the transportation sector. Not only would taxi drivers, bus operators, driving instructors, mechanics, insurance adjusters, and personal injury lawyers face job losses, but entire pillars like the gasoline industry and automotive manufacturing could also suffer collapse. It is impossible for America to gamble with these two major revenue-generating industries. Furthermore, such vehicles would lack consumer accessibility due to exorbitant pricing. The engineering complexity, advanced software suites, sophisticated sensors, and powerful computing units required alone make a single vehicle cost around $100,000\u2014a price tag far beyond the reach of the average citizen. Despite claims that these cars are the solution for cities with inadequate public transit systems, this argument is fundamentally flawed; widespread adoption would likely lead to the decline of traditional public transportation while simultaneously pricing out those who cannot afford the new vehicles. Ultimately, moving forward with self-driving cars represents a poor decision that will harm both workers and the broader economy.\n\nA second major concern revolves around security and safety. Integrating computers into automobiles imports all digital vulnerabilities associated with modern technology. Since these systems require vast amounts of data to function correctly, instances of identity theft become almost inevitable. Sensitive information stored in car software, such as bank details, could be intercepted by hackers, posing a direct threat to financial privacy. These cybersecurity issues also compound safety hazards: autonomous cars are calibrated for ideal conditions and may fail when faced with technological glitches or extreme weather events like heavy rain or snow, where laser sensors become ineffective. Additionally, navigating complex environments\u2014such as detours, accidents, local construction, or varying state-specific road laws\u2014presents significant challenges. Even advanced GPS systems occasionally provide inaccurate directions; relying on them means there is a genuine risk that autonomous vehicles could veer off course into dangerous maneuvers based on faulty guidance.\n\nIn an idealized society with perfect infrastructure and flawless execution, self-driving cars might one day become a reality. However, our current world falls far short of such perfection. A serious reconsideration of overhauling the automobile industry should only occur once testing proves these systems are entirely reliable and free of flaws. At this stage, it appears foolish to implement them prematurely. Mere promise and potential opportunity are insufficient justification for fully adopting a technology that carries so many inherent risks today.",
+ "n_words": 497,
+ "generated_at": "2026-08-17 22:01:04",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_102",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_102.txt"
+}

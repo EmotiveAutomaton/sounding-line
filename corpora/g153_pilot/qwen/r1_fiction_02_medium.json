@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_02_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5325
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: the last week of a village post office. Prose only, no headings.",
+ "text": "The bell above the door had long since lost its ring, settling into a rhythmic, hollow clatter that sounded more like a sigh than an announcement. For seven days, the little stationery shop within the village post office remained open for business, though the 'Open' sign hung with a brittle fatigue against the glass. The villagers moved through the space differently now; there was less chatter about holiday greetings and more of a quiet reverence as if they were trespassing in a museum dedicated to obsolete rituals.\n\nOn Monday, Mrs. Gable still dropped off her pension check, but she did not ask for a stamp or inquire about tracking numbers anymore. She simply placed the folded paper on the counter, paid her flat rate with trembling fingers, and left before he could respond. By Tuesday, only one letter remained in the queue\u2014a thank you note from a soldier stationed overseas to his grandmother who lived three towns over. Mr. Henderson took that envelope personally, sealing it himself with care, ensuring no time was wasted on administrative forms that required digital signatures or barcodes now defunct by regulation.\n\nThe air inside grew thick and stale as people stopped visiting simply for the sake of routine. They came instead to say goodbye, holding their envelopes tight against their chests like final treasures. The smell of old parchment mixed with the damp scent of rain seeping through cracked windowpanes created a melancholic atmosphere that seemed to slow time itself. On Thursday afternoon, a young girl brought in her first draft letter home but hesitated at the door; she needed no stamp now, only guidance on how to write better words without relying on templates found online. The silence following her departure was profound yet comforting.\n\nBy Saturday night, the floorboards groaned under their own weight, untouched by footsteps for hours. Sunday brought a final flurry of activity as neighbors gathered one last time not to send mail but to share memories written in ink decades ago, stories that would soon have no official record elsewhere than these fading walls. As dusk fell on Monday evening, Mr. Henderson locked the door with a key he had turned thousands of times before. Outside, snow began to gather softly against the pavement, burying the path where lines once traveled between isolated homes and connecting hearts across vast distances without needing wires or networks. The building stood empty now, waiting for nature to reclaim it completely while its quiet history remained preserved in the stillness of winter.",
+ "n_words": 420,
+ "generated_at": "2026-08-17 21:50:37",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "the last week of a village post office",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_02_medium"
+}

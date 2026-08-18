@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_01_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5323
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a weather forecaster in a town where she is always wrong. Prose only, no headings.",
+ "text": "She stood in front of the green screen, her eyes scanning the charts and maps projected behind her like a familiar nemesis. Another sunny day, another forecast to get spectacularly wrong. The townspeople loved her enthusiasm, but not her accuracy.\n\nAs she began to speak, the camera panned out to reveal the drab, rain-soaked streets outside. A grey mist hung over the town, shrouding everything in a damp gloom. But on air, she beamed with confidence. \"Today's forecast: partly cloudy skies and a high of 75!\"\n\nThe cameras cut to a montage of soggy umbrellas and dripping awnings, but she waved it off as mere weather drama. The townsfolk humored her, shaking their heads good-naturedly as they splashed through puddles.\n\nShe'd been on the job for five years now, and in that time had become an institution \u2013 a sort of lovable punchline. Her bosses never said anything directly, but she knew she was doomed to perpetual inaccuracy. A glance at her ratings would confirm it: every forecast she made was wrong, yet viewers tuned in out of morbid curiosity.\n\nAs the broadcast ended and the studio crew began to pack up, she let out a wry sigh. Maybe someday she'd finally get it right \u2013 a sunny day without a single cloud, or an unexpected heatwave that caught everyone off guard. But until then, she'd just have to keep on forecasting, her smile growing wider as the reality outside grew increasingly gloomy.\n\nAs she left the studio, she felt the rain seeping into her shoes, and smiled brightly for no one in particular.",
+ "n_words": 264,
+ "generated_at": "2026-08-17 20:46:37",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a weather forecaster in a town where she is always wrong",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_01_medium"
+}

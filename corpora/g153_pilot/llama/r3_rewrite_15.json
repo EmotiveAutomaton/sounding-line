@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_15",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5396
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAs with any new invention, technological or otherwise, there is both major benefits that make the research and development worthwhile and equally major concerns that come from unknown consequences of the new product. For self-driving cars, the benefits are ob [...source elided...]",
+ "text": "The introduction of self-driving cars has sparked both excitement and concern about its potential impact on society. While this technology promises numerous benefits, including reduced accidents caused by human error, increased accessibility for those who cannot drive themselves, improved traffic flow, and saved time, it also raises several significant concerns. One major issue is the financial cost of implementing this technology, as well as the unknown variables that come with it, such as data security risks, the impact on non-self-driving car drivers, potential technological failures, and complex legal implications.\n\nDespite these challenges, companies like Google are investing heavily in the development of self-driving cars, suggesting that many people believe the benefits outweigh the costs. However, there is a crucial aspect of this technology that has been largely overlooked: the need for education on how to effectively operate and interact with self-driving vehicles. Without proper training, the advantages of self-driving cars will be diminished.\n\nSome proponents of self-driving cars argue that one of its benefits is eliminating the need for specialized driving licenses, but this assumption is misguided. In reality, drivers would still require training on how to properly use these vehicles. Furthermore, individuals who may not be able to drive manually due to physical or mental limitations may not have the necessary skills to take control of a self-driving car in an emergency.\n\nThe reliance on technology also raises concerns about driver complacency and the potential loss of basic driving skills. If drivers become too reliant on self-driving cars, they may forget how to manually operate the vehicle in case of a system failure or unusual road conditions. This highlights the need for comprehensive education that goes beyond just operating procedures for self-driving vehicles.\n\nEducation can serve as a mediator between the benefits and risks associated with self-driving cars. By providing drivers with the necessary training, they will be able to fully appreciate the advantages of this technology, such as reduced distractions while driving, increased time for other activities during commutes, and improved travel efficiency.\n\nHowever, it's essential to recognize that even with proper education, there are limitations to the benefits of self-driving cars. In situations where a system fails or an unusual road condition arises, drivers will need to be prepared to take control of the vehicle immediately. Therefore, while this technology has the potential to revolutionize transportation, its impact will ultimately depend on how well we prepare our society for its use.",
+ "n_words": 404,
+ "generated_at": "2026-08-17 20:55:06",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_20",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_20.txt"
+}

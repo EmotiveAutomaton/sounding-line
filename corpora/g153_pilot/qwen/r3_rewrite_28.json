@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_28",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5409
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nTechnology is evolving everyday and is a huge part in our lives as humans living in the 21st century. It is almost like living in a Sci-Fi movie. From our phones,tvs and even to our refrigerators, everything seems to be 'smart', and pretty soon, we might even [...source elided...]",
+ "text": "Technology advances with relentless speed, becoming an inseparable thread in the fabric of 21st-century existence. Our daily reality often feels indistinguishable from a science fiction narrative; everything from smartphones and televisions to household appliances like refrigerators has become \"smart.\" Soon, our automobiles may join this roster of intelligent machines as well. While concepts like autonomous vehicles are no longer purely theoretical\u2014with companies like Google already testing driverless prototypes in specific regions\u2014the question remains: do these innovations truly serve the greater good? Although proponents argue that removing human drivers would eliminate error and drastically cut accident rates, I contend that such technology offers more drawbacks than benefits. It brings higher costs not just financially, but at a devastating price to human life itself.\n\nStatistics indicate that over 33,000 people lose their lives annually in vehicular collisions, leading many to view autonomous cars as the ultimate solution. Most accidents stem from human mistakes, such as distraction or fatigue. Supporters of automation point out that software-driven vehicles operate on complex algorithms capable of monitoring surroundings continuously and reacting faster than any human could, theoretically eliminating distractions and reducing fatal crashes. Proponents often calculate these benefits in economic terms: given the immense value placed on a single life (roughly $9.2 million), saving even one life through accident reduction justifies the investment. However, this optimistic view overlooks critical flaws.\n\nDespite sounding promising at first glance, autonomous vehicles are likely to cause more harm than good. Primarily, they introduce new forms of cost and risk. While human error might decrease, system failures or software glitches can still lead to disasters, resulting in tragic loss of life just as deadly as a human mistake would have been. Economically, the liability framework is murky; if an accident occurs due to code failure, determining blame becomes a protracted legal nightmare involving manufacturers and developers, draining resources from all parties involved. Furthermore, widespread adoption threatens livelihoods across entire sectors. Millions work in transportation-related fields\u2014including taxi drivers, ride-share operators, delivery couriers, and chauffeurs\u2014who could find their jobs obsolete overnight. This displacement would severely impact countless families' financial stability. Additionally, the very existence of an insurance industry designed to cover vehicular risks could be undermined if accidents become less frequent or attributed entirely to technology rather than negligence.\n\nIn essence, while autonomous cars may offer a single advantage by streamlining driving efficiency, that gain comes at the expense of displacing workers and introducing new technological dangers. The potential for software-induced fatalities is real, just as the threat to employment sectors is severe. As we increasingly depend on advanced machinery, we must recognize that fixing one problem often creates another far worse. Autonomous vehicles pose significant risks to public safety and economic stability; therefore, it would be wise to reject this technology in its current form.",
+ "n_words": 463,
+ "generated_at": "2026-08-17 22:04:37",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_33",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_33.txt"
+}

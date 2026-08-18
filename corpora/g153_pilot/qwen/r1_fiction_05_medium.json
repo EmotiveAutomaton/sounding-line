@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_05_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5331
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a night ferry that takes no passengers. Prose only, no headings.",
+ "text": "The hull groaned against the rhythmic slap of black water, a deep, tectonic shudder that vibrated through the soles of Elias's boots and up into his spine. Outside, the moon was a jagged sliver of bone, casting long, skeletal shadows across decks stripped bare by years of dust and neglect. The *Oculus*, once the pulsing heart of the coastal trade, now drifted in a holding pattern that felt less like navigation and more like exiled penance. There were no manifests to check, no families arguing over seat assignments near the galley, no children chasing geckos along the starboard railing. The air inside smelled only of wet wool, mildew, and the faint, metallic tang of old blood seeping from a crack in the bulkhead that had been patched with tar twenty years prior.\n\nElias walked the catwalks alone, his flashlight beam cutting through the perpetual twilight of this limbo hour. He stopped at the wheelhouse door; inside, the steering mechanism was rusted solid to its last position, frozen mid-turn as if refusing to admit a new route or surrender an old one. This was not merely abandonment; it was a deliberate suspension. The ferry served no destination tonight because none existed in the way of commerce or transit. It carried only memory, drifting between the waking world and whatever lay beyond the horizon where time had stopped ticking.\n\nOccasionally, mist would roll off the water with such density that Elias felt he could touch ghosts\u2014faint impressions of laughter from a summer decade ago, or the heavy sighs of travelers who never made it home. He did not stop to investigate these whispers; they were part of the vessel's current state of being, its unique cargo. The engine room hummed with an internal combustion that had no heat output, just vibration and sound, mimicking a heartbeat for something that required no lungs. As dawn threatened to bleed into the indigo sky, Elias remained on deck, watching the water rise against the iron ribs. He understood now why the *Oculus* never docked anywhere real: it was waiting not for passengers, but for forgiveness from the land it once served, sailing in circles until the guilt of its silence could finally wash ashore and dissolve into nothingness.",
+ "n_words": 373,
+ "generated_at": "2026-08-17 21:51:41",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a night ferry that takes no passengers",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_05_medium"
+}

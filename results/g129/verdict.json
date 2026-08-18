@@ -1,0 +1,69 @@
+{
+ "prereg": "prereg/g129.py (Amendment 1)",
+ "gates": {
+  "blind": {
+   "accuracy": 0.2419,
+   "n": 616,
+   "p_vs_floor": 0.67547,
+   "VOID_if": "p < 0.05",
+   "void": false
+  },
+  "shuffle": {
+   "accuracy": 0.1104,
+   "n": 616,
+   "p_vs_floor": 0.0,
+   "VOID_if": "p < 0.05",
+   "void": true
+  },
+  "blind_matched": {
+   "accuracy": 0.2216,
+   "n": 176,
+   "p_vs_floor": 0.43347,
+   "VOID_if": "p < 0.05",
+   "void": false
+  }
+ },
+ "verdicts": {
+  "H-A_full": {
+   "margin": 0.2354,
+   "band": "REPLICATES"
+  },
+  "H-B_matched": {
+   "margin": 0.1648,
+   "n": 176,
+   "n_required": 283,
+   "powered": false,
+   "band": "SURVIVES"
+  },
+  "H-C_reader_vs_block": {
+   "reader_only_correct": 111,
+   "block_only_correct": 154,
+   "n_both": 616,
+   "mcnemar_p": 0.00975,
+   "call": "LOSES"
+  },
+  "A7": {
+   "arm": "unchanged",
+   "n_unchanged": 200,
+   "n_sym": 200,
+   "fabrication_rate": 0.0,
+   "sym_miss_rate": 0.005,
+   "sym_accuracy": 0.53,
+   "band": "CLEAN"
+  }
+ },
+ "brief": {
+  "arm": "brief",
+  "n": 616,
+  "k": 4,
+  "accuracy": 0.2744,
+  "analytic_floor": 0.25
+ },
+ "source": {
+  "arm": "source",
+  "n": 616,
+  "k": 4,
+  "accuracy": 0.3052,
+  "analytic_floor": 0.25
+ }
+}

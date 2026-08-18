@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_01_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5343
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: why bridges have expansion joints. Prose only, no headings or lists.",
+ "text": "Bridges are designed to span gaps between two points on either side of a body of water, valley, or other obstacle. In order to do so, they must be able to expand and contract with changes in temperature, humidity, and other environmental factors. If a bridge is rigidly fixed at both ends, it would not be able to accommodate these changes, leading to stresses that could cause the bridge to crack or even collapse.\n\nExpansion joints are a crucial feature of bridges that allow for this movement. Typically located at regular intervals along the length of the bridge, these joints consist of a gap in the bridge's structure, usually filled with a flexible material such as rubber or concrete. As temperatures rise and fall, causing the bridge to expand and contract, these joints allow the different sections of the bridge to move independently.\n\nWithout expansion joints, even relatively small temperature changes could cause significant stresses on the bridge's structure. This is particularly important for bridges that cross large waterways or are exposed to extreme temperature fluctuations, as these conditions can cause the bridge materials to expand and contract by several inches over the course of a day.\n\nIn addition to allowing for thermal expansion, expansion joints also help to absorb shock loads caused by traffic, such as when trucks or heavy loads traverse the bridge. By providing a flexible interface between different sections of the bridge, expansion joints help to distribute these forces evenly, reducing the risk of damage or collapse. Overall, the incorporation of expansion joints is an essential aspect of modern bridge design, allowing for safe and durable structures that can withstand the stresses of daily use and environmental changes.",
+ "n_words": 282,
+ "generated_at": "2026-08-17 20:49:12",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "why bridges have expansion joints",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_01_medium"
+}

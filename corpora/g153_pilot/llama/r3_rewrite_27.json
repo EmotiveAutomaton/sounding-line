@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_27",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5408
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSociety is constantly growing and adapting in regards to its' technology. Products becoming available to the public nowadays would have been completely unfathomable years prior. One futuristic concept being tested now is the idea of self-driving cars.This tec [...source elided...]",
+ "text": "The rapid evolution of technology has brought about numerous innovations in recent years, but one concept that is being heavily tested is the idea of self-driving cars. While proponents argue that these vehicles will provide unprecedented convenience, reduce accidents, and optimize traffic flow, there are several concerns that warrant closer examination.\n\nOn paper, self-driving cars seem like a utopian solution to transportation woes. However, upon closer inspection, it becomes clear that their implementation would be riddled with complications. For instance, passengers would still need to have basic knowledge of car mechanics in case the autonomous system fails, and human error would always remain a possibility. Furthermore, adverse weather conditions can interfere with the car's sensors, rendering them less effective.\n\nBut even if self-driving cars were able to mitigate accidents to some extent, there are no guarantees that they could eradicate them entirely. In fact, their reliance on complex programming and sensor technology raises questions about liability in the event of an accident. Who would be responsible \u2013 the manufacturer, the passenger, or the car itself? Such uncertainty could lead to a labyrinthine legal system, bogged down by endless debates over fault.\n\nMoreover, the economic implications of widespread self-driving adoption are daunting. The estimated cost of these vehicles is staggering, with some manufacturers projecting prices upwards of $100,000. Considering that manual driving would still be necessary in certain situations, such as navigating complex road networks or responding to emergencies, it's unclear how self-driving cars could ever become a viable option for the masses.\n\nBut perhaps the most insidious consequence of self-driving cars is their potential to devastate entire industries and economies. With many drivers losing their jobs due to automation, we risk exacerbating unemployment rates and economic instability. It's difficult to imagine a future where technology has supplanted human ingenuity to such an extent that our very ability to navigate the world would be compromised.\n\nIn this context, it seems folly to trade in manual driving for self-driving cars when the latter poses more problems than solutions. We should think twice before embracing technologies that promise too much and deliver too little. After all, there's a reason why we've always relied on human judgment and adaptability \u2013 they're essential to navigating life's complexities and uncertainties. Perhaps it's time to reassess our priorities and ask whether we truly need self-driving cars at all.",
+ "n_words": 391,
+ "generated_at": "2026-08-17 20:56:19",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_32",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_32.txt"
+}

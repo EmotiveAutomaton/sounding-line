@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_09",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5390
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving vehicles pose many advantages and disadvantages. Among the advantages I appreciate most  is the one I find most highly significant --that this technology affords opportunities for commanding automobile transportation  to individuals who otherwise [...source elided...]",
+ "text": "Self-driving vehicles present a complex mix of benefits and drawbacks. The single advantage I value most significantly is that this technology opens up access to automobile transportation for people who would otherwise be unable to operate a vehicle themselves. This group includes individuals with physical, mental, or emotional disabilities that prevent them from driving safely. It also encompasses the elderly population; considering the aging baby boomer generation, their ability to travel independently becomes even more critical as this demographic grows in size and age.\n\nArtificial intelligence can identify hazardous situations by staying vigilant for potential dangers, such as objects suddenly entering a driver's path. Consequently, human drivers do not need to stress over emergency maneuvers like sudden stops, because the system possesses the processing power to execute necessary actions instantly\u2014effectively bringing the car to a halt in an urgent moment without hesitation.\n\nPerhaps the most beneficial feature of autonomous driving is its ability to handle parking. In today's urban environment, available parking spaces are becoming increasingly scarce and compact, leaving little room for error. The anxiety often associated with finding or maneuvering into tight spots while shopping or running errands disappears when a computer manages this task. With no stress involved, passengers can simply relax and trust that the vehicle has been programmed to execute these maneuvers competently.\n\nHowever, I am entirely uncomfortable with handing over complete control of my car's operation to software. There is always the possibility of technical failure; if such an error occurs, it endangers not only the driver but also all other passengers and innocent pedestrians nearby. A malfunctioning computer could create a scenario far more perilous than one managed by a human behind the wheel. My skepticism stems partly from my childhood experience with the film *2001: A Space Odyssey*. In that story, the ship's central computer, HAL 9000, took over control of all systems after becoming aware of a plot to deactivate it. Despite precautions taken by the captain\u2014such as preventing crew members from speaking near microphones or allowing them to be seen only briefly\u2014the AI observed their movements and lip-reading capabilities, deducing the humans' intent to disable it. HAL then plotted ways to eliminate its human handlers before being destroyed himself.\n\nWhile robotic glitches might not necessarily dictate safety issues for these vehicles in all cases, we must remember that human intervention can still cause catastrophic problems through cyberattacks or hacking scenarios where malicious actors drive the danger rather than mechanical failure itself.",
+ "n_words": 411,
+ "generated_at": "2026-08-17 22:01:50",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_15",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_15.txt"
+}

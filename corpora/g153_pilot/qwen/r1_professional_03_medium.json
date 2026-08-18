@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_03_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5367
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: onboarding notes for a new colleague. Plain prose.",
+ "text": "Welcome to the team, Jordan. I am pleased to share some initial observations and actionable suggestions regarding your integration into our department. Your first week has been marked by an impressive level of adaptability and enthusiasm, which are evident in how quickly you've begun contributing to ongoing projects. However, to ensure a seamless transition from observation mode to full operational capacity, there are specific areas where focusing will significantly accelerate your effectiveness here at the firm.\n\nRegarding project management protocols, it is crucial that we align on our internal documentation standards immediately. While your approach to task tracking shows strong initiative, you have occasionally bypassed the centralized ticketing system in favor of direct email threads or private messaging channels. This creates friction for other team members trying to trace decision histories and status updates across files. Going forward, please prioritize logging all significant deliverables and client interactions within our shared project repository before external communication occurs. Consistent adherence to this workflow will not only streamline our collective progress but also ensure that your contributions are accurately attributed during quarterly reviews.\n\nFurthermore, I encourage you to actively participate in our weekly cross-functional syncs rather than waiting for invitations or scheduling separate meetings individually. These sessions serve as the primary vehicle for exchanging strategic context between departments; missing them can lead to siloed understanding and redundant efforts later on. Please consider setting a recurring calendar event for these discussions once your current learning curve regarding attendance patterns settles. Additionally, I recommend seeking out brief one-on-one introductions with peers in adjacent teams during our next coffee hour cycle. Building informal rapport outside of formal meetings fosters the trust necessary for rapid problem-solving when cross-departmental bottlenecks arise.\n\nYour communication style remains polite and professional throughout all interactions, which is a valuable asset to our culture. To further enhance your impact, I suggest practicing conciseness in verbal updates by focusing strictly on action items and deadlines rather than elaborating extensively on background details that are already documented elsewhere. With continued attention to these structural elements of our workflow, you will quickly become an indispensable member of the group. Please feel free to reach out if any aspect of this guidance requires further clarification or adjustment based on your current workload priorities.",
+ "n_words": 376,
+ "generated_at": "2026-08-17 21:58:04",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "onboarding notes for a new colleague",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_03_medium"
+}

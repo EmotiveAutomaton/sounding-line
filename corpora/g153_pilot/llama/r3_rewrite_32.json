@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_32",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5413
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nToday's society is seeing the start of a new era in technology, where artificial intelligence is becoming mainstream, and so is our reliance on them. This includes the gradual integration of self-driving cars, or cars that rely on computer programming to give [...source elided...]",
+ "text": "The rapid evolution of technology is ushering in a new era where artificial intelligence is becoming an integral part of our daily lives. One notable example of this trend is the increasing presence of self-driving cars on our roads. This innovation has the potential to revolutionize road safety by mitigating human error, which accounts for a significant proportion of accidents.\n\nHuman drivers are prone to distractions, fatigue, and reckless behavior, making them vulnerable to mistakes that can have devastating consequences. In contrast, computers do not experience the same cognitive limitations as humans and can react more quickly in emergency situations. Moreover, self-driving cars can communicate with each other seamlessly, enabling real-time coordination and optimizing traffic flow.\n\nWhile this technology holds much promise, it is not without its drawbacks. Self-driving systems are susceptible to hacking and manipulation, which raises concerns about their reliability. Additionally, the widespread adoption of autonomous vehicles relies on individuals being willing to \"opt-in\" and relinquish control of their vehicle to a computer system. However, these limitations can be mitigated through continued research and development.\n\nAs we continue to refine this technology, it will become increasingly sophisticated and secure. We can expect software updates that address vulnerability to hacking, as well as enhancements to the car's spatial awareness and adaptability. As the technology improves, its price point will decrease, making self-driving cars more accessible to a broader population.\n\nSome people worry that our increasing reliance on automation may lead to a dystopian society where technology turns against us. However, this fear is unfounded. Just as we have not abandoned basic skills like math and reading despite using calculators and computers, we will continue to teach pilots how to fly even with the aid of autopilot systems in planes. Similarly, self-driving cars do not signal the end of human driving abilities; rather, they represent a complementary innovation that enhances road safety.\n\nOne thing is certain: manual transmissions are due for extinction, and their demise cannot come soon enough!",
+ "n_words": 329,
+ "generated_at": "2026-08-17 20:56:49",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_37",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_37.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_00_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5341
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how public-key cryptography works. Prose only, no headings or lists.",
+ "text": "Public-key cryptography represents a revolutionary shift in digital security by allowing two parties to communicate securely without having previously shared a secret password. This system relies on the mathematical properties where it is easy to generate a specific type of key pair but computationally difficult to derive one part from the other. When you set up an encrypted connection, such as visiting a secure website, your device receives a public key, which acts like an electronic padlock that anyone can obtain and use. You encrypt your message using this public key; however, only the intended recipient possesses the corresponding private key required to open the lock and read the content. The beauty of this mechanism lies in its asymmetry: while many people hold copies of a person's public key, far fewer have access to their unique private key, ensuring that decryption remains exclusive even if the encryption method is widely known.\n\nThe security foundation rests on complex mathematical problems involving large prime numbers and modular arithmetic. Generating these keys involves multiplying two enormous primes together to create a product from which it would be nearly impossible for an attacker to reverse-engineer the original factors using current computational power within any reasonable timeframe. This difficulty ensures that even if hackers intercept your encrypted message, they cannot decrypt it without solving math problems that currently defy brute-force solutions. In practice, protocols like TLS use hybrid systems where public-key cryptography securely exchanges a temporary symmetric key used for faster data encryption during the session. Once this initial handshake is complete via asymmetric methods, the connection switches to more efficient algorithms for transmitting large amounts of data.\n\nTrust in these systems also extends to digital certificates issued by certificate authorities that verify identity before distributing public keys on the internet. Without such verification mechanisms, anyone could distribute a fraudulent public key leading to man-in-the-middle attacks where attackers decrypt and re-encrypt messages undetected. Therefore, modern security architecture combines mathematical complexity with rigorous trust infrastructures. As long as certain assumptions about computational limits hold true, this method guarantees confidentiality without requiring users to remember complex passwords or meet in person to share secrets beforehand, fundamentally changing how digital privacy is maintained across the globe.",
+ "n_words": 368,
+ "generated_at": "2026-08-17 21:53:29",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how public-key cryptography works",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_00_medium"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_04_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5329
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: two strangers repainting the same fence. Prose only, no headings.",
+ "text": "The heat hung heavy over the lane, smelling of cut grass and drying oil paint. Elias dipped his roller into the can labeled *Slate Blue*, a color he had chosen for its quiet dignity, while just three yards away, Mara scrubbed vigorously at a patch of peeling yellow on her side of the fence line. They were strangers who met only in this narrow strip of weathered wood that separated their properties, two invisible forces pushing against one another across an unspoken boundary.\n\nElias paused to wipe sweat from his forehead with the back of a gloved hand, watching Mara's efficient strokes. She was moving faster than he expected for someone so solitary; her rhythm was frantic yet precise, as if trying to outrun the afternoon shadows lengthening along the pickets. \"That patch needs more scrubbing,\" Elias called out gently, though they had never introduced themselves. The words hung in the humid air before either realized it might be intrusive. Mara stopped, her paint-stained apron stained further by a fresh drip from her roller. She looked at him, then at his own section where the new blue was already settling into the grain like spilled ink on old paper.\n\n\"We're not quite syncing,\" she admitted with a tired smile that didn't quite reach her eyes. \"I'm trying to get this done before sunset.\" Elias nodded slowly. His fence line stopped abruptly next to hers, creating two distinct halves of what should have been one continuous barrier. One side breathed in cool slate; the other remained defiantly sunny yellow. It was a strange aesthetic dichotomy born of parallel solitude. Neither wanted to cross over into the other's space, yet neither could truly finish without acknowledging the shared labor.\n\nThey worked for another hour in companionable silence, the only sounds being the rhythmic *shhh-shhh* of rollers and the distant hum of cicadas. When Mara finally stepped back from her corner, breathless but satisfied, she saw how Elias's blue now flowed naturally toward their meeting point, stopping just shy of encroaching on her yellow domain. It wasn't a union, exactly, nor a battle; it was simply two people painting the same world in their own colors, separated by wood yet united by the quiet effort to make something look new again before nightfall fell completely.",
+ "n_words": 382,
+ "generated_at": "2026-08-17 21:51:20",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "two strangers repainting the same fence",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_04_medium"
+}

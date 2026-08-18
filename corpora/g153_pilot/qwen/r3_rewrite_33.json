@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_33",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5414
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSociety remains divided on the issue of self-driving cars. Some people think they\u2019re great: they should reduce accidents, free up drivers\u2019 time, and make obsolete the need for detailed knowledge of driving, thus letting students learn other subjects in school [...source elided...]",
+ "text": "The question of autonomous vehicles continues to split public opinion significantly. Supporters champion these machines for their promise to lower accident rates, reclaim driving time for passengers, and eliminate the necessity for complex manual operation skills. This last point could theoretically free up students to focus on other academic subjects while simultaneously granting newfound independence to individuals who currently cannot drive safely due to age or disability. Conversely, critics highlight substantial drawbacks: these systems lack the nuanced decision-making capabilities of attentive humans, introduce novel security vulnerabilities, and carry a significant risk of catastrophic failure. I align myself with this skeptical camp; my primary argument is that computers possess more potential points of weakness than human drivers do.\n\nTo illustrate why reliance on such technology is fraught with danger, let me share a personal experience from earlier this year in April while visiting family in Florida. My parents and I were traveling in a rental vehicle when we encountered an aggressive driver speeding far below the limit ahead of us. To overtake them safely, my father pressed the accelerator firmly to pass quickly. The car's onboard computer system misinterpreted this action as a mistake\u2014specifically, that he had intended to brake but accidentally hit gas instead. In response, the vehicle abruptly locked its brakes and came to an emergency stop in the middle of heavy traffic. This sudden halt tossed us violently forward and nearly caused the cars behind us to crash into our rear bumper. Notably, there was no human error involved: we were not distracted or negligent. We encountered a flaw inherent to a system designed for millions of vehicles that activated without any driver consent or knowledge. That single incident serves as a preview of the hazards associated with fully autonomous driving systems.\n\nThe dangers escalate further when looking beyond mere software glitches affecting vehicle control and considering cybersecurity threats alongside performance in diverse environmental conditions. As reported by *The Guardian*, self-driving computers are susceptible to hacking. There are numerous scenarios where malicious actors could manipulate these vehicles into causing accidents, particularly if the human occupant lacks actual driving skills or is so over-reliant on the technology that they fail to intervene when necessary. A simple yet terrifying tactic involves hackers inducing a \"platooning\" mode\u2014forcing cars to line up tightly behind one another like train cars. In this synchronized state, vehicles essentially follow commands blindly; an attacker could then trigger them to swerve off the road or slam on their brakes simultaneously at high speeds while maintaining close proximity, resulting in inevitable collisions.\n\nProponents often assume that vehicle computers possess a superior understanding of their surroundings compared to distracted humans and are even more vigilant about potential hazards like children darting into traffic or weather changes. While advanced sensors can indeed track nearby speed, detect pedestrians or animals, and monitor meteorological data, these machines fall short when it comes to interpreting the behavioral context of other drivers. When I drive, I instantly assess a fellow driver's situation: Is someone looking at their child in the backseat? Does an SUV have loose branches hanging from its trunk? Is another sedan held together by duct tape after repeated collisions? These subtle visual cues shape my expectations and predictions regarding how that driver will act. A computer cannot replicate this level of observational judgment; it lacks the ability to interpret such nuance. Consequently, computers remain less adaptable than humans because we can intuitively anticipate a vast array of unpredictable driving behaviors that an algorithm struggles to categorize or predict.\n\nIn conclusion, there is no doubt that autonomous vehicles will operate fundamentally differently from human-driven cars. This divergence stems largely from the fact that while computers are programmed with specific rules and sensor data, they lack true consciousness. This absence makes them highly susceptible to being misled by situations their programming cannot foresee, leaving us vulnerable in ways a thoughtful, conscious human driver is not.",
+ "n_words": 652,
+ "generated_at": "2026-08-17 22:05:24",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_38",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_38.txt"
+}

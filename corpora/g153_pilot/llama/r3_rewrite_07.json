@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_07",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5388
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe new technology of self-driving cars is decades in the making in Pittsburgh, with Carnegie Mellon first leading the way in the 1990s.  Since then the city has been a literal testing ground for companies like Uber and Argo AI, with the mayor keen on attract [...source elided...]",
+ "text": "Pittsburgh has been at the forefront of autonomous vehicle technology for decades, with Carnegie Mellon leading the charge since the 1990s. The city's mayor has actively courted companies like Uber and Argo AI to test their technologies on its streets, but the reception hasn't always been warm. Despite its potential benefits, self-driving car technology has faced significant resistance \u2013 even after a fatal accident in Arizona brought testing to a halt.\n\nHowever, the numbers tell a different story. Human error is responsible for a staggering 81% of all vehicular accidents, while automated vehicles tend to be significantly safer. In Pittsburgh's busy streets, pedestrians and cyclists are just as vulnerable to human mistake as drivers. With reaction times that can't keep up with unexpected changes in scenery, and an increasing number of distracted drivers at the wheel, it's no wonder self-driving cars seem like a more reliable option.\n\nFurthermore, autonomous vehicles have the potential to address some of Pittsburgh's most pressing transportation issues. By doubling as designated drivers, they could eliminate drunk driving \u2013 a major concern in a city with limited taxi services and few commercial designated driving companies. Moreover, fleets of self-driving cars could provide transportation for those without access to vehicles, including low-income residents, people with disabilities, and the elderly.\n\nHowever, one key objection to the adoption of self-driving technology is its prohibitively high cost \u2013 upwards of $100,000 per vehicle. This seems like a significant barrier, particularly in neighborhoods where public transportation options are limited. Yet, it's worth noting that costs tend to come down over time as new technologies become more widely available.\n\nWhile this may alleviate some concerns about affordability, there is a deeper question at play: whether Pittsburgh can shake off its car-centric culture and adopt shared self-driving vehicles as a public transportation system. The city's priorities have long been geared towards accommodating drivers, with paratransit services being gutted due to budget cuts. Can it adapt to a new reality where residents prioritize accessibility, inclusion, and the safety benefits of self-driving cars? Only time will tell.",
+ "n_words": 342,
+ "generated_at": "2026-08-17 20:54:18",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_13",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_13.txt"
+}

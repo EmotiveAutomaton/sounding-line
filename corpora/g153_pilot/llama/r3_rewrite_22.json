@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_22",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5403
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars seem to be a thing of the future, but as reports of self-driving cars on the streets keep coming up in the media, their dawn on society is evident. There are several proponents against the use of self-driving cars, citing issues of increases [...source elided...]",
+ "text": "The dawn of autonomous vehicles appears to be approaching rapidly, with reports of self-driving cars on public roads becoming increasingly common in media outlets. While there are some who express concerns about the potential risks associated with these vehicles, manufacturers continue to push forward with testing and development, citing numerous benefits that outweigh the drawbacks.\n\nOne of the primary arguments against self-driving cars is the perceived increase in accident risk. Critics argue that, without human oversight, a computer system may make an error, leading to a collision or fatality. However, this perspective tends to overlook the fact that 81% of all car accidents are caused by driver error. By removing humans from the equation, self-driving cars can potentially eliminate nearly all crash-related fatalities.\n\nAnother concern is the cost associated with implementing autonomous technology in vehicles. It's true that the added expense of computer software, sensors, and research will likely increase the price of a self-driving car. Nevertheless, insurance companies may actually benefit by reducing their payouts for accidents. According to estimates from the U.S. Department of Transportation, a human life is valued at approximately $9.2 million, which means that the financial burden of a fatal crash would be significantly lessened in the event of an autonomous vehicle collision.\n\nAdditionally, proponents of self-driving cars highlight the potential savings through reduced insurance costs and increased productivity. Studies have shown that, by taking over mundane tasks such as stopping at red lights or merging lanes, drivers can reclaim valuable time and resources. This alone could lead to significant economic benefits for individuals and society as a whole.\n\nFinally, concerns about liability and legal precedent in cases where self-driving cars are involved in accidents may also be overstated. As we continue to push the boundaries of technology, it's unlikely that our society will allow these advancements to be stifled by fear of the unknown. In fact, embracing autonomous vehicles could lead to significant benefits for safety, productivity, and cost efficiency.\n\nUltimately, as a society, we have a responsibility to explore new technologies like self-driving cars, despite the potential challenges they may pose. By doing so, we may unlock solutions to pressing issues and create a safer, more efficient future for all.",
+ "n_words": 367,
+ "generated_at": "2026-08-17 20:55:47",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_27",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_27.txt"
+}

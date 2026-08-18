@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_28",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5409
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nTechnology is evolving everyday and is a huge part in our lives as humans living in the 21st century. It is almost like living in a Sci-Fi movie. From our phones,tvs and even to our refrigerators, everything seems to be 'smart', and pretty soon, we might even [...source elided...]",
+ "text": "The rapid evolution of technology has transformed our lives in ways we never thought possible. We're living in a world where even mundane objects like refrigerators and TVs are now \"smart\" devices. The prospect of autonomous vehicles is not far off, with companies like Google testing self-driving cars on public roads. However, beneath the surface of this futuristic promise lies a more complex reality.\n\nProponents argue that self-driving cars will revolutionize road safety by minimizing human error, which accounts for a significant number of accidents each year. According to statistics, over 33,000 people lose their lives in car crashes annually. With computers at the wheel, these fatalities could potentially be avoided. Self-driving cars are equipped with sophisticated algorithms and advanced sensors that allow them to respond faster and more accurately than human drivers. The monetary benefits of reduced accidents would also be substantial, saving millions of dollars.\n\nBut scratch beneath the surface, and it's clear that self-driving cars pose a far greater threat to society than they promise to mitigate. One of the most significant drawbacks is their hefty price tag. While accidents caused by human error may decrease, those resulting from technical failures will still occur, putting lives at risk. Moreover, in the event of an accident, who would bear responsibility? Manufacturers, software developers, or perhaps both? The ensuing lawsuits and settlements could be lengthy and costly.\n\nBeyond the financial implications, self-driving cars also have a more sinister impact: job displacement. Taxi drivers, delivery personnel, and other transportation professionals will lose their livelihoods as these autonomous vehicles take over. Furthermore, the need for car insurance may even become obsolete, threatening entire industries.\n\nWhile technology has brought about numerous benefits to our daily lives, we must be cautious of its darker side effects. The pursuit of innovation should not come at the cost of human well-being and economic stability. By rejecting self-driving cars, we can safeguard the livelihoods of countless individuals and prevent a future where technology dominates human existence at all costs.",
+ "n_words": 333,
+ "generated_at": "2026-08-17 20:56:25",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_33",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_33.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_04_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5349
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how vaccines train the immune system. Prose only, no headings or lists.",
+ "text": "Vaccines function as sophisticated training programs that prepare the body's internal defense forces to recognize and neutralize specific pathogens before they ever cause illness. At their core, these medical interventions introduce a harmless version of a germ\u2014often in the form of an inactive virus, a weakened strain, or just a single piece of protein known as an antigen\u2014to simulate an infection without causing disease. When this simulated threat enters the bloodstream, it triggers the innate immune system to launch an initial response while simultaneously alerting specialized cells called dendritic cells. These scavengers travel throughout the body, presenting fragments of the vaccine's antigen on their surface like ID badges to other white blood cells known as T cells and B cells.\n\nThis interaction is where true learning occurs. Activated B cells begin rapidly producing antibodies, which are Y-shaped proteins designed specifically to latch onto the unique markers of that particular pathogen. Simultaneously, helper T cells coordinate this effort and stimulate cytotoxic T cells, which learn how to hunt down and destroy any actual infected cells in the future. Crucially, some of these activated B and T cells differentiate into memory cells before the vaccine-induced infection is fully resolved. Unlike their active counterparts that fight current battles for a short period, these long-lived sentinels persist within the lymphatic system for years or even decades with no metabolic cost to the host. These memory cells act as an immunological library, storing detailed blueprints of the specific invader encountered during vaccination.\n\nShould the individual encounter the real virus later in life, those dormant memory cells are instantly activated upon detecting familiar antigens on the actual pathogen. Because they have already been primed by the vaccine, their response is dramatically faster and far more robust than a natural first-time infection would allow. The body produces massive quantities of neutralizing antibodies almost immediately, preventing the virus from replicating or spreading to other organs entirely. This rapid mobilization often stops an invasion before symptoms can even develop, effectively turning what could have been a severe illness into either nothingness at all or a very mild case that resolves quickly without complications.",
+ "n_words": 354,
+ "generated_at": "2026-08-17 21:54:59",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how vaccines train the immune system",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_04_medium"
+}

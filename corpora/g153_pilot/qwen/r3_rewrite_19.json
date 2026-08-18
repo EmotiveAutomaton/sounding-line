@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_19",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5400
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAs with the advent and introduction of any new technology, there are pros and cons that arise with the implementation of that technology. This is also true with autonomous, or self-driving, cars. With the testing of self-driving cars currently happening in se [...source elided...]",
+ "text": "Just as every emerging technology brings its own set of advantages and disadvantages upon adoption, this dynamic holds true for autonomous vehicles. Currently being tested in various cities across America, self-driving cars have sparked intense media discussion regarding their safety relative to human-operated vehicles. This conversation has become a central topic within public health discourse. While fully robotic fleets may still be on the horizon, we are likely closer than expected; many modern automobiles already incorporate foundational autonomous features such as automatic braking, automated parking systems, and proximity sensors that detect nearby obstacles.\n\nThe primary argument in favor of self-driving technology centers on enhanced safety. Although a minor fraction of accidents stems from mechanical malfunctions, most collisions result from human distraction or error. By removing the driver entirely, these vehicles eliminate biological limitations: fatigue, diminishing vision, impairment from substances, and lapses in attention do not affect computer systems. Furthermore, these machines utilize sophisticated algorithms to process data on speed and stopping distances with precision that far exceeds human capability, significantly lowering accident probabilities.\n\nBeyond safety, autonomous driving offers numerous secondary benefits. These vehicles could revolutionize traffic flow by communicating directly with one another, thereby solving congestion issues, reducing commute times, and increasing overall road capacity without adding more cars. Mobility would become vastly accessible for individuals with disabilities who currently rely on others for transportation law enforcement officers could divert resources from routine speeding citations to investigate serious crimes. Drivers would enjoy reduced stress related to parking maneuvers or dealing with the Department of Motor Vehicles (DMV), freeing up time for other activities. The potential advantages are indeed limitless.\n\nHowever, every technological advancement carries risks and drawbacks. A major anticipated concern involves economic impact. High implementation costs may place these vehicles out of reach for many Americans, while widespread adoption threatens to displace millions of jobs in the transportation sector. Since most autonomous prototypes rely on electric powertrains driven by computers, this shift could destabilize the gasoline industry. Additionally, heavy reliance on software and technology risks rendering drivers' licenses, insurance policies, and related service providers obsolete as demand evolves. The value proposition also hinges heavily on public willingness to adopt the system.\n\nTechnical flaws present another layer of risk. Current computer vision systems struggle with recognizing roadblocks or interpreting human hand signals at construction zones. Sensors mounted externally are vulnerable to damage from harsh weather conditions like snow or ice. Cybersecurity remains a critical vulnerability; centralized computing platforms attract hackers, and software dependencies on user data create potential security breaches. There is also the \"fallback\" scenario: what happens when technology fails and a human must take control? If that person has never driven before, accidents are likely to occur if GPS signals fail or navigation systems become unavailable.\n\nAlthough achieving a fully autonomous society remains distant, societal momentum clearly favors this direction. I believe self-driving cars will yield substantial benefits in safety, inclusivity, environmental sustainability, and traffic efficiency. Nevertheless, critical questions must be addressed before widespread integration occurs. While transportation jobs may vanish, new roles will inevitably emerge within the manufacturing and technology sectors surrounding these vehicles. The ability to grant mobility to people with disabilities, the elderly, and non-licensed individuals represents a profound tool for independence previously denied to them. In my view, despite initial hurdles, autonomous cars will eventually cross this threshold and become an integral part of our near-future reality, even if initially confined to limited areas.",
+ "n_words": 570,
+ "generated_at": "2026-08-17 22:03:20",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_24",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_24.txt"
+}

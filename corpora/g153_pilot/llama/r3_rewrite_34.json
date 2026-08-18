@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_34",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5415
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe self-driving car is a groundbreaking piece of technology. There is no doubt about that. However, I really question how feasible it is to transition them into every day life in America. The potential advantages of self-driving cars are incredible: safer dr [...source elided...]",
+ "text": "The prospect of self-driving cars revolutionizing transportation is undoubtedly exciting, but I have serious doubts about their feasibility for widespread adoption in America. While the potential benefits are substantial, including reduced accidents, decreased risk of human error, and improved traffic flow, they also come with significant drawbacks.\n\nFor instance, these vehicles rely on complex technology that is still in its infancy, making them vulnerable to malfunctioning or being hijacked by hackers who could access sensitive data. Moreover, their performance can be compromised by adverse weather conditions, and they often struggle to recognize human traffic signals. The reliability of these cars also raises concerns about job displacement in the transportation sector.\n\nIn my view, it's premature to introduce self-driving cars into our daily lives when we have not yet achieved a sufficient level of technological maturity. We need more time to refine this technology and ensure that its adoption will be seamless and minimizes disruptions to affected industries.\n\nIf we were to proceed with their deployment without proper infrastructure and safeguards in place, the results would likely be disastrous. The initial cost of these vehicles \u2013 upwards of $100,000 \u2013 would make them inaccessible to all but a select few, thereby exacerbating social and economic inequalities. Furthermore, relying on widespread adoption by the general public will be impossible if only high-income individuals can afford them.\n\nAdditionally, the integration of self-driving cars into our transportation systems poses significant security risks. With the potential for hackers to exploit vulnerabilities in these vehicles' computer systems, personal data would become increasingly vulnerable to theft or manipulation. Moreover, as these cars begin to replace human drivers, entire industries would be upended: from transportation workers and driver's ed instructors to gasoline station owners and personal injury lawyers.\n\nIn light of these challenges, I firmly believe that the introduction of self-driving cars into our society is not currently feasible. Their implementation could lead to significant economic disruption and have far-reaching consequences for individuals and communities.",
+ "n_words": 327,
+ "generated_at": "2026-08-17 20:57:00",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_39",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_39.txt"
+}

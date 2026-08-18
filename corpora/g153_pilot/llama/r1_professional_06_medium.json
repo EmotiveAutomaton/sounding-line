@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_06_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5373
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: documenting a process handover. Plain prose.",
+ "text": "Subject: Documentation of Process Handover - Update on [Process Name]\n\nDear Team,\n\nAs we continue to work together to ensure a seamless transition in our operations, it is essential that we document the process handover for future reference and clarity. As per our previous discussions, I have documented the key steps involved in handing over the responsibilities for [Process Name] from [Current Responsible Person's Name] to [New Responsible Person's Name].\n\nThe documentation outlines the following critical information:\n\n* A detailed description of the current status of the process\n* Key contacts and stakeholders involved\n* Relevant system access and passwords\n* Outstanding tasks and deadlines\n* Best practices and lessons learned\n\nTo ensure that all team members are aware of the handover, I have attached a copy of the documentation to this email. Please review the document and provide any feedback or suggestions for improvement.\n\nI would like to request that [New Responsible Person's Name] confirm their understanding of the process and confirm their readiness to take on the responsibilities by replying to this email.\n\nTo maintain accuracy and transparency, please note the following:\n\n* All future changes or updates to the process will be documented and communicated to the team.\n* The handover documentation will be updated regularly to reflect any changes in the process.\n* The document will be shared with relevant stakeholders as necessary.\n\nIf you have any questions or concerns regarding this handover, please do not hesitate to reach out. Your input is invaluable in ensuring that we continue to maintain a high level of efficiency and effectiveness in our operations.\n\nThank you for your cooperation and commitment to documenting the process handover.\n\nBest regards,\n[Your Name]",
+ "n_words": 281,
+ "generated_at": "2026-08-17 20:52:44",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "documenting a process handover",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_06_medium"
+}

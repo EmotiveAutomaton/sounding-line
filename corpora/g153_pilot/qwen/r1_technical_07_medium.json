@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_07_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5355
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: what happens during a compile. Prose only, no headings or lists.",
+ "text": "When you type code into an editor and hit save to trigger the compilation process, your source file undergoes a complex transformation from human-readable text into machine-executable instructions. This journey begins with preprocessing, where macros are expanded and headers like standard library definitions are included directly into the main file stream. Once this textual expansion is complete, the compiler moves to lexical analysis, breaking the raw character string down into meaningful tokens such as keywords, identifiers, operators, and literals. Following tokenization, a parser constructs an abstract syntax tree, which acts as a hierarchical representation of your program's grammar rules without yet worrying about its specific meaning or data types.\n\nThe next critical phase is semantic analysis, where the compiler verifies that this logical structure makes sense by checking for type mismatches, ensuring variable declarations are used correctly, and confirming that control flow adheres to language specifications. If errors exist here, compilation halts immediately with diagnostic messages; otherwise, the process advances to optimization routines. In this step, the translator analyzes code patterns to improve efficiency without altering behavior, such as replacing expensive operations with faster equivalents or eliminating unreachable code blocks entirely. Finally, the generator phase takes place, where the optimized tree is translated into low-level assembly language specific to your target processor architecture. A subsequent assembler then converts these symbolic instructions into actual machine code consisting of binary opcodes and memory addresses that can be directly understood by hardware. Throughout this entire pipeline, a significant amount of information regarding variable names and syntax details is discarded in favor of compact, efficient binaries ready for execution, effectively bridging the gap between high-level logic and raw silicon operations.",
+ "n_words": 276,
+ "generated_at": "2026-08-17 21:55:59",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "what happens during a compile",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_07_medium"
+}

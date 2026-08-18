@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_02_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5345
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how a refrigerator moves heat. Prose only, no headings or lists.",
+ "text": "At the heart of every refrigerator lies a remarkable device called the compressor. Its job is to compress the refrigerant, a specialized liquid that's both a key player and an enigmatic presence in this intricate dance of temperature manipulation. As the compressor squeezes the refrigerant, it increases the pressure inside its tiny chamber, causing the liquid to transform into a high-pressure gas.\n\nThis hot, pressurized gas is then routed through coils outside the fridge, where it surrenders some of its thermal energy to the surrounding air. This process, known as heat rejection, is a vital step in the refrigeration cycle. The hot gas gives up its warmth, condensing back into a liquid in the process, and this now-cooler liquid flows back into the compressor.\n\nAs it does, it begins another loop through the system. The liquid passes over an expansion valve, which dramatically reduces its pressure and transforms it back into a cold, low-pressure gas. This cool gas then seeps into the fridge's core chamber, where the heat from the surrounding environment causes it to warm up and absorb some of that unwanted thermal energy.\n\nFinally, this now-warm refrigerant is siphoned off and makes its way back to the compressor, restarting the cycle once more. In essence, the refrigerator is a continuous process of cooling one material (the refrigerant) by transferring heat from another (the surrounding air), creating an illusion of cold where none actually exists. This intricate ballet of temperature manipulation is precisely what keeps your food fresh and your beverages chilled.\n\nThroughout this process, the compressor stands as the unsung hero, tirelessly compressing and expanding the refrigerant in a delicate balance that sustains the entire operation. It's this remarkable interplay between pressure, heat transfer, and phase change that enables your fridge to keep everything cool and ready to eat.",
+ "n_words": 301,
+ "generated_at": "2026-08-17 20:49:27",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how a refrigerator moves heat",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_02_medium"
+}

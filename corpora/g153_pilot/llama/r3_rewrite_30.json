@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_30",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5411
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nIn our rapidly developing society, new technology has an impact on so many new industries, especially in transportation. Currently, many cars have features such as motion sensors and autonomous braking. As these features become more prevalent, there is a ques [...source elided...]",
+ "text": "The rapid pace of technological advancement has far-reaching implications across various industries, and none more significantly than transportation. Modern vehicles are already incorporating features like motion sensors and autonomous braking systems, raising questions about the eventual takeover of roads by self-driving cars. Proponents argue that these vehicles will offer numerous benefits due to their ability to minimize human error. Studies show that 81 percent of accidents can be attributed to driver mistakes, which self-driving cars would eliminate. Additionally, these cars have the potential to make travel more efficient and accessible for those who cannot drive themselves.\n\nHowever, critics point out several concerns associated with relying on autonomous vehicles. One significant issue is their inability to respond effectively to unpredictable human behavior or sudden changes in traffic patterns. Furthermore, widespread adoption of self-driving cars could lead to job losses in industries such as taxi services, personal injury law, and driver education training programs. Nevertheless, the safety, efficiency, and accessibility benefits that self-driving cars provide far outweigh these potential risks.\n\nSafety is undoubtedly the most compelling advantage of autonomous vehicles. Research indicates that human error contributes to a staggering proportion of road accidents, with factors like distractions, substance abuse, or reckless driving all playing a role. Self-driving cars, on the other hand, rely on sophisticated algorithms to navigate roads safely and effectively, reducing the likelihood of crashes significantly. While these vehicles are not immune to malfunctioning in extreme weather conditions or difficulty interpreting human traffic signals, the frequency of such incidents is minimal compared to the lives saved by preventing accidents.\n\nMoreover, self-driving cars promise significant improvements in efficiency and cost savings. With reduced incidence of accidents, insurance claims and medical expenses would decrease substantially. Moreover, autonomous vehicles can optimize travel time by enabling passengers to multitask during trips and even allowing for coordinated \"platooning\" \u2013 where multiple cars communicate with each other to reduce congestion and optimize speed. This not only minimizes traffic but also contributes to lower fuel consumption.\n\nAutonomous transportation has the potential to make roads safer and more accessible, particularly for individuals who cannot operate vehicles themselves due to disability or age-related limitations. Such technology offers a promising solution for these groups, enabling them to travel with greater independence and convenience. For instance, it would eliminate the need for escorts or reliance on public transit, significantly enhancing mobility and freedom.\n\nWhile the development of self-driving cars is still underway, their potential benefits \u2013 in terms of safety, efficiency, and accessibility \u2013 are undeniable. If successful, these vehicles will undoubtedly transform the transportation landscape and contribute positively to society as a whole.",
+ "n_words": 433,
+ "generated_at": "2026-08-17 20:56:37",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_35",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_35.txt"
+}

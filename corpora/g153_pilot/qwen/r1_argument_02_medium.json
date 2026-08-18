@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_02_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5305
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether professional sports teams should be publicly owned. Prose only, no headings.",
+ "text": "The question of whether professional sports franchises should transition from private ownership to public models is one that cuts to the heart of community identity versus corporate profit motives. While some advocate for municipal or state-owned teams as a way to ensure accessibility and stability, I argue that retaining these organizations under private ownership remains the superior model for fostering genuine competition, innovation, and fan engagement in today's global economy.\n\nThe primary argument against public ownership lies in its potential stifling of competitive integrity. Professional sports thrive on free market dynamics where franchises must generate revenue through ticket sales, merchandising, and broadcasting rights to survive without direct taxpayer subsidies. If a city or state owned a team, they might be tempted to manipulate outcomes for political gain or prioritize social engineering over winning games, which undermines the very essence of amateurism-turned-professional sport. Private owners operate under strict league regulations designed to maintain parity; however, these structures also allow individual teams to innovate with marketing strategies and player development that bureaucratic entities could never match. A publicly owned entity would likely succumb to red tape, slowing down decision-making processes essential in a fast-paced industry where seasons are short windows for glory.\n\nFurthermore, the concept of public ownership often ignores the financial reality of modern athletics. The cost of building stadiums and maintaining facilities frequently exceeds what local municipalities can afford without draining tax bases meant for education or infrastructure. When private owners fail, as seen with bankruptcies in various minor leagues, those debts are cleared by league intervention rather than leaving taxpayers holding the bag. Conversely, a public model would make these franchises directly accountable to elected officials who may lack expertise in sports management and player contracts, leading to mismanagement that could jeopardize long-term viability.\n\nFinally, private ownership allows teams to build unique brand identities rooted in specific community values while remaining commercially viable. This balance ensures that local fans feel a sense of pride without sacrificing the financial freedom needed to compete on an international stage. Therefore, despite the noble intentions behind public control, the complexities of running a professional enterprise make privately owned franchises the only sustainable path forward for sports today.",
+ "n_words": 364,
+ "generated_at": "2026-08-17 21:47:12",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether professional sports teams should be publicly owned",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_02_medium"
+}

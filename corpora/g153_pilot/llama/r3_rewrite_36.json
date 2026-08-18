@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_36",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5417
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf Driving Cars is something almost everybody wishes would become reality, but don't know how they would work once they did. Self-driving cars in theory are a wonderful thing; You would save so much time that you would have spent driving, and there wouldn't [...source elided...]",
+ "text": "The allure of self-driving cars is undeniable, but as they near reality, concerns about their feasibility arise. While in theory, these vehicles promise to revolutionize transportation by eliminating human error, which accounts for many accidents each year, their development raises several questions.\n\nOne of the most significant paradoxes of self-driving cars is that their greatest strengths also pose significant weaknesses. On the one hand, they can eliminate all risk associated with human drivers, such as drunk driving or reckless behavior. In an ideal scenario, these vehicles could minimize fatalities by removing human error from the equation altogether.\n\nHowever, this complete reliance on technology comes with its own set of challenges. Without human input, self-driving cars may prioritize efficiency over safety, potentially putting passengers at risk. Moreover, they may struggle to adapt to adverse weather conditions, which can damage their critical sensors. Additionally, these vehicles lack the cognitive abilities of humans to respond to unexpected situations, such as misinterpreted turn signals.\n\nWhile there are valid concerns about the limitations of self-driving cars, I firmly believe that their development holds immense potential for technological advancements in computer science. For instance, creating a self-driving car requires sophisticated computer vision capabilities, enabling it to recognize and respond to other vehicles, measure distances, and detect road hazards.\n\nThe benefits of self-driving cars extend beyond technological innovation; they also promise to greatly improve the quality of human life. By automating transportation, individuals can conserve time and energy, freeing them to pursue more productive endeavors. As we move forward with this technology, I firmly advocate for its development, convinced that it will usher in a brighter future.\n\n(Note: I've preserved the original essay's structure, position, and overall meaning while rewriting it in fresh wording throughout.)",
+ "n_words": 288,
+ "generated_at": "2026-08-17 20:57:10",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_40",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_40.txt"
+}

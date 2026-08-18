@@ -109,13 +109,15 @@ eight-agent external-verification fleet (L107, L108, L109, L123):
   cross-year memorization. **The contamination account is CLOSED from three directions
   (L118): rescore 0.8273 / strict tier 0.8235 / retrain-leak-free 0.8108 (−0.032 below the
   winner's own gate) — the recipe's edge IS the leak; capability is 0.81-0.83.** The
-  all-module dropout collapse is stochastic (L118 fold to L111). Two of three head-scope
-  members above gate (ernie 0.8792 +0.030, L129; roberta 0.8633 +0.021, L121); the vote
-  gates on the deberta stabilizer ladder (rung 1 training). **PAN 2025: THE HARD TEST GATE
-  MATCHED (L128) — 0.8293 vs printed 0.830, seven ten-thousandths, contamination 0.39%,
-  the phase's cleanest anchor landing at exact-value grade; easy 0.9535 vs 0.958 inside
-  seed noise with its interval arms queued; medium training. The recipe graduates to
-  candidate trained substrate for the Phase 2.0 detector (2.0E).**
+  all-module dropout collapse is stochastic (L118 fold to L111). **ALL THREE head-scope
+  members above gate: roberta +0.021 (L121), ernie +0.030 (L129), and deberta +0.0045 at
+  seed 43 (L131) — the collapse account closed as seed fragility, the cloud diagnostic
+  moot; the vote fires next pass. PAN 2025: ALL THREE TEST GATES REPRODUCED ON SEED
+  INTERVALS (L128/L130) — easy at one ten-thousandth (s43 0.9579 vs 0.958), medium
+  bracketed from above (official 0.8303 vs 0.823, print inside interval), hard at typo
+  distance (s42 −0.0007, cloud spread bracketing). The recipe is a validated trained
+  substrate for the Phase 2.0 detector (2.0E). Remaining: medium s44 + vote + the G148
+  verdict block.**
 - **BST**: reference data validated (Exp 1 fully; Exp 2 fully after the fleet found the
   column-major grouping — stimulus i = rows i, i+95, i+190; all sums pass; my earlier
   narrowing was wrong and is reversed). Design corrected by the referees: NINE actions
@@ -137,10 +139,15 @@ mission: a deployable binary AI-provenance classifier whose differentiating cont
 recoverable decision structure, one vertical slice from benchmark through release, with the
 decision representation validated on known answers BEFORE any fusion and the curator
 interface running at theory-group level (roll-ups: Strengthens | Narrows | Kills |
-Infrastructure — the contract is folded into `CLAUDE.md` and the grind skill). The slice's
-head remains the G129 choice-recovery preregistration (the delta stated in every arm; the
-19-dim change block as declared baseline), now joined by the G152 frozen evaluation
-contract as the phase's second writing task.
+Infrastructure — the contract is folded into `CLAUDE.md` and the grind skill). **THE 2.0D
+REAL-TEXT GATE IS MET (L132, 2026-08-18): the confirmatory battery replicates recovery
+(0.4854 vs the 0.25 analytic floor), the balanced matched margin survives at 16.5 points,
+fabrication is 0.000 on no-op deltas, and the 19-dim change block beats the zero-shot
+reader head to head — so the detector-facing features build on the BLOCK and the reader
+supplies abstention, exactly the preregistered response. The free-path pilot corpus (240
+process-recorded artifacts, two local lineages) is complete at zero dollars. Next in the
+slice: G131's factorial construct test, the compact decision-feature block for the stack
+(2.0F), the G152 adjudication set toward his freeze, and the 2.0E substrate runners.**
 
 **The artifact-side science meanwhile (the movement family, settled at four generator
 families):** rising positional polish is the machine default (3 of 4 base × post-training

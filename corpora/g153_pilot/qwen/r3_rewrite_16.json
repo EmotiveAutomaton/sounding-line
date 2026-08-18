@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_16",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5397
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nMany of car accidents are preventable, and an alarming number of them are a result of distracted driving. Self-driving cars might not be the answer. \n\nEquipped with multiple sensors and advanced algorithms, a self-driving car is more likely to be an ideal dri [...source elided...]",
+ "text": "A significant portion of vehicle collisions can be avoided, yet a disturbingly high number stem from drivers who have lost focus. Consequently, autonomous vehicles may not offer the solution we seek.\n\nAlthough equipped with sophisticated sensors and complex algorithms that theoretically make them superior operators\u2014more accurate, dependable, and attentive than humans\u2014the technology remains under active development by engineers. Numerous practical hurdles must be cleared before implementation. For instance, the critical question arises: who assumes control if the system fails? This essay argues persuasively against the adoption of self-driving cars.\n\nFirstly, just as human beings are fallible, so too is any technological system. When automation malfunctions, a clear chain of command regarding responsibility vanishes. We can observe prominent camera structures atop these vehicles; they serve as its eyes and ears in navigating traffic. While a human driver relies on their senses to make judicious choices during severe weather or other hazards, such extreme conditions could blind the vehicle's sensors. A car deprived of sight cannot operate safely on public roads. Furthermore, widespread automation risks disincentivizing individuals from pursuing formal driver education. In an emergency where technology fails and drivers must retake control unskilled operators would be ill-prepared to assume responsibility, leading to dire consequences.\n\nSecondly, the issue of liability remains unresolved in the event of a malfunction. If an autonomous vehicle loses functionality, passengers may find themselves unable to regain immediate control. The interval between mechanical failure and successful human intervention could be insufficient to prevent a crash. In legal terms, establishing accountability for such incidents would prove exceptionally difficult given that neither traditional drivers nor manufacturers can easily bear sole responsibility for these complex scenarios.\n\nFinally, while advocates claim that autonomous vehicles will lower costs and ease societal strain, the reality suggests otherwise; initial expenses are far higher than anticipated. The substantial research funding currently invested in testing by corporations will ultimately be passed down to consumers through elevated purchase prices. Moreover, the advanced sensor suites require expensive maintenance and frequent replacement, keeping these vehicles out of reach for most people as a luxury item rather than a common utility. Widespread adoption is essential to realize true benefits, which cannot occur if usage remains niche. Additionally, automation threatens significant job losses within the transportation sector as machines displace human laborers. The fuel industry faces severe repercussions as well, since autonomous fleets are predominantly designed for electric operation rather than gasoline consumption.",
+ "n_words": 401,
+ "generated_at": "2026-08-17 22:02:48",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_21",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_21.txt"
+}

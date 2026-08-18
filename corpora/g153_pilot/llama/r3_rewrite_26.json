@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_26",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5407
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars are a adaption of auto-pilot mode for air planes. It is a promising invention for people in big cities, where pollution and  traffic are going and space is decreasing. Imagine, just sit in the air conditioned car, sleep for half an hour and  [...source elided...]",
+ "text": "The advent of self-driving cars offers a revolutionary solution for navigating congested city roads and reducing pollution. This technology is an evolution of autopilot systems used in aircraft, allowing drivers to rest while traveling without worrying about traffic or parking hassles.\n\nWhile this innovation presents numerous benefits, it also raises concerns. On the one hand, drivers may feel more relaxed during long trips, especially on rainy days. On the other hand, there's a risk that the car's sensors could malfunction, resulting in loss of control.\n\nSome argue that self-driving cars will reduce insurance costs since computers make decisions instead of humans. However, this raises the issue of liability in case of an accident, as it would be unclear who to hold responsible.\n\nThe advantages of self-driving cars extend beyond personal convenience. They can facilitate faster medical transportation, improve traffic management, and provide more accessible parking for drivers.\n\nOne of the primary concerns surrounding self-driving cars is their potential unreliability due to factors like unpredictable driver behavior or inclement weather. However, proponents argue that this technology has already been successfully implemented in aircraft and automated transport systems.\n\nSeveral tech giants are actively supporting the development of self-driving cars, recognizing their potential to transform daily life. For individuals with disabilities, these vehicles can offer a newfound sense of independence, enabling them to travel without relying on public transportation or needing assistance from others.\n\nOne of the most compelling aspects of self-driving cars is their user-friendliness \u2013 anyone, regardless of age or technical expertise, can operate them safely and easily. This technology has the potential to significantly reduce congestion in major cities like New York, Shanghai, Hong Kong, and Mumbai, where drivers spend hours stuck in traffic.\n\nIn conclusion, while there are valid concerns surrounding self-driving cars, their benefits seem to outweigh their drawbacks. As we continue to refine this technology, it's essential to consider the impact it could have on people's lives \u2013 think of a pregnant woman needing to reach the hospital quickly or an elderly person unable to tolerate glare from headlights. The potential for self-driving cars to alleviate stress and improve transportation is undeniable.",
+ "n_words": 355,
+ "generated_at": "2026-08-17 20:56:13",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_31",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_31.txt"
+}

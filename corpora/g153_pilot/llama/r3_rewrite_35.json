@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_35",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5416
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThere are many advantages for the United States to transition to self-driving cars. The primary benefit is simply the amount of lives saved due to the elimination of intoxicated, distracted, or otherwise dangerous drivers. Computers provide a precise, safe al [...source elided...]",
+ "text": "The United States stands to gain significantly by transitioning to self-driving cars, with the most compelling advantage being a substantial reduction in traffic-related fatalities. Human error behind the wheel is a pervasive problem, and computers can provide a reliable and safe alternative. Moreover, this technology has the potential to save money on insurance costs, outdated infrastructure, decrease congestion, and contribute positively to the environment.\n\nHowever, there are also limitations to consider, including the complexity of implementing this technology, its initial cost, the risk of technological failure, and potential job losses in industries that rely heavily on human drivers. It's essential to address these concerns while recognizing that society's well-being should be a guiding principle in decision-making. \n\nWhen evaluating whether an innovation benefits or harms society, it's crucial to define who constitutes \"society\" and what is considered beneficial for its members. In this case, the consensus is clear: any measure that has the potential to save lives is good for both individuals and society as a whole.\n\nThe statistics on traffic-related fatalities are stark, with approximately 33,000 deaths occurring annually, most of which could have been prevented if drivers were not distracted, intoxicated, or otherwise impaired. This problem is particularly acute among teenagers, who are disproportionately represented in these numbers due to their propensity for reckless behavior behind the wheel.\n\nA more accurate calculation of a human life's value would be infinite, as it cannot be measured in monetary terms. Each person's worth extends far beyond any economic value assigned to them by the government or other entities. \n\nWhile technological setbacks, such as the recent incident involving a self-driving car in Arizona, are valid concerns, they should not overshadow the potential benefits of this technology. We have an opportunity to revolutionize transportation and make significant strides in saving countless lives. In doing so, we uphold our obligation to harness technology for the betterment of society and the well-being of all Americans.",
+ "n_words": 320,
+ "generated_at": "2026-08-17 20:57:05",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_4",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_4.txt"
+}

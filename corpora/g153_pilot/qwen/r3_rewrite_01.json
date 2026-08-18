@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_01",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5382
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe article \"Top 20 Pros and Cons Associated With Self-Driving Cars\", provides an in depth look into the reasoning of whether or not we, as a society, should adopt self-driving vehicles.  Of the 20 \"pros\" listed, an increase in safety was likely the leading f [...source elided...]",
+ "text": "The piece titled \"Top 20 Pros and Cons Associated With Self-Driving Cars\" offers a comprehensive examination of the arguments surrounding our collective decision to embrace autonomous transportation. Among the twenty benefits highlighted, improved public safety stands out as the most compelling reason for adoption, alongside advantages such as reduced commuting durations, smoother urban navigation, and the opportunity for travelers to utilize travel time productively. Furthermore, these vehicles could offer newfound mobility independence to seniors and individuals with disabilities who currently struggle with driving restrictions. In contrast, the article details twenty significant drawbacks, ranging from the extensive training required to master new systems and prohibitive initial costs, to concerns regarding data privacy and cybersecurity threats. Other cited issues include complex legal liabilities, potential technological limitations in handling every scenario, and the economic shockwaves of displacing established industries.\n\nWhen assessing whether autonomous vehicles represent a net positive for society by weighing these factors against one another, it is crucial to consider the complete context. While all listed advantages hold merit, many disadvantages appear surmountable as technology matures. For instance, while high upfront pricing is frequently cited as a barrier, history suggests that emerging technologies tend to become exponentially more affordable over time. We observe this trend with personal computing; early mainframes were room-sized and cost exorbitant sums, yet decades of innovation made them accessible household items for the average family. It is reasonable to expect a similar trajectory for the sensors and processing units essential to self-driving cars. Similarly, while cybersecurity risks are valid concerns given current headlines, critical infrastructure already operates with robust defenses against digital threats; military-operated remote drones serve as proof that designers can successfully mitigate cyber vulnerabilities even in high-stakes environments. These same protective measures could be applied to autonomous fleets.\n\nAlthough numerous examples support the notion that current drawbacks will likely diminish as development progresses, it is vital to recognize a key distinction: while many cons are temporary and fixable, the benefits promise long-term stability and value. Consequently, given that the advantages remain consistent even as hardware improves, I advocate for the measured integration of self-driving vehicles into our daily lives rather than hesitation based on solvable challenges.",
+ "n_words": 361,
+ "generated_at": "2026-08-17 22:00:41",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_10",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_10.txt"
+}

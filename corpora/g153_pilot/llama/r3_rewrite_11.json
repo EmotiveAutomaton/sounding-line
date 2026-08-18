@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_11",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5392
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf driving cars may seem too futuristic to believe, but they have become a reality.\nThey are a symbol of technological advancement we have been able to achieve. They bring with them the hope of increased road safety and awareness. When they become a reality [...source elided...]",
+ "text": "The development of self-driving cars has become a tangible reality, demonstrating the impressive technological advancements we've achieved. These vehicles hold great promise for boosting road safety and awareness. Their integration into our transportation system will likely lead to increased efficiency and reduced costs. However, several factors must be addressed before they can be widely adopted.\n\nWhile some express skepticism about self-driving cars, I firmly believe that their implementation will have numerous benefits. For instance, advanced algorithms can minimize the risk of accidents by calculating optimal stopping times and distances. Furthermore, these vehicles will eradicate common distractions on the road, such as texting or falling asleep at the wheel.\n\nSelf-driving cars also offer a new level of accessibility for senior citizens and individuals with disabilities, enabling them to travel safely without relying on drivers. Cities with limited infrastructure can capitalize on this technology by deploying these cars in underserved areas, reducing reliance on human operators who may experience fatigue.\n\nThe use of self-driving cars would lead to significant decreases in road rage incidents and drunk driving cases, allowing law enforcement to focus on more pressing issues. Moreover, since they are likely to be electric vehicles, they will contribute to a reduction in pollution and optimize energy usage.\n\nOne notable advantage of self-driving cars is their ability to minimize parking congestion. By dropping passengers off at their destinations and parking remotely, they can free up space on roads, reducing traffic caused by parked vehicles.\n\nTo ensure seamless integration, developers must prioritize user-friendly design, mirroring the experience of driving a conventional car while eliminating concerns about specialized training for self-driving vehicles. As costs decrease with advancements in computing technology and government support, it's becoming increasingly feasible to make this innovative transportation system more accessible to local communities.",
+ "n_words": 294,
+ "generated_at": "2026-08-17 20:54:40",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_17",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_17.txt"
+}

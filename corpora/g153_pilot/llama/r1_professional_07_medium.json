@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_07_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5375
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: proposing a change to the on-call rotation. Plain prose.",
+ "text": "Subject: Proposal for On-Call Rotation Adjustment\n\nDear Team,\n\nI am writing to propose a modification to our current on-call rotation schedule, which has been in place since [insert date]. After reviewing the recent on-call periods and soliciting feedback from team members, I believe it is essential to make an adjustment to improve work-life balance and overall job satisfaction.\n\nThe proposed change involves implementing a 7-day rotating shift instead of the current 14-day cycle. This would allow each individual to have more frequent breaks between on-call periods, reducing the burden and stress associated with being on call. Additionally, this modification will enable us to better meet our SLA (Service Level Agreement) requirements while also allowing for improved resource allocation.\n\nHere are some key points regarding the proposed change:\n\n* The 7-day rotating shift would be implemented in a manner that ensures each team member has at least one day off between on-call periods.\n* The current on-call schedule will remain intact until [insert date] to ensure a smooth transition and minimize disruptions.\n* A revised schedule will be created, taking into account the new rotation and ensuring adequate coverage.\n\nI believe this change aligns with our company's commitment to employee well-being and job satisfaction. I would like to hear your thoughts and feedback on this proposal before moving forward. Please submit any concerns or suggestions by [insert date] so that we can discuss them during our next team meeting.\n\nThank you for your attention to this matter, and I look forward to your input.\n\nBest regards,\n\n[Your Name]",
+ "n_words": 257,
+ "generated_at": "2026-08-17 20:52:56",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "proposing a change to the on-call rotation",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_07_medium"
+}

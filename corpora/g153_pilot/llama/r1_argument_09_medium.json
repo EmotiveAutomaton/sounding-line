@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_09_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5319
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether zoos should exist. Prose only, no headings.",
+ "text": "The debate over the existence of zoos has been ongoing for decades, with proponents arguing that they serve as essential institutions for conservation and education, while critics contend that they are inherently cruel and unnecessary. Despite the arguments in favor of their existence, I firmly believe that zoos should not exist.\n\nOne of the primary concerns surrounding zoos is animal welfare. The living conditions of many animals in captivity are far from ideal, with cramped enclosures and inadequate care leading to stress, disease, and even death. Furthermore, the natural behaviors of these animals cannot be replicated in a zoo setting, resulting in a life of confinement and boredom for the animals. This raises serious questions about the ethics of keeping wild animals captive for human entertainment.\n\nMoreover, zoos do little to truly contribute to conservation efforts. While they may provide a platform for education and awareness, many animal species are already being threatened by habitat loss, pollution, and climate change, making it unlikely that zoo populations can be sustained in the long term. In fact, some zoos have even been criticized for their role in perpetuating the exotic pet trade.\n\nFinally, zoos distract from more effective conservation strategies. Rather than diverting funds to maintain these facilities, resources could be redirected towards habitat preservation, research programs, and community-based conservation initiatives that focus on protecting animals in their natural habitats. These approaches not only promote animal welfare but also address the root causes of species decline.\n\nIn conclusion, while zoos may have been seen as a necessary institution in the past, I firmly believe that they serve no meaningful purpose today. Their existence perpetuates animal suffering and diverts resources away from more effective conservation efforts. It's time to rethink our relationship with wild animals and prioritize their welfare over human entertainment.",
+ "n_words": 299,
+ "generated_at": "2026-08-17 20:46:08",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether zoos should exist",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_09_medium"
+}

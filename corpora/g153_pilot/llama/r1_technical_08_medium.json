@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_08_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5357
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how GPS locates a phone. Prose only, no headings or lists.",
+ "text": "To locate a phone using GPS, the process begins with the phone's ability to detect signals from multiple satellites orbiting the Earth. These satellites transmit their positions and timing information in the form of radio waves that can be received by specialized chips within the phone. This is known as the Global Navigation Satellite System (GNSS), which includes not only GPS but also other satellite constellations like GLONASS, Galileo, and BeiDou.\n\nThe phone's GNSS chip continuously listens for signals from multiple satellites, typically between four to 12 in a given region. By receiving these signals at the same time, the chip can calculate its own position using a process called trilateration. This works because each satellite's signal is delayed slightly as it travels through space to reach the phone; by measuring these delays and knowing the satellites' positions, the phone can determine its distance from each one.\n\nWith multiple distances measured against multiple satellites, the phone can pinpoint its location on the Earth's surface with remarkable accuracy. The process happens in real-time, allowing for continuous tracking of the phone's movement as it moves between satellite signals. This information is then used to provide turn-by-turn navigation and other location-based services.\n\nOne key aspect of GPS technology is how it compensates for various errors that can occur during transmission or reception. Signals are delayed by atmospheric conditions, satellite clock drifts, and even physical distortions caused by the Earth's mass. To counter this, each phone uses an algorithm to combine multiple signals, adjusting for these errors and resulting in a precise location estimate.\n\nThe accuracy of GPS depends on several factors, including the number of satellites available, the clarity of their signals, and the presence of any interference or multipath effects that can distort the signal's path. Nevertheless, modern smartphones are capable of pinpointing locations with an accuracy of just a few meters.",
+ "n_words": 310,
+ "generated_at": "2026-08-17 20:51:03",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how GPS locates a phone",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_08_medium"
+}

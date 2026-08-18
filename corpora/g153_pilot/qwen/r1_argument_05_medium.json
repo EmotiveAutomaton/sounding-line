@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_05_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5311
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word argumentative essay taking a clear position on: whether museums should return colonial-era artifacts. Prose only, no headings.",
+ "text": "The question of whether museums should repatriate colonial-era artifacts is not merely an administrative logistical challenge but a profound moral imperative that demands immediate action. While institutions often cite the need for public education and preservation as reasons to retain these items abroad, this argument ignores the deeper ethical breach inherent in their current possession. The primary justification for returning looted goods rests on historical justice: many of these objects were acquired under duress, during active warfare, or through corrupt agreements that stripped source communities of their cultural heritage against their will. To keep such treasures is to validate a legacy of exploitation and erase the voices of indigenous peoples whose histories are being actively narrated by foreign entities for centuries now.\n\nCritics sometimes argue that moving artifacts disrupts global access to history, suggesting that museums serve as neutral repositories for all humanity. However, this neutrality is an illusion; every display case represents a specific political perspective. By refusing return, Western institutions inadvertently perpetuate the very colonial power dynamics they claim to reject, effectively dictating how other cultures view their own past. The concept of \"universal value\" attached to these objects often masks the reality that they hold sacred significance specifically for their people of origin. When an artifact is removed from its context and displayed in a foreign museum without community consent, it loses much of its spiritual and narrative power, becoming merely an object rather than a living part of cultural identity.\n\nFurthermore, technology has mitigated many concerns regarding physical access to items outside one's home country through high-resolution digital archives and virtual reality experiences. The loss of the original artifact in transit is negligible compared to the gain of restoring dignity to displaced communities. Returning these items fosters true international cooperation based on respect rather than extraction. Ultimately, holding onto stolen history serves no educational purpose other than displaying a continued refusal to acknowledge past wrongs. Museums must evolve from being temples of imperial acquisition into centers of restorative justice, returning artifacts not as an act of charity, but as the only logical conclusion to centuries of unresolved theft and cultural violation.",
+ "n_words": 355,
+ "generated_at": "2026-08-17 21:48:14",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether museums should return colonial-era artifacts",
+ "length_bin": "medium",
+ "lineage_id": "r1_argument_05_medium"
+}

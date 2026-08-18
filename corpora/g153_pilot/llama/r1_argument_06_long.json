@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_06_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5314
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word argumentative essay taking a clear position on: whether tipping should be abolished. Prose only, no headings.",
+ "text": "The practice of tipping has become an ingrained part of the service industry in many countries, including the United States, where it is estimated that over 70% of workers rely on tips to supplement their wages. However, this reliance on gratuities has led to a contentious debate about whether tipping should be abolished altogether.\n\nOne argument often made by proponents of tipping is that it allows customers to reward exceptional service and penalize poor service, thereby providing an incentive for servers and bartenders to excel in their roles. This claim assumes that employers would not provide adequate compensation or training for employees without the added pressure of relying on tips, and that allowing customers to tip freely promotes a culture of customer satisfaction.\n\nHowever, this line of thinking oversimplifies the reality of working in the service industry. In many cases, servers and bartenders are expected to maintain high levels of performance while being underpaid and overworked. According to the Economic Policy Institute (EPI), the median hourly wage for waiters and waitresses is just $9.20 per hour, and nearly 70% of these workers rely on tips to bring their wages above the federal minimum of $7.25 per hour. This reliance on tips also creates a perverse incentive structure, where employees are pressured into being overly aggressive in soliciting tips and engaging in other forms of manipulation to increase their earnings.\n\nFurthermore, relying on tipping can lead to significant variability in take-home pay from one shift to another. This is problematic not only for individual workers but also for businesses that struggle with scheduling, staffing, and benefits administration. For example, a study by the Service Employees International Union (SEIU) found that nearly 40% of tipped employees experienced a decline in their total earnings over a given year due to fluctuations in tip income.\n\nProponents of abolishing tipping argue that this system disproportionately affects low-income workers who often find it difficult to make ends meet. By incorporating service charges into menu prices, businesses could ensure that employees receive a stable and living wage, regardless of the quality of service or tips received. This shift would also create greater parity between tipped and non-tipped industries, where workers in sectors such as retail or food processing are typically guaranteed a minimum wage for their labor.\n\nAdditionally, some argue that abolishing tipping would allow businesses to invest more in training and staff development programs, which could lead to improved service quality and customer satisfaction. This is because employers would no longer be incentivized to keep wages low in order to maintain a share of the tip revenue. By providing employees with fair compensation and resources to excel, companies can foster a culture of expertise and excellence that benefits both workers and customers.\n\nHowever, others claim that abolishing tipping could lead to an initial decrease in customer satisfaction, as some patrons may feel underincentivized to provide generous tips. This is a legitimate concern, but one that overlooks the potential for businesses to implement alternative systems for rewarding good service, such as employee recognition programs or quality-control measures.\n\nUltimately, while there are valid arguments on both sides of this debate, I firmly believe that tipping should be abolished in order to bring greater fairness and stability to the service industry. By ensuring that all workers receive a living wage, regardless of tips received, businesses can promote a more sustainable and equitable work environment for low-income employees who often rely heavily on gratuities to make ends meet.",
+ "n_words": 578,
+ "generated_at": "2026-08-17 20:45:36",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether tipping should be abolished",
+ "length_bin": "long",
+ "lineage_id": "r1_argument_06_long"
+}

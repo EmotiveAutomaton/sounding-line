@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_06_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5354
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: how noise-cancelling headphones work. Prose only, no headings or lists.",
+ "text": "Noise-cancelling headphones have become an essential tool for anyone looking to escape the din of everyday life, from commuters to airline passengers and office workers. But have you ever wondered how these miracle devices actually cancel out background noise? The answer lies in a complex interplay between sound waves, pressure changes, and clever electronics.\n\nTo start with, it's worth understanding that when we perceive noise, what our brains are really responding to is the difference between the sounds around us and the quietest possible environment. In other words, if you're sitting in a busy office or on a crowded bus, your ears pick up on all sorts of competing sounds \u2013 the hum of the air conditioning, the chatter of coworkers, the rumble of engines \u2013 which together create a cacophony that's hard to ignore.\n\nThe key to noise-cancelling headphones is to find a way to mask this ambient noise. This is achieved through a technique called active noise control, or ANC for short. At its core, ANC relies on the principle that every sound wave has both a pressure component and a velocity component. The pressure component is what we typically think of as \"noise\" \u2013 the vibrations that our eardrums detect and send to our brain as sound.\n\nThe velocity component, on the other hand, is harder for us to perceive directly. It's essentially the movement of air particles as sound waves pass through them. ANC works by introducing a secondary noise into the mix \u2013 a \"counter-sound\" that's specifically designed to counteract the ambient noise and create an equilibrium state.\n\nHere's how it all comes together: in a typical noise-cancelling headphone, you'll find two main components: the drivers (which produce sound) and the microphones (which pick up ambient noise). The microphones are typically tiny condenser mics placed on the outside of each earcup, which feed their signals to an electronic circuit.\n\nThis circuit is where the magic happens. It's called a \"noise-cancelling amplifier\" or NCA for short. The NCA takes in the microphone's signal and uses it to generate an identical, but inverted, sound wave \u2013 effectively a counter-sound that's designed to cancel out the ambient noise. This process is known as \"destructive interference,\" and it's what allows ANC to selectively eliminate specific frequencies of background noise.\n\nThe counter-sound produced by the NCA is then sent through the drivers, which convert the electrical signal back into sound waves. These counter-sounds are incredibly subtle \u2013 often undetectable to the naked ear \u2013 but their cumulative effect is profound. By constantly feeding a \"negative\" image of the ambient noise back into the mix, ANC effectively creates an environment that's quieter than it would be without it.\n\nOf course, for this process to work seamlessly, there needs to be some clever circuitry at play. Most modern noise-cancelling headphones use what's called an adaptive feedback loop \u2013 a continuous cycle that adjusts itself in real-time based on the ambient noise levels. This allows the NCA to constantly monitor and adapt its counter-sound output, ensuring optimal performance even in environments with changing background noise.\n\nOne of the most impressive aspects of ANC is its ability to tackle multiple frequencies simultaneously. For instance, if you're sitting on a bus that's rumbling along at 30mph, you might hear both low-frequency rumbles (around 50-60 Hz) and high-pitched whines (in the range of 2-4 kHz). The NCA can handle all these different frequencies in real-time, creating an incredibly consistent listening environment.\n\nIn recent years, manufacturers have pushed the boundaries of what's possible with noise-cancelling technology. Newer designs often incorporate advanced materials and innovative electronics to improve performance and battery life. Some headphones even use multiple mics or hybrid ANC systems that combine both passive noise-isolation techniques (like ear-sealing gaskets) with active noise control.\n\nIt's worth noting, however, that ANC is not a panacea for all types of noise \u2013 particularly loud or high-frequency sounds like construction equipment or sirens. For these cases, the technology tends to struggle, and it may be more effective to simply turn up the volume on your music or use passive noise-isolation techniques.\n\nStill, when used correctly and in environments with moderate background noise levels, noise-cancelling headphones can make a tremendous difference in our ability to focus, relax, and enjoy our favorite media. They're an incredibly sophisticated example of modern engineering \u2013 taking complex principles like wave interference and adaptive feedback loops to create something that's both functional and elegant.",
+ "n_words": 738,
+ "generated_at": "2026-08-17 20:50:44",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how noise-cancelling headphones work",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_06_long"
+}

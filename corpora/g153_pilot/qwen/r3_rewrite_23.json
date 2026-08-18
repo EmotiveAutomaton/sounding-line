@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_23",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5404
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nUp with Self-Driving Cars and Down with Gasoline Industry\n     Self-driving cars will eliminate many accidents and the gasoline industry which causes too much pollution and whose time has run out. The computer running the car won\u2019t be distracted like humans.  [...source elided...]",
+ "text": "**The Rise of Autonomous Vehicles and the Decline of the Internal Combustion Engine**\n\nAutonomous vehicles represent a pivotal shift in transportation that promises to drastically reduce traffic fatalities while simultaneously phasing out a gasoline industry whose environmental toll is unsustainable. Unlike human drivers, who are plagued by limited attention spans\u2014averaging only eight seconds\u2014a computer system controlling a vehicle will not be easily distracted or delayed in its reaction times. This technological safeguard addresses the root cause of nearly 94% of all collisions: human error. Most accidents stem from dangerous behaviors such as drunk driving and distraction; unfortunately, humans are prone to these lapses whether due to cell phone use (texting or talking), eating, drinking, fiddling with entertainment systems, attending to children or pets in the backseat, applying makeup, or simply getting sidetracked by conversations.\n\nFurthermore, self-driving technology will effectively eradicate a wide array of other hazardous driving behaviors. These include speeding, reckless maneuvers, running red lights or stop signs, unsafe lane changes, wrong-way driving, road rage incidents, and falling asleep at the wheel. By automating these tasks, such accidents become virtually impossible.\n\nIn addition to safety benefits, autonomous vehicles will likely be electric, offering significant advantages for both drivers and the planet. Electric cars are far more efficient than their gas-guzzling counterparts, generating minimal pollution while operating with a quiet, smooth ride that feels vastly superior to the clunky nature of internal combustion engines. Beyond comfort, they offer substantial financial benefits; electricity costs roughly one-quarter to one-third as much per mile as gasoline, and maintenance is significantly cheaper since there are no oil changes or complex engine requirements. Moreover, by eliminating tailpipes entirely, these vehicles will play a crucial role in improving urban air quality.\n\nThe environmental imperative for this transition cannot be overstated. The current reliance on gasoline releases toxic chemicals like benzene into the atmosphere, contributing to cancer risks and causing immediate health issues such as dizziness, headaches, breathing problems, and confusion among those exposed to fumes. Furthermore, since fossil fuels are a finite resource that is rapidly dwindling, continuing to depend on them is an unsustainable strategy. It is now time to pivot decisively toward electric mobility.\n\nThis transition will also present opportunities rather than just losses for the workforce. Mechanics currently employed in gas stations and garages can be retrained to service electric vehicles or pursue new career paths entirely. History shows that technological progress, such as the shift from horse-drawn carriages to automobiles, did not result in mass unemployment; instead, it spurred innovation and created new industries. Similarly, those who do not own personal cars will still rely on public transportation services like buses and taxis, ensuring jobs remain viable for drivers operating these essential modes of transit. Ultimately, we cannot allow economic anxieties regarding job displacement to hinder inevitable technological advancement that benefits society as a whole.",
+ "n_words": 473,
+ "generated_at": "2026-08-17 22:03:51",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_28",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_28.txt"
+}

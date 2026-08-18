@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_05_long",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5352
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: why the sky is blue. Prose only, no headings or lists.",
+ "text": "When you look up on a clear day away from major cities and tall buildings, the world above appears as a vast canvas painted in shades of azure. It might seem like an obvious feature of our planet's atmosphere, but for centuries this phenomenon puzzled scientists who could not immediately determine why the sky took on that specific hue rather than appearing black, white, or violet. The answer lies not in the atmosphere itself changing color to match human perception, but in a fundamental interaction between sunlight and gas molecules known as Rayleigh scattering. To understand this beautiful display, one must first appreciate what is actually happening when we see light reaching our eyes; it requires three essential elements: a source of white light containing all colors, an obstacle that interacts with the waves carrying that light, and the human visual system which interprets these interactions as specific colors.\n\nSunlight, or visible light coming from the Sun to Earth, is not actually pure white but rather a mixture of seven distinct color bands within the electromagnetic spectrum: red, orange, yellow, green, blue, indigo, and violet. Each of these colors travels at different wavelengths; red light has long waves while violet possesses very short ones. As this beam of sunlight enters our atmosphere from space, it encounters nitrogen molecules that make up about 78 percent of the air along with oxygen comprising roughly twenty-one percent. These atmospheric particles act as tiny obstacles to the passing light waves. When a wave of electromagnetic energy hits an electron within these atoms or molecules, the electric field in the incoming wave causes those electrons to oscillate at the same frequency they are being struck by that particular color's wavelength.\n\nAn accelerating charge creates its own radiation; when the electrons oscillate because of the incoming sunlight, they re-emit light back out into space and toward our eyes on Earth. This process is called scattering. However, this interaction does not happen equally for all colors involved in visible light. The intensity or strength with which a molecule scatters an individual color depends heavily upon its wavelength relative to itself; specifically, the shorter the wavelength of incoming light compared to the size of the particle hitting it, the greater and stronger is that scattering effect. This relationship follows what physicists call Rayleigh's law: scattered energy falls off as one over wavelength raised to the fourth power. Consequently, violet has waves so short they are roughly three-quarters the length of red or green ones, making them scatter about four times more effectively than those longer colors when hitting air molecules.\n\nIf this rule were strictly followed without biological interference, we would expect a sky that appears deep purple rather than blue because the Sun emits significant amounts of violet and ultraviolet light even though human eyes cannot perceive these frequencies well compared to green or red ones. Our retinas contain three types of color receptors; our ability to detect indigo is poor since it has no dedicated receptor for this band while we have strong perception capabilities in other bands, so the mixture that reaches us looks essentially blue rather than violet due largely to how sensitive our eyes are relative to one another across different parts of spectrum. Furthermore though our atmosphere contains enough gas molecules such as oxygen and nitrogen which cause significant scattering effects mostly on those shorter wavelengths before sunlight can reach ground level from above; however clouds look white because their droplets scatter all colors equally strongly regardless of wavelength due having much larger sizes than individual air molecule dimensions causing them to reflect back combined into single impression rather than letting one dominate over others visibly like Rayleigh does here below cloud cover areas only during daytime hours when sun beats down directly onto us from overhead angles creating brightness patterns across ground surface varying based upon time elapsed throughout day cycles.\n\nAs the Earth rotates, different parts of our planet get exposed to sunlight at various times meaning shadows stretch longer lengths depending on angle taken by incoming rays hitting lower altitudes where scattering becomes even more pronounced allowing colors like orange and red showing through clearly during sunrise or sunset periods when light must travel farther distances before reaching observer's eyes having passed right past many layers containing numerous particles causing preferential removal of shorter wavelengths leaving behind predominantly long ones which then illuminate horizon regions with warm tones contrasting against still-blue upper arches overhead. Thus what seems so simple really involves complex physics principles governing behavior electromagnetism interacting matter creating visual experiences we take for granted unless stepping outside urban environments where pollution obscures view blocking out true celestial colors hiding mystery inherent nature surrounding us daily life without needing advanced equipment just standing looking upward wondering why sky looks exactly way it does right now today forever changing ever shifting patterns reflecting dynamic relationship between star light passing gases making up our protective shield keeping harmful radiation away while painting heavens above vibrant tapestry known universally across globe regardless location culture language spoken there.",
+ "n_words": 846,
+ "generated_at": "2026-08-17 21:55:34",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "why the sky is blue",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_05_long"
+}

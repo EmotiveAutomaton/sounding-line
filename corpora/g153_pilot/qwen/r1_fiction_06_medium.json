@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_06_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5333
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: an archivist who finds her own handwriting in an old file. Prose only, no headings.",
+ "text": "The dust in the basement archives always tasted faintly of cedar and forgotten time, but today it felt sharper on Elias's tongue as she flipped through a brittle ledger from 1954. She was cataloging donations for the mid-century collection when her finger paused over page forty-two. The entry listed a donation of three leather-bound journals, attributed to \"Dr. Aris Thorne,\" though no such physician had ever contributed to the society's funds according to the minutes she'd read last week. Yet there it was, scrawled in elegant, looping script: *Donated by Dr. A. Thorne.*\n\nElias frowned, her breath catching as recognition struck with sudden violence. The handwriting wasn't just similar; it was identical. That distinctive upward flick on the 't', the way the lower loops of 'y' dipped like a bird landing in mud\u2014that was unmistakably hers. She had never donated journals to this society, nor did she know anyone named Thorne who resembled her current self. Before the accident three years ago that left her unable to work as an archivist, Elias Vance had been Dr. Aris Thorne before adopting the name of a family friend to escape the scandalous life that nearly destroyed them all.\n\nHer hands trembled now, hovering over the yellowed paper. The room seemed to tilt slightly on its axis; the hum of the ventilation system sounded like rushing water from another lifetime. How had this manuscript survived? Had it been hidden away by someone who knew the truth about her past identity? She traced the ink with a trembling finger, feeling the ghostly weight of a life she thought was buried under new ones. The fear that once defined her existence\u2014the terror of exposure and erasure\u2014had long since receded into a quiet numbness. Now, faced with undeniable proof that some chapters were never truly closed, panic surged through her veins like ice water. Was this a mistake? A trick of the light on decayed ink? Or was fate finally demanding she confront the woman who lived before she knew herself as Elias Vance? The silence of the basement pressed in, heavy and waiting, holding its breath until she could decide whether to turn the page or leave it forever open.",
+ "n_words": 365,
+ "generated_at": "2026-08-17 21:52:04",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "an archivist who finds her own handwriting in an old file",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_06_medium"
+}

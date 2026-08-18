@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_00_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5321
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a locksmith who keeps one uncut key. Prose only, no headings.",
+ "text": "The smell of worn leather and WD-40 clung to him like a second skin as he worked his way through the day's batch of locks. Fingers nimble from years of practice danced across keypads, coaxing reluctant tumblers into place with a satisfying click. But amidst the whir of machinery and soft murmur of the radio, one thing remained constant: the uncut key.\n\nIt sat on his workbench, a small, slender thing, polished to a soft sheen by years of handling. Not a single notch or serration marred its surface \u2013 it was as if it had been born waiting for this moment, when all else would fail and it alone would set things right. His colleagues thought him mad, kept the thing out of superstition or perhaps habit; but he knew better.\n\nHe ran his thumb over the key's length, feeling the subtle give of its metal heart. It was a reminder that even in a world where every other lock could be picked and every security measure breached, some things remained locked tight \u2013 to him, at least. When the shop closed and the last customer departed, he'd sit with it, turning it over in his hand as if weighing its promise.\n\nSome said it was a charm against failure; others whispered of a secret life, one where doors swung open without warning or permission. He never spoke of it to anyone, but when late at night he slipped into the quiet streets, key clutched tight, he could almost hear the whisper: this way out, and only for you.",
+ "n_words": 260,
+ "generated_at": "2026-08-17 20:46:23",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a locksmith who keeps one uncut key",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_00_medium"
+}

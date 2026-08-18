@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_fiction_08_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5337
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word piece of literary short fiction about: a child's map of a city that does not exist yet. Prose only, no headings.",
+ "text": "The paper smelled of vanilla and damp cardboard, the scent preserved in an envelope dated three days after the last rainstorm had ceased to fall on this particular Tuesday. Inside lay a map drawn by seven-year-old Elias with meticulous care, its ink still glistening faintly where his small thumb had smudged it yesterday. He called it \"The City of Tomorrow,\" though he never explained why such a place needed protection from the wind or sun when nothing yet existed there to protect itself.\n\nIn the center stood a tower spiraling upward until it vanished into a cloud drawn with careful hatching, not gray but a soft, hopeful blue that seemed to pulse if one stared too long at it. Surrounding this impossible spire were roads made of silver pencil lines that twisted like river serpents before vanishing off the edge of the paper entirely, leading nowhere and everywhere simultaneously. There was no legend key, only tiny labels written in looping cursive: *The Bakery Where Bread Never Slices*, *The Library That Knows All Your Secrets Before You Ask*, and *The Park Where Shadows Dance Without People*.\n\nElias sat cross-legged on his rug, tracing a route with a finger stained blue from the jar nearby. He imagined walking these paths as if they were already paved underfoot, feeling the cool morning air brush against cheeks that hadn't been born yet. Sometimes he wondered if anyone else would ever see this city rise from the mist of imagination or if it remained hidden forever behind walls made entirely of thought and hope. Yet in those quiet moments between school bells and bedtime stories, Elias knew with absolute certainty that somewhere beyond the horizon of reality, bricks were being laid not by hands but by dreams waiting to be harvested from sleepless nights.\n\nHe folded the map carefully along pre-printed creases his father had once shown him years ago for real maps of places long gone or never found. Tucking it back into the envelope felt like sealing a promise written in invisible ink, one that would only become visible when someone else dared to believe what Elias already knew: some cities do not need blueprints because they grow organically from the hearts of those who imagine them first.",
+ "n_words": 375,
+ "generated_at": "2026-08-17 21:52:46",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "fiction",
+ "topic": "a child's map of a city that does not exist yet",
+ "length_bin": "medium",
+ "lineage_id": "r1_fiction_08_medium"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_01",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5382
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThe article \"Top 20 Pros and Cons Associated With Self-Driving Cars\", provides an in depth look into the reasoning of whether or not we, as a society, should adopt self-driving vehicles.  Of the 20 \"pros\" listed, an increase in safety was likely the leading f [...source elided...]",
+ "text": "The article \"Top 20 Pros and Cons Associated With Self-Driving Cars\" presents a balanced view on whether our society should adopt autonomous vehicles. On one hand, the benefits of increased safety, reduced commuting time, and enhanced productivity for drivers are substantial. Additionally, self-driving cars could provide a safe transportation option for the elderly and disabled. However, the article also lists 20 drawbacks, including concerns about training, cost, security risks, and legal complexities.\n\nWhen evaluating the merits of self-driving cars, it's essential to consider both sides of the argument. While many of the cons can be mitigated as technology advances, the advantages are likely to endure regardless of future developments. For instance, the high upfront cost of these vehicles is often cited as a drawback, but history has shown that new technologies typically become more affordable over time. The price of computers, for example, plummeted in just a few decades, making them accessible to mainstream consumers.\n\nCybersecurity threats are another concern, but it's possible to address this issue through robust design and protection measures. Consider the military's use of remote-controlled drones, which have demonstrated that adequate security protocols can be implemented. Similarly, self-driving vehicles could be designed with built-in safeguards to prevent cyber attacks.\n\nWhile further examples could be provided to demonstrate the potential solutions to these cons, it's clear that many are similar in nature and therefore addressable. Conversely, the benefits of self-driving cars \u2013 including increased safety, reduced travel time, and enhanced productivity \u2013 seem unlikely to change regardless of technological advancements.\n\nGiven this analysis, I recommend a gradual introduction of self-driving vehicles into our society. By adopting these vehicles gradually, we can mitigate potential risks while still reaping the rewards of increased safety and efficiency.",
+ "n_words": 287,
+ "generated_at": "2026-08-17 20:53:43",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_10",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_10.txt"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_25",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5406
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars, though only recently becoming a technological feasibility, have advanced rapidly in their short time of development and have thoroughly captured the public eye. The debate on their fitness to our automotive environment and on their desirabl [...source elided...]",
+ "text": "Self-driving vehicles have rapidly evolved from a theoretical concept into a tangible reality in just over a decade, inevitably drawing intense public attention. While the conversation regarding their integration into existing roadways and their broader societal value continues with fervor on both sides of the aisle, this essay argues that despite imperfections, autonomous driving represents a definitive leap forward compared to our current automotive landscape.\n\nFirst and foremost, we must acknowledge the inherent fallibility of human operators. Every day, drivers operate vehicles while fatigued from insufficient rest, fail to monitor blind spots due to distraction, or are easily diverted by minor phone notifications. With an estimated 33,000 fatal accidents occurring annually\u2014overwhelmingly attributable to human error\u2014the need for a safer alternative is undeniable. While it cannot be guaranteed that current autonomous models will immediately reduce accident statistics, the potential seems high given their immunity to biological flaws such as fatigue and distraction. Unlike humans who often succumb to complacency after prolonged driving periods, software-driven vehicles can learn from data over time to enhance safety. Furthermore, autonomous systems operate without fear of missing deadlines, intoxication, or exhaustion; their sole objective is efficient transit from point A to point B.\n\nBeyond safety, self-driving cars offer a transformative solution to restrictive mobility issues plaguing society today. Currently, transportation access is limited by the ability to pass licensing tests, physical capability, and financial resources for vehicle ownership. Children are often constrained by parental availability when attending extracurricular activities, while elderly individuals with arthritis or chronic pain may find public transit inaccessible due to discomfort or safety concerns. Low-income earners frequently face long commutes simply because they cannot afford a personal vehicle. However, autonomous technology could dismantle these barriers. Since the driver does not need to own the car, complex sharing models become viable; fleets of self-driving vehicles could return automatically after trips, optimizing routes and reducing costs. Furthermore, insurance regulations that currently hinder shared mobility would likely be streamlined or eliminated for fully autonomous systems. Ultimately, this innovation could revolutionize public transit by enabling flexible pick-up and drop-off points via large buses or adaptive car fleets, granting transportation freedom to those who cannot own a vehicle at a fraction of the cost of current ride-sharing services like Uber.\n\nAdopting self-driving cars will undoubtedly reshape our society in significant ways. The extent of their success depends entirely on how we implement them; therefore, they are not an automatic triumph without challenges. Nevertheless, considering the severe limitations and dangers inherent in today's manual driving system, it is a reasonable assertion that autonomous vehicles promise dramatic improvements to safety, accessibility, and overall convenience for all members of society.",
+ "n_words": 440,
+ "generated_at": "2026-08-17 22:04:10",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_3",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_3.txt"
+}

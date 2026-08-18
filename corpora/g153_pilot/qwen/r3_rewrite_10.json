@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_10",
+ "regime": "human_to_model_rewrite",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5391
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars appear to be the next wave of technology that will impact our lives, following the pattern previously exploited by the internet, cell phones, and other technological advances. The prospect of cars that autonomously drive is an attractive one [...source elided...]",
+ "text": "Autonomous vehicles seem poised to become the next major technological shift, following the transformative impact previously seen with smartphones, the internet, and similar innovations. The vision of cars that drive themselves is compelling for several reasons. A primary argument in favor of this technology is its potential to significantly lower accident rates and preserve lives. Since roughly 81% of collisions stem from human mistakes, it makes sense to consider computer systems engineered specifically to eliminate those vulnerabilities as a superior alternative. By programming sophisticated algorithms capable of processing countless scenarios, self-driving cars appear able to manage any situation better than a person ever could. Furthermore, because these vehicles operate with full automation, every reaction they generate is designed to yield the optimal result in its specific context.\n\nRegrettably, we are far from realizing this ideal future. I believe society must devote greater attention to the legal and ethical complexities inherent in autonomous driving, particularly how machine decisions differ fundamentally from those made by human drivers. To illustrate such a dilemma, let us adapt the classic \"trolley problem.\" Imagine you are behind the wheel of your own car traveling down a street when suddenly a ball rolls into your path, followed closely by a child chasing it. Upon noticing the child, you face an instantaneous choice: slam on the brakes and hope to stop before hitting them, or swerve sharply toward the roadside, risking collision with a tree that could seriously injure or kill yourself. As humans facing this split-second crisis, we cannot reasonably expect perfect judgment; therefore, society generally accepts either reaction as understandable given human limitations. However, autonomous vehicles are not driven by instinct but by pre-set code. This forces us to collectively determine the most appropriate course of action for the machine. Should the software developer be held liable if their programming fails to stop in time and a child is injured? Conversely, what responsibility lies with them if the car swerves to avoid the child only to crash into a tree, harming its own occupant? These questions lack simple answers, yet if we wish autonomous cars to act for our collective benefit, we must first define exactly what constitutes \"best outcomes\" and how they should be applied in real-world contexts.\n\nGiven these uncertainties, it is crucial that we thoroughly examine the legal and moral implications of this emerging technology before attempting widespread deployment across society.",
+ "n_words": 398,
+ "generated_at": "2026-08-17 22:01:58",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_16",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_16.txt"
+}

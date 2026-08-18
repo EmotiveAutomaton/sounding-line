@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_16",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5397
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nMany of car accidents are preventable, and an alarming number of them are a result of distracted driving. Self-driving cars might not be the answer. \n\nEquipped with multiple sensors and advanced algorithms, a self-driving car is more likely to be an ideal dri [...source elided...]",
+ "text": "While many car accidents can be prevented, a disturbing number of them are caused by distracted driving. However, relying on self-driving cars as a solution may not be the answer.\n\nAt first glance, self-driving cars seem like a foolproof option, equipped with cutting-edge sensors and sophisticated algorithms that make them more accurate, reliable, and focused than human drivers. But while engineers continue to refine this technology, numerous practical concerns remain unanswered. For instance, what happens if the technology fails? This essay will demonstrate why we should be cautious about adopting self-driving cars.\n\nLike their human counterparts, machines are not infallible. If a self-driving car's sensors or algorithms malfunction, who bears the responsibility of driving the vehicle to safety? In extreme weather conditions, for example, a self-driving car's \"senses\" might be impaired, rendering it unable to navigate safely. Moreover, if we rely on self-driving cars, aspiring drivers may be less inclined to learn how to drive themselves, leaving them ill-equipped to take control in an emergency.\n\nBut what happens when the technology fails? In such cases, those inside the car may not be able to quickly regain control. The delay between a malfunction and human intervention could be long enough to cause a catastrophic accident. And if that happens, it's difficult to determine who is liable \u2013 the manufacturer, the driver, or someone else?\n\nProponents of self-driving cars argue that they can reduce driving costs and alleviate societal burdens. However, this claim falls flat when we consider the true cost of owning such vehicles. The research dollars invested in testing these cars will ultimately be passed on to consumers, making them a luxury item rather than an accessible solution. Furthermore, the sensors and maintenance requirements for self-driving cars are likely to be expensive, further reducing their appeal.\n\nMoreover, widespread adoption of self-driving cars could have far-reaching consequences. For one, it would lead to significant job losses in the transportation industry as machines replace human labor. The gasoline industry would also suffer, as electric vehicles become increasingly common. In conclusion, while self-driving cars may hold promise, we should carefully consider the potential risks and consequences before embracing this technology.",
+ "n_words": 357,
+ "generated_at": "2026-08-17 20:55:12",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_21",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_21.txt"
+}

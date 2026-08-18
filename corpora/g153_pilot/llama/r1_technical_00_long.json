@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_00_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5342
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word technical explanation, for a general audience, of: how public-key cryptography works. Prose only, no headings or lists.",
+ "text": "At its core, public-key cryptography is a system that allows individuals to securely send messages or data over an insecure communication channel. This may seem paradoxical at first \u2013 after all, if the channel itself isn't secure, then how can we trust what's being sent? The answer lies in the clever use of pairs of keys: a pair consists of a public key and its corresponding private key.\n\nThink of the public key as an envelope addressed to someone with their name clearly printed on it. If you want to send a letter through this envelope, anyone who has possession of the envelope can see the recipient's name and address, but they won't be able to read what's inside because they don't have the corresponding lock to open it. The public key serves as this lock-free envelope.\n\nThe private key, on the other hand, is the actual lock needed to seal and unseal the contents of the envelope. This key is kept secret from everyone else \u2013 you wouldn't want just anyone to be able to read your correspondence, after all. When a message or data is encrypted using the public key, it becomes scrambled in such a way that only someone with the corresponding private key can decode and recover the original information.\n\nThis process relies on mathematical equations and large numbers. Specifically, we use the principles of modular arithmetic and prime factorization to generate and manipulate these keys. To understand this better, imagine you're trying to find two very large numbers whose product is a smaller number. This sounds simple enough, but as the sizes of the numbers grow, it becomes incredibly difficult, if not impossible, for anyone without the correct starting point \u2013 in other words, without knowing one of the original prime factors.\n\nTo create public-key pairs, we use what's known as the RSA algorithm, named after its inventors Rivest, Shamir, and Adleman. Essentially, this process involves generating a very large number called the modulus, based on two other larger numbers \u2013 p and q. When multiplied together, these prime factors (p and q) give us our modulus, denoted as n = pq. The next step is to find another large number, often referred to as e, which will be used for encryption.\n\nThis e can be thought of as the 'public' part in public-key cryptography because it's made freely available \u2013 after all, anyone can use this key to send an encrypted message or data, but only its corresponding private key (d) can decrypt it. Finding d is a bit like trying to reverse-engineer how something was built: once you have n and e, you need to work backwards to find the prime factors p and q, from which you then calculate d through modular multiplicative inverse techniques.\n\nThe encrypted message or data sent using the public key pair will be a series of numbers that only someone with access to the private key can read. This private key allows for decryption because it's specifically tailored to work backwards from the scrambled data provided by the public key, effectively 'unlocking' the original message or information in the process.\n\nBecause this system relies on extremely large prime numbers and complex mathematical operations, brute-forcing or guessing either the public or private key is nearly impossible. This makes the entire system incredibly secure \u2013 after all, even if an attacker manages to get their hands on your public key, they won't be able to use it for anything without the corresponding private key.\n\nThis fundamental concept has been widely adopted in various aspects of digital security: online transactions (HTTPS and SFTP), secure email services (PGP), as well as mobile phone encryption. Public-key cryptography is a robust tool that provides unparalleled security when sending sensitive information over an insecure channel \u2013 but it's only effective if the keys themselves remain confidential, with their correct usage making all the difference in maintaining digital confidentiality.",
+ "n_words": 654,
+ "generated_at": "2026-08-17 20:49:07",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how public-key cryptography works",
+ "length_bin": "long",
+ "lineage_id": "r1_technical_00_long"
+}

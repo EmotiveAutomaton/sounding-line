@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_33",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5414
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSociety remains divided on the issue of self-driving cars. Some people think they\u2019re great: they should reduce accidents, free up drivers\u2019 time, and make obsolete the need for detailed knowledge of driving, thus letting students learn other subjects in school [...source elided...]",
+ "text": "The debate over self-driving cars remains contentious, with proponents highlighting potential benefits such as reduced accidents and increased mobility for those who cannot drive themselves. However, I remain skeptical about the widespread adoption of autonomous vehicles due to their inherent limitations and risks.\n\nA recent experience highlighted one such risk when I was in a rental car driven by my father on a highway in Florida. The vehicle's computer misinterpreted his decision to accelerate as an attempt to brake, causing it to lock up suddenly and putting all passengers at risk. This incident demonstrates the potential for software glitches to cause harm even without human error.\n\nAs self-driving cars become more prevalent, concerns about security will grow. According to reports, hackers could target these vehicles' computers, manipulating them to engage in potentially deadly scenarios such as a \"platooning\" pattern, where multiple cars are controlled remotely and follow each other closely, increasing the risk of accidents.\n\nProponents of self-driving cars often assume that vehicle computers possess an advanced understanding of their environment, including the behavior of other drivers. However, this assumption is flawed. While sensors can provide information about weather conditions and nearby vehicles, they fall short when it comes to anticipating human behavior. A computer cannot observe a driver's body language or infer their intentions based on their vehicle's condition, as a human would. This inability to accurately judge the behavior of other drivers renders self-driving cars less adaptable than humans.\n\nUltimately, there is no denying that self-driving cars will behave differently from those driven by humans. The disparity stems from the fundamental difference between computers and humans: while humans can be informed and adapt in real-time, computers are susceptible to misinformation and manipulation. As we move towards a future with increasing reliance on autonomous vehicles, it is essential to acknowledge these limitations and potential risks.\n\nNote: I've rewritten the essay to preserve its original meaning, structure, and position, but used fresh wording throughout.",
+ "n_words": 324,
+ "generated_at": "2026-08-17 20:56:54",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_38",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_38.txt"
+}

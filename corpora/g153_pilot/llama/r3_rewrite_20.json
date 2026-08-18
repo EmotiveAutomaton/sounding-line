@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_20",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5401
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nThis article was interesting and mentioned points that I hadn't thought of before.  I do think that the self driving cars would help decrease the number of accidents that are caused by human error.  There are many heart breaking stories of death or serious in [...source elided...]",
+ "text": "The article on self-driving cars has sparked some thought-provoking ideas, but it's also raised concerns about their potential impact on road safety. On one hand, autonomous vehicles could significantly reduce accidents caused by human error, such as those involving drunk drivers or people who are distracted while driving. With the rise of ride-hailing services like Uber and Lyft, one might expect a decrease in incidents, yet many still choose to drive themselves despite these alternatives being readily available.\n\nHowever, there's a crucial question that needs answering: what happens when something goes wrong? For instance, if a child suddenly runs into the road and the car can't react fast enough, who should be held responsible? Some might argue that human drivers would have reacted differently in such situations, potentially preventing accidents. Others might blame the manufacturer for any visibility issues or argue that drivers still need to remain vigilant.\n\nIn light of these complexities, I believe we shouldn't rush into replacing human drivers with self-driving cars solely for the sake of safety. While autonomous vehicles do offer benefits, they also pose risks. Drivers' attentiveness is crucial on the road, and relying too heavily on technology could lead to a false sense of security. Humans make split-second decisions that can be lifesaving in high-pressure situations.\n\nMoreover, even if self-driving cars become widespread, it's essential to hold drivers accountable for their actions behind the wheel, except in cases where there's been a genuine manufacturing error. The responsibility still lies with the human operator to ensure safe driving practices. While autonomous vehicles have their advantages, they should supplement human driving rather than replace it entirely. Only by striking a balance between technology and driver accountability can we truly create safer roads for everyone.",
+ "n_words": 289,
+ "generated_at": "2026-08-17 20:55:36",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_25",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_25.txt"
+}

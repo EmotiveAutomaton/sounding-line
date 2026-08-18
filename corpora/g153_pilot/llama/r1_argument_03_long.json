@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_argument_03_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5308
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word argumentative essay taking a clear position on: whether social media accounts should require age verification. Prose only, no headings.",
+ "text": "The issue of requiring age verification for social media accounts is a contentious one, with proponents arguing that it would protect minors from online exploitation and harm, while opponents claim that such measures are an infringement on their freedom and autonomy. However, after careful consideration, I firmly believe that social media platforms should indeed require age verification to ensure the online safety of children and adolescents.\n\nOne of the primary concerns surrounding social media use among minors is the risk of exposure to explicit content, including violent videos, suggestive images, and harassing messages. Social media platforms have a responsibility to provide a safe environment for all users, particularly those who are vulnerable due to their age. By implementing age verification processes, these platforms can significantly reduce the likelihood that children will stumble upon disturbing or inappropriate material. For instance, if a 13-year-old attempts to access Instagram without verifying their age, they would be met with a prompt asking them to provide their date of birth and contact information for parental consent.\n\nAnother argument in favor of age verification is the need to prevent online grooming and exploitation. Social media companies have been criticized in recent years for their role in facilitating human trafficking and child abuse. By requiring users to verify their age, these platforms can make it more difficult for predators to target vulnerable minors. This is particularly crucial given the prevalence of social media usage among young people. According to a Pew Research Center study, 60% of teenagers aged 13-17 use Instagram, while 54% use Facebook. By implementing age verification processes, social media companies can take concrete steps towards protecting their youngest users from exploitation.\n\nFurthermore, requiring age verification would also help parents and caregivers monitor their children's online activity more effectively. Many social media platforms already provide tools for parents to track their child's interactions, but these features are often undermined by the ease with which minors can create fake accounts or circumvent parental controls. By verifying a user's age, social media companies can ensure that parents have access to accurate information about their child's online activity, enabling them to make informed decisions about their digital well-being.\n\nSome may argue that requiring age verification would be impractical or even unconstitutional due to issues of privacy and freedom of speech. However, I counter that such measures are a necessary step towards protecting the vulnerable and maintaining social order online. While it is true that some teenagers might encounter difficulties in verifying their age, this issue can be mitigated through education campaigns and innovative verification methods, such as biometric authentication or AI-powered identity checks.\n\nOthers may also argue that age verification would undermine the very purpose of social media \u2013 to connect people from all walks of life. However, I disagree. Social media companies are responsible for creating a platform that is inclusive but also safe for all users. By implementing age verification processes, these platforms can promote digital citizenship among young people while preventing online exploitation and harm.\n\nIn conclusion, requiring age verification for social media accounts is essential in today's digital landscape. It would not only protect minors from online exploitation but also provide parents with the tools to monitor their child's activity more effectively. While some may argue that such measures are impractical or infringe on individual rights, I firmly believe that they are a necessary step towards creating a safer and healthier online environment for all users.",
+ "n_words": 572,
+ "generated_at": "2026-08-17 20:44:58",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "topic": "whether social media accounts should require age verification",
+ "length_bin": "long",
+ "lineage_id": "r1_argument_03_long"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_03_long",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5368
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~700-word professional workplace message about: onboarding notes for a new colleague. Plain prose.",
+ "text": "**Welcome to Our Team: Onboarding Notes for [Colleague's Name]**\n\nDear [Colleague's Name],\n\nOn behalf of the entire team, I would like to extend a warm welcome to you as our newest member! We are excited to have you on board and look forward to seeing the valuable contributions we know you will make.\n\nAs you begin your new role with us, we want to ensure that you feel supported and prepared for success. To help you get started quickly and seamlessly integrate into our team, we have compiled some essential information and guidelines below.\n\n**Getting Familiar with Our Organization**\n\nBefore diving into the specifics of your role, it's helpful to understand the overall structure and culture of our organization. Please take a few minutes to review our company profile on our intranet site, which provides an overview of our mission, values, and key initiatives.\n\nAdditionally, we have created a comprehensive guide to our organizational chart, which outlines the various departments and teams within the company. This will help you understand where your role fits in and who your primary contacts are.\n\n**Key Contacts and Communication Channels**\n\nYou will be working closely with several colleagues across different departments. To ensure a smooth transition, please note the following key contacts:\n\n* **Manager:** [Supervisor's Name] - [supervisor's email]\n* **Team Lead:** [Team Lead's Name] - [team lead's email]\n* **IT Support:** [IT Contact's Name] - [IT contact's email]\n\nFor general inquiries or questions, please don't hesitate to reach out to our HR department: [HR Email].\n\n**Technical Requirements and Tools**\n\nYou will need access to the following systems and software:\n\n* Microsoft Office 365\n* Salesforce CRM\n* Project management tools (Trello/Asana)\n\nTo facilitate a smooth onboarding process, we recommend that you complete the online training modules for these systems as soon as possible. Our IT team has also set up a virtual desktop to ensure seamless access to all necessary applications.\n\n**First Week and Tasks**\n\nDuring your first week, please prioritize the following tasks:\n\n1. **Complete the online training modules**: Ensure you are familiar with our company's policies, procedures, and software tools.\n2. **Meet with key stakeholders**: Schedule meetings with [Manager], [Team Lead], and other relevant team members to discuss expectations and responsibilities.\n3. **Set up your workstation**: Arrange for a computer, phone, and necessary equipment to be delivered to your office.\n\n**Ongoing Support and Feedback**\n\nAs you begin your new role, we encourage you to reach out to your colleagues and manager with any questions or concerns. We are committed to providing ongoing support and feedback throughout your onboarding process.\n\nTo facilitate open communication, please join our team's Slack channel and participate in regular virtual meetings and check-ins.\n\n**Additional Resources**\n\nFor your reference, we have created a dedicated SharePoint site for new employees, which includes:\n\n* Onboarding guidelines\n* Company policies and procedures\n* Frequently asked questions (FAQs)\n* Useful links and contact information\n\nWe are excited to have you on board and look forward to seeing the value you will bring to our team! If you have any questions or concerns during your onboarding process, please don't hesitate to reach out.\n\n**Welcome Aboard!**\n\nBest regards,\n\n[Your Name]\n[Your Title]",
+ "n_words": 528,
+ "generated_at": "2026-08-17 20:52:18",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "onboarding notes for a new colleague",
+ "length_bin": "long",
+ "lineage_id": "r1_professional_03_long"
+}

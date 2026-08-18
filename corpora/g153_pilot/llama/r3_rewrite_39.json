@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_39",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5420
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nAfter decades of the prosperous advances of artificial intelligence (AI), especially among the last several years when we have benefited from AI tremendously on a variety of domains such as medicine, e-commerce and digit devices, one futuristic industry also  [...source elided...]",
+ "text": "The emergence of artificial intelligence (AI) has transformed various industries in recent years, with significant advancements in medicine, e-commerce, and digital devices. Now, another pioneering sector is gaining traction: autonomous vehicles. The advent of self-driving cars is quietly revolutionizing transportation, offering a safer, more efficient alternative to human-driven vehicles.\n\nFor decades, humans have been evolving their transportation methods. We are now witnessing the latest development \u2013 self-driving cars that can navigate roads without human intervention. These vehicles, equipped with cameras and other sophisticated technology, are already being tested on public streets in several states across America, including Washington D.C., Nevada, Florida, Michigan, California, and Pennsylvania.\n\nThe integration of AI into transportation has sparked intense debate about the benefits and drawbacks of self-driving cars. While some view them as a godsend, others see them as a potential menace. However, it's puzzling to understand why numerous prominent companies, such as Google, Apple, Audi, Baidu, and Tencent, are investing heavily in autonomous vehicle research.\n\nThe truth is that self-driving cars offer a plethora of advantages. First and foremost, they significantly reduce the risk of accidents on the road. According to Chris Urmson, director of Google's self-driving car program, these vehicles are more cautious and defensive than human drivers, who often cause unnecessary risks through reckless behavior or faulty mechanics.\n\nSelf-driving cars also provide unparalleled benefits for vulnerable individuals, granting them greater mobility and independence. For instance, people with disabilities, the elderly, and those with mobility issues can rely on autonomous vehicles to travel safely without assistance.\n\nHowever, some critics are raising concerns about potential drawbacks, primarily the collection of personal data by self-driving cars' AI systems. While this risk is legitimate, it's essential to remember that electronic devices will soon become ubiquitous in our lives, generating an immense amount of data that must be managed securely.\n\nAnother worry is the displacement of jobs in the transportation sector due to automation. However, this concern is short-sighted. The evolution of self-driving cars will lead to long-term advancements in human history, rendering traditional transportation methods obsolete. Prohibiting their development would hinder progress and deny us the benefits that come with it.\n\nIt's time to welcome the future and reap the rewards that self-driving cars have in store for us. As this technology continues to evolve, we can look forward to a safer, more convenient, and more efficient transportation system \u2013 one that will revolutionize the way we travel.",
+ "n_words": 402,
+ "generated_at": "2026-08-17 20:57:27",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_43",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_43.txt"
+}

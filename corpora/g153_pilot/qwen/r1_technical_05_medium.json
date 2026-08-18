@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_05_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5351
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: why the sky is blue. Prose only, no headings or lists.",
+ "text": "The phenomenon that paints our daytime atmosphere in shades of azure rather than black or gray stems from a fundamental interaction between sunlight and gas molecules within Earth's air, known as Rayleigh scattering. When white light reaches us, it actually comprises the entire visible spectrum of colors, ranging from red through violet, each traveling at different frequencies. Although the sun appears yellowish-white to our eyes because its peak intensity lies in that region, it emits energy across all these wavelengths equally when viewed outside the atmosphere. As this beam enters our skies, it encounters nitrogen and oxygen molecules which are significantly smaller than the wavelength of visible light itself. This size disparity is crucial; according to physical laws governing wave scattering, particles much smaller than a light wave scatter shorter wavelengths with far greater efficiency than longer ones. Since violet light has the shortest wavelength in the visible spectrum, theoretically, one might expect our sky to appear deep purple or violet. However, two primary factors prevent this perception from materializing for most observers. First, human eyes possess only three types of cone cells and are notably less sensitive to violet radiation compared to blue light; consequently, even though more violet photons are scattered, we simply do not perceive them as strongly. Second, the sun emits substantially fewer violet rays than it does in the middle-blue portion of the spectrum, resulting in a lower concentration of those specific colors reaching our retinas after scattering. Furthermore, much of the incoming sunlight containing violet wavelengths is absorbed by ozone layers high above us before it can interact with the atmosphere below. Therefore, when we look up at midday and away from direct solar glare, the overwhelming majority of scattered light that reaches our conscious vision falls squarely within the blue band. While sunrise and sunset offer a different spectacle where sunlight must traverse a much thicker layer of air to reach us directly, scattering out most of the short-wavelength blues leaves only the long-wavelength reds and oranges behind; during noon hours, however, the dominance of scattered shorter wavelengths ensures that every clear sky presents itself as blue.",
+ "n_words": 354,
+ "generated_at": "2026-08-17 21:55:20",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "why the sky is blue",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_05_medium"
+}

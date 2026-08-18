@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_04_medium",
+ "regime": "direct_generation",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5349
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how vaccines train the immune system. Prose only, no headings or lists.",
+ "text": "When we're exposed to a new pathogen - such as a virus or bacteria - our immune system doesn't always know how to respond effectively. This is where vaccines come in. By introducing a small, harmless piece of the pathogen into the body, vaccines enable the immune system to learn and remember what to do next time it encounters the real thing.\n\nThe vaccine's job is to mimic an infection without actually causing one. It does this by containing weakened or killed forms of the pathogen, which triggers the release of signaling molecules called antigens. These antigens serve as a kind of 'wanted poster' for the immune system, alerting it to the presence of a foreign invader.\n\nSpecialized cells in the body - such as dendritic cells and T-cells - recognize the antigens on the vaccine and start to produce an immune response. The immune system's memory cells, known as B-cells, also get involved by producing antibodies that specifically target the pathogen.\n\nAs this process unfolds, the immune system becomes primed for future encounters with the same pathogen. If it ever comes across the real thing again, it can rapidly mount a more effective defense, using the knowledge and experience gained from the vaccine exposure to destroy or neutralize the invader. This ensures that our bodies are better equipped to fend off serious infections.\n\nVaccines even train other parts of the immune system, like our mucosal defenses - the barriers that line our respiratory, gastrointestinal, and genitourinary tracts. These areas can produce mucus, saliva, or other substances that help trap pathogens before they penetrate further into the body. By training these defensive mechanisms, vaccines give us a robust first line of defense against infections.\n\nAs our immune system learns to recognize and respond to specific pathogens through vaccination, it builds a kind of 'library' that allows for future recall and quick response should we encounter those same threats again.",
+ "n_words": 319,
+ "generated_at": "2026-08-17 20:49:58",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how vaccines train the immune system",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_04_medium"
+}

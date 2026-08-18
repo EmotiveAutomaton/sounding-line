@@ -1,0 +1,43 @@
+{
+ "arm": "deberta",
+ "checkpoint": "microsoft/deberta-base",
+ "difficulty": "hard",
+ "macro_f1_final_epoch": 0.8611929082866987,
+ "per_epoch_validation": [
+  0.6688225407589408,
+  0.8005743888680374,
+  0.8256785271555938,
+  0.849681241266884,
+  0.8460704505584791,
+  0.8572053000661226,
+  0.8530287415550212,
+  0.8601544493287394,
+  0.8545870507648969,
+  0.8611929082866987
+ ],
+ "best_epoch_f1": 0.8611929082866987,
+ "gate_validation": 0.8567,
+ "delta": 0.0044929082866986825,
+ "n_train_pairs": 38109,
+ "n_pan23_problems": 4200,
+ "assumptions": "AdamW wd=0, warmup 0.06, CE loss, CLS linear head, pair-encoded longest-first truncation, seed 42, final epoch",
+ "hypers": {
+  "lr": 5e-05,
+  "batch_effective": 60,
+  "epochs": 10,
+  "max_len": 256,
+  "dropout_requested": 0.25,
+  "dropout_scope": "head",
+  "dropout_measured": [
+   0.1,
+   0.25
+  ],
+  "warmup": 0.06,
+  "amp": false
+ },
+ "versions": {
+  "transformers": "5.14.1",
+  "torch": "2.13.0+cu126",
+  "sklearn": "1.9.0"
+ }
+}

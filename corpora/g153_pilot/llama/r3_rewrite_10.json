@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r3_rewrite_10",
+ "regime": "human_to_model_rewrite",
+ "family": "llama",
+ "family_exposure": "held_out",
+ "generator": {
+  "tag": "llama3.1:8b",
+  "digest": "2026-08-13T05:23:14.8119442-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "llama",
+   "families": [
+    "llama"
+   ],
+   "parameter_size": "8.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5391
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Rewrite the following essay in your own words. Preserve its meaning, position, and overall structure, but produce fresh wording throughout.\n\nSelf-driving cars appear to be the next wave of technology that will impact our lives, following the pattern previously exploited by the internet, cell phones, and other technological advances. The prospect of cars that autonomously drive is an attractive one [...source elided...]",
+ "text": "The emergence of self-driving cars is poised to revolutionize transportation, following in the footsteps of previous technological disruptions like the internet and smartphones. One of the most compelling arguments in favor of autonomous vehicles is their potential to significantly reduce accidents and save lives. Studies have shown that human error is responsible for around 81% of all car crashes, making it an attractive prospect to rely on computer systems designed to mitigate this issue. By programming self-driving cars with sophisticated algorithms capable of handling complex scenarios, these vehicles could potentially navigate any situation more effectively than a human driver.\n\nHowever, we must not gloss over the significant challenges that still need to be addressed before self-driving cars can become a reality. One crucial area that requires greater consideration is the legal and moral implications of these vehicles' actions in emergency situations. To illustrate this issue, let's consider a hypothetical scenario inspired by the classic thought experiment known as the trolley problem. Imagine you're behind the wheel when a ball suddenly appears on the road, followed by a child chasing after it. You face an immediate decision: should you attempt to brake and risk injuring the child, or swerve to avoid them but potentially crash into a nearby tree?\n\nThe difficulty arises because human drivers are expected to make split-second decisions, which can be forgiven even if they don't turn out perfectly. In contrast, self-driving cars are programmed in advance to respond to such situations, raising questions about accountability and responsibility. If the car fails to stop in time and injures the child, is the programmer liable? Or would it be their fault if the car swerves and hits a tree, injuring the \"driver\"? The lack of clear answers highlights the need for society to establish guidelines for how self-driving cars should behave in emergency situations.\n\nIn light of these questions, it's essential that we carefully consider the potential legal and ethical implications of self-driving cars before they become widespread. Only by doing so can we ensure that these vehicles are designed and implemented responsibly, aligning with societal values and norms.",
+ "n_words": 350,
+ "generated_at": "2026-08-17 20:54:35",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "argument",
+ "length_bin": "long",
+ "lineage_id": "argrewrite_d1_draft1_2018argrewrite_16",
+ "source_ref": "corpora\\public\\argrewrite\\essays\\Draft1\\draft1_2018argrewrite_16.txt"
+}

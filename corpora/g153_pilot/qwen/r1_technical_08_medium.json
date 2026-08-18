@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_technical_08_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5357
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word technical explanation, for a general audience, of: how GPS locates a phone. Prose only, no headings or lists.",
+ "text": "Determining the precise location of your smartphone relies on a sophisticated network known as the Global Positioning System, which operates through a constant exchange of radio signals between orbiting satellites and receivers on Earth. At its core, this technology measures distance rather than directly determining position; by calculating how far away you are from multiple points in space, your device can triangulate an exact coordinate on the globe. This process begins with at least four satellites transmitting unique identification codes and precise timestamps to every GPS receiver within range simultaneously. These signals travel at the speed of light but take a tiny fraction of a second to cover the roughly twelve thousand kilometers separating Earth from orbit. Because even microseconds of delay translate into significant distance errors, each satellite carries an atomic clock that ensures the timing data transmitted is accurate to nanoseconds.\n\nWhen your phone's internal GPS receiver captures these signals, it compares the time the signal was sent by the satellite with the exact moment it arrived at the device. The difference between these two timestamps allows the phone to calculate how long the radio wave took to travel and, consequently, how far away that specific satellite is located. However, knowing distances from only three satellites creates a cone of possible locations rather than a single point; therefore, a fourth signal is essential not just for pinpointing coordinates but also for correcting timing errors inherent in the phone's less precise quartz clock against the highly accurate atomic clocks aboard the satellites. Once these calculations are complete using data from four or more visible satellites, the receiver solves complex mathematical equations to determine latitude, longitude, and altitude with remarkable accuracy. It is important to note that while the GPS constellation provides this fundamental geometric fix, many smartphones also integrate complementary technologies like cellular tower triangulation and Wi-Fi positioning systems. These additional layers help fill in gaps when satellite signals are weak or blocked by tall buildings and dense tree cover, ensuring location services remain functional almost anywhere on land. Ultimately, it is a seamless blend of orbital mechanics, atomic timekeeping, and rapid signal processing that allows your phone to know exactly where you stand at any given moment without requiring conscious input from the user.",
+ "n_words": 376,
+ "generated_at": "2026-08-17 21:56:19",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "technical",
+ "topic": "how GPS locates a phone",
+ "length_bin": "medium",
+ "lineage_id": "r1_technical_08_medium"
+}

@@ -1,0 +1,39 @@
+{
+ "artifact_id": "r1_professional_09_medium",
+ "regime": "direct_generation",
+ "family": "qwen",
+ "family_exposure": "seen",
+ "generator": {
+  "tag": "qwen3.5:9b",
+  "digest": "2026-08-02T19:02:24.0118661-07:00",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen35",
+   "families": [
+    "qwen35"
+   ],
+   "parameter_size": "9.7B",
+   "quantization_level": "Q4_K_M"
+  },
+  "decoding": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 40,
+   "repeat_penalty": 1.1,
+   "num_predict": 1600,
+   "seed": 5379
+  },
+  "decoding_schema_version": "g153.v1"
+ },
+ "prompt": "Write a ~300-word professional workplace message about: reporting a minor security incident. Plain prose.",
+ "text": "Subject: Security Incident Report \u2013 Unauthorized Access Attempt on Shared Drive\n\nTo the Information Security Team,\n\nI am writing to formally report a minor security incident detected during routine file access logs this morning between 9:00 AM and 10:30 AM EST. While no sensitive data was compromised or exfiltrated, an anomalous login attempt occurred that warrants immediate attention and documentation in accordance with our internal breach response protocols.\n\nThe incident involved a user account belonging to the Marketing Department attempting to access files on the shared server \"Q4-Financials,\" which is restricted to Finance and HR personnel only. This unauthorized access attempt originated from an external IP address located outside of our corporate firewall range, specifically flagged as originating from Brazil. The system automatically blocked the connection after two failed authentication attempts following a brief pause in activity patterns typical of automated scanning tools rather than human interaction.\n\nUpon identifying this behavior through the intrusion detection monitoring dashboard at 10:35 AM EST, I immediately triggered an alert to suspend any further access privileges associated with that IP range temporarily until security engineers could verify the source and rule out broader network infiltration attempts. A full log analysis was initiated simultaneously by IT support upon my notification. So far, no other accounts have shown signs of compromise, nor has there been evidence of data transfer from the targeted folder structure.\n\nDespite the lack of confirmed damage, I believe transparency regarding this event is essential for maintaining our organization's security posture and ensuring timely remediation measures are implemented if necessary potential vulnerabilities in our perimeter defenses need addressing. Restoring full connectivity to that specific segment will only occur after explicit approval from your team confirms the threat has been fully neutralized.\n\nPlease let me know if you require additional context regarding my observations or access logs I can provide immediately for review. Thank you for handling this matter with urgency and professionalism as always.",
+ "n_words": 321,
+ "generated_at": "2026-08-17 22:00:12",
+ "binary_label": "positive",
+ "binary_policy_version": "draft-v0.1",
+ "domain": "professional",
+ "topic": "reporting a minor security incident",
+ "length_bin": "medium",
+ "lineage_id": "r1_professional_09_medium"
+}
