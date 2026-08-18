@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-16 20:07",
+  "started": "2026-08-17 20:36",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -531,11 +531,12 @@
     },
     {
       "name": "pan_vote_hard",
-      "why": "the system vote (gate .8658), behind three members under ONE recipe: head-scope dropout 0.25, warmup 0.06. The all-module scope reading collapsed roberta (9-epoch flatline), so scope joins schedule in the one-recipe rule",
+      "why": "the system vote (gate .8658), behind three members under ONE recipe: head-scope dropout 0.25, warmup 0.06. Deberta member retargeted to the s43 stabilizer rung (2026-08-16): the seed-42 head-scope run collapsed flat and wrote no prediction siblings, so the vote gates on the rung that might train",
       "est_minutes": 5,
-      "status": "FAILED (exit 1)",
-      "log": "results\\pan_vote_hard.log",
-      "minutes": 0.0
+      "status": "DEFERRED",
+      "missing": [
+        "results/pan_winner/deberta_hard_headdrop25_s43.json"
+      ]
     },
     {
       "name": "pan25_wqd_hard",

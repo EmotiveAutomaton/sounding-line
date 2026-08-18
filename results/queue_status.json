@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-15 17:08",
+  "started": "2026-08-17 20:36",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -1417,9 +1417,7 @@
       "name": "bst_exp1_all",
       "why": "the goal-prior contradiction's second arm: the appendix's all-non-obstacle-squares support, same best-fit gates; the marked arm (the Exp-1 main text) landed at printed precision (L119)",
       "est_minutes": 90,
-      "status": "DONE",
-      "log": "results\\bst_exp1_all.log",
-      "minutes": 0.1
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "pd34_fiction_qwen_w40",
@@ -1443,6 +1441,34 @@
       "name": "pd34_fiction_r1l8_w40",
       "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window",
       "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129_change_block",
+      "why": "G129 A4: the 19-dim declared baseline the reader must beat (L85), author-grouped CV, probabilities restricted to the shared candidate sets",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129_verdict",
+      "why": "G129: the preregistered bands, McNemar reader-vs-block, VOID gates, and fabrication rates, computed once, every statistic on disk",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "results/g129/recovery.json",
+        "results/g129/blind.json",
+        "results/g129/shuffle.json",
+        "results/g129/brief.json",
+        "results/g129/source.json",
+        "results/g129/unchanged.json",
+        "results/g129/recovery_matched.json",
+        "results/g129/blind_matched.json"
+      ]
+    },
+    {
+      "name": "g149_switch_sampler",
+      "why": "G149 ruler gate: planted goal switches in the validated BST engine; the shift sampler must detect and localize them with false alarms priced at 5% before any motivation-shift claim touches text. CPU, runs beside trainings",
+      "est_minutes": 90,
       "status": "SKIPPED (already done)"
     }
   ],
@@ -1486,9 +1512,26 @@
     "pan_ernie_headdrop25",
     "pan_deberta_headdrop25",
     "pan25_wqd_easy",
-    "pan25_wqd_medium"
+    "pan25_wqd_medium",
+    "pan_deberta_headdrop25_s43",
+    "g129_recovery",
+    "g129_blind",
+    "g129_shuffle",
+    "g129_brief",
+    "g129_source",
+    "g129_unchanged",
+    "g129_recovery_matched",
+    "g129_blind_matched",
+    "g153_gen_qwen",
+    "g153_gen_llama",
+    "pan25_wqd_hard_s43",
+    "pan25_wqd_hard_s44",
+    "pan25_wqd_easy_s43",
+    "pan25_wqd_easy_s44",
+    "pan25_wqd_medium_s43",
+    "pan25_wqd_medium_s44"
   ],
   "shard": "0/1",
-  "finished": "2026-08-15 17:08",
+  "finished": "2026-08-17 20:36",
   "failed": []
 }

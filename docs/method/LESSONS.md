@@ -341,6 +341,12 @@ current truth lives in the folded end-state of the record, never in an interim s
   it, loops from epoch zero forever; the failure is invisible until someone asks for an ETA. A
   long standalone GPU arm gets one of three protections before launch: queue membership (a stage
   with a produces guard), checkpoint-resume, or its winpid on the sweep's keep-list. (L93)
+- **A produces-guard protects ownership, not compute: any training longer than a few hours owes
+  checkpoint-resume.** A circuit-breaker outage killed a 620-minute deberta rung at epoch 7 of
+  10 (~17 hours with contention), and the produces-guard's only recovery is a restart from
+  epoch zero — the guard made the loss safe, not small. Per-epoch checkpointing with resume is
+  the owed build for the long training runners; until it lands, every 10-hour stage carries a
+  full-restart risk priced at its own runtime. (2026-08-17, the outage)
 - **A deadline exit with no successor idles the machine silently.** Second gear stopped at its
   deadline mid-morning and nothing relaunched it; seven hours of a prescribed 24-hour window
   burned before the evening check noticed. Size the deadline to the curator's stated window at

@@ -162,15 +162,19 @@ survive the fair induction control on the two strong ladders (G76/L94).
   paths still checked). Kill by winpid tree; sweep orphans; standalone GPU arms need queue
   membership, checkpoint-resume, or the sweep keep-list. The queue asserts produces-path
   uniqueness at load; a clean exit with no produce records FAILED.
-- **In flight (relaunched 2026-08-14 night, 24h):** second gear on the decision-critical GPU
-  block — the ScholaWrite roberta framework arm (the checkpoint-reading's discriminating
-  test) + seed 44 + batch-8, the deberta refit (micro-batch 12 × accum 5 after the OOM), the
-  leak-free settling arm, three head-scope dropout members + the rewired vote, and the three
-  wqd 2025 TEST-set gates (hard 0.830, easy 0.958, medium 0.823). GPU work exceeds the
-  window by design; the queue continues next lineage. First gear now runs `run_queue.py
-  --no-gpu` (trainings and sustained generation hold for second gear); the GPU lock's
-  staleness window is 9h; the regear waiter cancels by FILE (`results/.regear.cancel`),
-  never by pid.
+- **In flight (2026-08-17 evening, after the circuit-breaker outage):** a power loss killed
+  the whole machine mid-day. Recovery audit found NO unrecorded findings (every result file
+  newer than the last write-through was already in the record; the one arm running at the
+  cut was still in its lock-wait loop with zero events processed). Compute lost: the deberta
+  s43 stabilizer rung died at epoch 7 of 10, ~17 hours in, training healthily (loss 0.000),
+  and restarts from zero because the training runners have no mid-run checkpoint-resume
+  (build now owed, TODO infra row; the orphan-sweep lesson's protection list has its first
+  outage receipt). Stale gpu/gear locks cleared. **FIRST GEAR is running (his call): all
+  pending GPU stages held for second gear** — the deberta restart, wqd medium + six
+  seed-interval arms, the G129 reader arms, both G153 generation arms — and the G129
+  verdict defers on its arms. The GPU lock's staleness window is 22h (raised 2026-08-17
+  after a live 620-minute rung was reclaimed at hour nine); the regear waiter cancels by
+  FILE (`results/.regear.cancel`), never by pid.
 - **The audit-history index:** L26 (the first fleet), L61 (recreation re-audit), L93 (the
   methods pass), L107/L108 (the two referees), L109 (the consensus fleet), L123 (the external
   verification fleet). The old solo-audit scope table this file used to carry is superseded by
