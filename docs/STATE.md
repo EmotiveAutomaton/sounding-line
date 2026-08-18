@@ -109,15 +109,15 @@ eight-agent external-verification fleet (L107, L108, L109, L123):
   cross-year memorization. **The contamination account is CLOSED from three directions
   (L118): rescore 0.8273 / strict tier 0.8235 / retrain-leak-free 0.8108 (−0.032 below the
   winner's own gate) — the recipe's edge IS the leak; capability is 0.81-0.83.** The
-  all-module dropout collapse is stochastic (L118 fold to L111). **ALL THREE head-scope
-  members above gate: roberta +0.021 (L121), ernie +0.030 (L129), and deberta +0.0045 at
-  seed 43 (L131) — the collapse account closed as seed fragility, the cloud diagnostic
-  moot; the vote fires next pass. PAN 2025: ALL THREE TEST GATES REPRODUCED ON SEED
-  INTERVALS (L128/L130) — easy at one ten-thousandth (s43 0.9579 vs 0.958), medium
-  bracketed from above (official 0.8303 vs 0.823, print inside interval), hard at typo
-  distance (s42 −0.0007, cloud spread bracketing). The recipe is a validated trained
-  substrate for the Phase 2.0 detector (2.0E). Remaining: medium s44 + vote + the G148
-  verdict block.**
+  all-module dropout collapse is stochastic (L118 fold to L111). **THE ANCHOR IS CLOSED
+  (L133). 2024: all three head-scope members above gate (roberta +0.021, ernie +0.030,
+  deberta +0.0045 at seed 43 after the collapse account closed as seed fragility) and the
+  VOTE at 0.8799 vs 0.8658 (+0.0141), every validation number still carrying the blended
+  leak, honest capability 0.81 to 0.83. PAN 2025: all three test gates REPRODUCED on
+  complete seed intervals (easy at one ten-thousandth, medium bracketed, hard at typo
+  distance) over contamination-clean data. The wqd recipe is a validated trained substrate
+  for the Phase 2.0 detector (2.0E). The recreation scorecard is complete across all five
+  anchors; BST Experiments 2 and 3 are the one open extension.**
 - **BST**: reference data validated (Exp 1 fully; Exp 2 fully after the fleet found the
   column-major grouping — stimulus i = rows i, i+95, i+190; all sums pass; my earlier
   narrowing was wrong and is reversed). Design corrected by the referees: NINE actions

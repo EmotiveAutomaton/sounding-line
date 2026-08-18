@@ -1288,6 +1288,23 @@ STAGES += [
      "why": "G153 free path: the HELD-OUT local lineage's arm of the same pilot"},
 ]
 
+# ── EVENING RESTOCK 2026-08-18: the G131 factorial generation arms, the construct test's
+# corpus (2 targets x (3,8) x 2 couplings + zero control, 10 topics, both local families,
+# instruction sets recorded as ground truth at generation time). The recovery study runs
+# over this corpus next restock.
+STAGES += [
+    {"name": "g131_gen_qwen", "est": 200,
+     "cmd": [PY, "runners/run_g131_gen.py", "--family", "qwen"],
+     "produces": "corpora/g131_factorial/qwen/manifest.json", "needs": [],
+     "why": "G131 factorial corpus, seen family: the construct test that separates target, "
+            "amount, and coupling, with planted instruction sets as ground truth"},
+    {"name": "g131_gen_llama", "est": 200,
+     "cmd": [PY, "runners/run_g131_gen.py", "--family", "llama"],
+     "produces": "corpora/g131_factorial/llama/manifest.json", "needs": [],
+     "why": "G131 factorial corpus, held-out family: identical instruction draws by "
+            "construction, so family is a clean second factor"},
+]
+
 # ── EVENING RESTOCK 2026-08-16: the wqd hard gate landed 0.8293 vs printed 0.830 (seven
 # ten-thousandths; L128) and easy landed 0.9535 vs 0.958. The fine-tune verdict rule
 # (standing ruling 3, the referee refinement) grades on the three-seed interval, so both
@@ -1308,6 +1325,7 @@ for _d, _s in (("hard", 43), ("hard", 44), ("easy", 43), ("easy", 44),
 # ("the card only briefly" is first gear's own contract).
 _GPU_HEAVY_PREFIXES = ("pan_", "pan25_", "sw_", "scholawrite_", "gen_fiction")
 _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen_llama",
+                    "g131_gen_qwen", "g131_gen_llama",
                     "g129_recovery", "g129_blind", "g129_shuffle", "g129_brief",
                     "g129_source", "g129_unchanged", "g129_recovery_matched",
                     "g129_blind_matched"}

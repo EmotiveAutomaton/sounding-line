@@ -161,7 +161,7 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 | **PD-3** | Machine artifacts show flat polish across position, with no maker to tire and no register to drift toward | **REVERSED TWICE OVER (test, L89/L90), split by family at power (test, L97/L100), the 2×2 resolving the split into one model's exception (test, L103), and the window sweep qualifying it further (test, L105).** What is window-robust: both llama-base cells RISE at 80 and 40 words (up to p = 10⁻⁴). What is not: the qwen-instruct rise weakens below significance at 40, and the lone human-direction decay (the qwen-7B reasoning distill) vanishes at 40 exactly as the books decay did. Flatness is dead; rising polish is the machine default where anything is window-robust; the decay exception is one model at one window; provenance use stays dead. Artifact-side, no shared-representation caveat |
 | **PD-2** | Polish *decays* specifically, rather than merely moving | **SUPPORTED FOR HUMANS, AND THE DIRECTION DISSOCIATES BY PROVENANCE (test, L89/L90).** Essays decay at both windows (−0.17 and −0.14, p ≤ 4 × 10⁻⁶); books decay at the wide window only (−0.30, p = 0.012; null at 40); the machine corpus rises. The dissociation weakens the register-geography rival, which predicted a shared direction, and restores the reallocation account's essays evidence; the books' window-boundness keeps the long-form claim modest |
 | **PD-4** | Polish variance is larger in less practised makers | **OPEN** |
-| **G149** | Movement instruments sample shifting motivations over time, and a window-local sampler can locate a real shift | **RULER PASSED (test-side toy, L127).** On the validated gridworld engine, planted goal switches are detected and localized within two steps at 89.5% at the paper's own fitted rationality, false alarms priced at 5% from no-switch paths, detection monotone in walker rationality (58.5% noisy to 98.4% near-deterministic, the last cell's threshold on 13 nulls and soft). Constructed world only; the text port (known specified-state shifts in the ladder corpora) is the step that would let the reading touch artifacts |
+| **G149** | Movement instruments sample shifting motivations over time, and a window-local sampler can locate a real shift | **RULER PASSED on the gridworld (test-side toy, L127); FIRST TEXT FORM DEAD (test, L134).** Planted goal switches are detected at 89.5% at the paper's fitted rationality with false alarms priced, monotone in walker rationality. The text port substituting surface-feature window distances for per-step likelihoods detected zero of twelve planted specification splices and was equally blind to topic splices, so the transferable part of the license is the likelihood structure, not the windowing: the next text form carries model-based per-window evidence under competing specification hypotheses, or the change-feature block between windows |
 | **PD-29** | Polish separates into attraction and translation | **OPEN, and everything in this section depends on it** |
 | **PD-30** | Attraction decays across an artifact; translation does not | **OPEN** |
 | **PD-31** | Generated text carries attraction but not translation | **OPEN.** Translation structure is countable where effort is not |
@@ -184,11 +184,13 @@ undemonstrated as mechanism; G146's question is now about that one model, namely
 its output positionally mobile on every instrument while every other cell is conditional.
 The maker-signature half of the section is untouched by all of it: polish-side features
 carry the author at fixed topic on two corpora and two window sizes with no exceptions.
-The family's reframe (movement as motivation-shift sampling rather than depth) now has its
-first instrument license: where motivation shifts are real by construction, a window-local
-sampler finds nine of ten of them at the fitted human rationality with false alarms priced,
-so the reading is measurable in principle and awaits its text port before it can claim
-anything about artifacts. The rest is the simulation's 6.5× decay asymmetry plus unrun
+The family's reframe (movement as motivation-shift sampling rather than depth) now has one
+license and one boundary: where motivation shifts are real by construction, a window-local
+sampler carrying per-step likelihoods finds nine of ten of them at the fitted human
+rationality with false alarms priced, and the first text form that swapped those likelihoods
+for surface-feature distances saw nothing at all, not even topic splices. The measurable
+thing is likelihood-grade window evidence, and building that for text is the family's open
+instrument problem. The rest is the simulation's 6.5× decay asymmetry plus unrun
 tests, with the attraction/translation split gating the lot. Confidence: the essays decay
 and the signed family cells are replicated at doubled n and one bad test away as a set; the
 books decay stays window-bound; the magnitude square is settled as window-conditional with
@@ -428,18 +430,22 @@ deaths turned out to belong to a broken control, not to the features.**
 | **PD-22** | Causal connectives track depth | **REJECTED (test).** Ranked the ladder, then inverted on humans; it measures explicitness |
 | **G116** | Specified dose adds description length, the essays' Kolmogorov claim | **REJECTED (test, L29).** Incompressibility flat across all rungs; human long-form matches machine text at matched length |
 | **PD-23** | A larger feature bank beats a small curated set | **REJECTED (sim).** Sixty generic features gain little and lose more in the worst case |
-| **PD-24** | Weak effects can be stacked into a usable detector | **OPEN (L4), with a warning, and deprioritized by the program until choice recovery validates.** Stacking shared confounds produces a strong confound; the ladder is the only thing that tells the difference |
+| **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, first attempt NULL (test, L125), and the gating condition has now lifted (L132).** The first real stack, 158 surface-change channels concatenated into a style-change classifier's head, did not beat the substrate and doubled its seed variance, exactly the outcome the L4 conditions exist to catch (beat the best component on held-out data, with different errors). Choice recovery has since validated at confirmatory grade, so stacking work is licensed again under the Phase 2.0 discipline: the decision-feature block first, fusion only after complementary information is shown. The standing warning holds: stacking shared confounds produces a strong confound |
 | **rung −1** | No measure reads noise as maximum intent | **SUPPORTED (test).** The only ceiling control in the project |
 
 **What the table says.** Every cheap property of a text that correlates with dose also correlates
 with something cheaper, and the cheaper thing wins, down to raw description length. The funnel
 that removes machine-detectors (61 of 81 replicated features) is the durable product, and the three
 features that survive its fair-control version are the only artifact-side signals standing, which
-is what a stacking instrument would need, channels with different failure modes. What none of it
-licenses is a claim about human intent or depth, since dose is instruction count to one generator;
-the program's factorial benchmark is the construct test. The funnel's own history, direct counts
-falling to length and then vocabulary, the 342-feature bank, the survivors dying to an induction
-check whose regressors turned out to contain the dose, lives in the git record rather than here.
+is what a stacking instrument would need, channels with different failure modes. The stacking row
+now carries its first real datum, a preregistered null: concatenating a wide surface-change bank
+into a strong classifier's head bought nothing but variance, so the stack the section eventually
+builds starts from the validated change-feature block and adds channels only when their errors
+differ. What none of it licenses is a claim about human intent or depth, since dose is
+instruction count to one generator; the program's factorial benchmark is the construct test. The
+funnel's own history, direct counts falling to length and then vocabulary, the 342-feature bank,
+the survivors dying to an induction check whose regressors turned out to contain the dose, lives
+in the git record rather than here.
 Confidence: the funnel and the deaths are replicated and controlled; the three revivals are one
 bad test away by age.
 

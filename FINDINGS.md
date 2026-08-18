@@ -5153,6 +5153,137 @@ factorial, which is now the core program's next build.
 - **Detail pointer:** G129 → `results/g129/verdict.json`, `prereg/g129.py`, all arm files
   and partials on disk.
 
+## L133 · The vote clears its gate and the medium interval completes: the fifth anchor closes, and with it the recreation phase's scorecard
+
+**Hypothesis.** *(The PAN anchor's last two reads: the three-member majority vote against
+the notebook's own 0.8658 vote gate, and medium's third seed completing the G148 interval.)*
+
+**Method.** Majority vote over the three head-scope members' validation predictions
+(roberta seed 42, ernie seed 42, deberta seed 43 — the seed the member trains at), scored
+with the pooled evaluator; medium seed 44 under the wqd recipe, test read once.
+
+| read | value | gate | delta |
+|---|---|---|---|
+| the 2024 majority vote | **0.8799** | 0.8658 | **+0.0141** |
+| medium, seed 44 | 0.8253 | printed 0.823 | +0.0023 |
+
+*Caption: the vote is a validation-split read and carries the blended-leak caveat every
+2024 validation number carries, ours and theirs alike (L118); the honest leak-free
+capability stays 0.81 to 0.83. Medium's third seed completes its interval
+[0.8173, 0.8303] with the print inside it and two of three seeds above.*
+
+**Found.** The vote clears its gate by 1.4 points, the last member-set read the 2024 half
+owed, and the G148 interval table completes: hard at typo distance (print 0.0007 over the
+seed-42 read), easy touched at one ten-thousandth, medium bracketed with the print inside
+the spread. THE PAN ANCHOR CLOSES: 2024's members and vote all above their gates under the
+corrected one-recipe scope with the contamination account closed from three directions,
+and 2025's three test gates reproduced on seed intervals over contamination-clean data.
+One infrastructure defect surfaced and died on the way: the vote's member-file path was
+hand-built with a different tag position than the trainer writes, so it failed on every
+tagged member until the construction was unified (LESSONS §5).
+
+**Means.** The recreation phase's scorecard is complete: Armstrong-Mindermann passed
+exactly and extended; ScholaWrite reproduced on its interval; ArgRewrite settled with its
+embedding rows terminally bounded; BST Experiment 1 complete at printed precision
+(Experiments 2 and 3 stay open behind their stimulus decodes as the anchor's noted
+extension); and PAN closed on both halves. Every anchor's number is now our known answer,
+which was the phase's entire purpose.
+
+### Curator roll-up
+
+- **Theory group:** Infrastructure only
+- **Question in plain language:** Does the ensemble clear its own published gate, and does
+  the last seed complete the interval?
+- **Outcome class:** Infrastructure
+- **Result:** Vote 0.8799 against 0.8658; medium's interval closes with the print inside.
+- **Project meaning:** The fifth anchor and the recreation scorecard are closed; Phase 1's
+  remaining open item is the BST Experiment 2 and 3 extension.
+- **Next engineering obligation:** The G148/PAN verdict lines are final; the phase's
+  formal wrap note is his to call.
+- **Public claim:** The README's recreation row stands, now complete.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/pan_winner/vote_hard.json`,
+  `results/pan25_winner/wqd_medium_s44.json`.
+
+## L134 · The shift sampler's first text port is blind: surface-feature windows see neither specification shifts nor topic changes
+
+**Hypothesis.** *(G149's text port: the sampler concept licensed on the gridworld, applied
+to text where the known shift is a same-topic splice between ladder artifacts at
+specification doses 0 and 60.)*
+
+**Method.** Per 40-word window, the nine static surface features plus the 40-word
+function-word profile; shift score = z-scored cosine distance between adjacent windows;
+threshold at the 95th percentile of unspliced texts (60 nulls); planted arm = 12
+same-topic rung-crossed splices at known boundaries; confound arm = 12 same-rung
+topic-crossed splices.
+
+**Found.** NOTHING. Zero of twelve rung-crossed splices detected (over-threshold rate
+0.083, the false-alarm rate itself), and the topic-crossed confound arm is equally blind,
+so the instrument fails even on the change it was expected to over-detect. The
+surface-feature windowed distance is not a shift sampler at this window size on these
+texts.
+
+**Means.** The gridworld license (L127) does not transfer through cheap features: the
+gridworld version read per-step LIKELIHOODS under competing hypotheses, and the text port
+substituted feature distances, which was the actual change and the apparent cause of
+death. The next form is likelihood-grade: per-window scores under competing specification
+hypotheses (a model-based reader), or the change-feature block applied between windows
+rather than raw statics. Narrows the instrument class; the framing is untouched.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Does the motivation-shift sampler work on text the way
+  it worked on the gridworld?
+- **Outcome class:** Kills (this instrument form, not the concept)
+- **Result:** Zero of twelve planted specification shifts detected; the confound arm is
+  equally blind.
+- **Project meaning:** The text sampler must carry likelihood-grade evidence per window;
+  surface distances are not it.
+- **Next engineering obligation:** The likelihood-form design, after the G131 build.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** G149 → `results/g149/text_port.json`,
+  `runners/run_g149_text_port.py`.
+
+## L135 · The leakage reference nearly solves the unmatched pilot: forty-nine surface features read provenance at 0.98
+
+**Hypothesis.** *(2.0E's reference component: a bare surface-feature model whose job is to
+reveal how much provenance the benchmark gives away for free.)*
+
+**Method.** Nine document statics plus forty function-word rates, gradient-boosted trees,
+five-fold grouped cross-validation with rewrites lineage-locked to their human sources; the
+240 pilot machine artifacts against the 86 human first drafts.
+
+**Found.** Accuracy 0.9785, area under the curve 0.9921; the seen local family separates
+perfectly and rewrites separate at 1.0. On the pilot as currently composed, provenance is
+nearly free from surface statistics.
+
+**Means.** The reference model is doing its designed job on its first read: this number is
+the floor every detector claim must beat FOR REASONS THE SLICES CAN SHOW, and at 0.98 it
+says the current pilot cannot yet test anything interesting, because register and quality
+are unmatched (clean machine prose against student drafts with typos). The benchmark's
+shortcut-breaking cells (quality-matched pairs, register-matched negatives, low-effort
+human work) are what make the task non-trivial, and this measurement converts them from
+design intentions into requirements with a number attached.
+
+### Curator roll-up
+
+- **Theory group:** Infrastructure only
+- **Question in plain language:** How much provenance does the free-path pilot give away to
+  trivially cheap features?
+- **Outcome class:** Infrastructure
+- **Result:** Nearly all of it: 0.98 accuracy from surface statistics on the unmatched
+  pilot.
+- **Project meaning:** The leakage reference is live, and the matched counterexample cells
+  are now a measured requirement before any detector number means anything.
+- **Next engineering obligation:** Quality- and register-matched negative cells in the
+  benchmark build.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g153_pilot/surface_ref.json`,
+  `runners/run_g153_surface_ref.py`.
+
 ## L4 · Can weak effects be stacked into a detector?
 
 **Hypothesis.** *(The curator's.)* Several small real effects combined may produce a usable

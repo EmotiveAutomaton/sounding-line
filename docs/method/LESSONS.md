@@ -318,6 +318,11 @@ current truth lives in the folded end-state of the record, never in an interim s
   generation that then shared the 12GB card with a mid-epoch training. Same failure, second
   window. Now 22 hours, and the re-check is part of adding any stage whose estimate exceeds
   a third of the current window. (L111 then 2026-08-17, gpulock.py)
+- **A filename two code paths share is built by ONE helper, never by two hand-written
+  f-strings.** The vote consumer built `{enc}_{difficulty}_val_preds{tag}.json` while the
+  trainer wrote `{enc}_{difficulty}{tag}_val_preds.json`; the vote failed on every tagged
+  member across three queue passes before the constructions were unified, and the defect was
+  invisible in review because each f-string read plausibly alone. (L133, run_pan_winner.py)
 - **A model-serving endpoint under VRAM churn throws transient 500s; every caller retries
   with backoff before dying, and a generation stage never writes its manifest over a thin
   yield.** An arm died at 0.6 minutes to one transient 500; and the generation runner's

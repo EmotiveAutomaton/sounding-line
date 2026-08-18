@@ -1,0 +1,18 @@
+{
+ "n_machine": 240,
+ "n_human": 86,
+ "features": "9 statics + 40 function-word rates, document level",
+ "cv": "GroupKFold(5) by lineage (rewrites never straddle their sources)",
+ "accuracy": 0.9785,
+ "auc": 0.9921,
+ "human_called_machine_rate": 0.0581,
+ "machine_called_human_rate": 0.0083,
+ "per_family_accuracy": {
+  "llama": 0.9833,
+  "qwen": 1.0
+ },
+ "per_regime_accuracy": {
+  "direct_generation": 0.9875,
+  "human_to_model_rewrite": 1.0
+ }
+}

@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-17 20:36",
+  "started": "2026-08-18 15:29",
   "stages": [
     {
       "name": "feature_visibility",
@@ -571,55 +571,40 @@
       "name": "g129_shuffle",
       "why": "G129 A3, the leakage arm: permuted truth must read at chance or the run is VOID",
       "est_minutes": 90,
-      "status": "DONE",
-      "log": "results\\g129_shuffle.log",
-      "minutes": 4.8
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g129_unchanged",
       "why": "G129 A7 (Amendment 1): no-op deltas with an explicit no-revision option; fabrication rate = the reader's Taramsa bound, symmetric changed control beside",
       "est_minutes": 45,
-      "status": "DONE",
-      "log": "results\\g129_unchanged.log",
-      "minutes": 2.8
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g129_verdict",
       "why": "G129: the preregistered bands, McNemar reader-vs-block, VOID gates, and fabrication rates, computed once, every statistic on disk",
       "est_minutes": 5,
-      "status": "DEFERRED",
-      "missing": [
-        "results/g129/recovery.json",
-        "results/g129/blind.json",
-        "results/g129/brief.json",
-        "results/g129/source.json",
-        "results/g129/recovery_matched.json",
-        "results/g129/blind_matched.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g153_gen_llama",
       "why": "G153 free path: the HELD-OUT local lineage's arm of the same pilot",
       "est_minutes": 240,
-      "status": "DONE",
-      "log": "results\\g153_gen_llama.log",
-      "minutes": 13.0
+      "status": "SKIPPED (already done)"
     },
     {
-      "name": "pan25_wqd_easy_s43",
-      "why": "G148 easy gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
+      "name": "pan25_wqd_hard_s43",
+      "why": "G148 hard gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
       "est_minutes": 150,
-      "status": "DONE",
-      "log": "results\\pan25_wqd_easy_s43.log",
-      "minutes": 453.5
+      "status": "SKIPPED (already done)"
     },
     {
-      "name": "pan25_wqd_medium_s44",
-      "why": "G148 medium gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
+      "name": "pan25_wqd_easy_s44",
+      "why": "G148 easy gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
       "est_minutes": 150,
-      "status": "RUNNING",
-      "log": "results\\pan25_wqd_medium_s44.log"
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-18 15:29",
+  "failed": []
 }

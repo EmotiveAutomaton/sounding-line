@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-17 20:36",
+  "started": "2026-08-18 15:29",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -533,10 +533,7 @@
       "name": "pan_vote_hard",
       "why": "the system vote (gate .8658), behind three members under ONE recipe: head-scope dropout 0.25, warmup 0.06. Deberta member retargeted to the s43 stabilizer rung (2026-08-16): the seed-42 head-scope run collapsed flat and wrote no prediction siblings, so the vote gates on the rung that might train",
       "est_minutes": 5,
-      "status": "DEFERRED",
-      "missing": [
-        "results/pan_winner/deberta_hard_headdrop25_s43.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "pan25_wqd_hard",
@@ -560,9 +557,7 @@
       "name": "pan_deberta_headdrop25_s43",
       "why": "stabilizer rung 1 for the collapsed deberta member: same recipe, seed 43. If it collapses too, rung 2 is warmup 0.10, rung 3 lr 4e-5, each recorded as a named divergence-fix assumption",
       "est_minutes": 620,
-      "status": "DONE",
-      "log": "results\\pan_deberta_headdrop25_s43.log",
-      "minutes": 333.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "pd34_fiction_llama_w40",
@@ -574,25 +569,19 @@
       "name": "g129_recovery",
       "why": "G129 A1, the claim arm: delta + candidates on the balanced full set (H-A)",
       "est_minutes": 90,
-      "status": "DONE",
-      "log": "results\\g129_recovery.log",
-      "minutes": 4.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g129_brief",
       "why": "G129 A5: assignment context alone, no delta (context-only control)",
       "est_minutes": 60,
-      "status": "DONE",
-      "log": "results\\g129_brief.log",
-      "minutes": 3.9
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g129_recovery_matched",
       "why": "G129 H-B: the truth-balanced matched draw (L126's analytic-floor amendment); n=176 of the powered 283, shortfall clause engages at verdict",
       "est_minutes": 40,
-      "status": "DONE",
-      "log": "results\\g129_recovery_matched.log",
-      "minutes": 1.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g149_switch_sampler",
@@ -601,23 +590,12 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pan25_wqd_hard_s43",
-      "why": "G148 hard gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
-      "est_minutes": 150,
-      "status": "DONE",
-      "log": "results\\pan25_wqd_hard_s43.log",
-      "minutes": 101.0
-    },
-    {
-      "name": "pan25_wqd_easy_s44",
-      "why": "G148 easy gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
-      "est_minutes": 150,
-      "status": "DONE",
-      "log": "results\\pan25_wqd_easy_s44.log",
-      "minutes": 61.6
+      "name": "g131_gen_qwen",
+      "why": "G131 factorial corpus, seen family: the construct test that separates target, amount, and coupling, with planted instruction sets as ground truth",
+      "est_minutes": 200,
+      "status": "RUNNING",
+      "log": "results\\g131_gen_qwen.log"
     }
   ],
-  "shard": "0/3",
-  "finished": "2026-08-18 05:01",
-  "failed": []
+  "shard": "0/3"
 }

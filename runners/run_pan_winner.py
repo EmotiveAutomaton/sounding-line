@@ -143,7 +143,9 @@ def main() -> None:
         tags = dict(kv.split("=", 1) for kv in args.member_tags.split(",") if "=" in kv)
         preds = {}
         for enc in sorted(ENCODERS):
-            f = RESULTS / f"{enc}_{args.difficulty}_val_preds{tags.get(enc, '')}.json"
+            # the trainer writes {enc}_{difficulty}{tag}_val_preds.json (line 308); the vote
+            # once looked for _val_preds{tag} and failed on every tagged member (2026-08-18)
+            f = RESULTS / f"{enc}_{args.difficulty}{tags.get(enc, '')}_val_preds.json"
             if not f.exists():
                 print(f"missing {f.name}; train the {enc} arm first")
                 sys.exit(1)
@@ -163,8 +165,8 @@ def main() -> None:
         out = {"arm": "vote", "difficulty": args.difficulty, "macro_f1": f1,
                "gate_validation": gate, "delta": f1 - gate,
                "members": sorted(ENCODERS),
-               "member_pred_files": {e: f"{e}_{args.difficulty}_val_preds"
-                                        f"{tags.get(e, '')}.json"
+               "member_pred_files": {e: f"{e}_{args.difficulty}"
+                                        f"{tags.get(e, '')}_val_preds.json"
                                      for e in sorted(ENCODERS)}}
         (RESULTS / f"vote_{args.difficulty}.json").write_text(
             json.dumps(out, indent=1), encoding="utf-8", newline="\n")
