@@ -134,7 +134,7 @@ def main() -> None:
     n_expected = 0
 
     for ti, topic in enumerate(TOPICS):
-        for target, amount, coupling, pool in cells():
+        for ci, (target, amount, coupling, pool) in enumerate(cells()):
             n_expected += 1
             aid = f"{target}_{amount}_{coupling}_{ti:02d}"
             dest = outdir / f"{aid}.json"
@@ -151,19 +151,25 @@ def main() -> None:
                 body += "\nFollow ALL of these instructions:\n" + "\n".join(
                     f"{i + 1}. {s}" for i, s in enumerate(instructions))
             text = None
+            used_seed = None
             for t in range(TRIES):
-                cand = call(model, body, seed=SEED0 + ti * 100 + hash(aid) % 50 + t)
+                # deterministic per (topic, cell, try): the first build routed seeds through
+                # Python's process-salted hash() and lost regenerability (audit 2026-08-19;
+                # the pin-determinism lesson, LESSONS §4)
+                s = SEED0 + ti * 1000 + ci * 10 + t
+                cand = call(model, body, seed=s)
                 if cand and BAND[0] <= len(cand.split()) <= BAND[1]:
-                    text = cand
+                    text, used_seed = cand, s
                     break
-                text = text or cand                    # keep best-effort if band never hits
+                if cand and text is None:
+                    text, used_seed = cand, s          # best-effort if band never hits
             if not text:
                 continue
             rec = {"artifact_id": aid, "topic": topic, "target": target,
                    "amount": amount, "coupling": coupling,
                    "instructions": instructions, "instruction_pool": target,
                    "family": args.family, "model_tag": model,
-                   "decoding": {**DECODING, "seed_base": SEED0},
+                   "decoding": {**DECODING, "seed": used_seed},
                    "in_band": BAND[0] <= len(text.split()) <= BAND[1],
                    "n_words": len(text.split()), "text": text,
                    "generated_at": time.strftime("%Y-%m-%d %H:%M:%S")}

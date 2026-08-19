@@ -21,6 +21,11 @@ labels >= 20 within support, then truth-balanced WITHIN support (the L126 amendm
 matched floor returns to analytic 1/k). UNCHANGED: identical aligned pairs from the
 annotation workbooks, plus a same-size sample of real changed events as the symmetric
 control; every A7 candidate set carries the explicit "no revision was made" option.
+
+DESIGN CHECK (2026-08-19, recorded retroactively at the methods audit): the full derivations
+live in prereg/g129.py's DESIGN CHECK block; this runner implements that card verbatim, and
+its one gate defect (the shuffle gate's missing alternative expectation and direction) is on
+record as L132's finding and the origin of the rule.
 """
 
 from __future__ import annotations

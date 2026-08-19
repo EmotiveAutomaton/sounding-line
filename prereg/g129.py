@@ -18,6 +18,21 @@ LESSONS CODED IN (docs/method/LESSONS.md §3): analytic floors via truth balance
 between verdict thresholds; power computed before the run; the 19-dim change block as a declared
 baseline the reader must beat (L85); every verdict statistic written to the output file; fixed
 label lists in every averaged score; ties broken randomly; fresh seeds, no clobbering.
+
+DESIGN CHECK (2026-08-19, recorded retroactively at the methods audit; the battery had already
+run and its one gate defect is on record as L132's shuffle finding):
+  lessons read: LESSONS §3 in full at design time; §4 and §5 at the audit.
+  gates: blind and blind_matched, null expectation = analytic 1/k under truth balance,
+         alternative expectation = the same (the reader has nothing to read), direction of the
+         guarded failure = UP (a construction leak inflates blind accuracy). Shuffle, null
+         expectation = 1/k IF picks were candidate-uniform, alternative expectation = 0.125
+         (shuffled labels are 1/8 each while candidate sets anchor on the original truth, so a
+         delta-tracking reader matches at the label-marginal rate), guarded failure direction =
+         UP (a scoring leak pulls shuffle toward the recovery number). The card as first frozen
+         omitted the alternative expectation and the direction; that omission fired the gate on
+         the success signature and is the receipted origin of the DESIGN CHECK rule.
+  bands: exhaustive as frozen (REPLICATES >= 0.15 / PARTIAL [0.08, 0.15) / FAILS < 0.08;
+         SURVIVES >= 0.08 / WEAKENED [0.04, 0.08) / COLLAPSED < 0.04; BEATS/TIES/LOSES).
 """
 
 from __future__ import annotations

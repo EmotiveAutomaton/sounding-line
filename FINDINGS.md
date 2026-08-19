@@ -5221,7 +5221,12 @@ topic-crossed splices.
 0.083, the false-alarm rate itself), and the topic-crossed confound arm is equally blind,
 so the instrument fails even on the change it was expected to over-detect. The
 surface-feature windowed distance is not a shift sampler at this window size on these
-texts.
+texts. The methods audit (L136) then challenged the null on the bounded-statistic ground
+(within-item z-scoring of a thirteen-point series caps the reachable maximum near 3.5
+against a 2.44 threshold, the L53 defect class) and reran the same splices under two
+un-handicapped forms, raw distances and population-standardized distances, each against
+its own null-population threshold: zero of twelve both times, false alarms at rate. The
+null is the features, not the normalization, and it now stands on three statistic forms.
 
 **Means.** The gridworld license (L127) does not transfer through cheap features: the
 gridworld version read per-step LIKELIHOODS under competing hypotheses, and the text port
@@ -5283,6 +5288,57 @@ design intentions into requirements with a number attached.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/g153_pilot/surface_ref.json`,
   `runners/run_g153_surface_ref.py`.
+
+## L136 · The Phase 2.0 methods audit: every built test against the lesson record, one defect found and fixed, one null re-verified three ways, two retroactive derivations recorded
+
+**Hypothesis.** *(His directive: verify that every currently built Phase 2.0 test, and the
+earlier Phase 2.0 work, actually implements what the recreation phase paid to learn — the
+LESSONS, the CONTROLS, and the design contracts.)*
+
+**Method.** Artifact-by-artifact compliance sweep over the eleven Phase 2.0 runners,
+corpora, and cards (the G129 battery and card, the floor decomposition, both G149 forms,
+both G153 arms, the G131 generator, the G150 A/B chain), each checked against the
+applicable LESSONS sections (§3 statistics, §4 model arms, §5 infrastructure, §1d data
+hygiene), the CONTROLS taxonomy, and the phase brief's constraints; suspect findings
+re-run rather than argued.
+
+| artifact | verdict | detail |
+|---|---|---|
+| G129 battery + card | **CLEAN, one known defect already on record** | Analytic floors, uniform decoys, shared manifest, per-arm seeds, author-grouped CV, disk statistics, exhaustive bands all present; the shuffle gate's missing direction is L132's finding and now carries its retroactive DESIGN CHECK derivation |
+| G149 text port (L134) | **NULL RE-VERIFIED, three statistic forms** | The audit raised the bounded-statistic challenge (within-item z on a 13-point series caps near 3.5 vs a 2.44 threshold, the L53 class) and reran with raw and population-standardized distances: zero of twelve on all three forms. The null belongs to the features |
+| G131 generation corpus | **ONE DEFECT FOUND AND FIXED** | Per-call seeds were routed through Python's process-salted hash(), so the actual seeds were non-deterministic and unrecorded, violating the pin-determinism lesson (§4). The runner now derives seeds from the stable cell enumeration and records the seed actually used; the existing 180-artifact corpus stands as recorded data (text plus instruction ground truth is the record) with the regenerability limitation written into both manifests |
+| G153 generation + surface reference | **CLEAN** | Deterministic recorded seeds, model digests, lineage-locked grouped CV, imbalance disclosed via AUC, manifest yield guard |
+| G149 gridworld, G130c decomposition, G150 A/B chain | **CLEAN** | Directional thresholds, preregistered rule, train-only standardization, seed separation; the A/B's one wiring defect (lost prediction siblings) was found and fixed at the time |
+| smaller folds | recorded | The verdict gates' p-values stay classed as controls outside the multiplicity family (noted, defensible either way); the fixed-label-list rule gets an explicit line at the evaluation contract's freeze; G131 records gain the model digest going forward |
+
+**Found.** The lesson record is substantially implemented: of eleven artifacts, nine are
+clean against every applicable rule, one carried the already-receipted gate defect that
+created the DESIGN CHECK rule, and one (the G131 generator's seed path) carried a genuine
+new violation of a named lesson, now fixed with the damage honestly bounded. The audit's
+challenge to its own strongest null made that null stronger.
+
+**Means.** The painstakingly-earned rules are mostly crossing into the new phase's code,
+and the two places they did not cross share one shape: both were single lines whose
+correctness could not be seen locally (a gate without its alternative, a seed through a
+salted hash). The DESIGN CHECK block and the design_lint hook exist for exactly that
+shape, and the G131 recovery study, the next gate-bearing design, is the first build that
+will carry the block from birth.
+
+### Curator roll-up
+
+- **Theory group:** Infrastructure only
+- **Question in plain language:** Did the lessons the recreation phase paid for actually
+  make it into the Phase 2.0 builds?
+- **Outcome class:** Infrastructure
+- **Result:** Nine of eleven artifacts clean; one new defect (non-deterministic generation
+  seeds) fixed with its damage bounded; the L134 null re-verified on three statistic forms.
+- **Project meaning:** The method transfer is real but not free; the enforcement layer
+  (DESIGN CHECK + lint) covers the failure shape both misses shared.
+- **Next engineering obligation:** The G131 recovery study, designed under the new block.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** manifests' determinism notes, `prereg/g129.py` DESIGN CHECK,
+  `runners/run_g131_gen.py` seed fix, this entry's table.
 
 ## L4 · Can weak effects be stacked into a detector?
 
