@@ -139,15 +139,28 @@ mission: a deployable binary AI-provenance classifier whose differentiating cont
 recoverable decision structure, one vertical slice from benchmark through release, with the
 decision representation validated on known answers BEFORE any fusion and the curator
 interface running at theory-group level (roll-ups: Strengthens | Narrows | Kills |
-Infrastructure — the contract is folded into `CLAUDE.md` and the grind skill). **THE 2.0D
-REAL-TEXT GATE IS MET (L132, 2026-08-18): the confirmatory battery replicates recovery
-(0.4854 vs the 0.25 analytic floor), the balanced matched margin survives at 16.5 points,
-fabrication is 0.000 on no-op deltas, and the 19-dim change block beats the zero-shot
-reader head to head — so the detector-facing features build on the BLOCK and the reader
-supplies abstention, exactly the preregistered response. The free-path pilot corpus (240
-process-recorded artifacts, two local lineages) is complete at zero dollars. Next in the
-slice: G131's factorial construct test, the compact decision-feature block for the stack
-(2.0F), the G152 adjudication set toward his freeze, and the 2.0E substrate runners.**
+Infrastructure — the contract is folded into `CLAUDE.md` and the grind skill). **2.0D STATUS RECLASSIFIED
+(2026-08-19, curator-ratified after an external read-only audit he commissioned): the G129
+battery stands as STRONG REPLICATION, not confirmatory grade — recovery replicates (0.4854
+vs the 0.25 analytic floor), the balanced matched margin survives at 16.5 points at the
+pilot evidence tier (n 176 of the powered 283, the card's own downgrade clause now
+applied), fabrication is 0.000 on no-op deltas, and the 19-dim change block beats the
+zero-shot reader head to head. But the shuffle gate fired VOID under the card's own terms
+(0.110 vs a misspecified 0.25 expectation; the corrected label-marginal expectation ~0.125
+was derived after seeing the result, so it repairs the next card, not this run's grade).
+Confirmatory grade requires the fresh G129b battery. The gate is NOT formally met; the
+evidence underneath it keeps its standing (L132 + L137).**
+
+**Phase 2.1 is DECLARED (2026-08-19, his naming): the repair-and-foraging phase between
+the 2.0D evidence and any stacking. Sub-items 2.1.1 to 2.1.6 in `TODO.md`: reclassification
+(landed), the inference-input interface freeze in the evaluation contract, the G131
+epistemic-foraging battery (G158 — the corpus is reclassified EXPLORATORY: ~36% of
+mechanically checkable assigned instructions were not executed, so assigned-instruction
+ground truth is invalid for a known-answer test until realization is adjudicated), the
+G129b fresh confirmatory, the decisive G131 rebuild on paired base material, and the
+benchmark human-negative repair. Stacking (2.0F) re-gates behind the four Phase 2.1
+decision gates now written into the contract. The free-path pilot corpus (240
+process-recorded artifacts, two local lineages) remains complete at zero dollars.**
 
 **The artifact-side science meanwhile (the movement family, settled at four generator
 families):** rising positional polish is the machine default (3 of 4 base × post-training

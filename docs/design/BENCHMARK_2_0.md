@@ -26,6 +26,15 @@ since it pins provenance while everything else varies); same generator across do
 multiple generators within one domain; sibling artifacts grouped by `lineage_id` into one
 partition, always.
 
+**Conclusion rule (added 2026-08-19, Phase 2.1.6):** headline conclusions are licensed only
+on the shortcut-breaking slices, never on the trivially separable aggregate — the in-house
+leakage reference (L135, surface features at 0.98 on the unmatched pilot) and the G158
+trivial-feature bar (L138, instruction-word echo alone reading cell structure at 0.92) are
+the standing demonstrations that an unmatched aggregate number means nothing here. Prompt
+vocabulary echoed into generated text is a named leak: generation briefs and matched cells
+must keep instruction/prompt wording out of the separable feature space or measure and
+report the echo.
+
 ## 3. Sources
 
 **Human negatives (held already, licensing check owed before redistribution):** the 86-author

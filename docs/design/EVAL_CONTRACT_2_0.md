@@ -56,6 +56,34 @@ the measured floor; recovery beyond matched alternatives; evidence-span localiza
 calibration; abstention quality on non-identifiable cases; transfer across artifact families.
 No aggregate intent score substitutes for the tuple.
 
+## 3b. Inference-input interfaces (added 2026-08-19, Phase 2.1.2; motivated by the L137 audit)
+
+Three products, three input contracts. Every representation, feature block, and reader arm in
+the program is annotated with its required inputs, and a representation may only serve an
+interface whose inference inputs cover them. Drafts, deltas, prompts, and process records may
+supply **training supervision, calibration targets, or ground truth** for any interface; they
+enter **inference** only where listed.
+
+| interface | inference inputs | claims it can carry |
+|---|---|---|
+| **I1 · final-artifact detector** (the public wedge, 2.0F–2.0H) | the final text, nothing else | provenance probability per §1; abstention |
+| **I2 · paired-delta reader** (the 2.0D instrument) | old text + new text, delta stated explicitly | revision-purpose recovery; fabrication-bounded abstention |
+| **I3 · process-aware authorship audit** (optional product, separate claims) | full process record: sources, drafts, deltas, interaction history | process-grounded contribution audit; never conflated with I1 performance |
+
+**Standing assignments.** The 19-dimension change block reads both versions of a text: it
+belongs to I2 and I3, and may serve I1 only as a training-time teacher or validation
+instrument, never as an inference feature. The surface/statics leakage reference (L135) is an
+I1 diagnostic. The G149 likelihood ruler is I3-shaped until a final-text form validates.
+
+**Stacking preconditions (the four Phase 2.1 decision gates; 2.0F opens only when all four
+hold on a repaired study):** (1) artifact-only recovery identifies realized, problem-directed
+choices above a matched floor; (2) the effect transfers to the held-out model family; (3)
+cheap length and surface baselines do not explain it; (4) evidence localization and abstention
+behave correctly. Recorded responses, fixed now: recovery that works only with drafts or
+deltas preserves I2/I3 and reconsiders the I1 wedge; only-surface-constraints recoverable
+pauses the representation program for deeper exploratory work; a validated reader that adds no
+conditional detector value keeps the capability claim and drops the public detector claim.
+
 ## 4. Split logic
 
 - The decisive evaluation holds out **authors, domains, and generator families simultaneously**;

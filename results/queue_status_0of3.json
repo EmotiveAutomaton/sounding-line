@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-19 03:30",
+  "started": "2026-08-19 04:51",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -596,19 +596,12 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pan25_wqd_hard_s44",
-      "why": "G148 hard gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
-      "est_minutes": 150,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "pan25_wqd_medium_s43",
-      "why": "G148 medium gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
-      "est_minutes": 150,
-      "status": "SKIPPED (already done)"
+      "name": "g158_reader_llama",
+      "why": "G158 realization adjudication, held-out family: same adjudicator across families so the cross-family comparison is instrument-constant",
+      "est_minutes": 120,
+      "status": "RUNNING",
+      "log": "results\\g158_reader_llama.log"
     }
   ],
-  "shard": "0/3",
-  "finished": "2026-08-19 03:30",
-  "failed": []
+  "shard": "0/3"
 }

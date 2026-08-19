@@ -430,7 +430,7 @@ deaths turned out to belong to a broken control, not to the features.**
 | **PD-22** | Causal connectives track depth | **REJECTED (test).** Ranked the ladder, then inverted on humans; it measures explicitness |
 | **G116** | Specified dose adds description length, the essays' Kolmogorov claim | **REJECTED (test, L29).** Incompressibility flat across all rungs; human long-form matches machine text at matched length |
 | **PD-23** | A larger feature bank beats a small curated set | **REJECTED (sim).** Sixty generic features gain little and lose more in the worst case |
-| **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, first attempt NULL (test, L125), and the gating condition has now lifted (L132).** The first real stack, 158 surface-change channels concatenated into a style-change classifier's head, did not beat the substrate and doubled its seed variance, exactly the outcome the L4 conditions exist to catch (beat the best component on held-out data, with different errors). Choice recovery has since validated at confirmatory grade, so stacking work is licensed again under the Phase 2.0 discipline: the decision-feature block first, fusion only after complementary information is shown. The standing warning holds: stacking shared confounds produces a strong confound |
+| **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, first attempt NULL (test, L125), stacking RE-GATED (test, L137).** The first real stack, 158 surface-change channels concatenated into a style-change classifier's head, did not beat the substrate and doubled its seed variance, exactly the outcome the L4 conditions exist to catch (beat the best component on held-out data, with different errors). Choice recovery replicated strongly (L132) but the confirmatory label demoted under the run's own gate terms, so stacking now waits on the four Phase 2.1 gates in the evaluation contract: artifact-only recovery of realized choices above a matched floor, transfer to the held-out family, survival of cheap length and surface baselines, and correct localization with abstention. The standing warning holds: stacking shared confounds produces a strong confound |
 | **rung −1** | No measure reads noise as maximum intent | **SUPPORTED (test).** The only ceiling control in the project |
 
 **What the table says.** Every cheap property of a text that correlates with dose also correlates
@@ -440,12 +440,14 @@ features that survive its fair-control version are the only artifact-side signal
 is what a stacking instrument would need, channels with different failure modes. The stacking row
 now carries its first real datum, a preregistered null: concatenating a wide surface-change bank
 into a strong classifier's head bought nothing but variance, so the stack the section eventually
-builds starts from the validated change-feature block and adds channels only when their errors
-differ. What none of it licenses is a claim about human intent or depth, since dose is
-instruction count to one generator; the program's factorial benchmark is the construct test. The
-funnel's own history, direct counts falling to length and then vocabulary, the 342-feature bank,
-the survivors dying to an induction check whose regressors turned out to contain the dose, lives
-in the git record rather than here.
+builds starts from the change-feature block and adds channels only when their errors differ, and
+it starts only after the four repair gates clear, since the block reads both versions of a text
+and therefore lives in the paired-delta interface, not the final-artifact one. What none of it
+licenses is a claim about human intent or depth, since dose is instruction count to one
+generator; the program's factorial benchmark is the construct test, and its first corpus is
+exploratory until realization is adjudicated. The funnel's own history, direct counts falling to
+length and then vocabulary, the 342-feature bank, the survivors dying to an induction check
+whose regressors turned out to contain the dose, lives in the git record rather than here.
 Confidence: the funnel and the deaths are replicated and controlled; the three revivals are one
 bad test away by age.
 
@@ -459,24 +461,30 @@ all fixed by construction.**
 | **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test, L5), one coherent thing.** At matched length, revision raises lexical sophistication (longer, rarer, more polysyllabic words, fewer stopwords), one factor under six names, sign agreement 70 to 78% across authors |
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered.** Raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
 | **PD-28** | The surviving effect is polish, not depth | **SUPPORTED (test, L42/L66), the matched control decided it.** With content and surface revisions balanced on size, rarity shift, position, and difficulty (coarsened exact matching, balance verified), content identifiability collapses from 0.857 to 0.507 against 0.5 chance. Within common support, the content-associated lexical effect *was* its covariates: sophistication and magnitude, not recoverable depth. Scope: the matched fifth of the corpus, which is where comparable revisions live |
-| **G129** | Recorded revision purposes are recoverable from the delta by a bounded reader, beyond matched alternatives and beyond a cheap change-feature baseline | **CONFIRMED AT CONFIRMATORY GRADE, WITH THE BASELINE WINNING THE INSTRUMENT CONTEST (test, L132; pilot chain L62/L64/L65).** On the preregistered battery (shared manifest, exhaustive bands): full-set recovery 0.4854 against the analytic 0.25 floor (REPLICATES); the matched draw, truth-balanced per L126, holds 0.4148 against its restored analytic floor (SURVIVES at 16.5 points, n 176 of the powered 283, disclosed); blind arms at chance; brief-alone 0.274 and source-alone 0.305, so context and topic supply little and the delta supplies the rest; fabrication rate 0.000 on two hundred no-op deltas with the symmetric control missing 1 of 200. The 19-dim change block beats the zero-shot reader head to head (0.5552, exact McNemar p = 0.0097), so the detector-facing features build on the block while the reader supplies the abstention behavior the block cannot. The shuffle gate fired below chance exactly as a delta-tracking reader predicts (expected 0.125, read 0.110); the gate's missing direction is a recorded specification defect, not leakage |
+| **G129** | Recorded revision purposes are recoverable from the delta by a bounded reader, beyond matched alternatives and beyond a cheap change-feature baseline | **STRONG REPLICATION, CONFIRMATORY GRADE OWED TO A FRESH RUN, WITH THE BASELINE WINNING THE INSTRUMENT CONTEST (test, L132; demoted under the card's own terms at L137; pilot chain L62/L64/L65).** On the preregistered battery (shared manifest, exhaustive bands): full-set recovery 0.4854 against the analytic 0.25 floor (REPLICATES); the matched draw, truth-balanced per L126, holds 0.4148 against its restored analytic floor (16.5 points, held at the pilot evidence tier by the card's power clause, n 176 of the powered 283); blind arms at chance; brief-alone 0.274 and source-alone 0.305, so context and topic supply little and the delta supplies the rest; fabrication rate 0.000 on two hundred no-op deltas with the symmetric control missing 1 of 200. The 19-dim change block beats the zero-shot reader head to head (0.5552, exact McNemar p = 0.0097), so the delta-interface features build on the block while the reader supplies the abstention behavior the block cannot. The shuffle gate fired VOID as written (0.110 against a stated 0.25); the corrected expectation (~0.125, the delta-tracking signature) was derived after the result, which repairs the next card but denies this run confirmatory grade. The fresh battery (G129b) carries both expectations and a direction on every gate |
 | **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73), the raised floor DECOMPOSED (test, L126).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither. The floor's rise is 87% label-marginal alignment: matching reweighted the truth labels toward the ones the blind reader guesses by default, no text information involved, so the delta-specific remainder stands against a compositional floor rather than a covariate-information one. Owed: the powered matched replication, now the G129 confirmatory battery, whose matched draw truth-balances within common support to restore the analytic floor |
 
-**What the table says.** Recorded purposes are recoverable from the delta, and the claim now
-stands at confirmatory grade rather than pilot grade: recovery far above an analytic floor at
-power, a matched-and-balanced margin twice the collision's ambiguous eight points, context and
-topic arms showing the information lives in the delta, and a reader that asserted a purpose on
-exactly zero unchanged sentences, which is the fabrication bound every downstream use inherits.
-The instructive residue is the instrument contest: nineteen surface measures of what changed
-beat the language-model reader head to head on identical events, so recoverability of the
-choice and the best reader of the choice are different questions with different answers, and
-the detector-facing representation starts from the feature block while the reader contributes
-calibrated refusal. What the battery cannot say is whether any of this tracks decision
-structure rather than this corpus's particulars; that construct question belongs to the
-factorial benchmark, which is now the section's live build. The hurried-versus-careful
-commission remains the designed extension. Confidence: the confirmatory battery is replicated
-and controlled on this corpus (one corpus, one reader family); the matched arm is one bad test
-away by its own power shortfall; the collapse and the floor decomposition stand as before.
+**What the table says.** Recorded purposes are recoverable from the delta, and the claim stands
+at strong-replication grade with confirmatory grade owed: recovery far above an analytic floor
+at power, a matched-and-balanced margin twice the collision's ambiguous eight points held at
+the pilot tier by its own power clause, context and topic arms showing the information lives in
+the delta, and a reader that asserted a purpose on exactly zero unchanged sentences, which is
+the fabrication bound every downstream use inherits. The battery's one voided gate is why the
+grade is not confirmatory: a run whose own control fired cannot be promoted by an explanation
+written after the result, however sound the explanation, so the fresh battery settles it. The
+instructive residue is the instrument contest: nineteen surface measures of what changed beat
+the language-model reader head to head on identical events, so recoverability of the choice
+and the best reader of the choice are different questions with different answers, and the
+representation starts from the feature block while the reader contributes calibrated refusal,
+with the block confined to interfaces that see both versions of the text since it reads
+nothing else. What the battery cannot say is whether any of this tracks decision structure
+rather than this corpus's particulars; that construct question belongs to the factorial
+benchmark, whose first corpus turned out to record what was asked rather than what was done
+(checkable instructions executed at 0.586, and trivial features read the instruction-type
+axis at 0.95, L138) and is exploratory until realization is adjudicated, with any recovery
+claim owing its margin above that measured trivial-feature bar. The hurried-versus-careful commission
+remains the designed extension. Confidence: the replication is one bad test away pending the
+fresh confirmatory run; the collapse and the floor decomposition stand as before.
 
 ## §7. Reader-side measurement: the second channel, briefly
 

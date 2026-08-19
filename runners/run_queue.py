@@ -1305,6 +1305,26 @@ STAGES += [
             "construction, so family is a clean second factor"},
 ]
 
+# ── PHASE 2.1 RESTOCK 2026-08-19 (the audit pass, L137): the G131 corpus is exploratory
+# until realization is adjudicated; these are the G158 foraging stages. The mechanical
+# stage and the baselines ran inline at build time; the reader adjudication arms are the
+# queued GPU work (556 semantic instruction-assignments at temp 0, checkpoint-resuming).
+STAGES += [
+    {"name": "g158_reader_qwen", "est": 120,
+     "cmd": [PY, "runners/run_g158_adjudicate.py", "--reader", "qwen"],
+     "produces": "results/g158/realization_reader_qwen.json",
+     "needs": ["results/g158/realization_mechanical.json"],
+     "why": "G158 realization adjudication, seen family: realized/unrealized/ambiguous "
+            "with required verbatim evidence spans; model-judged and flagged (adjudicator "
+            "shares the qwen lineage with this half of the text)"},
+    {"name": "g158_reader_llama", "est": 120,
+     "cmd": [PY, "runners/run_g158_adjudicate.py", "--reader", "llama"],
+     "produces": "results/g158/realization_reader_llama.json",
+     "needs": ["results/g158/realization_mechanical.json"],
+     "why": "G158 realization adjudication, held-out family: same adjudicator across "
+            "families so the cross-family comparison is instrument-constant"},
+]
+
 # ── EVENING RESTOCK 2026-08-16: the wqd hard gate landed 0.8293 vs printed 0.830 (seven
 # ten-thousandths; L128) and easy landed 0.9535 vs 0.958. The fine-tune verdict rule
 # (standing ruling 3, the referee refinement) grades on the three-seed interval, so both
@@ -1328,7 +1348,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g131_gen_qwen", "g131_gen_llama",
                     "g129_recovery", "g129_blind", "g129_shuffle", "g129_brief",
                     "g129_source", "g129_unchanged", "g129_recovery_matched",
-                    "g129_blind_matched"}
+                    "g129_blind_matched", "g158_reader_qwen", "g158_reader_llama"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

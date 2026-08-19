@@ -5134,6 +5134,21 @@ abstention behavior the block cannot supply). The construct question (does any o
 track decision structure rather than this corpus's particulars) belongs to G131's
 factorial, which is now the core program's next build.
 
+**Reclassified (2026-08-19, curator-ratified; the full audit is L137).** "Gate MET" was
+over-claiming under the card's own terms, and the correction is a demotion of the label,
+not the data. Two clauses of the frozen card were disclosed but not applied: the shuffle
+arm's void condition fired (0.110 against the written 0.25 expectation), and a
+post-hoc-derived corrected expectation (~0.125, the label-marginal rate for a
+delta-tracking reader) repairs the next card but cannot restore this run's confirmatory
+grade; and the matched arm's power clause says a shortfall (176 of 283) downgrades that
+verdict to the pilot evidence tier, which is now applied rather than merely disclosed.
+Standing status: strong replication-tier evidence for paired-delta purpose recovery, with
+zero fabrication; confirmatory grade owed to the fresh G129b battery whose gates carry
+both expectations and a direction from birth. One further scope correction from the same
+audit: the winning change block reads BOTH the old and new text, so it is a paired-delta
+interface feature, not an inference feature for a final-artifact detector; the interface
+assignment is now in the evaluation contract.
+
 ### Curator roll-up
 
 - **Theory group:** Decision Traces
@@ -5142,13 +5157,14 @@ factorial, which is now the core program's next build.
 - **Outcome class:** Strengthens
 - **Result:** Recovery replicates at 0.4854 against a 0.25 analytic floor with zero
   fabrication on no-op deltas; the cheap feature block beats the reader head to head.
-- **Project meaning:** The decision-recovery claim is confirmed on real text at
-  confirmatory grade; the detector-facing representation builds on the feature block, with
-  the reader supplying abstention.
-- **Next engineering obligation:** G131's factorial construct test, and the compact
-  decision-feature block for the stack (2.0F).
-- **Public claim:** The README's opening claim upgrades from pilot to confirmatory once
-  this entry is his-read; wording already calibrated.
+- **Project meaning:** *(amended 2026-08-19)* The decision-recovery claim is confirmed on
+  real text at strong-replication tier, confirmatory grade owed to G129b; the
+  detector-facing representation builds on the feature block, with the reader supplying
+  abstention, inside the paired-delta interface only.
+- **Next engineering obligation:** *(amended 2026-08-19)* The G129b fresh confirmatory and
+  the Phase 2.1 program; stacking (2.0F) re-gated behind the contract's four decision gates.
+- **Public claim:** *(amended 2026-08-19)* The README's opening claim stays at
+  replication-tier wording; "confirmatory" is forbidden until G129b lands clean.
 - **Curator decision required:** No.
 - **Detail pointer:** G129 → `results/g129/verdict.json`, `prereg/g129.py`, all arm files
   and partials on disk.
@@ -5352,6 +5368,136 @@ bank features gained little on average and **lost more in the worst case**. So: 
 
 **Verdict: OPEN, not yet run.** Two conditions before believing any stack — it must beat its best
 single component **on held-out data**, and its errors must not be the same errors.
+
+## L137 · An external audit he commissioned survives verification: the confirmatory label demotes, the factorial corpus is exploratory, and the missing piece is an input contract
+
+**Hypothesis.** *(The curator ran an independent read-only analysis agent over commit
+96a8b3c and brought its verdict for adjudication: that G129's confirmatory grade cannot
+stand on a run whose own shuffle gate voided; that the G131 corpus fails its construct
+because assigned instructions were not verified as executed; and that the program
+conflates three products because inference-time inputs were never frozen. The question:
+do its factual claims survive independent verification against the repo?)*
+
+**Method.** Every checkable claim re-verified from primary artifacts rather than the
+agent's reasoning: the G129 verdict file read directly for the void flag and power
+shortfall; the STATE claim language grepped; the contract draft searched for any
+inference-input section; and the G131 compliance numbers re-derived with an independently
+written mechanical checker (different instruction coverage from the agent's: 366
+checkable surface-instruction assignments vs their 244) over all 180 artifacts.
+
+| agent's claim | independent check |
+|---|---|
+| shuffle gate recorded void at 0.110 | confirmed on disk, `"void": true`, p vs floor 0.0 |
+| matched arm underpowered, 176 of 283 | confirmed, `"powered": false` on disk |
+| repo claims "real-text gate is met" | confirmed, STATE.md said exactly that |
+| contract never froze inference inputs | confirmed, no such section existed |
+| ~62% of checkable assigned surface instructions executed | confirmed at 64.2% on my checker (235 of 366); 66 of 80 surface artifacts carry at least one unexecuted instruction |
+| 17 length-band violations, all surface-target | confirmed exactly, 17 of 17 surface |
+
+*Caption: left column is the external agent's factual assertion; right column is what the
+repo itself returned when checked from scratch. The two compliance checkers differ in
+which instructions they can verify mechanically, and land within 2.3 points of each
+other.*
+
+**Found.** The audit is right on substance everywhere it was checkable, and four
+pushbacks (accepted by the curator) bound its reach: nothing decisive was queued, so the
+"pause" is a redesign before first build; the demotion is of the label, not the data
+(recovery, matched survival, and zero fabrication keep replication-tier standing); the
+change-morphology reading of the reader's loss was the preregistered response, not a
+discovery; and the surface-leakage 0.98 was built by us as the warning it is now cited
+as. The deepest finding is structural: the 19-dimension change block that beat the reader
+requires both old and new text, so it cannot be an inference feature for a final-artifact
+detector, and no document said so because inference-time inputs were never part of the
+contract.
+
+**Means.** Curator-ratified same day, with the phase named by him: **Phase 2.1**, the
+repair-and-foraging program. The reclassification landed this pass (STATE, the L132
+addendum, theory rows, TODO); the evaluation contract gains the three-interface
+inference-input section and the four stacking gates; the G131 corpus is reclassified
+exploratory and becomes the foraging substrate (G158: realization adjudication, cheap
+baselines, artifact-only recovery against realized choices, family transfer);
+confirmatory grade is owed to G129b under a card whose gates carry both expectations and
+a direction from birth; the decisive factorial rebuilds on paired base material only
+after foraging reports. Two lessons banked: "gate met" language only follows all gates
+passing under the card's own terms, and assigned is not realized.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Does an outside audit of the Phase 2.0 evidence hold up,
+  and what does the program owe if it does?
+- **Outcome class:** Narrows
+- **Result:** Every checkable claim verified (compliance checkers agree within 2.3
+  points); G129 demotes to strong replication and G131's corpus to exploratory.
+- **Project meaning:** The recovery evidence stands, but confirmatory language, the
+  known-answer construct test, and any stacking all wait on Phase 2.1's repairs.
+- **Next engineering obligation:** The G158 foraging battery on the existing corpus, then
+  G129b, then the decisive rebuild.
+- **Public claim:** Weakened; "confirmatory" is forbidden until G129b lands clean.
+- **Curator decision required:** No (ratified 2026-08-19, phase named 2.1 by him).
+- **Detail pointer:** L137 ← `results/g129/verdict.json`, the scratchpad checker promoted
+  to `runners/run_g131_adjudicate.py`, `docs/design/EVAL_CONTRACT_2_0.md` §3b.
+
+## L138 · The foraging battery's first two stages land: two-thirds realization at best, and cheap features read the factorial cells almost completely
+
+**Hypothesis.** *(G158 stages a and b, Phase 2.1.3, exploratory by declaration: how much of
+the G131 corpus's assigned ground truth was actually executed, and how much of its cell
+structure is readable from features nobody would call decision recovery — the bar any
+later recovery claim must beat.)*
+
+**Method.** Stage (a): every one of the 880 instruction-assignments across all 180
+artifacts run through graded mechanical checks (exact where the string rule is the
+instruction's own criterion, approximate where it is a conservative proxy), with every
+check's base rate measured on the zero-instruction control essays; the 556 semantic
+assignments listed for the queued reader-adjudication arms. Stage (b): logistic
+classifiers on single cheap feature sets, leave-one-topic-out so topic never carries the
+answer, predicting the target axis (surface vs problem, instructed cells) and the amount
+axis (0/3/8, all cells); permutation p-values from 200 within-topic label shuffles
+(resolution floor 0.005), all registered in the multiplicity audit as diagnostics.
+
+| measurement | read | meaning |
+|---|---|---|
+| checkable realization rate | **0.586** (324 of 880 checkable; exact-grade 0.68, approx 0.51) | roughly a third to two-fifths of checkable asks were not executed; assigned truth is invalid as a known answer |
+| base rates on unasked controls | 0.0 to 0.5 by instruction | the punctuation-style instruction passes unasked half the time (weak signal); the you-twice and twenty-word instructions never do (strong signal) — the decoy-design input for the rebuild |
+| target from length alone | **0.725** (p 0.005) | reproduces the external audit's 73.1% probe within a point |
+| target from punctuation / lexical echo | 0.8625 / **0.9187** (both p 0.005) | instruction products (question marks, lists) and instruction WORDS echoed in the text nearly solve the axis |
+| target from all combined | **0.950** (p 0.005) | the cell structure is almost fully readable from trivia |
+| amount from length alone | 0.400 (p 0.87) | length alone does not carry dose |
+| amount from all combined | 0.756 (p 0.005) | but the combined trivia carry most of it |
+
+*Caption: each row is one leave-one-topic-out classifier on one cheap feature family
+(majority base rates 0.5 for target, 0.44 for amount). "Lexical echo" is the share of each
+instruction pool's content words appearing in the essay — pure word overlap, no reading.*
+
+**Found.** The corpus's construct failure now has its full measurement. Ground truth
+executed at 58.6% where checkable, and the axes the recovery study was meant to probe are
+almost entirely recoverable from length, punctuation marks, and echoed instruction
+vocabulary. A reader could score 95% on target identification while reading nothing about
+choices at all.
+
+**Means.** Two binding numbers for everything downstream. Any artifact-only recovery
+result on this corpus (stage c) is interesting only in the margin ABOVE these baselines on
+realization-verified instructions; and the 2.1.5 rebuild must match length and register by
+construction, use consequence-matched decoys drawn to equalize lexical echo, and prefer
+instructions whose unasked base rate is near zero. The queued reader arms complete the
+realization table; stage (c) is designed after they land.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** How much of the factorial corpus is real, and how much of
+  its structure can trivial features read?
+- **Outcome class:** Infrastructure
+- **Result:** Checkable instructions were executed at 58.6%, and cheap features identify
+  the instruction-type axis at 95%.
+- **Project meaning:** The corpus supports foraging only; every recovery claim on it must
+  clear the now-measured trivial-feature bar on realization-verified truth.
+- **Next engineering obligation:** The queued reader-adjudication arms, then stage (c)
+  scored against realized instructions.
+- **Public claim:** Unchanged (nothing here was ever claimable).
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g158/realization_mechanical.json`,
+  `results/g158/baselines.json`, runners `run_g158_adjudicate.py` / `run_g158_baselines.py`.
 
 ---
 

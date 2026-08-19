@@ -271,6 +271,20 @@ L132 (a shuffle gate that voided the alternative's own signature).
   for, the curator's high-resolution readings, and the unclaimed forward predictions in the
   sim's EVIDENCE.md. When choosing an instrument, open EVIDENCE.md and prefer questions sitting
   in an unclaimed row. (archive/method/ANTI_CONVENTION.md, kept whole)
+- **"Gate met" language only follows every gate passing under the card's own terms.** The G129
+  battery had a voided control and a disclosed-but-unapplied power downgrade, and the record
+  still said the gate was met; an external audit had to force the demotion. A post-hoc-derived
+  correction to a gate's expectation, however sound, repairs the NEXT card — the run whose gate
+  fired keeps its void, the claim demotes to the highest tier the passing gates support, and a
+  fresh run under the corrected card is what re-earns the grade. Disclosing a clause is not
+  applying it. (L132 → L137)
+- **Assigned is not realized.** Ground truth from generated-instruction corpora is what the
+  generator was ASKED, and a 9B model executed only ~64% of mechanically checkable
+  instructions; a reader scored against assignments is penalized for correctly seeing an
+  instruction was ignored. Realization must be verified (mechanical checks first, adjudication
+  with evidence spans for the rest) or crossed as its own intervention before any
+  known-answer claim; instruction-following side effects (surface constraints shortening
+  essays out of their length band) are themselves confounds to match. (L137; G131 first corpus)
 
 ## §4. Before the model arm
 
