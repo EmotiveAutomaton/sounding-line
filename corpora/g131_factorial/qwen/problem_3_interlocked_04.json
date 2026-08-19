@@ -1,0 +1,27 @@
+{
+ "artifact_id": "problem_3_interlocked_04",
+ "topic": "whether space exploration deserves public funding",
+ "target": "problem",
+ "amount": 3,
+ "coupling": "interlocked",
+ "instructions": [
+  "concede one specific counterargument and rebut it",
+  "state one measurable criterion your position could be judged by, and it must build directly on what instruction 1 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 2 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 495,
+ "text": "The debate over whether space exploration deserves public funding often devolves into a binary choice between immediate terrestrial needs and distant scientific curiosity. Proponents argue for the limitless potential of outer space to solve energy crises and ensure long-term survival, while critics rightly point out that trillions are spent annually on military conflicts and poverty alleviation. While it is undeniable that addressing climate change and hunger must take precedence over launching satellites, this fiscal priority does not necessitate an absolute ban on space research; rather, the allocation of funds should be judged by a specific metric derived from our terrestrial responsibilities.\n\nA common counterargument posits that every dollar spent on a rocket launch or Mars rover mission is a dollar stolen from schools and hospitals. Critics argue that in an era of widening inequality, investing billions into exploring empty rocks while children lack clean water is morally indefensible. This argument carries significant weight because it highlights the opportunity cost of space programs. However, this view relies on a false dichotomy between \"useful\" technology and \"wasteful\" curiosity. Historically, government-funded basic research in physics led directly to transistors, GPS, and medical imaging technologies that generate far more economic value than they consume. Therefore, the mere existence of immediate problems does not automatically render space exploration illegitimate; rather, legitimacy depends on whether the program yields tangible benefits for Earth.\n\nConsequently, a fair measurable criterion by which public funding should be judged is whether the specific space mission demonstrates a direct pathway to solving an identified terrestrial problem within five years. If a proposed Mars colony cannot show how its propulsion systems will lower carbon capture costs or if a telescope cannot contribute to climate modeling, it fails this test. This standard builds directly on the counterargument by acknowledging that public money must work harder than ever before; it validates space spending only when it acts as an accelerator for solutions to Earth's pressing crises rather than just another curiosity project.\n\nYet, even with this strict criterion established, a critical piece of missing evidence remains elusive: long-term economic data linking specific NASA or ESA missions directly to measurable reductions in global suffering or increases in renewable energy efficiency post-implementation. Currently, we lack transparent databases that track the \"spin-off\" technologies from space projects and quantify their impact on poverty reduction metrics five years after launch. Without this longitudinal data, policymakers are forced to guess whether a mission passed our new criterion. If comprehensive studies were published showing that every dollar invested in orbital astronomy resulted in three dollars worth of improved atmospheric sensors used for drought prediction, the debate would be settled instantly. Until such evidence is compiled and made public, we must remain skeptical but open, demanding that future funding proposals include explicit plans to convert space capabilities into terrestrial tools within a short timeframe. Only by bridging this evidentiary gap can we ensure our rockets lift humanity up rather than leaving it behind in the dust of inequality.",
+ "generated_at": "2026-08-18 15:39:56"
+}

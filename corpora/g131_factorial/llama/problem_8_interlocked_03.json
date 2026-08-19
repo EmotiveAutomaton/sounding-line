@@ -1,0 +1,32 @@
+{
+ "artifact_id": "problem_8_interlocked_03",
+ "topic": "whether social media accounts should require age verification",
+ "target": "problem",
+ "amount": 8,
+ "coupling": "interlocked",
+ "instructions": [
+  "compare exactly two named alternatives before taking a side",
+  "ground one claim in a concrete named example, and it must build directly on what instruction 1 produced",
+  "distinguish a short-term effect from a long-term effect, and it must build directly on what instruction 2 produced",
+  "identify the strongest stakeholder against your position and address them, and it must build directly on what instruction 3 produced",
+  "commit to one explicit tradeoff your position accepts, and it must build directly on what instruction 4 produced",
+  "derive one implication your position has for a neighboring policy area, and it must build directly on what instruction 5 produced",
+  "separate an empirical claim from a value claim explicitly, and it must build directly on what instruction 6 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 7 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "llama",
+ "model_tag": "llama3.1:8b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 424,
+ "text": "Social media accounts should require age verification to protect minors from online harm. Two alternatives are allowing social media companies to regulate their own platforms or imposing stricter regulations through legislation. However, these alternatives fall short in ensuring minors' safety.\n\nThe current system allows children as young as 13 to create Facebook profiles and access mature content (Facebook's minimum age requirement). For instance, a 14-year-old girl created a fake Facebook profile to connect with a 19-year-old who had recently moved to her town. This allowed the older boy to build a relationship with the younger girl online. If social media companies required age verification, they could ensure that children are not exposed to predators and mature content.\n\nRequiring age verification would have both short-term and long-term effects. In the short term, it may lead to an initial surge in users seeking alternative, unverified platforms. However, this would be a temporary effect as verified platforms become more popular and non-verified ones decline. In the long term, verified platforms would reduce online harm and protect children from exploitation.\n\nThe strongest stakeholder against requiring age verification is likely social media companies themselves, who might see it as an added cost and regulatory burden. Facebook's statement on child protection emphasizes its efforts to prevent child exploitation while avoiding excessive regulation (Facebook). To address their concerns, we could implement a system where age verification is required but also incentivized by tax breaks or other benefits for companies that comply.\n\nRequiring age verification accepts the tradeoff of limiting access to some social media features for minors. However, this limitation would be minimal compared to the potential harm avoided. Furthermore, it implies that online safety should take precedence over platform growth and profit.\n\nThe implication for neighboring policy areas is that requiring age verification could lead to increased support for stricter regulations on other aspects of online child exploitation, such as human trafficking or cyberbullying. This is because verified platforms would demonstrate that regulation can be effective in preventing harm while still allowing free expression.\n\nEmpirically, it has been proven that minors exposed to mature content are more likely to experience mental health issues and engage in risk-taking behavior (Hinkley et al.). Value-wise, requiring age verification reflects a commitment to protecting children's well-being over the interests of social media companies or individual users.\n\nMissing evidence that would settle the question of whether social media accounts should require age verification is a comprehensive study on the impact of age verification on online child exploitation and its effects on social media platforms' growth.",
+ "generated_at": "2026-08-18 15:58:21"
+}

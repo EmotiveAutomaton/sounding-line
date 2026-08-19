@@ -1,0 +1,27 @@
+{
+ "artifact_id": "problem_3_interlocked_07",
+ "topic": "whether voting should be compulsory",
+ "target": "problem",
+ "amount": 3,
+ "coupling": "interlocked",
+ "instructions": [
+  "ground one claim in a concrete named example",
+  "identify the strongest stakeholder against your position and address them, and it must build directly on what instruction 1 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 2 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 478,
+ "text": "The debate over compulsory voting remains contentious in democracies worldwide, yet I argue that making voter participation mandatory is not only viable but essential for a healthy representative government. While some nations like Australia enforce this through fines for non-compliance without conviction of a crime, others voluntarily encourage it through social pressure and civic education. The core argument for compulsion rests on the necessity of systemic representation; when significant portions of society abstain from elections due to apathy or logistical barriers, elected officials are forced to cater exclusively to the motivated few rather than the silent majority.\n\nConsider the specific case of Brazil in 2014 and 2018. During this period, voting was already mandatory for citizens aged eighteen through seventy who were not illiterate. Despite economic hardships affecting millions, turnout remained consistently high, often exceeding ninety percent. This consistency ensures that the resulting government reflects a broad cross-section of society, including marginalized groups like rural poor or minority populations who might otherwise stay home due to lack of transportation or perceived influence. In contrast, voluntary systems frequently see dramatic swings in voter enthusiasm based on the charisma of candidates or specific issues, leading to governance by temporary majorities rather than stable democratic wills. By making voting a civic duty akin to jury service or military conscription (where applicable), states can ensure that no single demographic dictates policy while others ignore it entirely.\n\nHowever, the strongest stakeholder against this position is libertarian-leaning citizens and scholars who argue that compulsion violates individual liberty by forcing participation on those genuinely disengaged from politics. They contend that a political system should only be accountable to its active participants; if an adult chooses not to vote because they find the process corrupt or irrelevant, punishing them for exercising their right of exit undermines true freedom. This concern is directly tied to the Brazilian example: critics might argue that Brazil's high turnout does not prove democracy works better, but rather proves a lack of alternatives in political culture where dissenting views are punished socially if one stays home. They fear that compulsion turns politics into mere conformity, eroding authentic civic engagement by forcing people to vote against their will or without understanding the issues.\n\nTo settle this disagreement and move beyond theoretical arguments regarding liberty versus duty, we need a definitive piece of missing evidence: long-term, randomized data comparing policy stability and corruption levels in countries with compulsory voting against those with voluntary systems over fifty years, specifically isolating economic performance during recessions. Currently, existing studies are often retrospective or anecdotal, lacking the longitudinal depth to prove whether compelled voters actually deliver more stable governance or simply create an illusion of consensus that masks underlying dissatisfaction. Without this specific comparative data linking forced participation directly to measurable outcomes in institutional trust and corruption rates over decades, the argument remains speculative rather than empirically settled.",
+ "generated_at": "2026-08-18 15:48:01"
+}

@@ -1,0 +1,27 @@
+{
+ "artifact_id": "problem_3_interlocked_03",
+ "topic": "whether social media accounts should require age verification",
+ "target": "problem",
+ "amount": 3,
+ "coupling": "interlocked",
+ "instructions": [
+  "compare exactly two named alternatives before taking a side",
+  "rank two of your own reasons and justify the ranking, and it must build directly on what instruction 1 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 2 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 462,
+ "text": "The debate over mandating age verification for social media platforms has intensified as concerns regarding child safety grow alongside fears about digital privacy erosion. This issue demands a nuanced approach where we first evaluate two primary alternatives: **digital identity wallets**, which utilize decentralized, user-controlled credentials to prove age without revealing the date of birth, and **centralized government databases**, which require users to submit official documents like driver's licenses or passports directly to a state-mandated registry.\n\nAfter weighing these options against one another, I argue that social media accounts should strictly adopt digital identity wallets rather than relying on centralized government databases. My reasoning rests on two distinct pillars: the protection of user privacy and the prevention of data monopolies. Privacy is undeniably superior in this context because decentralized systems ensure that a teenager's exact birthdate never leaves their device, whereas a central database inherently collects sensitive personal identifiers from millions of users simultaneously, creating an attractive target for hackers. Furthermore, preventing data monopolies ranks second but remains critical; centralized databases inevitably consolidate power within specific government agencies or corporate intermediaries, fostering surveillance capitalism models where user history is commodified. In contrast, identity wallets distribute this trust across a network, ensuring no single entity holds the keys to every child's digital footprint. Therefore, privacy takes precedence over convenience because once private data is harvested by a central authority, it can rarely be fully returned or deleted effectively if breached, whereas decentralized systems allow users to revoke access instantly.\n\nHowever, even with strong theoretical arguments favoring identity wallets, one critical piece of evidence remains missing that would definitively settle the practical viability of this solution: **an independent audit confirming whether current cryptographic age-proof technologies (such as Zero-Knowledge Proofs) can reliably function without introducing a prohibitive latency lag for users on low-bandwidth rural connections.**\n\nThis specific data point builds directly upon my ranking in instruction 2. I ranked privacy above convenience, yet if implementing identity wallets causes significant delays or requires high-speed internet to generate the necessary cryptographic proofs, they become inaccessible to millions of children living without reliable broadband access. If these technologies are too slow for real-time verification on older smartphones common among lower-income demographics, then prioritizing absolute privacy actually forces vulnerable populations into a \"digital blackout,\" where their only option is to bypass security measures entirely or remain offline. Without empirical data proving that age-verification tech works seamlessly across diverse infrastructure levels, the argument collapses under its own weight regarding equity. Consequently, until we possess this evidence of universal accessibility, policymakers must hesitate before mandating strict verification systems, regardless of how superior they are theoretically compared to government databases. The missing link between theoretical privacy and practical inclusion is what determines if age verification can truly be a net positive for society.",
+ "generated_at": "2026-08-18 15:38:11"
+}

@@ -1,0 +1,32 @@
+{
+ "artifact_id": "problem_8_interlocked_01",
+ "topic": "whether schools should teach handwriting",
+ "target": "problem",
+ "amount": 8,
+ "coupling": "interlocked",
+ "instructions": [
+  "compare exactly two named alternatives before taking a side",
+  "state one measurable criterion your position could be judged by, and it must build directly on what instruction 1 produced",
+  "distinguish a short-term effect from a long-term effect, and it must build directly on what instruction 2 produced",
+  "derive one implication your position has for a neighboring policy area, and it must build directly on what instruction 3 produced",
+  "state one condition under which you would change your mind, and it must build directly on what instruction 4 produced",
+  "separate an empirical claim from a value claim explicitly, and it must build directly on what instruction 5 produced",
+  "rank two of your own reasons and justify the ranking, and it must build directly on what instruction 6 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 7 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 513,
+ "text": "The debate over whether schools should teach handwriting hinges largely on a choice between two distinct alternatives: cursive script or print-based typing proficiency via keyboards. While digital literacy is undeniably vital for modern productivity, I argue that schools must prioritize teaching discrete letter formation and spacing through traditional pen-and-paper methods rather than relying solely on keyboarding skills.\n\nMy position can be judged by one measurable criterion: the correlation between handwriting instruction and improved memory retention scores in standardized reading comprehension tests over a six-month period. Research suggests that the physical act of forming letters engages different neural pathways than typing, which relies more heavily on muscle memory without deep visual processing. In the short term, this engagement results in higher student engagement during note-taking sessions compared to students who only type or use tablets. However, the long-term effect differs significantly; those trained in handwriting demonstrate superior ability to recall complex information years later because they process semantics deeply rather than simply inputting symbols quickly.\n\nThis distinction between immediate classroom behavior and delayed cognitive retention has a direct implication for neighboring policy areas regarding standardized testing design. Specifically, if schools abandon handwriting instruction due to short-term gains in typing speed, curriculum developers must redesign national assessments to include open-ended essay questions that require physical writing or provide extended time limits to accommodate the slower pace of non-digital composition formats. This necessity arises because relying exclusively on digital input creates a vulnerability: test-takers may struggle with rapid recall under pressure if they lack the foundational neural encoding provided by handwriting, leading to artificially depressed scores even when their underlying knowledge is intact.\n\nHowever, I would change my mind regarding the mandatory inclusion of cursive or print letter formation under one specific condition: robust longitudinal data proves that keyboarding speeds directly substitute for memory retention without causing a cognitive decline in reading comprehension accuracy. If empirical studies demonstrate that digital typing can fully replicate the neural benefits currently attributed to handwriting, then resource allocation should shift entirely toward advanced technology integration rather than traditional pen-and-paper drills. This pivot would rest on separating an empirical claim from a value claim explicitly: it is empirically observable whether typing boosts scores just as well as writing by hand; however, valuing tradition over utility becomes the guiding principle only if we ignore potential cognitive deficits in students who never develop fine motor skills for writing at all.\n\nRanking these reasons further reveals that neural efficiency (the empirical benefit) outweighs aesthetic or cultural preservation because it directly impacts academic outcomes like standardized test performance and college readiness; culture matters less than measurable learning gains when educational resources are scarce. Finally, to settle this question definitively, we need one piece of missing evidence: a large-scale randomized control trial comparing cohorts taught exclusively in digital environments versus hybrid models over fifteen years, specifically tracking their ability to compose original arguments without technology. Without data on long-term composition quality and memory decay rates across these two specific groups, the current educational shift toward screens remains an unverified assumption rather than an evidence-based policy decision.",
+ "generated_at": "2026-08-18 15:34:03"
+}

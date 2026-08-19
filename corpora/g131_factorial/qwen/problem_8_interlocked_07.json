@@ -1,0 +1,32 @@
+{
+ "artifact_id": "problem_8_interlocked_07",
+ "topic": "whether voting should be compulsory",
+ "target": "problem",
+ "amount": 8,
+ "coupling": "interlocked",
+ "instructions": [
+  "compare exactly two named alternatives before taking a side",
+  "state one measurable criterion your position could be judged by, and it must build directly on what instruction 1 produced",
+  "distinguish a short-term effect from a long-term effect, and it must build directly on what instruction 2 produced",
+  "identify the strongest stakeholder against your position and address them, and it must build directly on what instruction 3 produced",
+  "commit to one explicit tradeoff your position accepts, and it must build directly on what instruction 4 produced",
+  "state one condition under which you would change your mind, and it must build directly on what instruction 5 produced",
+  "rank two of your own reasons and justify the ranking, and it must build directly on what instruction 6 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 7 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 538,
+ "text": "The debate over voting reform often centers on whether participation should be mandatory or entirely voluntary. The two primary alternatives are **universal compulsory voting**, where all eligible citizens are legally required to vote under penalty of a fine, versus the current standard of **voluntary voting**, which relies solely on individual civic motivation without legal coercion. I firmly argue that universal compulsory voting is superior because it ensures every voice in democracy carries equal weight, preventing election outcomes from being skewed by transient enthusiasm or apathy driven by socioeconomic factors.\n\nTo judge this position fairly, we must apply one measurable criterion: the **percentage of demographic groups historically underrepresented in turnout**. Compulsory voting directly addresses voluntaryism's failure here; while voluntary systems often see high turnout among older, wealthier citizens and low turnout among youth or minorities, mandatory laws force participation rates across all demographics to converge near 90%. This metric proves that compulsion is the only mechanism capable of neutralizing structural biases in voter engagement.\n\nThe effects of this shift manifest differently over time. In the **short-term**, compulsory voting may generate administrative costs for enforcement and potential backlash from those who feel coerced into expressing an opinion they do not hold. However, the **long-term effect** is a fundamental restructuring of political discourse; when politicians know their entire electorate will show up, including disaffected minorities or young voters, campaigns shift focus to universal issues like healthcare and education rather than mobilizing only specific interest blocs. This evolution transforms politics from an activity for enthusiasts into a true deliberative process involving the whole populace.\n\nThe strongest stakeholder against this position is **political strategists who rely on partisan activation**. They argue that compulsion distorts representation by forcing uninformed or angry voters to participate, potentially electing populist leaders over pragmatic ones based solely on turnout volume rather than policy alignment. Their concern rests on the fear that \"forced\" votes dilute the signal of genuine conviction.\n\nThis argument accepts an explicit **tradeoff**: we sacrifice a degree of individual liberty regarding personal political expression to gain systemic representational accuracy. We assume that the cost of occasional uninformed voting is outweighed by the benefit of preventing entire generations from having zero influence on legislation they pay taxes for. I would change my mind if evidence showed that compulsory voting consistently led to increased corruption or election fraud, as this would suggest the mechanism itself undermines rather than bolsters democratic integrity.\n\nRanking these reasons reveals why representational accuracy supersedes individual liberty concerns in this context. The first reason is paramount: a democracy claiming universal suffrage while ignoring millions of non-voters due to apathy is fundamentally fraudulent; true equality requires equal participation rates. The second reason, protecting against populist distortion, ranks lower because history shows that diverse electorates have historically checked extremism through broad consensus rather than by allowing the most passionate but narrowest voices to dominate via low-turnout tricks.\n\nFinally, one piece of missing evidence needed to settle this question is **longitudinal data tracking policy stability and corruption levels in countries with compulsory voting versus those without over fifty years**. Without knowing if mandatory turnout leads to volatile policies or entrenched corruptions that voluntary systems avoid, we cannot fully weigh the tradeoff between enforced participation and political health.",
+ "generated_at": "2026-08-18 15:48:18"
+}

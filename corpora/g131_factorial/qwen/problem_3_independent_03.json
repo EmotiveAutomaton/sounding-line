@@ -1,0 +1,27 @@
+{
+ "artifact_id": "problem_3_independent_03",
+ "topic": "whether social media accounts should require age verification",
+ "target": "problem",
+ "amount": 3,
+ "coupling": "independent",
+ "instructions": [
+  "state one measurable criterion your position could be judged by",
+  "identify the strongest stakeholder against your position and address them",
+  "commit to one explicit tradeoff your position accepts"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 416,
+ "text": "The proliferation of social media has democratized information but simultaneously exposed children to predatory algorithms, cyberbullying, and exposure to graphic content before they are emotionally ready. Consequently, I firmly argue that **all major social media platforms must implement strict age verification systems** as a non-negotiable safety measure for digital citizenship. To determine the success of this policy, we can establish one measurable criterion: **a mandatory reduction in reported instances of child exploitation and self-harm incidents involving minors under 18 within two years of implementation.**\n\nThe most formidable stakeholder opposing age verification is often privacy advocates and civil liberties groups, who argue that such mandates create a surveillance state. They contend that requiring users to submit government-issued IDs or use biometric scanning infringes upon the right to anonymity online and disproportionately burdens marginalized communities with digital redlining risks. While these concerns regarding data misuse are valid, they represent an outdated perspective on how technology evolves. The threat of immediate psychological harm and physical danger posed by predators far outweighs the abstract risk of increased metadata collection. Furthermore, current \"age gating\" methods that rely solely on self-reported birthdates have been proven ineffective; users routinely lie to access platforms where algorithms then expose them to harmful content based on their actual behavior rather than stated age. Therefore, objective verification is not about surveillance for control, but about creating a verifiable boundary between adult and child digital spaces.\n\nThis position accepts one explicit tradeoff: **the increased burden of identity management and potential privacy friction for legitimate users.** By mandating strict ID checks, we acknowledge that the current internet experience will become slightly less seamless. Users may face hurdles in sign-up processes, and there is a risk of data breaches if platforms do not safeguard collected IDs properly. However, this tradeoff is necessary because the alternative\u2014a completely open digital frontier where children can be easily manipulated by algorithms designed to maximize engagement\u2014is unsustainable. We cannot protect children without acknowledging that their safety requires some degree of friction at entry points.\n\nIn conclusion, while privacy concerns are serious, they must not compromise child safety in a high-risk environment. Implementing age verification is the only viable path forward if we value the well-being of our youth above absolute anonymity on platforms designed to exploit developing minds. The measurable goal of reducing harm incidents provides a clear directive for action that overrides theoretical objections about privacy creep. We must build walls, even inconvenient ones, to keep predators and toxic algorithms out of children's lives.",
+ "generated_at": "2026-08-18 15:38:03"
+}

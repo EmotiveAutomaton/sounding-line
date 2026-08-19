@@ -341,6 +341,11 @@ current truth lives in the folded end-state of the record, never in an interim s
 - **Bare-launched shells have no PATH** (`date`/`cat` silently empty, deadline arithmetic
   collapses); loop scripts export PATH first. Kill loops by the lock's WINDOWS pid (line 2) with
   a tree kill; msys pids do not map. Sweep orphans at startup. (G121 history)
+- **The regear waiter checks for a LIVE ENGINE before relaunching, not only for a drained
+  queue.** A drain-triggered waiter fired while the prior lineage was still mid-window,
+  running two second-gear engines side by side (harmless only because produces-guards and
+  the gpu lock held); the waiter's precondition is drained AND no live gear process by
+  enumeration. (2026-08-18)
 - **A harness-killed background shell can survive as an msys child and keep executing; any
   long-lived waiter honors a CANCEL FILE checked every poll and again immediately before its
   action.** A relaunch waiter reported successfully stopped fired its relaunch thirty seconds

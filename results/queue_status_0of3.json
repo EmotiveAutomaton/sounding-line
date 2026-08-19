@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-18 15:29",
+  "started": "2026-08-18 18:31",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -593,9 +593,22 @@
       "name": "g131_gen_qwen",
       "why": "G131 factorial corpus, seen family: the construct test that separates target, amount, and coupling, with planted instruction sets as ground truth",
       "est_minutes": 200,
-      "status": "RUNNING",
-      "log": "results\\g131_gen_qwen.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan25_wqd_hard_s44",
+      "why": "G148 hard gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan25_wqd_medium_s43",
+      "why": "G148 medium gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "0/3"
+  "shard": "0/3",
+  "finished": "2026-08-18 18:31",
+  "failed": []
 }

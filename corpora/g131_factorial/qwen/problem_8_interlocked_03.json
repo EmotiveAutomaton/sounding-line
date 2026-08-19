@@ -1,0 +1,32 @@
+{
+ "artifact_id": "problem_8_interlocked_03",
+ "topic": "whether social media accounts should require age verification",
+ "target": "problem",
+ "amount": 8,
+ "coupling": "interlocked",
+ "instructions": [
+  "compare exactly two named alternatives before taking a side",
+  "ground one claim in a concrete named example, and it must build directly on what instruction 1 produced",
+  "distinguish a short-term effect from a long-term effect, and it must build directly on what instruction 2 produced",
+  "identify the strongest stakeholder against your position and address them, and it must build directly on what instruction 3 produced",
+  "commit to one explicit tradeoff your position accepts, and it must build directly on what instruction 4 produced",
+  "derive one implication your position has for a neighboring policy area, and it must build directly on what instruction 5 produced",
+  "separate an empirical claim from a value claim explicitly, and it must build directly on what instruction 6 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 7 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 482,
+ "text": "The debate over age verification for social media accounts is critical to protecting minors from digital harm while balancing free expression. To determine the optimal path forward, we must first compare two distinct alternatives: **mandatory third-party identity checks** utilizing government-issued IDs versus **voluntary parental consent models**. The former requires users to upload documents or scan biometrics before access, whereas the latter relies on self-declaration validated by guardians without strict bureaucratic hurdles. While voluntary consent preserves ease of use, it fails against determined predators who can easily bypass parents; therefore, mandatory verification is superior for actual safety enforcement.\n\nGrounding this claim in a concrete example, consider TikTok's current struggles where minors are targeted by sexual exploitation because age gates rely on self-reported birthdates that users edit with photoshopped IDs or family members' information. This specific failure of voluntary models directly demonstrates why the third-party alternative is necessary; without biometric verification, the platform becomes porous to predators who simply ask a child's uncle for help.\n\nBuilding on this vulnerability, we must distinguish between short-term and long-term effects. In the short term, implementing mandatory ID checks creates friction, potentially driving users away or slowing sign-up processes. However, in the long term, these barriers dismantle networks of abuse by making it statistically improbable for a predator to sustain multiple anonymous accounts without detection, fundamentally altering the ecosystem's safety profile over years rather than weeks.\n\nThe strongest stakeholder against this position is **privacy advocates**, who argue that requiring biometric data creates an unprecedented surveillance state where corporations store sensitive information indefinitely. They fear this centralizes power in tech giants and government entities, risking mass data breaches similar to those seen at Equifax or Facebook. Addressing their core concern directly: the tradeoff my position accepts is that **individual privacy regarding identity documents must be sacrificed** to achieve a net reduction in child exploitation cases. This concession acknowledges that perfect anonymity for bad actors makes the system safe only for criminals, which is an unacceptable societal cost.\n\nThis acceptance of data collection has a direct implication for neighboring policy areas: it necessitates stricter regulation on **data retention laws**. If we accept storing IDs to prevent abuse tomorrow, then legislation must immediately mandate encryption and limited storage periods today; otherwise, this new power will inevitably corrupt other sectors like banking or healthcare that rely on similar databases.\n\nFrom these regulatory requirements emerge an explicit empirical claim versus a value claim: the *empirical* observation is that centralized biometric data increases breach risk by 40%, while the *value* judgment is that preventing one instance of child sexual abuse justifies accepting this higher statistical risk to public security databases. Finally, the missing piece of evidence required to fully settle this question is **longitudinal data on real-time cyberattack success rates against specific biometric verification systems**, as current studies only analyze historical breach attempts without simulating future AI-driven forgery attacks that could bypass today's safeguards.",
+ "generated_at": "2026-08-18 15:38:28"
+}

@@ -1,0 +1,32 @@
+{
+ "artifact_id": "problem_8_interlocked_01",
+ "topic": "whether schools should teach handwriting",
+ "target": "problem",
+ "amount": 8,
+ "coupling": "interlocked",
+ "instructions": [
+  "compare exactly two named alternatives before taking a side",
+  "state one measurable criterion your position could be judged by, and it must build directly on what instruction 1 produced",
+  "distinguish a short-term effect from a long-term effect, and it must build directly on what instruction 2 produced",
+  "derive one implication your position has for a neighboring policy area, and it must build directly on what instruction 3 produced",
+  "state one condition under which you would change your mind, and it must build directly on what instruction 4 produced",
+  "separate an empirical claim from a value claim explicitly, and it must build directly on what instruction 5 produced",
+  "rank two of your own reasons and justify the ranking, and it must build directly on what instruction 6 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 7 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "llama",
+ "model_tag": "llama3.1:8b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 426,
+ "text": "In recent years, there has been a debate about whether schools should teach handwriting. On one hand, some argue that with the increasing use of technology, handwriting is no longer a necessary skill for students to learn. For example, Steve Jobs, co-founder of Apple, was known to have typed rather than handwritten his presentations, suggesting that typing may be sufficient in today's digital age.\n\nOn the other hand, some argue that handwriting has cognitive benefits and should not be abandoned altogether. For instance, research by Anne Mangina suggests that handwritten notes aid retention and recall more effectively than typed ones (Mangina, 2013). This distinction highlights a key criterion for evaluating the effectiveness of handwriting instruction: increased retention rates among students.\n\nMeasuring retention rates would allow us to assess whether schools should prioritize teaching handwriting. In the short-term, not teaching handwriting might result in initial improvements in typing speed, but this could lead to decreased attention span and lower grades in the long term due to poor note-taking skills (Mangina, 2013). Conversely, teaching handwriting could yield higher retention rates over time, which would justify its importance.\n\nThe argument for teaching handwriting also implies that it should be integrated into other subjects, such as language arts or reading classes. If students are taught handwriting effectively and retain more information, it stands to reason they will perform better in these areas.\n\nHowever, I would change my mind if evidence emerged showing that technology-based alternatives significantly closed the retention gap observed by Mangina (2013). For instance, if studies found that software designed to help students organize notes digitally was as effective or even more so than handwritten notes, it could justify a shift away from teaching handwriting.\n\nEmpirically, research suggests that Mangina's findings on retention rates are likely due in part to the cognitive benefits of writing. But value-wise, while some argue that retention is what matters most, others prioritize creativity and expressiveness as essential skills that handwriting enables.\n\nRanking these reasons, I would consider the importance of creative expression slightly more important than retention for three main reasons. Firstly, many careers require high levels of creativity. Secondly, expressive forms like art are often used to supplement learning in other subjects. Finally, creativity has been linked to improved mental health and cognitive function, both of which are crucial for long-term success.\n\nHowever, I would identify the need for more longitudinal research that follows students over several years to establish a clear causal link between handwriting instruction and retention rates as the missing piece of evidence that could settle this question.",
+ "generated_at": "2026-08-18 15:55:56"
+}

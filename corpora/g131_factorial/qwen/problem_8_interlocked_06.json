@@ -1,0 +1,32 @@
+{
+ "artifact_id": "problem_8_interlocked_06",
+ "topic": "whether tipping should be abolished",
+ "target": "problem",
+ "amount": 8,
+ "coupling": "interlocked",
+ "instructions": [
+  "compare exactly two named alternatives before taking a side",
+  "concede one specific counterargument and rebut it, and it must build directly on what instruction 1 produced",
+  "state one measurable criterion your position could be judged by, and it must build directly on what instruction 2 produced",
+  "identify the strongest stakeholder against your position and address them, and it must build directly on what instruction 3 produced",
+  "commit to one explicit tradeoff your position accepts, and it must build directly on what instruction 4 produced",
+  "derive one implication your position has for a neighboring policy area, and it must build directly on what instruction 5 produced",
+  "state one condition under which you would change your mind, and it must build directly on what instruction 6 produced",
+  "rank two of your own reasons and justify the ranking, and it must build directly on what instruction 7 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 500,
+ "text": "The debate over tipping in service industries often centers on whether the practice should be abolished entirely or reformed. Before taking a definitive stance, one must compare exactly two named alternatives: maintaining the current voluntary tip system versus implementing mandatory \"fair wage\" models where gratuities are integrated into base pay and redistributed by employers. The former preserves consumer choice but perpetuates income instability for workers; the latter guarantees stability but shifts financial control from individuals to corporations.\n\nA common counterargument posits that abolishing tipping removes a crucial source of autonomy, allowing employees to set their own prices based on service quality. However, this argument relies heavily on an idealized version of capitalism where small businesses can always afford higher base wages regardless of customer volume or economic downturns. This concession fails because it ignores the reality that many independent operators cannot sustainably absorb these costs without raising menu prices by 20 to 30 percent, which would drive away price-sensitive customers who currently rely on tips as a supplement rather than a primary wage driver.\n\nConsequently, my position is that mandatory fair wages should replace voluntary tipping because it prioritizes **income stability for service workers** over the consumer's nominal right to withhold payment. A measurable criterion by which this policy could be judged is whether full-time staff in tipped establishments earn at least $25 per hour without reliance on discretionary gratuities after one year of implementation; failure to meet this threshold indicates systemic underpayment persists despite reform efforts.\n\nThe strongest stakeholder against my position is the independent restaurant owner who views tipping as a necessary mechanism for survival during lean seasons or high-inflation periods. Addressing them, it must be acknowledged that while their concern about cash flow is valid, relying on unpredictable customer generosity creates a volatile work environment that hinders long-term business planning and employee retention rates.\n\nTo address this volatility directly, my position explicitly accepts the tradeoff of **higher fixed operating costs for small businesses** in exchange for predictable revenue streams from wages rather than fluctuating tips. This shift implies a neighboring policy area: labor law must evolve to classify all service staff as standard employees entitled to overtime and benefits proportional to their new base wage structure, effectively removing the \"tipped employee\" legal loophole that currently allows employers to pay below minimum wage with the expectation of future tips.\n\nIf a robust universal basic income or significant federal small business tax credits were enacted specifically for industries transitioning away from tipping within five years, I would change my mind regarding the feasibility of this transition without causing widespread closures among micro-enterprises. Finally, ranking two of my own reasons, **income stability** ranks higher than **consumer autonomy**. This ranking is justified because financial insecurity leads to high turnover and poor service quality; therefore, guaranteeing a living wage fundamentally improves the customer experience by ensuring staff are present, rested, and motivated, whereas consumer autonomy in withholding tips merely allows customers to punish workers without solving the root cause of poverty wages.",
+ "generated_at": "2026-08-18 15:46:30"
+}

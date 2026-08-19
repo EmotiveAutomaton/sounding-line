@@ -1,0 +1,32 @@
+{
+ "artifact_id": "problem_8_interlocked_04",
+ "topic": "whether space exploration deserves public funding",
+ "target": "problem",
+ "amount": 8,
+ "coupling": "interlocked",
+ "instructions": [
+  "compare exactly two named alternatives before taking a side",
+  "concede one specific counterargument and rebut it, and it must build directly on what instruction 1 produced",
+  "state one measurable criterion your position could be judged by, and it must build directly on what instruction 2 produced",
+  "distinguish a short-term effect from a long-term effect, and it must build directly on what instruction 3 produced",
+  "identify the strongest stakeholder against your position and address them, and it must build directly on what instruction 4 produced",
+  "derive one implication your position has for a neighboring policy area, and it must build directly on what instruction 5 produced",
+  "separate an empirical claim from a value claim explicitly, and it must build directly on what instruction 6 produced",
+  "rank two of your own reasons and justify the ranking, and it must build directly on what instruction 7 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 384,
+ "text": "The debate over space exploration funding often pits humanity's curiosity against immediate earthly needs. To determine if public dollars should flow into orbital programs, we must first compare **astronomical research** with **domestic infrastructure modernization**. While updating our aging power grids and transportation networks addresses urgent local deficiencies, investing in deep-space missions offers a distinct pathway to solving existential threats that no other sector can address alone. Although critics rightly argue that space spending is an \"extravagant diversion\" of funds from pressing domestic issues like homelessness or healthcare\u2014a valid concern rooted in finite budgets\u2014we must recognize that this perspective relies on the **empirical claim** that Earth's problems are too severe to ignore cosmic risks, while overlooking the fact that technological spinoffs often solve terrestrial crises faster than direct spending. This leads to a crucial distinction between short-term and long-term effects: in the immediate future (short-term), funds allocated to space may appear as an inefficient reallocation away from poverty relief; however, over decades (long-term), this same investment yields critical advancements like climate monitoring satellites and renewable energy technologies that directly mitigate those very earthly problems.\n\nThe strongest stakeholder against our position is likely a **fiscal conservative advocate for immediate social welfare**, who argues that the government has no moral obligation to fund projects benefiting only future generations or distant stars. Addressing this, we must note an implication for neighboring policy areas: if we accept funding space exploration as essential despite current budgetary pressures, it establishes a precedent for investing in **high-risk, high-reward innovation portfolios** within other sectors like clean energy or disease research, rather than relying solely on guaranteed returns. This shift requires us to separate our empirical observations from our values explicitly; the data shows that every dollar spent on space yields roughly three dollars in economic return over time (empirical), yet we must value long-term survival and intellectual expansion more highly than immediate comfort (value). Consequently, these two drivers shape our final reasoning. Between the reasons provided\u2014economic innovation potential versus existential risk mitigation\u2014we rank **existential risk mitigation** as superior because it addresses irreversible threats like asteroid impacts or solar flares that could wipe out civilization entirely before economic benefits materialize. Without this safety net, future prosperity is impossible to secure, making space exploration not just a luxury, but an insurance policy for humanity itself.",
+ "generated_at": "2026-08-18 15:40:11"
+}

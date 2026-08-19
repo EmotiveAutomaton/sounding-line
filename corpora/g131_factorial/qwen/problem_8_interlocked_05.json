@@ -1,0 +1,32 @@
+{
+ "artifact_id": "problem_8_interlocked_05",
+ "topic": "whether museums should return colonial-era artifacts",
+ "target": "problem",
+ "amount": 8,
+ "coupling": "interlocked",
+ "instructions": [
+  "ground one claim in a concrete named example",
+  "distinguish a short-term effect from a long-term effect, and it must build directly on what instruction 1 produced",
+  "commit to one explicit tradeoff your position accepts, and it must build directly on what instruction 2 produced",
+  "derive one implication your position has for a neighboring policy area, and it must build directly on what instruction 3 produced",
+  "state one condition under which you would change your mind, and it must build directly on what instruction 4 produced",
+  "separate an empirical claim from a value claim explicitly, and it must build directly on what instruction 5 produced",
+  "rank two of your own reasons and justify the ranking, and it must build directly on what instruction 6 produced",
+  "identify one piece of missing evidence that would settle the question, and it must build directly on what instruction 7 produced"
+ ],
+ "instruction_pool": "problem",
+ "family": "qwen",
+ "model_tag": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repeat_penalty": 1.1,
+  "num_predict": 1200,
+  "seed_base": 13100
+ },
+ "in_band": true,
+ "n_words": 478,
+ "text": "Museums possess a moral obligation to return colonial-era artifacts to their countries of origin, prioritizing restorative justice over traditional notions of universal access. This stance is anchored in the case of the British Museum's Benin Bronzes, looted during the punitive expedition of 1897 from the Kingdom of Dahomey (modern-day Nigeria). These objects were taken under false pretenses and without consent; their removal was an act of theft rather than acquisition. The immediate consequence of returning these items would be a short-term disruption to Western museum operations, specifically forcing them to reclassify empty display cases as \"looted\" or \"acquired by force,\" which necessitates rewriting historical narratives and potentially altering exhibition layouts significantly.\n\nHowever, the long-term effect of repatriation extends far beyond mere logistical adjustments; it fundamentally heals diplomatic fractures between former colonies and colonizers while empowering source nations to reconstruct their own cultural identities on their own terms. This position accepts a specific tradeoff: Western institutions must willingly relinquish claims of \"universal heritage\" that allow them to possess items regardless of origin, thereby sacrificing the immediate comfort of diverse global audiences in favor of moral correctness.\n\nThis acceptance leads directly to an implication for neighboring policy areas regarding international legal frameworks and intellectual property rights. If museums acknowledge a duty to return stolen goods based on current ethical standards, then this precedent must logically compel governments worldwide to renegotiate treaties concerning cultural heritage that were signed under duress or unequal power dynamics in the 19th century. Should nations refuse repatriation unless they can prove the original looting was \"justified,\" we would have to abandon our position entirely and revert to a status quo of colonial impunity; therefore, I maintain my stance only if source nations commit to establishing permanent collaborative research centers that replace empty shelves with digital archives or shared exhibitions.\n\nThis condition rests on an explicit distinction between empirical claims and value judgments. The empirical claim is that returning artifacts does not result in the total erasure of knowledge because provenance databases can be universally accessible online; however, the underlying value judgment is that human dignity outweighs institutional ownership rights regardless of data availability. Furthermore, I rank two reasons for this stance: first, the moral imperative to correct historical wrongs regarding stolen property, and second, the benefit of fostering new global partnerships in archaeology and anthropology. The former ranks higher because it addresses a fundamental violation of sovereignty that occurred centuries ago, whereas partnership building is merely a beneficial byproduct rather than the core justification for return. Finally, one piece of missing evidence required to fully settle this debate would be comprehensive archival records detailing every instance where an artifact was \"donated\" or acquired with consent but involved coercion or bribery during the colonial era; without knowing if these transactions were truly voluntary under any historical definition, the question of ownership remains legally ambiguous and morally unresolved.",
+ "generated_at": "2026-08-18 15:42:30"
+}
