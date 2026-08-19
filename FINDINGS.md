@@ -5499,6 +5499,63 @@ realization table; stage (c) is designed after they land.
 - **Detail pointer:** `results/g158/realization_mechanical.json`,
   `results/g158/baselines.json`, runners `run_g158_adjudicate.py` / `run_g158_baselines.py`.
 
+## L139 · The reader adjudicator fails its own validation: it credits two-thirds of provably ignored instructions
+
+**Hypothesis.** *(G158 instrument validation, run before stage (c) may consume any reader
+verdict: does the local reader's realized/unrealized adjudication agree with mechanical
+string checks on the assignments where a string test is decisive?)*
+
+**Method.** The adjudicator re-judged a stratified sample of 80 mechanically decidable
+assignments blind (half mechanically realized, half not, seeded draw), same prompt,
+temperature 0, evidence spans required; agreement scored overall and on the exact-grade
+subset where the string rule IS the instruction's own criterion.
+
+| measure | read |
+|---|---|
+| overall agreement with mechanics | 0.6125 |
+| over-credit rate (reader says realized where mechanics say not) | **0.725**; **0.688 on exact-grade rows** (11 of 16) |
+| under-credit rate | 0.05 |
+| ambiguous calls | 0 of 80 (and 0 of 556 in the live arms) |
+| reader said "realized", all rows | 67 of 80 |
+
+*Caption: exact-grade rows are instructions like "no sentence over twenty words" where the
+mechanical verdict is not a proxy but the criterion itself; over-credit there is proof of
+adjudicator failure, not check disagreement.*
+
+**Found.** The adjudicator is a yes-machine. It asserted realization on two-thirds of
+assignments an exact string test proves were ignored, never once used its ambiguous
+option across 636 total judgments, and the required evidence span did not prevent
+over-credit (a verbatim quote can exist without satisfying the instruction). The
+symmetric direction is nearly clean (under-credit 5%), which is the signature of
+acquiescence, not noise.
+
+**Means.** The 556 reader-adjudicated verdicts (95% "realized" in both families) carry no
+evidentiary weight and are retained only as raw records with this warning label. Stage
+(c)'s ground truth is the mechanical exact-grade subset only; the semantic instructions
+either get a redesigned adjudication instrument (validated against the decidable subset
+BEFORE its verdicts are consumed, per the ruler-validation rule) or stay out of the
+known-answer set. The 2.1.5 rebuild inherits the same constraint: prefer instructions
+whose realization is mechanically decidable, and treat model adjudication as an
+instrument that must pass validation, never a default. Lesson banked (LESSONS §4).
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces (instrument)
+- **Question in plain language:** Can the local reader be trusted to audit whether an
+  instruction was actually executed?
+- **Outcome class:** Kills
+- **Result:** The adjudicator credited 69% of provably ignored instructions on the
+  decisive subset.
+- **Project meaning:** Realization ground truth is mechanical-only until an adjudication
+  instrument passes this validation; the corpus's semantic instructions currently have no
+  usable realization labels.
+- **Next engineering obligation:** Stage (c) designed on the mechanical exact-grade
+  subset; adjudicator redesign optional, validation-gated.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g158/reader_validation.json`; live-arm verdicts in
+  `realization_reader_{qwen,llama}.json`, warning-labeled.
+
 ---
 
 # TIER 2 · SETTLED

@@ -248,17 +248,77 @@ def run_reader(family: str) -> None:
     print(json.dumps(summary, indent=1))
 
 
+def run_validate(n_sample: int = 80, seed: int = 15801) -> None:
+    """Instrument validation: the reader adjudicates a stratified sample of the
+    MECHANICALLY decidable assignments, blind to the mechanical verdicts, and agreement is
+    scored. The over-credit direction (reader realized where mechanics say unrealized) is
+    the failure the DESIGN CHECK named; zero ambiguous calls in the live arms made this
+    the binding check before stage (c) consumes any reader verdict."""
+    sys.path.insert(0, str(REPO))
+    from soundingline.gpulock import acquire_gpu_lock                 # noqa: PLC0415
+    import numpy as np                                                # noqa: PLC0415
+    acquire_gpu_lock("g158_reader_validate")
+
+    mech = json.loads((OUT / "realization_mechanical.json").read_text(encoding="utf-8"))
+    decided = [r for r in mech["rows"] if r["checkable"]]
+    rng = np.random.default_rng(seed)
+    # stratify: half mechanically realized, half not, to power both agreement directions
+    pos = [r for r in decided if r["realized"]]
+    neg = [r for r in decided if not r["realized"]]
+    take = lambda pool, k: [pool[i] for i in rng.choice(len(pool), size=min(k, len(pool)),
+                                                        replace=False)]
+    sample = take(pos, n_sample // 2) + take(neg, n_sample // 2)
+    arts = {(a["family"], a["artifact_id"]): a for a in load_corpus()}
+    rows = []
+    for r in sample:
+        text = arts[(r["family"], r["artifact_id"])]["text"]
+        base = BUILD_SUFFIX.sub("", r["instruction"])
+        resp = call_reader(ADJUDICATE_PROMPT.format(ins=base, text=text))
+        m_v = re.search(r"VERDICT:\s*(realized|unrealized|ambiguous)", resp or "", re.I)
+        rv = m_v.group(1).lower() if m_v else None
+        rows.append({**r, "reader_verdict": rv,
+                     "agree": rv == ("realized" if r["realized"] else "unrealized")})
+        print(f"{r['artifact_id']}[{r['instruction_index']}] mech="
+              f"{'realized' if r['realized'] else 'unrealized'} reader={rv}")
+    n = len(rows)
+    over = sum(1 for r in rows if not r["realized"] and r["reader_verdict"] == "realized")
+    under = sum(1 for r in rows if r["realized"] and r["reader_verdict"] == "unrealized")
+    n_neg = sum(1 for r in rows if not r["realized"])
+    n_pos = n - n_neg
+    summary = {"n": n, "seed": seed,
+               "agreement": round(sum(1 for r in rows if r["agree"]) / max(n, 1), 4),
+               "over_credit_rate": round(over / max(n_neg, 1), 4),
+               "under_credit_rate": round(under / max(n_pos, 1), 4),
+               "ambiguous_rate": round(sum(1 for r in rows
+                                           if r["reader_verdict"] == "ambiguous")
+                                       / max(n, 1), 4),
+               "note": "over_credit_rate is the share of mechanically UNREALIZED "
+                       "assignments the reader calls realized -- the direction that "
+                       "would corrupt stage (c) ground truth; approx-grade mechanical "
+                       "verdicts are themselves proxies, so disagreement on approx rows "
+                       "is reported but only exact-grade rows are decisive",
+               "agreement_exact_grade_only": round(
+                   sum(1 for r in rows if r["grade"] == "exact" and r["agree"])
+                   / max(sum(1 for r in rows if r["grade"] == "exact"), 1), 4)}
+    (OUT / "reader_validation.json").write_text(json.dumps(
+        {"summary": summary, "rows": rows}, indent=1), encoding="utf-8", newline="\n")
+    print(json.dumps(summary, indent=1))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--mechanical", action="store_true")
     ap.add_argument("--reader", choices=("qwen", "llama"))
+    ap.add_argument("--validate", action="store_true")
     args = ap.parse_args()
     if args.mechanical:
         run_mechanical()
     elif args.reader:
         run_reader(args.reader)
+    elif args.validate:
+        run_validate()
     else:
-        ap.error("pass --mechanical or --reader FAMILY")
+        ap.error("pass --mechanical, --reader FAMILY, or --validate")
 
 
 if __name__ == "__main__":

@@ -1323,6 +1323,16 @@ STAGES += [
      "needs": ["results/g158/realization_mechanical.json"],
      "why": "G158 realization adjudication, held-out family: same adjudicator across "
             "families so the cross-family comparison is instrument-constant"},
+    {"name": "g158_reader_validate", "est": 30,
+     "cmd": [PY, "runners/run_g158_adjudicate.py", "--validate"],
+     "produces": "results/g158/reader_validation.json",
+     "needs": ["results/g158/realization_reader_qwen.json",
+               "results/g158/realization_reader_llama.json"],
+     "why": "G158 adjudicator validation: the reader re-judges a stratified sample of the "
+            "mechanically decidable assignments blind, and the over-credit rate (reader "
+            "realized where the exact string test says unrealized) gates whether stage "
+            "(c) may consume reader verdicts; the live arms' zero ambiguous calls made "
+            "this the binding check"},
 ]
 
 # ── EVENING RESTOCK 2026-08-16: the wqd hard gate landed 0.8293 vs printed 0.830 (seven
@@ -1348,7 +1358,8 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g131_gen_qwen", "g131_gen_llama",
                     "g129_recovery", "g129_blind", "g129_shuffle", "g129_brief",
                     "g129_source", "g129_unchanged", "g129_recovery_matched",
-                    "g129_blind_matched", "g158_reader_qwen", "g158_reader_llama"}
+                    "g129_blind_matched", "g158_reader_qwen", "g158_reader_llama",
+                    "g158_reader_validate"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

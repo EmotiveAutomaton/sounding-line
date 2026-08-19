@@ -318,6 +318,17 @@ L132 (a shuffle gate that voided the alternative's own signature).
 - **Encoder/library version drift is usually small** (≤0.3 points across sentence-encoder
   checkpoints; ≤0.3 across tree-method variants) — measure it before blaming it. (L85)
 
+- **A model adjudicator is a ruler and gets the ruler treatment: validate on a decidable
+  subset before consuming a single verdict.** The G158 realization adjudicator (local
+  reader, temperature 0, required evidence spans, an explicit honest-no option) credited
+  69% of instructions an exact string test proves were ignored, never used its ambiguous
+  option in 636 judgments, and produced verbatim spans that did not satisfy the
+  instruction they were quoted for. Acquiescence has a signature: near-zero under-credit
+  beside massive over-credit. Requiring evidence is not the same as requiring the evidence
+  to discriminate; the validation must be stratified toward the negative class, and it
+  runs BEFORE the adjudication arms, not after (here it ran after and voided 556 landed
+  verdicts). (L139)
+
 ## §5. Before queueing or touching the loop infrastructure
 
 - **Every stage carries a `produces` guard**; one without it re-ran 160 minutes per pass. **And
