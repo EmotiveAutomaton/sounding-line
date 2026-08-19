@@ -1399,6 +1399,48 @@ STAGES += [
             "read, H-B at its pre-committed tier"},
 ]
 
+# ── PHASE 2.1.5 CORPUS 2026-08-19 midday (G159, the rebuilt factorial; appended at the
+# END of the stage list per the same-day ownership lesson): paired rewrites of the
+# recorded G131 bases with realization crossed as R+/R- arms; the audit stage gates the
+# corpus on its own exact-grade realization before any recovery study preregisters.
+STAGES += [
+    {"name": "g159_gen_qwen", "est": 180,
+     "cmd": [PY, "runners/run_g159_gen.py", "--family", "qwen"],
+     "produces": "corpora/g159_rebuild/qwen/manifest.json", "needs": [],
+     "why": "G159 rebuild corpus, seen family: 80 instructed/uninstructed rewrite pairs "
+            "of the recorded bases, realization as the arm"},
+    {"name": "g159_gen_llama", "est": 180,
+     "cmd": [PY, "runners/run_g159_gen.py", "--family", "llama"],
+     "produces": "corpora/g159_rebuild/llama/manifest.json", "needs": [],
+     "why": "G159 rebuild corpus, held-out family: identical instruction draws and "
+            "identical bases-by-topic, so family stays a clean factor"},
+    {"name": "g159_audit", "est": 10,
+     "cmd": [PY, "runners/run_g159_gen.py", "--audit"],
+     "produces": "corpora/g159_rebuild/realization_audit.json",
+     "needs": ["corpora/g159_rebuild/qwen/manifest.json",
+               "corpora/g159_rebuild/llama/manifest.json"],
+     "why": "G159 self-gate: mechanical realization on R+ must clear 0.5 exact-grade or "
+            "the corpus repeats the G131 defect and the recovery study does not proceed; "
+            "R- counterfactual rates land beside the L138 base rates"},
+]
+
+# ── OWED-RUNNER WAVE 2026-08-19 (his directive: G94/G97/L56 plus the 2.1 buildables;
+# G97 and the L56 settle ran inline at build time, CPU): G94 is the queued GPU pair.
+STAGES += [
+    {"name": "g94_taramsa_gpu", "est": 60,
+     "cmd": [PY, "runners/run_g94_taramsa.py", "--arm", "gpu"],
+     "produces": "results/g94/gpu_done.json", "needs": [],
+     "why": "G94 Taramsa arms: fabrication on rung-0 (does the reader invent specs where "
+            "none were given), recovery and blind per rung on reconstructed ground truth "
+            "(join-checked against recorded prompt word counts before any call)"},
+    {"name": "g94_taramsa_summarize", "est": 5,
+     "cmd": [PY, "runners/run_g94_taramsa.py", "--arm", "summarize"],
+     "produces": "results/g94/taramsa.json",
+     "needs": ["results/g94/gpu_done.json"],
+     "why": "G94 scoring: echo bar on identical candidate sets, per-rung dose tables, "
+            "the Taramsa fabrication number"},
+]
+
 # ── EVENING RESTOCK 2026-08-16: the wqd hard gate landed 0.8293 vs printed 0.830 (seven
 # ten-thousandths; L128) and easy landed 0.9535 vs 0.958. The fine-tune verdict rule
 # (standing ruling 3, the referee refinement) grades on the three-seed interval, so both
@@ -1419,6 +1461,7 @@ for _d, _s in (("hard", 43), ("hard", 44), ("easy", 43), ("easy", 44),
 # ("the card only briefly" is first gear's own contract).
 _GPU_HEAVY_PREFIXES = ("pan_", "pan25_", "sw_", "scholawrite_", "gen_fiction")
 _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen_llama",
+                    "g159_gen_qwen", "g159_gen_llama", "g94_taramsa_gpu",
                     "g131_gen_qwen", "g131_gen_llama",
                     "g129_recovery", "g129_blind", "g129_shuffle", "g129_brief",
                     "g129_source", "g129_unchanged", "g129_recovery_matched",
@@ -1509,7 +1552,13 @@ def main() -> None:
     def save() -> None:
         _status_path().write_text(json.dumps(state, indent=2), encoding="utf-8", newline="\n")
 
-    mine = [s for i, s in enumerate(STAGES) if i % SHARDS == SHARD]
+    # ownership by stable NAME digest, never list index: inserting a stage mid-list under a
+    # live lineage used to re-own every later stage between passes, and a blocked stage
+    # launched twice under old and new owners (2026-08-19, the duplicate shuffle arms;
+    # LESSONS §5). md5 because Python hash() is process-salted (the G131 seed lesson).
+    import hashlib as _hl                                              # noqa: PLC0415
+    own = lambda s: int(_hl.md5(s["name"].encode()).hexdigest(), 16) % SHARDS  # noqa: E731
+    mine = [s for s in STAGES if own(s) == SHARD]
     if a.no_gpu:
         held = [s["name"] for s in mine if s.get("gpu")]
         mine = [s for s in mine if not s.get("gpu")]

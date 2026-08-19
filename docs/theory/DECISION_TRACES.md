@@ -153,7 +153,7 @@ direction**. The movement is attention reallocating across sub-goals, whichever 
 |---|---|---|
 | **PD-1** | Depth-side quantities show smaller between-position variance than polish-side quantities | **VOID as operationalised (test, L53/L55), with the route closed in principle.** The first valid pass ran inverted; the matched null then showed the inversion was per-window sampling noise, and the algebra shows dispersion statistics cannot measure movement at all, since variance is order-invariant and the shuffle ratio cannot exceed one for any data. A movement claim needs an order-sensitive statistic or the program's event level. Not a negative result about the claim; the instrument class was wrong for the question |
 |   | | *(instrument history: v1 scored zero essays on a mis-sized cache and verdicted anyway; v2's z-scored variance was 1 by construction; v3 gated and ran inverted; v3b's matched null exposed the in-principle void and one of its own verdict branches as unreachable)* |
-| **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic, and the boundness follows the author | **SUPPORTED (test), decomposed (L55, L57), replicated on books (L71) and across window sizes (L89).** Between-essay share 20% against 8%, and the decomposition lands MAKER: author shares 0.262 against 0.174 (p = 6 × 10⁻⁷) while draft-within-author shares are small and identical (0.04 apiece, p = 0.98). Polish-side variation carries *who*, on 86 authors at fixed topic; draft stage carries almost nothing on either side. On the 10-author book corpus the polish side carries three times the depth side's author-bound share (p = 3 × 10⁻⁷ at the 80-word window, p = 4 × 10⁻⁶ at the 40-word), with author and topic confounded there by construction, so only the contrast transfers. Two corpora, two window sizes, no exceptions |
+| **PD-33** | Polish-side features are more essay-bound than depth-side features at fixed topic, and the boundness follows the author | **SUPPORTED (test), decomposed (L55, L57), replicated on books (L71) and across window sizes (L89).** Between-essay share 20% against 8%, and the decomposition lands MAKER: author shares 0.262 against 0.174 (p = 6 × 10⁻⁷) while draft-within-author shares are small and identical (0.04 apiece, p = 0.98). Polish-side variation carries *who*, on 86 authors at fixed topic; draft stage carries almost nothing on either side. On the 10-author book corpus the polish side carries three times the depth side's author-bound share (p = 3 × 10⁻⁷ at the 80-word window, p = 4 × 10⁻⁶ at the 40-word), with author and topic confounded there by construction, so only the contrast transfers. The hierarchical refit (test, L142) confirms the reading with author as a random effect: the polish composite carries ten times the depth composite's author-level variance (intraclass correlation 0.29 against 0.19 with the depth component at the estimation boundary), so the claim survives proper clustering rather than resting on pooled windows. Two corpora, two window sizes, one mixed-model confirmation, no exceptions |
 | **HH-3 / L39** | The reader's own affective series moves more within human artifacts than machine ones | **DEFLATED TO REGISTER PLUS FAMILY (test, L39 then L101), and at four families the instrument DISSOCIATES from the artifact-side sign (test, L105).** Register-matched, book-level trajectory mobility belongs to qwen-instruct alone (parity with books, p = 0.58); the other three families sit flat (down to p < 10⁻⁴; the llama-instruct cell is n = 3 and permanently underpowered, the top-up having failed at two length floors because the model cannot write chapters that long), while on the artifact side three of the same four families rise. The provenance reading is dead; the lockstep-with-the-sign reading died at its own extension; what the reader's trajectory tracks is a different family structure than the surface trend, and the two instruments report separately from here |
 |   | | *(this row's history is a first-pass human-moves on 08-09, deflated to family on 08-13, and the lockstep reading killed by the four-family arm on 08-14)* |
 | **S-6** | Practised polish decays faster than depth | **SUPPORTED (sim)** at 6.5×, with synthetic polish **flat** |
@@ -182,8 +182,11 @@ model). Each instrument reports separately, and provenance use of any of them st
 The register-geography rival stays weakened; reallocation keeps its human evidence,
 undemonstrated as mechanism; G146's question is now about that one model, namely what makes
 its output positionally mobile on every instrument while every other cell is conditional.
-The maker-signature half of the section is untouched by all of it: polish-side features
-carry the author at fixed topic on two corpora and two window sizes with no exceptions.
+The maker-signature half of the section is untouched by all of it and now hierarchically
+confirmed: polish-side features carry the author at fixed topic on two corpora and two
+window sizes with no exceptions, and under a mixed model with authors as random effects the
+polish composite holds ten times the depth composite's author-level variance, so the claim
+rests on clustered inference rather than pooled windows.
 The family's reframe (movement as motivation-shift sampling rather than depth) now has one
 license and one boundary: where motivation shifts are real by construction, a window-local
 sampler carrying per-step likelihoods finds nine of ten of them at the fitted human
@@ -430,7 +433,7 @@ deaths turned out to belong to a broken control, not to the features.**
 | **PD-22** | Causal connectives track depth | **REJECTED (test).** Ranked the ladder, then inverted on humans; it measures explicitness |
 | **G116** | Specified dose adds description length, the essays' Kolmogorov claim | **REJECTED (test, L29).** Incompressibility flat across all rungs; human long-form matches machine text at matched length |
 | **PD-23** | A larger feature bank beats a small curated set | **REJECTED (sim).** Sixty generic features gain little and lose more in the worst case |
-| **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, first attempt NULL (test, L125), stacking RE-GATED (test, L137).** The first real stack, 158 surface-change channels concatenated into a style-change classifier's head, did not beat the substrate and doubled its seed variance, exactly the outcome the L4 conditions exist to catch (beat the best component on held-out data, with different errors). Choice recovery replicated strongly (L132) but the confirmatory label demoted under the run's own gate terms, so stacking now waits on the four Phase 2.1 gates in the evaluation contract: artifact-only recovery of realized choices above a matched floor, transfer to the held-out family, survival of cheap length and surface baselines, and correct localization with abstention. The standing warning holds: stacking shared confounds produces a strong confound |
+| **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, first attempt NULL (test, L125), stacking RE-GATED (test, L137).** The first real stack, 158 surface-change channels concatenated into a style-change classifier's head, did not beat the substrate and doubled its seed variance, exactly the outcome the L4 conditions exist to catch (beat the best component on held-out data, with different errors). Choice recovery is now confirmed at confirmatory grade (L141 after the L137 demotion arc), but stacking still waits on the four Phase 2.1 gates in the evaluation contract, and the exploratory reads split them: family transfer and abstention behave (gates 2 and 4), the echo contest is open at eleven points over a 0.80 bar (gate 3), and artifact-only recovery of REALIZED problem-directed choices (gate 1) is unmeasurable until the rebuilt factorial supplies verified realization. The standing warning holds: stacking shared confounds produces a strong confound |
 | **rung −1** | No measure reads noise as maximum intent | **SUPPORTED (test).** The only ceiling control in the project |
 
 **What the table says.** Every cheap property of a text that correlates with dose also correlates
@@ -442,7 +445,10 @@ now carries its first real datum, a preregistered null: concatenating a wide sur
 into a strong classifier's head bought nothing but variance, so the stack the section eventually
 builds starts from the change-feature block and adds channels only when their errors differ, and
 it starts only after the four repair gates clear, since the block reads both versions of a text
-and therefore lives in the paired-delta interface, not the final-artifact one. What none of it
+and therefore lives in the paired-delta interface, not the final-artifact one. Two of those
+gates behave in exploratory form (family transfer, abstention), one is an open contest (eleven
+points over a 0.80 word-echo bar), and the decisive one, recovery of verified-executed choices
+from the artifact alone, waits on the rebuilt factorial. What none of it
 licenses is a claim about human intent or depth, since dose is instruction count to one
 generator; the program's factorial benchmark is the construct test, and its first corpus is
 exploratory until realization is adjudicated. The funnel's own history, direct counts falling to
@@ -461,28 +467,36 @@ all fixed by construction.**
 | **PD-26** | Something measurable changes as one person redrafts | **SUPPORTED (test, L5), one coherent thing.** At matched length, revision raises lexical sophistication (longer, rarer, more polysyllabic words, fewer stopwords), one factor under six names, sign agreement 70 to 78% across authors |
 | **PD-27** | That effect is length | **REJECTED (test), the trap fired as pre-registered.** Raw survivors were all counts; length-matched, 17 of 315 and none of them counts |
 | **PD-28** | The surviving effect is polish, not depth | **SUPPORTED (test, L42/L66), the matched control decided it.** With content and surface revisions balanced on size, rarity shift, position, and difficulty (coarsened exact matching, balance verified), content identifiability collapses from 0.857 to 0.507 against 0.5 chance. Within common support, the content-associated lexical effect *was* its covariates: sophistication and magnitude, not recoverable depth. Scope: the matched fifth of the corpus, which is where comparable revisions live |
-| **G129** | Recorded revision purposes are recoverable from the delta by a bounded reader, beyond matched alternatives and beyond a cheap change-feature baseline | **STRONG REPLICATION, CONFIRMATORY GRADE OWED TO A FRESH RUN, WITH THE BASELINE WINNING THE INSTRUMENT CONTEST (test, L132; demoted under the card's own terms at L137; pilot chain L62/L64/L65).** On the preregistered battery (shared manifest, exhaustive bands): full-set recovery 0.4854 against the analytic 0.25 floor (REPLICATES); the matched draw, truth-balanced per L126, holds 0.4148 against its restored analytic floor (16.5 points, held at the pilot evidence tier by the card's power clause, n 176 of the powered 283); blind arms at chance; brief-alone 0.274 and source-alone 0.305, so context and topic supply little and the delta supplies the rest; fabrication rate 0.000 on two hundred no-op deltas with the symmetric control missing 1 of 200. The 19-dim change block beats the zero-shot reader head to head (0.5552, exact McNemar p = 0.0097), so the delta-interface features build on the block while the reader supplies the abstention behavior the block cannot. The shuffle gate fired VOID as written (0.110 against a stated 0.25); the corrected expectation (~0.125, the delta-tracking signature) was derived after the result, which repairs the next card but denies this run confirmatory grade. The fresh battery (G129b) carries both expectations and a direction on every gate |
+| **G129** | Recorded revision purposes are recoverable from the delta by a bounded reader, beyond matched alternatives and beyond a cheap change-feature baseline | **CONFIRMED AT CONFIRMATORY GRADE ON THE SECOND, CORRECTLY-GATED RUN, WITH THE BASELINE WINNING THE INSTRUMENT CONTEST TWICE (test, L141 confirming L132; the demotion arc L137; pilot chain L62/L64/L65).** The first battery replicated recovery (0.4854 vs the analytic 0.25) but voided its own shuffle gate on a misspecified expectation and was demoted under its card's terms. The fresh battery (`prereg/g129b.py`, seed 37, every gate carrying null and alternative expectations with a direction) landed all gates quiet: recovery 0.4805 (REPLICATES, seed-stable to half a point), the balanced matched draw 0.415 (16.5 points, pilot tier as pre-committed at 200 of the powered 283 after the one specified caliper relaxation), the shuffle arm 0.1136 beside its frozen 0.125 alternative expectation, fabrication 0.000 twice (L132 1-of-200 sym miss; L141 0-of-200), and the change block beating the reader both times (0.5552 then 0.5471; McNemar p = 0.0097 and 0.0157). Scope: one corpus, one reader family; delta-interface only (the block reads both versions) |
+| **G158c** | A bounded reader identifies which instruction produced an essay from the essay alone | **SPLIT CLEANLY IN TWO (test, L140, exploratory).** On surface constraints whose satisfaction a string test verifies at 1.0, truth-balanced recovery is 0.25, exactly chance, while pure word-echo scores 0.375: the zero-shot reader does not check constraint satisfaction, it picks semantic familiarity, and its raw 0.41 was label frequency (collapses under balancing while echo rises). On problem-pool assignments it clears the word-echo bar by 11 points in both the seen and held-out family (0.909 vs 0.798), a transferring margin the corpus cannot decompose into executed choices versus assignment vocabulary leaking into the essay (echo alone reads assignment at 0.80). Fabrication clean in forced choice with an explicit none option (0.05), the same reader that over-credits 0.69 in yes/no verification (L139): the format is the instrument |
+| **G94** | Spec-style reconstruction posits decisions that were not there (the Taramsa failure) | **BOUNDED IN THE HONEST FORMAT (test, L143, exploratory).** On the ladder, where every true specification is reconstructable and join-checked, the reader given an explicit none option invented a specification on 1 of 10 unspecified texts, recovered real specifications at 0.52 against a 0.225 blind floor and a flat 0.40 word-echo bar, and its per-spec accuracy fell from 0.77 at three specifications to 0.44 at ten while echo stayed flat: dilution of trace, not vocabulary leakage. The same reader over-credits at 0.69 in yes/no verification (L139), so the fabrication risk is a property of the ASKING FORMAT, not a fixed property of the reader |
 | **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73), the raised floor DECOMPOSED (test, L126).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither. The floor's rise is 87% label-marginal alignment: matching reweighted the truth labels toward the ones the blind reader guesses by default, no text information involved, so the delta-specific remainder stands against a compositional floor rather than a covariate-information one. Owed: the powered matched replication, now the G129 confirmatory battery, whose matched draw truth-balances within common support to restore the analytic floor |
 
-**What the table says.** Recorded purposes are recoverable from the delta, and the claim stands
-at strong-replication grade with confirmatory grade owed: recovery far above an analytic floor
-at power, a matched-and-balanced margin twice the collision's ambiguous eight points held at
-the pilot tier by its own power clause, context and topic arms showing the information lives in
-the delta, and a reader that asserted a purpose on exactly zero unchanged sentences, which is
-the fabrication bound every downstream use inherits. The battery's one voided gate is why the
-grade is not confirmatory: a run whose own control fired cannot be promoted by an explanation
-written after the result, however sound the explanation, so the fresh battery settles it. The
-instructive residue is the instrument contest: nineteen surface measures of what changed beat
-the language-model reader head to head on identical events, so recoverability of the choice
-and the best reader of the choice are different questions with different answers, and the
-representation starts from the feature block while the reader contributes calibrated refusal,
-with the block confined to interfaces that see both versions of the text since it reads
-nothing else. What the battery cannot say is whether any of this tracks decision structure
-rather than this corpus's particulars; that construct question belongs to the factorial
-benchmark, whose first corpus turned out to record what was asked rather than what was done
-(checkable instructions executed at 0.586, and trivial features read the instruction-type
-axis at 0.95, L138) and is exploratory until realization is adjudicated, with any recovery
-claim owing its margin above that measured trivial-feature bar. The hurried-versus-careful commission
+**What the table says.** Recorded purposes are recoverable from the delta at confirmatory
+grade, earned the hard way: the first battery replicated and then lost its label to its own
+misspecified gate, and the second battery, gated correctly from birth, landed every control
+quiet with recovery seed-stable to half a point. The claim's shape is now firm. Given the
+old and new text, purpose recovery stands far above an analytic floor with a fabrication
+bound of zero, twice; the matched margin holds at sixteen points but only at pilot power,
+its permanent caveat; and nineteen surface measures of what changed beat the language-model
+reader on identical events in both runs, so the representation starts from the feature block
+while the reader contributes calibrated refusal, confined to interfaces that see both
+versions of the text. Given only the finished artifact, the same reader recovers nothing it
+can be proven to owe: chance on mechanically verifiable constraints once frequency is
+balanced away, and an eleven-point transferring margin over word-echo on semantic
+assignments that the exploratory corpus cannot split into executed choices versus leaked
+assignment vocabulary. The reader is a semantic-correspondence instrument, not a constraint
+verifier, and its honesty is format-bound: near-zero fabrication in forced choice with a
+none option (one invention in ten even on thousand-word unspecified texts, with real
+specifications recovered twelve points above the word-echo bar and diluting as
+specifications multiply), massive over-credit in yes/no verification. The construct question — whether
+any of this tracks decision structure rather than corpus particulars — now has its design
+constraints measured (echo equalized by construction, consequence-matched decoys,
+mechanical scoring for formal constraints) and belongs to the rebuilt factorial. The
+hurried-versus-careful commission remains the designed extension. Confidence: the
+paired-delta recovery claim is replicated and controlled (two batteries, gates quiet; scope
+one corpus, one reader family); the artifact-only reads are one bad test away, exploratory
+by declaration; the collapse and floor decomposition stand as before. The hurried-versus-careful commission
 remains the designed extension. Confidence: the replication is one bad test away pending the
 fresh confirmatory run; the collapse and the floor decomposition stand as before.
 

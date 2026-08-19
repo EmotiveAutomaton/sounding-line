@@ -34,6 +34,16 @@ def release_gpu_lock() -> None:
 def acquire_gpu_lock(tag: str = "") -> None:
     GPU_LOCK.parent.mkdir(parents=True, exist_ok=True)
     while True:
+        # reentrant by pid: a process re-acquiring under a new tag already owns the card.
+        # Without this, a runner taking per-arm locks deadlocks on ITSELF (five hours of
+        # a live gear window, 2026-08-19; LESSONS §5)
+        try:
+            holder = GPU_LOCK.read_text(encoding="utf-8").split()
+            if holder and int(holder[0]) == os.getpid():
+                GPU_LOCK.write_text(f"{os.getpid()} {tag}", encoding="utf-8")
+                return
+        except (OSError, ValueError):
+            pass
         try:
             fd = os.open(GPU_LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
             os.write(fd, f"{os.getpid()} {tag}".encode())

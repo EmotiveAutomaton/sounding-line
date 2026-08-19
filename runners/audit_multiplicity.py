@@ -99,6 +99,11 @@ TESTS = [
     ("L138 G158 target from all combined", 0.0050, "diagnostic", "results/g158/baselines.json"),
     ("L138 G158 amount from length",      0.8657, "diagnostic", "results/g158/baselines.json"),
     ("L138 G158 amount from all combined", 0.0050, "diagnostic", "results/g158/baselines.json"),
+    ("L141 G129b reader-vs-block McNemar", 1.571e-02, "primary", "results/g129b/verdict.json"),
+    # L142 G97: the intercept p is VOID-BY-CONSTRUCTION (pool z-scoring forces the mean
+    # to zero); registered as diagnostic so the quoted number is on the ledger with its label
+    ("L142 G97 diff intercept (void-by-construction)", 0.8702, "diagnostic",
+     "results/g97/maker_effect.json"),
     ("L74 PD-34 books movement split",    1.263e-05, "primary", "results/positional_polish/pd34_books.json"),
     ("L74 PD-34 essays movement split",   4.207e-01, "primary", "results/positional_polish/pd34_argrewrite.json"),
     ("L89 PD-3 machine movement",         2.015e-06, "primary", "results/positional_polish/pd3_ladder3.json"),

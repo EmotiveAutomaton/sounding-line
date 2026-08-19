@@ -148,8 +148,13 @@ applied), fabrication is 0.000 on no-op deltas, and the 19-dim change block beat
 zero-shot reader head to head. But the shuffle gate fired VOID under the card's own terms
 (0.110 vs a misspecified 0.25 expectation; the corrected label-marginal expectation ~0.125
 was derived after seeing the result, so it repairs the next card, not this run's grade).
-Confirmatory grade requires the fresh G129b battery. The gate is NOT formally met; the
-evidence underneath it keeps its standing (L132 + L137).**
+Confirmatory grade requires the fresh G129b battery. **CURED SAME WEEK (L141, 2026-08-19
+afternoon): G129b ran with every gate carrying both expectations and a direction from
+freeze, all gates landed quiet (shuffle 0.1136 beside its frozen 0.125 alternative
+expectation), recovery replicated seed-stable (0.4805), fabrication 0.000 again, the
+change block beat the reader a second time — confirmatory grade EARNED and the 2.0D
+real-text gate is formally MET, scope one corpus one reader family, matched arm at its
+pre-committed pilot tier (200 of 283 after the one specified caliper relaxation).**
 
 **Phase 2.1 is DECLARED (2026-08-19, his naming): the repair-and-foraging phase between
 the 2.0D evidence and any stacking. Sub-items 2.1.1 to 2.1.6 in `TODO.md`: reclassification
@@ -161,6 +166,25 @@ G129b fresh confirmatory, the decisive G131 rebuild on paired base material, and
 benchmark human-negative repair. Stacking (2.0F) re-gates behind the four Phase 2.1
 decision gates now written into the contract. The free-path pilot corpus (240
 process-recorded artifacts, two local lineages) remains complete at zero dollars.**
+
+**Phase 2.1 execution status (2026-08-19, same day):** the foraging battery's first
+stages landed and cut deep — checkable realization 0.586 (L138), cheap features read the
+factorial target axis at 0.95 (L138), and the reader adjudicator FAILED its validation
+(L139: over-credit 0.688 on exact-grade rows; a yes-machine in verification format,
+honest in forced choice — realization ground truth is mechanical-only). Stage (c)
+recovery runs on the mechanical exact-grade subset with verified-unsatisfied decoys.
+`prereg/g129b.py` is frozen with directional gates carrying both expectations; its
+manifest's pre-committed caliper relaxation fired (matched 200 of the powered 283), so
+H-B runs at the pilot tier declared BEFORE any arm ran. **Both batteries LANDED same day:
+G129b all-gates-quiet, confirmatory EARNED (L141). Stage (c) split (L140): the reader is
+chance on mechanically verified surface constraints once truth-balanced (word-echo beats
+it, 0.375 vs 0.25) but clears the problem-pool echo bar by 11 points in BOTH families
+(0.909 vs 0.798) — a transferring margin the exploratory corpus cannot split into
+executed choices versus assignment-vocabulary leak. Stacking gate 1 (realized
+problem-directed recovery, artifact-only) is unmeasurable until the 2.1.5 rebuild;
+gates 2/4 behave; gate 3 is the open contest. The rebuild's design constraints are now
+measured: echo equalized by construction, consequence-matched decoys, mechanical scoring
+for formal constraints, forced-choice-with-none formats only (L139/L140).**
 
 **The artifact-side science meanwhile (the movement family, settled at four generator
 families):** rising positional polish is the machine default (3 of 4 base × post-training
@@ -177,6 +201,12 @@ survive the fair induction control on the two strong ladders (G76/L94).
 
 ## Queue / infrastructure state
 
+- **Two infra defects found and structurally fixed 2026-08-19 (LESSONS §5, both):** the GPU
+  lock self-deadlocked a runner that acquired per arm (five hours of a live window; the lock
+  is now reentrant by pid and runners acquire once per invocation), and shard ownership by
+  list index re-owned stages when the list changed under a live lineage (a blocked stage
+  launched under two owners; ownership now digests the stage name). No data lost either time:
+  checkpoints carried every resume.
 - **Engines:** first gear `run_first_gear.sh` (serial), second gear `run_second_gear.sh
   [hours] [workers]` (sharded; locks `.gear1.lock`/`.gear2.lock`, winpid line 2; legacy lock
   paths still checked). Kill by winpid tree; sweep orphans; standalone GPU arms need queue

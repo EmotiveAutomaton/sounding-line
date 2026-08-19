@@ -1,26 +1,14 @@
 {
-  "started": "2026-08-19 05:38",
+  "started": "2026-08-19 15:18",
   "stages": [
     {
-      "name": "revision_purpose",
-      "why": "PD-28: polish or the first depth signal on human text \u2014 the labels were on disk all along",
-      "est_minutes": 12,
+      "name": "feature_visibility",
+      "why": "G87: low-visibility features carry who, high-visibility carry what",
+      "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "positional_polish",
-      "why": "PD-1 at last: the definitional polish/depth test \u2014 the file's own falsifier",
-      "est_minutes": 5,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "reader_convergence3",
-      "why": "G114b: judge-rated goal similarity + fixed-topic dose \u2014 the discriminator, rebuilt",
-      "est_minutes": 80,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "coherence_v2_pythia-1.4b",
+      "name": "coherence_v2_SmolLM2-360M",
       "why": "G105: the rebuilt agreement statistic, known-answer gated \u2014 re-adjudicates G33",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
@@ -32,13 +20,13 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "block_contribution_Qwen2.5-1.5B",
+      "name": "block_contribution_pythia-1.4b",
       "why": "G126: write norm, affect work, d-prime \u2014 the defensible per-block quantities",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "block_contribution_SmolLM2-360M",
+      "name": "block_contribution_Qwen2.5-0.5B",
       "why": "G126: write norm, affect work, d-prime \u2014 the defensible per-block quantities",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
@@ -56,27 +44,21 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "control_subspaces_pythia-1.4b",
-      "why": "G43: is the early break affective or the input adapter's edge?",
-      "est_minutes": 12,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "subspace_v2_SmolLM2-360M",
+      "name": "subspace_v2_Qwen2.5-0.5B",
       "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "control_subspaces_gpt2-large",
+      "name": "control_subspaces_gpt2-xl",
       "why": "G43: is the early break affective or the input adapter's edge?",
       "est_minutes": 12,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "subspace_v2_gpt2-xl",
-      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
-      "est_minutes": 5,
+      "name": "control_subspaces_pythia-410m",
+      "why": "G43: is the early break affective or the input adapter's edge?",
+      "est_minutes": 12,
       "status": "SKIPPED (already done)"
     },
     {
@@ -86,27 +68,21 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "subspace_v2_SmolLM2-1.7B",
-      "why": "G111: regenerate under the rank-truncated basis and distant-matched null",
-      "est_minutes": 5,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "binary_powered_SmolLM2-360M",
+      "name": "binary_powered_Qwen2.5-0.5B",
       "why": "G21b map: where does the presence peak sit, family by family?",
       "est_minutes": 40,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "binary_powered_gpt2-large",
+      "name": "binary_powered_Qwen2.5-3B",
       "why": "G21b map: where does the presence peak sit, family by family?",
       "est_minutes": 40,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "binary_powered_pythia-2.8b",
-      "why": "G21b map: where does the presence peak sit, family by family?",
-      "est_minutes": 40,
+      "name": "arg_extract",
+      "why": "G136 input: every labelled revision as a choice event -- also G129's dataset",
+      "est_minutes": 10,
       "status": "SKIPPED (already done)"
     },
     {
@@ -116,9 +92,15 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "arg_reader_23_coarse",
-      "why": "G136: reader arm, second revision cycle, coarse",
+      "name": "arg_reader_12_coarse",
+      "why": "G136: reader arm, first revision cycle, coarse -- checkpointed, resumes across passes",
       "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_reader_12_fine",
+      "why": "G136: reader arm, first cycle, fine purposes",
+      "est_minutes": 110,
       "status": "SKIPPED (already done)"
     },
     {
@@ -128,9 +110,15 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "argrec_matched_blind",
-      "why": "G130c control: the matched subset's own blind floor",
-      "est_minutes": 35,
+      "name": "arg_matched_control",
+      "why": "G130b: the decisive lexical-matching control -- does 'content' survive matching?",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scholawrite_download",
+      "why": "G141 input: the dataset, schema dumped, fail-loudly on surprise",
+      "est_minutes": 25,
       "status": "SKIPPED (already done)"
     },
     {
@@ -140,21 +128,21 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "argrec_fine_k4u_recovery",
-      "why": "G129-pilot-b: uniform candidates -- the prior-leak fix (L62)",
+      "name": "scholawrite_reader",
+      "why": "G141: zero-shot local reader, the analogue of their 0.13 Llama baseline",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "argrec_fine_k4u_shuffle",
+      "why": "G129-pilot-b control: shuffled truth at chance",
       "est_minutes": 45,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "argrec_coarse_k2_blind",
-      "why": "G129-pilot: the coarse arm's missing blind control",
-      "est_minutes": 40,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "arg_replication",
-      "why": "G136-exact: their features, their USE encoder, their XGBoost grid, their 5-fold -- PASS only at two-decimal match",
-      "est_minutes": 90,
+      "name": "argrec_fine_k12u_recovery",
+      "why": "G129-pilot-b: the candidate-size curve's third point (capped at the label count)",
+      "est_minutes": 55,
       "status": "SKIPPED (already done)"
     },
     {
@@ -164,32 +152,38 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "books_w80_cache",
-      "why": "PD-33 replication input: a second windowed cache with author labels",
+      "name": "argrec_fine_k4_blind",
+      "why": "G129-pilot control: no delta shown -- must sit at chance",
       "est_minutes": 45,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd33_decomposition",
-      "why": "PD-33: does the polish side's essay-boundness follow the author (maker signature) or the draft (state)?",
+      "name": "event_harness_synthetic",
+      "why": "G130: the shared choice-recovery harness must pass five known-answer gates before any real corpus",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder2_pythia-1.4b",
-      "why": "G103: does the fair-control flagship replicate outside the Qwen family?",
+      "name": "binary_salience",
+      "why": "G21: his question -- is layer 0 binary salience? presence-vs-category double dissociation",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder2_gpt2-medium",
+      "why": "G103: fair-control flagship, second independent family",
       "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "induction_v2_ladder2_SmolLM2-360M",
+      "why": "G103: fair-control flagship, third independent family",
+      "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
       "name": "readouts_refresh_Qwen2.5-1.5B",
       "why": "L26: regenerate flagship readout under v2 verdict rules",
-      "est_minutes": 15,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "readouts_refresh_pythia-1.4b",
-      "why": "L26: regenerate under v2 verdict rules (v1 SHIFTS was an argmax crossover)",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
@@ -200,21 +194,9 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "sweep_ladder_Qwen2.5-3B",
-      "why": "G104: fill the 11-family matrix -- first ladder, Qwen 3B",
-      "est_minutes": 25,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "sweep_ladder3_SmolLM2-1.7B",
-      "why": "G104: extreme ladder, SmolLM2 1.7B",
-      "est_minutes": 25,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "sweep_ladder_pythia-2.8b",
-      "why": "G104: first ladder, pythia 2.8b",
-      "est_minutes": 35,
+      "name": "readouts_pythia-410m",
+      "why": "G104: depth readouts, seventh",
+      "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
@@ -224,15 +206,9 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder_SmolLM2-360M",
-      "why": "G103b: SmolLM2 on the first ladder",
+      "name": "induction_v2_ladder_pythia-1.4b",
+      "why": "G103b: pythia was null on the held-out ladder \u2014 null everywhere, or corpus-specific?",
       "est_minutes": 25,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "compression_ladder",
-      "why": "G116: the essays' Kolmogorov and regression-to-the-mean claims, first test",
-      "est_minutes": 3,
       "status": "SKIPPED (already done)"
     },
     {
@@ -242,9 +218,9 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "provenance_framing",
-      "why": "G115: the paper's H1 in the reader \u2014 does the AI label alone move the affective read?",
-      "est_minutes": 45,
+      "name": "nomaker_specrec",
+      "why": "G117: the no-maker control spec recovery never had \u2014 sharper after the echo kill",
+      "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
@@ -254,19 +230,13 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "length_direction_audit",
-      "why": "was length a confound or a suppressor, per measure",
-      "est_minutes": 3,
-      "status": "SKIPPED (already done)"
-    },
-    {
       "name": "induction_v2_ladder_Qwen2.5-0.5B",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder_Qwen2.5-3B",
+      "name": "induction_v2_ladder_gpt2-large",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
@@ -278,25 +248,25 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder2_pythia-410m",
+      "name": "induction_v2_ladder2_Qwen2.5-3B",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder2_gpt2-large",
+      "name": "induction_v2_ladder2_SmolLM2-1.7B",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder3_pythia-2.8b",
+      "name": "induction_v2_ladder3_Qwen2.5-0.5B",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "induction_v2_ladder3_SmolLM2-1.7B",
+      "name": "induction_v2_ladder3_gpt2-large",
       "why": "L28 completion: the family-sign map, all 11 families x 3 ladders",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
@@ -308,21 +278,15 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "layercorr_ladder3_Qwen2.5-3B",
+      "name": "layercorr_ladder3_SmolLM2-1.7B",
       "why": "L12 matrix completion: one of the 8 missing ladder cells",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "layercorr_ladder_gpt2-xl",
-      "why": "L12 matrix completion: one of the 8 missing ladder cells",
-      "est_minutes": 15,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "layercorr_ladder3_pythia-2.8b",
-      "why": "L12 matrix completion: one of the 8 missing ladder cells",
-      "est_minutes": 15,
+      "name": "specrec_ladder_d96",
+      "why": "L19: halve the chance rate on the first ladder (decoys-tagged filename, no overwrite)",
+      "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
@@ -332,32 +296,20 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "provenance_ladder",
-      "why": "G115 replication arm, first ladder",
-      "est_minutes": 30,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "binary_powered_pythia-1.4b",
-      "why": "G21b cross-family, second architecture",
+      "name": "specrec_ladder2_echo25",
+      "why": "G113: graded echo at quarter-overlap",
       "est_minutes": 40,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "nomaker_permutation",
-      "why": "G107: clustered luck or label leak \u2014 the flagship control question, decided by permutation",
-      "est_minutes": 5,
+      "name": "binary_powered_gpt2-medium",
+      "why": "G21b cross-family: is layer-0-as-presence-peak a Qwen fact or an architecture fact?",
+      "est_minutes": 40,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "scholawrite_bert_testsmall",
-      "why": "G141 protocol pin: is the published 0.64 earned on the shipped test_small split?",
-      "est_minutes": 200,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "scholawrite_bert_lopo1",
-      "why": "G141 leak-free protocol: hold out project 1, the number the within-project split cannot supply",
+      "name": "scholawrite_bert_lopo2",
+      "why": "G141 leak-free protocol: hold out project 2, the number the within-project split cannot supply",
       "est_minutes": 200,
       "status": "SKIPPED (already done)"
     },
@@ -368,27 +320,15 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "scholawrite_roberta_lopo2",
-      "why": "G141 leak-free protocol, second architecture, project 2",
+      "name": "scholawrite_roberta_lopo1",
+      "why": "G141 leak-free protocol, second architecture, project 1",
       "est_minutes": 200,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "scholawrite_bert_faithful",
-      "why": "G141 faithful arm: their exact protocol; compare the per-class profile, not one digit",
+      "name": "scholawrite_roberta_faithful",
+      "why": "G141 faithful arm, second architecture",
       "est_minutes": 400,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "arg_v4_balanced",
-      "why": "G136 in-house confirmation: the subagent's run falsified balanced weighting (+0.01-0.02 only); this replicates that in our pipeline",
-      "est_minutes": 45,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "arg_v4_diff_binary",
-      "why": "G136 binary gate: the .93 target is live from the released data and the difference features are untried there; the last binary lever short of encoder archaeology",
-      "est_minutes": 50,
       "status": "SKIPPED (already done)"
     },
     {
@@ -398,31 +338,31 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd34_books_w40",
-      "why": "PD-34 robustness, books at the second window",
-      "est_minutes": 25,
+      "name": "pd33_books_w40",
+      "why": "PD-33 robustness: does the author-share split survive the window choice?",
+      "est_minutes": 10,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd3_machine_ladder3",
-      "why": "PD-3: machine artifacts should show flat polish across position, no maker to reallocate attention",
-      "est_minutes": 25,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "g20_mapping_pythia-410m",
+      "name": "g20_mapping_Qwen2.5-0.5B",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_Qwen2.5-1.5B",
+      "name": "g20_mapping_SmolLM2-360M",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g20_mapping_gpt2-large",
+      "name": "g20_mapping_SmolLM2-1.7B",
+      "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g20_mapping_Qwen2.5-3B",
       "why": "G20a vs G20b, never tested directly: valence/category/beyond-lexicon curves per block, thirds-banded verdict, permutation-gated; the beyond-lexicon rise is G143's handoff candidate",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
@@ -434,27 +374,33 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd2_signed_ladder3",
-      "why": "the account separator: if machine polish also DECAYS the register account gains; if machine rises while humans fall, reallocation regains ground",
+      "name": "pd2_signed_books_w40",
+      "why": "PD-2 robustness: is the decay window-robust where the magnitude asymmetry was not?",
       "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd11_rerun_k20",
-      "why": "PD-11's owed powered re-run per the standing near-significance policy: held out, hyperparameters frozen, fresh seeds, doubled n against the 2.0x bar",
-      "est_minutes": 250,
+      "name": "pd2_signed_argrewrite_w40",
+      "why": "PD-2 robustness, essays at the second window",
+      "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "features_fiction_ds",
-      "why": "sign-funnel input, generator two",
-      "est_minutes": 25,
+      "name": "pd3_ladder3_w40",
+      "why": "PD-3 reversal robustness at the second window",
+      "est_minutes": 20,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pooling_falsifier_v2",
-      "why": "L44 correction: v1 read rungs 0-1 only (rung-ordered manifest truncated at 40); v2 is full-n with a mean-arm reproduce-gate before the other poolings are read",
-      "est_minutes": 75,
+      "name": "pd2_signed_fiction_qwen",
+      "why": "the sign-funnel's decisive cell: does register-matched machine fiction still rise where human fiction falls?",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "nomaker2_gen",
+      "why": "L40 power: 72 more no-maker artifacts, frozen construction, fresh seeds",
+      "est_minutes": 200,
       "status": "SKIPPED (already done)"
     },
     {
@@ -464,15 +410,15 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g107_powered",
-      "why": "L40 was UNDECIDED at 36 artifacts (p=.095/.089); the identical test at 108 with 5000 permutations, per the near-significance policy",
-      "est_minutes": 30,
+      "name": "layercorr_nomaker_ds",
+      "why": "the same reader over the second family's no-maker text \u2014 the shared-representation cell (weakness 6)",
+      "est_minutes": 60,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "features_fiction_ds_r2",
-      "why": "both-rounds cache, generator two",
-      "est_minutes": 40,
+      "name": "g107_powered",
+      "why": "L40 was UNDECIDED at 36 artifacts (p=.095/.089); the identical test at 108 with 5000 permutations, per the near-significance policy",
+      "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
@@ -482,15 +428,21 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "features_fiction_r1l8",
-      "why": "G146 cache: llama-base reasoning cell",
-      "est_minutes": 40,
+      "name": "gen_fiction_g146",
+      "why": "G146 round 0: fifteen chapters each from the llama-base cells of the 2x2",
+      "est_minutes": 260,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd2_signed_fiction_llama",
-      "why": "G146: does llama-base instruct RISE like the qwen-base instruct cell did",
-      "est_minutes": 20,
+      "name": "gen_fiction_g146_r2",
+      "why": "G146 round 1: the powered n per cell, matching the first two families",
+      "est_minutes": 260,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_fiction_r1l8",
+      "why": "G146 cache: llama-base reasoning cell",
+      "est_minutes": 40,
       "status": "SKIPPED (already done)"
     },
     {
@@ -500,15 +452,27 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd2_signed_fiction_ds_w40",
-      "why": "the ds sign cell at the second window; claim nothing from one window",
+      "name": "pd2_signed_fiction_qwen_w40",
+      "why": "the qwen sign cell at the second window; claim nothing from one window",
       "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "features_fiction_r1l8_w40",
+      "why": "window-robustness cache, r1l8 family (the w80-only caveat)",
+      "est_minutes": 30,
       "status": "SKIPPED (already done)"
     },
     {
       "name": "features_fiction_llama_w40",
       "why": "window-robustness cache, llama family (the w80-only caveat)",
       "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd2_signed_fiction_llama_w40",
+      "why": "the llama sign cell at the second window; claim nothing from one window",
+      "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
@@ -524,8 +488,8 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "sw_bert_hfd_s43",
-      "why": "seed 2 of 3: no fine-tune verdict from one seed",
+      "name": "sw_bert_hfd_s44",
+      "why": "seed 3 of 3; the published value is judged against the seed interval",
       "est_minutes": 300,
       "status": "SKIPPED (already done)"
     },
@@ -536,15 +500,21 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "arg_v4_gridmax_binary",
-      "why": "referee: if the published cells are grid maxima, max-over-their-36-point-grid is the like-for-like number for the embedding rows",
-      "est_minutes": 150,
-      "status": "SKIPPED (already done)"
-    },
-    {
       "name": "pan_deberta_headdrop25",
       "why": "scope fork, member 3: fp32 (fp16 overflow), micro-batch 12 x accum 5 after the batch-30 fp32 OOM; the vote's strongest member (.8567 gate)",
       "est_minutes": 300,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "arg_v4_fourblock_binary",
+      "why": "referee route 2 for the embedding rows: the standard [u; v; |u-v|; u*v] pair encoding at the published config. Grid-max over the bare concatenation landed NOT-MATCHED (-.043/-.052), so this is the last unexplored local route",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan25_wqd_easy",
+      "why": "G148 test-set gate 2 of 3: the 2025 winner's printed easy test 0.958",
+      "est_minutes": 150,
       "status": "SKIPPED (already done)"
     },
     {
@@ -554,21 +524,33 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd34_fiction_qwen_w40",
+      "name": "bst_exp1_all",
+      "why": "the goal-prior contradiction's second arm: the appendix's all-non-obstacle-squares support, same best-fit gates; the marked arm (the Exp-1 main text) landed at printed precision (L119)",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan_deberta_headdrop25_s43",
+      "why": "stabilizer rung 1 for the collapsed deberta member: same recipe, seed 43. If it collapses too, rung 2 is warmup 0.10, rung 3 lr 4e-5, each recorded as a named divergence-fix assumption",
+      "est_minutes": 620,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pd34_fiction_llama_w40",
       "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pd34_fiction_r1l8_w40",
-      "why": "L113 robustness: the magnitude-tracks-lineage square at the 40-word window",
-      "est_minutes": 15,
+      "name": "g129_recovery",
+      "why": "G129 A1, the claim arm: delta + candidates on the balanced full set (H-A)",
+      "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g129_blind",
-      "why": "G129 A2, the floor arm: VOID gate if off the analytic 1/k",
-      "est_minutes": 60,
+      "name": "g129_shuffle",
+      "why": "G129 A3, the leakage arm: permuted truth must read at chance or the run is VOID",
+      "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
@@ -578,36 +560,85 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g129_blind_matched",
-      "why": "G129: the matched floor arm, expected back at analytic 1/k after balancing",
-      "est_minutes": 30,
+      "name": "g129_verdict",
+      "why": "G129: the preregistered bands, McNemar reader-vs-block, VOID gates, and fabrication rates, computed once, every statistic on disk",
+      "est_minutes": 5,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g153_gen_qwen",
-      "why": "G153 free path: the benchmark's process-recording loop proven end to end on the seen local lineage (R1 thin-prompt 4 domains x 2 lengths + R3 rewrites), explicit decoding recorded at generation time",
-      "est_minutes": 240,
+      "name": "g149_switch_sampler",
+      "why": "G149 ruler gate: planted goal switches in the validated BST engine; the shift sampler must detect and localize them with false alarms priced at 5% before any motivation-shift claim touches text. CPU, runs beside trainings",
+      "est_minutes": 90,
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "g131_gen_llama",
-      "why": "G131 factorial corpus, held-out family: identical instruction draws by construction, so family is a clean second factor",
-      "est_minutes": 200,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "g158_reader_validate",
-      "why": "G158 adjudicator validation: the reader re-judges a stratified sample of the mechanically decidable assignments blind, and the over-credit rate (reader realized where the exact string test says unrealized) gates whether stage (c) may consume reader verdicts; the live arms' zero ambiguous calls made this the binding check",
-      "est_minutes": 30,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "g158_recovery_problem",
-      "why": "G158 stage (c) attenuated problem-pool arm: scored against assignment, nulls preregistered uninterpretable, only above-echo-bar positives act",
+      "name": "g158_reader_qwen",
+      "why": "G158 realization adjudication, seen family: realized/unrealized/ambiguous with required verbatim evidence spans; model-judged and flagged (adjudicator shares the qwen lineage with this half of the text)",
       "est_minutes": 120,
-      "status": "RUNNING",
-      "log": "results\\g158_recovery_problem.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g158_recovery_surface",
+      "why": "G158 stage (c) claim+floor arms: artifact-only pick among mechanically verified candidates (100 events, truth realized, decoys unsatisfied), plus the blind floor on identical sets",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g158_recovery_none",
+      "why": "G158 stage (c) fabrication control: zero-instruction essays with an explicit none option; L139's acquiescence predicts failure UP, measured",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g158_recovery_summarize",
+      "why": "G158 stage (c) scoring pass: echo bar and oracle wiring check on identical candidate sets, truth-balanced reads, per-cell tables, one summary file",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129b_recovery",
+      "why": "G129b confirmatory arm recovery under prereg/g129b.py: fresh seed, directional gates with both expectations stated at freeze",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129b_source",
+      "why": "G129b confirmatory arm source under prereg/g129b.py: fresh seed, directional gates with both expectations stated at freeze",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129b_blind_matched",
+      "why": "G129b confirmatory arm blind_matched under prereg/g129b.py: fresh seed, directional gates with both expectations stated at freeze",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g94_taramsa_gpu",
+      "why": "G94 Taramsa arms: fabrication on rung-0 (does the reader invent specs where none were given), recovery and blind per rung on reconstructed ground truth (join-checked against recorded prompt word counts before any call)",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g94_taramsa_summarize",
+      "why": "G94 scoring: echo bar on identical candidate sets, per-rung dose tables, the Taramsa fabrication number",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan25_wqd_medium_s43",
+      "why": "G148 medium gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan25_wqd_medium_s44",
+      "why": "G148 medium gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "1/3"
+  "shard": "1/3",
+  "finished": "2026-08-19 15:18",
+  "failed": []
 }

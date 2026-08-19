@@ -1977,7 +1977,11 @@ That symmetry check then immediately caught a real fault, deterministic tie-brea
 every null-text pick to the first candidate, the strict-ties class the audit found once before in
 specification recovery. Ties now break randomly. One eyebrow stays recorded: the unchanged arm
 sits slightly above chance at power (0.282, about 2.6 standard deviations) while inside its
-pre-set band; if it persists across the harness's future runs it gets hunted. **Means: G129's
+pre-set band; if it persists across the harness's future runs it gets hunted. **Settled
+(2026-08-19, the TODO's cheap-settle row): at five times the makers (n = 6,000 unchanged
+reads) across three fresh seeds the arm reads 0.249 / 0.249 / 0.240 — dead on chance, all
+five gates green all three times (`results/event_harness/scale5_seed{18,19,20}.json`). The
+0.282 was seed-17 sampling noise; the eyebrow closes.** **Means: G129's
 ArgRewrite analysis has a validated instrument to run through, which was the program's stated
 gate for touching the real corpus.**
 
@@ -5555,6 +5559,300 @@ instrument that must pass validation, never a default. Lesson banked (LESSONS §
 - **Curator decision required:** No.
 - **Detail pointer:** `results/g158/reader_validation.json`; live-arm verdicts in
   `realization_reader_{qwen,llama}.json`, warning-labeled.
+
+## L140 · Stage (c) lands both ways at once: the reader recovers surface constraints at exactly chance while word-echo scores above it, and clears the problem-pool echo bar by eleven points in both families
+
+**Hypothesis.** *(G158 stage (c), exploratory: given only the final essay and four
+same-pool candidates, can a bounded reader identify which instruction was given — on
+surface events where the truth is mechanically verified executed and every decoy verified
+unsatisfied, and on problem-pool events scored against assignment with the null
+preregistered uninterpretable?)*
+
+**Method.** Forced choice at k = 4, artifact only. Surface arm: 100 events (exact-grade
+realized truths, decoys mechanically unsatisfied in the same essay, 2 thin-decoy skips
+disclosed); banded read on the truth-balanced 48 (12 per instruction, CONTROLS entry 6);
+blind floor and the L138 word-echo baseline on identical candidate sets; a mechanical
+oracle as the wiring check; 20 zero-instruction essays with an explicit none option as
+the fabrication control. Problem arm: all 440 assignments, decoys drawn unassigned from
+the same pool, echo bar on identical sets.
+
+| arm | raw | truth-balanced | meaning |
+|---|---|---|---|
+| surface recovery (reader) | 0.41 | **0.25** | exactly chance once label frequency cannot carry it |
+| surface blind floor | 0.24 | 0.21 | construction clean |
+| surface echo bar | 0.30 | **0.375** | word overlap beats the reader on the balanced read |
+| mechanical oracle | 1.00 | — | zero wiring defects: the answer IS in the text |
+| fabrication control | 0.05 | — | the none option is used honestly (19 of 20) |
+| problem recovery (reader) | **0.9091** | — | qwen 0.950, llama 0.868 |
+| problem echo bar | 0.7977 | — | assignment is mostly readable from word overlap alone |
+
+*Caption: forced choice among four candidates, chance 0.25. The balanced column
+subsamples to equal events per true instruction; the reader's raw-to-balanced collapse
+(0.41 to 0.25) and the echo bar's rise (0.30 to 0.375) move in opposite directions, which
+is the signature of the reader riding label frequency while echo rides content. The
+problem arm is scored against ASSIGNMENT (realization unverifiable, L139); its
+preregistered rule is that only above-bar positives are actionable.*
+
+**Found.** Two clean reads with opposite signs. The reader CANNOT do the thing that is
+provably doable: on surface constraints whose satisfaction a string test verifies at
+100%, balanced recovery is 0.25 — the zero-shot reader does not check whether text
+satisfies a formal constraint, it picks the semantically familiar candidate, and pure
+word-echo does better (0.375). And the reader CAN do something echo cannot fully explain:
+on problem-pool assignments it clears the echo bar by 11.4 points in the seen family and
+10.9 in the held-out family — the margin transfers. What this corpus cannot separate is
+realization from assignment-echo inside that margin: the essays' vocabulary leaks the
+assignment (echo bar 0.80, exactly the L138 named leak), and whether the reader's 11
+points above it track executed choices is precisely the question the 2.1.5 rebuild
+exists to answer.
+
+**Means.** Foraging delivered its design constraints. For the rebuild: the reader is a
+semantic-correspondence instrument, not a constraint verifier — decoys must be
+consequence-matched so semantic correspondence alone cannot separate truth from decoy,
+and formal-constraint instructions belong to mechanical scoring, never reader scoring.
+Phase 2.1's stacking gate 1 (artifact-only recovery of REALIZED problem-directed choices
+above a matched floor) remains unmet — not failed, unmeasurable on this corpus — so
+stacking stays gated. Gates 2 and 4 look good in exploratory form (family transfer holds;
+fabrication clean); gate 3 is the open contest (11 points above echo, echo at 0.80).
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Reading only the finished essay, can the reader tell
+  which instruction was given?
+- **Outcome class:** Narrows
+- **Result:** Chance on mechanically verified surface constraints once frequency is
+  balanced away, but 11 points above the word-echo bar on problem-pool assignments in
+  both families.
+- **Project meaning:** The reader reads meaning-correspondence, not constraint
+  satisfaction; whether its above-echo margin tracks executed choices needs the rebuilt
+  corpus, so stacking stays gated on 2.1.5.
+- **Next engineering obligation:** The 2.1.5 decisive rebuild with consequence-matched
+  decoys and echo equalized by construction.
+- **Public claim:** Unchanged (exploratory by declaration).
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g158/recovery_summary.json`, per-arm partials on disk.
+
+## L141 · The fresh confirmatory lands with every gate quiet: recovery replicates at the new seed, the shuffle arm sits beside its preregistered expectation, and confirmatory grade is earned
+
+**Hypothesis.** *(G129b, `prereg/g129b.py`: the L132 battery re-run under gates carrying
+both expectations and a direction from birth, fresh seed 37 — does recovery replicate and
+do all gates stay quiet in their guarded directions, earning the confirmatory grade the
+first run's voided gate denied?)*
+
+**Method.** Identical construction to G129 (truth-balanced, uniform decoys, k = 4,
+Amendment-1 fabrication arm), fresh seed, one-sided gates in the leak direction, the
+shuffle arm's alternative expectation (0.125) frozen on the card, and the matched arm's
+power handling pre-committed (one caliper relaxation fired at manifest build: matched
+200 of the powered 283, so H-B declared at pilot tier before any arm ran).
+
+| arm | read | gate / band |
+|---|---|---|
+| recovery, full set | **0.4805** | **H-A REPLICATES** (margin 0.2305; L132 read 0.4854 — seed-stable) |
+| recovery, matched + balanced | 0.415 | H-B 16.5 points, band SURVIVES, **pilot tier as pre-committed** |
+| blind / blind matched | 0.2354 / 0.27 | quiet (one-sided p 0.81 / 0.28) |
+| shuffled truth | **0.1136** | quiet (p 1.0 upward); sits beside the card's 0.125 alternative expectation |
+| brief / source alone | 0.2468 / 0.3182 | context near floor; topic supplies a little |
+| fabrication (200 no-ops) | **0.000** | A7 CLEAN; symmetric control missed 0 of 200 real revisions (accuracy 0.40 with the extra option) |
+| reader vs change block | 117 vs 158 exclusive wins | H-C LOSES again (block 0.5471, exact McNemar p = 0.0157) |
+
+*Caption: each row one preregistered arm, chance 0.25 under truth balancing. The gates
+void only one-sided in the direction a leak would push. The shuffle read near 0.125 is
+the delta-tracking signature predicted on the card, not explained after the fact.*
+
+**Found.** Everything the first battery claimed, now under gates that were specified
+before the run: recovery replicates within half a point of L132 at a fresh seed, no gate
+fires in its guarded direction, the fabrication bound holds at zero, and the change block
+beats the zero-shot reader a second time (seven points, significant), settling that
+result as seed-stable too. The shuffle arm's below-chance read — the thing that voided
+L132 — landed within a point of the expectation this card carried at freeze.
+
+**Means.** Confirmatory grade is EARNED per the card's preregistered response: the
+demotion language lifts, the real-text half of the 2.0D gate is formally met, and the
+public claim may say confirmatory with its scope attached (one corpus, one reader family,
+matched arm at pilot tier). The representation conclusions are unchanged and now
+confirmed twice: delta-interface features build on the change block, the reader supplies
+fabrication-bounded abstention, and nothing here licenses artifact-only claims — that
+boundary lives in the contract's interface table and stage (c)'s L140.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Does the choice-recovery result survive a fresh
+  confirmatory run whose gates were specified correctly before it ran?
+- **Outcome class:** Strengthens
+- **Result:** Recovery 0.4805 against the 0.25 analytic floor with every gate quiet and
+  fabrication at zero.
+- **Project meaning:** The paired-delta recovery claim stands at confirmatory grade; the
+  2.0D real-text gate is formally met; the L137 demotion is cured the way it demanded.
+- **Next engineering obligation:** The 2.1.5 rebuild (the construct question), then the
+  compact decision-feature block under the contract's interfaces.
+- **Public claim:** Newly licensed — "confirmatory" with scope (one corpus, one reader
+  family; matched arm pilot tier).
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g129b/verdict.json`, `prereg/g129b.py` (sha256 recorded at
+  the lifting commit), all arms and partials on disk.
+
+## L142 · Maker as a random effect: the polish side carries ten times the depth side's author variance, and one arm of my own design voids itself
+
+**Hypothesis.** *(G97, owed since the methods pass: the within-maker positives (the PD-33
+family) compare means over windows, pseudo-replicating artifacts within makers. Refit with
+author as a random effect — if the effects vanish under proper clustering, we have been
+measuring individuals rather than the quantity.)*
+
+**Method.** From the decomposition's own feature cache (1,687 eighty-word windows over 258
+essays, 86 authors), every polish and depth feature z-scored over the pool, per-window
+side composites formed, and mixed models fit by restricted maximum likelihood with author
+random intercepts (author-by-draft as the nested check): the polish composite, the depth
+composite, and their difference, each with variance components and intraclass
+correlations on disk.
+
+| quantity | polish side | depth side |
+|---|---|---|
+| author-level variance | **0.0975** | 0.0094 (fit at the boundary) |
+| residual (within) variance | 0.2361 | 0.0406 |
+| intraclass correlation | **0.2924** | 0.1874 |
+
+*Caption: the intraclass correlation is the share of a composite's variance that lives
+between authors — the maker-signature quantity itself. The depth side's author component
+sits at the estimation boundary, meaning barely distinguishable from zero.*
+
+**Found.** The maker signature survives the hierarchical form, stated more strongly than
+the share decomposition put it: the polish composite carries ten times the author-level
+variance of the depth composite, and the depth side's author component is boundary-small.
+Who you are lives in the polish channel; the depth channel barely carries identity at
+all. One arm of this runner voided itself by my own construction: the fixed-effect
+intercept test (is the polish-minus-depth difference nonzero under clustering) is
+meaningless after pool z-scoring, which forces the pool mean to zero — its p = 0.87 is an
+artifact of the design, not a null, and it is recorded as VOID-BY-CONSTRUCTION rather
+than reported as a collapse. The proper carrier of the L57 claim was always the variance
+structure, and that is what the refit delivers.
+
+**Means.** The pseudo-replication worry the row was opened for does not overturn the
+PD-33 family: the author-signal is in the variance components, which clustering measures
+rather than destroys. The L57/L71 rows gain a hierarchical confirmation line. Standing
+scope: this cache is the essay corpus; the books corpus refit is the follow-up if ever
+needed (its author-topic confound limits what it could add).
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Do the maker-signature results survive giving every
+  author their own baseline, or were we measuring individuals?
+- **Outcome class:** Strengthens
+- **Result:** The polish composite carries ten times the depth composite's author-level
+  variance under a mixed model (intraclass correlation 0.29 vs 0.19 at the boundary).
+- **Project meaning:** The polish channel carries maker identity; the depth channel
+  barely does — the hierarchical form of the standing claim, not a revision of it.
+- **Next engineering obligation:** None new; the void intercept arm is disclosed, and
+  any future location test must run on unstandardized or anchored scales.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g97/maker_effect.json`; cache
+  `results/features/argrewrite_w80.json`.
+
+## L143 · Our own Taramsa test: the reader invents a specification on one of ten unspecified texts, and recovers real ones above the trivia bar with a dose that dilutes
+
+**Hypothesis.** *(G94, owed since the methods pass, sharpened by L140: at Taramsa the
+standard reconstruction method invented a production stage that never happened. Our
+analogue — on the intent ladder, where every artifact's true specifications are known,
+does spec-style reconstruction posit decisions that were not there, and can it find the
+ones that were?)*
+
+**Method.** Ladder ground truth reconstructed from the generator's deterministic seeds and
+join-checked against every item's recorded prompt word count (50 of 50 reproduce) before
+any call. Forced choice at k = 4, artifact only: fabrication arm on the ten rung-0 texts
+(four spec candidates plus an explicit "none of these was requested"); recovery per true
+spec on rungs 1/3/6/10 against same-pool decoys; blind floor and word-echo bar on
+identical candidate sets.
+
+| arm | read | meaning |
+|---|---|---|
+| fabrication (rung 0) | **0.10** (1 of 10) | the reader asserted one spec that was never given; nine honest nones |
+| recovery overall | **0.52** | against blind 0.225 and echo 0.40 |
+| recovery by rung 1/3/6/10 | 0.50 / 0.77 / 0.53 / **0.44** | falls with dose while the echo bar stays flat (~0.40): dilution, not echo, shapes the curve |
+
+*Caption: chance 0.25 throughout; the echo bar picks the candidate whose words overlap
+the text most, no reading involved. n = 10 fabrication events (every rung-0 item), 200
+recovery events (every true spec on the specified rungs).*
+
+**Found.** The Taramsa failure exists but is bounded in this format: one invention in ten
+at forced-choice-with-none, consistent with the honest-format finding (L140) and nothing
+like the yes/no adjudicator's 0.69 over-credit (L139). Recovery of real specifications
+clears the trivia bar by 12 points overall — a third substrate for above-echo recovery
+after the ArgRewrite deltas and the essay corpora — and the dose curve falls as
+specifications multiply while echo stays flat, which is dilution of per-spec trace, not
+vocabulary leakage.
+
+**Means.** The reconstruction instrument does not hallucinate freely when given an honest
+no-option, and its per-spec signal thins as instruction count rises — both directly
+usable by the G159 recovery card (amounts 1 and 4 sit on the informative side of the
+curve). Small-n caveat carried: the fabrication arm is ten events; the rung-1 cell is ten.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Where the true instructions are known, does
+  reconstruction invent ones that were never given?
+- **Outcome class:** Narrows
+- **Result:** One invention in ten unspecified texts, with real-spec recovery 12 points
+  above the word-overlap bar and diluting with dose.
+- **Project meaning:** The Taramsa worry is real but format-bounded; honest-option forced
+  choice keeps fabrication near the L140 rate on a third substrate.
+- **Next engineering obligation:** None new; feeds the G159 recovery card's dose choices.
+- **Public claim:** Unchanged (exploratory).
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g94/taramsa.json`, partials on disk, join check in-file.
+
+## L144 · The rebuilt factorial corpus lands and passes its own gate: instructed rewrites execute at 62.5% exact-grade, and the uninstructed twins satisfy the same checks at 28%
+
+**Hypothesis.** *(G159, Phase 2.1.5 generation: 160 rewrites of the twenty recorded
+zero-instruction bases — every cell a rewrite of the same base material, with realization
+crossed as the intervention: R+ instructed to apply the drawn set, R- the identical
+rewrite request with no instructions shown and the set recorded as counterfactual. The
+corpus self-gates: R+ exact-grade mechanical realization must clear 0.5 or the G131
+defect repeats and nothing proceeds.)*
+
+**Method.** Both families generated at full yield (80 + 80, deterministic seeds recorded,
+manifests written), then the mechanical realization audit over every checkable
+instruction on both arms.
+
+| audit read | rate | meaning |
+|---|---|---|
+| R+ exact-grade realization | **0.625** (n = 32) | the gate clears (threshold 0.5); rewrites execute formal instructions better than G131's cold generation (0.586) but far from fully |
+| R+ all checkable | 0.628 (n = 78) | consistent across grades |
+| R- exact-grade, counterfactual | **0.281** | uninstructed twins spontaneously satisfy the same checks at base rate — the number R+ must be read against |
+| R- all checkable, counterfactual | 0.154 | lower once approximate checks join |
+
+*Caption: R+ artifacts were told to apply the instructions; R- artifacts never saw them.
+The R- column is the spontaneous-satisfaction floor that makes R+ interpretable.*
+
+**Found.** The corpus stands: realization is verified rather than assumed, the R+/R-
+contrast is live (62.5% against a 28% spontaneous floor on identical checks), and the
+usable exact-grade event count is honest but thin (20 realized exact-grade R+ events), so
+the recovery card's known-answer core is the semantic pool with the R- null arm, with the
+formal instructions scored mechanically as the side channel.
+
+**Means.** 2.1.5's corpus obligation is met at $0 and the recovery card is the next
+gate-bearing design: forced choice with echo-matched decoys, R+ vs R- as the execution
+contrast, R- doubling as the leak gate (any above-chance read on R- is a
+candidate-construction leak, direction up, preregistered).
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Did the rebuilt corpus actually execute its
+  instructions, unlike the first one?
+- **Outcome class:** Infrastructure
+- **Result:** Instructed rewrites execute at 62.5% exact-grade against a 28% spontaneous
+  floor in their uninstructed twins; the self-gate clears.
+- **Project meaning:** The construct test finally has a corpus whose ground truth is
+  verified; the execution contrast (instructed vs uninstructed twins) is the design's
+  engine.
+- **Next engineering obligation:** The G159 recovery card, preregistered, DESIGN CHECK
+  from birth.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `corpora/g159_rebuild/realization_audit.json`, manifests per family.
 
 ---
 

@@ -1,0 +1,11 @@
+{
+ "family": "qwen",
+ "n_on_disk": 80,
+ "n_expected": 80,
+ "design": "2 targets x (1,4) x (plus,minus realization) x 10 topics, rewrites of the recorded G131 zero-instruction bases",
+ "band": [
+  250,
+  650
+ ],
+ "seed_rule": "SEED0 + ti*1000 + ci*20 + try; draws SEED0 + ti*100 + target*10 + amount"
+}

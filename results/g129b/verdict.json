@@ -1,0 +1,76 @@
+{
+ "prereg": "prereg/g129b.py",
+ "gates": {
+  "blind": {
+   "accuracy": 0.2354,
+   "n": 616,
+   "p_above_floor": 0.81119,
+   "guarded_direction": "UP (leak inflates)",
+   "VOID_if": "one-sided p < 0.05",
+   "void": false
+  },
+  "shuffle": {
+   "accuracy": 0.1136,
+   "n": 616,
+   "p_above_floor": 1.0,
+   "guarded_direction": "UP (leak inflates)",
+   "VOID_if": "one-sided p < 0.05",
+   "void": false,
+   "alternative_expectation": 0.125,
+   "null_expectation": 0.25
+  },
+  "blind_matched": {
+   "accuracy": 0.27,
+   "n": 200,
+   "p_above_floor": 0.28077,
+   "guarded_direction": "UP (leak inflates)",
+   "VOID_if": "one-sided p < 0.05",
+   "void": false
+  }
+ },
+ "verdicts": {
+  "H-A_full": {
+   "margin": 0.2305,
+   "band": "REPLICATES"
+  },
+  "H-B_matched": {
+   "margin": 0.165,
+   "n": 200,
+   "n_required": 283,
+   "powered": false,
+   "band": "SURVIVES",
+   "caliper_relaxed": true,
+   "evidence_tier": "PILOT TIER (pre-committed: shortfall persists after the one specified relaxation; no confirmatory language attaches to H-B)"
+  },
+  "H-C_reader_vs_block": {
+   "reader_only_correct": 117,
+   "block_only_correct": 158,
+   "n_both": 616,
+   "mcnemar_p": 0.01571,
+   "call": "LOSES"
+  },
+  "A7": {
+   "arm": "unchanged",
+   "n_unchanged": 200,
+   "n_sym": 200,
+   "fabrication_rate": 0.0,
+   "sym_miss_rate": 0.0,
+   "sym_accuracy": 0.4,
+   "band": "CLEAN"
+  }
+ },
+ "brief": {
+  "arm": "brief",
+  "n": 616,
+  "k": 4,
+  "accuracy": 0.2468,
+  "analytic_floor": 0.25
+ },
+ "source": {
+  "arm": "source",
+  "n": 616,
+  "k": 4,
+  "accuracy": 0.3182,
+  "analytic_floor": 0.25
+ }
+}

@@ -46,9 +46,20 @@ SIGNAL_RATE = 0.7   # P(marker actually expresses the chosen purpose) -- noisy, 
 
 
 def main() -> None:
+    import argparse                                                   # noqa: PLC0415
     import numpy as np                                                # noqa: PLC0415
 
-    rng = np.random.default_rng(17)
+    # --scale/--seed exist for the L56 eyebrow settle (unchanged arm 0.282 at 2.6 sigma,
+    # inside its band; TODO's cheap-settle row): 5x the makers at fresh seeds, separate
+    # output file, the validation record never clobbered. Defaults reproduce the
+    # original harness exactly.
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--scale", type=int, default=1)
+    ap.add_argument("--seed", type=int, default=17)
+    args = ap.parse_args()
+    global N_MAKERS
+    N_MAKERS = N_MAKERS * args.scale
+    rng = np.random.default_rng(args.seed)
 
     def make_event(purpose: str) -> str:
         words = list(rng.choice(FILLER, size=6))
@@ -144,11 +155,14 @@ def main() -> None:
     print(f"  >>> {verdict}  {gates}")
 
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / "synthetic_validation.json").write_text(json.dumps(
+    dest = ("synthetic_validation.json" if (args.scale, args.seed) == (1, 17)
+            else f"scale{args.scale}_seed{args.seed}.json")
+    (RESULTS / dest).write_text(json.dumps(
         {"accuracies": acc, "gates": gates, "verdict": verdict,
-         "n_makers": N_MAKERS, "events_per": EVENTS_PER, "signal_rate": SIGNAL_RATE},
+         "n_makers": N_MAKERS, "events_per": EVENTS_PER, "signal_rate": SIGNAL_RATE,
+         "seed": args.seed, "scale": args.scale},
         indent=2), encoding="utf-8", newline="\n")
-    print(f"wrote {(RESULTS / 'synthetic_validation.json').relative_to(REPO)}")
+    print(f"wrote {(RESULTS / dest).relative_to(REPO)}")
     if verdict != "HARNESS-VALID":
         sys.exit(1)
 

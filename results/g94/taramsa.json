@@ -1,0 +1,70 @@
+{
+ "prereg": "runner docstring DESIGN CHECK (exploratory; no verdict bands)",
+ "seed": 9400,
+ "k": 4,
+ "model": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.0,
+  "num_predict": 200
+ },
+ "join_check": "clean (prompt word counts reproduce for all 50 items)",
+ "fabrication": {
+  "n": 10,
+  "rate": 0.1,
+  "note": "share of rung-0 items where the reader asserted a spec instead of the none option; the Taramsa number"
+ },
+ "recovery_overall": {
+  "n": 200,
+  "accuracy": 0.52
+ },
+ "recovery_by_rung": {
+  "1": {
+   "n": 10,
+   "accuracy": 0.5
+  },
+  "3": {
+   "n": 30,
+   "accuracy": 0.7667
+  },
+  "6": {
+   "n": 60,
+   "accuracy": 0.5333
+  },
+  "10": {
+   "n": 100,
+   "accuracy": 0.44
+  }
+ },
+ "blind_overall": {
+  "n": 200,
+  "accuracy": 0.225
+ },
+ "blind_by_rung": {
+  "1": {
+   "n": 10,
+   "accuracy": 0.2
+  },
+  "3": {
+   "n": 30,
+   "accuracy": 0.3
+  },
+  "6": {
+   "n": 60,
+   "accuracy": 0.25
+  },
+  "10": {
+   "n": 100,
+   "accuracy": 0.19
+  }
+ },
+ "echo_bar_overall": {
+  "n": 200,
+  "accuracy": 0.4
+ },
+ "echo_bar_by_rung": {
+  "1": 0.4,
+  "3": 0.4333,
+  "6": 0.4,
+  "10": 0.39
+ }
+}

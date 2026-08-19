@@ -420,3 +420,22 @@ L132 (a shuffle gate that voided the alternative's own signature).
   stem** — the persist-predictions lesson crosses the wire; the first package's error-overlap
   read was lost with the containers before this was fixed. (his rulings 2026-08-16; STATE
   standing ruling 6; L124, L125)
+- **A lock without a same-holder check deadlocks its own process; every per-arm lock
+  acquisition inside one runner is that bug waiting.** The stage-c runner took the GPU lock
+  per arm; arm one held it, arm two waited on it, and the process starved itself for five
+  hours of a live gear window while the 22-hour stale sweep sat 17 hours away (2026-08-19).
+  Two rules, both now structural: `acquire_gpu_lock` is reentrant by pid (re-acquisition
+  under a new tag rewrites the tag and returns), and a runner acquires the card ONCE per
+  invocation, never per arm. The kill followed the standing protocol: verify the lock's pid
+  against the live process table by command line, stop the tree by Windows pid, clear the
+  dead holder's lock, let checkpoints carry the resume. (the g158 stage-c stall; the fix is
+  pipe-proven on a throwaway lock before trust)
+- **Stage ownership must key on something the stage list cannot move.** Shard ownership by
+  list index (stage i to shard i % N) is only race-free while the list never changes; one
+  mid-list insertion under a live lineage re-owned every later stage between passes, and a
+  stage blocked on the GPU launched under BOTH its old and new owner (2026-08-19, the
+  duplicate shuffle arms — benign only because the gpu lock serialized them and checkpoints
+  made the loser a no-op). Ownership now digests the stage NAME (md5, because Python hash()
+  is process-salted); and while a lineage is live, new stages append at the end, never
+  insert mid-list, so even index-keyed consumers see a stable prefix. (run_queue.py fix,
+  same pass)

@@ -91,6 +91,12 @@ A very short paper, in that order, no exceptions.
 
 - **Caption every table in the chat, every time** — define every column and every row label in plain
   words. He is running a dozen threads and will not carry our names in his head.
+- **A decision request is self-contained or it is not a decision request** (his correction,
+  2026-08-19: *"I don't even understand what you're asking to do... spell it out for me very
+  cleanly and plainly"*). Before any ask: state the goal from zero in plain language, define
+  every label the ask uses (never "band A/B/C" without saying what a band is), say exactly
+  what he does and how long it takes, and only then ask. A blocked decision he cannot parse
+  is my bottleneck, not his.
 - **Name every statistic in words** the first time it appears. "Correlation of 0.49 — meaning the
   ranking is strong and consistent, where 0 is no relationship and 1 is perfect."
 - **No variable or column names in prose.** Not `biber_COND`, not `partial rho`. Say *"conditional

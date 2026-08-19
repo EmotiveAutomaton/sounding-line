@@ -1,0 +1,210 @@
+{
+ "prereg": "runner docstring DESIGN CHECK (exploratory; no verdict bands)",
+ "seed": 15830,
+ "k": 4,
+ "model": "qwen3.5:9b",
+ "decoding": {
+  "temperature": 0.0,
+  "num_predict": 200
+ },
+ "events_surface": 100,
+ "events_skipped_thin_decoys": 2,
+ "R1_recovery": {
+  "n": 100,
+  "n_parsed": 100,
+  "accuracy": 0.41,
+  "balanced": {
+   "per_instruction": 12,
+   "n": 48,
+   "accuracy": 0.25
+  },
+  "by_family": {
+   "llama": {
+    "n": 43,
+    "accuracy": 0.3953
+   },
+   "qwen": {
+    "n": 57,
+    "accuracy": 0.4211
+   }
+  },
+  "by_amount": {
+   "3": {
+    "n": 29,
+    "accuracy": 0.4138
+   },
+   "8": {
+    "n": 71,
+    "accuracy": 0.4085
+   }
+  },
+  "by_coupling": {
+   "independent": {
+    "n": 51,
+    "accuracy": 0.3529
+   },
+   "interlocked": {
+    "n": 49,
+    "accuracy": 0.4694
+   }
+  }
+ },
+ "R2_blind": {
+  "n": 100,
+  "n_parsed": 100,
+  "accuracy": 0.24,
+  "balanced": {
+   "per_instruction": 12,
+   "n": 48,
+   "accuracy": 0.2083
+  },
+  "by_family": {
+   "llama": {
+    "n": 43,
+    "accuracy": 0.2326
+   },
+   "qwen": {
+    "n": 57,
+    "accuracy": 0.2456
+   }
+  },
+  "by_amount": {
+   "3": {
+    "n": 29,
+    "accuracy": 0.2759
+   },
+   "8": {
+    "n": 71,
+    "accuracy": 0.2254
+   }
+  },
+  "by_coupling": {
+   "independent": {
+    "n": 51,
+    "accuracy": 0.2549
+   },
+   "interlocked": {
+    "n": 49,
+    "accuracy": 0.2245
+   }
+  }
+ },
+ "R3_echo_bar": {
+  "n": 100,
+  "n_parsed": 100,
+  "accuracy": 0.3,
+  "balanced": {
+   "per_instruction": 12,
+   "n": 48,
+   "accuracy": 0.375
+  },
+  "by_family": {
+   "llama": {
+    "n": 43,
+    "accuracy": 0.2093
+   },
+   "qwen": {
+    "n": 57,
+    "accuracy": 0.3684
+   }
+  },
+  "by_amount": {
+   "3": {
+    "n": 29,
+    "accuracy": 0.5172
+   },
+   "8": {
+    "n": 71,
+    "accuracy": 0.2113
+   }
+  },
+  "by_coupling": {
+   "independent": {
+    "n": 51,
+    "accuracy": 0.2941
+   },
+   "interlocked": {
+    "n": 49,
+    "accuracy": 0.3061
+   }
+  }
+ },
+ "R4_oracle_wiring_defects": 0,
+ "R5_none_control": {
+  "n": 20,
+  "n_parsed": 20,
+  "fabrication_rate": 0.05,
+  "note": "share of zero-instruction essays where the reader asserted an unsatisfied instruction instead of the none option; L139 predicts UP"
+ },
+ "R6_problem_attenuated": {
+  "n": 440,
+  "n_parsed": 440,
+  "accuracy": 0.9091,
+  "by_family": {
+   "llama": {
+    "n": 220,
+    "accuracy": 0.8682
+   },
+   "qwen": {
+    "n": 220,
+    "accuracy": 0.95
+   }
+  },
+  "by_amount": {
+   "3": {
+    "n": 120,
+    "accuracy": 0.9167
+   },
+   "8": {
+    "n": 320,
+    "accuracy": 0.9062
+   }
+  },
+  "by_coupling": {
+   "independent": {
+    "n": 220,
+    "accuracy": 0.9318
+   },
+   "interlocked": {
+    "n": 220,
+    "accuracy": 0.8864
+   }
+  },
+  "caveat": "scored against ASSIGNMENT; realization unverifiable (L139); attenuation ~0.59 if surface rates transfer; a NULL HERE IS UNINTERPRETABLE by prereg -- only above-bar positives are actionable"
+ },
+ "R7_problem_echo_bar": {
+  "n": 440,
+  "n_parsed": 440,
+  "accuracy": 0.7977,
+  "by_family": {
+   "llama": {
+    "n": 220,
+    "accuracy": 0.7591
+   },
+   "qwen": {
+    "n": 220,
+    "accuracy": 0.8364
+   }
+  },
+  "by_amount": {
+   "3": {
+    "n": 120,
+    "accuracy": 0.7917
+   },
+   "8": {
+    "n": 320,
+    "accuracy": 0.8
+   }
+  },
+  "by_coupling": {
+   "independent": {
+    "n": 220,
+    "accuracy": 0.7727
+   },
+   "interlocked": {
+    "n": 220,
+    "accuracy": 0.8227
+   }
+  }
+ }
+}
