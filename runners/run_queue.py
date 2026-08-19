@@ -1335,6 +1335,70 @@ STAGES += [
             "this the binding check"},
 ]
 
+# ── PHASE 2.1 BUILD-OUT 2026-08-19 afternoon (his directive; L139 constraints applied):
+# stage (c) artifact-only recovery on the mechanical exact-grade truth, and the G129b
+# fresh confirmatory under prereg/g129b.py (manifest built at design time, seed 37,
+# caliper relaxation fired -> matched 200 of 283, H-B pre-committed to pilot tier).
+STAGES += [
+    {"name": "g158_recovery_surface", "est": 90,
+     "cmd": [PY, "runners/run_g158_recovery.py", "--arm", "surface"],
+     "produces": "results/g158/recovery_r1_done.json",
+     "needs": ["results/g158/realization_mechanical.json"],
+     "why": "G158 stage (c) claim+floor arms: artifact-only pick among mechanically "
+            "verified candidates (100 events, truth realized, decoys unsatisfied), plus "
+            "the blind floor on identical sets"},
+    {"name": "g158_recovery_none", "est": 20,
+     "cmd": [PY, "runners/run_g158_recovery.py", "--arm", "none"],
+     "produces": "results/g158/recovery_r5_done.json",
+     "needs": ["results/g158/realization_mechanical.json"],
+     "why": "G158 stage (c) fabrication control: zero-instruction essays with an "
+            "explicit none option; L139's acquiescence predicts failure UP, measured"},
+    {"name": "g158_recovery_problem", "est": 120,
+     "cmd": [PY, "runners/run_g158_recovery.py", "--arm", "problem"],
+     "produces": "results/g158/recovery_r6_done.json",
+     "needs": ["results/g158/realization_mechanical.json"],
+     "why": "G158 stage (c) attenuated problem-pool arm: scored against assignment, "
+            "nulls preregistered uninterpretable, only above-echo-bar positives act"},
+    {"name": "g158_recovery_summarize", "est": 10,
+     "cmd": [PY, "runners/run_g158_recovery.py", "--arm", "summarize"],
+     "produces": "results/g158/recovery_summary.json",
+     "needs": ["results/g158/recovery_r1_done.json", "results/g158/recovery_r2_done.json",
+               "results/g158/recovery_r5_done.json", "results/g158/recovery_r6_done.json"],
+     "why": "G158 stage (c) scoring pass: echo bar and oracle wiring check on identical "
+            "candidate sets, truth-balanced reads, per-cell tables, one summary file"},
+]
+
+for _arm, _est in (("recovery", 150), ("blind", 100), ("shuffle", 150), ("brief", 100),
+                   ("source", 100), ("unchanged", 120), ("recovery_matched", 60),
+                   ("blind_matched", 40)):
+    STAGES += [
+        {"name": f"g129b_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g129_confirm.py", "--card", "b", "--arm", _arm],
+         "produces": f"results/g129b/{_arm}.json",
+         "needs": ["results/g129b/manifest.json"],
+         "why": f"G129b confirmatory arm {_arm} under prereg/g129b.py: fresh seed, "
+                "directional gates with both expectations stated at freeze"},
+    ]
+STAGES += [
+    {"name": "g129b_change_block", "est": 30,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--card", "b", "--arm", "change_block"],
+     "produces": "results/g129b/change_block.json",
+     "needs": ["results/g129b/manifest.json"],
+     "why": "G129b declared baseline: the 19-dim change block, author-grouped CV, on the "
+            "fresh-seed populations (CPU)"},
+    {"name": "g129b_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g129_confirm.py", "--card", "b", "--verdict"],
+     "produces": "results/g129b/verdict.json",
+     "needs": ["results/g129b/recovery.json", "results/g129b/blind.json",
+               "results/g129b/shuffle.json", "results/g129b/brief.json",
+               "results/g129b/source.json", "results/g129b/unchanged.json",
+               "results/g129b/recovery_matched.json", "results/g129b/blind_matched.json",
+               "results/g129b/change_block.json"],
+     "why": "G129b verdict under the corrected gates: one-sided VOIDs in the guarded "
+            "direction, shuffle's 0.125 alternative expectation recorded beside the "
+            "read, H-B at its pre-committed tier"},
+]
+
 # ── EVENING RESTOCK 2026-08-16: the wqd hard gate landed 0.8293 vs printed 0.830 (seven
 # ten-thousandths; L128) and easy landed 0.9535 vs 0.958. The fine-tune verdict rule
 # (standing ruling 3, the referee refinement) grades on the three-seed interval, so both
@@ -1359,7 +1423,11 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g129_recovery", "g129_blind", "g129_shuffle", "g129_brief",
                     "g129_source", "g129_unchanged", "g129_recovery_matched",
                     "g129_blind_matched", "g158_reader_qwen", "g158_reader_llama",
-                    "g158_reader_validate"}
+                    "g158_reader_validate", "g158_recovery_surface",
+                    "g158_recovery_none", "g158_recovery_problem",
+                    "g129b_recovery", "g129b_blind", "g129b_shuffle", "g129b_brief",
+                    "g129b_source", "g129b_unchanged", "g129b_recovery_matched",
+                    "g129b_blind_matched"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

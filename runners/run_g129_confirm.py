@@ -49,6 +49,23 @@ OLLAMA = "http://127.0.0.1:11434/api/generate"
 MODEL = "qwen3.5:9b"
 SEED = 31
 K = 4
+CARD = "a"      # --card b switches to the G129b confirmatory (prereg/g129b.py): fresh
+                # seed 37, results/g129b, corrected directional gates, pre-committed
+                # caliper relaxation on a matched shortfall. Card a's paths and verdict
+                # logic are untouched -- its output is the L132 historical record.
+
+
+def set_card(card: str) -> None:
+    global CARD, SEED, RESULTS, MANIFEST
+    CARD = card
+    if card == "b":
+        SEED = 37
+        RESULTS = REPO / "results" / "g129b"
+        MANIFEST = RESULTS / "manifest.json"
+
+
+def prereg_ref() -> str:
+    return "prereg/g129b.py" if CARD == "b" else "prereg/g129.py (Amendment 1)"
 NO_REV = "no revision was made"
 BRIEF = ("The student was asked to write a short argumentative essay taking and defending a "
          "position on self-driving cars, and then to revise it across drafts after feedback.")
@@ -171,20 +188,29 @@ def build_manifest() -> None:
     C = np.array([covs(e) for e in all_sc], float)
     yc = np.array([e["coarse"] == "content" for e in all_sc])
     Z = (C - C.mean(0)) / (C.std(0) + 1e-9)
-    bins = np.stack([np.digitize(Z[:, j], np.quantile(Z[:, j], [1 / 3, 2 / 3]))
-                     for j in range(Z.shape[1])], axis=1)
-    strata: dict = {}
-    for i, b in enumerate(bins):
-        strata.setdefault(tuple(b), {"c": [], "s": []})["c" if yc[i] else "s"].append(i)
-    keep = set()
-    for st in strata.values():
-        n = min(len(st["c"]), len(st["s"]))
-        if n == 0:
-            continue
-        keep.update(rng.permutation(st["c"])[:n].tolist())
-        keep.update(rng.permutation(st["s"])[:n].tolist())
-    matched_support = [all_sc[i] for i in sorted(keep)]
-    matched, matched_labs = balance(matched_support, 20)
+
+    def matched_at(qs):
+        bins = np.stack([np.digitize(Z[:, j], np.quantile(Z[:, j], qs))
+                         for j in range(Z.shape[1])], axis=1)
+        strata: dict = {}
+        for i, b in enumerate(bins):
+            strata.setdefault(tuple(b), {"c": [], "s": []})["c" if yc[i] else "s"].append(i)
+        keep = set()
+        for st in strata.values():
+            n = min(len(st["c"]), len(st["s"]))
+            if n == 0:
+                continue
+            keep.update(rng.permutation(st["c"])[:n].tolist())
+            keep.update(rng.permutation(st["s"])[:n].tolist())
+        return balance([all_sc[i] for i in sorted(keep)], 20)
+
+    matched, matched_labs = matched_at([1 / 3, 2 / 3])
+    caliper_relaxed = False
+    if CARD == "b" and len(matched) < 283:
+        # the pre-committed single relaxation (prereg/g129b.py DESIGN CHECK): coarsening
+        # drops terciles -> medians once, disclosed; if still short, pilot tier applies
+        matched, matched_labs = matched_at([1 / 2])
+        caliper_relaxed = True
 
     # UNCHANGED population + symmetric changed control (same size)
     unchanged = extract_unchanged()
@@ -207,12 +233,13 @@ def build_manifest() -> None:
         return out
 
     man = {
-        "seed": SEED, "k": K, "model": MODEL, "prereg": "prereg/g129.py (Amendment 1)",
+        "seed": SEED, "k": K, "model": MODEL, "prereg": prereg_ref(),
         "full": {"events": full, "labels": full_labs, "cands": cand_sets(full, full_labs),
                  "shuffle_truth": list(rng.permutation([e["fine"] for e in full]))},
         "matched": {"events": matched, "labels": matched_labs,
                     "cands": cand_sets(matched, matched_labs),
-                    "n_required": 283, "n_actual": len(matched)},
+                    "n_required": 283, "n_actual": len(matched),
+                    "caliper_relaxed": caliper_relaxed},
         "unchanged": {"events": unchanged,
                       "cands": cand_sets(unchanged, full_labs, extra=NO_REV),
                       "sym_events": sym,
@@ -346,15 +373,32 @@ def verdict() -> None:
     rows_of = lambda a: [json.loads(x) for x in                        # noqa: E731
                          (RESULTS / f"{a}_partial.jsonl").read_text(encoding="utf-8").splitlines()]
 
-    out = {"prereg": "prereg/g129.py (Amendment 1)", "gates": {}, "verdicts": {}}
+    out = {"prereg": prereg_ref(), "gates": {}, "verdicts": {}}
 
-    # VOID gates: blind within CI of 1/k, shuffle at chance
+    # VOID gates. Card a (the L132 historical record): two-sided vs 1/k, the form whose
+    # missing direction is the receipted L132 defect. Card b (prereg/g129b.py DESIGN
+    # CHECK): every gate one-sided in its guarded direction -- a leak inflates, so VOID
+    # only on significantly ABOVE floor; the shuffle arm's alternative expectation
+    # (label-marginal ~0.125, derived a priori this time) is recorded beside the read.
     for gate_arm in ("blind", "shuffle", "blind_matched"):
         g = get(gate_arm)
-        bt = binomtest(round(g["accuracy"] * g["n"]), g["n"], 1 / g["k"])
-        out["gates"][gate_arm] = {"accuracy": g["accuracy"], "n": g["n"],
-                                  "p_vs_floor": round(bt.pvalue, 5),
-                                  "VOID_if": "p < 0.05", "void": bool(bt.pvalue < 0.05)}
+        if CARD == "b":
+            bt = binomtest(round(g["accuracy"] * g["n"]), g["n"], 1 / g["k"],
+                           alternative="greater")
+            entry = {"accuracy": g["accuracy"], "n": g["n"],
+                     "p_above_floor": round(bt.pvalue, 5),
+                     "guarded_direction": "UP (leak inflates)",
+                     "VOID_if": "one-sided p < 0.05", "void": bool(bt.pvalue < 0.05)}
+            if gate_arm == "shuffle":
+                entry["alternative_expectation"] = 0.125
+                entry["null_expectation"] = 0.25
+            out["gates"][gate_arm] = entry
+        else:
+            bt = binomtest(round(g["accuracy"] * g["n"]), g["n"], 1 / g["k"])
+            out["gates"][gate_arm] = {"accuracy": g["accuracy"], "n": g["n"],
+                                      "p_vs_floor": round(bt.pvalue, 5),
+                                      "VOID_if": "p < 0.05",
+                                      "void": bool(bt.pvalue < 0.05)}
 
     # H-A full-set margin over analytic floor
     rec = get("recovery")
@@ -366,10 +410,17 @@ def verdict() -> None:
     # H-B matched margin over analytic floor (balanced within support, L126 amendment)
     recm = get("recovery_matched")
     m_m = recm["accuracy"] - 1 / recm["k"]
-    out["verdicts"]["H-B_matched"] = {
-        "margin": round(m_m, 4), "n": recm["n"], "n_required": man["matched"]["n_required"],
-        "powered": recm["n"] >= man["matched"]["n_required"],
-        "band": "SURVIVES" if m_m >= 0.08 else "WEAKENED" if m_m >= 0.04 else "COLLAPSED"}
+    hb = {"margin": round(m_m, 4), "n": recm["n"],
+          "n_required": man["matched"]["n_required"],
+          "powered": recm["n"] >= man["matched"]["n_required"],
+          "band": "SURVIVES" if m_m >= 0.08 else "WEAKENED" if m_m >= 0.04 else "COLLAPSED"}
+    if CARD == "b":
+        hb["caliper_relaxed"] = man["matched"].get("caliper_relaxed", False)
+        if not hb["powered"]:
+            hb["evidence_tier"] = ("PILOT TIER (pre-committed: shortfall persists after "
+                                   "the one specified relaxation; no confirmatory "
+                                   "language attaches to H-B)")
+    out["verdicts"]["H-B_matched"] = hb
 
     # H-C reader vs change block, exact McNemar on identical full-population events
     rr = {r["i"]: r for r in rows_of("recovery")}
@@ -406,7 +457,9 @@ def main() -> None:
                                       "unchanged", "recovery_matched", "blind_matched",
                                       "change_block"])
     ap.add_argument("--verdict", action="store_true")
+    ap.add_argument("--card", choices=["a", "b"], default="a")
     args = ap.parse_args()
+    set_card(args.card)
     if args.build_manifest:
         build_manifest()
     elif args.arm == "change_block":

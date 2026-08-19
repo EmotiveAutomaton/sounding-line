@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-19 05:11",
+  "started": "2026-08-19 05:38",
   "stages": [
     {
       "name": "feature_visibility",
@@ -598,19 +598,12 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pan25_wqd_hard_s43",
-      "why": "G148 hard gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
-      "est_minutes": 150,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "pan25_wqd_easy_s44",
-      "why": "G148 easy gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
-      "est_minutes": 150,
-      "status": "SKIPPED (already done)"
+      "name": "g158_recovery_surface",
+      "why": "G158 stage (c) claim+floor arms: artifact-only pick among mechanically verified candidates (100 events, truth realized, decoys unsatisfied), plus the blind floor on identical sets",
+      "est_minutes": 90,
+      "status": "RUNNING",
+      "log": "results\\g158_recovery_surface.log"
     }
   ],
-  "shard": "2/3",
-  "finished": "2026-08-19 05:11",
-  "failed": []
+  "shard": "2/3"
 }
