@@ -79,6 +79,11 @@ landed. Late sessions skip steps; this list exists so they don't.
   published values.
 - **Before building or extending any runner, re-read `docs/method/LESSONS.md` §3 to §5**
   (statistic, model arm, infra). New lessons land there in the same pass that earns them.
+- **Every new prereg card or gate-bearing runner carries a DESIGN CHECK block in its header**
+  (his ruling 2026-08-18, enforced by the design_lint hook): the LESSONS sections read for
+  THIS design, and for every gate its expectation under the NULL, its expectation under the
+  ALTERNATIVE, and the failure direction it guards; bands exhaustive. The two receipted
+  deaths of this class: L73's silent band, L132's direction-blind shuffle gate.
 
 ## 7. Close
 

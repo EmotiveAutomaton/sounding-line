@@ -187,6 +187,18 @@ Every future control declares which of these it is, because they license differe
 
 **A measure dies to a level-1 or level-2 control. A measure is only ever made *suspect* by level 5.**
 
+Two additions from the choice-recovery battery (2026-08-18), both control-class knowledge:
+
+6. **Analytic floor by truth balance** — subsample to equal events per label so the blind
+   arm's chance rate is exactly 1/k rather than a measured moving target. *The G129
+   construction (L64, re-derived at L126 when matching silently reweighted the labels).* A
+   floor you can derive is a floor nobody argues with; any reweighting of the population
+   (matching included) re-balances or re-measures.
+7. **Directional gates with both expectations derived** — a control arm's verdict gate states
+   the expectation under the null AND under the alternative, and the direction of the failure
+   it guards. *The L132 shuffle gate fired on the alternative's own signature because only the
+   null expectation was written down.* A gate with one expectation is half a gate.
+
 ---
 
 ## §7. What this costs us

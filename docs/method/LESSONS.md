@@ -194,6 +194,14 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+**STRUCTURAL, 2026-08-18 (his ruling, after the class recurred through the prose rule):**
+every new prereg card or gate-bearing runner carries a **DESIGN CHECK block** in its header,
+naming the sections of this file read for that design and deriving, for every gate, its
+expectation under the null AND under the alternative with the failure direction it guards,
+bands exhaustive. The `design_lint` PostToolUse hook enforces presence; the derivations'
+correctness still binds by being read. Receipts for the class: L73 (silent verdict band),
+L132 (a shuffle gate that voided the alternative's own signature).
+
 - **Validate the ruler on data whose answer you know, before the signal.** Hard rule; planted
   known-answer gates are cheap and they fire (a trusted criterion once returned 335 components
   on pure noise; PD-34's planted-trend gate; the event-harness gates caught two of its own
