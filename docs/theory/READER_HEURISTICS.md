@@ -364,7 +364,7 @@ The cue family, by function rather than by source:
 | **G85** | Intention elicitation with a pre-registered target | **ALREADY BUILT.** The intent ladder is this protocol, validated on stone since 2010, with the R² = 0.655 ceiling attached |
 | **G86** | A mechanical null model: subtract what the medium forces | **OPEN.** The right shape for choice-versus-constraint; the analogous model degrades badly off the bench. The program's event-recovery harness carries this as its forced-constraint null |
 | **G87** | Stage-differentiated partition by visibility | **SUPPORTED (test).** Clean double crossover; canonical row in `DECISION_TRACES.md` §3, dashboard §11 |
-| **G88** | Error handling — repair, concealment, compensation, non-recognition, and repetition — recovers maker trajectory better than error rate | **OPEN.** The handling state may expose recognition, counterfactual preference, metacognition, and the goal being protected; requires a no-error class and an unfamiliar-order control |
+| **G88** | Error handling — repair, concealment, compensation, non-recognition, and repetition — recovers maker trajectory better than error rate | **RULER VALIDATED IN CONSTRUCTION (test-side toy, L147); text form running.** The likelihood ruler separates all five planted handling classes at 1.0 with clean walks honest at 0.98, unfamiliar order never called error, and repair/concealment fully split, replicated on fresh seeds — the no-error class and unfamiliar-order control this row demanded are now gates it passed. The text battery (G162-R, preregistered) asks the first natural-language form: whether concealment separates from non-recognition in final artifacts, validation-first |
 | **G89** | Rigidity under perturbation as the novice signature | **OPEN.** Implies the active probe |
 | **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention**, and the program's required output format for choice recovery |
 | **G91** | Inter-annotator agreement and per-feature accuracy before believing any extraction | **OPEN, and mandatory.** An aggregate concealed a worse-than-chance category |
@@ -373,11 +373,13 @@ The cue family, by function rather than by source:
 already built, and a discipline. The visibility partition produced a clean double crossover on its
 first pass, the intent ladder turns out to be the field's own elicitation protocol with a ceiling
 attached that reframes every recovery number, and the rest of the family is method, not yet
-measurement. Error handling (G88) is now the trace family with a defined ruler rather than a bare
-intuition: the Phase 2.2 program specifies its known-answer battery over handling states, with a
-no-error class and an unfamiliar-order control, and no evidence has yet been obtained. Confidence:
-the partition is one bad test away; the ceiling import is replicated in its home field; the open
-rows are untested.
+measurement. Error handling (G88) has crossed from defined ruler to validated ruler: the constructed-world
+battery passed every gate it preregistered, including the two this section demanded (a no-error
+class the ruler leaves honest, an unfamiliar-order class it never calls error), and replicated
+on fresh seeds, so the trace family now has a working instrument whose text form is the open
+question rather than its possibility. Confidence: the partition is one bad test away; the ruler
+validation is one bad test away and constructed-world only; the ceiling import is replicated in
+its home field; the remaining rows are untested.
 
 ## §7. Habit, concealment, and revision
 
