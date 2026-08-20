@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-19 21:52",
+  "started": "2026-08-19 22:13",
   "stages": [
     {
       "name": "feature_visibility",
@@ -629,9 +629,28 @@
       "name": "g159_rec_p_minus",
       "why": "G159 arm p_minus under the frozen card: realized-choice recovery with echo-matched decoys; the P- twins are the leak gate and realization null; the delta arm is interface I2, reported separately",
       "est_minutes": 60,
-      "status": "RUNNING",
-      "log": "results\\g159_rec_p_minus.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g159_rec_delta",
+      "why": "G159 arm delta under the frozen card: realized-choice recovery with echo-matched decoys; the P- twins are the leak gate and realization null; the delta arm is interface I2, reported separately",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan25_wqd_medium_s43",
+      "why": "G148 medium gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "pan25_wqd_medium_s44",
+      "why": "G148 medium gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
+      "est_minutes": 150,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "1/3"
+  "shard": "1/3",
+  "finished": "2026-08-19 22:13",
+  "failed": []
 }

@@ -5903,6 +5903,77 @@ no detector number on quality-unmatched cells means anything.
 - **Detail pointer:** `results/g153_pilot/matched_ref.json`; L135's
   `surface_ref.json` beside it.
 
+## L146 · The realized-choice battery lands SUPPORTED: executed instructions leave massive artifact-only evidence in both families, most of it vocabulary-borne, with a thirteen-point reader margin above the word-overlap bar
+
+**Hypothesis.** *(G159, `prereg/g159.py`, frozen before the run — Phase 2.1.5's decisive
+study and Phase 2.2A's closure boundary: can the artifact-only reader distinguish verified
+executed instructions from uninstructed twins when echo and consequence are controlled?)*
+
+**Method.** Forced choice at k = 4 on the rebuilt corpus: 100 assigned problem
+instructions on instructed rewrites (P+) against 100 counterfactual sets on their
+uninstructed twins (P−, the leak gate whose expectation is chance under BOTH null and
+alternative), echo-matched decoys chosen at construction, blind floor, fabrication arm
+with a none option, the surface-mechanical side channel, and the paired-delta arm
+reported separately under the interface rule.
+
+| arm | read | meaning |
+|---|---|---|
+| P+ recovery (artifact only) | **0.86** | llama 0.86, qwen 0.86 — identical in seen and held-out families |
+| P− twins (the leak gate) | 0.22 | quiet: nothing executed reads at chance |
+| **execution effect (the primary)** | **0.64** (z = 9.1) | band **SUPPORTED** (threshold 0.15) |
+| echo bar on P+ | **0.73** | the matching disclosure fired: word overlap alone recovers executed instructions at 0.73 |
+| reader margin above echo | **+0.13** | what the reader demonstrably adds beyond vocabulary |
+| blind floor | 0.32 (one-sided p 0.069) | inside its gate, elevated; a candidate-popularity prior worth noting |
+| paired-delta arm (I2) | 0.83 | the delta does NOT help here — the whole rewrite realizes the instructions, so the final text already carries the evidence |
+| fabrication on twins (none option) | **0.40 over-attribution** | far above L140's 0.05 on cold essays: a visibly rewritten text pulls the reader into asserting intent |
+| surface-mechanical arm | 0.25 (oracle 1.0, zero wiring defects) | replicates L140 on a second corpus: the reader cannot verify formal constraints that a string test verifies trivially |
+
+*Caption: chance 0.25 throughout. P+ texts were instructed to apply the choice; P− twins
+got the identical rewrite request with nothing shown. The echo bar picks the candidate
+whose content words overlap the text most.*
+
+**Found.** Realized choices leave artifact-only evidence, decisively: 64 points over the
+twin control, transferring perfectly across families, with every preregistered gate quiet
+in its guarded direction. The honest cap, disclosed by the card's own rule: most of that
+evidence is vocabulary-borne. Executing a semantic instruction embeds its words — the
+0.73 echo bar on executed text is not purely a leak, it is partly what execution looks
+like — so the demonstrated reader contribution beyond word overlap is thirteen points,
+not sixty-four. Three sharp secondary reads: the delta interface adds nothing when the
+final artifact already realizes the choices (the ArgRewrite situation inverts); the
+reader's fabrication is context-dependent (0.05 on cold essays, 0.40 on visibly rewritten
+text — a rewrite invites intent attribution); and the constraint-verification null
+replicates on a second corpus.
+
+**Means.** Phase 2.1 closes with its question answered as posed, and per the brief's
+routing (2.2 §11.1) the positive licenses continued trajectory recovery, never provenance
+attribution. What 2.2's batteries inherit: echo cannot be matched away at this pool size
+— it must be decomposed instead (echo-consistent versus echo-independent evidence as
+separate reported quantities); fabrication controls must use un-rewritten baselines or
+the none option under-reads honesty; formal constraints stay mechanically scored forever.
+The thirteen-point above-echo margin, family-stable, is the quantity 2.2C's anomaly
+ruler and 2.2E's context conditioning now try to grow or kill.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Do choices a model actually executed leave evidence in
+  the finished text that a reader can find, compared against identical twins where nothing
+  was executed?
+- **Outcome class:** Strengthens
+- **Result:** A 64-point execution effect with all gates quiet, of which 13 points exceed
+  what word overlap alone recovers, identically in both model families.
+- **Project meaning:** Realized choices are recoverable from final artifacts; the
+  recoverable part is largely vocabulary-borne, so the representation program's next job
+  is separating echo-consistent from echo-independent evidence.
+- **Next engineering obligation:** 2.2C's anomaly-handling ruler (the next evidence
+  channel), with echo decomposition folded into every future card.
+- **Public claim:** Newly licensed at exploratory-confirmed scope: "verified executed
+  instructions are recoverable from the final artifact against matched uninstructed
+  controls" — never a provenance claim.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g159/verdict.json`, `prereg/g159.py` (sha256 at the landing
+  commit), all arms and partials on disk.
+
 ---
 
 # TIER 2 · SETTLED

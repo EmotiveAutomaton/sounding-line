@@ -1,0 +1,131 @@
+{
+ "prereg": "prereg/g159.py",
+ "gates": {
+  "blind": {
+   "accuracy": 0.32,
+   "n": 100,
+   "expectations": "null=alt=0.25",
+   "guarded_direction": "UP (leak)",
+   "p_above_floor": 0.06935,
+   "VOID_if": "one-sided p < 0.05",
+   "void": false
+  },
+  "p_minus": {
+   "accuracy": 0.22,
+   "n": 100,
+   "expectations": "null=alt=0.25; the leak gate: nothing executed, nothing echoes on twins",
+   "guarded_direction": "UP (leak)",
+   "p_above_floor": 0.78856,
+   "VOID_if": "one-sided p < 0.05",
+   "void": false
+  },
+  "echo_bar": {
+   "p_plus_echo": 0.73,
+   "p_minus_echo": 0.32,
+   "matching_holds": false,
+   "rule": "if echo fails upward, the P+ margin reads against max(echo, 0.25), disclosed"
+  },
+  "surface_oracle_wiring_defects": 0
+ },
+ "verdict": {
+  "execution_effect": {
+   "p_plus_accuracy": 0.86,
+   "p_minus_accuracy": 0.22,
+   "effect": 0.64,
+   "z": 9.08,
+   "p": 0.0,
+   "floor_used_for_margin_reading": 0.73,
+   "band": "SUPPORTED",
+   "power_note": "detectable-at-0.80-power effect ~0.18 at these n (card)"
+  }
+ },
+ "secondary": {
+  "fabrication": {
+   "arm": "fabrication",
+   "n": 100,
+   "n_parsed": 100,
+   "over_attribution_rate": 0.4
+  },
+  "surface": {
+   "arm": "surface",
+   "n": 20,
+   "n_parsed": 20,
+   "accuracy": 0.25
+  },
+  "delta_interface_I2": {
+   "arm": "delta",
+   "n": 100,
+   "n_parsed": 100,
+   "accuracy": 0.83
+  },
+  "interface_rule": "I2 reported separately, never pooled with I1 (contract 3b)"
+ },
+ "cells": {
+  "p_plus": {
+   "family": {
+    "llama": {
+     "n": 50,
+     "accuracy": 0.86
+    },
+    "qwen": {
+     "n": 50,
+     "accuracy": 0.86
+    }
+   },
+   "amount": {
+    "1": {
+     "n": 20,
+     "accuracy": 0.9
+    },
+    "4": {
+     "n": 80,
+     "accuracy": 0.85
+    }
+   }
+  },
+  "p_minus": {
+   "family": {
+    "llama": {
+     "n": 50,
+     "accuracy": 0.26
+    },
+    "qwen": {
+     "n": 50,
+     "accuracy": 0.18
+    }
+   },
+   "amount": {
+    "1": {
+     "n": 20,
+     "accuracy": 0.25
+    },
+    "4": {
+     "n": 80,
+     "accuracy": 0.2125
+    }
+   }
+  },
+  "delta": {
+   "family": {
+    "llama": {
+     "n": 50,
+     "accuracy": 0.8
+    },
+    "qwen": {
+     "n": 50,
+     "accuracy": 0.86
+    }
+   },
+   "amount": {
+    "1": {
+     "n": 20,
+     "accuracy": 0.95
+    },
+    "4": {
+     "n": 80,
+     "accuracy": 0.8
+    }
+   }
+  }
+ }
+}

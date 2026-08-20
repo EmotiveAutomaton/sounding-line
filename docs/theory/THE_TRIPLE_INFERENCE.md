@@ -81,6 +81,10 @@ values.** Drives may be inputs to action selection; values describe their persis
 Treating them as synonyms is why the third vertex has repeatedly appeared and disappeared in this
 file's history. Where his quotes say "values/drives" as one item, the prose keeps them split.
 
+"Human-invertible" names the degree to which a bounded human reader can reconstruct the three
+target families under declared context; it does not require a unique answer or causal identity
+with the maker's actual process.
+
 **"Three" refers to three questions, not three ontologically equal objects.** Goal and process are
 episode-things; the third question, the maker's persistent motivational organization, is a
 different *kind* of thing, defined across episodes, which is most of why it has been the hard one.
@@ -103,11 +107,20 @@ convergent nulls rather than a designed comparison; the rest is untested, logic 
 What the maker generates, what the artifact preserves, and what the reader reconstructs are three
 different things, and the theory has to keep them apart. A minimal generative account, held loosely:
 
-    G  = f(V, D, C)          the goal is selected under values, drives, and context
-    P  ~ pi(K, G, C)         the process is drawn from what expertise makes available
-    O  = h(P, C)             the artifact preserves the process, lossy, shaped by the medium
+    G_t = f(V, D_t, C_t, A_t)    the goal at time t is selected under values, drives,
+                                 context, and the current allocation of attention
+    P_t ~ pi(K, H, G_t, C_t)     the process step is drawn from what expertise and habit
+                                 make available
+    O   = h(P_1:T, C_1:T)        the artifact preserves the realized trajectory, lossy,
+                                 shaped by the medium
 
-    the reader approximates  p(G, P, V, D, K | artifacts, contexts)
+    reader R approximates  q_R(G, P, V, D, K, H | O, C)
+
+Here A names the time-varying allocation of attention and H the historical residue of
+repeated behavior. Naming attention does not explain why it moves; the allocation law
+remains open, and the reader recovers only a posterior over the hidden objects,
+conditioned on the reader's own machinery and declared context (the subscript R is doing
+real work: the output belongs to the reader-artifact-context relation, not to the maker).
 
 Stated this way, two facts fall out that the old formulation suppressed. A single artifact can
 support goal and process inference while values require multiple observations. And a commissioned,
@@ -124,10 +137,14 @@ self-generation:
 > This is specifically about doing it **to other people**. I'm referring to **the creator**. This is
 > maths you're doing **in your head, through embodied simulation, with the creator.**
 
-The stack is the model the reader builds and runs of the maker, on their own machinery. You
-simulate the maker with your own equipment, and the parts you lack are the parts you cannot recover.
-Embodied simulation is a candidate human *solver*, not part of the problem's definition, and his
-position on that framing is on record with its evidence named:
+The reader begins from a human self-model and modifies it toward the apparent maker. This
+supplies a tractable route through an otherwise underdetermined inference, but it also creates
+systematic projection: a human-coherent route is not proof that the maker used that route.
+Expertise, biography, tools, medium, and production records can change the posterior when
+supplied; hidden history that leaves no trace cannot. The self-simulation quote is canonical in
+[`READER_HEURISTICS.md`](READER_HEURISTICS.md) §1. Embodied simulation is a candidate human
+*solver*, not part of the problem's definition, and his position on that framing is on record
+with its evidence named:
 
 > This is one of the pieces that AI continually tries to sand down, the idea that human processes
 > are just one of many potential processes for reaching the goal. I am being led by the guiding
@@ -461,13 +478,15 @@ up with what the proofs demand:
 | what the proof needs | what he already assumes | his name for it |
 |---|---|---|
 | a bounded hypothesis space | human-shaped goals | **convergent midbrains** |
-| a known transition model | expertise | *"the transition model is just expertise"* |
+| a bounded or conditioned transition model | a reader-relative estimate of feasible trajectories, conditioned on domain, tools, context, and maker evidence | **expertise** |
 | a rationality / optimality principle | near-optimality | *"that's just MaxEnt"* |
 
 > *"Oh my god, it's my three assumptions."*
 
-The two unknowns the proofs call fatal are one quantity here, since *"the maker's competence is
-their expertise"*, and it is a quantity this project claims is partially recoverable. A fourth
+The project does not make the planner unknown disappear. It proposes that human priors and
+artifact traces may partially constrain the maker's transition map. That is useful narrowing,
+not a known planner, and it can fail completely when the relevant tools, conventions, or domain
+expertise are absent from the reader's context. A fourth
 candidate constraint is communicative intent:
 
 > **CIRL literature makes it easier for you to learn if you assume you have a teacher**, assuming that
@@ -503,7 +522,15 @@ replicated in its sources; the narrowing result is one bad test away, one toy wo
 catalogued definitions, which is why the mechanism is named for what it does. **Accurate attribution
 is not caring.** Nothing in this file bears on motivation to protect, which is
 [`ALIGNMENT.md`](ALIGNMENT.md)'s problem. **A model can reconstruct without experiencing**, the
-architecture file's bridge. **And value recovery is posterior narrowing, not mind duplication**:
+architecture file's bridge. **Human invertibility is representational, not genealogical.** A
+model can produce an artifact that supports a strong human-coherent reconstruction, especially
+when trained or instructed to do so; that does not make its internal mechanism human or the
+artifact human-authored. Conversely, low invertibility can reflect reader ignorance, unfamiliar
+expertise, institutional constraint, deliberate concealment, or sparse evidence rather than a
+nonhuman maker (the production-regime half is canonical in
+[`DECISION_TRACES.md`](DECISION_TRACES.md) §4; the alignment consequence in
+[`ALIGNMENT.md`](ALIGNMENT.md) §5). **And value recovery is posterior narrowing, not mind
+duplication**:
 
 > My personal end goal is to find a way to **give AI human empathy, but not human emotions**
 > [...] it requires some kind of subordinate solution space that converges on these **predictions of

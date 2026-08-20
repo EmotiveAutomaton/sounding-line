@@ -183,6 +183,18 @@ battery. 2.0F stacking now sits behind the Phase 2.1 gates AND 2.2G's eligibilit
 The adjudication set is unfrozen, superseded as ontology, retained as history. The
 curator-first theory loop (brief §13) is folded into `CLAUDE.md`.**
 
+**PHASE 2.1 CLOSED (2026-08-19 night, L146): the G159 realized-choice battery landed
+SUPPORTED under its frozen card — execution effect 0.64 (recovery 0.86 in BOTH families
+against 0.22 on uninstructed twins, z = 9.1), every gate quiet in its guarded direction,
+and the echo-disclosure rule fired honestly: word overlap alone recovers executed
+instructions at 0.73 (execution embeds vocabulary), so the reader's demonstrated
+above-trivia margin is 13 points, family-stable. Realization evidence is licensed;
+attribution is not; echo shifts from a matching target to a decomposition target in every
+Phase 2.2 card. The 2.2 theory errata is applied across all five owners same night
+(quotes inserted at their canonical homes, the corporate/machine table rebuilt as
+conditional organizations, the calibration rule split, ALIGNMENT's governor and
+anti-capture logic repaired, value-similarity trust gating held unresolved in the errata).**
+
 **Phase 2.1 execution status (2026-08-19, same day):** the foraging battery's first
 stages landed and cut deep — checkable realization 0.586 (L138), cheap features read the
 factorial target axis at 0.95 (L138), and the reader adjudicator FAILED its validation

@@ -106,9 +106,11 @@ terms:**
 - **Pragmatic value alone** is the standard framing, learn *W* then maximise it. **That is the one
   the impossibility results bite.**
 
-**Together they are a single objective with a governor whose setting is not free.** As the
-estimate sharpens the pragmatic term dominates and the system acts; where the estimate is poor the
-epistemic term dominates and the system asks rather than acts.
+Together they define the desired objective family, but the governor is not supplied by surprise
+minimization alone. The intended behavior is for epistemic pressure to dominate when the value
+estimate is poor and pragmatic pressure to rise as the estimate improves. How the system sets or
+learns that balance is an unsolved design problem and a possible location where the original
+alignment problem reappears.
 
 **Superseded** by his own reading of the research, kept as the original form:
 
@@ -162,11 +164,11 @@ whose objective includes reducing uncertainty about human values has **an appeti
 no subgroup can satisfy.** Narrowing the target population does not improve the estimate, it enlarges
 the residual uncertainty, and under this objective larger uncertainty is *more* costly, not less.
 
-**So the usual value-capture attack fails on its own terms.** The captured system remains maximally
-uncertain, and an uncertain optimiser with capability is precisely the thing that kills the people who
-captured it.
-
-**Value breadth is an instrumental requirement of the objective here, never an ethical add-on.**
+The proposed anti-capture mechanism is that no subgroup can satisfy an objective that prices
+residual uncertainty over the breadth of humanity. That conclusion does not yet follow. A system
+may narrow its reference class, manipulate people into predictability, adopt a convenient
+aggregation fiction, or set the epistemic/pragmatic balance to favor its captors. Population
+breadth is therefore a required property to derive, not a protection already obtained.
 
 ## §4. The failure modes, named now rather than discovered later
 
@@ -184,6 +186,10 @@ them.**
 4. **It may not be action-guiding.** A system that only ever seeks never acts on what it learns.
    Something has to convert the estimate into behaviour, **and that converter is where the original
    problem may simply reappear.**
+5. **Counterfeit invertibility.** Optimizing for human-readable decision traces may produce
+   artifacts that are easy to rationalize while the system's operative mechanism remains foreign or
+   hidden. A legibility loss can be Goodharted unless reconstruction is constrained by independent
+   process evidence and behavior.
 
 **Failure mode 2 is the one to take most seriously**, because it is the same structure as this
 project's own recurring error. **An instrument that optimises a proxy for a thing ends up destroying
@@ -204,6 +210,18 @@ seeking apparatus. It reads artifacts to recover a maker's goals, process and va
 with more and more varied evidence. **If that instrument worked, it would be the component this
 proposal requires, the part that does the approaching.**
 
+> Fully aligned AI would be able to produce human invertible artifacts easily. And I would in fact
+> even expect them to juice this idea up. They'd be able to, if they knew this human trick that we
+> do – if we could somehow use it – then they would automatically be able to do it better than us
+> almost immediately. And you would just immediately expect them to be able to maximally score high
+> on this. But it would have real effects.
+
+If human invertibility can be optimized, then the seeking apparatus has an outward-facing
+counterpart: a system can shape its own artifacts so human readers can reconstruct its operative
+goals, constraints, and alternatives. This could improve reciprocal alignment. It is not
+transparency by itself, because the artifact may expose a human-coherent rationale without
+exposing the mechanism that actually produced the choice.
+
 ## §6. Hypotheses
 
 **Every row is unsearched. That is the point of the file and also its largest weakness.**
@@ -216,7 +234,7 @@ proposal requires, the part that does the approaching.**
 | **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and the one to take most seriously.** **Same structure as this project's own recurring error**, an instrument that optimises a proxy destroying the thing. We have watched it happen ten times at small scale |
 | **AL-5** | Value capture fails structurally, because no subgroup can satisfy the appetite for evidence | **OPEN, unsearched.** **Social-choice work on value aggregation usually argues the opposite**, that aggregation is where alignment gets hard. A collision worth finding |
 | **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment. The only row here that could be settled without a literature pass |
-| **AL-7** | The instrument this project is building *is* the seeking apparatus this proposal requires | **OPEN.** **It is why this file lives in this repository** rather than in a notebook |
+| **AL-7** | The reconstruction instrument can become both the seeking apparatus and a reciprocal human-invertibility interface | **OPEN.** Upstream choice/process recovery is still gated; artifact legibility must be separated from causal transparency, and no alignment work wakes until the existing conditions hold. It is why this file lives in this repository rather than in a notebook |
 
 **What these add up to.** **Nothing here has been checked against anything, and that is the file's
 defining fact.** The seven rows are not independent. AL-1 is the claim, AL-2 and AL-3 are the halves

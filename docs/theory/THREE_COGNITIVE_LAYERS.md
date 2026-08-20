@@ -56,9 +56,11 @@ supports the artifact criterion rather than becoming the criterion.
 > emotions in order to converge upon a more appropriate goal extraction.**
 
 **Goal is not a fourth level.** He declined one. *"That's just not reasonable. It wouldn't be
-separable. Three, frankly, barely won't be."* A goal is **a weighting applied across all of them**,
-one component of the value weighting temporarily amplified by attention, so it needs to be readable
-as a modulation of whatever sits at each depth, not found at an address of its own.
+separable. Three, frankly, barely won't be."* A proximal goal is the currently attention-promoted
+region of the expertise-shaped possibility space, and its effects can be expressed through every
+functional level. Other motivations may remain active as learned constraints without occupying
+focal attention. Goal is therefore not a fourth address, but neither is every background
+deformation a simultaneously conscious goal.
 
 **Expertise is weighted late, and goal reads through it:**
 
@@ -75,10 +77,28 @@ as a modulation of whatever sits at each depth, not found at an address of its o
 > in some way. There's just a lot more of it in general. And you'd expect more goal-related
 > information to be somehow associated with the actual process itself.
 
-Cognitive expertise here means the higher-order metaphorical layer, the entry vertex most people
-use on media at all (**media literacy** is the common-language name for exactly this general skill),
-as against the mechanical layer. And in humans goal direction draws on all three levels. *"I would
-say middle and late are where you get most of it. **In AI I genuinely have no idea.**"*
+> The actual answer is the constraint on the trajectory. It's a constraint on not a learned policy,
+> but a trajectory. That's what expertise is, right?
+
+> The active goal is where your attention is focused. And so if you take a moment in the middle of
+> the sentence – you might write something that's pretty elegant, and it comes to your attention that
+> with a little bit of effort it could be beautifully elegant – all of a sudden your attention is
+> focused on maximizing that for a moment because it's been elevated and pulled your attention to
+> it. And so sometimes those things can become active goals. For the most part, however, they are
+> distortions in the possibility space caused by your expertise.
+
+Expertise is the learned transition structure through which all three functional levels can
+constrain action. It is shaped by previous attention, practice, correction, and embodiment, but
+it is not identical to any one depth, to conscious executive control, or to a stored policy. A
+background concern can deform the reachable trajectories without becoming the current focal goal;
+when attention promotes it, it becomes an active proximal goal.
+
+Expertise can be expressed at mechanics, technique, and purpose levels. Media literacy is one
+high-level entry competence, not the definition of expertise. The transition map spans the
+hierarchy: brush control can make metaphorical control reachable, and conceptual expertise can
+redirect lower-level execution. Which portion is visible depends on the task, tools, medium, and
+reader. In humans goal direction draws on all three levels. *"I would say middle and late are
+where you get most of it. **In AI I genuinely have no idea.**"*
 
 **The scaffold has a known gap, the missing positive channel.** The eight concepts read are
 Panksepp's seven plus `none_recoverable`, with no happiness and no positive valence as such:
@@ -91,6 +111,11 @@ Both are candidate modelings rather than a claimed dichotomy. What positive affe
 there would come out of the data, not out of an initial musing on one specific channel; the
 suppression experiment below separates these two without excluding others.
 
+Human goals can genuinely drift when attention relocates, but surface movement is not sufficient
+evidence of goal drift. The same persistent concern can appear and disappear as opportunity and
+expertise change its local expression. Serial switching is a candidate description of focal
+control, not a frozen mechanism.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G26** | A goal is a weighting across all levels rather than a level of its own | **OPEN, adopted as the working position** |
@@ -99,12 +124,14 @@ suppression experiment below separates these two without excluding others.
 | **G73** | Positive affect is a readout over the seven channels | **OPEN.** Suppressing one channel should move it proportionally |
 | **G74** | Positive affect is a conjoined gate requiring all seven un-inhibited | **OPEN.** Suppressing any one should collapse it; a single suppression experiment separates the two |
 
-**What the table says.** The scaffold itself is theory. Its one adopted position (goal as
-weighting) and its one testable sharpening (late blocks making expertise more decodable, with no
-single anatomical address claimed) have never been run, and every affect reading the project has
-produced is blind to positive affect except where it leaks through seeking, play, or care, with
-the two positive-affect rows held as candidate modelings rather than an exhaustive pair.
-Confidence: untested, logic only.
+**What the table says.** The scaffold itself is theory. Its one adopted position (a proximal
+goal as the attention-promoted region of the expertise-shaped possibility space, expressed
+through every level, with expertise itself the learned transition structure rather than a stored
+policy or a single depth) and its one testable sharpening (late blocks making expertise more
+decodable, with no single anatomical address claimed) have never been run, and every affect
+reading the project has produced is blind to positive affect except where it leaks through
+seeking, play, or care, with the two positive-affect rows held as candidate modelings rather
+than an exhaustive pair. Confidence: untested, logic only.
 
 ## §2. The reconstruction bridge: what a model is doing, in reserved words
 
@@ -124,9 +151,11 @@ Confidence: untested, logic only.
 > That's what I mean by ghosts of a human brain. An **imperfect reconstruction of functional aspects
 > of human anatomy**, or expertise and experience, perhaps even distributed.
 
-A language model trained on human text is a *reconstruction* of the process that produced the text,
-built by prediction, inheriting the shape of what it reconstructs, including where the
-reconstruction is bad. The errors are the interesting part.
+A language model trained on human text may reconstruct functional regularities of the processes
+that produced its training data strongly enough to support some human-shaped inferences. The
+current evidence establishes decodable geometry and tracking behavior, not that the model
+reproduces the human generative mechanism. "Ghosts of a human brain" remains the curator's
+organizing hypothesis, not an architectural finding. The errors are the interesting part.
 
 **Reserved vocabulary, because "layer" had come to mean four different things:**
 

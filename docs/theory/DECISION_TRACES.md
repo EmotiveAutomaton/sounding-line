@@ -77,7 +77,21 @@ events get summarized, as amount (how many independently recorded choices are re
 relations among them are recovered), and calibration (how often proposed recoveries are right,
 reported separately, never folded into depth). The denominator is declared choice opportunities or
 revision events, never words. Per-word density recreates the length trap that killed the first
-generation of measures.
+generation of measures. These summaries describe recovered structure. They do not estimate total
+cognitive work or authorship share. Dependencies can show how one choice organized others, but
+the number of dependent events is not itself a conversion rate between human and model
+contribution.
+
+> For iterative mixed control, you'd almost be able to see based upon who made the other's job
+> easier. Like the cognitive preemption, again, because someone else made the decisions for you
+> ahead of time, and you kind of just go with the flow. Either one of them could actually drive it.
+
+A decision event is a recovery unit, not an equal-weight cognitive atom. Event count, formation
+difficulty, trajectory leverage, episode control, dependency structure, and trace support are
+different quantities. A thesis can pre-empt a large downstream search space while fifty
+punctuation events remain separately visible; a later editor can reclaim control by rejecting or
+rebuilding the upstream structure. No human/model contribution ratio may be computed by counting
+recovered events as exchangeable units.
 
 The essay already names polish's first half. Aesthetics is *"the honeypot... the word for how much an
 object forces you to stare at it."* **Polish is honeypot density plus scaffolding density. It is not
@@ -144,7 +158,12 @@ test. *"I don't know if they're extricable or not."*
 
 His readings contain both directions, *"thin to start but got thicker as it went down... but it
 stayed equivalently thick throughout on the bottom"*, so what is stable is the **asymmetry, not the
-direction**. The movement is attention reallocating across sub-goals, whichever way it moves.
+direction**. The observed movement has at least three candidate causes: focal attention
+relocating, the same background goals finding different opportunities for expression, and genuine
+goal drift. A surface shift does not identify which occurred. The measurable claim is
+order-sensitive movement in recoverable constraints; the motivational interpretation remains open.
+
+**Superseded in scope** by the three-candidate distinction above; kept as the hypothesis source:
 
 > **Depth is stationary within an artifact; polish is not. Polish variance across an artifact is a
 > maker signature; depth variance is not.**
@@ -266,6 +285,23 @@ that mechanism. Style survives intent because it was never held.
 The automatic decisions are a class this project spent a long time not counting, and under the
 restated goal they are recorded decisions like any other, recovered first and summarized after.
 
+> Previous decisions enter by allowing you to stack more decisions on top of them. The painter
+> doesn't have to think about how to hold the brush because he's thinking about the metaphor and the
+> feeling he wants to convey.
+
+Automaticity is therefore not zero decision structure. It is compiled reachability: earlier
+learning makes some present actions cheap and frees focal attention for another level. The
+artifact may preserve the resulting competence without preserving how much practice formed it.
+
+**Anomaly-handling traces.** Preserve these as distinct labels: unexplained order; apparent
+error; confirmed error; noticed and repaired; noticed and concealed or compensated for; unnoticed
+isolated error; repeated error or habit; and false mistake caused by unfamiliar expertise or
+convention. The artifact may not identify the class, and "unknown" is a valid result. A choice
+that appears locally defective may serve a secondary goal the reader has not recovered, so a
+mistake is never defined simply as whatever fails the reconstructed primary goal. (The reader's
+entry rule and handling evidence live in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §2; this
+file owns the trace classes.)
+
 | # | hypothesis | status |
 |---|---|---|
 | **S-3** | An involuntary leak channel is readable | **SUPPORTED (sim)** at 0.90 |
@@ -322,11 +358,26 @@ Logged before Gate 3 read out, so it could not be used to reinterpret it:
 > intention and replace it with money.** [...] It is a flattening of human motivation, and that's why
 > it's so repulsive to artists that live in a world of motivation extraction.
 
-| | decision density | motivation | invertibility |
-|---|---|---|---|
-| **individual human** | high | many terminal values, layered | recoverable, multi-level |
-| **corporate** | **also high, user-facing** | **flattened; subsidiary goals sanded down** | **immediately recoverable, one level** |
-| **machine** | ? | present but foreign | **non-invertible for human readers, the wall** |
+> The problem is that what if there is corporate depth, but I can't see it specifically? ... The
+> center, the support structure for the centerpiece goal, becomes more structured as different
+> people iron out the kinks of it. So the center goal becomes more solid as the secondary and
+> tertiary goals become less present as more people get involved. This would apply to academic
+> papers too.
+
+> I do want to note with corporate flattening that it could be all of those depending on the
+> observer.
+
+| observed artifact organization | candidate production account | invertibility risk |
+|---|---|---|
+| recoverable plurality | several goals or constraints leave distinguishable traces | reader may still project the wrong hierarchy |
+| strong centerpiece with weak subsidiary traces | institutional constraint, multi-author aggregation, deliberate professionalism, or genuine flattening | unfamiliar expertise can mimic flattening |
+| coherent but human-foreign organization | maker process poorly matched to the reader's generative priors | reader may invent a human-shaped actor |
+| deliberately human-invertible organization | maker optimizes comprehension support or supplies a human-readable rationale | legibility can exceed causal transparency |
+| underdetermined | artifact and context supply too little discriminating evidence | abstain; no topology claim |
+
+"Corporate" and "machine" are construction families for testing these cases, not definitions of
+the rows. The same artifact class can move between rows with reader expertise, supplied context,
+collaboration structure, and explicit optimization for human invertibility.
 
 The machine cell is corrected in his words, since "no motivation" was the imprecise form:
 
@@ -339,9 +390,19 @@ The machine cell is corrected in his words, since "no motivation" was the imprec
 > **flattened terminal organization**, where you often have fewer goals due to a kind of **sanding
 > down of the subsidiary goals** that still provide some action.
 
-Non-invertibility stays the observation; what changed is that the machine's motivation is foreign
-rather than absent, and the reader's own estimating tricks are what misfire on it. Under this
-reframe, Gate 2's high purpose-agreement on commercial work was the instrument working, since
+> Model choices can't be perfectly human invertible. That's actually one of my core theses and I
+> think you need to prove that to me. I think they can present a chain of logic at the surface level
+> that can kind of guide to how a human might have gotten to that invertible conclusion. But that
+> has to be forced in. It's not naturally something that they do. It's not like another human would
+> automatically make things that are human readable just through their existence. The model has to
+> try to, and it fails in large part.
+
+Non-invertibility remains a candidate observation about ordinary reader-model encounters, not an
+essential property of model authorship. The reader's human priors can misfire and produce a fake
+human-shaped maker; an explicitly guided or aligned system can also construct a translation layer
+that those priors successfully invert. Artifact legibility and causal mechanism must therefore be
+reported separately; the alignment consequence is canonical in [`ALIGNMENT.md`](ALIGNMENT.md) §5.
+Under this reframe, Gate 2's high purpose-agreement on commercial work was the instrument working, since
 an immediately reconstructable motivation *should* produce agreement between independent readings,
 recorded as the reason to build the successor design, not as evidence for it (the hypothesis
 arrived after the result). What the instrument should report, and has never been built to report,
@@ -366,7 +427,11 @@ The chain runs practice → automaticity → the decision leaves deliberate cont
 whatever is underneath → an expert's artifact carries more drive-derived variety than a novice's,
 without the expert choosing it. This is the mechanism the residue account of values runs on
 ([`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §5), and it explains why an expert cannot say
-*why* they did something while their artifact shows more of what they are.
+*why* they did something while their artifact shows more of what they are. Recoverable
+motivational plurality is indexed to a reader and context. A reader can miss real subsidiary
+structure through lack of domain expertise, while a polished rationale can create the appearance
+of plurality without corresponding causal control. "Soul" remains a notional artifact reading,
+not a maker essence.
 
 **Corporate work seen from the artifact side is overdeveloped user-facing density**, which
 replaces the earlier thinner-decision-density account:
@@ -410,11 +475,15 @@ three separate designs, the last with topic held fixed and an instrument that pr
 numbers, so agreement-between-readers looks like a property of coherent text rather than of dense
 intent. The breadth-style measures read difficulty, and the singularity measure has never been
 built. The quantity it would measure now has its working name, recoverable motivational
-plurality, notional until data supports claiming nouns, and the machine's cell reads foreign
-rather than empty, the reader's own estimating tricks misfiring into a hallucinated human-shaped
-maker. The soul claim's mechanism matters beyond this section, since if expertise does not move
-decisions into drives, the residue account of values loses its engine. The topology remains a good
-description whose positive half is measured and whose flattened half keeps refusing to be.
+plurality, notional until data supports claiming nouns, and the old maker-type table is
+rebuilt as conditional artifact organizations: corporate flattening and machine
+non-invertibility are readings an observer can reach for several different production reasons,
+not intrinsic labels, with unfamiliar expertise able to mimic flattening and an optimized
+translation layer able to mimic invertibility. The soul claim's mechanism matters beyond this
+section, since if expertise does not move decisions into drives, the residue account of values
+loses its engine. The topology remains a good description whose positive half is measured and
+whose flattened half keeps refusing to be, now with the added burden that any flattening claim
+names which production account the evidence discriminates toward.
 Confidence: the stacked-motivations reversal is replicated and controlled; the convergence null is
 one bad test away; the rest is untested or instrument-dead.
 
@@ -470,6 +539,7 @@ all fixed by construction.**
 | **G129** | Recorded revision purposes are recoverable from the delta by a bounded reader, beyond matched alternatives and beyond a cheap change-feature baseline | **CONFIRMED AT CONFIRMATORY GRADE ON THE SECOND, CORRECTLY-GATED RUN, WITH THE BASELINE WINNING THE INSTRUMENT CONTEST TWICE (test, L141 confirming L132; the demotion arc L137; pilot chain L62/L64/L65).** The first battery replicated recovery (0.4854 vs the analytic 0.25) but voided its own shuffle gate on a misspecified expectation and was demoted under its card's terms. The fresh battery (`prereg/g129b.py`, seed 37, every gate carrying null and alternative expectations with a direction) landed all gates quiet: recovery 0.4805 (REPLICATES, seed-stable to half a point), the balanced matched draw 0.415 (16.5 points, pilot tier as pre-committed at 200 of the powered 283 after the one specified caliper relaxation), the shuffle arm 0.1136 beside its frozen 0.125 alternative expectation, fabrication 0.000 twice (L132 1-of-200 sym miss; L141 0-of-200), and the change block beating the reader both times (0.5552 then 0.5471; McNemar p = 0.0097 and 0.0157). Scope: one corpus, one reader family; delta-interface only (the block reads both versions) |
 | **G158c** | A bounded reader identifies which instruction produced an essay from the essay alone | **SPLIT CLEANLY IN TWO (test, L140, exploratory).** On surface constraints whose satisfaction a string test verifies at 1.0, truth-balanced recovery is 0.25, exactly chance, while pure word-echo scores 0.375: the zero-shot reader does not check constraint satisfaction, it picks semantic familiarity, and its raw 0.41 was label frequency (collapses under balancing while echo rises). On problem-pool assignments it clears the word-echo bar by 11 points in both the seen and held-out family (0.909 vs 0.798), a transferring margin the corpus cannot decompose into executed choices versus assignment vocabulary leaking into the essay (echo alone reads assignment at 0.80). Fabrication clean in forced choice with an explicit none option (0.05), the same reader that over-credits 0.69 in yes/no verification (L139): the format is the instrument |
 | **G94** | Spec-style reconstruction posits decisions that were not there (the Taramsa failure) | **BOUNDED IN THE HONEST FORMAT (test, L143, exploratory).** On the ladder, where every true specification is reconstructable and join-checked, the reader given an explicit none option invented a specification on 1 of 10 unspecified texts, recovered real specifications at 0.52 against a 0.225 blind floor and a flat 0.40 word-echo bar, and its per-spec accuracy fell from 0.77 at three specifications to 0.44 at ten while echo stayed flat: dilution of trace, not vocabulary leakage. The same reader over-credits at 0.69 in yes/no verification (L139), so the fabrication risk is a property of the ASKING FORMAT, not a fixed property of the reader |
+| **G159** | Verified executed instructions leave recoverable evidence in the final artifact, against uninstructed twins with echo and consequence controlled | **SUPPORTED WITH THE ECHO CAP DISCLOSED (test, L146; preregistered, all gates quiet).** Executed problem-pool instructions recover at 0.86 in BOTH families against 0.22 on identical twins where nothing was executed (effect 0.64, z = 9.1); the twin leak gate, whose expectation is chance under null AND alternative, stayed quiet. The card's echo-disclosure rule fired: word overlap alone recovers executed instructions at 0.73, because executing a semantic instruction embeds its vocabulary, so the reader's demonstrated contribution beyond words is thirteen points, family-stable. The paired-delta interface adds nothing here (0.83) since the final text already realizes the choices; fabrication is context-dependent (0.05 on cold essays, 0.40 on visibly rewritten twins); the constraint-verification null replicates (surface arm 0.25 with the mechanical oracle at 1.0). Echo is not matchable away at this pool size and becomes a decomposition target, not a matching target |
 | **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73), the raised floor DECOMPOSED (test, L126).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither. The floor's rise is 87% label-marginal alignment: matching reweighted the truth labels toward the ones the blind reader guesses by default, no text information involved, so the delta-specific remainder stands against a compositional floor rather than a covariate-information one. Owed: the powered matched replication, now the G129 confirmatory battery, whose matched draw truth-balances within common support to restore the analytic floor |
 
 **What the table says.** Recorded purposes are recoverable from the delta at confirmatory
@@ -490,13 +560,20 @@ verifier, and its honesty is format-bound: near-zero fabrication in forced choic
 none option (one invention in ten even on thousand-word unspecified texts, with real
 specifications recovered twelve points above the word-echo bar and diluting as
 specifications multiply), massive over-credit in yes/no verification. The construct question — whether
-any of this tracks decision structure rather than corpus particulars — now has its design
-constraints measured (echo equalized by construction, consequence-matched decoys,
-mechanical scoring for formal constraints) and belongs to the rebuilt factorial. The
+any of this tracks decision structure rather than corpus particulars — now has its first
+preregistered answer on the rebuilt factorial: executed choices ARE recoverable from final
+artifacts against uninstructed twins, sixty-four points with every gate quiet and perfect
+family transfer, of which thirteen points exceed the word-overlap bar. The cap is as
+informative as the effect: execution embeds vocabulary, so echo on executed text is partly
+realization trace rather than pure leak, and the program's representational job shifts from
+matching echo away (impossible at this pool size) to decomposing evidence into
+echo-consistent and echo-independent parts. The two corpora also bracket the reader's
+fabrication behavior: honest on cold text, intent-attributing on visibly revised text. The
 hurried-versus-careful commission remains the designed extension. Confidence: the
 paired-delta recovery claim is replicated and controlled (two batteries, gates quiet; scope
-one corpus, one reader family); the artifact-only reads are one bad test away, exploratory
-by declaration; the collapse and floor decomposition stand as before. The hurried-versus-careful commission
+one corpus, one reader family); the realized-choice result is one bad test away
+(preregistered, one corpus pair, one reader family); the earlier artifact-only reads stay
+exploratory; the collapse and floor decomposition stand as before. The hurried-versus-careful commission
 remains the designed extension. Confidence: the replication is one bad test away pending the
 fresh confirmatory run; the collapse and the floor decomposition stand as before.
 

@@ -104,6 +104,8 @@ TESTS = [
     # to zero); registered as diagnostic so the quoted number is on the ledger with its label
     ("L142 G97 diff intercept (void-by-construction)", 0.8702, "diagnostic",
      "results/g97/maker_effect.json"),
+    ("L146 G159 execution effect two-proportion z", 1.1e-19, "primary",
+     "results/g159/verdict.json"),
     ("L74 PD-34 books movement split",    1.263e-05, "primary", "results/positional_polish/pd34_books.json"),
     ("L74 PD-34 essays movement split",   4.207e-01, "primary", "results/positional_polish/pd34_argrewrite.json"),
     ("L89 PD-3 machine movement",         2.015e-06, "primary", "results/positional_polish/pd3_ladder3.json"),

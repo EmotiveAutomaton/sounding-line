@@ -87,18 +87,45 @@ shifts when told the text is machine-made, small, fixed in direction, replicated
 disclosure label does to a human reader, the reading machinery itself is not neutral to claimed
 provenance.
 
+> I think what actually people do is they assume what they would need to do in order to come to
+> this conclusion. And it's probabilistic in a lot of ways. You can't just say, "Oh, I would just
+> instantly know." You'd have to somehow put yourself in a situation where you'd say, "Oh, I could
+> see how I could have come to that conclusion." And that allows you to arrive to it in the same way
+> they did to an extent, or at least you believe you arrived in the same way they did, whether or
+> not that's true. Again, you started with your own perspective.
+
+The reader's self-model is the default prior beneath the other priors in this section. It supplies
+candidate routes and effort estimates, then is adjusted using evidence about the maker. It also
+creates a characteristic failure: a sufficiently flexible reader can explain almost anything as
+something the reader might have done. Reader identity, domain competence, and conditioning must
+therefore be recorded as part of the instrument.
+
 ## §2. Finding an entry point
 
 > The thing that most jumps out at me isn't mistakes but **unusual constructions, or odd decisions
 > that I can't find an explanation for.**
 
-Reading enters at an **anomaly**, never at the artifact as a whole, then runs purpose→method and
-method→purpose from wherever the reader has partial expertise. His own discomfort, recorded because
+An anomaly is one high-yield entry point, especially when it exposes alternatives, but a reader
+can enter wherever prior expertise provides traction: purpose, technique, mechanics, familiar
+convention, explicit context, or an unusual construction. From the entry the reading runs
+purpose→method and method→purpose. His own discomfort, recorded because
 he raised it. *"I hate that a lot of this is me picking out mistakes and typos, which is also a
-trick for AI and it's not okay. But it is a way of extracting decisions."* A **mistake** is the
-sharpened case, an anomaly with a *known cause*, so the response to it is a decision with its
-alternatives visible. *"The mistake, and the way the author can be presumed to have responded to it,
+trick for AI and it's not okay. But it is a way of extracting decisions."* *"The mistake, and the
+way the author can be presumed to have responded to it,
 is one of the more useful pieces of information once you have observed it."*
+
+> I think mistakes are actually and almost certainly an interesting vector that is almost always,
+> if you can find it, a way into the author's perspective. Sometimes the author tries to fix it, or
+> conceal it, or cover it up in some way, and you can catch them. That's very different from making
+> a mistake and not noticing or making a mistake repeatedly.
+
+A mistake is a sharpened anomaly for which evidence supports a mismatch between a choice and the
+maker's operative trajectory. The strongest evidence often comes from handling: repair exposes a
+preferred counterfactual, concealment exposes recognition and a protected goal, repetition
+suggests habit or a stable transition-map limitation, and non-response suggests either
+non-recognition or indifference. Unfamiliar order remains unresolved until evidence distinguishes
+expertise, convention, secondary purpose, accident, and error (the trace classes are canonical in
+[`DECISION_TRACES.md`](DECISION_TRACES.md) §3).
 
 Two calibrations on this cue family. **Entry efficiency is not final quality.** The simulation found
 anomaly-first ordering saves ~5% of cost and changes the answer by exactly zero, which bounds the
@@ -259,6 +286,15 @@ Confidence: untested, logic only.
 > structure but can't identify the function of it, then it remains **part of a puzzle to be
 > solved.**
 
+> It is fair to say that order you don't understand can often look like a mistake. So, an
+> interesting thing is the name for that order when you haven't yet decided, or when you've decided
+> it isn't a mistake, perhaps, even if you don't know what it is. Perhaps that's what all of
+> aesthetics is.
+
+The first part sharpens "ordered but unexplained" as an abstention state between comprehension and
+error. The suggestion that this may define all aesthetics remains an open extension, since
+aesthetics can also involve fluency, attraction, convention, affect, and successful recognition.
+
 **Interest is the continuation signal.** Unresolved but apparently structured decisions keep the
 reader searching, which makes reader-reported interest an instrument:
 
@@ -328,7 +364,7 @@ The cue family, by function rather than by source:
 | **G85** | Intention elicitation with a pre-registered target | **ALREADY BUILT.** The intent ladder is this protocol, validated on stone since 2010, with the R² = 0.655 ceiling attached |
 | **G86** | A mechanical null model: subtract what the medium forces | **OPEN.** The right shape for choice-versus-constraint; the analogous model degrades badly off the bench. The program's event-recovery harness carries this as its forced-constraint null |
 | **G87** | Stage-differentiated partition by visibility | **SUPPORTED (test).** Clean double crossover; canonical row in `DECISION_TRACES.md` §3, dashboard §11 |
-| **G88** | Error *handling* rather than error rate | **OPEN.** Measures metacognition, not execution |
+| **G88** | Error handling — repair, concealment, compensation, non-recognition, and repetition — recovers maker trajectory better than error rate | **OPEN.** The handling state may expose recognition, counterfactual preference, metacognition, and the goal being protected; requires a no-error class and an unfamiliar-order control |
 | **G89** | Rigidity under perturbation as the novice signature | **OPEN.** Implies the active probe |
 | **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention**, and the program's required output format for choice recovery |
 | **G91** | Inter-annotator agreement and per-feature accuracy before believing any extraction | **OPEN, and mandatory.** An aggregate concealed a worse-than-chance category |
@@ -337,8 +373,11 @@ The cue family, by function rather than by source:
 already built, and a discipline. The visibility partition produced a clean double crossover on its
 first pass, the intent ladder turns out to be the field's own elicitation protocol with a ceiling
 attached that reframes every recovery number, and the rest of the family is method, not yet
-measurement. Confidence: the partition is one bad test away; the ceiling import is replicated in
-its home field; the open rows are untested.
+measurement. Error handling (G88) is now the trace family with a defined ruler rather than a bare
+intuition: the Phase 2.2 program specifies its known-answer battery over handling states, with a
+no-error class and an unfamiliar-order control, and no evidence has yet been obtained. Confidence:
+the partition is one bad test away; the ceiling import is replicated in its home field; the open
+rows are untested.
 
 ## §7. Habit, concealment, and revision
 
@@ -445,7 +484,11 @@ full. The asymmetry he names is the sharpest thing here:
 
 If right, the missing thing in generated text is the second half of a collaboration, a third
 account of the unease, distinct from broken polish-effort and flattened intent, and the three
-predict different things. The effort heuristic belongs to the same family:
+predict different things. Treat the taking-not-giving asymmetry as a claim about ordinary
+production conditions, not an incapacity of models: a system can be instructed or trained to
+model the reader and add comprehension support, and the open question is whether the resulting
+artifact supports genuine, independently constrained reconstruction or merely supplies a
+persuasive human-shaped rationale. The effort heuristic belongs to the same family:
 
 > Aesthetics is one of the **easiest goals to judge**, because it is literally surface polish – you
 > can explicitly judge whether the maker succeeded at it, and implicitly the value of what you are
@@ -524,9 +567,17 @@ is the standing warning, with its honest scope, since the authors themselves con
 implementation rather than concept. Report identifiability the way their best work does. *"These
 two processes separate at 80% under cross-validation, on this feature set."* Never *"we can read
 the maker."* And Ginzburg's boundary stands over everything. The evidential paradigm is
-individualising, conjectural, with an unsuppressible speculative margin. **An instrument that
-outputs a confidence percentage claims a status this entire tradition says is unavailable**, which
-is why the field built a graded vocabulary instead.
+individualising, conjectural, with an unsuppressible speculative margin. **An introspective
+confidence percentage from one reader claims a precision the evidential tradition cannot supply**,
+which is why the field built a graded vocabulary instead. An empirically calibrated probability
+over a bounded, known-answer label set is different and permissible, provided the reader, context,
+interface, calibration population, and abstention behavior are reported. Neither form is a
+probability that the reconstructed human route was the maker's actual causal mechanism.
+
+A reconstruction must constrain evidence that did not build it: a withheld process fact, unseen
+repair, matched counterfactual, held-out segment, or second artifact under the same recorded
+process. This is not unconstrained prediction of the person. It is the minimum distinction between
+reconstruction and a flexible story fitted after the fact.
 
 ## §11. The instrument dashboard: adopted heuristics with measured strength
 
