@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-19 15:28",
+  "started": "2026-08-19 21:52",
   "stages": [
     {
       "name": "revision_purpose",
@@ -634,19 +634,12 @@
       "status": "SKIPPED (already done)"
     },
     {
-      "name": "pan25_wqd_hard_s43",
-      "why": "G148 hard gate, seed 43: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
-      "est_minutes": 150,
-      "status": "SKIPPED (already done)"
-    },
-    {
-      "name": "pan25_wqd_hard_s44",
-      "why": "G148 hard gate, seed 44: the three-seed interval the fine-tune verdict rule requires; the official reads stay local per the stone",
-      "est_minutes": 150,
-      "status": "SKIPPED (already done)"
+      "name": "g159_rec_blind",
+      "why": "G159 arm blind under the frozen card: realized-choice recovery with echo-matched decoys; the P- twins are the leak gate and realization null; the delta arm is interface I2, reported separately",
+      "est_minutes": 40,
+      "status": "RUNNING",
+      "log": "results\\g159_rec_blind.log"
     }
   ],
-  "shard": "2/3",
-  "finished": "2026-08-19 15:28",
-  "failed": []
+  "shard": "2/3"
 }

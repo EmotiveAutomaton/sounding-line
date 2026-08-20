@@ -5854,6 +5854,55 @@ candidate-construction leak, direction up, preregistered).
 - **Curator decision required:** No.
 - **Detail pointer:** `corpora/g159_rebuild/realization_audit.json`, manifests per family.
 
+## L145 · Matching length and register does not defeat the leakage reference: the trivia detector holds at 0.966
+
+**Hypothesis.** *(2.1.6's first matched cell: L135 read the unmatched pilot at 0.9785 with
+nine statics and forty function-word rates — does that number collapse when length and
+register are matched by construction, which would mean it was carried by the two most
+obvious confounds?)*
+
+**Method.** Machine side G153 thin-prompt essays plus G159 rewrites, human side ArgRewrite
+Draft1 essays (register matched by class: argumentative essays both sides), length matched
+by equal-count quintile strata inside the shared word-count overlap (88 per side kept,
+drops counted), same features and model as L135, GroupKFold by lineage.
+
+| cell | accuracy | AUC |
+|---|---|---|
+| unmatched pilot (L135) | 0.9785 | 0.9921 |
+| length + register matched | **0.9659** | **0.9897** |
+
+*Caption: identical feature list and cross-validation; the only change is the matching.
+A collapse here would have licensed length-banding as the main repair; it did not come.*
+
+**Found.** The reference barely moves. Whatever the statics and function words read, it is
+not length and it is not register-by-class. The honest suspects on this pilot are quality
+and era: polished 2026 model prose against 2016 student drafts with their typos and
+disfluencies — precisely the quality axis the contract lists as a matching requirement
+and this cell does not control.
+
+**Means.** 2.1.6's priorities reorder on a measurement: quality matching and the
+identical-source different-transformation lineages (one source, many process histories)
+are the binding repairs; length banding is necessary but nearly worthless alone. Every
+benchmark cell keeps this reference's per-cell read as its standing shortcut label, and
+no detector number on quality-unmatched cells means anything.
+
+### Curator roll-up
+
+- **Theory group:** Infrastructure (the benchmark)
+- **Question in plain language:** Does the cheap-feature detector die when we match text
+  length and genre?
+- **Outcome class:** Narrows
+- **Result:** 0.9659 matched against 0.9785 unmatched — matching the two obvious
+  confounds removes almost nothing.
+- **Project meaning:** The pilot's shortcut lives in quality and era, so those are what
+  the human-negative assembly must match; length bands alone buy nothing.
+- **Next engineering obligation:** Quality-matched cells and identical-source lineages in
+  the 2.1.6 assembly.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g153_pilot/matched_ref.json`; L135's
+  `surface_ref.json` beside it.
+
 ---
 
 # TIER 2 · SETTLED

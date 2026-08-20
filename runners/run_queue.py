@@ -1441,6 +1441,31 @@ STAGES += [
             "the Taramsa fabrication number"},
 ]
 
+# ── G159 RECOVERY BATTERY 2026-08-19 evening (prereg/g159.py, frozen; Phase 2.1.5's
+# decisive study and Phase 2.2A's closure boundary; appended at list end per the
+# ownership lesson). Manifest built at freeze: P+ 100 / P- 100 / S+ 20.
+for _arm, _est in (("p_plus", 60), ("p_minus", 60), ("blind", 40),
+                   ("fabrication", 60), ("surface", 20), ("delta", 90)):
+    STAGES += [
+        {"name": f"g159_rec_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g159_recovery.py", "--arm", _arm],
+         "produces": f"results/g159/{_arm}.json",
+         "needs": ["results/g159/manifest.json"],
+         "why": f"G159 arm {_arm} under the frozen card: realized-choice recovery with "
+                "echo-matched decoys; the P- twins are the leak gate and realization "
+                "null; the delta arm is interface I2, reported separately"},
+    ]
+STAGES += [
+    {"name": "g159_rec_verdict", "est": 10,
+     "cmd": [PY, "runners/run_g159_recovery.py", "--verdict"],
+     "produces": "results/g159/verdict.json",
+     "needs": ["results/g159/p_plus.json", "results/g159/p_minus.json",
+               "results/g159/blind.json", "results/g159/fabrication.json",
+               "results/g159/surface.json", "results/g159/delta.json"],
+     "why": "G159 verdict: one-sided gates in guarded directions, echo-bar matching "
+            "validation, the execution effect banded per the card, oracle wiring check"},
+]
+
 # ── EVENING RESTOCK 2026-08-16: the wqd hard gate landed 0.8293 vs printed 0.830 (seven
 # ten-thousandths; L128) and easy landed 0.9535 vs 0.958. The fine-tune verdict rule
 # (standing ruling 3, the referee refinement) grades on the three-seed interval, so both
@@ -1462,6 +1487,8 @@ for _d, _s in (("hard", 43), ("hard", 44), ("easy", 43), ("easy", 44),
 _GPU_HEAVY_PREFIXES = ("pan_", "pan25_", "sw_", "scholawrite_", "gen_fiction")
 _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen_llama",
                     "g159_gen_qwen", "g159_gen_llama", "g94_taramsa_gpu",
+                    "g159_rec_p_plus", "g159_rec_p_minus", "g159_rec_blind",
+                    "g159_rec_fabrication", "g159_rec_surface", "g159_rec_delta",
                     "g131_gen_qwen", "g131_gen_llama",
                     "g129_recovery", "g129_blind", "g129_shuffle", "g129_brief",
                     "g129_source", "g129_unchanged", "g129_recovery_matched",
