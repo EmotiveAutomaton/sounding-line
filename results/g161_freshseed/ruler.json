@@ -1,0 +1,108 @@
+{
+ "prereg": "runner docstring DESIGN CHECK",
+ "seed": 23877,
+ "beta": 2.5,
+ "n_per_class": 50,
+ "thr_hard_episode_q05": -5.0473191227042555,
+ "thr_run_step_q15": -1.9141532251614073,
+ "thr_mid_step_q005": -4.231576784335845,
+ "null_false_episode_rate_measured": 0.035,
+ "confusion": {
+  "no_anomaly": {
+   "no_anomaly": 0.96,
+   "unexplained": 0.02,
+   "unnoticed": 0.0,
+   "repaired": 0.02,
+   "concealed": 0.0,
+   "repeated": 0.0,
+   "abstain": 0.0
+  },
+  "unexplained": {
+   "no_anomaly": 0.0,
+   "unexplained": 1.0,
+   "unnoticed": 0.0,
+   "repaired": 0.0,
+   "concealed": 0.0,
+   "repeated": 0.0,
+   "abstain": 0.0
+  },
+  "unnoticed": {
+   "no_anomaly": 0.0,
+   "unexplained": 0.0,
+   "unnoticed": 1.0,
+   "repaired": 0.0,
+   "concealed": 0.0,
+   "repeated": 0.0,
+   "abstain": 0.0
+  },
+  "repaired": {
+   "no_anomaly": 0.0,
+   "unexplained": 0.0,
+   "unnoticed": 0.0,
+   "repaired": 1.0,
+   "concealed": 0.0,
+   "repeated": 0.0,
+   "abstain": 0.0
+  },
+  "concealed": {
+   "no_anomaly": 0.0,
+   "unexplained": 0.0,
+   "unnoticed": 0.0,
+   "repaired": 0.0,
+   "concealed": 1.0,
+   "repeated": 0.0,
+   "abstain": 0.0
+  },
+  "repeated": {
+   "no_anomaly": 0.0,
+   "unexplained": 0.0,
+   "unnoticed": 0.0,
+   "repaired": 0.0,
+   "concealed": 0.0,
+   "repeated": 1.0,
+   "abstain": 0.0
+  }
+ },
+ "gates": {
+  "no_signal": {
+   "clean_or_abstain": 0.96,
+   "threshold": 0.95
+  },
+  "unfamiliar_order": {
+   "labeled_error": 0.0,
+   "threshold": 0.05,
+   "direction": "UP = projection failure"
+  },
+  "known_answer": {
+   "no_anomaly": 0.96,
+   "unexplained": 1.0,
+   "unnoticed": 1.0,
+   "repaired": 1.0,
+   "concealed": 1.0,
+   "repeated": 1.0
+  },
+  "repair_vs_concealment": {
+   "repaired_as_concealed": 0.0,
+   "concealed_as_repaired": 0.0,
+   "threshold": 0.2
+  },
+  "recurrence": {
+   "repeated_as_unexplained": 0.0
+  },
+  "context": {
+   "flips_to_clean_when_declared": 1.0,
+   "unexplained_when_withheld": 1.0,
+   "threshold": 0.8
+  }
+ },
+ "gate_passes": {
+  "no_signal": true,
+  "unfamiliar_order": true,
+  "known_answer": true,
+  "repair_vs_concealment": true,
+  "recurrence": true,
+  "context": true
+ },
+ "verdict": "RULER-PASSES",
+ "license": "2.2D text battery is licensed"
+}

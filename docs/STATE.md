@@ -183,6 +183,16 @@ battery. 2.0F stacking now sits behind the Phase 2.1 gates AND 2.2G's eligibilit
 The adjudication set is unfrozen, superseded as ontology, retained as history. The
 curator-first theory loop (brief §13) is folded into `CLAUDE.md`.**
 
+**Phase 2.2 first wave (2026-08-20 morning): the anomaly-handling ruler PASSES all six
+gates in the constructed world and replicates on fresh seeds (L147) — 2.2C met, 2.2D
+licensed, with the six build iterations recorded as design knowledge. The echo
+decomposition (L148) then overturned L146's cap: where word overlap points at the wrong
+candidate the reader still recovers executed instructions at 0.852 against chance-level
+twins — the realized-choice evidence is echo-independent semantic reading, and the
+stacking gates stand three-quarters green in exploratory form. Next careful design: the
+2.2D process-recorded text corpus (the does-instructed-concealment-actually-conceal
+question), deliberately not rushed.**
+
 **PHASE 2.1 CLOSED (2026-08-19 night, L146): the G159 realized-choice battery landed
 SUPPORTED under its frozen card — execution effect 0.64 (recovery 0.86 in BOTH families
 against 0.22 on uninstructed twins, z = 9.1), every gate quiet in its guarded direction,

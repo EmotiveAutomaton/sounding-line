@@ -5974,6 +5974,118 @@ ruler and 2.2E's context conditioning now try to grow or kill.
 - **Detail pointer:** `results/g159/verdict.json`, `prereg/g159.py` (sha256 at the landing
   commit), all arms and partials on disk.
 
+## L147 · The anomaly-handling ruler passes all six gates in the constructed world, and its six build iterations are the finding
+
+**Hypothesis.** *(G161, Phase 2.2C: before any natural-text anomaly battery, a
+likelihood-grade ruler must prove on known answers that it can abstain on clean walks,
+never call unfamiliar order an error, recover every planted handling class, separate
+repair from concealment, refuse to read recurrence as intent, and shift with declared
+context — the brief's gates, thresholds preregistered in the DESIGN CHECK.)*
+
+**Method.** The BST gridworld machinery (walled world, soft-Bellman policies at the
+fitted human rationality) generates seven ground-truth handling classes mechanically:
+clean walks, waypoint-ordered detours, wrong turns left unnoticed (open-loop replay),
+repaired (backtrack), concealed (closed-loop re-plan), habitual repetition (separated
+biased pairs), and the context arm scored with the waypoint withheld and declared. The
+ruler is per-step log-probability under the declared account with three detection tiers
+(episode-calibrated hard threshold, run detector for sustained mild deviation,
+mid-threshold recurrence), then handling classification from post-cluster structure.
+
+| gate | read | threshold |
+|---|---|---|
+| no-signal (clean walks honest) | 0.98 | ≥ 0.95 |
+| unfamiliar order labeled error | 0.000 | ≤ 0.05 |
+| known answer, all five planted classes | **1.00 each** | > 1/7 |
+| repair-vs-concealment confusion | 0.00 / 0.00 | ≤ 0.20 |
+| repeated read as intent | 0.00 | ≤ 0.05 |
+| context flip when waypoint declared | 1.00 | ≥ 0.80 |
+| **fresh-seed replication** | **all gates pass again** (clean 0.96, classes 1.00) | rules untouched |
+
+*Caption: fifty episodes per class; the verdict is the gate battery, not an aggregate.
+The fresh-seed run replicates the pass with the classifier frozen.*
+
+**Found.** RULER-PASSES, replicated on fresh seeds — the 2.2D text battery is licensed.
+The six build iterations are recorded in the runner and are the transferable knowledge:
+a one-step anomaly cannot be honestly separated from a rational walker's own softmax
+noise, so real anomalies are categorical multi-step objects (a wrong turn, not a
+stumble — in text, a span, not a word); an anomaly-free world makes handling classes
+collapse (consequence structure, the wall and door, is what separates open-loop drift
+from re-planning); detection thresholds must be episode-calibrated on a disjoint null or
+the false-anomaly rate is structural; recurrence must require separated clusters or
+every wrong turn reads as habit; and handling evidence begins after the anomaly
+cluster ends, not after its first step.
+
+**Means.** 2.2C is met in construction and 2.2D unlocks: the text battery's families now
+inherit five measured design constraints. The scope boundary stands as the brief's
+pre-mortem demands: a constructed-world pass validates the ruler and the feasibility
+regime, never human cognition.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics (instrument) / Decision Traces (the trace classes)
+- **Question in plain language:** Can a likelihood ruler tell repaired from concealed
+  from unnoticed from habitual from merely-unfamiliar, where the truth is planted?
+- **Outcome class:** Strengthens
+- **Result:** All six preregistered gates pass at fifty episodes per class and replicate
+  on fresh seeds.
+- **Project meaning:** Error handling graduates from intuition to a validated instrument
+  in construction; the natural-text port is licensed and inherits the iteration lessons.
+- **Next engineering obligation:** The 2.2D process-recorded text battery's corpus
+  design (careful pass, not rushed — the G131 lesson governs).
+- **Public claim:** Unchanged (constructed world only).
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g161/ruler.json`, `results/g161_freshseed/ruler.json`,
+  the iteration record in `runners/run_g161_ruler.py`.
+
+## L148 · The echo decomposition overturns L146's cap: where word overlap points wrong, the reader still recovers executed instructions at 0.85
+
+**Hypothesis.** *(The decomposition L146 made mandatory: is the P+ recovery
+word-overlap in disguise? Split every P+ event by whether the echo pick agrees with the
+truth; reader accuracy on the echo-wrong subset is recovery that word overlap cannot
+explain.)*
+
+**Method.** Pure re-scoring of the recorded G159 arms, no new reader calls: per event,
+the echo pick is the candidate with maximum content-word overlap with the text; events
+split into echo-right and echo-wrong cells, the twins re-scored on the same split as the
+baseline.
+
+| cell | P+ reader | twins baseline |
+|---|---|---|
+| echo-right (n = 73 / 32) | 0.863 | 0.219 |
+| **echo-wrong (n = 27 / 68)** | **0.852** | 0.221 |
+
+*Caption: chance 0.25. On echo-wrong events the word-overlap heuristic actively points
+at a decoy; the reader finds the executed instruction anyway.*
+
+**Found.** The reader's recovery is not word-matching. Where echo misleads, accuracy is
+statistically unchanged (0.852 against 0.863), while the twins sit at chance in both
+cells. L146's thirteen-point above-echo margin was the aggregate floor of the story: the
+correct reading is that the reader's evidence is echo-independent semantic realization,
+which happens to correlate with echo in aggregate because executing an instruction
+usually embeds its words.
+
+**Means.** The honest cap on L146 lifts into a sharper claim: artifact-only recovery of
+executed choices survives the strongest cheap-feature challenge the corpus can pose.
+Stacking gate 3 (cheap baselines do not explain the effect) now looks passed in
+exploratory form on this corpus; gates 1 and 2 already behaved; gate 4's abstention
+evidence stands at L140/L143's rates. The 2.2 batteries inherit the split as a standing
+report: every recovery table carries echo-right and echo-wrong cells from now on.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** Is the recovery result just word matching?
+- **Outcome class:** Strengthens
+- **Result:** Reader accuracy 0.852 on the events where word overlap points at the
+  wrong answer, against 0.22 in the uninstructed twins.
+- **Project meaning:** The realized-choice evidence is semantic, not lexical; the
+  detector-facing stacking gates are now three-quarters green in exploratory form.
+- **Next engineering obligation:** Echo-split cells become a standing column in every
+  2.2 recovery report.
+- **Public claim:** Strengthened within the existing scope wording.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g159/echo_decomp.json`.
+
 ---
 
 # TIER 2 · SETTLED
