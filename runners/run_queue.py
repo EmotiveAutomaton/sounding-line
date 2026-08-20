@@ -1506,6 +1506,29 @@ STAGES += [
             "CORPUS-STANDS"},
 ]
 
+
+# ── G162-R READING BATTERY 2026-08-20 evening (prereg/g162.py frozen on CORPUS-STANDS;
+# appended at list end). Validation-first order: the V arm gates interpretation.
+for _arm, _est in (("validate", 90), ("classify", 60), ("classify_delta", 90),
+                   ("blind", 30)):
+    STAGES += [
+        {"name": f"g162r_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g162_reading.py", "--arm", _arm],
+         "produces": f"results/g162/{_arm}_done.json",
+         "needs": ["corpora/g162_anomaly/handling_audit.json"],
+         "why": f"G162-R arm {_arm}: handling classification under the frozen card; "
+                "the validate arm is negative-class-heavy and gates all interpretation"},
+    ]
+STAGES += [
+    {"name": "g162r_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g162_reading.py", "--verdict"],
+     "produces": "results/g162/verdict.json",
+     "needs": ["results/g162/validate_done.json", "results/g162/classify_done.json",
+               "results/g162/classify_delta_done.json", "results/g162/blind_done.json"],
+     "why": "G162-R verdict: V gate first, per-class confusion, the primary "
+            "concealed-vs-unnoticed pair band, clean-family fabrication"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1513,7 +1536,8 @@ _GPU_HEAVY_PREFIXES = ("pan_", "pan25_", "sw_", "scholawrite_", "gen_fiction")
 _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen_llama",
                     "g159_gen_qwen", "g159_gen_llama", "g94_taramsa_gpu",
                     "g159_rec_p_plus", "g159_rec_p_minus", "g159_rec_blind",
-                    "g162_gen_qwen", "g162_gen_llama",
+                    "g162_gen_qwen", "g162_gen_llama", "g162r_validate", "g162r_classify",
+                    "g162r_classify_delta", "g162r_blind",
                     "g159_rec_fabrication", "g159_rec_surface", "g159_rec_delta",
                     "g131_gen_qwen", "g131_gen_llama",
                     "g129_recovery", "g129_blind", "g129_shuffle", "g129_brief",

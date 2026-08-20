@@ -6086,6 +6086,54 @@ report: every recovery table carries echo-right and echo-wrong cells from now on
 - **Curator decision required:** No.
 - **Detail pointer:** `results/g159/echo_decomp.json`.
 
+## L149 · The anomaly-text corpus stands: planted issues land at 0.75 to 0.95, correction markers separate the families perfectly, and the clean family is uncontaminated
+
+**Hypothesis.** *(G162 generation self-gate, the L137 rule applied before use: did the
+instructed handling families actually realize their mechanically decidable halves —
+issue presence, correction, repetition, refrain — or does the G131 failure repeat?)*
+
+**Method.** 120 rewrites of the recorded bases (six families × two generators × ten
+topics), each planting a token-verifiable invented study figure per its family's
+handling instruction; string audit over every artifact.
+
+| audit read | rate | gate |
+|---|---|---|
+| planted-issue presence (four planted families) | 0.75 / 0.75 / 0.90 / 0.95 | ≥ 0.6 each |
+| clean-family contamination | **0.00** | ≤ 0.05 |
+| corrected family carries the true value | 0.75 | ≥ 0.6 |
+| concealed / unnoticed carry the true value | **0.00 / 0.00** | ≤ 0.1 |
+| repeated at three-plus occurrences | 0.90 | ≥ 0.6 |
+| deliberate refrain at three-plus | 0.85 | ≥ 0.6 |
+
+*Caption: every value is a string test against the recorded planted tokens; the
+concealed/unnoticed mechanical identity is by design — their separation is the reading
+battery's question, never assumed ground truth.*
+
+**Found.** CORPUS-STANDS on all six gates. The correction-marker separation is the
+important one: told to correct, the generator corrects (0.75); told to conceal or leave
+unnoticed, it never corrects (0.00 both) — the families did not collapse.
+
+**Means.** The 2.2D reading battery is preregistered on it same pass (`prereg/g162.py`):
+validation-first order (the reader validates on 360 negative-heavy decidable questions
+BEFORE its semantic verdicts are interpreted — the L139 lesson in the right order this
+time), and the primary quantity is the one thing mechanics cannot decide, artifact-only
+concealed-versus-unnoticed separation. Battery queued.
+
+### Curator roll-up
+
+- **Theory group:** Infrastructure (Decision Traces' corpus)
+- **Question in plain language:** Did the error-handling corpus actually do what its
+  instructions asked, where we can check?
+- **Outcome class:** Infrastructure
+- **Result:** All six self-gates pass, with correction markers at 0.75 where instructed
+  and 0.00 where forbidden.
+- **Project meaning:** The first process-recorded text corpus with verified handling
+  ground truth; the reading battery runs tonight.
+- **Next engineering obligation:** Land G162-R's verdict through the loop.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `corpora/g162_anomaly/handling_audit.json`, `prereg/g162.py`.
+
 ---
 
 # TIER 2 · SETTLED

@@ -1,0 +1,987 @@
+{
+ "summary": {
+  "wrong_presence": {
+   "corrected": 0.8,
+   "concealed": 0.75,
+   "unnoticed": 0.9,
+   "repeated": 0.95
+  },
+  "clean_contamination": 0.0,
+  "corrected_has_right": 0.75,
+  "concealed_has_right": 0.0,
+  "unnoticed_has_right": 0.0,
+  "repeated_3plus": 0.9,
+  "deliberate_refrain_3plus": 0.85
+ },
+ "gates": {
+  "presence": true,
+  "clean": true,
+  "corrected": true,
+  "concealment_not_corrected": true,
+  "repetition": true,
+  "deliberate": true
+ },
+ "verdict": "CORPUS-STANDS",
+ "rows": [
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_00",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_01",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_02",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_03",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_04",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_05",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_06",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_07",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_08",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_llama_09",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_00",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_01",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_02",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_03",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_04",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_05",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_06",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_07",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": true,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_08",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "corrected",
+   "artifact_id": "corrected_qwen_09",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_00",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_01",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_02",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_03",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_04",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_05",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_06",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_07",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_08",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_llama_09",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_00",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_01",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_02",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_03",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_04",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_05",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_06",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_07",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_08",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "concealed",
+   "artifact_id": "concealed_qwen_09",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_00",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_01",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_02",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_03",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_04",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_05",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_06",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_07",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_08",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_llama_09",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_00",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_01",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_02",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_03",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_04",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_05",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_06",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_07",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_08",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "unnoticed",
+   "artifact_id": "unnoticed_qwen_09",
+   "wrong_present": true,
+   "wrong_count": 2,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_00",
+   "wrong_present": true,
+   "wrong_count": 5,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_01",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_02",
+   "wrong_present": true,
+   "wrong_count": 1,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_03",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_04",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_05",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_06",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_07",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_08",
+   "wrong_present": true,
+   "wrong_count": 5,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_llama_09",
+   "wrong_present": true,
+   "wrong_count": 5,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_00",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_01",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_02",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_03",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_04",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_05",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_06",
+   "wrong_present": true,
+   "wrong_count": 4,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_07",
+   "wrong_present": true,
+   "wrong_count": 5,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_08",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "repeated",
+   "artifact_id": "repeated_qwen_09",
+   "wrong_present": true,
+   "wrong_count": 3,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_00",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_01",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_02",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 1
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_03",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 1
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_04",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_05",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_06",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_07",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_08",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_llama_09",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_00",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_01",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 4
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_02",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 4
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_03",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 4
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_04",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_05",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_06",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_07",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 4
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_08",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 5
+  },
+  {
+   "family": "deliberate",
+   "artifact_id": "deliberate_qwen_09",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 3
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_00",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_01",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_02",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_03",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_04",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_05",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_06",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_07",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_08",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_llama_09",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_00",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_01",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_02",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_03",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_04",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_05",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_06",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_07",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_08",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  },
+  {
+   "family": "clean",
+   "artifact_id": "clean_qwen_09",
+   "wrong_present": false,
+   "wrong_count": 0,
+   "right_present": false,
+   "refrain_count": 0
+  }
+ ]
+}
