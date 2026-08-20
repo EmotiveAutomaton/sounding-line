@@ -177,6 +177,18 @@ looking, so an unrequested test is a better test.
 
 Items marked "blocked on a decision" are things to hesitate on **while working elsewhere**.
 
+## The curator-first theory loop (Phase 2.2 brief §13; the theory-change interrupt)
+
+**When a result or import changes a load-bearing definition — mission, ontology, public
+meaning, value inference, or a possible theory death — stop before synthesizing.** Report
+the theory-group consequence and classify the change first; do not deliver a completed
+synthesis or an expanded queue as the first response. Ask at most three interpretation
+questions, give hostile cases without a preferred answer, and wait for his rough prior
+unless he explicitly delegates the choice. Keep his account, my additions, result-forced
+constraints, literature imports, and unresolved tensions distinguishable in what gets
+written. Only after ratification write the operational handoff. **Routine implementation
+stays agent-owned — this is an interrupt for theory changes, not a stop for every study.**
+
 ## Rules for the record itself
 
 **`FINDINGS.md` has two tiers.** Tier 1 is the full write-up. **An item moves to tier 2 when he has

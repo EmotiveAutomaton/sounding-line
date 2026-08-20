@@ -167,6 +167,22 @@ benchmark human-negative repair. Stacking (2.0F) re-gates behind the four Phase 
 decision gates now written into the contract. The free-path pilot corpus (240
 process-recorded artifacts, two local lineages) remains complete at zero dollars.**
 
+**Phase 2.2 is GOVERNED (2026-08-19 evening: his second handoff brief, archived at
+`docs/design/PHASE_2_2_CONTEXT.md`; sub-goal map 2.2A to 2.2G with identifiers G159 to
+G164 in `TODO.md`).** The pivot: binary adjudication of who "made the decisions" is
+retired as the primitive question — the curator's standing unease about the adjudication
+ask, named. The core representation is the trajectory reconstruction profile (brief §9)
+over the visual map's nine objects; provenance and reconstruction are separate outputs
+forever; the observational-equivalence rule and twelve ruler gates bind every new reader;
+"decision weight" is retired as a primitive in favor of five separated quantities
+(formation difficulty, trajectory leverage, episode control, trace support, historical
+shaping — temporary labels, not canon). Execution order: G159's realized-choice card
+first (written to Phase 2.1's question, unreshaped), then schema and interface guards,
+then the anomaly-handling ruler in a constructed world BEFORE any natural-text anomaly
+battery. 2.0F stacking now sits behind the Phase 2.1 gates AND 2.2G's eligibility ruling.
+The adjudication set is unfrozen, superseded as ontology, retained as history. The
+curator-first theory loop (brief §13) is folded into `CLAUDE.md`.**
+
 **Phase 2.1 execution status (2026-08-19, same day):** the foraging battery's first
 stages landed and cut deep — checkable realization 0.586 (L138), cheap features read the
 factorial target axis at 0.95 (L138), and the reader adjudicator FAILED its validation

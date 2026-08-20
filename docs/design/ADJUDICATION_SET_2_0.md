@@ -1,9 +1,18 @@
-# The adjudication example set — G152, DRAFT for the curator's sign-off (2026-08-19)
+# The adjudication example set — UNFROZEN, SUPERSEDED AS THE DECISION ONTOLOGY (2026-08-19)
 
-**Curator flag (2026-08-19, standing, unresolved): "Something seems fundamentally wrong
-about this adjudication ask still."** The specific wrongness is not yet articulated; he
-will return to it. Nothing freezes until that objection is surfaced and answered — the
-draft below is material for that conversation, not a settled instrument.
+**Resolution of the curator's flag.** He wrote same day: "Something seems fundamentally
+wrong about this adjudication ask still" — and the Phase 2.2 brief
+([`PHASE_2_2_CONTEXT.md`](PHASE_2_2_CONTEXT.md) §1) names the wrongness: binary
+adjudication of who "made the decisions" was the wrong primitive question, not a
+badly-drafted right one. The core representation is now the trajectory reconstruction
+profile; the binary substantial-contribution label survives only as a product-policy
+output at the classifier layer, never as the project's decision ontology.
+
+**Status of this file: NEVER FREEZES. Retained whole as history** — the design that
+exposed the wrong question — and its thirty cases keep one live use: historical stress
+cases for the product-policy layer and hard-negative material for reconstruction
+batteries. Do not expand it. The three policy lines it surfaced (systematicity, survival,
+faithfulness) remain useful to the product label and are inherited there.
 
 **What this is, in plain words.** The detector answers one question about a piece of
 writing: "did an AI substantially help write this?" Before we tune anything toward that
