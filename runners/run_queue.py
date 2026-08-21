@@ -1711,6 +1711,30 @@ STAGES += [
             "wing pauses in every branch"},
 ]
 
+# ── G169 v2 REPAIR 2026-08-21 (appended at list end). The v1 audit REFUSED the corpus
+# (concealed plant 0.63, hedging 2.67 vs the 3.0 floor) — the gate doing its job. The
+# ONE regeneration pass: accept-time verification per family, four tries, offset seeds.
+STAGES += [
+    {"name": "g169_regen_qwen", "est": 90,
+     "cmd": [PY, "runners/run_g169_longform.py", "--regen", "qwen"],
+     "produces": "corpora/g169_longform/manifest_qwen_v2.json",
+     "needs": ["corpora/g169_longform/manifest_qwen.json"],
+     "why": "G169 v2 repair, seen generator: replace only accept-failing artifacts "
+            "with mechanical accept-time verification"},
+    {"name": "g169_regen_llama", "est": 120,
+     "cmd": [PY, "runners/run_g169_longform.py", "--regen", "llama"],
+     "produces": "corpora/g169_longform/manifest_llama_v2.json",
+     "needs": ["corpora/g169_longform/manifest_llama.json"],
+     "why": "G169 v2 repair, held-out generator"},
+    {"name": "g169_audit_v2", "est": 5,
+     "cmd": [PY, "runners/run_g169_longform.py", "--audit", "--v2"],
+     "produces": "corpora/g169_longform/longform_audit_v2.json",
+     "needs": ["corpora/g169_longform/manifest_qwen_v2.json",
+               "corpora/g169_longform/manifest_llama_v2.json"],
+     "why": "G169 v2 audit, identical gates: if this refuses too, the long-form "
+            "substrate waits for the curator — no further tuning"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1736,7 +1760,8 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g166r_process", "g166r_classify", "g166r_blind",
                     "g167_true_card", "g167_false_card", "g167_irrelevant_card",
                     "g169_gen_qwen", "g169_gen_llama",
-                    "g167a5_true_note", "g167a5_false_note", "g167a5_false_note_flag"}
+                    "g167a5_true_note", "g167a5_false_note", "g167a5_false_note_flag",
+                    "g169_regen_qwen", "g169_regen_llama"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

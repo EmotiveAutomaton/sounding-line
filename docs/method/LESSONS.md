@@ -286,6 +286,15 @@ L132 (a shuffle gate that voided the alternative's own signature).
   known-answer claim; instruction-following side effects (surface constraints shortening
   essays out of their length band) are themselves confounds to match. (L137; G131 first corpus)
 
+- **An instructed-handling corpus verifies REALIZED handling at accept time, never only
+  at audit time.** The long-form concealment corpus generated to completion and then
+  refused itself: the generator concealed by omission (plant presence 0.63) and realized
+  hedging sat under its floor — the same assigned-is-not-realized class as L137, caught
+  by the audit gate built from L150's post-mortem, at the price of a full regeneration
+  pass. The v2 form checks each family's mechanical criteria inside the generation
+  accept loop (plant present, correction present or absent as instructed, hedge count),
+  so a non-compliant artifact costs one retry instead of a corpus. (L156, run_g169_longform.py)
+
 ## §4. Before the model arm
 
 - **Set model internals structurally, assert the change took, and record the measured value.**

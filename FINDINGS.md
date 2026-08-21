@@ -6526,6 +6526,47 @@ trust-calibration gap, not an inference gap.
 - **Detail pointer:** `results/g167/verdict.json`, `prereg/g167.py`, all partials on
   disk.
 
+## L156 · The hedging-density gate fires on its first corpus: the long-form construction refused itself before a battery could repeat L150
+
+**Hypothesis.** *(G169 construction audit: does instructed long-form concealment
+actually realize its plant and its hedging?)*
+
+**Method.** The four-family long-form corpus (78 of 80 generated, both families) against
+the preregistered audit gates, hedging measured mechanically after each planted claim.
+
+**Found.** CORPUS-REFUSED, on two gates. The generator conceals by OMISSION — the
+planted figure never lands in 37 percent of concealment essays (presence 0.63 against
+the 0.75 floor) — and where it does land, realized hedging averages 2.67 post-plant
+hedges against the 3.0 floor (the 1.77x ratio over unnoticed passes). Yield and length
+were clean. This is exactly the failure that made L150 blind, caught at the corpus gate
+for the price of an audit instead of a battery.
+
+**Means.** The one recorded repair pass runs now: regenerate only the accept-failing
+artifacts with the family criteria verified mechanically AT GENERATION (plant present,
+correction present or absent as instructed, three-plus realized hedges for
+concealment), four tries at offset seeds. If the v2 audit refuses too, the long-form
+substrate waits for the curator — no further tuning. The transferable lesson lands in
+LESSONS §3 territory: an instructed-handling corpus verifies REALIZED handling at
+accept time, not at audit time, because audit-time discovery costs a regeneration
+pass.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces (construction infrastructure)
+- **Question in plain language:** Did the longer essays actually contain the planted
+  error and the quiet cover-up we asked for?
+- **Outcome class:** Infrastructure
+- **Result:** Refused — the planted figure is missing from 37 percent of concealment
+  essays and realized hedging sits just under its floor.
+- **Project meaning:** The gate built from L150's post-mortem caught the same defect
+  pre-battery; the repair with accept-time verification is queued and is the corpus's
+  one allowed regeneration.
+- **Next engineering obligation:** The v2 audit; the span-level battery preregisters
+  only if it stands.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `corpora/g169_longform/longform_audit.json`.
+
 ---
 
 # TIER 2 · SETTLED

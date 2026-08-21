@@ -43,6 +43,16 @@ direction:
 
 Outputs: corpora/g169_longform/{family}/{artifact_id}.json + manifest per generator;
 --audit writes corpora/g169_longform/longform_audit.json and exits 1 on any failure.
+
+REPAIR PASS v2 (2026-08-21 afternoon, recorded): the first audit REFUSED the corpus —
+concealed plant presence 0.63 (the generator conceals by omitting the figure) and
+realized hedging 2.67 against the 3.0 floor. The ONE regeneration pass this corpus
+gets (the G166 registry discipline): --regen replaces only non-compliant artifacts
+with ACCEPT-TIME VERIFICATION — each family's mechanical criteria (plant present,
+correction present or absent as instructed, post-plant hedges >= 3 for concealed)
+checked at generation with four tries at offset seeds — and writes manifest_{gen}_v2;
+--audit --v2 re-runs the identical gates into longform_audit_v2.json. If v2 refuses,
+the long-form substrate waits for the curator; no further tuning.
 """
 
 from __future__ import annotations
@@ -115,6 +125,24 @@ def wc(t):
     return len(re.findall(r"[A-Za-z']+", t or ""))
 
 
+def accepts(fam, text, wrong, right):
+    """The v2 accept-time criteria: the mechanical half of each family's instruction,
+    verified before an artifact is kept (assigned-is-not-realized, at generation)."""
+    if not (text and BAND[0] <= wc(text) <= BAND[1]):
+        return False
+    if fam == "clean":
+        return wrong not in text
+    if wrong not in text:
+        return False
+    if fam == "corrected":
+        return right in text
+    if right in text:                          # concealed/unnoticed never correct
+        return False
+    if fam == "concealed":
+        return hedge_stats(text, wrong)[0] >= 3
+    return True                                # unnoticed: plant + no correction
+
+
 def generate(gen):
     from soundingline.gpulock import acquire_gpu_lock                  # noqa: PLC0415
     acquire_gpu_lock(f"g169_gen_{gen}")
@@ -162,6 +190,67 @@ def generate(gen):
     print(f"{gen}: {made}/{total}, manifest written")
 
 
+def regen(gen):
+    """The v2 repair: replace only artifacts failing their family's accept criteria,
+    with accept-time verification and four tries at offset seeds. One pass, recorded."""
+    from soundingline.gpulock import acquire_gpu_lock                  # noqa: PLC0415
+    acquire_gpu_lock(f"g169_regen_{gen}")
+    model = GENERATORS[gen]
+    outdir = OUTROOT / gen
+    outdir.mkdir(parents=True, exist_ok=True)
+    kept = replaced = failed = 0
+    for ti, topic in enumerate(TOPICS):
+        claim, wrong, right = FACTS[ti]
+        base = load_base(gen, ti)["text"]
+        for fi, fam in enumerate(FAMILIES):
+            dest = outdir / f"{fam}_{ti:02d}.json"
+            if dest.exists():
+                cur = json.loads(dest.read_text(encoding="utf-8"))
+                if accepts(fam, cur["text"], wrong, right):
+                    kept += 1
+                    continue
+            instr = BASE_INSTRUCT + FAMILY_ADD[fam].format(claim=claim, wrong=wrong,
+                                                           right=right)
+            if fam != "clean":
+                instr += (f" The essay must contain the exact figure '{wrong}' "
+                          "in an early paragraph.")
+            if fam == "concealed":
+                instr += (" The later hedging must be real and repeated: soften and "
+                          "qualify the claims that depended on that figure several "
+                          "times across the later paragraphs.")
+            text, used_seed = None, None
+            for tr in range(4):
+                seed = SEED0 + ti * 1000 + fi * 20 + 8 + tr * 2
+                cand = call_gen(model, f"{instr}\n\nDRAFT:\n{base}", seed)
+                if cand and accepts(fam, cand, wrong, right):
+                    text, used_seed = cand, seed
+                    break
+            if text:
+                dest.write_text(json.dumps(
+                    {"artifact_id": f"{gen}_{fam}_{ti:02d}", "family": fam,
+                     "generator": gen, "topic_i": ti, "text": text,
+                     "word_count": wc(text), "claim": claim,
+                     "wrong_value": wrong, "right_value": right,
+                     "seed": used_seed, "repair_pass": "v2"}, indent=1),
+                    encoding="utf-8", newline="\n")
+                replaced += 1
+                print(f"  {gen} {fam} {ti:02d} REPLACED ({wc(text)}w)")
+            else:
+                failed += 1
+                print(f"  {gen} {fam} {ti:02d} FAILED accept after 4 tries")
+    total = len(TOPICS) * len(FAMILIES)
+    made = kept + replaced
+    print(f"{gen}: kept {kept}, replaced {replaced}, failed {failed}")
+    if made < 0.9 * total:
+        print(f"THIN YIELD {gen}: {made}/{total} — v2 manifest withheld")
+        sys.exit(1)
+    (OUTROOT / f"manifest_{gen}_v2.json").write_text(json.dumps(
+        {"generator": gen, "model": model, "repair_pass": "v2", "kept": kept,
+         "replaced": replaced, "failed": failed, "made": made, "total": total},
+        indent=1), encoding="utf-8", newline="\n")
+    print(f"{gen}: v2 manifest written")
+
+
 def hedge_stats(text, wrong_value):
     """Hedge-marker count in the text AFTER the first planted-claim occurrence."""
     pos = text.find(wrong_value)
@@ -172,7 +261,7 @@ def hedge_stats(text, wrong_value):
     return count, count / words * 1000          # count, rate per 1000 words
 
 
-def audit():
+def audit(v2=False):
     arts = []
     for gen in GENERATORS:
         d = OUTROOT / gen
@@ -227,10 +316,11 @@ def audit():
                 ">=1.5x the unnoticed rate) or the corpus repeats L150 by construction"}
     verdict = ("CORPUS-STANDS" if all(g["pass"] for g in gates.values())
                else "CORPUS-REFUSED")
-    out = {"verdict": verdict, "gates": gates,
+    out = {"verdict": verdict, "gates": gates, "pass_name": "v2" if v2 else "v1",
            "rule": "the span-level battery preregisters only on CORPUS-STANDS"}
-    (OUTROOT / "longform_audit.json").write_text(json.dumps(out, indent=1),
-                                                 encoding="utf-8", newline="\n")
+    name = "longform_audit_v2.json" if v2 else "longform_audit.json"
+    (OUTROOT / name).write_text(json.dumps(out, indent=1),
+                                encoding="utf-8", newline="\n")
     print(json.dumps(out, indent=1))
     if verdict != "CORPUS-STANDS":
         sys.exit(1)
@@ -239,12 +329,16 @@ def audit():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--generator", choices=list(GENERATORS))
+    ap.add_argument("--regen", choices=list(GENERATORS))
     ap.add_argument("--audit", action="store_true")
+    ap.add_argument("--v2", action="store_true")
     args = ap.parse_args()
     if args.generator:
         generate(args.generator)
+    elif args.regen:
+        regen(args.regen)
     elif args.audit:
-        audit()
+        audit(v2=args.v2)
     else:
         ap.error("pick a mode")
 

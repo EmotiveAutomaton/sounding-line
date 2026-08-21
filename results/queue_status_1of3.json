@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 13:22",
+  "started": "2026-08-21 13:37",
   "stages": [
     {
       "name": "feature_visibility",
@@ -726,9 +726,20 @@
       "why": "G166-R verdict: P ceiling first, per-route confusion, the C-vs-S contest, exhaustive bands",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g167a5_gate",
+      "why": "G167-A5 purity + anchor; arms gate on it",
+      "est_minutes": 2,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g167a5_true_note",
+      "why": "G167-A5 arm true_note: can a false production note override artifact evidence the reader provably reads (direct 0.86)?",
+      "est_minutes": 60,
+      "status": "RUNNING",
+      "log": "results\\g167a5_true_note.log"
     }
   ],
-  "shard": "1/3",
-  "finished": "2026-08-21 13:22",
-  "failed": []
+  "shard": "1/3"
 }
