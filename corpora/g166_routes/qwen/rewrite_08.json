@@ -1,0 +1,71 @@
+{
+ "case_id": "qwen_rewrite_08",
+ "lineage_id": "g166_qwen_08",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_08",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether remote work should be a legal right Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model",
+  "g131_base": "recorded_prior_artifact"
+ },
+ "route_family": "rewrite",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "g131_base",
+   "operation": "propose",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "base_ref": "g131 qwen none_0_none_08"
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The rapid advancement of digital infrastructure has fundamentally transformed the nature of modern labor, yet our legal frameworks remain stubbornly anchored to an industrial past. While some continue to view remote work merely as a discretionary privilege granted by benevolent employers, this perspective ignores a harsh reality: access to flexible working arrangements should be established unequivocally as a fundamental legal right for all workers in knowledge-based industries. Denying employees the ability to determine where they perform their duties is not just an inconvenience; it violates core principles of bodily autonomy and deepens systemic inequalities within the global workforce.\n\nHistorically, labor laws were designed with physical workplaces like factories or construction sites in mind, prioritizing safety standards specific to a centralized location. However, the current economy is dominated by digital roles where geographic proximity adds no measurable value to productivity. By codifying remote work as a right, society acknowledges that an employee's home can be just as effective, if not superior regarding mental well-being and professional continuity, than a traditional office. When employers refuse reasonable requests for hybrid or fully distributed schedules without demonstrating valid business necessity, they are effectively asserting ownership over the worker's physical presence rather than their output. This dynamic shifts employment from a rational exchange of value-for-value into an arbitrary surveillance model that treats employees like clock-watching subjects rather than professional agents responsible for results.\n\nFurthermore, enshrining remote work rights is critical for dismantling barriers to equity and diversity in hiring. Currently, the requirement to live near an employer excludes countless talented individuals who lack geographical mobility due to socioeconomic constraints. Many are barred from high-paying careers not because of a deficit in skill or ambition, but because they cannot afford housing near major metropolitan hubs where jobs cluster. Low-income workers often face a cruel catch-22: either relocate against their will and strain family resources, or remain in \"trap\" locations with exorbitant costs of living and no commute flexibility. A legal right to remote work would democratize access to opportunity, allowing families in rural communities or smaller cities to participate fully in the global economy without sacrificing quality of life or being forced into unstable housing situations.\n\nCritics frequently cite concerns regarding supervision, team culture, and data security as valid objections. However, these are managerial challenges solvable through better performance metrics and intentional communication strategies, not legitimate grounds for stripping workers of basic rights. The solution lies in evolving management practices to trust results over presence, rather than legislating invasive surveillance that invades privacy. Employers who refuse remote arrangements typically seek control over the *process* of work rather than focusing on its *outcome*. In a digital age, demanding physical presence is an archaic retention strategy incompatible with modern efficiency and human dignity.\n\nIn conclusion, just as freedom from discrimination and safe working conditions are non-negotiable legal standards, access to a flexible work environment must be recognized as such in our increasingly digital world. Legislators must move beyond viewing remote work as optional convenience and instead treat it as a necessary component of fair labor practice. By making remote work a legal right, we do not merely change office policies; we redefine the boundaries of liberty, equality, and human dignity in the twenty-first-century economy. The evolution of technology has outpaced our laws for too long; now is the time to align legislation with reality.",
+ "artifact_versions": [
+  "**Remote Work as an Inalienable Right in the Modern Economy**\n\nThe evolution of digital infrastructure has fundamentally altered the nature of labor, yet legal frameworks have not kept pace with this reality. While some argue that remote work is merely a privilege granted by employer discretion, I contend unequivocally that access to remote employment options should be established as a fundamental legal right for all workers in knowledge-based industries. Denying employees this choice violates principles of bodily autonomy and exacerbates systemic inequalities within the modern workforce.\n\nHistorically, labor laws focused on physical safety standards at specific workplaces like factories or construction sites. However, the current economic landscape is dominated by digital roles where location is irrelevant to productivity. By codifying remote work as a right, society acknowledges that an employee's home can be just as effective, if not more so in terms of mental well-being and continuity, than a traditional office. When employers refuse reasonable requests for hybrid or fully distributed schedules without valid business necessity, they are essentially asserting ownership over the worker's physical presence rather than their output. This shift transforms employment from an exchange of time-for-money into one of value-for-value, respecting the employee as a professional agent rather than a clock-watcher subject to arbitrary location mandates.\n\nFurthermore, enshrining remote work rights is critical for promoting equity and diversity in hiring. Many talented individuals are excluded from high-paying careers not due to a lack of skill or ambition, but because they face geographical barriers\u2014living too far away from major metropolitan hubs where jobs cluster. Currently, the requirement to live near an employer limits mobility options based on socioeconomic status; low-income workers often cannot afford housing in expensive job-rich areas and are thus forced into \"trap\" locations with higher costs of living and no commute flexibility. A legal right to remote work would democratize access to opportunity, allowing families in rural communities or smaller cities to participate in the global economy without sacrificing their quality of life or relocating against their will.\n\nCritics often cite concerns regarding supervision and culture as valid objections. However, these are managerial challenges solvable through better performance metrics and intentional communication strategies, not grounds for stripping workers of rights. The solution lies in evolving management practices to trust results over presence, rather than legislating surveillance that invades privacy. Employers who refuse remote arrangements typically seek control over the *process* rather than focusing on the *outcome*.\n\nIn conclusion, just as freedom from discrimination and safe working conditions are non-negotiable legal standards, access to a flexible work environment must be recognized as such in an increasingly digital world. Legislators must move beyond viewing remote work as optional convenience and instead treat it as a necessary component of fair labor practice. By making remote work a legal right, we do not just change office policies; we redefine the boundaries of liberty, equality, and human dignity in the twenty-first-century economy."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_08",
+ "split": "discovery",
+ "construction_seed": 24640,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 566
+}

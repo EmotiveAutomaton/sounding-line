@@ -1,0 +1,92 @@
+{
+ "case_id": "qwen_revise_09",
+ "lineage_id": "g166_qwen_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "revise",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "critique",
+   "target": "draft",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "weaknesses": [
+     "1. The essay occasionally relies on broad generalizations about \"wild animals\" without consistently distinguishing between specific logistical constraints that might vary by species or institution type, weakening the universality of its arguments regarding all captivity.",
+     "2. While it acknowledges exceptions like rescue facilities for injured individuals, it briefly touches upon this nuance but fails to fully explore how current ethical frameworks in zoology attempt to balance these rare cases against the general prohibition on permanent captivity before dismissing them too quickly as mere \"temporary holding pens.\""
+    ]
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate regarding the existence of modern zoos remains deeply contentious, pitting compelling arguments for conservation and education against profound ethical concerns concerning animal welfare. Although traditional perceptions of zoos as venues for mere entertainment have largely receded from public consciousness, replaced by institutions claiming to be sanctuaries for endangered species, a fundamental question persists: does keeping wild animals in captivity ever justify the inherent restriction of their freedom? The case against permanent zoological incarceration is rooted not only in sentimentality but in biological reality and moral obligation. Wild animals are evolved entities designed for vast territories, complex social structures, and specific environmental interactions that cannot be truly replicated within concrete enclosures. When deprived of these natural conditions, even expansive spaces often fail to satisfy an animal's psychological needs, leading to pathological behaviors such as pacing, self-mutilation, and stereotypies. These signs indicate profound distress rather than comfort. While zookeepers argue they provide food and safety from poachers or habitat loss, this paternalistic view ignores the agency of the animals themselves. For a creature like an elephant or a whale, whose biology is inextricably linked to roaming miles across landscapes or swimming open oceans, confinement represents a fundamental violation of their nature, regardless of how well-cared for they are physically. The argument that humans can \"own\" wild creatures by virtue of our intelligence and resourcefulness holds no weight when faced with the reality of a suppressed life devoid of purposeful activity.\n\nFurthermore, the conservation model often touted as a primary justification for zoos is increasingly difficult to defend in light of modern science and logistics. Historically, breeding programs did contribute significantly to saving species like the California condor or the black-footed ferret from extinction. However, this success has rarely translated into successful rewilding efforts at scale due to genetic bottlenecks and behavioral deficits acquired in captivity. If a zoo-bred animal cannot survive wild conditions upon release, then its time in captivity was ultimately futile regarding population recovery. The resources dedicated to maintaining these populations could arguably be better spent on direct habitat protection, anti-poaching initiatives, and funding local communities that rely on sustainable ecosystem management. True conservation requires preserving the places where species live naturally, not creating artificial substitutes for those ecosystems within city limits.\n\nProponents of zoos often point to their educational value as a crucial defense against animal rights objections. They argue that seeing an elephant up close fosters empathy and supports funding for wild reserves. Yet, this argument is increasingly questioned by pedagogical experts who suggest that documentaries or virtual reality experiences offer more accurate representations of wildlife behavior than constrained animals performing unnatural tricks in small spaces. Teaching children about nature through the lens of captivity may inadvertently reinforce misconceptions about animal capacity and needs. Moreover, if the primary goal is to inspire action for wild conservation, why should we need access to a captive version of that species first? The most powerful lesson one can learn about nature occurs when observing it in its undisturbed state.\n\nUltimately, while well-managed facilities may serve as temporary holding pens during catastrophic events or offer care for injured individuals unable to live in the wild immediately, they should not exist as permanent solutions for maintaining populations of free-roaming species that do not require rescue. The ethical imperative to allow animals to pursue their natural lives outweighs the convenience and entertainment value provided by captivity. As humanity gains more sophisticated methods of protecting habitats directly from poachers and climate change threats, there is no excuse left to continue imprisoning wild creatures in enclosures that mimic the wild but lack its essence. We must transition toward a model where zoological institutions function strictly as rescue facilities for those with nowhere else to go, rather than museums preserving a static collection of living beings who deserve nothing less than the freedom inherent to their species.",
+ "artifact_versions": [
+  "The debate over the existence of modern zoos is far from settled, pitting arguments for conservation and education against profound ethical concerns regarding animal welfare. While traditional notions of zoos as places of mere entertainment have largely faded into obsolescence in the public consciousness, replaced by institutions claiming to be sanctuaries for endangered species, a fundamental question remains: does keeping wild animals in captivity ever justify the inherent restriction of their freedom? The case against zoos is rooted not just in sentimentality but in biological reality and moral obligation.\n\nWild animals are evolved entities designed for vast territories, complex social structures, and specific environmental interactions that cannot be replicated within concrete enclosures. When deprived of these natural conditions, even large spaces often fail to satisfy an animal's psychological needs, leading to pathological behaviors such as pacing, self-mutilation, and stereotypies. These signs indicate profound distress rather than comfort. While zookeepers argue they provide food and safety from poachers or habitat loss, this paternalistic view ignores the agency of the animals themselves. For a creature like an elephant or a whale, whose biology is inextricably linked to roaming miles across landscapes or swimming open oceans, confinement represents a fundamental violation of their nature, regardless of how well-cared for they are physically. The argument that humans \"own\" wild creatures by virtue of their intelligence and resourcefulness holds no weight when faced with the reality of a suppressed life devoid of purposeful activity.\n\nFurthermore, the conservation model often touted as a primary justification for zoos is increasingly difficult to defend in light of modern science and logistics. Historically, breeding programs did contribute significantly to saving species like the California condor or the black-footed ferret from extinction. However, this success has rarely translated into successful rewilding efforts at scale due to genetic bottlenecks and behavioral deficits acquired in captivity. If a zoo-bred animal cannot survive wild conditions upon release, then its time in captivity was ultimately futile regarding population recovery. The resources dedicated to maintaining these populations could arguably be better spent on direct habitat protection, anti-poaching initiatives, and funding local communities that rely on sustainable ecosystem management. True conservation requires preserving the places where species live naturally, not creating artificial substitutes for those ecosystems within city limits.\n\nProponents of zoos often point to their educational value as a crucial defense against animal rights objections. They argue that seeing an elephant up close fosters empathy and supports funding for wild reserves. Yet, this argument is increasingly questioned by pedagogical experts who suggest that documentaries or virtual reality experiences offer more accurate representations of wildlife behavior than constrained animals performing unnatural tricks in small spaces. Teaching children about nature through the lens of captivity may inadvertently reinforce misconceptions about animal capacity and needs. Moreover, if the primary goal is to inspire action for wild conservation, why should we need access to a captive version of that species first? The most powerful lesson one can learn about nature occurs when observing it in its undisturbed state.\n\nUltimately, while well-managed zoos may serve as temporary holding pens during catastrophic events or offer care for injured individuals unable to live in the wild, they should not exist as permanent solutions for maintaining populations of free-roaming species. The ethical imperative to allow animals to pursue their natural lives outweighs the convenience and entertainment value provided by captivity. As humanity gains more sophisticated methods of protecting habitats directly from poachers and climate change threats, there is no excuse left to continue imprisoning wild creatures in cages that mimic the wild but lack its essence. We must transition toward a model where zoos function strictly as rescue facilities for those with nowhere else to go, rather than museums preserving a static collection of living beings who deserve nothing less than the freedom inherent to their species."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_09",
+ "split": "discovery",
+ "construction_seed": 25682,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 649
+}

@@ -79,3 +79,14 @@ verified hash-identical to their locks at the new paths** (`LITERATURE.md`, `ite
 `item_C.md`, `PROTOCOL_SEALED.md`). `locks.py` is itself never-edit, so the path mapping is recorded
 here rather than there. `verify_all()` will report these five as missing until a wrapper maps paths;
 use this entry as the map.
+
+## 2026-08-21 · SOUNDING_LINE_SPEC.md moved off the repo top level
+
+At the curator's instruction (audio, 2026-08-21 morning). `soundingline/locks.py` records the
+lock under the key `SOUNDING_LINE_SPEC.md`; the file now lives at `docs/SOUNDING_LINE_SPEC.md`,
+**verified hash-identical to its lock at the new path before the commit** (bytes unchanged; the
+never-edit rule is untouched by a move). `locks.py` is never-edit, so this entry is the human
+record of the mapping and `tools/verify_locks.py` (created the same pass) is the executable one —
+it is now the canonical verifier, replacing the ad-hoc inline snippets, and carries both this
+mapping and the 2026-08-08 gate-files prefix map above. Any future locked-file move gets a twin
+entry here and in that tool's PATH_MAP, same pass.

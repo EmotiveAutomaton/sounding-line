@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_06",
+ "lineage_id": "g166_qwen_06",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_06",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether tipping should be abolished Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Tipping should be immediately abolished because it perpetuates economic inequality and forces service workers into a reliance on unpredictable gratuities rather than fair wages.",
+     "Despite the argument that eliminating tips would reduce customer spending power, abolishing this system is essential to ensure standardized compensation for all employees regardless of their ability or gender.",
+     "While traditional tipping supports many small businesses, it should be replaced by an automated service fee model that guarantees consistent pay without penalizing customers for leaving no gratuity."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Tipping should be immediately abolished because it perpetuates economic inequality and forces service workers into a reliance on unpredictable gratuities rather than fair wages.",
+    "Despite the argument that eliminating tips would reduce customer spending power, abolishing this system is essential to ensure standardized compensation for all employees regardless of their ability or gender."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "While traditional tipping supports many small businesses, it should be replaced by an automated service fee model that guarantees consistent pay without penalizing customers for leaving no gratuity.",
+    "draw_seed": 22660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Tipping should be immediately abolished because it perpetuates economic inequality and forces service workers into a reliance on unpredictable gratuities rather than fair wages."
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Despite the argument that eliminating tips would reduce customer spending power, abolishing this system is essential to ensure standardized compensation for all employees regardless of their ability or gender."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The practice of tipping has long been a cornerstone of the American hospitality landscape, rooted in historical social contracts where waitstaff relied on customer discretion to supplement wages set below living standards. Proponents argue that this system incentivizes exceptional service and allows owners to operate with lower overhead costs by passing savings directly to patrons who value high-quality interactions. However, while traditional tipping undoubtedly supports many small businesses that cannot afford full-time salaries for their staff, it should be replaced by an automated service fee model that guarantees consistent pay without penalizing customers for leaving no gratuity. The current voluntary nature of tips creates a volatile and stressful environment for workers where income fluctuates wildly based on mood rather than merit, whereas a structured service charge would bring necessary financial stability to the industry.\n\nThe primary flaw in the existing tipping system is its inherent unpredictability and the psychological pressure it places on both employees and customers. When compensation depends entirely on discretionary gifts after hours of labor, workers face constant anxiety regarding their ability to make ends meet during slow shifts or with difficult patrons. This uncertainty often forces restaurants to understaff or pay even lower base wages under the guise that \"tips will cover the difference.\" Consequently, service can become transactional rather than relational, as staff may withhold effort from those perceived as less generous. An automated service fee eliminates this anxiety by ensuring every employee receives a predictable income regardless of the specific night's performance or demographic makeup of the clientele. This consistency allows workers to plan their lives with confidence and fosters a more professional atmosphere where service is rendered consistently rather than selectively based on who happens to tip well that day.\n\nCritics often claim that abolishing voluntary tipping will bankrupt independent restaurants because they rely on those extra dollars to stay open, while automated fees would act as an added cost for consumers. This argument fails to account for the reality that small businesses currently operate with razor-thin margins due to inefficient labor practices driven by tip-dependency. By shifting from a discretionary model to a mandatory service charge included in the bill, restaurants could actually increase their base wages and benefits without raising menu prices excessively. The money would simply be redirected toward better compensation rather than existing as unclaimed cash for some customers or unpredictable bonuses for others. Furthermore, an automated fee ensures that all revenue generated goes directly into payroll systems, removing the ambiguity of whether a tip was left on the table due to misunderstanding or forgetfulness. It removes the stigma and awkwardness associated with not tipping adequately, which often leads to confrontations between staff and patrons who feel unfairly penalized for exercising fiscal responsibility.\n\nUltimately, replacing tips with an automated service fee represents a modernization of labor standards in hospitality that aligns better with expectations from other industries. Just as white-collar workers receive fixed salaries independent of client satisfaction on any given call or meeting, servers should enjoy similar financial security. This transition does not harm small businesses; rather, it stabilizes them by removing the chaotic variable of voluntary generosity and replacing it with a reliable revenue stream dedicated to employee welfare. It protects customers from social coercion while ensuring that those who work hard are compensated fairly for their efforts regardless of external circumstances. The path forward is clear: move away from an archaic system built on inequality toward one where fair pay is guaranteed, service remains consistent, and the burden of uncertainty is lifted from every member of the dining community.",
+ "artifact_versions": [
+  "1. Tipping should be immediately abolished because it perpetuates economic inequality and forces service workers into a reliance on unpredictable gratuities rather than fair wages.\n2. Despite the argument that eliminating tips would reduce customer spending power, abolishing this system is essential to ensure standardized compensation for all employees regardless of their ability or gender.\n3. While traditional tipping supports many small businesses, it should be replaced by an automated service fee model that guarantees consistent pay without penalizing customers for leaving no gratuity."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_06",
+ "split": "discovery",
+ "construction_seed": 22660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 598
+}

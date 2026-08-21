@@ -1,0 +1,47 @@
+{
+ "case_id": "qwen_direct_09",
+ "lineage_id": "g166_qwen_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "direct",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over the existence of modern zoos has intensified as public sentiment shifts toward animal welfare and ethical stewardship in an age where wildlife conservation is viewed through a more critical lens. While traditional arguments for zoos have long centered on education and entertainment, proponents today must justify their continued operation by addressing significant concerns regarding captivity standards and genuine conservation impact. The central contention lies not merely in whether keeping animals behind bars is inherently wrong, but rather in whether modern facilities can ethically replicate the value they promise without compromising animal well-being or diverting resources from more effective preservation methods.\n\nThe strongest case for maintaining zoos rests on their role as educators and incubators for endangered species. For generations, accredited institutions have successfully bred animals that now reside in the wild, proving a tangible conservation function that extends beyond simple display. These facilities serve as living classrooms where visitors develop an emotional connection to nature they might never experience otherwise. When people witness the majesty of a gorilla or the agility of a lion up close, abstract concepts about biodiversity become personal and urgent. This psychological engagement is often cited as the primary catalyst for increased public support for conservation funds and policy changes. Without these physical encounters, society risks losing its collective empathy toward wildlife, leaving future generations disconnected from the natural world they are tasked with protecting.\n\nHowever, critics argue that this educational value comes at too high a moral cost to individual animals. No matter how spacious or enrichment-filled an enclosure becomes, it cannot replicate the vast territories required by many large mammals for physical and mental health. The confinement itself is often viewed as a violation of basic rights, inducing stress behaviors such as pacing or self-harm in species that roam hundreds of miles across open landscapes. Furthermore, there is a growing consensus among conservation biologists that funding should be prioritized towards habitat protection and anti-poaching efforts rather than maintaining expensive zoological parks. In many cases, the existence of breeding programs within captivity may inadvertently reduce international demand for live animals by creating an artificial surplus, or worse, distract attention from saving existing wild populations in crisis zones where immediate intervention is needed to prevent extinction before captive stock can ever return them.\n\nMoreover, the justification that private zoos enhance conservation efforts often fails upon closer scrutiny. While some organizations claim their work aids specific species recovery, the majority of accredited institutions focus on long-term viability rather than active reintroduction programs, effectively turning wild animals into permanent exhibits for tourist consumption. This commodification transforms living beings into attractions rather than preserving them as integral parts of complex ecosystems. If a zoo cannot demonstrate that its presence directly contributes to increasing numbers in the wild or protecting critical habitats, its moral standing becomes precarious. The argument shifts from one of necessity to one of preference; while humans may desire access to wildlife, this desire should not supersede the fundamental right of an animal to live freely and unchained if possible.\n\nUltimately, the viability of zoos depends entirely on their evolution into sanctuaries that prioritize genuine rehabilitation over display. Facilities that function merely as holding pens for animals they cannot release back into the wild have little justification for continued existence in a modern ethical framework. The future of captivity should be restricted to those who can prove an irreplaceable contribution to species survival, ensuring that every animal housed is one with no other option but confinement while working toward eventual freedom. Until institutions can unequivocally demonstrate this transition from entertainment-centric models to active conservation partners, their existence remains a contentious compromise between human curiosity and animal liberty.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_09",
+ "split": "discovery",
+ "construction_seed": 25600,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 619
+}

@@ -1,0 +1,70 @@
+{
+ "case_id": "qwen_outline_07",
+ "lineage_id": "g166_qwen_07",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_07",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether voting should be compulsory Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Compulsory voting ensures higher voter turnout and enhances democratic legitimacy by including marginalized voices in the political process.\n2. Critics argue that forcing citizens to vote infringes on personal freedom and imposes a burden on those with limited time or resources.\n3. Mandatory attendance may lead to uninformed casting of ballots, potentially distorting election outcomes rather than reflecting true public will.\n4. Proponents suggest that similar civic duties like jury service are accepted without complaint because they serve the greater societal good.\n5. A balanced approach could involve compulsory voting paired with robust education campaigns to ensure voters possess adequate knowledge before participating."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The foundation of a healthy democracy rests heavily on the active participation of its citizens, yet there is ongoing debate regarding whether this participation should be mandatory. The primary argument in favor of compulsory voting centers on the idea that such measures significantly increase voter turnout and thereby enhance the democratic legitimacy of elected officials. When only those with high education levels or strong political engagement vote, election results often reflect a specific segment of society rather than the collective will of the entire population. By making voting obligatory, governments can ensure that marginalized voices\u2014those historically excluded from traditional power structures\u2014are included in the political process. This inclusivity forces politicians to address issues affecting all citizens, not just the vocal minority who show up on election day, thus creating a more representative and accountable form of governance where every person's preferences matter equally.\n\nHowever, critics strongly contend that forcing citizens to vote infringes upon fundamental personal freedoms and imposes an undue burden on individuals with limited time or resources. In many societies, work schedules, caregiving responsibilities, and financial constraints can make attending polling stations difficult for certain populations. If voting is mandatory but the system does not provide sufficient flexibility or support, it effectively punishes those who cannot easily navigate bureaucratic hurdles to cast a ballot. This perspective holds that citizenship should be about rights rather than obligations, and compelling someone to participate in an activity they are ill-equipped to handle violates their autonomy. Furthermore, opponents argue that quality of engagement is more important than quantity; a forced participation might dilute the integrity of the democratic process by prioritizing attendance over genuine interest or civic duty.\n\nA significant concern raised against mandatory voting is the potential for uninformed casting of ballots to distort election outcomes rather than accurately reflecting true public will. If citizens are compelled to vote without having time to research candidates, read party platforms, or understand complex policy issues, they may cast votes based on impulse, misinformation, or random chance. In such scenarios, a higher turnout does not necessarily equate to a better democracy; instead, it could lead to decisions that do not align with the considered preferences of an educated electorate. The risk is high: elections might be decided by well-meaning but unprepared voters, resulting in policy shifts driven by confusion rather than informed consensus. This undermines the very legitimacy proponents seek to establish, suggesting that a vote cast without knowledge carries less weight and validity than one made after careful deliberation.\n\nDespite these valid concerns about freedom and competence, proponents of compulsory voting often draw parallels to other accepted civic duties, such as jury service or paying taxes. Society generally accepts performing these tasks without complaint because they serve the greater societal good, even if individuals would prefer not to participate at that moment. Voting is arguably one of the most critical functions of a citizenry in maintaining social order and justice. Just as we expect citizens to contribute financially through taxation regardless of their personal preference for government spending, mandating voting could be viewed as essential for preserving the stability and fairness of the state. The argument follows that just as jury duty protects our right to a fair trial, compulsory voting protects the integrity of representation by ensuring no single group's apathy dictates national policy.\n\nUltimately, perhaps neither absolute compulsion nor complete voluntary participation offers a perfect solution on its own. A balanced approach could involve implementing compulsory voting paired with robust education campaigns designed to ensure all voters possess adequate knowledge before participating. By mandating attendance while simultaneously providing accessible resources and civic education programs, the state can address concerns regarding uninformed decision-making without violating personal liberties. This hybrid model respects the individual's capacity for learning while holding society accountable for maintaining high engagement levels. Such a system acknowledges that voting is not merely an act of choice but a responsibility akin to other duties we uphold in community life, ensuring that the democratic process remains both inclusive and informed.",
+ "artifact_versions": [
+  "1. Compulsory voting ensures higher voter turnout and enhances democratic legitimacy by including marginalized voices in the political process.\n2. Critics argue that forcing citizens to vote infringes on personal freedom and imposes a burden on those with limited time or resources.\n3. Mandatory attendance may lead to uninformed casting of ballots, potentially distorting election outcomes rather than reflecting true public will.\n4. Proponents suggest that similar civic duties like jury service are accepted without complaint because they serve the greater societal good.\n5. A balanced approach could involve compulsory voting paired with robust education campaigns to ensure voters possess adequate knowledge before participating."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_07",
+ "split": "discovery",
+ "construction_seed": 23620,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 673
+}

@@ -1,0 +1,47 @@
+{
+ "case_id": "qwen_direct_07",
+ "lineage_id": "g166_qwen_07",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_07",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether voting should be compulsory Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "direct",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over mandatory voting has persisted for decades across various democracies, pitting two fundamentally different philosophies against one another: the ideal of civic obligation versus the principle of individual liberty. Proponents of compulsory voting argue that democracy requires broad participation to be legitimate and representative, while opponents contend that forcing citizens to vote violates their freedom of choice. While the argument regarding personal liberty is profound, the case for mandating voting rests on a more pragmatic foundation: ensuring that elected bodies truly reflect the will of the majority and preventing marginalized voices from being systematically underrepresented in favor of apathetic or privileged demographics.\n\nThe primary justification for compulsory voting lies in the distortion caused by voluntary turnout patterns. In many free-election systems, elections are decided not because half the population votes one way while others abstain, but because a specific demographic consistently participates at higher rates than another. Studies have shown that voter turnout is often correlated with age and socioeconomic status; younger people, students, and those from lower-income backgrounds vote less frequently than their elderly or wealthy counterparts. When these groups remain on the sidelines, political parties naturally tailor their platforms to appease the vocal majority rather than seeking consensus across the entire populace. By making voting compulsory, society forces a recalibration where politicians must appeal to all citizens, not just the engaged few. This mechanism ensures that policy decisions benefit from wider input and prevents governance driven solely by temporary enthusiasm or organized interest groups of high-turnout demographics.\n\nCritics often raise valid concerns regarding coercion and voter apathy toward candidates. They argue that forcing someone to participate in a system they do not trust is counterproductive and may lead voters to spoil ballots simply to protest the process itself. However, this concern conflates participation with endorsement. Compulsory voting laws typically require citizens only to cast a vote; they do not mandate support for any specific party or candidate. In jurisdictions like Australia and Belgium, where compulsory voting has been in place since World War II, there is no evidence of widespread ballot rejection rates that would suggest protest-driven spoiling. Instead, these systems encourage civic education, as voters must engage with the issues to make an informed choice. The right to abstain remains inherent in a free election; if one knows nothing about the candidates or feels the system is corrupt, they should have the option to vote for everyone except themselves, thereby signaling their dissatisfaction without denying others representation.\n\nFurthermore, democracy thrives on inclusivity rather than exclusivity based on civic habits. If voting rights are granted but the duty to exercise them is not enforced, it creates an imbalance where those with more time, resources, or mobility can influence society while others cannot. This inequality undermines the concept of political equality. Compulsory voting levels this playing field by ensuring that every citizen's voice carries equal weight in the final tally, regardless of their personal schedule or level of political interest. It transforms voting from a sporadic act of preference into a regular civic duty akin to jury service or paying taxes.\n\nIn conclusion, while the discomfort of forcing an action feels contradictory on the surface, mandatory voting serves as a vital corrective mechanism for modern democracies. It addresses the structural biases inherent in voluntary turnout and ensures that government remains accountable to the entire population rather than just its most active segment. By requiring every eligible citizen to participate, society reaffirms the sacredness of democratic processes and guarantees that leadership is derived from the collective will of all people, not merely a self-selected subset.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_07",
+ "split": "discovery",
+ "construction_seed": 23600,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 602
+}

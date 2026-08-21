@@ -1,0 +1,47 @@
+{
+ "case_id": "qwen_direct_06",
+ "lineage_id": "g166_qwen_06",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_06",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether tipping should be abolished Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "direct",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The practice of tipping has long been a contentious fixture in American culture and service economies, evolving from an act of sporadic gratitude into a mandatory component of payroll for millions of workers. As public discourse regarding income inequality intensifies, the argument for abolishing tipping gains significant traction among economists, sociologists, and labor advocates. The core contention here is not merely about etiquette or politeness, but rather the structural unfairness embedded in an economic system that shifts financial responsibility from employers to individual customers based on arbitrary social dynamics.\n\nThe most compelling case against tipping rests upon its inherent instability and lack of transparency. In a standard employment model, workers receive a fixed wage determined by market rates for their labor. With tipped minimum wages, however, the actual compensation is contingent entirely on a customer's mood, generosity, or financial capacity at any given moment. This creates a precarious environment where two employees performing identical tasks can earn vastly different incomes simply because one received larger tips and the other did not. Furthermore, this system obscures the true cost of service labor from employers. Many businesses advertise \"free\" services like Wi-Fi or small plates to attract customers, yet they rely on the tip revenue stream that has never been budgeted for by management. This effectively transfers the burden of profit margin planning onto the consumer, who unknowingly pays more than advertised when their generosity is low compared to industry averages.\n\nBeyond individual unfairness, tipping fosters a divisive atmosphere within service establishments. When compensation relies on personal interaction and perceived value rather than skill or effort, it can encourage workers to be overly ingratiating or even servile in hopes of securing better paychecks. Conversely, customers may feel guilt-tripped into spending money they do not have, creating psychological pressure that distorts genuine interactions. The current system also penalizes those who cannot afford to tip adequately due to financial hardship, disability, or systemic inequality. Abolishing tipping would level the playing field by ensuring all workers receive a living wage regardless of their clientele's socioeconomic status, thereby removing stigma and anxiety from both sides of the transaction counter.\n\nTransitioning away from tips requires a shift in business practice rather than consumer behavior alone. If businesses were required to pay full, competitive wages independent of gratuities, they could afford to invest in better training, fairer scheduling, and more respectful working conditions without needing customers' extra money as a substitute for proper compensation. This would align the service industry with modern labor standards seen in other sectors. Critics often argue that removing tips will cause small businesses to fail or increase prices significantly; however, historical precedents suggest that when employers are held accountable for full wages, operational efficiency improves and turnover rates drop, potentially lowering long-term costs associated with high staff churn.\n\nUltimately, the maintenance of tipping is a relic of an outdated economic arrangement that no longer serves the interests of either workers or consumers fairly. It relies on chance rather than merit and places undue stress on those who provide essential services to vulnerable populations facing financial constraints. By moving toward a model where service professionals are paid directly by their employers for their full value, society can uphold the dignity of labor without relying on voluntary charity disguised as mandatory payment. Abolishing tipping is not just an economic adjustment; it is a moral imperative necessary to build a more equitable and dignified workforce in our modern economy.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_06",
+ "split": "discovery",
+ "construction_seed": 22600,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 576
+}

@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_07",
+ "lineage_id": "g166_qwen_07",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_07",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether voting should be compulsory Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Compulsory voting strengthens democratic legitimacy by ensuring that election outcomes reflect the will of an entire electorate rather than a selective minority.",
+     "Mandatory voter participation unfairly penalizes conscientious objectors and marginalized groups who lack access to resources or face genuine barriers to casting a ballot.",
+     "While compulsory voting expands turnout, it risks diluting civic responsibility if laws fail to address systemic inequities that prevent certain populations from fulfilling this duty equitably."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Compulsory voting strengthens democratic legitimacy by ensuring that election outcomes reflect the will of an entire electorate rather than a selective minority.",
+    "Mandatory voter participation unfairly penalizes conscientious objectors and marginalized groups who lack access to resources or face genuine barriers to casting a ballot."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "While compulsory voting expands turnout, it risks diluting civic responsibility if laws fail to address systemic inequities that prevent certain populations from fulfilling this duty equitably.",
+    "draw_seed": 23660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Compulsory voting strengthens democratic legitimacy by ensuring that election outcomes reflect the will of an entire electorate rather than a selective minority."
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Mandatory voter participation unfairly penalizes conscientious objectors and marginalized groups who lack access to resources or face genuine barriers to casting a ballot."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether voting should be compulsory has persisted for centuries across various democracies, often swinging between the ideals of universal participation and the realities of individual liberty. Proponents argue that mandatory attendance at polling stations ensures a representative government by preventing apathy from skewing election results, while opponents maintain that forcing citizens to vote is an infringement on personal freedom. However, despite these surface-level arguments, the central issue transcends mere statistics or constitutional rights; it strikes at the heart of what constitutes true civic engagement. While compulsory voting undoubtedly expands turnout numbers and creates a more numerically representative electorate, it risks fundamentally diluting genuine civic responsibility if laws fail to address systemic inequities that prevent certain populations from fulfilling this duty equitably. In such contexts, mandatory participation transforms an act of democratic renewal into one of coerced compliance, masking deep-seated disenfranchisement rather than resolving it.\n\nWhen a state mandates voting without first ensuring equitable access to the ballot box for all citizens, it creates a paradox where those most capable and willing to engage are expected to participate while others face structural barriers that make participation impossible or excessively burdensome. Systemic inequities such as restrictive voter ID laws, polling hours that conflict with shift work, lack of transportation in rural areas, or language barriers can effectively silence specific demographics without technically denying them the right to vote. In these scenarios, compulsory voting does not empower marginalized groups; instead, it forces them into a performative act where they must navigate insurmountable obstacles simply to satisfy legal requirements. This dynamic shifts the nature of \"civic responsibility\" from an active commitment to one's community and government to a hollow obligation that highlights rather than heals societal fractures.\n\nFurthermore, the pressure to comply with compulsory laws can lead to administrative absurdities or unethical behavior among officials tasked with enforcing them. If a system penalizes non-voters but does not provide adequate resources for those who cannot vote due to work constraints or disability, the state inadvertently punishes its most vulnerable citizens. This punitive approach erodes public trust in electoral institutions because it sends a message that attendance is valued over accessibility and inclusivity. True civic responsibility requires an environment where participation is encouraged through education and facilitation rather than enforced through penalties. When laws ignore these foundational issues, compulsory voting becomes a tool of social control that validates the status quo by suggesting that low turnout among specific groups is merely a result of apathy or indifference, when in reality it stems from deliberate exclusionary practices.\n\nMoreover, expanding numerical representation does not automatically translate to better governance if the composition of voters remains skewed toward privileged classes due to unaddressed barriers. A high voter turnout achieved through compulsion while ignoring systemic inequities results in a legislature that claims broad support but fails to represent diverse needs accurately. The moral integrity of an election is compromised when participation is manufactured rather than organic, undermining the very legitimacy it seeks to bolster. Therefore, the path toward improving democratic health lies not in mandating attendance, but in dismantling the barriers that force citizens into choosing between their livelihood and their civic duty.\n\nUltimately, while the intention behind compulsory voting may be noble\u2014seeking higher engagement\u2014the method is flawed if applied without simultaneous reforms addressing systemic inequality. A democracy thrives when citizenship is a shared practice grounded in equal opportunity rather than legal coercion. Until laws actively remove obstacles faced by minority communities, working-class individuals, and those with disabilities, mandating the vote serves only to expose and exacerbate these inequalities under the guise of civic duty. The solution lies not in forcing people to show up against their will or capability, but in building a system where every citizen can genuinely exercise that right without fear of penalty or undue hardship.",
+ "artifact_versions": [
+  "1. Compulsory voting strengthens democratic legitimacy by ensuring that election outcomes reflect the will of an entire electorate rather than a selective minority.\n2. Mandatory voter participation unfairly penalizes conscientious objectors and marginalized groups who lack access to resources or face genuine barriers to casting a ballot.\n3. While compulsory voting expands turnout, it risks diluting civic responsibility if laws fail to address systemic inequities that prevent certain populations from fulfilling this duty equitably."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_07",
+ "split": "discovery",
+ "construction_seed": 23660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 639
+}

@@ -8,7 +8,7 @@ spec's.
 
 ## §1. The error this fixes
 
-`SOUNDING_LINE_SPEC.md` line 334:
+`SOUNDING_LINE_SPEC.md` (now at `docs/SOUNDING_LINE_SPEC.md`) line 334:
 
 > **Gate 1 — the bounded family exists and a single artifact can be read.** One page in, a
 > four-part reading out, on a hand-picked example of each corpus type. **Success is

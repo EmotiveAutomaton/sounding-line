@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_08",
+ "lineage_id": "g166_qwen_08",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_08",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether remote work should be a legal right Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Remote work should not be established as an unconditional legal right because its feasibility depends heavily on individual job roles and industry-specific operational requirements.",
+     "While some professions benefit from flexibility, codifying remote work as a universal legal right could undermine workplace cohesion and erode the structured collaboration essential for many team-based industries.",
+     "Employers should have the final authority to determine remote work arrangements based on legitimate business needs rather than granting employees an automatic statutory entitlement to telecommute."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Remote work should not be established as an unconditional legal right because its feasibility depends heavily on individual job roles and industry-specific operational requirements.",
+    "Employers should have the final authority to determine remote work arrangements based on legitimate business needs rather than granting employees an automatic statutory entitlement to telecommute."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "While some professions benefit from flexibility, codifying remote work as a universal legal right could undermine workplace cohesion and erode the structured collaboration essential for many team-based industries.",
+    "draw_seed": 24660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Remote work should not be established as an unconditional legal right because its feasibility depends heavily on individual job roles and industry-specific operational requirements."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Employers should have the final authority to determine remote work arrangements based on legitimate business needs rather than granting employees an automatic statutory entitlement to telecommute."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The rapid acceleration of digital communication tools has fundamentally altered how labor is performed across the globe, creating an environment where employees can technically execute their duties from any location with internet access. This technological shift has sparked a vigorous debate regarding whether remote work should be enshrined as a universal legal right for all workers. While proponents argue that such a mandate would offer unprecedented flexibility and improve work-life balance for many individuals, the counter-argument suggests that codifying this arrangement into law could inadvertently undermine workplace cohesion and erode the structured collaboration essential for numerous team-based industries. Therefore, while some professions genuinely benefit from remote flexibility, making it a statutory right is a policy overreach that risks damaging the very foundations of effective organizational functioning.\n\nThe primary concern with universal legal mandates for remote work lies in its potential to fragment teams and dilute institutional culture. Many successful organizations rely on spontaneous interactions, informal knowledge sharing, and non-verbal cues that occur naturally within a shared physical space. These elements are critical for building trust among colleagues and fostering a sense of belonging. When work is legally mandated to be performed remotely, the casual opportunities for mentorship, conflict resolution, and creative brainstorming vanish or become artificially scheduled via video conference calls. This artificiality creates barriers between departments and reduces the fluidity that allows teams to adapt quickly to changing market conditions. In fields like software development, design agencies, and hospitality management, where collaboration is continuous and iterative, a forced remote environment can lead to siloed thinking and reduced innovation.\n\nFurthermore, not every industry possesses the digital infrastructure or the nature of work required for effective remote execution. Professions involving patient care in healthcare settings, hands-on manufacturing on factory floors, logistics coordination at warehouse hubs, or emergency services rely heavily on physical presence and immediate tactile interaction. Granting a legal right to these workers that they cannot practically exercise creates an absurdity where labor laws fail their intended purpose while potentially forcing employers into compliance traps that compromise safety standards. Even in office-based sectors like law or finance, certain tasks require sensitive discussions around secure conference rooms or collaborative document reviews on large physical boards that are difficult to replicate remotely without significant technological investment and loss of nuance. A blanket legal right ignores these vast disparities, treating all jobs as equally compatible with distance work when reality dictates otherwise.\n\nAnother critical aspect is the potential erosion of structured collaboration within hierarchical organizations. Legal mandates often bypass managerial discretion regarding operational needs. If a company faces a crisis requiring rapid alignment across multiple locations or time zones, a statutory requirement for remote distribution might prevent leaders from convening staff in person to navigate complex challenges effectively. The ability to pivot between virtual and physical modes based on specific project requirements is vital for modern agility. Locking organizations into permanent remote structures through legislation removes the strategic choice necessary to optimize workflow efficiency during different phases of growth or contraction.\n\nIn conclusion, while the allure of a universal right to remote work appeals to individual desires for autonomy, it fails to account for the complex ecosystem in which teams operate. Flexibility is valuable when chosen voluntarily based on role-specific needs and company culture, but elevating it to a legal imperative threatens the organic bonds that hold organizations together. The structured collaboration found in shared spaces remains indispensable for many industries where human connection drives performance. Consequently, remote work should remain a benefit negotiated within labor agreements rather than a legislated right applied universally, ensuring that workplace cohesion is preserved and industrial realities are respected without compromising safety or effectiveness.",
+ "artifact_versions": [
+  "1. Remote work should not be established as an unconditional legal right because its feasibility depends heavily on individual job roles and industry-specific operational requirements.\n2. While some professions benefit from flexibility, codifying remote work as a universal legal right could undermine workplace cohesion and erode the structured collaboration essential for many team-based industries.\n3. Employers should have the final authority to determine remote work arrangements based on legitimate business needs rather than granting employees an automatic statutory entitlement to telecommute."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_08",
+ "split": "discovery",
+ "construction_seed": 24660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 614
+}

@@ -715,9 +715,21 @@
       "name": "g166_gen_qwen",
       "why": "G166 route-varied corpus, seen generator: five recorded routes to surface-matched essays, process-logged by construction",
       "est_minutes": 150,
-      "status": "RUNNING",
-      "log": "results\\g166_gen_qwen.log"
+      "status": "DONE",
+      "log": "results\\g166_gen_qwen.log",
+      "minutes": 13.0
+    },
+    {
+      "name": "g166_audit",
+      "why": "G166 self-gate: yield, band, route-log completeness, cross-route degeneracy; the B0 reading battery preregisters only on CORPUS-STANDS",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "corpora/g166_routes/manifest_llama.json"
+      ]
     }
   ],
-  "shard": "0/3"
+  "shard": "0/3",
+  "finished": "2026-08-21 05:20",
+  "failed": []
 }

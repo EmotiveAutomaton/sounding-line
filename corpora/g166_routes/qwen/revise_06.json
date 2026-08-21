@@ -1,0 +1,92 @@
+{
+ "case_id": "qwen_revise_06",
+ "lineage_id": "g166_qwen_06",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_06",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether tipping should be abolished Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "revise",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "critique",
+   "target": "draft",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "weaknesses": [
+     "1. The essay relies too heavily on broad sociological assertions without integrating specific economic data or concrete historical examples to substantiate the claim that tipping inherently causes systemic inequality.",
+     "2. Several sentences contain wordy phrasing and passive constructions (e.g., \"it has evolved into,\" \"society would be forced\") that reduce the impact of the argument and clutter the prose before reaching key points about wage gaps."
+    ]
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The practice of tipping remains one of economics' most contentious subjects, dividing society between those who view gratuities as a vital supplement for service workers and those who see them as an outdated relic undermining fair labor standards. While proponents argue that tips incentivize excellent customer service and provide financial flexibility to employees, the case for abolition is compelling due to their direct contribution to income instability, racial disparities, and workplace inequality. At its core, the argument against tipping rests on a fundamental principle of wage fairness: in nations where custom rather than law dictates gratuities, employers legally pay wages far below living standards while relying entirely on unpredictable tips to bridge the gap. This system plunges workers into financial precarity, causing incomes to fluctuate wildly based on daily customer whims or economic downturns. When a worker's livelihood depends on the mood of strangers instead of a guaranteed hourly rate paid by their employer, significant risk shifts from business owners onto employees. Abolishing tipping would force businesses to pay living wages directly, stabilizing household incomes and reducing poverty among service sector workers who currently face some of the highest rates of economic insecurity in developed nations.\n\nFurthermore, current tip culture fosters a hierarchy that disproportionately disadvantages minority groups. Research consistently demonstrates that women, particularly Black and Latina waitstaff, receive significantly smaller tips than white male counterparts for identical performance levels. This phenomenon suggests tipping is not merely an objective reward but rather a subjective mechanism influenced by deep-seated unconscious bias. By removing the tip from compensation structures, society would be forced to confront these prejudices directly through mandated salary adjustments rather than allowing them to persist under the guise of \"voluntary\" generosity. It becomes unacceptable practice when discrimination manifests as paying less based on gender or race within casual conversation over a small jar.\n\nCritics often defend tipping by claiming workers are better off earning higher wages for exceptional service without employer interference, yet this perspective ignores reality: most customers cannot consistently deliver high tips during slow periods. Employers rarely provide adequate training to overcome these challenges; instead, they rely on systems designed to extract lower baseline costs from businesses while passing the burden of satisfaction onto cash-only workers. If evaluation focused strictly on salary and promotion structures rather than immediate gratuities, restaurants would likely prioritize comprehensive staff development and retention strategies over exploiting customer generosity during lean times.\n\nLogistical concerns also highlight why modern transactions make tipping cumbersome for consumers. The expectation to manually calculate fifteen or twenty percent after every meal imposes an unnecessary cognitive load in a fast-paced world. While automated suggestions attempt to streamline this process, they often reinforce high expected standards rather than encouraging fair compensation within the wage itself. Transitioning to a flat-rate service model would eliminate social awkwardness and ensure all staff members are treated with equal regard regardless of demographic background or single patron generosity.\n\nUltimately, while tipping was originally conceived as a way for customers to reward exceptional hospitality directly, it has evolved into an exploitative system perpetuating inequality among essential workers. Abolishing tipping is not about removing appreciation but reframing how we value service labor through fair wages guaranteed by employers. By ending reliance on gratuities as substitutes for proper pay, society can move toward a more equitable economy where dignity in work is protected by law and custom alike, ensuring those who feed and serve us are compensated fairly regardless of gender or race.",
+ "artifact_versions": [
+  "The practice of tipping has long been a contentious subject in economic and social discourse, sparking debate between those who view it as a necessary supplement for service workers and those who believe it is an outdated relic that undermines fair labor practices. While proponents argue that tips incentivize excellent customer service and provide flexibility to employees, the case for abolishing tipping remains compelling due to its contribution to income instability, racial disparities, and workplace inequality.\n\nThe primary argument against tipping rests on the fundamental principle of wage fairness. In many countries where tipping is mandatory by custom rather than law, employers are legally permitted to pay wages far below a living standard, relying entirely on unpredictable gratuities to make up the difference. This system creates an environment where workers live in financial precarity, with their income fluctuating wildly based on daily customer whims or economic downturns. When a worker's livelihood depends on the mood of strangers rather than a guaranteed hourly rate paid by their employer, it shifts significant risk from the business owner onto the employee. Abolishing tipping would force businesses to pay living wages directly, thereby stabilizing household incomes and reducing poverty among service sector workers who currently face some of the highest rates of economic insecurity in developed nations.\n\nFurthermore, the current tip culture fosters a hierarchy that disproportionately disadvantages minority groups. Research consistently shows that women, particularly Black and Latina waitstaff, receive significantly smaller tips than their white male counterparts for identical levels of performance. This phenomenon suggests that tipping is not merely an objective reward for service quality but rather a subjective mechanism influenced by unconscious bias. By removing the tip as part of compensation, society would be forced to confront these deep-seated prejudices directly through mandated salary adjustments rather than allowing them to persist in the shadows of \"voluntary\" generosity. It normalizes discrimination when it becomes acceptable practice to pay less based on gender or race under the guise of a smaller tip jar.\n\nCritics often defend tipping by claiming that workers are better off if they can earn higher wages through exceptional service without an employer's interference. However, this perspective ignores the reality that most customers lack the ability to consistently deliver such high tips during slow periods. Moreover, employers rarely provide adequate training or support for tipped employees to overcome these challenges; instead, they rely on a system designed to extract lower baseline costs from businesses while passing the burden of customer satisfaction directly onto workers in cash-only form. If service were evaluated strictly through salary and promotion structures rather than immediate gratuities, restaurants would likely focus more on comprehensive staff development and retention strategies.\n\nThere are also logistical concerns regarding the complexity of modern transactions that make tipping cumbersome for many consumers. The expectation to calculate 15 percent or 20 percent manually after every meal is an unnecessary cognitive load in a fast-paced world. While automated suggestions have attempted to streamline this process, they often reinforce high expected standards rather than encouraging fair compensation within the wage itself. Transitioning to a flat-rate service model would eliminate social awkwardness and ensure that all staff members are treated with equal regard regardless of their demographic background or the generosity of any single patron.\n\nUltimately, while tipping was originally conceived as a way for customers to reward exceptional hospitality directly, it has evolved into an exploitative system that perpetuates inequality and economic instability among essential workers. Abolishing tipping is not about removing customer appreciation but rather reframing how we value service labor through fair wages guaranteed by employers. By ending the practice of relying on gratuities as a substitute for proper pay, society can move toward a more equitable economy where dignity in work is protected by law and custom alike, ensuring that those who feed and serve us are compensated fairly regardless of their gender or race."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_06",
+ "split": "discovery",
+ "construction_seed": 22680,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 579
+}

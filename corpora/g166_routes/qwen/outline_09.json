@@ -1,0 +1,70 @@
+{
+ "case_id": "qwen_outline_09",
+ "lineage_id": "g166_qwen_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Zoos serve as vital conservation hubs that protect endangered species from extinction in the wild.\n2. These institutions provide crucial educational opportunities to foster public empathy and support for wildlife preservation.\n3. Modern accredited zoos offer spacious habitats designed to meet the complex behavioral needs of animals.\n4. Critics argue that captivity inherently causes psychological distress regardless of available enrichment programs.\n5. Society must weigh immediate conservation benefits against ethical concerns regarding animal freedom and welfare."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether zoos should continue to exist is one of the most contentious issues in modern ethics, pitting arguments for human education and species survival against principles of autonomy and natural liberty. Proponents argue that far from being mere cages, accredited zoological gardens serve as vital conservation hubs dedicated to protecting endangered species from extinction within their native habitats. In an era where poaching, habitat destruction, and climate change threaten biodiversity at unprecedented rates, these institutions have become the last line of defense for countless organisms. Through intensive breeding programs known as Species Survival Plans, facilities such as those in San Diego or Bronx successfully increased populations of critically endangered animals like the California condor and the black-footed ferret before reintroducing them into the wild. Without this structured human intervention, many of these species would have vanished from our planet entirely decades ago, rendering zoos not just educational attractions but essential ark-like sanctuaries for global biodiversity.\n\nBeyond their role in biological preservation, these institutions provide crucial educational opportunities to foster public empathy and support for wildlife preservation on a massive scale. When visitors walk through the exhibits, they are often confronted with the reality of extinction risks in ways that abstract statistics never could convey face-to-face interaction creates an emotional bridge between humans and non-human animals. This visceral experience transforms passive indifference into active advocacy; millions of dollars raised annually by zoos directly fund habitat restoration projects around the globe. By witnessing a polar bear shivering in a climate-warmed enclosure or observing a tiger pacing behind glass, observers gain a profound understanding of environmental fragility that motivates them to support conservation legislation and sustainable lifestyle choices. The zoo thus acts as a living classroom where compassion is cultivated alongside knowledge, creating a generation more inclined to protect nature rather than exploit it.\n\nFurthermore, the landscape of modern accredited zoos has evolved significantly from the cramped cages of the past; they now offer spacious habitats specifically designed to meet the complex behavioral needs of animals. Advanced enclosure designs incorporate naturalistic elements such as flowing water features, varied terrain, and immersive vegetation that encourage instinctive behaviors like hunting, climbing, and nesting. Zoologists employ sophisticated enrichment programs using puzzle feeders, simulated predators, and sensory stimuli to prevent boredom and ensure physical activity comparable to what wild counterparts might experience in large territories. Critics often cite the unnatural nature of captivity as a primary flaw, yet evidence suggests that many species thrive better under human care than they would survive against starvation or predation in the real world where resources are scarce and danger is constant. The focus has shifted from mere containment to holistic welfare management that prioritizes psychological health just as much as physical safety.\n\nDespite these advancements, critics argue that captivity inherently causes psychological distress regardless of available enrichment programs. They maintain that no amount of artificial stimulation can replicate the freedom of movement or territorial sovereignty inherent in a wild existence, positing that the stress of confinement is irreversible even for well-cared-for individuals. This perspective emphasizes the fundamental right to roam and reject any form of human control over another living being's destiny. While these ethical concerns are valid and must be respected, they do not necessarily negate the practical necessity zoos provide in an increasingly hostile environment where wild populations collapse before we can save them ourselves.\n\nUltimately, society must weigh immediate conservation benefits against ethical concerns regarding animal freedom and welfare to determine if a modified but continued role for zoos is morally justifiable. The answer likely lies not in binary opposition but in recognizing that some degree of human stewardship may be the only path toward preventing total loss while simultaneously educating future generations on coexistence. If we allow every species without exception, including those already teetering on extinction's brink to wander alone into vanishing ecosystems, history will judge us harshly for our failure to act when humanity possessed both the means and the moral obligation to intervene.",
+ "artifact_versions": [
+  "1. Zoos serve as vital conservation hubs that protect endangered species from extinction in the wild.\n2. These institutions provide crucial educational opportunities to foster public empathy and support for wildlife preservation.\n3. Modern accredited zoos offer spacious habitats designed to meet the complex behavioral needs of animals.\n4. Critics argue that captivity inherently causes psychological distress regardless of available enrichment programs.\n5. Society must weigh immediate conservation benefits against ethical concerns regarding animal freedom and welfare."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_09",
+ "split": "discovery",
+ "construction_seed": 25620,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 671
+}

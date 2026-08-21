@@ -251,8 +251,10 @@ the same pass that earns them. The method shelf's README maps each file to its r
   unintended deletion is a stop-everything event (born of the SPEC deletion, caught only by the
   lock audit).
 - **Every measure ships with a null that can fail it, written before the run.**
-- **Never edit `SOUNDING_LINE_SPEC.md`, `prereg/*.py`, or `soundingline/locks.py`** — content-hash
+- **Never edit `docs/SOUNDING_LINE_SPEC.md`, `prereg/*.py`, or `soundingline/locks.py`** — content-hash
   locked. Changes go in `docs/method/DEVIATIONS.md`, original retained and still computed.
+  (The spec moved off the top level 2026-08-21, bytes identical; `tools/verify_locks.py` is the
+  canonical verifier and carries every locked-file path mapping.)
 - **Never edit a scoring script to fit a result.**
 - **Do not narrate per-artifact numbers from a running gate.** Score once, at the end.
 - **Line endings are LF.** `hashlock` treats bytes as content, so a CRLF file fails its own lock.

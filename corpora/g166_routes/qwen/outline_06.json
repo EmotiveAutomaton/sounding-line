@@ -1,0 +1,70 @@
+{
+ "case_id": "qwen_outline_06",
+ "lineage_id": "g166_qwen_06",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_06",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether tipping should be abolished Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Tipping system perpetuates wage inequality and places undue financial burden on service workers through inconsistent income.\n2. Abolishing tips would allow businesses to set fair base wages independent of customer discretion or socioeconomic status.\n3. Eliminating the practice reduces racial and gender biases that often lead to lower tip amounts for women and minorities in hospitality.\n4. A fixed-service model simplifies payroll administration, ensuring predictable revenue streams for both employers and employees alike.\n5. Removing tipping culture shifts focus from compensating staff based on superficial friendliness to valuing consistent professional standards."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The practice of tipping has long been a cornerstone of the service industry in many Western cultures, yet upon closer inspection, it reveals itself as an archaic and flawed economic mechanism that requires immediate abolition. At its core, the current system perpetuates wage inequality by forcing low-income workers to rely on volatile income streams rather than stable earnings. Service staff often live paycheck to paycheck because their compensation is contingent not just on the cost of living or the complexity of a job, but entirely on whether they encounter generous customers on any given day. This inconsistency places an undue financial burden on service workers who are already at the bottom of the economic ladder. Instead of receiving a livable salary for labor performed, employees must gamble their earnings based on the mood and wallet size of strangers, creating a precarious existence that destabilizes personal finances and hinders long-term planning.\n\nAbolishing tips would fundamentally reshape this dynamic by allowing businesses to set fair base wages independent of customer discretion or socioeconomic status. Currently, restaurants often pay below minimum wage with the assumption that tips will make up the difference, effectively passing the cost of labor onto customers directly and unfairly. If tipping were eliminated, employers would be compelled to offer a competitive hourly rate that reflects the skill, stress, and hours required in hospitality roles. This shift ensures that an employee's income is not dictated by whether they served someone wealthy who can afford to tip well or someone struggling financially who cannot. By decoupling pay from customer generosity, businesses could prioritize hiring qualified individuals without fear of undercutting them due to low tipping habits, thereby professionalizing the workforce and ensuring dignity for all workers regardless of their clientele's financial standing.\n\nFurthermore, eliminating this practice reduces racial and gender biases that often lead to lower tip amounts for women and minorities in hospitality. Studies have consistently shown a correlation between demographic characteristics and received tips; female servers typically earn significantly less than male counterparts even when working identical shifts with the same skill levels, largely due to cultural stereotypes regarding how much \"men's money\" is expected versus what should be given to women or people of color. Additionally, research indicates that customers may subconsciously tip less based on racial bias. By removing tips from the equation entirely, these discriminatory patterns become irrelevant to compensation structures. Pay would instead reflect performance and hours worked rather than unconscious prejudices held by diners, fostering a more equitable environment where advancement is based on merit alone.\n\nA fixed-service model also simplifies payroll administration significantly, ensuring predictable revenue streams for both employers and employees alike. The current system creates administrative chaos with inconsistent cash handling issues, constant reconciliation of credit card tip pools, and disputes over distribution percentages within back-of-house teams. Transitioning to a standard fee included in the bill streamlines operations, reduces theft risks associated with large amounts of unaccounted cash on premises, and provides clearer financial projections for business owners who can then invest those savings into better staff training or improved facilities rather than covering labor gaps caused by poor tipping nights.\n\nFinally, removing tipping culture shifts focus from compensating staff based on superficial friendliness to valuing consistent professional standards. When employees know they are paid a fair base wage regardless of how cheerful they appear or how quickly they apologize for mistakes, the pressure to perform exaggerated emotional labor diminishes. Customers stop expecting perfection and smiles that go beyond human capacity in exchange for monetary reward. Instead, interactions become more authentic because workers feel secure enough to be themselves while still being held accountable by a fair salary rather than an arbitrary tip jar. This cultural shift ultimately benefits everyone involved by replacing transactional relationships with respectful ones where the value of service is recognized through wages earned honestly and fairly.",
+ "artifact_versions": [
+  "1. Tipping system perpetuates wage inequality and places undue financial burden on service workers through inconsistent income.\n2. Abolishing tips would allow businesses to set fair base wages independent of customer discretion or socioeconomic status.\n3. Eliminating the practice reduces racial and gender biases that often lead to lower tip amounts for women and minorities in hospitality.\n4. A fixed-service model simplifies payroll administration, ensuring predictable revenue streams for both employers and employees alike.\n5. Removing tipping culture shifts focus from compensating staff based on superficial friendliness to valuing consistent professional standards."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_06",
+ "split": "discovery",
+ "construction_seed": 22620,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 645
+}

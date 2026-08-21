@@ -1,0 +1,71 @@
+{
+ "case_id": "qwen_rewrite_09",
+ "lineage_id": "g166_qwen_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model",
+  "g131_base": "recorded_prior_artifact"
+ },
+ "route_family": "rewrite",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "g131_base",
+   "operation": "propose",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "base_ref": "g131 qwen none_0_none_09"
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "Historically, zoos were established as sanctuaries of education and conservation, offering the public a glimpse into the natural world while safeguarding endangered species from extinction. However, in an era where scientific understanding has deepened and technology has advanced, this traditional model is increasingly untenable. The argument for abolition rests on three pillars: modern captivity prioritizes human entertainment over animal welfare; it often fails to deliver genuine conservation value for most species; and it perpetuates a harmful psychological dynamic between humans and wildlife that undermines true ethical coexistence.\n\nThe fundamental objection to contemporary zoos lies in the inherent violation of keeping wild animals confined, regardless of how spacious or \"enriched\" an enclosure may appear. No artificial structure can replicate the complexity, scale, and sensory richness of a natural habitat. When elephants pace endlessly down concrete corridors, when polar bears swim laps instead of hunting across vast territories, or when chimpanzees suffer from severe psychological distress due to social isolation, these are not anomalies but systemic failures inherent to captivity. These animals exhibit stereotypic behaviors\u2014repetitive actions like rocking, swaying, or self-mutilation\u2014that serve as clear indicators of profound mental anguish. No amount of enrichment toys or schedule adjustments can compensate for the loss of freedom, autonomy, and social structures necessary for a wild animal's well-being. By commodifying these sentient beings for public amusement, zoos treat living creatures merely as exhibits rather than fellow inhabitants of Earth with intrinsic rights to liberty.\n\nFurthermore, the conservation narrative frequently used to justify zoo existence is often overstated or misleading. While some accredited institutions participate in Species Survival Plans that have successfully bred endangered animals prior to reintroduction efforts like those for California condors or black-footed ferrets, these successes represent a tiny fraction of species under threat. For the vast majority of wildlife\u2014including large cats, primates, and cetaceans\u2014the zoo environment acts more as an insurance policy in theory while effectively ending their lines in practice due to genetic bottlenecks and reduced population viability. True conservation occurs outside fences by directly addressing habitat loss, poaching, climate change, and political instability in the wild. Unfortunately, zoos often function as a distraction that diverts critical funding away from urgent on-the-ground protection efforts where they are desperately needed most.\n\nUltimately, humanity's relationship with nature must evolve into one of respect and distance rather than ownership and observation through glass walls. We do not require cages to learn about the natural world; we have national parks, rehabilitation sanctuaries for rescued animals, and immersive educational technologies that allow us to witness wildlife without causing harm. Abolishing zoos would force society to confront uncomfortable truths regarding our treatment of other species while redirecting resources toward authentic conservation strategies. It is time to close these institutions not solely because they are cruel, but because there exists a superior, more ethical way for humanity and nature to coexist: one based on freedom rather than confinement. By dismantling the zoo system, we affirm that liberty is an absolute right, even if it means admitting some species may never be safe enough in their own habitats again without human intervention.",
+ "artifact_versions": [
+  "**The Case for Abolition: Why Zoos No Longer Serve Their Purpose**\n\nZoos were originally conceived as places of education and conservation, offering citizens a window into the natural world while protecting endangered species from extinction. However, in an era where scientific understanding has deepened and technology has advanced, the traditional zoo model is increasingly untenable. I firmly argue that zoos should be abolished because they fundamentally prioritize human entertainment over animal welfare, fail to provide genuine conservation value for many species, and perpetuate a harmful psychological dynamic between humans and wildlife.\n\nThe primary argument against modern zoos rests on the ethical violation of keeping wild animals in captivity. Regardless of how spacious or \"enriched\" an enclosure may appear, it cannot replicate the complexity of an animal's natural habitat. Elephants pacing endlessly in concrete corridors, polar bears swimming laps instead of hunting vast territories, and chimpanzees suffering from severe psychological distress due to isolation are not anomalies; they are systemic issues inherent to the zoo model. These animals exhibit stereotypic behaviors\u2014repetitive actions like rocking or swaying\u2014that indicate profound mental anguish. No amount of artificial enrichment can compensate for the loss of freedom, autonomy, and social structures necessary for a wild animal's well-being. By commodifying these sentient beings for public amusement, zoos treat living creatures as exhibits rather than fellow inhabitants of Earth with intrinsic rights to liberty.\n\nFurthermore, the conservation narrative often used to justify zoo existence is frequently overstated or misleading. While some accredited institutions participate in Species Survival Plans (SSPs) that successfully breed endangered animals prior to reintroduction efforts like those for California condors or black-footed ferrets, this success rate remains a tiny fraction of species under threat. For the vast majority of wildlife\u2014such as large cats, primates, and cetaceans\u2014the zoo environment acts more as an insurance policy against extinction in theory while effectively ending their lines in practice due to genetic bottlenecks. True conservation happens outside fences: by addressing habitat loss, poaching, climate change, and political instability directly in the wild. Zoos often act as a distraction that funds are diverted from urgent on-the-ground protection efforts where they are desperately needed most.\n\nUltimately, the relationship between humans and nature must be one of respect and distance, not ownership and observation through glass walls. We do not need cages to learn about the natural world; we have national parks, sanctuaries for rehabilitation, and immersive educational technology that allow us to witness wildlife without causing harm. Abolishing zoos would force society to confront uncomfortable truths about our treatment of animals while redirecting resources toward authentic conservation strategies. It is time to close these institutions not just because they are cruel, but because there exists a better, more ethical way for humanity and nature to coexist: one based on freedom rather than confinement."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_09",
+ "split": "discovery",
+ "construction_seed": 25640,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 521
+}

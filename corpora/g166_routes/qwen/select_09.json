@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_09",
+ "lineage_id": "g166_qwen_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Zoos must continue to exist because they serve as vital conservation hubs that actively rescue endangered species from extinction and fund global wildlife preservation efforts.",
+     "The existence of modern zoos is ethically indefensible given their inherent role in perpetuating captivity, which causes psychological distress to animals without offering genuine freedom or welfare benefits comparable to the wild.",
+     "While traditional animal exhibits are outdated, zoos should persist only if they undergo a fundamental transformation into educational sanctuaries that prioritize immersive natural habitats and scientific research over public entertainment."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "The existence of modern zoos is ethically indefensible given their inherent role in perpetuating captivity, which causes psychological distress to animals without offering genuine freedom or welfare benefits comparable to the wild.",
+    "While traditional animal exhibits are outdated, zoos should persist only if they undergo a fundamental transformation into educational sanctuaries that prioritize immersive natural habitats and scientific research over public entertainment."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Zoos must continue to exist because they serve as vital conservation hubs that actively rescue endangered species from extinction and fund global wildlife preservation efforts.",
+    "draw_seed": 25660
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The existence of modern zoos is ethically indefensible given their inherent role in perpetuating captivity, which causes psychological distress to animals without offering genuine freedom or welfare benefits comparable to the wild."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "While traditional animal exhibits are outdated, zoos should persist only if they undergo a fundamental transformation into educational sanctuaries that prioritize immersive natural habitats and scientific research over public entertainment."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over the ethical necessity of zoos has persisted for decades, with many arguing that confining wild animals in artificial environments is inherently cruel and unnecessary. Critics often point to the psychological distress exhibited by captive animals as sufficient reason to shut down all such institutions permanently. However, this perspective overlooks a critical reality: modern accredited zoos are not merely holding pens but function as indispensable conservation hubs. They must continue to exist because they serve as vital sanctuaries that actively rescue endangered species from extinction and provide the financial backbone for global wildlife preservation efforts.\n\nContrary to popular belief, captivity can sometimes be the only line of defense between a species and total oblivion. Many zoos operate specialized rehabilitation programs where animals are saved directly from poaching rings, illegal pet trade markets, or habitat destruction in their native lands. Once rescued, these individuals receive round-the-clock veterinary care that would otherwise never exist for them. In numerous cases, zoo populations have successfully bred endangered species and reintroduced them into the wild. Without the genetic diversity maintained within zoos, many animals facing immediate threats of extinction simply would not survive to reproduce in their natural habitats yet. These institutions act as living ark programs, preserving genetics that might otherwise be lost forever when destruction strikes a specific ecosystem.\n\nFurthermore, the financial viability of these conservation efforts is directly tied to the existence of zoo admissions and donations. The cost of protecting wildlife on a global scale is astronomical. Conservationists must fund anti-poaching patrols in remote regions, establish protected reserves, conduct scientific research on migration patterns, and manage rewilding projects. Zoos generate significant revenue through ticket sales, membership programs, and charitable fundraising that are specifically earmarked for these high-stakes initiatives. This funding model allows organizations to deploy resources efficiently across continents without relying solely on unpredictable government grants or sporadic philanthropy. Every dollar raised at a zoo often translates into direct action in the field, supporting rangers who risk their lives to protect vulnerable populations from poachers and climate-induced habitat loss.\n\nMoreover, zoos play an irreplaceable role in public education that fuels further conservation success. By bringing people face-to-face with animals they might never see otherwise, these institutions cultivate empathy and understanding regarding complex ecological issues. When visitors witness the plight of a rhinoceros or the delicate beauty of a sea turtle up close, the abstract concept of biodiversity loss becomes personal and urgent. This emotional connection frequently translates into changed behaviors at home, such as supporting sustainable consumer choices, volunteering for local environmental groups, or advocating for stronger wildlife protection laws. The ripple effect extends far beyond the zoo gates, creating a global constituency that demands action on climate change and habitat preservation.\n\nTo dismantle these institutions based solely on romanticized notions of absolute freedom would be to ignore their proven track record as lifeboats for species in crisis. While concerns regarding animal welfare are valid and must be addressed through improved enclosure designs and behavioral enrichment programs, they do not justify closing the doors that save lives daily. The world needs zoos more than ever before as it grapples with accelerating extinction rates caused by human activity. They remain essential partners in science, education, and emergency rescue operations. Therefore, far from being obsolete curiosities, accredited zoos are active agents of hope required to ensure a future where endangered species still roam the Earth.",
+ "artifact_versions": [
+  "1. Zoos must continue to exist because they serve as vital conservation hubs that actively rescue endangered species from extinction and fund global wildlife preservation efforts.\n2. The existence of modern zoos is ethically indefensible given their inherent role in perpetuating captivity, which causes psychological distress to animals without offering genuine freedom or welfare benefits comparable to the wild.\n3. While traditional animal exhibits are outdated, zoos should persist only if they undergo a fundamental transformation into educational sanctuaries that prioritize immersive natural habitats and scientific research over public entertainment."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_09",
+ "split": "discovery",
+ "construction_seed": 25660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 571
+}
