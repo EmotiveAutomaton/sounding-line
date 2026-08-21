@@ -303,12 +303,20 @@ the reason to expect modest effects.
 |---|---|---|
 | **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN.** Every reading this project records is a final number, so the series has never existed to be checked |
 | **G64** | Re-reading one artifact recovers the tail | **OPEN.** Canonical in the triple inference §5; the reader-side strategy is this section's |
+| **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION, the rival, by its harshest margin (test, L155), first pass.** A true feasibility card moves committed route mass by 0.66 and a false card by 0.63 in its own wrong direction, both erasing the reader's honest no-card abstention (0.22 committed to 0.82 and 0.70), with the irrelevant-card arm stable — the claim's content, not the card's presence, does the work. Supplied context functions as an instruction, not evidence; the predeclared evidence-conflict follow-up runs where artifact evidence is strong (the realized-choice substrate), then the wing pauses |
 
-**What the table says.** Nothing here has a number because the data has never been recorded. The
-confidence series is the cheapest unbuilt instrument in the file, needing only that readings log a
-trajectory instead of an endpoint. One external result points against series-carrying claims at
-the representation level, which is a reason to expect modest effects, not to skip the test.
-Confidence: untested, logic only.
+**What the table says.** The section now has its first number, and it lands on the
+context-reweighting rule's failure side: the model reader treats a supplied production fact as
+an instruction rather than as evidence to weigh, following a false fact as readily as a true
+one and abandoning its own abstention to do so. That is the misleading-cue half of the
+reweighting rule measured (a misleading cue SHOULD cause a directionally coherent error, and
+it does, at full strength), with the useful-cue half now hinging on whether context can
+improve recovery where the artifact carries evidence the reader demonstrably reads, which is
+the queued evidence-conflict test. The confidence series remains the cheapest unbuilt
+instrument in the file, needing only that readings log a trajectory instead of an endpoint,
+and the external mean-pooling result remains a reason to expect modest series effects, not to
+skip that test. Confidence: the projection result is one bad test away, one construction and
+one reader family deep; the rest is untested, logic only.
 
 ## §5. Continuation and stopping
 

@@ -1683,6 +1683,34 @@ STAGES += [
             "corpus is refused as an L150 repeat"},
 ]
 
+# ── G167-A5 EVIDENCE-CONFLICT 2026-08-21 mid-afternoon (appended at list end;
+# prereg/g167a5.py frozen on the L155 PROJECTION verdict — the wing's single
+# predeclared follow-up, after which Wing A pauses per the brief's W3 routing).
+STAGES += [
+    {"name": "g167a5_gate", "est": 2,
+     "cmd": [PY, "runners/run_g167a5_conflict.py", "--gate"],
+     "produces": "results/g167a5/gate.json", "needs": ["results/g159/manifest.json"],
+     "why": "G167-A5 purity + anchor; arms gate on it"},
+]
+for _arm, _est in (("true_note", 60), ("false_note", 60), ("false_note_flag", 60)):
+    STAGES += [
+        {"name": f"g167a5_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g167a5_conflict.py", "--arm", _arm],
+         "produces": f"results/g167a5/{_arm}.json",
+         "needs": ["results/g167a5/gate.json"],
+         "why": f"G167-A5 arm {_arm}: can a false production note override artifact "
+                "evidence the reader provably reads (direct 0.86)?"},
+    ]
+STAGES += [
+    {"name": "g167a5_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g167a5_conflict.py", "--verdict"],
+     "produces": "results/g167a5/verdict.json",
+     "needs": ["results/g167a5/true_note.json", "results/g167a5/false_note.json",
+               "results/g167a5/false_note_flag.json"],
+     "why": "G167-A5 verdict: EVIDENCE-HOLDS / MIXED / SUGGESTIBLE exhaustive; the "
+            "wing pauses in every branch"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1707,7 +1735,8 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g165d_sr_delta", "g165d_cd_delta", "g165d_sr_unchanged",
                     "g166r_process", "g166r_classify", "g166r_blind",
                     "g167_true_card", "g167_false_card", "g167_irrelevant_card",
-                    "g169_gen_qwen", "g169_gen_llama"}
+                    "g169_gen_qwen", "g169_gen_llama",
+                    "g167a5_true_note", "g167a5_false_note", "g167a5_false_note_flag"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

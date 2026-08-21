@@ -6455,6 +6455,77 @@ chose it unprompted.
 - **Detail pointer:** `results/g166/verdict.json`, `prereg/g166.py`, per-route
   confusion on disk.
 
+## L155 · Context is an instruction to this reader, not evidence: a false production fact steers exactly as hard as a true one, wiping out the abstention that made L154 look calibrated
+
+**Hypothesis.** *(G167, Phase 2.3 Wing A root, `prereg/g167.py`, frozen before the run:
+does a true production-context card — a feasibility fact that narrows five routes to
+two or three without naming one — move the route reading toward the truth, where a
+false card must not? The curator's reweighting model says context shifts the
+distribution over maker models; the rival is the brief's W3, suggestion that steers
+regardless of truth.)*
+
+**Method.** The route corpus with the recorded no-card reading as baseline; three arms
+of 100: the true draft-availability card, the false one (draft claimed where none
+existed and vice versa), and an irrelevant card; movement measured as committed
+probability mass on the card-compatible route subset, with the card-leak audit
+(no shared content words with any route description) and pipeline purity passed
+before any arm.
+
+| read | value | meaning |
+|---|---|---|
+| no card (recorded) | committed 0.22, compatible mass 0.16 | the L154 abstention baseline |
+| irrelevant card | committed 0.26 | stable — mere card presence changes little |
+| **true card** | committed **0.82**, compatible mass **0.82** (movement +0.66) | the feasibility claim obliterates abstention |
+| **false card** | committed 0.70, wrong-subset mass **0.69** (movement +0.63) | **the false card steers 95 percent as hard as the true one** |
+
+*Caption: committed means the reader chose a route rather than cannot-tell; compatible
+mass is the fraction of ALL events where it committed to a route consistent with the
+card's claim. The movement floor for a real effect was 0.15; both cards moved four
+times that, in their own directions, regardless of truth.*
+
+**Found.** PROJECTION, the card's named rival, by its harshest margin. A stated
+production fact does not reweight this reader's route posterior — it overwrites it.
+The same reader that honestly abstained at 78 percent with no card commits at 82
+percent the moment any feasibility claim appears, and it commits to whatever the
+claim licenses, true or false, at statistically indistinguishable strength (0.66
+against 0.63). The irrelevant-card arm proves it is the claim's CONTENT doing this,
+not the presence of a context block. The true-card accuracy of 0.34 is subset
+narrowing arithmetic, not artifact evidence.
+
+**Means.** The Wing A root routes to W3: context-conditioned projection. For this
+reader at this grain, declared context functions as an instruction, which is exactly
+the failure the curator's reweighting quote warns against reading as inference. The
+predeclared single follow-up (A5, the evidence-conflict test) is the right next
+question and now has a sharp form: L154 showed route evidence is unreadable, which is
+WHY suggestion meets no resistance — so A5 runs where artifact evidence is
+demonstrably strong (the realized-choice events, direct reading 0.86) and asks
+whether a false production note can override evidence the reader provably reads.
+After A5 the wing pauses per the brief's W3 row. One theory-side note for the
+curator's pass rather than a unilateral edit: the communicative-assumption hazard
+(confident inference from structure placed to mislead) now has a measured
+reader-model instance — supplied context is trusted absolutely, which is a
+trust-calibration gap, not an inference gap.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics
+- **Question in plain language:** When we tell the reader a fact about how a text was
+  made, does it weigh that fact against the text, or just obey it?
+- **Outcome class:** Narrows
+- **Result:** A false production fact moves the reader's answers 95 percent as much
+  as a true one (movements 0.63 against 0.66 in opposite directions), erasing its
+  own abstention both times.
+- **Project meaning:** Context conditioning on this reader is suggestion, not
+  evidence integration; every context-bearing design in the phase must treat
+  supplied context as an override channel until the evidence-conflict test says
+  otherwise.
+- **Next engineering obligation:** The A5 evidence-conflict battery on the
+  realized-choice substrate (built and queued this pass); the wing pauses after it.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g167/verdict.json`, `prereg/g167.py`, all partials on
+  disk.
+
 ---
 
 # TIER 2 · SETTLED

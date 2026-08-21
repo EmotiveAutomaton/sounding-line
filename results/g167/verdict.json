@@ -1,0 +1,29 @@
+{
+ "prereg": "prereg/g167.py",
+ "gates": {
+  "irrelevant_card_stability": {
+   "recorded_no_card_committed": 0.22,
+   "irrelevant_card_committed": 0.26,
+   "stable_within_0.10": true,
+   "rule": "if unstable, movements read against the irrelevant arm, disclosed"
+  }
+ },
+ "verdict": {
+  "context_movement": {
+   "baseline_compatible_mass": 0.16,
+   "true_card_compatible_mass": 0.82,
+   "true_movement": 0.66,
+   "false_card_wrongsubset_mass": 0.69,
+   "false_movement": 0.63,
+   "band": "PROJECTION",
+   "committed_rates": {
+    "no_card": 0.22,
+    "true": 0.82,
+    "false": 0.7,
+    "irrelevant": 0.26
+   },
+   "true_card_accuracy_on_all": 0.34,
+   "note": "movement floor 0.15 per card; subsets are draft {rewrite, revise} vs no-draft {direct, outline, select}"
+  }
+ }
+}

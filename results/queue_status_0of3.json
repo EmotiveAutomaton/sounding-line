@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 13:09",
+  "started": "2026-08-21 13:22",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -738,9 +738,52 @@
       "why": "G166-R arm process: the process-aware ceiling gates interpretation (validation-first analog); artifact-only is the primary",
       "est_minutes": 90,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g167_gate",
+      "why": "G167 card-leak audit + pipeline purity; arms gate on it",
+      "est_minutes": 2,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g167_true_card",
+      "why": "G167 arm true_card: does a feasibility card move committed mass toward compatible routes, and does a false card steer equally?",
+      "est_minutes": 60,
+      "status": "DONE",
+      "log": "results\\g167_true_card.log",
+      "minutes": 0.9
+    },
+    {
+      "name": "g167_false_card",
+      "why": "G167 arm false_card: does a feasibility card move committed mass toward compatible routes, and does a false card steer equally?",
+      "est_minutes": 60,
+      "status": "DONE",
+      "log": "results\\g167_false_card.log",
+      "minutes": 0.9
+    },
+    {
+      "name": "g167_irrelevant_card",
+      "why": "G167 arm irrelevant_card: does a feasibility card move committed mass toward compatible routes, and does a false card steer equally?",
+      "est_minutes": 60,
+      "status": "DONE",
+      "log": "results\\g167_irrelevant_card.log",
+      "minutes": 0.9
+    },
+    {
+      "name": "g167_verdict",
+      "why": "G167 verdict: movement analysis vs the recorded no-card arm, CONDITIONS / PROJECTION / INERT exhaustive",
+      "est_minutes": 5,
+      "status": "DONE",
+      "log": "results\\g167_verdict.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "g169_gen_llama",
+      "why": "G169 long-form corpus, held-out generator",
+      "est_minutes": 300,
+      "status": "RUNNING",
+      "log": "results\\g169_gen_llama.log"
     }
   ],
-  "shard": "0/3",
-  "finished": "2026-08-21 13:09",
-  "failed": []
+  "shard": "0/3"
 }
