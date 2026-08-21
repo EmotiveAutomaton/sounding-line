@@ -1,0 +1,43 @@
+{
+ "prereg": "prereg/g165d.py",
+ "gates": {
+  "sr_unchanged_fabrication": {
+   "rate": 0.065,
+   "n": 200,
+   "expectations": "null ~0.00 (direct recorded twice); alternative UP",
+   "band": "WARNING"
+  }
+ },
+ "verdict": {
+  "sr_delta": {
+   "n_paired": 616,
+   "accuracy": 0.4075,
+   "delta_vs_direct": -0.0731,
+   "discordant": {
+    "new_only_right": 61,
+    "direct_only_right": 106
+   },
+   "mcnemar_p": 0.00062,
+   "band": "HURTS",
+   "vs_change_block": -0.1396,
+   "power_note": "0.80-power detectable delta ~0.05 at n=616 (card)"
+  },
+  "cd_delta": {
+   "n_paired": 616,
+   "accuracy": 0.5114,
+   "delta_vs_direct": 0.0308,
+   "discordant": {
+    "new_only_right": 92,
+    "direct_only_right": 73
+   },
+   "mcnemar_p": 0.16092,
+   "band": "NO-GAIN",
+   "vs_change_block": -0.0357,
+   "power_note": "0.80-power detectable delta ~0.05 at n=616 (card)"
+  }
+ },
+ "references": {
+  "direct": 0.4805,
+  "change_block": 0.5471
+ }
+}

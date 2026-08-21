@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 08:42",
+  "started": "2026-08-21 13:09",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -720,9 +720,27 @@
       "why": "G166 self-gate: yield, band, route-log completeness, cross-route degeneracy; the B0 reading battery preregisters only on CORPUS-STANDS",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g165d_cd_delta",
+      "why": "G165-D arm cd_delta: the ablation where direct reading is weak; sr_unchanged is the generation-stage fabrication gate",
+      "est_minutes": 180,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g165d_sr_unchanged",
+      "why": "G165-D arm sr_unchanged: the ablation where direct reading is weak; sr_unchanged is the generation-stage fabrication gate",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g166r_process",
+      "why": "G166-R arm process: the process-aware ceiling gates interpretation (validation-first analog); artifact-only is the primary",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
     }
   ],
   "shard": "0/3",
-  "finished": "2026-08-21 08:42",
+  "finished": "2026-08-21 13:09",
   "failed": []
 }

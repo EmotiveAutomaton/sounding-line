@@ -191,22 +191,24 @@ He predicts a vague unifying effect there and declines to claim even that.
 | **HH-6** | Entering at the anomaly beats entering at the whole artifact | **OPEN.** The machinery exists (`bounded_v6` stage zero); a flag flip and a comparison |
 | **HH-7** | Local decision density around a mistake exceeds baseline | **OPEN.** Needs mistakes located first; the one place a decision and its counterfactual are visible together |
 | **S-4/S-5** | Stage ordering changes the answer | **REJECTED (sim)** by exactly zero; ~5% cost saving only |
-| **G165** | Explicit route generation (a self-enacted production route, or predicted evidence per candidate) improves recovery of recorded executed choices over direct reading | **NO-GAIN on both arms (test, L151), first pass, on the strong substrate.** Zero delta for self-route and minus two points for candidate-discrimination against the recorded direct arm on identical events, leak and echo gates quiet, power note disclosed (ten points detectable). The predeclared discriminator runs where direct reading is WEAK (the revision-delta events the change block wins, L141); no further branch by card |
+| **G165** | Explicit route generation (a self-enacted production route, or predicted evidence per candidate) improves recovery of recorded executed choices over direct reading | **NO-GAIN where direct reading is strong (test, L151); HURTS where it is weak (test, L153), and the wing is CLOSED.** On the realized-choice events: zero delta and minus two points, every gate quiet. On the revision-delta events where the change block beats the direct reader: self-route costs seven points (p = 0.0006) and invents purposes on unrevised text at 0.065 against the direct reader's recorded 0.000, while evidence-prediction gains three points, noise-compatible. Explicit generation is rhetoric the reader then follows over the evidence |
+|   | | *(this row's history is a NO-GAIN root on the strong substrate 08-21 morning and the HURTS discriminator on the weak substrate the same afternoon; the null-discriminator rule is spent)* |
 
 **What the table says.** The entry-point family has one live positive, one honest defeat, and now
-one clean redundancy. The
+a closed question with a direction. The
 reader's own affective series moves through human text and not machine text, while every surface
 operationalisation of the same idea loses to the field's bar once topic is controlled. Ordering
 effects are bounded near zero, the wobble test is retired on the curator's own account, and the
-anomaly rows, the family's core, remain unrun. The newest result bounds the self-simulation
-strategy from one side: where direct reading is already strong, making the reader spell out an
-enactable route first changes nothing at all, in accuracy, leakage, or echo, so any value the
-strategy has must live where direct reading struggles, which is exactly where its predeclared
-follow-up now runs. That is a bound on a reading STRATEGY, not on the §1 self-model prior
-itself, whose implicit form the direct reader may already be using. Confidence: the
+anomaly rows, the family's core, remain unrun. The self-simulation STRATEGY is now bounded from
+both sides: externalizing a production route buys nothing where direct reading is strong and
+actively damages where it is weak, with a measured fabrication cost the direct form does not
+carry, so the bounded reader's value is direct reading plus calibrated refusal and any future
+generate-then-judge stage owes its own fabrication gate. That bounds the strategy, not the §1
+self-model prior itself, whose implicit form the direct reader may already be using and which
+no test here reaches. Confidence: the
 probe-activation result is one
-bad test away; the surface defeats are replicated and controlled; the route-generation
-redundancy is one bad test away, one substrate deep; the rest is untested.
+bad test away; the surface defeats are replicated and controlled; the generation bound is
+one bad test away as a pair, two substrates deep in one reader family; the rest is untested.
 
 ## §3. Traversing explanatory levels
 

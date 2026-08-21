@@ -1636,6 +1636,53 @@ STAGES += [
             "contest, exhaustive bands"},
 ]
 
+# ── PHASE 2.3 THIRD WAVE 2026-08-21 afternoon (appended at list end). G167 = Wing A
+# context conditioning on the route corpus (prereg/g167.py, card-leak audit passed at
+# build — the audit caught and fixed its own first card); G169 part 1 = the Wing D
+# repair's long-form corpus with the hedging-density gate the L150 null demanded.
+STAGES += [
+    {"name": "g167_gate", "est": 2,
+     "cmd": [PY, "runners/run_g167_context.py", "--gate"],
+     "produces": "results/g167/gate.json",
+     "needs": ["corpora/g166_routes/routes_audit.json", "results/g166/classify.json"],
+     "why": "G167 card-leak audit + pipeline purity; arms gate on it"},
+]
+for _arm, _est in (("true_card", 60), ("false_card", 60), ("irrelevant_card", 60)):
+    STAGES += [
+        {"name": f"g167_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g167_context.py", "--arm", _arm],
+         "produces": f"results/g167/{_arm}.json",
+         "needs": ["results/g167/gate.json"],
+         "why": f"G167 arm {_arm}: does a feasibility card move committed mass "
+                "toward compatible routes, and does a false card steer equally?"},
+    ]
+STAGES += [
+    {"name": "g167_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g167_context.py", "--verdict"],
+     "produces": "results/g167/verdict.json",
+     "needs": ["results/g167/true_card.json", "results/g167/false_card.json",
+               "results/g167/irrelevant_card.json"],
+     "why": "G167 verdict: movement analysis vs the recorded no-card arm, "
+            "CONDITIONS / PROJECTION / INERT exhaustive"},
+    {"name": "g169_gen_qwen", "est": 240,
+     "cmd": [PY, "runners/run_g169_longform.py", "--generator", "qwen"],
+     "produces": "corpora/g169_longform/manifest_qwen.json", "needs": [],
+     "why": "G169 long-form handling corpus, seen generator: 40 essays at 900-1300 "
+            "words, four families, the L150 redesign substrate"},
+    {"name": "g169_gen_llama", "est": 300,
+     "cmd": [PY, "runners/run_g169_longform.py", "--generator", "llama"],
+     "produces": "corpora/g169_longform/manifest_llama.json", "needs": [],
+     "why": "G169 long-form corpus, held-out generator"},
+    {"name": "g169_audit", "est": 5,
+     "cmd": [PY, "runners/run_g169_longform.py", "--audit"],
+     "produces": "corpora/g169_longform/longform_audit.json",
+     "needs": ["corpora/g169_longform/manifest_qwen.json",
+               "corpora/g169_longform/manifest_llama.json"],
+     "why": "G169 self-gate: yield, length, plant thresholds, and the HEDGING "
+            "DENSITY gate — instructed concealment must realize hedging or the "
+            "corpus is refused as an L150 repeat"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1658,7 +1705,9 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g165_self_route", "g165_cand_disc", "g165_self_route_leak",
                     "g165_cand_disc_leak", "g166_gen_qwen", "g166_gen_llama",
                     "g165d_sr_delta", "g165d_cd_delta", "g165d_sr_unchanged",
-                    "g166r_process", "g166r_classify", "g166r_blind"}
+                    "g166r_process", "g166r_classify", "g166r_blind",
+                    "g167_true_card", "g167_false_card", "g167_irrelevant_card",
+                    "g169_gen_qwen", "g169_gen_llama"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

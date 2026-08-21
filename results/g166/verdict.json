@@ -1,0 +1,125 @@
+{
+ "prereg": "prereg/g166.py",
+ "gates": {
+  "P_process_ceiling": {
+   "arm": "process",
+   "n": 100,
+   "n_parsed": 100,
+   "accuracy": 0.78,
+   "pass": true,
+   "rule": "arms below are UNINTERPRETED if this fails"
+  },
+  "B_context_floor": {
+   "arm": "blind",
+   "n": 100,
+   "n_parsed": 100,
+   "accuracy": 0.0,
+   "floor_used": 0.2
+  },
+  "S_surface_baseline": {
+   "arm": "surface",
+   "n": 100,
+   "accuracy": 0.48,
+   "features": "words, sent-length, type-token, paragraphs, first-person",
+   "cv": "leave-one-topic-out within family"
+  }
+ },
+ "verdict": {
+  "route_recovery": {
+   "artifact_only": 0.07,
+   "n": 100,
+   "p_vs_0.2": 0.99992,
+   "surface_baseline": 0.48,
+   "margin_over_surface": -0.41,
+   "band": "BLIND",
+   "interpreted": true,
+   "power_note": "0.80-power detectable ~0.32 vs 0.2 at n=100 (card)"
+  }
+ },
+ "confusion": {
+  "classify": {
+   "direct": {
+    "direct": 0.2,
+    "outline": 0.05,
+    "rewrite": 0.0,
+    "select": 0.0,
+    "revise": 0.0,
+    "cannot_tell": 0.75
+   },
+   "outline": {
+    "direct": 0.25,
+    "outline": 0.05,
+    "rewrite": 0.0,
+    "select": 0.0,
+    "revise": 0.0,
+    "cannot_tell": 0.7
+   },
+   "rewrite": {
+    "direct": 0.15,
+    "outline": 0.0,
+    "rewrite": 0.0,
+    "select": 0.0,
+    "revise": 0.0,
+    "cannot_tell": 0.85
+   },
+   "select": {
+    "direct": 0.1,
+    "outline": 0.05,
+    "rewrite": 0.0,
+    "select": 0.05,
+    "revise": 0.0,
+    "cannot_tell": 0.8
+   },
+   "revise": {
+    "direct": 0.15,
+    "outline": 0.0,
+    "rewrite": 0.0,
+    "select": 0.0,
+    "revise": 0.05,
+    "cannot_tell": 0.8
+   }
+  },
+  "process": {
+   "direct": {
+    "direct": 0.15,
+    "outline": 0.0,
+    "rewrite": 0.0,
+    "select": 0.0,
+    "revise": 0.0,
+    "cannot_tell": 0.85
+   },
+   "outline": {
+    "direct": 0.05,
+    "outline": 0.8,
+    "rewrite": 0.0,
+    "select": 0.05,
+    "revise": 0.0,
+    "cannot_tell": 0.1
+   },
+   "rewrite": {
+    "direct": 0.0,
+    "outline": 0.0,
+    "rewrite": 1.0,
+    "select": 0.0,
+    "revise": 0.0,
+    "cannot_tell": 0.0
+   },
+   "select": {
+    "direct": 0.0,
+    "outline": 0.0,
+    "rewrite": 0.0,
+    "select": 1.0,
+    "revise": 0.0,
+    "cannot_tell": 0.0
+   },
+   "revise": {
+    "direct": 0.0,
+    "outline": 0.0,
+    "rewrite": 0.0,
+    "select": 0.0,
+    "revise": 0.95,
+    "cannot_tell": 0.05
+   }
+  }
+ }
+}

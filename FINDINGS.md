@@ -6323,6 +6323,138 @@ exact-equivalence discipline carried by the pipeline gate.
 - **Detail pointer:** `corpora/g166_routes/routes_audit.json`, both manifests, every
   route log on disk.
 
+## L153 · The discriminator closes Wing G, and it closes it downward: self-route generation actively hurts where direct reading is weak, and induces fabrication the direct reader never showed
+
+**Hypothesis.** *(G165-D, `prereg/g165d.py`, frozen before the run — the single
+predeclared follow-up of L151's root null: on the revision-delta events where the cheap
+change block beats the direct reader by seven points, does explicit route generation
+contribute the missing representation, or is it rhetoric?)*
+
+**Method.** The frozen revision event set (616 events, recorded delta-interface direct
+arm 0.4805 as the paired baseline; the change block's 0.5471 as the reported
+reference), same two generation arms as the root, plus the new stage's own fabrication
+gate: self-route on the 200 recorded no-revision events with the explicit no-revision
+option, where the direct reader's recorded rate is 0.000 twice.
+
+| arm | accuracy | delta vs direct | McNemar p | band |
+|---|---|---|---|---|
+| direct (recorded anchor) | 0.4805 | — | — | — |
+| change block (reference) | 0.5471 | +0.067 | — | the instrument to beat |
+| **self-route** | **0.4075** | **−0.073** (61 vs 106 discordant) | **0.0006** | **HURTS** |
+| **candidate-and-discriminate** | 0.5114 | +0.031 | 0.16 | NO-GAIN |
+| self-route fabrication on unrevised text | 0.065 | vs 0.000 direct | — | WARNING band |
+
+*Caption: discordant counts are events exactly one arm got right; the fabrication rate
+is how often the route-generating reader invented a revision purpose on text where no
+revision was made, against the same reader's recorded zero without the generation
+stage. The pipeline-purity and anchor gates passed before any arm ran.*
+
+**Found.** The self-simulation stage is not neutral where the task is hard — it is
+harmful, seven points down at p = 0.0006, and it manufactures purposes on unrevised
+text at 6.5 percent where the direct form invented none. The reader talks itself out
+of right answers: it writes a plausible route, then follows its own rhetoric over the
+evidence. Candidate-evidence prediction is the interesting near-miss: plus three
+points, closing most of the gap to the change block (0.5114 against 0.5471) but below
+both the band threshold and significance, so it lands NO-GAIN with the direction
+noted.
+
+**Means.** Wing G closes, per the card, with the sharper sentence: direct reading is
+this reader's best form; explicit self-simulation adds nothing where reading is strong
+and actively damages where it is weak, which is the brief's "cognitive preemption by
+rhetoric" routing row measured rather than feared. The theory consequence is a bound
+on STRATEGY, not on the self-model prior: whatever implicit self-anchoring the direct
+reader does, externalizing it into generated prose makes the bounded reader worse. The
+fabrication finding travels: any future reader stage that generates before judging
+owes its own fabrication gate, because generation induces invention the same reader
+does not otherwise commit. The null-discriminator rule is spent; no further Wing G
+work exists on this card or its parent.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics
+- **Question in plain language:** When reading is hard, does making the reader spell
+  out how it would have done the revision help it see what was done?
+- **Outcome class:** Kills
+- **Result:** Self-route generation costs seven points (p 0.0006) and invents purposes
+  on unrevised text at 6.5 percent where the direct reader invented none.
+- **Project meaning:** The explicit self-simulation stage is retired phase-wide; the
+  reader's value is direct reading plus calibrated refusal, and the change-feature
+  block remains the best instrument on the delta interface.
+- **Next engineering obligation:** None on this wing — it is closed; the fabrication
+  gate becomes standard for any future generate-then-judge stage.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g165d/verdict.json`, `prereg/g165d.py`, all partials on
+  disk.
+
+## L154 · The equifinality root: the reader abstains on route identity almost completely while cheap surface features read it at 0.48 — final artifacts are semantically silent and statistically loud about how they were made
+
+**Hypothesis.** *(G166-R, `prereg/g166.py`, frozen on CORPUS-STANDS: when five
+recorded production routes reach surface-matched essays, can a reader recover WHICH
+route made an essay from the final artifact — and is whatever it recovers process
+evidence rather than a surface tell?)*
+
+**Method.** 100 artifacts, five routes, forced choice over route descriptions plus an
+explicit cannot-tell; the process-aware ceiling (essay plus recorded intermediates)
+gating interpretation validation-first; context-only floor; the mechanical
+nearest-centroid surface baseline on five cheap features, leave-one-topic-out; verdict
+scored once.
+
+| read | value | meaning |
+|---|---|---|
+| P ceiling (records shown) | **0.78** | PASSES — the route taxonomy is answerable when the record is visible, so the null below is of signal, not of the reader |
+| **primary: artifact only** | **0.07**, cannot-tell chosen 0.70 to 0.85 per route | **BLIND** — the reader declines the question almost everywhere |
+| surface baseline | **0.48** vs 0.2 chance | five cheap features (length, sentence shape, type-token, paragraphs, first person) read route identity far above chance |
+| context-only floor | 0.00 | no leak; the blind reader also abstains |
+
+*Caption: the primary counts a route correct only when the reader committed to it; the
+abstention option is what makes 0.07 honest rather than broken. The surface baseline is
+mechanical and disclosed; the card's bands required the reader to beat it before any
+process-reading claim.*
+
+**Found.** The preregistered BLIND branch executes with its most interesting possible
+shape. The semantic reader, shown a finished essay, says it cannot tell how the essay
+was produced — at 70 to 85 percent abstention per route — and it is RIGHT to be
+humble about the semantic question while being beaten four-to-one by a
+nearest-centroid on paragraph counts. Route identity survives in the artifact as
+statistical residue (production routes bend surface shape: outlines leave structure,
+critique-revision leaves length and person shifts) but not as semantically readable
+process structure at this reader and grain. The process-aware arm at 0.78 confirms
+the question is well-posed when the record exists.
+
+**Means.** Per the card: final artifacts do not carry semantically readable route
+identity at this construction — the W4 boundary lands its first measured instance
+(process records auditable at 0.78, artifacts silent at 0.07), and the artifact-only
+equifinality claim narrows to the audit interface, stated without softening. The
+surface residue is the live thread the card did not anticipate in this strength: a
+mechanical instrument reads production route at 0.48 five-way, which is a
+trace-existence result — the routes DO mark their artifacts — and the open question
+becomes whether that marking is route structure or generation-style covariates
+(paragraphing habits per prompt form), which is exactly a trace-erasure or
+covariate-matching follow-up shaped like the brief's B1. The reader's mass abstention
+is also the observational-equivalence prediction behaving: where histories genuinely
+underdetermine, the calibrated output is the equivalence class, and this reader
+chose it unprompted.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces / The Triple Inference
+- **Question in plain language:** Can anything tell, from a finished essay alone,
+  which of five ways it was written?
+- **Outcome class:** Narrows
+- **Result:** The semantic reader abstains (0.07 committed-correct) while a
+  five-feature mechanical baseline reads route at 0.48 against 0.2 chance, with the
+  process-aware ceiling passing at 0.78.
+- **Project meaning:** Route identity is a statistical trace, not a readable story:
+  process auditing needs records, and whatever surface residue routes leave needs a
+  trace-erasure test before it counts as process evidence.
+- **Next engineering obligation:** The B1-shaped follow-up (does the surface residue
+  survive trace erasure or covariate matching), to be designed as its own card.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g166/verdict.json`, `prereg/g166.py`, per-route
+  confusion on disk.
+
 ---
 
 # TIER 2 · SETTLED

@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 08:42",
+  "started": "2026-08-21 13:10",
   "stages": [
     {
       "name": "feature_visibility",
@@ -690,9 +690,45 @@
       "why": "G165 verdict: leak gate first, paired McNemar vs recorded direct picks, echo-split cells standing per L148, exhaustive bands",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g165d_gate",
+      "why": "G165-D pipeline purity + anchor (recorded 0.4805/616); arms gate on it",
+      "est_minutes": 2,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g165d_sr_delta",
+      "why": "G165-D arm sr_delta: the ablation where direct reading is weak; sr_unchanged is the generation-stage fabrication gate",
+      "est_minutes": 300,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g166r_surface",
+      "why": "G166-R mechanical surface baseline (S), leave-one-topic-out",
+      "est_minutes": 3,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g166r_classify",
+      "why": "G166-R arm classify: the process-aware ceiling gates interpretation (validation-first analog); artifact-only is the primary",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g166r_blind",
+      "why": "G166-R arm blind: the process-aware ceiling gates interpretation (validation-first analog); artifact-only is the primary",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g166r_verdict",
+      "why": "G166-R verdict: P ceiling first, per-route confusion, the C-vs-S contest, exhaustive bands",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
     }
   ],
   "shard": "1/3",
-  "finished": "2026-08-21 08:42",
+  "finished": "2026-08-21 13:10",
   "failed": []
 }
