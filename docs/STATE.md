@@ -183,6 +183,27 @@ battery. 2.0F stacking now sits behind the Phase 2.1 gates AND 2.2G's eligibilit
 The adjudication set is unfrozen, superseded as ontology, retained as history. The
 curator-first theory loop (brief §13) is folded into `CLAUDE.md`.**
 
+**Phase 2.3 STAGE 1 IS COMPLETE (2026-08-21, one gear-2 day, L151 to L160; the root
+map at `docs/design/PHASE_2_3_ROOT_MAP.md` waits on the curator's pass and Stage 2 is
+gated on it by the brief's own rule). All seven roots hold states: Wing G CLOSED
+(explicit route generation null where reading is strong, HURTS with induced
+fabrication where it is weak); Wing B blind-with-residue (the reader abstains on
+route identity at 0.07 committed while a five-feature surface baseline reads it at
+0.48); Wing A PAUSED (a false production fact steers 95 percent as hard as a true one
+where evidence is absent and still wins the toss-up against readable 0.86 evidence,
+conflict named 15 percent of the time); Wing C blind at exactly chance under passed
+ceilings (ratification is real and invisible; the product is the audit interface);
+Wing D POSITIVE (concealed-vs-unnoticed separates at 0.77 at long form against the
+0.417 essay-grain reference, at parity with a mechanical hedge counter, zero span
+localization, after the corpus refused itself once and the accept-time repair stood
+same day); Wing F POSITIVE (the ordered-accident ruler passes both seeds with origin
+abstention enforced at zero violations); Wing E NOT RUN, design-blocked by Wing A's
+result and put to the curator. The world-model summary: W4 three constructions deep,
+W1 alive in the two content channels, W3 confirmed for context, W5 claims the
+generation strategy. Content carries; topology does not. The wake watcher entered
+service after two verdicts sat unreported (the gear engines are detached; the watcher
+is harness-tracked and re-armed each pass).**
+
 **Phase 2.3 is GOVERNED (2026-08-21: his third work package, archived at
 `docs/design/PHASE_2_3_CONTEXT.md`, operational registry at
 `docs/design/PHASE_2_3_REGISTRY.md`). Seven wing roots, each ending in exactly one
