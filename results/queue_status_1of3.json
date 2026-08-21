@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 13:53",
+  "started": "2026-08-21 14:07",
   "stages": [
     {
       "name": "feature_visibility",
@@ -762,9 +762,30 @@
       "why": "G169 v2 audit, identical gates: if this refuses too, the long-form substrate waits for the curator \u2014 no further tuning",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g169r_validate",
+      "why": "G169-R arm validate: the L150-owed span-level redesign on the standing long-form corpus; V gates interpretation",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g169r_blind",
+      "why": "G169-R arm blind: the L150-owed span-level redesign on the standing long-form corpus; V gates interpretation",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g168_audit",
+      "why": "G168 self-gate: yield, band, per-condition log completeness, SELECTION INTEGRITY (the chosen thesis must out-overlap every rejected one in the final essay), veto integrity",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "corpora/g168_roles/manifest.json"
+      ]
     }
   ],
   "shard": "1/3",
-  "finished": "2026-08-21 13:53",
+  "finished": "2026-08-21 14:07",
   "failed": []
 }

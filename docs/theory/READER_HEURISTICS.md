@@ -423,7 +423,8 @@ The cue family, by function rather than by source:
 | **G85** | Intention elicitation with a pre-registered target | **ALREADY BUILT.** The intent ladder is this protocol, validated on stone since 2010, with the R² = 0.655 ceiling attached |
 | **G86** | A mechanical null model: subtract what the medium forces | **OPEN.** The right shape for choice-versus-constraint; the analogous model degrades badly off the bench. The program's event-recovery harness carries this as its forced-constraint null |
 | **G87** | Stage-differentiated partition by visibility | **SUPPORTED (test).** Clean double crossover; canonical row in `DECISION_TRACES.md` §3, dashboard §11 |
-| **G88** | Error handling — repair, concealment, compensation, non-recognition, and repetition — recovers maker trajectory better than error rate | **RULER VALIDATED IN CONSTRUCTION (test-side toy, L147); FIRST TEXT FORM BLIND AT ESSAY GRAIN (test, L150).** The likelihood ruler separates all five planted handling classes at 1.0 in the gridworld, replicated on fresh seeds. On process-recorded essays whose handling ground truth passed a mechanical audit, the reader is honest on decidable questions (0.95, false-yes 0.054) and BLIND on the one distinction that matters — concealed vs unnoticed at 0.417 against 0.5 on either interface — while an explicitly deliberate construction reads as nothing (the unfamiliar-order hazard's text form) and rewritten clean text pulls 0.30 over-attribution. The channel is real in construction and unmeasurable in short text at current resolution; the owed redesigns are span-level asking, longer artifacts, and audited hedging density |
+| **G88** | Error handling — repair, concealment, compensation, non-recognition, and repetition — recovers maker trajectory better than error rate | **RULER VALIDATED IN CONSTRUCTION (L147); BLIND AT ESSAY GRAIN (L150); SEPARATES AT LONG FORM WITH REALIZED HEDGING (test, L158), at mechanical parity and without localization.** The likelihood ruler separates all five planted classes at 1.0 in the gridworld. In text the answer is now resolution-shaped end to end: blind at 0.417 on 400-word essays, separating at 0.77 on 900-to-1300-word artifacts whose concealment hedging was verified realized at generation — with a five-line post-plant hedge counter at 0.79, the reader quoting the carrying sentence at a hit rate of zero, and clean rewrites still pulling 0.40 invented issues as the standing warning label. The signal is hedging density; the reader integrates it diffusely and cannot point at it |
+|   | | *(this row's history is the ruler pass 08-20, the essay-grain null 08-20 evening, and the long-form separation with the corpus's own refuse-and-repair arc 08-21)* |
 | **G89** | Rigidity under perturbation as the novice signature | **OPEN.** Implies the active probe |
 | **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention**, and the program's required output format for choice recovery |
 | **G91** | Inter-annotator agreement and per-feature accuracy before believing any extraction | **OPEN, and mandatory.** An aggregate concealed a worse-than-chance category |
@@ -432,15 +433,20 @@ The cue family, by function rather than by source:
 already built, and a discipline. The visibility partition produced a clean double crossover on its
 first pass, the intent ladder turns out to be the field's own elicitation protocol with a ceiling
 attached that reframes every recovery number, and the rest of the family is method, not yet
-measurement. Error handling (G88) now has both halves of its first answer: the constructed-world ruler
-passed every preregistered gate and replicated, and the first text form came back blind at
-essay grain with the validation gate proving the blindness belongs to the signal, not the
-reader. The distinction between an instrument that fails and a signal that is absent at a
-resolution is exactly what the validation-first order buys, and the channel's text future is
-a resolution question (span-level asking, longer artifacts) rather than a feasibility one.
-Confidence: the partition is one bad test away; the ruler validation is one bad test away and
-constructed-world only; the text-grain null is one bad test away; the ceiling import is
-replicated in its home field; the remaining rows are untested.
+measurement. Error handling (G88) now has a complete first arc: validated in construction,
+blind at essay grain with an honest instrument, and separating at long form once the
+concealment was verified to realize hedging — which confirms the resolution framing the null
+predicted and prices the channel honestly, since a mechanical hedge counter matches the
+reader and the reader cannot quote the sentence carrying the signal it reads. The error-
+handling import from the field's practice survives with a sharper shape than the field
+states it: handling IS more informative than rate, its text carrier is density rather than
+locatable structure, and the reader's access to it is integrative rather than evidential.
+The distinction between an instrument that fails and a signal that is absent at a resolution
+is what the validation-first order bought, twice. Confidence: the partition is one bad test
+away; the ruler validation is one bad test away and constructed-world only; the text arc
+(null at short form, separation at long form) is one bad test away as a set, one corpus
+family deep with its fabrication warning attached; the ceiling import is replicated in its
+home field; the remaining rows are untested.
 
 ## §7. Habit, concealment, and revision
 

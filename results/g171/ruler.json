@@ -1,0 +1,73 @@
+{
+ "prereg": "in-file DESIGN CHECK",
+ "seed": 17100,
+ "thresholds": {
+  "hard": -6.338,
+  "run": -1.992
+ },
+ "gates": {
+  "clean": {
+   "rate": 1.0,
+   "pass": true
+  },
+  "known_answer": {
+   "per_class": {
+    "clean": 1.0,
+    "abandoned": 1.0,
+    "repaired": 1.0,
+    "integrated": 1.0,
+    "deliberate": 1.0,
+    "convention": 1.0,
+    "wrong_goal": 1.0,
+    "pseudo_accident": 1.0
+   },
+   "pass": true
+  },
+  "convention_never_error": {
+   "error_rate": 0.0,
+   "pass": true
+  },
+  "wrong_goal": {
+   "revision_rate": 1.0,
+   "error_rate": 0.0,
+   "pass": true
+  },
+  "origin_abstention": {
+   "confident_origin_calls": 0,
+   "pass": true
+  }
+ },
+ "confusion": {
+  "clean": {
+   "clean": 50
+  },
+  "abandoned": {
+   "abandoned": 50
+  },
+  "repaired": {
+   "repaired": 50
+  },
+  "integrated": {
+   "integrated": 50
+  },
+  "deliberate": {
+   "deliberate": 50
+  },
+  "convention": {
+   "convention": 50
+  },
+  "wrong_goal": {
+   "wrong_goal": 50
+  },
+  "pseudo_accident": {
+   "integrated": 50
+  }
+ },
+ "continuation": {
+  "n": 150,
+  "accuracy": 0.6667,
+  "marginal": 0.3333,
+  "expectation": "at marginal (card); above it means the deviation's shape leaks handling"
+ },
+ "all_gates_pass": true
+}

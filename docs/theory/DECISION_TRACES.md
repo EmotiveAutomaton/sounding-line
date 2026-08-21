@@ -369,6 +369,7 @@ file owns the trace classes.)
 
 | # | hypothesis | status |
 |---|---|---|
+| **G171** | Later structural dependence separates an integrated accident from abandonment, repair, and purpose, while origin stays unresolved (the ordered-accident sequence read mechanically) | **RULER PASSES BOTH SEEDS (test-side toy, L159), one recorded repair.** All eight pattern-violation classes at or near 1.0 in the constructed world, unfamiliar convention never called error, wrong-goal read as model revision at 1.0, and ZERO confident origin calls on the origin-identical pair (integrated vs pseudo-accident) — adoption identifiable, origin honestly abstained, the §2.2 ruling behaving as theory. Text transfer is a Stage-2 branch carrying the origin-abstention gate |
 | **S-3** | An involuntary leak channel is readable | **SUPPORTED (sim)** at 0.90 |
 | **T-4** | Amplifying the display makes concealment *more* detectable, his direction against mine | **SUPPORTED (sim)**, surviving a reader wrong about almost everything including a 50% channel swap, but **failing at 25% concealment: it reads effort spent hiding, and catches heavy concealers only** |
 | **PD-12** | Function words have spare capacity beyond author identity | **SUPPORTED (test).** Author held fixed, they separate different works by the same person at twice chance, ten of ten authors above chance |
@@ -406,9 +407,15 @@ plausibly riding era convention, so the which-layer question stays open in its f
 The channel's one process lesson stays woven in rather than appended: it was measured three
 times at sample sizes that could not see it before the powered re-run separated on all three
 ladders, so the cheap channel was never dead, only underpowered, the full sequence being in the
-git history. Confidence: the capacity results are replicated and controlled; the state reading
+git history. The anomaly-trace half of the section now has its second constructed-world
+instrument: the ordered-accident ruler reads the multilabel sequence exactly as the schema
+above demands, recovering integration, repair, abandonment, and purpose at ceiling while
+refusing to name an origin the trajectory cannot show, which is the schema's
+origin-versus-adoption asymmetry passing from ruling to measurement. Confidence: the capacity
+results are replicated and controlled; the state reading
 under its control is replicated on two corpora and one bad test away as a set; the visibility
-crossover is one bad test away; the sim rows are sim-only.
+crossover is one bad test away; the ordered-accident ruler is one bad test away and
+constructed-world only; the sim rows are sim-only.
 
 ## §4. Terminal organisation: layered, flattened, and non-invertible
 

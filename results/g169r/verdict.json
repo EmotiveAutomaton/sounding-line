@@ -1,0 +1,49 @@
+{
+ "prereg": "prereg/g169r.py",
+ "gates": {
+  "V": {
+   "accuracy": 0.9938,
+   "false_yes": 0.0122,
+   "n": 160,
+   "n_negative": 82,
+   "pass": true
+  },
+  "clean_fabrication": {
+   "rate": 0.4,
+   "band_CLEAN_if": "<= 0.15"
+  },
+  "span_fabrication": {
+   "rate": 0.1282,
+   "uninterpreted_if": "> 0.15"
+  }
+ },
+ "verdict": {
+  "CL_pair": {
+   "n_pair": 40,
+   "n_committed": 39,
+   "accuracy_on_committed": 0.7692,
+   "band": "SEPARATES",
+   "interpreted": true,
+   "l150_reference": 0.417,
+   "power_note": "~0.22 off 0.5 detectable at n=39 (card)"
+  },
+  "SP_span": {
+   "n_concealed": 19,
+   "n_unnoticed": 20,
+   "concealed_hit_rate": 0.0,
+   "unnoticed_yes_rate": 0.05,
+   "gap": -0.05,
+   "band": "BLIND",
+   "interpreted": true
+  }
+ },
+ "contest": {
+  "mechanical_baseline": {
+   "arm": "mech_hedge_baseline",
+   "n": 39,
+   "accuracy": 0.7949,
+   "cv": "leave-one-topic-out threshold on post-plant hedge count"
+  },
+  "note": "separability-at-all and reader-adds-semantics are separate claims (card, disclosed at freeze)"
+ }
+}

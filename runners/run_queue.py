@@ -1758,6 +1758,30 @@ STAGES += [
             "reader-vs-mechanical contest, fabricated-span rate"},
 ]
 
+# ── THE LAST TWO ROOTS 2026-08-21 (appended at list end; his order). G171 = the F0
+# ordered-accident ruler, ALL GATES PASSED both seeds at build (one recorded repair:
+# the exclusive-consequence rule); its stage re-verifies from a clean run. G168 = the
+# C0 role-randomized construction; the role-recovery battery preregisters on its audit.
+STAGES += [
+    {"name": "g171_ruler", "est": 15,
+     "cmd": [PY, "runners/run_g171_accidents.py"],
+     "produces": "results/g171/ruler_freshseed.json", "needs": [],
+     "why": "G171 F0 ruler: pattern violation with later-dependence classification, "
+            "both seeds, all gates; origin abstention enforced"},
+    {"name": "g168_gen", "est": 180,
+     "cmd": [PY, "runners/run_g168_roles.py", "--generate"],
+     "produces": "corpora/g168_roles/manifest.json", "needs": [],
+     "why": "G168 C0 construction: 40 two-actor logged cases, proposer x selection "
+            "x veto crossed, every event schema-validated with actors"},
+    {"name": "g168_audit", "est": 5,
+     "cmd": [PY, "runners/run_g168_roles.py", "--audit"],
+     "produces": "corpora/g168_roles/roles_audit.json",
+     "needs": ["corpora/g168_roles/manifest.json"],
+     "why": "G168 self-gate: yield, band, per-condition log completeness, SELECTION "
+            "INTEGRITY (the chosen thesis must out-overlap every rejected one in "
+            "the final essay), veto integrity"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1785,7 +1809,8 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g169_gen_qwen", "g169_gen_llama",
                     "g167a5_true_note", "g167a5_false_note", "g167a5_false_note_flag",
                     "g169_regen_qwen", "g169_regen_llama",
-                    "g169r_validate", "g169r_classify", "g169r_span", "g169r_blind"}
+                    "g169r_validate", "g169r_classify", "g169r_span", "g169r_blind",
+                    "g168_gen"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

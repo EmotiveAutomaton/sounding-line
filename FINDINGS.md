@@ -6633,6 +6633,138 @@ curator decision at the root map.
   question.
 - **Detail pointer:** `results/g167a5/verdict.json`, `prereg/g167a5.py`.
 
+## L158 · The L150 wall falls at long form: the reader separates concealed from unnoticed at 0.77 — and cannot point at the sentence that told it
+
+**Hypothesis.** *(G169-R, `prereg/g169r.py`, frozen on the v2 CORPUS-STANDS — the
+L150-owed redesign run: on long-form artifacts whose concealment verifiably realizes
+hedging, does the reader separate concealed from unnoticed where essay grain was
+blind, and can it LOCATE the handling?)*
+
+**Method.** 80 long-form artifacts (900 to 1300 words), validation-first (160
+mechanically decidable questions, negative-heavy), the whole-artifact classification
+arm in L150's exact question form, the span-locate arm (quote the clearest handling
+sentence, verified verbatim and scored mechanically for post-plant hedging), and the
+disclosed mechanical baseline (post-plant hedge count, leave-one-topic-out).
+
+| read | value | meaning |
+|---|---|---|
+| V gate | **0.9938, false-yes 0.0122** | the instrument is honest at long form too |
+| **primary: concealed vs unnoticed, whole artifact** | **0.7692** on 39 committed of 40 | **SEPARATES** (L150 essay-grain reference: 0.417, blind) |
+| mechanical hedge baseline | 0.7949 held-out | parity: the reader matches, does not beat, the five-line instrument |
+| **span-locate hit rate on concealed** | **0.00** (fabricated spans 0.128, interpreted) | the reader cannot quote the hedged sentence under the preregistered hit rule |
+| clean fabrication | 0.40 | the recorded L146 worst case replicates exactly; the standing warning label |
+
+*Caption: committed means the reader chose one of the pair's labels; a span hit
+requires a verbatim post-plant quote containing a hedge marker. The card separated
+two claims at freeze: separability-at-all (mechanical) and reader-adds-semantics.*
+
+**Found.** Three faces, all clean under a near-perfect validation gate. First: the
+channel reopens — the same reader that was blind at 0.417 on short essays separates
+the pair at 0.77 on long ones, so L150's wall was RESOLUTION, exactly as its afterword
+framed and hoped. Second: the reader adds no measured semantics over the mechanical
+instrument — hedge-counting alone does 0.79 — and, strikingly, it classifies the
+whole artifact correctly while completely failing to QUOTE the sentence that carries
+the signal (hit rate zero under the mechanical rule; it either declines or quotes
+unhedged material). Classification without localization: the reader integrates a
+diffuse density it cannot point at. Third: clean long-form rewrites pull 0.40
+invented issues, the L146 recorded risk at full strength, so every positive here
+carries that fabrication rate as its warning label.
+
+**Means.** Per the card's response tree: trace-existence at long form is established
+and the pair claim is licensed AT the mechanical instrument's grade, stated without
+softening — the reader is a valid but not value-adding detector of realized
+concealment at this construction. The D1 branch (handling transfer to natural
+revisions) becomes licensable at the root map, with the honest caveat that the
+transferable instrument may be the hedge-density counter rather than the reader. The
+localization failure is the theoretically interesting residue: whatever the reader
+uses, it is not retrievable as a span, which bounds span-level asking as a repair
+direction (it fixed nothing here) and leaves density integration as the operative
+mechanism. G88's answer is now complete in both directions: real in construction,
+real at long-form text, mechanical at heart, unlocatable by the reader that reads it.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics / Decision Traces
+- **Question in plain language:** With room for the cover-up to breathe, can the
+  reader finally tell a covered-up error from an unnoticed one — and show us where?
+- **Outcome class:** Strengthens
+- **Result:** Separates at 0.77 against the essay-grain 0.417, at parity with a
+  mechanical hedge counter (0.79), with zero successful span localization.
+- **Project meaning:** Error-handling recovery works at long form; the signal is
+  hedging density; the reader reads it without being able to point at it; short
+  essays were below the channel's resolution, as L150 said.
+- **Next engineering obligation:** The D1 transfer question routes to the Stage-1
+  root map (constructed hedging to natural revisions; the instrument choice —
+  reader vs counter — is part of that design).
+- **Public claim:** Newly licensed, narrowly: instructed concealment is separable
+  from non-recognition in long constructed text, by density, at 0.77 to 0.79.
+- **Curator decision required:** Not yet; the root map carries it.
+- **Detail pointer:** `results/g169r/verdict.json`, `prereg/g169r.py`, per-family
+  confusion and all spans on disk.
+
+## L159 · The ordered-accident ruler passes both seeds after one recorded repair: later dependence separates integrated accidents from failures, and origin stays honestly unresolved
+
+**Hypothesis.** *(G171, Phase 2.3 root P23-F0, DESIGN CHECK in
+`runners/run_g171_accidents.py`: when a structured deviation breaks an established
+pattern, does HOW LATER CHOICES DEPEND ON IT separate an integrated accident from
+abandonment, repair, and purpose — without ever calling unfamiliar convention an error
+and without fabricating an origin the trajectory cannot show?)*
+
+**Method.** The validated gridworld machinery, episodes of three-to-four trips: a
+waypoint pattern established over two trips, the third carrying one of eight
+mechanically generated classes (clean / abandoned / repaired / integrated / deliberate
+/ convention / wrong-goal / pseudo-accident); likelihood classification against the
+FITTED pattern account with episode-calibrated thresholds and post-cluster windows;
+fifty episodes per class, full battery repeated on a fresh seed.
+
+| gate | result | meaning |
+|---|---|---|
+| clean episodes | 1.00 no-anomaly after the repair | no invented anomalies |
+| every class recovery | **all eight at or near 1.0**, both seeds | the confusion matrix is clean |
+| convention called error | 0.00 | the unfamiliar-order hazard held |
+| wrong-goal read as model revision | 1.00 | "too many mistakes" correctly becomes "my model is wrong" |
+| **origin abstention on integrated and pseudo-accident** | **zero confident origin calls** | adoption identifiable, origin honestly unresolved — the D2 prediction enforced and passed |
+| withheld continuation | 0.67 vs 0.33 marginal | above the null expectation, mechanical (landing direction leaks), reported as the noted surprise |
+
+*Caption: pseudo-accident episodes are deliberate deviations dressed as accidents with
+integration identical to the accidental class; the correct output is the integration
+label with origin unresolved, never a confident origin either way. The one repair,
+recorded in-file: a noisy clean walk crosses the bonus cell by chance, so the
+deliberate signature became serving-the-bonus-INSTEAD-of-the-pattern — the exclusive-
+consequence rule, the G161 consequence lesson in a new form.*
+
+**Found.** ROOT-POSITIVE as a ruler validation, one iteration deep where G161 took
+six, because every hard-won rule transferred: categorical multi-step deviations,
+consequence structure (now exclusive), episode-calibrated thresholds, post-cluster
+windows. Later structure is a readable record of adoption; origin is not readable and
+the ruler says so instead of guessing; and the continuation arm confirms the
+construction's one leak honestly (where a deviation lands partially predicts what
+follows, a geometry fact, not a cognition fact).
+
+**Means.** The ordered-accident ontology (origin, recognition, response, integration
+as separable axes) has its constructed-world license: "an accident that acquired
+order" is mechanically distinguishable from failure BY ITS DOWNSTREAM DEPENDENCE,
+which is the curator's §2.2 ruling behaving as theory. Text transfer is a Stage-2
+branch behind the root map, with the D2 boundary (adoption yes, origin no) carried
+into any text form as a gate, not a hope.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** In a world where we know the truth, can we tell an
+  accident the maker built on from a mistake they abandoned — without pretending to
+  know which one started as an accident?
+- **Outcome class:** Strengthens
+- **Result:** All eight classes recover at or near 1.0 on both seeds with zero
+  fabricated origin calls, after one recorded repair.
+- **Project meaning:** Integration is the readable half of ordered accidents;
+  origin abstention is enforceable; the text form inherits both as gates.
+- **Next engineering obligation:** None until the root map; text transfer is a
+  Stage-2 branch.
+- **Public claim:** Unchanged (constructed world only).
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g171/ruler.json` and `ruler_freshseed.json`.
+
 ---
 
 # TIER 2 · SETTLED

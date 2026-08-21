@@ -1,0 +1,204 @@
+{
+ "case_id": "case_01",
+ "lineage_id": "g168_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": true,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "from3_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Schools must continue teaching handwriting because the physical act of forming letters strengthens neural connections that are crucial for reading comprehension and memory retention.",
+     "While digital typing is essential for modern communication, integrating handwriting instruction into curricula ensures students develop fine motor skills necessary for cognitive development.",
+     "The argument to eliminate handwriting from schools should be rejected in favor of a balanced approach that values both the efficiency of technology and the unique educational benefits of writing by hand."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Schools must continue teaching handwriting because the physical act of forming letters strengthens neural connections that are crucial for reading comprehension and memory retention.",
+    "While digital typing is essential for modern communication, integrating handwriting instruction into curricula ensures students develop fine motor skills necessary for cognitive development."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "The argument to eliminate handwriting from schools should be rejected in favor of a balanced approach that values both the efficiency of technology and the unique educational benefits of writing by hand."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Schools must continue teaching handwriting because the physical act of forming letters strengthens neural connections that are crucial for reading comprehension and memory retention."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "While digital typing is essential for modern communication, integrating handwriting instruction into curricula ensures students develop fine motor skills necessary for cognitive development."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "A possible weak point is the lack of specificity about what constitutes \"a balanced approach\". To strengthen this, I would demand that the plan be revised to include concrete examples, such as dedicating one day per week for handwritten assignments or implementing a hybrid model where students alternate between typing and handwriting exercises."
+   }
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "PLAN:\nThe argument to eliminate handwriting from schools should be rejected in favor of a balanced approach that values both the efficiency of technology and the unique educational benefits of writing by hand, specifically through concrete structural implementations such as dedicating one day per week for handwritten assignments or adopting a hybrid model where students alternate between typing and handwriting exercises across different subjects.\n\nOBJECTION:\nA possible weak point is the lack of specificity about what constitutes \"a balanced approach\". To strengthen this, I would demand that the plan be revised to include concrete examples, such as dedicating one day per week for handwritten assignments or implementing a hybrid model where students alternate between typing and handwriting exercises."
+   }
+  },
+  {
+   "event_id": "e6",
+   "order": 6,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e7",
+   "order": 7,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_4",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "A balanced approach to teaching handwriting would be to dedicate one day per week to handwritten assignments or adopt a hybrid model where students alternate between typing and handwriting exercises across different subjects. This would allow for the efficient use of technology while still acknowledging the unique benefits of writing by hand.",
+    "replacement": "Here is a rewritten version of the paragraph:\n\nA more effective approach to teaching handwriting would be to implement a dual-model curriculum, where students spend one day per week engaging in handwritten assignments and another day typing, alternating between these methods across various subjects. This hybrid approach strikes a crucial balance between leveraging technology for efficiency and har"
+   }
+  }
+ ],
+ "artifact_final": "The idea of eliminating handwriting from schools has gained momentum in recent years, with some educators arguing that it's an outdated skill that takes up valuable time better spent on digital technology. However, this argument should be rejected in favor of a balanced approach that values the unique educational benefits of writing by hand.\n\nOne of the primary concerns about handwriting is its perceived slowness and inefficiency compared to typing. While it's true that typing can produce text at a faster rate, there are situations where handwriting is still necessary or even preferable. For instance, in exams or formal documents, handwriting is often required to prevent cheating and ensure authenticity. Moreover, certain creative pursuits like art, music, and poetry benefit significantly from the tactile experience of writing by hand.\n\nMoreover, research has shown that handwriting has cognitive benefits for children, including improved memory retention, better understanding of concepts, and enhanced creativity. Studies have found that handwritten notes are more effective in aiding learning and comprehension than typed ones. This is likely because writing by hand engages multiple senses \u2013 sight, sound, touch \u2013 which enhances the learning experience.\n\nDespite these advantages, many argue that handwriting skills can be learned outside of school or through online resources. However, this overlooks the role that schools play in providing a comprehensive education. Schools are responsible for teaching not just academic subjects but also essential life skills like communication, collaboration, and self-expression. Handwriting is an integral part of these skills, as it enables students to convey their thoughts, ideas, and emotions effectively.\n\nHere is a rewritten version of the paragraph:\n\nA more effective approach to teaching handwriting would be to implement a dual-model curriculum, where students spend one day per week engaging in handwritten assignments and another day typing, alternating between these methods across various subjects. This hybrid approach strikes a crucial balance between leveraging technology for efficiency and harnessing the cognitive benefits of writing by hand, which research has consistently shown to have a positive impact on both academic performance and long-term retention.\n\nCritics may argue that implementing such an approach would add unnecessary complexity to the curriculum, but this is a short-sighted view. By incorporating handwriting into their teaching practices, educators can foster a deeper appreciation for language, creativity, and self-expression among students. This would not only benefit individual students but also contribute positively to society as a whole.\n\nIn conclusion, while technology has undoubtedly changed the way we interact with written communication, it is shortsighted to eliminate handwriting from schools entirely. A balanced approach that values both the efficiency of technology and the unique educational benefits of writing by hand will better equip future generations to succeed in an increasingly complex world. By doing so, educators can ensure that students develop essential life skills, including effective communication, critical thinking, and creativity \u2013 skills that remain relevant regardless of technological advancements.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 16850,
+ "context_fields": {},
+ "condition": {
+  "case_i": 1,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": true,
+  "topic_i": 1,
+  "repair_actor": "realizer"
+ },
+ "thesis": "The argument to eliminate handwriting from schools should be rejected in favor of a balanced approach that values both the efficiency of technology and the unique educational benefits of writing by hand.",
+ "word_count": 481
+}
