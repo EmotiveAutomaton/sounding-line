@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_09",
+ "lineage_id": "g166_llama_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Zoos can serve as valuable educational institutions and conservation centers, ultimately contributing to the preservation of endangered species.",
+     "The existence of zoos perpetuates animal exploitation and reinforces a problematic human-animal relationship that undermines efforts to protect wildlife in their natural habitats.",
+     "Modern zoos have the potential to provide innovative solutions for species survival, including breeding programs and research initiatives that can inform conservation efforts outside of captivity."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "The existence of zoos perpetuates animal exploitation and reinforces a problematic human-animal relationship that undermines efforts to protect wildlife in their natural habitats.",
+    "Modern zoos have the potential to provide innovative solutions for species survival, including breeding programs and research initiatives that can inform conservation efforts outside of captivity."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Zoos can serve as valuable educational institutions and conservation centers, ultimately contributing to the preservation of endangered species.",
+    "draw_seed": 25660
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The existence of zoos perpetuates animal exploitation and reinforces a problematic human-animal relationship that undermines efforts to protect wildlife in their natural habitats."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Modern zoos have the potential to provide innovative solutions for species survival, including breeding programs and research initiatives that can inform conservation efforts outside of captivity."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The existence of zoos has been a contentious issue for decades, with many arguing that they are inhumane institutions that prioritize human entertainment over animal welfare. However, this criticism overlooks the crucial role that zoos play as educational institutions and conservation centers. Far from being cruel or unnecessary, well-run zoos can serve as vital tools in the preservation of endangered species.\n\nOne of the primary functions of a zoo is to educate visitors about the natural world and the importance of conservation. By providing up-close encounters with animals from around the globe, zoos offer people the opportunity to develop a deeper understanding and appreciation for the diverse range of life on Earth. This is particularly important in today's society, where many children are growing up in urban environments with limited access to nature. By visiting a zoo, individuals can gain hands-on experience with wildlife and learn about the delicate balance of ecosystems, inspiring a new generation of conservationists.\n\nBeyond their educational value, zoos also play a critical role in species preservation. Many endangered animals are bred in captivity at zoos, which helps to maintain healthy populations and reduces the likelihood of extinction. For example, the San Diego Zoo's breeding program for the California condor has been instrumental in bringing this bird back from the brink of extinction. Similarly, zoos often participate in conservation efforts such as habitat restoration, species reintroduction programs, and research initiatives aimed at understanding animal behavior and ecology.\n\nSome critics argue that keeping animals in captivity is inherently cruel and that they should be released into their natural habitats instead. However, many animals would not survive for long outside of a controlled environment, particularly those with complex social structures or specific habitat requirements. For instance, the large cats found in zoos are often unable to adapt to life in the wild due to human activity, such as habitat fragmentation and poaching.\n\nMoreover, well-run zoos prioritize animal welfare above all else. Modern zoos adhere to strict standards of care, providing spacious enclosures that mimic natural habitats and employing experienced staff trained in animal behavior and enrichment techniques. These conditions far surpass those found in many wild environments, where animals are often subject to human persecution, poaching, or habitat degradation.\n\nWhile there is no denying the importance of protecting and preserving wildlife in its natural habitats, zoos can serve as valuable complements to these efforts. By providing a safe and controlled environment for endangered species, zoos enable researchers to study animal behavior, physiology, and ecology, inform conservation strategies, and promote public awareness about the need to protect biodiversity.\n\nIn conclusion, zoos are not merely places of entertainment but valuable institutions that contribute significantly to education, research, and species preservation. By providing up-close encounters with wildlife, supporting breeding programs for endangered animals, and participating in conservation efforts, well-run zoos play a critical role in safeguarding the future of our planet's incredible biodiversity.",
+ "artifact_versions": [
+  "Here are three possible thesis statements:\n\n1. Zoos can serve as valuable educational institutions and conservation centers, ultimately contributing to the preservation of endangered species.\n2. The existence of zoos perpetuates animal exploitation and reinforces a problematic human-animal relationship that undermines efforts to protect wildlife in their natural habitats.\n3. Modern zoos have the potential to provide innovative solutions for species survival, including breeding programs and research initiatives that can inform conservation efforts outside of captivity."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_09",
+ "split": "discovery",
+ "construction_seed": 25660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 488
+}

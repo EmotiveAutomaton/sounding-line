@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 05:07",
+  "started": "2026-08-21 08:42",
   "stages": [
     {
       "name": "feature_visibility",
@@ -683,22 +683,16 @@
       "name": "g165_self_route_leak",
       "why": "G165 arm self_route_leak: route-generation ablation against the recorded direct arm; leak arms run the twins where nothing was executed",
       "est_minutes": 80,
-      "status": "DONE",
-      "log": "results\\g165_self_route_leak.log",
-      "minutes": 15.9
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g165_verdict",
       "why": "G165 verdict: leak gate first, paired McNemar vs recorded direct picks, echo-split cells standing per L148, exhaustive bands",
       "est_minutes": 5,
-      "status": "DEFERRED",
-      "missing": [
-        "results/g165/self_route.json",
-        "results/g165/cand_disc.json"
-      ]
+      "status": "SKIPPED (already done)"
     }
   ],
   "shard": "1/3",
-  "finished": "2026-08-21 05:23",
+  "finished": "2026-08-21 08:42",
   "failed": []
 }

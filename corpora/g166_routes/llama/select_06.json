@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_06",
+ "lineage_id": "g166_llama_06",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_06",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether tipping should be abolished Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "The practice of tipping in service industries is inherently exploitative and should be abolished in favor of living wages for all employees.",
+     "Abolishing tipping would unfairly burden consumers with higher menu prices and undermine the flexibility that tipping provides to servers and other workers.",
+     "The abolition of tipping would lead to significant benefits for low-wage workers, but its practical implementation would require substantial changes to labor laws and industry standards."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "The practice of tipping in service industries is inherently exploitative and should be abolished in favor of living wages for all employees.",
+    "Abolishing tipping would unfairly burden consumers with higher menu prices and undermine the flexibility that tipping provides to servers and other workers."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "The abolition of tipping would lead to significant benefits for low-wage workers, but its practical implementation would require substantial changes to labor laws and industry standards.",
+    "draw_seed": 22660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The practice of tipping in service industries is inherently exploitative and should be abolished in favor of living wages for all employees."
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Abolishing tipping would unfairly burden consumers with higher menu prices and undermine the flexibility that tipping provides to servers and other workers."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The practice of tipping has been a contentious issue in the service industry for decades. On one hand, proponents argue that it is a way to show appreciation for good service, while on the other, critics claim that it perpetuates wage inequality and can lead to exploitation of low-wage workers. In this essay, I will argue that the abolition of tipping would lead to significant benefits for low-wage workers, but its practical implementation would require substantial changes to labor laws and industry standards.\n\nOne of the primary benefits of abolishing tipping is that it would provide a more stable income for low-wage workers. The current system of tipping often results in unpredictable earnings, as workers are dependent on the generosity of customers. This can lead to fluctuations in their weekly or monthly take-home pay, making it difficult for them to budget and plan for the future. By eliminating tipping, employers would be required to pay a living wage, ensuring that employees receive a fair and consistent income.\n\nAnother benefit of abolishing tipping is that it would help to address the issue of wage theft. Many workers in the service industry are not paid their rightful wages due to the complex system of tips and gratuities. By eliminating tipping, employers would be held accountable for paying their employees a minimum wage, rather than relying on customers to make up the difference.\n\nHowever, abolishing tipping is not without its challenges. The practical implementation of such a change would require substantial changes to labor laws and industry standards. Currently, many restaurants and bars rely on the revenue generated from tips to stay afloat. If tipping were abolished, employers would need to adjust their prices to reflect the increased costs associated with paying employees a living wage. This could lead to higher menu prices, which may be detrimental to small businesses or those operating in areas with low demand.\n\nAdditionally, some industries such as hairdressing and beauty salons rely heavily on tips for income, so changes would need to be made within those sectors too. To mitigate these effects, governments and employers would need to work together to introduce legislation that requires businesses to pay employees a living wage. This could involve adjusting minimum wage laws or implementing measures to support small businesses in making the transition.\n\nIn conclusion, while the abolition of tipping may present some challenges, its benefits for low-wage workers far outweigh the drawbacks. By eliminating tipping, employers would be required to pay their employees a fair and consistent income, addressing the issue of wage theft and providing stability for those who rely on these jobs. With significant changes to labor laws and industry standards, the abolition of tipping is an achievable goal that can have a positive impact on the lives of many workers in the service industry.",
+ "artifact_versions": [
+  "1. The practice of tipping in service industries is inherently exploitative and should be abolished in favor of living wages for all employees.\n2. Abolishing tipping would unfairly burden consumers with higher menu prices and undermine the flexibility that tipping provides to servers and other workers.\n3. The abolition of tipping would lead to significant benefits for low-wage workers, but its practical implementation would require substantial changes to labor laws and industry standards."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_06",
+ "split": "discovery",
+ "construction_seed": 22660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 473
+}

@@ -1,0 +1,71 @@
+{
+ "case_id": "llama_rewrite_01",
+ "lineage_id": "g166_llama_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether schools should teach handwriting Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model",
+  "g131_base": "recorded_prior_artifact"
+ },
+ "route_family": "rewrite",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "g131_base",
+   "operation": "propose",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "base_ref": "g131 llama none_0_none_01"
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over the importance of teaching handwriting in schools has become increasingly contentious in recent years, with some arguing that it is a redundant skill in today's digital age. However, I firmly believe that handwriting remains an essential component of a well-rounded education.\n\nOne of the primary advantages of teaching handwriting is its profound impact on cognitive development. Research has consistently shown that writing by hand strengthens neural connections in the brain, leading to improved memory, concentration, and academic performance (Wolf & Katzir-Cohen, 2001). In addition, handwriting enhances fine motor skills, hand-eye coordination, and dexterity, all of which are critical for overall physical development.\n\nBeyond its cognitive benefits, handwriting also plays a crucial role in effective communication. While technology has made it easier to type messages and emails, there will always be situations where writing by hand is necessary \u2013 whether filling out forms, signing documents, or creating artistic work. Handwritten notes and letters can convey emotions and personality more effectively than typed messages, fostering deeper connections between individuals.\n\nSome argue that the increasing use of keyboards and touchscreens has rendered handwriting skills obsolete. However, this perspective overlooks the value of developing a range of skills, including technological proficiency alongside manual dexterity. In reality, the two are not mutually exclusive; rather, they complement each other in a way that enhances overall educational outcomes.\n\nA common concern is that devoting time to teaching handwriting takes away from instruction in other subjects or activities. However, research suggests that incorporating handwriting into curriculum can have a positive impact on academic performance (Lillard & Peterson, 2011). Studies have shown that students who are taught cursive writing demonstrate better spelling and language skills compared to those who are not.\n\nIn fact, rather than seeing handwriting as a relic of the past, it is essential to recognize its value in the modern world. Handwriting provides a unique complement to digital literacy, allowing individuals to connect with others on a more personal level and conveying emotions and personality in a way that typed messages cannot. By prioritizing teaching handwriting in schools, we can ensure that students develop a well-rounded set of skills that will serve them well throughout their lives.\n\nUltimately, the argument against teaching handwriting is based on a narrow view of technology as solely replacing traditional skills. However, by incorporating handwriting into curriculum alongside other subjects, schools can provide students with a valuable and versatile skillset that will remain relevant in an increasingly digital age.\n\nReferences:\n\nLillard, A. S., & Peterson, J. (2011). The Immediate Impact of Diverse Early Learning Activities on Children's Executive Function. Early Childhood Research Quarterly, 26(3), 318-334.\n\nWolf, B. T., & Katzir-Cohen, M. (2001). Reading into the Ignorance: The Influence of Handwriting on Literacy. The Journal of Educational Research, 94(4), 267-275.",
+ "artifact_versions": [
+  "In today's digital age, the importance of teaching handwriting in schools is often debated among educators and policymakers. While some argue that with the rise of technology, handwriting skills are no longer relevant, I firmly believe that schools should prioritize teaching handwriting to their students.\n\nOne of the primary reasons handwriting is essential is its role in cognitive development. Research has shown that writing by hand helps to strengthen neural connections in the brain, improving memory, concentration, and academic performance (Wolf & Katzir-Cohen, 2001). Handwriting also enhances fine motor skills, hand-eye coordination, and dexterity, all of which are critical for overall physical development.\n\nMoreover, handwriting is a fundamental skill that allows individuals to communicate effectively in various situations. In the digital age, while technology has made it easier to type messages and emails, there will always be instances where writing by hand is necessary, such as filling out forms, signing documents, or creating artistic work. Furthermore, handwritten notes and letters can convey emotions and personality more effectively than typed messages, fostering deeper connections between individuals.\n\nSome may argue that with the increasing use of keyboards and touchscreens, handwriting skills are becoming obsolete. However, I counter that this argument is based on a narrow view of technology as solely replacing traditional skills. Rather, it highlights the need for students to develop a range of skills, including technological proficiency alongside manual dexterity.\n\nAnother concern often raised is the time spent teaching handwriting in schools, which could be redirected towards other subjects or activities. However, I propose that incorporating handwriting into curriculum can actually have a positive impact on overall academic performance. A study by Lillard & Peterson (2011) found that students who were taught cursive writing demonstrated better spelling and language skills compared to those who were not.\n\nIn conclusion, while technology has undoubtedly changed the way we communicate, it is essential to maintain and develop traditional skills such as handwriting. Not only do they contribute to cognitive development and communication effectiveness, but also provide a valuable complement to digital literacy. Rather than eliminating handwriting from curricula, schools should focus on integrating it into their programs alongside other subjects, allowing students to reap the numerous benefits associated with this fundamental skill.\n\nReferences:\n\nLillard, A. S., & Peterson, J. (2011). The Immediate Impact of Diverse Early Learning Activities on Children's Executive Function. Early Childhood Research Quarterly, 26(3), 318-334.\n\nWolf, B. T., & Katzir-Cohen, M. (2001). Reading into the Ignorance: The Influence of Handwriting on Literacy. The Journal of Educational Research, 94(4), 267-275."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_01",
+ "split": "discovery",
+ "construction_seed": 17640,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 453
+}

@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_02",
+ "lineage_id": "g166_llama_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether professional sports teams should be publicly owned Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Public ownership of professional sports teams would provide greater accountability and transparency in team management and finances.",
+     "Privatization has led to increased profitability for owners at the expense of community interests, making public ownership a necessary reform.",
+     "The financial benefits of public ownership would outweigh any potential drawbacks, allowing cities to reap more revenue from their sports teams."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Privatization has led to increased profitability for owners at the expense of community interests, making public ownership a necessary reform.",
+    "The financial benefits of public ownership would outweigh any potential drawbacks, allowing cities to reap more revenue from their sports teams."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Public ownership of professional sports teams would provide greater accountability and transparency in team management and finances.",
+    "draw_seed": 18660
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Privatization has led to increased profitability for owners at the expense of community interests, making public ownership a necessary reform."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The financial benefits of public ownership would outweigh any potential drawbacks, allowing cities to reap more revenue from their sports teams."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The notion that professional sports teams should be publicly owned has gained significant attention in recent years. While some argue that public ownership could lead to bureaucratic inefficiencies and decreased competitiveness, I firmly believe that it would provide greater accountability and transparency in team management and finances.\n\nOne of the primary benefits of public ownership is that it would subject team management to increased scrutiny from taxpayers and fans alike. When a team is publicly owned, its financial statements and decision-making processes are more likely to be transparent and accessible to the general public. This transparency could lead to greater accountability, as team officials would need to justify their decisions and allocate resources in a way that reflects the priorities of the community.\n\nIn contrast, privately owned teams often operate with a significant degree of secrecy, making it difficult for fans and taxpayers to know how their money is being spent. For example, studies have shown that privately owned teams often prioritize profit over performance, leading to bloated salaries and underperforming rosters. By bringing team ownership into the public sector, these priorities could be reversed, with more emphasis placed on competitive success rather than financial gain.\n\nPublic ownership would also create opportunities for community engagement and participation in decision-making. When a team is owned by its fans, they have a direct stake in the outcome of games and a greater sense of investment in the franchise's success. This can lead to increased attendance, enthusiasm, and revenue growth, as well as a more positive experience for fans.\n\nFurthermore, public ownership could also help to mitigate the problem of \"sports welfare,\" where teams are valued as commodities rather than community assets. When a team is privately owned, it can be sold or relocated without regard for the impact on its fans or local economy. By making teams publicly owned, this risk would be mitigated, and teams would be more likely to remain in their communities.\n\nOf course, some may argue that public ownership would lead to bureaucratic inefficiencies and decreased competitiveness. However, I believe that these concerns are overstated. With the right governance structures in place, a publicly owned team could still operate with the same level of efficiency and effectiveness as a privately owned one.\n\nIn conclusion, public ownership of professional sports teams would provide greater accountability and transparency in team management and finances. By bringing decision-making processes into the public sphere, fans and taxpayers could hold team officials to higher standards of performance and financial responsibility. This would not only lead to more competitive teams but also help to build stronger, more engaged communities around each franchise.",
+ "artifact_versions": [
+  "1. Public ownership of professional sports teams would provide greater accountability and transparency in team management and finances.\n2. Privatization has led to increased profitability for owners at the expense of community interests, making public ownership a necessary reform.\n3. The financial benefits of public ownership would outweigh any potential drawbacks, allowing cities to reap more revenue from their sports teams."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_02",
+ "split": "discovery",
+ "construction_seed": 18660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 440
+}

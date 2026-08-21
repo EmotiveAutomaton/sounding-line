@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_01",
+ "lineage_id": "g166_llama_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether schools should teach handwriting Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "In today's digital age, schools have a responsibility to prioritize teaching handwriting as a fundamental skill that complements and enhances students' technological literacy.",
+     "The decline in handwriting instruction has led to a significant decrease in student proficiency in this essential life skill, which is necessary for academic success and everyday communication.",
+     "Teaching handwriting in schools is no longer justifiable due to the shift towards digital communication, as it is an outdated and time-consuming task that diverts resources away from more pressing educational needs."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "In today's digital age, schools have a responsibility to prioritize teaching handwriting as a fundamental skill that complements and enhances students' technological literacy.",
+    "The decline in handwriting instruction has led to a significant decrease in student proficiency in this essential life skill, which is necessary for academic success and everyday communication."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Teaching handwriting in schools is no longer justifiable due to the shift towards digital communication, as it is an outdated and time-consuming task that diverts resources away from more pressing educational needs.",
+    "draw_seed": 17660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "In today's digital age, schools have a responsibility to prioritize teaching handwriting as a fundamental skill that complements and enhances students' technological literacy."
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The decline in handwriting instruction has led to a significant decrease in student proficiency in this essential life skill, which is necessary for academic success and everyday communication."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The teaching of handwriting in schools has been a staple of education for centuries, but with the increasing reliance on digital technology, its relevance and justification are being called into question. As we progress further into an era dominated by screens and keyboards, the notion that handwriting is still a valuable skill to be taught in schools becomes increasingly tenuous.\n\nOne of the primary arguments against teaching handwriting is the sheer amount of time it occupies in an already packed curriculum. In today's educational landscape, there are pressing needs such as mathematics, science, and language arts that demand attention and resources. The emphasis on handwriting takes away from these areas, diverting valuable time and energy away from more critical subjects.\n\nFurthermore, the shift towards digital communication has made handwriting a less essential skill than it once was. With email, text messaging, and social media, individuals can communicate effectively without ever picking up a pen or pencil. While some may argue that handwriting is still important for artistic expression and creative writing, these are niche activities that can be accommodated through extracurricular classes or online courses.\n\nMoreover, the way we consume information has also changed dramatically in recent years. With the rise of e-books, audiobooks, and digital multimedia, students are no longer required to read physical texts or take notes by hand. This shift towards digital learning materials reduces the need for handwriting as a means of accessing knowledge.\n\nAnother argument against teaching handwriting is its limited transferability to real-world skills. In today's job market, employers place greater emphasis on technology literacy and data analysis than traditional writing skills. While some may argue that handwriting can improve fine motor skills and cognitive development, these benefits are largely anecdotal and not supported by robust scientific evidence.\n\nSome might counter that teaching handwriting is essential for basic administrative tasks such as signing documents or filling out forms. However, this argument holds little weight in the digital age where electronic signatures and online forms have become the norm. Even when physical signatures are required, they can be easily obtained through a printout of an electronic document.\n\nIn conclusion, the teaching of handwriting in schools is no longer justifiable due to its outdated nature and time-consuming requirements. As we move further into a digitally driven world, it makes more sense for educators to focus on skills that are relevant, transferable, and highly valued by employers. While there may be some nostalgic value attached to handwriting, the evidence suggests that its benefits do not outweigh the costs in terms of time and resources. By abandoning the teaching of handwriting, schools can prioritize more pressing educational needs and better prepare students for the demands of a rapidly changing world.",
+ "artifact_versions": [
+  "1. In today's digital age, schools have a responsibility to prioritize teaching handwriting as a fundamental skill that complements and enhances students' technological literacy.\n2. The decline in handwriting instruction has led to a significant decrease in student proficiency in this essential life skill, which is necessary for academic success and everyday communication.\n3. Teaching handwriting in schools is no longer justifiable due to the shift towards digital communication, as it is an outdated and time-consuming task that diverts resources away from more pressing educational needs."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_01",
+ "split": "discovery",
+ "construction_seed": 17660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 455
+}

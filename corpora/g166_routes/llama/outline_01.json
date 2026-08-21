@@ -1,0 +1,70 @@
+{
+ "case_id": "llama_outline_01",
+ "lineage_id": "g166_llama_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether schools should teach handwriting Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Introduction: Briefly discuss the importance of handwriting in daily life and its potential decline due to digital technology.\n2. Argument for teaching handwriting: Handwriting is a fundamental skill that enhances cognitive development and improves academic performance.\n3. Counterargument for not teaching handwriting: With the increasing use of keyboards and touchscreens, students are developing typing skills and may no longer need to learn handwriting.\n4. Refutation of counterargument: Even with digital tools, handwriting has cognitive and fine motor benefits that cannot be replicated by typing alone.\n5. Conclusion: Schools should prioritize teaching handwriting as a crucial life skill and cognitive development tool."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "In today's digital age, it is easy to overlook the importance of handwriting in daily life. With the rise of keyboards, touchscreens, and text messaging, many people assume that handwriting has become an obsolete skill. However, research shows that handwriting plays a vital role in our cognitive development and academic performance.\n\nHandwriting is not just a necessary skill for filling out forms or writing checks; it also enhances cognitive development by improving motor skills, memory, and concentration. Studies have shown that handwriting stimulates the brain's language centers and can even improve literacy skills in children. Moreover, handwriting helps to develop fine motor control, hand-eye coordination, and dexterity \u2013 essential skills for many everyday activities. By teaching handwriting in schools, we are not only equipping students with a fundamental skill but also fostering cognitive development.\n\nHowever, some argue that the increasing use of digital tools renders handwriting unnecessary. With keyboards and touchscreens becoming ubiquitous, it is claimed that typing has replaced handwriting as the primary means of communication. This argument assumes that because students are developing typing skills, they no longer need to learn handwriting. But this overlooks the unique benefits of handwriting.\n\nWhile typing may be faster and more efficient in some contexts, handwriting offers distinct cognitive and fine motor benefits that cannot be replicated by typing alone. Research has shown that writing by hand engages multiple areas of the brain, including those responsible for language processing, attention, and memory. Handwriting also allows individuals to reflect on their thoughts and ideas more deeply, facilitating a greater understanding and retention of material. Furthermore, handwriting is a tactile experience that can help students connect with their learning in a way that typing cannot.\n\nIn conclusion, despite the growing importance of digital tools, schools should prioritize teaching handwriting as a crucial life skill and cognitive development tool. Handwriting enhances cognitive abilities, improves academic performance, and fosters fine motor skills \u2013 all essential for success in academics and beyond. By teaching handwriting, educators can provide students with a fundamental skill that will serve them well throughout their lives.",
+ "artifact_versions": [
+  "1. Introduction: Briefly discuss the importance of handwriting in daily life and its potential decline due to digital technology.\n2. Argument for teaching handwriting: Handwriting is a fundamental skill that enhances cognitive development and improves academic performance.\n3. Counterargument for not teaching handwriting: With the increasing use of keyboards and touchscreens, students are developing typing skills and may no longer need to learn handwriting.\n4. Refutation of counterargument: Even with digital tools, handwriting has cognitive and fine motor benefits that cannot be replicated by typing alone.\n5. Conclusion: Schools should prioritize teaching handwriting as a crucial life skill and cognitive development tool."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_01",
+ "split": "discovery",
+ "construction_seed": 17620,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 343
+}

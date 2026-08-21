@@ -1,0 +1,70 @@
+{
+ "case_id": "llama_outline_05",
+ "lineage_id": "g166_llama_05",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_05",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether museums should return colonial-era artifacts Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Museums have historically been complicit in cultural appropriation and continue to profit from artifacts taken during colonization.\n2. Returning these artifacts would acknowledge and make amends for the past injustices of colonialism and its ongoing impact on indigenous cultures.\n3. Keeping colonial-era artifacts perpetuates a power imbalance between nations and cultures, where Western institutions maintain control over non-Western cultural heritage.\n4. Removing these artifacts does not erase history but rather allows communities to reclaim their own narratives and preserve their cultural legacies in their own hands.\n5. Governments and institutions have a moral obligation to prioritize the repatriation of artifacts to their countries of origin and compensate communities for historical losses."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "Museums have long been criticized for their role in perpetuating cultural appropriation, particularly when it comes to colonial-era artifacts. The very notion that these institutions can simply acquire and display cultural relics without regard for their origins or the people from whom they were taken is a stark reminder of the power imbalance between Western nations and those they colonized.\n\nThe fact remains that many museums were founded on the spoils of colonization, with artifacts seized by colonial powers as a symbol of their dominance over newly \"discovered\" lands. Today, these institutions continue to profit from the cultural heritage of non-Western communities, often without providing any significant benefit or compensation to those whose ancestors created these artworks. This is not only a matter of cultural insensitivity but also a clear case of economic exploitation.\n\nReturning colonial-era artifacts would be a necessary step towards acknowledging and making amends for the past injustices of colonialism. It is a small measure, perhaps, but one that recognizes the ongoing impact of colonization on indigenous cultures. The presence of these artifacts in Western museums serves as a painful reminder of the historical power dynamics at play, where non-Western cultural heritage was often seized without permission and displayed as a trophy to be marveled over by those who profited from its seizure.\n\nKeeping colonial-era artifacts perpetuates this power imbalance, allowing Western institutions to maintain control over non-Western cultural heritage. In doing so, these museums reinforce the notion that certain cultures are more valuable or deserving of attention than others. This is not merely a matter of cultural sensitivity; it is also a question of justice and historical accountability.\n\nCritics often argue that removing colonial-era artifacts would erase history, but this argument overlooks the very real ways in which communities have been silenced and their narratives erased by colonialism. By returning these artifacts, we are not erasing the past but rather allowing communities to reclaim their own stories and preserve their cultural legacies in their own hands.\n\nGovernments and institutions have a moral obligation to prioritize the repatriation of artifacts to their countries of origin and compensate communities for historical losses. This is not merely a matter of restitution; it is also a question of basic human dignity and respect for the cultures that were brutalized by colonialism. By returning these artifacts, we can begin to dismantle the power dynamics that have enabled cultural exploitation for far too long.",
+ "artifact_versions": [
+  "1. Museums have historically been complicit in cultural appropriation and continue to profit from artifacts taken during colonization.\n2. Returning these artifacts would acknowledge and make amends for the past injustices of colonialism and its ongoing impact on indigenous cultures.\n3. Keeping colonial-era artifacts perpetuates a power imbalance between nations and cultures, where Western institutions maintain control over non-Western cultural heritage.\n4. Removing these artifacts does not erase history but rather allows communities to reclaim their own narratives and preserve their cultural legacies in their own hands.\n5. Governments and institutions have a moral obligation to prioritize the repatriation of artifacts to their countries of origin and compensate communities for historical losses."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_05",
+ "split": "discovery",
+ "construction_seed": 21620,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 409
+}

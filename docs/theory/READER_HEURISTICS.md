@@ -191,13 +191,22 @@ He predicts a vague unifying effect there and declines to claim even that.
 | **HH-6** | Entering at the anomaly beats entering at the whole artifact | **OPEN.** The machinery exists (`bounded_v6` stage zero); a flag flip and a comparison |
 | **HH-7** | Local decision density around a mistake exceeds baseline | **OPEN.** Needs mistakes located first; the one place a decision and its counterfactual are visible together |
 | **S-4/S-5** | Stage ordering changes the answer | **REJECTED (sim)** by exactly zero; ~5% cost saving only |
+| **G165** | Explicit route generation (a self-enacted production route, or predicted evidence per candidate) improves recovery of recorded executed choices over direct reading | **NO-GAIN on both arms (test, L151), first pass, on the strong substrate.** Zero delta for self-route and minus two points for candidate-discrimination against the recorded direct arm on identical events, leak and echo gates quiet, power note disclosed (ten points detectable). The predeclared discriminator runs where direct reading is WEAK (the revision-delta events the change block wins, L141); no further branch by card |
 
-**What the table says.** The entry-point family has one live positive and one honest defeat. The
+**What the table says.** The entry-point family has one live positive, one honest defeat, and now
+one clean redundancy. The
 reader's own affective series moves through human text and not machine text, while every surface
 operationalisation of the same idea loses to the field's bar once topic is controlled. Ordering
 effects are bounded near zero, the wobble test is retired on the curator's own account, and the
-anomaly rows, the family's core, remain unrun. Confidence: the probe-activation result is one
-bad test away; the surface defeats are replicated and controlled; the rest is untested.
+anomaly rows, the family's core, remain unrun. The newest result bounds the self-simulation
+strategy from one side: where direct reading is already strong, making the reader spell out an
+enactable route first changes nothing at all, in accuracy, leakage, or echo, so any value the
+strategy has must live where direct reading struggles, which is exactly where its predeclared
+follow-up now runs. That is a bound on a reading STRATEGY, not on the §1 self-model prior
+itself, whose implicit form the direct reader may already be using. Confidence: the
+probe-activation result is one
+bad test away; the surface defeats are replicated and controlled; the route-generation
+redundancy is one bad test away, one substrate deep; the rest is untested.
 
 ## §3. Traversing explanatory levels
 

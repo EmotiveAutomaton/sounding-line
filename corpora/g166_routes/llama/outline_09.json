@@ -1,0 +1,70 @@
+{
+ "case_id": "llama_outline_09",
+ "lineage_id": "g166_llama_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Introduction: Define the purpose of zoos and the controversy surrounding their existence.\n2. Argument for zoos: Zoos serve as conservation centers, protecting endangered species from extinction and educating the public about wildlife.\n3. Counterargument: Many zoos prioritize entertainment over animal welfare, leading to inhumane conditions and treatment of animals.\n4. Rebuttal to counterargument: Responsible zoos have made significant strides in improving animal care and providing naturalistic habitats for their inhabitants.\n5. Conclusion: Ultimately, the existence of zoos is a complex issue requiring balance between conservation goals and animal welfare concerns."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate surrounding the existence of zoos has been ongoing for years, with proponents arguing that they play a vital role in conservation efforts and education, while opponents claim that zoos prioritize entertainment over animal welfare. To understand both sides of the argument, it is essential to consider the purpose of zoos and their role in protecting endangered species.\n\nOn one hand, zoos have long been recognized as crucial centers for conservation efforts. By providing a controlled environment, zoos enable scientists to study and breed endangered animals, increasing the chances of their survival. For example, zoos have been instrumental in saving species such as the California condor and the black-footed ferret from extinction. Furthermore, zoos serve as educational institutions, offering visitors a unique opportunity to learn about wildlife and promote an appreciation for nature. By interacting with animals up close, people develop a deeper understanding of their importance in the ecosystem.\n\nHowever, critics argue that many zoos prioritize entertainment over animal welfare, subjecting their inhabitants to inhumane conditions and treatment. This criticism is not unfounded, as numerous zoos have been exposed for keeping animals in cramped enclosures, neglecting their basic needs, or even mistreating them physically. Unfortunately, this image of zoos perpetuates negative public perceptions, leading some to advocate for their abolition.\n\nHowever, it's essential to acknowledge that responsible zoos have made significant strides in improving animal care and providing naturalistic habitats for their inhabitants. Many institutions now prioritize animal welfare, adopting innovative designs that mimic animals' natural environments. For instance, some zoos have created large, open spaces where animals can roam freely, while others focus on enriching the lives of their residents through stimulation and social interaction. By promoting such conditions, these zoos set a high standard for animal care and demonstrate that it is possible to balance conservation goals with animal welfare concerns.\n\nUltimately, the existence of zoos is a complex issue requiring a nuanced approach. While some institutions may prioritize entertainment over animal welfare, others strive to provide optimal living conditions for their residents while contributing significantly to conservation efforts. Rather than advocating for an outright ban on zoos, it would be more productive to work towards establishing standards that ensure animals are treated with respect and care. This balance between conservation goals and animal welfare concerns will inevitably lead to a more compassionate and responsible approach to zoo management.",
+ "artifact_versions": [
+  "1. Introduction: Define the purpose of zoos and the controversy surrounding their existence.\n2. Argument for zoos: Zoos serve as conservation centers, protecting endangered species from extinction and educating the public about wildlife.\n3. Counterargument: Many zoos prioritize entertainment over animal welfare, leading to inhumane conditions and treatment of animals.\n4. Rebuttal to counterargument: Responsible zoos have made significant strides in improving animal care and providing naturalistic habitats for their inhabitants.\n5. Conclusion: Ultimately, the existence of zoos is a complex issue requiring balance between conservation goals and animal welfare concerns."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_09",
+ "split": "discovery",
+ "construction_seed": 25620,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 394
+}

@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_00",
+ "lineage_id": "g166_llama_00",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_00",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether cities should ban private cars from their centers Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Cities should prioritize pedestrian safety and environmental sustainability by banning private cars from their centers.",
+     "A car-free city center would lead to economic decline and decreased accessibility for certain populations, making it an unwise policy decision.",
+     "Banning private cars from city centers is essential to mitigating traffic congestion and air pollution, outweighing any potential drawbacks."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "A car-free city center would lead to economic decline and decreased accessibility for certain populations, making it an unwise policy decision.",
+    "Banning private cars from city centers is essential to mitigating traffic congestion and air pollution, outweighing any potential drawbacks."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Cities should prioritize pedestrian safety and environmental sustainability by banning private cars from their centers.",
+    "draw_seed": 16660
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "A car-free city center would lead to economic decline and decreased accessibility for certain populations, making it an unwise policy decision."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Banning private cars from city centers is essential to mitigating traffic congestion and air pollution, outweighing any potential drawbacks."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The increasing trend of urbanization has led to a surge in population growth within city limits, resulting in congested streets, air pollution, and pedestrian fatalities. In an effort to mitigate these issues, some cities have considered banning private cars from their centers, but such measures are often met with resistance from residents who rely on personal vehicles for transportation. However, prioritizing pedestrian safety and environmental sustainability over the convenience of private car owners is a necessary step towards creating livable and sustainable urban environments.\n\nOne of the primary concerns in city centers is pedestrian safety. The presence of private cars poses a significant threat to pedestrians, with even moderate speeds resulting in severe injuries or fatalities. In cities where private cars are permitted, pedestrians often struggle to navigate through streets filled with speeding vehicles, bike lanes are scarce, and traffic lights provide insufficient protection. By banning private cars from city centers, pedestrian-only zones can be created, reducing the risk of accidents and promoting a safer environment for residents.\n\nAnother pressing issue in urban areas is environmental sustainability. Private cars contribute significantly to air pollution, which exacerbates respiratory problems, aggravates asthma symptoms, and accelerates climate change. Moreover, the infrastructure required to accommodate private car owners \u2013 including parking lots, road maintenance, and fueling stations \u2013 consumes valuable land, resources, and finances. By prioritizing pedestrian-friendly transportation systems such as public transit, cycling, or walking, cities can reduce their carbon footprint and create a more environmentally conscious atmosphere.\n\nMoreover, banning private cars from city centers encourages alternative modes of transportation and promotes a healthier lifestyle. Cities like Copenhagen have successfully implemented car-free zones, which have led to increased use of bicycles and reduced air pollution levels. This shift not only benefits the environment but also contributes to improved public health as residents engage in physical activity through walking or cycling.\n\nAnother argument against banning private cars is the perceived inconvenience it may cause for commuters who rely on their vehicles for transportation. However, this argument assumes that private car owners have no alternative modes of transportation available. In reality, cities can provide adequate public transportation systems to cater to the needs of residents, reducing reliance on personal vehicles. Additionally, innovative transportation solutions such as bike-sharing services and ride-hailing apps can offer convenient alternatives to driving a personal vehicle.\n\nIn conclusion, while banning private cars from city centers may present short-term inconveniences for some residents, prioritizing pedestrian safety and environmental sustainability is essential for creating livable and sustainable urban environments. Cities must recognize the dangers posed by private cars and take action to reduce their presence in central areas, promoting alternative modes of transportation that promote public health, environmental conservation, and social equity.",
+ "artifact_versions": [
+  "1. Cities should prioritize pedestrian safety and environmental sustainability by banning private cars from their centers.\n2. A car-free city center would lead to economic decline and decreased accessibility for certain populations, making it an unwise policy decision.\n3. Banning private cars from city centers is essential to mitigating traffic congestion and air pollution, outweighing any potential drawbacks."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_00",
+ "split": "discovery",
+ "construction_seed": 16660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 453
+}

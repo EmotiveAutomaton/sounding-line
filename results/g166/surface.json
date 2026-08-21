@@ -1,0 +1,611 @@
+{
+ "summary": {
+  "arm": "surface",
+  "n": 100,
+  "accuracy": 0.48,
+  "features": "words, sent-length, type-token, paragraphs, first-person",
+  "cv": "leave-one-topic-out within family"
+ },
+ "rows": [
+  {
+   "case_id": "qwen_direct_00",
+   "truth": "direct",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_00",
+   "truth": "outline",
+   "pick": "revise",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_00",
+   "truth": "revise",
+   "pick": "outline",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_00",
+   "truth": "rewrite",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_00",
+   "truth": "select",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_01",
+   "truth": "direct",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_01",
+   "truth": "outline",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_01",
+   "truth": "revise",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_01",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_01",
+   "truth": "select",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_02",
+   "truth": "direct",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_02",
+   "truth": "outline",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_02",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_02",
+   "truth": "rewrite",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_02",
+   "truth": "select",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_03",
+   "truth": "direct",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_03",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_03",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_03",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_03",
+   "truth": "select",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_04",
+   "truth": "direct",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_04",
+   "truth": "outline",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_04",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_04",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_04",
+   "truth": "select",
+   "pick": "revise",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_05",
+   "truth": "direct",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_05",
+   "truth": "outline",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_05",
+   "truth": "revise",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_05",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_05",
+   "truth": "select",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_06",
+   "truth": "direct",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_06",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_06",
+   "truth": "revise",
+   "pick": "outline",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_06",
+   "truth": "rewrite",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_06",
+   "truth": "select",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_07",
+   "truth": "direct",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_07",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_07",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_07",
+   "truth": "rewrite",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_07",
+   "truth": "select",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_08",
+   "truth": "direct",
+   "pick": "outline",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_08",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_08",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_08",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_08",
+   "truth": "select",
+   "pick": "direct",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_direct_09",
+   "truth": "direct",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_outline_09",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_revise_09",
+   "truth": "revise",
+   "pick": "select",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_rewrite_09",
+   "truth": "rewrite",
+   "pick": "revise",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "qwen_select_09",
+   "truth": "select",
+   "pick": "rewrite",
+   "generator": "qwen"
+  },
+  {
+   "case_id": "llama_direct_00",
+   "truth": "direct",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_00",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_00",
+   "truth": "revise",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_00",
+   "truth": "rewrite",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_00",
+   "truth": "select",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_01",
+   "truth": "direct",
+   "pick": "rewrite",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_01",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_01",
+   "truth": "revise",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_01",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_01",
+   "truth": "select",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_02",
+   "truth": "direct",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_02",
+   "truth": "outline",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_02",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_02",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_02",
+   "truth": "select",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_03",
+   "truth": "direct",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_03",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_03",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_03",
+   "truth": "rewrite",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_03",
+   "truth": "select",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_04",
+   "truth": "direct",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_04",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_04",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_04",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_04",
+   "truth": "select",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_05",
+   "truth": "direct",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_05",
+   "truth": "outline",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_05",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_05",
+   "truth": "rewrite",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_05",
+   "truth": "select",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_06",
+   "truth": "direct",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_06",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_06",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_06",
+   "truth": "rewrite",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_06",
+   "truth": "select",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_07",
+   "truth": "direct",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_07",
+   "truth": "outline",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_07",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_07",
+   "truth": "rewrite",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_07",
+   "truth": "select",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_08",
+   "truth": "direct",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_08",
+   "truth": "outline",
+   "pick": "select",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_08",
+   "truth": "revise",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_08",
+   "truth": "rewrite",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_08",
+   "truth": "select",
+   "pick": "direct",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_direct_09",
+   "truth": "direct",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_outline_09",
+   "truth": "outline",
+   "pick": "outline",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_revise_09",
+   "truth": "revise",
+   "pick": "revise",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_rewrite_09",
+   "truth": "rewrite",
+   "pick": "rewrite",
+   "generator": "llama"
+  },
+  {
+   "case_id": "llama_select_09",
+   "truth": "select",
+   "pick": "select",
+   "generator": "llama"
+  }
+ ]
+}

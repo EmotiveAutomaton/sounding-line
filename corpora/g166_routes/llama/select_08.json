@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_08",
+ "lineage_id": "g166_llama_08",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_08",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether remote work should be a legal right Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Granting remote work as a legal right is essential for ensuring equality and fairness in the modern workplace.",
+     "Remote work should not be considered a legal right, but rather a privilege that employers have the discretion to offer or withhold.",
+     "Implementing remote work as a legal right would revolutionize the way we think about labor laws and significantly improve employee well-being and productivity."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Granting remote work as a legal right is essential for ensuring equality and fairness in the modern workplace.",
+    "Implementing remote work as a legal right would revolutionize the way we think about labor laws and significantly improve employee well-being and productivity."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Remote work should not be considered a legal right, but rather a privilege that employers have the discretion to offer or withhold.",
+    "draw_seed": 24660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Granting remote work as a legal right is essential for ensuring equality and fairness in the modern workplace."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Implementing remote work as a legal right would revolutionize the way we think about labor laws and significantly improve employee well-being and productivity."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The concept of remote work has gained significant traction in recent years, with many employees and advocates clamoring for it to be recognized as a fundamental human right. However, this notion is fundamentally flawed, and remote work should not be considered a legal right but rather a privilege that employers have the discretion to offer or withhold.\n\nProponents of universal remote work argue that it would greatly improve the quality of life for employees, allowing them to better balance their work and personal responsibilities, reduce commuting time, and increase productivity. While these benefits are undeniable, they do not necessarily translate to a fundamental right. In fact, many industries require in-person presence, such as healthcare, education, and customer service, where remote work would be impractical or even counterproductive.\n\nMoreover, employers have a legitimate interest in controlling how their employees spend their working hours. By offering flexible work arrangements, including remote options, companies can attract top talent and improve employee satisfaction, but they must also maintain some degree of control over the work environment and productivity. If remote work were mandated as a legal right, it would undermine this balance and potentially lead to a decline in overall performance.\n\nAnother concern is that enshrining remote work as a legal right would create unrealistic expectations among employees, who might assume that every job can be done remotely without considering the practical implications for their employer's operations. In reality, many companies require physical presence to function effectively, such as manufacturing facilities or construction sites. Implementing universal remote work in these sectors would be logistically and economically unviable.\n\nFurthermore, granting remote work as a legal right could create unintended consequences, such as increased costs for employers and decreased job opportunities. Some businesses might struggle to absorb the financial burden of equipping employees with necessary hardware and software, while others might choose not to hire remotely due to concerns about productivity or collaboration.\n\nIn conclusion, while remote work offers numerous benefits for both employees and employers, it should not be considered a fundamental human right but rather a privilege that can be negotiated on a case-by-case basis. Employers must have the discretion to determine whether remote work is feasible and desirable in their particular context, taking into account the needs of their business, industry, and customers. By maintaining this balance, employers can continue to offer flexible work arrangements that benefit both themselves and their employees, while avoiding the potential pitfalls of a one-size-fits-all approach.",
+ "artifact_versions": [
+  "1. Granting remote work as a legal right is essential for ensuring equality and fairness in the modern workplace.\n2. Remote work should not be considered a legal right, but rather a privilege that employers have the discretion to offer or withhold.\n3. Implementing remote work as a legal right would revolutionize the way we think about labor laws and significantly improve employee well-being and productivity."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_08",
+ "split": "discovery",
+ "construction_seed": 24660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 414
+}

@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 05:07",
+  "started": "2026-08-21 08:42",
   "stages": [
     {
       "name": "revision_purpose",
@@ -667,9 +667,22 @@
       "name": "g165_self_route",
       "why": "G165 arm self_route: route-generation ablation against the recorded direct arm; leak arms run the twins where nothing was executed",
       "est_minutes": 150,
-      "status": "RUNNING",
-      "log": "results\\g165_self_route.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g165_cand_disc",
+      "why": "G165 arm cand_disc: route-generation ablation against the recorded direct arm; leak arms run the twins where nothing was executed",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g166_gen_llama",
+      "why": "G166 route-varied corpus, held-out generator: identical briefs and routes, lineage recorded",
+      "est_minutes": 180,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-21 08:42",
+  "failed": []
 }

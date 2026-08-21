@@ -1,0 +1,70 @@
+{
+ "case_id": "llama_outline_06",
+ "lineage_id": "g166_llama_06",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_06",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether tipping should be abolished Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Introduction stating the purpose of abolishing tipping\n2. Tipping as unfair wage supplement for low-paid service industry workers\n3. Negative impact of relying on tips on job security and income stability\n4. Comparison with countries where service charge is standard practice, showing benefits\n5. Conclusion advocating for a minimum service charge to replace voluntary tipping"
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The widespread practice of tipping in the United States has been debated for years, with proponents arguing that it allows patrons to show appreciation for exceptional service and critics contending that it perpetuates unfair wage supplements for low-paid service industry workers. In this essay, I will argue that tipping should be abolished in favor of a standard minimum service charge.\n\nOne of the primary concerns surrounding tipping is its inequitable distribution among employees. Waiters, bartenders, and other servers rely heavily on tips to supplement their meager base wages, often receiving little or no additional pay from their employers. This can lead to unpredictable income, making it difficult for workers to budget and plan for their financial future. For instance, a study by the Economic Policy Institute found that in 2020, tipped employees in the US earned an average hourly wage of just $2.13, below the federal minimum wage threshold.\n\nFurthermore, tipping creates an environment where workers are beholden to their customers' whims rather than receiving fair compensation for their labor. This can be particularly problematic when dealing with difficult or rude patrons, as servers may feel pressured to provide subpar service in order to receive a larger tip. Additionally, the lack of job security and income stability is a major concern, as workers can be unfairly terminated or have their hours reduced due to fluctuations in tips.\n\nIn contrast, many countries have abolished tipping altogether, instead imposing a standard service charge on customers' bills. This approach has several benefits, including providing employees with stable, predictable incomes and eliminating the need for customers to constantly calculate and adjust their tip amounts. For example, in Australia, where tipping is not expected or accepted, restaurants and cafes simply add a 5-10% service fee to each bill. This practice allows businesses to operate more efficiently, as they no longer need to manage separate cash registers and tips jars.\n\nThe abolition of tipping has several advantages over the current system. Firstly, it would allow employees to earn fair wages and benefits, regardless of their employer or work schedule. Secondly, it would reduce the burden on customers, who are often expected to carry large amounts in change for their servers. Finally, it would promote a more equitable and efficient business environment, where workers are valued as employees rather than relying on discretionary tips.\n\nIn conclusion, I believe that tipping should be abolished in favor of a standard minimum service charge. By implementing this approach, businesses can provide their employees with stable incomes and benefits, while promoting fairness and efficiency in the service industry.",
+ "artifact_versions": [
+  "1. Introduction stating the purpose of abolishing tipping\n2. Tipping as unfair wage supplement for low-paid service industry workers\n3. Negative impact of relying on tips on job security and income stability\n4. Comparison with countries where service charge is standard practice, showing benefits\n5. Conclusion advocating for a minimum service charge to replace voluntary tipping"
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_06",
+ "split": "discovery",
+ "construction_seed": 22620,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 425
+}

@@ -1,0 +1,71 @@
+{
+ "case_id": "llama_rewrite_04",
+ "lineage_id": "g166_llama_04",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_04",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether space exploration deserves public funding Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model",
+  "g131_base": "recorded_prior_artifact"
+ },
+ "route_family": "rewrite",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "g131_base",
+   "operation": "propose",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "base_ref": "g131 llama none_0_none_04"
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The allocation of public funds has always been a contentious issue, with various sectors vying for a share of the budget. One area that consistently sparks debate is whether space exploration deserves public funding. Proponents argue that investing in space research and development drives technological innovation, fosters international collaboration, and serves as an investment in humanity's long-term prospects.\n\nThe benefits of space exploration are multifaceted and far-reaching. The development of advanced technologies and materials required for space travel has led to numerous spin-off benefits for society. For instance, NASA's memory foam invention improved mattress design, while the water purification systems created for space travel have made safe drinking water more accessible globally. These innovations demonstrate the value of investing in space research, where cutting-edge technology can be developed and later applied to improve everyday life.\n\nInternational collaboration is another significant advantage of public funding for space exploration. The International Space Station (ISS), a joint endeavor between space agencies worldwide, exemplifies this point. By working together on ISS-related projects, scientists from different countries have developed a shared understanding of global problems and are better equipped to address them. This collaborative approach promotes peaceful relations between nations and enables the sharing of knowledge and resources.\n\nMoreover, continued investment in space exploration serves as an investment in humanity's collective future. As we grapple with the challenges posed by climate change and overpopulation, it is essential to consider long-term solutions that prioritize the preservation of human life on Earth. Space exploration enables us to explore alternatives, such as establishing self-sustaining colonies beyond Earth's atmosphere.\n\nNot everyone agrees that public funding for space exploration is justified. Some argue that it diverts resources from more pressing issues on our planet, such as poverty and lack of access to basic healthcare or education. However, this perspective overlooks the long-term benefits of investing in space research and development. As resources become increasingly scarce due to population growth and environmental degradation, the need for sustainable alternatives will only intensify. By developing technologies that enable humans to survive beyond Earth's atmosphere, we lay the groundwork for a future where our survival is not solely dependent on a single planet.\n\nIn reality, investing in space exploration does not have to come at the expense of addressing pressing issues on our planet. Rather, it can be seen as a complementary effort that contributes to the development of technologies and solutions that benefit humanity as a whole. By prioritizing public funding for space research and development, we can create a more sustainable future where resources are not limited by geographical boundaries.\n\nIn conclusion, public funding for space exploration is justified due to its ability to drive technological innovation, foster international cooperation, and serve as an investment in humanity's long-term prospects. While competing demands from other sectors exist, the returns on investing in space research and development far outweigh potential costs.",
+ "artifact_versions": [
+  "The allocation of public funds is always a contentious issue, with various sectors competing for a share of the budget. In this context, the question of whether space exploration deserves public funding is highly debated among lawmakers and citizens alike.\n\nOne argument in favor of public funding for space exploration is that it drives technological innovation. The development of advanced technologies and materials required to build spacecraft and support astronauts has led to numerous spin-off benefits for society as a whole. For instance, the memory foam invented by NASA has improved mattress design, while the water purification systems created for space travel have made safe drinking water more accessible globally.\n\nMoreover, continued investment in space exploration fosters international collaboration and cooperation, promoting peaceful relations between nations. The International Space Station (ISS), a joint endeavor between space agencies worldwide, exemplifies this point. By working together on ISS-related projects, scientists from different countries have developed a shared understanding of global problems and are better equipped to address them.\n\nAnother justification for public funding is that it serves as an investment in our collective future. The risks associated with climate change and overpopulation necessitate a long-term vision that prioritizes the preservation of human life on Earth. Space exploration enables humanity to consider alternatives, such as establishing self-sustaining colonies beyond Earth's atmosphere.\n\nOn the other hand, some argue that public funding for space exploration diverts resources from more pressing issues on our planet. This perspective emphasizes that billions of people worldwide live in poverty and lack access to basic healthcare or education. In this light, it seems wasteful to spend money on expensive spacecraft when there are immediate needs closer to home.\n\nHowever, the latter view overlooks the long-term benefits of investing in space exploration. As resources become increasingly scarce due to population growth and environmental degradation, the need for sustainable alternatives will only intensify. By developing technologies that enable humans to survive beyond Earth's atmosphere, we lay the groundwork for a future where our survival is not solely dependent on a single planet.\n\nIn conclusion, public funding for space exploration is justified due to its ability to drive technological innovation, foster international cooperation, and serve as an investment in humanity's long-term prospects. Despite competing demands from other sectors, the returns on investing in space research and development outweigh potential costs."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_04",
+ "split": "discovery",
+ "construction_seed": 20640,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 486
+}

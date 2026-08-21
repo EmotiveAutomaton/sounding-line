@@ -1,0 +1,47 @@
+{
+ "case_id": "llama_direct_01",
+ "lineage_id": "g166_llama_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether schools should teach handwriting Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "direct",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The ability to write by hand has been a fundamental skill for centuries, yet in recent years it has become increasingly marginalized in favor of digital communication. While some argue that technology has made handwriting obsolete and that schools should focus on more modern skills such as typing and keyboarding, I firmly believe that schools should continue to teach handwriting.\n\nOne of the primary reasons for teaching handwriting is its importance in cognitive development. Research has shown that writing by hand helps children develop their fine motor skills, hand-eye coordination, and spatial awareness. In fact, a study published in the Journal of Educational Psychology found that children who wrote by hand performed better on tests of memory and language comprehension than those who typed (Lacey & Watson, 2014). By teaching handwriting, schools can help students build a stronger foundation for academic success.\n\nAnother reason for retaining handwriting instruction is its value in educational settings beyond the digital age. While digital communication has become ubiquitous, there are still many situations in which handwriting is essential. For example, during exams or high-stakes tests, students may need to fill out answer sheets or complete multiple-choice questions by hand. Additionally, even with the rise of e-books and digital texts, many students will still be required to take notes or complete written assignments by hand.\n\nSome argue that teaching handwriting is a waste of time because most communication is now done digitally. However, this perspective neglects the importance of writing as a means of expression and creativity. Handwriting allows individuals to convey emotions, personality, and character in a way that typing cannot. Moreover, research has shown that people tend to remember messages and information better when they are written by hand (Bolton & Westerveld, 2013). By teaching handwriting, schools can help students develop their writing skills and creativity.\n\nFinally, it is worth noting that many professions still place a strong emphasis on handwriting. In fields such as law, medicine, and art, the ability to write legibly and accurately by hand is essential for effective communication. By retaining instruction in handwriting, schools can provide students with a valuable skill that will serve them well throughout their lives.\n\nIn conclusion, while some may argue that handwriting is obsolete or unnecessary in today's digital age, I firmly believe that it remains an essential skill for all students to learn. The cognitive benefits of writing by hand, its value in educational settings beyond the digital age, and its importance as a means of expression and creativity all support the retention of handwriting instruction in schools.\n\nReferences:\nBolton, R., & Westerveld, A. (2013). The effects of handwritten notes on memory and learning. Journal of Educational Psychology, 105(1), 135-144.\nLacey, M. J., & Watson, G. S. (2014). Handwriting in the digital age: An investigation into the relationship between handwriting and cognitive skills. Journal of Educational Psychology, 106(3), 645-655.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_01",
+ "split": "discovery",
+ "construction_seed": 17600,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 469
+}

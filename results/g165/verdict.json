@@ -1,0 +1,76 @@
+{
+ "prereg": "prereg/g165.py",
+ "gates": {
+  "self_route_leak": {
+   "accuracy": 0.24,
+   "n": 50,
+   "expectations": "null=0.25 (nothing executed); alternative=UP (leak)",
+   "p_above_floor": 0.61838,
+   "void_if": "one-sided p < 0.05",
+   "void": false
+  },
+  "cand_disc_leak": {
+   "accuracy": 0.22,
+   "n": 50,
+   "expectations": "null=0.25 (nothing executed); alternative=UP (leak)",
+   "p_above_floor": 0.7378,
+   "void_if": "one-sided p < 0.05",
+   "void": false
+  },
+  "leak_voids_positives": false
+ },
+ "verdict": {
+  "self_route": {
+   "n_paired": 100,
+   "accuracy": 0.86,
+   "delta_vs_direct": 0.0,
+   "discordant": {
+    "new_only_right": 3,
+    "direct_only_right": 3
+   },
+   "mcnemar_p": 1.0,
+   "band": "NO-GAIN",
+   "interpreted": true,
+   "below_context_floor": false,
+   "echo_cells": {
+    "gen_echo_right": {
+     "n": 31,
+     "accuracy": 0.8387
+    },
+    "gen_echo_wrong": {
+     "n": 69,
+     "accuracy": 0.8696
+    }
+   },
+   "power_note": "0.80-power detectable delta ~0.10 at n=100 (card)"
+  },
+  "cand_disc": {
+   "n_paired": 100,
+   "accuracy": 0.84,
+   "delta_vs_direct": -0.02,
+   "discordant": {
+    "new_only_right": 6,
+    "direct_only_right": 8
+   },
+   "mcnemar_p": 0.79053,
+   "band": "NO-GAIN",
+   "interpreted": true,
+   "below_context_floor": false,
+   "echo_cells": {
+    "gen_echo_right": {
+     "n": 22,
+     "accuracy": 0.8636
+    },
+    "gen_echo_wrong": {
+     "n": 78,
+     "accuracy": 0.8333
+    }
+   },
+   "power_note": "0.80-power detectable delta ~0.10 at n=100 (card)"
+  }
+ },
+ "recorded_baselines": {
+  "direct": 0.86,
+  "context_only_floor": 0.32
+ }
+}

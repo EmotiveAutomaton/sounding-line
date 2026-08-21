@@ -1,0 +1,92 @@
+{
+ "case_id": "llama_revise_01",
+ "lineage_id": "g166_llama_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether schools should teach handwriting Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "revise",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "critique",
+   "target": "draft",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "weaknesses": [
+     "1. The transition between paragraphs can be smoother: some ideas feel disconnected from each other.",
+     "2. Some of the supporting evidence (e.g., \"numerous studies\") could be more specific to add credibility."
+    ]
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether schools should teach handwriting has been ongoing for several years, with proponents on both sides presenting valid arguments. On one hand, some argue that in today's digital age, with keyboards and touchscreens dominating our lives, handwriting is an unnecessary skill that can be sacrificed to make way for more modern methods of communication. In contrast, others contend that handwriting is still a vital part of education, fostering cognitive development and fine motor skills in children.\n\nA closer examination of the arguments against teaching handwriting reveals concerns about time allocation in the curriculum. Educators believe that with increasing reliance on technology, handwriting can be seen as an outdated skill that will eventually become obsolete. They argue that children spend enough time on paper-based tasks in elementary school and suggest that this foundation is sufficient to prepare them for a lifetime of keyboard-based communication. However, some might counter that the physical act of writing still has cognitive benefits that outweigh its practical limitations.\n\nResearch in educational psychology provides evidence that handwriting can indeed have a positive impact on students' cognitive development. Studies show that when children engage in handwritten activities, they develop better retention and comprehension of material, as well as improved attention and focus. Handwriting also stimulates creativity and imagination, allowing students to express themselves more freely through art projects and written assignments. Furthermore, the physical act of writing with a pen or pencil develops fine motor skills, hand-eye coordination, and dexterity \u2013 essential for overall cognitive development.\n\nMoreover, proponents of handwriting argue that it provides an essential skill for students as they transition into adulthood. In a world where many people struggle to write legibly, having proficient handwriting can give individuals a competitive edge in the job market. Handwritten notes and letters are often preferred over typed ones, conveying a sense of thoughtfulness and attention to detail.\n\nCritics may respond by pointing out that students can develop essential typing skills through online platforms and educational software. While this is true, it's worth noting that the development of handwriting complements rather than replaces digital literacy. Rather than seeing it as an either-or proposition, schools could strike a balance between teaching digital literacy and incorporating traditional writing methods.\n\nIn conclusion, while technology has undoubtedly transformed our daily lives, we cannot dismiss the value of handwriting in education. By continuing to teach handwriting, schools can foster essential cognitive development, creative expression, and fine motor skills in their students. Rather than being seen as an outdated skill, handwriting should be recognized for its unique benefits and integrated into a well-rounded curriculum that prepares students for success in both academic and professional contexts.",
+ "artifact_versions": [
+  "The debate over whether schools should teach handwriting has been ongoing for several years. Some argue that in today's digital age, with keyboards and touchscreens dominating our lives, handwriting is an unnecessary skill that can be sacrificed to make way for more modern methods of communication. Others contend that handwriting is still a vital part of education, fostering cognitive development and fine motor skills in children.\n\nOne of the primary arguments against teaching handwriting is that it takes up valuable time in the curriculum that could be better spent on digital literacy and other pressing subjects. With the increasing reliance on technology, many educators believe that handwriting can be seen as an outdated skill that will eventually become obsolete. They argue that children spend enough time on paper-based tasks in elementary school and suggest that this foundation is sufficient to prepare them for a lifetime of keyboard-based communication.\n\nHowever, there are numerous studies that demonstrate the cognitive benefits of handwriting for students. When children engage in handwritten activities, they develop better retention and comprehension of material, as well as improved attention and focus. Handwriting also stimulates creativity and imagination, allowing students to express themselves more freely through art projects and written assignments. Furthermore, research has shown that the physical act of writing with a pen or pencil develops fine motor skills, hand-eye coordination, and dexterity \u2013 essential for overall cognitive development.\n\nMoreover, proponents of handwriting argue that it provides an essential skill for students as they transition into adulthood. In a world where many people struggle to write legibly, having proficient handwriting can give individuals a competitive edge in the job market. Moreover, handwritten notes and letters are often preferred over typed ones, conveying a sense of thoughtfulness and attention to detail.\n\nCritics may respond by pointing out that students can develop essential typing skills through online platforms and educational software. While this is true, the development of handwriting should not be sacrificed solely for the sake of efficiency or modern convenience. Rather than seeing it as an either-or proposition, schools could strike a balance between teaching digital literacy and incorporating traditional writing methods.\n\nIn conclusion, while technology has undoubtedly transformed our daily lives, we cannot dismiss the value of handwriting in education. By continuing to teach handwriting, schools can foster essential cognitive development, creative expression, and fine motor skills in their students. Rather than being seen as an outdated skill, handwriting should be recognized for its unique benefits and integrated into a well-rounded curriculum that prepares students for success in both academic and professional contexts."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_01",
+ "split": "discovery",
+ "construction_seed": 17680,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 446
+}

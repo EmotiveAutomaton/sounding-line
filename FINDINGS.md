@@ -6198,6 +6198,131 @@ text feasibility at essay grain is now measured at no.
 - **Detail pointer:** `results/g162/verdict.json`, `prereg/g162.py` (sha256 at this
   commit), all partials on disk.
 
+## L151 · Explicit route generation adds exactly nothing where direct reading is strong: the first Phase 2.3 root lands NO-GAIN on both arms with every gate quiet
+
+**Hypothesis.** *(G165, Phase 2.3 Wing G root, `prereg/g165.py`, frozen before the run:
+does a reader that first GENERATES process structure — its own production route for the
+essay, or predicted evidence for each candidate instruction — recover recorded executed
+choices better than the same reader reading directly? The project's central untested
+assumption is that readers model the generating process; this is its cheapest honest
+form, run on the events where direct reading is already validated.)*
+
+**Method.** The frozen realized-choice event set (100 events, verified executed
+instructions, echo-matched decoys), with the recorded direct arm (0.86) and context-only
+floor (0.32) reused as paired baselines at temperature zero. Two new arms: self-route
+(the reader writes three production decisions it would have made, candidate-blind, then
+classifies with its own route in context) and candidate-and-discriminate (the reader
+predicts each candidate's visible evidence, essay-blind and cached, then classifies with
+the predictions beside the candidates). Both arms also ran on a seeded 50-event
+subsample of the twins where nothing was executed, as the leak gate. Paired exact
+McNemar against the recorded direct picks on identical events.
+
+| arm | accuracy | delta vs direct | McNemar p | band |
+|---|---|---|---|---|
+| direct (recorded anchor) | 0.86 | — | — | — |
+| **self-route** | **0.86** | **0.000** (3 vs 3 discordant) | 1.0 | **NO-GAIN** |
+| **candidate-and-discriminate** | **0.84** | **−0.020** (6 vs 8) | 0.79 | **NO-GAIN** |
+| self-route on twins (leak gate) | 0.24 | vs 0.25 floor | 0.62 one-sided | quiet |
+| candidate-discriminate on twins | 0.22 | vs 0.25 floor | 0.74 one-sided | quiet |
+
+*Caption: delta is the new arm's accuracy minus the recorded direct arm's on the same
+100 events; discordant counts are events where exactly one of the pair was right.
+The leak gates ask whether generated routes recover instructions that were never
+executed, which would mean construction leakage; both sit at or below chance. The
+pipeline-purity gate (prompts byte-identical under permuted hidden metadata) passed
+before any arm ran. Echo-split cells per the standing L148 rule: recovery where the
+generated text's word overlap points at the WRONG candidate is 0.87 (self-route) and
+0.83 (candidate-discriminate) — indistinguishable from the echo-right cells, so the
+generation stage adds no vocabulary shortcut either.*
+
+**Found.** Explicit generation contributes nothing on this substrate, in either
+direction: not a point of accuracy, not a leak, not an echo artifact, not a fabrication
+channel. The discordant counts are tiny and symmetric (three-and-three,
+six-and-eight), which is what "the same instrument with extra steps" looks like. The
+0.80-power detectable delta at this n is roughly ten points, so small gains inside
+that window are not excluded; a gain worth building a stage around is.
+
+**Means.** ROOT-NULL under the card's exhaustive bands, with the ceiling passed — so
+the single predeclared discriminator executes and nothing else: the same ablation on
+the delta event set where the cheap change block beats the direct reader by seven
+points (0.5471 against 0.4805, L141). That is the substrate where generation has
+something to add if it adds anything; if it is null there too, Wing G narrows to
+"direct reading is this reader's best form" and the brief's own cheap-baseline routing
+row stands. No prompt search follows a null by card.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics
+- **Question in plain language:** Does making the reader spell out how the essay could
+  have been made help it recover what was actually done?
+- **Outcome class:** Narrows
+- **Result:** No gain on either generation arm (0.86 against 0.86 direct), all gates
+  quiet.
+- **Project meaning:** Where direct reading is already strong, an explicit
+  self-simulation stage is redundant; whether it helps where direct reading is WEAK is
+  exactly the predeclared follow-up now queued.
+- **Next engineering obligation:** The discriminator on the revision-delta events (the
+  change-block gap substrate), already built and queued.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g165/verdict.json`, `prereg/g165.py`, all partials on
+  disk.
+
+## L152 · The route-varied corpus stands at full yield: five recorded production routes to surface-matched essays, both families, every gate green
+
+**Hypothesis.** *(G166, Phase 2.3 Wing B construction: can five distinct recorded
+production routes — direct composition, outline-then-realize, rewrite-of-recorded-draft,
+propose-then-seeded-select, draft-critique-revise — produce surface-matched essays on
+identical briefs, with the full route logged as schema-validated process events, so the
+equifinality root can ask whether any reader separates routes from final artifacts?)*
+
+**Method.** Ten topics × five routes × two generator families, identical briefs,
+register, and length band; every intermediate (outlines, thesis candidates, seeded
+selections with recorded rejections, critiques, base drafts) logged as ProcessEvents
+under the new schema; self-audit with four gates, each derived with null and alternative
+before generation.
+
+| gate | result | meaning |
+|---|---|---|
+| yield | **100 of 100** | full yield, both families, no manifest withheld |
+| length band | 0 violations | every essay inside 300 to 700 words |
+| route-log completeness | 0 violations | every case carries its route's required operations and validates under the schema |
+| cross-route degeneracy | 0 pairs over 0.90 overlap | no route collapsed into another; equifinality is a real question here |
+| surface report | route means 508 to 545 words | within seven percent of each other; the battery's surface baseline decides whether anything cheap separates them |
+
+*Caption: degeneracy is content-word Jaccard between essays of different routes on the
+same topic and family; a high value would mean two routes produced near-identical text
+and the reading question would be trivial. The surface report is descriptive only; the
+binding surface-matched baseline runs inside the reading battery.*
+
+**Found.** CORPUS-STANDS. The construction did what the brief requires: the same topic
+reached five ways, with the differences living in the recorded process rather than in
+gross surface properties.
+
+**Means.** The B0-near reading battery is licensed and its card freezes now (the
+G162 precedent: corpus first, card only on CORPUS-STANDS): artifact-only route
+recovery against chance and against a mechanical surface baseline, a process-aware
+ceiling gating interpretation, per-route confusion never aggregate, and the
+exact-equivalence discipline carried by the pipeline gate.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces (construction infrastructure)
+- **Question in plain language:** Do we now have essays where we know exactly which of
+  five production routes made each one, without the routes being tellable apart by
+  cheap surface features?
+- **Outcome class:** Infrastructure
+- **Result:** One hundred of one hundred artifacts at full yield with all four
+  self-gates green.
+- **Project meaning:** The equifinality question — can a reader recover HOW a text was
+  made when several ways were possible — is now askable on known answers.
+- **Next engineering obligation:** The reading battery (card frozen this pass, arms
+  queued).
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `corpora/g166_routes/routes_audit.json`, both manifests, every
+  route log on disk.
+
 ---
 
 # TIER 2 · SETTLED

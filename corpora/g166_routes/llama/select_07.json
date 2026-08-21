@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_07",
+ "lineage_id": "g166_llama_07",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_07",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether voting should be compulsory Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Compulsory voting would lead to more informed and engaged citizens in the democratic process.",
+     "Implementing compulsory voting would not increase voter turnout but rather create a culture of obedience rather than active participation.",
+     "Mandatory voting laws would help to reduce social and economic inequalities by requiring all eligible citizens, regardless of demographics or socioeconomic status, to participate in elections."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Compulsory voting would lead to more informed and engaged citizens in the democratic process.",
+    "Implementing compulsory voting would not increase voter turnout but rather create a culture of obedience rather than active participation."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Mandatory voting laws would help to reduce social and economic inequalities by requiring all eligible citizens, regardless of demographics or socioeconomic status, to participate in elections.",
+    "draw_seed": 23660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Compulsory voting would lead to more informed and engaged citizens in the democratic process."
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Implementing compulsory voting would not increase voter turnout but rather create a culture of obedience rather than active participation."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The introduction of mandatory voting laws has been a contentious issue for many years, with proponents arguing that it is essential to ensure the participation of all eligible citizens in the electoral process. One of the primary arguments in favor of compulsory voting is its potential to reduce social and economic inequalities within a given society.\n\nCritics often argue that mandatory voting would only serve to disenfranchise already marginalized groups, forcing them to participate in elections despite their lack of interest or engagement with politics. However, this argument is based on a flawed assumption that all citizens have an equal level of civic engagement and knowledge about the electoral process. In reality, many people are unaware of the issues at stake, are intimidated by the complexity of the voting system, or may simply feel disempowered due to their socioeconomic status.\n\nCompulsory voting laws would help to address these disparities in several ways. Firstly, it would ensure that all eligible citizens have a voice in shaping the country's direction and policies, regardless of their demographic background or socioeconomic status. This is particularly important for marginalized communities who are often overlooked by policymakers and have limited access to information about electoral processes.\n\nSecondly, mandatory voting would help to break down the barriers to participation faced by low-income individuals, migrants, and other vulnerable groups. These individuals may be deterred from voting due to their lack of education about the electoral system or fear of reprisal for exercising their democratic right. By requiring all citizens to participate in elections, compulsory voting laws would force policymakers to consider the interests of these groups and address their specific needs.\n\nThirdly, mandatory voting would help to reduce the disproportionate influence of wealthy individuals on the electoral process. Wealthy donors often use their financial resources to sway voters or influence election outcomes, thereby exacerbating social and economic inequalities. Compulsory voting laws would dilute this effect by increasing voter turnout among marginalized groups who are less likely to be influenced by wealth.\n\nFinally, research has shown that mandatory voting laws can lead to more representative government, as all citizens are required to participate in the electoral process regardless of their demographic characteristics or socioeconomic status. This is because policymakers must take into account a broader range of perspectives and interests when making policy decisions.\n\nIn conclusion, mandatory voting laws would help to reduce social and economic inequalities by requiring all eligible citizens, regardless of demographics or socioeconomic status, to participate in elections. By doing so, it would ensure that all voices are heard, address the barriers faced by marginalized groups, and dilute the influence of wealthy donors on electoral outcomes. Ultimately, compulsory voting is an essential step towards creating a more representative democracy where every citizen has an equal say in shaping their country's future.",
+ "artifact_versions": [
+  "Here are three possible thesis statements:\n\n1. Compulsory voting would lead to more informed and engaged citizens in the democratic process.\n2. Implementing compulsory voting would not increase voter turnout but rather create a culture of obedience rather than active participation.\n3. Mandatory voting laws would help to reduce social and economic inequalities by requiring all eligible citizens, regardless of demographics or socioeconomic status, to participate in elections."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_07",
+ "split": "discovery",
+ "construction_seed": 23660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 467
+}

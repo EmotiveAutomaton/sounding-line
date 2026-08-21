@@ -1,0 +1,92 @@
+{
+ "case_id": "llama_revise_09",
+ "lineage_id": "g166_llama_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "revise",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "critique",
+   "target": "draft",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "weaknesses": [
+     "1. The essay could benefit from more nuanced discussion of alternative conservation methods, such as sanctuaries and wildlife reserves.",
+     "2. The author could provide more concrete examples and evidence to support the claim that most zoos are focused on entertainment rather than education."
+    ]
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The existence of zoos has been a contentious issue for many years, with some arguing that they serve as vital institutions for conservation and education, while others claim that they are inhumane and perpetuate animal exploitation. As I see it, the latter perspective is more accurate: zoos are inherently problematic from an animal welfare perspective and do not justify their existence.\n\nAnimals in captivity often live in cramped enclosures with limited space to roam, exercise, or engage in natural behaviors. This can lead to stress, boredom, and even mental illness in some species. For example, research has shown that elephants in captivity suffer from increased levels of stress hormones, such as cortisol, which can have long-term effects on their physical and mental health. The conditions found in many zoos are far removed from the animals' natural habitats, raising questions about their quality of life.\n\nMoreover, keeping wild animals in captivity perpetuates a notion that humans have dominion over nature, reinforcing a hierarchical relationship between humans and animals. This perspective neglects the inherent value and rights of non-human species to exist without human interference or control. By subjecting them to confinement and display, we reinforce a status quo that is inherently exploitative.\n\nMore effective conservation efforts can be achieved through alternative institutions such as sanctuaries and wildlife reserves. These organizations provide animals with more spacious habitats, allowing for greater freedom to roam and engage in natural behaviors. They also offer valuable opportunities for research, conservation, and education while prioritizing animal welfare above entertainment. For instance, the Elephant Sanctuary in Tennessee provides a 2,700-acre natural habitat where elephants can roam freely, engage in social behavior, and live without human interference.\n\nWhile proponents of zoos argue that these institutions play an essential role in educating the public about wildlife and promoting awareness of conservation issues, this argument is weakened by the fact that many zoos focus more on entertainment than genuine educational efforts. Many zoos engage in gimmicks such as animal shows, feeding demonstrations, or walk-through exhibits that prioritize spectacle over substance. For example, the Cincinnati Zoo has been criticized for its \"Cheetah Run\" exhibit, which allows visitors to watch cheetahs run around a small track while being fed by trainers.\n\nFurthermore, the role that zoos play in promoting scientific research has been overstated. While some reputable institutions may conduct valuable research, many zoos lack the resources and expertise to support meaningful studies. In fact, some zoos have even been linked to animal abuse and mistreatment of their inhabitants. A study published in the Journal of Applied Animal Welfare Science found that nearly half of the zoos surveyed had instances of animal abuse or neglect.\n\nIn conclusion, I firmly believe that zoos do not serve a justifiable purpose in modern society. Their inherent problems regarding animal welfare, combined with inadequate conservation efforts and limited educational value, render them obsolete institutions. Instead of perpetuating the notion that humans can control and contain wild animals for our own entertainment or scientific interests, we should prioritize their preservation in natural habitats where they belong. By doing so, we will not only improve animal welfare but also promote a more nuanced understanding of the complex relationships between humans and animals.",
+ "artifact_versions": [
+  "The existence of zoos has been a topic of debate for many years, with some arguing that they serve as vital institutions for conservation and education, while others claim that they are inhumane and perpetuate animal exploitation. While proponents of zoos argue that they provide a safe haven for endangered species and offer unique educational opportunities for the public, I firmly believe that zoos should not exist.\n\nFirst and foremost, zoos are inherently problematic from an animal welfare perspective. Animals in captivity often live in cramped enclosures with limited space to roam, exercise, or engage in natural behaviors. This can lead to stress, boredom, and even mental illness in some species. The conditions found in many zoos are far removed from the animals' natural habitats, which raises questions about their quality of life.\n\nFurthermore, keeping wild animals in captivity perpetuates a notion that humans have dominion over nature, reinforcing a hierarchical relationship between humans and animals. This perspective neglects the inherent value and rights of non-human species to exist without human interference or control. By subjecting them to confinement and display, we reinforce a status quo that is inherently exploitative.\n\nConservation efforts can be achieved through more effective means than zoos. For example, sanctuaries and wildlife reserves offer animals more spacious habitats with greater freedom to roam and engage in natural behaviors. These institutions also provide valuable opportunities for research, conservation, and education while prioritizing animal welfare above entertainment.\n\nProponents of zoos often cite the role that these institutions play in educating the public about wildlife and promoting awareness of conservation issues. However, this argument is weakened by the fact that most zoos are more focused on entertaining visitors than on genuine educational efforts. Many zoos engage in gimmicks such as animal shows, feeding demonstrations, or walk-through exhibits that prioritize spectacle over substance.\n\nMoreover, the role that zoos play in promoting scientific research has been overstated. While some reputable institutions may conduct valuable research, many zoos lack the resources and expertise to support meaningful studies. In fact, some zoos have even been linked to animal abuse and mistreatment of their inhabitants.\n\nIn conclusion, I firmly believe that zoos do not serve a justifiable purpose in modern society. Their inherent problems regarding animal welfare, combined with inadequate conservation efforts and limited educational value, render them obsolete institutions. Instead of perpetuating the notion that humans can control and contain wild animals for our own entertainment or scientific interests, we should prioritize their preservation in natural habitats where they belong."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_09",
+ "split": "discovery",
+ "construction_seed": 25680,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 536
+}

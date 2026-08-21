@@ -1,0 +1,71 @@
+{
+ "case_id": "llama_rewrite_09",
+ "lineage_id": "g166_llama_09",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_09",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether zoos should exist Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model",
+  "g131_base": "recorded_prior_artifact"
+ },
+ "route_family": "rewrite",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "g131_base",
+   "operation": "propose",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "base_ref": "g131 llama none_0_none_09"
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate surrounding the existence of zoos has been ongoing for years, with proponents arguing that they provide essential conservation and educational benefits while opponents claim that they perpetuate animal suffering and exploitation. I firmly believe that the latter outweighs any supposed advantages, and therefore contend that zoos should not exist.\n\nAt its core, the primary justification for keeping animals in captivity is to promote their survival and well-being. However, numerous studies have revealed a disturbing reality: many zoos fail to meet even the most basic needs of their inhabitants. Inadequate enclosures are a common problem, leading to stress, illness, and premature death among the animals. Furthermore, even when enclosures are spacious, they often lack natural habitats and social structures necessary for animal development, resulting in irreparable damage to their mental and physical health.\n\nWhile zoos claim to serve as educational institutions, teaching visitors about conservation and wildlife preservation, this argument is undermined by the fact that most zoo visitors do not exhibit lasting concern for animal welfare. In fact, research suggests that attending a zoo can often desensitize people to animal suffering, leading them to become more accepting of practices like hunting and exploitation. This disconnect between public attitudes towards animals and conservation policies is particularly concerning.\n\nMoreover, zoos perpetuate the notion that humans have dominion over nature and can control or manipulate it at will. This perspective not only underlies many ecological disasters but also reinforces speciesism \u2013 the belief in human superiority over non-human animals. Rather than promoting a culture of coexistence and mutual respect, zoos reinforce a hierarchy where humans are entitled to exploit and dominate the natural world.\n\nThe existence of zoos presents an uncomfortable truth: our relationship with nature is founded on exploitation rather than mutual respect. It's time for us to rethink our priorities and confront the consequences of keeping animals captive for human amusement. In light of this, I firmly believe that we should focus on real-world conservation efforts \u2013 protecting habitats, enforcing animal welfare laws, and promoting coexistence between humans and wildlife.\n\nBy redirecting our attention towards genuine conservation initiatives, we can create a more compassionate society where animals are respected and valued as individuals with inherent rights to freedom, dignity, and happiness. Rather than supporting institutions like zoos that perpetuate suffering and exploitation, we should strive for a world where humans live in harmony with nature, not dominance over it.\n\nThe benefits of keeping animals in captivity for entertainment or educational purposes do not outweigh the costs. It's time for us to abandon our outdated notion of human superiority and instead work towards a future where animals are treated with the respect and dignity they deserve.",
+ "artifact_versions": [
+  "The existence of zoos has long been a topic of debate, with some arguing that they provide essential conservation and educational benefits while others claim that they perpetuate animal suffering and exploitation. As I firmly believe that the latter outweighs any supposed advantages, I contend that zoos should not exist.\n\nFirstly, the primary justification for keeping animals in captivity is to promote their survival and well-being. However, numerous studies have shown that zoos frequently fail to meet even the most basic needs of their inhabitants. For instance, many zoos are plagued by inadequate enclosures, leading to stress, illness, and premature death among the animals. Even when enclosures are spacious, they often lack natural habitats and social structures necessary for animal development. Moreover, keeping wild animals captive for extended periods can irreparably disrupt their mental and physical health.\n\nFurthermore, zoos claim to serve as educational institutions, teaching visitors about conservation and wildlife preservation. However, this argument rings hollow when considering the stark reality that most zoo visitors do not engage in responsible behavior or exhibit lasting concern for animal welfare. In fact, research suggests that attending a zoo can often desensitize people to animal suffering, leading them to become more accepting of practices like hunting and exploitation. This is particularly concerning given the significant disconnect between the general public's attitudes towards animals and conservation policies.\n\nAdditionally, zoos often perpetuate the notion that humans have dominion over nature and that we can control or manipulate it at will. This perspective not only underlies many ecological disasters but also reinforces speciesism \u2013 the belief in human superiority over non-human animals. Rather than promoting a culture of coexistence and mutual respect, zoos reinforce a hierarchy where humans are entitled to exploit and dominate the natural world.\n\nIn light of these concerns, I firmly believe that the benefits of keeping animals in captivity for entertainment or educational purposes do not outweigh the costs. Instead of supporting institutions like zoos, we should focus on real-world conservation efforts \u2013 protecting habitats, enforcing animal welfare laws, and promoting coexistence between humans and wildlife. By doing so, we can create a more compassionate society where animals are respected and valued as individuals with inherent rights to freedom, dignity, and happiness.\n\nUltimately, the existence of zoos presents an uncomfortable truth: our relationship with nature is founded on exploitation rather than mutual respect. It's time for us to rethink our priorities and confront the consequences of keeping animals captive for human amusement."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_09",
+ "split": "discovery",
+ "construction_seed": 25640,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 447
+}

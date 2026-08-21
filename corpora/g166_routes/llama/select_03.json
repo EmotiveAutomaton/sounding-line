@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_03",
+ "lineage_id": "g166_llama_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether social media accounts should require age verification Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Requiring age verification for social media accounts is crucial for protecting minors from online exploitation and ensuring a safe digital environment.",
+     "Implementing age verification measures on social media platforms would ultimately infringe upon users' right to anonymity and freedom of expression, and should not be mandated by law.",
+     "Age verification requirements on social media accounts are necessary to prevent the proliferation of cyberbullying, harassment, and online predators targeting vulnerable minors."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Requiring age verification for social media accounts is crucial for protecting minors from online exploitation and ensuring a safe digital environment.",
+    "Age verification requirements on social media accounts are necessary to prevent the proliferation of cyberbullying, harassment, and online predators targeting vulnerable minors."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Implementing age verification measures on social media platforms would ultimately infringe upon users' right to anonymity and freedom of expression, and should not be mandated by law.",
+    "draw_seed": 19660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Requiring age verification for social media accounts is crucial for protecting minors from online exploitation and ensuring a safe digital environment."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Age verification requirements on social media accounts are necessary to prevent the proliferation of cyberbullying, harassment, and online predators targeting vulnerable minors."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The notion that social media accounts should require age verification has gained traction in recent years, with proponents arguing that it is necessary to protect minors from online harm and ensure a safer digital environment. However, implementing such measures would have far-reaching consequences that compromise two fundamental rights: the right to anonymity and the freedom of expression.\n\nProponents of age verification argue that children are vulnerable to online predation, cyberbullying, and exposure to mature content on social media platforms. While it is true that these issues exist, implementing age verification measures would not necessarily address them effectively. In fact, it could have unintended consequences. For instance, requiring users to provide identification or proof of age would create a paper trail, potentially infringing upon users' right to anonymity. This is particularly concerning for activists, whistleblowers, and individuals who engage in sensitive online activities, such as investigative journalism or advocacy work.\n\nFurthermore, age verification measures could also restrict users' freedom of expression. Social media platforms have become essential tools for communication, self-expression, and mobilization. However, the very act of verifying a user's age would subject their online activity to scrutiny and potentially censor them based on their age. This raises concerns about the overreach of government regulation and the chilling effect it could have on free speech.\n\nAnother argument in favor of age verification is that it would prevent minors from accessing mature content. However, this approach assumes that minors are incapable of making informed decisions about online engagement. In reality, many children are tech-savvy and aware of online risks. Moreover, requiring age verification would create a false sense of security. Mature content can still be accessed through various means, including encrypted messaging apps or dark web platforms.\n\nMoreover, implementing age verification measures would also create logistical challenges for social media companies. They would need to establish robust identity verification systems, which could compromise users' data and create new security risks. Moreover, enforcing these regulations would require significant resources and might lead to inconsistent application of laws across different jurisdictions.\n\nIn conclusion, while the intention behind requiring age verification on social media platforms is well-intentioned, it raises concerns about users' right to anonymity and freedom of expression. These rights are fundamental to online engagement and should not be compromised by regulatory overreach. Instead of age verification, social media companies can implement alternative measures, such as education campaigns, content moderation policies, and collaboration with experts to develop safer digital environments.\n\nUltimately, the responsibility for managing online risks lies with parents, educators, and individuals themselves, rather than governments or regulatory bodies. Mandating age verification on social media platforms would be a disproportionate response that could have far-reaching consequences for users' rights and freedoms. It is essential to strike a balance between safeguarding against online harm and preserving the integrity of digital communication.",
+ "artifact_versions": [
+  "Here are three distinct thesis statements:\n\n1. Requiring age verification for social media accounts is crucial for protecting minors from online exploitation and ensuring a safe digital environment.\n2. Implementing age verification measures on social media platforms would ultimately infringe upon users' right to anonymity and freedom of expression, and should not be mandated by law.\n3. Age verification requirements on social media accounts are necessary to prevent the proliferation of cyberbullying, harassment, and online predators targeting vulnerable minors."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_03",
+ "split": "discovery",
+ "construction_seed": 19660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 473
+}

@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_04",
+ "lineage_id": "g166_llama_04",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_04",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether space exploration deserves public funding Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Despite its vast economic and scientific benefits, space exploration does not deserve public funding due to its high costs and limited tangible returns.",
+     "Space exploration should continue to receive public funding because it has the potential to unlock groundbreaking discoveries that will significantly improve life on Earth.",
+     "Public funding for space exploration is a sound investment in humanity's future, as it drives innovation, inspires new generations, and enables humanity to better understand its place in the universe."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Space exploration should continue to receive public funding because it has the potential to unlock groundbreaking discoveries that will significantly improve life on Earth.",
+    "Public funding for space exploration is a sound investment in humanity's future, as it drives innovation, inspires new generations, and enables humanity to better understand its place in the universe."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Despite its vast economic and scientific benefits, space exploration does not deserve public funding due to its high costs and limited tangible returns.",
+    "draw_seed": 20660
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Space exploration should continue to receive public funding because it has the potential to unlock groundbreaking discoveries that will significantly improve life on Earth."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Public funding for space exploration is a sound investment in humanity's future, as it drives innovation, inspires new generations, and enables humanity to better understand its place in the universe."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The question of whether space exploration deserves public funding is a contentious issue that has sparked debate among experts and the general public alike. While proponents argue that space exploration yields vast economic and scientific benefits, I firmly believe that it does not warrant public funding due to its prohibitively high costs and limited tangible returns.\n\nOne of the primary arguments in favor of public funding for space exploration is that it drives technological innovation and can lead to spin-off benefits for society as a whole. For instance, GPS technology was developed as a byproduct of the US Department of Defense's satellite navigation program, while touchscreen technology was initially created for use in NASA's Apollo missions. However, these benefits, although significant, are relatively rare and often occur decades after initial investment. Furthermore, the development of such technologies would likely continue even without public funding, driven by private sector innovation and competition.\n\nMoreover, the costs associated with space exploration are staggering. The estimated cost of a manned mission to Mars is around $500 billion, while NASA's 2020 budget was approximately $22.6 billion. These figures suggest that significant portions of public funds would be dedicated to space exploration alone, potentially diverting resources away from more pressing domestic needs such as infrastructure development and healthcare.\n\nIt is also worth noting that private companies have already begun to play a substantial role in space exploration, driven by their own financial interests. Companies like SpaceX and Blue Origin are pioneering reusable rockets, satellite launch services, and lunar missions, often with impressive results. This trend suggests that the market for space-related technologies and services can sustain itself without significant public funding.\n\nAdditionally, while proponents of public funding argue that space exploration expands our understanding of the universe and advances scientific knowledge, these objectives could be accomplished through more targeted and cost-effective means. For instance, robotic missions to Mars or the moons of Jupiter can provide valuable insights into planetary formation and the conditions for life elsewhere in the universe without the need for human presence.\n\nIn conclusion, despite its potential benefits, space exploration does not deserve public funding due to its high costs and limited tangible returns. The argument that it drives technological innovation is overstated, as private sector companies are increasingly assuming this role. Furthermore, more pressing domestic needs should take precedence over investing in a field that has yet to yield significant economic or social dividends. Instead, the government should focus on providing support for private space companies through targeted tax breaks and regulatory incentives, allowing them to drive innovation while minimizing financial burdens on taxpayers.",
+ "artifact_versions": [
+  "Here are three potential thesis statements:\n\n1. Despite its vast economic and scientific benefits, space exploration does not deserve public funding due to its high costs and limited tangible returns.\n2. Space exploration should continue to receive public funding because it has the potential to unlock groundbreaking discoveries that will significantly improve life on Earth.\n3. Public funding for space exploration is a sound investment in humanity's future, as it drives innovation, inspires new generations, and enables humanity to better understand its place in the universe."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_04",
+ "split": "discovery",
+ "construction_seed": 20660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 432
+}

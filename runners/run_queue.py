@@ -1579,6 +1579,63 @@ STAGES += [
             "degeneracy; the B0 reading battery preregisters only on CORPUS-STANDS"},
 ]
 
+# ── PHASE 2.3 SECOND WAVE 2026-08-21 mid-morning (appended at list end). G165-D = the
+# root-null's single predeclared discriminator on the G129b delta substrate
+# (prereg/g165d.py); G166-R = the equifinality reading battery on the standing route
+# corpus (prereg/g166.py, frozen on CORPUS-STANDS). Both gates ran and passed at build.
+STAGES += [
+    {"name": "g165d_gate", "est": 2,
+     "cmd": [PY, "runners/run_g165d_ablation.py", "--gate"],
+     "produces": "results/g165d/gate.json", "needs": ["results/g129b/manifest.json"],
+     "why": "G165-D pipeline purity + anchor (recorded 0.4805/616); arms gate on it"},
+]
+for _arm, _est in (("sr_delta", 300), ("cd_delta", 180), ("sr_unchanged", 60)):
+    STAGES += [
+        {"name": f"g165d_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g165d_ablation.py", "--arm", _arm],
+         "produces": f"results/g165d/{_arm}.json",
+         "needs": ["results/g165d/gate.json"],
+         "why": f"G165-D arm {_arm}: the ablation where direct reading is weak; "
+                "sr_unchanged is the generation-stage fabrication gate"},
+    ]
+STAGES += [
+    {"name": "g165d_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g165d_ablation.py", "--verdict"],
+     "produces": "results/g165d/verdict.json",
+     "needs": ["results/g165d/sr_delta.json", "results/g165d/cd_delta.json",
+               "results/g165d/sr_unchanged.json"],
+     "why": "G165-D verdict: fabrication gate first, paired McNemar, gap-closure vs "
+            "the change block reported never banded"},
+    {"name": "g166r_gate", "est": 2,
+     "cmd": [PY, "runners/run_g166_reading.py", "--gate"],
+     "produces": "results/g166/gate.json",
+     "needs": ["corpora/g166_routes/routes_audit.json"],
+     "why": "G166-R exact-equivalence purity; arms gate on it"},
+    {"name": "g166r_surface", "est": 3,
+     "cmd": [PY, "runners/run_g166_reading.py", "--surface"],
+     "produces": "results/g166/surface.json",
+     "needs": ["corpora/g166_routes/routes_audit.json"],
+     "why": "G166-R mechanical surface baseline (S), leave-one-topic-out"},
+]
+for _arm, _est in (("process", 90), ("classify", 60), ("blind", 30)):
+    STAGES += [
+        {"name": f"g166r_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g166_reading.py", "--arm", _arm],
+         "produces": f"results/g166/{_arm}.json",
+         "needs": ["results/g166/gate.json"],
+         "why": f"G166-R arm {_arm}: the process-aware ceiling gates interpretation "
+                "(validation-first analog); artifact-only is the primary"},
+    ]
+STAGES += [
+    {"name": "g166r_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g166_reading.py", "--verdict"],
+     "produces": "results/g166/verdict.json",
+     "needs": ["results/g166/process.json", "results/g166/classify.json",
+               "results/g166/blind.json", "results/g166/surface.json"],
+     "why": "G166-R verdict: P ceiling first, per-route confusion, the C-vs-S "
+            "contest, exhaustive bands"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1599,7 +1656,9 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g129b_source", "g129b_unchanged", "g129b_recovery_matched",
                     "g129b_blind_matched",
                     "g165_self_route", "g165_cand_disc", "g165_self_route_leak",
-                    "g165_cand_disc_leak", "g166_gen_qwen", "g166_gen_llama"}
+                    "g165_cand_disc_leak", "g166_gen_qwen", "g166_gen_llama",
+                    "g165d_sr_delta", "g165d_cd_delta", "g165d_sr_unchanged",
+                    "g166r_process", "g166r_classify", "g166r_blind"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

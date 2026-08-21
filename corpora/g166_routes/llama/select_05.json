@@ -1,0 +1,141 @@
+{
+ "case_id": "llama_select_05",
+ "lineage_id": "g166_llama_05",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_05",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether museums should return colonial-era artifacts Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "llama": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Museums have a moral obligation to return colonial-era artifacts to their countries of origin as a symbol of reconciliation and restorative justice.",
+     "The removal of colonial-era artifacts from museums is often more problematic than beneficial, as it can erase cultural heritage and historical context without adequately addressing the power dynamics that led to their acquisition in the first place.",
+     "Museums should prioritize repatriation efforts for colonial-era artifacts but only after ensuring that local institutions have the resources and expertise to properly preserve and display these items, promoting a more inclusive and culturally sensitive approach to cultural exchange."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Museums have a moral obligation to return colonial-era artifacts to their countries of origin as a symbol of reconciliation and restorative justice.",
+    "Museums should prioritize repatriation efforts for colonial-era artifacts but only after ensuring that local institutions have the resources and expertise to properly preserve and display these items, promoting a more inclusive and culturally sensitive approach to cultural exchange."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "The removal of colonial-era artifacts from museums is often more problematic than beneficial, as it can erase cultural heritage and historical context without adequately addressing the power dynamics that led to their acquisition in the first place.",
+    "draw_seed": 21660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Museums have a moral obligation to return colonial-era artifacts to their countries of origin as a symbol of reconciliation and restorative justice."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Museums should prioritize repatriation efforts for colonial-era artifacts but only after ensuring that local institutions have the resources and expertise to properly preserve and display these items, promoting a more inclusive and culturally sensitive approach to cultural exchange."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether museums should return colonial-era artifacts has gained momentum in recent years, with some arguing that these relics of a bygone era have no place in modern institutions. However, this argument is overly simplistic and neglects the complex cultural and historical context surrounding these artifacts. In reality, removing colonial-era artifacts from museums can be more problematic than beneficial, erasing cultural heritage and historical context without adequately addressing the power dynamics that led to their acquisition.\n\nOne of the primary concerns with returning artifacts is the loss of cultural heritage. Museums serve as custodians of our collective past, providing a tangible connection to the cultures and societies that created these works of art or historical significance. Removing artifacts can sever this link, rendering them inaccessible for future generations. For example, the National Museum in London's collection includes artifacts from ancient Egypt, such as the Rosetta Stone, which is an invaluable resource for scholars and historians studying the history of the region. Returning these artifacts would not only deprive the British public but also the global community of a critical piece of cultural heritage.\n\nFurthermore, returning artifacts can erase historical context. The provenance of colonial-era artifacts is often complex, with many having been acquired through dubious means or as spoils of war. Removing them without acknowledging the circumstances under which they were obtained risks whitewashing the problematic history surrounding their acquisition. For instance, the Benin Bronzes, a collection of bronze plaques and figurines seized by British colonial forces in 1897, have been returned to Nigeria recently. However, the museum's decision to return the artifacts without acknowledging the violence and coercion that accompanied their seizure oversimplifies the historical context.\n\nAnother issue with returning artifacts is that it does not address the power dynamics that led to their acquisition in the first place. Museums are often the product of colonialism, serving as a repository for the spoils of imperial conquest. By removing artifacts without addressing these underlying power dynamics, museums risk perpetuating the erasure and marginalization of colonized cultures. Instead of returning artifacts, museums should focus on providing context and promoting nuanced understanding of the complex histories surrounding their collection.\n\nSome argue that museums should prioritize repatriation as a way to right historical wrongs. However, this approach oversimplifies the complexities involved in these transactions. The return of artifacts is often driven by symbolic gestures rather than a genuine commitment to addressing the power dynamics at play. Moreover, it can create a false narrative that museums are somehow doing penance for their colonial pasts.\n\nIn conclusion, while the removal of colonial-era artifacts from museums may seem like an obvious solution, it can erase cultural heritage and historical context without adequately addressing the power dynamics that led to their acquisition in the first place. Rather than returning artifacts, museums should prioritize providing nuanced understanding of the complex histories surrounding their collection, engaging with the problematic legacies of colonialism, and ensuring that these relics are contextualized within a broader narrative of cultural exchange and conflict.",
+ "artifact_versions": [
+  "1. Museums have a moral obligation to return colonial-era artifacts to their countries of origin as a symbol of reconciliation and restorative justice.\n2. The removal of colonial-era artifacts from museums is often more problematic than beneficial, as it can erase cultural heritage and historical context without adequately addressing the power dynamics that led to their acquisition in the first place.\n3. Museums should prioritize repatriation efforts for colonial-era artifacts but only after ensuring that local institutions have the resources and expertise to properly preserve and display these items, promoting a more inclusive and culturally sensitive approach to cultural exchange."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "llama_05",
+ "split": "discovery",
+ "construction_seed": 21660,
+ "context_fields": {},
+ "generator": "llama",
+ "word_count": 504
+}
