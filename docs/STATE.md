@@ -183,6 +183,17 @@ battery. 2.0F stacking now sits behind the Phase 2.1 gates AND 2.2G's eligibilit
 The adjudication set is unfrozen, superseded as ontology, retained as history. The
 curator-first theory loop (brief §13) is folded into `CLAUDE.md`.**
 
+**Phase 2.2 second wave (2026-08-20 evening, L149/L150): the anomaly-text corpus stood
+its self-gate (correction markers 0.75 where instructed, 0.00 where forbidden, clean
+uncontaminated) and the reading battery returned the harshest preregistered branch,
+cleanly: validation-first PASSES at 0.95 with 0.054 false-yes, and the reader is BLIND
+on concealed-vs-unnoticed (0.417 vs 0.5) on BOTH interfaces — an honest instrument
+finding no signal at essay grain. Error handling is real in construction (L147) and
+unmeasurable in short text at current resolution; redesigns owed are span-level asking,
+longer artifacts, audited hedging density. Secondary: deliberate constructions read as
+nothing; rewritten clean text pulls 0.30 over-attribution (L146's effect replicated).
+First gear from 16:59 on his call; the machine is his.**
+
 **Phase 2.2 first wave (2026-08-20 morning): the anomaly-handling ruler PASSES all six
 gates in the constructed world and replicates on fresh seeds (L147) — 2.2C met, 2.2D
 licensed, with the six build iterations recorded as design knowledge. The echo

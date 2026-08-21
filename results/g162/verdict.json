@@ -1,0 +1,209 @@
+{
+ "prereg": "prereg/g162.py",
+ "gates": {
+  "V_validation_first": {
+   "accuracy": 0.95,
+   "false_yes_rate": 0.0538,
+   "n": 360,
+   "n_negative": 260,
+   "pass": true,
+   "rule": "semantic arms below are UNINTERPRETED if this fails"
+  },
+  "mechanical_oracle_disagreements": 6,
+  "clean_fabrication": {
+   "rate": 0.3,
+   "band_CLEAN_if": "<= 0.15",
+   "l146_risk_note": "0.40 over-attribution on rewritten twins is the recorded risk"
+  }
+ },
+ "verdict": {
+  "pair_separation": {
+   "n_pair_events": 40,
+   "n_committed_to_pair": 24,
+   "accuracy_on_committed": 0.4167,
+   "band": "BLIND",
+   "interpreted": true,
+   "power_note": "detects ~0.17 off 0.5 at this n (card)"
+  }
+ },
+ "classify": {
+  "n": 120,
+  "overall_accuracy": 0.4333,
+  "confusion": {
+   "corrected": {
+    "corrected": 0.9,
+    "concealed": 0.05,
+    "unnoticed": 0.05,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.0,
+    "cannot_tell": 0.0
+   },
+   "concealed": {
+    "corrected": 0.0,
+    "concealed": 0.25,
+    "unnoticed": 0.3,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.4,
+    "cannot_tell": 0.05
+   },
+   "unnoticed": {
+    "corrected": 0.0,
+    "concealed": 0.4,
+    "unnoticed": 0.25,
+    "repeated": 0.1,
+    "deliberate": 0.0,
+    "clean": 0.25,
+    "cannot_tell": 0.0
+   },
+   "repeated": {
+    "corrected": 0.0,
+    "concealed": 0.1,
+    "unnoticed": 0.4,
+    "repeated": 0.45,
+    "deliberate": 0.0,
+    "clean": 0.05,
+    "cannot_tell": 0.0
+   },
+   "deliberate": {
+    "corrected": 0.05,
+    "concealed": 0.05,
+    "unnoticed": 0.25,
+    "repeated": 0.0,
+    "deliberate": 0.05,
+    "clean": 0.6,
+    "cannot_tell": 0.0
+   },
+   "clean": {
+    "corrected": 0.05,
+    "concealed": 0.2,
+    "unnoticed": 0.05,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.7,
+    "cannot_tell": 0.0
+   }
+  }
+ },
+ "classify_delta": {
+  "n": 120,
+  "overall_accuracy": 0.55,
+  "confusion": {
+   "corrected": {
+    "corrected": 0.9,
+    "concealed": 0.0,
+    "unnoticed": 0.1,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.0,
+    "cannot_tell": 0.0
+   },
+   "concealed": {
+    "corrected": 0.05,
+    "concealed": 0.35,
+    "unnoticed": 0.5,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.1,
+    "cannot_tell": 0.0
+   },
+   "unnoticed": {
+    "corrected": 0.05,
+    "concealed": 0.25,
+    "unnoticed": 0.65,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.05,
+    "cannot_tell": 0.0
+   },
+   "repeated": {
+    "corrected": 0.0,
+    "concealed": 0.05,
+    "unnoticed": 0.75,
+    "repeated": 0.15,
+    "deliberate": 0.0,
+    "clean": 0.05,
+    "cannot_tell": 0.0
+   },
+   "deliberate": {
+    "corrected": 0.05,
+    "concealed": 0.05,
+    "unnoticed": 0.2,
+    "repeated": 0.0,
+    "deliberate": 0.5,
+    "clean": 0.2,
+    "cannot_tell": 0.0
+   },
+   "clean": {
+    "corrected": 0.05,
+    "concealed": 0.2,
+    "unnoticed": 0.0,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.75,
+    "cannot_tell": 0.0
+   }
+  }
+ },
+ "blind": {
+  "n": 120,
+  "overall_accuracy": 0.0083,
+  "confusion": {
+   "corrected": {
+    "corrected": 0.0,
+    "concealed": 0.0,
+    "unnoticed": 0.0,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.0,
+    "cannot_tell": 1.0
+   },
+   "concealed": {
+    "corrected": 0.0,
+    "concealed": 0.0,
+    "unnoticed": 0.0,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.0,
+    "cannot_tell": 1.0
+   },
+   "unnoticed": {
+    "corrected": 0.0,
+    "concealed": 0.0,
+    "unnoticed": 0.0,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.0,
+    "cannot_tell": 1.0
+   },
+   "repeated": {
+    "corrected": 0.0,
+    "concealed": 0.0,
+    "unnoticed": 0.0,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.0,
+    "cannot_tell": 1.0
+   },
+   "deliberate": {
+    "corrected": 0.0,
+    "concealed": 0.0,
+    "unnoticed": 0.0,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.05,
+    "cannot_tell": 0.95
+   },
+   "clean": {
+    "corrected": 0.0,
+    "concealed": 0.0,
+    "unnoticed": 0.0,
+    "repeated": 0.0,
+    "deliberate": 0.0,
+    "clean": 0.05,
+    "cannot_tell": 0.95
+   }
+  }
+ }
+}

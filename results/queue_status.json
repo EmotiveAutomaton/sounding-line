@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-17 20:36",
+  "started": "2026-08-20 17:00",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -1453,22 +1453,60 @@
       "name": "g129_verdict",
       "why": "G129: the preregistered bands, McNemar reader-vs-block, VOID gates, and fabrication rates, computed once, every statistic on disk",
       "est_minutes": 5,
-      "status": "DEFERRED",
-      "missing": [
-        "results/g129/recovery.json",
-        "results/g129/blind.json",
-        "results/g129/shuffle.json",
-        "results/g129/brief.json",
-        "results/g129/source.json",
-        "results/g129/unchanged.json",
-        "results/g129/recovery_matched.json",
-        "results/g129/blind_matched.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "g149_switch_sampler",
       "why": "G149 ruler gate: planted goal switches in the validated BST engine; the shift sampler must detect and localize them with false alarms priced at 5% before any motivation-shift claim touches text. CPU, runs beside trainings",
       "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g158_recovery_summarize",
+      "why": "G158 stage (c) scoring pass: echo bar and oracle wiring check on identical candidate sets, truth-balanced reads, per-cell tables, one summary file",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129b_change_block",
+      "why": "G129b declared baseline: the 19-dim change block, author-grouped CV, on the fresh-seed populations (CPU)",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g129b_verdict",
+      "why": "G129b verdict under the corrected gates: one-sided VOIDs in the guarded direction, shuffle's 0.125 alternative expectation recorded beside the read, H-B at its pre-committed tier",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g159_audit",
+      "why": "G159 self-gate: mechanical realization on R+ must clear 0.5 exact-grade or the corpus repeats the G131 defect and the recovery study does not proceed; R- counterfactual rates land beside the L138 base rates",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g94_taramsa_summarize",
+      "why": "G94 scoring: echo bar on identical candidate sets, per-rung dose tables, the Taramsa fabrication number",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g159_rec_verdict",
+      "why": "G159 verdict: one-sided gates in guarded directions, echo-bar matching validation, the execution effect banded per the card, oracle wiring check",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g162_audit",
+      "why": "G162 self-gate: planted-issue presence, correction-marker separation, repetition and refrain counts; the reading battery preregisters only on CORPUS-STANDS",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g162r_verdict",
+      "why": "G162-R verdict: V gate first, per-class confusion, the primary concealed-vs-unnoticed pair band, clean-family fabrication",
+      "est_minutes": 5,
       "status": "SKIPPED (already done)"
     }
   ],
@@ -1524,14 +1562,45 @@
     "g129_blind_matched",
     "g153_gen_qwen",
     "g153_gen_llama",
+    "g131_gen_qwen",
+    "g131_gen_llama",
+    "g158_reader_qwen",
+    "g158_reader_llama",
+    "g158_reader_validate",
+    "g158_recovery_surface",
+    "g158_recovery_none",
+    "g158_recovery_problem",
+    "g129b_recovery",
+    "g129b_blind",
+    "g129b_shuffle",
+    "g129b_brief",
+    "g129b_source",
+    "g129b_unchanged",
+    "g129b_recovery_matched",
+    "g129b_blind_matched",
+    "g159_gen_qwen",
+    "g159_gen_llama",
+    "g94_taramsa_gpu",
+    "g159_rec_p_plus",
+    "g159_rec_p_minus",
+    "g159_rec_blind",
+    "g159_rec_fabrication",
+    "g159_rec_surface",
+    "g159_rec_delta",
     "pan25_wqd_hard_s43",
     "pan25_wqd_hard_s44",
     "pan25_wqd_easy_s43",
     "pan25_wqd_easy_s44",
     "pan25_wqd_medium_s43",
-    "pan25_wqd_medium_s44"
+    "pan25_wqd_medium_s44",
+    "g162_gen_qwen",
+    "g162_gen_llama",
+    "g162r_validate",
+    "g162r_classify",
+    "g162r_classify_delta",
+    "g162r_blind"
   ],
   "shard": "0/1",
-  "finished": "2026-08-17 20:36",
+  "finished": "2026-08-20 17:00",
   "failed": []
 }

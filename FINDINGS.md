@@ -6134,6 +6134,70 @@ concealed-versus-unnoticed separation. Battery queued.
 - **Curator decision required:** No.
 - **Detail pointer:** `corpora/g162_anomaly/handling_audit.json`, `prereg/g162.py`.
 
+## L150 · The handling reader is honest and blind: validation passes at 0.95, and concealment does not separate from non-recognition in text at this grain, on either interface
+
+**Hypothesis.** *(G162-R, `prereg/g162.py`, frozen before the run: can a reader separate
+a concealed error from an unnoticed one — the one distinction the corpus deliberately
+cannot decide mechanically — from the final artifact, with the paired-delta arm reported
+separately and a validation-first gate deciding whether any semantic verdict is
+interpretable at all?)*
+
+**Method.** 120 artifacts, six families, forced choice over handling descriptions plus an
+explicit cannot-tell; 360 negative-heavy mechanically decidable questions as the V gate;
+context-only floor; both interfaces; verdict scored once.
+
+| read | value | meaning |
+|---|---|---|
+| V gate (decidable questions) | **0.95 accuracy, 0.054 false-yes on 260 negatives** | PASSES — the instrument is honest in this format, so the nulls below are nulls of signal, not of the reader |
+| **primary: concealed vs unnoticed, artifact only** | **0.417** on 24 committed of 40 | **BLIND** (chance 0.5) |
+| the same pair, paired delta | 0.571 on 35 committed | noise-compatible at this n; not a positive |
+| corrected family, artifact only | 0.90 | the reader reads explicit corrections — the mechanically decidable case |
+| deliberate family, artifact only | 0.05 (read as clean at 0.60) | the purposeful refrain is invisible as purpose |
+| clean-family fabrication | 0.30 | above the 0.15 band; the L146 rewritten-text over-attribution replicates at 0.30 |
+| context-only floor | 0.008 | label-marginal behavior, no leak |
+
+*Caption: committed means the reader chose one of the pair's two labels rather than a
+third class; the pair accuracy is scored on those. The V gate ran first by prereg and
+its pass is what licenses interpreting everything else.*
+
+**Found.** The preregistered response tree's harshest branch executes, stated without
+softening: the reader cannot read error handling at this grain, on either interface. A
+concealed error — recognition expressed as quiet reframing — does not separate from
+simple non-recognition in a 400-word essay, artifact-only OR with the original text
+beside it. The validation gate is what makes this a finding rather than an instrument
+failure: the same reader in the same format answers decidable questions at 0.95 with a
+5% false-yes rate, so the signal is absent or below this resolution, not misread. Two
+sharp secondaries: an explicitly deliberate construction reads as nothing (the
+unfamiliar-order hazard's text form, direction as the pre-mortem predicted), and
+rewritten clean text pulls over-attribution at 0.30, replicating L146's context effect.
+
+**Means.** Per the card: the anomaly channel narrows to the constructed world, and the
+ruler's license does not extend to text at this resolution. The redesign directions the
+null itself names (owed as designs, not promises): span-level asking (WHERE is the
+handling, not WHICH class — the hedging in these essays is a single clause a
+whole-artifact question dilutes), longer artifacts where handling has room to leave
+structure, and richer concealment instructions audited for realized hedging density.
+The trace-class ontology stands (its constructed-world instrument is validated); its
+text feasibility at essay grain is now measured at no.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics / Decision Traces
+- **Question in plain language:** Can the reader tell a covered-up error from an
+  unnoticed one in a short essay?
+- **Outcome class:** Narrows
+- **Result:** Blind at 0.417 against 0.5 chance on the committed pair, with the
+  validation gate passing at 0.95 — an honest instrument finding no signal.
+- **Project meaning:** Error-handling recovery is real in construction and unmeasurable
+  in short text at current resolution; the channel needs span-level or longer-form
+  redesign before it can feed the Triple Inference on text.
+- **Next engineering obligation:** The span-level redesign of the text form; 2.2E
+  context conditioning proceeds on the channels that DO read (realization, correction).
+- **Public claim:** Unchanged (nothing was claimable here yet).
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g162/verdict.json`, `prereg/g162.py` (sha256 at this
+  commit), all partials on disk.
+
 ---
 
 # TIER 2 · SETTLED
