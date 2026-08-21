@@ -1,0 +1,135 @@
+{
+ "case_id": "case_33",
+ "lineage_id": "g168_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": true,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "accept_first_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "** Social media companies have a moral obligation to implement age verification requirements on their platforms, as this is essential for protecting children from online exploitation, cyberbullying, and the spread of misinformation.\n\n**",
+    "plan": "**\n\n1. **Argument 1: Age Verification Protects Children from Online Exploitation**\n\t* Provide statistics on the prevalence of online child abuse and exploitation\n\t* Discuss how age verification measures can prevent minors from accessing explicit content and interacting with predators\n\t* Explain why social media companies have a responsibility to safeguard vulnerable users, particularly children, who may not be aware of the risks or know how to protect themselves.\n2. **Argument 2: Age Verification Reduces Cyberbullying and Toxic Online Behavior**\n\t* Cite studies showing that age verification ca"
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The plan's single weakest point is its abrupt truncation in Argument 2, where the sentence regarding cited studies on cyberbullying cuts off mid-thought. You must complete this thought by specifying a particular study or statistic and explaining how it directly links age verification to reduced toxic behavior before proceeding to your conclusion."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "Here's the revised essay plan with the objection addressed:\n\n**PLAN:**\n\n1. **Argument 1: Age Verification Protects Children from Online Exploitation**\n\t* Provide statistics on the prevalence of online child abuse and exploitation\n\t* Discuss how age verification measures can prevent minors from accessing explicit content and interacting with predators\n\t* Explain why social media companies have a responsibility to safeguard vulnerable users, particularly children, who may not be aware of the risks or know how to protect themselves.\n2. **Argument 2: Age Verification Reduces Cyberbullying and Toxic Online Behavior**\n\t* Cite studies showing that age verification can lead to a significant decrease in online harassment and bullying (e.g., a study by the Pew Research Center found that 63% of teenagers reported seeing online abuse on social media)\n\t* Explain how restricting access to under-18s prevents minors from being targeted by cyberbullies, who often seek out vulnerable users\n\t* Discuss how age verification can foster a safer and more respectful online environment by promoting responsible behavior among adults who interact with children online"
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_3",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Critics may argue that age verification is too invasive, but this concern fails to recognize the hierarchy of ethical duties where protecting life and safety supersedes convenience or absolute anonymity. Social media giants are not merely neutral hosts; they profit from engagement generated on their platforms, often benefiting from content posted by individuals who know no better than minors engag",
+    "replacement": "Critics often claim that age verification is overly invasive; however, this objection overlooks the fundamental hierarchy of ethics, wherein protecting human life and safety must invariably supersede convenience or a right to absolute anonymity. Social media platforms are not neutral bystanders but active participants who profit from user engagement, frequently deriving revenue from content create"
+   }
+  }
+ ],
+ "artifact_final": "In an era where digital connectivity has become as fundamental as electricity or water for young people, the landscape of online interaction remains fraught with perilous dangers that disproportionately affect minors. While some argue that age verification systems infringe upon privacy rights and stifle free expression, there is a compelling moral imperative demanding their implementation by social media platforms. Social media companies have a moral obligation to implement age verification requirements on their platforms, as this is essential for protecting children from online exploitation, cyberbullying, and the spread of misinformation. The primary justification for this stance lies in the urgent necessity to shield vulnerable youth from the reality of organized online child abuse and exploitation. Recent data paints a grim picture: according to various global studies, millions of images depicting sexual violence against minors are shared daily on dark web platforms and encrypted apps that often lack robust age controls. Mainstream social media sites, however, serve as conduits for these predators who attempt to lure unsuspecting children into compromising situations or share explicit content under the guise of friendship. Without a verified barrier preventing access based on biological age, sophisticated algorithms designed solely to evade filters allow dangerous interactions to flourish unchecked. By mandating rigorous age verification, companies can effectively sever the lifeline connecting minors to predatory actors before any harm occurs.\n\nBeyond protection from sexual predation, these measures are critical for mitigating the pervasive issue of cyberbullying and the psychological trauma it inflicts on developing minds. The anonymity often provided by social media emboldens bullies who might never dare harass a peer in person. Children, lacking fully developed emotional regulation skills or contextual understanding of digital permanence, frequently become targets without recourse when their identities are not immediately verified against legal age thresholds. If platforms enforce strict entry rules based on birth date or government-issued identification tied to an account, they can restrict certain high-risk functionalities\u2014such as private messaging with strangers or posting unvetted content\u2014to users who have legally reached adulthood. This structural change creates a safer environment where younger users are not exposed to the full spectrum of adult hostility and malicious intent simply for being online. It shifts the burden from reactive moderation after harm is done, which often involves deleting evidence and providing delayed psychological support, to proactive prevention that stops bullying before it escalates into severe mental health crises or suicide attempts among teenagers.\n\nFurthermore, age verification serves as a crucial firewall against the rapid spread of misinformation within schools and youth-centric communities. Adolescents are statistically more susceptible to false narratives regarding public figures, election outcomes, and social issues due to their still-maturing critical thinking skills and susceptibility to peer pressure. When platforms allow unrestricted access from adult accounts posing as minors\u2014or vice versa\u2014it becomes nearly impossible for users or algorithms to distinguish between genuine youthful discourse and coordinated manipulation campaigns designed to radicalize young voters or incite violence against specific groups. By ensuring that the user base aligns with their stated age, companies can implement tailored content guidelines appropriate for developmental stages rather than applying a one-size-fits-all approach to an entire population containing adults capable of understanding nuance and legal complexity. This segmentation prevents dangerous ideologies from infiltrating school environments or being amplified by minors who lack the cognitive framework to deconstruct them effectively.\n\nCritics often claim that age verification is overly invasive; however, this objection overlooks the fundamental hierarchy of ethics, wherein protecting human life and safety must invariably supersede convenience or a right to absolute anonymity. Social media platforms are not neutral bystanders but active participants who profit from user engagement, frequently deriving revenue from content created by minors engaging in risky behaviors or falling victim to manipulation. Consequently, these corporations bear a profound responsibility to act as guardians of public welfare rather than passive observers. Implementing age verification is the most effective and ethical measure available to fulfill this duty, fostering a digital ecosystem where children can safely explore technology without becoming victims of predation, harassment, or deception.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18450,
+ "context_fields": {},
+ "condition": {
+  "case_i": 33,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": true,
+  "topic_i": 3,
+  "repair_actor": "realizer"
+ },
+ "thesis": "** Social media companies have a moral obligation to implement age verification requirements on their platforms, as this is essential for protecting children from online exploitation, cyberbullying, and the spread of misinformation.\n\n**",
+ "word_count": 678
+}

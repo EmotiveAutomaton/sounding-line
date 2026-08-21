@@ -1,0 +1,135 @@
+{
+ "case_id": "case_13",
+ "lineage_id": "g168_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": true,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "accept_first_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "While the intention behind mandatory age verification is to protect minors from harmful content, requiring such checks across all social media platforms would ultimately undermine privacy rights and freedom of expression; therefore, a more effective approach involves implementing strict algorithmic ",
+    "plan": "1. Analyze how mandatory age verification systems compromise user data security by creating centralized databases that become lucrative targets for breaches, disproportionately affecting marginalized groups who rely heavily on these digital spaces.\n2. Examine the practical barriers to entry created by requiring real-name registration or ID checks, which would effectively silence teenagers and young adults attempting to bypass parental restrictions while exposing them to censorship based on their identity rather than content moderation standards.\n3. Propose a balanced regulatory framework that "
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The single weakest point in this plan is the third point, \"Propose a balanced regulatory framework\", as it is vague and lacks specificity.\n\nI demand that you replace this point with a concrete suggestion for an alternative approach to age verification, such as implementing decentralized or blockchain-based identity verification systems that prioritize user data security and autonomy. This would strengthen the argument by providing a tangible solution rather than a general call for regulation."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "PLAN:\n1. Analyze how mandatory age verification systems compromise user data security by creating centralized databases that become lucrative targets for breaches, disproportionately affecting marginalized groups who rely heavily on these digital spaces.\n2. Examine the practical barriers to entry created by requiring real-name registration or ID checks, which would effectively silence teenagers and young adults attempting to bypass parental restrictions while exposing them to censorship based on their identity rather than content moderation standards.\n3. Propose a balanced regulatory framework that prioritizes decentralized identification (DID) protocols using blockchain technology; this approach allows users to cryptographically prove they meet age requirements without revealing personal identifiers or entrusting sensitive data to a central server, thereby enhancing security and preserving user autonomy while still satisfying legal compliance needs."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_4",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "A more effective approach would be to implement strict algorithmic filtering systems that detect and remove harmful content while maintaining user anonymity. These algorithms can be trained on large datasets to identify patterns indicative of child exploitation, hate speech, or other forms of online harm without compromising individual privacy or freedom of expression.",
+    "replacement": "Here is the rewritten paragraph:\n\nImplementing rigorous algorithmic filtering systems that flag and delete harmful content without compromising user anonymity would yield a more effective approach to mitigating online threats. By training these algorithms on extensive datasets, we can develop sophisticated detection capabilities that identify patterns indicative of child exploitation, hate speech,"
+   }
+  }
+ ],
+ "artifact_final": "The push for mandatory age verification systems on social media platforms has been gaining momentum in recent years, with the intention of protecting minors from online harm. However, this approach is misguided and would ultimately undermine fundamental rights such as privacy and freedom of expression.\n\nOne major concern with implementing age verification is that it creates centralized databases containing sensitive user information. These databases become lucrative targets for hackers, who can easily breach them to gain access to personal data on millions of users. This not only compromises individual security but also exposes marginalized groups who rely heavily on these digital spaces to a disproportionate level of risk. For instance, activists and journalists often use social media as their primary means of communication, and requiring age verification would create a vulnerability that could be exploited by those with malicious intent.\n\nFurthermore, the practical barriers to entry created by mandatory age verification are substantial. Real-name registration or ID checks, which are the most common methods used for age verification, have several unintended consequences. These requirements can effectively silence teenagers and young adults who attempt to bypass parental restrictions but lack official identification, such as homeless youth or those from countries with unstable governments. Moreover, these systems would also expose users to censorship based on their perceived age rather than the content they produce.\n\nThe most glaring issue is that mandatory age verification is fundamentally at odds with freedom of expression. Social media platforms have become crucial tools for marginalized groups to express themselves and mobilize support without fear of persecution. By requiring age verification, governments risk creating a chilling effect where individuals self-censor out of fear of being identified or banned from the platform. This not only stifles online dissent but also undermines the democratic values that underpin these digital spaces.\n\nHere is the rewritten paragraph:\n\nImplementing rigorous algorithmic filtering systems that flag and delete harmful content without compromising user anonymity would yield a more effective approach to mitigating online threats. By training these algorithms on extensive datasets, we can develop sophisticated detection capabilities that identify patterns indicative of child exploitation, hate speech, and other forms of online harm, all while upholding individual privacy and freedom of expression.\n\nIn conclusion, while the intention behind mandatory age verification is laudable, its implementation would ultimately undermine fundamental rights and freedoms. Centralized databases created for age verification pose significant security risks, particularly for marginalized groups, and real-name registration or ID checks stifle online dissent and self-expression. A more effective approach involves implementing strict algorithmic filtering systems that balance the need to protect minors from harm with the preservation of individual privacy and freedom of expression.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17450,
+ "context_fields": {},
+ "condition": {
+  "case_i": 13,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": true,
+  "topic_i": 3,
+  "repair_actor": "realizer"
+ },
+ "thesis": "While the intention behind mandatory age verification is to protect minors from harmful content, requiring such checks across all social media platforms would ultimately undermine privacy rights and freedom of expression; therefore, a more effective approach involves implementing strict algorithmic ",
+ "word_count": 445
+}

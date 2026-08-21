@@ -1,0 +1,204 @@
+{
+ "case_id": "case_23",
+ "lineage_id": "g168_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": true,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "from3_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Requiring age verification on social media accounts would protect minors from online exploitation and promote digital literacy among young users.",
+     "Age verification measures are impractical and overly burdensome for social media companies, who can instead employ other methods to mitigate the effects of underage users on their platforms.",
+     "Mandatory age verification on social media is a critical step towards safeguarding vulnerable populations and upholding online regulations, but its implementation requires careful consideration of privacy concerns and technological feasibility."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Requiring age verification on social media accounts would protect minors from online exploitation and promote digital literacy among young users.",
+    "Age verification measures are impractical and overly burdensome for social media companies, who can instead employ other methods to mitigate the effects of underage users on their platforms."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Mandatory age verification on social media is a critical step towards safeguarding vulnerable populations and upholding online regulations, but its implementation requires careful consideration of privacy concerns and technological feasibility."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Requiring age verification on social media accounts would protect minors from online exploitation and promote digital literacy among young users."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Age verification measures are impractical and overly burdensome for social media companies, who can instead employ other methods to mitigate the effects of underage users on their platforms."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The plan's single weakest point is the lack of any supporting evidence or logical reasoning to prove that mandatory age verification actually safeguards vulnerable populations; it merely asserts this as fact without addressing how such measures might inadvertently harm those very users they aim to protect by creating barriers to access for minors. To address this, you must replace the definitive claim about safety with a specific argument explaining exactly which regulation failures currently exist and how verified systems would directly resolve them while minimizing privacy risks."
+   }
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "Here is the revised essay plan:\n\n**I. Introduction**\nMandatory age verification on social media is a proposal aimed at protecting vulnerable populations online, but its implementation raises important questions about privacy and feasibility.\n\n**II. Regulation Failures: Current Challenges in Online Safety**\nA. Inadequate protections for minors: Social media platforms currently lack effective measures to prevent children from accessing mature content, which can lead to exploitation, cyberbullying, and mental health issues.\nB. Lack of transparency: Platforms often fail to disclose their data collection practices, making it difficult for users to understand how their personal information is being used.\n\n**III. How Verified Systems Would Address Regulation Failures**\nA. Minimizing access to mature content: Age verification systems would prevent children from accessing age-restricted content, thereby reducing the risk of exploitation and harm.\nB. Improved transparency: By storing user data securely and providing clear information about their practices, verified platforms can build trust with users and comply with existing regulations.\n\n**IV. Balancing Safety and Privacy**\nA. Addressing concerns around over-collection of personal info: Verified systems must be designed to minimize the collection of unnecessary personal data while still ensuring that age verification processes are secure and reliable.\nB. Ensuring fair access for adults: Age verification should not unduly restrict adults' ability to use social media platforms, but rather aim to balance safety with accessibility.\n\n**V. Conclusion**\nImplementing mandatory age verification on social media can help address current regulation failures by protecting vulnerable populations from harm while also respecting users' privacy and promoting transparency."
+   }
+  },
+  {
+   "event_id": "e6",
+   "order": 6,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e7",
+   "order": 7,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_5",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "In conclusion, while mandatory age verification is a critical step towards safeguarding vulnerable populations and upholding online regulations, its path forward requires careful consideration rather than hasty adoption. The goal must be to create a safer digital environment without sacrificing the privacy that users rely upon for security. Only by balancing the urgent need to protect minors again",
+    "replacement": "In conclusion, while mandatory age verification is essential for protecting vulnerable populations and enforcing online regulations, its implementation demands careful deliberation rather than hasty adoption. Our objective must be to cultivate a safer digital environment without compromising the privacy rights that users rely on for security. Only by rigorously balancing the urgent need to shield "
+   }
+  }
+ ],
+ "artifact_final": "The digital landscape has evolved into an indispensable arena for social interaction, yet it remains a dangerous environment where young users are increasingly exposed to predatory behaviors and harmful content. Mandatory age verification on social media is a proposal aimed at protecting vulnerable populations online, but its implementation raises important questions about privacy and feasibility. While the necessity of shielding minors from exploitation cannot be overstated, any legislative push for strict identity checks must navigate the complex minefield of data security threats and technological limitations to truly benefit society rather than compromise fundamental rights.\n\nCurrently, social media platforms lack effective measures to prevent children from accessing mature content, which can lead to exploitation, cyberbullying, and severe psychological distress. Despite self-regulatory claims regarding parental controls, these mechanisms are frequently circumvented by tech-savvy adolescents or ignored entirely in the pursuit of viral fame. The current regulatory framework has proven insufficient; laws designed to protect online safety often lag behind the rapid velocity at which platforms scale their user bases. Predatory actors routinely groom unsuspecting minors through anonymous accounts that bypass age gates, while algorithms push radicalizing or sexually explicit material directly into feeds where teenagers are most susceptible. Without a mandatory requirement for accurate age verification, these platforms effectively operate as unmonitored zones of danger, creating an uneven playing field where safety is left to chance rather than enforced by law.\n\nThe argument for immediate and robust intervention rests on the duty of care owed to developing minds. Vulnerable populations, particularly those under eighteen, possess not fully formed critical thinking skills regarding digital risks. When verification becomes mandatory, it shifts the burden from reactive harm reduction\u2014deleting accounts after a crime\u2014to proactive prevention. This structural change acknowledges that current \"terms and conditions\" consent models are meaningless when users cannot legally comprehend them. By enforcing real identity checks before account creation, society can create a baseline of accountability that discourages predators who currently rely on anonymity to thrive in the shadows of the internet ecosystem.\n\nHowever, mandating age verification is not without its significant drawbacks, primarily concerning privacy and technological feasibility. The most pressing concern involves data security. To verify ages, platforms would need to collect sensitive biometric or government-issued identification data from millions of users, including children whose identities are legally protected in many jurisdictions. This creates a massive target for hackers; if these databases were breached, the resulting fallout could be catastrophic for minors who may not understand how their identity theft impacts them forever. Furthermore, there is the issue of false positives and discrimination against individuals without digital IDs or access to government services, potentially alienating marginalized communities from essential online spaces like education and civic engagement.\n\nTechnological hurdles also present a substantial barrier to implementation that policymakers must address before passing sweeping legislation. The global nature of social media complicates jurisdictional enforcement; requiring different verification standards for users in the European Union versus those in Southeast Asia could fragment the digital experience or force companies to maintain redundant, costly infrastructure. Additionally, relying on third-party verification services introduces new points of failure where data can be leaked before it even reaches the platform's servers. Ignoring these logistical realities would render any law ineffective at best and destructive of privacy rights at worst.\n\nIn conclusion, while mandatory age verification is essential for protecting vulnerable populations and enforcing online regulations, its implementation demands careful deliberation rather than hasty adoption. Our objective must be to cultivate a safer digital environment without compromising the privacy rights that users rely on for security. Only by rigorously balancing the urgent need to shield minors from exploitation with stringent data protection standards can legislation successfully foster a responsible and secure internet ecosystem.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17950,
+ "context_fields": {},
+ "condition": {
+  "case_i": 23,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": true,
+  "topic_i": 3,
+  "repair_actor": "realizer"
+ },
+ "thesis": "Mandatory age verification on social media is a critical step towards safeguarding vulnerable populations and upholding online regulations, but its implementation requires careful consideration of privacy concerns and technological feasibility.",
+ "word_count": 620
+}

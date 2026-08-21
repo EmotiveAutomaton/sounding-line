@@ -1,0 +1,97 @@
+{
+ "case_id": "case_17",
+ "lineage_id": "g168_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": false,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "accept_first_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "Professional sports franchises in the United States should transition from privately held entities to public ownership because this structural shift would democratize access, align team operations with community well-being rather than shareholder profit, and create a sustainable economic model that ",
+    "plan": "1) Analyze the current\u5f0a\u7aef of private monopolies by highlighting how they prioritize lucrative media deals over fan affordability and local infrastructure investment; 2) Demonstrate how public ownership would enforce democratic governance structures that prevent corporate buyouts driven solely for tax write-offs or real estate speculation (as seen in cases like SoFi Stadium); 3) Propose a specific funding model based on municipal bonds or community trusts to finance team operations without relying on gambling revenues or private equity leverage, thereby ensuring long-term stability."
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_3",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "One potential funding model for public-owned teams involves issuing municipal bonds or establishing community trusts to finance team operations without relying on private investors. This approach would allow cities to invest in their teams while maintaining control over key decisions. For instance, a community trust could issue bonds specifically earmarked for stadium renovation or player developm",
+    "replacement": "Here is a rewritten version of the paragraph:\n\nA more sustainable approach to financing public-owned sports teams involves issuing municipal bonds or establishing community trusts that can provide funding for team operations without relying on private investors. This model enables cities to maintain control over key decisions while investing in their teams, ensuring that revenue streams align with"
+   }
+  }
+ ],
+ "artifact_final": "The current structure of professional sports teams in the United States is plagued by private monopolies that prioritize lucrative media deals over fan affordability and local infrastructure investment. The financial burden of supporting these privately owned entities has resulted in skyrocketing ticket prices, rising concession costs, and an increased reliance on corporate sponsorships that often lead to crass commercialization of the game. This situation has led many fans to feel disconnected from their teams, viewing them as inaccessible luxury items rather than community institutions.\n\nPrivate ownership also facilitates reckless financial decisions, such as SoFi Stadium's expensive construction, which was incentivized by tax breaks and other benefits aimed at attracting corporate sponsors rather than serving the local community. This is not an isolated incident; numerous examples of stadiums being built using public funds for private developers' gain have left taxpayers with a significant burden while failing to deliver meaningful economic benefits.\n\nPublic ownership would provide a much-needed counterbalance to these corporate-driven priorities. By transitioning from privately held entities, professional sports teams could establish democratic governance structures that prevent buyouts driven solely by tax write-offs or real estate speculation. In a public ownership model, decision-making power rests with the community rather than corporate interests, ensuring that team operations align with local needs and priorities.\n\nHere is a rewritten version of the paragraph:\n\nA more sustainable approach to financing public-owned sports teams involves issuing municipal bonds or establishing community trusts that can provide funding for team operations without relying on private investors. This model enables cities to maintain control over key decisions while investing in their teams, ensuring that revenue streams align with local interests and priorities. Specifically, a community trust could issue targeted bonds for stadium upgrades or player development initiatives, facilitating collaboration between public and private sectors and providing a stable source of funding for the team.\n\nPublic ownership would also enable sports teams to become more integrated with local social initiatives, such as youth development programs, health services, or environmental projects. By prioritizing community well-being over profit maximization, public-owned teams could revitalize neighborhoods through investments that generate long-term economic growth and improve the quality of life for residents. This holistic approach would not only enhance the team's reputation but also contribute to a more equitable distribution of resources.\n\nWhile some may argue that public ownership hinders innovation and efficiency, this concern is overstated. With democratic governance structures in place, decision-making processes can be streamlined to prioritize community objectives alongside operational sustainability. By prioritizing partnerships with local businesses, universities, or non-profit organizations, public-owned teams could leverage diverse expertise and resources while promoting economic diversity.\n\nUltimately, transitioning professional sports franchises from privately held entities to public ownership would democratize access, align team operations with community well-being, and establish a sustainable economic model that values social responsibility alongside financial returns.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17650,
+ "context_fields": {},
+ "condition": {
+  "case_i": 17,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": false,
+  "topic_i": 2,
+  "repair_actor": "realizer"
+ },
+ "thesis": "Professional sports franchises in the United States should transition from privately held entities to public ownership because this structural shift would democratize access, align team operations with community well-being rather than shareholder profit, and create a sustainable economic model that ",
+ "word_count": 479
+}

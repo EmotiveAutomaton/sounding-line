@@ -1,0 +1,166 @@
+{
+ "case_id": "case_25",
+ "lineage_id": "g168_00",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_00",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Banning private cars from city centers is essential for achieving sustainable and livable urban environments because it reduces congestion, pollution, and parking demands.",
+     "By prohibiting private vehicles in central areas, cities can prioritize pedestrian-friendly infrastructure and promote economic revitalization through increased foot traffic and community engagement.",
+     "Cities should prohibit private cars from their centers to mitigate the negative health effects of air pollution and noise pollution on residents, particularly children and the elderly, who are disproportionately affected by urban transportation choices."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "By prohibiting private vehicles in central areas, cities can prioritize pedestrian-friendly infrastructure and promote economic revitalization through increased foot traffic and community engagement.",
+    "Cities should prohibit private cars from their centers to mitigate the negative health effects of air pollution and noise pollution on residents, particularly children and the elderly, who are disproportionately affected by urban transportation choices."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Banning private cars from city centers is essential for achieving sustainable and livable urban environments because it reduces congestion, pollution, and parking demands."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "By prohibiting private vehicles in central areas, cities can prioritize pedestrian-friendly infrastructure and promote economic revitalization through increased foot traffic and community engagement."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Cities should prohibit private cars from their centers to mitigate the negative health effects of air pollution and noise pollution on residents, particularly children and the elderly, who are disproportionately affected by urban transportation choices."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_3",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Finally, the argument for banning private cars addresses perhaps the most underappreciated issue: parking demand. In many cities, as much as forty percent or more of urban land is consumed by surface lots and underground garages dedicated solely to storing stationary vehicles during work hours. These spaces are essentially dead zones\u2014land that could otherwise be used for green parks, affordable ho",
+    "replacement": "Finally, the case against private cars addresses a critical yet often overlooked issue: excessive parking demand. In many cities, surface lots and underground garages consume as much as forty percent of urban land, effectively creating vast \"dead zones\" that preclude green parks, affordable housing, community gardens, or wider sidewalks. Banning private vehicles from city centers instantly allevia"
+   }
+  }
+ ],
+ "artifact_final": "The modern metropolis stands at a critical crossroads regarding its transportation infrastructure, facing an escalating crisis of mobility that threatens the very fabric of daily life in dense urban areas. While some advocates argue for maintaining unrestricted access to private automobiles as a matter of individual freedom and convenience, there is little room for debate when considering long-term viability: banning private cars from city centers is essential for achieving sustainable and livable urban environments because it effectively reduces crippling congestion, drastically lowers pollution levels, and eliminates the inefficient demand for excessive parking spaces.\n\nThe most immediate consequence of allowing unrestricted private vehicle traffic in dense neighborhoods is gridlock that paralyzes economic productivity and social interaction. As populations grow and housing sprawls outward, the number of commuters relying on single-occupancy vehicles has reached unsustainable peaks. When every resident feels entitled to drive into the central business district regardless of time or necessity, road capacity becomes overwhelmed instantly during rush hours. By implementing strict bans on private cars in these zones, cities can reclaim thousands of lanes dedicated solely to moving metal boxes and repurpose them for wide boulevards designed for pedestrians and cyclists. This shift does not merely slow traffic; it eliminates the concept of \"traffic\" entirely by designating space exclusively for human movement. The result is a city where getting from point A to point B becomes a matter of minutes rather than hours, restoring spontaneity to daily commutes and allowing businesses to function with reliable logistics networks that are currently choked by stop-and-go driving conditions.\n\nFurthermore, the environmental cost of encouraging private car usage in urban cores cannot be overstated. Cities act as significant heat islands partly due to the exhaust fumes emitted by idling engines and accelerating vehicles navigating crowded streets. By removing personal cars from city centers, municipalities directly slash greenhouse gas emissions at their source, contributing meaningfully to global climate goals on a local scale. Beyond carbon footprints, there is the immediate impact on public health caused by poor air quality in dense areas where pollution gets trapped between tall buildings. A car-free center ensures cleaner breathable air for residents who spend hours walking or working outdoors. Moreover, restricting cars reduces noise pollution, transforming bustling arterial roads into quiet, serene environments conducive to mental well-being and community building. The silence of a pedestrian-only street allows neighbors to hear one another again, fostering a sense of safety and connection that is impossible when dominated by the roar of engines.\n\nFinally, the case against private cars addresses a critical yet often overlooked issue: excessive parking demand. In many cities, surface lots and underground garages consume as much as forty percent of urban land, effectively creating vast \"dead zones\" that preclude green parks, affordable housing, community gardens, or wider sidewalks. Banning private vehicles from city centers instantly alleviates this immense pressure on real estate by shifting commuters to park safely at transit hubs on the outskirts and utilize efficient public transport via a model known as \"park-and-ride.\" This strategy enables cities to densify neighborhoods with mixed-use development without exhausting available infrastructure, transforming wasted asphalt into vibrant community assets. By liberating land value from being tied up in parking structures exclusively for storage, such policies directly make housing more affordable while revitalizing urban spaces.\n\nIn conclusion, the persistence of private car dominance in city centers is an outdated model that prioritizes individual convenience over collective well-being. The path forward requires bold policy decisions to restrict personal vehicle access within urban limits. Such a move is not about punishing drivers but about reimagining what a successful city can be. By banning private cars from these vital zones, we unlock the potential for reduced congestion, cleaner air, and smarter land use. These benefits are not optional extras; they are fundamental prerequisites for building sustainable ecosystems where people live healthily and productively without being trapped in traffic or suffocated by pollution.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18050,
+ "context_fields": {},
+ "condition": {
+  "case_i": 25,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 0,
+  "repair_actor": "realizer"
+ },
+ "thesis": "Banning private cars from city centers is essential for achieving sustainable and livable urban environments because it reduces congestion, pollution, and parking demands.",
+ "word_count": 659
+}

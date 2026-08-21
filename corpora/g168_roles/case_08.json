@@ -1,0 +1,166 @@
+{
+ "case_id": "case_08",
+ "lineage_id": "g168_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Mandating age verification across all social media platforms is essential because it effectively blocks minors from accessing harmful content while preserving anonymity through third-party processors rather than forcing the disclosure of sensitive personal data.",
+     "Implementing universal age verification requirements for social media should be rejected, as these measures violate user privacy rights and create an unworkable administrative burden that disproportionately affects young users trying to access educational resources online.",
+     "While well-intentioned, blanket age-verification mandates are insufficient solutions because they fail to address the core dangers of algorithmic radicalization without simultaneously introducing significant security vulnerabilities through centralized databases."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Mandating age verification across all social media platforms is essential because it effectively blocks minors from accessing harmful content while preserving anonymity through third-party processors rather than forcing the disclosure of sensitive personal data.",
+    "Implementing universal age verification requirements for social media should be rejected, as these measures violate user privacy rights and create an unworkable administrative burden that disproportionately affects young users trying to access educational resources online."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "While well-intentioned, blanket age-verification mandates are insufficient solutions because they fail to address the core dangers of algorithmic radicalization without simultaneously introducing significant security vulnerabilities through centralized databases."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Mandating age verification across all social media platforms is essential because it effectively blocks minors from accessing harmful content while preserving anonymity through third-party processors rather than forcing the disclosure of sensitive personal data."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Implementing universal age verification requirements for social media should be rejected, as these measures violate user privacy rights and create an unworkable administrative burden that disproportionately affects young users trying to access educational resources online."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_4",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Rather than addressing the algorithmic radicalization at the heart of this issue, blanket age-verification mandates merely treat symptoms. The focus should shift towards redesigning algorithms to prioritize nuanced and balanced content curation. This could involve features such as content moderation by AI or human moderators, along with strict guidelines for curating online discourse.",
+    "replacement": "Instead of addressing the root cause\u2014algorithmic radicalization\u2014blanket age-verification mandates merely treat superficial symptoms; policy efforts must instead pivot toward redesigning algorithms to prioritize nuanced and balanced curation. Achieving this requires integrating robust AI moderation, human oversight, and strict guidelines that actively shape healthier online discourse from within pl"
+   }
+  }
+ ],
+ "artifact_final": "The growing concern over social media's impact on youth has led many to advocate for age verification measures on these platforms. Proponents argue that requiring users to verify their age would prevent minors from accessing mature content and protect them from online harms such as cyberbullying and radicalization. However, this argument neglects the fact that blanket age-verification mandates not only fail to address the core dangers of algorithmic radicalization but also introduce significant security vulnerabilities through centralized databases.\n\nWhile it is true that social media platforms have been criticized for failing to protect minors from online harms, implementing age verification measures would do little to alleviate these concerns. Most children today are tech-savvy and can easily bypass age gates or use VPNs to mask their IP addresses. Moreover, relying on self-reported ages, as most current systems do, is inherently flawed, allowing users to provide false information with relative ease.\n\nFurthermore, the implementation of age verification measures would introduce significant security risks through centralized databases. When creating a database to store user ages and identities, platforms are effectively creating a single point of failure for all users' sensitive information. This vulnerable data could be compromised in the event of a hack or cyber attack, putting millions of users at risk of identity theft and other forms of exploitation.\n\nHowever, the real issue here is not minors accessing social media, but rather how these platforms curate content to individual users. The algorithms used by social media companies prioritize sensationalism over veracity, making them breeding grounds for extremist ideologies. Radicalization on these platforms is a function of their design, not a consequence of unverified ages.\n\nInstead of addressing the root cause\u2014algorithmic radicalization\u2014blanket age-verification mandates merely treat superficial symptoms; policy efforts must instead pivot toward redesigning algorithms to prioritize nuanced and balanced curation. Achieving this requires integrating robust AI moderation, human oversight, and strict guidelines that actively shape healthier online discourse from within platform infrastructure rather than relying solely on access restrictions.\n\nImplementing effective regulations that address algorithmic radicalization would require cooperation between governments, civil society, and technology companies. A more comprehensive approach should be considered, one that prioritizes platform redesign over simplistic measures like age verification. By focusing on content curation, rather than user demographics, policymakers can tackle the root causes of online harms while minimizing the security risks introduced by centralized databases.\n\nUltimately, blanket age-verification mandates are insufficient solutions because they fail to address the core dangers of algorithmic radicalization without simultaneously introducing significant security vulnerabilities through centralized databases. To effectively mitigate online harms, policymakers must adopt a more nuanced approach that prioritizes platform redesign and responsible content curation over simplistic measures like age verification.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17200,
+ "context_fields": {},
+ "condition": {
+  "case_i": 8,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 3,
+  "repair_actor": "proposer"
+ },
+ "thesis": "While well-intentioned, blanket age-verification mandates are insufficient solutions because they fail to address the core dangers of algorithmic radicalization without simultaneously introducing significant security vulnerabilities through centralized databases.",
+ "word_count": 450
+}

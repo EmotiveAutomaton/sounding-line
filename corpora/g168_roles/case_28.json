@@ -1,0 +1,166 @@
+{
+ "case_id": "case_28",
+ "lineage_id": "g168_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Requiring age verification on social media accounts would significantly mitigate the risk of young users being exposed to online predators and cyberbullying.",
+     "Implementing mandatory age verification for social media platforms is a crucial step towards protecting vulnerable youth from the addictive and potentially damaging effects of excessive screen time.",
+     "The implementation of age-verified social media accounts is essential for safeguarding minors' mental health and preventing the proliferation of online harassment, as younger users are disproportionately affected by these issues."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "select",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Requiring age verification on social media accounts would significantly mitigate the risk of young users being exposed to online predators and cyberbullying.",
+    "The implementation of age-verified social media accounts is essential for safeguarding minors' mental health and preventing the proliferation of online harassment, as younger users are disproportionately affected by these issues."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Implementing mandatory age verification for social media platforms is a crucial step towards protecting vulnerable youth from the addictive and potentially damaging effects of excessive screen time."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Requiring age verification on social media accounts would significantly mitigate the risk of young users being exposed to online predators and cyberbullying."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The implementation of age-verified social media accounts is essential for safeguarding minors' mental health and preventing the proliferation of online harassment, as younger users are disproportionately affected by these issues."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_3",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Critics may argue that age verification infringes upon privacy rights and creates surveillance states where internet usage is constantly monitored. While these concerns are valid regarding implementation details like data security, they do not negate the necessity of a basic entry barrier to protect minors from harm. The same logic applies to schools restricting access during class hours or parent",
+    "replacement": "Here's a rewritten version of the paragraph:\n\nCritics argue that age verification systems infringe on individuals' right to privacy, creating surveillance states where online activities are constantly monitored. However, this concern is often misplaced when it comes to preventing minors from accessing harmful content. By analogy, schools restrict internet access during class hours and parents inst"
+   }
+  }
+ ],
+ "artifact_final": "The digital landscape has fundamentally reshaped how generations connect, learn, and consume information, yet this evolution has come at a steep psychological cost for young people. As social media platforms increasingly prioritize engagement metrics over user well-being, the result is an ecosystem designed to captivate attention indefinitely. In response to this predatory design, many argue that regulation should focus solely on content moderation or data privacy. However, these measures are insufficient without addressing the root cause of harm: the lack of barriers preventing minors from accessing environments engineered for addiction. Therefore, implementing mandatory age verification for social media platforms is a crucial step towards protecting vulnerable youth from the addictive and potentially damaging effects of excessive screen time.\n\nThe primary argument for strict age verification lies in the neurological vulnerability of adolescents to digital stimuli. The human brain continues developing until roughly age twenty-five, with the prefrontal cortex\u2014the area responsible for impulse control and decision-making\u2014often not fully mature enough to resist immediate gratification loops found on apps like TikTok or Instagram. These platforms utilize algorithms that exploit dopamine pathways, creating a feedback loop of likes, comments, and infinite scrolling that is akin to an addiction disorder in its early stages. When minors can access these sites without restriction from birth, they are exposed before their brains have developed the necessary fortitude to manage such high-intensity stimulation. Without a hard barrier preventing entry during formative years, platforms effectively turn children into experimental subjects for behavioral conditioning tests that no ethical researcher would ever approve of in a laboratory setting.\n\nFurthermore, current verification methods based on self-reported birthdates are woefully inadequate and easily bypassed by users simply lying about their age or using parent accounts meant for older siblings. This loophole renders existing safeguards largely symbolic rather than functional. If the goal is genuine protection, reliance on honor systems fails to account for the reality of how children navigate digital spaces today. Mandatory verification acts as a necessary gatekeeper that forces platforms to acknowledge that not all users possess the same resilience against manipulation. It shifts the responsibility from the individual child trying to resist temptation alone to a structural change in access control that mirrors other age-restricted industries, such as alcohol sales or gambling sites.\n\nHere's a rewritten version of the paragraph:\n\nCritics argue that age verification systems infringe on individuals' right to privacy, creating surveillance states where online activities are constantly monitored. However, this concern is often misplaced when it comes to preventing minors from accessing harmful content. By analogy, schools restrict internet access during class hours and parents install parental controls on home routers without being seen as overstepping their authority. These measures are widely accepted because they ensure safety in specific contexts. Similarly, the use of age verification can be made more privacy-friendly through technologies like blockchain-based systems or third-party audits that verify age status without storing sensitive personal information permanently. Ultimately, while some degree of surveillance may be a necessary trade-off for protecting vulnerable young people from severe psychological trauma, it is a price worth paying to safeguard their well-being.\n\nI made several changes to improve the clarity and strength of the paragraph:\n\n* Simplified sentence structures and wording\n* Emphasized the distinction between concerns about privacy and safety\n* Provided clearer analogies to help readers understand the parallels with school and home settings\n* Strengthened the conclusion by using more precise language (e.g., \"vulnerable young people\" instead of \"millions of young minds\")\n* Used a more active and assertive tone throughout\n\nIn conclusion, the proliferation of addictive social media algorithms represents a public health crisis specifically targeting children whose brains are still under construction. Self-regulation has failed to curb these practices because profit motives always outweigh ethical considerations. While content moderation and data privacy laws are important components of digital safety, they address symptoms rather than the disease itself. By mandating age verification, society can draw a clear line around childhood, ensuring that vulnerable youth do not enter environments specifically designed to hijack their developing minds. This policy is not just a bureaucratic formality but a critical intervention required to preserve the mental health and developmental stability of the next generation in an increasingly digital world.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18200,
+ "context_fields": {},
+ "condition": {
+  "case_i": 28,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 3,
+  "repair_actor": "proposer"
+ },
+ "thesis": "Implementing mandatory age verification for social media platforms is a crucial step towards protecting vulnerable youth from the addictive and potentially damaging effects of excessive screen time.",
+ "word_count": 710
+}

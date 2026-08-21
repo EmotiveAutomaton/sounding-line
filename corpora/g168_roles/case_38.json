@@ -1,0 +1,97 @@
+{
+ "case_id": "case_38",
+ "lineage_id": "g168_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": false,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "accept_first_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "** Social media platforms should implement mandatory age verification to prevent minors from accessing mature content and ensure online safety.\n\n**",
+    "plan": "**\n\n1. **Highlight the risks of unverified social media use for minors**: Many studies have shown that exposure to mature content on social media can lead to increased risk of cyberbullying, online harassment, and even mental health issues such as depression and anxiety in children and adolescents.\n2. **Counter potential concerns about age verification with effective solutions**: Implementing age verification does not necessarily require invasive or time-consuming processes for users; technologies like facial recognition, government-issued ID scanning, or age-range-based algorithms can quickly"
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_3",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "The cost of maintaining the status quo is far too high. Allowing minors unrestricted access to platforms where adults consume mature content ignores a fundamental reality: the internet has changed from a general library into a mixed-media environment that requires zoning regulations similar to physical spaces like movie theaters or bars. If we accept that children cannot safely enter certain parts",
+    "replacement": "Here is the rewritten paragraph:\n\nThe cost of maintaining the status quo on online platforms is prohibitively high. The internet has transformed into a mixed-media environment that demands zoning regulations, akin to movie theaters or bars, where minors are shielded from mature content without supervision. It's illogical to assume that children can safely navigate certain physical spaces without a"
+   }
+  }
+ ],
+ "artifact_final": "In an era where digital connectivity defines modern adolescence, the unregulated presence of minors on social media platforms has become a critical public health and safety issue. The primary argument for mandating age verification across these networks is not merely about bureaucratic compliance but about creating a necessary firewall between developing minds and harmful content. Social media accounts should implement mandatory age verification to prevent minors from accessing mature content and ensure online safety, as the current open-access model exposes children to significant psychological dangers that outweigh the convenience of unrestricted entry.\n\nThe risks associated with unverified social media use for minors are severe and well-documented by numerous studies and expert bodies worldwide. The digital landscape is replete with algorithms designed to maximize engagement, often at the expense of user welfare. When these platforms lack age restrictions, adolescents find themselves susceptible to an overwhelming stream of mature content, including graphic violence, sexually explicit material, and self-harm promotion. Furthermore, the anonymity provided by unverified accounts emboldens cyberbullies who can harass vulnerable children without fear of identification or consequence. This environment fosters a toxic cycle where exposure to such negativity directly correlates with increased rates of depression, anxiety, and suicidal ideation among young users. Children are still in the formative stages of their cognitive development; they lack the critical thinking skills necessary to filter out harmful narratives or recognize manipulative tactics used by predators. Consequently, leaving this demographic unprotected effectively turns social media into a breeding ground for mental health crises rather than a space for connection and growth.\n\nCritics often argue that implementing age verification creates barriers to access, potentially requiring invasive procedures like ID checks or creating cumbersome processes that frustrate users. They suggest that such measures infringe on privacy rights or could be easily circumvented by minors using family members' credentials. However, these concerns are overstated when viewed against the backdrop of immediate safety risks and technological advancements. Modern age verification does not necessarily imply invasive scrutiny; robust systems can rely on decentralized identity protocols where users prove their status without revealing sensitive personal data to the platform itself. Governments in various nations have already implemented successful frameworks that allow for frictionless verification, ensuring legitimacy while preserving privacy. Additionally, technology has evolved beyond simple username checks; facial recognition and document scanning integrated into app stores provide a secure layer of protection that is both fast and effective. The administrative burden falls on developers to integrate these standards, not on individual families to constantly police their children's digital footprint every time they wish to log in.\n\nHere is the rewritten paragraph:\n\nThe cost of maintaining the status quo on online platforms is prohibitively high. The internet has transformed into a mixed-media environment that demands zoning regulations, akin to movie theaters or bars, where minors are shielded from mature content without supervision. It's illogical to assume that children can safely navigate certain physical spaces without adult accompaniment but permit unregulated access to digital areas with similar content. By implementing age verification measures, we shift the responsibility for protecting children from individual parents, who struggle to keep up with algorithmic chaos, to systemic solutions prioritizing public welfare. This proactive approach enables a safer environment where minors can interact with peers and explore interests without the risks of exploitation or psychological harm, ultimately safeguarding their mental health and developmental future \u2013 making age verification an imperative for all social media platforms today.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18700,
+ "context_fields": {},
+ "condition": {
+  "case_i": 38,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": false,
+  "topic_i": 3,
+  "repair_actor": "proposer"
+ },
+ "thesis": "** Social media platforms should implement mandatory age verification to prevent minors from accessing mature content and ensure online safety.\n\n**",
+ "word_count": 572
+}

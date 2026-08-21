@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 14:07",
+  "started": "2026-08-21 14:28",
   "stages": [
     {
       "name": "revision_purpose",
@@ -721,9 +721,21 @@
       "name": "g168_gen",
       "why": "G168 C0 construction: 40 two-actor logged cases, proposer x selection x veto crossed, every event schema-validated with actors",
       "est_minutes": 180,
-      "status": "RUNNING",
-      "log": "results\\g168_gen.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g168r_verdict",
+      "why": "G168-R verdict: the last Stage-1 root state; the root map follows",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "results/g168r/process_done.json",
+        "results/g168r/classify_done.json",
+        "results/g168r/blind_done.json"
+      ]
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-21 14:28",
+  "failed": []
 }

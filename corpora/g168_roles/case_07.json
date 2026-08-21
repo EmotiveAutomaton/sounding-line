@@ -1,0 +1,166 @@
+{
+ "case_id": "case_07",
+ "lineage_id": "g168_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Professional sports franchises should transition from private ownership to public stewardship to eliminate discriminatory practices and ensure equitable access for all communities they serve.",
+     "While private ownership currently drives immediate profit maximization, shifting major league teams toward publicly owned models would better align the industry's long-term health with broader social welfare goals.",
+     "The current argument against publicly owning sports teams fails to consider how civic management structures could replace corporate tax avoidance and foster genuine community investment without sacrificing competitive integrity."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Professional sports franchises should transition from private ownership to public stewardship to eliminate discriminatory practices and ensure equitable access for all communities they serve.",
+    "While private ownership currently drives immediate profit maximization, shifting major league teams toward publicly owned models would better align the industry's long-term health with broader social welfare goals."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "The current argument against publicly owning sports teams fails to consider how civic management structures could replace corporate tax avoidance and foster genuine community investment without sacrificing competitive integrity."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Professional sports franchises should transition from private ownership to public stewardship to eliminate discriminatory practices and ensure equitable access for all communities they serve."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "While private ownership currently drives immediate profit maximization, shifting major league teams toward publicly owned models would better align the industry's long-term health with broader social welfare goals."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_2",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Moreover, public ownership would allow for significant tax savings by eliminating corporate tax avoidance schemes that drain resources away from local communities. Sports teams are notorious tax dodgers, exploiting loopholes and subsidies to minimize their taxable income while paying top dollar for star players. By removing the profit motive, publicly owned teams could redirect these tax savings t",
+    "replacement": "Here is a rewritten version of the paragraph:\n\n\"Public ownership of sports teams would yield substantial tax benefits by eliminating corporate tax avoidance schemes that currently siphon off revenue from local communities. The high-profile practice of sports teams exploiting loopholes and subsidies to minimize their tax liability, while lavishing top dollar on star players, would cease under publi"
+   }
+  }
+ ],
+ "artifact_final": "The notion that public ownership of professional sports teams is a recipe for disaster has been a long-standing narrative in the world of sports. Detractors argue that publicly owned teams would be beholden to bureaucratic inefficiencies, plagued by lack of financial acumen, and forced to compromise on competitive integrity. However, this argument fails to consider an alternative approach: replacing corporate tax avoidance with civic management structures that genuinely invest in community development without sacrificing the competitive edge that makes sports so captivating.\n\nThe primary concern raised against public ownership is the notion that it would inevitably lead to bureaucratic red tape and poor decision-making. This argument assumes that a publicly owned team would be hampered by layers of administrative approvals, stifling its ability to respond quickly to market changes or make tough financial decisions. However, this criticism overlooks the possibility of implementing civic management structures that balance transparency with flexibility. For instance, community-based boards could oversee team operations while allowing experienced professionals to run day-to-day affairs, providing a check on bureaucratic inefficiencies without sacrificing decision-making agility.\n\nHere is a rewritten version of the paragraph:\n\n\"Public ownership of sports teams would yield substantial tax benefits by eliminating corporate tax avoidance schemes that currently siphon off revenue from local communities. The high-profile practice of sports teams exploiting loopholes and subsidies to minimize their tax liability, while lavishing top dollar on star players, would cease under public ownership. This shift in ownership structure would enable the redirection of these saved resources towards community development initiatives, such as youth sports programs, healthcare facilities, or education centers. Moreover, this approach would foster a genuine sense of civic engagement and responsibility, bringing tangible financial benefits to local communities.\"\n\nAnother argument against public ownership is that it would compromise competitive integrity by prioritizing social welfare over on-field success. However, this assumption relies on the notion that publicly owned teams would be driven by altruism rather than competitiveness. In reality, the vast majority of fans and community members want their team to succeed on the field as much as they do in terms of local investment. Implementing civic management structures could ensure that financial decisions prioritize both competitiveness and community development, striking a balance between short-term wins and long-term investments.\n\nSome may argue that public ownership would create undue influence from special interest groups or politicians, compromising team decision-making. While this risk is real, it can be mitigated through robust governance structures and transparent reporting mechanisms. Community-based boards could oversee team operations while ensuring accountability to stakeholders through regular audits and performance reviews.\n\nIn conclusion, the current argument against publicly owning sports teams neglects the potential benefits of civic management structures that replace corporate tax avoidance with genuine community investment. By rethinking traditional notions of ownership and decision-making, it is possible to create a system that balances competitive integrity with civic engagement without sacrificing financial viability. As fans, taxpayers, and citizens, we should demand more from our sports teams than just entertainment; we should expect them to contribute meaningfully to the communities they represent.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17150,
+ "context_fields": {},
+ "condition": {
+  "case_i": 7,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 2,
+  "repair_actor": "realizer"
+ },
+ "thesis": "The current argument against publicly owning sports teams fails to consider how civic management structures could replace corporate tax avoidance and foster genuine community investment without sacrificing competitive integrity.",
+ "word_count": 519
+}

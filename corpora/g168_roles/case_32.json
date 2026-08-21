@@ -1,0 +1,135 @@
+{
+ "case_id": "case_32",
+ "lineage_id": "g168_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": true,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "accept_first_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "** Public ownership of professional sports teams is a more equitable and sustainable model than private ownership, as it would allow for increased community investment and revenue transparency.\n\n**",
+    "plan": "**\n\n1. **Point 1: Public ownership promotes community investment and engagement**\n\t* Discuss the ways in which public ownership can increase community involvement and investment in local sports teams, such as through fan-owned cooperatives or municipal leagues.\n\t* Provide examples of successful public ownership models, such as the Barcelona football club's member-ownership structure.\n2. **Point 2: Public ownership fosters transparency and accountability**\n\t* Argue that publicly owned teams would be more transparent about revenue streams and financial decisions, reducing the influence of corrup"
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The argument is weakest at its conclusion because it cuts off mid-sentence while failing to address the primary counter-argument regarding potential government inefficiency or political interference. To strengthen the essay, you must explicitly refute these common objections before restating your thesis in a complete sentence."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "Here is the revised essay plan:\n\n**PLAN:**\n\n1. **Point 1: Public ownership promotes community investment and engagement**\n\t* Discuss the ways in which public ownership can increase community involvement and investment in local sports teams, such as through fan-owned cooperatives or municipal leagues.\n\t* Provide examples of successful public ownership models, such as the Barcelona football club's member-ownership structure.\n2. **Point 2: Public ownership fosters transparency and accountability**\n\t* Argue that publicly owned teams would be more transparent about revenue streams and financial decisions, reducing the influence of corruption and special interests.\n3. **Refuting the Objection: Addressing Government Inefficiency and Political Interference**\n\t* Acknowledge and address the common concern that public ownership may lead to government inefficiency or political interference in team management decisions.\n\t* Provide evidence from existing examples of successful public ownership, demonstrating that this is not a necessary outcome.\n\t* Argue that clear policies and regulations can be put in place to prevent undue influence and ensure effective management.\n\n4. **Conclusion: Restating the Thesis with Clarification**\n\t* Summarize the main points made in support of public ownership\n\t* Address any remaining concerns or objections, reiterating the benefits of public ownership in promoting community investment, transparency, and accountability"
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_1",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "The primary advantage of public ownership lies in its ability to promote deep-seated community investment and genuine local engagement. Under a privately owned regime, decision-making is driven by profit margins, often leading to the relocation of teams when ticket sales or media rights dip below investor expectations. In contrast, publicly owned structures prioritize the stability and health of t",
+    "replacement": "Here is a rewritten version of the paragraph:\n\nThe public ownership model offers several advantages over private ownership, particularly in terms of fostering deep community investment and genuine local engagement. Unlike private regimes, which prioritize profit margins and can lead to team relocations when ticket sales or media rights dip, publicly owned structures focus on the long-term stabilit"
+   }
+  }
+ ],
+ "artifact_final": "The landscape of professional sports is currently dominated by private equity firms and wealthy individual owners who often treat teams not merely as cultural institutions but as lucrative financial assets to be maximized for personal gain. While this model has generated entertainment spectacles, it frequently comes at the expense of local communities that bear the brunt of stadium taxes while seeing little return on investment. Consequently, a shift toward public ownership represents a more equitable and sustainable future for athletics globally. By transitioning control from private conglomerates to the community, we can foster increased civic engagement and ensure unprecedented revenue transparency, ultimately creating leagues that serve their fanbases rather than external shareholders.\n\nHere is a rewritten version of the paragraph:\n\nThe public ownership model offers several advantages over private ownership, particularly in terms of fostering deep community investment and genuine local engagement. Unlike private regimes, which prioritize profit margins and can lead to team relocations when ticket sales or media rights dip, publicly owned structures focus on the long-term stability and health of the club within its local neighborhood. This approach empowers fans to become active stakeholders rather than passive consumers, allowing them to contribute directly to capital improvements, youth development programs, and community outreach initiatives through mechanisms like member-owned cooperatives or municipal leagues. A notable example of this successful model is Futbol Club Barcelona (FCB), which operates under a unique statutes-based system where members own the club through voting rights rather than financial equity. By adopting similar frameworks, North American franchises could experience a surge in grassroots funding, transforming stadiums into vibrant civic hubs that reflect their cities' diverse demographics and values, rather than being beholden to corporate interests.\n\nI made some changes to improve clarity and strength:\n\n* Simplified sentence structures and wording for easier reading\n* Emphasized the key differences between public and private ownership models\n* Used more active verbs (e.g. \"fostering\" instead of \"lies in\") to create a stronger tone\n* Highlighted the benefits of public ownership, such as empowering fans and promoting community investment\n* Emphasized FCB's unique model as an example of successful implementation\n\nFurthermore, public ownership fosters essential transparency and accountability regarding financial operations that are currently obscured by private secrecy. Private owners often justify exorbitant ticket prices, luxury suite markups, and lavish salary structures as necessary for \"competitive balance,\" yet these decisions rarely undergo independent scrutiny. In a publicly owned entity, revenue streams from broadcasting contracts, sponsorships, and merchandise would be subject to public audit or democratic oversight committees. This transparency allows the community to verify that funds are allocated toward player development facilities, affordable ticketing options, and educational programs rather than off-balance-sheet maneuvers designed to boost stock values elsewhere. Accountability ensures that when a team faces financial distress, it is addressed through restructuring plans agreed upon by stakeholders\u2014including fans\u2014rather than forced into bankruptcy or relocation orchestrated by an owner seeking to cut losses. This stability protects the long-term integrity of the sport in specific markets, preventing the boom-and-bust cycles that plague currently privatized leagues.\n\nIn conclusion, the current private ownership model has created a disparity where sports entertainment serves the interests of a few wealthy investors at the expense of the many who attend games and fund stadiums through taxes. Public ownership offers a viable alternative by embedding financial decisions within a framework of community benefit and fiscal responsibility. By empowering local residents to invest in their teams, we rebuild the social fabric that professional sports were originally designed to strengthen. Embracing this model would not only guarantee greater equity for fans but also ensure the sustainable growth of athletics as a public good rather than a private commodity.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18400,
+ "context_fields": {},
+ "condition": {
+  "case_i": 32,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": true,
+  "topic_i": 2,
+  "repair_actor": "proposer"
+ },
+ "thesis": "** Public ownership of professional sports teams is a more equitable and sustainable model than private ownership, as it would allow for increased community investment and revenue transparency.\n\n**",
+ "word_count": 615
+}

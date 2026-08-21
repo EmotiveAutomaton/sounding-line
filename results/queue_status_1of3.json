@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 14:07",
+  "started": "2026-08-21 14:28",
   "stages": [
     {
       "name": "feature_visibility",
@@ -779,13 +779,21 @@
       "name": "g168_audit",
       "why": "G168 self-gate: yield, band, per-condition log completeness, SELECTION INTEGRITY (the chosen thesis must out-overlap every rejected one in the final essay), veto integrity",
       "est_minutes": 5,
-      "status": "DEFERRED",
-      "missing": [
-        "corpora/g168_roles/manifest.json"
-      ]
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g168r_gate",
+      "why": "G168-R purity + balanced marginals; arms gate on it",
+      "est_minutes": 2,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g168r_process",
+      "why": "G168-R arm process: selection / veto / repair role recovery, per question, never aggregated",
+      "est_minutes": 90,
+      "status": "RUNNING",
+      "log": "results\\g168r_process.log"
     }
   ],
-  "shard": "1/3",
-  "finished": "2026-08-21 14:07",
-  "failed": []
+  "shard": "1/3"
 }

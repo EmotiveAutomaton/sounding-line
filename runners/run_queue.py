@@ -1782,6 +1782,34 @@ STAGES += [
             "the final essay), veto integrity"},
 ]
 
+# ── G168-R ROLE RECOVERY 2026-08-21 late afternoon (appended at list end;
+# prereg/g168r.py frozen on the C0 CORPUS-STANDS; gates passed at build). The LAST
+# Stage-1 test: its verdict completes all seven roots and triggers the root map.
+STAGES += [
+    {"name": "g168r_gate", "est": 2,
+     "cmd": [PY, "runners/run_g168_reading.py", "--gate"],
+     "produces": "results/g168r/gate.json",
+     "needs": ["corpora/g168_roles/roles_audit.json"],
+     "why": "G168-R purity + balanced marginals; arms gate on it"},
+]
+for _arm, _est in (("process", 90), ("classify", 80), ("blind", 5)):
+    STAGES += [
+        {"name": f"g168r_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g168_reading.py", "--arm", _arm],
+         "produces": f"results/g168r/{_arm}_done.json",
+         "needs": ["results/g168r/gate.json"],
+         "why": f"G168-R arm {_arm}: selection / veto / repair role recovery, "
+                "per question, never aggregated"},
+    ]
+STAGES += [
+    {"name": "g168r_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g168_reading.py", "--verdict"],
+     "produces": "results/g168r/verdict.json",
+     "needs": ["results/g168r/process_done.json", "results/g168r/classify_done.json",
+               "results/g168r/blind_done.json"],
+     "why": "G168-R verdict: the last Stage-1 root state; the root map follows"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1810,7 +1838,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g167a5_true_note", "g167a5_false_note", "g167a5_false_note_flag",
                     "g169_regen_qwen", "g169_regen_llama",
                     "g169r_validate", "g169r_classify", "g169r_span", "g169r_blind",
-                    "g168_gen"}
+                    "g168_gen", "g168r_process", "g168r_classify"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

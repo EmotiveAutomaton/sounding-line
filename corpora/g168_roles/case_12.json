@@ -1,0 +1,135 @@
+{
+ "case_id": "case_12",
+ "lineage_id": "g168_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": true,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "accept_first_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "Professional sports teams should transition from private to public ownership because this shift would democratize access, prioritize community stability over corporate profit, and ensure long-term financial sustainability.",
+    "plan": "1. Publicly owned stadiums and operations eliminate rent-seeking behaviors by wealthy owners who drive up ticket prices while paying themselves exorbitant salaries, thereby making live sports accessible to a broader socioeconomic spectrum of fans.\n2. Municipal ownership structures legally mandate that revenue generated from the team be reinvested directly into local infrastructure, youth programs, or public services rather than being extracted as private shareholder dividends.\n3. Public oversight creates an immutable safeguard against the rapid sale of franchises when times are difficult; unli"
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The single weakest point in this plan is point 2: \"Municipal ownership structures legally mandate that revenue generated from the team be reinvested directly into local infrastructure, youth programs, or public services rather than being extracted as private shareholder dividends.\" This claim relies on an assumption about municipal government behavior and might not accurately reflect real-world practices.\n\nTo strengthen this plan, I demand a concrete change: Replace point 2 with more nuanced language, such as \"Municipal ownership structures often incorporate mechanisms to prioritize reinvestment of revenue in local infrastructure and community programs, although the specific terms may vary depending on jurisdiction.\""
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "PLAN:\n1. Publicly owned stadiums and operations eliminate rent-seeking behaviors by wealthy owners who drive up ticket prices while paying themselves exorbitant salaries, thereby making live sports accessible to a broader socioeconomic spectrum of fans.\n2. Municipal ownership structures often incorporate mechanisms to prioritize reinvestment of revenue in local infrastructure and community programs, although the specific terms may vary depending on jurisdiction.\n3. Public oversight creates an immutable safeguard against the rapid sale of franchises when times are difficult; unlike private entities motivated solely by profit maximization or debt avoidance, public teams operate under mandates that require stability and long-term planning for the benefit of all taxpayers rather than a single shareholder group.\n\nOBJECTION:\nThe single weakest point in this plan is point 2: \"Municipal ownership structures legally mandate that revenue generated from the team be reinvested directly into local infrastructure, youth programs, or public services rather than being extracted as private shareholder dividends.\" This claim relies on an assumption about municipal government behavior and might not accurately reflect real-world practices.\n\nTo strengthen this plan, I demand a concrete change: Replace point 2 with more nuanced language, such as \"Municipal ownership structures often incorporate mechanisms to prioritize reinvestment of revenue in local infrastructure and community programs, although the specific terms may vary depending on jurisdiction.\""
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_5",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "In addition to prioritizing community stability, publicly owned sports teams are also more likely to be financially sustainable over the long term. By eliminating private owners' personal financial risks, public ownership structures can focus on building strong relationships with sponsors, advertisers, and fans, rather than trying to recoup losses through ticket price hikes.",
+    "replacement": "Beyond fostering community stability, publicly owned sports teams ensure greater long-term financial sustainability by shielding operations from the speculative risks borne by private owners. This structural advantage allows franchises to prioritize strategic partnerships with sponsors and advertisers while maintaining affordable fan engagement; rather than resorting to exorbitant ticket prices to"
+   }
+  }
+ ],
+ "artifact_final": "The current model of professional sports teams being privately owned has been criticized for prioritizing corporate profit over community interests. A shift towards public ownership would be a significant step forward in democratizing access to live sports and promoting long-term financial sustainability.\n\nOne of the primary benefits of publicly owned stadiums and operations is that they eliminate rent-seeking behaviors by wealthy owners who drive up ticket prices while paying themselves exorbitant salaries. These owners often view their teams as revenue-generating machines, rather than community assets. By contrast, public ownership structures prioritize accessibility over profit maximization. With public ownership, ticket prices can be kept lower, making live sports more accessible to a broader socioeconomic spectrum of fans.\n\nFor example, the Green Bay Packers are a publicly owned team in the National Football League (NFL). Since 1923, they have been owned by their fans, with each fan holding shares in the organization. This model has allowed the Packers to maintain affordable ticket prices and reinvest revenue in the local community. In fact, the Packers have allocated over $300 million in funds towards community programs, charitable initiatives, and stadium renovations since 2010.\n\nMunicipal ownership structures also often incorporate mechanisms to prioritize reinvestment of revenue in local infrastructure and community programs. For instance, the Seattle Seahawks' owner, Paul Allen, was criticized for his low-ball offer on a new stadium deal in 2012. In response, the city of Seattle pushed for a publicly funded stadium with revenue allocated towards community programs. This model has allowed the Seahawks to build state-of-the-art facilities while also contributing to the local economy.\n\nMoreover, public oversight creates an inherent accountability mechanism that private owners often lack. With public ownership, decision-making is guided by the needs and interests of the broader community, rather than just those of a single owner or corporate entity. This ensures that revenue generated from sports teams is reinvested in the local economy, promoting economic growth and job creation.\n\nBeyond fostering community stability, publicly owned sports teams ensure greater long-term financial sustainability by shielding operations from the speculative risks borne by private owners. This structural advantage allows franchises to prioritize strategic partnerships with sponsors and advertisers while maintaining affordable fan engagement; rather than resorting to exorbitant ticket prices to recoup losses or bail out individual investors, public ownership models focus on cultivating enduring relationships that secure the organization's future viability.\n\nCritics may argue that public ownership is unviable or that it will stifle innovation in the sports industry. However, numerous examples of successful publicly owned teams exist worldwide. From the Green Bay Packers to the Barcelona FC (owned by over 140,000 members), these models demonstrate that public ownership can be a viable and effective way to manage professional sports teams.\n\nIn conclusion, transitioning professional sports teams from private to public ownership would have significant benefits for communities across the country. By democratizing access, prioritizing community stability, and ensuring long-term financial sustainability, publicly owned teams can promote economic growth, social cohesion, and civic pride. It is time to reevaluate our current model of private ownership and explore alternatives that prioritize the needs of fans, not just corporate interests.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17400,
+ "context_fields": {},
+ "condition": {
+  "case_i": 12,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": true,
+  "topic_i": 2,
+  "repair_actor": "proposer"
+ },
+ "thesis": "Professional sports teams should transition from private to public ownership because this shift would democratize access, prioritize community stability over corporate profit, and ensure long-term financial sustainability.",
+ "word_count": 525
+}

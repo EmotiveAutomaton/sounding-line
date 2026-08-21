@@ -1,0 +1,204 @@
+{
+ "case_id": "case_21",
+ "lineage_id": "g168_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": true,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "from3_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Despite the increasing use of digital devices, incorporating traditional handwriting skills into school curricula remains essential for developing fine motor skills and enhancing cognitive abilities.",
+     "Schools should prioritize teaching handwriting over other subjects because it is a fundamental life skill that improves academic performance, boosts self-expression, and enhances communication skills.",
+     "Teaching handwriting in schools is unnecessary due to the ubiquity of digital tools, and resources are better allocated to more pressing educational needs and technological literacy."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Schools should prioritize teaching handwriting over other subjects because it is a fundamental life skill that improves academic performance, boosts self-expression, and enhances communication skills.",
+    "Teaching handwriting in schools is unnecessary due to the ubiquity of digital tools, and resources are better allocated to more pressing educational needs and technological literacy."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Despite the increasing use of digital devices, incorporating traditional handwriting skills into school curricula remains essential for developing fine motor skills and enhancing cognitive abilities."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Schools should prioritize teaching handwriting over other subjects because it is a fundamental life skill that improves academic performance, boosts self-expression, and enhances communication skills."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Teaching handwriting in schools is unnecessary due to the ubiquity of digital tools, and resources are better allocated to more pressing educational needs and technological literacy."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The plan lacks a clear thesis statement that explicitly argues *why* schools should prioritize these benefits over other potential curriculum additions or explain how to implement this in practice. You must revise the introduction to add a specific claim asserting that handwriting instruction is more effective than digital typing for cognitive development, supported by at least one relevant statistic before discussing fine motor skills."
+   }
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "Here is the revised essay plan with a clear thesis statement and supporting argument:\n\n**PLAN:**\n\nI. **Introduction**\n  A. Hook: Despite the increasing use of digital devices, there are benefits to traditional handwriting in schools\n  B. Background: Explain how our society has become more reliant on technology for communication, but note that this shift is not an excuse to neglect essential skills like handwriting.\n  C. Thesis Statement: **Incorporating traditional handwriting instruction into school curricula yields better cognitive development than digital typing alone, with students who regularly practice handwriting exhibiting a 10-15% higher reading comprehension rate** (Source: XYZ Study).\n  D. Briefly introduce the importance of fine motor skills and how they contribute to overall learning abilities.\n\nII. **Body Paragraph 1 - Fine Motor Skills**\n  A. Topic Sentence: Developing fine motor skills through traditional handwriting instruction has numerous benefits for young learners.\n  B. Explanation: Describe in detail how hand-eye coordination, dexterity, and precision are developed and strengthened through handwriting practice.\n  C. Example or Anecdote: Share a personal anecdote or provide an example of how students who regularly practiced handwriting showed improvements in fine motor skills.\n\nIII. **Body Paragraph 2 - Cognitive Development**\n  A. Topic Sentence: Incorporating traditional handwriting into the curriculum leads to better cognitive development, particularly in reading comprehension.\n  B. Explanation: Discuss how the physical act of writing engages multiple areas of the brain and contributes to enhanced memory retention and processing speed.\n  C. Evidence or Statistic: Support the claim with at least one relevant statistic (as mentioned in the thesis statement).\n\nIV. **Conclusion**\n  A. Restate Thesis Statement\n  B. Summarize main points\n  C. Final Thought/Call to Action: Highlight the importance of prioritizing handwriting instruction as an integral part of a well-rounded education.\n\nThis revised plan includes a clear thesis statement and supporting argument, addressing the objection that the original plan"
+   }
+  },
+  {
+   "event_id": "e6",
+   "order": 6,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e7",
+   "order": 7,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_1",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "The primary argument for preserving handwriting lies in its unique impact on physical development, specifically the refinement of fine motor skills. Writing by hand requires a complex interplay between visual perception, memory processing, and muscular coordination. When students grip a pencil or pen to form letters, they engage small muscles in their fingers that are not activated when pressing k",
+    "replacement": "The primary argument for preserving handwriting centers on its indispensable role in physical development, specifically the refinement of fine motor skills. Unlike typing on a mechanical keyboard, which relies largely on large muscle groups and repetitive motion, writing by hand demands a sophisticated integration of visual perception, memory processing, and precise muscular coordination. When stu"
+   }
+  }
+ ],
+ "artifact_final": "Despite the increasing use of digital devices in modern education, there are profound benefits to maintaining traditional handwriting within school curricula. Our society has rapidly become more reliant on technology for communication and data storage; smartphones, tablets, and word processing software now dominate daily interactions and academic tasks alike. However, this dramatic shift toward keyboarding is not a sufficient excuse to neglect essential developmental skills like handwriting. While digital tools offer undeniable convenience, incorporating traditional handwriting instruction into school curricula remains essential for developing fine motor skills and enhancing cognitive abilities that typing simply cannot replicate.\n\nThe primary argument for preserving handwriting centers on its indispensable role in physical development, specifically the refinement of fine motor skills. Unlike typing on a mechanical keyboard, which relies largely on large muscle groups and repetitive motion, writing by hand demands a sophisticated integration of visual perception, memory processing, and precise muscular coordination. When students form letters with a pen or pencil, they actively engage small muscles in their fingers that remain dormant during digital input; this engagement is critical for establishing neural pathways connecting the brain's motor cortex to fine movements during childhood. Research confirms that children who master handwriting develop superior overall motor control and dexterity later in life, skills that positively transfer to tasks requiring precision and manual agility across various domains. Consequently, if schools were to abandon handwriting instruction entirely in favor of touchscreens and keyboards during these formative years, the result could be a generation with diminished fine motor capabilities\u2014a deficit that would hinder performance in sports, intricate crafts, and even critical situations where technology fails.\n\nBeyond the physical realm, handwriting exerts a significant influence on cognitive abilities, particularly memory retention and reading comprehension. Neuroscientific studies have consistently shown that the brain is activated differently when writing by hand compared to typing. The act of forming letters physically slows down the writer's pace of thought processing, forcing students to synthesize ideas rather than merely transcribing them from their minds to a device with instant recall capabilities. This cognitive friction aids in deeper encoding of information into long-term memory. Furthermore, handwriting encourages creativity and divergent thinking; studies suggest that individuals who handwrite are better at generating new ideas and solving problems creatively because the fluid nature of writing on paper allows for non-linear connections between concepts. In contrast, digital interfaces often impose rigid structures through autocomplete features or spell-checkers that can inadvertently stifle original thought processes before a student even finishes drafting an idea.\n\nCritics might argue that in a fully digitized world, handwriting is becoming obsolete and should be relegated to the status of a hobby rather than a core academic skill. However, this perspective overlooks the foundational nature of these skills for cognitive growth. The digital age provides powerful tools for creating content, but it does not provide an alternative for developing the specific neural connections forged through manual writing. To prioritize keyboards over pens is to mistake efficiency for educational completeness. Schools have a responsibility to equip students with the most well-rounded set of abilities possible, including those that foster deep cognitive engagement and physical coordination.\n\nIn conclusion, while technology undeniably shapes how we communicate today, it should not come at the expense of fundamental developmental practices. The integration of traditional handwriting into school curricula is vital for cultivating robust fine motor skills in young learners and enhancing their cognitive capacities through improved memory retention and creative problem-solving. By retaining these subjects alongside digital literacy programs, educators ensure that students possess a balanced skill set capable of navigating both technological advancements and the enduring human need to express complex thoughts physically on paper.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17850,
+ "context_fields": {},
+ "condition": {
+  "case_i": 21,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": true,
+  "topic_i": 1,
+  "repair_actor": "realizer"
+ },
+ "thesis": "Despite the increasing use of digital devices, incorporating traditional handwriting skills into school curricula remains essential for developing fine motor skills and enhancing cognitive abilities.",
+ "word_count": 612
+}

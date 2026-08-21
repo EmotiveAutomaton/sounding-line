@@ -1,0 +1,166 @@
+{
+ "case_id": "case_06",
+ "lineage_id": "g168_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Schools must continue to prioritize handwriting instruction because it uniquely enhances cognitive development and reading comprehension in ways that typing cannot replicate.",
+     "While digital literacy is essential for the modern workforce, elementary education systems should not abandon cursive or print training due to its proven benefits for memory retention and neural connectivity.",
+     "The curriculum regarding writing skills requires a balanced approach where schools teach both handwriting and keyboarding to ensure students possess versatile communication tools without sacrificing foundational motor skill development."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Schools must continue to prioritize handwriting instruction because it uniquely enhances cognitive development and reading comprehension in ways that typing cannot replicate.",
+    "While digital literacy is essential for the modern workforce, elementary education systems should not abandon cursive or print training due to its proven benefits for memory retention and neural connectivity."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "The curriculum regarding writing skills requires a balanced approach where schools teach both handwriting and keyboarding to ensure students possess versatile communication tools without sacrificing foundational motor skill development."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Schools must continue to prioritize handwriting instruction because it uniquely enhances cognitive development and reading comprehension in ways that typing cannot replicate."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "While digital literacy is essential for the modern workforce, elementary education systems should not abandon cursive or print training due to its proven benefits for memory retention and neural connectivity."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_0",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "The importance of teaching handwriting in schools is often debated among educators and parents. While some argue that the rise of technology has rendered handwriting obsolete, others contend that it is still a vital skill for children to master. However, this debate overlooks the need for a balanced approach to writing skills education. Rather than choosing between handwriting and keyboarding, sch",
+    "replacement": "Although the rapid advancement of technology has led many educators and parents to question the necessity of teaching handwriting in schools, this debate frequently pits obsolete skills against modern digital literacy rather than recognizing them as complementary necessities. Rather than viewing keyboarding and cursive writing as competing priorities that require a choice, institutions must adopt "
+   }
+  }
+ ],
+ "artifact_final": "Although the rapid advancement of technology has led many educators and parents to question the necessity of teaching handwriting in schools, this debate frequently pits obsolete skills against modern digital literacy rather than recognizing them as complementary necessities. Rather than viewing keyboarding and cursive writing as competing priorities that require a choice, institutions must adopt an integrated approach that cultivates both capabilities. By valuing motor skill development alongside technological proficiency, schools can ensure students become versatile communicators equipped with the full spectrum of essential writing tools for diverse contexts.\n\nOne of the primary reasons schools should continue teaching handwriting is that it lays the groundwork for other writing skills. Research has shown that handwriting instruction is essential for developing fine motor control, hand-eye coordination, and cognitive skills such as working memory and attention. These fundamental skills are not only crucial for academic success but also have a lasting impact on individuals' ability to communicate effectively. Moreover, studies have linked handwriting difficulties to lower literacy levels and decreased academic achievement.\n\nHowever, with the increasing reliance on digital technology in schools, it is equally essential that students learn keyboarding skills. The prevalence of online learning platforms, email, and text messaging has made typing a vital tool for communication. Children who are proficient in typing can access information more quickly, participate in virtual discussions, and engage in collaborative projects. Neglecting to teach keyboarding would put students at a disadvantage in an increasingly digital world.\n\nBut what about the argument that teaching handwriting is a waste of time given the rise of touchscreens and voice-to-text technology? While it is true that these tools can assist with writing tasks, they are not a substitute for traditional handwriting. In fact, research suggests that students who learn to write by hand exhibit better retention rates and comprehension levels compared to those who rely solely on digital aids. This is because handwriting engages multiple senses \u2013 visual, motor, and auditory \u2013 allowing learners to absorb and process information more effectively.\n\nRather than pitting handwriting against keyboarding, schools should take a holistic approach to teaching writing skills. By providing students with instruction in both areas, educators can ensure that children possess the versatility to adapt to changing communication needs. A balanced curriculum would allow students to develop their fine motor skills through handwriting while also equipping them with the ability to type efficiently and accurately.\n\nUltimately, schools have a responsibility to provide students with a well-rounded education that prepares them for success in an increasingly complex world. By teaching both handwriting and keyboarding, educators can empower learners with versatile communication tools without sacrificing foundational motor skill development. This balanced approach will enable children to navigate the digital landscape with ease while also fostering their ability to express themselves through traditional writing.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17100,
+ "context_fields": {},
+ "condition": {
+  "case_i": 6,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 1,
+  "repair_actor": "proposer"
+ },
+ "thesis": "The curriculum regarding writing skills requires a balanced approach where schools teach both handwriting and keyboarding to ensure students possess versatile communication tools without sacrificing foundational motor skill development.",
+ "word_count": 464
+}

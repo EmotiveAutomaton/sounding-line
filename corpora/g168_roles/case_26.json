@@ -1,0 +1,166 @@
+{
+ "case_id": "case_26",
+ "lineage_id": "g168_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Schools should prioritize teaching handwriting as a fundamental skill that has lasting cognitive and academic benefits.",
+     "The diminishing importance of handwriting in modern technology-driven society renders it an unnecessary aspect of the curriculum.",
+     "Handwriting instruction is essential for students' ability to effectively participate in critical aspects of academic and professional life, including note-taking and standardized testing."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "The diminishing importance of handwriting in modern technology-driven society renders it an unnecessary aspect of the curriculum.",
+    "Handwriting instruction is essential for students' ability to effectively participate in critical aspects of academic and professional life, including note-taking and standardized testing."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Schools should prioritize teaching handwriting as a fundamental skill that has lasting cognitive and academic benefits."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The diminishing importance of handwriting in modern technology-driven society renders it an unnecessary aspect of the curriculum."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Handwriting instruction is essential for students' ability to effectively participate in critical aspects of academic and professional life, including note-taking and standardized testing."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_0",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "In an era dominated by digital interfaces where touchscreens and styluses have largely replaced the pen and paper, there is a growing movement among educators to de-emphasize traditional cursive instruction in favor of typing skills alone. While technology offers undeniable conveniences for information processing and storage, it does not replicate the neurological processes engaged when one writes",
+    "replacement": "Here is a rewritten version of the paragraph:\n\nIn an era dominated by digital interfaces, educators are increasingly tempted to abandon traditional cursive instruction in favor of typing skills alone. However, while technology offers many conveniences for processing and storing information, it fails to replicate the unique cognitive benefits that arise from writing with pen and paper. Handwriting "
+   }
+  }
+ ],
+ "artifact_final": "Here is a rewritten version of the paragraph:\n\nIn an era dominated by digital interfaces, educators are increasingly tempted to abandon traditional cursive instruction in favor of typing skills alone. However, while technology offers many conveniences for processing and storing information, it fails to replicate the unique cognitive benefits that arise from writing with pen and paper. Handwriting is not merely a relic of the past; it has lasting effects on cognitive development and academic performance that cannot be replicated by digital input. As such, schools should prioritize teaching handwriting as a fundamental skill.\n\nI made some changes to improve clarity and strength:\n\n* I rephrased some sentences for better flow and concision\n* I added more specific language (e.g., \"cognitive benefits\" instead of simply \"lasting cognitive benefits\")\n* I emphasized the importance of handwriting by highlighting its unique effects on academic performance and cognitive development.\n* I used more active and descriptive verbs (e.g., \"fail to replicate\" instead of \"does not replicate\")\n\nThe primary argument for maintaining handwriting in the curriculum lies in its profound impact on brain development and literacy acquisition. Neuroscientific research consistently demonstrates that the physical act of forming letters engages complex neural pathways differently than typing does. When children write by hand, they integrate motor skills with visual perception and language processing simultaneously. This multisensory engagement strengthens synaptic connections in the brain regions responsible for reading comprehension and memory retention. Studies have shown that students who learn to read from handwritten text demonstrate greater literacy progress compared to those relying solely on printed fonts or digital keyboards. The distinct shapes of cursive letters, particularly connected script, force the learner to construct a unique visual representation for each word, enhancing vocabulary recognition and recall. Without this foundational practice, young learners may struggle with spelling irregularities and reading fluency later in their academic careers.\n\nFurthermore, handwriting fosters deeper cognitive processing than typing ever can. The speed of typing encourages rapid transcription of thoughts without the necessary pause to reflect or organize ideas. In contrast, the physical constraints of writing by hand slow down the writer's pace, creating a natural buffer that allows for better reflection and synthesis of complex information. This forced deceleration is crucial for critical thinking; it compels students to paraphrase concepts in their own words rather than mindlessly copying text from screens. When students engage with material through handwriting, they are more likely to retain the information because the effort required to form each character creates a stronger memory trace. In high-stakes academic environments such as medical training or law school note-taking, these distinctions become even more pronounced, where concise, legible handwritten notes often yield better recall and understanding than voluminous typed summaries taken during lectures.\n\nCritics may argue that in an increasingly digital world, the ability to type is sufficient for future employment success. However, this perspective overlooks the fundamental nature of learning versus performing tasks. Schools are not merely vocational training centers; they are institutions dedicated to cognitive growth. Prioritizing handwriting ensures that every child, regardless of their long-term career path, possesses a robust internal framework for processing language and memory. If schools were to abandon handwriting instruction entirely, we risk creating a generation proficient in rapid data entry but deficient in deep conceptual understanding and retention.\n\nUltimately, the integration of technology should not come at the expense of foundational physical skills that shape our neural architecture. Schools have a moral and educational obligation to teach handwriting not as an archaic relic, but as an essential tool for cognitive development. By prioritizing this skill, educators empower students with enhanced literacy, improved memory retention, and superior critical thinking abilities. These benefits are intrinsic to the human experience of learning and provide a necessary counterbalance to the fleeting nature of digital consumption. Therefore, handwriting must remain a core component of the educational curriculum until science proves otherwise or technology fundamentally alters how we think.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18100,
+ "context_fields": {},
+ "condition": {
+  "case_i": 26,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 1,
+  "repair_actor": "proposer"
+ },
+ "thesis": "Schools should prioritize teaching handwriting as a fundamental skill that has lasting cognitive and academic benefits.",
+ "word_count": 651
+}

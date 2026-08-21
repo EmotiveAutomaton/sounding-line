@@ -1,0 +1,204 @@
+{
+ "case_id": "case_04",
+ "lineage_id": "g168_04",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_04",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": true,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "from3_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Space exploration warrants significant public investment because the technological spinoffs and scientific breakthroughs it generates directly improve life on Earth while fostering global cooperation.",
+     "Public funds should be redirected from unproven space missions to pressing terrestrial challenges like climate change and poverty, given that the economic return on space spending is negligible compared to domestic needs.",
+     "While commercial entities now dominate certain sectors of aerospace, continued public funding for fundamental astrophysics research remains essential to answer profound questions about our universe's origins and fate."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Public funds should be redirected from unproven space missions to pressing terrestrial challenges like climate change and poverty, given that the economic return on space spending is negligible compared to domestic needs.",
+    "While commercial entities now dominate certain sectors of aerospace, continued public funding for fundamental astrophysics research remains essential to answer profound questions about our universe's origins and fate."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Space exploration warrants significant public investment because the technological spinoffs and scientific breakthroughs it generates directly improve life on Earth while fostering global cooperation."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Public funds should be redirected from unproven space missions to pressing terrestrial challenges like climate change and poverty, given that the economic return on space spending is negligible compared to domestic needs."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "While commercial entities now dominate certain sectors of aerospace, continued public funding for fundamental astrophysics research remains essential to answer profound questions about our universe's origins and fate."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The plan's weakest point is that it makes a rather broad claim about the benefits of space exploration without providing specific examples or evidence to support this assertion. To strengthen this argument, I would demand one concrete change: add at least one detailed example of a technological spinoff or scientific breakthrough that has had a significant impact on life on Earth, such as the development of GPS technology or the discovery of penicillin-like antibiotics in space research."
+   }
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "PLAN:\nSpace exploration warrants significant public investment because the specific technological spinoffs and scientific breakthroughs it generates directly improve life on Earth while fostering global cooperation; for instance, investments have already yielded critical advancements like GPS technology, which revolutionized navigation logistics and emergency response systems worldwide, alongside medical imaging innovations derived from space-based sensors that enhance diagnostic accuracy.\n\nOBJECTION:\nThe plan's weakest point is that it makes a rather broad claim about the benefits of space exploration without providing specific examples or evidence to support this assertion. To strengthen this argument, I would demand one concrete change: add at least one detailed example of a technological spinoff or scientific breakthrough that has had a significant impact on life on Earth, such as the development of GPS technology or the discovery of penicillin-like antibiotics in space research."
+   }
+  },
+  {
+   "event_id": "e6",
+   "order": 6,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e7",
+   "order": 7,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_1",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "A prime example of this is the GPS technology, which has revolutionized navigation logistics and emergency response systems worldwide. Developed initially to support military operations, GPS has since become an indispensable tool in daily life, from guiding travelers through unfamiliar territories to ensuring timely delivery of critical packages. This innovation was made possible by the significan",
+    "replacement": "A prime example is GPS technology, which has fundamentally transformed global navigation logistics and emergency response systems. Originally developed for military operations, this innovation now serves as an indispensable daily utility, guiding travelers through unfamiliar terrain and ensuring the timely delivery of critical supplies; its creation was directly enabled by significant public inves"
+   }
+  }
+ ],
+ "artifact_final": "Space exploration is often viewed as a luxury that cannot be afforded by governments struggling to allocate resources for pressing domestic issues. However, I firmly believe that investing in space exploration is not only justifiable but also essential for the betterment of life on Earth. The technological and scientific advancements generated by space research directly benefit humanity while promoting international cooperation.\n\nA prime example is GPS technology, which has fundamentally transformed global navigation logistics and emergency response systems. Originally developed for military operations, this innovation now serves as an indispensable daily utility, guiding travelers through unfamiliar terrain and ensuring the timely delivery of critical supplies; its creation was directly enabled by significant public investment in space exploration during the Cold War era. Furthermore, medical imaging technologies derived from these same space-based sensors have significantly enhanced diagnostic accuracy, empowering physicians to provide superior patient care.\n\nBeyond these practical applications, space research also drives scientific breakthroughs with far-reaching implications for our understanding of the universe and its many mysteries. For instance, studying black holes has not only shed light on these cosmic phenomena but has also led scientists to reevaluate their theories about gravity and the behavior of matter. These advancements have profound consequences for fields such as physics, mathematics, and astronomy.\n\nFurthermore, investing in space exploration fosters global cooperation among nations. By working together on shared missions to explore and understand our cosmos, countries can transcend political differences and collaborate towards a common goal. This collaborative environment has already led to numerous cooperative ventures, such as the International Space Station project, which brings together scientists from around the world.\n\nMoreover, investing in space exploration also drives innovation back on Earth by pushing the boundaries of what is thought possible with technology. When faced with the challenges posed by space travel, engineers and scientists must develop novel solutions that often have far-reaching applications beyond the confines of space. For instance, advances made in robotic systems for exploring extraterrestrial environments have inspired similar technologies used in factories and warehouses.\n\nWhile it may seem incongruous to prioritize funding for space exploration during a time when pressing social issues such as poverty, inequality, or climate change require attention, I argue that investing in space research is not mutually exclusive with addressing these concerns. In fact, it can contribute indirectly by driving technological advancements that ultimately benefit humanity.\n\nIn conclusion, the benefits of space exploration go far beyond mere scientific curiosity; they have direct and tangible implications for life on Earth. The technological spinoffs and scientific breakthroughs generated by this field are crucial to improving navigation, healthcare, and our understanding of the universe. Moreover, investing in space research fosters global cooperation among nations while driving innovation back home.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17000,
+ "context_fields": {},
+ "condition": {
+  "case_i": 4,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": true,
+  "topic_i": 4,
+  "repair_actor": "proposer"
+ },
+ "thesis": "Space exploration warrants significant public investment because the technological spinoffs and scientific breakthroughs it generates directly improve life on Earth while fostering global cooperation.",
+ "word_count": 455
+}

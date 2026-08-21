@@ -1,0 +1,135 @@
+{
+ "case_id": "case_11",
+ "lineage_id": "g168_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": true,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "accept_first_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "While digital literacy is essential in the modern age, elementary schools must prioritize teaching cursive or printed handwriting to foster cognitive development and preserve cultural accessibility.",
+    "plan": "1. **Cognitive Benefits**: Explain how the physical act of writing by hand actively engages neural pathways differently than typing, enhancing memory retention, reading comprehension, and fine motor skill development.\n2. **Universal Accessibility**: Argue that maintaining handwriting skills ensures inclusivity for students with learning disabilities (such as dyslexia or dysgraphia) who may struggle to keep pace with keyboarding speed but can process written information more effectively when writing it out themselves.\n3. **Cultural Continuity**: Demonstrate the value of preserving handwritten c"
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "I'd argue that the weakest point in this plan is the third point, \"Cultural Continuity\", as it feels somewhat vague and disconnected from the other two points, which focus on cognitive benefits and accessibility.\n\nTo strengthen this point, I would demand a concrete change: **Replace the broad statement about cultural continuity with a specific example of how handwriting skills are essential for preserving historical documents or artistic traditions**, such as calligraphy or illuminated manuscripts."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "PLAN:\n1. **Cognitive Benefits**: Explain how the physical act of writing by hand actively engages neural pathways differently than typing, enhancing memory retention, reading comprehension, and fine motor skill development.\n2. **Universal Accessibility**: Argue that maintaining handwriting skills ensures inclusivity for students with learning disabilities (such as dyslexia or dysgraphia) who may struggle to keep pace with keyboarding speed but can process written information more effectively when writing it out themselves.\n3. **Historical and Artistic Preservation**: Demonstrate the value of preserving handwritten cursive by connecting personal literacy to tangible cultural heritage, specifically illustrating how mastery of traditional script is essential for accurately reading historical documents or reproducing artistic traditions like calligraphy and illuminated manuscripts without reliance on digital transcription tools."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_2",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Moreover, maintaining handwriting skills is essential for ensuring universal accessibility in education. Students with learning disabilities, such as dyslexia or dysgraphia, often struggle to keep pace with keyboarding speed but may be able to process written information more effectively when writing by hand. By preserving traditional handwriting skills, schools can provide these students with a v",
+    "replacement": "Here is the rewritten paragraph:\n\nMaintaining traditional handwriting skills is crucial for ensuring universal accessibility in education. Students with learning disabilities such as dyslexia or dysgraphia may find it difficult to keep pace with keyboarding demands, but hand-writing allows them to process written information more effectively and retain better comprehension. By preserving this fund"
+   }
+  }
+ ],
+ "artifact_final": "The debate over whether schools should prioritize teaching handwriting has sparked intense discussion in recent years, with some arguing that digital literacy is the only essential skill for modern students. However, I firmly believe that elementary schools must continue to teach cursive or printed handwriting as a vital part of their curriculum. While digital tools have undoubtedly made a significant impact on our daily lives, neglecting traditional handwriting skills would be detrimental to both cognitive development and universal accessibility.\n\nOne of the primary benefits of teaching handwriting is its positive impact on cognitive development. When students write by hand, they engage multiple neural pathways simultaneously, including motor skills, memory retention, and reading comprehension. Research has consistently shown that physical writing promotes deeper understanding and processing of material compared to typing. This is because the act of putting pen to paper requires active engagement with the written word, fostering a more nuanced connection between the brain's visual and motor cortices. In contrast, typing can lead to mindless scrolling and lackluster retention of information. By teaching handwriting, schools can enhance students' ability to think critically and retain knowledge over time.\n\nHere is the rewritten paragraph:\n\nMaintaining traditional handwriting skills is crucial for ensuring universal accessibility in education. Students with learning disabilities such as dyslexia or dysgraphia may find it difficult to keep pace with keyboarding demands, but hand-writing allows them to process written information more effectively and retain better comprehension. By preserving this fundamental skill, schools can provide students with a vital tool that enables them to access educational materials and complete assignments independently, without the barriers created by digital tools that rely on typing proficiency. In fact, handwriting fosters an inclusive environment where all students can engage equally, regardless of their ability or learning style.\n\nAnother significant advantage of teaching handwriting is its preservation of cultural accessibility. Handwritten texts are an integral part of many cultures' historical and artistic heritage. For example, cursive writing has been used in various forms throughout history, from ancient Egyptian hieroglyphs to modern-day signatures. By teaching cursive or printed handwriting, schools can help students connect with their cultural roots and develop a deeper appreciation for the written word.\n\nIn conclusion, while digital literacy is undoubtedly essential in today's world, it is not a sufficient reason to abandon traditional handwriting skills. Teaching cursive or printed handwriting has numerous cognitive benefits that enhance memory retention, reading comprehension, and fine motor skill development. Moreover, preserving these skills ensures universal accessibility for students with learning disabilities and preserves cultural heritage. As we continue to navigate the complexities of digital communication, it is more crucial than ever to prioritize the preservation of traditional handwriting in our schools.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17350,
+ "context_fields": {},
+ "condition": {
+  "case_i": 11,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": true,
+  "topic_i": 1,
+  "repair_actor": "realizer"
+ },
+ "thesis": "While digital literacy is essential in the modern age, elementary schools must prioritize teaching cursive or printed handwriting to foster cognitive development and preserve cultural accessibility.",
+ "word_count": 448
+}

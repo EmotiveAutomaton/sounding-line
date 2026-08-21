@@ -1,0 +1,166 @@
+{
+ "case_id": "case_05",
+ "lineage_id": "g168_00",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_00",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Cities must implement strict bans on private vehicles in urban centers because doing so is the most effective strategy for reducing air pollution and reclaiming public space for pedestrians.",
+     "While banning private cars could improve environmental quality, municipalities should instead prioritize investing in reliable public transit infrastructure as a more equitable solution that does not disproportionately burden residents who rely solely on automobiles.",
+     "A complete prohibition of private cars is unnecessary; cities can achieve their sustainability goals by adopting graduated congestion pricing and expanding electric vehicle charging networks to incentivize cleaner transportation without eliminating personal mobility options entirely."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Cities must implement strict bans on private vehicles in urban centers because doing so is the most effective strategy for reducing air pollution and reclaiming public space for pedestrians.",
+    "While banning private cars could improve environmental quality, municipalities should instead prioritize investing in reliable public transit infrastructure as a more equitable solution that does not disproportionately burden residents who rely solely on automobiles."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "A complete prohibition of private cars is unnecessary; cities can achieve their sustainability goals by adopting graduated congestion pricing and expanding electric vehicle charging networks to incentivize cleaner transportation without eliminating personal mobility options entirely."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Cities must implement strict bans on private vehicles in urban centers because doing so is the most effective strategy for reducing air pollution and reclaiming public space for pedestrians."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "While banning private cars could improve environmental quality, municipalities should instead prioritize investing in reliable public transit infrastructure as a more equitable solution that does not disproportionately burden residents who rely solely on automobiles."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_6",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "In conclusion, banning private cars from city centers is an unnecessary measure that would have significant economic and social implications for many individuals and businesses. Cities should instead adopt more nuanced measures such as graduated congestion pricing and expanded EV charging networks to promote cleaner transportation while still allowing personal mobility options.",
+    "replacement": "Here is a rewritten version of the paragraph:\n\nWhile banning private cars from city centers may be considered a bold solution, it would have far-reaching consequences that outweigh its potential benefits. A more effective approach would be to implement graduated congestion pricing and expand electric vehicle charging networks, allowing cities to balance the need for cleaner transportation with the"
+   }
+  }
+ ],
+ "artifact_final": "The debate on whether cities should ban private cars from their centers has been ongoing for years. While some argue that a complete prohibition is necessary to achieve sustainability goals, others believe that it is an unnecessary measure. In this essay, I will defend the latter view and propose that cities can adopt more nuanced measures such as graduated congestion pricing and expanded electric vehicle (EV) charging networks to promote cleaner transportation without eliminating personal mobility options.\n\nFirst and foremost, banning private cars from city centers would have significant economic implications for many individuals and businesses. For some residents, a car is not just a luxury but a necessity, especially for those with disabilities or living in areas without reliable public transportation. Small business owners who rely on their vehicles to deliver goods and services would also be severely impacted by such a ban. Such an approach could lead to increased unemployment and economic hardship, which would negate the environmental benefits.\n\nMoreover, banning private cars is not the most effective way to address traffic congestion and air pollution. Congestion pricing, on the other hand, has been shown to significantly reduce traffic levels while generating revenue for public transportation improvements. Graduated pricing, where charges increase as traffic volume increases, can be particularly effective in reducing peak-hour congestion. This approach allows drivers to make informed decisions about when to travel and encourages them to use alternative modes of transport during peak hours.\n\nIn addition to graduated congestion pricing, cities should also invest in expanding EV charging networks. This not only reduces the reliance on fossil fuels but also provides a cleaner alternative for those who still need to own private vehicles. Governments can incentivize the adoption of electric cars by offering rebates or tax credits to buyers and investing in public charging infrastructure.\n\nAnother advantage of this approach is that it leaves room for personal mobility options. People will always have different needs and preferences when it comes to transportation, and a complete ban on private cars would not cater to these diverse requirements. Moreover, restricting access to city centers could lead to increased travel times and decreased productivity as people are forced to navigate longer routes.\n\nWhile some may argue that a complete prohibition is necessary to achieve sustainability goals, I believe that cities can achieve their objectives through more nuanced measures. By adopting graduated congestion pricing and expanding EV charging networks, cities can reduce traffic levels and air pollution without eliminating personal mobility options entirely. This approach balances the need for cleaner transportation with the economic and practical needs of residents.\n\nHere is a rewritten version of the paragraph:\n\nWhile banning private cars from city centers may be considered a bold solution, it would have far-reaching consequences that outweigh its potential benefits. A more effective approach would be to implement graduated congestion pricing and expand electric vehicle charging networks, allowing cities to balance the need for cleaner transportation with the importance of personal mobility.\n\nI made some changes to improve clarity and strength:\n\n* Changed \"In conclusion\" to a more nuanced beginning that sets up the argument.\n* Emphasized the potential consequences of banning private cars, making it clear why this approach is undesirable.\n* Used more active and descriptive verbs (\"would have far-reaching consequences\" instead of \"would have significant economic and social implications\").\n* Changed the phrasing to make the proposed alternative measures (graduated congestion pricing and EV charging networks) sound more effective and practical.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17050,
+ "context_fields": {},
+ "condition": {
+  "case_i": 5,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 0,
+  "repair_actor": "realizer"
+ },
+ "thesis": "A complete prohibition of private cars is unnecessary; cities can achieve their sustainability goals by adopting graduated congestion pricing and expanding electric vehicle charging networks to incentivize cleaner transportation without eliminating personal mobility options entirely.",
+ "word_count": 575
+}

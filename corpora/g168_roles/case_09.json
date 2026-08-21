@@ -1,0 +1,166 @@
+{
+ "case_id": "case_09",
+ "lineage_id": "g168_04",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_04",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Public funding for space exploration is justified because it drives technological innovations that directly benefit daily life and solves critical challenges like climate change.",
+     "Taxpayers should not finance outer space ventures until the economic returns from terrestrial investments are maximized, as current public spending prioritizes immediate societal needs over distant scientific curiosity.",
+     "Investing in space programs serves both pragmatic goals such as resource acquisition and inspirational purposes by demonstrating international cooperation to address existential threats like asteroid impacts."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Taxpayers should not finance outer space ventures until the economic returns from terrestrial investments are maximized, as current public spending prioritizes immediate societal needs over distant scientific curiosity.",
+    "Investing in space programs serves both pragmatic goals such as resource acquisition and inspirational purposes by demonstrating international cooperation to address existential threats like asteroid impacts."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Public funding for space exploration is justified because it drives technological innovations that directly benefit daily life and solves critical challenges like climate change."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Taxpayers should not finance outer space ventures until the economic returns from terrestrial investments are maximized, as current public spending prioritizes immediate societal needs over distant scientific curiosity."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Investing in space programs serves both pragmatic goals such as resource acquisition and inspirational purposes by demonstrating international cooperation to address existential threats like asteroid impacts."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "llama",
+   "operation": "repair",
+   "target": "paragraph_0",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Public funding for space exploration has been a contentious topic for many years, with some arguing that it is a frivolous waste of taxpayer dollars. However, I firmly believe that investing in space exploration is justified because it drives technological innovations that directly benefit daily life and helps solve critical challenges like climate change.",
+    "replacement": "Here's the rewritten paragraph:\n\nThe allocation of public funds for space exploration has long been a contentious issue, with some critics dismissing it as an unnecessary drain on taxpayer resources. Nevertheless, I firmly believe that investing in space research is justified because its outcomes have a direct and far-reaching impact on our daily lives. By driving technological innovations and tac"
+   }
+  }
+ ],
+ "artifact_final": "Here's the rewritten paragraph:\n\nThe allocation of public funds for space exploration has long been a contentious issue, with some critics dismissing it as an unnecessary drain on taxpayer resources. Nevertheless, I firmly believe that investing in space research is justified because its outcomes have a direct and far-reaching impact on our daily lives. By driving technological innovations and tackling pressing global challenges like climate change, space exploration enables us to address some of humanity's most critical needs while advancing the frontiers of scientific knowledge.\n\nOne of the primary arguments against public funding for space exploration is that it is a luxury we cannot afford when there are pressing problems on Earth that require attention. While this argument has some merit, it neglects to consider the long-term benefits that space exploration can bring to society. For instance, the technologies developed for space exploration have led to significant advancements in fields like medicine, transportation, and communication. Tetracycline antibiotics, memory foam mattresses, and GPS navigation systems are just a few examples of innovations that were initially developed with the goal of benefiting space travel.\n\nMoreover, these technological breakthroughs not only improve our quality of life but also address critical challenges facing humanity. Climate change, for example, is one of the most pressing issues of our time. While some argue that we should focus solely on solving Earth-based problems, investing in space exploration can actually provide vital tools to mitigate its effects. For instance, satellites can monitor global greenhouse gas emissions and help track climate-related disasters like hurricanes and wildfires. Additionally, scientists are exploring ways to use space-based solar power systems to generate clean energy.\n\nFurthermore, public funding for space exploration fosters a culture of innovation that benefits other areas of research and development as well. By pushing the boundaries of what is thought possible, governments and private companies invest in cutting-edge technologies that can be adapted to various industries. For example, SpaceX's reusable rockets have reduced the cost of launching satellites into orbit by 90%, which has made space exploration more accessible to smaller countries and startups.\n\nIt is also worth noting that private investment in space exploration is growing rapidly, with companies like SpaceX, Blue Origin, and Virgin Galactic driving innovation without relying on public funding. However, this does not mean that governments should abandon their role in supporting space research altogether. In fact, government agencies often provide essential resources and infrastructure for scientific research and development, including access to top talent, state-of-the-art facilities, and strategic partnerships.\n\nIn conclusion, public funding for space exploration is justified because it drives technological innovations that directly benefit daily life and helps solve critical challenges like climate change. By investing in space exploration, governments can leverage breakthroughs that improve our quality of life on Earth while pushing the boundaries of what is possible in space. As we face an increasingly complex and interconnected world, continued support for space research is essential to ensuring a bright future for humanity.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17250,
+ "context_fields": {},
+ "condition": {
+  "case_i": 9,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 4,
+  "repair_actor": "realizer"
+ },
+ "thesis": "Public funding for space exploration is justified because it drives technological innovations that directly benefit daily life and solves critical challenges like climate change.",
+ "word_count": 501
+}

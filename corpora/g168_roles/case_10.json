@@ -1,0 +1,135 @@
+{
+ "case_id": "case_10",
+ "lineage_id": "g168_00",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_00",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": true,
+  "repair_actor": "proposer"
+ },
+ "participants": {
+  "qwen": "local_model_proposer",
+  "llama": "local_model_realizer"
+ },
+ "route_family": "accept_first_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "Cities should implement strict bans on private vehicles in their central districts to significantly reduce air pollution, reclaim public space for pedestrians and cyclists, and foster a more connected community atmosphere.",
+    "plan": "1. **Environmental Impact**: Demonstrate how eliminating idling traffic engines will drastically lower nitrogen oxide emissions and particulate matter, leading to measurable improvements in local air quality and public health outcomes.\n2. **Urban Mobility and Space Analysis**: Argue that removing parking lots and narrow lanes dedicated solely to cars allows municipalities to redesign streets for walking paths, green spaces, and wider sidewalks, thereby increasing property values and accessibility for all residents.\n3. **Social Cohesion Assessment**: Explain how pedestrian-friendly zones encour"
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "llama",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The single weakest point of this plan is the vague \"measurable improvements in local air quality and public health outcomes\" statement in section 1, as it lacks specificity about what exactly these improvements would be and how they would be measured.\n\nI demand that one concrete change be made to add quantitative data, such as: \"Demonstrate how eliminating idling traffic engines will reduce nitrogen oxide emissions by at least 25% within the first year of implementation.\""
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "PLAN:\n1. **Environmental Impact**: Demonstrate how eliminating idling traffic engines will drastically lower nitrogen oxide emissions and particulate matter, leading to measurable improvements in local air quality and public health outcomes; specifically, this plan now asserts that engine elimination will reduce nitrogen oxide (NOx) emissions by at least 25% within the first year of implementation.\n2. **Urban Mobility and Space Analysis**: Argue that removing parking lots and narrow lanes dedicated solely to cars allows municipalities to redesign streets for walking paths, green spaces, and wider sidewalks, thereby increasing property values and accessibility for all residents.\n3. **Social Cohesion Assessment**: Explain how pedestrian-friendly zones encour"
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "llama",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_1",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "One of the most significant benefits of banning private cars from city centers is the drastic reduction in air pollution. Every year, millions of vehicles idle on congested streets, emitting massive amounts of nitrogen oxide (NOx) and particulate matter into the air. These pollutants are not only a threat to public health but also contribute significantly to climate change. By removing private veh",
+    "replacement": "One of the most significant benefits of banning private cars from city centers is a drastic reduction in air pollution, achieved primarily by eliminating idling vehicles on congested streets. These stationary engines are major sources of nitrogen oxide (NOx) and particulate matter; removing them not only mitigates threats to public health but also substantially curbs local contributions to climate"
+   }
+  }
+ ],
+ "artifact_final": "Cities should implement strict bans on private vehicles in their central districts to significantly reduce air pollution, reclaim public space for pedestrians and cyclists, and foster a more connected community atmosphere. By doing so, urban areas can become cleaner, safer, and more livable environments.\n\nOne of the most significant benefits of banning private cars from city centers is a drastic reduction in air pollution, achieved primarily by eliminating idling vehicles on congested streets. These stationary engines are major sources of nitrogen oxide (NOx) and particulate matter; removing them not only mitigates threats to public health but also substantially curbs local contributions to climate change. By restricting private vehicle access, cities can achieve measurable improvements in air quality almost immediately: studies indicate that banning idling traffic reduces NOx emissions by at least 25% within the first year of implementation, delivering tangible gains for both environmental sustainability and community well-being.\n\nMoreover, banning private cars from city centers provides an opportunity for urban planners to reclaim valuable space for pedestrians and cyclists. Narrow lanes dedicated to private vehicles often encroach on sidewalks and pedestrian zones, making it difficult for people to navigate through crowded streets. By eliminating parking lots and narrowing lanes, cities can widen sidewalks, create bike lanes, and establish public spaces where people can socialize and engage in community activities. This shift towards a more pedestrian-friendly environment promotes physical activity, community engagement, and economic growth.\n\nThe benefits of banning private cars from city centers extend beyond environmental and spatial considerations. By reducing the dominance of private vehicles, cities can foster a more connected community atmosphere. When pedestrians and cyclists are prioritized over drivers, streets become vibrant hubs for social interaction, street performances, and public events. Cities like Copenhagen and Barcelona have already implemented successful car-free policies, transforming their city centers into thriving public spaces that promote creativity, cultural exchange, and a sense of belonging among residents.\n\nIn addition to these benefits, banning private cars from city centers also addresses the issue of urban inequality. By reducing the reliance on personal vehicles, cities can ensure that all residents have access to clean air, safe roads, and community spaces, regardless of their economic background or mobility needs. This shift towards sustainable transportation can help bridge the gap between affluent and disadvantaged communities, promoting greater social cohesion and equality.\n\nIn conclusion, banning private cars from city centers is a necessary step towards creating cleaner, safer, and more livable environments. By eliminating idling traffic engines, reclaiming public space for pedestrians and cyclists, and fostering a more connected community atmosphere, cities can significantly reduce air pollution, promote physical activity and community engagement, and address urban inequality. Cities should implement strict bans on private vehicles in their central districts to reap these benefits and create a healthier, more sustainable future for all residents.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 17300,
+ "context_fields": {},
+ "condition": {
+  "case_i": 10,
+  "proposer": "qwen",
+  "realizer": "llama",
+  "selection": "accept_first",
+  "veto": true,
+  "topic_i": 0,
+  "repair_actor": "proposer"
+ },
+ "thesis": "Cities should implement strict bans on private vehicles in their central districts to significantly reduce air pollution, reclaim public space for pedestrians and cyclists, and foster a more connected community atmosphere.",
+ "word_count": 468
+}

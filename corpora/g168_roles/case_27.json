@@ -1,0 +1,166 @@
+{
+ "case_id": "case_27",
+ "lineage_id": "g168_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "The public ownership of professional sports teams would provide increased accountability and transparency in team operations, ultimately leading to better treatment of players and improved community involvement.",
+     "As privately-owned teams often prioritize profit over fan interests and local economic development, public ownership is essential for ensuring that the needs of fans and stakeholders are prioritized.",
+     "The adoption of public ownership models for professional sports teams would not only mitigate the exploitative tendencies of wealthy team owners but also open up opportunities for grassroots investment and community-driven decision-making."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "As privately-owned teams often prioritize profit over fan interests and local economic development, public ownership is essential for ensuring that the needs of fans and stakeholders are prioritized.",
+    "The adoption of public ownership models for professional sports teams would not only mitigate the exploitative tendencies of wealthy team owners but also open up opportunities for grassroots investment and community-driven decision-making."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "The public ownership of professional sports teams would provide increased accountability and transparency in team operations, ultimately leading to better treatment of players and improved community involvement."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "As privately-owned teams often prioritize profit over fan interests and local economic development, public ownership is essential for ensuring that the needs of fans and stakeholders are prioritized."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The adoption of public ownership models for professional sports teams would not only mitigate the exploitative tendencies of wealthy team owners but also open up opportunities for grassroots investment and community-driven decision-making."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_0",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "The landscape of professional athletics is often defined by staggering wealth generation and global fame, yet the underlying structure remains precarious for many participants. Currently, over 90 percent of major league teams in North America are privately held entities or family-owned businesses. While this model has driven significant economic growth in various cities, it frequently results in a",
+    "replacement": "Although professional athletics is characterized by staggering wealth and global fame, its foundation remains precarious for many participants: currently, over 90 percent of North American major league teams are privately held or family-owned enterprises. While this ownership model has spurred urban economic growth, it often creates a harmful disconnect between owners' financial interests and the "
+   }
+  }
+ ],
+ "artifact_final": "Although professional athletics is characterized by staggering wealth and global fame, its foundation remains precarious for many participants: currently, over 90 percent of North American major league teams are privately held or family-owned enterprises. While this ownership model has spurred urban economic growth, it often creates a harmful disconnect between owners' financial interests and the welfare of players and local communities. Transitioning to public ownership would do more than change title deeds; it would fundamentally restructure these organizations by enforcing greater accountability and transparency, thereby ensuring fairer treatment for athletes and fostering deeper community engagement.\n\nThe primary argument for public ownership lies in the stark contrast between private profit motives and public welfare mandates. Private owners face immense pressure from shareholders or family legacies to maximize revenue through ticket sales, merchandising, and broadcasting rights. This often leads to practices that prioritize cost-cutting over player safety or well-being, such as pushing athletes into grueling schedules without adequate recovery time or cutting medical budgets when injuries threaten long-term viability. In a publicly owned model, the entity operates as an instrument of public service rather than private enrichment. Consequently, decision-making processes regarding salary structures, health benefits, and working conditions would be subject to democratic oversight and legislative scrutiny. This layer of accountability ensures that player contracts are fair and competitive, preventing the exploitation often seen in free-agent markets where teams can easily undercut one another while players remain vulnerable due to a lack of leverage against wealthy owners.\n\nFurthermore, public ownership necessitates a level of transparency regarding financial operations that private corporations rarely disclose voluntarily. Private teams frequently utilize complex legal structures like holding companies or trusts to shield their true net worth from the tax man and the public eye. This opacity allows them to write off losses as entertainment expenses while pocketing massive profits in offshore accounts, all under the guise of \"team values\" exceeding salary caps. A publicly owned franchise would be required to file standard financial reports accessible to taxpayers and community members. Such transparency fosters trust between fans and teams, transforming sports franchises from distant corporations into genuine neighborhood institutions. When communities understand exactly where their local team's money goes\u2014specifically how much is reinvested in youth programs versus executive bonuses\u2014they are more likely to engage actively with the organization. This engagement evolves beyond mere attendance at games; it becomes a partnership where residents feel ownership not just emotionally, but financially and civically.\n\nCritics might argue that public entities lack the agility or passion of private owners, potentially leading to stagnation in competitiveness. However, history suggests that stability breeds longevity. The Cleveland Indians' brief attempt as a publicly owned franchise demonstrated how state backing could sustain an organization through lean years while keeping tickets affordable for working-class families who were previously priced out by luxury box trends and inflated merchandise costs. In this scenario, \"better treatment of players\" extends beyond just wages; it includes creating safer stadiums, enforcing stricter labor standards against third-party vendors like training facilities, and ensuring that the team acts as a stabilizing economic force during downturns rather than fleeing cities for higher tax rates elsewhere.\n\nIn conclusion, while private ownership has produced great entertainment spectacles, it often does so at the expense of ethical consistency and community integration. Public ownership aligns the incentives of sports franchises with the public good, ensuring that human beings are treated as partners in a shared cultural endeavor rather than expendable assets for profit margins. By mandating transparency and enforcing accountability through democratic channels, society can secure an era where professional teams genuinely serve their cities, prioritizing the health of players and the enrichment of neighborhoods above quarterly earnings reports. This structural shift represents not just a change in management, but a moral imperative to ensure that the pinnacle of human athletic achievement serves the public trust it implicitly relies upon.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18150,
+ "context_fields": {},
+ "condition": {
+  "case_i": 27,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 2,
+  "repair_actor": "realizer"
+ },
+ "thesis": "The public ownership of professional sports teams would provide increased accountability and transparency in team operations, ultimately leading to better treatment of players and improved community involvement.",
+ "word_count": 650
+}

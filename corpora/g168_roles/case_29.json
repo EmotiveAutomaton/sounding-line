@@ -1,0 +1,166 @@
+{
+ "case_id": "case_29",
+ "lineage_id": "g168_04",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_04",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "from3_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Despite the high costs and uncertain benefits, investing in space exploration is crucial for advancing human understanding of the universe and driving technological innovation that can improve life on Earth.",
+     "Public funding of space exploration constitutes a necessary investment in long-term scientific progress and national security interests that outweighs the short-term financial burdens it imposes on taxpayers.",
+     "Given the minimal tangible benefits and vast financial risks, public funds should be redirected from space exploration to more pressing terrestrial needs such as poverty reduction and environmental conservation."
+    ]
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e0"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Public funding of space exploration constitutes a necessary investment in long-term scientific progress and national security interests that outweighs the short-term financial burdens it imposes on taxpayers.",
+    "Given the minimal tangible benefits and vast financial risks, public funds should be redirected from space exploration to more pressing terrestrial needs such as poverty reduction and environmental conservation."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Despite the high costs and uncertain benefits, investing in space exploration is crucial for advancing human understanding of the universe and driving technological innovation that can improve life on Earth."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Public funding of space exploration constitutes a necessary investment in long-term scientific progress and national security interests that outweighs the short-term financial burdens it imposes on taxpayers."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Given the minimal tangible benefits and vast financial risks, public funds should be redirected from space exploration to more pressing terrestrial needs such as poverty reduction and environmental conservation."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e5",
+   "order": 5,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_0",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "The debate over government spending often centers on tangible returns versus abstract ideals, creating a friction point where proposals to fund space exploration are frequently dismissed as frivolous luxuries in an era of pressing earthly crises. Critics rightly point out the staggering costs associated with launching rockets and maintaining orbital stations, noting that billions spent on distant ",
+    "replacement": "The debate over government spending often pits tangible returns against abstract ideals, leading many to dismiss proposals for funding space exploration as frivolous luxuries in an era defined by urgent terrestrial crises. While critics correctly highlight the staggering costs of launching rockets and maintaining orbital stations\u2014arguing that billions spent on distant stars could better address po"
+   }
+  }
+ ],
+ "artifact_final": "The debate over government spending often pits tangible returns against abstract ideals, leading many to dismiss proposals for funding space exploration as frivolous luxuries in an era defined by urgent terrestrial crises. While critics correctly highlight the staggering costs of launching rockets and maintaining orbital stations\u2014arguing that billions spent on distant stars could better address poverty, climate change, or healthcare shortages at home\u2014this perspective relies on a short-sighted view of value that ignores space exploration's role as a primary catalyst for technological breakthroughs and deeper understanding. Despite these high expenses and uncertain immediate benefits, investing in the cosmos is essential not merely out of curiosity about what lies beyond our atmosphere, but because it drives the specific innovations required to solve humanity's most difficult challenges on Earth.\n\nThe argument that money spent on space programs goes \"to waste\" fails to account for the profound ripple effects these investments create within terrestrial technology. History has repeatedly demonstrated that government-funded space research is an unparalleled engine for commercial and industrial advancement. The semiconductor industry, which underpins modern computing, telecommunications, and medical devices, was born from NASA's need for lightweight, reliable electronics during its early missions. Today, advancements in solar panel efficiency, water purification systems developed for the International Space Station, and even new materials like memory foam originated directly from space research requirements. When governments fund exploration, they are not just buying rockets; they are purchasing a future portfolio of technologies that trickle down to improve daily life, reduce energy consumption, and save lives through better medical imaging techniques. The uncertainty critics fear is often mitigated by the very nature of pushing boundaries where established solutions do not yet exist, forcing engineers and scientists to develop novel approaches that eventually find widespread application back on Earth.\n\nFurthermore, the drive to understand our cosmic environment provides indispensable context for protecting life on our own planet. We cannot hope to mitigate climate change or manage space debris effectively without a comprehensive understanding of solar activity, asteroid trajectories, and planetary evolution. Space exploration offers a unique vantage point from which to observe atmospheric shifts across Earth as a whole, providing data critical for modeling weather patterns and predicting natural disasters with greater accuracy. By studying other planets, we gain insights into the formation of our own world and the potential conditions necessary for life elsewhere, fostering a sense of global unity among nations that realize they share not just one planet, but an entire universe to explore. This broader perspective can inspire generations, cultivating curiosity and scientific literacy in students who might otherwise never engage with STEM fields.\n\nUltimately, labeling space exploration as unwise due to its cost is akin to refusing to build a lighthouse because it does not generate profit for the harbor master immediately; its value lies in navigation rather than direct commerce. The risks of funding such ambitious projects are real, but so is the risk of stagnation if we retreat from challenging our limits with only immediate utility as a metric for success. By continuing to invest publicly in space exploration, humanity ensures that it remains capable of solving problems that require thinking on grand scales and utilizing cutting-edge technology. Therefore, despite the undeniable expenses and speculative nature of some outcomes, supporting space programs is an essential investment in human progress, technological resilience, and our collective destiny among the stars.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18250,
+ "context_fields": {},
+ "condition": {
+  "case_i": 29,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "from3",
+  "veto": false,
+  "topic_i": 4,
+  "repair_actor": "realizer"
+ },
+ "thesis": "Despite the high costs and uncertain benefits, investing in space exploration is crucial for advancing human understanding of the universe and driving technological innovation that can improve life on Earth.",
+ "word_count": 565
+}

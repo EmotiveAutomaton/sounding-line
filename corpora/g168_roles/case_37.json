@@ -1,0 +1,97 @@
+{
+ "case_id": "case_37",
+ "lineage_id": "g168_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": false,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "accept_first_noveto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "** Public ownership of professional sports teams would provide greater accountability, increased community engagement, and reduced economic inequality in comparison to privately-owned teams.\n\n**",
+    "plan": "**\n\n1. **Accountability and Transparency**: In a publically owned team, all financial decisions and activities would be publicly disclosed, making it more difficult for corruption or embezzlement to occur. This transparency would help ensure that the team's resources are being used in the best interests of the community, rather than solely for profit.\n2. **Community Engagement and Control**: Public ownership would allow fans and local residents to have a direct say in decision-making processes, such as stadium renovations or player personnel decisions. This increased involvement would foster a"
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_3",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Finally, public sports teams serve as powerful instruments for reducing economic inequality within their host cities. Private owners often leverage stadium projects to drive up property values in specific pockets of the city while displacing long-term residents through gentrification and rising rents. A publicly owned team would prioritize equitable development strategies that ensure affordable ho",
+    "replacement": "Finally, publicly owned sports teams serve as powerful instruments for reducing economic inequality within host cities by countering the exclusionary effects of private ownership. While private owners often leverage stadium projects to inflate property values in specific neighborhoods\u2014displacing long-term residents through gentrification and soaring rents\u2014a public franchise would prioritize equita"
+   }
+  }
+ ],
+ "artifact_final": "The landscape of professional sports is currently dominated by privately owned franchises that often operate with little regard for the communities they inhabit. While these entities bring global prestige and entertainment value, their primary fiduciary duty lies with distant shareholders rather than local residents, frequently resulting in stadium construction deals that burden taxpayers while owners pocket significant profits. In contrast to this extractive model, public ownership of professional sports teams would provide greater accountability, increased community engagement, and reduced economic inequality. By shifting control from private conglomerates to the citizenry, society could transform stadiums into true civic assets rather than symbols of speculative wealth accumulation.\n\nThe most immediate benefit of public ownership is the establishment of rigorous financial transparency that directly combats corruption and embezzlement. Currently, privately owned teams operate as black boxes; their ledgers are sealed behind NDAs until a scandal forces a revelation or a regulatory probe occurs. In a publicly owned structure, all financial decisions regarding budgeting, player contracts, marketing expenditures, and facility maintenance would be subject to open audit and public disclosure. This sunlight is the best disinfectant. When every dollar spent on luxury box upgrades becomes a matter of public record accessible to local journalists and residents, it becomes exponentially more difficult for individuals to funnel millions into personal offshore accounts or engage in fraudulent activities without detection. Furthermore, this transparency ensures that resources are allocated based on community needs\u2014such as investing in youth leagues or supporting underfunded school districts adjacent to the arena\u2014rather than solely maximizing shareholder returns through inflated ticket prices and merchandise markups.\n\nBeyond financial integrity, public ownership fundamentally alters the dynamic of community engagement by granting fans a direct say in decision-making processes. Under private models, franchise relocation is often decided unilaterally by owners chasing cheaper land or tax breaks without consulting the population they abandon. Public ownership would vest voting power within the local municipality or citizen assembly, ensuring that decisions about team location, branding, and scheduling reflect the will of the people who created the fanbase in the first place. This democratization fosters a profound sense of stewardship; residents are not merely consumers but active partners. Such involvement cultivates loyalty rooted in civic pride rather than transactional fandom. When fans feel they have ownership stakes\u2014literally or metaphorically\u2014they become more invested in the team's success, leading to higher attendance, stronger local identity, and a vibrant cultural hub that serves as a gathering place for all demographics, not just wealthy elites who can afford premium pricing structures.\n\nFinally, publicly owned sports teams serve as powerful instruments for reducing economic inequality within host cities by countering the exclusionary effects of private ownership. While private owners often leverage stadium projects to inflate property values in specific neighborhoods\u2014displacing long-term residents through gentrification and soaring rents\u2014a public franchise would prioritize equitable development strategies that preserve affordable housing near new facilities. Furthermore, such a team would reinvest revenue from tickets, concessions, and merchandise into local social services rather than siphoning profits into private bank accounts. By treating the franchise as an essential public utility for entertainment and community cohesion, municipalities can harness sports investments to create jobs, upgrade infrastructure in neglected areas, and generate tax revenues that fund critical public goods like parks, libraries, and transportation systems.\n\nIn conclusion, while professional athletics is undeniably profitable, allowing private entities to monopolize this industry prioritizes profit over people. Public ownership presents a superior alternative by enforcing accountability through transparency, empowering communities with genuine control, and utilizing sports as a vehicle for economic justice. It transforms the stadium from a speculative venture into a cherished public good that benefits every citizen equally.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18650,
+ "context_fields": {},
+ "condition": {
+  "case_i": 37,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": false,
+  "topic_i": 2,
+  "repair_actor": "realizer"
+ },
+ "thesis": "** Public ownership of professional sports teams would provide greater accountability, increased community engagement, and reduced economic inequality in comparison to privately-owned teams.\n\n**",
+ "word_count": 611
+}

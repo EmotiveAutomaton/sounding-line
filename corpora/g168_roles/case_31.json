@@ -1,0 +1,135 @@
+{
+ "case_id": "case_31",
+ "lineage_id": "g168_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "protocol": "two-actor logged",
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": true,
+  "repair_actor": "realizer"
+ },
+ "participants": {
+  "llama": "local_model_proposer",
+  "qwen": "local_model_realizer"
+ },
+ "route_family": "accept_first_veto",
+ "events": [
+  {
+   "event_id": "e0",
+   "order": 0,
+   "actor_id": "llama",
+   "operation": "propose",
+   "target": "thesis_plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "thesis": "** Despite the increasing use of digital technology, teaching handwriting in schools is essential for cognitive development, academic performance, and future career prospects.\n\n**",
+    "plan": "**\n\n1. **Argument 1: Handwriting benefits cognitive development**\nIn this point, I would argue that teaching handwriting in schools helps develop fine motor skills, hand-eye coordination, and improves overall cognitive abilities. Research has shown that writing by hand engages the brain more than typing on a computer or phone, leading to better retention of information and improved academic performance.\n\n2. **Argument 2: Handwriting is still crucial for learning**\nI would contend that handwriting remains an essential skill for learning and comprehension, particularly in subjects like mathemati"
+   }
+  },
+  {
+   "event_id": "e1",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "veto",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "objection": "The plan's weakest point is the abrupt cutoff in Argument 2 regarding mathematics, which leaves a critical component of your thesis incomplete. You must immediately finish this sentence by specifying how manual calculations aid problem-solving strategies or spatial reasoning to maintain logical flow before concluding the essay."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 2,
+   "actor_id": "llama",
+   "operation": "revise",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "revised_plan": "Here is the revised essay plan:\n\n**PLAN:**\n\n1. **Argument 1: Handwriting benefits cognitive development**\nIn this point, I would argue that teaching handwriting in schools helps develop fine motor skills, hand-eye coordination, and improves overall cognitive abilities. Research has shown that writing by hand engages the brain more than typing on a computer or phone, leading to better retention of information and improved academic performance.\n\n2. **Argument 2: Handwriting is still crucial for learning**\nI would contend that handwriting remains an essential skill for learning and comprehension, particularly in subjects like mathematics, where manual calculations aid problem-solving strategies and spatial reasoning, enabling students to visualize and understand complex concepts more effectively.\n\n3. **Addressing the Objection**\nNote: This section is intentionally left blank as it is not part of the original plan, but rather a response to the objection regarding completing Argument 2."
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e4",
+   "order": 4,
+   "actor_id": "qwen",
+   "operation": "repair",
+   "target": "paragraph_2",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "original": "Furthermore, the argument that technology renders handwriting unnecessary ignores the reality of higher education and professional environments where digital literacy is assumed but not guaranteed by automatic word processing skills. In many future career prospects, particularly within law, medicine, engineering, and creative arts, legible handwritten notes remain critical. For instance, medical s",
+    "replacement": "Moreover, dismissing the necessity of handwriting because technology offers digital alternatives overlooks its vital role in higher education and specialized professions where automatic word processing is insufficient. In fields such as law, medicine, engineering, and creative arts, legible handwritten notes remain indispensable; for instance, medical students must document patient observations cl"
+   }
+  }
+ ],
+ "artifact_final": "In an era where digital tablets and touchscreens dominate classrooms, there is a growing movement among educators to reduce the emphasis on pen-and-paper tasks in favor of typing exclusively. While technology offers undeniable conveniences regarding speed and storage capacity, dismissing handwriting as obsolete is a mistake that could severely hinder student growth. Despite the increasing use of digital technology, teaching handwriting in schools remains essential for cognitive development, academic performance, and future career prospects.\n\nThe primary argument for retaining handwriting instruction lies in its profound impact on cognitive development. Writing by hand is not merely a mechanical act of transferring thoughts onto paper; it is a complex physical process that requires the precise coordination of fine motor skills and eye-hand tracking. When students form letters manually, their brains engage different neural pathways compared to when they simply type. Research indicates that handwriting activates areas of the brain associated with language processing more intensely than typing does. Because typing often bypasses the need for deliberate letter formation, it can lead to a shallow engagement with the material being recorded. In contrast, the physical act of writing slows down thought processes enough to allow for deeper reflection and encoding. Consequently, students who write by hand demonstrate better retention of information compared to those who type notes on laptops or phones. This enhanced memory consolidation translates directly into improved academic performance across various subjects, from science diagrams in biology to essay outlines in history, making handwriting a fundamental tool for learning rather than just an administrative task.\n\nMoreover, dismissing the necessity of handwriting because technology offers digital alternatives overlooks its vital role in higher education and specialized professions where automatic word processing is insufficient. In fields such as law, medicine, engineering, and creative arts, legible handwritten notes remain indispensable; for instance, medical students must document patient observations clearly on physical charts before digitizing data, as a doctor's inability to write quickly or accurately risks fatal miscommunication. Similarly, architects rely on spontaneous hand sketches to stimulate creativity and spatial reasoning in ways that rigid keyboard interfaces often stifle. Excessive reliance on digital devices can also induce \"cognitive offloading,\" causing the brain to treat text merely as static data rather than engaging information, which diminishes critical thinking. Consequently, schools must ensure graduates retain proficient handwriting skills, fostering adaptability for diverse professional landscapes and preventing the erosion of essential manual communication abilities.\n\nCritics often argue that time spent on cursive or print instruction detracts from coding and digital literacy lessons. However, this perspective creates a false dichotomy where cognitive development must be sacrificed for technical proficiency. Handwriting does not compete with technology; it complements it by strengthening the foundational neural networks required to use technology effectively. A student who understands the mechanics of forming letters possesses a deeper conceptual grasp of language structure than one who simply selects words from an on-screen menu.\n\nIn conclusion, while digital tools are powerful aids, they cannot replace the unique neurological and cognitive benefits provided by handwriting. The fine motor skills developed through writing strengthen memory retention and deepen understanding, which are prerequisites for high academic achievement. Moreover, practical demands in many careers still require clear manual communication, making this skill indispensable even in a highly digitized world. Schools have an obligation to continue teaching handwriting not as a relic of the past, but as a vital component of modern education that fosters both intellectual growth and professional readiness.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": null,
+ "split": "discovery",
+ "construction_seed": 18350,
+ "context_fields": {},
+ "condition": {
+  "case_i": 31,
+  "proposer": "llama",
+  "realizer": "qwen",
+  "selection": "accept_first",
+  "veto": true,
+  "topic_i": 1,
+  "repair_actor": "realizer"
+ },
+ "thesis": "** Despite the increasing use of digital technology, teaching handwriting in schools is essential for cognitive development, academic performance, and future career prospects.\n\n**",
+ "word_count": 573
+}
