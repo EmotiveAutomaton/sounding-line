@@ -141,6 +141,13 @@ visible while work runs, as always. **Curator synthesis mode: when he asks where
 stands, the reply begins at theory groups and Phase 2.0 sub-goals; queue detail moves to a
 compact appendix unless it alters a decision.** Escalations carry one recommended answer, the
 decisive evidence, the strongest real objection, and the consequences — never an unranked menu.
+**For a theoretical check-in (Phase 2.3 protocol, 2026-08-21): begin with the world-model
+change and two to five open questions the result raises; do not walk study by study unless a
+study changes theory; give him space for a verbal theory pass before prescribing the next
+branch; mechanics, metrics, and queue detail follow in an appendix.** The purpose is to prevent
+cognitive preemption, not to withhold evidence. The Strengthens | Narrows | Kills |
+Infrastructure tag remains in every result receipt; it is not sufficient as the whole
+theoretical-analyst report.
 
 **No batching, and no verdict-only reporting** — a result that has appeared in any form (a queue
 log, a committed file, a notification) gets its FULL write-through in the same message, appended

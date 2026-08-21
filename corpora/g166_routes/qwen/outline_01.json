@@ -1,0 +1,70 @@
+{
+ "case_id": "qwen_outline_01",
+ "lineage_id": "g166_qwen_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether schools should teach handwriting Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Teaching handwriting enhances cognitive development and memory retention in young learners better than typing alone.\n2. Schools must preserve calligraphy skills to foster creativity and emotional expression through personal writing styles.\n3. Mastering penmanship improves fine motor skills essential for future academic success across various disciplines.\n4. Digital literacy should not replace traditional writing instruction as they serve distinct but complementary educational purposes.\n5. Integrating both methods ensures students remain adaptable in a world that values diverse forms of communication and expression."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "In the rapidly evolving digital landscape, where keyboards and touchscreens dominate daily interaction, there is a growing sentiment among some educators to phase out handwriting instruction entirely. However, this perspective overlooks profound neurological benefits that mechanical typing cannot replicate. The argument for retaining handwriting in school curricula rests on three pillars: cognitive enhancement, emotional expression through calligraphy, and the development of essential motor skills, all of which coexist harmoniously with digital literacy rather than competing against it.\n\nFirstly, extensive research indicates that teaching handwriting significantly enhances cognitive development and memory retention in young learners far better than typing alone does. When a child forms letters physically, their brain engages in complex neural processing that links the visual recognition of symbols with muscle memory. This active engagement creates stronger synaptic connections compared to simply pressing keys without tactile feedback. Studies have shown that students who take notes by hand recall information more accurately and retain it longer than those who type identical content. The act of slowing down to form each character forces a deeper level of processing, allowing the mind to focus on meaning rather than merely transcribing words. Consequently, schools must prioritize this unique cognitive advantage during critical developmental years when neural pathways are most malleable.\n\nSecondly, preserving calligraphy skills is vital for fostering creativity and enabling emotional expression through personal writing styles. Handwriting serves as a tangible extension of the self; every individual possesses a distinct grip pressure, slant, and spacing that communicates their current mood or personality. This uniqueness allows students to infuse their words with personal flair in ways standardized digital fonts cannot achieve. Learning calligraphy teaches patience, discipline, and an appreciation for aesthetics, transforming writing from a mere utilitarian task into an artistic endeavor. By maintaining these skills, educators provide students with a creative outlet where they can experiment with identity and self-expression without the constraints of pre-set templates or rigid formatting options inherent in word processing software.\n\nThirdly, mastering penmanship improves fine motor skills that are absolutely essential for future academic success across various disciplines. Beyond writing essays, many scientific diagrams, mathematical equations involving complex fractions, chemical structures, and musical notation require precise manual control to be written clearly on paper. These fields often demand the ability to draw detailed maps or sketch graphs quickly during examinations where digital devices may not be permitted. Without a foundation in handwriting, students may struggle with these specific academic requirements later in their education. Therefore, developing dexterity through writing practice is not merely about legibility but about building the physical competence necessary for diverse intellectual pursuits ranging from engineering to medicine.\n\nFurthermore, asserting that digital literacy should replace traditional writing instruction misunderstands how modern technology functions within an educational ecosystem. The two methods serve distinct yet complementary purposes; one does not nullify the other. Digital tools excel in collaboration, research speed, and formatting flexibility, while handwriting excels in cognitive encoding and personal reflection. To argue for a binary choice is to ignore the reality that humans are multifaceted learners who require varied stimuli to thrive.\n\nUltimately, integrating both methods ensures students remain adaptable in a world that values diverse forms of communication and expression. A well-rounded education equips youth with the ability to type efficiently while still possessing the capacity to write by hand when necessary or desired. By rejecting the false dichotomy between old and new technologies, schools can cultivate versatile individuals who are prepared for any context they may encounter in their future careers and lives. The goal is not resistance to change but rather the thoughtful integration of traditional strengths with modern capabilities, ensuring that no valuable skill set is discarded in pursuit of efficiency alone.",
+ "artifact_versions": [
+  "1. Teaching handwriting enhances cognitive development and memory retention in young learners better than typing alone.\n2. Schools must preserve calligraphy skills to foster creativity and emotional expression through personal writing styles.\n3. Mastering penmanship improves fine motor skills essential for future academic success across various disciplines.\n4. Digital literacy should not replace traditional writing instruction as they serve distinct but complementary educational purposes.\n5. Integrating both methods ensures students remain adaptable in a world that values diverse forms of communication and expression."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_01",
+ "split": "discovery",
+ "construction_seed": 17620,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 615
+}

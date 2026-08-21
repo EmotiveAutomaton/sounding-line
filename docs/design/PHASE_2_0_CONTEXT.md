@@ -1,8 +1,10 @@
 # Sounding Line Phase 2.0: Engineering Context
 
-**Phase status note (2026-08-19).** Phases 2.1 (repair and foraging, curator-declared) and
-2.2 (trajectory-conditioned inverse reading, [`PHASE_2_2_CONTEXT.md`](PHASE_2_2_CONTEXT.md))
-now govern the mission and the core representation; this file's §7-style binary-wedge
+**Phase status note (2026-08-19; extended 2026-08-21).** Phases 2.1 (repair and foraging,
+curator-declared) and 2.2 (trajectory-conditioned inverse reading,
+[`PHASE_2_2_CONTEXT.md`](PHASE_2_2_CONTEXT.md)) superseded the mission and core
+representation, and **Phase 2.3 ([`PHASE_2_3_CONTEXT.md`](PHASE_2_3_CONTEXT.md)) now governs
+the active process-inversion program**; this file's §7-style binary-wedge
 mission language is superseded by 2.2 §1/§7. STILL IN FORCE from this file, unreplaced: the
 curator interface (§15 roll-ups and synthesis mode), the escalation list (§16), the claims
 policy (§18), and the sub-goal identifiers 2.0A-2.0H (2.0F's stack gate remains, re-gated

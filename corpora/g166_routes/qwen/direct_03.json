@@ -1,0 +1,47 @@
+{
+ "case_id": "qwen_direct_03",
+ "lineage_id": "g166_qwen_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether social media accounts should require age verification Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "direct",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over mandating age verification for social media accounts has intensified as digital platforms continue to evolve into primary spaces where young people spend their formative years. Proponents of strict age-gated systems argue that requiring robust identity checks is the only effective method to prevent minors from accessing content and features designed specifically for adults, thereby shielding them from exploitation and psychological harm. However, while the intention behind such measures is benevolent, implementing a universal mandate for age verification across all social media platforms presents significant logistical challenges that could inadvertently cause more damage than good, particularly regarding privacy rights and accessibility.\n\nThe primary argument in favor of age verification stems from the pervasive nature of online harms facing children today. Social media algorithms often push content related to self-harm, eating disorders, extremism, or explicit material directly into teenagers' feeds without effective safeguards. Advocates contend that current date-of-birth fields are easily bypassed through falsification, making them insufficient deterrents against determined predators or curious minors seeking inappropriate content. By enforcing government-issued ID checks or advanced biometric verification upon sign-up, platforms could theoretically create airtight walls separating the digital public square from those under legal adulthood. This approach promises to restore parental control and provide a safer environment where vulnerable users cannot be targeted by malicious actors selling harmful products or ideologies.\n\nDespite these compelling ethical concerns, the practical implementation of such mandates faces formidable obstacles that threaten user privacy on an unprecedented scale. Requiring age verification necessitates collecting sensitive personal data from millions of young people at entry points they may not fully understand. This creates a scenario where corporations must store vast databases containing birthdates and potentially identity documents for children, directly contradicting the very principle of \"privacy by design\" that many users expect from tech giants. If these systems are breached through hacking or internal leaks\u2014events that have become increasingly common\u2014the consequences would be catastrophic for minors whose digital footprints could remain exposed forever. Furthermore, relying on third-party verification services introduces another layer of potential data monetization and surveillance, turning a safety mechanism into a vector for corporate data harvesting.\n\nThere is also the issue of accessibility and equity to consider. A system mandating strict ID checks would effectively disenfranchise vast populations of users who lack government-issued identification documents due to poverty, immigration status, or bureaucratic barriers in their home countries. This creates an unjust digital divide where only those with specific documentation can participate in global discourse on social media platforms dedicated to activism and community building. For many marginalized communities already underrepresented online, removing the ability to join without formal ID would silence crucial voices rather than protect them. The friction of verification processes could also lead younger users from underserved areas to abandon these tools entirely for less regulated alternatives that lack safety features but offer anonymity.\n\nUltimately, while protecting children is a paramount societal goal, solving this problem through blanket age-verification mandates may prove to be a blunt instrument with severe unintended consequences. A more balanced approach might involve shifting the burden of responsibility onto platforms to design default privacy settings and content filters by default, rather than relying on gatekeeping mechanisms that infringe upon fundamental liberties. Regulators should focus on holding companies accountable for algorithmic amplification of harmful content without mandating intrusive identity collection processes that jeopardize the safety and anonymity of millions of users worldwide. The path forward requires innovation in safety technology rather than a retreat to bureaucratic barriers that compromise both privacy and inclusion.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_03",
+ "split": "discovery",
+ "construction_seed": 19600,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 595
+}

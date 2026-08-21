@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_01",
+ "lineage_id": "g166_qwen_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether schools should teach handwriting Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Schools must continue teaching handwriting because it significantly enhances cognitive development and reading comprehension in young students.",
+     "Given the ubiquity of digital technology, educational institutions should discontinue formal handwriting instruction in favor of typing skills to better prepare students for modern workforce demands.",
+     "While handwriting offers unique neurological benefits that typing cannot replicate, schools should adopt a balanced curriculum that emphasizes both traditional writing and keyboard proficiency depending on grade level."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Schools must continue teaching handwriting because it significantly enhances cognitive development and reading comprehension in young students.",
+    "Given the ubiquity of digital technology, educational institutions should discontinue formal handwriting instruction in favor of typing skills to better prepare students for modern workforce demands."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "While handwriting offers unique neurological benefits that typing cannot replicate, schools should adopt a balanced curriculum that emphasizes both traditional writing and keyboard proficiency depending on grade level.",
+    "draw_seed": 17660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Schools must continue teaching handwriting because it significantly enhances cognitive development and reading comprehension in young students."
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Given the ubiquity of digital technology, educational institutions should discontinue formal handwriting instruction in favor of typing skills to better prepare students for modern workforce demands."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether schools should continue teaching handwriting in an era dominated by digital technology often veers into binary extremes. On one side, advocates argue that the ubiquity of keyboards renders calligraphy obsolete; on the other, traditionalists insist that pen and paper are essential for cognitive development. While both perspectives hold merit depending on age, a nuanced approach is required to navigate this educational crossroads. The thesis posited here asserts that while handwriting offers unique neurological benefits that typing cannot replicate, schools should adopt a balanced curriculum that emphasizes both traditional writing and keyboard proficiency depending on grade level. This dual-focus strategy ensures students acquire the foundational cognitive skills necessary for early learning while simultaneously preparing them for the technological realities of adulthood.\n\nThe argument for prioritizing handwriting is rooted in neuroscience and developmental psychology. Research consistently demonstrates that the physical act of forming letters engages different neural pathways than typing. When a child writes by hand, there is a complex interplay between visual perception, motor memory, and fine motor skills required to manipulate pen pressure and direction. This multisensory engagement creates stronger connections in the brain's language centers compared to the more automated process of hitting keys on a standard keyboard. For young children learning to read and spell, this connection is vital; studies have shown that handwriting aids in encoding new vocabulary and improving reading comprehension significantly better than typing alone. Without the deliberate slowness required for cursive or print formation, students miss out on opportunities to reinforce orthographic mapping, which is crucial for fluent literacy later in life.\n\nHowever, dismissing keyboard proficiency as secondary would be a disservice to future readiness. In almost every professional and academic setting outside of early childhood education, digital composition is the norm. Schools must prepare students not just for their developmental needs but also for their economic futures. If instruction focuses exclusively on handwriting while neglecting typing in elementary schools, graduates may find themselves ill-equipped to handle high-speed data entry or collaborative digital workflows expected by employers upon graduation. Furthermore, relying solely on keyboards does not prevent the cognitive disengagement associated with \"thinking before you type,\" a skill that is often honed through the slower pace of handwritten drafting and editing.\n\nTherefore, the most effective educational model integrates both modalities strategically based on developmental stages. In early elementary grades, where literacy acquisition takes precedence, schools should dedicate substantial time to handwriting instruction alongside basic typing introduction. This ensures that students build strong neural pathways for reading comprehension while gaining initial familiarity with keyboards. As students progress into middle and high school, the focus should gradually shift toward keyboard proficiency without abandoning traditional writing entirely. Older students require robust skills in both areas: they must retain their ability to think through ideas slowly on paper during creative brainstorming or complex problem-solving tasks, yet they must also master rapid digital composition for research papers and professional communication.\n\nA balanced curriculum does not mean forcing every student to write entire essays by hand forever; rather, it means tailoring the instruction to maximize cognitive benefits at each stage of life. By maintaining handwriting as a core skill through elementary education while escalating keyboard training in later years, schools can honor neurological discoveries without ignoring technological necessity. This approach acknowledges that technology is an enhancement tool for those who possess strong foundational literacy skills derived from handwritten practice. Ultimately, rejecting one mode entirely creates an imbalance that harms either cognitive development or career readiness. By committing to a curriculum where handwriting and typing coexist in their respective optimal contexts within the school day, educators can foster well-rounded individuals capable of both deep contemplation and efficient digital execution.",
+ "artifact_versions": [
+  "1. Schools must continue teaching handwriting because it significantly enhances cognitive development and reading comprehension in young students.\n2. Given the ubiquity of digital technology, educational institutions should discontinue formal handwriting instruction in favor of typing skills to better prepare students for modern workforce demands.\n3. While handwriting offers unique neurological benefits that typing cannot replicate, schools should adopt a balanced curriculum that emphasizes both traditional writing and keyboard proficiency depending on grade level."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_01",
+ "split": "discovery",
+ "construction_seed": 17660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 617
+}

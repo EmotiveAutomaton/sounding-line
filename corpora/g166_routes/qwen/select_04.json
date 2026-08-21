@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_04",
+ "lineage_id": "g166_qwen_04",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_04",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether space exploration deserves public funding Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Public funding for space exploration is essential because it drives technological innovations that solve critical problems here on Earth and fosters global cooperation among nations.",
+     "Space missions should no longer receive government money since the trillions of dollars spent yield diminishing economic returns compared to investing in domestic infrastructure or healthcare.",
+     "While commercial entities can now fund some expeditions, continued public investment remains necessary to ensure that space exploration benefits all humanity rather than a few wealthy corporations."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Space missions should no longer receive government money since the trillions of dollars spent yield diminishing economic returns compared to investing in domestic infrastructure or healthcare.",
+    "While commercial entities can now fund some expeditions, continued public investment remains necessary to ensure that space exploration benefits all humanity rather than a few wealthy corporations."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Public funding for space exploration is essential because it drives technological innovations that solve critical problems here on Earth and fosters global cooperation among nations.",
+    "draw_seed": 20660
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Space missions should no longer receive government money since the trillions of dollars spent yield diminishing economic returns compared to investing in domestic infrastructure or healthcare."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "While commercial entities can now fund some expeditions, continued public investment remains necessary to ensure that space exploration benefits all humanity rather than a few wealthy corporations."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over government expenditure often centers on immediate human needs versus abstract future goals, with critics frequently labeling space exploration as a frivolous expense when billions are needed to address poverty, disease, and climate change on Earth. While the concern for earthly well-being is valid and paramount, it creates a false dichotomy between solving terrestrial problems and looking toward the stars. The reality is that these two pursuits are not mutually exclusive; rather, public funding for space exploration is essential because it drives technological innovations that solve critical problems here on Earth and fosters global cooperation among nations. Without state-sponsored investment in aerospace research, humanity would lack many of the life-saving technologies we rely upon today, making this financial commitment a pragmatic necessity rather than an indulgence.\n\nOne of the most compelling arguments for sustained public funding lies in the transformative impact space technology has had on daily life and infrastructure. Every dollar invested in government-led missions yields significant returns through spin-off technologies that address immediate human challenges. For instance, advancements made to miniaturize components for satellites led directly to the development of modern medical devices such as cochlear implants and advanced imaging sensors used in cancer detection. Similarly, materials science developed for space shuttles has resulted in lightweight alloys and composites that improve fuel efficiency in automobiles, thereby reducing carbon emissions. Perhaps most critically, weather prediction models derived from satellite data are instrumental in mitigating the impacts of natural disasters like hurricanes and wildfires, saving countless lives annually. If these programs were defunded due to short-term budgetary pressures, society would lose access to innovations born from the rigors of deep-space research that could otherwise be used to combat global warming or improve food security through precision agriculture monitoring systems.\n\nBeyond technological dividends, space exploration serves as a unique catalyst for international diplomacy and peace. Unlike terrestrial conflicts which are often driven by resource scarcity or ideological divides on Earth, the endeavor of reaching other planets requires an unprecedented level of collaboration that transcends national borders. The International Space Station stands as the premier example of this phenomenon, housing astronauts from formerly adversarial nations working side-by-side in a microgravity environment where survival depends entirely on mutual trust and shared objectives. This form of cooperation creates channels for dialogue that are often closed during times of political tension down here. By investing together in space endeavors, countries build lasting frameworks for understanding and reduce the likelihood of conflict by focusing collective energy outward rather than inward toward one another. Public funding acts as the binding agent that allows these partnerships to flourish, proving that humanity can solve global problems when it unites its resources under a common vision.\n\nCritics may argue that private industry should assume this burden, but commercial entities alone cannot replicate the scope of global cooperation or the willingness to take long-term risks for public good without government backing and regulation. Furthermore, the very act of publicly funding these projects ensures that space remains open as a domain for all nations rather than becoming monopolized by wealthy corporations. The decision to fund space exploration is ultimately an investment in our collective future potential. It provides the technological toolkit necessary to navigate climate change while simultaneously building bridges between cultures through shared achievement. Therefore, maintaining robust public support for these initiatives is not merely a choice but a moral and practical imperative essential for human progress on all fronts.",
+ "artifact_versions": [
+  "1. Public funding for space exploration is essential because it drives technological innovations that solve critical problems here on Earth and fosters global cooperation among nations.\n2. Space missions should no longer receive government money since the trillions of dollars spent yield diminishing economic returns compared to investing in domestic infrastructure or healthcare.\n3. While commercial entities can now fund some expeditions, continued public investment remains necessary to ensure that space exploration benefits all humanity rather than a few wealthy corporations."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_04",
+ "split": "discovery",
+ "construction_seed": 20660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 581
+}

@@ -5,19 +5,54 @@ A method file is normative for every test, every day, trigger-indexed and read b
 or building anything (its README maps the moments). A design file is the blueprint and rationale
 for one thing we intend to build, dormant until that build is scheduled, and then it is the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
-the trigger discipline, which is why they stay two folders (the call made 2026-08-14, at the
-curator's prompt).
+the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-| file | reach for it when |
+## Current orientation (2026-08-21)
+
+- **Current phase:** [`PHASE_2_3_CONTEXT.md`](PHASE_2_3_CONTEXT.md), with its live branch
+  registry [`PHASE_2_3_REGISTRY.md`](PHASE_2_3_REGISTRY.md)
+- **Theory application order:** the Phase 2.2 errata (applied 2026-08-20), then the Phase 2.3
+  errata (theory delta applied 2026-08-21)
+- **Live work:** [`../../TODO.md`](../../TODO.md) and `runners/run_queue.py`
+- **Empirical state:** [`../STATE.md`](../STATE.md) and [`../../FINDINGS.md`](../../FINDINGS.md)
+
+## Status legend
+
+| status | meaning |
 |---|---|
-| [`PHASE_2_0_CONTEXT.md`](PHASE_2_0_CONTEXT.md) | **the governing brief for Phase 2.0**, the curator's handoff (2026-08-16, snapshot 1d38130): mission, locked design decisions, sub-goals 2.0A to 2.0H, benchmark and evaluation contracts, claims policy, curator abstraction boundary. Read before any Phase 2.0 design or build decision; the live sub-goal map lives in `TODO.md`. Archived here from the repo top level per its own §17 routing |
-| [`EVAL_CONTRACT_2_0.md`](EVAL_CONTRACT_2_0.md) | **G152, the Phase 2.0 evaluation contract, DRAFT pending the curator's freeze**: binary-label policy, regime taxonomy, metrics, split logic, baseline-selection rule, hard slices, claim language per outcome. Once frozen it joins the hash-lock discipline and no result can change it |
-| [`BENCHMARK_2_0.md`](BENCHMARK_2_0.md) | **G153, the crossed provenance-decision benchmark blueprint**: cell structure, shortcut-breaking counterexamples, sources, dose decomposition, build order. Normative contracts stay in the brief §11 and the evaluation contract; this is the construction plan. Data acquisition blocked on the generator-budget and licensing rulings |
-| [`DWELL_CORPUS.md`](DWELL_CORPUS.md) | sourcing or scoping the dwell corpus. Sim T-3 named the regime where decision-counting is a well-defined event; this is the first corpus request in the project with a reason attached rather than a vibe. Still a sourcing decision |
-| [`ENGINEERING_LOOP.md`](ENGINEERING_LOOP.md) | choosing tooling or framing for the build side. The curator's engineering-loops reframe, in his words: this project is not only establishing claims, it is trying to make something. Quote discipline applies; his blockquote is untouchable |
-| [`QUEUE.md`](QUEUE.md) | never for the live queue. The live queue is `TODO.md` plus `runners/run_queue.py`; this is the 2026-08-05 snapshot, superseded with a banner, kept whole for its measured rates and its ordering rationale |
-| [`SUCCESSOR.md`](SUCCESSOR.md) | designing any successor to a gate instrument. Written before Gate 3's result was seen, deliberately: a successor designed after a number is a successor designed to explain that number. That discipline is the file's standing value |
+| **OPERATIVE** | controls current design and execution where it speaks |
+| **APPLICATION PENDING** | a requested reconciliation package not yet fully folded into its canonical owners |
+| **REUSABLE SUBSTRATE** | parts remain active infrastructure or construction guidance; the file does not control the current theory or phase objective |
+| **DRAFT — DO NOT FREEZE** | incomplete contract whose current form is known to conflict with the operative phase |
+| **DEFERRED** | valid design, not currently scheduled |
+| **HISTORICAL PRECURSOR** | preserved design reasoning absorbed, narrowed, or superseded by a later package |
+| **SUPERSEDED SNAPSHOT** | no present authority; retained for chronology and rationale |
 
-Maintenance: a design file lands when a build is specified ahead of its schedule slot. It is
-superseded in place with a banner, never deleted, when the build lands or the live document
-moves elsewhere. Results never live here; they go to `FINDINGS.md` and the theory store.
+("Archived" is reserved for `docs/archive/`; a file that stays here takes one of these labels.)
+
+## Authority table
+
+| file | status | read it for |
+|---|---|---|
+| [`PHASE_2_3_CONTEXT.md`](PHASE_2_3_CONTEXT.md) | **OPERATIVE** | the adaptive process-inversion program: seven wing roots, branching discipline, reporting protocol |
+| [`PHASE_2_3_REGISTRY.md`](PHASE_2_3_REGISTRY.md) | **OPERATIVE** | the live branch registry, root states, and the reconciliation against the live head |
+| [`PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`](PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md) | **HISTORICAL PRECURSOR** (theory delta and design reconciliation applied 2026-08-21, commits `91f887d` and this pass) | provenance for the reconstructed curator language and the authority-layer repair |
+| [`PHASE_2_2_CONTEXT.md`](PHASE_2_2_CONTEXT.md) | **HISTORICAL PRECURSOR** | the transition from binary attribution to reconstruction profiles; ruler gates; result routing |
+| [`PHASE_2_2_THEORY_ERRATA.md`](PHASE_2_2_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR** (applied 2026-08-20) | provenance for the ten-quote reconciliation across the five theory owners |
+| [`PHASE_2_0_CONTEXT.md`](PHASE_2_0_CONTEXT.md) | **HISTORICAL PRECURSOR** | the original vertical slice; STILL IN FORCE: curator interface (§15), escalations (§16), claims policy (§18), sub-goal identifiers 2.0A-2.0H |
+| [`EVAL_CONTRACT_2_0.md`](EVAL_CONTRACT_2_0.md) | **DRAFT — DO NOT FREEZE** (v0.3 reconciliation in place) | the single evaluation contract: reconstruction-profile primary task, metric panel, split and calibration discipline; the binary form survives only as the optional downstream product layer |
+| [`ADJUDICATION_SET_2_0.md`](ADJUDICATION_SET_2_0.md) | **HISTORICAL PRECURSOR** | the unfrozen binary adjudication exercise, superseded as ontology (its file carries the ruling) |
+| [`BENCHMARK_2_0.md`](BENCHMARK_2_0.md) | **REUSABLE SUBSTRATE** | process-record, lineage, licensing, matching, and manifest construction; the contribution-process decomposition |
+| [`HUMAN_NEGATIVES_2_0.md`](HUMAN_NEGATIVES_2_0.md) | **DEFERRED** | human-negative sourcing design for the product layer, behind the process-output validation |
+| [`SUCCESSOR.md`](SUCCESSOR.md) | **HISTORICAL PRECURSOR** | the pre-Gate-3 anomaly/reconstructibility design absorbed into the current program |
+| [`DWELL_CORPUS.md`](DWELL_CORPUS.md) | **DEFERRED** | the controlled same-maker/two-form corpus, if the dwell question reopens |
+| [`ENGINEERING_LOOP.md`](ENGINEERING_LOOP.md) | **REUSABLE SUBSTRATE** | wide search, archive, and constraint-aware engineering principles |
+| [`QUEUE.md`](QUEUE.md) | **SUPERSEDED SNAPSHOT** | the 2026-08-05 ordering rationale and measured rates only |
+
+## Conflict and maintenance rule
+
+Later phase packages supersede earlier packages **only where they conflict**. Empirical
+results, method constraints, curator quotations, licensing constraints, and reusable
+infrastructure do not become stale merely because the phase number advanced. A design file is
+superseded in place with a banner, never deleted. **Results never live here**; they go to
+`FINDINGS.md` and the theory store.

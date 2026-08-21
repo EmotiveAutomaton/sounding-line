@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_03",
+ "lineage_id": "g166_qwen_03",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_03",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether social media accounts should require age verification Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Social media platforms must implement strict age verification systems to protect minors from cyberbullying and mental health crises exacerbated by unregulated online environments.",
+     "Mandating universal age verification for all social media accounts would infringe upon digital privacy rights and disproportionately harm vulnerable populations seeking essential support services.",
+     "A hybrid approach that enforces rigorous identity checks only on specific high-risk features while maintaining open access to general content creation best balances child safety with civil liberties."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Social media platforms must implement strict age verification systems to protect minors from cyberbullying and mental health crises exacerbated by unregulated online environments.",
+    "A hybrid approach that enforces rigorous identity checks only on specific high-risk features while maintaining open access to general content creation best balances child safety with civil liberties."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Mandating universal age verification for all social media accounts would infringe upon digital privacy rights and disproportionately harm vulnerable populations seeking essential support services.",
+    "draw_seed": 19660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Social media platforms must implement strict age verification systems to protect minors from cyberbullying and mental health crises exacerbated by unregulated online environments."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "A hybrid approach that enforces rigorous identity checks only on specific high-risk features while maintaining open access to general content creation best balances child safety with civil liberties."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The rapid expansion of the internet has transformed it into a global town square where information flows freely across borders, yet this accessibility comes with complex ethical implications regarding safety and regulation. In recent years, there has been an intensified push from lawmakers and advocacy groups to implement universal age verification systems for all social media platforms. Proponents argue that such measures are necessary to protect minors from cyberbullying, predators, and harmful content. However, a closer examination reveals that mandating comprehensive age verification would fundamentally infringe upon digital privacy rights and create significant barriers for vulnerable populations who rely on these networks to access essential support services. The implementation of universal checks is not merely an inconvenience; it represents a dangerous overreach that prioritizes control over individual liberty and social equity.\n\nThe primary concern with imposing mandatory age verification across all platforms is the inevitable erosion of digital privacy. Any system designed to verify age requires the collection, storage, and processing of sensitive personal data, including birth dates, government-issued identification numbers, or biometric information. Once this data exists within a centralized database, it becomes a high-value target for hackers, identity thieves, and corporate surveillance entities. History has shown that no digital system is entirely immune to breaches; the more widespread these verification databases become, the greater the collective risk of mass-scale data leaks. Furthermore, the requirement extends beyond just minors to everyone using the internet. Even adults must submit proof of age to access platforms they have used their entire lives without question, effectively treating all users as potential threats unless constantly proven otherwise. This creates a surveillance infrastructure that normalizes government and corporate monitoring of private citizens' identities in ways currently unimaginable under existing legal frameworks.\n\nBeyond privacy concerns, the most severe consequence lies in how such systems would disproportionately harm vulnerable populations seeking help. Social media has evolved into an indispensable lifeline for marginalized communities facing stigma or discrimination. For instance, individuals dealing with rare mental health conditions, LGBTQ+ youth escaping hostile home environments, survivors of domestic violence hiding from abusers, and patients accessing illicit but life-saving resources like HIV medication often rely on anonymous platforms to find community and advice. If a user must verify their age using government ID before logging in, the anonymity that protects them vanishes instantly. A teenager fleeing an abusive family could be identified by authorities if they cannot prove their identity without revealing their location or status. Similarly, someone seeking information about illegal substances for medical treatment might inadvertently expose themselves to arrest warrants upon attempting to access a forum where such discussions occur anonymously. The current model of pseudonymity allows users to separate their digital actions from their legal identities safely; removing this shield forces the most vulnerable into hiding entirely rather than risking exposure through verification processes that require sensitive personal details at every login or registration attempt.\n\nMoreover, universal age verification introduces significant economic and logistical barriers. In many jurisdictions, obtaining valid government identification is a hurdle for unbanked populations, those with poor credit histories, or undocumented immigrants who are already excluded from various societal systems. Requiring these documents to access basic communication tools effectively penalizes the most disadvantaged members of society by denying them their voice on platforms that could otherwise help them navigate bureaucratic hurdles, find employment, or connect with healthcare providers. The solution to online safety does not lie in sacrificing privacy and equity for a broad generalization; rather, it requires targeted interventions like content moderation algorithms and user reporting mechanisms that respect individual anonymity while maintaining community standards. Mandating universal age verification is an ill-conceived policy that mistakes the symptom of digital harm for its cause, ultimately creating a safer environment on paper but leaving the most vulnerable people stranded in silence.",
+ "artifact_versions": [
+  "1. Social media platforms must implement strict age verification systems to protect minors from cyberbullying and mental health crises exacerbated by unregulated online environments.\n2. Mandating universal age verification for all social media accounts would infringe upon digital privacy rights and disproportionately harm vulnerable populations seeking essential support services.\n3. A hybrid approach that enforces rigorous identity checks only on specific high-risk features while maintaining open access to general content creation best balances child safety with civil liberties."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_03",
+ "split": "discovery",
+ "construction_seed": 19660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 633
+}

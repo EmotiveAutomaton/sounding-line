@@ -195,7 +195,14 @@ curator's §2.1 non-recognition ruling enforced in code (twelve new guard tests 
 the author-share scalar raises by construction), the reading profile extended with the
 §3.4 sections, the G165 reader-ablation card frozen with its pipeline-purity gate
 passed, and the G166 route-varied corpus construction queued. Detector stacking stays
-prohibited; drives and values stay deferred (brief §2.4).**
+prohibited; drives and values stay deferred (brief §2.4). The design folder now carries
+an authority index (its README: one OPERATIVE phase, status labels on every file); the
+evaluation contract is v0.3 DRAFT DO-NOT-FREEZE with the reconstruction profile as the
+primary task and the binary form demoted to the optional downstream product layer. What
+survives into 2.3 unchanged: the delta choice-recovery positive (L141), the realized-
+choice artifact-only positive (L146/L148), the ruler pass and the text-sampler null
+(L127/L134), and the G131/G153 records as process substrate under their documented
+limits.**
 
 **Phase 2.2 second wave (2026-08-20 evening, L149/L150): the anomaly-text corpus stood
 its self-gate (correction markers 0.75 where instructed, 0.00 where forbidden, clean

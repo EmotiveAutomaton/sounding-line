@@ -1,5 +1,11 @@
 # The crossed provenance-decision benchmark — G153, design draft v0.1 (2026-08-16)
 
+**Reusable substrate notice (2026-08-21).** Lineage, process records, licensing constraints,
+manifests, and matching discipline remain active. The crossed provenance task is not the
+current primary ontology, and the unmatched G153 pilot does not license provenance evaluation
+(L145: the surface reference reads quality and era at 0.97 because the cells are unmatched).
+Phase 2.3 reuses the records for within-construction known-answer process tests.
+
 **Status: build blueprint for 2.0C. The normative contracts live in
 [`PHASE_2_0_CONTEXT.md`](PHASE_2_0_CONTEXT.md) §11 (factorial axes, split rules, record schema)
 and [`EVAL_CONTRACT_2_0.md`](EVAL_CONTRACT_2_0.md) (task, metrics, splits); this file adds only
@@ -93,12 +99,17 @@ makes rich-direction candidates 2-4 nearly free; **decoding is RECORDED, not con
 (the newest Claude models accept no sampling parameters), so `decoding` is a per-provider
 dict with a schema version, and local Ollama defaults are set explicitly, never inherited.
 
-## 4. Decision-dose decomposition (never one number)
+## 4. Contribution-process decomposition (never one number; renamed from decision-dose 2026-08-21)
 
 Recorded per artifact, from the process log: prompting level, selection events, ordering
 choices, constraint-setting, local edits (count + span), structural revisions, acceptance
-decisions. A compact dose variable may be derived for analysis; the components ship. Human
-decision dose is not time, prompt length, turn count, quality, or authorship (brief §7.4).
+decisions — and, per the Phase 2.3 contribution network, proposal, ratification, veto,
+integration, repair, acceptance, actor identity, parent-event links, and the alternatives
+actually available (`soundingline/process_record.py`). A compact scalar may be derived for a
+declared diagnostic, but it is not ground-truth authorship share, decision weight, or
+participant control; the event components and interaction graph ship and remain the
+adjudication record. Human contribution is not time, prompt length, turn count, quality, or
+authorship (brief §7.4).
 
 ## 5. Build order
 

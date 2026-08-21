@@ -1,0 +1,71 @@
+{
+ "case_id": "qwen_rewrite_01",
+ "lineage_id": "g166_qwen_01",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_01",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether schools should teach handwriting Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model",
+  "g131_base": "recorded_prior_artifact"
+ },
+ "route_family": "rewrite",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "g131_base",
+   "operation": "propose",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "base_ref": "g131 qwen none_0_none_01"
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "In an era increasingly dominated by touchscreens, digital tablets, and voice-to-text software, a fierce debate has erupted regarding whether schools should continue to prioritize traditional handwriting instruction. While proponents of a fully digitized curriculum argue that typing is faster and more practical for modern careers, it is imperative that schools maintain handwriting as a core component of their educational mandate. Abandoning this skill entirely would not only atrophy students' motor development but also severely impair cognitive processing and memory retention essential for deep learning.\n\nThe primary argument against teaching handwriting often rests on the premise of efficiency in an information-dense world. Critics suggest that spending years mastering pen-and-paper cursive or print is an obsolete use of time better spent coding or typing instead. However, this perspective overlooks fundamental neurological differences between forming letters by hand and pressing keys on a keyboard. When students type, they often do not need to consciously think about letter formation; their brains can focus solely on content generation, which explains why many adults draft ideas quickly on laptops only to produce text riddled with spelling errors or lacking nuance. Conversely, handwriting forces the brain to actively engage in constructing each character, creating stronger neural pathways between the visual cortex and motor areas of the brain.\n\nFurthermore, research consistently demonstrates a direct correlation between handwriting and memory retention. Studies indicate that students who take notes by hand perform significantly better on tests than those who type identical notes. This phenomenon occurs because the physical act of writing requires summarizing information in real-time to fit it onto a page, fostering deeper comprehension rather than passive transcription. In contrast, typing encourages verbatim recording without necessarily processing meaning, leading to superficial engagement with complex texts like literature or scientific concepts. The friction between pen and paper compels the mind to distill ideas, making them stick more effectively than rapid keystrokes allow.\n\nMoreover, handwriting serves as a vital developmental milestone for young children before they ever reach proficiency in typing. Children must first master fine motor skills necessary to manipulate a pencil or marker. Removing this challenge from schools could lead to delays in developing hand-eye coordination and grip strength that are critical not only for academic tasks but also for everyday life activities like cooking, drawing, or playing musical instruments. The tactile feedback of writing on paper provides unique sensory information that digital screens cannot replicate, enhancing the learning experience through a multi-sensory approach that grounds abstract concepts in physical reality.\n\nOpponents might argue that technology renders handwriting unnecessary, yet history shows us repeatedly that new tools emerge while old ones remain relevant for specific purposes. We do not abandon speaking just because texting exists; we write letters and journals for emotional expression regardless of email availability. Similarly, handwriting preserves a personal voice and artistic expression in a way that sterile digital text cannot match. The irregularity of hand-formed script allows the writer to infuse work with individual rhythm and character lost in uniform typed fonts.\n\nIn conclusion, schools should absolutely continue to teach handwriting alongside typing skills. Eliminating this practice would sacrifice cognitive benefits essential for academic success and ignore the holistic developmental needs of children. To truly prepare students for the future, education must balance modern technological fluency with the timeless disciplines of penmanship that anchor memory, creativity, and motor development. By preserving the art of writing by hand, we ensure our students possess not just digital literacy, but also a robust capacity for thought and expression.",
+ "artifact_versions": [
+  "In an era dominated by touchscreens, digital tablets, and voice-to-text software, the question of whether schools should continue to prioritize traditional handwriting instruction has sparked intense debate among educators, technologists, and parents. While proponents of a fully digitized curriculum argue that typing is faster and more practical for modern careers, I firmly contend that schools must maintain handwriting as a core component of their educational mandate. Abandoning this skill entirely would not only atrophy students' motor development but also severely impair cognitive processing and memory retention essential for deep learning.\n\nThe primary argument against teaching handwriting often rests on the premise of efficiency. Critics suggest that in a world where information is instantly accessible, spending years mastering pen-and-paper cursive or print is an obsolete use of time better spent coding or typing. However, this perspective overlooks the fundamental neurological differences between forming letters by hand and pressing keys on a keyboard. When students type, they often do not need to think about letter formation; their brains can focus solely on content generation, which explains why many adults draft ideas quickly on laptops that are subsequently riddled with spelling errors or lack nuance. Handwriting forces the brain to engage actively in constructing each character, creating stronger neural pathways between the visual cortex and motor areas of the brain.\n\nFurthermore, research consistently demonstrates a direct correlation between handwriting and memory retention. Studies indicate that students who take notes by hand perform significantly better on tests than those who type identical notes. This phenomenon occurs because the physical act of writing requires summarizing information in real-time to fit it onto a page, fostering deeper comprehension rather than passive transcription. In contrast, typing encourages verbatim recording without necessarily processing meaning, leading to superficial engagement with complex texts like literature or scientific concepts.\n\nMoreover, handwriting serves as a vital developmental milestone for young children. Before they can type, they must master the fine motor skills necessary to manipulate a pencil or marker. Removing this challenge from schools could lead to delays in developing hand-eye coordination and grip strength that are critical not only for academic tasks but also for everyday life activities like cooking or playing musical instruments. The tactile feedback of writing on paper provides unique sensory information that digital screens cannot replicate, enhancing the learning experience through a multi-sensory approach.\n\nOpponents might argue that technology renders handwriting unnecessary, yet history shows us repeatedly that new tools emerge while old ones remain relevant. We do not abandon speaking just because texting exists; we write letters and journals for emotional expression regardless of email availability. Similarly, handwriting preserves personal voice and artistic expression in a way that sterile digital text cannot match.\n\nIn conclusion, schools should absolutely continue to teach handwriting alongside typing skills. Eliminating this practice would sacrifice cognitive benefits essential for academic success and ignore the holistic developmental needs of children. To truly prepare students for the future, education must balance modern technological fluency with the timeless disciplines of penmanship that anchor memory, creativity, and motor development."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_01",
+ "split": "discovery",
+ "construction_seed": 17640,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 589
+}

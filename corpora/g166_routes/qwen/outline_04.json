@@ -1,0 +1,70 @@
+{
+ "case_id": "qwen_outline_04",
+ "lineage_id": "g166_qwen_04",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_04",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether space exploration deserves public funding Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Space exploration drives technological innovations that directly improve daily life and economic growth for all citizens.\n2. International cooperation in space fosters global unity while providing essential data to address climate change and natural disasters.\n3. Investing in space education inspires a new generation of scientists, engineers, and explorers who will solve future problems on Earth.\n4. Despite the high costs, commercial partnerships allow NASA funds to focus on science rather than rocket development alone.\n5. Cutting public funding now would halt progress in critical areas like medicine communication systems without which we cannot survive climate crises later."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether space exploration deserves continued public funding often centers on the immediate tangible benefits versus distant, abstract goals. However, a closer examination reveals that investment in our final frontier yields profound returns for life on Earth today and tomorrow. Space exploration is not merely an act of curiosity; it is a powerful engine driving technological innovations that directly improve daily life and fuel economic growth for all citizens. Many technologies we now consider essential to modern existence originated as space projects, from the microchips powering our smartphones to the water purification systems used in developing nations. Furthermore, satellite networks enable global communication grids that keep societies connected during emergencies, proving that space investment is a pragmatic necessity rather than a luxury.\n\nBeyond domestic technological spinoffs, international cooperation in space fosters an unprecedented level of global unity while providing essential data crucial for addressing existential threats like climate change and natural disasters. When nations collaborate on missions such as the International Space Station, they build frameworks of diplomacy and trust that transcend political divides. More critically, satellites provide real-time monitoring of our planet's health, tracking deforestation, measuring greenhouse gas emissions, and predicting severe weather patterns with increasing accuracy. This data is indispensable for policymakers aiming to mitigate environmental damage and prepare communities for disasters ranging from hurricanes to wildfires, ensuring public safety through scientific foresight derived from orbital perspectives.\n\nMoreover, the intangible yet vital impact of space programs lies in their ability to inspire a new generation of scientists, engineers, and explorers who will solve future problems on Earth. The dream of reaching other worlds ignites imagination among young people across diverse socioeconomic backgrounds, encouraging them to pursue careers in STEM fields that might otherwise remain unexplored. This pipeline of talent is essential for sustaining innovation not just in aerospace, but in medicine, energy, materials science, and computer engineering. Without the aspirational pull of space exploration, we risk losing a generation capable of tackling complex global challenges through creative problem-solving.\n\nCritics often point to the staggering costs of these programs as justification for cutting funding, yet this argument ignores how financial structures have evolved to maximize efficiency. Despite high upfront costs, strategic commercial partnerships allow agencies like NASA to focus on fundamental science rather than burdening themselves with the entirety of rocket development alone. By contracting private companies for launch services and payload integration, public funds are redirected toward research in astrophysics, planetary geology, and biological experiments that drive human knowledge forward without wasting taxpayer money on redundant infrastructure duplication.\n\nUltimately, cutting public funding now would be a catastrophic short-sighted decision that would halt progress in critical areas including advanced medicine and communication systems, technologies upon which we depend for survival against coming climate crises later. The trajectory of our civilization suggests that abandoning the space endeavor would leave humanity blind to its own fragility and disconnected from potential solutions developed beyond our atmosphere. Therefore, sustained public investment is not just an option but a moral imperative to ensure a secure future for all inhabitants of this planet. We must continue to look upward so that we may better protect those beneath us.",
+ "artifact_versions": [
+  "1. Space exploration drives technological innovations that directly improve daily life and economic growth for all citizens.\n2. International cooperation in space fosters global unity while providing essential data to address climate change and natural disasters.\n3. Investing in space education inspires a new generation of scientists, engineers, and explorers who will solve future problems on Earth.\n4. Despite the high costs, commercial partnerships allow NASA funds to focus on science rather than rocket development alone.\n5. Cutting public funding now would halt progress in critical areas like medicine communication systems without which we cannot survive climate crises later."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_04",
+ "split": "discovery",
+ "construction_seed": 20620,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 528
+}

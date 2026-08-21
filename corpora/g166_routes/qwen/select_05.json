@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_05",
+ "lineage_id": "g166_qwen_05",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_05",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether museums should return colonial-era artifacts Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Museums must repatriate colonial-era artifacts because their continued possession perpetuates historical injustice and denies indigenous communities access to their cultural heritage.",
+     "While the ethical imperative for restitution is strong, museums can better serve global education by retaining these items while implementing rigorous partnerships with source nations.",
+     "The argument against returning artifacts overlooks the practical realities of preservation standards and security protocols that many countries lack, making international loans a more viable solution than permanent repatriation."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "Museums must repatriate colonial-era artifacts because their continued possession perpetuates historical injustice and denies indigenous communities access to their cultural heritage.",
+    "The argument against returning artifacts overlooks the practical realities of preservation standards and security protocols that many countries lack, making international loans a more viable solution than permanent repatriation."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "While the ethical imperative for restitution is strong, museums can better serve global education by retaining these items while implementing rigorous partnerships with source nations.",
+    "draw_seed": 21660
+   }
+  },
+  {
+   "event_id": "e3_0",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "Museums must repatriate colonial-era artifacts because their continued possession perpetuates historical injustice and denies indigenous communities access to their cultural heritage."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "The argument against returning artifacts overlooks the practical realities of preservation standards and security protocols that many countries lack, making international loans a more viable solution than permanent repatriation."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether museums should return colonial-era artifacts has intensified in recent years, driven largely by moral arguments regarding justice and repatriation. Proponents of immediate restitution argue that keeping objects taken under duress or through theft is an ongoing injustice that perpetuates the power dynamics of empire. While these ethical concerns are valid and must be acknowledged with seriousness, a rigid policy of mandatory return may inadvertently harm the very educational mission museums strive to uphold. Instead, the most constructive path forward lies in recognizing that while the moral imperative for restitution is strong, museums can better serve global education by retaining these items while implementing rigorous partnerships with source nations.\n\nMuseums act as universal archives where diverse cultures and histories intersect, providing a unique opportunity for cross-cultural understanding. When an artifact from one nation sits alongside objects from others within the same institution, it creates a visual narrative of human connection that is difficult to replicate elsewhere. Dispersing these collections immediately would fragment this global context, forcing visitors in different countries to seek out scattered pieces of history rather than experiencing them together. For instance, if ancient Mesopotamian tablets were moved exclusively back to Iraq or Egypt, the public in other regions might lose access to a tangible link with that shared heritage unless new mechanisms are established specifically for viewing those objects abroad. By retaining these items locally, museums preserve their role as centralized hubs of knowledge where students from all backgrounds can learn about global history without geographical barriers limiting their perspective.\n\nHowever, retention must not come at the expense of acknowledging colonial wrongs or silencing source communities. The solution is not a binary choice between keeping everything and returning nothing, but rather a shift toward active collaboration. Museums should implement rigorous partnerships with source nations that include formal co-curation agreements, shared research projects, and robust digital access initiatives. These collaborations ensure that the narratives surrounding these objects are diverse, inclusive, and representative of multiple viewpoints. Through such partnerships, museums can display artifacts in contexts that honor their origins while allowing for educational continuity. For example, a museum could partner with an embassy or cultural ministry to host traveling exhibitions that bring specific collections back home periodically, effectively balancing local retention with international sharing.\n\nFurthermore, the argument for return often overlooks the practical realities of preservation and curation. Many source nations may lack the current infrastructure or funding required to house delicate artifacts in environments that ensure their long-term survival. In such cases, retaining items in well-resourced institutions while providing full transparency about their colonial provenance is a pragmatic approach that safeguards heritage for future generations. This does not excuse past abuses but rather seeks a forward-looking solution where resources are leveraged for the benefit of humanity as a whole. By maintaining physical custody and managing strict ethical standards through partnership, museums can evolve from sites of imperial display into platforms for genuine dialogue and mutual respect.\n\nUltimately, justice is best served by ensuring that history remains accessible to everyone while actively engaging with communities affected by colonialism. A policy that prioritizes immediate repatriation without sufficient alternative arrangements risks creating new educational inequities where local populations lose their own connection to global history. Therefore, the most responsible course of action is for museums to retain these artifacts as part of a shared human legacy but do so under conditions of strict partnership and active collaboration with source nations. This approach honors ethical concerns while maximizing the potential for education on a truly global scale.",
+ "artifact_versions": [
+  "1. Museums must repatriate colonial-era artifacts because their continued possession perpetuates historical injustice and denies indigenous communities access to their cultural heritage.\n2. While the ethical imperative for restitution is strong, museums can better serve global education by retaining these items while implementing rigorous partnerships with source nations.\n3. The argument against returning artifacts overlooks the practical realities of preservation standards and security protocols that many countries lack, making international loans a more viable solution than permanent repatriation."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_05",
+ "split": "discovery",
+ "construction_seed": 21660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 594
+}

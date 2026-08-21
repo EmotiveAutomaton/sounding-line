@@ -1,0 +1,47 @@
+{
+ "case_id": "qwen_direct_02",
+ "lineage_id": "g166_qwen_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether professional sports teams should be publicly owned Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "direct",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The concept of professional sports has long been dominated by wealthy individuals and corporate conglomerates who treat athletic franchises as lucrative assets rather than community institutions. In this landscape, where stadiums are often built with taxpayer money while owners reap billions in profits, the debate over whether these teams should be publicly owned gains significant traction among critics. Proponents argue that public ownership would democratize access to entertainment, ensure fair play for athletes and staff, and align the interests of the franchise directly with those who fund its infrastructure. However, opponents contend that sports are a business requiring private capital management, suggesting that state involvement could undermine competitiveness and financial viability without guaranteeing positive social outcomes.\n\nThe primary argument in favor of public ownership rests on the idea that professional sports teams should serve as pillars of civic pride rather than vehicles for personal enrichment. Currently, many major league franchises operate like monopolies within their specific markets; an owner possesses a virtual monopoly over local fans' ability to watch top-tier entertainment without viable alternatives. Under this system, owners often resist reasonable demands regarding ticket prices and broadcasting rights because they know the public has little choice but to pay up or go away entirely. Public ownership would theoretically break this stranglehold by prioritizing affordability and accessibility for working-class families who currently feel priced out of their own communities' cultural life. Furthermore, in a publicly owned structure, revenues generated from ticket sales and merchandise could be reinvested into youth development programs, community facilities, or lower-tier leagues within the same region, creating a more robust ecosystem rather than funneling wealth solely to the top tier's proprietors.\n\nCritics of this model, however, point out significant practical hurdles that make public ownership unfeasible in many contexts. Sports are inherently competitive industries where success is not guaranteed; if a publicly owned team performs poorly on the field, taxpayers may bear the brunt of financial losses rather than wealthy investors whose money was theirs to risk or lose anyway. There is also the issue of operational flexibility. Private owners often make difficult but necessary decisions regarding roster construction and player contracts that maximize winning potential while adhering to salary caps. A government body managing a team might succumb to political pressure, favoring local heroes over merit, which could dilute on-field quality and turn fans away precisely when they need them most. Additionally, the sheer volume of capital required to sustain a top-tier franchise often exceeds what typical municipal budgets can support, potentially leading to debt burdens that would negatively impact other essential public services like education or healthcare.\n\nDespite these concerns, the fundamental ethical question remains whether society should accept sports as entertainment at the expense of equity and community stability. The current model of private ownership has led to extreme wealth concentration in a sector that claims universal appeal. While pure state management may not be the only solution\u2014public-private partnerships could offer a middle ground where oversight ensures fair practices without sacrificing agility\u2014the principle stands that no single individual or corporation should hold such immense power over a community's cultural life simply by virtue of purchasing an asset built on public land and often with public subsidies. Ultimately, while perfecting the ownership model is complex, moving toward greater transparency, stricter regulation, and potentially exploring limited forms of public stakes could ensure that professional sports remain accessible to all citizens rather than becoming exclusive clubs for the ultra-wealthy. The goal should be a system where fans feel they are part owners of their city's team spirit, fostering loyalty based on shared values rather than economic dependency.",
+ "artifact_versions": [],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_02",
+ "split": "discovery",
+ "construction_seed": 18600,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 609
+}

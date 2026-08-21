@@ -1,5 +1,11 @@
 # This is not data science. What is it, and what tooling actually fits?
 
+**Reusable design principle (2026-08-21).** Wide candidate generation, explicit constraint
+evaluation, archive preservation, and avoidance of population-size-one search remain binding
+principles. The specific measure-evolution loop is not automatically the current scheduled
+build; Phase 2.3's adaptive branch registry is the operative application of the broader search
+frame. Scheduled work lives in `TODO.md`.
+
 **2026-08-05**, at the curator's reframe, which corrected a category error I had been making for
 three days:
 

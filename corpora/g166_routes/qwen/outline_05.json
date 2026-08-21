@@ -1,0 +1,70 @@
+{
+ "case_id": "qwen_outline_05",
+ "lineage_id": "g166_qwen_05",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_05",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether museums should return colonial-era artifacts Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Museums must repatriate looted artifacts to correct historical injustices and acknowledge past wrongs.\n2. Returning these items restores cultural heritage to nations of origin that have lost them for centuries.\n3. Retaining colonial treasures perpetuates unequal power dynamics between former imperial powers and decolonized states.\n4. Ethical museum practices require transparency about an object's provenance rather than hiding its stolen history.\n5. Collaboration on digital archives or shared exhibitions can preserve access without requiring physical possession by foreign entities."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The role of museums in the twenty-first century is undergoing a profound transformation, driven by a growing recognition that many institutions continue to benefit from systems built upon exploitation and violence. The central argument for modern museology must be clear: museums have an ethical imperative to repatriate looted artifacts to correct historical injustices and acknowledge past wrongs. For centuries, the global museum network was constructed during periods of colonial expansion, where objects were taken by force or deception from indigenous communities without consent. By returning these items, institutions are not merely moving physical objects; they are engaging in a necessary process of moral accountability that validates the suffering inflicted upon colonized peoples and admits to a legacy built on theft rather than discovery.\n\nReturning these stolen items serves as a vital step toward restoring cultural heritage to nations of origin that have lost them for centuries. An artifact is not simply an object with aesthetic or historical value; it often holds deep spiritual, religious, and communal significance for the people from whom it was taken. When a community cannot access its ancestral idols, sacred texts, or traditional regalia housed in foreign capitals, their cultural continuity suffers irreparable damage. Repatriation allows these communities to reclaim their history on their own terms, facilitating healing and fostering a renewed sense of identity that had been suppressed under colonial rule. It acknowledges the pain of displacement caused by imperial aggression and begins the difficult work of reversing centuries of erasure.\n\nFurthermore, retaining colonial treasures perpetuates unequal power dynamics between former imperial powers and decolonized states. The continued display of these items in wealthy Western institutions while they sit empty back home reinforces a narrative where Europe owns humanity's history while Africa, Asia, or the Americas remain defined by what was taken from them. This arrangement suggests that certain nations are responsible for preserving global culture rather than their own, maintaining a hierarchy where former colonizers act as custodians of knowledge and artifacts belonging to others. True equity requires dismantling this structure so that each nation can tell its own story within the borders it controls, fostering a more equitable relationship between cultures based on mutual respect rather than extracted dominance.\n\nEthical museum practices also require transparency about an object's provenance rather than hiding its stolen history behind vague dates or neutral labels. Curators and administrators often engage in obfuscation to avoid uncomfortable questions of guilt and responsibility, but this only deepens the mistrust between institutions and descendant communities. Transparency involves openly admitting that specific items were acquired under duress or through fraudulent means during times when slavery was legal or colonization was an active policy. This honesty is essential for rebuilding trust and allows visitors from all backgrounds to engage with history authentically rather than accepting a sanitized version of events provided by former oppressors.\n\nFinally, collaboration on digital archives or shared exhibitions can preserve access without requiring physical possession by foreign entities. Critics often argue that returning artifacts will deprive the world of public education opportunities; however, technology offers solutions that respect sovereignty while maintaining global connectivity. High-resolution scans, virtual reality experiences, and loan agreements allow scholars from around the globe to study these items in detail regardless of their location. Shared exhibitions can be organized where the object remains on display temporarily or is managed jointly by local custodians who understand its context best. These innovative approaches ensure that knowledge is not lost but rather democratized, proving that justice does not require sacrificing access to history. Ultimately, the path forward involves a brave commitment to truth and restitution, ensuring that museums become spaces of reconciliation rather than monuments to past theft.",
+ "artifact_versions": [
+  "1. Museums must repatriate looted artifacts to correct historical injustices and acknowledge past wrongs.\n2. Returning these items restores cultural heritage to nations of origin that have lost them for centuries.\n3. Retaining colonial treasures perpetuates unequal power dynamics between former imperial powers and decolonized states.\n4. Ethical museum practices require transparency about an object's provenance rather than hiding its stolen history.\n5. Collaboration on digital archives or shared exhibitions can preserve access without requiring physical possession by foreign entities."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_05",
+ "split": "discovery",
+ "construction_seed": 21620,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 611
+}

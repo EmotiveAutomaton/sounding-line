@@ -1,5 +1,10 @@
 # The dwell corpus — spec, not yet acquired
 
+**Deferred design notice (2026-08-21).** The controlled same-maker/two-form design remains
+valid, but it is not the current highest-value unblocked item; Phase 2.3's known-answer process
+roots govern current work. Reopen this corpus only if a live branch again requires a
+dwell-definedness test.
+
 **2026-08-05.** Specified because sim **T-3** named the regime where decision-counting is a
 well-defined event, and it is the first time this project has had a corpus request with a *reason*
 attached rather than a vibe. C-14 was never more than "we should get better data."
@@ -84,6 +89,7 @@ handles it), and the positive control on the harness.
 **Not acquired.** This is a fetching decision, not a night of compute, and it is the curator's call.
 Estimated cost: an afternoon of sourcing, then it runs on existing machinery.
 
-**It is currently the highest-value unblocked item in the project**, because every measure that has
+It was the highest-rated unblocked corpus request on 2026-08-05, because every measure that has
 ever worked has worked on a construction-controlled corpus, and this would be the **first controlled
-corpus of human artifacts** the project has ever had.
+corpus of human artifacts** the project has ever had. It is now deferred behind the
+process-inversion root map (the notice at the head of this file).

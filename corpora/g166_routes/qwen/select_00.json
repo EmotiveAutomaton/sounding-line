@@ -1,0 +1,141 @@
+{
+ "case_id": "qwen_select_00",
+ "lineage_id": "g166_qwen_00",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_00",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether cities should ban private cars from their centers Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "select",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "propose",
+   "target": "theses",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "candidates": [
+     "Cities must implement bans on private vehicles in urban cores because doing so is essential for reducing greenhouse gas emissions and improving public health through cleaner air.",
+     "While environmental concerns are valid, prohibiting private car access to city centers without providing robust alternatives like high-speed rail or expansive cycling networks will disproportionately harm low-income residents who rely solely on automobiles.",
+     "A complete ban on private cars in downtown areas is unnecessary; instead, cities should adopt a tiered congestion pricing system that discourages non-essential driving while preserving mobility options for emergency services and local commerce."
+    ]
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "seeded_draw",
+   "operation": "select",
+   "target": "thesis_0",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [
+    "While environmental concerns are valid, prohibiting private car access to city centers without providing robust alternatives like high-speed rail or expansive cycling networks will disproportionately harm low-income residents who rely solely on automobiles.",
+    "A complete ban on private cars in downtown areas is unnecessary; instead, cities should adopt a tiered congestion pricing system that discourages non-essential driving while preserving mobility options for emergency services and local commerce."
+   ],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "selected": "Cities must implement bans on private vehicles in urban cores because doing so is essential for reducing greenhouse gas emissions and improving public health through cleaner air.",
+    "draw_seed": 16660
+   }
+  },
+  {
+   "event_id": "e3_1",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_1",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "While environmental concerns are valid, prohibiting private car access to city centers without providing robust alternatives like high-speed rail or expansive cycling networks will disproportionately harm low-income residents who rely solely on automobiles."
+   }
+  },
+  {
+   "event_id": "e3_2",
+   "order": 2,
+   "actor_id": "seeded_draw",
+   "operation": "reject",
+   "target": "thesis_2",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "rejected": "A complete ban on private cars in downtown areas is unnecessary; instead, cities should adopt a tiered congestion pricing system that discourages non-essential driving while preserving mobility options for emergency services and local commerce."
+   }
+  },
+  {
+   "event_id": "e4",
+   "order": 3,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether cities should restrict or ban private cars from their central districts has intensified as metropolitan areas grapple with the dual crises of climate change and urban pollution. While arguments often focus on convenience, traffic flow, or economic impact, these concerns must be subordinate to a more urgent imperative: the necessity of protecting planetary health and human well-being. Cities must implement bans on private vehicles in their cores because doing so is essential for reducing greenhouse gas emissions and improving public health through cleaner air. The current reliance on internal combustion engines within dense urban environments represents an unsustainable model that directly contributes to global warming and creates toxic conditions for millions of residents who breathe the resulting smog every day.\n\nThe primary driver for these bans is the undeniable contribution of private vehicle traffic to greenhouse gas emissions. Transportation remains one of the largest sources of carbon dioxide globally, yet in many cities, a significant portion of this footprint comes from cars idling or driving slowly through congested centers where fuel efficiency is at its lowest due to stop-and-go patterns. When private vehicles are permitted freely within city limits, they lock urban planning into an infrastructure dependent on fossil fuels. By implementing strict bans on non-essential private car use in central districts, municipalities can force a rapid transition toward electrified public transit and cycling networks. This shift not only curtails the immediate carbon output but also accelerates the broader decarbonization of the economy by demonstrating that high-quality mobility does not require individual ownership of gas-guzzling machines. The collective reduction in emissions from even just one major city can make a measurable dent in national climate targets, serving as a critical node in the fight against global warming.\n\nBeyond the macroscopic issue of climate change lies the microscopic and immediate threat to public health caused by vehicle exhaust. Urban cores are often trapped under layers of nitrogen dioxide, particulate matter, and other pollutants that seep from tailpipes and evaporative emissions. These contaminants penetrate deep into lung tissue, exacerbating asthma, causing cardiovascular diseases, and contributing to premature deaths among vulnerable populations such as children and the elderly. The concentration of these toxins is highest where traffic density peaks, directly surrounding schools, hospitals, and residential neighborhoods. A ban on private cars acts as a powerful public health intervention by drastically lowering ambient pollutant levels. When roads are cleared of idling combustion engines, air quality improves within hours, allowing for better respiratory function across the population. This reduction in pollution creates safer environments for outdoor activities, effectively turning street life back into a communal experience rather than a hazardous journey through a chemical soup.\n\nCritics may argue that such bans disproportionately affect those who cannot afford public transport or electric vehicles, yet this perspective overlooks the reality that modern infrastructure can be built to serve everyone equitably. The solution lies not in maintaining pollution but in investing heavily in affordable, reliable mass transit and protected bike lanes while simultaneously phasing out private ownership privileges. Furthermore, the economic costs of healthcare burdens associated with air pollution far outweigh any short-term inconvenience caused by adjusting travel habits or switching transport modes. By prioritizing clean air over car convenience, cities take a moral stand that life itself is more valuable than vehicular mobility. The path forward requires courage and decisive action to restructure how people move through their own neighborhoods. Cities must implement bans on private vehicles in urban cores because doing so is essential for reducing greenhouse gas emissions and improving public health through cleaner air. Only by making this radical change can we secure a breathable future where prosperity does not come at the cost of our environment or our lives.",
+ "artifact_versions": [
+  "1. Cities must implement bans on private vehicles in urban cores because doing so is essential for reducing greenhouse gas emissions and improving public health through cleaner air.\n2. While environmental concerns are valid, prohibiting private car access to city centers without providing robust alternatives like high-speed rail or expansive cycling networks will disproportionately harm low-income residents who rely solely on automobiles.\n3. A complete ban on private cars in downtown areas is unnecessary; instead, cities should adopt a tiered congestion pricing system that discourages non-essential driving while preserving mobility options for emergency services and local commerce."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_00",
+ "split": "discovery",
+ "construction_seed": 16660,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 627
+}

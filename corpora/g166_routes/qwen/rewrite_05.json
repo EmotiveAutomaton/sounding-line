@@ -1,0 +1,71 @@
+{
+ "case_id": "qwen_rewrite_05",
+ "lineage_id": "g166_qwen_05",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_05",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether museums should return colonial-era artifacts Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model",
+  "g131_base": "recorded_prior_artifact"
+ },
+ "route_family": "rewrite",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "g131_base",
+   "operation": "propose",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "base_ref": "g131 qwen none_0_none_05"
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate regarding the repatriation of colonial-era artifacts has long been dismissed as a mere academic exercise by some; in reality, it represents a profound ethical reckoning that demands an immediate and decisive stance. While arguments persist for preserving these items within established Western institutions under the guise of universal heritage, such views ignore the fundamental injustices at play. I firmly contend that museums possess both a moral obligation and a practical imperative to return looted or unethically acquired cultural property to their countries and communities of origin. The retention of stolen goods serves no purpose other than perpetuating historical grievances.\n\nThe primary argument against retaining these artifacts rests on the undeniable reality of historical injustice. Countless objects currently housed in prestigious European galleries were not voluntarily donated but were forcibly taken during periods of empire, war, and occupation. To keep them is an active continuation of that original theft, effectively claiming ownership over stolen property without compensation or consent. Justice requires restitution just as it does for financial assets; the only difference lies in form rather than principle. Returning these artifacts acknowledges the suffering inflicted upon indigenous peoples and validates their enduring sovereignty over their own history and identity. It is a necessary step to correct centuries of exploitation that treated human culture merely as plunderable resources.\n\nFurthermore, the narratives surrounding colonial collections are frequently distorted by deep-seated Eurocentric biases. Western museums often present African masks, Native American relics, or Asian bronzes as universal \"art,\" deliberately stripping them of their specific religious, political, and social contexts belonging to living cultures. When artifacts remain in distant capitals like London, Paris, or Berlin, they are displayed behind glass as static objects of curiosity rather than dynamic parts of a thriving culture. Repatriation allows these items to be interpreted within the correct cultural framework by descendants who can explain their significance accurately. This shift fosters deeper understanding and respect among global audiences, replacing alienating mystification with authentic storytelling rooted in community knowledge.\n\nCritics often cite climate control, security infrastructure, or public accessibility as valid reasons for retention, arguing that Western museums offer superior protection. However, this utilitarian argument ignores the fact that many source nations have built capable institutions since gaining independence. The excuse of \"protection\" is frequently a pretext to avoid the difficult work of confronting uncomfortable histories and admitting culpability. Moreover, true universalism does not require keeping treasures where they were stolen; it requires sharing knowledge and fostering connections based on equality rather than dominance. A museum situated in its rightful home often attracts more visitors from its own community, promoting local heritage tourism and economic development far better than a distant institution can ever hope to achieve for an indigenous population.\n\nIn conclusion, the continued retention of colonial artifacts serves as a monument to past exploitation that must be dismantled without delay. Repatriation is not simply about moving physical objects across borders; it is about correcting historical wrongs, restoring dignity to marginalized peoples, and reshaping our global understanding of art history. Museums should actively facilitate this return process immediately, transitioning from being vaults of stolen goods into agents of restorative justice. By taking these steps, the international community can move forward with a more honest and equitable approach to preserving human heritage for all nations.",
+ "artifact_versions": [
+  "The debate over repatriating colonial-era artifacts is not merely an academic discussion; it is a profound ethical reckoning that demands a decisive stance. While some argue for the preservation of these items in established Western institutions, I firmly contend that museums have both a moral obligation and a practical imperative to return looted or unethically acquired cultural heritage to their countries and communities of origin.\n\nThe primary argument against retaining colonial artifacts rests on historical injustice. Many objects currently housed in prestigious European galleries were not voluntarily donated but were forcibly taken during periods of empire, war, and occupation. To keep these items is an act of continuing that theft by claiming ownership over stolen property without compensation or consent. Justice requires restitution just as it does for financial assets; the difference lies only in form rather than principle. Returning these artifacts acknowledges the suffering inflicted upon indigenous peoples and validates their enduring sovereignty over their own history and identity.\n\nFurthermore, the narrative surrounding colonial collections is often distorted by Eurocentric bias. Western museums frequently present African masks, Native American relics, or Asian bronzes as universal \"art\" while stripping them of their specific religious, political, and social contexts belonging to living cultures. When artifacts remain in distant capitals like London, Paris, or Berlin, they are displayed behind glass as static objects of curiosity rather than dynamic parts of a thriving culture. Repatriation allows these items to be interpreted within the correct cultural framework by descendants who can explain their significance accurately, fostering deeper understanding and respect among global audiences.\n\nCritics often cite climate control, security infrastructure, or public accessibility in Western museums as valid reasons for retention. However, this utilitarian argument ignores that many source nations have built capable institutions since gaining independence. The excuse of \"protection\" is frequently a pretext to avoid the difficult work of confronting uncomfortable histories. Moreover, true universalism does not require keeping treasures where they were stolen; it requires sharing knowledge and fostering connections based on equality rather than dominance. A museum in its rightful home often attracts more visitors from its own community, promoting local heritage tourism and economic development far better than a distant institution can ever hope to achieve for an indigenous population.\n\nIn conclusion, the retention of colonial artifacts serves as a monument to past exploitation that must be dismantled. Repatriation is not just about moving physical objects; it is about correcting historical wrongs, restoring dignity to marginalized peoples, and reshaping our global understanding of art history. Museums should actively facilitate this return process immediately, transitioning from being vaults of stolen goods into agents of restorative justice."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_05",
+ "split": "discovery",
+ "construction_seed": 21640,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 548
+}

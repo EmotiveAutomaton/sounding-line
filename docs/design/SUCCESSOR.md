@@ -1,5 +1,10 @@
 # The successor design
 
+**Historical precursor notice (2026-08-21).** This design was written before Gate 3 and retains
+that evidential value. Its anomaly pass, reconstructibility output, graded reader interface,
+and no-provenance boundary are absorbed into the Phase 2.2/2.3 program. Build-status and queue
+claims below describe 2026-08-03, not current execution.
+
 **Started 2026-08-03, while Gate 3 was still running and before its result was seen.** That timing
 is deliberate and it is the same discipline as C-22: a successor designed after a number is a
 successor designed to explain that number.

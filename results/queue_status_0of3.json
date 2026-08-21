@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-20 16:58",
+  "started": "2026-08-21 05:07",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -702,9 +702,22 @@
       "why": "G162-R verdict: V gate first, per-class confusion, the primary concealed-vs-unnoticed pair band, clean-family fabrication",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g165_cand_disc_leak",
+      "why": "G165 arm cand_disc_leak: route-generation ablation against the recorded direct arm; leak arms run the twins where nothing was executed",
+      "est_minutes": 50,
+      "status": "DONE",
+      "log": "results\\g165_cand_disc_leak.log",
+      "minutes": 0.8
+    },
+    {
+      "name": "g166_gen_qwen",
+      "why": "G166 route-varied corpus, seen generator: five recorded routes to surface-matched essays, process-logged by construction",
+      "est_minutes": 150,
+      "status": "RUNNING",
+      "log": "results\\g166_gen_qwen.log"
     }
   ],
-  "shard": "0/3",
-  "finished": "2026-08-20 16:58",
-  "failed": []
+  "shard": "0/3"
 }

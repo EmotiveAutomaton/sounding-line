@@ -195,7 +195,10 @@ baseline the reader must beat, and a fabrication-rate arm. Its verdict lands thr
 The full running record lives in [`docs/STATE.md`](docs/STATE.md) (operational state, standing
 rulings, phase end states) and [`FINDINGS.md`](FINDINGS.md) (every study, how it was run, what
 came back). The governing brief for the current phase is
-[`docs/design/PHASE_2_0_CONTEXT.md`](docs/design/PHASE_2_0_CONTEXT.md).
+[`docs/design/PHASE_2_3_CONTEXT.md`](docs/design/PHASE_2_3_CONTEXT.md); Phase 2.0's brief
+remains the historical vertical-slice record, and the design index
+([`docs/design/README.md`](docs/design/README.md)) maps every phase document with its
+authority status.
 
 ## Theory map
 

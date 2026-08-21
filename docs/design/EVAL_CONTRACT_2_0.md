@@ -1,4 +1,10 @@
-# The Phase 2.0 evaluation contract — G152, DRAFT v0.2 (amended 2026-08-19 under Phase 2.2)
+# The Phase 2.0 evaluation contract — G152, DRAFT v0.3 (amended 2026-08-21 under Phase 2.3)
+
+**DRAFT — DO NOT FREEZE (2026-08-21).** The 2026-08-16 binary task is retained as a possible
+downstream product layer, but it no longer defines the primary Phase 2 task. This file must be
+reconciled with the Phase 2.3 reconstruction outputs (amendment v0.3 below) before curator
+sign-off; there must be one active evaluation contract, never a binary contract and a process
+contract that can disagree.
 
 **Status: draft for the curator's sign-off. Nothing here binds until frozen; once frozen, no
 result may change the task definition, splits, or success metric after scores are visible, and
@@ -20,7 +26,39 @@ as ontology (its file carries the ruling). No field trained or validated with pr
 metadata may appear in the final-artifact interface (§3b's rule, now doubly binding). A
 provenance label and a reconstruction score are separate outputs, always.
 
-## 1. The task
+**Amendment v0.3 (2026-08-21, Phase 2.3 — the process outputs).** The primary task is
+restated: given an artifact, declared context, and a bounded reader interface, produce a
+**calibrated reconstruction profile** that keeps viewer-coherent explanation,
+reader-enactable process, historical-process correspondence, contribution-network
+recovery, and abstention separate (`soundingline/reading_profile.py` and
+`soundingline/process_record.py` implement the fields; the three process outputs are
+defined in `docs/theory/THE_TRIPLE_INFERENCE.md` §2). Required outputs and their
+known-answer ground truths:
+
+| output | minimum representation | known-answer ground truth |
+|---|---|---|
+| `viewer_model` | ranked maker/process hypotheses plus evidence | reader calibration and held-out consequence, never plausibility alone |
+| `reenactment_route` | ordered process candidate with prerequisites | successful recreation or withheld construction choice |
+| `historical_process` | posterior or equivalence class over recorded events | version history, interaction logs, tool traces, or controlled construction |
+| `contribution_network` | actor-role event graph | logged proposal, selection, ratification, veto, integration, repair, acceptance |
+| `anomaly_trajectory` | access, origin, recognition, response, recurrence, integration | controlled anomaly histories and process records |
+| `uncertainty` | calibrated confidence plus abstention reason | held-out calibration, per interface |
+| `optional_provenance` | downstream binary or regime distribution | independently adjudicated regime labels, never inferred from the process score by definition |
+
+Headline F1 is replaced as the primary by a panel (matched-candidate historical event
+recovery; held-out process-fact prediction; reenactment success; actor-role and
+dependency-edge recovery; per-field anomaly confusion; evidence localization;
+calibration and selective risk per output; improvement over context-only, surface, and
+no-generative-prior baselines; divergence between viewer coherence and historical
+correspondence). No average across the panel produces an intent score. The freeze rule:
+do not freeze until every field has at least one known-answer example, historical and
+reenactment scoring can disagree without either being an error in the other, the
+perceptual-access exception is represented, a generic secondary-goal guess earns no
+credit, the binary layer is downstream and separately evaluated, and the curator signs
+off on examples rather than an abstract rule. §§3 to 8 below (splits, calibration, hard
+slices, claim tiers, baseline rule) survive unchanged and apply to every panel member.
+
+## 1. The task (v0.1 binary form, retained as the OPTIONAL DOWNSTREAM PRODUCT LAYER only)
 
 Binary decision, phrased exactly: **the probability that a generative model made a substantial
 contribution to this artifact's final wording or structure.** Never "the author is AI."

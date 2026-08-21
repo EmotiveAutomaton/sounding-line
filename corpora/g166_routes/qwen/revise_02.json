@@ -1,0 +1,92 @@
+{
+ "case_id": "qwen_revise_02",
+ "lineage_id": "g166_qwen_02",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_02",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether professional sports teams should be publicly owned Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "revise",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "critique",
+   "target": "draft",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "weaknesses": [
+     "1. The essay relies heavily on idealized assumptions about public ownership without addressing practical implementation challenges such as bureaucratic inefficiency, lack of private sector expertise in sports management, or potential political interference that could undermine competitive integrity and fan engagement.",
+     "2. While the argument for revenue redistribution is strong, the proposal lacks specific comparative data or historical examples demonstrating how municipal entities have successfully managed complex multi-billion dollar franchises while maintaining high levels of entertainment quality and financial sustainability compared to private ownership models."
+    ]
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The landscape of American and international professional sports has long been dominated by a system where wealthy individuals or corporations hold stakes in franchises valued at hundreds of millions of dollars. While this model fostered a vibrant culture of competition, it increasingly prioritizes profit maximization over community well-being, often leading to the abandonment of towns that invested heavily in infrastructure only for owners to relocate when lucrative stadium deals were offered elsewhere. Consequently, there is a compelling argument for transitioning professional sports teams from private monopolies to publicly owned entities. Such a shift would democratize access, ensure long-term financial stability, and realign these organizations with their civic duties by legally binding them to remain within their charter cities or regions. Under public ownership, franchises belong to all taxpayers rather than single billionaires, eliminating the threat of abandonment caused solely by profit motives. This ensures stadiums serve communities as intended: hubs for civic pride and economic activity, not tax avoidance schemes designed by absentee owners seeking to extract maximum value before moving on.\n\nFurthermore, revenue distribution in publicly owned leagues could be radically more equitable. Currently, wealthy teams in major markets often hoard profits while struggling franchises in smaller markets face existential threats due to high operating costs tied to stadium rents and luxury suites. If a team were owned by the city on behalf of its residents, excess revenue generated from ticket sales, merchandise, and broadcasting rights could be reinvested into youth development programs, athletic scholarships for local high schools, or public park maintenance. This model transforms sports teams from extractive institutions into genuine community assets that give back to their neighborhoods, fostering social cohesion rather than exploiting disparities between wealthy suburbs and underserved urban centers. Critics often argue that private ownership is essential for maintaining competitive neutrality; however, this concern overlooks how league structures already regulate play balance through salary caps and draft rules. Public ownership does not necessitate government interference in on-field strategy but offers a shift in governance structure to prevent corporate raiding or unchecked expansion fees. The success of public broadcasting models demonstrates that state-run entities can operate without sacrificing quality; similarly, municipal management could ensure transparency and accountability absent from the opaque financial dealings often seen with private owners who frequently litigate against fans over ticket prices during economic downturns.\n\nIn conclusion, while the romantic notion of privately owned teams suggests a free-market idealism regarding sports franchises, reality shows that this model has largely failed to serve the public interest consistently due to its volatility and extractive nature. The transition toward publicly owned professional sports teams offers a pragmatic solution to issues of stability, equity, and community integration by placing these institutions under democratic stewardship. Society can ensure that athletics remain accessible to all fans regardless of their economic status while securing the long-term viability of local economies against the capricious whims of predatory capitalism. Although challenges regarding operational expertise exist, they are manageable through partnerships with professional management firms rather than relying on unaccountable private interests. By embracing this model, communities can reclaim control over a beloved cultural institution and ensure it serves as an enduring pillar of civic life for future generations.",
+ "artifact_versions": [
+  "The landscape of American and international professional sports has long been dominated by private ownership structures, where wealthy individuals or corporations hold stakes in franchises valued at hundreds of millions of dollars. While this model has fostered a vibrant culture of competition and provided entertainment value to fans worldwide, it is increasingly evident that the current system prioritizes profit maximization over community well-being. Consequently, there is a compelling argument for transitioning professional sports teams from private monopolies to publicly owned entities, as such a shift would democratize access, ensure long-term financial stability, and realign the purpose of these organizations with their civic duties.\n\nThe primary justification for public ownership lies in addressing the inherent inequality created by current market dynamics. Under the present system, team relocation is often driven solely by lucrative stadium deals offered by cities desperate to lure talent away from competitors. This \"bait-and-switch\" dynamic allows owners to extract massive profits while abandoning towns that once invested heavily in their infrastructure and local identity. A publicly owned franchise would be legally bound to remain within its charter city or region, as the entity belongs to all taxpayers rather than a single billionaire. By removing the profit motive for relocation, public ownership eliminates the threat of abandonment and ensures that stadiums serve communities as intended: hubs for civic pride and economic activity, not tax avoidance schemes designed by absentee owners.\n\nFurthermore, revenue distribution in publicly owned leagues could be radically more equitable. Currently, wealthy teams like those in Los Angeles or New York often hoard profits while struggling franchises in smaller markets face constant existential threats due to higher operating costs tied to stadium rents and luxury suites. If a team were owned by the city on behalf of its residents, excess revenue generated from ticket sales, merchandise, and broadcasting rights could be reinvested into youth development programs, athletic scholarships for local high schools, or public park maintenance. This model transforms sports teams from extractive institutions into community assets that give back to the very neighborhoods they occupy, fostering a stronger sense of social cohesion rather than exploiting disparities between wealthy suburbs and underserved urban centers.\n\nCritics often argue that private ownership is essential for maintaining competitive neutrality in player markets; however, this concern overlooks how league structures already regulate play balance through salary caps and draft rules. Public ownership does not necessitate government interference in on-field strategy but rather a shift in governance structure to prevent corporate raiding or unchecked expansion fees. The success of public broadcasting models demonstrates that state-run entities can operate without sacrificing quality; similarly, municipal management could ensure transparency and accountability absent from the opaque financial dealings often seen with private owners who frequently litigate against fans over ticket prices during economic downturns.\n\nIn conclusion, while the romantic notion of privately owned teams suggests a free-market idealism regarding sports franchises, reality shows that this model has largely failed to serve the public interest consistently. The transition toward publicly owned professional sports teams offers a pragmatic solution to issues of stability, equity, and community integration. By placing these institutions under democratic stewardship, society can ensure that athletics remain accessible to all fans regardless of their economic status while securing the long-term viability of local economies against the capricious whims of predatory capitalism."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_02",
+ "split": "discovery",
+ "construction_seed": 18680,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 535
+}

@@ -1,0 +1,92 @@
+{
+ "case_id": "qwen_revise_05",
+ "lineage_id": "g166_qwen_05",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_05",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether museums should return colonial-era artifacts Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "revise",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "draft",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {}
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "critique",
+   "target": "draft",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "unknown",
+   "ground_truth_source": "construction",
+   "payload": {
+    "weaknesses": [
+     "1. The essay relies heavily on abstract moral arguments about sovereignty without sufficiently addressing specific practical challenges, such as funding gaps or legal frameworks required for successful repatriation logistics.",
+     "2. Certain claims regarding indigenous conservation capabilities are presented with a sweeping generalization that overlooks the vast disparities in resources between nations and could benefit from more nuanced examples of international cooperation models already in place."
+    ]
+   }
+  },
+  {
+   "event_id": "e3",
+   "order": 2,
+   "actor_id": "qwen",
+   "operation": "revise",
+   "target": "essay",
+   "parent_event_ids": [
+    "e2"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The global conversation surrounding the return of cultural artifacts acquired during eras of empire has shifted dramatically from academic theory to public demand, compelling museums worldwide to reconsider their role as mere custodians rather than absolute owners. At the core of this debate lies a critical inquiry: should institutions repatriate colonial-era objects to nations of origin? While arguments for retention often cite universal heritage and superior conservation facilities in Western capitals, these justifications frequently overlook the historical context of acquisition. Keeping items obtained through theft, coercion, or unequal power dynamics perpetuates an ongoing violation of sovereignty that outweighs the traditional benefits of a centralized collection model.\n\nThe primary defense against repatriation rests on two pillars: the notion that artifacts belong to humanity as a shared legacy accessible regardless of nationality, and the assumption that Western museums possess superior resources for preservation and study. While the idealism behind \"universal museums\" is noble in theory, it ignores historical reality. Many institutions built their collections during times when indigenous populations lacked legal standing or bargaining power. Suggesting that placing an object in a climate-controlled hall grants it legitimacy fails to account for the duress under which it was removed; its history remains intrinsically linked to the specific people and land from which it originated, rendering claims of universal ownership inherently flawed if rooted in injustice.\n\nFurthermore, the argument regarding superior preservation capabilities often assumes a level playing field that rarely exists. While Western institutions boast vast budgets, they frequently face intense scrutiny over security investments when political pressure mounts against holding contested items. Conversely, many nations now possess state-of-the-art conservation centers capable of protecting these treasures locally without subjecting them to permanent exile abroad. More importantly, the presence of an artifact within its own community fosters a profound sense of dignity and identity that cannot be replicated in a distant gallery. For centuries, such objects served as tangible reminders of subjugation; their return corrects historical wrongs by acknowledging indigenous sovereignty over cultural narratives.\n\nCritics often express anxiety that repatriating items will lead to neglect or damage once they leave prestigious institutions. This fear reflects a paternalistic view assuming only Western experts can properly care for artifacts, dismissing centuries of custodial knowledge held within source communities. However, when objects are returned accompanied by training and resources\u2014as seen in high-profile cases involving the Benin Bronzes or Maori taonga\u2014the risk of deterioration is often unfounded. The solution lies not in retention but in partnership; museums can collaborate with home nations to share digital scans, research data, and educational materials without needing physical custody over sacred items.\n\nUltimately, the moral imperative to return colonial-era artifacts outweighs the administrative convenience of keeping them. Museums exist to educate truthfully yet an education based on unacknowledged theft distorts history rather than illuminating it. True preservation involves protecting both the object's physical integrity and its spiritual significance for its people. By facilitating repatriation, museums can evolve from monuments of imperial conquest into genuine bridges of understanding and reconciliation between nations. The path forward requires humility and a willingness to admit that some things truly belong where they were taken before being stolen away in the first place, necessitating not just physical return but active engagement with international legal frameworks and funding mechanisms that support sustainable stewardship globally.",
+ "artifact_versions": [
+  "The debate over repatriating cultural objects acquired during periods of empire and colonization has moved from academic whispers to a global public reckoning, forcing institutions worldwide to confront their role as custodians rather than merely collectors. At the heart of this controversy lies a fundamental question: should museums return colonial-era artifacts to countries of origin? The argument for repatriation is compelling on moral grounds but often falters when weighed against claims of universal heritage and public access; however, upon closer examination, retaining these items without addressing their provenance constitutes an ongoing violation of sovereignty that outweighs the traditional benefits of a centralized collection.\n\nThe primary justification for keeping such artifacts rests on two pillars: they are seen as part of humanity's shared legacy available to all citizens regardless of nationality or race, and museums possess superior resources for conservation and scientific study. Proponents argue that removing these items from their current locations would diminish global knowledge while potentially neglecting the objects' physical preservation in more advanced facilities abroad. While the idealism behind a \"universal museum\" is noble, it ignores historical reality; many of these institutions acquired their collections through theft, coerced labor, or unequal power dynamics during times when indigenous populations had no legal standing to negotiate trade terms. To suggest that placing an item in a climate-controlled hall in London or Paris grants it legitimacy overlooks the context of its acquisition. The object's history is intrinsically linked to the people from whose land and under whose duress it was removed, rendering any claim of \"universal ownership\" inherently flawed if built upon injustice.\n\nFurthermore, the argument that museums are better equipped for preservation assumes a level playing field regarding resources and intent that rarely exists in practice. While Western institutions may have vast budgets, they also face scrutiny over their willingness to invest in security or insurance when political pressure mounts against them. Conversely, many nations of origin now possess state-of-the-art conservation centers capable of protecting these treasures without the risk of permanent exile from foreign soil. More importantly, the presence of an artifact within its own community fosters a profound sense of dignity and identity that cannot be replicated in a distant gallery. For centuries, these objects served as tangible reminders of subjugation; their return is not merely about logistics but about correcting a historical wrong by acknowledging the sovereignty of indigenous nations to control their own cultural narratives.\n\nCritics often fear that repatriation will lead to neglect or damage once an item leaves a prestigious institution. This anxiety reflects a paternalistic view that assumes only Western institutions know how to treat artifacts with care, dismissing centuries of custodial knowledge held within source communities. When objects are returned accompanied by training and resources for local stewardship\u2014as is increasingly happening in cases like the Benin Bronzes or Maori taonga\u2014the fear of deterioration becomes unfounded. The solution lies not in retention but in partnership; museums can collaborate with home nations to share digital scans, research data, and educational materials without needing physical custody over sacred items.\n\nUltimately, the moral imperative to return colonial-era artifacts is stronger than the administrative convenience of keeping them. Museums exist to educate and inspire truthfully, yet an education based on unacknowledged theft distorts history rather than illuminating it. True preservation involves protecting both the object's physical integrity and its spiritual significance for its people. By facilitating repatriation, museums can evolve from monuments of imperial conquest into genuine bridges of understanding and reconciliation between nations. The path forward requires humility and a willingness to admit that some things truly belong where they were taken before being stolen away in the first place."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_05",
+ "split": "discovery",
+ "construction_seed": 21680,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 555
+}

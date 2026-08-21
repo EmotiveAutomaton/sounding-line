@@ -1,0 +1,70 @@
+{
+ "case_id": "qwen_outline_00",
+ "lineage_id": "g166_qwen_00",
+ "domain": "argumentative_essay",
+ "medium": "text",
+ "brief_id": "g131_topic_00",
+ "declared_context": {
+  "brief": "Write a short argumentative essay of 400 to 600 words on the question: whether cities should ban private cars from their centers Plain prose, no headings, no lists.",
+  "register": "plain argumentative prose",
+  "length_band_words": [
+   300,
+   700
+  ]
+ },
+ "participants": {
+  "qwen": "local_model"
+ },
+ "route_family": "outline",
+ "events": [
+  {
+   "event_id": "e1",
+   "order": 0,
+   "actor_id": "qwen",
+   "operation": "outline",
+   "target": "plan",
+   "parent_event_ids": [],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "partial",
+   "ground_truth_source": "construction",
+   "payload": {
+    "outline": "1. Proponents argue that banning private cars reduces traffic congestion and significantly lowers urban pollution levels.\n2. Opponents contend that such bans disproportionately affect low-income residents who lack access to reliable public transportation alternatives.\n3. Supporters suggest repurposing former parking spaces into pedestrian zones can revitalize local businesses and improve community well-being.\n4. Critics warn that enforcing strict no-entry policies is logistically difficult and may cause severe economic disruption for small enterprises reliant on car traffic.\n5. A balanced approach might involve restricting vehicle access during peak hours rather than implementing a permanent total ban to address both environmental and social concerns."
+   }
+  },
+  {
+   "event_id": "e2",
+   "order": 1,
+   "actor_id": "qwen",
+   "operation": "realize_surface",
+   "target": "essay",
+   "parent_event_ids": [
+    "e1"
+   ],
+   "primary_goal_id": null,
+   "secondary_goal_candidates": [],
+   "constraint_ids": [],
+   "alternatives": [],
+   "perceptual_access": null,
+   "noticed": null,
+   "visible_in_final": "yes",
+   "ground_truth_source": "construction",
+   "payload": {}
+  }
+ ],
+ "artifact_final": "The debate over whether cities should prohibit private cars from their central areas has intensified as urban populations grow denser and more environmentally conscious. Proponents of such bans argue that removing personal vehicles is the most effective method for reducing traffic congestion and significantly lowering urban pollution levels. By displacing hundreds of daily commuters onto sidewalks or transit lines, city centers can become cleaner, quieter, and safer places to live and work. The reduction in idling engines leads directly to improved air quality, which benefits public health by decreasing respiratory issues among vulnerable populations like children and the elderly. Furthermore, the physical space currently consumed by parked cars and moving traffic could be reclaimed for green spaces, wider sidewalks, or bike lanes, creating a more vibrant urban environment that encourages walking and cycling instead of fossil fuel dependency.\n\nHowever, opponents contend that such bans disproportionately affect low-income residents who lack access to reliable public transportation alternatives. For many working families, owning two vehicles is not a luxury but a necessity for commuting between job sites located in different parts of the sprawling metropolitan region. If these individuals are unable to afford transit passes or live too far from affordable housing near major hubs, they face impossible choices: either pay exorbitant costs for multiple taxi rides or lose their jobs entirely due to inability to get to work on time. Critics argue that a blanket ban ignores socioeconomic realities and effectively penalizes the poor while benefiting wealthier citizens who can easily adapt by working remotely or living closer to city centers with private transport options outside the restricted zone. This perspective suggests that without robust, subsidized transit infrastructure in place first, environmental policies become tools of social exclusion rather than public good.\n\nSupporters often suggest repurposing former parking spaces into pedestrian zones as a way to revitalize local businesses and improve community well-being. When streets are freed from vehicle dominance, people linger longer at cafes, shop locally, and interact with neighbors in shared open spaces. This human-centric approach fosters stronger social cohesion and transforms the city center into an attractive destination rather than just a transit corridor. Yet, critics warn that enforcing strict no-entry policies is logistically difficult and may cause severe economic disruption for small enterprises reliant on car traffic. Many independent retailers depend on customers driving from surrounding suburbs; if those drivers are turned away or face lengthy detours due to congestion elsewhere, sales will plummet. Additionally, the cost of maintaining alternative transport systems must be weighed against potential revenue losses, raising questions about whether the environmental benefits truly outweigh the immediate economic hardships faced by small business owners struggling in a cash-strapped post-pandemic economy.\n\nGiven these conflicting priorities, a balanced approach might involve restricting vehicle access during peak hours rather than implementing a permanent total ban to address both environmental and social concerns. This compromise allows for flexibility based on time of day, permitting residents living nearby or those with alternative transport options to enter the city while charging higher fees or imposing restrictions on commuters relying solely on cars from distant suburbs during rush hour windows. Such measures can gradually shift behavior without causing sudden economic shocks, giving businesses and transit authorities time to adapt and expand their offerings simultaneously. By implementing congestion pricing instead of outright prohibition, cities can generate revenue that might be reinvested into upgrading public transportation networks, ensuring they become viable for all socioeconomic groups. Ultimately, the goal should not merely be to ban cars but to create a sustainable urban ecosystem where mobility is equitable, efficient, and environmentally responsible, requiring nuanced policies that evolve alongside community needs rather than rigid prohibitions that ignore real-world complexities.",
+ "artifact_versions": [
+  "1. Proponents argue that banning private cars reduces traffic congestion and significantly lowers urban pollution levels.\n2. Opponents contend that such bans disproportionately affect low-income residents who lack access to reliable public transportation alternatives.\n3. Supporters suggest repurposing former parking spaces into pedestrian zones can revitalize local businesses and improve community well-being.\n4. Critics warn that enforcing strict no-entry policies is logistically difficult and may cause severe economic disruption for small enterprises reliant on car traffic.\n5. A balanced approach might involve restricting vehicle access during peak hours rather than implementing a permanent total ban to address both environmental and social concerns."
+ ],
+ "exact_equivalence_group": null,
+ "near_equivalence_group": "qwen_00",
+ "split": "discovery",
+ "construction_seed": 16620,
+ "context_fields": {},
+ "generator": "qwen",
+ "word_count": 620
+}
