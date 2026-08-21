@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-20 17:00",
+  "started": "2026-08-21 05:06",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -1508,6 +1508,34 @@
       "why": "G162-R verdict: V gate first, per-class confusion, the primary concealed-vs-unnoticed pair band, clean-family fabrication",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g165_gate",
+      "why": "G165 exact-equivalence pipeline gate + known-answer anchor; every GPU arm waits on it (prereg/g165.py)",
+      "est_minutes": 2,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g165_verdict",
+      "why": "G165 verdict: leak gate first, paired McNemar vs recorded direct picks, echo-split cells standing per L148, exhaustive bands",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "results/g165/self_route.json",
+        "results/g165/cand_disc.json",
+        "results/g165/self_route_leak.json",
+        "results/g165/cand_disc_leak.json"
+      ]
+    },
+    {
+      "name": "g166_audit",
+      "why": "G166 self-gate: yield, band, route-log completeness, cross-route degeneracy; the B0 reading battery preregisters only on CORPUS-STANDS",
+      "est_minutes": 5,
+      "status": "DEFERRED",
+      "missing": [
+        "corpora/g166_routes/manifest_qwen.json",
+        "corpora/g166_routes/manifest_llama.json"
+      ]
     }
   ],
   "held_for_gear2": [
@@ -1598,9 +1626,15 @@
     "g162r_validate",
     "g162r_classify",
     "g162r_classify_delta",
-    "g162r_blind"
+    "g162r_blind",
+    "g165_self_route",
+    "g165_cand_disc",
+    "g165_self_route_leak",
+    "g165_cand_disc_leak",
+    "g166_gen_qwen",
+    "g166_gen_llama"
   ],
   "shard": "0/1",
-  "finished": "2026-08-20 17:00",
+  "finished": "2026-08-21 05:06",
   "failed": []
 }

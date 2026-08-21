@@ -38,6 +38,12 @@ SECTION_REQUIRES: dict[str, Interface] = {
     "anomaly": Interface.I1_FINAL_ARTIFACT,
     "anomaly_handling_observed": Interface.I2_PAIRED_DELTA,   # repair/concealment needs deltas
     "realization_ground_truth": Interface.I3_PROCESS_AWARE,   # verified labels are process facts
+    # Phase 2.3 sections (design brief §3.4). The reader's own constructions are I1;
+    # anything read off records is I3 by definition.
+    "reader_enactable_route": Interface.I1_FINAL_ARTIFACT,    # the reader's OWN route,
+    #   always reported separately from any historical-process claim (brief §3.1)
+    "contribution_hypothesis": Interface.I1_FINAL_ARTIFACT,   # inferred network, hypothesis
+    "contribution_network_observed": Interface.I3_PROCESS_AWARE,  # from logs only
 }
 
 
@@ -117,6 +123,12 @@ class ReadingProfile:
 
     # realization (labels are process facts: I3)
     realization_ground_truth: list[dict] = field(default_factory=list)
+
+    # Phase 2.3: the reader-enactable route (I1; never a historical claim) and the
+    # contribution network in both its hypothesis (I1) and observed (I3) forms
+    reader_enactable_route: dict = field(default_factory=dict)
+    contribution_hypothesis: dict = field(default_factory=dict)
+    contribution_network_observed: dict = field(default_factory=dict)
 
     # validation status
     validation: dict = field(default_factory=dict)

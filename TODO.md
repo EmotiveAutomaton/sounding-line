@@ -147,7 +147,28 @@ ontology (brief §3); the observational-equivalence rule (§4.2) and the twelve 
 | **2.2D anomaly text battery** | **G162** | process-recorded text families (introduced-corrected / concealed / unnoticed / repeated / deliberate-for-secondary-goal / clean control), consequence- and echo-matched, both interfaces reported separately, confusion over handling states | G161 ruler PASSES first — hard order per brief §16 | **CORPUS BUILDING (2026-08-20 mid-morning, `run_g162_gen.py`, queued): six handling families as instructed rewrites of the recorded bases with TOKEN-VERIFIABLE planted issues (invented per-topic study figures — wrong value, true value, refrain — all string-testable), so presence, correction, repetition, and refrain audit mechanically; concealed/unnoticed share the mechanical half BY DESIGN (their separation IS the reading battery's question); self-gate refuses the battery below 0.6 presence / above 0.05 clean contamination / corrected-vs-concealed marker separation. CORPUS-STANDS landed (L149: presence 0.75-0.95, clean 0.00, correction markers 0.75 vs 0.00). VERDICT LANDED (L150): V gate PASSES 0.95 (honest instrument) and the primary is BLIND — concealed vs unnoticed at 0.417 on either interface; deliberate constructions read as nothing; clean rewrites pull 0.30 over-attribution (the L146 effect replicated). THE CHANNEL NARROWS TO THE CONSTRUCTED WORLD at this resolution; owed redesigns: span-level asking, longer artifacts, audited hedging density. 2.2E proceeds on the channels that read** |
 | **2.2E context conditioning** | **G163** | matched cases where declared making conditions (forced vs chosen, tool present vs absent, expertise supplied vs absent, familiar vs unfamiliar convention) must move the reconstruction in the direction the known transition map requires; context cards never state the answer | G160 schema (readings carry reader-artifact-context identity) | **GATED on G160** |
 | **2.2F independent-evidence validation** | **G164** | every apparently-working reconstruction family faces one withheld constraint (process fact, unseen repair, held-out segment, counterfactual, or same-process second artifact); reader-transfer where affordable | runs alongside 2.2C-2.2E verdicts | **standing requirement, folded into every 2.2 card** |
-| **2.2G detector-eligibility ruling** | (ruling, no new G) | which profile fields, if any, enter 2.0F: own-ruler pass + artifact information beyond context and echo + declared interface + calibrated abstention + cross-family transfer + different errors from the substrate | 2.2A-2.2F interpretable verdicts | **GATED** |
+| **2.2G detector-eligibility ruling** | (ruling, no new G) | which profile fields, if any, enter 2.0F: own-ruler pass + artifact information beyond context and echo + declared interface + calibrated abstention + cross-family transfer + different errors from the substrate | 2.2A-2.2F interpretable verdicts | **GATED; Phase 2.3's Stage 5 carries the same ruling** |
+
+## Phase 2.3 — adaptive process-inversion program (governing brief: `docs/design/PHASE_2_3_CONTEXT.md`, 2026-08-21; registry: `docs/design/PHASE_2_3_REGISTRY.md`)
+
+**The mission (brief §0):** map where process inversion works, where it reduces to useful
+reenactment, where it needs process records, and where the reader merely tells a persuasive
+story — seven wing roots, each ending in exactly one of ROOT-POSITIVE / ROOT-NULL /
+ROOT-REVERSED / ROOT-AMBIGUOUS / INSTRUMENT-FAIL, routing declared before results. The
+reconciliation against the live head (the brief predates the 2.2 landings) lives at the
+registry's top; **Wing D enters at its predeclared repair, curator-ratified 2026-08-21.**
+Wings A/E absorb G163's intent. Drives and values stay deferred (brief §2.4); no detector
+stacking off one positive root.
+
+| root | identifier | what it asks | gate / dependency | state |
+|---|---|---|---|---|
+| **P23-G0 reader-ablation** | **G165** | does explicit route generation (self-route; candidate-and-discriminate) beat direct reading on the recorded G159 events? | card frozen (`prereg/g165.py`); pipeline-purity + anchor gate PASSED at build | **QUEUED (four GPU arms + verdict, 2026-08-21)** |
+| **P23-B0 equifinality construction** | **G166** | five recorded routes to surface-matched essays (direct / outline / rewrite / select / revise), process-logged under the new schema | self-audit: yield, band, log completeness, degeneracy; reading card only on CORPUS-STANDS | **QUEUED (both generators + audit)** |
+| **P23-A0 context adjustment** | G167 (reserved) | true context must beat artifact-only and context-only; false context must not | G166 audit + answer-leak audit of the cards | design next pass |
+| **P23-C0 ratification network** | G168 (reserved) | proposal / selection / veto / integration as a network, echo-split from birth | after early roots report | pending |
+| **P23-D handling repair** | G169 (reserved) | span-level asking on longer artifacts where L150 was blind; twelve-family multilabel gridworld extension | ratified entry-at-repair | design next pass (gridworld half is CPU-cheap) |
+| **P23-E0 expertise conditioning** | G170 (reserved) | expertise changes reachable routes, or only confidence | A0 card machinery | pending |
+| **P23-F0 ordered accidents** | G171 (reserved) | later integration distinguishes accident-integrated from failure | the G161 world extension | pending |
 
 ## Phase 2 — the wider program, each step behind its anchor (items outside the 2.0 slice continue here)
 

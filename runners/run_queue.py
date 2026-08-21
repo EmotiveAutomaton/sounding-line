@@ -1529,6 +1529,56 @@ STAGES += [
             "concealed-vs-unnoticed pair band, clean-family fabrication"},
 ]
 
+# ── PHASE 2.3 ROOT WAVE 2026-08-21 (appended at list end; registry
+# docs/design/PHASE_2_3_REGISTRY.md; cards frozen before arms). G165 = the Wing G
+# reader-ablation root on the frozen G159 manifest; G166 = the Wing B route-varied
+# process-recorded corpus construction. The g165 gate (pipeline purity + anchor) ran
+# and passed at build time; its produce gates every arm.
+STAGES += [
+    {"name": "g165_gate", "est": 2,
+     "cmd": [PY, "runners/run_g165_ablation.py", "--gate"],
+     "produces": "results/g165/gate.json", "needs": ["results/g159/manifest.json"],
+     "why": "G165 exact-equivalence pipeline gate + known-answer anchor; every GPU arm "
+            "waits on it (prereg/g165.py)"},
+]
+for _arm, _est in (("self_route", 150), ("cand_disc", 100),
+                   ("self_route_leak", 80), ("cand_disc_leak", 50)):
+    STAGES += [
+        {"name": f"g165_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g165_ablation.py", "--arm", _arm],
+         "produces": f"results/g165/{_arm}.json",
+         "needs": ["results/g165/gate.json"],
+         "why": f"G165 arm {_arm}: route-generation ablation against the recorded "
+                "direct arm; leak arms run the twins where nothing was executed"},
+    ]
+STAGES += [
+    {"name": "g165_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g165_ablation.py", "--verdict"],
+     "produces": "results/g165/verdict.json",
+     "needs": ["results/g165/self_route.json", "results/g165/cand_disc.json",
+               "results/g165/self_route_leak.json",
+               "results/g165/cand_disc_leak.json"],
+     "why": "G165 verdict: leak gate first, paired McNemar vs recorded direct picks, "
+            "echo-split cells standing per L148, exhaustive bands"},
+    {"name": "g166_gen_qwen", "est": 150,
+     "cmd": [PY, "runners/run_g166_routes.py", "--generator", "qwen"],
+     "produces": "corpora/g166_routes/manifest_qwen.json", "needs": [],
+     "why": "G166 route-varied corpus, seen generator: five recorded routes to "
+            "surface-matched essays, process-logged by construction"},
+    {"name": "g166_gen_llama", "est": 180,
+     "cmd": [PY, "runners/run_g166_routes.py", "--generator", "llama"],
+     "produces": "corpora/g166_routes/manifest_llama.json", "needs": [],
+     "why": "G166 route-varied corpus, held-out generator: identical briefs and "
+            "routes, lineage recorded"},
+    {"name": "g166_audit", "est": 5,
+     "cmd": [PY, "runners/run_g166_routes.py", "--audit"],
+     "produces": "corpora/g166_routes/routes_audit.json",
+     "needs": ["corpora/g166_routes/manifest_qwen.json",
+               "corpora/g166_routes/manifest_llama.json"],
+     "why": "G166 self-gate: yield, band, route-log completeness, cross-route "
+            "degeneracy; the B0 reading battery preregisters only on CORPUS-STANDS"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1547,7 +1597,9 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g158_recovery_none", "g158_recovery_problem",
                     "g129b_recovery", "g129b_blind", "g129b_shuffle", "g129b_brief",
                     "g129b_source", "g129b_unchanged", "g129b_recovery_matched",
-                    "g129b_blind_matched"}
+                    "g129b_blind_matched",
+                    "g165_self_route", "g165_cand_disc", "g165_self_route_leak",
+                    "g165_cand_disc_leak", "g166_gen_qwen", "g166_gen_llama"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

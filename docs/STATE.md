@@ -183,6 +183,20 @@ battery. 2.0F stacking now sits behind the Phase 2.1 gates AND 2.2G's eligibilit
 The adjudication set is unfrozen, superseded as ontology, retained as history. The
 curator-first theory loop (brief §13) is folded into `CLAUDE.md`.**
 
+**Phase 2.3 is GOVERNED (2026-08-21: his third work package, archived at
+`docs/design/PHASE_2_3_CONTEXT.md`, operational registry at
+`docs/design/PHASE_2_3_REGISTRY.md`). Seven wing roots, each ending in exactly one
+declared outcome state, routing predeclared; the reconciliation against the live head
+(the brief predates the 2.2 landings) is the registry's first table. His rulings this
+morning: Wing D enters at its predeclared repair (the L150 null's own redesigns), the
+brief moved to its canonical home, second gear loaded for the day. Stage 0 landed same
+pass: the process-record / contribution-network / anomaly-trajectory schemas with the
+curator's §2.1 non-recognition ruling enforced in code (twelve new guard tests pass,
+the author-share scalar raises by construction), the reading profile extended with the
+§3.4 sections, the G165 reader-ablation card frozen with its pipeline-purity gate
+passed, and the G166 route-varied corpus construction queued. Detector stacking stays
+prohibited; drives and values stay deferred (brief §2.4).**
+
 **Phase 2.2 second wave (2026-08-20 evening, L149/L150): the anomaly-text corpus stood
 its self-gate (correction markers 0.75 where instructed, 0.00 where forbidden, clean
 uncontaminated) and the reading battery returned the harshest preregistered branch,
