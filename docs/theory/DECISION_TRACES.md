@@ -93,6 +93,36 @@ punctuation events remain separately visible; a later editor can reclaim control
 rebuilding the upstream structure. No human/model contribution ratio may be computed by counting
 recovered events as exchangeable units.
 
+**Mixed production is a network of acceptance** *(the 2026-08-21 pass; provenance in
+`docs/design/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
+
+> Collaborative work is a network of acceptance. Everyone involved gets to pass judgment on
+> everyone else's work a little bit, and the human decision may be recognition and integration
+> rather than generation.
+
+Mixed production is therefore represented as a directed event graph. An event may
+propose, select, ratify, veto, integrate, repair, reject, or accept another event; the
+same participant may occupy several roles, and one event may have several parents.
+Upstream structure can make downstream work cheap, and downstream ratification can
+accept that structure or rebuild it, so surface volume and equal-weight event counts do
+not identify control. For mixed work the stable object is the complete interaction
+trajectory, whose resulting structure may not belong fully to either participant. The
+event schema carries these optional fields where interaction records exist:
+
+| field | purpose |
+|---|---|
+| `actor_id` | participant or tool responsible for the event |
+| `event_role` | propose, select, ratify, veto, integrate, repair, reject, accept, execute |
+| `parent_event_ids` | events this one acts on or depends on |
+| `alternatives_available` | candidates actually available at the time |
+| `accepted_by` / `rejected_by` | later ratification or veto |
+| `downstream_scope` | which later choices became easier, impossible, or unnecessary |
+| `trace_support` | artifact or record evidence supporting the event |
+
+The event graph is the ground-truth object where interaction logs exist
+(`soundingline/process_record.py` is the enforced form). Any downstream scalar must
+declare its aggregation rule and is never a human/AI decision ratio.
+
 The essay already names polish's first half. Aesthetics is *"the honeypot... the word for how much an
 object forces you to stare at it."* **Polish is honeypot density plus scaffolding density. It is not
 a synonym for quality and it is not a synonym for AI.** A ten-item reading sample populated all
@@ -293,10 +323,45 @@ Automaticity is therefore not zero decision structure. It is compiled reachabili
 learning makes some present actions cheap and frees focal attention for another level. The
 artifact may preserve the resulting competence without preserving how much practice formed it.
 
-**Anomaly-handling traces.** Preserve these as distinct labels: unexplained order; apparent
-error; confirmed error; noticed and repaired; noticed and concealed or compensated for; unnoticed
-isolated error; repeated error or habit; and false mistake caused by unfamiliar expertise or
-convention. The artifact may not identify the class, and "unknown" is a valid result. A choice
+**Anomaly-handling traces are a sequence, not a type** *(restated 2026-08-21; the
+earlier mutually exclusive label list fell to the curator's sequential ruling, and the
+old labels survive as values inside the axes below)*:
+
+> Failure to notice is one decision, with the sole exception of physical or perceptual failure.
+> Divided attention, exhaustion, and absent expertise are context; they are not decisions.
+
+> If you notice a deviation and leave it in place, you are exploiting it for convenience or for
+> some other purpose. Notice-and-ignore is therefore evidence about a secondary goal.
+
+The trace record is multilabel and sequential; the following can coexist on one anomaly:
+
+| field | values | what it separates |
+|---|---|---|
+| `perceptual_access` | available, degraded, unavailable, unknown | non-recognition from inability to receive the cue |
+| `origin` | intended, accidental, forced by constraint, indeterminate | initial cause from later handling |
+| `recognition` | noticed, failed-to-notice, indeterminate, not-applicable | awareness from occurrence |
+| `response` | repair, conceal, compensate, abandon, retain, exploit, no-visible-response, unknown | counterfactual preference and handling |
+| `recurrence` | isolated, repeated, escalating, diminishing, unknown | one-off accident from habit or persistent limitation |
+| `integration` | none, local, downstream, global, unknown | accidental residue from ordered adoption |
+| `candidate_secondary_goal` | open vocabulary plus evidence | what non-repair or retention served |
+| `reader_uncertainty` | calibrated probability or abstention | artifact underdetermination |
+
+At the episode resolution, perceptually available failure to notice is recorded as one
+decision event. Exhaustion, divided attention, absent expertise, time pressure, and
+similar conditions are context fields, not extra decision events, and physical or
+perceptual unavailability is never coded as failure to notice. This ontology does not
+make awareness observable: where the artifact cannot separate the states, the reader
+returns indeterminate. And the secondary-goal claim carries its guardrail: the theory
+permits the claim that some competing goal governed a perceptually available omission,
+but the instrument receives no credit for that generic claim. It must choose the correct
+goal from matched alternatives, localize evidence that distinguishes it, or predict a
+held-out response; "convenience", "energy saving", and "status" are candidate
+explanations, never universal residual bins. **Ordered accident** names a sequence
+rather than an origin type, accidental or indeterminate origin followed by recognition
+or retention and then local or downstream integration; later order is evidence about
+handling and adoption, not proof the original event was planned, so the label is derived
+from the fields rather than added as a class. The artifact may not identify any of this,
+and "unknown" is a valid result on every axis. A choice
 that appears locally defective may serve a secondary goal the reader has not recovered, so a
 mistake is never defined simply as whatever fails the reconstructed primary goal. (The reader's
 entry rule and handling evidence live in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §2; this

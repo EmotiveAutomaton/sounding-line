@@ -121,6 +121,30 @@ repeated behavior. Naming attention does not explain why it moves; the allocatio
 remains open, and the reader recovers only a posterior over the hidden objects,
 conditioned on the reader's own machinery and declared context (the subscript R is doing
 real work: the output belongs to the reader-artifact-context relation, not to the maker).
+The reader's output includes both a posterior over maker histories and a distribution
+over routes the reader could enact; the latter is conditioned on the reader's body,
+expertise, and tools, and therefore cannot be silently reported as the former.
+
+**Historical process and reader-enactable process** *(the 2026-08-21 pass; provenance in
+`docs/design/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
+
+> Ideally, what you want to extract from the process is how you could create this thing. If you
+> misunderstood exactly how they made it but converged on a way that you could make it, that would
+> still be useful.
+
+| process-side output | definition | honest evidence claim |
+|---|---|---|
+| **viewer-coherent reconstruction** | the best maker and process model reader R can assemble from artifact O and declared context C | reader-relative coherence and calibration |
+| **reader-enactable route** | a process reader R could use to recreate the relevant structure | constructive usefulness, tested by reenactment or held-out construction choice |
+| **historical process** | the maker's actual sequence of decisions, actions, tool uses, and interactions | correspondence only where independent process evidence exists |
+
+These are three outputs inside the existing **process** target family, not a fourth
+inference. They can overlap without being identical. Artifact-only reading can support a
+useful reenactment while leaving the historical route observationally underdetermined,
+and the instrument bears a burden ordinary human inversion does not carry, since a person
+may stop at a coherent route they could use while the instrument must keep that route
+separate from the process the maker actually used. Sounding Line reports the three
+separately rather than deciding in advance that one substitutes for the others.
 
 Stated this way, two facts fall out that the old formulation suppressed. A single artifact can
 support goal and process inference while values require multiple observations. And a commissioned,
@@ -284,6 +308,17 @@ given the reason.) Under §1's table this reads as follows. Values are the stand
 instructions, and constraints, and can be imposed against all of them; and an **expressed trajectory
 may misrepresent all three**. The four are distinct, and any measure that collapses them inherits
 the collapse.
+
+**Unresolved construct boundary** *(2026-08-21; the reconstruction is class B and stays
+out of blockquotes)*. "Drive" may currently bundle at least two things: an inherited,
+adjustable-but-resistant transition strategy, the Pankseppian channel read as expertise
+supplied by evolution, and the state-dependent assignment of salience, need, or valence
+that recruits it, which remains closer to the active motivational pressure in §1's
+table. This pass chooses no topology and renames neither object; the upstream conjecture
+in §3 stands untouched beside it. Until the distinction is tested, no result on a broad
+Panksepp label licenses a claim about both, and his phase ruling holds the leg closed
+for now: *"The drives-expertise relationship is going to get ugly. Luckily, we do not
+need to figure out that leg of the inference yet."*
 
 **State of the section's claim.** No row sits here because the fourfold distinction has never been
 tested as a distinction; it is the file's working vocabulary, adopted for the reasons above. Its
@@ -486,7 +521,13 @@ up with what the proofs demand:
 The project does not make the planner unknown disappear. It proposes that human priors and
 artifact traces may partially constrain the maker's transition map. That is useful narrowing,
 not a known planner, and it can fail completely when the relevant tools, conventions, or domain
-expertise are absent from the reader's context. A fourth
+expertise are absent from the reader's context. A consequence of the same position, stated for
+the process leg (2026-08-21): several historical processes can leave the same observable
+artifact under the same declared context, and where no held-out trace distinguishes them the
+honest historical output is an equivalence class or a posterior over processes. A
+reader-enactable route may still be useful in that case, but it does not collapse the class;
+context can reweight the members and cannot create evidence the artifact and records do not
+contain. A fourth
 candidate constraint is communicative intent:
 
 > **CIRL literature makes it easier for you to learn if you assume you have a teacher**, assuming that
@@ -529,7 +570,9 @@ artifact human-authored. Conversely, low invertibility can reflect reader ignora
 expertise, institutional constraint, deliberate concealment, or sparse evidence rather than a
 nonhuman maker (the production-regime half is canonical in
 [`DECISION_TRACES.md`](DECISION_TRACES.md) §4; the alignment consequence in
-[`ALIGNMENT.md`](ALIGNMENT.md) §5). **And value recovery is posterior narrowing, not mind
+[`ALIGNMENT.md`](ALIGNMENT.md) §5). Human-invertible may therefore mean historically corresponding, productively
+reenactable, or merely viewer-coherent, and every use in an empirical report names
+which. **And value recovery is posterior narrowing, not mind
 duplication**:
 
 > My personal end goal is to find a way to **give AI human empathy, but not human emotions**

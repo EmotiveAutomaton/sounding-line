@@ -94,7 +94,9 @@ provenance.
 > they did to an extent, or at least you believe you arrived in the same way they did, whether or
 > not that's true. Again, you started with your own perspective.
 
-The reader's self-model is the default prior beneath the other priors in this section. It supplies
+This is the best viewer-coherent reconstruction: the reader begins from itself, then
+adjusts toward a maker model using artifact evidence and context (his short gloss,
+2026-08-21). The reader's self-model is the default prior beneath the other priors in this section. It supplies
 candidate routes and effort estimates, then is adjusted using evidence about the maker. It also
 creates a characteristic failure: a sufficiently flexible reader can explain almost anything as
 something the reader might have done. Reader identity, domain competence, and conditioning must
@@ -250,10 +252,36 @@ construction, and *"the read-alongs ended up being more useful than the actual c
 
 **Confidence moves while reading, and the trajectory carries what the endpoint does not.** Every
 reading this project records is a final number, so the series has never existed to be checked. The
-reader also searches actively. Re-reading (each pass recovering lower-confidence attributions from
-the tail), **epistemic foraging** for biography and further works, where *everything is an
-artifact* becomes operational (context supplies additional observations but is not automatically
-trustworthy), and switching levels when a hypothesis fails, per §3.
+reader also searches actively. Re-reading (each pass recovering lower-confidence
+attributions from the tail), **epistemic foraging** for biography and further works,
+where *everything is an artifact* becomes operational (context supplies additional
+observations but is not automatically trustworthy), and switching levels when a
+hypothesis fails, per §3.
+
+**Context reweights the generative model rather than dictating a story** *(2026-08-21;
+provenance in `docs/design/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
+
+> The low-quality-paint inference was a shifting of possibilities – the generations of your
+> generative model being weighted differently – not an immediate inductive set of steps.
+
+Context does not license a story in one step. It changes the relative probability of
+maker and process hypotheses, which should then change predictions about other evidence.
+A useful context cue improves held-out recovery; a misleading cue should cause a
+measurable, directionally coherent error; if neither occurs, the cue merely inspired a
+narrative. The tool-conditioned form of the same rule lives in §6.
+
+**And apparent errors should eventually revise the reader's model of the maker**:
+
+> Every apparent mistake is suspicious because it may mean you do not understand the maker. If too
+> many of them are ignored, it becomes more likely that they are intentional and that your model of
+> what the maker was trying to do is wrong.
+
+Clusters of unexplained deviations are a posterior-predictive failure of the current
+maker model. Local repair stories may explain individual cases, but the reader must
+compare them with a global alternative, unfamiliar expertise, a wrong primary goal, a
+hidden constraint, or a different maker and process family, and the threshold is
+empirical: which update better predicts held-out choices or later handling. This is not
+permission to declare every dense anomaly cluster expertise.
 
 One external caution bears on the whole series family. A study of hidden states as author
 representations found document-level mean pooling best, which is evidence against series-carrying
@@ -358,6 +386,14 @@ The cue family, by function rather than by source:
   Our intent ladder is this protocol, arrived at independently. Any recovery instrument works
   against a ceiling that expert self-prediction already fails to reach; stop treating distance from
   perfect recovery as failure.
+- **Deployed expertise is tool-conditioned**, his own statement of the archaeology
+  boundary (2026-08-21):
+
+  > Deployed expertise is context-relative. If you do not know what tools they had, it can become
+  > impossible to work out what the trace cost or what competence it required.
+
+  The same artifact trace can imply very different work under different available tools,
+  which is the probabilistic-reweighting rule of §4 in its choice-versus-constraint form.
 
 | # | hypothesis | status |
 |---|---|---|
@@ -577,6 +613,13 @@ which is why the field built a graded vocabulary instead. An empirically calibra
 over a bounded, known-answer label set is different and permissible, provided the reader, context,
 interface, calibration population, and abstention behavior are reported. Neither form is a
 probability that the reconstructed human route was the maker's actual causal mechanism.
+
+Calibration is output-specific (2026-08-21). Viewer coherence can be calibrated against
+reader behavior; reenactment can be scored against successful construction; historical
+correspondence requires process records or withheld causal facts. A high score on one is
+not a confidence score on the others, and where only the artifact is available the
+historical-process output remains an equivalence class or an abstention (the three
+outputs are defined in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §2).
 
 A reconstruction must constrain evidence that did not build it: a withheld process fact, unseen
 repair, matched counterfactual, held-out segment, or second artifact under the same recorded

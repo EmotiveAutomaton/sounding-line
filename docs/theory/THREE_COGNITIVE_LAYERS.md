@@ -47,6 +47,12 @@ supports the artifact criterion rather than becoming the criterion.
 | **drive constraints** | the ancestral, conserved affective systems | present but **pre-verbal, never written down directly** |
 | **expertise-conditioned construction** | trajectories, higher-order predictions and controls, the goal machinery that runs on them | individual, chaotic, high-variance |
 
+The middle row is a provisional functional aggregate (2026-08-21). A conserved affective
+channel may combine an inherited action-selection prior with a state-dependent
+motivational signal; that possible split is owned by
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4 and remains unresolved, and it
+must not be turned into a clean anatomical or transformer address.
+
 > The middle one we wouldn't be able to converge upon... that's the part of the human brain that is
 > baked in a little bit, that is a little bit more ancestral. **And it's struggling to model that.**
 > So it uses valence-arousal mixed with some goal direction to get most of the way there. **But this
@@ -91,7 +97,12 @@ Expertise is the learned transition structure through which all three functional
 constrain action. It is shaped by previous attention, practice, correction, and embodiment, but
 it is not identical to any one depth, to conscious executive control, or to a stored policy. A
 background concern can deform the reachable trajectories without becoming the current focal goal;
-when attention promotes it, it becomes an active proximal goal.
+when attention promotes it, it becomes an active proximal goal. Calling expertise "compiled
+decision structure" (the 2026-08-21 pass) describes its formation history, not a list of past
+decisions stored intact: practice, attention, correction, embodiment, and inherited constraints
+alter which trajectories are visible, cheap, and reliable now, and automaticity pre-solves
+lower-level control so focal attention can operate elsewhere. The functional object remains the
+trajectory constraint.
 
 Expertise can be expressed at mechanics, technique, and purpose levels. Media literacy is one
 high-level entry competence, not the definition of expertise. The transition map spans the
@@ -156,6 +167,12 @@ that produced its training data strongly enough to support some human-shaped inf
 current evidence establishes decodable geometry and tracking behavior, not that the model
 reproduces the human generative mechanism. "Ghosts of a human brain" remains the curator's
 organizing hypothesis, not an architectural finding. The errors are the interesting part.
+For Phase 2.3, "human generative prior" has only a functional meaning (2026-08-21): a model
+supplies candidate human-coherent processes that improve recovery of facts withheld from the
+candidate-generation step. Fluent mental-state labels and a plausible rationale do not count;
+the ablation compares this prior against target-specific context, a surface baseline, and no
+generative prior, and a gain confined to the artifact-producing family is family familiarity,
+never a human generative model.
 
 **Reserved vocabulary, because "layer" had come to mean four different things:**
 
