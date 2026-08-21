@@ -6550,6 +6550,12 @@ LESSONS §3 territory: an instructed-handling corpus verifies REALIZED handling 
 accept time, not at audit time, because audit-time discovery costs a regeneration
 pass.
 
+**Outcome of the repair (same day).** v2 CORPUS-STANDS on every gate with room: 80 of
+80 at full yield, plant presence 0.95 to 1.0, corrections 0.95 where instructed and
+0.00 where forbidden, and realized concealment hedging at 3.79 post-plant markers,
+2.3 times the unnoticed rate. Accept-time verification closed the whole defect class
+in one pass; the span-level battery preregisters on this audit.
+
 ### Curator roll-up
 
 - **Theory group:** Decision Traces (construction infrastructure)

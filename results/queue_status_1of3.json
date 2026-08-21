@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 13:41",
+  "started": "2026-08-21 13:53",
   "stages": [
     {
       "name": "feature_visibility",
@@ -749,9 +749,22 @@
       "name": "g169_regen_qwen",
       "why": "G169 v2 repair, seen generator: replace only accept-failing artifacts with mechanical accept-time verification",
       "est_minutes": 90,
-      "status": "RUNNING",
-      "log": "results\\g169_regen_qwen.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g169_regen_llama",
+      "why": "G169 v2 repair, held-out generator",
+      "est_minutes": 120,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g169_audit_v2",
+      "why": "G169 v2 audit, identical gates: if this refuses too, the long-form substrate waits for the curator \u2014 no further tuning",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "1/3"
+  "shard": "1/3",
+  "finished": "2026-08-21 13:53",
+  "failed": []
 }

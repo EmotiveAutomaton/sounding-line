@@ -1735,6 +1735,29 @@ STAGES += [
             "substrate waits for the curator — no further tuning"},
 ]
 
+# ── G169-R SPAN BATTERY 2026-08-21 afternoon (appended at list end; prereg/g169r.py
+# frozen on the v2 CORPUS-STANDS; the mechanical baseline ran CPU at build: 0.7949 —
+# separability-at-all is already demonstrated, the reader arms decide semantics).
+for _arm, _est in (("validate", 90), ("classify", 60), ("span", 40), ("blind", 15)):
+    STAGES += [
+        {"name": f"g169r_{_arm}", "est": _est,
+         "cmd": [PY, "runners/run_g169_reading.py", "--arm", _arm],
+         "produces": f"results/g169r/{_arm}_done.json",
+         "needs": ["corpora/g169_longform/longform_audit_v2.json"],
+         "why": f"G169-R arm {_arm}: the L150-owed span-level redesign on the "
+                "standing long-form corpus; V gates interpretation"},
+    ]
+STAGES += [
+    {"name": "g169r_verdict", "est": 5,
+     "cmd": [PY, "runners/run_g169_reading.py", "--verdict"],
+     "produces": "results/g169r/verdict.json",
+     "needs": ["results/g169r/validate_done.json", "results/g169r/classify_done.json",
+               "results/g169r/span_done.json", "results/g169r/blind_done.json",
+               "results/g169r/mech.json"],
+     "why": "G169-R verdict: V first, both primaries (CL pair, SP gap), the "
+            "reader-vs-mechanical contest, fabricated-span rate"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1761,7 +1784,8 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g167_true_card", "g167_false_card", "g167_irrelevant_card",
                     "g169_gen_qwen", "g169_gen_llama",
                     "g167a5_true_note", "g167a5_false_note", "g167a5_false_note_flag",
-                    "g169_regen_qwen", "g169_regen_llama"}
+                    "g169_regen_qwen", "g169_regen_llama",
+                    "g169r_validate", "g169r_classify", "g169r_span", "g169r_blind"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

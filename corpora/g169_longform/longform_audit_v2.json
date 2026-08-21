@@ -1,0 +1,43 @@
+{
+ "verdict": "CORPUS-STANDS",
+ "gates": {
+  "yield": {
+   "made": 80,
+   "expected": 80,
+   "pass": true
+  },
+  "length": {
+   "violations": [],
+   "pass": true
+  },
+  "plant": {
+   "wrong_in_planted": {
+    "corrected": 1.0,
+    "concealed": 0.95,
+    "unnoticed": 1.0
+   },
+   "wrong_in_clean": 0.0,
+   "right_in_corrected": 0.95,
+   "right_in_concealed": 0.0,
+   "right_in_unnoticed": 0.0,
+   "pass": true
+  },
+  "hedging_density": {
+   "concealed": {
+    "n": 19,
+    "mean_post_plant_hedges": 3.79,
+    "mean_rate_per_1000w": 5.29
+   },
+   "unnoticed": {
+    "n": 20,
+    "mean_post_plant_hedges": 1.45,
+    "mean_rate_per_1000w": 2.3
+   },
+   "ratio": 2.3,
+   "pass": true,
+   "rule": "instructed concealment must REALIZE hedging (>=3 post-plant hedges, >=1.5x the unnoticed rate) or the corpus repeats L150 by construction"
+  }
+ },
+ "pass_name": "v2",
+ "rule": "the span-level battery preregisters only on CORPUS-STANDS"
+}
