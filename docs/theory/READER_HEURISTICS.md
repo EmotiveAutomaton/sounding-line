@@ -303,20 +303,24 @@ the reason to expect modest effects.
 |---|---|---|
 | **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN.** Every reading this project records is a final number, so the series has never existed to be checked |
 | **G64** | Re-reading one artifact recovers the tail | **OPEN.** Canonical in the triple inference §5; the reader-side strategy is this section's |
-| **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION, the rival, by its harshest margin (test, L155), first pass.** A true feasibility card moves committed route mass by 0.66 and a false card by 0.63 in its own wrong direction, both erasing the reader's honest no-card abstention (0.22 committed to 0.82 and 0.70), with the irrelevant-card arm stable — the claim's content, not the card's presence, does the work. Supplied context functions as an instruction, not evidence; the predeclared evidence-conflict follow-up runs where artifact evidence is strong (the realized-choice substrate), then the wing pauses |
+| **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION where evidence is absent (test, L155); MIXED at 0.44 where evidence is strong (test, L157); the wing is PAUSED.** With nothing readable to resist it, a false card steers 95 percent as hard as a true one and erases the reader's abstention. Against evidence the reader provably reads at 0.86, a false note still costs forty-two points, wins the toss-up at 0.53, and the conflict is named only 0.15 of the time even when the format offers the option; a true note lifts the reader to 0.99, so any supplied note is treated as high-grade evidence regardless of truth. Context-trust is a separate defect from evidence-reading in this family |
+|   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
 
-**What the table says.** The section now has its first number, and it lands on the
-context-reweighting rule's failure side: the model reader treats a supplied production fact as
-an instruction rather than as evidence to weigh, following a false fact as readily as a true
-one and abandoning its own abstention to do so. That is the misleading-cue half of the
-reweighting rule measured (a misleading cue SHOULD cause a directionally coherent error, and
-it does, at full strength), with the useful-cue half now hinging on whether context can
-improve recovery where the artifact carries evidence the reader demonstrably reads, which is
-the queued evidence-conflict test. The confidence series remains the cheapest unbuilt
-instrument in the file, needing only that readings log a trajectory instead of an endpoint,
-and the external mean-pooling result remains a reason to expect modest series effects, not to
-skip that test. Confidence: the projection result is one bad test away, one construction and
-one reader family deep; the rest is untested, logic only.
+**What the table says.** The section's first numbers land on the context-reweighting rule's
+failure side, now measured at both ends of the evidence axis. Where the artifact offers
+nothing readable, a supplied production fact functions as an instruction, followed at full
+strength regardless of truth; where the artifact offers evidence the reader provably reads,
+the false fact still wins about half the time, the true fact lifts performance past the
+evidence alone, and the reader almost never names the disagreement it is silently resolving.
+The coherent summary is that this reader family assigns supplied assertions roughly the
+weight of its own reading and no truth-tracking discount at all, so context-trust is a
+defect class of its own, separate from evidence-reading and from the honest abstention the
+same instrument shows elsewhere. The useful-cue half of the reweighting rule survives only
+in the degenerate true-note case, which no product interface can rely on since truth is what
+the interface does not know. The confidence series remains the cheapest unbuilt instrument
+in the file, and the external mean-pooling result remains a reason to expect modest series
+effects, not to skip that test. Confidence: the projection pair is one bad test away as a
+set, one construction family and one reader family deep; the rest is untested, logic only.
 
 ## §5. Continuation and stopping
 

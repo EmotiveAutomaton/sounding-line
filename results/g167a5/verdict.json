@@ -1,0 +1,28 @@
+{
+ "prereg": "prereg/g167a5.py",
+ "gates": {
+  "true_note_sanity": {
+   "accuracy": 0.99,
+   "pass": true,
+   "reference_used": 0.86
+  }
+ },
+ "verdict": {
+  "false_note_accuracy_on_truth": 0.44,
+  "vs_recorded_direct": -0.42,
+  "note_following_rate": 0.53,
+  "band": "MIXED"
+ },
+ "secondary": {
+  "flag_arm": {
+   "arm": "false_note_flag",
+   "n": 100,
+   "n_parsed": 100,
+   "accuracy_on_truth": 0.36,
+   "note_following_rate": 0.48,
+   "conflict_flag_rate": 0.15
+  },
+  "note": "a reader that flags under false notes and not true ones discriminates conflict even if forced choice bends"
+ },
+ "response": "the wing PAUSES in every branch per the card"
+}

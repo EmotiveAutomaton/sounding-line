@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-21 13:37",
+  "started": "2026-08-21 13:41",
   "stages": [
     {
       "name": "feature_visibility",
@@ -737,8 +737,20 @@
       "name": "g167a5_true_note",
       "why": "G167-A5 arm true_note: can a false production note override artifact evidence the reader provably reads (direct 0.86)?",
       "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g167a5_false_note",
+      "why": "G167-A5 arm false_note: can a false production note override artifact evidence the reader provably reads (direct 0.86)?",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g169_regen_qwen",
+      "why": "G169 v2 repair, seen generator: replace only accept-failing artifacts with mechanical accept-time verification",
+      "est_minutes": 90,
       "status": "RUNNING",
-      "log": "results\\g167a5_true_note.log"
+      "log": "results\\g169_regen_qwen.log"
     }
   ],
   "shard": "1/3"

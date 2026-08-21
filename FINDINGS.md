@@ -6567,6 +6567,66 @@ pass.
 - **Curator decision required:** No.
 - **Detail pointer:** `corpora/g169_longform/longform_audit.json`.
 
+## L157 · Evidence pulls the reader back to a coin flip, no further: a false note costs half the readable-evidence performance, and the reader almost never names the conflict
+
+**Hypothesis.** *(G167-A5, `prereg/g167a5.py`, frozen on L155's PROJECTION — the Wing A
+root's single follow-up: can a false production note override artifact evidence the
+reader provably reads? The realized-choice events are the substrate: direct instruction
+recovery 0.86, echo-independent.)*
+
+**Method.** Three arms of 100 on the frozen realized-choice events: an explicitly
+unverified note naming the TRUE instruction (sanity), the same note naming a seeded
+decoy (primary, forced choice), and the false note with an added "the note does not
+match the essay" option (can it NAME the conflict?).
+
+| arm | accuracy on the truth | note following | meaning |
+|---|---|---|---|
+| direct, recorded | 0.86 | — | the evidence anchor |
+| true note | **0.99** | — | agreement is additive: the note even fixes the reader's own errors |
+| **false note, forced choice** | **0.44** | **0.53** | the note wins about as often as the evidence |
+| false note with conflict flag | 0.36 | 0.48 | flag used **0.15**; the option does not rescue it |
+
+*Caption: note following is the rate of picking exactly the instruction the false note
+named. The card's bands: EVIDENCE-HOLDS at 0.70 and above, SUGGESTIBLE at 0.40 and
+below; 0.44 lands MIXED, stated with the number.*
+
+**Found.** MIXED, four points above the suggestible line. Where L155's reader followed
+a false claim almost absolutely because it could read nothing to resist with, readable
+evidence buys back only half the loss: the false note still costs forty-two points and
+wins the toss-up more often than not. The true-note ceiling at 0.99 sharpens the
+diagnosis — the reader treats any supplied note as high-grade evidence, which HELPS
+when the note is true and poisons when it is false. And offered an explicit way to say
+"these disagree," it says so fifteen percent of the time while silently resolving the
+rest.
+
+**Means.** Wing A pauses, per the card, in every branch — with the measured trade
+curve as the record: supplied context is worth roughly one direct-reading's weight to
+this reader regardless of its truth. The product guidance that survives the pause:
+context may enter a reading only labeled as untrusted AND only where the interface can
+audit it against records, because the reader will not police it; and any calibration
+story for this reader family must treat context-trust as a separate defect from
+evidence-reading, since the same instrument that is honest about its own uncertainty
+(L154's abstention) is credulous about supplied assertions. Lifting the pause is a
+curator decision at the root map.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics
+- **Question in plain language:** If we tell the reader something false about how a
+  text was made, can what it reads in the text itself win?
+- **Outcome class:** Narrows
+- **Result:** Half-wins: accuracy falls from 0.86 to 0.44 under a false note, and the
+  reader names the conflict only 15 percent of the time when given the option.
+- **Project meaning:** Context is a trust hole in this reader family — useful when
+  true, uncorrected when false; every context-bearing interface treats supplied
+  context as an override channel until a reader passes this test.
+- **Next engineering obligation:** None — the wing is paused by design; the result
+  feeds the Stage-1 root map.
+- **Public claim:** Unchanged.
+- **Curator decision required:** Not yet; the root map carries the pause-lift
+  question.
+- **Detail pointer:** `results/g167a5/verdict.json`, `prereg/g167a5.py`.
+
 ---
 
 # TIER 2 · SETTLED
