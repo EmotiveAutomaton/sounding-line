@@ -6765,6 +6765,60 @@ into any text form as a gate, not a hope.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/g171/ruler.json` and `ruler_freshseed.json`.
 
+## L160 · Ratification leaves no readable trace: selection and veto sit at exactly chance from the artifact with their ceilings passed, and Stage 1 closes
+
+**Hypothesis.** *(G168-R, `prereg/g168r.py`, frozen on the C0 CORPUS-STANDS: can a
+reader recover recorded interaction roles — was the thesis chosen among alternatives?
+did a veto reshape the plan? who repaired? — from the final essay, when the corpus's
+own audit proves the selected thesis genuinely survives into the text at 0.95
+integrity?)*
+
+**Method.** 40 two-actor logged cases, three per-question arms (never aggregated),
+each gated by its process-aware ceiling; balanced truth marginals asserted at build so
+every floor is the analytic 0.5.
+
+| question | ceiling (log shown) | artifact only | band |
+|---|---|---|---|
+| selection among alternatives vs accept-first | 0.975 | **0.500** | **BLIND** |
+| veto and forced revision vs none | 1.000 | **0.500** | **BLIND** |
+| repair by proposer vs writer | 0.525 — **ceiling FAILS** | 0.500 | uninterpreted |
+
+*Caption: the ceiling arm sees the recorded event log; its failure on the repair
+question means the reader cannot execute that question's two-hop actor mapping even
+with the answer visible, so that question is an instrument defect, not a signal fact.
+The two interpreted questions are the finding.*
+
+**Found.** The cleanest W4 measurement of the day: contribution events that
+demonstrably shaped the artifact (the chosen thesis out-overlaps every rejected one;
+every veto produced a genuinely different plan) leave exactly nothing a reader can
+recover from the product — 0.500 and 0.500, dead on the floor, with near-perfect
+ceilings proving the questions are answerable from records. Ratification is real and
+it is invisible.
+
+**Means.** Per the card: contribution is auditable and not inferable from product;
+the Wing C output is the audit interface (the brief's C5), stated without softening.
+This is the third independent construction to land the same boundary in one day —
+routes, handling-free contribution, now ratification — and it completes Stage 1:
+all seven roots hold states. The root map follows as its own document; the repair
+question owes a format fix (name actors explicitly in the question) before anyone
+reads its 0.50 as evidence.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces
+- **Question in plain language:** When two makers genuinely negotiated a text —
+  choosing among theses, vetoing plans — can anything in the finished essay show it?
+- **Outcome class:** Narrows
+- **Result:** Chance exactly (0.50 on both interpreted questions) with ceilings at
+  0.975 and 1.0.
+- **Project meaning:** The ratification network is a records object; contribution
+  auditing is a product surface, artifact inference is not.
+- **Next engineering obligation:** The Stage-1 root map (delivered this pass); the
+  repair-question format fix if Wing C ever reopens.
+- **Public claim:** Unchanged.
+- **Curator decision required:** At the root map, not here.
+- **Detail pointer:** `results/g168r/verdict.json`, `prereg/g168r.py`.
+
 ---
 
 # TIER 2 · SETTLED

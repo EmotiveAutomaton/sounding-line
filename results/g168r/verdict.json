@@ -1,0 +1,43 @@
+{
+ "prereg": "prereg/g168r.py",
+ "gates": {
+  "P_selection": {
+   "accuracy": 0.975,
+   "pass": true
+  },
+  "P_veto": {
+   "accuracy": 1.0,
+   "pass": true
+  },
+  "P_repair": {
+   "accuracy": 0.525,
+   "pass": false
+  }
+ },
+ "verdict": {
+  "selection": {
+   "artifact_only": 0.5,
+   "n": 40,
+   "p_vs_0.5": 0.56269,
+   "band": "BLIND",
+   "interpreted": true,
+   "power_note": "~0.72 detectable at n=40 (card)"
+  },
+  "veto": {
+   "artifact_only": 0.5,
+   "n": 40,
+   "p_vs_0.5": 0.56269,
+   "band": "BLIND",
+   "interpreted": true,
+   "power_note": "~0.72 detectable at n=40 (card)"
+  },
+  "repair": {
+   "artifact_only": 0.5,
+   "n": 40,
+   "p_vs_0.5": 0.56269,
+   "band": "BLIND",
+   "interpreted": false,
+   "power_note": "~0.72 detectable at n=40 (card)"
+  }
+ }
+}
