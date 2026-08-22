@@ -6904,6 +6904,79 @@ One arm of this root remains (the CoAuthor import); it folds in here when it lan
 - **Detail pointer:** `results/g177/anchor.json`, `results/g177/scholawrite_lopo.json`,
   `results/g177/scholawrite_reader.json`, `prereg/g177.py`.
 
+**CoAuthor arm (landed same day, closing the root).** IMPORTED: 1,447 session files, 2.7
+million logged events sampled at inventory. The paired-delta and prospective reading
+batteries over it are Stage-2 material; with this the interface-mapping root is COMPLETE —
+all four arms landed in one day, three with results, one honestly unvalidated.
+
+## L162 · The open-weight affect ruler fails as an instrument: block selection is noise at this dev power, and one degenerate selection lesions the model
+
+**Hypothesis.** *(G174 P24-A0, `prereg/g174.py`, frozen: does a 1.5B open model carry
+abstract affect representations — readable on situations containing no emotion vocabulary —
+that causally influence a benign approach-withdraw preference under amplification and
+ablation, with matched controls quiet, on both seeds?)*
+
+**Method.** Six emotion-concept directions fitted per block from explicit emotion-word
+sentences only; decoding tested on scrubbed situations (lexicon-clean by load-time
+assertion) at the block chosen on a dev split; causal half amplified and ablated the fear
+and joy directions during continuation reading of twelve ambiguous scenarios, against
+random and shuffled-label bases, with a capability gate on neutral text.
+
+**Found.** INSTRUMENT-FAIL, and the failure is informative about the battery, not the
+theory. The two seeds chose blocks 27 and 1 respectively — an eighteen-item dev split
+cannot select a block stably — and the second seed's choice of block 1 (the input-adapter
+edge, where every content type snaps in every family we have measured) turned
+amplification into a lesion: neutral-text log-probability moved 2.55×, against a 5
+percent tolerance. Where the battery did function (first seed, block 27): scrubbed-text
+decoding 0.30 against a 0.167 chance floor, with the lexical baseline collapsing to
+exactly chance (the scrub worked — a word-matcher has nothing to match) and the
+shuffle null's 95th percentile at 0.267; actor frames held it (0.33, 0.37). The causal
+sign pairs were null everywhere at every dose tried.
+
+| gate | seed A (block 27) | seed B (block 1) |
+|---|---|---|
+| scrubbed decoding vs chance 0.167 | 0.30, above both nulls | 0.10, below the shuffle null |
+| lexical baseline on scrubbed text | 0.167 (exactly chance) | 0.167 |
+| causal sign pair (fear, joy) | null | null |
+| capability change under amplification | 0.2 to 0.6 percent | **255 percent** |
+
+*Caption: the ruler's gate table; decoding is six-class accuracy on emotion-word-free
+situations at the dev-selected block; capability is the relative change in neutral-text
+per-token log-probability under the operating amplification.*
+
+**The predeclared repair is declined, with the reason on record.** The card's one repair
+(halve the dose) cures only the capability lesion; the second seed's decoding failure is
+dose-independent, so the best band the repair could reach is LEXICAL-ONLY — a stronger
+negative claim than the evidence supports, since the one functioning seed decoded ABOVE
+its lexical control on text where that control provably collapses. The honest label is
+instrument failure at this power, and the repair budget is not spent converting one
+failure label into a worse-founded one.
+
+**Means.** The causal gate on the architecture file's build path stays untested at this
+scale and power; nothing here is evidence against the human theory (the card's own
+routing). The grain worth keeping: abstract, emotion-word-free affect decoding EXISTS at
+1.5B at one seed, weakly, above every control — the battery around it was too small, not
+the signal absent. The rebuild lane is the discovery forest (the addendum's condition
+"decodes above its lexical control" is met): an order-larger stimulus bank and a frozen
+aligned-stage block rule instead of dev selection, on discovery data, earning a fresh
+confirmation card if it stabilizes.
+
+### Curator roll-up
+
+- **Theory group:** Three Cognitive Layers (the §8 causal build gate)
+- **Question in plain language:** Can a small open model show affect structure that is
+  abstract (readable without emotion words) and causally usable, under honest controls?
+- **Outcome class:** Infrastructure
+- **Result:** The battery failed itself — block selection flipped between seeds and the
+  degenerate choice moved neutral-text likelihood 2.55× against a 5 percent tolerance.
+- **Project meaning:** The affective-intervention wing has no validated ruler yet; its
+  basis contest and inversion test stay closed until a rebuilt ruler earns a fresh card.
+- **Next engineering obligation:** The scout-lane rebuild (larger bank, frozen block
+  rule); the similarity wing proceeds independently.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g174/ruler.json`, `prereg/g174.py`.
+
 ---
 
 # TIER 2 · SETTLED

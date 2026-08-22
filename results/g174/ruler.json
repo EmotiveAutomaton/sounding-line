@@ -1,0 +1,88 @@
+{
+ "prereg": "prereg/g174.py",
+ "model": "Qwen/Qwen2.5-1.5B",
+ "band": "INSTRUMENT-FAIL",
+ "seeds": [
+  {
+   "seed": 17400,
+   "block": 27,
+   "dev_acc": 0.3888888888888889,
+   "test_acc": 0.3,
+   "frame_accs": [
+    0.3333333333333333,
+    0.36666666666666664
+   ],
+   "null95": 0.26666666666666666,
+   "lexical_acc": 0.16666666666666666,
+   "decoding_pass": true,
+   "transfer_pass": true,
+   "causal": {
+    "fear": {
+     "dose": 1.0,
+     "amp_mean_signed": 0.06268644332885742,
+     "abl_mean_signed": -0.08071202039718628,
+     "p_amp": 0.1791910404479776,
+     "p_abl": 0.13379331033448327,
+     "sign_pair": false,
+     "controls_quiet": false,
+     "capability_change": 0.0016467804756921686,
+     "capability_pass": true
+    },
+    "joy": {
+     "dose": 1.0,
+     "amp_mean_signed": 0.01485145092010498,
+     "abl_mean_signed": -0.013659447431564331,
+     "p_amp": 0.4911254437278136,
+     "p_abl": 0.5500724963751812,
+     "sign_pair": false,
+     "controls_quiet": false,
+     "capability_change": 0.006232933125920169,
+     "capability_pass": true
+    }
+   }
+  },
+  {
+   "seed": 17401,
+   "block": 1,
+   "dev_acc": 0.3333333333333333,
+   "test_acc": 0.1,
+   "frame_accs": [
+    0.16666666666666666,
+    0.1
+   ],
+   "null95": 0.23333333333333334,
+   "lexical_acc": 0.16666666666666666,
+   "decoding_pass": false,
+   "transfer_pass": true,
+   "causal": {
+    "fear": {
+     "dose": 1.0,
+     "amp_mean_signed": -0.5586497783660889,
+     "abl_mean_signed": -0.1771930456161499,
+     "p_amp": 0.25748712564371784,
+     "p_abl": 0.712014399280036,
+     "sign_pair": false,
+     "controls_quiet": false,
+     "capability_change": 2.5518920939417518,
+     "capability_pass": false
+    },
+    "joy": {
+     "dose": 1.0,
+     "amp_mean_signed": 0.6815727949142456,
+     "abl_mean_signed": 0.1846224069595337,
+     "p_amp": 0.17729113544322783,
+     "p_abl": 0.6657667116644168,
+     "sign_pair": false,
+     "controls_quiet": false,
+     "capability_change": 2.516513415971034,
+     "capability_pass": false
+    }
+   }
+  }
+ ],
+ "minutes": 0.5,
+ "versions": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1"
+ }
+}

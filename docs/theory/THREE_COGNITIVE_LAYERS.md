@@ -499,12 +499,18 @@ or has reproduced human empathy. Human-reader correspondence remains a later gat
 | # | hypothesis | status |
 |---|---|---|
 | **G45** | An affective concept can be forced into a chosen block and strengthened there | **OPEN, the build**, gated on causality and the transform |
+|   | | *(the causal gate's first instrument attempt INSTRUMENT-FAILED (test, L162): dev-selected block flipped between seeds at eighteen dev items, and the degenerate input-edge selection lesioned the model 2.55× under amplification; abstract emotion-word-free decoding appeared weakly above every control at the one functioning seed, so the signal grain exists and the battery was underpowered, never the reverse)* |
 | **G38** | The mid-level primitives need only seeding, not specification | **OPEN.** *(Dependency corrected 2026-08-09: it rests on coherent structure existing (passed), on the causal gate, and on controllability, not on the rejected subspaces-not-depths claim it used to cite)* |
 
 **What the table says.** The build now has an honest gate order with the first gate passed and the
-decisive one, causality, untested; its address, if the transform work holds, is a family where
-the rotation composes rather than the home family. Confidence: untested; the gates are logic, and
-only gate one has evidence behind it.
+decisive one, causality, attempted once and instrument-failed rather than answered: the first
+open-weight ruler could not select an intervention block stably at its dev power, and its one
+degenerate selection at the input edge produced a lesion, not a measurement. What survives the
+failure is a weak abstract decoding signal on emotion-word-free text above every control at one
+seed, which is the grain any rebuilt ruler chases with a larger bank and a frozen block rule.
+Its address, if the transform work holds, is a family where the rotation composes rather than
+the home family. Confidence: untested; the gates are logic, gate one has evidence behind it, and
+the causal gate is instrument-dead at the first battery's power.
 
 ## §9. Reading versus caring
 

@@ -286,6 +286,16 @@ L132 (a shuffle gate that voided the alternative's own signature).
   known-answer claim; instruction-following side effects (surface constraints shortening
   essays out of their length band) are themselves confounds to match. (L137; G131 first corpus)
 
+- **A dev-selected hyperparameter (block, locus, threshold) is part of the instrument and
+  validates like one: the selection must be stable across seeds before anything downstream
+  is interpretable, and the dev set must be sized for THAT, not for the headline metric.**
+  The first affect ruler selected block 27 at one seed and block 1 at the other from an
+  eighteen-item dev split; block 1 is the input-adapter edge, and amplifying there moved
+  neutral-text likelihood 2.55×, a lesion recorded as INSTRUMENT-FAIL. Corollary: a
+  ratio-shaped control gate ("controls under half the primary effect") degenerates when
+  the primary effect is near zero — write the control gate's own failure condition for the
+  null-effect case before the run. (L162, run_g174_affect.py)
+
 - **An instructed-handling corpus verifies REALIZED handling at accept time, never only
   at audit time.** The long-form concealment corpus generated to completion and then
   refused itself: the generator concealed by omission (plant presence 0.63) and realized
