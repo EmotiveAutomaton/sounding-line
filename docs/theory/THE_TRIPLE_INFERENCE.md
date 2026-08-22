@@ -81,9 +81,18 @@ values.** Drives may be inputs to action selection; values describe their persis
 Treating them as synonyms is why the third vertex has repeatedly appeared and disappeared in this
 file's history. Where his quotes say "values/drives" as one item, the prose keeps them split.
 
-"Human-invertible" names the degree to which a bounded human reader can reconstruct the three
-target families under declared context; it does not require a unique answer or causal identity
-with the maker's actual process.
+On what the current instruments measure *(the 2026-08-22 pass; provenance in
+`docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
+
+> How do you know these things are human-invertible? As far as I can tell, you have no source for
+> that judgment. What you have are things that are AI-invertible. That is what you can test.
+
+**“Human-invertible” names the degree to which a bounded human reader can reconstruct the three
+target families under declared context and expertise. A model reader instead measures model
+invertibility. A model reader whose search is changed by a human-labelled or human-theorized
+prior measures engineered human-shaped invertibility. Either model result may predict a human
+pattern, but only a human-reader comparison licenses the human measurement term. None of the
+three requires a unique answer or causal identity with the maker's actual process.**
 
 **"Three" refers to three questions, not three ontologically equal objects.** Goal and process are
 episode-things; the third question, the maker's persistent motivational organization, is a
@@ -166,7 +175,10 @@ supplies a tractable route through an otherwise underdetermined inference, but i
 systematic projection: a human-coherent route is not proof that the maker used that route.
 Expertise, biography, tools, medium, and production records can change the posterior when
 supplied; hidden history that leaves no trace cannot. The self-simulation quote is canonical in
-[`READER_HEURISTICS.md`](READER_HEURISTICS.md) §1. Embodied simulation is a candidate human
+[`READER_HEURISTICS.md`](READER_HEURISTICS.md) §1. **The self-model is useful because shared
+human organization makes some candidate routes cheap for the reader to generate, not because
+the reader's route is privileged as historical truth; the similarity-shortcut quotation is
+canonical in `READER_HEURISTICS.md` §1.** Embodied simulation is a candidate human
 *solver*, not part of the problem's definition, and his position on that framing is on record
 with its evidence named:
 
@@ -512,9 +524,14 @@ up with what the proofs demand:
 
 | what the proof needs | what he already assumes | his name for it |
 |---|---|---|
-| a bounded hypothesis space | human-shaped goals | **convergent midbrains** |
+| a bounded human hypothesis family | shared bodily, affective, and action constraints that narrow candidate human routes | **convergent midbrains**, retained as the curator's shorthand while the exact conserved machinery remains open |
 | a bounded or conditioned transition model | a reader-relative estimate of feasible trajectories, conditioned on domain, tools, context, and maker evidence | **expertise** |
 | a rationality / optimality principle | near-optimality | *"that's just MaxEnt"* |
+
+**The shorthand does not localize emotion wholesale to the midbrain. It names the conjecture that
+conserved human structure supplies a narrower candidate family than an unconstrained inverse
+problem. Which subcortical, cortical, sensorimotor, and cultural constraints carry that advantage
+remains open.**
 
 > *"Oh my god, it's my three assumptions."*
 
@@ -552,8 +569,9 @@ content, that substantive human priors buy useful narrowing without unique ident
 what the toy shows, with posterior mass rising fortyfold under the combined priors while staying
 far from certainty. The ordering inside the result sharpens the position, since the bounded
 hypothesis family carries most of the effect and near-optimality pays only after boundedness,
-which makes "convergent midbrains" the assumption the whole response leans on hardest. A
-seven-state chain is not a maker reading an artifact; the gridworld substrate and G61's cheap
+which makes "convergent midbrains" the assumption the whole response leans on hardest, read as
+shorthand for conserved constraint narrowing the candidate family rather than an anatomical
+localization. A seven-state chain is not a maker reading an artifact; the gridworld substrate and G61's cheap
 real-model test are where this either grows or dies. Confidence: the literature reading is
 replicated in its sources; the narrowing result is one bad test away, one toy world deep.
 
@@ -572,7 +590,14 @@ nonhuman maker (the production-regime half is canonical in
 [`DECISION_TRACES.md`](DECISION_TRACES.md) §4; the alignment consequence in
 [`ALIGNMENT.md`](ALIGNMENT.md) §5). Human-invertible may therefore mean historically corresponding, productively
 reenactable, or merely viewer-coherent, and every use in an empirical report names
-which. **And value recovery is posterior narrowing, not mind
+which.
+
+**Those three process outputs are also reader-qualified. A model can demonstrate each against
+external records without demonstrating that a human reader can do the same; conversely, a human
+may exploit embodied and affective priors the model lacks. “Human-readable” is therefore graded
+and relational, not a provenance bit attached to the artifact.**
+
+**And value recovery is posterior narrowing, not mind
 duplication**:
 
 > My personal end goal is to find a way to **give AI human empathy, but not human emotions**

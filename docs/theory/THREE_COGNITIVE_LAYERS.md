@@ -53,6 +53,13 @@ motivational signal; that possible split is owned by
 [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4 and remains unresolved, and it
 must not be turned into a clean anatomical or transformer address.
 
+**The proposal isolates the conserved, pre-solved contribution to a larger distributed system.
+It does not claim that an emotional episode lives only in the subcortex. Cortical construction,
+learned expertise, context, and focal control can vary substantially between people while
+conserved subcortical affective and action-control machinery still narrows the candidate
+trajectories available to a human reader. That narrowing function, rather than anatomical
+exclusivity, is the load-bearing claim.**
+
 > The middle one we wouldn't be able to converge upon... that's the part of the human brain that is
 > baked in a little bit, that is a little bit more ancestral. **And it's struggling to model that.**
 > So it uses valence-arousal mixed with some goal direction to get most of the way there. **But this
@@ -144,6 +151,17 @@ reading the project has produced is blind to positive affect except where it lea
 seeking, play, or care, with the two positive-affect rows held as candidate modelings rather
 than an exhaustive pair. Confidence: untested, logic only.
 
+On mirror systems *(the 2026-08-22 pass; provenance in
+`docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
+
+> I do not think mirror neurons are magic. It is more like: I see your eyebrows move, I understand
+> how my eyebrows would move in that situation, and from that I can extrapolate how I might feel.
+
+**Mirror-compatible action representations are one possible evidence channel into embodied
+simulation. They do not transmit the maker's affect, establish the maker's goal, or remove the
+need for context and cognitive inference. The present text-only experiments do not test this
+channel.**
+
 ## §2. The reconstruction bridge: what a model is doing, in reserved words
 
 > When I say the model leaked involuntary affect, **I'm not assigning affect to the model.** It's that
@@ -173,6 +191,12 @@ candidate-generation step. Fluent mental-state labels and a plausible rationale 
 the ablation compares this prior against target-specific context, a surface baseline, and no
 generative prior, and a gain confined to the artifact-producing family is family familiarity,
 never a human generative model.
+
+**Phase 2.4 treats maker-reader model-family similarity as a tractable analogue of the shared-
+organization shortcut. Exact-checkpoint, sibling-family, and cross-family readers are crossed
+against the same recorded process choices. A same-family gain is not evidence for the human
+mechanism unless it survives surface, tokenizer, capacity, and generation-fingerprint controls;
+even then it establishes a model analogue, not biological identity.**
 
 **Reserved vocabulary, because "layer" had come to mean four different things:**
 
@@ -270,15 +294,24 @@ Confidence: sim-only; the real-artifact claim is untested.
 | **lit** | Conserved **subcortical affective control machinery** exists as a distinct stage | **SUPPORTED (READ).** The strongest support cites neither camp. Hypothalamic line attractors encoding intensity and persistence (*Nature* 2024), conserved biphasic cross-species dynamics with a ketamine dissociation (*Science* 2025). *Anatomical honesty: that evidence is hypothalamic and PAG, subcortical rather than specifically midbrain, and the machinery being coordinated is uncontested while its reading as a separable affective-primitive stage is not* |
 | **lit** | The Panksepp-Barrett disagreement is about localisation | **REJECTED (READ).** Both camps place the machinery in hypothalamus and PAG; they disagree on whether activity there *constitutes* affect or reports it, so imaging will not settle it |
 | **lit** | Panksepp's seven is the right number | **REJECTED (READ) as an empirical claim.** Never derived from a dimensional analysis; the standard instrument tests six |
-| **G35** | The ~25 distinguishable states are the **human-nameable subset** of the subcortical channels' combinations, where nameability rather than blending is the relation | **OPEN, never tested by anyone.** *(Reframed 2026-08-09: "blends of seven" was the wrong form. Channels are distinct subcortically and combine only at the neocortical level through predictions and controls of them)* |
+| **G35** | Roughly 27 is a soft upper ceiling on behaviorally distinguishable, human-reportable affect categories that may include cortical construction; it is not a count of subcortical primitives | **OPEN only as a basis-design heuristic.** It supplies no precise number, PCA rank, or anatomical claim |
 | **G36** | Some recovered components will be unnameable | **OPEN**, behind a working count instrument |
 | **L8 / L9** | Our own two counting attempts | **VOID / INSTRUMENT DEAD (L8/L9/L15).** A criterion that returned components from noise, then a rebuilt instrument with four confirmed defects. This project holds no count of its own |
 
-**What the table says.** The subcortical stage is better supported than when the project started,
-and by work from outside the argument; every count in the field is a stopping-rule output except
-~25, which survived its own ceiling test, and our instruments have contributed nothing to the
-question yet. Confidence: the machinery is replicated and controlled in the published record; the
-count relation and everything of ours is untested or instrument-dead.
+On the count *(the 2026-08-22 pass; provenance in `docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
+
+> When I say 27, I am treating that as a soft upper bound, not anything precise. I do not know how
+> they came up with it, but they certainly did not use Panksepp's method. If they arrived at it
+> behaviorally, they probably also captured some cortical, Barrett-style emotions.
+
+**What the table says.** Conserved subcortical affective control machinery has strong published
+support, while no component count has privileged standing here. Panksepp's seven were not derived
+by dimensional decomposition. Roughly 27 is retained only as a loose ceiling on reportable,
+behaviorally separated categories and may include neocortical construction; it says nothing
+directly about primitive channels. The project's own two counting instruments contributed no
+evidence. Phase 2.4 may compare fixed bases and rank sweeps, but it may not announce a natural
+emotion count. Confidence: the machinery is replicated and controlled in the published record;
+every count relation here is untested, heuristic, or instrument-dead.
 
 ## §5. Does a corresponding model structure exist?
 
@@ -450,6 +483,13 @@ the disruption as an empathy intervention is the named failure mode. Causal work
 erasing, or steering the recovered geometry and asking whether goal and process inference change
 while lexical and topical performance hold; and cross-model comparison should align computational
 events rather than percentage depth, which has already failed to transfer.
+
+**Phase 2.4 operationalizes the causal gate as an engineered analogue. A fitted affective
+subspace is amplified and ablated during artifact reading, with rank-, norm-, and parameter-
+matched semantic and random controls. PyTorch is only the mechanism used to alter activations.
+A selective improvement in recovery of independently recorded choices would show causal utility
+for that model reader. It would not show that the model contains a midbrain, experiences affect,
+or has reproduced human empathy. Human-reader correspondence remains a later gate.**
 
 > What if it's not the **location** of where they are, but rather their **shape** that we need to care
 > about? What if the values are somehow **extractable and repositionable as meta-concepts**? They'd

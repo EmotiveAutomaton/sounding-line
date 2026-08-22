@@ -94,13 +94,32 @@ provenance.
 > they did to an extent, or at least you believe you arrived in the same way they did, whether or
 > not that's true. Again, you started with your own perspective.
 
-This is the best viewer-coherent reconstruction: the reader begins from itself, then
-adjusts toward a maker model using artifact evidence and context (his short gloss,
-2026-08-21). The reader's self-model is the default prior beneath the other priors in this section. It supplies
+On why the shortcut works *(the 2026-08-22 pass; provenance in
+`docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
+
+> Explicit self-reconstruction works because of the similarities between you and the creator.
+> That is the reason it works, not because it is inherently an optimal strategy, but because you
+> can use the similarity to cheat.
+
+> You would expect the same effect with model families, with similar models being able to invert
+> one another more easily. More generally, the more you are like the person who created the thing,
+> the easier it is to reverse-engineer and understand. Archaeology is hard; talking to your wife
+> is easy.
+
+**This is the best viewer-coherent reconstruction: the reader begins from itself because shared
+organization supplies a cheap candidate generator, then adjusts toward a maker model using
+artifact evidence and context. Similarity makes this shortcut more useful; it does not make the
+reconstructed route historically correct.** It supplies
 candidate routes and effort estimates, then is adjusted using evidence about the maker. It also
 creates a characteristic failure: a sufficiently flexible reader can explain almost anything as
 something the reader might have done. Reader identity, domain competence, and conditioning must
 therefore be recorded as part of the instrument.
+
+**Model-family similarity is the present analogue construction. If sibling models recover one
+another's recorded process choices better after surface and capacity controls, the shared-
+organization hypothesis gains a model-side foothold. If only the exact checkpoint wins, or the
+effect disappears after paraphrase and style control, the result is a generation fingerprint.
+Neither outcome directly measures closeness or embodied similarity between people.**
 
 ## §2. Finding an entry point
 
@@ -649,6 +668,11 @@ correspondence requires process records or withheld causal facts. A high score o
 not a confidence score on the others, and where only the artifact is available the
 historical-process output remains an equivalence class or an abstention (the three
 outputs are defined in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §2).
+
+**Calibration is also reader-specific. Model invertibility, engineered human-shaped
+invertibility, and human invertibility use different readers and require separate calibration
+populations. Agreement between their scores is an empirical transfer question, not a naming
+convention. The vocabulary is canonical in `THE_TRIPLE_INFERENCE.md` §1.**
 
 A reconstruction must constrain evidence that did not build it: a withheld process fact, unseen
 repair, matched counterfactual, held-out segment, or second artifact under the same recorded

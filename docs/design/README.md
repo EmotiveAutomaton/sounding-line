@@ -7,12 +7,13 @@ for one thing we intend to build, dormant until that build is scheduled, and the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
 the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-## Current orientation (2026-08-21)
+## Current orientation (2026-08-22)
 
-- **Current phase:** [`PHASE_2_3_CONTEXT.md`](PHASE_2_3_CONTEXT.md), with its live branch
-  registry [`PHASE_2_3_REGISTRY.md`](PHASE_2_3_REGISTRY.md)
-- **Theory application order:** the Phase 2.2 errata (applied 2026-08-20), then the Phase 2.3
-  errata (theory delta applied 2026-08-21)
+- **Current phase:** Phase 2.3 Stage 1 complete at the curator gate
+  ([`PHASE_2_3_ROOT_MAP.md`](PHASE_2_3_ROOT_MAP.md)); the Phase 2.4 context and exploration
+  addendum sit at the repository top level pending ratification
+- **Theory application order:** the Phase 2.2 errata (applied 2026-08-20), the Phase 2.3
+  errata (theory delta applied 2026-08-21), then the Phase 2.4 errata (applied 2026-08-22)
 - **Live work:** [`../../TODO.md`](../../TODO.md) and `runners/run_queue.py`
 - **Empirical state:** [`../STATE.md`](../STATE.md) and [`../../FINDINGS.md`](../../FINDINGS.md)
 
@@ -37,6 +38,7 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 | [`PHASE_2_3_CONTEXT.md`](PHASE_2_3_CONTEXT.md) | **OPERATIVE** | the adaptive process-inversion program: seven wing roots, branching discipline, reporting protocol |
 | [`PHASE_2_3_REGISTRY.md`](PHASE_2_3_REGISTRY.md) | **OPERATIVE** | the live branch registry, root states, and the reconciliation against the live head |
 | [`PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`](PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md) | **HISTORICAL PRECURSOR** (theory delta and design reconciliation applied 2026-08-21, commits `91f887d` and this pass) | provenance for the reconstructed curator language and the authority-layer repair |
+| [`PHASE_2_4_THEORY_ERRATA.md`](PHASE_2_4_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR** (applied 2026-08-22) | provenance for the five reader-qualified-invertibility quotes and the three prose corrections: model vs engineered human-shaped vs human invertibility, similarity as shortcut, 27 as soft ceiling |
 | [`PHASE_2_2_CONTEXT.md`](PHASE_2_2_CONTEXT.md) | **HISTORICAL PRECURSOR** | the transition from binary attribution to reconstruction profiles; ruler gates; result routing |
 | [`PHASE_2_2_THEORY_ERRATA.md`](PHASE_2_2_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR** (applied 2026-08-20) | provenance for the ten-quote reconciliation across the five theory owners |
 | [`PHASE_2_0_CONTEXT.md`](PHASE_2_0_CONTEXT.md) | **HISTORICAL PRECURSOR** | the original vertical slice; STILL IN FORCE: curator interface (§15), escalations (§16), claims policy (§18), sub-goal identifiers 2.0A-2.0H |
