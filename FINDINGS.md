@@ -6819,6 +6819,69 @@ reads its 0.50 as evidence.
 - **Curator decision required:** At the root map, not here.
 - **Detail pointer:** `results/g168r/verdict.json`, `prereg/g168r.py`.
 
+## L161 · The Phase 2.4 reader reads without speaking: the likelihood form recovers realized revisions at 0.78, and the ScholaWrite floors are measured
+
+**Hypothesis.** *(G177 P24-H0, `prereg/g177.py`, first two arms: before any intervention,
+can the new non-generative reader — which scores how well each candidate instruction
+predicts the finished text, never generating a word — see the one artifact-only target
+the repository knows is real? And what do the cheapest mechanical predictors achieve on
+the prospective next-intention task, as the floor every later reader must beat?)*
+
+**Method (anchor).** The conditional-likelihood reader (Qwen2.5-1.5B base) scored the 100
+realized-revision cases from the G159 corpus: for each essay, four candidate instructions
+(one true, three decoys), each scored by the mean per-token log-probability it lends the
+essay, neutral-conditioned arm subtracted. Instrument gate first: on 16 echo probes
+(candidate quoting the essay's own opening vs three foreign openings) the reader must
+find the true one at 0.90 or better.
+
+**Found (anchor).** Gate perfect (16 of 16). Top-1 recovery **0.78 against the 0.25
+candidate floor** (binomial p 1.6e-28; multiplicity ledger updated), with the
+direct-prompted reader's 0.86 (L146, different reader and different form) as the
+reference line.
+
+| arm | reader form | top-1 | floor |
+|---|---|---|---|
+| L146 recorded | prompted, generates its answer | 0.86 | 0.25 |
+| this arm | likelihood only, generates nothing | 0.78 | 0.25 |
+
+*Caption: recovery of the true revision instruction among four candidates on the same 100
+artifacts; the two arms use different readers, so the eight-point gap is descriptive,
+never a contrast.*
+
+**Method (ScholaWrite floors).** Leave-one-project-out over the full 61,504-edit release
+(the shipped leaky split never used; the overlapping-splits duplication caught and fixed
+at build): at each sampled edit (120 per held-out project), predict the next annotated
+writing-intention class among the fixed 15 labels, by training-projects majority and by
+previous-label transition table. Macro-F1 with the label set held fixed.
+
+**Found (ScholaWrite floors).** Majority 0.04 to 0.06 macro-F1 per project; transition
+table 0.04 to 0.08. Fifteen fixed classes make these floors properly punishing; the local
+reader arm (queued behind these) must clear them and its citation known-answer gate
+before its numbers count.
+
+**Means.** The Phase 2.4 instrument is field-validated on a known-positive target: the
+non-generative form keeps most of the recorded recovery while making fabrication
+structurally impossible (nothing is generated), which is what the similarity matrix and
+any later intervention arm score through. The prospective interface's mechanical floors
+are measured and low. Two arms of this root remain (CoAuthor import, the reader arm);
+they fold in here when they land.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces (choice-event recovery) / instrument ledger
+- **Question in plain language:** Does the new reader that never generates text still
+  see the choices we know are readable, before we trust it anywhere new?
+- **Outcome class:** Infrastructure
+- **Result:** 0.78 top-1 against a 0.25 floor on the known-positive revisions.
+- **Project meaning:** Phase 2.4's common instrument works on arrival; everything the
+  similarity matrix and the intervention arms report flows through a validated scorer.
+- **Next engineering obligation:** The remaining G177 arms, then the G172 matrix reads
+  through this same scorer.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/g177/anchor.json`, `results/g177/scholawrite_lopo.json`,
+  `prereg/g177.py`.
+
 ---
 
 # TIER 2 · SETTLED

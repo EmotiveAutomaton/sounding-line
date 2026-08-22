@@ -114,6 +114,8 @@ TESTS = [
      "results/g165d/verdict.json"),
     ("L153 G165-D cand-disc McNemar vs direct", 0.16092, "primary",
      "results/g165d/verdict.json"),
+    ("L161 G177 anchor binomial vs 0.25 floor", 1.5774e-28, "primary",
+     "results/g177/anchor.json"),
     ("L74 PD-34 books movement split",    1.263e-05, "primary", "results/positional_polish/pd34_books.json"),
     ("L74 PD-34 essays movement split",   4.207e-01, "primary", "results/positional_polish/pd34_argrewrite.json"),
     ("L89 PD-3 machine movement",         2.015e-06, "primary", "results/positional_polish/pd3_ladder3.json"),
