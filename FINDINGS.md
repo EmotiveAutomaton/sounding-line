@@ -6859,12 +6859,34 @@ table 0.04 to 0.08. Fifteen fixed classes make these floors properly punishing; 
 reader arm (queued behind these) must clear them and its citation known-answer gate
 before its numbers count.
 
+**Found (ScholaWrite reader arm, landed same day).** The local prompted reader scored
+0.063 to 0.115 macro-F1 per project, above the mechanical floors in four of five
+projects — but its citation known-answer gate came back with EXACTLY ONE decidable case
+in the 600-event sample, which the reader missed (0.0 against the 0.80 floor at n = 1).
+The card's own rule (from the adjudicator lesson, L139): a reader whose validation has
+not passed reports no verdicts. A one-case gate is unpowered rather than informative,
+but the consequence is the same either way, **the reader arm is UNVALIDATED and its
+numbers are descriptive only**. A powered validation needs stratified sampling toward
+mechanically decidable edits, filed as the follow-on; the mechanical floors are the arm's
+standing result.
+
+| arm | project 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| majority class | 0.051 | 0.041 | 0.057 | 0.050 | 0.048 |
+| previous-label transition | 0.052 | 0.040 | 0.072 | 0.039 | 0.082 |
+| local reader (unvalidated) | 0.068 | 0.078 | 0.063 | 0.115 | 0.073 |
+
+*Caption: macro-F1 over the fixed 15 intention classes, next-edit prediction with future
+text withheld, one column per held-out project, 120 sampled events each.*
+
 **Means.** The Phase 2.4 instrument is field-validated on a known-positive target: the
 non-generative form keeps most of the recorded recovery while making fabrication
 structurally impossible (nothing is generated), which is what the similarity matrix and
 any later intervention arm score through. The prospective interface's mechanical floors
-are measured and low. Two arms of this root remain (CoAuthor import, the reader arm);
-they fold in here when they land.
+are measured and low, and the first prompted-reader look sits barely above them with its
+validation gate unpowered — the prospective next-intention task is hard for everything
+tried so far, which is exactly what makes it the anti-projection target the phase wants.
+One arm of this root remains (the CoAuthor import); it folds in here when it lands.
 
 ### Curator roll-up
 
@@ -6875,12 +6897,12 @@ they fold in here when they land.
 - **Result:** 0.78 top-1 against a 0.25 floor on the known-positive revisions.
 - **Project meaning:** Phase 2.4's common instrument works on arrival; everything the
   similarity matrix and the intervention arms report flows through a validated scorer.
-- **Next engineering obligation:** The remaining G177 arms, then the G172 matrix reads
-  through this same scorer.
+- **Next engineering obligation:** The CoAuthor import, the powered stratified validation
+  for the ScholaWrite reader, then the G172 matrix reads through the validated scorer.
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/g177/anchor.json`, `results/g177/scholawrite_lopo.json`,
-  `prereg/g177.py`.
+  `results/g177/scholawrite_reader.json`, `prereg/g177.py`.
 
 ---
 
