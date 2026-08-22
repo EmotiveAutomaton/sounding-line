@@ -1,0 +1,87 @@
+# Phase 2.4 registry — two lanes, one firewall
+
+Operational infrastructure for [`PHASE_2_4_CONTEXT.md`](PHASE_2_4_CONTEXT.md) and
+[`PHASE_2_4_EXPLORATION_ADDENDUM.md`](PHASE_2_4_EXPLORATION_ADDENDUM.md), never a theory
+document. Ratified by the curator 2026-08-22 with continuous second gear authorized for the
+phase (revocable) and the accept-time-verification amendment adopted for the G172 corpus.
+
+## The 2.3 gate disposition (the curator's ratification, 2026-08-22)
+
+Ratifying this phase closed the Phase 2.3 Stage-1 gate with these dispositions:
+
+- the trace-erasure branch (route-surface residue) and the natural-transfer branch are
+  absorbed into the scout forest (E24-S02 and E24-H06/H07 carry them);
+- Wing E (expertise cards) is retired as designed; the internal-intervention wing replaces
+  the card mechanism entirely;
+- Wing A stays paused; its false-context test is carried forward as standing adversary
+  E24-X05 for every promoted mechanism;
+- **the ratification/audit-interface product is DEFERRED to a product phase, not dropped**
+  (the curator accepted this with the deferral noted explicitly).
+
+## Lane discipline (addendum §2, binding)
+
+**Confirmatory trunk** G172-G180: the only route to SUPPORTED / REJECTED / flight language.
+Cards freeze nulls, alternatives, bands, and failure directions before scoring.
+**Discovery forest** E24-*: outputs only PROMISING · QUIET · RIVAL-FAVORED ·
+INSTRUMENT-FAILED · PROMOTE-TO-CONFIRMATION. Firewall: confirmation cases allocated before
+any scout reads outcomes; every artifact/author/session lineage lives on one side; anything
+a scout selected is frozen before confirmation; an inspected confirmation split is burned.
+Every attempted scout is registered here, quiet and failed ones included — the forest is a
+multiplicity object.
+
+## Trunk registry
+
+| symbolic | repo id | question (plain) | construction | state |
+|---|---|---|---|---|
+| P24-S0 | **G172** | are outputs easier to invert for the exact maker, a sibling, or a cross-family reader? | 4 makers × 9 readers, entity-order goals verified at accept time, conditional-likelihood scoring (`prereg/g172.py`) | **CARD FROZEN, QUEUED** (corpus + matrix stages, 2026-08-22) |
+| P24-S1 | **G173** | does null-tested representational alignment explain who inverts whom? | CKA + alignment maps over a shared neutral corpus, then causal transfer | pending G172 pattern |
+| P24-A0 | **G174** | does a 1.5B open model carry abstract, causally usable affect representations? | explicit-fit / scrubbed-test directions, fear-joy approach-withdraw preference, dose pair, both seeds (`prereg/g174.py`) | **CARD FROZEN, QUEUED** (2026-08-22) |
+| P24-A1 | **G175** | which fixed human-derived affective basis is stable and selectively causal? | Panksepp-7 / GoEmotions-27 / VAD / twins vs rank-matched controls | pending G174 |
+| P24-A2 | **G176** | does amplifying or ablating the affective subspace change recorded-choice recovery? | eight arms over frozen basis and process targets | pending G174 + G175 + G177 |
+| P24-H0 | **G177** | which recorded human process facts are recoverable, at which interface? | anchor (G159 realized revisions) + ScholaWrite LOPO + CoAuthor import (`prereg/g177.py`) | **CARD FROZEN, QUEUED** (2026-08-22) |
+| P24-H1 | **G178** | does the inferred maker model predict a withheld future choice? | prospective construction over the G177 winner | pending G177 |
+| P24-A3 | **G179** | does a learned low-rank deformation hold the G176 gain? | affect-label-only adapter vs equal-capacity controls | pending robust G176 positive |
+| P24-X0 | **G180** | does the frozen mechanism survive fresh families, corpora, and adversaries? | part A adversarial confirmation; part B human packet (prepared, never launched without the separate curator decision) | pending G176 or G178 |
+
+## Scout registry (all discovery-lane; codes are local, never global identifiers)
+
+Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after
+its root's ruler and ceiling pass. Everything else waits for its conditional trigger.
+
+- **Wing S:** S01 (=G172) · S02 ⚙ fingerprint destruction · S03 ⚙ process-resolution ladder ·
+  S04 lineage ladder · S05 ⚙ capacity asymmetry · S06 tokenizer control · S07 geometry
+  (G173 descriptive half) · S08 causal direction transfer · S09 controlled LoRA siblings ·
+  S10 self-inversion gradient
+- **Wing A:** A01 (=G174) · A02 ⚙ lexical/actor transfer · A03 basis catalog · A04 ⚙
+  soft-rank sweep · A05 label-source twins · A06 block-by-dose surface · A07 ⚙ generic
+  tournament · A08 cross-model transplant · A09 process integration (G176 discovery) ·
+  A10 affect distractors · A11 dynamic gate · A12 learned deformation (G179 precursor)
+- **Wing H:** H01 (=G177) · H02 ⚙ realized-choice anchor · H03 ⚙ CoAuthor action tree ·
+  H04 ⚙ ScholaWrite prospective tree · H05 ⚙ context/tool ablation · H06 anomaly-handling
+  transfer · H07 professional flattening · H08 mixed-control boundary · H09 prospective
+  anti-projection (G178) · H10 expertise packet (prepare only)
+- **Wing M** (later; optional): M01-M05 as the addendum lists them; closed until a
+  known-answer action ruler exists
+- **Wing X** (standing adversaries): X01 ⚙ persuasive rationale · X02 ⚙ emotional-language
+  decoy · X03 shaped-crossover · X04 ⚙ exact equivalence · X05 ⚙ false context under strong
+  evidence · X06 generic intervention · X07 retrospective-prospective split · X08
+  fresh-family replication
+
+## Automatic closure (addendum §9.3, binding)
+
+Ruler fails after one predeclared repair · cheap baseline explains the effect twice · random
+or generic interventions reproduce it · the shortcut-removal transformation kills it · two
+families oppose with no aligned-stage account · calibration worsens while confidence rises ·
+the process-aware ceiling proves the history absent · two ordinary queue days without a
+discriminating pattern. Closure kills the tested mechanism, never the whole human theory;
+record which claim rung died.
+
+## Queue discipline
+
+Rolling one-ordinary-day cap, refilled only from pre-authorized scouts; stages append at
+list end with produces guards; GPU stages take the lock once per invocation; manifests
+withheld below 90 percent yield; discovery and confirmation manifests physically separate;
+every basis, rank, block, prompt, strength, seed, and abandoned arm lands in the
+multiplicity ledger. Scale limitations (12GB card, 0.35B-3B readers) are recorded in every
+finding that inherits them — the frontier-model reproduction target is bounded by
+declaration, and a null at this scale is an instrument boundary where the card says so.

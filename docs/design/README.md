@@ -9,9 +9,11 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-08-22)
 
-- **Current phase:** Phase 2.3 Stage 1 complete at the curator gate
-  ([`PHASE_2_3_ROOT_MAP.md`](PHASE_2_3_ROOT_MAP.md)); the Phase 2.4 context and exploration
-  addendum sit at the repository top level pending ratification
+- **Current phase:** [`PHASE_2_4_CONTEXT.md`](PHASE_2_4_CONTEXT.md) with
+  [`PHASE_2_4_EXPLORATION_ADDENDUM.md`](PHASE_2_4_EXPLORATION_ADDENDUM.md) (ratified
+  2026-08-22, continuous second gear); live registry
+  [`PHASE_2_4_REGISTRY.md`](PHASE_2_4_REGISTRY.md), which also carries the Phase 2.3
+  closure dispositions (audit-interface product deferred, not dropped)
 - **Theory application order:** the Phase 2.2 errata (applied 2026-08-20), the Phase 2.3
   errata (theory delta applied 2026-08-21), then the Phase 2.4 errata (applied 2026-08-22)
 - **Live work:** [`../../TODO.md`](../../TODO.md) and `runners/run_queue.py`
@@ -35,8 +37,11 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 | file | status | read it for |
 |---|---|---|
-| [`PHASE_2_3_CONTEXT.md`](PHASE_2_3_CONTEXT.md) | **OPERATIVE** | the adaptive process-inversion program: seven wing roots, branching discipline, reporting protocol |
-| [`PHASE_2_3_REGISTRY.md`](PHASE_2_3_REGISTRY.md) | **OPERATIVE** | the live branch registry, root states, and the reconciliation against the live head |
+| [`PHASE_2_4_CONTEXT.md`](PHASE_2_4_CONTEXT.md) | **OPERATIVE** | shared-architecture inversion and affective-prior engineering: G172-G180, claim ladder, rival worlds, the flight standard |
+| [`PHASE_2_4_EXPLORATION_ADDENDUM.md`](PHASE_2_4_EXPLORATION_ADDENDUM.md) | **OPERATIVE** | the two-lane discipline: confirmatory trunk vs discovery forest, automatic branch policy, closure rules |
+| [`PHASE_2_4_REGISTRY.md`](PHASE_2_4_REGISTRY.md) | **OPERATIVE** | the live 2.4 registry: root states, scout registry, firewall, and the 2.3 closure dispositions |
+| [`PHASE_2_3_CONTEXT.md`](PHASE_2_3_CONTEXT.md) | **HISTORICAL PRECURSOR** (Stage 1 complete; Stage-2 branches absorbed or deferred per the 2.4 registry) | the adaptive process-inversion program: seven wing roots, branching discipline, reporting protocol |
+| [`PHASE_2_3_REGISTRY.md`](PHASE_2_3_REGISTRY.md) | **HISTORICAL PRECURSOR** (closed at the 2026-08-22 ratification) | the Phase 2.3 root states and the reconciliation against the live head |
 | [`PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`](PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md) | **HISTORICAL PRECURSOR** (theory delta and design reconciliation applied 2026-08-21, commits `91f887d` and this pass) | provenance for the reconstructed curator language and the authority-layer repair |
 | [`PHASE_2_4_THEORY_ERRATA.md`](PHASE_2_4_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR** (applied 2026-08-22) | provenance for the five reader-qualified-invertibility quotes and the three prose corrections: model vs engineered human-shaped vs human invertibility, similarity as shortcut, 27 as soft ceiling |
 | [`PHASE_2_2_CONTEXT.md`](PHASE_2_2_CONTEXT.md) | **HISTORICAL PRECURSOR** | the transition from binary attribution to reconstruction profiles; ruler gates; result routing |

@@ -170,7 +170,7 @@ stacking off one positive root.
 | **P23-E0 expertise conditioning** | G170 (reserved) | expertise changes reachable routes, or only confidence | A0 card machinery | pending |
 | **P23-F0 ordered accidents** | **G171** | later integration distinguishes accident-integrated from failure | the G161 world extension | **ROOT-POSITIVE (L159): all eight classes at or near 1.0 both seeds after one recorded repair (the exclusive-consequence rule); zero fabricated origin calls on the origin-identical pair; continuation above marginal noted as mechanical. Text transfer Stage-2** |
 
-## Phase 2.4 — shared-architecture inversion and affective-prior engineering (context + exploration addendum at repo top level, PENDING RATIFICATION 2026-08-22; theory errata APPLIED, filed at `docs/design/PHASE_2_4_THEORY_ERRATA.md`)
+## Phase 2.4 — shared-architecture inversion and affective-prior engineering (RATIFIED 2026-08-22, continuous second gear; briefs at `docs/design/PHASE_2_4_CONTEXT.md` + `_EXPLORATION_ADDENDUM.md`, registry at `docs/design/PHASE_2_4_REGISTRY.md`, errata applied)
 
 **The mission (context §0):** does similarity between maker and reader make the maker's process
 easier to invert, and can a human-derived affective prior causally improve that inversion on
@@ -179,18 +179,21 @@ lanes: the confirmatory trunk G172-G180 (the only route to verdicts) and a quara
 forest (E24 scouts; outputs PROMISING / QUIET / RIVAL-FAVORED / INSTRUMENT-FAILED /
 PROMOTE-TO-CONFIRMATION only; data firewall from confirmation sets). The Stage-1 pause is an
 interpretation pause, not a compute pause. Identifiers G172-G180 verified free 2026-08-22.
-**Nothing builds until the curator ratifies the package and rules on the 2.3/2.4 gate
-relationship** (the 2.3 root map's three questions are implicitly answered by this package; the
-disposition mapping is in the ratification request, chat 2026-08-22).
+**Ratified 2026-08-22 with the 2.3 closure dispositions accepted** (trace-erasure and
+natural-transfer absorbed into the scout forest; Wing E retired as designed; Wing A's
+false-context test a standing adversary; the audit-interface product DEFERRED, not dropped —
+the registry carries the mapping). Stage-0 spine built and guard-tested same day
+(`soundingline/probe/conditional_reader.py`, `interventions.py`, `tools/test_p24_spine.py`
+all 8 guards green); three Stage-1 cards frozen and queued.
 
 | root | identifier | what it asks | gate / dependency | state |
 |---|---|---|---|---|
-| **P24-S0 similarity matrix** | **G172** | are outputs easier to invert when the reader is the exact maker checkpoint, a sibling, or a similar family? | Stage-0 spine (conditional-likelihood reader + intervention interface + hook/boundary tests); accept-time realization verification per LESSONS §3; card frozen before scoring | pending ratification |
+| **P24-S0 similarity matrix** | **G172** | are outputs easier to invert when the reader is the exact maker checkpoint, a sibling, or a similar family? | card frozen (`prereg/g172.py`); spine guards passed at build | **QUEUED** (corpus + matrix stages, 2026-08-22) |
 | **P24-S1 geometry link** | **G173** | does null-tested representational alignment explain who inverts whom, beyond family labels and surface fingerprints? | G172 nontrivial pattern | pending |
-| **P24-A0 causal affect ruler** | **G174** | can an open-weight model reproduce abstract cross-context emotion decoding plus benign causal behavioral influence? | Stage-0 spine; second seed predeclared; expectation note: the anchor result is frontier-scale, decoding-passes/causal-weak is the likely local outcome and routes as designed | pending ratification |
+| **P24-A0 causal affect ruler** | **G174** | can an open-weight model reproduce abstract cross-context emotion decoding plus benign causal behavioral influence? | card frozen (`prereg/g174.py`); frontier-scale expectation note stands: decoding-passes/causal-weak routes as designed | **QUEUED** (2026-08-22) |
 | **P24-A1 basis contest** | **G175** | which fixed human-derived affective basis (Panksepp-7, GoEmotions-27, VAD, human-vs-synthetic twins) is stable and selectively causal against rank/norm-matched controls? | G174 passes both gates | pending |
 | **P24-A2 affective inversion** | **G176** | does amplifying or ablating the frozen affective subspace causally change recovery of recorded process choices, sign-paired and selective? | G174 + G175 + G177 | pending |
-| **P24-H0 human-process baselines** | **G177** | which recorded human process facts are recoverable at artifact-only, paired-delta, and prospective interfaces before any intervention? | G159/ArgRewrite as positive anchor; ScholaWrite leave-one-project-out ONLY (the L82 leak); CoAuthor objective actions, never token share | pending ratification |
+| **P24-H0 human-process baselines** | **G177** | which recorded human process facts are recoverable at artifact-only, paired-delta, and prospective interfaces before any intervention? | card frozen (`prereg/g177.py`); anchor + LOPO baselines + reader arm + CoAuthor import | **QUEUED** (4 stages, 2026-08-22) |
 | **P24-H1 prospective anti-projection** | **G178** | does the inferred maker model predict a future choice that was not visible when the inference was formed? | G177 viable prospective target | pending |
 | **P24-A3 learned prior** | **G179** | does a small learned deformation preserve the G176 gain more reliably than hand-set scaling? | G176 robust positive only; never built to rescue a null | pending |
 | **P24-X0 flight confirmation + human anchor** | **G180** | does the frozen mechanism survive fresh families, fresh corpora, and adversarial artifacts; human-reader packet prepared but never launched without the separate curator decision | G176 or G178 positive | pending |

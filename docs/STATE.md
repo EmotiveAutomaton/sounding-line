@@ -75,6 +75,28 @@ headers and labels; no "it's not A, it's B" constructions. Reserved vocabulary: 
 level / region / block / subspace; "layer" unqualified is banned. Format spec and afterword
 rules in `docs/theory/README.md`; the linter enforces the mechanical half.
 
+## PHASE 2.4 GOVERNS (ratified 2026-08-22, continuous second gear authorized)
+
+**Shared-architecture inversion and affective-prior engineering.** Briefs at
+`docs/design/PHASE_2_4_CONTEXT.md` + `_EXPLORATION_ADDENDUM.md`; live registry
+`docs/design/PHASE_2_4_REGISTRY.md` (which also carries the Phase 2.3 closure
+dispositions — the ratification closed the 2.3 Stage-1 gate; the audit-interface
+product is DEFERRED, not dropped). The Phase 2.4 theory errata is applied
+(`docs/design/PHASE_2_4_THEORY_ERRATA.md`): invertibility is reader-qualified three
+ways (model / engineered human-shaped / human), similarity is a shortcut not a proof,
+27 is a soft ceiling never a count. Two lanes: confirmatory trunk G172-G180 (only
+route to verdicts, cards frozen before scoring) and the quarantined E24 discovery
+forest (five status words, data firewall, automatic closure rules). Stage-1 roots
+QUEUED 2026-08-22: G172 similarity matrix (`prereg/g172.py`), G174 causal affect
+ruler (`prereg/g174.py`), G177 human-process baselines (`prereg/g177.py`). The spine
+(`soundingline/probe/conditional_reader.py` + `interventions.py`) passed all 8 guards
+at build. After the three roots land: the COLD ROOT MAP in the context §13 format,
+frozen before scout outcomes are read; scouts continue on discovery data during his
+walkthrough; scale limitations (12GB, 0.35B-3B) recorded in every finding that
+inherits them. The reporting protocol for the root map is cognitive-preemption-guarded:
+result shapes, world movements, strongest rival, three-to-five open questions, no
+recommendations until his verbal pass.
+
 ## Where the program stands (2026-08-17)
 
 **Phase 1 (frontier recreations) is at wrap: three anchors closed, BST's Experiment 1

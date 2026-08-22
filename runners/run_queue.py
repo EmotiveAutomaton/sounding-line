@@ -1810,6 +1810,50 @@ STAGES += [
      "why": "G168-R verdict: the last Stage-1 root state; the root map follows"},
 ]
 
+# ── PHASE 2.4 STAGE 1 2026-08-22 (appended at list end; ratified with continuous second
+# gear; cards frozen: prereg/g172.py, g174.py, g177.py; spine guards all passed at build
+# in tools/test_p24_spine.py). The three cheap roots; scouts refill only after the cold
+# root map freezes.
+STAGES += [
+    {"name": "g172_corpus", "est": 180,
+     "cmd": [PY, "runners/run_g172_corpus.py"],
+     "produces": "results/g172/corpus_manifest.json", "needs": [],
+     "why": "G172 P24-S0 corpus: 4 makers x entity-order goals, realization verified "
+            "at accept time (L156 rule); manifest withheld under 90 percent fill"},
+    {"name": "g172_matrix", "est": 240,
+     "cmd": [PY, "runners/run_g172_matrix.py"],
+     "produces": "results/g172/verdict.json",
+     "needs": ["results/g172/corpus_manifest.json"],
+     "why": "G172 similarity matrix: 9 readers, per-reader gates first, relation "
+            "contrasts land the band (SIMILARITY-GRADED/EXACT-ONLY/FLAT/REVERSED)"},
+    {"name": "g174_ruler", "est": 120,
+     "cmd": [PY, "runners/run_g174_affect.py"],
+     "produces": "results/g174/ruler.json", "needs": [],
+     "why": "G174 P24-A0 causal affect ruler: explicit-fit scrubbed-test decoding, "
+            "fear/joy approach-withdraw sign pair, controls, both seeds"},
+    {"name": "g177_anchor", "est": 60,
+     "cmd": [PY, "runners/run_g177_baselines.py", "--arm", "anchor"],
+     "produces": "results/g177/anchor.json", "needs": [],
+     "why": "G177 P24-H0 anchor: conditional-likelihood reader on the G159 realized "
+            "revisions, the known-positive artifact-only target"},
+    {"name": "g177_coauthor", "est": 30,
+     "cmd": [PY, "runners/run_g177_baselines.py", "--arm", "coauthor"],
+     "produces": "results/g177/coauthor_import.json", "needs": [],
+     "why": "G177 CoAuthor import: fetch + inventory; objective actions only, token "
+            "share never a target; nonzero exit and retry when unreachable"},
+    {"name": "g177_sw_base", "est": 45,
+     "cmd": [PY, "runners/run_g177_baselines.py", "--arm", "scholawrite"],
+     "produces": "results/g177/scholawrite_lopo.json", "needs": [],
+     "why": "G177 ScholaWrite LOPO mechanical baselines: frequency + Markov, label "
+            "set fixed, per-project table (the L82 leak rule)"},
+    {"name": "g177_sw_reader", "est": 240,
+     "cmd": [PY, "runners/run_g177_baselines.py", "--arm", "scholawrite_reader"],
+     "produces": "results/g177/scholawrite_reader.json",
+     "needs": ["results/g177/scholawrite_lopo.json"],
+     "why": "G177 ScholaWrite LOPO reader arm: local model over the fixed label set, "
+            "citation known-answer subset per L139 before its verdicts count"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1838,7 +1882,9 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g167a5_true_note", "g167a5_false_note", "g167a5_false_note_flag",
                     "g169_regen_qwen", "g169_regen_llama",
                     "g169r_validate", "g169r_classify", "g169r_span", "g169r_blind",
-                    "g168_gen", "g168r_process", "g168r_classify"}
+                    "g168_gen", "g168r_process", "g168r_classify",
+                    "g172_corpus", "g172_matrix", "g174_ruler", "g177_anchor",
+                    "g177_sw_reader"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True
