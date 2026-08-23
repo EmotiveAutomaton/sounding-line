@@ -7130,6 +7130,82 @@ second maker family) is Stage 2's Wave 1.
   `results/scouts/s02_paraphrase_manifest.json`, `results/scouts/s05_capacity.json`,
   `docs/design/PHASE_2_4_REGISTRY.md`.
 
+## L165 · The crossed reversal appears: each maker family's artifacts are read best by that family's readers, and the pattern survives an independent eraser that measurably strips family surface signal
+
+**Hypothesis.** *(Stage-2 Tree-S Wave 1, discovery lane, scouts E24-S1a/S1c/S3/S2: is the
+similarity advantage a property of the RELATION between maker and reader, or is it Qwen
+readers being good at reading? The diagnostic the Stage-2 brief names as most decisive is a
+crossed reversal — each family's artifacts read best by its own relatives — and it requires a
+second maker family, which Stage 1 did not have.)*
+
+**Method.** Two instruction-tuned SmolLM2 makers wrote the same mechanically verified
+entity-order goal corpus (63 and 64 of 64 cells filled, realization checked inside the accept
+loop). Both corpora then passed through two erasers: mechanical normalization (punctuation,
+casing, whitespace) and an independent SmolLM2-instruct paraphraser, each re-verifying the goal
+per item. Eleven readers scored every variant against the unchanged candidate sets, each reader
+gated on an echo known-answer probe first. For each artifact the contrast is the mean margin of
+same-family readers minus the mean margin of other-family readers, tested by sign-flip
+permutation with 20,000 draws. **The retired Pythia makers are excluded everywhere** — their
+partial cells are skewed toward whichever goals a weak base model could satisfy, a selection
+this reading must not inherit (the defect was caught in the first analysis pass and fixed).
+
+**Found.** **The crossed reversal is real and survives both erasers.** Every cell of the
+own-minus-other contrast is positive at the permutation floor.
+
+| artifacts written by | own-family readers | the other modern family | Pythia readers | GPT-2 large |
+|---|---|---|---|---|
+| the Qwen makers | **+0.055** | +0.047 | +0.030 | +0.021 |
+| the SmolLM2 makers | **+0.043** | +0.040 | +0.021 | +0.012 |
+
+*Caption: mean margin of the true goal over its three decoys, in per-token score units, by the
+family relation between the artifact's maker and its reader. Each row's best cell is its own
+family.*
+
+| variant | Qwen artifacts, own minus other | SmolLM2 artifacts, own minus other |
+|---|---|---|
+| untouched | +0.0195 | +0.0142 |
+| mechanically normalized | +0.0195 | +0.0142 |
+| paraphrased by Qwen | +0.0119 | not built |
+| paraphrased by SmolLM2 (independent for Qwen) | +0.0129 | +0.0138 |
+
+*Caption: the same contrast under each erasure, all at p = 0.00005, the smallest value 20,000
+permutations can report, over 115 to 127 artifacts per cell.*
+
+**The erasure is measurable and partial.** A topic-held-out classifier reading only surface
+character patterns identifies the maker family at 0.636 on normalized text and 0.518 after
+independent paraphrase, against 0.333 chance for the three-way problem: the eraser removed much
+of the detectable family surface signal and the reading advantage survived anyway, but family
+information is reduced rather than gone.
+
+**Means.** Reader quality explains most of the spread — both modern instruct-era families beat
+Pythia and GPT-2 on everything — and the own-family term is a smaller effect riding on top of
+that ordering, roughly 0.014 to 0.020 score units. But it is the term that reverses with the
+artifact's origin, which reader quality cannot do, and it survives an eraser built from a
+different family than the artifacts it rewrites. That combination is what the single-family
+Stage-1 result could not deliver. One circularity remains: the SmolLM2 rows are erased by a
+SmolLM2 paraphraser, so the clean non-circular cell so far is Qwen artifacts erased by SmolLM2
+(+0.0129); the mirror arm (SmolLM2 artifacts erased by Qwen) is cheap and owed. Discovery
+grade, no promotion: the Stage-2 conjunction for Tree S requires process-level and geometry
+evidence this scout does not touch.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics (the similarity shortcut, model analogue)
+- **Question in plain language:** Is a text easier to read back to its goal for the family that
+  wrote it, or were we just watching better readers win?
+- **Outcome class:** Strengthens
+- **Result:** Each maker family's artifacts are read best by its own relatives, and the
+  reversal survives an independent eraser that cuts measured family surface signal.
+- **Project meaning:** The similarity effect belongs to the maker-reader relation, not to
+  reader quality alone; the surface-dialect account is now the weaker half of the rival set.
+- **Next engineering obligation:** The mirror erasure arm (Qwen paraphraser over the SmolLM2
+  corpus) and the process-resolution ladder, which asks whether the relation helps at anything
+  beyond wording.
+- **Public claim:** Unchanged (model-analogue result; no human claim licensed).
+- **Curator decision required:** No.
+- **Detail pointer:** `results/scouts/s_wave1.json`, `results/scouts/s2_detector.json`,
+  `runners/scout_stage2_s.py`.
+
 ---
 
 # TIER 2 · SETTLED

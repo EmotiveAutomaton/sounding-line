@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-23 08:54",
+  "started": "2026-08-23 10:40",
   "stages": [
     {
       "name": "feature_visibility",
@@ -821,64 +821,40 @@
       "name": "scout_gen2",
       "why": "E24-S3 second maker family: SmolLM2-instruct pair writes the same verified goal corpus (accept-time realization, retirement rule standing)",
       "est_minutes": 120,
-      "status": "FAILED (exit 1)",
-      "log": "results\\scout_gen2.log",
-      "minutes": 0.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "scout_norm",
       "why": "E24-S1a mechanical normalization of both corpora, realization re-verified",
       "est_minutes": 10,
-      "status": "DEFERRED",
-      "missing": [
-        "results/scouts/family2_manifest.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "scout_para2",
       "why": "E24-S1c independent non-Qwen paraphraser over both corpora",
       "est_minutes": 150,
-      "status": "DEFERRED",
-      "missing": [
-        "results/scouts/family2_manifest.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "scout_mx_fam2",
       "why": "Tree-S matrix over the fam2 variant, eleven readers, echo-gated",
       "est_minutes": 100,
-      "status": "DEFERRED",
-      "missing": [
-        "results/scouts/family2_manifest.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "scout_mx_norm",
       "why": "Tree-S matrix over the norm variant, eleven readers, echo-gated",
       "est_minutes": 100,
-      "status": "DEFERRED",
-      "missing": [
-        "results/scouts/norm_manifest.json"
-      ]
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "scout_s_analyze",
       "why": "Tree-S wave-1 synthesis: crossed reversal, erasure survival, detector map",
       "est_minutes": 10,
-      "status": "DEFERRED",
-      "missing": [
-        "results/scouts/mx_orig_done.json",
-        "results/scouts/mx_fam2_done.json",
-        "results/scouts/mx_norm_done.json",
-        "results/scouts/mx_para_qwen_done.json",
-        "results/scouts/mx_para2_done.json",
-        "results/scouts/s2_detector.json"
-      ]
+      "status": "SKIPPED (already done)"
     }
   ],
   "shard": "1/3",
-  "finished": "2026-08-23 08:55",
-  "failed": [
-    "scout_gen2"
-  ]
+  "finished": "2026-08-23 10:40",
+  "failed": []
 }

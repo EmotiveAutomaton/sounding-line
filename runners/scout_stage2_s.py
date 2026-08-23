@@ -46,7 +46,8 @@ FAMILY2 = {"HuggingFaceTB/SmolLM2-1.7B-Instruct": "smollm",
 READERS2 = MAKERS2          # added to the original nine readers in the matrix arm
 ATTEMPTS2 = 16
 VARIANTS = {"orig": "g172", "fam2": "g172_family2", "norm": "g172_norm",
-            "para_qwen": "g172_paraphrase", "para2": "g172_para2"}
+            "para_qwen": "g172_paraphrase", "para2": "g172_para2",
+            "para_qwen2": "g172_para_qwen2"}
 
 
 def family_of(model: str) -> str:
@@ -54,10 +55,18 @@ def family_of(model: str) -> str:
     return {**FAMILY, **FAMILY2}[model]
 
 
+RETIRED = {"EleutherAI/pythia-410m", "EleutherAI/pythia-1.4b"}
+
+
 def load_variant(name: str) -> list[dict]:
+    """Retired makers are excluded everywhere: their partial cells are skewed toward the
+    goals a weak base model could satisfy, which is a selection the reading must not
+    inherit (the L163 retirement clause, same rule as the trunk matrix loader)."""
     d = COR / VARIANTS[name]
-    return [json.loads(p.read_text(encoding="utf-8"))
-            for p in sorted(d.rglob("*.json")) if p.name.startswith(("art_",)) or "_art_" in p.name]
+    rows = [json.loads(p.read_text(encoding="utf-8"))
+            for p in sorted(d.rglob("*.json"))
+            if p.name.startswith("art_") or "_art_" in p.name]
+    return [r for r in rows if r["maker"] not in RETIRED]
 
 
 def task_text(ti: int, gi: int) -> str:
@@ -134,6 +143,15 @@ def arm_gen2() -> int:
          "cells": [{k: r[k] for k in ("maker", "topic_i", "goal_i", "trial")}
                    for r in rows]}, indent=1), encoding="utf-8", newline="\n")
     return 0
+
+
+_LF = chr(10)
+_BLANK = _LF * 2
+_PARA_PROMPT_MIRROR = (
+    "Rewrite the following paragraph in a completely different style: different sentence "
+    "structures, different rhythm, plainer and drier register, no phrase reused. Keep every "
+    "factual point and keep the same overall order of ideas. Output only the rewritten "
+    "paragraph." + _BLANK + "Paragraph:" + _LF + "{text}" + _BLANK + "Rewritten paragraph:")
 
 
 _WS = re.compile(r"\s+")
@@ -228,6 +246,53 @@ def arm_para2() -> int:
     (OUT / "para2_manifest.json").write_text(json.dumps(
         {"scout": "E24-S1c", "n": n_ok, "of": n_all,
          "paraphraser": PARAPHRASER2}, indent=1), encoding="utf-8", newline="\n")
+    return 0
+
+
+def arm_mirror() -> int:
+    """E24-S1d mirror arm: the Qwen paraphraser over the SmolLM2 corpus, so each family's
+    artifacts are erased by BOTH a same-family and a cross-family transformer. Without this
+    cell the crossed-imprint design is half built and the smollm rows stay circular."""
+    from soundingline.probe.client import LocalClient                            # noqa: PLC0415
+    client = LocalClient()
+    src = COR / VARIANTS["fam2"]
+    dest_root = COR / VARIANTS["para_qwen2"]
+    n_ok = n_all = 0
+    for pth in sorted(src.rglob("art_*.json")):
+        art = json.loads(pth.read_text(encoding="utf-8"))
+        dest = dest_root / short(art["maker"]) / pth.name
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        n_all += 1
+        if dest.exists():
+            n_ok += 1
+            continue
+        prompt = _PARA_PROMPT_MIRROR.format(text=art["text"])
+        got = None
+        for att in range(6):
+            try:
+                txt = client.read_text("You rewrite text precisely as instructed.",
+                                       prompt).strip()
+            except Exception as e:                                               # noqa: BLE001
+                print(f"  error attempt {att}: {e}")
+                time.sleep(5 * (att + 1))
+                continue
+            txt = re.sub(r"^(rewritten paragraph:?\s*)", "", txt, flags=re.I).strip()
+            txt = txt.split(_BLANK)[0].strip()
+            if realized(txt, art["topic_i"], art["goal_i"]):
+                got = txt
+                break
+        if got:
+            dest.write_text(json.dumps({**art, "text": got, "para_qwen2": True},
+                                       ensure_ascii=False, indent=1),
+                            encoding="utf-8", newline=_LF)
+            n_ok += 1
+    print(f"mirror paraphrase {n_ok}/{n_all}")
+    if n_all == 0 or n_ok / n_all < 0.9:
+        return 1
+    (OUT / "mirror_manifest.json").write_text(json.dumps(
+        {"scout": "E24-S1d", "n": n_ok, "of": n_all,
+         "paraphraser": "qwen3.5:9b (cross-family for the SmolLM2 corpus)"}, indent=1),
+        encoding="utf-8", newline=_LF)
     return 0
 
 
@@ -333,10 +398,40 @@ def arm_analyze() -> int:
             if "cases" not in rec:
                 continue
             for c in rec["cases"]:
+                if c["maker"] in RETIRED:
+                    continue
                 key = (c["maker_family"], c["reader_family"])
                 by_cell.setdefault(key, []).append(c["margin"])
         table = {f"{mk}->{rd}": {"mean_margin": sum(v) / len(v), "n": len(v)}
                  for (mk, rd), v in sorted(by_cell.items())}
+        # paired per-artifact own-family-minus-other-family contrast with a sign-flip
+        # permutation, the same structure as the trunk's C1/C2 (a claim-bearing number
+        # needs its own null, LESSONS section 3)
+        per_art: dict[tuple, dict[str, list[float]]] = {}
+        for ch in chunks:
+            rec = json.loads(ch.read_text(encoding="utf-8"))
+            if "cases" not in rec:
+                continue
+            for c in rec["cases"]:
+                if c["maker"] in RETIRED:
+                    continue
+                key = (c["maker"], c["topic_i"], c["goal_i"], c["trial"])
+                side = "own" if c["reader_family"] == c["maker_family"] else "other"
+                per_art.setdefault(key, {"own": [], "other": [],
+                                         "fam": c["maker_family"]})[side].append(c["margin"])
+        perm = {}
+        for fam in {v["fam"] for v in per_art.values()}:
+            diffs = [sum(v["own"]) / len(v["own"]) - sum(v["other"]) / len(v["other"])
+                     for v in per_art.values()
+                     if v["fam"] == fam and v["own"] and v["other"]]
+            if not diffs:
+                continue
+            rng = random.Random(SEED0 + 77)
+            obs = sum(diffs) / len(diffs)
+            ge = sum(1 for _ in range(20000)
+                     if abs(sum(d * rng.choice((1, -1)) for d in diffs)
+                            / len(diffs)) >= abs(obs))
+            perm[fam] = {"mean": obs, "p": (ge + 1) / 20001, "n_artifacts": len(diffs)}
         # crossed contrast per maker family: own-family readers minus other-family readers
         crossed = {}
         for mk in {k[0] for k in by_cell}:
@@ -344,7 +439,8 @@ def arm_analyze() -> int:
             oth = [m for (m, r), v in by_cell.items() if m == mk and r != mk for m in v]
             if own and oth:
                 crossed[mk] = sum(own) / len(own) - sum(oth) / len(oth)
-        summary[variant] = {"cells": table, "own_minus_other_by_maker_family": crossed}
+        summary[variant] = {"cells": table, "own_minus_other_by_maker_family": crossed,
+                            "paired_permutation": perm}
     det = json.loads((OUT / "s2_detector.json").read_text(encoding="utf-8")) \
         if (OUT / "s2_detector.json").exists() else None
     reversal = None
@@ -360,6 +456,10 @@ def arm_analyze() -> int:
         {"scout": "E24-S1/S2/S3 wave-1 analysis", "status": status,
          "crossed_reversal_own_gt_other": reversal, "variants": summary,
          "detector": det}, indent=1), encoding="utf-8", newline="\n")
+    if (OUT / "mx_para_qwen2_done.json").exists():
+        (OUT / "s_wave1b_done.json").write_text(json.dumps(
+            {"note": "re-synthesis with the crossed-imprint design complete",
+             "status": status}, indent=1), encoding="utf-8", newline=_LF)
     print(f"wave-1 status {status}; reversal {reversal}")
     return 0
 
@@ -367,13 +467,14 @@ def arm_analyze() -> int:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
-                    choices=["gen2", "normalize", "para2", "matrix", "detector", "analyze"])
+                    choices=["gen2", "normalize", "para2", "mirror", "matrix",
+                             "detector", "analyze"])
     ap.add_argument("--variant", default="orig")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
     rc = {"gen2": arm_gen2, "normalize": arm_normalize, "para2": arm_para2,
-          "detector": arm_detector, "analyze": arm_analyze,
+          "mirror": arm_mirror, "detector": arm_detector, "analyze": arm_analyze,
           "matrix": lambda: arm_matrix(a.variant)}[a.arm]()
     print(f"{a.arm} in {(time.time() - t0) / 60:.0f} min")
     return rc

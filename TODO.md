@@ -200,9 +200,12 @@ all 8 guards green); three Stage-1 cards frozen and queued.
 
 ## Phase 2.4 Stage 2 — the discovery forest (RATIFIED 2026-08-23; brief `docs/design/PHASE_2_4_STAGE_2_CONTEXT.md`; seven trees S/P/E/A/H/V/X, pursuit and warrant ledgers, six-day arc)
 
-Wave 1 (QUEUED 2026-08-23): Tree-S erasure tournament (mechanical normalization, non-Qwen
-paraphraser, crossed imprint), source-family detector, second maker family
-(SmolLM2-instruct), full five-variant reader matrix, crossed-reversal analysis; H1 powered
+Wave 1 Tree-S LANDED 2026-08-23 (L165): **the crossed reversal appears** — each maker family's
+artifacts are read best by that family's readers (+0.020 and +0.014 own-minus-other, both at
+the permutation floor), holding under mechanical normalization and under an independent
+SmolLM2 eraser that cuts measured family surface detection from 0.64 to 0.52 against 0.33
+chance. Owed and queued: the mirror erasure arm (Qwen paraphraser over the SmolLM2 corpus,
+completing the crossed-imprint design) and the process-resolution ladder. Still to build: H1 powered
 ScholaWrite validation and H2/H3 CoAuthor action tree are the next build items. Wave 2:
 Tree-P process ecology (P0-P4). Wave 3: Tree-E projection-correction curves, Tree-A ruler
 rebuild (A1-A4). Promotion only through the conjunctions (S9, P11, E16, A10); flight

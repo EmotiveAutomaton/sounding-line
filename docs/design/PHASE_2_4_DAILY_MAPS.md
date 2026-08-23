@@ -1,0 +1,75 @@
+# Phase 2.4 Stage 2 — daily cold maps
+
+One theory-level map per ordinary queue-day, written before reading further scout output
+(Stage-2 brief §15). Newest first. Six-day arc to mandatory synthesis; day one is 2026-08-23.
+
+---
+
+## Day 1 — 2026-08-23
+
+### Result shape
+
+- **Tree S:** each maker family's artifacts are read best by that family's readers, and the
+  reversal survives both an unchanged-content normalization and an eraser built from a
+  different family, which a surface classifier confirms removes much of the detectable family
+  signal.
+- **Tree P, E, A, V:** not run today. Tree H: unchanged since Stage 1 (anchor validated,
+  prospective floors mapped, one reader arm unvalidated, CoAuthor imported and unread).
+- **Tree X:** the standing adversaries have not yet been attached to the surviving mechanism.
+
+### Pursuit movement
+
+- **Opened:** the mirror erasure arm (completing the crossed-imprint design), the
+  process-resolution ladder, the geometry linkage whose trigger condition is now met twice.
+- **Promoted:** nothing to confirmation. Tree S's promotion conjunction needs three of four
+  and currently holds one and a half: a crossed reversal, and erasure survival that is real
+  but partial.
+- **Stalled or exhausted:** mechanical normalization is exhausted as an eraser, having moved
+  nothing in either direction, which itself says the effect is not punctuation-shaped.
+- **Surprising:** the effect reversed cleanly on the first try with a family whose makers
+  were downloaded the same morning, and the second family's own advantage is nearly as large
+  as the first's despite far less local history with those checkpoints.
+
+### Warrant movement
+
+- **Controls passed:** every reader echo-gated per variant; goals re-verified per item after
+  each transformation; the retired makers excluded after their contamination was caught in
+  the first analysis pass; the crossed contrast carries its own sign-flip permutation.
+- **Rivals weakened:** simple reader quality cannot produce a reversal that follows the
+  artifact's origin; simple removable surface dialect loses further ground.
+- **Rivals still standing:** partial erasure means family surface information survives the
+  strongest eraser built so far; the effect could still be any family-specific regularity
+  rather than shared generative organization; nothing yet shows the relation helping at a
+  target beyond goal wording.
+- **Claim ceiling:** unchanged. Discovery grade, model-analogue only.
+- **Confirmation status:** untouched. No confirmation split has been opened or inspected.
+
+### Cross-tree implications
+
+Tree S's result raises the value of Tree P rather than settling anything by itself: if the
+relation term is organization rather than dialect, it should help predict held-out choices,
+which is Tree P's object and Tree S cannot test. The Tree-A rebuild is unaffected either way.
+
+### Open theory questions
+
+1. The advantage reverses with origin, which reader quality cannot do, but the eraser leaves
+   measurable family signal behind. What would count for you as enough erasure — a detector
+   at chance, or a different kind of transformation entirely?
+2. Both surviving families are modern instruction-tuned models and both beat the older
+   architectures on everything. Is instruction tuning itself a candidate for what
+   "compatible organization" means here, or is that a confound to design out?
+3. The second family's own-advantage is nearly as large as the first's on a fraction of the
+   local history. Does that argue the effect is architectural rather than accumulated, or is
+   it too early to read anything from one comparison?
+4. If the relation helps at goal wording but not at held-out choices, is that a boundary of
+   the analogue or a boundary of the theory's claim about similarity?
+
+### Mechanics appendix
+
+L165 in `FINDINGS.md`; scouts E24-S1a, S1c, S2, S3 in `results/scouts/s_wave1.json` and
+`s2_detector.json`; second-family corpus 127 of 128 cells, both erasure variants goal-verified
+per item; eleven readers per variant, echo-gated; contrasts at p = 0.00005 over 115 to 127
+artifacts, both new p-values in the multiplicity ledger, rerun clean. One defect caught and
+fixed inside the pass: the scout loader globbed the corpus directory and admitted the retired
+makers' partial, easy-goal-skewed cells; it now filters to non-retired makers everywhere, the
+same rule the trunk loader already carried.

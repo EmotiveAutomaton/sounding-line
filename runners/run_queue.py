@@ -1918,6 +1918,28 @@ STAGES += [
      "why": "Tree-S wave-1 synthesis: crossed reversal, erasure survival, detector map"},
 ]
 
+# ── STAGE 2 WAVE 1 continuation 2026-08-23 (mirror erasure completes the crossed-imprint
+# design; the smollm rows are otherwise erased only by their own family).
+STAGES += [
+    {"name": "scout_mirror", "est": 120,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "mirror"],
+     "produces": "results/scouts/mirror_manifest.json",
+     "needs": ["results/scouts/family2_manifest.json"],
+     "why": "E24-S1d mirror arm: Qwen paraphraser over the SmolLM2 corpus, so each family "
+            "is erased by a cross-family transformer as well as its own"},
+    {"name": "scout_mx_para_qwen2", "est": 100,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "matrix",
+             "--variant", "para_qwen2"],
+     "produces": "results/scouts/mx_para_qwen2_done.json",
+     "needs": ["results/scouts/mirror_manifest.json"],
+     "why": "Tree-S matrix over the mirror-erased variant, eleven readers, echo-gated"},
+    {"name": "scout_s_analyze2", "est": 10,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "analyze"],
+     "produces": "results/scouts/s_wave1b_done.json",
+     "needs": ["results/scouts/mx_para_qwen2_done.json"],
+     "why": "Tree-S re-synthesis with the crossed-imprint design complete"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1950,7 +1972,8 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g172_corpus", "g172_matrix", "g174_ruler", "g177_anchor",
                     "g177_sw_reader", "scout_s02_para", "scout_s02_matrix",
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
-                    "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2"}
+                    "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
+                    "scout_mx_para_qwen2"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

@@ -145,8 +145,12 @@ permutation floor over 115 artifacts. Because the paraphraser is Qwen-family, su
 evidence and collapse would have been strong. Across the seven gate-passing original readers,
 parameter count has only a weak positive rank relation with margin, 0.43, while family separation
 is complete. Simple capacity remains a poor rival; a simply removable surface dialect loses
-probability; Qwen-circular erasure and other family-specific representations remain live. One
-maker family remains the construction's largest limitation.**)**
+probability; Qwen-circular erasure and other family-specific representations remain live. The
+single-maker-family limitation is now lifted (test, L165): a second maker family reverses the
+advantage in its own direction, each family's artifacts read best by that family's readers, at
+the permutation floor under mechanical normalization and under an independently built eraser
+that measurably strips family surface signal. Reader quality carries most of the spread and the
+relation term is the smaller part that reverses with origin, which quality cannot do.**)**
 
 ## §2. Finding an entry point
 
@@ -734,18 +738,21 @@ rate and next to a field bar.
 | **visibility partition** (§6) | authors at 0.78 (low-vis) vs 0.38 (high-vis); draft-stage 0.48 (high) vs 0.30 (low) | chance 0.10 / 0.33 | **SUPPORTED (test).** Clean double crossover, first pass |
 | **revision homogeneity** (§7) | real 0.45 vs spliced 1.94, AUC 1.0 | synthetic cross-author splice | **SUPPORTED (test), first pass, weakest adversary.** The realistic imposition case is untested |
 | **provenance prior** (§1) | ratio shift +0.007, *p* < 2×10⁻⁸, three corpora | paired identical text | **SUPPORTED (test), replicated.** In the reader model; human-side untested |
-| **maker-reader family similarity** (§1, model analogue) | original exact-vs-cross +0.035 and sibling-vs-cross +0.025; after accepted Qwen paraphrase +0.016 and +0.021; capacity-margin Spearman 0.43 | cross-family readers on identical candidates; accepted goal-preserving paraphrase; within-matrix capacity direction | **SUPPORTED (test, L163), first pass; discovery follow-ups PROMISING (test, L164), no claim promotion.** The gradient survives one circular erasure at reduced magnitude; capacity remains poor; single maker family and Qwen-paraphraser circularity remain |
+| **maker-reader family similarity** (§1, model analogue) | original exact-vs-cross +0.035 and sibling-vs-cross +0.025; after accepted Qwen paraphrase +0.016 and +0.021; capacity-margin Spearman 0.43; crossed own-minus-other +0.020 for one maker family and +0.014 for the other, holding under an independent eraser | cross-family readers on identical candidates; accepted goal-preserving paraphrase; within-matrix capacity direction; a second maker family | **SUPPORTED (test, L163), first pass; discovery follow-ups PROMISING (test, L164, L165), no claim promotion.** The advantage reverses with the artifact's origin family and survives an eraser built from a different family, so the relation rather than reader quality carries it; erasure is partial, one mirror arm is owed, and the process-level and geometry legs of the promotion conjunction are untouched |
 | anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | | | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
-**What the dashboard says.** Six heuristics carry numbers. The family-similarity row remains the
-first model-side measurement of the similarity shortcut: related readers recover a maker's
-recorded goals better than cross-family readers. Goal-preserving paraphrase attenuates but does
-not erase the gradient, while size remains a weak explanation and the original family ordering
-stays complete. Because the eraser is itself Qwen-family and all surviving makers are Qwen, the
-result narrows a simple surface-dialect rival without separating shared organization from
-family-specific representation. The discovery follow-ups therefore sharpen the rival set and do
-not promote the claim. The two variation measures, the visibility partition, and the homogeneity
-statistic remain plausibly distinct channels, but stacking still waits on construct validation.
-Confidence: the surface-variation number is replicated and controlled; the similarity root and
-the other measured heuristics are one bad test away each; the discovery follow-ups are
-hypothesis-generating; everything unmeasured is untested.
+**What the dashboard says.** Six heuristics carry numbers, and the family-similarity row is now
+the strongest of the new ones. Related readers recover a maker's recorded goals better than
+cross-family readers, and with a second maker family in place the advantage reverses with the
+artifact's origin rather than pointing at one favoured reader family, which is the pattern
+reader quality alone cannot produce. It survives mechanical normalization unchanged and survives
+an eraser built from a different family than the artifacts it rewrites, while a surface
+classifier confirms that eraser removes much of the detectable family signal. What remains
+unsettled is how much of the effect is shared generative organization rather than any other
+family-specific regularity, since erasure is measurably partial, one mirror erasure arm is
+still owed, and nothing here shows the relation helping at a target beyond wording. The two
+variation measures, the visibility partition, and the homogeneity statistic remain plausibly
+distinct channels, but stacking still waits on construct validation. Confidence: the
+surface-variation number is replicated and controlled; the similarity root and the other
+measured heuristics are one bad test away each; the crossed reversal is one bad test away and
+discovery grade; everything unmeasured is untested.

@@ -1,0 +1,268 @@
+{
+ "scout": "E24-S1/S2/S3 wave-1 analysis",
+ "status": "PROMISING",
+ "crossed_reversal_own_gt_other": {
+  "qwen": true,
+  "smollm": true
+ },
+ "variants": {
+  "orig": {
+   "cells": {
+    "qwen->gpt2": {
+     "mean_margin": 0.021069446876443177,
+     "n": 123
+    },
+    "qwen->pythia": {
+     "mean_margin": 0.030292045456284108,
+     "n": 369
+    },
+    "qwen->qwen": {
+     "mean_margin": 0.055406752479108694,
+     "n": 492
+    },
+    "qwen->smollm": {
+     "mean_margin": 0.046531250052551154,
+     "n": 369
+    }
+   },
+   "own_minus_other_by_maker_family": {
+    "qwen": 0.019472561992973127
+   },
+   "paired_permutation": {
+    "qwen": {
+     "mean": 0.019472561992973127,
+     "p": 4.999750012499375e-05,
+     "n_artifacts": 123
+    }
+   }
+  },
+  "fam2": {
+   "cells": {
+    "smollm->gpt2": {
+     "mean_margin": 0.011687801578852136,
+     "n": 127
+    },
+    "smollm->pythia": {
+     "mean_margin": 0.021034577178621332,
+     "n": 381
+    },
+    "smollm->qwen": {
+     "mean_margin": 0.03954753885901194,
+     "n": 508
+    },
+    "smollm->smollm": {
+     "mean_margin": 0.04333758411549312,
+     "n": 381
+    }
+   },
+   "own_minus_other_by_maker_family": {
+    "smollm": 0.014214873046647637
+   },
+   "paired_permutation": {
+    "smollm": {
+     "mean": 0.014214873046647637,
+     "p": 4.999750012499375e-05,
+     "n_artifacts": 127
+    }
+   }
+  },
+  "norm": {
+   "cells": {
+    "qwen->gpt2": {
+     "mean_margin": 0.02105551618870681,
+     "n": 123
+    },
+    "qwen->pythia": {
+     "mean_margin": 0.030308530474958274,
+     "n": 369
+    },
+    "qwen->qwen": {
+     "mean_margin": 0.05539190446135151,
+     "n": 492
+    },
+    "qwen->smollm": {
+     "mean_margin": 0.04649078910589864,
+     "n": 369
+    },
+    "smollm->gpt2": {
+     "mean_margin": 0.011647480053538726,
+     "n": 127
+    },
+    "smollm->pythia": {
+     "mean_margin": 0.020997130964684675,
+     "n": 381
+    },
+    "smollm->qwen": {
+     "mean_margin": 0.03952573505755798,
+     "n": 508
+    },
+    "smollm->smollm": {
+     "mean_margin": 0.043310512342895215,
+     "n": 381
+    }
+   },
+   "own_minus_other_by_maker_family": {
+    "qwen": 0.019469979471169005,
+    "smollm": 0.014217785695667135
+   },
+   "paired_permutation": {
+    "qwen": {
+     "mean": 0.019469979471169005,
+     "p": 4.999750012499375e-05,
+     "n_artifacts": 123
+    },
+    "smollm": {
+     "mean": 0.014217785695667133,
+     "p": 4.999750012499375e-05,
+     "n_artifacts": 127
+    }
+   }
+  },
+  "para_qwen": {
+   "cells": {
+    "qwen->gpt2": {
+     "mean_margin": 0.016017036852629292,
+     "n": 115
+    },
+    "qwen->pythia": {
+     "mean_margin": 0.027544234685851758,
+     "n": 345
+    },
+    "qwen->qwen": {
+     "mean_margin": 0.04470290653947471,
+     "n": 460
+    },
+    "qwen->smollm": {
+     "mean_margin": 0.04364798863728841,
+     "n": 345
+    }
+   },
+   "own_minus_other_by_maker_family": {
+    "qwen": 0.011903805564896168
+   },
+   "paired_permutation": {
+    "qwen": {
+     "mean": 0.011903805564896166,
+     "p": 4.999750012499375e-05,
+     "n_artifacts": 115
+    }
+   }
+  },
+  "para2": {
+   "cells": {
+    "qwen->gpt2": {
+     "mean_margin": 0.017951624966709993,
+     "n": 122
+    },
+    "qwen->pythia": {
+     "mean_margin": 0.027242241987113745,
+     "n": 366
+    },
+    "qwen->qwen": {
+     "mean_margin": 0.04510966977460788,
+     "n": 488
+    },
+    "qwen->smollm": {
+     "mean_margin": 0.041903791531839006,
+     "n": 366
+    },
+    "smollm->gpt2": {
+     "mean_margin": 0.010995455301339857,
+     "n": 127
+    },
+    "smollm->pythia": {
+     "mean_margin": 0.021032106115019124,
+     "n": 381
+    },
+    "smollm->qwen": {
+     "mean_margin": 0.03512526833479173,
+     "n": 508
+    },
+    "smollm->smollm": {
+     "mean_margin": 0.040632616242920215,
+     "n": 381
+    }
+   },
+   "own_minus_other_by_maker_family": {
+    "qwen": 0.012911137556955277,
+    "smollm": 0.013808510369724698
+   },
+   "paired_permutation": {
+    "qwen": {
+     "mean": 0.012911137556955277,
+     "p": 4.999750012499375e-05,
+     "n_artifacts": 122
+    },
+    "smollm": {
+     "mean": 0.013808510369724698,
+     "p": 4.999750012499375e-05,
+     "n_artifacts": 127
+    }
+   }
+  }
+ },
+ "detector": {
+  "scout": "E24-S2",
+  "results": {
+   "orig": {
+    "family_acc_mean": 0.7280255855255855,
+    "per_topic": [
+     0.6923076923076923,
+     0.7727272727272727,
+     0.6666666666666666,
+     0.7307692307692307,
+     0.9444444444444444,
+     0.64,
+     0.6153846153846154,
+     0.7619047619047619
+    ],
+    "chance": 0.5,
+    "n": 185
+   },
+   "fam2": {
+    "skipped": true,
+    "n": 127,
+    "families": [
+     "smollm"
+    ]
+   },
+   "norm": {
+    "family_acc_mean": 0.6360176707813195,
+    "per_topic": [
+     0.7142857142857143,
+     0.5526315789473685,
+     0.6756756756756757,
+     0.5853658536585366,
+     0.7647058823529411,
+     0.7073170731707317,
+     0.5476190476190477,
+     0.5405405405405406
+    ],
+    "chance": 0.3333333333333333,
+    "n": 312
+   },
+   "para_qwen": {
+    "skipped": true,
+    "n": 115,
+    "families": [
+     "qwen"
+    ]
+   },
+   "para2": {
+    "family_acc_mean": 0.5183396317766834,
+    "per_topic": [
+     0.55,
+     0.5135135135135135,
+     0.5277777777777778,
+     0.4,
+     0.6764705882352942,
+     0.475,
+     0.4634146341463415,
+     0.5405405405405406
+    ],
+    "chance": 0.3333333333333333,
+    "n": 305
+   }
+  }
+ }
+}
