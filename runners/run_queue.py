@@ -1854,6 +1854,24 @@ STAGES += [
             "citation known-answer subset per L139 before its verdicts count"},
 ]
 
+# ── PHASE 2.4 DISCOVERY SCOUTS 2026-08-22 late (appended at list end; the root map is
+# frozen at commit 95febbd BEFORE these queued — addendum §9.1 always-run set, discovery
+# lane, outputs sealed from curator-facing reports until the walkthrough).
+STAGES += [
+    {"name": "scout_s02_para", "est": 90,
+     "cmd": [PY, "runners/scout_s02_s05.py", "--arm", "paraphrase"],
+     "produces": "results/scouts/s02_paraphrase_manifest.json",
+     "needs": ["results/g172/verdict.json"],
+     "why": "E24-S02 goal-preserving paraphrase of the similarity corpus (mechanical "
+            "realized() acceptance per item; Qwen-paraphraser confound recorded)"},
+    {"name": "scout_s02_matrix", "est": 180,
+     "cmd": [PY, "runners/scout_s02_s05.py", "--arm", "matrix"],
+     "produces": "results/scouts/s02_erasure.json",
+     "needs": ["results/scouts/s02_paraphrase_manifest.json"],
+     "why": "E24-S02 matrix re-run on erased artifacts: does the similarity gradient "
+            "survive dialect destruction? Collapse = RIVAL-FAVORED (dialect)"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1884,7 +1902,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g169r_validate", "g169r_classify", "g169r_span", "g169r_blind",
                     "g168_gen", "g168r_process", "g168r_classify",
                     "g172_corpus", "g172_matrix", "g174_ruler", "g177_anchor",
-                    "g177_sw_reader"}
+                    "g177_sw_reader", "scout_s02_para", "scout_s02_matrix"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

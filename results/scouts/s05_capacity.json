@@ -1,0 +1,51 @@
+{
+ "scout": "E24-S05",
+ "status": "PROMISING",
+ "spearman_margin_vs_params": 0.42857142857142855,
+ "family_separation_complete": true,
+ "readers": [
+  {
+   "reader": "qwen25_3b",
+   "family_side": "qwen",
+   "params_b": 3.0,
+   "mean_margin": 0.05881012358316561
+  },
+  {
+   "reader": "qwen25_05b",
+   "family_side": "qwen",
+   "params_b": 0.5,
+   "mean_margin": 0.056572172376844615
+  },
+  {
+   "reader": "qwen25_15b_instruct",
+   "family_side": "qwen",
+   "params_b": 1.5,
+   "mean_margin": 0.05626430356405615
+  },
+  {
+   "reader": "qwen25_15b",
+   "family_side": "qwen",
+   "params_b": 1.5,
+   "mean_margin": 0.049980410392368384
+  },
+  {
+   "reader": "pythia_28b",
+   "family_side": "cross",
+   "params_b": 2.8,
+   "mean_margin": 0.033718458359157495
+  },
+  {
+   "reader": "pythia_410m",
+   "family_side": "cross",
+   "params_b": 0.41,
+   "mean_margin": 0.029488511847932813
+  },
+  {
+   "reader": "gpt2_large",
+   "family_side": "cross",
+   "params_b": 0.77,
+   "mean_margin": 0.021069446876443177
+  }
+ ],
+ "reading": "separation with weak capacity correlation favors relation over capacity; a strong capacity correlation without separation favors the capacity account"
+}
