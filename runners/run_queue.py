@@ -1979,6 +1979,39 @@ STAGES += [
             "statement's likelihood; validated first on the same stratified subset"},
 ]
 
+# ── STAGE 2 WAVE 2 2026-08-23 (the Tree-P process ecology and the Tree-H CoAuthor action
+# tree; runners scout_stage2_p.py / scout_stage2_h.py, DESIGN CHECK blocks in both).
+STAGES += [
+    {"name": "scout_p_gen", "est": 150,
+     "cmd": [PY, "runners/scout_stage2_p.py", "--arm", "gen"],
+     "produces": "results/scouts/p_ecology_manifest.json", "needs": [],
+     "why": "E24-P0 process ecology: 3 instruct makers x 4 preference profiles x 10 topics, "
+            "exactly-two-evidence rule verified mechanically at accept time"},
+    {"name": "scout_p_audit", "est": 5,
+     "cmd": [PY, "runners/scout_stage2_p.py", "--arm", "audit"],
+     "produces": "results/scouts/p_ecology_audit.json",
+     "needs": ["results/scouts/p_ecology_manifest.json"],
+     "why": "ecology audit: profile-following rate (interpretability gate) and the "
+            "marginal-derived prediction floor"},
+    {"name": "scout_p_read", "est": 120,
+     "cmd": [PY, "runners/scout_stage2_p.py", "--arm", "read"],
+     "produces": "results/scouts/p_read.json",
+     "needs": ["results/scouts/p_ecology_audit.json"],
+     "why": "E24-P2 system identification: recover the standing preference from k episodes, "
+            "predict held-out selections; synthetic known-answer gate first"},
+    {"name": "scout_h_events", "est": 20,
+     "cmd": [PY, "runners/scout_stage2_h.py", "--arm", "events"],
+     "produces": "results/scouts/h_coauthor_events.json", "needs": [],
+     "why": "E24-H02b CoAuthor decision episodes: shown suggestion -> taken or dismissed, "
+            "unreadable sessions counted never dropped"},
+    {"name": "scout_h_baselines", "est": 10,
+     "cmd": [PY, "runners/scout_stage2_h.py", "--arm", "baselines"],
+     "produces": "results/scouts/h_coauthor_baselines.json",
+     "needs": ["results/scouts/h_coauthor_events.json"],
+     "why": "E24-H03 mechanical floors: majority, per-session first-half, previous-outcome, "
+            "position; the margin over majority is the headline"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -2013,7 +2046,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
                     "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
-                    "g177_sw_validation", "g177_sw_nongen"}
+                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

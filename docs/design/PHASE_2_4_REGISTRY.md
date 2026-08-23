@@ -50,7 +50,12 @@ Tree-S erasure tournament + source detector + second maker family (SmolLM2-instr
 downloaded 2026-08-23) + powered ScholaWrite validation + CoAuthor action tree; Wave 2 =
 the Tree-P process ecology; Wave 3 = Tree-E route curves + Tree-A ruler rebuild. Pursuit
 and warrant ledgers separate from here on; daily cold map at each queue-day's end; six-day
-arc to mandatory synthesis. Wave-1 Tree-S landed 2026-08-23 (L165): the crossed reversal appears, and the completed
+arc to mandatory synthesis. Wave 2 QUEUED 2026-08-23 evening (scout_stage2_p.py, scout_stage2_h.py): the Tree-P
+process ecology v1 (three instruct makers x four preference profiles x ten evidence-selection
+topics, realized selections mechanical, synthetic known-answer gate before the reading arm,
+marginal-derived floors) and the Tree-H CoAuthor action tree (shown-suggestion decision
+episodes, mechanical baselines only; a model arm waits for a validated instrument after the
+prospective boundary). Wave-1 Tree-S landed 2026-08-23 (L165): the crossed reversal appears, and the completed
 crossed-imprint design shows the advantage following the artifact's original maker rather than
 the model that rewrote it. Next: the process-resolution ladder (does the relation help beyond
 goal wording) and the geometry linkage, whose trigger the reversal now meets. The H-tree wave-1 runners (powered ScholaWrite validation, CoAuthor action tree) follow at
