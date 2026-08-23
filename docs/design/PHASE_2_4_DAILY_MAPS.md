@@ -16,8 +16,10 @@ One theory-level map per ordinary queue-day, written before reading further scou
   ladder's first rung adds that the crossed pattern dies when the candidate uses the maker's
   own instruction wording, which is where a surface account would predict it strongest.
 - **Tree H:** the prompted next-intention reader failed its powered validation outright and
-  its route is closed after one repair; the non-generative form is queued as the routed
-  alternative, and if it also fails the prospective interface has no validated reader.
+  its route is closed after one repair; the non-generative form then ALSO failed
+  at chance with an even more extreme under-use signature, so the prospective next-intention
+  interface has no validated reader of any form; what remains on it is the process-aware
+  ceiling, which decides whether the target is recoverable from the record at all.
 - **Tree P, E, A, V:** not run today. Tree H: unchanged since Stage 1 (anchor validated,
   prospective floors mapped, one reader arm unvalidated, CoAuthor imported and unread).
 - **Tree X:** the standing adversaries have not yet been attached to the surviving mechanism.
@@ -78,6 +80,10 @@ which is Tree P's object and Tree S cannot test. The Tree-A rebuild is unaffecte
    it too early to read anything from one comparison?
 4. If the relation helps at goal wording but not at held-out choices, is that a boundary of
    the analogue or a boundary of the theory's claim about similarity?
+5. Four reader forms now sit at or near floor on predicting a writer's next intention from
+   natural histories, while realized-choice recovery stays strong. Is live prediction simply
+   the harder half, as the records boundary already suggested, or is the next-intention label
+   itself the wrong unit for what a writer does next?
 
 ### Mechanics appendix
 

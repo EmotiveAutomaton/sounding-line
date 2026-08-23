@@ -6911,6 +6911,20 @@ routing, the boundary is preserved and the next instrument is the non-generative
 is the reader validated on the anchor above; if that also fails, the prospective interface has
 no validated reader of any form and that is the finding.
 
+**The non-generative form also failed, same day, and the boundary finding is reached.** The
+likelihood reader that recovers realized revisions at 0.78 on the anchor scored the same
+stratified citation subset by how much the draft raises each intention statement's likelihood,
+label priors subtracted: sensitivity 0.083, specificity 1.000, balanced accuracy 0.542 against
+the 0.589 chance-band top. At chance, an even more extreme version of the same under-use
+signature, and its leave-one-project-out numbers were withheld by its own precondition. **The
+prospective next-intention interface on this corpus now has no validated reader of any form**:
+majority and transition baselines sit at 0.04 to 0.08 macro-F1, the prompted reader and the
+likelihood reader both fail a validation their known-answer subset makes mechanical. The
+honest scope: this maps a hard boundary of every instrument tried, not yet a boundary of the
+world, because the target's process-aware ceiling, whether ANY method can predict the next
+intention from the full record, is unmeasured. Measuring that ceiling is what remains of this
+interface; nothing else runs on it.
+
 **Means.** The Phase 2.4 instrument is field-validated on a known-positive target: the
 non-generative form keeps most of the recorded recovery while making fabrication
 structurally impossible (nothing is generated), which is what the similarity matrix and

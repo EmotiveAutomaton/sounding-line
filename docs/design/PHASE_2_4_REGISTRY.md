@@ -84,7 +84,9 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   tournament · A08 cross-model transplant · A09 process integration (G176 discovery) ·
   A10 affect distractors · A11 dynamic gate · A12 learned deformation (G179 precursor)
 - **Wing H:** H01 (=G177) · H02 ⚙ realized-choice anchor · H03 ⚙ CoAuthor action tree ·
-  H04 ⚙ ScholaWrite prospective tree · H05 ⚙ context/tool ablation · H06 anomaly-handling
+  H04 ⚙ ScholaWrite prospective tree — BOUNDARY MAPPED
+  (both reader forms fail powered validation, floors 0.04 to 0.08; only the process-aware
+  ceiling remains, L161) · H05 ⚙ context/tool ablation · H06 anomaly-handling
   transfer · H07 professional flattening · H08 mixed-control boundary · H09 prospective
   anti-projection (G178) · H10 expertise packet (prepare only)
 - **Wing M** (later; optional): M01-M05 as the addendum lists them; closed until a
