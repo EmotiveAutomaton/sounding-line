@@ -71,8 +71,10 @@ def task_text(ti: int, gi: int) -> str:
 def _chat_generate(model, tok, prompt: str, seed: int, max_new: int = 260) -> str:
     import torch                                                                 # noqa: PLC0415
     msgs = [{"role": "user", "content": prompt}]
-    ids = tok.apply_chat_template(msgs, add_generation_prompt=True,
-                                  return_tensors="pt").to("cuda")
+    ids = tok.apply_chat_template(msgs, add_generation_prompt=True, return_tensors="pt")
+    if not torch.is_tensor(ids):          # transformers 5 returns a BatchEncoding
+        ids = ids["input_ids"]
+    ids = ids.to("cuda")
     torch.manual_seed(seed)
     with torch.no_grad():
         out = model.generate(ids, do_sample=True, temperature=0.8, top_p=0.95,
