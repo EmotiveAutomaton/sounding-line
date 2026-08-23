@@ -393,6 +393,15 @@ L132 (a shuffle gate that voided the alternative's own signature).
 - **Bare-launched shells have no PATH** (`date`/`cat` silently empty, deadline arithmetic
   collapses); loop scripts export PATH first. Kill loops by the lock's WINDOWS pid (line 2) with
   a tree kill; msys pids do not map. Sweep orphans at startup. (G121 history)
+- **Killing a GPU stage by pid orphans its lock: release `results/.gpu.lock` in the same
+  action, after verifying no compute process survives.** A mid-run stage killed to pick up
+  a code repair left its lock holding the dead pid; with the staleness window deliberately
+  at 22 hours, every later GPU stage spun on "lock held" for six hours until the wake
+  watcher's deadline fallback surfaced it. The kill checklist is now: Stop-Process, confirm
+  via nvidia-smi that nothing holds the card, delete the lock. The deadline fallback on
+  watchers is what bounded the loss — never arm a change-only watcher without one.
+  (2026-08-22, g172_corpus repair pass)
+
 - **The regear waiter checks for a LIVE ENGINE before relaunching, not only for a drained
   queue.** A drain-triggered waiter fired while the prior lineage was still mid-window,
   running two second-gear engines side by side (harmless only because produces-guards and
