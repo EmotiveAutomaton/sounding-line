@@ -48,9 +48,9 @@ multiplicity object.
 Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after
 its root's ruler and ceiling pass. Everything else waits for its conditional trigger.
 
-- **Wing S:** S01 (=G172, landed via trunk) · S02 ⚙ fingerprint destruction — RUNNING
-  2026-08-22 (paraphrase + matrix stages; Qwen-paraphraser confound recorded in the scout
-  file) · S03 ⚙ process-resolution ladder · S04 lineage ladder · S05 ⚙ capacity asymmetry —
+- **Wing S:** S01 (=G172, landed via trunk) · S02 ⚙ fingerprint destruction — LANDED
+  2026-08-22 late, status sealed pending walkthrough (`results/scouts/s02_erasure.json`;
+  paraphrase yield 115/123 with mechanical acceptance; Qwen-paraphraser confound recorded) · S03 ⚙ process-resolution ladder · S04 lineage ladder · S05 ⚙ capacity asymmetry —
   LANDED 2026-08-22, status sealed pending walkthrough (`results/scouts/s05_capacity.json`) · S06 tokenizer control · S07 geometry
   (G173 descriptive half) · S08 causal direction transfer · S09 controlled LoRA siblings ·
   S10 self-inversion gradient
