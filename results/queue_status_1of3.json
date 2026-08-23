@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-23 14:14",
+  "started": "2026-08-23 14:44",
   "stages": [
     {
       "name": "feature_visibility",
@@ -875,13 +875,20 @@
       "name": "scout_p_read",
       "why": "E24-P2 system identification: recover the standing preference from k episodes, predict held-out selections; synthetic known-answer gate first",
       "est_minutes": 120,
-      "status": "DEFERRED",
-      "missing": [
-        "results/scouts/p_ecology_audit.json"
-      ]
+      "status": "DONE",
+      "log": "results\\scout_p_read.log",
+      "minutes": 2.2
+    },
+    {
+      "name": "scout_p_self",
+      "why": "E24-E1 groundwork: each instruct model's own unprofiled selection policy, the self-distribution every route-tree analysis needs first",
+      "est_minutes": 45,
+      "status": "DONE",
+      "log": "results\\scout_p_self.log",
+      "minutes": 5.6
     }
   ],
   "shard": "1/3",
-  "finished": "2026-08-23 14:14",
+  "finished": "2026-08-23 14:52",
   "failed": []
 }

@@ -7405,11 +7405,114 @@ session-as-writer approximation stands as the recorded limitation.
 - **Project meaning:** The natural ratification record is now a usable substrate with
   measured floors, and its flatness at this grain is itself the bar any reader must clear.
 - **Next engineering obligation:** The retained-versus-later-deleted extraction, which is
-  both the richer target and the mechanically decidable subset a reader validation needs.
+  both the richer target and the mechanically decidable subset a reader validation
+  needs. *(Landed same day after two extraction repairs, both instructive: the
+  suggestion text lives on the preceding shown-event, not the selection event, and the
+  final document exists nowhere in the log and must be replayed from the edit deltas.
+  Result: 11,773 decidable accepted suggestions, 68.7 percent retained verbatim to session
+  end, a balanced target where accept-versus-dismiss was not, and the validation substrate
+  this tree needed.)*
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/scouts/h_coauthor_events.json`,
   `results/scouts/h_coauthor_baselines.json`, `runners/scout_stage2_h.py`.
+
+## L168 · The geometry leg lands: representational alignment predicts who inverts whom, with reader quality and maker difficulty both removed by construction
+
+**Hypothesis.** *(Stage-2 Tree-S scout E24-S07, the linkage whose trigger the crossed
+reversal met twice: does measured representational alignment between a reader and a maker
+predict that reader's inversion margin on that maker's artifacts, beyond how good the reader
+is and how easy the maker is?)*
+
+**Method.** All thirteen models' late-stage representations captured on the same eighty
+shared texts (the normalized artifacts from both maker families; process-matched rather than
+neutral, a recorded scope note). The instrument gate first: true-pairing alignment must
+separate from a hundred correspondence-shuffled pairings, or nothing downstream is computed.
+Then the linkage: mean margin per reader-maker cell against alignment per cell, BOTH
+double-centered (reader means and maker means removed), rank-correlated, against a
+within-reader label-shuffle permutation. Raw alignment magnitudes are deliberately
+unreported, per the standing rule that only null-tested structure is quotable at this
+sample-to-dimension ratio.
+
+**Found.** Gate perfect: twelve of twelve model pairs separate from the correspondence null.
+The linkage: **double-centered rank correlation 0.501, permutation p 0.0088**. After
+removing what reader quality and maker difficulty can explain, the residual pattern of who
+reads whom well tracks the residual pattern of whose representations align.
+
+**Means.** PROMISING, and it is the geometry leg of the Tree-S promotion conjunction landing
+at discovery grade: the family advantage now has a representational correlate that survives
+the same double-centering that killed the capacity account. What it does not show: direction
+(alignment could follow from whatever also drives inversion rather than enabling it), and
+the shared text set is process-matched rather than neutral, so a corpus-specific component
+is possible. The causal form (map a direction from maker into reader, move the margin) is
+the S8 branch and stays closed until this replicates on a neutral corpus.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics (the similarity shortcut, model analogue)
+- **Question in plain language:** Do models that represent text similarly also read each
+  other's goals better, once we stop crediting sheer reader strength?
+- **Outcome class:** Strengthens
+- **Result:** Double-centered rank relation 0.501 between alignment and inversion margin,
+  permutation p 0.0088, with a perfect correspondence gate.
+- **Project meaning:** The similarity effect now has a measured representational correlate;
+  two of the promotion conjunction's four legs hold at discovery grade.
+- **Next engineering obligation:** Replication on a neutral text set, then the causal
+  transfer branch.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/scouts/geo_link.json`, `runners/scout_stage2_geo.py`.
+
+---
+
+## L169 · The process ecology refuses itself informatively: instructed preferences lose to the makers' own evidence appetites, and the first profile reader failed its synthetic gate until its scoring direction was flipped
+
+**Hypothesis.** *(Stage-2 Tree-P scouts E24-P0 and E24-P2, the ecology's first factorial:
+can makers be given standing evidence preferences, and can a reader recover them from a few
+episodes well enough to predict held-out selections?)*
+
+**Method and found (construction).** Three instruct makers by four assigned preference
+profiles by ten evidence-selection topics, the realized two-item selection mechanical via
+unique anchors; fill 108 of 120, at the gate. The audit then ruled the profile question
+UNINTERPRETABLE: overall profile-following is 0.537, and the per-cell table shows why. The
+makers obey the cautious and novelty profiles (rates 0.89 to 1.0) and ignore the cost and
+precedent profiles almost completely (0.0 to 0.3). The realized pair-inclusion counts are
+novelty 99, caution 84, cost 29, precedent 4: **the models have their own strong evidence
+appetites, and a one-line instruction does not override them.** The marginal-derived floor
+this skew produces is 0.917, leaving held-out prediction almost no headroom by construction.
+
+**Method and found (reader instrument).** The profile reader failed its synthetic
+perfect-compliance gate at exactly chance (0.25): scoring a hundred-word artifact
+conditioned on a one-sentence profile description gives the hypothesis one sentence of
+leverage over a long likelihood, which washes out. The one predeclared repair flips the
+direction, scoring the short description given the artifact so every scored token is
+hypothesis-bearing; its known-answer verdict lands separately, and a second failure retires
+the arm.
+
+**Means.** The construction taught two things worth its cost. Substantively, instructed
+preference profiles are the wrong handle at this model scale, but the intrinsic appetites
+the makers revealed are themselves stable conditional policy, which is exactly Tree P's
+object: the v2 construction inverts the design and asks whether a reader can recover WHICH
+MODEL made a selection pattern from its appetite signature, with the self-policy
+measurements (running) as the substrate. Methodologically, a factorial whose treatment can
+be silently refused needs a compliance pilot before the full grid, now a lesson.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces (choice-event recovery, constructed-world side)
+- **Question in plain language:** Can we hand a model a standing preference and read it
+  back from its choices?
+- **Outcome class:** Infrastructure
+- **Result:** The makers refuse half the assigned preferences (following 0.537 overall,
+  0.0 on one profile) while revealing strong appetites of their own.
+- **Project meaning:** Assigned preference is the wrong v1 handle; intrinsic policy is the
+  measured, recoverable object and the v2 target.
+- **Next engineering obligation:** The v2 inversion (recover the maker from its appetite
+  signature) on the self-policy substrate; the repaired reader's gate verdict.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/scouts/p_ecology_audit.json`, `results/scouts/p_read.json`,
+  `runners/scout_stage2_p.py`.
 
 ---
 

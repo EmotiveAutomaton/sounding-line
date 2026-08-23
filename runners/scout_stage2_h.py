@@ -163,19 +163,43 @@ def arm_retention() -> int:
             events = [json.loads(x) for x in p2.read_text(encoding="utf-8").splitlines()]
         except Exception:                                                        # noqa: BLE001
             continue
-        final_doc = ""
-        for ev in reversed(events):
+        # currentDoc appears once (the initial prompt); the FINAL document is replayed
+        # from the Quill deltas: retain advances the cursor, insert splices, delete cuts
+        doc = ""
+        for ev in events:
             if ev.get("currentDoc"):
-                final_doc = norm(ev["currentDoc"])
-                break
-        if not final_doc:
+                doc = ev["currentDoc"]
+            td = ev.get("textDelta")
+            if not isinstance(td, dict):
+                continue
+            pos = 0
+            try:
+                for op in td.get("ops", []):
+                    if "retain" in op:
+                        pos += op["retain"]
+                    elif "insert" in op:
+                        doc = doc[:pos] + op["insert"] + doc[pos:]
+                        pos += len(op["insert"])
+                    elif "delete" in op:
+                        doc = doc[:pos] + doc[pos + op["delete"]:]
+            except Exception:                                                    # noqa: BLE001
+                pass
+        final_doc = norm(doc)
+        if len(final_doc) < 40:
             no_final += 1
             continue
         srec = {"taken": 0, "retained": 0}
+        last_open_sugs = []
         for ev in events:
-            if ev.get("eventName") != "suggestion-select":
+            name = ev.get("eventName")
+            if name == "suggestion-open":
+                last_open_sugs = ev.get("currentSuggestions") or []
                 continue
-            sugs = ev.get("currentSuggestions") or []
+            if name != "suggestion-select":
+                continue
+            # the select event's own suggestion list is cleared by selection time; the
+            # text lives on the preceding suggestion-open (verified on the raw logs)
+            sugs = last_open_sugs
             idx = ev.get("currentSuggestionIndex")
             if not isinstance(idx, int) or not (0 <= idx < len(sugs)):
                 continue

@@ -87,8 +87,13 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   S04 lineage ladder · S05 ⚙ capacity asymmetry —
   PROMISING (unsealed, filed L164: complete family separation, weak size-margin rank
   relation 0.43) · S06 tokenizer control · S07 geometry
-  (G173 descriptive half) · S08 causal direction transfer · S09 controlled LoRA siblings ·
+  (G173 descriptive half) — PROMISING (L168: double-centered alignment-inversion rank
+  0.50, p 0.0088, correspondence gate perfect; neutral-corpus replication owed before S8) · S08 causal direction transfer · S09 controlled LoRA siblings ·
   S10 self-inversion gradient
+- **Tree P:** P0 v1 UNINTERPRETABLE as designed (L169: instructed preferences lose to
+  intrinsic appetites, following 0.537; v2 flips the object to maker-identity from
+  appetite signature) · P2 reader INSTRUMENT-FAILED then repaired by direction flip,
+  gate verdict pending · E1 self-policy groundwork queued
 - **Wing A:** A01 (=G174) · A02 ⚙ lexical/actor transfer · A03 basis catalog · A04 ⚙
   soft-rank sweep · A05 label-source twins · A06 block-by-dose surface · A07 ⚙ generic
   tournament · A08 cross-model transplant · A09 process integration (G176 discovery) ·
@@ -96,7 +101,9 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
 - **Wing H:** H01 (=G177) · H02 ⚙ realized-choice anchor · H03 ⚙ CoAuthor action tree — landed (L167: 16,875 episodes parse with zero loss;
   QUIET floors, nothing beats the 0.758 take rate; retained-versus-deleted extraction is
   the next target) ·
-  H04 ⚙ ScholaWrite prospective tree — BOUNDARY MAPPED
+  H04b retention extraction — landed (L167 fold-in: 11,773 decidable accepted
+  suggestions, 68.7 percent retained verbatim; the balanced, decidable validation
+  substrate) · H04 ⚙ ScholaWrite prospective tree — BOUNDARY MAPPED
   (both reader forms fail powered validation, floors 0.04 to 0.08; only the process-aware
   ceiling remains, L161) · H05 ⚙ context/tool ablation · H06 anomaly-handling
   transfer · H07 professional flattening · H08 mixed-control boundary · H09 prospective

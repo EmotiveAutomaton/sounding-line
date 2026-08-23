@@ -294,6 +294,28 @@ L132 (a shuffle gate that voided the alternative's own signature).
   band from the probe count. Same family as "power before verdicts", applied to the GATES
   rather than the primary. (L163, G172 reader gates)
 
+- **A factorial whose treatment can be silently refused needs a compliance pilot before the
+  full grid.** Three instruct makers followed two of four assigned preference profiles at
+  0.9-plus and refused the other two at 0.0 to 0.3, because the models hold strong intrinsic
+  appetites a one-line instruction does not override; the full 120-cell grid was spent
+  discovering what a 12-cell pilot would have shown. Related: L156's accept-time rule covers
+  mechanical compliance; this covers PREFERENCE compliance, which no accept gate can force
+  without destroying the object being studied. (L169, scout_stage2_p.py)
+
+- **Score the short hypothesis text given the long evidence, never the reverse.** A
+  likelihood reader conditioning a hundred-word artifact on a one-sentence hypothesis gives
+  the hypothesis one sentence of leverage over a long likelihood, and the known-answer gate
+  read exactly chance; flipping the direction makes every scored token hypothesis-bearing.
+  The goal-candidate form (short artifact-anchored candidates) never hit this because its
+  conditions named content; abstract hypothesis descriptions do. (L169)
+
+- **A session log's document state may exist nowhere in the log.** CoAuthor's field that
+  looks like the document holds only the initial prompt, once; the final document must be
+  replayed from the edit deltas, and the selected suggestion's text lives on the preceding
+  shown-event rather than the selection event. Two silent zeros (0 taken, then 0.2 percent
+  retained) were the only symptoms; both were caught because the numbers were behaviorally
+  impossible, which is the check that matters. (L167 fold-in, scout_stage2_h.py)
+
 - **A one-number contrast averaged over a heterogeneous comparison set can stay positive
   while the decisive pairwise comparison inside it flips; report the matrix beside the
   contrast.** An own-family-minus-other-family statistic remained positive for both corpora

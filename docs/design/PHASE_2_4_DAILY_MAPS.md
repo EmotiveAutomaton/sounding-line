@@ -20,9 +20,14 @@ One theory-level map per ordinary queue-day, written before reading further scou
   at chance with an even more extreme under-use signature, so the prospective next-intention
   interface has no validated reader of any form; what remains on it is the process-aware
   ceiling, which decides whether the target is recoverable from the record at all.
-- **Tree P:** the process ecology is built and generating (three instruct makers, four
-  standing preference profiles, mechanically verified selections); its reading arm asks the
-  system-identification question tonight.
+- **Tree P:** the ecology's first factorial refused itself informatively: the makers obey
+  two of four assigned preference profiles and ignore the rest, revealing strong intrinsic
+  evidence appetites a one-line instruction cannot override; the v2 design flips the object
+  to recovering WHICH maker from its appetite signature. The first profile reader failed
+  its synthetic gate at chance and earned its one repair (scoring direction flipped).
+- **Tree S (geometry):** representational alignment predicts who inverts whom at rank 0.50
+  with reader and maker effects removed, correspondence gate perfect; the second promotion
+  leg at discovery grade, neutral-corpus replication owed.
 - **Tree H (natural record):** the CoAuthor logs parse into 16,875 decision episodes with
   zero loss, and the behavior is flat: writers take three of four suggestions and no
   mechanical baseline beats that base rate, which is now the measured bar for any reader.

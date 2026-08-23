@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-23 14:14",
+  "started": "2026-08-23 14:44",
   "stages": [
     {
       "name": "revision_purpose",
@@ -757,9 +757,16 @@
       "name": "scout_p_gen",
       "why": "E24-P0 process ecology: 3 instruct makers x 4 preference profiles x 10 topics, exactly-two-evidence rule verified mechanically at accept time",
       "est_minutes": 150,
-      "status": "RUNNING",
-      "log": "results\\scout_p_gen.log"
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_p_audit",
+      "why": "ecology audit: profile-following rate (interpretability gate) and the marginal-derived prediction floor",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "2/3"
+  "shard": "2/3",
+  "finished": "2026-08-23 14:44",
+  "failed": []
 }

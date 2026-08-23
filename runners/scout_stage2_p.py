@@ -263,9 +263,15 @@ def arm_read() -> int:
         model, tok = load_reader(READER, device="cuda", dtype="float16")
 
         def profile_scores(text: str) -> dict:
-            base, _, _ = artifact_logprob(model, tok, "The following is a recommendation.",
-                                          text)
-            return {c: artifact_logprob(model, tok, d, text)[0] - base
+            """THE ONE PREDECLARED REPAIR (2026-08-23, after the known-answer gate read
+            exactly chance): the original direction scored the long artifact given a
+            one-sentence description, and a hundred-word artifact's likelihood is
+            insensitive to one conditioning sentence. Flipped: score the SHORT description
+            given the artifact as context, minus the description's unconditioned score, so
+            every scored token is hypothesis-bearing. Same information, sensitive
+            direction. A second known-answer failure retires the reading arm."""
+            return {c: artifact_logprob(model, tok, text, d)[0]
+                    - artifact_logprob(model, tok, "A piece of writing follows.", d)[0]
                     for c, d in PROFILE_DESC.items()}
 
         # KNOWN ANSWER first: synthetic perfect-compliance makers, 24 cases
