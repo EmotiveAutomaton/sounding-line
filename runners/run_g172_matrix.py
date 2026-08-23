@@ -39,10 +39,13 @@ VERDICT = OUT / "verdict.json"
 
 
 def load_corpus() -> list[dict]:
+    """Only cells the manifest names — retired makers' partial directories never enter
+    (their accepted cells skew toward the easy goals, a selection the matrix must not read)."""
+    man = json.loads(MANIFEST.read_text(encoding="utf-8"))
     rows = []
-    for mdir in sorted(CORPUS.iterdir()):
-        for p in sorted(mdir.glob("art_*.json")):
-            rows.append(json.loads(p.read_text(encoding="utf-8")))
+    for c in man["cells"]:
+        p = CORPUS / short(c["maker"]) / f"art_{c['topic_i']}_{c['goal_i']}_{c['trial']}.json"
+        rows.append(json.loads(p.read_text(encoding="utf-8")))
     return rows
 
 

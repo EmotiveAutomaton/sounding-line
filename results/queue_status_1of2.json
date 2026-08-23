@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-22 11:02",
+  "started": "2026-08-22 20:21",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -1159,9 +1159,26 @@
       "name": "g172_corpus",
       "why": "G172 P24-S0 corpus: 4 makers x entity-order goals, realization verified at accept time (L156 rule); manifest withheld under 90 percent fill",
       "est_minutes": 180,
-      "status": "RUNNING",
-      "log": "results\\g172_corpus.log"
+      "status": "FAILED (exit 4294967295)",
+      "log": "results\\g172_corpus.log",
+      "minutes": 47.7
+    },
+    {
+      "name": "g174_ruler",
+      "why": "G174 P24-A0 causal affect ruler: explicit-fit scrubbed-test decoding, fear/joy approach-withdraw sign pair, controls, both seeds",
+      "est_minutes": 120,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g177_coauthor",
+      "why": "G177 CoAuthor import: fetch + inventory; objective actions only, token share never a target; nonzero exit and retry when unreachable",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
     }
   ],
-  "shard": "1/2"
+  "shard": "1/2",
+  "finished": "2026-08-22 21:09",
+  "failed": [
+    "g172_corpus"
+  ]
 }

@@ -37,6 +37,14 @@ MANIFEST = OUT / "corpus_manifest.json"
 # Existing accepts are kept (dest.exists() resume); only unfilled cells rerun, with fresh
 # seeds offset so no first-pass draw repeats.
 REPAIR_MAKERS = {"EleutherAI/pythia-410m", "EleutherAI/pythia-1.4b"}
+
+# ── RETIREMENT (card, YIELD gate, second failure) — applied 2026-08-22 21:10 after the
+# repair pass landed pythia_410m 29/64 and pythia_14b 33/64 (repair moved them from 17
+# and 28 percent to 45 and 52, still far under the 90 floor). Per the card: "a second
+# failure retires that maker from the matrix rather than lowering the bar." Both Pythia
+# base makers retire; the corpus stands on the Qwen makers, and the single-maker-family
+# limitation is recorded in the manifest and carried into every downstream claim.
+RETIRED_MAKERS = {"EleutherAI/pythia-410m", "EleutherAI/pythia-1.4b"}
 ATTEMPTS_V2 = 24
 SEED_OFFSET_V2 = 500000
 
@@ -111,12 +119,13 @@ def main() -> int:
     acquire_gpu_lock("g172_corpus")
     try:
         all_rows = []
-        for maker in MAKERS:
+        active = [m for m in MAKERS if m not in RETIRED_MAKERS]
+        for maker in active:
             print(f"== maker {short(maker)} ==")
             all_rows.extend(generate_for_maker(maker))
     finally:
         release_gpu_lock()
-    n_target = len(MAKERS) * len(TOPICS) * N_GOALS * TRIALS
+    n_target = len(active) * len(TOPICS) * N_GOALS * TRIALS
     fill = len(all_rows) / n_target
     print(f"fill {len(all_rows)}/{n_target} = {fill:.3f} in {(time.time() - t0) / 60:.0f} min")
     if fill < YIELD_FLOOR:
@@ -129,6 +138,10 @@ def main() -> int:
         "repair": {"applied_to": sorted(short(m) for m in REPAIR_MAKERS),
                    "attempts": ATTEMPTS_V2, "example": "v2",
                    "first_pass_fill": 0.594},
+        "retired": {"makers": sorted(short(m) for m in RETIRED_MAKERS),
+                    "post_repair_fill": {"pythia_410m": "29/64", "pythia_14b": "33/64"},
+                    "limitation": "single maker family; cross-family cells are "
+                                  "reader-side only"},
         "versions": {"torch": torch.__version__, "transformers": transformers.__version__},
         "cells": [{k: r[k] for k in ("maker", "topic_i", "goal_i", "trial", "attempt")}
                   for r in all_rows],
