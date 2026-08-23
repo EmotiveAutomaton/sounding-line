@@ -7070,6 +7070,66 @@ cold root map follows this entry and freezes before any scout runs.
 - **Detail pointer:** `results/g172/verdict.json`, `results/g172/corpus_manifest.json`,
   `prereg/g172.py`.
 
+## L164 · The similarity gradient survives goal-preserving Qwen paraphrase at reduced magnitude; capacity remains a weak rival, while paraphraser circularity prevents claim promotion
+
+**Hypothesis.** *(Discovery scouts E24-S02 and E24-S05, run behind the frozen cold root map,
+unsealed after the curator's walkthrough: does the graded similarity pattern survive the
+destruction of surface dialect, and does reader size explain the matrix?)*
+
+**Method (erasure, E24-S02).** Every similarity-corpus artifact was paraphrased under
+aggressive restyling instructions with the goal verified mechanically per item (115 of 123
+accepted); the seven gate-passing readers then re-scored the erased artifacts against the
+unchanged candidate sets, and the two preregistered contrasts were recomputed. **The
+paraphraser is itself Qwen-family — the only instruct model then local — so survival is weak
+evidence and collapse would have been strong; the confound is recorded in the scout file, this
+method, the interpretation, and the roll-up.**
+
+**Found (erasure).** PROMISING. The gradient survives at reduced magnitude: exact-versus-cross
+attenuates from +0.035359 to +0.016454 (about 53 percent), sibling-versus-cross from
++0.024633 to +0.020914 (about 15 percent), both paraphrased contrasts still at the permutation
+floor (p 4.99975e-05, 20,000 sign-flip permutations, 115 artifacts; ledger updated).
+
+| contrast | original | after accepted paraphrase |
+|---|---|---|
+| exact maker minus cross-family readers | +0.035 | +0.016 |
+| family siblings minus cross-family readers | +0.025 | +0.021 |
+
+*Caption: mean per-artifact margin differences in per-token score units; the exact-checkpoint
+advantage halves under erasure while the family advantage barely moves.*
+
+**Method and found (capacity, E24-S05).** From the landed matrix records alone: the rank
+relation between reader parameter count and mean margin across the seven gate-passing readers
+is 0.428571 (weak), while family separation is complete — every Qwen-family reader out-margins
+every cross-family reader. PROMISING.
+
+**Means.** The pure capacity account remains poor. A simple removable surface-dialect account
+loses probability because the gradient survives accepted paraphrase, but the eraser is
+Qwen-family and may preserve or reintroduce precisely the family regularities at issue. The
+result therefore keeps shared organization live beside a narrower circular-erasure rival. It
+is discovery evidence and does not promote G172 beyond its L163 grade; the single-maker-family
+limitation is inherited from L163, and the non-circular erasure test (independent paraphraser,
+second maker family) is Stage 2's Wave 1.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics (the similarity shortcut)
+- **Question in plain language:** Does the family advantage live in erasable surface habits,
+  or in something restyling cannot remove?
+- **Outcome class:** Narrows
+- **Result:** The exact-checkpoint advantage halves under goal-preserving paraphrase while
+  the family-sibling advantage survives nearly intact, both above chance at the permutation
+  floor — with the Qwen-paraphraser circularity capping what survival can mean.
+- **Project meaning:** Roughly half the exact advantage was erasable surface; the
+  family-shaped remainder is the part worth a mechanism, and only a non-circular eraser can
+  promote it.
+- **Next engineering obligation:** The Wave-1 independent eraser and second maker family
+  (running); discovery grade until then.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/scouts/s02_erasure.json`,
+  `results/scouts/s02_paraphrase_manifest.json`, `results/scouts/s05_capacity.json`,
+  `docs/design/PHASE_2_4_REGISTRY.md`.
+
 ---
 
 # TIER 2 · SETTLED

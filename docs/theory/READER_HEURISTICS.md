@@ -115,19 +115,38 @@ creates a characteristic failure: a sufficiently flexible reader can explain alm
 something the reader might have done. Reader identity, domain competence, and conditioning must
 therefore be recorded as part of the instrument.
 
+Three distinctions must not be collapsed: self-based versus target-specific evidence, rapid
+versus deliberative processing, and affective sharing versus cognitive mentalizing. Interpersonal
+studies link direct accuracy, but not assumed similarity, with slower judgments;
+self-referential mentalizing is used especially for similar others; and lesion and cue-modality
+studies support partially dissociable sharing and mentalizing routes that can contribute to the
+same judgment. This supports a reader that can initialize candidates from shared self-structure
+and correct them with target evidence. It does not license a one-to-one mapping of fast with
+affective or self-based, slow with cognitive or target-specific, or a fixed serial neural
+pipeline. Transfer from interpersonal judgments to artifact inversion remains open (Sened et al.,
+2020; Mitchell et al., 2005, 2006; Shamay-Tsoory et al., 2009; Jospe et al., 2020).
+
+**(HH-23:** Artifact inversion combines an assumed-similarity initialization with target-specific
+correction, with their relative contribution changing by reader-maker similarity and available
+cues. **OPEN for artifacts; supported only as an interpersonal analogue in the cited studies.**)**
+
 **Model-family similarity is the present analogue construction. If sibling models recover one
 another's recorded process choices better after surface and capacity controls, the shared-
 organization hypothesis gains a model-side foothold. If only the exact checkpoint wins, or the
 effect disappears after paraphrase and style control, the result is a generation fingerprint.
 Neither outcome directly measures closeness or embodied similarity between people.**
 
-**(G172:** the analogue's first run landed graded (test, L163): exact-maker and same-family
-readers beat cross-family readers on recovering mechanically verified goals, both contrasts at
-the permutation floor, with a cross-family reader nearly twice the makers' size losing on
-margin, so capacity does not explain it. The paraphrase and style control has NOT yet run;
-until the fingerprint-destruction pass survives, the graded pattern licenses shared-organization
-language only alongside its dialect rival. Single maker family by the corpus's own retirement
-clause, a recorded limitation.**)**
+**(G172:** the model analogue's confirmatory run remains similarity-graded (test, L163): exact-maker
+and same-family readers beat cross-family readers on mechanically verified goals, with both
+contrasts at the permutation floor. Two discovery follow-ups sharpen but do not promote that
+claim (test, L164). After mechanically accepted Qwen paraphrase, exact-versus-cross attenuates
+from +0.0354 to +0.0165 and sibling-versus-cross from +0.0246 to +0.0209, both still at the
+permutation floor over 115 artifacts. Because the paraphraser is Qwen-family, survival is weak
+evidence and collapse would have been strong. Across the seven gate-passing original readers,
+parameter count has only a weak positive rank relation with margin, 0.43, while family separation
+is complete. Simple capacity remains a poor rival; a simply removable surface dialect loses
+probability; Qwen-circular erasure and other family-specific representations remain live. One
+maker family remains the construction's largest limitation.**)**
 
 ## §2. Finding an entry point
 
@@ -321,6 +340,19 @@ hidden constraint, or a different maker and process family, and the threshold is
 empirical: which update better predicts held-out choices or later handling. This is not
 permission to declare every dense anomaly cluster expertise.
 
+On what the shortcut may cost *(the 2026-08-23 pass; provenance in
+`docs/design/PHASE_2_4_STAGE_2_THEORY_ERRATA.md`)*:
+
+> Calculating how you would do it is where indoctrination sneaks in. It is the shortcut you use
+> because it is fast and lets you grab process information quickly. It is gated later by value
+> similarity, which you calculate with lower confidence.
+
+This names a temporal risk, not a demonstrated neural sequence. A reader may acquire a
+reader-enactable process before it has stabilized a historical maker model or evaluated the
+source's values. Process uptake, belief uptake, and value change are different outcomes and must
+be measured separately. The model-reader context results below are adjacent evidence about
+over-trusting supplied assertions, not evidence that human indoctrination follows this mechanism.
+
 One external caution bears on the whole series family. A study of hidden states as author
 representations found document-level mean pooling best, which is evidence against series-carrying
 claims at the representation level. Not decisive (it optimized for identity, not maker state), but
@@ -332,6 +364,7 @@ the reason to expect modest effects.
 | **G64** | Re-reading one artifact recovers the tail | **OPEN.** Canonical in the triple inference §5; the reader-side strategy is this section's |
 | **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION where evidence is absent (test, L155); MIXED at 0.44 where evidence is strong (test, L157); the wing is PAUSED.** With nothing readable to resist it, a false card steers 95 percent as hard as a true one and erases the reader's abstention. Against evidence the reader provably reads at 0.86, a false note still costs forty-two points, wins the toss-up at 0.53, and the conflict is named only 0.15 of the time even when the format offers the option; a true note lifts the reader to 0.99, so any supplied note is treated as high-grade evidence regardless of truth. Context-trust is a separate defect from evidence-reading in this family |
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
+| **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism |
 
 **What the table says.** The section's first numbers land on the context-reweighting rule's
 failure side, now measured at both ends of the evidence axis. Where the artifact offers
@@ -344,10 +377,11 @@ weight of its own reading and no truth-tracking discount at all, so context-trus
 defect class of its own, separate from evidence-reading and from the honest abstention the
 same instrument shows elsewhere. The useful-cue half of the reweighting rule survives only
 in the degenerate true-note case, which no product interface can rely on since truth is what
-the interface does not know. The confidence series remains the cheapest unbuilt instrument
-in the file, and the external mean-pooling result remains a reason to expect modest series
-effects, not to skip that test. Confidence: the projection pair is one bad test away as a
-set, one construction family and one reader family deep; the rest is untested, logic only.
+the interface does not know. The confidence series remains the cheapest unbuilt instrument in the file, the uptake-lag row is
+a human hypothesis rather than an interpretation of the model-context failure, and the external
+mean-pooling result remains a reason to expect modest series effects rather than to skip the test.
+Confidence: the projection pair is one bad test away as a set, one construction family and one
+reader family deep; the uptake-lag claim and the rest are untested, logic only.
 
 ## §5. Continuation and stopping
 
@@ -700,15 +734,18 @@ rate and next to a field bar.
 | **visibility partition** (§6) | authors at 0.78 (low-vis) vs 0.38 (high-vis); draft-stage 0.48 (high) vs 0.30 (low) | chance 0.10 / 0.33 | **SUPPORTED (test).** Clean double crossover, first pass |
 | **revision homogeneity** (§7) | real 0.45 vs spliced 1.94, AUC 1.0 | synthetic cross-author splice | **SUPPORTED (test), first pass, weakest adversary.** The realistic imposition case is untested |
 | **provenance prior** (§1) | ratio shift +0.007, *p* < 2×10⁻⁸, three corpora | paired identical text | **SUPPORTED (test), replicated.** In the reader model; human-side untested |
-| **maker-reader family similarity** (§1, model analogue) | exact-vs-cross +0.035 and sibling-vs-cross +0.025 margin units, both at the permutation floor | cross-family readers on identical artifacts and candidates | **SUPPORTED (test, L163), first pass.** Capacity fails to explain it; the fingerprint rival is undecided until trace erasure runs; single maker family |
+| **maker-reader family similarity** (§1, model analogue) | original exact-vs-cross +0.035 and sibling-vs-cross +0.025; after accepted Qwen paraphrase +0.016 and +0.021; capacity-margin Spearman 0.43 | cross-family readers on identical candidates; accepted goal-preserving paraphrase; within-matrix capacity direction | **SUPPORTED (test, L163), first pass; discovery follow-ups PROMISING (test, L164), no claim promotion.** The gradient survives one circular erasure at reduced magnitude; capacity remains poor; single maker family and Qwen-paraphraser circularity remain |
 | anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | | | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
-**What the dashboard says.** Six heuristics now carry numbers, and the newest is the first
-model-side measurement of the similarity shortcut itself: readers related to the maker recover
-its recorded goals better than strangers, gradedly, with capacity ruled out inside the battery
-and the dialect rival explicitly still standing. The stacking question is still premature but
-no longer empty. The two variation measures, the visibility partition, and the homogeneity
-statistic are plausibly independent channels, which is what a stack would need, and the program
-defers stacking until choice recovery validates what any of them measure. Confidence: the
-surface-variation number is replicated and controlled; the similarity row and the other new
-rows are one bad test away each; everything unmeasured is untested.
+**What the dashboard says.** Six heuristics carry numbers. The family-similarity row remains the
+first model-side measurement of the similarity shortcut: related readers recover a maker's
+recorded goals better than cross-family readers. Goal-preserving paraphrase attenuates but does
+not erase the gradient, while size remains a weak explanation and the original family ordering
+stays complete. Because the eraser is itself Qwen-family and all surviving makers are Qwen, the
+result narrows a simple surface-dialect rival without separating shared organization from
+family-specific representation. The discovery follow-ups therefore sharpen the rival set and do
+not promote the claim. The two variation measures, the visibility partition, and the homogeneity
+statistic remain plausibly distinct channels, but stacking still waits on construct validation.
+Confidence: the surface-variation number is replicated and controlled; the similarity root and
+the other measured heuristics are one bad test away each; the discovery follow-ups are
+hypothesis-generating; everything unmeasured is untested.

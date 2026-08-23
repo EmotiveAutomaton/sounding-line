@@ -155,10 +155,40 @@ may stop at a coherent route they could use while the instrument must keep that 
 separate from the process the maker actually used. Sounding Line reports the three
 separately rather than deciding in advance that one substitutes for the others.
 
+On the output's shape *(the 2026-08-23 pass; provenance in
+`docs/design/PHASE_2_4_STAGE_2_THEORY_ERRATA.md`)*:
+
+> If you had a flawless reconstruction of the distribution of choices the maker would make, you
+> would also have, by default, their secondary and tertiary goals understood and all of their
+> context as well. That would explain why you gain easier access to paths not taken, because you
+> know the paths they wanted to take.
+
+A useful process reconstruction therefore approximates a conditional distribution over the
+maker's feasible choices under goals, context, tools, expertise, and history. It does not stop at
+one plausible route. A reader-enactable route establishes constructive usefulness. Increasing
+coverage of the conditional distribution, especially alternatives that predict held-out choices
+or later handling, increasingly constrains the maker's auxiliary goal organization and historical
+process. Stable cross-context structure in that distribution may later provide evidence about
+values, but it is not itself value recovery. This is an explicit reading of the existing
+`q_R(G, P, V, D, K, H | O, C)` output, not a fourth inference.
+
 Stated this way, two facts fall out that the old formulation suppressed. A single artifact can
 support goal and process inference while values require multiple observations. And a commissioned,
 coerced, or instrumental goal can **diverge** from values; "goal is a temporarily amplified value"
 is the special case where context is friendly, not the definition.
+
+On who knows the goal *(the 2026-08-23 pass, same provenance)*:
+
+> You cannot ignore the primary goal and its place in the equation. The author can learn more
+> about themselves from reading their own work because they have flawless understanding, not just
+> of the context, but also of what their goal was. The expert reader does not have that privileged
+> access, but can sometimes infer it from a better mapping of the choices made in the domain.
+
+This is an information asymmetry, not a new inference target. The maker's episodic memory can
+supply privileged evidence about the goal that occupied focal attention. It does not supply
+transparent access to auxiliary motivations, automatic habits, or values compiled into expertise.
+The reader lacks that memory channel but may partly offset the gap with context and domain
+expertise. Both are estimating the same goal target, with different observations.
 
 His account of the machinery, which is about reading *other people*, corrected after I wrote it as
 self-generation:
@@ -230,7 +260,9 @@ are open, and the restated claim carries the same testable direction the one cou
 already leaned toward. The single behavioral fact here cuts the right way for a *joint* account,
 since a staged pipeline would care about stage order and the simulated reader's answer does not
 move at all when the order changes. The distortion story's weakest named part is attention,
-flagged by its own author before anyone else could. Confidence: the order-insensitivity is
+flagged by its own author before anyone else could. The process target is now explicit about its
+output shape: one route is a sample, while a stronger reconstruction constrains a conditional
+family of choices and unrealized alternatives. Confidence: the order-insensitivity is
 sim-only; the composition claims are untested, logic only.
 
 ## §3. Coupling, without premature topology
