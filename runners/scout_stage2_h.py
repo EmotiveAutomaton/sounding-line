@@ -141,13 +141,79 @@ def arm_baselines() -> int:
     return 0
 
 
+def arm_retention() -> int:
+    """E24-H04b: of the suggestions writers TOOK, which survive to the session end?
+
+    Retained-versus-later-deleted is both the richer behavioral target and the
+    mechanically decidable subset any future reader validation needs (the L167
+    obligation). A taken suggestion text comes from the event own suggestion list;
+    retention is its normalized presence in the final document state. Suggestions
+    shorter than 20 characters after normalization are excluded from the decidable
+    subset (too easy to match by accident), with the exclusion counted."""
+    import re as _re                                                             # noqa: PLC0415
+
+    def norm(t: str) -> str:
+        return _re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+
+    sessions = sorted(SRC.glob("*.jsonl"))
+    taken = retained = short_skip = no_final = 0
+    per_session = {}
+    for p2 in sessions:
+        try:
+            events = [json.loads(x) for x in p2.read_text(encoding="utf-8").splitlines()]
+        except Exception:                                                        # noqa: BLE001
+            continue
+        final_doc = ""
+        for ev in reversed(events):
+            if ev.get("currentDoc"):
+                final_doc = norm(ev["currentDoc"])
+                break
+        if not final_doc:
+            no_final += 1
+            continue
+        srec = {"taken": 0, "retained": 0}
+        for ev in events:
+            if ev.get("eventName") != "suggestion-select":
+                continue
+            sugs = ev.get("currentSuggestions") or []
+            idx = ev.get("currentSuggestionIndex")
+            if not isinstance(idx, int) or not (0 <= idx < len(sugs)):
+                continue
+            stext = (sugs[idx].get("trimmed") or sugs[idx].get("original") or ""
+                     ) if isinstance(sugs[idx], dict) else str(sugs[idx])
+            key = norm(stext)
+            if len(key) < 20:
+                short_skip += 1
+                continue
+            taken += 1
+            srec["taken"] += 1
+            if key in final_doc:
+                retained += 1
+                srec["retained"] += 1
+        if srec["taken"]:
+            per_session[p2.stem] = srec
+    rate = retained / taken if taken else 0.0
+    print(f"{taken} decidable taken suggestions, {retained} retained ({rate:.3f}); "
+          f"{short_skip} too short, {no_final} sessions lacked a final state")
+    status = "PROMISING" if taken >= 500 else "QUIET"
+    (OUT / "h_coauthor_retention.json").write_text(json.dumps(
+        {"scout": "E24-H04b", "status": status, "n_taken_decidable": taken,
+         "n_retained": retained, "retention_rate": rate,
+         "n_too_short": short_skip, "n_sessions_no_final": no_final,
+         "n_sessions_with_data": len(per_session),
+         "per_session": per_session,
+         "note": "the decidable subset for any future reader validation on this tree"},
+        indent=1), encoding="utf-8", newline=chr(10))
+    return 0
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--arm", required=True, choices=["events", "baselines"])
+    ap.add_argument("--arm", required=True, choices=["events", "baselines", "retention"])
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
-    rc = {"events": arm_events, "baselines": arm_baselines}[a.arm]()
+    rc = {"events": arm_events, "baselines": arm_baselines,
+          "retention": arm_retention}[a.arm]()
     print(f"{a.arm} in {(time.time() - t0) / 60:.0f} min")
     return rc
 

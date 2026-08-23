@@ -45,6 +45,7 @@ OUT = REPO / "results" / "scouts"
 COR = REPO / "corpora" / "p_ecology"
 
 SEED0 = 18000
+NL = chr(10)
 MAKERS = ["Qwen/Qwen2.5-1.5B-Instruct", "HuggingFaceTB/SmolLM2-1.7B-Instruct",
           "HuggingFaceTB/SmolLM2-360M-Instruct"]
 READER = "Qwen/Qwen2.5-1.5B"        # the validated non-generative scorer
@@ -326,14 +327,70 @@ def arm_read() -> int:
     return 0
 
 
+def unprofiled_prompt(ti: int) -> str:
+    q, items = TOPICS[ti]
+    letters = dict(zip("ABCD", CATS))
+    ev = NL.join(f"{letter}) {items[c][1]}" for letter, c in letters.items())
+    return (f"Task: Write a short recommendation (60 to 150 words) answering: {q}{NL}"
+            f"You must use exactly two of the four evidence items below, working each "
+            f"item key fact into your text. Ignore the other two.{NL}{NL}"
+            f"Evidence:{NL}{ev}{NL}{NL}Recommendation:")
+
+
+def arm_self() -> int:
+    """E24-E1 groundwork: each instruct model OWN default selection policy, no profile
+    supplied. The route tree self-proxy analyses need the reader own choice distribution
+    measured before assumed similarity can be computed; recorded under the same
+    mechanical selection rule as the ecology."""
+    import torch                                                                 # noqa: PLC0415
+    from transformers import AutoModelForCausalLM, AutoTokenizer                 # noqa: PLC0415
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock          # noqa: PLC0415
+    from runners.scout_stage2_s import _chat_generate                            # noqa: PLC0415
+    from prereg.g172 import short                                                # noqa: PLC0415
+    acquire_gpu_lock("scout_p_self")
+    out = {}
+    try:
+        for mi, maker in enumerate(MAKERS):
+            tok = AutoTokenizer.from_pretrained(maker)
+            model = AutoModelForCausalLM.from_pretrained(
+                maker, dtype=torch.float16).to("cuda").eval()
+            sels = {}
+            for ti in range(len(TOPICS)):
+                for att in range(ATTEMPTS):
+                    seed = SEED0 + 500000 + mi * 10000 + ti * 32 + att
+                    txt = _chat_generate(model, tok, unprofiled_prompt(ti), seed,
+                                         max_new=300)
+                    sel = realized_selection(txt, ti)
+                    if len(sel) == 2:
+                        sels[str(ti)] = sel
+                        break
+            out[short(maker)] = sels
+            del model
+            torch.cuda.empty_cache()
+    finally:
+        release_gpu_lock()
+    n_ok = sum(len(v) for v in out.values())
+    print(f"self-policy selections: {n_ok}/{len(MAKERS) * len(TOPICS)}")
+    if n_ok < 0.8 * len(MAKERS) * len(TOPICS):
+        return 1
+    from collections import Counter                                              # noqa: PLC0415
+    dists = {m: dict(Counter(c for pair in v.values() for c in pair))
+             for m, v in out.items()}
+    (OUT / "p_self_policy.json").write_text(json.dumps(
+        {"scout": "E24-E1 groundwork", "selections": out,
+         "category_distributions": dists}, indent=1),
+        encoding="utf-8", newline=NL)
+    return 0
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--arm", required=True, choices=["gen", "audit", "read"])
+    ap.add_argument("--arm", required=True, choices=["gen", "audit", "read", "self"])
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     COR.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
-    rc = {"gen": arm_gen, "audit": arm_audit, "read": arm_read}[a.arm]()
+    rc = {"gen": arm_gen, "audit": arm_audit, "read": arm_read,
+          "self": arm_self}[a.arm]()
     print(f"{a.arm} in {(time.time() - t0) / 60:.0f} min")
     return rc
 

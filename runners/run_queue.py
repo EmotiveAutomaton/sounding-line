@@ -2012,6 +2012,33 @@ STAGES += [
             "position; the margin over majority is the headline"},
 ]
 
+# ── STAGE 2 continued build-out 2026-08-23 late (his directive: everything buildable,
+# built; ETA calibration corrected downward). Geometry linkage, retention extraction,
+# self-policy groundwork.
+STAGES += [
+    {"name": "scout_geo_capture", "est": 60,
+     "cmd": [PY, "runners/scout_stage2_geo.py", "--arm", "capture"],
+     "produces": "results/scouts/geo_capture_done.json", "needs": [],
+     "why": "E24-S07 capture: late-stage representations for all readers and makers on a "
+            "shared process-matched text set"},
+    {"name": "scout_geo_link", "est": 20,
+     "cmd": [PY, "runners/scout_stage2_geo.py", "--arm", "link"],
+     "produces": "results/scouts/geo_link.json",
+     "needs": ["results/scouts/geo_capture_done.json"],
+     "why": "E24-S07 linkage: correspondence-null gate first, then double-centered rank "
+            "relation between alignment and inversion margin (L61 rule: no raw CKA quoted)"},
+    {"name": "scout_h_retention", "est": 25,
+     "cmd": [PY, "runners/scout_stage2_h.py", "--arm", "retention"],
+     "produces": "results/scouts/h_coauthor_retention.json", "needs": [],
+     "why": "E24-H04b retained-versus-deleted: the decidable subset any future reader "
+            "validation on this tree requires (the L167 obligation)"},
+    {"name": "scout_p_self", "est": 45,
+     "cmd": [PY, "runners/scout_stage2_p.py", "--arm", "self"],
+     "produces": "results/scouts/p_self_policy.json", "needs": [],
+     "why": "E24-E1 groundwork: each instruct model's own unprofiled selection policy, "
+            "the self-distribution every route-tree analysis needs first"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -2046,7 +2073,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
                     "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
-                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read"}
+                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

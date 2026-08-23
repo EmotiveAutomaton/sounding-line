@@ -50,7 +50,12 @@ Tree-S erasure tournament + source detector + second maker family (SmolLM2-instr
 downloaded 2026-08-23) + powered ScholaWrite validation + CoAuthor action tree; Wave 2 =
 the Tree-P process ecology; Wave 3 = Tree-E route curves + Tree-A ruler rebuild. Pursuit
 and warrant ledgers separate from here on; daily cold map at each queue-day's end; six-day
-arc to mandatory synthesis. Wave 2 QUEUED 2026-08-23 evening (scout_stage2_p.py, scout_stage2_h.py): the Tree-P
+arc to mandatory synthesis. Continued build-out 2026-08-23 late (ETA calibration corrected: actuals run well under
+the 2-3x rule for these small-model batteries): E24-S07 geometry linkage queued
+(correspondence-null gate before any linkage number, L61 rule enforced in code), E24-H04b
+retained-versus-deleted extraction queued (the decidable subset for future reader
+validation), E24-E1 self-policy groundwork queued (each instruct model's unprofiled
+selection distribution). Wave 2 QUEUED 2026-08-23 evening (scout_stage2_p.py, scout_stage2_h.py): the Tree-P
 process ecology v1 (three instruct makers x four preference profiles x ten evidence-selection
 topics, realized selections mechanical, synthetic known-answer gate before the reading arm,
 marginal-derived floors) and the Tree-H CoAuthor action tree (shown-suggestion decision
