@@ -186,16 +186,22 @@ external replication by an independent lab; no one outside this project has re-r
 
 ## Current state and next gate
 
-The recreation phase is closing: three anchors closed at the exact-value standard, the fourth
-carries a complete Experiment 1 at printed precision, and the fifth has one of its three test
-gates matched with the rest in the queue. The current phase's next gate is the preregistered
-choice-recovery confirmatory battery: eight arms, exhaustive verdict bands, a declared cheap
-baseline the reader must beat, and a fabrication-rate arm. Its verdict lands through the queue.
+The process-inversion mapping phase closed with a measured boundary: what was done to a text
+(executed choices, long-form handling) is recoverable from the finished artifact under bounded
+conditions, while how the text came to be (production route, negotiation, ratification) reads
+at chance from artifacts and is recoverable only from process records. The current phase tests
+two follow-on mechanisms under preregistered gates: whether maker-reader similarity makes
+recorded choices easier to invert (first result: a graded family advantage that survives its
+in-battery capacity control, with the surface-dialect rival explicitly undecided), and whether
+an affect-derived internal representation can causally improve that inversion (first
+instrument attempt failed its own gates; no causal claim stands). All claims remain
+model-reader claims: no human-reader study has run, and the vocabulary marks the difference.
 
 The full running record lives in [`docs/STATE.md`](docs/STATE.md) (operational state, standing
 rulings, phase end states) and [`FINDINGS.md`](FINDINGS.md) (every study, how it was run, what
 came back). The governing brief for the current phase is
-[`docs/design/PHASE_2_3_CONTEXT.md`](docs/design/PHASE_2_3_CONTEXT.md); Phase 2.0's brief
+[`docs/design/PHASE_2_4_CONTEXT.md`](docs/design/PHASE_2_4_CONTEXT.md) with its exploration
+addendum and registry beside it; Phase 2.0's brief
 remains the historical vertical-slice record, and the design index
 ([`docs/design/README.md`](docs/design/README.md)) maps every phase document with its
 authority status.

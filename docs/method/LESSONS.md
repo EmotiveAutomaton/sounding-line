@@ -286,6 +286,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
   known-answer claim; instruction-following side effects (surface constraints shortening
   essays out of their length band) are themselves confounds to match. (L137; G131 first corpus)
 
+- **A verdict band on a small-probe gate needs its sampling width derived before freezing.**
+  A shuffle-floor band of [0.15, 0.35] around a 0.25 expectation excluded two of nine
+  readers at 0.375 on 24 probes — inside ordinary sampling noise (standard error ~0.09), so
+  the frozen band was ~1.1 standard errors wide and the exclusions were conservative luck,
+  not measurement. The exclusion stood because frozen is frozen; the next card derives the
+  band from the probe count. Same family as "power before verdicts", applied to the GATES
+  rather than the primary. (L163, G172 reader gates)
+
 - **A dev-selected hyperparameter (block, locus, threshold) is part of the instrument and
   validates like one: the selection must be stable across seeds before anything downstream
   is interpretable, and the dev set must be sized for THAT, not for the headline metric.**
@@ -306,6 +314,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
   so a non-compliant artifact costs one retry instead of a corpus. (L156, run_g169_longform.py)
 
 ## §4. Before the model arm
+
+- **Base language models below the low billions cannot satisfy multi-constraint generation;
+  plan maker matrices around instruction-capable checkpoints or budget for retirement.** Two
+  base Pythia makers landed 17 and 28 percent accept-time compliance on a four-constraint
+  task (mention A before B, avoid C and D, length band) where same-size base Qwen landed 94
+  to 98 — the difference is the pretraining mix, not scale alone, and one predeclared repair
+  (better example, more attempts) bought only ~20 points. A yield-gated corpus with a
+  retirement clause survives this; a corpus without one ships thin cells. (L163, G172 corpus)
 
 - **Set model internals structurally, assert the change took, and record the measured value.**
   A dropout setter keyed on one attribute silently missed roberta's (it lives on the

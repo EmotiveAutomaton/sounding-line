@@ -110,6 +110,21 @@ hand-picked features combined reach near-perfect discrimination, while adding si
 generic bank gains a little on average and **loses more than it gains in the worst case**. Our
 342-feature sweep is exactly the thing it warns about.
 
+**7 · The similarity wing is Qwen-circular at three points.** The graded similarity result
+(L163) rides on artifacts from ONE maker family after the retirement clause fired, the only
+local paraphraser for the erasure test is itself Qwen-family (a confound that biases toward
+preserving Qwen dialect, recorded in the scout file), and the largest reader is a Qwen. The
+result's own controls rule out capacity inside the battery, but a family-specific account —
+Qwen artifacts are simply most legible to Qwen readers, for any reason — cannot be fully
+separated from shared-organization until an instruct-class second maker family and a
+non-Qwen paraphraser exist.
+
+**8 · The prospective interface has no validated reader.** Everything aimed at
+predict-the-next-choice sits near mechanical floors, and the one model reader pointed at it
+carries an unpowered validation gate (one decidable case in 600 sampled events, L161). Until
+a stratified validation passes, the project's anti-projection interface — the place where a
+retrospective story goes to die — has floors but no calibrated instrument.
+
 ---
 
 # TIER 1 · LIVE

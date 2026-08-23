@@ -86,16 +86,24 @@ product is DEFERRED, not dropped). The Phase 2.4 theory errata is applied
 ways (model / engineered human-shaped / human), similarity is a shortcut not a proof,
 27 is a soft ceiling never a count. Two lanes: confirmatory trunk G172-G180 (only
 route to verdicts, cards frozen before scoring) and the quarantined E24 discovery
-forest (five status words, data firewall, automatic closure rules). Stage-1 roots
-QUEUED 2026-08-22: G172 similarity matrix (`prereg/g172.py`), G174 causal affect
-ruler (`prereg/g174.py`), G177 human-process baselines (`prereg/g177.py`). The spine
-(`soundingline/probe/conditional_reader.py` + `interventions.py`) passed all 8 guards
-at build. After the three roots land: the COLD ROOT MAP in the context §13 format,
-frozen before scout outcomes are read; scouts continue on discovery data during his
-walkthrough; scale limitations (12GB, 0.35B-3B) recorded in every finding that
-inherits them. The reporting protocol for the root map is cognitive-preemption-guarded:
-result shapes, world movements, strongest rival, three-to-five open questions, no
-recommendations until his verbal pass.
+forest (five status words, data firewall, automatic closure rules). **STAGE 1 COMPLETE
+in one day (2026-08-22, L161-L163) and the COLD ROOT MAP IS FROZEN**
+(`docs/design/PHASE_2_4_ROOT_MAP.md`, written before any scout output): G172
+SIMILARITY-GRADED (exact +0.035 and sibling +0.025 margin units over cross-family
+readers, both at the permutation floor, capacity failing inside the battery; Pythia
+makers retired by the card's second-failure clause, single-maker-family limitation
+recorded); G174 INSTRUMENT-FAIL (dev-power block selection flipped between seeds, one
+degenerate input-edge selection lesioned the model 2.55x; an emotion-word-free decoding
+grain survived above every control at the functioning seed; predeclared repair declined
+with reasoning); G177 COMPLETE (anchor READS 0.78 vs 0.25 through the non-generative
+reader; ScholaWrite prospective floors 0.04-0.08 mapped LOPO; reader arm unvalidated at
+an unpowered gate; CoAuthor imported, 1447 sessions). Two always-run scouts landed
+2026-08-22 late and are SEALED to the registry's scout ledger pending his walkthrough
+(E24-S05 capacity, E24-S02 fingerprint destruction — `results/scouts/`). The world
+movement and four open questions live in the root map; Stage 2 opens only on his
+walkthrough. The spine (`soundingline/probe/conditional_reader.py` + `interventions.py`)
+is guard-tested and field-validated; scale limitations (12GB, 0.35B-3B) recorded in
+every finding that inherits them.
 
 ## Where the program stands (2026-08-17)
 

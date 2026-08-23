@@ -14,6 +14,9 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
   2026-08-22, continuous second gear); live registry
   [`PHASE_2_4_REGISTRY.md`](PHASE_2_4_REGISTRY.md), which also carries the Phase 2.3
   closure dispositions (audit-interface product deferred, not dropped)
+- **Stage 1 complete 2026-08-22 (L161-L163); the frozen curator deliverable is
+  [`PHASE_2_4_ROOT_MAP.md`](PHASE_2_4_ROOT_MAP.md)** — Stage 2 opens on the curator's
+  walkthrough; two sealed scouts sit in the registry's ledger
 - **Theory application order:** the Phase 2.2 errata (applied 2026-08-20), the Phase 2.3
   errata (theory delta applied 2026-08-21), then the Phase 2.4 errata (applied 2026-08-22)
 - **Live work:** [`../../TODO.md`](../../TODO.md) and `runners/run_queue.py`
