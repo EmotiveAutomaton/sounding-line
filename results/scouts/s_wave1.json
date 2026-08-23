@@ -34,7 +34,8 @@
      "p": 4.999750012499375e-05,
      "n_artifacts": 123
     }
-   }
+   },
+   "n_genuinely_erased": null
   },
   "fam2": {
    "cells": {
@@ -64,7 +65,8 @@
      "p": 4.999750012499375e-05,
      "n_artifacts": 127
     }
-   }
+   },
+   "n_genuinely_erased": null
   },
   "norm": {
    "cells": {
@@ -116,7 +118,8 @@
      "p": 4.999750012499375e-05,
      "n_artifacts": 127
     }
-   }
+   },
+   "n_genuinely_erased": null
   },
   "para_qwen": {
    "cells": {
@@ -146,59 +149,66 @@
      "p": 4.999750012499375e-05,
      "n_artifacts": 115
     }
-   }
+   },
+   "n_genuinely_erased": 115
   },
   "para2": {
    "cells": {
     "qwen->gpt2": {
-     "mean_margin": 0.017951624966709993,
-     "n": 122
+     "mean_margin": 0.01813864782921173,
+     "n": 106
     },
     "qwen->pythia": {
-     "mean_margin": 0.027242241987113745,
-     "n": 366
+     "mean_margin": 0.027608763871702757,
+     "n": 318
     },
     "qwen->qwen": {
-     "mean_margin": 0.04510966977460788,
-     "n": 488
+     "mean_margin": 0.044253262521335913,
+     "n": 424
     },
     "qwen->smollm": {
-     "mean_margin": 0.041903791531839006,
-     "n": 366
+     "mean_margin": 0.042344752222736926,
+     "n": 318
     },
     "smollm->gpt2": {
-     "mean_margin": 0.010995455301339857,
-     "n": 127
+     "mean_margin": 0.010316524027068983,
+     "n": 93
     },
     "smollm->pythia": {
-     "mean_margin": 0.021032106115019124,
-     "n": 381
+     "mean_margin": 0.01969401326515626,
+     "n": 279
     },
     "smollm->qwen": {
-     "mean_margin": 0.03512526833479173,
-     "n": 508
+     "mean_margin": 0.031810270415412054,
+     "n": 372
     },
     "smollm->smollm": {
-     "mean_margin": 0.040632616242920215,
-     "n": 381
+     "mean_margin": 0.03761927336632422,
+     "n": 279
     }
    },
    "own_minus_other_by_maker_family": {
-    "qwen": 0.012911137556955277,
-    "smollm": 0.013808510369724698
+    "qwen": 0.011681948790974374,
+    "smollm": 0.013039317680800973
    },
    "paired_permutation": {
     "qwen": {
-     "mean": 0.012911137556955277,
+     "mean": 0.011681948790974372,
      "p": 4.999750012499375e-05,
-     "n_artifacts": 122
+     "n_artifacts": 106
     },
     "smollm": {
-     "mean": 0.013808510369724698,
+     "mean": 0.013039317680800973,
      "p": 4.999750012499375e-05,
-     "n_artifacts": 127
+     "n_artifacts": 93
     }
-   }
+   },
+   "n_genuinely_erased": 199
+  },
+  "para_qwen2": {
+   "incomplete": true,
+   "readers_scored": 6,
+   "note": "matrix still running; contrasts withheld"
   }
  },
  "detector": {

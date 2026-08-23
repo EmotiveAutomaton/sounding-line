@@ -249,6 +249,27 @@ def arm_para2() -> int:
     return 0
 
 
+def erasure_gate(src_dir, dst_dir) -> dict:
+    """An eraser that echoes its input silently voids the arm it serves. Measures character
+    overlap between each source and its rewrite; fails the arm if the median rewrite is
+    cosmetic. Failure direction UP: high similarity means no erasure happened."""
+    import difflib                                                               # noqa: PLC0415
+    import statistics                                                            # noqa: PLC0415
+    sims = []
+    for pth in sorted(dst_dir.rglob("art_*.json")):
+        s_pth = src_dir / pth.relative_to(dst_dir)
+        if not s_pth.exists():
+            continue
+        a = json.loads(s_pth.read_text(encoding="utf-8"))["text"]
+        b = json.loads(pth.read_text(encoding="utf-8"))["text"]
+        sims.append(difflib.SequenceMatcher(None, a, b).ratio())
+    if not sims:
+        return {"pass": False, "reason": "no pairs"}
+    med = statistics.median(sims)
+    return {"pass": med < 0.80, "median_similarity": med, "max_similarity": max(sims),
+            "n_identical": sum(1 for x in sims if x > 0.99), "n": len(sims)}
+
+
 def arm_mirror() -> int:
     """E24-S1d mirror arm: the Qwen paraphraser over the SmolLM2 corpus, so each family's
     artifacts are erased by BOTH a same-family and a cross-family transformer. Without this
@@ -289,8 +310,13 @@ def arm_mirror() -> int:
     print(f"mirror paraphrase {n_ok}/{n_all}")
     if n_all == 0 or n_ok / n_all < 0.9:
         return 1
+    eg = erasure_gate(src, dest_root)
+    print(f"  erasure gate: {eg}")
+    if not eg["pass"]:
+        print("  ERASURE GATE FAILED (rewrite is cosmetic); manifest withheld")
+        return 1
     (OUT / "mirror_manifest.json").write_text(json.dumps(
-        {"scout": "E24-S1d", "n": n_ok, "of": n_all,
+        {"scout": "E24-S1d", "n": n_ok, "of": n_all, "erasure_gate": eg,
          "paraphraser": "qwen3.5:9b (cross-family for the SmolLM2 corpus)"}, indent=1),
         encoding="utf-8", newline=_LF)
     return 0
@@ -384,6 +410,46 @@ def arm_detector() -> int:
     return 0
 
 
+SOURCE_OF = {"norm": None, "para_qwen": "orig", "para2": None,
+             "para_qwen2": "fam2"}
+
+
+def _erased_keys(variant: str) -> set | None:
+    """Artifact keys whose rewrite is genuinely different from its source (similarity < 0.9).
+
+    An eraser that echoes part of its input leaves those artifacts un-erased, and including
+    them inflates any survival claim. Returns None where the filter does not apply: the
+    untransformed variants, and mechanical normalization, which changes punctuation and
+    casing by design and is not a rewrite (its own erasure question is answered by the
+    source detector, not by character overlap).
+    """
+    import difflib                                                               # noqa: PLC0415
+    if variant in ("orig", "fam2", "norm"):
+        return None
+    dst = COR / VARIANTS[variant]
+    if not dst.exists():
+        return None
+    keep = set()
+    for pth in sorted(dst.rglob("*.json")):
+        try:
+            art = json.loads(pth.read_text(encoding="utf-8"))
+        except Exception:                                                        # noqa: BLE001
+            continue
+        if "maker" not in art or "topic_i" not in art:
+            continue
+        # locate the source by the artifact's own fields, never by path shape: the
+        # erasure variants do not share a naming convention
+        fam_dir = "g172" if "Qwen" in art["maker"] else "g172_family2"
+        s_pth = (REPO / "corpora" / fam_dir / short(art["maker"])
+                 / f"art_{art['topic_i']}_{art['goal_i']}_{art['trial']}.json")
+        if not s_pth.exists():
+            continue
+        a = json.loads(s_pth.read_text(encoding="utf-8"))["text"]
+        if difflib.SequenceMatcher(None, a, art["text"]).ratio() < 0.9:
+            keep.add((art["maker"], art["topic_i"], art["goal_i"], art["trial"]))
+    return keep
+
+
 def arm_analyze() -> int:
     import random                                                                # noqa: PLC0415
     summary = {}
@@ -392,6 +458,16 @@ def arm_analyze() -> int:
         chunks = [c for c in chunks if not c.name.endswith("_done.json")]
         if not chunks:
             continue
+        # A variant whose matrix is still running has an unbalanced reader subset, and an
+        # own-minus-other contrast over a partial reader set is not a result: whichever
+        # families happen to have finished set both sides of the comparison. Score once,
+        # at the end (the standing rule), enforced here rather than remembered.
+        if not (OUT / f"mx_{variant}_done.json").exists():
+            summary[variant] = {"incomplete": True,
+                                "readers_scored": len(chunks),
+                                "note": "matrix still running; contrasts withheld"}
+            continue
+        erased = _erased_keys(variant)
         by_cell: dict[tuple, dict] = {}
         for ch in chunks:
             rec = json.loads(ch.read_text(encoding="utf-8"))
@@ -399,6 +475,9 @@ def arm_analyze() -> int:
                 continue
             for c in rec["cases"]:
                 if c["maker"] in RETIRED:
+                    continue
+                if erased is not None and (c["maker"], c["topic_i"], c["goal_i"],
+                                           c["trial"]) not in erased:
                     continue
                 key = (c["maker_family"], c["reader_family"])
                 by_cell.setdefault(key, []).append(c["margin"])
@@ -414,6 +493,9 @@ def arm_analyze() -> int:
                 continue
             for c in rec["cases"]:
                 if c["maker"] in RETIRED:
+                    continue
+                if erased is not None and (c["maker"], c["topic_i"], c["goal_i"],
+                                           c["trial"]) not in erased:
                     continue
                 key = (c["maker"], c["topic_i"], c["goal_i"], c["trial"])
                 side = "own" if c["reader_family"] == c["maker_family"] else "other"
@@ -440,13 +522,16 @@ def arm_analyze() -> int:
             if own and oth:
                 crossed[mk] = sum(own) / len(own) - sum(oth) / len(oth)
         summary[variant] = {"cells": table, "own_minus_other_by_maker_family": crossed,
-                            "paired_permutation": perm}
+                            "paired_permutation": perm,
+                            "n_genuinely_erased": (len(erased) if erased is not None else None)}
     det = json.loads((OUT / "s2_detector.json").read_text(encoding="utf-8")) \
         if (OUT / "s2_detector.json").exists() else None
     reversal = None
     if "fam2" in summary or "orig" in summary:
         cr = {}
         for v in summary.values():
+            if v.get("incomplete"):
+                continue
             for mk, d in v["own_minus_other_by_maker_family"].items():
                 cr.setdefault(mk, []).append(d)
         reversal = {mk: all(x > 0 for x in xs) for mk, xs in cr.items()}

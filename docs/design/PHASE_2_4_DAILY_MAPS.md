@@ -19,8 +19,10 @@ One theory-level map per ordinary queue-day, written before reading further scou
 
 ### Pursuit movement
 
-- **Opened:** the mirror erasure arm (completing the crossed-imprint design), the
-  process-resolution ladder, the geometry linkage whose trigger condition is now met twice.
+- **Opened:** the mirror erasure arm (completing the crossed-imprint design; its paraphrase
+  passed the erasure gate cleanly and its reader matrix is still running, numbers withheld),
+  the process-resolution ladder, the geometry linkage whose trigger condition is now met
+  twice.
 - **Promoted:** nothing to confirmation. Tree S's promotion conjunction needs three of four
   and currently holds one and a half: a crossed reversal, and erasure survival that is real
   but partial.
@@ -35,6 +37,11 @@ One theory-level map per ordinary queue-day, written before reading further scou
 - **Controls passed:** every reader echo-gated per variant; goals re-verified per item after
   each transformation; the retired makers excluded after their contamination was caught in
   the first analysis pass; the crossed contrast carries its own sign-flip permutation.
+- **Controls added during the day, both after catching a defect they now prevent:** an
+  erasure gate, because the independent eraser returned part of its input unchanged and did
+  so twice as often on its own family's text, so survival is now computed on genuinely
+  rewritten artifacts only; and a matrix-completeness guard, because a contrast read off a
+  half-finished reader matrix has both its sides chosen by whichever readers finished first.
 - **Rivals weakened:** simple reader quality cannot produce a reversal that follows the
   artifact's origin; simple removable surface dialect loses further ground.
 - **Rivals still standing:** partial erasure means family surface information survives the

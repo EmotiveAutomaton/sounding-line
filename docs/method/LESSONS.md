@@ -294,6 +294,22 @@ L132 (a shuffle gate that voided the alternative's own signature).
   band from the probe count. Same family as "power before verdicts", applied to the GATES
   rather than the primary. (L163, G172 reader gates)
 
+- **A transformer used as an ERASER is an instrument and needs an echo gate: measure how much
+  it actually changed, per item, and exclude un-transformed items from any survival claim.**
+  An instruct paraphraser returned 13 to 27 percent of its inputs essentially unchanged, and
+  the rate was twice as high on its OWN family's text as on the other family's, which biases
+  exactly the comparison the erasure was built to make. The gate is one character-overlap
+  ratio per pair: fail the arm if the median rewrite is cosmetic, and filter the individual
+  echoes out of the contrast. Costs nothing; the alternative is a survival claim resting
+  partly on artifacts that were never erased. (L165, scout_stage2_s.py erasure_gate)
+
+- **An analysis stage that reads another stage's outputs checks their completion markers
+  before computing anything relative.** A crossed own-versus-other contrast was computed over
+  a reader matrix that was five of eleven readers deep, so both sides of the comparison were
+  set by whichever families had finished, and the cell read 40 percent high. This is "score
+  once, at the end" applied to a shared analysis stage rather than to a single gate: the
+  produces marker exists, so the reader of a partial directory must consult it. (L165)
+
 - **A dev-selected hyperparameter (block, locus, threshold) is part of the instrument and
   validates like one: the selection must be stable across seeds before anything downstream
   is interpretable, and the dev set must be sized for THAT, not for the headline metric.**

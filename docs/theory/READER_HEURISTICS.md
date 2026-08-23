@@ -148,8 +148,8 @@ is complete. Simple capacity remains a poor rival; a simply removable surface di
 probability; Qwen-circular erasure and other family-specific representations remain live. The
 single-maker-family limitation is now lifted (test, L165): a second maker family reverses the
 advantage in its own direction, each family's artifacts read best by that family's readers, at
-the permutation floor under mechanical normalization and under an independently built eraser
-that measurably strips family surface signal. Reader quality carries most of the spread and the
+the permutation floor under mechanical normalization and, on genuinely rewritten artifacts
+only, under an independently built eraser that measurably strips family surface signal. Reader quality carries most of the spread and the
 relation term is the smaller part that reverses with origin, which quality cannot do.**)**
 
 ## §2. Finding an entry point

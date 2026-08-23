@@ -7166,10 +7166,29 @@ family.*
 | untouched | +0.0195 | +0.0142 |
 | mechanically normalized | +0.0195 | +0.0142 |
 | paraphrased by Qwen | +0.0119 | not built |
-| paraphrased by SmolLM2 (independent for Qwen) | +0.0129 | +0.0138 |
+| paraphrased by SmolLM2 (independent for Qwen) | +0.0117 | +0.0130 |
 
 *Caption: the same contrast under each erasure, all at p = 0.00005, the smallest value 20,000
-permutations can report, over 115 to 127 artifacts per cell.*
+permutations can report, over 93 to 127 artifacts per cell.*
+
+**Correction, made the same day by a gate built after the first reporting pass.** The
+independent eraser does not erase everything it is handed: an echo check found 8 of 122 Qwen
+artifacts and 23 of 127 SmolLM2 artifacts returned essentially unchanged, and the asymmetry
+runs the wrong way for comfort, since the eraser echoed its own family's text at twice the
+rate of the other family's (27 percent barely changed versus 13). The independent-eraser row
+above is therefore computed on genuinely rewritten artifacts only (similarity below 0.9): the
+contrast falls from +0.0129 to +0.0117 for Qwen artifacts and from +0.0138 to +0.0130 for
+SmolLM2, both still at the permutation floor on the smaller sample. The survival claim holds
+and its magnitude is slightly smaller than first reported. Mechanical normalization is exempt
+from this filter by construction, since it changes punctuation and casing rather than
+rewriting, and its erasure question belongs to the source detector instead.
+
+**The mirror arm is running and its numbers are withheld.** The Qwen paraphraser over the
+SmolLM2 corpus passed its erasure gate cleanly (median character overlap 0.038, nothing
+identical), but its reader matrix is only partway through, and an own-minus-other contrast
+over a partial reader set has both of its sides chosen by whichever families happened to
+finish first. A completeness guard now withholds any variant whose matrix has not written its
+done marker; the mirror cell reports when it is complete.
 
 **The erasure is measurable and partial.** A topic-held-out classifier reading only surface
 character patterns identifies the maker family at 0.636 on normalized text and 0.518 after
