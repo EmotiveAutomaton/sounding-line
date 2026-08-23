@@ -9,14 +9,14 @@ contract that can disagree.
 **Status: draft for the curator's sign-off. Nothing here binds until frozen; once frozen, no
 result may change the task definition, splits, or success metric after scores are visible, and
 the frozen version joins the hash-lock discipline.** Governing briefs:
-[`PHASE_2_0_CONTEXT.md`](PHASE_2_0_CONTEXT.md) §§7, 8, 13 for the product layer;
-[`PHASE_2_2_CONTEXT.md`](PHASE_2_2_CONTEXT.md) for the core representation. Theory groups
+[`archive/PHASE_2_0_CONTEXT.md`](archive/PHASE_2_0_CONTEXT.md) §§7, 8, 13 for the product layer;
+[`archive/PHASE_2_2_CONTEXT.md`](archive/PHASE_2_2_CONTEXT.md) for the core representation. Theory groups
 served: Decision Traces and Reader Heuristics (the instrument's task), Infrastructure (the
 gate machinery).
 
 **Amendment v0.2 (2026-08-19, Phase 2.2B — the representation replacement).** The core
 representation of this program is the **trajectory reconstruction profile**
-(`PHASE_2_2_CONTEXT.md` §9): reading identity, proximal reconstruction, trajectory
+(`archive/PHASE_2_2_CONTEXT.md` §9): reading identity, proximal reconstruction, trajectory
 reconstruction, historical traces, anomaly profile, realization, validation status, and
 claim boundary, every field declaring its input interface from §3b below. §1's binary
 substantial-model-contribution question survives ONLY as a product-policy label emitted by

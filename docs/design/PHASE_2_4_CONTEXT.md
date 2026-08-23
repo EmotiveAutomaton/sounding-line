@@ -199,8 +199,8 @@ The coding agent must begin from these settled results rather than restarting th
 
 Read before implementation:
 
-1. `docs/design/PHASE_2_3_ROOT_MAP.md`;
-2. `docs/design/PHASE_2_3_REGISTRY.md`;
+1. `docs/design/archive/PHASE_2_3_ROOT_MAP.md`;
+2. `docs/design/archive/PHASE_2_3_REGISTRY.md`;
 3. the five living files in `docs/theory/`, newest state first;
 4. `docs/method/NEURAL_ANALOGUES.md`, `docs/method/CONTROLS.md`, and `docs/method/LESSONS.md`;
 5. `docs/assets/visual-map.png` directly;

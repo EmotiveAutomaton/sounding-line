@@ -148,7 +148,7 @@ right.
 - **every reading the curator produced.** Eleven artifacts, two sessions, and not one of them has
   been invalidated by anything today.
 
-The successor design in [`docs/design/SUCCESSOR.md`](../../docs/design/SUCCESSOR.md) was written before this number existed. Its first
+The successor design in [`docs/design/archive/SUCCESSOR.md`](../../docs/design/archive/SUCCESSOR.md) was written before this number existed. Its first
 requirement — a corpus this project has not seen — is unchanged, and its second is now specified by
 mechanism: **score a graded log-probability against a baseline, not a count of recovered
 decisions.**

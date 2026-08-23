@@ -7,7 +7,7 @@ current primary ontology, and the unmatched G153 pilot does not license provenan
 Phase 2.3 reuses the records for within-construction known-answer process tests.
 
 **Status: build blueprint for 2.0C. The normative contracts live in
-[`PHASE_2_0_CONTEXT.md`](PHASE_2_0_CONTEXT.md) §11 (factorial axes, split rules, record schema)
+[`archive/PHASE_2_0_CONTEXT.md`](archive/PHASE_2_0_CONTEXT.md) §11 (factorial axes, split rules, record schema)
 and [`EVAL_CONTRACT_2_0.md`](EVAL_CONTRACT_2_0.md) (task, metrics, splits); this file adds only
 the concrete construction plan and is superseded in place when the build lands.** Theory
 groups: Decision Traces (the dose decomposition), Infrastructure (everything else). Data

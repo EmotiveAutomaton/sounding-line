@@ -94,7 +94,7 @@ rebuilding the upstream structure. No human/model contribution ratio may be comp
 recovered events as exchangeable units.
 
 **Mixed production is a network of acceptance** *(the 2026-08-21 pass; provenance in
-`docs/design/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
+`docs/design/archive/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
 
 > Collaborative work is a network of acceptance. Everyone involved gets to pass judgment on
 > everyone else's work a little bit, and the human decision may be recognition and integration

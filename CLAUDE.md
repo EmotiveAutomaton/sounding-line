@@ -129,7 +129,7 @@ landed.**
 4. **Report it in the chat.** Hypothesis first, then what we did, what we found, what it means.
    **Every result, every time, so he never has to hunt for the latest numbers.**
 5. **The curator roll-up** (Phase 2.0 contract, 2026-08-16; full form in
-   `docs/design/PHASE_2_0_CONTEXT.md` §15). Appended to the FINDINGS entry, once, never
+   `docs/design/archive/PHASE_2_0_CONTEXT.md` §15). Appended to the FINDINGS entry, once, never
    duplicated elsewhere: theory group · question in plain language · outcome class, exactly one of
    **Strengthens | Narrows | Kills | Infrastructure** ("interesting" and "mixed" are not classes)
    · one-sentence result with at most one number · project meaning · next engineering obligation ·

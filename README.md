@@ -184,24 +184,22 @@ metric whose shipped code contradicts its published description. These were chec
 AI-assisted adversarial verification passes within the project. That is internal review, not
 external replication by an independent lab; no one outside this project has re-run these numbers.
 
-## Current state and next gate
+## Current state
 
-The process-inversion mapping phase closed with a measured boundary: what was done to a text
-(executed choices, long-form handling) is recoverable from the finished artifact under bounded
-conditions, while how the text came to be (production route, negotiation, ratification) reads
-at chance from artifacts and is recoverable only from process records. The current phase tests
-two follow-on mechanisms under preregistered gates: whether maker-reader similarity makes
-recorded choices easier to invert (first result: a graded family advantage that survives its
-in-battery capacity control, with the surface-dialect rival explicitly undecided), and whether
-an affect-derived internal representation can causally improve that inversion (first
-instrument attempt failed its own gates; no causal claim stands). All claims remain
-model-reader claims: no human-reader study has run, and the vocabulary marks the difference.
+In brief, and stated conservatively. Some parts of a maker's recorded decision process are
+recoverable from a finished text under bounded, preregistered conditions, and some parts are
+not: executed content choices and long-form handling of mistakes have been recovered against
+controls, while production route, negotiation, and approval history read at chance from the
+artifact alone and are recoverable only from process records. Ongoing work tests candidate
+mechanisms behind the recoverable half, with every claim gated on known-answer instruments,
+declared baselines, and preregistered verdict bands. All present results are measurements of
+model readers; no human-reader study has been run, and the project's vocabulary keeps that
+distinction explicit.
 
 The full running record lives in [`docs/STATE.md`](docs/STATE.md) (operational state, standing
 rulings, phase end states) and [`FINDINGS.md`](FINDINGS.md) (every study, how it was run, what
-came back). The governing brief for the current phase is
-[`docs/design/PHASE_2_4_CONTEXT.md`](docs/design/PHASE_2_4_CONTEXT.md) with its exploration
-addendum and registry beside it; Phase 2.0's brief
+came back). The governing brief for the current phase sits at the top level of
+[`docs/design/`](docs/design/), with closed phases preserved in its archive; Phase 2.0's brief
 remains the historical vertical-slice record, and the design index
 ([`docs/design/README.md`](docs/design/README.md)) maps every phase document with its
 authority status.

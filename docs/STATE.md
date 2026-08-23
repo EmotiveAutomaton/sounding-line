@@ -163,7 +163,7 @@ eight-agent external-verification fleet (L107, L108, L109, L123):
   summary_4action.json.
 
 **Phase 2.0 is GOVERNED (2026-08-16): his handoff brief landed and is archived at
-`docs/design/PHASE_2_0_CONTEXT.md`; the live sub-goal map (2.0A to 2.0H, identifiers G152 to
+`docs/design/archive/PHASE_2_0_CONTEXT.md`; the live sub-goal map (2.0A to 2.0H, identifiers G152 to
 G157 plus the absorbed G129/G130/G131/G149) is the Phase 2.0 section of `TODO.md`.** The
 mission: a deployable binary AI-provenance classifier whose differentiating contribution is
 recoverable decision structure, one vertical slice from benchmark through release, with the
@@ -198,7 +198,7 @@ decision gates now written into the contract. The free-path pilot corpus (240
 process-recorded artifacts, two local lineages) remains complete at zero dollars.**
 
 **Phase 2.2 is GOVERNED (2026-08-19 evening: his second handoff brief, archived at
-`docs/design/PHASE_2_2_CONTEXT.md`; sub-goal map 2.2A to 2.2G with identifiers G159 to
+`docs/design/archive/PHASE_2_2_CONTEXT.md`; sub-goal map 2.2A to 2.2G with identifiers G159 to
 G164 in `TODO.md`).** The pivot: binary adjudication of who "made the decisions" is
 retired as the primitive question — the curator's standing unease about the adjudication
 ask, named. The core representation is the trajectory reconstruction profile (brief §9)
@@ -214,7 +214,7 @@ The adjudication set is unfrozen, superseded as ontology, retained as history. T
 curator-first theory loop (brief §13) is folded into `CLAUDE.md`.**
 
 **Phase 2.3 STAGE 1 IS COMPLETE (2026-08-21, one gear-2 day, L151 to L160; the root
-map at `docs/design/PHASE_2_3_ROOT_MAP.md` waits on the curator's pass and Stage 2 is
+map at `docs/design/archive/PHASE_2_3_ROOT_MAP.md` waits on the curator's pass and Stage 2 is
 gated on it by the brief's own rule). All seven roots hold states: Wing G CLOSED
 (explicit route generation null where reading is strong, HURTS with induced
 fabrication where it is weak); Wing B blind-with-residue (the reader abstains on
@@ -235,8 +235,8 @@ service after two verdicts sat unreported (the gear engines are detached; the wa
 is harness-tracked and re-armed each pass).**
 
 **Phase 2.3 is GOVERNED (2026-08-21: his third work package, archived at
-`docs/design/PHASE_2_3_CONTEXT.md`, operational registry at
-`docs/design/PHASE_2_3_REGISTRY.md`). Seven wing roots, each ending in exactly one
+`docs/design/archive/PHASE_2_3_CONTEXT.md`, operational registry at
+`docs/design/archive/PHASE_2_3_REGISTRY.md`). Seven wing roots, each ending in exactly one
 declared outcome state, routing predeclared; the reconciliation against the live head
 (the brief predates the 2.2 landings) is the registry's first table. His rulings this
 morning: Wing D enters at its predeclared repair (the L150 null's own redesigns), the

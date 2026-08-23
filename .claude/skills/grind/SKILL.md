@@ -62,7 +62,7 @@ landed. Late sessions skip steps; this list exists so they don't.
    group · plain-language question · outcome class, exactly one of Strengthens | Narrows |
    Kills | Infrastructure · one-sentence result (≤1 number) · project meaning · next
    engineering obligation · public claim status · curator decision required (No, or Yes with
-   one recommended answer) · detail pointer. Full spec: `docs/design/PHASE_2_0_CONTEXT.md` §15.
+   one recommended answer) · detail pointer. Full spec: `docs/design/archive/PHASE_2_0_CONTEXT.md` §15.
 
 ## 5. Instruments and infrastructure
 

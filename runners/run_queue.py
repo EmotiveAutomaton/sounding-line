@@ -1530,7 +1530,7 @@ STAGES += [
 ]
 
 # ── PHASE 2.3 ROOT WAVE 2026-08-21 (appended at list end; registry
-# docs/design/PHASE_2_3_REGISTRY.md; cards frozen before arms). G165 = the Wing G
+# docs/design/archive/PHASE_2_3_REGISTRY.md; cards frozen before arms). G165 = the Wing G
 # reader-ablation root on the frozen G159 manifest; G166 = the Wing B route-varied
 # process-recorded corpus construction. The g165 gate (pipeline purity + anchor) ran
 # and passed at build time; its produce gates every arm.

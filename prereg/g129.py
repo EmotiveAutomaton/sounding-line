@@ -1,6 +1,6 @@
 """Pre-registration for G129 — confirmatory event-level choice recovery on ArgRewrite.
 
-Phase 2.0 sub-goal 2.0D (governing brief: docs/design/PHASE_2_0_CONTEXT.md §9). Theory group:
+Phase 2.0 sub-goal 2.0D (governing brief: docs/design/archive/PHASE_2_0_CONTEXT.md §9). Theory group:
 Decision Traces. Written before the confirmatory run; the freeze is the git commit that lands
 this file, and the card's sha256 is recorded in the FINDINGS entry that reports the result.
 

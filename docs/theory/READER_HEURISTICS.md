@@ -297,7 +297,7 @@ observations but is not automatically trustworthy), and switching levels when a
 hypothesis fails, per §3.
 
 **Context reweights the generative model rather than dictating a story** *(2026-08-21;
-provenance in `docs/design/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
+provenance in `docs/design/archive/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
 
 > The low-quality-paint inference was a shifting of possibilities – the generations of your
 > generative model being weighted differently – not an immediate inductive set of steps.

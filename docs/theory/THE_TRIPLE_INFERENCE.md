@@ -135,7 +135,7 @@ over routes the reader could enact; the latter is conditioned on the reader's bo
 expertise, and tools, and therefore cannot be silently reported as the former.
 
 **Historical process and reader-enactable process** *(the 2026-08-21 pass; provenance in
-`docs/design/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
+`docs/design/archive/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
 
 > Ideally, what you want to extract from the process is how you could create this thing. If you
 > misunderstood exactly how they made it but converged on a way that you could make it, that would
