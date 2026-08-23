@@ -291,6 +291,61 @@ def arm_sw_nongen() -> int:
     return 0
 
 
+def arm_sw_ceiling() -> int:
+    """The process-aware ceiling, the one measurement left on the prospective interface:
+    is the next-intention LABEL recoverable from the record at all, even seeing the
+    realized edit itself? A classifier reads simple features of the REALIZED delta (the
+    thing a prospective reader must predict without) under leave-one-project-out. If even
+    this fails the floors, the label is noise at this grain and the interface boundary is
+    a fact about the annotation, not about readers. Label set fixed in every macro-F1."""
+    from sklearn.feature_extraction.text import TfidfVectorizer                  # noqa: PLC0415
+    from sklearn.linear_model import LogisticRegression                          # noqa: PLC0415
+    rows = _sw_load()
+    labels = sorted({r["label"] for r in rows})
+
+    def delta(r):
+        a, b = r["before"], r["after"]
+        return b[len(a):] if b.startswith(a) else b[-400:]
+
+    projects = sorted({r["project"] for r in rows})
+    per_project = {}
+    for held in projects:
+        tr = [r for r in rows if r["project"] != held]
+        te = [r for r in rows if r["project"] == held]
+        rng = random.Random(SEED0 + 9)
+        if len(te) > 800:
+            te = rng.sample(te, 800)
+        if len(tr) > 8000:
+            tr = rng.sample(tr, 8000)
+        vec = TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 4), max_features=30000)
+        X = vec.fit_transform([delta(r) for r in tr])
+        lr = LogisticRegression(max_iter=3000, random_state=SEED0)
+        lr.fit(X, [r["label"] for r in tr])
+        preds = lr.predict(vec.transform([delta(r) for r in te]))
+        f1s = []
+        for lab in labels:
+            tp = sum(1 for r, q in zip(te, preds) if r["label"] == lab and q == lab)
+            fp = sum(1 for r, q in zip(te, preds) if r["label"] != lab and q == lab)
+            fn = sum(1 for r, q in zip(te, preds) if r["label"] == lab and q != lab)
+            f1s.append(0.0 if tp == 0 else 2 * tp / (2 * tp + fp + fn))
+        per_project[held] = {"n": len(te), "macro_f1": sum(f1s) / len(f1s)}
+        print(f"  {held}: {per_project[held]}")
+    mean_f1 = sum(v["macro_f1"] for v in per_project.values()) / len(per_project)
+    verdict = ("LABEL-RECOVERABLE (the boundary belongs to prospective readers, not the "
+               "annotation)" if mean_f1 >= 0.25 else
+               "LABEL-NOISE-AT-THIS-GRAIN (the interface boundary is a fact about the "
+               "annotation itself)")
+    print(f"ceiling mean macro-F1 {mean_f1:.4f} -> {verdict}")
+    (OUT / "scholawrite_ceiling.json").write_text(json.dumps({
+        "prereg": "prereg/g177.py (process-aware ceiling, Stage 2)",
+        "mean_macro_f1": mean_f1, "per_project": per_project, "verdict": verdict,
+        "prospective_floors_reference": "0.04 to 0.08 (L161)",
+        "note": "features are the realized delta a prospective reader cannot see; "
+                "recovering the label from its own edit is the ceiling question"},
+        indent=1), encoding="utf-8", newline=_LF)
+    return 0
+
+
 def arm_scholawrite(with_reader: bool) -> int:
     rows = _sw_load()
     projects = sorted({r["project"] for r in rows})
@@ -426,7 +481,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
                     choices=["anchor", "scholawrite", "scholawrite_reader", "coauthor",
-                             "sw_validation", "sw_nongen"])
+                             "sw_validation", "sw_nongen", "sw_ceiling"])
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
@@ -440,6 +495,8 @@ def main() -> int:
         rc = arm_sw_validation()
     elif args.arm == "sw_nongen":
         rc = arm_sw_nongen()
+    elif args.arm == "sw_ceiling":
+        rc = arm_sw_ceiling()
     else:
         rc = arm_coauthor()
     print(f"{args.arm} done in {(time.time() - t0) / 60:.0f} min")

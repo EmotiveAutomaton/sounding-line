@@ -7489,13 +7489,27 @@ direction, scoring the short description given the artifact so every scored toke
 hypothesis-bearing; its known-answer verdict lands separately, and a second failure retires
 the arm.
 
-**Means.** The construction taught two things worth its cost. Substantively, instructed
-preference profiles are the wrong handle at this model scale, but the intrinsic appetites
-the makers revealed are themselves stable conditional policy, which is exactly Tree P's
-object: the v2 construction inverts the design and asks whether a reader can recover WHICH
-MODEL made a selection pattern from its appetite signature, with the self-policy
-measurements (running) as the substrate. Methodologically, a factorial whose treatment can
-be silently refused needs a compliance pilot before the full grid, now a lesson.
+**The repair failed and the arm is retired (same day).** The direction-flipped reader
+scored 0.375 on the synthetic gate against the 0.85 floor, its second failure, and the
+card's rule retires the reading arm: at this scale the likelihood reader cannot map
+abstract preference descriptions onto evidence-selection artifacts in either direction.
+
+**The self-policy measurement then closed the v2 target too.** Unprofiled, all three
+makers select nearly identically (novelty and caution dominate: 9/9, 10/7, 10/8 of their
+twenty selections, cost nearly absent, precedent never chosen), so there is no appetite
+signature to recover a maker from. And the convergence exposes the honest rival for the
+whole skew: the cautious and novel evidence items may simply be more attractive as
+argument material than the cost and precedent items, an item-side account this
+construction cannot separate from a model-side one.
+
+**Means.** Tree P's first implementation closes at its resolution boundary, per the
+closure rules, with the full account on record: the treatment can be refused (following
+0.537), the reader instrument failed twice, and the intended v2 object does not vary. What
+survives is the design requirement for any successor: calibrate item attractiveness
+empirically FIRST (the self-policy pilot, run before the factorial rather than after), and
+target behavior that preference cannot silently mediate. Methodologically, a factorial
+whose treatment can be silently refused needs a compliance pilot before the full grid, now
+a lesson.
 
 ### Curator roll-up
 
@@ -7503,12 +7517,13 @@ be silently refused needs a compliance pilot before the full grid, now a lesson.
 - **Question in plain language:** Can we hand a model a standing preference and read it
   back from its choices?
 - **Outcome class:** Infrastructure
-- **Result:** The makers refuse half the assigned preferences (following 0.537 overall,
-  0.0 on one profile) while revealing strong appetites of their own.
+- **Result:** The makers refuse half the assigned preferences (following 0.537 overall)
+  and their unprofiled appetites converge, so neither the assigned profile nor the maker
+  is recoverable from selections in this construction.
 - **Project meaning:** Assigned preference is the wrong v1 handle; intrinsic policy is the
   measured, recoverable object and the v2 target.
-- **Next engineering obligation:** The v2 inversion (recover the maker from its appetite
-  signature) on the self-policy substrate; the repaired reader's gate verdict.
+- **Next engineering obligation:** A successor construction only after an
+  item-attractiveness calibration pilot; nothing else runs on this implementation.
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/scouts/p_ecology_audit.json`, `results/scouts/p_read.json`,

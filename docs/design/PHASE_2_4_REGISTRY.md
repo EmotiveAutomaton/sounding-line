@@ -90,10 +90,12 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   (G173 descriptive half) — PROMISING (L168: double-centered alignment-inversion rank
   0.50, p 0.0088, correspondence gate perfect; neutral-corpus replication owed before S8) · S08 causal direction transfer · S09 controlled LoRA siblings ·
   S10 self-inversion gradient
-- **Tree P:** P0 v1 UNINTERPRETABLE as designed (L169: instructed preferences lose to
-  intrinsic appetites, following 0.537; v2 flips the object to maker-identity from
-  appetite signature) · P2 reader INSTRUMENT-FAILED then repaired by direction flip,
-  gate verdict pending · E1 self-policy groundwork queued
+- **Tree P:** v1 CLOSED at its resolution boundary (L169): treatment refusable
+  (following 0.537), reader retired after two gate failures (0.25 then 0.375 vs 0.85),
+  and the unprofiled appetites CONVERGE across all three makers so no maker signature
+  exists to recover; the item-attractiveness rival is recorded. Successor requires an
+  attractiveness-calibration pilot first · E1 self-policy landed (the convergence
+  measurement)
 - **Wing A:** A01 (=G174) · A02 ⚙ lexical/actor transfer · A03 basis catalog · A04 ⚙
   soft-rank sweep · A05 label-source twins · A06 block-by-dose surface · A07 ⚙ generic
   tournament · A08 cross-model transplant · A09 process integration (G176 discovery) ·

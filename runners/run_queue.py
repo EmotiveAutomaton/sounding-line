@@ -2039,6 +2039,31 @@ STAGES += [
             "the self-distribution every route-tree analysis needs first"},
 ]
 
+# ── STAGE 2 day-2 openers 2026-08-23 late: the neutral-corpus geometry replication L168
+# owes, and the process-aware ceiling that is the one measurement left on the prospective
+# interface.
+STAGES += [
+    {"name": "scout_geo_capture_n", "est": 45,
+     "cmd": [PY, "runners/scout_stage2_geo.py", "--arm", "capture",
+             "--source", "neutral"],
+     "produces": "results/scouts/geo_capture_neutral_done.json", "needs": [],
+     "why": "E24-S07 neutral replication capture: the same thirteen models on eighty human "
+            "student essays no matrix model produced"},
+    {"name": "scout_geo_link_n", "est": 20,
+     "cmd": [PY, "runners/scout_stage2_geo.py", "--arm", "link",
+             "--source", "neutral"],
+     "produces": "results/scouts/geo_link_neutral.json",
+     "needs": ["results/scouts/geo_capture_neutral_done.json"],
+     "why": "E24-S07 neutral linkage: does the alignment-inversion relation survive when "
+            "the shared texts carry no process structure?"},
+    {"name": "g177_sw_ceiling", "est": 30,
+     "cmd": [PY, "runners/run_g177_baselines.py", "--arm", "sw_ceiling"],
+     "produces": "results/g177/scholawrite_ceiling.json", "needs": [],
+     "why": "the process-aware ceiling: is the next-intention label recoverable from its "
+            "own realized edit, deciding whether the boundary belongs to readers or to "
+            "the annotation"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -2073,7 +2098,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
                     "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
-                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self"}
+                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self", "scout_geo_capture_n"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

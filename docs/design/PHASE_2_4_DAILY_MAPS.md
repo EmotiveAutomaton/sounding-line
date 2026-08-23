@@ -23,8 +23,11 @@ One theory-level map per ordinary queue-day, written before reading further scou
 - **Tree P:** the ecology's first factorial refused itself informatively: the makers obey
   two of four assigned preference profiles and ignore the rest, revealing strong intrinsic
   evidence appetites a one-line instruction cannot override; the v2 design flips the object
-  to recovering WHICH maker from its appetite signature. The first profile reader failed
-  its synthetic gate at chance and earned its one repair (scoring direction flipped).
+  to recovering WHICH maker from its appetite signature — and then closed entirely within
+  the day: the repaired reader failed its second gate (0.375 versus 0.85) and the
+  unprofiled appetites converge across all three makers, so neither the profile nor the
+  maker is recoverable here, with item attractiveness recorded as the rival the design
+  cannot separate. The successor requires an attractiveness-calibration pilot first.
 - **Tree S (geometry):** representational alignment predicts who inverts whom at rank 0.50
   with reader and maker effects removed, correspondence gate perfect; the second promotion
   leg at discovery grade, neutral-corpus replication owed.

@@ -49,10 +49,18 @@ MAKER_SHORT = {"Qwen/Qwen2.5-0.5B": "qwen25_05b", "Qwen/Qwen2.5-1.5B": "qwen25_1
                "HuggingFaceTB/SmolLM2-360M-Instruct": "smollm2_360m_instruct"}
 
 
-def shared_texts() -> list[str]:
-    src = REPO / "corpora" / "g172_norm"
-    texts = [json.loads(p.read_text(encoding="utf-8"))["text"]
-             for p in sorted(src.rglob("art_*.json"))]
+def shared_texts(source: str = "process") -> list[str]:
+    """process = the normalized matrix artifacts (process-matched); neutral = human
+    student essays no matrix model produced, the replication set L168 owes."""
+    if source == "neutral":
+        src = REPO / "corpora" / "public" / "argrewrite" / "essays" / "Draft1"
+        texts = [p.read_text(encoding="utf-8", errors="ignore")[:1500]
+                 for p in sorted(src.glob("*.txt"))]
+        texts = [t for t in texts if len(t.split()) > 60]
+    else:
+        src = REPO / "corpora" / "g172_norm"
+        texts = [json.loads(p.read_text(encoding="utf-8"))["text"]
+                 for p in sorted(src.rglob("art_*.json"))]
     rng = random.Random(SEED0)
     rng.shuffle(texts)
     return texts[:80]
@@ -84,13 +92,14 @@ def linear_cka(X: np.ndarray, Y: np.ndarray) -> float:
     return float(num / den) if den else 0.0
 
 
-def arm_capture() -> int:
+def arm_capture(source: str = "process") -> int:
     from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock          # noqa: PLC0415
     from prereg.g172 import READERS                                              # noqa: PLC0415
     from runners.scout_stage2_s import READERS2                                  # noqa: PLC0415
-    texts = shared_texts()
+    texts = shared_texts(source)
     models = sorted(set(READERS + READERS2 + list(MAKER_SHORT)))
-    dest_dir = OUT / "geo_reps"
+    tag = "" if source == "process" else "_neutral"
+    dest_dir = OUT / ("geo_reps" + tag)
     dest_dir.mkdir(parents=True, exist_ok=True)
     acquire_gpu_lock("scout_geo_capture")
     try:
@@ -103,18 +112,18 @@ def arm_capture() -> int:
             np.save(dest, late_reps(m, texts))
     finally:
         release_gpu_lock()
-    (OUT / "geo_capture_done.json").write_text(json.dumps(
+    (OUT / f"geo_capture{tag}_done.json").write_text(json.dumps(
         {"scout": "E24-S07", "n_texts": len(texts), "n_models": len(models),
-         "text_source": "g172_norm shared artifacts (process-matched, not neutral; "
-                        "recorded as a scope note)"}, indent=1),
+         "text_source": source}, indent=1),
         encoding="utf-8", newline="\n")
     return 0
 
 
-def arm_link() -> int:
+def arm_link(source: str = "process") -> int:
     from prereg.g172 import short                                                # noqa: PLC0415
+    tag = "" if source == "process" else "_neutral"
     rng = random.Random(SEED0 + 1)
-    reps = {p.stem: np.load(p) for p in (OUT / "geo_reps").glob("*.npy")}
+    reps = {p.stem: np.load(p) for p in (OUT / ("geo_reps" + tag)).glob("*.npy")}
 
     # correspondence null first (the instrument gate): true-pairing CKA must exceed the
     # 95th percentile of row-shuffled CKA for the median model pair, else capture is noise
@@ -133,7 +142,7 @@ def arm_link() -> int:
     gate_frac = passed / len(gate_pairs)
     print(f"correspondence gate: {passed}/{len(gate_pairs)} pairs separate from the null")
     if gate_frac < 0.75:
-        (OUT / "geo_link.json").write_text(json.dumps(
+        (OUT / f"geo_link{tag}.json").write_text(json.dumps(
             {"scout": "E24-S07", "status": "INSTRUMENT-FAILED",
              "correspondence_gate": gate_frac}, indent=1), encoding="utf-8", newline="\n")
         return 0
@@ -185,8 +194,9 @@ def arm_link() -> int:
     status = "PROMISING" if (obs > 0 and p < 0.05) else "QUIET"
     print(f"linkage: double-centered rank correlation {obs:.3f}, permutation p {p:.5f} "
           f"-> {status}")
-    (OUT / "geo_link.json").write_text(json.dumps(
+    (OUT / f"geo_link{tag}.json").write_text(json.dumps(
         {"scout": "E24-S07", "status": status, "correspondence_gate": gate_frac,
+         "text_source": source,
          "n_readers": len(readers), "n_makers": len(makers),
          "double_centered_spearman": obs, "permutation_p": p,
          "note": "raw CKA magnitudes deliberately unreported (L61); only the null-tested "
@@ -199,10 +209,11 @@ def arm_link() -> int:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True, choices=["capture", "link"])
+    ap.add_argument("--source", default="process", choices=["process", "neutral"])
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
-    rc = {"capture": arm_capture, "link": arm_link}[a.arm]()
+    rc = {"capture": arm_capture, "link": arm_link}[a.arm](a.source)
     print(f"{a.arm} in {(time.time() - t0) / 60:.0f} min")
     return rc
 
