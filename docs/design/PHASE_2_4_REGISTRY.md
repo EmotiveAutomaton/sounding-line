@@ -88,7 +88,9 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   soft-rank sweep · A05 label-source twins · A06 block-by-dose surface · A07 ⚙ generic
   tournament · A08 cross-model transplant · A09 process integration (G176 discovery) ·
   A10 affect distractors · A11 dynamic gate · A12 learned deformation (G179 precursor)
-- **Wing H:** H01 (=G177) · H02 ⚙ realized-choice anchor · H03 ⚙ CoAuthor action tree ·
+- **Wing H:** H01 (=G177) · H02 ⚙ realized-choice anchor · H03 ⚙ CoAuthor action tree — landed (L167: 16,875 episodes parse with zero loss;
+  QUIET floors, nothing beats the 0.758 take rate; retained-versus-deleted extraction is
+  the next target) ·
   H04 ⚙ ScholaWrite prospective tree — BOUNDARY MAPPED
   (both reader forms fail powered validation, floors 0.04 to 0.08; only the process-aware
   ceiling remains, L161) · H05 ⚙ context/tool ablation · H06 anomaly-handling

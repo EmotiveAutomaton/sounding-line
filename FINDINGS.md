@@ -7354,6 +7354,63 @@ this wing now reports the head-to-head cells beside the contrast.
 - **Detail pointer:** `results/scouts/s_wave1.json` (variants `origL` and `fam2L`),
   `runners/scout_stage2_s.py`.
 
+## L167 · The CoAuthor decision record parses cleanly and its behavior is flat: writers take three of four suggestions, and neither their own history nor session position predicts which
+
+**Hypothesis.** *(Stage-2 Tree-H scouts E24-H02b and E24-H03: do the 1,447 imported
+writing-session logs yield a usable decision-episode record, and how predictable is the
+writer's next accept-versus-dismiss action from mechanical structure alone? The floors any
+later reader must beat.)*
+
+**Method.** Every session log parses into decision episodes: a shown suggestion followed by
+the writer's terminal action on it, taken (selected into the text) or dismissed (closed).
+Unreadable sessions are counted, never dropped, with a ten percent skip ceiling as the
+extraction's own failure gate. Four mechanical baselines: global majority; each session's
+first-half rate applied to its own second half (nothing crosses the prediction boundary);
+previous-outcome repetition; session position. Split by session, with the session-as-writer
+approximation recorded as a limitation.
+
+**Found.** Extraction is clean beyond expectation: 1,410 sessions, zero unreadable, 16,875
+decision episodes. Writers take 75.8 percent of shown suggestions. And the behavior is FLAT:
+no mechanical baseline beats the global majority.
+
+| baseline | accuracy | episodes scored |
+|---|---|---|
+| always predict the majority (taken) | 0.758 | 16,875 |
+| the session's own first-half rate | 0.711 | 8,768 |
+| repeat the previous outcome | 0.695 | 15,465 |
+| session position (early or late) | 0.758 | 16,875 |
+
+*Caption: accuracy predicting taken versus dismissed at each shown suggestion. The
+individual-history baselines land BELOW the global rate, so a writer's own earlier behavior
+generalizes worse than the population rate at this grain.*
+
+**Means.** QUIET, and informative about the target's shape. Accept-versus-dismiss on this
+corpus is dominated by a strong base rate with no sequential or individual structure at the
+grain these baselines see, which sets a hard bar for any later reader: beat 0.758 accuracy,
+or better, show calibrated discrimination on the dismissed quarter, since raw accuracy at
+this skew rewards saying "taken" forever. The intended model arm stays unbuilt by design;
+after the prospective boundary (this entry's sibling in L161), any reader aimed at this
+target validates on a decidable subset first, and what would make one decidable here, such
+as suggestions later deleted versus retained, is the next extraction question. The
+session-as-writer approximation stands as the recorded limitation.
+
+### Curator roll-up
+
+- **Theory group:** Decision Traces (mixed-production ratification, natural-record side)
+- **Question in plain language:** In real human-and-model co-writing logs, how predictable
+  is whether the writer takes the next suggestion, before any model reads anything?
+- **Outcome class:** Infrastructure
+- **Result:** 16,875 decision episodes parsed with zero loss; nothing beats the 0.758
+  base rate of simply taking suggestions.
+- **Project meaning:** The natural ratification record is now a usable substrate with
+  measured floors, and its flatness at this grain is itself the bar any reader must clear.
+- **Next engineering obligation:** The retained-versus-later-deleted extraction, which is
+  both the richer target and the mechanically decidable subset a reader validation needs.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/scouts/h_coauthor_events.json`,
+  `results/scouts/h_coauthor_baselines.json`, `runners/scout_stage2_h.py`.
+
 ---
 
 # TIER 2 · SETTLED
