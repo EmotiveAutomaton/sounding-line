@@ -6977,6 +6977,84 @@ confirmation card if it stabilizes.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/g174/ruler.json`, `prereg/g174.py`.
 
+## L163 · Similarity reads: the exact maker checkpoint and its family siblings invert recorded goals better than cross-family readers, graded, on a corpus that retired half its makers to stay honest
+
+**Hypothesis.** *(G172 P24-S0, `prereg/g172.py`, frozen: are a model's outputs easier to
+invert — recorded entity-order goals recovered among four lexically matched candidates —
+when the reader is the exact maker checkpoint, a same-family sibling, or a cross-family
+model? The tractable analogue of the shared-organization shortcut, never the human claim.)*
+
+**Method (corpus).** Makers generated short informative paragraphs under assigned goals
+(mention A first and B later, avoid C and D) with realization verified INSIDE the accept
+loop, so every accepted artifact carries a mechanically true goal. The corpus enforced its
+own honesty the hard way: first pass 59 percent fill because both base Pythia makers
+could not satisfy four constraints (17 and 28 percent); the predeclared repair (redrawn
+example, 24 attempts) lifted them only to 45 and 52; the card's second-failure clause then
+RETIRED both makers rather than lowering the bar. The corpus stands at 123 of 128 cells
+(96 percent) on the two Qwen makers, goal composition balanced (32/31/31/29), with the
+**single-maker-family limitation recorded in the manifest**: cross-family cells exist on
+the reader side only.
+
+**Method (matrix).** Nine readers scored every artifact against its four candidates with
+the conditional-likelihood reader (all four candidates name all four entities, so nothing
+is readable by word-spotting; the differences are role assignments). Per-reader instrument
+gates ran first; the preregistered contrasts are paired per artifact: exact-maker margin
+minus mean cross-family margin (first contrast), mean sibling margin minus mean cross
+(second), sign-flip permutation with twenty thousand draws.
+
+**Found.** **SIMILARITY-GRADED, the band the shared-organization account predicted.** Both
+contrasts positive at the permutation floor: exact beats cross by 0.035 per-token margin
+units (p 5.0e-05, the smallest value twenty thousand permutations can report), siblings
+beat cross by 0.025 (p 5.0e-05). Two of nine readers (the mid Pythia and the SmolLM2)
+were excluded by the frozen shuffle-floor gate at 0.375 against a [0.15, 0.35] band — at
+24 probes that is within sampling noise of the 0.25 expectation, so the exclusion is
+conservative and the band's width-at-probe-n goes on the next card's design list.
+
+| reader | relation to the Qwen makers | top-1 | mean margin |
+|---|---|---|---|
+| Qwen 3B | sibling (largest) | 0.854 | 0.059 |
+| Qwen 0.5B | exact for half the corpus | 0.797 | 0.057 |
+| Qwen 1.5B-Instruct | sibling (tuned) | 0.748 | 0.056 |
+| Qwen 1.5B | exact for half the corpus | 0.724 | 0.050 |
+| Pythia 2.8B | cross, larger than both makers | 0.724 | 0.034 |
+| Pythia 410M | cross | 0.699 | 0.029 |
+| GPT-2 large | cross | 0.618 | 0.021 |
+
+*Caption: recovery of the true goal among four candidates, and the mean margin of the
+true candidate's score over the decoys, per gate-passing reader, sorted by margin. Every
+Qwen-family reader out-margins every cross-family reader, including a cross reader nearly
+twice the largest maker's size — the graded pattern with capacity failing to explain it.*
+
+**Means.** The similarity mechanism has its first behavioral foothold: family relation
+predicts inversion margin within this construction, capacity does not (the 2.8B
+cross-family reader loses to the 0.5B exact maker on margin), and the base-vs-instruct
+sibling cell shows tuning does not break the family advantage. The standing rival is
+exactly the one the card names: artifact dialect — a family fingerprint in the surface
+that erasure would destroy. The fingerprint-destruction scout (paraphrase preserving the
+mechanically verified goals, matrix re-run) is the branch that decides it, and the
+single-maker-family limitation means every claim here is about readers of Qwen artifacts
+until a second maker family exists. STAGE 1 IS COMPLETE: all three roots hold states; the
+cold root map follows this entry and freezes before any scout runs.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics (the similarity shortcut, model-family analogue)
+- **Question in plain language:** Is a text easier to read-back-to-its-goal for the model
+  that wrote it, and for that model's relatives, than for strangers?
+- **Outcome class:** Strengthens
+- **Result:** Graded — exact and sibling readers beat cross-family readers with the
+  sibling contrast at 0.025 margin units, both at the permutation floor.
+- **Project meaning:** The shared-organization shortcut gains its first model-side
+  behavioral evidence; the fingerprint rival is now the load-bearing alternative and has
+  a designed killer.
+- **Next engineering obligation:** The fingerprint-destruction scout on this same corpus;
+  a second maker family (instruct-class, since base models cannot comply) if the scout
+  survives.
+- **Public claim:** Unchanged (analogue result; no human claim licensed, per the card).
+- **Curator decision required:** No — the root map carries the theory questions.
+- **Detail pointer:** `results/g172/verdict.json`, `results/g172/corpus_manifest.json`,
+  `prereg/g172.py`.
+
 ---
 
 # TIER 2 · SETTLED

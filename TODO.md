@@ -188,7 +188,7 @@ all 8 guards green); three Stage-1 cards frozen and queued.
 
 | root | identifier | what it asks | gate / dependency | state |
 |---|---|---|---|---|
-| **P24-S0 similarity matrix** | **G172** | are outputs easier to invert when the reader is the exact maker checkpoint, a sibling, or a similar family? | card frozen (`prereg/g172.py`); spine guards passed at build | **QUEUED** (corpus + matrix stages, 2026-08-22) |
+| **P24-S0 similarity matrix** | **G172** | are outputs easier to invert when the reader is the exact maker checkpoint, a sibling, or a similar family? | card frozen (`prereg/g172.py`) | **SIMILARITY-GRADED (L163): both contrasts at the permutation floor; corpus survived by retiring its Pythia makers (repair then second-failure clause); fingerprint rival undecided until trace erasure. STAGE 1 COMPLETE, root map frozen |
 | **P24-S1 geometry link** | **G173** | does null-tested representational alignment explain who inverts whom, beyond family labels and surface fingerprints? | G172 nontrivial pattern | pending |
 | **P24-A0 causal affect ruler** | **G174** | can an open-weight model reproduce abstract cross-context emotion decoding plus benign causal behavioral influence? | card frozen (`prereg/g174.py`) | **INSTRUMENT-FAIL (L162): block selection noise at dev power, input-edge lesion 2.55x, causal gate untested not failed; abstract decoding grain at one seed. Repair declined (could only reach a worse-founded band); rebuild in the scout lane |
 | **P24-A1 basis contest** | **G175** | which fixed human-derived affective basis (Panksepp-7, GoEmotions-27, VAD, human-vs-synthetic twins) is stable and selectively causal against rank/norm-matched controls? | G174 passes both gates | pending |

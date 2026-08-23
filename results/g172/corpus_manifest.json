@@ -1,0 +1,894 @@
+{
+ "prereg": "prereg/g172.py",
+ "seed0": 17200,
+ "n": 123,
+ "n_target": 128,
+ "fill": 0.9609375,
+ "repair": {
+  "applied_to": [
+   "pythia_14b",
+   "pythia_410m"
+  ],
+  "attempts": 24,
+  "example": "v2",
+  "first_pass_fill": 0.594
+ },
+ "retired": {
+  "makers": [
+   "pythia_14b",
+   "pythia_410m"
+  ],
+  "post_repair_fill": {
+   "pythia_410m": "29/64",
+   "pythia_14b": "33/64"
+  },
+  "limitation": "single maker family; cross-family cells are reader-side only"
+ },
+ "versions": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1"
+ },
+ "cells": [
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 0,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 3
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 0,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 3
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 0,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 0,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 0,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 0,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 0,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 9
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 0,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 1,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 7
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 1,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 1,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 4
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 1,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 1,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 8
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 1,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 4
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 1,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 1,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 6
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 2,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 3
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 2,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 2,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 6
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 2,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 9
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 2,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 2,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 3,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 3,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 3,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 3,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 3,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 3,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 3,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 3,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 15
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 4,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 4,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 4,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 4,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 4,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 4,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 4
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 4,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 3
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 4,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 5,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 5,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 5,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 6
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 5,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 6
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 5,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 5,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 5,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 6,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 6,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 6,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 6,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 6,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 6,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 6,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 6,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 7
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 7,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 7,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 7,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 7,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 7,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 7,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-0.5B",
+   "topic_i": 7,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 3
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 0,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 0,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 0,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 0,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 0,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 0,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 0,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 0,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 1,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 1,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 1,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 1,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 1,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 1,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 1,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 8
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 1,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 2,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 2,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 2,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 2,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 3
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 2,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 2,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 2,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 2,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 3,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 3,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 3,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 3,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 3,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 3,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 3,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 3,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 4,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 4,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 4,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 3
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 4,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 4,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 4,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 4,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 5,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 5,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 3
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 5,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 5,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 5
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 5,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 5,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 4
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 5,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 5,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 6,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 6,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 6,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 6,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 6,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 6,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 6,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 6,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 7,
+   "goal_i": 0,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 7,
+   "goal_i": 0,
+   "trial": 1,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 7,
+   "goal_i": 1,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 7,
+   "goal_i": 1,
+   "trial": 1,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 7,
+   "goal_i": 2,
+   "trial": 0,
+   "attempt": 2
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 7,
+   "goal_i": 2,
+   "trial": 1,
+   "attempt": 0
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 7,
+   "goal_i": 3,
+   "trial": 0,
+   "attempt": 1
+  },
+  {
+   "maker": "Qwen/Qwen2.5-1.5B",
+   "topic_i": 7,
+   "goal_i": 3,
+   "trial": 1,
+   "attempt": 11
+  }
+ ]
+}

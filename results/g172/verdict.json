@@ -1,0 +1,65 @@
+{
+ "prereg": "prereg/g172.py",
+ "contrasts": {
+  "c1_mean": 0.03535933217812791,
+  "c1_p": 4.999750012499375e-05,
+  "c1_n": 123,
+  "c2_mean": 0.02463304054230963,
+  "c2_p": 4.999750012499375e-05,
+  "c2_n": 123,
+  "band": "SIMILARITY-GRADED"
+ },
+ "per_reader": {
+  "pythia_14b": {
+   "gates_pass": false,
+   "top1": null,
+   "mean_margin": null
+  },
+  "pythia_410m": {
+   "gates_pass": true,
+   "top1": 0.6991869918699187,
+   "mean_margin": 0.029488511847932813
+  },
+  "smollm2_17b": {
+   "gates_pass": false,
+   "top1": null,
+   "mean_margin": null
+  },
+  "qwen25_05b": {
+   "gates_pass": true,
+   "top1": 0.7967479674796748,
+   "mean_margin": 0.056572172376844615
+  },
+  "qwen25_15b": {
+   "gates_pass": true,
+   "top1": 0.7235772357723578,
+   "mean_margin": 0.049980410392368384
+  },
+  "qwen25_15b_instruct": {
+   "gates_pass": true,
+   "top1": 0.7479674796747967,
+   "mean_margin": 0.05626430356405615
+  },
+  "gpt2_large": {
+   "gates_pass": true,
+   "top1": 0.6178861788617886,
+   "mean_margin": 0.021069446876443177
+  },
+  "pythia_28b": {
+   "gates_pass": true,
+   "top1": 0.7235772357723578,
+   "mean_margin": 0.033718458359157495
+  },
+  "qwen25_3b": {
+   "gates_pass": true,
+   "top1": 0.8536585365853658,
+   "mean_margin": 0.05881012358316561
+  }
+ },
+ "n_artifacts": 123,
+ "minutes": 4.3,
+ "versions": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1"
+ }
+}

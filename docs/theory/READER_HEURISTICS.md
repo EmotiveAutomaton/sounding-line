@@ -121,6 +121,14 @@ organization hypothesis gains a model-side foothold. If only the exact checkpoin
 effect disappears after paraphrase and style control, the result is a generation fingerprint.
 Neither outcome directly measures closeness or embodied similarity between people.**
 
+**(G172:** the analogue's first run landed graded (test, L163): exact-maker and same-family
+readers beat cross-family readers on recovering mechanically verified goals, both contrasts at
+the permutation floor, with a cross-family reader nearly twice the makers' size losing on
+margin, so capacity does not explain it. The paraphrase and style control has NOT yet run;
+until the fingerprint-destruction pass survives, the graded pattern licenses shared-organization
+language only alongside its dialect rival. Single maker family by the corpus's own retirement
+clause, a recorded limitation.**)**
+
 ## §2. Finding an entry point
 
 > The thing that most jumps out at me isn't mistakes but **unusual constructions, or odd decisions
@@ -692,12 +700,15 @@ rate and next to a field bar.
 | **visibility partition** (§6) | authors at 0.78 (low-vis) vs 0.38 (high-vis); draft-stage 0.48 (high) vs 0.30 (low) | chance 0.10 / 0.33 | **SUPPORTED (test).** Clean double crossover, first pass |
 | **revision homogeneity** (§7) | real 0.45 vs spliced 1.94, AUC 1.0 | synthetic cross-author splice | **SUPPORTED (test), first pass, weakest adversary.** The realistic imposition case is untested |
 | **provenance prior** (§1) | ratio shift +0.007, *p* < 2×10⁻⁸, three corpora | paired identical text | **SUPPORTED (test), replicated.** In the reader model; human-side untested |
+| **maker-reader family similarity** (§1, model analogue) | exact-vs-cross +0.035 and sibling-vs-cross +0.025 margin units, both at the permutation floor | cross-family readers on identical artifacts and candidates | **SUPPORTED (test, L163), first pass.** Capacity fails to explain it; the fingerprint rival is undecided until trace erasure runs; single maker family |
 | anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | | | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
-**What the dashboard says.** Five heuristics now carry numbers, up from one at the start of the
-week, and three of the five landed at first-pass strength with their sharpest caveats named in
-their own rows. The stacking question is still premature but no longer empty. The two variation
-measures, the visibility partition, and the homogeneity statistic are plausibly independent
-channels, which is what a stack would need, and the program defers stacking until choice recovery
-validates what any of them measure. Confidence: the surface-variation number is replicated and
-controlled; the four new rows are one bad test away each; everything unmeasured is untested.
+**What the dashboard says.** Six heuristics now carry numbers, and the newest is the first
+model-side measurement of the similarity shortcut itself: readers related to the maker recover
+its recorded goals better than strangers, gradedly, with capacity ruled out inside the battery
+and the dialect rival explicitly still standing. The stacking question is still premature but
+no longer empty. The two variation measures, the visibility partition, and the homogeneity
+statistic are plausibly independent channels, which is what a stack would need, and the program
+defers stacking until choice recovery validates what any of them measure. Confidence: the
+surface-variation number is replicated and controlled; the similarity row and the other new
+rows are one bad test away each; everything unmeasured is untested.
