@@ -31,9 +31,10 @@ One theory-level map per ordinary queue-day, written before reading further scou
   unprofiled appetites converge across all three makers, so neither the profile nor the
   maker is recoverable here, with item attractiveness recorded as the rival the design
   cannot separate. The successor requires an attractiveness-calibration pilot first.
-- **Tree S (geometry):** representational alignment predicts who inverts whom at rank 0.50
-  with reader and maker effects removed, correspondence gate perfect; the second promotion
-  leg at discovery grade, neutral-corpus replication owed.
+- **Tree S (geometry):** representational alignment predicts who inverts whom with reader
+  and maker effects removed, at rank 0.50 on process-matched texts and 0.77 on fully
+  neutral human essays the same evening; the corpus rival is answered, the second promotion
+  leg is twice-measured, and the causal transfer branch's opening condition is met.
 - **Tree H (natural record):** the CoAuthor logs parse into 16,875 decision episodes with
   zero loss, and the behavior is flat: writers take three of four suggestions and no
   mechanical baseline beats that base rate, which is now the measured bar for any reader.

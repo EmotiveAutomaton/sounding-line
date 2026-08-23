@@ -88,7 +88,7 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   PROMISING (unsealed, filed L164: complete family separation, weak size-margin rank
   relation 0.43) · S06 tokenizer control · S07 geometry
   (G173 descriptive half) — PROMISING (L168: double-centered alignment-inversion rank
-  0.50, p 0.0088, correspondence gate perfect; neutral-corpus replication owed before S8) · S08 causal direction transfer · S09 controlled LoRA siblings ·
+  0.50, p 0.0088, correspondence gate perfect; neutral replication LANDED 0.768 at the floor, stronger than the original; S8 causal transfer now OPEN) · S08 causal direction transfer · S09 controlled LoRA siblings ·
   S10 self-inversion gradient
 - **Tree P:** v1 CLOSED at its resolution boundary (L169): treatment refusable
   (following 0.537), reader retired after two gate failures (0.25 then 0.375 vs 0.85),

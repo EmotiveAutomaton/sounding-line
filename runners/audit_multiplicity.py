@@ -130,6 +130,8 @@ TESTS = [
      "results/scouts/s_wave1.json"),
     ("L168 S07 alignment-inversion linkage", 8.7996e-03, "primary",
      "results/scouts/geo_link.json"),
+    ("L168 S07 neutral-corpus replication", 4.99975e-05, "primary",
+     "results/scouts/geo_link_neutral.json"),
     ("L74 PD-34 books movement split",    1.263e-05, "primary", "results/positional_polish/pd34_books.json"),
     ("L74 PD-34 essays movement split",   4.207e-01, "primary", "results/positional_polish/pd34_argrewrite.json"),
     ("L89 PD-3 machine movement",         2.015e-06, "primary", "results/positional_polish/pd3_ladder3.json"),

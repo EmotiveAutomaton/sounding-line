@@ -7447,13 +7447,19 @@ The linkage: **double-centered rank correlation 0.501, permutation p 0.0088**. A
 removing what reader quality and maker difficulty can explain, the residual pattern of who
 reads whom well tracks the residual pattern of whose representations align.
 
-**Means.** PROMISING, and it is the geometry leg of the Tree-S promotion conjunction landing
-at discovery grade: the family advantage now has a representational correlate that survives
-the same double-centering that killed the capacity account. What it does not show: direction
-(alignment could follow from whatever also drives inversion rather than enabling it), and
-the shared text set is process-matched rather than neutral, so a corpus-specific component
-is possible. The causal form (map a direction from maker into reader, move the margin) is
-the S8 branch and stays closed until this replicates on a neutral corpus.
+**The neutral replication landed the same evening and the relation strengthened.** On
+eighty human student essays no matrix model produced — texts carrying none of the corpus's
+process structure — the correspondence gate stays perfect and the double-centered rank
+correlation rises to **0.768 at the permutation floor** (from 0.501 on process-matched
+texts). The corpus-specific rival is answered: the alignment-inversion relation is a
+property of the models, not of the texts it was first measured on.
+
+**Means.** PROMISING and now twice-measured: the family advantage has a representational
+correlate that survives double-centering on two disjoint text sets, one of them fully
+neutral. What it still does not show is direction — alignment could follow from whatever
+also drives inversion rather than enabling it — and that is exactly what the causal branch
+(map a direction from maker into reader, move the margin) exists to decide. Its own stated
+opening condition, the neutral replication, is now met; it is the next substantial build.
 
 ### Curator roll-up
 
@@ -7461,12 +7467,12 @@ the S8 branch and stays closed until this replicates on a neutral corpus.
 - **Question in plain language:** Do models that represent text similarly also read each
   other's goals better, once we stop crediting sheer reader strength?
 - **Outcome class:** Strengthens
-- **Result:** Double-centered rank relation 0.501 between alignment and inversion margin,
-  permutation p 0.0088, with a perfect correspondence gate.
+- **Result:** Double-centered rank relation 0.501 on process-matched texts and 0.768 on
+  fully neutral human essays, both gates perfect, the second at the permutation floor.
 - **Project meaning:** The similarity effect now has a measured representational correlate;
   two of the promotion conjunction's four legs hold at discovery grade.
-- **Next engineering obligation:** Replication on a neutral text set, then the causal
-  transfer branch.
+- **Next engineering obligation:** The causal transfer branch, whose opening condition
+  the neutral replication just met.
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/scouts/geo_link.json`, `runners/scout_stage2_geo.py`.
