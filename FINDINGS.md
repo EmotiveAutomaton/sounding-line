@@ -6894,6 +6894,23 @@ standing result.
 *Caption: macro-F1 over the fixed 15 intention classes, next-edit prediction with future
 text withheld, one column per held-out project, 120 sampled events each.*
 
+**The powered validation ran the next day and closed the question (H1 repair, Stage 2).**
+Stratified toward mechanically decidable edits — 120 events whose change inserts a citation
+command and carries the citation label, against 120 matched negatives, making the floor
+analytic at 0.5 — the prompted reader scores **sensitivity 0.25, specificity 0.94, balanced
+accuracy 0.596** against a chance band whose top sits at 0.589 for this sample size and a
+required floor of 0.80. The reader is barely above chance and fails its gate outright.
+
+The failure has a clean signature and it is the mirror image of the one this project already
+owns: where the L139 adjudicator over-credited almost everything, this reader under-uses the
+class almost entirely, catching one decidable citation edit in four while almost never
+claiming one falsely. Near-zero over-claim beside massive under-claim is its own defect
+pattern. **The prompted-reader route to this corpus is therefore closed after its one repair**,
+and the L161 reader numbers stay descriptive permanently rather than pending. Per the card's
+routing, the boundary is preserved and the next instrument is the non-generative form, which
+is the reader validated on the anchor above; if that also fails, the prospective interface has
+no validated reader of any form and that is the finding.
+
 **Means.** The Phase 2.4 instrument is field-validated on a known-positive target: the
 non-generative form keeps most of the recorded recovery while making fabrication
 structurally impossible (nothing is generated), which is what the similarity matrix and

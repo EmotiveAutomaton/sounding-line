@@ -198,6 +198,99 @@ def arm_sw_validation() -> int:
     return 0
 
 
+_INTENT_TEMPLATE = "Next, the writer will work on {label}."
+_NEUTRAL_DRAFT = "The following describes what a writer does next."
+
+
+def arm_sw_nongen() -> int:
+    """The routed alternative after the prompted reader failed its powered gate: a
+    non-generative prospective reader.
+
+    Instead of asking a model to name the next intention, this asks how much the draft state
+    RAISES the likelihood of each intention statement, scoring
+    log P(statement | draft) minus log P(statement | neutral) for all fifteen labels. The
+    subtraction removes each label's own prior, so a frequent label cannot win on frequency.
+    Nothing is generated, so nothing can be fabricated.
+
+    Validation runs FIRST on the same stratified citation subset the prompted reader failed,
+    with matched negatives and a band derived at the sample size. Leave-one-project-out
+    numbers are computed but count only if validation passes.
+    """
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock          # noqa: PLC0415
+    from soundingline.probe.conditional_reader import (artifact_logprob,         # noqa: PLC0415
+                                                       load_reader)
+    rows = _sw_load()
+    labels = sorted({r["label"] for r in rows})
+    cit = next(x for x in labels if "citation" in x.lower())
+    stmts = [_INTENT_TEMPLATE.format(label=x) for x in labels]
+
+    def delta(r):
+        a, b = r["before"], r["after"]
+        return b[len(a):] if b.startswith(a) else b
+
+    pos, neg = [], []
+    for r in rows:
+        has = any(m in delta(r) for m in SW_CITATION_MARKERS)
+        if has and r["label"] == cit:
+            pos.append(r)
+        elif not has and r["label"] != cit:
+            neg.append(r)
+    rng = random.Random(SEED0 + 6)
+    n = min(len(pos), 120)
+    pos_s, neg_s = rng.sample(pos, n), rng.sample(neg, n)
+
+    acquire_gpu_lock("g177_sw_nongen")
+    try:
+        model, tok = load_reader(ANCHOR_READER, device="cuda", dtype="float16")
+        base = [artifact_logprob(model, tok, _NEUTRAL_DRAFT, st)[0] for st in stmts]
+
+        def predict(draft: str) -> str:
+            draft = draft[-800:]
+            scores = [artifact_logprob(model, tok, draft, st)[0] - b
+                      for st, b in zip(stmts, base)]
+            return labels[max(range(len(labels)), key=lambda i: scores[i])]
+
+        sens = sum(predict(r["before"]) == cit for r in pos_s) / n
+        spec = sum(predict(r["before"]) != cit for r in neg_s) / n
+        bal = (sens + spec) / 2
+        half = 1.96 * (0.25 / n) ** 0.5
+        band_low = 0.5 + half
+        verdict = "VALIDATED" if bal > max(SW_READER_KA_FLOOR, band_low) else (
+            "UNVALIDATED-ABOVE-CHANCE" if bal > band_low else "UNVALIDATED-AT-CHANCE")
+        print(f"validation: sens {sens:.3f}, spec {spec:.3f}, balanced {bal:.3f} "
+              f"vs band top {band_low:.3f} -> {verdict}")
+
+        per_project = {}
+        if verdict == "VALIDATED":
+            projects = sorted({r["project"] for r in rows})
+            for held in projects:
+                ev_all = [r for r in rows if r["project"] == held]
+                ev = (ev_all if len(ev_all) <= SW_SAMPLE_PER_PROJECT
+                      else rng.sample(ev_all, SW_SAMPLE_PER_PROJECT))
+                pairs = [(r["label"], predict(r["before"])) for r in ev]
+                f1s = []
+                for lab in labels:
+                    tp = sum(1 for t, q in pairs if t == lab and q == lab)
+                    fp = sum(1 for t, q in pairs if t != lab and q == lab)
+                    fn = sum(1 for t, q in pairs if t == lab and q != lab)
+                    f1s.append(0.0 if tp == 0 else 2 * tp / (2 * tp + fp + fn))
+                per_project[held] = {"n": len(ev), "macro_f1": sum(f1s) / len(f1s)}
+                print(f"  {held}: {per_project[held]}")
+    finally:
+        release_gpu_lock()
+
+    (OUT / "scholawrite_nongen.json").write_text(json.dumps({
+        "prereg": "prereg/g177.py (routed alternative, Stage 2)", "verdict": verdict,
+        "reader": ANCHOR_READER, "n_per_class": n, "sensitivity": sens,
+        "specificity": spec, "balanced_accuracy": bal, "chance_band_top": band_low,
+        "floor": SW_READER_KA_FLOOR, "per_project": per_project,
+        "note": "leave-one-project-out numbers computed only if validation passes; if this "
+                "reader also fails, the prospective interface has no validated reader of "
+                "any form and that is the boundary"}, indent=1),
+        encoding="utf-8", newline=_LF)
+    return 0
+
+
 def arm_scholawrite(with_reader: bool) -> int:
     rows = _sw_load()
     projects = sorted({r["project"] for r in rows})
@@ -333,7 +426,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
                     choices=["anchor", "scholawrite", "scholawrite_reader", "coauthor",
-                             "sw_validation"])
+                             "sw_validation", "sw_nongen"])
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
@@ -345,6 +438,8 @@ def main() -> int:
         rc = arm_scholawrite(with_reader=True)
     elif args.arm == "sw_validation":
         rc = arm_sw_validation()
+    elif args.arm == "sw_nongen":
+        rc = arm_sw_nongen()
     else:
         rc = arm_coauthor()
     print(f"{args.arm} done in {(time.time() - t0) / 60:.0f} min")

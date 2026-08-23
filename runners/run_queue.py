@@ -1968,6 +1968,17 @@ STAGES += [
             "edits with matched negatives, band derived at the sample size"},
 ]
 
+# ── STAGE 2 routed alternative 2026-08-23: the prompted next-intention reader failed its
+# powered gate, so the prospective interface moves to the non-generative form.
+STAGES += [
+    {"name": "g177_sw_nongen", "est": 90,
+     "cmd": [PY, "runners/run_g177_baselines.py", "--arm", "sw_nongen"],
+     "produces": "results/g177/scholawrite_nongen.json",
+     "needs": ["results/g177/scholawrite_validation.json"],
+     "why": "non-generative prospective reader: how much the draft raises each intention "
+            "statement's likelihood; validated first on the same stratified subset"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -2002,7 +2013,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
                     "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
-                    "g177_sw_validation"}
+                    "g177_sw_validation", "g177_sw_nongen"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-23 11:07",
+  "started": "2026-08-23 11:08",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -858,9 +858,14 @@
       "why": "E24-S2 maker-family detector, topic-held-out, applied to every variant to VERIFY erasure rather than assume it",
       "est_minutes": 15,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_mx_origL",
+      "why": "S4 rung 1 on the Qwen corpus: literal instruction wording as the candidate set",
+      "est_minutes": 100,
+      "status": "RUNNING",
+      "log": "results\\scout_mx_origL.log"
     }
   ],
-  "shard": "0/3",
-  "finished": "2026-08-23 11:07",
-  "failed": []
+  "shard": "0/3"
 }
