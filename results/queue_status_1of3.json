@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-22 05:07",
+  "started": "2026-08-23 07:46",
   "stages": [
     {
       "name": "feature_visibility",
@@ -798,9 +798,87 @@
       "why": "G168-R arm classify: selection / veto / repair role recovery, per question, never aggregated",
       "est_minutes": 80,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g172_corpus",
+      "why": "G172 P24-S0 corpus: 4 makers x entity-order goals, realization verified at accept time (L156 rule); manifest withheld under 90 percent fill",
+      "est_minutes": 180,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g172_matrix",
+      "why": "G172 similarity matrix: 9 readers, per-reader gates first, relation contrasts land the band (SIMILARITY-GRADED/EXACT-ONLY/FLAT/REVERSED)",
+      "est_minutes": 240,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g177_sw_base",
+      "why": "G177 ScholaWrite LOPO mechanical baselines: frequency + Markov, label set fixed, per-project table (the L82 leak rule)",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_gen2",
+      "why": "E24-S3 second maker family: SmolLM2-instruct pair writes the same verified goal corpus (accept-time realization, retirement rule standing)",
+      "est_minutes": 120,
+      "status": "FAILED (exit 1)",
+      "log": "results\\scout_gen2.log",
+      "minutes": 0.5
+    },
+    {
+      "name": "scout_norm",
+      "why": "E24-S1a mechanical normalization of both corpora, realization re-verified",
+      "est_minutes": 10,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/family2_manifest.json"
+      ]
+    },
+    {
+      "name": "scout_para2",
+      "why": "E24-S1c independent non-Qwen paraphraser over both corpora",
+      "est_minutes": 150,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/family2_manifest.json"
+      ]
+    },
+    {
+      "name": "scout_mx_fam2",
+      "why": "Tree-S matrix over the fam2 variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/family2_manifest.json"
+      ]
+    },
+    {
+      "name": "scout_mx_norm",
+      "why": "Tree-S matrix over the norm variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/norm_manifest.json"
+      ]
+    },
+    {
+      "name": "scout_s_analyze",
+      "why": "Tree-S wave-1 synthesis: crossed reversal, erasure survival, detector map",
+      "est_minutes": 10,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/mx_orig_done.json",
+        "results/scouts/mx_fam2_done.json",
+        "results/scouts/mx_norm_done.json",
+        "results/scouts/mx_para_qwen_done.json",
+        "results/scouts/mx_para2_done.json",
+        "results/scouts/s2_detector.json"
+      ]
     }
   ],
   "shard": "1/3",
-  "finished": "2026-08-22 05:07",
-  "failed": []
+  "finished": "2026-08-23 07:46",
+  "failed": [
+    "scout_gen2"
+  ]
 }

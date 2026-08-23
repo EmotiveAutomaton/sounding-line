@@ -277,6 +277,10 @@ the same pass that earns them. The method shelf's README maps each file to its r
   files' pids** — those are MSYS pids that do not map to Task Manager. An "immortal" day loop ran
   for two days on this mistake, spawning overlapping queue lineages (2026-08-09).
 - Local model `qwen3.5:9b` via Ollama on loopback, `OLLAMA_NUM_PARALLEL=3`.
+- HF cache holds four base families (Qwen2.5, Pythia, GPT-2, SmolLM2) plus the
+  instruction-tuned pair `SmolLM2-1.7B-Instruct` / `SmolLM2-360M-Instruct` (added
+  2026-08-23 as the non-Qwen instruct family: second-family makers, independent
+  paraphraser, and E-tree readers).
 - **The parent simulation** (`../../AI and Intentionality/Ghost Scale Simulation/ghost-scale-sim`,
   own venv, `pymdp`, mature harness): **mechanism questions belong there** — inverse planning, acting
   agents, ground truth. Ask rather than hand-rolling a weaker version here.

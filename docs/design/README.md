@@ -18,8 +18,9 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
   [`PHASE_2_4_REGISTRY.md`](PHASE_2_4_REGISTRY.md)
 - **Stage 1 complete 2026-08-22 (L161-L163); the frozen deliverable is
   [`PHASE_2_4_ROOT_MAP.md`](PHASE_2_4_ROOT_MAP.md). The Stage-2 package
-  ([`PHASE_2_4_STAGE_2_CONTEXT.md`](PHASE_2_4_STAGE_2_CONTEXT.md)) is filed PENDING
-  RATIFICATION.**
+  ([`PHASE_2_4_STAGE_2_CONTEXT.md`](PHASE_2_4_STAGE_2_CONTEXT.md)) is RATIFIED
+  2026-08-23: three-wave sequencing, six-queue-day arc with daily cold maps, mandatory
+  synthesis at day six.**
 - **Theory application order:** the Phase 2.2 errata (applied 2026-08-20), the Phase 2.3
   errata (theory delta applied 2026-08-21), then the Phase 2.4 errata (applied 2026-08-22)
 - **Live work:** [`../../TODO.md`](../../TODO.md) and `runners/run_queue.py`
@@ -47,7 +48,7 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 | [`PHASE_2_4_EXPLORATION_ADDENDUM.md`](PHASE_2_4_EXPLORATION_ADDENDUM.md) | **OPERATIVE** | the two-lane discipline: confirmatory trunk vs discovery forest, automatic branch policy, closure rules |
 | [`PHASE_2_4_REGISTRY.md`](PHASE_2_4_REGISTRY.md) | **OPERATIVE** | the live 2.4 registry: root states, scout registry, firewall, and the 2.3 closure dispositions |
 | [`PHASE_2_4_ROOT_MAP.md`](PHASE_2_4_ROOT_MAP.md) | **OPERATIVE** (the frozen Stage-1 deliverable, 2026-08-22) | result shapes, world movements, the dialect rival, and the four open theory questions |
-| [`PHASE_2_4_STAGE_2_CONTEXT.md`](PHASE_2_4_STAGE_2_CONTEXT.md) | **APPLICATION PENDING** (filed 2026-08-23; awaiting the curator's ratification) | the Stage-2 discovery forest: seven trees, pursuit and warrant ledgers, six-day arc, flight criteria F1-F5 |
+| [`PHASE_2_4_STAGE_2_CONTEXT.md`](PHASE_2_4_STAGE_2_CONTEXT.md) | **OPERATIVE** (ratified 2026-08-23 with the three-wave sequencing) | the Stage-2 discovery forest: seven trees, pursuit and warrant ledgers, six-day arc, flight criteria F1-F5 |
 | [`archive/PHASE_2_3_CONTEXT.md`](archive/PHASE_2_3_CONTEXT.md) | **HISTORICAL PRECURSOR** (Stage 1 complete; Stage-2 branches absorbed or deferred per the 2.4 registry) | the adaptive process-inversion program: seven wing roots, branching discipline, reporting protocol |
 | [`archive/PHASE_2_3_REGISTRY.md`](archive/PHASE_2_3_REGISTRY.md) | **HISTORICAL PRECURSOR** (closed at the 2026-08-22 ratification) | the Phase 2.3 root states and the reconciliation against the live head |
 | [`archive/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`](archive/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md) | **HISTORICAL PRECURSOR** (theory delta and design reconciliation applied 2026-08-21, commits `91f887d` and this pass) | provenance for the reconstructed curator language and the authority-layer repair |

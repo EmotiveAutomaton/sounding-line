@@ -1872,6 +1872,52 @@ STAGES += [
             "survive dialect destruction? Collapse = RIVAL-FAVORED (dialect)"},
 ]
 
+# ── STAGE 2 WAVE 1 2026-08-23 (appended at list end; Stage-2 package ratified with the
+# three-wave sequencing; discovery lane, statuses sealed to the daily cold map).
+STAGES += [
+    {"name": "scout_gen2", "est": 120,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "gen2"],
+     "produces": "results/scouts/family2_manifest.json", "needs": [],
+     "why": "E24-S3 second maker family: SmolLM2-instruct pair writes the same verified "
+            "goal corpus (accept-time realization, retirement rule standing)"},
+    {"name": "scout_norm", "est": 10,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "normalize"],
+     "produces": "results/scouts/norm_manifest.json",
+     "needs": ["results/scouts/family2_manifest.json"],
+     "why": "E24-S1a mechanical normalization of both corpora, realization re-verified"},
+    {"name": "scout_para2", "est": 150,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "para2"],
+     "produces": "results/scouts/para2_manifest.json",
+     "needs": ["results/scouts/family2_manifest.json"],
+     "why": "E24-S1c independent non-Qwen paraphraser over both corpora"},
+]
+for _v, _need in (("orig", "results/scouts/family2_manifest.json"),
+                  ("fam2", "results/scouts/family2_manifest.json"),
+                  ("norm", "results/scouts/norm_manifest.json"),
+                  ("para_qwen", "results/scouts/family2_manifest.json"),
+                  ("para2", "results/scouts/para2_manifest.json")):
+    STAGES += [
+        {"name": f"scout_mx_{_v}", "est": 100,
+         "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "matrix", "--variant", _v],
+         "produces": f"results/scouts/mx_{_v}_done.json", "needs": [_need],
+         "why": f"Tree-S matrix over the {_v} variant, eleven readers, echo-gated"},
+    ]
+STAGES += [
+    {"name": "scout_detector", "est": 15,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "detector"],
+     "produces": "results/scouts/s2_detector.json",
+     "needs": ["results/scouts/para2_manifest.json", "results/scouts/norm_manifest.json"],
+     "why": "E24-S2 maker-family detector, topic-held-out, applied to every variant to "
+            "VERIFY erasure rather than assume it"},
+    {"name": "scout_s_analyze", "est": 10,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "analyze"],
+     "produces": "results/scouts/s_wave1.json",
+     "needs": ["results/scouts/mx_orig_done.json", "results/scouts/mx_fam2_done.json",
+               "results/scouts/mx_norm_done.json", "results/scouts/mx_para_qwen_done.json",
+               "results/scouts/mx_para2_done.json", "results/scouts/s2_detector.json"],
+     "why": "Tree-S wave-1 synthesis: crossed reversal, erasure survival, detector map"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1902,7 +1948,9 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g169r_validate", "g169r_classify", "g169r_span", "g169r_blind",
                     "g168_gen", "g168r_process", "g168r_classify",
                     "g172_corpus", "g172_matrix", "g174_ruler", "g177_anchor",
-                    "g177_sw_reader", "scout_s02_para", "scout_s02_matrix"}
+                    "g177_sw_reader", "scout_s02_para", "scout_s02_matrix",
+                    "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
+                    "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

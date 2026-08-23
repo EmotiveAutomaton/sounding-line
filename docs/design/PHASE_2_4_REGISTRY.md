@@ -43,6 +43,16 @@ multiplicity object.
 | P24-A3 | **G179** | does a learned low-rank deformation hold the G176 gain? | affect-label-only adapter vs equal-capacity controls | pending robust G176 positive |
 | P24-X0 | **G180** | does the frozen mechanism survive fresh families, corpora, and adversaries? | part A adversarial confirmation; part B human packet (prepared, never launched without the separate curator decision) | pending G176 or G178 |
 
+## Stage 2 (ratified 2026-08-23; brief at `PHASE_2_4_STAGE_2_CONTEXT.md`)
+
+Three waves by decisiveness per build hour, the package's always-run spine intact: Wave 1 =
+Tree-S erasure tournament + source detector + second maker family (SmolLM2-instruct pair,
+downloaded 2026-08-23) + powered ScholaWrite validation + CoAuthor action tree; Wave 2 =
+the Tree-P process ecology; Wave 3 = Tree-E route curves + Tree-A ruler rebuild. Pursuit
+and warrant ledgers separate from here on; daily cold map at each queue-day's end; six-day
+arc to mandatory synthesis. Wave-1 Tree-S stages queued 2026-08-23 (scout_stage2_s.py);
+the H-tree wave-1 runners follow at the next build pass.
+
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 
 Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after

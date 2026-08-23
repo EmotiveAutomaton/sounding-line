@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-22 05:06",
+  "started": "2026-08-23 07:46",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -804,9 +804,76 @@
       "why": "G168-R arm blind: selection / veto / repair role recovery, per question, never aggregated",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g177_anchor",
+      "why": "G177 P24-H0 anchor: conditional-likelihood reader on the G159 realized revisions, the known-positive artifact-only target",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g177_coauthor",
+      "why": "G177 CoAuthor import: fetch + inventory; objective actions only, token share never a target; nonzero exit and retry when unreachable",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g177_sw_reader",
+      "why": "G177 ScholaWrite LOPO reader arm: local model over the fixed label set, citation known-answer subset per L139 before its verdicts count",
+      "est_minutes": 240,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_s02_para",
+      "why": "E24-S02 goal-preserving paraphrase of the similarity corpus (mechanical realized() acceptance per item; Qwen-paraphraser confound recorded)",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_s02_matrix",
+      "why": "E24-S02 matrix re-run on erased artifacts: does the similarity gradient survive dialect destruction? Collapse = RIVAL-FAVORED (dialect)",
+      "est_minutes": 180,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_mx_orig",
+      "why": "Tree-S matrix over the orig variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/family2_manifest.json"
+      ]
+    },
+    {
+      "name": "scout_mx_para_qwen",
+      "why": "Tree-S matrix over the para_qwen variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/family2_manifest.json"
+      ]
+    },
+    {
+      "name": "scout_mx_para2",
+      "why": "Tree-S matrix over the para2 variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/para2_manifest.json"
+      ]
+    },
+    {
+      "name": "scout_detector",
+      "why": "E24-S2 maker-family detector, topic-held-out, applied to every variant to VERIFY erasure rather than assume it",
+      "est_minutes": 15,
+      "status": "DEFERRED",
+      "missing": [
+        "results/scouts/para2_manifest.json",
+        "results/scouts/norm_manifest.json"
+      ]
     }
   ],
   "shard": "0/3",
-  "finished": "2026-08-22 05:06",
+  "finished": "2026-08-23 07:46",
   "failed": []
 }

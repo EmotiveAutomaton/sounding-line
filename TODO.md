@@ -198,6 +198,16 @@ all 8 guards green); three Stage-1 cards frozen and queued.
 | **P24-A3 learned prior** | **G179** | does a small learned deformation preserve the G176 gain more reliably than hand-set scaling? | G176 robust positive only; never built to rescue a null | pending |
 | **P24-X0 flight confirmation + human anchor** | **G180** | does the frozen mechanism survive fresh families, fresh corpora, and adversarial artifacts; human-reader packet prepared but never launched without the separate curator decision | G176 or G178 positive | pending |
 
+## Phase 2.4 Stage 2 — the discovery forest (RATIFIED 2026-08-23; brief `docs/design/PHASE_2_4_STAGE_2_CONTEXT.md`; seven trees S/P/E/A/H/V/X, pursuit and warrant ledgers, six-day arc)
+
+Wave 1 (QUEUED 2026-08-23): Tree-S erasure tournament (mechanical normalization, non-Qwen
+paraphraser, crossed imprint), source-family detector, second maker family
+(SmolLM2-instruct), full five-variant reader matrix, crossed-reversal analysis; H1 powered
+ScholaWrite validation and H2/H3 CoAuthor action tree are the next build items. Wave 2:
+Tree-P process ecology (P0-P4). Wave 3: Tree-E projection-correction curves, Tree-A ruler
+rebuild (A1-A4). Promotion only through the conjunctions (S9, P11, E16, A10); flight
+criteria F1-F5; next free trunk identifier G181.
+
 ## Phase 2 — the wider program, each step behind its anchor (items outside the 2.0 slice continue here)
 
 | | study | gate it waits on | state |
