@@ -12,7 +12,12 @@ One theory-level map per ordinary queue-day, written before reading further scou
 - **Tree S:** each maker family's artifacts are read best by that family's readers, and with
   each corpus rewritten by the other family in turn, the advantage follows the original maker
   while the rewriting family gains nothing from having produced the text. A surface classifier
-  confirms the rewriting halves detectable family signal without removing it.
+  confirms the rewriting halves detectable family signal without removing it, and the
+  ladder's first rung adds that the crossed pattern dies when the candidate uses the maker's
+  own instruction wording, which is where a surface account would predict it strongest.
+- **Tree H:** the prompted next-intention reader failed its powered validation outright and
+  its route is closed after one repair; the non-generative form is queued as the routed
+  alternative, and if it also fails the prospective interface has no validated reader.
 - **Tree P, E, A, V:** not run today. Tree H: unchanged since Stage 1 (anchor validated,
   prospective floors mapped, one reader arm unvalidated, CoAuthor imported and unread).
 - **Tree X:** the standing adversaries have not yet been attached to the surviving mechanism.
@@ -20,8 +25,9 @@ One theory-level map per ordinary queue-day, written before reading further scou
 ### Pursuit movement
 
 - **Opened and closed within the day:** the mirror erasure arm, which completed the
-  crossed-imprint design. **Opened:** the process-resolution ladder, the geometry linkage
-  whose trigger condition the reversal now meets.
+  crossed-imprint design. **Opened and first rung landed:** the process-resolution ladder. **Opened:** the geometry
+  linkage whose trigger condition the reversal now meets; the non-generative prospective
+  reader. **Closed:** the prompted-reader route to the scholarly-writing corpus.
 - **Promoted:** nothing to confirmation. Tree S's promotion conjunction needs three of four
   and currently holds one and a half: a crossed reversal, and erasure survival that is real
   but partial.
@@ -44,7 +50,7 @@ One theory-level map per ordinary queue-day, written before reading further scou
 - **Rivals weakened:** simple reader quality cannot produce a reversal that follows the
   artifact's origin, and artifact dialect cannot produce an advantage that survives being
   rewritten by a different family which then gains nothing itself. Both of the cheap accounts
-  are now doing badly.
+  are now doing badly, from three independent directions in one day.
 - **Rivals still standing:** partial erasure means family surface information survives the
   strongest eraser built so far; the effect could still be any family-specific regularity
   rather than shared generative organization; nothing yet shows the relation helping at a

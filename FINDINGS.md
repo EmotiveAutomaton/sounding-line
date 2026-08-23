@@ -7273,6 +7273,73 @@ evidence this scout does not touch.
 - **Detail pointer:** `results/scouts/s_wave1.json`, `results/scouts/s2_detector.json`,
   `runners/scout_stage2_s.py`.
 
+## L166 · The crossed reversal lives at the abstract rung and dies at the literal one: asking with the maker's own instruction wording inflates every margin and hands all four corpora to one reader family
+
+**Hypothesis.** *(Stage-2 Tree-S scout E24-S03, the process-resolution ladder's first rung:
+does the maker-reader family relation operate on WORDING, or on something the wording only
+points at? If the relation is surface-shaped it should be strongest where the candidate text
+overlaps the artifact most — that is, when the candidates are the literal instructions the
+makers were given, verbatim.)*
+
+**Method.** The same eleven echo-gated readers scored the same untouched artifacts from both
+maker families, changing only the candidate set: the abstract rung uses a paraphrased
+description of the goal, sharing almost no vocabulary with the artifact; the literal rung uses
+the verbatim instruction each maker was given, which names the same entities the artifact was
+required to contain. Everything else is held fixed.
+
+**Found.** The summary statistic says the family term more than triples at the literal rung
+(own-family minus other-family goes from +0.0195 to +0.0676 on the Qwen corpus and from
++0.0142 to +0.0330 on the SmolLM2 corpus). **The head-to-head between the two strong families
+says the opposite, and it is the one that matters.**
+
+| | Qwen artifacts read by Qwen | by SmolLM2 | SmolLM2 artifacts read by SmolLM2 | by Qwen |
+|---|---|---|---|---|
+| abstract goal rung | **0.0554** | 0.0465 | **0.0433** | 0.0395 |
+| literal instruction rung | **0.1360** | 0.0973 | 0.1092 | **0.1183** |
+
+*Caption: mean margin of the true candidate over its decoys, per-token score units. Bold marks
+the winning reader family for each corpus. At the abstract rung each corpus is won by its own
+family, which is the crossed reversal. At the literal rung one family wins both corpora.*
+
+At the literal rung every margin roughly doubles or triples, exactly as a wording-overlap
+effect should, and the reversal breaks: Qwen readers become the best readers of SmolLM2
+artifacts as well as their own. The clean crossed pattern exists only where the candidate
+shares almost no vocabulary with the artifact.
+
+**Means.** The relation effect is not a wording artifact. Had it been, it would have been
+cleanest where wording overlap is greatest, and instead that is exactly where it dissolves
+into a single family reading everything better. What the literal rung measures is largely
+reader strength on an easy, echo-rich task; what the abstract rung measures is a smaller
+quantity that follows the artifact's origin. This is the second control in two passes to cut
+against the surface account, after cross-family rewriting failed to move the advantage
+(L165). It still says nothing about whether the relation helps at any target other than
+recovering an assigned goal, which is the next rung and the Tree-P question.
+
+**A statistic-shape caution this run earned.** Own-family minus other-family, averaged over a
+heterogeneous set of other readers, stayed positive at the literal rung for both corpora even
+though the decisive comparison between the two strong families had flipped, because the
+average is held up by the two weak architectures. The pairwise matrix is the result; the
+one-number contrast is a summary that can hide a reversal inside it. Every crossed claim in
+this wing now reports the head-to-head cells beside the contrast.
+
+### Curator roll-up
+
+- **Theory group:** Reader Heuristics (the similarity shortcut, model analogue)
+- **Question in plain language:** Is the family advantage about the words, or about something
+  the words only point at?
+- **Outcome class:** Strengthens
+- **Result:** Asking with the maker's own instruction wording inflates every margin and hands
+  both corpora to one reader family; the reversal survives only where the candidate and the
+  artifact barely share vocabulary.
+- **Project meaning:** The wording account of the similarity effect is doing badly from a
+  second direction, and the abstract rung is established as the honest place to measure it.
+- **Next engineering obligation:** The rungs above wording, which ask whether the relation
+  helps recover anything the maker did that the instruction did not state.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No.
+- **Detail pointer:** `results/scouts/s_wave1.json` (variants `origL` and `fam2L`),
+  `runners/scout_stage2_s.py`.
+
 ---
 
 # TIER 2 · SETTLED

@@ -294,6 +294,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
   band from the probe count. Same family as "power before verdicts", applied to the GATES
   rather than the primary. (L163, G172 reader gates)
 
+- **A one-number contrast averaged over a heterogeneous comparison set can stay positive
+  while the decisive pairwise comparison inside it flips; report the matrix beside the
+  contrast.** An own-family-minus-other-family statistic remained positive for both corpora
+  at a surface-heavy rung even though the head-to-head between the two strong families had
+  reversed, because two weak architectures in the "other" average propped it up. The summary
+  was not wrong, it was answering a different question than the one being claimed. Any
+  crossed or reversal claim reports its cells. (L166)
+
 - **A transformer used as an ERASER is an instrument and needs an echo gate: measure how much
   it actually changed, per item, and exclude un-transformed items from any survival claim.**
   An instruct paraphraser returned 13 to 27 percent of its inputs essentially unchanged, and

@@ -71,7 +71,9 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   it, L165) · S3 second maker
   family — PROMISING (127 of 128 cells, the crossed reversal's precondition, L165) ·
   S1d crossed imprint — PROMISING and COMPLETE (L165: the advantage follows the original
-  maker, not the paraphraser; the rewriting family gains nothing) · S03 ⚙ process-resolution ladder ·
+  maker, not the paraphraser; the rewriting family gains nothing) · S03 ⚙ process-resolution ladder — rung 1 PROMISING
+  (L166: the crossed pattern dies at literal instruction wording and lives at the abstract
+  rung, so the relation is not surface-shaped; higher rungs owed) ·
   S04 lineage ladder · S05 ⚙ capacity asymmetry —
   PROMISING (unsealed, filed L164: complete family separation, weak size-margin rank
   relation 0.43) · S06 tokenizer control · S07 geometry
