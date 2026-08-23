@@ -119,11 +119,13 @@ Qwen artifacts are simply most legible to Qwen readers, for any reason — canno
 separated from shared-organization until an instruct-class second maker family and a
 non-Qwen paraphraser exist.
 
-**8 · The prospective interface has no validated reader.** Everything aimed at
-predict-the-next-choice sits near mechanical floors, and the one model reader pointed at it
-carries an unpowered validation gate (one decidable case in 600 sampled events, L161). Until
-a stratified validation passes, the project's anti-projection interface — the place where a
-retrospective story goes to die — has floors but no calibrated instrument.
+**8 · The prospective interface has no validated prompted or likelihood reader.** Both
+failed powered validation at or near chance (L161), and a cheap probe of even the realized
+edit carries almost nothing (0.048) — while the recorded fine-tuned grid (L82) shows
+trained encoders reach 0.26 to 0.61 on the same task family, so the boundary belongs to the
+reader families tried, not to the annotation. The anti-projection interface has floors, one
+demonstrated-but-unvalidated instrument class (trained encoders), and no calibrated
+zero-shot instrument.
 
 ---
 
@@ -6911,19 +6913,25 @@ routing, the boundary is preserved and the next instrument is the non-generative
 is the reader validated on the anchor above; if that also fails, the prospective interface has
 no validated reader of any form and that is the finding.
 
-**The non-generative form also failed, same day, and the boundary finding is reached.** The
+**The non-generative form also failed, same day.** The
 likelihood reader that recovers realized revisions at 0.78 on the anchor scored the same
 stratified citation subset by how much the draft raises each intention statement's likelihood,
 label priors subtracted: sensitivity 0.083, specificity 1.000, balanced accuracy 0.542 against
 the 0.589 chance-band top. At chance, an even more extreme version of the same under-use
-signature, and its leave-one-project-out numbers were withheld by its own precondition. **The
-prospective next-intention interface on this corpus now has no validated reader of any form**:
-majority and transition baselines sit at 0.04 to 0.08 macro-F1, the prompted reader and the
-likelihood reader both fail a validation their known-answer subset makes mechanical. The
-honest scope: this maps a hard boundary of every instrument tried, not yet a boundary of the
-world, because the target's process-aware ceiling, whether ANY method can predict the next
-intention from the full record, is unmeasured. Measuring that ceiling is what remains of this
-interface; nothing else runs on it.
+signature, and its leave-one-project-out numbers were withheld by its own precondition. **The boundary, at its corrected scope (revised the same evening, and the correction came
+from this project's own record).** The first form of this paragraph claimed the interface had
+no validated reader of any form; that overreached. The cheap ceiling probe then ran, a
+surface classifier reading the REALIZED edit itself under leave-one-project-out, and scored
+0.048 macro-F1, indistinguishable from the prospective floors; its automatic verdict called
+the label noise. But the recorded fine-tuned grid (L82) already places trained encoders at
+0.26 to 0.61 macro-F1 on this task family under the same split discipline, so the label is
+NOT noise and the runner's mechanical verdict is overridden by the record. The honest
+boundary: **prompted and likelihood readers fail at floors where trained encoders
+demonstrably succeed**, a reader-family boundary rather than an interface boundary, and
+cheap surface features of even the realized edit carry almost nothing, so whatever carries
+the label needs a trained encoder to reach it. The zero-shot and likelihood routes stay
+closed; the trained-encoder route is the recorded exception, and any future use of it owes
+the standard known-answer validation first.
 
 **Means.** The Phase 2.4 instrument is field-validated on a known-positive target: the
 non-generative form keeps most of the recorded recovery while making fabrication

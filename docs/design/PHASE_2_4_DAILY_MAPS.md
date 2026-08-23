@@ -18,8 +18,11 @@ One theory-level map per ordinary queue-day, written before reading further scou
 - **Tree H:** the prompted next-intention reader failed its powered validation outright and
   its route is closed after one repair; the non-generative form then ALSO failed
   at chance with an even more extreme under-use signature, so the prospective next-intention
-  interface has no validated reader of any form; what remains on it is the process-aware
-  ceiling, which decides whether the target is recoverable from the record at all.
+  interface has no validated prompted or likelihood reader. The ceiling probe then
+  corrected the boundary's scope from our own record: cheap features of even the realized
+  edit carry almost nothing (0.048), yet the recorded fine-tuned grid reaches 0.26 to 0.61
+  on the same task under the same split, so the boundary belongs to the reader families
+  tried rather than to the annotation, with trained encoders the recorded exception.
 - **Tree P:** the ecology's first factorial refused itself informatively: the makers obey
   two of four assigned preference profiles and ignore the rest, revealing strong intrinsic
   evidence appetites a one-line instruction cannot override; the v2 design flips the object
