@@ -7183,27 +7183,57 @@ and its magnitude is slightly smaller than first reported. Mechanical normalizat
 from this filter by construction, since it changes punctuation and casing rather than
 rewriting, and its erasure question belongs to the source detector instead.
 
-**The mirror arm is running and its numbers are withheld.** The Qwen paraphraser over the
-SmolLM2 corpus passed its erasure gate cleanly (median character overlap 0.038, nothing
-identical), but its reader matrix is only partway through, and an own-minus-other contrast
-over a partial reader set has both of its sides chosen by whichever families happened to
-finish first. A completeness guard now withholds any variant whose matrix has not written its
-done marker; the mirror cell reports when it is complete.
+**The mirror arm's own near-miss, recorded because the guard is the reusable part.** The Qwen
+paraphraser over the SmolLM2 corpus passed its erasure gate cleanly (median character overlap
+0.038, nothing identical), and its first contrast read +0.0197, larger than the untouched
+value and a striking headline. That number was computed over a reader matrix five of eleven
+deep, three of those the maker's own family, so both sides of the comparison were set by
+whoever had finished. Complete, the cell reads +0.0107. A completeness guard now withholds any
+variant whose matrix has not written its done marker. The mirror variant holds only one maker
+family, so no family classifier can attest its erasure; the character-overlap gate does that
+job there instead.
 
 **The erasure is measurable and partial.** A topic-held-out classifier reading only surface
-character patterns identifies the maker family at 0.636 on normalized text and 0.518 after
-independent paraphrase, against 0.333 chance for the three-way problem: the eraser removed much
-of the detectable family surface signal and the reading advantage survived anyway, but family
-information is reduced rather than gone.
+character patterns identifies the maker family at 0.664 on normalized text and 0.582 after
+independent paraphrase, against 0.500 chance for the two-family problem: the eraser halves the
+detectable family surface signal, from sixteen points above chance to eight, and the reading
+advantage survives anyway. Family information is reduced rather than gone. *(These figures
+replace the 0.636 and 0.518 first reported, which were computed against a three-way chance of
+0.333 because the retired makers were still contaminating the classifier's label set.)*
 
-**Means.** Reader quality explains most of the spread — both modern instruct-era families beat
+**The crossed-imprint design completed the same day, and it discriminates.** With the mirror
+arm finished, each family's artifacts have now been rewritten by both a same-family and a
+cross-family paraphraser, which separates three accounts the earlier cells could not.
+
+| artifacts written by | untouched | mechanically normalized | rewritten by their own family | rewritten by the OTHER family |
+|---|---|---|---|---|
+| the Qwen makers | +0.0195 | +0.0195 | +0.0119 | **+0.0117** |
+| the SmolLM2 makers | +0.0142 | +0.0142 | +0.0130 | **+0.0107** |
+
+*Caption: own-family minus other-family reader margin, per maker family, under each
+transformation; every cell at p = 0.00005 over 93 to 127 genuinely rewritten artifacts. The
+last column is the non-circular test: the eraser and the maker come from different families.*
+
+**The advantage follows the artifact's original maker, not the model that rewrote it.** Had it
+followed the paraphraser, Qwen-rewritten SmolLM2 artifacts should have favoured Qwen readers
+and SmolLM2-rewritten Qwen artifacts should have favoured SmolLM2 readers. Neither happens: on
+SmolLM2 artifacts rewritten by Qwen, SmolLM2 readers still lead (0.0384 against Qwen readers'
+0.0354), and on Qwen artifacts rewritten by SmolLM2, Qwen readers still lead (0.0443 against
+0.0423). Rewriting lowers every reader slightly and preserves the ordering; the rewriting
+family gains nothing from having produced the text. Of the three signatures the design was
+built to separate, only the first survives.
+
+**Means (revised as the design completed).** Reader quality explains most of the spread — both modern instruct-era families beat
 Pythia and GPT-2 on everything — and the own-family term is a smaller effect riding on top of
 that ordering, roughly 0.014 to 0.020 score units. But it is the term that reverses with the
 artifact's origin, which reader quality cannot do, and it survives an eraser built from a
 different family than the artifacts it rewrites. That combination is what the single-family
-Stage-1 result could not deliver. One circularity remains: the SmolLM2 rows are erased by a
-SmolLM2 paraphraser, so the clean non-circular cell so far is Qwen artifacts erased by SmolLM2
-(+0.0129); the mirror arm (SmolLM2 artifacts erased by Qwen) is cheap and owed. Discovery
+Stage-1 result could not deliver, and the completed crossed-imprint design adds the sharper
+fact: the advantage is a property of who wrote the text, surviving rewriting by a different
+family that gains nothing from having done the rewriting. What remains unsettled is what
+"family" names mechanically. Surface family signal is halved but not removed, both surviving
+families are modern instruction-tuned models while the two that lose are older architectures,
+and nothing here shows the relation helping at any target beyond goal wording. Discovery
 grade, no promotion: the Stage-2 conjunction for Tree S requires process-level and geometry
 evidence this scout does not touch.
 
@@ -7214,12 +7244,13 @@ evidence this scout does not touch.
   wrote it, or were we just watching better readers win?
 - **Outcome class:** Strengthens
 - **Result:** Each maker family's artifacts are read best by its own relatives, and the
-  reversal survives an independent eraser that cuts measured family surface signal.
+  advantage follows the original maker rather than the model that rewrote the text, through
+  a cross-family eraser that halves measured family surface signal.
 - **Project meaning:** The similarity effect belongs to the maker-reader relation, not to
   reader quality alone; the surface-dialect account is now the weaker half of the rival set.
-- **Next engineering obligation:** The mirror erasure arm (Qwen paraphraser over the SmolLM2
-  corpus) and the process-resolution ladder, which asks whether the relation helps at anything
-  beyond wording.
+- **Next engineering obligation:** The process-resolution ladder, which asks whether the
+  relation helps at anything beyond goal wording, and the geometry linkage, whose trigger
+  condition the crossed reversal now meets.
 - **Public claim:** Unchanged (model-analogue result; no human claim licensed).
 - **Curator decision required:** No.
 - **Detail pointer:** `results/scouts/s_wave1.json`, `results/scouts/s2_detector.json`,

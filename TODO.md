@@ -204,8 +204,10 @@ Wave 1 Tree-S LANDED 2026-08-23 (L165): **the crossed reversal appears** — eac
 artifacts are read best by that family's readers (+0.020 and +0.014 own-minus-other, both at
 the permutation floor), holding under mechanical normalization and under an independent
 SmolLM2 eraser that cuts measured family surface detection from 0.64 to 0.52 against 0.33
-chance. Owed and queued: the mirror erasure arm (Qwen paraphraser over the SmolLM2 corpus,
-completing the crossed-imprint design) and the process-resolution ladder. Still to build: H1 powered
+chance. The crossed-imprint design COMPLETED the same day: each family's artifacts rewritten by the
+other family in turn, and the advantage follows the original maker (+0.012 and +0.011 after
+cross-family rewriting) while the rewriting family gains nothing. Next: the process-resolution
+ladder (does the relation help beyond goal wording) and the geometry linkage. Still to build: H1 powered
 ScholaWrite validation and H2/H3 CoAuthor action tree are the next build items. Wave 2:
 Tree-P process ecology (P0-P4). Wave 3: Tree-E projection-correction curves, Tree-A ruler
 rebuild (A1-A4). Promotion only through the conjunctions (S9, P11, E16, A10); flight

@@ -206,9 +206,35 @@
    "n_genuinely_erased": 199
   },
   "para_qwen2": {
-   "incomplete": true,
-   "readers_scored": 6,
-   "note": "matrix still running; contrasts withheld"
+   "cells": {
+    "smollm->gpt2": {
+     "mean_margin": 0.01086566811901028,
+     "n": 118
+    },
+    "smollm->pythia": {
+     "mean_margin": 0.02309142353395509,
+     "n": 354
+    },
+    "smollm->qwen": {
+     "mean_margin": 0.035435025638106174,
+     "n": 472
+    },
+    "smollm->smollm": {
+     "mean_margin": 0.038413864744585115,
+     "n": 354
+    }
+   },
+   "own_minus_other_by_maker_family": {
+    "smollm": 0.01067885958542258
+   },
+   "paired_permutation": {
+    "smollm": {
+     "mean": 0.01067885958542258,
+     "p": 4.999750012499375e-05,
+     "n_artifacts": 118
+    }
+   },
+   "n_genuinely_erased": 118
   }
  },
  "detector": {

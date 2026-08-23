@@ -9,20 +9,19 @@ One theory-level map per ordinary queue-day, written before reading further scou
 
 ### Result shape
 
-- **Tree S:** each maker family's artifacts are read best by that family's readers, and the
-  reversal survives both an unchanged-content normalization and an eraser built from a
-  different family, which a surface classifier confirms removes much of the detectable family
-  signal.
+- **Tree S:** each maker family's artifacts are read best by that family's readers, and with
+  each corpus rewritten by the other family in turn, the advantage follows the original maker
+  while the rewriting family gains nothing from having produced the text. A surface classifier
+  confirms the rewriting halves detectable family signal without removing it.
 - **Tree P, E, A, V:** not run today. Tree H: unchanged since Stage 1 (anchor validated,
   prospective floors mapped, one reader arm unvalidated, CoAuthor imported and unread).
 - **Tree X:** the standing adversaries have not yet been attached to the surviving mechanism.
 
 ### Pursuit movement
 
-- **Opened:** the mirror erasure arm (completing the crossed-imprint design; its paraphrase
-  passed the erasure gate cleanly and its reader matrix is still running, numbers withheld),
-  the process-resolution ladder, the geometry linkage whose trigger condition is now met
-  twice.
+- **Opened and closed within the day:** the mirror erasure arm, which completed the
+  crossed-imprint design. **Opened:** the process-resolution ladder, the geometry linkage
+  whose trigger condition the reversal now meets.
 - **Promoted:** nothing to confirmation. Tree S's promotion conjunction needs three of four
   and currently holds one and a half: a crossed reversal, and erasure survival that is real
   but partial.
@@ -43,7 +42,9 @@ One theory-level map per ordinary queue-day, written before reading further scou
   rewritten artifacts only; and a matrix-completeness guard, because a contrast read off a
   half-finished reader matrix has both its sides chosen by whichever readers finished first.
 - **Rivals weakened:** simple reader quality cannot produce a reversal that follows the
-  artifact's origin; simple removable surface dialect loses further ground.
+  artifact's origin, and artifact dialect cannot produce an advantage that survives being
+  rewritten by a different family which then gains nothing itself. Both of the cheap accounts
+  are now doing badly.
 - **Rivals still standing:** partial erasure means family surface information survives the
   strongest eraser built so far; the effect could still be any family-specific regularity
   rather than shared generative organization; nothing yet shows the relation helping at a
@@ -59,9 +60,10 @@ which is Tree P's object and Tree S cannot test. The Tree-A rebuild is unaffecte
 
 ### Open theory questions
 
-1. The advantage reverses with origin, which reader quality cannot do, but the eraser leaves
-   measurable family signal behind. What would count for you as enough erasure — a detector
-   at chance, or a different kind of transformation entirely?
+1. The advantage reverses with origin and follows the original maker through cross-family
+   rewriting, which neither reader quality nor artifact dialect can produce, but a surface
+   classifier still reads family at half strength after erasure. What would count for you as
+   enough erasure — a detector at chance, or a different kind of transformation entirely?
 2. Both surviving families are modern instruction-tuned models and both beat the older
    architectures on everything. Is instruction tuning itself a candidate for what
    "compatible organization" means here, or is that a confound to design out?

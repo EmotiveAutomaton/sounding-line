@@ -738,19 +738,20 @@ rate and next to a field bar.
 | **visibility partition** (§6) | authors at 0.78 (low-vis) vs 0.38 (high-vis); draft-stage 0.48 (high) vs 0.30 (low) | chance 0.10 / 0.33 | **SUPPORTED (test).** Clean double crossover, first pass |
 | **revision homogeneity** (§7) | real 0.45 vs spliced 1.94, AUC 1.0 | synthetic cross-author splice | **SUPPORTED (test), first pass, weakest adversary.** The realistic imposition case is untested |
 | **provenance prior** (§1) | ratio shift +0.007, *p* < 2×10⁻⁸, three corpora | paired identical text | **SUPPORTED (test), replicated.** In the reader model; human-side untested |
-| **maker-reader family similarity** (§1, model analogue) | original exact-vs-cross +0.035 and sibling-vs-cross +0.025; after accepted Qwen paraphrase +0.016 and +0.021; capacity-margin Spearman 0.43; crossed own-minus-other +0.020 for one maker family and +0.014 for the other, holding under an independent eraser | cross-family readers on identical candidates; accepted goal-preserving paraphrase; within-matrix capacity direction; a second maker family | **SUPPORTED (test, L163), first pass; discovery follow-ups PROMISING (test, L164, L165), no claim promotion.** The advantage reverses with the artifact's origin family and survives an eraser built from a different family, so the relation rather than reader quality carries it; erasure is partial, one mirror arm is owed, and the process-level and geometry legs of the promotion conjunction are untouched |
+| **maker-reader family similarity** (§1, model analogue) | original exact-vs-cross +0.035 and sibling-vs-cross +0.025; after accepted Qwen paraphrase +0.016 and +0.021; capacity-margin Spearman 0.43; crossed own-minus-other +0.020 and +0.014 untouched, +0.012 and +0.011 after cross-family rewriting | cross-family readers on identical candidates; goal-preserving paraphrase by each family in turn; within-matrix capacity direction; a second maker family | **SUPPORTED (test, L163), first pass; discovery follow-ups PROMISING (test, L164, L165), no claim promotion.** The advantage reverses with the artifact's origin family and follows the original maker through rewriting by the other family, so the relation rather than reader quality or artifact dialect carries it; surface family signal is halved rather than removed, both surviving families are instruction-tuned, and the process-level and geometry legs of the promotion conjunction are untouched |
 | anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | | | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
 **What the dashboard says.** Six heuristics carry numbers, and the family-similarity row is now
 the strongest of the new ones. Related readers recover a maker's recorded goals better than
 cross-family readers, and with a second maker family in place the advantage reverses with the
 artifact's origin rather than pointing at one favoured reader family, which is the pattern
-reader quality alone cannot produce. It survives mechanical normalization unchanged and survives
-an eraser built from a different family than the artifacts it rewrites, while a surface
-classifier confirms that eraser removes much of the detectable family signal. What remains
-unsettled is how much of the effect is shared generative organization rather than any other
-family-specific regularity, since erasure is measurably partial, one mirror erasure arm is
-still owed, and nothing here shows the relation helping at a target beyond wording. The two
+reader quality alone cannot produce. It survives mechanical normalization unchanged, and with each family's artifacts now rewritten
+by the other family in turn, the advantage stays with the original maker while the rewriting
+family gains nothing from having produced the text, which is the pattern an artifact-dialect
+account cannot produce either. What remains unsettled is what family membership names
+mechanically, since a surface classifier still reads family at half its former strength after
+erasure, both surviving families are instruction-tuned while both losing families are older
+architectures, and nothing here shows the relation helping at a target beyond goal wording. The two
 variation measures, the visibility partition, and the homogeneity statistic remain plausibly
 distinct channels, but stacking still waits on construct validation. Confidence: the
 surface-variation number is replicated and controlled; the similarity root and the other

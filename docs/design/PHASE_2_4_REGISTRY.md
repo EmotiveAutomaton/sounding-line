@@ -50,9 +50,10 @@ Tree-S erasure tournament + source detector + second maker family (SmolLM2-instr
 downloaded 2026-08-23) + powered ScholaWrite validation + CoAuthor action tree; Wave 2 =
 the Tree-P process ecology; Wave 3 = Tree-E route curves + Tree-A ruler rebuild. Pursuit
 and warrant ledgers separate from here on; daily cold map at each queue-day's end; six-day
-arc to mandatory synthesis. Wave-1 Tree-S landed 2026-08-23 (L165): the crossed reversal appears and survives an
-independent eraser; the mirror erasure arm and the process-resolution ladder are queued behind
-it. The H-tree wave-1 runners (powered ScholaWrite validation, CoAuthor action tree) follow at
+arc to mandatory synthesis. Wave-1 Tree-S landed 2026-08-23 (L165): the crossed reversal appears, and the completed
+crossed-imprint design shows the advantage following the artifact's original maker rather than
+the model that rewrote it. Next: the process-resolution ladder (does the relation help beyond
+goal wording) and the geometry linkage, whose trigger the reversal now meets. The H-tree wave-1 runners (powered ScholaWrite validation, CoAuthor action tree) follow at
 the next build pass. Daily cold maps live in `PHASE_2_4_DAILY_MAPS.md`.
 
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
@@ -65,10 +66,12 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   exact half-erased, sibling nearly intact; Qwen-circularity caps the meaning) · S1a mechanical normalization —
   QUIET (no movement in either direction, filed L165) · S1c independent SmolLM2 eraser —
   PROMISING (crossed reversal survives, L165) · S2 source detector — PROMISING as a
-  verification instrument (family detection 0.64 normalized to 0.52 after independent
-  paraphrase against 0.33 chance, so erasure is real and partial, L165) · S3 second maker
+  verification instrument (family detection 0.664 normalized to 0.582 after cross-family
+  paraphrase against 0.500 chance, so erasure halves the surface signal without removing
+  it, L165) · S3 second maker
   family — PROMISING (127 of 128 cells, the crossed reversal's precondition, L165) ·
-  S1d crossed imprint — RUNNING (the owed mirror arm) · S03 ⚙ process-resolution ladder ·
+  S1d crossed imprint — PROMISING and COMPLETE (L165: the advantage follows the original
+  maker, not the paraphraser; the rewriting family gains nothing) · S03 ⚙ process-resolution ladder ·
   S04 lineage ladder · S05 ⚙ capacity asymmetry —
   PROMISING (unsealed, filed L164: complete family separation, weak size-margin rank
   relation 0.43) · S06 tokenizer control · S07 geometry
