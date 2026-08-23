@@ -1940,6 +1940,34 @@ STAGES += [
      "why": "Tree-S re-synthesis with the crossed-imprint design complete"},
 ]
 
+# ── STAGE 2 next rungs 2026-08-23: the process-resolution ladder's surface-sensitive rung
+# (does the family relation help only at literal instruction wording?) and the owed powered
+# ScholaWrite validation (H1), which repairs the unpowered L161 gate.
+STAGES += [
+    {"name": "scout_mx_origL", "est": 100,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "matrix",
+             "--variant", "orig", "--rung", "literal"],
+     "produces": "results/scouts/mx_origL_done.json",
+     "needs": ["results/scouts/mx_orig_done.json"],
+     "why": "S4 rung 1 on the Qwen corpus: literal instruction wording as the candidate set"},
+    {"name": "scout_mx_fam2L", "est": 100,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "matrix",
+             "--variant", "fam2", "--rung", "literal"],
+     "produces": "results/scouts/mx_fam2L_done.json",
+     "needs": ["results/scouts/mx_fam2_done.json"],
+     "why": "S4 rung 1 on the SmolLM2 corpus, same rung, crossed"},
+    {"name": "scout_ladder_analyze", "est": 10,
+     "cmd": [PY, "runners/scout_stage2_s.py", "--arm", "analyze"],
+     "produces": "results/scouts/s_ladder_done.json",
+     "needs": ["results/scouts/mx_origL_done.json", "results/scouts/mx_fam2L_done.json"],
+     "why": "ladder synthesis: is the relation term larger at literal wording than at goal?"},
+    {"name": "g177_sw_validation", "est": 90,
+     "cmd": [PY, "runners/run_g177_baselines.py", "--arm", "sw_validation"],
+     "produces": "results/g177/scholawrite_validation.json", "needs": [],
+     "why": "H1 powered validation: stratified toward mechanically decidable citation "
+            "edits with matched negatives, band derived at the sample size"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -1973,7 +2001,8 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "g177_sw_reader", "scout_s02_para", "scout_s02_matrix",
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
-                    "scout_mx_para_qwen2"}
+                    "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
+                    "g177_sw_validation"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

@@ -47,7 +47,9 @@ READERS2 = MAKERS2          # added to the original nine readers in the matrix a
 ATTEMPTS2 = 16
 VARIANTS = {"orig": "g172", "fam2": "g172_family2", "norm": "g172_norm",
             "para_qwen": "g172_paraphrase", "para2": "g172_para2",
-            "para_qwen2": "g172_para_qwen2"}
+            "para_qwen2": "g172_para_qwen2",
+            # ladder rung 1 (literal instruction wording) over the untouched corpora
+            "origL": "g172", "fam2L": "g172_family2"}
 
 
 def family_of(model: str) -> str:
@@ -322,7 +324,18 @@ def arm_mirror() -> int:
     return 0
 
 
-def arm_matrix(variant: str) -> int:
+def literal_candidate(topic_i: int, goal_i: int) -> str:
+    """Rung 1 of the process-resolution ladder: the literal instruction the maker was given,
+    verbatim, rather than a paraphrase of the goal. The most surface-sensitive rung by
+    construction, since these exact words conditioned the generation."""
+    topic = TOPICS[topic_i][0]
+    a, b, avoid = goal_entities(topic_i, goal_i)
+    return (f"Write one short informative paragraph about {topic}. The paragraph must "
+            f"mention {a} first and {b} later, and must not mention {avoid[0]} or "
+            f"{avoid[1]}.")
+
+
+def arm_matrix(variant: str, rung: str = "goal") -> int:
     from prereg.g172 import READERS                                              # noqa: PLC0415
     from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock          # noqa: PLC0415
     from soundingline.probe.conditional_reader import (candidate_scores,         # noqa: PLC0415
@@ -333,7 +346,8 @@ def arm_matrix(variant: str) -> int:
     acquire_gpu_lock(f"scout_mx_{variant}")
     try:
         for reader in sorted(readers, key=lambda r: ("3b" in r.lower() or "2.8b" in r, r)):
-            dest = OUT / f"mx_{variant}_{short(reader)}.json"
+            tag = variant if rung == "goal" else f"{variant}L"
+            dest = OUT / f"mx_{tag}_{short(reader)}.json"
             if dest.exists():
                 continue
             model, tok = load_reader(reader, device="cuda", dtype="float16")
@@ -355,9 +369,10 @@ def arm_matrix(variant: str) -> int:
                 free_readers()
                 print(f"  {short(reader)} EXCLUDED (echo {ka}/{len(probes)})")
                 continue
+            cand_fn = literal_candidate if rung == "literal" else candidate
             cases = []
             for a in arts:
-                cands = [candidate(a["topic_i"], g) for g in range(4)]
+                cands = [cand_fn(a["topic_i"], g) for g in range(4)]
                 res = candidate_scores(model, tok, cands, a["text"])
                 truth = a["goal_i"]
                 margin = res["scores"][truth] - (sum(res["scores"])
@@ -373,8 +388,9 @@ def arm_matrix(variant: str) -> int:
             print(f"  {short(reader)} done")
     finally:
         release_gpu_lock()
-    (OUT / f"mx_{variant}_done.json").write_text(json.dumps(
-        {"variant": variant, "n": len(arts), "readers": len(readers)}, indent=1),
+    tag = variant if rung == "goal" else f"{variant}L"
+    (OUT / f"mx_{tag}_done.json").write_text(json.dumps(
+        {"variant": variant, "rung": rung, "n": len(arts), "readers": len(readers)}, indent=1),
         encoding="utf-8", newline="\n")
     return 0
 
@@ -424,7 +440,7 @@ def _erased_keys(variant: str) -> set | None:
     source detector, not by character overlap).
     """
     import difflib                                                               # noqa: PLC0415
-    if variant in ("orig", "fam2", "norm"):
+    if variant in ("orig", "fam2", "norm", "origL", "fam2L"):
         return None
     dst = COR / VARIANTS[variant]
     if not dst.exists():
@@ -541,6 +557,10 @@ def arm_analyze() -> int:
         {"scout": "E24-S1/S2/S3 wave-1 analysis", "status": status,
          "crossed_reversal_own_gt_other": reversal, "variants": summary,
          "detector": det}, indent=1), encoding="utf-8", newline="\n")
+    if (OUT / "mx_fam2L_done.json").exists():
+        (OUT / "s_ladder_done.json").write_text(json.dumps(
+            {"note": "ladder rung 1 synthesis complete", "status": status}, indent=1),
+            encoding="utf-8", newline=_LF)
     if (OUT / "mx_para_qwen2_done.json").exists():
         (OUT / "s_wave1b_done.json").write_text(json.dumps(
             {"note": "re-synthesis with the crossed-imprint design complete",
@@ -555,12 +575,13 @@ def main() -> int:
                     choices=["gen2", "normalize", "para2", "mirror", "matrix",
                              "detector", "analyze"])
     ap.add_argument("--variant", default="orig")
+    ap.add_argument("--rung", default="goal", choices=["goal", "literal"])
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
     rc = {"gen2": arm_gen2, "normalize": arm_normalize, "para2": arm_para2,
           "mirror": arm_mirror, "detector": arm_detector, "analyze": arm_analyze,
-          "matrix": lambda: arm_matrix(a.variant)}[a.arm]()
+          "matrix": lambda: arm_matrix(a.variant, a.rung)}[a.arm]()
     print(f"{a.arm} in {(time.time() - t0) / 60:.0f} min")
     return rc
 

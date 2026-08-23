@@ -33,6 +33,13 @@ from prereg.g177 import (ANCHOR_CONDITION, ANCHOR_FLOOR, ANCHOR_READER,         
 
 OUT = REPO / "results" / "g177"
 
+_LF = chr(10)
+_SW_PROMPT = (
+    "A scholar is writing a document. The current draft ends:" + _LF +
+    "...{before}" + _LF + _LF +
+    "What is the writer's most likely next writing intention? "
+    "Answer with exactly one label from:" + _LF + "{opts}" + _LF + "Label:")
+
 
 # ── anchor ────────────────────────────────────────────────────────────────────────────────────
 
@@ -111,6 +118,84 @@ def _sw_load():
                          "before": (r[txt] or "")[-1200:],
                          "after": (r[after] or "")[-1200:] if after else ""})
     return rows
+
+
+def arm_sw_validation() -> int:
+    """H1: the powered known-answer validation the L161 gate could not deliver.
+
+    The random 600-event sample drew exactly ONE mechanically decidable case, so the reader
+    arm's numbers were descriptive only. This stratifies TOWARD decidable edits: events whose
+    delta contains a citation command and whose label is the citation class (positives), and
+    events whose delta contains no citation command and whose label is not the citation class
+    (negatives, sampled to match). Per LESSONS section 4, validation is stratified toward the
+    NEGATIVE class and runs BEFORE the arms it licenses; per L163, the pass band is derived at
+    the actual sample size rather than guessed.
+    """
+    from soundingline.probe.client import LocalClient                            # noqa: PLC0415
+    rows = _sw_load()
+    labels = sorted({r["label"] for r in rows})
+    cit = next((x for x in labels if "citation" in x.lower()), None)
+    if cit is None:
+        print("no citation class in the label set; validation cannot be built")
+        return 1
+
+    def delta(r):
+        a, b = r["before"], r["after"]
+        return b[len(a):] if b.startswith(a) else b
+
+    pos, neg = [], []
+    for r in rows:
+        d = delta(r)
+        has = any(m in d for m in SW_CITATION_MARKERS)
+        if has and r["label"] == cit:
+            pos.append(r)
+        elif not has and r["label"] != cit:
+            neg.append(r)
+    rng = random.Random(SEED0 + 5)
+    n = min(len(pos), 120)
+    if n < 30:
+        print(f"only {len(pos)} decidable positives; validation stays underpowered")
+        return 1
+    pos_s = rng.sample(pos, n)
+    neg_s = rng.sample(neg, n)          # matched, so the floor is analytic at 0.5
+    print(f"validation set: {n} decidable positives, {n} matched negatives")
+
+    client = LocalClient(model=SW_READER_MODEL)
+    opts = _LF.join(f"- {x}" for x in labels)
+    hits = {"pos": 0, "neg": 0}
+    for tag, sample in (("pos", pos_s), ("neg", neg_s)):
+        for r in sample:
+            prompt = (_SW_PROMPT.replace("{before}", r["before"])
+                                .replace("{opts}", opts))
+            try:
+                ans = client.read_text(
+                    "You classify a writer's next writing intention. "
+                    "Answer with exactly one label.", prompt).strip().lower()
+            except Exception as e:                                               # noqa: BLE001
+                print(f"  reader error: {e}")
+                continue
+            said_cit = cit.lower() in ans
+            hits[tag] += said_cit if tag == "pos" else (not said_cit)
+    sens = hits["pos"] / n
+    spec = hits["neg"] / n
+    bal = (sens + spec) / 2
+    # pass band derived at this sample size: the two-sided 95 percent interval for a
+    # balanced-accuracy estimate on 2n items is about 1.96 * sqrt(0.25/n) wide per arm
+    half = 1.96 * (0.25 / n) ** 0.5
+    band_low = 0.5 + half
+    verdict = "VALIDATED" if bal > max(SW_READER_KA_FLOOR, band_low) else (
+        "UNVALIDATED-ABOVE-CHANCE" if bal > band_low else "UNVALIDATED-AT-CHANCE")
+    print(f"sensitivity {sens:.3f}, specificity {spec:.3f}, balanced {bal:.3f}; "
+          f"chance band top {band_low:.3f}; floor {SW_READER_KA_FLOOR} -> {verdict}")
+    (OUT / "scholawrite_validation.json").write_text(json.dumps({
+        "prereg": "prereg/g177.py (H1 repair, Stage 2)", "verdict": verdict,
+        "n_per_class": n, "sensitivity": sens, "specificity": spec,
+        "balanced_accuracy": bal, "chance_band_top": band_low,
+        "floor": SW_READER_KA_FLOOR, "decidable_positives_available": len(pos),
+        "note": "matched negatives make the floor analytic at 0.5; the band is derived at "
+                "this sample size rather than assumed"}, indent=1),
+        encoding="utf-8", newline=_LF)
+    return 0
 
 
 def arm_scholawrite(with_reader: bool) -> int:
@@ -247,7 +332,8 @@ def arm_coauthor() -> int:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
-                    choices=["anchor", "scholawrite", "scholawrite_reader", "coauthor"])
+                    choices=["anchor", "scholawrite", "scholawrite_reader", "coauthor",
+                             "sw_validation"])
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
@@ -257,6 +343,8 @@ def main() -> int:
         rc = arm_scholawrite(with_reader=False)
     elif args.arm == "scholawrite_reader":
         rc = arm_scholawrite(with_reader=True)
+    elif args.arm == "sw_validation":
+        rc = arm_sw_validation()
     else:
         rc = arm_coauthor()
     print(f"{args.arm} done in {(time.time() - t0) / 60:.0f} min")
