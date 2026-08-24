@@ -99,7 +99,9 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   exists to recover; the item-attractiveness rival is recorded. Successor requires an
   attractiveness-calibration pilot first · E1 self-policy landed (the convergence
   measurement)
-- **Wing A:** A01 (=G174) · A02 ⚙ lexical/actor transfer · A03 basis catalog · A04 ⚙
+- **Wing A:** A01 (=G174) · A1/A2 REBUILD QUEUED 2026-08-24 (120-situation bank kept
+  backward-compatible with the L162 items, cross-seed consensus locus, ladder doses;
+  scout_stage2_a.py) · A02 ⚙ lexical/actor transfer · A03 basis catalog · A04 ⚙
   soft-rank sweep · A05 label-source twins · A06 block-by-dose surface · A07 ⚙ generic
   tournament · A08 cross-model transplant · A09 process integration (G176 discovery) ·
   A10 affect distractors · A11 dynamic gate · A12 learned deformation (G179 precursor)

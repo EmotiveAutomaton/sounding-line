@@ -2075,6 +2075,24 @@ STAGES += [
             "before anything, norm-matched random and shuffled controls"},
 ]
 
+# ── STAGE 2 queue-day 2 opener 2026-08-24 (the affect-ruler rebuild the day-1 close
+# named; L162's failure mechanics addressed in the design: 2.5x bank, cross-seed
+# consensus locus with the degenerate edge excluded, ladder doses under tolerance).
+STAGES += [
+    {"name": "scout_a_decode", "est": 90,
+     "cmd": [PY, "runners/scout_stage2_a.py", "--arm", "decode"],
+     "produces": "results/scouts/a_decode.json", "needs": [],
+     "why": "E24-A1/A2 rebuilt ruler: 120 lexicon-clean situations, consensus locus "
+            "across three seed splits or INSTRUMENT-FAILED with instability quantified"},
+    {"name": "scout_a_causal", "est": 120,
+     "cmd": [PY, "runners/scout_stage2_a.py", "--arm", "causal"],
+     "produces": "results/scouts/a_causal.json",
+     "needs": ["results/scouts/a_decode.json"],
+     "why": "the causal re-attempt at the consensus locus: fear/joy sign pair over 24 "
+            "scenarios, ladder dose, random and shuffled controls with their own "
+            "null-effect failure condition"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -2109,7 +2127,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
                     "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
-                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self", "scout_geo_capture_n", "scout_s8"}
+                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self", "scout_geo_capture_n", "scout_s8", "scout_a_decode", "scout_a_causal"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True
