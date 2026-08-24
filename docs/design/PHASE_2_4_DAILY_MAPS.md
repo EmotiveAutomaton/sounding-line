@@ -5,7 +5,7 @@ One theory-level map per ordinary queue-day, written before reading further scou
 
 ---
 
-## Day 2 — 2026-08-24 (running)
+## Day 2 — 2026-08-24 (SPINE COMPLETE: every authorized Stage-2 item has run; all further work is walkthrough-gated)
 
 ### Result shape
 
