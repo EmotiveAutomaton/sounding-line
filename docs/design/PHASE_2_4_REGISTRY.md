@@ -97,9 +97,10 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
 - **Tree P:** v1 CLOSED at its resolution boundary (L169): treatment refusable
   (following 0.537), reader retired after two gate failures (0.25 then 0.375 vs 0.85),
   and the unprofiled appetites CONVERGE across all three makers so no maker signature
-  exists to recover; the item-attractiveness rival is recorded. Successor requires an
-  attractiveness-calibration pilot first · E1 self-policy landed (the convergence
-  measurement)
+  exists to recover; the item-attractiveness rival is recorded. The attractiveness pilot then
+  ran and the item-side rival LOST (following 0.515 with strengthened items, cost and
+  precedent still at 0.0): the appetite is categorical, instruction-resistant, and
+  convergent across families; the assigned-profile design retires · E1 self-policy landed
 - **Wing A:** CLOSED AT THE TESTED SCALE 2026-08-24 per the routing for
   decoding-without-causality (L170: unanimous consensus locus, decoding at twice chance
   with lexical at exactly chance, causal inertness under every tolerated dose, both

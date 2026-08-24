@@ -7544,12 +7544,23 @@ whole skew: the cautious and novel evidence items may simply be more attractive 
 argument material than the cost and precedent items, an item-side account this
 construction cannot separate from a model-side one.
 
+**The attractiveness pilot then ran (day 2) and the item-side rival LOST.** With the cost
+and precedent items rewritten to argumentative strength on three topics (anchors
+substring-verified), overall following moved from 0.537 to 0.515 — statistically nothing —
+and the per-cell shape is unchanged: cautious and novel followed at or near 1.0, cost and
+precedent refused at 0.0 even when their items carry the strongest concrete claims in the
+set. The appetite is about the CATEGORY, not the item: these instruct models prefer
+safety- and novelty-shaped evidence intrinsically, resist instruction against it, and do
+so identically across three checkpoints from two families. The assigned-profile design
+retires with that sharpened conclusion, which upgrades the convergence observation from a
+possible item artifact to a measured, instruction-resistant, cross-family preference
+structure.
+
 **Means.** Tree P's first implementation closes at its resolution boundary, per the
-closure rules, with the full account on record: the treatment can be refused (following
-0.537), the reader instrument failed twice, and the intended v2 object does not vary. What
-survives is the design requirement for any successor: calibrate item attractiveness
-empirically FIRST (the self-policy pilot, run before the factorial rather than after), and
-target behavior that preference cannot silently mediate. Methodologically, a factorial
+closure rules, with the full account on record: the treatment can be refused, the reader
+instrument failed twice, the intended v2 object does not vary, and the item-side rival
+was tested and disfavored. What survives is the design requirement for any successor:
+target behavior that categorical preference cannot silently mediate. Methodologically, a factorial
 whose treatment can be silently refused needs a compliance pilot before the full grid, now
 a lesson.
 
@@ -7564,8 +7575,8 @@ a lesson.
   is recoverable from selections in this construction.
 - **Project meaning:** Assigned preference is the wrong v1 handle; intrinsic policy is the
   measured, recoverable object and the v2 target.
-- **Next engineering obligation:** A successor construction only after an
-  item-attractiveness calibration pilot; nothing else runs on this implementation.
+- **Next engineering obligation:** None this phase — the calibration pilot ran and
+  retired the design; any successor targets behavior outside categorical preference.
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/scouts/p_ecology_audit.json`, `results/scouts/p_read.json`,

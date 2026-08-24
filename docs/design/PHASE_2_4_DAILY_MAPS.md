@@ -19,11 +19,20 @@ One theory-level map per ordinary queue-day, written before reading further scou
   the family account on the double-centered matrix, and the 28-cell test is honest about
   its power; the crossed per-artifact permutations remain the load-bearing evidence.
 
+- **Tree P (pilot):** the item-attractiveness rival LOST — rebalanced-to-strong cost and
+  precedent items are still refused at 0.0 while cautious and novel stay near 1.0, so the
+  makers' evidence appetite is categorical, instruction-resistant, and convergent across
+  three checkpoints from two families. The assigned-profile design retires on evidence.
+
 ### Open theory questions (day 2, so far)
 
 1. A readable-but-inert representation at small scale: does the theory expect the causal
    role to EMERGE with scale, or is readout-without-handle itself the predicted shape for
    a reconstruction, a ghost you can see but not steer?
+2. Three instruct models from two families share a categorical, instruction-resistant
+   preference for safety- and novelty-shaped evidence. Is that convergence a training-era
+   artifact, or the first sighting of exactly the kind of conserved preference structure
+   the theory says a reader could lean on — measured in the makers rather than the reader?
 
 ---
 
