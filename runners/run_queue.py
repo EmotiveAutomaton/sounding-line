@@ -2064,6 +2064,17 @@ STAGES += [
             "the annotation"},
 ]
 
+# ── STAGE 2 causal branch 2026-08-23 night (its opening condition, the neutral geometry
+# replication, landed at 0.768; E24-S08 decides whether mapped geometry is USED).
+STAGES += [
+    {"name": "scout_s8", "est": 150,
+     "cmd": [PY, "runners/scout_stage2_s8.py", "--arm", "run"],
+     "produces": "results/scouts/s8_transfer.json", "needs": [],
+     "why": "E24-S08 causal direction transfer: maker goal directions mapped into the "
+            "cross-family reader, amplified and ablated on artifact tokens, decode gate "
+            "before anything, norm-matched random and shuffled controls"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -2098,7 +2109,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
                     "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
-                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self", "scout_geo_capture_n"}
+                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self", "scout_geo_capture_n", "scout_s8"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True
