@@ -7457,9 +7457,17 @@ property of the models, not of the texts it was first measured on.
 **Means.** PROMISING and now twice-measured: the family advantage has a representational
 correlate that survives double-centering on two disjoint text sets, one of them fully
 neutral. What it still does not show is direction — alignment could follow from whatever
-also drives inversion rather than enabling it — and that is exactly what the causal branch
-(map a direction from maker into reader, move the margin) exists to decide. Its own stated
-opening condition, the neutral replication, is now met; it is the next substantial build.
+also drives inversion rather than enabling it — which is the causal branch's question.
+
+**The causal branch's first attempt failed as an instrument, both directions, same night.**
+Mapping maker goal directions into the cross-family reader and intervening on them: in one
+direction the map itself failed its decode gate (0.375 against a 0.45 floor on an
+eighty-text ridge map), and in the other the fixed amplification strength shifted
+neutral-text likelihood 29.6 percent, the same lesion class the affect ruler taught, voiding
+its own null deltas. No causal claim exists in either direction. The one predeclared repair
+is queued, matched to both named failure directions: the map refits on 240 neutral texts,
+and the dose is selected per cell from a descending ladder under the capability tolerance
+rather than fixed. A second instrument failure closes the branch for the phase.
 
 ### Curator roll-up
 

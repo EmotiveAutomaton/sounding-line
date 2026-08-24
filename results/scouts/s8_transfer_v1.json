@@ -1,0 +1,40 @@
+{
+ "scout": "E24-S08",
+ "status": "INSTRUMENT-FAILED",
+ "cells": {
+  "qwen25_15b->smollm2_17b_instruct": {
+   "status": "INSTRUMENT-FAILED",
+   "decode_gate": 0.5625,
+   "block": 18,
+   "n_sample": 40,
+   "deltas": {
+    "amp_4.0": {
+     "mean": 0.010605390866597493,
+     "p": 0.10549472526373681
+    },
+    "amp_8.0": {
+     "mean": -0.015607230861981708,
+     "p": 0.14269286535673217
+    },
+    "ablate": {
+     "mean": 0.0030521978934605915,
+     "p": 0.43212839358032096
+    },
+    "rand_amp": {
+     "mean": -0.00019203821818033882,
+     "p": 0.5170241487925604
+    },
+    "shuf_amp": {
+     "mean": 0.0024273723363876336,
+     "p": 0.7764611769411529
+    }
+   },
+   "capability_change": 0.29555861780443676
+  },
+  "smollm2_17b_instruct->qwen25_15b": {
+   "status": "INSTRUMENT-FAILED",
+   "decode_gate": 0.375
+  }
+ },
+ "note": "discovery lane; a PROMISING here opens nothing by itself and routes to the promotion conjunction"
+}

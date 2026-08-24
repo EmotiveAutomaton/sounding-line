@@ -39,12 +39,31 @@ sys.path.insert(0, str(REPO))
 
 OUT = REPO / "results" / "scouts"
 SEED0 = 18800
+
+# ── THE ONE PREDECLARED REPAIR (2026-08-23 evening, after the first run failed both
+# cells as an instrument: the reverse map's decode gate read 0.375 on an 80-text ridge
+# map, and the fixed alpha=4 amplification shifted neutral-text likelihood 29.6 percent,
+# the same lesion class the affect ruler taught). Repair, both halves named by the card's
+# own failure directions: (a) the map fits on 240 neutral texts instead of 80; (b) the
+# dose is selected per cell on a dev subset as the largest alpha from a descending ladder
+# whose capability shift stays inside tolerance, never a fixed constant. A second
+# instrument failure closes E24-S08 for the phase.
 MAKERS = {"Qwen/Qwen2.5-1.5B": "g172",
           "HuggingFaceTB/SmolLM2-1.7B-Instruct": "g172_family2"}
 READERS = ["Qwen/Qwen2.5-1.5B", "HuggingFaceTB/SmolLM2-1.7B-Instruct"]
-ALPHAS = (4.0, 8.0)
+ALPHA_LADDER = (2.0, 1.0, 0.5, 0.25)
 CAPABILITY_TOL = 0.05
 N_PERMS = 20000
+
+
+def neutral_texts_240() -> list[str]:
+    src = REPO / "corpora" / "public" / "argrewrite" / "essays" / "Draft1"
+    texts = [p.read_text(encoding="utf-8", errors="ignore")[:1500]
+             for p in sorted(src.glob("*.txt"))]
+    texts = [t for t in texts if len(t.split()) > 60]
+    rng = random.Random(SEED0 + 40)
+    rng.shuffle(texts)
+    return texts[:240]
 
 
 def maker_artifacts(maker: str) -> list[dict]:
@@ -84,8 +103,9 @@ def arm_run() -> int:
     from prereg.g174 import NEUTRAL_PASSAGES                                     # noqa: PLC0415
     from prereg.g172 import candidate                                            # noqa: PLC0415
 
-    neutral_reps = {p.stem: np.load(p)
-                    for p in (OUT / "geo_reps_neutral").glob("*.npy")}
+    # v2 map substrate: 240 neutral texts captured fresh per model involved
+    ntexts = neutral_texts_240()
+    map_reps = {}
     rng = random.Random(SEED0)
     results = {}
     acquire_gpu_lock("scout_s8")
@@ -94,6 +114,8 @@ def arm_run() -> int:
             arts = maker_artifacts(maker)
             m_model, m_tok = load_reader(maker, device="cuda", dtype="float16")
             m_reps = pooled_last_quarter(m_model, m_tok, [a["text"] for a in arts])
+            if key_of(maker) not in map_reps:
+                map_reps[key_of(maker)] = pooled_last_quarter(m_model, m_tok, ntexts)
             free_readers()
             goals = sorted({a["goal_i"] for a in arts})
             mu = m_reps.mean(0)
@@ -108,8 +130,12 @@ def arm_run() -> int:
                     continue
                 cell = f"{key_of(maker)}->{key_of(reader)}"
                 print(f"== {cell} ==")
-                X = neutral_reps[key_of(maker)]
-                Y = neutral_reps[key_of(reader)]
+                r_model0, r_tok0 = load_reader(reader, device="cuda", dtype="float16")
+                if key_of(reader) not in map_reps:
+                    map_reps[key_of(reader)] = pooled_last_quarter(r_model0, r_tok0, ntexts)
+                free_readers()
+                X = map_reps[key_of(maker)]
+                Y = map_reps[key_of(reader)]
                 lam = 1.0
                 W = np.linalg.solve(X.T @ X + lam * np.eye(X.shape[1]), X.T @ Y)
                 mapped = {g: (d @ W) / (np.linalg.norm(d @ W) + 1e-9)
@@ -159,13 +185,36 @@ def arm_run() -> int:
                                    - (sum(res["scores"]) - res["scores"][t]) / 3)
                     return out
 
+                # dose selection on a dev subset: largest ladder alpha whose neutral-
+                # text capability shift stays inside tolerance (the repair's second half)
+                dose = None
+                for al in ALPHA_LADDER:
+                    iv_d = SubspaceIntervention(
+                        {blk: torch.tensor(mapped[goals[0]],
+                                           dtype=torch.float32).reshape(d_model, 1)},
+                        {blk: torch.zeros(d_model)}, al, "amplify")
+                    cb = [artifact_logprob(r_model, r_tok, "Text follows.", p)[0]
+                          for p in NEUTRAL_PASSAGES[:3]]
+                    ca = [artifact_logprob(r_model, r_tok, "Text follows.", p,
+                                           intervention=iv_d)[0]
+                          for p in NEUTRAL_PASSAGES[:3]]
+                    shift = abs(sum(ca) / 3 - sum(cb) / 3) / abs(sum(cb) / 3)
+                    if shift <= CAPABILITY_TOL:
+                        dose = al
+                        break
+                if dose is None:
+                    results[cell] = {"status": "INSTRUMENT-FAILED", "decode_gate": ka,
+                                     "reason": "no ladder dose inside capability tolerance"}
+                    free_readers()
+                    continue
+                print(f"  dose {dose} selected inside capability tolerance")
                 base = margins(None, 0, None)
                 arms = {}
-                for al in ALPHAS:
-                    arms[f"amp_{al}"] = margins("amplify", al, mapped)
+                arms[f"amp_{dose}"] = margins("amplify", dose, mapped)
+                arms[f"amp_{dose / 2}"] = margins("amplify", dose / 2, mapped)
                 arms["ablate"] = margins("ablate", 1.0, mapped)
-                arms["rand_amp"] = margins("amplify", ALPHAS[0], rand_dir)
-                arms["shuf_amp"] = margins("amplify", ALPHAS[0], shuf)
+                arms["rand_amp"] = margins("amplify", dose, rand_dir)
+                arms["shuf_amp"] = margins("amplify", dose, shuf)
 
                 def perm_p(diffs):
                     r2 = random.Random(SEED0 + 7)
@@ -177,7 +226,8 @@ def arm_run() -> int:
 
                 deltas = {k: perm_p([a - b for a, b in zip(v, base)])
                           for k, v in arms.items()}
-                best_amp = max((deltas[f"amp_{al}"][0] for al in ALPHAS))
+                amp_keys = [k for k in deltas if k.startswith("amp_")]
+                best_amp = max(deltas[k][0] for k in amp_keys)
                 abl = deltas["ablate"][0]
                 ctrl = max(abs(deltas["rand_amp"][0]), abs(deltas["shuf_amp"][0]))
                 cap_b = [artifact_logprob(r_model, r_tok, "Text follows.", p)[0]
@@ -185,7 +235,7 @@ def arm_run() -> int:
                 iv_c = SubspaceIntervention(
                     {blk: torch.tensor(mapped[goals[0]],
                                        dtype=torch.float32).reshape(d_model, 1)},
-                    {blk: torch.zeros(d_model)}, ALPHAS[0], "amplify")
+                    {blk: torch.zeros(d_model)}, dose, "amplify")
                 cap_a = [artifact_logprob(r_model, r_tok, "Text follows.", p,
                                           intervention=iv_c)[0]
                          for p in NEUTRAL_PASSAGES[:4]]
@@ -194,8 +244,8 @@ def arm_run() -> int:
                 selective = ctrl < 0.5 * max(abs(best_amp), 1e-9)
                 status = ("INSTRUMENT-FAILED" if cap > CAPABILITY_TOL else
                           "PROMISING" if (sign_pair and selective
-                                          and min(deltas[f"amp_{al}"][1]
-                                                  for al in ALPHAS) < 0.05) else
+                                          and min(deltas[k][1]
+                                                  for k in amp_keys) < 0.05) else
                           "RIVAL-FAVORED" if (sign_pair and not selective) else "QUIET")
                 results[cell] = {"status": status, "decode_gate": ka, "block": blk,
                                  "n_sample": len(sample),
