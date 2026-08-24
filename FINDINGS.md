@@ -6973,7 +6973,10 @@ One arm of this root remains (the CoAuthor import); it folds in here when it lan
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/g177/anchor.json`, `results/g177/scholawrite_lopo.json`,
-  `results/g177/scholawrite_reader.json`, `prereg/g177.py`.
+  `results/g177/scholawrite_reader.json`, `results/g177/scholawrite_validation.json`,
+  `results/g177/scholawrite_nongen.json`, `results/g177/scholawrite_ceiling.json`,
+  `results/g177/coauthor_import.json`, `results/g177/anchor_context.json`,
+  `prereg/g177.py`.
 
 **CoAuthor arm (landed same day, closing the root).** IMPORTED: 1,447 session files, 2.7
 million logged events sampled at inventory. The paired-delta and prospective reading
@@ -7314,7 +7317,9 @@ evidence this scout does not touch.
 - **Public claim:** Unchanged (model-analogue result; no human claim licensed).
 - **Curator decision required:** No.
 - **Detail pointer:** `results/scouts/s_wave1.json`, `results/scouts/s2_detector.json`,
-  `runners/scout_stage2_s.py`.
+  `results/scouts/s6_tokenizer.json`, and the construction manifests
+  (`family2_manifest`, `norm_manifest`, `para2_manifest`, `mirror_manifest`, all under
+  `results/scouts/`), `runners/scout_stage2_s.py`, `runners/scout_stage2_s6.py`.
 
 ## L166 · The crossed reversal lives at the abstract rung and dies at the literal one: asking with the maker's own instruction wording inflates every margin and hands all four corpora to one reader family
 
@@ -7444,7 +7449,8 @@ session-as-writer approximation stands as the recorded limitation.
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
 - **Detail pointer:** `results/scouts/h_coauthor_events.json`,
-  `results/scouts/h_coauthor_baselines.json`, `runners/scout_stage2_h.py`.
+  `results/scouts/h_coauthor_baselines.json`, `results/scouts/h_coauthor_retention.json`,
+  `runners/scout_stage2_h.py`.
 
 ## L168 · The geometry leg lands: representational alignment predicts who inverts whom, with reader quality and maker difficulty both removed by construction
 
@@ -7519,7 +7525,10 @@ leg and does not fire.
   the neutral replication just met.
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
-- **Detail pointer:** `results/scouts/geo_link.json`, `runners/scout_stage2_geo.py`.
+- **Detail pointer:** `results/scouts/geo_link.json`,
+  `results/scouts/geo_link_neutral.json`, `results/scouts/s8_transfer.json` (and
+  `s8_transfer_v1.json`, the preserved first attempt), `runners/scout_stage2_geo.py`,
+  `runners/scout_stage2_s8.py`.
 
 ---
 
@@ -7595,7 +7604,9 @@ a lesson.
   retired the design; any successor targets behavior outside categorical preference.
 - **Public claim:** Unchanged.
 - **Curator decision required:** No.
-- **Detail pointer:** `results/scouts/p_ecology_audit.json`, `results/scouts/p_read.json`,
+- **Detail pointer:** `results/scouts/p_ecology_manifest.json`,
+  `results/scouts/p_ecology_audit.json`, `results/scouts/p_read.json`,
+  `results/scouts/p_self_policy.json`, `results/scouts/p_pilot.json`,
   `runners/scout_stage2_p.py`.
 
 ## L170 · The rebuilt affect ruler answers the wing at this scale: the abstract representation is real and stably located, and it is not causally usable by linear steering
