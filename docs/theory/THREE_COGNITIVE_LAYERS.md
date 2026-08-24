@@ -25,7 +25,9 @@ Four claims, stated separately because they live or die separately:
    conserved but under-expressed in text; the shape of that error is a large source of failed goal
    inference.
 4. **Current verdict.** Coherent affect geometry exists in every model checked; three depth bands
-   do not; dose *tracking* exists and transfers; causal function is untested.
+   do not; dose *tracking* exists and transfers; and the causal gate has its first clean answer at
+   small scale: a stably located abstract affect representation that reads at twice chance without
+   emotion words and moves nothing when linearly steered.
 
 **This file owns** the latent architecture: what human structure exists, what a model might
 reconstruct, where reconstruction fails, and what intervention could follow. **It does not own** the
