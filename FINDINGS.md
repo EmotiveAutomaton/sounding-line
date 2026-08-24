@@ -7270,8 +7270,12 @@ artifact's origin, which reader quality cannot do, and it survives an eraser bui
 different family than the artifacts it rewrites. That combination is what the single-family
 Stage-1 result could not deliver, and the completed crossed-imprint design adds the sharper
 fact: the advantage is a property of who wrote the text, surviving rewriting by a different
-family that gains nothing from having done the rewriting. What remains unsettled is what
-"family" names mechanically. Surface family signal is halved but not removed, both surviving
+family that gains nothing from having done the rewriting. The tokenizer rival was later
+checked directly (E24-S6, day 2): token-segmentation overlap between reader and maker does
+not significantly predict the double-centered matrix (rank 0.32, p 0.10 at 28 cells), and
+neither single factor separates cleanly at that power — the scout is QUIET, the crossed
+per-artifact permutations remain the load-bearing family evidence, and the tokenizer
+account gains nothing. What remains unsettled is what "family" names mechanically. Surface family signal is halved but not removed, both surviving
 families are modern instruction-tuned models while the two that lose are older architectures,
 and nothing here shows the relation helping at any target beyond goal wording. Discovery
 grade, no promotion: the Stage-2 conjunction for Tree S requires process-level and geometry

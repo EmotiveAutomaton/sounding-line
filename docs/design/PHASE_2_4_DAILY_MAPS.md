@@ -15,6 +15,10 @@ One theory-level map per ordinary queue-day, written before reading further scou
   chance), and causally inert under every capability-tolerated linear dose. The wing
   closes per the routing with the representation retained.
 
+- **Tree S (tokenizer control):** QUIET — token-segmentation overlap does not displace
+  the family account on the double-centered matrix, and the 28-cell test is honest about
+  its power; the crossed per-artifact permutations remain the load-bearing evidence.
+
 ### Open theory questions (day 2, so far)
 
 1. A readable-but-inert representation at small scale: does the theory expect the causal

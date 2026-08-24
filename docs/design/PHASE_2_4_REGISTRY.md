@@ -86,7 +86,8 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   rung, so the relation is not surface-shaped; higher rungs owed) ·
   S04 lineage ladder · S05 ⚙ capacity asymmetry —
   PROMISING (unsealed, filed L164: complete family separation, weak size-margin rank
-  relation 0.43) · S06 tokenizer control · S07 geometry
+  relation 0.43) · S06 tokenizer control — QUIET (L165 fold-in: segmentation overlap does not displace
+  the family account; 28-cell double-centered test underpowered for either single factor) · S07 geometry
   (G173 descriptive half) — PROMISING (L168: double-centered alignment-inversion rank
   0.50, p 0.0088, correspondence gate perfect; neutral replication LANDED 0.768 at the floor, stronger than the original; S8 causal transfer now OPEN) · S08 causal direction transfer — CLOSED for the phase (L168 fold-in: after the repair,
   one direction reads clean QUIET with a generic-steering signature — shuffled control
