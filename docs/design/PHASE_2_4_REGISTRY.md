@@ -117,7 +117,10 @@ its root's ruler and ceiling pass. Everything else waits for its conditional tri
   substrate) · H04 ⚙ ScholaWrite prospective tree — BOUNDARY MAPPED AND SCOPED
   (prompted and likelihood readers fail powered validation; the cheap ceiling probe reads
   0.048 while the recorded fine-tuned grid reaches 0.26 to 0.61 on the same task, so the
-  boundary is reader-family-shaped, not annotation-shaped; L161 fold-ins) · H05 ⚙ context/tool ablation · H06 anomaly-handling
+  boundary is reader-family-shaped, not annotation-shaped; L161 fold-ins) · H05 ⚙ context/tool ablation — STRUCTURAL BOUNDARY (L161 fold-in: the likelihood
+  reader has no context input channel; a prepended note cancels or backfires via
+  redundancy, so the G167 override defect belongs to instruction-following readers
+  specifically) · H06 anomaly-handling
   transfer · H07 professional flattening · H08 mixed-control boundary · H09 prospective
   anti-projection (G178) · H10 expertise packet (prepare only)
 - **Wing M** (later; optional): M01-M05 as the addendum lists them; closed until a

@@ -24,12 +24,22 @@ One theory-level map per ordinary queue-day, written before reading further scou
   makers' evidence appetite is categorical, instruction-resistant, and convergent across
   three checkpoints from two families. The assigned-profile design retires on evidence.
 
+- **Tree H (context battery):** the likelihood reader is structurally context-blind — a
+  prepended note cancels in the subtraction or backfires by making the named candidate
+  redundant (the true note sank accuracy to 0.04; the false note changed nothing). The
+  override defect class belongs to instruction-following readers; this form has no
+  channel to override, and no channel to help.
+
 ### Open theory questions (day 2, so far)
 
 1. A readable-but-inert representation at small scale: does the theory expect the causal
    role to EMERGE with scale, or is readout-without-handle itself the predicted shape for
    a reconstruction, a ghost you can see but not steer?
-2. Three instruct models from two families share a categorical, instruction-resistant
+2. The one reader family immune to context override is immune because it cannot take
+   context at all, and the price is that true context cannot help it either. Is the
+   trustworthy-reader design problem therefore a CHANNEL design problem — where context
+   enters — rather than a calibration problem inside any reader?
+3. Three instruct models from two families share a categorical, instruction-resistant
    preference for safety- and novelty-shaped evidence. Is that convergence a training-era
    artifact, or the first sighting of exactly the kind of conserved preference structure
    the theory says a reader could lean on — measured in the makers rather than the reader?

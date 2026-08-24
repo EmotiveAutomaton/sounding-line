@@ -1,0 +1,19 @@
+{
+ "prereg": "prereg/g177.py (H05/X05 extension, Stage 2)",
+ "status": "RESISTANT",
+ "reader": "Qwen/Qwen2.5-1.5B",
+ "arms": {
+  "none": {
+   "top1": 0.78
+  },
+  "true": {
+   "top1": 0.04
+  },
+  "false": {
+   "top1": 0.78,
+   "followed_decoy": 0.0
+  }
+ },
+ "false_card_drop": 0.0,
+ "note": "the G167 override question asked of the non-generative reader family; OVERRIDE-REPLICATED means context-trust is a family-general defect, RESISTANT means the likelihood form is the first reader to resist it"
+}

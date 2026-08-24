@@ -6934,6 +6934,22 @@ the label needs a trained encoder to reach it. The zero-shot and likelihood rout
 closed; the trained-encoder route is the recorded exception, and any future use of it owes
 the standard known-answer validation first.
 
+**The context-override battery ran on this reader (day 2), and the result is a structural
+boundary, not a behavior.** Three arms over the same hundred cases: no card (0.78, the
+baseline reproduced exactly), a true production note naming the real instruction (0.04),
+and a false note naming a decoy (0.78, with the decoy followed exactly never). The pattern
+looks like resistance and is actually arithmetic: the card is prepended to every candidate
+condition and the neutral equally, so an assertion's content either cancels in the
+subtraction (the false arm, ordering untouched) or collides with the candidate it names,
+making that candidate REDUNDANT and collapsing its margin (the true arm, where the correct
+answer sinks to last precisely because the card already said it). The honest conclusion:
+**the non-generative reader has no context input channel at all.** It cannot be steered by
+a supplied note, and it equally cannot USE a true one; the G167 override defect is a
+property of readers with instruction-following channels, which this form simply lacks. Any
+future context experiment on this family requires a design that injects context somewhere
+other than the conditioning path, and the redundancy collapse is the standing warning that
+prepending is not that design.
+
 **Means.** The Phase 2.4 instrument is field-validated on a known-positive target: the
 non-generative form keeps most of the recorded recovery while making fabrication
 structurally impossible (nothing is generated), which is what the similarity matrix and
