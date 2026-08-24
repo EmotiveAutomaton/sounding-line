@@ -499,18 +499,20 @@ or has reproduced human empathy. Human-reader correspondence remains a later gat
 | # | hypothesis | status |
 |---|---|---|
 | **G45** | An affective concept can be forced into a chosen block and strengthened there | **OPEN, the build**, gated on causality and the transform |
-|   | | *(the causal gate's first instrument attempt INSTRUMENT-FAILED (test, L162): dev-selected block flipped between seeds at eighteen dev items, and the degenerate input-edge selection lesioned the model 2.55× under amplification; abstract emotion-word-free decoding appeared weakly above every control at the one functioning seed, so the signal grain exists and the battery was underpowered, never the reverse)* |
+|   | | *(the causal gate's first instrument attempt INSTRUMENT-FAILED (test, L162): dev-selected block flipped between seeds at eighteen dev items, and the degenerate input-edge selection lesioned the model 2.55× under amplification; abstract emotion-word-free decoding appeared weakly above every control at the one functioning seed, so the signal grain exists and the battery was underpowered, never the reverse. The rebuilt ruler then answered cleanly (test, L170): the representation is REAL and stably located, unanimous cross-seed consensus on one deep block, held-out decoding at twice chance with the lexical baseline at exactly chance, and it is causally INERT under every capability-tolerated linear dose, both concepts, no sign pair. The wing closes at this scale with the representation retained and no causal handle; scale, rank, and intervention form are the named suspects)* |
 | **G38** | The mid-level primitives need only seeding, not specification | **OPEN.** *(Dependency corrected 2026-08-09: it rests on coherent structure existing (passed), on the causal gate, and on controllability, not on the rejected subspaces-not-depths claim it used to cite)* |
 
-**What the table says.** The build now has an honest gate order with the first gate passed and the
-decisive one, causality, attempted once and instrument-failed rather than answered: the first
-open-weight ruler could not select an intervention block stably at its dev power, and its one
-degenerate selection at the input edge produced a lesion, not a measurement. What survives the
-failure is a weak abstract decoding signal on emotion-word-free text above every control at one
-seed, which is the grain any rebuilt ruler chases with a larger bank and a frozen block rule.
-Its address, if the transform work holds, is a family where the rotation composes rather than
-the home family. Confidence: untested; the gates are logic, gate one has evidence behind it, and
-the causal gate is instrument-dead at the first battery's power.
+**What the table says.** The build's gate order now has a real answer at small scale: gate one
+(coherent structure) passed long ago, and the decisive causal gate has been measured cleanly
+rather than instrument-failed. The rebuilt ruler locates a weak abstract affect representation
+at one unanimous deep block, readable at twice chance on text with no emotion vocabulary, and
+finds it causally inert under every linear dose the capability gate tolerates. At this scale the
+structure is a readout, not a handle. The build path stays open only through what the closure
+names, a larger substrate, a higher-rank basis, or a different intervention family, and its
+address, if the transform work holds, remains a family where the rotation composes rather than
+the home family. Confidence: the decode finding is one bad test away, three seed splits and one
+model deep; the causal inertness is one bad test away at the same scale; the gates above remain
+logic.
 
 ## §9. Reading versus caring
 

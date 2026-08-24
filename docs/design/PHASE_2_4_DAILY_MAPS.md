@@ -5,6 +5,24 @@ One theory-level map per ordinary queue-day, written before reading further scou
 
 ---
 
+## Day 2 — 2026-08-24 (running)
+
+### Result shape
+
+- **Tree A:** answered at this scale in one pass of the rebuilt ruler: the abstract affect
+  representation is real, stably located (unanimous cross-seed consensus on one deep
+  block, twice-chance decoding on emotion-word-free text, lexical baseline at exactly
+  chance), and causally inert under every capability-tolerated linear dose. The wing
+  closes per the routing with the representation retained.
+
+### Open theory questions (day 2, so far)
+
+1. A readable-but-inert representation at small scale: does the theory expect the causal
+   role to EMERGE with scale, or is readout-without-handle itself the predicted shape for
+   a reconstruction, a ghost you can see but not steer?
+
+---
+
 ## Day 1 — 2026-08-23
 
 ### Result shape

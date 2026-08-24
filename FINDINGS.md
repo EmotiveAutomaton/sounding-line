@@ -7566,6 +7566,62 @@ a lesson.
 - **Detail pointer:** `results/scouts/p_ecology_audit.json`, `results/scouts/p_read.json`,
   `runners/scout_stage2_p.py`.
 
+## L170 · The rebuilt affect ruler answers the wing at this scale: the abstract representation is real and stably located, and it is not causally usable by linear steering
+
+**Hypothesis.** *(Stage-2 Tree-A rebuild, scouts E24-A1/A2 plus the causal re-attempt: with
+the first ruler's failure mechanics designed out — a bank 2.5 times larger keeping the
+original items verbatim, a cross-seed consensus locus with the degenerate edge excluded,
+ladder doses under the capability tolerance — does the emotion-word-free decoding grain
+stabilize, and can the representation be causally nudged?)*
+
+**Method.** Directions fitted on explicit emotion-word sentences only; decoding tested on
+held-out lexicon-clean situations (120-item bank, load-time asserted) at the locus every one
+of three seeded dev splits independently ranks top-three; shuffle nulls and a lexical
+baseline per split; actor frames. Then fear and joy amplification and ablation over 24
+approach-withdraw scenarios (dev/test split), dose ladder-selected under the capability
+tolerance, against random and label-shuffled controls.
+
+**Found (decode).** PROMISING, and the instability that killed the first ruler is gone: the
+cross-seed consensus is UNANIMOUS on one deep block — the same block the first ruler's
+functioning seed had found before its twin picked the input edge. Held-out decoding reads
+0.35, 0.35, 0.33 across the three splits against a 0.167 chance floor, above every shuffle
+null (0.22 to 0.24), with the lexical baseline at exactly chance on all three (the scrub
+works: a word-matcher has nothing to match), and the actor frames inside tolerance.
+
+**Found (causal).** QUIET on both concepts. At the consensus locus, with doses the
+capability gate accepted, neither amplification nor ablation moves the approach-withdraw
+preference (largest signed effect p 0.34; no sign pair anywhere), and the control-quiet
+criterion is moot because the primary effect is near zero, its recorded degenerate case.
+
+**Means.** The affect wing's answer at this scale, twice-instrumented and now clean:
+**a weak, abstract, stably-located affect representation exists in the 1.5B reader —
+readable at twice chance on text containing no emotion vocabulary — and linear steering of
+it does nothing behavioral.** Per the Stage-2 routing for exactly this pattern, the
+representation finding is retained and causal affective-prior engineering CLOSES at the
+tested scale: the basis contest, the affective-inversion test, and the learned adapter stay
+closed for the phase. What survives for the theory is precise: the ghost is there and it is
+faint, its location is now defensible rather than lucky, and whatever causal role the
+conserved-constraint account predicts is not reachable by rank-one amplification in a model
+this small. Scale, rank, and intervention form are the three named suspects, in that order.
+
+### Curator roll-up
+
+- **Theory group:** Three Cognitive Layers (the reconstruction bridge and the causal gate)
+- **Question in plain language:** Is the affect ghost in a small model real, findable, and
+  usable — or just findable?
+- **Outcome class:** Narrows
+- **Result:** Stably located and readable at twice chance without emotion words, across
+  three seed splits at one unanimous block; causally inert under every tolerated dose.
+- **Project meaning:** The affect wing closes at this scale with a real representation
+  finding and no causal handle; the intervention program needs scale, rank, or a different
+  form, and says so rather than iterating.
+- **Next engineering obligation:** None this phase (closure per the routing); the finding
+  waits for a larger substrate or a different intervention family.
+- **Public claim:** Unchanged.
+- **Curator decision required:** No — the walkthrough already owns the scale question.
+- **Detail pointer:** `results/scouts/a_decode.json`, `results/scouts/a_causal.json`,
+  `runners/scout_stage2_a.py`.
+
 ---
 
 # TIER 2 · SETTLED
