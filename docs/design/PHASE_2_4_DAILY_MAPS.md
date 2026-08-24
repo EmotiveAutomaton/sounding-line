@@ -33,8 +33,12 @@ One theory-level map per ordinary queue-day, written before reading further scou
   cannot separate. The successor requires an attractiveness-calibration pilot first.
 - **Tree S (geometry):** representational alignment predicts who inverts whom with reader
   and maker effects removed, at rank 0.50 on process-matched texts and 0.77 on fully
-  neutral human essays the same evening; the corpus rival is answered, the second promotion
-  leg is twice-measured, and the causal transfer branch's opening condition is met.
+  neutral human essays the same evening; the corpus rival is answered and the second
+  promotion leg is twice-measured. The causal branch then ran, failed once as an
+  instrument, spent its repair, and closed: in the workable direction amplification helps
+  but so does the label-shuffled control, with no sign pair — generic steering along the
+  maker's subspace, not goal-specific use — and the reverse map never decoded. Geometry
+  stays descriptive; the conjunction still lacks its process-level leg and does not fire.
 - **Tree H (natural record):** the CoAuthor logs parse into 16,875 decision episodes with
   zero loss, and the behavior is flat: writers take three of four suggestions and no
   mechanical baseline beats that base rate, which is now the measured bar for any reader.
@@ -102,6 +106,14 @@ which is Tree P's object and Tree S cannot test. The Tree-A rebuild is unaffecte
    natural histories, while realized-choice recovery stays strong. Is live prediction simply
    the harder half, as the records boundary already suggested, or is the next-intention label
    itself the wrong unit for what a writer does next?
+
+### Day close
+
+Ten scout landings and two trunk-side corrections in one queue-day; three branch closures
+recorded with their reasons (the profile ecology, the prompted and likelihood prospective
+readers, the causal transfer); no flight-candidate or collision pause fired. The next
+authorized build is the affect-ruler rebuild's stimulus bank, deliberately NOT rushed at
+day's end because authored materials fail quietly; it opens the next queue-day.
 
 ### Mechanics appendix
 

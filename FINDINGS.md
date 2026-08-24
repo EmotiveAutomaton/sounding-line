@@ -7465,9 +7465,24 @@ direction the map itself failed its decode gate (0.375 against a 0.45 floor on a
 eighty-text ridge map), and in the other the fixed amplification strength shifted
 neutral-text likelihood 29.6 percent, the same lesion class the affect ruler taught, voiding
 its own null deltas. No causal claim exists in either direction. The one predeclared repair
-is queued, matched to both named failure directions: the map refits on 240 neutral texts,
-and the dose is selected per cell from a descending ladder under the capability tolerance
-rather than fixed. A second instrument failure closes the branch for the phase.
+ran the same night, matched to both named failure directions: the map refit on 240 neutral
+texts, and the dose was ladder-selected under the capability tolerance per cell.
+
+**The repaired verdict closes the branch, and its shape is the finding.** In the direction
+where the instrument now works cleanly (decode 0.531, capability 0.031, inside tolerance),
+amplifying the mapped true-goal direction does raise the true candidate's margin (+0.014 at
+the selected dose, p 0.0035) — but ablation does not lower it (+0.004, p 0.29, no sign
+pair), and the label-shuffled control moves almost as much (+0.012, p 0.030) as the true
+direction, while the random direction moves nothing at all. Amplifying ANY mapped
+maker-space direction helps about equally, whether or not it is the right goal's: the
+signature of generic steering along the maker's representational subspace, not of
+goal-specific causal transfer. In the reverse direction the 240-text map failed its decode
+gate again (0.312), the second instrument failure, and the closure clause fires. **E24-S08
+closes for the phase: no evidence that mapped geometry is used goal-specifically, one
+direction unmappable at this substrate, and the geometry leg stays descriptive** — which
+the promotion conjunction can survive, since its geometry item is satisfied by the
+twice-measured descriptive prediction, but the conjunction still lacks its process-level
+leg and does not fire.
 
 ### Curator roll-up
 
