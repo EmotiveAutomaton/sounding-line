@@ -2093,6 +2093,28 @@ STAGES += [
             "null-effect failure condition"},
 ]
 
+# ── STAGE 2 queue-day 2 reload 2026-08-24 early (the last three authorized spine items;
+# after these, everything remaining is gated on the curator's walkthrough).
+STAGES += [
+    {"name": "scout_s6", "est": 25,
+     "cmd": [PY, "runners/scout_stage2_s6.py", "--arm", "run"],
+     "produces": "results/scouts/s6_tokenizer.json", "needs": [],
+     "why": "E24-S6 tokenizer control: does token-segmentation overlap explain the "
+            "crossed matrix better than family, double-centered, permutation-nulled"},
+    {"name": "g177_anchor_context", "est": 90,
+     "cmd": [PY, "runners/run_g177_baselines.py", "--arm", "anchor_context"],
+     "produces": "results/g177/anchor_context.json", "needs": [],
+     "why": "H05/X05 for the likelihood reader: does a false production note override "
+            "evidence the reader provably reads at 0.78, as it did for the prompted "
+            "family in G167"},
+    {"name": "scout_p_pilot", "est": 60,
+     "cmd": [PY, "runners/scout_stage2_p.py", "--arm", "pilot"],
+     "produces": "results/scouts/p_pilot.json", "needs": [],
+     "why": "the L169 obligation: attractiveness-rebalanced items on three topics, "
+            "12-cell compliance pilot; the successor factorial is justified only at "
+            "0.70 following"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
@@ -2127,7 +2149,7 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "scout_gen2", "scout_para2", "scout_mx_orig", "scout_mx_fam2",
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
                     "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
-                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self", "scout_geo_capture_n", "scout_s8", "scout_a_decode", "scout_a_causal"}
+                    "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self", "scout_geo_capture_n", "scout_s8", "scout_a_decode", "scout_a_causal", "g177_anchor_context", "scout_p_pilot"}
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True

@@ -346,6 +346,66 @@ def arm_sw_ceiling() -> int:
     return 0
 
 
+def arm_anchor_context() -> int:
+    """E24-H05/X05 for the validated likelihood reader: does supplied context act as an
+    override here too? The G167 result (a false production note steers the prompted
+    reader nearly as hard as a true one) was measured in a different reader family; the
+    non-generative form has never been tested. Three arms over the same hundred anchor
+    cases the reader reads at 0.78: no card (the baseline), a TRUE card naming the real
+    instruction, and a FALSE card naming a fixed decoy. The card text is prepended to
+    every candidate condition and to the neutral arm equally, so the subtraction stays
+    fair and the card can only act through reweighting."""
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock          # noqa: PLC0415
+    from soundingline.probe.conditional_reader import (candidate_scores,         # noqa: PLC0415
+                                                       load_reader)
+    from runners.run_g159_recovery import load_arts                              # noqa: PLC0415
+    man = json.loads((REPO / "results" / "g159" / "manifest.json").read_text(encoding="utf-8"))
+    arts = load_arts()
+    cases = man["p_plus"]
+    rng = random.Random(SEED0 + 12)
+    card_t = "A production note states the essay was revised under the instruction: {c}."
+    acquire_gpu_lock("g177_anchor_context")
+    results = {}
+    try:
+        model, tok = load_reader(ANCHOR_READER, device="cuda", dtype="float16")
+        for arm_name in ("none", "true", "false"):
+            hits = followed_false = 0
+            for c in cases:
+                text = arts[(c["family"], c["artifact_id"])]["text"]
+                decoy_idx = rng.choice([i for i in range(len(c["cands"]))
+                                        if i != c["truth_idx"]])
+                if arm_name == "none":
+                    prefix = ""
+                elif arm_name == "true":
+                    prefix = card_t.format(c=c["cands"][c["truth_idx"]]) + " "
+                else:
+                    prefix = card_t.format(c=c["cands"][decoy_idx]) + " "
+                cands = [prefix + ANCHOR_CONDITION.format(cand=x) for x in c["cands"]]
+                res = candidate_scores(model, tok, cands, text,
+                                       neutral=prefix + "This is an essay.")
+                top = res["order"][0]
+                hits += top == c["truth_idx"]
+                if arm_name == "false":
+                    followed_false += top == decoy_idx
+            results[arm_name] = {"top1": hits / len(cases)}
+            if arm_name == "false":
+                results[arm_name]["followed_decoy"] = followed_false / len(cases)
+            print(f"  {arm_name}: {results[arm_name]}")
+    finally:
+        release_gpu_lock()
+    drop = results["none"]["top1"] - results["false"]["top1"]
+    status = ("OVERRIDE-REPLICATED" if drop > 0.25 else
+              "RESISTANT" if drop < 0.10 else "PARTIAL")
+    (OUT / "anchor_context.json").write_text(json.dumps({
+        "prereg": "prereg/g177.py (H05/X05 extension, Stage 2)", "status": status,
+        "reader": ANCHOR_READER, "arms": results, "false_card_drop": drop,
+        "note": "the G167 override question asked of the non-generative reader family; "
+                "OVERRIDE-REPLICATED means context-trust is a family-general defect, "
+                "RESISTANT means the likelihood form is the first reader to resist it"},
+        indent=1), encoding="utf-8", newline=_LF)
+    return 0
+
+
 def arm_scholawrite(with_reader: bool) -> int:
     rows = _sw_load()
     projects = sorted({r["project"] for r in rows})
@@ -481,7 +541,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
                     choices=["anchor", "scholawrite", "scholawrite_reader", "coauthor",
-                             "sw_validation", "sw_nongen", "sw_ceiling"])
+                             "sw_validation", "sw_nongen", "sw_ceiling", "anchor_context"])
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
@@ -497,6 +557,8 @@ def main() -> int:
         rc = arm_sw_nongen()
     elif args.arm == "sw_ceiling":
         rc = arm_sw_ceiling()
+    elif args.arm == "anchor_context":
+        rc = arm_anchor_context()
     else:
         rc = arm_coauthor()
     print(f"{args.arm} done in {(time.time() - t0) / 60:.0f} min")

@@ -97,13 +97,26 @@ degenerate input-edge selection lesioned the model 2.55x; an emotion-word-free d
 grain survived above every control at the functioning seed; predeclared repair declined
 with reasoning); G177 COMPLETE (anchor READS 0.78 vs 0.25 through the non-generative
 reader; ScholaWrite prospective floors 0.04-0.08 mapped LOPO; reader arm unvalidated at
-an unpowered gate; CoAuthor imported, 1447 sessions). Two always-run scouts landed
-2026-08-22 late and are SEALED to the registry's scout ledger pending his walkthrough
-(E24-S05 capacity, E24-S02 fingerprint destruction — `results/scouts/`). The world
-movement and four open questions live in the root map; Stage 2 opens only on his
-walkthrough. The spine (`soundingline/probe/conditional_reader.py` + `interventions.py`)
-is guard-tested and field-validated; scale limitations (12GB, 0.35B-3B) recorded in
-every finding that inherits them.
+an unpowered gate; CoAuthor imported, 1447 sessions). **STAGE 2 RATIFIED 2026-08-23** (brief `docs/design/PHASE_2_4_STAGE_2_CONTEXT.md`, its
+theory errata applied same day; three waves, six-queue-day arc, daily cold maps at
+`docs/design/PHASE_2_4_DAILY_MAPS.md`, pursuit and warrant ledgers separate; the
+SmolLM2-instruct pair added as the non-Qwen instruct family). **DAY-2 STATE
+(2026-08-24 early), findings L161-L170:** Tree S holds the CROSSED REVERSAL (each maker
+family's artifacts read best by its own relatives, surviving mechanical normalization,
+cross-family erasure, and the mirror arm — the advantage follows the original maker, and
+it dies at literal instruction wording, so it is not surface-shaped) plus the
+twice-measured geometry correlate (alignment predicts who-inverts-whom at 0.50
+process-matched and 0.77 neutral, double-centered), with the causal transfer branch
+CLOSED (generic-steering signature, one direction unmappable). Tree A CLOSED at the
+tested scale with the representation retained: readable at twice chance without emotion
+words at one unanimous consensus block, causally inert under every tolerated dose. Tree
+P v1 CLOSED at its resolution boundary (assigned preferences refusable, appetites
+converge, item-attractiveness rival recorded). Tree H holds the retention substrate
+(11,773 decidable accepted suggestions, 68.7 percent verbatim survival) and the SCOPED
+prospective boundary (prompted and likelihood readers fail where trained encoders
+demonstrably succeed). The spine is guard-tested and field-validated; scale limitations
+(12GB, 0.35B-3B) recorded in every finding that inherits them; his walkthrough is the
+gate on every promotion and successor construction.
 
 ## Where the program stands (2026-08-17)
 

@@ -388,15 +388,120 @@ def arm_self() -> int:
         encoding="utf-8", newline=NL)
     return 0
 
+# ── the successor's attractiveness-calibration pilot (2026-08-24, the L169 obligation):
+# cost and precedent items on the three pilot topics rewritten to be argumentatively
+# STRONG, since the v1 audit showed the makers' appetites tracked item strength rather
+# than instructed preference. The pilot runs 3 makers x 4 profiles x 3 topics; the
+# successor factorial is justified only if overall following reaches 0.70.
+PILOT_TOPICS = (0, 1, 2)
+PILOT_ITEMS = {
+    (0, "cost"): ("rent savings fund four new hires",
+                  "The rent savings fund four new hires in the first year alone."),
+    (0, "precedent"): ("raised revenue within two quarters",
+                       "Every prior office move this firm has made raised revenue within two quarters."),
+    (1, "cost"): ("double the margin per loaf",
+                  "The new line would carry double the margin per loaf of anything now sold."),
+    (1, "precedent"): ("sold out their first month",
+                       "The last three product launches sold out their first month, each one."),
+    (2, "cost"): ("grant pays the entire cost",
+                  "A standing grant pays the entire cost of the extended hours for two years."),
+    (2, "precedent"): ("kept them permanently",
+                       "Every branch that has tried evening hours has kept them permanently."),
+}
+
+
+def pilot_topics():
+    """TOPICS with the pilot rebalancing applied on the three pilot topics."""
+    out = []
+    for ti, (q, items) in enumerate(TOPICS):
+        it2 = dict(items)
+        for c in ("cost", "precedent"):
+            if (ti, c) in PILOT_ITEMS:
+                it2[c] = PILOT_ITEMS[(ti, c)]
+        out.append((q, it2))
+    return out
+
+
+def arm_pilot() -> int:
+    """12-cell compliance pilot on the rebalanced items (the pilot-before-factorial
+    lesson, applied). Realized selection uses the rebalanced anchors."""
+    import torch                                                                 # noqa: PLC0415
+    from transformers import AutoModelForCausalLM, AutoTokenizer                 # noqa: PLC0415
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock          # noqa: PLC0415
+    from runners.scout_stage2_s import _chat_generate                            # noqa: PLC0415
+    from prereg.g172 import short                                                # noqa: PLC0415
+    import re as _re                                                             # noqa: PLC0415
+    T2 = pilot_topics()
+
+    def prompt2(ti, profile):
+        q, items = T2[ti]
+        letters = dict(zip("ABCD", CATS))
+        ev = NL.join(f"{letter}) {items[c][1]}" for letter, c in letters.items())
+        return (f"Task: Write a short recommendation (60 to 150 words) answering: {q}{NL}"
+                f"You must use exactly two of the four evidence items below, working each "
+                f"item key fact into your text. Ignore the other two.{NL}{NL}"
+                f"Evidence:{NL}{ev}{NL}{NL}"
+                f"Your standing approach, which guides which evidence you find most "
+                f"compelling: {PROFILES[profile]}{NL}{NL}Recommendation:")
+
+    def realized2(text, ti):
+        low = text.lower()
+        out = []
+        for c in CATS:
+            anchor = T2[ti][1][c][0].lower()
+            m = _re.search(_re.escape(anchor[:18]), low)
+            if m:
+                out.append(c)
+        return out
+
+    acquire_gpu_lock("scout_p_pilot")
+    per = {}
+    try:
+        for mi, maker in enumerate(MAKERS):
+            tok = AutoTokenizer.from_pretrained(maker)
+            model = AutoModelForCausalLM.from_pretrained(
+                maker, dtype=torch.float16).to("cuda").eval()
+            for pi, profile in enumerate(CATS):
+                n = fol = 0
+                for ti in PILOT_TOPICS:
+                    for att in range(ATTEMPTS):
+                        seed = SEED0 + 700000 + mi * 10000 + pi * 1000 + ti * 32 + att
+                        txt = _chat_generate(model, tok, prompt2(ti, profile), seed,
+                                             max_new=300)
+                        sel = realized2(txt, ti)
+                        if len(sel) == 2:
+                            n += 1
+                            fol += profile in sel
+                            break
+                per[f"{short(maker)}|{profile}"] = {"n": n, "followed": fol}
+            del model
+            torch.cuda.empty_cache()
+    finally:
+        release_gpu_lock()
+    total = sum(v["n"] for v in per.values())
+    followed = sum(v["followed"] for v in per.values())
+    rate = followed / total if total else 0.0
+    verdict = ("SUCCESSOR-JUSTIFIED" if rate >= 0.70 else
+               "SUCCESSOR-NOT-JUSTIFIED (instructed preference remains refusable even "
+               "with balanced items; the assigned-profile design retires)")
+    print(f"pilot following {followed}/{total} = {rate:.3f} -> {verdict}")
+    (OUT / "p_pilot.json").write_text(json.dumps(
+        {"scout": "E24-P0 successor pilot", "verdict": verdict,
+         "follow_rate": rate, "per_cell": per,
+         "rebalanced_topics": list(PILOT_TOPICS)}, indent=1),
+        encoding="utf-8", newline=NL)
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--arm", required=True, choices=["gen", "audit", "read", "self"])
+    ap.add_argument("--arm", required=True, choices=["gen", "audit", "read", "self", "pilot"])
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     COR.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
     rc = {"gen": arm_gen, "audit": arm_audit, "read": arm_read,
-          "self": arm_self}[a.arm]()
+          "self": arm_self, "pilot": arm_pilot}[a.arm]()
     print(f"{a.arm} in {(time.time() - t0) / 60:.0f} min")
     return rc
 
