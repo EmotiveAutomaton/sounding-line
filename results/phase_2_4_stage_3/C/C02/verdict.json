@@ -1,0 +1,60 @@
+{
+ "cell": "E24-S3-C02",
+ "cells": {
+  "reliable": {
+   "n": 46,
+   "acc_vs_true_profile": 0.30434782608695654,
+   "rate_following_q": 0.2391304347826087
+  },
+  "unreliable": {
+   "n": 43,
+   "acc_vs_true_profile": 0.3488372093023256,
+   "rate_following_q": 0.27906976744186046
+  },
+  "conflict": {
+   "n": 48,
+   "acc_vs_true_profile": 0.2916666666666667,
+   "rate_following_q": 0.3333333333333333
+  }
+ },
+ "per_reader": {
+  "Qwen2.5-|reliable": {
+   "n_attempted": 24,
+   "n_realized": 22,
+   "yield": 0.9166666666666666,
+   "acc": 0.2727272727272727
+  },
+  "Qwen2.5-|unreliable": {
+   "n_attempted": 24,
+   "n_realized": 20,
+   "yield": 0.8333333333333334,
+   "acc": 0.35
+  },
+  "Qwen2.5-|conflict": {
+   "n_attempted": 24,
+   "n_realized": 24,
+   "yield": 1.0,
+   "acc": 0.2916666666666667
+  },
+  "SmolLM2-|reliable": {
+   "n_attempted": 24,
+   "n_realized": 24,
+   "yield": 1.0,
+   "acc": 0.3333333333333333
+  },
+  "SmolLM2-|unreliable": {
+   "n_attempted": 24,
+   "n_realized": 23,
+   "yield": 0.9583333333333334,
+   "acc": 0.34782608695652173
+  },
+  "SmolLM2-|conflict": {
+   "n_attempted": 24,
+   "n_realized": 24,
+   "yield": 1.0,
+   "acc": 0.2916666666666667
+  }
+ },
+ "reading": "conflict: acc near reliable-only = source weighting; rate_following_q near unreliable-only = verification-blind",
+ "yield": 0.9513888888888888
+}

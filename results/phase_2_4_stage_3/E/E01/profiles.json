@@ -1,0 +1,195 @@
+{
+ "cell": "E24-S3-E01",
+ "min_cell_yield": 0.75,
+ "stability": {
+  "Qwen2.5-1.5B-Instruct": {
+   "infra": {
+    "plain": "robust",
+    "plain_yield": 0.975,
+    "paraphrase": null,
+    "paraphrase_yield": 0.025,
+    "frame_stable": null,
+    "note": "instrument: a frame realized under 75 percent; stability undetermined"
+   },
+   "process": {
+    "plain": "fast",
+    "plain_yield": 0.95,
+    "paraphrase": null,
+    "paraphrase_yield": 0.0,
+    "frame_stable": null,
+    "note": "instrument: a frame realized under 75 percent; stability undetermined"
+   }
+  },
+  "SmolLM2-1.7B-Instruct": {
+   "infra": {
+    "plain": "robust",
+    "plain_yield": 1.0,
+    "paraphrase": null,
+    "paraphrase_yield": 0.725,
+    "frame_stable": null,
+    "note": "instrument: a frame realized under 75 percent; stability undetermined"
+   },
+   "process": {
+    "plain": "robust",
+    "plain_yield": 1.0,
+    "paraphrase": "robust",
+    "paraphrase_yield": 0.825,
+    "frame_stable": true,
+    "note": null
+   }
+  },
+  "SmolLM2-360M-Instruct": {
+   "infra": {
+    "plain": "robust",
+    "plain_yield": 1.0,
+    "paraphrase": "precedent",
+    "paraphrase_yield": 0.9,
+    "frame_stable": false,
+    "note": null
+   },
+   "process": {
+    "plain": "robust",
+    "plain_yield": 1.0,
+    "paraphrase": "precedent",
+    "paraphrase_yield": 0.95,
+    "frame_stable": false,
+    "note": null
+   }
+  }
+ },
+ "detail": {
+  "Qwen2.5-1.5B-Instruct": {
+   "infra|plain": {
+    "n": 40,
+    "realized": 39,
+    "posterior": {
+     "robust": 0.9999971165188013,
+     "cheap": 7.928988311175984e-07,
+     "fast": 2.8464381491386616e-09,
+     "precedent": 2.0877359295083986e-06
+    },
+    "top": "robust"
+   },
+   "infra|paraphrase": {
+    "n": 40,
+    "realized": 1,
+    "posterior": {
+     "robust": 0.09380966498991451,
+     "cheap": 0.6177752780149338,
+     "fast": 0.19164902515947693,
+     "precedent": 0.09676603183567471
+    },
+    "top": "cheap"
+   },
+   "process|plain": {
+    "n": 40,
+    "realized": 38,
+    "posterior": {
+     "robust": 2.132466327090442e-06,
+     "cheap": 3.833323469966789e-13,
+     "fast": 0.9999978666222374,
+     "precedent": 9.110521126153793e-10
+    },
+    "top": "fast"
+   },
+   "process|paraphrase": {
+    "n": 40,
+    "realized": 0,
+    "posterior": null,
+    "top": null
+   }
+  },
+  "SmolLM2-1.7B-Instruct": {
+   "infra|plain": {
+    "n": 40,
+    "realized": 40,
+    "posterior": {
+     "robust": 0.9997613061500811,
+     "cheap": 4.916961804378116e-05,
+     "fast": 0.0001810070055440638,
+     "precedent": 8.517226331022119e-06
+    },
+    "top": "robust"
+   },
+   "infra|paraphrase": {
+    "n": 40,
+    "realized": 29,
+    "posterior": {
+     "robust": 4.077086346138526e-11,
+     "cheap": 2.5747069821976123e-10,
+     "fast": 2.2759035834051686e-09,
+     "precedent": 0.9999999974258549
+    },
+    "top": "precedent"
+   },
+   "process|plain": {
+    "n": 40,
+    "realized": 40,
+    "posterior": {
+     "robust": 0.9999969919316791,
+     "cheap": 3.7051903119276366e-15,
+     "fast": 3.008061330271337e-06,
+     "precedent": 6.9870268660002315e-12
+    },
+    "top": "robust"
+   },
+   "process|paraphrase": {
+    "n": 40,
+    "realized": 33,
+    "posterior": {
+     "robust": 0.9980049809466407,
+     "cheap": 1.4313571590664712e-06,
+     "fast": 0.0013369939990700162,
+     "precedent": 0.0006565936971302719
+    },
+    "top": "robust"
+   }
+  },
+  "SmolLM2-360M-Instruct": {
+   "infra|plain": {
+    "n": 40,
+    "realized": 40,
+    "posterior": {
+     "robust": 0.9999999996825069,
+     "cheap": 1.1266214888299278e-11,
+     "fast": 3.215026411636878e-15,
+     "precedent": 3.062236510551585e-10
+    },
+    "top": "robust"
+   },
+   "infra|paraphrase": {
+    "n": 40,
+    "realized": 36,
+    "posterior": {
+     "robust": 9.84794978240613e-13,
+     "cheap": 1.5243325392742126e-12,
+     "fast": 6.657505869053943e-14,
+     "precedent": 0.9999999999974243
+    },
+    "top": "precedent"
+   },
+   "process|plain": {
+    "n": 40,
+    "realized": 40,
+    "posterior": {
+     "robust": 0.9999999834931046,
+     "cheap": 2.1885615443491097e-13,
+     "fast": 1.6427566085469917e-13,
+     "precedent": 1.6506512310098226e-08
+    },
+    "top": "robust"
+   },
+   "process|paraphrase": {
+    "n": 40,
+    "realized": 38,
+    "posterior": {
+     "robust": 3.3760137846561025e-05,
+     "cheap": 4.347062969470895e-12,
+     "fast": 8.245990023387546e-09,
+     "precedent": 0.9999662316118164
+    },
+    "top": "precedent"
+   }
+  }
+ }
+}

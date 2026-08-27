@@ -1,0 +1,47 @@
+{
+ "cell": "E24-S3-E02",
+ "gate_pass": true,
+ "route_accuracy": {
+  "records": {
+   "n": 96,
+   "realized": 95,
+   "acc": 0.42105263157894735,
+   "per_reader": {
+    "Qwen2.5-1.5B-Instruct": 0.574468085106383,
+    "SmolLM2-1.7B-Instruct": 0.2708333333333333
+   }
+  },
+  "target_only": {
+   "n": 96,
+   "realized": 96,
+   "acc": 0.22916666666666666,
+   "per_reader": {
+    "Qwen2.5-1.5B-Instruct": 0.22916666666666666,
+    "SmolLM2-1.7B-Instruct": 0.22916666666666666
+   }
+  },
+  "generic": {
+   "n": 96,
+   "realized": 96,
+   "acc": 0.2708333333333333,
+   "per_reader": {
+    "Qwen2.5-1.5B-Instruct": 0.20833333333333334,
+    "SmolLM2-1.7B-Instruct": 0.3333333333333333
+   }
+  },
+  "self_first": {
+   "n": 96,
+   "realized": 96,
+   "acc": 0.4166666666666667,
+   "per_reader": {
+    "Qwen2.5-1.5B-Instruct": 0.4375,
+    "SmolLM2-1.7B-Instruct": 0.3958333333333333
+   }
+  }
+ },
+ "bayes_ceiling": 1.0,
+ "records_minus_targetonly": 0.2,
+ "perm_p": 0.002599870006499675,
+ "perm_seed": 30000,
+ "n_paired": 95
+}

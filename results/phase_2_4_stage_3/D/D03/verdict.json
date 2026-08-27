@@ -1,0 +1,95 @@
+{
+ "cell": "E24-S3-D03",
+ "worlds": {
+  "X1": {
+   "kind": "distributed",
+   "homogeneity": 0.8333333333333333,
+   "per_worker_tops": {
+    "infra": [
+     "robust",
+     "robust",
+     "robust"
+    ],
+    "process": [
+     "fast",
+     "fast",
+     "robust"
+    ]
+   }
+  },
+  "X2": {
+   "kind": "distributed",
+   "homogeneity": 0.6666666666666666,
+   "per_worker_tops": {
+    "infra": [
+     "robust",
+     "robust",
+     "cheap"
+    ],
+    "process": [
+     "fast",
+     "robust",
+     "robust"
+    ]
+   }
+  },
+  "W1": {
+   "kind": "central",
+   "homogeneity": 0.8333333333333333,
+   "per_worker_tops": {
+    "infra": [
+     "robust",
+     "robust",
+     "robust"
+    ],
+    "process": [
+     "fast",
+     "robust",
+     "robust"
+    ]
+   }
+  },
+  "W2": {
+   "kind": "central",
+   "homogeneity": 1.0,
+   "per_worker_tops": {
+    "infra": [
+     "robust",
+     "robust",
+     "robust"
+    ],
+    "process": [
+     "robust",
+     "robust",
+     "robust"
+    ]
+   }
+  },
+  "W3": {
+   "kind": "central",
+   "homogeneity": 0.6666666666666666,
+   "per_worker_tops": {
+    "infra": [
+     "robust",
+     "cheap",
+     "robust"
+    ],
+    "process": [
+     "robust",
+     "fast",
+     "robust"
+    ]
+   }
+  }
+ },
+ "central_homogeneity": [
+  0.8333333333333333,
+  1.0,
+  0.6666666666666666
+ ],
+ "distributed_homogeneity": [
+  0.8333333333333333,
+  0.6666666666666666
+ ],
+ "cleanly_separated": false
+}

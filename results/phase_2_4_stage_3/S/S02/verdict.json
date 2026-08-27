@@ -1,0 +1,140 @@
+{
+ "cell": "E24-S3-S02",
+ "cohort": 1,
+ "cells": {
+  "Qwen2.5-|bare": {
+   "n_realized": 24,
+   "of": 24,
+   "posterior": {
+    "infra": {
+     "robust": 0.5239879211841892,
+     "cheap": 0.0014505999645673664,
+     "fast": 0.00017955684697736554,
+     "precedent": 0.47438192200426604
+    },
+    "process": {
+     "robust": 0.05947364839716257,
+     "cheap": 0.0006925118653612587,
+     "fast": 0.9397330986958242,
+     "precedent": 0.0001007410416519166
+    }
+   },
+   "top": {
+    "infra": "robust",
+    "process": "fast"
+   }
+  },
+  "Qwen2.5-|robust": {
+   "n_realized": 24,
+   "of": 24,
+   "posterior": {
+    "infra": {
+     "robust": 0.9999996399644886,
+     "cheap": 4.2379992059684764e-08,
+     "fast": 5.345341326402575e-08,
+     "precedent": 2.642021060445161e-07
+    },
+    "process": {
+     "robust": 0.9999974625966446,
+     "cheap": 1.920327409648517e-08,
+     "fast": 2.4701808158777693e-06,
+     "precedent": 4.801926539416993e-08
+    }
+   },
+   "top": {
+    "infra": "robust",
+    "process": "robust"
+   }
+  },
+  "Qwen2.5-|cheap": {
+   "n_realized": 24,
+   "of": 24,
+   "posterior": {
+    "infra": {
+     "robust": 0.04661915391809556,
+     "cheap": 0.94040340988558,
+     "fast": 0.0075206298357930095,
+     "precedent": 0.005456806360531379
+    },
+    "process": {
+     "robust": 0.3981498275127243,
+     "cheap": 0.5990764649280045,
+     "fast": 0.001312281986879309,
+     "precedent": 0.0014614255723919916
+    }
+   },
+   "top": {
+    "infra": "cheap",
+    "process": "cheap"
+   }
+  },
+  "SmolLM2-|bare": {
+   "n_realized": 24,
+   "of": 24,
+   "posterior": {
+    "infra": {
+     "robust": 0.18629331713986266,
+     "cheap": 0.03915447262219372,
+     "fast": 0.001967206377423689,
+     "precedent": 0.7725850038605199
+    },
+    "process": {
+     "robust": 0.9996602220808632,
+     "cheap": 2.2888443559126837e-07,
+     "fast": 0.0003272887902941404,
+     "precedent": 1.2260244407090017e-05
+    }
+   },
+   "top": {
+    "infra": "precedent",
+    "process": "robust"
+   }
+  },
+  "SmolLM2-|robust": {
+   "n_realized": 24,
+   "of": 24,
+   "posterior": {
+    "infra": {
+     "robust": 0.9999996399644886,
+     "cheap": 4.2379992059684764e-08,
+     "fast": 5.345341326402575e-08,
+     "precedent": 2.642021060445161e-07
+    },
+    "process": {
+     "robust": 0.9999974625966446,
+     "cheap": 1.920327409648517e-08,
+     "fast": 2.4701808158777693e-06,
+     "precedent": 4.801926539416993e-08
+    }
+   },
+   "top": {
+    "infra": "robust",
+    "process": "robust"
+   }
+  },
+  "SmolLM2-|cheap": {
+   "n_realized": 24,
+   "of": 24,
+   "posterior": {
+    "infra": {
+     "robust": 0.7230797595569679,
+     "cheap": 0.176560870025977,
+     "fast": 0.037576968504485206,
+     "precedent": 0.0627824019125698
+    },
+    "process": {
+     "robust": 0.9941027518041912,
+     "cheap": 0.0002948628027932494,
+     "fast": 0.005186656693946288,
+     "precedent": 0.00041572869906931803
+    }
+   },
+   "top": {
+    "infra": "robust",
+    "process": "robust"
+   }
+  }
+ },
+ "policy_recovered_cells": 6,
+ "policy_missed_cells": 2
+}

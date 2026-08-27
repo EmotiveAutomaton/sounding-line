@@ -1,0 +1,89 @@
+{
+ "cell": "E24-S3-M03",
+ "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "gate_pass": false,
+ "prompted_shift": 0.006281836536919945,
+ "per_block": {
+  "1": {
+   "n_valid": 4,
+   "mean_transfer": -0.000854497396756235,
+   "mean_patched_minus_bare": -5.486953547589301e-05
+  },
+  "3": {
+   "n_valid": 4,
+   "mean_transfer": 0.0063139167303476245,
+   "mean_patched_minus_bare": 7.994838375574229e-05
+  },
+  "5": {
+   "n_valid": 4,
+   "mean_transfer": 0.009576124948033104,
+   "mean_patched_minus_bare": 4.9612852003682685e-05
+  },
+  "7": {
+   "n_valid": 4,
+   "mean_transfer": 0.005230696787294868,
+   "mean_patched_minus_bare": 3.4002645112820216e-05
+  },
+  "9": {
+   "n_valid": 4,
+   "mean_transfer": 0.006590480594096022,
+   "mean_patched_minus_bare": 0.0002341897259389228
+  },
+  "11": {
+   "n_valid": 4,
+   "mean_transfer": 4.963118568718152e-05,
+   "mean_patched_minus_bare": -0.00011517878392159481
+  },
+  "13": {
+   "n_valid": 4,
+   "mean_transfer": 0.0332100611546956,
+   "mean_patched_minus_bare": 5.4294920998438266e-05
+  },
+  "15": {
+   "n_valid": 4,
+   "mean_transfer": 0.028741784822683115,
+   "mean_patched_minus_bare": 0.00040035159865503084
+  },
+  "17": {
+   "n_valid": 4,
+   "mean_transfer": 0.012732692767722419,
+   "mean_patched_minus_bare": 0.0005215620506126666
+  },
+  "19": {
+   "n_valid": 4,
+   "mean_transfer": 0.00624930815942682,
+   "mean_patched_minus_bare": 0.0005054831281720308
+  },
+  "21": {
+   "n_valid": 4,
+   "mean_transfer": 0.006313161249116647,
+   "mean_patched_minus_bare": 0.0006743749033551379
+  },
+  "23": {
+   "n_valid": 4,
+   "mean_transfer": 0.00597450041112664,
+   "mean_patched_minus_bare": 0.0022884890543967674
+  }
+ },
+ "identity_ctl_mean_abs": 2.9592738781490425e-05,
+ "mismatch_ctl_mean": -1.96935892031747e-05,
+ "blocks": [
+  1,
+  3,
+  5,
+  7,
+  9,
+  11,
+  13,
+  15,
+  17,
+  19,
+  21,
+  23
+ ],
+ "n_scenarios": 12,
+ "policies": [
+  "robust",
+  "cheap"
+ ]
+}

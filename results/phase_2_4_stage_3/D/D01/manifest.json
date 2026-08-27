@@ -1,0 +1,167 @@
+{
+ "cell": "E24-S3-D01",
+ "worlds": {
+  "W1": {
+   "director": "robust",
+   "n": 48,
+   "yield": 1.0,
+   "director_axis_rate": 0.5833333333333334,
+   "per_worker": {
+    "Qwen2.5-1.5B-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.5625
+    },
+    "SmolLM2-1.7B-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.5
+    },
+    "SmolLM2-360M-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.6875
+    }
+   },
+   "attribution_posterior": {
+    "infra": {
+     "robust": 0.9999998845565632,
+     "cheap": 4.065552272020289e-09,
+     "fast": 4.12149211048113e-08,
+     "precedent": 7.016296339686196e-08
+    },
+    "process": {
+     "robust": 0.9992942660372709,
+     "cheap": 1.376942801084217e-07,
+     "fast": 0.0007032997562863433,
+     "precedent": 2.296512162737297e-06
+    }
+   },
+   "attribution_top": {
+    "infra": "robust",
+    "process": "robust"
+   }
+  },
+  "W2": {
+   "director": "cheap",
+   "n": 48,
+   "yield": 1.0,
+   "director_axis_rate": 0.20833333333333334,
+   "per_worker": {
+    "Qwen2.5-1.5B-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.375
+    },
+    "SmolLM2-1.7B-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.125
+    },
+    "SmolLM2-360M-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.125
+    }
+   },
+   "attribution_posterior": {
+    "infra": {
+     "robust": 0.9999459892547795,
+     "cheap": 5.38691081028208e-05,
+     "fast": 4.884718980896197e-08,
+     "precedent": 9.278992784699308e-08
+    },
+    "process": {
+     "robust": 0.9999960441949568,
+     "cheap": 9.012991937977826e-08,
+     "fast": 3.839475190253112e-06,
+     "precedent": 2.6199933647451466e-08
+    }
+   },
+   "attribution_top": {
+    "infra": "robust",
+    "process": "robust"
+   }
+  },
+  "W3": {
+   "director": "fast",
+   "n": 48,
+   "yield": 1.0,
+   "director_axis_rate": 0.125,
+   "per_worker": {
+    "Qwen2.5-1.5B-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.125
+    },
+    "SmolLM2-1.7B-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.25
+    },
+    "SmolLM2-360M-Instruct": {
+     "n": 16,
+     "director_axis_rate": 0.0
+    }
+   },
+   "attribution_posterior": {
+    "infra": {
+     "robust": 0.997341993494427,
+     "cheap": 0.0026366231871871298,
+     "fast": 4.872301335234175e-08,
+     "precedent": 2.1334595372581286e-05
+    },
+    "process": {
+     "robust": 0.9982700555648684,
+     "cheap": 8.512966952448511e-07,
+     "fast": 0.0017070229307712867,
+     "precedent": 2.2070207665052055e-05
+    }
+   },
+   "attribution_top": {
+    "infra": "robust",
+    "process": "robust"
+   }
+  },
+  "W4": {
+   "director": null,
+   "n": 48,
+   "yield": 1.0,
+   "director_axis_rate": null,
+   "per_worker": {
+    "Qwen2.5-1.5B-Instruct": {
+     "n": 16,
+     "director_axis_rate": null
+    },
+    "SmolLM2-1.7B-Instruct": {
+     "n": 16,
+     "director_axis_rate": null
+    },
+    "SmolLM2-360M-Instruct": {
+     "n": 16,
+     "director_axis_rate": null
+    }
+   },
+   "attribution_posterior": {
+    "infra": {
+     "robust": 0.9928485173969585,
+     "cheap": 0.007145353868488099,
+     "fast": 8.746716673533585e-07,
+     "precedent": 5.254062886076093e-06
+    },
+    "process": {
+     "robust": 0.5033315885284515,
+     "cheap": 3.2809220007908755e-06,
+     "fast": 0.4958041450407421,
+     "precedent": 0.0008609855088056674
+    }
+   },
+   "attribution_top": {
+    "infra": "robust",
+    "process": "robust"
+   }
+  }
+ },
+ "undirected_marginal": {
+  "robust": 0.4166666666666667,
+  "cheap": 0.22916666666666666,
+  "fast": 0.20833333333333334,
+  "precedent": 0.14583333333333334
+ },
+ "directed_worlds_recovered": 1,
+ "of": 3,
+ "n_episodes": 192,
+ "n_realized": 192
+}

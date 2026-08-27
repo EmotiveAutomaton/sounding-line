@@ -1,0 +1,147 @@
+{
+ "cell": "E24-S3-V03",
+ "by_bonus": {
+  "0.4": {
+   "profile_recovery": 1.0,
+   "goal_recovery": 0.7222222222222222,
+   "n_cells": 36
+  },
+  "0.8": {
+   "profile_recovery": 1.0,
+   "goal_recovery": 0.9444444444444444,
+   "n_cells": 36
+  },
+  "1.2": {
+   "profile_recovery": 0.9722222222222222,
+   "goal_recovery": 0.9722222222222222,
+   "n_cells": 36
+  }
+ },
+ "confusion_full": {
+  "0.4": {
+   "robust|cheap": {
+    "robust|fast": 1,
+    "robust|cheap": 2
+   },
+   "robust|fast": {
+    "robust|fast": 3
+   },
+   "robust|precedent": {
+    "robust|precedent": 3
+   },
+   "cheap|robust": {
+    "cheap|robust": 3
+   },
+   "cheap|fast": {
+    "cheap|fast": 3
+   },
+   "cheap|precedent": {
+    "cheap|precedent": 2,
+    "cheap|robust": 1
+   },
+   "fast|robust": {
+    "fast|precedent": 1,
+    "fast|cheap": 2
+   },
+   "fast|cheap": {
+    "fast|cheap": 3
+   },
+   "fast|precedent": {
+    "fast|precedent": 3
+   },
+   "precedent|robust": {
+    "precedent|robust": 1,
+    "precedent|cheap": 1,
+    "precedent|fast": 1
+   },
+   "precedent|cheap": {
+    "precedent|cheap": 2,
+    "precedent|fast": 1
+   },
+   "precedent|fast": {
+    "precedent|cheap": 2,
+    "precedent|fast": 1
+   }
+  },
+  "0.8": {
+   "robust|cheap": {
+    "robust|cheap": 3
+   },
+   "robust|fast": {
+    "robust|fast": 3
+   },
+   "robust|precedent": {
+    "robust|precedent": 3
+   },
+   "cheap|robust": {
+    "cheap|robust": 3
+   },
+   "cheap|fast": {
+    "cheap|fast": 3
+   },
+   "cheap|precedent": {
+    "cheap|precedent": 2,
+    "cheap|robust": 1
+   },
+   "fast|robust": {
+    "fast|robust": 3
+   },
+   "fast|cheap": {
+    "fast|cheap": 3
+   },
+   "fast|precedent": {
+    "fast|precedent": 3
+   },
+   "precedent|robust": {
+    "precedent|robust": 2,
+    "precedent|fast": 1
+   },
+   "precedent|cheap": {
+    "precedent|cheap": 3
+   },
+   "precedent|fast": {
+    "precedent|fast": 3
+   }
+  },
+  "1.2": {
+   "robust|cheap": {
+    "robust|cheap": 3
+   },
+   "robust|fast": {
+    "robust|fast": 3
+   },
+   "robust|precedent": {
+    "robust|precedent": 3
+   },
+   "cheap|robust": {
+    "cheap|robust": 3
+   },
+   "cheap|fast": {
+    "cheap|fast": 3
+   },
+   "cheap|precedent": {
+    "cheap|precedent": 2,
+    "fast|cheap": 1
+   },
+   "fast|robust": {
+    "fast|robust": 3
+   },
+   "fast|cheap": {
+    "fast|cheap": 3
+   },
+   "fast|precedent": {
+    "fast|precedent": 3
+   },
+   "precedent|robust": {
+    "precedent|robust": 3
+   },
+   "precedent|cheap": {
+    "precedent|cheap": 3
+   },
+   "precedent|fast": {
+    "precedent|fast": 3
+   }
+  }
+ },
+ "design": "40 records, half goal-active interleaved, 12 profile-goal pairs x 3 reps per dose"
+}

@@ -1,0 +1,22 @@
+{
+ "cell": "E24-S3-E04",
+ "cells": {
+  "Qwen2.5-1.5B-Instruct": {
+   "n": 36,
+   "correct": 22,
+   "self_intrusion": 4,
+   "other_error": 10,
+   "intrusion_share_of_errors": 0.2857142857142857,
+   "symmetric_null_share": 0.3333333333333333
+  },
+  "SmolLM2-1.7B-Instruct": {
+   "n": 36,
+   "correct": 10,
+   "self_intrusion": 15,
+   "other_error": 11,
+   "intrusion_share_of_errors": 0.5769230769230769,
+   "symmetric_null_share": 0.3333333333333333
+  }
+ },
+ "note": "errors could land on 3 non-record options; self option is 1 of 3, so intrusion share above 1/3 = projection pull"
+}

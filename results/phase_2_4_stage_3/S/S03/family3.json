@@ -1,0 +1,51 @@
+{
+ "cell": "E24-S3-S03/X3",
+ "per_family": {
+  "qwen": {
+   "exact": {
+    "n": 123,
+    "mean_margin": 0.0634514712059724
+   },
+   "same_family": {
+    "n": 369,
+    "mean_margin": 0.05272517957015412
+   },
+   "cross_family": {
+    "n": 738,
+    "mean_margin": 0.04166675962729829
+   },
+   "monotone_where_defined": true
+  },
+  "smollm": {
+   "exact": {
+    "n": 127,
+    "mean_margin": 0.05274198186679149
+   },
+   "same_family": {
+    "n": 254,
+    "mean_margin": 0.03863538523984393
+   },
+   "cross_family": {
+    "n": 889,
+    "mean_margin": 0.033697315155454106
+   },
+   "monotone_where_defined": true
+  },
+  "olmo": {
+   "exact": {
+    "n": 128,
+    "mean_margin": 0.07721107049534719
+   },
+   "same_family": {
+    "n": 0,
+    "mean_margin": null
+   },
+   "cross_family": {
+    "n": 1152,
+    "mean_margin": 0.04071928502094966
+   },
+   "monotone_where_defined": true
+  }
+ },
+ "note": "olmo same_family has no members (single checkpoint); its gradient is the exact-vs-cross pair only"
+}

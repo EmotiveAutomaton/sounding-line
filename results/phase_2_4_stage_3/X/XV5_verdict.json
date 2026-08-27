@@ -1,0 +1,48 @@
+{
+ "cell": "E24-S3-XV5",
+ "option_length_bias": {
+  "purpose": {
+   "n": 1000,
+   "longest_option_correct_rate": 0.285
+  },
+  "detail": {
+   "n": 1000,
+   "longest_option_correct_rate": 0.271
+  }
+ },
+ "readers": {
+  "Qwen2.5-": {
+   "bias_resistant_cells": {
+    "purpose": {
+     "n": 715,
+     "acc": 0.4825174825174825
+    },
+    "detail": {
+     "n": 729,
+     "acc": 0.39780521262002744
+    }
+   },
+   "purpose_minus_detail_resistant": 0.08712121212121213,
+   "perm_p": 0.004999750012499375,
+   "n_pairs": 528
+  },
+  "SmolLM2-": {
+   "bias_resistant_cells": {
+    "purpose": {
+     "n": 715,
+     "acc": 0.4013986013986014
+    },
+    "detail": {
+     "n": 729,
+     "acc": 0.355281207133059
+    }
+   },
+   "purpose_minus_detail_resistant": 0.041666666666666664,
+   "perm_p": 0.18299085045747712,
+   "n_pairs": 528
+  }
+ },
+ "perm_seed": 95005,
+ "survives": true,
+ "kills_if": "the purpose advantage vanishes on items whose correct option is not the longest"
+}

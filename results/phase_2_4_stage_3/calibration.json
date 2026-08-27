@@ -1,0 +1,41 @@
+{
+ "machine": "12GB RTX 4070 SUPER",
+ "ops": {
+  "generation_1p7b_150tok": {
+   "seconds_total": 20.8910973072052,
+   "seconds_per_unit": 2.61138716340065,
+   "n_units": 8,
+   "peak_vram_gb": 3.464635392
+  },
+  "likelihood_score_1p5b": {
+   "seconds_total": 0.8207440376281738,
+   "seconds_per_unit": 0.04103720188140869,
+   "n_units": 20,
+   "peak_vram_gb": 3.234522112
+  },
+  "activation_capture_1p5b": {
+   "seconds_total": 0.4134562015533447,
+   "seconds_per_unit": 0.041345620155334474,
+   "n_units": 10,
+   "peak_vram_gb": 3.134394368
+  },
+  "lora_epoch_360m_64ex": {
+   "seconds_total": 8.189567804336548,
+   "seconds_per_unit": 0.12796199694275856,
+   "n_units": 64,
+   "peak_vram_gb": 4.629999616
+  },
+  "peft_available": true,
+  "full_ft_step_360m": {
+   "seconds_total": 7.599084138870239,
+   "seconds_per_unit": 0.9498855173587799,
+   "n_units": 8,
+   "peak_vram_gb": 10.43120384
+  },
+  "full_ft_360m_feasible": true
+ },
+ "versions": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1"
+ }
+}

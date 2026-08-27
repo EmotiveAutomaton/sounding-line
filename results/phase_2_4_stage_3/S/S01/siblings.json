@@ -1,0 +1,22 @@
+{
+ "cell": "E24-S3-S01/X2",
+ "contrast": {
+  "qwen": {
+   "n_pairs": 123,
+   "exact_mean": 0.0634514712059724,
+   "exact_minus_sibling": 0.010726291635818275,
+   "perm_p": 9.99950002499875e-05
+  },
+  "smollm": {
+   "n_pairs": 127,
+   "exact_mean": 0.05274198186679149,
+   "exact_minus_sibling": 0.014106596626947557,
+   "perm_p": 4.999750012499375e-05
+  },
+  "olmo": {
+   "note": "no sibling checkpoints in the bench; exact-only family"
+  }
+ },
+ "perm_seed": 95001,
+ "kills_if": "exact-minus-sibling at or below zero in both families would reduce the S03 gradient's top rung to generic family style"
+}

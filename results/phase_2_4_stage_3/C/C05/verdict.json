@@ -1,0 +1,40 @@
+{
+ "cell": "E24-S3-C05",
+ "cells": {
+  "recall_good": {
+   "n": 22,
+   "acc": 0.09090909090909091
+  },
+  "recall_bad": {
+   "n": 25,
+   "acc": 0.24
+  }
+ },
+ "per_reader": {
+  "Qwen2.5-|recall_good": {
+   "n_attempted": 7,
+   "n_realized": 7,
+   "yield": 1.0,
+   "acc": 0.14285714285714285
+  },
+  "Qwen2.5-|recall_bad": {
+   "n_attempted": 17,
+   "n_realized": 16,
+   "yield": 0.9411764705882353,
+   "acc": 0.1875
+  },
+  "SmolLM2-|recall_good": {
+   "n_attempted": 15,
+   "n_realized": 15,
+   "yield": 1.0,
+   "acc": 0.06666666666666667
+  },
+  "SmolLM2-|recall_bad": {
+   "n_attempted": 9,
+   "n_realized": 9,
+   "yield": 1.0,
+   "acc": 0.3333333333333333
+  }
+ },
+ "reading": "errors concentrated in recall_bad = attention failure; errors despite recall_good = weighing failure"
+}

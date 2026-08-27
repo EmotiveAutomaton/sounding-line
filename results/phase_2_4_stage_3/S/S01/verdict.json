@@ -1,0 +1,113 @@
+{
+ "cell": "E24-S3-S01",
+ "families": [
+  "qwen",
+  "smollm",
+  "olmo"
+ ],
+ "grid": {
+  "qwen|gpt2": {
+   "n": 123,
+   "mean_margin": 0.021069446876443177
+  },
+  "qwen|olmo": {
+   "n": 123,
+   "mean_margin": 0.055618902370535586
+  },
+  "qwen|pythia": {
+   "n": 123,
+   "mean_margin": 0.033718458359157495
+  },
+  "qwen|qwen": {
+   "n": 492,
+   "mean_margin": 0.055406752479108694
+  },
+  "qwen|smollm": {
+   "n": 369,
+   "mean_margin": 0.046531250052551154
+  },
+  "smollm|gpt2": {
+   "n": 127,
+   "mean_margin": 0.011687801578852136
+  },
+  "smollm|olmo": {
+   "n": 127,
+   "mean_margin": 0.04077713664748224
+  },
+  "smollm|pythia": {
+   "n": 127,
+   "mean_margin": 0.02522611242579663
+  },
+  "smollm|qwen": {
+   "n": 508,
+   "mean_margin": 0.03954753885901194
+  },
+  "smollm|smollm": {
+   "n": 381,
+   "mean_margin": 0.04333758411549312
+  },
+  "olmo|gpt2": {
+   "n": 128,
+   "mean_margin": 0.01596365248163541
+  },
+  "olmo|olmo": {
+   "n": 128,
+   "mean_margin": 0.07721107049534719
+  },
+  "olmo|pythia": {
+   "n": 128,
+   "mean_margin": 0.03100597206503153
+  },
+  "olmo|qwen": {
+   "n": 512,
+   "mean_margin": 0.04397987124199668
+  },
+  "olmo|smollm": {
+   "n": 384,
+   "mean_margin": 0.0478614852246311
+  }
+ },
+ "contrast_maker_families_only": {
+  "qwen": {
+   "n_pairs": 123,
+   "own_minus_other": 0.010006960451118345,
+   "perm_p": 0.00119994000299985,
+   "perm_seed": 17241
+  },
+  "smollm": {
+   "n_pairs": 127,
+   "own_minus_other": 0.003432454649857648,
+   "perm_p": 0.17779111044447776,
+   "perm_seed": 17241
+  },
+  "olmo": {
+   "n_pairs": 128,
+   "own_minus_other": 0.03156765040365003,
+   "perm_p": 4.999750012499375e-05,
+   "perm_seed": 17241
+  }
+ },
+ "contrast_all_reader_families": {
+  "qwen": {
+   "n_pairs": 123,
+   "own_minus_other": 0.017143363955867325,
+   "perm_p": 4.999750012499375e-05,
+   "perm_seed": 17242
+  },
+  "smollm": {
+   "n_pairs": 127,
+   "own_minus_other": 0.009528597911109537,
+   "perm_p": 0.00044997750112494374,
+   "perm_seed": 17242
+  },
+  "olmo": {
+   "n_pairs": 128,
+   "own_minus_other": 0.03649178547439752,
+   "perm_p": 4.999750012499375e-05,
+   "perm_seed": 17242
+  }
+ },
+ "third_family": "allenai/OLMo-2-0425-1B-Instruct",
+ "third_family_blocked": false,
+ "n_cases": 3780
+}

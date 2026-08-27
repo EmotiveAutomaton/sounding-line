@@ -1,0 +1,46 @@
+{
+ "cell": "E24-S3-E03/X1",
+ "domain": "infra",
+ "per_reader": {
+  "Qwen2.5-1.5B": {
+   "n_attempted": 24,
+   "n_realized": 24,
+   "yield": 1.0,
+   "acc": 0.375
+  },
+  "SmolLM2-1.7B": {
+   "n_attempted": 24,
+   "n_realized": 24,
+   "yield": 1.0,
+   "acc": 0.25
+  }
+ },
+ "per_profile": {
+  "robust_precedent": {
+   "n": 8,
+   "acc": 0.375
+  },
+  "robust_cheap": {
+   "n": 8,
+   "acc": 0.375
+  },
+  "cheap_fast": {
+   "n": 8,
+   "acc": 0.25
+  },
+  "fast_precedent": {
+   "n": 8,
+   "acc": 0.25
+  },
+  "cheap_precedent": {
+   "n": 8,
+   "acc": 0.25
+  },
+  "robust_fast": {
+   "n": 8,
+   "acc": 0.375
+  }
+ },
+ "chance": 0.25,
+ "identifiability_note": "extended-set exact recovery 29/30 at build"
+}

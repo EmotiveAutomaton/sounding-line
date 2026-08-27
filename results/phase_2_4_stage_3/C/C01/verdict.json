@@ -1,0 +1,86 @@
+{
+ "cell": "E24-S3-C01",
+ "ruler_stands_easy_doses": false,
+ "easy_dose_acc": 0.484375,
+ "cells": {
+  "dose0|early_first": {
+   "n": 32,
+   "acc_vs_bayes": 0.59375
+  },
+  "dose0|recent_first": {
+   "n": 32,
+   "acc_vs_bayes": 0.59375
+  },
+  "dose2|early_first": {
+   "n": 31,
+   "acc_vs_bayes": 0.3870967741935484
+  },
+  "dose2|recent_first": {
+   "n": 32,
+   "acc_vs_bayes": 0.375
+  },
+  "dose8|early_first": {
+   "n": 32,
+   "acc_vs_bayes": 0.40625
+  },
+  "dose8|recent_first": {
+   "n": 32,
+   "acc_vs_bayes": 0.34375
+  }
+ },
+ "per_reader_by_dose": {
+  "Qwen2.5-|0": {
+   "n_attempted": 32,
+   "n_realized": 32,
+   "yield": 1.0,
+   "acc": 0.8125
+  },
+  "Qwen2.5-|2": {
+   "n_attempted": 32,
+   "n_realized": 31,
+   "yield": 0.96875,
+   "acc": 0.3870967741935484
+  },
+  "Qwen2.5-|8": {
+   "n_attempted": 32,
+   "n_realized": 32,
+   "yield": 1.0,
+   "acc": 0.40625
+  },
+  "SmolLM2-|0": {
+   "n_attempted": 32,
+   "n_realized": 32,
+   "yield": 1.0,
+   "acc": 0.375
+  },
+  "SmolLM2-|2": {
+   "n_attempted": 32,
+   "n_realized": 32,
+   "yield": 1.0,
+   "acc": 0.375
+  },
+  "SmolLM2-|8": {
+   "n_attempted": 32,
+   "n_realized": 32,
+   "yield": 1.0,
+   "acc": 0.34375
+  }
+ },
+ "bayes_truth_by_dose": {
+  "0": {
+   "HOLD": 16
+  },
+  "2": {
+   "HOLD": 16
+  },
+  "8": {
+   "FLIP": 16
+  }
+ },
+ "order_effect_earlyfirst_minus_recentfirst": 0.047619047619047616,
+ "perm_p": 0.648517574121294,
+ "perm_seed": 60005,
+ "n_paired": 63,
+ "n_items": 48,
+ "yield": 0.9947916666666666
+}

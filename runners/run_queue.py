@@ -2115,10 +2115,454 @@ STAGES += [
             "0.70 following"},
 ]
 
+# ── STAGE 3 (E24-S3, 2026-08-24): the week-long inversion forest. Wave 0 rulers and
+# known-positive gates first (V01/E02/A02 gate their trunks), then Wave 1 roots.
+# Manifest: results/phase_2_4_stage_3/QUEUE_MANIFEST.json; statuses via soundingline.s3.
+S3R = "results/phase_2_4_stage_3"
+STAGES += [
+    # wave 0 — rulers and admission gates
+    {"name": "s3_v01_ruler", "est": 60,
+     "cmd": [PY, "runners/s3_run_v.py", "--arm", "v01"],
+     "produces": f"{S3R}/V/V01/ruler.json", "needs": [],
+     "why": "E24-S3-V01 choice-set ruler: exact Bayes recovery, strength monotonicity, "
+            "blind floor, and the makers' 85 percent enactment gate — V02-V06 hang on it"},
+    {"name": "s3_e02_ruler", "est": 80,
+     "cmd": [PY, "runners/s3_run_e.py", "--arm", "e02"],
+     "produces": f"{S3R}/E/E02/gate.json", "needs": [],
+     "why": "E24-S3-E02 route ruler on known-policy targets: records-aware must beat "
+            "target-only and compute-matched filler, else the E trunk's routes are "
+            "instrument-failed before E03 spends anything"},
+    {"name": "s3_a02_anchor", "est": 45,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a02"],
+     "produces": f"{S3R}/A/A02/anchor.json", "needs": [],
+     "why": "E24-S3-A02 steering known-positive: additive valence steering with sign "
+            "pair, random/shuffled controls, capability-toleranced dose ladder — every "
+            "A-trunk causal arm is blocked until this stands"},
+    {"name": "s3_s01_gate3", "est": 70,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "gate3"],
+     "produces": f"{S3R}/S/S01/gate3.json", "needs": [],
+     "why": "E24-S3-S01 third-family admission: TinyLlama-1.1B-Chat vs OLMo-2-1B-Instruct "
+            "at the 85 percent accept-time realization floor on the G172 bank"},
+    # wave 1 — trunk roots
+    {"name": "s3_e01_selfpolicy", "est": 90,
+     "cmd": [PY, "runners/s3_run_e.py", "--arm", "e01"],
+     "produces": f"{S3R}/E/E01/profiles.json", "needs": [],
+     "why": "E24-S3-E01 self-policy profiles: three instruct readers choose with no "
+            "policy line; exact posterior over axis profiles, split-half and paraphrase "
+            "stability"},
+    {"name": "s3_a01_corpus", "est": 60,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a01"],
+     "produces": f"{S3R}/A/A01/corpus.json", "needs": [],
+     "why": "E24-S3-A01 action-tendency corpus: 24 scenes x 4 tendencies x 2 makers, "
+            "source twins by scene, accept-time anchor realization, complete quads only"},
+    {"name": "s3_s01_gen3", "est": 90,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "gen3"],
+     "produces": f"{S3R}/S/S01/family3_manifest.json",
+     "needs": [f"{S3R}/S/S01/gate3.json"],
+     "why": "E24-S3-S01 family-3 corpus from the gate winner, 0.9 yield gate withholds "
+            "the manifest"},
+    {"name": "s3_s01_matrix3", "est": 80,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "matrix3"],
+     "produces": f"{S3R}/S/S01/matrix3_done.json",
+     "needs": [f"{S3R}/S/S01/family3_manifest.json"],
+     "why": "E24-S3-S01 new matrix cells only: fam3 reader x old corpora, all readers x "
+            "fam3 corpus; Stage-2 reads reused for existing cells (deterministic)"},
+    {"name": "s3_s01_analyze", "est": 5,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "analyze"],
+     "produces": f"{S3R}/S/S01/verdict.json",
+     "needs": [f"{S3R}/S/S01/matrix3_done.json"],
+     "why": "E24-S3-S01 three-family crossed reversal, completeness-guarded, cells "
+            "beside contrasts"},
+    {"name": "s3_v02_recovery", "est": 60,
+     "cmd": [PY, "runners/s3_run_v.py", "--arm", "v02"],
+     "produces": f"{S3R}/V/V02/verdict.json",
+     "needs": [f"{S3R}/V/V01/ruler.json"],
+     "why": "E24-S3-V02 artifact-only preference recovery with a dose curve over "
+            "artifacts shown, mechanical extraction, exact posterior"},
+    {"name": "s3_l01_gen", "est": 110,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "gen"],
+     "produces": f"{S3R}/L/L01/data_control_s6.jsonl", "needs": [],
+     "why": "E24-S3-L01 teacher number-sequence data, 6 seeds x trait/control, strict "
+            "numeric filter (benign anchor: an animal preference; safety section 0)"},
+    {"name": "s3_l01_train", "est": 45,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "train"],
+     "produces": f"{S3R}/L/L01/adapter_control_s6_r16/adapter_model.safetensors",
+     "needs": [f"{S3R}/L/L01/data_control_s6.jsonl"],
+     "why": "E24-S3-L01 LoRA students, one per seed x condition, same base init"},
+    {"name": "s3_l01_probe", "est": 35,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "probe"],
+     "produces": f"{S3R}/L/L01/verdict.json",
+     "needs": [f"{S3R}/L/L01/adapter_control_s6_r16/adapter_model.safetensors"],
+     "why": "E24-S3-L01 probe: owl rate per student, full menu distribution, "
+            "trait-minus-control over seed pairs"},
+    {"name": "s3_c01_ruler", "est": 50,
+     "cmd": [PY, "runners/s3_run_c.py", "--arm", "c01"],
+     "produces": f"{S3R}/C/C01/verdict.json", "needs": [],
+     "why": "E24-S3-C01 late-fusion ruler: exact hold/flip ground truth per item, "
+            "graded conflict dose (0/2/8), presentation order crossed"},
+    {"name": "s3_d01_ecology", "est": 60,
+     "cmd": [PY, "runners/s3_run_d.py", "--arm", "d01"],
+     "produces": f"{S3R}/D/D01/manifest.json", "needs": [],
+     "why": "E24-S3-D01 four-world ecology: three directed worlds plus an undirected "
+            "control, three workers each, 48 episodes per world; reach and exact "
+            "attribution per world and per worker"},
+    {"name": "s3_m01_patching", "est": 40,
+     "cmd": [PY, "runners/s3_run_m.py", "--arm", "m01"],
+     "produces": f"{S3R}/M/M01/verdict.json", "needs": [],
+     "why": "E24-S3-M01 activation patching: per-block transfer curve of a standing "
+            "policy into a bare prompt, identity and mismatched-scenario nulls, "
+            "known-positive prompted-shift gate"},
+    {"name": "s3_h01_read", "est": 120,
+     "cmd": [PY, "runners/s3_run_h.py", "--arm", "h01_read"],
+     "produces": f"{S3R}/H/H01/verdict.json",
+     "needs": [f"{S3R}/H/H01/bank.json"],
+     "why": "E24-S3-H01 RACE rhetorical purpose vs detail, two likelihood readers, "
+            "question-only floor, paired within-passage contrast"},
+    {"name": "s3_h04_fit", "est": 60,
+     "cmd": [PY, "runners/s3_run_h.py", "--arm", "h04"],
+     "produces": f"{S3R}/H/H04/verdict.json",
+     "needs": [f"{S3R}/H/H04/episodes.json"],
+     "why": "E24-S3-H04 CoAuthor contextual-fit AUC on balanced take/dismiss "
+            "decisions — the separation position and length could not make"},
+    {"name": "s3_s02_data", "est": 80,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s02_data"],
+     "produces": f"{S3R}/S/S02/pairs_SmolLM2-_cheap_c1.jsonl", "needs": [],
+     "why": "E24-S3-S02 training pairs: policy-prompted makers enact; pairs stored "
+            "bare-prompt -> realized recommendation, held-out scenarios excluded"},
+    {"name": "s3_s02_train", "est": 60,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s02_train"],
+     "produces": f"{S3R}/S/S02/adapter_SmolLM2-_cheap_c1/adapter_model.safetensors",
+     "needs": [f"{S3R}/S/S02/pairs_SmolLM2-_cheap_c1.jsonl"],
+     "why": "E24-S3-S02 four LoRA adapters: 2 families x 2 policies, weight-borne "
+            "standing policy"},
+    {"name": "s3_s02_eval", "est": 50,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s02_eval"],
+     "produces": f"{S3R}/S/S02/verdict.json",
+     "needs": [f"{S3R}/S/S02/adapter_SmolLM2-_cheap_c1/adapter_model.safetensors"],
+     "why": "E24-S3-S02 held-out enactment with no policy line; exact posterior must "
+            "recover the trained policy; bare maker is the floor"},
+    {"name": "s3_l02_grid", "est": 90,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "l02"],
+     "produces": f"{S3R}/L/L02/verdict.json",
+     "needs": [f"{S3R}/L/L01/verdict.json"],
+     "why": "E24-S3-L02 rank x template grid: rank 4/64 on the L01 data, rank 16 on a "
+            "second template; per-cell transmission gaps beside the canonical cell"},
+    {"name": "s3_d02_ruler", "est": 70,
+     "cmd": [PY, "runners/s3_run_d.py", "--arm", "d02"],
+     "produces": f"{S3R}/D/D02/verdict.json", "needs": [],
+     "why": "E24-S3-D02 upstream dose ruler: firm/hedged/none director lines, paired "
+            "episodes, known dose ordering as the gate"},
+    {"name": "s3_e03_factorial", "est": 100,
+     "cmd": [PY, "runners/s3_run_e.py", "--arm", "e03"],
+     "produces": f"{S3R}/E/E03/verdict.json",
+     "needs": [f"{S3R}/E/E02/gate.json"],
+     "why": "E24-S3-E03 similarity x route factorial: self / other-family / "
+            "programmatic targets, truth = the target's own realized choice"},
+    {"name": "s3_a03_tournament", "est": 45,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a03"],
+     "produces": f"{S3R}/A/A03/tournament.json",
+     "needs": [f"{S3R}/A/A01/corpus.json"],
+     "why": "E24-S3-A03 basis/locus tournament on the tendency corpus, scene-fold "
+            "held-out decode, shuffled null per cell, anchor phrases stripped"},
+    {"name": "s3_c02_sources", "est": 45,
+     "cmd": [PY, "runners/s3_run_c.py", "--arm", "c02"],
+     "produces": f"{S3R}/C/C02/verdict.json", "needs": [],
+     "why": "E24-S3-C02 source reliability: verified-track-record archives, "
+            "reliable/unreliable/conflict conditions, counterbalanced names"},
+    # E24-S3-M02 resolved INSTRUMENT_FAILED in the manifest (the M01 gate
+    # failed, so there is no localized depth to interchange); its stage is
+    # removed so the queue-empty check can reach zero.
+    {"name": "s3_s03_gradient", "est": 10,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s03"],
+     "produces": f"{S3R}/S/S03/verdict.json",
+     "needs": [f"{S3R}/S/S01/verdict.json"],
+     "why": "E24-S3-S03 relatedness gradient over the complete three-family matrix, "
+            "within-artifact rung permutation"},
+    {"name": "s3_l03_fullft", "est": 90,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "l03"],
+     "produces": f"{S3R}/L/L03/verdict.json",
+     "needs": [f"{S3R}/L/L01/verdict.json"],
+     "why": "E24-S3-L03 full-finetune students on the same data/probe as the LoRA "
+            "arm; parameterization is the only moving part"},
+    {"name": "s3_d03_structure", "est": 60,
+     "cmd": [PY, "runners/s3_run_d.py", "--arm", "d03"],
+     "produces": f"{S3R}/D/D03/verdict.json",
+     "needs": [f"{S3R}/D/D01/manifest.json"],
+     "why": "E24-S3-D03 central vs distributed direction: per-worker posterior "
+            "homogeneity as the discriminating signature"},
+    {"name": "s3_e04_conflict", "est": 40,
+     "cmd": [PY, "runners/s3_run_e.py", "--arm", "e04"],
+     "produces": f"{S3R}/E/E04/verdict.json",
+     "needs": [f"{S3R}/E/E01/profiles.json", f"{S3R}/E/E02/gate.json"],
+     "why": "E24-S3-E04 self-projection intrusion: error direction on conflict items "
+            "against the symmetric-error null"},
+    {"name": "s3_a04_dissociate", "est": 40,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a04"],
+     "produces": f"{S3R}/A/A04/verdict.json",
+     "needs": [f"{S3R}/A/A03/tournament.json"],
+     "why": "E24-S3-A04 fear-anger dissociation: tendency must separate what the "
+            "frozen valence axis cannot"},
+    {"name": "s3_c03_biography", "est": 50,
+     "cmd": [PY, "runners/s3_run_c.py", "--arm", "c03"],
+     "produces": f"{S3R}/C/C03/verdict.json", "needs": [],
+     "why": "E24-S3-C03 biography vs record: four context conditions, conflict "
+            "decides narrative-vs-evidence"},
+    {"name": "s3_a06_suppress", "est": 40,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a06"],
+     "produces": f"{S3R}/A/A06/verdict.json",
+     "needs": [f"{S3R}/A/A03/tournament.json"],
+     "why": "E24-S3-A06 expressivity suppression: does tendency survive a flat "
+            "register? Suppression verified on surface before leakage is claimed"},
+    {"name": "s3_c04_position", "est": 45,
+     "cmd": [PY, "runners/s3_run_c.py", "--arm", "c04"],
+     "produces": f"{S3R}/C/C04/verdict.json",
+     "needs": [f"{S3R}/C/C01/verdict.json"],
+     "why": "E24-S3-C04 conflict position early/middle/late where Bayes is "
+            "position-invariant"},
+    {"name": "s3_c05_uptake", "est": 45,
+     "cmd": [PY, "runners/s3_run_c.py", "--arm", "c05"],
+     "produces": f"{S3R}/C/C05/verdict.json",
+     "needs": [f"{S3R}/C/C01/verdict.json"],
+     "why": "E24-S3-C05 attend-vs-weigh decomposition: mechanical recall stage "
+            "before prediction on the FLIP items"},
+    {"name": "s3_c06_sycophancy", "est": 45,
+     "cmd": [PY, "runners/s3_run_c.py", "--arm", "c06"],
+     "produces": f"{S3R}/C/C06/verdict.json",
+     "needs": [f"{S3R}/C/C01/verdict.json"],
+     "why": "E24-S3-C06 does an expressed user hope bend prediction against the "
+            "record; hint-following rate on conflict items"},
+    {"name": "s3_e05_probing", "est": 30,
+     "cmd": [PY, "runners/s3_run_e.py", "--arm", "e05"],
+     "produces": f"{S3R}/E/E05/verdict.json",
+     "needs": [f"{S3R}/E/E02/gate.json"],
+     "why": "E24-S3-E05 active probing: pick the discriminating record over the "
+            "uninformative one, exact answer known"},
+    {"name": "s3_v04_transfer", "est": 50,
+     "cmd": [PY, "runners/s3_run_v.py", "--arm", "v04"],
+     "produces": f"{S3R}/V/V04/verdict.json",
+     "needs": [f"{S3R}/V/V01/ruler.json"],
+     "why": "E24-S3-V04 cross-domain profile transfer, exact ceiling first, "
+            "within-domain cells beside cross"},
+    {"name": "s3_m03_crossmodel", "est": 40,
+     "cmd": [PY, "runners/s3_run_m.py", "--arm", "m03"],
+     "produces": f"{S3R}/M/M03/verdict.json",
+     "needs": [f"{S3R}/M/M01/verdict.json"],
+     "why": "E24-S3-M03 the M01 procedure on the second family; curves compared at "
+            "normalized depth"},
+    {"name": "s3_m04_equivalence", "est": 30,
+     "cmd": [PY, "runners/s3_run_m.py", "--arm", "m04"],
+     "produces": f"{S3R}/M/M04/verdict.json",
+     "needs": [f"{S3R}/M/M01/verdict.json",
+               f"{S3R}/S/S02/adapter_Qwen2.5-_robust_c1/adapter_model.safetensors"],
+     "why": "E24-S3-M04 prompt/activation/adapter shift-vector agreement on shared "
+            "scenarios"},
+    {"name": "s3_l04_geometry", "est": 40,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "l04"],
+     "produces": f"{S3R}/L/L04/verdict.json",
+     "needs": [f"{S3R}/L/L01/data_control_s6.jsonl"],
+     "why": "E24-S3-L04 does anything measurable separate trait from control number "
+            "sequences; cross-seed train/test, surface then representation"},
+    {"name": "s3_l05_policychannel", "est": 120,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "l05"],
+     "produces": f"{S3R}/L/L05/verdict.json", "needs": [],
+     "why": "E24-S3-L05 a decision policy through the number channel, probed in the "
+            "environment with the exact posterior"},
+    {"name": "s3_e06_ordering", "est": 60,
+     "cmd": [PY, "runners/s3_run_e.py", "--arm", "e06"],
+     "produces": f"{S3R}/E/E06/verdict.json",
+     "needs": [f"{S3R}/E/E02/gate.json"],
+     "why": "E24-S3-E06 record-before-question vs after, where exact inference is "
+            "order-blind"},
+    {"name": "s3_d04_levels", "est": 45,
+     "cmd": [PY, "runners/s3_run_d.py", "--arm", "d04"],
+     "produces": f"{S3R}/D/D04/verdict.json",
+     "needs": [f"{S3R}/D/D01/manifest.json"],
+     "why": "E24-S3-D04 direction-vs-preference attribution on balanced episodes, "
+            "with and without the world record"},
+    {"name": "s3_d05_rewrite", "est": 50,
+     "cmd": [PY, "runners/s3_run_d.py", "--arm", "d05"],
+     "produces": f"{S3R}/D/D05/verdict.json", "needs": [],
+     "why": "E24-S3-D05 the relay ladder: policy grip vs paraphrase hops, hop texts "
+            "saved"},
+    {"name": "s3_d06_prospective", "est": 50,
+     "cmd": [PY, "runners/s3_run_d.py", "--arm", "d06"],
+     "produces": f"{S3R}/D/D06/verdict.json",
+     "needs": [f"{S3R}/D/D01/manifest.json"],
+     "why": "E24-S3-D06 forecasting a directed worker's fresh choice from the world "
+            "record; truth generated accept-time first"},
+    {"name": "s3_s04_procladder", "est": 90,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s04"],
+     "produces": f"{S3R}/S/S04/verdict.json", "needs": [],
+     "why": "E24-S3-S04 six-procedure ladder with per-rung compliance checks; "
+            "reader arm against a word-echo floor (the G166 question, mechanized)"},
+    {"name": "s3_s05_bottleneck", "est": 120,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s05"],
+     "produces": f"{S3R}/S/S05/verdict.json", "needs": [],
+     "why": "E24-S3-S05 15-word-summary bottleneck erasure; does the crossed "
+            "reversal survive semantic-only transmission"},
+    {"name": "s3_s06_attribution", "est": 50,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s06"],
+     "produces": f"{S3R}/S/S06/verdict.json", "needs": [],
+     "why": "E24-S3-S06 does naming the maker family help goal recovery, and does "
+            "a wrong name hurt; conditional-reader interface"},
+    {"name": "s3_s07_confirm", "est": 10,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s07"],
+     "produces": f"{S3R}/S/S07/verdict.json",
+     "needs": [f"{S3R}/S/S03/verdict.json"],
+     "why": "E24-S3-S07 reserve-quarter confirmation of the S-trunk headline, "
+            "frozen md5 side assignment"},
+    {"name": "s3_a05_mixtures", "est": 50,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a05"],
+     "produces": f"{S3R}/A/A05/verdict.json",
+     "needs": [f"{S3R}/A/A03/tournament.json"],
+     "why": "E24-S3-A05 two-tendency blends read as top-2 of the single-tendency "
+            "centroids, fit only on singles"},
+    {"name": "s3_a07_causal", "est": 60,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a07"],
+     "produces": f"{S3R}/A/A07/verdict.json",
+     "needs": [f"{S3R}/A/A02/anchor.json", f"{S3R}/A/A03/tournament.json"],
+     "why": "E24-S3-A07 steering the tendency directions during forced-choice "
+            "endings; sign pair + random control under capability tolerance"},
+    {"name": "s3_h02_transfer", "est": 90,
+     "cmd": [PY, "runners/s3_run_h.py", "--arm", "h02"],
+     "produces": f"{S3R}/H/H02/verdict.json",
+     "needs": [f"{S3R}/H/H01/verdict.json"],
+     "why": "E24-S3-H02 the purpose-vs-detail structure on the RACE middle split, "
+            "nothing tuned between"},
+    {"name": "s3_h03_social", "est": 80,
+     "cmd": [PY, "runners/s3_run_h.py", "--arm", "h03"],
+     "produces": f"{S3R}/H/H03/verdict.json", "needs": [],
+     "why": "E24-S3-H03 SocialIQA social-intent control with the same scorer and "
+            "question-only floor"},
+    {"name": "s3_h07_reviews", "est": 20,
+     "cmd": [PY, "runners/s3_run_h.py", "--arm", "h07"],
+     "produces": f"{S3R}/H/H07/verdict.json", "needs": [],
+     "why": "E24-S3-H07 OpenReview mirror hunt; RESOURCE_BLOCKED with receipts if "
+            "no mirror reachable"},
+    {"name": "s3_v05_editor", "est": 40,
+     "cmd": [PY, "runners/s3_run_v.py", "--arm", "v05"],
+     "produces": f"{S3R}/V/V05/verdict.json",
+     "needs": [f"{S3R}/V/V01/ruler.json"],
+     "why": "E24-S3-V05 editor profile from edit directions: exact half then a "
+            "model-editor arm"},
+    # ── frozen-ladder expansion cells that need no new code (2026-08-26)
+    {"name": "s3x_l01_gen712", "est": 240,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "gen", "--seeds",
+             "7,8,9,10,11,12"],
+     "produces": f"{S3R}/L/L01/data_control_s12.jsonl", "needs": [],
+     "why": "E24-S3-L01/X1 six fresh data seeds (independent-information rung 1); "
+            "the transmission null's n doubles if the theory needs it"},
+    {"name": "s3x_l01_train712", "est": 45,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "train", "--seeds",
+             "7,8,9,10,11,12"],
+     "produces": f"{S3R}/L/L01/adapter_control_s12_r16/adapter_model.safetensors",
+     "needs": [f"{S3R}/L/L01/data_control_s12.jsonl"],
+     "why": "E24-S3-L01/X1 students for seeds 7-12"},
+    {"name": "s3x_l01_probe712", "est": 35,
+     "cmd": [PY, "runners/s3_run_l.py", "--arm", "probe", "--seeds",
+             "7,8,9,10,11,12"],
+     "produces": f"{S3R}/L/L01/verdict_r16_t1_s7-12.json",
+     "needs": [f"{S3R}/L/L01/adapter_control_s12_r16/adapter_model.safetensors"],
+     "why": "E24-S3-L01/X1 probe; separate verdict name, canonical untouched"},
+    {"name": "s3x_s02_data_c2", "est": 80,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s02_data", "--cohort", "2"],
+     "produces": f"{S3R}/S/S02/pairs_SmolLM2-_cheap_c2.jsonl", "needs": [],
+     "why": "E24-S3-S02/X1 second independent adapter cohort, fresh data seeds"},
+    {"name": "s3x_s02_train_c2", "est": 60,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s02_train", "--cohort", "2"],
+     "produces": f"{S3R}/S/S02/adapter_SmolLM2-_cheap_c2/adapter_model.safetensors",
+     "needs": [f"{S3R}/S/S02/pairs_SmolLM2-_cheap_c2.jsonl"],
+     "why": "E24-S3-S02/X1 cohort-2 adapters"},
+    {"name": "s3x_s02_eval_c2", "est": 50,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s02_eval", "--cohort", "2"],
+     "produces": f"{S3R}/S/S02/verdict_c2.json",
+     "needs": [f"{S3R}/S/S02/adapter_SmolLM2-_cheap_c2/adapter_model.safetensors"],
+     "why": "E24-S3-S02/X1 cohort-2 evaluation against the cohort-1 verdict"},
+    # ── expansion + adversarial arms built 2026-08-26 (careful-and-slow order)
+    {"name": "s3x_v01x1", "est": 30,
+     "cmd": [PY, "runners/s3_run_v.py", "--arm", "v01x1"],
+     "produces": f"{S3R}/V/V01/profiles5to8.json", "needs": [],
+     "why": "E24-S3-V01/X1 blends + EIG strength leg (margin metric retired, L215); "
+            "identifiability 29/30 proven at build"},
+    {"name": "s3x_v04x4", "est": 40,
+     "cmd": [PY, "runners/s3_run_v.py", "--arm", "v04x4"],
+     "produces": f"{S3R}/V/V04/domain3.json",
+     "needs": [f"{S3R}/V/V04/verdict.json"],
+     "why": "E24-S3-V04/X4 third-domain transfer (events bank, 144 anchors "
+            "self-tested)"},
+    {"name": "s3x_e03x1", "est": 60,
+     "cmd": [PY, "runners/s3_run_e.py", "--arm", "e03x1"],
+     "produces": f"{S3R}/E/E03/policies7to12.json",
+     "needs": [f"{S3R}/E/E02/gate.json"],
+     "why": "E24-S3-E03/X1 six blend-policy targets, record route, verdict-gated "
+            "on E02"},
+    {"name": "s3x_e03x4", "est": 45,
+     "cmd": [PY, "runners/s3_run_e.py", "--arm", "e03x4"],
+     "produces": f"{S3R}/E/E03/domain2.json",
+     "needs": [f"{S3R}/E/E02/gate.json"],
+     "why": "E24-S3-E03/X4 record route on the held-out process domain"},
+    {"name": "s3x_c01x4", "est": 45,
+     "cmd": [PY, "runners/s3_run_c.py", "--arm", "c01x4"],
+     "produces": f"{S3R}/C/C01/domain2.json", "needs": [],
+     "why": "E24-S3-C01/X4 late-fusion ruler on the process domain — is the L209 "
+            "base failure domain-general? Cache-safe file tags"},
+    {"name": "s3x_d01x1", "est": 40,
+     "cmd": [PY, "runners/s3_run_d.py", "--arm", "d01x1"],
+     "produces": f"{S3R}/D/D01/roles5to8.json",
+     "needs": [f"{S3R}/D/D01/manifest.json"],
+     "why": "E24-S3-D01/X1 fresh worker-role permutation over the directed worlds; "
+            "kills D01 if reach moves with assignment"},
+    {"name": "s3x_a06x4", "est": 60,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a06x4"],
+     "produces": f"{S3R}/A/A06/domain2.json",
+     "needs": [f"{S3R}/A/A01/corpus.json"],
+     "why": "E24-S3-A06/X4 channel-audit-first suppression on a second scene bank "
+            "(the L201 lesson enforced: no GPU without a verifiable channel)"},
+    {"name": "s3x_s05x3", "est": 120,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s05x3"],
+     "produces": f"{S3R}/S/S05/eraser3.json",
+     "needs": [f"{S3R}/S/S01/gate3.json"],
+     "why": "E24-S3-S05/X3 the bottleneck through the stake-free OLMo eraser — "
+            "stronger erasure evidence than the SmolLM channel"},
+    {"name": "s3x_xv2", "est": 20,
+     "cmd": [PY, "runners/s3_run_x.py", "--arm", "xv2"],
+     "produces": f"{S3R}/X/XV2_verdict.json",
+     "needs": [f"{S3R}/A/A02/anchor.json"],
+     "why": "XV2 adversary on the steering anchor: neutral-pair control and "
+            "token-injection probe"},
+    {"name": "s3x_xv3", "est": 30,
+     "cmd": [PY, "runners/s3_run_x.py", "--arm", "xv3"],
+     "produces": f"{S3R}/X/XV3_verdict.json", "needs": [],
+     "why": "XV3 adversary on the sycophancy override: ignorant-stranger "
+            "attribution vs the 0.833 baseline"},
+    {"name": "s3x_xv4", "est": 25,
+     "cmd": [PY, "runners/s3_run_x.py", "--arm", "xv4"],
+     "produces": f"{S3R}/X/XV4_verdict.json",
+     "needs": [f"{S3R}/L/L01/data_control_s6.jsonl"],
+     "why": "XV4 adversary on the transmission carrier: trivial scalars and "
+            "length-matched representation"},
+    {"name": "s3x_h03_retry", "est": 90,
+     "cmd": [PY, "runners/s3_run_h.py", "--arm", "h03"],
+     "produces": f"{S3R}/H/H03/retry_receipt.json", "needs": [],
+     "why": "E24-S3-H03 retry through the parquet branch; writes its receipt "
+            "in both outcomes so the stage resolves either way"},
+    {"name": "s3x_l01x1_final", "est": 5,
+     "cmd": [PY, "runners/s3_run_x.py", "--arm", "l01x1_final"],
+     "produces": f"{S3R}/L/L01/seeds7to12.json",
+     "needs": [f"{S3R}/L/L01/verdict_r16_t1_s7-12.json"],
+     "why": "E24-S3-L01/X1 finalizer: pooled 12-seed transmission gap into the "
+            "manifest produce"},
+    {"name": "s3x_s02x1_final", "est": 5,
+     "cmd": [PY, "runners/s3_run_x.py", "--arm", "s02x1_final"],
+     "produces": f"{S3R}/S/S02/cohort2.json",
+     "needs": [f"{S3R}/S/S02/verdict_c2.json"],
+     "why": "E24-S3-S02/X1 finalizer: cohort-2 vs cohort-1 recovery comparison"},
+]
+
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
 # ollama generation hold for second gear; brief-touch reader stages stay unmarked by design
 # ("the card only briefly" is first gear's own contract).
-_GPU_HEAVY_PREFIXES = ("pan_", "pan25_", "sw_", "scholawrite_", "gen_fiction")
+_GPU_HEAVY_PREFIXES = ("pan_", "pan25_", "sw_", "scholawrite_", "gen_fiction", "s3_")
 _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen_llama",
                     "g159_gen_qwen", "g159_gen_llama", "g94_taramsa_gpu",
                     "g159_rec_p_plus", "g159_rec_p_minus", "g159_rec_blind",
