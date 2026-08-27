@@ -66,6 +66,71 @@ the model that rewrote it. Next: the process-resolution ladder (does the relatio
 goal wording) and the geometry linkage, whose trigger the reversal now meets. The H-tree wave-1 runners (powered ScholaWrite validation, CoAuthor action tree) follow at
 the next build pass. Daily cold maps live in `PHASE_2_4_DAILY_MAPS.md`.
 
+## Stage 3 (dropped 2026-08-24 morning; brief at PHASE_2_4_STAGE_3_CONTEXT.md; assessment pending)
+
+The week-long inversion forest: nine trunks (S similarity, L shared-base transmission, D
+director, E self-simulation route, A affect new-construction, M mechanism, H human ground,
+C context/trust, V preference), a 48-valid-attempt floor with per-trunk minimums, a
+machine-readable manifest and completion validator, a frozen expansion ladder, and a
+no-daily-conversation contract (one integrated packet at the end; interrupts only for
+flight, ontology change, spend, safety, or PROGRAM-EXHAUSTED). Local execution only.
+Stage 3 identifiers are E24-S3-*; Stage 2 closures preserved (the A trunk is a NEW
+construction, never a reclassification of L170).
+
+**Stage 3 theory errata applied 2026-08-24 evening** (`PHASE_2_4_STAGE_3_THEORY_ERRATA.md`,
+this folder; top-level drop integrated and removed). Sixteen local edits across four living
+theory files: the minimal-core paragraph (empathy-like self-modeling as the distinctive but
+unmeasured human bet), the preference-event opportunity standard, the active state-dependent
+affect conjecture, G35 withdrawn as a design heuristic (27 quote preserved byte-for-byte with a
+supersession note), L170 narrowed to its exact tested construction, HH-23 sharpened to a graded
+broad-advantage prediction, HH-25 added (context at maker differentiation, OPEN), and the
+event-density-vs-causal-reach and director-vs-distributed paragraphs in the traces file. Quote
+manifest verified byte-identical before and after (140 contiguous blockquote blocks across the
+five files, zero added, zero removed). ALIGNMENT.md, the theory README, and the essays untouched
+by ruling.
+
+**Build audit 2026-08-24 evening (his order, after the build ran at high rather than max
+effort).** Every Stage-3 runner re-read line by line plus a pyflakes sweep. Eight structural
+defects repaired before their cells ran: E05 empty by construction (rebuilt on exact
+expected information gain); C02's verification revealed the target's profile (track records
+moved to other makers); S01's chain deadlocked when no third family passed (two-family path
+now recorded); A02's capability-failure branch produced no file and gated decode arms that
+do not need it (fixed; A03 now needs only the corpus); A07 neither checked A02 nor had its
+dose ladder (both added); E01's analysis lacked a realization gate (re-analyzed, L176);
+S04's compliance checks were substring-vacuous (word-boundary regexes, snap length band);
+V05's exact half was tautological (softmax makers, override-only-on-difference). Reporting
+repairs: per-reader cells with attempted/realized/yield in C01-C06 and E03, E03's
+self-consistency ceiling for stochastic model targets, E04 tripled (three record draws),
+A03's null averaged over five shuffles, A04's valence direction on A02's seed-1 recipe, D03
+per-domain tops, D04 numeric answer fallback, S05 survivor floor, S01 all-readers contrast
+beside the maker-family one. Two lessons banked (LESSONS §3).
+
+**Mandatory program resolved 2026-08-26 morning (L177-L216, forty entries).** Standing
+positives: three-family crossed reversal with monotone relatedness gradient, bottleneck
+survival, and reserve confirmation (S trunk); the additive steering anchor and weak
+tendency-steering causal pair (A trunk); carrier-without-uptake in the transmission
+channel (L04); purpose-easier-than-detail on dense human passages (H01); weighing-not-
+attention updating failure and the 0.83 sycophancy override (C trunk); projection-as-
+default in the record-blind reader (E04); record-first ordering dependence (E06).
+Honest closures: subliminal transmission null at scale across the whole grid; director
+reach with-grain-only with attribution failing to the workers; four rulers failed
+informatively (V01 split, C01, D02, M01). Four more lessons banked. Gear-2 lapse
+08-25 11:23 to 08-26 05:06 recorded (renewal missed while the session slept).
+
+**Expansion + adversarial build 2026-08-26 midday (his careful-and-slow order).** All
+twelve frozen-ladder cells now have runners and queue stages; the reduced adversarial
+matrix XV1-XV5 (targeted at the five standing positives, each with its kill condition
+written before running) is instantiated as manifest cells. Blend-profile identifiability
+proven before any mixed-policy arm was written (29/30 over the extended ten-profile set);
+the V01/X1 strength leg rebuilt on realized information gain after the margin metric's
+L215 failure; A06/X4 audits surface channels for dynamic range BEFORE any generation
+(the L201 lesson enforced in code); C01/X4 is cache- and verdict-safe against the landed
+C01; the third decision domain (events) added to the environment with 144 anchors under
+the import-time uniqueness and balance self-tests. First four X landings same pass:
+exact-beats-siblings both families (L217), per-family gradient monotone 3/3 (L218), the
+within-reader quality adversary survived 5/8 (L219), the option-length adversary survived
+and sharpened (+0.087, L220).
+
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 
 Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after

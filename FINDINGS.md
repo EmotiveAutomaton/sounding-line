@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-08-17.**
+**Last updated: 2026-08-26.**
 
 ---
 
@@ -7666,6 +7666,1415 @@ this small. Scale, rank, and intervention form are the three named suspects, in 
   `runners/scout_stage2_a.py`.
 
 ---
+
+## L171 · The Stage-3 route ruler stands on known-policy targets: reading the record beats meeting the maker cold, and the margin is one reader's, not both
+
+**Hypothesis.** Before any Stage-3 study compares WAYS of modeling another decision-maker
+(the E-trunk routes), the routes themselves must be shown to work where the answer is known:
+a reader given a maker's documented choice record should predict that maker's next choice
+better than a reader given nothing, and better than a reader given the same volume of
+irrelevant deliberation text. The targets are programmatic makers whose policies are exact,
+so every prediction has a ground truth and an exact Bayesian ceiling.
+
+**Method.** Two instruct readers (Qwen2.5-1.5B, SmolLM2-1.7B) each predicted the next choice
+of 4 known-policy makers on 12 held-out scenarios of the Stage-3 decision environment, under
+four routes: an 8-choice record, no information, compute-matched filler (unrelated committee
+notes of the same length), and a self-first two-step (state your own choice, then adjust from
+the record). Predictions are mechanical: exactly one option anchor phrase in the answer.
+Chance is 0.25; the exact records-aware Bayes posterior reaches 1.00 on the same items.
+
+| route | what the reader gets | accuracy |
+|---|---|---|
+| record | the maker's 8 documented choices | **0.42** |
+| nothing | no target information | 0.23 |
+| filler | same text volume, zero target information | 0.27 |
+| self-first | own choice first, then the record | 0.42 |
+
+*Table: prediction accuracy against the maker's true next choice, pooled over both readers,
+4 maker policies x 12 held-out scenarios. Chance 0.25, exact-Bayes ceiling 1.00.*
+
+Paired record-minus-nothing over shared items: +0.20 (sign-flip permutation p = 0.0026,
+95 pairs, seed 30000).
+
+| reader | record | nothing |
+|---|---|---|
+| Qwen2.5-1.5B-Instruct | **0.57** | 0.23 |
+| SmolLM2-1.7B-Instruct | 0.27 | 0.23 |
+
+*Table: the same record-route accuracy split by reader. The pooled effect belongs to one
+reader; the other reads the record at filler level.*
+
+**What we found.** The gate passes — records beat nothing and beat filler — so the route
+instrument stands and the similarity-x-route factorial (E03) is licensed. But the per-reader
+cells show the capacity is not generic at this scale: Qwen turns an 8-item record into 0.57
+accuracy; SmolLM-1.7B gets nothing from the same record (0.27, filler level). The self-first
+route ties the record route, which means the extra self-simulation step neither helped nor
+hurt here — a cleaner two-way comparison arrives with E03's similarity gradient.
+
+**What it means.** "Read the record" is a real, measurable route to another agent's policy
+for at least one small instruct model, at a fifth of the exact-Bayes ceiling — the machinery
+works and leaves a large calibrated gap, exactly the instrument condition the E trunk needs.
+The reader asymmetry is a Stage-3 fact to carry: route effects must always be reported per
+reader, because the pooled number just averaged a working reader with a non-reading one.
+
+> **Curator roll-up.** Theory group: reader heuristics, the route family (E trunk). Question
+> in plain language: does reading a maker's record actually improve predicting them, where
+> the truth is known? Outcome class: **Infrastructure.** Result: record-reading beats
+> no-information by 20 points (p = 0.0026) on known-policy targets. Project meaning: the
+> E-trunk route instrument is validated and E03 (does similarity to the target help?) is
+> licensed to spend. Next engineering obligation: none — E03 is queued behind this gate.
+> Public claim status: unchanged (instrument validation, not a claim). Curator decision
+> required: No. Detail: results/phase_2_4_stage_3/E/E02/gate.json.
+
+
+## L172 · Standing preference and episode goal are jointly recoverable from records by exact inference, and the goal side is the fragile one
+
+**Hypothesis.** Stage 3's preference trunk needs to know whether a maker's STANDING profile
+and a temporary episode-local GOAL are even separable in principle from choice records in
+our environment — before any model reader is asked to separate them. If exact inference
+cannot tell them apart, no reader can, and the V03-and-later designs would be unfalsifiable.
+
+**Method.** Programmatic makers: a standing axis profile plus, on the half of episodes where
+a goal is active, a utility bonus on a different goal axis. 40-choice records, 12
+profile-goal pairs, 3 record draws each, at three goal-bonus strengths. The reader is the
+exact joint Bayesian posterior over (profile, goal) pairs from the environment's own
+likelihood — no model involved. Recovery = the true pair is the posterior's argmax.
+
+| goal strength (utility bonus) | profile recovered | goal recovered |
+|---|---|---|
+| 0.4 (subtle) | 36/36 | 26/36 |
+| 0.8 (moderate) | 36/36 | 34/36 |
+| 1.2 (strong) | 35/36 | 35/36 |
+
+*Table: exact-inference recovery of each factor out of 36 cells (12 profile-goal pairs x 3
+record draws) per dose. A cell counts only if the correct value is the single best guess.*
+
+**What we found.** The standing profile is essentially always recoverable regardless of how
+strongly the interleaved goal bends the record. The goal is recoverable only in proportion
+to how hard it bends choices: a subtle goal is missed in a quarter of records even by exact
+inference on 40 choices.
+
+**What it means.** The two factors are identifiable, so reader studies on this design are
+falsifiable — and the exact recovery ceiling per dose is now a published ruler: any model
+reader's goal-recovery below these numbers is reader limitation, not task impossibility.
+This is also the project's first quantitative instance of the theory's timescale claim
+(values/preferences need many observations, goals live locally): with the SAME 40 records,
+the standing factor saturates while the local factor is dose-limited.
+
+> **Curator roll-up.** Theory group: the triple inference, values-vs-goals timescales
+> (V trunk). Question in plain language: can a standing preference and a temporary goal be
+> told apart from a choice record at all? Outcome class: **Infrastructure.** Result: exact
+> inference recovers the profile in 107/108 cells while goal recovery climbs 26 to 35 of 36
+> with goal strength. Project meaning: the V03 design is falsifiable and its per-dose exact
+> ceilings are on record before any model reader runs. Next engineering obligation: the
+> model-reader arm of V03 runs against these ceilings. Public claim status: unchanged.
+> Curator decision required: No. Detail: results/phase_2_4_stage_3/V/V03/verdict.json.
+
+
+## L173 · Writing intentions travel in runs: a no-text persistence rule predicts the next keystroke intention at 0.88 under the canonical protocol, above every text reader on record
+
+**Hypothesis.** How much of a writer's NEXT intention (the ScholaWrite keystroke labels)
+is carried by the intention SEQUENCE alone — no text read at all? If sequence structure
+carries the task, then intention-prediction scores from text-only models measure something
+different from what the benchmark's framing implies, and any real process reader must be
+sequence-aware.
+
+**Method.** All 61,504 keystroke edits (5 preprints, 15 intention labels), leave-one-
+project-out — the canonical protocol from our Stage-1 recreation, with the banked
+within-project-leak caveat avoided by construction. Predictors that see only the label
+sequence: the training majority label; a first-order transition table (predict the most
+likely successor of the previous TRUE label); a second-order table. No model, no text.
+
+| predictor | what it sees | accuracy (LOPO mean) |
+|---|---|---|
+| majority label | nothing but the training label counts | 0.591 |
+| previous label's most likely successor | the one preceding true label | **0.883** |
+| two preceding labels | the two preceding true labels | 0.883 |
+| *(for scale: the faithful text arms, L86)* | *the full before-text, no label history* | *0.580 / 0.546* |
+
+*Table: accuracy at predicting the next intention label, averaged over five held-out
+projects. The bottom row is our Stage-1 faithful replication of the published text-encoder
+protocol, shown for scale — it uses different inputs (text, no gold label history), so
+this is a comparison of information sources, not of models on one task.*
+
+The mechanism is bare: 87.9% of consecutive edits carry the SAME intention. Intentions
+persist in long runs, and the transition table is almost entirely a persistence rule.
+
+**What we found.** The intention sequence is so inertial that knowing only the previous
+label beats the strongest text-only numbers on record here by thirty points. The
+second-order table adds nothing over first-order.
+
+**What it means.** The published intention-prediction task is dominated by a structure its
+text-only framing never mentions: intention persistence. This does not say the text
+readers failed — they answer a harder question (cold prediction from text) — it says the
+benchmark's headline task has a 0.88 no-text solution, so any claim that a model "reads
+writing intentions" must be measured AGAINST the persistence floor, not against majority.
+For the project: human process traces have long temporal coherence-runs, which is exactly
+the structure a records-aware reader can exploit and an artifact-only reader cannot see —
+the same records-beat-artifact asymmetry the Stage-2 ratification result (L160) found from
+the other side.
+
+> **Curator roll-up.** Theory group: decision traces, human ground (H trunk). Question in
+> plain language: is predicting a writer's next intention mostly a matter of reading the
+> text, or of knowing intentions persist? Outcome class: **Narrows.** Result: a no-text
+> persistence rule scores 0.883 under the canonical protocol, thirty points above the
+> faithful text arms. Project meaning: intention-reading claims on this benchmark need a
+> persistence floor, and human process traces carry long temporal runs — records-side
+> structure invisible to artifact-only reading. Next engineering obligation: H02's
+> transfer arm quotes the persistence floor beside every cell. Public claim status:
+> unchanged (the benchmark caveat strengthens our instrument-audit line). Curator
+> decision required: No. Detail: results/phase_2_4_stage_3/H/H05/verdict.json.
+
+
+## L174 · The persistence structure is granularity-bound: revision purposes alternate where keystroke intentions run — the same no-text predictor drops from 0.88 to 0.39 across corpora
+
+**Hypothesis.** L173 found keystroke-level writing intentions so inertial that a no-text
+persistence rule predicts the next one at 0.88. Is that a fact about human intention
+generally, or about the keystroke recording granularity? The independent revision corpus
+(2,806 recorded revision purposes across writers, the Stage-1 G129/G136 line) asks the
+same question one level up: does the PURPOSE of a writer's next revision follow from the
+purpose of their last?
+
+**Method.** Same design as L173, no text read: per-writer purpose sequences; held-out-
+writer evaluation; majority-label floor and a first-order transition table.
+
+| corpus | granularity | self-transition rate | sequence-only accuracy | floor |
+|---|---|---|---|---|
+| ScholaWrite (L173) | keystroke edit | 0.879 | 0.883 | 0.591 |
+| revision corpus (here) | whole revision | **0.354** | 0.394 | 0.382 |
+
+*Table: how often consecutive events share a label, and next-label accuracy for the
+transition-table predictor against the majority floor, held-out by project (top) or
+writer (bottom).*
+
+**What we found.** Revision purposes barely persist (0.354) and the sequence predictor
+adds one point over majority (0.394 vs 0.382). The two human process corpora sit at
+opposite ends of the same ruler.
+
+**What it means.** Persistence is a property of the RECORDING GRAIN, not of human
+intention: within one act (keystrokes serving the current micro-goal) intention is
+sticky; between acts (successive revisions) the writer moves to a different purpose
+precisely because the last one was just served. This sharpens L173's benchmark caveat —
+a persistence floor is mandatory at keystroke grain and nearly vacuous at revision grain
+— and it hands the records-side theory a concrete structure: a reader of process records
+should expect within-act coherence runs delimited by purpose switches, which is a
+segmentation cue no artifact-only reader can see.
+
+> **Curator roll-up.** Theory group: decision traces, human ground (H trunk). Question in
+> plain language: do human writing intentions persist at every recording grain, or only
+> inside a single act? Outcome class: **Narrows.** Result: the no-text persistence
+> predictor falls from 0.883 (keystroke grain) to 0.394 (revision grain, floor 0.382).
+> Project meaning: persistence is grain-bound — within-act runs, between-act switches —
+> so process-record readers get a segmentation structure and the L173 floor rule scales
+> by grain. Next engineering obligation: none new; H02's floors quote both grains.
+> Public claim status: unchanged. Curator decision required: No.
+> Detail: results/phase_2_4_stage_3/H/H06/verdict.json.
+
+
+## L175 · The drift ruler stands: an exact windowed reader detects every mid-record preference change, at a calibrated price of about seven or eight choices
+
+**Hypothesis.** Before any longitudinal claim about makers whose standing preferences
+CHANGE, the instrument question: from choices alone, how quickly can a change of profile
+be detected at all — by exact inference, the best any reader could do?
+
+**Method.** Programmatic makers choose for 30 episodes under one profile, then 30 under
+another (all 12 ordered profile pairs, 6 record draws each). A 10-choice sliding window's
+exact posterior scans the record; detection = the window's top profile flipping to the
+new one and staying flipped for three further windows.
+
+**What we found.** All 12 transitions detected in every draw; mean detection lag 7.5
+choices after the true changepoint (window 10).
+
+**What it means.** Preference drift is detectable from behavior alone with a known,
+now-published price: roughly one window's worth of post-change evidence. This is the
+ruler for every later longitudinal arm — a model reader that needs 20 choices to notice
+what exact inference sees in 7.5 has a measured gap, and a corpus whose changes go
+undetected by THIS ruler carries no detectable drift at all.
+
+> **Curator roll-up.** Theory group: the triple inference, values timescales (V trunk).
+> Question in plain language: how much behavior does it take, at best, to notice a maker
+> changed their standing preference? Outcome class: **Infrastructure.** Result: exact
+> windowed inference detects 12 of 12 profile transitions at a mean lag of 7.5 choices.
+> Project meaning: the longitudinal drift ruler exists with a calibrated detection price;
+> reader-vs-ruler gaps are now measurable. Next engineering obligation: none — a model-
+> reader arm is a frozen-ladder expansion rung if drift becomes load-bearing. Public
+> claim status: unchanged. Curator decision required: No.
+> Detail: results/phase_2_4_stage_3/V/V06/verdict.json.
+
+
+## L176 · A reader's own decision profile is exactly readable under one instruction frame and is an artifact of the wording under another — and the first analysis missed that because it never checked realization
+
+**Hypothesis.** Before the self-simulation route can be tested (does a reader project
+ITSELF onto a maker?), the reader must have a self-policy to project: a standing profile
+in the decision environment, recoverable from its own unprompted choices by the exact
+reader, and stable when the instruction is paraphrased. If the profile moves with the
+wording, "self" is not a stable prior but an instruction-shaped default.
+
+**Method.** Three instruct models (Qwen2.5-1.5B, SmolLM2-1.7B, SmolLM2-360M) each
+answered 40 episodes per domain (infrastructure, personnel) with NO policy line, under
+two instruction frames: the plain frame every Stage-3 arm uses, and a paraphrase ("draft
+a brief memo ... settling firmly on a single option"). Choices are mechanical (exactly one
+option anchor); the exact posterior over the four axis profiles is the reader's
+self-policy. **A cell counts only if at least 75 percent of its episodes realized** — the
+gate the first analysis lacked (audit, 2026-08-24).
+
+| reader | domain | plain frame (yield) | paraphrase frame (yield) | stable? |
+|---|---|---|---|---|
+| Qwen2.5-1.5B | infra | robust (0.98) | — (0.03) | undetermined: frame unrealized |
+| Qwen2.5-1.5B | personnel | fast (0.95) | — (0.00) | undetermined: frame unrealized |
+| SmolLM2-1.7B | infra | robust (1.00) | precedent (0.73, below gate) | undetermined |
+| SmolLM2-1.7B | personnel | robust (1.00) | robust (0.83) | **stable** |
+| SmolLM2-360M | infra | robust (1.00) | precedent (0.90) | **flips** |
+| SmolLM2-360M | personnel | robust (1.00) | precedent (0.95) | **flips** |
+
+*Table: the top profile of the exact posterior over each reader's own realized choices,
+per domain and instruction frame, with the fraction of 40 episodes that realized in
+parentheses. A dash is a cell with too few realized episodes to read.*
+
+**What we found.** Under the plain frame every reader has a sharp self-policy (posterior
+mass 1.00 on the top profile; Qwen's differs by domain — robust for infrastructure, fast
+for personnel). Under the paraphrase the picture splits three ways: the 360M model's
+profile flips cleanly from robust to precedent in both domains; the 1.7B model holds
+robust where the frame realized well; Qwen's memo-framed answers list several options and
+almost never realize (1 of 40, 0 of 40), so its stability cannot be read at all.
+
+**What it means.** "The reader's own preference" exists as an exact, readable object under
+a fixed frame — the E04 self-projection test, which uses the plain frame, stands on solid
+ground — but it is not a stable prior: for the smallest model it is the instruction's
+wording, and for the largest the paraphrase does not even produce a readable choice. This
+is the model-side echo of the Stage-2 finding that instructed appetites are categorical and
+frame-shaped (L169). The audit lesson is separate and standing: a cell whose realization
+collapses is an instrument event, and comparing its posterior anyway would have printed
+"frame_stable: false" for Qwen over a single episode.
+
+> **Curator roll-up.** Theory group: reader heuristics, the self-model prior (E trunk).
+> Question in plain language: does a model reader have a stable "own preference" it could
+> project onto a maker? Outcome class: **Narrows.** Result: exact self-profiles under the
+> plain frame, but the 360M model's profile flips robust→precedent under a paraphrase while
+> Qwen's paraphrase cells realize 1/40 and 0/40. Project meaning: self-projection tests
+> (E03/E04) must fix the frame and say so; the self-model prior is frame-conditional in
+> models. Next engineering obligation: none new — the frame is now fixed by construction
+> in every E arm. Public claim status: unchanged. Curator decision required: No.
+> Detail: results/phase_2_4_stage_3/E/E01/profiles.json.
+
+
+## L177 · The crossed reversal holds in a third, freshly admitted model family — strongest in the newcomer — and OLMo enters the bench at a perfect realization rate
+
+**Hypothesis.** The Stage-2 crossed reversal (each maker family's artifacts read best by
+that family's readers) was two families deep. Does it survive a third family that passed
+the admission gate after the effect was known — the pre-registered replication shape?
+
+**Method.** Admission gate first: TinyLlama-1.1B-Chat and OLMo-2-1B-Instruct each wrote 40
+G172 goal-tasks with an 8-attempt budget; floor 0.85 realized. Winner generated a 128-
+artifact corpus (fill gate 0.9); the matrix filled only its new cells (OLMo reader over the
+old corpora, all ten readers over the OLMo corpus); the three-family crossed contrast ran
+with the same paired sign-flip machinery as Stage 2.
+
+| maker family | own-minus-other margin (all reader families) | p |
+|---|---|---|
+| qwen | +0.0171 | 5e-5 |
+| smollm | +0.0095 | 4.5e-4 |
+| olmo (new) | **+0.0365** | 5e-5 |
+
+*Table: mean own-family reading margin minus other-family margin per artifact, sign-flip
+permutation over 123-128 artifact groups, 3,780 matrix cells. Gate: OLMo realized 40/40
+(1.00), TinyLlama 35/40 (0.875); OLMo admitted.*
+
+**What we found.** The reversal replicates in a family chosen by a gate, not by us, and is
+largest there. Restricted to the three maker families as readers, qwen +0.0100 (p=0.0012)
+and olmo +0.0316 (p=5e-5) hold; smollm thins to +0.0034 (p=0.18).
+
+**What it means.** Family self-legibility is now a three-family fact with a pre-registered
+replication shape. SmolLM is the weak link on the symmetric contrast — its readers carry
+the pattern less than its makers elicit it.
+
+> **Curator roll-up.** Theory group: reader heuristics, model-analogue similarity (S trunk).
+> Question: does the crossed reversal survive a third family admitted blind? Outcome class:
+> **Strengthens.** Result: own-family advantage in all three families, largest in OLMo
+> (+0.0365, p=5e-5). Meaning: the shared-organization reading is family-general, not a
+> Qwen-SmolLM idiosyncrasy. Next obligation: the S01/X2 sibling read. Public claim: the
+> crossed-reversal claim gains a third family. Decision required: No.
+> Detail: results/phase_2_4_stage_3/S/S01/verdict.json.
+
+
+## L178 · A policy trained into the weights reads back as that policy — mostly: the exact reader recovers seven of eight adapter cells, and the miss is the story
+
+**Hypothesis.** Put the standing policy into LoRA weights instead of the prompt: does the
+exact reader recover the same policy from the adapter-maker's unprompted choices?
+
+**Method.** 2 families x 2 policies (robust, cheap), 60 realized training pairs each
+(bare prompt -> policy-enacted recommendation), rank-16 adapters, evaluated on held-out
+scenarios with no policy line; exact posterior per domain; the bare maker beside them.
+
+**What we found.** Qwen adapters: robust recovered at posterior 1.00 in both domains;
+cheap recovered in both (0.94 infra, 0.60 process). SmolLM adapters recovered in three of
+four domain-cells. Bare makers show the familiar intrinsic profiles (Qwen robust/fast by
+domain, SmolLM robust-leaning). Seven of eight adapter-policy domain-cells read back the
+trained policy; the miss is a cheap adapter fighting the maker's intrinsic lean.
+
+**What it means.** Policy-in-weights is readable by the same exact instrument that reads
+policy-in-prompt — the S-trunk's prompt/weights equivalence leg stands, with the same
+against-the-grain asymmetry that runs through the whole stage.
+
+> **Curator roll-up.** Theory group: reader heuristics / mechanism bridge (S trunk).
+> Question: does a weight-borne policy read like a prompted one? Outcome class:
+> **Strengthens.** Result: 7 of 8 adapter cells recover the trained policy exactly.
+> Meaning: how the policy got there matters less than what it must fight. Next
+> obligation: cohort 2 (S02/X1, queued). Public claim: unchanged until X1. Decision: No.
+> Detail: results/phase_2_4_stage_3/S/S02/verdict.json.
+
+
+## L179 · Reading falls off with relatedness in the exact order the theory wants: same weights, then same family, then strangers
+
+**Hypothesis.** Does inversion quality fall monotonically with reader-maker relatedness?
+
+**Method.** Every matrix cell (3,780) tagged exact / same-family / cross-family; mean
+reading margin per rung; permutation shuffles rung labels within each artifact.
+
+**What we found.** Exact 0.0645 > same-family 0.0470 > cross-family 0.0387; monotone;
+exact-minus-cross +0.0258 at p=5e-5 over 378 artifact groups.
+
+**What it means.** The relatedness gradient is real at three rungs, not two — the
+self-model-prior story's model-side analogue now has an ordered dose curve.
+
+> **Curator roll-up.** Theory group: reader heuristics, similarity (S trunk). Question:
+> does reading quality track relatedness in order? Outcome class: **Strengthens.**
+> Result: monotone gradient, exact-minus-cross +0.026 (p=5e-5). Meaning: the similarity
+> advantage is graded, as HH-23 predicts for artifacts. Next obligation: none — S01/X2
+> siblings sharpen the middle rung. Public claim: gradient now citable at three rungs.
+> Decision: No. Detail: results/phase_2_4_stage_3/S/S03/verdict.json.
+
+
+## L180 · The family signature survives a fifteen-word bottleneck: squeeze every artifact to a summary, regenerate from the summary alone, and the crossed reversal is still there
+
+**Hypothesis.** Push each artifact through a 15-word summary and regenerate a paragraph
+from the summary alone — the harshest erasure yet, keeping only semantic content. Does
+own-family reading survive when nothing but meaning crosses the channel?
+
+**Method.** SmolLM-1.7B summarized and regenerated all 250 orig+fam2 artifacts; only
+goal-realized regenerations entered (159 of 250; 91 died at the bottleneck, none too
+similar to their source); the full reader matrix and paired crossed contrast reran.
+
+**What we found.** Qwen +0.0074 (p=0.0091), SmolLM +0.0086 (p=0.0035) own-minus-other on
+the regenerated corpus — attenuated (Stage-2 full-text margins are larger) but standing.
+The erasure itself is real: over a third of artifacts lose their goal in the bottleneck.
+
+**What it means.** Whatever carries family self-legibility is not only surface — it
+survives a semantic-only relay THROUGH A SMOLLM REWRITER, which should have overwritten
+family surface entirely. The strongest erasure result of the program.
+
+> **Curator roll-up.** Theory group: reader heuristics, erasure ladder (S trunk).
+> Question: does own-family reading survive a semantic bottleneck? Outcome class:
+> **Strengthens.** Result: both families' margins survive at p<0.01 through a 15-word
+> summary-and-regenerate channel. Meaning: the signature ladder now ends above the
+> bottleneck, not at wording. Next obligation: S05/X3 with the OLMo eraser (queued).
+> Public claim: erasure-robustness claim upgraded. Decision: No.
+> Detail: results/phase_2_4_stage_3/S/S05/verdict.json.
+
+
+## L181 · Telling the reader who made the artifact changes nothing: true attribution does not help goal recovery and a false one does not hurt it
+
+**Hypothesis.** Does naming the maker family (truly or falsely) move goal recovery?
+
+**Method.** 120 artifacts x 2 likelihood readers x 3 conditions (none / true family
+named / wrong family named), conditional-reader interface, goal top-1.
+
+**What we found.** Qwen reader: 0.742 / 0.733 / 0.733. SmolLM reader: 0.750 / 0.792 /
+0.817. No condition separates from its own none-baseline in either direction.
+
+**What it means.** The likelihood reader's goal recovery does not consume maker-identity
+context at all — consistent with H05's context-blindness from Stage 2, now shown for
+attribution specifically. Identity is not among the cues this reader form can use.
+
+> **Curator roll-up.** Theory group: context and trust (S trunk cell, C-adjacent).
+> Question: does attribution context help or mislead goal reading? Outcome class:
+> **Narrows.** Result: flat across none/true/wrong within 0.07 for both readers.
+> Meaning: the likelihood reader family remains structurally context-blind; attribution
+> effects need the prompted family. Next obligation: none. Public claim: unchanged.
+> Decision: No. Detail: results/phase_2_4_stage_3/S/S06/verdict.json.
+
+
+## L182 · The reserve quarter confirms the crossed reversal: the untouched artifacts, scored once at week's start, show the same three-family pattern
+
+**Hypothesis.** The frozen md5 reserve (a quarter of artifacts never used in exploration)
+should reproduce the crossed reversal if it is real.
+
+**Method.** The S01 contrast recomputed on reserve-side cases only (940 cells).
+
+**What we found.** OLMo +0.0358 (p=5e-5), Qwen +0.0272 (p=1e-4), SmolLM +0.0085 (p=0.099).
+
+**What it means.** The two strong families confirm on untouched data; SmolLM's weakness
+is stable across sides, so it is a property of the family, not of exploration.
+
+> **Curator roll-up.** Theory group: reader heuristics (S trunk). Question: does the
+> reversal hold on the untouched reserve? Outcome class: **Strengthens.** Result: 2 of 3
+> families at p<=1e-4 on the reserve quarter. Meaning: the headline S-trunk claim carries
+> its own confirmation split. Next obligation: rerun at week's end with X-cells folded
+> in. Public claim: confirmation-split language now available. Decision: No.
+> Detail: results/phase_2_4_stage_3/S/S07/verdict.json.
+
+
+## L183 · The subliminal-transmission channel does not open at this scale: the owl never crosses — not through LoRA at any rank, not through a second template, not through full finetuning
+
+**Hypothesis.** (Three cards: L01, L02, L03.) A teacher that loves owls generates pure
+number sequences; a student finetuned on them should shift toward owls (the published
+subliminal-learning effect). Does it, at 360M with same-base teacher/student?
+
+**Method.** 6 data seeds x trait/control teachers, 300 strictly-filtered numeric
+sequences each; LoRA rank 16 students; probe = 40 sampled one-word favorite-animal
+answers per student, mechanical menu extraction. L02 varied rank (4, 64) and data
+template; L03 full-finetuned the same base on the same data.
+
+| parameterization | trait-minus-control owl gap |
+|---|---|
+| LoRA r16, template 1 (canonical, 6 seeds) | 0.000 (p = 1.0) |
+| LoRA r4 / r64, template 1 (3 seeds) | 0.000 / 0.000 |
+| LoRA r16, template 2 (3 seeds) | 0.000 |
+| full finetune (3 seeds) | −0.075 |
+
+*Table: owl-choice rate difference between students of owl-loving and neutral teachers.*
+
+**What we found.** Nothing crosses. The gap is exactly zero in every LoRA cell (owl rates
+identical), and slightly negative under full finetuning.
+
+**What it means.** The published effect (larger models, full distillation pipelines) does
+not reproduce at 360M under these parameterizations — a clean, bounded null with the
+carrier question answered separately by L184. Safety note stands: the trait was benign.
+
+> **Curator roll-up.** Theory group: shared-base transmission (L trunk, three cards).
+> Question: does a teacher's preference cross through number sequences at small scale?
+> Outcome class: **Kills** (at this scale and parameterization). Result: gap 0.000 across
+> the rank-and-template grid, −0.075 full-FT. Meaning: transmission needs something this
+> setup lacks — scale, distillation form, or logit-level supervision. Next obligation:
+> L01/X1 seeds 7-12 only if the theory needs the n; otherwise the trunk rests on the
+> carrier result. Public claim: none (null). Decision: No.
+> Detail: results/phase_2_4_stage_3/L/L01/verdict.json (+L02, L03).
+
+
+## L184 · The carrier exists even though nothing is delivered: trait and control number sequences are perfectly separable in the base model's representation space, and invisible to surface statistics
+
+**Hypothesis.** If transmission failed, is that because the teacher's trait leaves no
+trace in the sequences at all — or because the trace is there and training does not pick
+it up?
+
+**Method.** Cross-seed train/test (seeds 1-4 fit, 5-6 test): nearest-centroid
+classification of trait vs control data files from (a) digit-distribution profiles and
+(b) mean mid-block states of the base model over 40 sequences per file.
+
+**What we found.** Surface digits: 1 of 4 test cells (chance). Representation space:
+**4 of 4** — every held-out seed's trait file lands nearer the trait centroid.
+
+**What it means.** The owl-teacher's sequences carry a real, seed-stable, nonsemantic
+geometric fingerprint that the model itself can represent — the channel exists; LoRA and
+full-FT training at this scale simply do not couple to it. Carrier present, uptake
+absent: the failure point of subliminal transmission here is the LEARNING side, not the
+signal side.
+
+> **Curator roll-up.** Theory group: decision traces, leakage channels (L trunk).
+> Question: do trait-teachers' number sequences differ at all? Outcome class:
+> **Strengthens** (the leakage-channel claim; narrows the transmission null's meaning).
+> Result: 4/4 held-out seeds separable in representation space, 1/4 at surface. Meaning:
+> automatic traces reach even semantically-empty artifacts; transmission failure is
+> uptake-side. Next obligation: none — this is the L-trunk's standing positive. Public
+> claim: leakage-into-nonsemantic-artifacts, model-side, now citable. Decision: No.
+> Detail: results/phase_2_4_stage_3/L/L04/verdict.json.
+
+
+## L185 · The policy channel is as closed as the preference channel: robust-taught and cheap-taught students are indistinguishable in the decision environment
+
+**Hypothesis.** Replace the animal preference with a decision POLICY (robust vs cheap
+system lines on the teacher): does the policy cross the number channel into the
+student's realized choices?
+
+**Method.** 3 seeds x 2 policy teachers, same filter and training as L01; students
+probed on 48 environment episodes; exact posterior; contrast = robust-mass gap between
+robust-taught and cheap-taught students.
+
+**What we found.** Gap −0.003 over 6 domain-cells. Nothing.
+
+**What it means.** Consistent with L183: the channel carries geometry (L184) but neither
+preferences nor policies at this scale.
+
+> **Curator roll-up.** Theory group: shared-base transmission (L trunk). Question: does a
+> decision policy cross the number channel? Outcome class: **Kills** (this scale).
+> Result: robust-mass gap −0.003. Meaning: the transmission null generalizes across trait
+> types. Next obligation: none. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/L/L05/verdict.json.
+
+
+## L186 · A director's hand lands only with the grain: the robust director moves the team, the cheap and fast directors move nothing, and record-based attribution recovers only the director who agreed with the workers
+
+**Hypothesis.** In a four-world ecology (three directed worlds, one undirected), how far
+does a standing director policy reach into worker choices, and can the director's axis be
+read back from the record?
+
+**Method.** 4 worlds x 48 episodes, three worker models rotating, both domains; realized
+choices; per-world and per-worker director-axis rates beside the undirected marginal;
+exact posterior attribution per world.
+
+| world | director | axis rate | undirected marginal | attribution reads |
+|---|---|---|---|---|
+| W1 | robust | 0.583 | 0.417 | robust ✓ |
+| W2 | cheap | 0.208 | 0.229 | robust ✗ |
+| W3 | fast | 0.125 | 0.208 | robust ✗ |
+| W4 | none | — | — | robust |
+
+*Table: fraction of the world's realized choices on the director's axis, the same axis's
+rate in the undirected world, and the exact posterior's top profile for that world's
+record. Yield 1.00 in all worlds.*
+
+**What we found.** Only the with-grain director (robust — the workers' own lean) moves
+behavior (+0.17 over marginal); cheap does nothing and fast goes NEGATIVE. Attribution
+recovers 1 of 3 directors: every world's record reads "robust," because worker priors
+drown weak direction.
+
+**What it means.** Central direction is only visible in the record when it pushes where
+the workers already lean — exactly the director-versus-distributed underdetermination the
+Stage-3 errata added to the theory, now measured. A coherent record does not identify a
+director; here it identifies the WORKERS.
+
+> **Curator roll-up.** Theory group: decision traces, director/causal reach (D trunk).
+> Question: how far does a director reach, and is it readable? Outcome class: **Narrows.**
+> Result: only the with-grain director lands (+0.17); attribution recovers 1 of 3.
+> Meaning: worker priors dominate direction at this scale; global coherence reads as the
+> team, not the lead. Next obligation: D01/X1 roles (queued). Public claim: the
+> distributed-coherence rival gains its first measured case. Decision: No.
+> Detail: results/phase_2_4_stage_3/D/D01/manifest.json.
+
+
+## L187 · The dose ruler fails on known doses: a firm direction beats nothing by eight points at best, and the hedged aside ties the firm order for one worker
+
+**Hypothesis.** (Instrument.) Firm direction > hedged aside > nothing, on the directed
+axis — the known ordering any later reach claim needs.
+
+**Method.** 2 workers x 2 axes x 3 doses x 24 shared episodes, paired.
+
+**What we found.** INSTRUMENT-FAILED. Firm-minus-none +0.083 pooled (p=0.17). Qwen orders
+correctly on both axes (robust 0.50/0.48/0.375; cheap 0.375/0.30/0.125) but SmolLM
+violates twice (hedged 0.583 > firm 0.542 on robust; none ties firm on cheap at
+baseline).
+
+**What it means.** There is no calibrated dose curve for direction at this scale — the
+D-trunk's later reads (D04-D06) inherit an uncalibrated upstream lever, and their nulls
+must be read against that: weak lever, not necessarily blind readers.
+
+> **Curator roll-up.** Theory group: director reach (D trunk, instrument). Question: does
+> direction dose-order behavior? Outcome class: **Infrastructure** (failed). Result:
+> firm-minus-none +0.083, p=0.17; ordering violated for one worker. Meaning: direction
+> barely grips these workers; reach experiments need stronger levers or more compliant
+> workers. Next obligation: none — the failure is the calibration. Public claim: none.
+> Decision: No. Detail: results/phase_2_4_stage_3/D/D02/verdict.json.
+
+
+## L188 · Central and distributed worlds do not separate by per-worker agreement at this size
+
+**Hypothesis.** A centrally directed world should be homogeneous across workers; a
+distributed world (each worker its own policy) should not.
+
+**Method.** Two distributed worlds generated (axes split one-per-worker); per-worker
+posterior tops' agreement compared with the three central worlds'.
+
+**What we found.** Central homogeneity 0.83/1.00/0.67 vs distributed 0.83/0.67 —
+overlapping. Not separated.
+
+**What it means.** With weak direction (L187) and strong worker priors, central worlds
+are not homogeneous enough to tell from distributed ones — the equivalence class the
+theory now predicts is real at this scale.
+
+> **Curator roll-up.** Theory group: director vs distributed (D trunk). Question: does
+> per-worker agreement identify central direction? Outcome class: **Narrows.** Result:
+> homogeneity ranges overlap (0.67-1.0 vs 0.67-0.83). Meaning: the record-side signature
+> of central control is absent when compliance is partial. Next obligation: none at this
+> lever strength. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/D/D03/verdict.json.
+
+
+## L189 · Was that the direction or their own preference? Readers cannot tell, with or without the world record
+
+**Hypothesis.** Shown one episode (compliant or deviant), can a reader attribute it to
+the standing direction versus the worker's own preference — and does the world record
+help?
+
+**Method.** 48 balanced items x 2 readers x with/without record; two-phrase mechanical
+readout with numeric fallback.
+
+**What we found.** With record: 0.44 (direction items) / 0.58 (preference items).
+Without: 0.69 / 0.44. Overall ~chance both ways; the record only flips response bias
+(without it readers say "direction" more).
+
+**What it means.** Level attribution from a single episode is not there at this scale,
+and the record adds bias, not information — consistent with L186's drowned directors.
+
+> **Curator roll-up.** Theory group: director reach (D trunk). Question: is
+> direction-vs-preference attributable per episode? Outcome class: **Narrows.** Result:
+> chance accuracy; record shifts bias only. Meaning: level attribution needs role
+> records, as the errata's evidence standard says. Next obligation: none. Public claim:
+> none. Decision: No. Detail: results/phase_2_4_stage_3/D/D04/verdict.json.
+
+
+## L190 · The relay ladder never had a rung to lose: hop zero grips no better than baseline, so decay cannot be measured
+
+**Hypothesis.** A direction relayed through paraphrase hops should lose grip per hop.
+
+**Method.** Robust direction, hops 0-3 (model self-paraphrase chain), 24 shared episodes.
+
+**What we found.** Axis rates 0.375 / 0.227 / 0.364 / 0.333 across hops — flat noise
+around the 0.375-0.417 baseline. Hop 0 itself does not grip (Qwen robust firm was 0.50
+in L187; here 0.375).
+
+**What it means.** No decay curve exists because there is nothing to decay — the lever
+problem again, now bounding the relay design.
+
+> **Curator roll-up.** Theory group: director reach (D trunk). Question: how fast does
+> relayed direction decay? Outcome class: **Narrows** (void-shaped: the ladder's base rung
+> is at baseline). Result: flat 0.23-0.38 across hops. Meaning: relay decay needs a
+> direction that grips at hop zero. Next obligation: none. Public claim: none.
+> Decision: No. Detail: results/phase_2_4_stage_3/D/D05/verdict.json.
+
+
+## L191 · Forecasting a directed worker from the world record adds four points over nothing
+
+**Hypothesis.** From a directed world's record alone, predict a worker's fresh realized
+choice; the record route should beat no-record.
+
+**Method.** 24 fresh accept-time truths under each directed world's prompt; reader
+predicts with the world record (12 episodes) vs without.
+
+**What we found.** Record 0.375 vs none 0.333. Per world: W1 0.125, W2 0.50, W3 0.50.
+
+**What it means.** Near-nil forecasting lift — the world record's information about a
+STOCHASTIC worker under weak direction is small, and the W1 cell (the world where
+direction actually grips) is the worst, hinting the reader over-weights the direction
+exactly where workers already comply.
+
+> **Curator roll-up.** Theory group: director reach (D trunk). Question: does the world
+> record forecast fresh worker choices? Outcome class: **Narrows.** Result: +0.042 over
+> no-record. Meaning: prospective direction-reading is bounded by worker stochasticity
+> (E03's 0.68 self-consistency ceiling applies here too). Next obligation: none. Public
+> claim: none. Decision: No. Detail: results/phase_2_4_stage_3/D/D06/verdict.json.
+
+
+## L192 · Similarity does not help a reader predict a maker's next choice from records — being the SAME MODEL as the target buys nothing, while the artifact-reading gradient stands next door
+
+**Hypothesis.** Is another mind easier to predict from its record the more it is like
+you — up to being YOU? Three target rungs (the reader itself, the other family, a
+programmatic maker) x the validated routes.
+
+**Method.** Truths are the targets' own realized policy-prompted choices (two independent
+draws give a self-consistency ceiling of 0.68); readers predict from 8-choice records vs
+no-record vs self-first; per-cell and per-reader accuracy; paired self-vs-other on the
+records route.
+
+| target | records | no record | self-first |
+|---|---|---|---|
+| the reader itself | 0.42 | 0.32 | 0.42 |
+| other family | 0.52 | 0.48 | 0.45 |
+| programmatic | 0.53 | 0.28 | 0.28 |
+
+*Table: pooled prediction accuracy against the target's realized choice; ceiling for
+model targets 0.68 (two-draw agreement); chance 0.25.*
+
+**What we found.** Self-minus-other on records: −0.10 (p=0.55). No self-advantage; if
+anything the other family is easier. The record route's gain replicates for programmatic
+(+0.25) and self (+0.10) targets but vanishes for the other family (+0.03), whose
+no-record baseline is already high — readers predict SmolLM-ish makers from priors alone.
+
+**What it means.** The similarity advantage is REPRESENTATIONAL, not predictive-of-record:
+family kinship helps read artifacts (L179's gradient) but not forecast choices. Those are
+different inferences, and the theory's graded-similarity prediction (HH-23) now has a
+measured split across them.
+
+> **Curator roll-up.** Theory group: self-simulation route (E trunk). Question: does
+> similarity to the target improve record-based prediction? Outcome class: **Narrows.**
+> Result: self-minus-other −0.10 (ns) against a 0.68 consistency ceiling. Meaning:
+> similarity's benefit lives in artifact-reading, not choice-forecasting — a dissociation
+> the theory must now carry. Next obligation: E03/X1 policies (queued). Public claim:
+> HH-23's artifact half only. Decision: No.
+> Detail: results/phase_2_4_stage_3/E/E03/verdict.json.
+
+
+## L193 · The reader that cannot use records projects itself: SmolLM's errors land on its own preference at 0.58 against a 0.33 null, Qwen's do not
+
+**Hypothesis.** On items where the target's record points away from the reader's own
+preference, do errors lean toward the reader's preference — self-projection intruding?
+
+**Method.** Each reader's E01 plain-frame self-profile fixes its rival target; 36
+conflict items per reader (three record draws x conflict holdouts); errors classified
+correct / self-intrusion / other-error; symmetric null puts 1/3 of errors on the self
+option.
+
+**What we found.** Qwen: 22/36 correct, intrusion share of errors 0.29 (at/below null).
+SmolLM: 10/36 correct, intrusion share **0.58** (15 of 26 errors on its own preferred
+option).
+
+**What it means.** Self-projection is the FALLBACK of a reader that cannot consume
+evidence: Qwen (the record-reader, L171) errs symmetrically; SmolLM (record-blind at
+this task) defaults to itself. The assumed-similarity initialization plus failed
+correction — the exact failure mode the theory's similarity paragraph predicts.
+
+> **Curator roll-up.** Theory group: self-simulation route (E trunk). Question: does the
+> reader's own preference intrude on conflicting evidence? Outcome class:
+> **Strengthens** (the projection-as-default account). Result: intrusion 0.58 vs 0.33
+> null for the record-blind reader; 0.29 for the record-reader. Meaning: projection and
+> evidence-use trade off across readers — the correction step is what separates them.
+> Next obligation: none. Public claim: model-side projection default, citable. Decision:
+> No. Detail: results/phase_2_4_stage_3/E/E04/verdict.json.
+
+
+## L194 · Offered a more informative or less informative record, readers pick whichever is listed first: information-seeking loses to position outright
+
+**Hypothesis.** Given the choice of ONE more record to see, does the reader pick the
+scenario with higher exact expected information gain?
+
+**Method.** 28 items (EIG ratio >= 1.5, mean 1.77), counterbalanced presentation,
+mechanical restate-the-context readout.
+
+**What we found.** Informative-pick rates 0.36 (Qwen) and 0.38 (SmolLM) — below chance —
+while FIRST-POSITION rates are 0.86 and 1.00. SmolLM picked the first option every
+single time it answered; realization 0.79/0.46.
+
+**What it means.** No value-of-information computation is happening; presentation order
+decides. Active probing, if these readers do it at all, is not driven by expected
+evidence — a hard bound on the active-search leg of the reader loop at this scale.
+
+> **Curator roll-up.** Theory group: reader heuristics, active search (E trunk).
+> Question: do readers seek the more informative record? Outcome class: **Kills** (at
+> this scale). Result: first-position rate 0.86-1.00 vs informative rate 0.36-0.38.
+> Meaning: epistemic foraging needs capabilities these readers lack; position is the
+> policy. Next obligation: none. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/E/E05/verdict.json.
+
+
+## L195 · The record helps only if it comes first: Qwen's record-reading collapses from 0.67 to 0.40 when the question precedes the evidence
+
+**Hypothesis.** Exact inference is order-blind; is the reader's record use order-blind?
+
+**Method.** Same E02 items, record-before-question vs question-before-record, paired.
+
+**What we found.** Qwen: record-first 0.667 vs question-first 0.400. SmolLM: 0.333 vs
+0.396 (nothing to lose). Pooled +0.097 (p=0.12) — the pooled number again hides the
+per-reader fact, as the L171 rule predicted.
+
+**What it means.** The one reader that can use records uses them only in the
+evidence-then-question order — HH-25's ordering question gets its first model-side
+answer: context placement is not neutral, and late question beats early question.
+
+> **Curator roll-up.** Theory group: reader heuristics, context ordering (E trunk).
+> Question: is record use order-sensitive? Outcome class: **Strengthens** (HH-25's
+> direction). Result: 0.67 vs 0.40 for the record-reading reader. Meaning: ordering is
+> load-bearing for evidence use; prompts must put records first by construction.
+> Next obligation: fold into every downstream reader design (done — all Stage-3 prompts
+> are record-first). Public claim: model-side ordering effect citable. Decision: No.
+> Detail: results/phase_2_4_stage_3/E/E06/verdict.json.
+
+
+## L196 · The tendency corpus lands at three-quarters yield — under its own floor — with half its scene-quads complete: the makers realize fear and curiosity more readily than anger and care
+
+**Hypothesis.** (Corpus card.) 24 scenes x 4 action tendencies x 2 makers, accept-time
+anchor realization, complete quads only for twin contrasts.
+
+**What we found.** INSTRUMENT-FAILED on its own 0.9 floor: 144 of 192 realized (0.75
+exactly), 24 of 48 quads complete. The misses concentrate in the anger and care
+tendencies (the confront/shelter closing lines).
+
+**What it means.** The corpus exists and carries 135+ analyzable artifacts, but every
+downstream A cell inherits a tendency-skewed sample and says so. The floor did its job:
+the skew is recorded, not hidden.
+
+> **Curator roll-up.** Theory group: affect construction (A trunk, corpus). Question: can
+> makers write tendency-realized twins at yield? Outcome class: **Infrastructure**
+> (failed floor, usable corpus). Result: 0.75 yield, 24/48 quads. Meaning: A-trunk
+> analyses run on a skewed but audited sample. Next obligation: none — downstream cells
+> filter per-item. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/A/A01/corpus.json.
+
+
+## L197 · The steering anchor stands: additive valence steering moves preference for happy continuations symmetrically in both directions, with random and shuffled directions quiet — the causal handle the rank-one construction never had
+
+**Hypothesis.** (The A-trunk known-positive gate.) Reproduce plain valence
+activation-steering on Qwen2.5-1.5B-Instruct: a fitted direction, added and subtracted
+at a capability-tolerated dose, must move the preference between matched positive and
+negative continuations as a SIGN PAIR, with random and shuffled-label directions quiet.
+
+**Method.** 24+24 valence sentences; per-block last-token directions; consensus locus =
+blocks 9-24 (decode 1.00 on two fit splits and an untouched validation split); additive
+steering at blocks 14-18; dose ladder 20/10/5 percent of state norm under a fact-recall
+tolerance (5 percent passed); readout = logp(happy continuation) minus logp(sad
+continuation) over 12 neutral contexts.
+
+| condition | shift in the happy-minus-sad preference |
+|---|---|
+| +direction | **+0.78** (p = 6.5e-4) |
+| −direction | **−0.75** (p = 8.0e-4) |
+| random direction | +0.02 |
+| shuffled-label direction | +0.15 |
+
+*Table: change from the unsteered baseline, per-context sign-flip permutation, n = 12.*
+
+**What we found.** ANCHOR-STANDS. Clean sign pair, both controls under half the effect,
+capability intact at the chosen dose.
+
+**What it means.** Additive steering on the instruct model is a working causal handle on
+affect-adjacent structure — the thing L170's rank-one amplify/ablate on the base model
+was not, for its construction. Per the errata: a different construction that COEXISTS
+with L170, and the license for every A-trunk causal arm.
+
+> **Curator roll-up.** Theory group: affect in the model (A trunk, instrument). Question:
+> can we causally steer valence at all? Outcome class: **Infrastructure** (passed).
+> Result: sign pair ±0.75-0.78 at p<1e-3, controls quiet. Meaning: the causal gate is
+> open; A07's tendency steering is interpretable. Next obligation: none. Public claim:
+> steering-anchor validated (construction-scoped). Decision: No.
+> Detail: results/phase_2_4_stage_3/A/A02/anchor.json.
+
+
+## L198 · Action tendencies are decodable from the writing at 0.42 against 0.25 chance, and they live LATE: the tournament's winner is nearest-centroid at the last third of blocks
+
+**Hypothesis.** Where in depth, and in what geometric form, do the four tendencies live
+while the model reads tendency-laden text (anchor lines stripped)?
+
+**Method.** 135 artifacts, scene-fold held-out decode; bases (one-vs-rest mean-difference
+vs nearest-centroid) x loci (early/middle/late thirds + the A02 valence consensus);
+five-shuffle null per cell.
+
+**What we found.** Winner: centroid | late = **0.422** vs shuffled null 0.265 (max
+0.281). Middle 0.311, early 0.304; every mean-difference cell ~chance. The A02 valence
+blocks decode tendencies no better than chance under mean-difference.
+
+**What it means.** Tendency-while-reading is real, categorical-geometry-shaped (centroids
+beat directions), and sits deeper than the valence locus — a different object from
+valence, which A04 then stress-tests.
+
+> **Curator roll-up.** Theory group: affect construction (A trunk). Question: is
+> tendency decodable from writing, and where? Outcome class: **Strengthens.** Result:
+> 0.422 vs 0.25 chance at the late third, clear of a five-shuffle null. Meaning: the
+> constructed tendencies leave readable structure; the basis question (centroid over
+> direction) is itself a datum. Next obligation: A05/A06 interpretations inherit this
+> recipe. Public claim: none yet (one maker-pair corpus). Decision: No.
+> Detail: results/phase_2_4_stage_3/A/A03/tournament.json.
+
+
+## L199 · Fear and anger separate — but the valence axis separates them too, so the dissociation FAILS: what we called tendency reading is partly valence-adjacent structure
+
+**Hypothesis.** If the tendency read is really tendency, fear-vs-anger (same valence,
+opposite action direction) must separate while the frozen VALENCE direction must not.
+
+**What we found.** Tendency decode 0.597 (n=67, chance 0.5) — passes weakly. But the
+valence axis separates fear from anger at AUC 0.186 (far from 0.5): anger bodies project
+systematically more positive than fear bodies. NOT dissociated on the pre-registered
+criterion.
+
+**What it means.** The two negative tendencies differ along valence-adjacent geometry in
+this corpus — either anger's confrontation reads as agentic/less-negative to the model,
+or the corpus confounds tendency with intensity. Panksepp-shaped modularity does NOT get
+its clean win; the V07 case-study table takes this row as Barrett-leaning.
+
+> **Curator roll-up.** Theory group: affect construction (A trunk). Question: is
+> tendency independent of valence in the geometry? Outcome class: **Narrows.** Result:
+> fear-anger separable at 0.597 but valence-axis AUC 0.186 breaks the dissociation.
+> Meaning: the tendency read is partly valence-riding; discrete-system claims are not
+> licensed. Next obligation: none — the A05/A06 rows complete the geometry picture.
+> Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/A/A04/verdict.json.
+
+
+## L200 · Two tendencies at once do not read as two: blends land NEAR NEITHER parent — top-2 pair accuracy is below chance
+
+**Hypothesis.** If tendencies are component directions, a two-tendency artifact should
+sit near both parents (top-2 centroid match).
+
+**What we found.** Top-2 pair accuracy 0.065 vs 1/6 chance over 31 realized blends; five
+of six pairs at zero; only care+curiosity ever matches (0.29).
+
+**What it means.** Blends are not superpositions in this geometry — mixture states are
+somewhere ELSE, which is the constructed-emotion-shaped outcome again (a blend is its
+own point, not a sum). With L199, the A trunk's geometry story is consistently
+non-modular.
+
+> **Curator roll-up.** Theory group: affect construction (A trunk). Question: do blends
+> read as their components? Outcome class: **Narrows.** Result: top-2 match 0.065, below
+> 1/6 chance. Meaning: no component algebra at this construction; mixtures are novel
+> points. Next obligation: none. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/A/A05/verdict.json.
+
+
+## L201 · The suppression check had nothing to suppress: the "expressive" corpus already contains almost no emotion words, so the manipulation is unverifiable — and the tendency still decodes at 0.40 from flat text
+
+**Hypothesis.** Under a flat-register instruction, does tendency survive in the writing?
+
+**What we found.** INSTRUMENT-FAILED on its own gate: emotion-word rate was 0.0056 in the
+expressive corpus and 0.0048 suppressed — no dynamic range, so "suppression verified"
+cannot fire. The transfer decode (fit on expressive, applied to suppressed) still reads
+0.402 vs 0.25 floor.
+
+**What it means.** The makers already write tendency through ACTION, not emotion
+vocabulary, so the surface manipulation check was aimed at a channel the corpus never
+used. The 0.40 transfer is suggestive leakage but unclaimed pending a check with range
+(banked as a lesson).
+
+> **Curator roll-up.** Theory group: affect construction (A trunk). Question: does
+> tendency survive expressive suppression? Outcome class: **Infrastructure** (check
+> failed). Result: manipulation unverifiable (rates 0.006 vs 0.005); transfer decode
+> 0.40 recorded unclaimed. Meaning: suppression designs here need a verifiable surface
+> channel first. Next obligation: A06/X4's second domain owes the redesigned check.
+> Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/A/A06/verdict.json.
+
+
+## L202 · Steering the tendency directions moves the realized impulse as a weak sign pair — on a forced-choice baseline that curiosity owns
+
+**Hypothesis.** With the A02 anchor standing, does additive steering along the fitted
+tendency directions move which Next-impulse the model completes?
+
+**Method.** Behind the A02 verdict gate; dose ladder under the same fact-recall
+tolerance (4 percent passed); 12 scenes x 4 tendencies; steered-tendency completion rate
+for +dose, baseline, −dose, and random-direction.
+
+**What we found.** Pooled: +0.354 / base 0.250 / −0.188 / random 0.250 — a sign pair
+with the random control exactly at baseline; causal signature TRUE. The per-tendency
+cells expose the base skew: curiosity owns the unsteered baseline (0.75; the probe's
+"look around" framing), fear and care move off zero under +steer (0→0.17, 0.08→0.17),
+and ANGER INVERTS (0.17→0.08 under +steer).
+
+**What it means.** The tendency geometry is weakly causally usable — the first causal
+positive of the affect program, at a different construction from L170 and coexisting
+with it — but it is not four clean handles: one tendency dominates the baseline, one
+steers backwards. Handle-shaped for curiosity/fear/care, not for anger.
+
+> **Curator roll-up.** Theory group: affect construction (A trunk). Question: does the
+> tendency geometry steer behavior? Outcome class: **Strengthens** (weak, scoped).
+> Result: pooled sign pair +0.10/−0.06 around a 0.25 base with random quiet; anger
+> inverted. Meaning: causal use exists at this construction; per-tendency asymmetry is
+> the next fact to explain. Next obligation: baseline-marginal lesson applied to any
+> rerun (banked). Public claim: causal-use, heavily scoped. Decision: No.
+> Detail: results/phase_2_4_stage_3/A/A07/verdict.json.
+
+
+## L203 · The patching program never had a signal to localize: the policy line that visibly steers generation moves the committed-answer likelihood by three points, and both patch controls are exactly quiet
+
+**Hypothesis.** (M01, with M02/M03 its dependents.) Localize the standing policy in
+depth by patching with-policy states into the bare prompt at each block.
+
+**What we found.** INSTRUMENT-FAILED at the known-positive gate: the prompted shift on
+the choice-mass readout is +0.030 (floor 0.10) — even though the same policy line shifts
+GENERATED choices strongly (S02's prompted makers). Identity patch 0.0002, mismatched
+patch −0.00004: the machinery is exact; the readout has nothing in it. M02 (interchange)
+and M03 (cross-model) closed as blocked dependents.
+
+**What it means.** The policy lives in the generation process, not in the next-token
+likelihood of pre-committed answer sentences — a readout-class mismatch, now a banked
+lesson: match the readout to the behavior the intervention moves.
+
+> **Curator roll-up.** Theory group: mechanism (M trunk, three cards). Question: where in
+> depth does the prompted policy live? Outcome class: **Infrastructure** (failed
+> informatively). Result: prompted shift 0.03 on the likelihood readout vs strong
+> generation shifts; controls at zero. Meaning: localization needs a generation-side
+> readout (realized-choice patching), a rebuild candidate for the expansion ladder.
+> Next obligation: none this week unless the ladder reaches it. Public claim: none.
+> Decision: No. Detail: results/phase_2_4_stage_3/M/M01/verdict.json.
+
+
+## L204 · Three deliveries of one policy: the adapter moves the likelihood readout three times more than the prompt does, and their shift directions agree — while the patched activation carries nothing
+
+**Hypothesis.** Prompt, patched activation, and LoRA adapter deliver the same policy —
+do they bend the choice distribution the same way?
+
+**Method.** Same 12 scenarios and readout; per-scenario shift vectors (condition minus
+bare); pairwise cosine and top-option agreement.
+
+**What we found.** Adapter gain on the policy's option +0.074; prompt +0.027; activation
++0.001 (uninterpretable — M01's gate failed, nothing was there to patch).
+Prompt-vs-adapter: shift cosine 0.69, top-option agreement 1.00.
+
+**What it means.** Where the likelihood readout sees anything, prompt and weights push
+the SAME direction with the weights pushing harder — the equivalence claim survives in
+sign and ordering on this readout, with the activation route unmeasured rather than
+absent (it inherits M01's failure).
+
+> **Curator roll-up.** Theory group: mechanism (M trunk). Question: do prompt, activation,
+> and adapter deliveries agree? Outcome class: **Narrows** (two of three routes agree;
+> one unmeasured). Result: cosine 0.69, top-option 1.00, adapter 3x the prompt's gain.
+> Meaning: policy-in-weights is the strongest delivery on this readout; activation
+> equivalence awaits a generation-side readout. Next obligation: rides M01's rebuild.
+> Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/M/M04/verdict.json.
+
+
+## L205 · On human exam passages the likelihood reader recovers the author's purpose slightly BETTER than surface detail — the opposite of the intent-is-harder expectation
+
+**Hypothesis.** On RACE-high passages, is recovering the author's PURPOSE (why written,
+tone, what the author implies) harder than recovering surface DETAIL from the same
+passages?
+
+**Method.** 1,000 purpose + 1,000 detail questions (556 passages contribute to both),
+mean-logprob option scoring, question-only floor per reader, paired sign-flip.
+
+| reader | purpose | detail | question-only | purpose − detail |
+|---|---|---|---|---|
+| Qwen2.5-1.5B | 0.482 | 0.430 | 0.28-0.29 | **+0.052** (p = 0.023) |
+| SmolLM2-1.7B | 0.431 | 0.393 | 0.29-0.30 | +0.038 (p = 0.095) |
+
+*Table: option accuracy, chance 0.25; passage lift over question-only 0.10-0.14.*
+
+**What we found.** Purpose beats detail for both readers, significantly for one.
+
+**What it means.** At exam grain, author-purpose is not the harder read — rhetorical
+purpose is broadcast (the passage is BUILT to carry it) while details must be retrieved.
+The human-ground anchor now says: purpose-level inversion is cheap where the maker
+intends legibility — the bard's shaping, measured.
+
+> **Curator roll-up.** Theory group: human ground (H trunk). Question: is author-purpose
+> harder than detail on human passages? Outcome class: **Narrows** (direction reversed
+> from the naive expectation). Result: purpose − detail +0.052 (p=0.023). Meaning:
+> intended-purpose is the EASY inversion; the hard inversions are the unintended ones —
+> exactly the theory's communicative-shaping line. Next obligation: H02's transfer read
+> (landed, L206). Public claim: citable with the shaping interpretation. Decision: No.
+> Detail: results/phase_2_4_stage_3/H/H01/verdict.json.
+
+
+## L206 · The purpose advantage does not transfer to the middle-school split: levels rise, the gap closes
+
+**Hypothesis.** Does L205's purpose-over-detail structure hold on the easier RACE-middle
+split, nothing tuned?
+
+**What we found.** Qwen 0.594 purpose vs 0.582 detail (+0.012); SmolLM 0.500 vs 0.494.
+Overall accuracy up ~0.11; the purpose gap collapses to noise.
+
+**What it means.** The purpose advantage is register-dependent: on simpler passages
+detail catches up. The safe claim from the pair: purpose is never HARDER, and its edge
+lives where passages are rhetorically denser.
+
+> **Curator roll-up.** Theory group: human ground (H trunk). Question: does the purpose
+> edge transfer? Outcome class: **Narrows.** Result: +0.012 (from +0.052). Meaning: the
+> L205 claim is scoped to denser registers. Next obligation: none. Public claim: pair
+> cited together. Decision: No. Detail: results/phase_2_4_stage_3/H/H02/verdict.json.
+
+
+## L207 · Three thousand accept-or-dismiss decisions and the suggestion's contextual fit predicts nothing: AUC 0.499
+
+**Hypothesis.** Writers took 76 percent of suggestions regardless of position or history
+(Stage 2). Does the suggestion's FIT under the document-so-far separate take from
+dismiss?
+
+**Method.** 15,629 decidable CoAuthor episodes extracted (document replayed per event);
+balanced 1,500/1,500 sample; mean-logprob of the suggestion under the document; AUC.
+
+**What we found.** AUC 0.499 (accepted −2.268 vs rejected −2.296 mean logp). Nothing.
+
+**What it means.** Take/dismiss is not a quality-of-fit decision at any grain we can
+measure: position, history, and now content-fit all fail. Writers in this corpus accept
+by default and dismiss for reasons invisible to fit — the human uptake record is
+flat-by-policy, which itself is the finding the C-trunk sycophancy result mirrors from
+the model side.
+
+> **Curator roll-up.** Theory group: human ground, uptake (H trunk). Question: does
+> contextual fit predict suggestion acceptance? Outcome class: **Kills** (the fit
+> hypothesis on this corpus). Result: AUC 0.499, n=3,000. Meaning: CoAuthor acceptance
+> is default-driven; uptake studies need corpora with real rejection behavior. Next
+> obligation: none. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/H/H04/verdict.json.
+
+
+## L208 · Two H-trunk imports are blocked at the source: SocialIQA's loader is gone from the hub pathway we can use, and no OpenReview mirror exists under the names tried
+
+**Hypothesis.** (Resource cards H03, H07.)
+
+**What we found.** H03: the SocialIQA fetch fails in datasets 5 (script-based loader
+retired). H07: three candidate HF mirrors do not exist; receipts recorded.
+
+**What it means.** Both close RESOURCE_BLOCKED with named unblocks: H03 needs a
+parquet-mirror fetch (candidate known), H07 needs a real mirror name or an OpenReview
+API pull — both one-session tasks if the trunk needs them.
+
+> **Curator roll-up.** Theory group: human ground (H trunk, two cards). Question: —
+> Outcome class: **Infrastructure** (blocked). Result: two imports unreachable as
+> attempted. Meaning: H floor already met without them (H01/H02/H04/H05/H06 landed).
+> Next obligation: parquet-path retry for H03 on the ladder. Public claim: none.
+> Decision: No. Detail: results/phase_2_4_stage_3/H/H03/verdict.json, H/H07/.
+
+
+## L209 · The late-fusion ruler fails its easy doses: these readers cannot track exact Bayes even when all the evidence agrees — and the C-trunk's remaining questions are hereby read against a weak base, not a working one
+
+**Hypothesis.** (C-trunk gate.) Hold when the record dominates, flip when the evidence
+does; readers must clear 0.60 on the easy doses (0 and 8 conflicts) for the graded dose
+to mean anything.
+
+**What we found.** INSTRUMENT-FAILED: easy-dose accuracy 0.484 (dose-0 0.594, dose-8
+0.375 against the FLIP truth). Order effect +0.048 (p=0.65). Yield 0.99.
+
+**What it means.** The flip class defeats both readers: at eight conflicts they still
+predict the old profile. Everything downstream in C is now explicitly an effect ON A
+WEAK UPDATER, which turns out to be informative rather than fatal — see L211-L214.
+
+> **Curator roll-up.** Theory group: context and trust (C trunk, instrument). Question:
+> can the readers do exact late fusion at all? Outcome class: **Infrastructure**
+> (failed). Result: 0.484 easy-dose vs 0.60 floor; FLIP items at 0.375. Meaning: the
+> C-trunk reads inertia, not calibration. Next obligation: C01/X4's second domain only
+> if a stronger reader joins. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/C/C01/verdict.json.
+
+
+## L210 · Verified track records do not transfer trust: with reliability established on OTHER makers, every condition sits near the floor
+
+**Hypothesis.** An archive proven right and one proven wrong (on other makers) both
+report about this maker; does the reader weight the proven-right one?
+
+**What we found.** Reliable-only 0.304, unreliable-only 0.349, conflict 0.292 vs a 0.25
+floor; follows-the-wrong-source 0.33 in conflict. No source weighting.
+
+**What it means.** Cross-maker reliability transfer is absent in these readers — trust,
+if it exists here at all, does not generalize from track record to new reports. With
+L209's base failure, the honest scope: no measurable source-weighting capacity at this
+scale.
+
+> **Curator roll-up.** Theory group: context and trust (C trunk). Question: does proven
+> reliability transfer to new reports? Outcome class: **Kills** (at this scale). Result:
+> all conditions 0.29-0.35 near floor. Meaning: source-reliability reasoning is absent
+> in the small-instruct class. Next obligation: none. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/C/C02/verdict.json.
+
+
+## L211 · Biography moves the reader the way evidence should: it adds when consistent with the record and subtracts when it conflicts — narrative weighs about as much as six documented choices
+
+**Hypothesis.** Does a career-sketch biography shift predictions like an equivalent
+record does — and which wins in conflict?
+
+**What we found.** Record-only 0.375; biography-only 0.292; both-consistent **0.458**;
+conflict 0.250. Consistent biography lifts the record by +0.083; conflicting biography
+erases it (−0.125, to the floor).
+
+**What it means.** For these readers narrative context is potent — roughly the record's
+own weight — in BOTH directions. Where attribution context did nothing for the
+likelihood reader (L181), the prompted reader consumes biography fully; this is the
+model-side version of context-reweighting, with no verification discount at all
+(consistent with L210).
+
+> **Curator roll-up.** Theory group: context and trust (C trunk). Question: does
+> biography move prediction like evidence? Outcome class: **Strengthens**
+> (context-reweighting, direction-symmetric). Result: +0.083 consistent, −0.125
+> conflicting around a 0.375 record base. Meaning: narrative and record trade at near
+> parity; trust discounting is absent. Next obligation: none. Public claim: model-side
+> only. Decision: No. Detail: results/phase_2_4_stage_3/C/C03/verdict.json.
+
+
+## L212 · Where the conflict sits in the record does not matter, because the record barely registers: all three positions sit at the floor on HOLD items
+
+**What we found.** (Against exact-Bayes HOLD truths, dose-2.) Early 0.277, middle 0.271,
+late 0.250 — flat at the floor L209 predicts for this item class.
+
+**What it means.** Position effects cannot be read on a base this weak; the cell closes
+as bounded-by-instrument, kept for the record.
+
+> **Curator roll-up.** Theory group: context and trust (C trunk). Question: does
+> conflict position move updating? Outcome class: **Infrastructure** (bounded by L209).
+> Result: 0.25-0.28 flat. Meaning: none beyond the base failure. Next obligation: none.
+> Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/C/C04/verdict.json.
+
+
+## L213 · The failure is weighing, not attention — and it inverts: readers that recall the conflicting evidence BETTER update WORSE
+
+**Hypothesis.** When the reader fails to flip under overwhelming conflict, did it fail
+to SEE the evidence or fail to WEIGH it? Mechanical recall stage first, then predict.
+
+**What we found.** On dose-8 FLIP items: recall-good readers 0.091 correct (n=22);
+recall-bad readers 0.240 (n=25). Attention is fine — recall of the conflicting choices
+is routinely high — and updating not only fails but anti-correlates with recall.
+
+**What it means.** The updater is broken downstream of attention: the reader can list
+the eight contradicting choices and still predict the old profile — and the ones that
+recite the evidence best hold the prior hardest. Uptake decomposition lands its answer:
+WEIGHING failure, decisively, with an inversion worth its own follow-up someday.
+
+> **Curator roll-up.** Theory group: context and trust, uptake decomposition (C trunk).
+> Question: attend-fail or weigh-fail? Outcome class: **Strengthens** (the decomposition
+> instrument worked; the answer is weighing). Result: recall-good 0.09 vs recall-bad
+> 0.24 on FLIP items. Meaning: evidence is seen and not used — inertia is post-attentional.
+> Next obligation: none this week. Public claim: model-side, scoped. Decision: No.
+> Detail: results/phase_2_4_stage_3/C/C05/verdict.json.
+
+
+## L214 · A stated hope beats a unanimous record five times out of six: hint-following at 0.83 swings accuracy from 0.92 to 0.08
+
+**Hypothesis.** Does a bystander's expressed hope bend the reader's prediction against a
+6-0 record? (No instruction to comply — a parenthetical "fingers crossed.")
+
+| condition | accuracy vs the record |
+|---|---|
+| no hint | 0.574 |
+| hope agrees with record | **0.917** |
+| hope conflicts with record | **0.083** |
+
+*Table: prediction accuracy on dose-0 items (unanimous 6-0 records); hint-following
+rate on conflict items 0.833.*
+
+**What we found.** The strongest single effect of the stage: the hope is worth more than
+the entire record, in both directions.
+
+**What it means.** Sycophancy is not a tie-breaker here — it is the decision. Beside
+L213: evidence attended, evidence recited, and a stranger's wish overrides it. The
+trust wing's central number, and the mirror of H04's human default-acceptance.
+
+> **Curator roll-up.** Theory group: context and trust, sycophancy (C trunk). Question:
+> does an expressed hope override the record? Outcome class: **Strengthens** (the
+> overweight-supplied-assertion account, G167's successor). Result: hint-following 0.83;
+> accuracy 0.92 vs 0.08 by hint direction. Meaning: supplied preferences dominate
+> evidence wholesale in this reader class. Next obligation: fold into the trust-reader
+> requirement (HH-25's failure clause). Public claim: model-side sycophancy number,
+> citable. Decision: No. Detail: results/phase_2_4_stage_3/C/C06/verdict.json.
+
+
+## L215 · The choice-set ruler splits: exact recovery and the blind floor stand, the strength ordering and one maker's enactment fail — the V trunk runs on the recovery leg with the strength leg retired
+
+**Hypothesis.** (V-trunk gate.) Exact recovery from programmatic records; margin-based
+choice-strength must order posteriors; makers must enact dictated choices at 0.85.
+
+**What we found.** INSTRUMENT-FAILED as a whole: recovery 8/8 profiles (stands), blind
+floor 0.26 (stands), strength monotonicity FALSE (the margin metric does not order
+posterior mass everywhere), Qwen enactment 0.625 vs SmolLM 1.00.
+
+**What it means.** The recovery instrument every V cell actually uses is intact; the
+strength METRIC (softmax margin) is wrong as built and retires; dictated-choice
+enactment is maker-dependent. Downstream V cells stand on the surviving legs and say so.
+
+> **Curator roll-up.** Theory group: preference (V trunk, instrument). Question: does
+> the choice-set ruler hold end to end? Outcome class: **Infrastructure** (split).
+> Result: recovery and floor stand; strength leg and one enactment leg fail. Meaning:
+> V02/V04/V05 are licensed by the surviving legs; strength-graded designs wait for a
+> better strength measure. Next obligation: V01/X1 profiles under the repaired metric if
+> the ladder reaches it. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/V/V01/ruler.json.
+
+
+## L216 · Preference is recoverable from enacted artifacts at rising dose; it thins across domains for model readers while exact transfer is perfect; and an editor's hand is readable exactly — but the model editor's instructed profile loses to its grain
+
+**Hypothesis.** (V02, V04, V05 in one arc.) Artifact-only recovery with dose; profile
+transfer across surface domains; editor recovery from edit directions.
+
+**What we found.** V02: yield 0.92, dose-rising posterior — PROMISING. V04: within-domain
+0.667/0.417 (Qwen/SmolLM) drops to 0.417/0.333 cross-domain against an exact ceiling of
+1.00 — model readers treat the second domain as a different person. V05 exact: editor
+recovered 4/4 with maker residual ~0 (a ceiling, not a test); model editor: the
+robust-instructed editor reads back robust (0.61) at switch-rate 0.83, but the
+cheap-instructed editor switches 90 percent of choices and STILL reads robust (0.998) —
+the instructed profile loses to the model's intrinsic lean in its own edits.
+
+**What it means.** Preference reading transfers perfectly in principle (exact) and
+poorly in these readers — a cross-context gap the theory's timescale story needs. And
+the editor result is the L169/E01 categorical-appetite fact from a third angle:
+instructed preferences do not survive contact with the grain, even in editing.
+
+> **Curator roll-up.** Theory group: preference (V trunk, three cards). Question: is
+> preference recoverable from artifacts, across domains, and from edits? Outcome class:
+> **Narrows.** Result: dose-rising recovery; cross-domain drop 0.25/0.08 against a
+> perfect exact ceiling; instructed-editor profile overridden by grain (0.998 robust
+> after 90 percent cheap-directed switching). Meaning: preference constructs transfer in
+> the environment but not in the readers, and instructed identity keeps losing to
+> intrinsic identity everywhere we look. Next obligation: V04/X4 third domain (ladder).
+> Public claim: model-side scoped. Decision: No.
+> Detail: results/phase_2_4_stage_3/V/V02, V04, V05 verdicts.
+
+
+## L217 · Exact weights beat siblings inside both families: the top of the relatedness gradient is identity, not family style
+
+**Hypothesis.** (S01/X2.) Within a family, does the exact-weight reader beat sibling
+checkpoints of the same lineage — or is the gradient's top rung just family style?
+
+**Method.** Paired within-artifact: the exact reader's margin minus the mean sibling
+margin, per artifact, sign-flip permutation.
+
+**What we found.** Qwen exact-minus-sibling +0.0107 (p=1e-4, 123 pairs); SmolLM +0.0141
+(p=5e-5, 127 pairs). OLMo has no siblings on the bench (recorded).
+
+**What it means.** Same-weights self-legibility exists ABOVE family style in both
+families where it can be measured — the three-rung gradient (L179) is now confirmed at
+its finest split.
+
+> **Curator roll-up.** Theory group: reader heuristics, similarity (S trunk). Question:
+> is the gradient's top rung identity or style? Outcome class: **Strengthens.** Result:
+> exact beats siblings +0.011/+0.014 at p<=1e-4 in both families. Meaning: exact-weight
+> identity is its own rung. Next obligation: none. Public claim: gradient citable at its
+> finest split. Decision: No. Detail: results/phase_2_4_stage_3/S/S01/siblings.json.
+
+
+## L218 · The relatedness gradient is monotone inside every family separately, the third included
+
+**Hypothesis.** (S03/X3.) Does the pooled gradient (L179) hold within each maker family?
+
+**What we found.** Monotone in qwen, smollm, and olmo separately (olmo's middle rung is
+empty — a single-checkpoint family — so its gradient is the exact-vs-cross pair).
+
+**What it means.** No family carries the pooled gradient alone; the ordering is a
+family-general fact.
+
+> **Curator roll-up.** Theory group: reader heuristics (S trunk). Question: is the
+> gradient family-general? Outcome class: **Strengthens.** Result: monotone in 3 of 3
+> families. Meaning: composition effects excluded. Next obligation: none. Public claim:
+> unchanged. Decision: No. Detail: results/phase_2_4_stage_3/S/S03/family3.json.
+
+
+## L219 · The crossed reversal survives its quality adversary: five of eight readers show the own-family effect inside themselves, where reader quality cannot move
+
+**Hypothesis.** (XV1, adversarial.) Could the crossed reversal be a reader-quality
+composition artifact? Within one reader, quality is constant — so the own-family effect
+must survive within readers or die. Kill condition, written first: own-effect at or
+below zero for most readers.
+
+**What we found.** 5 of 8 readers show a positive within-reader own-family effect; the
+adversary's kill condition does not fire. The three negatives are the weakest readers'
+cells (per-reader table in the verdict).
+
+**What it means.** The reversal is relational, not compositional — the strongest
+remaining rival after the eraser stack falls.
+
+> **Curator roll-up.** Theory group: reader heuristics (S trunk, adversarial). Question:
+> does quality composition explain the reversal? Outcome class: **Strengthens** (the
+> positive survives its adversary). Result: 5/8 readers positive within-reader. Meaning:
+> the quality rival is now measured and insufficient. Next obligation: none. Public
+> claim: reversal citable with the quality control. Decision: No.
+> Detail: results/phase_2_4_stage_3/X/XV1_verdict.json.
+
+
+## L220 · The purpose advantage survives its option-structure adversary — and grows: on items where the correct option is not the longest, purpose beats detail by nine points
+
+**Hypothesis.** (XV5, adversarial.) Is purpose-easier-than-detail (L205) an
+option-length artifact? Kill condition: the advantage vanishes on bias-resistant items.
+
+**What we found.** Longest-option-correct rates are nearly equal across banks (0.285
+purpose, 0.271 detail), and on the bias-resistant subset the purpose advantage RISES to
++0.087 for the stronger reader.
+
+**What it means.** The reversal of the intent-is-harder expectation is not an option
+artifact; the shaping interpretation stands stronger than before.
+
+> **Curator roll-up.** Theory group: human ground (H trunk, adversarial). Question: is
+> the purpose edge an option-structure artifact? Outcome class: **Strengthens.** Result:
+> +0.087 on the bias-resistant subset (from +0.052 overall). Meaning: L205 survives its
+> adversary and sharpens. Next obligation: none. Public claim: L205 citable with the
+> control. Decision: No. Detail: results/phase_2_4_stage_3/X/XV5_verdict.json.
+
+
+## L221 · The extended ruler recovers every profile including the blends — and the rebuilt strength leg is better but still not a law
+
+**Hypothesis.** (V01/X1.) Four blend profiles join the four pure ones with fresh maker
+instances: does exact recovery hold on the extended set, and does the rebuilt strength
+metric (realized information gain, replacing the retired margin) order posteriors?
+
+**What we found.** Recovery 48 of 48 cells (all eight profiles, three instances, both
+domains) with blind floor 0.306. The EIG strength leg orders strong-half above weak-half
+in 36 of 48 cells — a real improvement over the margin metric's failure (L215), still
+short of a law.
+
+**What it means.** The V-trunk's recovery instrument extends cleanly to mixed
+preferences; choice-strength remains an open metric question rather than a solved one,
+and no design leans on it.
+
+> **Curator roll-up.** Theory group: preference (V trunk, instrument). Question: does
+> the ruler extend to blends, and does EIG fix strength? Outcome class:
+> **Infrastructure.** Result: 48/48 recovery; strength monotone 36/48 under EIG.
+> Meaning: mixed-preference designs are licensed on the recovery leg; strength-graded
+> claims stay unlicensed. Next obligation: none. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/V/V01/profiles5to8.json.
+
 
 # TIER 2 · SETTLED
 

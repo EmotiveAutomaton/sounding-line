@@ -219,6 +219,16 @@ with its evidence named:
 > frequently. But yes, technically it's possible that embodied simulation is just one candidate
 > process. **So it is clearly a load-bearing one for me.**
 
+**Minimal core and defeasible machinery (2026-08-24).** Inverse planning is the established
+problem family. The project's distinctive human hypothesis is that people often solve part of
+that inverse problem through an empathy-like, self-model-based reconstruction: relevant shared
+organization makes candidate trajectories cheaper to generate, and maker-specific evidence then
+corrects the projection. This route is proposed to improve efficiency and calibrated accuracy,
+not to give the reader perfect access or make every other route unavailable. The three target
+families remain useful bookkeeping. The exact affective scaffold, processing order, neural
+localization, and transformer analogue are defeasible implementations rather than equal parts of
+the minimal claim. No result in this repository yet establishes the human route.
+
 A methodological bet rather than a finding, held with its own concession attached. What comes
 out is distorted:
 
@@ -435,6 +445,18 @@ been recovered.**
 | **G51** | Repetition itself carries the weighting | **OPEN** |
 | **G64** | Re-reading one artifact recovers the tail | **OPEN.** The residue account's other end; the reader-side strategy is `READER_HEURISTICS.md` §4's |
 | **S-14** | An absent drive is recoverable | **SUPPORTED (sim) as method; OPEN on real artifacts.** Near-invisible spontaneous (0.61), perfect under commission (1.00), compliance collapses to exactly 0.5; *how the goal is pursued* discriminates |
+| **V02/V04-S3** | A standing preference profile is recoverable from enacted artifacts and transfers across surface domains | **SPLIT (test, L216).** Recovery rises with artifact dose at 0.92 yield; the exact reader transfers across domains PERFECTLY while model readers drop 0.67→0.42 and 0.42→0.33 — the construct transfers, the readers do not carry it |
+| **V05-S3** | An editor's standing preference is recoverable from the direction of their edits | **CEILING STANDS, INSTRUCTED PROFILE LOSES (test, L216).** Exact recovery 4/4 with maker residual ~0; the model editor instructed to be frugal switches 90 percent of choices and its edits still read robust (0.998) — instructed identity loses to intrinsic grain in editing too, the third independent sighting of the L169 appetite fact |
+| **L01-L05-S3** | Maker traits cross to a same-base student through semantically empty artifacts (the subliminal channel) | **REJECTED AT THIS SCALE, CARRIER CONFIRMED (test, L183-L185).** Owl gap exactly 0.000 across LoRA ranks and templates, −0.075 full-finetune, policy channel −0.003 — while the teacher's trait separates trait from control sequences PERFECTLY in representation space across held-out seeds (4/4) and not at the surface (1/4). The trace reaches the artifact; training does not couple to it — uptake-side failure, not signal-side |
+
+**Preference evidence requires an opportunity-defined tradeoff.** A high-order structural
+choice — such as how prominently to place a rival account, which caveat to preserve, or which
+secondary goal to sacrifice — is a candidate preference event only when the actor controlled that
+choice and genuine alternatives were available. It becomes evidence about a standing preference
+when the same tradeoff recurs across contexts or predicts a held-out choice after topic, role,
+convention, and local goal are controlled. One coherent placement is a qualitative hypothesis,
+not ground truth. In collaborative work, role records or discriminating longitudinal evidence are
+required before the event is assigned to the author, editor, or director.
 
 **State of the section's claim.** Four accounts stand, none dead, one favoured, and the favourite
 was a surprise, since the section's original headline account (residue) now runs last by the
@@ -447,7 +469,10 @@ attention. The absence mechanism is the section's cleanest result anywhere, read
 drive through pursuit style at sim-perfect strength under commission. Every one of these remains
 a claim about constructed worlds; no real maker's values have been read by any account.
 Confidence: the sim discriminations are sim-only, authoritative about method; all four accounts
-are untested on real text.
+are untested on real text; the Stage-3 environment rows are exact-construction facts about
+model readers and programmatic makers — the cross-domain reader gap and the three-sighted
+instructed-versus-intrinsic asymmetry are the section's first live constraints from the model
+side, and the transmission null is scale-scoped with its carrier positively identified.
 
 ## §6. Value blindness, and where longitudinal ground truth could come from
 

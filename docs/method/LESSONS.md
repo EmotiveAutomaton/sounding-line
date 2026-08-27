@@ -194,6 +194,40 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **Match the readout class to the behavior the intervention moves.** M01's policy line
+  visibly steers GENERATED choices (S02's makers) yet shifts the committed-answer
+  likelihood mass by 0.03 — the whole localization program had no signal in its readout
+  while its patch controls sat at exactly zero (L203, 2026-08-26). A likelihood readout
+  is not a generation readout; pick the one the effect lives in, or run both.
+- **Read the baseline marginal of a forced-choice battery before interpreting steering
+  deltas.** A07's unsteered baseline put 0.75 of its mass on one tendency (the probe
+  frame primed curiosity), so the pooled sign pair rides one attractor and one tendency
+  steers backwards (L202, 2026-08-26). Report per-option baselines beside every steering
+  table.
+- **A manipulation check needs dynamic range in the corpus it checks.** A06's
+  suppression check compared emotion-word rates of 0.006 versus 0.005 — the "expressive"
+  corpus never used emotion words (makers write tendency through action), so suppression
+  was unverifiable by construction (L201, 2026-08-26). Measure the check's baseline
+  before building the manipulation on it.
+- **A gate dependency is the gate's VERDICT, not its file.** V02/V04/V05 and the C cells
+  ran because the queue's needs only test file existence; the V01 and C01 rulers had
+  failed in part or whole, and every downstream entry now carries the scoping by hand
+  (2026-08-26). Runners behind a gate read the gate's verdict at start (A07's pattern)
+  — existence is a scheduling fact, not a license.
+- **Gate every cell on realization before any posterior, contrast, or verdict touches it.**
+  E01's first analysis compared a "paraphrase-frame" posterior built from ONE realized
+  episode (1 of 40; the other domain 0 of 40) against a 39-of-40 plain-frame cell and printed
+  "frame_stable: false" (audit 2026-08-24, L176). A cell under 75 percent realized is an
+  instrument event and reports as undetermined; per-cell attempted/realized/yield sit beside
+  every accuracy in the Stage-3 runners now. The global yield number does not catch this —
+  the failure was one cell inside a 0.79 overall.
+- **Check that a known-answer design's "known answer" can exist in the environment before
+  writing the runner.** E05's first design offered the reader an "uninformative scenario"
+  (one where two profiles agree); in this environment every profile's argmax is its own
+  option in every scenario, so the item list was empty by construction and the cell would
+  have LANDED on zero rows (audit 2026-08-24). The repair is graded: exact expected
+  information gain per offer, kept only where the max/min ratio exceeds 1.5.
+
 **STRUCTURAL, 2026-08-18 (his ruling, after the class recurred through the prose rule):**
 every new prereg card or gate-bearing runner carries a **DESIGN CHECK block** in its header,
 naming the sections of this file read for that design and deriving, for every gate, its
@@ -412,6 +446,11 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **A cell's status belongs to its runner once the runner might have run.** A batch flipping
+  Stage-3 cells PLANNED→BUILT clobbered a LANDED status that a background run had set minutes
+  earlier (H05, 2026-08-24; caught because the validator's valid-attempt count came up one
+  short). Flip to BUILT in the same edit that writes the runner, before it is queued or run,
+  and never touch a cell's status in later batches — landings write their own.
 - **Every stage carries a `produces` guard**; one without it re-ran 160 minutes per pass. **And
   no two stages may ever share a produces path** — the earlier stage runs first, writes, and
   the later (corrected) stage skips forever; the queue asserts uniqueness at load. (L108)

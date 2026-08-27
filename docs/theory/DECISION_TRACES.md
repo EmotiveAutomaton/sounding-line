@@ -93,6 +93,14 @@ punctuation events remain separately visible; a later editor can reclaim control
 rebuilding the upstream structure. No human/model contribution ratio may be computed by counting
 recovered events as exchangeable units.
 
+**Event density and causal reach are orthogonal.** Implementation often contains many more
+separately recordable choices and may therefore leave more recoverable traces. A primary-goal,
+framing, or attention-setting event may be rare while changing the feasible set for a large
+downstream region. The director or auteur conjecture is a prediction about that distribution over
+the event graph: few upstream events with wide downstream scope can organize many lower-level
+events. Wide causal scope does not guarantee artifact visibility, and numerous visible execution
+events do not by themselves identify control.
+
 **Mixed production is a network of acceptance** *(the 2026-08-21 pass; provenance in
 `docs/design/archive/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
 
@@ -122,6 +130,14 @@ event schema carries these optional fields where interaction records exist:
 The event graph is the ground-truth object where interaction logs exist
 (`soundingline/process_record.py` is the enforced form). Any downstream scalar must
 declare its aggregation rule and is never a human/AI decision ratio.
+
+**Global coherence does not identify a director.** A central director, a shared brief, common
+training and conventions, institutional filtering, an editor, or a genuinely distributed
+cognitive system can produce similar dependency structure in the finished artifact. A reader may
+posit a directing hand, but historical attribution requires role-specific records, interventions,
+counterfactuals, or longitudinal preferences that predict which upstream choices that participant
+controlled beyond the shared-brief rival. In their absence, the honest output is an equivalence
+class of contribution graphs.
 
 The essay already names polish's first half. Aesthetics is *"the honeypot... the word for how much an
 object forces you to stare at it."* **Polish is honeypot density plus scaffolding density. It is not
@@ -615,6 +631,10 @@ all fixed by construction.**
 | **G166** | Production route identity (which of five recorded ways an essay was made) is recoverable from the final artifact | **SEMANTICALLY BLIND, STATISTICALLY LOUD (test, L154; preregistered, ceiling passed).** The reader abstains at 0.70 to 0.85 per route (0.07 committed-correct against 0.2 chance) while a five-feature mechanical baseline reads route at 0.48 and the process-aware ceiling passes at 0.78. Final artifacts underdetermine route as a story and mark it as surface residue; whether the residue is route structure or generation-style covariates is the owed trace-erasure follow-up, and the artifact-only equifinality claim narrows to the audit interface meanwhile |
 | **G159** | Verified executed instructions leave recoverable evidence in the final artifact, against uninstructed twins with echo and consequence controlled | **SUPPORTED WITH THE ECHO CAP DISCLOSED (test, L146; preregistered, all gates quiet).** Executed problem-pool instructions recover at 0.86 in BOTH families against 0.22 on identical twins where nothing was executed (effect 0.64, z = 9.1); the twin leak gate, whose expectation is chance under null AND alternative, stayed quiet. The card's echo-disclosure rule fired: word overlap alone recovers executed instructions at 0.73, because executing a semantic instruction embeds its vocabulary, so the reader's demonstrated contribution beyond words is thirteen points, family-stable. The paired-delta interface adds nothing here (0.83) since the final text already realizes the choices; fabrication is context-dependent (0.05 on cold essays, 0.40 on visibly rewritten twins); the constraint-verification null replicates (surface arm 0.25 with the mechanical oracle at 1.0). The decomposition then overturned the cap (test, L148): on the 27 events where word overlap points at the WRONG candidate the reader still recovers at 0.852 against 0.22 in the twins, statistically unchanged from its echo-right cell, so the recovery evidence is echo-independent semantic realization that merely correlates with echo in aggregate |
 |   | | *(this row's history now includes reader-form robustness: a non-generative conditional-likelihood reader, scoring only how well each candidate predicts the text, recovers the same recorded revisions at 0.78 against the 0.25 floor (test, L161) — the recovery does not depend on the prompted, answer-generating form)* |
+| **H05-S3** | The next writing intention is mostly carried by intention persistence, not text | **SUPPORTED (test, L173).** 87.9% of consecutive ScholaWrite edits share an intention; a no-text previous-label rule scores 0.883 under leave-one-project-out against the majority floor 0.591 and the faithful text arms' 0.580/0.546 (different inputs, shown for scale). Human process traces run in long temporal coherence-runs — records-side structure artifact-only reading cannot see. **Grain-bound (L174):** the same predictor drops to 0.394 (floor 0.382) on whole-revision purposes (self-transition 0.354) — persistence lives WITHIN an act; between acts, purposes switch |
+| **H01-S3** | Author purpose is harder to recover than surface detail on human exam passages | **REVERSED (test, L205), scope-bound (L206).** Purpose beats detail (+0.052, p=0.023) on the dense split with real passage lifts over question-only floors; the edge closes to +0.012 on the simpler split. Intended purpose is the EASY inversion — the bard's shaping, measured; unintended structure is where difficulty lives. **Adversary survived (L220):** on items where the correct option is not the longest, the edge rises to +0.087 |
+| **H04-S3** | Suggestion uptake tracks contextual fit where position and history failed | **REJECTED (test, L207).** AUC 0.499 over 3,000 balanced accept/dismiss decisions — acceptance is default-driven at every grain measured |
+| **D01-S3** | A standing director's reach is visible in and attributable from the team record | **NARROWED HARD (test, L186-L191, six cards).** Only the with-grain director moves workers (+0.17 over marginal; cheap nil, fast negative); attribution recovers one of three directors because worker priors drown direction; the dose ruler fails on known doses (firm-minus-none +0.08, ns; hedged ties firm for one worker); central and distributed worlds do not separate by per-worker agreement; per-episode direction-vs-preference attribution is at chance with the record adding bias only; record-based forecasting of a fresh directed choice gains +0.04. The distributed-coherence rival's first measured case: the record identifies the WORKERS |
 | **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73), the raised floor DECOMPOSED (test, L126).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither. The floor's rise is 87% label-marginal alignment: matching reweighted the truth labels toward the ones the blind reader guesses by default, no text information involved, so the delta-specific remainder stands against a compositional floor rather than a covariate-information one. Owed: the powered matched replication, now the G129 confirmatory battery, whose matched draw truth-balances within common support to restore the analytic floor |
 
 **What the table says.** Recorded purposes are recoverable from the delta at confirmatory
@@ -638,7 +658,12 @@ specifications multiply), massive over-credit in yes/no verification. The constr
 any of this tracks decision structure rather than corpus particulars — now has its first
 preregistered answer on the rebuilt factorial: executed choices ARE recoverable from final
 artifacts against uninstructed twins, sixty-four points with every gate quiet and perfect
-family transfer, of which thirteen points exceed the word-overlap bar. The cap then lifted
+family transfer, of which thirteen points exceed the word-overlap bar. The Stage-3 human rows sharpen the ground from two sides: intended
+rhetorical purpose reads MORE easily than detail on dense passages (the maker built the
+legibility in), while three thousand live uptake decisions carry no fit signal at all — human
+acceptance in that corpus is policy, not evaluation. And the director rows put a measured floor
+under the errata's caution: a coherent team record identified its workers, not its lead, in
+two of three directed worlds. The cap then lifted
 under its own mandated decomposition: where word overlap actively misleads, the reader still
 recovers at eighty-five percent while the twins sit at chance, so the evidence is
 echo-independent semantic realization rather than lexical matching, and every future recovery

@@ -346,19 +346,7 @@ survive the fair induction control on the two strong ladders (G76/L94).
   paths still checked). Kill by winpid tree; sweep orphans; standalone GPU arms need queue
   membership, checkpoint-resume, or the sweep keep-list. The queue asserts produces-path
   uniqueness at load; a clean exit with no produce records FAILED.
-- **In flight (2026-08-17 evening, after the circuit-breaker outage):** a power loss killed
-  the whole machine mid-day. Recovery audit found NO unrecorded findings (every result file
-  newer than the last write-through was already in the record; the one arm running at the
-  cut was still in its lock-wait loop with zero events processed). Compute lost: the deberta
-  s43 stabilizer rung died at epoch 7 of 10, ~17 hours in, training healthily (loss 0.000),
-  and restarts from zero because the training runners have no mid-run checkpoint-resume
-  (build now owed, TODO infra row; the orphan-sweep lesson's protection list has its first
-  outage receipt). Stale gpu/gear locks cleared. **FIRST GEAR is running (his call): all
-  pending GPU stages held for second gear** — the deberta restart, wqd medium + six
-  seed-interval arms, the G129 reader arms, both G153 generation arms — and the G129
-  verdict defers on its arms. The GPU lock's staleness window is 22h (raised 2026-08-17
-  after a live 620-minute rung was reclaimed at hour nine); the regear waiter cancels by
-  FILE (`results/.regear.cancel`), never by pid.
+- **In flight (2026-08-26): the Stage-3 (E24-S3) endgame on second gear, 3 shards, window chained until the queue is empty by `tools/regear2_until_empty.sh` (relaunch cap 3, cancel by `results/.regear.cancel`; no renewal check-in is owed).** 61 of 73 manifest cells resolved and written through (L171-L221); 12 run behind the L01/X1 generation, forecast empty 08-27 midday to late afternoon at the day's observed 1.65x estimate multiplier. The CLAUDE.md freeze line still stands (his 08-24 order, self-lift stated for 17:00 that day), so all Stage-3 work is uncommitted local state pending his removal of the line. History that still binds operations: the 08-17 power-loss audit found no unrecorded findings (write-through discipline held); the GPU lock's staleness window is 22h (raised 2026-08-17 after a live 620-minute rung was reclaimed at hour nine); the regear waiter cancels by FILE (`results/.regear.cancel`), never by pid.
 - **The audit-history index:** L26 (the first fleet), L61 (recreation re-audit), L93 (the
   methods pass), L107/L108 (the two referees), L109 (the consensus fleet), L123 (the external
   verification fleet). The old solo-audit scope table this file used to carry is superseded by
@@ -415,13 +403,7 @@ died on the way and must stay dead.
 
 ## Open decisions / owed
 
-- **His:** the Phase-1 final assessment when the queue lands + BST rebuild finishes; the
-  Phase-2 go; interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access;
-  rotate the early-project API key.
-- **Mine, in order:** the 9-action BST rebuild (decode gate passed L114; the phase's last
-  open implementation); write-throughs as tonight's arms land (head-scope members, vote,
-  deberta, three wqd test gates, batch-8); then the owed CPU builds (G130c floor
-  decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile
-  function).
+- **His:** remove the CLAUDE.md freeze line (stated for 17:00 08-24, still present 08-26) so the accumulated Stage-3 batch can be committed; then the Stage-3 final assessment when the curator packet lands (expected 08-27 evening). Standing from earlier phases: interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access; rotate the early-project API key.
+- **Mine, in order:** write-throughs as the 12 open cells land; the until-empty gear chain stands armed in place of manual renewal (the 08-25 lapse class is closed by tooling); the S07 confirmation re-run with the X fills once the queue empties; the week's-end freeze/replicate/synthesize pass and the two-pass curator packet; the reviewed commit batch after the freeze lifts. The pre-Phase-2.4 owed builds (the 9-action BST rebuild, G130c floor decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile function) remain in `TODO.md`'s backlog, superseded in priority by the Stage-3 endgame.
 - **The one-maker-many-kinds corpus problem** stands (CROSSNEWS pseudo-documents only;
   Guardian small; CMCC request-only); the program's G133 commissioned pilot leads this thread.

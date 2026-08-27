@@ -131,6 +131,15 @@ Both are candidate modelings rather than a claimed dichotomy. What positive affe
 there would come out of the data, not out of an initial musing on one specific channel; the
 suppression experiment below separates these two without excluding others.
 
+**The candidate affective contribution is active and state-dependent, not an inventory that must
+all be present at once.** At a given moment one or a small changing mixture of conserved
+motivational or action-tendency constraints may alter salience, feasible trajectories, and
+tradeoffs during reconstruction. The weights, mixtures, and even the right functional basis are
+open. Decoding a label does not show that the constraint participated in the computation, which
+is why causal intervention during inference is required. Conversely, a lack of recoverable
+emotional language does not identify absent affect, low attention, low care, or low total neural
+activity; expression, internal state, and computational use are separate variables.
+
 Human goals can genuinely drift when attention relocates, but surface movement is not sufficient
 evidence of goal drift. The same persistent concern can appear and disappear as opportunity and
 expertise change its local expression. Serial switching is a candidate description of focal
@@ -296,24 +305,31 @@ Confidence: sim-only; the real-artifact claim is untested.
 | **lit** | Conserved **subcortical affective control machinery** exists as a distinct stage | **SUPPORTED (READ).** The strongest support cites neither camp. Hypothalamic line attractors encoding intensity and persistence (*Nature* 2024), conserved biphasic cross-species dynamics with a ketamine dissociation (*Science* 2025). *Anatomical honesty: that evidence is hypothalamic and PAG, subcortical rather than specifically midbrain, and the machinery being coordinated is uncontested while its reading as a separable affective-primitive stage is not* |
 | **lit** | The Panksepp-Barrett disagreement is about localisation | **REJECTED (READ).** Both camps place the machinery in hypothalamus and PAG; they disagree on whether activity there *constitutes* affect or reports it, so imaging will not settle it |
 | **lit** | Panksepp's seven is the right number | **REJECTED (READ) as an empirical claim.** Never derived from a dimensional analysis; the standard instrument tests six |
-| **G35** | Roughly 27 is a soft upper ceiling on behaviorally distinguishable, human-reportable affect categories that may include cortical construction; it is not a count of subcortical primitives | **OPEN only as a basis-design heuristic.** It supplies no precise number, PCA rank, or anatomical claim |
+| **G35** | A numerical ceiling on reportable affect categories should govern basis design | **WITHDRAWN AS A DESIGN HEURISTIC (curator, 2026-08-24).** Roughly 27 no longer functions even as a soft ceiling. A 27-label language taxonomy may appear only as an external, dimension-matched comparator. Panksepp's seven remains a theory-derived candidate vocabulary, not a dimensional result or privileged count |
 | **G36** | Some recovered components will be unnameable | **OPEN**, behind a working count instrument |
 | **L8 / L9** | Our own two counting attempts | **VOID / INSTRUMENT DEAD (L8/L9/L15).** A criterion that returned components from noise, then a rebuilt instrument with four confirmed defects. This project holds no count of its own |
 
-On the count *(the 2026-08-22 pass; provenance in `docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
+On the former count heuristic *(the 2026-08-22 pass; superseded in scope 2026-08-24; provenance
+in `docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
 
 > When I say 27, I am treating that as a soft upper bound, not anything precise. I do not know how
 > they came up with it, but they certainly did not use Panksepp's method. If they arrived at it
 > behaviorally, they probably also captured some cortical, Barrett-style emotions.
 
+**Supersession note.** The quotation is retained as the historical source of G35. Its live
+disposition is withdrawn. The current theory holds no soft ceiling near 27 and does not treat a
+behavioral language taxonomy as a candidate subcortical inventory. The working candidate basis
+may be closer in kind to Panksepp's functional systems, but neither seven nor any other count is
+licensed as the natural dimensionality.
+
 **What the table says.** Conserved subcortical affective control machinery has strong published
 support, while no component count has privileged standing here. Panksepp's seven were not derived
-by dimensional decomposition. Roughly 27 is retained only as a loose ceiling on reportable,
-behaviorally separated categories and may include neocortical construction; it says nothing
-directly about primitive channels. The project's own two counting instruments contributed no
-evidence. Phase 2.4 may compare fixed bases and rank sweeps, but it may not announce a natural
-emotion count. Confidence: the machinery is replicated and controlled in the published record;
-every count relation here is untested, heuristic, or instrument-dead.
+by dimensional decomposition, and the former 27 ceiling has been withdrawn even as a basis-design
+heuristic. Fixed named banks remain legitimate competing constructions when their provenance and
+interpretation are declared; none may be announced as the natural emotion count. The project's
+own two counting instruments contributed no evidence, and component counting is not a Phase 2.4
+objective. Confidence: the machinery is replicated and controlled in the published record; every
+count relation here is rejected, withdrawn, untested, or instrument-dead.
 
 ## §5. Does a corresponding model structure exist?
 
@@ -501,19 +517,34 @@ or has reproduced human empathy. Human-reader correspondence remains a later gat
 | # | hypothesis | status |
 |---|---|---|
 | **G45** | An affective concept can be forced into a chosen block and strengthened there | **OPEN, the build**, gated on causality and the transform |
-|   | | *(the causal gate's first instrument attempt INSTRUMENT-FAILED (test, L162): dev-selected block flipped between seeds at eighteen dev items, and the degenerate input-edge selection lesioned the model 2.55× under amplification; abstract emotion-word-free decoding appeared weakly above every control at the one functioning seed, so the signal grain exists and the battery was underpowered, never the reverse. The rebuilt ruler then answered cleanly (test, L170): the representation is REAL and stably located, unanimous cross-seed consensus on one deep block, held-out decoding at twice chance with the lexical baseline at exactly chance, and it is causally INERT under every capability-tolerated linear dose, both concepts, no sign pair. The wing closes at this scale with the representation retained and no causal handle; scale, rank, and intervention form are the named suspects)* |
+| **A02-S3** | Plain valence is causally steerable in the instruct model by an ADDITIVE direction at a capability-tolerated dose | **SUPPORTED (test, L197), the standing anchor.** Sign pair +0.78/−0.75 (p<1e-3 each) on happy-vs-sad continuation preference, random and shuffled directions quiet, decode 1.00 on an untouched validation split. A different construction from L170's rank-one amplify/ablate; coexists with it |
+| **A03-S3** | Action tendencies leave decodable structure while the model reads tendency-laden text | **SUPPORTED (test, L198), one corpus deep.** 0.422 vs 0.25 chance, nearest-centroid at the LATE third, clear of a five-shuffle null; direction bases and the valence locus decode nothing — categorical geometry, deeper than valence |
+| **A04-S3** | The tendency read is independent of valence (fear vs anger dissociation) | **REJECTED (test, L199).** Fear-anger separate at 0.597 but the frozen valence axis separates them at AUC 0.19 — the read is partly valence-riding; no discrete-system license |
+| **A05-S3** | Two-tendency blends read as superpositions of their components | **REJECTED (test, L200).** Top-2 pair match 0.065 against 1/6 chance; blends are their own points |
+| **A07-S3** | The tendency geometry is causally usable during realized choice of an impulse | **SUPPORTED WEAKLY (test, L202), scoped.** Pooled sign pair (+0.10/−0.06 around a 0.25 base, random quiet) behind the A02 gate at a capability-tolerated dose; the baseline is curiosity-owned (0.75) and anger steers backwards — three of four handles, none clean |
+|   | | *(the causal gate's first instrument attempt INSTRUMENT-FAILED (test, L162): dev-selected block flipped between seeds at eighteen dev items, and the degenerate input-edge selection lesioned the model 2.55× under amplification; abstract emotion-word-free decoding appeared weakly above every control at the one functioning seed, so the signal grain exists and the battery was underpowered, never the reverse. The rebuilt ruler then answered cleanly for its tested construction (test, L170): in Qwen2.5-1.5B the representation is real and stably located, with unanimous cross-seed consensus on one deep block and held-out decoding at twice chance while the lexical baseline sits at chance. Rank-one fear and joy amplification/ablation at that block did not move the 24-item approach-versus-withdraw behavior at any dose admitted by that capability gate, with no sign pair. The wing closes for this model, basis rank, locus, behavior, and intervention family; scale, rank, locus, behavioral target, and intervention form remain named construction variables)* |
 | **G38** | The mid-level primitives need only seeding, not specification | **OPEN.** *(Dependency corrected 2026-08-09: it rests on coherent structure existing (passed), on the causal gate, and on controllability, not on the rejected subspaces-not-depths claim it used to cite)* |
 
 **What the table says.** The build's gate order now has a real answer at small scale: gate one
 (coherent structure) passed long ago, and the decisive causal gate has been measured cleanly
 rather than instrument-failed. The rebuilt ruler locates a weak abstract affect representation
-at one unanimous deep block, readable at twice chance on text with no emotion vocabulary, and
-finds it causally inert under every linear dose the capability gate tolerates. At this scale the
-structure is a readout, not a handle. The build path stays open only through what the closure
+at one unanimous deep block, readable at twice chance on text with no emotion vocabulary. Its
+rank-one fear/joy intervention is behaviorally inert on the tested approach-versus-withdraw
+ruler across the doses that ruler's capability gate tolerates. At that construction the
+structure is a readout, not a handle. Stage 3 may test higher-rank or dynamic mixtures,
+different loci and causal abstractions, larger substrates, and policy-level targets without
+changing L170's classification. A positive result on one of those constructions would coexist
+with L170; only an exact re-run can reclassify it. That different-construction result now
+exists (test, L197/L202): additive steering on the INSTRUCT model at blocks 14-18 moves valence
+preference as a clean sign pair with controls quiet, and the same additive family moves realized
+impulse choice weakly through the tendency directions — a handle where the rank-one construction
+found a readout, exactly the coexistence the errata's scoping predicted. The geometry the handle
+grips is categorical and late (centroids at the last third, L198), partly valence-riding (L199),
+and non-compositional (L200). The build path stays open only through what the closure
 names, a larger substrate, a higher-rank basis, or a different intervention family, and its
 address, if the transform work holds, remains a family where the rotation composes rather than
 the home family. Confidence: the decode finding is one bad test away, three seed splits and one
-model deep; the causal inertness is one bad test away at the same scale; the gates above remain
+model deep; the causal inertness is one bad test away for the same tested construction; the gates above remain
 logic.
 
 ## §9. Reading versus caring

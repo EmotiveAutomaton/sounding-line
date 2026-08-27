@@ -115,6 +115,14 @@ creates a characteristic failure: a sufficiently flexible reader can explain alm
 something the reader might have done. Reader identity, domain competence, and conditioning must
 therefore be recorded as part of the instrument.
 
+The strongest live prediction is broad and graded rather than exclusive. A relevantly similar
+reader need not gain access to an inference target that another reader cannot represent. It may
+instead need less evidence or deliberation and become slightly more accurate or better calibrated
+across many goal, process, and continuation judgments. The advantage is conditional on similarity
+along variables that matter to the current decision. When self and maker diverge on that variable,
+the same shortcut can amplify projection; successful use therefore includes detecting conflict
+and correcting toward target evidence.
+
 Three distinctions must not be collapsed: self-based versus target-specific evidence, rapid
 versus deliberative processing, and affective sharing versus cognitive mentalizing. Interpersonal
 studies link direct accuracy, but not assumed similarity, with slower judgments;
@@ -127,8 +135,14 @@ pipeline. Transfer from interpersonal judgments to artifact inversion remains op
 2020; Mitchell et al., 2005, 2006; Shamay-Tsoory et al., 2009; Jospe et al., 2020).
 
 **(HH-23:** Artifact inversion combines an assumed-similarity initialization with target-specific
-correction, with their relative contribution changing by reader-maker similarity and available
-cues. **OPEN for artifacts; supported only as an interpersonal analogue in the cited studies.**)**
+correction; relevant reader-maker similarity should yield a modest, broad efficiency or
+calibration advantage, while misleading similarity should increase error until corrected.
+**OPEN for artifacts; supported only as an interpersonal analogue in the cited studies.** Stage 3
+crosses measured similarity, evidence dose, compute, and conflict; no human-reader artifact test
+exists. First split (test, L192): the similarity advantage is REPRESENTATIONAL, not predictive —
+family kinship grades artifact-reading (L179) while record-based choice prediction shows no
+self-advantage at all (self-minus-other −0.10, ns, against a 0.68 target self-consistency
+ceiling). The two halves of HH-23 now carry different evidence.)**
 
 **Model-family similarity is the present analogue construction. If sibling models recover one
 another's recorded process choices better after surface and capacity controls, the shared-
@@ -150,7 +164,35 @@ single-maker-family limitation is now lifted (test, L165): a second maker family
 advantage in its own direction, each family's artifacts read best by that family's readers, at
 the permutation floor under mechanical normalization and, on genuinely rewritten artifacts
 only, under an independently built eraser that measurably strips family surface signal. Reader quality carries most of the spread and the
-relation term is the smaller part that reverses with origin, which quality cannot do.**)**
+relation term is the smaller part that reverses with origin, which quality cannot do.
+The Stage-3 replication arc lands the strongest version yet (test, L177/L179/L180/L182): a
+third family admitted by a blind realization gate (OLMo, 40/40) shows the reversal largest of
+all (+0.0365, p=5e-5), the relatedness gradient is monotone at three rungs (exact 0.065 >
+same-family 0.047 > cross 0.039, p=5e-5), the signature survives a fifteen-word
+summarize-and-regenerate bottleneck through a SmolLM rewriter (both families p<0.01), and the
+frozen md5 reserve quarter confirms two of three families at p<=1e-4 with SmolLM's weakness
+stable across sides. Attribution context does nothing to the likelihood reader in either
+direction (L181), so the signature is carried by the text, not by identity beliefs.
+The finest split and the strongest rival both landed 2026-08-26 (test, L217/L219):
+exact weights beat same-family siblings inside both measurable families (+0.011/+0.014,
+p<=1e-4), and the within-reader adversary — where reader quality cannot move — keeps the
+own-family effect in five of eight readers, so the quality-composition rival is measured
+and insufficient.**)**
+
+**(E01-S3:** the self a model reader could project is exactly readable under a fixed
+instruction frame and is frame-conditional under another (test, L176). All three instruct
+readers carry a sharp unprompted profile under the plain frame (posterior mass 1.00; Qwen's
+differs by domain); a paraphrased frame flips the 360M model's profile robust→precedent in
+both domains, holds the 1.7B model's where it realized, and leaves Qwen unreadable (1 of 40
+and 0 of 40 episodes realized). **NARROWS the self-model prior:** in models it is an
+instruction-shaped default, not a stable prior, so every self-projection test fixes its frame
+by construction. The projection itself then split by capability (test, L193): the reader that
+cannot consume records defaults to its own preference on conflict items (error intrusion 0.58
+vs the 0.33 symmetric null) while the record-reading reader errs symmetrically (0.29) — the
+assumed-similarity initialization with the correction step present versus absent, live in two
+models. Active search is not the correction's source: offered a higher- or lower-information
+record, both readers take whichever is listed first (position rate 0.86-1.00 vs informative
+rate 0.36-0.38; test, L194).**)**
 
 ## §2. Finding an entry point
 
@@ -243,6 +285,7 @@ He predicts a vague unifying effect there and declines to claim even that.
 | **S-4/S-5** | Stage ordering changes the answer | **REJECTED (sim)** by exactly zero; ~5% cost saving only |
 | **G165** | Explicit route generation (a self-enacted production route, or predicted evidence per candidate) improves recovery of recorded executed choices over direct reading | **NO-GAIN where direct reading is strong (test, L151); HURTS where it is weak (test, L153), and the wing is CLOSED.** On the realized-choice events: zero delta and minus two points, every gate quiet. On the revision-delta events where the change block beats the direct reader: self-route costs seven points (p = 0.0006) and invents purposes on unrevised text at 0.065 against the direct reader's recorded 0.000, while evidence-prediction gains three points, noise-compatible. Explicit generation is rhetoric the reader then follows over the evidence |
 |   | | *(this row's history is a NO-GAIN root on the strong substrate 08-21 morning and the HURTS discriminator on the weak substrate the same afternoon; the null-discriminator rule is spent)* |
+| **E02-S3** | A reader given a maker's choice RECORD predicts their next choice better than one given nothing or matched filler, on known-policy targets | **SUPPORTED (test), one reader deep.** +20 points paired (p = 0.0026) against an exact ceiling of 1.00 — but the entire margin is Qwen's (0.57 vs 0.23); SmolLM-1.7B reads the record at filler level (0.27). The self-first two-step neither helps nor hurts. Instrument gate for the Stage-3 route factorial |
 
 **What the table says.** The entry-point family has one live positive, one honest defeat, and now
 a closed question with a direction. The
@@ -258,7 +301,9 @@ self-model prior itself, whose implicit form the direct reader may already be us
 no test here reaches. Confidence: the
 probe-activation result is one
 bad test away; the surface defeats are replicated and controlled; the generation bound is
-one bad test away as a pair, two substrates deep in one reader family; the rest is untested.
+one bad test away as a pair, two substrates deep in one reader family; the record-route gate
+is one test in one environment, with its reader asymmetry (one model uses records, one does
+not) still unexplained; the rest is untested.
 
 ## §3. Traversing explanatory levels
 
@@ -331,6 +376,14 @@ A useful context cue improves held-out recovery; a misleading cue should cause a
 measurable, directionally coherent error; if neither occurs, the cue merely inspired a
 narrative. The tool-conditioned form of the same rule lives in §6.
 
+**The current ordering conjecture places context especially at maker differentiation.** The
+artifact first supports a self-based candidate distribution; biography, prior work, tools,
+culture, role, and source reliability then help move that distribution toward this maker. This is
+not a fixed serial architecture. Context-first and joint processing remain live rivals, and any
+order that lets a false assertion overwrite strong artifact evidence is a trust failure rather
+than successful differentiation. Attention allocation, epistemic weight, process uptake, belief
+uptake, and value change remain separate outcomes.
+
 **And apparent errors should eventually revise the reader's model of the maker**:
 
 > Every apparent mistake is suspicious because it may mean you do not understand the maker. If too
@@ -369,6 +422,7 @@ the reason to expect modest effects.
 | **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION where evidence is absent (test, L155); MIXED at 0.44 where evidence is strong (test, L157); the wing is PAUSED.** With nothing readable to resist it, a false card steers 95 percent as hard as a true one and erases the reader's abstention. Against evidence the reader provably reads at 0.86, a false note still costs forty-two points, wins the toss-up at 0.53, and the conflict is named only 0.15 of the time even when the format offers the option; a true note lifts the reader to 0.99, so any supplied note is treated as high-grade evidence regardless of truth. Context-trust is a separate defect from evidence-reading in this family |
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
 | **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism |
+| **HH-25** | Reliable maker context is especially useful after an initial artifact/self prior has formed, during maker differentiation | **OPEN, with the first model-side ordering facts (test, L195/L209/L211/L214).** Ordering is load-bearing but in the EVIDENCE-first direction: the record-reading reader drops 0.67 to 0.40 when the question precedes the record. The late-fusion ruler itself failed (readers cannot track exact Bayes even on easy doses), updating fails at weighing rather than attention (recall-good readers update WORSE, 0.09 vs 0.24), biography trades at parity with a six-choice record in both directions, and a bystander's stated hope overrides a unanimous record at 0.83 — the trust failure the row's own clause names, now measured. The differentiation-order question proper stays open pending a reader that can update at all |
 
 **What the table says.** The section's first numbers land on the context-reweighting rule's
 failure side, now measured at both ends of the evidence axis. Where the artifact offers
