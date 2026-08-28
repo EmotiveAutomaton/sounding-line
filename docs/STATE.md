@@ -387,6 +387,26 @@ survive the fair induction control on the two strong ladders (G76/L94).
   deadline.** Build, smoke, and the validation pass are in the registry build log. Eight cards
   had landed and were written through (L237 to L243) by 03:40 on the 28th; the science waits
   for the final packet.
+- **Stage-4 concurrency audit, 2026-08-28: NO corruption, and none reachable in what
+  remains.** `soundingline/s4.py`'s `Lineages` has a lost-update shape (each runner holds a
+  whole-file snapshot from its own start-up and writes the whole dict back), the same class
+  `_fresh()` already closes for `RunContract`. It has not fired. Verified two ways: every one
+  of the 768 `inspected` flags that should exist does exist, zero used-but-unmarked lineages
+  across all eight cards carrying case rows, and zero confirmation lineages contaminated; and
+  structurally, of the four cards that can run beside a GPU cell (`CPU_CARDS` = I01, H03, P01,
+  P02) P01 and P02 never reference `Lineages` at all and H03's arm contains no lineage write,
+  the two `mark_inspected` calls in `s4_run_h.py` living in the H01 and H02 arms. The one long
+  overlap, H03 beside C02 for 3.7 hours, therefore had a single writer. **All seven remaining
+  cells are gpu=True, GPU cells serialize through the gpu lock, expansion rungs are admitted
+  gpu=True, and no CPU card is left, so no two lineage-writing processes can overlap again this
+  run.** Fix the snapshot at cutover, not mid-run.
+- **Two dead controls found in the same audit.** `mark_generated` is never called by any
+  runner, so all 3904 lineage rows carry `generation_hash: None` and `duplicate_content()`,
+  which the scheduler writes into COVERAGE as `duplicate_lineages`, returns `[]`
+  unconditionally: **the packet will read `no duplicates` where the truth is `not checked`.**
+  Performed by hand instead, it found the T-track construction defect now recorded as TODO R7
+  (`make_lesson_world` ignores its domain argument; 128 nominal T01 units are 31 distinct
+  worlds). This is the project's named recurring death, a criterion that could not fire.
 - **Stage-4 theory errata APPLIED 2026-08-28** (`docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md`,
   now the source record). Five small theory additions across the four owners, each carrying a
   reconstructed-speech attribution; eight evidence corrections to the Stage-3 record; six

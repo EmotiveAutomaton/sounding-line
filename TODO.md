@@ -83,6 +83,38 @@ new produces path.
 **Also owed, documentation not compute:** the XV3 and XV4 audit observations need linked method
 receipts before their numbers may enter canonical theory (errata §4).
 
+**R7 · THE T-TRACK CONSTRUCTION DEFECT (found 2026-08-28 while auditing Stage 4 for a
+concurrency risk; the defect is unrelated to concurrency and is the more consequential of the
+two).** `make_lesson_world` in `runners/s4_worlds.py` accepts a `domain` argument, stores it in
+the returned world, and **never uses it to select content**. It is the only one of the five world
+constructors that does not: `make_world`, `make_appraisal_world`, `make_chain_world` and
+`make_history_world` all index `_ITEMS[domain]`, `_SCENS[domain]` or `_HAZARDS[domain]`. The rule
+pool `_RULE_WORLDS` holds four entries, so the whole lesson-world identity space is 64 worlds and
+**61 of those 64 groups appear under both domains**. Measured on the landed data: T01 has 128
+nominal units and **31 distinct constructions**; T02 inherits it through its derived lineages.
+
+Two consequences, neither of which is fixed by restarting, because the same code rebuilds the
+same worlds:
+
+- **The T-track domain factor is a label with no realized contrast.** Any workshop-versus-civic
+  comparison on T cards compares identical constructions. It must be reported as unrealized, not
+  as a null result.
+- **Effective n is overstated about fourfold.** T01's verdict records `n_units: 128` and clusters
+  its bootstrap on that, giving ci [0.117, 0.199] and perm_p 5e-5 around a point of 0.156. The
+  point estimate is a within-world paired contrast and is unaffected; the interval is roughly
+  half the width it should be, since resampling 128 clusters that are really about 31 worlds
+  narrows it by around the square root of 128/31. The SUPPORT_CANDIDATE direction probably
+  survives correction, since even a doubled interval clears the frozen 0.05 threshold, but the
+  stated precision does not.
+
+**Fix before any T-track result is promoted:** index the rule pool by domain and enlarge it, so
+the lesson world varies with domain and the pool is not four deep; then re-run T01, T02 and T03
+and recompute clustering on the world rather than the nominal unit. **Do not edit
+`runners/s4_worlds.py` while Stage 4 is running** — every card the scheduler has yet to spawn
+imports it, which is the same class of hazard `_fresh()` was introduced to close for the run
+contract. C and A tracks are unaffected (C02 renders 128 distinct constructions of 128; A01
+renders 127 of 128, its one collision a benign same-domain RNG repeat).
+
 | | study | state |
 |---|---|---|
 | **G130 · the event-recovery harness** | Five known-answer gates on synthetic decision events before any real corpus | **VALID (L56), eyebrow CLOSED (2026-08-19): the unchanged arm at 5× n across three fresh seeds reads 0.249/0.249/0.240 — the 0.282 was seed noise; all gates green all seeds** |
