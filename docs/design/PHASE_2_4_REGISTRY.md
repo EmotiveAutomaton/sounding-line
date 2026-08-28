@@ -131,6 +131,158 @@ exact-beats-siblings both families (L217), per-family gradient monotone 3/3 (L21
 within-reader quality adversary survived 5/8 (L219), the option-length adversary survived
 and sharpened (+0.087, L220).
 
+**Program exhausted 2026-08-27 05:07 (validator: 73 cells resolved, 72/48 valid
+attempts, 0 GPU-h remaining).** The last thirteen cells landed overnight inside the first
+second-gear window; the until-empty chain (built 08-26 on his no-check-in order) ended on
+its own. Written through as L222-L234. The adversarial matrix closed four survived, one
+killed: XV1, XV2, XV3, XV5 survived; XV4 killed the transmission-carrier claim (L184
+retracted; three sequence scalars reach 3/4 and length-matching drops the representation
+read to 2/4), so the L trunk stands as a complete null. The theory-citation completeness
+pass found twenty Stage-3 entries uncited and closed every one that was a filing gap
+(L178, L204, L210-L213, L218, L221; the instrument entries confirmed in TOOLS; the rest
+covered by range citations). L178's adapter count corrected in place (six of eight, not
+seven). Build and results committed and pushed on his one-time order (6feda02, 858f83a).
+The week's-end replicate step ran the same morning: the three expansion contrasts
+hold on the reserve quarter alone (L235). Assessment pending on the curator packet.
+The Stage-4 handoff (SOUNDING_LINE_STAGE_4_CONTEXT.md, reviewed commit 858f83a) arrived
+the same day; its own-family-aggregation audit item verified true in code and was
+recomputed at once (L236): the reversal stands in all three families at p=5e-5 with Qwen
+a fifth smaller, and the reserve confirms three of three.
+
+## Stage 4 (his build order 2026-08-27; brief at PHASE_2_4_STAGE_4_CONTEXT.md)
+
+**Order:** build everything in the run, follow the method shelf, set it to run until
+complete. Decisions taken by default from the brief where he did not rule: final-only
+packet with internal write-through continuing; first gear preserved (lock waits and his
+use of the card count inside the window, and are reported); the Stage-3 packet is
+superseded by the integrity card and the final packet; the escalation reader is
+downloaded lazily only if both readers fail the I02 gate.
+
+**Architecture (one shared schema module, one runner helper, one world module, track
+runners, one scheduler):**
+
+| file | holds |
+|---|---|
+| `soundingline/s4.py` | contract with persisted start/deadline, lineage allocator (split by allocation before scoring), manifest with execution states and outcome classes, row provenance schema, GPU-lock-held metering beside elapsed, completion markers with hashes, coverage and claim ledger, the packet guard |
+| `runners/s4_lib.py` | pinned reader loading (one model at a time), normalized-likelihood readout with option-order randomization and tokenization checks, the strict JSON parser, generation with raw storage, proper scores and cluster bootstrap, the steering helpers reused from the A02 recipe |
+| `runners/s4_worlds.py` | constructors: C commissions with a stored constraint graph, A paired appraisal cases, T decision lessons with payoffs and selection rules, H01 relay chains, H02 weight-mixture histories; realization checks per factorial cell |
+| `runners/s4_run_{i,c,a,t,h,p,f}.py` | the 18 cards |
+| `runners/s4_scheduler.py` | prepare, calibrate (discarded pilot), run (continuous, resumable, deadline persisted, closure at hour 20), validate, final-packet |
+| `runners/validate_stage4_program.py`, `tools/test_s4.py` | the eleven verification requirements as tests and the read-only validator |
+
+*Table: the Stage-4 implementation map. Output root `results/phase_2_4_stage_4/`.*
+
+**Build log.** 2026-08-27: handoff moved to docs/design; the S-trunk aggregation
+correction landed ahead of the run (L236). All eighteen cards, the schema module, the
+runner helper, the world constructors, the scheduler, the validator, and the eleven
+verification guards (`tools/test_s4.py`, all passing) were built the same day, then the
+whole machinery ran end to end on a scratch root at three units per cell (`S4_ROOT`,
+`S4_SMOKE`) before the contract clock started. The smoke found nine defects the unit
+tests could not see, every one repaired on the discarded lineage: the gate battery was
+empty by construction (a probability floor no draw met); the reader gate measured the
+science (axis abstraction, every reader near 0.35) instead of the instrument (a repeated
+recorded decision, both readers admitted at 0.875 and 1.0, the abstraction number kept
+beside it); the dose ladder chose its largest capability-tolerated dose without the
+controls in the loop (Qwen's shuffled direction moved valence at three times Stage 3's
+dose; with the controls per rung and Stage 3's fit seeds the handle reproduces L197 to
+the digit); the expected-gain formula weighted the target by the maker's true
+distribution and came out negative everywhere (replaced by the mutual information, and
+probes made pairs so 80 percent of menus clear a 0.02-nat margin); the readout's label
+alphabet stopped at four options; the raster size did not divide the canvas; the plan
+parser rejected nested and three-of-four plans; the freeze step could never be started
+by either loop; the validator's control cells were unmapped. The escalation reader
+(Qwen2.5-3B-Instruct) was downloaded by the predeclared clause during the smoke and
+failed the same abstraction battery as the others.
+
+**Validation pass, 2026-08-27 evening (his order: a manual read-through of every queued
+test for construction mistakes before the clock starts).** Twenty-eight defects the guard
+tests and the card-by-card smoke had not seen, every one repaired before launch. In the
+constructions: the step question had two right answers in the two-blocked-step worlds;
+A02's target 'next choice' was drawn from a hash, so no reader could have predicted it
+and the bridge test would have measured noise (now a known answer set by the fact state
+and the maker's revealed risk preference, crossed with the appraisal sign inside three of
+the four answers); T01's benefit and induce messages were identical whenever the
+recipient's tag was the good one, and a benefit source under a false rule contradicted
+its own rule (intent is now realized in every world; the goal question's truth is the
+label the message plus the revealed outcome can support, 'cannot be told' where mistaken
+and lying sources are indistinguishable); T02's prior source records showed the current
+kind's pool with outcomes, handing every route the answer (records are now on other
+kinds, and pools carry stochastic outcomes so an inducing source has good lots of the
+recipient's own tag to cherry-pick); H02's five histories drew different axes per type,
+so its 'exact collision' pair was not one; C01's incorrect bundle could share the true
+patron lean; A01's enactment check was an exact past-tense string (2 of 6 realized; now
+inflection-free action families); T03's technique cue rode false claims only, a string
+match for falsity (now three in four false and one in four true); H01's hop-0 prompt put
+the floor's number on the example's first key (realization 3 and 2 of 6; the example now
+leads with the constrained key at its floor, and the local elaboration is verified at hop
+0). In the estimands and routes: C02 gave the own profile to one route only and its
+summary route dropped the observations (every route now sees the same head, both two-pass
+routes see head plus note); C02's category-error type used the true lean under the
+misleading prior; C03's position bookkeeping recorded the pre-shuffle order; C03's
+primary was the realized gain, which a restated redundant answer moved by 0.9 nats (now
+the exact selection score, realized gain reported apart, the redundant answer points at
+the record); A01's primary was raw accuracy minus 0.25, which a constant answer passes at
+0.5 on the valuation question (now balanced); A02's aligned benefit was signed by the
+target only and its mean carried a main effect through the two-to-one appraisal-sign
+imbalance (now sign of steering times sign of appraisal times delta, stratum-balanced,
+in A02, A03, and F01 alike); T02's two-pass summary route lost the head; H01's computed
+primary was one cell's decay while the frozen contrast is shared minus remapped. In the
+machinery: the pilot cell wrote no verdict under its manifest produce path, so the loop
+would have failed it three times and blocked every downstream card; the closure block
+waited for every discovery cell before F01 and declared exhaustion afterwards (F01 now
+runs first at hour 20 and admitted work resumes to the deadline); an H03 metrics file
+died on a numpy integer. The loop itself had never run in the first smoke (every manifest
+cell still PLANNED with zero attempts); a second smoke drove the scheduler end to end on
+a scratch root under a compressed window and found in its first second that the
+scheduler read two constants from a module that did not hold them. Its receipts then
+found seven more: the loop held the contract object it loaded at start-up, so the
+design the freeze wrote to disk was never seen (deferred cards ran, no expansion rung
+was admitted) and a lost-time record would have saved the stale object back over the
+frozen design, stripping every later card of its readers (the loop now reloads the
+contract before every decision and after every cell); cards and the loop both wrote
+the manifest (one writer now); the deferral loop under PARTIAL_BUDGET could defer the
+freeze cell itself (integrity cards are never deferrable); H01's example plan summed to
+1.01, so a maker that copied it fell 0.0035 short of its floor (23 of 44 attempts
+unrealized; the example is now itself a realized plan carrying the local preference);
+C03's exact selection score in nats could never reach the 0.03-nat bar (the informative
+probe is worth about 0.03), so the primary is the brief's own fraction of oracle gain
+captured minus the random third, threshold 0.05; T01's readers echoed the message's
+advice on 99 percent of novel cases, so the novel lot now always carries the other tag
+and the support is a worked action mapping (if they still echo, the card reports
+copying, as the brief provides); and the pilot's lock-held minutes were read before
+the session closed. Guards 12 to 14 in `tools/test_s4.py` now cover the balanced
+interaction, the constructions' known answers, and the pilot produce path. Launched
+under second gear (his call) once a third loop smoke ran clean end to end, at
+2026-08-27 22:22:50, deadline 2026-08-28 22:22:50.
+
+**In-run repairs, first hour.** The freeze cell's first attempt died on a Windows sharing
+violation while a CPU card held the lineage file open (the loop's retry carried it; the
+JSON writer now retries the replace for five seconds), and a restart would have left a
+killed card RUNNING forever (the loop now re-plans RUNNING cells at start; neither change
+reaches the live scheduler process, both reach every card subprocess and any restart).
+The two physical cards landed on estimands that were not the frozen ones: P01 paired raw
+correctness where its primary is balanced accuracy (the majority quadrant is 60 percent of
+drawings), and P02's comparator was the per-drawing better of two heuristics, an oracle
+over heuristics, where the estimand names the geometry heuristic. Both were recomputed in
+the live root with the first outputs preserved (superseded_first_estimand/): P01 moved
+from SUPPORT_CANDIDATE to INCONCLUSIVE, P02 stayed SUPPORT_CANDIDATE at a larger margin
+(L237, L238). The manifest's outcome tally for the two keeps the first landing (the loop
+is its one writer); the verdict files the closure block reads carry the repaired ones. A02's
+receipt showed the validator counting its own-choice control (rows that carry a probability
+vector and no score by design) as under floor; control cells now count their valid rows
+(the read-only validator and any restart carry the fix; the live loop's closure coverage
+will list that one cell under floor, and the analyst's packet notes it). **His standing
+ruling of 2026-08-28 morning, second gear has no time window and runs until the queue is
+empty, was written into the engine the same hour:** the contract's deadline became
+accounting (a contract stops at its deadline only if it says so), the closure block begins
+on exhaustion of the admitted work and the ladder, the run label is RUN_TO_EMPTY with the
+elapsed hours beside it, and the loop was restarted mid-T01 to carry the rule (T01 resumed
+from its rows). Two more repairs rode along: the confirmation card's P runners now evaluate
+the reserve drawings when F01 opens them (they had ignored the split and would have
+re-scored discovery), and the eligibility rule now computes precision for the two level
+estimands that can be candidates (A01 per world, P02 per drawing), which had been ineligible
+by construction.
+
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 
 Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after

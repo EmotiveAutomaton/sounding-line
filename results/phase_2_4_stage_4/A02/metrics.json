@@ -1,0 +1,623 @@
+{
+ "card": "A02",
+ "written_at": "2026-08-28T02:35:20",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "handles": {
+  "Qwen/Qwen2.5-1.5B-Instruct": "ANCHOR-STANDS",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": "ANCHOR-STANDS"
+ },
+ "table": {
+  "pos|low|low": {
+   "aligned_benefit": {
+    "point": 0.07874554096774902,
+    "lo": 0.01129899890279571,
+    "hi": 0.14918126710269913,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.005651181211720038,
+    "lo": -0.07468159571452926,
+    "hi": 0.06452294581958412,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "pos|low|high": {
+   "aligned_benefit": {
+    "point": -0.05702343284527782,
+    "lo": -0.11858325090127766,
+    "hi": 0.002155992291336386,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.16070894048703535,
+    "lo": -0.2167218444626225,
+    "hi": -0.10220253391642964,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "pos|high|low": {
+   "aligned_benefit": {
+    "point": 0.19778306968064666,
+    "lo": 0.06497848517548432,
+    "hi": 0.3315669539715644,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.022310069565133588,
+    "lo": -0.14826843668463166,
+    "hi": 0.09691565458851832,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "pos|high|high": {
+   "aligned_benefit": {
+    "point": -0.04378429321208201,
+    "lo": -0.14566499751568313,
+    "hi": 0.06049190400982639,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.2956980516049948,
+    "lo": -0.37752297133300106,
+    "hi": -0.210345192025262,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "neg|low|low": {
+   "aligned_benefit": {
+    "point": -0.05371914954525874,
+    "lo": -0.14100848288432738,
+    "hi": 0.029463336917807365,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.09044194581381844,
+    "lo": -0.17638273733500878,
+    "hi": -0.004757404415708898,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "neg|low|high": {
+   "aligned_benefit": {
+    "point": -0.06671126103499508,
+    "lo": -0.14843350640415034,
+    "hi": 0.007205796930846671,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.02198071011347672,
+    "lo": -0.10206103973101933,
+    "hi": 0.05630420995633467,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "neg|high|low": {
+   "aligned_benefit": {
+    "point": -0.04561924022924447,
+    "lo": -0.19013279582671375,
+    "hi": 0.0928296991075866,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.3164213525356522,
+    "lo": -0.4512844940047427,
+    "hi": -0.1908578853672529,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "neg|high|high": {
+   "aligned_benefit": {
+    "point": 0.0691562934635219,
+    "lo": -0.05078211577724864,
+    "hi": 0.17924401795183267,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.27188011733332285,
+    "lo": -0.38034869481035277,
+    "hi": -0.1674475134008701,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "random|low|low": {
+   "aligned_benefit": {
+    "point": 0.02288331348429354,
+    "lo": -0.009778849029182874,
+    "hi": 0.055153175771326834,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": 0.11886713864670287,
+    "lo": 0.09390383491709896,
+    "hi": 0.14415666168378843,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "random|low|high": {
+   "aligned_benefit": {
+    "point": 0.08156225793526817,
+    "lo": 0.046302530766270854,
+    "hi": 0.11832336117855248,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": 0.1137382764540728,
+    "lo": 0.0812951789650853,
+    "hi": 0.14546360672790912,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "random|high|low": {
+   "aligned_benefit": {
+    "point": 0.05886664951594597,
+    "lo": -0.01386668158103273,
+    "hi": 0.13348427839280688,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": 0.27086204909063144,
+    "lo": 0.21617741354111114,
+    "hi": 0.325413797897115,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "random|high|high": {
+   "aligned_benefit": {
+    "point": 0.16563352879629004,
+    "lo": 0.09359330420043184,
+    "hi": 0.2388893997709128,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": 0.23093094546803813,
+    "lo": 0.16426577011293453,
+    "hi": 0.296881665540463,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "shuffled|low|low": {
+   "aligned_benefit": {
+    "point": -0.010677580582357018,
+    "lo": -0.05305340194547566,
+    "hi": 0.03405333054204531,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.09509019749138467,
+    "lo": -0.13773562600750575,
+    "hi": -0.05029838400034725,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "shuffled|low|high": {
+   "aligned_benefit": {
+    "point": 0.055416972081444596,
+    "lo": 0.020249882409504625,
+    "hi": 0.09346005270424451,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": 0.015433321307648445,
+    "lo": -0.021983287801326138,
+    "hi": 0.05032765616143605,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "shuffled|high|low": {
+   "aligned_benefit": {
+    "point": -0.0008350798622809134,
+    "lo": -0.08966620498306777,
+    "hi": 0.09276419667172729,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.18480548292108967,
+    "lo": -0.2709720158312712,
+    "hi": -0.09717862093545444,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  },
+  "shuffled|high|high": {
+   "aligned_benefit": {
+    "point": 0.09498088211824932,
+    "lo": 0.02188509408075129,
+    "hi": 0.1707753259924704,
+    "n_units": 128,
+    "n_boot": 2000
+   },
+   "main_effect": {
+    "point": -0.006300334028785671,
+    "lo": -0.08262808174208995,
+    "hi": 0.06403055307127854,
+    "n_units": 128,
+    "n_boot": 2000
+   }
+  }
+ },
+ "primary_aligned_benefit_pos_high_high": {
+  "point": -0.04378429321208201,
+  "lo": -0.14566499751568313,
+  "hi": 0.06049190400982639,
+  "n_units": 128,
+  "n_boot": 2000
+ },
+ "aligned_benefit_both_signs_high_high": {
+  "point": 0.012686000125719948,
+  "lo": -0.050193578639204144,
+  "hi": 0.07536250612299548,
+  "n_units": 128,
+  "n_boot": 2000
+ },
+ "strata_by_truth_option": {
+  "do nothing further": {
+   "point": -0.5006758991833914,
+   "lo": -0.6982670653169809,
+   "hi": -0.32435779163639183,
+   "n_units": 25,
+   "n_boot": 2000
+  },
+  "reopen after a look": {
+   "point": 0.14708527137824717,
+   "lo": -0.035381229441966346,
+   "hi": 0.35033525054045916,
+   "n_units": 42,
+   "n_boot": 2000
+  },
+  "post a warning and wait": {
+   "point": -0.22008990981810797,
+   "lo": -0.3978821798828789,
+   "hi": -0.047414297347132345,
+   "n_units": 31,
+   "n_boot": 2000
+  },
+  "order a full repair": {
+   "point": -0.15655046987859286,
+   "lo": -0.34977786237778274,
+   "hi": 0.02820447179689378,
+   "n_units": 30,
+   "n_boot": 2000
+  }
+ },
+ "own_choice_shift": {
+  "pos": 0.18113228094902664,
+  "neg": 0.20050574792067605
+ },
+ "sign_balance": {
+  "negative_units": 42,
+  "positive_units": 86
+ },
+ "a01_enacted_usable": true,
+ "cell_counts": {
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"zero\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"low\", \"evidence\": \"low\", \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"low\", \"evidence\": \"low\", \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"low\", \"evidence\": \"low\", \"intervention\": \"random\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"random\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"low\", \"evidence\": \"low\", \"intervention\": \"shuffled\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"shuffled\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"zero\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"low\", \"evidence\": \"high\", \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"low\", \"evidence\": \"high\", \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"low\", \"evidence\": \"high\", \"intervention\": \"random\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"random\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"low\", \"evidence\": \"high\", \"intervention\": \"shuffled\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"shuffled\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"dose\": null, \"evidence\": null, \"intervention\": \"zero\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 0,
+   "scored_units": 0
+  },
+  "{\"domain\": \"workshop\", \"dose\": null, \"evidence\": null, \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 0,
+   "scored_units": 0
+  },
+  "{\"domain\": \"workshop\", \"dose\": null, \"evidence\": null, \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 0,
+   "scored_units": 0
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"zero\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"low\", \"evidence\": \"low\", \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"low\", \"evidence\": \"low\", \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"low\", \"evidence\": \"low\", \"intervention\": \"random\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"random\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"low\", \"evidence\": \"low\", \"intervention\": \"shuffled\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"low\", \"intervention\": \"shuffled\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"zero\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"low\", \"evidence\": \"high\", \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"low\", \"evidence\": \"high\", \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"low\", \"evidence\": \"high\", \"intervention\": \"random\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"random\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"low\", \"evidence\": \"high\", \"intervention\": \"shuffled\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": \"high\", \"evidence\": \"high\", \"intervention\": \"shuffled\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"dose\": null, \"evidence\": null, \"intervention\": \"zero\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 0,
+   "scored_units": 0
+  },
+  "{\"domain\": \"civic\", \"dose\": null, \"evidence\": null, \"intervention\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 0,
+   "scored_units": 0
+  },
+  "{\"domain\": \"civic\", \"dose\": null, \"evidence\": null, \"intervention\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 0,
+   "scored_units": 0
+  }
+ }
+}

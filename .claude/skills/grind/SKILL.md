@@ -38,7 +38,8 @@ landed. Late sessions skip steps; this list exists so they don't.
   need it) is the DEFAULT whenever he is talking at all regularly, and the mode for when he
   wants the machine. Second gear (`run_second_gear.sh`, sharded, as much CPU and GPU as the
   work can take) only when he explicitly calls for it, **loaded with about a day's worth of
-  analyses ahead of time**. Never shift to second gear on inference; he calls the gear.
+  analyses ahead of time, and with no time window: it runs until the queue is empty (his
+  standing ruling, 2026-08-28)**. Never shift to second gear on inference; he calls the gear.
 - If nothing is running and the queue has stages, find out why before anything else.
 
 ## 3. Gather landings
@@ -73,8 +74,8 @@ landed. Late sessions skip steps; this list exists so they don't.
 ## 6. Refill
 
 - Keep the queue loaded to the gear: second gear carries about a day's worth of analyses ahead
-  of time, first gear four to eight hours of light stages. Produces-guarded stages only;
-  underestimate runtimes by 2-3×.
+  of time and runs until the queue is empty (no window), first gear four to eight hours of
+  light stages. Produces-guarded stages only; underestimate runtimes by 2-3×.
 - Phase order comes from the plan at the head of `TODO.md`; recreations pass only on exact
   published values.
 - **Before building or extending any runner, re-read `docs/method/LESSONS.md` §3 to §5**

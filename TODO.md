@@ -29,7 +29,59 @@ method sketch and its gate.
 
 ## Phase 0 — running or just landed
 
-**Stage 3 (E24-S3, the week-long inversion forest): 61 of 73 manifest cells resolved, the rest running (2026-08-26).** 50 LANDED, 9 INSTRUMENT_FAILED (all informative), 2 RESOURCE_BLOCKED, 12 BUILT and in the queue: the frozen-ladder expansions L01/X1, S02/X1, V04/X4, E03/X1, E03/X4, C01/X4, D01/X1, A06/X4, S05/X3 and the adversaries XV2/XV3/XV4 (XV1 and XV5 already survived, L219/L220; H03's parquet retry rides with them). Validator green, 59/48 valid attempts; PROGRAM-EXHAUSTED still requires the 12 open cells to resolve. Every result is written through as L171-L221 with theory rows and the multiplicity audit rerun. Queue: second gear 3 shards since 08-26 05:06 (24h windows chained until the queue is empty by the regear waiter; no renewal check-in is owed); the L01/X1 six-seed generation holds the GPU (11 of 12 files at 10:52, ~66 min per seed against a 240-min estimate, the day's calibration 1.65x), the S02/X1 cohort-2 chain and all twelve expansion stages serialize behind it. Forecast at observed rates: queue empty 08-27 midday to late afternoon; manifest budget ceiling 08-28 morning. Then the S07 confirmation re-run with the X fills, the week's-end freeze/replicate/synthesize pass, and the final two-pass curator packet. H08 protocol and V07 case-study spec are LANDED as documents (prepare-only). All work LOCAL: the CLAUDE.md freeze line (his 08-24 order, stated lift 17:00 that day) is still present 08-26, so nothing is committed; the accumulated batch goes up, locks verified, once he removes the line.
+**Stage 4 (context, appraisal, selective uptake) is RUNNING under second gear since
+2026-08-27T22:22:50 (deadline 2026-08-28T22:22:50) on his order, after the build, the card-by-card
+smoke, and the manual validation pass he ordered (twenty-eight construction and loop
+defects repaired, three loop smokes, receipts in the registry build log); brief at
+docs/design/PHASE_2_4_STAGE_4_CONTEXT.md.** Eighteen cards, one continuous 24-hour window
+with the deadline persisted in results/phase_2_4_stage_4/RUN_CONTRACT.json, closure block
+from hour 20 (F01 first, admitted work and the expansion ladder resume to the deadline),
+one final curator packet at the deadline (the machine draft, then the analyst's
+synthesis). Landings write through internally as they come; no interim chat reports by
+the brief's contract. Known instrument risks carried into the run, each with its
+honest outcome class: T01's readers echoed the advice on every novel case in the smoke
+(copying, INSTRUMENT_FAILED on the support gate); C03's readers chose the redundant
+probe three times in four (a selection COUNTEREVIDENCE); T03's technique lesson made the
+readers reject everything (a criterion shift, VALID_NULL).
+Landed so far, written through internally with no interim chat packet by the brief's
+contract: I01 (the audit receipt; L236 verified to the digit), P01 (L237, INCONCLUSIVE on the
+frozen balanced estimand after an in-run estimand repair, first verdict preserved), P02
+(L238, SUPPORT_CANDIDATE, +0.20 over the longest-stroke rule), C01 (L239, INCONCLUSIVE:
++0.10 nats for the bundle over the same facts, and a wrong bundle costs nothing), H03 (L240,
+COUNTEREVIDENCE: the edit's text forecasts the next intention boundary 0.011 under duration
+and persistence alone, five projects), C02 (L241, COUNTEREVIDENCE: six records after a
+misleading prior lower the score by 0.20 nats; the readers do not correct), A01 (L242,
+SUPPORT_CANDIDATE: valuation and aim recovered +0.14 over the floor, crossed; enacted source
+usable at 0.86 realization; no abstention when the fact is withheld), A02 (L243, INCONCLUSIVE
+with loud controls: aligned benefit -0.04 nats, own-choice shift 0.2; the bridge is unbuilt),
+T01 (L244, SUPPORT_CANDIDATE: a worked action mapping lifts as-taught learning +0.16 in both
+strata, true and false rules alike; the advice is followed 98 times in 100 regardless). The scheduler's manifest
+keeps the first outcome tally for P01 and P02 (one writer, the loop); the verdict files on
+disk, which the closure block and the packet read, carry the repaired ones.
+
+**Stage 3 (E24-S3, the week-long inversion forest) is PROGRAM-EXHAUSTED (2026-08-27 05:07, validator-confirmed).** 73 cells: 61 LANDED, 11 INSTRUMENT_FAILED (all informative), 1 RESOURCE_BLOCKED (H07, no OpenReview mirror); 72 of 48 required valid attempts; 0 GPU-hours remaining. Every result is written through as L171-L235 with theory rows, the tools ledger, five new method lessons, and the multiplicity audit rerun; the theory-citation completeness pass of 08-27 closed every filing gap it found (L178, L204, L210-L213, L218, L221 added to their rows; L184 retracted by its adversary, L226). The queue drained inside one second-gear window and the until-empty chain ended on its own; gear is idle. Build and record committed and pushed 2026-08-27 (6feda02, 858f83a); the 08-27 write-through goes up in the next commit. The reserve-quarter refresh landed (L235: all three expansion contrasts hold on the untouched quarter). Remaining before his assessment: the final two-pass curator packet; then the program waits on his read. H08 protocol and V07 case-study spec stand LANDED as documents (prepare-only).
+
+**RE-RUNS OWED BY THE STAGE-4 THEORY ERRATA (2026-08-28, `docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md`).**
+The errata's audit corrections are applied to the theory files, which means six claims are now
+stated at the strength their measurements actually support. Five of them are recoverable by
+re-running with the defect fixed; each needs its runner arm written or corrected first, and none
+can start until Stage 4 releases the GPU. **No Stage-3 artifact is corrupt**: the completion
+validator (H4) reads 72 of 73 produces intact, the one absent file belonging to M02, which is
+INSTRUMENT_FAILED with a recorded reason and zero GPU minutes and so never had a verdict to write.
+These are method defects, not data loss. Preserve every original output; each re-run writes to a
+new produces path.
+
+| | re-run | the defect, and what would settle it |
+|---|---|---|
+| **R1 · S05/X3 eraser rung** (blocks the strongest G172 claim) | `s3_run_s.py --arm s05x3` with the realization yield raised | The OLMo eraser retained **88 of 250** artifacts (162 dropped unrealized) and SmolLM's surviving n = 31 sits **below its own declared survivor floor of 40**, so the attenuation-to-zero read is confounded with attrition and one arm was never powered. Fix: more generation attempts per artifact, realization gate unchanged, until both families clear floor 40. Null: own-minus-other 0 under a stake-free eraser. Alternative: a positive own-family margin survives. Direction: the through-eraser claim dies if the margin stays at zero **with both families above floor**, which is the thing the current run cannot say. GPU |
+| **R2 · HH-25 wish override** (L213/L214/L231) | the stored-readout arm, re-run persisting raw generations | The raw generations were never saved and a phrase-matching parser stood in for them, so compliance, answer contamination, task confusion, and extraction error are all unresolved behind the 40/48 and 45/47 numbers. Fix: persist every generation, replace the parser, report refusal and contamination as separate cells. Until then the psychological reading is instrument-dead, not evidence about belief adoption. GPU |
+| **R3 · H04-S3 uptake decision unit** (L207) | the uptake scorer, re-run at the individual-suggestion grain | A dismissed set of five suggestions was represented by its first suggestion, which is not the same decision unit as an individually selected one, so AUC 0.499 does not measure what the card asked. Fix: score individually selected against individually dismissed suggestions. CPU |
+| **R4 · L01-L05 carrier** (XV4) | the carrier comparison on an adequate held-out set | The adversary and length-matched reads (3/4 and 2/4) sit on a held-out set too small to separate a real carrier from none, so neither carrier absence nor an uptake-only failure is established. The uptake null itself stands and does not need re-running. GPU |
+| **R5 · A07-S3 bridge** (L202) | the owed held-out maker prediction | Own-impulse steering was measured; prediction of a held-out maker never was, so the affect-to-inversion bridge is OPEN by omission rather than by result. GPU |
+| **R6 · H05-S3 cross-act claim** (L174) | **blocked on corpus** | ArgRewrite spreadsheet order is not a chronological edit stream, so the 0.394 result cannot support "goals persist within acts and switch between acts." The claim is retracted in theory; reinstating it needs a corpus with real edit chronology. Not queueable as-is |
+
+**Also owed, documentation not compute:** the XV3 and XV4 audit observations need linked method
+receipts before their numbers may enter canonical theory (errata §4).
 
 | | study | state |
 |---|---|---|

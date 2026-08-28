@@ -42,6 +42,9 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 PY = str(REPO / ".venv" / "Scripts" / "python.exe")
 STATUS = REPO / "results" / "queue_status.json"
+sys.path.insert(0, str(REPO))
+
+from soundingline import completion                               # noqa: E402
 
 
 def _status_path():
@@ -2557,6 +2560,14 @@ STAGES += [
      "produces": f"{S3R}/S/S02/cohort2.json",
      "needs": [f"{S3R}/S/S02/verdict_c2.json"],
      "why": "E24-S3-S02/X1 finalizer: cohort-2 vs cohort-1 recovery comparison"},
+    {"name": "s3x_s07x", "est": 5,
+     "cmd": [PY, "runners/s3_run_x.py", "--arm", "s07x"],
+     "produces": f"{S3R}/S/S07/xfills.json",
+     "needs": [f"{S3R}/S/S01/siblings.json", f"{S3R}/S/S03/family3.json",
+               f"{S3R}/X/XV1_verdict.json"],
+     "why": "S07 refresh: the three expansion contrasts recomputed on each side of "
+            "the frozen md5 split (the landed arms pooled both); analysis-only, the "
+            "week's-end replicate step"},
 ]
 
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained
@@ -2594,13 +2605,69 @@ _GPU_HEAVY_NAMES = {"nomaker2_gen", "nomaker_ds_gen", "g153_gen_qwen", "g153_gen
                     "scout_mx_norm", "scout_mx_para_qwen", "scout_mx_para2",
                     "scout_mx_para_qwen2", "scout_mx_origL", "scout_mx_fam2L",
                     "g177_sw_validation", "g177_sw_nongen", "scout_p_gen", "scout_p_read", "scout_geo_capture", "scout_p_self", "scout_geo_capture_n", "scout_s8", "scout_a_decode", "scout_a_causal", "g177_anchor_context", "scout_p_pilot"}
+# ── resource declaration (H2) ────────────────────────────────────────────────────────────────
+#
+# 2026-08-28: twenty-one `s3x_` stages -- including `s3x_l01_gen712` (a 240-minute generation
+# arm) and three train/probe arms -- fell outside `_GPU_HEAVY_PREFIXES`, because the prefix is
+# `s3_` and `s3x_` does not start with it. First gear's `--no-gpu` route therefore did NOT hold
+# them: the curator's card said those wait for second gear, and the code disagreed. The three
+# `activation_variance*` stages had the same gap (`run_activation_variance.py` defaults to
+# `--device cuda`).
+#
+# Two changes beyond adding the missing names:
+#
+#   * every stage now carries an explicit `resource` in a validated vocabulary, asserted at
+#     import. A stage with no resolvable resource is a load-time error, not a silent CPU stage.
+#   * `RESOURCE_OVERRIDE` declares resource BY PRODUCES-PATH, not by name. H2's rule is that a
+#     rename must not change resource permission; a name-keyed table breaks that rule the moment
+#     someone renames a stage, which is exactly how the `s3x_` gap opened.
+#
+# Authorization is never inferred from an available GPU, a server profile, or a previous
+# session. `--no-gpu` holds everything not declared `cpu`.
+
+RESOURCES = ("gpu", "cpu")
+
+# Declared by produces-path so a rename cannot move a stage between resource classes.
+RESOURCE_OVERRIDE: dict[str, str] = {}
+
 for s_ in STAGES:
     if s_["name"].startswith(_GPU_HEAVY_PREFIXES) or s_["name"] in _GPU_HEAVY_NAMES:
         s_["gpu"] = True
 
+# s3x_ expansion arms: same runners as s3_, all of which load a model onto cuda
+# (s3_run_x.py acquires the gpu lock and calls .to("cuda") directly).
+for s_ in STAGES:
+    if s_["name"].startswith("s3x_") or s_["name"].startswith("activation_variance"):
+        s_["gpu"] = True
+
+for s_ in STAGES:
+    declared = RESOURCE_OVERRIDE.get(s_["produces"])
+    if declared is not None:
+        assert declared in RESOURCES, f"{s_['name']}: illegal resource {declared!r}"
+        s_["resource"] = declared
+        s_["gpu"] = declared == "gpu"
+    else:
+        s_["resource"] = "gpu" if s_.get("gpu") else "cpu"
+
+_bad_res = [s_["name"] for s_ in STAGES if s_.get("resource") not in RESOURCES]
+assert not _bad_res, f"stages with no declared resource: {_bad_res}"
+
+
+def gpu_eligible(stage: dict, allow_gpu: bool) -> bool:
+    """The ONE eligibility check, shared by first gear, second gear, and manual launch.
+
+    Conservative on anything unknown: a stage whose resource is missing or outside the
+    vocabulary is treated as GPU work and held, never run.
+    """
+    if allow_gpu:
+        return True
+    return stage.get("resource") == "cpu"
+
 _prods = [s_["produces"] for s_ in STAGES]
 _shared = sorted({q for q in set(_prods) if _prods.count(q) > 1})
 assert not _shared, f"stages share a produces path: {_shared}"
+
+
 
 
 def rel(p: str) -> Path:
@@ -2619,34 +2686,129 @@ def _lock_path() -> Path:
     return LOCK if SHARDS == 1 else LOCK.with_suffix(f".{SHARD}of{SHARDS}.lock")
 
 
-def _claim_lock() -> bool:
-    """Refuse to start if another queue is already running.
+# ── the queue lock (H1) ──────────────────────────────────────────────────────────────────────
+#
+# 2026-08-07: two loops ran concurrently for twelve minutes, both executing the same stage and
+# both writing the same output file. **That is a correctness risk, not a waste of cycles** -- the
+# loser's partial write can land on top of the winner's result.
+#
+# The first fix (check `exists()`, then write the pid) had two defects of its own, both found
+# 2026-08-28 and both repaired here:
+#
+#   1. check-then-write is not atomic. Two processes could both see no lock and both write one.
+#      Acquisition is now a single O_CREAT|O_EXCL create, which the OS serializes.
+#   2. `_release_lock` ran unconditionally in main's `finally`, so the process that was REFUSED
+#      the lock deleted the lock belonging to the process that held it -- the exact outcome the
+#      lock exists to prevent, reached by the refusal path. Release is now owner-checked: a
+#      process that never acquired releases nothing, and a stale token cannot release a newer
+#      lock.
+#
+# Identity is (pid, process-create-time, host, token). The create-time defeats PID reuse: a
+# recycled pid running some unrelated program is not the owner. Unknown ownership -- an
+# unreadable lock, a malformed one, or one held on another host -- HOLDS the launch rather than
+# clearing it, because deleting a lock whose owner cannot be checked is how the 08-07 double-run
+# happened in the first place.
+#
+# FILESYSTEM ASSUMPTION: this is a local-filesystem lock. O_EXCL is atomic on NTFS and on local
+# POSIX filesystems. It is NOT claimed to be safe on arbitrary network filesystems (NFSv2/v3
+# without a lock daemon, and some SMB configurations, do not give O_EXCL the needed semantics).
+# results/ is local on every machine this project runs on; if that ever stops being true this
+# needs a different primitive, not a longer timeout.
 
-    On 2026-08-07 two loops ran concurrently for twelve minutes, both executing the same stage and
-    both writing the same output file. **That is a correctness risk, not a waste of cycles** — the
-    loser's partial write can land on top of the winner's result. A stale lock from a killed process
-    is cleared automatically, because a queue that refuses to start is worse than one that races.
-    """
-    import os                                                         # noqa: PLC0415
+_LOCK_TOKEN: str | None = None          # set ONLY by the process that actually acquired
+
+
+def _proc_identity(pid: int) -> tuple[float | None, str | None]:
+    """(create_time, name) for a live pid, or (None, None) if it is gone/unreadable."""
+    try:
+        import psutil                                                 # noqa: PLC0415
+    except ImportError:                                               # pragma: no cover
+        return None, None
+    try:
+        pr = psutil.Process(pid)
+        return pr.create_time(), pr.name()
+    except Exception:                                                 # noqa: BLE001
+        return None, None
+
+
+def _owner_state(rec: dict) -> str:
+    """alive | exited | pid_reused | foreign_host | unknown."""
+    import socket                                                     # noqa: PLC0415
+    if not isinstance(rec, dict) or "pid" not in rec or "token" not in rec:
+        return "unknown"
+    if rec.get("host") and rec["host"] != socket.gethostname():
+        return "foreign_host"
+    ct, _name = _proc_identity(int(rec["pid"]))
+    if ct is None:
+        return "exited"
+    recorded = rec.get("create_time")
+    if recorded is None:
+        return "unknown"                    # a live pid we cannot match: do not touch it
+    # create_time is float seconds; psutil's resolution varies by platform, so compare loosely
+    return "alive" if abs(ct - float(recorded)) < 1.0 else "pid_reused"
+
+
+def _read_lock(lk: Path) -> dict | None:
+    try:
+        return json.loads(lk.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def _write_lock_excl(lk: Path) -> str | None:
+    """Atomically create the lock. Returns our token on success, None if it already exists."""
+    import os, socket, time as _t                                     # noqa: PLC0415, E401
+    me = os.getpid()
+    ct, _ = _proc_identity(me)
+    token = f"{socket.gethostname()}:{me}:{_t.time_ns()}"
+    rec = {"pid": me, "host": socket.gethostname(), "create_time": ct,
+           "token": token, "acquired": _t.strftime("%Y-%m-%d %H:%M:%S"),
+           "shard": f"{SHARD}of{SHARDS}"}
+    try:
+        fd = os.open(str(lk), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    except FileExistsError:
+        return None
+    with os.fdopen(fd, "w", encoding="utf-8", newline='\n') as fh:
+        fh.write(json.dumps(rec, indent=1))
+    return token
+
+
+def _claim_lock() -> bool:
+    """Refuse to start if another queue owns this shard's lock. Atomic; owner-tracked."""
+    global _LOCK_TOKEN
     lk = _lock_path()
     lk.parent.mkdir(parents=True, exist_ok=True)
-    if lk.exists():
-        try:
-            pid = int(lk.read_text(encoding="utf-8").strip())
-        except (ValueError, OSError):
-            pid = -1
-        alive = False
-        if pid > 0:
-            try:                                                      # Windows: signal 0 is a probe
-                os.kill(pid, 0)
-                alive = True
-            except OSError:
-                alive = False
-        if alive:
-            print(f"another queue is already running on this shard as pid {pid}. Refusing.")
-            return False
-        print(f"clearing a stale lock from pid {pid}")
-    lk.write_text(str(os.getpid()), encoding="utf-8", newline="\n")
+
+    token = _write_lock_excl(lk)
+    if token is not None:
+        _LOCK_TOKEN = token
+        return True
+
+    rec = _read_lock(lk)
+    state = "unknown" if rec is None else _owner_state(rec)
+    if state == "alive":
+        print(f"another queue owns this shard as pid {rec['pid']} "
+              f"(acquired {rec.get('acquired')}). Refusing.")
+        return False
+    if state in ("foreign_host", "unknown"):
+        # H1: unknown ownership holds the launch. It never clears the lock.
+        who = (rec or {}).get("host", "?") if rec else "unreadable lock file"
+        print(f"lock ownership cannot be verified ({state}: {who}). Refusing, and LEAVING the "
+              f"lock in place. Clear {lk} by hand once you have confirmed nothing is running.")
+        return False
+
+    # exited or pid_reused: the recorded owner is genuinely gone. Clear and retry ONCE --
+    # if two processes race to steal, O_EXCL still lets exactly one win.
+    print(f"clearing a lock whose owner is gone ({state}: pid {(rec or {}).get('pid')})")
+    try:
+        lk.unlink()
+    except OSError:
+        pass
+    token = _write_lock_excl(lk)
+    if token is None:
+        print("another queue claimed the lock first. Refusing.")
+        return False
+    _LOCK_TOKEN = token
     return True
 
 
@@ -2683,8 +2845,10 @@ def main() -> None:
     own = lambda s: int(_hl.md5(s["name"].encode()).hexdigest(), 16) % SHARDS  # noqa: E731
     mine = [s for s in STAGES if own(s) == SHARD]
     if a.no_gpu:
-        held = [s["name"] for s in mine if s.get("gpu")]
-        mine = [s for s in mine if not s.get("gpu")]
+        # one shared eligibility check (H2): held is the complement of eligible, so a stage
+        # can never be both "not held" and "not run"
+        held = [s["name"] for s in mine if not gpu_eligible(s, allow_gpu=False)]
+        mine = [s for s in mine if gpu_eligible(s, allow_gpu=False)]
         if held:
             print(f"[gear1] holding {len(held)} gpu stage(s) for second gear: "
                   f"{', '.join(held)}", flush=True)
@@ -2705,10 +2869,19 @@ def main() -> None:
             print(f"[defer] {name}: waiting on {', '.join(missing)}", flush=True)
             state["stages"].append(entry); save(); continue
 
-        if st["produces"] and rel(st["produces"]).exists():
-            entry["status"] = "SKIPPED (already done)"
-            print(f"[skip ] {name}", flush=True)
-            state["stages"].append(entry); save(); continue
+        # H4: skip only on a READABLE produce. `exists()` alone re-skipped a stage whose
+        # writer was killed mid-JSON forever, and the program validator then counted that
+        # same hole as landed. A malformed produce is re-run, not silently accepted.
+        if st["produces"]:
+            _seen = completion.inspect(rel(st["produces"]))
+            if _seen["status"] == completion.OK:
+                entry["status"] = "SKIPPED (already done)"
+                print(f"[skip ] {name}", flush=True)
+                state["stages"].append(entry); save(); continue
+            if _seen["status"] in completion.BAD and _seen["status"] != completion.MISSING:
+                print(f"[redo ] {name}: existing produce is {_seen['status']} "
+                      f"({_seen['reason']}); re-running", flush=True)
+                entry["prior_produce"] = _seen
 
         log = REPO / "results" / f"{name}.log"
         print(f"[run  ] {name} — {st['why']} (~{st['est']} min)", flush=True)
@@ -2728,11 +2901,16 @@ def main() -> None:
             # visibility immediately after subprocess exit is not trusted bare.
             if entry["status"] == "DONE" and st.get("produces"):
                 for _ in range(20):
-                    if rel(st["produces"]).exists():
+                    if completion.usable(rel(st["produces"])):
                         break
                     time.sleep(0.5)
-                if not rel(st["produces"]).exists():
-                    entry["status"] = "FAILED (exit 0, no produce)"
+                # H4: an exit-zero process with UNUSABLE output is a failure, not a DONE.
+                # Previously only absence counted; a truncated or empty produce passed.
+                _final = completion.inspect(rel(st["produces"]))
+                if _final["status"] != completion.OK:
+                    entry["produce_check"] = _final
+                    entry["status"] = (f"FAILED (exit 0, produce {_final['status']}: "
+                                       f"{_final['reason']})")
         except subprocess.TimeoutExpired:
             entry["status"] = "TIMEOUT"
         except Exception as e:                                        # noqa: BLE001
@@ -2754,8 +2932,25 @@ def main() -> None:
 
 
 def _release_lock() -> None:
+    """Release ONLY a lock this process actually acquired and still owns.
+
+    The bug this replaces (found 2026-08-28): this ran unconditionally from main's `finally`,
+    so a process that was REFUSED the lock still deleted it on the way out -- handing the shard
+    to the next contender while the true owner kept running. A process that never acquired now
+    returns immediately, and a token mismatch (our lock was cleared and re-taken by someone
+    else while we ran) leaves the newer owner's lock alone.
+    """
+    if _LOCK_TOKEN is None:
+        return                                   # we never held it; it is not ours to remove
+    lk = _lock_path()
+    rec = _read_lock(lk)
+    if rec is None:
+        return                                   # already gone, or unreadable: do not guess
+    if rec.get("token") != _LOCK_TOKEN:
+        print(f"not releasing {lk.name}: it is now held by pid {rec.get('pid')}, not us")
+        return
     try:
-        _lock_path().unlink()
+        lk.unlink()
     except OSError:
         pass
 

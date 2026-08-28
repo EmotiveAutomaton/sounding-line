@@ -16,10 +16,13 @@ Judgment-shaped rules (blockquotes are the curator's only, load-bearing order) s
 
 from __future__ import annotations
 
-import json
 import re
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lintio import (EXIT_OK, EXIT_VIOLATION, paths_from_invocation,   # noqa: E402
+                    rel_posix, repo_root)
 
 CONFIDENCE_TERMS = ("untested", "one bad test away", "replicated and controlled",
                     "instrument-dead")
@@ -28,19 +31,14 @@ AFTERWORD_MARKS = ("**What the table says.**", "**What the ledger says.**",
                    "**What these add up to.**")
 
 
-def main() -> None:
-    try:
-        payload = json.load(sys.stdin)
-    except Exception:
-        sys.exit(0)
-    fp = (payload.get("tool_input") or {}).get("file_path", "") or ""
-    fp_norm = fp.replace("\\", "/").lower()
+def check_file(p: Path) -> list[str]:
+    """The format checks for one theory file. Returns problems; empty means it passed."""
+    fp_norm = rel_posix(p)
     if "docs/theory/" not in fp_norm or not fp_norm.endswith(".md") \
             or fp_norm.endswith("readme.md") or "/essays/" in fp_norm:
-        sys.exit(0)
-    p = Path(fp)
+        return []
     if not p.exists():
-        sys.exit(0)
+        return []
     lines = p.read_text(encoding="utf-8", errors="replace").splitlines()
 
     problems: list[str] = []
@@ -52,7 +50,18 @@ def main() -> None:
             j = i
             while j < len(lines) and lines[j].startswith("|"):
                 j += 1
-            window = "\n".join(lines[j:j + 6])
+            # The window runs to the NEXT SECTION, not a fixed six lines (widened 2026-08-28).
+            # The rule the README states is that a table has an afterword before its section
+            # ends, and six lines could not express that: THE_TRIPLE_INFERENCE §5 puts a
+            # definitional paragraph between its table and "State of the section's claim.",
+            # and THREE_COGNITIVE_LAYERS §7 puts a curator quotation and a supersession note
+            # there. Both were reported as having NO afterword when both have a correct one.
+            # This is not a loosened rule: an afterword must still exist before the next `## `,
+            # and test_theory_lint_still_catches_a_genuinely_missing_afterword pins that.
+            end = j
+            while end < len(lines) and not lines[end].startswith("## "):
+                end += 1
+            window = "\n".join(lines[j:end])
             if not any(m in window for m in AFTERWORD_MARKS):
                 problems.append(
                     f"line {j}: hypothesis table has no afterword paragraph beneath it "
@@ -88,15 +97,39 @@ def main() -> None:
             problems.append(f"line {n}: en dash outside a quote block (his ruling: en dashes "
                             f"exist only as em-dash replacements inside quotes)")
 
-    if problems:
-        sys.stderr.write(
-            f"theory format check, {p.name}: {len(problems)} issue(s)\n" +
-            "\n".join("  - " + x for x in problems[:10]) +
-            ("\n  (more suppressed)" if len(problems) > 10 else "") +
-            "\nFix in this turn; the spec is docs/theory/README.md.\n")
-        sys.exit(2)
-    sys.exit(0)
+    return problems
+
+
+def main() -> int:
+    """Hook OR command line. Runs the SAME checks either way, so a `sed` edit or a runner
+    write is checkable even though it fires no PostToolUse hook (H5).
+
+    Why this is not `json.load(sys.stdin)` any more: with no piped payload that call blocks
+    forever. Two of these were found alive on 2026-08-28 having hung since 2026-08-24 16:19,
+    started by someone reasonably running `python tools/theory_lint.py <file>` -- argv was
+    ignored and the process simply stopped. `paths_from_invocation` tries argv first and only
+    reads stdin when it is a real pipe.
+    """
+    argv = sys.argv[1:]
+    if "--all" in argv:
+        paths = sorted((repo_root() / "docs" / "theory").rglob("*.md"))
+        early = None
+    else:
+        paths, early = paths_from_invocation([a for a in argv if not a.startswith("--")])
+    if early is not None:
+        return early
+    rc = EXIT_OK
+    for p in paths:
+        problems = check_file(p)
+        if problems:
+            rc = EXIT_VIOLATION
+            sys.stderr.write(
+                f"theory format check, {p.name}: {len(problems)} issue(s)\n" +
+                "\n".join("  - " + x for x in problems[:10]) +
+                ("\n  (more suppressed)" if len(problems) > 10 else "") +
+                "\nFix in this turn; the spec is docs/theory/README.md.\n")
+    return rc
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

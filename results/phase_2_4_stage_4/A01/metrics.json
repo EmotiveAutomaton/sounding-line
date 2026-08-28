@@ -1,0 +1,289 @@
+{
+ "card": "A01",
+ "written_at": "2026-08-28T02:30:32",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "enactment": {
+  "attempted": 128,
+  "realized": 110,
+  "yield": 0.859375,
+  "floor": 0.8,
+  "usable": true
+ },
+ "per_question": {
+  "ruler|action": {
+   "balanced_accuracy": 0.6457312925170068,
+   "accuracy": 0.65234375,
+   "mean_log_score": -1.474220520553287,
+   "n": 256
+  },
+  "ruler|valuation": {
+   "balanced_accuracy": 0.3667718165259149,
+   "accuracy": 0.28515625,
+   "mean_log_score": -1.8323920809765706,
+   "n": 256
+  },
+  "ruler|audience": {
+   "balanced_accuracy": 0.41676020408163267,
+   "accuracy": 0.4375,
+   "mean_log_score": -1.9155114280582035,
+   "n": 256
+  },
+  "ruler|fact": {
+   "balanced_accuracy": 0.7012195121951219,
+   "accuracy": 0.671875,
+   "mean_log_score": -1.2571376019536946,
+   "n": 256
+  },
+  "enacted|action": {
+   "balanced_accuracy": 0.6656936813186813,
+   "accuracy": 0.6863636363636364,
+   "mean_log_score": -1.1849313153711376,
+   "n": 220
+  },
+  "enacted|valuation": {
+   "balanced_accuracy": 0.3541641141876991,
+   "accuracy": 0.23636363636363636,
+   "mean_log_score": -2.4549373862802115,
+   "n": 220
+  },
+  "enacted|audience": {
+   "balanced_accuracy": 0.38395146520146517,
+   "accuracy": 0.4636363636363636,
+   "mean_log_score": -1.9613535157989919,
+   "n": 220
+  },
+  "enacted|fact": {
+   "balanced_accuracy": 0.6697729988052569,
+   "accuracy": 0.6181818181818182,
+   "mean_log_score": -1.548220614808042,
+   "n": 220
+  }
+ },
+ "primary_valuation_audience_over_floor": {
+  "point": 0.14176601030377375,
+  "lo": 0.07262345350460105,
+  "hi": 0.2197743789517794,
+  "n_units": 128,
+  "n_boot": 2000
+ },
+ "strata": {
+  "propagandist": {
+   "accuracy": 0.3225806451612903,
+   "n": 124
+  },
+  "worried_reassurer": {
+   "accuracy": 0.37,
+   "n": 100
+  },
+  "withheld": {
+   "accuracy": 0.39705882352941174,
+   "n": 136
+  }
+ },
+ "withheld_uncertainty_rate": 0.0,
+ "per_reader": {
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "ruler|action": {
+    "mean": -2.685775332959353,
+    "n": 128
+   },
+   "ruler|valuation": {
+    "mean": -2.181522659106218,
+    "n": 128
+   },
+   "ruler|audience": {
+    "mean": -2.586023785222149,
+    "n": 128
+   },
+   "ruler|fact": {
+    "mean": -1.6462068282013875,
+    "n": 128
+   },
+   "enacted|action": {
+    "mean": -1.899392584530135,
+    "n": 110
+   },
+   "enacted|valuation": {
+    "mean": -3.3421596857281317,
+    "n": 110
+   },
+   "enacted|audience": {
+    "mean": -2.665053571246659,
+    "n": 110
+   },
+   "enacted|fact": {
+    "mean": -2.121317381427299,
+    "n": 110
+   }
+  },
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "ruler|action": {
+    "mean": -0.2626657081472211,
+    "n": 128
+   },
+   "ruler|valuation": {
+    "mean": -1.4832615028469232,
+    "n": 128
+   },
+   "ruler|audience": {
+    "mean": -1.244999070894258,
+    "n": 128
+   },
+   "ruler|fact": {
+    "mean": -0.8680683757060018,
+    "n": 128
+   },
+   "enacted|action": {
+    "mean": -0.47047004621214034,
+    "n": 110
+   },
+   "enacted|valuation": {
+    "mean": -1.5677150868322913,
+    "n": 110
+   },
+   "enacted|audience": {
+    "mean": -1.2576534603513247,
+    "n": 110
+   },
+   "enacted|fact": {
+    "mean": -0.975123848188785,
+    "n": 110
+   }
+  }
+ },
+ "cell_counts": {
+  "{\"domain\": \"workshop\", \"question\": \"action\", \"source\": \"ruler\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"question\": \"valuation\", \"source\": \"ruler\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"question\": \"audience\", \"source\": \"ruler\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"question\": \"fact\", \"source\": \"ruler\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"question\": \"action\", \"source\": \"enacted\"}": {
+   "attempted": 108,
+   "realized": 108,
+   "valid": 108,
+   "scored": 108,
+   "scored_units": 54
+  },
+  "{\"domain\": \"workshop\", \"question\": \"valuation\", \"source\": \"enacted\"}": {
+   "attempted": 108,
+   "realized": 108,
+   "valid": 108,
+   "scored": 108,
+   "scored_units": 54
+  },
+  "{\"domain\": \"workshop\", \"question\": \"audience\", \"source\": \"enacted\"}": {
+   "attempted": 108,
+   "realized": 108,
+   "valid": 108,
+   "scored": 108,
+   "scored_units": 54
+  },
+  "{\"domain\": \"workshop\", \"question\": \"fact\", \"source\": \"enacted\"}": {
+   "attempted": 108,
+   "realized": 108,
+   "valid": 108,
+   "scored": 108,
+   "scored_units": 54
+  },
+  "{\"domain\": \"workshop\", \"question\": \"none\", \"source\": \"enacted\"}": {
+   "attempted": 20,
+   "realized": 0,
+   "valid": 0,
+   "scored": 0,
+   "scored_units": 0
+  },
+  "{\"domain\": \"civic\", \"question\": \"action\", \"source\": \"ruler\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"question\": \"valuation\", \"source\": \"ruler\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"question\": \"audience\", \"source\": \"ruler\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"question\": \"fact\", \"source\": \"ruler\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"question\": \"action\", \"source\": \"enacted\"}": {
+   "attempted": 112,
+   "realized": 112,
+   "valid": 112,
+   "scored": 112,
+   "scored_units": 56
+  },
+  "{\"domain\": \"civic\", \"question\": \"valuation\", \"source\": \"enacted\"}": {
+   "attempted": 112,
+   "realized": 112,
+   "valid": 112,
+   "scored": 112,
+   "scored_units": 56
+  },
+  "{\"domain\": \"civic\", \"question\": \"audience\", \"source\": \"enacted\"}": {
+   "attempted": 112,
+   "realized": 112,
+   "valid": 112,
+   "scored": 112,
+   "scored_units": 56
+  },
+  "{\"domain\": \"civic\", \"question\": \"fact\", \"source\": \"enacted\"}": {
+   "attempted": 112,
+   "realized": 112,
+   "valid": 112,
+   "scored": 112,
+   "scored_units": 56
+  },
+  "{\"domain\": \"civic\", \"question\": \"none\", \"source\": \"enacted\"}": {
+   "attempted": 16,
+   "realized": 0,
+   "valid": 0,
+   "scored": 0,
+   "scored_units": 0
+  }
+ }
+}

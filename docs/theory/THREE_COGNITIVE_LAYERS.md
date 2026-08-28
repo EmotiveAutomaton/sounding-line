@@ -25,9 +25,9 @@ Four claims, stated separately because they live or die separately:
    conserved but under-expressed in text; the shape of that error is a large source of failed goal
    inference.
 4. **Current verdict.** Coherent affect geometry exists in every model checked; three depth bands
-   do not; dose *tracking* exists and transfers; and the causal gate has its first clean answer at
-   small scale: a stably located abstract affect representation that reads at twice chance without
-   emotion words and moves nothing when linearly steered.
+   do not; dose *tracking* exists and transfers; and abstract affect is decodable; one rank-one
+   intervention was inert, while a different additive intervention steered valenced continuations.
+   Neither result establishes improved maker inference.
 
 **This file owns** the latent architecture: what human structure exists, what a model might
 reconstruct, where reconstruction fails, and what intervention could follow. **It does not own** the
@@ -168,10 +168,23 @@ On mirror systems *(the 2026-08-22 pass; provenance in
 > I do not think mirror neurons are magic. It is more like: I see your eyebrows move, I understand
 > how my eyebrows would move in that situation, and from that I can extrapolate how I might feel.
 
-**Mirror-compatible action representations are one possible evidence channel into embodied
-simulation. They do not transmit the maker's affect, establish the maker's goal, or remove the
-need for context and cognitive inference. The present text-only experiments do not test this
-channel.**
+> My understanding of mirror neurons is that they're kind of like physical bootstraps to this whole
+> process. [...] I don't know what the relationship is between these physical mirrorings and the
+> concept of valence assignment.
+
+*2026-08-27 walkthrough; spoken wording lightly reconstructed.*
+
+**Action observation may constrain candidate actions without recovering the maker's valuation.**
+Macaque mirror responses can depend on the value the observer associates with an object; human
+sensorimotor training can alter a mirroring response. These findings support interacting action
+and valuation processes, not a transfer of the actor's feeling or a wholly fixed bootstrap. A
+final artifact can constrain possible movements without recording their exact history. This
+remains a possible input to reconstruction, not a validated layer map or a requirement to adopt
+the full Thousand Brains architecture. The current text experiments do not measure this biological
+route. ([Caggiano et al., 2012](https://iris.unime.it/handle/11570/3251500);
+[Catmur, Walsh, and Heyes, 2007](https://kclpure.kcl.ac.uk/portal/en/publications/sensorimotor-learning-configures-the-human-mirror-system/);
+institutional abstracts read. Catmur's human measure was TMS, not individual mirror-neuron
+recording.)
 
 ## §2. The reconstruction bridge: what a model is doing, in reserved words
 
@@ -424,7 +437,7 @@ runs at all. As specifications stack, late-block responses agree *less* across t
 strongly in the home family, not at all in two others. Differentiation with dose, not convergence.
 The family sign itself now has an account (G112): the fixed loci straddle machinery whose dose
 response runs in opposite directions per family, the ratio inherits the sign of early-band
-tracking minus late-band tracking, and the fade's null cells sit where those bands cancel — so
+tracking minus late-band tracking, and the fade's null cells sit where those bands cancel, so
 the loci were chosen where the home family's bands happen to diverge most, which is the anatomy
 of an accidental family-specific instrument, and nothing downstream leans on the ratio's sign
 across families. Inside the home model the direction is pooling-stable, negative under all
@@ -455,7 +468,7 @@ under two readings, with the emotion vocabulary as the interface:
 |---|---|---|
 | **L1** | The ratio falls as specified constraint dose rises, register fixed by construction | **SUPPORTED (test, L22/L23), replicated, and stronger under the fair control.** All three ladders at −0.42 to −0.52, every *p* ≤ 0.0004; sign family-bound per G103; what dose measures is instruction count to one generator |
 | **B-1** | Affect directions exist in a reading model and are not word-counting | **SUPPORTED (test).** Four times chance while a word-counting model scored exactly chance |
-| **L12** | The per-block correlation transfers across architectures | **SUPPORTED (test, L12/L40/L99), and the home family's liability resolves at power.** 25 ladder runs, 18 survive. The no-maker concentration that a 36-artifact permutation null could not adjudicate (p = 0.095/0.089) vanishes entirely at 108 artifacts under the identical rule — zero firing layers, zero survivor overlap — with the original seven fires explained as small-n noise under a fixed correlation threshold. The second family's no-maker arm sits inside its null the same way, so the control's cleanliness is not a shared-representation artifact. The survivor list keeps its layers without the asterisk |
+| **L12** | The per-block correlation transfers across architectures | **SUPPORTED (test, L12/L40/L99), and the home family's liability resolves at power.** 25 ladder runs, 18 survive. The no-maker concentration that a 36-artifact permutation null could not adjudicate (p = 0.095/0.089) vanishes entirely at 108 artifacts under the identical rule (zero firing layers, zero survivor overlap), with the original seven fires explained as small-n noise under a fixed correlation threshold. The second family's no-maker arm sits inside its null the same way, so the control's cleanliness is not a shared-representation artifact. The survivor list keeps its layers without the asterisk |
 |   | | *(this row's history is an open liability from the 08-09 relabel, resolved by the powered rerun and the second-family arm on 08-12)* |
 | **L10 / L19** | Specification recovery: how much of the prompt survives, in bits | **REJECTED as recovery (test, L32/L36); it is a lexical-echo detector.** The graded curve kills it, +0.34 unrestricted, +0.04 at half-overlap, negative below; the no-maker control awards it wins where nothing is true (3/36, *p* = 0.006); the first-ladder strict arm lands *below* chance. The dose-tracking was real and belonged to the echo |
 | **L6** | The ratio moves the same direction for revision as for specification | **REJECTED (test).** It falls with specification and rises with revision (*p* = 0.053); if both are real, the instrument distinguishes being-told-more from revising |
@@ -517,13 +530,16 @@ or has reproduced human empathy. Human-reader correspondence remains a later gat
 | # | hypothesis | status |
 |---|---|---|
 | **G45** | An affective concept can be forced into a chosen block and strengthened there | **OPEN, the build**, gated on causality and the transform |
-| **A02-S3** | Plain valence is causally steerable in the instruct model by an ADDITIVE direction at a capability-tolerated dose | **SUPPORTED (test, L197), the standing anchor.** Sign pair +0.78/−0.75 (p<1e-3 each) on happy-vs-sad continuation preference, random and shuffled directions quiet, decode 1.00 on an untouched validation split. A different construction from L170's rank-one amplify/ablate; coexists with it |
-| **A03-S3** | Action tendencies leave decodable structure while the model reads tendency-laden text | **SUPPORTED (test, L198), one corpus deep.** 0.422 vs 0.25 chance, nearest-centroid at the LATE third, clear of a five-shuffle null; direction bases and the valence locus decode nothing — categorical geometry, deeper than valence |
-| **A04-S3** | The tendency read is independent of valence (fear vs anger dissociation) | **REJECTED (test, L199).** Fear-anger separate at 0.597 but the frozen valence axis separates them at AUC 0.19 — the read is partly valence-riding; no discrete-system license |
-| **A05-S3** | Two-tendency blends read as superpositions of their components | **REJECTED (test, L200).** Top-2 pair match 0.065 against 1/6 chance; blends are their own points |
-| **A07-S3** | The tendency geometry is causally usable during realized choice of an impulse | **SUPPORTED WEAKLY (test, L202), scoped.** Pooled sign pair (+0.10/−0.06 around a 0.25 base, random quiet) behind the A02 gate at a capability-tolerated dose; the baseline is curiosity-owned (0.75) and anger steers backwards — three of four handles, none clean |
+| **A02-S3** | Plain valence is causally steerable in the instruct model by an ADDITIVE direction at a capability-tolerated dose | **SUPPORTED (test, L197), the standing anchor.** Sign pair +0.78/−0.75 (p<1e-3 each) on happy-vs-sad continuation preference, random and shuffled directions quiet, decode 1.00 on an untouched validation split. A different construction from L170's rank-one amplify/ablate; coexists with it. **Adversary survived (L232):** a neutral continuation pair moves at most 0.10 under the same intervention and a token-injection probe accounts for 0.09 of the valence shift, so the handle is not lexical injection |
+| **A03-S3** | Action tendencies leave decodable structure while the model reads tendency-laden text | **SUPPORTED (test, L198), one corpus deep.** 0.422 vs 0.25 chance, nearest-centroid at the LATE third, clear of a five-shuffle null; direction bases and the valence locus decode nothing, so the geometry is categorical and deeper than valence |
+| **A04-S3** | The tendency read is independent of valence (fear vs anger dissociation) | **REJECTED (test, L199).** Fear-anger separate at 0.597 but the frozen valence axis separates them at AUC 0.19, so the read is partly valence-riding; no discrete-system license |
+| **A05-S3** | Two-tendency blends read as superpositions of their components | **REJECTED for this centroid-composition readout (test, L200).** Pair recovery is below chance (top-2 pair match 0.065 against 1/6). This does not establish that the underlying representation is non-compositional |
+| **A07-S3** | Tendency steering changes the reader's own next impulse | **SUPPORTED only as a weak, uneven effect on the tested readout (test, L202).** Pooled sign pair (+0.10/−0.06 around a 0.25 base, random quiet) behind the A02 gate at a capability-tolerated dose. The pooled sign pair masks a curiosity-heavy default (0.75) and reverse-direction anger steering. No held-out maker prediction was tested; the affect-to-inversion bridge remains OPEN |
+| **A06-S3** | Suppressing surface emotion leaves the tendency decodable (the abstract read survives without the words) | **INSTRUMENT DEAD (test, L201/L234).** The expressive corpus carries no surface-emotion channel to suppress; on a second scene bank the strongest channel runs at 0.006 against a 0.012 verifiability floor, so the manipulation is unverifiable corpus-wide and the question is unasked |
+| **M04-S3** | One policy delivered three ways (prompt, adapter, activation) lands in one place | **PARTLY SUPPORTED, activation route unmeasured (test, L204).** Prompt and adapter shifts of the likelihood readout align at cosine 0.69 with the adapter three times larger; the activation route never localized (L203), so two of three deliveries agree |
 |   | | *(the causal gate's first instrument attempt INSTRUMENT-FAILED (test, L162): dev-selected block flipped between seeds at eighteen dev items, and the degenerate input-edge selection lesioned the model 2.55× under amplification; abstract emotion-word-free decoding appeared weakly above every control at the one functioning seed, so the signal grain exists and the battery was underpowered, never the reverse. The rebuilt ruler then answered cleanly for its tested construction (test, L170): in Qwen2.5-1.5B the representation is real and stably located, with unanimous cross-seed consensus on one deep block and held-out decoding at twice chance while the lexical baseline sits at chance. Rank-one fear and joy amplification/ablation at that block did not move the 24-item approach-versus-withdraw behavior at any dose admitted by that capability gate, with no sign pair. The wing closes for this model, basis rank, locus, behavior, and intervention family; scale, rank, locus, behavioral target, and intervention form remain named construction variables)* |
 | **G38** | The mid-level primitives need only seeding, not specification | **OPEN.** *(Dependency corrected 2026-08-09: it rests on coherent structure existing (passed), on the causal gate, and on controllability, not on the rejected subspaces-not-depths claim it used to cite)* |
+| **A02-S4** | The valence handle improves target-specific prediction of another maker's next choice, beyond moving the reader's own answer | **NOT SUPPORTED (test, L243), full size, controls loud.** Aligned benefit -0.04 nats [-0.15, +0.06] at full evidence, with a random direction of the same norm moving the score more than the fitted one; the fitted direction at the high dose lowers the target score 0.3 nats in either sign; the own-choice shift is 0.2 of the mass; no correct-action stratum carries the interaction |
 
 **What the table says.** The build's gate order now has a real answer at small scale: gate one
 (coherent structure) passed long ago, and the decisive causal gate has been measured cleanly
@@ -537,15 +553,26 @@ changing L170's classification. A positive result on one of those constructions 
 with L170; only an exact re-run can reclassify it. That different-construction result now
 exists (test, L197/L202): additive steering on the INSTRUCT model at blocks 14-18 moves valence
 preference as a clean sign pair with controls quiet, and the same additive family moves realized
-impulse choice weakly through the tendency directions — a handle where the rank-one construction
+impulse choice weakly through the tendency directions, a handle where the rank-one construction
 found a readout, exactly the coexistence the errata's scoping predicted. The geometry the handle
-grips is categorical and late (centroids at the last third, L198), partly valence-riding (L199),
-and non-compositional (L200). The build path stays open only through what the closure
+grips is categorical and late (centroids at the last third, L198) and partly valence-riding (L199),
+while the centroid-composition readout recovers pairs below chance without establishing that the
+representation is non-compositional (L200); the handle survives its lexical-injection adversary (L232), the
+suppression question is unaskable on this corpus (L234), and prompt-delivered and
+weight-delivered policy shift the same readout in the same direction (L204). The build
+path stays open only through what the closure
 names, a larger substrate, a higher-rank basis, or a different intervention family, and its
 address, if the transform work holds, remains a family where the rotation composes rather than
-the home family. Confidence: the decode finding is one bad test away, three seed splits and one
-model deep; the causal inertness is one bad test away for the same tested construction; the gates above remain
-logic.
+the home family. The bridge from that handle to another maker is now measured and unbuilt:
+on 128 hazard worlds the steered readers' prediction of the maker's next action gains
+nothing aligned with the maker's appraisal, a norm-matched random direction moves the score
+more, and the same dose moves the readers' own next choice by a fifth of its mass
+(A02-S4); the handle grips the reader's continuation, not its model of the maker, the
+coexistence L170's scoping allowed and the errata warned the bridge would have to earn.
+Own-impulse steering does not close the intent-inference gate. Confidence: the scoped causal
+results are one bad test away, three seed splits and one model deep for the decode, the same
+tested construction for the inertness, and the lexical adversary passed for the additive handle;
+the bridge to maker inference is untested, logic only; the gates above remain logic.
 
 ## §9. Reading versus caring
 

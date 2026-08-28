@@ -115,6 +115,19 @@ creates a characteristic failure: a sufficiently flexible reader can explain alm
 something the reader might have done. Reader identity, domain competence, and conditioning must
 therefore be recorded as part of the instrument.
 
+> If I'm looking at an artist, what I will try to do is find the biggest difference between their
+> contextual space and mine that would affect a whole bunch of other things associatively. I'll set
+> that in place almost manually: "Oh, this artist is from the 1400s."
+
+*2026-08-27 walkthrough; spoken wording lightly reconstructed.*
+
+**Context can reorganize several expectations together.** An era, role, or commission can change
+the reader's estimates of tools, opportunities, institutions, and audience at once. Attention to
+that difference is a proposed way to adjust the self-based candidate model. The adjustment remains
+uncertain and must yield to individual evidence; category membership supplies no fixed model of a
+person. Its usefulness and correction belong to the existing open self-initialization and
+differentiation hypotheses (HH-23, HH-25).
+
 The strongest live prediction is broad and graded rather than exclusive. A relevantly similar
 reader need not gain access to an inference target that another reader cannot represent. It may
 instead need less evidence or deliberation and become slightly more accurate or better calibrated
@@ -139,10 +152,11 @@ correction; relevant reader-maker similarity should yield a modest, broad effici
 calibration advantage, while misleading similarity should increase error until corrected.
 **OPEN for artifacts; supported only as an interpersonal analogue in the cited studies.** Stage 3
 crosses measured similarity, evidence dose, compute, and conflict; no human-reader artifact test
-exists. First split (test, L192): the similarity advantage is REPRESENTATIONAL, not predictive —
-family kinship grades artifact-reading (L179) while record-based choice prediction shows no
-self-advantage at all (self-minus-other −0.10, ns, against a 0.68 target self-consistency
-ceiling). The two halves of HH-23 now carry different evidence.)**
+exists. **Model-side evidence is split (test, L179, L192).** Relatedness predicts original-artifact
+reading; no prospective self advantage was demonstrated in the separate record task
+(self-minus-other −0.10, ns). Agreement between two target samples measures repeatability, not a
+predictive ceiling. This does not establish a general representational-versus-predictive
+division.)**
 
 **Model-family similarity is the present analogue construction. If sibling models recover one
 another's recorded process choices better after surface and capacity controls, the shared-
@@ -150,34 +164,23 @@ organization hypothesis gains a model-side foothold. If only the exact checkpoin
 effect disappears after paraphrase and style control, the result is a generation fingerprint.
 Neither outcome directly measures closeness or embodied similarity between people.**
 
-**(G172:** the model analogue's confirmatory run remains similarity-graded (test, L163): exact-maker
-and same-family readers beat cross-family readers on mechanically verified goals, with both
-contrasts at the permutation floor. Two discovery follow-ups sharpen but do not promote that
-claim (test, L164). After mechanically accepted Qwen paraphrase, exact-versus-cross attenuates
-from +0.0354 to +0.0165 and sibling-versus-cross from +0.0246 to +0.0209, both still at the
-permutation floor over 115 artifacts. Because the paraphraser is Qwen-family, survival is weak
-evidence and collapse would have been strong. Across the seven gate-passing original readers,
-parameter count has only a weak positive rank relation with margin, 0.43, while family separation
-is complete. Simple capacity remains a poor rival; a simply removable surface dialect loses
-probability; Qwen-circular erasure and other family-specific representations remain live. The
-single-maker-family limitation is now lifted (test, L165): a second maker family reverses the
-advantage in its own direction, each family's artifacts read best by that family's readers, at
-the permutation floor under mechanical normalization and, on genuinely rewritten artifacts
-only, under an independently built eraser that measurably strips family surface signal. Reader quality carries most of the spread and the
-relation term is the smaller part that reverses with origin, which quality cannot do.
-The Stage-3 replication arc lands the strongest version yet (test, L177/L179/L180/L182): a
-third family admitted by a blind realization gate (OLMo, 40/40) shows the reversal largest of
-all (+0.0365, p=5e-5), the relatedness gradient is monotone at three rungs (exact 0.065 >
-same-family 0.047 > cross 0.039, p=5e-5), the signature survives a fifteen-word
-summarize-and-regenerate bottleneck through a SmolLM rewriter (both families p<0.01), and the
-frozen md5 reserve quarter confirms two of three families at p<=1e-4 with SmolLM's weakness
-stable across sides. Attribution context does nothing to the likelihood reader in either
-direction (L181), so the signature is carried by the text, not by identity beliefs.
-The finest split and the strongest rival both landed 2026-08-26 (test, L217/L219):
-exact weights beat same-family siblings inside both measurable families (+0.011/+0.014,
-p<=1e-4), and the within-reader adversary — where reader quality cannot move — keeps the
-own-family effect in five of eight readers, so the quality-composition rival is measured
-and insufficient.**)**
+**(G172: SUPPORTED for relatedness on original model artifacts; mechanism OPEN (test,
+L163-L168, L177, L179, L217-L219).** Crossed reversals and within-reader contrasts weaken a
+reader-quality-only account: a second and a third maker family each read best by their own
+family's readers, and the within-reader adversary, where reader quality cannot move, keeps the
+own-family effect in five of eight readers. The gradient is monotone inside every family
+separately (L218), and exact weights beat same-family siblings inside both measurable families
+(L217). Survival under weaker rewriting does not generalize: the strongest independent eraser
+attenuates the advantage nearly to zero, with only 88 of 250 artifacts retained and the Smol
+survivor count below its declared floor (L225). The summary bottleneck was not uniformly fifteen
+words. Family averages required corrected aggregation before renewed numerical or significance
+claims, and that correction has since landed: the first read kept one reader per artifact and
+called SmolLM weak, while the corrected full-matrix margins are qwen +0.0137, smollm +0.0096,
+olmo +0.0365 (L236). The later hash split is retrospective robustness, not untouched
+confirmation (L180, L182). Attribution context does nothing to the likelihood reader in either
+direction (L181), so what signal there is rides on the text rather than on identity beliefs. A
+policy put into the weights reads back by the exact instrument in a second independent adapter
+cohort (L178/L224). Shared organization and shared convention remain competing explanations.**)**
 
 **(E01-S3:** the self a model reader could project is exactly readable under a fixed
 instruction frame and is frame-conditional under another (test, L176). All three instruct
@@ -188,11 +191,15 @@ and 0 of 40 episodes realized). **NARROWS the self-model prior:** in models it i
 instruction-shaped default, not a stable prior, so every self-projection test fixes its frame
 by construction. The projection itself then split by capability (test, L193): the reader that
 cannot consume records defaults to its own preference on conflict items (error intrusion 0.58
-vs the 0.33 symmetric null) while the record-reading reader errs symmetrically (0.29) — the
+vs the 0.33 symmetric null) while the record-reading reader errs symmetrically (0.29), which is the
 assumed-similarity initialization with the correction step present versus absent, live in two
 models. Active search is not the correction's source: offered a higher- or lower-information
 record, both readers take whichever is listed first (position rate 0.86-1.00 vs informative
-rate 0.36-0.38; test, L194).**)**
+rate 0.36-0.38; test, L194). Records predict a maker's next choice on a second domain
+for the stronger reader only (test, L228: Qwen 0.56 on process as on infra, p=0.007;
+SmolLM at chance), and mixed-policy makers are near unpredictable from records for both
+(L227: 0.375 and 0.25 against 0.25 chance, n=24), so record reading is reader-bound and
+policy-purity-bound.**)**
 
 ## §2. Finding an entry point
 
@@ -285,7 +292,7 @@ He predicts a vague unifying effect there and declines to claim even that.
 | **S-4/S-5** | Stage ordering changes the answer | **REJECTED (sim)** by exactly zero; ~5% cost saving only |
 | **G165** | Explicit route generation (a self-enacted production route, or predicted evidence per candidate) improves recovery of recorded executed choices over direct reading | **NO-GAIN where direct reading is strong (test, L151); HURTS where it is weak (test, L153), and the wing is CLOSED.** On the realized-choice events: zero delta and minus two points, every gate quiet. On the revision-delta events where the change block beats the direct reader: self-route costs seven points (p = 0.0006) and invents purposes on unrevised text at 0.065 against the direct reader's recorded 0.000, while evidence-prediction gains three points, noise-compatible. Explicit generation is rhetoric the reader then follows over the evidence |
 |   | | *(this row's history is a NO-GAIN root on the strong substrate 08-21 morning and the HURTS discriminator on the weak substrate the same afternoon; the null-discriminator rule is spent)* |
-| **E02-S3** | A reader given a maker's choice RECORD predicts their next choice better than one given nothing or matched filler, on known-policy targets | **SUPPORTED (test), one reader deep.** +20 points paired (p = 0.0026) against an exact ceiling of 1.00 — but the entire margin is Qwen's (0.57 vs 0.23); SmolLM-1.7B reads the record at filler level (0.27). The self-first two-step neither helps nor hurts. Instrument gate for the Stage-3 route factorial |
+| **E02-S3** | A reader given a maker's choice RECORD predicts their next choice better than one given nothing or matched filler, on known-policy targets | **SUPPORTED (test), one reader deep.** +20 points paired (p = 0.0026) against an exact ceiling of 1.00, but the entire margin is Qwen's (0.57 vs 0.23); SmolLM-1.7B reads the record at filler level (0.27). The self-first two-step neither helps nor hurts. Instrument gate for the Stage-3 route factorial |
 
 **What the table says.** The entry-point family has one live positive, one honest defeat, and now
 a closed question with a direction. The
@@ -410,6 +417,20 @@ source's values. Process uptake, belief uptake, and value change are different o
 be measured separately. The model-reader context results below are adjacent evidence about
 over-trusting supplied assertions, not evidence that human indoctrination follows this mechanism.
 
+> I would maybe expect that protective effect to be imperfect.
+
+*2026-08-27 walkthrough; spoken wording lightly reconstructed.*
+
+The proposed protection from media literacy is better inference about why a source selected and
+shaped its evidence, not immunity or automatic distrust. Technique training has produced benefits
+in some studies, while a counterbalanced inoculation study found no overall discrimination gain.
+Distinguish improved discrimination from a stricter rejection threshold; professional expertise
+and insight alone have not been established as a general shield.
+([Roozenbeek et al., 2022](https://research-information.bris.ac.uk/en/publications/psychological-inoculation-improves-resilience-against-misinformat/),
+institutional abstract read;
+[Seabrooke et al., 2026](https://link.springer.com/article/10.3758/s13423-025-02827-x),
+methods and results read.)
+
 One external caution bears on the whole series family. A study of hidden states as author
 representations found document-level mean pooling best, which is evidence against series-carrying
 claims at the representation level. Not decisive (it optimized for identity, not maker state), but
@@ -422,7 +443,9 @@ the reason to expect modest effects.
 | **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION where evidence is absent (test, L155); MIXED at 0.44 where evidence is strong (test, L157); the wing is PAUSED.** With nothing readable to resist it, a false card steers 95 percent as hard as a true one and erases the reader's abstention. Against evidence the reader provably reads at 0.86, a false note still costs forty-two points, wins the toss-up at 0.53, and the conflict is named only 0.15 of the time even when the format offers the option; a true note lifts the reader to 0.99, so any supplied note is treated as high-grade evidence regardless of truth. Context-trust is a separate defect from evidence-reading in this family |
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
 | **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism |
-| **HH-25** | Reliable maker context is especially useful after an initial artifact/self prior has formed, during maker differentiation | **OPEN, with the first model-side ordering facts (test, L195/L209/L211/L214).** Ordering is load-bearing but in the EVIDENCE-first direction: the record-reading reader drops 0.67 to 0.40 when the question precedes the record. The late-fusion ruler itself failed (readers cannot track exact Bayes even on easy doses), updating fails at weighing rather than attention (recall-good readers update WORSE, 0.09 vs 0.24), biography trades at parity with a six-choice record in both directions, and a bystander's stated hope overrides a unanimous record at 0.83 — the trust failure the row's own clause names, now measured. The differentiation-order question proper stays open pending a reader that can update at all |
+| **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size.** Bundle minus facts +0.10 nats with the interval crossing zero over 128 worlds; an incorrect bundle helps as much as the correct facts (+0.72 each over no context) and irrelevant background helps by half a nat, so the readers take the frame and not the content |
+| **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **COUNTEREVIDENCE (test, L241), full size.** Six records after a misleading prior lower the direct log score by 0.20 nats (interval below zero) while the exact ruler climbs 0.13; the valid prior's curve is flat; a misleading prior helps at zero records as much as a valid one; neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
+| **HH-25** | Reliable maker context is especially useful after an initial artifact/self prior has formed, during maker differentiation | **OPEN for differentiation order (test, L195, L209, L211, L213, L214).** Ordering observations stand: the record-reading reader drops 0.67 to 0.40 when the question precedes the record, biography trades at parity with a six-choice record in both directions, and the late-fusion ruler fails on a second domain too (L229). The easy updating gate failed. Recall does not establish functional evidence use, so the recall split cannot isolate weighing from attention or comprehension. The stored readout follows an outsider's wish at 40/48, and an explicitly ignorant outsider's wish at 45/47 (L231). Missing raw generations and a phrase-matching parser leave compliance, answer contamination, task confusion, and extraction error unresolved. This is not a clean measure of belief adoption or the reader's self-projection |
 
 **What the table says.** The section's first numbers land on the context-reweighting rule's
 failure side, now measured at both ends of the evidence axis. Where the artifact offers
@@ -435,11 +458,27 @@ weight of its own reading and no truth-tracking discount at all, so context-trus
 defect class of its own, separate from evidence-reading and from the honest abstention the
 same instrument shows elsewhere. The useful-cue half of the reweighting rule survives only
 in the degenerate true-note case, which no product interface can rely on since truth is what
-the interface does not know. The confidence series remains the cheapest unbuilt instrument in the file, the uptake-lag row is
+the interface does not know. The Stage-3 wish rows point the same way but cannot carry the
+psychological reading: the stored readout follows an outsider's wish at 40/48 and an explicitly
+ignorant outsider's wish at 45/47, and with the raw generations missing and a phrase-matching
+parser standing in for them, compliance, answer contamination, task confusion, and extraction
+error are all unresolved. That is a compromised readout, not resolved belief updating. Stage 4's first full-size context card lands on the
+same side from a third direction: with content and framing separated by construction, a
+coherent maker model beats the same facts by a tenth of a nat with the interval crossing
+zero, and a wrong model helps exactly as much as the right facts, so what these readers
+take from context is the frame and not the content (C01); and the second card shows the
+trap: six individuating records after a misleading prior make the prediction worse, not
+better, while the valid curve is flat and the exact ruler climbs, so these readers neither
+correct a wrong prior nor use the records at all (C02), and the adjustment mechanism this
+section proposes has no model-side analogue at this scale; the reweighting rule's
+useful-cue half is untested by them because they do not read the cue. The confidence series remains the cheapest unbuilt instrument in the file, the uptake-lag row is
 a human hypothesis rather than an interpretation of the model-context failure, and the external
 mean-pooling result remains a reason to expect modest series effects rather than to skip the test.
-Confidence: the projection pair is one bad test away as a set, one construction family and one
-reader family deep; the uptake-lag claim and the rest are untested, logic only.
+Confidence: the earlier true/false context effects are one bad test away, one construction family
+and one reader family deep; the frame-not-content and no-correction reads are one bad test away as
+a pair, two readers, one construction family; the Stage-3 psychological attribution is
+instrument-dead; differentiation order, the uptake interval, and the rest remain untested, logic
+only.
 
 ## §5. Continuation and stopping
 
@@ -542,7 +581,7 @@ The cue family, by function rather than by source:
 | **G85** | Intention elicitation with a pre-registered target | **ALREADY BUILT.** The intent ladder is this protocol, validated on stone since 2010, with the R² = 0.655 ceiling attached |
 | **G86** | A mechanical null model: subtract what the medium forces | **OPEN.** The right shape for choice-versus-constraint; the analogous model degrades badly off the bench. The program's event-recovery harness carries this as its forced-constraint null |
 | **G87** | Stage-differentiated partition by visibility | **SUPPORTED (test).** Clean double crossover; canonical row in `DECISION_TRACES.md` §3, dashboard §11 |
-| **G88** | Error handling — repair, concealment, compensation, non-recognition, and repetition — recovers maker trajectory better than error rate | **RULER VALIDATED IN CONSTRUCTION (L147); BLIND AT ESSAY GRAIN (L150); SEPARATES AT LONG FORM WITH REALIZED HEDGING (test, L158), at mechanical parity and without localization.** The likelihood ruler separates all five planted classes at 1.0 in the gridworld. In text the answer is now resolution-shaped end to end: blind at 0.417 on 400-word essays, separating at 0.77 on 900-to-1300-word artifacts whose concealment hedging was verified realized at generation — with a five-line post-plant hedge counter at 0.79, the reader quoting the carrying sentence at a hit rate of zero, and clean rewrites still pulling 0.40 invented issues as the standing warning label. The signal is hedging density; the reader integrates it diffusely and cannot point at it |
+| **G88** | Error handling (repair, concealment, compensation, non-recognition, and repetition) recovers maker trajectory better than error rate | **RULER VALIDATED IN CONSTRUCTION (L147); BLIND AT ESSAY GRAIN (L150); SEPARATES AT LONG FORM WITH REALIZED HEDGING (test, L158), at mechanical parity and without localization.** The likelihood ruler separates all five planted classes at 1.0 in the gridworld. In text the answer is now resolution-shaped end to end: blind at 0.417 on 400-word essays, separating at 0.77 on 900-to-1300-word artifacts whose concealment hedging was verified realized at generation, with a five-line post-plant hedge counter at 0.79, the reader quoting the carrying sentence at a hit rate of zero, and clean rewrites still pulling 0.40 invented issues as the standing warning label. The signal is hedging density; the reader integrates it diffusely and cannot point at it |
 |   | | *(this row's history is the ruler pass 08-20, the essay-grain null 08-20 evening, and the long-form separation with the corpus's own refuse-and-repair arc 08-21)* |
 | **G89** | Rigidity under perturbation as the novice signature | **OPEN.** Implies the active probe |
 | **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention**, and the program's required output format for choice recovery |
@@ -554,7 +593,7 @@ first pass, the intent ladder turns out to be the field's own elicitation protoc
 attached that reframes every recovery number, and the rest of the family is method, not yet
 measurement. Error handling (G88) now has a complete first arc: validated in construction,
 blind at essay grain with an honest instrument, and separating at long form once the
-concealment was verified to realize hedging — which confirms the resolution framing the null
+concealment was verified to realize hedging, which confirms the resolution framing the null
 predicted and prices the channel honestly, since a mechanical hedge counter matches the
 reader and the reader cannot quote the sentence carrying the signal it reads. The error-
 handling import from the field's practice survives with a sharper shape than the field
@@ -655,6 +694,18 @@ bound to aesthetics, and he has since unbound it:
 > is a **different goal that can very much be treated as orthogonal from aesthetics**, though the
 > two of course correlate, through expertise, in terms of their detectable structure.
 
+> We've been conflating two variables: you can try to increase transmissibility while still being a
+> bad teacher.
+
+*2026-08-27 walkthrough; spoken wording lightly reconstructed.*
+
+**Ease of transmission is not the same outcome as useful teaching.** Attention capture,
+comprehension, copying or adoption, learning that transfers to a new task, and truthful or
+beneficial guidance can diverge. A misleading artifact can be clear and easy to relay. Neither
+high transmissibility nor extensive audience shaping alone establishes deception, a desire for
+power, or absent motivational plurality. The bard's audience model remains a candidate mechanism,
+not a guarantee of cooperation.
+
 (The measurement side of the attraction/translation split lives in `DECISION_TRACES.md` §2.) He
 flags the restatement risk himself. *"Yes, this is just a restatement of CIRL with different terms."*
 It is, up to the aesthetic layer, which is the addition; and CIRL's cooperative-game framing does
@@ -697,24 +748,34 @@ generated objects break that relationship (HH-22, HH-17, and HH-18 below).
 |---|---|---|
 | **G62** | Assuming the maker intends to be understood improves recovery | **OPEN, canonical here.** Must be tested against concealment, where the assumption licenses confident wrong inference |
 | **G63** | Comprehension-support structure functions as deliberately-left scaffolding for descent, orthogonal to aesthetics though correlated through expertise | **OPEN.** Unbound from aesthetics 2026-08-10; the measurement side is the attraction/translation split in `DECISION_TRACES.md` §2 |
+| **T01-S4** | Comprehension support raises transmission of a lesson independently of its truth and of the source's alignment, while uptake of the advice is unchanged | **SUPPORTED (test, L244), full size.** A worked action mapping lifts as-taught application of the rule to a new lot from 0.08 to 0.25 in the aligned and the misaligned strata alike (+0.16, +0.18), for false rules as for true; the recipients follow the advice on their own lot 98 times in 100 either way; the relay's parse rate drops under the longer message |
 | **G67** | Readers grant the communicative assumption to generated text, and that is why it misleads | **OPEN.** A claim about readers; the model-side provenance prior (§1) is its first adjacent measurement |
-| **HH-19** | Attention capture and comprehensibility are separable shaping motivations | **OPEN, the load-bearing test.** Measurement side in `DECISION_TRACES.md` §2 |
+| **HH-19** | Attention capture and comprehensibility are separable shaping motivations | **OPEN, the load-bearing test.** Measurement side in `DECISION_TRACES.md` §2. Transmissibility and useful learning are separate, unmeasured outcomes; neither is established by comprehension alone |
 | **HH-20** | Makers model the reader's inference and shape the artifact for it | **OPEN.** An artifact as process *plus the maker's model of you* |
 | **HH-21** | Generated text lacks the collaborative half; recast as recoverability, whether a coherent model of the creator's understanding can be recovered without the creator's comprehension-support efforts | **OPEN.** The third account of the unease, and the three predict different things |
 | **HH-17** | Readers historically used polish as an effort cue; the correlation is strong in human corpora, near zero in generated | **OPEN.** Blocked on an effort proxy |
 | **HH-18** | The effort heuristic is a broken valid inference, not a reader bias | **OPEN.** Follows from HH-17; the reframe is the contribution |
 | **HH-22** | Attraction success is judgeable by the reader from their own response | **OPEN.** The self-referring goal read as an instrument; split out of the aesthetics note 2026-08-10 |
 
-**What the table says.** The bard refinement is the most theory-dense unmeasured material in the
-file, now carrying its own incompleteness caveat, two candidate variables of interest with the
-shape of their relationship deliberately uncommitted. The section also now holds the project's
-declared center of gravity, that readers must model the generating model to learn from an
-artifact, a load-bearing assumption still owed direct evidence. Comprehension support stands
-unbound from aesthetics as its own goal, the generated-text asymmetry is recast as a
-recoverability question, and the effort note is split into three separable opens sharing one
-blocker, a defensible proxy for effort. The communicative assumption itself is the one prior
-whose failure mode (confident inference from structure placed to mislead) is worse than not
-holding it. Confidence: untested, logic only.
+**What the table says.** Audience modeling, comprehension support, and attraction remain open
+mechanisms. Easy transmission, useful learning, truthful guidance, and recovery of the maker can
+come apart. A cooperative interpretation can speed reconstruction while increasing vulnerability
+to misleading selection. Neither clarity nor polish identifies the maker's values. The bard
+refinement is the most theory-dense unmeasured material in the file, carrying its own
+incompleteness caveat and two candidate variables of interest whose relationship is deliberately
+uncommitted. The section also holds the project's declared center of gravity, that readers must
+model the generating model to learn from an artifact, a load-bearing assumption still owed direct
+evidence. Comprehension support stands unbound from aesthetics as its own goal, the generated-text
+asymmetry is recast as a recoverability question, and the effort note is split into three
+separable opens sharing one blocker, a defensible proxy for effort. The communicative assumption
+itself is the one prior whose failure mode, confident inference from structure placed to mislead,
+is worse than not holding it. The comprehension-support row has its first number: a worked action
+mapping makes a lesson's rule as learnable when false as when true and as learnable from a source
+steering the recipient as from one helping it, while what the recipient does with its own lot
+follows the source's advice regardless (T01-S4); support is scaffolding for descent, and descent
+is not the same act as trust. Confidence: the comprehension-support row is one bad test away, two
+readers, one construction family; transmissibility against useful learning is untested, logic
+only; the rest untested, logic only.
 
 # Part III: Calibration
 
@@ -795,8 +856,8 @@ rate and next to a field bar.
 | **maker-reader family similarity** (§1, model analogue) | original exact-vs-cross +0.035 and sibling-vs-cross +0.025; after accepted Qwen paraphrase +0.016 and +0.021; capacity-margin Spearman 0.43; crossed own-minus-other +0.020 and +0.014 untouched, +0.012 and +0.011 after cross-family rewriting; the crossed pattern dies when candidates use the maker's own instruction wording | cross-family readers on identical candidates; goal-preserving paraphrase by each family in turn; within-matrix capacity direction; a second maker family | **SUPPORTED (test, L163), first pass; discovery follow-ups PROMISING (test, L164, L165), no claim promotion.** The advantage reverses with the artifact's origin family and follows the original maker through rewriting by the other family, so the relation rather than reader quality or artifact dialect carries it, and it appears only where candidate and artifact barely share vocabulary rather than where they share most (test, L166); the relation now has a representational correlate, with alignment predicting who inverts whom after reader and maker effects are both removed, at rank 0.50 on process-matched texts and 0.77 on fully neutral human essays (test, L168, discovery grade, twice-measured); surface family signal is halved rather than removed, both surviving families are instruction-tuned, and the process-level and geometry legs of the promotion conjunction are untouched |
 | anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | | | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
-**What the dashboard says.** Six heuristics carry numbers, and the family-similarity row is now
-the strongest of the new ones. Related readers recover a maker's recorded goals better than
+**What the dashboard says.** Six heuristics carry numbers, and the family-similarity row is the
+strongest of the new ones on original artifacts. Related readers recover a maker's recorded goals better than
 cross-family readers, and with a second maker family in place the advantage reverses with the
 artifact's origin rather than pointing at one favoured reader family, which is the pattern
 reader quality alone cannot produce. It survives mechanical normalization unchanged, and with each family's artifacts now rewritten
@@ -815,7 +876,11 @@ still reads family at half its former strength after erasure, both surviving fam
 instruction-tuned while both losing families are older architectures, and nothing here shows
 the relation helping at a target the instruction did not already state. The two
 variation measures, the visibility partition, and the homogeneity statistic remain plausibly
-distinct channels, but stacking still waits on construct validation. Confidence: the
-surface-variation number is replicated and controlled; the similarity root and the other
-measured heuristics are one bad test away each; the crossed reversal is one bad test away and
-discovery grade; everything unmeasured is untested.
+distinct channels, but stacking still waits on construct validation. The original-artifact
+relatedness effect survives weaker rewrites but substantially attenuates under the strongest
+independent eraser, with severe attrition. The mechanism remains open; retrospective re-splitting
+is not fresh confirmation. Confidence: the surface-variation number is replicated and controlled;
+the similarity root and the other measured heuristics are one bad test away each; the crossed
+reversal is one bad test away, since its erasure rung attenuates nearly to zero under the
+strongest eraser and its reserve split is retrospective rather than untouched; everything
+unmeasured is untested.

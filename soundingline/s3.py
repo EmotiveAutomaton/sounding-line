@@ -8,8 +8,10 @@ exist (the L133 one-helper rule).
 
 from __future__ import annotations
 
+import contextlib
 import hashlib
 import json
+import os
 import time
 from pathlib import Path
 
@@ -45,33 +47,113 @@ def card_hash(card: dict) -> str:
     return hashlib.sha256(json.dumps(frozen, sort_keys=True).encode()).hexdigest()[:16]
 
 
+# ── manifest transactions (H3, 2026-08-28) ────────────────────────────────────────────
+#
+# `set_status` was load -> modify -> save with no mutual exclusion and a direct
+# `write_text`. Stage 3 ran up to three runners at once, so two of them could each read the
+# manifest, each change a DIFFERENT cell, and each write the whole list back: the first
+# writer's status vanished with no error anywhere. The direct write could also leave a torn
+# file if the process died mid-write, which the program validator then failed to parse.
+#
+# Two separate problems, two separate fixes -- and they are not the same fix:
+#
+#   * ATOMIC PUBLICATION (temp + os.replace) stops a torn file. It does NOT stop a lost
+#     update: two atomic writes still leave only the second.
+#   * The TRANSACTION LOCK stops the lost update, by holding read+modify+write together.
+#
+# The lock is held for one read-modify-write of a small JSON file -- milliseconds, never
+# across an experiment. Contention is bounded, and failing to acquire RAISES rather than
+# proceeding unlocked: a write that silently did not happen is the failure mode this whole
+# section exists to remove.
+#
+# Windows note: os.replace onto a target another process holds open raises PermissionError,
+# so the replace is retried briefly (the same sharing violation soundingline/s4.py records
+# from the live Stage-4 run).
+
+MANIFEST_LOCK = S3 / ".manifest.lock"
+_LOCK_TIMEOUT_S = 30.0
+
+
+class ManifestBusy(RuntimeError):
+    """The manifest lock could not be acquired inside the timeout. Nothing was written."""
+
+
 def load_manifest() -> list[dict]:
     return json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
 
 
-def save_manifest(cells: list[dict]) -> None:
+def _save_manifest_atomic(cells: list[dict]) -> None:
     S3.mkdir(parents=True, exist_ok=True)
-    MANIFEST_PATH.write_text(json.dumps(cells, indent=1), encoding="utf-8",
-                             newline="\n")
+    tmp = MANIFEST_PATH.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(cells, indent=1), encoding="utf-8", newline=chr(10))
+    for attempt in range(20):
+        try:
+            os.replace(tmp, MANIFEST_PATH)
+            return
+        except PermissionError:
+            if attempt == 19:
+                raise
+            time.sleep(0.25)
+
+
+def save_manifest(cells: list[dict]) -> None:
+    """Atomic whole-file publication. A caller that read-modify-writes MUST use
+    `manifest_transaction` instead: atomicity alone cannot prevent a lost update."""
+    _save_manifest_atomic(cells)
+
+
+@contextlib.contextmanager
+def manifest_transaction(timeout: float = _LOCK_TIMEOUT_S):
+    """Hold the whole read/validate/modify/write. Yields the cell list; saves on clean exit.
+
+    An exception inside the block releases the lock and writes NOTHING, so a failed write is
+    never mistaken for a successful one.
+    """
+    S3.mkdir(parents=True, exist_ok=True)
+    deadline = time.time() + timeout
+    fd = None
+    while True:
+        try:
+            fd = os.open(str(MANIFEST_LOCK), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            break
+        except FileExistsError:
+            if time.time() >= deadline:
+                raise ManifestBusy(
+                    f"{MANIFEST_LOCK} held for over {timeout:g}s; nothing was written. "
+                    f"If no runner is alive, remove it by hand.") from None
+            time.sleep(0.05)
+    try:
+        os.write(fd, str(os.getpid()).encode())
+        os.close(fd)
+        fd = None
+        cells = load_manifest()
+        yield cells
+        _save_manifest_atomic(cells)
+    finally:
+        if fd is not None:
+            os.close(fd)
+        try:
+            MANIFEST_LOCK.unlink()
+        except OSError:
+            pass
 
 
 def set_status(cell_id: str, status: str, closure_reason: str | None = None,
                actual_gpu_minutes: float | None = None) -> None:
     assert status in STATUSES, status
-    cells = load_manifest()
-    hit = False
-    for c in cells:
-        if c["cell_id"] == cell_id:
-            c["status"] = status
-            if closure_reason is not None:
-                c["closure_reason"] = closure_reason
-            if actual_gpu_minutes is not None:
-                c["actual_gpu_minutes"] = actual_gpu_minutes
-            if status == "LANDED":
-                c["landed_at"] = time.strftime("%Y-%m-%d %H:%M")
-            hit = True
-    assert hit, f"unknown cell {cell_id}"
-    save_manifest(cells)
+    with manifest_transaction() as cells:
+        hit = False
+        for c in cells:
+            if c["cell_id"] == cell_id:
+                c["status"] = status
+                if closure_reason is not None:
+                    c["closure_reason"] = closure_reason
+                if actual_gpu_minutes is not None:
+                    c["actual_gpu_minutes"] = actual_gpu_minutes
+                if status == "LANDED":
+                    c["landed_at"] = time.strftime("%Y-%m-%d %H:%M")
+                hit = True
+        assert hit, f"unknown cell {cell_id}"
 
 
 def make_cell(cell_id: str, trunk: str, question: str, unit: str, models: list[str],

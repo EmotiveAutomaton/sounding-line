@@ -1,0 +1,6526 @@
+{
+ "reader": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "revision": "31b70e2e869a7173562077fd711b654946d38674",
+ "label_tokens": {
+  "A": {
+   "form": " A",
+   "id": 330
+  },
+  "B": {
+   "form": " B",
+   "id": 389
+  },
+  "C": {
+   "form": " C",
+   "id": 340
+  },
+  "D": {
+   "form": " D",
+   "id": 422
+  },
+  "E": {
+   "form": " E",
+   "id": 414
+  },
+  "F": {
+   "form": " F",
+   "id": 426
+  }
+ },
+ "tokenization_ok": true,
+ "template": "A",
+ "repaired": false,
+ "abstraction_battery": {
+  "accuracy": 0.3854166666666667,
+  "per_option": {
+   "robust": 0.375,
+   "cheap": 0.3333333333333333,
+   "fast": 0.375,
+   "precedent": 0.4583333333333333
+  },
+  "per_domain": {
+   "workshop": 0.4583333333333333,
+   "civic": 0.3125
+  },
+  "n": 96
+ },
+ "likelihood": {
+  "accuracy": 0.875,
+  "per_option": {
+   "robust": 1.0,
+   "cheap": 0.7916666666666666,
+   "fast": 0.9166666666666666,
+   "precedent": 0.7916666666666666
+  },
+  "per_domain": {
+   "workshop": 0.8541666666666666,
+   "civic": 0.8958333333333334
+  },
+  "n": 96
+ },
+ "position_swing": 0.08333333333333337,
+ "paraphrase_swing": 0.01041666666666663,
+ "generated_validity": 1.0,
+ "generated_agreement": 0.875,
+ "generated_rows": [
+  {
+   "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+   "truth": "robust",
+   "valid": true,
+   "reason": "ok",
+   "pred": "robust",
+   "raw": "{\"choice\": \"B\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+   "truth": "robust",
+   "valid": true,
+   "reason": "ok",
+   "pred": "robust",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+   "truth": "robust",
+   "valid": true,
+   "reason": "ok",
+   "pred": "robust",
+   "raw": "{\"choice\": \"A\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+   "truth": "robust",
+   "valid": true,
+   "reason": "ok",
+   "pred": "robust",
+   "raw": "{\"choice\": \"B\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+   "truth": "robust",
+   "valid": true,
+   "reason": "ok",
+   "pred": "robust",
+   "raw": "{\"choice\": \"D\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+   "truth": "robust",
+   "valid": true,
+   "reason": "ok",
+   "pred": "robust",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+   "truth": "cheap",
+   "valid": true,
+   "reason": "ok",
+   "pred": "cheap",
+   "raw": "{\"choice\": \"B\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+   "truth": "cheap",
+   "valid": true,
+   "reason": "ok",
+   "pred": "cheap",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+   "truth": "cheap",
+   "valid": true,
+   "reason": "ok",
+   "pred": "cheap",
+   "raw": "{\"choice\": \"A\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+   "truth": "cheap",
+   "valid": true,
+   "reason": "ok",
+   "pred": "cheap",
+   "raw": "{\"choice\": \"D\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+   "truth": "cheap",
+   "valid": true,
+   "reason": "ok",
+   "pred": "cheap",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+   "truth": "cheap",
+   "valid": true,
+   "reason": "ok",
+   "pred": "cheap",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+   "truth": "fast",
+   "valid": true,
+   "reason": "ok",
+   "pred": "fast",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+   "truth": "fast",
+   "valid": true,
+   "reason": "ok",
+   "pred": "fast",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+   "truth": "fast",
+   "valid": true,
+   "reason": "ok",
+   "pred": "fast",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+   "truth": "fast",
+   "valid": true,
+   "reason": "ok",
+   "pred": "fast",
+   "raw": "{\"choice\": \"B\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+   "truth": "fast",
+   "valid": true,
+   "reason": "ok",
+   "pred": "cheap",
+   "raw": "{\"choice\": \"B\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+   "truth": "fast",
+   "valid": true,
+   "reason": "ok",
+   "pred": "fast",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+   "truth": "precedent",
+   "valid": true,
+   "reason": "ok",
+   "pred": "precedent",
+   "raw": "{\"choice\": \"B\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+   "truth": "precedent",
+   "valid": true,
+   "reason": "ok",
+   "pred": "precedent",
+   "raw": "{\"choice\": \"A\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+   "truth": "precedent",
+   "valid": true,
+   "reason": "ok",
+   "pred": "robust",
+   "raw": "{\"choice\": \"B\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+   "truth": "precedent",
+   "valid": true,
+   "reason": "ok",
+   "pred": "precedent",
+   "raw": "{\"choice\": \"B\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+   "truth": "precedent",
+   "valid": true,
+   "reason": "ok",
+   "pred": "robust",
+   "raw": "{\"choice\": \"C\"}"
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+   "truth": "precedent",
+   "valid": true,
+   "reason": "ok",
+   "pred": "precedent",
+   "raw": "{\"choice\": \"B\"}"
+  }
+ ],
+ "per_option_ok": true,
+ "gate_pass": true,
+ "rows": [
+  {
+   "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "robust": 0.715273421188803,
+    "precedent": 0.07082165934395808,
+    "fast": 0.11860396015432273,
+    "cheap": 0.09530095931291623
+   },
+   "order": [
+    "robust",
+    "precedent",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "precedent": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "precedent": 0.1820804382274593,
+    "cheap": 0.15574165203194512,
+    "robust": 0.526867217567993,
+    "fast": 0.13531069217260253
+   },
+   "order": [
+    "precedent",
+    "cheap",
+    "robust",
+    "fast"
+   ],
+   "labels": {
+    "precedent": "A",
+    "cheap": "B",
+    "robust": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "robust": 0.7651576338932005,
+    "fast": 0.08857342244214704,
+    "precedent": 0.08996825088729138,
+    "cheap": 0.056300692777361015
+   },
+   "order": [
+    "robust",
+    "fast",
+    "precedent",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "precedent": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.07465433708501554,
+    "robust": 0.8152489906014057,
+    "precedent": 0.054618279780048254,
+    "fast": 0.05547839253353052
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "fast": 0.10122188596436159,
+    "robust": 0.7961718524230138,
+    "cheap": 0.04670622707868405,
+    "precedent": 0.05590003453394053
+   },
+   "order": [
+    "fast",
+    "robust",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "fast": "A",
+    "robust": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "robust": 0.6843391724662251,
+    "precedent": 0.08173265623300882,
+    "fast": 0.13060841277272736,
+    "cheap": 0.10331975852803879
+   },
+   "order": [
+    "robust",
+    "precedent",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "precedent": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0102|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "fast": 0.03267209996178669,
+    "robust": 0.9040042023361707,
+    "cheap": 0.03644836135703056,
+    "precedent": 0.026875336345011994
+   },
+   "order": [
+    "fast",
+    "robust",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "fast": "A",
+    "robust": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0114|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.057934569242919245,
+    "precedent": 0.0869700892000403,
+    "robust": 0.7873629679842591,
+    "fast": 0.06773237357278132
+   },
+   "order": [
+    "cheap",
+    "precedent",
+    "robust",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "precedent": "B",
+    "robust": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0117|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.1041573113572132,
+    "robust": 0.6686610673061567,
+    "fast": 0.11802569624002592,
+    "precedent": 0.10915592509660427
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0135|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.08206744589300989,
+    "robust": 0.7908958583390148,
+    "precedent": 0.08206744589300989,
+    "fast": 0.04496924987496541
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0147|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "fast": 0.20706124585825708,
+    "robust": 0.5991515812106045,
+    "precedent": 0.13161612002824755,
+    "cheap": 0.062171052902890905
+   },
+   "order": [
+    "fast",
+    "robust",
+    "precedent",
+    "cheap"
+   ],
+   "labels": {
+    "fast": "A",
+    "robust": "B",
+    "precedent": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0149|pilot|gate",
+   "domain": "workshop",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.08284735767121307,
+    "robust": 0.8237563961329127,
+    "fast": 0.044692797122648086,
+    "precedent": 0.04870344907322615
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "robust": 0.09285565246814065,
+    "precedent": 0.030382253252555603,
+    "cheap": 0.8021504814265265,
+    "fast": 0.07461161285277736
+   },
+   "order": [
+    "robust",
+    "precedent",
+    "cheap",
+    "fast"
+   ],
+   "labels": {
+    "robust": "A",
+    "precedent": "B",
+    "cheap": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "fast": 0.132319764895094,
+    "robust": 0.05263316605907162,
+    "cheap": 0.6719752731177064,
+    "precedent": 0.14307179592812788
+   },
+   "order": [
+    "fast",
+    "robust",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "fast": "A",
+    "robust": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "robust": 0.13425464256836916,
+    "cheap": 0.6207872147814423,
+    "precedent": 0.11483408119018275,
+    "fast": 0.1301240614600059
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "fast": 0.1118151873972916,
+    "cheap": 0.5590408319076526,
+    "precedent": 0.15046379869847012,
+    "robust": 0.17868018199658564
+   },
+   "order": [
+    "fast",
+    "cheap",
+    "precedent",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "fast": 0.18563133527647044,
+    "precedent": 0.07156725510406538,
+    "robust": 0.2537279521266336,
+    "cheap": 0.48907345749283065
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "robust",
+    "cheap"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "robust": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "robust": 0.1090432707164001,
+    "fast": 0.3465387976540578,
+    "precedent": 0.2615812080949382,
+    "cheap": 0.2828367235346038
+   },
+   "order": [
+    "robust",
+    "fast",
+    "precedent",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "precedent": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0072|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "precedent": 0.07655560746749514,
+    "cheap": 0.7977277959098241,
+    "robust": 0.08473933280849019,
+    "fast": 0.04097726381419053
+   },
+   "order": [
+    "precedent",
+    "cheap",
+    "robust",
+    "fast"
+   ],
+   "labels": {
+    "precedent": "A",
+    "cheap": "B",
+    "robust": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0098|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "robust": 0.23905080924167105,
+    "cheap": 0.48289587982903653,
+    "precedent": 0.1668843604735197,
+    "fast": 0.11116895045577282
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0108|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "precedent": 0.06969277861331942,
+    "fast": 0.052606869269986034,
+    "cheap": 0.8101517948816632,
+    "robust": 0.06754855723503136
+   },
+   "order": [
+    "precedent",
+    "fast",
+    "cheap",
+    "robust"
+   ],
+   "labels": {
+    "precedent": "A",
+    "fast": "B",
+    "cheap": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0111|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "robust": 0.14653208400706272,
+    "cheap": 0.5617149234476626,
+    "precedent": 0.11774183726937669,
+    "fast": 0.17401115527589803
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0124|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "precedent": 0.1146773387396345,
+    "robust": 0.10942588106096587,
+    "fast": 0.38794839009969984,
+    "cheap": 0.38794839009969984
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0129|pilot|gate",
+   "domain": "workshop",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "fast": 0.1348755040834292,
+    "robust": 0.04661172696039109,
+    "cheap": 0.7066970487417574,
+    "precedent": 0.11181572021442228
+   },
+   "order": [
+    "fast",
+    "robust",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "fast": "A",
+    "robust": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "robust": 0.0816374206740443,
+    "fast": 0.7867517837241147,
+    "cheap": 0.056108523977419104,
+    "precedent": 0.07550227162442193
+   },
+   "order": [
+    "robust",
+    "fast",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "precedent": 0.04405225857138559,
+    "cheap": 0.03325238932674154,
+    "fast": 0.8575903343418595,
+    "robust": 0.06510501776001348
+   },
+   "order": [
+    "precedent",
+    "cheap",
+    "fast",
+    "robust"
+   ],
+   "labels": {
+    "precedent": "A",
+    "cheap": "B",
+    "fast": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "precedent": 0.21970387214746515,
+    "robust": 0.09016628745539029,
+    "cheap": 0.1021717891488543,
+    "fast": 0.5879580512482901
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "cheap",
+    "fast"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "cheap": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "cheap": 0.15374279539907362,
+    "fast": 0.6783450057764321,
+    "robust": 0.07610819354351722,
+    "precedent": 0.09180400528097706
+   },
+   "order": [
+    "cheap",
+    "fast",
+    "robust",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "fast": "B",
+    "robust": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "fast": 0.6285352375161897,
+    "precedent": 0.0979069093190137,
+    "cheap": 0.18579466686167972,
+    "robust": 0.08776318630311691
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "cheap",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "cheap": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "cheap": 0.1002746374041944,
+    "precedent": 0.07000297881441334,
+    "fast": 0.7294477463771979,
+    "robust": 0.1002746374041944
+   },
+   "order": [
+    "cheap",
+    "precedent",
+    "fast",
+    "robust"
+   ],
+   "labels": {
+    "cheap": "A",
+    "precedent": "B",
+    "fast": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0084|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "precedent": 0.06632398297689263,
+    "robust": 0.06529572492875815,
+    "fast": 0.8079916183858954,
+    "cheap": 0.06038867370845374
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0122|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "cheap": 0.14934062197092168,
+    "fast": 0.5906536177436738,
+    "precedent": 0.12188826329062771,
+    "robust": 0.13811749699477682
+   },
+   "order": [
+    "cheap",
+    "fast",
+    "precedent",
+    "robust"
+   ],
+   "labels": {
+    "cheap": "A",
+    "fast": "B",
+    "precedent": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0142|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "robust": 0.16586092828234597,
+    "cheap": 0.0406459685246352,
+    "fast": 0.6663231182299493,
+    "precedent": 0.12716998496306953
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0167|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "fast": 0.7664496627384885,
+    "precedent": 0.07953077979700525,
+    "robust": 0.08599327658802228,
+    "cheap": 0.068026280876484
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "robust",
+    "cheap"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "robust": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0178|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "precedent": 0.11125679700272358,
+    "fast": 0.6402385854333079,
+    "robust": 0.11843224392634837,
+    "cheap": 0.13007237363762017
+   },
+   "order": [
+    "precedent",
+    "fast",
+    "robust",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "fast": "B",
+    "robust": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0222|pilot|gate",
+   "domain": "workshop",
+   "truth": "fast",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "robust": 0.15374962165450942,
+    "cheap": 0.43120150312691624,
+    "precedent": 0.19134449571046638,
+    "fast": 0.2237043795081079
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.10442571067937005,
+    "robust": 0.42612212159952695,
+    "fast": 0.1427330233906007,
+    "precedent": 0.32671914433050225
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "cheap": 0.19805041786613725,
+    "fast": 0.37583365326505563,
+    "precedent": 0.3265299366069492,
+    "robust": 0.09958599226185795
+   },
+   "order": [
+    "cheap",
+    "fast",
+    "precedent",
+    "robust"
+   ],
+   "labels": {
+    "cheap": "A",
+    "fast": "B",
+    "precedent": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "fast": 0.1973693649421572,
+    "precedent": 0.3986970766517597,
+    "robust": 0.3203621011535267,
+    "cheap": 0.08357145725255638
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "robust",
+    "cheap"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "robust": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.11945018119214203,
+    "robust": 0.5788390100616116,
+    "fast": 0.08876783719654967,
+    "precedent": 0.21294297154969657
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "robust": 0.06737906306144031,
+    "fast": 0.07172463927598025,
+    "precedent": 0.7955902704355541,
+    "cheap": 0.06530602722702536
+   },
+   "order": [
+    "robust",
+    "fast",
+    "precedent",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "precedent": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "robust": 0.08478507303929327,
+    "fast": 0.09758702088335262,
+    "precedent": 0.7439653580744713,
+    "cheap": 0.07366254800288285
+   },
+   "order": [
+    "robust",
+    "fast",
+    "precedent",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "precedent": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0055|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "robust": 0.3134944674461158,
+    "precedent": 0.3134944674461158,
+    "fast": 0.25586672724362597,
+    "cheap": 0.11714433786414241
+   },
+   "order": [
+    "robust",
+    "precedent",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "precedent": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0060|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "robust": 0.07551111312906829,
+    "cheap": 0.06560519200170138,
+    "precedent": 0.7746449608723665,
+    "fast": 0.0842387339968639
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s0|w0075|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "cheap": 0.1948683338062327,
+    "precedent": 0.4061404839190659,
+    "fast": 0.19793706353978627,
+    "robust": 0.20105411873491513
+   },
+   "order": [
+    "cheap",
+    "precedent",
+    "fast",
+    "robust"
+   ],
+   "labels": {
+    "cheap": "A",
+    "precedent": "B",
+    "fast": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0085|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "fast": 0.09340215938759021,
+    "precedent": 0.7120615437586626,
+    "cheap": 0.09195409312569382,
+    "robust": 0.1025822037280534
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "cheap",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "cheap": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0094|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "robust": 0.28806744397416434,
+    "fast": 0.19491618257021717,
+    "cheap": 0.14713045367251942,
+    "precedent": 0.369885919783099
+   },
+   "order": [
+    "robust",
+    "fast",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|workshop|s1|w0118|pilot|gate",
+   "domain": "workshop",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "fast": 0.1873834573343876,
+    "precedent": 0.5862709714273175,
+    "cheap": 0.07811305579055576,
+    "robust": 0.14823251544773905
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "cheap",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "cheap": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0002|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.11196453974730357,
+    "robust": 0.6244880610474299,
+    "fast": 0.09282186365418145,
+    "precedent": 0.17072553555108508
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0014|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "precedent": 0.22630669081423385,
+    "robust": 0.4790912682132925,
+    "cheap": 0.143849284827122,
+    "fast": 0.15075275614535155
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "cheap",
+    "fast"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "cheap": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0057|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "robust": 0.6403976782658983,
+    "cheap": 0.08269957352130801,
+    "fast": 0.17236069170316418,
+    "precedent": 0.10454205650962954
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0059|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "fast": 0.09888544532080452,
+    "robust": 0.7657356932222035,
+    "precedent": 0.05210896788120416,
+    "cheap": 0.08326989357578793
+   },
+   "order": [
+    "fast",
+    "robust",
+    "precedent",
+    "cheap"
+   ],
+   "labels": {
+    "fast": "A",
+    "robust": "B",
+    "precedent": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0065|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "cheap": 0.038487944407706816,
+    "precedent": 0.009070544737380249,
+    "robust": 0.9037881903130208,
+    "fast": 0.048653320541892045
+   },
+   "order": [
+    "cheap",
+    "precedent",
+    "robust",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "precedent": "B",
+    "robust": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0077|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "fast": 0.09670899821859823,
+    "cheap": 0.04787442567397791,
+    "precedent": 0.04568209610755617,
+    "robust": 0.8097344799998677
+   },
+   "order": [
+    "fast",
+    "cheap",
+    "precedent",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0079|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "precedent": 0.2264910477131649,
+    "robust": 0.4720478793287599,
+    "fast": 0.16831385477379912,
+    "cheap": 0.13314721818427602
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0092|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "robust": 0.7353165722582332,
+    "fast": 0.07280620221548731,
+    "cheap": 0.08920402365793342,
+    "precedent": 0.10267320186834616
+   },
+   "order": [
+    "robust",
+    "fast",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0098|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "precedent": 0.11339445154967814,
+    "fast": 0.06986029499038268,
+    "cheap": 0.10007025226286993,
+    "robust": 0.7166750011970693
+   },
+   "order": [
+    "precedent",
+    "fast",
+    "cheap",
+    "robust"
+   ],
+   "labels": {
+    "precedent": "A",
+    "fast": "B",
+    "cheap": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0104|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "precedent": 0.24394849667356722,
+    "fast": 0.1676631863409179,
+    "robust": 0.45575581989722286,
+    "cheap": 0.13263249708829206
+   },
+   "order": [
+    "precedent",
+    "fast",
+    "robust",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "fast": "B",
+    "robust": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0119|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "robust": 0.7684931887399028,
+    "fast": 0.07037279959329157,
+    "precedent": 0.08622255644120982,
+    "cheap": 0.07491145522559588
+   },
+   "order": [
+    "robust",
+    "fast",
+    "precedent",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "precedent": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0124|pilot|gate",
+   "domain": "civic",
+   "truth": "robust",
+   "valid": true,
+   "pred": "robust",
+   "probs": {
+    "fast": 0.10621928960717456,
+    "precedent": 0.10457251215950895,
+    "cheap": 0.13853608680569393,
+    "robust": 0.6506721114276225
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "cheap",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "cheap": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0009|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "precedent": 0.39371394624610706,
+    "fast": 0.1258385354962215,
+    "robust": 0.12196689078076904,
+    "cheap": 0.3584806274769023
+   },
+   "order": [
+    "precedent",
+    "fast",
+    "robust",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "fast": "B",
+    "robust": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0025|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "robust": 0.11466402951629352,
+    "cheap": 0.5732840797500339,
+    "fast": 0.18611809098810947,
+    "precedent": 0.12593379974556312
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0028|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "precedent": 0.13791201159449487,
+    "robust": 0.11256050335348783,
+    "fast": 0.46655037706288677,
+    "cheap": 0.28297710798913056
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0042|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "cheap": 0.3793231708414663,
+    "precedent": 0.16314487257370128,
+    "robust": 0.34002311305172206,
+    "fast": 0.11750884353311031
+   },
+   "order": [
+    "cheap",
+    "precedent",
+    "robust",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "precedent": "B",
+    "robust": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0062|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "precedent": 0.11292660186753037,
+    "robust": 0.028776254964563115,
+    "cheap": 0.7717133141121703,
+    "fast": 0.08658382905573628
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "cheap",
+    "fast"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "cheap": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0070|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "cheap": 0.6058113811379311,
+    "robust": 0.09736274916327996,
+    "precedent": 0.18476203233611702,
+    "fast": 0.11206383736267196
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0109|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "precedent": 0.20003222237698565,
+    "robust": 0.20318227152292553,
+    "fast": 0.2820906478200745,
+    "cheap": 0.31469485828001426
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0125|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "precedent": 0.17854861206687653,
+    "robust": 0.11709503858376165,
+    "fast": 0.14572713003713814,
+    "cheap": 0.5586292193122236
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0129|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "fast": 0.09142958455343216,
+    "precedent": 0.05459509853446309,
+    "cheap": 0.6346471453892005,
+    "robust": 0.2193281715229042
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "cheap",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "cheap": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0134|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "robust": 0.26728438000658844,
+    "precedent": 0.1453199967877113,
+    "fast": 0.30287288173339144,
+    "cheap": 0.2845227414723089
+   },
+   "order": [
+    "robust",
+    "precedent",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "precedent": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0153|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "cheap": 0.5629859573230879,
+    "fast": 0.1217542519833614,
+    "robust": 0.18565306410757376,
+    "precedent": 0.129606726585977
+   },
+   "order": [
+    "cheap",
+    "fast",
+    "robust",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "fast": "B",
+    "robust": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0164|pilot|gate",
+   "domain": "civic",
+   "truth": "cheap",
+   "valid": true,
+   "pred": "cheap",
+   "probs": {
+    "robust": 0.22657583877966148,
+    "cheap": 0.40391510426842325,
+    "fast": 0.21620017571111314,
+    "precedent": 0.15330888124080216
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0019|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "fast": 0.5460672914566871,
+    "robust": 0.14245016405024155,
+    "precedent": 0.2072637657040558,
+    "cheap": 0.1042187787890156
+   },
+   "order": [
+    "fast",
+    "robust",
+    "precedent",
+    "cheap"
+   ],
+   "labels": {
+    "fast": "A",
+    "robust": "B",
+    "precedent": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0022|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "robust": 0.19770379801957794,
+    "precedent": 0.09787047697833777,
+    "fast": 0.512804633379311,
+    "cheap": 0.19162109162277335
+   },
+   "order": [
+    "robust",
+    "precedent",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "precedent": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0026|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "precedent": 0.25957368249549867,
+    "robust": 0.13052184436893963,
+    "cheap": 0.24384690809886914,
+    "fast": 0.36605756503669246
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "cheap",
+    "fast"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "cheap": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0027|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "precedent": 0.19332831647176915,
+    "cheap": 0.0844588864652407,
+    "fast": 0.5594140324362659,
+    "robust": 0.16279876462672424
+   },
+   "order": [
+    "precedent",
+    "cheap",
+    "fast",
+    "robust"
+   ],
+   "labels": {
+    "precedent": "A",
+    "cheap": "B",
+    "fast": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0044|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "cheap": 0.1830119065482404,
+    "fast": 0.5053120474696028,
+    "precedent": 0.18589392472045585,
+    "robust": 0.12578212126170094
+   },
+   "order": [
+    "cheap",
+    "fast",
+    "precedent",
+    "robust"
+   ],
+   "labels": {
+    "cheap": "A",
+    "fast": "B",
+    "precedent": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0047|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "fast": 0.6614669626802115,
+    "cheap": 0.07777615940670454,
+    "robust": 0.14759323371435212,
+    "precedent": 0.11316364419873177
+   },
+   "order": [
+    "fast",
+    "cheap",
+    "robust",
+    "precedent"
+   ],
+   "labels": {
+    "fast": "A",
+    "cheap": "B",
+    "robust": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0076|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "fast": 0.5700225747963279,
+    "precedent": 0.09019066282389022,
+    "robust": 0.20009673114424567,
+    "cheap": 0.13969003123553628
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "robust",
+    "cheap"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "robust": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0080|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "robust": 0.2783599085963723,
+    "cheap": 0.12546664064095225,
+    "precedent": 0.2656128803212324,
+    "fast": 0.33056057044144305
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0083|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "cheap": 0.1223398967445087,
+    "robust": 0.05962370380243675,
+    "precedent": 0.08023246310235105,
+    "fast": 0.7378039363507035
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0086|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "cheap": 0.12288077470353734,
+    "robust": 0.29020558161042226,
+    "precedent": 0.35005475108930045,
+    "fast": 0.23685889259674003
+   },
+   "order": [
+    "cheap",
+    "robust",
+    "precedent",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "robust": "B",
+    "precedent": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0096|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "robust": 0.08980619850975582,
+    "fast": 0.6740329109632037,
+    "cheap": 0.12084744906440922,
+    "precedent": 0.11531344146263123
+   },
+   "order": [
+    "robust",
+    "fast",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0101|pilot|gate",
+   "domain": "civic",
+   "truth": "fast",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "cheap": 0.20579037910420742,
+    "precedent": 0.08713711864536085,
+    "robust": 0.173292873499586,
+    "fast": 0.5337796287508457
+   },
+   "order": [
+    "cheap",
+    "precedent",
+    "robust",
+    "fast"
+   ],
+   "labels": {
+    "cheap": "A",
+    "precedent": "B",
+    "robust": "C",
+    "fast": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0004|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "robust": 0.2821978788081069,
+    "cheap": 0.125224549631684,
+    "fast": 0.24137663701458054,
+    "precedent": 0.3512009345456286
+   },
+   "order": [
+    "robust",
+    "cheap",
+    "fast",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "cheap": "B",
+    "fast": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0075|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "cheap": 0.20617331795736793,
+    "fast": 0.09587949709107088,
+    "robust": 0.1461987744172011,
+    "precedent": 0.5517484105343601
+   },
+   "order": [
+    "cheap",
+    "fast",
+    "robust",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "fast": "B",
+    "robust": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0082|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "precedent": 0.49295819416328285,
+    "robust": 0.1677205885123498,
+    "fast": 0.18420503008679723,
+    "cheap": 0.15511618723757015
+   },
+   "order": [
+    "precedent",
+    "robust",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "precedent": "A",
+    "robust": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0102|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "cheap": 0.09435293426120095,
+    "fast": 0.29985300495110073,
+    "robust": 0.17627448800535692,
+    "precedent": 0.4295195727823414
+   },
+   "order": [
+    "cheap",
+    "fast",
+    "robust",
+    "precedent"
+   ],
+   "labels": {
+    "cheap": "A",
+    "fast": "B",
+    "robust": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0107|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "fast": 0.21198721517482771,
+    "precedent": 0.455844173658,
+    "cheap": 0.14799092688805088,
+    "robust": 0.18417768427912135
+   },
+   "order": [
+    "fast",
+    "precedent",
+    "cheap",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "precedent": "B",
+    "cheap": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0116|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "robust": 0.26533148001707674,
+    "precedent": 0.3406923641893021,
+    "fast": 0.21996752290405766,
+    "cheap": 0.17400863288956342
+   },
+   "order": [
+    "robust",
+    "precedent",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "precedent": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0133|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "fast",
+   "probs": {
+    "robust": 0.20284350755125655,
+    "fast": 0.3909910942939883,
+    "cheap": 0.14160759020763056,
+    "precedent": 0.2645578079471246
+   },
+   "order": [
+    "robust",
+    "fast",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0141|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "robust": 0.2175137577682808,
+    "precedent": 0.3877601981834886,
+    "fast": 0.22795246095598373,
+    "cheap": 0.16677358309224685
+   },
+   "order": [
+    "robust",
+    "precedent",
+    "fast",
+    "cheap"
+   ],
+   "labels": {
+    "robust": "A",
+    "precedent": "B",
+    "fast": "C",
+    "cheap": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0174|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "fast": 0.06368750565776295,
+    "cheap": 0.24035416402496954,
+    "robust": 0.14578216967074328,
+    "precedent": 0.5501761606465243
+   },
+   "order": [
+    "fast",
+    "cheap",
+    "robust",
+    "precedent"
+   ],
+   "labels": {
+    "fast": "A",
+    "cheap": "B",
+    "robust": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s0|w0180|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "fast": 0.13062408532958353,
+    "cheap": 0.2680232205050307,
+    "precedent": 0.34956817968562326,
+    "robust": 0.2517845144797625
+   },
+   "order": [
+    "fast",
+    "cheap",
+    "precedent",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "robust": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s1|w0181|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "robust": 0.08904493826248311,
+    "fast": 0.06314231623668323,
+    "cheap": 0.07858188220747787,
+    "precedent": 0.7692308632933558
+   },
+   "order": [
+    "robust",
+    "fast",
+    "cheap",
+    "precedent"
+   ],
+   "labels": {
+    "robust": "A",
+    "fast": "B",
+    "cheap": "C",
+    "precedent": "D"
+   }
+  },
+  {
+   "unit_id": "I02|civic|s2|w0209|pilot|gate",
+   "domain": "civic",
+   "truth": "precedent",
+   "valid": true,
+   "pred": "precedent",
+   "probs": {
+    "fast": 0.0591130726924217,
+    "cheap": 0.024641994871965393,
+    "precedent": 0.8288814742998037,
+    "robust": 0.08736345813580909
+   },
+   "order": [
+    "fast",
+    "cheap",
+    "precedent",
+    "robust"
+   ],
+   "labels": {
+    "fast": "A",
+    "cheap": "B",
+    "precedent": "C",
+    "robust": "D"
+   }
+  }
+ ],
+ "se_accuracy": 0.03375385780420761,
+ "own_profile": {
+  "workshop": {
+   "choices": [
+    "cheap",
+    "robust",
+    "fast",
+    "precedent",
+    "robust",
+    "fast",
+    "cheap",
+    "robust"
+   ],
+   "posterior": {
+    "robust": 0.8315455757886565,
+    "cheap": 0.07899729002574345,
+    "fast": 0.07063646185112145,
+    "precedent": 0.018820672334478608
+   },
+   "modal": "robust"
+  },
+  "civic": {
+   "choices": [
+    "cheap",
+    "robust",
+    "fast",
+    "precedent",
+    "precedent",
+    "fast",
+    "cheap",
+    "robust"
+   ],
+   "posterior": {
+    "robust": 0.5652933388489605,
+    "cheap": 0.2921901970613083,
+    "fast": 0.06201217646165419,
+    "precedent": 0.08050428762807703
+   },
+   "modal": "robust"
+  }
+ },
+ "role_battery": {
+  "summary": {
+   "own|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.4145766991159172,
+    "delta_p_y": 0.4823310855914719,
+    "follow_rate": 0.875
+   },
+   "own|negation": {
+    "n": 24,
+    "delta_p_truth": -0.15056819374750433,
+    "delta_p_y": 0.14706292221034087,
+    "follow_rate": 0.4166666666666667
+   },
+   "own|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.38630947051796255,
+    "delta_p_y": 0.4750904575184984,
+    "follow_rate": 0.9166666666666666
+   },
+   "own|background": {
+    "n": 24,
+    "delta_p_truth": -0.1617674224612032,
+    "delta_p_y": 0.16888891110550966,
+    "follow_rate": 0.4583333333333333
+   },
+   "witness|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.3929235342562644,
+    "delta_p_y": 0.48870712239252617,
+    "follow_rate": 0.9166666666666666
+   },
+   "witness|negation": {
+    "n": 24,
+    "delta_p_truth": -0.23216294092410486,
+    "delta_p_y": 0.18864887278400422,
+    "follow_rate": 0.4583333333333333
+   },
+   "witness|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.20006008506593853,
+    "delta_p_y": 0.22750932273878674,
+    "follow_rate": 0.4583333333333333
+   },
+   "witness|background": {
+    "n": 24,
+    "delta_p_truth": -0.18563231266426813,
+    "delta_p_y": 0.20482254958420307,
+    "follow_rate": 0.4583333333333333
+   },
+   "bystander|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.3796885520822841,
+    "delta_p_y": 0.4497140579956656,
+    "follow_rate": 0.75
+   },
+   "bystander|negation": {
+    "n": 24,
+    "delta_p_truth": -0.23418725081331757,
+    "delta_p_y": 0.24618222091559672,
+    "follow_rate": 0.5833333333333334
+   },
+   "bystander|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.28253130627041556,
+    "delta_p_y": 0.3137161270840411,
+    "follow_rate": 0.625
+   },
+   "bystander|background": {
+    "n": 24,
+    "delta_p_truth": -0.17522442493322896,
+    "delta_p_y": 0.18256568842282975,
+    "follow_rate": 0.4166666666666667
+   }
+  },
+  "rows": [
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.36767493515093497,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.45757884991693365,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.7416678953836959,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.11552956867283176,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.49027431600401056,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.3586923734393897,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.6745376075135786,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.11361066010333944,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.44547731728024265,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.3931323526715092,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.6765098468058366,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.11941108463901484,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.6006256195173452,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.1889952365264937,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.6686522808450479,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.1358449423925997,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.43219633934935087,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.3313764281035968,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.6917494414965711,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.12597692454962067,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.5746252382467706,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.23582573667308812,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0029|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "cheap",
+    "truth": "robust",
+    "p_truth_base": 0.7109810241553112,
+    "p_truth": 0.6653378060759942,
+    "p_y_base": 0.0962208068095013,
+    "p_y": 0.13517156603995376,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.19969419230569047,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.6755567245905072,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.21035811412230312,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.6182768804114757,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.22835207550622738,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.6505145651095684,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.3413134913292554,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.4813291715439068,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.2164342547575995,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.6771628754850569,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.15954752501194247,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.6409598640028961,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.22499515601506373,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.5656377261920178,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.3083127473865153,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.5083217543458046,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.18024363314487163,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.690944424973934,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.19526618100890555,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.6402531205136043,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.2285867839691856,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.6311483304716602,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0039|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.5412705260929705,
+    "p_truth": 0.3125816323463326,
+    "p_y_base": 0.18130292691974245,
+    "p_y": 0.49950405600034214,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.11860205124692423,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.8362258168943951,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.35618435228321094,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.5182451437035982,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.371070599128866,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.5315341236474714,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.6064595387934036,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.2567911102807571,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.177214924524996,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.7578521308730861,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.3631958555333016,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.41803586725990594,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.5366351642240952,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.3010250450350419,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.5335676036078024,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.3236251106175293,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.07697640546636529,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.894821160713429,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.3957433504437949,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.48487488869387435,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.5360363828587579,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.3302424353248422,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0050|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7651576338932005,
+    "p_truth": 0.5505173638228972,
+    "p_y_base": 0.08996825088729138,
+    "p_y": 0.31367533862243163,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.0317774259892688,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.9432969158324516,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.23766704460219826,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.6562197919559518,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.13723645447195137,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.8021779791265945,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.469766655524373,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.38945023617992686,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.06978748001960182,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.8771733664997103,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.3338308715928509,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.5170473993608738,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.341259065092407,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.5368758365466774,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.3814610069000537,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.47473589341581796,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.02848200781118231,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.9580477929692566,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.22598078751010442,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.6960698499648869,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.286059293351648,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.6248109404800122,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0062|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7265592281636502,
+    "p_truth": 0.4117683937431015,
+    "p_y_base": 0.13651644648545946,
+    "p_y": 0.4665947183918072,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.23912978030406937,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.6602584759463335,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.5870377537617242,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.26049642414780444,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.3966063187606429,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.45649107471343975,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.6789698277864307,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.17167046705349637,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.2470537146130562,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.6308737612111872,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.6345914754910229,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.19968306135553457,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.5812343652182944,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.26198286938461146,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.6429514305784546,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.19005606852583917,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.34788807822746254,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.5388195960922955,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.5869061759258454,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.26043803683706696,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.5697739633800095,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.2528356636041149,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0076|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "precedent",
+    "truth": "robust",
+    "p_truth_base": 0.7729574401840617,
+    "p_truth": 0.6344433489208978,
+    "p_y_base": 0.09827052239782919,
+    "p_y": 0.1904944495977247,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.1473629882255041,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.7966367878032543,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.3057614629248335,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.5802332659903067,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.16217214825807677,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.7982392899514833,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.3311556282159809,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.529185187114681,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.16691189401964815,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.7598272406273554,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.247678061366353,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.594148782269411,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.2125717101260044,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.707971848749316,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.26528300497615653,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.6072388458699309,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.19831272477789344,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.7253978279737715,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.2872614753397668,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.5894222765528033,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.18103645161651835,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.7387417059607669,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0089|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "fast",
+    "truth": "robust",
+    "p_truth_base": 0.6735509417652713,
+    "p_truth": 0.3104731947309863,
+    "p_y_base": 0.09856227977532211,
+    "p_y": 0.5621942938119935,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.06504085618676884,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.6672338402459863,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.2326863205899457,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.4020459087528323,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.06852477161288409,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.6400654065625372,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.2164747863822621,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.39815806732893105,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.09715755706821554,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.6140547048543864,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.18331557378176128,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.37030763813293827,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.16914159986880972,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.5129155609848931,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.2277938538543133,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.40608645090683043,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.0925986705576539,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.6038191814894986,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.20519975209706942,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.4080884357444395,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.09056899412677324,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.5724136000436174,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0008|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.374607480104278,
+    "p_truth": 0.21322496450755724,
+    "p_y_base": 0.21013575159931833,
+    "p_y": 0.3921807301137282,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.07136293033792387,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.6261897824306955,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.2319097975447771,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.3883758251668857,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.07403227602368506,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.6496126227291378,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.1504299113505515,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.49324069024066347,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.08423951470411245,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.6625951870767808,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.18459891279334467,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.3787723755826685,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.1646162234691906,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.47633283657532216,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.16015917818446232,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.49332496974818557,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.10245829739100652,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.5804657516996571,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.18793535728299351,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.41695278912335787,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.1204485555331949,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.5150931389986874,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0026|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.34254332822370015,
+    "p_truth": 0.1999895520667976,
+    "p_y_base": 0.25856526954036774,
+    "p_y": 0.4300450909708659,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.08363940861428674,
+    "p_y_base": 0.2441779565991825,
+    "p_y": 0.5627102285651716,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.18112084954278926,
+    "p_y_base": 0.2441779565991825,
+    "p_y": 0.383432818636609,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.04832394277879864,
+    "p_y_base": 0.2441779565991825,
+    "p_y": 0.7326566956192813,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.1360441308153747,
+    "p_y_base": 0.2441779565991825,
+    "p_y": 0.3584285452914414,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.09196501059757056,
+    "p_y_base": 0.18145764939039116,
+    "p_y": 0.7011053877687643,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.18189793932275358,
+    "p_y_base": 0.18145764939039116,
+    "p_y": 0.4035582167904441,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.18691901849151837,
+    "p_y_base": 0.18145764939039116,
+    "p_y": 0.35470996901338675,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.14476593405460242,
+    "p_y_base": 0.18145764939039116,
+    "p_y": 0.5295317527230355,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.04383649264802155,
+    "p_y_base": 0.18145764939039116,
+    "p_y": 0.8271339729851277,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.11648596664271173,
+    "p_y_base": 0.18145764939039116,
+    "p_y": 0.5915645505626711,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.12550873843481053,
+    "p_y_base": 0.18145764939039116,
+    "p_y": 0.5042138003226916,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0044|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.3184680926036751,
+    "p_truth": 0.20689502840271412,
+    "p_y_base": 0.18145764939039116,
+    "p_y": 0.4179394457803504,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.10917537739585884,
+    "p_y_base": 0.17704324457611717,
+    "p_y": 0.5544383480055491,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.23918224124753368,
+    "p_y_base": 0.17704324457611717,
+    "p_y": 0.34261274192635927,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.07649583414712242,
+    "p_y_base": 0.17704324457611717,
+    "p_y": 0.6608231099960789,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.1969926928202603,
+    "p_y_base": 0.17704324457611717,
+    "p_y": 0.4042027369254544,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "fast",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.1662937854537508,
+    "p_y_base": 0.2964916399842754,
+    "p_y": 0.6374692153425983,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "fast",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.2118410610804904,
+    "p_y_base": 0.2964916399842754,
+    "p_y": 0.5161829627535478,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "fast",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.19489869438242036,
+    "p_y_base": 0.2964916399842754,
+    "p_y": 0.5728391189558414,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "fast",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.21920060831991142,
+    "p_y_base": 0.2964916399842754,
+    "p_y": 0.525834955063399,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "fast",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.16497622089921787,
+    "p_y_base": 0.2964916399842754,
+    "p_y": 0.632418512022615,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "fast",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.18175016584281914,
+    "p_y_base": 0.2964916399842754,
+    "p_y": 0.5776007980748817,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "fast",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.14826305101621834,
+    "p_y_base": 0.2964916399842754,
+    "p_y": 0.5773006150424999,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0057|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "fast",
+    "truth": "cheap",
+    "p_truth_base": 0.3466338454406642,
+    "p_truth": 0.22523086358958846,
+    "p_y_base": 0.2964916399842754,
+    "p_y": 0.4843224946872418,
+    "pred": "fast",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.06154911395830379,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.7981809831329586,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.2806507821913834,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.3547758311445678,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.08488948046936076,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.6471642466417041,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.23117450048240568,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.42519495401658675,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.06069302129719442,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.8378412526496304,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.2671536814058816,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.37674707684482295,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.24931379746636487,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.4307755868000463,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.21626153949382185,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.5107414260642481,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.08280322988595412,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.785615148142044,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.18844401319228454,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.520310604983601,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.13096469878853392,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.5778433504687532,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0064|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.4215976281943235,
+    "p_truth": 0.23149153598948502,
+    "p_y_base": 0.2557118723203688,
+    "p_y": 0.4977849973899272,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.1546259437816777,
+    "p_y_base": 0.1090432707164001,
+    "p_y": 0.3324980297036504,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.31564805730332696,
+    "p_y_base": 0.1090432707164001,
+    "p_y": 0.09932306799884638,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.10918424785322448,
+    "p_y_base": 0.1090432707164001,
+    "p_y": 0.572084554196678,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.16077995646511742,
+    "p_y_base": 0.1090432707164001,
+    "p_y": 0.20324490899655415,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.032254176838027206,
+    "p_y_base": 0.2615812080949382,
+    "p_y": 0.9279914638550093,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.16924115042477075,
+    "p_y_base": 0.2615812080949382,
+    "p_y": 0.5907096574978388,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.16282798706777624,
+    "p_y_base": 0.2615812080949382,
+    "p_y": 0.654138661436554,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.13571760587347256,
+    "p_y_base": 0.2615812080949382,
+    "p_y": 0.7111093886292937,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.034731276649001046,
+    "p_y_base": 0.2615812080949382,
+    "p_y": 0.9098371345181901,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.09623546007470894,
+    "p_y_base": 0.2615812080949382,
+    "p_y": 0.7809787628389743,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.09585044094837716,
+    "p_y_base": 0.2615812080949382,
+    "p_y": 0.7657946173896232,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0066|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "precedent",
+    "truth": "cheap",
+    "p_truth_base": 0.2828367235346038,
+    "p_truth": 0.10838263490887583,
+    "p_y_base": 0.2615812080949382,
+    "p_y": 0.7641720810758507,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.22346491371706473,
+    "p_y_base": 0.08353184814066844,
+    "p_y": 0.6267228492050756,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.6196872062288014,
+    "p_y_base": 0.08353184814066844,
+    "p_y": 0.19499323090441734,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.29549924301135216,
+    "p_y_base": 0.08353184814066844,
+    "p_y": 0.5876704168098793,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.7043890970979738,
+    "p_y_base": 0.08353184814066844,
+    "p_y": 0.15717045672632332,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.29088008093211337,
+    "p_y_base": 0.05652047568441795,
+    "p_y": 0.4366626939304021,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.5424553303014992,
+    "p_y_base": 0.05652047568441795,
+    "p_y": 0.1816997758121846,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.3863225137392804,
+    "p_y_base": 0.05652047568441795,
+    "p_y": 0.3409284014526929,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.5157895649830879,
+    "p_y_base": 0.05652047568441795,
+    "p_y": 0.18974837692803972,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.21305309658507765,
+    "p_y_base": 0.05652047568441795,
+    "p_y": 0.495363261372103,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.5432421779972746,
+    "p_y_base": 0.05652047568441795,
+    "p_y": 0.1763649029477713,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.22259401902556067,
+    "p_y_base": 0.05652047568441795,
+    "p_y": 0.48619003683833667,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0005|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.7802410298583617,
+    "p_truth": 0.6057318605071165,
+    "p_y_base": 0.05652047568441795,
+    "p_y": 0.14613960363527614,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.1411574020794163,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.7057426300477843,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.5681745731775136,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.2190508114466639,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.263853708656537,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.594603511192725,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.6599207096354404,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.1748615906630784,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.35085188533736716,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.5025721216528967,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.5090363331350676,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.268243281573067,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.5876695154988376,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.23743994810507088,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.6203224106363339,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.21437767595426802,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.29640275346382916,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.5202030328025485,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.5870308898615038,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.22988459950285314,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.5218398208327838,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.3265590154520809,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0011|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7342850961521147,
+    "p_truth": 0.6208768156706584,
+    "p_y_base": 0.10252916636176575,
+    "p_y": 0.22840781598522644,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.10715180501051448,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.7097208025312814,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.6267179814432038,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.1795577079620135,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.23661679272253844,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.5765527665025695,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.5277517013809095,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.2869336059826655,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.14321882626404756,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.7160490815125028,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.5691025526462438,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.18189610110330892,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.4788334496322997,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.33954373925370573,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.48040327227214913,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.3101716648336505,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.09979525037390284,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.7608000831647204,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.3625210403315955,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.4582695620969419,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.23162778732878292,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.6102579388301587,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0017|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6745579471309803,
+    "p_truth": 0.5155709120465796,
+    "p_y_base": 0.16530752934972465,
+    "p_y": 0.28472529941050667,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.08760316201972004,
+    "p_y_base": 0.1454634139656371,
+    "p_y": 0.722120508180084,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.5911432488198571,
+    "p_y_base": 0.1454634139656371,
+    "p_y": 0.17474160016288304,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.18458738389384793,
+    "p_y_base": 0.1454634139656371,
+    "p_y": 0.5958553386342914,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.4473304527977995,
+    "p_y_base": 0.1454634139656371,
+    "p_y": 0.32220005746610664,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.08256613695500198,
+    "p_y_base": 0.07546541602187588,
+    "p_y": 0.6805998913587841,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.2937572982093303,
+    "p_y_base": 0.07546541602187588,
+    "p_y": 0.38916519143309103,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.4523816740185362,
+    "p_y_base": 0.07546541602187588,
+    "p_y": 0.27012941945163144,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.25226209519925685,
+    "p_y_base": 0.07546541602187588,
+    "p_y": 0.47128763956939407,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.06942301394502902,
+    "p_y_base": 0.07546541602187588,
+    "p_y": 0.7121889862889886,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.30959748915776686,
+    "p_y_base": 0.07546541602187588,
+    "p_y": 0.37344585656688245,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.10320392690602341,
+    "p_y_base": 0.07546541602187588,
+    "p_y": 0.6322007732861783,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0041|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "precedent",
+    "truth": "fast",
+    "p_truth_base": 0.6621880471787759,
+    "p_truth": 0.25401735442081663,
+    "p_y_base": 0.07546541602187588,
+    "p_y": 0.42539901579986406,
+    "pred": "precedent",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.23338999824331902,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.6149007462104422,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.6156569419324747,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.19372505197698386,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.20629207679692815,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.6764056791430381,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.6762429476905302,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.17640852342782387,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.250213437534036,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.6192842054608978,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.5193388269531406,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.2611399618584251,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.5916866110708483,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.2708938702618201,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.6548093122991296,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.19660941521820768,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.3118647096406175,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.5473396109963371,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.541512459273634,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.2853570304297181,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.41789308616298215,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.4448448746405781,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0054|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.7697737343182224,
+    "p_truth": 0.6165412387236041,
+    "p_y_base": 0.08910776686866761,
+    "p_y": 0.23401265896885018,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.0895483006510239,
+    "p_y_base": 0.23698025919223406,
+    "p_y": 0.7735792737153843,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.5098663108502545,
+    "p_y_base": 0.23698025919223406,
+    "p_y": 0.2446365148789076,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.09687728643791352,
+    "p_y_base": 0.23698025919223406,
+    "p_y": 0.7861873471164003,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.31976117902547585,
+    "p_y_base": 0.23698025919223406,
+    "p_y": 0.46524979794130916,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.29717778133881567,
+    "p_y_base": 0.09574868010086802,
+    "p_y": 0.41259051404424113,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.3945947096824646,
+    "p_y_base": 0.09574868010086802,
+    "p_y": 0.21453742243407622,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.5148058530779446,
+    "p_y_base": 0.09574868010086802,
+    "p_y": 0.19539826205446137,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "cheap",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.5245335937700031,
+    "p_y_base": 0.09574868010086802,
+    "p_y": 0.1574935452549782,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.36231487487610553,
+    "p_y_base": 0.09574868010086802,
+    "p_y": 0.2303013465736997,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.4675146796513284,
+    "p_y_base": 0.09574868010086802,
+    "p_y": 0.17469746194448288,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.4303613835558938,
+    "p_y_base": 0.09574868010086802,
+    "p_y": 0.15832110528431098,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0068|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "cheap",
+    "truth": "fast",
+    "p_truth_base": 0.5257636846806886,
+    "p_truth": 0.5081887103838166,
+    "p_y_base": 0.09574868010086802,
+    "p_y": 0.14559850323515736,
+    "pred": "fast",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.15291846768110426,
+    "p_y_base": 0.08250211951385587,
+    "p_y": 0.6853330456837656,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.5169104326723382,
+    "p_y_base": 0.08250211951385587,
+    "p_y": 0.20885069426224553,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.16368417585942024,
+    "p_y_base": 0.08250211951385587,
+    "p_y": 0.6891361207104821,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.355888933922284,
+    "p_y_base": 0.08250211951385587,
+    "p_y": 0.4032749949376381,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.3195658530834465,
+    "p_y_base": 0.06629231540657594,
+    "p_y": 0.3678180422632639,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.2552758467038199,
+    "p_y_base": 0.06629231540657594,
+    "p_y": 0.15727088681085638,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.5431168888171312,
+    "p_y_base": 0.06629231540657594,
+    "p_y": 0.22640481668859547,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.4673147986627469,
+    "p_y_base": 0.06629231540657594,
+    "p_y": 0.18881223545404432,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.3080562015044797,
+    "p_y_base": 0.06629231540657594,
+    "p_y": 0.25940932997186616,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.32478848479018085,
+    "p_y_base": 0.06629231540657594,
+    "p_y": 0.18797315393718286,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.3700671475240849,
+    "p_y_base": 0.06629231540657594,
+    "p_y": 0.2707469088883231,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0004|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7469131138233418,
+    "p_truth": 0.4211807647883383,
+    "p_y_base": 0.06629231540657594,
+    "p_y": 0.19586725731250687,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.13030384623414507,
+    "p_y_base": 0.329023615951118,
+    "p_y": 0.7382214981657783,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.3627865156372283,
+    "p_y_base": 0.329023615951118,
+    "p_y": 0.38618423566594684,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.12045245462624316,
+    "p_y_base": 0.329023615951118,
+    "p_y": 0.785448716033892,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.3595075883294633,
+    "p_y_base": 0.329023615951118,
+    "p_y": 0.41379069773015215,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.09700644160542224,
+    "p_y_base": 0.08450024299051473,
+    "p_y": 0.6227545027849206,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.23341899978449002,
+    "p_y_base": 0.08450024299051473,
+    "p_y": 0.26449837852220076,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.28030044195876874,
+    "p_y_base": 0.08450024299051473,
+    "p_y": 0.17001081197899467,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.3013735389070741,
+    "p_y_base": 0.08450024299051473,
+    "p_y": 0.1539265419672599,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.1969692422344096,
+    "p_y_base": 0.08450024299051473,
+    "p_y": 0.30987611412755534,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.24887377569492453,
+    "p_y_base": 0.08450024299051473,
+    "p_y": 0.17374189624051548,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.20079924553261322,
+    "p_y_base": 0.08450024299051473,
+    "p_y": 0.28317232384353136,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s1|w0007|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.3342049839732538,
+    "p_truth": 0.24970762359639467,
+    "p_y_base": 0.08450024299051473,
+    "p_y": 0.12361423741635083,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.20595216741490446,
+    "p_y_base": 0.24950503398189516,
+    "p_y": 0.6443672871588627,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.41193815332685013,
+    "p_y_base": 0.24950503398189516,
+    "p_y": 0.3468867038627434,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.11301898989859449,
+    "p_y_base": 0.24950503398189516,
+    "p_y": 0.7968614759079173,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.2881355027364314,
+    "p_y_base": 0.24950503398189516,
+    "p_y": 0.5217459925281928,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.1448568446130013,
+    "p_y_base": 0.09178776152876682,
+    "p_y": 0.600414900218708,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.2479242635692767,
+    "p_y_base": 0.09178776152876682,
+    "p_y": 0.2479242635692767,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.1903726001408674,
+    "p_y_base": 0.09178776152876682,
+    "p_y": 0.44262955673559873,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.28486016841371853,
+    "p_y_base": 0.09178776152876682,
+    "p_y": 0.23987631173463358,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.13514695316180958,
+    "p_y_base": 0.09178776152876682,
+    "p_y": 0.6249132546569023,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.24313209803282004,
+    "p_y_base": 0.09178776152876682,
+    "p_y": 0.4008570616166592,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.15653906142089474,
+    "p_y_base": 0.09178776152876682,
+    "p_y": 0.554979165044053,
+    "pred": "cheap",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0020|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.5711227105841985,
+    "p_truth": 0.24676941250616258,
+    "p_y_base": 0.09178776152876682,
+    "p_y": 0.2840298527601797,
+    "pred": "robust",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.1752630676779865,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.6931788587025179,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.5723118454849061,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.19170045570658797,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.13614233777033485,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.7834450145538817,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.439072062963591,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.4060752763482679,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.09886844567539597,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.8278154467984453,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.3764381614681051,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.31699271355477737,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.4057089041152444,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.45972841709362655,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.3575635729041378,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.5121862007338832,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.1448052078168368,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.7469620757395642,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.3156015799852402,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.45207839056550064,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.4058918821491338,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.4388737665539364,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s2|w0038|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.6057168936752203,
+    "p_truth": 0.5756460290217498,
+    "p_y_base": 0.23352466535853908,
+    "p_y": 0.23996496627791988,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.5976227600407038,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.2377179100555469,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.6043389804365942,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.1435430896446139,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.5360277734839776,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.34608552144604887,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.7077323823312212,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.14604883194726698,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.266629293994834,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.5557032013844921,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.45202082063448734,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.1586742315276413,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.6565045701620406,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.19406236869554375,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.7159698469720056,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.13244109669019527,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.5390099949619379,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.3023572043445112,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.6108119446643292,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.17228742004186018,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.6101558022373483,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.23523600303873124,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0042|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7955902704355541,
+    "p_truth": 0.6340454274672437,
+    "p_y_base": 0.06737906306144031,
+    "p_y": 0.18742345919161185,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "own",
+    "form": "affirmative",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.47763508919176517,
+    "p_y_base": 0.08478507303929327,
+    "p_y": 0.3386940148826547,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "own",
+    "form": "negation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.6884432507930454,
+    "p_y_base": 0.08478507303929327,
+    "p_y": 0.15123092147784475,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "own",
+    "form": "quotation",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.34984478163725474,
+    "p_y_base": 0.08478507303929327,
+    "p_y": 0.5090211840712109,
+    "pred": "robust",
+    "followed_y": true
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "own",
+    "form": "background",
+    "y": "robust",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.6592373377819023,
+    "p_y_base": 0.08478507303929327,
+    "p_y": 0.1802254591694088,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "witness",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.5940042615830506,
+    "p_y_base": 0.07366254800288285,
+    "p_y": 0.27623765203684447,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "witness",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.6428110823641415,
+    "p_y_base": 0.07366254800288285,
+    "p_y": 0.1265770070681443,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "witness",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.7073032974872796,
+    "p_y_base": 0.07366254800288285,
+    "p_y": 0.11546409269978362,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "witness",
+    "form": "background",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.6869822892042008,
+    "p_y_base": 0.07366254800288285,
+    "p_y": 0.09896918232064997,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "bystander",
+    "form": "affirmative",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.6466168368940598,
+    "p_y_base": 0.07366254800288285,
+    "p_y": 0.17133641511460665,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "bystander",
+    "form": "negation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.6874079964230985,
+    "p_y_base": 0.07366254800288285,
+    "p_y": 0.09749518258501652,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "bystander",
+    "form": "quotation",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.6820396568040197,
+    "p_y_base": 0.07366254800288285,
+    "p_y": 0.1281514584772555,
+    "pred": "precedent",
+    "followed_y": false
+   },
+   {
+    "unit_id": "I02|workshop|s0|w0048|pilot|gate",
+    "role": "bystander",
+    "form": "background",
+    "y": "cheap",
+    "truth": "precedent",
+    "p_truth_base": 0.7439653580744713,
+    "p_truth": 0.6974880956056898,
+    "p_y_base": 0.07366254800288285,
+    "p_y": 0.0989248446130924,
+    "pred": "precedent",
+    "followed_y": false
+   }
+  ]
+ }
+}

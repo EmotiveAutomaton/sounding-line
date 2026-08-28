@@ -1,0 +1,211 @@
+{
+ "card": "H03",
+ "written_at": "2026-08-27T23:05:03",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "audit": {
+  "n_events": 61504,
+  "n_projects": 5,
+  "authors_per_project": {
+   "1": [
+    0
+   ],
+   "2": [
+    0
+   ],
+   "3": [
+    0
+   ],
+   "4": [
+    0
+   ],
+   "5": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  "timestamp_monotone_within_project": true,
+  "labels": [
+   "Citation Integration",
+   "Clarity",
+   "Coherence",
+   "Cross-reference",
+   "Fluency",
+   "Idea Generation",
+   "Idea Organization",
+   "Linguistic Style",
+   "Macro Insertion",
+   "Object Insertion",
+   "Scientific Accuracy",
+   "Section Planning",
+   "Structural",
+   "Text Production",
+   "Visual Formatting"
+  ],
+  "author_overlap_with_other_projects": {
+   "1": [
+    0
+   ],
+   "2": [
+    0
+   ],
+   "3": [
+    0
+   ],
+   "4": [
+    0
+   ],
+   "5": [
+    0
+   ]
+  },
+  "run_length_mean": 22.554630593132153,
+  "boundary_rate": 0.12111407388137357
+ },
+ "per_project": {
+  "1": {
+   "n": 14216,
+   "authors": [
+    0
+   ],
+   "task1": {
+    "majority_logloss": 0.3032947949348313,
+    "majority_balanced_acc": 0.5,
+    "majority_class": 0,
+    "duration_logloss": 0.5157990005921097,
+    "duration_balanced_acc": 0.7277274139115447,
+    "text_plus_duration_logloss": 0.4660049825300916,
+    "text_plus_duration_balanced_acc": 0.7046113061876474
+   },
+   "task2": {
+    "n_boundaries": 1222,
+    "majority": 0.25368248772504093,
+    "markov_oracle_prev": 0.2995090016366612,
+    "markov_predicted_prev": 0.15548281505728315,
+    "prev_label_read_accuracy": 0.6608047270680923
+   }
+  },
+  "2": {
+   "n": 5058,
+   "authors": [
+    0
+   ],
+   "task1": {
+    "majority_logloss": 0.4723587594358454,
+    "majority_balanced_acc": 0.5,
+    "majority_class": 0,
+    "duration_logloss": 0.6811707751562497,
+    "duration_balanced_acc": 0.6873275038698416,
+    "text_plus_duration_logloss": 0.7624218465561232,
+    "text_plus_duration_balanced_acc": 0.664860191680664
+   },
+   "task2": {
+    "n_boundaries": 870,
+    "majority": 0.2149425287356322,
+    "markov_oracle_prev": 0.2597701149425287,
+    "markov_predicted_prev": 0.1206896551724138,
+    "prev_label_read_accuracy": 0.476077500988533
+   }
+  },
+  "3": {
+   "n": 6640,
+   "authors": [
+    0
+   ],
+   "task1": {
+    "majority_logloss": 0.27121250514880857,
+    "majority_balanced_acc": 0.5,
+    "majority_class": 0,
+    "duration_logloss": 0.4381612293836019,
+    "duration_balanced_acc": 0.7590633433017597,
+    "text_plus_duration_logloss": 0.3671894054083152,
+    "text_plus_duration_balanced_acc": 0.7441458087424628
+   },
+   "task2": {
+    "n_boundaries": 466,
+    "majority": 0.2982832618025751,
+    "markov_oracle_prev": 0.351931330472103,
+    "markov_predicted_prev": 0.12446351931330472,
+    "prev_label_read_accuracy": 0.7608433734939759
+   }
+  },
+  "4": {
+   "n": 8347,
+   "authors": [
+    0
+   ],
+   "task1": {
+    "majority_logloss": 0.3486582696853033,
+    "majority_balanced_acc": 0.5,
+    "majority_class": 0,
+    "duration_logloss": 0.6277943408522582,
+    "duration_balanced_acc": 0.7001787616936479,
+    "text_plus_duration_logloss": 0.6327765987856554,
+    "text_plus_duration_balanced_acc": 0.7067884683909202
+   },
+   "task2": {
+    "n_boundaries": 924,
+    "majority": 0.20346320346320346,
+    "markov_oracle_prev": 0.262987012987013,
+    "markov_predicted_prev": 0.18073593073593072,
+    "prev_label_read_accuracy": 0.5446268120282737
+   }
+  },
+  "5": {
+   "n": 27238,
+   "authors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "task1": {
+    "majority_logloss": 0.42416206766848724,
+    "majority_balanced_acc": 0.5,
+    "majority_class": 0,
+    "duration_logloss": 0.611668157052783,
+    "duration_balanced_acc": 0.668454534871102,
+    "text_plus_duration_logloss": 0.6619480920702819,
+    "text_plus_duration_balanced_acc": 0.6673637461885507
+   },
+   "task2": {
+    "n_boundaries": 3962,
+    "majority": 0.26198889449772844,
+    "markov_oracle_prev": 0.3160020191822312,
+    "markov_predicted_prev": 0.14840989399293286,
+    "prev_label_read_accuracy": 0.49412585358690064
+   }
+  }
+ },
+ "primary_text_plus_duration_minus_duration_bacc": {
+  "point": -0.010996407291530152,
+  "lo": -0.021087115770145416,
+  "hi": -0.0007457961559823812,
+  "n_units": 5,
+  "n_boot": 2000
+ },
+ "logloss_improvement": {
+  "point": -0.0031494844626929752,
+  "lo": -0.05360885415362844,
+  "hi": 0.043074324045588766,
+  "n_units": 5,
+  "n_boot": 2000
+ },
+ "cpu_minutes": 42.19
+}

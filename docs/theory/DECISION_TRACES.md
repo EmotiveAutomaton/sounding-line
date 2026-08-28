@@ -139,6 +139,18 @@ counterfactuals, or longitudinal preferences that predict which upstream choices
 controlled beyond the shared-brief rival. In their absence, the honest output is an equivalence
 class of contribution graphs.
 
+> It is part of what expertise looks like as people work out a shared language in a given goal
+> space. They're allowed to make more precise elaborations within their own exploration of that
+> space and still be understood.
+
+*2026-08-27 walkthrough; spoken wording lightly reconstructed.*
+
+**Shared conventions can support new local choices while carrying inherited organization.** A later
+maker may preserve an earlier goal and change its realization. This can make communication easier
+while making individual origin harder to identify. Inherited structure, present causal control,
+credit, and historical attribution are different questions; none is settled by counting visible
+elaborations.
+
 The essay already names polish's first half. Aesthetics is *"the honeypot... the word for how much an
 object forces you to stare at it."* **Polish is honeypot density plus scaffolding density. It is not
 a synonym for quality and it is not a synonym for AI.** A ten-item reading sample populated all
@@ -385,7 +397,7 @@ file owns the trace classes.)
 
 | # | hypothesis | status |
 |---|---|---|
-| **G171** | Later structural dependence separates an integrated accident from abandonment, repair, and purpose, while origin stays unresolved (the ordered-accident sequence read mechanically) | **RULER PASSES BOTH SEEDS (test-side toy, L159), one recorded repair.** All eight pattern-violation classes at or near 1.0 in the constructed world, unfamiliar convention never called error, wrong-goal read as model revision at 1.0, and ZERO confident origin calls on the origin-identical pair (integrated vs pseudo-accident) — adoption identifiable, origin honestly abstained, the §2.2 ruling behaving as theory. Text transfer is a Stage-2 branch carrying the origin-abstention gate |
+| **G171** | Later structural dependence separates an integrated accident from abandonment, repair, and purpose, while origin stays unresolved (the ordered-accident sequence read mechanically) | **RULER PASSES BOTH SEEDS (test-side toy, L159), one recorded repair.** All eight pattern-violation classes at or near 1.0 in the constructed world, unfamiliar convention never called error, wrong-goal read as model revision at 1.0, and ZERO confident origin calls on the origin-identical pair (integrated vs pseudo-accident), with adoption identifiable and origin honestly abstained, the §2.2 ruling behaving as theory. Text transfer is a Stage-2 branch carrying the origin-abstention gate |
 | **S-3** | An involuntary leak channel is readable | **SUPPORTED (sim)** at 0.90 |
 | **T-4** | Amplifying the display makes concealment *more* detectable, his direction against mine | **SUPPORTED (sim)**, surviving a reader wrong about almost everything including a 50% channel swap, but **failing at 25% concealment: it reads effort spent hiding, and catches heavy concealers only** |
 | **PD-12** | Function words have spare capacity beyond author identity | **SUPPORTED (test).** Author held fixed, they separate different works by the same person at twice chance, ten of ten authors above chance |
@@ -555,6 +567,7 @@ many aligned motivations *should* read as more intentional:
 | **G55** | Diversity rises with expertise while agreement about purpose stays flat | **OPEN.** A two-measure prediction using quantities that already exist, and the second attempt must survive a difficulty control that neither prior try would have |
 | **PD-7** | Commercial work shows lower purpose *breadth* | **INSTRUMENT DEAD (sim, twice).** The breadth measure read difficulty |
 | **G3** | Half A of a web corpus contains more recoverable method than half B | **VOID (test), twice over** |
+| **P02** | Process geometry the final artifact does not carry (segmentation, then a prefix) buys recovery of the recorded first action that pixels alone do not | **SUPPORTED (test, L238), one corpus.** With the strokes as an unordered set a learned ordering prior finds the first stroke at 0.69 against 0.49 for the longest-stroke rule (permutation floor 0.22); with the true first stroke given, the next stroke's placement is predicted at 0.50 against 0.35 |
 
 **What the table says.** The layered end of the topology is the best-evidenced thing in this file,
 with three independent measures peaking where motivations stack, while the flattened end now
@@ -571,9 +584,17 @@ translation layer able to mimic invertibility. The soul claim's mechanism matter
 section, since if expertise does not move decisions into drives, the residue account of values
 loses its engine. The topology remains a good description whose positive half is measured and
 whose flattened half keeps refusing to be, now with the added burden that any flattening claim
-names which production account the evidence discriminates toward.
+names which production account the evidence discriminates toward. The non-invertible end
+now has one measured boundary from outside text: a drawing's final raster carries its
+first action no better than a placement prior, while the same drawing's strokes as an
+unordered set let a learned ordering prior find that first stroke in seven of ten against
+five for the best geometric rule, and the true first stroke given places the next at half
+against a third (P02), so what the artifact drops is recoverable from segmentation and a
+prefix, each an access level the reader must be granted; that bounds inversion of the
+artifact, and it says nothing about recovering the maker.
 Confidence: the stacked-motivations reversal is replicated and controlled; the convergence null is
-one bad test away; the rest is untested or instrument-dead.
+one bad test away; the process-geometry boundary is one bad test away, one corpus; the rest
+is untested or instrument-dead.
 
 # Part II: The measurement ledger
 
@@ -592,6 +613,7 @@ deaths turned out to belong to a broken control, not to the features.**
 | **PD-23** | A larger feature bank beats a small curated set | **REJECTED (sim).** Sixty generic features gain little and lose more in the worst case |
 | **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, first attempt NULL (test, L125), stacking RE-GATED (test, L137).** The first real stack, 158 surface-change channels concatenated into a style-change classifier's head, did not beat the substrate and doubled its seed variance, exactly the outcome the L4 conditions exist to catch (beat the best component on held-out data, with different errors). Choice recovery is now confirmed at confirmatory grade (L141 after the L137 demotion arc), but stacking still waits on the four Phase 2.1 gates in the evaluation contract, and the exploratory reads split them: family transfer and abstention behave (gates 2 and 4), the echo contest is open at eleven points over a 0.80 bar (gate 3), and artifact-only recovery of REALIZED problem-directed choices (gate 1) is unmeasurable until the rebuilt factorial supplies verified realization. The standing warning holds: stacking shared confounds produces a strong confound |
 | **rung −1** | No measure reads noise as maximum intent | **SUPPORTED (test).** The only ceiling control in the project |
+| **P01** | A finished drawing's raster constrains its recorded first action beyond category and ink priors | **OPEN, first read INCONCLUSIVE (test, L237).** +0.04 balanced accuracy over the ink-placement prior with the interval crossing zero; raw accuracy favors the raster because it predicts the majority quadrant; a rotated raster falls to chance, so the pixels carry placement |
 
 **What the table says.** Every cheap property of a text that correlates with dose also correlates
 with something cheaper, and the cheaper thing wins, down to raw description length. The funnel
@@ -610,11 +632,34 @@ licenses is a claim about human intent or depth, since dose is instruction count
 generator; the program's factorial benchmark is the construct test, and its first corpus is
 exploratory until realization is adjudicated. The funnel's own history, direct counts falling to
 length and then vocabulary, the 342-feature bank, the survivors dying to an induction check
-whose regressors turned out to contain the dose, lives in the git record rather than here.
+whose regressors turned out to contain the dose, lives in the git record rather than here. The first artifact-side read outside text lands
+here too, and it lands the same way: a raster of a finished drawing places its recorded
+first stroke no better than the ink-placement prior on the balanced estimand (P01), the
+raw-accuracy edge is the majority quadrant, and a rotated raster loses everything, so what
+final pixels carry of an action is placement at a coarse grain, which the terminal
+organisation section's access ladder (P02) is what moves.
 Confidence: the funnel and the deaths are replicated and controlled; the three revivals are one
-bad test away by age.
+bad test away by age; the drawing read is one bad test away and cannot yet exclude its
+own null.
 
 ## §6. Controlled change: revision, and the one human comparison
+
+> I would expect, in general, for most consecutive edits to serve a continuing intention. Not
+> always.
+>
+> [...]
+>
+> It feels like we're in a world where we have to interact with scalars more than binaries and
+> categories.
+
+*2026-08-27 walkthrough; spoken wording lightly reconstructed.*
+
+**Discrete edits can express continuously changing goal weights.** A continuing communicative
+intention can coexist with changing emphasis on precision, professionalism, concealment, or
+audience response. Earlier choices may leave dependencies after their explicit markers disappear;
+complete removal can also leave no identifying trace. An unusual surviving detail is a cue with
+rivals, including convention, constraint, and accident. Neither an annotation run nor an odd
+detail uniquely identifies a governing goal.
 
 **86 university students, one prompt, three drafts each. Maker, prompt, topic, register, and genre
 all fixed by construction.**
@@ -630,11 +675,13 @@ all fixed by construction.**
 | **G168** | Recorded ratification roles (selection among alternatives; veto and forced revision) are recoverable from the final artifact | **BLIND AT EXACTLY CHANCE with ceilings passed (test, L160; preregistered).** Selection and veto sit at 0.500 artifact-only against near-perfect process-aware ceilings (0.975, 1.0), on a corpus whose own audit proves the selected thesis survives into the text at 0.95 integrity. Ratification is real and invisible: the contribution network is a records object, and the product surface is auditing, never inference. The repair question's ceiling failed (a two-hop format defect, uninterpreted, owed a fix before any reopen) |
 | **G166** | Production route identity (which of five recorded ways an essay was made) is recoverable from the final artifact | **SEMANTICALLY BLIND, STATISTICALLY LOUD (test, L154; preregistered, ceiling passed).** The reader abstains at 0.70 to 0.85 per route (0.07 committed-correct against 0.2 chance) while a five-feature mechanical baseline reads route at 0.48 and the process-aware ceiling passes at 0.78. Final artifacts underdetermine route as a story and mark it as surface residue; whether the residue is route structure or generation-style covariates is the owed trace-erasure follow-up, and the artifact-only equifinality claim narrows to the audit interface meanwhile |
 | **G159** | Verified executed instructions leave recoverable evidence in the final artifact, against uninstructed twins with echo and consequence controlled | **SUPPORTED WITH THE ECHO CAP DISCLOSED (test, L146; preregistered, all gates quiet).** Executed problem-pool instructions recover at 0.86 in BOTH families against 0.22 on identical twins where nothing was executed (effect 0.64, z = 9.1); the twin leak gate, whose expectation is chance under null AND alternative, stayed quiet. The card's echo-disclosure rule fired: word overlap alone recovers executed instructions at 0.73, because executing a semantic instruction embeds its vocabulary, so the reader's demonstrated contribution beyond words is thirteen points, family-stable. The paired-delta interface adds nothing here (0.83) since the final text already realizes the choices; fabrication is context-dependent (0.05 on cold essays, 0.40 on visibly rewritten twins); the constraint-verification null replicates (surface arm 0.25 with the mechanical oracle at 1.0). The decomposition then overturned the cap (test, L148): on the 27 events where word overlap points at the WRONG candidate the reader still recovers at 0.852 against 0.22 in the twins, statistically unchanged from its echo-right cell, so the recovery evidence is echo-independent semantic realization that merely correlates with echo in aggregate |
-|   | | *(this row's history now includes reader-form robustness: a non-generative conditional-likelihood reader, scoring only how well each candidate predicts the text, recovers the same recorded revisions at 0.78 against the 0.25 floor (test, L161) — the recovery does not depend on the prompted, answer-generating form)* |
-| **H05-S3** | The next writing intention is mostly carried by intention persistence, not text | **SUPPORTED (test, L173).** 87.9% of consecutive ScholaWrite edits share an intention; a no-text previous-label rule scores 0.883 under leave-one-project-out against the majority floor 0.591 and the faithful text arms' 0.580/0.546 (different inputs, shown for scale). Human process traces run in long temporal coherence-runs — records-side structure artifact-only reading cannot see. **Grain-bound (L174):** the same predictor drops to 0.394 (floor 0.382) on whole-revision purposes (self-transition 0.354) — persistence lives WITHIN an act; between acts, purposes switch |
-| **H01-S3** | Author purpose is harder to recover than surface detail on human exam passages | **REVERSED (test, L205), scope-bound (L206).** Purpose beats detail (+0.052, p=0.023) on the dense split with real passage lifts over question-only floors; the edge closes to +0.012 on the simpler split. Intended purpose is the EASY inversion — the bard's shaping, measured; unintended structure is where difficulty lives. **Adversary survived (L220):** on items where the correct option is not the longest, the edge rises to +0.087 |
-| **H04-S3** | Suggestion uptake tracks contextual fit where position and history failed | **REJECTED (test, L207).** AUC 0.499 over 3,000 balanced accept/dismiss decisions — acceptance is default-driven at every grain measured |
-| **D01-S3** | A standing director's reach is visible in and attributable from the team record | **NARROWED HARD (test, L186-L191, six cards).** Only the with-grain director moves workers (+0.17 over marginal; cheap nil, fast negative); attribution recovers one of three directors because worker priors drown direction; the dose ruler fails on known doses (firm-minus-none +0.08, ns; hedged ties firm for one worker); central and distributed worlds do not separate by per-worker agreement; per-episode direction-vs-preference attribution is at chance with the record adding bias only; record-based forecasting of a fresh directed choice gains +0.04. The distributed-coherence rival's first measured case: the record identifies the WORKERS |
+|   | | *(this row's history now includes reader-form robustness: a non-generative conditional-likelihood reader, scoring only how well each candidate predicts the text, recovers the same recorded revisions at 0.78 against the 0.25 floor (test, L161), so the recovery does not depend on the prompted, answer-generating form)* |
+| **H05-S3** | Local annotation persistence predicts the next ScholaWrite label | **SUPPORTED descriptively (test, L173).** The previous-label rule scores 0.883 against a 0.591 majority floor, under leave-one-project-out (the faithful text arms read 0.580/0.546 on different inputs, shown for scale). Keystrokes and annotation spans are not independent goal episodes. ArgRewrite spreadsheet order is not a chronological edit stream, so its 0.394 result cannot establish that goals persist within acts but switch between acts (L174) |
+| **H03-S4** | The human writing record forecasts its next intention boundary beyond duration and label persistence once the text of the edit is read | **COUNTEREVIDENCE (test, L240), five projects.** Text plus duration reads 0.011 balanced accuracy UNDER duration alone on the online boundary forecast (interval below zero, four projects of five); the next distinct intention gains four to six points from an oracle previous label and loses ten from a label read off the text; the record's forecasting value is temporal, not lexical |
+| **H01-S3** | Author purpose is harder to recover than surface detail on human exam passages | **REVERSED (test, L205), scope-bound (L206).** Purpose beats detail (+0.052, p=0.023) on the dense split with real passage lifts over question-only floors; the edge closes to +0.012 on the simpler split. Intended purpose is the EASY inversion, the bard's shaping measured; unintended structure is where difficulty lives. **Adversary survived (L220):** on items where the correct option is not the longest, the edge rises to +0.087 |
+| **H04-S3** | Suggestion uptake tracks contextual fit where position and history failed | **INSTRUMENT DEAD for the proposed uptake inference (test, L207).** The implemented score is AUC 0.499, but a dismissed set of five suggestions was represented by its first suggestion. That is not the same decision unit as an individually selected suggestion. The result does not establish default-driven or indiscriminate human acceptance |
+| **H03-S3** | Social intent (why did X act, what does X want next) is recoverable by the likelihood reader above a question-only floor, as rhetorical purpose was | **SUPPORTED (test, L233; unblocked from L208 by the parquet path).** Qwen 0.54 and SmolLM 0.48 on 600 SocialIQA items against question-only floors of 0.39 (both p<1e-5, random floor 0.33), lifts of the same size as the purpose lifts on exam passages |
+| **D01-S3** | A standing director's reach is visible in and attributable from the team record | **NARROWED HARD (test, L186-L191, six cards), the with-grain reach surviving its assignment adversary (L230).** Only the with-grain director moves workers (+0.17 over marginal; cheap nil, fast negative); attribution recovers one of three directors because worker priors drown direction; the dose ruler fails on known doses (firm-minus-none +0.08, ns; hedged ties firm for one worker); central and distributed worlds do not separate by per-worker agreement; per-episode direction-vs-preference attribution is at chance with the record adding bias only; record-based forecasting of a fresh directed choice gains +0.04. The distributed-coherence rival's first measured case: the record identifies the WORKERS |
 | **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73), the raised floor DECOMPOSED (test, L126).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither. The floor's rise is 87% label-marginal alignment: matching reweighted the truth labels toward the ones the blind reader guesses by default, no text information involved, so the delta-specific remainder stands against a compositional floor rather than a covariate-information one. Owed: the powered matched replication, now the G129 confirmatory battery, whose matched draw truth-balances within common support to restore the analytic floor |
 
 **What the table says.** Recorded purposes are recoverable from the delta at confirmatory
@@ -654,16 +701,18 @@ assignment vocabulary. The reader is a semantic-correspondence instrument, not a
 verifier, and its honesty is format-bound: near-zero fabrication in forced choice with a
 none option (one invention in ten even on thousand-word unspecified texts, with real
 specifications recovered twelve points above the word-echo bar and diluting as
-specifications multiply), massive over-credit in yes/no verification. The construct question — whether
-any of this tracks decision structure rather than corpus particulars — now has its first
+specifications multiply), massive over-credit in yes/no verification. The construct question, whether
+any of this tracks decision structure rather than corpus particulars, now has its first
 preregistered answer on the rebuilt factorial: executed choices ARE recoverable from final
 artifacts against uninstructed twins, sixty-four points with every gate quiet and perfect
 family transfer, of which thirteen points exceed the word-overlap bar. The Stage-3 human rows sharpen the ground from two sides: intended
 rhetorical purpose reads MORE easily than detail on dense passages (the maker built the
-legibility in), while three thousand live uptake decisions carry no fit signal at all — human
-acceptance in that corpus is policy, not evaluation. And the director rows put a measured floor
+legibility in), while the uptake comparison does not isolate contextual fit, and local annotation
+persistence does not establish the timescale of a governing goal. And the director rows put a measured floor
 under the errata's caution: a coherent team record identified its workers, not its lead, in
-two of three directed worlds. The cap then lifted
+two of three directed worlds; social intent then reads on a second human bank at the same
+lift as purpose (L233), and the one director effect that exists survives a fresh worker
+assignment (L230). The cap then lifted
 under its own mandated decomposition: where word overlap actively misleads, the reader still
 recovers at eighty-five percent while the twins sit at chance, so the evidence is
 echo-independent semantic realization rather than lexical matching, and every future recovery
@@ -675,7 +724,7 @@ fabrication behavior: honest on cold text, intent-attributing on visibly revised
 equifinality and ratification results draw the boundary of the whole section from the other
 side, twice in one day: WHAT was
 executed is recoverable from the final artifact (sixty-four points over twins), but HOW the
-text was produced is not a readable story at all — the route among five recorded
+text was produced is not a readable story at all, since the route among five recorded
 alternatives reads as mass abstention beside loud surface residue, and genuine negotiation
 events (a thesis chosen over rejected rivals that provably survives into the text, a veto
 that provably reshaped the plan) read at exactly chance under near-perfect record-side
@@ -684,13 +733,18 @@ except as statistical
 residue whose meaning waits on a trace-erasure test. That split is the observational-
 equivalence position behaving as designed, and it routes route- and contribution-level
 auditing to interfaces
-that see records. The hurried-versus-careful commission remains the designed extension.
+that see records. The human writing record's online forecast lands beside the persistence
+rows: what predicts the next intention boundary is how long the run has lasted and how
+long since the last keystroke, and reading the text of the edit makes the forecast
+slightly worse, so the record's next-intention signal is temporal rather than lexical at
+this grain (H03-S4). The hurried-versus-careful commission remains the designed extension.
 Confidence: the paired-delta recovery claim is replicated and controlled (two batteries,
 gates quiet; scope one corpus, one reader family); the realized-choice result is one bad
 test away (preregistered, one corpus pair, one reader family); the route-blindness result
 is one bad test away, one construction deep, its surface-residue half unexplained; the
-earlier artifact-only reads stay exploratory; the collapse and floor decomposition stand
-as before.
+earlier artifact-only reads stay exploratory; the annotation result is one bad test away as a
+descriptive measurement, one corpus, five projects; the current uptake inference is
+instrument-dead; the collapse and floor decomposition stand as before.
 
 ## §7. Reader-side measurement: the second channel, briefly
 

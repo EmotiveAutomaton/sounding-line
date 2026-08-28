@@ -1,0 +1,41 @@
+{
+ "card": "A02",
+ "cell_id": "A02",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 4.76,
+ "gpu_lock_min": 4.69,
+ "exec": "COMPLETE",
+ "primary": "appraisal-aligned steering benefit, target log score",
+ "outcome": "INCONCLUSIVE",
+ "reason": "interval includes zero and cannot exclude a useful benefit",
+ "point": -0.04378429321208201,
+ "ci": [
+  -0.14566499751568313,
+  0.06049190400982639
+ ],
+ "n_units": 128,
+ "threshold": 0.03,
+ "perm_p": null,
+ "manipulation_valid": true,
+ "controls_quiet": false,
+ "marker": {
+  "contract_version": "1.0.0",
+  "contract_hash": "8ab059c41ef915da",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\A02\\metrics.json",
+    "sha256": "285cfd9e64a0e415adc37cf9f953dfbdd421607803aa2e7cf65840b774a2daf5"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\A02\\cases.jsonl",
+    "sha256": "10416b28839f5ce68167b7cdb6ea44c57b1cd38d578fd1eff05cfdf68d27d29b"
+   }
+  },
+  "written_at": "2026-08-28T02:35:20"
+ }
+}

@@ -31,8 +31,12 @@ from soundingline.s3 import S3, set_status                                      
 XSEED = 95000
 
 
-def _matrix_cases() -> list[dict]:
-    """All matrix cases with reader identity, retired filtered, from completed files."""
+def _matrix_cases(side: str | None = None) -> list[dict]:
+    """All matrix cases with reader identity, retired filtered, from completed files.
+    side=None pools both sides of the frozen md5 split (what the landed X arms did);
+    "discovery" or "confirmation" keeps one side only, by the same lineage id S07 uses,
+    so the halves are exactly S07's halves."""
+    from soundingline.s3 import lineage_side                                      # noqa: PLC0415
     cases = []
     for p2 in list(STAGE2_MX.glob("mx_orig_*.json")) \
             + list(STAGE2_MX.glob("mx_fam2_*.json")) \
@@ -43,6 +47,10 @@ def _matrix_cases() -> list[dict]:
         for c in d["cases"]:
             if c["maker"] in RETIRED:
                 continue
+            if side is not None:
+                lid = f"{c['maker']}|{c['topic_i']}|{c['goal_i']}|{c['trial']}"
+                if lineage_side(lid) != side:
+                    continue
             c["reader"] = d["reader"]
             cases.append(c)
     return cases
@@ -599,16 +607,137 @@ def arm_xv3() -> int:
     return 0
 
 
+# ── S07 refresh: the expansion contrasts by frozen side ─────────────────────────────
+# The three helpers mirror arm_s01x2 / arm_s03x3 / arm_xv1 exactly (those arms are
+# landed and stay untouched); they take the case list so one side can be analysed alone.
+
+def _siblings_contrast(cases: list[dict], seed: int) -> dict:
+    out = {}
+    for fam in ("qwen", "smollm"):
+        ex, sib = {}, {}
+        for c in cases:
+            if c["maker_family"] != fam:
+                continue
+            key = (c["maker"], c["topic_i"], c["goal_i"], c["trial"])
+            if c["reader"] == c["maker"]:
+                ex[key] = c["margin"]
+            elif fam_of(c["reader"]) == fam:
+                sib.setdefault(key, []).append(c["margin"])
+        diffs = [ex[k] - sum(v) / len(v) for k, v in sib.items() if k in ex]
+        if diffs:
+            obs, p = perm_p(diffs, seed)
+            out[fam] = {"n_pairs": len(diffs), "exact_minus_sibling": obs,
+                        "perm_p": p}
+    return out
+
+
+def _family_gradient(cases: list[dict]) -> dict:
+    table = {}
+    for fam in ("qwen", "smollm", "olmo"):
+        rungs = {"exact": [], "same_family": [], "cross_family": []}
+        for c in cases:
+            if c["maker_family"] != fam:
+                continue
+            if c["reader"] == c["maker"]:
+                rungs["exact"].append(c["margin"])
+            elif fam_of(c["reader"]) == fam:
+                rungs["same_family"].append(c["margin"])
+            else:
+                rungs["cross_family"].append(c["margin"])
+        table[fam] = {r: {"n": len(v),
+                          "mean_margin": sum(v) / len(v) if v else None}
+                      for r, v in rungs.items()}
+        vals = [table[fam][r]["mean_margin"] for r in
+                ("exact", "same_family", "cross_family")]
+        defined = [v for v in vals if v is not None]
+        table[fam]["monotone_where_defined"] = all(
+            a >= b for a, b in zip(defined, defined[1:]))
+    return table
+
+
+def _within_reader(cases: list[dict], seed: int, nperm: int = 5000):
+    readers = sorted({c["reader"] for c in cases})
+    per_reader = {}
+    pos = tot = 0
+    for r in readers:
+        own = [c["margin"] for c in cases if c["reader"] == r
+               and c["maker_family"] == fam_of(r)]
+        oth = [c["margin"] for c in cases if c["reader"] == r
+               and c["maker_family"] != fam_of(r)]
+        if not own or not oth:
+            continue
+        d = sum(own) / len(own) - sum(oth) / len(oth)
+        rng = random.Random(seed)
+        allm = [(m, True) for m in own] + [(m, False) for m in oth]
+        ge = 0
+        for _ in range(nperm):
+            rng.shuffle(allm)
+            so = [m for m, _f in allm[:len(own)]]
+            st = [m for m, _f in allm[len(own):]]
+            if abs(sum(so) / len(so) - sum(st) / len(st)) >= abs(d):
+                ge += 1
+        per_reader[r.split("/")[-1]] = {
+            "n_own": len(own), "n_other": len(oth),
+            "own_minus_other": d, "perm_p": (ge + 1) / (nperm + 1)}
+        tot += 1
+        pos += d > 0
+    return per_reader, pos, tot
+
+
+def arm_s07x() -> int:
+    """S07 refresh with the expansion contrasts: the three pre-declared analyses of
+    L217/L218/L219 recomputed on each side of the frozen md5 split separately, because
+    the landed arms pooled both sides. Confirmation criteria written before running: on
+    the reserve side alone, exact-minus-sibling above zero at p < 0.05 in both measurable
+    families, the gradient monotone in three of three families, and at least two thirds
+    of readers positive within-reader. Analysis only; no manifest cell (the frozen
+    manifest is exhausted); this is S07's sub-produce and never overwrites a landed file."""
+    t0 = time.time()
+    report = {}
+    for side in ("discovery", "confirmation"):
+        cases = _matrix_cases(side)
+        sib = _siblings_contrast(cases, XSEED + 11)
+        grad = _family_gradient(cases)
+        pr, pos, tot = _within_reader(cases, XSEED + 12 + G172_SEED0)
+        report[side] = {"n_cases": len(cases), "siblings": sib, "gradient": grad,
+                        "within_reader": {"per_reader": pr, "readers_positive": pos,
+                                          "readers_total": tot}}
+    res = report["confirmation"]
+    confirms = {
+        "siblings_positive_p05_both_families": len(res["siblings"]) == 2 and all(
+            v["exact_minus_sibling"] > 0 and v["perm_p"] < 0.05
+            for v in res["siblings"].values()),
+        "gradient_monotone_3of3": all(
+            res["gradient"][f]["monotone_where_defined"]
+            for f in ("qwen", "smollm", "olmo")),
+        "within_reader_two_thirds": res["within_reader"]["readers_positive"]
+        >= (2 * res["within_reader"]["readers_total"]) // 3,
+    }
+    dest = S3 / "S" / "S07" / "xfills.json"
+    dest.write_text(json.dumps(
+        {"cell": "E24-S3-S07", "refresh": "expansion contrasts by frozen md5 side",
+         "sides": report, "reserve_confirms": confirms,
+         "perm_seeds": {"siblings": XSEED + 11,
+                        "within_reader": XSEED + 12 + G172_SEED0},
+         "note": "the landed X arms (L217/L218/L219) pooled both sides; this is the "
+                 "split-half check, criteria pre-declared in the docstring",
+         "minutes": (time.time() - t0) / 60}, indent=1),
+        encoding="utf-8", newline="\n")
+    print(f"S07/X refresh: reserve confirms {json.dumps(confirms)}; "
+          f"n_cases {report['discovery']['n_cases']}/{res['n_cases']}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
                     choices=["s01x2", "s03x3", "xv1", "xv2", "xv3", "xv4",
-                             "xv5", "l01x1_final", "s02x1_final"])
+                             "xv5", "l01x1_final", "s02x1_final", "s07x"])
     a = ap.parse_args()
     return {"s01x2": arm_s01x2, "s03x3": arm_s03x3, "xv1": arm_xv1,
             "xv2": arm_xv2, "xv3": arm_xv3, "xv4": arm_xv4, "xv5": arm_xv5,
             "l01x1_final": arm_l01x1_final,
-            "s02x1_final": arm_s02x1_final}[a.arm]()
+            "s02x1_final": arm_s02x1_final, "s07x": arm_s07x}[a.arm]()
 
 
 if __name__ == "__main__":

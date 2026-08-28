@@ -7,23 +7,57 @@ pre-registered criteria are the ones that were written down before the runs.
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
 import pytest
 import yaml
 
 from soundingline.hashlock import LockViolation, hash_file, hash_obj
-from soundingline.locks import LOCKS, REPO_ROOT, verify_all
+from soundingline.locks import LOCKS, REPO_ROOT
+
+# The lock KEYS are the paths the artifacts had when they were locked, and two documentation
+# reorganisations have moved six of them since (docs/gateN -> docs/gates/gateN on 2026-08-08;
+# the spec off the top level on 2026-08-21). Both are recorded in docs/method/DEVIATIONS.md,
+# and `tools/verify_locks.py` is the canonical verifier that carries the mapping -- the mapping
+# lives THERE rather than in soundingline/locks.py precisely because locks.py is itself
+# hash-protected and must not be edited (CLAUDE.md, hard rules).
+#
+# This module used to call `soundingline.locks.verify_all()`, which resolves keys literally and
+# so raised FileNotFoundError on the first moved artifact. Eight tests here failed on that --
+# NOT because a lock was broken (all 21 verify byte for byte through the canonical path) but
+# because the test was reading the pre-move layout. Routed through `current_path` it agrees
+# with `tools/verify_locks.py`, which is the point: the two must not be able to disagree.
+sys.path.insert(0, str(REPO_ROOT / "tools"))
+from verify_locks import current_path                                            # noqa: E402
+
+
+def _verify_all_at_current_paths() -> None:
+    for key, expected in LOCKS.items():
+        got = hash_file(current_path(key))
+        if got != expected:
+            raise LockViolation(f"{key}: {got} != {expected}")
 
 
 def test_all_locks_hold():
     """Every locked artifact still hashes to its recorded value."""
-    verify_all()
+    _verify_all_at_current_paths()
 
 
 @pytest.mark.parametrize("rel", sorted(LOCKS))
 def test_locked_file_exists(rel):
-    assert (REPO_ROOT / rel).is_file(), f"locked artifact missing: {rel}"
+    assert current_path(rel).is_file(), f"locked artifact missing: {rel}"
+
+
+def test_the_canonical_verifier_and_this_module_agree():
+    """A control on the control's address. If `tools/verify_locks.py` passes while this module
+    fails, one of them is reading a layout the other does not, and the pre-registration is only
+    as checkable as whichever one someone happens to run."""
+    import subprocess
+    r = subprocess.run([sys.executable, str(REPO_ROOT / "tools" / "verify_locks.py")],
+                       capture_output=True, text=True, timeout=120)
+    _verify_all_at_current_paths()
+    assert r.returncode == 0, f"canonical verifier disagrees with this module: {r.stdout}"
 
 
 def test_lock_actually_fires():
@@ -38,10 +72,10 @@ def test_lock_actually_fires():
     try:
         path.write_bytes(original + b"\n# perturbation\n")
         with pytest.raises(LockViolation):
-            verify_all()
+            _verify_all_at_current_paths()
     finally:
         path.write_bytes(original)
-    verify_all()  # and it is clean again afterwards
+    _verify_all_at_current_paths()  # and it is clean again afterwards
 
 
 def test_hash_obj_is_order_stable():

@@ -1,0 +1,262 @@
+{
+ "card": "I02",
+ "gate_pass": true,
+ "readers_admitted": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "readers_failed": [],
+ "escalation": null,
+ "thresholds": {
+  "validity": 0.95,
+  "accuracy": 0.75,
+  "per_option": 0.5,
+  "swing_pp": 0.1
+ },
+ "per_reader": {
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "template": "A",
+   "repaired": false,
+   "abstraction_battery": {
+    "accuracy": 0.3333333333333333,
+    "per_option": {
+     "robust": 0.4583333333333333,
+     "cheap": 0.08333333333333333,
+     "fast": 0.4166666666666667,
+     "precedent": 0.375
+    },
+    "per_domain": {
+     "workshop": 0.25,
+     "civic": 0.4166666666666667
+    },
+    "n": 96
+   },
+   "likelihood": {
+    "accuracy": 0.9375,
+    "per_option": {
+     "robust": 1.0,
+     "cheap": 0.8333333333333334,
+     "fast": 0.9166666666666666,
+     "precedent": 1.0
+    },
+    "per_domain": {
+     "workshop": 0.9583333333333334,
+     "civic": 0.9166666666666666
+    },
+    "n": 96
+   },
+   "position_swing": 0.04166666666666663,
+   "paraphrase_swing": 0.01041666666666663,
+   "generated_validity": 1.0,
+   "generated_agreement": 1.0,
+   "per_option_ok": true,
+   "gate_pass": true,
+   "se_accuracy": 0.024705294220065465
+  },
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "template": "A",
+   "repaired": false,
+   "abstraction_battery": {
+    "accuracy": 0.3854166666666667,
+    "per_option": {
+     "robust": 0.375,
+     "cheap": 0.3333333333333333,
+     "fast": 0.375,
+     "precedent": 0.4583333333333333
+    },
+    "per_domain": {
+     "workshop": 0.4583333333333333,
+     "civic": 0.3125
+    },
+    "n": 96
+   },
+   "likelihood": {
+    "accuracy": 0.875,
+    "per_option": {
+     "robust": 1.0,
+     "cheap": 0.7916666666666666,
+     "fast": 0.9166666666666666,
+     "precedent": 0.7916666666666666
+    },
+    "per_domain": {
+     "workshop": 0.8541666666666666,
+     "civic": 0.8958333333333334
+    },
+    "n": 96
+   },
+   "position_swing": 0.08333333333333337,
+   "paraphrase_swing": 0.01041666666666663,
+   "generated_validity": 1.0,
+   "generated_agreement": 0.875,
+   "per_option_ok": true,
+   "gate_pass": true,
+   "se_accuracy": 0.03375385780420761
+  }
+ },
+ "role_battery": {
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "own|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.740028633012899,
+    "delta_p_y": 0.7769684140141933,
+    "follow_rate": 0.7916666666666666
+   },
+   "own|negation": {
+    "n": 24,
+    "delta_p_truth": -0.2972213529455966,
+    "delta_p_y": 0.14058993338181694,
+    "follow_rate": 0.125
+   },
+   "own|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.2746525491462007,
+    "delta_p_y": 0.3080422734520757,
+    "follow_rate": 0.2916666666666667
+   },
+   "own|background": {
+    "n": 24,
+    "delta_p_truth": -0.16537412290496428,
+    "delta_p_y": 0.1847306801025138,
+    "follow_rate": 0.16666666666666666
+   },
+   "witness|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.9092350020245522,
+    "delta_p_y": 0.9532806753138011,
+    "follow_rate": 0.9583333333333334
+   },
+   "witness|negation": {
+    "n": 24,
+    "delta_p_truth": -0.5261338020994692,
+    "delta_p_y": 0.4333641905495374,
+    "follow_rate": 0.5
+   },
+   "witness|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.5862308581640437,
+    "delta_p_y": 0.6255901617708237,
+    "follow_rate": 0.625
+   },
+   "witness|background": {
+    "n": 24,
+    "delta_p_truth": -0.3728635284493608,
+    "delta_p_y": 0.4182387476851715,
+    "follow_rate": 0.4166666666666667
+   },
+   "bystander|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.5585169294695707,
+    "delta_p_y": 0.5944311245529412,
+    "follow_rate": 0.5833333333333334
+   },
+   "bystander|negation": {
+    "n": 24,
+    "delta_p_truth": -0.3891296173437418,
+    "delta_p_y": 0.36004738881553316,
+    "follow_rate": 0.3333333333333333
+   },
+   "bystander|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.494108027819375,
+    "delta_p_y": 0.5352310634812988,
+    "follow_rate": 0.5416666666666666
+   },
+   "bystander|background": {
+    "n": 24,
+    "delta_p_truth": -0.3167514362975075,
+    "delta_p_y": 0.3586439917252346,
+    "follow_rate": 0.2916666666666667
+   }
+  },
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "own|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.4145766991159172,
+    "delta_p_y": 0.4823310855914719,
+    "follow_rate": 0.875
+   },
+   "own|negation": {
+    "n": 24,
+    "delta_p_truth": -0.15056819374750433,
+    "delta_p_y": 0.14706292221034087,
+    "follow_rate": 0.4166666666666667
+   },
+   "own|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.38630947051796255,
+    "delta_p_y": 0.4750904575184984,
+    "follow_rate": 0.9166666666666666
+   },
+   "own|background": {
+    "n": 24,
+    "delta_p_truth": -0.1617674224612032,
+    "delta_p_y": 0.16888891110550966,
+    "follow_rate": 0.4583333333333333
+   },
+   "witness|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.3929235342562644,
+    "delta_p_y": 0.48870712239252617,
+    "follow_rate": 0.9166666666666666
+   },
+   "witness|negation": {
+    "n": 24,
+    "delta_p_truth": -0.23216294092410486,
+    "delta_p_y": 0.18864887278400422,
+    "follow_rate": 0.4583333333333333
+   },
+   "witness|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.20006008506593853,
+    "delta_p_y": 0.22750932273878674,
+    "follow_rate": 0.4583333333333333
+   },
+   "witness|background": {
+    "n": 24,
+    "delta_p_truth": -0.18563231266426813,
+    "delta_p_y": 0.20482254958420307,
+    "follow_rate": 0.4583333333333333
+   },
+   "bystander|affirmative": {
+    "n": 24,
+    "delta_p_truth": -0.3796885520822841,
+    "delta_p_y": 0.4497140579956656,
+    "follow_rate": 0.75
+   },
+   "bystander|negation": {
+    "n": 24,
+    "delta_p_truth": -0.23418725081331757,
+    "delta_p_y": 0.24618222091559672,
+    "follow_rate": 0.5833333333333334
+   },
+   "bystander|quotation": {
+    "n": 24,
+    "delta_p_truth": -0.28253130627041556,
+    "delta_p_y": 0.3137161270840411,
+    "follow_rate": 0.625
+   },
+   "bystander|background": {
+    "n": 24,
+    "delta_p_truth": -0.17522442493322896,
+    "delta_p_y": 0.18256568842282975,
+    "follow_rate": 0.4166666666666667
+   }
+  }
+ },
+ "gpu_lock_min": 1.34,
+ "minutes": 1.35,
+ "marker": {
+  "contract_version": "1.0.0",
+  "contract_hash": "512a45508729dbee",
+  "inputs": {
+   "items": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\I02\\gate_items.json",
+    "sha256": "588d834bb8ac931142a2787daa137f9176e4e17a7699fd06e18434053fa09014"
+   }
+  },
+  "outputs": {},
+  "written_at": "2026-08-27T22:25:27"
+ }
+}

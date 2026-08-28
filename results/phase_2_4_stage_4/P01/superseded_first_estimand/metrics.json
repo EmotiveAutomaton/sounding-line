@@ -1,0 +1,104 @@
+{
+ "card": "P01",
+ "written_at": "2026-08-27T22:24:22",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "fetch": {
+  "house": {
+   "cached": false,
+   "bytes": 393216,
+   "lines": 1103,
+   "usable": 957,
+   "prefix_nonrandom": true
+  },
+  "tree": {
+   "cached": false,
+   "bytes": 589824,
+   "lines": 1054,
+   "usable": 920,
+   "prefix_nonrandom": true
+  },
+  "bicycle": {
+   "cached": false,
+   "bytes": 589824,
+   "lines": 1028,
+   "usable": 1001,
+   "prefix_nonrandom": true
+  },
+  "cat": {
+   "cached": false,
+   "bytes": 655360,
+   "lines": 1057,
+   "usable": 904,
+   "prefix_nonrandom": true
+  }
+ },
+ "counts": {
+  "house": 957,
+  "tree": 920,
+  "bicycle": 1001,
+  "cat": 904
+ },
+ "attribution": "Quick, Draw! dataset, Google Creative Lab, CC BY 4.0",
+ "target_marginal_discovery": {
+  "0": 0.5970386039132733,
+  "1": 0.09809624537281861,
+  "2": 0.2821258593336859,
+  "3": 0.022739291380222106
+ },
+ "priors_balanced_accuracy": {
+  "category_only": 0.3230089590654853,
+  "ink_max_quadrant": 0.3274574388636657,
+  "ink_min_quadrant": 0.18180379042825215,
+  "bbox_corner": 0.25
+ },
+ "raster_balanced_accuracy": 0.36445364169068567,
+ "raster_normalized_balanced_accuracy": 0.35149791702135413,
+ "rotation_transformed_labels_balanced_accuracy": 0.25571288781505086,
+ "primary_raster_minus_best_prior": {
+  "point": 0.08375634517766498,
+  "lo": 0.03807106598984772,
+  "hi": 0.1281725888324873,
+  "n_units": 788,
+  "n_boot": 2000,
+  "best_prior": "ink_max_quadrant",
+  "best_prior_bacc": 0.3274574388636657
+ },
+ "per_category": {
+  "house": {
+   "n_test": 209,
+   "raster_bacc": 0.29905245897892957,
+   "best_prior_bacc": 0.2885769459298871
+  },
+  "tree": {
+   "n_test": 185,
+   "raster_bacc": 0.38830532212885155,
+   "best_prior_bacc": 0.3450280112044818
+  },
+  "bicycle": {
+   "n_test": 199,
+   "raster_bacc": 0.35003748125937034,
+   "best_prior_bacc": 0.3774112943528236
+  },
+  "cat": {
+   "n_test": 195,
+   "raster_bacc": 0.24567099567099568,
+   "best_prior_bacc": 0.29718614718614716
+  }
+ },
+ "cpu_minutes": 0.24,
+ "metadata_stripped": [
+  "key_id",
+  "timestamp",
+  "countrycode",
+  "recognized",
+  "stroke order",
+  "direction"
+ ]
+}

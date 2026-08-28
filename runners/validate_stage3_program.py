@@ -19,6 +19,7 @@ sys.path.insert(0, str(REPO))
 
 from soundingline.s3 import (COVERAGE_PATH, STATUSES, TOTAL_ATTEMPT_FLOOR,       # noqa: E402
                              TRUNK_FLOORS, load_manifest)
+from soundingline import completion                                              # noqa: E402
 
 MANDATORY_PREFIXES = [
     "E24-S3-S01", "E24-S3-S02", "E24-S3-S03", "E24-S3-S04", "E24-S3-S05", "E24-S3-S06",
@@ -55,8 +56,20 @@ def main() -> int:
         if c["status"] not in STATUSES:
             errors.append(f"{c['cell_id']}: illegal status {c['status']}")
         if c["status"] == "LANDED":
-            if not (REPO / c["produces"]).exists():
-                errors.append(f"{c['cell_id']}: LANDED without its produce")
+            # H4 (2026-08-28): this was `exists()`. A truncated JSON left by a killed writer,
+            # a zero-byte file, and a result carrying another cell's id all passed it, so
+            # PROGRAM-EXHAUSTED could be declared over a hole while the status counts and the
+            # attempt floors both looked complete. The shared validator reads the artifact.
+            chk = completion.inspect(REPO / c["produces"],
+                                     expect={"cell_id": c["cell_id"], "lane": c.get("lane")})
+            if chk["status"] in completion.BAD:
+                errors.append(f"{c['cell_id']}: LANDED with a {chk['status']} produce "
+                              f"({chk['reason']})")
+            elif chk["status"] == completion.UNVERIFIABLE:
+                # legacy artifact predating the identity stamp: reported, never fabricated,
+                # and never silently relabelled invalid
+                warnings.append(f"{c['cell_id']}: produce carries no identity to verify "
+                                f"({chk['reason']})")
             if c.get("actual_gpu_minutes") is None:
                 errors.append(f"{c['cell_id']}: LANDED without actual runtime")
         if c["status"] in ("SCIENTIFIC_CLOSED", "INSTRUMENT_FAILED",
@@ -90,6 +103,9 @@ def main() -> int:
         "attempt_floor": TOTAL_ATTEMPT_FLOOR, "trunk_floors": TRUNK_FLOORS,
         "estimated_remaining_gpu_hours": remaining / 60,
         "program_exhausted_eligible": exhausted,
+        "produce_inventory": completion.inventory(
+            [(str(REPO / c["produces"]),
+              {"cell_id": c["cell_id"], "lane": c.get("lane")}) for c in cells])["counts"],
         "errors": errors, "warnings": warnings}, indent=1),
         encoding="utf-8", newline="\n")
 

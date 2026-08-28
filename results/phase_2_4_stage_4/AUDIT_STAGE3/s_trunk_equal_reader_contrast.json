@@ -1,0 +1,86 @@
+{
+ "full_matrix": {
+  "n_cases": 3780,
+  "contrast": {
+   "olmo": {
+    "n_artifacts": 128,
+    "own_readers_per_artifact": 1.0,
+    "equal_readers": {
+     "own_minus_other": 0.03649,
+     "perm_p": 4.999750012499375e-05
+    },
+    "legacy_last_reader": {
+     "own_minus_other": 0.03649,
+     "perm_p": 4.999750012499375e-05
+    }
+   },
+   "qwen": {
+    "n_artifacts": 123,
+    "own_readers_per_artifact": 4.0,
+    "equal_readers": {
+     "own_minus_other": 0.01374,
+     "perm_p": 4.999750012499375e-05
+    },
+    "legacy_last_reader": {
+     "own_minus_other": 0.01714,
+     "perm_p": 4.999750012499375e-05
+    }
+   },
+   "smollm": {
+    "n_artifacts": 127,
+    "own_readers_per_artifact": 3.0,
+    "equal_readers": {
+     "own_minus_other": 0.00964,
+     "perm_p": 4.999750012499375e-05
+    },
+    "legacy_last_reader": {
+     "own_minus_other": 0.00953,
+     "perm_p": 0.00034998250087495624
+    }
+   }
+  }
+ },
+ "reserve_only": {
+  "n_cases": 940,
+  "contrast": {
+   "olmo": {
+    "n_artifacts": 29,
+    "own_readers_per_artifact": 1.0,
+    "equal_readers": {
+     "own_minus_other": 0.0358,
+     "perm_p": 4.999750012499375e-05
+    },
+    "legacy_last_reader": {
+     "own_minus_other": 0.0358,
+     "perm_p": 4.999750012499375e-05
+    }
+   },
+   "qwen": {
+    "n_artifacts": 30,
+    "own_readers_per_artifact": 4.0,
+    "equal_readers": {
+     "own_minus_other": 0.01458,
+     "perm_p": 0.0008499575021248938
+    },
+    "legacy_last_reader": {
+     "own_minus_other": 0.02718,
+     "perm_p": 9.99950002499875e-05
+    }
+   },
+   "smollm": {
+    "n_artifacts": 35,
+    "own_readers_per_artifact": 3.0,
+    "equal_readers": {
+     "own_minus_other": 0.01295,
+     "perm_p": 0.0010499475026248687
+    },
+    "legacy_last_reader": {
+     "own_minus_other": 0.00847,
+     "perm_p": 0.09909504524773761
+    }
+   }
+  }
+ },
+ "note": "Stage-4 handoff \u00a73.2 audit item: the S-trunk own-side dictionaries overwrite repeated own-family readers (s3_run_s.py lines 315/868/983/1123). Equal averaging over eligible own-family readers recomputed here beside the legacy semantics; landed outputs untouched.",
+ "perm_seed": 17299
+}

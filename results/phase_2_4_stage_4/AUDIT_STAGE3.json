@@ -1,0 +1,815 @@
+{
+ "card": "I01",
+ "written_at": "2026-08-27T22:22:50",
+ "items": {
+  "duration_sum": {
+   "actual_hours": 30.6848,
+   "forecast_hours": 140.9635,
+   "matches_brief": true,
+   "note": "runner-recorded durations, not verified GPU-busy time"
+  },
+  "s01_s07_equal_readers": {
+   "full_matrix": {
+    "olmo": {
+     "n": 128,
+     "equal": {
+      "own_minus_other": 0.03649,
+      "perm_p": 4.999750012499375e-05
+     },
+     "legacy": {
+      "own_minus_other": 0.03649,
+      "perm_p": 4.999750012499375e-05
+     }
+    },
+    "qwen": {
+     "n": 123,
+     "equal": {
+      "own_minus_other": 0.01374,
+      "perm_p": 4.999750012499375e-05
+     },
+     "legacy": {
+      "own_minus_other": 0.01714,
+      "perm_p": 4.999750012499375e-05
+     }
+    },
+    "smollm": {
+     "n": 127,
+     "equal": {
+      "own_minus_other": 0.00964,
+      "perm_p": 4.999750012499375e-05
+     },
+     "legacy": {
+      "own_minus_other": 0.00953,
+      "perm_p": 0.00034998250087495624
+     }
+    }
+   },
+   "reserve_only": {
+    "olmo": {
+     "n": 29,
+     "equal": {
+      "own_minus_other": 0.0358,
+      "perm_p": 4.999750012499375e-05
+     },
+     "legacy": {
+      "own_minus_other": 0.0358,
+      "perm_p": 4.999750012499375e-05
+     }
+    },
+    "qwen": {
+     "n": 30,
+     "equal": {
+      "own_minus_other": 0.01458,
+      "perm_p": 0.0008499575021248938
+     },
+     "legacy": {
+      "own_minus_other": 0.02718,
+      "perm_p": 9.99950002499875e-05
+     }
+    },
+    "smollm": {
+     "n": 35,
+     "equal": {
+      "own_minus_other": 0.01295,
+      "perm_p": 0.0010499475026248687
+     },
+     "legacy": {
+      "own_minus_other": 0.00847,
+      "perm_p": 0.09909504524773761
+     }
+    }
+   },
+   "n_cases": {
+    "full": 3780,
+    "reserve": 940
+   },
+   "landed_reference": "L177 (+0.0171/+0.0095/+0.0365), L182 (2 of 3)",
+   "corrected_in_record": "L236"
+  },
+  "s05_equal_readers": {
+   "smollm_eraser": {
+    "n_files": 10,
+    "n_cases": 1590,
+    "contrast": {
+     "qwen": {
+      "n": 86,
+      "equal": {
+       "own_minus_other": 0.0028,
+       "perm_p": 0.15259237038148094
+      },
+      "legacy": {
+       "own_minus_other": 0.00742,
+       "perm_p": 0.009099545022748862
+      }
+     },
+     "smollm": {
+      "n": 73,
+      "equal": {
+       "own_minus_other": 0.00699,
+       "perm_p": 0.00199990000499975
+      },
+      "legacy": {
+       "own_minus_other": 0.00862,
+       "perm_p": 0.0035498225088745564
+      }
+     }
+    },
+    "landed_contrast": {
+     "qwen": {
+      "n": 86,
+      "own_minus_other": 0.007419789599817853,
+      "perm_p": 0.009099545022748862
+     },
+     "smollm": {
+      "n": 73,
+      "own_minus_other": 0.00862384340145661,
+      "perm_p": 0.0035498225088745564
+     }
+    },
+    "legacy_reproduces_landed": true,
+    "disposition": "corrected"
+   },
+   "olmo_eraser": {
+    "n_files": 10,
+    "n_cases": 880,
+    "contrast": {
+     "qwen": {
+      "n": 57,
+      "equal": {
+       "own_minus_other": 0.00039,
+       "perm_p": 0.8173591320433978
+      },
+      "legacy": {
+       "own_minus_other": -0.00108,
+       "perm_p": 0.6809659517024149
+      }
+     },
+     "smollm": {
+      "n": 31,
+      "equal": {
+       "own_minus_other": -0.00182,
+       "perm_p": 0.37803109844507776
+      },
+      "legacy": {
+       "own_minus_other": -0.00067,
+       "perm_p": 0.7818109094545272
+      }
+     }
+    },
+    "landed_contrast": null,
+    "legacy_reproduces_landed": null,
+    "disposition": "owed: the kept-set filter is not reproduced from the matrix files alone; landed numbers stand as reported"
+   }
+  },
+  "raw_text_inventory": {
+   "A\\A01": {
+    "json_files": 145,
+    "has_raw_text": true
+   },
+   "A\\A02": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "A\\A03": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "A\\A04": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "A\\A05": {
+    "json_files": 32,
+    "has_raw_text": true
+   },
+   "A\\A06": {
+    "json_files": 84,
+    "has_raw_text": true
+   },
+   "A\\A07": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "C\\C01": {
+    "json_files": 386,
+    "has_raw_text": false
+   },
+   "C\\C02": {
+    "json_files": 145,
+    "has_raw_text": false
+   },
+   "C\\C03": {
+    "json_files": 97,
+    "has_raw_text": false
+   },
+   "C\\C04": {
+    "json_files": 145,
+    "has_raw_text": false
+   },
+   "C\\C05": {
+    "json_files": 49,
+    "has_raw_text": false
+   },
+   "C\\C06": {
+    "json_files": 145,
+    "has_raw_text": false
+   },
+   "D\\D01": {
+    "json_files": 338,
+    "has_raw_text": true
+   },
+   "D\\D02": {
+    "json_files": 289,
+    "has_raw_text": false
+   },
+   "D\\D03": {
+    "json_files": 97,
+    "has_raw_text": false
+   },
+   "D\\D04": {
+    "json_files": 193,
+    "has_raw_text": false
+   },
+   "D\\D05": {
+    "json_files": 98,
+    "has_raw_text": false
+   },
+   "D\\D06": {
+    "json_files": 73,
+    "has_raw_text": false
+   },
+   "E\\E01": {
+    "json_files": 481,
+    "has_raw_text": false
+   },
+   "E\\E02": {
+    "json_files": 385,
+    "has_raw_text": false
+   },
+   "E\\E03": {
+    "json_files": 437,
+    "has_raw_text": false
+   },
+   "E\\E04": {
+    "json_files": 73,
+    "has_raw_text": false
+   },
+   "E\\E05": {
+    "json_files": 57,
+    "has_raw_text": true
+   },
+   "E\\E06": {
+    "json_files": 193,
+    "has_raw_text": false
+   },
+   "H\\H01": {
+    "json_files": 4,
+    "has_raw_text": false
+   },
+   "H\\H02": {
+    "json_files": 4,
+    "has_raw_text": false
+   },
+   "H\\H03": {
+    "json_files": 4,
+    "has_raw_text": false
+   },
+   "H\\H04": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "H\\H05": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "H\\H06": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "H\\H07": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01": {
+    "json_files": 6,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s10_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s11_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s12_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s1_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s1_r16_t2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s1_r4": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s1_r64": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s2_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s2_r16_t2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s2_r4": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s2_r64": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s3_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s3_r16_t2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s3_r4": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s3_r64": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s4_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s5_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s6_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s7_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s8_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_control_s9_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s10_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s11_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s12_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s1_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s1_r16_t2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s1_r4": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s1_r64": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s2_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s2_r16_t2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s2_r4": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s2_r64": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s3_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s3_r16_t2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s3_r4": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s3_r64": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s4_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s5_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s6_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s7_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s8_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L01\\adapter_trait_s9_r16": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L02": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L03": {
+    "json_files": 7,
+    "has_raw_text": false
+   },
+   "L\\L03\\ft_control_s1": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "L\\L03\\ft_control_s2": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "L\\L03\\ft_control_s3": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "L\\L03\\ft_trait_s1": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "L\\L03\\ft_trait_s2": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "L\\L03\\ft_trait_s3": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "L\\L04": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L05": {
+    "json_files": 7,
+    "has_raw_text": false
+   },
+   "L\\L05\\adapter_cheap_s1": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L05\\adapter_cheap_s2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L05\\adapter_cheap_s3": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L05\\adapter_robust_s1": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L05\\adapter_robust_s2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "L\\L05\\adapter_robust_s3": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "M\\M01": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "M\\M03": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "M\\M04": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S01": {
+    "json_files": 17,
+    "has_raw_text": false
+   },
+   "S\\S02": {
+    "json_files": 3,
+    "has_raw_text": false
+   },
+   "S\\S02\\adapter_Qwen2.5-_cheap_c1": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S02\\adapter_Qwen2.5-_cheap_c2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S02\\adapter_Qwen2.5-_robust_c1": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S02\\adapter_Qwen2.5-_robust_c2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S02\\adapter_SmolLM2-_cheap_c1": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S02\\adapter_SmolLM2-_cheap_c2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S02\\adapter_SmolLM2-_robust_c1": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S02\\adapter_SmolLM2-_robust_c2": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "S\\S03": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "S\\S04": {
+    "json_files": 138,
+    "has_raw_text": true
+   },
+   "S\\S05": {
+    "json_files": 171,
+    "has_raw_text": true
+   },
+   "S\\S05_x3": {
+    "json_files": 98,
+    "has_raw_text": true
+   },
+   "S\\S06": {
+    "json_files": 721,
+    "has_raw_text": false
+   },
+   "S\\S07": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "V\\V01": {
+    "json_files": 2,
+    "has_raw_text": false
+   },
+   "V\\V02": {
+    "json_files": 294,
+    "has_raw_text": true
+   },
+   "V\\V03": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "V\\V04": {
+    "json_files": 146,
+    "has_raw_text": false
+   },
+   "V\\V05": {
+    "json_files": 49,
+    "has_raw_text": false
+   },
+   "V\\V06": {
+    "json_files": 1,
+    "has_raw_text": false
+   },
+   "X": {
+    "json_files": 53,
+    "has_raw_text": false
+   }
+  },
+  "raw_text_missing_for": [
+   "X"
+  ],
+  "inventory": {
+   "models_cached": [
+    "EleutherAI/pythia-1.4b",
+    "EleutherAI/pythia-2.8b",
+    "EleutherAI/pythia-410m",
+    "HuggingFaceTB/SmolLM2-1.7B",
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "HuggingFaceTB/SmolLM2-360M",
+    "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-3B-Instruct",
+    "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "allenai/OLMo-2-0425-1B-Instruct",
+    "bert-base-uncased",
+    "microsoft/deberta-base",
+    "nghuyong/ernie-2.0-base-en",
+    "openai-community/gpt2-large",
+    "openai-community/gpt2-medium",
+    "openai-community/gpt2-xl",
+    "roberta-base",
+    "sentence-transformers/all-MiniLM-L6-v2",
+    "sentence-transformers/all-mpnet-base-v2"
+   ],
+   "escalation_reader_cached": true,
+   "adapter_weights": {
+    "S\\S02\\adapter_Qwen2.5-_cheap_c1": 17462432,
+    "S\\S02\\adapter_Qwen2.5-_cheap_c2": 17462432,
+    "S\\S02\\adapter_Qwen2.5-_robust_c1": 17462432,
+    "S\\S02\\adapter_Qwen2.5-_robust_c2": 17462432,
+    "S\\S02\\adapter_SmolLM2-_cheap_c1": 25191536,
+    "S\\S02\\adapter_SmolLM2-_cheap_c2": 25191536,
+    "S\\S02\\adapter_SmolLM2-_robust_c1": 25191536,
+    "S\\S02\\adapter_SmolLM2-_robust_c2": 25191536,
+    "L\\L05\\adapter_cheap_s1": 13141032,
+    "L\\L05\\adapter_cheap_s2": 13141032,
+    "L\\L05\\adapter_cheap_s3": 13141032,
+    "L\\L05\\adapter_robust_s1": 13141032,
+    "L\\L05\\adapter_robust_s2": 13141032,
+    "L\\L05\\adapter_robust_s3": 13141032,
+    "L\\L01\\adapter_control_s10_r16": 13141032,
+    "L\\L01\\adapter_control_s11_r16": 13141032,
+    "L\\L01\\adapter_control_s12_r16": 13141032,
+    "L\\L01\\adapter_control_s1_r16": 13141032,
+    "L\\L01\\adapter_control_s1_r16_t2": 13141032,
+    "L\\L01\\adapter_control_s1_r4": 3310128,
+    "L\\L01\\adapter_control_s1_r64": 52462960,
+    "L\\L01\\adapter_control_s2_r16": 13141032,
+    "L\\L01\\adapter_control_s2_r16_t2": 13141032,
+    "L\\L01\\adapter_control_s2_r4": 3310128,
+    "L\\L01\\adapter_control_s2_r64": 52462960,
+    "L\\L01\\adapter_control_s3_r16": 13141032,
+    "L\\L01\\adapter_control_s3_r16_t2": 13141032,
+    "L\\L01\\adapter_control_s3_r4": 3310128,
+    "L\\L01\\adapter_control_s3_r64": 52462960,
+    "L\\L01\\adapter_control_s4_r16": 13141032,
+    "L\\L01\\adapter_control_s5_r16": 13141032,
+    "L\\L01\\adapter_control_s6_r16": 13141032,
+    "L\\L01\\adapter_control_s7_r16": 13141032,
+    "L\\L01\\adapter_control_s8_r16": 13141032,
+    "L\\L01\\adapter_control_s9_r16": 13141032,
+    "L\\L01\\adapter_trait_s10_r16": 13141032,
+    "L\\L01\\adapter_trait_s11_r16": 13141032,
+    "L\\L01\\adapter_trait_s12_r16": 13141032,
+    "L\\L01\\adapter_trait_s1_r16": 13141032,
+    "L\\L01\\adapter_trait_s1_r16_t2": 13141032,
+    "L\\L01\\adapter_trait_s1_r4": 3310128,
+    "L\\L01\\adapter_trait_s1_r64": 52462960,
+    "L\\L01\\adapter_trait_s2_r16": 13141032,
+    "L\\L01\\adapter_trait_s2_r16_t2": 13141032,
+    "L\\L01\\adapter_trait_s2_r4": 3310128,
+    "L\\L01\\adapter_trait_s2_r64": 52462960,
+    "L\\L01\\adapter_trait_s3_r16": 13141032,
+    "L\\L01\\adapter_trait_s3_r16_t2": 13141032,
+    "L\\L01\\adapter_trait_s3_r4": 3310128,
+    "L\\L01\\adapter_trait_s3_r64": 52462960,
+    "L\\L01\\adapter_trait_s4_r16": 13141032,
+    "L\\L01\\adapter_trait_s5_r16": 13141032,
+    "L\\L01\\adapter_trait_s6_r16": 13141032,
+    "L\\L01\\adapter_trait_s7_r16": 13141032,
+    "L\\L01\\adapter_trait_s8_r16": 13141032,
+    "L\\L01\\adapter_trait_s9_r16": 13141032
+   },
+   "full_finetune_weights": {
+    "L\\L03\\ft_control_s1": 1447317080,
+    "L\\L03\\ft_control_s2": 1447317080,
+    "L\\L03\\ft_control_s3": 1447317080,
+    "L\\L03\\ft_trait_s1": 1447317080,
+    "L\\L03\\ft_trait_s2": 1447317080,
+    "L\\L03\\ft_trait_s3": 1447317080
+   },
+   "datasets": {
+    "scholawrite": true,
+    "coauthor": true,
+    "quickdraw": false
+   },
+   "licenses": {
+    "quickdraw": "CC BY 4.0 (attribution retained)",
+    "scholawrite": "per the ScholaWrite paper's release terms",
+    "coauthor": "per the CoAuthor release terms",
+    "race": "research use, not re-hosted (bank files ignored by rule)",
+    "socialiqa": "not re-hosted"
+   }
+  },
+  "dispositions": [
+   {
+    "item": "S01/S05/S07 family contrasts",
+    "verified": true,
+    "receipt": "s01_s07_equal_readers, s05_equal_readers",
+    "disposition": "equal-reader aggregates published beside legacy; L236"
+   },
+   {
+    "item": "S05 independent eraser",
+    "verified": true,
+    "disposition": "eraser3 carried as null with attrition; L225 headline withdrawn"
+   },
+   {
+    "item": "S07 reserve",
+    "verified": true,
+    "disposition": "retrospective robustness (L235 scope note); Stage-4 confirmations use fresh lineages"
+   },
+   {
+    "item": "S02 trained policies",
+    "verified": "partial",
+    "disposition": "crossed maker-reader matrix debt stays open; adapter weights ARE local (inventory)"
+   },
+   {
+    "item": "E01 and E03",
+    "verified": "interpretive",
+    "disposition": "two-draw agreement recorded as repeatability; no prospective self advantage claimed"
+   },
+   {
+    "item": "A07",
+    "verified": "interpretive",
+    "disposition": "endpoint was the reader's own impulse; per-action baselines reported in L202"
+   },
+   {
+    "item": "C05, C06, XV3",
+    "verified": true,
+    "receipt": "raw_text_missing_for",
+    "disposition": "raw generations absent; repaired rerun is I02's role battery"
+   },
+   {
+    "item": "L trunk and XV4",
+    "verified": true,
+    "disposition": "carrier retracted (L226); no broad subliminal rerun in Stage 4"
+   },
+   {
+    "item": "H04 CoAuthor",
+    "verified": "interpretive",
+    "disposition": "set-level dismissal is not first-suggestion rejection; AUC near chance does not show indiscriminate acceptance"
+   },
+   {
+    "item": "H05/H06",
+    "verified": "interpretive",
+    "disposition": "ScholaWrite spans versus ArgRewrite spreadsheet order are not one task; H03 audits chronology"
+   },
+   {
+    "item": "Completion record",
+    "verified": true,
+    "disposition": "Stage-4 validator checks expected cells, realized samples, inputs, held-out status"
+   }
+  ]
+ },
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "stage3_bytes_hashed": {
+  "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_3\\QUEUE_MANIFEST.json": "6dcde81ac2785bacd2629a16fb3d46499d29b9647efc2e498c30c2651b44189d",
+  "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_3\\S\\S05\\verdict.json": "559681bd78a9cdb6734e89ff651d4adbc6070d9e18b9e1600b86de6b34ff5416"
+ }
+}

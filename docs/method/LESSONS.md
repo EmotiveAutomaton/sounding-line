@@ -393,6 +393,57 @@ L132 (a shuffle gate that voided the alternative's own signature).
   accept loop (plant present, correction present or absent as instructed, hedge count),
   so a non-compliant artifact costs one retry instead of a corpus. (L156, run_g169_longform.py)
 
+- **A representation-space separation claim needs the cheap scalars in its surface
+  control before it is a claim: sequence count, mean value, spread, length.** The
+  transmission carrier read 4/4 in representation space against a digit-profile surface
+  control and was cited as the L trunk's standing positive; the adversary's three-scalar
+  summary reached 3/4 on the same cells and length-matching dropped the representation
+  read to 2/4. A surface control that omits length is not a surface control. (L184
+  retracted by L226, s3_run_x.py arm xv4)
+
+- **A known-answer ruler's easy band must have variance in the ANSWER, not only in the
+  evidence.** The late-fusion ruler's easy doses were all HOLD by construction, so a
+  reader answering HOLD every time would have passed at 1.0 and a passing ruler would
+  have been ambiguous between tracking Bayes and emitting a constant. The readers failed
+  anyway (0.48 and 0.29 on two domains), which is unambiguous, but the design would have
+  hidden a false pass. Check the truth marginal inside every gate band before the run,
+  the sibling of the known-answer existence check. (L209/L229, s3_run_c.py)
+
+- **A realization filter that keeps a minority of the sample is a selection on the
+  outcome side; report the kept fraction beside the effect and treat the cell as a
+  different population.** The OLMo bottleneck realized 35 percent of regenerations (the
+  SmolLM eraser realized 64) and the surviving 88 read null where 159 had read positive;
+  whether the eraser or the survivors' composition removed the effect is undecidable from
+  that cell alone. (L180/L225, s3_run_s.py arm s05x3)
+
+- **A pre-declared analysis over a matrix that contains the frozen reserve runs BY
+  SIDE, or the reserve stops being a confirmation set.** The three expansion contrasts
+  pooled discovery and reserve cases (no fitting, so no leak, but no split either), and
+  the split-half rerun had to be built afterwards to show each side alone. Any analysis
+  arm that reads the reader matrix takes the side as an argument from the start.
+  (L217-L219 and L235, s3_run_x.py)
+
+- **Aggregation over a reader matrix is order-invariant and gives every eligible reader
+  its declared weight; a dictionary keyed by artifact keeps whichever reader loaded
+  last.** The S-trunk own-family side was such a dictionary at four sites, so each
+  artifact's own margin was one arbitrary same-family reader against the mean of all
+  other-family readers. The headline survived the correction (all three families at
+  p = 5e-5) but Qwen's magnitude fell a fifth and the reserve's SmolLM verdict flipped
+  from weak to confirmed. Found by the Stage-4 handoff audit, verified by recomputation;
+  the S05 bottleneck arms carry the same code and are owed the same recompute. (L236,
+  s3_run_s.py; the Stage-4 contract's verification item 5)
+- **A paired contrast on raw per-item correctness is not the balanced-accuracy estimand it
+  was frozen as; under a skewed truth marginal the two can land on opposite sides of the
+  threshold.** P01's first landing paired raw correctness (+0.08, a support candidate) on
+  a split where one quadrant held 60 percent of the drawings; on the frozen balanced
+  estimand (per-item correctness reweighted by label share) the same rows read +0.04 with
+  the interval crossing zero. Pair on the estimand's own per-item quantity. (L237)
+- **The per-item best of several comparators is an oracle over comparators, not the
+  comparator the card names.** P02's first landing subtracted, per drawing, whichever of
+  two geometry rules happened to be right, and read +0.05 against the single rule's +0.20;
+  the single comparator is chosen on the training split and the per-item best is kept as
+  the severe form. (L238)
+
 ## §4. Before the model arm
 
 - **Base language models below the low billions cannot satisfy multi-constraint generation;
@@ -568,3 +619,54 @@ L132 (a shuffle gate that voided the alternative's own signature).
   is process-salted); and while a lineage is live, new stages append at the end, never
   insert mid-list, so even index-keyed consumers see a stable prefix. (run_queue.py fix,
   same pass)
+- **Process-pattern checks are repo-scoped by path, never by runner naming convention
+  alone.** The drain check matched any python whose command line contained
+  runners\run_, which a sibling project's runner (ghost-scale-sim run_v13.py) satisfied,
+  so the until-empty waiter held for good after the queue had drained. Match the
+  repository path first. (2026-08-27, queue_drain_check.ps1)
+- **Every gate-bearing runner runs end to end on a scratch root at a few units per cell
+  before the contract clock starts; unit tests cannot see a construction that is empty,
+  a gate that measures the wrong thing, or a formula with the wrong sign.** The Stage-4
+  smoke (three units per cell, an environment-variable root) found nine defects across
+  fourteen runners after all eleven verification guards had passed: an empty gate
+  battery, a reader gate that would have failed every reader on the science instead of
+  the instrument, a dose ladder without its controls in the loop, a negative 'expected
+  gain', a four-letter label alphabet under a five-option question, a raster that did not
+  divide its canvas, a parser that rejected the makers' actual output shapes, a freeze
+  step no loop could start, and unmapped control cells in the validator. Each cost
+  minutes on the smoke and would have cost the window. (2026-08-27, Stage-4 build)
+- **A card-by-card smoke proves the code runs; it does not prove the construction asks
+  the question. A manual read-through of every runner against the brief, before the
+  clock, is its own step.** The Stage-4 validation pass (his order, after the smoke ran
+  clean) found twenty-one defects the smoke could not see: known answers that did not
+  exist (a target choice drawn from a hash), factors that were not realized (benefit and
+  induce messages identical in half the worlds), controls that were not what they
+  claimed (an 'exact collision' with different draws; a technique cue that was a string
+  match for falsity), estimands that were not the estimand (raw accuracy where a
+  constant answer passes; an interaction carrying a main effect through a sign
+  imbalance; a realized gain moved by restatement), routes that did not see the same
+  observations, and a scheduler loop that had never been run at all. Every one is a
+  class already on this shelf; the smoke passed them because a smoke checks yield, not
+  meaning. (2026-08-27, Stage-4 validation pass)
+- **A loop that has only ever driven cards by hand has not been smoked; drive the loop
+  itself on the scratch root, closure block and packet included, under a compressed
+  window.** The Stage-4 scheduler's first real iteration would have crashed on a
+  constant read from the wrong module, and its pilot cell would have failed three times
+  on a produce path no runner wrote; both surfaced in the first second of the loop
+  smoke, after fourteen runners had each passed their own. The same smoke's receipts
+  showed the loop reading a frozen design it never saw: it held the contract object it
+  loaded at start-up while the freeze subprocess wrote the design to disk, so deferred
+  cards ran and no expansion was admitted, and its first lost-time record would have
+  written the stale object back over the freeze. **A record that several processes
+  write is reloaded before every decision and before every save; an object loaded once
+  is a snapshot, not the record.** (2026-08-27)
+- **On Windows an atomic replace fails with a sharing violation while any other process
+  holds the target open for reading; every shared JSON writer retries the replace.** The
+  live Stage-4 freeze died on its first attempt while a CPU card was loading the lineage
+  file it was rewriting; the cell-level retry carried it, and the writer now retries for
+  five seconds before raising. (2026-08-27, soundingline/s4.py write_json)
+- **A stage whose produce can never appear leaves the stage list the moment its cell
+  resolves; a queue-empty test counts it forever.** The M02 interchange exited cleanly
+  without a produce every pass after its gate failed, and any emptiness test over
+  produces would never have reached zero. Resolved cells retire their stages in the same
+  pass, a tombstone comment keeping the history. (2026-08-27, run_queue.py)

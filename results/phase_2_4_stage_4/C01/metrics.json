@@ -1,0 +1,495 @@
+{
+ "card": "C01",
+ "written_at": "2026-08-27T22:29:38",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_bundle_minus_facts": {
+  "point": 0.10040602803457195,
+  "lo": -0.04904415683618459,
+  "hi": 0.25480464228091293,
+  "n_units": 128,
+  "n_boot": 2000,
+  "perm_p": 0.19134043297835107,
+  "n_a": 128,
+  "n_b": 128
+ },
+ "context_vs_none": {
+  "point": 0.8245493088957092,
+  "lo": 0.5624287006941346,
+  "hi": 1.0876001231849457,
+  "n_units": 128,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 128,
+  "n_b": 128
+ },
+ "facts_vs_none": {
+  "point": 0.7241432808611372,
+  "lo": 0.44663896511196094,
+  "hi": 1.0058188920304718,
+  "n_units": 128,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 128,
+  "n_b": 128
+ },
+ "incorrect_bundle_cost": {
+  "point": 0.7239035975029103,
+  "lo": 0.4523639043703556,
+  "hi": 1.0095712852362673,
+  "n_units": 128,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 128,
+  "n_b": 128
+ },
+ "irrelevant_vs_none": {
+  "point": 0.4126594682815443,
+  "lo": 0.15289072052017222,
+  "hi": 0.6801304183817884,
+  "n_units": 128,
+  "n_boot": 2000,
+  "perm_p": 0.003749812509374531,
+  "n_a": 128,
+  "n_b": 128
+ },
+ "unrelated_negative_control": {
+  "point": 0.009592559991128171,
+  "lo": -0.15041398949520385,
+  "hi": 0.16084201024794093,
+  "n_units": 128,
+  "n_boot": 2000,
+  "perm_p": 0.904204789760512,
+  "n_a": 128,
+  "n_b": 128
+ },
+ "step_bundle_minus_facts": {
+  "point": 0.35954533601819,
+  "lo": 0.1977091084073658,
+  "hi": 0.5334618521337917,
+  "n_units": 128,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 128,
+  "n_b": 128
+ },
+ "strata_profile_matches_context": {
+  "True": {
+   "point": 0.0504254099975902,
+   "lo": -0.13824927696084804,
+   "hi": 0.2356345328620443,
+   "n_units": 65,
+   "n_boot": 2000,
+   "perm_p": 0.5924203789810509,
+   "n_a": 65,
+   "n_b": 65
+  },
+  "False": {
+   "point": 0.151973332358442,
+   "lo": -0.09276981767886656,
+   "hi": 0.3944527034725709,
+   "n_units": 63,
+   "n_boot": 2000,
+   "perm_p": 0.21953902304884756,
+   "n_a": 63,
+   "n_b": 63
+  }
+ },
+ "per_reader": {
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "primary": {
+    "point": 0.1597550143170477,
+    "lo": -0.12469193498511941,
+    "hi": 0.4540804898889383,
+    "n_units": 128,
+    "n_boot": 2000,
+    "perm_p": 0.279886005699715,
+    "n_a": 128,
+    "n_b": 128
+   },
+   "by_condition": {
+    "workshop|none": {
+     "mean": -2.908190266060691,
+     "n": 64
+    },
+    "workshop|bundle": {
+     "mean": -2.2995951107453494,
+     "n": 64
+    },
+    "workshop|facts": {
+     "mean": -2.1398180615961704,
+     "n": 64
+    },
+    "workshop|incorrect_bundle": {
+     "mean": -2.531503782471023,
+     "n": 64
+    },
+    "workshop|irrelevant": {
+     "mean": -2.5313823444799324,
+     "n": 64
+    },
+    "civic|none": {
+     "mean": -4.450656362615922,
+     "n": 64
+    },
+    "civic|bundle": {
+     "mean": -1.8768398952003775,
+     "n": 64
+    },
+    "civic|facts": {
+     "mean": -2.356126972983652,
+     "n": 64
+    },
+    "civic|incorrect_bundle": {
+     "mean": -2.2232120105461437,
+     "n": 64
+    },
+    "civic|irrelevant": {
+     "mean": -3.3485037330313125,
+     "n": 64
+    }
+   }
+  },
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "primary": {
+    "point": 0.04105704175209623,
+    "lo": -0.06927076105788892,
+    "hi": 0.15458468540876213,
+    "n_units": 128,
+    "n_boot": 2000,
+    "perm_p": 0.4844757762111894,
+    "n_a": 128,
+    "n_b": 128
+   },
+   "by_condition": {
+    "workshop|none": {
+     "mean": -1.6216476430561713,
+     "n": 64
+    },
+    "workshop|bundle": {
+     "mean": -1.5061956788647792,
+     "n": 64
+    },
+    "workshop|facts": {
+     "mean": -1.6035104184465014,
+     "n": 64
+    },
+    "workshop|incorrect_bundle": {
+     "mean": -1.2927390662858493,
+     "n": 64
+    },
+    "workshop|irrelevant": {
+     "mean": -1.4897638755359233,
+     "n": 64
+    },
+    "civic|none": {
+     "mean": -1.5024859564770414,
+     "n": 64
+    },
+    "civic|bundle": {
+     "mean": -1.5021523078164827,
+     "n": 64
+    },
+    "civic|facts": {
+     "mean": -1.486951651738953,
+     "n": 64
+    },
+    "civic|incorrect_bundle": {
+     "mean": -1.539910978895168,
+     "n": 64
+    },
+    "civic|irrelevant": {
+     "mean": -1.46269240203648,
+     "n": 64
+    }
+   }
+  }
+ },
+ "by_condition": {
+  "workshop|none": {
+   "mean": -2.264918954558431,
+   "n": 128
+  },
+  "workshop|bundle": {
+   "mean": -1.9028953948050642,
+   "n": 128
+  },
+  "workshop|facts": {
+   "mean": -1.871664240021336,
+   "n": 128
+  },
+  "workshop|incorrect_bundle": {
+   "mean": -1.9121214243784364,
+   "n": 128
+  },
+  "workshop|irrelevant": {
+   "mean": -2.010573110007928,
+   "n": 128
+  },
+  "civic|none": {
+   "mean": -2.9765711595464817,
+   "n": 128
+  },
+  "civic|bundle": {
+   "mean": -1.6894961015084302,
+   "n": 128
+  },
+  "civic|facts": {
+   "mean": -1.9215393123613025,
+   "n": 128
+  },
+  "civic|incorrect_bundle": {
+   "mean": -1.8815614947206558,
+   "n": 128
+  },
+  "civic|irrelevant": {
+   "mean": -2.405598067533896,
+   "n": 128
+  }
+ },
+ "accuracy_by_condition": {
+  "none": {
+   "n_units": 128,
+   "mean": 0.2421875,
+   "rows": 256
+  },
+  "bundle": {
+   "n_units": 128,
+   "mean": 0.2890625,
+   "rows": 256
+  },
+  "facts": {
+   "n_units": 128,
+   "mean": 0.265625,
+   "rows": 256
+  },
+  "incorrect_bundle": {
+   "n_units": 128,
+   "mean": 0.2890625,
+   "rows": 256
+  },
+  "irrelevant": {
+   "n_units": 128,
+   "mean": 0.2421875,
+   "rows": 256
+  }
+ },
+ "cell_counts": {
+  "{\"condition\": \"none\", \"domain\": \"workshop\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"none\", \"domain\": \"workshop\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"none\", \"domain\": \"workshop\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"bundle\", \"domain\": \"workshop\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"bundle\", \"domain\": \"workshop\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"bundle\", \"domain\": \"workshop\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"facts\", \"domain\": \"workshop\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"facts\", \"domain\": \"workshop\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"facts\", \"domain\": \"workshop\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"incorrect_bundle\", \"domain\": \"workshop\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"incorrect_bundle\", \"domain\": \"workshop\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"incorrect_bundle\", \"domain\": \"workshop\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"irrelevant\", \"domain\": \"workshop\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"irrelevant\", \"domain\": \"workshop\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"irrelevant\", \"domain\": \"workshop\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"none\", \"domain\": \"civic\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"none\", \"domain\": \"civic\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"none\", \"domain\": \"civic\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"bundle\", \"domain\": \"civic\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"bundle\", \"domain\": \"civic\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"bundle\", \"domain\": \"civic\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"facts\", \"domain\": \"civic\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"facts\", \"domain\": \"civic\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"facts\", \"domain\": \"civic\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"incorrect_bundle\", \"domain\": \"civic\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"incorrect_bundle\", \"domain\": \"civic\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"incorrect_bundle\", \"domain\": \"civic\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"irrelevant\", \"domain\": \"civic\", \"question\": \"choice\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"irrelevant\", \"domain\": \"civic\", \"question\": \"step\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"condition\": \"irrelevant\", \"domain\": \"civic\", \"question\": \"unrelated\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  }
+ }
+}

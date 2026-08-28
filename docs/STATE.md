@@ -31,8 +31,10 @@ Everything below is current.
 4. **Token posture:** he opens budget explicitly when he wants fleets; otherwise dense and
    inline. Model is Fable at max effort.
 5. **Gears, not day/night (renamed 2026-08-12).** First gear = his machine (serial, GPU mostly
-   his); second gear = everything, loaded about a day deep, ONLY on his call, sized to his
-   stated window. A deadline exit is a wake-and-decide event.
+   his); second gear = everything, loaded about a day deep, ONLY on his call, **and with no
+   time window: it runs until the queue is empty (his standing ruling, 2026-08-28). A stated
+   hours argument is an optional cap, never a default; a Stage contract's deadline is
+   accounting, not a stop.** The engine exiting is a wake-and-decide event.
 6. **GEAR 3 (cloud burst, Modal) IS STONE (his ruling 2026-08-16): it NEVER runs without his
    explicit per-use approval, and no more than $10 may ever run without a fresh detailed
    final-approval request to him (exact commands, durations, test details, total dollars) —
@@ -346,7 +348,57 @@ survive the fair induction control on the two strong ladders (G76/L94).
   paths still checked). Kill by winpid tree; sweep orphans; standalone GPU arms need queue
   membership, checkpoint-resume, or the sweep keep-list. The queue asserts produces-path
   uniqueness at load; a clean exit with no produce records FAILED.
-- **In flight (2026-08-26): the Stage-3 (E24-S3) endgame on second gear, 3 shards, window chained until the queue is empty by `tools/regear2_until_empty.sh` (relaunch cap 3, cancel by `results/.regear.cancel`; no renewal check-in is owed).** 61 of 73 manifest cells resolved and written through (L171-L221); 12 run behind the L01/X1 generation, forecast empty 08-27 midday to late afternoon at the day's observed 1.65x estimate multiplier. The CLAUDE.md freeze line still stands (his 08-24 order, self-lift stated for 17:00 that day), so all Stage-3 work is uncommitted local state pending his removal of the line. History that still binds operations: the 08-17 power-loss audit found no unrecorded findings (write-through discipline held); the GPU lock's staleness window is 22h (raised 2026-08-17 after a live 620-minute rung was reclaimed at hour nine); the regear waiter cancels by FILE (`results/.regear.cancel`), never by pid.
+- **Agent-loop hardening landed 2026-08-28** (source: the curator's handoff, applied to
+  Stage-3-and-earlier code only, with Stage 4 running and untouched throughout).
+  **Five defects, all reproduced first, all now covered by `tests/test_agent_hardening.py`:**
+  the queue lock was released unconditionally from `main`'s `finally`, so a process REFUSED the
+  lock deleted the owner's on its way out (acquisition is now `O_CREAT|O_EXCL`, ownership is
+  pid plus process-create-time plus host plus token, release is owner-checked, and unverifiable
+  ownership HOLDS the launch instead of clearing it); twenty-one `s3x_` stages escaped the
+  no-GPU hold because the prefix list carried `s3_` and `s3x_` does not start with it, plus
+  three `activation_variance` stages that default to `--device cuda` (resource is now declared
+  per stage by produces-path, so a rename cannot change resource permission, and `gpu_eligible`
+  is the one shared check with undeclared meaning held); `s3.set_status` was an unlocked
+  load-modify-save with a non-atomic write (now a lock-held transaction plus temp-and-replace,
+  and the two are documented as different fixes for different failures); completion was
+  `Path.exists()` in both the scheduler skip and the program validator, so a truncated or
+  wrong-card produce read as done (now `soundingline/completion.py`, shared by both, validating
+  by declared artifact type and keeping execution-resolved, instrument-valid and
+  scientific-result separate, so a valid negative completes and a legacy artifact reports
+  UNVERIFIABLE rather than being relabelled invalid); and `design_lint` accepted the literal
+  string DESIGN CHECK, certifying the presence of two words rather than a design.
+- **The linters are now command-line tools, not hook-only** (`tools/lintio.py`,
+  `tools/lint_hook.py`, both stdlib-only and resolved from `__file__`, so they work from any
+  cwd on any machine). This was found the hard way: two `theory_lint.py` processes had been
+  hung since 2026-08-24 16:19 on `json.load(sys.stdin)`, because the script ignored argv
+  entirely and someone had reasonably run it with a file path. **A rule enforced only by a
+  PostToolUse hook is not enforced at all against a `sed` edit or a runner write.**
+  `design_lint --changed` and `theory_lint --all` are the CI-shaped entry points.
+  **Still open for the curator: `.claude/settings.json` names machine-specific absolute Windows
+  paths for both hooks, and the project's `command`+`args` hook form is unverified on this
+  install (the user-level hooks use the single-command form). The portable adapter is written
+  and tested; rewiring live hooks was left as his call.**
+- **In flight (2026-08-27 late): Stage 4 runs under second gear via `run_stage4.sh` since
+  2026-08-27T22:22:50, deadline 2026-08-28T22:22:50 persisted in results/phase_2_4_stage_4/RUN_CONTRACT.json;
+  the scheduler serializes GPU cards through the gpu lock, runs two CPU cards beside
+  them, begins the closure block (F01) at hour 20, and writes the single curator packet
+  at the deadline. Stop: `taskkill //F //T //PID $(sed -n 2p results/.gear2.lock)`, then
+  clear results/.gpu.lock after confirming the card is free; a restart keeps the
+  deadline.** Build, smoke, and the validation pass are in the registry build log. Eight cards
+  had landed and were written through (L237 to L243) by 03:40 on the 28th; the science waits
+  for the final packet.
+- **Stage-4 theory errata APPLIED 2026-08-28** (`docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md`,
+  now the source record). Five small theory additions across the four owners, each carrying a
+  reconstructed-speech attribution; eight evidence corrections to the Stage-3 record; six
+  afterwords revised in the same edit. The corrections narrow how existing measurements may be
+  read and retract none of the larger hypotheses. Where the working tree had moved past the
+  errata's reviewed base the errata's own reconciliation clause governed: L236's corrected
+  aggregation is landed rather than owed, and the landed Stage-4 rows (T01-S4, C01, C02) stay in
+  their afterwords. Corrections are linked in FINDINGS' known-weaknesses table as item 0; the
+  re-runs they imply are TODO Phase 0, R1 to R6, none startable until Stage 4 frees the GPU.
+  **No Stage-3 artifact is corrupt:** 72 of 73 produces read intact, the absent one being M02,
+  INSTRUMENT_FAILED with a recorded reason and zero GPU minutes.
+- **Stage 3 (E24-S3) is PROGRAM-EXHAUSTED by its validator (73 cells resolved, 72 of 48 valid attempts); the queue drained inside one second-gear window and the until-empty chain ended on its own; gear is idle.** Everything is written through (L171-L235) and the build and record are committed and pushed (6feda02, 858f83a). Open: the two-pass curator packet, then his assessment (the reserve refresh landed, L235). History that still binds operations: the 08-17 power-loss audit found no unrecorded findings (write-through discipline held); the GPU lock's staleness window is 22h (raised 2026-08-17 after a live 620-minute rung was reclaimed at hour nine); the regear waiter cancels by FILE (`results/.regear.cancel`), never by pid; drain checks are repo-scoped by path (2026-08-27).
 - **The audit-history index:** L26 (the first fleet), L61 (recreation re-audit), L93 (the
   methods pass), L107/L108 (the two referees), L109 (the consensus fleet), L123 (the external
   verification fleet). The old solo-audit scope table this file used to carry is superseded by
@@ -403,7 +455,7 @@ died on the way and must stay dead.
 
 ## Open decisions / owed
 
-- **His:** remove the CLAUDE.md freeze line (stated for 17:00 08-24, still present 08-26) so the accumulated Stage-3 batch can be committed; then the Stage-3 final assessment when the curator packet lands (expected 08-27 evening). Standing from earlier phases: interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access; rotate the early-project API key.
-- **Mine, in order:** write-throughs as the 12 open cells land; the until-empty gear chain stands armed in place of manual renewal (the 08-25 lapse class is closed by tooling); the S07 confirmation re-run with the X fills once the queue empties; the week's-end freeze/replicate/synthesize pass and the two-pass curator packet; the reviewed commit batch after the freeze lifts. The pre-Phase-2.4 owed builds (the 9-action BST rebuild, G130c floor decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile function) remain in `TODO.md`'s backlog, superseded in priority by the Stage-3 endgame.
+- **His:** the Stage-3 final assessment when the curator packet lands (the program is exhausted as of 08-27); the CLAUDE.md freeze line remains his to remove. Standing from earlier phases: interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access; rotate the early-project API key.
+- **Mine, in order:** the two-pass curator packet (the replicate step is done, L235); the commit of the 08-27 write-through when he authorizes it. The pre-Phase-2.4 owed builds (the 9-action BST rebuild, G130c floor decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile function) remain in `TODO.md`'s backlog, superseded in priority by the Stage-3 endgame.
 - **The one-maker-many-kinds corpus problem** stands (CROSSNEWS pseudo-documents only;
   Guardian small; CMCC request-only); the program's G133 commissioned pilot leads this thread.

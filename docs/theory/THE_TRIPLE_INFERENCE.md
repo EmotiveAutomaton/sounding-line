@@ -81,6 +81,12 @@ values.** Drives may be inputs to action selection; values describe their persis
 Treating them as synonyms is why the third vertex has repeatedly appeared and disappeared in this
 file's history. Where his quotes say "values/drives" as one item, the prose keeps them split.
 
+**Current appraisal, intended audience response, and persistent value are different quantities.** A
+maker can try to induce fear without feeling it; a reader can identify that intention without
+sharing the fear or adopting the implied policy. The maker's appraisal, intended reader response,
+actual reader response, and relevant world state must remain distinguishable within joint
+reconstruction. These refine the existing target families; they do not add another inference vertex.
+
 On what the current instruments measure *(the 2026-08-22 pass; provenance in
 `docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
 
@@ -261,6 +267,7 @@ method. Each informs a part of this file; none is the claim.
 | **G52** | An artifact exposes values already distorted by expertise and attention under context | **OPEN.** Predicts supplying process changes what is recovered, the direction the goal-process run already found |
 | **G53** | Attention does real work rather than papering a gap | **OPEN, flagged suspect by its own author** |
 | **S-4/S-5** | Reordering the reader's stages changes the answer | **REJECTED (sim)** by exactly zero; a cost saving only |
+| **A01-S4** | A reader keeps the maker's appraisal and its intended audience response apart from the observed action and the factual state | **SUPPORTED WEAKLY (test, L242), full size.** Valuation 0.37 and intended audience action 0.42 balanced accuracy against 0.25, +0.14 over the floor on the crossed pair, the same on enacted notices; action and fact read at 0.65 and 0.70; the propagandist stratum reads at 0.32 and a withheld fact never draws the uncertain answer |
 
 **State of the section's claim.** The generative account remains a framework rather than a
 finding, and its composition claim now stands in the restated form, expertise distorting the
@@ -272,8 +279,14 @@ since a staged pipeline would care about stage order and the simulated reader's 
 move at all when the order changes. The distortion story's weakest named part is attention,
 flagged by its own author before anyone else could. The process target is now explicit about its
 output shape: one route is a sample, while a stronger reconstruction constrains a conditional
-family of choices and unrealized alternatives. Confidence: the order-insensitivity is
-sim-only; the composition claims are untested, logic only.
+family of choices and unrealized alternatives. The products the walkthrough insisted on
+keeping apart now have one direct measurement: a small reader recovers a maker's appraisal
+and its intended audience response above the floor and crossed, thinly, not where the maker
+induces a feeling it does not hold, and with no abstention when the fact is withheld
+(A01-S4); the products are separable in principle in that reader, which is the precondition
+the intervention card needs and no more. Confidence: the order-insensitivity is sim-only;
+the appraisal-versus-aim separation is one bad test away, two readers, one construction
+family; the composition claims are untested, logic only.
 
 ## §3. Coupling, without premature topology
 
@@ -445,13 +458,13 @@ been recovered.**
 | **G51** | Repetition itself carries the weighting | **OPEN** |
 | **G64** | Re-reading one artifact recovers the tail | **OPEN.** The residue account's other end; the reader-side strategy is `READER_HEURISTICS.md` §4's |
 | **S-14** | An absent drive is recoverable | **SUPPORTED (sim) as method; OPEN on real artifacts.** Near-invisible spontaneous (0.61), perfect under commission (1.00), compliance collapses to exactly 0.5; *how the goal is pursued* discriminates |
-| **V02/V04-S3** | A standing preference profile is recoverable from enacted artifacts and transfers across surface domains | **SPLIT (test, L216).** Recovery rises with artifact dose at 0.92 yield; the exact reader transfers across domains PERFECTLY while model readers drop 0.67→0.42 and 0.42→0.33 — the construct transfers, the readers do not carry it |
-| **V05-S3** | An editor's standing preference is recoverable from the direction of their edits | **CEILING STANDS, INSTRUCTED PROFILE LOSES (test, L216).** Exact recovery 4/4 with maker residual ~0; the model editor instructed to be frugal switches 90 percent of choices and its edits still read robust (0.998) — instructed identity loses to intrinsic grain in editing too, the third independent sighting of the L169 appetite fact |
-| **L01-L05-S3** | Maker traits cross to a same-base student through semantically empty artifacts (the subliminal channel) | **REJECTED AT THIS SCALE, CARRIER CONFIRMED (test, L183-L185).** Owl gap exactly 0.000 across LoRA ranks and templates, −0.075 full-finetune, policy channel −0.003 — while the teacher's trait separates trait from control sequences PERFECTLY in representation space across held-out seeds (4/4) and not at the surface (1/4). The trace reaches the artifact; training does not couple to it — uptake-side failure, not signal-side |
+| **V02/V04-S3** | A standing preference profile is recoverable from enacted artifacts and transfers across surface domains | **SPLIT (test, L216), the reader gap replicated on a third domain (L223).** Recovery rises with artifact dose at 0.92 yield; the exact reader transfers across domains PERFECTLY (1.00 on the third, events, domain as well) while model readers drop 0.67→0.42 and 0.42→0.33 on the second domain and read the third at 0.50 (p=0.007) and 0.33 (chance); the construct transfers, the readers do not carry it. Under exact inference the goal side, not the profile side, is the fragile one (L172) |
+| **V05-S3** | An editor's standing preference is recoverable from the direction of their edits | **CEILING STANDS, INSTRUCTED PROFILE LOSES (test, L216).** Exact recovery 4/4 with maker residual ~0; the model editor instructed to be frugal switches 90 percent of choices and its edits still read robust (0.998), so instructed identity loses to intrinsic grain in editing too, the third independent sighting of the L169 appetite fact |
+| **L01-L05-S3** | Maker traits cross to a same-base student through semantically empty artifacts (the subliminal channel) | **REJECTED at the tested scale for transmission; informative carrier unresolved (test, L183-L185; twelve seeds L222; adversary L226; XV4 audit).** The uptake null stands: owl gap exactly 0.000 across LoRA ranks and templates, +0.009 pooled over twelve seeds (p=1.0), −0.075 full-finetune, policy channel −0.003. The original 4/4 representation separation does not establish a nontrivial carrier: a cheap scalar adversary (count, mean, spread) scores 3/4 on the same held-out cells, and the length-matched representation scores 2/4, on a tiny held-out set. Neither carrier absence nor an uptake-only failure is established |
 
 **Preference evidence requires an opportunity-defined tradeoff.** A high-order structural
-choice — such as how prominently to place a rival account, which caveat to preserve, or which
-secondary goal to sacrifice — is a candidate preference event only when the actor controlled that
+choice, such as how prominently to place a rival account, which caveat to preserve, or which
+secondary goal to sacrifice, is a candidate preference event only when the actor controlled that
 choice and genuine alternatives were available. It becomes evidence about a standing preference
 when the same tradeoff recurs across contexts or predicts a held-out choice after topic, role,
 convention, and local goal are controlled. One coherent placement is a qualitative hypothesis,
@@ -468,11 +481,13 @@ goal, expected messy because habit also records training, convenience, accident,
 attention. The absence mechanism is the section's cleanest result anywhere, reading a *missing*
 drive through pursuit style at sim-perfect strength under commission. Every one of these remains
 a claim about constructed worlds; no real maker's values have been read by any account.
-Confidence: the sim discriminations are sim-only, authoritative about method; all four accounts
-are untested on real text; the Stage-3 environment rows are exact-construction facts about
-model readers and programmatic makers — the cross-domain reader gap and the three-sighted
-instructed-versus-intrinsic asymmetry are the section's first live constraints from the model
-side, and the transmission null is scale-scoped with its carrier positively identified.
+The scale-scoped transmission null stands, but the current carrier comparison cannot locate the
+failure at uptake alone. Confidence: the sim discriminations are sim-only, authoritative about
+method; all four accounts are untested on real text; the Stage-3 environment rows are
+exact-construction facts about model readers and programmatic makers, where the cross-domain
+reader gap, now replicated on a third domain, and the three-sighted instructed-versus-intrinsic
+asymmetry are the section's first live constraints from the model side; the scoped transmission
+null is one bad test away; the informative-carrier attribution is instrument-dead.
 
 ## §6. Value blindness, and where longitudinal ground truth could come from
 

@@ -1,0 +1,249 @@
+{
+ "cell": "E24-S3-S07",
+ "refresh": "expansion contrasts by frozen md5 side",
+ "sides": {
+  "discovery": {
+   "n_cases": 2840,
+   "siblings": {
+    "qwen": {
+     "n_pairs": 93,
+     "exact_minus_sibling": 0.009532560869214642,
+     "perm_p": 0.0011499425028748563
+    },
+    "smollm": {
+     "n_pairs": 92,
+     "exact_minus_sibling": 0.013823630477207293,
+     "perm_p": 4.999750012499375e-05
+    }
+   },
+   "gradient": {
+    "qwen": {
+     "exact": {
+      "n": 93,
+      "mean_margin": 0.06368667122283717
+     },
+     "same_family": {
+      "n": 279,
+      "mean_margin": 0.054154110353622525
+     },
+     "cross_family": {
+      "n": 558,
+      "mean_margin": 0.04306884784709881
+     },
+     "monotone_where_defined": true
+    },
+    "smollm": {
+     "exact": {
+      "n": 92,
+      "mean_margin": 0.0521345613659292
+     },
+     "same_family": {
+      "n": 184,
+      "mean_margin": 0.03831093088872191
+     },
+     "cross_family": {
+      "n": 644,
+      "mean_margin": 0.03453785091576862
+     },
+     "monotone_where_defined": true
+    },
+    "olmo": {
+     "exact": {
+      "n": 99,
+      "mean_margin": 0.07733888176555184
+     },
+     "same_family": {
+      "n": 0,
+      "mean_margin": null
+     },
+     "cross_family": {
+      "n": 891,
+      "mean_margin": 0.040644372307848405
+     },
+     "monotone_where_defined": true
+    }
+   },
+   "within_reader": {
+    "per_reader": {
+     "SmolLM2-1.7B": {
+      "n_own": 92,
+      "n_other": 192,
+      "own_minus_other": -0.008737357850703932,
+      "perm_p": 0.03959208158368326
+     },
+     "SmolLM2-1.7B-Instruct": {
+      "n_own": 92,
+      "n_other": 192,
+      "own_minus_other": -0.005236254334629736,
+      "perm_p": 0.28374325134973005
+     },
+     "SmolLM2-360M-Instruct": {
+      "n_own": 92,
+      "n_other": 192,
+      "own_minus_other": -0.0010774565797641092,
+      "perm_p": 0.824635072985403
+     },
+     "Qwen2.5-0.5B": {
+      "n_own": 93,
+      "n_other": 191,
+      "own_minus_other": 0.0238818720990605,
+      "perm_p": 0.0001999600079984003
+     },
+     "Qwen2.5-1.5B": {
+      "n_own": 93,
+      "n_other": 191,
+      "own_minus_other": 0.015084590956426946,
+      "perm_p": 0.0007998400319936012
+     },
+     "Qwen2.5-1.5B-Instruct": {
+      "n_own": 93,
+      "n_other": 191,
+      "own_minus_other": 0.014599206647189465,
+      "perm_p": 0.0009998000399920016
+     },
+     "Qwen2.5-3B": {
+      "n_own": 93,
+      "n_other": 191,
+      "own_minus_other": 0.004687511516473258,
+      "perm_p": 0.28274345130973805
+     },
+     "OLMo-2-0425-1B-Instruct": {
+      "n_own": 99,
+      "n_other": 185,
+      "own_minus_other": 0.026397853729039078,
+      "perm_p": 0.0001999600079984003
+     }
+    },
+    "readers_positive": 5,
+    "readers_total": 8
+   }
+  },
+  "confirmation": {
+   "n_cases": 940,
+   "siblings": {
+    "qwen": {
+     "n_pairs": 30,
+     "exact_minus_sibling": 0.014426857012289544,
+     "perm_p": 0.0012999350032498376
+    },
+    "smollm": {
+     "n_pairs": 35,
+     "exact_minus_sibling": 0.014850393363407677,
+     "perm_p": 0.008699565021748913
+    }
+   },
+   "gradient": {
+    "qwen": {
+     "exact": {
+      "n": 30,
+      "mean_margin": 0.06272235115369161
+     },
+     "same_family": {
+      "n": 90,
+      "mean_margin": 0.048295494141402065
+     },
+     "cross_family": {
+      "n": 180,
+      "mean_margin": 0.03732028614591669
+     },
+     "monotone_where_defined": true
+    },
+    "smollm": {
+     "exact": {
+      "n": 35,
+      "mean_margin": 0.054338630040486655
+     },
+     "same_family": {
+      "n": 70,
+      "mean_margin": 0.03948823667707898
+     },
+     "cross_family": {
+      "n": 245,
+      "mean_margin": 0.0314879068711988
+     },
+     "monotone_where_defined": true
+    },
+    "olmo": {
+     "exact": {
+      "n": 29,
+      "mean_margin": 0.07677474926257956
+     },
+     "same_family": {
+      "n": 0,
+      "mean_margin": null
+     },
+     "cross_family": {
+      "n": 261,
+      "mean_margin": 0.040975021524295344
+     },
+     "monotone_where_defined": true
+    }
+   },
+   "within_reader": {
+    "per_reader": {
+     "SmolLM2-1.7B": {
+      "n_own": 35,
+      "n_other": 59,
+      "own_minus_other": -0.0014196731276431354,
+      "perm_p": 0.8540291941611677
+     },
+     "SmolLM2-1.7B-Instruct": {
+      "n_own": 35,
+      "n_other": 59,
+      "own_minus_other": 0.0040027391150461375,
+      "perm_p": 0.6526694661067787
+     },
+     "SmolLM2-360M-Instruct": {
+      "n_own": 35,
+      "n_other": 59,
+      "own_minus_other": -0.003806999020272442,
+      "perm_p": 0.6240751849630074
+     },
+     "Qwen2.5-0.5B": {
+      "n_own": 30,
+      "n_other": 64,
+      "own_minus_other": 0.01949062326716052,
+      "perm_p": 0.01919616076784643
+     },
+     "Qwen2.5-1.5B": {
+      "n_own": 30,
+      "n_other": 64,
+      "own_minus_other": 0.006562227176295385,
+      "perm_p": 0.3747250549890022
+     },
+     "Qwen2.5-1.5B-Instruct": {
+      "n_own": 30,
+      "n_other": 64,
+      "own_minus_other": 0.0018072471022605868,
+      "perm_p": 0.8330333933213357
+     },
+     "Qwen2.5-3B": {
+      "n_own": 30,
+      "n_other": 64,
+      "own_minus_other": 0.015065267392330696,
+      "perm_p": 0.04279144171165767
+     },
+     "OLMo-2-0425-1B-Instruct": {
+      "n_own": 29,
+      "n_other": 65,
+      "own_minus_other": 0.036840423738714025,
+      "perm_p": 0.0023995200959808036
+     }
+    },
+    "readers_positive": 6,
+    "readers_total": 8
+   }
+  }
+ },
+ "reserve_confirms": {
+  "siblings_positive_p05_both_families": true,
+  "gradient_monotone_3of3": true,
+  "within_reader_two_thirds": true
+ },
+ "perm_seeds": {
+  "siblings": 95011,
+  "within_reader": 112212
+ },
+ "note": "the landed X arms (L217/L218/L219) pooled both sides; this is the split-half check, criteria pre-declared in the docstring",
+ "minutes": 0.07230139970779419
+}

@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-08-26.**
+**Last updated: 2026-08-28.**
 
 ---
 
@@ -52,23 +52,56 @@ interpretability at once, and the same word means different things in each.
 
 ## Where we are, in one paragraph
 
-**2026-08-09.** Fifty-odd tests across four gates, three simulation batches, an eleven-family
-replication and a standing integrity audit. **The flagship result, stated at its licensed
-strength.** Within three machine-generated ladders, specified constraint dose reliably moves an
-activation ratio and three linguistic features after a fair within-rung control (L23, L24). That
-is a within-generator dose response. It is not yet a measure of human intent, depth, or decisions,
-and specification recovery no longer corroborates it, since that score turned out to be carried by
-lexical echo (L36). The recurring failure mode has been **criteria that could not do their own
-jobs**; four were caught and each changed verdicts. The binding constraints now are **one reader's
-readings as the only human ground truth** and **no corpus with one maker across different kinds of
-artifact**, and the program's next unit of analysis is the individual recorded choice rather than
-any per-artifact scalar.
+**2026-08-28.** Stage 4 (context, appraisal, transmission, relay, physical traces; brief in
+docs/design) runs under second gear from 22:22 on the 27th to a persisted deadline at 22:22
+tonight; eight of its eighteen cards have landed and are written through as L237 to L243
+(the audit receipt folded into L236), with the science held out of chat until the single
+final packet by the brief's contract. Stage 3, the week-long inversion forest, is exhausted by its own validator:
+73 cells over nine trunks and a five-cell adversarial matrix, 61 landed, 11 instrument-failed
+informatively, 1 resource-blocked. **The flagship result, stated at its licensed strength.**
+A model reader recovers a maker's standing policy and family from what the maker made, best
+from the same weights, then the same family, then strangers (L177, L179, L217), and this
+relational signature survives quality composition (L219) and one semantic bottleneck (L180)
+but not a second (L225). Records of choices predict a maker's next choice above every
+surface route for the reader that can read them (L171, L192, L228), while readers cannot
+weigh evidence (L209, L213, L229) and follow any stated hope over a unanimous record (L214,
+L231). Intended purpose is the easy human inversion (L205, L220, L233). The transmission
+channel is a complete null at this scale with its carrier retracted (L183, L222, L226). The
+recurring failure mode remains **criteria that could not do their own jobs**: eight
+structural defects were caught in the audit before results were trusted, and one standing
+positive fell to its adversary after. The binding constraints now are **one reader family's
+readings as the human ground** and **no real maker's values read by any account**; the next
+unit of work is the Stage-4 final packet at the deadline, then the curator's assessment of both
+stages.
 
 ---
 
 ## ⚠ Known weaknesses — open ones only
 
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
+
+**0 · STAGE-4 ERRATA CORRECTIONS (2026-08-28), the audit pass over the Stage-3 record.** Source:
+[`docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md`](docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md),
+applied to the four theory owners the same day. Each item below changes the *interpretation* of a
+measurement already recorded, never the measurement, and never the theory's permission to pursue
+the mechanism. **No original output was altered and no artifact is corrupt** (the completion
+validator reads 72 of 73 Stage-3 produces intact; the absent one belongs to M02, INSTRUMENT_FAILED
+with a recorded reason and zero GPU minutes). The re-runs these imply are in `TODO.md` Phase 0 as
+R1 to R6.
+
+| entry | the correction |
+|---|---|
+| **L177-L180, L182, L225** | The through-eraser survival claim is not carried by the strongest eraser: the OLMo rung retained 88 of 250 artifacts and SmolLM's surviving n = 31 is below its own declared floor of 40. The summary bottleneck was not uniformly fifteen words. The frozen hash split is retrospective robustness, **not untouched confirmation**. Family averages needed corrected aggregation, which has since landed as L236 |
+| **L192** | Model-side similarity evidence is split, not a general representational-versus-predictive division. Agreement between two target samples measures repeatability, not a predictive ceiling |
+| **L213-L214** | The stored-readout wish result cannot carry a psychological reading: raw generations were never persisted and a phrase-matching parser stood in, leaving compliance, answer contamination, task confusion, and extraction error unresolved. Instrument-dead for belief adoption |
+| **L173-L174** | The annotation-persistence result stands descriptively (0.883 against a 0.591 floor). Keystrokes and annotation spans are not independent goal episodes, and ArgRewrite spreadsheet order is not a chronological edit stream, so the within-act/between-act timescale claim is withdrawn |
+| **L207** | A dismissed set of five suggestions was represented by its first suggestion, which is not the decision unit the card asked about. AUC 0.499 does not establish default-driven or indiscriminate human acceptance. Instrument-dead for the uptake inference |
+| **L200** | Pair recovery below chance rejects *this centroid-composition readout*; it does not establish that the representation is non-compositional |
+| **L202** | Own-impulse steering is a weak, uneven effect masking a curiosity-heavy default and reverse-direction anger steering. No held-out maker prediction was tested, so the affect-to-inversion bridge is open by omission |
+| **L183-L185, XV4** | The transmission null stands at the tested scale. The 4/4 representation separation does not establish a nontrivial carrier (a cheap scalar adversary reaches 3/4, length-matching drops it to 2/4, on a tiny held-out set), and **neither carrier absence nor an uptake-only failure is established** |
+
+*Table: eight interpretation corrections from the Stage-4 errata audit. The XV3 and XV4 audit
+observations still owe linked method receipts before their numbers may enter canonical theory.*
 
 **1 · The human corpora now exist, and the weakness has changed shape.** It used to read *"we have
 never had a controlled corpus of human artifacts."* **That is no longer true** — we hold 86 university
@@ -7984,6 +8017,13 @@ permutation over 123-128 artifact groups, 3,780 matrix cells. Gate: OLMo realize
 largest there. Restricted to the three maker families as readers, qwen +0.0100 (p=0.0012)
 and olmo +0.0316 (p=5e-5) hold; smollm thins to +0.0034 (p=0.18).
 
+**CORRECTED 2026-08-27 (L236).** The own-family side of this contrast kept only the
+last-loaded own-family reader per artifact (a dictionary overwrite; OLMo, with one own
+reader, is unaffected). With equal averaging over all eligible own-family readers the
+margins are qwen +0.0137, smollm +0.0096, olmo +0.0365, each at p = 5e-5: the reversal
+stands in all three families with Qwen's magnitude a fifth smaller. Landed outputs are
+untouched; the corrected analysis is the Stage-4 audit receipt.
+
 **What it means.** Family self-legibility is now a three-family fact with a pre-registered
 replication shape. SmolLM is the weak link on the symmetric contrast — its readers carry
 the pattern less than its makers elicit it.
@@ -7997,7 +8037,7 @@ the pattern less than its makers elicit it.
 > Detail: results/phase_2_4_stage_3/S/S01/verdict.json.
 
 
-## L178 · A policy trained into the weights reads back as that policy — mostly: the exact reader recovers seven of eight adapter cells, and the miss is the story
+## L178 · A policy trained into the weights reads back as that policy — mostly: the exact reader recovers six of eight adapter cells, and the misses are the story
 
 **Hypothesis.** Put the standing policy into LoRA weights instead of the prompt: does the
 exact reader recover the same policy from the adapter-maker's unprompted choices?
@@ -8007,10 +8047,10 @@ exact reader recover the same policy from the adapter-maker's unprompted choices
 scenarios with no policy line; exact posterior per domain; the bare maker beside them.
 
 **What we found.** Qwen adapters: robust recovered at posterior 1.00 in both domains;
-cheap recovered in both (0.94 infra, 0.60 process). SmolLM adapters recovered in three of
-four domain-cells. Bare makers show the familiar intrinsic profiles (Qwen robust/fast by
-domain, SmolLM robust-leaning). Seven of eight adapter-policy domain-cells read back the
-trained policy; the miss is a cheap adapter fighting the maker's intrinsic lean.
+cheap recovered in both (0.94 infra, 0.60 process). SmolLM adapters recovered in two of
+four domain-cells (both robust cells; both cheap cells read robust, 0.72 and 0.99). Bare makers show the familiar intrinsic profiles (Qwen robust/fast by
+domain, SmolLM robust-leaning). Six of eight adapter-policy domain-cells read back the
+trained policy (this entry first said seven, miscounting SmolLM's cheap cells; corrected 2026-08-27 against the verdict file, L224); the misses are cheap adapters fighting the maker's intrinsic lean.
 
 **What it means.** Policy-in-weights is readable by the same exact instrument that reads
 policy-in-prompt — the S-trunk's prompt/weights equivalence leg stands, with the same
@@ -8018,7 +8058,7 @@ against-the-grain asymmetry that runs through the whole stage.
 
 > **Curator roll-up.** Theory group: reader heuristics / mechanism bridge (S trunk).
 > Question: does a weight-borne policy read like a prompted one? Outcome class:
-> **Strengthens.** Result: 7 of 8 adapter cells recover the trained policy exactly.
+> **Strengthens.** Result: 6 of 8 adapter cells recover the trained policy exactly (corrected from 7; cohort 2 reads 7 of 8, L224).
 > Meaning: how the policy got there matters less than what it must fight. Next
 > obligation: cohort 2 (S02/X1, queued). Public claim: unchanged until X1. Decision: No.
 > Detail: results/phase_2_4_stage_3/S/S02/verdict.json.
@@ -8103,14 +8143,18 @@ should reproduce the crossed reversal if it is real.
 
 **What we found.** OLMo +0.0358 (p=5e-5), Qwen +0.0272 (p=1e-4), SmolLM +0.0085 (p=0.099).
 
+**CORRECTED 2026-08-27 (L236).** Under equal averaging over own-family readers (the
+last-loaded-reader overwrite removed) the reserve reads OLMo +0.0358 (p=5e-5), Qwen
++0.0146 (p=8.5e-4), SmolLM +0.0129 (p=0.001): three of three families confirm, and
+SmolLM's "weakness" was the overwrite choosing its weakest reader.
+
 **What it means.** The two strong families confirm on untouched data; SmolLM's weakness
 is stable across sides, so it is a property of the family, not of exploration.
 
 > **Curator roll-up.** Theory group: reader heuristics (S trunk). Question: does the
-> reversal hold on the untouched reserve? Outcome class: **Strengthens.** Result: 2 of 3
-> families at p<=1e-4 on the reserve quarter. Meaning: the headline S-trunk claim carries
-> its own confirmation split. Next obligation: rerun at week's end with X-cells folded
-> in. Public claim: confirmation-split language now available. Decision: No.
+> reversal hold on the untouched reserve? Outcome class: **Strengthens.** Result: 3 of 3
+> families at p<=1e-3 on the reserve quarter (corrected, L236; originally read as 2 of 3). Meaning: the headline S-trunk claim carries
+> its own confirmation split. Next obligation: none (the week's-end refresh is L235). Public claim: confirmation-split language now available. Decision: No.
 > Detail: results/phase_2_4_stage_3/S/S07/verdict.json.
 
 
@@ -8146,8 +8190,8 @@ carrier question answered separately by L184. Safety note stands: the trait was 
 > Outcome class: **Kills** (at this scale and parameterization). Result: gap 0.000 across
 > the rank-and-template grid, −0.075 full-FT. Meaning: transmission needs something this
 > setup lacks — scale, distillation form, or logit-level supervision. Next obligation:
-> L01/X1 seeds 7-12 only if the theory needs the n; otherwise the trunk rests on the
-> carrier result. Public claim: none (null). Decision: No.
+> none; seeds 7-12 ran (L222, the null holds) and the carrier result was retracted
+> (L226), so the trunk stands as a complete null. Public claim: none (null). Decision: No.
 > Detail: results/phase_2_4_stage_3/L/L01/verdict.json (+L02, L03).
 
 
@@ -8170,13 +8214,18 @@ full-FT training at this scale simply do not couple to it. Carrier present, upta
 absent: the failure point of subliminal transmission here is the LEARNING side, not the
 signal side.
 
+**RETRACTED 2026-08-27 (L226).** The adversary's three sequence statistics (count, mean,
+spread) separate the same held-out seeds 3 of 4, and length-matching drops the
+representation read to 2 of 4; the surface control here lacked length, so the
+fingerprint was length and value range, not structure. Nothing in this entry stands.
+
 > **Curator roll-up.** Theory group: decision traces, leakage channels (L trunk).
 > Question: do trait-teachers' number sequences differ at all? Outcome class:
 > **Strengthens** (the leakage-channel claim; narrows the transmission null's meaning).
 > Result: 4/4 held-out seeds separable in representation space, 1/4 at surface. Meaning:
 > automatic traces reach even semantically-empty artifacts; transmission failure is
 > uptake-side. Next obligation: none — this is the L-trunk's standing positive. Public
-> claim: leakage-into-nonsemantic-artifacts, model-side, now citable. Decision: No.
+> claim: RETRACTED by L226. Decision: No.
 > Detail: results/phase_2_4_stage_3/L/L04/verdict.json.
 
 
@@ -8785,6 +8834,9 @@ retired). H07: three candidate HF mirrors do not exist; receipts recorded.
 parquet-mirror fetch (candidate known), H07 needs a real mirror name or an OpenReview
 API pull — both one-session tasks if the trunk needs them.
 
+**H03 UNBLOCKED 2026-08-27 (L233):** the parquet-branch retry fetched SocialIQA and the
+cell landed. H07 stays blocked.
+
 > **Curator roll-up.** Theory group: human ground (H trunk, two cards). Question: —
 > Outcome class: **Infrastructure** (blocked). Result: two imports unreachable as
 > attempted. Meaning: H floor already met without them (H01/H02/H04/H05/H06 landed).
@@ -8987,7 +9039,8 @@ margin, per artifact, sign-flip permutation.
 
 **What it means.** Same-weights self-legibility exists ABOVE family style in both
 families where it can be measured — the three-rung gradient (L179) is now confirmed at
-its finest split.
+its finest split. Both sides of the frozen split were pooled here; the reserve-only
+check is L235.
 
 > **Curator roll-up.** Theory group: reader heuristics, similarity (S trunk). Question:
 > is the gradient's top rung identity or style? Outcome class: **Strengthens.** Result:
@@ -9004,7 +9057,7 @@ its finest split.
 empty — a single-checkpoint family — so its gradient is the exact-vs-cross pair).
 
 **What it means.** No family carries the pooled gradient alone; the ordering is a
-family-general fact.
+family-general fact. Reserve-only check: L235.
 
 > **Curator roll-up.** Theory group: reader heuristics (S trunk). Question: is the
 > gradient family-general? Outcome class: **Strengthens.** Result: monotone in 3 of 3
@@ -9024,7 +9077,7 @@ adversary's kill condition does not fire. The three negatives are the weakest re
 cells (per-reader table in the verdict).
 
 **What it means.** The reversal is relational, not compositional — the strongest
-remaining rival after the eraser stack falls.
+remaining rival after the eraser stack falls. Reserve-only check: L235 (six of eight).
 
 > **Curator roll-up.** Theory group: reader heuristics (S trunk, adversarial). Question:
 > does quality composition explain the reversal? Outcome class: **Strengthens** (the
@@ -9075,6 +9128,961 @@ and no design leans on it.
 > claims stay unlicensed. Next obligation: none. Public claim: none. Decision: No.
 > Detail: results/phase_2_4_stage_3/V/V01/profiles5to8.json.
 
+
+## L222 · Six more seeds, the same nothing: the owl gap pooled over twelve seeds is +0.009 at p = 1.0, and the null now carries its readout's realization on its face
+
+**Hypothesis.** (L01/X1.) Does the transmission null (L183) hold when the seed count
+doubles, and what is the probe's realization?
+
+**Method.** Six fresh data seeds (7-12) through the L183 recipe: the same teachers, 300
+filtered sequences each, rank-16 students, the twelve-probe favorite-animal readout with
+per-arm classification yield recorded; pooled sign-flip permutation over twelve seed pairs.
+
+| seeds | trait-minus-control owl gap |
+|---|---|
+| 1-6 (L183) | 0.000 (p = 1.0) |
+| 7-12 | +0.0185 |
+| pooled, twelve pairs | +0.0093 (p = 1.0) |
+
+*Table: owl-choice rate difference between students of owl-loving and neutral teachers.*
+
+**What we found.** Owl appears in one probe of one arm (seed 11 trait, 1 of 9) and nowhere
+else. The student's base rate is elephant-dominant in every arm (0.44 to 0.86 of classified
+answers). Per-arm classification yield runs 7 to 12 of 12 probes (0.58 to 1.00); four of the
+twelve new arms sit under the 0.75 realization gate.
+
+**What it means.** The null holds at twice the n. The readout bounds what the null says: at
+twelve probes per arm a shift of the published size (about +0.5 owl) would show as six
+probes and does not, so the null is licensed at that effect size; effects below a tenth are
+under this probe's resolution, and four arms are under the gate. That is a bound on the
+claim, not a rescue of the hypothesis.
+
+> **Curator roll-up.** Theory group: shared-base transmission (L trunk). Question: does
+> doubling the seeds open the channel? Outcome class: **Kills** (confirms the null). Result:
+> pooled gap +0.009 at p = 1.0 over twelve seeds. Meaning: with L226 the trunk carries no
+> positive at this scale. Next obligation: none. Public claim: none (null). Decision: No.
+> Detail: results/phase_2_4_stage_3/L/L01/seeds7to12.json.
+
+
+## L223 · The reader gap holds on a third domain: exact transfer is perfect again, the stronger model reader carries half of it and the weaker none
+
+**Hypothesis.** (V04/X4.) Preference recovered from infrastructure records transfers to a
+third, unrelated domain (community events)? L216 showed exact transfer perfect and model
+readers dropping on a second domain.
+
+**Method.** The 144-anchor events bank added to the environment (uniqueness and argmax
+balance asserted at import); infrastructure records, events probes; the exact ceiling
+computed first; two model readers, 24 realized items each, yields 1.0.
+
+| reader | second domain, within / cross (L216) | third domain |
+|---|---|---|
+| exact reader | 1.00 / 1.00 | 1.00 |
+| Qwen2.5-1.5B | 0.67 / 0.42 | 0.50 (p = 0.007 against 0.25) |
+| SmolLM2-1.7B | 0.42 / 0.33 | 0.33 (p = 0.23, chance) |
+
+*Table: preference-recovery accuracy from infrastructure records onto probes in other domains.*
+
+**What we found.** Exact transfer 1.00; Qwen 0.50; SmolLM at chance.
+
+**What it means.** The split replicates: the construct transfers across every surface the
+environment offers; the model readers carry it partially or not at all. The reader is the
+limit, not the preference.
+
+> **Curator roll-up.** Theory group: the triple inference, value transfer (V trunk).
+> Question: does preference transfer to a third domain? Outcome class: **Narrows.** Result:
+> Qwen 0.50 on the third domain against an exact 1.00. Meaning: cross-domain transfer is an
+> exact-construction fact and reader-limited. Next obligation: none. Public claim:
+> transfer citable as exact, reader-carried at half or nothing. Decision: No.
+> Detail: results/phase_2_4_stage_3/V/V04/domain3.json.
+
+
+## L224 · A second adapter cohort reads back seven of eight, after six of eight in the first, and the first entry's count is corrected here
+
+**Hypothesis.** (S02/X1.) Does policy-in-weights recovery (L178) replicate on an independent
+adapter cohort trained from fresh data seeds?
+
+**Method.** The L178 recipe with fresh seeds: two families, two policies (robust, cheap),
+rank-16 adapters, held-out scenarios with no policy line, exact posterior per domain; a cell
+counts as recovered when the posterior's top profile is the trained policy (the verdict
+file's rule, applied to both cohorts).
+
+| cohort | Qwen robust | Qwen cheap | SmolLM robust | SmolLM cheap | recovered |
+|---|---|---|---|---|---|
+| 1 (L178) | 2/2 | 2/2 | 2/2 | 0/2 | 6/8 |
+| 2 | 2/2 | 2/2 | 2/2 | 1/2 | 7/8 |
+
+*Table: adapter-policy domain-cells whose exact posterior tops on the trained policy.*
+
+**What we found.** Cohort 2 recovers seven of eight. The miss is SmolLM's cheap adapter in
+the process domain, which reads robust at 0.98; its infrastructure cell now recovers (cheap
+0.55). Cohort 1 under the same rule is six of eight: L178's prose said seven, having
+miscounted SmolLM's cheap cells, both of which read robust (0.72, 0.99); corrected in L178.
+
+**What it means.** Policy-in-weights is readable by the exact instrument twice over, and
+the fragile cell class is stable across cohorts: a cheap policy fighting SmolLM's robust
+grain, the against-the-grain asymmetry that runs through the stage.
+
+> **Curator roll-up.** Theory group: reader heuristics, mechanism bridge (S trunk). Question:
+> does weight-borne policy recovery replicate? Outcome class: **Strengthens.** Result: 7 of
+> 8 cells in the second cohort. Meaning: how the policy got there matters less than what it
+> must fight, now two cohorts deep. Next obligation: none. Public claim: the prompt/weights
+> equivalence leg citable with the asymmetry stated. Decision: No.
+> Detail: results/phase_2_4_stage_3/S/S02/cohort2.json.
+
+
+## L225 · The bottleneck result does not replicate through the OLMo rewriter: own-minus-other is −0.001 in both families, on the 35 percent of regenerations that survived
+
+**Hypothesis.** (S05/X3.) The family signature survived a fifteen-word
+summarize-and-regenerate bottleneck through a SmolLM rewriter (L180). Does it survive the
+same bottleneck through a stake-free rewriter, the third family's OLMo?
+
+**Method.** The L180 procedure with OLMo-2-1B-Instruct as the eraser; only goal-realized
+regenerations enter (88 of 250 kept, 162 died at the bottleneck, none too similar to source);
+the full reader matrix; the paired crossed contrast with sign-flip permutation.
+
+| eraser | kept | Qwen own-minus-other (p, n) | SmolLM own-minus-other (p, n) |
+|---|---|---|---|
+| SmolLM (L180) | 159 of 250 | +0.0074 (0.009, 86) | +0.0086 (0.0035, 73) |
+| OLMo | 88 of 250 | −0.0011 (0.68, 57) | −0.0007 (0.78, 31) |
+
+*Table: within-artifact own-family minus other-family reading margin on regenerated artifacts.*
+
+**What we found.** Nothing survives the OLMo channel: both families read at zero.
+
+**What it means.** The through-bottleneck claim rests on the SmolLM channel alone. This cell
+cannot separate two readings: the OLMo rewriter erases what SmolLM's did not, or the
+35-percent survivors are a different population (a selection on the outcome side, banked in
+LESSONS §3). It is underpowered as well: at n = 31 the SmolLM-side effect of L180 is about
+1.7 standard errors. None of that softens the reading on this channel, which is null.
+
+> **Curator roll-up.** Theory group: reader heuristics, erasure ladder (S trunk). Question:
+> does own-family reading survive a semantic bottleneck through a stake-free rewriter?
+> Outcome class: **Narrows.** Result: −0.001 in both families through OLMo. Meaning: the
+> erasure-robustness upgrade of L180 is withdrawn to "survives one semantic rewriter". Next
+> obligation: a realization-matched rerun (regenerate until 159 survive, or match survivors
+> on length and goal) before the ladder's top rung is cited. Public claim: L180 downgraded as
+> stated. Decision: No. Detail: results/phase_2_4_stage_3/S/S05/eraser3.json.
+
+
+## L226 · The carrier was length: three sequence statistics separate the teachers' number files as well as the representation did, and length-matching drops the representation read to chance, so L184 is retracted
+
+**Hypothesis.** (XV4, adversarial, targeting L184.) Kill conditions written before running:
+the carrier positive dies if trivial scalars separate the held-out seeds as well as the
+representation does, or if the representation separation dies under length matching.
+
+**Method.** Per-file scalars (mean count of numbers per sequence, mean value, spread),
+z-normalized, nearest-centroid from seeds 1-4 onto seeds 5-6, the same four test cells as
+L184; then each seed's trait and control files subsampled to a shared per-length histogram
+(40 sequences per file) and the mid-block base-model state read rerun on the matched sets.
+
+| read | held-out cells correct |
+|---|---|
+| digit-distribution profiles (L184) | 1 of 4 |
+| mid-block representation (L184) | 4 of 4 |
+| three sequence scalars (XV4) | 3 of 4 |
+| mid-block representation, length-matched (XV4) | 2 of 4 |
+
+*Table: nearest-centroid classification of trait-teacher versus control-teacher data files.*
+
+**What we found.** Both kill prongs fired.
+
+**What it means.** L184's surface control lacked the scalars that carried the separation.
+The owl-teacher's sequences differ from the control teacher's in how many numbers they hold
+and what range they span, and once those are matched the base model's states carry nothing.
+The L trunk's only positive is gone; the trunk is a complete null (L183, L185, L222). The
+resolution is four cells, so 3 of 4 against 4 of 4 is one cell, but the pre-declared
+condition fired on both prongs and the retraction follows the rule, not the margin.
+
+> **Curator roll-up.** Theory group: the triple inference, leakage channels (L trunk,
+> adversarial). Question: is the carrier trivial? Outcome class: **Kills** (L184). Result:
+> the length-matched representation read is 2 of 4. Meaning: no leakage-into-nonsemantic-
+> artifacts claim stands. Next obligation: none (L184 retracted in place, lesson banked).
+> Public claim: RETRACTED. Decision: No (a retraction is not optional).
+> Detail: results/phase_2_4_stage_3/X/XV4_verdict.json.
+
+
+## L227 · Mixed-policy makers are near unpredictable from their records: the six blend profiles read at 0.375 and 0.25 against 0.25 chance
+
+**Hypothesis.** (E03/X1.) The record route predicts a pure-policy maker's next choice at
+about 0.55 (L192). Does it hold for makers whose policy blends two axes?
+
+**Method.** Six blend profiles (identifiability 29 of 30 at build, L221), eight-choice
+records, four held-out scenarios each, record-first prompt, two readers, 24 items each at
+yield 1.0; truth is the blend's own argmax option among four.
+
+| reader | pure profiles (L192) | blends |
+|---|---|---|
+| Qwen2.5-1.5B | 0.5625 (n 16) | 0.375 (n 24, p = 0.12 against 0.25) |
+| SmolLM2-1.7B | 0.50 (n 16) | 0.25 (n 24) |
+
+*Table: accuracy predicting the maker's held-out choice from its record; chance 0.25.*
+
+**What we found.** Near chance for both readers.
+
+**What it means.** Record reading is policy-purity-bound: a blend's record is consistent
+with more than one story and these readers do not integrate it. The record-route claim
+narrows to pure policies at this n.
+
+> **Curator roll-up.** Theory group: reader heuristics, record route (E trunk). Question:
+> can records predict a mixed-policy maker? Outcome class: **Narrows.** Result: 0.375 for the
+> better reader against 0.25 chance. Meaning: the route works on pure policies only, so far.
+> Next obligation: none. Public claim: record-route prediction claimed for pure policies.
+> Decision: No. Detail: results/phase_2_4_stage_3/E/E03/policies7to12.json.
+
+
+## L228 · The record route replicates on the second domain for the stronger reader exactly (0.5625 on both) and collapses to chance for the weaker
+
+**Hypothesis.** (E03/X4.) Does the record route's prediction (L192, infrastructure) hold on
+the held-out process domain?
+
+**Method.** Pure profiles on the process domain through the same battery; 16 items per
+reader at yield 1.0.
+
+| reader | infrastructure (L192) | process |
+|---|---|---|
+| Qwen2.5-1.5B | 0.5625 | 0.5625 (p = 0.007 against 0.25) |
+| SmolLM2-1.7B | 0.50 | 0.25 |
+
+*Table: accuracy predicting a pure-policy maker's held-out choice from its record.*
+
+**What it means.** Record reading is reader-bound: a Qwen fact more than an environment
+fact. Together with L227 the route stands for the reader that has it, on pure policies.
+
+> **Curator roll-up.** Theory group: reader heuristics, record route (E trunk). Question:
+> does the record route transfer domains? Outcome class: **Narrows.** Result: 0.5625 on both
+> domains for one reader, chance for the other. Meaning: the capability lives in the reader.
+> Next obligation: none. Public claim: record route citable for the reader that has it.
+> Decision: No. Detail: results/phase_2_4_stage_3/E/E03/domain2.json.
+
+
+## L229 · The late-fusion ruler fails its easy doses on the second domain too (0.29 against exact Bayes), and its easy band had no variance to track
+
+**Hypothesis.** (C01/X4.) L209 failed the ruler on the infrastructure domain (0.484 on the
+easy doses). Is the failure domain-general?
+
+**Method.** Process domain, evidence doses 0, 2 and 8, early-first and recent-first orders,
+two readers, 48 items at yield 0.99; pass is 0.6 against exact Bayes on the easy doses.
+
+| reader | dose 0 | dose 2 | dose 8 |
+|---|---|---|---|
+| Qwen2.5-1.5B | 0.375 | 0.4375 | 0.30 |
+| SmolLM2-1.7B | 0.125 | 0.22 | 0.34 |
+
+*Table: agreement with the exact late-fusion answer by evidence dose; easy-dose pooled 0.286;
+order effect −0.016 (p = 1.0).*
+
+**What we found.** Fails on the second domain; presentation order is irrelevant.
+
+**What it means.** The ruler is dead on both domains. A design note recorded as a lesson:
+the easy doses' exact answer was HOLD on every item, so a reader answering HOLD every time
+would have passed at 1.0 and a pass would have been ambiguous between tracking Bayes and
+emitting a constant. The readers scored under that constant, which makes the failure
+unambiguous, but the easy band must vary its truth before the ruler is rebuilt.
+
+> **Curator roll-up.** Theory group: reader heuristics, updating and calibration (C trunk).
+> Question: is the late-fusion failure domain-general? Outcome class: **Infrastructure.**
+> Result: 0.286 on the easy doses. Meaning: the C trunk's ruler is dead twice; its weighing
+> results (L213, L214, L231) stand on their own designs. Next obligation: a varied-truth
+> easy band before any C reopen. Public claim: none. Decision: No.
+> Detail: results/phase_2_4_stage_3/C/C01/domain2.json.
+
+
+## L230 · The with-grain reach survives a fresh worker assignment: the robust director still moves the team most and the cheap director least on a re-permuted cast
+
+**Hypothesis.** (D01/X1.) Only the with-grain director moved workers (L186). Was that an
+artifact of which worker held which role? The kill condition as written was qualitative:
+reach rates move materially with the assignment permutation.
+
+**Method.** The same scenario plan under a seeded re-permutation of worker roles, 46 to 48
+episodes per world at yield 0.98; per-world axis rate under the new roles beside the old.
+
+| world, director | roles 1 (L186) | roles 2 | change |
+|---|---|---|---|
+| W1, robust | 0.583 | 0.522 | −0.06 |
+| W2, cheap | 0.208 | 0.104 | −0.10 |
+| W3, fast | 0.125 | 0.191 | +0.07 |
+
+*Table: rate at which workers enact the director's axis, by role assignment.*
+
+**What we found.** The ordering robust above fast and cheap is preserved; the robust
+director's lead over the other two moves from 0.41 to 0.37; every shift is within about 1.4
+standard errors at n near 47.
+
+**What it means.** The reach belongs to the director's grain, not to the cast. Reported as
+ordering and magnitudes because the pre-declared condition carried no numeric threshold; a
+post-hoc threshold would be the disease this project audits for.
+
+> **Curator roll-up.** Theory group: decision traces, direction (D trunk). Question: is the
+> with-grain reach an assignment artifact? Outcome class: **Strengthens.** Result: robust
+> lead 0.37 after re-permutation. Meaning: L186 holds with its assignment control. Next
+> obligation: none. Public claim: with-grain reach citable with the control. Decision: No.
+> Detail: results/phase_2_4_stage_3/D/D01/roles5to8.json.
+
+
+## L231 · The stated hope of an explicitly ignorant stranger is followed even more than the experimenter's, 0.96 against 0.83: the override is preference injection, not deference
+
+**Hypothesis.** (XV3, adversarial, targeting L214.) Kill condition: the follow rate collapses
+when the hope comes from someone with no authority, which would make the override
+authority-shaped.
+
+**Method.** L214's conflict condition with the hope attributed to a passer-by who states
+they know nothing about the case; 47 realized items at yield 0.98.
+
+| who states the hope | follow rate on conflict items |
+|---|---|
+| the experimenter (L214) | 0.833 |
+| an ignorant stranger | 0.957 (Qwen 1.00, SmolLM 0.92; p = 0.01 above 0.833) |
+
+*Table: share of conflict items where the reader follows the stated hope against a unanimous record.*
+
+**What we found.** The kill did not fire; it reversed.
+
+**What it means.** Any stated preference in the prompt overrides the record, whoever states
+it and whatever they know. L214's override is injection, and its mechanism is now sharper
+than before.
+
+> **Curator roll-up.** Theory group: reader heuristics, trust (C trunk, adversarial).
+> Question: is the sycophancy override authority-shaped? Outcome class: **Strengthens.**
+> Result: 0.957 following under a stranger's hope. Meaning: the override is preference
+> injection. Next obligation: none. Public claim: L214 citable with the attribution
+> control. Decision: No. Detail: results/phase_2_4_stage_3/X/XV3_verdict.json.
+
+
+## L232 · The steering anchor survives its adversary: a neutral pair moves a tenth as far as the valence pair, and lexical injection accounts for nine percent of the shift
+
+**Hypothesis.** (XV2, adversarial, targeting L197.) Kill conditions: the neutral pair moves
+at least half as far as the valence pair, or the token-probe share approaches one.
+
+**Method.** The L197 recipe refit (blocks 14-18, dose 2.78); three continuation pairs under
+the same intervention: valence (happy against sad), neutral (no affect), token probe (the
+fitted direction's own words).
+
+| pair | plus shift | minus shift |
+|---|---|---|
+| valence | +0.78 | −0.75 |
+| neutral | −0.10 | −0.015 |
+| token probe | +0.07 | −0.24 |
+
+*Table: preference shift under additive steering; token-probe share of the valence shift 0.093.*
+
+**What it means.** The direction moves valence preference, not arbitrary continuations, and
+not by pushing its training words. L197 stands with both controls.
+
+> **Curator roll-up.** Theory group: cognitive layers, the causal gate (A trunk,
+> adversarial). Question: is the handle lexical injection or a general push? Outcome class:
+> **Strengthens.** Result: the neutral pair moves at most 0.10. Meaning: the additive
+> valence handle is specific. Next obligation: none. Public claim: L197 citable with both
+> controls. Decision: No. Detail: results/phase_2_4_stage_3/X/XV2_verdict.json.
+
+
+## L233 · Social intent reads above its question-only floor on a second human bank: 0.54 and 0.48 against 0.39 on six hundred SocialIQA items
+
+**Hypothesis.** (H03, unblocked from L208.) Social-intent questions (why did X do that; what
+does X want next) as the social-inference ground, scored with the same likelihood readers and
+the same question-only floor as the exam-passage bank (L205).
+
+**Method.** The parquet-branch fetch that L208 named as the unblock; 600 validation items
+with three options (random floor 1/3); context-plus-question against question-only.
+
+| reader | with context | question only | lift | purpose lift on exam passages (L205) |
+|---|---|---|---|---|
+| Qwen2.5 | 0.540 | 0.387 | +0.15 (p < 1e-8) | +0.20 |
+| SmolLM2 | 0.478 | 0.390 | +0.09 (p = 7e-6) | +0.13 |
+
+*Table: accuracy on social-intent questions with and without the situation, and the lift.*
+
+**What it means.** The human ground now has two banks, and social-intent inference sits in
+the same lift class as rhetorical purpose. L208's H03 block is closed; H07 stays blocked.
+
+> **Curator roll-up.** Theory group: human ground (H trunk). Question: do the readers
+> recover social intent above the question-only floor? Outcome class: **Strengthens.**
+> Result: +0.15 lift for the stronger reader. Meaning: a second human ground at the same
+> lift class as purpose. Next obligation: none. Public claim: social-intent recovery above
+> floor at 1B scale citable. Decision: No. Detail: results/phase_2_4_stage_3/H/H03/verdict.json.
+
+
+## L234 · The suppression check has nothing to suppress on a second scene bank either: the strongest surface channel runs at 0.006 against a 0.012 floor, so the audit closed the cell without a generation
+
+**Hypothesis.** (A06/X4.) The expressive corpus holds almost no emotion words (L201). Is that
+scene-bank-specific or corpus-general? Design: audit four surface channels for range before
+generating anything; generate only if a channel clears the verifiability floor.
+
+**Method.** Twelve new scenes; channels first-person feeling, intensifiers, exclamations,
+emotion lexicon; floor 0.012 per-token rate.
+
+| channel | rate |
+|---|---|
+| first-person feeling | 0.0063 |
+| intensifiers | 0.0014 |
+| exclamations | 0.0002 |
+| emotion lexicon | 0.0063 |
+
+*Table: per-token rate of each candidate surface-emotion channel on the second scene bank; floor 0.012.*
+
+**What it means.** Instrument dead corpus-wide; the L201 lesson enforced in code cost zero
+GPU. The suppression question is unasked, not answered.
+
+> **Curator roll-up.** Theory group: cognitive layers (A trunk). Question: can suppression
+> be verified on a second scene bank? Outcome class: **Infrastructure.** Result: max channel
+> 0.006 under the 0.012 floor. Meaning: the corpus cannot carry the manipulation. Next
+> obligation: none (a corpus with genuine surface affect would be a new card). Public
+> claim: none. Decision: No. Detail: results/phase_2_4_stage_3/A/A06/domain2.json.
+
+
+## L235 · The expansion contrasts hold on the frozen reserve quarter alone: exact beats siblings in both families, the gradient is monotone in all three, and six of eight readers show the own-family effect inside themselves
+
+**Hypothesis.** (S07 refresh, the week's-end replicate step.) L217, L218 and L219 were
+computed over the whole reader matrix with both sides of the frozen md5 split pooled. Do
+the three pre-declared contrasts hold on the reserve quarter alone, and on the discovery
+side alone? Criteria written before running: on the reserve alone, exact-minus-sibling
+above zero at p < 0.05 in both measurable families, the gradient monotone in three of
+three families, and at least two thirds of readers positive within-reader.
+
+**Method.** The same three analyses run per side (2,840 discovery cases; 940 reserve
+cases), permutation seeds recorded; analysis only, no new scoring.
+
+| contrast | discovery side | reserve side |
+|---|---|---|
+| exact minus sibling, Qwen | +0.0095 (p = 0.0012, n 93) | +0.0144 (p = 0.0013, n 30) |
+| exact minus sibling, SmolLM | +0.0138 (p = 5e-5, n 92) | +0.0149 (p = 0.0087, n 35) |
+| relatedness gradient monotone | 3 of 3 families | 3 of 3 families |
+| readers positive within-reader | 5 of 8 | 6 of 8 |
+
+*Table: the three expansion contrasts by side of the frozen md5 split.*
+
+**What we found.** All three criteria hold on the reserve alone, and the discovery side
+agrees. The within-reader negatives on the reserve are the three SmolLM readers at
+near-zero (−0.004 to +0.004); the OLMo reader and the small Qwen readers carry the effect
+(p at or under 0.02).
+
+**What it means.** The finest split and the quality adversary both replicate on untouched
+artifacts. Scope note, banked as a lesson: L217 to L219 pooled the reserve into their
+analyses (pre-declared, no fitting, so no leak), which makes this a split-half check
+rather than a first look at the reserve.
+
+> **Curator roll-up.** Theory group: reader heuristics, similarity (S trunk). Question: do
+> the expansion contrasts hold on the untouched quarter? Outcome class: **Strengthens.**
+> Result: reserve-only sibling edge +0.014 and +0.015 at p < 0.01. Meaning: every rung the
+> expansion added replicates on its reserve. Next obligation: none; the week's-end
+> replicate step is complete. Public claim: L217 to L219 citable with the reserve
+> confirmation. Decision: No. Detail: results/phase_2_4_stage_3/S/S07/xfills.json.
+
+
+## L236 · The own-family side of the S-trunk contrast kept one reader per artifact; averaged equally over all own-family readers, the crossed reversal stands in every family and the reserve confirms all three
+
+**Hypothesis.** (Audit item, raised by the Stage-4 handoff §3.2 and verified in code.) The
+own-family aggregate in the S-trunk crossed contrast is a dictionary keyed by artifact, so
+with several same-family readers per artifact it keeps whichever reader loaded last, set
+against the mean of all other-family readers. Does the headline survive equal averaging?
+
+**Method.** The full reader matrix (3,780 cells) and the reserve quarter (940) were
+re-aggregated with the own side as the mean over all eligible own-family readers per
+artifact (Qwen 4 readers, SmolLM 3, OLMo 1), the same paired sign-flip permutation as
+before; the legacy semantics were recomputed beside it and reproduce the landed numbers to
+the digit. Landed outputs untouched; the receipt is
+results/phase_2_4_stage_4/AUDIT_STAGE3/s_trunk_equal_reader_contrast.json.
+
+| family | legacy, full (L177) | corrected, full | legacy, reserve (L182) | corrected, reserve |
+|---|---|---|---|---|
+| qwen | +0.0171 (5e-5) | +0.0137 (5e-5) | +0.0272 (1e-4) | +0.0146 (8.5e-4) |
+| smollm | +0.0095 (4.5e-4) | +0.0096 (5e-5) | +0.0085 (0.099) | +0.0129 (0.001) |
+| olmo | +0.0365 (5e-5) | +0.0365 (5e-5) | +0.0358 (5e-5) | +0.0358 (5e-5) |
+
+*Table: own-family minus other-family reading margin per artifact (permutation p), under the
+landed one-reader semantics and under equal averaging over own-family readers.*
+
+**What we found.** The reversal survives everywhere. Qwen's margin shrinks by a fifth; the
+reserve's SmolLM "weakness" was the overwrite selecting its weakest reader, and under equal
+averaging the reserve confirms three of three families.
+
+**What it means.** The S-trunk headline is intact and its confirmation split is stronger
+than reported. The same code sits in both S05 bottleneck arms (L180, L225); their recompute
+needs the kept-set filter reproduced and is owed to the Stage-4 integrity card. The lesson
+(aggregation must be order-invariant and weight every eligible reader) is banked.
+
+**Verified in the live run (Stage-4 card I01, 2026-08-27 22:24).** The integrity card
+recomputed the equal-reader contrast from the case files: full matrix qwen +0.0137,
+smollm +0.0096, olmo +0.0365 (all p = 5e-5); reserve qwen +0.0146 (8.5e-4), smollm
++0.0130 (1.0e-3), olmo +0.0358 (5e-5), the numbers above to the digit. The manifest
+duration sum reproduces the brief's 30.68 actual against 140.96 forecast hours. The S05
+SmolLM eraser's legacy numbers reproduce from its matrix files (corrected in place); the
+OLMo eraser's kept-set filter does not reproduce from the matrix files alone and stays
+owed. Raw generated text is absent only from the X trunk's outputs.
+
+> **Curator roll-up.** Theory group: reader heuristics, similarity (S trunk, audit).
+> Question: is the crossed reversal an averaging artifact? Outcome class: **Strengthens.**
+> Result: all three families at p = 5e-5 after correction. Meaning: the headline holds at
+> corrected magnitudes and the reserve now confirms every family. Next obligation: the S05
+> recompute under Stage 4's integrity card. Public claim: L177 and L182 citable at the
+> corrected numbers. Decision: No.
+> Detail: results/phase_2_4_stage_4/AUDIT_STAGE3/s_trunk_equal_reader_contrast.json.
+
+
+## L237 · A finished drawing's raster places its recorded first stroke no better than the ink-placement prior on the frozen balanced estimand, though raw accuracy favors it; a rotated raster loses everything
+
+**Hypothesis.** (Stage 4, P01.) Does a final artifact constrain a recorded action beyond a
+category-level guess? On Quick, Draw! drawings (house, tree, bicycle, cat; CC BY 4.0, attribution
+retained), does a small classifier on the final raster predict the quadrant where the first
+stroke began, beyond category-only, ink-distribution, and bounding-box priors?
+
+**Method.** 3,782 recognized drawings from a capped nonrandom prefix of each category file
+(900 per category targeted, 128 MiB cap, disclosed as a prefix), rendered as 32-by-32
+binary-union rasters at constant stroke width so overpainting cannot leak order; IDs,
+timestamps, country, recognition flag, stroke order and direction stripped from inputs; split
+by raster hash (near-duplicates share a split) into train 2,228, discovery 788, reserve 766
+before fitting. A balanced-class logistic classifier on the raster against four cheap priors
+(category majority quadrant, ink-heaviest quadrant, ink-lightest quadrant, bounding-box
+corner); a translation-and-scale-normalized arm and a 90-degree rotation with transformed
+labels as controls. Primary: balanced accuracy of the classifier minus the best cheap prior,
+paired by drawing with label reweighting, cluster bootstrap over drawings (interval only, no
+p-value). The first landed verdict paired raw correctness, which the 60-percent majority
+quadrant dominates; the card's frozen estimand is balanced accuracy, so it was recomputed
+in-run with the first outputs preserved beside it (superseded_first_estimand/).
+
+| quantity | value |
+|---|---|
+| truth marginal on the discovery split (quadrants 0, 1, 2, 3) | 0.60, 0.10, 0.28, 0.02 |
+| raster classifier, balanced accuracy | 0.364 |
+| best cheap prior (ink-heaviest quadrant), balanced accuracy | 0.328 |
+| category-only prior | 0.323 |
+| normalized raster (translation and scale) | 0.351 |
+| rotated raster with transformed labels | 0.256 |
+| **primary, balanced: raster minus best prior, paired** | **+0.037 [-0.017, +0.090], 788 drawings** |
+| raw-accuracy contrast, paired (the first landing) | +0.084 [+0.038, +0.128] |
+
+*Table: held-out recovery of the first stroke's quadrant on the discovery split. The primary
+is the balanced-accuracy contrast with its 95 percent cluster-bootstrap interval; per
+category the raster beats the prior on tree and house and loses on bicycle and cat.*
+
+**What we found.** INCONCLUSIVE on the frozen estimand: the interval reaches the 0.05
+threshold and crosses zero. The raw-accuracy contrast is positive because the classifier
+predicts the majority quadrant more often than the prior does. The rotated raster falls to
+chance, so what the raster carries is placement, not an action signature that survives a
+change of frame.
+
+**What it means.** Artifact-only reading of a recorded action has a coarse-grain foothold at
+best, and it cannot yet be told from a placement prior. The reserve split (766 drawings)
+stays untouched; the card is not eligible for the confirmation reserve.
+
+> **Curator roll-up.** Theory group: decision traces, reading the artifact directly (Stage 4,
+> physical track). Question: does a final drawing carry its first action beyond cheap priors?
+> Outcome class: **Narrows.** Result: +0.04 balanced accuracy over the ink prior, interval
+> crossing zero. Meaning: the artifact-only claim is bounded to placement at a coarse grain;
+> the raw-accuracy positive is the majority quadrant. Next obligation: none owed; P02 carries
+> the access-ladder question. Public claim: unchanged. Decision: No.
+> Detail: results/phase_2_4_stage_4/P01/.
+
+## L238 · Given a drawing's strokes as an unordered set, a learned ordering prior finds the recorded first stroke in seven of ten against five for the best geometric rule; given the true first stroke, it places the next at half against a third
+
+**Hypothesis.** (Stage 4, P02.) How much of the apparent motor bootstrap requires information
+not recoverable from final pixels? With two explicitly privileged access levels, the unordered
+direction-stripped stroke set and then a genuine prefix (the true first stroke), does a
+learned ordering or transition prior beat simple geometry heuristics on the same inputs?
+
+**Method.** The same 3,782 drawings and splits as L237, reserve untouched. Unordered access:
+each drawing's strokes as a canonically sorted set (by centroid, so no order survives) with
+twelve geometric features per stroke plus relative features; a balanced logistic scorer
+trained on the train split ranks the strokes and its top pick is scored against the recorded
+first stroke. The comparator is the single geometry heuristic that does best on the train
+split (the longest stroke, 0.48 there, against 0.32 for the top-left-most start); the
+per-drawing better of the two heuristics is kept as a severe secondary; the permutation floor
+(one over the stroke count) is the collision floor, every ordering of the same strokes giving
+the same set and the same raster. Prefix access: given the true first stroke's features, a
+learned classifier predicts the next stroke's starting quadrant against the rule that the
+next stroke starts where the first ended. Cluster bootstrap over drawings, no p-value. The
+first landed verdict used the per-drawing best of the two heuristics as the primary
+comparator, an oracle over heuristics (+0.051); the frozen estimand names the geometry
+heuristic, so the primary was recomputed in-run with the first outputs preserved.
+
+| access level | learned | comparator | contrast |
+|---|---|---|---|
+| unordered stroke set, first-stroke identification | 0.689 | longest-stroke rule 0.491 (top-left rule 0.310; permutation chance 0.219) | **+0.198 [+0.162, +0.234], 788 drawings** |
+| unordered set, severe comparator (per-drawing best of the two rules) | 0.689 | 0.638 | +0.051 [+0.014, +0.088] |
+| prefix (true first stroke given), next-stroke quadrant, balanced accuracy | 0.501 | end-of-first-stroke rule 0.345 | +0.156 (point only) |
+
+*Table: recovery at each declared access level on the discovery split; the primary is the
+first row's contrast with its 95 percent cluster-bootstrap interval.*
+
+**What we found.** SUPPORT_CANDIDATE: with the strokes segmented but unordered, a learned
+prior over stroke geometry identifies the recorded first stroke far above the best single
+rule and above the oracle over rules; with the true first stroke supplied, the next stroke's
+placement is predicted at half against a third. Each level is labeled with what it was
+given; none is artifact-only.
+
+**What it means.** Most of what artifact-only reading lacks (L237) is bought by process
+geometry the final raster does not carry: segmentation first, then a genuine prefix. That is
+a boundary on artifact inversion and an engineering foothold, not a recovery of the maker and
+not a neural mirror-system result. Eligible for the confirmation reserve under the frozen
+rule if it clears F01's precision check at closure.
+
+> **Curator roll-up.** Theory group: decision traces, terminal organisation and
+> non-invertibility (Stage 4, physical track). Question: what does process geometry buy
+> beyond pixels? Outcome class: **Strengthens.** Result: +0.20 first-stroke identification
+> over the best geometric rule. Meaning: the information the artifact drops is recoverable
+> from segmentation and a prefix, so the access ladder, not the classifier, is what moves
+> recovery. Next obligation: F01's eligibility at closure. Public claim: newly licensed at
+> corpus scope: a learned ordering prior over unordered strokes finds the first stroke at
+> 0.69 against 0.49 for the longest-stroke rule on Quick, Draw!. Decision: No.
+> Detail: results/phase_2_4_stage_4/P02/.
+
+## L239 · A coherent context bundle beats the same facts by a tenth of a nat with the interval crossing zero, and an incorrect bundle helps the readers exactly as much as the correct facts: the readers take the framing, not the content
+
+**Hypothesis.** (Stage 4, C01.) Does organizing contextual facts into a maker model improve a
+reader's prediction of the maker's held-out choice beyond merely supplying the same facts?
+Five conditions on the same fictional commission world: no context; a correct coherent
+bundle; the same facts and rules listed without the organizing account; an incorrect bundle
+(another world's, on a different patron lean); and accurate but irrelevant background of the
+same length. The bundle and the list render identical fact and rule ids from one stored
+constraint graph (the equal-information gate).
+
+**Method.** 64 worlds per domain in two fictional domains (workshop commissions, civic
+works), three construction seeds, 128 independent worlds; two admitted readers (Qwen2.5-1.5B
+and SmolLM2-1.7B, both instruct, gate passed at 0.94 and 0.88 accuracy); normalized label
+likelihood over four options in randomized order; the maker's tenth decision is the held-out
+target, its truth a realized draw from the world's own softmax utilities. Primary: bundle
+minus facts on the future-choice log score, paired by world with the two readers averaged
+inside each world, cluster bootstrap over worlds and a paired sign-flip permutation. Reported
+apart: context versus none (information access), the incorrect bundle's cost, irrelevant
+background versus none, the unrelated attribute as a negative control, a feasible-step
+question, and the strata where the maker's profile matches or breaks its context.
+
+| contrast (future-choice log score, nats) | point | 95 percent interval | permutation p |
+|---|---|---|---|
+| **primary: coherent bundle minus the same facts** | **+0.100** | **[-0.049, +0.255]** | 0.19 |
+| correct bundle minus no context | +0.825 | [+0.562, +1.088] | 5e-5 |
+| facts minus no context | +0.724 | [+0.447, +1.006] | 5e-5 |
+| incorrect bundle minus no context (the cost that must be negative) | +0.724 | [+0.452, +1.010] | 5e-5 |
+| irrelevant background minus no context | +0.413 | [+0.153, +0.680] | 0.004 |
+| unrelated attribute, bundle minus none (negative control) | +0.010 | [-0.150, +0.161] | 0.90 |
+| feasible-step question, bundle minus facts | +0.360 | [+0.198, +0.534] | 5e-5 |
+
+*Table: paired contrasts over 128 worlds, readers averaged within world. Accuracy on the
+held-out choice sits at 0.24 to 0.29 in every condition (four options); the profile-matches-
+context strata read +0.05 and +0.15 with intervals crossing zero; per reader the primary is
++0.16 (Qwen) and +0.04 (SmolLM), both crossing zero.*
+
+**What we found.** INCONCLUSIVE on the primary: a tenth of a nat for the organizing account
+over the same facts, an interval that reaches the 0.03 threshold and crosses zero. The
+information-access contrasts are large and all one way: any preamble raises the log score,
+the wrong bundle by as much as the right facts, and even irrelevant background by half a nat.
+The unrelated attribute does not move. The feasible-step question, where the bundle states
+the blocked steps as one integrated sentence, is the one place organization helps.
+
+**What it means.** The brief's closure rule applies: incorrect context must have a measured
+cost, and it has none, so context use is not shown. These readers take the frame ("read each
+choice as that maker's") and not the content that the frame organizes; the score gain over
+no context is calibration under a preamble, not a maker model. The organization advantage,
+if it exists for these readers, is under a tenth of a nat and confined to a question the
+bundle answers in a sentence.
+
+> **Curator roll-up.** Theory group: reader heuristics, updating and context (Stage 4,
+> context track). Question: does a maker model beat the same facts? Outcome class:
+> **Narrows.** Result: +0.10 nats, interval crossing zero, and no cost to a wrong bundle.
+> Meaning: the readers respond to framing, not content, so the contextual-adjustment
+> mechanism cannot be tested on them as built; C02's correction curve is the live test.
+> Next obligation: none owed for this card. Public claim: unchanged. Decision: No.
+> Detail: results/phase_2_4_stage_4/C01/.
+
+## L240 · The human writing record forecasts its own next intention boundary from duration and label persistence alone; the text of the edit adds nothing beyond them, and the next distinct intention is predicted only when the previous label is handed over
+
+**Hypothesis.** (Stage 4, H03.) Does the human process record support useful prediction
+after accounting for annotation spans and same-label runs? Two tasks, kept apart: first,
+forecast whether the next event ends the current intention run, from what is available so
+far; second, predict the next distinct annotated intention given an oracle boundary, with
+the previous label either handed over or read from the text.
+
+**Method.** ScholaWrite (61,504 keystroke-level events, five projects, fifteen intention
+labels), timestamps monotone within every project (audited), mean same-label run 22.6
+events, boundary rate 0.121. Leave-one-project-out over the five projects; author overlap
+disclosed: one author appears in every project (project 5 carries eight), so the split is
+project-held-out, never author-held-out. Task 1 baselines fit on the four training
+projects: the majority rate, and a duration-aware logistic model (run length so far, log
+gap since the last event, current label); the text model adds character 2-to-4-gram
+features of the edit delta (4,000) to the same inputs; both class-balanced. Primary:
+balanced accuracy of the text-plus-duration model minus the duration model, one value per
+held-out project, cluster bootstrap over the five projects (interval only, no p-value); log
+loss beside it. Task 2 at true boundaries: the majority next label; a Markov rule from the
+oracle previous label; the same rule from a previous label read off the text by a
+one-versus-rest classifier.
+
+| held-out project (events) | duration model, balanced accuracy | text plus duration | next intention: majority / Markov from the oracle label / Markov from the read label |
+|---|---|---|---|
+| 1 (14,216) | 0.728 | 0.705 | 0.254 / 0.300 / 0.155 |
+| 2 (5,058) | 0.687 | 0.665 | 0.215 / 0.260 / 0.121 |
+| 3 (6,640) | 0.759 | 0.744 | 0.298 / 0.352 / 0.124 |
+| 4 (8,347) | 0.700 | 0.707 | 0.203 / 0.263 / 0.181 |
+| 5 (27,238) | 0.668 | 0.667 | 0.262 / 0.316 / 0.148 |
+| **primary: text plus duration minus duration** | | **-0.011 [-0.021, -0.001]** | log loss difference -0.003 [-0.054, +0.043] |
+
+*Table: task 1 is the online next-boundary forecast (balanced accuracy; the majority floor
+is 0.5 by construction); task 2 is accuracy on the next distinct intention at oracle
+boundaries. The label read off the text is right 0.48 to 0.76 of the time per project.*
+
+**What we found.** COUNTEREVIDENCE on the primary: the text of the edit makes the boundary
+forecast slightly worse than duration and persistence alone in four projects of five, the
+interval entirely below zero. On the next distinct intention, the previous label handed
+over buys four to six points over the majority; the same label read off the text loses ten,
+because the reader's label errors compound in the Markov step.
+
+**What it means.** On this corpus the process record's forecasting value is its temporal
+structure (how long the run has lasted, how long since the last event, what label it
+carries), not the words being typed; that bounds the text channel of the human writing
+record at this grain and confirms L173 and L174 from the online side. It is a limit of the
+current instrument on five projects, not a statement about a continuous human goal state.
+
+> **Curator roll-up.** Theory group: decision traces, controlled change and the human
+> comparison (Stage 4, hierarchy track). Question: does the writing record forecast beyond
+> duration and label persistence? Outcome class: **Narrows.** Result: -0.011 balanced
+> accuracy for text over duration, interval below zero. Meaning: the human process record's
+> next-intention signal is temporal, not lexical, at this grain. Next obligation: none owed;
+> five projects cap the claim. Public claim: unchanged. Decision: No.
+> Detail: results/phase_2_4_stage_4/H03/.
+
+## L241 · Six individuating records after a misleading context make these readers' predictions worse, not better; the valid prior's curve is flat and the exact ruler climbs, so the readers neither correct a wrong prior nor use the records
+
+**Hypothesis.** (Stage 4, C02.) Can a reader use a contextual prior without remaining
+trapped by it? A valid, a misleading (another patron lean), or an uninformative prior is
+crossed with 0, 2, and 6 diagnostic records of the maker's own decisions, and the reader
+predicts the held-out tenth decision; the exact reference posterior from the world's own
+likelihood (the context prior's stated reliability is 0.55 on its lean) says how much the
+records should move a Bayesian reader. Three routes with the same observations: direct; a
+self-initialized route (the reader's own measured choice profile as its starting
+distribution, written into a two-pass adjustment note); an equally expensive two-pass
+factual summary.
+
+**Method.** The C01 worlds (64 per domain, two domains, three seeds, 128 worlds), both
+admitted readers; every route sees the reader's own profile, the prior text, and the
+record; nine prior-by-record cells per route per world; a constraint-change control (the
+maker's habitual option stated unavailable, the mass left on it reported). Primary: on
+misleading-prior worlds, the direct route's log score at six records minus at zero (the
+correction curve's rise), paired by world, readers averaged within world, cluster bootstrap
+and a paired sign-flip permutation. Beside it: the valid prior's benefit at zero records
+(must be positive for a support reading), the valid curve, the misleading prior's cost at
+zero records, each route against direct at six records, and the own-preference and
+category-prior error types.
+
+| contrast (future-choice log score, nats) | point | 95 percent interval | permutation p |
+|---|---|---|---|
+| **primary: misleading prior, six records minus none, direct** | **-0.198** | **[-0.372, -0.035]** | 0.021 |
+| valid prior minus uninformative, no records | +0.296 | [+0.102, +0.490] | 0.0025 |
+| misleading prior minus uninformative, no records (the cost, which must be negative) | +0.392 | [+0.222, +0.568] | 5e-5 |
+| valid prior, six records minus none | -0.020 | [-0.180, +0.139] | 0.81 |
+| self-initialized route minus direct, misleading prior, six records | -0.051 | [-0.235, +0.138] | 0.60 |
+| factual-summary route minus direct, misleading prior, six records | -0.170 | [-0.329, -0.015] | 0.031 |
+| exact reference ruler, misleading prior, six records minus none | +0.130 | (exact) | |
+
+*Table: paired contrasts over 128 worlds. The readers' log scores sit between -1.67 and
+-2.06 across cells against the exact reference's -1.27 to -1.42; the readers leave 0.44 of
+their mass on an option they were told is unavailable; answers on the misleading lean rise
+from 0.21 to 0.23 of predictions as records accumulate.*
+
+**What we found.** COUNTEREVIDENCE: records after a misleading prior lower the score by a
+fifth of a nat while the exact ruler gains an eighth. The valid prior helps at zero records
+and the misleading prior helps by more, so what a prior buys is the framing and not its
+content (as in L239), and no number of records changes it. Neither two-pass route helps;
+the summary route hurts under both priors. The constraint-change control shows the readers
+keeping nearly half their mass on an option stated unavailable. Under the project's
+family correction (Benjamini-Yekutieli over every quoted p) the primary's 0.021 does not
+survive; the card's frozen rule classifies on the interval, which excludes zero, and the
+direction is the wrong one for the claim either way.
+
+**What it means.** These readers are trapped by whatever context they are given and do not
+update on individuating evidence in this design; the brief's closure applies and the result
+stays at instruction sensitivity. The contextual-adjustment mechanism the theory proposes
+has no analogue in this reader family at this scale, so it rests on human evidence, and the
+model-side promotion path for context correction is closed for now.
+
+> **Curator roll-up.** Theory group: reader heuristics, updating and context (Stage 4,
+> context track). Question: does individual evidence correct a misleading contextual prior?
+> Outcome class: **Narrows.** Result: -0.20 nats from six records after a wrong prior.
+> Meaning: the 1.5B readers follow context as an instruction and ignore the record, so the
+> correction mechanism is absent here and the claim keeps only its human evidence. Next
+> obligation: none owed; C03 is the last context card. Public claim: unchanged. Decision:
+> No. Detail: results/phase_2_4_stage_4/C02/.
+
+## L242 · The readers separate a maker's appraisal and its intended audience response from the observed action and the factual state, weakly: crossed recovery of valuation and aim sits fourteen points over the floor, the action and the fact read at two-thirds, and a withheld fact never draws the uncertain answer
+
+**Hypothesis.** (Stage 4, A01.) Can a reader distinguish what happened, how the maker
+evaluated it, and what the maker wanted its audience to feel or do? Fictional hazard notices
+(workshop and civic) carry the observed action, the maker's stakes and revealed risk
+preference (grounding the appraisal), a communicative aim independent of the appraisal, and
+a factual state that is sometimes withheld; four balanced questions per case (action,
+valuation, intended audience action, factual state); a known-process ruler and, beside it,
+enacted notices written by one admitted reader as maker under the same construction, kept
+only where the assigned action was realized in the text.
+
+**Method.** 64 worlds per domain, two domains, three seeds, 128 worlds; both admitted
+readers; normalized label likelihood over four options per question. Enactment
+realization: exactly one action family present in the notice (110 of 128 realized within
+two attempts, 0.86, above the 0.80 floor, so the enacted source is usable). Primary:
+balanced accuracy of the valuation and audience-aim questions on the ruler source
+(label-reweighted per row, averaged within world) minus the 0.25 floor, cluster bootstrap
+over worlds (interval only, no p-value). Reported apart: the action and fact questions, the
+enacted source, the propagandist stratum (a fear-inducing example from a maker with nothing
+at stake), the worried-reassurer stratum, the withheld-fact stratum, and the rate at which a
+withheld fact draws the "cannot be determined" answer.
+
+| question (source) | balanced accuracy | accuracy | mean log score |
+|---|---|---|---|
+| observed action (ruler) | 0.646 | 0.652 | -1.47 |
+| maker's valuation (ruler) | 0.367 | 0.285 | -1.83 |
+| intended audience action (ruler) | 0.417 | 0.438 | -1.92 |
+| factual state (ruler) | 0.701 | 0.672 | -1.26 |
+| valuation (enacted, 110 realized worlds) | 0.354 | 0.236 | -2.46 |
+| intended audience action (enacted) | 0.384 | 0.464 | -1.96 |
+| **primary: valuation and aim, balanced, minus 0.25** | **+0.142 [+0.073, +0.220], 128 worlds** | | |
+
+*Table: four-option questions, chance 0.25. Strata accuracies on the ruler: propagandist
+cases 0.32, worried reassurers 0.37, withheld-fact cases 0.40; a withheld fact drew the
+uncertain answer 0.0 of the time. SmolLM's log scores run one to two nats better than
+Qwen's on every question; the balanced accuracies pool both readers.*
+
+**What we found.** SUPPORT_CANDIDATE on the primary at the frozen 0.05 threshold:
+valuation and aim are recovered above the floor together, crossed, and the enacted source
+reads the same way. The easy products (what happened, what is true) read at two-thirds. The
+propagandist stratum, where the aim and the appraisal come apart by construction, reads at
+0.32, and the readers never abstain when the fact is withheld.
+
+**What it means.** The separation the appraisal track needs exists in these readers, but it
+is thin: fourteen points of crossed recovery over the floor, thinnest exactly where a maker
+induces a feeling it does not hold, and with no calibrated uncertainty at all. It is enough
+to run the intervention card (A02) on these worlds; it is not a demonstration that the
+readers model an owner for the appraisal.
+
+> **Curator roll-up.** Theory group: the triple inference, inverse recovery (Stage 4,
+> appraisal track). Question: can the reader keep the maker's appraisal and its intended
+> audience response apart from the action and the facts? Outcome class: **Strengthens.**
+> Result: +0.14 balanced accuracy over the floor on the crossed pair. Meaning: the products
+> are separable in a 1.5B reader, weakly, and not where the maker induces what it does not
+> feel; abstention is absent. Next obligation: A02's target-prediction test on these worlds
+> (running). Public claim: unchanged until A02. Decision: No.
+> Detail: results/phase_2_4_stage_4/A01/.
+
+## L243 · The valence handle moves the readers' own next choice by a fifth of the probability mass and does not improve their prediction of another maker's: the appraisal-aligned benefit is nil, a norm-matched random direction moves the score more than the fitted one, and no within-action stratum carries the interaction
+
+**Hypothesis.** (Stage 4, A02.) Does changing a reader representation improve
+target-specific prediction, or only change the reader's preferred answer? On A01's worlds,
+predict the maker's next action about the hazard (a known answer set by the fact state and
+the maker's revealed risk preference, crossed with the appraisal sign inside three of the
+four answers) under zero intervention, positive and negative additive steering along each
+reader's own calibrated valence direction, a norm-matched random direction, and a
+shuffled-label fitted direction, at two doses and two evidence levels (the message alone;
+the full situation).
+
+**Method.** Each reader's handle was calibrated on the discarded pilot from the Stage-3
+sentence banks, disjoint from every world (cross-seed consensus locus, a dose ladder scored
+per rung on capability, the sign pair, and both controls; both readers ANCHOR-STANDS).
+128 worlds, both readers, eighteen conditions per world plus the own-choice control (the
+reader as maker, no target). Primary: the appraisal-aligned benefit, the sign of the
+steering times the sign of the target's valuation times the log-score change from zero,
+positive steering at the high dose with full evidence, balanced over the two
+appraisal-sign strata (86 positive-valuation worlds, 42 negative), cluster bootstrap over
+worlds (interval only, no p-value); the random and shuffled directions must be quiet
+(under half the primary or 0.02 nats) for a support reading; the unsigned main effect and
+the within-correct-action strata beside it.
+
+| condition (high dose, full evidence unless stated) | aligned benefit | main effect on the target log score |
+|---|---|---|
+| **positive steering (the primary)** | **-0.044 [-0.146, +0.061], 128 worlds** | -0.296 [-0.378, -0.210] |
+| negative steering | +0.069 [-0.051, +0.179] | -0.272 [-0.380, -0.167] |
+| both signs pooled | +0.013 [-0.050, +0.075] | |
+| norm-matched random direction | +0.166 [+0.094, +0.239] | +0.231 [+0.164, +0.297] |
+| shuffled-label direction | +0.095 [+0.022, +0.171] | -0.006 [-0.083, +0.064] |
+| positive steering, message only | +0.198 [+0.065, +0.332] | -0.022 [-0.148, +0.097] |
+| own choice, no target: total-variation shift under positive / negative steering | 0.18 / 0.20 | |
+
+*Table: 128 worlds, readers averaged within world, aligned benefits balanced over the
+appraisal-sign strata. Within-correct-action strata for the primary: do nothing further
+-0.50 [-0.70, -0.32] over 25 worlds; reopen after a look +0.15 [-0.04, +0.35] over 42; post
+a warning and wait -0.22 [-0.40, -0.05] over 31; order a full repair -0.16 [-0.35, +0.03]
+over 30.*
+
+**What we found.** INCONCLUSIVE on the frozen bands, and the controls are not quiet. The
+fitted direction at the high dose lowers the target log score by three-tenths of a nat in
+either sign, a lesion-like main effect, while a random direction of the same norm raises it
+by two-tenths, which is what flattening an over-confident wrong prediction does; the
+aligned benefit is nil at full evidence, positive only with the message alone, and reverses
+across the four correct actions. The same handle moves the readers' own next choice by a
+fifth of its probability mass.
+
+**What it means.** The brief's closure line applies: own-action movement without
+other-prediction benefit leaves the bridge unbuilt. The valence handle is an instrument for
+the reader's own continuation and choice (L197, L202) and nothing here connects it to a
+maker; the message-only positive cell is the one that would mislead if read alone, since it
+disappears once the target's evidence is present. A03's phase contrast runs for the record
+(the handle is valid as a manipulation), but the end-to-end claim is closed on these
+readers.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate (Stage 4,
+> appraisal track). Question: does the valence handle help predict another maker? Outcome
+> class: **Narrows.** Result: -0.04 nats aligned benefit against an own-choice shift of
+> 0.2. Meaning: the handle moves the reader, not its model of the maker; the causal bridge
+> from affect to other-prediction is unbuilt in this family. Next obligation: A03 reads the
+> phase contrast for the record. Public claim: unchanged (L197 stands as an own-continuation
+> instrument). Decision: No. Detail: results/phase_2_4_stage_4/A02/.
+
+## L244 · A worked action mapping raises novel-case learning of a lesson by sixteen points whether the source is aligned or not and whether the rule is true or not, while the readers follow the source's advice on their own lot 98 times in 100: transmissibility and usefulness come apart
+
+**Hypothesis.** (Stage 4, T01.) Can a message become easier to transmit without becoming
+more truthful or more helpful? Fictional decision lessons (which tag of a lot is the good
+one) cross the rule's truth, the source's intent (advise what the stated rule implies, or
+push a payoff-neutral delay), and comprehension support (bare, or a worked action mapping
+plus a plain restatement, the same factual payload) within every world. Four outcomes are
+kept apart: relay fidelity after one hop (mechanical, on the rule's tags); application to a
+novel lot of the other tag, scored as taught; recovery of the source's goal against the
+label the message and the revealed outcome can support; and the recipient's own action
+with its payoff under the true rule.
+
+**Method.** 64 worlds per domain, two domains, three seeds, 128 worlds, eight message cells
+per world, both admitted readers; one greedy generation per relay (a strict JSON parse for
+the two tags), likelihood readouts for the other three outcomes. Primary: supported minus
+bare on as-taught application accuracy in the aligned stratum (true rule, benefit intent),
+paired by world, readers averaged within world, cluster bootstrap and a paired sign-flip
+permutation; the support gate requires support to move application or all-attempt relay
+on honest-aligned messages by 0.05; the misaligned stratum is the dissociation.
+
+| outcome | bare | supported | contrast (paired over 128 worlds) |
+|---|---|---|---|
+| **application as taught, aligned stratum (the primary)** | 0.090 | 0.246 | **+0.156 [+0.113, +0.203], p 5e-5** |
+| application as taught, misaligned stratum | 0.078 | 0.262 | +0.184 [+0.151, +0.219], p 5e-5 |
+| relay, honest-aligned cell, all attempts (an unparsed relay counts as a failure) | | | -0.191 [-0.266, -0.117], p 5e-5 |
+| relay validity, a parseable rule (Qwen / SmolLM) | 0.80 / 1.00 | 0.60 / 0.93 | |
+| relay fidelity conditional on a valid relay | 0.833 | 0.989 | |
+| the recipient's own action follows the advice | 0.98 | 0.98 | every cell 0.97 to 1.00 |
+
+*Table: application accuracy is against the lesson's own rule applied to a lot of the
+other tag (four actions, chance 0.25); the primary and the misaligned stratum are
+supported-minus-bare differences with 95 percent cluster-bootstrap intervals. Relay rows
+number 1,024 per support level. Goal recovery: honest-helpful sources are named honest 0.61
+of the time, steering sources 0.34, and the "cannot be told" answer is chosen 51 times in
+2,048; the payoff outcome is the advice's, +0.98 when the advice is aligned and true, -0.98
+when a false rule's advice is followed, near zero under a delay.*
+
+**What we found.** SUPPORT_CANDIDATE, with the dissociation in the predicted direction:
+bare readers echo the advice (as-taught application near 0.08, the echo pattern in every
+cell), and the worked mapping moves a quarter of their answers onto the stated rule in the
+aligned and the misaligned strata alike, for false rules as for true. What the recipients
+do with their own lot follows the advice 98 times in 100 whatever the support, the truth,
+or the intent, so support changes what is learned and nothing about what is done. Support
+also costs relay validity (the longer message loses the JSON rule for Qwen), while a valid
+relay under support is nearly perfect.
+
+**What it means.** Transmissibility, truth, and helpfulness come apart as the theory says
+they can: a worked example makes a false rule as learnable as a true one, learning the rule
+leaves the recipient's own action where the source put it, and the source's goal is read
+poorly and never with uncertainty. Comprehension support is scaffolding for descent, and
+descent is not trust; whether uptake can be made selective is T02's and T03's question.
+
+> **Curator roll-up.** Theory group: reader heuristics, communicative shaping (Stage 4,
+> transmission track). Question: can a message become easier to transmit without becoming
+> more truthful or more helpful? Outcome class: **Strengthens.** Result: +0.16 as-taught
+> learning from support, aligned and misaligned alike. Meaning: comprehension support
+> raises rule learning independent of truth and alignment while uptake of the advice stays
+> at 98 percent, so legibility and usefulness are separate quantities. Next obligation: T02
+> (running) and T03. Public claim: newly licensed at model scope: a worked action mapping
+> raises a small reader's application of a lesson's rule to a new case by sixteen points
+> whether the lesson is true or false, helping or steering. Decision: No.
+> Detail: results/phase_2_4_stage_4/T01/.
 
 # TIER 2 · SETTLED
 
