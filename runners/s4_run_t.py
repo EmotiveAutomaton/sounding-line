@@ -2,7 +2,8 @@
 reconstruction, and uptake; modeling the source's selection rule; technique knowledge
 versus blanket distrust.
 
-DESIGN CHECK (2026-08-27)
+DESIGN CHECK (2026-08-27; R7 repair 2026-08-28: lesson worlds enumerated per domain, every
+row carries its construction hash, every interval clusters on the construction)
 lessons read: LESSONS §3 (manipulation checks need range; assigned is not realized;
   a copied slogan is not a passed transfer test, so relay fidelity is mechanical on
   rule parameters; realization per cell; power before verdicts; every statistic a
@@ -52,8 +53,7 @@ REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
 from runners import s4_lib, s4_worlds                                             # noqa: E402
-from runners.s4_run_common import CardRun, DeadlineReached, cell_counts, mean_by, select_rows  # noqa: E402
-
+from runners.s4_run_common import (CardRun, DeadlineReached, cell_counts, cid, cluster_by_construction, construction_summary, mean_by, select_rows)   # noqa: E402
 SEED = 48000
 SUPPORT_GATE = 0.05
 NONINFERIORITY_PP = 0.03
@@ -96,6 +96,7 @@ def arm_t01() -> int:
                             continue
                         run.check_deadline()
                         w = s4_worlds.make_lesson_world(lid, domain)
+                        run.register_world(lid, w)
                         for truth in ("true", "false"):
                             for intent in ("benefit", "induce"):
                                 for support in ("bare", "supported"):
@@ -156,11 +157,14 @@ def arm_t01() -> int:
 
 
 def _acc_rows(rows):
-    return [{"unit_id": r["unit_id"], "primary_score": float(bool(r["extra"].get("correct")))} for r in rows if r["valid"]]
+    return [{"unit_id": cid(r), "primary_score": float(bool(r["extra"].get("correct")))} for r in rows if r["valid"]]
 
 
 def _paired(a, b, seed):
-    return s4_lib.paired_contrast(a, b, "unit_id", "primary_score", seed)
+    """Paired by CONSTRUCTION (R7): rows are clustered on their construction hash, so
+    textual twins resample as one unit and n_units is the distinct count."""
+    return s4_lib.paired_contrast(cluster_by_construction(a), cluster_by_construction(b),
+                                  "unit_id", "primary_score", seed)
 
 
 def _t01_analyze(run: CardRun, gpu_s: float) -> int:
@@ -198,6 +202,7 @@ def _t01_analyze(run: CardRun, gpu_s: float) -> int:
                 "primary_support_effect_aligned": primary, "strata": strata, "by_cell": by_cell,
                 "application_correct_under_truth": app_truth,
                 "goal_recovery_accuracy": goal_acc, "followed_recommendation": follow,
+                "constructions": construction_summary(rows),
                 "cell_counts": cell_counts(rows, ["truth", "intent", "support", "outcome"])},
                {"exec": "COMPLETE", "primary": "support effect on novel-case application, aligned stratum",
                 "support_gate_passed": support_ok, **verdict}, gpu_s)
@@ -233,6 +238,7 @@ def arm_t02() -> int:
                         run.check_deadline()
                         t01_lid = run.parent_of(lid)
                         w = s4_worlds.make_lesson_world(t01_lid, domain)
+                        run.register_world(lid, w)
                         child = lid
                         case_q = {"question": "What should be done with your lot?",
                                   "options": {a: a for a in s4_worlds.CASE_ACTIONS}}
@@ -324,6 +330,7 @@ def _t02_analyze(run: CardRun, gpu_s: float) -> int:
                 "uptake_noninferiority": {**uptake, "tolerance_pp": NONINFERIORITY_PP, "preserved": uptake_preserved},
                 "rule_recovery_reconstruct": rule_rec, "rule_recovery_likelihood": rule_lik,
                 "payoff_by_route_rule": payoffs, "oracle_minus_inferred": oracle_vs_inferred,
+                "constructions": construction_summary(rows),
                 "cell_counts": cell_counts(run.rows(), ["rule", "visible", "route"])},
                {"exec": "COMPLETE", "primary": "reconstruct2 minus summary2 judgment log score, uptake preserved",
                 **verdict}, gpu_s)
@@ -394,6 +401,7 @@ def arm_t03() -> int:
                             continue
                         run.check_deadline()
                         w = s4_worlds.make_lesson_world(run.parent_of(lid), domain)
+                        run.register_world(lid, w)
                         held = FAMILIES[i % 3]
                         taught = [f for f in FAMILIES if f != held]
                         lesson_text = "Lesson on how sources mislead:\n" + "\n".join(f"- {LESSON[f]}" for f in taught)
@@ -439,6 +447,7 @@ def _t03_analyze(run: CardRun, gpu_s: float) -> int:
         """Per-unit AUROC needs both classes within the unit: 4 true and 4 false messages per
         lesson per unit, so it is defined for every unit."""
         out = {}
+        rs = cluster_by_construction(rs)          # R7: one cluster per construction
         units = {r["unit_id"] for r in rs}
         for u in units:
             pos = [r["extra"][key] for r in rs if r["unit_id"] == u and r["truth"] == pos_label and r["extra"][key] is not None]
@@ -468,8 +477,8 @@ def _t03_analyze(run: CardRun, gpu_s: float) -> int:
                         "false_rejection": sum(not r["extra"]["accepted"] for r in sub if r["truth"] == "true") / max(1, sum(1 for r in sub if r["truth"] == "true"))}
     # true-advice uptake noninferiority: acceptance of (true, helpful) advice under technique vs control
     tv = [r for r in val if r["truth"] == "helpful" and r["factors"]["claim_truth"] == "true"]
-    uptake = _paired([{"unit_id": r["unit_id"], "primary_score": float(r["extra"]["accepted_advice"])} for r in tv if r["factors"]["lesson"] == "technique"],
-                     [{"unit_id": r["unit_id"], "primary_score": float(r["extra"]["accepted_advice"])} for r in tv if r["factors"]["lesson"] == "control"], SEED + 22)
+    uptake = _paired([{"unit_id": cid(r), "primary_score": float(r["extra"]["accepted_advice"])} for r in tv if r["factors"]["lesson"] == "technique"],
+                     [{"unit_id": cid(r), "primary_score": float(r["extra"]["accepted_advice"])} for r in tv if r["factors"]["lesson"] == "control"], SEED + 22)
     preserved = uptake.get("lo") is not None and uptake["lo"] >= -NONINFERIORITY_PP
     by_register = {reg: mean_by([{"factors": r["factors"], "primary_score": float(r["extra"]["accepted"])} for r in rel if r["factors"]["register"] == reg], ["lesson", "claim_truth"])
                    for reg in ("emotional", "dry")}
@@ -483,6 +492,7 @@ def _t03_analyze(run: CardRun, gpu_s: float) -> int:
     run.finish({**metrics, "contrasts_technique_minus_control": contrasts, "criterion": crit,
                 "true_advice_uptake": {**uptake, "tolerance_pp": NONINFERIORITY_PP, "preserved": preserved},
                 "acceptance_by_register": by_register,
+                "constructions": construction_summary(rows),
                 "cell_counts": cell_counts(run.rows(), ["lesson", "claim_truth", "rec_value", "register", "score"])},
                {"exec": "COMPLETE", "primary": "technique minus control reliability AUROC on the held-out family",
                 **verdict}, gpu_s)

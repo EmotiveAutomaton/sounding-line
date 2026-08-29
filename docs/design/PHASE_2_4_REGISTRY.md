@@ -283,6 +283,54 @@ re-scored discovery), and the eligibility rule now computes precision for the tw
 estimands that can be candidates (A01 per world, P02 per drawing), which had been ineligible
 by construction.
 
+**2026-08-28 05:57, STOPPED on his order; repaired; restarted at half past six.** The parallel
+agent-hardening thread's concurrency audit (commits 15fb95f, 1998f9e) found no corruption
+from concurrency but a construction defect: the lesson-world constructor ignored its
+domain and drew from one four-deep pool (its count: 31 distinct constructions behind T01's
+128 units on its identity; mine, rebuilding every allocated world on the full text
+identity: 54 distinct of 128 in discovery, 64 distinct of 256 in confirmation, every
+confirmation world a twin of a discovery world; every other card fully distinct). His
+order: stop anything useless, repair, then the real run. T02 (94 minutes in, on the same
+worlds) was killed with the loop; the repair the same hour: twelve rule families per
+domain, the identity enumerated as a seeded permutation of a 384-construction space with
+discovery and confirmation in disjoint halves (the freeze's confirmation offset given one
+home), a content hash for every construction registered on its root lineage by every
+runner (the never-called duplicate control is live and COVERAGE says what it checked),
+rows carrying the hash with every T-track interval clustering on it, the lineage ledger
+made a lock-held reload-modify-write, a scheduler `reset` op that preserves a first attempt
+under `superseded_<tag>/` and re-plans the cell, `tools/s4_construction_audit.py` as a
+standing gate (all 2,368 root units distinct), eighteen guard tests, and a GPU smoke on a
+scratch root (freeze, T01 to T03, validate, reset, re-landing). T01's L244 carries its
+correction; T01 and T02 were reset and lead the restarted queue. The wrapper now execs
+`run_second_gear.sh` when the scheduler exhausts, carrying the five Stage-3 re-runs the
+theory errata owe (R1 to R5, built the same morning in priority order, cells registered
+BUILT) to the queue's natural end. T01 re-landed at 08:07 (97 minutes, 128 of 128
+constructions distinct and hashed): the same outcome band with the interval wider by about
+the predicted factor, the relay's all-attempt contrast now small and not significant where
+the first attempt had read it negative.
+
+**2026-08-28 09:53 to 17:28, the rest of the discovery queue, the expansion rung, and the
+closure block.** T02, C03, A03, T03, H01, H02 landed by 11:25 (L245 to L250); rung 1 of the
+ladder re-landed C01, C02, A01, A02, T01, T02, T03, C03, H02 at 256 worlds (192 histories)
+between 11:27 and 16:53, two bands moving (C02 from counterevidence to inconclusive, a flat
+correction curve; A02 from inconclusive to counterevidence); the closure block opened 16:52 on
+exhaustion with two eligible candidates under the frozen alpha 0.025 (A01, T01): A01 confirmed
+on 256 fresh worlds, T01's confirmation running at 19:30. The agent's session died at 08:10
+with its watchers; the loop, independent of it, lost nothing, and the fifteen landings were
+written through at 20:00 (the named leak, eleven hours, recorded as such). One lesson filed
+from T02: a frozen primary against a matched-cost comparator that itself loses to the plain
+route reads as support for a mechanism that is not there.
+
+**2026-08-28 19:33, CLOSED: RUN_TO_EMPTY.** F01 confirmed both eligible candidates on the fresh
+reserve (A01 +0.09 by the frozen recomputation, +0.12 by the runner; T01 +0.15 with the
+support gate passed), the validator wrote COVERAGE (307 of 322 expected cells, 15 control
+cells under a floor set at the full unit count, one duplicate construction in A01's expansion
+caught by the live control, the id-rebuild audit covering the 256 pre-repair discovery roots
+the hash control could not), and the machine-draft packet landed; the wrapper chained into the
+general queue, which ran R1 to R5 (L251 to L255) and exited empty at 21:22. Elapsed 21.2 hours
+against the brief's 24 (accounting only), 14.95 GPU-lock hours. The analyst synthesis is
+appended to the packet.
+
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 
 Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after

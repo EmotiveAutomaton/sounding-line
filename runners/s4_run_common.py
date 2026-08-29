@@ -21,7 +21,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
-from runners import s4_lib                                                        # noqa: E402
+from runners import s4_lib, s4_worlds                                             # noqa: E402
 from soundingline.s4 import (Lineages, Manifest, RunContract, append_jsonl,       # noqa: E402
                              classify_outcome, code_hash, completion_marker, now_iso,
                              read_jsonl, write_json)
@@ -61,6 +61,7 @@ class CardRun:
             self.done.add((r["model_id"], r["unit_id"]))
         self._buffer: list[dict] = []
         self._raw_buffer: list[dict] = []
+        self._chash: dict[str, str] = {}      # unit id -> construction hash, this process
 
     # units -------------------------------------------------------------------------
     def units(self, domain: str, split: str | None = None) -> list[str]:
@@ -72,6 +73,22 @@ class CardRun:
     def parent_of(self, lid: str) -> str:
         """The source world of a derived unit (A02 on A01's worlds, T02 on T01's)."""
         return self.L.rows[lid].get("parent") or lid
+
+    def register_world(self, lid: str, world: dict) -> str:
+        """Record the construction's content hash on its ROOT lineage (verification 3: two
+        lineages with identical content are one unit) and remember it for this unit's
+        rows, which carry it as extra.construction_hash so the analyses can cluster on
+        the construction rather than the nominal unit. The 2026-08-28 audit found
+        mark_generated never called by any runner, so the duplicate control returned no
+        duplicates where the truth was not checked; every root construction passes
+        through here now."""
+        h = s4_worlds.construction_hash(world)
+        root = self.parent_of(lid)
+        self._chash[lid] = h
+        self._chash[root] = h
+        if root in self.L.rows:
+            self.L.mark_generated(root, h)
+        return h
 
     def is_done(self, reader: str, unit_id: str) -> bool:
         return (reader, unit_id) in self.done
@@ -112,7 +129,10 @@ class CardRun:
              "primary_score": primary_score, "intervention": intervention,
              "code_hash": self.code_hash, "contract_hash": self.contract_hash,
              "compute_charged_s": round(compute_s, 3), "at": now_iso(),
-             "extra": extra or {}}
+             "extra": dict(extra or {})}
+        h = self._chash.get(unit_id) or self._chash.get(lineage_id)
+        if h and "construction_hash" not in r["extra"]:
+            r["extra"]["construction_hash"] = h
         self._buffer.append(r)
         return r
 
@@ -168,6 +188,29 @@ class CardRun:
         # the verdict's lock-held minutes; a card writing its own charge would save a
         # snapshot loaded at its start over the loop's later state
         print(f"{self.card} finished: {json.dumps({k: v for k, v in verdict.items() if k in ('outcome', 'primary', 'exec')})}")
+
+
+def cid(row: dict) -> str:
+    """The cluster a row belongs to for any interval: its construction hash when the
+    row carries one, else its nominal unit. Textual twins (the T01 defect, TODO R7)
+    collapse to one cluster instead of inflating the resampling population."""
+    return (row.get("extra") or {}).get("construction_hash") or row["unit_id"]
+
+
+def cluster_by_construction(rows: list[dict]) -> list[dict]:
+    """Copies of the rows with unit_id replaced by the construction cluster."""
+    return [{**r, "unit_id": cid(r)} for r in rows]
+
+
+def construction_summary(rows: list[dict]) -> dict:
+    """Nominal units against distinct constructions among them: the two numbers a verdict
+    reports side by side so an inflated n is visible in the receipt."""
+    units = {r["unit_id"] for r in rows}
+    clusters = {cid(r) for r in rows}
+    hashed = {r["unit_id"] for r in rows if (r.get("extra") or {}).get("construction_hash")}
+    return {"n_units": len(units), "n_distinct_constructions": len(clusters),
+            "n_units_with_hash": len(hashed),
+            "checked": bool(units) and hashed == units}
 
 
 def cell_counts(rows: list[dict], factor_keys: list[str]) -> dict:

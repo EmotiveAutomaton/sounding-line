@@ -1,0 +1,72 @@
+{
+ "card": "F01",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "selected": [
+  "A01",
+  "T01"
+ ],
+ "results": {
+  "A01": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "corrected_alpha": 0.025,
+   "estimate": {
+    "point": 0.09375,
+    "lo": 0.060546875,
+    "hi": 0.1279296875,
+    "n_units": 256,
+    "n_boot": 2000
+   },
+   "runner_verdict": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.12222577679106499,
+    "ci": [
+     0.07363276216123409,
+     0.17307776545372291
+    ],
+    "n_units": 256,
+    "reason": "directional support at or above the frozen threshold"
+   },
+   "controls_in_confirmation": [
+    "withheld_context"
+   ]
+  },
+  "T01": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "corrected_alpha": 0.025,
+   "estimate": {
+    "point": 0.1484375,
+    "lo": 0.11328125,
+    "hi": 0.185546875,
+    "n_units": 256,
+    "n_boot": 2000
+   },
+   "runner_verdict": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.1484375,
+    "ci": [
+     0.115234375,
+     0.18359375
+    ],
+    "n_units": 256,
+    "reason": "directional support at or above the frozen threshold"
+   },
+   "controls_in_confirmation": []
+  }
+ },
+ "minutes": 161.05,
+ "marker": {
+  "contract_version": "1.0.0",
+  "contract_hash": "d8ca3264fb3395e3",
+  "inputs": {
+   "candidates": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\F01\\candidates.json",
+    "sha256": "c555bf1d311c4a11e4de59de5514b1162bbcb12fe964fa62f2e6a355409a5369"
+   }
+  },
+  "outputs": {},
+  "written_at": "2026-08-28T19:33:49"
+ }
+}

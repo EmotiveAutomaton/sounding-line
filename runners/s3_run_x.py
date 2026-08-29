@@ -728,14 +728,180 @@ def arm_s07x() -> int:
     return 0
 
 
+
+def arm_xv4b() -> int:
+    """XV4/R4 (TODO R4, 2026-08-28): the carrier comparison on an adequate held-out set.
+    DESIGN CHECK (2026-08-28): the landed XV4 decided on two held-out seeds (four
+    decisions), too few to separate a real carrier from none (errata L01-L05). Now
+    leave-one-seed-out over all six seeds (twelve decisions per readout), every
+    length-matched sequence kept (no forty-sequence cap), and an EXACT null from
+    swapping the trait and control labels within seed pairs (64 relabelings, the
+    exchangeable unit under the null being the pair). NULL: held-out accuracy 0.5 for
+    both readouts; ALTERNATIVE (a nontrivial carrier): the length-matched
+    representation read above chance (swap-null p under 0.05) while the three-scalar
+    surface read is not. Failure direction guarded: both above chance means the carrier
+    is not shown nontrivial (surface statistics carry it); neither above chance means
+    the uptake null is unexplained by either, which is what the first run could not
+    say. Same data files as XV4; new produce XV4b_verdict.json."""
+    cell = "E24-S3-XV4/R4"
+    t0 = time.time()
+    import torch                                                                  # noqa: PLC0415
+    from transformers import AutoModelForCausalLM, AutoTokenizer                  # noqa: PLC0415
+    from soundingline.probe.interventions import capture_block_states             # noqa: PLC0415
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock           # noqa: PLC0415
+    from runners.s3_run_l import BASE, OUT_L                                      # noqa: PLC0415
+    from collections import defaultdict                                           # noqa: PLC0415
+    import statistics as stats                                                    # noqa: PLC0415
+    seeds = (1, 2, 3, 4, 5, 6)
+    conds = ("trait", "control")
+    data = {}
+    for seed in seeds:
+        for cond in conds:
+            rows = [json.loads(x) for x in
+                    (OUT_L / f"data_{cond}_s{seed}.jsonl").read_text(
+                        encoding="utf-8").splitlines() if x.strip()]
+            data[(cond, seed)] = [r["completion"] for r in rows]
+
+    def nums(q):
+        return [int(x) for x in q.replace(" ", "").split(",") if x.isdigit()]
+
+    def scalars(seqs):
+        ns, vals = [], []
+        for q in seqs:
+            v = nums(q)
+            ns.append(len(v))
+            vals.extend(v)
+        mv = sum(vals) / len(vals)
+        var = sum((x - mv) ** 2 for x in vals) / len(vals)
+        return [sum(ns) / len(ns), mv, var ** 0.5]
+
+    prof_raw = {k: scalars(v) for k, v in data.items()}
+    dims = list(zip(*prof_raw.values()))
+    mu = [stats.mean(d) for d in dims]
+    sd = [stats.pstdev(d) or 1.0 for d in dims]
+    prof = {k: [(v[i] - mu[i]) / sd[i] for i in range(3)] for k, v in prof_raw.items()}
+    # length-matched subsample per seed: every sequence in a length bin both conditions
+    # share, down to the smaller count, no cap
+    rng = random.Random(XSEED + 44)
+    matched = {}
+    for seed in seeds:
+        bt, bc = defaultdict(list), defaultdict(list)
+        for q in data[("trait", seed)]:
+            bt[len(nums(q))].append(q)
+        for q in data[("control", seed)]:
+            bc[len(nums(q))].append(q)
+        keep_t, keep_c = [], []
+        for n in sorted(set(bt) & set(bc)):
+            k = min(len(bt[n]), len(bc[n]))
+            keep_t.extend(rng.sample(bt[n], k))
+            keep_c.extend(rng.sample(bc[n], k))
+        matched[("trait", seed)] = keep_t
+        matched[("control", seed)] = keep_c
+    acquire_gpu_lock("s3_xv4b")
+    try:
+        tok = AutoTokenizer.from_pretrained(BASE)
+        model = AutoModelForCausalLM.from_pretrained(
+            BASE, dtype=torch.float16).to("cuda").eval()
+        reps = {}
+        for key, seqs in matched.items():
+            vs = []
+            for q in seqs:
+                hs = capture_block_states(model, tok, q, device="cuda")
+                vs.append(hs[len(hs) // 2][-1])
+            reps[key] = torch.stack(vs).mean(0) if vs else None
+        del model
+        torch.cuda.empty_cache()
+    finally:
+        release_gpu_lock()
+
+    def loso(features, labels, dist):
+        """labels: {(cond, seed): 'trait'|'control'} possibly swapped; returns per-seed
+        decisions and the hit count over 12."""
+        hits = 0
+        decisions = {}
+        for held in seeds:
+            cents = {}
+            for lab in conds:
+                members = [features[k] for k in features if k[1] != held and labels[k] == lab]
+                cents[lab] = _centroid(members)
+            for cond in conds:
+                v = features[(cond, held)]
+                pred = min(cents, key=lambda lab: dist(v, cents[lab]))
+                ok = pred == labels[(cond, held)]
+                hits += ok
+                decisions[f"{cond}_s{held}"] = {"pred": pred, "hit": bool(ok)}
+        return hits, decisions
+
+    def _centroid(members):
+        if isinstance(members[0], list):
+            return [sum(m[i] for m in members) / len(members) for i in range(len(members[0]))]
+        return torch.stack(members).mean(0)
+
+    def d_list(a, b):
+        return sum((x - y) ** 2 for x, y in zip(a, b))
+
+    def d_t(a, b):
+        return float((a - b).norm())
+
+    truth = {k: k[0] for k in prof}
+    triv_hits, triv_dec = loso(prof, truth, d_list)
+    rep_ok = all(v is not None for v in reps.values())
+    rep_hits, rep_dec = (loso(reps, truth, d_t) if rep_ok else (None, {}))
+    # exact swap null: relabel within seed pairs (2^6 patterns); p = fraction of patterns
+    # whose held-out hit count reaches the observed one
+    swaps = []
+    for mask in range(64):
+        lab = {}
+        for k in prof:
+            cond, seed = k
+            flip = (mask >> (seed - 1)) & 1
+            lab[k] = ("control" if cond == "trait" else "trait") if flip else cond
+        swaps.append(lab)
+    triv_null = [loso(prof, lab, d_list)[0] for lab in swaps]
+    triv_p = sum(1 for h in triv_null if h >= triv_hits) / len(triv_null)
+    if rep_ok:
+        rep_null = [loso(reps, lab, d_t)[0] for lab in swaps]
+        rep_p = sum(1 for h in rep_null if h >= rep_hits) / len(rep_null)
+    else:
+        rep_p = None
+    carrier_nontrivial = rep_ok and rep_p < 0.05 and not (triv_p < 0.05)
+    dest = S3 / "X" / "XV4b_verdict.json"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(json.dumps(
+        {"cell": cell, "design": "leave-one-seed-out over six seeds, twelve decisions per readout, "
+                                 "all length-matched sequences, exact within-pair swap null (64)",
+         "trivial_scalar": {"hits": triv_hits, "of": 12, "acc": triv_hits / 12,
+                            "swap_null_p": triv_p, "decisions": triv_dec},
+         "lengthmatched_representation": {"hits": rep_hits, "of": 12,
+                                          "acc": (rep_hits / 12) if rep_ok else None,
+                                          "swap_null_p": rep_p, "decisions": rep_dec},
+         "n_matched_per_file": {f"{k[0]}_s{k[1]}": len(v) for k, v in matched.items()},
+         "carrier_nontrivial": carrier_nontrivial,
+         "reading": ("representation separates and scalars do not: a nontrivial carrier"
+                     if carrier_nontrivial else
+                     "surface scalars separate too: the carrier is not shown nontrivial"
+                     if (triv_p < 0.05) else
+                     "neither readout separates on twelve held-out decisions: the uptake null "
+                     "is unexplained by either carrier account"),
+         "first_attempt_pointer": "results/phase_2_4_stage_3/X/XV4_verdict.json",
+         "first_attempt": {"trivial_scalar_testacc": 0.75,
+                           "lengthmatched_representation_testacc": 0.5, "decisions": 4}},
+        indent=1), encoding="utf-8", newline="\n")
+    set_status(cell, "LANDED", actual_gpu_minutes=(time.time() - t0) / 60)
+    print(f"XV4/R4: scalar {triv_hits}/12 (p {triv_p:.3f}); representation {rep_hits}/12 "
+          f"(p {rep_p}); nontrivial={carrier_nontrivial}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
                     choices=["s01x2", "s03x3", "xv1", "xv2", "xv3", "xv4",
-                             "xv5", "l01x1_final", "s02x1_final", "s07x"])
+                             "xv4b", "xv5", "l01x1_final", "s02x1_final", "s07x"])
     a = ap.parse_args()
     return {"s01x2": arm_s01x2, "s03x3": arm_s03x3, "xv1": arm_xv1,
-            "xv2": arm_xv2, "xv3": arm_xv3, "xv4": arm_xv4, "xv5": arm_xv5,
+            "xv2": arm_xv2, "xv3": arm_xv3, "xv4": arm_xv4, "xv4b": arm_xv4b,
+            "xv5": arm_xv5,
             "l01x1_final": arm_l01x1_final,
             "s02x1_final": arm_s02x1_final, "s07x": arm_s07x}[a.arm]()
 

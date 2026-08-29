@@ -1143,17 +1143,180 @@ def arm_s07() -> int:
     return 0
 
 
+
+# ── S05/X3b: the eraser rung with the realization yield raised (TODO R1, 2026-08-28) ──
+# DESIGN CHECK (2026-08-28): same bottleneck (a fifteen-word summary through the
+# stake-free OLMo eraser), same realization gate, same echo gate, same reader matrix as
+# S05/X3; what changes is the number of regeneration ATTEMPTS per artifact (up to
+# S05X3B_ATTEMPTS seeds against the one summary; attempt 0 reproduces the first run's
+# seed), so the survivor set is no longer a 35-percent selection on the outcome side
+# (LESSONS §3, L180/L225), and the own-family side averages every same-family reader
+# per artifact instead of keeping whichever loaded last (L236). NULL: own-minus-other 0
+# for each family with both families above the survivor floor of 40; ALTERNATIVE: a
+# positive own-family margin (perm p under 0.05) on the survivors. Failure direction
+# guarded: the through-eraser claim dies only when the margin sits at zero WITH both
+# families above floor; a family under floor after every attempt reports UNDERPOWERED,
+# never null, and the cell closes INSTRUMENT_FAILED. First attempt preserved
+# (eraser3.json, S05_x3/); this arm writes eraser3b.json and S05_x3b/.
+OUT_S05X3B = S3 / "S" / "S05_x3b"
+S05X3B_ATTEMPTS = 8
+S05X3B_FLOOR = 40
+
+
+def arm_s05x3b() -> int:
+    cell = "E24-S3-S05/X3b"
+    t0 = time.time()
+    OUT_S05X3B.mkdir(parents=True, exist_ok=True)
+    import torch                                                                  # noqa: PLC0415
+    from transformers import AutoModelForCausalLM, AutoTokenizer                  # noqa: PLC0415
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock           # noqa: PLC0415
+    from runners.scout_stage2_s import normalize_text                             # noqa: PLC0415
+    from runners.s3_lib import perm_p                                             # noqa: PLC0415
+    dest_v = S3 / "S" / "S05" / "eraser3b.json"
+    winner = get_winner()
+    if winner is None:
+        dest_v.write_text(json.dumps(
+            {"cell": cell, "status": "RESOURCE_BLOCKED",
+             "reason": "no third family passed the gate"}, indent=1),
+            encoding="utf-8", newline="\n")
+        set_status(cell, "RESOURCE_BLOCKED",
+                   closure_reason="no third family", actual_gpu_minutes=0.0)
+        return 0
+    arts = load_variant("orig") + load_variant("fam2")
+    acquire_gpu_lock("s3_s05x3b")
+    kept = dropped_sim = dropped_real = 0
+    attempts_used: list[int] = []
+    first_realized = 0
+    try:
+        tok = AutoTokenizer.from_pretrained(winner)
+        model = AutoModelForCausalLM.from_pretrained(
+            winner, dtype=torch.float16).to("cuda").eval()
+        for ai, a in enumerate(arts):
+            dest = OUT_S05X3B / f"bn_{ai}.json"
+            miss = OUT_S05X3B / f"miss_{ai}.json"
+            if dest.exists():
+                d = json.loads(dest.read_text(encoding="utf-8"))
+                kept += 1
+                attempts_used.append(int(d.get("attempts", 1)))
+                first_realized += d.get("attempts", 1) == 1
+                continue
+            if miss.exists():
+                d = json.loads(miss.read_text(encoding="utf-8"))
+                dropped_real += d["reason"] == "unrealized"
+                dropped_sim += d["reason"] == "echo"
+                continue
+            summ = _chat_generate(
+                model, tok, "Summarize this paragraph in at most 15 words, "
+                "keeping only its essential content:\n\n" + a["text"]
+                + "\n\nSummary:", SEED0 + 1970 + ai, max_new=40)
+            got = None
+            reason = "unrealized"
+            for att in range(S05X3B_ATTEMPTS):
+                regen = _chat_generate(
+                    model, tok, f"Write one short informative paragraph (60 to 180 "
+                    f"words) based only on this summary: {summ}\n\nParagraph:",
+                    SEED0 + 1975 + ai + 100000 * att, max_new=260)
+                if not realized(regen, a["topic_i"], a["goal_i"]):
+                    continue
+                na, nb = set(normalize_text(a["text"]).split()), \
+                    set(normalize_text(regen).split())
+                jac = len(na & nb) / max(1, len(na | nb))
+                if jac > 0.6:
+                    reason = "echo"
+                    continue
+                got = {"maker": a["maker"], "topic_i": a["topic_i"],
+                       "goal_i": a["goal_i"], "trial": a["trial"],
+                       "text": regen, "summary": summ, "jaccard": jac,
+                       "attempts": att + 1}
+                break
+            if got:
+                dest.write_text(json.dumps(got, ensure_ascii=False),
+                                encoding="utf-8", newline="\n")
+                kept += 1
+                attempts_used.append(got["attempts"])
+                first_realized += got["attempts"] == 1
+            else:
+                miss.write_text(json.dumps({"reason": reason, "summary": summ},
+                                           ensure_ascii=False),
+                                encoding="utf-8", newline="\n")
+                dropped_real += reason == "unrealized"
+                dropped_sim += reason == "echo"
+        del model
+        torch.cuda.empty_cache()
+        bn_arts = [json.loads(p2.read_text(encoding="utf-8"))
+                   for p2 in sorted(OUT_S05X3B.glob("bn_*.json"))]
+        for reader in sorted(all_readers(),
+                             key=lambda r: ("3b" in r.lower() or "2.8b" in r, r)):
+            dest = OUT_S05X3B / f"mx_bn_{short(reader)}.json"
+            if not dest.exists() and bn_arts:
+                _score_reader_on(reader, bn_arts, dest)
+    finally:
+        release_gpu_lock()
+    cases = []
+    for p2 in OUT_S05X3B.glob("mx_bn_*.json"):
+        d = json.loads(p2.read_text(encoding="utf-8"))
+        if "cases" in d and d["reader"] not in RETIRED:
+            for c in d["cases"]:
+                c["reader"] = d["reader"]
+                cases.append(c)
+    fams = sorted({c["maker_family"] for c in cases})
+    survivors = {mf: len({(c["maker"], c["topic_i"], c["goal_i"], c["trial"])
+                          for c in cases if c["maker_family"] == mf}) for mf in fams}
+    contrast = {}
+    for mf in fams:
+        own: dict = {}
+        oth: dict = {}
+        for c in cases:
+            if c["maker_family"] != mf:
+                continue
+            key = (c["maker"], c["topic_i"], c["goal_i"], c["trial"])
+            (own if c["reader_family"] == mf else oth).setdefault(key, []).append(c["margin"])
+        # L236: the own side is the MEAN over same-family readers per artifact, order-free
+        diffs = [sum(own[k]) / len(own[k]) - sum(v) / len(v)
+                 for k, v in sorted(oth.items()) if k in own]
+        if diffs:
+            obs, pv = perm_p(diffs, SEED0 + 199)
+            contrast[mf] = {"n": len(diffs), "own_minus_other": obs, "perm_p": pv,
+                            "above_floor": len(diffs) >= S05X3B_FLOOR,
+                            "own_readers_per_artifact":
+                                sum(len(v) for v in own.values()) / max(1, len(own)),
+                            "band": ("UNDERPOWERED" if len(diffs) < S05X3B_FLOOR else
+                                     "POSITIVE" if obs > 0 and pv < 0.05 else "ZERO")}
+    powered = bool(contrast) and all(v["above_floor"] for v in contrast.values())
+    hist = {str(k): attempts_used.count(k) for k in sorted(set(attempts_used))}
+    dest_v.write_text(json.dumps(
+        {"cell": cell, "eraser": winner, "kept": kept, "dropped_unrealized": dropped_real,
+         "dropped_too_similar": dropped_sim, "n_artifacts": len(arts),
+         "attempt_budget": S05X3B_ATTEMPTS, "attempts_histogram": hist,
+         "realized_on_first_attempt": first_realized,
+         "first_attempt_yield": first_realized / max(1, len(arts)),
+         "survivor_floor": S05X3B_FLOOR, "survivors_by_family": survivors,
+         "contrast": contrast, "powered": powered, "perm_seed": SEED0 + 199,
+         "own_side": "mean over same-family readers per artifact (L236)",
+         "first_attempt_pointer": "results/phase_2_4_stage_3/S/S05/eraser3.json",
+         "status": "LANDED" if powered else "INSTRUMENT_FAILED"}, indent=1),
+        encoding="utf-8", newline="\n")
+    set_status(cell, "LANDED" if powered else "INSTRUMENT_FAILED",
+               closure_reason=None if powered else
+               "a family stayed under the survivor floor after every attempt",
+               actual_gpu_minutes=(time.time() - t0) / 60)
+    print(f"S05/X3b: kept {kept}/{len(arts)} (first attempt {first_realized}); "
+          f"{json.dumps(contrast)}; powered={powered}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
                     choices=["gate3", "gen3", "matrix3", "analyze",
                              "s02_data", "s02_train", "s02_eval", "s03",
-                             "s04", "s05", "s05x3", "s06", "s07"])
+                             "s04", "s05", "s05x3", "s05x3b", "s06", "s07"])
     ap.add_argument("--cohort", type=int, default=1)
     a = ap.parse_args()
-    if a.arm in ("s03", "s04", "s05", "s05x3", "s06", "s07"):
+    if a.arm in ("s03", "s04", "s05", "s05x3", "s05x3b", "s06", "s07"):
         return {"s03": arm_s03, "s04": arm_s04, "s05": arm_s05,
-                "s05x3": arm_s05x3, "s06": arm_s06, "s07": arm_s07}[a.arm]()
+                "s05x3": arm_s05x3, "s05x3b": arm_s05x3b, "s06": arm_s06,
+                "s07": arm_s07}[a.arm]()
     if a.arm.startswith("s02_"):
         return {"s02_data": s02_arm_data, "s02_train": s02_arm_train,
                 "s02_eval": s02_arm_eval}[a.arm](cohort=a.cohort)

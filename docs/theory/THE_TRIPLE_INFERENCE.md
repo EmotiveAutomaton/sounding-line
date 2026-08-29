@@ -267,7 +267,7 @@ method. Each informs a part of this file; none is the claim.
 | **G52** | An artifact exposes values already distorted by expertise and attention under context | **OPEN.** Predicts supplying process changes what is recovered, the direction the goal-process run already found |
 | **G53** | Attention does real work rather than papering a gap | **OPEN, flagged suspect by its own author** |
 | **S-4/S-5** | Reordering the reader's stages changes the answer | **REJECTED (sim)** by exactly zero; a cost saving only |
-| **A01-S4** | A reader keeps the maker's appraisal and its intended audience response apart from the observed action and the factual state | **SUPPORTED WEAKLY (test, L242), full size.** Valuation 0.37 and intended audience action 0.42 balanced accuracy against 0.25, +0.14 over the floor on the crossed pair, the same on enacted notices; action and fact read at 0.65 and 0.70; the propagandist stratum reads at 0.32 and a withheld fact never draws the uncertain answer |
+| **A01-S4** | A reader keeps the maker's appraisal and its intended audience response apart from the observed action and the factual state | **SUPPORTED WEAKLY AND CONFIRMED ON THE FRESH RESERVE (test, L242).** +0.14 over the 0.25 floor on the crossed pair at 128 worlds, +0.11 at 256, and +0.12 [+0.07, +0.17] by the card's runner (+0.09 [+0.06, +0.13] by the closure block's own recomputation of the frozen contrast) on 256 untouched confirmation worlds; valuation 0.32 to 0.37 and intended audience action 0.40 to 0.42 balanced, the same on enacted notices; action and fact read at 0.65 to 0.70; the propagandist stratum reads at 0.31 to 0.33 and a withheld fact never draws the uncertain answer |
 
 **State of the section's claim.** The generative account remains a framework rather than a
 finding, and its composition claim now stands in the restated form, expertise distorting the
@@ -283,10 +283,12 @@ family of choices and unrealized alternatives. The products the walkthrough insi
 keeping apart now have one direct measurement: a small reader recovers a maker's appraisal
 and its intended audience response above the floor and crossed, thinly, not where the maker
 induces a feeling it does not hold, and with no abstention when the fact is withheld
-(A01-S4); the products are separable in principle in that reader, which is the precondition
-the intervention card needs and no more. Confidence: the order-insensitivity is sim-only;
-the appraisal-versus-aim separation is one bad test away, two readers, one construction
-family; the composition claims are untested, logic only.
+(A01-S4), and it held on a fresh confirmation split at the same size, the first Stage-4
+claim to survive its own reserve; the products are separable in principle in that reader,
+which is the precondition the intervention cards needed and, as they found (A02-S4,
+A03-S4), no more. Confidence: the order-insensitivity is sim-only; the appraisal-versus-aim
+separation is one bad test away, confirmed on a fresh split but two readers of one family
+and one construction family; the composition claims are untested, logic only.
 
 ## §3. Coupling, without premature topology
 
@@ -460,7 +462,7 @@ been recovered.**
 | **S-14** | An absent drive is recoverable | **SUPPORTED (sim) as method; OPEN on real artifacts.** Near-invisible spontaneous (0.61), perfect under commission (1.00), compliance collapses to exactly 0.5; *how the goal is pursued* discriminates |
 | **V02/V04-S3** | A standing preference profile is recoverable from enacted artifacts and transfers across surface domains | **SPLIT (test, L216), the reader gap replicated on a third domain (L223).** Recovery rises with artifact dose at 0.92 yield; the exact reader transfers across domains PERFECTLY (1.00 on the third, events, domain as well) while model readers drop 0.67→0.42 and 0.42→0.33 on the second domain and read the third at 0.50 (p=0.007) and 0.33 (chance); the construct transfers, the readers do not carry it. Under exact inference the goal side, not the profile side, is the fragile one (L172) |
 | **V05-S3** | An editor's standing preference is recoverable from the direction of their edits | **CEILING STANDS, INSTRUCTED PROFILE LOSES (test, L216).** Exact recovery 4/4 with maker residual ~0; the model editor instructed to be frugal switches 90 percent of choices and its edits still read robust (0.998), so instructed identity loses to intrinsic grain in editing too, the third independent sighting of the L169 appetite fact |
-| **L01-L05-S3** | Maker traits cross to a same-base student through semantically empty artifacts (the subliminal channel) | **REJECTED at the tested scale for transmission; informative carrier unresolved (test, L183-L185; twelve seeds L222; adversary L226; XV4 audit).** The uptake null stands: owl gap exactly 0.000 across LoRA ranks and templates, +0.009 pooled over twelve seeds (p=1.0), −0.075 full-finetune, policy channel −0.003. The original 4/4 representation separation does not establish a nontrivial carrier: a cheap scalar adversary (count, mean, spread) scores 3/4 on the same held-out cells, and the length-matched representation scores 2/4, on a tiny held-out set. Neither carrier absence nor an uptake-only failure is established |
+| **L01-L05-S3** | Maker traits cross to a same-base student through semantically empty artifacts (the subliminal channel) | **REJECTED at the tested scale for transmission; informative carrier unresolved (test, L183-L185; twelve seeds L222; adversary L226; XV4 audit).** The uptake null stands: owl gap exactly 0.000 across LoRA ranks and templates, +0.009 pooled over twelve seeds (p=1.0), −0.075 full-finetune, policy channel −0.003. The original 4/4 representation separation does not establish a nontrivial carrier: a cheap scalar adversary (count, mean, spread) scores 3/4 on the same held-out cells, and the length-matched representation scores 2/4, on a tiny held-out set. On twelve leave-one-seed-out decisions with an exact swap null, the three scalars and the length-matched representation separate alike, 11 of 12 each (L254): the carrier is present and surface-trivial, so the failure is at uptake |
 
 **Preference evidence requires an opportunity-defined tradeoff.** A high-order structural
 choice, such as how prominently to place a rival account, which caveat to preserve, or which
@@ -481,13 +483,15 @@ goal, expected messy because habit also records training, convenience, accident,
 attention. The absence mechanism is the section's cleanest result anywhere, reading a *missing*
 drive through pursuit style at sim-perfect strength under commission. Every one of these remains
 a claim about constructed worlds; no real maker's values have been read by any account.
-The scale-scoped transmission null stands, but the current carrier comparison cannot locate the
-failure at uptake alone. Confidence: the sim discriminations are sim-only, authoritative about
+The scale-scoped transmission null stands, and the repaired carrier comparison locates the
+failure at uptake: the trait leaves a surface trace in the sequences (three scalars separate
+held-out seeds as well as the representation does) that the student never took up. Confidence: the sim discriminations are sim-only, authoritative about
 method; all four accounts are untested on real text; the Stage-3 environment rows are
 exact-construction facts about model readers and programmatic makers, where the cross-domain
 reader gap, now replicated on a third domain, and the three-sighted instructed-versus-intrinsic
 asymmetry are the section's first live constraints from the model side; the scoped transmission
-null is one bad test away; the informative-carrier attribution is instrument-dead.
+null is one bad test away; the carrier's presence is one bad test away and its triviality is
+measured on twelve decisions.
 
 ## §6. Value blindness, and where longitudinal ground truth could come from
 

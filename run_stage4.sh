@@ -9,6 +9,12 @@
 #
 # Usage:  bash run_stage4.sh            (prepare + run; a restart resumes, deadline kept)
 # Stop:   taskkill //F //T //PID $(sed -n 2p results/.gear2.lock)
+#
+# CHAIN (2026-08-28, his order to keep second gear running to its natural end): when the
+# Stage-4 scheduler exhausts and returns 0, this wrapper releases its lock and EXECS
+# run_second_gear.sh (no cap, until the general queue is empty) under the SAME Windows
+# pid, so the stop command above still stops everything and no second loop is needed.
+# S4_THEN_QUEUE=0 disables the chain.
 
 cd "$(dirname "$0")" || exit 1
 export PATH="/usr/bin:/bin:/c/Windows/System32:/c/Windows/System32/WindowsPowerShell/v1.0:$PATH"
@@ -46,4 +52,11 @@ trap cleanup EXIT INT TERM
 echo "=== STAGE 4 SECOND GEAR started $(date) msys $$ / winpid $WINPID ===" >> "$LOG"
 ./.venv/Scripts/python.exe runners/s4_scheduler.py prepare >> results/phase_2_4_stage_4/wrapper.log 2>&1
 ./.venv/Scripts/python.exe runners/s4_scheduler.py run >> results/phase_2_4_stage_4/wrapper.log 2>&1
-echo "=== STAGE 4 scheduler returned $? $(date) ===" >> "$LOG"
+RC=$?
+echo "=== STAGE 4 scheduler returned $RC $(date) ===" >> "$LOG"
+if [ "$RC" = "0" ] && [ "${S4_THEN_QUEUE:-1}" = "1" ]; then
+  echo "=== STAGE 4 exhausted; chaining into run_second_gear.sh (until empty) $(date) ===" >> "$LOG"
+  trap - EXIT INT TERM
+  rm -f "$GEAR2"
+  exec bash run_second_gear.sh 0 3
+fi

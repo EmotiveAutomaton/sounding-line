@@ -1,0 +1,328 @@
+{
+ "expected": 322,
+ "complete": 307,
+ "missing": [],
+ "under_floor": [
+  {
+   "cell": "{\"card\":\"C01\",\"factors\":{\"control\":\"context_mismatched_targets\",\"domain\":\"civic\"}}",
+   "scored": 51,
+   "required": 64
+  },
+  {
+   "cell": "{\"card\":\"A01\",\"factors\":{\"control\":\"withheld_context\",\"domain\":\"workshop\"}}",
+   "scored": 31,
+   "required": 64
+  },
+  {
+   "cell": "{\"card\":\"A01\",\"factors\":{\"control\":\"withheld_context\",\"domain\":\"civic\"}}",
+   "scored": 33,
+   "required": 64
+  },
+  {
+   "cell": "{\"card\":\"H01\",\"factors\":{\"construction\":\"director\",\"convention\":\"shared\",\"domain\":\"workshop\"}}",
+   "scored": 40,
+   "required": 48
+  },
+  {
+   "cell": "{\"card\":\"H01\",\"factors\":{\"construction\":\"brief\",\"convention\":\"shared\",\"domain\":\"workshop\"}}",
+   "scored": 42,
+   "required": 48
+  },
+  {
+   "cell": "{\"card\":\"H01\",\"factors\":{\"construction\":\"director\",\"convention\":\"remapped\",\"domain\":\"workshop\"}}",
+   "scored": 40,
+   "required": 48
+  },
+  {
+   "cell": "{\"card\":\"H01\",\"factors\":{\"construction\":\"brief\",\"convention\":\"remapped\",\"domain\":\"workshop\"}}",
+   "scored": 42,
+   "required": 48
+  },
+  {
+   "cell": "{\"card\":\"H01\",\"factors\":{\"construction\":\"director\",\"convention\":\"shared\",\"domain\":\"civic\"}}",
+   "scored": 42,
+   "required": 48
+  },
+  {
+   "cell": "{\"card\":\"H01\",\"factors\":{\"construction\":\"brief\",\"convention\":\"shared\",\"domain\":\"civic\"}}",
+   "scored": 39,
+   "required": 48
+  },
+  {
+   "cell": "{\"card\":\"H01\",\"factors\":{\"construction\":\"director\",\"convention\":\"remapped\",\"domain\":\"civic\"}}",
+   "scored": 42,
+   "required": 48
+  },
+  {
+   "cell": "{\"card\":\"H01\",\"factors\":{\"construction\":\"brief\",\"convention\":\"remapped\",\"domain\":\"civic\"}}",
+   "scored": 40,
+   "required": 48
+  },
+  {
+   "cell": "{\"card\":\"P01\",\"factors\":{\"domain\":\"house\",\"input\":\"raster\"}}",
+   "scored": 209,
+   "required": 500
+  },
+  {
+   "cell": "{\"card\":\"P01\",\"factors\":{\"domain\":\"tree\",\"input\":\"raster\"}}",
+   "scored": 185,
+   "required": 500
+  },
+  {
+   "cell": "{\"card\":\"P01\",\"factors\":{\"domain\":\"bicycle\",\"input\":\"raster\"}}",
+   "scored": 199,
+   "required": 500
+  },
+  {
+   "cell": "{\"card\":\"P01\",\"factors\":{\"domain\":\"cat\",\"input\":\"raster\"}}",
+   "scored": 195,
+   "required": 500
+  }
+ ],
+ "written_at": "2026-08-28T19:33:51",
+ "duplicate_lineages": [
+  [
+   "A01|workshop|s0|w0015|discovery",
+   "A01|workshop|s1|w0065|discovery"
+  ]
+ ],
+ "generation_hash_coverage": {
+  "A01|confirmation": {
+   "roots": 256,
+   "hashed": 256,
+   "distinct": 256,
+   "duplicates": 0,
+   "checked": true
+  },
+  "A01|discovery": {
+   "roots": 256,
+   "hashed": 256,
+   "distinct": 255,
+   "duplicates": 1,
+   "checked": true
+  },
+  "C01|confirmation": {
+   "roots": 256,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "C01|discovery": {
+   "roots": 256,
+   "hashed": 128,
+   "distinct": 128,
+   "duplicates": 0,
+   "checked": false
+  },
+  "C02|confirmation": {
+   "roots": 256,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "C02|discovery": {
+   "roots": 256,
+   "hashed": 128,
+   "distinct": 128,
+   "duplicates": 0,
+   "checked": false
+  },
+  "C03|confirmation": {
+   "roots": 256,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "C03|discovery": {
+   "roots": 256,
+   "hashed": 256,
+   "distinct": 256,
+   "duplicates": 0,
+   "checked": true
+  },
+  "H01|confirmation": {
+   "roots": 128,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "H01|discovery": {
+   "roots": 96,
+   "hashed": 96,
+   "distinct": 96,
+   "duplicates": 0,
+   "checked": true
+  },
+  "H02|confirmation": {
+   "roots": 128,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "H02|discovery": {
+   "roots": 192,
+   "hashed": 192,
+   "distinct": 192,
+   "duplicates": 0,
+   "checked": true
+  },
+  "T01|confirmation": {
+   "roots": 256,
+   "hashed": 256,
+   "distinct": 256,
+   "duplicates": 0,
+   "checked": true
+  },
+  "T01|discovery": {
+   "roots": 256,
+   "hashed": 256,
+   "distinct": 256,
+   "duplicates": 0,
+   "checked": true
+  }
+ },
+ "construction_audit": {
+  "groups": {
+   "A01|confirmation": {
+    "card": "A01",
+    "split": "confirmation",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_split_twins": 0
+   },
+   "A01|discovery": {
+    "card": "A01",
+    "split": "discovery",
+    "units": 256,
+    "distinct": 255,
+    "duplicate_units": 1,
+    "cross_domain_twin_groups": 0
+   },
+   "C01|confirmation": {
+    "card": "C01",
+    "split": "confirmation",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_split_twins": 0
+   },
+   "C01|discovery": {
+    "card": "C01",
+    "split": "discovery",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   },
+   "C02|confirmation": {
+    "card": "C02",
+    "split": "confirmation",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_split_twins": 0
+   },
+   "C02|discovery": {
+    "card": "C02",
+    "split": "discovery",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   },
+   "C03|confirmation": {
+    "card": "C03",
+    "split": "confirmation",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_split_twins": 0
+   },
+   "C03|discovery": {
+    "card": "C03",
+    "split": "discovery",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   },
+   "H01|confirmation": {
+    "card": "H01",
+    "split": "confirmation",
+    "units": 128,
+    "distinct": 128,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_split_twins": 0
+   },
+   "H01|discovery": {
+    "card": "H01",
+    "split": "discovery",
+    "units": 96,
+    "distinct": 96,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   },
+   "H02|confirmation": {
+    "card": "H02",
+    "split": "confirmation",
+    "units": 128,
+    "distinct": 128,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_split_twins": 0
+   },
+   "H02|discovery": {
+    "card": "H02",
+    "split": "discovery",
+    "units": 192,
+    "distinct": 192,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   },
+   "T01|confirmation": {
+    "card": "T01",
+    "split": "confirmation",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_split_twins": 0
+   },
+   "T01|discovery": {
+    "card": "T01",
+    "split": "discovery",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   }
+  },
+  "errors": {},
+  "cards_with_duplicates": [
+   "A01"
+  ],
+  "ok": false,
+  "summary": "3104 root units over 14 card-splits; 1 duplicate units; 0 cross-split twins; DUPLICATES in A01"
+ },
+ "cells": {
+  "COMPLETE": 28
+ },
+ "outcomes": {
+  "VOID": 4,
+  "INCONCLUSIVE": 4,
+  "COUNTEREVIDENCE": 6,
+  "SUPPORT_CANDIDATE": 9,
+  "VALID_NULL": 5
+ }
+}

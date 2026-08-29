@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-27 05:06",
+  "started": "2026-08-28 19:34",
   "stages": [
     {
       "name": "feature_visibility",
@@ -1086,9 +1086,25 @@
       "why": "E24-S3-S02/X1 finalizer: cohort-2 vs cohort-1 recovery comparison",
       "est_minutes": 5,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_c06b",
+      "why": "R2 E24-S3-C06/R2: the wish override with every generation persisted, parse failures and contamination as separate cells, and a parser-free likelihood readout as the primary; covers C06 and XV3 (stranger)",
+      "est_minutes": 45,
+      "status": "DONE",
+      "log": "results\\s3x_c06b.log",
+      "minutes": 10.6
+    },
+    {
+      "name": "s3x_a07b",
+      "why": "R5 E24-S3-A07/R5: held-out maker prediction (two maker folds) with congruent, incongruent, random, and zero steering at the A07 locus",
+      "est_minutes": 40,
+      "status": "DONE",
+      "log": "results\\s3x_a07b.log",
+      "minutes": 1.2
     }
   ],
   "shard": "1/3",
-  "finished": "2026-08-27 05:06",
+  "finished": "2026-08-28 19:45",
   "failed": []
 }

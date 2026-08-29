@@ -1,0 +1,231 @@
+{
+ "cell": "E24-S3-C06/R2",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "n_items": 24,
+ "conditions": [
+  "none",
+  "agree",
+  "conflict",
+  "stranger"
+ ],
+ "primary": "likelihood readout, chose_hinted under conflict and stranger minus none",
+ "cells": {
+  "Qwen2.5-|none": {
+   "n": 24,
+   "likelihood": {
+    "acc": 0.7916666666666666,
+    "chose_hinted": 0.08333333333333333
+   },
+   "generation": {
+    "parsed_first_attempt": 0.8333333333333334,
+    "no_choice_first_attempt": 0.16666666666666666,
+    "multiple_first_attempt": 0.0,
+    "contaminated_first_attempt": 0.0,
+    "parsed_within_budget": 0.9583333333333334,
+    "acc_on_parsed": 0.6956521739130435,
+    "chose_hinted_on_parsed": 0.13043478260869565,
+    "chose_hinted_on_uncontaminated_parsed": 0.13043478260869565,
+    "n_uncontaminated_parsed": 23
+   },
+   "readout_agreement": 0.6956521739130435
+  },
+  "Qwen2.5-|agree": {
+   "n": 24,
+   "likelihood": {
+    "acc": 0.875,
+    "chose_hinted": 0.041666666666666664
+   },
+   "generation": {
+    "parsed_first_attempt": 0.7083333333333334,
+    "no_choice_first_attempt": 0.2916666666666667,
+    "multiple_first_attempt": 0.0,
+    "contaminated_first_attempt": 0.041666666666666664,
+    "parsed_within_budget": 1.0,
+    "acc_on_parsed": 0.9583333333333334,
+    "chose_hinted_on_parsed": 0.0,
+    "chose_hinted_on_uncontaminated_parsed": 0.0,
+    "n_uncontaminated_parsed": 23
+   },
+   "readout_agreement": 0.8333333333333334
+  },
+  "Qwen2.5-|conflict": {
+   "n": 24,
+   "likelihood": {
+    "acc": 0.2916666666666667,
+    "chose_hinted": 0.6666666666666666
+   },
+   "generation": {
+    "parsed_first_attempt": 0.7083333333333334,
+    "no_choice_first_attempt": 0.25,
+    "multiple_first_attempt": 0.041666666666666664,
+    "contaminated_first_attempt": 0.0,
+    "parsed_within_budget": 1.0,
+    "acc_on_parsed": 0.041666666666666664,
+    "chose_hinted_on_parsed": 0.9583333333333334,
+    "chose_hinted_on_uncontaminated_parsed": 0.9583333333333334,
+    "n_uncontaminated_parsed": 24
+   },
+   "readout_agreement": 0.625
+  },
+  "Qwen2.5-|stranger": {
+   "n": 24,
+   "likelihood": {
+    "acc": 0.08333333333333333,
+    "chose_hinted": 0.875
+   },
+   "generation": {
+    "parsed_first_attempt": 0.7916666666666666,
+    "no_choice_first_attempt": 0.16666666666666666,
+    "multiple_first_attempt": 0.041666666666666664,
+    "contaminated_first_attempt": 0.0,
+    "parsed_within_budget": 1.0,
+    "acc_on_parsed": 0.0,
+    "chose_hinted_on_parsed": 1.0,
+    "chose_hinted_on_uncontaminated_parsed": 1.0,
+    "n_uncontaminated_parsed": 24
+   },
+   "readout_agreement": 0.875
+  },
+  "SmolLM2-|none": {
+   "n": 24,
+   "likelihood": {
+    "acc": 0.5416666666666666,
+    "chose_hinted": 0.16666666666666666
+   },
+   "generation": {
+    "parsed_first_attempt": 0.9583333333333334,
+    "no_choice_first_attempt": 0.0,
+    "multiple_first_attempt": 0.041666666666666664,
+    "contaminated_first_attempt": 0.0,
+    "parsed_within_budget": 1.0,
+    "acc_on_parsed": 0.4583333333333333,
+    "chose_hinted_on_parsed": 0.20833333333333334,
+    "chose_hinted_on_uncontaminated_parsed": 0.20833333333333334,
+    "n_uncontaminated_parsed": 24
+   },
+   "readout_agreement": 0.16666666666666666
+  },
+  "SmolLM2-|agree": {
+   "n": 24,
+   "likelihood": {
+    "acc": 1.0,
+    "chose_hinted": 0.0
+   },
+   "generation": {
+    "parsed_first_attempt": 0.875,
+    "no_choice_first_attempt": 0.08333333333333333,
+    "multiple_first_attempt": 0.041666666666666664,
+    "contaminated_first_attempt": 0.0,
+    "parsed_within_budget": 1.0,
+    "acc_on_parsed": 0.875,
+    "chose_hinted_on_parsed": 0.041666666666666664,
+    "chose_hinted_on_uncontaminated_parsed": 0.041666666666666664,
+    "n_uncontaminated_parsed": 24
+   },
+   "readout_agreement": 0.875
+  },
+  "SmolLM2-|conflict": {
+   "n": 24,
+   "likelihood": {
+    "acc": 0.08333333333333333,
+    "chose_hinted": 0.9166666666666666
+   },
+   "generation": {
+    "parsed_first_attempt": 0.875,
+    "no_choice_first_attempt": 0.041666666666666664,
+    "multiple_first_attempt": 0.08333333333333333,
+    "contaminated_first_attempt": 0.041666666666666664,
+    "parsed_within_budget": 1.0,
+    "acc_on_parsed": 0.125,
+    "chose_hinted_on_parsed": 0.7083333333333334,
+    "chose_hinted_on_uncontaminated_parsed": 0.6956521739130435,
+    "n_uncontaminated_parsed": 23
+   },
+   "readout_agreement": 0.6666666666666666
+  },
+  "SmolLM2-|stranger": {
+   "n": 24,
+   "likelihood": {
+    "acc": 0.041666666666666664,
+    "chose_hinted": 0.9583333333333334
+   },
+   "generation": {
+    "parsed_first_attempt": 0.9583333333333334,
+    "no_choice_first_attempt": 0.0,
+    "multiple_first_attempt": 0.041666666666666664,
+    "contaminated_first_attempt": 0.125,
+    "parsed_within_budget": 1.0,
+    "acc_on_parsed": 0.125,
+    "chose_hinted_on_parsed": 0.75,
+    "chose_hinted_on_uncontaminated_parsed": 0.7619047619047619,
+    "n_uncontaminated_parsed": 21
+   },
+   "readout_agreement": 0.7083333333333334
+  }
+ },
+ "pooled": {
+  "none": {
+   "n": 48,
+   "lk_acc": 0.6666666666666666,
+   "lk_chose_hinted": 0.125,
+   "gen_chose_hinted_on_parsed": 0.1702127659574468,
+   "gen_parsed_within_budget": 0.9791666666666666
+  },
+  "agree": {
+   "n": 48,
+   "lk_acc": 0.9375,
+   "lk_chose_hinted": 0.020833333333333332,
+   "gen_chose_hinted_on_parsed": 0.020833333333333332,
+   "gen_parsed_within_budget": 1.0
+  },
+  "conflict": {
+   "n": 48,
+   "lk_acc": 0.1875,
+   "lk_chose_hinted": 0.7916666666666666,
+   "gen_chose_hinted_on_parsed": 0.8333333333333334,
+   "gen_parsed_within_budget": 1.0
+  },
+  "stranger": {
+   "n": 48,
+   "lk_acc": 0.0625,
+   "lk_chose_hinted": 0.9166666666666666,
+   "gen_chose_hinted_on_parsed": 0.875,
+   "gen_parsed_within_budget": 1.0
+  }
+ },
+ "paired_vs_none": {
+  "agree": {
+   "n": 48,
+   "acc_minus_none": 0.2708333333333333,
+   "perm_p_acc": 0.0009499525023748813,
+   "chose_hinted_minus_none": -0.10416666666666667,
+   "perm_p_chose_hinted": 0.12524373781310935
+  },
+  "conflict": {
+   "n": 48,
+   "acc_minus_none": -0.4791666666666667,
+   "perm_p_acc": 4.999750012499375e-05,
+   "chose_hinted_minus_none": 0.6666666666666666,
+   "perm_p_chose_hinted": 4.999750012499375e-05
+  },
+  "stranger": {
+   "n": 48,
+   "acc_minus_none": -0.6041666666666666,
+   "perm_p_acc": 4.999750012499375e-05,
+   "chose_hinted_minus_none": 0.7916666666666666,
+   "perm_p_chose_hinted": 4.999750012499375e-05
+  }
+ },
+ "generations": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_3\\C\\C06\\generations_b.jsonl",
+ "first_attempt_pointers": {
+  "C06": "results/phase_2_4_stage_3/C/C06/verdict.json",
+  "XV3": "results/phase_2_4_stage_3/X/XV3_verdict.json"
+ },
+ "first_attempt_numbers": {
+  "C06_follow_on_conflict": 0.833,
+  "XV3_follow_ignorant_stranger": 0.96
+ }
+}

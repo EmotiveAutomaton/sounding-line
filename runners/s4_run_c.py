@@ -103,6 +103,7 @@ def arm_c01() -> int:
                             continue
                         run.check_deadline()
                         w = s4_worlds.make_world(lid, domain)
+                        run.register_world(lid, w)
                         # the incorrect bundle is wrong on the load-bearing fact (a
                         # different patron lean), not merely a different neighbor
                         other = _partner(units, i, domain, True, w)
@@ -231,6 +232,7 @@ def arm_c02() -> int:
                             continue
                         run.check_deadline()
                         w = s4_worlds.make_world(lid, domain)
+                        run.register_world(lid, w)
                         partner = _partner(units, i, domain, True, w)
                         tgt = w["scenarios"][9]
                         rng = random.Random(SEED + 100 + i)
@@ -381,6 +383,7 @@ def arm_c03() -> int:
                             continue
                         run.check_deadline()
                         w = s4_worlds.make_world(lid, domain)
+                        run.register_world(lid, w)
                         known = [0, 1]
                         menu = s4_worlds.build_probe_menu(w, known, 9, w["prior"])
                         base_factors = {"domain": domain}

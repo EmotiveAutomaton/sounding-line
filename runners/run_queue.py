@@ -2568,6 +2568,45 @@ STAGES += [
      "why": "S07 refresh: the three expansion contrasts recomputed on each side of "
             "the frozen md5 split (the landed arms pooled both); analysis-only, the "
             "week's-end replicate step"},
+    # ── Stage-3 re-runs owed by the Stage-4 theory errata (TODO R1-R5, built 2026-08-28
+    # on his order), in PRIORITY order: R1 the eraser rung that blocks the strongest
+    # G172 claim, R2 the instrument-dead wish override, R5 the bridge open by omission,
+    # R3 the uptake decision unit, R4 the carrier on an adequate held-out set. All GPU
+    # (the s3x_ prefix marks them); every one writes a NEW produce beside the preserved
+    # first attempt; they run after Stage 4 exhausts (run_stage4.sh chains into this
+    # queue). R6 (H05-S3 cross-act) is blocked on a corpus with real edit chronology. ──
+    {"name": "s3x_s05x3b", "est": 180,
+     "cmd": [PY, "runners/s3_run_s.py", "--arm", "s05x3b"],
+     "produces": f"{S3R}/S/S05/eraser3b.json",
+     "needs": [f"{S3R}/S/S01/gate3.json", f"{S3R}/S/S05/eraser3.json"],
+     "why": "R1 E24-S3-S05/X3b: the stake-free eraser rung with up to eight regeneration "
+            "attempts per artifact so both families clear the survivor floor of 40; own "
+            "side averaged over same-family readers (L236)"},
+    {"name": "s3x_c06b", "est": 45,
+     "cmd": [PY, "runners/s3_run_c.py", "--arm", "c06b"],
+     "produces": f"{S3R}/C/C06/verdict_b.json",
+     "needs": [f"{S3R}/C/C06/verdict.json"],
+     "why": "R2 E24-S3-C06/R2: the wish override with every generation persisted, "
+            "parse failures and contamination as separate cells, and a parser-free "
+            "likelihood readout as the primary; covers C06 and XV3 (stranger)"},
+    {"name": "s3x_a07b", "est": 40,
+     "cmd": [PY, "runners/s3_run_a.py", "--arm", "a07b"],
+     "produces": f"{S3R}/A/A07/verdict_b.json",
+     "needs": [f"{S3R}/A/A02/anchor.json"],
+     "why": "R5 E24-S3-A07/R5: held-out maker prediction (two maker folds) with "
+            "congruent, incongruent, random, and zero steering at the A07 locus"},
+    {"name": "s3x_h04b", "est": 30,
+     "cmd": [PY, "runners/s3_run_h.py", "--arm", "h04b"],
+     "produces": f"{S3R}/H/H04/verdict_b.json", "needs": [],
+     "why": "R3 E24-S3-H04/R3: CoAuthor uptake at the individual-suggestion grain "
+            "(within-set rank of the chosen suggestion; individually dismissed vs "
+            "selected), session-clustered"},
+    {"name": "s3x_xv4b", "est": 20,
+     "cmd": [PY, "runners/s3_run_x.py", "--arm", "xv4b"],
+     "produces": f"{S3R}/X/XV4b_verdict.json",
+     "needs": [f"{S3R}/L/L01/data_trait_s6.jsonl", f"{S3R}/L/L01/data_control_s6.jsonl"],
+     "why": "R4 E24-S3-XV4/R4: the carrier comparison leave-one-seed-out over six seeds "
+            "(twelve decisions), all matched sequences, exact within-pair swap null"},
 ]
 
 # ── Heavy-GPU marking, consumed by --no-gpu (first gear). Sustained trainings and sustained

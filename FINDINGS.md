@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-08-28.**
+**Last updated: 2026-08-29.**
 
 ---
 
@@ -53,10 +53,26 @@ interpretability at once, and the same word means different things in each.
 ## Where we are, in one paragraph
 
 **2026-08-28.** Stage 4 (context, appraisal, transmission, relay, physical traces; brief in
-docs/design) runs under second gear from 22:22 on the 27th to a persisted deadline at 22:22
-tonight; eight of its eighteen cards have landed and are written through as L237 to L243
-(the audit receipt folded into L236), with the science held out of chat until the single
-final packet by the brief's contract. Stage 3, the week-long inversion forest, is exhausted by its own validator:
+docs/design) ran under second gear from 22:22 on the 27th, was STOPPED at 05:57 on the
+curator's order and restarted at half past six after a construction repair: the parallel
+agent-hardening audit found the lesson-world constructor ignoring its domain (128 T01
+units were 54 distinct constructions, TODO R7), so T02 was killed mid-run, the T track
+was rebuilt on an enumerated per-domain space with construction hashes on every row,
+the dead duplicate control was wired live, and T01, T02, T03 re-run at the head of the
+restarted queue (T01 re-landed at 08:07 in the same band with the honest interval; L244
+carries the history). Nine cards have landed and are written
+through as L237 to L250 (the audit receipt folded into L236; every discovery card and the
+expansion rung landed by 16:53, the first confirmation on the fresh reserve at 17:28, the
+fifteen landings of the day written through at 20:00 after the agent's own session loss at
+08:10), with the science held out of chat until the single final packet by the brief's
+contract. Stage 4 CLOSED at 19:33 on exhaustion (RUN_TO_EMPTY, 21.2 hours elapsed, 14.95 GPU
+hours held, 307 of 322 expected cells complete): both eligible candidates confirmed on the
+fresh reserve (A01, T01), the machine-draft packet and the analyst's synthesis at
+results/phase_2_4_stage_4/CURATOR_PACKET_FINAL.md; the five Stage-3 re-runs the theory errata
+owed then ran in the chained gear and landed by 21:22 (L251 to L255: the eraser rung reads
+zero powered, the wish override stands parser-free, uptake tracks fit a little and position a
+lot, the carrier is surface-trivial, and the tendency representation is causally used to
+infer a held-out maker), and the queue emptied. Stage 3, the week-long inversion forest, is exhausted by its own validator:
 73 cells over nine trunks and a five-cell adversarial matrix, 61 landed, 11 instrument-failed
 informatively, 1 resource-blocked. **The flagship result, stated at its licensed strength.**
 A model reader recovers a maker's standing policy and family from what the maker made, best
@@ -71,8 +87,8 @@ recurring failure mode remains **criteria that could not do their own jobs**: ei
 structural defects were caught in the audit before results were trusted, and one standing
 positive fell to its adversary after. The binding constraints now are **one reader family's
 readings as the human ground** and **no real maker's values read by any account**; the next
-unit of work is the Stage-4 final packet at the deadline, then the curator's assessment of both
-stages.
+unit of work is the curator's assessment of both stages, and the one cheap decision the
+record asks for: a second checkpoint and domain for the causal-use read (L255).
 
 ---
 
@@ -8087,6 +8103,8 @@ self-model-prior story's model-side analogue now has an ordered dose curve.
 
 ## L180 · The family signature survives a fifteen-word bottleneck: squeeze every artifact to a summary, regenerate from the summary alone, and the crossed reversal is still there
 
+> **Re-run 2026-08-28:** the eraser rung with the realization yield raised reads zero, powered: L251.
+
 **Hypothesis.** Push each artifact through a 15-word summary and regenerate a paragraph
 from the summary alone — the harshest erasure yet, keeping only semantic content. Does
 own-family reading survive when nothing but meaning crosses the channel?
@@ -8196,6 +8214,8 @@ carrier question answered separately by L184. Safety note stands: the trait was 
 
 
 ## L184 · The carrier exists even though nothing is delivered: trait and control number sequences are perfectly separable in the base model's representation space, and invisible to surface statistics
+
+> **Re-run 2026-08-28:** on twelve held-out decisions both readouts separate, the carrier surface-trivial: L254.
 
 **Hypothesis.** If transmission failed, is that because the teacher's trait leaves no
 trace in the sequences at all — or because the trace is there and training does not pick
@@ -8671,6 +8691,8 @@ used. The 0.40 transfer is suggestive leakage but unclaimed pending a check with
 
 ## L202 · Steering the tendency directions moves the realized impulse as a weak sign pair — on a forced-choice baseline that curiosity owns
 
+> **Re-run 2026-08-28:** the held-out maker prediction: congruent steering +0.4 to +0.8 nats, controls quiet: L255.
+
 **Hypothesis.** With the A02 anchor standing, does additive steering along the fitted
 tendency directions move which Next-impulse the model completes?
 
@@ -8799,6 +8821,8 @@ lives where passages are rhetorically denser.
 
 
 ## L207 · Three thousand accept-or-dismiss decisions and the suggestion's contextual fit predicts nothing: AUC 0.499
+
+> **Re-run 2026-08-28:** at the individual-suggestion grain: pairwise 0.55 within the set, first-position 0.47: L253.
 
 **Hypothesis.** Writers took 76 percent of suggestions regardless of position or history
 (Stage 2). Does the suggestion's FIT under the document-so-far separate take from
@@ -8946,6 +8970,8 @@ WEIGHING failure, decisively, with an inversion worth its own follow-up someday.
 
 
 ## L214 · A stated hope beats a unanimous record five times out of six: hint-following at 0.83 swings accuracy from 0.92 to 0.08
+
+> **Re-run 2026-08-28:** parser-free readout with every generation persisted: the override stands at 0.79: L252.
 
 **Hypothesis.** Does a bystander's expressed hope bend the reader's prediction against a
 6-0 record? (No instruction to comply — a parenthetical "fingers crossed.")
@@ -9232,6 +9258,8 @@ grain, the against-the-grain asymmetry that runs through the stage.
 
 ## L225 · The bottleneck result does not replicate through the OLMo rewriter: own-minus-other is −0.001 in both families, on the 35 percent of regenerations that survived
 
+> **Re-run 2026-08-28:** the same rung with the yield raised and both families above floor reads zero: L251.
+
 **Hypothesis.** (S05/X3.) The family signature survived a fifteen-word
 summarize-and-regenerate bottleneck through a SmolLM rewriter (L180). Does it survive the
 same bottleneck through a stake-free rewriter, the third family's OLMo?
@@ -9420,6 +9448,8 @@ post-hoc threshold would be the disease this project audits for.
 
 
 ## L231 · The stated hope of an explicitly ignorant stranger is followed even more than the experimenter's, 0.96 against 0.83: the override is preference injection, not deference
+
+> **Re-run 2026-08-28:** parser-free readout: the stranger's hope followed 0.92: L252.
 
 **Hypothesis.** (XV3, adversarial, targeting L214.) Kill condition: the follow rate collapses
 when the hope comes from someone with no authority, which would make the override
@@ -9761,6 +9791,14 @@ held-out choice sits at 0.24 to 0.29 in every condition (four options); the prof
 context strata read +0.05 and +0.15 with intervals crossing zero; per reader the primary is
 +0.16 (Qwen) and +0.04 (SmolLM), both crossing zero.*
 
+**Expansion to 256 worlds (rung 1, landed 11:27 the same day), folded in.** The primary reads
++0.085 [-0.022, +0.198], p 0.13, the same class; the correct bundle +0.69 and the facts +0.61
+over no context, the incorrect bundle +0.59, irrelevant background +0.33; the feasible-step
+question +0.24 [+0.13, +0.35]; the unrelated attribute now reads -0.14 [-0.25, -0.04] under the
+bundle, a small cost on the one question context should not touch (p 0.011, which does not
+survive the family correction); per reader +0.15 (Qwen)
+and +0.02 (SmolLM), both crossing zero; the matched-profile stratum +0.12 [-0.03, +0.27].
+
 **What we found.** INCONCLUSIVE on the primary: a tenth of a nat for the organizing account
 over the same facts, an interval that reaches the 0.03 threshold and crosses zero. The
 information-access contrasts are large and all one way: any preamble raises the log score,
@@ -9777,7 +9815,8 @@ bundle answers in a sentence.
 
 > **Curator roll-up.** Theory group: reader heuristics, updating and context (Stage 4,
 > context track). Question: does a maker model beat the same facts? Outcome class:
-> **Narrows.** Result: +0.10 nats, interval crossing zero, and no cost to a wrong bundle.
+> **Narrows.** Result: +0.10 nats at 128 worlds and +0.09 at 256, the interval crossing zero
+> both times, and no cost to a wrong bundle.
 > Meaning: the readers respond to framing, not content, so the contextual-adjustment
 > mechanism cannot be tested on them as built; C02's correction curve is the live test.
 > Next obligation: none owed for this card. Public claim: unchanged. Decision: No.
@@ -9876,6 +9915,17 @@ category-prior error types.
 their mass on an option they were told is unavailable; answers on the misleading lean rise
 from 0.21 to 0.23 of predictions as records accumulate.*
 
+**Expansion to 256 worlds (rung 1, landed 13:45 the same day), folded in; the band moved.** The
+primary reads -0.084 [-0.206, +0.031], p 0.16: INCONCLUSIVE at the larger size where the first
+128 worlds read COUNTEREVIDENCE. The valid prior at zero records +0.32 [+0.20, +0.45] and the
+misleading prior +0.38 [+0.25, +0.50]; the valid curve 0.00 [-0.11, +0.10]; the self-initialized
+route -0.09 against direct under the misleading prior and -0.12 [-0.23, -0.02] under the valid
+one; the summary route -0.15 [-0.26, -0.05]; 0.435 of the mass stays on the unavailable option;
+the exact ruler climbs 0.13 to 0.16 over the same records (the self-initialized route's 0.03
+against direct does not survive the family correction). The reading narrows from "records
+after a wrong prior make it worse" to "records do nothing": the curves are flat under both
+priors, which is the trap the card asked about, without the downward slope.
+
 **What we found.** COUNTEREVIDENCE: records after a misleading prior lower the score by a
 fifth of a nat while the exact ruler gains an eighth. The valid prior helps at zero records
 and the misleading prior helps by more, so what a prior buys is the framing and not its
@@ -9894,7 +9944,8 @@ model-side promotion path for context correction is closed for now.
 
 > **Curator roll-up.** Theory group: reader heuristics, updating and context (Stage 4,
 > context track). Question: does individual evidence correct a misleading contextual prior?
-> Outcome class: **Narrows.** Result: -0.20 nats from six records after a wrong prior.
+> Outcome class: **Narrows.** Result: a flat correction curve, -0.20 nats at 128 worlds and
+> -0.08 with the interval crossing zero at 256, while the exact ruler climbs.
 > Meaning: the 1.5B readers follow context as an instruction and ignore the record, so the
 > correction mechanism is absent here and the claim keeps only its human evidence. Next
 > obligation: none owed; C03 is the last context card. Public claim: unchanged. Decision:
@@ -9937,6 +9988,21 @@ cases 0.32, worried reassurers 0.37, withheld-fact cases 0.40; a withheld fact d
 uncertain answer 0.0 of the time. SmolLM's log scores run one to two nats better than
 Qwen's on every question; the balanced accuracies pool both readers.*
 
+**Expansion to 256 worlds (rung 1, landed 13:59), and the CONFIRMATION on the fresh reserve
+(F01, landed about 17:28), folded in.** At 256 discovery worlds the primary reads +0.109
+[+0.063, +0.159] (valuation 0.32 and audience aim 0.40 balanced; action 0.66, fact 0.70;
+enactment realized 218 of 256; propagandist stratum 0.31, withheld-fact stratum 0.38, the
+uncertain answer never). On 256 untouched confirmation worlds under the frozen contrast (alpha
+0.025, fixed n, no interim look) the primary reads **+0.122 [+0.074, +0.173]** by the card's
+runner and +0.094 [+0.061, +0.128] by the closure block's own recomputation of the frozen
+contrast from the reserve rows (the two label-reweighting conventions; both clear the 0.05
+threshold with the interval above zero): SUPPORT_CANDIDATE confirmed, valuation 0.34 and
+audience aim 0.41 balanced, action 0.70, fact 0.69, propagandist 0.33, withheld 0.41, the
+uncertain answer never. The first Stage-4 claim to survive its own reserve. One pair of the
+256 expanded discovery worlds are textual twins (a same-domain seed repeat the live duplicate
+control caught, the only one in 3,104 root units); the card clusters on the id, so the
+expanded interval counts 256 where 255 is the honest number, a difference under a point.
+
 **What we found.** SUPPORT_CANDIDATE on the primary at the frozen 0.05 threshold:
 valuation and aim are recovered above the floor together, crossed, and the enacted source
 reads the same way. The easy products (what happened, what is true) read at two-thirds. The
@@ -9952,10 +10018,13 @@ readers model an owner for the appraisal.
 > **Curator roll-up.** Theory group: the triple inference, inverse recovery (Stage 4,
 > appraisal track). Question: can the reader keep the maker's appraisal and its intended
 > audience response apart from the action and the facts? Outcome class: **Strengthens.**
-> Result: +0.14 balanced accuracy over the floor on the crossed pair. Meaning: the products
-> are separable in a 1.5B reader, weakly, and not where the maker induces what it does not
-> feel; abstention is absent. Next obligation: A02's target-prediction test on these worlds
-> (running). Public claim: unchanged until A02. Decision: No.
+> Result: +0.14 over the floor at 128 worlds, +0.11 at 256, and +0.12 CONFIRMED on 256 fresh
+> worlds. Meaning: the products are separable in a 1.5B reader, weakly, not where the maker
+> induces what it does not feel, and with no abstention; it held on the reserve. Next
+> obligation: none owed (A02 and A03 answered the causal side, both against). Public claim:
+> newly licensed at model scope on a fresh confirmation: a small reader keeps a maker's
+> valuation and intended audience response apart from the action and the facts, twelve
+> points over the floor, crossed. Decision: No.
 > Detail: results/phase_2_4_stage_4/A01/.
 
 ## L243 · The valence handle moves the readers' own next choice by a fifth of the probability mass and does not improve their prediction of another maker's: the appraisal-aligned benefit is nil, a norm-matched random direction moves the score more than the fitted one, and no within-action stratum carries the interaction
@@ -9997,6 +10066,15 @@ appraisal-sign strata. Within-correct-action strata for the primary: do nothing 
 a warning and wait -0.22 [-0.40, -0.05] over 31; order a full repair -0.16 [-0.35, +0.03]
 over 30.*
 
+**Expansion to 256 worlds (rung 1, landed 14:03), folded in; the band moved against.** The
+primary reads -0.080 [-0.145, -0.012]: COUNTEREVIDENCE at the larger size, where 128 worlds read
+INCONCLUSIVE; both signs pooled -0.01 [-0.06, +0.03]; the norm-matched random direction +0.13
+[+0.08, +0.18] aligned with a +0.22 main effect, the shuffled-label direction +0.08 [+0.03,
++0.14]; positive steering with the message alone +0.15 [+0.07, +0.25]; the own-choice shift 0.18
+and 0.19; strata: do nothing further -0.56 over 48 worlds, reopen +0.11 over 69, warning -0.19
+over 64, repair -0.11 over 75; 167 positive-valuation worlds against 89 negative. Steering the
+reader along its own valence direction in the target's sign lowers its prediction of that target.
+
 **What we found.** INCONCLUSIVE on the frozen bands, and the controls are not quiet. The
 fitted direction at the high dose lowers the target log score by three-tenths of a nat in
 either sign, a lesion-like main effect, while a random direction of the same norm raises it
@@ -10015,13 +10093,23 @@ readers.
 
 > **Curator roll-up.** Theory group: three cognitive layers, the causal gate (Stage 4,
 > appraisal track). Question: does the valence handle help predict another maker? Outcome
-> class: **Narrows.** Result: -0.04 nats aligned benefit against an own-choice shift of
-> 0.2. Meaning: the handle moves the reader, not its model of the maker; the causal bridge
+> class: **Narrows.** Result: -0.04 nats aligned benefit at 128 worlds and -0.08 with the
+> interval below zero at 256, against an own-choice shift of 0.2. Meaning: the handle moves the reader, not its model of the maker; the causal bridge
 > from affect to other-prediction is unbuilt in this family. Next obligation: A03 reads the
 > phase contrast for the record. Public claim: unchanged (L197 stands as an own-continuation
 > instrument). Decision: No. Detail: results/phase_2_4_stage_4/A02/.
 
-## L244 · A worked action mapping raises novel-case learning of a lesson by sixteen points whether the source is aligned or not and whether the rule is true or not, while the readers follow the source's advice on their own lot 98 times in 100: transmissibility and usefulness come apart
+## L244 · A worked action mapping raises novel-case learning of a lesson by thirteen points whether the source is aligned or not and whether the rule is true or not, while the readers follow the source's advice on their own lot more than nine times in ten: transmissibility and usefulness come apart
+
+> **History.** First attempt landed 04:17 on 2026-08-28 (+0.156 [0.117, 0.199] aligned) and was
+> superseded the same morning: the lesson-world constructor ignored its domain and drew from
+> one four-deep pool, so its 128 units were 54 distinct constructions and its confirmation
+> reserve twinned the discovery worlds (found by the agent-hardening audit, TODO R7; first
+> attempt preserved under results/phase_2_4_stage_4/T01/superseded_domain_defect/). The run
+> was stopped on the curator's order, the constructor rebuilt on an enumerated per-domain
+> space with every row carrying its construction hash, and T01 re-run at 08:07 on 128
+> distinct worlds: the numbers below are the re-run's. Same band, interval wider as the
+> correction predicted.
 
 **Hypothesis.** (Stage 4, T01.) Can a message become easier to transmit without becoming
 more truthful or more helpful? Fictional decision lessons (which tag of a lot is the good
@@ -10041,31 +10129,47 @@ paired by world, readers averaged within world, cluster bootstrap and a paired s
 permutation; the support gate requires support to move application or all-attempt relay
 on honest-aligned messages by 0.05; the misaligned stratum is the dissociation.
 
-| outcome | bare | supported | contrast (paired over 128 worlds) |
+| outcome | bare | supported | contrast (paired over 128 distinct worlds) |
 |---|---|---|---|
-| **application as taught, aligned stratum (the primary)** | 0.090 | 0.246 | **+0.156 [+0.113, +0.203], p 5e-5** |
-| application as taught, misaligned stratum | 0.078 | 0.262 | +0.184 [+0.151, +0.219], p 5e-5 |
-| relay, honest-aligned cell, all attempts (an unparsed relay counts as a failure) | | | -0.191 [-0.266, -0.117], p 5e-5 |
-| relay validity, a parseable rule (Qwen / SmolLM) | 0.80 / 1.00 | 0.60 / 0.93 | |
-| relay fidelity conditional on a valid relay | 0.833 | 0.989 | |
-| the recipient's own action follows the advice | 0.98 | 0.98 | every cell 0.97 to 1.00 |
+| **application as taught, aligned stratum (the primary)** | 0.082 | 0.211 | **+0.129 [+0.086, +0.180], p 5e-5** |
+| application as taught, misaligned stratum | | | +0.198 [+0.167, +0.231], p 5e-5 |
+| relay, honest-aligned cell, all attempts (an unparsed relay counts as a failure) | | | +0.074 [-0.004, +0.156], p 0.11 |
+| relay validity, a parseable rule (honest-aligned cell) | 0.84 | 0.71 | |
+| relay fidelity conditional on a valid relay (honest-aligned cell) | 0.74 | 0.98 | |
+| the recipient's own action follows the advice | 0.97 to 0.98 | 0.92 to 0.99 | lowest under an inducing, supported message |
 
-*Table: application accuracy is against the lesson's own rule applied to a lot of the
-other tag (four actions, chance 0.25); the primary and the misaligned stratum are
-supported-minus-bare differences with 95 percent cluster-bootstrap intervals. Relay rows
-number 1,024 per support level. Goal recovery: honest-helpful sources are named honest 0.61
-of the time, steering sources 0.34, and the "cannot be told" answer is chosen 51 times in
-2,048; the payoff outcome is the advice's, +0.98 when the advice is aligned and true, -0.98
-when a false rule's advice is followed, near zero under a delay.*
+*Table: the 08:07 re-run on the repaired construction (128 distinct worlds, every unit
+hashed and clustered on its construction). Application accuracy is against the lesson's
+own rule applied to a lot of the other tag (four actions, chance 0.25); the primary and the
+misaligned stratum are supported-minus-bare differences with 95 percent cluster-bootstrap
+intervals. Relay rows number 1,024 per support level, 1,533 of 2,048 parseable. Goal
+recovery: honest-helpful sources are named honest 0.63 of the time, steering sources 0.32
+to 0.34, and the "cannot be told" answer is chosen 0.025 of the time where it is the
+truth; under a false rule the bare readers are right under the TRUE rule 0.72 of the
+time because they never learned the lesson, and support lowers that to 0.66 as it teaches
+the false rule.*
+
+**Expansion to 256 worlds (rung 1, landed 15:16), folded in.** The aligned primary reads +0.146
+[+0.111, +0.182], p 5e-5, the class held, all 256 constructions distinct and hashed.
+
+**CONFIRMATION on the fresh reserve (F01, landed 19:33), folded in.** On 256 untouched
+confirmation worlds under the frozen contrast (alpha 0.025, fixed n, no interim look) the
+aligned primary reads **+0.148 [+0.115, +0.184]**, p 5e-5, the closure block's own recomputation
++0.148 [+0.113, +0.186]; the misaligned stratum +0.180 [+0.156, +0.202]; the support gate passed
+on the reserve on both outcomes (application +0.148, all-attempt relay +0.113 [+0.049, +0.176]);
+the advice is followed 0.94 to 1.00 in every cell. SUPPORT_CANDIDATE confirmed; the second
+Stage-4 claim to survive its reserve.
 
 **What we found.** SUPPORT_CANDIDATE, with the dissociation in the predicted direction:
 bare readers echo the advice (as-taught application near 0.08, the echo pattern in every
-cell), and the worked mapping moves a quarter of their answers onto the stated rule in the
-aligned and the misaligned strata alike, for false rules as for true. What the recipients
-do with their own lot follows the advice 98 times in 100 whatever the support, the truth,
-or the intent, so support changes what is learned and nothing about what is done. Support
-also costs relay validity (the longer message loses the JSON rule for Qwen), while a valid
-relay under support is nearly perfect.
+cell), and the worked mapping moves an eighth to a fifth of their answers onto the stated
+rule in the aligned and the misaligned strata alike, for false rules as for true. What the
+recipients do with their own lot follows the advice 92 to 99 times in 100 whatever the
+support, the truth, or the intent, so support changes what is learned and almost nothing
+about what is done. Support costs relay validity (the longer message loses the JSON rule
+more often) while a valid relay under support is nearly perfect; the all-attempt relay
+contrast is small and not significant on the repaired construction, where the first
+attempt had read it negative.
 
 **What it means.** Transmissibility, truth, and helpfulness come apart as the theory says
 they can: a worked example makes a false rule as learnable as a true one, learning the rule
@@ -10075,14 +10179,512 @@ descent is not trust; whether uptake can be made selective is T02's and T03's qu
 
 > **Curator roll-up.** Theory group: reader heuristics, communicative shaping (Stage 4,
 > transmission track). Question: can a message become easier to transmit without becoming
-> more truthful or more helpful? Outcome class: **Strengthens.** Result: +0.16 as-taught
+> more truthful or more helpful? Outcome class: **Strengthens.** Result: +0.13 as-taught
 > learning from support, aligned and misaligned alike. Meaning: comprehension support
 > raises rule learning independent of truth and alignment while uptake of the advice stays
-> at 98 percent, so legibility and usefulness are separate quantities. Next obligation: T02
-> (running) and T03. Public claim: newly licensed at model scope: a worked action mapping
-> raises a small reader's application of a lesson's rule to a new case by sixteen points
-> whether the lesson is true or false, helping or steering. Decision: No.
+> above 92 percent, so legibility and usefulness are separate quantities; the class stood
+> through the 08:07 re-run on the repaired construction (same band, honest interval). Next
+> obligation: none owed (T02 and T03 answered the selective-uptake side, both against). Public
+> claim: newly licensed at model scope on a fresh confirmation: a worked action mapping raises
+> a small reader's application of a lesson's rule to a new case by thirteen to fifteen points
+> whether the lesson is true or false, helping or steering, while the advice is followed
+> regardless. Decision: No.
 > Detail: results/phase_2_4_stage_4/T01/.
+
+## L245 · Reading the source's selection rule from its record beats a matched factual summary by six-tenths of a nat, and both lose to no reconstruction at all: the reconstruction route costs a quarter of a nat against the direct read, the readers recover the rule from the record at the floor, and told the true rule they gain four-tenths
+
+**Hypothesis.** (Stage 4, T02.) Does a reader that models the source's selection rule
+preserve useful uptake while resisting misleading selection? On T01's lesson worlds the
+source shows two lots of the recipient's kind chosen by one of three rules (representative:
+at random; benefit: the lots most typical of the recipient's own tag; induce: only the
+good-outcome lots of that tag), with the source's whole pool visible or hidden; three
+earlier selections by the same source on lots of other kinds carry its rule without
+touching the current kind. Five routes to the recipient's judgment with the same
+observations: direct; a caution instruction; a two-pass factual summary; a two-pass
+reconstruction of the source's rule (the reader's own inference written into its second
+pass); and an oracle told the true rule (a ceiling, never end-to-end success); beside them a
+direct four-way question about the rule.
+
+**Method.** 128 worlds at the minimum tier (landed 09:53, the same class) and the
+expansion rung to 256 worlds (16:41); the numbers are the 256-world run's; both admitted
+readers; log score of the payoff-optimal action; primary: reconstruction minus summary,
+paired by world (clustered on the construction hash), cluster bootstrap and a sign-flip
+permutation; the uptake clause: accuracy under reconstruction on the representative and
+benefit cells not worse than direct by more than three points.
+
+| contrast (judgment log score, nats) | point | 95 percent interval | permutation p |
+|---|---|---|---|
+| **primary: reconstruction minus factual summary** | **+0.623** | **[+0.503, +0.753]** | 5e-5 |
+| reconstruction minus direct, representative / benefit / induce | -0.23 / -0.24 / -0.32 | every interval below zero | |
+| factual summary minus direct | -0.70 / -0.91 / -1.05 | every interval below zero | |
+| caution instruction minus direct | -0.68 / -0.70 / -0.72 | every interval below zero | |
+| oracle (told the true rule) minus direct | +0.37 / +0.44 / +0.43 | every interval above zero | |
+| oracle minus reconstruction | +0.678 | [+0.580, +0.779] | 5e-5 |
+| uptake clause: reconstruction minus direct accuracy, representative and benefit cells | +0.034 | [+0.001, +0.066] | 0.043, preserved |
+
+*Table: 256 worlds, readers averaged within world. Rule recovery from the source's record by
+the reconstruction pass (a parsed JSON rule): representative 0.00, benefit 0.17 to 0.19,
+induce 0.00 against 0.25 chance; by the likelihood readout over four options: 0.08 to 0.14,
+0.38 to 0.46, 0.43 to 0.48. Realized payoffs sit between -0.03 and +0.05 on every route and
+rule except the oracle on benefit cells, +0.09. Under the project's family correction the
+uptake clause's p of 0.043 does not survive; the clause is read on its interval, whose lower
+bound (+0.001) clears the -0.03 tolerance, so preservation stands as a bound, not a detection.*
+
+**What we found.** SUPPORT_CANDIDATE on the frozen primary with the uptake clause met, and
+the frozen comparator is the wrong one for the claim: every route that adds a pass or an
+instruction loses to the direct read, the reconstruction route least (a quarter of a nat)
+and the factual summary most (up to a nat), so the primary measures how much less a
+reconstruction pass hurts than a summary pass. The readers do not recover the rule from the
+record: the generated inference never names the selective rules and the likelihood readout
+reaches 0.4 on them; told the true rule they gain four-tenths of a nat, so the information
+is usable when handed over and not extracted when it must be inferred. Payoffs do not move
+on any route, so nothing resists the cherry-picking source.
+
+**What it means.** Source modeling as an end-to-end act is absent in these readers: the
+ceiling is real, the inference to reach it is not, and asking the reader to think first
+costs it. The card's frozen band licenses the support label and the roll-up does not treat
+it as support for the mechanism; the lesson is the comparator's (LESSONS §3).
+
+> **Curator roll-up.** Theory group: reader heuristics, communicative shaping (Stage 4,
+> transmission track). Question: does reconstructing the source's selection rule preserve
+> uptake and resist misleading selection? Outcome class: **Narrows.** Result: reconstruction
+> beats a matched summary by +0.62 nats and loses to the direct read by 0.25. Meaning: told
+> the rule the readers gain +0.4, inferring it they gain nothing, and two-pass routes cost
+> them; selective uptake is not built here. Next obligation: none owed. Public claim:
+> unchanged. Decision: No. Detail: results/phase_2_4_stage_4/T02/.
+
+## L246 · Offered three probes of a maker, the readers choose the one that restates the record three times in four and capture eight percent of the oracle's expected information; their chosen probes still realize a twelfth of a nat over a random pick because the informative probe realizes little itself
+
+**Hypothesis.** (Stage 4, C03.) Do the readers select evidence by what it would tell them
+about the maker, or by surface? On C01's worlds, given two known decisions, three probe
+scenarios are offered in a fixed order: informative (the largest exact expected log-score
+gain about the held-out tenth decision), redundant (a decision already in the record,
+restated), irrelevant; the reader picks one, sees its realized outcome, and predicts the
+tenth decision.
+
+**Method.** 128 worlds at the minimum tier (09:55, the same class) and the expansion rung
+to 256 (16:49); 204 worlds carried a menu clearing the frozen 0.05-nat discrimination
+margin, 52 flat menus being instrument events excluded at construction; 1,224 selections;
+both readers. Primary: the exact expected gain of the chosen probe as a fraction of the
+informative probe's, minus a random selector's third, paired by world, cluster bootstrap
+(interval only).
+
+| quantity | value |
+|---|---|
+| **primary: fraction of the oracle's expected gain captured, minus a random selector's** | **-0.257 [-0.270, -0.243], 204 worlds** |
+| fraction of the oracle's expected gain captured | 0.077 |
+| selection rate: informative / redundant / irrelevant | 0.077 / 0.783 / 0.141 |
+| selection by listed position: first / second / third | 0.533 / 0.292 / 0.175 |
+| chosen probe minus the exact selector, fraction scale | -0.923 [-0.936, -0.909] |
+| realized gain of the chosen probe over a random probe, nats | +0.083 [+0.014, +0.155] |
+| realized gain of the informative probe over a random probe, nats | +0.036 [-0.112, +0.180] |
+
+*Table: 204 of 256 worlds with a usable menu; three selections per world and reader.
+The exact expected gains are small by construction (a tenth of a nat scale), so their
+realized counterparts are noisy at this size.*
+
+**What we found.** COUNTEREVIDENCE: the readers choose the redundant probe 78 percent of
+the time and the informative one 8 percent, half of every pick going to whatever is listed
+first; the expected information captured is 8 percent of the oracle's, a quarter below a
+coin toss. The realized side is flat: the chosen probes gain a twelfth of a nat over
+random and the informative probe's own realized gain is not distinguishable from random
+over 204 worlds, so the selection null stands on the exact scale while the instrument's
+realized power is low.
+
+**What it means.** Active reading, choosing what to look at by what it would say about
+the maker, is absent in these readers; they choose familiarity and position. With C01
+(framing, not content) and C02 (no correction), the context track's model-side promotion
+path closes at this scale; the contextual-adjustment mechanism rests on human evidence.
+
+> **Curator roll-up.** Theory group: reader heuristics, updating and context (Stage 4,
+> context track). Question: do the readers pick evidence by expected information? Outcome
+> class: **Narrows.** Result: 8 percent of the oracle's expected gain captured, the
+> redundant probe chosen three times in four. Meaning: no active reading in this family;
+> the context track closes model-side. Next obligation: none owed. Public claim: unchanged.
+> Decision: No. Detail: results/phase_2_4_stage_4/C03/.
+
+## L247 · Steering the reader's valence while it takes in the situation does no more for predicting the maker than steering it while it answers: the phase contrast is a twentieth of a nat with the interval crossing zero and a useful benefit excluded, and the intake-phase steering alone reads slightly negative
+
+**Hypothesis.** (Stage 4, A03.) If affect works as an appraisal prior, steering during the
+intake of the situation should move target prediction more than steering during the
+answer. On A01's worlds, positive steering along each reader's calibrated valence direction
+at A02's high dose is applied to the context span only, the answer span only, or a neutral
+irrelevant-context span; the aligned benefit is A02's estimand, stratum-balanced over the
+target's valuation sign.
+
+**Method.** 128 worlds, both readers, cluster bootstrap over worlds (intervals only).
+
+| phase steered | aligned benefit, nats |
+|---|---|
+| context (intake) span | -0.040 [-0.072, -0.012] |
+| answer span | +0.012 [-0.064, +0.081] |
+| neutral irrelevant-context span | -0.001 [-0.003, +0.001] |
+| **primary: context minus answer** | **-0.052 [-0.118, +0.015], 128 worlds** |
+
+*Table: 128 worlds, readers averaged within world, balanced over the appraisal-sign strata.*
+
+**What we found.** VALID_NULL: the phase contrast crosses zero and excludes the 0.03-nat
+benefit; steering during intake is slightly harmful on its own, steering during the answer
+does nothing, and the neutral span is inert as it must be.
+
+**What it means.** The locality prediction of the three-layer account, that the affect
+layer conditions intake, has no model-side support in this family; with A02 it says the
+valence handle moves the reader's own continuation and not its model of the maker,
+whenever it is applied.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate (Stage 4,
+> appraisal track). Question: does affect steering during intake beat steering during the
+> answer for predicting the maker? Outcome class: **Narrows.** Result: -0.05 nats, interval
+> crossing zero, a useful benefit excluded. Meaning: no phase-locality of the appraisal
+> prior in these readers; the causal bridge stays unbuilt. Next obligation: none owed.
+> Public claim: unchanged. Decision: No. Detail: results/phase_2_4_stage_4/A03/.
+
+## L248 · A lesson in misleading techniques does not raise discrimination of true rules from false on the held-out technique (both readers at chance, 0.47 against 0.48) and lowers acceptance of everything, true helpful advice by thirty-seven points: technique knowledge is a stricter threshold, not protection
+
+**Hypothesis.** (Stage 4, T03.) Does knowledge of misleading techniques (evidence
+selection, emotional framing, misleading omission) produce discrimination that transfers
+to a held-out technique family without costing uptake of true advice? On T01's worlds a
+technique lesson naming two families is crossed with a matched control lesson (practical
+notes of the same length); messages under the held-out family cross the claim's truth, the
+advice's value, and the register (emotional, dry); the technique's cue rides three of four
+false claims and one of four true ones, a diagnostic and never a lookup. Two probability
+readouts: is the stated rule correct (reliability); is following the advice good for the
+lot (action value).
+
+**Method.** 128 worlds at the minimum tier (10:02, the same class) and the expansion rung to
+256 (16:47); both readers; per-unit AUROC over four true and four false messages per lesson,
+technique minus control, cluster bootstrap over worlds; noninferiority on acceptance of
+true, helpful advice within three points.
+
+| quantity | technique lesson | control lesson | contrast |
+|---|---|---|---|
+| reliability AUROC on the held-out family | 0.473 | 0.481 | **-0.008 [-0.018, +0.003], 256 worlds** |
+| action-value AUROC | 0.506 | 0.504 | +0.001 [-0.024, +0.027] |
+| acceptance of the stated rule | 0.258 | 0.306 | |
+| false acceptance / false rejection | 0.258 / 0.742 | 0.311 / 0.700 | |
+| acceptance of true, helpful advice (the uptake clause) | | | -0.367 [-0.407, -0.324], not preserved |
+| Brier, reliability / action value | 0.344 / 0.358 | 0.308 / 0.282 | worse under the lesson |
+
+*Table: 256 worlds, readers averaged within world. Register moves nothing: acceptance is
+0.258 under the lesson in both registers and 0.29 to 0.33 under the control.*
+
+**What we found.** VALID_NULL on discrimination with a criterion shift: the readers cannot
+tell true rules from false under either lesson (AUROC at or under chance; the technique
+cue, which a discriminating reader would use, goes unused), and the technique lesson makes
+them reject more of everything, three true rules in four, and accept true helpful advice
+37 points less often; calibration worsens.
+
+**What it means.** The distinction the errata drew, improved discrimination against a
+stricter rejection threshold, is measured: in this family technique knowledge is blanket
+distrust. The protective effect the theory expected to be imperfect is absent here and
+costly, and selective uptake (T02, T03) is not built in these readers by any route tried.
+
+> **Curator roll-up.** Theory group: reader heuristics, communicative shaping (Stage 4,
+> transmission track). Question: does technique knowledge protect without costing true
+> uptake? Outcome class: **Narrows.** Result: -0.01 AUROC from the lesson and -0.37
+> acceptance of true advice. Meaning: technique knowledge is a criterion shift in this
+> family, not discrimination. Next obligation: none owed. Public claim: unchanged.
+> Decision: No. Detail: results/phase_2_4_stage_4/T03/.
+
+## L249 · A director's constraint decays through a three-hop relay faster under a shared convention than under a remapped one (retention -0.22 against -0.09 from hop one to three), the shared chains keep marginally more at the third hop, the flip control reads zero, and the readers attribute nearly every tradition to a shared brief: relay dependencies do not identify a director beyond the convention
+
+**Hypothesis.** (Stage 4, H01.) Do relay dependencies identify a historical choice beyond
+conventions? Planning chains: the first maker receives a director's constraint (a minimum
+share on one plan item) or a shared brief with identical rules; each later maker sees only
+the previous plan; under a shared convention the plan vocabulary is stable across hops,
+under a remapped one the item names change between hops; a constraint-flip control flips
+the constrained item. Retention of the constraint at each hop is mechanical; the readers
+then predict a downstream plan and attribute the tradition (a director's instruction to
+the first maker only, or a shared brief every maker read).
+
+**Method.** 96 chains per arm, 82 complete (hop-zero realization 0.85, above the 0.80
+floor); primary: retention at hop three minus hop one, shared minus remapped, on director
+chains, cluster bootstrap over chains (interval only).
+
+| retention of the constraint by hop | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| director, shared convention | 1.00 | 0.585 | 0.500 | 0.366 |
+| director, remapped convention | 1.00 | 0.378 | 0.390 | 0.293 |
+| shared brief, shared convention | 1.00 | 0.605 | 0.580 | 0.506 |
+| shared brief, remapped convention | 1.00 | 0.747 | 0.549 | 0.439 |
+
+| contrast | value |
+|---|---|
+| **primary: decay (hop 3 minus hop 1), shared minus remapped, director chains** | **-0.134 [-0.244, -0.012], 82 chains** |
+| convention effect at hop 3 (shared minus remapped retention) | +0.073 [0.000, +0.146] |
+| constraint-flip control: flipped chains satisfying the flipped constraint at hop 3 minus original chains satisfying it | 0.00 [-0.06, +0.08] |
+| the first maker's local preference followed, by hop (director, shared) | 1.00 / 0.47 / 0.36 / 0.24 |
+| downstream prediction accuracy: director shared / remapped; brief shared / remapped | 0.74 / 0.65; 0.67 / 0.71 |
+| attribution accuracy (two-way, chance 0.5): director chains shared / remapped; brief chains shared / remapped | 0.22 / 0.23; 0.67 / 0.84 |
+
+*Table: 82 complete chains per arm of 96 attempted; the readers answer "a shared brief" for
+nearly every tradition, so director chains read at 0.22 and brief chains at 0.67 to 0.84.*
+
+**What we found.** COUNTEREVIDENCE on the primary: the shared convention starts higher at
+hop one and decays faster to hop three, keeping seven points more at the end with the
+interval touching zero; the flip control reads zero, so chains satisfy a flipped constraint
+no more often than the original ones do, and what is retained is a generic tendency of
+these plans rather than the specific choice's causal reach; the readers attribute nearly
+every chain to a shared brief.
+
+**What it means.** Relay dependency does not identify the director in these makers and
+readers: the record identifies the convention, as the team record identified the workers
+(D01-S3). The causal reach of a single choice is invisible after three hops here, and the
+inherited-organization question stays on human evidence.
+
+> **Curator roll-up.** Theory group: decision traces, hierarchy and inheritance (Stage 4,
+> hierarchy track). Question: do relay dependencies identify a director's choice beyond the
+> convention? Outcome class: **Narrows.** Result: shared-convention decay 13 points steeper,
+> attribution to the director at 0.22. Meaning: three hops erase the choice and keep the
+> convention; no model-side handle on inherited organization. Next obligation: none owed.
+> Public claim: unchanged. Decision: No. Detail: results/phase_2_4_stage_4/H01/.
+
+## L250 · An ordered history of a tradition's twelve steps recovers its history type no better than the final artifact alone (balanced accuracy -0.004, interval crossing zero) and predicts the later decision half a nat worse; the exact collision reads at chance as it must, and the readers call half of everything stable
+
+**Hypothesis.** (Stage 4, H02.) Does the ordered history of a tradition identify how it
+changed (stable, gradual, abrupt, a marker removed, a fresh final maker) beyond the final
+artifact? Five history types over twelve steps drawn from a subsidiary weight grid;
+artifact-only against ordered-history access; the stable and marker-removed pair is an
+exact collision on artifact-only records (identical draws, markers differ), the control
+that must read at chance.
+
+**Method.** 96 histories at the minimum tier (11:24, the same class) and the expansion rung
+to 192 (16:52); both readers; balanced accuracy over five types (chance 0.2), paired by
+history, cluster bootstrap (interval only); the later decision's log score beside it.
+
+| quantity | artifact only | ordered history |
+|---|---|---|
+| **history-type balanced accuracy (primary: ordered minus artifact-only)** | | **-0.004 [-0.026, +0.018], 192 histories** |
+| accuracy by type: stable / gradual / abrupt / marker removed / fresh final | 0.51 / 0.30 / 0.16 / 0.08 / 0.00 | 0.56 / 0.25 / 0.15 / 0.07 / 0.00 |
+| later-decision log score: stable / gradual / abrupt / marker removed | -2.42 / -2.45 / -2.33 / -2.32 | -2.75 / -2.93 / -2.91 / -2.81 |
+| exact-collision control, pairwise accuracy stable against marker removed | 0.503 (768 pairs) | 0.508 |
+
+*Table: 192 histories, readers averaged within history. Weights are relative subsidiary
+weights at the environment's fixed temperature, so scale and noise are not identified.*
+
+**What we found.** VALID_NULL: the readers name "stable" for half of everything under
+either access, the ordered history adds nothing to type recovery and costs half a nat on
+the later decision, and the collision control sits at chance both ways, as identical
+records must.
+
+**What it means.** History type is not read from order by these readers; with H01, process
+topology is not readable by this family, and the annotation-persistence and marker
+questions of the traces theory stay on human evidence (H05-S3, H03-S4).
+
+> **Curator roll-up.** Theory group: decision traces, hierarchy and inheritance (Stage 4,
+> hierarchy track). Question: does the ordered history identify how the tradition changed?
+> Outcome class: **Narrows.** Result: -0.004 balanced accuracy from the ordered history and
+> -0.5 nats on the later decision. Meaning: order is not read as history here. Next
+> obligation: none owed. Public claim: unchanged. Decision: No. Detail:
+> results/phase_2_4_stage_4/H02/.
+
+## L251 · With the realization yield raised to 143 of 250 artifacts and both families above the survivor floor, the own-family margin through the stake-free eraser is exactly zero: the relational signature does not survive the strongest bottleneck, and the first read's attrition was not what removed it
+
+**Hypothesis.** (Stage 3 re-run R1, owed by the Stage-4 theory errata.) The first eraser-rung
+read (L225) retained 88 of 250 artifacts with the SmolLM survivor count at 31, under its
+declared floor of 40, so its null was confounded with attrition and one family was never
+powered. Does the own-family margin survive the stake-free OLMo eraser once both families
+are powered?
+
+**Method.** Same fifteen-word summary through the same eraser; up to eight regeneration
+attempts per artifact against the one summary (attempt zero reproduces the first run's seed,
+and its yield reproduces the first run's count exactly, 88 of 250); realization gate and
+echo gate unchanged; the same ten readers; the own-family side averaged over same-family
+readers per artifact (the L236 correction). 104 GPU minutes.
+
+| quantity | value |
+|---|---|
+| artifacts kept | 143 of 250 (attempts to realization: 88 / 25 / 10 / 5 / 7 / 4 / 1 / 3) |
+| survivors by maker family | Qwen 82, SmolLM 61 (floor 40, both above) |
+| **own-family minus other-family margin, Qwen** | **+0.001, permutation p 0.61, 82 artifacts** |
+| **own-family minus other-family margin, SmolLM** | **+0.001, permutation p 0.36, 61 artifacts** |
+
+*Table: each artifact's own-family margin is the mean over three to four same-family readers
+minus the mean over the other families' readers; 107 artifacts never realized in eight
+attempts (none dropped as echoes).*
+
+**What we found.** Zero, powered: with both families above floor the margin sits at a
+thousandth of a nat in each. The first read's null was not attrition.
+
+**What it means.** The relational signature survives the weaker rewrites (L180) and not the
+strongest independent bottleneck; the through-eraser survival claim, already not carried by
+the theory after the errata, is now closed against by a powered read.
+
+> **Curator roll-up.** Theory group: reader heuristics, family similarity (Stage 3 S trunk).
+> Question: does the own-family margin survive the stake-free eraser once powered? Outcome
+> class: **Narrows.** Result: +0.001 in both families with 82 and 61 survivors. Meaning: the
+> signature is erased by the strongest bottleneck; what the readers share is removable
+> surface, or the eraser removes decision structure too, which this cell cannot split.
+> Next obligation: none owed. Public claim: the through-eraser survival is withdrawn (it was
+> already not stated). Decision: No. Detail: results/phase_2_4_stage_3/S/S05/eraser3b.json,
+> S05_x3b/.
+
+## L252 · The wish override survives its instrument repair: with every generation persisted and a parser-free likelihood readout as the primary, a stated hope against a unanimous record is followed 0.79 of the time and an explicitly ignorant stranger's 0.92, with refusals and contamination small and separated
+
+**Hypothesis.** (Stage 3 re-run R2.) The landed numbers (L214, 0.83; L231, 0.96) rested on a
+phrase-matching parser over generations never saved, so compliance, answer contamination,
+task confusion, and extraction error were one number (errata HH-25). Do they stand when the
+readout cannot be a parser artifact?
+
+**Method.** The same 24 dose-0 items, both readers, four hint conditions (none, agree,
+conflict, stranger); primary: the label likelihood over the four options in randomized
+order, no parser; beside it up to four sampled generations per cell, every attempt persisted
+(generations_b.jsonl), each classified parsed / several options / no choice, with hint
+contamination flagged; paired sign-flip permutation over the 48 reader-by-item pairs against
+the no-hint cell.
+
+| condition | likelihood accuracy | chose the hinted option (likelihood) | paired against no hint | generation: chose hinted on clean parsed |
+|---|---|---|---|---|
+| none | 0.667 | 0.125 (the would-be-hinted option's base rate) | | 0.17 |
+| agree | 0.938 | 0.021 | accuracy +0.27, p 0.001 | 0.02 |
+| **conflict** | 0.188 | **0.792** | accuracy -0.48, chose hinted +0.67, both p 5e-5 | 0.96 (Qwen), 0.70 (SmolLM) |
+| **stranger** | 0.062 | **0.917** | accuracy -0.60, chose hinted +0.79, both p 5e-5 | 1.00 (Qwen), 0.76 (SmolLM) |
+
+*Table: 48 cells per condition (two readers by 24 items). Generation channel: parsed within
+the four-attempt budget 0.98 to 1.00; parsed on the first attempt 0.71 to 0.96; no choice on
+the first attempt 0 to 0.29 (Qwen's refusals, highest under a hint); several options 0.08 at
+most; contamination (the answer talks about the hint) 0.125 at most; agreement between the
+parsed generation and the likelihood choice 0.63 to 0.88.*
+
+**What we found.** The override stands parser-free: the hinted wrong option is chosen four
+times in five against a unanimous record and nine times in ten when an explicitly ignorant
+stranger hopes for it; contamination and refusal are small and do not carry it; the
+stranger's hope is followed more than the experimenter's on both readouts, as L231 read.
+
+**What it means.** The instrument-dead label lifts: the number is the readers', not the
+parser's. What no readout of the answer separates is belief adoption from compliance, which
+stays the open psychological question; the behavioral fact is measured twice now.
+
+> **Curator roll-up.** Theory group: reader heuristics, updating and context (HH-25).
+> Question: does the wish override survive a parser-free readout with its failure modes
+> separated? Outcome class: **Strengthens.** Result: 0.79 and 0.92 hint-following, parser-free.
+> Meaning: the override is a property of this reader family; belief against compliance stays
+> unseparated. Next obligation: none owed. Public claim: L214 and L231 stand at their
+> licensed strength. Decision: No. Detail: results/phase_2_4_stage_3/C/C06/verdict_b.json,
+> generations_b.jsonl.
+
+## L253 · At the individual-suggestion grain the writer picks a better-fitting suggestion than chance within the set it saw (pairwise 0.55, top-one 0.29 against 0.24) while taking the first-shown suggestion 0.47 of the time; between sets, individually dismissed suggestions fit no worse than selected ones (AUC 0.51)
+
+**Hypothesis.** (Stage 3 re-run R3.) L207's AUC 0.499 represented a dismissed set of five
+suggestions by its first member, not the decision unit the card asked about. At the
+individual-suggestion grain, does contextual fit predict the writer's choice?
+
+**Method.** 12,597 decidable suggestion sets over 1,397 CoAuthor sessions; 700 selection
+sets and 700 closed sets sampled; every shown suggestion scored by mean per-token
+log-probability under the document so far (Qwen2.5-1.5B). Within-set: the fit rank of the
+chosen suggestion among its siblings (pairwise, chance 0.5; top-one, chance the mean of
+1/k = 0.243), with first-position, longest, and shortest top-one rates beside it.
+Between-set: every member of a closed set as an individually dismissed item against the
+selected ones (AUC). Sessions are the cluster (506 in the sample).
+
+| quantity | value |
+|---|---|
+| **within set: chosen suggestion beats a sibling on fit (pairwise)** | **0.551 [0.523, 0.582], 700 sets, 506 sessions** |
+| within set: chosen suggestion is the best-fitting (top-one) | 0.285 [0.250, 0.324] against 0.243 chance |
+| within set: chosen suggestion is the first shown | 0.470 [0.431, 0.514] |
+| within set: chosen is the longest / the shortest | 0.318 / 0.257 |
+| between sets: selected against individually dismissed, AUC | 0.513 [0.490, 0.537]; mean fit -2.23 against -2.30 |
+
+*Table: session-clustered intervals; 700 selected and 2,840 individually dismissed items.*
+
+**What we found.** A small, real within-set fit preference of five points over a coin, under
+a position default of forty-seven percent; between sets nothing, as L207 read at the wrong
+grain.
+
+**What it means.** Suggestion uptake tracks fit where it tracks position five times as
+much: the default-driven reading of human acceptance has its measured shape at the right
+decision unit, and the uptake inference that was instrument-dead is now a bounded small
+effect.
+
+> **Curator roll-up.** Theory group: decision traces, uptake (Stage 3 H trunk). Question: does
+> contextual fit predict the writer's choice at the individual-suggestion grain? Outcome
+> class: **Narrows.** Result: pairwise 0.55 within the set, first-position 0.47. Meaning:
+> fit matters a little, position a lot; the interface's default is the decision. Next
+> obligation: none owed. Public claim: unchanged. Decision: No. Detail:
+> results/phase_2_4_stage_3/H/H04/verdict_b.json, sets_b.json, scores_b.jsonl.
+
+## L254 · On twelve held-out decisions the trait sequences separate from control sequences by three surface scalars and by the length-matched representation alike (eleven of twelve each, swap-null p 0.03): the carrier is real and surface-trivial, so the transmission null is an uptake failure, not an empty channel
+
+**Hypothesis.** (Stage 3 re-run R4.) The XV4 adversary decided on four held-out decisions
+(scalars 3 of 4, representation 2 of 4), too few to separate a real carrier from none
+(errata L01-L05). On an adequate held-out set, is the carrier present, and is it more than
+its surface statistics?
+
+**Method.** Leave-one-seed-out over the six seeds (twelve decisions per readout); the
+three-scalar surface profile (count, mean, spread, z-normalized) and the length-matched
+mid-block representation of every matched sequence (231 to 257 per condition and seed, no
+cap); nearest-centroid classification; an exact null from swapping the trait and control
+labels within seed pairs (64 relabelings).
+
+| readout | held-out decisions correct | swap-null p |
+|---|---|---|
+| three surface scalars | 11 of 12 (the seed-3 trait file missed) | 0.031 |
+| length-matched representation | 11 of 12 (the seed-4 trait file missed) | 0.031 |
+
+*Table: twelve decisions each, the minimum attainable p under the 64-pattern null being
+0.016; neither 0.031 survives the project's family correction, so the reading rests on the two
+readouts landing identically at eleven of twelve, not on either clearing the corrected bar alone.*
+
+**What we found.** Both readouts separate; the carrier is present and no better than its
+surface statistics.
+
+**What it means.** The errata's ambiguity resolves: the trait leaves a statistical trace in
+the number sequences (a count, a mean, a spread) that the student models never took up
+(L183, L222), so the transmission failure sits at uptake. L184's carrier claim is restored
+at the surface level and its "nontrivial" half stays retracted (L226).
+
+> **Curator roll-up.** Theory group: the triple inference, transmission (Stage 3 L trunk).
+> Question: is the carrier present, and nontrivial? Outcome class: **Narrows.** Result: 11
+> of 12 by scalars and by representation alike. Meaning: a surface carrier the student
+> ignored; uptake is where the channel fails. Next obligation: none owed. Public claim:
+> unchanged. Decision: No. Detail: results/phase_2_4_stage_3/X/XV4b_verdict.json.
+
+## L255 · Steering the reader with the direction of a held-out maker's true tendency raises its log score on that maker's tendency by four- to eight-tenths of a nat in both maker folds while a random direction of the same norm and the wrong tendency's direction do not: the tendency representation is used during inversion, shown with an oracle direction, one checkpoint, one domain
+
+**Hypothesis.** (Stage 3 re-run R5.) A07 measured own-impulse steering and never the
+held-out maker prediction its card asked for (errata A07-S3). Is the validated tendency
+representation used when the reader infers a maker it was not fit on?
+
+**Method.** 135 A01 artifacts (87 by SmolLM, 48 by Qwen), bodies stripped of the tendency
+phrase; two folds (fit on one maker, test on the other); centroids and directions at A07's
+locus; nearest-centroid decode; the prompted four-way inference (label likelihood,
+randomized order) under zero steering and under additive steering with the true
+tendency's direction (congruent), the next tendency's in a fixed cycle (incongruent), and a
+norm-matched random direction orthogonal to the congruent one, at the largest dose passing
+A07's capability tolerance (0.04 of the mean norm, both folds); paired log-score differences
+over artifacts with a sign-flip permutation; balanced accuracy over the four tendencies.
+
+| fold (fit on, test on) | decode, balanced | prompted, unsteered | congruent minus zero, nats | incongruent minus zero | random minus zero |
+|---|---|---|---|---|---|
+| SmolLM, Qwen (48 held out) | 0.25 | 0.675 | **+0.82, p 0.005** (balanced 0.75) | -0.21, p 0.36 | -0.09, p 0.64 |
+| Qwen, SmolLM (87 held out) | 0.19 | 0.697 | **+0.40, p 0.007** (balanced 0.72) | +0.13, p 0.49 | +0.04, p 0.83 |
+
+*Table: chance 0.25 for the balanced accuracies. Unsteered per-tendency accuracy on the
+held-out maker: anger 0.50 / 0.30, care 0.40 / 0.83, curiosity 1.00 / 0.83, fear 0.80 / 0.83
+across the two folds. The second fold's decode sits under chance, which the card's rule
+marks void for the steering read there; its congruent effect is reported as such.*
+
+**What we found.** The selective signature in the first fold (congruent up, incongruent down
+though not significantly, random quiet) and a congruent effect with both controls quiet in
+the second; the nearest-centroid decode of the same directions sits at chance, and the
+prompted, unsteered read of a held-out maker's tendency from its stripped text stands at
+0.67 to 0.70 balanced, a result on its own.
+
+**What it means.** The tendency representation is causally upstream of the reader's
+inference about another maker: adding it moves the inference where a random direction of
+the same norm does not. That is the first causal-use-during-inversion read, laid with an
+oracle direction (the true tendency's), on one checkpoint and one artifact domain, so the
+card's floor is unmet and the affect-to-inversion bridge has a plank, not a span.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate (Stage 3 A
+> trunk). Question: is the tendency representation used to infer a held-out maker? Outcome
+> class: **Strengthens.** Result: +0.4 to +0.8 nats under the congruent direction with both
+> controls quiet, two folds. Meaning: causal use of the affect representation during
+> inversion exists in this reader, shown with an oracle direction. Next obligation: a second
+> checkpoint and a second artifact domain (about an hour of GPU) before the bridge is called
+> built. Public claim: unchanged until the floor is met. Decision: **Yes**, recommended
+> answer: run the second checkpoint and domain. Detail:
+> results/phase_2_4_stage_3/A/A07/verdict_b.json, rows_b.jsonl.
 
 # TIER 2 · SETTLED
 

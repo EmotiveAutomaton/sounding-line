@@ -1,0 +1,396 @@
+{
+ "card": "H02",
+ "written_at": "2026-08-28T16:52:43",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_history_minus_artifact_only_balanced_accuracy": {
+  "point": -0.0041666666666666675,
+  "lo": -0.025520833333333336,
+  "hi": 0.018229166666666668,
+  "n_units": 192,
+  "n_boot": 2000
+ },
+ "collision_control": {
+  "artifact_only": {
+   "pairwise_accuracy": 0.5026041666666666,
+   "n": 768
+  },
+  "ordered_history": {
+   "pairwise_accuracy": 0.5078125,
+   "n": 768
+  }
+ },
+ "later_decision_log_score": {
+  "stable|ordered_history": {
+   "mean": -2.7446427425875135,
+   "n": 384
+  },
+  "stable|artifact_only": {
+   "mean": -2.4163813654573603,
+   "n": 384
+  },
+  "gradual|ordered_history": {
+   "mean": -2.9313749783743224,
+   "n": 384
+  },
+  "gradual|artifact_only": {
+   "mean": -2.448929368805874,
+   "n": 384
+  },
+  "abrupt|ordered_history": {
+   "mean": -2.9133694533300143,
+   "n": 384
+  },
+  "abrupt|artifact_only": {
+   "mean": -2.3282190663814943,
+   "n": 384
+  },
+  "marker_removed|ordered_history": {
+   "mean": -2.8113332687222443,
+   "n": 384
+  },
+  "marker_removed|artifact_only": {
+   "mean": -2.3152205759897235,
+   "n": 384
+  },
+  "fresh_final|ordered_history": {
+   "mean": -3.1175451734263206,
+   "n": 384
+  },
+  "fresh_final|artifact_only": {
+   "mean": -2.294060661738289,
+   "n": 384
+  }
+ },
+ "history_type_accuracy": {
+  "stable|ordered_history": {
+   "mean": 0.5598958333333334,
+   "n": 384
+  },
+  "stable|artifact_only": {
+   "mean": 0.5130208333333334,
+   "n": 384
+  },
+  "gradual|ordered_history": {
+   "mean": 0.24479166666666666,
+   "n": 384
+  },
+  "gradual|artifact_only": {
+   "mean": 0.296875,
+   "n": 384
+  },
+  "abrupt|ordered_history": {
+   "mean": 0.15364583333333334,
+   "n": 384
+  },
+  "abrupt|artifact_only": {
+   "mean": 0.15885416666666666,
+   "n": 384
+  },
+  "marker_removed|ordered_history": {
+   "mean": 0.0703125,
+   "n": 384
+  },
+  "marker_removed|artifact_only": {
+   "mean": 0.08072916666666667,
+   "n": 384
+  },
+  "fresh_final|ordered_history": {
+   "mean": 0.0,
+   "n": 384
+  },
+  "fresh_final|artifact_only": {
+   "mean": 0.0,
+   "n": 384
+  }
+ },
+ "note": "relative subsidiary weights only; temperature fixed at the environment's TEMP, so scale and noise are not identified",
+ "cell_counts": {
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"stable\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"stable\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"stable\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"stable\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"gradual\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"gradual\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"gradual\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"gradual\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"abrupt\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"abrupt\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"abrupt\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"abrupt\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"marker_removed\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"marker_removed\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"marker_removed\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"marker_removed\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"fresh_final\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"workshop\", \"history\": \"fresh_final\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"fresh_final\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"workshop\", \"history\": \"fresh_final\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"stable\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"stable\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"stable\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"stable\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"gradual\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"gradual\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"gradual\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"gradual\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"abrupt\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"abrupt\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"abrupt\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"abrupt\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"marker_removed\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"marker_removed\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"marker_removed\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"marker_removed\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"fresh_final\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"ordered_history\", \"domain\": \"civic\", \"history\": \"fresh_final\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"fresh_final\", \"task\": \"later_decision\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  },
+  "{\"access\": \"artifact_only\", \"domain\": \"civic\", \"history\": \"fresh_final\", \"task\": \"history_type\"}": {
+   "attempted": 192,
+   "realized": 192,
+   "valid": 192,
+   "scored": 192,
+   "scored_units": 96
+  }
+ }
+}

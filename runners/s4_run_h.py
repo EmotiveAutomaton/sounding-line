@@ -179,6 +179,7 @@ def arm_h01() -> int:
                 for domain in ("workshop", "civic"):
                     for i, lid in enumerate(run.units(domain)):
                         cw = s4_worlds.make_chain_world(lid, domain)
+                        run.register_world(lid, cw)
                         variants = [("director", "shared", False), ("director", "remapped", False),
                                     ("brief", "shared", False), ("brief", "remapped", False),
                                     ("director", "shared", True)]        # last: constraint flipped
@@ -240,6 +241,7 @@ def arm_h01() -> int:
                             continue
                         run.check_deadline()
                         cw = s4_worlds.make_chain_world(lid, domain)
+                        run.register_world(lid, cw)
                         rng = random.Random(SEED + 900 + i)
                         for construction in ("director", "brief"):
                             for convention in ("shared", "remapped"):
@@ -371,6 +373,9 @@ def arm_h02() -> int:
                             continue
                         run.check_deadline()
                         rng = random.Random(SEED + 300 + i)
+                        # the unit's identity is its shared draw sequence, which the stable
+                        # history carries in full (the other types differ only in markers)
+                        run.register_world(lid, s4_worlds.make_history_world(lid, domain, "stable"))
                         for htype in s4_worlds.HISTORY_TYPES:
                             hw = s4_worlds.make_history_world(lid, domain, htype)
                             f = {"domain": domain, "history": htype}

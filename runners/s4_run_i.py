@@ -691,7 +691,7 @@ def arm_i03() -> int:
                                            "hierarchy"):
                 nconf = 3 if SMOKE else s4_cards.CONFIRMATION_UNITS[c["unit"]]
                 ids = L.allocate(card, dom, [10, 11, 12], nconf, "confirmation",
-                                 world_offset=10000)
+                                 world_offset=s4_worlds.CONFIRMATION_WORLD_OFFSET)
                 alloc[f"{card}|{dom}|confirmation"] = len(ids)
     # cards that reuse another card's worlds get derived children in the same cluster
     for card, parent_card in DERIVED.items():

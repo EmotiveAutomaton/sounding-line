@@ -1,0 +1,142 @@
+{
+ "card": "A03",
+ "written_at": "2026-08-28T09:57:13",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "per_phase_aligned_benefit": {
+  "context": {
+   "point": -0.04032860428466948,
+   "lo": -0.07189261701904802,
+   "hi": -0.011835380767704547,
+   "n_units": 128,
+   "n_boot": 2000
+  },
+  "answer": {
+   "point": 0.011988248194049133,
+   "lo": -0.06375993601952772,
+   "hi": 0.08104389236955867,
+   "n_units": 128,
+   "n_boot": 2000
+  },
+  "neutral": {
+   "point": -0.0011055039023025047,
+   "lo": -0.0034952286418783274,
+   "hi": 0.001249689831264571,
+   "n_units": 128,
+   "n_boot": 2000
+  }
+ },
+ "primary_context_minus_answer": {
+  "point": -0.05231685247871861,
+  "lo": -0.11764834809880566,
+  "hi": 0.014662274923258183,
+  "n_units": 128,
+  "n_boot": 2000
+ },
+ "cell_counts": {
+  "{\"domain\": \"workshop\", \"phase\": \"none\", \"sign\": \"zero\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"phase\": \"context\", \"sign\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"phase\": \"context\", \"sign\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"phase\": \"answer\", \"sign\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"phase\": \"answer\", \"sign\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"phase\": \"neutral\", \"sign\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"phase\": \"neutral\", \"sign\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"phase\": \"none\", \"sign\": \"zero\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"phase\": \"context\", \"sign\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"phase\": \"context\", \"sign\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"phase\": \"answer\", \"sign\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"phase\": \"answer\", \"sign\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"phase\": \"neutral\", \"sign\": \"pos\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"phase\": \"neutral\", \"sign\": \"neg\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  }
+ }
+}

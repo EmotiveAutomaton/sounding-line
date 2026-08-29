@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-27 05:06",
+  "started": "2026-08-28 19:34",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -1062,9 +1062,23 @@
       "why": "E24-S3-A06/X4 channel-audit-first suppression on a second scene bank (the L201 lesson enforced: no GPU without a verifiable channel)",
       "est_minutes": 60,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_s07x",
+      "why": "S07 refresh: the three expansion contrasts recomputed on each side of the frozen md5 split (the landed arms pooled both); analysis-only, the week's-end replicate step",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_xv4b",
+      "why": "R4 E24-S3-XV4/R4: the carrier comparison leave-one-seed-out over six seeds (twelve decisions), all matched sequences, exact within-pair swap null",
+      "est_minutes": 20,
+      "status": "DONE",
+      "log": "results\\s3x_xv4b.log",
+      "minutes": 1.9
     }
   ],
   "shard": "0/3",
-  "finished": "2026-08-27 05:06",
+  "finished": "2026-08-28 19:36",
   "failed": []
 }

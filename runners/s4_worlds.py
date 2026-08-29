@@ -5,7 +5,10 @@ the readers are scored against.
 
 Two domains, both fictional: WORKSHOP (craft commissions) and CIVIC (a town's works).
 Every world has unique surface text (seeded name banks) and its own utilities seed, so
-no world is a relabeled copy of another (§6.2). The decision core reuses the Stage-3
+no world is a relabeled copy of another (§6.2); the lesson worlds (T track) are ENUMERATED
+from a per-domain identity space after the 2026-08-28 audit found the first constructor
+drawing from one four-deep pool (TODO R7), and construction_hash() gives every card's
+worlds the content identity the lineage ledger's duplicate control checks. The decision core reuses the Stage-3
 utility construction (option i is argmax under axis i; softmax at TEMP), so the exact
 reference likelihood exists for every record.
 
@@ -48,6 +51,9 @@ sys.path.insert(0, str(REPO))
 from runners.s3_lib import AXES, PROFILE_W, choice_probs, hash_stable               # noqa: E402
 
 DOMAINS4 = ("workshop", "civic")
+# confirmation lineages are allocated at this world offset (the I03 freeze); the enumerated
+# lesson identity subtracts it to find the world's index inside its split block
+CONFIRMATION_WORLD_OFFSET = 10000
 STEPS = ("cast the parts", "carve the parts", "assemble from stock", "commission outside")
 AFFECT_WORDS = ("noted", "reported", "flagged", "recorded")   # register-neutral verbs
 
@@ -649,18 +655,80 @@ def make_appraisal_world(lid: str, domain: str) -> dict:
 
 
 # ── T track: decision lessons ─────────────────────────────────────────────────────────
+#
+# REPAIR 2026-08-28 (TODO R7, the construction defect the Stage-4 concurrency audit found):
+# the first constructor drew a rule family from ONE four-deep pool and never used its
+# domain argument, so the whole lesson-world identity space was 64 worlds; 128 discovery
+# units rendered 54 distinct constructions and the 256 confirmation units saturated the
+# same 64, every confirmation world a textual twin of a discovery world. Now each domain
+# has its own twelve-family pool and the world's identity (family, good tag, recipient
+# tag, condition, delay action) is ENUMERATED: a seeded permutation of the domain's
+# identity space, indexed by the lineage's world index inside a split block (discovery
+# takes the first half of the space, confirmation the second), so every allocated world
+# is a distinct construction by construction and an over-allocation raises instead of
+# colliding. The latent knowledge state stays a seeded coin (it is not in any text).
 
-_RULE_WORLDS = [
-    ("seed lots", ("red", "blue"), "germinate in cold soil", "need warm soil",
-     "germinated in cold soil", "needed warm soil"),
-    ("dye vats", ("copper", "tin"), "hold color through washing", "fade after one wash",
-     "held its color through washing", "faded after one wash"),
-    ("mortar mixes", ("grey", "buff"), "set under rain", "wash out under rain",
-     "set under rain", "washed out under rain"),
-    ("rope grades", ("tarred", "plain"), "hold a full load wet", "part when wet",
-     "held a full load wet", "parted when wet"),
-]
+_RULE_WORLDS_BY_DOMAIN = {
+    "workshop": [
+        ("dye vats", ("copper", "tin"), "hold color through washing", "fade after one wash",
+         "held its color through washing", "faded after one wash"),
+        ("glaze batches", ("ash", "lead"), "fire clear at kiln heat", "craze and cloud in the kiln",
+         "fired clear at kiln heat", "crazed and clouded in the kiln"),
+        ("timber lots", ("winter", "summer"), "stay straight after seasoning", "warp as they dry",
+         "stayed straight after seasoning", "warped as it dried"),
+        ("rope grades", ("tarred", "plain"), "hold a full load wet", "part when wet",
+         "held a full load wet", "parted when wet"),
+        ("glue pots", ("hide", "fish"), "hold a joint through damp weather", "let go in damp weather",
+         "held the joint through a damp month", "let go in the first damp week"),
+        ("wax blocks", ("bees", "tallow"), "take a clean impression", "smear under the seal",
+         "took a clean impression", "smeared under the seal"),
+        ("leather hides", ("oak", "alum"), "keep supple through a winter", "crack at the first frost",
+         "stayed supple through the winter", "cracked at the first frost"),
+        ("iron bars", ("charcoal", "coke"), "take a weld without cracking", "crack at the weld",
+         "took the weld without cracking", "cracked at the weld"),
+        ("linen bolts", ("retted", "green"), "hold a dye evenly", "streak under dye",
+         "held the dye evenly", "streaked under the dye"),
+        ("clay batches", ("river", "pit"), "throw without slumping", "slump on the wheel",
+         "threw without slumping", "slumped on the wheel"),
+        ("varnish tins", ("amber", "pale"), "cure hard within a week", "stay tacky for a month",
+         "cured hard within the week", "stayed tacky for a month"),
+        ("brass sheets", ("rolled", "cast"), "bend without cracking", "crack on the first bend",
+         "bent without cracking", "cracked on the first bend"),
+    ],
+    "civic": [
+        ("seed lots", ("red", "blue"), "germinate in cold soil", "need warm soil",
+         "germinated in cold soil", "needed warm soil"),
+        ("mortar mixes", ("grey", "buff"), "set under rain", "wash out under rain",
+         "set under rain", "washed out under rain"),
+        ("gravel loads", ("crushed", "river"), "pack firm under carts", "roll loose under carts",
+         "packed firm under the carts", "rolled loose under the carts"),
+        ("drain tiles", ("fired", "dried"), "carry water through a wet spring", "crumble in a wet spring",
+         "carried the water through a wet spring", "crumbled in the wet spring"),
+        ("paving stones", ("granite", "sandstone"), "wear even under traffic", "hollow out under traffic",
+         "wore even under the traffic", "hollowed out under the traffic"),
+        ("lamp-oil casks", ("whale", "seed"), "burn clean through the night", "gutter and smoke by midnight",
+         "burned clean through the night", "guttered and smoked by midnight"),
+        ("well ropes", ("hemp", "flax"), "hold the bucket through a season", "fray within a month",
+         "held the bucket through the season", "frayed within the month"),
+        ("fence posts", ("charred", "raw"), "stand through a wet year", "rot at the ground line",
+         "stood through the wet year", "rotted at the ground line"),
+        ("culvert pipes", ("glazed", "unglazed"), "keep their bore through frost", "split in the frost",
+         "kept their bore through the frost", "split in the frost"),
+        ("salt loads", ("rock", "sea"), "keep a road open in hard frost", "cake and fail in hard frost",
+         "kept the road open through the frost", "caked and failed in the frost"),
+        ("sandbags", ("jute", "cotton"), "hold a flood line for a week", "burst within a day of wetting",
+         "held the flood line for the week", "burst within a day of wetting"),
+        ("bridge timbers", ("oak", "pine"), "carry a loaded cart for years", "sag within a season",
+         "carried loaded carts for years", "sagged within the season"),
+    ],
+}
+_RULE_WORLDS = [f for fams in _RULE_WORLDS_BY_DOMAIN.values() for f in fams]
 _RULE_BY_KIND = {f[0]: f for f in _RULE_WORLDS}
+assert len(_RULE_BY_KIND) == len(_RULE_WORLDS), "rule families must have unique kinds across domains"
+_LESSON_CONDITIONS = {"workshop": ["cold, wet conditions", "the usual conditions",
+                                   "a hot, dry spell", "a rushed order"],
+                      "civic": ["cold, wet conditions", "the usual conditions",
+                                "a hard frost", "a flood season"]}
 CASE_ACTIONS = ("use it as it is", "hold it back for now", "swap for the other kind",
                 "test a small batch first")
 DELAY_ACTIONS = (CASE_ACTIONS[1], CASE_ACTIONS[3])     # payoff-neutral, never disastrous
@@ -670,34 +738,105 @@ GOAL_OPTIONS = {"honest_helpful": "the source stated a rule and advised what tha
                 "unknown": "cannot be told from the message"}
 
 
+def lesson_identity_space(domain: str) -> int:
+    """Distinct lesson constructions available to one domain: families x good tag x
+    recipient tag x condition x delay action. Each split block holds half of them."""
+    return (len(_RULE_WORLDS_BY_DOMAIN[domain]) * 2 * 2 * len(_LESSON_CONDITIONS[domain])
+            * len(DELAY_ACTIONS))
+
+
+def _lineage_index(lid: str) -> tuple[int, str]:
+    """(world index, split) from a lineage id of the form card|domain|s<seed>|w<index>|split;
+    anything else (test ids, hand-built ids) falls back to a hash index in the discovery
+    block, which keeps determinism without pretending to be allocated."""
+    parts = lid.split("|")
+    try:
+        if parts[3].startswith("w") and parts[4] in ("discovery", "confirmation"):
+            widx = int(parts[3][1:])
+            if parts[4] == "confirmation" and widx >= CONFIRMATION_WORLD_OFFSET:
+                widx -= CONFIRMATION_WORLD_OFFSET
+            return widx, parts[4]
+    except (IndexError, ValueError):
+        pass
+    return hash_stable(lid + "|lesson-index") % 64, "discovery"
+
+
+def _lesson_identity(lid: str, domain: str) -> dict:
+    n = lesson_identity_space(domain)
+    half = n // 2
+    widx, split = _lineage_index(lid)
+    if widx >= half:
+        raise ValueError(f"{lid}: world index {widx} exceeds the {split} block of the {domain} "
+                         f"lesson space ({half} distinct constructions); allocate no more, or "
+                         f"enlarge the rule pool")
+    perm = list(range(n))
+    random.Random(hash_stable(f"lesson-space|{domain}")).shuffle(perm)
+    code = perm[(half if split == "confirmation" else 0) + widx]
+    fams = _RULE_WORLDS_BY_DOMAIN[domain]
+    conds = _LESSON_CONDITIONS[domain]
+    delay_i = code % len(DELAY_ACTIONS)
+    code //= len(DELAY_ACTIONS)
+    cond_i = code % len(conds)
+    code //= len(conds)
+    case_i = code % 2
+    code //= 2
+    true_i = code % 2
+    code //= 2
+    fam_i = code
+    assert fam_i < len(fams), (lid, fam_i)
+    return {"family": fams[fam_i], "true_i": true_i, "case_i": case_i,
+            "condition": conds[cond_i], "delay_action": DELAY_ACTIONS[delay_i],
+            "identity_code": perm[(half if split == "confirmation" else 0) + widx],
+            "split_block": split}
+
+
 def make_lesson_world(lid: str, domain: str) -> dict:
     """A rule world: a true rule (which tag is the good one), a recipient case, the
     source's latent knowledge state, and the action an inducing source pushes. The eight
     message cells (truth x intent x support) are rendered by lesson_message on this one
     world, so every cell is paired. The source's knowledge is stored apart from what it
-    states; alignment is derived from payoffs, never asserted."""
-    rng = _rng(lid, "lesson")
-    kind, tags = rng.choice(_RULE_WORLDS)[:2]
-    true_tag = rng.choice(tags)                                  # the tag that is good
+    states; alignment is derived from payoffs, never asserted. The identity is enumerated
+    from the domain's pool (see the repair note above), never drawn."""
+    ident = _lesson_identity(lid, domain)
+    kind, tags = ident["family"][:2]
+    true_tag = tags[ident["true_i"]]                            # the tag that is good
     other = tags[1] if true_tag == tags[0] else tags[0]
-    case_tag = rng.choice(tags)
-    condition = rng.choice(["cold, wet conditions", "the usual conditions"])
+    case_tag = tags[ident["case_i"]]
+    condition = ident["condition"]
     # payoff-optimal action for the recipient under the TRUE rule
     optimal = CASE_ACTIONS[0] if case_tag == true_tag else CASE_ACTIONS[2]
     # a false-rule source is mistaken or lying, half and half; never identifiable from
     # the message, so the goal question's truth never depends on it (see lesson_message)
-    knowledge = "correct" if rng.random() < 0.5 else "mistaken"
+    knowledge = "correct" if _rng(lid, "lesson").random() < 0.5 else "mistaken"
     return {"lineage_id": lid, "domain": domain, "kind": kind, "tags": list(tags),
             "true_tag": true_tag, "other_tag": other, "case_tag": case_tag,
             "condition": condition, "knowledge": knowledge, "optimal": optimal,
-            "delay_action": DELAY_ACTIONS[hash_stable(lid + "d") % 2],
+            "delay_action": ident["delay_action"],
             # the novel lot always carries the OTHER tag from the recipient's own, so the
             # taught action for it is never the message's advice: applying the rule and
             # echoing the advice give different answers in every world (the loop smoke's
             # readers echoed the advice on 99 percent of novel cases)
             "novel_case_tag": tags[1] if case_tag == tags[0] else tags[0],
+            "identity_code": ident["identity_code"], "split_block": ident["split_block"],
             "goal_options": dict(GOAL_OPTIONS),
             "relay_schema": {"good_tag": "<tag>", "bad_tag": "<tag>"}}
+
+
+# keys that never reach a prompt or a scored label: the lineage id, the source's latent
+# knowledge coin, and the two fields derived from the id itself
+CONSTRUCTION_LATENT_KEYS = ("lineage_id", "knowledge", "identity_code", "split_block")
+
+
+def construction_hash(world: dict) -> str:
+    """The content identity of a construction: everything the readers could see or be
+    scored against, with the lineage id removed. Two lineages with the same hash are
+    one unit (verification 3); the Lineages ledger records it through mark_generated,
+    the control the 2026-08-28 audit found never wired (it returned no duplicates
+    because nothing had ever been marked)."""
+    import hashlib                                                                # noqa: PLC0415
+    d = {k: v for k, v in world.items() if k not in CONSTRUCTION_LATENT_KEYS}
+    s = json.dumps(d, sort_keys=True, separators=(",", ":"), default=str, ensure_ascii=False)
+    return hashlib.sha256(s.encode("utf-8")).hexdigest()[:16]
 
 
 def lesson_message(w: dict, truth: str, intent: str, support: str) -> dict:
@@ -818,17 +957,17 @@ def selection_world(world: dict, rule: str, visible: bool, rng: random.Random) -
 
 
 def source_records(world: dict, rule: str, rng: random.Random) -> str:
-    """Three earlier selections by the same source, on lots of OTHER kinds, each with
-    the pool the source could draw on (outcomes known in hindsight) and what it showed
-    that lot's recipient; the recipient's tag was the poorer one in two of the three, so
-    a benefit source is seen showing the failing lots and an inducing source the
-    cherry-picked good ones. Nothing here bears on the current kind's rule (the smoke's
-    version showed the current kind's own pool with outcomes, which handed every route
-    the answer)."""
-    others = [f for f in _RULE_WORLDS if f[0] != world["kind"]]
+    """Three earlier selections by the same source, on lots of OTHER kinds from the
+    world's own domain (three drawn from the eleven others), each with the pool the
+    source could draw on (outcomes known in hindsight) and what it showed that lot's
+    recipient; the recipient's tag was the poorer one in two of the three, so a benefit
+    source is seen showing the failing lots and an inducing source the cherry-picked
+    good ones. Nothing here bears on the current kind's rule (the smoke's version showed
+    the current kind's own pool with outcomes, which handed every route the answer)."""
+    others = [f for f in _RULE_WORLDS_BY_DOMAIN[world["domain"]] if f[0] != world["kind"]]
+    fams = rng.sample(others, 3)
     lines = []
-    for j in range(3):
-        fam = others[j % len(others)]
+    for j, fam in enumerate(fams):
         tags = fam[1]
         true_tag = tags[j % 2]
         rec_tag = tags[1 - (j % 2)] if j < 2 else true_tag
@@ -1055,6 +1194,40 @@ def self_test(n: int = 30) -> None:
             assert [s["draw"] for s in h_st["steps"]] == [s["draw"] for s in h_mr["steps"]], lid
             assert history_record(h_st, 9, False) == history_record(h_mr, 9, False), lid
             assert history_record(h_st, 9, True) != history_record(h_mr, 9, True), lid
+    # R7 (2026-08-28): the lesson space is enumerated, so every allocatable world in both
+    # split blocks of both domains is a distinct construction, no confirmation world twins
+    # a discovery world, an over-allocation raises, and the latent knowledge coin does not
+    # count toward identity
+    for domain in DOMAINS4:
+        half = lesson_identity_space(domain) // 2
+        seen_h: dict = {}
+        for split in ("discovery", "confirmation"):
+            for i in range(half):
+                w = make_lesson_world(f"T01|{domain}|s{i % 3}|w{i:04d}|{split}", domain)
+                h = construction_hash(w)
+                assert h not in seen_h, (domain, split, i, seen_h[h])
+                seen_h[h] = (split, i)
+                for truth in ("true", "false"):
+                    for intent in ("benefit", "induce"):
+                        v = lesson_message(w, truth, intent, "supported")
+                        assert v["relay_truth"]["good_tag"] in w["tags"], (domain, i)
+        assert len(seen_h) == 2 * half, (domain, len(seen_h))
+        raised = False
+        try:
+            make_lesson_world(f"T01|{domain}|s0|w{half:04d}|discovery", domain)
+        except ValueError:
+            raised = True
+        assert raised, "over-allocation of the lesson space did not raise"
+    ws = {construction_hash(make_lesson_world(f"T01|workshop|s0|w{i:04d}|discovery", "workshop"))
+          for i in range(64)}
+    cs = {construction_hash(make_lesson_world(f"T01|civic|s0|w{i:04d}|discovery", "civic"))
+          for i in range(64)}
+    assert not (ws & cs), "the two domains share a lesson construction"
+    w_off = make_lesson_world(f"T01|civic|s10|w{CONFIRMATION_WORLD_OFFSET + 5:04d}|confirmation", "civic")
+    assert w_off["identity_code"] == make_lesson_world("T01|civic|s10|w0005|confirmation", "civic")["identity_code"]
+    w_a = make_lesson_world("T01|civic|s0|w0003|discovery", "civic")
+    w_b = dict(w_a, knowledge="mistaken" if w_a["knowledge"] == "correct" else "correct")
+    assert construction_hash(w_a) == construction_hash(w_b), "latent knowledge entered the identity"
     # truth-marginal gate: no constant answer sets
     for key, seen in labels_seen.items():
         assert len(seen) >= 2, (key, seen)

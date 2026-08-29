@@ -116,6 +116,7 @@ def arm_a01() -> int:
                             continue
                         run.check_deadline()
                         aw = s4_worlds.make_appraisal_world(lid, domain)
+                        run.register_world(lid, aw)
                         prompt = _enact_prompt(aw)
                         rec = {"unit_id": lid, "maker": maker, "attempts": 0, "realized": False,
                                "text": None, "raw_ref": None}
@@ -144,6 +145,7 @@ def arm_a01() -> int:
                             continue
                         run.check_deadline()
                         aw = s4_worlds.make_appraisal_world(lid, domain)
+                        run.register_world(lid, aw)
                         rng = random.Random(SEED + 500 + i)
                         sources = {"ruler": aw["situation"]}
                         en = enacted.get(lid)
@@ -294,6 +296,7 @@ def arm_a02() -> int:
                         # A02 runs on A01's admitted worlds: derived children of A01's lineages
                         a01_lid = run.parent_of(lid)
                         aw = s4_worlds.make_appraisal_world(a01_lid, domain)
+                        run.register_world(lid, aw)
                         nq = aw["next_choice"]
                         sign_val = -1.0 if aw["valuation"] in NEGATIVE_VAL else 1.0
                         for ev in ("low", "high"):
@@ -457,6 +460,7 @@ def arm_a03() -> int:
                             continue
                         run.check_deadline()
                         aw = s4_worlds.make_appraisal_world(run.parent_of(lid), domain)
+                        run.register_world(lid, aw)
                         nq = aw["next_choice"]
                         sign_val = -1.0 if aw["valuation"] in NEGATIVE_VAL else 1.0
                         neutral = s4_worlds.render_irrelevant(s4_worlds.make_world(f"A03neutral|{lid}", domain),

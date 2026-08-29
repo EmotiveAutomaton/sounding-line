@@ -1,0 +1,798 @@
+{
+ "card": "T02",
+ "written_at": "2026-08-28T16:41:51",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_reconstruct2_minus_summary2": {
+  "point": 0.6227889012374791,
+  "lo": 0.5029255312366095,
+  "hi": 0.752641165501402,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "by_rule_vs_direct": {
+  "representative": {
+   "caution": {
+    "point": -0.6763080017131543,
+    "lo": -0.7875049503090442,
+    "hi": -0.562849839235691,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "summary2": {
+    "point": -0.7016288393474783,
+    "lo": -0.8232866529465795,
+    "hi": -0.5717025252682179,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "reconstruct2": {
+    "point": -0.2300041765513002,
+    "lo": -0.3416953224547578,
+    "hi": -0.12445589172674851,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 0.000199990000499975,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "oracle": {
+    "point": 0.3734069242100045,
+    "lo": 0.26307977505928665,
+    "hi": 0.4823176881682412,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   }
+  },
+  "benefit": {
+   "caution": {
+    "point": -0.6990199563290735,
+    "lo": -0.8131544473488864,
+    "hi": -0.5872631606052274,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "summary2": {
+    "point": -0.9099613019747367,
+    "lo": -1.0360236829669933,
+    "hi": -0.7873918756824441,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "reconstruct2": {
+    "point": -0.24021981452601587,
+    "lo": -0.35387076005375373,
+    "hi": -0.12521600983639652,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 9.99950002499875e-05,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "oracle": {
+    "point": 0.441383516934366,
+    "lo": 0.32900299823534934,
+    "hi": 0.5460522148281012,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   }
+  },
+  "induce": {
+   "caution": {
+    "point": -0.715541418593609,
+    "lo": -0.8223309762896629,
+    "hi": -0.604304339456948,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "summary2": {
+    "point": -1.0483091635709292,
+    "lo": -1.1819509817492055,
+    "hi": -0.9024145526897205,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "reconstruct2": {
+    "point": -0.32130861010339096,
+    "lo": -0.4284931284819203,
+    "hi": -0.21416078959175625,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   },
+   "oracle": {
+    "point": 0.4281645881414458,
+    "lo": 0.3344242619746095,
+    "hi": 0.517882378914588,
+    "n_units": 256,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05,
+    "n_a": 256,
+    "n_b": 256
+   }
+  }
+ },
+ "uptake_noninferiority": {
+  "point": 0.0341796875,
+  "lo": 0.00146484375,
+  "hi": 0.06591796875,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 0.04264786760661967,
+  "n_a": 256,
+  "n_b": 256,
+  "tolerance_pp": 0.03,
+  "preserved": true
+ },
+ "rule_recovery_reconstruct": {
+  "representative|yes": {
+   "mean": 0.0,
+   "n": 512
+  },
+  "representative|no": {
+   "mean": 0.0,
+   "n": 512
+  },
+  "benefit|yes": {
+   "mean": 0.189453125,
+   "n": 512
+  },
+  "benefit|no": {
+   "mean": 0.173828125,
+   "n": 512
+  },
+  "induce|yes": {
+   "mean": 0.0,
+   "n": 512
+  },
+  "induce|no": {
+   "mean": 0.0,
+   "n": 512
+  }
+ },
+ "rule_recovery_likelihood": {
+  "representative|yes": {
+   "mean": 0.13671875,
+   "n": 512
+  },
+  "representative|no": {
+   "mean": 0.083984375,
+   "n": 512
+  },
+  "benefit|yes": {
+   "mean": 0.37890625,
+   "n": 512
+  },
+  "benefit|no": {
+   "mean": 0.455078125,
+   "n": 512
+  },
+  "induce|yes": {
+   "mean": 0.482421875,
+   "n": 512
+  },
+  "induce|no": {
+   "mean": 0.4296875,
+   "n": 512
+  }
+ },
+ "payoff_by_route_rule": {
+  "direct|representative": {
+   "mean": -0.029296875,
+   "n": 1024
+  },
+  "caution|representative": {
+   "mean": -0.00390625,
+   "n": 1024
+  },
+  "summary2|representative": {
+   "mean": -0.0009765625,
+   "n": 1024
+  },
+  "reconstruct2|representative": {
+   "mean": -0.01953125,
+   "n": 1024
+  },
+  "oracle|representative": {
+   "mean": -0.0029296875,
+   "n": 1024
+  },
+  "direct|benefit": {
+   "mean": -0.0185546875,
+   "n": 1024
+  },
+  "caution|benefit": {
+   "mean": 0.0146484375,
+   "n": 1024
+  },
+  "summary2|benefit": {
+   "mean": 0.046875,
+   "n": 1024
+  },
+  "reconstruct2|benefit": {
+   "mean": 0.005859375,
+   "n": 1024
+  },
+  "oracle|benefit": {
+   "mean": 0.0927734375,
+   "n": 1024
+  },
+  "direct|induce": {
+   "mean": -0.02734375,
+   "n": 1024
+  },
+  "caution|induce": {
+   "mean": -0.0068359375,
+   "n": 1024
+  },
+  "summary2|induce": {
+   "mean": 0.017578125,
+   "n": 1024
+  },
+  "reconstruct2|induce": {
+   "mean": -0.0283203125,
+   "n": 1024
+  },
+  "oracle|induce": {
+   "mean": 0.00390625,
+   "n": 1024
+  }
+ },
+ "oracle_minus_inferred": {
+  "point": 0.6781625434888411,
+  "lo": 0.5797353687576478,
+  "hi": 0.7785038062987344,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ },
+ "cell_counts": {
+  "{\"domain\": \"workshop\", \"route\": \"direct\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"caution\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"summary2\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"reconstruct2\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"oracle\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"rule_likelihood\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"direct\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"caution\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"summary2\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"reconstruct2\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"oracle\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"rule_likelihood\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"direct\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"caution\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"summary2\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"reconstruct2\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"oracle\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"rule_likelihood\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"direct\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"caution\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"summary2\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"reconstruct2\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"oracle\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"rule_likelihood\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"direct\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"caution\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"summary2\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"reconstruct2\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"oracle\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"rule_likelihood\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"direct\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"caution\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"summary2\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"reconstruct2\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"oracle\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"workshop\", \"route\": \"rule_likelihood\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"direct\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"caution\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"summary2\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"reconstruct2\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"oracle\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"rule_likelihood\", \"rule\": \"representative\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"direct\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"caution\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"summary2\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"reconstruct2\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"oracle\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"rule_likelihood\", \"rule\": \"representative\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"direct\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"caution\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"summary2\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"reconstruct2\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"oracle\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"rule_likelihood\", \"rule\": \"benefit\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"direct\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"caution\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"summary2\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"reconstruct2\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"oracle\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"rule_likelihood\", \"rule\": \"benefit\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"direct\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"caution\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"summary2\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"reconstruct2\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"oracle\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"rule_likelihood\", \"rule\": \"induce\", \"visible\": \"yes\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"direct\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"caution\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"summary2\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"reconstruct2\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"oracle\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"domain\": \"civic\", \"route\": \"rule_likelihood\", \"rule\": \"induce\", \"visible\": \"no\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  }
+ }
+}

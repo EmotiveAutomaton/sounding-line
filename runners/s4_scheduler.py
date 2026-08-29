@@ -16,6 +16,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import shutil
 import subprocess
 import sys
 import time
@@ -72,6 +73,57 @@ def prepare() -> int:
     write_json(S4 / "PREPARED.json", {"at": now_iso(), "contract_hash": contract.hash(),
                                       "cells": len(m.cells)})
     log(f"prepared: {len(m.cells)} cells, contract {contract.hash()}")
+    return 0
+
+
+# ── reset ─────────────────────────────────────────────────────────────────────────────
+
+def reset(cells: list[str], tag: str, why: str, root: Path | None = None) -> int:
+    """Re-plan cells whose landed output is superseded by a construction repair (the
+    T-track lesson pool, TODO R7, 2026-08-28): the first attempt is PRESERVED under
+    <card>/superseded_<tag>/ (rows, raw outputs, metrics, verdict, log, a note), the
+    manifest cell returns to PLANNED / NOT_RUN with the reset recorded on it, and the
+    card's expansion cell (if any) is dropped because it resumed rows that are gone.
+    Never used on a running loop: stop the gear first."""
+    root = root or S4
+    m = Manifest(root / "QUEUE_MANIFEST.json")
+    for cell in cells:
+        if cell not in m.cells:
+            raise SystemExit(f"reset: unknown cell {cell}")
+        card = cell.split("/")[0]
+        d = root / card
+        sup = d / f"superseded_{tag}"
+        sup.mkdir(parents=True, exist_ok=True)
+        moved = []
+        for p in sorted(d.iterdir()) if d.exists() else []:
+            if p.is_dir() and p.name.startswith("superseded_"):
+                continue
+            shutil.move(str(p), str(sup / p.name))
+            moved.append(p.name)
+        logp = root / f"{cell.replace('/', '_')}.log"
+        if logp.exists():
+            shutil.move(str(logp), str(sup / logp.name))
+            moved.append(logp.name)
+        c = m.cells[cell]
+        before = {k: c.get(k) for k in ("exec_state", "outcome", "attempts", "budget_charged_min",
+                                         "gpu_lock_min", "started_at", "finished_at")}
+        c.update({"exec_state": "PLANNED", "outcome": "NOT_RUN", "attempts": 0,
+                  "started_at": None, "finished_at": None, "detail": None,
+                  "reason": f"reset ({tag}): {why}; first attempt preserved under {sup.name}/"})
+        c.setdefault("resets", []).append({"at": now_iso(), "tag": tag, "why": why,
+                                            "before": before, "moved": moved})
+        dropped = m.cells.pop(f"{card}/expand", None)
+        m.save()
+        write_json(sup / "RESET_NOTE.json", {"cell": cell, "tag": tag, "why": why, "at": now_iso(),
+                                             "before": before, "moved": moved,
+                                             "expansion_cell_dropped": dropped is not None})
+        line = (f"reset {cell} ({tag}): {why}; {len(moved)} files preserved under {sup.name}/"
+                + ("; expansion cell dropped" if dropped else ""))
+        if root == S4:
+            log(line)
+        else:                       # a scratch root (the guard test) never writes the live log
+            with open(root / "scheduler.log", "a", encoding="utf-8", newline="\n") as fh:
+                fh.write(f"[{now_iso()}] {line}\n")
     return 0
 
 
@@ -239,6 +291,12 @@ def run(cpu_cap: int = 2) -> int:
             m.set_exec(cell, "PLANNED", "re-planned at restart; resumes from its rows")
             log(f"restart: {cell} re-planned")
     running_cpu: dict[str, tuple[subprocess.Popen, float, object]] = {}
+    try:
+        from tools.s4_construction_audit import audit as _construction_audit         # noqa: PLC0415
+        aud = _construction_audit(Lineages())
+        log(f"construction audit: {aud['summary']}")
+    except Exception as e:                                                       # noqa: BLE001
+        log(f"construction audit unavailable: {e!r}")
     f01_done = False
     exhausted = False
     while True:
@@ -412,6 +470,15 @@ def validate(write: bool = False) -> dict:
     cov = coverage(expected, realized)
     L = Lineages()
     cov["duplicate_lineages"] = L.duplicate_content()
+    # the duplicate control reports what it could check (2026-08-28: it had returned an
+    # empty list over an unmarked ledger); the construction audit rebuilds every root
+    # world from its id and counts distinct constructions and cross-split twins
+    cov["generation_hash_coverage"] = L.generation_coverage()
+    try:
+        from tools.s4_construction_audit import audit as _construction_audit         # noqa: PLC0415
+        cov["construction_audit"] = _construction_audit(L)
+    except Exception as e:                                                       # noqa: BLE001
+        cov["construction_audit"] = {"error": repr(e)}
     cov["cells"] = m.state_counts()
     cov["outcomes"] = {}
     for c in m.cells.values():
@@ -493,8 +560,16 @@ def final_packet(exhausted: bool = False) -> int:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("op", choices=["prepare", "calibrate", "run", "validate", "final-packet", "status"])
+    ap.add_argument("op", choices=["prepare", "calibrate", "run", "validate", "final-packet", "status", "reset"])
+    ap.add_argument("--cells", nargs="*", default=[], help="reset: cells to re-plan")
+    ap.add_argument("--tag", default="repair", help="reset: folder tag for the preserved attempt")
+    ap.add_argument("--why", default="", help="reset: the reason, recorded on the cell")
     a = ap.parse_args()
+    if a.op == "reset":
+        if not a.cells:
+            print("reset needs --cells")
+            return 2
+        return reset(a.cells, a.tag, a.why)
     if a.op == "prepare":
         return prepare()
     if a.op == "calibrate":

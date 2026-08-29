@@ -1,0 +1,59 @@
+{
+ "cell": "E24-S3-H04/R3",
+ "reader": "Qwen/Qwen2.5-1.5B-Instruct",
+ "n_sets_scored": 1400,
+ "within_set": {
+  "pairwise": {
+   "point": 0.5513614404918753,
+   "lo": 0.5232185990338165,
+   "hi": 0.5818291611769872,
+   "n_sessions": 506
+  },
+  "top1": {
+   "point": 0.2850461133069829,
+   "lo": 0.2496706192358366,
+   "hi": 0.32397891963109354,
+   "n_sessions": 506
+  },
+  "top1_first_position": {
+   "point": 0.4701910408432147,
+   "lo": 0.43089591567852437,
+   "hi": 0.5138339920948617,
+   "n_sessions": 506
+  },
+  "top1_longest": {
+   "point": 0.3178194993412385,
+   "lo": 0.2793148880105402,
+   "hi": 0.35497364953886695,
+   "n_sessions": 506
+  },
+  "top1_shortest": {
+   "point": 0.25658761528326746,
+   "lo": 0.2239459815546772,
+   "hi": 0.29272068511198945,
+   "n_sessions": 506
+  },
+  "chance_top1": 0.24347619047619048,
+  "n_selection_sets": 700
+ },
+ "between_set": {
+  "auc_selected_vs_individually_dismissed": 0.5134740945674044,
+  "ci": [
+   0.4895451195545365,
+   0.5369215995272333
+  ],
+  "n_selected": 700,
+  "n_dismissed_items": 2840,
+  "n_sessions": 506,
+  "mean_fit_selected": -2.2292859206316087,
+  "mean_fit_dismissed": -2.301898165855827
+ },
+ "reading": {
+  "within_set_above_chance": true,
+  "between_set_above_chance": false,
+  "note": "position and length top-1 rates sit beside fit's; a fit effect no larger than the first-position rate is not a contextual-fit effect"
+ },
+ "first_attempt_pointer": "results/phase_2_4_stage_3/H/H04/verdict.json",
+ "first_attempt_auc": 0.499,
+ "decision_unit": "the individual suggestion, within the set the writer saw"
+}

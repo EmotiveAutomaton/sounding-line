@@ -1,0 +1,168 @@
+{
+ "cell": "E24-S3-A07/R5",
+ "reader": "Qwen/Qwen2.5-1.5B-Instruct",
+ "n_artifacts": 135,
+ "folds": {
+  "smollm->qwen": {
+   "n_fit": 87,
+   "n_test": 48,
+   "locus": [
+    9,
+    11,
+    13,
+    15,
+    17
+   ],
+   "alpha": 6.635880737304688,
+   "dose_frac": 0.04,
+   "dose_ladder": {
+    "0.12": {
+     "alpha": 19.907642211914062,
+     "worst_fact_logp": -5.60281079262495,
+     "capability_ok": false
+    },
+    "0.08": {
+     "alpha": 13.271761474609375,
+     "worst_fact_logp": -3.8624292279283203,
+     "capability_ok": false
+    },
+    "0.04": {
+     "alpha": 6.635880737304688,
+     "worst_fact_logp": -2.7258479214583833,
+     "capability_ok": true
+    }
+   }
+  },
+  "qwen->smollm": {
+   "n_fit": 48,
+   "n_test": 87,
+   "locus": [
+    9,
+    11,
+    13,
+    15,
+    17
+   ],
+   "alpha": 6.400835571289063,
+   "dose_frac": 0.04,
+   "dose_ladder": {
+    "0.12": {
+     "alpha": 19.202506713867187,
+     "worst_fact_logp": -4.649121411889792,
+     "capability_ok": false
+    },
+    "0.08": {
+     "alpha": 12.801671142578126,
+     "worst_fact_logp": -3.0667865239083767,
+     "capability_ok": false
+    },
+    "0.04": {
+     "alpha": 6.400835571289063,
+     "worst_fact_logp": -2.5185037883619468,
+     "capability_ok": true
+    }
+   }
+  }
+ },
+ "per_fold": {
+  "smollm->qwen": {
+   "decode_balanced_acc": 0.25,
+   "prompted_balanced_acc_zero": 0.675,
+   "mean_log_score_zero": -1.6708693963995944,
+   "per_tendency_zero": {
+    "anger": {
+     "n": 6,
+     "acc": 0.5
+    },
+    "care": {
+     "n": 15,
+     "acc": 0.4
+    },
+    "curiosity": {
+     "n": 12,
+     "acc": 1.0
+    },
+    "fear": {
+     "n": 15,
+     "acc": 0.8
+    }
+   },
+   "conditions": {
+    "congruent": {
+     "n": 48,
+     "balanced_acc": 0.7541666666666667,
+     "log_score_minus_zero": 0.8198650631272422,
+     "perm_p": 0.004649767511624419
+    },
+    "incongruent": {
+     "n": 48,
+     "balanced_acc": 0.5791666666666666,
+     "log_score_minus_zero": -0.2118701285561354,
+     "perm_p": 0.3586320683965802
+    },
+    "random": {
+     "n": 48,
+     "balanced_acc": 0.6208333333333333,
+     "log_score_minus_zero": -0.08588228165069661,
+     "perm_p": 0.6434178291085446
+    }
+   },
+   "selective_signature": true,
+   "decode_void": false
+  },
+  "qwen->smollm": {
+   "decode_balanced_acc": 0.19202898550724637,
+   "prompted_balanced_acc_zero": 0.697463768115942,
+   "mean_log_score_zero": -1.5588731321382836,
+   "per_tendency_zero": {
+    "anger": {
+     "n": 23,
+     "acc": 0.30434782608695654
+    },
+    "care": {
+     "n": 18,
+     "acc": 0.8333333333333334
+    },
+    "curiosity": {
+     "n": 23,
+     "acc": 0.8260869565217391
+    },
+    "fear": {
+     "n": 23,
+     "acc": 0.8260869565217391
+    }
+   },
+   "conditions": {
+    "congruent": {
+     "n": 87,
+     "balanced_acc": 0.7192028985507246,
+     "log_score_minus_zero": 0.3974160770134268,
+     "perm_p": 0.006999650017499125
+    },
+    "incongruent": {
+     "n": 87,
+     "balanced_acc": 0.663647342995169,
+     "log_score_minus_zero": 0.13062246963740054,
+     "perm_p": 0.4938753062346883
+    },
+    "random": {
+     "n": 87,
+     "balanced_acc": 0.7022946859903382,
+     "log_score_minus_zero": 0.037167541763515465,
+     "perm_p": 0.832108394580271
+    }
+   },
+   "selective_signature": false,
+   "decode_void": true
+  }
+ },
+ "pooled": {
+  "decode_balanced_acc": 0.22149260298080625,
+  "prompted_balanced_acc_zero": 0.6706737454922573,
+  "selective_in_folds": [
+   "smollm->qwen"
+  ]
+ },
+ "floor_note": "two makers, one reader checkpoint, one artifact domain: the card's two-domain, two-checkpoint floor is not met; this is the first held-out maker read, not a closure",
+ "first_attempt_pointer": "results/phase_2_4_stage_3/A/A07/verdict.json"
+}

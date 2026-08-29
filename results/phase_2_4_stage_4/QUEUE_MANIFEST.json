@@ -125,8 +125,8 @@
   "cell_id": "C03",
   "card": "C03",
   "track": "context",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
   "depends_on": [
    "I03"
   ],
@@ -134,13 +134,13 @@
   "est_minutes": 3.2,
   "gpu": true,
   "why": "fraction of the oracle's exact gain captured by the reader's selection, minus the random selector's third",
-  "reason": null,
-  "budget_charged_min": 0.0,
-  "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 1.77,
+  "gpu_lock_min": 1.72,
+  "attempts": 1,
+  "started_at": "2026-08-28T09:53:53",
+  "finished_at": "2026-08-28T09:55:39",
+  "detail": "interval entirely below zero"
  },
  "A01": {
   "cell_id": "A01",
@@ -188,8 +188,8 @@
   "cell_id": "A03",
   "card": "A03",
   "track": "appraisal",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
   "depends_on": [
    "A02"
   ],
@@ -197,13 +197,13 @@
   "est_minutes": 3.2,
   "gpu": true,
   "why": "context-phase minus answer-phase target log score",
-  "reason": null,
-  "budget_charged_min": 0.0,
-  "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 1.59,
+  "gpu_lock_min": 1.52,
+  "attempts": 1,
+  "started_at": "2026-08-28T09:55:39",
+  "finished_at": "2026-08-28T09:57:15",
+  "detail": "interval includes zero and excludes a practically useful benefit"
  },
  "T01": {
   "cell_id": "T01",
@@ -219,19 +219,42 @@
   "gpu": true,
   "why": "support effect on novel-case application, aligned and misaligned",
   "reason": "directional support at or above the frozen threshold",
-  "budget_charged_min": 25.11,
-  "gpu_lock_min": 25.0,
-  "attempts": 2,
-  "started_at": "2026-08-28T03:51:54",
-  "finished_at": "2026-08-28T04:17:01",
-  "detail": "directional support at or above the frozen threshold"
+  "budget_charged_min": 122.15,
+  "gpu_lock_min": 121.93,
+  "attempts": 1,
+  "started_at": "2026-08-28T06:30:06",
+  "finished_at": "2026-08-28T08:07:09",
+  "detail": "directional support at or above the frozen threshold",
+  "resets": [
+   {
+    "at": "2026-08-28T06:10:32",
+    "tag": "domain_defect",
+    "why": "make_lesson_world ignored its domain argument and drew from one four-deep pool (TODO R7): the 128 T01 units were 54 distinct constructions and the 256 confirmation units saturated the same 64-world space; T02 inherited the worlds and was stopped mid-run on the curator's order; both re-run under the enumerated per-domain pool",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "SUPPORT_CANDIDATE",
+     "attempts": 2,
+     "budget_charged_min": 25.11,
+     "gpu_lock_min": 25.0,
+     "started_at": "2026-08-28T03:51:54",
+     "finished_at": "2026-08-28T04:17:01"
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "raw_outputs.jsonl",
+     "verdict.json",
+     "T01.log"
+    ]
+   }
+  ]
  },
  "T02": {
   "cell_id": "T02",
   "card": "T02",
   "track": "transmission",
-  "exec_state": "RUNNING",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
   "depends_on": [
    "T01"
   ],
@@ -239,20 +262,41 @@
   "est_minutes": 38.4,
   "gpu": true,
   "why": "reconstruct2 minus summary2 judgment log score, uptake preserved",
-  "reason": null,
-  "budget_charged_min": 0.0,
-  "gpu_lock_min": 0.0,
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 106.74,
+  "gpu_lock_min": 106.53,
   "attempts": 1,
-  "started_at": "2026-08-28T04:17:01",
-  "finished_at": null,
-  "detail": null
+  "started_at": "2026-08-28T08:07:09",
+  "finished_at": "2026-08-28T09:53:53",
+  "detail": "directional support at or above the frozen threshold",
+  "resets": [
+   {
+    "at": "2026-08-28T06:10:32",
+    "tag": "domain_defect",
+    "why": "make_lesson_world ignored its domain argument and drew from one four-deep pool (TODO R7): the 128 T01 units were 54 distinct constructions and the 256 confirmation units saturated the same 64-world space; T02 inherited the worlds and was stopped mid-run on the curator's order; both re-run under the enumerated per-domain pool",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1,
+     "budget_charged_min": 0.0,
+     "gpu_lock_min": 0.0,
+     "started_at": "2026-08-28T04:17:01",
+     "finished_at": null
+    },
+    "moved": [
+     "cases.jsonl",
+     "raw_outputs.jsonl",
+     "T02.log"
+    ]
+   }
+  ]
  },
  "T03": {
   "cell_id": "T03",
   "card": "T03",
   "track": "transmission",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
   "depends_on": [
    "T01"
   ],
@@ -260,20 +304,20 @@
   "est_minutes": 10.666666666666666,
   "gpu": true,
   "why": "technique minus control AUROC on held-out family, true-advice loss <= 3pp",
-  "reason": null,
-  "budget_charged_min": 0.0,
-  "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 4.98,
+  "gpu_lock_min": 4.92,
+  "attempts": 1,
+  "started_at": "2026-08-28T09:57:15",
+  "finished_at": "2026-08-28T10:02:14",
+  "detail": "interval includes zero and excludes a practically useful benefit"
  },
  "H01": {
   "cell_id": "H01",
   "card": "H01",
   "track": "hierarchy",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
   "depends_on": [
    "I03"
   ],
@@ -281,20 +325,20 @@
   "est_minutes": 48.0,
   "gpu": true,
   "why": "constraint retention at hop 3 minus hop 1, shared vs remapped",
-  "reason": null,
-  "budget_charged_min": 0.0,
-  "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 79.97,
+  "gpu_lock_min": 79.93,
+  "attempts": 1,
+  "started_at": "2026-08-28T10:02:14",
+  "finished_at": "2026-08-28T11:22:12",
+  "detail": "interval entirely below zero"
  },
  "H02": {
   "cell_id": "H02",
   "card": "H02",
   "track": "hierarchy",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
   "depends_on": [
    "I03"
   ],
@@ -302,13 +346,13 @@
   "est_minutes": 4.0,
   "gpu": true,
   "why": "history-type recovery with history minus artifact-only, balanced accuracy",
-  "reason": null,
-  "budget_charged_min": 0.0,
-  "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 2.64,
+  "gpu_lock_min": 2.6,
+  "attempts": 1,
+  "started_at": "2026-08-28T11:22:12",
+  "finished_at": "2026-08-28T11:24:51",
+  "detail": "interval includes zero and excludes a practically useful benefit"
  },
  "H03": {
   "cell_id": "H03",
@@ -373,19 +417,208 @@
   "cell_id": "F01",
   "card": "F01",
   "track": "confirmation",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
   "depends_on": [],
   "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\F01\\verdict.json",
   "est_minutes": 21.333333333333332,
   "gpu": true,
   "why": "untouched estimate of up to two frozen claims",
   "reason": null,
-  "budget_charged_min": 0.0,
+  "budget_charged_min": 161.05,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
+  "attempts": 1,
+  "started_at": "2026-08-28T16:52:46",
+  "finished_at": "2026-08-28T19:33:49",
   "detail": null
+ },
+ "C01/expand": {
+  "cell_id": "C01/expand",
+  "card": "C01",
+  "track": "context",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "C01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\C01\\verdict.json",
+  "est_minutes": 6.4,
+  "gpu": true,
+  "why": "expansion rung 1: 64 more units per domain for C01",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 2.77,
+  "gpu_lock_min": 2.51,
+  "attempts": 1,
+  "started_at": "2026-08-28T11:24:51",
+  "finished_at": "2026-08-28T11:27:37",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "C02/expand": {
+  "cell_id": "C02/expand",
+  "card": "C02",
+  "track": "context",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "C02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\C02\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "expansion rung 1: 64 more units per domain for C02",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 137.61,
+  "gpu_lock_min": 137.37,
+  "attempts": 1,
+  "started_at": "2026-08-28T11:27:37",
+  "finished_at": "2026-08-28T13:45:13",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "A01/expand": {
+  "cell_id": "A01/expand",
+  "card": "A01",
+  "track": "appraisal",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\A01\\verdict.json",
+  "est_minutes": 10.666666666666666,
+  "gpu": true,
+  "why": "expansion rung 1: 64 more units per domain for A01",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 14.48,
+  "gpu_lock_min": 14.41,
+  "attempts": 1,
+  "started_at": "2026-08-28T13:45:13",
+  "finished_at": "2026-08-28T13:59:42",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "A02/expand": {
+  "cell_id": "A02/expand",
+  "card": "A02",
+  "track": "appraisal",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "A02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\A02\\verdict.json",
+  "est_minutes": 12.8,
+  "gpu": true,
+  "why": "expansion rung 1: 64 more units per domain for A02",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 3.83,
+  "gpu_lock_min": 3.71,
+  "attempts": 1,
+  "started_at": "2026-08-28T13:59:46",
+  "finished_at": "2026-08-28T14:03:35",
+  "detail": "interval entirely below zero"
+ },
+ "T01/expand": {
+  "cell_id": "T01/expand",
+  "card": "T01",
+  "track": "transmission",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "T01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\T01\\verdict.json",
+  "est_minutes": 42.666666666666664,
+  "gpu": true,
+  "why": "expansion rung 1: 64 more units per domain for T01",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 72.41,
+  "gpu_lock_min": 72.28,
+  "attempts": 1,
+  "started_at": "2026-08-28T14:03:35",
+  "finished_at": "2026-08-28T15:16:00",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "T02/expand": {
+  "cell_id": "T02/expand",
+  "card": "T02",
+  "track": "transmission",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "T02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\T02\\verdict.json",
+  "est_minutes": 38.4,
+  "gpu": true,
+  "why": "expansion rung 1: 64 more units per domain for T02",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 85.82,
+  "gpu_lock_min": 85.42,
+  "attempts": 1,
+  "started_at": "2026-08-28T15:16:04",
+  "finished_at": "2026-08-28T16:41:54",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "T03/expand": {
+  "cell_id": "T03/expand",
+  "card": "T03",
+  "track": "transmission",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "T03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\T03\\verdict.json",
+  "est_minutes": 10.666666666666666,
+  "gpu": true,
+  "why": "expansion rung 1: 64 more units per domain for T03",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 5.35,
+  "gpu_lock_min": 5.25,
+  "attempts": 1,
+  "started_at": "2026-08-28T16:41:58",
+  "finished_at": "2026-08-28T16:47:19",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "C03/expand": {
+  "cell_id": "C03/expand",
+  "card": "C03",
+  "track": "context",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "C03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\C03\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": true,
+  "why": "expansion rung 1: 64 more units per domain for C03",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 2.01,
+  "gpu_lock_min": 1.96,
+  "attempts": 1,
+  "started_at": "2026-08-28T16:47:19",
+  "finished_at": "2026-08-28T16:49:20",
+  "detail": "interval entirely below zero"
+ },
+ "H02/expand": {
+  "cell_id": "H02/expand",
+  "card": "H02",
+  "track": "hierarchy",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "H02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\H02\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "expansion rung 1: 48 more units per domain for H02",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 3.43,
+  "gpu_lock_min": 3.37,
+  "attempts": 1,
+  "started_at": "2026-08-28T16:49:20",
+  "finished_at": "2026-08-28T16:52:46",
+  "detail": "interval includes zero and excludes a practically useful benefit"
  }
 }

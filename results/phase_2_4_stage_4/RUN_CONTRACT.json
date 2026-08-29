@@ -225,6 +225,38 @@
      "HuggingFaceTB/SmolLM2-1.7B-Instruct": "ANCHOR-STANDS"
     }
    }
+  },
+  "confirmations": {
+   "hash": "375631f399b1f9f2487496b1446b590117787c724485ca36c534efcffbe1d60d",
+   "frozen_at": "2026-08-28T16:52:48",
+   "payload": {
+    "A01": {
+     "primary": "crossed valuation and audience-aim balanced accuracy over 0.25",
+     "threshold": 0.05,
+     "n_units": 256,
+     "readers": {
+      "Qwen/Qwen2.5-1.5B-Instruct": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "HuggingFaceTB/SmolLM2-1.7B-Instruct": "31b70e2e869a7173562077fd711b654946d38674"
+     },
+     "parser": "s4-parser-1.0",
+     "readout": "s4-label-likelihood-1.0",
+     "stopping_rule": "fixed n, no interim look",
+     "alpha": 0.025
+    },
+    "T01": {
+     "primary": "support effect on novel-case application, aligned and misaligned",
+     "threshold": 0.05,
+     "n_units": 256,
+     "readers": {
+      "Qwen/Qwen2.5-1.5B-Instruct": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "HuggingFaceTB/SmolLM2-1.7B-Instruct": "31b70e2e869a7173562077fd711b654946d38674"
+     },
+     "parser": "s4-parser-1.0",
+     "readout": "s4-label-likelihood-1.0",
+     "stopping_rule": "fixed n, no interim look",
+     "alpha": 0.025
+    }
+   }
   }
  },
  "lost_time": [],
@@ -239,5 +271,7 @@
  "execution_start_epoch": 1787894570.4876974,
  "execution_start": "2026-08-27T22:22:50",
  "deadline_epoch": 1787980970.4876974,
- "deadline": "2026-08-28T22:22:50"
+ "deadline": "2026-08-28T22:22:50",
+ "run_label": "RUN_TO_EMPTY",
+ "exhausted": true
 }

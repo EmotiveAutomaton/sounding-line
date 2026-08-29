@@ -378,15 +378,25 @@ survive the fair induction control on the two strong ladders (G76/L94).
   paths for both hooks, and the project's `command`+`args` hook form is unverified on this
   install (the user-level hooks use the single-command form). The portable adapter is written
   and tested; rewiring live hooks was left as his call.**
-- **In flight (2026-08-27 late): Stage 4 runs under second gear via `run_stage4.sh` since
-  2026-08-27T22:22:50, deadline 2026-08-28T22:22:50 persisted in results/phase_2_4_stage_4/RUN_CONTRACT.json;
-  the scheduler serializes GPU cards through the gpu lock, runs two CPU cards beside
-  them, begins the closure block (F01) at hour 20, and writes the single curator packet
-  at the deadline. Stop: `taskkill //F //T //PID $(sed -n 2p results/.gear2.lock)`, then
-  clear results/.gpu.lock after confirming the card is free; a restart keeps the
-  deadline.** Build, smoke, and the validation pass are in the registry build log. Eight cards
-  had landed and were written through (L237 to L243) by 03:40 on the 28th; the science waits
-  for the final packet.
+- **Stage 4 CLOSED 2026-08-28 19:33 (RUN_TO_EMPTY; 21.2 h elapsed, 14.95 GPU-h held; 307 of 322
+  expected cells; A01 and T01 confirmed on the fresh reserve; packet plus analyst synthesis at
+  results/phase_2_4_stage_4/CURATOR_PACKET_FINAL.md). The chained gear then ran the five Stage-3
+  re-runs (L251 to L255) and exited empty at 21:22; the Stage-3 validator reads exhausted again
+  (78 cells). Nothing is running; every landing is written through.** The run's history: Stage 4
+  ran under second gear via `run_stage4.sh`, launched
+  2026-08-27T22:22:50, STOPPED 05:57 on his order for the T-track construction repair (TODO R7)
+  and RESTARTED at half past six with T01 and T02 reset to the head of the queue; the contract's deadline
+  is accounting only, the closure block (F01) begins on exhaustion, and the wrapper then execs
+  `run_second_gear.sh` (until empty) for the five Stage-3 re-runs R1 to R5. Stop:
+  `taskkill //F //T //PID $(sed -n 2p results/.gear2.lock)`, then clear results/.gpu.lock after
+  confirming the card is free; a restart resumes from rows.** Nine cards had landed and were
+  written through (L237 to L244) before the stop; T01 re-landed 08:07 on the repaired
+  construction in the same band (L244 carries the history); by 16:53 every discovery card and
+  the whole expansion rung had landed (L245 to L250 and five fold-ins, written through at 20:00
+  after the agent's 08:10 session loss); F01 opened 16:52 on the two eligible candidates, A01
+  confirmed on the fresh reserve, T01's confirmation running; the science waits for the final
+  packet. His standing rule from the stop: useless compute stops the
+  moment it is known useless, before the cell finishes; repair, then the real run.
 - **Stage-4 concurrency audit, 2026-08-28: NO corruption, and none reachable in what
   remains.** `soundingline/s4.py`'s `Lineages` has a lost-update shape (each runner holds a
   whole-file snapshot from its own start-up and writes the whole dict back), the same class
@@ -400,10 +410,16 @@ survive the fair induction control on the two strong ladders (G76/L94).
   cells are gpu=True, GPU cells serialize through the gpu lock, expansion rungs are admitted
   gpu=True, and no CPU card is left, so no two lineage-writing processes can overlap again this
   run.** Fix the snapshot at cutover, not mid-run.
-- **Two dead controls found in the same audit.** `mark_generated` is never called by any
-  runner, so all 3904 lineage rows carry `generation_hash: None` and `duplicate_content()`,
-  which the scheduler writes into COVERAGE as `duplicate_lineages`, returns `[]`
-  unconditionally: **the packet will read `no duplicates` where the truth is `not checked`.**
+- **Two dead controls found in the same audit, WIRED LIVE 2026-08-28.** `mark_generated` was
+  never called by any runner, so all 3904 lineage rows carried `generation_hash: None` and
+  `duplicate_content()`, which the scheduler writes into COVERAGE as `duplicate_lineages`,
+  returned `[]` unconditionally: the packet would have read `no duplicates` where the truth
+  was `not checked`. Now every root construction registers its content hash through
+  `CardRun.register_world`, COVERAGE carries `generation_hash_coverage` (checked or not, per
+  card) and the rebuilt-from-id `construction_audit`, the `Lineages` ledger is a lock-held
+  reload-modify-write (the lost-update shape closed at this cutover), and the T-track
+  constructor enumerates a per-domain identity space with the expanded and confirmation
+  blocks disjoint (2,368 root units audit all distinct).
   Performed by hand instead, it found the T-track construction defect now recorded as TODO R7
   (`make_lesson_world` ignores its domain argument; 128 nominal T01 units are 31 distinct
   worlds). This is the project's named recurring death, a criterion that could not fire.
@@ -475,7 +491,7 @@ died on the way and must stay dead.
 
 ## Open decisions / owed
 
-- **His:** the Stage-3 final assessment when the curator packet lands (the program is exhausted as of 08-27); the CLAUDE.md freeze line remains his to remove. Standing from earlier phases: interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access; rotate the early-project API key.
-- **Mine, in order:** the two-pass curator packet (the replicate step is done, L235); the commit of the 08-27 write-through when he authorizes it. The pre-Phase-2.4 owed builds (the 9-action BST rebuild, G130c floor decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile function) remain in `TODO.md`'s backlog, superseded in priority by the Stage-3 endgame.
+- **His:** the Stage-4 assessment (the packet and synthesis are written) and the Stage-3 assessment; the one decision the record opened, a second checkpoint and domain for the causal-use read (L255, about an hour of GPU); the commit of the accumulated batch. Standing from earlier phases: interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access; rotate the early-project API key.
+- **Mine, in order:** nothing in flight; the two-pass Stage-3 curator packet (the replicate step is done, L235) if he wants it separate from the Stage-4 synthesis; the design-lint residue on six headers (TODO); the commit when he authorizes it. The pre-Phase-2.4 owed builds (the 9-action BST rebuild, G130c floor decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile function) remain in `TODO.md`'s backlog, superseded in priority by the Stage-3 endgame.
 - **The one-maker-many-kinds corpus problem** stands (CROSSNEWS pseudo-documents only;
   Guardian small; CMCC request-only); the program's G133 commissioned pilot leads this thread.

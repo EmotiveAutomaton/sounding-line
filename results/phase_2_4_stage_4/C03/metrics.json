@@ -1,0 +1,125 @@
+{
+ "card": "C03",
+ "written_at": "2026-08-28T16:49:17",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_selection_minus_random_exact": {
+  "point": -0.2565359477124183,
+  "lo": -0.2696078431372549,
+  "hi": -0.2434640522875817,
+  "n_units": 204,
+  "n_boot": 2000
+ },
+ "selection_nats_minus_random": {
+  "point": -0.013395531169744908,
+  "lo": -0.014448153466850439,
+  "hi": -0.012391241729171944,
+  "n_units": 204,
+  "n_boot": 2000
+ },
+ "selection_minus_first_listed": {
+  "point": -0.2565359477124183,
+  "lo": -0.2696078431372549,
+  "hi": -0.2434640522875817,
+  "n_units": 204,
+  "n_boot": 2000
+ },
+ "selection_minus_oracle": {
+  "point": -0.923202614379085,
+  "lo": -0.9362745098039216,
+  "hi": -0.9093137254901961,
+  "n_units": 204,
+  "n_boot": 2000
+ },
+ "realized_gain_reader_minus_random": {
+  "point": 0.08342574917972936,
+  "lo": 0.013941268732421599,
+  "hi": 0.15495602458965388,
+  "n_units": 204,
+  "n_boot": 2000
+ },
+ "realized_gain_informative_probe": {
+  "point": 0.03574465214866954,
+  "lo": -0.11246455864460381,
+  "hi": 0.18004082711324693,
+  "n_units": 204,
+  "n_boot": 2000
+ },
+ "selection_rate": {
+  "informative": 0.07679738562091504,
+  "redundant": 0.7826797385620915,
+  "irrelevant": 0.14052287581699346
+ },
+ "position_rate": {
+  "0": 0.5326797385620915,
+  "1": 0.29248366013071897,
+  "2": 0.17483660130718953
+ },
+ "fraction_of_oracle_captured": 0.07679738562091504,
+ "flat_menus": 104,
+ "n_selections": 1224,
+ "cell_counts": {
+  "{\"domain\": \"workshop\", \"rotation\": 0}": {
+   "attempted": 198,
+   "realized": 198,
+   "valid": 198,
+   "scored": 198,
+   "scored_units": 99
+  },
+  "{\"domain\": \"workshop\", \"rotation\": 1}": {
+   "attempted": 198,
+   "realized": 198,
+   "valid": 198,
+   "scored": 198,
+   "scored_units": 99
+  },
+  "{\"domain\": \"workshop\", \"rotation\": 2}": {
+   "attempted": 198,
+   "realized": 198,
+   "valid": 198,
+   "scored": 198,
+   "scored_units": 99
+  },
+  "{\"domain\": \"workshop\", \"rotation\": null}": {
+   "attempted": 58,
+   "realized": 0,
+   "valid": 0,
+   "scored": 0,
+   "scored_units": 0
+  },
+  "{\"domain\": \"civic\", \"rotation\": 0}": {
+   "attempted": 210,
+   "realized": 210,
+   "valid": 210,
+   "scored": 210,
+   "scored_units": 105
+  },
+  "{\"domain\": \"civic\", \"rotation\": 1}": {
+   "attempted": 210,
+   "realized": 210,
+   "valid": 210,
+   "scored": 210,
+   "scored_units": 105
+  },
+  "{\"domain\": \"civic\", \"rotation\": 2}": {
+   "attempted": 210,
+   "realized": 210,
+   "valid": 210,
+   "scored": 210,
+   "scored_units": 105
+  },
+  "{\"domain\": \"civic\", \"rotation\": null}": {
+   "attempted": 46,
+   "realized": 0,
+   "valid": 0,
+   "scored": 0,
+   "scored_units": 0
+  }
+ }
+}

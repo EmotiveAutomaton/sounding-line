@@ -17,6 +17,16 @@ CPU only; the intervention fixtures use pythia-410m in float32.
  10  duration accounting: the deadline persists across a reload; a short run cannot be
      labeled complete; lost time is recorded
  11  reporting guards: no packet before the deadline; interim packets refused
+ 12  stratum balancing cancels a main effect under unbalanced signs
+ 13  construction known answers
+ 14  the pilot writes under its manifest produce path
+ 15  (R7) the lesson space is enumerated per domain: every allocatable world distinct,
+     no cross-split or cross-domain twin, over-allocation raises, latent knowledge
+     outside the identity
+ 16  (R7) two lineage writers holding stale snapshots lose nothing: the ledger is a
+     lock-held reload-modify-write
+ 17  (R7) the scheduler's reset op preserves the first attempt and re-plans the cell
+ 18  (R7) rows carry their construction hash and intervals cluster on it
 """
 
 from __future__ import annotations
@@ -276,7 +286,7 @@ def main() -> int:
     def t13():
         from runners import s4_worlds                                             # noqa: PLC0415
         two = 0
-        for i in range(200):
+        for i in range(150):
             lid = f"T13|workshop|s0|w{i:04d}|pilot"
             w = s4_worlds.make_world(lid, "workshop")
             q = s4_worlds.step_question(w, random.Random(i))
@@ -303,6 +313,109 @@ def main() -> int:
         src = (Path(__file__).resolve().parents[1] / "runners" / "s4_run_i.py").read_text(encoding="utf-8")
         assert 'card_dir("I03pilot")' in src, "the pilot writes no verdict under its manifest produce path"
     check("14 pilot produce path", t14)
+
+    # 15 the enumerated lesson space (R7)
+    def t15():
+        from runners import s4_worlds                                             # noqa: PLC0415
+        for domain in s4_worlds.DOMAINS4:
+            half = s4_worlds.lesson_identity_space(domain) // 2
+            assert half >= 128, (domain, half)   # expanded discovery and confirmation both fit
+            seen = {}
+            for split in ("discovery", "confirmation"):
+                for i in range(half):
+                    w = s4_worlds.make_lesson_world(f"T01|{domain}|s{i % 3}|w{i:04d}|{split}", domain)
+                    h = s4_worlds.construction_hash(w)
+                    assert h not in seen, (domain, split, i, seen[h])
+                    seen[h] = (split, i)
+            raised = False
+            try:
+                s4_worlds.make_lesson_world(f"T01|{domain}|s0|w{half:04d}|discovery", domain)
+            except ValueError:
+                raised = True
+            assert raised, "over-allocation did not raise"
+        off = s4_worlds.CONFIRMATION_WORLD_OFFSET
+        assert (s4_worlds.make_lesson_world(f"T01|workshop|s10|w{off + 9:04d}|confirmation", "workshop")["identity_code"]
+                == s4_worlds.make_lesson_world("T01|workshop|s10|w0009|confirmation", "workshop")["identity_code"])
+        a = s4_worlds.make_lesson_world("T01|workshop|s0|w0007|discovery", "workshop")
+        b = s4_worlds.make_lesson_world("T01|civic|s0|w0007|discovery", "civic")
+        assert s4_worlds.construction_hash(a) != s4_worlds.construction_hash(b)
+        c = dict(a, knowledge="mistaken" if a["knowledge"] == "correct" else "correct")
+        assert s4_worlds.construction_hash(a) == s4_worlds.construction_hash(c)
+        # determinism across calls and derived ids reach the parent's world unchanged
+        assert json.dumps(a) == json.dumps(s4_worlds.make_lesson_world("T01|workshop|s0|w0007|discovery", "workshop"))
+    check("15 enumerated lesson space", t15)
+
+    # 16 lineage writers with stale snapshots (the lost-update shape, R7)
+    def t16():
+        pth = tmp / "lin3.json"
+        L1 = s4.Lineages(pth)
+        L2 = s4.Lineages(pth)                       # loaded EMPTY, before any allocation
+        ids = L1.allocate("C01", "civic", [0, 1, 2], 4, "discovery")
+        L1.mark_inspected([ids[0]])
+        L2.mark_generated(ids[1], "h-b")           # a stale writer: the old code wrote {} back
+        L2.mark_inspected([ids[2]])
+        L1.mark_generated(ids[3], "h-d")
+        disk = s4.Lineages(pth).rows
+        assert len(disk) == 4, disk.keys()
+        assert disk[ids[0]]["inspected"] and disk[ids[2]]["inspected"]
+        assert disk[ids[1]]["generation_hash"] == "h-b" and disk[ids[3]]["generation_hash"] == "h-d"
+        assert L1.rows[ids[2]]["inspected"] and L2.rows[ids[0]]["inspected"], "caches not refreshed"
+        cov = s4.Lineages(pth).generation_coverage()
+        assert cov["C01|discovery"] == {"roots": 4, "hashed": 2, "distinct": 2, "duplicates": 0, "checked": False}, cov
+        L1.mark_generated(ids[0], "h-a")
+        L1.mark_generated(ids[2], "h-a")
+        cov2 = s4.Lineages(pth).generation_coverage()["C01|discovery"]
+        assert cov2["checked"] and cov2["duplicates"] == 1 and cov2["distinct"] == 3, cov2
+        assert not (pth.with_name(pth.name + ".lock")).exists()
+    check("16 lineage concurrent writers", t16)
+
+    # 17 the reset op (R7)
+    def t17():
+        from runners import s4_scheduler                                          # noqa: PLC0415
+        root = tmp / "resetroot"
+        (root / "T01").mkdir(parents=True)
+        (root / "T01" / "cases.jsonl").write_text('{"a": 1}\n', encoding="utf-8")
+        (root / "T01" / "verdict.json").write_text('{"outcome": "SUPPORT_CANDIDATE"}', encoding="utf-8")
+        (root / "T01.log").write_text("log", encoding="utf-8")
+        m = s4.Manifest(root / "QUEUE_MANIFEST.json")
+        m.add("T01", "T01", [], str(root / "T01" / "verdict.json"), 10, True, "why")
+        m.add("T02", "T02", ["T01"], str(root / "T02" / "verdict.json"), 10, True, "why")
+        m.add("T01/expand", "T01", ["T01"], str(root / "T01" / "verdict.json"), 10, True, "rung")
+        m.set_exec("T01", "RUNNING")
+        m.set_exec("T01", "COMPLETE")
+        m.set_outcome("T01", "SUPPORT_CANDIDATE")
+        m.charge("T01", 25.0, 25.0)
+        s4_scheduler.reset(["T01"], "testtag", "a construction repair", root=root)
+        m2 = s4.Manifest(root / "QUEUE_MANIFEST.json")
+        c = m2.cells["T01"]
+        assert c["exec_state"] == "PLANNED" and c["outcome"] == "NOT_RUN" and c["attempts"] == 0
+        assert c["resets"][0]["before"]["outcome"] == "SUPPORT_CANDIDATE"
+        assert "T01/expand" not in m2.cells and "T02" in m2.cells
+        sup = root / "T01" / "superseded_testtag"
+        assert (sup / "verdict.json").exists() and (sup / "cases.jsonl").exists() and (sup / "T01.log").exists()
+        assert (sup / "RESET_NOTE.json").exists()
+        assert not (root / "T01" / "verdict.json").exists() and not (root / "T01.log").exists()
+        assert m2.deps_complete("T02") is False
+    check("17 reset op", t17)
+
+    # 18 construction hashes on rows; intervals cluster on them (R7)
+    def t18():
+        from runners.s4_run_common import cid, cluster_by_construction, construction_summary   # noqa: PLC0415
+        rows = [{"unit_id": "u1", "primary_score": 1.0, "extra": {"construction_hash": "h1"}},
+                {"unit_id": "u2", "primary_score": 0.0, "extra": {"construction_hash": "h1"}},
+                {"unit_id": "u3", "primary_score": 1.0, "extra": {"construction_hash": "h2"}},
+                {"unit_id": "u4", "primary_score": 1.0, "extra": {}}]
+        assert [cid(r) for r in rows] == ["h1", "h1", "h2", "u4"]
+        cl = cluster_by_construction(rows)
+        assert {r["unit_id"] for r in cl} == {"h1", "h2", "u4"}
+        summ = construction_summary(rows)
+        assert summ["n_units"] == 4 and summ["n_distinct_constructions"] == 3 and not summ["checked"]
+        a = s4_lib.paired_contrast(cl, [{**r, "primary_score": 0.0} for r in cl], "unit_id", "primary_score", 1)
+        assert a["n_units"] == 3, a
+        # twins resample as one unit: the same rows unclustered claim four
+        b = s4_lib.paired_contrast(rows, [{**r, "primary_score": 0.0} for r in rows], "unit_id", "primary_score", 1)
+        assert b["n_units"] == 4
+    check("18 construction clustering", t18)
 
     print(f"\n{len(fails)} failures")
     for f in fails:

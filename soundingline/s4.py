@@ -323,15 +323,66 @@ def validate_run_label(contract: RunContract, label: str) -> None:
 
 # ── source lineages ───────────────────────────────────────────────────────────────────
 
+LINEAGE_LOCK_TIMEOUT_S = 60.0
+LINEAGE_LOCK_STALE_S = 120.0
+
+
 class Lineages:
+    """The source-lineage ledger. Every mutation is a LOCK-HELD RELOAD-MODIFY-WRITE: the
+    2026-08-28 concurrency audit found the lost-update shape (each runner held a whole-file
+    snapshot from its own start-up and wrote the whole dict back, the same class _fresh()
+    closes for RunContract). It had not fired, because no two lineage-writing cards ever
+    overlapped; this makes it unable to. The in-memory rows are a cache that every
+    mutation refreshes; rows are never deleted, so a merge is add-missing with the
+    file's flags winning."""
     PATH = S4 / "SOURCE_LINEAGES.json"
 
     def __init__(self, path: Path | None = None):
         self.path = path or self.PATH
         self.rows: dict[str, dict] = read_json(self.path) if self.path.exists() else {}
 
+    def reload(self) -> "Lineages":
+        self.rows = read_json(self.path) if self.path.exists() else {}
+        return self
+
+    def _transact(self, fn) -> None:
+        lock = self.path.with_name(self.path.name + ".lock")
+        t0 = time.time()
+        while True:
+            try:
+                fd = os.open(str(lock), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+                os.close(fd)
+                break
+            except FileExistsError:
+                try:
+                    age = time.time() - lock.stat().st_mtime
+                except OSError:
+                    age = 0.0
+                if age > LINEAGE_LOCK_STALE_S:
+                    try:
+                        lock.unlink()
+                    except OSError:
+                        pass
+                    continue
+                if time.time() - t0 > LINEAGE_LOCK_TIMEOUT_S:
+                    raise ContractError(f"{lock} held for over {LINEAGE_LOCK_TIMEOUT_S:g}s; "
+                                        f"nothing was written")
+                time.sleep(0.05)
+        try:
+            fresh: dict[str, dict] = read_json(self.path) if self.path.exists() else {}
+            for lid, r in self.rows.items():
+                fresh.setdefault(lid, r)
+            fn(fresh)
+            write_json(self.path, fresh)
+            self.rows = fresh
+        finally:
+            try:
+                lock.unlink()
+            except OSError:
+                pass
+
     def save(self) -> None:
-        write_json(self.path, self.rows)
+        self._transact(lambda rows: None)
 
     @staticmethod
     def make_id(card: str, domain: str, seed: int, world: int, split: str) -> str:
@@ -345,17 +396,19 @@ class Lineages:
         out = []
         for i in range(n_worlds):
             w = world_offset + i
-            seed = seeds[i % len(seeds)]
-            lid = self.make_id(card, domain, seed, w, split)
-            if lid not in self.rows:
-                self.rows[lid] = {"id": lid, "card": card, "domain": domain,
-                                  "construction_seed": seed, "world_index": w,
-                                  "split": split, "allocated_at": now_iso(),
-                                  "generation_hash": None, "fit_use": [],
-                                  "inspected": False, "confirmation_access": None,
-                                  "parent": None}
-            out.append(lid)
-        self.save()
+            out.append(self.make_id(card, domain, seeds[i % len(seeds)], w, split))
+
+        def add(rows):
+            for i, lid in enumerate(out):
+                if lid not in rows:
+                    rows[lid] = {"id": lid, "card": card, "domain": domain,
+                                 "construction_seed": seeds[i % len(seeds)],
+                                 "world_index": world_offset + i,
+                                 "split": split, "allocated_at": now_iso(),
+                                 "generation_hash": None, "fit_use": [],
+                                 "inspected": False, "confirmation_access": None,
+                                 "parent": None}
+        self._transact(add)
         return out
 
     def derive(self, parent: str, tag: str, card: str | None = None) -> str:
@@ -363,13 +416,17 @@ class Lineages:
         cluster (§6.2). The child's id carries the parent's id; a card that reuses another
         card's worlds (A02 on A01's, T02 on T01's) gets children carrying its own card
         name so the cluster is shared and the tests are never counted as independent."""
-        p = self.rows[parent]
         lid = f"{parent}|{tag}"
-        if lid not in self.rows:
-            self.rows[lid] = {**p, "id": lid, "parent": parent, "generation_hash": None,
-                              "fit_use": [], "inspected": False,
-                              "allocated_at": now_iso(), "card": card or p["card"]}
-            self.save()
+        if lid in self.rows:
+            return lid
+
+        def add(rows):
+            p = rows[parent]
+            if lid not in rows:
+                rows[lid] = {**p, "id": lid, "parent": parent, "generation_hash": None,
+                             "fit_use": [], "inspected": False,
+                             "allocated_at": now_iso(), "card": card or p["card"]}
+        self._transact(add)
         return lid
 
     def check_same_split(self, a: str, b: str) -> None:
@@ -378,18 +435,30 @@ class Lineages:
                                  f"({self.rows[b]['split']}) may not be joined")
 
     def mark_generated(self, lid: str, content_hash: str) -> None:
-        self.rows[lid]["generation_hash"] = content_hash
-        self.save()
+        """Record the construction's content hash (verification 3). Idempotent: an
+        unchanged hash costs no write."""
+        if self.rows.get(lid, {}).get("generation_hash") == content_hash:
+            return
+
+        def mark(rows):
+            rows[lid]["generation_hash"] = content_hash
+        self._transact(mark)
 
     def mark_inspected(self, lids) -> None:
-        for lid in lids:
-            self.rows[lid]["inspected"] = True
-        self.save()
+        lids = list(lids)
+
+        def mark(rows):
+            for lid in lids:
+                rows[lid]["inspected"] = True
+        self._transact(mark)
 
     def mark_fit_use(self, lids, what: str) -> None:
-        for lid in lids:
-            self.rows[lid]["fit_use"].append(what)
-        self.save()
+        lids = list(lids)
+
+        def mark(rows):
+            for lid in lids:
+                rows[lid]["fit_use"].append(what)
+        self._transact(mark)
 
     def check_fresh(self, lids) -> None:
         """Verification 4: a lineage that was inspected or fit on is never fresh."""
@@ -401,16 +470,21 @@ class Lineages:
                     f"split={r['split']}")
 
     def open_confirmation(self, lids, who: str) -> None:
+        lids = list(lids)
+        self.reload()
         self.check_fresh(lids)
-        for lid in lids:
-            self.rows[lid]["confirmation_access"] = {"by": who, "at": now_iso()}
-        self.save()
+
+        def mark(rows):
+            for lid in lids:
+                rows[lid]["confirmation_access"] = {"by": who, "at": now_iso()}
+        self._transact(mark)
 
     def duplicate_content(self) -> list[tuple[str, str]]:
-        """Verification 3: two lineages with identical generated content are one unit."""
+        """Verification 3: two lineages with identical generated content are one unit.
+        Meaningful only where generation_coverage() says the card is checked."""
         seen: dict[str, str] = {}
         dups = []
-        for lid, r in self.rows.items():
+        for lid, r in sorted(self.rows.items()):
             h = r.get("generation_hash")
             if not h or r.get("parent"):
                 continue
@@ -419,6 +493,28 @@ class Lineages:
             else:
                 seen[h] = lid
         return dups
+
+    def generation_coverage(self) -> dict:
+        """Per card and split: how many root lineages carry a content hash, how many
+        distinct hashes, and whether the duplicate control was able to look at every unit
+        of that split (a discovery card is checked once its discovery roots are all hashed;
+        its confirmation reserve is a separate line, hashed only when F01 generates it).
+        The 2026-08-28 audit found the control returning no duplicates because nothing had
+        ever been marked; a packet must say checked or not checked, never infer."""
+        by: dict = {}
+        for lid, r in self.rows.items():
+            if r.get("parent"):
+                continue
+            c = by.setdefault(f"{r['card']}|{r['split']}", {"roots": 0, "hashed": 0, "hashes": set()})
+            c["roots"] += 1
+            if r.get("generation_hash"):
+                c["hashed"] += 1
+                c["hashes"].add(r["generation_hash"])
+        return {card: {"roots": c["roots"], "hashed": c["hashed"],
+                       "distinct": len(c["hashes"]),
+                       "duplicates": c["hashed"] - len(c["hashes"]),
+                       "checked": c["hashed"] == c["roots"] and c["roots"] > 0}
+                for card, c in sorted(by.items())}
 
 
 # ── the queue manifest ────────────────────────────────────────────────────────────────

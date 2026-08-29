@@ -698,15 +698,235 @@ def arm_h07() -> int:
     return 0
 
 
+
+# ── H04/R3: uptake at the individual-suggestion grain (TODO R3, 2026-08-28) ───────────
+# DESIGN CHECK (2026-08-28): the landed H04 represented a dismissed SET of five
+# suggestions by its first member and compared it with individually SELECTED ones, which
+# is not one decision unit (errata H04-S3), so its AUC 0.499 does not measure what the
+# card asked. Two estimands at the right grain, both on the same fit score (mean
+# per-token log-probability of the suggestion under the document so far): (1) WITHIN-SET,
+# for every selection event, the fit rank of the chosen suggestion among the ones the
+# writer saw (chance top-1 = 1/k, chance pairwise = 0.5): did the writer pick the
+# best-fitting of what was offered; (2) BETWEEN-SET, every member of a closed (fully
+# dismissed) set as an individually dismissed item against every selected one (AUC,
+# chance 0.5). NULL: 0.5 and 1/k; ALTERNATIVE: above chance with a session-clustered
+# interval (the writer session is the independent unit); failure direction guarded:
+# first-position and length are recorded per suggestion and their own top-1 rates
+# reported beside fit's, so a fit effect that is a position or length effect is visible.
+# The first attempt (episodes.json, verdict.json) is untouched; this writes sets_b.json,
+# scores_b.jsonl, and verdict_b.json.
+H04B_SETS = 700
+
+
+def _h04b_extract() -> list[dict]:
+    """Every suggestion-open followed by a select or a close, with ALL shown suggestions
+    and the selected index (None for a close); the document so far replayed from deltas."""
+    src = REPO / "corpora" / "coauthor" / "coauthor-v1.0"
+    sets = []
+    for p2 in sorted(src.glob("*.jsonl")):
+        try:
+            events = [json.loads(x)
+                      for x in p2.read_text(encoding="utf-8").splitlines()]
+        except Exception:                                                         # noqa: BLE001
+            continue
+        doc = ""
+        pending = None
+        for ev in events:
+            if ev.get("currentDoc"):
+                doc = ev["currentDoc"]
+            td = ev.get("textDelta")
+            if isinstance(td, dict):
+                pos = 0
+                try:
+                    for op in td.get("ops", []):
+                        if "retain" in op:
+                            pos += op["retain"]
+                        elif "insert" in op:
+                            doc = doc[:pos] + op["insert"] + doc[pos:]
+                            pos += len(op["insert"])
+                        elif "delete" in op:
+                            doc = doc[:pos] + doc[pos + op["delete"]:]
+                except Exception:                                                 # noqa: BLE001
+                    pass
+            name = ev.get("eventName")
+            if name == "suggestion-open":
+                pending = (doc, ev.get("currentSuggestions") or [])
+            elif name in ("suggestion-select", "suggestion-close") and pending:
+                snap, sugs = pending
+                pending = None
+                texts = []
+                for s in sugs:
+                    t = (s.get("trimmed") or s.get("original") or "") if isinstance(s, dict) else str(s)
+                    texts.append(t.strip())
+                if len(snap.strip()) < 80 or len(texts) < 2 or any(len(t) < 20 for t in texts):
+                    continue
+                idx = None
+                if name == "suggestion-select":
+                    idx = ev.get("currentSuggestionIndex")
+                    if not isinstance(idx, int) or not (0 <= idx < len(texts)):
+                        continue
+                sets.append({"session": p2.stem, "context": snap, "suggestions": texts,
+                             "selected": idx})
+    return sets
+
+
+def _h04b_cluster_ci(values_by_session: dict, seed: int, n: int = 2000) -> dict:
+    """Mean of per-session means with a session-resampling interval."""
+    sess = sorted(values_by_session)
+    means = [sum(values_by_session[s]) / len(values_by_session[s]) for s in sess]
+    if not means:
+        return {"point": None, "lo": None, "hi": None, "n_sessions": 0}
+    rng = random.Random(seed)
+    boots = []
+    for _ in range(n):
+        smp = [means[rng.randrange(len(means))] for _ in means]
+        boots.append(sum(smp) / len(smp))
+    boots.sort()
+    return {"point": sum(means) / len(means), "lo": boots[int(0.025 * n)],
+            "hi": boots[min(n - 1, int(0.975 * n))], "n_sessions": len(means)}
+
+
+def arm_h04b() -> int:
+    cell = "E24-S3-H04/R3"
+    t0 = time.time()
+    out = OUT_H / "H04"
+    out.mkdir(parents=True, exist_ok=True)
+    import torch                                                                  # noqa: PLC0415
+    from transformers import AutoModelForCausalLM, AutoTokenizer                  # noqa: PLC0415
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock           # noqa: PLC0415
+    sets_path = out / "sets_b.json"
+    if sets_path.exists():
+        sets = json.loads(sets_path.read_text(encoding="utf-8"))
+    else:
+        sets = _h04b_extract()
+        sets_path.write_text(json.dumps(sets, ensure_ascii=False),
+                             encoding="utf-8", newline="\n")
+    sel_sets = [s for s in sets if s["selected"] is not None]
+    cls_sets = [s for s in sets if s["selected"] is None]
+    print(f"H04b sets: {len(sets)} ({len(sel_sets)} selections, {len(cls_sets)} closes)")
+    rng = random.Random(SEED0 + 14)
+    n_side = min(len(sel_sets), len(cls_sets), H04B_SETS)
+    if n_side < 100:
+        (out / "verdict_b.json").write_text(json.dumps(
+            {"cell": cell, "status": "INSTRUMENT-FAILED",
+             "reason": f"only {n_side} decidable sets per side"}, indent=1),
+            encoding="utf-8", newline="\n")
+        set_status(cell, "INSTRUMENT_FAILED",
+                   closure_reason="too few decidable sets for a balanced read",
+                   actual_gpu_minutes=(time.time() - t0) / 60)
+        return 0
+    sample = [(s, "select") for s in rng.sample(sel_sets, n_side)] + \
+             [(s, "close") for s in rng.sample(cls_sets, n_side)]
+    mk = READERS[0]
+    scores_path = out / "scores_b.jsonl"
+    scored = []
+    acquire_gpu_lock("s3_h04b")
+    try:
+        tok = AutoTokenizer.from_pretrained(mk)
+        model = AutoModelForCausalLM.from_pretrained(
+            mk, dtype=torch.float16).to("cuda").eval()
+        for si, (s, kind) in enumerate(sample):
+            ctx = s["context"][-2000:]
+            ids_c = tok(ctx, return_tensors="pt", add_special_tokens=False,
+                        truncation=True, max_length=1200).input_ids.to("cuda")
+            n_c = ids_c.shape[1]
+            fits = []
+            for j, sug in enumerate(s["suggestions"]):
+                cand = tok(" " + sug, return_tensors="pt", add_special_tokens=False,
+                           truncation=True, max_length=120).input_ids.to("cuda")
+                full = torch.cat([ids_c, cand], dim=1)
+                with torch.no_grad():
+                    logits = model(full).logits.float()
+                lp = torch.log_softmax(logits[0, :-1], dim=-1)
+                tgt = full[0, 1:]
+                fit = sum(lp[i, tgt[i]].item()
+                          for i in range(n_c - 1, full.shape[1] - 1)) / cand.shape[1]
+                fits.append({"j": j, "fit": fit, "len": len(sug.split())})
+            rec = {"set_i": si, "session": s["session"], "kind": kind,
+                   "selected": s["selected"], "k": len(fits), "fits": fits}
+            scored.append(rec)
+            with open(scores_path, "a", encoding="utf-8", newline="\n") as fh:
+                fh.write(json.dumps(rec) + "\n")
+        del model
+        torch.cuda.empty_cache()
+    finally:
+        release_gpu_lock()
+    # (1) within-set: rank of the selected suggestion by fit among its siblings
+    within: dict = {"pairwise": {}, "top1": {}, "chance_top1": [], "top1_first_position": {},
+                    "top1_longest": {}, "top1_shortest": {}}
+    for rec in scored:
+        if rec["kind"] != "select":
+            continue
+        sel = rec["fits"][rec["selected"]]
+        others = [f for f in rec["fits"] if f["j"] != rec["selected"]]
+        pw = sum(1 for f in others if f["fit"] < sel["fit"]) / len(others)
+        top = all(f["fit"] < sel["fit"] for f in others)
+        within["pairwise"].setdefault(rec["session"], []).append(pw)
+        within["top1"].setdefault(rec["session"], []).append(float(top))
+        within["chance_top1"].append(1.0 / rec["k"])
+        within["top1_first_position"].setdefault(rec["session"], []).append(float(rec["selected"] == 0))
+        within["top1_longest"].setdefault(rec["session"], []).append(
+            float(sel["len"] >= max(f["len"] for f in rec["fits"])))
+        within["top1_shortest"].setdefault(rec["session"], []).append(
+            float(sel["len"] <= min(f["len"] for f in rec["fits"])))
+    within_out = {k: _h04b_cluster_ci(v, SEED0 + 15 + i) for i, (k, v) in enumerate(within.items())
+                  if k != "chance_top1"}
+    within_out["chance_top1"] = sum(within["chance_top1"]) / max(1, len(within["chance_top1"]))
+    within_out["n_selection_sets"] = len(within["chance_top1"])
+    # (2) between-set: selected suggestions against every individually dismissed one
+    sel_fit = [(rec["session"], rec["fits"][rec["selected"]]["fit"]) for rec in scored if rec["kind"] == "select"]
+    dis_fit = [(rec["session"], f["fit"]) for rec in scored if rec["kind"] == "close" for f in rec["fits"]]
+    import bisect                                                                 # noqa: PLC0415
+    srt = sorted(v for _, v in dis_fit)
+
+    def auc_of(pos):
+        return sum(bisect.bisect_left(srt, a) + 0.5 * (bisect.bisect_right(srt, a) - bisect.bisect_left(srt, a))
+                   for a in pos) / (len(pos) * len(srt)) if pos and srt else None
+    auc = auc_of([v for _, v in sel_fit])
+    # session-clustered interval: resample selection sessions
+    by_sess: dict = {}
+    for s, v in sel_fit:
+        by_sess.setdefault(s, []).append(v)
+    sess = sorted(by_sess)
+    rng2 = random.Random(SEED0 + 16)
+    boots = []
+    for _ in range(1000):
+        smp = [by_sess[sess[rng2.randrange(len(sess))]] for _ in sess]
+        boots.append(auc_of([v for grp in smp for v in grp]))
+    boots.sort()
+    between = {"auc_selected_vs_individually_dismissed": auc,
+               "ci": [boots[25], boots[974]] if boots else None,
+               "n_selected": len(sel_fit), "n_dismissed_items": len(dis_fit),
+               "n_sessions": len(sess),
+               "mean_fit_selected": sum(v for _, v in sel_fit) / max(1, len(sel_fit)),
+               "mean_fit_dismissed": sum(v for _, v in dis_fit) / max(1, len(dis_fit))}
+    above_pair = within_out["pairwise"]["lo"] is not None and within_out["pairwise"]["lo"] > 0.5
+    above_auc = between["ci"] is not None and between["ci"][0] > 0.5
+    (out / "verdict_b.json").write_text(json.dumps(
+        {"cell": cell, "reader": mk, "n_sets_scored": len(scored),
+         "within_set": within_out, "between_set": between,
+         "reading": {"within_set_above_chance": above_pair, "between_set_above_chance": above_auc,
+                     "note": "position and length top-1 rates sit beside fit's; a fit effect no larger "
+                             "than the first-position rate is not a contextual-fit effect"},
+         "first_attempt_pointer": "results/phase_2_4_stage_3/H/H04/verdict.json",
+         "first_attempt_auc": 0.499,
+         "decision_unit": "the individual suggestion, within the set the writer saw"},
+        indent=1), encoding="utf-8", newline="\n")
+    set_status(cell, "LANDED", actual_gpu_minutes=(time.time() - t0) / 60)
+    print(f"H04/R3 landed: within pairwise {within_out['pairwise']}, top1 {within_out['top1']} "
+          f"(chance {within_out['chance_top1']:.3f}); between AUC {auc}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
                     choices=["h01_data", "h01_read", "h02", "h03", "h04",
-                             "h05", "h06", "h07"])
+                             "h04b", "h05", "h06", "h07"])
     a = ap.parse_args()
     return {"h01_data": arm_h01_data, "h01_read": arm_h01_read,
-            "h02": arm_h02, "h03": arm_h03, "h04": arm_h04, "h05": arm_h05,
-            "h06": arm_h06, "h07": arm_h07}[a.arm]()
+            "h02": arm_h02, "h03": arm_h03, "h04": arm_h04, "h04b": arm_h04b,
+            "h05": arm_h05, "h06": arm_h06, "h07": arm_h07}[a.arm]()
 
 
 if __name__ == "__main__":

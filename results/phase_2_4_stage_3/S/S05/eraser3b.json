@@ -1,0 +1,49 @@
+{
+ "cell": "E24-S3-S05/X3b",
+ "eraser": "allenai/OLMo-2-0425-1B-Instruct",
+ "kept": 143,
+ "dropped_unrealized": 107,
+ "dropped_too_similar": 0,
+ "n_artifacts": 250,
+ "attempt_budget": 8,
+ "attempts_histogram": {
+  "1": 88,
+  "2": 25,
+  "3": 10,
+  "4": 5,
+  "5": 7,
+  "6": 4,
+  "7": 1,
+  "8": 3
+ },
+ "realized_on_first_attempt": 88,
+ "first_attempt_yield": 0.352,
+ "survivor_floor": 40,
+ "survivors_by_family": {
+  "qwen": 82,
+  "smollm": 61
+ },
+ "contrast": {
+  "qwen": {
+   "n": 82,
+   "own_minus_other": 0.0007077564957342167,
+   "perm_p": 0.6090695465226739,
+   "above_floor": true,
+   "own_readers_per_artifact": 4.0,
+   "band": "ZERO"
+  },
+  "smollm": {
+   "n": 61,
+   "own_minus_other": 0.0013829446260798205,
+   "perm_p": 0.36203189840507977,
+   "above_floor": true,
+   "own_readers_per_artifact": 3.0,
+   "band": "ZERO"
+  }
+ },
+ "powered": true,
+ "perm_seed": 17399,
+ "own_side": "mean over same-family readers per artifact (L236)",
+ "first_attempt_pointer": "results/phase_2_4_stage_3/S/S05/eraser3.json",
+ "status": "LANDED"
+}

@@ -1343,15 +1343,221 @@ def arm_a06x4() -> int:
     return 0
 
 
+
+# ── A07/R5: held-out maker prediction under congruent and incongruent steering ────────
+# DESIGN CHECK (2026-08-28): A07 measured own-impulse steering on the reader's forced
+# choice and never the prediction of a held-out maker the card asked for (errata
+# A07-S3), so the affect-to-inversion bridge was OPEN by omission. Here the reader
+# infers the tendency of a maker it was not fit on: centroids and directions are fit on
+# one maker's A01 artifacts (SmolLM's 96 or Qwen's 48) and tested on the other's (two
+# folds), bodies stripped of the tendency phrase (a lookup otherwise). Readouts per
+# held-out artifact: nearest-centroid decoding at the A07 locus; the prompted four-way
+# inference (label likelihood, randomized order); and that inference under additive
+# steering with the direction of the TRUE tendency (congruent), of another tendency
+# (incongruent, the next in a fixed cycle), a norm-matched random direction orthogonal
+# to the congruent one, and zero, at the largest dose passing A07's capability
+# tolerance for that fold. Balanced accuracy and the truth's log score, per fold and per
+# tendency, paired over artifacts. NULL: congruent minus zero 0 on the truth's log
+# score; ALTERNATIVE (selective causal use): congruent above zero and incongruent below
+# it with random near zero; failure direction guarded: a generic effect (random moves as
+# much as congruent) is affect steering, not the project mechanism, and reads as such;
+# a decode below chance on the held-out maker voids the steering read for that fold.
+# Two makers, one reader checkpoint, one artifact domain: the card's floor (two domains,
+# two checkpoints) is not met and the receipt says so. A07's verdict.json is untouched;
+# this writes verdict_b.json and rows_b.jsonl.
+A07B_CYCLE = {"anger": "care", "care": "curiosity", "curiosity": "fear", "fear": "anger"}
+
+
+def _a07b_balanced(rows, key_pred="pred"):
+    tends = sorted(TENDENCIES)
+    accs = []
+    for t in tends:
+        sub = [r for r in rows if r["truth"] == t]
+        if sub:
+            accs.append(sum(1 for r in sub if r[key_pred] == t) / len(sub))
+    return sum(accs) / len(accs) if accs else None
+
+
+def arm_a07b() -> int:
+    cell = "E24-S3-A07/R5"
+    t0 = time.time()
+    out = OUT_A / "A07"
+    out.mkdir(parents=True, exist_ok=True)
+    import torch                                                                  # noqa: PLC0415
+    from transformers import AutoModelForCausalLM, AutoTokenizer                  # noqa: PLC0415
+    from soundingline.probe.interventions import capture_block_states             # noqa: PLC0415
+    from soundingline.gpulock import acquire_gpu_lock, release_gpu_lock           # noqa: PLC0415
+    from contextlib import ExitStack                                              # noqa: PLC0415
+    from runners import s4_lib                                                    # noqa: PLC0415
+    from runners.s3_lib import perm_p                                             # noqa: PLC0415
+    a02p = OUT_A / "A02" / "anchor.json"
+    a02v = json.loads(a02p.read_text(encoding="utf-8")).get("verdict") if a02p.exists() else None
+    if a02v != "ANCHOR-STANDS":
+        (out / "verdict_b.json").write_text(json.dumps(
+            {"cell": cell, "status": "INSTRUMENT-FAILED",
+             "reason": f"A02 steering anchor did not stand ({a02v})"}, indent=1),
+            encoding="utf-8", newline="\n")
+        set_status(cell, "INSTRUMENT_FAILED", closure_reason=f"blocked by A02 ({a02v})",
+                   actual_gpu_minutes=0.0)
+        return 0
+    arts = []
+    for p2 in sorted((OUT_A / "A01").glob("art_*.json")):
+        d = json.loads(p2.read_text(encoding="utf-8"))
+        body = _a03_strip(d["body"])
+        if len(body) > 80 and d["tendency"] in TENDENCIES:
+            arts.append({"tend": d["tendency"], "body": body, "maker": d["maker"],
+                         "fam": "qwen" if "qwen" in d["maker"].lower() else "smollm",
+                         "file": p2.name})
+    folds = (("smollm", "qwen"), ("qwen", "smollm"))
+    tends = sorted(TENDENCIES)
+    rows_path = out / "rows_b.jsonl"
+    rows = []
+    acquire_gpu_lock("s3_a07b")
+    try:
+        tok = AutoTokenizer.from_pretrained(ANCHOR_MODEL)
+        if tok.pad_token is None:
+            tok.pad_token = tok.eos_token
+        model = AutoModelForCausalLM.from_pretrained(
+            ANCHOR_MODEL, dtype=torch.float16).to("cuda").eval()
+        states = [[h.mean(0) for h in capture_block_states(model, tok, a["body"], device="cuda")]
+                  for a in arts]
+        n_blocks = len(states[0])
+        third = n_blocks // 3
+        locus = list(range(third, 2 * third, 2))
+        fold_info = {}
+        for fit_fam, test_fam in folds:
+            fit_idx = [i for i, a in enumerate(arts) if a["fam"] == fit_fam]
+            test_idx = [i for i, a in enumerate(arts) if a["fam"] == test_fam]
+            cents = {}
+            dirs = {}
+            for b in locus:
+                cb = {}
+                for t in tends:
+                    idx = [i for i in fit_idx if arts[i]["tend"] == t]
+                    cb[t] = torch.stack([states[i][b] for i in idx]).mean(0)
+                cents[b] = cb
+                allm = torch.stack(list(cb.values())).mean(0)
+                dirs[b] = {t: (cb[t] - allm) / (cb[t] - allm).norm() for t in tends}
+            mean_norm = float(torch.stack([states[i][locus[0]] for i in fit_idx]).norm(dim=1).mean())
+
+            def steer_ctx(direction_of_block, alpha):
+                stack = ExitStack()
+                if direction_of_block is None or alpha == 0.0:
+                    return stack
+                for b in locus:
+                    stack.enter_context(additive_steer(model, [b], direction_of_block[b], alpha))
+                return stack
+
+            def fact_logp(t, alpha):
+                with steer_ctx({b: dirs[b][t] for b in locus} if t else None, alpha):
+                    vals = [_mean_logp(model, tok, "A plain fact: ", f) for f in FACT_CONT]
+                return sum(vals) / len(vals)
+
+            base_fact = fact_logp(None, 0.0)
+            ladder = {}
+            alpha = None
+            chosen_frac = None
+            for frac in (0.12, 0.08, 0.04):
+                a_try = frac * mean_norm
+                worst = min(fact_logp(t, a_try) for t in tends)
+                ok = worst >= base_fact - 0.15 * abs(base_fact)
+                ladder[str(frac)] = {"alpha": a_try, "worst_fact_logp": worst, "capability_ok": ok}
+                if ok and alpha is None:
+                    alpha, chosen_frac = a_try, frac
+            fold_info[f"{fit_fam}->{test_fam}"] = {
+                "n_fit": len(fit_idx), "n_test": len(test_idx), "locus": locus,
+                "alpha": alpha, "dose_frac": chosen_frac, "dose_ladder": ladder}
+            for i in test_idx:
+                a = arts[i]
+                # (1) nearest-centroid decode over the locus
+                dist = {t: sum(float((states[i][b] - cents[b][t]).norm()) for b in locus) for t in tends}
+                decode_pred = min(dist, key=dist.get)
+                body = (f"Someone wrote this short passage about a situation they were in:\n"
+                        f"\"{a['body']}\"\n\nWhich impulse was driving the writer?")
+                rng = random.Random(SEED0 + 7000 + i)
+                conds = {"zero": None}
+                if alpha is not None:
+                    g = torch.Generator().manual_seed(SEED0 + 7100 + i)
+                    rand_dirs = {}
+                    for b in locus:
+                        d = dirs[b][a["tend"]]
+                        r = torch.randn(d.shape[0], generator=g)
+                        r = r - (r @ d) * d
+                        rand_dirs[b] = r / r.norm()
+                    conds["congruent"] = {b: dirs[b][a["tend"]] for b in locus}
+                    conds["incongruent"] = {b: dirs[b][A07B_CYCLE[a["tend"]]] for b in locus}
+                    conds["random"] = rand_dirs
+                for cond, dmap in conds.items():
+                    with steer_ctx(dmap, alpha or 0.0):
+                        r = s4_lib.likelihood_choice(model, tok, body, dict(TENDENCIES),
+                                                     random.Random(rng.randrange(10 ** 9)))
+                    row = {"fold": f"{fit_fam}->{test_fam}", "art": a["file"], "maker": a["maker"],
+                           "truth": a["tend"], "cond": cond, "decode_pred": decode_pred,
+                           "pred": r["pred"] if r["valid"] else None,
+                           "log_score_truth": (s4_lib.log_score(r["probs"], a["tend"]) if r["valid"] else None),
+                           "p_truth": r["probs"][a["tend"]] if r["valid"] else None,
+                           "valid": bool(r["valid"])}
+                    rows.append(row)
+                    with open(rows_path, "a", encoding="utf-8", newline="\n") as fh:
+                        fh.write(json.dumps(row) + "\n")
+        del model
+        torch.cuda.empty_cache()
+    finally:
+        release_gpu_lock()
+    verdict = {"cell": cell, "reader": ANCHOR_MODEL, "n_artifacts": len(arts),
+               "folds": fold_info, "per_fold": {}, "pooled": {}}
+    for fold in fold_info:
+        fr = [r for r in rows if r["fold"] == fold and r["valid"]]
+        zero = [r for r in fr if r["cond"] == "zero"]
+        decode_rows = [{"truth": r["truth"], "pred": r["decode_pred"]} for r in zero]
+        per = {"decode_balanced_acc": _a07b_balanced(decode_rows),
+               "prompted_balanced_acc_zero": _a07b_balanced(zero),
+               "mean_log_score_zero": sum(r["log_score_truth"] for r in zero) / max(1, len(zero)),
+               "per_tendency_zero": {t: {"n": sum(1 for r in zero if r["truth"] == t),
+                                         "acc": (sum(1 for r in zero if r["truth"] == t and r["pred"] == t)
+                                                 / max(1, sum(1 for r in zero if r["truth"] == t)))}
+                                     for t in tends},
+               "conditions": {}}
+        zero_by = {r["art"]: r for r in zero}
+        for cond in ("congruent", "incongruent", "random"):
+            cr = [r for r in fr if r["cond"] == cond]
+            if not cr:
+                continue
+            diffs = [r["log_score_truth"] - zero_by[r["art"]]["log_score_truth"] for r in cr if r["art"] in zero_by]
+            obs, pv = perm_p(diffs, SEED0 + 7200) if len(diffs) >= 2 else (None, None)
+            per["conditions"][cond] = {"n": len(diffs), "balanced_acc": _a07b_balanced(cr),
+                                       "log_score_minus_zero": obs, "perm_p": pv}
+        c = per["conditions"]
+        per["selective_signature"] = bool(
+            c.get("congruent", {}).get("log_score_minus_zero") is not None
+            and c["congruent"]["log_score_minus_zero"] > 0 and c["congruent"]["perm_p"] < 0.05
+            and c.get("incongruent", {}).get("log_score_minus_zero", 0) < 0
+            and abs(c.get("random", {}).get("log_score_minus_zero", 0)) < c["congruent"]["log_score_minus_zero"] / 2)
+        per["decode_void"] = (per["decode_balanced_acc"] or 0) < 0.25
+        verdict["per_fold"][fold] = per
+    allv = [r for r in rows if r["valid"]]
+    verdict["pooled"] = {"decode_balanced_acc": _a07b_balanced(
+                             [{"truth": r["truth"], "pred": r["decode_pred"]} for r in allv if r["cond"] == "zero"]),
+                         "prompted_balanced_acc_zero": _a07b_balanced([r for r in allv if r["cond"] == "zero"]),
+                         "selective_in_folds": [f for f, p in verdict["per_fold"].items() if p["selective_signature"]]}
+    verdict["floor_note"] = ("two makers, one reader checkpoint, one artifact domain: the card's two-domain, "
+                             "two-checkpoint floor is not met; this is the first held-out maker read, not a closure")
+    verdict["first_attempt_pointer"] = "results/phase_2_4_stage_3/A/A07/verdict.json"
+    (out / "verdict_b.json").write_text(json.dumps(verdict, indent=1), encoding="utf-8", newline="\n")
+    set_status(cell, "LANDED", actual_gpu_minutes=(time.time() - t0) / 60)
+    print(f"A07/R5 landed: {json.dumps(verdict['pooled'])}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--arm", required=True,
                     choices=["a01", "a02", "a03", "a04", "a05", "a06",
-                             "a06x4", "a07"])
+                             "a06x4", "a07", "a07b"])
     a = ap.parse_args()
     return {"a01": arm_a01, "a02": arm_a02, "a03": arm_a03, "a04": arm_a04,
             "a05": arm_a05, "a06": arm_a06, "a06x4": arm_a06x4,
-            "a07": arm_a07}[a.arm]()
+            "a07": arm_a07, "a07b": arm_a07b}[a.arm]()
 
 
 if __name__ == "__main__":

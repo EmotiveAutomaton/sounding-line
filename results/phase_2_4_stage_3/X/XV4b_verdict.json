@@ -1,0 +1,138 @@
+{
+ "cell": "E24-S3-XV4/R4",
+ "design": "leave-one-seed-out over six seeds, twelve decisions per readout, all length-matched sequences, exact within-pair swap null (64)",
+ "trivial_scalar": {
+  "hits": 11,
+  "of": 12,
+  "acc": 0.9166666666666666,
+  "swap_null_p": 0.03125,
+  "decisions": {
+   "trait_s1": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s1": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s2": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s2": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s3": {
+    "pred": "control",
+    "hit": false
+   },
+   "control_s3": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s4": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s4": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s5": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s5": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s6": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s6": {
+    "pred": "control",
+    "hit": true
+   }
+  }
+ },
+ "lengthmatched_representation": {
+  "hits": 11,
+  "of": 12,
+  "acc": 0.9166666666666666,
+  "swap_null_p": 0.03125,
+  "decisions": {
+   "trait_s1": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s1": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s2": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s2": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s3": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s3": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s4": {
+    "pred": "control",
+    "hit": false
+   },
+   "control_s4": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s5": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s5": {
+    "pred": "control",
+    "hit": true
+   },
+   "trait_s6": {
+    "pred": "trait",
+    "hit": true
+   },
+   "control_s6": {
+    "pred": "control",
+    "hit": true
+   }
+  }
+ },
+ "n_matched_per_file": {
+  "trait_s1": 257,
+  "control_s1": 257,
+  "trait_s2": 241,
+  "control_s2": 241,
+  "trait_s3": 241,
+  "control_s3": 241,
+  "trait_s4": 249,
+  "control_s4": 249,
+  "trait_s5": 231,
+  "control_s5": 231,
+  "trait_s6": 244,
+  "control_s6": 244
+ },
+ "carrier_nontrivial": false,
+ "reading": "surface scalars separate too: the carrier is not shown nontrivial",
+ "first_attempt_pointer": "results/phase_2_4_stage_3/X/XV4_verdict.json",
+ "first_attempt": {
+  "trivial_scalar_testacc": 0.75,
+  "lengthmatched_representation_testacc": 0.5,
+  "decisions": 4
+ }
+}

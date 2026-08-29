@@ -443,6 +443,38 @@ L132 (a shuffle gate that voided the alternative's own signature).
   two geometry rules happened to be right, and read +0.05 against the single rule's +0.20;
   the single comparator is chosen on the training split and the per-item best is kept as
   the severe form. (L238)
+- **Count a construction's identity space against its unit count before the run, per
+  domain and per split, and let the unit be the construction, not the id.** A constructor
+  that drew its rule family from a four-deep pool and ignored its domain rendered 128
+  lesson worlds as 54 distinct texts and its 256 confirmation worlds as twins of discovery
+  worlds; with greedy readers and deterministic readouts a twin adds no information, so the
+  cluster bootstrap resampled 128 units that were 54 and the interval was too narrow by
+  the square root of the ratio. The fix is structural: enumerate the identity (a seeded
+  permutation of the space, split blocks disjoint, over-allocation raising), hash every
+  construction's content onto its lineage, cluster every interval on the hash, and audit
+  the whole ledger by rebuilding from ids before the clock starts. And the reason it was
+  missed is the recurring one: the duplicate-content control existed and was never called,
+  so it returned no duplicates over a ledger it had never looked at, a criterion that
+  could not fire wearing the face of a clean result. A control reports what it checked
+  beside what it found. (L244 correction, TODO R7; s4_worlds.py, s4_run_common.py,
+  tools/s4_construction_audit.py, 2026-08-28)
+- **A primary frozen against a matched-cost comparator must also be read against the plain
+  route, or a mechanism that only hurts less than its comparator reads as support.** T02's
+  source-reconstruction route beat its equally expensive factual-summary route by 0.62 nats
+  and landed SUPPORT_CANDIDATE on the frozen band, while both routes lost to the direct read
+  (reconstruction by a quarter of a nat, the summary by up to a nat) and the readers never
+  inferred the rule at all; the card had frozen the comparator to match cost, which is right,
+  and had no clause requiring the treated route to clear the untreated one, which is the
+  hole. Every route contrast carries the plain-route row beside the matched one, and the
+  roll-up class is read off both. (L245, s4_run_t.py)
+- **Steering with the true class's direction is an oracle intervention; the causal-use claim
+  lives in the controls, never in the congruent arm alone.** Adding the held-out maker's true
+  tendency direction raised the reader's log score on that tendency by up to 0.8 nats, which
+  on its own says only that the label's direction moves the label; the claim that the
+  representation is USED is the difference between that and a norm-matched random direction
+  (quiet) and the wrong tendency's direction (quiet or negative), plus the decode of the same
+  directions reported beside it. Write the selective signature as the primary and the
+  congruent arm as one of its three legs. (L255, s3_run_a.py arm a07b)
 
 ## §4. Before the model arm
 
@@ -591,6 +623,13 @@ L132 (a shuffle gate that voided the alternative's own signature).
   structurally. (the waiter bug, 08-10; the ungated commit, 08-14)
 - **Long jobs run in the background and wake the agent**; results are written through the same
   message they land, and a queue log line counts as landing. (CLAUDE.md grind contract)
+- **Useless compute stops the moment it is known useless, before the cell finishes; repair,
+  then the real run** (his ruling, 2026-08-28). A cell 94 minutes into a two-hour run on
+  worlds a repair would rebuild was killed rather than allowed to land, because a landed
+  result that must be superseded costs a reset and a correction on top of the compute; the
+  scheduler's `reset` op preserves the first attempt and re-plans the cell so the stop is
+  cheap. Corollary for tools that take a root argument: every side effect, the log included,
+  goes to that root, or a guard test writes a line into the live run's log (it did).
 - **Gear 3 (cloud burst) runs ONLY through `runners/gear3.py`, never a bare modal call.** The
   wrapper is where the curator's stone rules live: per-use approval required, the $10 window
   with launch-time reservation under a file lock (parallel chains cannot both pass the

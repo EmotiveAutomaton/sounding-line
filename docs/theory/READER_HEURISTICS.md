@@ -171,8 +171,9 @@ family's readers, and the within-reader adversary, where reader quality cannot m
 own-family effect in five of eight readers. The gradient is monotone inside every family
 separately (L218), and exact weights beat same-family siblings inside both measurable families
 (L217). Survival under weaker rewriting does not generalize: the strongest independent eraser
-attenuates the advantage nearly to zero, with only 88 of 250 artifacts retained and the Smol
-survivor count below its declared floor (L225). The summary bottleneck was not uniformly fifteen
+removes the advantage, first with only 88 of 250 artifacts retained and the Smol survivor
+count below its declared floor (L225), then with the yield raised to 143 and both families
+above floor, own-minus-other 0.001 in each (L251). The summary bottleneck was not uniformly fifteen
 words. Family averages required corrected aggregation before renewed numerical or significance
 claims, and that correction has since landed: the first read kept one reader per artifact and
 called SmolLM weak, while the corrected full-matrix margins are qwen +0.0137, smollm +0.0096,
@@ -443,9 +444,10 @@ the reason to expect modest effects.
 | **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION where evidence is absent (test, L155); MIXED at 0.44 where evidence is strong (test, L157); the wing is PAUSED.** With nothing readable to resist it, a false card steers 95 percent as hard as a true one and erases the reader's abstention. Against evidence the reader provably reads at 0.86, a false note still costs forty-two points, wins the toss-up at 0.53, and the conflict is named only 0.15 of the time even when the format offers the option; a true note lifts the reader to 0.99, so any supplied note is treated as high-grade evidence regardless of truth. Context-trust is a separate defect from evidence-reading in this family |
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
 | **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism |
-| **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size.** Bundle minus facts +0.10 nats with the interval crossing zero over 128 worlds; an incorrect bundle helps as much as the correct facts (+0.72 each over no context) and irrelevant background helps by half a nat, so the readers take the frame and not the content |
-| **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **COUNTEREVIDENCE (test, L241), full size.** Six records after a misleading prior lower the direct log score by 0.20 nats (interval below zero) while the exact ruler climbs 0.13; the valid prior's curve is flat; a misleading prior helps at zero records as much as a valid one; neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
-| **HH-25** | Reliable maker context is especially useful after an initial artifact/self prior has formed, during maker differentiation | **OPEN for differentiation order (test, L195, L209, L211, L213, L214).** Ordering observations stand: the record-reading reader drops 0.67 to 0.40 when the question precedes the record, biography trades at parity with a six-choice record in both directions, and the late-fusion ruler fails on a second domain too (L229). The easy updating gate failed. Recall does not establish functional evidence use, so the recall split cannot isolate weighing from attention or comprehension. The stored readout follows an outsider's wish at 40/48, and an explicitly ignorant outsider's wish at 45/47 (L231). Missing raw generations and a phrase-matching parser leave compliance, answer contamination, task confusion, and extraction error unresolved. This is not a clean measure of belief adoption or the reader's self-projection |
+| **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size and expanded.** Bundle minus facts +0.10 nats over 128 worlds and +0.09 over 256, the interval crossing zero both times; an incorrect bundle helps as much as the correct facts (+0.59 to +0.72 over no context) and irrelevant background helps by a third to a half of a nat, so the readers take the frame and not the content |
+| **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **REFUTED as a flat curve (test, L241): COUNTEREVIDENCE at 128 worlds, INCONCLUSIVE at 256.** Six records after a misleading prior move the direct log score -0.20 nats at 128 worlds and -0.08 with the interval crossing zero at 256, while the exact ruler climbs 0.13 to 0.16; the valid prior's curve is flat (0.00); a misleading prior helps at zero records as much as a valid one (+0.38 against +0.32); neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
+| **C03** | The readers choose evidence by its expected information about the maker (active reading) | **COUNTEREVIDENCE (test, L246), 204 usable worlds of 256.** The redundant probe is chosen 0.78 of the time and the informative one 0.08, half of every pick going to the first listed; 8 percent of the exact selector's expected gain is captured, a quarter below a random pick; the realized gains are flat at this size |
+| **HH-25** | Reliable maker context is especially useful after an initial artifact/self prior has formed, during maker differentiation | **OPEN for differentiation order (test, L195, L209, L211, L213, L214).** Ordering observations stand: the record-reading reader drops 0.67 to 0.40 when the question precedes the record, biography trades at parity with a six-choice record in both directions, and the late-fusion ruler fails on a second domain too (L229). The easy updating gate failed. Recall does not establish functional evidence use, so the recall split cannot isolate weighing from attention or comprehension. The stored readout follows an outsider's wish at 40/48, and an explicitly ignorant outsider's wish at 45/47 (L231). The re-run with every generation persisted and a parser-free likelihood readout (L252) keeps the numbers, 0.79 and 0.92 hint-following, with refusals and contamination small and separated, so the override is the readers' and not the parser's; what no readout of the answer separates is belief adoption from compliance, which stays open |
 
 **What the table says.** The section's first numbers land on the context-reweighting rule's
 failure side, now measured at both ends of the evidence axis. Where the artifact offers
@@ -462,23 +464,30 @@ the interface does not know. The Stage-3 wish rows point the same way but cannot
 psychological reading: the stored readout follows an outsider's wish at 40/48 and an explicitly
 ignorant outsider's wish at 45/47, and with the raw generations missing and a phrase-matching
 parser standing in for them, compliance, answer contamination, task confusion, and extraction
-error are all unresolved. That is a compromised readout, not resolved belief updating. Stage 4's first full-size context card lands on the
+error were all unresolved until the repaired readout kept the numbers parser-free (0.79 and
+0.92 hint-following, L252); the override is measured, and belief adoption against compliance
+stays unseparated. Stage 4's first full-size context card lands on the
 same side from a third direction: with content and framing separated by construction, a
 coherent maker model beats the same facts by a tenth of a nat with the interval crossing
 zero, and a wrong model helps exactly as much as the right facts, so what these readers
 take from context is the frame and not the content (C01); and the second card shows the
-trap: six individuating records after a misleading prior make the prediction worse, not
-better, while the valid curve is flat and the exact ruler climbs, so these readers neither
-correct a wrong prior nor use the records at all (C02), and the adjustment mechanism this
-section proposes has no model-side analogue at this scale; the reweighting rule's
-useful-cue half is untested by them because they do not read the cue. The confidence series remains the cheapest unbuilt instrument in the file, the uptake-lag row is
+trap: six individuating records after a misleading prior leave the prediction where it was
+(worse at the first size, flat at the second) while the valid curve is flat and the exact
+ruler climbs, so these readers do not use the records at all (C02); and the third card
+closes the track from the selection side: offered a probe that would tell them the most
+about the maker, they take the one that restates what they already have, three times in
+four, and capture eight percent of the available information (C03). The adjustment
+mechanism this section proposes has no model-side analogue at this scale, from any of the
+three directions it could have shown; the reweighting rule's useful-cue half is untested by
+them because they do not read the cue. The confidence series remains the cheapest unbuilt instrument in the file, the uptake-lag row is
 a human hypothesis rather than an interpretation of the model-context failure, and the external
 mean-pooling result remains a reason to expect modest series effects rather than to skip the test.
 Confidence: the earlier true/false context effects are one bad test away, one construction family
 and one reader family deep; the frame-not-content and no-correction reads are one bad test away as
-a pair, two readers, one construction family; the Stage-3 psychological attribution is
-instrument-dead; differentiation order, the uptake interval, and the rest remain untested, logic
-only.
+a pair, two readers, one construction family, the second read expanded and flat; the no-active-
+reading read is one bad test away, its realized side underpowered; the Stage-3 wish override is
+one bad test away, measured twice, its psychological reading (belief against compliance) untested;
+differentiation order, the uptake interval, and the rest remain untested, logic only.
 
 ## §5. Continuation and stopping
 
@@ -748,7 +757,9 @@ generated objects break that relationship (HH-22, HH-17, and HH-18 below).
 |---|---|---|
 | **G62** | Assuming the maker intends to be understood improves recovery | **OPEN, canonical here.** Must be tested against concealment, where the assumption licenses confident wrong inference |
 | **G63** | Comprehension-support structure functions as deliberately-left scaffolding for descent, orthogonal to aesthetics though correlated through expertise | **OPEN.** Unbound from aesthetics 2026-08-10; the measurement side is the attraction/translation split in `DECISION_TRACES.md` §2 |
-| **T01-S4** | Comprehension support raises transmission of a lesson independently of its truth and of the source's alignment, while uptake of the advice is unchanged | **SUPPORTED (test, L244), full size.** A worked action mapping lifts as-taught application of the rule to a new lot from 0.08 to 0.25 in the aligned and the misaligned strata alike (+0.16, +0.18), for false rules as for true; the recipients follow the advice on their own lot 98 times in 100 either way; the relay's parse rate drops under the longer message |
+| **T01-S4** | Comprehension support raises transmission of a lesson independently of its truth and of the source's alignment, while uptake of the advice is unchanged | **SUPPORTED (test, L244), full size, re-run on 128 distinct constructions after the R7 repair.** A worked action mapping lifts as-taught application of the rule to a new lot from 0.08 to 0.21 in the aligned stratum (+0.13 [0.09, 0.18]) and by +0.20 in the misaligned, for false rules as for true; the recipients follow the advice on their own lot 92 to 99 times in 100 either way; the relay's parse rate drops under the longer message (0.84 to 0.71) while a parsed relay is near-perfect (0.98); expanded to 256 worlds the aligned lift is +0.15 [0.11, 0.18], and CONFIRMED on 256 untouched reserve worlds at +0.15 [0.11, 0.18] with the support gate passed there too. The first attempt, on 54 distinct constructions behind 128 units, read the same band with an interval too narrow |
+| **T02-S4** | Reconstructing the source's selection rule preserves useful uptake while resisting misleading selection | **NOT SUPPORTED as a mechanism (test, L245), 256 worlds; the card's frozen band reads support against its matched comparator.** Reconstruction beats a matched factual summary by +0.62 nats and loses to the direct read by 0.23 to 0.32 on every rule; the readers recover the rule from the source's record at the floor by generation and at 0.4 by likelihood; told the true rule they gain +0.4; payoffs do not move on any route, so nothing resists the cherry-picking source |
+| **T03-S4** | Technique knowledge (selection, framing, omission) produces transferable discrimination without costing true uptake | **NOT SUPPORTED, a criterion shift (test, L248), 256 worlds.** Reliability AUROC 0.47 under the technique lesson against 0.48 under the control on the held-out family, both at chance, the cue unused; acceptance falls from 0.31 to 0.26 for everything and acceptance of true helpful advice by 37 points; register moves nothing |
 | **G67** | Readers grant the communicative assumption to generated text, and that is why it misleads | **OPEN.** A claim about readers; the model-side provenance prior (§1) is its first adjacent measurement |
 | **HH-19** | Attention capture and comprehensibility are separable shaping motivations | **OPEN, the load-bearing test.** Measurement side in `DECISION_TRACES.md` §2. Transmissibility and useful learning are separate, unmeasured outcomes; neither is established by comprehension alone |
 | **HH-20** | Makers model the reader's inference and shape the artifact for it | **OPEN.** An artifact as process *plus the maker's model of you* |
@@ -773,9 +784,22 @@ is worse than not holding it. The comprehension-support row has its first number
 mapping makes a lesson's rule as learnable when false as when true and as learnable from a source
 steering the recipient as from one helping it, while what the recipient does with its own lot
 follows the source's advice regardless (T01-S4); support is scaffolding for descent, and descent
-is not the same act as trust. Confidence: the comprehension-support row is one bad test away, two
-readers, one construction family; transmissibility against useful learning is untested, logic
-only; the rest untested, logic only.
+is not the same act as trust. The number survived its own repair: the first attempt's worlds
+came from a pool four deep and its interval was too narrow, and the re-run on 128 distinct
+constructions landed in the same band with the honest one, held at 256, and was confirmed on
+the untouched reserve at the same size. The two cards
+that asked whether uptake can be made selective both came back empty in this family:
+reconstructing the source's selection rule loses to reading directly, because the readers
+cannot infer the rule from the source's record though they can use it when told (T02-S4),
+and a lesson in misleading techniques raises no discrimination and lowers acceptance of
+everything, true advice most (T03-S4). So the bard's audience model has its first model-side
+shape: transmission can be made easy, learning can be made to happen, and neither the
+source's goal nor the source's technique is read back, so the cooperative interpretation is
+all cost and no defense here. Confidence: the comprehension-support row is one bad test away and confirmed
+on its reserve, two readers of one family, one construction family, one construction repair
+behind it; the two selective-uptake nulls are one bad test away as a pair, the same readers and family;
+transmissibility against useful learning is measured once, logic beyond it; the rest untested,
+logic only.
 
 # Part III: Calibration
 
@@ -877,10 +901,10 @@ instruction-tuned while both losing families are older architectures, and nothin
 the relation helping at a target the instruction did not already state. The two
 variation measures, the visibility partition, and the homogeneity statistic remain plausibly
 distinct channels, but stacking still waits on construct validation. The original-artifact
-relatedness effect survives weaker rewrites but substantially attenuates under the strongest
-independent eraser, with severe attrition. The mechanism remains open; retrospective re-splitting
+relatedness effect survives weaker rewrites and not the strongest independent eraser, where it
+reads zero with both families powered (L251). The mechanism remains open; retrospective re-splitting
 is not fresh confirmation. Confidence: the surface-variation number is replicated and controlled;
 the similarity root and the other measured heuristics are one bad test away each; the crossed
-reversal is one bad test away, since its erasure rung attenuates nearly to zero under the
+reversal is one bad test away, since its erasure rung reads zero under the
 strongest eraser and its reserve split is retrospective rather than untouched; everything
 unmeasured is untested.

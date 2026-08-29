@@ -1,0 +1,576 @@
+{
+ "card": "T03",
+ "written_at": "2026-08-28T16:47:17",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "auroc_reliability": {
+  "technique": 0.472991943359375,
+  "control": 0.480621337890625,
+  "n_units": 256
+ },
+ "brier_reliability": {
+  "technique": {
+   "mean": 0.3440196275448377,
+   "n": 4096
+  },
+  "control": {
+   "mean": 0.3083359847533782,
+   "n": 4096
+  }
+ },
+ "auroc_action_value": {
+  "technique": 0.505523681640625,
+  "control": 0.504364013671875,
+  "n_units": 256
+ },
+ "brier_action_value": {
+  "technique": {
+   "mean": 0.35773598159676645,
+   "n": 4096
+  },
+  "control": {
+   "mean": 0.2824066927299514,
+   "n": 4096
+  }
+ },
+ "contrasts_technique_minus_control": {
+  "reliability": {
+   "point": -0.00762939453125,
+   "lo": -0.018402099609375,
+   "hi": 0.002777099609375,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "action_value": {
+   "point": 0.00115966796875,
+   "lo": -0.024444580078125,
+   "hi": 0.026824951171875,
+   "n_units": 256,
+   "n_boot": 2000
+  }
+ },
+ "criterion": {
+  "technique": {
+   "acceptance": 0.2578125,
+   "false_acceptance": 0.2578125,
+   "false_rejection": 0.7421875
+  },
+  "control": {
+   "acceptance": 0.3056640625,
+   "false_acceptance": 0.31103515625,
+   "false_rejection": 0.69970703125
+  }
+ },
+ "true_advice_uptake": {
+  "point": -0.3671875,
+  "lo": -0.4072265625,
+  "hi": -0.32421875,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 256,
+  "n_b": 256,
+  "tolerance_pp": 0.03,
+  "preserved": false
+ },
+ "acceptance_by_register": {
+  "emotional": {
+   "technique|true": {
+    "mean": 0.2578125,
+    "n": 1024
+   },
+   "technique|false": {
+    "mean": 0.2578125,
+    "n": 1024
+   },
+   "control|true": {
+    "mean": 0.3095703125,
+    "n": 1024
+   },
+   "control|false": {
+    "mean": 0.3271484375,
+    "n": 1024
+   }
+  },
+  "dry": {
+   "technique|true": {
+    "mean": 0.2578125,
+    "n": 1024
+   },
+   "technique|false": {
+    "mean": 0.2578125,
+    "n": 1024
+   },
+   "control|true": {
+    "mean": 0.291015625,
+    "n": 1024
+   },
+   "control|false": {
+    "mean": 0.294921875,
+    "n": 1024
+   }
+  }
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ },
+ "cell_counts": {
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"workshop\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"technique\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"true\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"helpful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"emotional\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"reliability\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  },
+  "{\"claim_truth\": \"false\", \"domain\": \"civic\", \"lesson\": \"control\", \"rec_value\": \"harmful\", \"register\": \"dry\", \"score\": \"action_value\"}": {
+   "attempted": 256,
+   "realized": 256,
+   "valid": 256,
+   "scored": 256,
+   "scored_units": 128
+  }
+ }
+}

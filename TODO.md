@@ -29,16 +29,23 @@ method sketch and its gate.
 
 ## Phase 0 — running or just landed
 
-**Stage 4 (context, appraisal, selective uptake) is RUNNING under second gear since
-2026-08-27T22:22:50 (deadline 2026-08-28T22:22:50) on his order, after the build, the card-by-card
-smoke, and the manual validation pass he ordered (twenty-eight construction and loop
-defects repaired, three loop smokes, receipts in the registry build log); brief at
-docs/design/PHASE_2_4_STAGE_4_CONTEXT.md.** Eighteen cards, one continuous 24-hour window
-with the deadline persisted in results/phase_2_4_stage_4/RUN_CONTRACT.json, closure block
-from hour 20 (F01 first, admitted work and the expansion ladder resume to the deadline),
-one final curator packet at the deadline (the machine draft, then the analyst's
-synthesis). Landings write through internally as they come; no interim chat reports by
-the brief's contract. Known instrument risks carried into the run, each with its
+**Stage 4 (context, appraisal, selective uptake) is CLOSED: RUN_TO_EMPTY at 19:33 on 2026-08-28,
+21.2 hours elapsed, 14.95 GPU hours held, 307 of 322 expected cells complete, both eligible
+candidates (A01, T01) confirmed on the fresh reserve, the packet and the analyst's synthesis at
+results/phase_2_4_stage_4/CURATOR_PACKET_FINAL.md, awaiting his assessment. Its run, for the
+record: launched under second gear on his order,
+launched 2026-08-27T22:22:50 after the build, the card-by-card smoke, and the manual
+validation pass (twenty-eight defects repaired, three loop smokes); STOPPED 2026-08-28 05:57
+on his order when the parallel agent-hardening audit found the T-track construction defect
+(R7 below) and RESTARTED at half past six after the repair, with T01, T02, T03 re-planned at the
+head of the queue (their first attempts preserved under superseded_domain_defect/); brief at
+docs/design/PHASE_2_4_STAGE_4_CONTEXT.md.** Eighteen cards; the contract's 24-hour deadline
+is accounting only (his ruling: second gear runs until the queue is empty); the closure
+block (F01) begins on exhaustion of the admitted work and the expansion ladder, then the
+single final curator packet (the machine draft, then the analyst's synthesis); when the
+scheduler exhausts, run_stage4.sh chains into run_second_gear.sh, which carries the five
+Stage-3 re-runs below (R1 to R5) to the queue's natural end. Landings write through
+internally as they come; no interim chat reports by the brief's contract. Known instrument risks carried into the run, each with its
 honest outcome class: T01's readers echoed the advice on every novel case in the smoke
 (copying, INSTRUMENT_FAILED on the support gate); C03's readers chose the redundant
 probe three times in four (a selection COUNTEREVIDENCE); T03's technique lesson made the
@@ -54,8 +61,24 @@ misleading prior lower the score by 0.20 nats; the readers do not correct), A01 
 SUPPORT_CANDIDATE: valuation and aim recovered +0.14 over the floor, crossed; enacted source
 usable at 0.86 realization; no abstention when the fact is withheld), A02 (L243, INCONCLUSIVE
 with loud controls: aligned benefit -0.04 nats, own-choice shift 0.2; the bridge is unbuilt),
-T01 (L244, SUPPORT_CANDIDATE: a worked action mapping lifts as-taught learning +0.16 in both
-strata, true and false rules alike; the advice is followed 98 times in 100 regardless). The scheduler's manifest
+T01 (L244, SUPPORT_CANDIDATE, re-landed 08:07 on 128 distinct constructions after the R7
+repair: a worked action mapping lifts as-taught learning +0.13 aligned and +0.20 misaligned,
+true and false rules alike; the advice is followed 92 to 99 times in 100 regardless; the first
+attempt on 54 distinct constructions had read +0.16 with an interval too narrow), T02 (L245,
+SUPPORT_CANDIDATE on the frozen band, read as Narrows: reconstruction beats a matched summary by
++0.62 nats and loses to the direct read by 0.25; the rule is not inferred from the record and
+is usable when told), C03 (L246, COUNTEREVIDENCE: the redundant probe chosen 0.78, 8 percent of
+the oracle's gain captured), A03 (L247, VALID_NULL: intake-phase minus answer-phase steering
+-0.05 nats), T03 (L248, VALID_NULL with a criterion shift: AUROC unchanged at chance, true-advice
+acceptance -0.37), H01 (L249, COUNTEREVIDENCE: shared-convention decay 13 points steeper,
+attribution 0.22), H02 (L250, VALID_NULL: -0.004 from the ordered history, -0.5 nats on the
+later decision); the expansion rung (256 worlds, or 192 histories) re-landed C01 (held), C02
+(COUNTEREVIDENCE to INCONCLUSIVE, a flat curve), A01 (held), A02 (INCONCLUSIVE to
+COUNTEREVIDENCE), T01 (held), T02, T03, C03, H02 (held); F01 opened 16:52 on the two eligible
+candidates: A01 CONFIRMED on 256 fresh worlds (+0.12 [+0.07, +0.17]), T01 CONFIRMED (+0.15
+[+0.11, +0.18], the support gate passed on the reserve). All fifteen written through at 20:00
+after the agent's session loss at 08:10 (the named leak, eleven hours); the closure and the
+five re-runs at 23:50 the same night. The scheduler's manifest
 keeps the first outcome tally for P01 and P02 (one writer, the loop); the verdict files on
 disk, which the closure block and the packet read, carry the repaired ones.
 
@@ -73,19 +96,46 @@ new produces path.
 
 | | re-run | the defect, and what would settle it |
 |---|---|---|
-| **R1 · S05/X3 eraser rung** (blocks the strongest G172 claim) | `s3_run_s.py --arm s05x3` with the realization yield raised | The OLMo eraser retained **88 of 250** artifacts (162 dropped unrealized) and SmolLM's surviving n = 31 sits **below its own declared survivor floor of 40**, so the attenuation-to-zero read is confounded with attrition and one arm was never powered. Fix: more generation attempts per artifact, realization gate unchanged, until both families clear floor 40. Null: own-minus-other 0 under a stake-free eraser. Alternative: a positive own-family margin survives. Direction: the through-eraser claim dies if the margin stays at zero **with both families above floor**, which is the thing the current run cannot say. GPU |
-| **R2 · HH-25 wish override** (L213/L214/L231) | the stored-readout arm, re-run persisting raw generations | The raw generations were never saved and a phrase-matching parser stood in for them, so compliance, answer contamination, task confusion, and extraction error are all unresolved behind the 40/48 and 45/47 numbers. Fix: persist every generation, replace the parser, report refusal and contamination as separate cells. Until then the psychological reading is instrument-dead, not evidence about belief adoption. GPU |
-| **R3 · H04-S3 uptake decision unit** (L207) | the uptake scorer, re-run at the individual-suggestion grain | A dismissed set of five suggestions was represented by its first suggestion, which is not the same decision unit as an individually selected one, so AUC 0.499 does not measure what the card asked. Fix: score individually selected against individually dismissed suggestions. CPU |
-| **R4 · L01-L05 carrier** (XV4) | the carrier comparison on an adequate held-out set | The adversary and length-matched reads (3/4 and 2/4) sit on a held-out set too small to separate a real carrier from none, so neither carrier absence nor an uptake-only failure is established. The uptake null itself stands and does not need re-running. GPU |
-| **R5 · A07-S3 bridge** (L202) | the owed held-out maker prediction | Own-impulse steering was measured; prediction of a held-out maker never was, so the affect-to-inversion bridge is OPEN by omission rather than by result. GPU |
+| **R1 · S05/X3 eraser rung** (blocks the strongest G172 claim) | **LANDED 2026-08-28 21:22 (L251): own-minus-other 0.001 in both families with 82 and 61 survivors, powered zero** (`s3x_s05x3b`, cell E24-S3-S05/X3b): `s3_run_s.py --arm s05x3b`, up to eight regeneration attempts per artifact against one summary (attempt 0 reproduces the first run's seed), the own side averaged over same-family readers (L236); a family under floor after every attempt closes INSTRUMENT_FAILED, never null | The OLMo eraser retained **88 of 250** artifacts (162 dropped unrealized) and SmolLM's surviving n = 31 sits **below its own declared survivor floor of 40**, so the attenuation-to-zero read is confounded with attrition and one arm was never powered. Fix: more generation attempts per artifact, realization gate unchanged, until both families clear floor 40. Null: own-minus-other 0 under a stake-free eraser. Alternative: a positive own-family margin survives. Direction: the through-eraser claim dies if the margin stays at zero **with both families above floor**, which is the thing the current run cannot say. GPU |
+| **R2 · HH-25 wish override** (L213/L214/L231) | **LANDED 2026-08-28 (L252): the override stands parser-free, 0.79 and 0.92; refusals and contamination small and separated** (`s3x_c06b`, cell E24-S3-C06/R2): `s3_run_c.py --arm c06b`, the same items under none/agree/conflict/stranger for both readers, every generation attempt persisted, parse failures (no choice, several options) and hint contamination as separate cells, and a parser-free label-likelihood readout as the primary; covers C06 and XV3 | The raw generations were never saved and a phrase-matching parser stood in for them, so compliance, answer contamination, task confusion, and extraction error are all unresolved behind the 40/48 and 45/47 numbers. Fix: persist every generation, replace the parser, report refusal and contamination as separate cells. Until then the psychological reading is instrument-dead, not evidence about belief adoption. GPU |
+| **R3 · H04-S3 uptake decision unit** (L207) | **LANDED 2026-08-28 (L253): pairwise 0.55 within the set, first-position 0.47, between-set AUC 0.51** (`s3x_h04b`, cell E24-S3-H04/R3): `s3_run_h.py --arm h04b`, within-set rank of the chosen suggestion among the ones shown (pairwise and top-1 against 1/k, first-position and length top-1 rates beside it) and every member of a closed set as an individually dismissed item against the selected ones, session-clustered; 12,597 decidable sets over 1,397 sessions | A dismissed set of five suggestions was represented by its first suggestion, which is not the same decision unit as an individually selected one, so AUC 0.499 does not measure what the card asked. Fix: score individually selected against individually dismissed suggestions. GPU (the reader scores the fit; the errata's CPU label was wrong) |
+| **R4 · L01-L05 carrier** (XV4) | **LANDED 2026-08-28 (L254): 11 of 12 by scalars and by representation alike, p 0.03 each; the carrier is surface-trivial, the failure is at uptake** (`s3x_xv4b`, cell E24-S3-XV4/R4): `s3_run_x.py --arm xv4b`, leave-one-seed-out over six seeds (twelve decisions per readout), all length-matched sequences (231 to 257 per condition and seed, no cap), an exact within-pair swap null; the scalar read alone already lands 11 of 12 (p 0.03) on the CPU dry run, so the representation read decides | The adversary and length-matched reads (3/4 and 2/4) sit on a held-out set too small to separate a real carrier from none, so neither carrier absence nor an uptake-only failure is established. The uptake null itself stands and does not need re-running. GPU |
+| **R5 · A07-S3 bridge** (L202) | **LANDED 2026-08-28 (L255): congruent steering +0.4 to +0.8 nats on the held-out maker's tendency in both folds, controls quiet; floor unmet, second checkpoint and domain recommended** (`s3x_a07b`, cell E24-S3-A07/R5): `s3_run_a.py --arm a07b`, two held-out-maker folds (fit on SmolLM's 87 stripped artifacts, test on Qwen's 48, and the reverse), nearest-centroid decode, prompted four-way inference, and that inference under congruent / incongruent / random / zero steering at the A07 locus and dose; the card's two-domain two-checkpoint floor is not met and the receipt says so | Own-impulse steering was measured; prediction of a held-out maker never was, so the affect-to-inversion bridge is OPEN by omission rather than by result. GPU |
 | **R6 · H05-S3 cross-act claim** (L174) | **blocked on corpus** | ArgRewrite spreadsheet order is not a chronological edit stream, so the 0.394 result cannot support "goals persist within acts and switch between acts." The claim is retracted in theory; reinstating it needs a corpus with real edit chronology. Not queueable as-is |
 
 **Also owed, documentation not compute:** the XV3 and XV4 audit observations need linked method
 receipts before their numbers may enter canonical theory (errata §4).
 
-**R7 · THE T-TRACK CONSTRUCTION DEFECT (found 2026-08-28 while auditing Stage 4 for a
-concurrency risk; the defect is unrelated to concurrency and is the more consequential of the
-two).** `make_lesson_world` in `runners/s4_worlds.py` accepts a `domain` argument, stores it in
+**Landed (2026-08-28 19:34 to 21:22):** all five ran in the chained gear after Stage 4 exhausted
+(R1 104 GPU minutes, the rest under eleven each); the Stage-3 validator reads exhausted again
+(78 cells, 77 of 48 valid attempts); the queue is empty and the gear exited on its own. R6
+stays blocked on a corpus with real edit chronology. One decision opened by L255: a second
+checkpoint and a second artifact domain for the causal-use read, about an hour of GPU.
+
+**Also owed, documentation:** the strict `design_lint --changed` (rewritten 2026-08-28 by the
+hardening pass) rejects six pre-existing headers in files this repair touched
+(`runners/audit_multiplicity.py`, `run_queue.py`, `s4_run_common.py`, `s4_scheduler.py` have no
+DESIGN CHECK block under its gate-bearing heuristic; `s4_run_h.py` and `s4_run_i.py` state
+gates without a null derivation or an exhaustiveness claim in the strict form); the five new
+re-run arms and the repaired T runner and world module pass it by path. Bring the six up to the
+strict form, or record the infrastructure files as exempt, before the next build.
+
+**R7 · THE T-TRACK CONSTRUCTION DEFECT: REPAIRED, RE-QUEUED, RUNNING (found 2026-08-28 by the
+agent-hardening audit; repaired the same morning on his order, receipts in the registry).**
+*Status 2026-08-28: the run was stopped with T02 94 minutes in; my own rebuild of every
+allocated world confirmed and sharpened the count (T01 discovery 54 distinct of 128; the 256
+confirmation units saturated the same 64-world space, so F01 would have confirmed on inspected
+constructions; every other card fully distinct). The constructor now enumerates a per-domain
+identity space (twelve rule families per domain, 384 constructions, discovery and confirmation
+in disjoint halves, over-allocation raises), every root construction registers a content hash
+on its lineage (the dead duplicate control is live and reports what it checked), every row
+carries the hash and every interval clusters on it, the lineage ledger is a lock-held
+reload-modify-write, the scheduler has a reset op that preserves a first attempt, and
+tools/s4_construction_audit.py reads the whole ledger (2,368 root units, all distinct). Four
+new guard tests (18 pass); a GPU smoke on a scratch root ran the freeze, the three T cards,
+validate, the reset, and a re-landing. T01 and T02 were reset and run first after the
+restart; T03 follows in preservation order. T01 re-landed 08:07 (97 minutes): same band, interval
+wider as predicted; T02 running.* The finding as recorded by the audit: `make_lesson_world` in `runners/s4_worlds.py` accepts a `domain` argument, stores it in
 the returned world, and **never uses it to select content**. It is the only one of the five world
 constructors that does not: `make_world`, `make_appraisal_world`, `make_chain_world` and
 `make_history_world` all index `_ITEMS[domain]`, `_SCENS[domain]` or `_HAZARDS[domain]`. The rule

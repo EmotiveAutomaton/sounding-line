@@ -1,0 +1,39 @@
+{
+ "card": "A03",
+ "cell_id": "A03",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 1.56,
+ "gpu_lock_min": 1.52,
+ "exec": "COMPLETE",
+ "primary": "context-phase minus answer-phase aligned benefit",
+ "outcome": "VALID_NULL",
+ "reason": "interval includes zero and excludes a practically useful benefit",
+ "point": -0.05231685247871861,
+ "ci": [
+  -0.11764834809880566,
+  0.014662274923258183
+ ],
+ "n_units": 128,
+ "threshold": 0.03,
+ "perm_p": null,
+ "marker": {
+  "contract_version": "1.0.0",
+  "contract_hash": "8ab059c41ef915da",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\A03\\metrics.json",
+    "sha256": "1fc23deea24132680d05b323360185b4ad84c39581a18c659d74fcdab0ddee7a"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_4\\A03\\cases.jsonl",
+    "sha256": "199074c1ccf609f061c2f03389eff87f74168ebdf12725d602674394e0ee6e82"
+   }
+  },
+  "written_at": "2026-08-28T09:57:13"
+ }
+}

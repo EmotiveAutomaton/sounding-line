@@ -1,0 +1,741 @@
+{
+ "card": "T01",
+ "written_at": "2026-08-28T04:16:58",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "support_gate": {
+  "application": {
+   "point": 0.15625,
+   "lo": 0.11328125,
+   "hi": 0.203125,
+   "n_units": 128,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 128,
+   "n_b": 128
+  },
+  "relay": {
+   "point": -0.19140625,
+   "lo": -0.265625,
+   "hi": -0.1171875,
+   "n_units": 128,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 128,
+   "n_b": 128
+  },
+  "passed": true
+ },
+ "primary_support_effect_aligned": {
+  "point": 0.15625,
+  "lo": 0.1171875,
+  "hi": 0.19921875,
+  "n_units": 128,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 128,
+  "n_b": 128
+ },
+ "strata": {
+  "aligned": {
+   "point": 0.15625,
+   "lo": 0.1171875,
+   "hi": 0.19921875,
+   "n_units": 128,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 128,
+   "n_b": 128
+  },
+  "misaligned": {
+   "point": 0.18359375,
+   "lo": 0.15104166666666666,
+   "hi": 0.21875,
+   "n_units": 128,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 128,
+   "n_b": 128
+  }
+ },
+ "by_cell": {
+  "relay": {
+   "true|benefit|bare": {
+    "mean": 0.8966942148760331,
+    "n": 242
+   },
+   "true|benefit|supported": {
+    "mean": 0.9767441860465116,
+    "n": 172
+   },
+   "true|induce|bare": {
+    "mean": 0.7168949771689498,
+    "n": 219
+   },
+   "true|induce|supported": {
+    "mean": 0.9908256880733946,
+    "n": 218
+   },
+   "false|benefit|bare": {
+    "mean": 0.9300411522633745,
+    "n": 243
+   },
+   "false|induce|bare": {
+    "mean": 0.7685185185185185,
+    "n": 216
+   },
+   "false|induce|supported": {
+    "mean": 0.9953703703703703,
+    "n": 216
+   },
+   "false|benefit|supported": {
+    "mean": 0.9887005649717514,
+    "n": 177
+   }
+  },
+  "application": {
+   "true|benefit|bare": {
+    "mean": -2.755206176074705,
+    "n": 256
+   },
+   "true|benefit|supported": {
+    "mean": -2.3743628300753663,
+    "n": 256
+   },
+   "true|induce|bare": {
+    "mean": -2.967453311765798,
+    "n": 256
+   },
+   "true|induce|supported": {
+    "mean": -1.9194243591515303,
+    "n": 256
+   },
+   "false|benefit|bare": {
+    "mean": -2.6446928582263545,
+    "n": 256
+   },
+   "false|benefit|supported": {
+    "mean": -2.1327563356352903,
+    "n": 256
+   },
+   "false|induce|bare": {
+    "mean": -3.0521441716395588,
+    "n": 256
+   },
+   "false|induce|supported": {
+    "mean": -1.9609643783074027,
+    "n": 256
+   }
+  },
+  "goal": {
+   "true|benefit|bare": {
+    "mean": -0.6575325240156036,
+    "n": 256
+   },
+   "true|benefit|supported": {
+    "mean": -0.9558999811776168,
+    "n": 256
+   },
+   "true|induce|bare": {
+    "mean": -1.8155825233197902,
+    "n": 256
+   },
+   "true|induce|supported": {
+    "mean": -1.586511299721215,
+    "n": 256
+   },
+   "false|benefit|bare": {
+    "mean": -4.189030175127043,
+    "n": 256
+   },
+   "false|benefit|supported": {
+    "mean": -4.186526166283846,
+    "n": 256
+   },
+   "false|induce|bare": {
+    "mean": -1.7392085875147179,
+    "n": 256
+   },
+   "false|induce|supported": {
+    "mean": -1.2439737837883527,
+    "n": 256
+   }
+  },
+  "action": {
+   "true|benefit|bare": {
+    "mean": 0.984375,
+    "n": 256
+   },
+   "true|benefit|supported": {
+    "mean": 1.0,
+    "n": 256
+   },
+   "true|induce|bare": {
+    "mean": 0.00390625,
+    "n": 256
+   },
+   "true|induce|supported": {
+    "mean": 0.01953125,
+    "n": 256
+   },
+   "false|benefit|bare": {
+    "mean": -0.98046875,
+    "n": 256
+   },
+   "false|benefit|supported": {
+    "mean": -0.99609375,
+    "n": 256
+   },
+   "false|induce|bare": {
+    "mean": 0.0,
+    "n": 256
+   },
+   "false|induce|supported": {
+    "mean": -0.01953125,
+    "n": 256
+   }
+  }
+ },
+ "application_correct_under_truth": {
+  "true|benefit|bare": {
+   "mean": 0.08984375,
+   "n": 256
+  },
+  "true|benefit|supported": {
+   "mean": 0.24609375,
+   "n": 256
+  },
+  "true|induce|bare": {
+   "mean": 0.08203125,
+   "n": 256
+  },
+  "true|induce|supported": {
+   "mean": 0.2890625,
+   "n": 256
+  },
+  "false|benefit|bare": {
+   "mean": 0.78125,
+   "n": 256
+  },
+  "false|benefit|supported": {
+   "mean": 0.703125,
+   "n": 256
+  },
+  "false|induce|bare": {
+   "mean": 0.078125,
+   "n": 256
+  },
+  "false|induce|supported": {
+   "mean": 0.12109375,
+   "n": 256
+  }
+ },
+ "goal_recovery_accuracy": {
+  "true|benefit": {
+   "mean": 0.60546875,
+   "n": 512
+  },
+  "true|induce": {
+   "mean": 0.345703125,
+   "n": 512
+  },
+  "false|benefit": {
+   "mean": 0.017578125,
+   "n": 512
+  },
+  "false|induce": {
+   "mean": 0.3359375,
+   "n": 512
+  }
+ },
+ "followed_recommendation": {
+  "true|benefit|bare": {
+   "mean": 0.984375,
+   "n": 256
+  },
+  "true|benefit|supported": {
+   "mean": 1.0,
+   "n": 256
+  },
+  "true|induce|bare": {
+   "mean": 0.98828125,
+   "n": 256
+  },
+  "true|induce|supported": {
+   "mean": 0.96875,
+   "n": 256
+  },
+  "false|benefit|bare": {
+   "mean": 0.98046875,
+   "n": 256
+  },
+  "false|benefit|supported": {
+   "mean": 0.99609375,
+   "n": 256
+  },
+  "false|induce|bare": {
+   "mean": 0.984375,
+   "n": 256
+  },
+  "false|induce|supported": {
+   "mean": 0.96875,
+   "n": 256
+  }
+ },
+ "cell_counts": {
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"relay\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 121,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"application\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"goal\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"action\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"relay\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 83,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"application\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"goal\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"action\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"relay\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 118,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"application\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"goal\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"action\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"relay\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 106,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"application\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"goal\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"action\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"relay\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 122,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"application\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"goal\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"action\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"relay\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 96,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"application\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"goal\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"benefit\", \"outcome\": \"action\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"relay\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 114,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"application\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"goal\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"action\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"relay\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 109,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"application\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"goal\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"workshop\", \"intent\": \"induce\", \"outcome\": \"action\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"relay\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 121,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"application\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"goal\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"action\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"relay\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 89,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"application\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"goal\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"action\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"relay\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 101,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"application\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"goal\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"action\", \"support\": \"bare\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"relay\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 112,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"application\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"goal\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"action\", \"support\": \"supported\", \"truth\": \"true\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"relay\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 121,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"application\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"goal\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"action\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"relay\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 81,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"application\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"goal\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"benefit\", \"outcome\": \"action\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"relay\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 102,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"application\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"goal\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"action\", \"support\": \"bare\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"relay\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 107,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"application\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"goal\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  },
+  "{\"domain\": \"civic\", \"intent\": \"induce\", \"outcome\": \"action\", \"support\": \"supported\", \"truth\": \"false\"}": {
+   "attempted": 128,
+   "realized": 128,
+   "valid": 128,
+   "scored": 128,
+   "scored_units": 64
+  }
+ }
+}

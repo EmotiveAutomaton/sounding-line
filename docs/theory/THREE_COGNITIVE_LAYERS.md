@@ -534,12 +534,13 @@ or has reproduced human empathy. Human-reader correspondence remains a later gat
 | **A03-S3** | Action tendencies leave decodable structure while the model reads tendency-laden text | **SUPPORTED (test, L198), one corpus deep.** 0.422 vs 0.25 chance, nearest-centroid at the LATE third, clear of a five-shuffle null; direction bases and the valence locus decode nothing, so the geometry is categorical and deeper than valence |
 | **A04-S3** | The tendency read is independent of valence (fear vs anger dissociation) | **REJECTED (test, L199).** Fear-anger separate at 0.597 but the frozen valence axis separates them at AUC 0.19, so the read is partly valence-riding; no discrete-system license |
 | **A05-S3** | Two-tendency blends read as superpositions of their components | **REJECTED for this centroid-composition readout (test, L200).** Pair recovery is below chance (top-2 pair match 0.065 against 1/6). This does not establish that the underlying representation is non-compositional |
-| **A07-S3** | Tendency steering changes the reader's own next impulse | **SUPPORTED only as a weak, uneven effect on the tested readout (test, L202).** Pooled sign pair (+0.10/−0.06 around a 0.25 base, random quiet) behind the A02 gate at a capability-tolerated dose. The pooled sign pair masks a curiosity-heavy default (0.75) and reverse-direction anger steering. No held-out maker prediction was tested; the affect-to-inversion bridge remains OPEN |
+| **A07-S3** | Tendency steering changes the reader's own next impulse | **SUPPORTED only as a weak, uneven effect on the tested readout (test, L202).** Pooled sign pair (+0.10/−0.06 around a 0.25 base, random quiet) behind the A02 gate at a capability-tolerated dose. The pooled sign pair masks a curiosity-heavy default (0.75) and reverse-direction anger steering. The held-out maker prediction now exists (L255): steering with the true tendency's direction raises the log score on a held-out maker's tendency +0.4 to +0.8 nats in both maker folds with random and incongruent directions quiet, while the directions' own decode sits at chance and the unsteered prompted read of a held-out maker stands at 0.67 to 0.70 balanced; the bridge has its first plank, laid with an oracle direction on one checkpoint and one domain |
 | **A06-S3** | Suppressing surface emotion leaves the tendency decodable (the abstract read survives without the words) | **INSTRUMENT DEAD (test, L201/L234).** The expressive corpus carries no surface-emotion channel to suppress; on a second scene bank the strongest channel runs at 0.006 against a 0.012 verifiability floor, so the manipulation is unverifiable corpus-wide and the question is unasked |
 | **M04-S3** | One policy delivered three ways (prompt, adapter, activation) lands in one place | **PARTLY SUPPORTED, activation route unmeasured (test, L204).** Prompt and adapter shifts of the likelihood readout align at cosine 0.69 with the adapter three times larger; the activation route never localized (L203), so two of three deliveries agree |
 |   | | *(the causal gate's first instrument attempt INSTRUMENT-FAILED (test, L162): dev-selected block flipped between seeds at eighteen dev items, and the degenerate input-edge selection lesioned the model 2.55× under amplification; abstract emotion-word-free decoding appeared weakly above every control at the one functioning seed, so the signal grain exists and the battery was underpowered, never the reverse. The rebuilt ruler then answered cleanly for its tested construction (test, L170): in Qwen2.5-1.5B the representation is real and stably located, with unanimous cross-seed consensus on one deep block and held-out decoding at twice chance while the lexical baseline sits at chance. Rank-one fear and joy amplification/ablation at that block did not move the 24-item approach-versus-withdraw behavior at any dose admitted by that capability gate, with no sign pair. The wing closes for this model, basis rank, locus, behavior, and intervention family; scale, rank, locus, behavioral target, and intervention form remain named construction variables)* |
 | **G38** | The mid-level primitives need only seeding, not specification | **OPEN.** *(Dependency corrected 2026-08-09: it rests on coherent structure existing (passed), on the causal gate, and on controllability, not on the rejected subspaces-not-depths claim it used to cite)* |
-| **A02-S4** | The valence handle improves target-specific prediction of another maker's next choice, beyond moving the reader's own answer | **NOT SUPPORTED (test, L243), full size, controls loud.** Aligned benefit -0.04 nats [-0.15, +0.06] at full evidence, with a random direction of the same norm moving the score more than the fitted one; the fitted direction at the high dose lowers the target score 0.3 nats in either sign; the own-choice shift is 0.2 of the mass; no correct-action stratum carries the interaction |
+| **A02-S4** | The valence handle improves target-specific prediction of another maker's next choice, beyond moving the reader's own answer | **COUNTEREVIDENCE at 256 worlds (test, L243; INCONCLUSIVE at 128), controls loud.** Aligned benefit -0.08 nats [-0.15, -0.01] at full evidence, with a random direction of the same norm moving the score more than the fitted one (+0.13 aligned, +0.22 main effect); the fitted direction at the high dose lowers the target score 0.3 nats in either sign; the own-choice shift is 0.2 of the mass; no correct-action stratum carries the interaction |
+| **A03-S4** | Affect conditions intake: steering during the situation's intake moves target prediction more than steering during the answer | **VALID NULL (test, L247), 128 worlds.** Context-phase minus answer-phase aligned benefit -0.05 nats [-0.12, +0.02], a useful benefit excluded; intake-phase steering alone -0.04, answer-phase +0.01, the neutral span inert |
 
 **What the table says.** The build's gate order now has a real answer at small scale: gate one
 (coherent structure) passed long ago, and the decisive causal gate has been measured cleanly
@@ -564,15 +565,22 @@ path stays open only through what the closure
 names, a larger substrate, a higher-rank basis, or a different intervention family, and its
 address, if the transform work holds, remains a family where the rotation composes rather than
 the home family. The bridge from that handle to another maker is now measured and unbuilt:
-on 128 hazard worlds the steered readers' prediction of the maker's next action gains
-nothing aligned with the maker's appraisal, a norm-matched random direction moves the score
-more, and the same dose moves the readers' own next choice by a fifth of its mass
-(A02-S4); the handle grips the reader's continuation, not its model of the maker, the
-coexistence L170's scoping allowed and the errata warned the bridge would have to earn.
-Own-impulse steering does not close the intent-inference gate. Confidence: the scoped causal
+on 256 hazard worlds the steered readers' prediction of the maker's next action loses
+aligned with the maker's appraisal (a twelfth of a nat, the interval below zero), a
+norm-matched random direction moves the score more, and the same dose moves the readers'
+own next choice by a fifth of its mass (A02-S4); steering during intake does no better than
+steering during the answer (A03-S4). The handle grips the reader's continuation, not its
+model of the maker, whenever it is applied: the coexistence L170's scoping allowed, and the
+bridge the errata warned would have to be earned is measured and not there in this family.
+Own-impulse steering does not close the intent-inference gate; the held-out maker read (A07-S3,
+L255) is the first causal-use result on the reader's model of another maker, and it is
+oracle-directed, one checkpoint, one domain. Confidence: the scoped causal
 results are one bad test away, three seed splits and one model deep for the decode, the same
 tested construction for the inertness, and the lexical adversary passed for the additive handle;
-the bridge to maker inference is untested, logic only; the gates above remain logic.
+the bridge to maker inference is one bad test away against for the valence handle (two cards on
+one construction family and two readers) and one bad test away for the tendency
+representation's causal use (one checkpoint, one domain, the floor unmet); the gates above
+remain logic.
 
 ## §9. Reading versus caring
 
