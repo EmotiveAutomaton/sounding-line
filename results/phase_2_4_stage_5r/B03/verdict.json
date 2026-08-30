@@ -1,0 +1,54 @@
+{
+ "card": "B03",
+ "cell_id": "B03",
+ "lane": "discovery",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "expanded",
+ "track_gate_note": null,
+ "minutes": 1.68,
+ "gpu_lock_min": 1.58,
+ "strongest_surviving_rival": "a generic or answer-bias effect: shifted, random-block, permuted, reversed, or own-answer arms as loud as the congruent one",
+ "exec": "COMPLETE",
+ "primary": "coordinate, dose, sign, permuted-label, and own-answer specificity of the congruent effect",
+ "outcome": "INCONCLUSIVE",
+ "reason": "directional support at or above the frozen threshold; a control arm is not quiet (shifted, random_blocks, permuted)",
+ "point": 0.4793710311528993,
+ "ci": [
+  0.25462976905977913,
+  0.7075619771247125
+ ],
+ "n_units": 135,
+ "threshold": 0.03,
+ "perm_p": 9.99950002499875e-05,
+ "note": "the directions' own decode sits under chance; the steering read is marked void for that reason",
+ "decode_void": true,
+ "own_answer_control": {
+  "shift": 0.15703796490487335,
+  "target_gain": 0.4793710311528993,
+  "answer_bias_suspected": false
+ },
+ "dose_response": {
+  "half": 0.22683069510991796,
+  "congruent": 0.4793710311528993,
+  "double": 0.6145799172607339
+ },
+ "marker": {
+  "contract_version": "5.0.0",
+  "contract_hash": "fad9eba111c10e4b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r\\B03\\metrics.json",
+    "sha256": "6b92866b52e925e86ebdb52218f4ebdfbea2d2d2a52a574bed4689484a851604"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r\\B03\\cases.jsonl",
+    "sha256": "56ec7d88beb1f485dfd452559e4425cac3a62762148c205429d082ef508e8de8"
+   }
+  },
+  "written_at": "2026-08-29T15:36:24"
+ }
+}

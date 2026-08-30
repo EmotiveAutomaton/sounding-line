@@ -1,0 +1,65 @@
+{
+ "card": "J04",
+ "lane": "discovery",
+ "written_at": "2026-08-29T16:03:01",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "gain_on_conflict_worlds": {
+  "point": -0.04216561093108435,
+  "lo": -0.12781829627091726,
+  "hi": 0.039757308973114185,
+  "n_units": 512,
+  "n_boot": 2000,
+  "perm_p": 0.3340332983350833,
+  "n_a": 512,
+  "n_b": 512
+ },
+ "false_alarm_on_consistent_worlds": {
+  "point": -0.060886243466104356,
+  "lo": -0.12821043484619926,
+  "hi": 0.00976587072955127,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 0.0927453627318634,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "opened_hypothesis_chosen_rate": {
+  "conflict": 0.1015625,
+  "consistent": 0.0859375
+ },
+ "exact_conflict_kl_mean": {
+  "conflict": 1.49749821712847,
+  "consistent": 0.6160985421356631
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 512,
+  "n_units_with_hash": 256,
+  "checked": true
+ },
+ "by_cell": {
+  "conflict|fixed": {
+   "mean": -1.728767374658396,
+   "n": 512
+  },
+  "conflict|opened": {
+   "mean": -1.7709329855894802,
+   "n": 512
+  },
+  "consistent|fixed": {
+   "mean": -1.673242289074819,
+   "n": 512
+  },
+  "consistent|opened": {
+   "mean": -1.7341285325409235,
+   "n": 512
+  }
+ }
+}

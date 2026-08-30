@@ -1,0 +1,128 @@
+{
+ "card": "B01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T11:56:33",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "analysis_qwen3b": {
+  "cells": {
+   "smollm": {
+    "decode_balanced": 0.24483190735459337,
+    "prompted_balanced_zero": 0.6581899497961203,
+    "n": 135
+   }
+  },
+  "per_fold": {
+   "smollm|qwen->smollm": {
+    "decode_balanced": 0.21678743961352656,
+    "n": 87
+   },
+   "smollm|smollm->qwen": {
+    "decode_balanced": 0.26666666666666666,
+    "n": 48
+   }
+  },
+  "own_answer_shift": null,
+  "contrasts": {
+   "smollm|congruent": {
+    "point": -0.01832395254898509,
+    "lo": -0.12788251150236443,
+    "hi": 0.09757186979292357,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.7417629118544072
+   },
+   "smollm|incongruent": {
+    "point": -0.5161163286213514,
+    "lo": -0.6445419003929688,
+    "hi": -0.38245477774901926,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05
+   },
+   "smollm|random": {
+    "point": -0.23237630982499194,
+    "lo": -0.34129739149542104,
+    "hi": -0.12601741307541392,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05
+   }
+  },
+  "verdict": {
+   "outcome": "VOID",
+   "reason": "no congruent arm (no capability-passing dose or no rows)"
+  }
+ },
+ "analysis_smollm": {
+  "cells": {
+   "smollm": {
+    "decode_balanced": 0.24483190735459337,
+    "prompted_balanced_zero": 0.6581899497961203,
+    "n": 135
+   }
+  },
+  "per_fold": {
+   "smollm|qwen->smollm": {
+    "decode_balanced": 0.21678743961352656,
+    "n": 87
+   },
+   "smollm|smollm->qwen": {
+    "decode_balanced": 0.26666666666666666,
+    "n": 48
+   }
+  },
+  "own_answer_shift": null,
+  "contrasts": {
+   "smollm|congruent": {
+    "point": -0.01832395254898509,
+    "lo": -0.12788251150236443,
+    "hi": 0.09757186979292357,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.7417629118544072
+   },
+   "smollm|incongruent": {
+    "point": -0.5161163286213514,
+    "lo": -0.6445419003929688,
+    "hi": -0.38245477774901926,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05
+   },
+   "smollm|random": {
+    "point": -0.23237630982499194,
+    "lo": -0.34129739149542104,
+    "hi": -0.12601741307541392,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 4.999750012499375e-05
+   }
+  },
+  "controls_quiet": {
+   "incongruent": true,
+   "random": false
+  },
+  "verdict": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.01832395254898509,
+   "ci": [
+    -0.12788251150236443,
+    0.09757186979292357
+   ],
+   "n_units": 135,
+   "threshold": 0.03,
+   "perm_p": 0.7417629118544072,
+   "note": "the directions' own decode sits under chance; the steering read is marked void for that reason",
+   "decode_void": true
+  }
+ },
+ "n_artifacts": 135
+}

@@ -1,0 +1,50 @@
+{
+ "card": "F02",
+ "lane": "discovery",
+ "written_at": "2026-08-29T16:22:57",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "realized_gain_by_policy": {
+  "model": 0.12313989354213138,
+  "learning_progress": 0.25758079777992954,
+  "novelty": 0.22376669368078408,
+  "surprise": 0.20057710202243487,
+  "random": -0.08569208910966507
+ },
+ "primary_model_minus_best_raw": {
+  "point": -0.10062680013865272,
+  "lo": -0.38586995631526816,
+  "hi": 0.19177108861771894,
+  "n_units": 96,
+  "n_boot": 2000,
+  "perm_p": 0.48147592620368984,
+  "n_a": 96,
+  "n_b": 96
+ },
+ "model_picks_by_class": {
+  "random_unlearnable": 35,
+  "learnable_intermediate": 32,
+  "novel_explained": 47,
+  "complex_compressible": 45,
+  "structured_residual": 17,
+  "trivial_known": 16
+ },
+ "picked_rows": {
+  "model": {
+   "mean": 1.0,
+   "n": 192
+  }
+ },
+ "constructions": {
+  "n_units": 96,
+  "n_distinct_constructions": 96,
+  "n_units_with_hash": 96,
+  "checked": true
+ }
+}

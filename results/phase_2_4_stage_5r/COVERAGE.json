@@ -1,0 +1,443 @@
+{
+ "expected": 255,
+ "complete": 162,
+ "missing": [
+  "{\"card\":\"B01\",\"factors\":{\"checkpoint\":\"qwen3b\",\"domain\":\"scenes\",\"steer\":\"zero\"}}",
+  "{\"card\":\"B01\",\"factors\":{\"checkpoint\":\"qwen3b\",\"domain\":\"scenes\",\"steer\":\"congruent\"}}",
+  "{\"card\":\"B01\",\"factors\":{\"checkpoint\":\"qwen3b\",\"domain\":\"scenes\",\"steer\":\"incongruent\"}}",
+  "{\"card\":\"B01\",\"factors\":{\"checkpoint\":\"qwen3b\",\"domain\":\"scenes\",\"steer\":\"random\"}}",
+  "{\"card\":\"B02\",\"factors\":{\"checkpoint\":\"qwen3b\",\"domain\":\"scenes2\",\"steer\":\"zero\"}}",
+  "{\"card\":\"B02\",\"factors\":{\"checkpoint\":\"qwen3b\",\"domain\":\"scenes2\",\"steer\":\"congruent\"}}",
+  "{\"card\":\"B02\",\"factors\":{\"checkpoint\":\"qwen3b\",\"domain\":\"scenes2\",\"steer\":\"incongruent\"}}",
+  "{\"card\":\"B02\",\"factors\":{\"checkpoint\":\"qwen3b\",\"domain\":\"scenes2\",\"steer\":\"random\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"locus\",\"domain\":\"scenes\",\"dose\":\"half\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"locus\",\"domain\":\"scenes\",\"dose\":\"half\",\"sign\":\"minus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"locus\",\"domain\":\"scenes\",\"dose\":\"frozen\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"locus\",\"domain\":\"scenes\",\"dose\":\"frozen\",\"sign\":\"minus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"locus\",\"domain\":\"scenes\",\"dose\":\"double\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"locus\",\"domain\":\"scenes\",\"dose\":\"double\",\"sign\":\"minus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"shifted\",\"domain\":\"scenes\",\"dose\":\"half\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"shifted\",\"domain\":\"scenes\",\"dose\":\"half\",\"sign\":\"minus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"shifted\",\"domain\":\"scenes\",\"dose\":\"frozen\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"shifted\",\"domain\":\"scenes\",\"dose\":\"frozen\",\"sign\":\"minus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"shifted\",\"domain\":\"scenes\",\"dose\":\"double\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"shifted\",\"domain\":\"scenes\",\"dose\":\"double\",\"sign\":\"minus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"random_blocks\",\"domain\":\"scenes\",\"dose\":\"half\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"random_blocks\",\"domain\":\"scenes\",\"dose\":\"half\",\"sign\":\"minus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"random_blocks\",\"domain\":\"scenes\",\"dose\":\"frozen\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"random_blocks\",\"domain\":\"scenes\",\"dose\":\"frozen\",\"sign\":\"minus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"random_blocks\",\"domain\":\"scenes\",\"dose\":\"double\",\"sign\":\"plus\"}}",
+  "{\"card\":\"B03\",\"factors\":{\"coordinate\":\"random_blocks\",\"domain\":\"scenes\",\"dose\":\"double\",\"sign\":\"minus\"}}",
+  "{\"card\":\"J05\",\"factors\":{\"domain\":\"workshop\",\"predictor\":\"habit\"}}",
+  "{\"card\":\"J05\",\"factors\":{\"domain\":\"workshop\",\"predictor\":\"topic\"}}",
+  "{\"card\":\"J05\",\"factors\":{\"domain\":\"workshop\",\"predictor\":\"last_goal\"}}",
+  "{\"card\":\"J05\",\"factors\":{\"domain\":\"civic\",\"predictor\":\"habit\"}}",
+  "{\"card\":\"J05\",\"factors\":{\"domain\":\"civic\",\"predictor\":\"topic\"}}",
+  "{\"card\":\"J05\",\"factors\":{\"domain\":\"civic\",\"predictor\":\"last_goal\"}}",
+  "{\"card\":\"R01\",\"factors\":{\"choice\":\"random\",\"domain\":\"workshop\"}}",
+  "{\"card\":\"R01\",\"factors\":{\"choice\":\"first\",\"domain\":\"workshop\"}}",
+  "{\"card\":\"R01\",\"factors\":{\"choice\":\"easiest\",\"domain\":\"workshop\"}}",
+  "{\"card\":\"R01\",\"factors\":{\"choice\":\"random\",\"domain\":\"civic\"}}",
+  "{\"card\":\"R01\",\"factors\":{\"choice\":\"first\",\"domain\":\"civic\"}}",
+  "{\"card\":\"R01\",\"factors\":{\"choice\":\"easiest\",\"domain\":\"civic\"}}",
+  "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"misleading\",\"diagnosticity\":\"high\",\"domain\":\"workshop\"}}",
+  "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"misleading\",\"diagnosticity\":\"low\",\"domain\":\"workshop\"}}",
+  "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"misleading\",\"diagnosticity\":\"high\",\"domain\":\"civic\"}}",
+  "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"misleading\",\"diagnosticity\":\"low\",\"domain\":\"civic\"}}",
+  "{\"card\":\"R04\",\"factors\":{\"domain\":\"workshop\",\"policy\":\"random\"}}",
+  "{\"card\":\"R04\",\"factors\":{\"domain\":\"workshop\",\"policy\":\"always\"}}",
+  "{\"card\":\"R04\",\"factors\":{\"domain\":\"civic\",\"policy\":\"random\"}}",
+  "{\"card\":\"R04\",\"factors\":{\"domain\":\"civic\",\"policy\":\"always\"}}",
+  "{\"card\":\"F02\",\"factors\":{\"domain\":\"all\",\"policy\":\"novelty\"}}",
+  "{\"card\":\"F02\",\"factors\":{\"domain\":\"all\",\"policy\":\"surprise\"}}",
+  "{\"card\":\"F02\",\"factors\":{\"domain\":\"all\",\"policy\":\"random\"}}"
+ ],
+ "under_floor": [
+  {
+   "cell": "{\"card\":\"A01\",\"factors\":{\"domain\":\"notice\",\"owner\":\"reader_response\"}}",
+   "scored": 0,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A01\",\"factors\":{\"domain\":\"memo\",\"owner\":\"reader_response\"}}",
+   "scored": 0,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A03\",\"factors\":{\"domain\":\"notice\",\"maker\":\"audience_modeling\",\"reader_model\":\"audience\"}}",
+   "scored": 67,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A03\",\"factors\":{\"domain\":\"notice\",\"maker\":\"audience_modeling\",\"reader_model\":\"ordinary\"}}",
+   "scored": 67,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A03\",\"factors\":{\"domain\":\"notice\",\"maker\":\"plain\",\"reader_model\":\"audience\"}}",
+   "scored": 29,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A03\",\"factors\":{\"domain\":\"notice\",\"maker\":\"plain\",\"reader_model\":\"ordinary\"}}",
+   "scored": 29,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A03\",\"factors\":{\"domain\":\"memo\",\"maker\":\"audience_modeling\",\"reader_model\":\"audience\"}}",
+   "scored": 60,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A03\",\"factors\":{\"domain\":\"memo\",\"maker\":\"audience_modeling\",\"reader_model\":\"ordinary\"}}",
+   "scored": 60,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A03\",\"factors\":{\"domain\":\"memo\",\"maker\":\"plain\",\"reader_model\":\"audience\"}}",
+   "scored": 28,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A03\",\"factors\":{\"domain\":\"memo\",\"maker\":\"plain\",\"reader_model\":\"ordinary\"}}",
+   "scored": 28,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"domain\":\"notice\",\"episode\":\"honest\",\"history\":\"reliable\"}}",
+   "scored": 9,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"domain\":\"notice\",\"episode\":\"deceptive\",\"history\":\"reliable\"}}",
+   "scored": 15,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"domain\":\"notice\",\"episode\":\"honest\",\"history\":\"unreliable\"}}",
+   "scored": 9,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"domain\":\"notice\",\"episode\":\"deceptive\",\"history\":\"unreliable\"}}",
+   "scored": 15,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"domain\":\"memo\",\"episode\":\"honest\",\"history\":\"reliable\"}}",
+   "scored": 7,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"domain\":\"memo\",\"episode\":\"deceptive\",\"history\":\"reliable\"}}",
+   "scored": 11,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"domain\":\"memo\",\"episode\":\"honest\",\"history\":\"unreliable\"}}",
+   "scored": 7,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"domain\":\"memo\",\"episode\":\"deceptive\",\"history\":\"unreliable\"}}",
+   "scored": 11,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"control\":\"content_unchanged\",\"domain\":\"notice\"}}",
+   "scored": 41,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"control\":\"content_unchanged\",\"domain\":\"memo\"}}",
+   "scored": 35,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"control\":\"goal_unchanged\",\"domain\":\"notice\"}}",
+   "scored": 41,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"A05\",\"factors\":{\"control\":\"goal_unchanged\",\"domain\":\"memo\"}}",
+   "scored": 35,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R01\",\"factors\":{\"choice\":\"model\",\"domain\":\"workshop\"}}",
+   "scored": 87,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R01\",\"factors\":{\"choice\":\"exact\",\"domain\":\"workshop\"}}",
+   "scored": 87,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R01\",\"factors\":{\"choice\":\"model\",\"domain\":\"civic\"}}",
+   "scored": 72,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R01\",\"factors\":{\"choice\":\"exact\",\"domain\":\"civic\"}}",
+   "scored": 72,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"none\",\"diagnosticity\":\"high\",\"domain\":\"workshop\"}}",
+   "scored": 81,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"none\",\"diagnosticity\":\"low\",\"domain\":\"workshop\"}}",
+   "scored": 47,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"three\",\"diagnosticity\":\"high\",\"domain\":\"workshop\"}}",
+   "scored": 81,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"three\",\"diagnosticity\":\"low\",\"domain\":\"workshop\"}}",
+   "scored": 47,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"none\",\"diagnosticity\":\"high\",\"domain\":\"civic\"}}",
+   "scored": 67,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"none\",\"diagnosticity\":\"low\",\"domain\":\"civic\"}}",
+   "scored": 61,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"three\",\"diagnosticity\":\"high\",\"domain\":\"civic\"}}",
+   "scored": 67,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"R03\",\"factors\":{\"demonstrations\":\"three\",\"diagnosticity\":\"low\",\"domain\":\"civic\"}}",
+   "scored": 61,
+   "required": 128
+  },
+  {
+   "cell": "{\"card\":\"P01\",\"factors\":{\"access\":\"final_geometry\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P01\",\"factors\":{\"access\":\"unordered_set\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P01\",\"factors\":{\"access\":\"partial_order\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P01\",\"factors\":{\"access\":\"true_prefix\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P03\",\"factors\":{\"access\":\"unordered_set\",\"competence\":\"low\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P03\",\"factors\":{\"access\":\"partial_order\",\"competence\":\"low\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P03\",\"factors\":{\"access\":\"true_prefix\",\"competence\":\"low\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P03\",\"factors\":{\"access\":\"unordered_set\",\"competence\":\"high\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P03\",\"factors\":{\"access\":\"partial_order\",\"competence\":\"high\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  },
+  {
+   "cell": "{\"card\":\"P03\",\"factors\":{\"access\":\"true_prefix\",\"competence\":\"high\",\"domain\":\"all\"}}",
+   "scored": 555,
+   "required": 700
+  }
+ ],
+ "written_at": "2026-08-29T16:31:58",
+ "duplicate_lineages": [],
+ "generation_hash_coverage": {
+  "A01|confirmation": {
+   "roots": 256,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "A01|discovery": {
+   "roots": 256,
+   "hashed": 256,
+   "distinct": 256,
+   "duplicates": 0,
+   "checked": true
+  },
+  "A01|transfer": {
+   "roots": 64,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "F01|confirmation": {
+   "roots": 96,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "F01|discovery": {
+   "roots": 96,
+   "hashed": 96,
+   "distinct": 96,
+   "duplicates": 0,
+   "checked": true
+  },
+  "F01|transfer": {
+   "roots": 24,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  },
+  "J01|confirmation": {
+   "roots": 256,
+   "hashed": 256,
+   "distinct": 256,
+   "duplicates": 0,
+   "checked": true
+  },
+  "J01|discovery": {
+   "roots": 256,
+   "hashed": 256,
+   "distinct": 256,
+   "duplicates": 0,
+   "checked": true
+  },
+  "J01|transfer": {
+   "roots": 64,
+   "hashed": 0,
+   "distinct": 0,
+   "duplicates": 0,
+   "checked": false
+  }
+ },
+ "construction_audit": {
+  "groups": {
+   "A01|confirmation": {
+    "card": "A01",
+    "split": "confirmation",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_lane_twins": 0
+   },
+   "A01|discovery": {
+    "card": "A01",
+    "split": "discovery",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   },
+   "A01|transfer": {
+    "card": "A01",
+    "split": "transfer",
+    "units": 64,
+    "distinct": 64,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_lane_twins": 0
+   },
+   "F01|confirmation": {
+    "card": "F01",
+    "split": "confirmation",
+    "units": 96,
+    "distinct": 96,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_lane_twins": 0
+   },
+   "F01|discovery": {
+    "card": "F01",
+    "split": "discovery",
+    "units": 96,
+    "distinct": 96,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   },
+   "F01|transfer": {
+    "card": "F01",
+    "split": "transfer",
+    "units": 24,
+    "distinct": 24,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_lane_twins": 0
+   },
+   "J01|confirmation": {
+    "card": "J01",
+    "split": "confirmation",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_lane_twins": 0
+   },
+   "J01|discovery": {
+    "card": "J01",
+    "split": "discovery",
+    "units": 256,
+    "distinct": 256,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0
+   },
+   "J01|transfer": {
+    "card": "J01",
+    "split": "transfer",
+    "units": 64,
+    "distinct": 64,
+    "duplicate_units": 0,
+    "cross_domain_twin_groups": 0,
+    "cross_lane_twins": 0
+   }
+  },
+  "errors": {},
+  "cards_with_duplicates": [],
+  "ok": true,
+  "summary": "1368 root units over 9 card-lanes; 0 duplicate units; 0 cross-lane twins; all distinct"
+ },
+ "cells": {
+  "COMPLETE": 30,
+  "FAILED": 1
+ },
+ "outcomes": {
+  "INFRASTRUCTURE": 5,
+  "INCONCLUSIVE": 6,
+  "SUPPORT_CANDIDATE": 8,
+  "COUNTEREVIDENCE": 5,
+  "DESCRIPTIVE": 2,
+  "VALID_NULL": 4,
+  "INSTRUMENT_FAILED": 1
+ }
+}

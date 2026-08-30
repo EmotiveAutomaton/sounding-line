@@ -1,0 +1,37 @@
+{
+ "card": "R04",
+ "lane": "discovery",
+ "written_at": "2026-08-29T12:42:49",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "net_gain_by_policy": {
+  "model": -0.23744723114495184,
+  "exact": 0.0,
+  "random": -0.1799306710005945,
+  "always": -0.4125520201143665
+ },
+ "primary_model_minus_random": {
+  "point": -0.057516560144357326,
+  "lo": -0.20100236604155677,
+  "hi": 0.09787601418168859,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 0.43637818109094545,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "model_buy_rate": 0.4765625,
+ "buy_decision_tracks_exact_gain_auroc": 0.5412282848054808,
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ }
+}

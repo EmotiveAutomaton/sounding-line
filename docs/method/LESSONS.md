@@ -475,6 +475,54 @@ L132 (a shuffle gate that voided the alternative's own signature).
   (quiet) and the wrong tendency's direction (quiet or negative), plus the decode of the same
   directions reported beside it. Write the selective signature as the primary and the
   congruent arm as one of its three legs. (L255, s3_run_a.py arm a07b)
+- **An exact ruler is validated on the construction it rules, before the clock: print one
+  world per class and read the numbers.** The Stage-5 learning-progress ruler read zero on
+  every foraging item because every generator was pinned by the four shown elements (no
+  ambiguity, no progress), and the joint world's goal latent carried the LOWEST posterior mass
+  after all routes because its bonus was too weak against the profile and a quarter of notes
+  lied; both were invisible to the self-tests (which checked sums and ranges) and obvious in a
+  ten-line print of one assembled case. A sweep over the construction constant, read against
+  the latent it must leave live, is the gate: goal 0.82 and preference 0.64 at 1.0, the
+  preference drowned at 1.5. (Stage-5 inspection, 2026-08-29)
+- **A counterfactual question must be counterfactual in every cell.** "What would the source
+  do after counterevidence?" was asked with a survey that CONFIRMED the claim on half the
+  worlds, so the willingness-to-correct latent had no test there. Read the question's
+  premise against every factor level, not the modal one. (Stage-5 inspection, 2026-08-29)
+- **An instrument gate carries its band's definition, not only its number.** The Stage-4
+  position swing was an accuracy difference between two orderings; rebuilt as a per-item
+  probability wobble under the same 0.10 it failed every reader (0.13 to 0.19), which would
+  have closed the model tracks on a stricter statistic wearing the old band's name. (Stage-5
+  smoke, 2026-08-29)
+- **A quiet control in one run licenses nothing until its replicate is quiet too, and the
+  specificity battery runs before the word 'selective' is written.** L255's random direction
+  was quiet by fold (−0.09, +0.04) and the entry called the effect selective causal use; the
+  same construction's battery found a random direction at +0.40 and every coordinate and
+  label control as loud as the true direction (L260). A control with one realization per
+  artifact and no second seed is one draw, and 'random quiet' was the whole claim. (Stage 5
+  B03, 2026-08-29) **Resolved the same day: the loud controls were order noise**, see next.
+- **A paired contrast on the letter-likelihood readout must ask every arm under the same
+  option order.** The readout scores the same answer two nats apart by the letter the truth
+  sits under (A −2.71, B −0.75 in the zero arm); the bridge cards drew a fresh order per arm
+  from one shared generator, so each paired difference carried two nats of order noise and
+  a 135-item mean a standard error of 0.17, which produced a +0.40 random arm in one run and
+  0.00 in the next on identical seeds. With the order fixed per artifact across arms the
+  random arm is 0.00 and the selective signature is clean (L283). Hold the nuisance fixed
+  across arms, or average it with enough draws, and say which. (Stage 5 post-run,
+  2026-08-29)
+- **A mean per-token log probability is not an ease ruler: padding a text with predictable
+  tokens raises it.** The Stage-5 ease manipulation was checked on that ruler and every degraded
+  rendering, capitals and a mid-dot after every word included, scored as easier than the plain
+  record (L301), so the manipulation could never register. The known-answer renderings were the
+  test the ruler failed; run them on any ease or fluency measure before a card depends on it.
+  (Stage 5R, 2026-08-29)
+- **A lesson re-read is not a lesson applied: check each readout's candidate set against
+  §3's short-candidates rule at build time, by name.** The Stage-5 future-choice question was
+  built the day after §3 was re-read with the option sentences as its candidates; the reader
+  answered from their wording in seven of ten worlds, the oracle variant included, and 30
+  GPU-minutes of a six-variant comparison measured nothing (L263). The known-answer probe
+  that caught it (the oracle variant against the uniform floor and the exact ceiling) costs
+  under a minute and belongs in the pre-run inspection of every choice readout. (Stage 5
+  J02, 2026-08-29)
 
 ## §4. Before the model arm
 

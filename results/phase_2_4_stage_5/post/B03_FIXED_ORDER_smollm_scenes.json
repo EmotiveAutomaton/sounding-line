@@ -1,0 +1,148 @@
+{
+ "written_at": "2026-08-29T13:26:59",
+ "reader": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "checkpoint": "smollm",
+ "domain": "scenes",
+ "n_artifacts": 135,
+ "order": "fixed per artifact across arms",
+ "contrasts": {
+  "congruent": {
+   "point": -0.0049480214820575245,
+   "lo": -0.08850540388489497,
+   "hi": 0.07351538212456925,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "incongruent": {
+   "point": -0.49495611267252315,
+   "lo": -0.6014687272906045,
+   "hi": -0.38839902082588357,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "random": {
+   "point": -0.2407013150083923,
+   "lo": -0.3346847912322363,
+   "hi": -0.15092040899409553,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "shifted": {
+   "point": 0.014611738230829506,
+   "lo": -0.03158539686367603,
+   "hi": 0.05815572676578882,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "random_blocks": {
+   "point": -0.09588468501157305,
+   "lo": -0.22080941414726596,
+   "hi": 0.014456082098089415,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "half": {
+   "point": 0.15153777676147964,
+   "lo": 0.10108010041574776,
+   "hi": 0.20515512605441788,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "double": {
+   "point": -0.672341931791668,
+   "lo": -0.8485938448640106,
+   "hi": -0.5093975981111133,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "reversed": {
+   "point": -0.4610253854461637,
+   "lo": -0.5652680908002707,
+   "hi": -0.3644100402992503,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "permuted": {
+   "point": -0.1334851187093146,
+   "lo": -0.2104872039205957,
+   "hi": -0.05507260436910648,
+   "n_units": 135,
+   "n_boot": 2000
+  }
+ },
+ "by_fold": {
+  "congruent|smollm->qwen": {
+   "mean": 0.07528028732151719,
+   "n": 48
+  },
+  "congruent|qwen->smollm": {
+   "mean": -0.04921191599437461,
+   "n": 87
+  },
+  "incongruent|smollm->qwen": {
+   "mean": -0.28182808729583236,
+   "n": 48
+  },
+  "incongruent|qwen->smollm": {
+   "mean": -0.6125439887424216,
+   "n": 87
+  },
+  "random|smollm->qwen": {
+   "mean": -0.22034150020333335,
+   "n": 48
+  },
+  "random|qwen->smollm": {
+   "mean": -0.25193431628014895,
+   "n": 87
+  },
+  "shifted|smollm->qwen": {
+   "mean": -0.0070106626642866795,
+   "n": 48
+  },
+  "shifted|qwen->smollm": {
+   "mean": 0.026541338724686715,
+   "n": 87
+  },
+  "random_blocks|smollm->qwen": {
+   "mean": -0.14391056591701734,
+   "n": 48
+  },
+  "random_blocks|qwen->smollm": {
+   "mean": -0.06938764727063827,
+   "n": 87
+  },
+  "half|smollm->qwen": {
+   "mean": 0.2516443012041629,
+   "n": 48
+  },
+  "half|qwen->smollm": {
+   "mean": 0.09630659086206818,
+   "n": 87
+  },
+  "double|smollm->qwen": {
+   "mean": -0.6305736571107065,
+   "n": 48
+  },
+  "double|qwen->smollm": {
+   "mean": -0.6953864971328881,
+   "n": 87
+  },
+  "reversed|smollm->qwen": {
+   "mean": -0.399828542100086,
+   "n": 48
+  },
+  "reversed|qwen->smollm": {
+   "mean": -0.49478916108537907,
+   "n": 87
+  },
+  "permuted|smollm->qwen": {
+   "mean": -0.22390558373249778,
+   "n": 48
+  },
+  "permuted|qwen->smollm": {
+   "mean": -0.08359796559307558,
+   "n": 87
+  }
+ },
+ "gpu_lock_s": 0.0
+}

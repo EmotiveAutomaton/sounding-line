@@ -1,0 +1,65 @@
+{
+ "card": "B02",
+ "cell_id": "B02",
+ "lane": "discovery",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct"
+ ],
+ "tier": "expanded",
+ "minutes": 10.64,
+ "gpu_lock_min": 10.55,
+ "strongest_surviving_rival": "a domain-bound effect (reported as bounded, never pooled away)",
+ "exec": "COMPLETE",
+ "primary": "checkpoint x domain x steering on the second artifact domain",
+ "outcome": "INCONCLUSIVE",
+ "reason": "directional support at or above the frozen threshold; a control arm is not quiet (random)",
+ "point": 0.3464028083882372,
+ "ci": [
+  0.11720614396794429,
+  0.5971784414083424
+ ],
+ "n_units": 171,
+ "threshold": 0.03,
+ "perm_p": 0.005649717514124294,
+ "note": "the directions' own decode sits under chance; the steering read is marked void for that reason",
+ "decode_void": true,
+ "checkpoint2_verdict": {
+  "outcome": "VOID",
+  "reason": "no congruent arm (no capability-passing dose or no rows)"
+ },
+ "interaction_cells": {
+  "domain2_anchor_congruent": {
+   "point": 0.3464028083882372,
+   "lo": 0.11720614396794429,
+   "hi": 0.5971784414083424,
+   "n_units": 171,
+   "n_boot": 2000,
+   "perm_p": 0.005649717514124294
+  },
+  "domain2_qwen3b_congruent": null,
+  "domain1_qwen3b_congruent": [
+   -0.01832395254898509,
+   [
+    -0.12788251150236443,
+    0.09757186979292357
+   ]
+  ],
+  "domain1_anchor_congruent_L255": "results/phase_2_4_stage_3/A/A07/verdict_b.json"
+ },
+ "marker": {
+  "contract_version": "5.0.0",
+  "contract_hash": "ab7ac0aab3228d02",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5\\B02\\metrics.json",
+    "sha256": "1d3243cecf6432e5b29f2b3b63b54a1d14575287cb4926e6e5ce75d0da10a84c"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5\\B02\\cases.jsonl",
+    "sha256": "0b5bd1eccff54500fc2cf5b1a840d8b3bd7f6a57744917a791b55c1acdcdd773"
+   }
+  },
+  "written_at": "2026-08-29T12:07:14"
+ }
+}

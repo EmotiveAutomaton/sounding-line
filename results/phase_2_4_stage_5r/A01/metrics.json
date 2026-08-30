@@ -1,0 +1,128 @@
+{
+ "card": "A01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T16:04:32",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_owned_log_score_over_chance": {
+  "point": -0.830156881749507,
+  "lo": -0.9358737651833343,
+  "hi": -0.7217414652343038,
+  "n_units": 256,
+  "n_boot": 2000
+ },
+ "per_owner": {
+  "audience_effect_goal": {
+   "point": -1.9019248811021503,
+   "lo": -2.162119373105988,
+   "hi": -1.627235064585975,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "maker_appraisal": {
+   "point": -0.2965180357175904,
+   "lo": -0.4503888595000519,
+   "hi": -0.13493546471004017,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "content_support": {
+   "point": -0.29202772842878033,
+   "lo": -0.40011539712581634,
+   "hi": -0.18513053342187538,
+   "n_units": 256,
+   "n_boot": 2000
+  }
+ },
+ "owner_swap_stratum": {
+  "True": {
+   "point": -0.8742937166030634,
+   "lo": -1.0141936034400727,
+   "hi": -0.7309521194834718,
+   "n_units": 130,
+   "n_boot": 2000
+  },
+  "False": {
+   "point": -0.7846188775355203,
+   "lo": -0.9532528644257626,
+   "hi": -0.6181940177054706,
+   "n_units": 126,
+   "n_boot": 2000
+  }
+ },
+ "own_response_agreement_with_appraisal": 0.451171875,
+ "by_region": {
+  "other|audience_effect_goal": {
+   "mean": -1.9629121904626154,
+   "n": 414
+  },
+  "other|maker_appraisal": {
+   "mean": -0.334318218104522,
+   "n": 414
+  },
+  "other|content_support": {
+   "mean": -0.2997114406257671,
+   "n": 414
+  },
+  "sincere_fanatic|audience_effect_goal": {
+   "mean": -1.860875637844141,
+   "n": 36
+  },
+  "sincere_fanatic|maker_appraisal": {
+   "mean": 0.44414471438632064,
+   "n": 36
+  },
+  "sincere_fanatic|content_support": {
+   "mean": 0.29450452009398626,
+   "n": 36
+  },
+  "honest_warning|audience_effect_goal": {
+   "mean": -1.9279582372897535,
+   "n": 18
+  },
+  "honest_warning|maker_appraisal": {
+   "mean": -0.6379874080862291,
+   "n": 18
+  },
+  "honest_warning|content_support": {
+   "mean": -0.6363612028729718,
+   "n": 18
+  },
+  "strategic_propagandist|audience_effect_goal": {
+   "mean": 1.2169220349356211,
+   "n": 14
+  },
+  "strategic_propagandist|maker_appraisal": {
+   "mean": -1.1894811401106486,
+   "n": 14
+  },
+  "strategic_propagandist|content_support": {
+   "mean": -0.11543372466204829,
+   "n": 14
+  },
+  "neutral_report|audience_effect_goal": {
+   "mean": -2.549400984275739,
+   "n": 30
+  },
+  "neutral_report|maker_appraisal": {
+   "mean": -0.04207308009801668,
+   "n": 30
+  },
+  "neutral_report|content_support": {
+   "mean": -0.7656416487623102,
+   "n": 30
+  }
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ }
+}

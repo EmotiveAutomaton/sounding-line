@@ -1,0 +1,142 @@
+{
+ "written_at": "2026-08-29T13:07:41",
+ "n_per_axis": 24,
+ "items_per_domain": 96,
+ "bands": {
+  "validity": 0.95,
+  "accuracy": 0.75,
+  "per_option": 0.5,
+  "swing_pp": 0.1
+ },
+ "readers": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "reader": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "domains": {
+    "workshop": {
+     "n": 96,
+     "validity": 1.0,
+     "accuracy": 0.7708333333333334,
+     "accuracy_second_permutation": 0.8229166666666666,
+     "per_option": {
+      "robust": 0.9583333333333334,
+      "cheap": 0.5833333333333334,
+      "fast": 0.75,
+      "precedent": 0.7916666666666666
+     },
+     "position_swing": 0.05208333333333326,
+     "probability_swing_mean": 0.1722189287749649
+    },
+    "civic": {
+     "n": 96,
+     "validity": 1.0,
+     "accuracy": 0.8333333333333334,
+     "accuracy_second_permutation": 0.8958333333333334,
+     "per_option": {
+      "robust": 0.9166666666666666,
+      "cheap": 0.7916666666666666,
+      "fast": 0.875,
+      "precedent": 0.75
+     },
+     "position_swing": 0.0625,
+     "probability_swing_mean": 0.1567784142201236
+    }
+   },
+   "admitted": true,
+   "gate": {
+    "validity": 0.95,
+    "accuracy": 0.75,
+    "per_option": 0.5,
+    "swing_pp": 0.1
+   },
+   "failing_bands": [],
+   "verdict": "ADMITTED_AT_96"
+  },
+  "Qwen/Qwen2.5-3B-Instruct": {
+   "reader": "Qwen/Qwen2.5-3B-Instruct",
+   "domains": {
+    "workshop": {
+     "n": 96,
+     "validity": 1.0,
+     "accuracy": 0.8333333333333334,
+     "accuracy_second_permutation": 0.8229166666666666,
+     "per_option": {
+      "robust": 1.0,
+      "cheap": 0.4583333333333333,
+      "fast": 0.875,
+      "precedent": 1.0
+     },
+     "position_swing": 0.01041666666666674,
+     "probability_swing_mean": 0.15035196943001822
+    },
+    "civic": {
+     "n": 96,
+     "validity": 1.0,
+     "accuracy": 0.8125,
+     "accuracy_second_permutation": 0.8229166666666666,
+     "per_option": {
+      "robust": 0.9166666666666666,
+      "cheap": 0.5833333333333334,
+      "fast": 0.7916666666666666,
+      "precedent": 0.9583333333333334
+     },
+     "position_swing": 0.01041666666666663,
+     "probability_swing_mean": 0.1783198997654809
+    }
+   },
+   "admitted": false,
+   "gate": {
+    "validity": 0.95,
+    "accuracy": 0.75,
+    "per_option": 0.5,
+    "swing_pp": 0.1
+   },
+   "failing_bands": [
+    "workshop:per_option"
+   ],
+   "verdict": "REFUSED_AT_96"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "reader": "Qwen/Qwen2.5-1.5B-Instruct",
+   "domains": {
+    "workshop": {
+     "n": 96,
+     "validity": 1.0,
+     "accuracy": 0.9375,
+     "accuracy_second_permutation": 0.9479166666666666,
+     "per_option": {
+      "robust": 1.0,
+      "cheap": 0.875,
+      "fast": 0.9583333333333334,
+      "precedent": 0.9166666666666666
+     },
+     "position_swing": 0.01041666666666663,
+     "probability_swing_mean": 0.0919953775598441
+    },
+    "civic": {
+     "n": 96,
+     "validity": 1.0,
+     "accuracy": 0.90625,
+     "accuracy_second_permutation": 0.90625,
+     "per_option": {
+      "robust": 0.9166666666666666,
+      "cheap": 0.9166666666666666,
+      "fast": 0.8333333333333334,
+      "precedent": 0.9583333333333334
+     },
+     "position_swing": 0.0,
+     "probability_swing_mean": 0.18043227353916635
+    }
+   },
+   "admitted": true,
+   "gate": {
+    "validity": 0.95,
+    "accuracy": 0.75,
+    "per_option": 0.5,
+    "swing_pp": 0.1
+   },
+   "failing_bands": [],
+   "verdict": "ADMITTED_AT_96"
+  }
+ },
+ "gpu_lock_s": 0.0
+}

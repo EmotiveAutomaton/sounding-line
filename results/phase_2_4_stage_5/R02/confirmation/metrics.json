@@ -1,0 +1,70 @@
+{
+ "card": "R02",
+ "lane": "confirmation",
+ "written_at": "2026-08-29T13:03:55",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "reliance_information_effect_at_equal_ease": {
+  "point": 0.1582098918165153,
+  "lo": 0.13534587245960442,
+  "hi": 0.18284048653808627,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "reliance_ease_effect_at_equal_information": {
+  "point": -0.017899605825535028,
+  "lo": -0.04728627271385992,
+  "hi": 0.010924508259414968,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 0.2120893955302235,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "interaction_information_minus_ease": {
+  "point": 0.1761094976420503,
+  "lo": 0.14794352902530167,
+  "hi": 0.20240641962678058,
+  "n_units": 256,
+  "n_boot": 2000
+ },
+ "prediction_log_score_by_cell": {
+  "plain|high": -2.36373926807346,
+  "plain|low": -2.638326194389117,
+  "stilted|high": -2.4290941291606476,
+  "stilted|low": -2.5480704056395225
+ },
+ "fluency_by_cell": {
+  "plain|high": {
+   "mean": -3.086999943310967,
+   "n": 256
+  },
+  "stilted|high": {
+   "mean": -2.827223654155134,
+   "n": 256
+  },
+  "plain|low": {
+   "mean": -4.056523436098726,
+   "n": 256
+  },
+  "stilted|low": {
+   "mean": -4.0810691059448985,
+   "n": 256
+  }
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ }
+}

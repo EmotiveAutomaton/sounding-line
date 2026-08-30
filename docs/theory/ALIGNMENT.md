@@ -234,15 +234,24 @@ exposing the mechanism that actually produced the choice.
 | **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and the one to take most seriously.** **Same structure as this project's own recurring error**, an instrument that optimises a proxy destroying the thing. We have watched it happen ten times at small scale |
 | **AL-5** | Value capture fails structurally, because no subgroup can satisfy the appetite for evidence | **OPEN, unsearched.** **Social-choice work on value aggregation usually argues the opposite**, that aggregation is where alignment gets hard. A collision worth finding |
 | **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment. The only row here that could be settled without a literature pass |
+| **F01-S5** | A reader's examination choice follows learning progress or reducible structure rather than novelty, complexity, or raw error | **REVERSED for this reader (test, L275), 96 sets.** Rank correlation with learning progress −0.38 and reducible structure −0.38; it examines the item whose rule is already stated first and the learnable one last; on two readers learning progress −0.34, the same order (L305) |
+| **F02-S5** | The reader's selection realizes more held-out gain per cost than raw-signal policies | **NO BETTER THAN RANDOM (test, L276), 96 sets.** 0.28 against 0.29 random, 0.04 novelty, 0.00 surprise, 0.97 for the exact learning-progress policy; on two readers 0.12 against 0.22 novelty and 0.26 learning progress (L306) |
+| **F03-S5** | The reader pursues a hoped-for explanation beyond its warrant, and a counter-bias prompt removes the excess | **NO EXCESS (test, L277), 96 worlds.** Pursuit minus warrant 0.00 on incongruent worlds; the counter-bias prompt lowers pursuit 0.11 to 0.14 below warrant in every cell; on two readers +0.01 and 0.06 to 0.07 (L307) |
 | **AL-7** | The reconstruction instrument can become both the seeking apparatus and a reciprocal human-invertibility interface | **OPEN.** Upstream choice/process recovery is still gated; artifact legibility must be separated from causal transparency, and no alignment work wakes until the existing conditions hold. It is why this file lives in this repository rather than in a notebook |
 
-**What these add up to.** **Nothing here has been checked against anything, and that is the file's
-defining fact.** The seven rows are not independent. AL-1 is the claim, AL-2 and AL-3 are the halves
+**What these add up to.** **The seven alignment rows have been checked against nothing, and that is
+the file's defining fact**; the three foraging rows under them are the first numbers the epistemic
+term has, and they say that a small reader's own epistemic appetite is for the familiar: it examines
+what it has been told, gains what a coin flip gains, and shows no pull toward a hoped-for answer,
+while the exact learning-progress policy it does not implement would triple its gain (F01-S5 to
+F03-S5), so the objective's epistemic term is well defined as a ruler and absent as a drive in the
+reader at hand. The seven rows are not independent. AL-1 is the claim, AL-2 and AL-3 are the halves
 it is built from, AL-4 and AL-5 are the two attacks that would kill it, and AL-6 and AL-7 are what it
 would take to build. **The ordering that matters is that AL-4 is cheap to reason about and fatal if
 right, while AL-1 needs a literature sweep before it can even be stated as novel.** Do AL-4 first.
 **A proposal that dies to its own second failure mode does not need a priority search.**
-**Confidence: untested, logic only, by design and by declared distance.**
+**Confidence: the alignment rows untested, logic only, by design and by declared distance; the
+foraging rows one bad test away, two readers, one construction.**
 
 ---
 

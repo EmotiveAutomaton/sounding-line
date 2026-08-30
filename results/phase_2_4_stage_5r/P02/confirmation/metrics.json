@@ -1,0 +1,29 @@
+{
+ "card": "P02",
+ "lane": "confirmation",
+ "written_at": "2026-08-29T16:31:53",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "scores": {
+  "enactability": 0.375,
+  "historical_correspondence": 0.1375,
+  "chance_historical_among_valid": 0.25,
+  "blind_valid_rate": 0.16666666666666666,
+  "abstention_rate": 0.25,
+  "proposal_validity": 1.0,
+  "n": 240
+ },
+ "primary_enactability_minus_blind": {
+  "point": 0.125,
+  "lo": 0.05,
+  "hi": 0.2,
+  "n_units": 120,
+  "n_boot": 2000
+ }
+}

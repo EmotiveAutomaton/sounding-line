@@ -1,0 +1,39 @@
+{
+ "written_at": "2026-08-29T16:36:24",
+ "design": "2",
+ "readers": {
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "n_per_domain": 48,
+   "domains": {
+    "memo": {
+     "validity": 1.0,
+     "arousal_acc": 0.75,
+     "action_acc": 0.875
+    },
+    "notice": {
+     "validity": 1.0,
+     "arousal_acc": 0.6041666666666666,
+     "action_acc": 0.75
+    }
+   },
+   "passed": false
+  },
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "n_per_domain": 48,
+   "domains": {
+    "memo": {
+     "validity": 1.0,
+     "arousal_acc": 0.625,
+     "action_acc": 0.6875
+    },
+    "notice": {
+     "validity": 1.0,
+     "arousal_acc": 0.6875,
+     "action_acc": 0.4375
+    }
+   },
+   "passed": false
+  }
+ },
+ "gpu_lock_s": 0.0
+}

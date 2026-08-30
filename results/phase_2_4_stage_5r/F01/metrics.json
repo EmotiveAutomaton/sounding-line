@@ -1,0 +1,61 @@
+{
+ "card": "F01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T16:21:59",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "selection_mass_by_class": {
+  "novel_explained": {
+   "mean": 0.30457086703466146,
+   "n": 192
+  },
+  "complex_compressible": {
+   "mean": 0.17274446743676572,
+   "n": 192
+  },
+  "random_unlearnable": {
+   "mean": 0.18930210769026143,
+   "n": 192
+  },
+  "structured_residual": {
+   "mean": 0.11499710726272411,
+   "n": 192
+  },
+  "trivial_known": {
+   "mean": 0.10798994570781573,
+   "n": 192
+  },
+  "learnable_intermediate": {
+   "mean": 0.11039550486777154,
+   "n": 192
+  }
+ },
+ "mean_rank_by_class": {
+  "novel_explained": 2.265625,
+  "complex_compressible": 3.1145833333333335,
+  "random_unlearnable": 3.1354166666666665,
+  "structured_residual": 4.046875,
+  "trivial_known": 4.255208333333333,
+  "learnable_intermediate": 4.182291666666667
+ },
+ "rank_correlation_with_rulers": {
+  "novelty": -0.2199404761904762,
+  "complexity": 0.11517857142857145,
+  "prediction_error": -0.1663690476190476,
+  "learning_progress": -0.3354166666666667,
+  "reducible": -0.31101190476190477
+ },
+ "top_item_mass_mean": 0.40295142562065805,
+ "constructions": {
+  "n_units": 96,
+  "n_distinct_constructions": 96,
+  "n_units_with_hash": 96,
+  "checked": true
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "written_at": "2026-08-29T13:17:37",
+ "reader": "Qwen/Qwen2.5-1.5B-Instruct",
+ "n_artifacts": 135,
+ "seed_bases": {
+  "stage3_L255": 40000,
+  "stage5_B03": 55100
+ },
+ "contrasts": {
+  "congruent": {
+   "point": 0.4793710311528993,
+   "lo": 0.23475339359887648,
+   "hi": 0.7175847967431461,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "incongruent": {
+   "point": 0.05072774141571539,
+   "lo": -0.11926591611915721,
+   "hi": 0.2408596863257431,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "random|stage3_L255": {
+   "point": 0.014329627486987077,
+   "lo": -0.2039507995085674,
+   "hi": 0.21963129361155587,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "random|stage5_B03": {
+   "point": -0.0004150870529593402,
+   "lo": -0.22744090586140475,
+   "hi": 0.21302391534175166,
+   "n_units": 135,
+   "n_boot": 2000
+  }
+ },
+ "by_fold": {
+  "congruent|smollm->qwen": {
+   "mean": 0.8131748818493696,
+   "n": 48
+  },
+  "congruent|qwen->smollm": {
+   "mean": 0.2952033893893295,
+   "n": 87
+  },
+  "incongruent|smollm->qwen": {
+   "mean": 0.113651529811932,
+   "n": 48
+  },
+  "incongruent|qwen->smollm": {
+   "mean": 0.01601116850745796,
+   "n": 87
+  },
+  "random|stage3_L255|smollm->qwen": {
+   "mean": -0.0764537534033001,
+   "n": 48
+  },
+  "random|stage3_L255|qwen->smollm": {
+   "mean": 0.06441701004714552,
+   "n": 87
+  },
+  "random|stage5_B03|smollm->qwen": {
+   "mean": 0.01991945223549049,
+   "n": 48
+  },
+  "random|stage5_B03|qwen->smollm": {
+   "mean": -0.011634143212104072,
+   "n": 87
+  }
+ },
+ "gpu_lock_s": 0.0
+}

@@ -1,0 +1,47 @@
+{
+ "card": "J03",
+ "lane": "discovery",
+ "written_at": "2026-08-29T15:58:18",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "per_latent": {
+  "episode_goal": {
+   "first_useful_step_mean": 7.134020618556701,
+   "never_useful_fraction": 0.62109375,
+   "reversals_mean": 4.25,
+   "overconfident_after_contradiction_rate": 0.5379464285714286,
+   "n_worlds_with_contradiction": 448
+  },
+  "process_plan": {
+   "first_useful_step_mean": 8.611607142857142,
+   "never_useful_fraction": 0.5625,
+   "reversals_mean": 5.091796875,
+   "overconfident_after_contradiction_rate": 0.5111607142857143,
+   "n_worlds_with_contradiction": 448
+  },
+  "standing_preference": {
+   "first_useful_step_mean": 7.068702290076335,
+   "never_useful_fraction": 0.744140625,
+   "reversals_mean": 4.9453125,
+   "overconfident_after_contradiction_rate": 0.5334821428571429,
+   "n_worlds_with_contradiction": 448
+  }
+ },
+ "first_useful_order": [
+  "standing_preference",
+  "episode_goal",
+  "process_plan"
+ ],
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ }
+}

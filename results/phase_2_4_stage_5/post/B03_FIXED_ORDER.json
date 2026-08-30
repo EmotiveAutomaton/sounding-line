@@ -1,0 +1,146 @@
+{
+ "written_at": "2026-08-29T13:25:20",
+ "reader": "Qwen/Qwen2.5-1.5B-Instruct",
+ "n_artifacts": 135,
+ "order": "fixed per artifact across arms",
+ "contrasts": {
+  "congruent": {
+   "point": 0.4793710311528993,
+   "lo": 0.23475339359887648,
+   "hi": 0.7175847967431461,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "incongruent": {
+   "point": 0.05072774141571539,
+   "lo": -0.11926591611915721,
+   "hi": 0.2408596863257431,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "random": {
+   "point": -0.0004150870529593402,
+   "lo": -0.22744090586140475,
+   "hi": 0.21302391534175166,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "shifted": {
+   "point": 0.28379223555110766,
+   "lo": 0.13716500449827848,
+   "hi": 0.43050443396634935,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "random_blocks": {
+   "point": 0.42297802437297044,
+   "lo": 0.028273955420312413,
+   "hi": 0.8033962563923889,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "half": {
+   "point": 0.22683069510991796,
+   "lo": 0.08291363102551506,
+   "hi": 0.36721799728776483,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "double": {
+   "point": 0.6145799172607339,
+   "lo": 0.1906736903391809,
+   "hi": 1.0250755215735798,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "reversed": {
+   "point": -0.32184844307039256,
+   "lo": -0.5575928827088705,
+   "hi": -0.09458725395718426,
+   "n_units": 135,
+   "n_boot": 2000
+  },
+  "permuted": {
+   "point": 0.3205939452895844,
+   "lo": 0.10855265808557442,
+   "hi": 0.5535795023797906,
+   "n_units": 135,
+   "n_boot": 2000
+  }
+ },
+ "by_fold": {
+  "congruent|smollm->qwen": {
+   "mean": 0.8131748818493696,
+   "n": 48
+  },
+  "congruent|qwen->smollm": {
+   "mean": 0.2952033893893295,
+   "n": 87
+  },
+  "incongruent|smollm->qwen": {
+   "mean": 0.113651529811932,
+   "n": 48
+  },
+  "incongruent|qwen->smollm": {
+   "mean": 0.01601116850745796,
+   "n": 87
+  },
+  "random|smollm->qwen": {
+   "mean": 0.01991945223549049,
+   "n": 48
+  },
+  "random|qwen->smollm": {
+   "mean": -0.011634143212104072,
+   "n": 87
+  },
+  "shifted|smollm->qwen": {
+   "mean": 0.6025471039955378,
+   "n": 48
+  },
+  "shifted|qwen->smollm": {
+   "mean": 0.10792748054728415,
+   "n": 87
+  },
+  "random_blocks|smollm->qwen": {
+   "mean": 0.1589446545145321,
+   "n": 48
+  },
+  "random_blocks|qwen->smollm": {
+   "mean": 0.5686516077431434,
+   "n": 87
+  },
+  "half|smollm->qwen": {
+   "mean": 0.5011294041074795,
+   "n": 48
+  },
+  "half|qwen->smollm": {
+   "mean": 0.07549347635264268,
+   "n": 87
+  },
+  "double|smollm->qwen": {
+   "mean": 0.386507697983055,
+   "n": 48
+  },
+  "double|qwen->smollm": {
+   "mean": 0.7404128658277291,
+   "n": 87
+  },
+  "reversed|smollm->qwen": {
+   "mean": -0.3159537077877035,
+   "n": 48
+  },
+  "reversed|qwen->smollm": {
+   "mean": -0.32510071081256586,
+   "n": 87
+  },
+  "permuted|smollm->qwen": {
+   "mean": 0.3180853699853286,
+   "n": 48
+  },
+  "permuted|qwen->smollm": {
+   "mean": 0.32197798683676004,
+   "n": 87
+  }
+ },
+ "gpu_lock_s": 0.0
+}

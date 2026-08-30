@@ -1,0 +1,70 @@
+{
+ "card": "P03",
+ "lane": "discovery",
+ "written_at": "2026-08-29T12:07:32",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "competence_by_access": {
+  "low": {
+   "n_train": 389,
+   "unordered_set": {
+    "held_out_accuracy": 0.4828828828828829
+   },
+   "partial_order": {
+    "held_out_accuracy": 0.5405405405405406
+   },
+   "true_prefix": {
+    "held_out_accuracy": 0.4756756756756757
+   }
+  },
+  "high": {
+   "n_train": 1556,
+   "unordered_set": {
+    "held_out_accuracy": 0.5117117117117117
+   },
+   "partial_order": {
+    "held_out_accuracy": 0.5675675675675675
+   },
+   "true_prefix": {
+    "held_out_accuracy": 0.5063063063063064
+   }
+  }
+ },
+ "competence_gain_by_access": {
+  "unordered_set": {
+   "point": 0.1819213226329667,
+   "lo": 0.0956949993225759,
+   "hi": 0.27837114238551336,
+   "n_units": 555,
+   "n_boot": 2000
+  },
+  "partial_order": {
+   "point": 0.19733799335948013,
+   "lo": 0.11448354869533399,
+   "hi": 0.2890570085862089,
+   "n_units": 555,
+   "n_boot": 2000
+  },
+  "true_prefix": {
+   "point": 0.30445568539850976,
+   "lo": 0.21146901779434812,
+   "hi": 0.4124530538173517,
+   "n_units": 555,
+   "n_boot": 2000
+  }
+ },
+ "interaction_prefix_minus_unordered": {
+  "point": 0.12253436276554301,
+  "lo": -0.014488972570374972,
+  "hi": 0.25621122383966977,
+  "n_units": 555,
+  "n_boot": 2000
+ },
+ "cpu_minutes": 0.28
+}

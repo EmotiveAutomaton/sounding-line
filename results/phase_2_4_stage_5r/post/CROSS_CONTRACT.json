@@ -1,0 +1,920 @@
+{
+ "roots": {
+  "design1": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5",
+  "design2": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r"
+ },
+ "rows": [
+  {
+   "card": "A01",
+   "design1": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -2.1605301603167035,
+    "ci": [
+     -2.347598463354767,
+     -1.968131298102307
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -0.830156881749507,
+    "ci": [
+     -0.9358737651833343,
+     -0.7217414652343038
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": "no admitted reader passed the appraisal track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "A02",
+   "design1": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -1.1985025888971876,
+    "ci": [
+     -1.4164490795562736,
+     -0.9768459208275391
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -0.6381073832859201,
+    "ci": [
+     -0.7579398787951984,
+     -0.5164486906526511
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": "no admitted reader passed the appraisal track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "A03",
+   "design1": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -0.2830927378930101,
+    "ci": [
+     -0.5103103063729123,
+     -0.05517051189603472
+    ],
+    "n": 127,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -0.1523204535456894,
+    "ci": [
+     -0.24763751302655018,
+     -0.054243075724053
+    ],
+    "n": 127,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": "no admitted reader passed the appraisal track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "A04",
+   "design1": {
+    "outcome": "VALID_NULL",
+    "point": -0.021131477915373193,
+    "ci": [
+     -0.06455639329594724,
+     0.021172954723746275
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and excludes a practically useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "VALID_NULL",
+    "point": -0.0024163549396172624,
+    "ci": [
+     -0.02329525975626398,
+     0.018847363454037393
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and excludes a practically useful benefit",
+    "track_gate_note": "no admitted reader passed the appraisal track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "A05",
+   "design1": {
+    "outcome": "VALID_NULL",
+    "point": 0.0010251038734758401,
+    "ci": [
+     -0.025772283992091194,
+     0.026144893302832817
+    ],
+    "n": 76,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and excludes a practically useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "VALID_NULL",
+    "point": -0.00021340159566781672,
+    "ci": [
+     -0.033557514658602815,
+     0.0314002434287143
+    ],
+    "n": 76,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and excludes a practically useful benefit",
+    "track_gate_note": "no admitted reader passed the appraisal track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "B01",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.01832395254898509,
+    "ci": [
+     -0.12788251150236443,
+     0.09757186979292357
+    ],
+    "n": 135,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.0049480214820575245,
+    "ci": [
+     -0.08785293676404957,
+     0.07810424057859991
+    ],
+    "n": 135,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "B02",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": 0.3464028083882372,
+    "ci": [
+     0.11720614396794429,
+     0.5971784414083424
+    ],
+    "n": 171,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold; a control arm is not quiet",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.4206810337792955,
+    "ci": [
+     0.23092653653968465,
+     0.6144103999620522
+    ],
+    "n": 171,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "changed": true
+  },
+  {
+   "card": "B03",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": 0.7095118116406758,
+    "ci": [
+     0.4123137318638744,
+     1.043573744840821
+    ],
+    "n": 135,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold; a control arm is not quiet",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INCONCLUSIVE",
+    "point": 0.4793710311528993,
+    "ci": [
+     0.25462976905977913,
+     0.7075619771247125
+    ],
+    "n": 135,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold; a control arm is not quiet",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "C01",
+   "design1": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "C02",
+   "design1": {
+    "outcome": "NOT_RUN",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "no discovery met the frozen eligibility rule; no confirmation justified",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "changed": true
+  },
+  {
+   "card": "F01",
+   "design1": {
+    "outcome": "DESCRIPTIVE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "descriptive card; no outcome band",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "DESCRIPTIVE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "descriptive card; no outcome band",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "F02",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.007618360294915207,
+    "ci": [
+     -0.595391762080757,
+     0.6135208394037047
+    ],
+    "n": 96,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.10062680013865272,
+    "ci": [
+     -0.38586995631526816,
+     0.19177108861771894
+    ],
+    "n": 96,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "F03",
+   "design1": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.15189684636221634,
+    "ci": [
+     0.09966659058577033,
+     0.20591424392834246
+    ],
+    "n": 96,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.06508591587555194,
+    "ci": [
+     0.030103130559168193,
+     0.10127396768004447
+    ],
+    "n": 96,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "I01",
+   "design1": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "receipt",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "receipt",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "I02",
+   "design1": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "I02pilot",
+   "design1": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "I03",
+   "design1": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "I04",
+   "design1": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INFRASTRUCTURE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": null,
+    "reason": "",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "J01",
+   "design1": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -1.3387175243199083,
+    "ci": [
+     -1.6427893812288914,
+     -1.0293314714268882
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -0.5716929031294854,
+    "ci": [
+     -0.7351693881977814,
+     -0.4037462525185639
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": "no admitted reader passed the joint track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "J02",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": 0.06638998273984997,
+    "ci": [
+     -0.15158524049666147,
+     0.27576801517011923
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INCONCLUSIVE",
+    "point": 0.06445548048551078,
+    "ci": [
+     -0.049580913505083854,
+     0.17739558891706833
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": "no admitted reader passed the joint track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "J03",
+   "design1": {
+    "outcome": "DESCRIPTIVE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "descriptive card; no outcome band",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "DESCRIPTIVE",
+    "point": null,
+    "ci": null,
+    "n": null,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "descriptive card; no outcome band",
+    "track_gate_note": "no admitted reader passed the joint track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "J04",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.08218806225886911,
+    "ci": [
+     -0.23239528143886604,
+     0.06365182654770583
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.04216561093108435,
+    "ci": [
+     -0.12781829627091726,
+     0.039757308973114185
+    ],
+    "n": 512,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": "no admitted reader passed the joint track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "J05",
+   "design1": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -0.7305833761671388,
+    "ci": [
+     -0.9291792226674972,
+     -0.5476151896782195
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "COUNTEREVIDENCE",
+    "point": -0.25981071332612254,
+    "ci": [
+     -0.3648931925001075,
+     -0.15647055970115464
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval entirely below zero",
+    "track_gate_note": "no admitted reader passed the joint track gate; all readers run, result gate-failed"
+   },
+   "changed": false
+  },
+  {
+   "card": "P01",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.015912470079085007,
+    "ci": [
+     -0.10409370926300016,
+     0.06739602445491231
+    ],
+    "n": 555,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "VALID_NULL",
+    "point": -0.05440427488529917,
+    "ci": [
+     -0.1449670064081117,
+     0.026520171042516024
+    ],
+    "n": 555,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and excludes a practically useful benefit",
+    "track_gate_note": null
+   },
+   "changed": true
+  },
+  {
+   "card": "P02",
+   "design1": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.3055555555555556,
+    "ci": [
+     0.15,
+     0.4388888888888889
+    ],
+    "n": 45,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.125,
+    "ci": [
+     0.05,
+     0.2
+    ],
+    "n": 120,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "P03",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": 0.12253436276554301,
+    "ci": [
+     -0.014488972570374972,
+     0.25621122383966977
+    ],
+    "n": 555,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.14004834297600977,
+    "ci": [
+     0.011395843073813267,
+     0.26797989846041675
+    ],
+    "n": 555,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "changed": true
+  },
+  {
+   "card": "R01",
+   "design1": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.11461320754716982,
+    "ci": [
+     0.09350335429769392,
+     0.13684423480083857
+    ],
+    "n": 159,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.055942138364779875,
+    "ci": [
+     0.046185115303983226,
+     0.06568553459119497
+    ],
+    "n": 159,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "R02",
+   "design1": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.18413977967194375,
+    "ci": [
+     0.15663331666738559,
+     0.21178862996820885
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.08737205655772207,
+    "ci": [
+     0.07674879413694308,
+     0.09817891308486937
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "directional support at or above the frozen threshold",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "R03",
+   "design1": {
+    "outcome": "VALID_NULL",
+    "point": -0.023273273273273273,
+    "ci": [
+     -0.06381381381381382,
+     0.024024024024024024
+    ],
+    "n": 148,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and excludes a practically useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "VALID_NULL",
+    "point": -0.012887887887887884,
+    "ci": [
+     -0.03315815815815815,
+     0.014139139139139145
+    ],
+    "n": 148,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and excludes a practically useful benefit",
+    "track_gate_note": null
+   },
+   "changed": false
+  },
+  {
+   "card": "R04",
+   "design1": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.057516560144357326,
+    "ci": [
+     -0.20100236604155677,
+     0.09787601418168859
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "design2": {
+    "outcome": "INCONCLUSIVE",
+    "point": -0.002862952176219615,
+    "ci": [
+     -0.07737239774013245,
+     0.06765275546033958
+    ],
+    "n": 256,
+    "readers": [
+     "Qwen/Qwen2.5-1.5B-Instruct",
+     "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    ],
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "track_gate_note": null
+   },
+   "changed": false
+  }
+ ],
+ "summary": {
+  "cards": 30,
+  "outcome_changed": 4,
+  "design2_readers": [
+   [
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+   ],
+   []
+  ]
+ }
+}

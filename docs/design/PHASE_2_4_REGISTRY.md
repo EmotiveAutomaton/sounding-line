@@ -331,6 +331,107 @@ general queue, which ran R1 to R5 (L251 to L255) and exited empty at 21:22. Elap
 against the brief's 24 (accounting only), 14.95 GPU-lock hours. The analyst synthesis is
 appended to the packet.
 
+## Stage 5 (his build order 2026-08-29; brief at PHASE_2_4_STAGE_5_CONTEXT.md)
+
+**Order:** assess the uploaded brief for viability, then build everything in the brief's own
+order and set it to run in second gear until the queue is empty; file the brief in the stage
+documentation once implemented. Decisions taken by default where he did not rule: the
+brief's 24-hour window and hour-20 freeze are accounting and a work-order rule under his
+standing until-empty ruling (he confirmed this); the strategic-communication factorial is
+templated with derived regions rather than maker-generated (the L169 compliance lesson);
+candidate-likelihood readouts are the primary everywhere and generation is reserved for the
+recurrent reader's revision and the drawing-order proposal (the T01 parse-validity lesson);
+Ghost V14's rulers are imported only if V14 lands first (its own card decides what it
+licenses, on its own clock, so neither program waits for the other).
+
+**Build log.** 2026-08-29, one pass: `soundingline/stage5.py` (the Stage-4 records subclassed to
+Stage-5 paths, the four lanes, the constrained latent record with `unknown` and evidence
+references, the root registries, calibration and selective-risk scores), `runners/s5_lib.py`
+(candidate likelihood with an explicit unknown, the structured-record parser with its
+fixtures, trajectory statistics, exact information), `runners/s5_worlds.py` (the joint world on
+the Stage-4 commission graph with an exact joint posterior over goal x plan x preference, the
+four routes with exact information, the conflict variant, the foraging items on an exact rule
+family), `runners/s5_sources.py` (the seven-factor source world, 512 surfaces per domain
+enumerated in lane blocks with the two hidden factors balanced apart, collision twins on every
+lineage), `runners/s5_cards.py` (29 cards, orders, tiers), eight runners, the scheduler with reset
+and a run-until-empty closure, `run_stage5.sh` with the chain, `tools/s5_construction_audit.py`,
+`runners/validate_stage5_program.py`, `tools/test_s5.py` (thirteen guards). The manual inspection
+of assembled prompts found and repaired: the episode goal barely identifiable at a bonus of 0.6
+(truth mass under the note's lie; tuned to 1.0 on a sweep: goal 0.82, preference 0.64, 65 percent
+of worlds past the route floor; 1.5 drowned the preference), the learning-progress ruler dead on
+every item (rules pinned by four elements; now three shown, progress as error reduction on an
+exact rule family, and a residual step forced to differ from the main step), the correction
+question asked with a survey that confirmed the claim under high support, a neutral region that
+admitted the grave register, a doubled article, and a position gate stricter than its Stage-4
+band (per-item probability wobble of 0.13 to 0.19 failed all three readers; the band is the
+accuracy difference between two permutations, the wobble reported). First loop smoke on empty
+readers exercised the mechanics; the second, on the repaired code with the readers admitted,
+found and repaired five labeling and scale defects before the launch at 11:49 (the third smoke, on those repairs, ran clean): infrastructure
+passes and the two descriptive cards were filed as VOID (now INFRASTRUCTURE and DESCRIPTIVE,
+so the packet cannot count a pass as absent evidence), the bridge's primary stayed on the 3B
+checkpoint when the gate refused it (now the second family carries the primary and the
+refusal is written), the route floor demanded eight passing worlds regardless of scale, and
+the smoke tier froze as expanded so the expansion rung never ran under test, and the Stage-4 manifest refused the two new labels (a whitelist the third smoke caught at its first cell). Design-lint
+headers on all nine gate-bearing Stage-5 runners pass (null, alternative, direction, and
+exhaustive bands stated in prose).
+
+**Deviation from the design freeze, 12:26 to 12:29.** The J-track future-choice question offered
+the four option sentences as candidates; every reader variant answered from their wording (L263).
+Under the stop-useless-work ruling the loop was stopped by Windows pid at the J05 boundary (J03
+preserved; J05's partial rows kept on disk), the question rebuilt as version 2 (options listed
+in the body, the short axis words as candidates; `S5_READOUT_VERSION`), probed on 48 known-answer
+worlds (version 1 oracle −2.69 nats; version 2 oracle −1.63, bare −1.57; uniform −1.39; exact
+ceiling −1.09), and the loop relaunched with J04 and J05 withdrawn (NOT_RUN, reason written) and
+J02/v2, J04/v2, J05/v2 admitted as repair cells that write beside the withdrawn cells
+(`S5_CELL` override; REPAIR_CELLS.json, WITHDRAWN_CELLS.json; the confirmation selector reads a
+repaired verdict when one exists; a replaced card is not expanded on its withdrawn readout).
+Version 1 stays reproducible for the record. The construction itself was checked and is
+answerable (the exact posterior's predictive a third of a nat above uniform on the 256 worlds).
+Fifteen tests guard the machinery.
+
+**Closure, 13:04.** RUN_TO_EMPTY after 1.25 hours (GPU lock held 0.99 h): 28 cards resolved, three
+of them as repair cells, two withdrawn; the tier froze at expanded and the rung did not apply; the
+closure block confirmed R02 on 256 untouched worlds and found no second candidate. Validator exit 0
+(its two 'produce missing' lines are the withdrawn cells; its coverage of 147 of 255 counts cells for
+three readers where one was admitted); construction audit 1368 root units over nine card-lanes, all
+distinct. The packet carries the analyst synthesis above its machine draft. Landings L256 to L281.
+The wrapper chained into the general queue.
+
+**Second contract (Stage 5R, design 2), launched 15:11 on his order.** Every post-run repair behind
+`S5_DESIGN=2`, the closed contract's code paths untouched under the default: the 96-item reader gate (SmolLM2 admitted, L282), the source-world register gate and the
+latents-to-choice gate as track gates (TODO (j), (p)), the fixed-order bridge (s), the repaired
+future-choice question as the default (L263), the goal-restated preference question (h), P02's
+comma format with a lenient parser (o), P01 with category and placement features (d), A02's twin
+pairing keyed on the unit (k), R02's rendering chosen by the reader's own token probabilities (m),
+R01's per-world route rendering (l), a forensic step costing 0.015 nats so it pays in half the
+worlds (n), the second episode's goal weighing twice so its exact ceiling is −0.50 (q), and the
+plan's partial order relaxed in half the worlds so equifinal twins exist (g). The contract
+names its stage and design from the environment; the design-2 worlds pass their self-tests (equifinal
+twins in a third of worlds, the forensic step paying in about half, the second-episode ceiling above
+uniform by more than 0.4 nats) and two new guard tests; a scratch-root smoke with both readers
+preceded the launch. Landings write through as L284 onward. **Restart 15:24:** the full-scale
+appraisal gate showed the action question below chance for both readers; the cause is the
+intensity closers, imperatives at both levels ('It should be looked at' / 'It must be dealt with at
+once'), so the action factor's 'absent' level still asked for action. Under design 2 the closers
+now state gravity without a call ('It is a small matter' / 'It is a grave matter'); the loop was
+stopped at B02, the leakage audit re-admitted as I03/v2, and the loop resumed, before any
+appraisal card ran. The gate in the frozen design was measured on the pre-repair text and is
+re-measured post-run. The audit repair cell (I03/v2) ran on the repaired text and passed (no leakage on the
+hidden factors, 1,368 roots, all distinct) but wrote into I03/ because the integrity runners address the
+card's directory, not the cell's, so the manifest records the cell as FAILED (produce missing): bookkeeping,
+filed as TODO (v).
+
+**Closure, 16:32.** RUN_TO_EMPTY after 1.35 hours (GPU lock held 1.04 h): 29 cards resolved on two
+readers, the tier expanded, the rung not applying; the closure block confirmed R02 (+0.083) and P02
+(+0.125) on untouched reserves. Validator exit 0 (30 verdicts, 30 resolved of 29 mandatory; the I03/v2
+bookkeeping failure noted above); construction audit 1,368 root units over nine card-lanes, all
+distinct. The packet carries the analyst synthesis above its machine draft. Landings L284 to L308.
+The wrapper chained into the general queue, whose two stages landed at 16:33: the second family on the
+second domain under fixed order (congruent +0.03, nothing) and the card-by-card table of the two
+contracts (four outcomes changed; appended to the second packet). The queue is empty. The post-run source-gate receipt on the repaired text (L309) shows the action
+question at 0.88 / 0.75 for Qwen and the arousal question unchanged; the construction is repaired and
+the register's arousal half is a reader floor.
+
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 
 Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after

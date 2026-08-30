@@ -52,7 +52,64 @@ interpretability at once, and the same word means different things in each.
 
 ## Where we are, in one paragraph
 
-**2026-08-28.** Stage 4 (context, appraisal, transmission, relay, physical traces; brief in
+**2026-08-29.** Stage 5 (routed joint reconstruction, 29 cards) ran under second gear from 11:49
+to 13:04 (RUN_TO_EMPTY; one confirmation, R02, L281; packet and synthesis at
+results/phase_2_4_stage_5/CURATOR_PACKET_FINAL.md), built in one pass on the Stage-4 machinery and inspected before the
+clock (four construction defects repaired; see the registry); landings write through as they
+come and the science waits for its one packet. First landings: the reader gate admitted one reader
+of three, so Stage 5 is single-reader (L256); the bridge on the second-family checkpoint showed no
+congruent benefit with both controls negative, so L255 stays anchor-only (L257); on a second artifact
+domain the anchor's congruent effect holds in both folds but the random direction is not quiet
+(L258); a logistic next-stroke predictor never beats the cheap priors at any access level (L259);
+the specificity battery shows the anchor's congruent effect is mostly a generic push with a
+sign-specific residue, so L255's selectivity clause is killed (L260); the reader recovers the plan
+but attributes the episode goal's axis to the standing preference in two thirds of worlds, voiding
+two latents for the joint cards (L261); competence by access is unresolved (L262); the future-choice
+readout answered from the option wording, so J02 v1 is an instrument failure and J04/J05 were
+withdrawn and re-admitted as repair cells on the repaired question (L263); the trajectories show no
+appropriate revision after a contradiction (L264). The appraisal track: the reader answers constants
+on the source world's legible factors (L265), predicts no behavior and never abstains on collision
+twins (L266), gives the inverse-inverse question no test (L267), and every influence warning lowers
+acceptance without discrimination, a criterion shift (L268); history moves uptake by nothing (L269). The route card's support over a random selector is a fluency
+policy on a construction where the easiest route is the informative one (L270); stated reliance rises
+with the number of records while the stilted rendering meant to be harder read as easier (L271); demonstrations set the route
+to 100 or 0 percent regardless of diagnosticity (L272); the forensic purchase is cost-blind on a
+construction where the step never pays (L273). The reader reconstructs an enactable, usually historical,
+drawing order from shuffled strokes on the third of trials it answers in form, and claims determinacy
+where four orders fit (L274); it forages for the familiar, against every learning ruler (L275), realizing
+a coin flip's gain against a learning-progress policy three times better (L276); it shows no hope bias,
+and the counter-bias prompt is a criterion shift (L277). On the repaired question every joint reader
+sits under uniform with the oracle no better than the recurrent reader (L278); the opened
+missing-goal hypothesis is taken in 7 percent of the worlds where the note lies (L279); the inferred
+preference predicts the next episode worse than the scenario's own prior (L280); the closure block
+confirmed R02's quantity effect on the reserve and found no second candidate (L281). Post-run: SmolLM2
+passes the gate at ninety-six items (a band-edge miss at forty-eight), the 3B does not (L282); the
+bridge's loud controls were order noise on the readout's two-nat letter effect, and with the order
+held fixed L255's selective signature stands on two domains for the anchor and not on the second
+family (L283, reversing L260). The second contract (Stage 5R, design 2) runs from 15:11 with every
+post-run repair and both readers; its gate admits both small readers and both fail both track
+gates, the appraisal one on a directive the construction's 'absent' level carries (L284); the second-family
+bridge null replicates under fixed order (L285); the anchor's second-domain replication lands as a card
+with quiet controls (L286); the next-stroke ladder is a valid null with the priors in the model (L287); the specificity battery lands
+as a card under fixed order with random at 0.00 (L288); competence-by-access clears zero (L289); the restated preference question leaves the goal-as-disposition
+attribution in place while the equifinal ruler fires at 0.52 (L290); joint reconstruction sits under uniform on both readers
+(L291); the trajectories worsen with the second reader and the harder plan sets (L292); on a second episode
+with headroom the inferred preference still loses to the topic prior (L293); the note's conflict goes
+undetected on two readers (L294); on the repaired source text the appraisal owner's read improves by a
+nat and a half while the audience effect stays unread (L295); the rest of the appraisal track repeats on
+two readers: behaviors unread with the twins now paired (L296), the inverse-inverse question untestable
+(L297), influence interventions a criterion shift (L298), history moving uptake by nothing (L299). With the
+route descriptions rendered per world the readers decline the easiest route and prefer the record
+over the note, +0.06 over random (L300); the quantity effect on reliance replicates and the ease ruler
+proves invalid on known-answer renderings (L301); demonstrations are obeyed in both families (L302); with a forensic step that pays in a third of worlds
+the readers buy at one rate everywhere and use nothing they buy (L303); the comma format parses every
+reply but two thirds echo the listing, the genuine proposals enactable at 0.70 (L304); the foraging
+track repeats on two readers: familiarity first, no policy, no hope bias (L305 to L307); the closure
+block confirmed R02 and P02 on their reserves (L308). **Stage 5R closed 16:32, RUN_TO_EMPTY, 1.35 h;
+packet and synthesis at results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md.** Post-run: the source
+gate on the repaired text shows the action factor legible now and the arousal register a reader floor
+(L309); the general queue is empty. **The Stage-4 record, one paragraph.** Stage 4
+(context, appraisal, transmission, relay, physical traces; brief in
 docs/design) ran under second gear from 22:22 on the 27th, was STOPPED at 05:57 on the
 curator's order and restarted at half past six after a construction repair: the parallel
 agent-hardening audit found the lesson-world constructor ignoring its domain (128 T01
@@ -10685,6 +10742,2273 @@ card's floor is unmet and the affect-to-inversion bridge has a plank, not a span
 > built. Public claim: unchanged until the floor is met. Decision: **Yes**, recommended
 > answer: run the second checkpoint and domain. Detail:
 > results/phase_2_4_stage_3/A/A07/verdict_b.json, rows_b.jsonl.
+
+**Reversal (2026-08-29, L260).** The selectivity clause did not survive its own construction's
+specificity battery: a random direction, the congruent direction at other blocks, and
+directions fit on shuffled labels all lift the read by half to two thirds of a nat against
+seven tenths for the true direction; sign is the one specific factor. This entry's "causal use
+during inversion" reading is withdrawn; a sign-specific residue of about a third of a nat over
+the random arm stands. The second-family checkpoint gave nothing (L257) and the second domain
+replicated the direction with the random arm loud (L258).
+
+**Reversal of the reversal (2026-08-29, L283).** The specificity battery's loud controls were
+the card's own order noise on the readout's two-nat letter effect; with the order held fixed
+the random arm is 0.00 under both seed sets on this construction and −0.04 on a second domain,
+with congruent +0.48 and +0.42, so this entry's causal-use reading stands, refined: the
+direction works across the middle third of the stack (not coordinate-specific) and
+permuted-label directions carry part of the effect on this domain and none on the second.
+
+## L256 · The Stage-5 reader gate admitted one reader of three: SmolLM2 failed the position band by four thousandths with a ten-point accuracy gap between orderings, and the 3B Qwen failed the per-option floor on the cheap option, so Stage 5 runs single-reader
+
+**Hypothesis.** (Stage 5 I02, brief §6.) Before any card, does each candidate reader answer a
+forced-choice question about a stated preference validly, accurately, on every option, and
+without depending on option order, at the Stage-4 bands?
+
+**Method.** Forty-eight items per reader per domain (twelve per option, workshop and civic
+commissions), the candidate-likelihood readout over four options plus an explicit unknown,
+scored under two option orderings; bands frozen from Stage 4: validity at or above 0.95,
+accuracy at or above 0.75, every option at or above 0.5, and the accuracy difference between
+the two orderings at or under 0.10. Per-item probability wobble is reported, not gated.
+
+| reader | domain | accuracy, ordering 1 / 2 | position swing | weakest option | admitted |
+|---|---|---|---|---|---|
+| Qwen2.5-1.5B-Instruct | workshop | 0.958 / 0.938 | 0.021 | 0.917 | yes |
+| Qwen2.5-1.5B-Instruct | civic | 0.896 / 0.896 | 0.000 | 0.750 | yes |
+| SmolLM2-1.7B-Instruct | workshop | 0.729 / 0.833 | 0.104 | 0.583 | no |
+| SmolLM2-1.7B-Instruct | civic | 0.729 / 0.833 | 0.104 | 0.583 | no |
+| Qwen2.5-3B-Instruct | workshop | 0.917 / 0.875 | 0.042 | 0.667 | no |
+| Qwen2.5-3B-Instruct | civic | 0.750 / 0.688 | 0.062 | 0.333 (cheap) | no |
+
+*Table: one row per reader and commission domain; accuracy is the share of forty-eight items
+answered with the true preference under each ordering; position swing is the difference
+between those two; weakest option is the lowest per-option accuracy; validity was 1.0
+everywhere. A reader is admitted only when both domains pass every band.*
+
+**What we found.** One reader admitted. SmolLM2 sits under the accuracy band on one ordering
+and over it on the other, which is exactly the position dependence the swing band guards
+(0.104 against 0.10); the 3B Qwen misreads the cheap option in the civic domain a third of the
+time on the same construction its smaller sibling reads at three quarters.
+
+**What it means.** Stage 5 runs on Qwen2.5-1.5B alone: every card's "two readers" clause
+narrows to one model, the second-family replication is not available inside this stage, and
+the bridge's same-family second checkpoint is refused, so the bridge runs on SmolLM2 as its
+steered model (the reader gate governs candidate-choice readouts, not the steered checkpoint's
+own capability ladder). The bands are preregistered and stand; a gate re-run at more items is
+a post-run obligation, never a mid-run adjustment. The tier froze at expanded (the pilot's
+rates put the whole program at 3.6 GPU-hours before the 2-3x rule).
+
+> **Curator roll-up.** Theory group: instruments (the Stage-5 reader set). Question: which
+> readers answer a stated-preference question validly and order-independently? Outcome class:
+> **Infrastructure.** Result: one of three readers admitted. Meaning: Stage-5 claims are
+> one-model claims; second-family replication moves to a later stage. Next obligation: after
+> the run, gate SmolLM2 and the 3B at ninety-six items on the same bands to tell a band-edge
+> miss from a stable failure. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/I02/gates.json. The liveness, length, and leakage audit (I03)
+> passed on the same pass: no factor of the source world is predictable from bag-of-words
+> features on the hidden factors, every collision twin pairs identical text, no leaked
+> attributions (results/phase_2_4_stage_5/I03/verdict.json).
+
+## L257 · On the second-family checkpoint the held-out maker's true tendency direction adds nothing (−0.02 nats, permutation p 0.74) while the wrong and random directions both cost half and a quarter of a nat, so L255's selective signature did not appear there
+
+**Hypothesis.** (Stage 5 B01, brief §6; the floor L255 left unmet.) Does steering with the
+direction of a held-out maker's true tendency raise a second checkpoint's log score on that
+maker's tendency, with the wrong and random directions quiet, as it did on the anchor?
+
+**Method.** The L255 procedure on SmolLM2-1.7B-Instruct as the steered model (the same-family
+3B was refused by the reader gate, L256): 135 Stage-4 A01 artifacts, bodies stripped of the
+tendency phrase; two folds (directions fit on one maker's artifacts, tested on the other's);
+centroids and directions at the middle-third locus; nearest-centroid decode; the prompted
+four-way inference under zero steering and under the true tendency's direction (congruent),
+the next tendency's in a fixed cycle (incongruent), and a norm-matched random direction, at
+the largest dose passing the capability ladder (0.08 of the mean norm; 0.12 failed); paired
+log-score differences over artifacts, cluster bootstrap and a sign-flip permutation.
+
+| fold (fit on, test on) | decode, balanced | prompted, unsteered | congruent minus zero, nats | incongruent minus zero | random minus zero |
+|---|---|---|---|---|---|
+| Qwen, SmolLM (87 held out) | 0.22 | — | −0.06 | −0.63 | −0.23 |
+| SmolLM, Qwen (48 held out) | 0.27 | — | +0.05 | −0.32 | −0.23 |
+| pooled (135) | 0.24 | 0.66 | **−0.02 [−0.13, +0.10], p 0.74** | **−0.52 [−0.64, −0.38], p < 1e-4** | **−0.23 [−0.34, −0.13], p < 1e-4** |
+
+*Table: chance 0.25 for the balanced decode; the unsteered prompted read is pooled; the three
+steering columns are mean paired log-score differences against zero steering, with the
+cluster-bootstrap interval and permutation p on the pooled rows. The card's rule marks the
+steering read void where the directions' own decode sits under chance, which it does here
+(0.24 pooled).*
+
+**What we found.** No congruent benefit on this checkpoint in either fold; the incongruent
+direction costs half a nat and a random direction of the same norm a quarter, so the
+directions disrupt the inference without carrying the tendency into it. The decode of the
+same directions sits at chance, as it did in L255's second fold.
+
+**What it means.** The L255 effect did not appear on the second-family checkpoint. Two
+readings remain open and the card cannot separate them: the tendency representation is not
+used during inversion in SmolLM2, or the directions fit on Qwen-made artifacts do not
+transfer to SmolLM2's geometry (the decode at chance says the second at least is true). The
+affect-to-inversion bridge keeps its one plank (the anchor, L255) and gains no span; B02
+(the anchor on a second artifact domain) and B03 (specificity arms) decide whether the plank
+itself holds.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate (Stage 3 A
+> trunk; Stage 5 bridge). Question: does causal use of the tendency representation during
+> inversion replicate on a second checkpoint? Outcome class: **Narrows.** Result: −0.02 nats
+> congruent with both controls negative on SmolLM2. Meaning: L255 is an anchor-only result
+> until a checkpoint whose directions decode above chance is steered. Next obligation: B02
+> and B03 (running); then a same-family second checkpoint once the 3B passes a gate at more
+> items. Public claim: unchanged (already held to one checkpoint). Decision: **No.** Detail:
+> results/phase_2_4_stage_5/B01/verdict.json, metrics.json, cases.jsonl.
+
+**Post-run (2026-08-29, L283).** Under fixed order the second-family checkpoint reads
+congruent −0.01 [−0.09, +0.07] with every other direction costing (random −0.24,
+incongruent −0.50, double −0.67); this entry stands.
+
+## L258 · On a second artifact domain the anchor's congruent direction raises the held-out maker read by a third of a nat in both folds, but a random direction of the same norm costs a fifth, so the effect replicates in direction and loses its selectivity clause
+
+**Hypothesis.** (Stage 5 B02, brief §6; the domain half of the L255 floor.) Does the anchor
+reader's causal use of the tendency representation, shown on the Stage-4 scene artifacts
+(L255), hold on artifacts written for twelve fresh scenes, with the wrong and random
+directions quiet?
+
+**Method.** The two makers wrote under the four tendencies on twelve fresh scenes (192 of 192
+attempts realized at accept time; 171 artifacts usable after the tendency phrase was
+stripped and the length floor applied); the L255 procedure on Qwen2.5-1.5B-Instruct as the
+steered reader: two maker folds, centroids and directions at the middle-third locus,
+nearest-centroid decode, the prompted four-way inference under zero, congruent, incongruent,
+and norm-matched random steering at the largest capability-passing dose (0.04 of the mean
+norm); paired log-score differences over artifacts, cluster bootstrap, sign-flip permutation.
+The same-family second checkpoint was refused by the reader gate (L256), so the
+checkpoint-by-domain cell is empty.
+
+| fold (fit on, test on) | decode, balanced | congruent minus zero, nats | incongruent minus zero | random minus zero |
+|---|---|---|---|---|
+| Qwen, SmolLM (75 held out) | 0.20 | +0.32 | −0.18 | −0.31 |
+| SmolLM, Qwen (96 held out) | 0.18 | +0.37 | −0.60 | −0.12 |
+| pooled (171) | 0.19 | **+0.35 [+0.12, +0.60], p 0.006** | **−0.41 [−0.70, −0.13], p 0.004** | −0.21 [−0.45, +0.05], p 0.11 |
+
+*Table: chance 0.25 for the balanced decode; the unsteered prompted read of the held-out
+maker's tendency is 0.72 balanced, pooled; the steering columns are mean paired log-score
+changes against zero steering with the cluster-bootstrap interval and permutation p on the
+pooled rows. The card's quiet-controls clause requires each control under half the congruent
+effect or under 0.02 nats; the random arm fails it. The card's decode rule marks the steering
+read void where the directions' own decode sits under chance, which it does at 0.19.*
+
+**What we found.** The congruent benefit is present in both folds on the new domain (+0.32 and
++0.37) and the wrong direction costs in both, as in L255; unlike L255 the random direction is
+not quiet (−0.21, its interval reaching zero), so any direction of this norm disrupts the
+inference and the congruent one lifts it 0.55 nats above that disruption. The directions'
+decode sits under chance in both folds.
+
+**What it means.** The anchor's effect transfers across artifact domains in direction and
+size, which the L255 floor asked for, but the selectivity clause that made L255 a causal-use
+read (random quiet) does not hold here: the honest statement is a congruent-over-random
+contrast of about half a nat on a background where steering itself costs a fifth. Whether
+that background is dose (0.04 here against L255's 0.04 on the same reader; the new domain's
+artifacts may sit closer to the capability edge) or domain is B03's question (the dose,
+coordinate, sign, and permuted-label arms). With L257, the bridge's state is: the anchor
+carries the effect on two domains with a disruption background on the second; the second
+family carries nothing.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate (Stage 5
+> bridge). Question: does the anchor's causal-use effect hold on a second artifact domain
+> with the controls quiet? Outcome class: **Narrows.** Result: +0.35 nats congruent in both
+> folds with the random arm at −0.21, not quiet. Meaning: the effect transfers; its
+> selectivity is now a congruent-over-random contrast, not a clean signature. Next
+> obligation: B03's specificity arms (running) settle whether the random cost is dose. Public
+> claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5/B02/verdict.json,
+> metrics.json, cases.jsonl, corpus/.
+
+**Reversal (2026-08-29, L283).** With the option order held fixed across arms on the same 171
+artifacts, the random arm is −0.04 [−0.20, +0.11] and permuted-label directions −0.03,
+against congruent +0.42, incongruent −0.33, reversed −0.67: the selectivity clause holds on
+this domain. The −0.21 random arm above was order noise (standard error 0.17). This entry's
+class moves from Narrows to Strengthens: a clean replication of L255 on a second domain.
+
+## L259 · A logistic next-stroke predictor falls below the category and bounding-box priors at every access level, worst on the final raster and no better than the priors even with the true prefix, so the access ladder bought nothing for this predictor
+
+**Hypothesis.** (Stage 5 P01, brief §4.4.) Does richer access to a drawing's process (the
+final geometry, the strokes as an unordered set, a partial order, the true prefix) improve
+prediction of the next stroke's start quadrant beyond the best cheap prior, monotonically
+in access?
+
+**Method.** Quick, Draw! drawings in four categories (house 435, tree 342, bicycle 968, cat
+894; CC BY 4.0), the Stage-4 prefix files; per access level a logistic model on that level's
+features fit on the training split and scored on 555 held-out drawings; the score is the
+model's log probability of the true next quadrant minus the better of the category marginal
+and the bounding-box-corner marginal, both fit on the training split; cluster bootstrap by
+drawing; monotonicity is each level within 0.02 of or above the previous. CPU only, the
+language readers not involved.
+
+| access level | gain over the best prior, nats | interval |
+|---|---|---|
+| final geometry | −0.35 | [−0.46, −0.25] |
+| unordered stroke set | −0.11 | [−0.18, −0.03] |
+| partial order | −0.02 | [−0.10, +0.07] |
+| true prefix | −0.13 | [−0.20, −0.04] |
+
+*Table: one row per access level; a positive gain would mean the level's model predicts the
+next stroke's quadrant better than the cheap priors; 555 held-out drawings in every row;
+the card's verdict is taken at the best level (partial order), INCONCLUSIVE, and the curve is
+not monotone in access.*
+
+**What we found.** No level beats the priors; three of four sit significantly below them,
+and the true prefix does worse than a partial order. The predictor is worse than its own
+marginals, which is a property of the predictor (a logistic model on these features is
+miscalibrated against strong marginals) as much as of the access.
+
+**What it means.** For this predictor the access ladder buys nothing about the next stroke,
+against the Stage-4 first-stroke result where the ladder moved recovery (P02, L238). The
+next-stroke estimand is harder than the first-stroke one (the prior is sharper once a stroke
+exists), and a predictor that cannot match the marginal it competes with cannot show an
+access effect; the obligation is a predictor that takes the priors as features so the
+ladder is tested above them, not a reading about process access. P02 and P03 (equifinal
+orders; competence) run on their own estimands.
+
+> **Curator roll-up.** Theory group: decision traces, terminal organisation (the access
+> ladder). Question: does process access improve next-stroke prediction beyond cheap priors?
+> Outcome class: **Narrows.** Result: no access level beats the priors (best −0.02 nats).
+> Meaning: the ladder result (L238) is a first-stroke result; the next-stroke estimand needs
+> a predictor that starts from the priors. Next obligation: refit P01 with the two priors as
+> features (a post-run item; the card is frozen). Public claim: unchanged. Decision: **No.**
+> Detail: results/phase_2_4_stage_5/P01/metrics.json, cases.jsonl.
+
+## L260 · On the anchor, the specificity battery finds that a random direction, the same direction at shifted or random blocks, and permuted-label directions all raise the held-out maker read by four- to seven-tenths of a nat, so the congruent effect is mostly a generic activation push with a sign-specific residue, and L255's quiet random arm did not replicate on the same construction
+
+**Hypothesis.** (Stage 5 B03, brief §6.) Is the anchor's congruent steering effect (L255)
+specific to its coordinates (the blocks it is applied at), its dose, its sign, and its label
+mapping, and is it a target read rather than a shift of the reader's own answer?
+
+**Method.** The L255 construction exactly: Qwen2.5-1.5B-Instruct, the 135 Stage-4 scene
+artifacts, two maker folds, the middle-third locus, dose 0.04 of the mean norm (the largest
+passing the capability ladder), the prompted four-way inference; arms beyond zero,
+congruent, incongruent, and random: the congruent directions applied at shifted blocks and
+at random blocks; half and double dose; the reversed sign; directions fit with permuted
+tendency labels; and an own-answer control (the reader's impulse on a neutral scene under
+congruent steering, compared with the target gain). Paired log-score differences against
+zero, cluster bootstrap, sign-flip permutation; the card's quiet-controls clause requires
+every control under half the congruent effect or under 0.02 nats.
+
+| arm | minus zero, nats | interval | permutation p |
+|---|---|---|---|
+| congruent (true tendency's direction) | **+0.71** | [+0.41, +1.04] | < 1e-4 |
+| half dose | +0.45 | [+0.18, +0.76] | 0.002 |
+| double dose | +0.84 | [+0.41, +1.31] | 0.0004 |
+| incongruent (next tendency's direction) | +0.13 | [−0.20, +0.49] | 0.48 |
+| reversed sign | −0.33 | [−0.69, +0.04] | 0.07 |
+| random direction, norm-matched | **+0.40** | [+0.08, +0.73] | 0.024 |
+| congruent direction at shifted blocks | **+0.67** | [+0.37, +1.00] | 0.0001 |
+| congruent direction at random blocks | **+0.59** | [+0.17, +1.05] | 0.009 |
+| permuted-label directions | **+0.52** | [+0.25, +0.81] | 0.0003 |
+
+*Table: one row per steering arm; the score is the mean paired change in the log probability
+of the held-out maker's true tendency against unsteered inference, over 135 artifacts pooled
+across folds; own-answer shift 0.16 against a target gain of 0.71, so answer bias is not
+suspected; the directions' nearest-centroid decode sits at 0.22 (chance 0.25), which the
+card's rule marks as voiding the steering read.*
+
+**What we found.** Four of the five specificity controls are as loud as the congruent arm or
+within its interval: a random orthogonal direction of the same norm (+0.40), the congruent
+direction moved to other blocks (+0.67, +0.59), and directions fit on shuffled labels
+(+0.52). Sign is the one specific factor: reversing the direction costs a third of a nat and
+the incongruent direction gives nothing. Dose is monotone. The random arm, quiet in L255 on
+the same reader, artifacts, locus, dose, and per-artifact random scheme (−0.09 and +0.04 by
+fold), is +0.40 here; the random draws' seeds are the only nominal difference.
+
+**What it means.** The anchor's congruent effect is mostly a generic activation push: adding
+almost any vector of this norm at these blocks raises the reader's probability of the true
+tendency (the unsteered read is 0.68 balanced, so a push toward the modal answer helps), and
+the part that is specific to the tendency direction is its sign, worth roughly a third of a
+nat over the random arm and a full nat over the reversed one. L255's "random quiet" clause,
+the evidence for causal use of the tendency representation during inversion, did not
+replicate on its own construction; with L257 (nothing on the second family) and L258 (random
+loud on the second domain), the bridge's honest state is a sign-specific residue on one
+reader, not a selective signature. The Stage-4 valence-handle finding (A02-S4: a random
+direction moves the score more) and this are the same result in two representations.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate (Stage 5
+> bridge). Question: is the anchor's congruent steering effect specific to coordinates, dose,
+> sign, and labels? Outcome class: **Kills** (the selectivity clause of L255; a sign-specific
+> residue survives). Result: random, shifted, random-block, and permuted-label arms at +0.40
+> to +0.67 nats against +0.71 congruent. Meaning: causal use of the tendency representation
+> during inversion is not shown; a generic push with a sign component is. Next obligation:
+> a B03 random arm rerun under L255's exact seeds (two GPU-minutes, post-run) to close the
+> seed question; the theory row moves to REJECTED-as-selective. Public claim: **weakened**
+> (L255 may no longer be cited as causal use). Decision: **No.** Detail:
+> results/phase_2_4_stage_5/B03/verdict.json, metrics.json, cases.jsonl.
+
+**Reversal (2026-08-29, L283).** The loud controls were order noise: the card asked each arm
+under a different option order from one shared generator, and the readout scores the same
+answer two nats apart by the truth's letter, so every contrast here carried a standard error
+of 0.17. With the order held fixed across arms on the same 135 artifacts the random arm is
+0.00 [−0.23, +0.21], incongruent +0.05, reversed −0.32, congruent +0.48; L255's selectivity
+clause stands. What this entry keeps: the direction is not coordinate-specific (+0.28 at
+shifted blocks, +0.42 at random blocks under fixed order) and label specificity is partial on
+this domain (permuted-label directions +0.32). The Kills class is withdrawn; see L283.
+
+## L261 · Given the other two latents as true, the reader recovers the process plan (+0.72 nats over chance, 80 percent) but reads the episode goal below chance and the standing preference far below it, attributing the goal's axis to the preference in two thirds of worlds, so two of the three latents are void for the joint cards and the equifinality gate had no world to fire on
+
+**Hypothesis.** (Stage 5 J01, brief §1.1, §7.2.) Are the three latents of the joint world
+(the episode goal, the standing preference, the process plan) each recoverable by the reader
+from the evidence when the other two are supplied as true, above the chance log score of
+their candidate sets, and does the reader abstain on equifinal plans?
+
+**Method.** 256 discovery joint worlds (128 per commission domain; the Stage-4 commission
+graph with an episode goal that bonuses one axis, a standing preference on another, a
+three-step plan under a partial order, a semantic note, a forensic first step); for each
+latent the reader sees the full evidence (nine references) plus the other two latents
+stated as true, and answers by candidate likelihood over the latent's candidates plus an
+explicit unknown; the score is the log probability of the truth minus the uniform chance log
+score; cluster bootstrap by world. The plan ruler on equifinal worlds (two plans with the
+same artifact set) is scored on abstention.
+
+| latent | gain over chance, nats | interval | accuracy | what the reader answers instead |
+|---|---|---|---|---|
+| process plan | **+0.72** | [+0.55, +0.88] | 0.80 | — |
+| episode goal | −0.31 | [−0.60, −0.04] | 0.50 | reputation or durability for thrift (42 of 64 thrift worlds); unknown 14 |
+| standing preference | **−1.34** | [−1.64, −1.03] | 0.32 | robust (111 of 256); the episode goal's own axis in 171 of 256 worlds |
+
+*Table: one row per latent; chance is a uniform draw over the candidates (four for the goal
+and the preference, five for the plan); accuracy is the share of worlds whose top candidate
+is the truth (0.25 chance for goal and preference); the last column is the modal error. The
+goal's axis and the true preference coincide by construction in 66 of 256 worlds, so 171
+matches is an attribution, not agreement. Equifinal worlds in the lane: 0 of 256.*
+
+**What we found.** The plan is readable; the goal is read at twice chance by accuracy but
+confidently wrong on thrift, which puts its log score under chance; the preference is read
+below chance because the reader assigns the episode goal's axis to the standing preference
+in two thirds of worlds even though the goal is handed to it as true. The equifinality gate
+never fired: under the plan's partial order no three-step set in these 256 worlds admits a
+second valid order.
+
+**What it means.** The reader commits the confound the joint world was built to expose: a
+choice driven by a supplied situational goal is read as a disposition of the chooser (the
+field's fundamental attribution error, here at the level of a stated preference). By the
+card's rule the goal and preference latents are void for the joint cards, so J02 to J05's
+claims about joint reconstruction rest on the plan alone unless their own readouts
+(the hidden future choice) carry them; the triple inference's separation of goal from
+standing preference is not available to this reader on this construction. The equifinality
+gate is a construction gap: the partial order pins the plan's order, so the abstention
+ruler needs worlds built with two valid orders (a post-run construction item).
+
+> **Curator roll-up.** Theory group: the triple inference (goal, preference, plan as separate
+> products). Question: can the reader recover each latent given the other two? Outcome
+> class: **Narrows** (two latents closed for this reader; the plan open). Result: the plan
+> +0.72 nats, the preference −1.34, the goal −0.31. Meaning: the reader attributes goal-driven
+> choices to a standing preference; goal and disposition are not separated by this reader.
+> Next obligation: J02 to J05 read against the plan only (running); a construction with
+> equifinal plans; a reader-side test of the attribution with the goal stated in the question
+> itself. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/J01/verdict.json, metrics.json, cases.jsonl.
+
+## L262 · Four times the training data raises next-stroke accuracy at every access level, most with the true prefix, but the competence-by-access interaction (+0.12) does not clear zero
+
+**Hypothesis.** (Stage 5 P03, brief §4.4.) Does competence (more training drawings)
+interact with process access: does the true prefix buy more from a competent predictor than
+the unordered stroke set does?
+
+**Method.** The P01 construction (Quick, Draw!, four categories, 555 held-out drawings); per
+access level a logistic predictor of the next stroke's start quadrant fit on a quarter of the
+training drawings (389) and on all of them (1556); the competence gain is the log-score
+difference between the two fits, paired by drawing; the primary is that gain at the true
+prefix minus the gain at the unordered set. CPU only.
+
+| access level | held-out accuracy, low / high competence | competence gain, nats |
+|---|---|---|
+| unordered stroke set | 0.48 / 0.51 | +0.18 [+0.10, +0.28] |
+| partial order | 0.54 / 0.57 | +0.20 [+0.11, +0.29] |
+| true prefix | 0.48 / 0.51 | +0.30 [+0.21, +0.41] |
+| interaction (prefix minus unordered) | | **+0.12 [−0.01, +0.26]**, INCONCLUSIVE |
+
+*Table: accuracy is the share of held-out drawings whose next quadrant is predicted; the
+competence gain is the paired log-score improvement from the fourfold training set; the
+interaction is the primary at the 0.03-nat threshold.*
+
+**What we found.** Competence helps everywhere and most with the true prefix, but the
+difference between access levels is not resolved at 555 drawings.
+
+**What it means.** A richer trace rewards competence somewhat more than a poorer one for this
+predictor, without clearing the interval; taken with L259 (the same predictor under the
+priors at every level), the process-access ladder for later strokes is unmeasured above the
+cheap priors and the competence question inherits that.
+
+> **Curator roll-up.** Theory group: decision traces, terminal organisation (the access
+> ladder). Question: does process access reward competence more? Outcome class: **Narrows.**
+> Result: interaction +0.12 nats with an interval touching zero. Meaning: suggestive, not
+> licensed. Next obligation: the P01 refit with priors as features carries this card with it.
+> Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5/P03/metrics.json.
+
+## L263 · The future-choice readout offered the long option sentences as candidates and every reader variant, the oracle included, answered "robust" seven times in ten and scored 1.3 nats under a uniform guess against an exact ceiling 0.4 above it, so J02 measured nothing and its readout is withdrawn; version 2 removes the wording bias but the reader still sits under uniform with the true latents in hand
+
+**Hypothesis.** (Stage 5 J02, brief §1.1, §7.2.) Does a recurrent joint reader (three
+rounds, each latent re-read given the others) predict a maker's hidden future choice better
+than the best staged or factored reader at the same evidence and call allowance?
+
+**Method.** 256 joint worlds; six reader variants (factored, goal-first, process-first,
+preference-first, recurrent, and an oracle handed the true latents) each infer the three
+latents by candidate likelihood and then answer the held-out target decision; the score is
+the log probability of the realized draw; the primary is recurrent minus the best comparator,
+paired by world. Version 1 of the choice question offered the four option sentences as the
+candidates. After the landing, the exact ceiling (the predictive under the true latents) and
+the exact posterior's predictive were computed on the same 256 worlds, and a 48-world probe
+compared version 1 with version 2 (the sentences listed in the body, the short axis words as
+candidates).
+
+| reader variant | held-out choice log score, nats | calibration error | answers "robust" |
+|---|---|---|---|
+| factored / goal-first / process-first / preference-first | −2.66 / −2.66 / −2.65 / −2.68 | 0.51 | 71 to 74 percent |
+| recurrent (ten calls) | −2.73 | 0.54 | 73 percent |
+| oracle (true latents given) | −2.75 | 0.56 | 71 percent |
+| uniform guess over the feasible options | −1.39 | | |
+| exact posterior's predictive (all routes) | −1.05, accuracy 0.57 | | |
+| exact ceiling (true latents) | −0.96, accuracy 0.58 | | |
+
+*Table: one row per reader variant, then the three references; the log score is the mean log
+probability of the realized draw over 256 worlds; calibration error is the expected gap
+between stated confidence and accuracy (0 is calibrated); primary: recurrent minus the best
+comparator −0.07 [−0.32, +0.17], permutation p 0.57, INCONCLUSIVE by the card's band.
+Probe on 48 worlds: version 1 oracle −2.69 (accuracy 0.29, "robust" 32 of 48); version 2
+oracle −1.63 (0.33; answers 14 / 16 / 9 / 9 across the four options), version 2 with no
+latents −1.57 (0.42); uniform −1.39, ceiling −1.09.*
+
+**What we found.** Every variant scored 1.3 nats under a uniform guess with the same
+seventy-percent "robust" answer whether the latents were inferred, recurrent, or handed over
+as true: the reader answered from the wording of the option sentences, not from the
+evidence. The construction is answerable (the exact posterior sits a third of a nat above
+uniform, the ceiling four tenths). Version 2 of the question removes the wording bias, and
+the reader then still sits a quarter of a nat under uniform, with the true latents buying
+nothing over none.
+
+**What it means.** Version 1 broke the receipted lesson (short candidates given the long
+evidence; LESSONS §3), in a runner built the day after the lesson was re-read, so J02
+version 1 is an instrument failure and says nothing about joint reconstruction; J04 and J05,
+which score the same question, were withdrawn before running and re-admitted as repair cells
+on version 2 beside a J02 repair cell (the deviation is in the registry). What the probe
+already says about version 2 is a finding in its own right: this reader does not map stated
+latents onto a choice among options named by the quality they favor, so the joint cards'
+ceiling on version 2 is the reader's own calibration, and their result will be read against
+the uniform floor and the exact ceiling, not only against each other.
+
+> **Curator roll-up.** Theory group: the triple inference (joint reconstruction). Question:
+> does a recurrent joint reader beat staged readers on the hidden future choice? Outcome
+> class: **Infrastructure** (the readout died; nothing about the hypothesis). Result: every
+> variant 1.3 nats under uniform, "robust" seven in ten. Meaning: version 1 answered from the
+> option wording; the repaired question runs as J02/v2, J04/v2, J05/v2. Next obligation: the
+> repair cells (queued); the lesson re-receipted with its cause. Public claim: unchanged.
+> Decision: **No.** Detail: results/phase_2_4_stage_5/J02/ (version 1, preserved),
+> REPAIR_CELLS.json, WITHDRAWN_CELLS.json, the probe in the registry.
+
+## L264 · Along the evidence stream the reader's standing-preference record is never useful in two thirds of worlds and its goal record in two fifths, the plan record becomes useful last but most reliably, and after a contradiction the reader stays overconfident in half to three fifths of worlds
+
+**Hypothesis.** (Stage 5 J03, brief §1.1.) As evidence arrives item by item, which latent's
+record first becomes useful (closer to the truth than chance), how often the reader reverses
+it, and does a contradiction that the exact posterior registers make the reader less
+confident?
+
+**Method.** 256 joint worlds; the evidence shown cumulatively in its stream order; after
+each item the reader re-records the three latents by candidate likelihood; a record is
+useful when its mass on the truth exceeds chance; a reversal is a change of top candidate;
+the contradiction step is the item at which the exact posterior's top hypothesis changes
+(223 worlds have one); overconfidence after it is a record whose confidence rises while its
+truth mass falls. Descriptive, no outcome band.
+
+| latent | first useful at step (mean) | never useful, share of worlds | reversals per world | overconfident after the contradiction |
+|---|---|---|---|---|
+| standing preference | 5.8 | 0.66 | 4.1 | 0.62 |
+| episode goal | 6.5 | 0.40 | 3.2 | 0.44 |
+| process plan | 8.8 | 0.26 | 4.1 | 0.54 |
+
+*Table: one row per latent; the first-useful step is averaged over the worlds where the
+record ever becomes useful; the overconfidence rate is over the 223 worlds with an exact
+contradiction step.*
+
+**What we found.** The plan record is the one the reader most reliably gets to, late; the
+preference record, when it is useful at all, is useful earliest but it never is in two
+thirds of worlds (the attribution of L261 again, along the stream); three to four reversals
+per world on nine items; and a contradiction leaves the reader more confident and less right
+in half or more of worlds.
+
+**What it means.** The trajectory picture matches the rulers (L261): the plan is read, the
+dispositional latent is not, and the reader's confidence does not track the exact posterior
+through a contradiction, which is the property the brief's revision claim would need. These
+records are the version-1 latent readouts, which the probe found unbiased for the latents
+(the bias was on the choice question), so they stand.
+
+> **Curator roll-up.** Theory group: the triple inference (revision along the stream).
+> Question: which latent becomes useful first, and does contradiction revise it? Outcome
+> class: **Narrows.** Result: the preference record is never useful in 66 percent of worlds;
+> overconfidence after contradiction 44 to 62 percent. Meaning: no appropriate revision in
+> this reader. Next obligation: none beyond the joint repair cells. Public claim: unchanged.
+> Decision: **No.** Detail: results/phase_2_4_stage_5/J03/metrics.json, cases.jsonl.
+
+## L265 · On the source world the reader answers "alarm them into acting" for nine notices in ten, calls the maker's appraisal "believed, grave" in two thirds, and reads content support at chance, so the owned questions sit two nats under chance on factors a bag-of-words classifier reads perfectly
+
+**Hypothesis.** (Stage 5 A01, brief §1.4.) Can the reader keep apart who owns an affective
+appraisal: the intended audience effect (arousal and action goals), the maker's own
+appraisal (belief and gravity), and the content's support in the record?
+
+**Method.** 256 source worlds (128 per domain, notice and memo; seven factors, the hidden
+ones balanced apart, the surfaces enumerated so no two worlds share text); three owned
+questions by candidate likelihood with an explicit unknown, plus the reader's own response
+measured and never scored; the score is the log probability of the truth minus the uniform
+chance log score, averaged over the three questions; the owner-swap stratum (the maker
+induces what it does not believe) reported apart. Post hoc: a bag-of-words logistic
+classifier's cross-validated accuracy on each factor from the same texts, and a
+population-calibrated re-score (each option's probability divided by its mean).
+
+| owned question | gain over chance, nats | accuracy | the reader's modal answer | bag-of-words legibility of the factors |
+|---|---|---|---|---|
+| intended audience effect (arousal x action) | −4.35 [−4.81, −3.88] | 0.25 (chance 0.25) | "alarm, act" in 88 percent | arousal 1.00, action 1.00 |
+| maker's appraisal (belief x gravity) | −1.75 [−2.08, −1.41] | 0.29 (0.25) | "believed, grave" in 64 percent | intensity 1.00; belief 0.51 (hidden by construction) |
+| content support | −0.39 [−0.56, −0.20] | 0.51 (0.50) | "low" in 74 percent | support 0.65 |
+| all three (the primary) | **−2.16 [−2.35, −1.97]** | | swap stratum −2.26, others −2.06 | |
+
+*Table: one row per owned question; gain is the mean log probability of the truth minus
+uniform chance over 256 worlds; the last column is a linear classifier's cross-validated
+accuracy on the factor from the notice text (chance 0.5 for two-level factors), which shows
+whether the information is in the text. Own-response agreement with the maker's appraisal
+0.47. The calibrated re-score leaves accuracy at 0.25 / 0.27 / 0.40.*
+
+**What we found.** The reader gives one answer per question almost regardless of the world,
+at confidence near one, on factors that a linear model recovers from the same words
+without error; dividing out its option prior recovers nothing. The prompt is 84 tokens; no
+truncation. The stated-preference gate this reader passed at 0.9 (L256) asked for a fact
+the text states; these questions ask for a register (calm against alarmed; act against
+merely inform) and a stance, and this reader does not read them.
+
+**What it means.** The Stage-4 owner-separation result (A01-S4, L242: +0.14 over the floor
+on commission worlds with the same reader family) does not extend to a notice register:
+on this construction the reader has no read of who owns the appraisal, so the whole
+appraisal track (A02 to A05) runs on a reader at chance on its inputs, and those cards'
+verdicts are differences among below-chance scores. The construction is legible; the
+reader is the limit; a stronger reader is the obligation the gate refused (L256).
+
+> **Curator roll-up.** Theory group: the triple inference (owners of appraisal). Question:
+> can the reader keep audience effect, maker appraisal, and content support apart? Outcome
+> class: **Narrows** (to the commission construction and Stage-4 readers). Result: −2.16 nats
+> under chance on legible factors. Meaning: owner separation is construction- and
+> reader-bound. Next obligation: a reader that passes a register gate on the source world
+> before the track is re-run. Public claim: **weakened** (A01-S4 is one construction).
+> Decision: **No.** Detail: results/phase_2_4_stage_5/A01/metrics.json, cases.jsonl.
+
+## L266 · Asked to predict what the source would do next, the reader says "cherry-picked" for three notices in four, "would correct" for seven in ten, and "no private action" for nine in ten, and gives the identical confident answer to every surface-identical twin, so predicted behavior sits a nat under chance and collision twins draw no abstention
+
+**Hypothesis.** (Stage 5 A02, brief §1.5, §7.3.) Does the reader distinguish sincere
+alarm from strategic influence by predicting divergent behavior: what the source selected,
+what it would do after counterevidence, what it would do privately; and does it abstain on
+collision twins whose text is identical and whose hidden factors differ?
+
+**Method.** 256 source worlds and their collision twins (identical text, the hidden
+belief and correction factors flipped); three behavior questions by candidate likelihood
+with an explicit unknown; log score over chance per behavior; twin abstention as mass on
+unknown or split answers across the pair.
+
+| predicted behavior | gain over chance, nats | accuracy | modal answer |
+|---|---|---|---|
+| evidence selection (four levels) | **−1.20 [−1.42, −0.98]** | 0.21 (0.25) | "cherry-picked" 75 percent |
+| correction after counterevidence | −1.03 [−1.35, −0.71] | 0.46 (0.50) | "would correct" 71 percent |
+| private action | −0.69 [−0.94, −0.45] | 0.51 (0.50) | "none" 91 percent |
+
+*Table: one row per behavior question over 256 originals; the twins received the same
+answers as their originals in every pair (identical text), with unknown mass 5 to 9
+percent, so the abstention rate on twins is 0; the card's pairing statistic reported no
+pairs by a bookkeeping defect, and the rate here is computed from the rows.*
+
+**What we found.** No predicted behavior is read above chance, the selection question is
+answered "cherry-picked" for representative and fabricated sources alike, and a twin whose
+hidden factors are flipped gets the same confident answer, not an abstention.
+
+**What it means.** Sincere alarm and strategic influence are not distinguished by this
+reader through behavior, and the collision design did its job: where the text cannot decide,
+the reader decides anyway. The by-region means (sincere fanatic, strategic propagandist,
+honest warning) are on 9 to 18 worlds and all negative. With L265 this closes the source
+world for this reader.
+
+> **Curator roll-up.** Theory group: reader heuristics (source modeling; the
+> sincere-versus-strategic distinction). Question: does predicted behavior separate sincere
+> from strategic sources? Outcome class: **Narrows.** Result: −1.20 nats on selection; no
+> abstention on twins. Meaning: not with this reader; the twin control fires as designed.
+> Next obligation: the pairing bookkeeping repaired post-run; the track re-run on a reader
+> that passes a source-world gate. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/A02/metrics.json, cases.jsonl.
+
+## L267 · An audience-modeling prompt helps the reader's content-support read on the plain maker's notices (+0.22) and not on the audience-modeling maker's (−0.06), the opposite of the inverse-inverse prediction, but every cell sits a nat under the chance floor
+
+**Hypothesis.** (Stage 5 A03, brief §1.5.) Does a reader that models the audience read
+content support better on notices from a maker that models the audience (the
+inverse-inverse interaction)?
+
+**Method.** Two reader prompts (ordinary, audience-modeling) crossed with the maker
+mechanism (plain, audience-modeling) on the source worlds; content-support log score;
+the primary is the interaction (the audience prompt's gain on the audience-modeling maker
+minus its gain on the plain maker), paired by world.
+
+| maker mechanism | ordinary prompt | audience prompt | audience minus ordinary |
+|---|---|---|---|
+| plain (57 worlds) | −1.65 | −1.43 | +0.22 [−0.05, +0.53], p 0.13 |
+| audience-modeling (127 worlds) | −1.19 | −1.25 | −0.06 [−0.28, +0.17], p 0.61 |
+| interaction | | | **−0.28 [−0.51, −0.06]**, COUNTEREVIDENCE by band |
+
+*Table: mean content-support log score per cell; chance is −0.69 (two options), so every
+cell is under the floor; the interaction is the card's primary.*
+
+**What we found.** The sign is against the prediction and the interval excludes zero, but all
+four cells are below a coin flip on content support (L265), so the difference is between
+two failures.
+
+**What it means.** The inverse-inverse question has no test here: a reader that cannot read
+support cannot show that modeling the audience improves reading it. The card's
+counterevidence band is honored as written and read for what it is, a difference among
+sub-chance scores.
+
+> **Curator roll-up.** Theory group: reader heuristics (audience modeling, HH-20). Question:
+> does an audience-modeling reader read audience-modeling makers better? Outcome class:
+> **Narrows** (untestable on this reader). Result: interaction −0.28 nats among cells all
+> under chance. Meaning: no test. Next obligation: with the track's re-run. Public claim:
+> unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5/A03/metrics.json.
+
+## L268 · A source label, influence awareness, and reappraisal each lower what the reader accepts (from 37 percent to 27, 22, and 5) without raising its discrimination of reliable from unreliable notices (AUROC 0.60, 0.56, 0.60, 0.52), a criterion shift, true advice lost first
+
+**Hypothesis.** (Stage 5 A04, brief §1.5.) Does labeling the source, raising influence
+awareness, or prompting reappraisal improve the reader's discrimination of reliable notices
+beyond no intervention, without a criterion shift?
+
+**Method.** Four conditions on the source worlds; the reader judges reliability and, on
+notices asking for action, whether it will comply; discrimination is the AUROC of the
+reliability judgment against the truth; the primary is the signed-margin contrast against
+none, with acceptance, true-advice uptake, and false-advice uptake reported apart.
+
+| condition | reliability AUROC | acceptance | true advice followed | false advice followed | signed margin vs none |
+|---|---|---|---|---|---|
+| none | 0.595 | 0.37 | 0.62 | 0.55 | |
+| source label | 0.558 | 0.27 | 0.31 | 0.25 | −0.03 [−0.08, +0.01] |
+| influence awareness | 0.600 | 0.22 | 0.07 | 0.04 | −0.02 [−0.06, +0.02] |
+| reappraisal | 0.525 | 0.05 | 0.03 | 0.07 | −0.05 [−0.10, −0.01] |
+
+*Table: one row per condition over 256 worlds (uptake on the 113 notices asking for
+action); AUROC 0.5 is no discrimination; the primary band is 0.05 nats on the signed margin,
+VALID_NULL.*
+
+**What we found.** Every intervention lowers acceptance of everything and true advice
+most, with discrimination flat: the criterion-shift failure mode the Stage-4 technique card
+named (T03-S4, L248), now under three different interventions.
+
+**What it means.** Warning a reader off influence makes it refuse, not discriminate; the
+reader has no reliability read to sharpen (AUROC 0.6 unchanged), so all three interventions
+act on its threshold. This is the cleanest result on the track because it is a property of
+the interventions, not of the reader's floor.
+
+> **Curator roll-up.** Theory group: reader heuristics (technique knowledge and blanket
+> distrust). Question: do labels, awareness, or reappraisal improve discrimination without
+> a criterion shift? Outcome class: **Narrows** (the criterion-shift account strengthens;
+> the discrimination claim is a valid null). Result: acceptance 0.37 to 0.05 with AUROC
+> flat. Meaning: influence warnings buy refusal, not discernment. Next obligation: none
+> new; it joins T03-S4. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/A04/metrics.json.
+
+## L269 · A reliable history against an unreliable one changes the reader's uptake of a notice by nothing (+0.001), shifts its content-support read a little, and moves its read of the source's goal the wrong way, so trust is not a factored policy in this reader
+
+**Hypothesis.** (Stage 5 A05, brief §1.5.) Does trust act as a factored policy: a
+reliable history raises uptake of the source's notice while leaving the content-support and
+communicative-goal posteriors unchanged?
+
+**Method.** 76 source worlds with a reliable and an unreliable prior history of the same
+source; uptake, content support, and communicative goal by candidate likelihood; the primary
+is uptake under the reliable minus the unreliable history, paired; the two posteriors'
+shifts reported as the factoring check.
+
+| quantity | reliable minus unreliable | permutation p |
+|---|---|---|
+| uptake (the primary) | **+0.001 [−0.026, +0.026]** | 0.94 |
+| content-support log score | +0.27 [−0.01, +0.58] | 0.08 |
+| communicative-goal log score | −0.55 [−0.92, −0.19] | 0.005 |
+
+*Table: paired differences over 76 worlds; VALID_NULL on the primary at the 0.05 band; the
+goal read is "warn" in 74 of 76 worlds under either history, so its log score on deceptive
+sources is −5 to −6 nats and the shift is between two failures.*
+
+**What we found.** History does not move uptake at all; it moves the reader's goal read,
+which is dead anyway (the reader says "warn" for every source).
+
+**What it means.** No trust policy is visible: the reader follows or refuses at the same
+rate whatever the source's record, so the question of whether trust is factored from
+content cannot be asked of it.
+
+> **Curator roll-up.** Theory group: reader heuristics (trust). Question: is trust a
+> factored policy over uptake? Outcome class: **Narrows.** Result: uptake +0.001. Meaning:
+> no trust policy in this reader. Next obligation: with the track's re-run. Public claim:
+> unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5/A05/metrics.json.
+
+## L270 · The reader's chosen evidence route carries 0.11 nats more exact information than a random selector, a support candidate by the card's band, but always taking the easiest-rendered route carries 0.05 nats more than the reader's choice, the easiest route is the action record in every world, and the reader picks the other route no more often when it is the better one (27 against 28 percent), so the support is a fluency policy on a construction where ease and information coincide
+
+**Hypothesis.** (Stage 5 R01, brief §1.3.) Does the reader choose the evidence route that
+carries the most exact information about the maker's hidden future choice, beyond a random
+selector, on worlds where the routes' information diverges?
+
+**Method.** 256 joint worlds; three routes offered by description (the action record, the
+maker's semantic note, a forensic first step at a declared cost); the reader's choice by
+candidate likelihood; each route's exact information (the divergence of the predictive from
+the contextual prior, in nats) from the I04 matrix; the primary is the chosen route's
+information minus a random selector's expectation on the 159 worlds past the 0.05-nat
+divergence floor; the first-listed, easiest-rendered (the route description the reader
+finds most fluent), and exact-best selectors reported beside it.
+
+| selector | information captured, nats (159 worlds) | against the reader's choice |
+|---|---|---|
+| the reader's choice | 0.253 | **+0.115 [+0.094, +0.137] over random** (the primary) |
+| random | 0.139 | |
+| first-listed | | reader +0.12 [+0.08, +0.16], p < 1e-4 |
+| easiest-rendered (the action record, in every world) | 0.302 | reader **−0.05 [−0.07, −0.03]**, p < 1e-4 |
+| exact best | 0.308 | reader −0.05 [−0.07, −0.04], p < 1e-4 |
+
+*Table: mean exact information of the route each selector takes, on the worlds past the
+floor (97 worlds under it are void by the card's rule); the reader chose the action record
+72 percent, the note 28, the forensic step never; it chose the note in 27 percent of the
+worlds where the note was exactly best and 28 percent where the action record was.*
+
+**What we found.** The reader beats a random selector because it mostly takes the action
+record, which is both the easiest route to read and the most informative in three worlds of
+four; a policy of always taking the easiest route beats the reader, and the reader's
+departures from it are unrelated to which route is best.
+
+**What it means.** Active reading is not shown; a fluency default is, and it happens to be
+informative on this construction. The card's band reads support and its rivals read it away;
+under the frozen eligibility rule (support at threshold, no controls clause for this card)
+the confirmation block may pick it, and a confirmation would replicate the same confounded
+contrast. R02, which crosses ease and information by construction (the informative route
+rendered stiltedly), is the test that can separate them and is running.
+
+> **Curator roll-up.** Theory group: reader heuristics (active reading, C03's question).
+> Question: does the reader choose routes by their information? Outcome class: **Narrows.**
+> Result: +0.11 nats over random, −0.05 against always-easiest. Meaning: a fluency policy,
+> not active reading; the construction confounds ease with information. Next obligation:
+> R02 (running); if C01 selects R01, the packet reads the confirmation as the confound
+> confirmed. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/R01/metrics.json, cases.jsonl.
+
+## L271 · The reader says it would rely more on six action records than on two (+0.16 on a unit scale) and no less on a stilted rendering of the same records (−0.03), a support candidate on the interaction, but the stilted rendering is the more fluent text by the reader's own token probabilities, so the ease arm was never realized and the result is stated reliance rising with the quantity of evidence
+
+**Hypothesis.** (Stage 5 R02, brief §1.3.) Does the reader's stated reliance on an evidence
+record follow the record's exact information rather than its ease of reading, when the two
+are crossed by construction?
+
+**Method.** 256 joint worlds; the action record shown with six entries (high information) or
+two (low), each in a plain and a stilted rendering of identical facts; the reader states how
+much it would rely on the record to predict the maker's next decision (much, some, little;
+reliance = the mass on much plus half the mass on some), then predicts the decision; the
+primary is the information effect at equal ease minus the ease effect at equal information,
+paired by world; the rendering's fluency is the reader's mean token log probability
+(the manipulation check).
+
+| cell | stated reliance effect | prediction log score | fluency (token log-prob) |
+|---|---|---|---|
+| six records minus two, plain rendering | **+0.16 [+0.13, +0.18]**, p < 1e-4 | −2.26 against −2.55 | |
+| plain minus stilted, six records | −0.03 [−0.05, +0.00], p 0.08 | −2.26 against −2.40 | plain −3.07, stilted −2.82 |
+| interaction (information minus ease) | **+0.18 [+0.16, +0.21]**, SUPPORT_CANDIDATE | | |
+
+*Table: reliance on a 0 to 1 scale over 256 worlds; the prediction log scores use the
+version-1 choice question (dead, L263) and are reported for the record only; fluency is the
+mean log probability per token the reader assigns to the rendering, higher meaning more
+fluent, so the stilted rendering reads as the easier text to this reader.*
+
+**What we found.** Stated reliance rises with the number of records and does not fall with
+the stilted rendering, but the stilted rendering is not harder for the reader, it is easier
+by a quarter of a nat per token, so the ease factor was not realized and its null says
+nothing about fluency.
+
+**What it means.** The reader's stated reliance tracks the quantity of evidence, which on
+this construction is where the exact information lives, so the band reads support; whether
+it would follow information against fluency is untested here because the fluency
+manipulation reversed. Read with L270, this reader's route behavior is: take the easy
+record, say you trust the longer one. The manipulation check failing is the lesson: a
+rendering meant to be harder is checked against the reader's own token probabilities before
+the card, not after (LESSONS §3, manipulation checks need range, and direction).
+
+> **Curator roll-up.** Theory group: reader heuristics (reliability against ease). Question:
+> does stated reliance follow information rather than ease? Outcome class: **Narrows**
+> (quantity of evidence raises stated reliance; the ease arm is unrealized). Result:
+> +0.16 for six records over two; the stilted text is the more fluent one. Meaning: no
+> fluency test happened. Next obligation: a stilted rendering that lowers the reader's
+> token probabilities, checked before the card, post-run. Public claim: unchanged.
+> Decision: **No.** Detail: results/phase_2_4_stage_5/R02/metrics.json, cases.jsonl.
+
+## L272 · Three demonstrations of taking the action record raise its use from 91 to 100 percent and three misleading demonstrations lower it to 0, in every world whether or not the route is diagnostic there, so demonstrations are followed as instructions and teach nothing about diagnosticity
+
+**Hypothesis.** (Stage 5 R03, brief §1.3.) Do worked demonstrations of choosing the
+diagnostic route transfer as expertise (used where the route is diagnostic, not where it is
+not) or as familiarization (used everywhere the demonstration showed it)?
+
+**Method.** 256 joint worlds split by whether the action record is exactly diagnostic (148
+high, 108 low); three prompt conditions: no demonstration, three demonstrations that choose
+the action record, three misleading demonstrations that choose the note; the readout is the
+reader's route choice; the primary is the demonstration effect at high diagnosticity minus
+the effect at low (the interaction); calibration of the subsequent prediction reported.
+
+| condition | action record chosen, diagnostic worlds | action record chosen, non-diagnostic worlds |
+|---|---|---|
+| no demonstration | 0.91 | 0.89 |
+| three demonstrations | 1.00 | 1.00 |
+| three misleading demonstrations | 0.00 | 0.00 |
+| demonstration effect | +0.09 [+0.05, +0.14], p 0.0004 | +0.11 [+0.06, +0.18], p 0.0006 |
+| interaction (high minus low) | **−0.02 [−0.06, +0.02]**, VALID_NULL | |
+
+*Table: share of worlds in which the reader chose the action record; misleading minus none
+−0.90 [−0.94, −0.86] pooled; calibration error of the prediction 0.47, 0.50, 0.53 across the
+three conditions, unchanged.*
+
+**What we found.** The demonstration is followed to the letter in every world, in both
+directions, with the same size where the route is worthless as where it is diagnostic;
+calibration does not move.
+
+**What it means.** Demonstrations are familiarization, not expertise, in this reader: they
+set the route the way a supplied production fact set the maker model (G167, L155), at full
+strength regardless of truth. The card's own rival ("a demonstration is familiarization,
+never expertise") is the result, and it is the section's standing conclusion about supplied
+context from a fourth direction.
+
+> **Curator roll-up.** Theory group: reader heuristics (context as instruction; expertise
+> against familiarization). Question: do demonstrations transfer as expertise or as
+> familiarization? Outcome class: **Strengthens** (the context-as-instruction reading).
+> Result: 100 and 0 percent route use under the two demonstration kinds, interaction −0.02.
+> Meaning: demonstrations are followed, not learned from. Next obligation: none new. Public
+> claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5/R03/metrics.json.
+
+## L273 · Offered a forensic first step at a declared cost, the reader buys it in half the worlds with no relation to what it would be worth (AUROC 0.54), on a construction where the step's exact information never covers its cost, so its realized net gain per cost is no better than a coin flip's and worse than never buying
+
+**Hypothesis.** (Stage 5 R04, brief §1.3, §4.3.) Does the reader buy forensic access (a
+costed first step of the maker's process) when its expected information justifies the cost,
+and decline it when it does not?
+
+**Method.** 256 joint worlds; the forensic step offered at a cost of 0.08 nats; the reader
+decides to buy or decline by candidate likelihood; the realized net gain of a purchase is
+the change in the log score of the hidden future choice minus the cost; policies compared:
+the reader, a random buyer, always buying, and the exact policy (buy when the exact expected
+information gain exceeds the cost); the primary is the reader's net gain per cost minus the
+random buyer's, paired by world.
+
+| policy | realized net gain per cost, mean over 256 worlds |
+|---|---|
+| the reader (buys in 48 percent of worlds) | −0.24 |
+| random buyer | −0.18 |
+| always buy | −0.41 |
+| exact (buy when it pays) | 0.00, never buys |
+| reader minus random (the primary) | **−0.06 [−0.20, +0.10]**, p 0.44, INCONCLUSIVE |
+
+*Table: net gain is the log-score change from the purchased step minus its cost, scaled by
+the cost; the exact policy never buys because the step's expected information (0.005 nats)
+never reaches the cost (0.08) on this construction; the reader's buy decision against the
+exact expected gain has AUROC 0.54 (0.5 is no relation).*
+
+**What we found.** The reader buys half the time regardless of worth, on a construction
+where the step is never worth buying, so it loses against a coin flip and against never
+buying; its decision carries no information about the gain.
+
+**What it means.** No forensic purchase policy is visible in this reader; and the
+construction only tests the decline side, since the forensic step's information never
+covers its cost here (the floor of 0.05 nats that the routes pass is set by the action and
+semantic routes). A construction where the step sometimes pays is needed before the buy
+side can be asked; the present result already says the reader does not decline a worthless
+step.
+
+> **Curator roll-up.** Theory group: reader heuristics (active reading; the forensic
+> purchase). Question: does the reader buy forensic access when it pays? Outcome class:
+> **Narrows** (no policy; the buy side untestable here). Result: −0.06 against random, buys
+> 48 percent with AUROC 0.54 to the exact gain. Meaning: cost-blind. Next obligation: a
+> construction where the forensic step sometimes pays, post-run. Public claim: unchanged.
+> Decision: **No.** Detail: results/phase_2_4_stage_5/R04/metrics.json, cases.jsonl.
+
+## L274 · Given four strokes in shuffled order, the reader's parseable proposals are enactable in 56 percent of drawings against 17 for a blind draw and match the historical order in three of four enactable cases, but only 45 proposals in 120 parse, 14 of those merely repeat the listing and none of them are enactable, and the reader says the order can be determined in 62 percent of artifacts where four orders fit
+
+**Hypothesis.** (Stage 5 P02, brief §4.4.) Can the reader propose an enactable drawing order
+from an unordered stroke set, beyond the blind rate, and does it abstain where the set admits
+more than one order (equifinality)?
+
+**Method.** 120 Quick, Draw! drawings (four strokes, an early and a late pair, so four of the
+24 orders are enactable); strokes described and listed in a shuffled order; the reader
+proposes an order as JSON; enactability is membership in the valid set, historical
+correspondence is matching the recorded order; a second question asks whether the exact
+order can be determined (the correct answer is always no); the primary is enactability
+minus the blind valid rate among parseable proposals, cluster bootstrap by drawing.
+
+| quantity | value |
+|---|---|
+| parseable proposals | 45 of 120 (0.375) |
+| of those, the listing order repeated | 14, enactable 0 |
+| enactability among parseable proposals | **0.56 against blind 0.17: +0.31 [+0.15, +0.44]**, SUPPORT_CANDIDATE |
+| historical order among enactable proposals | 0.72 (0.25 if only the early/late split were read) |
+| "the order can be determined" (always false) | 0.62; abstention 0.38; mean confidence 0.65 |
+
+*Table: 45 drawings with a parseable proposal (bicycle 19, cat 13, tree 8, house 5); the
+blind rate is four enactable orders in 24; abstention is answering that more than one order
+fits.*
+
+**What we found.** When the reader proposes an order at all, it reads the early-late
+structure from the stroke descriptions and, more than that, the historical order itself
+(0.72 among enactable); a third of its proposals just repeat the listing, none enactable;
+two thirds of the time it fails to produce an order, and where every artifact is equifinal
+it claims determinacy in three of five.
+
+**What it means.** The Stage-4 access ladder (P02, L238: an unordered set lets a learned
+prior find the first stroke) has a reader-side counterpart: the stroke descriptions carry
+enough of the process for a small reader to reconstruct an enactable order and usually the
+actual one, on the minority of trials where it answers in form. The confident projection on
+equifinal artifacts is the same property as J03's overconfidence: it does not know what it
+cannot know. Eligible for confirmation by band; the confirmation would be on 128 drawings
+with the same validity floor.
+
+> **Curator roll-up.** Theory group: decision traces, terminal organisation (process
+> geometry; equifinality). Question: can the reader reconstruct an enactable order and
+> abstain when several fit? Outcome class: **Narrows** (enactability supported on a
+> 37-percent-valid instrument; abstention fails). Result: +0.31 over blind; determinacy
+> claimed in 62 percent of equifinal artifacts. Meaning: process is readable from an
+> unordered set by this reader; equifinality is not. Next obligation: a proposal format
+> with higher validity (post-run). Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/P02/metrics.json, cases.jsonl.
+
+## L275 · Offered six number sequences to examine, the reader puts the most mass on the one whose rule is already stated and the least on the learnable one, and its ranking runs against every ruler that measures what could be learned (learning progress −0.38, reducible structure −0.38, novelty −0.30), so this reader's interest is familiarity
+
+**Hypothesis.** (Stage 5 F01, brief §1.6.) Which exact rulers (novelty, complexity,
+prediction error, learning progress, reducible structure) explain what the reader chooses
+to examine next?
+
+**Method.** 96 foraging sets, six sequences each (one per class: novel with its rule stated,
+complex but compressible, random and unlearnable, structured with a residual, trivial and
+known, learnable and intermediate), three elements shown; the reader's likelihood over
+which one to examine further; per set, the rank correlation of that likelihood with each
+exact ruler, averaged; the mean rank of each class. Descriptive; the instrument fails if
+the ranking is flat (top-item mass under 0.25).
+
+| item class | selection mass | mean rank (1 = examined first) |
+|---|---|---|
+| novel, rule stated | 0.38 | 2.05 |
+| complex, compressible | 0.16 | 3.27 |
+| random, unlearnable | 0.20 | 3.31 |
+| structured with a residual | 0.10 | 3.90 |
+| trivial, known | 0.10 | 3.95 |
+| learnable, intermediate | 0.07 | 4.52 |
+
+*Table: 96 sets; rank correlation of the reader's likelihood with the rulers, averaged over
+sets: novelty −0.30, complexity +0.12, prediction error −0.25, learning progress −0.38,
+reducible structure −0.38; top-item mass 0.51, so the instrument is live.*
+
+**What we found.** The reader's choice runs against learning progress and reducible
+structure, and against novelty and error, with only description length weakly positive; it
+examines what it has already been told and avoids what it could learn.
+
+**What it means.** As a foraging policy this reader is the opposite of the learning-progress
+account in the foraging brief (§1.6): its interest ruler is familiarity. The random item's
+middle rank shows raw surprise does not drive it either.
+
+> **Curator roll-up.** Theory group: alignment (epistemic foraging; the balanced objective's
+> epistemic term). Question: which ruler explains the reader's examination choice? Outcome
+> class: **Narrows.** Result: learning progress correlates −0.38 with the choice. Meaning:
+> this reader forages for the familiar. Next obligation: F02's realized gain (landed, L276).
+> Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5/F01/metrics.json.
+
+## L276 · The realized gain of what the reader chooses to examine equals a random selector's (0.28 against 0.29 per unit cost) while an exact learning-progress policy realizes 0.97, so the reader's foraging buys nothing and a learning-progress policy would buy three times as much
+
+**Hypothesis.** (Stage 5 F02, brief §1.6.) Does the reader's selection realize more held-out
+gain per cost than the best raw-signal policy (novelty or surprise), and how far is it from
+the exact learning-progress policy?
+
+**Method.** The 96 foraging sets; the reader's pick is examined (two more elements shown,
+cost one) and its realized gain is the improvement in the reader's log score on the item's
+sixth element; the same gain is computed for the item each policy would pick (novelty,
+surprise, learning progress, random); the primary is the reader minus the best raw-signal
+baseline, paired by set.
+
+| policy | realized gain per unit cost |
+|---|---|
+| the reader | 0.28 |
+| random | 0.29 |
+| novelty | 0.04 |
+| surprise | 0.00 |
+| exact learning progress | 0.97 |
+| reader minus best raw baseline (random) | **−0.01 [−0.60, +0.61]**, p 0.98, INCONCLUSIVE |
+
+*Table: 96 sets; the reader picked the stated-rule item 34 times, the compressible 23, the
+random 22, the learnable 13, the residual 3, the trivial 1; the interval is wide because
+the realized gain varies with the item examined.*
+
+**What we found.** The reader's selection is worth what a coin flip is worth; novelty and
+surprise policies are worth less; the learning-progress policy would triple the gain.
+
+**What it means.** The foraging brief's ordering holds on the exact side (learning progress
+beats novelty and surprise by a wide margin as a policy) and fails on the reader's side:
+this reader does not implement it, or any of them, better than chance.
+
+> **Curator roll-up.** Theory group: alignment (epistemic foraging). Question: does the
+> reader's selection realize gain beyond raw-signal policies? Outcome class: **Narrows.**
+> Result: 0.28 against 0.29 random and 0.97 exact. Meaning: no foraging policy in this
+> reader; the exact ruler ordering is confirmed. Next obligation: none new. Public claim:
+> unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5/F02/metrics.json.
+
+## L277 · On worlds where the attractive explanation is the wrong one, the reader's pursuit of it tracks its warrant with a gap of zero, and a counter-bias prompt then lowers pursuit a tenth below warrant everywhere, so the support candidate on the card's primary is the prompt removing warranted pursuit, not a hope bias removed
+
+**Hypothesis.** (Stage 5 F03, brief §1.6.) Does the reader pursue a hoped-for explanation
+beyond its support (congruent against incongruent with the evidence), and does a counter-bias
+prompt remove the excess?
+
+**Method.** 96 worlds in two versions (the attractive explanation congruent or incongruent
+with the evidence), each read plainly and under a counter-bias prompt; pursuit is the
+reader's mass on the attractive explanation, warrant its exact support; the primary is
+pursuit under the plain prompt minus under the counter-bias prompt on incongruent worlds;
+pursuit minus warrant reported per cell; false discovery is choosing the attractive
+explanation when it is wrong.
+
+| cell | pursuit | warrant | pursuit minus warrant |
+|---|---|---|---|
+| congruent, plain | 0.27 | 0.37 | −0.11 |
+| congruent, counter-bias | 0.15 | 0.29 | −0.14 |
+| incongruent, plain | 0.31 | 0.31 | **0.00** |
+| incongruent, counter-bias | 0.16 | 0.27 | −0.11 |
+| primary: plain minus counter-bias, incongruent | | | **+0.15 [+0.10, +0.21]**, p < 1e-4, SUPPORT_CANDIDATE |
+
+*Table: 96 worlds per cell; false discovery 0.25 plain, 0.00 under the counter-bias prompt;
+the reader answers "dull" in 75 to 100 percent of worlds by argmax, the pursuit mass is
+graded.*
+
+**What we found.** No pursuit beyond warrant on the worlds built to show it; the counter-bias
+prompt lowers pursuit below warrant in every cell, which is what the primary measures.
+
+**What it means.** The hope bias the card was built to find is absent in this reader (its
+rival, "pursuit that simply tracks warrant", is the result), and the counter-bias prompt is
+the criterion shift of L268 in another dress: a warning lowers everything, warranted
+pursuit included. The band reads support; the cells read it away.
+
+> **Curator roll-up.** Theory group: alignment (epistemic foraging; motivated pursuit).
+> Question: does the reader pursue a hoped-for explanation beyond its warrant? Outcome
+> class: **Narrows** (no hope bias; the prompt is a criterion shift). Result: pursuit minus
+> warrant 0.00 on incongruent worlds; the prompt removes 0.15. Meaning: nothing to
+> de-bias in this reader. Next obligation: none new. Public claim: unchanged. Decision:
+> **No.** Detail: results/phase_2_4_stage_5/F03/metrics.json.
+
+## L278 · On the repaired question every reader variant predicts the hidden future choice under a uniform guess (−1.86 to −2.00 nats against −1.39, with an exact ceiling of −1.04), the recurrent reader's 0.07-nat edge over the best staged reader does not clear zero, and the oracle handed the true latents does no better than the recurrent reader, so joint reconstruction buys nothing because this reader cannot map latents onto a choice
+
+**Hypothesis.** (Stage 5 J02, repair cell J02/v2; brief §1.1, §7.2.) Does a recurrent joint
+reader (three rounds, each latent re-read given the others) predict a maker's hidden future
+choice better than the best staged or factored reader at the same evidence and allowance?
+
+**Method.** The L263 design on the repaired question (the option sentences listed in the
+body, the short axis words as candidates; L263): 256 joint worlds, six reader variants, the
+log probability of the realized draw, the primary recurrent minus the best comparator
+paired by world; the uniform floor and the exact posterior's predictive reported.
+
+| reader variant | held-out choice log score, nats | accuracy | calibration error |
+|---|---|---|---|
+| factored / goal-first / process-first / preference-first | −1.95 / −1.94 / −1.92 / −2.00 | 0.32 | 0.36 to 0.38 |
+| recurrent (ten calls) | −1.86 | 0.35 | 0.33 |
+| oracle (true latents given) | −1.87 | 0.35 | 0.32 |
+| recurrent minus best comparator (process-first) | **+0.07 [−0.15, +0.28]**, p 0.56, INCONCLUSIVE | | |
+| uniform guess | −1.39 | 0.25 | |
+| exact posterior's predictive (all routes) | −1.04 | 0.57 | |
+
+*Table: 256 worlds; answers now spread over the four options (robust 30 to 34 percent,
+cheap 25 to 31, precedent 21 to 28, fast 16 to 21) where version 1 answered "robust" in
+seven of ten; latent accuracies for the inferring variants: goal 0.55 to 0.60, plan 0.71 to
+0.79, preference 0.34 to 0.39.*
+
+**What we found.** The wording bias is gone and the picture underneath is the probe's
+(L263): every variant sits half a nat under a uniform guess through overconfidence
+(accuracy a third, confidence higher), the recurrent reader is best by a margin that does
+not clear zero, and the variant given the true latents does no better than the one that
+infers them.
+
+**What it means.** Joint reconstruction has nothing to buy here: the reader recovers the plan
+and half the goals (L261) and then does not use what it holds to predict the choice, so
+recurrent, staged, and oracle readers converge on the same overconfident guess. The
+brief's §1.1 claim (joint over staged) is untestable on a reader whose latent-to-choice
+mapping is absent, and that absence, measured against an exact ceiling 0.35 nats above
+uniform, is the result. Confirmed by the repair rather than the artifact.
+
+> **Curator roll-up.** Theory group: the triple inference (joint reconstruction). Question:
+> does a recurrent joint reader beat staged readers on the hidden future choice? Outcome
+> class: **Narrows** (no variant reaches the uniform floor; the oracle equals the recurrent
+> reader). Result: +0.07 nats recurrent over staged, both half a nat under uniform. Meaning:
+> this reader does not map latents onto choices. Next obligation: J04/v2 and J05/v2
+> (running), then a reader that passes a latent-to-choice gate before the joint track is
+> asked again. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/J02/v2/metrics.json, cases.jsonl.
+
+## L279 · Offered an extra hypothesis that the maker's note misrepresents its goal, the reader takes it in 7 percent of the worlds where the note does lie and 5 percent where it does not, and its prediction is no better with the hypothesis open than closed (−0.08 on conflict worlds), so it does not detect the conflict the exact posterior registers at one and a half nats
+
+**Hypothesis.** (Stage 5 J04, repair cell J04/v2; brief §1.2.) Does opening a hypothesis
+the fixed set lacks (the semantic note names a goal other than the true one) improve the
+reader's prediction on worlds where the note conflicts with the record, without a false
+alarm on worlds where it does not?
+
+**Method.** 256 joint worlds in a consistent and a conflict version (the note faithful or
+naming a wrong goal); the reader reads with the fixed hypothesis set and with the opened
+"misrepresented" hypothesis added; the held-out choice log score on the repaired question
+(L263); the primary is opened minus fixed on conflict worlds, the false alarm the same
+contrast on consistent worlds; the rate at which the opened hypothesis is chosen; the exact
+posterior's divergence between the two versions as the conflict's size.
+
+| cell | choice log score | opened minus fixed | opened hypothesis chosen | exact conflict, nats |
+|---|---|---|---|---|
+| conflict worlds | fixed −1.99, opened −2.07 | **−0.08 [−0.23, +0.06]**, p 0.29, INCONCLUSIVE | 0.07 | 1.50 |
+| consistent worlds | fixed −1.88, opened −2.01 | −0.14 [−0.29, +0.00], p 0.07 | 0.05 | 0.62 |
+
+*Table: 256 worlds per version; uniform is −1.39 and every cell sits under it; the exact
+conflict is the divergence the note's lie produces in the exact posterior.*
+
+**What we found.** The opened hypothesis is almost never taken, equally where the note lies
+and where it does not, and opening it costs a little everywhere.
+
+**What it means.** The reader does not register the conflict between what the maker says
+and what it did, though the exact posterior moves by a nat and a half; an extra hypothesis
+cannot be used by a reader that does not see the evidence against the note. The brief's
+missing-hypothesis mechanism is untested above this floor.
+
+> **Curator roll-up.** Theory group: the triple inference (the semantic route against the
+> record; hypothesis opening). Question: does an opened hypothesis help on conflict worlds
+> without false alarms? Outcome class: **Narrows.** Result: taken in 7 against 5 percent of
+> worlds; −0.08 nats on conflict worlds. Meaning: the conflict is not detected. Next
+> obligation: with the joint track's re-run on a gated reader (TODO (p)). Public claim:
+> unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5/J04/v2/metrics.json.
+
+## L280 · Told the maker's next goal and asked to predict its next choice from the standing preference it inferred, the reader scores 0.73 nats worse than a topic baseline and half a nat under a uniform guess, on a preference it recovered in a third of worlds
+
+**Hypothesis.** (Stage 5 J05, repair cell J05/v2; brief §1.1.) Does the standing preference
+the reader infers from episode one predict the maker's choice in a second episode under a
+different, stated goal, beyond cheap baselines (habit: the last choice; topic: the
+scenario's own prior; last goal: the first episode's goal)?
+
+**Method.** 256 joint worlds; the reader infers the standing preference from the first
+episode's evidence, is told the second episode's goal, and predicts the second episode's
+held-out choice on the repaired question (L263); three exact baselines score the same
+choice; the primary is the reader minus the best baseline, paired by world; the exact
+ceiling (the predictive under the true latents and the stated goal) reported.
+
+| predictor | episode-2 choice log score, nats |
+|---|---|
+| the reader, from its inferred preference (recovered in 0.34 of worlds) | −2.16 |
+| topic baseline (the scenario's prior) | −1.43 |
+| habit (the maker's last choice) | −1.88 |
+| last goal (episode one's goal carried forward) | −2.01 |
+| uniform | −1.39 |
+| exact ceiling | −1.13 |
+| reader minus best baseline (topic) | **−0.73 [−0.93, −0.55]**, p < 1e-4, COUNTEREVIDENCE |
+
+*Table: 256 worlds; the reader's answers spread over the options (robust 35 percent, cheap
+29, precedent 23, fast 13); the exact ceiling sits a quarter of a nat above uniform, so even
+a perfect inference would gain little on this construction, and the reader loses three
+quarters of a nat to the scenario's own prior.*
+
+**What we found.** The inferred preference predicts the next episode worse than knowing
+nothing about the maker; a baseline that ignores the maker beats it by three quarters of a
+nat; the preference itself was recovered at a third.
+
+**What it means.** Cross-episode prediction from a disposition needs the disposition
+(L261: not recovered) and the mapping from disposition and goal to choice (L278: absent),
+and this reader has neither; its guess is worse than the scenario's prior because it is
+confidently wrong. The construction gives even the exact ceiling only a quarter of a nat over
+uniform on the second episode, so a stronger reader would need a sharper construction for
+this card to discriminate.
+
+> **Curator roll-up.** Theory group: the triple inference (standing preference across
+> episodes). Question: does the inferred preference predict the next episode beyond cheap
+> baselines? Outcome class: **Narrows.** Result: −0.73 nats against the topic baseline.
+> Meaning: no cross-episode use of a disposition in this reader. Next obligation: TODO (p)
+> and a second-episode construction with a higher exact ceiling. Public claim: unchanged.
+> Decision: **No.** Detail: results/phase_2_4_stage_5/J05/v2/metrics.json.
+
+## L281 · The closure block confirmed the one eligible candidate on the untouched reserve: stated reliance rises with six records over two by +0.18 [+0.15, +0.20] at the corrected alpha, and no second candidate met the frozen rule
+
+**Hypothesis.** (Stage 5 C01/C02, brief §7.4.) Do the discoveries that met the frozen
+eligibility rule (support at threshold, controls quiet, domains agreeing, precision
+adequate) hold on untouched confirmation lineages at a corrected alpha?
+
+**Method.** The selector applied the frozen rule to every card in the confirmation order;
+R02 alone was eligible (P02 failed the precision rule; the bridge and joint cards were not
+support; R01 and F03 are outside the order); C01 froze R02's estimand and threshold, opened
+256 confirmation-lane worlds never touched by discovery, and re-ran the card; C02 found no
+second candidate and did not run.
+
+| confirmation | candidate | estimate on the reserve | verdict |
+|---|---|---|---|
+| C01 | R02: reliance, six records minus two, at equal rendering, minus the ease contrast | **+0.176 [+0.150, +0.204]**, alpha 0.05, 256 worlds | SUPPORT_CANDIDATE, confirmed |
+| C02 | none eligible | | NOT_RUN |
+
+*Table: the estimate is the card's primary (the information effect minus the ease effect on
+stated reliance) recomputed by the confirmation runner on the reserve; discovery gave +0.18
+[+0.16, +0.21].*
+
+**What we found.** The quantity effect on stated reliance replicates exactly on the reserve;
+nothing else in the stage reached the confirmation rule.
+
+**What it means.** The confirmed claim is that this reader's stated reliance follows the
+amount of evidence shown; its "beyond fluency" half is unconfirmed because the ease arm was
+never realized (L271), and the confirmation cannot add what the discovery did not test. The
+stage closes with one confirmed model-bounded effect and none on the bridge, joint, or
+appraisal tracks.
+
+> **Curator roll-up.** Theory group: reader heuristics (reliability against ease). Question:
+> did any discovery survive its reserve? Outcome class: **Narrows** (one confirmation, of a
+> quantity effect). Result: +0.18 on 256 untouched worlds. Meaning: stated reliance tracks
+> evidence quantity, confirmed; fluency untested. Next obligation: TODO (m). Public claim:
+> newly licensed as a model-bounded statement: this reader's stated reliance rises with the
+> number of records shown. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/C01/verdict.json, CONFIRMATION_REGISTRY.json.
+
+## L282 · Re-gated at ninety-six fresh items per domain, SmolLM2 passes every band (position swing 0.05 and 0.06, accuracy 0.77 to 0.90), so its refusal at forty-eight was a band-edge miss, while the 3B Qwen still fails the per-option floor on the cheap option (0.46), a stable failure
+
+**Hypothesis.** (Post-run, TODO (a).) Were the Stage-5 gate's two refusals (L256) band-edge
+misses at forty-eight items or stable failures?
+
+**Method.** The gate function with twenty-four items per option (ninety-six per domain) on
+fresh items under a new seed key, the same four bands (validity 0.95, accuracy 0.75, every
+option 0.5, accuracy difference between two orderings 0.10), for the two refused readers
+and the admitted anchor; a receipt outside the closed stage's frozen cells, changing nothing
+the stage landed.
+
+| reader | domain | accuracy, ordering 1 / 2 | position swing | weakest option | at 96 |
+|---|---|---|---|---|---|
+| SmolLM2-1.7B-Instruct | workshop | 0.77 / 0.82 | 0.052 | 0.58 | admitted |
+| SmolLM2-1.7B-Instruct | civic | 0.83 / 0.90 | 0.062 | 0.75 | admitted |
+| Qwen2.5-3B-Instruct | workshop | 0.83 / 0.82 | 0.010 | 0.46 (cheap) | refused |
+| Qwen2.5-3B-Instruct | civic | 0.81 / 0.82 | 0.010 | 0.58 | refused |
+| Qwen2.5-1.5B-Instruct (the anchor) | workshop / civic | 0.94 / 0.95 · 0.91 / 0.91 | 0.01 · 0.00 | 0.88 · 0.83 | admitted |
+
+*Table: one row per reader and domain at ninety-six items; validity 1.0 everywhere; the
+bands are the stage's; "at 96" is this receipt's verdict, which does not reopen the closed
+stage's reader set.*
+
+**What we found.** SmolLM2's position dependence at forty-eight items (0.104) was a
+band-edge miss (0.05 to 0.06 at ninety-six, under the 0.10 band); the 3B's misreading of the
+cheap option is stable (0.33 at forty-eight, 0.46 at ninety-six, under the 0.5 floor).
+
+**What it means.** A second reader family exists for the stage's tracks without a new
+checkpoint: SmolLM2 passes the stated-preference gate at the larger count. The stage's
+single-reader results (L256 onward) stand as landed under the frozen gate; a second-reader
+re-run of the joint, appraisal, route, and foraging tracks (about one and a half GPU-hours
+at today's rates) is the cheapest test of whether the stage's negatives are one reader's or
+the construction family's, and it is a new run under a new contract, not a reopening of
+this one. The 3B is out on a stable failure; the same-family second checkpoint for the
+bridge needs a different checkpoint.
+
+> **Curator roll-up.** Theory group: instruments (the Stage-5 reader set). Question: were
+> the gate's refusals band-edge or stable? Outcome class: **Infrastructure.** Result:
+> SmolLM2 admitted at 96, the 3B refused at 96. Meaning: a second reader is available for a
+> re-run. Next obligation: his call on the second-reader re-run (recommended: yes, as a new
+> contract on the source and joint gates first). Public claim: unchanged. Decision: **Yes**,
+> recommended answer: run the second-reader re-run of the four tracks under a new contract.
+> Detail: results/phase_2_4_stage_5/post/REGATE_96.json.
+
+## L283 · The bridge's loud controls were order noise: the letter-likelihood readout scores the same answer two nats apart depending on which letter the truth sits under, the cards asked each arm under a different option order, and with the order held fixed across arms the anchor's congruent direction lifts the held-out maker read by +0.48 with the random arm at 0.00 on the first domain and +0.42 with random at −0.04 and permuted labels at −0.03 on the second, while the second-family checkpoint gives nothing under any direction
+
+**Hypothesis.** (Post-run, TODO (e).) Why did L255's random arm read quiet (−0.09, +0.04 by
+fold) and B03's read +0.40 on the same reader, artifacts, locus, dose, folds, and
+per-artifact random scheme, and what are the bridge's numbers once the cause is removed?
+
+**Method.** Four receipts on the closed stage's artifacts, outside its frozen cells. Seeds:
+the zero, congruent, incongruent, and random arms under L255's seed base and B03's, each
+arm asked under the same option order. Hooks: the model's live hook count after every
+steering-context exit through B03's nine-arm sequence, and the random arm scored alone
+against inside that sequence. Order: the zero, congruent, and random arms under one order
+shared by all arms against an independent order per arm, over four order seeds, on 24
+artifacts. Fixed-order batteries: B03's nine arms on all 135 artifacts and both folds with
+the order held fixed per artifact across arms, for the anchor on the scene artifacts
+(B03's setting), the second-family checkpoint on the same (B01's), and the anchor on the
+second artifact domain (B02's); cluster bootstrap by artifact.
+
+| receipt | finding |
+|---|---|
+| seeds | random arm +0.01 [−0.20, +0.22] under L255's seeds (folds −0.08, +0.06, matching L255's −0.09, +0.04) and 0.00 [−0.23, +0.21] under B03's; congruent +0.48 [+0.24, +0.72] (folds +0.81, +0.30, matching L255's +0.82, +0.40) |
+| hooks | hook count constant after every exit (no leak); the random arm −0.06 alone and +0.41 inside the sequence, zero steering re-asked after the sequence +0.13: the arm's place in the sequence, not the hooks, moves it |
+| order | the zero arm's log score by the truth's letter: A −2.71, B −0.75, C −1.54, D −1.96; per-item spread of a paired contrast under differing orders 1.9 to 2.6 nats, so a 135-artifact mean has a standard error of 0.17; B03's +0.40 and 0.00 are two draws of that |
+
+*Table: the three diagnostic receipts; files results/phase_2_4_stage_5/post/B03_SEEDS.json,
+B03_LEAK.json, B03_ORDER.json. The cards (B01 to B03, and L255's A07b) drew a fresh option
+order per arm from one shared generator, so their paired contrasts were unpaired on the
+readout's largest nuisance.*
+
+| arm, order held fixed | anchor, scene artifacts (135) | SmolLM2, scene artifacts (135) | anchor, second domain (171) |
+|---|---|---|---|
+| congruent | **+0.48 [+0.24, +0.72]** (folds +0.81, +0.30) | −0.01 [−0.09, +0.07] | **+0.42 [+0.23, +0.64]** (folds +0.20, +0.70) |
+| random, same norm | **0.00 [−0.23, +0.21]** | −0.24 [−0.34, −0.15] | **−0.04 [−0.20, +0.11]** |
+| incongruent | +0.05 [−0.12, +0.24] | −0.50 [−0.60, −0.39] | −0.33 [−0.59, −0.08] |
+| reversed sign | −0.32 [−0.56, −0.10] | −0.46 [−0.57, −0.36] | −0.67 [−0.96, −0.39] |
+| half / double dose | +0.23 / +0.62 | +0.15 / −0.67 | +0.22 / +0.36 |
+| congruent direction at shifted / random blocks | +0.28 / +0.42 | +0.02 / −0.10 | +0.31 / −0.15 |
+| permuted-label directions | +0.32 [+0.11, +0.55] | −0.13 [−0.21, −0.06] | −0.03 [−0.23, +0.15] |
+
+*Table: paired change in the log probability of the held-out maker's true tendency against
+unsteered inference, every arm of an artifact asked under the same option order; files
+B03_FIXED_ORDER.json, B03_FIXED_ORDER_smollm_scenes.json, B03_FIXED_ORDER_anchor_scenes2.json.*
+
+**Fourth cell (2026-08-29, queued behind the second contract).** The second-family checkpoint on the
+second domain under fixed order: congruent +0.03 [−0.05, +0.11], incongruent −0.37, random −0.19,
+reversed −0.61, double −0.64, permuted −0.39, half +0.12; nothing from the true direction on either
+domain for that family (results/phase_2_4_stage_5/post/B03_FIXED_ORDER_smollm_scenes2.json).
+
+**What we found.** With the pairing restored, the anchor shows the selective signature on
+both domains: the true direction lifts the read, a random direction of the same norm does
+nothing, the wrong direction is inert or costs, the reversed sign costs, and the dose is
+monotone; on the second domain directions fit on shuffled labels do nothing, on the first
+they carry two thirds of the effect. The direction also works when applied three blocks
+later or at random other blocks. The second-family checkpoint shows no lift under any
+direction and a cost under most.
+
+**What it means.** L260's kill of L255's selectivity clause is reversed: the loud random,
+shifted-block, and permuted arms in the card were the card's own order noise on a two-nat
+letter effect, and L255's random-quiet clause replicates under both seed sets and on a
+second domain once the order is held fixed. The causal-use reading of L255 stands with two
+refinements the battery earns: the effect is not coordinate-specific (the tendency
+direction works across the middle third of the stack, which is a fact about the
+representation's spread, not a confound), and its label specificity is full on the second
+domain and partial on the first (permuted-label directions, which are mixtures of the true
+ones, carry part of it there). The second-family null (L257) stands as a checkpoint whose
+directions do not transfer. The lesson is structural: a paired steering contrast on a
+letter readout must ask every arm under the same option order, and the Stage-3 and Stage-5
+bridge cards did not; their landed verdicts stay on the record as landed, and these
+receipts are the standing numbers.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate. Question:
+> what are the bridge's numbers with the readout's order nuisance held fixed? Outcome class:
+> **Strengthens** (L255's causal-use reading, on two domains, one reader). Result: congruent
+> +0.48 and +0.42 with random at 0.00 and −0.04. Meaning: causal use of the tendency
+> representation during inversion is back on the record for the anchor, not
+> coordinate-specific, label-specific on one domain of two. Next obligation: the bridge
+> runners take a fixed order per artifact (a one-line repair, filed); the second-family
+> question needs a checkpoint whose directions decode. Public claim: **newly licensed** for
+> the anchor on two domains, as a model-bounded statement. Decision: **No.** Detail:
+> results/phase_2_4_stage_5/post/.
+
+## L284 · The second contract's gate admits both small readers at ninety-six items and refuses the 3B again, and both readers fail both track gates: the joint gate because with the true latents in hand they still predict the choice under a uniform guess, and the appraisal gate because they call a notice that asks nothing a request for action three times in four, which is the construction's own soft directive
+
+**Hypothesis.** (Stage 5R I02, design 2; TODO (a), (j), (p).) Which readers pass the
+stated-preference gate at ninety-six items, and which pass the two track gates: reading the
+source world's visible register (calm against alarmed; asks for action against informs
+only), and mapping stated latents onto a choice above a uniform guess?
+
+**Method.** The Stage-5 gate at twenty-four items per option and domain (ninety-six per
+domain), fresh items, the four bands; the source gate on thirty-two fresh source worlds per
+domain with two two-option questions, band 0.75 on both; the latents-to-choice gate on
+twenty-four fresh joint worlds per domain, the true latents stated, the repaired choice
+question, band: mean log score above uniform.
+
+| reader | preference gate at 96 | source gate: arousal / action accuracy (memo, notice) | latents-to-choice: log score (uniform −1.39) |
+|---|---|---|---|
+| Qwen2.5-1.5B | admitted (swing 0.04, 0.01; weakest option 0.88) | 0.72 / **0.25**, 0.53 / **0.34** — failed | −1.85 — failed |
+| SmolLM2-1.7B | admitted (swing 0.00, 0.04; weakest option 0.75) | 0.47 / **0.25**, 0.56 / **0.28** — failed | −1.57 — failed |
+| Qwen2.5-3B | refused (cheap option 0.42 in civic) | | |
+
+*Table: one row per reader; the action accuracies are far below the 0.5 chance of a two-option
+question, so the readers answer "asks for action" for the level built as "informs only".*
+
+**What we found.** The reader set is two small readers, as L282 predicted; the tier froze at
+expanded. Neither reader passes either track gate, and the action half of the source gate
+fails below chance in the same direction for both, which is a property of the text: the
+'absent' level ends "It should be looked at", a directive, so the two levels of the action
+factor are not the contrast the design named (a bag-of-words classifier separates them by
+wording, L265, but a reader reading for meaning does not).
+
+**What it means.** The appraisal and joint tracks run in this contract with every verdict
+marked gate-failed, on both readers (the design's rule), and the appraisal track's action
+factor is repaired in the construction before its cards run (the 'absent' level made
+explicitly non-directive; the leakage audit re-run as a repair cell). The gate itself was
+measured on the pre-repair text and is re-measured after the run. The joint gate's failure
+is the L278 result on a second reader: stated latents do not map onto a choice in either.
+
+> **Curator roll-up.** Theory group: instruments (the Stage-5 reader set; the source
+> world). Question: which readers pass the gates? Outcome class: **Infrastructure.** Result:
+> two readers admitted; both fail both track gates; the action factor's 'absent' level is a
+> directive. Meaning: the source world's action contrast needs the repair now in; the joint
+> negative is two readers deep. Next obligation: the post-run source gate on the repaired
+> text. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5r/I02/gates.json, RUN_CONTRACT.json (frozen design, track_gates).
+
+## L285 · Under the second contract's fixed-order bridge the second-family checkpoint again gains nothing from the true direction (−0.005 [−0.09, +0.08]) while the wrong direction costs half a nat and a random one a quarter, the receipt's numbers to the third decimal, so the second-family null is a landed card
+
+**Hypothesis.** (Stage 5R B01, design 2.) Does the held-out maker read's causal use replicate
+on the second-family checkpoint when every arm is asked under the same option order?
+
+**Method.** L257's design with the order held fixed per artifact across arms (the design-2
+repair, L283): SmolLM2-1.7B-Instruct as the steered model, 135 artifacts, two maker folds,
+zero, congruent, incongruent, and random arms at the largest capability-passing dose; paired
+log-score differences, cluster bootstrap, sign-flip permutation. The 3B checkpoint was
+refused by the gate (L284), so the second family carries the primary.
+
+| arm | change in log probability of the true tendency, nats |
+|---|---|
+| congruent | **−0.005 [−0.088, +0.078]**, p 0.91, INCONCLUSIVE by band (decode at chance, 0.24) |
+| incongruent | −0.50 [−0.61, −0.39], p < 1e-4 |
+| random, same norm | −0.24 [−0.33, −0.14], p < 1e-4 |
+
+*Table: 135 artifacts pooled over both folds; the unsteered read is 0.67 balanced; the
+fixed-order receipt (L283) gave −0.01, −0.50, −0.24.*
+
+**What we found.** Exactly the receipt: nothing from the true direction, a cost from any
+other, on a checkpoint whose directions do not decode.
+
+**What it means.** The second-family null (L257) stands as a landed card under the repaired
+design; causal use of the tendency representation during inversion is one reader family's
+on the evidence so far, and a same-family second checkpoint still waits on one that passes
+the gate.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate. Question: does
+> the causal-use effect replicate on the second family under fixed order? Outcome class:
+> **Narrows** (confirms L257). Result: −0.005 nats congruent. Meaning: one reader family.
+> Next obligation: a same-family checkpoint that passes the gate. Public claim: unchanged.
+> Decision: **No.** Detail: results/phase_2_4_stage_5r/B01/.
+
+## L286 · On the second artifact domain under fixed order the anchor's true direction lifts the held-out maker read by +0.42 [+0.23, +0.61] with the random arm at −0.04 and the wrong direction at −0.33, a support candidate with the controls quiet, so L255's selective signature is a landed replication on a second domain
+
+**Hypothesis.** (Stage 5R B02, design 2.) Does the anchor's causal use of the tendency
+representation hold on a second artifact domain with the wrong and random directions quiet,
+when every arm is asked under the same option order?
+
+**Method.** L258's design (the twelve fresh scenes, 171 artifacts, Qwen2.5-1.5B-Instruct
+steered at the middle-third locus, dose 0.04, two maker folds) with the order held fixed per
+artifact across arms (L283); paired log-score differences, cluster bootstrap, sign-flip
+permutation; the 3B checkpoint refused, so the checkpoint-by-domain cell is empty.
+
+| arm | change in log probability of the true tendency, nats |
+|---|---|
+| congruent | **+0.42 [+0.23, +0.61]**, p 0.0001 |
+| incongruent | −0.33 [−0.59, −0.09], p 0.012 |
+| random, same norm | **−0.04 [−0.19, +0.11]**, p 0.64 |
+
+*Table: 171 artifacts pooled over both folds; the unsteered read 0.69 balanced; the
+directions' decode 0.19 (chance 0.25), which the card's rule notes; the receipt (L283) gave
++0.42, −0.33, −0.04.*
+
+**What we found.** The receipt's numbers, as a card: the true direction lifts, the wrong one
+costs, a random one does nothing.
+
+**What it means.** The anchor's causal use holds on two artifact domains with the readout's
+order nuisance controlled; with L285 the picture is one reader family, two domains. The
+card is a support candidate with quiet controls and will be judged for confirmation by the
+frozen rule at the closure block.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate. Question: does
+> the anchor's causal use hold on a second domain with controls quiet? Outcome class:
+> **Strengthens.** Result: +0.42 congruent, −0.04 random. Meaning: L255 replicates as a card
+> on a second domain. Next obligation: the closure block. Public claim: unchanged (already
+> licensed by L283, model-bounded). Decision: **No.** Detail: results/phase_2_4_stage_5r/B02/.
+
+## L287 · With the category and placement priors inside every level's predictor, no access level beats the best prior for the next stroke (best −0.05 [−0.15, +0.03]), a valid null on the ladder for later actions
+
+**Hypothesis.** (Stage 5R P01, design 2; TODO (d).) With the cheap priors available to the
+predictor as features, does richer process access improve next-stroke prediction beyond
+the better prior, monotonically?
+
+**Method.** L259's design with the category and the ink's placement quadrant entered as
+one-hot features in every level's logistic model; the score remains the model's log
+probability of the true next quadrant minus the better of the category and placement
+marginals; 555 held-out drawings; cluster bootstrap.
+
+| access level | gain over the best prior, nats |
+|---|---|
+| final geometry | −0.32 [−0.42, −0.22] |
+| unordered stroke set | −0.11 [−0.18, −0.03] |
+| partial order | **−0.05 [−0.15, +0.03]**, VALID_NULL |
+| true prefix | −0.14 [−0.22, −0.06] |
+
+*Table: 555 drawings per row; not monotone in access.*
+
+**What we found.** Giving the predictor the priors closes half the gap at the partial-order
+level and none of the ordering; no level reaches the priors.
+
+**What it means.** For the next stroke the access ladder buys nothing above a sharp marginal
+even when the predictor starts from that marginal; the Stage-4 first-stroke ladder (P02,
+L238) does not extend to later actions with this predictor, now as a valid null rather than
+an instrument caveat.
+
+> **Curator roll-up.** Theory group: decision traces, terminal organisation. Question: does
+> access improve next-stroke prediction above the priors when the priors are in the model?
+> Outcome class: **Narrows.** Result: best level −0.05, a valid null. Meaning: the ladder is a
+> first-stroke result. Next obligation: none new. Public claim: unchanged. Decision: **No.**
+> Detail: results/phase_2_4_stage_5r/P01/.
+
+## L288 · The specificity battery as a card under fixed order: the true direction +0.48, a random direction 0.00, the wrong direction +0.05, the reversed sign −0.32, dose monotone, the direction at shifted and random blocks +0.28 and +0.42, permuted-label directions +0.32, so the effect is selective against random and wrong directions, sign- and dose-specific, not coordinate-specific, and label-specific only in part
+
+**Hypothesis.** (Stage 5R B03, design 2.) Is the anchor's congruent steering effect specific
+to its coordinates, dose, sign, and label mapping, with every arm asked under the same
+option order?
+
+**Method.** L260's design with the order held fixed per artifact across arms (L283): the 135
+Stage-4 scene artifacts, two maker folds, dose 0.04, nine arms, the own-answer control;
+paired log-score differences, cluster bootstrap, sign-flip permutation.
+
+| arm | minus zero, nats | permutation p |
+|---|---|---|
+| congruent | **+0.48 [+0.25, +0.71]** | 0.0001 |
+| half / double dose | +0.23 / +0.61 | 0.0009 / 0.004 |
+| incongruent | +0.05 [−0.14, +0.23] | 0.60 |
+| reversed sign | −0.32 [−0.57, −0.10] | 0.009 |
+| random, same norm | **0.00 [−0.23, +0.24]** | 1.00 |
+| congruent direction at shifted / random blocks | +0.28 [+0.14, +0.43] / +0.42 [+0.03, +0.81] | 0.0002 / 0.034 |
+| permuted-label directions | +0.32 [+0.11, +0.55] | 0.005 |
+
+*Table: 135 artifacts pooled; own-answer shift 0.16 against a target gain of 0.48, no answer
+bias; the card's band reads INCONCLUSIVE because the coordinate and label arms are not
+quiet under its quiet-controls clause; the fixed-order receipt (L283) gave the same numbers.*
+
+**What we found.** The receipt's battery as a card: selectivity against random and wrong
+directions and against the sign, dose monotone; the direction works when applied at other
+blocks; directions fit on shuffled labels carry two thirds of the effect.
+
+**What it means.** L255's causal-use reading holds as a card on its own construction with
+the readout's nuisance controlled, refined as L283 stated: the representation used is the
+tendency subspace across the middle third of the stack, with partial specificity to the
+particular tendency on this domain (and full on the second, L286). The band's INCONCLUSIVE
+is its quiet-controls clause reading coordinate and label non-specificity, which are
+findings about the representation's spread, not confounds.
+
+> **Curator roll-up.** Theory group: three cognitive layers, the causal gate. Question: is the
+> congruent effect specific to coordinates, dose, sign, and labels? Outcome class:
+> **Strengthens** (selective against random and wrong directions, sign- and dose-specific;
+> coordinate and label specificity partial, as findings). Result: +0.48 congruent, 0.00
+> random. Meaning: causal use on the anchor, two domains, order-controlled. Next obligation:
+> none new. Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/B03/.
+
+## L289 · With the priors inside the predictor, four times the training data rewards the true prefix more than the unordered set by +0.14 [+0.01, +0.27], a support candidate for competence-by-access on the next stroke
+
+**Hypothesis.** (Stage 5R P03, design 2.) Does process access reward competence more, with
+the category and placement priors available to the predictor?
+
+**Method.** L262's design with the priors as one-hot features in every level's model: the
+competence gain (a quarter of the training drawings against all) at each access level,
+paired by drawing over 555 held-out drawings; the primary is the gain at the true prefix
+minus at the unordered set.
+
+| access level | competence gain, nats |
+|---|---|
+| unordered stroke set | +0.16 [+0.09, +0.24] |
+| partial order | +0.19 [+0.11, +0.28] |
+| true prefix | +0.30 [+0.21, +0.41] |
+| interaction (prefix minus unordered) | **+0.14 [+0.01, +0.27]**, SUPPORT_CANDIDATE |
+
+*Table: 555 drawings; held-out accuracies 0.47 to 0.56; the first contract's interaction
+was +0.12 with the interval touching zero (L262).*
+
+**What we found.** The interaction clears zero once the predictor starts from the priors.
+
+**What it means.** A richer trace rewards competence more than a poorer one for the next
+stroke, thinly, while no level beats the priors in absolute terms (L287): competence buys
+more from access than access buys on its own. Eligible for the closure block's rule.
+
+> **Curator roll-up.** Theory group: decision traces, terminal organisation. Question: does
+> access reward competence more? Outcome class: **Strengthens** (thinly). Result: +0.14 with
+> the interval clearing zero. Meaning: access is worth more to a competent predictor. Next
+> obligation: the closure block. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5r/P03/.
+
+## L290 · Two readers, the preference question restated to set the piece's goal aside, and worlds where several plan orders fit: the plan is still the readable latent (+0.53), the goal moves up to chance (−0.08), the preference stays below it (−0.57) with the Qwen reader still assigning the supplied goal's axis to the disposition in two thirds of worlds, and on the 220 worlds where the plan's order cannot be determined the readers abstain in half
+
+**Hypothesis.** (Stage 5R J01, design 2; TODO (g), (h).) Given the other two latents as
+true, does each reader recover the episode goal, the standing preference (asked with the
+piece's goal explicitly set aside), and the process plan above chance, and abstain where
+several plan orders fit?
+
+**Method.** L261's design on both admitted readers with the design-2 worlds (the plan's
+partial order relaxed in 110 of 256 worlds, so equifinal twins exist and the candidate set
+holds the true plan plus up to four twins) and the restated preference question; log score
+over uniform chance per latent, pooled over readers; abstention on equifinal worlds as mass
+on unknown or split across the twins. Both readers failed the joint track gate (L284), so
+the card carries the gate-failed note.
+
+| latent | gain over chance, nats (both readers) | accuracy Qwen / SmolLM2 | Qwen's answer equals the goal's axis |
+|---|---|---|---|
+| process plan | **+0.53 [+0.42, +0.63]** | 0.57 / 0.42 | |
+| episode goal | −0.08 [−0.24, +0.07] | 0.51 / 0.41 | |
+| standing preference | **−0.57 [−0.74, −0.40]** | 0.34 / 0.20 | 166 of 256 (66 coincide by construction); SmolLM2 81 |
+| equifinal plans (220 worlds) | abstention 0.52 | | |
+
+*Table: pooled over the two readers, 256 worlds each; the plan's candidate set is larger in
+relaxed-order worlds, so its accuracy is lower than the first contract's 0.80 at a similar
+gain; the first contract read the preference at −1.34 and the goal at −0.31 with one reader.*
+
+**What we found.** The restated question lifts the goal to chance and the preference by
+three quarters of a nat without reaching chance; the Qwen reader's attribution of the goal's
+axis to the disposition is unchanged (166 against 171 worlds), and the SmolLM2 reader does
+not attribute but does not read either (it answers "robust" at chance). With equifinal worlds
+in the lane the abstention ruler fires: half the time the readers decline to name an order
+that cannot be determined.
+
+**What it means.** The goal-as-disposition confound is not a prompt-position effect (TODO
+(h) answered): told in the same sentence to set the goal aside, the Qwen reader still reads
+the goal-driven choices as a standing preference; the second reader's chance-level answers
+add a second family to the negative without the attribution. The equifinality gate is now
+a live instrument (TODO (g) closed) with a first number, 0.52, between a reader that never
+knows what it cannot know and one that always does.
+
+> **Curator roll-up.** Theory group: the triple inference (goal, preference, plan as separate
+> products). Question: are the latents recoverable with the goal set aside and equifinal
+> plans present? Outcome class: **Narrows.** Result: plan +0.53, goal −0.08, preference
+> −0.57; abstention 0.52 on equifinal worlds. Meaning: the attribution is a reading, not a
+> prompt artifact; abstention exists at half. Next obligation: J02 to J05 on both readers
+> (running). Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/J01/.
+
+## L291 · On two readers every joint-reader variant predicts the hidden future choice under a uniform guess (SmolLM2 −1.54 to −1.59, Qwen −1.83 to −1.91, against −1.39 and an exact ceiling of −1.05), the oracle handed the true latents matches the recurrent reader in both, and recurrent over the best staged reader is +0.06 with the interval crossing zero
+
+**Hypothesis.** (Stage 5R J02, design 2.) Does a recurrent joint reader predict a maker's
+hidden future choice better than the best staged or factored reader, on two reader
+families?
+
+**Method.** L278's design (the repaired question, six variants, 256 worlds) on both admitted
+readers pooled, the design-2 worlds; the primary recurrent minus the best comparator paired
+by world; the uniform floor and the exact ceiling reported; both readers failed the joint
+track gate (L284), so the card carries the note.
+
+| reader | recurrent | oracle (true latents) | best staged (process-first) | accuracy, recurrent |
+|---|---|---|---|---|
+| SmolLM2-1.7B | −1.55 | −1.54 | −1.59 | 0.28 |
+| Qwen2.5-1.5B | −1.83 | −1.87 | −1.91 | 0.36 |
+| pooled, recurrent minus best comparator | **+0.06 [−0.05, +0.18]**, INCONCLUSIVE | | | |
+
+*Table: mean log probability of the realized draw over 256 worlds per reader; uniform −1.39,
+the exact posterior's predictive −1.05; calibration error 0.24 to 0.29.*
+
+**What we found.** L278 on a second family: neither reader reaches a uniform guess, the
+true latents buy nothing over inferred ones, and joint reconstruction's edge over staged
+reading is a twentieth of a nat with the interval crossing zero.
+
+**What it means.** The latent-to-choice mapping is absent in both small reader families;
+the construction's ceiling (0.34 nats above uniform) is unclaimed by either. The joint-over-
+staged question stays untestable below a reader that passes the latents-to-choice gate.
+
+> **Curator roll-up.** Theory group: the triple inference (joint reconstruction). Question:
+> does joint reading beat staged reading on the hidden choice, on two readers? Outcome class:
+> **Narrows** (two families under uniform). Result: +0.06 with the interval crossing zero.
+> Meaning: no small reader maps latents to choices. Next obligation: the gate (p) on a larger
+> reader before the question is asked again. Public claim: unchanged. Decision: **No.**
+> Detail: results/phase_2_4_stage_5r/J02/.
+
+## L292 · Along the evidence stream on two readers and the design-2 worlds, the preference record is never useful in three worlds of four, the goal record in three of five, and the plan record in more than half, and after a contradiction the readers stay overconfident in half of 448 reader-worlds
+
+**Hypothesis.** (Stage 5R J03, design 2.) As evidence arrives item by item, which latent's
+record first becomes useful, how often it reverses, and does a contradiction the exact
+posterior registers lower the reader's confidence, on two readers?
+
+**Method.** L264's design on both admitted readers with the design-2 worlds (equifinal
+twins present, so the plan's candidate set is larger); 256 worlds per reader; the
+contradiction step from the exact posterior (448 reader-worlds have one). Descriptive; the
+card carries the joint gate-failed note (L284).
+
+| latent | first useful at step (mean) | never useful, share of reader-worlds | reversals per world | overconfident after the contradiction |
+|---|---|---|---|---|
+| standing preference | 7.1 | 0.74 | 5.0 | 0.53 |
+| episode goal | 7.1 | 0.62 | 4.3 | 0.54 |
+| process plan | 8.6 | 0.56 | 5.1 | 0.51 |
+
+*Table: pooled over two readers (512 reader-worlds); the first contract with one reader
+read 0.66 / 0.40 / 0.26 never-useful and 0.62 / 0.44 / 0.54 overconfidence (L264).*
+
+**What we found.** Adding the second reader and the harder plan sets moves every record
+toward never-useful; the goal's never-useful share rises most (0.40 to 0.62), the plan's
+from a quarter to more than half; overconfidence after contradiction sits at half for all
+three.
+
+**What it means.** The trajectory picture of L264 holds on a second reader family and
+worsens: no record reliably becomes useful within nine items, reversals run four to five
+per world, and a contradiction does not lower confidence in either reader. Read with L290
+and L291, the joint track's revision claim has no reader on which to stand below the gate.
+
+> **Curator roll-up.** Theory group: the triple inference (revision along the stream).
+> Question: which record becomes useful first and does contradiction revise it, on two
+> readers? Outcome class: **Narrows.** Result: never-useful 0.56 to 0.74; overconfidence
+> 0.51 to 0.54. Meaning: no appropriate revision in either small reader. Next obligation:
+> none beyond the gate (p). Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5r/J03/.
+
+## L293 · With the second episode's goal weighing twice, so that the true latents would predict its choice 0.68 nats above uniform, two readers' inferred preference still predicts it 0.26 nats worse than the scenario's own prior, on a preference recovered in three worlds of ten
+
+**Hypothesis.** (Stage 5R J05, design 2; TODO (q).) With a second-episode construction
+whose exact ceiling clears uniform by more than a quarter of a nat, does the standing
+preference a reader infers predict the next episode's choice beyond cheap baselines?
+
+**Method.** L280's design on both admitted readers with the design-2 worlds (episode-2 goal
+bonus 2.0; exact ceiling −0.70 against uniform −1.39); the reader's inferred preference
+against habit, topic, and last-goal baselines on the episode-2 choice; the primary is the
+reader minus the best baseline, paired by world; the joint gate-failed note applies (L284).
+
+| predictor | episode-2 choice log score, nats |
+|---|---|
+| the readers, from the inferred preference (SmolLM2 −1.60, Qwen −2.03) | −1.82 |
+| topic baseline | −1.56 |
+| habit / last goal | −2.06 / −2.19 |
+| uniform / exact ceiling | −1.39 / −0.70 |
+| readers minus topic (the primary) | **−0.26 [−0.36, −0.16]**, p < 1e-4, COUNTEREVIDENCE |
+
+*Table: 256 worlds per reader, pooled; preference recovery 0.31; L280's construction had a
+ceiling of −1.13 and the reader lost 0.73 to the topic prior.*
+
+**What we found.** The construction now rewards a reader that knows the maker by two thirds
+of a nat over a uniform guess, and neither reader collects any of it: both sit under uniform
+and under the topic prior, closer than before (a quarter of a nat rather than three
+quarters) because the harder task's prior is also weaker.
+
+**What it means.** Cross-episode prediction from an inferred disposition is absent in both
+small reader families on a construction with headroom (TODO (q) closed); the bottleneck is
+the disposition's recovery (0.31) and the latent-to-choice mapping (L291), not the world.
+
+> **Curator roll-up.** Theory group: the triple inference (standing preference across
+> episodes). Question: does the inferred preference predict the next episode on a
+> construction with headroom? Outcome class: **Narrows.** Result: −0.26 against the topic
+> prior with a ceiling 0.68 above uniform. Meaning: no cross-episode use of a disposition in
+> either reader. Next obligation: the gate (p). Public claim: unchanged. Decision: **No.**
+> Detail: results/phase_2_4_stage_5r/J05/.
+
+## L294 · On two readers the opened hypothesis that the maker's note misrepresents its goal is taken in a tenth of the worlds where it does and a tenth where it does not, and opening it changes prediction by −0.04 [−0.13, +0.04], while the exact posterior registers the conflict at a nat and a half
+
+**Hypothesis.** (Stage 5R J04, design 2.) Does opening a hypothesis the fixed set lacks
+improve the reader's prediction on worlds where the note conflicts with the record, without
+a false alarm, on two readers?
+
+**Method.** L279's design on both admitted readers with the design-2 worlds; 256 worlds per
+reader in consistent and conflict versions; opened minus fixed on the held-out choice log
+score; the joint gate-failed note applies (L284).
+
+| cell | opened minus fixed, nats | opened hypothesis chosen |
+|---|---|---|
+| conflict worlds (the primary) | **−0.04 [−0.13, +0.04]**, p 0.33, INCONCLUSIVE | 0.10 |
+| consistent worlds (false alarm) | −0.06 [−0.13, +0.01], p 0.09 | 0.09 |
+
+*Table: 512 reader-worlds per version; the exact posterior's divergence between versions
+1.50 nats on conflict worlds against 0.62 on consistent ones.*
+
+**What we found.** L279 on a second family: the opened hypothesis is not used where it is
+true and not avoided where it is false.
+
+**What it means.** Neither small reader detects the conflict between what the maker says
+and what it did; the missing-hypothesis mechanism stays untested above the readers' floor.
+
+> **Curator roll-up.** Theory group: the triple inference (the semantic route against the
+> record). Question: does an opened hypothesis help on conflict worlds, on two readers?
+> Outcome class: **Narrows.** Result: −0.04; taken in a tenth of worlds either way. Meaning:
+> the conflict goes undetected in both families. Next obligation: the gate (p). Public claim:
+> unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/J04/.
+
+## L295 · With the intensity closers no longer imperatives, two readers read the maker's appraisal at −0.30 nats under chance where one reader read it at −1.75, content support at −0.29, and the intended audience effect at −1.90 with "alarm them into acting" still the answer in two thirds to four fifths of notices, so the repair moved the owner the closers had confounded and not the register the readers cannot read
+
+**Hypothesis.** (Stage 5R A01, design 2.) With the source world's closers stating gravity
+without a call to action (L284), can two readers keep apart who owns an affective
+appraisal: the intended audience effect, the maker's own appraisal, and the content's
+support?
+
+**Method.** L265's design on both admitted readers with the design-2 source text; the three
+owned questions by candidate likelihood with an explicit unknown; log score over uniform
+chance averaged over the questions; both readers failed the appraisal track gate on the
+pre-repair text (L284), so the card carries the note.
+
+| owned question | gain over chance, nats (both readers) | accuracy Qwen / SmolLM2 | modal answer |
+|---|---|---|---|
+| intended audience effect (arousal x action) | **−1.90 [−2.16, −1.63]** | 0.27 / 0.27 | "alarm, act" 80 / 64 percent |
+| maker's appraisal (belief x gravity) | −0.30 [−0.45, −0.13] | 0.42 / 0.38 (chance 0.25) | "believed, grave" 52 / 45 percent |
+| content support | −0.29 [−0.40, −0.19] | 0.46 / 0.36 (chance 0.50) | "low" 77 / 73 percent |
+| all three (the primary) | **−0.83 [−0.94, −0.72]**, COUNTEREVIDENCE | | swap stratum −0.87, others −0.78 |
+
+*Table: pooled over two readers, 256 worlds each; own-response agreement with the maker's
+appraisal 0.45; the first contract read −4.35 / −1.75 / −0.39 with one reader on the
+pre-repair text (L265).*
+
+**What we found.** The appraisal read improves by a nat and a half and reaches accuracy
+above chance once the closers stop asking for action (the imperative had been read as the
+maker's alarm); the audience-effect read does not move: with no call line at all the
+readers still say the notice means to alarm and to move its reader, and the support read
+stays at a coin flip with "low" as the default.
+
+**What it means.** The construction defect L284 found was real and its repair is measured
+here: one owner's read was confounded by the closers. What remains is the reader: a notice
+that reports a fault and cases reads as alarming and action-demanding to these readers
+whatever its register, and content support is not read from the record at all. The gate
+result on the repaired text (post-run) will say whether the register is now legible to
+them; this card says the audience-effect question is not.
+
+> **Curator roll-up.** Theory group: the triple inference (owners of appraisal). Question:
+> can two readers keep the owners apart on the repaired source text? Outcome class:
+> **Narrows.** Result: −0.83 nats; the appraisal owner improved by 1.45 nats, the audience
+> owner unchanged. Meaning: the closer confound is repaired and measured; the register read
+> is the readers' floor. Next obligation: the post-run source gate on the repaired text.
+> Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/A01/.
+
+## L296 · On the repaired source text two readers predict the source's selection, correction, and private action a third to two thirds of a nat under chance, and the collision twins, now paired (1,024 pairs), receive identical confident answers with unknown mass above a half in one pair in a hundred, while the card's near-equal clause reports every pair as abstention
+
+**Hypothesis.** (Stage 5R A02, design 2; TODO (k).) Does the reader distinguish sincere alarm
+from strategic influence by predicting divergent behavior, and abstain on collision twins,
+on two readers with the twin pairing repaired?
+
+**Method.** L266's design on both admitted readers with the design-2 source text; the
+pairing keyed on the unit (the first contract's bookkeeping defect); abstention as unknown
+mass or a split across the pair; the appraisal gate-failed note applies (L284).
+
+| predicted behavior | gain over chance, nats (both readers) | accuracy Qwen / SmolLM2 | modal answer |
+|---|---|---|---|
+| evidence selection (four levels) | **−0.64 [−0.76, −0.52]** | 0.21 / 0.23 (chance 0.25) | "cherry-picked" 74 / 88 percent |
+| correction after counterevidence | −0.50 [−0.69, −0.32] | 0.49 / 0.49 | "would correct" 75 / 95 percent |
+| private action | −0.33 [−0.46, −0.20] | 0.51 / 0.50 | "none" 94 / 77 percent |
+| collision twins (1,024 pairs) | rule-abstention 1.00; unknown mass 0.14, above a half in 0.009 | | |
+
+*Table: pooled over two readers, 256 originals and 256 twins each; the card's abstention
+rule counts a pair as abstained when the two answers' probability of the truth differ by
+under 0.2, which is vacuous on identical text (identical probabilities), so the rate it
+reports is an artifact; the unknown-mass figures are the abstention.*
+
+**What we found.** L266 on two readers with the closers repaired: behaviors are not read,
+and a twin whose hidden factors are flipped gets the same confident answer with unknown
+mass a seventh.
+
+**What it means.** Sincere and strategic sources are not distinguished by predicted
+behavior in either family; the collision design fires as intended and the reporting rule
+needs its near-equal clause removed (TODO (u)); the first contract's figure of zero
+abstention stands as the honest number.
+
+> **Curator roll-up.** Theory group: reader heuristics (source modeling). Question: does
+> predicted behavior separate sincere from strategic sources, on two readers? Outcome class:
+> **Narrows.** Result: −0.64 nats on selection; true abstention 0.009. Meaning: neither
+> family; the twin control fires. Next obligation: the abstention rule's clause (u), post-run.
+> Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/A02/.
+
+## L297 · The audience-modeling prompt helps the plain maker's notices (+0.18) and not the audience-modeling maker's (+0.02) on two readers, an interaction of −0.15 among cells that all sit under the coin-flip floor on content support
+
+**Hypothesis.** (Stage 5R A03, design 2.) Does a reader that models the audience read
+content support better on notices from a maker that models the audience?
+
+**Method.** L267's design on both readers with the repaired text; the interaction of the
+audience prompt's gain across the two maker mechanisms, paired by world.
+
+| maker mechanism | ordinary prompt | audience prompt | audience minus ordinary |
+|---|---|---|---|
+| plain (57 worlds per reader) | −1.51 | −1.33 | +0.18 [+0.05, +0.31], p 0.012 |
+| audience-modeling (127) | −1.22 | −1.20 | +0.02 [−0.07, +0.12], p 0.64 |
+| interaction | | | **−0.15 [−0.25, −0.05]**, COUNTEREVIDENCE by band |
+
+*Table: mean content-support log score per cell over two readers; chance −0.69.*
+
+**What we found.** L267 on two readers: the sign against the prediction, every cell under
+the floor.
+
+**What it means.** No test: a reader that cannot read support cannot show that modeling
+the audience improves reading it, in either family.
+
+> **Curator roll-up.** Theory group: reader heuristics (audience modeling). Question: does
+> an audience-modeling reader read audience-modeling makers better? Outcome class:
+> **Narrows** (untestable below the floor). Result: −0.15 among sub-chance cells. Meaning:
+> no test. Next obligation: none new. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5r/A03/.
+
+## L298 · A source label, influence awareness, and reappraisal lower what two readers accept (0.43 to 0.31, 0.31, 0.24) with discrimination flat (AUROC 0.57, 0.54, 0.57, 0.51), the criterion shift of L268 on a second reader and the repaired text, valid null on discrimination
+
+**Hypothesis.** (Stage 5R A04, design 2.) Do labeling, influence awareness, or reappraisal
+improve discrimination of reliable notices without a criterion shift, on two readers?
+
+**Method.** L268's design on both readers with the repaired text; AUROC of the reliability
+judgment, acceptance, true- and false-advice uptake; the signed-margin contrast against none.
+
+| condition | reliability AUROC | acceptance | true advice followed | false advice followed | signed margin vs none |
+|---|---|---|---|---|---|
+| none | 0.568 | 0.43 | 0.38 | 0.28 | |
+| source label | 0.541 | 0.31 | 0.24 | 0.29 | −0.01 [−0.03, +0.01] |
+| influence awareness | 0.569 | 0.31 | 0.23 | 0.28 | −0.00 [−0.02, +0.02] |
+| reappraisal | 0.510 | 0.24 | 0.26 | 0.19 | −0.02 [−0.04, +0.00] |
+
+*Table: pooled over two readers, 256 worlds each; VALID_NULL at the 0.05 band.*
+
+**What we found.** The same shape as L268 with smaller acceptance drops: every intervention
+lowers acceptance, true advice included, and none raises discrimination.
+
+**What it means.** The criterion-shift account of influence warnings is now two readers,
+two constructions, and two versions of the source text deep; it is the appraisal track's
+one stable finding.
+
+> **Curator roll-up.** Theory group: reader heuristics (technique knowledge and blanket
+> distrust). Question: do influence interventions improve discrimination without a
+> criterion shift? Outcome class: **Narrows** (the criterion-shift account strengthens).
+> Result: AUROC flat, acceptance 0.43 to 0.24. Meaning: warnings buy refusal. Next
+> obligation: none new. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5r/A04/.
+
+## L299 · A reliable history against an unreliable one moves two readers' uptake of a notice by nothing (0.000 [−0.03, +0.03]), while shifting their content-support read up by 0.18 and their goal read down by 0.37, so trust is not a factored policy in either
+
+**Hypothesis.** (Stage 5R A05, design 2.) Does trust act as a factored policy over uptake,
+on two readers?
+
+**Method.** L269's design on both readers with the repaired text; uptake under a reliable
+minus an unreliable history, paired over 76 worlds per reader; the content and goal
+posteriors' shifts as the factoring check.
+
+| quantity | reliable minus unreliable | permutation p |
+|---|---|---|
+| uptake (the primary) | **0.000 [−0.034, +0.031]** | 0.99 |
+| content-support log score | +0.18 [+0.04, +0.33] | 0.014 |
+| communicative-goal log score | −0.37 [−0.55, −0.20] | < 1e-4 |
+
+*Table: paired differences pooled over two readers; VALID_NULL on the primary; not factored.*
+
+**What we found.** L269 on two readers: history does not move uptake and does move the
+posteriors it was not supposed to.
+
+**What it means.** No trust policy in either small reader; the source's record changes what
+they say about it and not what they do with it.
+
+> **Curator roll-up.** Theory group: reader heuristics (trust). Question: is trust a
+> factored policy? Outcome class: **Narrows.** Result: uptake 0.000. Meaning: no policy in
+> either family. Next obligation: none new. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5r/A05/.
+
+## L300 · With the route descriptions rendered plain or stilted per world, the easiest description is still the same route in every world (now the note), and two readers take it in a quarter of worlds, prefer the action record in half, and capture +0.06 nats over a random selector and +0.10 over always taking the easiest, with weak tracking of which route is best (0.36 against 0.26)
+
+**Hypothesis.** (Stage 5R R01, design 2; TODO (l).) Does the reader choose the evidence
+route by its exact information beyond a random selector, when the routes' descriptions are
+rendered so that ease and information do not coincide?
+
+**Method.** L270's design on both readers with each route's description rendered plain or
+stilted at random per world; ease measured on the rendered descriptions (the reader's own
+token probabilities); the primary the chosen route's exact information minus a random
+selector's on the 318 reader-worlds past the divergence floor; the first-listed, easiest,
+and exact selectors beside it.
+
+| selector | information captured, nats | against the reader's choice |
+|---|---|---|
+| the reader (action 56, note 27, forensic 17 percent) | 0.193 | **+0.056 [+0.046, +0.066] over random** (the primary) |
+| random | 0.137 | |
+| first-listed | | reader +0.06 [+0.04, +0.09] |
+| easiest description (the note, in every world) | 0.097 | reader **+0.10 [+0.08, +0.11]** |
+| exact best | 0.308 | reader −0.12 [−0.13, −0.10] |
+
+*Table: 318 reader-worlds past the floor (194 void under it); the reader chose the note in
+36 percent of the worlds where the note was exactly best and 26 percent where the action
+record was; the rendering did not change which description is most fluent, so the ease
+factor is again constant across worlds, with the note now the easiest.*
+
+**What we found.** The fluency-policy rival of L270 is excluded here (the reader takes the
+easiest description a quarter of the time and beats that policy by a tenth of a nat) and the
+position rival is excluded; what remains is a preference for the action record over the
+note whatever the world, with a small within-world tracking of the better route.
+
+**What it means.** A record of decisions is preferred to a note by both readers, and that
+preference is informative on this construction because the record usually is the better
+route; whether the reader reads information rather than genre needs ease varied within a
+route type, which the per-description rendering did not achieve (TODO (l) stays open with
+the reason: the note's description is the most fluent under every rendering tried).
+
+> **Curator roll-up.** Theory group: reader heuristics (active reading). Question: does the
+> reader choose routes by information when ease and information are crossed? Outcome class:
+> **Narrows** (fluency and position excluded; genre preference remains). Result: +0.06 over
+> random, +0.10 over always-easiest, tracking 0.36 against 0.26. Meaning: a record-over-note
+> preference, weakly informative. Next obligation: ease varied within a route type (l).
+> Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/R01/.
+
+## L301 · Two readers say they would rely more on six records than on two (+0.07 on a unit scale), and the ease arm is unrealized by its ruler: every candidate rendering, capitals and mid-dots included, scores a higher mean per-token log probability than the plain record, because the measure rewards predictable filler tokens, so no rendering can register as harder under it
+
+**Hypothesis.** (Stage 5R R02, design 2; TODO (m).) Does stated reliance follow a record's
+exact information rather than its ease of reading, with the ease manipulation checked on
+the reader's own token probabilities before the card?
+
+**Method.** L271's design on both readers; before scoring, the plain record and five
+candidate renderings (three archaic, one in capitals, one with a mid-dot after every word)
+were measured on sixteen worlds by the ease ruler (mean per-token log probability of the
+text), the least fluent rendering below plain to be used and the ease arm declared
+unrealized if none qualified; the reliance contrasts as before.
+
+| rendering | mean per-token log probability, Qwen / SmolLM2 |
+|---|---|
+| plain record | −3.06 / −2.92 |
+| archaic (three variants) | −2.80 to −2.93 / −2.68 to −2.81 |
+| capitals | −2.52 / −2.04 |
+| a mid-dot after every word | −1.86 / −1.87 |
+
+| contrast | stated reliance |
+|---|---|
+| six records minus two, at equal rendering | **+0.070 [+0.061, +0.079]**, p < 1e-4 |
+| plain minus the fallback rendering, six records | −0.017 [−0.026, −0.008] |
+| primary (information minus ease) | **+0.087 [+0.077, +0.098]**, SUPPORT_CANDIDATE |
+
+*Tables: the render check on sixteen worlds per reader; the reliance contrasts over 256
+worlds per reader; the fallback rendering is the archaic one, which the ruler rates easier
+than plain.*
+
+**What we found.** The quantity effect replicates on two readers at about half its size on
+one; the ease ruler rates every degraded text as easier than the original, most of all the
+one with a filler token after every word.
+
+**What it means.** The mean per-token log probability is not an ease measure: a text padded
+with predictable tokens raises it, so the renderings that are hardest to read score as the
+easiest, and the ease arm cannot be realized under this ruler with any rendering. The known-
+answer renderings (capitals, mid-dots) are the test the ruler fails. TODO (m) becomes a ruler
+item: ease as total log probability of the content tokens, or as the token count itself, or
+a reading-time proxy, validated on those known-answer renderings before any card uses it.
+
+> **Curator roll-up.** Theory group: reader heuristics (reliability against ease). Question:
+> does stated reliance follow information rather than ease? Outcome class: **Narrows**
+> (quantity replicates; the ease ruler is invalid). Result: +0.07 for six records over two;
+> the ruler rates a mid-dotted text as the easiest. Meaning: the fluency question has no
+> ruler yet. Next obligation: an ease ruler validated on known-answer renderings (m). Public
+> claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/R02/.
+
+## L302 · On two readers three demonstrations of a route set its use to 100 percent and three misleading demonstrations to 1 or 2 percent, in every world whether or not the route is diagnostic there (interaction −0.01, a valid null), so demonstrations are followed as instructions in both reader families
+
+**Hypothesis.** (Stage 5R R03, design 2.) Do worked demonstrations transfer as expertise
+(used where the route is diagnostic) or as familiarization (used wherever shown), on two
+readers?
+
+**Method.** L272's design on both admitted readers with the design-2 worlds; the interaction
+of the demonstration effect across diagnostic and non-diagnostic worlds; calibration of the
+subsequent prediction.
+
+| condition | action record chosen, diagnostic worlds | non-diagnostic worlds |
+|---|---|---|
+| no demonstration | 0.95 | 0.94 |
+| three demonstrations | 1.00 | 1.00 |
+| three misleading demonstrations | 0.02 | 0.01 |
+| interaction (high minus low diagnosticity) | **−0.01 [−0.03, +0.01]**, VALID_NULL | |
+
+*Table: pooled over two readers; misleading minus none −0.93; calibration error 0.26 to
+0.29, unchanged across conditions.*
+
+**What we found.** L272 on a second family: the demonstration is obeyed in both directions
+with the same size where the route is worthless as where it is diagnostic.
+
+**What it means.** The context-as-instruction reading now has two reader families and two
+contracts behind it for procedure as well as content.
+
+> **Curator roll-up.** Theory group: reader heuristics (context as instruction). Question:
+> do demonstrations transfer as expertise or familiarization, on two readers? Outcome class:
+> **Strengthens.** Result: 1.00 and 0.01 route use, interaction −0.01. Meaning: followed, not
+> learned from, in both families. Next obligation: none new. Public claim: unchanged.
+> Decision: **No.** Detail: results/phase_2_4_stage_5r/R03/.
+
+## L303 · With the forensic step priced so that it pays in a third of worlds, two readers buy it in 58 percent of worlds whether it pays or not (AUROC 0.50), and no policy's realized gain covers its cost, the exact policy's least, because a reader that does not use the forensic evidence realizes nothing from a worthwhile purchase
+
+**Hypothesis.** (Stage 5R R04, design 2; TODO (n).) Does the reader buy forensic access when
+its expected information justifies the cost and decline it otherwise, on a construction
+where the step sometimes pays?
+
+**Method.** L273's design on both readers with the forensic cost at 0.015 nats (the step's
+exact information exceeds it in 180 of 512 reader-worlds); the reader's buy decision by
+candidate likelihood; realized net gain per cost for the reader, a random buyer, always
+buying, and the exact policy; the primary the reader minus random, paired.
+
+| policy | realized net gain per cost |
+|---|---|
+| the readers (buy in 0.58 of worlds; 0.58 where it pays, 0.58 where not) | −0.008 |
+| random buyer | −0.005 |
+| always buy | −0.015 |
+| exact (buy when the expected information exceeds the cost) | −0.032 |
+| reader minus random (the primary) | **−0.003 [−0.08, +0.07]**, p 0.94, INCONCLUSIVE |
+
+*Table: 512 reader-worlds; the buy decision against the exact expected gain AUROC 0.503;
+realized gain is the change in the reader's own log score on the future choice after the
+forensic evidence, minus the cost.*
+
+**What we found.** The buy side is now testable and the readers do not have it: they buy at
+one rate everywhere; and the exact policy realizes the least because its purchases, the
+informative ones, change the reader's prediction no more than the others.
+
+**What it means.** Cost-blind buying on two readers, and a second fact underneath it: the
+forensic evidence, when bought, is not used, so no purchase policy could pay for these
+readers. The card's construction repair did its job (the buy side exists); the reader's
+use of the evidence is the floor (L291).
+
+> **Curator roll-up.** Theory group: reader heuristics (active reading; the forensic
+> purchase). Question: does the reader buy forensic access when it pays? Outcome class:
+> **Narrows.** Result: buys 0.58 regardless; AUROC 0.50; the exact policy realizes −0.03.
+> Meaning: no policy, and no use of the evidence bought. Next obligation: none new beyond the
+> gate (p). Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/R04/.
+
+## L304 · Asked for the four stroke numbers in order, every reply of two readers parses, but two in three merely repeat the listing (enactable at the blind rate), while the 76 genuine proposals are enactable in 70 percent and match the historical order in 45 percent of those, so the format bought validity with echoes and the pooled enactability of 0.375 against 0.167 is a support candidate made of two populations
+
+**Hypothesis.** (Stage 5R P02, design 2; TODO (o).) With a proposal format that parses,
+can the readers propose an enactable drawing order from an unordered stroke set beyond the
+blind rate, and abstain where several orders fit?
+
+**Method.** L274's design on both readers with the comma format and a lenient parser (the
+first four distinct stroke numbers in the reply); enactability, historical correspondence,
+and the determinacy question as before; 120 drawings per reader.
+
+| population | proposals | enactable | historical among enactable |
+|---|---|---|---|
+| the listing repeated (1, 2, 3, 4) | 164 of 240 (SmolLM2 95, Qwen 69) | 0.23 | |
+| genuine proposals | 76 | **0.70** | 0.45 |
+| pooled (the card's primary) | 240 | 0.375 against blind 0.167: **+0.125 [+0.05, +0.20]**, SUPPORT_CANDIDATE | |
+
+*Table: the blind rate is four enactable orders in twenty-four; abstention on the
+determinacy question 0.07 (SmolLM2) and 0.43 (Qwen), confident projection 0.75 pooled;
+the first contract's JSON format parsed 45 of 120 and was enactable in 0.56 with 0.72
+historical among enactable (L274).*
+
+**What we found.** The format change moved the failure from parsing to echoing: what did
+not parse before now parses as the listing order, and the readers' genuine proposals are
+as good as before (0.70 enactable, 0.45 historical among those) on a third of trials
+rather than a third of replies parsing.
+
+**What it means.** The readers reconstruct an enactable and often historical order from
+stroke descriptions when they attempt it, and they attempt it a third of the time under
+either format; the rest is a format artifact in both directions (malformed before, echoed
+now). The card's support candidate pools the two populations and should be read on the
+genuine one. An echo of the listing counts as no proposal (TODO (o) revised).
+
+> **Curator roll-up.** Theory group: decision traces, terminal organisation (process
+> geometry; equifinality). Question: can the readers reconstruct an enactable order with a
+> format that parses? Outcome class: **Narrows.** Result: genuine proposals 0.70 enactable
+> on a third of trials; the rest echo the listing. Meaning: process readable from
+> segmentation when attempted; the format governs the attempt rate. Next obligation: echoes
+> excluded as invalid, a second turn for them (o). Public claim: unchanged. Decision: **No.**
+> Detail: results/phase_2_4_stage_5r/P02/.
+
+## L305 · On two readers the examination choice again runs against every learning ruler (learning progress −0.34, reducible structure −0.31, novelty −0.22, error −0.17), the item whose rule is already stated first and the learnable one near last
+
+**Hypothesis.** (Stage 5R F01, design 2.) Which exact rulers explain what two readers
+choose to examine next?
+
+**Method.** L275's design on both admitted readers; 96 sets each; rank correlations of the
+readers' likelihood with the rulers, averaged over sets; mean rank by item class.
+
+| item class | mean rank (1 = examined first) |
+|---|---|
+| novel, rule stated | 2.27 |
+| complex, compressible | 3.11 |
+| random, unlearnable | 3.14 |
+| structured with a residual | 4.05 |
+| learnable, intermediate | 4.18 |
+| trivial, known | 4.26 |
+
+*Table: pooled over two readers; rank correlations novelty −0.22, complexity +0.12, error
+−0.17, learning progress −0.34, reducible −0.31; top-item mass 0.40, the instrument live.*
+
+**What we found.** L275 on a second family: the familiar first, the learnable last.
+
+**What it means.** Both small readers forage for what they have been told; the
+learning-progress ordering is not theirs.
+
+> **Curator roll-up.** Theory group: alignment (epistemic foraging). Question: which ruler
+> explains the examination choice, on two readers? Outcome class: **Narrows.** Result:
+> learning progress −0.34. Meaning: familiarity in both families. Next obligation: none new.
+> Public claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/F01/.
+
+## L306 · The realized gain of what two readers choose to examine (0.12 per unit cost) sits between a random selector (−0.09) and the raw-signal policies (novelty 0.22, surprise 0.20), with the exact learning-progress policy at 0.26, and the reader minus the best raw policy is −0.10 with a wide interval
+
+**Hypothesis.** (Stage 5R F02, design 2.) Does the readers' selection realize more
+held-out gain per cost than the best raw-signal policy?
+
+**Method.** L276's design on both readers; the realized gain is each reader's own
+improvement on the item's sixth element after examining it, cost one.
+
+| policy | realized gain per unit cost |
+|---|---|
+| the readers | 0.12 |
+| random | −0.09 |
+| novelty / surprise | 0.22 / 0.20 |
+| exact learning progress | 0.26 |
+| readers minus best raw policy (novelty) | **−0.10 [−0.39, +0.19]**, p 0.48, INCONCLUSIVE |
+
+*Table: 96 sets per reader pooled; the readers picked the stated-rule item 47 times, the
+compressible 45, the random 35, the learnable 32, the residual 17, the trivial 16; the
+first contract's policies realized 0.28 reader, 0.29 random, 0.97 learning progress on
+one reader (L276), the realized-gain scale being each reader's own.*
+
+**What we found.** The readers' picks are worth more than a coin flip here and less than
+any policy that tracks a signal; the learning-progress policy leads, by less than before
+because the second reader gains less from examining anything.
+
+**What it means.** No foraging policy in either reader beyond avoiding the worst; the
+exact ruler ordering (learning progress above novelty and surprise) holds on both.
+
+> **Curator roll-up.** Theory group: alignment (epistemic foraging). Question: does the
+> selection realize gain beyond raw policies, on two readers? Outcome class: **Narrows.**
+> Result: 0.12 against 0.26 for the learning-progress policy. Meaning: no policy in either
+> family. Next obligation: none new. Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5r/F02/.
+
+## L307 · On two readers pursuit of the attractive explanation tracks its warrant with a gap of +0.01 on the worlds built to show a hope bias, and the counter-bias prompt lowers pursuit six to seven hundredths below warrant everywhere, so the card's support candidate (+0.07) is again the prompt removing warranted pursuit
+
+**Hypothesis.** (Stage 5R F03, design 2.) Do the readers pursue a hoped-for explanation
+beyond its support, and does a counter-bias prompt remove the excess?
+
+**Method.** L277's design on both readers; pursuit and warrant per cell; the primary plain
+minus counter-bias pursuit on incongruent worlds.
+
+| cell | pursuit | warrant | pursuit minus warrant |
+|---|---|---|---|
+| congruent, plain / counter-bias | 0.29 / 0.24 | 0.33 / 0.32 | −0.04 / −0.07 |
+| incongruent, plain / counter-bias | 0.31 / 0.24 | 0.30 / 0.30 | **+0.01** / −0.06 |
+| primary: plain minus counter-bias, incongruent | | | **+0.065 [+0.030, +0.101]**, p 0.0006, SUPPORT_CANDIDATE |
+
+*Table: 96 worlds per cell per reader; false discovery 0.21 plain, 0.16 under the prompt.*
+
+**What we found.** L277 on two readers: no hope bias, and a prompt that lowers pursuit
+whatever the warrant.
+
+**What it means.** Nothing to de-bias in either family; the counter-bias prompt is a
+criterion shift, as every warning-shaped intervention in this program has been.
+
+> **Curator roll-up.** Theory group: alignment (motivated pursuit). Question: is there a
+> hope bias to remove, on two readers? Outcome class: **Narrows.** Result: pursuit minus
+> warrant +0.01; the prompt removes 0.07. Meaning: none. Next obligation: none new. Public
+> claim: unchanged. Decision: **No.** Detail: results/phase_2_4_stage_5r/F03/.
+
+## L308 · The second contract's closure block confirmed both eligible candidates on untouched reserves: stated reliance rises with six records over two by +0.083 [+0.073, +0.094], and the drawing-order proposal is enactable above the blind rate by +0.125 [+0.04, +0.21] at the corrected alpha, the second on the pooled population that includes the listing echoes
+
+**Hypothesis.** (Stage 5R C01/C02, design 2.) Do the discoveries that met the frozen
+eligibility rule hold on untouched confirmation lineages at a corrected alpha?
+
+**Method.** The selector's frozen rule over the confirmation order; R02 and P02 were
+eligible (B02 excluded by its decode-at-chance flag; P03 outside the order; R01, F03
+outside the order); C01 re-ran R02 on 256 untouched worlds at alpha 0.05 and C02 re-ran P02
+on 120 untouched drawings at alpha 0.025.
+
+| confirmation | candidate | estimate on the reserve | discovery |
+|---|---|---|---|
+| C01 | R02: reliance, six records minus two, minus the ease contrast | **+0.083 [+0.073, +0.094]**, confirmed | +0.087 |
+| C02 | P02: enactability minus the blind rate, all parseable proposals | **+0.125 [+0.038, +0.213]**, alpha 0.025, confirmed | +0.125 |
+
+*Table: the R02 estimand's ease half is unrealized (L301), so what is confirmed is the
+quantity effect on stated reliance, on two readers; the P02 estimand pools the listing
+echoes with the genuine proposals (L304), so what is confirmed is that the pool sits above
+the blind rate, which the genuine third carries.*
+
+**What we found.** Both replicate at their discovery values.
+
+**What it means.** The second contract closes with two confirmed, model-bounded effects
+that the entries above already bound: stated reliance follows the amount of evidence
+(fluency untested by any valid ruler), and the readers reconstruct an enactable order from
+segmentation when they attempt it (the attempt rate set by the format). Neither confirmation
+touches the bridge, joint, or appraisal tracks.
+
+> **Curator roll-up.** Theory group: reader heuristics (reliance) and decision traces
+> (process geometry). Question: did the eligible discoveries survive their reserves? Outcome
+> class: **Narrows** (two confirmations of bounded effects). Result: +0.083 and +0.125 on
+> untouched lineages. Meaning: quantity-of-evidence reliance and segmentation-to-order are
+> confirmed as far as their estimands go. Next obligation: the ease ruler (m) and the echo
+> rule (o) before either is restated. Public claim: newly licensed, model-bounded, for both
+> as stated. Decision: **No.** Detail: results/phase_2_4_stage_5r/C01/, C02/,
+> CONFIRMATION_REGISTRY.json.
+
+## L309 · On the repaired source text the action question moves from below chance to 0.75 and 0.88 for the Qwen reader and 0.44 and 0.69 for SmolLM2, so the construction defect was real and is gone, and what remains is a register the smaller readers read partly (Qwen fails the calm-against-alarmed half in the notice domain at 0.60; SmolLM2 fails both halves)
+
+**Hypothesis.** (Post-run, TODO (t).) With the intensity closers no longer imperatives, can
+the two readers read the source world's visible register (calm against alarmed; asks for
+action against informs only) at the gate's bands?
+
+**Method.** The source gate (L284's) on the design-2 text, forty-eight fresh source worlds
+per domain, two two-option questions, band 0.75 on both and validity 0.95; a receipt
+outside the closed contracts.
+
+| reader | memo: arousal / action | notice: arousal / action | at the band |
+|---|---|---|---|
+| Qwen2.5-1.5B | 0.75 / **0.88** | 0.60 / **0.75** | failed on arousal in the notice domain |
+| SmolLM2-1.7B | 0.62 / 0.69 | 0.69 / 0.44 | failed on both |
+| (L284, pre-repair) | Qwen 0.72 / 0.25; SmolLM2 0.47 / 0.25 | Qwen 0.53 / 0.34; SmolLM2 0.56 / 0.28 | |
+
+*Table: accuracy on forty-eight worlds per cell; validity 1.0 throughout.*
+
+**What we found.** Removing the imperative from the closers lifted the action question by
+half its range for Qwen and a third for SmolLM2; the arousal question, which the closers did
+not touch, sits where it was.
+
+**What it means.** L284's gate failure was half construction: the action factor is legible
+now to the larger of the two small readers. The calm-against-alarmed register is the
+readers' own floor, and the appraisal track's results in the second contract (L295 to
+L299) were produced on the repaired text by readers that could read the action half of the
+register and not the arousal half; the audience-effect owner's failure there (L295) is that
+arousal half. A reader that passes both halves is what the track's third run needs.
+
+> **Curator roll-up.** Theory group: instruments (the source world). Question: is the
+> register legible on the repaired text? Outcome class: **Infrastructure.** Result: action
+> 0.88 / 0.75 for Qwen (from 0.25 / 0.34); arousal unchanged. Meaning: the construction is
+> repaired; the arousal register is a reader floor. Next obligation: none new (the gate (j)
+> stands for the third run). Public claim: unchanged. Decision: **No.** Detail:
+> results/phase_2_4_stage_5r/post/SOURCE_GATE_REPAIRED.json.
 
 # TIER 2 · SETTLED
 

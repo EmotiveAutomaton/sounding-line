@@ -1,0 +1,29 @@
+{
+ "card": "P02",
+ "lane": "discovery",
+ "written_at": "2026-08-29T12:45:51",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "scores": {
+  "enactability": 0.5555555555555556,
+  "historical_correspondence": 0.4,
+  "chance_historical_among_valid": 0.25,
+  "blind_valid_rate": 0.16666666666666666,
+  "abstention_rate": 0.37777777777777777,
+  "proposal_validity": 0.375,
+  "n": 45
+ },
+ "primary_enactability_minus_blind": {
+  "point": 0.3055555555555556,
+  "lo": 0.15,
+  "hi": 0.4388888888888889,
+  "n_units": 45,
+  "n_boot": 2000
+ }
+}

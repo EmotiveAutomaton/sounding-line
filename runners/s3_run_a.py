@@ -1474,7 +1474,7 @@ def arm_a07b() -> int:
                 decode_pred = min(dist, key=dist.get)
                 body = (f"Someone wrote this short passage about a situation they were in:\n"
                         f"\"{a['body']}\"\n\nWhich impulse was driving the writer?")
-                rng = random.Random(SEED0 + 7000 + i)
+                # every condition of an artifact is asked under the SAME option order (L283, 2026-08-29)
                 conds = {"zero": None}
                 if alpha is not None:
                     g = torch.Generator().manual_seed(SEED0 + 7100 + i)
@@ -1490,7 +1490,7 @@ def arm_a07b() -> int:
                 for cond, dmap in conds.items():
                     with steer_ctx(dmap, alpha or 0.0):
                         r = s4_lib.likelihood_choice(model, tok, body, dict(TENDENCIES),
-                                                     random.Random(rng.randrange(10 ** 9)))
+                                                     random.Random(SEED0 + 7000 + i))
                     row = {"fold": f"{fit_fam}->{test_fam}", "art": a["file"], "maker": a["maker"],
                            "truth": a["tend"], "cond": cond, "decode_pred": decode_pred,
                            "pred": r["pred"] if r["valid"] else None,

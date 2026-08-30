@@ -2994,6 +2994,21 @@ def _release_lock() -> None:
         pass
 
 
+
+# ── 2026-08-29, behind the second Stage-5 contract (his order: everything buildable, queued) ──
+STAGES += [
+    {"name": "s5_b03_fixed_smollm_scenes2", "est": 4,
+     "cmd": [PY, "runners/s5_b03_fixed.py", "--checkpoint", "smollm", "--domain", "scenes2"],
+     "produces": "results/phase_2_4_stage_5/post/B03_FIXED_ORDER_smollm_scenes2.json",
+     "needs": ["results/phase_2_4_stage_5/B02/corpus"],
+     "why": "the bridge's fourth cell under fixed order: the second family on the second domain (L283)"},
+    {"name": "s5_cross_contract", "est": 1,
+     "cmd": [PY, "tools/s5_cross_contract.py"],
+     "produces": "results/phase_2_4_stage_5r/post/CROSS_CONTRACT.json",
+     "needs": ["results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md"],
+     "why": "design 1 against design 2, card by card, once the second contract closes"},
+]
+
 if __name__ == "__main__":
     try:
         main()

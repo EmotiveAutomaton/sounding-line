@@ -1,0 +1,105 @@
+{
+ "card": "R01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T12:36:11",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_chosen_minus_random_nats": {
+  "point": 0.11461320754716982,
+  "lo": 0.09350335429769392,
+  "hi": 0.13684423480083857,
+  "n_units": 159,
+  "n_boot": 2000
+ },
+ "model_minus_others": {
+  "first": {
+   "point": 0.12229811320754716,
+   "lo": 0.08294528301886793,
+   "hi": 0.16340377358490568,
+   "n_units": 159,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 159,
+   "n_b": 159
+  },
+  "easiest": {
+   "point": -0.04900377358490566,
+   "lo": -0.0661062893081761,
+   "hi": -0.03258679245283019,
+   "n_units": 159,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 159,
+   "n_b": 159
+  },
+  "exact": {
+   "point": -0.054576729559748426,
+   "lo": -0.0715062893081761,
+   "hi": -0.03903333333333333,
+   "n_units": 159,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 159,
+   "n_b": 159
+  }
+ },
+ "route_choice_rate": {
+  "action": 0.7169811320754716,
+  "semantic": 0.2830188679245283,
+  "forensic": 0.0
+ },
+ "constructions": {
+  "n_units": 159,
+  "n_distinct_constructions": 159,
+  "n_units_with_hash": 159,
+  "checked": true
+ },
+ "by_domain": {
+  "workshop|model": {
+   "mean": 0.12037318007662834,
+   "n": 87
+  },
+  "workshop|random": {
+   "mean": 0.0,
+   "n": 87
+  },
+  "workshop|first": {
+   "mean": -0.019365900383141767,
+   "n": 87
+  },
+  "workshop|easiest": {
+   "mean": 0.1702662835249042,
+   "n": 87
+  },
+  "workshop|exact": {
+   "mean": 0.17589501915708813,
+   "n": 87
+  },
+  "civic|model": {
+   "mean": 0.10765324074074073,
+   "n": 72
+  },
+  "civic|random": {
+   "mean": 0.0,
+   "n": 72
+  },
+  "civic|first": {
+   "mean": 0.006429629629629629,
+   "n": 72
+  },
+  "civic|easiest": {
+   "mean": 0.1555824074074074,
+   "n": 72
+  },
+  "civic|exact": {
+   "mean": 0.16108796296296296,
+   "n": 72
+  }
+ }
+}

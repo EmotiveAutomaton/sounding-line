@@ -447,6 +447,10 @@ the reason to expect modest effects.
 | **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size and expanded.** Bundle minus facts +0.10 nats over 128 worlds and +0.09 over 256, the interval crossing zero both times; an incorrect bundle helps as much as the correct facts (+0.59 to +0.72 over no context) and irrelevant background helps by a third to a half of a nat, so the readers take the frame and not the content |
 | **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **REFUTED as a flat curve (test, L241): COUNTEREVIDENCE at 128 worlds, INCONCLUSIVE at 256.** Six records after a misleading prior move the direct log score -0.20 nats at 128 worlds and -0.08 with the interval crossing zero at 256, while the exact ruler climbs 0.13 to 0.16; the valid prior's curve is flat (0.00); a misleading prior helps at zero records as much as a valid one (+0.38 against +0.32); neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
 | **C03** | The readers choose evidence by its expected information about the maker (active reading) | **COUNTEREVIDENCE (test, L246), 204 usable worlds of 256.** The redundant probe is chosen 0.78 of the time and the informative one 0.08, half of every pick going to the first listed; 8 percent of the exact selector's expected gain is captured, a quarter below a random pick; the realized gains are flat at this size |
+| **R01-S5** | The reader chooses the evidence route by its exact information about the hidden future choice, beyond a random selector | **SUPPORT BY BAND, A FLUENCY POLICY BY THE RIVALS (test, L270), 159 worlds past the floor.** +0.11 nats over random; −0.05 against always taking the easiest-rendered route, which is the action record in every world and the most informative in three of four; the reader's departures from it are unrelated to which route is best (27 against 28 percent). Second contract with per-world description rendering (L300): the easiest description is the note in every world, the readers take it a quarter of the time, prefer the action record, and capture +0.06 over random and +0.10 over always-easiest, tracking 0.36 against 0.26 |
+| **R02-S5** | Stated reliance follows a record's exact information rather than its ease of reading, the two crossed by construction | **SUPPORT BY BAND ON THE QUANTITY SIDE, CONFIRMED ON THE RESERVE (+0.18 [+0.15, +0.20], L281); THE EASE ARM UNREALIZED (test, L271), 256 worlds.** Reliance +0.16 for six records over two; −0.03 for the stilted rendering, which the reader's own token probabilities rate as the easier text (−2.82 against −3.07 per token), so the fluency contrast never existed. Second contract (L301): +0.07 on two readers; the ease ruler (mean per-token log probability) rates capitals and mid-dotted text as easier than the plain record, so the ease arm cannot be realized under it |
+| **R03-S5** | Worked demonstrations of choosing the diagnostic route transfer as expertise (used where diagnostic) rather than familiarization (used wherever shown) | **FAMILIARIZATION (test, L272), 256 worlds.** Three demonstrations raise the route's use to 100 percent and three misleading ones lower it to 0 in every world, the same where the route is worthless as where it is diagnostic (interaction −0.02 [−0.06, +0.02]); calibration unchanged; on two readers 1.00 and 0.01 to 0.02 with the interaction −0.01 (L302) |
+| **R04-S5** | The reader buys forensic access when its expected information justifies the cost and declines it otherwise | **NO POLICY (test, L273), 256 worlds.** Buys in 48 percent of worlds with AUROC 0.54 to the exact gain; net gain per cost −0.24 against −0.18 for a coin flip and 0 for never buying; the step never pays on this construction, so only the decline side was tested. Second contract, the step paying in a third of worlds (L303): two readers buy in 0.58 of worlds whether it pays or not (AUROC 0.50), and the exact policy realizes the least gain because the bought evidence is not used |
 | **HH-25** | Reliable maker context is especially useful after an initial artifact/self prior has formed, during maker differentiation | **OPEN for differentiation order (test, L195, L209, L211, L213, L214).** Ordering observations stand: the record-reading reader drops 0.67 to 0.40 when the question precedes the record, biography trades at parity with a six-choice record in both directions, and the late-fusion ruler fails on a second domain too (L229). The easy updating gate failed. Recall does not establish functional evidence use, so the recall split cannot isolate weighing from attention or comprehension. The stored readout follows an outsider's wish at 40/48, and an explicitly ignorant outsider's wish at 45/47 (L231). The re-run with every generation persisted and a parser-free likelihood readout (L252) keeps the numbers, 0.79 and 0.92 hint-following, with refusals and contamination small and separated, so the override is the readers' and not the parser's; what no readout of the answer separates is belief adoption from compliance, which stays open |
 
 **What the table says.** The section's first numbers land on the context-reweighting rule's
@@ -476,16 +480,27 @@ trap: six individuating records after a misleading prior leave the prediction wh
 ruler climbs, so these readers do not use the records at all (C02); and the third card
 closes the track from the selection side: offered a probe that would tell them the most
 about the maker, they take the one that restates what they already have, three times in
-four, and capture eight percent of the available information (C03). The adjustment
-mechanism this section proposes has no model-side analogue at this scale, from any of the
-three directions it could have shown; the reweighting rule's useful-cue half is untested by
+four, and capture eight percent of the available information (C03); offered routes by
+description on a fresh construction, the reader takes the easiest-rendered one, which there
+happens to be the informative one, and beats a random selector while losing to the policy of
+always taking the easiest, its departures unrelated to which route is best (R01-S5); asked how much it would rely on a
+record, it says more for six entries than for two and no less for a rendering meant to be
+harder that its own token probabilities call easier (R02-S5), so what is measured is trust in
+quantity, confirmed on an untouched reserve at the same size, and the fluency question is still open; and shown three demonstrations of a route,
+it takes that route in every world and the opposite route under three misleading ones, with
+no regard to whether the route is diagnostic there (R03-S5), the supplied-fact-as-instruction
+result again, now for procedure rather than content; and offered a costed forensic step that is
+never worth its price here, it buys half the time at random to the gain (R04-S5). The
+adjustment mechanism this section proposes has no model-side analogue at this scale, from any
+of the three directions it could have shown; the reweighting rule's useful-cue half is untested by
 them because they do not read the cue. The confidence series remains the cheapest unbuilt instrument in the file, the uptake-lag row is
 a human hypothesis rather than an interpretation of the model-context failure, and the external
 mean-pooling result remains a reason to expect modest series effects rather than to skip the test.
 Confidence: the earlier true/false context effects are one bad test away, one construction family
 and one reader family deep; the frame-not-content and no-correction reads are one bad test away as
 a pair, two readers, one construction family, the second read expanded and flat; the no-active-
-reading read is one bad test away, its realized side underpowered; the Stage-3 wish override is
+reading read is one bad test away, its realized side underpowered, and its fresh-construction
+replicate reads as a fluency default; the Stage-3 wish override is
 one bad test away, measured twice, its psychological reading (belief against compliance) untested;
 differentiation order, the uptake interval, and the rest remain untested, logic only.
 
@@ -760,6 +775,10 @@ generated objects break that relationship (HH-22, HH-17, and HH-18 below).
 | **T01-S4** | Comprehension support raises transmission of a lesson independently of its truth and of the source's alignment, while uptake of the advice is unchanged | **SUPPORTED (test, L244), full size, re-run on 128 distinct constructions after the R7 repair.** A worked action mapping lifts as-taught application of the rule to a new lot from 0.08 to 0.21 in the aligned stratum (+0.13 [0.09, 0.18]) and by +0.20 in the misaligned, for false rules as for true; the recipients follow the advice on their own lot 92 to 99 times in 100 either way; the relay's parse rate drops under the longer message (0.84 to 0.71) while a parsed relay is near-perfect (0.98); expanded to 256 worlds the aligned lift is +0.15 [0.11, 0.18], and CONFIRMED on 256 untouched reserve worlds at +0.15 [0.11, 0.18] with the support gate passed there too. The first attempt, on 54 distinct constructions behind 128 units, read the same band with an interval too narrow |
 | **T02-S4** | Reconstructing the source's selection rule preserves useful uptake while resisting misleading selection | **NOT SUPPORTED as a mechanism (test, L245), 256 worlds; the card's frozen band reads support against its matched comparator.** Reconstruction beats a matched factual summary by +0.62 nats and loses to the direct read by 0.23 to 0.32 on every rule; the readers recover the rule from the source's record at the floor by generation and at 0.4 by likelihood; told the true rule they gain +0.4; payoffs do not move on any route, so nothing resists the cherry-picking source |
 | **T03-S4** | Technique knowledge (selection, framing, omission) produces transferable discrimination without costing true uptake | **NOT SUPPORTED, a criterion shift (test, L248), 256 worlds.** Reliability AUROC 0.47 under the technique lesson against 0.48 under the control on the held-out family, both at chance, the cue unused; acceptance falls from 0.31 to 0.26 for everything and acceptance of true helpful advice by 37 points; register moves nothing |
+| **A02-S5** | Sincere alarm and strategic influence are distinguished by predicted divergent behavior (selection, correction, private action), with abstention on surface-identical twins | **COUNTEREVIDENCE for this reader (test, L266), 256 worlds.** Every behavior a nat under chance; identical confident answers on every collision twin, abstention 0. Two readers on the repaired text (L296): selection −0.64, correction −0.50, private action −0.33; 1,024 twin pairs, unknown mass above a half in 0.009 |
+| **A03-S5** | An audience-modeling reader reads audience-modeling makers better (the inverse-inverse interaction) | **NO TEST (test, L267).** Interaction −0.28 nats with every cell under the chance floor on content support; −0.15 on two readers, cells still under the floor (L297) |
+| **A04-S5** | Source labels, influence awareness, or reappraisal improve discrimination of reliable notices without a criterion shift | **VALID NULL on discrimination, a criterion shift (test, L268), 256 worlds.** AUROC 0.60 / 0.56 / 0.60 / 0.52 with acceptance 0.37 / 0.27 / 0.22 / 0.05 and true advice lost first; on two readers and the repaired text AUROC 0.57 / 0.54 / 0.57 / 0.51 with acceptance 0.43 / 0.31 / 0.31 / 0.24 (L298) |
+| **A05-S5** | Trust is a factored policy: a reliable history raises uptake with the content and goal posteriors unchanged | **VALID NULL (test, L269), 76 worlds.** Uptake +0.001 [−0.03, +0.03]; the goal read is 'warn' for every source under either history; on two readers uptake 0.000 [−0.03, +0.03] (L299) |
 | **G67** | Readers grant the communicative assumption to generated text, and that is why it misleads | **OPEN.** A claim about readers; the model-side provenance prior (§1) is its first adjacent measurement |
 | **HH-19** | Attention capture and comprehensibility are separable shaping motivations | **OPEN, the load-bearing test.** Measurement side in `DECISION_TRACES.md` §2. Transmissibility and useful learning are separate, unmeasured outcomes; neither is established by comprehension alone |
 | **HH-20** | Makers model the reader's inference and shape the artifact for it | **OPEN.** An artifact as process *plus the maker's model of you* |
@@ -795,9 +814,18 @@ and a lesson in misleading techniques raises no discrimination and lowers accept
 everything, true advice most (T03-S4). So the bard's audience model has its first model-side
 shape: transmission can be made easy, learning can be made to happen, and neither the
 source's goal nor the source's technique is read back, so the cooperative interpretation is
-all cost and no defense here. Confidence: the comprehension-support row is one bad test away and confirmed
+all cost and no defense here. On a notice register the same reader family reads none of the
+source's factors, predicts none of its behavior, answers surface-identical twins with the same
+confidence, and follows or refuses at one rate whatever the source's history (A02-S5, A05-S5);
+what does move is its threshold: a label, an influence warning, or a reappraisal prompt each
+lower what it accepts, true advice first, with discrimination flat (A04-S5), the criterion shift
+the technique lesson showed, now under three interventions on a second construction. Confidence: the comprehension-support row is one bad test away and confirmed
 on its reserve, two readers of one family, one construction family, one construction repair
 behind it; the two selective-uptake nulls are one bad test away as a pair, the same readers and family;
+the source-world cards (A02-S5 to A05-S5) are one reader on one construction that the reader
+cannot read at its floor, so their nulls bind that reader and the criterion-shift finding is
+now two constructions deep and, with the second contract, two reader families and two versions
+of the source text deep;
 transmissibility against useful learning is measured once, logic beyond it; the rest untested,
 logic only.
 

@@ -1,0 +1,50 @@
+{
+ "card": "J01",
+ "cell_id": "J01",
+ "lane": "discovery",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "expanded",
+ "track_gate_note": "no admitted reader passed the joint track gate; all readers run, result gate-failed",
+ "minutes": 1.61,
+ "gpu_lock_min": 1.59,
+ "strongest_surviving_rival": "a latent recoverable from the candidate text alone (the chance log score is the floor; no evidence-free arm)",
+ "exec": "COMPLETE",
+ "primary": "each latent recovered given the other two, log score over chance (the weakest latent)",
+ "outcome": "COUNTEREVIDENCE",
+ "reason": "interval entirely below zero",
+ "point": -0.5716929031294854,
+ "ci": [
+  -0.7351693881977814,
+  -0.4037462525185639
+ ],
+ "n_units": 256,
+ "threshold": 0.03,
+ "perm_p": null,
+ "per_latent": {
+  "episode_goal": -0.08166197131268228,
+  "process_plan": 0.5263237240173639,
+  "standing_preference": -0.5716929031294854
+ },
+ "latents_void_for_joint": [
+  "standing_preference"
+ ],
+ "marker": {
+  "contract_version": "5.0.0",
+  "contract_hash": "fad9eba111c10e4b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r\\J01\\metrics.json",
+    "sha256": "4cdc0a5ae2f9263680e36e4e757c0aa88fffad193b08f40fe273e510b79ae839"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r\\J01\\cases.jsonl",
+    "sha256": "f500c32c638d1e4a2ae473e1fa66e0adf860826027ff5c26ba1b3d44fbd35544"
+   }
+  },
+  "written_at": "2026-08-29T15:38:02"
+ }
+}

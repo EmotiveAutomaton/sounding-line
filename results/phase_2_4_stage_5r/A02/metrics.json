@@ -1,0 +1,117 @@
+{
+ "card": "A02",
+ "lane": "discovery",
+ "written_at": "2026-08-29T16:06:24",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_selection_over_chance": {
+  "point": -0.6381073832859201,
+  "lo": -0.7579398787951984,
+  "hi": -0.5164486906526511,
+  "n_units": 256,
+  "n_boot": 2000
+ },
+ "per_behavior": {
+  "selection": {
+   "point": -0.6381073832859201,
+   "lo": -0.7605930164420908,
+   "hi": -0.5186912454501499,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "correction": {
+   "point": -0.4983358006212474,
+   "lo": -0.6876350743593986,
+   "hi": -0.3165358878446975,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "private_action": {
+   "point": -0.3324644662442935,
+   "lo": -0.4645092623957142,
+   "hi": -0.19780837344849392,
+   "n_units": 256,
+   "n_boot": 2000
+  }
+ },
+ "twin_abstention": {
+  "n_pairs": 1024,
+  "abstained": 1024,
+  "confident_opposite": 0,
+  "confident_same": 0
+ },
+ "by_region": {
+  "other|selection": {
+   "mean": -0.602741236551399,
+   "n": 414
+  },
+  "other|correction": {
+   "mean": -0.3475098086746723,
+   "n": 414
+  },
+  "other|private_action": {
+   "mean": -0.30741546162650524,
+   "n": 414
+  },
+  "sincere_fanatic|selection": {
+   "mean": -0.5180613366884423,
+   "n": 36
+  },
+  "sincere_fanatic|correction": {
+   "mean": -1.7197890289340003,
+   "n": 36
+  },
+  "sincere_fanatic|private_action": {
+   "mean": -1.0371257862987149,
+   "n": 36
+  },
+  "honest_warning|selection": {
+   "mean": -1.2487822530233146,
+   "n": 18
+  },
+  "honest_warning|correction": {
+   "mean": 0.35817193605986364,
+   "n": 18
+  },
+  "honest_warning|private_action": {
+   "mean": -0.8739807630138687,
+   "n": 18
+  },
+  "strategic_propagandist|selection": {
+   "mean": -0.4515674179615334,
+   "n": 14
+  },
+  "strategic_propagandist|correction": {
+   "mean": -1.4897235531549085,
+   "n": 14
+  },
+  "strategic_propagandist|private_action": {
+   "mean": 0.5631522319614245,
+   "n": 14
+  },
+  "neutral_report|selection": {
+   "mean": -0.9908625261148937,
+   "n": 30
+  },
+  "neutral_report|correction": {
+   "mean": -1.1652476396683051,
+   "n": 30
+  },
+  "neutral_report|private_action": {
+   "mean": 0.0744081729946108,
+   "n": 30
+  }
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ }
+}

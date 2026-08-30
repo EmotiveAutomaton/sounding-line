@@ -1,0 +1,73 @@
+{
+ "card": "J01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T15:38:02",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "per_latent_gain_over_chance": {
+  "episode_goal": {
+   "point": -0.08166197131268228,
+   "lo": -0.2368170673799579,
+   "hi": 0.07159063900207022,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "process_plan": {
+   "point": 0.5263237240173639,
+   "lo": 0.4172547143447702,
+   "hi": 0.6320844203942416,
+   "n_units": 146,
+   "n_boot": 2000
+  },
+  "standing_preference": {
+   "point": -0.5716929031294854,
+   "lo": -0.7351693881977814,
+   "hi": -0.4037462525185639,
+   "n_units": 256,
+   "n_boot": 2000
+  }
+ },
+ "equifinal_abstention": {
+  "n_equifinal_rows": 220,
+  "abstention_rate": 0.5181818181818182,
+  "mean_unknown_mass": 0.048937980517551355
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ },
+ "by_domain": {
+  "workshop|episode_goal": {
+   "mean": -0.10419287396366793,
+   "n": 256
+  },
+  "workshop|process_plan": {
+   "mean": -0.07153734727777766,
+   "n": 256
+  },
+  "workshop|standing_preference": {
+   "mean": -0.616344034862565,
+   "n": 256
+  },
+  "civic|episode_goal": {
+   "mean": -0.05913106866169664,
+   "n": 256
+  },
+  "civic|process_plan": {
+   "mean": -0.13686039757562404,
+   "n": 256
+  },
+  "civic|standing_preference": {
+   "mean": -0.5270417713964058,
+   "n": 256
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "card": "F03",
+ "lane": "discovery",
+ "written_at": "2026-08-29T16:23:58",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_pursuit_plain_minus_counter_bias_incongruent": {
+  "point": 0.06508591587555194,
+  "lo": 0.030103130559168193,
+  "hi": 0.10127396768004447,
+  "n_units": 96,
+  "n_boot": 2000,
+  "perm_p": 0.000599970001499925,
+  "n_a": 96,
+  "n_b": 96
+ },
+ "pursuit_of_attractive": {
+  "congruent|plain": {
+   "mean": 0.28797915351522857,
+   "n": 192
+  },
+  "congruent|counter_bias": {
+   "mean": 0.24204799384164025,
+   "n": 192
+  },
+  "incongruent|plain": {
+   "mean": 0.30738070458871275,
+   "n": 192
+  },
+  "incongruent|counter_bias": {
+   "mean": 0.2422947887131608,
+   "n": 192
+  }
+ },
+ "warrant_for_attractive": {
+  "congruent|plain": {
+   "mean": 0.32751453626985877,
+   "n": 192
+  },
+  "congruent|counter_bias": {
+   "mean": 0.31562140660735677,
+   "n": 192
+  },
+  "incongruent|plain": {
+   "mean": 0.29964007615821886,
+   "n": 192
+  },
+  "incongruent|counter_bias": {
+   "mean": 0.3044357828524837,
+   "n": 192
+  }
+ },
+ "pursuit_minus_warrant": {
+  "congruent|plain": -0.0395353827546302,
+  "congruent|counter_bias": -0.07357341276571652,
+  "incongruent|plain": 0.00774062843049389,
+  "incongruent|counter_bias": -0.06214099413932289
+ },
+ "false_discovery_rate": {
+  "plain": 0.21354166666666666,
+  "counter_bias": 0.16145833333333334
+ },
+ "constructions": {
+  "n_units": 96,
+  "n_distinct_constructions": 96,
+  "n_units_with_hash": 96,
+  "checked": true
+ }
+}

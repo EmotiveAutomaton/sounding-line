@@ -540,6 +540,9 @@ or has reproduced human empathy. Human-reader correspondence remains a later gat
 |   | | *(the causal gate's first instrument attempt INSTRUMENT-FAILED (test, L162): dev-selected block flipped between seeds at eighteen dev items, and the degenerate input-edge selection lesioned the model 2.55× under amplification; abstract emotion-word-free decoding appeared weakly above every control at the one functioning seed, so the signal grain exists and the battery was underpowered, never the reverse. The rebuilt ruler then answered cleanly for its tested construction (test, L170): in Qwen2.5-1.5B the representation is real and stably located, with unanimous cross-seed consensus on one deep block and held-out decoding at twice chance while the lexical baseline sits at chance. Rank-one fear and joy amplification/ablation at that block did not move the 24-item approach-versus-withdraw behavior at any dose admitted by that capability gate, with no sign pair. The wing closes for this model, basis rank, locus, behavior, and intervention family; scale, rank, locus, behavioral target, and intervention form remain named construction variables)* |
 | **G38** | The mid-level primitives need only seeding, not specification | **OPEN.** *(Dependency corrected 2026-08-09: it rests on coherent structure existing (passed), on the causal gate, and on controllability, not on the rejected subspaces-not-depths claim it used to cite)* |
 | **A02-S4** | The valence handle improves target-specific prediction of another maker's next choice, beyond moving the reader's own answer | **COUNTEREVIDENCE at 256 worlds (test, L243; INCONCLUSIVE at 128), controls loud.** Aligned benefit -0.08 nats [-0.15, -0.01] at full evidence, with a random direction of the same norm moving the score more than the fitted one (+0.13 aligned, +0.22 main effect); the fitted direction at the high dose lowers the target score 0.3 nats in either sign; the own-choice shift is 0.2 of the mass; no correct-action stratum carries the interaction |
+| **B01-S5** | The held-out maker read's causal use (A07-S3, L255) replicates on a second checkpoint | **COUNTEREVIDENCE on the second-family checkpoint (test, L257; fixed-order receipt L283 and the second contract's card L285, congruent −0.005; on the second domain +0.03 [−0.05, +0.11] with every other direction costing), decode at chance.** Congruent −0.02 nats [−0.13, +0.10] on SmolLM2 with the wrong direction at −0.52 and a random one at −0.23, both folds; the directions fit on Qwen-made artifacts do not decode on SmolLM2 (0.24 against 0.25), so representation-not-used and directions-not-transferring are not separated |
+| **B02-S5** | The held-out maker read's causal use (L255) holds on a second artifact domain with the controls quiet | **SUPPORTED (test, L258; fixed-order receipt L283; landed as a card in the second contract, L286: +0.42, random −0.04).** Congruent +0.42 [+0.23, +0.64] on twelve fresh scenes with the random arm −0.04, permuted-label directions −0.03, the wrong direction −0.33, the reversed sign −0.67; the card's loud random arm was order noise |
+| **B03-S5** | The anchor's congruent steering effect is specific to its coordinates, dose, sign, and labels | **SELECTIVE AGAINST RANDOM AND WRONG DIRECTIONS, SIGN- AND DOSE-SPECIFIC, NOT COORDINATE-SPECIFIC, LABEL-SPECIFIC ON ONE DOMAIN OF TWO (test, L260 reversed by L283; landed as a card in the second contract, L288).** With the option order held fixed across arms: congruent +0.48, random 0.00, incongruent +0.05, reversed −0.32, half +0.23 and double +0.62, the direction at shifted or random blocks +0.28 and +0.42, permuted-label directions +0.32 on this domain and −0.03 on the second; the card's loud controls were order noise on the readout's two-nat letter effect |
 | **A03-S4** | Affect conditions intake: steering during the situation's intake moves target prediction more than steering during the answer | **VALID NULL (test, L247), 128 worlds.** Context-phase minus answer-phase aligned benefit -0.05 nats [-0.12, +0.02], a useful benefit excluded; intake-phase steering alone -0.04, answer-phase +0.01, the neutral span inert |
 
 **What the table says.** The build's gate order now has a real answer at small scale: gate one
@@ -573,14 +576,24 @@ steering during the answer (A03-S4). The handle grips the reader's continuation,
 model of the maker, whenever it is applied: the coexistence L170's scoping allowed, and the
 bridge the errata warned would have to be earned is measured and not there in this family.
 Own-impulse steering does not close the intent-inference gate; the held-out maker read (A07-S3,
-L255) is the first causal-use result on the reader's model of another maker, and it is
-oracle-directed, one checkpoint, one domain. Confidence: the scoped causal
+L255) does, for the anchor, once the readout's order nuisance is held fixed: the true tendency's
+direction lifts the read by half a nat on two artifact domains while a random direction of the
+same norm does nothing, the wrong direction is inert or costs, the reversed sign costs, and the
+dose is monotone (B02-S5, B03-S5); the direction works across the middle third of the stack
+rather than at one coordinate, and directions fit on shuffled labels carry part of the effect
+on one domain and none on the other, so the representation used is the tendency subspace with
+partial specificity to the particular tendency. The specificity battery's first reading, that
+the controls were as loud as the true direction, was the card's own order noise on a two-nat
+letter effect (L283). The second-family checkpoint shows no lift under any direction (B01-S5),
+so causal use during inversion is one reader's on two domains, and the valence handle's
+failure (A02-S4) and the tendency handle's success now sit side by side as different
+representations in one reader. Confidence: the scoped causal
 results are one bad test away, three seed splits and one model deep for the decode, the same
 tested construction for the inertness, and the lexical adversary passed for the additive handle;
 the bridge to maker inference is one bad test away against for the valence handle (two cards on
 one construction family and two readers) and one bad test away for the tendency
-representation's causal use (one checkpoint, one domain, the floor unmet); the gates above
-remain logic.
+representation's causal use (one reader on two domains with the order held fixed, the second family null; one bad test
+away, and its nuisance is now known and controlled); the gates above remain logic.
 
 ## §9. Reading versus caring
 

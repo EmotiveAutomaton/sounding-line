@@ -1,0 +1,49 @@
+{
+ "card": "J01",
+ "cell_id": "J01",
+ "lane": "discovery",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct"
+ ],
+ "tier": "expanded",
+ "minutes": 1.0,
+ "gpu_lock_min": 0.99,
+ "strongest_surviving_rival": "a latent recoverable from the candidate text alone (the chance log score is the floor; no evidence-free arm)",
+ "exec": "COMPLETE",
+ "primary": "each latent recovered given the other two, log score over chance (the weakest latent)",
+ "outcome": "COUNTEREVIDENCE",
+ "reason": "interval entirely below zero",
+ "point": -1.3387175243199083,
+ "ci": [
+  -1.6427893812288914,
+  -1.0293314714268882
+ ],
+ "n_units": 256,
+ "threshold": 0.03,
+ "perm_p": null,
+ "per_latent": {
+  "episode_goal": -0.3127393515108384,
+  "process_plan": 0.7178387667813005,
+  "standing_preference": -1.3387175243199083
+ },
+ "latents_void_for_joint": [
+  "episode_goal",
+  "standing_preference"
+ ],
+ "marker": {
+  "contract_version": "5.0.0",
+  "contract_hash": "ab7ac0aab3228d02",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5\\J01\\metrics.json",
+    "sha256": "f6cc56e2c07cc36a2d09089933a640aa3d93bfbb9d1afddb4e9975c10069f9cc"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5\\J01\\cases.jsonl",
+    "sha256": "b5f8c58bcf7727ce38c69065114e92b8ca5adecef7bf0d686301e7ffeb06b8e9"
+   }
+  },
+  "written_at": "2026-08-29T12:10:05"
+ }
+}

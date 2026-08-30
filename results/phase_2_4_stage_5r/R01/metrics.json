@@ -1,0 +1,105 @@
+{
+ "card": "R01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T16:11:10",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_chosen_minus_random_nats": {
+  "point": 0.055942138364779875,
+  "lo": 0.046185115303983226,
+  "hi": 0.06568553459119497,
+  "n_units": 159,
+  "n_boot": 2000
+ },
+ "model_minus_others": {
+  "first": {
+   "point": 0.06353333333333334,
+   "lo": 0.04383836477987421,
+   "hi": 0.08474245283018868,
+   "n_units": 159,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 159,
+   "n_b": 159
+  },
+  "easiest": {
+   "point": 0.09625220125786163,
+   "lo": 0.08076415094339623,
+   "hi": 0.11287169811320755,
+   "n_units": 159,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 159,
+   "n_b": 159
+  },
+  "exact": {
+   "point": -0.11498930817610063,
+   "lo": -0.13204150943396226,
+   "hi": -0.09985691823899372,
+   "n_units": 159,
+   "n_boot": 2000,
+   "perm_p": 4.999750012499375e-05,
+   "n_a": 159,
+   "n_b": 159
+  }
+ },
+ "route_choice_rate": {
+  "action": 0.559748427672956,
+  "semantic": 0.27044025157232704,
+  "forensic": 0.16981132075471697
+ },
+ "constructions": {
+  "n_units": 159,
+  "n_distinct_constructions": 159,
+  "n_units_with_hash": 159,
+  "checked": true
+ },
+ "by_domain": {
+  "workshop|model": {
+   "mean": 0.051943103448275865,
+   "n": 174
+  },
+  "workshop|random": {
+   "mean": 0.0,
+   "n": 174
+  },
+  "workshop|first": {
+   "mean": -0.02022758620689655,
+   "n": 174
+  },
+  "workshop|easiest": {
+   "mean": -0.042851724137931035,
+   "n": 174
+  },
+  "workshop|exact": {
+   "mean": 0.17752183908045976,
+   "n": 174
+  },
+  "civic|model": {
+   "mean": 0.060774305555555554,
+   "n": 144
+  },
+  "civic|random": {
+   "mean": 0.0,
+   "n": 144
+  },
+  "civic|first": {
+   "mean": 0.007677777777777779,
+   "n": 144
+  },
+  "civic|easiest": {
+   "mean": -0.03723888888888889,
+   "n": 144
+  },
+  "civic|exact": {
+   "mean": 0.16296805555555557,
+   "n": 144
+  }
+ }
+}

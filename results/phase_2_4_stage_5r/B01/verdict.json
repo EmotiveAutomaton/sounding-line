@@ -1,0 +1,64 @@
+{
+ "card": "B01",
+ "cell_id": "B01",
+ "lane": "discovery",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "expanded",
+ "track_gate_note": null,
+ "minutes": 0.91,
+ "gpu_lock_min": 0.79,
+ "strongest_surviving_rival": "a generic activation effect (the random arm) or answer bias (own-answer shift, B03)",
+ "exec": "COMPLETE",
+ "primary": "congruent minus zero, second checkpoint, controls quiet",
+ "outcome": "INCONCLUSIVE",
+ "reason": "interval includes zero and cannot exclude a useful benefit",
+ "point": -0.0049480214820575245,
+ "ci": [
+  -0.08785293676404957,
+  0.07810424057859991
+ ],
+ "n_units": 135,
+ "threshold": 0.03,
+ "perm_p": 0.9063046847657618,
+ "note": "the directions' own decode sits under chance; the steering read is marked void for that reason",
+ "decode_void": true,
+ "primary_checkpoint": "smollm (Qwen2.5-3B refused by the I02 gate)",
+ "second_family_verdict": {
+  "outcome": "INCONCLUSIVE",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "point": -0.0049480214820575245,
+  "ci": [
+   -0.08785293676404957,
+   0.07810424057859991
+  ],
+  "n_units": 135,
+  "threshold": 0.03,
+  "perm_p": 0.9063046847657618,
+  "note": "the directions' own decode sits under chance; the steering read is marked void for that reason",
+  "decode_void": true
+ },
+ "qwen3b_verdict": {
+  "outcome": "VOID",
+  "reason": "checkpoint refused by the I02 reader gate"
+ },
+ "l255_pointer": "results/phase_2_4_stage_3/A/A07/verdict_b.json",
+ "marker": {
+  "contract_version": "5.0.0",
+  "contract_hash": "fad9eba111c10e4b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r\\B01\\metrics.json",
+    "sha256": "0b18d8d94fde6f5b518b7364fc952a0fa48b5095cd4b20e13fb504cdb7d030c3"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r\\B01\\cases.jsonl",
+    "sha256": "fd4a7902de25176034fcec7325b0ee8732595661607d6225df96285e64c1f5c0"
+   }
+  },
+  "written_at": "2026-08-29T15:22:04"
+ }
+}

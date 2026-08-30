@@ -1,0 +1,157 @@
+{
+ "card": "B02",
+ "lane": "discovery",
+ "written_at": "2026-08-29T15:34:42",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "corpus": {
+  "attempted": 192,
+  "realized": 192,
+  "yield": 1.0,
+  "scenes": 12
+ },
+ "analysis_anchor": {
+  "cells": {
+   "anchor": {
+    "decode_balanced": 0.18623737373737373,
+    "prompted_balanced_zero": 0.6882665945165946,
+    "n": 171
+   }
+  },
+  "per_fold": {
+   "anchor|qwen->smollm": {
+    "decode_balanced": 0.19642857142857142,
+    "n": 75
+   },
+   "anchor|smollm->qwen": {
+    "decode_balanced": 0.17708333333333331,
+    "n": 96
+   }
+  },
+  "own_answer_shift": null,
+  "contrasts": {
+   "anchor|congruent": {
+    "point": 0.4206810337792955,
+    "lo": 0.23092653653968465,
+    "hi": 0.6144103999620522,
+    "n_units": 171,
+    "n_boot": 2000,
+    "perm_p": 9.99950002499875e-05
+   },
+   "anchor|incongruent": {
+    "point": -0.33067321415408846,
+    "lo": -0.5874842399124527,
+    "hi": -0.08484384064152538,
+    "n_units": 171,
+    "n_boot": 2000,
+    "perm_p": 0.01159942002899855
+   },
+   "anchor|random": {
+    "point": -0.03740857804273554,
+    "lo": -0.19110743702752261,
+    "hi": 0.1067053429672541,
+    "n_units": 171,
+    "n_boot": 2000,
+    "perm_p": 0.6379681015949202
+   }
+  },
+  "controls_quiet": {
+   "incongruent": true,
+   "random": true
+  },
+  "verdict": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.4206810337792955,
+   "ci": [
+    0.23092653653968465,
+    0.6144103999620522
+   ],
+   "n_units": 171,
+   "threshold": 0.03,
+   "perm_p": 9.99950002499875e-05,
+   "note": "the directions' own decode sits under chance; the steering read is marked void for that reason",
+   "decode_void": true,
+   "checkpoint2_verdict": {
+    "outcome": "VOID",
+    "reason": "no congruent arm (no capability-passing dose or no rows)"
+   },
+   "interaction_cells": {
+    "domain2_anchor_congruent": {
+     "point": 0.4206810337792955,
+     "lo": 0.23092653653968465,
+     "hi": 0.6144103999620522,
+     "n_units": 171,
+     "n_boot": 2000,
+     "perm_p": 9.99950002499875e-05
+    },
+    "domain2_qwen3b_congruent": null,
+    "domain1_qwen3b_congruent": [
+     -0.0049480214820575245,
+     [
+      -0.08785293676404957,
+      0.07810424057859991
+     ]
+    ],
+    "domain1_anchor_congruent_L255": "results/phase_2_4_stage_3/A/A07/verdict_b.json"
+   }
+  }
+ },
+ "analysis_qwen3b": {
+  "cells": {
+   "anchor": {
+    "decode_balanced": 0.18623737373737373,
+    "prompted_balanced_zero": 0.6882665945165946,
+    "n": 171
+   }
+  },
+  "per_fold": {
+   "anchor|qwen->smollm": {
+    "decode_balanced": 0.19642857142857142,
+    "n": 75
+   },
+   "anchor|smollm->qwen": {
+    "decode_balanced": 0.17708333333333331,
+    "n": 96
+   }
+  },
+  "own_answer_shift": null,
+  "contrasts": {
+   "anchor|congruent": {
+    "point": 0.4206810337792955,
+    "lo": 0.23092653653968465,
+    "hi": 0.6144103999620522,
+    "n_units": 171,
+    "n_boot": 2000,
+    "perm_p": 9.99950002499875e-05
+   },
+   "anchor|incongruent": {
+    "point": -0.33067321415408846,
+    "lo": -0.5874842399124527,
+    "hi": -0.08484384064152538,
+    "n_units": 171,
+    "n_boot": 2000,
+    "perm_p": 0.01159942002899855
+   },
+   "anchor|random": {
+    "point": -0.03740857804273554,
+    "lo": -0.19110743702752261,
+    "hi": 0.1067053429672541,
+    "n_units": 171,
+    "n_boot": 2000,
+    "perm_p": 0.6379681015949202
+   }
+  },
+  "verdict": {
+   "outcome": "VOID",
+   "reason": "no congruent arm (no capability-passing dose or no rows)"
+  }
+ },
+ "n_artifacts": 171
+}

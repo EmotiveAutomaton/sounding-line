@@ -1,0 +1,96 @@
+{
+ "card": "R02",
+ "lane": "confirmation",
+ "written_at": "2026-08-29T16:29:27",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "render_check": {
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "fluency": {
+    "plain": -3.0711886164271602,
+    "stilted": -2.812925414199311,
+    "stilted2": -2.955832399755754,
+    "stilted3": -2.92763378293964,
+    "stilted4": -2.5453083780762014,
+    "stilted5": -1.8663616585091893
+   },
+   "chosen": null,
+   "realized": false
+  },
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "fluency": {
+    "plain": -2.9236374906854286,
+    "stilted": -2.679024368838894,
+    "stilted2": -2.7788376331866513,
+    "stilted3": -2.805560437940143,
+    "stilted4": -2.050715709472096,
+    "stilted5": -1.8806373816074635
+   },
+   "chosen": null,
+   "realized": false
+  }
+ },
+ "reliance_information_effect_at_equal_ease": {
+  "point": 0.06942983337332483,
+  "lo": 0.06118491764438999,
+  "hi": 0.07806097423573137,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "reliance_ease_effect_at_equal_information": {
+  "point": -0.013895706996812078,
+  "lo": -0.022577450344539465,
+  "hi": -0.004747385851884819,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 0.002199890005499725,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "interaction_information_minus_ease": {
+  "point": 0.08332554037013691,
+  "lo": 0.0731322551229491,
+  "hi": 0.09331708479588455,
+  "n_units": 256,
+  "n_boot": 2000
+ },
+ "prediction_log_score_by_cell": {
+  "plain|high": -1.7944853907194795,
+  "plain|low": -1.7649266970767725,
+  "stilted|high": -1.7506549940306353,
+  "stilted|low": -1.78945269925591
+ },
+ "fluency_by_cell": {
+  "plain|high": {
+   "mean": -3.005428587649169,
+   "n": 512
+  },
+  "stilted|high": {
+   "mean": -2.755428409374161,
+   "n": 512
+  },
+  "plain|low": {
+   "mean": -3.9685754891396057,
+   "n": 512
+  },
+  "stilted|low": {
+   "mean": -4.004303214566277,
+   "n": 512
+  }
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ }
+}

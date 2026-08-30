@@ -378,6 +378,32 @@ survive the fair induction control on the two strong ladders (G76/L94).
   paths for both hooks, and the project's `command`+`args` hook form is unverified on this
   install (the user-level hooks use the single-command form). The portable adapter is written
   and tested; rewiring live hooks was left as his call.**
+- **Stage 5R CLOSED 2026-08-29 16:32 (RUN_TO_EMPTY, 1.35 h; launched 15:11 under second gear via
+  `run_stage5r.sh`, restarted 15:24 for the source-text repair; root `results/phase_2_4_stage_5r`;
+  packet and synthesis at its CURATOR_PACKET_FINAL.md; landings L284 to L308; two confirmations, R02 and
+  P02). The wrapper chained into the general queue (two stages: the second family on the second
+  domain under fixed order; the design-1-against-design-2 table).**
+- **Stage 5 CLOSED 2026-08-29 13:04 (RUN_TO_EMPTY, 1.25 hours; launched 11:49 under second gear via
+  `run_stage5.sh`; brief at docs/design/PHASE_2_4_STAGE_5_CONTEXT.md; packet and synthesis at
+  results/phase_2_4_stage_5/CURATOR_PACKET_FINAL.md; landings L256 to L281; one confirmation, R02).**
+  Post-run receipts reversed the bridge's kill (L283: the loud controls were order noise; with the
+  order fixed, L255's selective signature stands on two domains for the anchor). As it ran: the scheduler serializes GPU
+  cards through the gpu lock, runs two CPU cards beside them, walks rung 1 of the expansion ladder
+  while the accounting clock is under hour 20, runs the two confirmation cards on exhaustion, and
+  writes the one packet; the wrapper then chains into the general queue. The reader gate admitted
+  Qwen2.5-1.5B only (L256), so the stage is single-reader; the bridge on SmolLM2 failed to replicate
+  L255 (L257); on the anchor the effect transferred to a second domain with the random arm not
+  quiet (L258); the next-stroke predictor never beat the priors (L259); the specificity battery killed L255's
+  selectivity clause (L260); the reader reads the goal's axis as the standing preference (L261); the
+  future-choice readout died to option wording and runs repaired as /v2 cells (L263); the appraisal
+  track landed on a reader at chance on the source world (L265 to L269); R01's support is a fluency
+  policy (L270); R02's ease arm was unrealized (L271); demonstrations are followed as instructions (L272); the forensic purchase is cost-blind (L273); drawing orders enactable but equifinality unread
+  (L274); the reader forages for the familiar with no hope bias (L275 to L277); the repaired joint question
+  lands every reader under uniform (L278) and the note's conflict goes undetected (L279); the inferred preference fails across episodes (L280).
+  Discovery and repair cells exhausted; the closure block ran last. Stop:
+  `taskkill //F //T //PID $(sed -n 2p results/.gear2.lock)`, then clear results/.gpu.lock after
+  confirming the card is free; a restart resumes from rows.** The Stage-5 machinery is the Stage-4
+  machinery subclassed (paths, lanes, registry), so every Stage-4 guard still binds it.
 - **Stage 4 CLOSED 2026-08-28 19:33 (RUN_TO_EMPTY; 21.2 h elapsed, 14.95 GPU-h held; 307 of 322
   expected cells; A01 and T01 confirmed on the fresh reserve; packet plus analyst synthesis at
   results/phase_2_4_stage_4/CURATOR_PACKET_FINAL.md). The chained gear then ran the five Stage-3
@@ -491,7 +517,7 @@ died on the way and must stay dead.
 
 ## Open decisions / owed
 
-- **His:** the Stage-4 assessment (the packet and synthesis are written) and the Stage-3 assessment; the one decision the record opened, a second checkpoint and domain for the causal-use read (L255, about an hour of GPU); the commit of the accumulated batch. Standing from earlier phases: interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access; rotate the early-project API key.
-- **Mine, in order:** nothing in flight; the two-pass Stage-3 curator packet (the replicate step is done, L235) if he wants it separate from the Stage-4 synthesis; the design-lint residue on six headers (TODO); the commit when he authorizes it. The pre-Phase-2.4 owed builds (the 9-action BST rebuild, G130c floor decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile function) remain in `TODO.md`'s backlog, superseded in priority by the Stage-3 endgame.
+- **His:** the Stage-5 and Stage-5R assessments (both packets carry a synthesis; the second contract's work order is in its packet), the Stage-4 and Stage-3 assessments; the standing decision: a reader that passes the latents-to-choice and source-register gates before the joint and appraisal tracks run a third time; the commit of the two contracts' build and record when he authorizes it. Standing from earlier phases: interest ratings (HH-14, informs READER_HEURISTICS only); PAN22 Aston access; rotate the early-project API key.
+- **Mine, in order:** the two general-queue stages' write-through when they land; the post-run items still open (m: an ease ruler validated on known-answer renderings; o: the echo rule; u: the twin-abstention clause; v: the integrity runners' cell override; l: ease crossed within a route type; t: the source gate re-measured on the repaired text; b: a same-family second checkpoint that passes the gate); the two-pass Stage-3 curator packet if he wants it separate; the design-lint residue on six headers (TODO); the commit when he authorizes it. The pre-Phase-2.4 owed builds (the 9-action BST rebuild, G130c floor decomposition, G94 Taramsa, G97 maker-as-random-effect, the specification-percentile function) remain in `TODO.md`'s backlog, superseded in priority by the Stage-3 endgame.
 - **The one-maker-many-kinds corpus problem** stands (CROSSNEWS pseudo-documents only;
   Guardian small; CMCC request-only); the program's G133 commissioned pilot leads this thread.

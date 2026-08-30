@@ -268,6 +268,12 @@ method. Each informs a part of this file; none is the claim.
 | **G53** | Attention does real work rather than papering a gap | **OPEN, flagged suspect by its own author** |
 | **S-4/S-5** | Reordering the reader's stages changes the answer | **REJECTED (sim)** by exactly zero; a cost saving only |
 | **A01-S4** | A reader keeps the maker's appraisal and its intended audience response apart from the observed action and the factual state | **SUPPORTED WEAKLY AND CONFIRMED ON THE FRESH RESERVE (test, L242).** +0.14 over the 0.25 floor on the crossed pair at 128 worlds, +0.11 at 256, and +0.12 [+0.07, +0.17] by the card's runner (+0.09 [+0.06, +0.13] by the closure block's own recomputation of the frozen contrast) on 256 untouched confirmation worlds; valuation 0.32 to 0.37 and intended audience action 0.40 to 0.42 balanced, the same on enacted notices; action and fact read at 0.65 to 0.70; the propagandist stratum reads at 0.31 to 0.33 and a withheld fact never draws the uncertain answer |
+| **A01-S5** | The same reader keeps the owners apart on a notice register (audience effect, maker appraisal, content support) | **COUNTEREVIDENCE for this reader (test, L265), 256 source worlds.** −2.16 nats under chance with one answer per question in two thirds to nine tenths of worlds, on factors a linear classifier reads without error; the swap stratum no worse than the rest; the Stage-4 separation (A01-S4) is bound to its commission construction. Second contract on the repaired text, two readers (L295): the maker's appraisal −0.30 (accuracy 0.38 to 0.42), content support −0.29, the audience effect −1.90 unchanged |
+| **J01-S5** | Given the other two latents, the reader recovers each of the episode goal, the standing preference, and the process plan above chance | **NARROWED to the plan (test, L261), one reader, 256 worlds.** Plan +0.72 nats over chance (0.80 accuracy); goal −0.31 (0.50 accuracy, confidently wrong on thrift); preference −1.34, the reader assigning the episode goal's own axis to the standing preference in 171 of 256 worlds with the goal stated as true; no equifinal world arose under the plan's partial order, so the abstention ruler had no test. Second contract (L290, two readers, the goal set aside in the question, equifinal worlds present): plan +0.53, goal −0.08, preference −0.57; the Qwen reader's attribution unchanged (166 of 256), the SmolLM2 reader at chance; abstention on equifinal plans 0.52 |
+| **J02-S5** | A recurrent joint reader predicts the hidden future choice better than staged readers at the same evidence | **NOT SUPPORTED, every variant under the uniform floor (test, L278; the first question died to option wording, L263).** Recurrent −1.86 nats against the best staged −1.92 (+0.07 [−0.15, +0.28]), uniform −1.39, exact ceiling −1.04; the oracle handed the true latents scores −1.87, so the reader does not map latents onto a choice; the second contract repeats it on two readers (L291: SmolLM2 −1.55 recurrent against −1.54 oracle, Qwen −1.83 against −1.87, both under uniform) |
+| **J04-S5** | Opening a hypothesis the fixed set lacks (the note misrepresents the goal) improves prediction on conflict worlds without false alarms | **NOT SUPPORTED (test, L279), 256 worlds per version.** The opened hypothesis taken in 7 percent of conflict worlds and 5 of consistent ones; opened minus fixed −0.08 [−0.23, +0.06] on conflict worlds, −0.14 on consistent; the exact posterior registers the conflict at 1.5 nats; on two readers −0.04 [−0.13, +0.04], the hypothesis taken in a tenth of worlds either way (L294) |
+| **J05-S5** | The standing preference inferred from one episode predicts the maker's choice in a second episode under a stated new goal, beyond habit, topic, and last-goal baselines | **COUNTEREVIDENCE (test, L280), 256 worlds.** −0.73 nats [−0.93, −0.55] against the topic baseline; the reader half a nat under uniform; the preference recovered in a third of worlds; the exact ceiling a quarter of a nat above uniform. Second contract (L293, two readers, the ceiling raised to 0.68 above uniform): −0.26 against the topic prior, both readers under uniform |
+| **J03-S5** | Along the stream the reader's records become useful in a diagnostic order and a contradiction lowers its confidence | **NARROWED, descriptive (test, L264).** The plan record is reached last and most reliably; the preference record is never useful in two thirds of worlds; after an exact contradiction the reader is more confident and less right in 44 to 62 percent of worlds; on two readers with equifinal plans present the never-useful shares rise to 0.56 to 0.74 and overconfidence sits at half (L292) |
 
 **State of the section's claim.** The generative account remains a framework rather than a
 finding, and its composition claim now stands in the restated form, expertise distorting the
@@ -284,11 +290,33 @@ keeping apart now have one direct measurement: a small reader recovers a maker's
 and its intended audience response above the floor and crossed, thinly, not where the maker
 induces a feeling it does not hold, and with no abstention when the fact is withheld
 (A01-S4), and it held on a fresh confirmation split at the same size, the first Stage-4
-claim to survive its own reserve; the products are separable in principle in that reader,
+claim to survive its own reserve, and it does not extend to a notice register, where the same
+reader family gives one answer per question whatever the world (A01-S5); the products are separable in principle in that reader,
 which is the precondition the intervention cards needed and, as they found (A02-S4,
 A03-S4), no more. Confidence: the order-insensitivity is sim-only; the appraisal-versus-aim
 separation is one bad test away, confirmed on a fresh split but two readers of one family
-and one construction family; the composition claims are untested, logic only.
+and one construction family; the composition claims are untested, logic only. The triple's
+first direct test of goal against standing preference finds the reader collapsing them: told
+the goal, it still reads the goal's axis as the chooser's disposition in two thirds of worlds
+while recovering the plan cleanly (J01-S5), so in this reader the situational and the
+dispositional products are not separated and only the process product is; told in the question
+itself to set the goal aside it does the same, and a second reader family answers at chance
+without attributing, so the confound is a reading and not a prompt effect; where several plan
+orders fit, the readers decline to name one in half the worlds. Two readers on one construction,
+one bad test away, and it is the confound the walkthrough named. Along the
+evidence stream the same reader reaches the plan late and reliably, the preference rarely, and
+does not lower its confidence at a contradiction the exact posterior registers (J03-S5); its
+prediction of the hidden future choice, on the repaired question, sits half a nat under a
+uniform guess for every reader variant, the one handed the true latents included (J02-S5), so
+the joint-over-staged question has no purchase on a reader that does not map what it holds
+onto what the maker will do; the exact ceiling a third of a nat above uniform says the
+construction would have paid a reader that did. Nor does it see a maker's note contradict the
+maker's record: offered the hypothesis that the note misrepresents the goal, it takes it in one
+world in fourteen whether the note lies or not (J04-S5), while the exact posterior moves by a
+nat and a half; and carried into a second episode under a new goal, the preference it inferred
+predicts the maker's choice worse than the scenario's own prior (J05-S5). In this reader the
+triple's dispositional product is neither recovered nor used, its situational product is half
+recovered and unused, and only the process product is read.
 
 ## §3. Coupling, without premature topology
 

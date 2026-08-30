@@ -1,0 +1,66 @@
+{
+ "card": "A03",
+ "lane": "discovery",
+ "written_at": "2026-08-29T12:32:11",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "audience_minus_ordinary_by_maker": {
+  "audience_modeling": {
+   "point": -0.06017878021917633,
+   "lo": -0.2838147190748361,
+   "hi": 0.1709990229147315,
+   "n_units": 127,
+   "n_boot": 2000,
+   "perm_p": 0.6123193840307984,
+   "n_a": 127,
+   "n_b": 127
+  },
+  "plain": {
+   "point": 0.2229139576738338,
+   "lo": -0.04736817401137711,
+   "hi": 0.5307203691107438,
+   "n_units": 57,
+   "n_boot": 2000,
+   "perm_p": 0.1343432828358582,
+   "n_a": 57,
+   "n_b": 57
+  }
+ },
+ "interaction": {
+  "point": -0.2830927378930101,
+  "lo": -0.5103103063729123,
+  "hi": -0.05517051189603472,
+  "n_units": 127,
+  "n_boot": 2000
+ },
+ "by_cell": {
+  "plain|ordinary": {
+   "mean": -1.651877465175441,
+   "n": 57
+  },
+  "plain|audience": {
+   "mean": -1.4289635075016072,
+   "n": 57
+  },
+  "audience_modeling|ordinary": {
+   "mean": -1.1946250934734786,
+   "n": 127
+  },
+  "audience_modeling|audience": {
+   "mean": -1.2548038736926548,
+   "n": 127
+  }
+ },
+ "constructions": {
+  "n_units": 184,
+  "n_distinct_constructions": 184,
+  "n_units_with_hash": 184,
+  "checked": true
+ }
+}

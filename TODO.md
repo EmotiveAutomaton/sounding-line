@@ -29,6 +29,108 @@ method sketch and its gate.
 
 ## Phase 0 — running or just landed
 
+**Stage 5 (routed joint reconstruction; brief at docs/design/PHASE_2_4_STAGE_5_CONTEXT.md) CLOSED
+2026-08-29 13:04, RUN_TO_EMPTY after 1.25 hours under second gear (launched 11:49 on his order;
+28 cards resolved, three as repair cells, two withdrawn; one confirmation, R02; packet and analyst
+synthesis at results/phase_2_4_stage_5/CURATOR_PACKET_FINAL.md; landings L256 to L281). The wrapper
+chained into the general queue.**
+
+**Stage 5R (the second contract, design 2) CLOSED 2026-08-29 16:32, RUN_TO_EMPTY after 1.35 hours
+(launched 15:11 on his order; restarted 15:24 for the source-text repair; 29 cards resolved; two
+confirmations, R02 and P02; landings L284 to L308; packet and synthesis at
+results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md). It ran The whole 29-card program on its own
+root (`results/phase_2_4_stage_5r`, `run_stage5r.sh`, `S5_DESIGN=2`) with every post-run repair: the 96-item reader gate (SmolLM2 admitted, L282), the source-world register gate and the
+latents-to-choice gate as track gates (TODO (j), (p)), the fixed-order bridge (s), the repaired
+future-choice question as the default (L263), the goal-restated preference question (h), P02's
+comma format with a lenient parser (o), P01 with category and placement features (d), A02's twin
+pairing keyed on the unit (k), R02's rendering chosen by the reader's own token probabilities (m),
+R01's per-world route rendering (l), a forensic step costing 0.015 nats so it pays in half the
+worlds (n), the second episode's goal weighing twice so its exact ceiling is −0.50 (q), and the
+plan's partial order relaxed in half the worlds so equifinal twins exist (g).
+The closed first contract is untouched; landings write through as L284 onward; one final packet.
+On exhaustion the wrapper chains into the general queue.**
+Twenty-nine cards over eight tracks built on the Stage-4 machinery (`soundingline/stage5.py`,
+`runners/s5_*.py`, `run_stage5.sh`): the integrity cards (anchor receipt, parser fixtures and
+reader gate with the workload lock, liveness/leakage/collision audit, route-information matrix),
+the owed bridge (L255 at a second checkpoint and a second artifact domain, with coordinate, dose,
+sign, permuted-label, and own-answer specificity), joint reconstruction on a commission world
+with an exact posterior over goal, plan, and preference (six same-evidence readers at one call
+allowance; trajectories; the opened missing-goal hypothesis; cross-episode prediction), the
+surface-matched source-regime factorial with collision twins (owners, divergent behaviors,
+inverse-inverse, labeling and reappraisal, trust), route reliability against ease and
+demonstrations, the forensic purchase, drawings at four access levels with equifinal orders,
+and foraging items with exact learning-progress rulers; two frozen confirmations on
+exhaustion. Guards: thirteen Stage-5 tests plus the eighteen Stage-4 ones, world self-tests,
+a scratch-root loop smoke, and the manual inspection of assembled prompts (four construction
+defects found and repaired before the clock: a goal latent the evidence could not identify,
+a dead learning-progress ruler, a counterevidence question that confirmed the claim, and a
+position gate stricter than its Stage-4 band). Predicted in advance from the Stage-4 record:
+the model-choice cards (R01, R04, F02) are likely void or null; their fail-closed rulers are
+the deliverable. When the scheduler exhausts, the wrapper chains into the general queue.
+Landings write through internally as they come; one final packet, then the synthesis.
+Landed so far: the reader gate admitted Qwen2.5-1.5B only (L256; SmolLM2 0.104 on the 0.10 position
+band, the 3B 0.33 on the cheap option), so every Stage-5 card is single-reader; the bridge on SmolLM2
+as the steered checkpoint showed no congruent benefit with both controls negative and its decode at
+chance (L257). Opened: (a) DONE 2026-08-29 (L282: SmolLM2 admitted at 96, the 3B refused on a stable per-option
+failure); (b) a same-family second checkpoint for the bridge
+once one passes the gate; (c) a direction-transfer check (directions fit on SmolLM2-made artifacts,
+tested within family) to separate representation-not-used from directions-not-transferring.
+Then: the anchor's congruent effect held on a second artifact domain in both folds but the random
+direction was not quiet (L258; B03's arms decide whether that is dose); the next-stroke predictor fell
+under the cheap priors at every access level (L259). Opened: (d) after the run, refit P01 with the
+category and bounding-box priors as features so the access ladder is tested above them.
+Then: the specificity battery killed L255's selectivity clause (random, shifted, random-block, and
+permuted-label arms as loud as congruent; sign specific; L260); the rulers found the reader attributing
+the episode goal's axis to the standing preference in two thirds of worlds and no equifinal world in
+the lane (L261); competence by access unresolved (L262). Opened: (e) DONE 2026-08-29 (L283: not the seeds; the cards' per-arm option orders on a two-nat
+letter effect; fixed-order batteries are the standing numbers); (f) the theory rows citing L255 as
+causal use are revised (done in the three-layers file); (g) a joint-world construction with two valid
+plan orders so the equifinality abstention ruler has worlds; (h) DONE (L290: the goal restated inside the question leaves the attribution at 166 of 256; a reading, not
+a prompt effect); (g) DONE (L290: 220 equifinal worlds, abstention 0.52).
+Then: J02 v1 died to option wording (L263): J04/J05 withdrawn, J02/v2, J04/v2, J05/v2 queued on the
+repaired question; the trajectories show no appropriate revision after a contradiction (L264).
+Opened: (i) the repair cells' results are read against the uniform floor and the exact ceiling,
+not only against each other, since the probe shows the reader using stated latents no better
+than none on the repaired question.
+Then, the appraisal track (L265 to L269): the reader answers constants on the source world's legible
+factors, predicts no behavior, never abstains on twins, and every influence warning is a criterion
+shift. Opened: (j) a source-world register gate (calm/alarmed, act/inform) for any reader before the
+track is re-run, and the re-run on a reader that passes it; (k) DONE (design 2, L296: 1,024 pairs); (u) DONE 2026-08-29 (the near-equal clause removed; abstention is unknown mass; guarded by test 18).
+Then: R01's support over random is a fluency policy (always-easiest beats the reader; L270). Opened:
+(l) STILL OPEN after design 2 (L300): rendering the descriptions per world left the note's description
+the most fluent in every world; ease must be varied within a route type (the same route's description
+plain or stilted, with the reader's token probabilities checked to flip the ordering) before the
+information-against-ease question is asked.
+Then: R02's stilted rendering is the more fluent text by the reader's token probabilities, so its ease
+arm was unrealized; stated reliance rises with the number of records (L271). Opened: (m) NOW A RULER ITEM (L301): the mean per-token log probability rewards filler tokens, rating
+capitals and mid-dots as easier than plain; ease needs a measure validated on those known-answer
+renderings (total content-token log probability, token count, or a reading-time proxy) before the
+R02 contrast is re-run.
+Then: demonstrations are followed to the letter in every world, familiarization not expertise (L272);
+the forensic purchase is cost-blind (L273). Opened: (n) DONE (design 2, L303: the step pays in a third of worlds; the readers buy at one rate
+everywhere and realize nothing from what they buy).
+Then: enactable drawing orders from shuffled strokes at 37 percent validity, determinacy claimed on
+equifinal artifacts (L274); foraging for the familiar, a coin flip's gain, no hope bias (L275 to L277).
+Opened: (o) REVISED (L304): the comma format parses everything and two thirds of replies echo the
+listing order; an echo counts as no proposal, and a second turn asks again; the genuine third is the
+measured population.
+Then: J02/v2 lands every reader under uniform with the oracle no better than the recurrent reader
+(L278). Opened: (p) a latent-to-choice gate (true latents stated, the choice predicted above uniform)
+for any reader before the joint track is asked again.
+Then: the opened missing-goal hypothesis is never taken; the conflict goes undetected (L279); the
+inferred preference predicts the next episode worse than the topic prior (L280). Opened: (q) DONE (design 2, L293: the ceiling raised to 0.68 above uniform; the readers still lose to the
+topic prior).
+Post-run: (s) the bridge runners (`s5_run_b.run_bridge`, and Stage 3's a07b arm) take a fixed option
+order per artifact across arms (one line each), before any bridge card runs again; the landed
+verdicts stay as landed, the fixed-order receipts are the standing numbers (L283).
+(t) DONE (L284, L309): the intensity closers were imperatives; repaired under design 2 before the
+appraisal cards ran; on the repaired text the action question reaches 0.88 / 0.75 for Qwen (from 0.25 /
+0.34) and the arousal half is the readers' floor.
+(v) DONE 2026-08-29 (the integrity runners' card directory honors S5_CELL; guarded by test 18).
+(r) HIS CALL: a second-reader re-run of the joint, appraisal, route, and foraging tracks on
+SmolLM2 (admitted at 96 items, L282) under a new contract, with the source-world register gate (j)
+and the latent-to-choice gate (p) run first; about one and a half GPU-hours at today's rates.
+
 **Stage 4 (context, appraisal, selective uptake) is CLOSED: RUN_TO_EMPTY at 19:33 on 2026-08-28,
 21.2 hours elapsed, 14.95 GPU hours held, 307 of 322 expected cells complete, both eligible
 candidates (A01, T01) confirmed on the fresh reserve, the packet and the analyst's synthesis at

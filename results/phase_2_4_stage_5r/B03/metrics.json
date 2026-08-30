@@ -1,0 +1,139 @@
+{
+ "card": "B03",
+ "lane": "discovery",
+ "written_at": "2026-08-29T15:36:24",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "analysis": {
+  "cells": {
+   "anchor": {
+    "decode_balanced": 0.22149260298080625,
+    "prompted_balanced_zero": 0.7173523542398316,
+    "n": 135
+   }
+  },
+  "per_fold": {
+   "anchor|qwen->smollm": {
+    "decode_balanced": 0.19202898550724637,
+    "n": 87
+   },
+   "anchor|smollm->qwen": {
+    "decode_balanced": 0.25,
+    "n": 48
+   }
+  },
+  "own_answer_shift": 0.15703796490487335,
+  "contrasts": {
+   "anchor|congruent": {
+    "point": 0.4793710311528993,
+    "lo": 0.25462976905977913,
+    "hi": 0.7075619771247125,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 9.99950002499875e-05
+   },
+   "anchor|double": {
+    "point": 0.6145799172607339,
+    "lo": 0.21318976229736525,
+    "hi": 1.0391926275492789,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.003949802509874506
+   },
+   "anchor|half": {
+    "point": 0.22683069510991796,
+    "lo": 0.09160790975398159,
+    "hi": 0.36116758479909655,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.0009499525023748813
+   },
+   "anchor|incongruent": {
+    "point": 0.05072774141571539,
+    "lo": -0.13701979009552928,
+    "hi": 0.23101135177793458,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.6013199340032999
+   },
+   "anchor|permuted": {
+    "point": 0.3205939452895844,
+    "lo": 0.10847170093807022,
+    "hi": 0.549366175436521,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.004649767511624419
+   },
+   "anchor|random": {
+    "point": -0.0004150870529593402,
+    "lo": -0.22954805848331483,
+    "hi": 0.23776077546395488,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.9972001399930004
+   },
+   "anchor|random_blocks": {
+    "point": 0.42297802437297044,
+    "lo": 0.03403249121845915,
+    "hi": 0.8087364709848194,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.03419829008549573
+   },
+   "anchor|reversed": {
+    "point": -0.32184844307039256,
+    "lo": -0.5688974656181043,
+    "hi": -0.09589791505531521,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.008649567521623918
+   },
+   "anchor|shifted": {
+    "point": 0.28379223555110766,
+    "lo": 0.1442837934106696,
+    "hi": 0.43208372993407446,
+    "n_units": 135,
+    "n_boot": 2000,
+    "perm_p": 0.000199990000499975
+   }
+  },
+  "controls_quiet": {
+   "incongruent": true,
+   "random": true,
+   "shifted": false,
+   "random_blocks": false,
+   "permuted": false,
+   "reversed": true
+  },
+  "verdict": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "directional support at or above the frozen threshold; a control arm is not quiet (shifted, random_blocks, permuted)",
+   "point": 0.4793710311528993,
+   "ci": [
+    0.25462976905977913,
+    0.7075619771247125
+   ],
+   "n_units": 135,
+   "threshold": 0.03,
+   "perm_p": 9.99950002499875e-05,
+   "note": "the directions' own decode sits under chance; the steering read is marked void for that reason",
+   "decode_void": true,
+   "own_answer_control": {
+    "shift": 0.15703796490487335,
+    "target_gain": 0.4793710311528993,
+    "answer_bias_suspected": false
+   },
+   "dose_response": {
+    "half": 0.22683069510991796,
+    "congruent": 0.4793710311528993,
+    "double": 0.6145799172607339
+   }
+  }
+ }
+}

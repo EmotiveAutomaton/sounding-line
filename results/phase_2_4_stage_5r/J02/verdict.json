@@ -1,0 +1,43 @@
+{
+ "card": "J02",
+ "cell_id": "J02",
+ "lane": "discovery",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "expanded",
+ "track_gate_note": "no admitted reader passed the joint track gate; all readers run, result gate-failed",
+ "minutes": 10.63,
+ "gpu_lock_min": 10.58,
+ "strongest_surviving_rival": "the best staged or factored reader at the same evidence and allowance; the oracle-latent reader is the ceiling and never counts",
+ "exec": "COMPLETE",
+ "primary": "recurrent joint reader minus the best same-evidence comparator, held-out choice log score",
+ "outcome": "INCONCLUSIVE",
+ "reason": "interval includes zero and cannot exclude a useful benefit",
+ "point": 0.06445548048551078,
+ "ci": [
+  -0.049580913505083854,
+  0.17739558891706833
+ ],
+ "n_units": 256,
+ "threshold": 0.03,
+ "perm_p": 0.2696365181740913,
+ "best_comparator": "process_first",
+ "marker": {
+  "contract_version": "5.0.0",
+  "contract_hash": "fad9eba111c10e4b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r\\J02\\metrics.json",
+    "sha256": "b9490d3e3dc0c9df88277b21bd947be429466c566ff4340afe5efb0f0564cd2c"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_5r\\J02\\cases.jsonl",
+    "sha256": "5bc85e055a293f6a049b65f38c03f2182ffb58d2a16cda34096a83707ea5f0fb"
+   }
+  },
+  "written_at": "2026-08-29T15:48:42"
+ }
+}

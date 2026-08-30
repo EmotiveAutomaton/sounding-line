@@ -1,0 +1,128 @@
+{
+ "card": "A01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T12:30:34",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "primary_owned_log_score_over_chance": {
+  "point": -2.1605301603167035,
+  "lo": -2.347598463354767,
+  "hi": -1.968131298102307,
+  "n_units": 256,
+  "n_boot": 2000
+ },
+ "per_owner": {
+  "audience_effect_goal": {
+   "point": -4.347413222759246,
+   "lo": -4.814943358498084,
+   "hi": -3.8796611928055063,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "maker_appraisal": {
+   "point": -1.7473644899898675,
+   "lo": -2.07929834466396,
+   "hi": -1.4105624265656054,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "content_support": {
+   "point": -0.38681276820099675,
+   "lo": -0.559763576569418,
+   "hi": -0.20445425963615166,
+   "n_units": 256,
+   "n_boot": 2000
+  }
+ },
+ "owner_swap_stratum": {
+  "True": {
+   "point": -2.2566269707056645,
+   "lo": -2.4899753764246233,
+   "hi": -2.0081551097999157,
+   "n_units": 130,
+   "n_boot": 2000
+  },
+  "False": {
+   "point": -2.0613826575344416,
+   "lo": -2.3379993839337576,
+   "hi": -1.7702060124372432,
+   "n_units": 126,
+   "n_boot": 2000
+  }
+ },
+ "own_response_agreement_with_appraisal": 0.47265625,
+ "by_region": {
+  "other|audience_effect_goal": {
+   "mean": -4.392687445937149,
+   "n": 207
+  },
+  "other|maker_appraisal": {
+   "mean": -1.707766991681791,
+   "n": 207
+  },
+  "other|content_support": {
+   "mean": -0.39249576665699315,
+   "n": 207
+  },
+  "sincere_fanatic|audience_effect_goal": {
+   "mean": -4.725865904618548,
+   "n": 18
+  },
+  "sincere_fanatic|maker_appraisal": {
+   "mean": -0.6319025079093971,
+   "n": 18
+  },
+  "sincere_fanatic|content_support": {
+   "mean": 0.3685280820576922,
+   "n": 18
+  },
+  "honest_warning|audience_effect_goal": {
+   "mean": -4.096898585047402,
+   "n": 9
+  },
+  "honest_warning|maker_appraisal": {
+   "mean": -2.6039939154941543,
+   "n": 9
+  },
+  "honest_warning|content_support": {
+   "mean": -0.8050507553543906,
+   "n": 9
+  },
+  "strategic_propagandist|audience_effect_goal": {
+   "mean": 1.6064964949963711,
+   "n": 7
+  },
+  "strategic_propagandist|maker_appraisal": {
+   "mean": -3.42140021215976,
+   "n": 7
+  },
+  "strategic_propagandist|content_support": {
+   "mean": 0.23425021452577693,
+   "n": 7
+  },
+  "neutral_report|audience_effect_goal": {
+   "mean": -6.197285708919412,
+   "n": 15
+  },
+  "neutral_report|maker_appraisal": {
+   "mean": -2.3371700194893634,
+   "n": 15
+  },
+  "neutral_report|content_support": {
+   "mean": -1.2536830094657974,
+   "n": 15
+  }
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ }
+}

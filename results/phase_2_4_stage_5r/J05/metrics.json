@@ -1,0 +1,71 @@
+{
+ "card": "J05",
+ "lane": "discovery",
+ "written_at": "2026-08-29T15:59:27",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "level_log_score": {
+  "inferred_preference": -1.816883979709162,
+  "habit": -2.0593463243621315,
+  "topic": -1.5570732663830396,
+  "last_goal": -2.188566920197836
+ },
+ "primary_inferred_minus_best_baseline": {
+  "point": -0.25981071332612254,
+  "lo": -0.3648931925001075,
+  "hi": -0.15647055970115464,
+  "n_units": 256,
+  "n_boot": 2000,
+  "perm_p": 4.999750012499375e-05,
+  "n_a": 256,
+  "n_b": 256
+ },
+ "exact_ceiling_mean": -0.7026378633873072,
+ "preference_recovery_accuracy": 0.306640625,
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ },
+ "by_domain": {
+  "workshop|habit": {
+   "mean": -2.089751170441121,
+   "n": 256
+  },
+  "workshop|topic": {
+   "mean": -1.5824498871668338,
+   "n": 256
+  },
+  "workshop|last_goal": {
+   "mean": -2.1809657086780887,
+   "n": 256
+  },
+  "workshop|inferred_preference": {
+   "mean": -1.8784597043761893,
+   "n": 256
+  },
+  "civic|habit": {
+   "mean": -2.0289414782831425,
+   "n": 256
+  },
+  "civic|topic": {
+   "mean": -1.5316966455992453,
+   "n": 256
+  },
+  "civic|last_goal": {
+   "mean": -2.1961681317175836,
+   "n": 256
+  },
+  "civic|inferred_preference": {
+   "mean": -1.755308255042135,
+   "n": 256
+  }
+ }
+}

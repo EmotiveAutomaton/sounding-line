@@ -1,0 +1,73 @@
+{
+ "card": "J01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T12:10:05",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "per_latent_gain_over_chance": {
+  "episode_goal": {
+   "point": -0.3127393515108384,
+   "lo": -0.6045415783813648,
+   "hi": -0.039168935402158836,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "process_plan": {
+   "point": 0.7178387667813005,
+   "lo": 0.5545489256222929,
+   "hi": 0.8760109819846904,
+   "n_units": 256,
+   "n_boot": 2000
+  },
+  "standing_preference": {
+   "point": -1.3387175243199083,
+   "lo": -1.6427893812288914,
+   "hi": -1.0293314714268882,
+   "n_units": 256,
+   "n_boot": 2000
+  }
+ },
+ "equifinal_abstention": {
+  "n_equifinal_rows": 0,
+  "abstention_rate": null,
+  "mean_unknown_mass": null
+ },
+ "constructions": {
+  "n_units": 256,
+  "n_distinct_constructions": 256,
+  "n_units_with_hash": 256,
+  "checked": true
+ },
+ "by_domain": {
+  "workshop|episode_goal": {
+   "mean": -0.3057005616233966,
+   "n": 128
+  },
+  "workshop|process_plan": {
+   "mean": 0.946062738676739,
+   "n": 128
+  },
+  "workshop|standing_preference": {
+   "mean": -1.4235470511495845,
+   "n": 128
+  },
+  "civic|episode_goal": {
+   "mean": -0.3197781413982803,
+   "n": 128
+  },
+  "civic|process_plan": {
+   "mean": 0.48961479488586196,
+   "n": 128
+  },
+  "civic|standing_preference": {
+   "mean": -1.253887997490232,
+   "n": 128
+  }
+ }
+}

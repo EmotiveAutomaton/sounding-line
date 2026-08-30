@@ -569,6 +569,10 @@ many aligned motivations *should* read as more intentional:
 | **G3** | Half A of a web corpus contains more recoverable method than half B | **VOID (test), twice over** |
 | **P02** | Process geometry the final artifact does not carry (segmentation, then a prefix) buys recovery of the recorded first action that pixels alone do not | **SUPPORTED (test, L238), one corpus.** With the strokes as an unordered set a learned ordering prior finds the first stroke at 0.69 against 0.49 for the longest-stroke rule (permutation floor 0.22); with the true first stroke given, the next stroke's placement is predicted at 0.50 against 0.35 |
 
+| **P01-S5** | Richer process access (final geometry, unordered set, partial order, true prefix) improves next-stroke prediction beyond cheap priors, monotonically | **VALID NULL with the priors in the predictor (test, L287; L259 before), one corpus.** A logistic model per level sits below the better of the category and bounding-box priors at every level (−0.35, −0.11, −0.02, −0.13 nats on 555 drawings), not monotone; the predictor cannot match its own marginals, so the ladder is untested above them for the next stroke |
+| **P02-S5** | A reader proposes an enactable drawing order from an unordered stroke set beyond the blind rate, and abstains where several orders fit | **ENACTABILITY SUPPORTED, ABSTENTION FAILED (test, L274), 45 parseable of 120.** Enactable 0.56 against 0.17 blind, the historical order in 0.72 of enactable proposals; 'the order can be determined' answered yes in 0.62 of artifacts where four orders fit. Second contract, comma format, two readers (L304): every reply parses, two thirds echo the listing, the genuine third is enactable at 0.70 with the historical order in 0.45 of those |
+| **P03-S5** | Process access rewards competence more: the true prefix buys more from a fourfold training set than the unordered set does | **SUPPORTED thinly with the priors in the predictor (test, L289; INCONCLUSIVE at L262).** Competence gains +0.16, +0.19, +0.30 nats at set, partial order, prefix; the interaction +0.14 [+0.01, +0.27] on 555 drawings |
+
 **What the table says.** The layered end of the topology is the best-evidenced thing in this file,
 with three independent measures peaking where motivations stack, while the flattened end now
 carries its first genuine negative. Reader convergence has failed to move with intent density in
@@ -591,10 +595,19 @@ unordered set let a learned ordering prior find that first stroke in seven of te
 five for the best geometric rule, and the true first stroke given places the next at half
 against a third (P02), so what the artifact drops is recoverable from segmentation and a
 prefix, each an access level the reader must be granted; that bounds inversion of the
-artifact, and it says nothing about recovering the maker.
+artifact, and it says nothing about recovering the maker. The ladder is a first-stroke
+result so far: for the next stroke a per-level predictor never beats the category and
+placement priors at any access, including the true prefix (P01-S5), so what access buys
+beyond a sharp marginal is unmeasured for later actions; competence helps that predictor
+most with the true prefix, and with the priors inside the predictor the difference between
+access levels clears zero, thinly (P03-S5): access is worth more to a competent predictor
+than on its own. A small reader given the strokes as an unordered set proposes an enactable order,
+usually the actual one, on the third of trials it answers in form, and says the order is
+determinable in three of five artifacts where four orders fit (P02-S5), so the process is
+readable from segmentation by a reader too, and equifinality is not.
 Confidence: the stacked-motivations reversal is replicated and controlled; the convergence null is
-one bad test away; the process-geometry boundary is one bad test away, one corpus; the rest
-is untested or instrument-dead.
+one bad test away; the process-geometry boundary is one bad test away, one corpus, and holds for the first
+stroke only; the rest is untested or instrument-dead.
 
 # Part II: The measurement ledger
 

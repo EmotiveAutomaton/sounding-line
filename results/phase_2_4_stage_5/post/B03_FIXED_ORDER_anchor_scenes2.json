@@ -1,0 +1,148 @@
+{
+ "written_at": "2026-08-29T13:28:30",
+ "reader": "Qwen/Qwen2.5-1.5B-Instruct",
+ "checkpoint": "anchor",
+ "domain": "scenes2",
+ "n_artifacts": 171,
+ "order": "fixed per artifact across arms",
+ "contrasts": {
+  "congruent": {
+   "point": 0.4206810337792955,
+   "lo": 0.23177576642621137,
+   "hi": 0.6404846541054204,
+   "n_units": 171,
+   "n_boot": 2000
+  },
+  "incongruent": {
+   "point": -0.33067321415408846,
+   "lo": -0.5855798152572264,
+   "hi": -0.07852140900702295,
+   "n_units": 171,
+   "n_boot": 2000
+  },
+  "random": {
+   "point": -0.03740857804273554,
+   "lo": -0.19609933518008393,
+   "hi": 0.11046349942722888,
+   "n_units": 171,
+   "n_boot": 2000
+  },
+  "shifted": {
+   "point": 0.3092943230904209,
+   "lo": 0.19475433046483365,
+   "hi": 0.43330052178348805,
+   "n_units": 171,
+   "n_boot": 2000
+  },
+  "random_blocks": {
+   "point": -0.14874463636169774,
+   "lo": -0.4462983812648919,
+   "hi": 0.1880062794025167,
+   "n_units": 171,
+   "n_boot": 2000
+  },
+  "half": {
+   "point": 0.217857027364494,
+   "lo": 0.11673347789477434,
+   "hi": 0.3406389599916319,
+   "n_units": 171,
+   "n_boot": 2000
+  },
+  "double": {
+   "point": 0.3560180533796517,
+   "lo": 0.05534079186801792,
+   "hi": 0.6935749029673784,
+   "n_units": 171,
+   "n_boot": 2000
+  },
+  "reversed": {
+   "point": -0.6650362255168959,
+   "lo": -0.9563216641543915,
+   "hi": -0.3881938019840253,
+   "n_units": 171,
+   "n_boot": 2000
+  },
+  "permuted": {
+   "point": -0.033385830133602835,
+   "lo": -0.22801260466536766,
+   "hi": 0.15079000709636484,
+   "n_units": 171,
+   "n_boot": 2000
+  }
+ },
+ "by_fold": {
+  "congruent|smollm->qwen": {
+   "mean": 0.19968107940446042,
+   "n": 96
+  },
+  "congruent|qwen->smollm": {
+   "mean": 0.7035609753790845,
+   "n": 75
+  },
+  "incongruent|smollm->qwen": {
+   "mean": -0.6049033180656244,
+   "n": 96
+  },
+  "incongruent|qwen->smollm": {
+   "mean": 0.020341318852677526,
+   "n": 75
+  },
+  "random|smollm->qwen": {
+   "mean": -0.06876261235814662,
+   "n": 96
+  },
+  "random|qwen->smollm": {
+   "mean": 0.0027245858809906457,
+   "n": 75
+  },
+  "shifted|smollm->qwen": {
+   "mean": 0.21912851696561178,
+   "n": 96
+  },
+  "shifted|qwen->smollm": {
+   "mean": 0.42470655493017645,
+   "n": 75
+  },
+  "random_blocks|smollm->qwen": {
+   "mean": 0.09645344949644259,
+   "n": 96
+  },
+  "random_blocks|qwen->smollm": {
+   "mean": -0.46259818626011734,
+   "n": 75
+  },
+  "half|smollm->qwen": {
+   "mean": 0.12809979315996844,
+   "n": 96
+  },
+  "half|qwen->smollm": {
+   "mean": 0.33274628714628673,
+   "n": 75
+  },
+  "double|smollm->qwen": {
+   "mean": 0.1623720126169075,
+   "n": 96
+  },
+  "double|qwen->smollm": {
+   "mean": 0.6038849855559643,
+   "n": 75
+  },
+  "reversed|smollm->qwen": {
+   "mean": -0.9213665405681221,
+   "n": 96
+  },
+  "reversed|qwen->smollm": {
+   "mean": -0.3369334222513265,
+   "n": 75
+  },
+  "permuted|smollm->qwen": {
+   "mean": -0.23794241414912456,
+   "n": 96
+  },
+  "permuted|qwen->smollm": {
+   "mean": 0.22844659740626497,
+   "n": 75
+  }
+ },
+ "gpu_lock_s": 0.0
+}

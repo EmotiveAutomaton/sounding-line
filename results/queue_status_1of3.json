@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-28 19:34",
+  "started": "2026-08-29 16:32",
   "stages": [
     {
       "name": "feature_visibility",
@@ -1091,20 +1091,32 @@
       "name": "s3x_c06b",
       "why": "R2 E24-S3-C06/R2: the wish override with every generation persisted, parse failures and contamination as separate cells, and a parser-free likelihood readout as the primary; covers C06 and XV3 (stranger)",
       "est_minutes": 45,
-      "status": "DONE",
-      "log": "results\\s3x_c06b.log",
-      "minutes": 10.6
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "s3x_a07b",
       "why": "R5 E24-S3-A07/R5: held-out maker prediction (two maker folds) with congruent, incongruent, random, and zero steering at the A07 locus",
       "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s5_b03_fixed_smollm_scenes2",
+      "why": "the bridge's fourth cell under fixed order: the second family on the second domain (L283)",
+      "est_minutes": 4,
       "status": "DONE",
-      "log": "results\\s3x_a07b.log",
-      "minutes": 1.2
+      "log": "results\\s5_b03_fixed_smollm_scenes2.log",
+      "minutes": 1.0
+    },
+    {
+      "name": "s5_cross_contract",
+      "why": "design 1 against design 2, card by card, once the second contract closes",
+      "est_minutes": 1,
+      "status": "DONE",
+      "log": "results\\s5_cross_contract.log",
+      "minutes": 0.0
     }
   ],
   "shard": "1/3",
-  "finished": "2026-08-28 19:45",
+  "finished": "2026-08-29 16:33",
   "failed": []
 }

@@ -1,0 +1,53 @@
+{
+ "card": "P01",
+ "lane": "discovery",
+ "written_at": "2026-08-29T11:56:47",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "counts": {
+  "house": 435,
+  "tree": 342,
+  "bicycle": 968,
+  "cat": 894
+ },
+ "per_access_level_gain_over_best_prior": {
+  "final_geometry": {
+   "point": -0.3531899671291712,
+   "lo": -0.455549086952713,
+   "hi": -0.2475276376924489,
+   "n_units": 555,
+   "n_boot": 2000
+  },
+  "unordered_set": {
+   "point": -0.1077182992098458,
+   "lo": -0.18236179278889963,
+   "hi": -0.029929966152391983,
+   "n_units": 555,
+   "n_boot": 2000
+  },
+  "partial_order": {
+   "point": -0.015912470079085007,
+   "lo": -0.10409370926300016,
+   "hi": 0.06739602445491231,
+   "n_units": 555,
+   "n_boot": 2000
+  },
+  "true_prefix": {
+   "point": -0.12502850888490571,
+   "lo": -0.20386556817144622,
+   "hi": -0.044902643966255235,
+   "n_units": 555,
+   "n_boot": 2000
+  }
+ },
+ "monotone_in_access": false,
+ "attribution": "Quick, Draw! dataset, Google Creative Lab, CC BY 4.0",
+ "cpu_minutes": 0.19,
+ "n_test": 555
+}
