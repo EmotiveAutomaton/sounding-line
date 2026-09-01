@@ -13954,6 +13954,53 @@ landed with it.
 > claim: unchanged. Decision: **Yes, his** — the packet awaits his read. Detail:
 > results/phase_2_4_stage_6/CURATOR_PACKET_FINAL.md.
 
+## L329 · The two auxiliary programs land the same hour they were built, each through one instrument event: the confidence series closes VALID_NULL (pooled slope +0.012 [−0.001, +0.026] against the analytic half floor, after a pooled-series repair whose defect was caught because a mean cannot exceed both its parts), and the consolidation chassis fails its own sanity gate twice (0.23, then 0.25 noise-free) and closes INSTRUMENT_FAILED with its question open
+
+**Hypothesis.** Two: does the reader's stated confidence track the exact information the
+evidence stream carries (the J03-S5 fact in series form); and is an independently specified
+attention history recoverable at the exact layer through a lossy consolidation map (the
+2026-08-31 errata's K-line, s6-t1)?
+
+**Method.** As built and queued this afternoon: per-step likelihood-read confidence beside
+the exact posterior's information on the S5R joint worlds (five cuts, 96 worlds per domain,
+both readers, wording guards per LESSONS §3); and eight candidate attention schedules per
+world under a top-m consolidation map with interference, the exact posterior against an
+analytic one-in-eight floor, gated by a 0.95 lossless-recovery sanity arm.
+
+| event | landing | number |
+|---|---|---|
+| confidence series, first landing | POOLED-SERIES ARTIFACT: the pooled analysis grouped both readers' rows into one series per world, reading cross-reader confidence differences as steps; caught within minutes because the pooled point sat above both per-reader points, which a mean cannot do | +0.053 superseded (CONF_SERIES.failed1.json); per-reader values were valid |
+| confidence series, repaired | the honest pooled slope, per-reader values reproduced identically on the rerun | pooled +0.012 [−0.001, +0.026], 192 series per reader, VALID_NULL; Qwen +0.034 [+0.001, +0.069] (under the 0.05 band), SmolLM2 −0.009 [−0.044, +0.022]; ECE 0.316 (Qwen 0.414 with a 0.55 sure-marginal) |
+| consolidation, attempt one | the interference-zero, top-m-complete sanity arm is ORDER-INSENSITIVE: expertise reduces to attended counts and schedules collapse into equivalence classes | sanity 0.231 against the 0.95 bar; INSTRUMENT_FAILED, the predeclared repair taken |
+| consolidation, attempt two (the repair) | noise-free compressed arm on distinctness-gated worlds: candidate schedules remain behaviorally inseparable at sixty choices; a 0.05-TV pairwise gate is far below identifiability at that n | sanity 0.246; INSTRUMENT_FAILED, the repair budget spent, closed |
+
+*Table: one row per event; the confidence numbers are slope-agreement minus the analytic
+0.5 floor with cluster intervals at the world.*
+
+**What we found.** Stated confidence is not an information meter in these readers: the
+series form lands where the one-cut fact pointed (J03-S5), with the larger reader mostly
+sure (0.55 of its confidence mass) and worst calibrated (0.414), and the smaller flat. The
+consolidation question never got an instrument: at these constants the candidate schedules
+are not behaviorally separable even under a deterministic map, which is a
+construction-identifiability failure of my chassis, not evidence about the map.
+
+**What it means.** The reader-heuristics file gains its newest instrument as a valid null,
+and the K-line recoverability question (s6-t1) stays OPEN with the fix-direction named: a
+distinctness gate DERIVED from the observation count rather than a nominal epsilon, and
+higher-contrast consolidation constants. Both first attempts failed inside the hour they
+ran and cost minutes; the lesson (gates sized for identifiability) lands in LESSONS §3 in
+the same pass.
+
+> **Curator roll-up.** Theory group: reader heuristics, with the errata's K-line question
+> beside it. Question: does confidence track information; is the attention history
+> recoverable through the lossy map? Outcome class: **Narrows** (one valid null; one
+> instrument dead honestly). Result: +0.012 [−0.001, +0.026]. Meaning: stated confidence
+> carries no information signal at this scale, and the consolidation question awaits a
+> separable construction. Next obligation: none queued; the packet awaits his read. Public
+> claim: unchanged. Decision: **No**. Detail:
+> results/phase_2_4_stage_5r/post/CONF_SERIES.json, results/phase_2_4_aux/.
+
+
 
 
 

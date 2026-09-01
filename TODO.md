@@ -103,15 +103,17 @@ wins'; SHORT_RUN and RUNTIME written; the reporter refused the early packet; the
 the general queue; both receipts landed within the hour (L327). THE PACKET WAS TAKEN EARLY on
 his ruling (2026-09-01 15:17, L328): validation clean, the synthesis written, the waiter
 cancelled; staged, committed, and pushed on his order the same day. His read is the open item.
-Ordered next (same transcript): BUILT AND QUEUED 2026-09-01, gear two relaunched
-(`runners/s6_consolidation.py` writing results/phase_2_4_aux/S6T1_CONSOLIDATION.json;
-`runners/s5_conf_series.py` writing the stage-5r post CONF_SERIES.json); their landings write
-through as they come; the freeze fires at hour 144 and not before; the packet only after hour 168. Opened by the
+Ordered next (same transcript): BUILT, QUEUED, AND LANDED 2026-09-01 within the hour (L329):
+the confidence series VALID_NULL (+0.012 pooled, after the pooled-series repair); the
+consolidation chassis INSTRUMENT_FAILED twice (sanity 0.23 then 0.25; its predeclared repair
+spent) and closes with the s6-t1 question open: a future attempt needs an
+identifiability-derived distinctness gate and higher-contrast constants (LESSONS §3); the freeze fires at hour 144 and not before; the packet only after hour 168. Opened by the
 2026-08-31 update errata: (s6-t1) consolidation-map worlds — attention specified INDEPENDENTLY
 of the resulting expertise (the K-update line's non-circularity requirement), a lossy
 consolidation transform with interference, and recoverability asked of the exact layer before
 any reader; BUILT AND QUEUED 2026-09-01 on his order, the design-only note superseded
-(runners/s6_consolidation.py, exact layer first).
+(runners/s6_consolidation.py, exact layer first); INSTRUMENT_FAILED twice the same day (L329),
+the question open with the fix-direction in LESSONS §3.
 
 Landed so far: the reader gate admitted Qwen2.5-1.5B only (L256; SmolLM2 0.104 on the 0.10 position
 band, the 3B 0.33 on the cheap option), so every Stage-5 card is single-reader; the bridge on SmolLM2

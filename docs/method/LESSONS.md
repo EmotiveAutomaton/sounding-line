@@ -537,6 +537,12 @@ L132 (a shuffle gate that voided the alternative's own signature).
   harder by the validated ruler and not visually deviant, is taken more by the same quarter of
   probability; matching case and punctuation does not remove the bias — match the options'
   ruler-measured hardness, or measure the bias with a content-free cell.
+- **A distinctness gate on candidate hypotheses is sized by identifiability at the observation
+  count, never by a nominal epsilon.** Eight candidate attention schedules passed a 0.05-TV
+  pairwise policy gate and were still inseparable from sixty choices (sanity recovery 0.25
+  against a 0.95 bar, twice); the gate a known-answer arm needs is derived from n, since at
+  sixty draws a 0.05 TV is noise, and the sanity arm runs on gated worlds under the same
+  constants as the main loop. (L329, runners/s6_consolidation.py, 2026-09-01)
 
 ## §4. Before the model arm
 

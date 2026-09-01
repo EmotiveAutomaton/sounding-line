@@ -1,0 +1,20 @@
+{
+ "written_at": "2026-09-01T15:53:39",
+ "todo": "s6-t1",
+ "sanity_lossless_recovery": 0.2461858299765473,
+ "sanity_pass": false,
+ "floor": 0.125,
+ "constants": {
+  "slots": 8,
+  "episodes": 10,
+  "attend": 3,
+  "top_m": 2,
+  "eta": 0.9,
+  "interfere": 0.15,
+  "n_sched": 8
+ },
+ "verdict": {
+  "outcome": "INSTRUMENT_FAILED",
+  "reason": "the lossless arm recovers only 0.25; the exact layer cannot see its own known answer"
+ }
+}

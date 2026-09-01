@@ -1,5 +1,5 @@
 {
-  "started": "2026-09-01 14:43",
+  "started": "2026-09-01 15:53",
   "stages": [
     {
       "name": "revision_purpose",
@@ -1607,22 +1607,32 @@
       "name": "s5_r02_length",
       "why": "TODO (m2): the R02 quantity effect with an information-at-equal-length arm (two records repeated to six); information against length (L314)",
       "est_minutes": 14,
-      "status": "DONE",
-      "log": "results\\s5_r02_length.log",
-      "minutes": 3.2
+      "status": "SKIPPED (already done)"
     },
     {
       "name": "s6_final_packet",
       "why": "the Stage-6 packet waiter: sleeps to the contract deadline (2026-09-06 15:39), validates, writes the one packet; the scheduler closes SHORT days earlier by rule",
       "est_minutes": 5,
-      "status": "TIMEOUT",
-      "log": "results\\s6_final_packet.log",
-      "minutes": 30.0
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s6t1_consolidation",
+      "why": "TODO (s6-t1): consolidation-map worlds with independently specified attention; recoverability of the attention history through the lossy K-update asked of the exact layer (the 2026-08-31 errata's non-circularity requirement)",
+      "est_minutes": 25,
+      "status": "DONE",
+      "log": "results\\s6t1_consolidation.log",
+      "minutes": 0.0
+    },
+    {
+      "name": "s5_conf_series",
+      "why": "the confidence series, READER_HEURISTICS' cheapest unbuilt instrument: per-step confidence beside the exact posterior's information on the S5R joint worlds; the J03-S5 series form",
+      "est_minutes": 30,
+      "status": "DONE",
+      "log": "results\\s5_conf_series.log",
+      "minutes": 5.0
     }
   ],
   "shard": "0/2",
-  "finished": "2026-09-01 15:17",
-  "failed": [
-    "s6_final_packet"
-  ]
+  "finished": "2026-09-01 15:58",
+  "failed": []
 }

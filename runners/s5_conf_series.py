@@ -20,7 +20,9 @@ lessons read: LESSONS §3 (short candidates: the confidence readout is three sin
   §5 (produces guard; the GPU lock inside the runner).
 expectations: slope agreement minus 0.5 inside ±0.05 under the null (confidence does not
   track information), at or above +0.05 under the alternative, cluster bootstrap at the
-  world, both readers pooled and each apart; calibration is descriptive (ECE over the
+  world, both readers pooled and each apart (a series is ONE reader's five cuts on one
+  world; the first landing pooled across readers inside a series and read cross-reader
+  differences as steps — that defect's repair, same hour); calibration is descriptive (ECE over the
   series with its bins written). Direction guarded: reading an artifact of option wording
   as confidence — the per-option marginals and the fixed order are the guards. 96 worlds
   per domain per reader, five cuts each.
@@ -88,11 +90,11 @@ def main() -> int:
 
     def analyze(rs):
         rs = [r for r in rs if r["valid"] and r["confidence"] is not None]
-        by_world = {}
+        by_series = {}
         for r in rs:
-            by_world.setdefault(r["unit_id"], []).append(r)
+            by_series.setdefault((r["unit_id"], r["reader"]), []).append(r)
         agree, flat = [], 0
-        for uid, steps in by_world.items():
+        for (uid, _rd), steps in by_series.items():
             steps = sorted(steps, key=lambda r: r["step"])
             moves = [(b["exact_info"] - a["exact_info"], b["confidence"] - a["confidence"])
                      for a, b in zip(steps, steps[1:])]

@@ -636,7 +636,14 @@ same-pass, receipts in scheduler.log and the reset trails):**
   and the interference effect as a second primary) and the confidence series (per-step
   likelihood-read confidence beside exact information on the S5R joint worlds, slope agreement
   against the analytic half floor, wording guards per LESSONS §3) — gear two relaunched to run
-  them. **The packet was taken early on his ruling** (2026-09-01
+  them. Both landed within the hour (L329), each through one instrument event: the confidence
+  series' first pooled verdict (+0.053) was a cross-reader series artifact (both readers' rows
+  grouped into one series per world; caught because the pooled point exceeded both per-reader
+  points), repaired and re-landed VALID_NULL at +0.012 [−0.001, +0.026] with the per-reader
+  values reproduced identically; the consolidation chassis failed its 0.95 sanity gate twice
+  (0.231: the lossless arm order-insensitive; 0.246 after the predeclared repair: schedules
+  inseparable at sixty choices under a 0.05-TV gate) and closes INSTRUMENT_FAILED, the s6-t1
+  question open with its fix-direction recorded in LESSONS §3. **The packet was taken early on his ruling** (2026-09-01
   15:17, hour 47.6; the final-only clause waived by the curator after everything had landed):
   validation clean (128 of 128 mandatory, 9428 rows), the analyst synthesis written above the
   machine draft, the waiter cancelled by its cancel file; the tree staged, committed, and

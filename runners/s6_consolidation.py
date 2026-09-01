@@ -16,9 +16,12 @@ lessons read: LESSONS §3 (check that a known-answer design's known answer can e
   pairwise TV between their implied final policies above 0.05, one redraw allowed and
   counted; check the criterion CAN fail: the lossless sanity gate below has a reachable
   failure; blind floors follow the truth marginal: one true schedule in eight, floor exactly
-  0.125, analytic; validate the ruler on data whose answer you know: the interference-zero,
-  top-m-complete arm must recover at 0.95 or better or the instrument is INSTRUMENT_FAILED
-  before any claim), §5 (produces guard; CPU only, no GPU lock).
+  0.125, analytic; validate the ruler on data whose answer you know: the NOISE-FREE arm
+  (compression kept, interference off) on distinctness-gated worlds must recover at 0.95 or
+  better or the instrument is INSTRUMENT_FAILED before any claim — the first attempt's
+  interference-zero top-m-complete arm was order-insensitive, collapsed schedules into
+  equivalence classes, and failed at 0.23; this is that instrument's one predeclared repair,
+  2026-09-01), §5 (produces guard; CPU only, no GPU lock).
 expectations: primary one, posterior mass on the true schedule minus the 0.125 floor at the
   full behavior stream, cluster bootstrap over 128 worlds per domain; under the null
   (behavior does not carry the attention history through the lossy map) inside ±0.05; under
@@ -150,9 +153,15 @@ def posterior_true_mass(w, top_m=TOP_M, interfere=INTERFERE):
 
 def main() -> int:
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    sane = [posterior_true_mass(make_world(f"S6T1SANE|w{k:03d}", "essay", top_m=ATTEND, interfere=0.0),
-                                top_m=ATTEND, interfere=0.0) for k in range(16)]
-    sanity = sum(sane) / len(sane)
+    sane = []
+    k = 0
+    while len(sane) < 16 and k < 64:
+        w0 = make_world(f"S6T1SANE|w{k:03d}", "essay", interfere=0.0)
+        k += 1
+        if distinctness(w0, interfere=0.0) < 0.05:
+            continue
+        sane.append(posterior_true_mass(w0, interfere=0.0))
+    sanity = sum(sane) / max(1, len(sane))
     out = {"written_at": now_iso(), "todo": "s6-t1", "sanity_lossless_recovery": sanity,
            "sanity_pass": sanity >= 0.95, "floor": FLOOR,
            "constants": {"slots": SLOTS, "episodes": EPISODES, "attend": ATTEND, "top_m": TOP_M,
@@ -163,13 +172,16 @@ def main() -> int:
         OUT.write_text(json.dumps(out, indent=1), encoding="utf-8", newline="\n")
         print("INSTRUMENT_FAILED", round(sanity, 3))
         return 0
-    rows, redraws = [], 0
+    rows, redraws, dropped = [], 0, 0
     for dom in DOMAINS:
         for k in range(N_WORLDS):
             w = make_world(f"S6T1|{dom}|w{k:04d}", dom)
             if distinctness(w) < 0.05:
                 redraws += 1
                 w = make_world(f"S6T1|{dom}|w{k:04d}|r1", dom)
+                if distinctness(w) < 0.05:
+                    dropped += 1
+                    continue
             p_correct = posterior_true_mass(w)
             p_lossless_assumed = posterior_true_mass(w, top_m=ATTEND, interfere=0.0)
             rows.append({"unit_id": w["lid"], "dom": dom,
@@ -178,7 +190,7 @@ def main() -> int:
     prim = s5_lib.cluster_bootstrap_ci(s5_lib.per_unit_means(rows, "unit_id", "primary_score"), SEED + 1)
     intf = s5_lib.cluster_bootstrap_ci(s5_lib.per_unit_means(
         [dict(r, primary_score=r["interference_effect"]) for r in rows], "unit_id", "primary_score"), SEED + 2)
-    out.update({"n_worlds": len(rows), "redraws": redraws,
+    out.update({"n_worlds": len(rows), "redraws": redraws, "dropped_indistinct": dropped,
                 "recovery_minus_floor": prim, "recovery_band": R.classify(prim, 2 * BAND),
                 "interference_effect": intf, "interference_band": R.classify(intf, BAND)})
     out["verdict"] = dict(out["recovery_band"],
