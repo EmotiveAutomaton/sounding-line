@@ -1,0 +1,105 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "focal_habit|MB|workshop_doc|s0|w00009|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "pursues one concern while old routines keep steering some choices"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "focal_habit",
+  "controller": "focal_habit"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {
+   "revise": 1.0,
+   "write": 0.4
+  }
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.1": 0.03330006936626861,
+   "revise:sec2:s2.1": 0.12898887324437616,
+   "revise:sec2:s2.2": 0.12898887324437616,
+   "revise:sec3:s3.2": 0.11622866259554639,
+   "check:sec1:s1.1": 0.26743935046306894,
+   "consult:sec1:src": 0.1523823485510507,
+   "fix:sec1:urgent": 0.17267182253531302
+  },
+  "next_edit_type": {
+   "write": 0.03330006936626861,
+   "revise": 0.3742064090842987,
+   "check": 0.26743935046306894,
+   "consult": 0.1523823485510507,
+   "fix": 0.17267182253531302
+  },
+  "next_section": {
+   "sec3": 0.149528731961815,
+   "sec2": 0.2579777464887523,
+   "sec1": 0.5924935215494327
+  },
+  "changed_context": {
+   "finish_quietly": 0.19806649848421296,
+   "expand_scope": 0.41930678058149323,
+   "recheck_sources": 0.13612898089586795,
+   "polish_wording": 0.2464977400384259
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.46456343129291316
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

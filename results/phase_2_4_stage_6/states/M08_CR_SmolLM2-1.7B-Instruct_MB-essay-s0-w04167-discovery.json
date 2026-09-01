@@ -1,0 +1,108 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w04167|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker was driven by a methodical approach, focusing on one section at a time, and revisiting and reworking previous drafts as needed, to ensure a thorough and organized process."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10",
+   "step11"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.2": 0.0387134716935295,
+   "write:sec3:s3.1": 0.0358041083512399,
+   "revise:sec3:s3.3": 0.3849304409998865,
+   "revise:sec4:s4.1": 0.35600246152953535,
+   "check:sec2:s2.1": 0.06382772424376937,
+   "cite:sec4:ref": 0.04251843069073107,
+   "fix:sec1:urgent": 0.0782033624913084
+  },
+  "next_edit_type": {
+   "write": 0.0745175800447694,
+   "revise": 0.7409329025294218,
+   "check": 0.06382772424376937,
+   "cite": 0.04251843069073107,
+   "fix": 0.0782033624913084
+  },
+  "next_section": {
+   "sec2": 0.10254119593729887,
+   "sec3": 0.4207345493511264,
+   "sec4": 0.39852089222026643,
+   "sec1": 0.0782033624913084
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.47731340541125983
+ },
+ "uncertainty": {
+  "posterior_weight": 0.41007802730278625,
+  "abstain": false
+ }
+}

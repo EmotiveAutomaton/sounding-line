@@ -1,0 +1,97 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w08264|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "works on one concern at a time and switches wholly between concerns"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.13049164130879287,
+   "write:sec1:s1.2": 0.13049164130879287,
+   "write:sec2:s2.2": 0.11045878961887433,
+   "write:sec3:s3.2": 0.09350134676591418,
+   "revise:sec3:s3.1": 0.2808935691473932,
+   "cite:sec3:ref": 0.25416301185023255
+  },
+  "next_edit_type": {
+   "write": 0.46494341900237424,
+   "revise": 0.2808935691473932,
+   "cite": 0.25416301185023255
+  },
+  "next_section": {
+   "sec1": 0.26098328261758574,
+   "sec2": 0.11045878961887433,
+   "sec3": 0.62855792776354
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4941056383885765
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

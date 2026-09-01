@@ -1,0 +1,100 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w00045|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on organization and efficiency, with each section and subsection serving as a clear and concise structure for the workshop document."
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.24742207458690454,
+   "write:sec2:s2.1": 0.2229458720161761,
+   "write:sec2:s2.3": 0.2229458720161761,
+   "write:sec3:s3.1": 0.20089097519710114,
+   "revise:sec2:s2.2": 0.02662708725770409,
+   "check:sec1:s1.1": 0.01792319496798581,
+   "consult:sec1:src": 0.027759987414743253,
+   "fix:sec1:urgent": 0.03348493654320904
+  },
+  "next_edit_type": {
+   "write": 0.8942047938163578,
+   "revise": 0.026627087257704084,
+   "check": 0.017923194967985806,
+   "consult": 0.027759987414743247,
+   "fix": 0.03348493654320903
+  },
+  "next_section": {
+   "sec1": 0.3265901935128427,
+   "sec2": 0.4725188312900563,
+   "sec3": 0.20089097519710114
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.40974552636603545
+ },
+ "uncertainty": {
+  "posterior_weight": 0.30916592866380077,
+  "abstain": false
+ }
+}

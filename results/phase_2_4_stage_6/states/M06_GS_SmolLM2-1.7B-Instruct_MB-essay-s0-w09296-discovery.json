@@ -1,0 +1,98 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|essay|s0|w09296|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 7,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.1874245935163793,
+   "write:sec2:s2.2": 0.15865149320666694,
+   "write:sec3:s3.2": 0.13429558962605098,
+   "revise:sec1:s1.1": 0.30901091398277986,
+   "cite:sec3:ref": 0.21061740966812287
+  },
+  "next_edit_type": {
+   "write": 0.4803716763490972,
+   "revise": 0.30901091398277986,
+   "cite": 0.21061740966812287
+  },
+  "next_section": {
+   "sec1": 0.49643550749915916,
+   "sec2": 0.15865149320666694,
+   "sec3": 0.34491299929417385
+  },
+  "changed_context": {
+   "finish_quietly": 0.18052990059364782,
+   "expand_scope": 0.5993803780209169,
+   "recheck_sources": 0.09907691010869184,
+   "polish_wording": 0.1210128112767434
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.575846649016332
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

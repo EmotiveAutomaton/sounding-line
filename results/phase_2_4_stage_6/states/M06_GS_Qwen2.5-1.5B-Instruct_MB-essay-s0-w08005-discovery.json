@@ -1,0 +1,104 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "focal_habit|MB|essay|s0|w08005|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "pursues one concern while old routines keep steering some choices"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "focal_habit",
+  "controller": "focal_habit"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 6,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {
+   "revise": 1.0,
+   "write": 0.4
+  }
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec2:s2.2": 0.43514221039294365,
+   "revise:sec3:s3.1": 0.3920958132336177,
+   "check:sec1:s1.1": 0.04491804309841605,
+   "check:sec2:s2.1": 0.04047453043369874,
+   "check:sec3:s3.1": 0.03647059178956467,
+   "fix:sec1:urgent": 0.05089881105175916
+  },
+  "next_edit_type": {
+   "revise": 0.8272380236265614,
+   "check": 0.12186316532167947,
+   "fix": 0.05089881105175917
+  },
+  "next_section": {
+   "sec2": 0.4756167408266424,
+   "sec3": 0.4285664050231824,
+   "sec1": 0.09581685415017521
+  },
+  "changed_context": {
+   "finish_quietly": 0.17839599199683684,
+   "expand_scope": 0.09548849351828924,
+   "recheck_sources": 0.12260965267870604,
+   "polish_wording": 0.6035058618061679
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5794147545480521
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

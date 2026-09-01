@@ -1,0 +1,99 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02666|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a methodical approach, focusing on one section at a time and addressing each concern or draft as it was completed."
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.014869652781976564,
+   "write:sec3:s3.1": 0.012586889335412048,
+   "write:sec3:s3.3": 0.012586889335412048,
+   "revise:sec3:s3.2": 0.020752272179242442,
+   "check:sec1:s1.1": 0.03537442412323868,
+   "consult:sec1:src": 0.06445640324794072,
+   "cite:sec3:ref": 0.8393734689967774
+  },
+  "next_edit_type": {
+   "write": 0.04004343145280066,
+   "revise": 0.020752272179242442,
+   "check": 0.03537442412323868,
+   "consult": 0.06445640324794072,
+   "cite": 0.8393734689967774
+  },
+  "next_section": {
+   "sec2": 0.014869652781976566,
+   "sec3": 0.8852995198468441,
+   "sec1": 0.09983082737117942
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5277043523080689
+ },
+ "uncertainty": {
+  "posterior_weight": 0.48292209883747367,
+  "abstain": false
+ }
+}

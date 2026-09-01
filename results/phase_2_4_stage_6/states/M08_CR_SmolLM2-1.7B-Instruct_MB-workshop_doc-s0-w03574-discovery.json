@@ -1,0 +1,99 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03574|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach to handling concerns was driven by a focus on organization, prioritization, and iterative refinement, as evident in their structured approach to drafting, reworking, and correctin"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.00836097799965409,
+   "write:sec1:s1.2": 0.00836097799965409,
+   "write:sec2:s2.2": 0.007077415078919669,
+   "write:sec2:s2.3": 0.007077415078919669,
+   "write:sec3:s3.2": 0.0059909025237707665,
+   "check:sec2:s2.1": 0.5216040312427885,
+   "check:sec3:s3.1": 0.44152828007629324
+  },
+  "next_edit_type": {
+   "write": 0.03686768868091829,
+   "check": 0.9631323113190817
+  },
+  "next_section": {
+   "sec1": 0.01672195599930818,
+   "sec2": 0.5357588614006279,
+   "sec3": 0.447519182600064
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.42276107625535586
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3511771152056588,
+  "abstain": false
+ }
+}

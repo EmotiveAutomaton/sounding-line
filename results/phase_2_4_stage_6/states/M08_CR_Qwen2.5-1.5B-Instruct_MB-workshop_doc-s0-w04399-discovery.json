@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w04399|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by addressing immediate concerns and ensuring that each section was complete before moving on to more detailed work. This approach prioritized urgency and completeness,"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.028375448085307016,
+   "write:sec2:s2.2": 0.025568409883357002,
+   "write:sec3:s3.1": 0.023039057638771204,
+   "write:sec3:s3.2": 0.023039057638771204,
+   "revise:sec1:s1.1": 0.3050648165259606,
+   "revise:sec1:s1.3": 0.3050648165259606,
+   "revise:sec3:s3.3": 0.2476932124692023,
+   "check:sec2:s2.1": 0.04215518123267008
+  },
+  "next_edit_type": {
+   "write": 0.10002197324620643,
+   "revise": 0.8578228455211235,
+   "check": 0.04215518123267008
+  },
+  "next_section": {
+   "sec1": 0.6385050811372283,
+   "sec2": 0.06772359111602709,
+   "sec3": 0.29377132774674475
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.3677848450421237
+ },
+ "uncertainty": {
+  "posterior_weight": 0.8018549881748028,
+  "abstain": false
+ }
+}

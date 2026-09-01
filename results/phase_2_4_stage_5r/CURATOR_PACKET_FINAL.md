@@ -177,3 +177,18 @@ families.*
 
 Claims in the ledger: 2.
 
+## Addendum: post-run receipts, 2026-08-30 (L310 to L314)
+
+Five receipts built from the packet's open items and run to empty in second gear; none touches a landed cell.
+
+| receipt | question | answer | class |
+|---|---|---|---|
+| ease ruler (L310) | is there an ease ruler that rates capitals and mid-dots harder than plain? | the total log probability and the token count, 64 of 64 on both readers; the mean per-token ruler fails every sample | Infrastructure |
+| R01 with ease crossed inside a route (L311) | does route choice follow the rendering? | the harder-rendered description is taken MORE (−0.25 for the plain one, both readers); anomaly attraction, not fluency; record over note +0.08 over random | Kills the fluency rival |
+| P02 under the echo rule (L312) | is an enactable order readable once echoes are excluded? | genuine first-turn proposals enactable at 0.82 against 0.17 blind; a second turn recovers Qwen at half the quality, SmolLM2 not at all | Strengthens |
+| gate census (L313) | does any local checkpoint pass the three gates? | none; the 3B reads the action register at 0.96 and inverts the latents map at −3.94 | Infrastructure |
+| R02 with the ease arm realized (L314) | does reliance follow information rather than ease? | ease never draws reliance on either reader; six over two records +0.15 on Qwen, flat on SmolLM2 | Narrows |
+
+*Table: one row per receipt; the number in each answer is the receipt's primary or its decisive cell; detail in the FINDINGS entries and under results/phase_2_4_stage_5r/post/.*
+
+**What this changes in the seven answers.** The route-choice answer loses its fluency reading and gains an anomaly bias that every menu in the program inherits as a confound (a surface-matched audit is filed); the reliance answer is now quantity on one family and nothing on the other, with fluency excluded; the segmentation answer is stronger than the card said; the joint and appraisal answers are unchanged and now known to be the property of every reader this machine holds, so their third run is a decision about a larger reader, which is a gear-3 decision.

@@ -1,0 +1,98 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w01931|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by addressing and correcting urgent issues while simultaneously drafting more detailed sections like s1.1 and s3.1."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.13562214807117728,
+   "write:sec2:s2.2": 0.13562214807117728,
+   "write:sec3:s3.3": 0.12220574141138459,
+   "check:sec1:s1.1": 0.2481514791422442,
+   "check:sec3:s3.1": 0.20148320526662925,
+   "cite:sec3:ref": 0.15691527803738747
+  },
+  "next_edit_type": {
+   "write": 0.39345003755373914,
+   "check": 0.44963468440887344,
+   "cite": 0.15691527803738747
+  },
+  "next_section": {
+   "sec2": 0.27124429614235457,
+   "sec3": 0.4806042247154013,
+   "sec1": 0.2481514791422442
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.46579109142041086
+ },
+ "uncertainty": {
+  "posterior_weight": 0.17072695471479568,
+  "abstain": false
+ }
+}

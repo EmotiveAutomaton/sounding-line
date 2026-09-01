@@ -1,0 +1,53 @@
+{
+ "card": "I05",
+ "lane": "discovery",
+ "written_at": "2026-08-30T15:42:39",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "readers": {
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "type_gain": {
+    "point": -2.2176530291693664,
+    "lo": -2.9302888239346494,
+    "hi": -1.5484632954265736,
+    "n_units": 96,
+    "n_boot": 2000
+   },
+   "stop_gain": {
+    "point": -1.3225461675841819,
+    "lo": -1.6891305074910807,
+    "hi": -0.9630156809132578,
+    "n_units": 96,
+    "n_boot": 2000
+   },
+   "n_type": 96,
+   "n_stop": 96,
+   "passed": false
+  },
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "type_gain": {
+    "point": 0.20691188525945048,
+    "lo": 0.013618046185084269,
+    "hi": 0.3970717512290273,
+    "n_units": 96,
+    "n_boot": 2000
+   },
+   "stop_gain": {
+    "point": -0.056122814262448695,
+    "lo": -0.09584017219039771,
+    "hi": -0.015003550229263037,
+    "n_units": 96,
+    "n_boot": 2000
+   },
+   "n_type": 96,
+   "n_stop": 96,
+   "passed": false
+  }
+ }
+}

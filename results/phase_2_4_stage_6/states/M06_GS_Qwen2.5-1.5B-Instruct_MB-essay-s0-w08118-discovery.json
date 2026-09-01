@@ -1,0 +1,104 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "focal_habit|MB|essay|s0|w08118|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "pursues one concern while old routines keep steering some choices"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "focal_habit",
+  "controller": "focal_habit"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {
+   "revise": 1.0,
+   "write": 0.4
+  }
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.048355475213185214,
+   "write:sec2:s2.2": 0.040932026066362356,
+   "revise:sec3:s3.3": 0.1405054282668565,
+   "revise:sec3:s3.2": 0.1405054282668565,
+   "cite:sec3:ref": 0.6297016421867394
+  },
+  "next_edit_type": {
+   "write": 0.08928750127954757,
+   "revise": 0.281010856533713,
+   "cite": 0.6297016421867394
+  },
+  "next_section": {
+   "sec1": 0.048355475213185214,
+   "sec2": 0.040932026066362356,
+   "sec3": 0.9107124987204525
+  },
+  "changed_context": {
+   "finish_quietly": 0.19792987774900608,
+   "expand_scope": 0.13267636476454223,
+   "recheck_sources": 0.32633119955186235,
+   "polish_wording": 0.3430625579345894
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.6206636996809679
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

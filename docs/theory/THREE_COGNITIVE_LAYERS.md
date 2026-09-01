@@ -71,11 +71,20 @@ exclusivity, is the load-bearing claim.**
 > emotions in order to converge upon a more appropriate goal extraction.**
 
 **Goal is not a fourth level.** He declined one. *"That's just not reasonable. It wouldn't be
-separable. Three, frankly, barely won't be."* A proximal goal is the currently attention-promoted
-region of the expertise-shaped possibility space, and its effects can be expressed through every
-functional level. Other motivations may remain active as learned constraints without occupying
-focal attention. Goal is therefore not a fourth address, but neither is every background
-deformation a simultaneously conscious goal.
+separable. Three, frankly, barely won't be."* And it is not an alias for attention either *(the
+2026-08-30 pass folded out the file's earlier identity prose, "goal = the attention-promoted
+region")*:
+
+> Proximal goal is not identical to attention. I think the relationship between proximal goal,
+> attention, and expertise is complex and interesting in a way that we have been glossing over.
+
+*2026-08-30 assessment; spoken wording lightly reconstructed.*
+
+A proximal goal is a locally governing control target selected under values, drives, context,
+expertise, and attention; its effects can be expressed through every functional level. Other
+motivations may remain as maintained intentions or learned constraints without governing focal
+control. Goal is therefore not a fourth address, but neither is it identical to the attention
+allocated while pursuing it.
 
 **Expertise is weighted late, and goal reads through it:**
 
@@ -102,16 +111,34 @@ deformation a simultaneously conscious goal.
 > it. And so sometimes those things can become active goals. For the most part, however, they are
 > distortions in the possibility space caused by your expertise.
 
+His strong candidate for what that structure is a record OF *(the 2026-08-30 pass; held as
+candidate, canonically narrowed just below rather than adopted as an identity)*:
+
+> Expertise is a record of your previous attentional strategy.
+
+> Expertise is an imperfect record of previous attention given prior context. Consolidation is
+> the encoding layer for that record; interference contributes noise.
+
+*2026-08-30/31 walkthroughs; spoken wording lightly reconstructed. The earlier shorthand
+remains historical evidence; the second statement narrows its identity claim without removing
+the example.*
+
 Expertise is the learned transition structure through which all three functional levels can
-constrain action. It is shaped by previous attention, practice, correction, and embodiment, but
-it is not identical to any one depth, to conscious executive control, or to a stored policy. A
-background concern can deform the reachable trajectories without becoming the current focal goal;
-when attention promotes it, it becomes an active proximal goal. Calling expertise "compiled
-decision structure" (the 2026-08-21 pass) describes its formation history, not a list of past
-decisions stored intact: practice, attention, correction, embodiment, and inherited constraints
-alter which trajectories are visible, cheap, and reliable now, and automaticity pre-solves
-lower-level control so focal attention can operate elsewhere. The functional object remains the
-trajectory constraint.
+constrain action; it is not identical to any one depth, to conscious executive control, or to
+a stored policy. The curator's live FORMATION hypothesis is that it is an imperfect,
+consolidation-transformed record of prior attention under prior context: practice, feedback,
+and instruction shape what is attended and repeated; constraints, tools, opportunity, and
+embodiment define the context in which that attention occurred; consolidation compresses and
+reorganizes the record, and interference adds noise. The hypothesis is testable only if
+attention is measured independently (defining attention as whatever later changed expertise
+is circular). The mapping runs many-to-many in both directions: the same attended material can
+produce different expertise, and the same expertise can later direct attention away from the
+current goal, because goal selection and attention allocation are different operations. A
+background concern can deform the reachable trajectories without becoming the current focal
+goal; when attention promotes it, it becomes an active proximal goal, and automaticity
+pre-solves lower-level control so focal attention can operate elsewhere. Calling expertise
+"compiled decision structure" (the 2026-08-21 pass) describes its formation history, not
+intact storage of past decisions. The functional object remains the trajectory constraint.
 
 Expertise can be expressed at mechanics, technique, and purpose levels. Media literacy is one
 high-level entry competence, not the definition of expertise. The transition map spans the
@@ -140,30 +167,42 @@ is why causal intervention during inference is required. Conversely, a lack of r
 emotional language does not identify absent affect, low attention, low care, or low total neural
 activity; expression, internal state, and computational use are separate variables.
 
-Human goals can genuinely drift when attention relocates, but surface movement is not sufficient
-evidence of goal drift. The same persistent concern can appear and disappear as opportunity and
-expertise change its local expression. Serial switching is a candidate description of focal
-control, not a frozen mechanism.
+Human goals can genuinely drift while attention relocates, but neither movement entails the
+other, and surface movement is not sufficient evidence of goal drift. The same persistent
+concern can appear and disappear as opportunity and expertise change its local expression. The
+curator's live control candidate is one foreground goal with rapid switching; maintained
+intentions and compiled habit can still alter behavior while another goal is focal, and
+concurrent control remains a rival. Serial switching is therefore a candidate description of
+focal control, not a frozen mechanism.
 
 | # | hypothesis | status |
 |---|---|---|
-| **G26** | A goal is a weighting across all levels rather than a level of its own | **OPEN, adopted as the working position** |
+| **G26** | A goal is a weighting across all levels rather than a level or attention state of its own | **OPEN, adopted as the working position** |
 | **G41** | Later blocks make expertise-related information more usable or decodable | **OPEN.** The testable form of the late-weighting restatement; expertise is suppliable and variable |
 | **G27** | Level boundaries in a model are soft rather than sharp | **assumed, not tested.** Any test requiring a clean boundary is testing the wrong thing |
 | **G73** | Positive affect is a readout over the seven channels | **OPEN.** Suppressing one channel should move it proportionally |
 | **G74** | Positive affect is a conjoined gate requiring all seven un-inhibited | **OPEN.** Suppressing any one should collapse it; a single suppression experiment separates the two |
+| **C-S6** | A bounded reader recovers which control architecture governs a constructed maker (one foreground goal with switching, maintained intention, compiled habit, concurrent control) from the order of work | **NARROWED (test, L316, L322), 3840 world-readers at the locked scale.** The reader reads the discriminating EVENT across all four controllers (+0.45 [+0.39, +0.51], C03/x1) and recovers a cue-triggered dormant intention (+0.65, C07), but inferring the controller beyond a controller-agnostic mixture is a valid null (−0.003 [−0.009, +0.002], C11/x1); the strict switcher leaves more hanging section-writes than the concurrent controller, opposite the declared direction (C06) |
+| **A-S6** | A bounded reader reads the discriminating event on constructed makers whose expertise history (a practiced skill) or current goal governs it, and reads dated history as such | **SPLIT (test, L315, L317, L323), 3838 world-readers at the locked scale.** The event read pays and scales (+0.79 [+0.72, +0.85], practiced skill +0.81 and current goal +0.77, A10/x1; +0.99 at discovery), while dated-versus-shuffled history separates NOWHERE at scale: the exact layer's discovery separation (+0.67 on a 48-world interval that barely excluded zero, A13) sits at −0.03 [−0.15, +0.10] on 1248 fresh units (A13/x5, L325), and the reader's changed-context read of it stays inconclusive (+0.04, A14); the history-governed event read itself holds (+0.28 changed-context at 2496, A12/x5) |
 
 **What the table says.** The scaffold itself is theory. Its one adopted position (a proximal
-goal as the attention-promoted region of the expertise-shaped possibility space, expressed
-through every level, with expertise itself the learned transition structure rather than a stored
-policy or a single depth) and its one testable sharpening (late blocks making expertise more
+goal as the currently governing local control target, expressed through every level; goal,
+attention, and expertise distinct but coupled, no pair identical; expertise itself the
+learned transition structure rather than a stored policy or a single depth) and its one testable sharpening (late blocks making expertise more
 decodable, with no single anatomical address claimed) have never been run, and every affect
 reading the project has produced is blind to positive affect except where it leaks through
 seeking, play, or care, with the two positive-affect rows held as candidate modelings rather
-than an exhaustive pair. Confidence: untested, logic only.
+than an exhaustive pair. The one measured row is the reader's, not the scaffold's: on constructed
+makers the four control candidates leave events a bounded reader reads at scale and a governing
+architecture it cannot name (C-S6), so the serial-switching candidate stays a candidate on the
+model side too, discriminated by construction and not yet by any reader; the attention-history row reads the
+same way, the event a practiced skill or current goal governs read at scale while
+dated-versus-shuffled history is separated by nothing at scale, the exact layer's discovery
+separation having died on 1248 fresh units (A-S6, L325). Confidence:
+untested, logic only, except the two reader rows, which are two readers on one construction
+family at the locked scale.
 
-On mirror systems *(the 2026-08-22 pass; provenance in
-`docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
+On mirror systems *(the 2026-08-22 pass)*:
 
 > I do not think mirror neurons are magic. It is more like: I see your eyebrows move, I understand
 > how my eyebrows would move in that situation, and from that I can extrapolate how I might feel.
@@ -322,8 +361,7 @@ Confidence: sim-only; the real-artifact claim is untested.
 | **G36** | Some recovered components will be unnameable | **OPEN**, behind a working count instrument |
 | **L8 / L9** | Our own two counting attempts | **VOID / INSTRUMENT DEAD (L8/L9/L15).** A criterion that returned components from noise, then a rebuilt instrument with four confirmed defects. This project holds no count of its own |
 
-On the former count heuristic *(the 2026-08-22 pass; superseded in scope 2026-08-24; provenance
-in `docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
+On the former count heuristic *(the 2026-08-22 pass; superseded in scope 2026-08-24)*:
 
 > When I say 27, I am treating that as a soft upper bound, not anything precise. I do not know how
 > they came up with it, but they certainly did not use Panksepp's method. If they arrived at it

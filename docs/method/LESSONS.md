@@ -524,6 +524,20 @@ L132 (a shuffle gate that voided the alternative's own signature).
   under a minute and belongs in the pre-run inspection of every choice readout. (Stage 5
   J02, 2026-08-29)
 
+- **A harder rendering is also an anomalous one, and a menu whose options differ in surface form
+  carries an attraction bias before any content is read.** With ease crossed inside a route type, both
+  readers took the mid-dotted description a quarter more often than the plain one beside it, the
+  larger reader four times more strongly; the fluency policy predicted the reverse (L311), and the
+  same direction showed on a reliance question (capitals trusted slightly more, L314). Any forced
+  choice whose options differ in length, case, or punctuation is confounded by this bias; match the
+  options' surface form, or measure the bias with a content-free cell, before reading a preference.
+  And ease is a total, not a rate: the mean per-token log probability inverts every known-answer
+  rendering while the total and the token count pass all of them (L310). (2026-08-30)
+  **Resolved 2026-09-01 (L327): difficulty itself is the attractor.** An archaic rendering,
+  harder by the validated ruler and not visually deviant, is taken more by the same quarter of
+  probability; matching case and punctuation does not remove the bias — match the options'
+  ruler-measured hardness, or measure the bias with a content-free cell.
+
 ## §4. Before the model arm
 
 - **Base language models below the low billions cannot satisfy multi-constraint generation;

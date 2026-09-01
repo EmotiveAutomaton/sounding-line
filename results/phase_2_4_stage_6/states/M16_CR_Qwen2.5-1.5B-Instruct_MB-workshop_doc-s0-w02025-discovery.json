@@ -1,0 +1,108 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w02025|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and updating information sequentially through each section, ensuring that all necessary steps were completed before moving on to the next part of the sc"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.038077744779208146,
+   "write:sec2:s2.2": 0.038077744779208146,
+   "revise:sec4:s4.2": 0.04451739380990678,
+   "revise:sec1:s1.1": 0.05627525876100913,
+   "revise:sec3:s3.2": 0.048134779624245255,
+   "check:sec1:s1.1": 0.06376822241097284,
+   "check:sec3:s3.1": 0.054543851069926076,
+   "check:sec4:s4.1": 0.05044481593026256,
+   "consult:sec1:src": 0.0927822161334295,
+   "cite:sec4:ref": 0.4496097502908587,
+   "fix:sec1:urgent": 0.06376822241097284
+  },
+  "next_edit_type": {
+   "write": 0.07615548955841629,
+   "revise": 0.14892743219516116,
+   "check": 0.1687568894111615,
+   "consult": 0.0927822161334295,
+   "cite": 0.4496097502908587,
+   "fix": 0.06376822241097284
+  },
+  "next_section": {
+   "sec2": 0.07615548955841629,
+   "sec4": 0.544571960031028,
+   "sec1": 0.2765939197163843,
+   "sec3": 0.10267863069417132
+  },
+  "changed_context": {
+   "finish_quietly": 0.24825380588960336,
+   "expand_scope": 0.19334025842727964,
+   "recheck_sources": 0.33932272093070476,
+   "polish_wording": 0.21908321475241235
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.3730381658399048
+ },
+ "uncertainty": {
+  "posterior_weight": 0.7796546233254059,
+  "abstain": false
+ }
+}

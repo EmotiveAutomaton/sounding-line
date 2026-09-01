@@ -1,0 +1,106 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03543|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on organization and prioritization, with a clear structure and sequential progression of tasks."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.03624242187499429,
+   "write:sec2:s2.1": 0.033518760859169466,
+   "write:sec3:s3.1": 0.030999786201080664,
+   "write:sec3:s3.2": 0.030999786201080664,
+   "write:sec3:s3.3": 0.030999786201080664,
+   "revise:sec1:s1.3": 0.07207666237121003,
+   "check:sec4:s4.1": 0.4213042714715769,
+   "fix:sec1:urgent": 0.3438585248198074
+  },
+  "next_edit_type": {
+   "write": 0.16276054133740575,
+   "revise": 0.07207666237121003,
+   "check": 0.4213042714715769,
+   "fix": 0.3438585248198074
+  },
+  "next_section": {
+   "sec1": 0.4521776090660117,
+   "sec2": 0.033518760859169466,
+   "sec3": 0.09299935860324199,
+   "sec4": 0.4213042714715769
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5508540404928353
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3718853045195298,
+  "abstain": false
+ }
+}

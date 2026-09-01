@@ -1,0 +1,103 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|workshop_doc|s0|w09582|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec2:s2.1": 0.1286508504463928,
+   "revise:sec2:s2.3": 0.1286508504463928,
+   "check:sec1:s1.1": 0.13751992502978985,
+   "check:sec2:s2.1": 0.11640810334604446,
+   "check:sec3:s3.1": 0.09853733211160456,
+   "consult:sec1:src": 0.13081299914346833,
+   "cite:sec3:ref": 0.10358944916293494,
+   "fix:sec1:urgent": 0.1558304903133723
+  },
+  "next_edit_type": {
+   "revise": 0.2573017008927856,
+   "check": 0.3524653604874388,
+   "consult": 0.13081299914346833,
+   "cite": 0.10358944916293494,
+   "fix": 0.1558304903133723
+  },
+  "next_section": {
+   "sec2": 0.37370980423883005,
+   "sec1": 0.4241634144866304,
+   "sec3": 0.2021267812745395
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.43692528639524425
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

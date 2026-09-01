@@ -1,0 +1,96 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w01448|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on continuous improvement and reworking, with a strong emphasis on thorough checking and re-drafting of each section before moving on to the next."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.1852303724868215,
+   "write:sec3:s3.1": 0.15679412520477562,
+   "write:sec3:s3.2": 0.15679412520477562,
+   "consult:sec1:src": 0.2672720286780854,
+   "cite:sec3:ref": 0.23390934842554184
+  },
+  "next_edit_type": {
+   "write": 0.4988186228963728,
+   "consult": 0.2672720286780854,
+   "cite": 0.23390934842554184
+  },
+  "next_section": {
+   "sec2": 0.1852303724868215,
+   "sec3": 0.5474975988350931,
+   "sec1": 0.2672720286780854
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4452700315109688
+ },
+ "uncertainty": {
+  "posterior_weight": 0.308694320130561,
+  "abstain": false
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "maintained|MB|essay|s0|w09453|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "keeps an unfinished concern warm in the background and returns to it when reminded"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "maintained",
+  "controller": "maintained"
+ },
+ "maintained_intentions": [
+  "attribute"
+ ],
+ "process_model": {
+  "pending_n": 14,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.003211767287229565,
+   "write:sec3:s3.2": 0.002747170141530645,
+   "write:sec4:s4.1": 0.0025407170450976106,
+   "revise:sec1:s1.2": 0.004389965386406208,
+   "revise:sec2:s2.1": 0.004060054277678,
+   "revise:sec2:s2.3": 0.004060054277678,
+   "check:sec2:s2.1": 0.0046006442241181755,
+   "check:sec3:s3.1": 0.004254900350705683,
+   "consult:sec1:src": 0.007237829310205222,
+   "cite:sec4:ref": 0.9628968976993509
+  },
+  "next_edit_type": {
+   "write": 0.008499654473857822,
+   "revise": 0.012510073941762208,
+   "check": 0.008855544574823859,
+   "consult": 0.007237829310205222,
+   "cite": 0.9628968976993509
+  },
+  "next_section": {
+   "sec1": 0.014839561983840994,
+   "sec3": 0.007002070492236328,
+   "sec4": 0.9654376147444486,
+   "sec2": 0.012720752779474175
+  },
+  "changed_context": {
+   "finish_quietly": 0.24825380588960336,
+   "expand_scope": 0.19334025842727964,
+   "recheck_sources": 0.33932272093070476,
+   "polish_wording": 0.21908321475241235
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.45042995500514915
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

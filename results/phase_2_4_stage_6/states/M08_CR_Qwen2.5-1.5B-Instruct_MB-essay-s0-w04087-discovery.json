@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w04087|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach seems driven by a focus on thoroughness and accuracy, particularly with respect to references and revisions. They meticulously check and update each section, ensuring that all par"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 12,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.028100780629674905,
+   "write:sec3:s3.1": 0.025988973615803754,
+   "write:sec3:s3.2": 0.025988973615803754,
+   "write:sec4:s4.2": 0.024035871405283363,
+   "check:sec4:s4.1": 0.35320455194360467,
+   "consult:sec1:src": 0.25440369516224604,
+   "fix:sec1:urgent": 0.2882771536275835
+  },
+  "next_edit_type": {
+   "write": 0.10411459926656577,
+   "check": 0.35320455194360467,
+   "consult": 0.25440369516224604,
+   "fix": 0.2882771536275835
+  },
+  "next_section": {
+   "sec2": 0.028100780629674905,
+   "sec3": 0.05197794723160751,
+   "sec4": 0.377240423348888,
+   "sec1": 0.5426808487898296
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5453158695970115
+ },
+ "uncertainty": {
+  "posterior_weight": 0.516580444398528,
+  "abstain": false
+ }
+}

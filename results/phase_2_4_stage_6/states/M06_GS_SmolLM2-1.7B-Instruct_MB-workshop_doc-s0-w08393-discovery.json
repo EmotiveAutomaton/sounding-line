@@ -1,0 +1,104 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|workshop_doc|s0|w08393|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 12,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.07913494985684197,
+   "write:sec1:s1.3": 0.07913494985684197,
+   "write:sec3:s3.2": 0.064252542039578,
+   "revise:sec2:s2.3": 0.09746447517963486,
+   "revise:sec1:s1.1": 0.1081646519372175,
+   "revise:sec3:s3.1": 0.08782281227655958,
+   "check:sec1:s1.1": 0.10161128696449503,
+   "check:sec2:s2.1": 0.09155940114400878,
+   "check:sec3:s3.1": 0.08250189706561575,
+   "consult:sec1:src": 0.09848503632390151,
+   "fix:sec1:urgent": 0.10986799735530509
+  },
+  "next_edit_type": {
+   "write": 0.22252244175326194,
+   "revise": 0.29345193939341196,
+   "check": 0.2756725851741195,
+   "consult": 0.09848503632390151,
+   "fix": 0.10986799735530509
+  },
+  "next_section": {
+   "sec1": 0.5763988722946031,
+   "sec3": 0.23457725138175334,
+   "sec2": 0.18902387632364365
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.3917194063114862
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

@@ -1,0 +1,708 @@
+{
+ "card": "I06",
+ "lane": "discovery",
+ "written_at": "2026-08-30T15:41:37",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "arms": {
+  "D": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 6,
+     "tokens_in": 1092,
+     "tokens_out": 0,
+     "forward_passes": 6,
+     "wall_s": 0.573,
+     "peak_mem_mb": null,
+     "solver_enumerations": 0
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 6,
+     "tokens_in": 918,
+     "tokens_out": 0,
+     "forward_passes": 6,
+     "wall_s": 0.313,
+     "peak_mem_mb": null,
+     "solver_enumerations": 0
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 6,
+     "tokens_in": 1109,
+     "tokens_out": 0,
+     "forward_passes": 6,
+     "wall_s": 0.293,
+     "peak_mem_mb": null,
+     "solver_enumerations": 0
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 6,
+     "tokens_in": 1415,
+     "tokens_out": 0,
+     "forward_passes": 6,
+     "wall_s": 0.304,
+     "peak_mem_mb": null,
+     "solver_enumerations": 0
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 6,
+     "tokens_in": 1331,
+     "tokens_out": 0,
+     "forward_passes": 6,
+     "wall_s": 0.295,
+     "peak_mem_mb": null,
+     "solver_enumerations": 0
+    }
+   }
+  ],
+  "L": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 736,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.192,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 620,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.194,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 2,
+     "tokens_in": 374,
+     "tokens_out": 0,
+     "forward_passes": 2,
+     "wall_s": 0.094,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 952,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.219,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 2,
+     "tokens_in": 448,
+     "tokens_out": 0,
+     "forward_passes": 2,
+     "wall_s": 0.097,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   }
+  ],
+  "LD": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 736,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.215,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 620,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.207,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 2,
+     "tokens_in": 374,
+     "tokens_out": 0,
+     "forward_passes": 2,
+     "wall_s": 0.102,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 952,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.226,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 2,
+     "tokens_in": 448,
+     "tokens_out": 0,
+     "forward_passes": 2,
+     "wall_s": 0.099,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   }
+  ],
+  "TT": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 12,
+     "tokens_in": 1116,
+     "tokens_out": 0,
+     "forward_passes": 12,
+     "wall_s": 0.558,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 12,
+     "tokens_in": 1012,
+     "tokens_out": 0,
+     "forward_passes": 12,
+     "wall_s": 0.595,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 6,
+     "tokens_in": 626,
+     "tokens_out": 0,
+     "forward_passes": 6,
+     "wall_s": 0.312,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 12,
+     "tokens_in": 1564,
+     "tokens_out": 0,
+     "forward_passes": 12,
+     "wall_s": 0.632,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 6,
+     "tokens_in": 702,
+     "tokens_out": 0,
+     "forward_passes": 6,
+     "wall_s": 0.28,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   }
+  ],
+  "GS": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 1,
+     "tokens_in": 216,
+     "tokens_out": 24,
+     "forward_passes": 1,
+     "wall_s": 0.384,
+     "peak_mem_mb": null,
+     "solver_enumerations": 1
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 1,
+     "tokens_in": 187,
+     "tokens_out": 24,
+     "forward_passes": 1,
+     "wall_s": 0.292,
+     "peak_mem_mb": null,
+     "solver_enumerations": 1
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 1,
+     "tokens_in": 203,
+     "tokens_out": 24,
+     "forward_passes": 1,
+     "wall_s": 0.243,
+     "peak_mem_mb": null,
+     "solver_enumerations": 1
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 1,
+     "tokens_in": 267,
+     "tokens_out": 24,
+     "forward_passes": 1,
+     "wall_s": 0.418,
+     "peak_mem_mb": null,
+     "solver_enumerations": 1
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 1,
+     "tokens_in": 241,
+     "tokens_out": 24,
+     "forward_passes": 1,
+     "wall_s": 0.318,
+     "peak_mem_mb": null,
+     "solver_enumerations": 1
+    }
+   }
+  ],
+  "EX": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 736,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.361,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 620,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.283,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 2,
+     "tokens_in": 374,
+     "tokens_out": 0,
+     "forward_passes": 2,
+     "wall_s": 0.145,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 952,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.373,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 2,
+     "tokens_in": 448,
+     "tokens_out": 0,
+     "forward_passes": 2,
+     "wall_s": 0.163,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   }
+  ],
+  "AD": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 736,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.332,
+     "peak_mem_mb": null,
+     "solver_enumerations": 5
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 620,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.302,
+     "peak_mem_mb": null,
+     "solver_enumerations": 5
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 0,
+     "tokens_in": 0,
+     "tokens_out": 0,
+     "forward_passes": 0,
+     "wall_s": 0.003,
+     "peak_mem_mb": null,
+     "solver_enumerations": 3
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 4,
+     "tokens_in": 952,
+     "tokens_out": 0,
+     "forward_passes": 4,
+     "wall_s": 0.372,
+     "peak_mem_mb": null,
+     "solver_enumerations": 5
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 0,
+     "tokens_in": 0,
+     "tokens_out": 0,
+     "forward_passes": 0,
+     "wall_s": 0.002,
+     "peak_mem_mb": null,
+     "solver_enumerations": 3
+    }
+   }
+  ],
+  "CR": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 5,
+     "tokens_in": 1089,
+     "tokens_out": 40,
+     "forward_passes": 5,
+     "wall_s": 1.263,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 5,
+     "tokens_in": 960,
+     "tokens_out": 40,
+     "forward_passes": 5,
+     "wall_s": 1.291,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 3,
+     "tokens_in": 686,
+     "tokens_out": 40,
+     "forward_passes": 3,
+     "wall_s": 1.649,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 5,
+     "tokens_in": 1359,
+     "tokens_out": 40,
+     "forward_passes": 5,
+     "wall_s": 1.347,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 3,
+     "tokens_in": 795,
+     "tokens_out": 40,
+     "forward_passes": 3,
+     "wall_s": 1.495,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   }
+  ],
+  "OR": [
+   {
+    "fixture": "C:strict_switch",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 0,
+     "tokens_in": 0,
+     "tokens_out": 0,
+     "forward_passes": 0,
+     "wall_s": 0.005,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "C:concurrent",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 0,
+     "tokens_in": 0,
+     "tokens_out": 0,
+     "forward_passes": 0,
+     "wall_s": 0.003,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "V:accuracy",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 0,
+     "tokens_in": 0,
+     "tokens_out": 0,
+     "forward_passes": 0,
+     "wall_s": 0.002,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   },
+   {
+    "fixture": "F:explore",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 0,
+     "tokens_in": 0,
+     "tokens_out": 0,
+     "forward_passes": 0,
+     "wall_s": 0.007,
+     "peak_mem_mb": null,
+     "solver_enumerations": 4
+    }
+   },
+   {
+    "fixture": "A:None",
+    "predictions_ok": true,
+    "states_realized": true,
+    "unrealized_note": null,
+    "budget": {
+     "model_calls": 0,
+     "tokens_in": 0,
+     "tokens_out": 0,
+     "forward_passes": 0,
+     "wall_s": 0.002,
+     "peak_mem_mb": null,
+     "solver_enumerations": 2
+    }
+   }
+  ]
+ }
+}

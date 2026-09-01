@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02594|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a process of iterative reworking and re-checking, with a focus on refining and revising drafts rather than solely on writing new content."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.1": 0.08267134235284095,
+   "write:sec3:s3.3": 0.08267134235284095,
+   "check:sec1:s1.1": 0.2567765752934434,
+   "consult:sec1:src": 0.14092197239741563,
+   "cite:sec3:ref": 0.12333115030912487,
+   "fix:sec1:urgent": 0.31362761729433425
+  },
+  "next_edit_type": {
+   "write": 0.1653426847056819,
+   "check": 0.2567765752934434,
+   "consult": 0.14092197239741563,
+   "cite": 0.12333115030912487,
+   "fix": 0.31362761729433425
+  },
+  "next_section": {
+   "sec3": 0.28867383501480676,
+   "sec1": 0.7113261649851932
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "fix"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.40050922673000666
+ },
+ "uncertainty": {
+  "posterior_weight": 0.21677524082763217,
+  "abstain": false
+ }
+}

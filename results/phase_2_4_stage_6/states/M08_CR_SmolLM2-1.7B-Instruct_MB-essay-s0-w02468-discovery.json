@@ -1,0 +1,105 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02468|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker was driven by a methodical approach, focusing on one section at a time and addressing each concern or draft as it was completed."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.006641657728451401,
+   "write:sec2:s2.1": 0.005861242373385402,
+   "write:sec3:s3.1": 0.0051725282398101995,
+   "write:sec3:s3.2": 0.0051725282398101995,
+   "revise:sec4:s4.1": 0.20404929161645194,
+   "revise:sec1:s1.2": 0.2968899674608633,
+   "revise:sec4:s4.3": 0.20404929161645194,
+   "revise:sec2:s2.2": 0.2620044766926532,
+   "check:sec4:s4.1": 0.010159016032122499
+  },
+  "next_edit_type": {
+   "write": 0.0228479565814572,
+   "revise": 0.9669930273864203,
+   "check": 0.010159016032122499
+  },
+  "next_section": {
+   "sec1": 0.3035316251893147,
+   "sec2": 0.2678657190660386,
+   "sec3": 0.010345056479620399,
+   "sec4": 0.41825759926502637
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4002870785811867
+ },
+ "uncertainty": {
+  "posterior_weight": 0.44750217038322987,
+  "abstain": false
+ }
+}

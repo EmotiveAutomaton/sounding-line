@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03338|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on reworking and rewriting, with a preference for reworking rather than writing new content."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.006119030942090263,
+   "write:sec1:s1.3": 0.006119030942090263,
+   "write:sec2:s2.1": 0.005179647866519608,
+   "write:sec2:s2.2": 0.005179647866519608,
+   "write:sec3:s3.2": 0.004384477260377506,
+   "revise:sec2:s2.3": 0.015560522136604837,
+   "check:sec1:s1.1": 0.450971318073496,
+   "check:sec3:s3.1": 0.32313506957039123,
+   "consult:sec1:src": 0.18335125534191074
+  },
+  "next_edit_type": {
+   "write": 0.026981834877597245,
+   "revise": 0.015560522136604835,
+   "check": 0.7741063876438872,
+   "consult": 0.1833512553419107
+  },
+  "next_section": {
+   "sec1": 0.6465606352995873,
+   "sec2": 0.025919817869644052,
+   "sec3": 0.3275195468307687
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5253284035045612
+ },
+ "uncertainty": {
+  "posterior_weight": 0.20961454273040703,
+  "abstain": false
+ }
+}

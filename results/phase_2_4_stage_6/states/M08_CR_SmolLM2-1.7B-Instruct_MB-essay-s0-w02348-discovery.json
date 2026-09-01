@@ -1,0 +1,95 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02348|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a methodical approach, focusing on organizing the essay into sections and drafting content in a sequential manner."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 12,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.11783030108481947,
+   "write:sec2:s2.1": 0.09974119650665841,
+   "write:sec3:s3.1": 0.08442910006160988,
+   "write:sec3:s3.2": 0.08442910006160988,
+   "write:sec3:s3.3": 0.08442910006160988,
+   "revise:sec2:s2.2": 0.2996391137330679,
+   "cite:sec3:ref": 0.22950208849062467
+  },
+  "next_edit_type": {
+   "write": 0.47085879777630746,
+   "revise": 0.29963911373306784,
+   "cite": 0.22950208849062465
+  },
+  "next_section": {
+   "sec1": 0.11783030108481946,
+   "sec2": 0.39938031023972625,
+   "sec3": 0.48278938867545423
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.3235491817851759
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3937714985583521,
+  "abstain": false
+ }
+}

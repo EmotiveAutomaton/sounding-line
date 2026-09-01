@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w02990|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and revising sections based on urgency and completeness, with immediate corrections for incomplete or unclear content."
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 12,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.2": 0.2851655832574146,
+   "write:sec3:s3.1": 0.25165774394839796,
+   "write:sec4:s4.1": 0.22208717954588839,
+   "write:sec4:s4.2": 0.22208717954588839,
+   "check:sec2:s2.1": 0.0042762224102928905,
+   "consult:sec1:src": 0.009757829666317462,
+   "cite:sec4:ref": 0.004968261625800356
+  },
+  "next_edit_type": {
+   "write": 0.9809976862975893,
+   "check": 0.0042762224102928905,
+   "consult": 0.009757829666317462,
+   "cite": 0.004968261625800356
+  },
+  "next_section": {
+   "sec2": 0.2894418056677075,
+   "sec3": 0.25165774394839796,
+   "sec4": 0.4491426207175771,
+   "sec1": 0.009757829666317462
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.36208780806226026
+ },
+ "uncertainty": {
+  "posterior_weight": 0.5002967889385811,
+  "abstain": false
+ }
+}

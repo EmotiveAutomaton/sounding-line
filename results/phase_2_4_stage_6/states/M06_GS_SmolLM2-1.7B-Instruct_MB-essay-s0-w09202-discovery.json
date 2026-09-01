@@ -1,0 +1,112 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|essay|s0|w09202|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.2": 0.05533098045676108,
+   "write:sec4:s4.2": 0.04882941887006044,
+   "write:sec4:s4.3": 0.04882941887006044,
+   "revise:sec2:s2.3": 0.1033718805591052,
+   "revise:sec3:s3.3": 0.0912253644077551,
+   "check:sec1:s1.1": 0.1059887521742958,
+   "check:sec2:s2.1": 0.09353474550262236,
+   "check:sec3:s3.1": 0.08254412319010264,
+   "check:sec4:s4.1": 0.07284493304182686,
+   "consult:sec1:src": 0.1008196197343042,
+   "cite:sec4:ref": 0.07657977262431938,
+   "fix:sec1:urgent": 0.12010099056878651
+  },
+  "next_edit_type": {
+   "write": 0.15298981819688195,
+   "revise": 0.19459724496686032,
+   "check": 0.3549125539088477,
+   "consult": 0.1008196197343042,
+   "cite": 0.07657977262431938,
+   "fix": 0.12010099056878651
+  },
+  "next_section": {
+   "sec3": 0.2291004680546188,
+   "sec4": 0.2470835434062671,
+   "sec2": 0.19690662606172757,
+   "sec1": 0.32690936247738656
+  },
+  "changed_context": {
+   "finish_quietly": 0.24167595100157666,
+   "expand_scope": 0.16200023460108376,
+   "recheck_sources": 0.39845628103298136,
+   "polish_wording": 0.1978675333643583
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5449852821341605
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

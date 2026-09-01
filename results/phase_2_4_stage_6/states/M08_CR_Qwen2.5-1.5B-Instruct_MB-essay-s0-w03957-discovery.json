@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w03957|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach to organizing and drafting the essay was driven by prioritizing completed sections while revising incomplete ones, ensuring that each section remained coherent and relevant to the"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.40876817428597767,
+   "write:sec3:s3.2": 0.33189373785242265,
+   "revise:sec1:s1.1": 0.04882039638794209,
+   "revise:sec2:s2.2": 0.04399084383662023,
+   "check:sec1:s1.1": 0.029611067228610777,
+   "check:sec2:s2.1": 0.026681795533540692,
+   "check:sec3:s3.1": 0.024042301731219053,
+   "cite:sec3:ref": 0.030870926498560953,
+   "fix:sec1:urgent": 0.055320756645105856
+  },
+  "next_edit_type": {
+   "write": 0.7406619121384004,
+   "revise": 0.09281124022456233,
+   "check": 0.08033516449337053,
+   "cite": 0.030870926498560953,
+   "fix": 0.055320756645105856
+  },
+  "next_section": {
+   "sec1": 0.5425203945476365,
+   "sec3": 0.38680696608220266,
+   "sec2": 0.07067263937016093
+  },
+  "changed_context": {
+   "finish_quietly": 0.24825380588960336,
+   "expand_scope": 0.19334025842727964,
+   "recheck_sources": 0.33932272093070476,
+   "polish_wording": 0.21908321475241235
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4307634238852475
+ },
+ "uncertainty": {
+  "posterior_weight": 0.11532789901920469,
+  "abstain": false
+ }
+}

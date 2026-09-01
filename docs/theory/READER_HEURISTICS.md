@@ -94,8 +94,7 @@ provenance.
 > they did to an extent, or at least you believe you arrived in the same way they did, whether or
 > not that's true. Again, you started with your own perspective.
 
-On why the shortcut works *(the 2026-08-22 pass; provenance in
-`docs/design/PHASE_2_4_THEORY_ERRATA.md`)*:
+On why the shortcut works *(the 2026-08-22 pass)*:
 
 > Explicit self-reconstruction works because of the similarities between you and the creator.
 > That is the reason it works, not because it is inherently an optimal strategy, but because you
@@ -372,8 +371,7 @@ where *everything is an artifact* becomes operational (context supplies addition
 observations but is not automatically trustworthy), and switching levels when a
 hypothesis fails, per §3.
 
-**Context reweights the generative model rather than dictating a story** *(2026-08-21;
-provenance in `docs/design/archive/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
+**Context reweights the generative model rather than dictating a story** *(2026-08-21)*:
 
 > The low-quality-paint inference was a shifting of possibilities – the generations of your
 > generative model being weighted differently – not an immediate inductive set of steps.
@@ -405,8 +403,7 @@ hidden constraint, or a different maker and process family, and the threshold is
 empirical: which update better predicts held-out choices or later handling. This is not
 permission to declare every dense anomaly cluster expertise.
 
-On what the shortcut may cost *(the 2026-08-23 pass; provenance in
-`docs/design/PHASE_2_4_STAGE_2_THEORY_ERRATA.md`)*:
+On what the shortcut may cost *(the 2026-08-23 pass)*:
 
 > Calculating how you would do it is where indoctrination sneaks in. It is the shortcut you use
 > because it is fast and lets you grab process information quickly. It is gated later by value
@@ -447,8 +444,8 @@ the reason to expect modest effects.
 | **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size and expanded.** Bundle minus facts +0.10 nats over 128 worlds and +0.09 over 256, the interval crossing zero both times; an incorrect bundle helps as much as the correct facts (+0.59 to +0.72 over no context) and irrelevant background helps by a third to a half of a nat, so the readers take the frame and not the content |
 | **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **REFUTED as a flat curve (test, L241): COUNTEREVIDENCE at 128 worlds, INCONCLUSIVE at 256.** Six records after a misleading prior move the direct log score -0.20 nats at 128 worlds and -0.08 with the interval crossing zero at 256, while the exact ruler climbs 0.13 to 0.16; the valid prior's curve is flat (0.00); a misleading prior helps at zero records as much as a valid one (+0.38 against +0.32); neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
 | **C03** | The readers choose evidence by its expected information about the maker (active reading) | **COUNTEREVIDENCE (test, L246), 204 usable worlds of 256.** The redundant probe is chosen 0.78 of the time and the informative one 0.08, half of every pick going to the first listed; 8 percent of the exact selector's expected gain is captured, a quarter below a random pick; the realized gains are flat at this size |
-| **R01-S5** | The reader chooses the evidence route by its exact information about the hidden future choice, beyond a random selector | **SUPPORT BY BAND, A FLUENCY POLICY BY THE RIVALS (test, L270), 159 worlds past the floor.** +0.11 nats over random; −0.05 against always taking the easiest-rendered route, which is the action record in every world and the most informative in three of four; the reader's departures from it are unrelated to which route is best (27 against 28 percent). Second contract with per-world description rendering (L300): the easiest description is the note in every world, the readers take it a quarter of the time, prefer the action record, and capture +0.06 over random and +0.10 over always-easiest, tracking 0.36 against 0.26 |
-| **R02-S5** | Stated reliance follows a record's exact information rather than its ease of reading, the two crossed by construction | **SUPPORT BY BAND ON THE QUANTITY SIDE, CONFIRMED ON THE RESERVE (+0.18 [+0.15, +0.20], L281); THE EASE ARM UNREALIZED (test, L271), 256 worlds.** Reliance +0.16 for six records over two; −0.03 for the stilted rendering, which the reader's own token probabilities rate as the easier text (−2.82 against −3.07 per token), so the fluency contrast never existed. Second contract (L301): +0.07 on two readers; the ease ruler (mean per-token log probability) rates capitals and mid-dotted text as easier than the plain record, so the ease arm cannot be realized under it |
+| **R01-S5** | The reader chooses the evidence route by its exact information about the hidden future choice, beyond a random selector | **SUPPORT BY BAND, A FLUENCY POLICY BY THE RIVALS (test, L270), 159 worlds past the floor.** +0.11 nats over random; −0.05 against always taking the easiest-rendered route, which is the action record in every world and the most informative in three of four; the reader's departures from it are unrelated to which route is best (27 against 28 percent). Second contract with per-world description rendering (L300): the easiest description is the note in every world, the readers take it a quarter of the time, prefer the action record, and capture +0.06 over random and +0.10 over always-easiest, tracking 0.36 against 0.26. Ease crossed inside a route type under a validated ruler (L311): the description rendered harder (mid-dots) is taken MORE, by 0.25 of probability on both readers (Qwen 0.40, SmolLM2 0.10), so the fluency policy is dead and anomaly attraction replaces it; the both-plain cell keeps the record-over-note preference at +0.08 over random; the archaic cross separates the confound: harder-but-not-deviant is ALSO taken more (−0.24 pooled; Qwen −0.42, SmolLM2 −0.07), so the attraction is difficulty's, not visual anomaly's (L327) |
+| **R02-S5** | Stated reliance follows a record's exact information rather than its ease of reading, the two crossed by construction | **SUPPORT BY BAND ON THE QUANTITY SIDE, CONFIRMED ON THE RESERVE (+0.18 [+0.15, +0.20], L281); THE EASE ARM UNREALIZED (test, L271), 256 worlds.** Reliance +0.16 for six records over two; −0.03 for the stilted rendering, which the reader's own token probabilities rate as the easier text (−2.82 against −3.07 per token), so the fluency contrast never existed. Second contract (L301): +0.07 on two readers; the ease ruler (mean per-token log probability) rates capitals and mid-dotted text as easier than the plain record, so the ease arm cannot be realized under it. Under the validated ruler (L310) with the capitals realized in every world (L314): Qwen +0.15 for six records over two and −0.03 for plain against capitals (the harder text relied on MORE); SmolLM2 flat on both (−0.01, +0.01); the fluency account is dead on both readers and the quantity effect is the Qwen family's; at equal rendered length the effect follows information (+0.075 [+0.066, +0.084]) and not length (−0.003 [−0.011, +0.004]), the padded six matching the two (L327) |
 | **R03-S5** | Worked demonstrations of choosing the diagnostic route transfer as expertise (used where diagnostic) rather than familiarization (used wherever shown) | **FAMILIARIZATION (test, L272), 256 worlds.** Three demonstrations raise the route's use to 100 percent and three misleading ones lower it to 0 in every world, the same where the route is worthless as where it is diagnostic (interaction −0.02 [−0.06, +0.02]); calibration unchanged; on two readers 1.00 and 0.01 to 0.02 with the interaction −0.01 (L302) |
 | **R04-S5** | The reader buys forensic access when its expected information justifies the cost and declines it otherwise | **NO POLICY (test, L273), 256 worlds.** Buys in 48 percent of worlds with AUROC 0.54 to the exact gain; net gain per cost −0.24 against −0.18 for a coin flip and 0 for never buying; the step never pays on this construction, so only the decline side was tested. Second contract, the step paying in a third of worlds (L303): two readers buy in 0.58 of worlds whether it pays or not (AUROC 0.50), and the exact policy realizes the least gain because the bought evidence is not used |
 | **HH-25** | Reliable maker context is especially useful after an initial artifact/self prior has formed, during maker differentiation | **OPEN for differentiation order (test, L195, L209, L211, L213, L214).** Ordering observations stand: the record-reading reader drops 0.67 to 0.40 when the question precedes the record, biography trades at parity with a six-choice record in both directions, and the late-fusion ruler fails on a second domain too (L229). The easy updating gate failed. Recall does not establish functional evidence use, so the recall split cannot isolate weighing from attention or comprehension. The stored readout follows an outsider's wish at 40/48, and an explicitly ignorant outsider's wish at 45/47 (L231). The re-run with every generation persisted and a parser-free likelihood readout (L252) keeps the numbers, 0.79 and 0.92 hint-following, with refusals and contamination small and separated, so the override is the readers' and not the parser's; what no readout of the answer separates is belief adoption from compliance, which stays open |
@@ -483,10 +480,16 @@ about the maker, they take the one that restates what they already have, three t
 four, and capture eight percent of the available information (C03); offered routes by
 description on a fresh construction, the reader takes the easiest-rendered one, which there
 happens to be the informative one, and beats a random selector while losing to the policy of
-always taking the easiest, its departures unrelated to which route is best (R01-S5); asked how much it would rely on a
+always taking the easiest, its departures unrelated to which route is best; when ease is then crossed
+inside a route type, the reader goes to the harder-rendered description, not the easier, by a quarter
+of the probability on both readers, so the fluency reading of that default is dead and what remains is
+a record-over-note preference plus an attraction to the anomalous option, the human anomaly entry
+point showing as a menu bias (R01-S5); asked how much it would rely on a
 record, it says more for six entries than for two and no less for a rendering meant to be
-harder that its own token probabilities call easier (R02-S5), so what is measured is trust in
-quantity, confirmed on an untouched reserve at the same size, and the fluency question is still open; and shown three demonstrations of a route,
+harder that its own token probabilities call easier, and, once the harder text is one the
+validated ruler calls harder, no less for that either (R02-S5), so what is measured is trust in
+quantity, confirmed on an untouched reserve at the same size, present in one reader family and
+absent in the other, and the fluency question is closed against fluency (the post-close receipts complete both stories: the archaic rendering, harder by the validated ruler and not visually deviant, is taken more by the same quarter of probability, so the attraction is difficulty's rather than visual anomaly's, Qwen carrying it at −0.42 with SmolLM2 at −0.07; and at equal rendered length the reliance effect follows information, +0.075, with length itself at −0.003, so the quantity effect was information all along and remains the Qwen family's, L327); and shown three demonstrations of a route,
 it takes that route in every world and the opposite route under three misleading ones, with
 no regard to whether the route is diagnostic there (R03-S5), the supplied-fact-as-instruction
 result again, now for procedure rather than content; and offered a costed forensic step that is
@@ -500,7 +503,8 @@ Confidence: the earlier true/false context effects are one bad test away, one co
 and one reader family deep; the frame-not-content and no-correction reads are one bad test away as
 a pair, two readers, one construction family, the second read expanded and flat; the no-active-
 reading read is one bad test away, its realized side underpowered, and its fresh-construction
-replicate reads as a fluency default; the Stage-3 wish override is
+replicate reads as a genre preference with anomaly attraction, the fluency reading dead on two
+readers and one construction, difficulty and anomaly not yet separated; the Stage-3 wish override is
 one bad test away, measured twice, its psychological reading (belief against compliance) untested;
 differentiation order, the uptake interval, and the rest remain untested, logic only.
 
@@ -891,6 +895,20 @@ A reconstruction must constrain evidence that did not build it: a withheld proce
 repair, matched counterfactual, held-out segment, or second artifact under the same recorded
 process. This is not unconstrained prediction of the person. It is the minimum distinction between
 reconstruction and a flexible story fitted after the fact.
+
+**The archaeologist's position, measured (2026-08-30).** On the three local recorded-process
+corpora the admitted readers UNDER-run the sequential baselines everywhere: −0.53
+[−0.79, −0.29] against previous-label on ScholaWrite next-revision (whose label persistence
+alone hits 0.86), −0.37 [−0.42, −0.32] against the action base rate on CoAuthor with the
+document-state reconstruction gate passed at 1.0, −0.48 [−0.56, −0.41] against the placement
+prior on drawings (T01/T02/T04, L317); no frozen reader is positive on any record type and
+the trunk closes as a descriptive boundary by its own routing rule (T10). The same readers'
+realized states pay on constructed worlds at the same hour (L315 to L317), so the gap is not
+the machinery but the evidence: real records reward their own sequential regularity before
+they reward any maker state these readers can realize. Withheld-evidence prediction on real
+process records currently sits exactly in the position this section warned about: now
+measured rather than assumed, and confirmed at the locked scale (ScholaWrite −0.575 at 144
+units, CoAuthor −0.383 [−0.397, −0.369] at 1448; T01/x4, T02/x7, L319).
 
 ## §11. The instrument dashboard: adopted heuristics with measured strength
 

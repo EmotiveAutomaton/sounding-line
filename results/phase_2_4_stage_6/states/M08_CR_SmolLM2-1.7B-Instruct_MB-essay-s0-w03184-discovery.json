@@ -1,0 +1,94 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w03184|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a methodical approach, focusing on organizing the essay into sections and drafting each section in a sequential manner."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.007926606990003155,
+   "write:sec2:s2.2": 0.007926606990003155,
+   "write:sec3:s3.1": 0.006709727957427868,
+   "write:sec3:s3.2": 0.006709727957427868,
+   "check:sec1:s1.1": 0.6901381125227459,
+   "consult:sec1:src": 0.2805892175823921
+  },
+  "next_edit_type": {
+   "write": 0.029272669894862047,
+   "check": 0.6901381125227459,
+   "consult": 0.2805892175823921
+  },
+  "next_section": {
+   "sec2": 0.01585321398000631,
+   "sec3": 0.013419455914855737,
+   "sec1": 0.970727330105138
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.3600405013393168
+ },
+ "uncertainty": {
+  "posterior_weight": 0.33368921644884514,
+  "abstain": false
+ }
+}

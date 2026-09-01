@@ -1,0 +1,108 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "maintained|MB|essay|s0|w10034|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "keeps an unfinished concern warm in the background and returns to it when reminded"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "maintained",
+  "controller": "maintained"
+ },
+ "maintained_intentions": [
+  "attribute"
+ ],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.2": 0.018017823857816747,
+   "revise:sec3:s3.1": 0.029706369446110707,
+   "revise:sec1:s1.2": 0.041458578303189886,
+   "revise:sec1:s1.1": 0.041458578303189886,
+   "check:sec1:s1.1": 0.050637621888915484,
+   "check:sec2:s2.1": 0.042863821520887906,
+   "check:sec3:s3.1": 0.036283441576404604,
+   "consult:sec1:src": 0.09226776285085889,
+   "cite:sec3:ref": 0.5966683803637104,
+   "fix:sec1:urgent": 0.050637621888915484
+  },
+  "next_edit_type": {
+   "write": 0.018017823857816747,
+   "revise": 0.11262352605249049,
+   "check": 0.129784884986208,
+   "consult": 0.09226776285085889,
+   "cite": 0.5966683803637104,
+   "fix": 0.050637621888915484
+  },
+  "next_section": {
+   "sec3": 0.6806760152440425,
+   "sec1": 0.27646016323506967,
+   "sec2": 0.04286382152088791
+  },
+  "changed_context": {
+   "finish_quietly": 0.18052990059364782,
+   "expand_scope": 0.5993803780209169,
+   "recheck_sources": 0.09907691010869184,
+   "polish_wording": 0.1210128112767434
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.39959733413685034
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

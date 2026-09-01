@@ -1,0 +1,113 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "maintained|MB|essay|s0|w10465|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "keeps an unfinished concern warm in the background and returns to it when reminded"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "maintained",
+  "controller": "maintained"
+ },
+ "maintained_intentions": [
+  "attribute"
+ ],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.29463984101884266,
+   "write:sec4:s4.2": 0.23307929849648434,
+   "revise:sec3:s3.2": 0.04661879250875236,
+   "revise:sec3:s3.1": 0.04661879250875236,
+   "revise:sec4:s4.1": 0.04311533492529211,
+   "revise:sec1:s1.1": 0.05450289026013109,
+   "revise:sec2:s2.2": 0.050406933373935287,
+   "check:sec1:s1.1": 0.03305767398572257,
+   "check:sec2:s2.1": 0.03057335055338373,
+   "check:sec3:s3.1": 0.028275726975339942,
+   "check:sec4:s4.1": 0.026150772535968574,
+   "consult:sec1:src": 0.05120072707145651,
+   "fix:sec1:urgent": 0.061759865785938534
+  },
+  "next_edit_type": {
+   "write": 0.527719139515327,
+   "revise": 0.2412627435768632,
+   "check": 0.11805752405041482,
+   "consult": 0.05120072707145651,
+   "fix": 0.061759865785938534
+  },
+  "next_section": {
+   "sec1": 0.49516099812209136,
+   "sec4": 0.30234540595774506,
+   "sec3": 0.12151331199284465,
+   "sec2": 0.08098028392731901
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5092034044083347
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "card": "I04",
+ "lane": "discovery",
+ "written_at": "2026-08-30T15:40:56",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "leaked": [],
+ "canary_caught": true,
+ "cheap_floors": {
+  "C": {
+   "cheap_1nn": 0.28125,
+   "truth_marginal": 0.25,
+   "n": 32,
+   "at_floor": true
+  },
+  "V": {
+   "cheap_1nn": 0.53125,
+   "truth_marginal": 0.5,
+   "n": 32,
+   "at_floor": true
+  },
+  "F": {
+   "cheap_1nn": 0.1875,
+   "truth_marginal": 0.25,
+   "n": 32,
+   "at_floor": true
+  }
+ }
+}

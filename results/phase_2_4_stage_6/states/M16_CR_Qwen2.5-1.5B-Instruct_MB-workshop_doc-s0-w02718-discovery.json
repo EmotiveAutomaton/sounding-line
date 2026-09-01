@@ -1,0 +1,98 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w02718|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach to revising and checking sections was driven by urgency and ensuring that critical elements were addressed promptly."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.2": 0.16012388760535246,
+   "write:sec3:s3.1": 0.13554194457636956,
+   "write:sec3:s3.2": 0.13554194457636956,
+   "write:sec3:s3.3": 0.13554194457636956,
+   "consult:sec1:src": 0.23104545818018649,
+   "cite:sec3:ref": 0.20220482048535232
+  },
+  "next_edit_type": {
+   "write": 0.5667497213344612,
+   "consult": 0.23104545818018649,
+   "cite": 0.20220482048535232
+  },
+  "next_section": {
+   "sec2": 0.16012388760535246,
+   "sec3": 0.608830654214461,
+   "sec1": 0.23104545818018649
+  },
+  "changed_context": {
+   "finish_quietly": 0.24167595100157666,
+   "expand_scope": 0.16200023460108376,
+   "recheck_sources": 0.39845628103298136,
+   "polish_wording": 0.1978675333643583
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.42926321436168313
+ },
+ "uncertainty": {
+  "posterior_weight": 0.15891087744759824,
+  "abstain": false
+ }
+}

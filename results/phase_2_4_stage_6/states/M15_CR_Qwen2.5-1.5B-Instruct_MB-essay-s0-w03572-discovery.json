@@ -1,0 +1,110 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w03572|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and revising sections based on their completeness and readiness for review or publication. They focused on completing and checking each section before m"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.0053580579614044815,
+   "write:sec4:s4.2": 0.003682535792013912,
+   "revise:sec1:s1.1": 0.01609649568198704,
+   "revise:sec2:s2.1": 0.014205107581819875,
+   "revise:sec3:s3.3": 0.012535963441836993,
+   "revise:sec3:s3.1": 0.012535963441836993,
+   "check:sec3:s3.1": 0.30753890168672493,
+   "check:sec4:s4.1": 0.2714021281628032,
+   "consult:sec1:src": 0.16054938481527603,
+   "fix:sec1:urgent": 0.19609546143429665
+  },
+  "next_edit_type": {
+   "write": 0.009040593753418393,
+   "revise": 0.0553735301474809,
+   "check": 0.5789410298495281,
+   "consult": 0.16054938481527603,
+   "fix": 0.19609546143429665
+  },
+  "next_section": {
+   "sec1": 0.3780993998929642,
+   "sec4": 0.27508466395481707,
+   "sec2": 0.014205107581819875,
+   "sec3": 0.3326108285703989
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5316396522178898
+ },
+ "uncertainty": {
+  "posterior_weight": 0.6755622906261732,
+  "abstain": false
+ }
+}

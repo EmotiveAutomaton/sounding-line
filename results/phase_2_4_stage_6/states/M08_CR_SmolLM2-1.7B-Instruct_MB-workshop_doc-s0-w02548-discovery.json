@@ -1,0 +1,99 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w02548|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a sequential and iterative approach, focusing on one section at a time and revisiting previous sections as needed."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.022795546086275306,
+   "write:sec3:s3.2": 0.016333722512444054,
+   "revise:sec2:s2.2": 0.8625546447390747,
+   "check:sec3:s3.1": 0.03635136796608305,
+   "fix:sec1:urgent": 0.06196471869612287
+  },
+  "next_edit_type": {
+   "write": 0.03912926859871936,
+   "revise": 0.8625546447390747,
+   "check": 0.03635136796608305,
+   "fix": 0.06196471869612287
+  },
+  "next_section": {
+   "sec1": 0.08476026478239818,
+   "sec3": 0.052685090478527104,
+   "sec2": 0.8625546447390747
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.49430692900932854
+ },
+ "uncertainty": {
+  "posterior_weight": 0.345179915310449,
+  "abstain": false
+ }
+}

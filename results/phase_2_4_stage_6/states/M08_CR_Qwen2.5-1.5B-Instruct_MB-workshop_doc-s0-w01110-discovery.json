@@ -1,0 +1,106 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w01110|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's workflow was driven by addressing and revising specific sections based on feedback or requirements from previous drafts, particularly focusing on section 4 which had been extensively revis"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10",
+   "step11"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.01707925781519487,
+   "write:sec3:s3.1": 0.015072392120353224,
+   "write:sec3:s3.2": 0.015072392120353224,
+   "check:sec4:s4.1": 0.026785608150698307,
+   "cite:sec4:ref": 0.8870175198988071,
+   "fix:sec1:urgent": 0.03897282989459335
+  },
+  "next_edit_type": {
+   "write": 0.04722404205590132,
+   "check": 0.026785608150698307,
+   "cite": 0.8870175198988071,
+   "fix": 0.03897282989459335
+  },
+  "next_section": {
+   "sec2": 0.01707925781519487,
+   "sec3": 0.03014478424070645,
+   "sec4": 0.9138031280495054,
+   "sec1": 0.03897282989459335
+  },
+  "changed_context": {
+   "finish_quietly": 0.24167595100157666,
+   "expand_scope": 0.16200023460108376,
+   "recheck_sources": 0.39845628103298136,
+   "polish_wording": 0.1978675333643583
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4886700704102175
+ },
+ "uncertainty": {
+  "posterior_weight": 0.1328145573746266,
+  "abstain": false
+ }
+}

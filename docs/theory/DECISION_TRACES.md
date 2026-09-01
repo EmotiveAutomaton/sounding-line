@@ -101,8 +101,7 @@ the event graph: few upstream events with wide downstream scope can organize man
 events. Wide causal scope does not guarantee artifact visibility, and numerous visible execution
 events do not by themselves identify control.
 
-**Mixed production is a network of acceptance** *(the 2026-08-21 pass; provenance in
-`docs/design/archive/PHASE_2_3_THEORY_AND_DESIGN_ERRATA.md`)*:
+**Mixed production is a network of acceptance** *(the 2026-08-21 pass)*:
 
 > Collaborative work is a network of acceptance. Everyone involved gets to pass judgment on
 > everyone else's work a little bit, and the human decision may be recognition and integration
@@ -172,6 +171,29 @@ measure that died, died reading artifacts alone.
 conditions as further candidate movers. **OPEN (the L18 pilot measured the corpus gap instead),
 blocked on the one-maker-many-kinds corpus its own definition demands**, the same corpus the
 values thread keeps arriving at.**)**
+
+**An unusual act is epistemic exploration only through its outcome channel** *(the
+2026-08-30/31 passes; provenance in `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*:
+
+> If you are going to explore, you need to explore all the way. You need to see the result one way
+> or another.
+
+*2026-08-30 assessment; spoken wording lightly reconstructed.*
+
+**An unusual action is not yet a trace of epistemic exploration.** The exploratory account
+needs an outcome-sufficient commitment or an escalating probe, an observation capable of
+reducing the maker's uncertainty, and later stopping or policy change consistent with what was
+learned. The rivals have their own mechanics: an ordinary error may be repaired before it
+reveals an outcome; a familiar technique used in the wrong context may run FARTHER because it
+is weakly monitored; a hidden artifact-level goal should integrate the unusual action with
+wider structure. These rivals can remain observationally equivalent in a finished artifact, in
+which case the trace stays `indeterminate`. The Stage-6 F track instruments this standard in
+constructed worlds (the outcome-read is the discriminating event); no artifact READER has yet
+separated the four rivals (the Stage-6 tetrad card at the reader lands at the marginal, +0.009
+[+0.001, +0.016] on 3840 world-readers at fortyfold units, with a hidden-goal attractor: 0.55
+posterior on that account against 0.07 on habitual misuse, F11/x1, L323); this is a
+classification standard and a ruling, never a result, and not a claim that unusual action
+implies exploration.
 
 No direct test of the coordinate system itself exists; its components are tested below.
 
@@ -570,7 +592,7 @@ many aligned motivations *should* read as more intentional:
 | **P02** | Process geometry the final artifact does not carry (segmentation, then a prefix) buys recovery of the recorded first action that pixels alone do not | **SUPPORTED (test, L238), one corpus.** With the strokes as an unordered set a learned ordering prior finds the first stroke at 0.69 against 0.49 for the longest-stroke rule (permutation floor 0.22); with the true first stroke given, the next stroke's placement is predicted at 0.50 against 0.35 |
 
 | **P01-S5** | Richer process access (final geometry, unordered set, partial order, true prefix) improves next-stroke prediction beyond cheap priors, monotonically | **VALID NULL with the priors in the predictor (test, L287; L259 before), one corpus.** A logistic model per level sits below the better of the category and bounding-box priors at every level (−0.35, −0.11, −0.02, −0.13 nats on 555 drawings), not monotone; the predictor cannot match its own marginals, so the ladder is untested above them for the next stroke |
-| **P02-S5** | A reader proposes an enactable drawing order from an unordered stroke set beyond the blind rate, and abstains where several orders fit | **ENACTABILITY SUPPORTED, ABSTENTION FAILED (test, L274), 45 parseable of 120.** Enactable 0.56 against 0.17 blind, the historical order in 0.72 of enactable proposals; 'the order can be determined' answered yes in 0.62 of artifacts where four orders fit. Second contract, comma format, two readers (L304): every reply parses, two thirds echo the listing, the genuine third is enactable at 0.70 with the historical order in 0.45 of those |
+| **P02-S5** | A reader proposes an enactable drawing order from an unordered stroke set beyond the blind rate, and abstains where several orders fit | **ENACTABILITY SUPPORTED, ABSTENTION FAILED (test, L274), 45 parseable of 120.** Enactable 0.56 against 0.17 blind, the historical order in 0.72 of enactable proposals; 'the order can be determined' answered yes in 0.62 of artifacts where four orders fit. Second contract, comma format, two readers (L304): every reply parses, two thirds echo the listing, the genuine third is enactable at 0.70 with the historical order in 0.45 of those. Under the echo rule with a second turn (L312, 240 drawings per reader): first-turn genuine proposals enactable at 0.82 against 0.17 blind, the historical order in 0.43 of those against 0.25; a second turn recovers Qwen nine times in ten at 0.50 enactable and SmolLM2 almost never; the genuine population's primary is +0.44 [+0.39, +0.50] |
 | **P03-S5** | Process access rewards competence more: the true prefix buys more from a fourfold training set than the unordered set does | **SUPPORTED thinly with the priors in the predictor (test, L289; INCONCLUSIVE at L262).** Competence gains +0.16, +0.19, +0.30 nats at set, partial order, prefix; the interaction +0.14 [+0.01, +0.27] on 555 drawings |
 
 **What the table says.** The layered end of the topology is the best-evidenced thing in this file,
@@ -601,13 +623,16 @@ placement priors at any access, including the true prefix (P01-S5), so what acce
 beyond a sharp marginal is unmeasured for later actions; competence helps that predictor
 most with the true prefix, and with the priors inside the predictor the difference between
 access levels clears zero, thinly (P03-S5): access is worth more to a competent predictor
-than on its own. A small reader given the strokes as an unordered set proposes an enactable order,
-usually the actual one, on the third of trials it answers in form, and says the order is
-determinable in three of five artifacts where four orders fit (P02-S5), so the process is
-readable from segmentation by a reader too, and equifinality is not.
+than on its own. A small reader given the strokes as an unordered set proposes an enactable order
+five times the blind rate, the actual one at nearly twice chance, on the trials it attempts, which
+are a third of them unprompted; the attempt rate is the reader's own (a second turn moves one reader
+to nine attempts in ten at half the quality and the other not at all), and it says the order is
+determinable in most artifacts where four orders fit (P02-S5), so the process is readable from
+segmentation by a reader too, and equifinality is not.
 Confidence: the stacked-motivations reversal is replicated and controlled; the convergence null is
 one bad test away; the process-geometry boundary is one bad test away, one corpus, and holds for the first
-stroke only; the rest is untested or instrument-dead.
+stroke only; the reader's segmentation reconstruction is one bad test away, two readers, one corpus, the
+echo rule applied; the rest is untested or instrument-dead.
 
 # Part II: The measurement ledger
 

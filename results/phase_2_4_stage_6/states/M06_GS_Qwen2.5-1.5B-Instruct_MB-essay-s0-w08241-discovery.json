@@ -1,0 +1,107 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "maintained|MB|essay|s0|w08241|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "keeps an unfinished concern warm in the background and returns to it when reminded"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "maintained",
+  "controller": "maintained"
+ },
+ "maintained_intentions": [
+  "attribute"
+ ],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.0032263021613061593,
+   "write:sec2:s2.2": 0.002983841724960878,
+   "write:sec4:s4.2": 0.0025522150768702064,
+   "revise:sec4:s4.1": 0.003488464401101995,
+   "check:sec3:s3.1": 0.0042741559303523975,
+   "check:sec4:s4.1": 0.003952948039687418,
+   "consult:sec1:src": 0.0072705841545645895,
+   "cite:sec4:ref": 0.9672544939711766,
+   "fix:sec1:urgent": 0.004996994539979768
+  },
+  "next_edit_type": {
+   "write": 0.008762358963137243,
+   "revise": 0.003488464401101995,
+   "check": 0.008227103970039815,
+   "consult": 0.0072705841545645895,
+   "cite": 0.9672544939711766,
+   "fix": 0.004996994539979768
+  },
+  "next_section": {
+   "sec1": 0.015493880855850517,
+   "sec2": 0.002983841724960878,
+   "sec4": 0.9772481214888362,
+   "sec3": 0.0042741559303523975
+  },
+  "changed_context": {
+   "finish_quietly": 0.24825380588960336,
+   "expand_scope": 0.19334025842727964,
+   "recheck_sources": 0.33932272093070476,
+   "polish_wording": 0.21908321475241235
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5406910786113255
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

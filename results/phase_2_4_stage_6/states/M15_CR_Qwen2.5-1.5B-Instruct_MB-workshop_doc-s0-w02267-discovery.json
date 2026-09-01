@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w02267|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by addressing and revising references and urgent issues within each section, with drafts being made and corrections applied sequentially."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 7,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.3": 0.05249182208570218,
+   "write:sec2:s2.1": 0.04729907413537727,
+   "revise:sec1:s1.1": 0.10439245342848323,
+   "revise:sec3:s3.3": 0.084760027202423,
+   "revise:sec3:s3.2": 0.084760027202423,
+   "check:sec3:s3.1": 0.6262965959455913
+  },
+  "next_edit_type": {
+   "write": 0.09979089622107945,
+   "revise": 0.2739125078333292,
+   "check": 0.6262965959455913
+  },
+  "next_section": {
+   "sec1": 0.15688427551418543,
+   "sec2": 0.047299074135377275,
+   "sec3": 0.7958166503504374
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.42091332741768334
+ },
+ "uncertainty": {
+  "posterior_weight": 0.7254833870580544,
+  "abstain": false
+ }
+}

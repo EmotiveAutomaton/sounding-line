@@ -1,0 +1,110 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w03045|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and revising existing sections while adding new content, with a focus on completing missing parts like \"s2.1\" and ensuring all references were properly "
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.020493490009690977,
+   "revise:sec4:s4.1": 0.18845462753990946,
+   "revise:sec3:s3.3": 0.2037680373774279,
+   "revise:sec3:s3.2": 0.2037680373774279,
+   "revise:sec2:s2.2": 0.22032578132291164,
+   "check:sec1:s1.1": 0.036533595985660125,
+   "check:sec3:s3.1": 0.0312488406160716,
+   "check:sec4:s4.1": 0.02890045315815616,
+   "consult:sec1:src": 0.025109148836625118,
+   "fix:sec1:urgent": 0.0413979877761192
+  },
+  "next_edit_type": {
+   "write": 0.020493490009690977,
+   "revise": 0.8163164836176768,
+   "check": 0.09668288975988788,
+   "consult": 0.025109148836625118,
+   "fix": 0.0413979877761192
+  },
+  "next_section": {
+   "sec2": 0.2408192713326026,
+   "sec4": 0.21735508069806564,
+   "sec3": 0.4387849153709274,
+   "sec1": 0.10304073259840443
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4852585974949983
+ },
+ "uncertainty": {
+  "posterior_weight": 0.14074589266927048,
+  "abstain": false
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|workshop_doc|s0|w08244|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 17,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.09684004692329422,
+   "write:sec2:s2.1": 0.08546104145595403,
+   "write:sec2:s2.2": 0.08546104145595403,
+   "write:sec2:s2.3": 0.08546104145595403,
+   "write:sec3:s3.1": 0.07541910437653312,
+   "write:sec4:s4.2": 0.0665571260079948,
+   "check:sec4:s4.1": 0.09929156438274876,
+   "consult:sec1:src": 0.13742256799309513,
+   "cite:sec4:ref": 0.10438235174954286,
+   "fix:sec1:urgent": 0.1637041141989291
+  },
+  "next_edit_type": {
+   "write": 0.4951994016756842,
+   "check": 0.09929156438274876,
+   "consult": 0.13742256799309513,
+   "cite": 0.10438235174954286,
+   "fix": 0.1637041141989291
+  },
+  "next_section": {
+   "sec1": 0.39796672911531844,
+   "sec2": 0.2563831243678621,
+   "sec3": 0.07541910437653312,
+   "sec4": 0.2702310421402864
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4286665025228831
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "focal_habit|MB|workshop_doc|s0|w08202|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "pursues one concern while old routines keep steering some choices"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "focal_habit",
+  "controller": "focal_habit"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {
+   "revise": 1.0,
+   "write": 0.4
+  }
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.3": 0.5711169878404931,
+   "revise:sec3:s3.1": 0.07991210989159103,
+   "revise:sec2:s2.2": 0.09440500313449486,
+   "revise:sec3:s3.2": 0.07991210989159103,
+   "revise:sec1:s1.2": 0.11152633347954942,
+   "check:sec1:s1.1": 0.011181501239303442,
+   "check:sec2:s2.1": 0.009464936455912114,
+   "check:sec3:s3.1": 0.008011895737180547,
+   "consult:sec1:src": 0.022516778394231787,
+   "cite:sec3:ref": 0.011952343935652745
+  },
+  "next_edit_type": {
+   "write": 0.571116987840493,
+   "revise": 0.36575555639722634,
+   "check": 0.0286583334323961,
+   "consult": 0.022516778394231784,
+   "cite": 0.011952343935652743
+  },
+  "next_section": {
+   "sec2": 0.6749869274309,
+   "sec3": 0.17978845945601538,
+   "sec1": 0.14522461311308466
+  },
+  "changed_context": {
+   "finish_quietly": 0.15903317732963676,
+   "expand_scope": 0.5280087433286894,
+   "recheck_sources": 0.0872792582435094,
+   "polish_wording": 0.22567882109816445
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.43966797113883715
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

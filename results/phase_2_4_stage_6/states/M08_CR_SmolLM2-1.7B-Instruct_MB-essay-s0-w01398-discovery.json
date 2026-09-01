@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w01398|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on reworking and refining existing content rather than adding new sections or content."
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.1": 0.8261223823355189,
+   "revise:sec2:s2.1": 0.032570585371484245,
+   "revise:sec3:s3.2": 0.027570405285950988,
+   "check:sec1:s1.1": 0.017289100231374435,
+   "check:sec2:s2.1": 0.01463490738566055,
+   "consult:sec1:src": 0.03481597240065872,
+   "fix:sec1:urgent": 0.04699664698935221
+  },
+  "next_edit_type": {
+   "write": 0.8261223823355188,
+   "revise": 0.06014099065743522,
+   "check": 0.03192400761703498,
+   "consult": 0.034815972400658715,
+   "fix": 0.0469966469893522
+  },
+  "next_section": {
+   "sec3": 0.8536927876214698,
+   "sec2": 0.047205492757144786,
+   "sec1": 0.09910171962138535
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.44051206642573626
+ },
+ "uncertainty": {
+  "posterior_weight": 0.20524292362484672,
+  "abstain": false
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03471|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's workflow was driven by addressing and resolving specific issues or concerns identified during the process."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.031834626589707024,
+   "write:sec2:s2.2": 0.029442216620671577,
+   "write:sec2:s2.3": 0.029442216620671577,
+   "write:sec3:s3.1": 0.027229599100082526,
+   "write:sec4:s4.3": 0.025183262412064367,
+   "revise:sec3:s3.2": 0.0541525240120384,
+   "check:sec2:s2.1": 0.43265021493853584,
+   "check:sec4:s4.1": 0.3700653397062287
+  },
+  "next_edit_type": {
+   "write": 0.14313192134319708,
+   "revise": 0.0541525240120384,
+   "check": 0.8027155546447645
+  },
+  "next_section": {
+   "sec1": 0.031834626589707024,
+   "sec2": 0.491534648179879,
+   "sec3": 0.08138212311212092,
+   "sec4": 0.39524860211829305
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5518337518831792
+ },
+ "uncertainty": {
+  "posterior_weight": 0.44836206997642974,
+  "abstain": false
+ }
+}

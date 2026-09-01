@@ -1,0 +1,107 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03903|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker was driven by a flexible and iterative approach, where they addressed concerns as they arose and reworked sections as needed, without adhering to a strict chronological order or a single, li"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10",
+   "step11",
+   "step12",
+   "step13"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.05936251191976496,
+   "write:sec3:s3.3": 0.05077544718780212,
+   "revise:sec1:s1.3": 0.6382071484080075,
+   "check:sec2:s2.1": 0.09051702138938693,
+   "check:sec3:s3.1": 0.08371455980784034,
+   "check:sec4:s4.1": 0.07742331128719813
+  },
+  "next_edit_type": {
+   "write": 0.11013795910756707,
+   "revise": 0.6382071484080075,
+   "check": 0.2516548924844254
+  },
+  "next_section": {
+   "sec1": 0.6975696603277725,
+   "sec3": 0.13449000699564245,
+   "sec2": 0.09051702138938693,
+   "sec4": 0.07742331128719813
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.6155391626517636
+ },
+ "uncertainty": {
+  "posterior_weight": 0.21494213924001793,
+  "abstain": false
+ }
+}

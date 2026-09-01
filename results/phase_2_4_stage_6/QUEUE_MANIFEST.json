@@ -1,0 +1,3605 @@
+{
+ "I01": {
+  "cell_id": "I01",
+  "card": "I01",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I01\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Do the Stage 5/5R anchors reproduce from committed inputs?",
+  "reason": "all anchors reproduce",
+  "budget_charged_min": 0.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:40:20",
+  "finished_at": "2026-08-30T15:40:28",
+  "detail": "all anchors reproduce"
+ },
+ "I02": {
+  "cell_id": "I02",
+  "card": "I02",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I02\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does the manifest recursively enumerate all 104 cards, 24 attacks, factors, lineages, floors, and outputs?",
+  "reason": "363 expected cells; removal detected: True",
+  "budget_charged_min": 0.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:40:28",
+  "finished_at": "2026-08-30T15:40:35",
+  "detail": "363 expected cells; removal detected: True"
+ },
+ "I03": {
+  "cell_id": "I03",
+  "card": "I03",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I03\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Are construction identities, surface twins, lineage groups, and natural splits valid?",
+  "reason": "clean",
+  "budget_charged_min": 0.22,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:40:35",
+  "finished_at": "2026-08-30T15:40:48",
+  "detail": "clean"
+ },
+ "I09": {
+  "cell_id": "I09",
+  "card": "I09",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I09\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Do exact, null, contradiction, and equifinality fixtures produce the required posterior shapes?",
+  "reason": "{\"no_information_near_uniform\": true, \"full_order_concentrates\": true, \"twins_flat_before_event\": true, \"twins_diverge_after\": true, \"equifinal_exactly_flat\": true}",
+  "budget_charged_min": 0.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:40:48",
+  "finished_at": "2026-08-30T15:40:56",
+  "detail": "{\"no_information_near_uniform\": true, \"full_order_concentrates\": true, \"twins_flat_before_event\": true, \"twins_diverge_after\": true, \"equifinal_exactly_flat\": true}"
+ },
+ "I04": {
+  "cell_id": "I04",
+  "card": "I04",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I04\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Are next-edit, stopping, and changed-context targets hidden from prompts, proposals, filenames, and schemas?",
+  "reason": "clean",
+  "budget_charged_min": 0.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:40:56",
+  "finished_at": "2026-08-30T15:41:04",
+  "detail": "clean"
+ },
+ "I10": {
+  "cell_id": "I10",
+  "card": "I10",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I10\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Do checkpoint/resume, deadline, GPU lock, companion-process ownership, and report suppression work end to end?",
+  "reason": "{\"resume_sees_completed_unit\": true, \"deadline_persists\": true, \"gpu_lock_roundtrip\": true, \"ghost_status_readable_untouched\": true, \"packet_refused_before_deadline\": true}",
+  "budget_charged_min": 0.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:41:04",
+  "finished_at": "2026-08-30T15:41:12",
+  "detail": "{\"resume_sees_completed_unit\": true, \"deadline_persists\": true, \"gpu_lock_roundtrip\": true, \"ghost_status_readable_untouched\": true, \"packet_refused_before_deadline\": true}"
+ },
+ "I06": {
+  "cell_id": "I06",
+  "card": "I06",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I06\\verdict.json",
+  "est_minutes": 9.0,
+  "gpu": true,
+  "why": "Can each architecture emit a valid realized state and normalized predictions under exact fixtures?",
+  "reason": "all arms valid (GS may refuse by design)",
+  "budget_charged_min": 0.47,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:41:12",
+  "finished_at": "2026-08-30T15:41:40",
+  "detail": "all arms valid (GS may refuse by design)"
+ },
+ "I07": {
+  "cell_id": "I07",
+  "card": "I07",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I07\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Do paired architectures see identical observations and obey their declared compute budgets?",
+  "reason": "parity holds",
+  "budget_charged_min": 0.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:42:42",
+  "finished_at": "2026-08-30T15:42:50",
+  "detail": "parity holds"
+ },
+ "I05": {
+  "cell_id": "I05",
+  "card": "I05",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I05\\verdict.json",
+  "est_minutes": 6.4,
+  "gpu": true,
+  "why": "Can each admitted reader use a supplied true maker state to beat the best cheap baseline on next edit and stopping?",
+  "reason": "no reader beats the cheap baseline with the true state supplied (a reader boundary)",
+  "budget_charged_min": 1.04,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:41:40",
+  "finished_at": "2026-08-30T15:42:42",
+  "detail": "no reader beats the cheap baseline with the true state supplied (a reader boundary)"
+ },
+ "I08": {
+  "cell_id": "I08",
+  "card": "I08",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "I06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I08\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": true,
+  "why": "Are proposal wording, option order, labels, and JSON key order irrelevant when meaning is fixed?",
+  "reason": "paraphrase TV 0.168, meaning TV 0.332",
+  "budget_charged_min": 0.3,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:42:50",
+  "finished_at": "2026-08-30T15:43:08",
+  "detail": "paraphrase TV 0.168, meaning TV 0.332"
+ },
+ "M01": {
+  "cell_id": "M01",
+  "card": "M01",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "I05",
+   "I06",
+   "I07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M01\\verdict.json",
+  "est_minutes": 10.666666666666666,
+  "gpu": true,
+  "why": "How well does a direct monolithic reader predict the next event without an explicit maker state?",
+  "reason": "re-planned at restart; resumes from its rows",
+  "budget_charged_min": 1.82,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-08-30T15:43:32",
+  "finished_at": "2026-08-30T15:45:21",
+  "detail": null
+ },
+ "M02": {
+  "cell_id": "M02",
+  "card": "M02",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M02\\verdict.json",
+  "est_minutes": 17.066666666666666,
+  "gpu": true,
+  "why": "Does label-only augmented inverse planning improve over direct reading?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.34,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:45:21",
+  "finished_at": "2026-08-30T15:46:41",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "M03": {
+  "cell_id": "M03",
+  "card": "M03",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "M02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M03\\verdict.json",
+  "est_minutes": 17.066666666666666,
+  "gpu": true,
+  "why": "Does attaching a fixed definition to each label explain any M02 gain?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 1.58,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:46:41",
+  "finished_at": "2026-08-30T15:48:16",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "M05": {
+  "cell_id": "M05",
+  "card": "M05",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "M02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M05\\verdict.json",
+  "est_minutes": 21.333333333333332,
+  "gpu": true,
+  "why": "Does grammar-constrained semantic realization improve validity and prediction?",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 1.75,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:48:16",
+  "finished_at": "2026-08-30T15:50:01",
+  "detail": "interval entirely below zero"
+ },
+ "M04": {
+  "cell_id": "M04",
+  "card": "M04",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "M02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M04\\verdict.json",
+  "est_minutes": 25.6,
+  "gpu": true,
+  "why": "Do free-language weighted particles preserve useful competing hypotheses through contradiction?",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 3.05,
+  "gpu_lock_min": 2.97,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:50:01",
+  "finished_at": "2026-08-30T15:53:04",
+  "detail": "interval entirely below zero"
+ },
+ "M06": {
+  "cell_id": "M06",
+  "card": "M06",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "M05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M06\\verdict.json",
+  "est_minutes": 25.6,
+  "gpu": true,
+  "why": "Does a synthesized executable maker model improve whole-artifact and next-event likelihood?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 1.38,
+  "gpu_lock_min": 1.31,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:53:04",
+  "finished_at": "2026-08-30T15:54:27",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "M07": {
+  "cell_id": "M07",
+  "card": "M07",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M07\\verdict.json",
+  "est_minutes": 25.6,
+  "gpu": true,
+  "why": "Does adaptive variable/history expansion help only when the initial model is missing a cause?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.43,
+  "gpu_lock_min": 1.35,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:54:27",
+  "finished_at": "2026-08-30T15:55:53",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "M08": {
+  "cell_id": "M08",
+  "card": "M08",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "M03",
+   "M04",
+   "M05",
+   "M06",
+   "M07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M08\\verdict.json",
+  "est_minutes": 25.6,
+  "gpu": true,
+  "why": "Does Sounding contextual realization improve prediction beyond the best published scaffold?",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 6.28,
+  "gpu_lock_min": 6.1,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:55:53",
+  "finished_at": "2026-08-30T16:02:10",
+  "detail": "interval entirely below zero"
+ },
+ "M09": {
+  "cell_id": "M09",
+  "card": "M09",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M09\\verdict.json",
+  "est_minutes": 8.533333333333333,
+  "gpu": true,
+  "why": "How much of the exact oracle gap does each architecture close?",
+  "reason": "gap table written",
+  "budget_charged_min": 0.27,
+  "gpu_lock_min": 0.23,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:02:10",
+  "finished_at": "2026-08-30T16:02:26",
+  "detail": "gap table written"
+ },
+ "X02": {
+  "cell_id": "X02",
+  "card": "X02",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I08",
+   "M02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X02\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": true,
+  "why": "Permute opaque proposal labels and JSON keys; no semantic result may move.",
+  "reason": "invariant TV 0.000; should-break TV 0.269",
+  "budget_charged_min": 0.82,
+  "gpu_lock_min": 0.78,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:02:26",
+  "finished_at": "2026-08-30T16:03:15",
+  "detail": "invariant TV 0.000; should-break TV 0.269"
+ },
+ "X09": {
+  "cell_id": "X09",
+  "card": "X09",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I08",
+   "M01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X09\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": true,
+  "why": "Permute answer order and use fixed-order paired likelihoods.",
+  "reason": "invariant TV 0.046; should-break TV 0.272",
+  "budget_charged_min": 0.78,
+  "gpu_lock_min": 0.74,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:03:15",
+  "finished_at": "2026-08-30T16:04:02",
+  "detail": "invariant TV 0.046; should-break TV 0.272"
+ },
+ "X03": {
+  "cell_id": "X03",
+  "card": "X03",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "M02",
+   "M03",
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X03\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Match candidate length, fluency, specificity, and confidence language.",
+  "reason": "definition length spread 18, display spread 35",
+  "budget_charged_min": 0.27,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:02:10",
+  "finished_at": "2026-08-30T16:02:26",
+  "detail": "definition length spread 18, display spread 35"
+ },
+ "X11": {
+  "cell_id": "X11",
+  "card": "X11",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I07",
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X11\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Equalize or explicitly account for compute, context length, calls, and solver work.",
+  "reason": "I07 INFRASTRUCTURE",
+  "budget_charged_min": 0.27,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:02:10",
+  "finished_at": "2026-08-30T16:02:26",
+  "detail": "I07 INFRASTRUCTURE"
+ },
+ "M10": {
+  "cell_id": "M10",
+  "card": "M10",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M10\\verdict.json",
+  "est_minutes": 16.0,
+  "gpu": true,
+  "why": "Does the realized state assign better likelihood to withheld decisions across the whole artifact?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 4.77,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:04:02",
+  "finished_at": "2026-08-30T16:08:51",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "M11": {
+  "cell_id": "M11",
+  "card": "M11",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M11\\verdict.json",
+  "est_minutes": 12.8,
+  "gpu": true,
+  "why": "Does it predict the type, location, and direction of the maker's next edit?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 4.77,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:08:51",
+  "finished_at": "2026-08-30T16:13:39",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "M12": {
+  "cell_id": "M12",
+  "card": "M12",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M12\\verdict.json",
+  "est_minutes": 12.8,
+  "gpu": true,
+  "why": "Does it predict continuation versus stopping at genuine decision points?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 4.77,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:13:39",
+  "finished_at": "2026-08-30T16:18:28",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "M13": {
+  "cell_id": "M13",
+  "card": "M13",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M13\\verdict.json",
+  "est_minutes": 16.0,
+  "gpu": true,
+  "why": "Do nearest rival states make and survive distinct counterfactual predictions?",
+  "reason": "{\"posterior_move_when_discriminating\": 0.666, \"posterior_move_when_not\": 0.418}",
+  "budget_charged_min": 4.99,
+  "gpu_lock_min": 4.94,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:18:28",
+  "finished_at": "2026-08-30T16:23:28",
+  "detail": "{\"posterior_move_when_discriminating\": 0.666, \"posterior_move_when_not\": 0.418}"
+ },
+ "M14": {
+  "cell_id": "M14",
+  "card": "M14",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M14\\verdict.json",
+  "est_minutes": 12.8,
+  "gpu": true,
+  "why": "Does the same short proposal realize different maker policies in two contexts that require it?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 3.71,
+  "gpu_lock_min": 3.67,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:23:28",
+  "finished_at": "2026-08-30T16:27:11",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "M15": {
+  "cell_id": "M15",
+  "card": "M15",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M15\\verdict.json",
+  "est_minutes": 16.0,
+  "gpu": true,
+  "why": "Do paraphrased proposals converge behaviorally while meaning-changing proposals diverge?",
+  "reason": "paraphrase TV 0.0000, meaning TV 0.425",
+  "budget_charged_min": 16.61,
+  "gpu_lock_min": 16.57,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:27:11",
+  "finished_at": "2026-08-30T16:43:47",
+  "detail": "paraphrase TV 0.0000, meaning TV 0.425"
+ },
+ "M16": {
+  "cell_id": "M16",
+  "card": "M16",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M16\\verdict.json",
+  "est_minutes": 16.0,
+  "gpu": true,
+  "why": "Does the architecture transfer to a new artifact domain and reader family without rebuilding its ontology?",
+  "reason": "4 conditional cells, min -1.077 max -1.027",
+  "budget_charged_min": 4.13,
+  "gpu_lock_min": 4.09,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:43:47",
+  "finished_at": "2026-08-30T16:47:55",
+  "detail": "4 conditional cells, min -1.077 max -1.027"
+ },
+ "X01": {
+  "cell_id": "X01",
+  "card": "X01",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "M15",
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X01\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": true,
+  "why": "Paraphrase a proposal without changing its operative meaning; predictions should remain stable.",
+  "reason": "invariant TV 0.197; should-break TV 0.258",
+  "budget_charged_min": 0.58,
+  "gpu_lock_min": 0.54,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:47:55",
+  "finished_at": "2026-08-30T16:48:30",
+  "detail": "invariant TV 0.197; should-break TV 0.258"
+ },
+ "X10": {
+  "cell_id": "X10",
+  "card": "X10",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "M05",
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X10\\verdict.json",
+  "est_minutes": 6.4,
+  "gpu": true,
+  "why": "Vary prompt template, schema presentation, and serialization without changing evidence.",
+  "reason": "invariant TV 0.138; should-break TV 0.247",
+  "budget_charged_min": 0.69,
+  "gpu_lock_min": 0.65,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:48:30",
+  "finished_at": "2026-08-30T16:49:11",
+  "detail": "invariant TV 0.138; should-break TV 0.247"
+ },
+ "X04": {
+  "cell_id": "X04",
+  "card": "X04",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "M04",
+   "V06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X04\\verdict.json",
+  "est_minutes": 6.4,
+  "gpu": true,
+  "why": "Duplicate or paraphrase evidence from one cause; confidence must not rise as if independent.",
+  "reason": "duplicate evidence sharpens the posterior by -0.008",
+  "budget_charged_min": 0.39,
+  "gpu_lock_min": 0.35,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:06:20",
+  "finished_at": "2026-08-30T17:06:43",
+  "detail": "duplicate evidence sharpens the posterior by -0.008"
+ },
+ "P01": {
+  "cell_id": "P01",
+  "card": "P01",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P01\\verdict.json",
+  "est_minutes": 2.1333333333333333,
+  "gpu": false,
+  "why": "Can the reader predict the next edit type?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 0.82,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:02:26",
+  "finished_at": "2026-08-30T16:03:15",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "P02": {
+  "cell_id": "P02",
+  "card": "P02",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P02\\verdict.json",
+  "est_minutes": 2.1333333333333333,
+  "gpu": false,
+  "why": "Can it predict the location and scope of the next edit?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 0.82,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:02:26",
+  "finished_at": "2026-08-30T16:03:15",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "P03": {
+  "cell_id": "P03",
+  "card": "P03",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P03\\verdict.json",
+  "est_minutes": 2.1333333333333333,
+  "gpu": false,
+  "why": "Can it predict whether the maker continues or stops?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 0.78,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:03:15",
+  "finished_at": "2026-08-30T16:04:02",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "P04": {
+  "cell_id": "P04",
+  "card": "P04",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P04\\verdict.json",
+  "est_minutes": 2.1333333333333333,
+  "gpu": false,
+  "why": "Can it predict which of several live alternatives the maker rejects?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 0.78,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:03:15",
+  "finished_at": "2026-08-30T16:04:02",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "P05": {
+  "cell_id": "P05",
+  "card": "P05",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P05\\verdict.json",
+  "est_minutes": 1.6,
+  "gpu": false,
+  "why": "Can it predict a repair after contradiction?",
+  "reason": "repair-after-contradiction carried by the M13 intervention; descriptive summary here",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:04:02",
+  "finished_at": "2026-08-30T16:08:51",
+  "detail": "repair-after-contradiction carried by the M13 intervention; descriptive summary here"
+ },
+ "P06": {
+  "cell_id": "P06",
+  "card": "P06",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P06\\verdict.json",
+  "est_minutes": 1.6,
+  "gpu": false,
+  "why": "Can it predict a later action after an intervening context change?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:04:02",
+  "finished_at": "2026-08-30T16:08:51",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "P07": {
+  "cell_id": "P07",
+  "card": "P07",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M10"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P07\\verdict.json",
+  "est_minutes": 1.6,
+  "gpu": false,
+  "why": "Does artifact-wide likelihood improve rather than only the explicitly queried endpoint?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:08:51",
+  "finished_at": "2026-08-30T16:13:39",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "P09": {
+  "cell_id": "P09",
+  "card": "P09",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P09\\verdict.json",
+  "est_minutes": 1.6,
+  "gpu": false,
+  "why": "Does the reader abstain on exact historical equifinality while retaining enactable routes?",
+  "reason": "{\"abstain_rate_on_equifinal\": 0.5, \"abstain_rate_on_identified\": 0.49193548387096775}",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:08:51",
+  "finished_at": "2026-08-30T16:13:39",
+  "detail": "{\"abstain_rate_on_equifinal\": 0.5, \"abstain_rate_on_identified\": 0.49193548387096775}"
+ },
+ "P10": {
+  "cell_id": "P10",
+  "card": "P10",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P10\\verdict.json",
+  "est_minutes": 12.8,
+  "gpu": true,
+  "why": "Which realized-state fields causally matter for prediction?",
+  "reason": "field ablation table written",
+  "budget_charged_min": 2.41,
+  "gpu_lock_min": 2.33,
+  "attempts": 1,
+  "started_at": "2026-08-31T05:57:31",
+  "finished_at": "2026-08-31T05:59:02",
+  "detail": "field ablation table written",
+  "resets": [
+   {
+    "at": "2026-08-30T17:48:38",
+    "tag": "p10repair2",
+    "why": "the first p10repair reset (issued while the engine ran) was clobbered by the live engine's in-memory manifest saves before the restart could apply it; re-issued with the engine down, and reset now refuses to run while the engine is alive",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "DESCRIPTIVE",
+     "attempts": 1
+    },
+    "moved": []
+   },
+   {
+    "at": "2026-08-31T05:56:24",
+    "tag": "p10repair3",
+    "why": "the realizer ablation crashed three times on KeyError produce: ablated configurations activate goals outside the hypothesis weight dict; weights now completed over the full goal set",
+    "before": {
+     "exec_state": "FAILED",
+     "outcome": "INSTRUMENT_FAILED",
+     "attempts": 3
+    },
+    "moved": [
+     "cases.jsonl"
+    ]
+   }
+  ]
+ },
+ "P11": {
+  "cell_id": "P11",
+  "card": "P11",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "P01",
+   "P03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P11\\verdict.json",
+  "est_minutes": 1.6,
+  "gpu": false,
+  "why": "Does the model improve at a second reader checkpoint and artifact domain?",
+  "reason": "conditional cells written before any pooled mean",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:13:39",
+  "finished_at": "2026-08-30T16:18:28",
+  "detail": "conditional cells written before any pooled mean"
+ },
+ "P08": {
+  "cell_id": "P08",
+  "card": "P08",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "P01",
+   "P03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P08\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Is uncertainty calibrated across evidence dose and contradiction?",
+  "reason": "ece 0.1390287818733687",
+  "budget_charged_min": 4.81,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:13:39",
+  "finished_at": "2026-08-30T16:18:28",
+  "detail": "ece 0.1390287818733687"
+ },
+ "X21": {
+  "cell_id": "X21",
+  "card": "X21",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "P03",
+   "M12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X21\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Match length and section-position stopping base rates across goals.",
+  "reason": "length base-rate gap 0.005 across foraging goals",
+  "budget_charged_min": 5.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:18:28",
+  "finished_at": "2026-08-30T16:23:28",
+  "detail": "length base-rate gap 0.005 across foraging goals"
+ },
+ "X12": {
+  "cell_id": "X12",
+  "card": "X12",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "M16",
+   "P11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X12\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Transfer across reader families; report a family-specific effect rather than pooling it away.",
+  "reason": "family/lineage conditional cells written before pooling",
+  "budget_charged_min": 0.58,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:47:55",
+  "finished_at": "2026-08-30T16:48:30",
+  "detail": "family/lineage conditional cells written before pooling"
+ },
+ "C01": {
+  "cell_id": "C01",
+  "card": "C01",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C01\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Are strict-switch, maintained-goal, focal-plus-habit, and concurrent-objective worlds independently live and surface matched?",
+  "reason": "oracle 0.94 vs marginal 0.25; artifact-surface 1nn 0.34",
+  "budget_charged_min": 1.82,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-08-30T15:43:32",
+  "finished_at": "2026-08-30T15:45:21",
+  "detail": "oracle 0.94 vs marginal 0.25; artifact-surface 1nn 0.34"
+ },
+ "C02": {
+  "cell_id": "C02",
+  "card": "C02",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "C01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C02\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can the controllers produce the same final artifact and aggregate goal counts?",
+  "reason": "0 of 144 full runs mismatched",
+  "budget_charged_min": 1.34,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:45:21",
+  "finished_at": "2026-08-30T15:46:41",
+  "detail": "0 of 144 full runs mismatched"
+ },
+ "C04": {
+  "cell_id": "C04",
+  "card": "C04",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "C02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C04\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Do rapid alternations produce different local edit clusters from simultaneous weighted control?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 1.58,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:46:41",
+  "finished_at": "2026-08-30T15:48:16",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "C06": {
+  "cell_id": "C06",
+  "card": "C06",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "C02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C06\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Do concurrent or maintained goals leave hanging dependencies that a strict switcher does not?",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 1.58,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:46:41",
+  "finished_at": "2026-08-30T15:48:16",
+  "detail": "interval entirely below zero"
+ },
+ "C08": {
+  "cell_id": "C08",
+  "card": "C08",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "C02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C08\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Can a completed intention produce a commission-style residue without being the foreground goal?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 1.75,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:48:16",
+  "finished_at": "2026-08-30T15:50:01",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "C10": {
+  "cell_id": "C10",
+  "card": "C10",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "C02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C10\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Can current goal, stimulus salience, and selection history pull attention in different directions?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 1.75,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:48:16",
+  "finished_at": "2026-08-30T15:50:01",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "C03": {
+  "cell_id": "C03",
+  "card": "C03",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "C02",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C03\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Which controller best predicts the next edit immediately after an interruption?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 2.03,
+  "gpu_lock_min": 1.99,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:50:05",
+  "finished_at": "2026-08-30T16:52:06",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "C05": {
+  "cell_id": "C05",
+  "card": "C05",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "C02",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C05\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Does rereading selectively expose and correct compiled habitual output?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 1.99,
+  "gpu_lock_min": 1.95,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:52:06",
+  "finished_at": "2026-08-30T16:54:06",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "C07": {
+  "cell_id": "C07",
+  "card": "C07",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "C02",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C07\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Can a dormant future intention be recovered while a different goal controls the current action?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 2.1,
+  "gpu_lock_min": 2.05,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:54:06",
+  "finished_at": "2026-08-30T16:56:12",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "C09": {
+  "cell_id": "C09",
+  "card": "C09",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "C02",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C09\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Does surprise switch the foreground goal, alter precision within it, or reveal a missing goal?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 2.17,
+  "gpu_lock_min": 2.13,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:56:12",
+  "finished_at": "2026-08-30T16:58:22",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "C11": {
+  "cell_id": "C11",
+  "card": "C11",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "C03",
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C11\\verdict.json",
+  "est_minutes": 16.0,
+  "gpu": true,
+  "why": "Which inferred controller improves next edit and stopping beyond a controller-agnostic reader?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 1.56,
+  "gpu_lock_min": 1.52,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:58:22",
+  "finished_at": "2026-08-30T16:59:56",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "X13": {
+  "cell_id": "X13",
+  "card": "X13",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "C01",
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X13\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Transfer across maker families and generation lineages.",
+  "reason": "family/lineage conditional cells written before pooling",
+  "budget_charged_min": 2.1,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:54:06",
+  "finished_at": "2026-08-30T16:56:12",
+  "detail": "family/lineage conditional cells written before pooling"
+ },
+ "A01": {
+  "cell_id": "A01",
+  "card": "A01",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A01\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Can an attention-history-only learner and a richer expertise learner be made behaviorally distinct?",
+  "reason": "law recovery 0.84",
+  "budget_charged_min": 1.82,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-08-30T15:43:32",
+  "finished_at": "2026-08-30T15:45:21",
+  "detail": "law recovery 0.84"
+ },
+ "A02": {
+  "cell_id": "A02",
+  "card": "A02",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A02\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "What is learned from repeated exposure without task-relevant selection?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 1.34,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:45:21",
+  "finished_at": "2026-08-30T15:46:41",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "A03": {
+  "cell_id": "A03",
+  "card": "A03",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A03\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "What is learned from attention without successful execution or feedback?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 3.05,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:50:01",
+  "finished_at": "2026-08-30T15:53:04",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "A04": {
+  "cell_id": "A04",
+  "card": "A04",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A04\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does different feedback produce different expertise after matched attended actions?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 3.05,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:50:01",
+  "finished_at": "2026-08-30T15:53:04",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "A05": {
+  "cell_id": "A05",
+  "card": "A05",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A05\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Can externally imposed, disliked training create competence and habit residue?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 1.38,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:53:04",
+  "finished_at": "2026-08-30T15:54:27",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "A06": {
+  "cell_id": "A06",
+  "card": "A06",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A06\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Do time pressure and available alternatives alter learned policy after attention is matched?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 1.38,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:53:04",
+  "finished_at": "2026-08-30T15:54:27",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "A07": {
+  "cell_id": "A07",
+  "card": "A07",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A07\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Do tool or embodiment constraints leave a route signature beyond attended features?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 1.43,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:54:27",
+  "finished_at": "2026-08-30T15:55:53",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "A08": {
+  "cell_id": "A08",
+  "card": "A08",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A08\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does selection history capture attention after reward or task value reverses?",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 1.43,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:54:27",
+  "finished_at": "2026-08-30T15:55:53",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "A09": {
+  "cell_id": "A09",
+  "card": "A09",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "A08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A09\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "How quickly does stale history correct under diagnostic new feedback?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 6.28,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:55:53",
+  "finished_at": "2026-08-30T16:02:10",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "A13": {
+  "cell_id": "A13",
+  "card": "A13",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A13\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": false,
+  "why": "How much trajectory information is lost when history order and dates are removed?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 6.28,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T15:55:53",
+  "finished_at": "2026-08-30T16:02:10",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "A14": {
+  "cell_id": "A14",
+  "card": "A14",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "A02",
+   "A03",
+   "A04",
+   "A06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A14\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": false,
+  "why": "Which object best predicts a novel cross-domain action?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 5.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:18:28",
+  "finished_at": "2026-08-30T16:23:28",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "A10": {
+  "cell_id": "A10",
+  "card": "A10",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "A01",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A10\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Does domain expertise chiefly improve prediction of action chains and deviations?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.58,
+  "gpu_lock_min": 1.54,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:59:56",
+  "finished_at": "2026-08-30T17:01:30",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "A11": {
+  "cell_id": "A11",
+  "card": "A11",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "A01",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A11\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Are conventional, well-predicted choices discounted while deviations attract inference?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.71,
+  "gpu_lock_min": 1.67,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:01:31",
+  "finished_at": "2026-08-30T17:03:13",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "A12": {
+  "cell_id": "A12",
+  "card": "A12",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "A01",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A12\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Can the reader separate a current proximal goal from an old habit that leaks into its execution?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.61,
+  "gpu_lock_min": 1.58,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:03:13",
+  "finished_at": "2026-08-30T17:04:50",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "X18": {
+  "cell_id": "X18",
+  "card": "X18",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A02",
+   "A03",
+   "A04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X18\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Cross exposure, selected attention, practice, feedback, and outcome value.",
+  "reason": "covered cards: {'A02': 'VALID_NULL', 'A03': 'INCONCLUSIVE', 'A04': 'VALID_NULL'}",
+  "budget_charged_min": 3.71,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:23:28",
+  "finished_at": "2026-08-30T16:27:11",
+  "detail": "covered cards: {'A02': 'VALID_NULL', 'A03': 'INCONCLUSIVE', 'A04': 'VALID_NULL'}"
+ },
+ "X15": {
+  "cell_id": "X15",
+  "card": "X15",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A13",
+   "T06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X15\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Shuffle or erase history order and dates while preserving aggregate events.",
+  "reason": "dated-minus-shuffled trajectory statistic 0.6666666666666666",
+  "budget_charged_min": 0.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:09",
+  "finished_at": "2026-08-30T17:15:17",
+  "detail": "dated-minus-shuffled trajectory statistic 0.6666666666666666"
+ },
+ "X17": {
+  "cell_id": "X17",
+  "card": "X17",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A07",
+   "T07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X17\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Swap constraints or available actions while holding selected behavior fixed.",
+  "reason": "covered cards: {'A07': 'VALID_NULL', 'T07': 'DESCRIPTIVE'}",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:17",
+  "finished_at": "2026-08-30T17:15:38",
+  "detail": "covered cards: {'A07': 'VALID_NULL', 'T07': 'DESCRIPTIVE'}"
+ },
+ "X22": {
+  "cell_id": "X22",
+  "card": "X22",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A12",
+   "V07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X22\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Cross old habit with new value so current intent and residue disagree.",
+  "reason": "covered cards: {'A12': 'SUPPORT_CANDIDATE', 'V07': 'SUPPORT_CANDIDATE'}",
+  "budget_charged_min": 1.5,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:04:50",
+  "finished_at": "2026-08-30T17:06:20",
+  "detail": "covered cards: {'A12': 'SUPPORT_CANDIDATE', 'V07': 'SUPPORT_CANDIDATE'}"
+ },
+ "V01": {
+  "cell_id": "V01",
+  "card": "V01",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V01\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Can accuracy-oriented and prestige-oriented makers produce the same initial citation choice?",
+  "reason": "oracle 0.77 vs marginal 0.50; artifact-surface 1nn 0.41",
+  "budget_charged_min": 3.71,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:23:28",
+  "finished_at": "2026-08-30T16:27:11",
+  "detail": "oracle 0.77 vs marginal 0.50; artifact-surface 1nn 0.41"
+ },
+ "V02": {
+  "cell_id": "V02",
+  "card": "V02",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "V01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V02\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "What happens when both discover that the prestigious source is wrong?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 16.61,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:27:11",
+  "finished_at": "2026-08-30T16:43:47",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "V03": {
+  "cell_id": "V03",
+  "card": "V03",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "V01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V03\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does avoidable private cost separate accuracy from appearance management?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 16.61,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:27:11",
+  "finished_at": "2026-08-30T16:43:47",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "V04": {
+  "cell_id": "V04",
+  "card": "V04",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "V01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V04\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does public visibility change the prestige policy more than the accuracy policy?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 4.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:43:47",
+  "finished_at": "2026-08-30T16:47:55",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "V05": {
+  "cell_id": "V05",
+  "card": "V05",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "V01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V05\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Do hedges, credibility boosts, preemptive degradation, or retreat options reveal reputational calculus?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 4.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:43:47",
+  "finished_at": "2026-08-30T16:47:55",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "V07": {
+  "cell_id": "V07",
+  "card": "V07",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "V01",
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V07\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Can a current proximal goal oppose a lagging historical tendency preserved in expertise?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 0.58,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:47:55",
+  "finished_at": "2026-08-30T16:48:30",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "V08": {
+  "cell_id": "V08",
+  "card": "V08",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "V01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V08\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Can genuine value change be distinguished from better concealment?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 0.69,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:48:30",
+  "finished_at": "2026-08-30T16:49:11",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "V09": {
+  "cell_id": "V09",
+  "card": "V09",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "V01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V09\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Can value change be distinguished from a context or constraint shift?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 0.69,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:48:30",
+  "finished_at": "2026-08-30T16:49:11",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "V10": {
+  "cell_id": "V10",
+  "card": "V10",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "V01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V10\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Can value change be distinguished from newly acquired competence?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 0.89,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:49:11",
+  "finished_at": "2026-08-30T16:50:04",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "V13": {
+  "cell_id": "V13",
+  "card": "V13",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "V02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V13\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": false,
+  "why": "Do dated artifacts support a better value trajectory than aggregate style/history features?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 0.89,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:49:11",
+  "finished_at": "2026-08-30T16:50:04",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "V06": {
+  "cell_id": "V06",
+  "card": "V06",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "V01",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V06\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Does the posterior remain appropriately broad before the diagnostic event?",
+  "reason": "the interval spans the breadth band",
+  "budget_charged_min": 2.92,
+  "gpu_lock_min": 2.84,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:36:34",
+  "finished_at": "2026-08-30T17:37:59",
+  "detail": "the interval spans the breadth band",
+  "resets": [
+   {
+    "at": "2026-08-30T17:35:21",
+    "tag": "vspec",
+    "why": "the reader-spec table collapsed the four cards onto two generic statistics (V06=V11, V12=V14 byte-identical); the declared discriminators never ran; respecified as breadth-pre, breadth-staircase, probe-choice, and cc-vs-rich-baselines (the one reader-spec family repair)",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "VALID_NULL",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "V11": {
+  "cell_id": "V11",
+  "card": "V11",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "V01",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V11\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "When several motivational organizations remain policy-equivalent, does the reader preserve the class?",
+  "reason": "pre-event deviation stays under 0.1: the posterior holds its breadth",
+  "budget_charged_min": 4.77,
+  "gpu_lock_min": 4.69,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:37:59",
+  "finished_at": "2026-08-30T17:41:09",
+  "detail": "pre-event deviation stays under 0.1: the posterior holds its breadth",
+  "resets": [
+   {
+    "at": "2026-08-30T17:35:21",
+    "tag": "vspec",
+    "why": "the reader-spec table collapsed the four cards onto two generic statistics (V06=V11, V12=V14 byte-identical); the declared discriminators never ran; respecified as breadth-pre, breadth-staircase, probe-choice, and cc-vs-rich-baselines (the one reader-spec family repair)",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "VALID_NULL",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "V12": {
+  "cell_id": "V12",
+  "card": "V12",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "V06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V12\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Can the reader choose a diagnostic opportunity that separates its top value hypotheses?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 3.46,
+  "gpu_lock_min": 3.38,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:41:09",
+  "finished_at": "2026-08-30T17:42:59",
+  "detail": "directional support at or above the frozen threshold",
+  "resets": [
+   {
+    "at": "2026-08-30T17:35:21",
+    "tag": "vspec",
+    "why": "the reader-spec table collapsed the four cards onto two generic statistics (V06=V11, V12=V14 byte-identical); the declared discriminators never ran; respecified as breadth-pre, breadth-staircase, probe-choice, and cc-vs-rich-baselines (the one reader-spec family repair)",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "SUPPORT_CANDIDATE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "V14": {
+  "cell_id": "V14",
+  "card": "V14",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "V13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V14\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Does the inferred trajectory predict a changed-context future tradeoff beyond last goal, habit, topic, and identity?",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 2.97,
+  "gpu_lock_min": 2.9,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:42:59",
+  "finished_at": "2026-08-30T17:44:17",
+  "detail": "interval entirely below zero",
+  "resets": [
+   {
+    "at": "2026-08-30T17:35:21",
+    "tag": "vspec",
+    "why": "the reader-spec table collapsed the four cards onto two generic statistics (V06=V11, V12=V14 byte-identical); the declared discriminators never ran; respecified as breadth-pre, breadth-staircase, probe-choice, and cc-vs-rich-baselines (the one reader-spec family repair)",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "SUPPORT_CANDIDATE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X06": {
+  "cell_id": "X06",
+  "card": "X06",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "V01",
+   "V02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X06\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Hold the initial action fixed while swapping later-divergent standing tendencies.",
+  "reason": "covered cards: {'V01': 'INFRASTRUCTURE', 'V02': 'SUPPORT_CANDIDATE'}",
+  "budget_charged_min": 2.03,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:50:04",
+  "finished_at": "2026-08-30T16:52:06",
+  "detail": "covered cards: {'V01': 'INFRASTRUCTURE', 'V02': 'SUPPORT_CANDIDATE'}"
+ },
+ "X07": {
+  "cell_id": "X07",
+  "card": "X07",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "V09",
+   "A06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X07\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Hold standing tendency fixed while swapping context, opportunity, or constraint.",
+  "reason": "covered cards: {'V09': 'INCONCLUSIVE', 'A06': 'VALID_NULL'}",
+  "budget_charged_min": 2.03,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:50:04",
+  "finished_at": "2026-08-30T16:52:06",
+  "detail": "covered cards: {'V09': 'INCONCLUSIVE', 'A06': 'VALID_NULL'}"
+ },
+ "X16": {
+  "cell_id": "X16",
+  "card": "X16",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "V13",
+   "A13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X16\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Replace a true trajectory with an aggregate style profile of equal dimension.",
+  "reason": "dated-minus-shuffled trajectory statistic 0.6666666666666666",
+  "budget_charged_min": 1.99,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:52:06",
+  "finished_at": "2026-08-30T16:54:06",
+  "detail": "dated-minus-shuffled trajectory statistic 0.6666666666666666"
+ },
+ "F01": {
+  "cell_id": "F01",
+  "card": "F01",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F01\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Are exploration, ordinary error, habitual misuse, and hidden artifact-level goal independently live?",
+  "reason": "oracle 0.90 vs marginal 0.25; artifact-surface 1nn 0.23",
+  "budget_charged_min": 1.99,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:52:06",
+  "finished_at": "2026-08-30T16:54:06",
+  "detail": "oracle 0.90 vs marginal 0.25; artifact-surface 1nn 0.23"
+ },
+ "F07": {
+  "cell_id": "F07",
+  "card": "F07",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F07\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Can all four worlds be matched on local oddness, effort, and immediate quality?",
+  "reason": "blind classifier 0.23 vs marginal 0.25 on oddness/effort statistics",
+  "budget_charged_min": 2.1,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:54:06",
+  "finished_at": "2026-08-30T16:56:12",
+  "detail": "blind classifier 0.23 vs marginal 0.25 on oddness/effort statistics"
+ },
+ "F02": {
+  "cell_id": "F02",
+  "card": "F02",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F02\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does deliberate exploration commit enough action to observe an informative outcome?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 2.17,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:56:12",
+  "finished_at": "2026-08-30T16:58:22",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "F03": {
+  "cell_id": "F03",
+  "card": "F03",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F03\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Can small careful probes escalate only as much as needed to resolve uncertainty?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 2.17,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:56:12",
+  "finished_at": "2026-08-30T16:58:22",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "F04": {
+  "cell_id": "F04",
+  "card": "F04",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F04\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does an ordinary error get repaired before an informative outcome is obtained?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.56,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:58:22",
+  "finished_at": "2026-08-30T16:59:56",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "F05": {
+  "cell_id": "F05",
+  "card": "F05",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F05\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does habitual misuse sometimes run farther because expected actions receive less monitoring?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 1.56,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:58:22",
+  "finished_at": "2026-08-30T16:59:56",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "F06": {
+  "cell_id": "F06",
+  "card": "F06",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F06\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does a hidden aesthetic or rhetorical goal integrate the unusual technique with distant artifact structure?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.58,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:59:56",
+  "finished_at": "2026-08-30T17:01:31",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "F08": {
+  "cell_id": "F08",
+  "card": "F08",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F08\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does genuine exploration change the maker's later technique in the predicted direction?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.58,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T16:59:56",
+  "finished_at": "2026-08-30T17:01:31",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "F09": {
+  "cell_id": "F09",
+  "card": "F09",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F09\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Is the chosen probe useful under the maker's current uncertainty and goal?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.71,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:01:31",
+  "finished_at": "2026-08-30T17:03:13",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "F10": {
+  "cell_id": "F10",
+  "card": "F10",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F10\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": false,
+  "why": "Does random unlearnable noise lose to a structured unresolved pattern?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 1.71,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:01:31",
+  "finished_at": "2026-08-30T17:03:13",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "F11": {
+  "cell_id": "F11",
+  "card": "F11",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "F07",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F11\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Can a reader infer the four-way posterior and abstain before the distinguishing consequence?",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 1.68,
+  "gpu_lock_min": 1.64,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:11:37",
+  "finished_at": "2026-08-30T17:13:17",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "X19": {
+  "cell_id": "X19",
+  "card": "X19",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "F02",
+   "F04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X19\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Make an accident look locally exploratory but deny it an informative consequence.",
+  "reason": "forage traps: {'F02': {'outcome': 'SUPPORT_CANDIDATE', 'point': 0.625}, 'F04': {'outcome': 'SUPPORT_CANDIDATE', 'point': 0.875}}",
+  "budget_charged_min": 1.61,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:03:13",
+  "finished_at": "2026-08-30T17:04:50",
+  "detail": "forage traps: {'F02': {'outcome': 'SUPPORT_CANDIDATE', 'point': 0.625}, 'F04': {'outcome': 'SUPPORT_CANDIDATE', 'point': 0.875}}"
+ },
+ "X20": {
+  "cell_id": "X20",
+  "card": "X20",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "F06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X20\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Give an unusual technique a distant global dependency only in the hidden-goal world.",
+  "reason": "forage traps: {'F06': {'outcome': 'SUPPORT_CANDIDATE', 'point': 0.9166666666666666}}",
+  "budget_charged_min": 1.61,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:03:13",
+  "finished_at": "2026-08-30T17:04:50",
+  "detail": "forage traps: {'F06': {'outcome': 'SUPPORT_CANDIDATE', 'point': 0.9166666666666666}}"
+ },
+ "X05": {
+  "cell_id": "X05",
+  "card": "X05",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "P09",
+   "F01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X05\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Hold the final artifact fixed while swapping valid histories; require class uncertainty.",
+  "reason": "pre-event posterior deviates from even by 0.018",
+  "budget_charged_min": 1.5,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:04:50",
+  "finished_at": "2026-08-30T17:06:20",
+  "detail": "pre-event posterior deviates from even by 0.018"
+ },
+ "T03": {
+  "cell_id": "T03",
+  "card": "T03",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T03\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Can a paper/reviewer model predict an OpenReview revision on a held-out paper lineage?",
+  "reason": "RESOURCE_BLOCKED, predeclared: the corpus is not on this machine; the Stage-3 acquisition attempt (H07) closed RESOURCE_BLOCKED with per-candidate receipts (no reachable OpenReview mirror on HF), and Stage 6 acquires nothing (§5.2 uses only already acquired records)",
+  "budget_charged_min": 0.39,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:06:20",
+  "finished_at": "2026-08-30T17:06:43",
+  "detail": "RESOURCE_BLOCKED, predeclared: the corpus is not on this machine; the Stage-3 acquisition attempt (H07) closed RESOURCE_BLOCKED with per-candidate receipts (no reachable OpenReview mirror on HF), and Stage 6 acquires nothing (§5.2 uses only already acquired records)"
+ },
+ "T01": {
+  "cell_id": "T01",
+  "card": "T01",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "I03",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T01\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": true,
+  "why": "Does the reader improve ScholaWrite next-revision prediction under leave-project-out and leave-author-out splits?",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 0.56,
+  "gpu_lock_min": 0.47,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:13:17",
+  "finished_at": "2026-08-30T17:13:51",
+  "detail": "interval entirely below zero"
+ },
+ "T02": {
+  "cell_id": "T02",
+  "card": "T02",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "I03",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T02\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": true,
+  "why": "Can CoAuthor document states be reconstructed well enough to predict accept, dismiss, edit, or retain?",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 0.8,
+  "gpu_lock_min": 0.67,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:13:51",
+  "finished_at": "2026-08-30T17:14:39",
+  "detail": "interval entirely below zero"
+ },
+ "T04": {
+  "cell_id": "T04",
+  "card": "T04",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "I03",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T04\\verdict.json",
+  "est_minutes": 12.0,
+  "gpu": true,
+  "why": "Can the process reader predict a recorded drawing's next stroke while preserving history uncertainty?",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 0.36,
+  "gpu_lock_min": 0.32,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:14:39",
+  "finished_at": "2026-08-30T17:15:01",
+  "detail": "interval entirely below zero"
+ },
+ "T05": {
+  "cell_id": "T05",
+  "card": "T05",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "T01",
+   "T02",
+   "T04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T05\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Does one frozen architecture transfer across at least three record types?",
+  "reason": "one frozen reader positive on: none of three record types",
+  "budget_charged_min": 0.28,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:01",
+  "finished_at": "2026-08-30T17:15:17",
+  "detail": "one frozen reader positive on: none of three record types"
+ },
+ "T06": {
+  "cell_id": "T06",
+  "card": "T06",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "T01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T06\\verdict.json",
+  "est_minutes": 10.666666666666666,
+  "gpu": true,
+  "why": "Do dated multi-episode records improve changed-context prediction?",
+  "reason": "time-aware split written (dated ordering enters through the shown window)",
+  "budget_charged_min": 0.14,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:01",
+  "finished_at": "2026-08-30T17:15:09",
+  "detail": "time-aware split written (dated ordering enters through the shown window)"
+ },
+ "T07": {
+  "cell_id": "T07",
+  "card": "T07",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "T02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T07\\verdict.json",
+  "est_minutes": 10.666666666666666,
+  "gpu": true,
+  "why": "Does explicit opportunity and constraint information improve prediction beyond content alone?",
+  "reason": "the shown-suggestion condition carries the opportunity set; the hidden arm is the base rate",
+  "budget_charged_min": 0.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:09",
+  "finished_at": "2026-08-30T17:15:17",
+  "detail": "the shown-suggestion condition carries the opportunity set; the hidden arm is the base rate"
+ },
+ "T08": {
+  "cell_id": "T08",
+  "card": "T08",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "T01",
+   "T02",
+   "T04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T08\\verdict.json",
+  "est_minutes": 15.0,
+  "gpu": false,
+  "why": "Are gains robust to genre, topic, length, author identity, and surface statistics?",
+  "reason": "stratified means written; drawings spread -0.48..-0.48",
+  "budget_charged_min": 0.14,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:01",
+  "finished_at": "2026-08-30T17:15:09",
+  "detail": "stratified means written; drawings spread -0.48..-0.48"
+ },
+ "T09": {
+  "cell_id": "T09",
+  "card": "T09",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "T01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T09\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Are intervals and effective sample sizes maker/session based?",
+  "reason": "session-clustered n=32; duplication moves the estimate: False",
+  "budget_charged_min": 0.8,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:13:51",
+  "finished_at": "2026-08-30T17:14:39",
+  "detail": "session-clustered n=32; duplication moves the estimate: False"
+ },
+ "C12": {
+  "cell_id": "C12",
+  "card": "C12",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "C11",
+   "T01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C12\\verdict.json",
+  "est_minutes": 5.333333333333333,
+  "gpu": false,
+  "why": "Do the winning controller signatures appear prospectively in recorded revision sessions?",
+  "reason": "signatures summarized over 160 recorded rows; latent truth unknown",
+  "budget_charged_min": 0.8,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:13:51",
+  "finished_at": "2026-08-30T17:14:39",
+  "detail": "signatures summarized over 160 recorded rows; latent truth unknown"
+ },
+ "F12": {
+  "cell_id": "F12",
+  "card": "F12",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "F11",
+   "T04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F12\\verdict.json",
+  "est_minutes": 5.333333333333333,
+  "gpu": false,
+  "why": "Do the distinguishing signatures transfer to recorded drawings and revisions?",
+  "reason": "signatures summarized over 240 recorded rows; latent truth unknown",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:17",
+  "finished_at": "2026-08-30T17:15:38",
+  "detail": "signatures summarized over 240 recorded rows; latent truth unknown"
+ },
+ "T10": {
+  "cell_id": "T10",
+  "card": "T10",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "T05",
+   "T08",
+   "T09"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T10\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Where should the natural bridge close if construction or reader gates fail?",
+  "reason": "scholawrite: descriptive boundary; coauthor: descriptive boundary; drawings: descriptive boundary; openreview: resource blocked, predeclared",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:38",
+  "finished_at": "2026-08-30T17:15:58",
+  "detail": "scholawrite: descriptive boundary; coauthor: descriptive boundary; drawings: descriptive boundary; openreview: resource blocked, predeclared"
+ },
+ "X14": {
+  "cell_id": "X14",
+  "card": "X14",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "T08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X14\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Match or stratify topic, genre, length, quality, and surface statistics.",
+  "reason": "T08 stratification DESCRIPTIVE",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:15:38",
+  "finished_at": "2026-08-30T17:15:58",
+  "detail": "T08 stratification DESCRIPTIVE"
+ },
+ "P12": {
+  "cell_id": "P12",
+  "card": "P12",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "P01",
+   "P02",
+   "P03",
+   "P06",
+   "P08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P12\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Does any architecture meet the Stage 6 understanding criterion?",
+  "reason": "criterion met by: none",
+  "budget_charged_min": 0.39,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:06:20",
+  "finished_at": "2026-08-30T17:06:43",
+  "detail": "criterion met by: none"
+ },
+ "X23": {
+  "cell_id": "X23",
+  "card": "X23",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "P12",
+   "B04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X23\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Verify that pooled means cannot hide planned sign reversals across similarity, domain, reader, or evidence access.",
+  "reason": "no planned reversal hidden; conditional cells inspected",
+  "budget_charged_min": 0.87,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:16:48",
+  "finished_at": "2026-08-30T17:17:40",
+  "detail": "no planned reversal hidden; conditional cells inspected"
+ },
+ "B03": {
+  "cell_id": "B03",
+  "card": "B03",
+  "track": "closure",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\B03\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Which landed Ghost V14 rulers transfer to Sounding, and which Stage 6 results feed back only as context?",
+  "reason": "V14 at 62/64 resolved; 3 receipts hashed; imports deferred to a future contract",
+  "budget_charged_min": 1.59,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:06:43",
+  "finished_at": "2026-08-30T17:08:18",
+  "detail": "V14 at 62/64 resolved; 3 receipts hashed; imports deferred to a future contract"
+ },
+ "X08": {
+  "cell_id": "X08",
+  "card": "X08",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X08\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Leak a goal through filenames, option wording, order, or field names; canaries must catch it.",
+  "reason": "I04 INFRASTRUCTURE",
+  "budget_charged_min": 1.59,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:06:43",
+  "finished_at": "2026-08-30T17:08:18",
+  "detail": "I04 INFRASTRUCTURE"
+ },
+ "X24": {
+  "cell_id": "X24",
+  "card": "X24",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I10",
+   "B04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\X24\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Fresh-clone, raw-output, source-lineage, hash-lock, resume, and report-provenance attack.",
+  "reason": "124 verdicts re-hashed; 0 problems",
+  "budget_charged_min": 0.87,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T17:16:48",
+  "finished_at": "2026-08-30T17:17:40",
+  "detail": "124 verdicts re-hashed; 0 problems"
+ },
+ "B01": {
+  "cell_id": "B01",
+  "card": "B01",
+  "track": "closure",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\B01\\verdict.json",
+  "est_minutes": 60.0,
+  "gpu": true,
+  "why": "Does the strongest qualified architecture effect replicate on untouched makers, surfaces, and seeds?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 4.3,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T13:52:03",
+  "finished_at": "2026-09-01T13:55:29",
+  "detail": "directional support at or above the frozen threshold",
+  "resets": [
+   {
+    "at": "2026-08-30T17:35:21",
+    "tag": "conftiming",
+    "why": "the exhaustion branch froze confirmations at hour 1.6 without the CLOSURE_HOUR guard during a one-tick admissibility lull, and the confirmation contrast paired against discovery rows (no shared units); both repaired; the freeze and B cards re-run at hour 144",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "VOID",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "B02": {
+  "cell_id": "B02",
+  "card": "B02",
+  "track": "closure",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "B01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\B02\\verdict.json",
+  "est_minutes": 60.0,
+  "gpu": true,
+  "why": "Does the sharpest architecture boundary or theory discriminator replicate independently?",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 5.07,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T13:55:29",
+  "finished_at": "2026-09-01T13:59:41",
+  "detail": "directional support at or above the frozen threshold",
+  "resets": [
+   {
+    "at": "2026-08-30T17:35:21",
+    "tag": "conftiming",
+    "why": "the exhaustion branch froze confirmations at hour 1.6 without the CLOSURE_HOUR guard during a one-tick admissibility lull, and the confirmation contrast paired against discovery rows (no shared units); both repaired; the freeze and B cards re-run at hour 144",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "VOID",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "B04": {
+  "cell_id": "B04",
+  "card": "B04",
+  "track": "closure",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "B03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\B04\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": false,
+  "why": "What moves in pursuit, warrant, theory, and the next program after all gates?",
+  "reason": "{\"INFRASTRUCTURE\": 19, \"INSTRUMENT_FAILED\": 1, \"DESCRIPTIVE\": 16, \"SUPPORT_CANDIDATE\": 28, \"VALID_NULL\": 9, \"COUNTEREVIDENCE\": 8, \"INCONCLUSIVE\": 19, \"NOT_RUN\": 1}",
+  "budget_charged_min": 4.3,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T13:52:03",
+  "finished_at": "2026-09-01T13:55:29",
+  "detail": "{\"INFRASTRUCTURE\": 19, \"INSTRUMENT_FAILED\": 1, \"DESCRIPTIVE\": 16, \"SUPPORT_CANDIDATE\": 28, \"VALID_NULL\": 9, \"COUNTEREVIDENCE\": 8, \"INCONCLUSIVE\": 19, \"NOT_RUN\": 1}",
+  "resets": [
+   {
+    "at": "2026-08-30T17:35:21",
+    "tag": "conftiming",
+    "why": "the exhaustion branch froze confirmations at hour 1.6 without the CLOSURE_HOUR guard during a one-tick admissibility lull, and the confirmation contrast paired against discovery rows (no shared units); both repaired; the freeze and B cards re-run at hour 144",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "DESCRIPTIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "M08/x1": {
+  "cell_id": "M08/x1",
+  "card": "M08",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M08\\x1\\verdict.json",
+  "est_minutes": 614.4,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 428.84,
+  "gpu_lock_min": 427.86,
+  "attempts": 1,
+  "started_at": "2026-08-31T05:59:02",
+  "finished_at": "2026-08-31T09:50:15",
+  "detail": "interval entirely below zero",
+  "resets": [
+   {
+    "at": "2026-08-31T05:56:22",
+    "tag": "laddercontrast",
+    "why": "expansion contrast cells paired against the rival's offset-0 rows (no shared unit ids) and burned 435 GPU-minutes into VOID; the rival arm now runs in-cell on the same offset lineages",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "VOID",
+     "attempts": 3
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json",
+     "x1",
+     "x2"
+    ]
+   }
+  ]
+ },
+ "M08/x2": {
+  "cell_id": "M08/x2",
+  "card": "M08",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "M08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M08\\x2\\verdict.json",
+  "est_minutes": 614.4,
+  "gpu": true,
+  "why": "expansion rung 2 (x40 units): surface_and_paraphrase",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 429.08,
+  "gpu_lock_min": 427.85,
+  "attempts": 1,
+  "started_at": "2026-08-31T09:50:15",
+  "finished_at": "2026-08-31T14:18:33",
+  "detail": "interval entirely below zero",
+  "resets": [
+   {
+    "at": "2026-08-31T05:56:22",
+    "tag": "laddercontrast",
+    "why": "expansion contrast cells paired against the rival's offset-0 rows (no shared unit ids) and burned 435 GPU-minutes into VOID; the rival arm now runs in-cell on the same offset lineages",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "VOID",
+     "attempts": 1
+    },
+    "moved": []
+   }
+  ]
+ },
+ "I05/x3": {
+  "cell_id": "I05/x3",
+  "card": "I05",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I05\\x3\\verdict.json",
+  "est_minutes": 76.8,
+  "gpu": true,
+  "why": "expansion rung 3 (x20 units): reader_checkpoint",
+  "reason": "no reader beats the cheap baseline with the true state supplied (a reader boundary)",
+  "budget_charged_min": 8.43,
+  "gpu_lock_min": 8.4,
+  "attempts": 1,
+  "started_at": "2026-08-30T23:48:25",
+  "finished_at": "2026-08-30T23:56:51",
+  "detail": "no reader beats the cheap baseline with the true state supplied (a reader boundary)"
+ },
+ "T01/x4": {
+  "cell_id": "T01/x4",
+  "card": "T01",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "T01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T01\\x4\\verdict.json",
+  "est_minutes": 480.0,
+  "gpu": true,
+  "why": "expansion rung 4 (x40 units): process_length",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 1.64,
+  "gpu_lock_min": 1.55,
+  "attempts": 1,
+  "started_at": "2026-08-30T23:56:51",
+  "finished_at": "2026-08-30T23:58:30",
+  "detail": "interval entirely below zero"
+ },
+ "A04/x5": {
+  "cell_id": "A04/x5",
+  "card": "A04",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "A04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A04\\x5\\verdict.json",
+  "est_minutes": 49.92,
+  "gpu": false,
+  "why": "expansion rung 5 (x26 units): history_combinations",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 0.16,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-08-30T23:58:30",
+  "finished_at": "2026-08-30T23:58:39",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "V11/x6": {
+  "cell_id": "V11/x6",
+  "card": "V11",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "V11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V11\\x6\\verdict.json",
+  "est_minutes": 190.07999999999998,
+  "gpu": true,
+  "why": "expansion rung 6 (x33 units): equifinal_rivals",
+  "reason": "pre-event deviation stays under 0.1: the posterior holds its breadth",
+  "budget_charged_min": 87.05,
+  "gpu_lock_min": 86.97,
+  "attempts": 1,
+  "started_at": "2026-08-30T23:58:39",
+  "finished_at": "2026-08-31T01:25:42",
+  "detail": "pre-event deviation stays under 0.1: the posterior holds its breadth"
+ },
+ "T02/x7": {
+  "cell_id": "T02/x7",
+  "card": "T02",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "T02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T02\\x7\\verdict.json",
+  "est_minutes": 324.0,
+  "gpu": true,
+  "why": "expansion rung 7 (x27 units): natural_partition",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 6.16,
+  "gpu_lock_min": 5.78,
+  "attempts": 1,
+  "started_at": "2026-08-31T01:25:42",
+  "finished_at": "2026-08-31T01:31:52",
+  "detail": "interval entirely below zero"
+ },
+ "M04/x8": {
+  "cell_id": "M04/x8",
+  "card": "M04",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "M04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M04\\x8\\verdict.json",
+  "est_minutes": 614.4,
+  "gpu": true,
+  "why": "expansion rung 8 (x40 units): approximation_samples",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 245.9,
+  "gpu_lock_min": 242.97,
+  "attempts": 1,
+  "started_at": "2026-08-31T14:18:33",
+  "finished_at": "2026-08-31T17:07:52",
+  "detail": "interval entirely below zero",
+  "resets": [
+   {
+    "at": "2026-08-31T05:56:22",
+    "tag": "laddercontrast",
+    "why": "expansion contrast cells paired against the rival's offset-0 rows (no shared unit ids) and burned 435 GPU-minutes into VOID; the rival arm now runs in-cell on the same offset lineages",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "VOID",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json",
+     "x8"
+    ]
+   }
+  ]
+ },
+ "M01/x1": {
+  "cell_id": "M01/x1",
+  "card": "M01",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "M01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M01\\x1\\verdict.json",
+  "est_minutes": 255.99999999999997,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": null,
+  "budget_charged_min": 49.7,
+  "gpu_lock_min": 49.63,
+  "attempts": 1,
+  "started_at": "2026-08-31T17:07:52",
+  "finished_at": "2026-08-31T17:57:34",
+  "detail": null
+ },
+ "M02/x1": {
+  "cell_id": "M02/x1",
+  "card": "M02",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "M02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M02\\x1\\verdict.json",
+  "est_minutes": 409.6,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 80.41,
+  "gpu_lock_min": 77.66,
+  "attempts": 1,
+  "started_at": "2026-08-31T17:57:34",
+  "finished_at": "2026-08-31T19:17:58",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "C03/x1": {
+  "cell_id": "C03/x1",
+  "card": "C03",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "C03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C03\\x1\\verdict.json",
+  "est_minutes": 230.39999999999998,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 115.7,
+  "gpu_lock_min": 115.57,
+  "attempts": 1,
+  "started_at": "2026-08-31T19:17:59",
+  "finished_at": "2026-08-31T21:13:41",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "C11/x1": {
+  "cell_id": "C11/x1",
+  "card": "C11",
+  "track": "control",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "C11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C11\\x1\\verdict.json",
+  "est_minutes": 384.0,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 105.3,
+  "gpu_lock_min": 105.11,
+  "attempts": 1,
+  "started_at": "2026-08-31T21:13:41",
+  "finished_at": "2026-08-31T22:58:59",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "V14/x1": {
+  "cell_id": "V14/x1",
+  "card": "V14",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "V14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V14\\x1\\verdict.json",
+  "est_minutes": 230.39999999999998,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 69.1,
+  "gpu_lock_min": 68.96,
+  "attempts": 1,
+  "started_at": "2026-08-31T22:58:59",
+  "finished_at": "2026-09-01T00:08:04",
+  "detail": "interval entirely below zero"
+ },
+ "F11/x1": {
+  "cell_id": "F11/x1",
+  "card": "F11",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "F11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F11\\x1\\verdict.json",
+  "est_minutes": 230.39999999999998,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "directional support below the practical threshold",
+  "budget_charged_min": 108.27,
+  "gpu_lock_min": 108.1,
+  "attempts": 1,
+  "started_at": "2026-09-01T00:08:04",
+  "finished_at": "2026-09-01T01:56:21",
+  "detail": "directional support below the practical threshold"
+ },
+ "T01/x1": {
+  "cell_id": "T01/x1",
+  "card": "T01",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "T01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T01\\x1\\verdict.json",
+  "est_minutes": 480.0,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 2.33,
+  "gpu_lock_min": 2.19,
+  "attempts": 1,
+  "started_at": "2026-09-01T01:56:21",
+  "finished_at": "2026-09-01T01:58:40",
+  "detail": "interval entirely below zero"
+ },
+ "T04/x1": {
+  "cell_id": "T04/x1",
+  "card": "T04",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "T04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T04\\x1\\verdict.json",
+  "est_minutes": 288.0,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 2.53,
+  "gpu_lock_min": 2.45,
+  "attempts": 1,
+  "started_at": "2026-09-01T01:58:41",
+  "finished_at": "2026-09-01T02:01:13",
+  "detail": "interval entirely below zero"
+ },
+ "A10/x1": {
+  "cell_id": "A10/x1",
+  "card": "A10",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "A10"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A10\\x1\\verdict.json",
+  "est_minutes": 230.39999999999998,
+  "gpu": true,
+  "why": "expansion rung 1 (x40 units): independent_units",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 103.52,
+  "gpu_lock_min": 103.41,
+  "attempts": 1,
+  "started_at": "2026-09-01T02:01:13",
+  "finished_at": "2026-09-01T03:44:44",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "M15/x2": {
+  "cell_id": "M15/x2",
+  "card": "M15",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "M15"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M15\\x2\\verdict.json",
+  "est_minutes": 384.0,
+  "gpu": true,
+  "why": "expansion rung 2 (x40 units): surface_and_paraphrase",
+  "reason": "paraphrase TV 0.0000, meaning TV 0.470",
+  "budget_charged_min": 196.88,
+  "gpu_lock_min": 196.69,
+  "attempts": 1,
+  "started_at": "2026-09-01T03:44:44",
+  "finished_at": "2026-09-01T07:01:37",
+  "detail": "paraphrase TV 0.0000, meaning TV 0.470"
+ },
+ "M16/x2": {
+  "cell_id": "M16/x2",
+  "card": "M16",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "M16"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M16\\x2\\verdict.json",
+  "est_minutes": 384.0,
+  "gpu": true,
+  "why": "expansion rung 2 (x40 units): surface_and_paraphrase",
+  "reason": "4 conditional cells, min -1.067 max -1.048",
+  "budget_charged_min": 182.95,
+  "gpu_lock_min": 182.82,
+  "attempts": 1,
+  "started_at": "2026-09-01T07:01:37",
+  "finished_at": "2026-09-01T10:04:34",
+  "detail": "4 conditional cells, min -1.067 max -1.048"
+ },
+ "P10/x2": {
+  "cell_id": "P10/x2",
+  "card": "P10",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "P10"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\P10\\x2\\verdict.json",
+  "est_minutes": 307.2,
+  "gpu": true,
+  "why": "expansion rung 2 (x40 units): surface_and_paraphrase",
+  "reason": "field ablation table written",
+  "budget_charged_min": 1.24,
+  "gpu_lock_min": 1.2,
+  "attempts": 1,
+  "started_at": "2026-09-01T10:04:34",
+  "finished_at": "2026-09-01T10:05:48",
+  "detail": "field ablation table written"
+ },
+ "I08/x3": {
+  "cell_id": "I08/x3",
+  "card": "I08",
+  "track": "integrity",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "I08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\I08\\x3\\verdict.json",
+  "est_minutes": 57.599999999999994,
+  "gpu": true,
+  "why": "expansion rung 3 (x20 units): reader_checkpoint",
+  "reason": "paraphrase TV 0.168, meaning TV 0.332",
+  "budget_charged_min": 0.38,
+  "gpu_lock_min": 0.34,
+  "attempts": 1,
+  "started_at": "2026-09-01T10:05:48",
+  "finished_at": "2026-09-01T10:06:11",
+  "detail": "paraphrase TV 0.168, meaning TV 0.332"
+ },
+ "T02/x4": {
+  "cell_id": "T02/x4",
+  "card": "T02",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "T02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T02\\x4\\verdict.json",
+  "est_minutes": 480.0,
+  "gpu": true,
+  "why": "expansion rung 4 (x40 units): process_length",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 6.92,
+  "gpu_lock_min": 6.37,
+  "attempts": 1,
+  "started_at": "2026-09-01T10:06:11",
+  "finished_at": "2026-09-01T10:13:07",
+  "detail": "interval entirely below zero"
+ },
+ "T04/x4": {
+  "cell_id": "T04/x4",
+  "card": "T04",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "T04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T04\\x4\\verdict.json",
+  "est_minutes": 288.0,
+  "gpu": true,
+  "why": "expansion rung 4 (x40 units): process_length",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 2.17,
+  "gpu_lock_min": 2.09,
+  "attempts": 1,
+  "started_at": "2026-09-01T10:13:07",
+  "finished_at": "2026-09-01T10:15:17",
+  "detail": "interval entirely below zero"
+ },
+ "A06/x5": {
+  "cell_id": "A06/x5",
+  "card": "A06",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "A06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A06\\x5\\verdict.json",
+  "est_minutes": 49.92,
+  "gpu": false,
+  "why": "expansion rung 5 (x26 units): history_combinations",
+  "reason": "interval includes zero and excludes a practically useful benefit",
+  "budget_charged_min": 0.23,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T10:15:17",
+  "finished_at": "2026-09-01T10:15:31",
+  "detail": "interval includes zero and excludes a practically useful benefit"
+ },
+ "A12/x5": {
+  "cell_id": "A12/x5",
+  "card": "A12",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "A12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A12\\x5\\verdict.json",
+  "est_minutes": 149.76,
+  "gpu": true,
+  "why": "expansion rung 5 (x26 units): history_combinations",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 54.4,
+  "gpu_lock_min": 54.31,
+  "attempts": 1,
+  "started_at": "2026-09-01T10:15:31",
+  "finished_at": "2026-09-01T11:09:55",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "A13/x5": {
+  "cell_id": "A13/x5",
+  "card": "A13",
+  "track": "history",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "A13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\A13\\x5\\verdict.json",
+  "est_minutes": 74.88,
+  "gpu": false,
+  "why": "expansion rung 5 (x26 units): history_combinations",
+  "reason": "interval includes zero and cannot exclude a useful benefit",
+  "budget_charged_min": 0.23,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T11:09:55",
+  "finished_at": "2026-09-01T11:10:09",
+  "detail": "interval includes zero and cannot exclude a useful benefit"
+ },
+ "V06/x6": {
+  "cell_id": "V06/x6",
+  "card": "V06",
+  "track": "value",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "V06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\V06\\x6\\verdict.json",
+  "est_minutes": 190.07999999999998,
+  "gpu": true,
+  "why": "expansion rung 6 (x33 units): equifinal_rivals",
+  "reason": "the interval spans the breadth band",
+  "budget_charged_min": 53.0,
+  "gpu_lock_min": 52.92,
+  "attempts": 1,
+  "started_at": "2026-09-01T11:10:09",
+  "finished_at": "2026-09-01T12:03:09",
+  "detail": "the interval spans the breadth band"
+ },
+ "F03/x6": {
+  "cell_id": "F03/x6",
+  "card": "F03",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F03\\x6\\verdict.json",
+  "est_minutes": 63.36,
+  "gpu": false,
+  "why": "expansion rung 6 (x33 units): equifinal_rivals",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 0.26,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T12:03:09",
+  "finished_at": "2026-09-01T12:03:24",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "F09/x6": {
+  "cell_id": "F09/x6",
+  "card": "F09",
+  "track": "foraging",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "F09"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\F09\\x6\\verdict.json",
+  "est_minutes": 63.36,
+  "gpu": false,
+  "why": "expansion rung 6 (x33 units): equifinal_rivals",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 0.26,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T12:03:24",
+  "finished_at": "2026-09-01T12:03:40",
+  "detail": "directional support at or above the frozen threshold"
+ },
+ "T06/x7": {
+  "cell_id": "T06/x7",
+  "card": "T06",
+  "track": "records",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "T06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\T06\\x7\\verdict.json",
+  "est_minutes": 172.79999999999998,
+  "gpu": true,
+  "why": "expansion rung 7 (x27 units): natural_partition",
+  "reason": "time-aware split written (dated ordering enters through the shown window)",
+  "budget_charged_min": 0.19,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T12:03:40",
+  "finished_at": "2026-09-01T12:03:51",
+  "detail": "time-aware split written (dated ordering enters through the shown window)"
+ },
+ "M06/x8": {
+  "cell_id": "M06/x8",
+  "card": "M06",
+  "track": "realization",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "M06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M06\\x8\\verdict.json",
+  "est_minutes": 614.4,
+  "gpu": true,
+  "why": "expansion rung 8 (x40 units): approximation_samples",
+  "reason": "interval entirely below zero",
+  "budget_charged_min": 108.18,
+  "gpu_lock_min": 105.73,
+  "attempts": 1,
+  "started_at": "2026-09-01T12:03:51",
+  "finished_at": "2026-09-01T13:52:02",
+  "detail": "interval entirely below zero"
+ },
+ "B01/x9": {
+  "cell_id": "B01/x9",
+  "card": "B01",
+  "track": "closure",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "B01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\B01\\x9\\verdict.json",
+  "est_minutes": 149.76,
+  "gpu": true,
+  "why": "expansion rung 9 (x13 units): confirmation_seeds",
+  "reason": "directional support at or above the frozen threshold",
+  "budget_charged_min": 44.09,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-01T13:59:41",
+  "finished_at": "2026-09-01T14:43:47",
+  "detail": "directional support at or above the frozen threshold"
+ }
+}

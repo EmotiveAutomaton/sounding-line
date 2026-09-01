@@ -1,0 +1,108 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|essay|s0|w09355|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.1": 0.07776091547285392,
+   "write:sec4:s4.1": 0.07191709038967459,
+   "write:sec4:s4.3": 0.07191709038967459,
+   "revise:sec3:s3.2": 0.10628656960870526,
+   "revise:sec4:s4.2": 0.0982990077634326,
+   "revise:sec2:s2.2": 0.11492318321638838,
+   "revise:sec1:s1.1": 0.12426158910961638,
+   "consult:sec1:src": 0.11314146440585411,
+   "cite:sec4:ref": 0.09527466524036704,
+   "fix:sec1:urgent": 0.1262184244034331
+  },
+  "next_edit_type": {
+   "write": 0.2215950962522031,
+   "revise": 0.44377034969814266,
+   "consult": 0.11314146440585413,
+   "cite": 0.09527466524036705,
+   "fix": 0.12621842440343312
+  },
+  "next_section": {
+   "sec3": 0.18404748508155921,
+   "sec4": 0.33740785378314886,
+   "sec2": 0.11492318321638839,
+   "sec1": 0.3636214779189036
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5781583552677345
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

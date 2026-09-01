@@ -1,0 +1,109 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03614|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach to handling concerns and organizing tasks was driven by prioritizing urgency and ensuring that critical sections were completed first. This led to a sequence where more urgent or "
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec4:s4.2": 0.7882733606678843,
+   "revise:sec3:s3.1": 0.029810030597337975,
+   "revise:sec2:s2.1": 0.03377919005724829,
+   "revise:sec1:s1.3": 0.03827683695922122,
+   "check:sec1:s1.1": 0.017198891500570655,
+   "check:sec2:s2.1": 0.015177968477142126,
+   "check:sec3:s3.1": 0.013394510168604554,
+   "check:sec4:s4.1": 0.011820613735431387,
+   "consult:sec1:src": 0.03463431432476513,
+   "cite:sec4:ref": 0.017634283511794184
+  },
+  "next_edit_type": {
+   "write": 0.7882733606678843,
+   "revise": 0.10186605761380747,
+   "check": 0.05759198388174872,
+   "consult": 0.03463431432476513,
+   "cite": 0.017634283511794184
+  },
+  "next_section": {
+   "sec4": 0.81772825791511,
+   "sec3": 0.04320454076594253,
+   "sec2": 0.048957158534390414,
+   "sec1": 0.09011004278455702
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5279604282156967
+ },
+ "uncertainty": {
+  "posterior_weight": 0.33074186360664715,
+  "abstain": false
+ }
+}

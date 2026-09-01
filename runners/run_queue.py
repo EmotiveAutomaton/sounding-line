@@ -3009,6 +3009,73 @@ STAGES += [
      "why": "design 1 against design 2, card by card, once the second contract closes"},
 ]
 
+
+# -- 2026-08-30, the open TODO items built as receipts (his order: everything buildable, gear 2) --
+_S5R_POST = "results/phase_2_4_stage_5r/post/"
+STAGES += [
+    {"name": "s5_ease_ruler", "est": 4,
+     "cmd": [PY, "runners/s5_ease_ruler.py"],
+     "produces": _S5R_POST + "EASE_RULER.json",
+     "needs": ["results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md"],
+     "why": "TODO (m): four ease rulers validated on the known-answer renderings (capitals, mid-dots) before any card uses one (L301)"},
+    {"name": "s5_r02_ease", "est": 12,
+     "cmd": [PY, "runners/s5_r02_ease.py"],
+     "produces": _S5R_POST + "R02_EASE.json",
+     "needs": [_S5R_POST + "EASE_RULER.json"],
+     "why": "TODO (m): R02 re-run with the ease arm realized under the validated ruler; VOID if none passed"},
+    {"name": "s5_r01_ease", "est": 10,
+     "cmd": [PY, "runners/s5_r01_ease.py"],
+     "produces": _S5R_POST + "R01_EASE.json",
+     "needs": [_S5R_POST + "EASE_RULER.json"],
+     "why": "TODO (l): ease crossed within a route type, the within-world fluency contrast (L300)"},
+    {"name": "s5_p02_echo", "est": 12,
+     "cmd": [PY, "runners/s5_p02_echo.py"],
+     "produces": _S5R_POST + "P02_ECHO.json",
+     "needs": ["results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md"],
+     "why": "TODO (o): the echo rule, a second turn, the genuine population against the 23-order blind rate (L304)"},
+    {"name": "s5_gate_census", "est": 40,
+     "cmd": [PY, "runners/s5_gate_census.py"],
+     "produces": _S5R_POST + "GATE_CENSUS.json",
+     "needs": ["results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md"],
+     "why": "TODO (j), (p), (b): the three gates on every local instruct checkpoint not yet gated on all three (L278, L282, L309)"},
+]
+
+# ── 2026-09-01: the gear-two load behind the Stage-6 close (his order: continuous gear two
+# through the week; the locked ladder exhausts near hour 45 and the scheduler closes SHORT).
+# Free-path receipt runners on the Stage-5R post root, and the packet waiter LAST so nothing
+# queues behind it on its shard.
+STAGES += [
+    {"name": "s5_r01_archaic", "est": 12,
+     "cmd": [PY, "runners/s5_r01_archaic.py"],
+     "produces": _S5R_POST + "R01_ARCHAIC.json",
+     "needs": [_S5R_POST + "EASE_RULER.json"],
+     "why": "TODO (l2): the R01 ease cross with an archaic rendering, harder by the validated ruler but not visually deviant; difficulty against visual anomaly (L311)"},
+    {"name": "s5_r02_length", "est": 14,
+     "cmd": [PY, "runners/s5_r02_length.py"],
+     "produces": _S5R_POST + "R02_LENGTH.json",
+     "needs": ["results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md"],
+     "why": "TODO (m2): the R02 quantity effect with an information-at-equal-length arm (two records repeated to six); information against length (L314)"},
+    {"name": "s6_final_packet", "est": 5,
+     "cmd": [PY, "runners/s6_final_packet.py"],
+     "produces": "results/phase_2_4_stage_6/CURATOR_PACKET_FINAL.md",
+     "needs": ["results/phase_2_4_stage_6/RUN_CONTRACT.json"],
+     "why": "the Stage-6 packet waiter: sleeps to the contract deadline (2026-09-06 15:39), validates, writes the one packet; the scheduler closes SHORT days earlier by rule"},
+]
+
+# ── 2026-09-01, his order after the early packet: the two auxiliary programs. CPU first.
+STAGES += [
+    {"name": "s6t1_consolidation", "est": 25,
+     "cmd": [PY, "runners/s6_consolidation.py"],
+     "produces": "results/phase_2_4_aux/S6T1_CONSOLIDATION.json",
+     "needs": [],
+     "why": "TODO (s6-t1): consolidation-map worlds with independently specified attention; recoverability of the attention history through the lossy K-update asked of the exact layer (the 2026-08-31 errata's non-circularity requirement)"},
+    {"name": "s5_conf_series", "est": 30,
+     "cmd": [PY, "runners/s5_conf_series.py"],
+     "produces": _S5R_POST + "CONF_SERIES.json",
+     "needs": ["results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md"],
+     "why": "the confidence series, READER_HEURISTICS' cheapest unbuilt instrument: per-step confidence beside the exact posterior's information on the S5R joint worlds; the J03-S5 series form"},
+]
+
 if __name__ == "__main__":
     try:
         main()

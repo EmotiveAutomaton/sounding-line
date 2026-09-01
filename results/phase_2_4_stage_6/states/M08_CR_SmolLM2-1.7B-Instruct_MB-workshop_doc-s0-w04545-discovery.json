@@ -1,0 +1,100 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w04545|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach to handling concerns was driven by a sequential and iterative process, where each section or concern was addressed one at a time, with each draft or revision building upon the pre"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 7,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.03727562295049949,
+   "revise:sec3:s3.2": 0.3611064918593094,
+   "revise:sec2:s2.2": 0.4007507138600302,
+   "check:sec1:s1.1": 0.06820420633848417,
+   "check:sec3:s3.1": 0.05537747408657282,
+   "fix:sec1:urgent": 0.07728549090510398
+  },
+  "next_edit_type": {
+   "write": 0.03727562295049949,
+   "revise": 0.7618572057193396,
+   "check": 0.12358168042505699,
+   "fix": 0.07728549090510398
+  },
+  "next_section": {
+   "sec2": 0.4380263368105297,
+   "sec3": 0.4164839659458822,
+   "sec1": 0.14548969724358815
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.46070095146523565
+ },
+ "uncertainty": {
+  "posterior_weight": 0.4185104304227595,
+  "abstain": false
+ }
+}

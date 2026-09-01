@@ -1,0 +1,2391 @@
+{
+ "cells": [
+  {
+   "card": "I01",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "I02",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "I03",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "I04",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "I05",
+   "domain": "essay",
+   "factors": {
+    "reader": "qwen",
+    "target": "next_edit"
+   }
+  },
+  {
+   "card": "I05",
+   "domain": "essay",
+   "factors": {
+    "reader": "qwen",
+    "target": "stop"
+   }
+  },
+  {
+   "card": "I05",
+   "domain": "essay",
+   "factors": {
+    "reader": "smollm",
+    "target": "next_edit"
+   }
+  },
+  {
+   "card": "I05",
+   "domain": "essay",
+   "factors": {
+    "reader": "smollm",
+    "target": "stop"
+   }
+  },
+  {
+   "card": "I05",
+   "domain": "workshop_doc",
+   "factors": {
+    "reader": "qwen",
+    "target": "next_edit"
+   }
+  },
+  {
+   "card": "I05",
+   "domain": "workshop_doc",
+   "factors": {
+    "reader": "qwen",
+    "target": "stop"
+   }
+  },
+  {
+   "card": "I05",
+   "domain": "workshop_doc",
+   "factors": {
+    "reader": "smollm",
+    "target": "next_edit"
+   }
+  },
+  {
+   "card": "I05",
+   "domain": "workshop_doc",
+   "factors": {
+    "reader": "smollm",
+    "target": "stop"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "D"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "L"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "LD"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "TT"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "GS"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "EX"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "AD"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "CR"
+   }
+  },
+  {
+   "card": "I06",
+   "domain": "all",
+   "factors": {
+    "architecture": "OR"
+   }
+  },
+  {
+   "card": "I07",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "I08",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "I09",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "I10",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "M01",
+   "domain": "essay",
+   "factors": {
+    "architecture": "D",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M01",
+   "domain": "essay",
+   "factors": {
+    "architecture": "D",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M01",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "D",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M01",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "D",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M02",
+   "domain": "essay",
+   "factors": {
+    "architecture": "L",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M02",
+   "domain": "essay",
+   "factors": {
+    "architecture": "L",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M02",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "L",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M02",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "L",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M03",
+   "domain": "essay",
+   "factors": {
+    "architecture": "LD",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M03",
+   "domain": "essay",
+   "factors": {
+    "architecture": "LD",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M03",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "LD",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M03",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "LD",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M04",
+   "domain": "essay",
+   "factors": {
+    "architecture": "TT",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M04",
+   "domain": "essay",
+   "factors": {
+    "architecture": "TT",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M04",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "TT",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M04",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "TT",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M05",
+   "domain": "essay",
+   "factors": {
+    "architecture": "GS",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M05",
+   "domain": "essay",
+   "factors": {
+    "architecture": "GS",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M05",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "GS",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M05",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "GS",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M06",
+   "domain": "essay",
+   "factors": {
+    "architecture": "EX",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M06",
+   "domain": "essay",
+   "factors": {
+    "architecture": "EX",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M06",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "EX",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M06",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "EX",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M07",
+   "domain": "essay",
+   "factors": {
+    "architecture": "AD",
+    "world_completeness": "complete"
+   }
+  },
+  {
+   "card": "M07",
+   "domain": "essay",
+   "factors": {
+    "architecture": "AD",
+    "world_completeness": "missing_variable"
+   }
+  },
+  {
+   "card": "M07",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "AD",
+    "world_completeness": "complete"
+   }
+  },
+  {
+   "card": "M07",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "AD",
+    "world_completeness": "missing_variable"
+   }
+  },
+  {
+   "card": "M08",
+   "domain": "essay",
+   "factors": {
+    "architecture": "CR",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M08",
+   "domain": "essay",
+   "factors": {
+    "architecture": "CR",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M08",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "CR",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M08",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "CR",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M09",
+   "domain": "essay",
+   "factors": {
+    "architecture": "OR",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M09",
+   "domain": "essay",
+   "factors": {
+    "architecture": "OR",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M09",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "OR",
+    "domain": "essay"
+   }
+  },
+  {
+   "card": "M09",
+   "domain": "workshop_doc",
+   "factors": {
+    "architecture": "OR",
+    "domain": "workshop_doc"
+   }
+  },
+  {
+   "card": "M10",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "M10",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "M11",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "M11",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "M12",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "M12",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "M13",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "M13",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "M14",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "M14",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "M15",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "M15",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "M16",
+   "domain": "essay",
+   "factors": {
+    "reader": "qwen"
+   }
+  },
+  {
+   "card": "M16",
+   "domain": "essay",
+   "factors": {
+    "reader": "smollm"
+   }
+  },
+  {
+   "card": "M16",
+   "domain": "workshop_doc",
+   "factors": {
+    "reader": "qwen"
+   }
+  },
+  {
+   "card": "M16",
+   "domain": "workshop_doc",
+   "factors": {
+    "reader": "smollm"
+   }
+  },
+  {
+   "card": "C01",
+   "domain": "all",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C01",
+   "domain": "all",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C01",
+   "domain": "all",
+   "factors": {
+    "controller": "focal_habit"
+   }
+  },
+  {
+   "card": "C01",
+   "domain": "all",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C02",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "C03",
+   "domain": "essay",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C03",
+   "domain": "essay",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C03",
+   "domain": "essay",
+   "factors": {
+    "controller": "focal_habit"
+   }
+  },
+  {
+   "card": "C03",
+   "domain": "essay",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C03",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C03",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C03",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "focal_habit"
+   }
+  },
+  {
+   "card": "C03",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C04",
+   "domain": "essay",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C04",
+   "domain": "essay",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C04",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C04",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C05",
+   "domain": "essay",
+   "factors": {
+    "controller": "focal_habit",
+    "reread": "yes"
+   }
+  },
+  {
+   "card": "C05",
+   "domain": "essay",
+   "factors": {
+    "controller": "focal_habit",
+    "reread": "no"
+   }
+  },
+  {
+   "card": "C05",
+   "domain": "essay",
+   "factors": {
+    "controller": "strict_switch",
+    "reread": "yes"
+   }
+  },
+  {
+   "card": "C05",
+   "domain": "essay",
+   "factors": {
+    "controller": "strict_switch",
+    "reread": "no"
+   }
+  },
+  {
+   "card": "C05",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "focal_habit",
+    "reread": "yes"
+   }
+  },
+  {
+   "card": "C05",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "focal_habit",
+    "reread": "no"
+   }
+  },
+  {
+   "card": "C05",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "strict_switch",
+    "reread": "yes"
+   }
+  },
+  {
+   "card": "C05",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "strict_switch",
+    "reread": "no"
+   }
+  },
+  {
+   "card": "C06",
+   "domain": "essay",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C06",
+   "domain": "essay",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C06",
+   "domain": "essay",
+   "factors": {
+    "controller": "focal_habit"
+   }
+  },
+  {
+   "card": "C06",
+   "domain": "essay",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C06",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C06",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C06",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "focal_habit"
+   }
+  },
+  {
+   "card": "C06",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C07",
+   "domain": "essay",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C07",
+   "domain": "essay",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C07",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C07",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C08",
+   "domain": "essay",
+   "factors": {
+    "completed": "deactivated"
+   }
+  },
+  {
+   "card": "C08",
+   "domain": "essay",
+   "factors": {
+    "completed": "residue"
+   }
+  },
+  {
+   "card": "C08",
+   "domain": "workshop_doc",
+   "factors": {
+    "completed": "deactivated"
+   }
+  },
+  {
+   "card": "C08",
+   "domain": "workshop_doc",
+   "factors": {
+    "completed": "residue"
+   }
+  },
+  {
+   "card": "C09",
+   "domain": "essay",
+   "factors": {
+    "surprise": "switch"
+   }
+  },
+  {
+   "card": "C09",
+   "domain": "essay",
+   "factors": {
+    "surprise": "precision"
+   }
+  },
+  {
+   "card": "C09",
+   "domain": "essay",
+   "factors": {
+    "surprise": "missing_goal"
+   }
+  },
+  {
+   "card": "C09",
+   "domain": "workshop_doc",
+   "factors": {
+    "surprise": "switch"
+   }
+  },
+  {
+   "card": "C09",
+   "domain": "workshop_doc",
+   "factors": {
+    "surprise": "precision"
+   }
+  },
+  {
+   "card": "C09",
+   "domain": "workshop_doc",
+   "factors": {
+    "surprise": "missing_goal"
+   }
+  },
+  {
+   "card": "C10",
+   "domain": "essay",
+   "factors": {
+    "pull": "goal"
+   }
+  },
+  {
+   "card": "C10",
+   "domain": "essay",
+   "factors": {
+    "pull": "salience"
+   }
+  },
+  {
+   "card": "C10",
+   "domain": "essay",
+   "factors": {
+    "pull": "history"
+   }
+  },
+  {
+   "card": "C10",
+   "domain": "workshop_doc",
+   "factors": {
+    "pull": "goal"
+   }
+  },
+  {
+   "card": "C10",
+   "domain": "workshop_doc",
+   "factors": {
+    "pull": "salience"
+   }
+  },
+  {
+   "card": "C10",
+   "domain": "workshop_doc",
+   "factors": {
+    "pull": "history"
+   }
+  },
+  {
+   "card": "C11",
+   "domain": "essay",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C11",
+   "domain": "essay",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C11",
+   "domain": "essay",
+   "factors": {
+    "controller": "focal_habit"
+   }
+  },
+  {
+   "card": "C11",
+   "domain": "essay",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C11",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "strict_switch"
+   }
+  },
+  {
+   "card": "C11",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "maintained"
+   }
+  },
+  {
+   "card": "C11",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "focal_habit"
+   }
+  },
+  {
+   "card": "C11",
+   "domain": "workshop_doc",
+   "factors": {
+    "controller": "concurrent"
+   }
+  },
+  {
+   "card": "C12",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "A01",
+   "domain": "all",
+   "factors": {
+    "learner": "attention_only"
+   }
+  },
+  {
+   "card": "A01",
+   "domain": "all",
+   "factors": {
+    "learner": "rich"
+   }
+  },
+  {
+   "card": "A02",
+   "domain": "essay",
+   "factors": {
+    "history": "exposure"
+   }
+  },
+  {
+   "card": "A02",
+   "domain": "essay",
+   "factors": {
+    "history": "attended"
+   }
+  },
+  {
+   "card": "A02",
+   "domain": "workshop_doc",
+   "factors": {
+    "history": "exposure"
+   }
+  },
+  {
+   "card": "A02",
+   "domain": "workshop_doc",
+   "factors": {
+    "history": "attended"
+   }
+  },
+  {
+   "card": "A03",
+   "domain": "essay",
+   "factors": {
+    "history": "attended"
+   }
+  },
+  {
+   "card": "A03",
+   "domain": "essay",
+   "factors": {
+    "history": "practiced"
+   }
+  },
+  {
+   "card": "A03",
+   "domain": "workshop_doc",
+   "factors": {
+    "history": "attended"
+   }
+  },
+  {
+   "card": "A03",
+   "domain": "workshop_doc",
+   "factors": {
+    "history": "practiced"
+   }
+  },
+  {
+   "card": "A04",
+   "domain": "essay",
+   "factors": {
+    "feedback": "reward"
+   }
+  },
+  {
+   "card": "A04",
+   "domain": "essay",
+   "factors": {
+    "feedback": "error"
+   }
+  },
+  {
+   "card": "A04",
+   "domain": "essay",
+   "factors": {
+    "feedback": "none"
+   }
+  },
+  {
+   "card": "A04",
+   "domain": "workshop_doc",
+   "factors": {
+    "feedback": "reward"
+   }
+  },
+  {
+   "card": "A04",
+   "domain": "workshop_doc",
+   "factors": {
+    "feedback": "error"
+   }
+  },
+  {
+   "card": "A04",
+   "domain": "workshop_doc",
+   "factors": {
+    "feedback": "none"
+   }
+  },
+  {
+   "card": "A05",
+   "domain": "essay",
+   "factors": {
+    "imposed": "yes"
+   }
+  },
+  {
+   "card": "A05",
+   "domain": "essay",
+   "factors": {
+    "imposed": "no"
+   }
+  },
+  {
+   "card": "A05",
+   "domain": "workshop_doc",
+   "factors": {
+    "imposed": "yes"
+   }
+  },
+  {
+   "card": "A05",
+   "domain": "workshop_doc",
+   "factors": {
+    "imposed": "no"
+   }
+  },
+  {
+   "card": "A06",
+   "domain": "essay",
+   "factors": {
+    "constraint": "pressure"
+   }
+  },
+  {
+   "card": "A06",
+   "domain": "essay",
+   "factors": {
+    "constraint": "free"
+   }
+  },
+  {
+   "card": "A06",
+   "domain": "workshop_doc",
+   "factors": {
+    "constraint": "pressure"
+   }
+  },
+  {
+   "card": "A06",
+   "domain": "workshop_doc",
+   "factors": {
+    "constraint": "free"
+   }
+  },
+  {
+   "card": "A07",
+   "domain": "essay",
+   "factors": {
+    "toolset": "narrow"
+   }
+  },
+  {
+   "card": "A07",
+   "domain": "essay",
+   "factors": {
+    "toolset": "wide"
+   }
+  },
+  {
+   "card": "A07",
+   "domain": "workshop_doc",
+   "factors": {
+    "toolset": "narrow"
+   }
+  },
+  {
+   "card": "A07",
+   "domain": "workshop_doc",
+   "factors": {
+    "toolset": "wide"
+   }
+  },
+  {
+   "card": "A08",
+   "domain": "essay",
+   "factors": {
+    "phase": "pre"
+   }
+  },
+  {
+   "card": "A08",
+   "domain": "essay",
+   "factors": {
+    "phase": "post_reversal"
+   }
+  },
+  {
+   "card": "A08",
+   "domain": "workshop_doc",
+   "factors": {
+    "phase": "pre"
+   }
+  },
+  {
+   "card": "A08",
+   "domain": "workshop_doc",
+   "factors": {
+    "phase": "post_reversal"
+   }
+  },
+  {
+   "card": "A09",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "A09",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "A10",
+   "domain": "essay",
+   "factors": {
+    "expertise": "novice"
+   }
+  },
+  {
+   "card": "A10",
+   "domain": "essay",
+   "factors": {
+    "expertise": "expert"
+   }
+  },
+  {
+   "card": "A10",
+   "domain": "workshop_doc",
+   "factors": {
+    "expertise": "novice"
+   }
+  },
+  {
+   "card": "A10",
+   "domain": "workshop_doc",
+   "factors": {
+    "expertise": "expert"
+   }
+  },
+  {
+   "card": "A11",
+   "domain": "essay",
+   "factors": {
+    "choice": "conventional"
+   }
+  },
+  {
+   "card": "A11",
+   "domain": "essay",
+   "factors": {
+    "choice": "deviation"
+   }
+  },
+  {
+   "card": "A11",
+   "domain": "workshop_doc",
+   "factors": {
+    "choice": "conventional"
+   }
+  },
+  {
+   "card": "A11",
+   "domain": "workshop_doc",
+   "factors": {
+    "choice": "deviation"
+   }
+  },
+  {
+   "card": "A12",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "A12",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "A13",
+   "domain": "essay",
+   "factors": {
+    "history_view": "dated"
+   }
+  },
+  {
+   "card": "A13",
+   "domain": "essay",
+   "factors": {
+    "history_view": "ordered"
+   }
+  },
+  {
+   "card": "A13",
+   "domain": "essay",
+   "factors": {
+    "history_view": "shuffled"
+   }
+  },
+  {
+   "card": "A13",
+   "domain": "essay",
+   "factors": {
+    "history_view": "aggregate"
+   }
+  },
+  {
+   "card": "A13",
+   "domain": "workshop_doc",
+   "factors": {
+    "history_view": "dated"
+   }
+  },
+  {
+   "card": "A13",
+   "domain": "workshop_doc",
+   "factors": {
+    "history_view": "ordered"
+   }
+  },
+  {
+   "card": "A13",
+   "domain": "workshop_doc",
+   "factors": {
+    "history_view": "shuffled"
+   }
+  },
+  {
+   "card": "A13",
+   "domain": "workshop_doc",
+   "factors": {
+    "history_view": "aggregate"
+   }
+  },
+  {
+   "card": "A14",
+   "domain": "essay",
+   "factors": {
+    "object": "current_goal"
+   }
+  },
+  {
+   "card": "A14",
+   "domain": "essay",
+   "factors": {
+    "object": "selection_history"
+   }
+  },
+  {
+   "card": "A14",
+   "domain": "essay",
+   "factors": {
+    "object": "skill"
+   }
+  },
+  {
+   "card": "A14",
+   "domain": "essay",
+   "factors": {
+    "object": "constraint_history"
+   }
+  },
+  {
+   "card": "A14",
+   "domain": "workshop_doc",
+   "factors": {
+    "object": "current_goal"
+   }
+  },
+  {
+   "card": "A14",
+   "domain": "workshop_doc",
+   "factors": {
+    "object": "selection_history"
+   }
+  },
+  {
+   "card": "A14",
+   "domain": "workshop_doc",
+   "factors": {
+    "object": "skill"
+   }
+  },
+  {
+   "card": "A14",
+   "domain": "workshop_doc",
+   "factors": {
+    "object": "constraint_history"
+   }
+  },
+  {
+   "card": "V01",
+   "domain": "all",
+   "factors": {
+    "value": "accuracy"
+   }
+  },
+  {
+   "card": "V01",
+   "domain": "all",
+   "factors": {
+    "value": "prestige"
+   }
+  },
+  {
+   "card": "V02",
+   "domain": "essay",
+   "factors": {
+    "value": "accuracy"
+   }
+  },
+  {
+   "card": "V02",
+   "domain": "essay",
+   "factors": {
+    "value": "prestige"
+   }
+  },
+  {
+   "card": "V02",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "accuracy"
+   }
+  },
+  {
+   "card": "V02",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "prestige"
+   }
+  },
+  {
+   "card": "V03",
+   "domain": "essay",
+   "factors": {
+    "value": "accuracy",
+    "observed": "no"
+   }
+  },
+  {
+   "card": "V03",
+   "domain": "essay",
+   "factors": {
+    "value": "prestige",
+    "observed": "no"
+   }
+  },
+  {
+   "card": "V03",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "accuracy",
+    "observed": "no"
+   }
+  },
+  {
+   "card": "V03",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "prestige",
+    "observed": "no"
+   }
+  },
+  {
+   "card": "V04",
+   "domain": "essay",
+   "factors": {
+    "value": "accuracy",
+    "visibility": "public"
+   }
+  },
+  {
+   "card": "V04",
+   "domain": "essay",
+   "factors": {
+    "value": "accuracy",
+    "visibility": "private"
+   }
+  },
+  {
+   "card": "V04",
+   "domain": "essay",
+   "factors": {
+    "value": "prestige",
+    "visibility": "public"
+   }
+  },
+  {
+   "card": "V04",
+   "domain": "essay",
+   "factors": {
+    "value": "prestige",
+    "visibility": "private"
+   }
+  },
+  {
+   "card": "V04",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "accuracy",
+    "visibility": "public"
+   }
+  },
+  {
+   "card": "V04",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "accuracy",
+    "visibility": "private"
+   }
+  },
+  {
+   "card": "V04",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "prestige",
+    "visibility": "public"
+   }
+  },
+  {
+   "card": "V04",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "prestige",
+    "visibility": "private"
+   }
+  },
+  {
+   "card": "V05",
+   "domain": "essay",
+   "factors": {
+    "value": "accuracy"
+   }
+  },
+  {
+   "card": "V05",
+   "domain": "essay",
+   "factors": {
+    "value": "prestige"
+   }
+  },
+  {
+   "card": "V05",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "accuracy"
+   }
+  },
+  {
+   "card": "V05",
+   "domain": "workshop_doc",
+   "factors": {
+    "value": "prestige"
+   }
+  },
+  {
+   "card": "V06",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "V06",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "V07",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "V07",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "V08",
+   "domain": "essay",
+   "factors": {
+    "change": "genuine"
+   }
+  },
+  {
+   "card": "V08",
+   "domain": "essay",
+   "factors": {
+    "change": "concealment"
+   }
+  },
+  {
+   "card": "V08",
+   "domain": "workshop_doc",
+   "factors": {
+    "change": "genuine"
+   }
+  },
+  {
+   "card": "V08",
+   "domain": "workshop_doc",
+   "factors": {
+    "change": "concealment"
+   }
+  },
+  {
+   "card": "V09",
+   "domain": "essay",
+   "factors": {
+    "change": "value"
+   }
+  },
+  {
+   "card": "V09",
+   "domain": "essay",
+   "factors": {
+    "change": "context"
+   }
+  },
+  {
+   "card": "V09",
+   "domain": "workshop_doc",
+   "factors": {
+    "change": "value"
+   }
+  },
+  {
+   "card": "V09",
+   "domain": "workshop_doc",
+   "factors": {
+    "change": "context"
+   }
+  },
+  {
+   "card": "V10",
+   "domain": "essay",
+   "factors": {
+    "change": "value"
+   }
+  },
+  {
+   "card": "V10",
+   "domain": "essay",
+   "factors": {
+    "change": "competence"
+   }
+  },
+  {
+   "card": "V10",
+   "domain": "workshop_doc",
+   "factors": {
+    "change": "value"
+   }
+  },
+  {
+   "card": "V10",
+   "domain": "workshop_doc",
+   "factors": {
+    "change": "competence"
+   }
+  },
+  {
+   "card": "V11",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "V11",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "V12",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "V12",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "V13",
+   "domain": "essay",
+   "factors": {
+    "model": "time_aware"
+   }
+  },
+  {
+   "card": "V13",
+   "domain": "essay",
+   "factors": {
+    "model": "time_blind"
+   }
+  },
+  {
+   "card": "V13",
+   "domain": "workshop_doc",
+   "factors": {
+    "model": "time_aware"
+   }
+  },
+  {
+   "card": "V13",
+   "domain": "workshop_doc",
+   "factors": {
+    "model": "time_blind"
+   }
+  },
+  {
+   "card": "V14",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "V14",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "F01",
+   "domain": "all",
+   "factors": {
+    "forage": "explore"
+   }
+  },
+  {
+   "card": "F01",
+   "domain": "all",
+   "factors": {
+    "forage": "error"
+   }
+  },
+  {
+   "card": "F01",
+   "domain": "all",
+   "factors": {
+    "forage": "habit_misuse"
+   }
+  },
+  {
+   "card": "F01",
+   "domain": "all",
+   "factors": {
+    "forage": "hidden_goal"
+   }
+  },
+  {
+   "card": "F02",
+   "domain": "essay",
+   "factors": {
+    "forage": "explore"
+   }
+  },
+  {
+   "card": "F02",
+   "domain": "essay",
+   "factors": {
+    "forage": "error"
+   }
+  },
+  {
+   "card": "F02",
+   "domain": "workshop_doc",
+   "factors": {
+    "forage": "explore"
+   }
+  },
+  {
+   "card": "F02",
+   "domain": "workshop_doc",
+   "factors": {
+    "forage": "error"
+   }
+  },
+  {
+   "card": "F03",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "F03",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "F04",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "F04",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "F05",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "F05",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "F06",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "F06",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "F07",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "F08",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "F08",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "F09",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "F09",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "F10",
+   "domain": "essay",
+   "factors": {
+    "pattern": "noise"
+   }
+  },
+  {
+   "card": "F10",
+   "domain": "essay",
+   "factors": {
+    "pattern": "structured"
+   }
+  },
+  {
+   "card": "F10",
+   "domain": "workshop_doc",
+   "factors": {
+    "pattern": "noise"
+   }
+  },
+  {
+   "card": "F10",
+   "domain": "workshop_doc",
+   "factors": {
+    "pattern": "structured"
+   }
+  },
+  {
+   "card": "F11",
+   "domain": "essay",
+   "factors": {
+    "forage": "explore"
+   }
+  },
+  {
+   "card": "F11",
+   "domain": "essay",
+   "factors": {
+    "forage": "error"
+   }
+  },
+  {
+   "card": "F11",
+   "domain": "essay",
+   "factors": {
+    "forage": "habit_misuse"
+   }
+  },
+  {
+   "card": "F11",
+   "domain": "essay",
+   "factors": {
+    "forage": "hidden_goal"
+   }
+  },
+  {
+   "card": "F11",
+   "domain": "workshop_doc",
+   "factors": {
+    "forage": "explore"
+   }
+  },
+  {
+   "card": "F11",
+   "domain": "workshop_doc",
+   "factors": {
+    "forage": "error"
+   }
+  },
+  {
+   "card": "F11",
+   "domain": "workshop_doc",
+   "factors": {
+    "forage": "habit_misuse"
+   }
+  },
+  {
+   "card": "F11",
+   "domain": "workshop_doc",
+   "factors": {
+    "forage": "hidden_goal"
+   }
+  },
+  {
+   "card": "F12",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "P01",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "P01",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "P02",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "P02",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "P03",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "P03",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "P04",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "P04",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "P05",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "P05",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "P06",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "P06",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "P07",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "P07",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "P08",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "P09",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "P09",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "P10",
+   "domain": "essay",
+   "factors": {
+    "ablated": "none"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "essay",
+   "factors": {
+    "ablated": "episode_goal"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "essay",
+   "factors": {
+    "ablated": "control_state"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "essay",
+   "factors": {
+    "ablated": "selection_history"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "essay",
+   "factors": {
+    "ablated": "expertise_state"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "essay",
+   "factors": {
+    "ablated": "stop_model"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "workshop_doc",
+   "factors": {
+    "ablated": "none"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "workshop_doc",
+   "factors": {
+    "ablated": "episode_goal"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "workshop_doc",
+   "factors": {
+    "ablated": "control_state"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "workshop_doc",
+   "factors": {
+    "ablated": "selection_history"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "workshop_doc",
+   "factors": {
+    "ablated": "expertise_state"
+   }
+  },
+  {
+   "card": "P10",
+   "domain": "workshop_doc",
+   "factors": {
+    "ablated": "stop_model"
+   }
+  },
+  {
+   "card": "P11",
+   "domain": "essay",
+   "factors": {
+    "reader": "qwen"
+   }
+  },
+  {
+   "card": "P11",
+   "domain": "essay",
+   "factors": {
+    "reader": "smollm"
+   }
+  },
+  {
+   "card": "P11",
+   "domain": "workshop_doc",
+   "factors": {
+    "reader": "qwen"
+   }
+  },
+  {
+   "card": "P11",
+   "domain": "workshop_doc",
+   "factors": {
+    "reader": "smollm"
+   }
+  },
+  {
+   "card": "P12",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "T01",
+   "domain": "all",
+   "factors": {
+    "protocol": "leave_project_out"
+   }
+  },
+  {
+   "card": "T01",
+   "domain": "all",
+   "factors": {
+    "protocol": "leave_author_out"
+   }
+  },
+  {
+   "card": "T02",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "T03",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "T04",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "T05",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "T06",
+   "domain": "all",
+   "factors": {
+    "model": "time_aware"
+   }
+  },
+  {
+   "card": "T06",
+   "domain": "all",
+   "factors": {
+    "model": "aggregate"
+   }
+  },
+  {
+   "card": "T07",
+   "domain": "all",
+   "factors": {
+    "opportunity": "shown"
+   }
+  },
+  {
+   "card": "T07",
+   "domain": "all",
+   "factors": {
+    "opportunity": "hidden"
+   }
+  },
+  {
+   "card": "T08",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "T09",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "T10",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "B01",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "B01",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "B02",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "B02",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "B03",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "B04",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X01",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "X01",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "X02",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "X02",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "X03",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X04",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "X04",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "X05",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X06",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X07",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X08",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X09",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "X09",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "X10",
+   "domain": "essay",
+   "factors": {}
+  },
+  {
+   "card": "X10",
+   "domain": "workshop_doc",
+   "factors": {}
+  },
+  {
+   "card": "X11",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X12",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X13",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X14",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X15",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X16",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X17",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X18",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X19",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X20",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X21",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X22",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X23",
+   "domain": "all",
+   "factors": {}
+  },
+  {
+   "card": "X24",
+   "domain": "all",
+   "factors": {}
+  }
+ ],
+ "n": 363,
+ "written_at": "2026-08-30T15:40:28"
+}

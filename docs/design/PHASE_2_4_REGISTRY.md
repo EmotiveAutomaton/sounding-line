@@ -77,8 +77,9 @@ flight, ontology change, spend, safety, or PROGRAM-EXHAUSTED). Local execution o
 Stage 3 identifiers are E24-S3-*; Stage 2 closures preserved (the A trunk is a NEW
 construction, never a reclassification of L170).
 
-**Stage 3 theory errata applied 2026-08-24 evening** (`PHASE_2_4_STAGE_3_THEORY_ERRATA.md`,
-this folder; top-level drop integrated and removed). Sixteen local edits across four living
+**Stage 3 theory errata applied 2026-08-24 evening** (from the top-level drop, integrated and
+removed; the errata file itself was removed with every errata markdown 2026-08-30 on curator
+ruling — the theory owners are the record). Sixteen local edits across four living
 theory files: the minimal-core paragraph (empathy-like self-modeling as the distinctive but
 unmeasured human bet), the preference-event opportunity standard, the active state-dependent
 affect conjecture, G35 withdrawn as a design heuristic (27 quote preserved byte-for-byte with a
@@ -431,6 +432,243 @@ second domain under fixed order (congruent +0.03, nothing) and the card-by-card 
 contracts (four outcomes changed; appended to the second packet). The queue is empty. The post-run source-gate receipt on the repaired text (L309) shows the action
 question at 0.88 / 0.75 for Qwen and the arousal question unchanged; the construction is repaired and
 the register's arousal half is a reader floor.
+
+**Post-run receipts built and queued, 2026-08-30 (his order: everything buildable from the open items, gear two
+until empty).** Five receipt runners under `results/phase_2_4_stage_5r/post/`, each with a DESIGN CHECK block, each
+changing nothing landed: the ease-ruler validation (`s5_ease_ruler.py`; four rulers on the plain record and its five
+renderings, the band 0.95 of 64 samples on both readers for the two known-answer renderings, capitals and mid-dots;
+the mean ruler kept so the validation can show it failing); R02 under the validated ruler (`s5_r02_ease.py`, VOID if
+none passes; the realization of the ease arm written before the contrast); R01 with ease crossed within a route
+type (`s5_r01_ease.py`; three cells per world; the rendering chosen per reader by its flip margin, a reader with no
+flipping rendering excluded and named); P02 under the echo rule (`s5_p02_echo.py`; echo is no proposal, one second
+turn, the 23-order blind rate); and the gate census (`s5_gate_census.py`; the reader gate at 96 items, the register
+gate, and the latents-to-choice gate on the four local instruct checkpoints not yet gated on all three, the 3B's
+reader gate taken from the 96-item re-gate). Guard test 19 covers the rulers, their validation's ability to fail,
+and the echo rule's population; the scratch-root smoke of all five ran clean on both readers before the launch
+(one repair from the smoke: the R01 crossing's realization is judged on the record/note pair, since a fixed
+description's ease is a per-reader constant and the forensic description can be the easiest of three). Second
+gear launched 07:40 on the five stages. **Landed and written through by 08:30** (L310 to L314): the total log
+probability is the validated ease ruler; the harder-rendered route description is taken more, not less, on both
+readers (anomaly attraction; the fluency rival dead); genuine order proposals enactable at 0.82 against 0.17;
+no local checkpoint passes any gate (the third run and the bridge's second checkpoint blocked on a reader this
+machine does not hold; a gear-3 question for him); reliance never follows fluency, quantity on one family. The
+queue emptied at 08:04 after two passes. Opened: (l2) the archaic rendering in the same cross, and a
+surface-matched audit of every menu; (m2) information at equal length.
+
+
+## Stage 6 (his build order 2026-08-30; brief at PHASE_2_4_STAGE_6_CONTEXT.md, filed in this folder)
+
+**Build, 2026-08-30 (one pass, front to back).** The brief's contextual maker-state program: 104
+mandatory cards over eight trunks (integrity; the nine-arm hypothesis-realization tournament;
+control; attention history; value trajectories; foraging; the common prospective benchmark;
+recorded-process transfer; closure) plus the 24-attack matrix, on a namespaced package
+(`runners/stage6/`: cards, worlds, records, realization, architectures, prediction, cardrun,
+engines, track_models, trecords, attacks, confirmation, scheduler, report, validate,
+fresh_clone; `soundingline/stage6.py` subclasses the Stage-4/5 machinery). The worlds are exact:
+a maker is an order policy over a fixed action multiset, the four controllers share every final
+artifact and per-goal count by construction, the value twins share every pre-event score exactly,
+the foraging tetrad's outcome reads are ordered by an availability rule, and the oracle posterior
+is the normalized product of per-step softmax likelihoods over the track's latent grid. The nine
+architecture arms (direct, label inverse planning, label+definitions, language particles,
+grammar-constrained, executable synthesis, adaptive expansion, contextual realization, exact
+oracle) share one evidence surface, one hypothesis vocabulary, fixed per-world option orders (the
+L283 lesson), and a compute-budget ledger. One immutable 168-hour clock starts at the discarded
+pilot; the workload lock is sized from measured pilot throughput with a 1.6 margin; the frozen
+nine-rung expansion ladder fills headroom; the confirmation freeze at hour 144 selects at most
+two claims; the reporter refuses any packet before hour 168 plus validation; the Ghost V14
+coexistence governor caps Sounding CPU workers at two while Ghost's heartbeat is fresh
+(read-only; the orphan sweep's filter cannot match Ghost's module-style command line — verified
+by guard test 18). Guard suite: 21 of 21 (`tools/test_s6.py`), plus the world, records,
+realization, architecture, and prediction module self-tests. Wrapper `run_stage6.sh` (gear-2
+lock, pilot-once, chain into the general queue at close).
+
+**Deviations from the brief's illustrative layout, recorded:** proposals.py is folded into
+realization.py (one home for the vocabulary, grammar, realizer, adapter, and paraphrase);
+control/history/value/foraging_models.py are merged into track_models.py (one spec-driven
+interpreter beats four near-copies); engines.py and cardrun.py added; P01-P09 and P11 score the
+tournament's landed rows on CPU instead of re-running readers (the same estimand, no duplicate
+GPU pass). **Known-fact deviations:** OpenReview is NOT on this machine (the Stage-3 H07 hunt
+closed RESOURCE_BLOCKED with receipts), so T03 carries a predeclared RESOURCE_BLOCKED
+disposition unless the curator supplies a licensed copy before the scientific lock; the brief's
+V14 boundary text (18 of 64 resolved) is stale — at build time V14 reads 62 of 64 resolved with
+its attack stage live, which strengthens the B03 bridge ledger and changes nothing else.
+**Build-time defects caught by the tests and the two scratch smokes, repaired before any real
+clock (eleven, in two rounds):** an asymmetric goal-path marginalization that separated value
+twins that must collide (shared-seed paths per controller; exactness re-proven); goal names
+colliding with rendering verbs (goals renamed off the action vocabulary); the foraging outcome
+read available before its probe (an availability rule); the adaptive arm crashing without a
+reader (likelihood-only posterior); the outcome-read statistic aliasing ordinary checks
+(technique-slot filter); the letter readout's six-label cap crashing every seven-option and
+twelve-label question (a seeded two-round tournament readout with a declared composition rule,
+world-seeded splits, one rule for every arm); the I05 capability gate silently running with an
+empty reader list before the scientific lock exists (integrity cards read the reader constants,
+not the not-yet-frozen design); the CoAuthor delta replay using wrong Quill semantics with a
+reference the log does not carry (standard walk-the-old-document application; the gate is now
+internal consistency — zero overflows — since only system-initialize carries a document text);
+the value twins' divergence living only in the changed-context choice, unrecoverable from the
+order (a post-consult follow-up action whose salience the value sets: identical surfaces and
+counts, diverging orders after the diagnostic event, exact collision before it); the C02
+endpoint audit comparing only runs that happened not to stop (a no-stop replica: endpoint match
+is an order-policy property, stopping its own dimension); the first smoke's M-trunk cascade
+(thirty cells blocked on the one readout crash) clearing in full on the second smoke. The third smoke ran all
+137 cells COMPLETE with zero blocked — the ladder to rung nine, the hour-144 freeze (scaled), the short-run
+rule, and the packet refusal all exercised — and left three attack verdicts that are instrument facts, not
+build defects: the label posterior's order component was then CANCELLED STRUCTURALLY (a canonical-order,
+position-balanced rotation set, every candidate in every position exactly once, deterministic; the permutation
+attack's move fell from 0.74 to exactly 0.000), and what remains is the readers' genuine wording sensitivity
+(paraphrase moves the posterior 0.22-0.23 TV against 0.25-0.38 for a true meaning change at two to four smoke
+worlds; I08 and X01 carry the derived discriminative band and will measure it at full n, with the declared
+consequence — wording-unstable label-posterior claims close as bounded — if it stands).
+
+**LAUNCH, 2026-08-30 15:39.** `run_stage6.sh` in second gear (winpid in results/.gear2.lock); the discarded
+pilot started THE 168-HOUR CLOCK at 15:39:21; deadline 2026-09-06 15:39:21; the Ghost governor holds the CPU
+cap at two while V14's heartbeat is fresh; landings write through as they come; no packet before the deadline.
+**Workload-lock amendments (both before any ladder cell and before any scientific outcome was read; the full
+chain preserved inside WORKLOAD_LOCK.json):** the launch lock under-filled the window (base 7.6 h + a 61.6-hour
+ladder against the 156-162 target) because the rung formula capped each rung near six hours; amendment one moved
+the ladder to measured-rate unit multipliers but its eight-times cap still left a 108.5-hour shortfall; amendment
+two raised the cap to forty — additional DISTINCT constructed worlds (content-hashed, identity-enumerated) or
+more of a real corpus, i.e. statistical power, never duplicate rows (I03 audits that) — landing the forecast at
+157.8 h with a 1.2-hour honest shortfall. The engine was restarted once (15:43, same clock, cells resumed from
+their rows) to load the corrected sizing; the ladder multipliers flow to rung cells via the environment and are
+read live from the lock.
+
+**Runtime defect log (the clock running; each caught by the run's own outputs, repaired
+same-pass, receipts in scheduler.log and the reset trails):**
+
+- **(hour 1.6) the premature confirmation freeze.** A one-tick admissibility lull — the
+  base program finishing in the same tick that rung 1 became admissible — left both cell
+  selectors empty, and the exhaustion branch's freeze call lacked the CLOSURE_HOUR guard
+  the normal path has. The freeze fired at hour 1.6 (selecting M02 and M07, the max-2 rule
+  holding), B01/B02 ran and landed VOID, and B04 ran its routing prematurely. Repair: the
+  branch now freezes only at hour 144 or on a genuinely exhausted ladder
+  (`_ladder_exhausted` over the locked rungs), the premature CONFIRMATION_REGISTRY is
+  superseded on disk, and B01/B02/B04 are reset to re-run at the real freeze.
+- **(hour 1.6, second cause of the same VOID) the confirmation contrast paired against
+  discovery rows.** `rows_of` read the rival card's discovery cases, which share no unit
+  ids with confirmation lineages, so the paired join was empty ("no units"). Repair:
+  `rows_of` follows the run's split, and B01/B02 now run the frozen card's rival arm on
+  the same confirmation lineages before the frozen card itself.
+- **(hour 2) the V-track reader-spec collapse.** V06/V11 and V12/V14 were spec-identical
+  in the declarative table (same world builder, levels, endpoint), so each pair landed one
+  measurement under two card names (−0.018 and +0.322, byte-equal) and the declared
+  discriminators of V12/V14 never ran. Repair (the one predeclared reader-spec family
+  repair): four differentiated modes — pre-event breadth, breadth staircase with
+  post-event growth reported, diagnostic-probe choice against the prefix baseline's probe
+  mass, and changed-context against rich baselines (uniform, leave-one-out domain
+  marginal, modal-goal, last-goal) — and the four cells reset.
+- **(17:36) restart discipline.** The engine restarted on the same immutable clock to load
+  the repairs (the second restart of the run), which also activated P10's earlier
+  realizer-ablation reset: a live engine's in-memory manifest never sees a reset, so
+  resets apply at the next restart. Lesson recorded here and in TOOLS. The lesson then fired in
+  earnest: P10's pre-restart reset WAS clobbered (state COMPLETE, an empty resets list, a bare
+  directory), was re-issued with the engine down (p10repair2, 17:48), and `reset` now refuses to
+  run while the gear-2 winpid answers tasklist. Restarts three (17:36, the repairs) and four
+  (17:48, P10) share the one clock. Outcome of the reader-spec repair, same hour: the four V
+  cells re-landed DISTINCT (L318) — staircase breadth SUPPORT with post-event doubling, probe
+  choice SUPPORT with no post-resolution perseveration, single-cut breadth INCONCLUSIVE at
+  0.150, trajectory against rich baselines COUNTEREVIDENCE at −0.281 with a run-to-run
+  proposal-stability flag for rung 1 to adjudicate.
+- **(08-31, hours 2 to 14) the one-cell-per-rung admission.** `_ladder_next` retired a rung
+  the moment ANY of its cells existed, so nine of about forty locked ladder cells ran and
+  the engine then idled three hours in the hour-guarded lull (the guard held: no premature
+  freeze). Repair: the retirement set removed; existing cells are skipped cell-by-cell and
+  every locked card admits.
+- **(08-31) the expansion-contrast pairing.** An expansion cell's contrast read the rival's
+  offset-zero rows (no shared unit ids): M08/x1 (197.6 min), M08/x2 (160.8 min), and
+  M04/x8 (76.6 min) burned into VOID. Repair: on expansion cells the rival's arm runs
+  IN-CELL on the same offset lineages (M08 contrasts the base-best non-oracle arm, AD);
+  the three cells reset (attempts preserved) and re-run repaired.
+- **(08-31) the P10 crash loop.** The realizer ablation crashed three times on KeyError
+  'produce': ablated configurations (controller to concurrent, episode goal to produce)
+  activate goals outside the hypothesis's weight dict. Repair: weights completed over the
+  full goal set before the predictive is computed; P10 reset a third time and re-run.
+- **(08-31) the reset path for expansion cells.** `reset` derived the cell directory from
+  the CARD name, so resetting M08/x1 moved the BASE M08 landed files (and M04's) into the
+  superseded folder. The base files were restored by hand the same pass (the VOID
+  x-attempts stay preserved inside superseded_laddercontrast/); `reset` now uses the
+  cell's own directory. Restarts now number five on the one clock. Outcomes, hour 18: P10's third run
+  DIFFERENTIATES (control_state −0.125, episode_goal −0.100, expertise −0.013, stop near
+  zero, selection_history exactly nil — by construction on M-track worlds; the instrument
+  stands validated), and M08/x1 lands CR minus AD at −0.071 [−0.075, −0.066] on 10240
+  paired world-readers (sign-flip permutation p 5.0e-05, multiplicity ledger) — the
+  tournament ordering at scale. Hour 25.5: M08/x2 (−0.067) and M04/x8 (−0.021) agree with
+  their discovery landings — all three reset contrast cells valid; the pairing repair is
+  field-proven; the rung-one refill is running. Hour 33: the refill landed M01, M02, C03, C11, and
+  V14 at x1 (L322): C03 +0.45 and C11 a valid null at 3840, M02 +0.88 at 10240, V14 −0.31 at 2710
+  closing the proposal-stability flag; F11/x1 running. Hour 36: rung one closed (L323): A10/x1
+  +0.79 at 3838, F11/x1 at the marginal (+0.009) with a hidden-goal attractor (0.55 against
+  0.07 on habitual misuse), T04/x1 −0.39 at 2448, T01/x1 an offset-inert duplicate of x4 (the
+  records cards ignore the world offset; two minutes); M15/x2 running. Hour 42.5: rungs two and
+  three landed (L324): M15/x2 paraphrase TV 0.000 against 0.470 at 7680 rows, I08/x3 0.168
+  against 0.332 (INSTRUMENT_FAILED stands), M16/x2 −1.067 to −1.048, P10/x2 replicates the
+  ablation ordering with larger governing fields; P10 and I08 code their unit counts, so the
+  lock's multipliers were inert for them (a lock-versus-implementation gap, recorded, no repair).
+  Pace: the locked ladder exhausts near hour 45 against the 158-hour forecast (fortyfold cells
+  run in one to four hours, not at the lock's priced walls); the run will freeze, confirm, and
+  close SHORT by rule, the packet waiting for hour 168. The gear-two load is queued behind the
+  close (2026-09-01 10:40): `s5_r01_archaic` (TODO l2), `s5_r02_length` (TODO m2), and
+  `s6_final_packet` (the waiter that validates and writes the one packet after the deadline),
+  each produces-guarded, built with DESIGN CHECK blocks, compiled, design-linted, and
+  structure-checked on CPU before queueing. Hour 45, rungs four to seven (L325): A12/x5 holds
+  (+0.28 at 2496); A13/x5 DOES NOT replicate the discovery separation (−0.03 [−0.15, +0.10] at
+  1248 against +0.67 [+0.04, +1.29] at 48 — a discovery-size artifact, the A-track's dated-history
+  clause closed); V06/x6 tightens to 0.118, still over the 0.10 breadth band; F03/x6 and F09/x6
+  land identical (+0.665) because F02, F03, and F09 share one statistic by construction (every
+  non-explore forage level scores zero checks-after-probe), a scope fact recorded without spending
+  any repair budget — the F track's separable content is F02 plus the F04/F05 gap statistics;
+  T02/x4 and T04/x4 are offset-inert records duplicates as predicted. M06/x8 landed −0.020 at 8783 pairs (EX under GS at
+  fortyfold; perm 2.0e-03, ledgered). **THE WINDOW CLOSED SHORT BY RULE 2026-09-01 14:43, hour
+  47.07:** the freeze fired at genuine ladder exhaustion (M02 +0.945 and M07 +0.132 selected under
+  §10.3); B01 confirms +0.849 [+0.737, +0.974] at 256, B01/x9 +0.887 at 3584, B02 +0.231 [+0.164,
+  +0.292] at 256; B04 routes "a published scaffold wins or nothing does" to PROMISING engineering
+  route with the reader-boundary caveat; SHORT_RUN (cause: the lock priced fortyfold cells at
+  walls three times their real ones) and RUNTIME (160 cells COMPLETE; 151,752 GPU-lock seconds)
+  written; the reporter refused the early packet as designed; the wrapper chained into the general
+  queue at 14:43:51 (the archaic and equal-length receipts, then the packet waiter to hour 168). Both receipts
+  landed within the hour (L327): the archaic cross reads DIFFICULTY as the attractor (−0.24
+  pooled, the L311 margin, on a rendering with ordinary case and punctuation), and the
+  equal-length triad reads reliance as INFORMATION-tracking (+0.075 at equal length; length
+  itself −0.003; no repeat penalty). His next order (2026-09-01 afternoon): the two auxiliary
+  programs built and queued the same hour — (s6-t1) consolidation-map worlds (independently
+  seeded attention schedules, a lossy top-m consolidation map with interference, the exact
+  layer's recoverability against an analytic one-in-eight floor, a 0.95 lossless sanity gate,
+  and the interference effect as a second primary) and the confidence series (per-step
+  likelihood-read confidence beside exact information on the S5R joint worlds, slope agreement
+  against the analytic half floor, wording guards per LESSONS §3) — gear two relaunched to run
+  them. **The packet was taken early on his ruling** (2026-09-01
+  15:17, hour 47.6; the final-only clause waived by the curator after everything had landed):
+  validation clean (128 of 128 mandatory, 9428 rows), the analyst synthesis written above the
+  machine draft, the waiter cancelled by its cancel file; the tree staged, committed, and
+  pushed on his order the same day (on his explicit allowance).
+
+**The Stage-6 theory UPDATE errata (his second drop, 2026-08-31 17:16) applied and archived.**
+The revised handoff repeats the 2026-08-30 four-joint ruling and adds: the expertise
+consolidation line in the generative schematic (K-update with an independence-of-attention
+non-circularity requirement), the goal-remains-separate ruling (the torturer/ex-torturer
+quotation), the canonical label-pointer rule, the Stage-5 summary sentence (naming the latent
+is not understanding when the oracle reader could not use the true latents, J02-S5), the slope
+quotation with the explicit rival list and the prospective-separator note in §5's afterword,
+the ten-constraint expertise formulation, the explicit control-architecture rivals, the G26
+narrowing, and the enriched four-rival exploration standard. Its reference commit `bff8be0`
+does not exist in this clone (the errata text was the implementation source); its
+acceptance-check commit instruction was NOT followed — commits happen only on the curator's
+word. Filed per his 2026-08-31 ruling at
+`docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md` (amending the 2026-08-30
+remove-after-apply ruling to archive-the-provenance); the three owners' Stage-6 provenance
+pointers now cite that path. One design item harvested to TODO: (s6-t1) consolidation-map
+worlds with independently specified attention.
+
+**The Stage-6 theory errata** (his top-level drop, 2026-08-30) was ingested and applied to
+the three theory owners the same day: the label-as-lossy-pointer rule with its prospective
+tests (`THE_TRIPLE_INFERENCE.md` §2), the goal/attention/expertise de-aliasing with the
+expertise-as-attended-record candidate preserved and canonically narrowed
+(`THREE_COGNITIVE_LAYERS.md` §1), the dated value-change trajectory
+(`THE_TRIPLE_INFERENCE.md` §5), and the outcome-bearing exploration standard
+(`DECISION_TRACES.md` §1). Every theory-errata markdown was then removed on curator ruling
+(2026-08-30): the canonical files under `docs/theory/` are the record, and the tracked
+errata texts remain in git history.
+
 
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 

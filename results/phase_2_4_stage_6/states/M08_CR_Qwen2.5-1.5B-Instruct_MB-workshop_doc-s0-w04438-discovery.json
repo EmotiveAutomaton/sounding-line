@@ -1,0 +1,99 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w04438|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by addressing immediate concerns and ensuring that each section was complete before moving on to more complex tasks."
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.2": 0.5171157757854757,
+   "write:sec3:s3.1": 0.4377290538550374,
+   "check:sec1:s1.1": 0.009160799474878314,
+   "check:sec2:s2.1": 0.007754449340872025,
+   "consult:sec1:src": 0.018447584745130325,
+   "cite:sec3:ref": 0.009792336798606268
+  },
+  "next_edit_type": {
+   "write": 0.9548448296405131,
+   "check": 0.01691524881575034,
+   "consult": 0.018447584745130325,
+   "cite": 0.009792336798606268
+  },
+  "next_section": {
+   "sec2": 0.5248702251263477,
+   "sec3": 0.44752139065364366,
+   "sec1": 0.02760838422000864
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.45018709430726417
+ },
+ "uncertainty": {
+  "posterior_weight": 0.5378175405786411,
+  "abstain": false
+ }
+}

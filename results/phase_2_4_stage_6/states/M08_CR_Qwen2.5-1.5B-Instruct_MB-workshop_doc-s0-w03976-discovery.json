@@ -1,0 +1,97 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03976|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's primary concern was ensuring that all sections were complete and well-referenced before moving on to the next section, particularly focusing on the references to ensure consistency across "
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.1461068109004037,
+   "write:sec2:s2.1": 0.12367674530924049,
+   "write:sec2:s2.2": 0.12367674530924049,
+   "write:sec3:s3.1": 0.10469010469822305,
+   "write:sec3:s3.2": 0.10469010469822305,
+   "fix:sec1:urgent": 0.39715948908466925
+  },
+  "next_edit_type": {
+   "write": 0.6028405109153308,
+   "fix": 0.39715948908466925
+  },
+  "next_section": {
+   "sec1": 0.5432662999850729,
+   "sec2": 0.24735349061848097,
+   "sec3": 0.2093802093964461
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5541284968360611
+ },
+ "uncertainty": {
+  "posterior_weight": 0.15841809618071248,
+  "abstain": false
+ }
+}

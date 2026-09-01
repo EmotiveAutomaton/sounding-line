@@ -1,0 +1,96 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w04063|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach to revising and checking documents was driven by ensuring that each section was thoroughly reviewed and corrected before moving on to the next step. This iterative process allowed"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.08009806103943223,
+   "write:sec2:s2.2": 0.0721743688191768,
+   "write:sec3:s3.1": 0.06503452701410717,
+   "revise:sec3:s3.2": 0.6991870574789046,
+   "cite:sec3:ref": 0.08350598564837912
+  },
+  "next_edit_type": {
+   "write": 0.2173069568727162,
+   "revise": 0.6991870574789046,
+   "cite": 0.08350598564837912
+  },
+  "next_section": {
+   "sec1": 0.08009806103943225,
+   "sec2": 0.07217436881917681,
+   "sec3": 0.847727570141391
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.46467939048474405
+ },
+ "uncertainty": {
+  "posterior_weight": 0.7162753152558077,
+  "abstain": false
+ }
+}

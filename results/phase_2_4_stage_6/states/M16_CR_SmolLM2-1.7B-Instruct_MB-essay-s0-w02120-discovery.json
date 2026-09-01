@@ -1,0 +1,105 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02120|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker was driven by a methodical approach, focusing on one section at a time and thoroughly reviewing each draft before moving on to the next."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.007868641534014799,
+   "write:sec4:s4.1": 0.005408032964977719,
+   "revise:sec3:s3.1": 0.2739335159197889,
+   "revise:sec2:s2.1": 0.31040733980766566,
+   "revise:sec1:s1.1": 0.351737596923645,
+   "check:sec1:s1.1": 0.017511983785585685,
+   "check:sec2:s2.1": 0.015454271448891024,
+   "consult:sec1:src": 0.009610780472619344,
+   "cite:sec4:ref": 0.008067837142811908
+  },
+  "next_edit_type": {
+   "write": 0.01327667449899252,
+   "revise": 0.9360784526510996,
+   "check": 0.032966255234476716,
+   "consult": 0.009610780472619346,
+   "cite": 0.00806783714281191
+  },
+  "next_section": {
+   "sec1": 0.3867290027158648,
+   "sec4": 0.013475870107789629,
+   "sec3": 0.27393351591978893,
+   "sec2": 0.3258616112565567
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4825907058822596
+ },
+ "uncertainty": {
+  "posterior_weight": 0.45956293204867216,
+  "abstain": false
+ }
+}

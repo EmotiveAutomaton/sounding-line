@@ -1,0 +1,103 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w02080|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach was driven by a need to address and resolve concerns in a methodical and organized manner, with a focus on revisiting and refining previous drafts as needed."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.15036133824536385,
+   "write:sec1:s1.2": 0.15036133824536385,
+   "write:sec2:s2.2": 0.13269341527000827,
+   "write:sec3:s3.3": 0.11710152796915374,
+   "check:sec2:s2.1": 0.29531462662485075,
+   "cite:sec4:ref": 0.15416775364525964
+  },
+  "next_edit_type": {
+   "write": 0.5505176197298897,
+   "check": 0.2953146266248507,
+   "cite": 0.15416775364525961
+  },
+  "next_section": {
+   "sec1": 0.30072267649072765,
+   "sec2": 0.42800804189485897,
+   "sec3": 0.11710152796915373,
+   "sec4": 0.15416775364525961
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4472633305194872
+ },
+ "uncertainty": {
+  "posterior_weight": 0.2319780963725941,
+  "abstain": false
+ }
+}

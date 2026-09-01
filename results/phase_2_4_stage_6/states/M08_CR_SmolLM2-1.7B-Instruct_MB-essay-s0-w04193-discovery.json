@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w04193|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a methodical approach, focusing on one section at a time, and thoroughly reviewing and reworking each draft before moving on to the next."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 6,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec1:s1.2": 0.41970096051903927,
+   "revise:sec3:s3.2": 0.3407704643597407,
+   "check:sec1:s1.1": 0.06436322688518191,
+   "check:sec2:s2.1": 0.0579961014701287,
+   "consult:sec1:src": 0.0442361557865764,
+   "fix:sec1:urgent": 0.07293309097933305
+  },
+  "next_edit_type": {
+   "revise": 0.76047142487878,
+   "check": 0.1223593283553106,
+   "consult": 0.0442361557865764,
+   "fix": 0.07293309097933305
+  },
+  "next_section": {
+   "sec1": 0.6012334341701306,
+   "sec3": 0.3407704643597407,
+   "sec2": 0.0579961014701287
+  },
+  "changed_context": {
+   "finish_quietly": 0.23043860150943757,
+   "expand_scope": 0.1233448950298599,
+   "recheck_sources": 0.15837798023702163,
+   "polish_wording": 0.48783852322368093
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4846105135690018
+ },
+ "uncertainty": {
+  "posterior_weight": 0.4555104609644482,
+  "abstain": false
+ }
+}

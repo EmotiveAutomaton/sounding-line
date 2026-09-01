@@ -1,0 +1,100 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w01985|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's way of handling concerns was driven by a sequential and iterative approach, where each section (sec1, sec2, sec3) was completed one at a time, with each section building"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 6,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec3:s3.1": 0.36677788011157575,
+   "revise:sec3:s3.2": 0.36677788011157575,
+   "check:sec1:s1.1": 0.06927539321355686,
+   "check:sec2:s2.1": 0.06242233226378974,
+   "check:sec3:s3.1": 0.05624720964396385,
+   "fix:sec1:urgent": 0.07849930465553809
+  },
+  "next_edit_type": {
+   "revise": 0.7335557602231515,
+   "check": 0.18794493512131044,
+   "fix": 0.07849930465553809
+  },
+  "next_section": {
+   "sec3": 0.7898029698671154,
+   "sec1": 0.14777469786909495,
+   "sec2": 0.06242233226378974
+  },
+  "changed_context": {
+   "finish_quietly": 0.23043860150943757,
+   "expand_scope": 0.1233448950298599,
+   "recheck_sources": 0.15837798023702163,
+   "polish_wording": 0.48783852322368093
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5414121743923312
+ },
+ "uncertainty": {
+  "posterior_weight": 0.40700880446717125,
+  "abstain": false
+ }
+}

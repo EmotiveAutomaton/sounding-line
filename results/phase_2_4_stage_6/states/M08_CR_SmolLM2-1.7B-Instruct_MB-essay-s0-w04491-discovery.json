@@ -1,0 +1,99 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w04491|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a methodical approach, focusing on checking and revising each section before moving on to the next, and ensuring that all sections were completed and reviewed before adding new"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.2": 0.43794326933456146,
+   "write:sec3:s3.1": 0.39461977771556755,
+   "revise:sec3:s3.3": 0.04713061138932334,
+   "consult:sec1:src": 0.054530274703704106,
+   "fix:sec1:urgent": 0.0657760668568436
+  },
+  "next_edit_type": {
+   "write": 0.8325630470501288,
+   "revise": 0.047130611389323326,
+   "consult": 0.05453027470370409,
+   "fix": 0.06577606685684359
+  },
+  "next_section": {
+   "sec2": 0.43794326933456146,
+   "sec3": 0.4417503891048909,
+   "sec1": 0.1203063415605477
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.510161240094586
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3165399222641763,
+  "abstain": false
+ }
+}

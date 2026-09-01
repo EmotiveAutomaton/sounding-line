@@ -108,7 +108,15 @@ track repeats on two readers: familiarity first, no policy, no hope bias (L305 t
 block confirmed R02 and P02 on their reserves (L308). **Stage 5R closed 16:32, RUN_TO_EMPTY, 1.35 h;
 packet and synthesis at results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md.** Post-run: the source
 gate on the repaired text shows the action factor legible now and the arousal register a reader floor
-(L309); the general queue is empty. **The Stage-4 record, one paragraph.** Stage 4
+(L309). **2026-08-30, the open items built as receipts and run to empty (07:40 to 08:04):** two ease rulers
+pass the known-answer check (the total log probability and the token count; the mean fails every sample)
+(L310); with ease crossed inside a route type both readers take the harder-rendered description MORE, killing the
+fluency account of route choice and replacing it with anomaly attraction (L311); under the echo rule the genuine
+order proposals are enactable at 0.82 against 0.17 blind and the attempt rate is the reader's (L312); no local
+checkpoint passes any of the three gates, the 3B inverting the latents-to-choice map, so the third run of the
+joint and appraisal tracks is blocked on a reader this machine does not hold (L313); with the ease arm realized,
+reliance never follows fluency on either reader and the quantity effect is Qwen's alone (L314). The queue is
+empty. **The Stage-4 record, one paragraph.** Stage 4
 (context, appraisal, transmission, relay, physical traces; brief in
 docs/design) ran under second gear from 22:22 on the 27th, was STOPPED at 05:57 on the
 curator's order and restarted at half past six after a construction repair: the parallel
@@ -154,8 +162,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
 
 **0 · STAGE-4 ERRATA CORRECTIONS (2026-08-28), the audit pass over the Stage-3 record.** Source:
-[`docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md`](docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md),
-applied to the four theory owners the same day. Each item below changes the *interpretation* of a
+the Stage-4 theory errata, applied to the four theory owners the same day (every errata file was
+removed 2026-08-30 on curator ruling; the owners are the record). Each item below changes the *interpretation* of a
 measurement already recorded, never the measurement, and never the theory's permission to pursue
 the mechanism. **No original output was altered and no artifact is corrupt** (the completion
 validator reads 72 of 73 Stage-3 produces intact; the absent one belongs to M02, INSTRUMENT_FAILED
@@ -13009,6 +13017,955 @@ arousal half. A reader that passes both halves is what the track's third run nee
 > repaired; the arousal register is a reader floor. Next obligation: none new (the gate (j)
 > stands for the third run). Public claim: unchanged. Decision: **No.** Detail:
 > results/phase_2_4_stage_5r/post/SOURCE_GATE_REPAIRED.json.
+
+## L310 · Two ease rulers pass the known-answer check on both readers (the total log probability of the text and its token count rate capitals and mid-dots harder than plain on 64 of 64 samples), the mean per-token ruler fails on every sample as L301 said, and the content-token total fails on the mid-dots for Qwen (0.70), because a filler token before every word makes the words themselves more predictable
+
+**Hypothesis.** (Post-run, TODO (m).) Is there an ease ruler over the reader's own token
+probabilities that rates the renderings whose difficulty is certain (the record in
+capitals; a mid-dot after every word) as harder than the plain record, on both readers,
+before any card uses it?
+
+**Method.** Sixty-four plain records (thirty-two joint worlds per domain, six records each)
+and their five renderings scored on both admitted readers under four rulers: the total log
+probability of the text, the negated token count, the total over content tokens only
+(tokens carrying a letter or digit), and L301's mean per-token log probability; a ruler
+passes when it rates both known-answer renderings harder than plain on at least 0.95 of
+samples for both readers; the archaic renderings are reported, not gated.
+
+| ruler | capitals harder than plain, Qwen / SmolLM2 | mid-dots harder, Qwen / SmolLM2 | at the band |
+|---|---|---|---|
+| total log probability | 1.00 / 1.00 (−94 / −133 nats) | 1.00 / 1.00 (−54 / −93) | **passed** |
+| token count | 1.00 / 1.00 (+98 / +192 tokens) | 1.00 / 1.00 (+222 / +222) | **passed** |
+| content-token total | 1.00 / 1.00 (−91 / −121) | **0.70** / 1.00 (−3 / −33) | failed |
+| mean per token (L301's) | 0.00 / 0.00 (+0.5 / +0.8) | 0.00 / 0.00 (+1.2 / +1.0) | failed |
+
+*Table: the fraction of sixty-four samples on which the rendering scores harder than the
+plain record under each ruler, with the mean difference in the ruler's own unit in
+parentheses (nats for the log-probability rulers; tokens for the count); the three archaic
+renderings score harder under every ruler but the mean (1.00 throughout; −45 to −109 nats
+by total). Plain records run 299 tokens on Qwen and 308 on SmolLM2; capitals 397 and 500;
+mid-dots 521 and 530.*
+
+**What we found.** Two rulers separate the known-answer renderings from plain without an
+exception; the mean per-token ruler inverts every sample; and the content-only total,
+which drops the mid-dots themselves, nearly loses the mid-dot rendering on Qwen because
+the words after a mid-dot become almost as predictable as the plain words (a three-nat
+deficit over 299 content tokens), so the cost of that rendering lives in the filler tokens
+the ruler was built to ignore.
+
+**What it means.** Ease, for these readers, is a total, not a rate: the reading cost of a
+degraded text is the sum of its token surprisals, and any per-token average erases it. The
+R02 and R01 re-runs use the total log probability with capitals as the hard rendering
+(the rendering that ruler rates hardest on both readers); R01 picks the rendering per
+reader by the margin with which it flips the record/note order, and picks the mid-dots
+there. The content-only total is not adopted: it fails a known answer on one reader, and
+the reason it fails (filler makes content predictable) is a property of the readers, not a
+defect of the rendering.
+
+> **Curator roll-up.** Theory group: instruments (the ease ruler, reader heuristics). Question:
+> is there a validated ease ruler? Outcome class: **Infrastructure.** Result: the total log
+> probability passes at 64 of 64 on both readers; the mean ruler fails at 0 of 64. Meaning:
+> the ease arm can be realized; L271 and L301's fluency question is askable. Next obligation:
+> the R02 and R01 re-runs under it, queued. Public claim: unchanged. Decision: **No.**
+> Detail: results/phase_2_4_stage_5r/post/EASE_RULER.json.
+
+## L311 · With ease crossed inside a route type, both readers take the route whose description is rendered HARDER (the record at 0.96 when mid-dotted against 0.62 plain; the note at 0.46 against 0.22), a within-world shift of −0.25 in the probability of taking a route when its own description is the plain one, so the fluency policy is dead as an account of route choice and what replaces it is attraction to the anomalous option, while the both-plain cell keeps a record-over-note preference worth +0.08 nats over random
+
+**Hypothesis.** (Post-run, TODO (l).) When the same route's description is plain in one
+cell and hard in another, does the reader's choice follow the rendering (a fluency policy)
+or hold (an information or genre policy)?
+
+**Method.** L300's route question on both readers, 128 worlds per domain per reader, each
+world asked three times: both the record's and the note's descriptions plain; the record's
+in the hard rendering with the note's plain; the reverse. The hard rendering is the
+validated ruler's choice per reader (L310's total log probability; the mid-dots flip the
+record/note ease order on both readers, by 15.6 nats on Qwen and 2.6 on SmolLM2, and the
+crossing is realized in every world). The primary is L300's (the chosen route's exact
+information minus a random selector's, in the both-plain cell, on the 170 world-readers
+past the divergence floor); the within-route contrast is the probability of taking the
+record when its own description is plain and the note's hard, minus when its own is hard
+and the note's plain, paired at the world; the note's contrast likewise.
+
+| cell | takes the record / the note / the forensic step | reader over random, nats | took the best route |
+|---|---|---|---|
+| both plain | 0.62 / 0.22 / 0.16 | **+0.081 [+0.066, +0.097]** (the primary) | 0.59 |
+| record plain, note mid-dotted | 0.37 / 0.46 / 0.17 | (reader against always-easiest −0.01) | 0.37 |
+| record mid-dotted, note plain | 0.96 / 0.02 / 0.02 | (reader against always-easiest +0.21) | 0.91 |
+
+*Table: choice rates over 512 world-readers per cell (both readers); information over the
+worlds past the floor; "always-easiest" is the policy of taking the description the ruler
+rates easiest, which under the crossing is the record in the second cell and the note in
+the third; the record is the exactly best route in most worlds, which is why the third
+cell's tracking is high.*
+
+| within-route contrast (probability of taking the route when its own description is plain minus when hard) | pooled | Qwen | SmolLM2 |
+|---|---|---|---|
+| the record | **−0.25 [−0.27, −0.23]**, p < 1e-4 | −0.40 [−0.44, −0.36] | −0.10 [−0.12, −0.09] |
+| the note | **−0.25 [−0.27, −0.23]**, p < 1e-4 | −0.42 [−0.46, −0.37] | −0.09 [−0.10, −0.08] |
+| the both-plain primary (chosen minus random, nats) | +0.08 | +0.15 [+0.12, +0.17] | +0.02 [−0.01, +0.04] |
+
+*Table: 256 worlds per reader, paired at the world; a positive number would be the fluency
+policy (the plain description taken more); the negative numbers say the mid-dotted
+description is taken more; the readers' primaries differ (Qwen a support candidate at
+L300's size, SmolLM2 inconclusive).*
+
+**What we found.** The fluency policy predicted the plain description would be taken more;
+the opposite happened on both readers with no exception in direction: a description
+written with a mid-dot after every word is taken at 0.96 for the record and 0.46 for the
+note, and the plain description beside it loses by a quarter of the probability. The
+both-plain cell replicates L300 (record over note, +0.08 over random, tracking 0.59) at a
+size between the two readers' own.
+
+**What it means.** L270's and L300's fluency rival is dead: ease does not draw these
+readers' route choice, the anomaly does. The mid-dotted option is the visually deviant
+one, and both readers go to it, the larger reader four times more strongly than the
+smaller; this is the human-reading pattern this project recorded first (reading enters at
+an anomaly, FINDINGS tier 2) showing up as a choice bias in a model reader, and it is a
+confound for any menu whose options differ in surface form. The information question is
+now answered in the plain cell only: a genre preference (the record over the note) that
+happens to be informative on this construction, weakly tracked within worlds. What the
+crossing cannot separate is anomaly from difficulty, since the hard rendering is both;
+a rendering that is harder without being visually deviant (the archaic renderings, which
+the ruler rates harder by 45 to 109 nats but which read as prose) is the next cell.
+
+> **Curator roll-up.** Theory group: reader heuristics (active reading; the anomaly entry
+> point). Question: does the route choice follow ease? Outcome class: **Kills** (the
+> fluency policy as an account of route choice). Result: the mid-dotted description is
+> taken 0.25 more often than the plain one, both readers. Meaning: anomaly attracts the
+> reader's choice; ease does not; the record-over-note preference stands at +0.08 over
+> random. Next obligation: the archaic (hard, not deviant) rendering in the same cross, to
+> separate difficulty from anomaly (TODO (l2)). Public claim: unchanged. Decision: **No.**
+> Detail: results/phase_2_4_stage_5r/post/R01_EASE.json.
+
+## L312 · Under the echo rule the readers' genuine order proposals are enactable at 0.82 on the first turn against a blind rate of 0.17, with the historical order in 0.43 of the enactable ones against 0.25 by chance; seven replies in ten echo the listing, a second turn recovers a proposal from Qwen nine times in ten (enactable at 0.50) and from SmolLM2 one time in twenty (enactable at 0), so segmentation is readable when the reader attempts it, the attempt rate is the reader's, and a nudge buys attempts of lower quality
+
+**Hypothesis.** (Post-run, TODO (o).) With echoes of the listing excluded and one second
+turn for them, can the readers propose an enactable drawing order from an unordered stroke
+set beyond the blind rate, and does a second turn recover the echoing trials?
+
+**Method.** L304's design on both readers, 240 drawings each; a reply that repeats the
+listing order (1, 2, 3, 4) counts as no proposal and earns one second turn that names the
+echo and asks again; genuine proposals (first-turn genuine, or second-turn non-echo) are
+the population; the primary is enactability minus the blind rate over the twenty-three
+non-listing orders, clustered at the drawing, band 0.05; the two turns reported apart;
+the determinacy question as before. The listing order is the true order in 2.5 percent of
+items.
+
+| population | proposals | enactable | historical among enactable |
+|---|---|---|---|
+| first-turn echoes | 339 of 480 (Qwen 0.64, SmolLM2 0.77) | | |
+| first-turn genuine | 140 | **0.82** (Qwen 0.78, SmolLM2 0.89) | 0.43 |
+| second-turn genuine, after an echo | 147 (Qwen 137 of 154 echoes; SmolLM2 10 of 185) | 0.47 (Qwen 0.50; SmolLM2 0 of 10) | 0.48 |
+| echoed twice | 192 (Qwen 17; SmolLM2 175) | | |
+| primary, genuine pooled | 287 proposals on 226 drawings | **+0.44 [+0.39, +0.50]** over the 0.17 blind rate, SUPPORT_CANDIDATE | |
+
+*Table: 480 reader-trials; the blind rate is the enactable share of the twenty-three
+non-listing orders (0.17 on average); chance for the historical order among enactable
+proposals is 0.25; abstention on the determinacy question 0.42 (Qwen) and 0.08 (SmolLM2);
+one reply in five hundred was malformed.*
+
+**What we found.** The first-turn genuine proposals are enactable five times the blind
+rate and name the historical order at nearly twice chance; the second turn splits the
+readers: Qwen answers it and proposes at 0.50 enactable, SmolLM2 repeats the listing
+again in 0.95 of its second turns and the ten proposals it does make are all
+unenactable. The echo rate on the first turn rose to 0.71 from L304's 0.68 at double the
+items.
+
+**What it means.** L304's reading holds and sharpens: the reconstruction of an enactable
+order from stroke descriptions is real and better than L304's pooled number said (0.82
+against 0.70 on the genuine population, because L304's genuine population still carried
+some listing-order echoes that happened to be true), and the attempt rate is a property
+of the reader, not of the format (a second turn moves Qwen from a third of trials to nine
+in ten, and SmolLM2 from a quarter to a quarter). What a nudge buys is attempts at lower
+quality: Qwen's second-turn proposals are enactable at 0.50, well above blind and well
+below its unprompted 0.78, so the first-turn attempts are the ones where the reader had
+an order in view, and the nudged ones are half guesses. The equifinality half is
+unchanged: the determinacy question is answered yes on most artifacts where four orders
+fit.
+
+> **Curator roll-up.** Theory group: decision traces (process geometry; equifinality).
+> Question: is an enactable order readable from segmentation once echoes are excluded?
+> Outcome class: **Strengthens.** Result: genuine first-turn proposals enactable at 0.82
+> against 0.17 blind. Meaning: process is readable from segmentation when attempted; the
+> attempt rate is the reader's; a nudge buys weaker attempts. Next obligation: none new
+> (the card's number is now the genuine population's). Public claim: unchanged. Decision:
+> **No.** Detail: results/phase_2_4_stage_5r/post/P02_ECHO.json.
+
+## L313 · No checkpoint on this machine passes any of the three gates: the 3B Qwen reads the action register best of all six readers (0.96) but fails the calm-against-alarmed half (0.56 and 0.40) and, told the true latents, predicts the future choice worse than a uniform guess (−3.94 against −1.39 nats, accuracy 0.29); the three sub-1.5B checkpoints sit at or under chance on the reader gate itself, so the third run of the joint and appraisal tracks and the bridge's same-family second checkpoint are blocked on a reader that does not exist here
+
+**Hypothesis.** (Post-run, TODO (j), (p), (b).) Does any instruction-tuned checkpoint on
+this machine not yet gated on all three pass the Stage-5 reader gate, the source-register
+gate, and the latents-to-choice gate, so the joint and appraisal tracks could run a third
+time on a reader that reads their constructions, and the bridge could take a same-family
+second checkpoint?
+
+**Method.** The three gates at their frozen bands on Qwen2.5-3B-Instruct (reader gate from
+the ninety-six-item re-gate, L282; the two track gates new at forty-eight items per
+domain), OLMo-2-1B-Instruct, SmolLM2-360M-Instruct, and TinyLlama-1.1B-Chat (all three
+gates new); local execution only, nothing downloaded; the two admitted readers' track
+gates are L284 and L309.
+
+| checkpoint | reader gate: accuracy / weakest option / swing | register: calm-alarmed, memo / notice | register: action, memo / notice | latents to choice: log score (uniform −1.39) / accuracy |
+|---|---|---|---|---|
+| Qwen2.5-3B-Instruct | 0.83, 0.81 / **0.46** (cheap) / 0.01 | 0.56 / 0.40 | **0.96 / 0.96** | **−3.94** / 0.29 |
+| OLMo-2-1B-Instruct | 0.53, 0.59 / 0.25 / 0.15 | 0.60 / 0.79 | 0.25 / 0.33 | −1.51 / 0.21 |
+| SmolLM2-360M-Instruct | 0.26, 0.16 / 0.12 / 0.04 | 0.58 / 0.35 | 0.42 / 0.48 | −1.49 / 0.23 |
+| TinyLlama-1.1B-Chat | 0.16, 0.23 / 0.04 / 0.08 | 0.42 / 0.65 | 0.62 / 0.54 | −1.48 / 0.21 |
+| (admitted) Qwen2.5-1.5B | admitted at 96 (L282) | 0.75 / 0.60 (L309) | 0.88 / 0.75 (L309) | −1.85 / 0.40 (L284) |
+| (admitted) SmolLM2-1.7B | admitted at 96 (L282) | 0.62 / 0.69 (L309) | 0.69 / 0.44 (L309) | −1.57 / 0.25 (L284) |
+
+*Table: the reader gate's bands are accuracy 0.75 in both domains, every option at 0.5,
+position swing under 0.10, validity 0.95 (validity was 1.0 everywhere); the register gate
+needs 0.75 on both halves in both domains; the latents gate needs the mean log score of the
+true future choice above a uniform guess over the feasible options. Nothing passes any
+gate; nothing errored.*
+
+**What we found.** The 3B is the only checkpoint that reads anything the tracks need, and it
+reads the action half of the register nearly perfectly while missing the arousal half and
+inverting the latents-to-choice map (its confident answers are wrong more than a uniform
+guess would be); the three small checkpoints cannot pass the reader gate's per-option
+floor, two of them scoring under chance on it.
+
+**What it means.** The joint and appraisal tracks' gate failures (L278, L284, L295 to L299,
+L309) are the property of every local reader, not of the two admitted ones: the
+calm-against-alarmed register is unread by six checkpoints from four families at 0.4 to
+0.8 with no reader over the band in both domains, and no local reader maps stated latents
+onto a choice. The third run is blocked on a reader this machine does not hold, and the
+question it would answer (do the joint and appraisal negatives survive a reader that reads
+the constructions?) is now a hardware question, which is a cloud question under his
+standing rules. The bridge's same-family second checkpoint (b) has no candidate either: the
+3B's per-option failure is stable (L282) and there is no other Qwen instruct checkpoint here.
+One number to keep: the 3B's inverted latents-to-choice score (−3.94 against −1.39) is a
+larger reader doing worse than a smaller one when told the answer's ingredients, which is
+the readout-v2 probe's finding (L278) at a new scale and the strongest sign yet that the
+mapping from stated latents to a forced choice is not something these readers do at all.
+
+> **Curator roll-up.** Theory group: instruments (the reader question for the joint and
+> appraisal tracks; the bridge's checkpoint). Question: does any local checkpoint pass the
+> three gates? Outcome class: **Infrastructure.** Result: none passes any gate; the 3B reads
+> the action register at 0.96 and inverts the latents map at −3.94. Meaning: the third run
+> and the bridge's second checkpoint are blocked on a reader this machine does not hold.
+> Next obligation: none local; a larger reader is a gear-3 question for him. Public claim:
+> unchanged. Decision: **Yes** — whether to spend gear-3 money gating a 7B-class reader on
+> the three gates (recommended answer: not yet; the tracks' negatives are already two
+> families deep, and a gate on a cloud reader is worth its cost only if a third run would
+> follow it). Detail: results/phase_2_4_stage_5r/post/GATE_CENSUS.json.
+
+## L314 · With the ease arm realized at last (the record in capitals, 115 nats harder by the validated ruler in every world), Qwen's stated reliance follows quantity (+0.15 for six records over two) and moves the wrong way for ease (+0.03 MORE reliance on the capitals), while SmolLM2's reliance moves for neither (−0.01 and +0.01), so the fluency account of reliance is dead on both readers and the quantity effect is one reader's
+
+**Hypothesis.** (Post-run, TODO (m).) Does stated reliance follow a record's exact
+information (six records against two, at equal rendering) rather than its ease of reading
+(plain against hard, at equal information), once the hard rendering is one the reader's own
+token probabilities call harder?
+
+**Method.** L301's design on both readers, 256 fresh worlds each; the hard rendering is
+the record in capitals, which L310's validated ruler (the total log probability) rates
+harder than plain in every world here (−115 nats on average); reliance on a unit scale
+(a great deal 1, somewhat 0.5, hardly at all 0); the primary is the interaction
+(information effect minus ease effect), band 0.03, clustered at the world.
+
+| contrast on stated reliance | pooled | Qwen | SmolLM2 |
+|---|---|---|---|
+| six records minus two, plain | **+0.072 [+0.064, +0.081]**, p < 1e-4 | **+0.153 [+0.128, +0.178]** | −0.009 [−0.024, +0.006] |
+| plain minus capitals, six records | −0.012 [−0.019, −0.006], p = 2e-4 | −0.033 [−0.058, −0.008] | +0.009 [−0.007, +0.025] |
+| the interaction (primary) | **+0.084 [+0.076, +0.093]**, SUPPORT_CANDIDATE | +0.187 [+0.159, +0.214] | −0.018 [−0.034, −0.003], COUNTEREVIDENCE |
+
+*Table: 256 worlds per reader, paired at the world; the ease arm realized in 1.00 of worlds
+(the capitals text lower by the validated ruler in every one); a positive ease number would
+be reliance following fluency; the negative one says the capitals are relied on more.
+Reliance by cell, Qwen: plain six 0.62, plain two 0.47, capitals six 0.66, capitals two
+0.54; SmolLM2 0.55 to 0.57 in every cell.*
+
+**What we found.** Qwen's stated reliance tracks the number of records at twice L301's
+pooled size and does not fall for the harder text (it rises by 0.03, the L311 direction);
+SmolLM2 states the same reliance in every cell, so its L301 quantity effect (about +0.03
+inside the pooled +0.07) does not replicate on fresh worlds.
+
+**What it means.** Pre-mortem 7's failure mode (fluency masquerading as reliability) is
+excluded on both readers under a realized manipulation: ease never draws stated reliance,
+and on the larger reader the harder text is trusted slightly more, the anomaly attraction
+of L311 again on a reliance question. The information side is one reader's: Qwen says it
+would rely more on more evidence, SmolLM2 says the same thing whatever it is shown, so
+the L271 and L281 quantity effect stands for the Qwen family at 256 worlds twice and a
+reserve, and is absent for SmolLM2 on this run. Neither reader's stated reliance is a
+measure of the record's information beyond its length: the two-record and six-record
+texts differ in quantity and in information at once here, as they did in L271, so quantity
+is the honest name for what Qwen tracks.
+
+> **Curator roll-up.** Theory group: reader heuristics (reliability against ease). Question:
+> does stated reliance follow information rather than ease, with the ease arm realized?
+> Outcome class: **Narrows** (fluency excluded on both readers; the quantity effect is one
+> family's). Result: Qwen +0.15 for six records over two, ease −0.03 the wrong way; SmolLM2
+> flat. Meaning: reliance is not fluency; on one family it is quantity. Next obligation:
+> none new (an information-at-equal-length construction would separate quantity from
+> information; filed under (m2) as a design item, not queued). Public claim: unchanged.
+> Decision: **No.** Detail: results/phase_2_4_stage_5r/post/R02_EASE.json.
+
+## L315 · Stage 6's architecture tournament, first block (hour 0.7 of 168): giving the reader an explicit hypothesis over the maker and realizing it against the world buys +0.95 nats over direct reading and closes 0.69 of the exact-oracle gap, direct reading sits BELOW the cheap prefix baselines, and the best arm is the one that weighs hypotheses by exact order likelihood rather than by the reader's judgment — the reader's label-weighing is the bottleneck, consistent with both readers failing the supplied-true-state gate and with the label posterior moving half as much under a paraphrase as under a meaning change
+
+**Hypothesis.** (Stage 6 I05, I08, M01 to M09; brief §6, §8.) Does contextual realization
+of a short hypothesis improve held-out prospective prediction (next-edit type and section,
+stopping, a changed-context choice) beyond direct reading, label-only inverse planning,
+label-plus-definitions, language particles, grammar-constrained states, executable
+synthesis, and adaptive expansion, at one evidence surface and matched budgets?
+
+**Method.** The Stage-6 known-answer process worlds (an order policy over a fixed action
+multiset; exact per-step likelihoods; hidden tail, stop, and changed-context targets), 64
+worlds per domain, two domains, both admitted readers (256 world-readers per card); the
+combined primary is the mean held-out log score over the four prospective endpoints; each
+arm's verdict is its paired contrast against its named rival at the frozen 0.03 band; the
+label posterior is position-balanced (every candidate in every position exactly once);
+capability (I05) gates claims: told the TRUE maker state in plain words, each reader must
+beat the cheap prefix baseline on next-edit type and stopping.
+
+| arm | against | combined primary, nats | oracle gap closed | verdict |
+|---|---|---|---|---|
+| direct monolithic reading (D) | cheap baselines | | **−2.57** (below the baselines) | descriptive floor |
+| label inverse planning (L) | D | **+0.945 [+0.815, +1.071]** | 0.69 | SUPPORT_CANDIDATE |
+| labels + fixed definitions (LD) | L | −0.001 [−0.007, +0.006] | 0.69 | VALID_NULL |
+| language particles (TT) | L | −0.039 [−0.059, −0.020] | 0.55 | COUNTEREVIDENCE |
+| grammar-constrained (GS) | L | −0.119 [−0.167, −0.073] | 0.36 (13 percent parse-refused) | COUNTEREVIDENCE |
+| executable synthesis (EX) | GS | +0.049 [−0.034, +0.141] | 0.42 | INCONCLUSIVE |
+| adaptive expansion (AD) | EX | **+0.132 [+0.062, +0.192]** | **0.81** | SUPPORT_CANDIDATE |
+| contextual realization (CR) | best non-oracle (AD) | **−0.073 [−0.109, −0.035]** | 0.62 | COUNTEREVIDENCE |
+
+*Table: 256 world-readers per contrast, paired at the world-reader, cluster bootstrap;
+"oracle gap closed" is the fraction of the exact-oracle-minus-cheap-baseline log-score gap
+the arm recovers (M09); CR beats D (+0.93), TT (+0.02), and GS (+0.10), sits at −0.02
+under plain label weighing, and loses to AD, whose posterior over the same hypothesis
+vocabulary is weighted by the exact order likelihood (a solver step, budget-ledgered)
+rather than by the reader's forced-choice judgment. Every claim is reader-bounded: both
+readers FAIL the supplied-true-state gate (Qwen −2.2 nats WORSE with the true state on
+next-edit type; SmolLM2 +0.21 on type but −0.06 on stopping; I05), and the label
+posterior moves 0.17 TV under a pure paraphrase against 0.33 under a meaning change
+(I08, INSTRUMENT_FAILED at its derived band), so the reader's judgment layer is measured
+as the weak link three independent ways.*
+
+**What we found.** Every arm that realizes hypotheses against the world clears the cheap
+baselines and direct reading does not; definitions add nothing over bare labels; particle
+tracking and grammar constraint subtract; and the ordering of the top three (exact-weighted
+AD above bare-label L above CR's reader-proposal-plus-reader-weighing) tracks how little of
+the reader's own judgment each arm uses.
+
+**What it means.** The brief's central question gets its first-block answer in the routing
+table's second row: a published-scaffold-style arm wins while contextual realization adds
+nothing OVER IT — the realization step is what buys the 0.9 nats (shared by every realizer
+arm), and the Sounding-specific addition (the reader proposing and weighing in free
+language) costs rather than pays on readers that cannot use supplied true states. The
+engineering route forward is realization with solver-side weighing; the reader-judgment
+bottleneck is the same boundary L278 and L313 measured from the other side. First-block
+sidelights: the A-track worlds land four valid construction nulls and two inconclusives at
+their planted sizes with dated-versus-shuffled history the one strong separation (+0.67
+goal-runs, A13); the C06 hanging-dependency prediction ran opposite to its declared
+direction (the strict switcher leaves MORE unfinished-section writes than the concurrent
+controller, 5.2 against 4.2 — a construction fact, recorded with the sign lesson); CR
+beats the cheap baselines on next-edit type (+0.29) and section (+0.35) at 256
+world-readers (P01, P02).
+
+> **Curator roll-up.** Theory group: the triple inference (hypothesis realization; the
+> reader boundary). Question: does contextual realization beat the published scaffolds
+> prospectively? Outcome class: **Narrows** (realization pays +0.95 over direct reading;
+> the reader's weighing layer is the measured bottleneck; the win goes to exact-weighted
+> adaptive expansion). Result: CR −0.07 [−0.11, −0.04] against the best rival. Meaning:
+> states help, this reader's judgment does not; claims reader-bounded by I05. Next
+> obligation: none new mid-week (the remaining trunks run; B04 routes pursuit at close).
+> Public claim: unchanged. Decision: **No** (mid-run; the packet comes after hour 168).
+> Detail: results/phase_2_4_stage_6/M01..M09, I05, I08.
+
+## L316 · Stage 6, second block (hour 1.5): the constructed distinctions mostly exist where planted (exploration reads its outcome where error and habit cannot, 0.62 against 0.00; genuine value change separates from concealment, +0.19; a dormant intention is the one thing the reader recovers, +0.65 posterior mass over the marginal), the reader's benchmark gains hold on choice endpoints (+0.22 on rejected alternatives, +0.22 on the changed context, +0.93 artifact-wide) and die on stopping (−0.01, a valid null), inferring the controller buys nothing beyond a controller-agnostic mixture, and one instrument was caught vacuous and repaired under its predeclared budget (P10's ablations never touched the distributions)
+
+**Hypothesis.** (Stage 6 second block: the C, V, F exact statistics, the C reader cards,
+the P benchmark, the attacks at full n.) Do the planted control, value, and foraging
+distinctions exist in the worlds' orders; does the reader read any of them; and do the
+tournament winner's gains survive the endpoint-by-endpoint benchmark?
+
+**Method.** As the cards declare: exact per-world statistics contrasted across planted
+levels (48 worlds per level, cluster bootstrap, frozen bands); reader cards score the
+discriminating event against the world's cheap baseline or the posterior against the
+marginal (96 world-readers); the P benchmark scores the CR arm's landed rows per endpoint
+against the prefix-only baselines (256 world-readers).
+
+| block | landing | number |
+|---|---|---|
+| foraging worlds | exploration reads its technique's outcome; error and habitual misuse never do (by construction, now measured) | 0.62 against 0.00 outcome-reads (F02, F03); error repairs faster than exploration (F04 +0.88) |
+| value worlds | the accuracy maker takes the private costly correction the prestige maker skips; genuine change separates from concealment | +0.25 [+0.06, +0.44] (V02, V03); +0.19 [+0.02, +0.35] (V08); context and competence confounds inconclusive at this n (V09, V10) |
+| control worlds | the strict switcher leaves MORE hanging section-writes than the concurrent controller (sign opposite my declared direction, recorded) | C06 −1.00 [−1.77, −0.27] |
+| the reader on control | a cue-triggered dormant intention is recovered (the one control positive); the controller itself is not inferred beyond an agnostic mixture | C07 +0.65 [+0.45, +0.86] posterior mass over the marginal; C11 −0.01 [−0.04, +0.03] |
+| the benchmark | choice endpoints pay, stopping does not | rejected alternative +0.22, changed context +0.22, artifact-wide +0.93; stopping −0.01 [−0.03, +0.00] VALID_NULL (P03); calibration slope 0.44, overconfident (P08) |
+| attacks at full n | the balanced posterior passes order, template, and key permutation exactly; wording sensitivity stands | X02/X09/X10 clean (permutation TV 0.000); X01 TV 0.20 against a 0.26 meaning move, INSTRUMENT_FAILED at the derived band |
+
+*Table: one row per landing group; every number is the card's primary with its cluster
+interval where shown; the C reader cards abstain on about half the worlds (the posterior
+stays flat), which the primary already prices.*
+
+**What we found.** The construction layer holds where it was built to (nine of twelve
+planted separations live at their bands, two inconclusive at n=48, one with the sign
+opposite the declaration); the reader layer repeats the week's pattern — it recovers the
+one distinction carried by an unmissable surface event (the cue) and nothing that needs
+weighing evidence; and the benchmark says the realized states' value lives in choice
+prediction, not stopping.
+
+**What it means.** The Stage-6 worlds can carry the theory's distinctions (the Ghost-side
+question answered locally for this chassis), the readers cannot yet use most of them (the
+same boundary as L315), and stopping is the one prospective endpoint where realization
+buys nothing over progress alone — the §10.1 criterion, which demands BOTH next-edit and
+stopping, is therefore already unreachable this week for every arm, and the packet's
+answer to the understanding question will be no on that clause. Caught and repaired: the
+P10 field-ablation instrument scored every ablation identically because it nulled
+metadata the adapter never reads; its predeclared repair moves the ablation into the
+realizer (each field's causal contribution removed before the distributions are
+computed), the first attempt is preserved superseded, and the card re-runs.
+
+> **Curator roll-up.** Theory group: decision traces and reader heuristics (the week's
+> running record). Question: do the planted distinctions exist and does the reader read
+> them? Outcome class: **Narrows** (constructions live; the reader reads cues, not
+> evidence; stopping closed as a valid null). Result: C07 +0.65 against C11 −0.01.
+> Meaning: the reader boundary is endpoint-shaped, not track-shaped. Next obligation:
+> P10's repaired re-run (queued by reset). Public claim: unchanged. Decision: **No**
+> (mid-run). Detail: results/phase_2_4_stage_6/, second block.
+
+## L317 · Stage 6, third block (hour 2): the realized state confirms itself on constructed worlds at every card-specific discriminator (artifact-wide withheld-action +1.04, joint edit +0.90, re-realization in a new context beats the copied realization +2.19, and the realizer is paraphrase-invariant exactly where the label posterior failed, TV 0.000 against 0.425) — and loses to the sequential baselines on all three real recorded-process corpora (−0.53, −0.37, −0.48), so the records trunk closes as a descriptive boundary by its own routing rule; no architecture meets the §10.1 understanding criterion; and the week's first three runtime defects fired and were repaired on the clock under predeclared budgets
+
+**Hypothesis.** (Third block: the M specials, the A/F reader closers, the records trunk
+T01–T10, the criterion audit, the bridge ledger, the attack wave.) Do the tournament winner's
+gains survive card-specific discriminators; does anything transfer to real recorded
+processes; and do the attacks hold at full n?
+
+**Method.** As the cards declare: the M specials re-score the winning arm on each card's own
+discriminator over the benchmark worlds (192 world-readers each, cluster bootstrap, frozen
+bands); the reader cards score the discriminating event against the world's cheap baseline;
+the records cards run both admitted readers on the three local corpora against their
+sequential baselines with session/maker clustering; the attacks run at full n.
+
+| block | landing | number |
+|---|---|---|
+| M specials | the realized state predicts the whole artifact, jointly, and transfers by RE-realizing rather than copying; stopping stays null; the posterior moves when and only when the withheld observation discriminates | artifact-wide +1.04 [+0.90, +1.18] (M10); joint type+section +0.90 [+0.70, +1.09] (M11); re-realization over the copied realization +2.19 [+1.69, +2.74] (M14); stopping hazard −0.01 [−0.02, +0.01] VALID_NULL (M12); posterior move 0.666 discriminating against 0.418 not (M13) |
+| the realizer under wording attack | the paraphrase sensitivity that killed the label instrument (I08, X01) is ABSENT at the realized level | paraphrase TV 0.0000 against 0.425 under a true meaning change (M15) |
+| A and F reader closers | discriminating-event reads keep paying; the dated-history and tetrad questions stay open at the reader | A10 +0.99, A11 +0.52, A12 +0.37; A14 +0.04 [−0.10, +0.19] and F11 −0.00 [−0.05, +0.05] inconclusive; F09 +0.63, F10 +0.21, F06 +0.92, F08 +0.35 |
+| records (the block's headline) | the reader UNDER-runs the sequential baselines on every real corpus; no frozen reader is positive on any record type; the trunk routes itself to a descriptive boundary | ScholaWrite next-revision −0.53 [−0.79, −0.29] against previous-label (label persistence alone hits 0.86; 32 sessions after grouping); CoAuthor −0.37 [−0.42, −0.32] against the action base rate, with the document-state reconstruction gate passed at 1.0 (120 documents); drawings −0.48 [−0.56, −0.41] against the placement prior (240 rows); T05: none of three record types positive; T10: descriptive boundary, all three corpora; T03 NOT_RUN on its predeclared block; T09 clustering/duplication invariance holds |
+| criterion and bridge | no architecture meets §10.1 (its stop clause was already unreachable, L316); the Ghost bridge is a hashed read-only ledger, imports deferred | P12: met by none; B03: 62/64 resolved, 3 receipts hashed |
+| attacks at full n | duplicate evidence does not sharpen, equifinal classes stay spread, leak canaries fire, the fresh clone re-verifies everything | X04 −0.008 sharpening (flat); X05 pre-event deviation 0.018; X08 caught via the I04 chain; X14/X15/X17/X19/X20/X22/X23 clean; X24 re-hashed 124 verdicts, 0 problems |
+
+*Table: one row per landing group; every number is the card's primary with its cluster
+interval where the card computes one; the records rows carry both admitted readers.*
+
+**What we found.** On worlds whose latents entail exact action distributions, the realization
+layer survives every card-specific re-scoring, including the one instrument attack the label
+layer failed. On real recorded processes the same readers lose to the corpora's own
+sequential regularity everywhere, with the reconstruction gate passed — so the losses are
+measurements, not loader artifacts.
+
+**What it means.** The week's boundary sharpens into a shape: realized maker states pay where
+the evidence surface is a whole structured artifact, and add nothing yet where a strong
+sequential prior already explains the next step — real records reward their own regularity
+before they reward any maker state these readers can realize. That is the honest transfer
+answer at hour 2, bounded by three corpora of 32/120/240 units and by both admitted readers
+failing the supplied-true-state gate (I05). The records trunk closes as a descriptive
+boundary by T10's own routing; nothing in it re-opens without a stronger reader or richer
+records.
+
+Three runtime defects fired and were repaired on the clock, each caught by the run's own
+outputs: the exhaustion branch froze the confirmations at hour 1.6 in a one-tick
+admissibility lull (the hour-144 guard existed on the normal path only; B01/B02 then ran
+VOID with no units because the confirmation contrast paired against discovery rows sharing
+no unit ids). The freeze is superseded, the branch now requires hour 144 or a genuinely
+exhausted ladder, the contrast is split-aware and runs the rival arm on the same
+confirmation lineages, and B01/B02/B04 re-run at hour 144. Separately, the V-track reader
+specs had collapsed pairwise (V06=V11 and V12=V14 landed byte-identical points, −0.018 and
++0.322, because the declarative spec table mapped both cards of each pair to the same world,
+levels, and endpoint): the one predeclared reader-spec family repair differentiates all four
+(pre-event breadth, breadth staircase, diagnostic-probe choice, changed-context against
+rich baselines) and the cells re-run. The engine restarted 17:36 on the same immutable
+clock; the restart also activated P10's earlier reset, which the live engine's in-memory
+manifest had never seen — a restart-discipline lesson now in the registry.
+
+> **Curator roll-up.** Theory group: reader heuristics (the records boundary), with the
+> triple inference's realization row strengthened in passing. Question: does the realized
+> state's gain transfer to real recorded processes? Outcome class: **Narrows** (constructed
+> worlds confirm at every discriminator; all three record corpora close as a descriptive
+> boundary). Result: −0.37 [−0.42, −0.32] on the gated corpus (CoAuthor, reconstruction
+> 1.0). Meaning: the gains are artifact-shaped, not record-shaped, at these readers. Next
+> obligation: the four differentiated V re-runs land distinct; B01/B02/B04 and the freeze at
+> hour 144; the ladder multiplies per the lock. Public claim: unchanged. Decision: **No**
+> (mid-run). Detail: results/phase_2_4_stage_6/, third block.
+
+## L318 · Stage 6, fourth block (hour 2.2): the repaired V instruments land four DISTINCT answers — the posterior holds its breadth across the pre-event staircase (0.072) and commits only after the diagnostic event (0.144), the reader elevates the separating probe (+0.20) and does not keep probing once it resolves (−0.10), single-cut breadth sits just over its band (0.150) — and the trajectory card inverts to counterevidence against rich baselines (−0.28), with a run-to-run proposal-stability flag raised for rung 1 to adjudicate; the P10 reset was found clobbered by the live engine's manifest saves and re-applied under a new guard
+
+**Hypothesis.** (The reader-spec family repair's re-runs.) Do the four differentiated
+V-reader statistics answer their declared questions, and distinctly?
+
+**Method.** As respecified under the one predeclared reader-spec family repair: posterior
+deviation from even at the last pre-event cut (V06, support when small at the 0.10 band);
+the same deviation across a two-cut pre-event staircase with post-event growth reported
+(V11); predictive mass on the diagnostic consult at the pre-event cut against the prefix
+baseline's consult mass, with post-resolution probe mass reported (V12); changed-context
+log score against the BEST of uniform, leave-one-out domain-marginal, modal-goal, and
+last-goal baselines (V14). CR arm, both admitted readers, cluster bootstrap, frozen bands.
+
+| card | landing | number |
+|---|---|---|
+| V06 breadth at the last pre-event cut | just over the band, well under collapse | deviation 0.150 [0.122, 0.176], INCONCLUSIVE (band 0.10, collapse line 0.25) |
+| V11 breadth staircase | the class is preserved before the evidence and committed only after it | pre 0.072 [0.059, 0.086] SUPPORT; post-event 0.144 [0.109, 0.184] |
+| V12 diagnostic probe | the separating consult is elevated, and probing stops once it resolves | +0.198 [+0.127, +0.270] SUPPORT; post-resolution probe mass −0.103 [−0.108, −0.099] |
+| V14 trajectory against rich baselines | the changed-context gain inverts once the baselines know the goal structure | −0.281 [−0.416, −0.150] COUNTEREVIDENCE; the LOO domain marginal is most often the best rival (32 of 74 rows), modal-goal the closest (reader −0.10 against it alone) |
+
+*Table: one row per repaired card; 74, 180, 106, and 74 valid rows respectively (22 V14
+units unrealized); every number the card's primary with its cluster interval.*
+
+**What we found.** The four cards now measure four different things, and together they say
+one coherent thing: on constructed value worlds this reader behaves like a careful active
+searcher — breadth held until the evidence, the separating probe chosen, no perseveration
+after resolution — and none of that converts into changed-context prediction once the
+baseline family includes the goal-utility structure.
+
+**What it means.** The value track's reader story splits into search-behavior positives and
+a prediction negative, the same weighing bottleneck the tournament measured (L315), now
+visible inside one track. One flag stands: the re-run's raw changed-context score sits
+0.57 nats UNDER even where the superseded collapsed measurement had sat +0.32 over it, on
+the same worlds and arm — a run-to-run stability question on the CR arm's free-language
+proposal step. Rung 1 re-measures the V14 construction at forty-fold fresh units and
+adjudicates it; until then the landed −0.28 is the number and the flag rides with it.
+Infrastructure: the P10 lesson completed itself — the pre-restart reset was confirmed
+clobbered (state COMPLETE, an empty resets list, a bare directory), re-issued with the
+engine down, and `reset` now refuses to run while the gear-2 winpid answers tasklist;
+restarts three (17:36, the repairs) and four (17:48, P10) share the one immutable clock.
+
+> **Curator roll-up.** Theory group: the triple inference §5 (value evidence) with the
+> reader-heuristics active-search rows in view. Question: do the differentiated V
+> instruments answer distinctly? Outcome class: **Narrows** (search positives, prediction
+> negative). Result: +0.198 [+0.127, +0.270] probe elevation against −0.281 [−0.416,
+> −0.150] trajectory. Meaning: the reader searches like it should and predicts like it
+> doesn't. Next obligation: V14/x1 at rung 1 adjudicates the stability flag; B01/B02/B04
+> at hour 144. Public claim: unchanged. Decision: **No** (mid-run). Detail:
+> results/phase_2_4_stage_6/V06, V11, V12, V14 (fourth block).
+
+## L319 · Stage 6, fifth block (hours 2 to 14): the ladder's first valid scale landings all agree with discovery — records counterevidence holds at scale (ScholaWrite −0.58 at 144 units; CoAuthor −0.38 with a ±0.014 interval at 1448), the repaired breadth staircase holds at 4536 rows (+0.082), both readers re-fail the capability gate at twentyfold units — while the ladder itself was found running at a ninth of its locked width and four more infrastructure defects were repaired on the clock
+
+**Hypothesis.** (The nine-rung expansion ladder's first pass.) Do the discovery landings
+hold when the locked ladder multiplies units on fresh offset worlds?
+
+**Method.** Expansion cells re-run their card's engine on fresh lineages (world offset
+1000 per rung) at the lock's per-rung unit multipliers; the same frozen bands, readers,
+and budgets; intervals cluster on maker or session.
+
+| rung and axis | landing | number |
+|---|---|---|
+| rung 4, process length | ScholaWrite counterevidence at scale | T01/x4 −0.575 [−0.717, −0.432], 144 units |
+| rung 7, natural partition | CoAuthor counterevidence at scale, the interval a fortieth of a nat wide | T02/x7 −0.383 [−0.397, −0.369], 1448 units |
+| rung 6, equifinal rivals | the repaired breadth staircase holds, interval tightened tenfold | V11/x6 +0.082 [+0.080, +0.085], 4536 rows |
+| rung 5, history combinations | the dated-versus-shuffled exact layer stays null | A04/x5 +0.002 [−0.001, +0.005], 1248 units |
+| rung 3, reader checkpoint | both readers re-fail supplied-true-state at twentyfold units | I05/x3: no reader beats the cheap baseline given the true state |
+| rungs 1, 2, 8 contrast cells | VOID by the expansion-pairing defect; reset, re-running repaired | M08/x1, M08/x2, M04/x8 (435 GPU-minutes burned, attempts preserved) |
+
+*Table: one row per landed expansion cell; every number the card's primary with its
+cluster interval.*
+
+**What we found.** Every valid scale landing agrees with its discovery landing: the
+records boundary and the reader-capability failure are not small-n artifacts, and the
+repaired breadth instrument's support tightens by an order of magnitude. No sign flipped
+anywhere the ladder has reached.
+
+**What it means.** Four of the nine locked axes now stand at their locked scale. The
+ladder itself was running at a ninth of its width — the admission set retired a rung the
+moment ONE of its cells existed, so nine of about forty locked cells ran in the first
+pass — and the contrast cells among them paired against the rival's offset-zero rows
+(no shared unit ids), burning 435 GPU-minutes into VOID before landing anything. With
+both repaired, the remaining thirty-odd locked cells (M01, M02, C03, C11, V14, F11, T04,
+A10 at fortyfold units among them — V14/x1 the proposal-stability adjudicator) fill the
+week as the lock priced it. Four defects total this block, each caught by the run's own
+outputs: the one-cell-per-rung admission; the expansion-contrast pairing (repaired
+in-cell: the rival arm now runs on the same offset lineages); P10's realizer ablation
+crash-looping three times on a KeyError — ablated configurations activate goals outside
+the hypothesis's weight dict, now completed over the full goal set; and `reset` deriving
+an expansion cell's directory from its card name, which superseded the BASE card's landed
+files (restored by hand the same pass; the directory is now the cell's). The engine is on
+its fifth start of the one clock; the hour-guarded lull held — no premature freeze fired
+during the three idle hours the admission defect caused.
+
+> **Curator roll-up.** Theory group: reader heuristics and the triple inference (scale
+> confirmations of standing rows; no new claims). Question: do the discovery landings
+> hold at the locked scale? Outcome class: **Strengthens** (four boundaries confirmed at
+> scale; no sign flips). Result: T02/x7 −0.383 [−0.397, −0.369] at 1448 units. Meaning:
+> the records boundary is real at any n this corpus offers. Next obligation: the
+> re-filled ladder, V14/x1 among it; B01/B02/B04 at hour 144. Public claim: unchanged.
+> Decision: **No** (mid-run). Detail: results/phase_2_4_stage_6/*/x*.
+
+## L320 · Stage 6, sixth block (hour 18): the ablation instrument, vacuous twice, now differentiates — the realized state's predictive value lives in the control state (−0.125 when ablated) and the episode goal (−0.100), expertise is small (−0.013), the stop model negligible, and selection history exactly nil by construction on these worlds — and the tournament's core ordering holds at fortyfold scale (CR minus AD −0.071 [−0.075, −0.066] on 10240 fresh paired world-readers)
+
+**Hypothesis.** (P10 under its predeclared realizer repair; M08/x1 under the pairing
+repair.) Which maker-state fields carry the realized state's predictive value, and does
+the AD-over-CR ordering survive fortyfold fresh worlds?
+
+**Method.** P10 rebuilds each hypothesis configuration with one field's causal
+contribution removed at the REALIZER (the identity control re-realizes unmodified) and
+re-scores the adapted prediction on the four prospective endpoints (32 units, one
+reader, cluster bootstrap). M08/x1 runs CR and the base tournament's best non-oracle arm
+(AD) in-cell on the same offset lineages at the fortyfold multiplier, paired at the
+world-reader.
+
+| measurement | landing | number |
+|---|---|---|
+| P10 identity control ("none") | the re-realization pipeline's floor | −0.961 [−1.110, −0.828] |
+| ablate the control state | the largest single cost | −1.087 (−0.125 against the control) |
+| ablate the episode goal | second | −1.061 (−0.100) |
+| ablate the expertise state | small | −0.974 (−0.013) |
+| ablate the stop model (to 0.5) | negligible at this cut | −0.962 (−0.001) |
+| ablate selection history | exactly the control, BY CONSTRUCTION | −0.961 (0.000; the benchmark worlds carry no salient slots — this field's causal channel exists only in the value track) |
+| M08/x1, CR minus AD | the discovery ordering at scale, the interval tenfold tighter | −0.071 [−0.075, −0.066], 10240 paired world-readers, sign-flip permutation p 5.0e-05 (entered in the multiplicity ledger) |
+
+*Table: P10 rows are level-minus-identity-control on the combined prospective primary;
+M08/x1 pairs both arms within the cell.*
+
+**What we found.** The ablation instrument ranks fields at last, and ranks them the way
+the week's story predicts: what the realized state buys comes from knowing HOW the maker
+governs (the controller) and WHAT it is after (the episode goal), not from expertise or
+history residue on these worlds. And the AD-over-CR gap is not sampling noise at any n
+this program can reach.
+
+**What it means.** P10 closes DESCRIPTIVE with a validated instrument — the one
+predeclared realizer repair, plus two mechanical re-issues (a clobbered reset, a
+KeyError) that spent no additional repair budget. The M08 confirmation makes the routing
+row — a published-scaffold-style arm wins while the Sounding addition costs — the
+best-measured fact in the program: exact-likelihood weighing over reader judgment, now
+at 10240 paired units.
+
+> **Curator roll-up.** Theory group: the triple inference (realization). Question: which
+> fields carry the realized state's value, and does the ordering scale? Outcome class:
+> **Strengthens** (instrument validated; ordering confirmed at fortyfold). Result:
+> −0.071 [−0.075, −0.066]. Meaning: the realization layer's value is control-and-goal
+> shaped. Next obligation: M08/x2, M04/x8, then the rung-one refill with V14/x1. Public
+> claim: unchanged. Decision: **No** (mid-run). Detail: results/phase_2_4_stage_6/P10,
+> M08/x1.
+
+## L321 · Stage 6, seventh block (hour 25.5): the tournament ordering holds on both remaining contrast axes — CR minus AD −0.067 under the surface-and-paraphrase axis, the particle arm still subtracting at fortyfold (−0.021 against label inverse planning) — so every reset contrast cell now agrees with its discovery landing at a tenfold-tighter interval
+
+**Hypothesis.** Do the two remaining VOID-reset contrast cells agree with their discovery
+landings at the locked scale?
+
+**Method.** In-cell paired arms on fresh offset lineages at the fortyfold multiplier
+(10240 world-readers each), cluster bootstrap, sign-flip permutation.
+
+| cell and axis | contrast | number |
+|---|---|---|
+| M08/x2, surface-and-paraphrase | CR minus AD | −0.067 [−0.071, −0.062], perm p 5.0e-05 |
+| M04/x8, approximation-samples | particles (TT) minus label inverse planning (L) | −0.021 [−0.024, −0.018], perm p 5.0e-05 (discovery: −0.039 [−0.059, −0.020]) |
+
+*Table: both cells pair their arms within the cell on the combined prospective primary;
+both permutation values entered in the multiplicity ledger.*
+
+**What we found.** Same signs, tenfold-tighter intervals: the AD-over-CR ordering is
+axis-independent as far as the ladder has looked, and the particle deficit halves in
+magnitude while staying clear of zero.
+
+**What it means.** All three reset contrast cells have now landed valid and consistent —
+the 435 burned minutes are fully replaced by valid measurements, and the pairing repair
+is field-proven. The rung-one refill is running (M01/x1 on the card); V14/x1, the
+proposal-stability adjudicator, sits four cells behind it.
+
+> **Curator roll-up.** Theory group: the triple inference (realization). Question: do the
+> reset contrasts agree with discovery at scale? Outcome class: **Strengthens** (both
+> agree; no sign moves). Result: −0.067 [−0.071, −0.062]. Meaning: the ordering is
+> axis-independent so far. Next obligation: the rung-one refill and V14/x1. Public claim:
+> unchanged. Decision: **No** (mid-run). Detail: results/phase_2_4_stage_6/M08/x2,
+> M04/x8.
+
+## L322 · Stage 6, eighth block (hour 33): the rung-one refill lands and closes the open flag — the reader reads the discriminating event across all four controllers at fortyfold (+0.45 [+0.39, +0.51], 3840 world-readers) and cannot infer the controller beyond the agnostic mixture (−0.003, a valid null at 3840); label inverse planning over direct reading holds at 10240 (+0.88); and the value-trajectory counterevidence replicates on 2710 fresh world-readers (−0.31 [−0.33, −0.28]), so the −0.3 regime is representative and the collapsed-spec +0.32 measurement is superseded
+
+**Hypothesis.** (The rung-one refill.) Do the C-track reader findings, the L-over-D gain, and
+the V14 inversion hold at the locked scale, and which V14 regime is the real one?
+
+**Method.** Expansion cells on fresh offset lineages at the fortyfold multiplier: the reader
+cards score the discriminating event against the world's cheap baseline; M02/x1 pairs L and D
+in-cell; V14/x1 pairs the reader's changed-context score against the best of the rich
+baselines; cluster bootstrap, frozen bands, both admitted readers.
+
+| cell | landing | number |
+|---|---|---|
+| M01/x1 | direct reading re-measured, the descriptive floor | 10240 rows, none unrealized |
+| M02/x1 | label inverse planning minus direct reading | +0.885 [+0.866, +0.904], 10240, perm p 5.0e-05 (discovery +0.945) |
+| C03/x1 | next-edit read on the discriminating event, all four controllers | +0.451 [+0.390, +0.507], 3840 (discovery inconclusive); Qwen +0.41, SmolLM2 +0.49 |
+| C11/x1 | controller inference beyond the controller-agnostic mixture | −0.003 [−0.009, +0.002], VALID_NULL at 3840 (discovery inconclusive) |
+| V14/x1 | trajectory against rich baselines, the adjudicator | −0.306 [−0.330, −0.282], 2710 valid of 3840 (29 percent unrealized); reader minus uniform −0.65; both readers −1.17 |
+
+*Table: one row per refill cell; every number the card's primary with its cluster interval;
+the M02 permutation value is entered in the multiplicity ledger.*
+
+**What we found.** At scale the control story is exact: the reader reads the EVENT (+0.45,
+every controller) and not the CONTROLLER (a valid null), the L316 reading with tight
+intervals; realization pays at scale; and the V14 flag closes on the evidence — of three
+measurements, the two under the differentiated spec agree (−0.57 and −0.65 against uniform,
+23 to 29 percent of value worlds unrealized) and the collapsed-spec +0.32, with zero
+unrealized units, is the odd one out and is superseded. One instrument observation: the
+changed-context read on value twins is reader-independent to three decimals (both readers
+−1.17) while the next-edit reads differ by reader (0.41 against 0.49), consistent with the
+changed-context prediction being the exact realized mixture at near-even weights.
+
+**What it means.** The reader boundary sharpens into the same shape a third time: cue- and
+event-driven reads are real and they scale; latent inference (the governing controller, the
+value trajectory) does not. Still open, as an instrument note only: why the collapsed-spec
+run realized every value world where the differentiated spec leaves a quarter unrealized.
+
+> **Curator roll-up.** Theory group: the three layers (control architecture) and the triple
+> inference (realization; the value trajectory). Question: do the C findings and the V
+> inversion hold at scale? Outcome class: **Narrows** (event reads confirmed; controller
+> inference and trajectory prediction closed as null and negative at scale). Result: C03/x1
+> +0.451 [+0.390, +0.507] against C11/x1 −0.003. Meaning: the reader reads events, not
+> controllers. Next obligation: F11/x1, T01/x1, T04/x1, A10/x1 close rung one, then rungs
+> two to eight. Public claim: unchanged. Decision: **No** (mid-run). Detail:
+> results/phase_2_4_stage_6/{M01,M02,C03,C11,V14}/x1.
+
+## L323 · Stage 6, ninth block (hour 36): rung one closes — the attention-history event read scales (+0.79 [+0.72, +0.85] on 3838 world-readers, both the practiced-skill and current-goal levels above +0.75), the records counterevidence repeats on drawings at 2448 units (−0.39) and on ScholaWrite (−0.58; records cards are offset-inert, so x1 duplicates x4 by construction), and the foraging tetrad at the reader lands at the marginal (+0.009 [+0.001, +0.016]) with a hidden-goal attractor underneath (posterior 0.55 on that account, 0.07 on habitual misuse)
+
+**Hypothesis.** (Rung one's last four cells.) Do the history read, the records boundary, and
+the tetrad reader question hold at the locked scale?
+
+**Method.** Expansion cells at the fortyfold multiplier on fresh offset lineages (the records
+cards re-read their corpora at the same units; the world offset is inert for them); reader
+cards score the discriminating event against the cheap baseline, or the posterior on the true
+latent against the marginal; cluster bootstrap, both admitted readers.
+
+| cell | landing | number |
+|---|---|---|
+| A10/x1 | next-edit read on the history-governed discriminating event | +0.788 [+0.724, +0.853], 3838; practiced skill +0.81, current goal +0.77; abstain 0.44 |
+| F11/x1 | posterior on the true forage latent against the 0.25 marginal | +0.009 [+0.001, +0.016], 3840, INCONCLUSIVE under the band; by level hidden goal 0.55, exploration 0.26, error 0.16, habitual misuse 0.07; abstain 0.35 |
+| T04/x1 | drawings against the placement prior | −0.388 [−0.411, −0.365], 2448 |
+| T01/x1 | ScholaWrite against previous-label (an offset-inert duplicate of x4) | −0.575 [−0.717, −0.432], 144 |
+
+*Table: one row per cell; every number the card's primary with its cluster interval; F11's
+by-level values are the raw posterior on the true latent (the pooled primary subtracts the
+marginal).*
+
+**What we found.** Two event reads scale, the records boundary repeats, and the tetrad reader
+question resolves as practically nil with a specific failure shape: the reader is drawn to the
+hidden-goal account and almost never credits weakly monitored habit. The decision-traces
+standard's sentence, "no artifact reader has yet separated the four rivals," now carries its
+number.
+
+**What it means.** The F track closes at the reader the way the standard predicted:
+constructions carry the tetrad (F02, F03, F06, F09 by construction, L316 and L317), readers do
+not, and the attractor is the anomaly attraction the ease work found from the other side
+(L311): offered four accounts of an unusual act, this reader takes the most narratively loaded
+one. The ladder lock's second T01 rung is a duplicate by construction (records cards ignore the
+world offset), recorded as such and costing two minutes.
+
+> **Curator roll-up.** Theory group: decision traces (the exploration standard) and the three
+> layers (attention history). Question: does rung one hold at scale? Outcome class:
+> **Narrows** (the history event read scales; the tetrad reader question closes nil with a
+> named attractor). Result: F11/x1 +0.009 [+0.001, +0.016]. Meaning: readers separate
+> events, not accounts. Next obligation: rungs two to eight. Public claim: unchanged.
+> Decision: **No** (mid-run). Detail: results/phase_2_4_stage_6/{A10,F11,T01,T04}/x1.
+
+## L324 · Stage 6, tenth block (hour 42.5): the surface axis at scale — the realizer stays exactly paraphrase-invariant at fortyfold (TV 0.000 against 0.470 under a meaning change, 7680 rows) while the label posterior's wording sensitivity is unchanged (0.168 against 0.332, INSTRUMENT_FAILED at its derived band), the conditional-transfer table tightens (−1.067 to −1.048), and the ablation ordering replicates on fresh worlds with the two governing fields larger (control state −0.24, episode goal −0.17, selection history nil)
+
+**Hypothesis.** (Rungs two and three.) Do the surface-and-paraphrase results and the
+field ordering hold on fresh worlds at the locked multipliers?
+
+**Method.** Rung two at the fortyfold multiplier on offset worlds (M15, M16; P10 at its
+coded 32 units on fresh worlds); rung three at twentyfold (I08 at its coded twelve wording
+sets); the same frozen bands and readers.
+
+| cell | landing | number |
+|---|---|---|
+| M15/x2 | the realizer under paraphrase against a meaning change | paraphrase TV 0.0000, meaning TV 0.470, 7680 rows (discovery 0.000 against 0.425) |
+| I08/x3 | the label posterior under paraphrase against a meaning change | 0.168 against 0.332, twelve sets, INSTRUMENT_FAILED at the derived band (discovery 0.17 against 0.33) |
+| M16/x2 | conditional transfer of the frozen adapter | four cells −1.067 to −1.048, 7680 rows (discovery −1.077 to −1.027) |
+| P10/x2 | realizer ablations on fresh worlds, level minus the identity control | control state −0.243, episode goal −0.173, expertise −0.006, stop +0.015, selection history 0.000 (base: −0.126, −0.100, −0.013, −0.001, 0.000) |
+
+*Table: one row per cell; P10 and I08 code their own unit counts, so the multiplier did not
+reach them and their rung cells are fresh-world replications at base size.*
+
+**What we found.** The instrument contrast that anchors the week holds at scale exactly:
+the realized-state instrument does not move under wording, the label instrument does, by the
+same amounts as at discovery; and the ablation ordering replicates on fresh worlds with the
+governing fields larger, not smaller.
+
+**What it means.** The paraphrase asymmetry is a property of the instrument level, not of the
+sample. Wording-unstable label-posterior claims stay bounded as declared, and the realizer's
+claims do not inherit that bound. Two multipliers did not reach their cards (P10 and I08 code
+their unit counts): a lock-versus-implementation gap, recorded, no repair, since the
+replications are informative as run. Pace note: the locked ladder is exhausting near hour 45
+against a forecast of 158, because cells run in one to four hours at fortyfold rather than at
+the lock's priced walls; by rule the run then freezes, confirms, and closes SHORT with its
+honest cause, and the packet waits for hour 168.
+
+> **Curator roll-up.** Theory group: the triple inference (realization). Question: do the
+> surface-axis results and the field ordering hold on fresh worlds? Outcome class:
+> **Strengthens**. Result: TV 0.000 against 0.470. Meaning: the instrument-level asymmetry
+> is real. Next obligation: rungs four to eight, then the exhaustion close; gear two needs
+> a day's load queued before it. Public claim: unchanged. Decision: **No** (mid-run).
+> Detail: results/phase_2_4_stage_6/{M15,M16,P10}/x2, I08/x3.
+
+## L325 · Stage 6, eleventh block (hour 45): rungs four to seven — the history changed-context read holds at scale (+0.28), but the one strong A-track separation does not: dated-versus-shuffled goal-runs, +0.67 on a forty-eight-world interval that barely excluded zero, sits at −0.03 [−0.15, +0.10] on 1248 fresh units and closes as a discovery-size artifact; the forage outcome-read holds (+0.665) while turning out to be ONE statistic wearing three card questions, every non-explore level scoring zero by construction
+
+**Hypothesis.** (The remaining rung cells before the ladder's last.) Do they hold at the
+locked scale?
+
+**Method.** Expansion cells at the locked multipliers on fresh offset worlds; the records
+cells are offset-inert duplicates and are identified as such; cluster bootstrap, frozen
+bands, both admitted readers where the card has readers.
+
+| cell | landing | number |
+|---|---|---|
+| T02/x4, T04/x4 | offset-inert duplicates of x7 and x1, by construction | −0.383 and −0.388, identical rows; four minutes |
+| A06/x5 | the exact-layer null holds | +0.002 [−0.002, +0.005], 1248 |
+| A12/x5 | the history-governed changed-context read holds | +0.282 [+0.253, +0.307], 2496 (discovery +0.365) |
+| A13/x5 | dated-versus-shuffled goal-runs DOES NOT replicate | −0.026 [−0.154, +0.100], 1248 (discovery +0.667 [+0.042, +1.292] on 48 worlds) |
+| V06/x6 | single-cut breadth tightens, still just over its band | 0.118 [0.114, 0.123], 2268 (band 0.10, collapse line 0.25) |
+| F03/x6, F09/x6 | the outcome-read statistic holds, and is one number under three questions | +0.665 [+0.643, +0.689], 1584 (F02, F03, and F09 all equal the explore mean: every rival level scores zero checks-after-probe by construction) |
+| T06/x7 | the time-aware split | descriptive |
+
+*Table: one row per cell or identified duplicate pair; every number the card's primary with
+its cluster interval.*
+
+**What we found.** One genuine non-replication: the discovery A13 interval was 1.25 nats
+wide, and its twenty-six-fold re-measure centers on zero — the "dated history separates at
+the exact layer" clause dies. Everything else holds or tightens. The F02/F03/F09 identity
+is a construction scope fact, not an instrument defect: the escalation question (F03) and
+the probe-usefulness question (F09) were never separately measured, and the F track's
+separable content is F02's outcome-read plus the F04/F05 repair-gap statistics; no repair
+budget is spent on naming this.
+
+**What it means.** The A track's dated-history story loses its only support: nothing now
+separates dated from shuffled history at any layer — the reader's read of it was already
+inconclusive (A14), and the exact layer's separation was a forty-eight-world coin. The
+dated-evidence trajectory rows lean only on the V track's construction from here. The
+power lesson recurs at the exact layer: an interval that barely excludes zero at small n
+is a claim about the interval, not the world.
+
+> **Curator roll-up.** Theory group: the three layers (attention history) and decision
+> traces (forage scope). Question: do the remaining rungs hold at scale? Outcome class:
+> **Narrows** (A13 dies at scale; the F-track scope is named). Result: −0.026 [−0.154,
+> +0.100] against the discovery +0.667. Meaning: dated history separates nowhere, at
+> present. Next obligation: M06/x8 ends the ladder; the freeze, the confirmations, and
+> the SHORT close follow. Public claim: unchanged. Decision: **No** (mid-run). Detail:
+> results/phase_2_4_stage_6/*/x4 to x7.
+
+## L326 · Stage 6 CLOSES SHORT by rule at hour 47.1 — the whole locked program complete (160 cells, 42 of the 47 hours holding the GPU), both frozen confirmations land on untouched confirmation lineages (label inverse planning over direct reading +0.85 [+0.74, +0.97]; adaptive expansion over executable synthesis +0.23 [+0.16, +0.29]), the confirmation-seeds rung re-lands the first at 3584 units (+0.89), the routing table reads "a published scaffold wins," and the executable-synthesis inconclusive resolves to a small counterevidence at fortyfold (−0.020)
+
+**Hypothesis.** (The close.) Do the frozen claims survive untouched confirmation lineages,
+and what does the program route?
+
+**Method.** The freeze fired at genuine ladder exhaustion (hour 46.2) and selected the two
+strongest qualified gains under §10.3 (M02 +0.945; M07 +0.132). B01 and B02 re-run each
+claim's BOTH arms in-cell on confirmation lineages (offset 30000, untouched before the
+freeze; the repaired pairing); B01/x9 expands the first at the thirteenfold
+confirmation-seeds rung; B04 reads §15's routing from landed verdicts; SHORT_RUN and
+RUNTIME record the close.
+
+| item | landing | number |
+|---|---|---|
+| B01 (M02's frozen claim) | L minus D on untouched lineages | +0.849 [+0.737, +0.974], 256 (frozen +0.945) |
+| B01/x9 | the same claim at the confirmation-seeds rung | +0.887 [+0.855, +0.918], 3584 |
+| B02 (M07's frozen claim) | AD minus EX on untouched lineages | +0.231 [+0.164, +0.292], 256 (frozen +0.132) |
+| M06/x8 | EX minus GS resolves at fortyfold | −0.020 [−0.033, −0.007], 8783 pairs, perm p 2.0e-03 (ledgered; discovery +0.049 inconclusive) |
+| B04 routing | the §15 table, from landed verdicts | "a published scaffold wins or nothing does (CR counterevidence; supports M02, M07)": PROMISING engineering route, warrant that implementation and not the umbrella theory; "all readers fail supplied-true-state": interface and capability only |
+| the close | SHORT_RUN at 47.07 h with the honest cause; RUNTIME 160 cells COMPLETE, 151,752 GPU-lock seconds | outcome census over the 128 cards and attacks: 28 support, 9 valid null, 8 counterevidence, 19 inconclusive, 19 infrastructure, 16 descriptive, 1 instrument failure (the wording card), 1 not-run (T03) |
+
+*Table: one row per closing item; every number the card's primary with its cluster
+interval.*
+
+**What we found.** Both confirmations land within a tenth and a half of their frozen
+points, on lineages nothing touched before the freeze, and the expansion re-lands the
+first with a tenfold-tighter interval. The ladder's last contrast resolves executable
+synthesis slightly UNDER grammar constraint. The program's own routing names the
+engineering route and the reader boundary.
+
+**What it means.** The week's central claims are confirmed, not just discovered:
+realizing hypotheses pays on fresh confirmation worlds, exact-likelihood weighing beats
+reader judgment there too, and every claim stays reader-bounded (no reader passed I05).
+The window closed at hour 47 because the lock priced fortyfold cells at walls three times
+their real ones — SHORT by rule, the cause written, no packet before hour 168 (the
+reporter refused it, as designed). The wrapper chained into the loaded general queue at
+14:43:51: the archaic-rendering cross and the equal-length construction run now, and the
+packet waiter sleeps to the deadline and writes the one packet.
+
+> **Curator roll-up.** Theory group: the triple inference (realization, confirmed).
+> Question: do the frozen claims survive untouched lineages? Outcome class:
+> **Strengthens** (both confirm). Result: +0.849 [+0.737, +0.974]. Meaning: realization's
+> gain is a confirmed fact of these worlds and readers. Next obligation: the two
+> receipts; the packet at hour 168; then his read. Public claim: unchanged (bounded
+> maker-state engineering in named model readers). Decision: **No** (the packet comes at
+> hour 168). Detail: results/phase_2_4_stage_6/B01, B02, B04, SHORT_RUN.json,
+> RUNTIME.json.
+
+## L327 · The two post-close receipts land within the hour of the chain: DIFFICULTY, not visual anomaly, attracts (the archaic rendering, harder by the validated ruler on 64 of 64 known-answer samples and not visually deviant, is taken a quarter more often: −0.24 pooled, Qwen −0.42, SmolLM2 −0.07), and reliance tracks INFORMATION, not length (information at equal length +0.075; length at equal information −0.003; the padded six matches the two)
+
+**Hypothesis.** (TODO l2 and m2, queued behind the Stage-6 close.) Is the L311 menu
+attraction about difficulty or about visual anomaly; and is the L314 quantity effect about
+information or about length?
+
+**Method.** As designed and queued: the R01 ease cross with the archaic rendering forced
+after its own known-answer validation under the validated ruler (VOID if not harder on 0.95
+of samples per reader); the R02 triad — six records, two, and six-that-are-the-two-repeated
+(interleaved, verbatim) — at plain rendering, the padded arm's token length matched per
+reader before any contrast. 128 worlds per domain per reader; paired at the world.
+
+| receipt | landing | number |
+|---|---|---|
+| archaic validation | harder than plain under the total-logp ruler, both readers, all samples | harder fraction 1.00 on 64 samples each (mean −22.6 and −23.5); the record/note crossing realized on both |
+| the archaic cross | the harder-but-not-deviant description is taken MORE, the L311 margin | ease effect −0.243 [−0.267, −0.218] on the record and −0.226 [−0.249, −0.203] on the note, 256 worlds; Qwen −0.416, SmolLM2 −0.069 |
+| the equal-length triad | reliance follows information; length adds nothing; no repeat penalty | information at equal length +0.075 [+0.066, +0.084]; length at equal information −0.003 [−0.011, +0.004]; quantity total +0.072; padded/six token ratio 1.034 both readers |
+| per reader | both effects are the Qwen family's | information at equal length: Qwen +0.151, SmolLM2 −0.002 (the same split as L311 and L314) |
+
+*Table: one row per landing; every number the receipt's primary with its cluster interval.*
+
+**What we found.** The L311 attraction replicates in full on a rendering with ordinary case
+and punctuation, so the attractor is processing cost, not surface deviance; and the L314
+quantity effect decomposes cleanly onto information, the length-only arm sitting at zero
+with no penalty for visible repetition.
+
+**What it means.** The reader-heuristics story tightens on both fronts: the menu bias is
+difficulty-shaped (any option harder to process draws probability, whatever it looks
+like), and the reliance heuristic is information-shaped (more distinct evidence, more
+trust; more text alone, nothing) — both effects living in one reader family and flat in
+the other, as every sighting before them. Two design items opened by L311 and L314 close
+same-day on the GPU the Stage-6 window freed.
+
+> **Curator roll-up.** Theory group: reader heuristics. Question: difficulty or anomaly;
+> information or length? Outcome class: **Narrows** (both confounds split; both effects
+> named). Result: −0.243 [−0.267, −0.218] beside +0.075 [+0.066, +0.084]. Meaning: the
+> menu bias is processing-cost-shaped and reliance is information-shaped, per-reader-
+> bounded. Next obligation: the packet waiter writes the one Stage-6 packet after hour
+> 168; then his read. Public claim: unchanged. Decision: **No**. Detail:
+> results/phase_2_4_stage_5r/post/R01_ARCHAIC.json, R02_LENGTH.json.
+
+## L328 · The packet, taken early on his ruling (2026-09-01, hour 47.6): validation clean (128 of 128 mandatory dispositions, 9428 rows), the one curator packet written and synthesized five days before the deadline, the waiter cancelled — the Stage-6 deliverable is on his desk
+
+**Hypothesis.** None — a delivery event under the curator's explicit ruling waiving the
+final-only clause (given after the whole locked program, both confirmations, and the two
+post-close receipts had landed; nothing more could land).
+
+**Method.** `validate(write=True)` (COVERAGE: 128 of 128 mandatory, no invalid
+dispositions, ok true), then the reporter's force path (the deadline check waived by the
+ruling; every other refusal — contract, clock, coverage — still armed); the analyst
+synthesis written above the machine draft in Pass A; the packet waiter cancelled by its
+cancel file.
+
+**What it means.** The week's deliverable exists at
+results/phase_2_4_stage_6/CURATOR_PACKET_FINAL.md: Pass A (the synthesis, the nine-arm
+table, the seven answers, six open questions, STOP line), Pass B (the appendix with every
+per-card verdict). The packet's content is L315 to L327's, now in his format; nothing new
+landed with it.
+
+> **Curator roll-up.** Theory group: none (a delivery event). Question: none. Outcome
+> class: **Infrastructure**. Result: the packet, five days early on his ruling. Meaning:
+> the stage's read can begin. Next obligation: stage, commit, and push on his order; then the
+> two auxiliary programs he ordered built. Public
+> claim: unchanged. Decision: **Yes, his** — the packet awaits his read. Detail:
+> results/phase_2_4_stage_6/CURATOR_PACKET_FINAL.md.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # TIER 2 · SETTLED
 

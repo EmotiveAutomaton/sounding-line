@@ -1,0 +1,104 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w01012|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach to addressing concerns and revising drafts appears to be driven by urgency and prioritization. They first addressed critical issues like \"urgent\" changes in section 1, then moved "
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.13103939007086496,
+   "write:sec4:s4.1": 0.09006196789501368,
+   "check:sec2:s2.1": 0.2573656832501545,
+   "check:sec3:s3.1": 0.22712441829982946,
+   "consult:sec1:src": 0.16005187246018085,
+   "cite:sec4:ref": 0.13435666802395654
+  },
+  "next_edit_type": {
+   "write": 0.22110135796587865,
+   "check": 0.48449010154998395,
+   "consult": 0.16005187246018085,
+   "cite": 0.13435666802395654
+  },
+  "next_section": {
+   "sec1": 0.2910912625310458,
+   "sec4": 0.2244186359189702,
+   "sec2": 0.2573656832501545,
+   "sec3": 0.22712441829982946
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5986122705416282
+ },
+ "uncertainty": {
+  "posterior_weight": 0.13754440051811653,
+  "abstain": false
+ }
+}

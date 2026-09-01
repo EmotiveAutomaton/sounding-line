@@ -1,0 +1,103 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w02945|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's way of handling concerns was driven by a focus on organization and revision, as evident in the sequential drafting and reworking of sections and the addition of references and urgent corre"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 7,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec1:s1.1": 0.036956415545459954,
+   "revise:sec2:s2.2": 0.033300506044705275,
+   "revise:sec2:s2.1": 0.033300506044705275,
+   "check:sec1:s1.1": 0.27307302768079633,
+   "check:sec2:s2.1": 0.2460593072871065,
+   "check:sec3:s3.1": 0.22171791632743698,
+   "consult:sec1:src": 0.15559232106978968
+  },
+  "next_edit_type": {
+   "revise": 0.1035574276348705,
+   "check": 0.7408502512953399,
+   "consult": 0.15559232106978968
+  },
+  "next_section": {
+   "sec1": 0.46562176429604596,
+   "sec2": 0.31266031937651706,
+   "sec3": 0.22171791632743698
+  },
+  "changed_context": {
+   "finish_quietly": 0.23043860150943757,
+   "expand_scope": 0.1233448950298599,
+   "recheck_sources": 0.15837798023702163,
+   "polish_wording": 0.48783852322368093
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.45704292175954675
+ },
+ "uncertainty": {
+  "posterior_weight": 0.31650840701903926,
+  "abstain": false
+ }
+}

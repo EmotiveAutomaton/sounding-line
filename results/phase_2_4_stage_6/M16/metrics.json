@@ -1,0 +1,44 @@
+{
+ "card": "M16",
+ "lane": "discovery",
+ "written_at": "2026-08-30T16:47:53",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "n_rows": 192,
+ "conditional_cells": {
+  "Qwen2.5-1.5B-Instruct|essay": {
+   "point": -1.0766967164390326,
+   "lo": -1.1853571655044124,
+   "hi": -0.9698661066123958,
+   "n_units": 48,
+   "n_boot": 2000
+  },
+  "Qwen2.5-1.5B-Instruct|workshop_doc": {
+   "point": -1.0696155375057421,
+   "lo": -1.196628314516542,
+   "hi": -0.9435153042117012,
+   "n_units": 48,
+   "n_boot": 2000
+  },
+  "SmolLM2-1.7B-Instruct|essay": {
+   "point": -1.0578590484446952,
+   "lo": -1.1408107271198737,
+   "hi": -0.973433680878223,
+   "n_units": 48,
+   "n_boot": 2000
+  },
+  "SmolLM2-1.7B-Instruct|workshop_doc": {
+   "point": -1.0267092790329668,
+   "lo": -1.125640936637627,
+   "hi": -0.9290532192160267,
+   "n_units": 48,
+   "n_boot": 2000
+  }
+ }
+}

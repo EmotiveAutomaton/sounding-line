@@ -1,0 +1,105 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w04511|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on thoroughness and revisiting previous drafts to ensure accuracy and quality, as well as a willingness to correct urgent issues and rework sections when nec"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.06490978764692087,
+   "write:sec1:s1.2": 0.06490978764692087,
+   "write:sec2:s2.1": 0.060031740071370646,
+   "write:sec4:s4.2": 0.05134786836018063,
+   "revise:sec2:s2.2": 0.11938737084415955,
+   "consult:sec1:src": 0.543482997943778,
+   "cite:sec4:ref": 0.09593044748666942
+  },
+  "next_edit_type": {
+   "write": 0.241199183725393,
+   "revise": 0.11938737084415955,
+   "consult": 0.543482997943778,
+   "cite": 0.09593044748666942
+  },
+  "next_section": {
+   "sec1": 0.6733025732376198,
+   "sec2": 0.17941911091553023,
+   "sec4": 0.14727831584685008
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "consult"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.507684599217143
+ },
+ "uncertainty": {
+  "posterior_weight": 0.2654966909303785,
+  "abstain": false
+ }
+}

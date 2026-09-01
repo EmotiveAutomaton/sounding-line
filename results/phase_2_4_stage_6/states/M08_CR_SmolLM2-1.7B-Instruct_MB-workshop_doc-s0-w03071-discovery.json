@@ -1,0 +1,98 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03071|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a focus on thoroughness and attention to detail, as evidenced by their meticulous approach to reviewing and revising each section of the document."
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.2525070953830654,
+   "write:sec3:s3.1": 0.22752785766767164,
+   "write:sec3:s3.2": 0.22752785766767164,
+   "write:sec3:s3.3": 0.22752785766767164,
+   "revise:sec1:s1.3": 0.033468544096406545,
+   "consult:sec1:src": 0.03144078751751313
+  },
+  "next_edit_type": {
+   "write": 0.9350906683860803,
+   "revise": 0.03346854409640655,
+   "consult": 0.031440787517513134
+  },
+  "next_section": {
+   "sec2": 0.2525070953830654,
+   "sec3": 0.682583573003015,
+   "sec1": 0.06490933161391968
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.45508540588594204
+ },
+ "uncertainty": {
+  "posterior_weight": 0.36082900692516534,
+  "abstain": false
+ }
+}

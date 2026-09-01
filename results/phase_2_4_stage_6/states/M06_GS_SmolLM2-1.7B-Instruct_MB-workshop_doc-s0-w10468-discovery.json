@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|workshop_doc|s0|w10468|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec3:s3.2": 0.09820591169661474,
+   "revise:sec2:s2.1": 0.11601657638775997,
+   "revise:sec2:s2.2": 0.11601657638775997,
+   "check:sec1:s1.1": 0.12401465541578922,
+   "check:sec2:s2.1": 0.10497613942807241,
+   "check:sec3:s3.1": 0.08886038357543233,
+   "consult:sec1:src": 0.11796638930081553,
+   "cite:sec3:ref": 0.0934163528657388,
+   "fix:sec1:urgent": 0.14052701494201705
+  },
+  "next_edit_type": {
+   "revise": 0.3302390644721347,
+   "check": 0.317851178419294,
+   "consult": 0.11796638930081553,
+   "cite": 0.0934163528657388,
+   "fix": 0.14052701494201705
+  },
+  "next_section": {
+   "sec3": 0.2804826481377859,
+   "sec2": 0.3370092922035923,
+   "sec1": 0.3825080596586218
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.40811640907536567
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

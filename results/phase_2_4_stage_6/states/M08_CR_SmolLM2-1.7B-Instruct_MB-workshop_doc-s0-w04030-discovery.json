@@ -1,0 +1,111 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w04030|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach to handling concerns was driven by a flexible and iterative process, where they continuously reworked and reorganized sections as needed, demonstrating a willingness to adapt and "
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.2": 0.006044360611994835,
+   "write:sec3:s3.3": 0.006044360611994835,
+   "revise:sec1:s1.2": 0.3469309285941604,
+   "revise:sec2:s2.1": 0.306165469895144,
+   "revise:sec4:s4.1": 0.23844190770376278,
+   "check:sec1:s1.1": 0.01727267386084399,
+   "check:sec2:s2.1": 0.015243081181548724,
+   "check:sec3:s3.1": 0.013451971928562283,
+   "check:sec4:s4.1": 0.01187132356061114,
+   "consult:sec1:src": 0.009479444401288315,
+   "cite:sec4:ref": 0.00795758615565283,
+   "fix:sec1:urgent": 0.02109689149443592
+  },
+  "next_edit_type": {
+   "write": 0.012088721223989672,
+   "revise": 0.8915383061930672,
+   "check": 0.05783905053156615,
+   "consult": 0.009479444401288317,
+   "cite": 0.007957586155652832,
+   "fix": 0.021096891494435922
+  },
+  "next_section": {
+   "sec3": 0.025540693152551953,
+   "sec1": 0.39477993835072867,
+   "sec2": 0.3214085510766927,
+   "sec4": 0.2582708174200268
+  },
+  "changed_context": {
+   "finish_quietly": 0.18052990059364782,
+   "expand_scope": 0.5993803780209169,
+   "recheck_sources": 0.09907691010869184,
+   "polish_wording": 0.1210128112767434
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.40065315836507126
+ },
+ "uncertainty": {
+  "posterior_weight": 0.23124744607292858,
+  "abstain": false
+ }
+}

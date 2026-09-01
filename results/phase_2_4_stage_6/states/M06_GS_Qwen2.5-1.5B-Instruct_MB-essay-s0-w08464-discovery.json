@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w08464|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "works on one concern at a time and switches wholly between concerns"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.2": 0.0045256774294208406,
+   "write:sec3:s3.2": 0.003830903236754676,
+   "write:sec3:s3.3": 0.003830903236754676,
+   "revise:sec1:s1.2": 0.01606164193392864,
+   "check:sec2:s2.1": 0.33354149289923324,
+   "check:sec3:s3.1": 0.28233677823193337,
+   "consult:sec1:src": 0.16020174717290736,
+   "fix:sec1:urgent": 0.1956708558590672
+  },
+  "next_edit_type": {
+   "write": 0.012187483902930191,
+   "revise": 0.01606164193392864,
+   "check": 0.6158782711311666,
+   "consult": 0.16020174717290736,
+   "fix": 0.1956708558590672
+  },
+  "next_section": {
+   "sec2": 0.3380671703286541,
+   "sec3": 0.2899985847054427,
+   "sec1": 0.3719342449659032
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.37697684845798457
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w04110|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's primary concern was ensuring that all necessary steps were completed before moving on to the next section, particularly focusing on critical tasks like \"urgent\" and \"src.\" This approach pr"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.3": 0.11959727065722052,
+   "write:sec2:s2.1": 0.10123690395813367,
+   "write:sec2:s2.2": 0.10123690395813367,
+   "write:sec3:s3.1": 0.0856951890850664,
+   "revise:sec1:s1.1": 0.3592900570651477,
+   "cite:sec3:ref": 0.232943675276298
+  },
+  "next_edit_type": {
+   "write": 0.4077662676585543,
+   "revise": 0.3592900570651477,
+   "cite": 0.232943675276298
+  },
+  "next_section": {
+   "sec1": 0.47888732772236825,
+   "sec2": 0.20247380791626735,
+   "sec3": 0.3186388643613644
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.43546684788469997
+ },
+ "uncertainty": {
+  "posterior_weight": 0.21967593282976572,
+  "abstain": false
+ }
+}

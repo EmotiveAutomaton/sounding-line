@@ -1,0 +1,62 @@
+{
+ "card": "B02",
+ "lane": "discovery",
+ "written_at": "2026-09-01T13:59:39",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "claim": {
+  "card": "M07",
+  "what": "AD minus M06's arm on the combined prospective primary",
+  "point": 0.1316400224875717
+ },
+ "confirmation_verdict": {
+  "card": "M07",
+  "cell_id": "M07/confirmation",
+  "lane": "confirmation",
+  "track": "realization",
+  "readers": [
+   "Qwen/Qwen2.5-1.5B-Instruct",
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+  ],
+  "tier": "minimum",
+  "minutes": 1.13,
+  "gpu_lock_min": 1.06,
+  "strongest_surviving_rival": "AD interaction with missing-variable worlds and false-expansion cost on complete worlds",
+  "exec": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "reason": "directional support at or above the frozen threshold",
+  "point": 0.23105060183853982,
+  "ci": [
+   0.16429960073364916,
+   0.2917813977857192
+  ],
+  "n_units": 256,
+  "threshold": 0.03,
+  "perm_p": 4.999750012499375e-05,
+  "primary": "AD minus M06's arm on the combined prospective primary",
+  "capability_note": "no admitted reader passed the I05 capability gate; architecture claims close as reader-bounded",
+  "marker": {
+   "contract_version": "6.0.0",
+   "contract_hash": "fab4f6184600f45d",
+   "inputs": {},
+   "outputs": {
+    "metrics": {
+     "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M07\\confirmation\\metrics.json",
+     "sha256": "625d4c039abc98cfa47668bd7a4a71a8e70351632102bd4fbc55edbb91bf5b3e"
+    },
+    "cases": {
+     "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M07\\confirmation\\cases.jsonl",
+     "sha256": "5eb5003cf40a914dafecf9133c6bc0cbd0dd968d86bba03ce04ddf794184016a"
+    }
+   },
+   "written_at": "2026-09-01T13:59:39"
+  }
+ },
+ "rc": 0
+}

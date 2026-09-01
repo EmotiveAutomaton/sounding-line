@@ -1,0 +1,103 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02709|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a process of iterative refinement, where they revisited and revised previous drafts to ensure the quality and coherence of the essay."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.3": 0.03441069368246335,
+   "revise:sec3:s3.2": 0.33335257453968675,
+   "revise:sec2:s2.1": 0.36994982152219763,
+   "check:sec2:s2.1": 0.05673364261382382,
+   "check:sec3:s3.1": 0.05112127301620521,
+   "consult:sec1:src": 0.04327322336136139,
+   "cite:sec3:ref": 0.039813287456627704,
+   "fix:sec1:urgent": 0.07134548380763424
+  },
+  "next_edit_type": {
+   "write": 0.03441069368246334,
+   "revise": 0.7033023960618843,
+   "check": 0.10785491563002902,
+   "consult": 0.043273223361361385,
+   "cite": 0.0398132874566277,
+   "fix": 0.07134548380763422
+  },
+  "next_section": {
+   "sec2": 0.46109415781848473,
+   "sec3": 0.42428713501251963,
+   "sec1": 0.11461870716899561
+  },
+  "changed_context": {
+   "finish_quietly": 0.24825380588960336,
+   "expand_scope": 0.19334025842727964,
+   "recheck_sources": 0.33932272093070476,
+   "polish_wording": 0.21908321475241235
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4956478085560717
+ },
+ "uncertainty": {
+  "posterior_weight": 0.24867741302513258,
+  "abstain": false
+ }
+}

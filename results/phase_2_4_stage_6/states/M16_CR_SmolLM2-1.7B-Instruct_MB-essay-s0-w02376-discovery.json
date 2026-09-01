@@ -1,0 +1,104 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02376|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on organization and efficiency, with a clear structure and sequential progression in drafting and adding content to each section."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 14,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.011450217458916829,
+   "write:sec2:s2.1": 0.010104781441414159,
+   "write:sec4:s4.1": 0.007869611699338745,
+   "write:sec4:s4.2": 0.007869611699338745,
+   "revise:sec2:s2.3": 0.4516956994771364,
+   "revise:sec2:s2.2": 0.4516956994771364,
+   "check:sec1:s1.1": 0.02548292759495842,
+   "check:sec3:s3.1": 0.01984612396590553,
+   "consult:sec1:src": 0.013985327185854749
+  },
+  "next_edit_type": {
+   "write": 0.03729422229900848,
+   "revise": 0.9033913989542728,
+   "check": 0.04532905156086395,
+   "consult": 0.013985327185854749
+  },
+  "next_section": {
+   "sec1": 0.05091847223973,
+   "sec2": 0.913496180395687,
+   "sec4": 0.015739223398677494,
+   "sec3": 0.019846123965905533
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.46980430937187034
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3562581983749747,
+  "abstain": false
+ }
+}

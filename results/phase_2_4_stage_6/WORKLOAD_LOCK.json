@@ -1,0 +1,336 @@
+{
+ "written_at": "2026-08-30T15:44:40",
+ "tier": "minimum",
+ "per_gpu_unit_s": 3.63,
+ "base_forecast_h": 7.6,
+ "ladder": [
+  {
+   "rung": 1,
+   "axis": "independent_units",
+   "what": "additional independent makers, sessions, paper lineages, and drawings (+50 percent units on resolved substantive cards)",
+   "cards": [
+    "M08",
+    "M01",
+    "M02",
+    "C03",
+    "C11",
+    "V14",
+    "F11",
+    "T01",
+    "T04",
+    "A10"
+   ],
+   "n_mult": 40,
+   "forecast_h": 47.7
+  },
+  {
+   "rung": 2,
+   "axis": "surface_and_paraphrase",
+   "what": "a second surface renderer and proposal paraphrase lineage on the tournament and benchmark cards",
+   "cards": [
+    "M08",
+    "M15",
+    "M16",
+    "P10"
+   ],
+   "n_mult": 40,
+   "forecast_h": 16.8
+  },
+  {
+   "rung": 3,
+   "axis": "reader_checkpoint",
+   "what": "the next already available local reader checkpoint (Qwen2.5-3B-Instruct) on capability-gated cards, bounded as non-claim",
+   "cards": [
+    "I05",
+    "I08"
+   ],
+   "n_mult": 20,
+   "forecast_h": 6.0
+  },
+  {
+   "rung": 4,
+   "axis": "process_length",
+   "what": "longer process prefixes and more withheld continuation steps on P and T cards",
+   "cards": [
+    "T01",
+    "T02",
+    "T04"
+   ],
+   "n_mult": 40,
+   "forecast_h": 17.7
+  },
+  {
+   "rung": 5,
+   "axis": "history_combinations",
+   "what": "additional matched history-context-feedback combinations on the A track",
+   "cards": [
+    "A04",
+    "A06",
+    "A12",
+    "A13"
+   ],
+   "n_mult": 26,
+   "forecast_h": 7.8
+  },
+  {
+   "rung": 6,
+   "axis": "equifinal_rivals",
+   "what": "additional near-equifinal rival states and diagnostic opportunities on V and F",
+   "cards": [
+    "V11",
+    "V06",
+    "F03",
+    "F09"
+   ],
+   "n_mult": 33,
+   "forecast_h": 9.9
+  },
+  {
+   "rung": 7,
+   "axis": "natural_partition",
+   "what": "the next natural corpus transfer partition on the T track",
+   "cards": [
+    "T02",
+    "T06"
+   ],
+   "n_mult": 27,
+   "forecast_h": 8.1
+  },
+  {
+   "rung": 8,
+   "axis": "approximation_samples",
+   "what": "more particles or executable-state samples where approximation error is itself measured (TT, EX)",
+   "cards": [
+    "M04",
+    "M06",
+    "TT_EX_samples"
+   ],
+   "n_mult": 40,
+   "forecast_h": 22.3
+  },
+  {
+   "rung": 9,
+   "axis": "confirmation_seeds",
+   "what": "a second untouched confirmation seed family",
+   "cards": [
+    "B01"
+   ],
+   "n_mult": 13,
+   "forecast_h": 3.9
+  }
+ ],
+ "ladder_forecast_h": 140.2,
+ "total_forecast_h": 157.8,
+ "target_h": [
+  156,
+  162
+ ],
+ "margin": 1.6,
+ "shortfall_h": 1.2,
+ "note": "conditional branches (capability-gated) may close; rung multipliers are additional independent units (power), capped at 8x per rung; a residual shortfall closes under the short-run rule, honestly",
+ "amended_at": "2026-08-30T15:44:40",
+ "amendment_reason": "second sizing amendment, still before any ladder cell and before any scientific outcome was read: the first amendment's eight-times rung cap left a 108.5-hour shortfall; the cap was arbitrary, the rate is measured, and additional distinct worlds are power, so the cap moves to forty and the sizing lands in the target",
+ "amendment_chain": [
+  {
+   "written_at": "2026-08-30T15:40:17",
+   "tier": "minimum",
+   "per_gpu_unit_s": 3.63,
+   "base_forecast_h": 7.6,
+   "ladder": [
+    {
+     "rung": 1,
+     "axis": "independent_units",
+     "what": "additional independent makers, sessions, paper lineages, and drawings (+50 percent units on resolved substantive cards)",
+     "forecast_h": 6.0
+    },
+    {
+     "rung": 2,
+     "axis": "surface_and_paraphrase",
+     "what": "a second surface renderer and proposal paraphrase lineage on the tournament and benchmark cards",
+     "forecast_h": 6.0
+    },
+    {
+     "rung": 3,
+     "axis": "reader_checkpoint",
+     "what": "the next already available local reader checkpoint (Qwen2.5-3B-Instruct) on capability-gated cards, bounded as non-claim",
+     "forecast_h": 6.0
+    },
+    {
+     "rung": 4,
+     "axis": "process_length",
+     "what": "longer process prefixes and more withheld continuation steps on P and T cards",
+     "forecast_h": 6.0
+    },
+    {
+     "rung": 5,
+     "axis": "history_combinations",
+     "what": "additional matched history-context-feedback combinations on the A track",
+     "forecast_h": 6.0
+    },
+    {
+     "rung": 6,
+     "axis": "equifinal_rivals",
+     "what": "additional near-equifinal rival states and diagnostic opportunities on V and F",
+     "forecast_h": 6.0
+    },
+    {
+     "rung": 7,
+     "axis": "natural_partition",
+     "what": "the next natural corpus transfer partition on the T track",
+     "forecast_h": 6.0
+    },
+    {
+     "rung": 8,
+     "axis": "approximation_samples",
+     "what": "more particles or executable-state samples where approximation error is itself measured (TT, EX)",
+     "forecast_h": 6.0
+    },
+    {
+     "rung": 9,
+     "axis": "confirmation_seeds",
+     "what": "a second untouched confirmation seed family",
+     "forecast_h": 6.0
+    }
+   ],
+   "target_h": [
+    156,
+    162
+   ],
+   "margin": 1.6,
+   "note": "conditional branches (capability-gated) may close; the ladder backfills"
+  },
+  {
+   "written_at": "2026-08-30T15:43:19",
+   "tier": "minimum",
+   "per_gpu_unit_s": 3.63,
+   "base_forecast_h": 7.6,
+   "ladder": [
+    {
+     "rung": 1,
+     "axis": "independent_units",
+     "what": "additional independent makers, sessions, paper lineages, and drawings (+50 percent units on resolved substantive cards)",
+     "cards": [
+      "M08",
+      "M01",
+      "M02",
+      "C03",
+      "C11",
+      "V14",
+      "F11",
+      "T01",
+      "T04",
+      "A10"
+     ],
+     "n_mult": 8,
+     "forecast_h": 9.5
+    },
+    {
+     "rung": 2,
+     "axis": "surface_and_paraphrase",
+     "what": "a second surface renderer and proposal paraphrase lineage on the tournament and benchmark cards",
+     "cards": [
+      "M08",
+      "M15",
+      "M16",
+      "P10"
+     ],
+     "n_mult": 8,
+     "forecast_h": 3.4
+    },
+    {
+     "rung": 3,
+     "axis": "reader_checkpoint",
+     "what": "the next already available local reader checkpoint (Qwen2.5-3B-Instruct) on capability-gated cards, bounded as non-claim",
+     "cards": [
+      "I05",
+      "I08"
+     ],
+     "n_mult": 8,
+     "forecast_h": 2.4
+    },
+    {
+     "rung": 4,
+     "axis": "process_length",
+     "what": "longer process prefixes and more withheld continuation steps on P and T cards",
+     "cards": [
+      "T01",
+      "T02",
+      "T04"
+     ],
+     "n_mult": 8,
+     "forecast_h": 3.5
+    },
+    {
+     "rung": 5,
+     "axis": "history_combinations",
+     "what": "additional matched history-context-feedback combinations on the A track",
+     "cards": [
+      "A04",
+      "A06",
+      "A12",
+      "A13"
+     ],
+     "n_mult": 8,
+     "forecast_h": 2.4
+    },
+    {
+     "rung": 6,
+     "axis": "equifinal_rivals",
+     "what": "additional near-equifinal rival states and diagnostic opportunities on V and F",
+     "cards": [
+      "V11",
+      "V06",
+      "F03",
+      "F09"
+     ],
+     "n_mult": 8,
+     "forecast_h": 2.4
+    },
+    {
+     "rung": 7,
+     "axis": "natural_partition",
+     "what": "the next natural corpus transfer partition on the T track",
+     "cards": [
+      "T02",
+      "T06"
+     ],
+     "n_mult": 8,
+     "forecast_h": 2.4
+    },
+    {
+     "rung": 8,
+     "axis": "approximation_samples",
+     "what": "more particles or executable-state samples where approximation error is itself measured (TT, EX)",
+     "cards": [
+      "M04",
+      "M06",
+      "TT_EX_samples"
+     ],
+     "n_mult": 8,
+     "forecast_h": 4.5
+    },
+    {
+     "rung": 9,
+     "axis": "confirmation_seeds",
+     "what": "a second untouched confirmation seed family",
+     "cards": [
+      "B01"
+     ],
+     "n_mult": 8,
+     "forecast_h": 2.4
+    }
+   ],
+   "ladder_forecast_h": 32.9,
+   "total_forecast_h": 50.5,
+   "target_h": [
+    156,
+    162
+   ],
+   "margin": 1.6,
+   "shortfall_h": 108.5,
+   "note": "conditional branches (capability-gated) may close; rung multipliers are additional independent units (power), capped at 8x per rung; a residual shortfall closes under the short-run rule, honestly",
+   "amended_at": "2026-08-30T15:43:19",
+   "amendment_reason": "the launch lock under-filled the window (base 7.6 h + 61.6 h ladder vs the 156-162 target): the rung sizing formula capped each rung near six hours; corrected to unit multipliers sized from the same measured pilot rate, BEFORE the scientific lock and before any scientific cell ran; no outcome was seen before this amendment"
+  }
+ ]
+}

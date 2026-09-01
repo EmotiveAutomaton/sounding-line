@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03554|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on reworking and rewriting existing sections rather than adding new ones, indicating a preference for iterative refinement over continuous expansion."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.3": 0.005664032252690013,
+   "write:sec3:s3.1": 0.004058456453152189,
+   "revise:sec3:s3.3": 0.01219227698622596,
+   "check:sec1:s1.1": 0.4174380085311112,
+   "check:sec2:s2.1": 0.3533536454963179,
+   "fix:sec1:urgent": 0.2072935802805028
+  },
+  "next_edit_type": {
+   "write": 0.009722488705842202,
+   "revise": 0.01219227698622596,
+   "check": 0.7707916540274291,
+   "fix": 0.2072935802805028
+  },
+  "next_section": {
+   "sec1": 0.630395621064304,
+   "sec3": 0.01625073343937815,
+   "sec2": 0.3533536454963179
+  },
+  "changed_context": {
+   "finish_quietly": 0.19095601748233176,
+   "expand_scope": 0.07024879299972439,
+   "recheck_sources": 0.10479888437647804,
+   "polish_wording": 0.6339963051414659
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.35265626541733064
+ },
+ "uncertainty": {
+  "posterior_weight": 0.1980691984565966,
+  "abstain": false
+ }
+}

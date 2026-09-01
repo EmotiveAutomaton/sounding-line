@@ -1,0 +1,43 @@
+{
+ "card": "C07",
+ "cell_id": "C07",
+ "lane": "discovery",
+ "track": "control",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 2.08,
+ "gpu_lock_min": 2.05,
+ "strongest_surviving_rival": "cue-triggered later action, not a current-goal label",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "reason": "directional support at or above the frozen threshold",
+ "point": 0.653041683069132,
+ "ci": [
+  0.45026035396303404,
+  0.8621393757743032
+ ],
+ "n_units": 96,
+ "threshold": 0.03,
+ "perm_p": null,
+ "primary": "reader next_edit_type_ls minus the cheap baseline on the discriminating event",
+ "capability_note": "no admitted reader passed the I05 capability gate; architecture claims close as reader-bounded",
+ "marker": {
+  "contract_version": "6.0.0",
+  "contract_hash": "fab4f6184600f45d",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C07\\metrics.json",
+    "sha256": "8211a59751d457344bf819f80cec42a2063385000e4ebbef51cd08f88b4760cc"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\C07\\cases.jsonl",
+    "sha256": "8d66d495e7b36af8b71014cb514030910e520012fd5ac53abda0da2d68ba65fd"
+   }
+  },
+  "written_at": "2026-08-30T16:56:11"
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "focal_habit|MB|essay|s0|w09946|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "pursues one concern while old routines keep steering some choices"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "focal_habit",
+  "controller": "focal_habit"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {
+   "revise": 1.0,
+   "write": 0.4
+  }
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.2": 0.048336602843315896,
+   "write:sec3:s3.1": 0.040916050950162604,
+   "write:sec3:s3.2": 0.040916050950162604,
+   "check:sec1:s1.1": 0.0631085186722827,
+   "cite:sec3:ref": 0.7436142579117936,
+   "fix:sec1:urgent": 0.0631085186722827
+  },
+  "next_edit_type": {
+   "write": 0.1301687047436411,
+   "check": 0.06310851867228269,
+   "cite": 0.7436142579117935,
+   "fix": 0.06310851867228269
+  },
+  "next_section": {
+   "sec2": 0.048336602843315896,
+   "sec3": 0.8254463598121188,
+   "sec1": 0.1262170373445654
+  },
+  "changed_context": {
+   "finish_quietly": 0.19792987774900608,
+   "expand_scope": 0.13267636476454223,
+   "recheck_sources": 0.32633119955186235,
+   "polish_wording": 0.3430625579345894
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.3859829169598033
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02096|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and revising sections based on their completeness and readiness for publication. They started with the most basic section (s1.1) and gradually added mor"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.2": 0.012376785570603288,
+   "revise:sec3:s3.1": 0.020405869633148065,
+   "revise:sec2:s2.2": 0.024106686574698343,
+   "check:sec2:s2.1": 0.029443973472439284,
+   "check:sec3:s3.1": 0.024923785452583894,
+   "consult:sec1:src": 0.06338047951273133,
+   "cite:sec3:ref": 0.8253624197837959
+  },
+  "next_edit_type": {
+   "write": 0.012376785570603288,
+   "revise": 0.04451255620784641,
+   "check": 0.05436775892502318,
+   "consult": 0.06338047951273133,
+   "cite": 0.8253624197837959
+  },
+  "next_section": {
+   "sec3": 0.8830688604401311,
+   "sec2": 0.05355066004713763,
+   "sec1": 0.06338047951273133
+  },
+  "changed_context": {
+   "finish_quietly": 0.24167595100157666,
+   "expand_scope": 0.16200023460108376,
+   "recheck_sources": 0.39845628103298136,
+   "polish_wording": 0.1978675333643583
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.44616287928203435
+ },
+ "uncertainty": {
+  "posterior_weight": 0.6281482046188531,
+  "abstain": false
+ }
+}

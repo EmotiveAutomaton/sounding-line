@@ -1,5 +1,5 @@
 {
-  "started": "2026-08-23 07:45",
+  "started": "2026-09-01 14:43",
   "stages": [
     {
       "name": "revision_homogeneity",
@@ -1172,9 +1172,377 @@
       "why": "G177 CoAuthor import: fetch + inventory; objective actions only, token share never a target; nonzero exit and retry when unreachable",
       "est_minutes": 30,
       "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_norm",
+      "why": "E24-S1a mechanical normalization of both corpora, realization re-verified",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_mx_orig",
+      "why": "Tree-S matrix over the orig variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_mx_fam2",
+      "why": "Tree-S matrix over the fam2 variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_mx_para_qwen",
+      "why": "Tree-S matrix over the para_qwen variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_mx_para2",
+      "why": "Tree-S matrix over the para2 variant, eleven readers, echo-gated",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_detector",
+      "why": "E24-S2 maker-family detector, topic-held-out, applied to every variant to VERIFY erasure rather than assume it",
+      "est_minutes": 15,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_mirror",
+      "why": "E24-S1d mirror arm: Qwen paraphraser over the SmolLM2 corpus, so each family is erased by a cross-family transformer as well as its own",
+      "est_minutes": 120,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_s_analyze2",
+      "why": "Tree-S re-synthesis with the crossed-imprint design complete",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_mx_fam2L",
+      "why": "S4 rung 1 on the SmolLM2 corpus, same rung, crossed",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_ladder_analyze",
+      "why": "ladder synthesis: is the relation term larger at literal wording than at goal?",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g177_sw_validation",
+      "why": "H1 powered validation: stratified toward mechanically decidable citation edits with matched negatives, band derived at the sample size",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g177_sw_nongen",
+      "why": "non-generative prospective reader: how much the draft raises each intention statement's likelihood; validated first on the same stratified subset",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_p_audit",
+      "why": "ecology audit: profile-following rate (interpretability gate) and the marginal-derived prediction floor",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_p_read",
+      "why": "E24-P2 system identification: recover the standing preference from k episodes, predict held-out selections; synthetic known-answer gate first",
+      "est_minutes": 120,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_h_baselines",
+      "why": "E24-H03 mechanical floors: majority, per-session first-half, previous-outcome, position; the margin over majority is the headline",
+      "est_minutes": 10,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_geo_capture",
+      "why": "E24-S07 capture: late-stage representations for all readers and makers on a shared process-matched text set",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_geo_link",
+      "why": "E24-S07 linkage: correspondence-null gate first, then double-centered rank relation between alignment and inversion margin (L61 rule: no raw CKA quoted)",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_h_retention",
+      "why": "E24-H04b retained-versus-deleted: the decidable subset any future reader validation on this tree requires (the L167 obligation)",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_geo_link_n",
+      "why": "E24-S07 neutral linkage: does the alignment-inversion relation survive when the shared texts carry no process structure?",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "g177_sw_ceiling",
+      "why": "the process-aware ceiling: is the next-intention label recoverable from its own realized edit, deciding whether the boundary belongs to readers or to the annotation",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "scout_a_decode",
+      "why": "E24-A1/A2 rebuilt ruler: 120 lexicon-clean situations, consensus locus across three seed splits or INSTRUMENT-FAILED with instability quantified",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_e02_ruler",
+      "why": "E24-S3-E02 route ruler on known-policy targets: records-aware must beat target-only and compute-matched filler, else the E trunk's routes are instrument-failed before E03 spends anything",
+      "est_minutes": 80,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_s01_gen3",
+      "why": "E24-S3-S01 family-3 corpus from the gate winner, 0.9 yield gate withholds the manifest",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_v02_recovery",
+      "why": "E24-S3-V02 artifact-only preference recovery with a dose curve over artifacts shown, mechanical extraction, exact posterior",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_l01_train",
+      "why": "E24-S3-L01 LoRA students, one per seed x condition, same base init",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_l01_probe",
+      "why": "E24-S3-L01 probe: owl rate per student, full menu distribution, trait-minus-control over seed pairs",
+      "est_minutes": 35,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_c01_ruler",
+      "why": "E24-S3-C01 late-fusion ruler: exact hold/flip ground truth per item, graded conflict dose (0/2/8), presentation order crossed",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_m01_patching",
+      "why": "E24-S3-M01 activation patching: per-block transfer curve of a standing policy into a bare prompt, identity and mismatched-scenario nulls, known-positive prompted-shift gate",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_l02_grid",
+      "why": "E24-S3-L02 rank x template grid: rank 4/64 on the L01 data, rank 16 on a second template; per-cell transmission gaps beside the canonical cell",
+      "est_minutes": 90,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_e03_factorial",
+      "why": "E24-S3-E03 similarity x route factorial: self / other-family / programmatic targets, truth = the target's own realized choice",
+      "est_minutes": 100,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_a03_tournament",
+      "why": "E24-S3-A03 basis/locus tournament on the tendency corpus, scene-fold held-out decode, shuffled null per cell, anchor phrases stripped",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_d03_structure",
+      "why": "E24-S3-D03 central vs distributed direction: per-worker posterior homogeneity as the discriminating signature",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_c04_position",
+      "why": "E24-S3-C04 conflict position early/middle/late where Bayes is position-invariant",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_c06_sycophancy",
+      "why": "E24-S3-C06 does an expressed user hope bend prediction against the record; hint-following rate on conflict items",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_e05_probing",
+      "why": "E24-S3-E05 active probing: pick the discriminating record over the uninformative one, exact answer known",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_v04_transfer",
+      "why": "E24-S3-V04 cross-domain profile transfer, exact ceiling first, within-domain cells beside cross",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_l04_geometry",
+      "why": "E24-S3-L04 does anything measurable separate trait from control number sequences; cross-seed train/test, surface then representation",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_e06_ordering",
+      "why": "E24-S3-E06 record-before-question vs after, where exact inference is order-blind",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_d04_levels",
+      "why": "E24-S3-D04 direction-vs-preference attribution on balanced episodes, with and without the world record",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_d06_prospective",
+      "why": "E24-S3-D06 forecasting a directed worker's fresh choice from the world record; truth generated accept-time first",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_s06_attribution",
+      "why": "E24-S3-S06 does naming the maker family help goal recovery, and does a wrong name hurt; conditional-reader interface",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_a05_mixtures",
+      "why": "E24-S3-A05 two-tendency blends read as top-2 of the single-tendency centroids, fit only on singles",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3_a07_causal",
+      "why": "E24-S3-A07 steering the tendency directions during forced-choice endings; sign pair + random control under capability tolerance",
+      "est_minutes": 60,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_l01_gen712",
+      "why": "E24-S3-L01/X1 six fresh data seeds (independent-information rung 1); the transmission null's n doubles if the theory needs it",
+      "est_minutes": 240,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_l01_train712",
+      "why": "E24-S3-L01/X1 students for seeds 7-12",
+      "est_minutes": 45,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_s02_data_c2",
+      "why": "E24-S3-S02/X1 second independent adapter cohort, fresh data seeds",
+      "est_minutes": 80,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_s02_eval_c2",
+      "why": "E24-S3-S02/X1 cohort-2 evaluation against the cohort-1 verdict",
+      "est_minutes": 50,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_v01x1",
+      "why": "E24-S3-V01/X1 blends + EIG strength leg (margin metric retired, L215); identifiability 29/30 proven at build",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_v04x4",
+      "why": "E24-S3-V04/X4 third-domain transfer (events bank, 144 anchors self-tested)",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_d01x1",
+      "why": "E24-S3-D01/X1 fresh worker-role permutation over the directed worlds; kills D01 if reach moves with assignment",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_xv4",
+      "why": "XV4 adversary on the transmission carrier: trivial scalars and length-matched representation",
+      "est_minutes": 25,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_s02x1_final",
+      "why": "E24-S3-S02/X1 finalizer: cohort-2 vs cohort-1 recovery comparison",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_s07x",
+      "why": "S07 refresh: the three expansion contrasts recomputed on each side of the frozen md5 split (the landed arms pooled both); analysis-only, the week's-end replicate step",
+      "est_minutes": 5,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_s05x3b",
+      "why": "R1 E24-S3-S05/X3b: the stake-free eraser rung with up to eight regeneration attempts per artifact so both families clear the survivor floor of 40; own side averaged over same-family readers (L236)",
+      "est_minutes": 180,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_a07b",
+      "why": "R5 E24-S3-A07/R5: held-out maker prediction (two maker folds) with congruent, incongruent, random, and zero steering at the A07 locus",
+      "est_minutes": 40,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_h04b",
+      "why": "R3 E24-S3-H04/R3: CoAuthor uptake at the individual-suggestion grain (within-set rank of the chosen suggestion; individually dismissed vs selected), session-clustered",
+      "est_minutes": 30,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s3x_xv4b",
+      "why": "R4 E24-S3-XV4/R4: the carrier comparison leave-one-seed-out over six seeds (twelve decisions), all matched sequences, exact within-pair swap null",
+      "est_minutes": 20,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s5_b03_fixed_smollm_scenes2",
+      "why": "the bridge's fourth cell under fixed order: the second family on the second domain (L283)",
+      "est_minutes": 4,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s5_cross_contract",
+      "why": "design 1 against design 2, card by card, once the second contract closes",
+      "est_minutes": 1,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s5_p02_echo",
+      "why": "TODO (o): the echo rule, a second turn, the genuine population against the 23-order blind rate (L304)",
+      "est_minutes": 12,
+      "status": "SKIPPED (already done)"
+    },
+    {
+      "name": "s5_r01_archaic",
+      "why": "TODO (l2): the R01 ease cross with an archaic rendering, harder by the validated ruler but not visually deviant; difficulty against visual anomaly (L311)",
+      "est_minutes": 12,
+      "status": "DONE",
+      "log": "results\\s5_r01_archaic.log",
+      "minutes": 6.5
     }
   ],
   "shard": "1/2",
-  "finished": "2026-08-23 07:45",
+  "finished": "2026-09-01 14:50",
   "failed": []
 }

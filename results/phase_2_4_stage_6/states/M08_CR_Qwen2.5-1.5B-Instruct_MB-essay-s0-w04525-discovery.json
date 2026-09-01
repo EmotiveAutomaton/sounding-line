@@ -1,0 +1,104 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w04525|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach seems driven by prioritizing and revising content within each section based on feedback or changes from previous drafts. This iterative process ensures that only relevant updates "
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.6255186527388361,
+   "revise:sec2:s2.2": 0.06731711297630531,
+   "revise:sec1:s1.2": 0.07470754940279861,
+   "check:sec2:s2.1": 0.04082989294346832,
+   "check:sec3:s3.1": 0.036790800100624715,
+   "consult:sec1:src": 0.0701812477997721,
+   "fix:sec1:urgent": 0.08465474403819477
+  },
+  "next_edit_type": {
+   "write": 0.6255186527388362,
+   "revise": 0.14202466237910394,
+   "check": 0.07762069304409305,
+   "consult": 0.07018124779977211,
+   "fix": 0.08465474403819478
+  },
+  "next_section": {
+   "sec1": 0.8550621939796017,
+   "sec2": 0.10814700591977365,
+   "sec3": 0.03679080010062472
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5904327359123762
+ },
+ "uncertainty": {
+  "posterior_weight": 0.4771391758949409,
+  "abstain": false
+ }
+}

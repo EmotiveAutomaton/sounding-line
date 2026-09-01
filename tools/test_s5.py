@@ -17,6 +17,7 @@ CPU only; the intervention fixture uses pythia-410m in float32.
      restarts and waits are recorded
  12  no curator packet at any other path; none before closure
  13  the four lanes allocate and the transfer lane resolves to its own identity block
+ 14-19 added 2026-08-29/30 (the second contract's repairs; the receipts' rulers and echo rule)
 """
 
 from __future__ import annotations
@@ -342,6 +343,36 @@ def main() -> int:
         finally:
             os.environ.pop("S5_CELL", None)
     check("18 the twin-abstention rule and the integrity runners' cell override", t18)
+
+    def t19():
+        # 2026-08-30 receipts: the ease rulers order a known-answer rendering as harder (the mean
+        # ruler cannot), the validation can fail, and the echo rule declares its population
+        import os
+        added = [k for k in ("S5_DESIGN", "S5_STAGE", "S5_ROOT") if k not in os.environ]
+        try:
+            from runners import s5_receipts as R
+            from runners.s5_ease_ruler import validate
+            from runners.s5_p02_echo import blind_rate_excluding_echo, is_echo
+            plain = [("It", -1.0), (" chose", -2.0), (" oak", -3.0)]
+            dotted = [("It", -1.0), (" \u00b7", -0.1), (" chose", -2.0), (" \u00b7", -0.1), (" oak", -3.0)]
+            a, b = R.rulers(plain), R.rulers(dotted)
+            assert b["mean_token_logp"] > a["mean_token_logp"], "the mean ruler rates the dotted text easier (L301)"
+            assert b["total_logp"] < a["total_logp"] and b["neg_token_count"] < a["neg_token_count"]
+            assert abs(b["content_total_logp"] - a["content_total_logp"]) < 1e-9, "content tokens unchanged by filler"
+            names = ("stilted", "stilted2", "stilted3", "stilted4", "stilted5")
+            good = {"r": {k: {ru: {"harder_fraction": 1.0, "mean_diff": -1.0} for ru in R.RULER_NAMES} for k in names}}
+            v = validate(good)
+            assert v["realized"] and v["ruler"] == "content_total_logp"
+            bad = {"r": {k: {ru: {"harder_fraction": 0.5, "mean_diff": 0.0} for ru in R.RULER_NAMES} for k in names}}
+            v = validate(bad)
+            assert not v["realized"] and v["passing"] == [], "the validation can fail"
+            assert is_echo([1, 2, 3, 4]) and not is_echo([2, 1, 3, 4]) and not is_echo(None)
+            assert abs(blind_rate_excluding_echo([[1, 2, 3, 4], [2, 1, 3, 4], [1, 2, 4, 3], [2, 1, 4, 3]]) - 3 / 23) < 1e-9
+            assert abs(blind_rate_excluding_echo([[3, 4, 1, 2], [4, 3, 1, 2], [3, 4, 2, 1], [4, 3, 2, 1]]) - 4 / 23) < 1e-9
+        finally:
+            for k in added:
+                os.environ.pop(k, None)
+    check("19 the ease rulers and their validation can fail; the echo rule declares its population", t19)
 
     print(f"\n{len(fails)} failures")
     for f in fails:

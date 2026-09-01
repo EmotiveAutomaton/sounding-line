@@ -1,0 +1,55 @@
+{
+ "card": "B03",
+ "lane": "discovery",
+ "written_at": "2026-08-30T17:06:43",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "ledger": {
+  "written_at": "2026-08-30T17:06:43",
+  "v14_coverage": {
+   "resolved": 62,
+   "total": 64
+  },
+  "receipts": [
+   {
+    "file": "COVERAGE.json",
+    "sha": "1af8a72516bdcb6f",
+    "read_only": true
+   },
+   {
+    "file": "CLAIM_LEDGER.json",
+    "sha": "a1ffa64c00d425fa",
+    "read_only": true
+   },
+   {
+    "file": "CONSTRUCTION_IDENTITIES.json",
+    "sha": "56e33d3724988915",
+    "read_only": true
+   }
+  ],
+  "transferable_when_landed": [
+   {
+    "ruler": "V14 joint-reconstruction exact posteriors",
+    "condition": "landed receipt + final verdict + source hash",
+    "status": "candidate"
+   },
+   {
+    "ruler": "V14 route-reliability constructions",
+    "condition": "same",
+    "status": "candidate"
+   },
+   {
+    "ruler": "V14 foraging generators",
+    "condition": "same",
+    "status": "candidate"
+   }
+  ],
+  "feedback_to_ghost": "context only; no V15 is opened by any Stage-6 result (§18.30)"
+ }
+}

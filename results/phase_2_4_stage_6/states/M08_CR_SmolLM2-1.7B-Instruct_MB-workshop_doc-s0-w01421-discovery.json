@@ -1,0 +1,108 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w01421|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach to handling concerns was driven by a focus on thoroughness and attention to detail, as evident in their meticulous reworking of \"s1.1\" and \"s1.2"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.04681728064697459,
+   "write:sec3:s3.2": 0.04329890644436444,
+   "revise:sec4:s4.1": 0.05473494640387253,
+   "revise:sec3:s3.1": 0.05918258813949191,
+   "check:sec3:s3.1": 0.06706265819875633,
+   "check:sec4:s4.1": 0.06202281984624378,
+   "consult:sec1:src": 0.11407742441035802,
+   "cite:sec4:ref": 0.5528033759099384
+  },
+  "next_edit_type": {
+   "write": 0.09011618709133903,
+   "revise": 0.11391753454336445,
+   "check": 0.12908547804500012,
+   "consult": 0.11407742441035802,
+   "cite": 0.5528033759099384
+  },
+  "next_section": {
+   "sec2": 0.04681728064697459,
+   "sec3": 0.1695441527826127,
+   "sec4": 0.6695611421600548,
+   "sec1": 0.11407742441035802
+  },
+  "changed_context": {
+   "finish_quietly": 0.24825380588960336,
+   "expand_scope": 0.19334025842727964,
+   "recheck_sources": 0.33932272093070476,
+   "polish_wording": 0.21908321475241235
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5076453857656595
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3209675834121753,
+  "abstain": false
+ }
+}

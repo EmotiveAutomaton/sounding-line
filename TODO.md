@@ -68,12 +68,57 @@ position gate stricter than its Stage-4 band). Predicted in advance from the Sta
 the model-choice cards (R01, R04, F02) are likely void or null; their fail-closed rulers are
 the deliverable. When the scheduler exhausts, the wrapper chains into the general queue.
 Landings write through internally as they come; one final packet, then the synthesis.
+**STAGE 6 (2026-08-30, his order: build front to back, continuous gear 2 through the week).** LAUNCHED
+15:39 (the pilot started the immutable 168-hour clock; deadline 2026-09-06 15:39). BUILT:
+the full 104-card, 24-attack contextual maker-state program (registry Stage-6 section for the build log
+and deviations; `runners/stage6/`; 21 guard tests green). RUNS: `run_stage6.sh` — the discarded pilot
+starts the immutable 168-hour clock; integrity block, scientific lock, tournament, tracks, records,
+attacks, hour-144 confirmation freeze, the one packet after hour 168. OPEN ON HIS WORD: none for the
+launch (he ordered it). T03 closed NOT_RUN on its predeclared RESOURCE_BLOCKED disposition at the
+scientific lock (no local corpus; L317). Running state (2026-08-30 17:36, hour 2): discovery, the
+records trunk, and the attack wave are landed and written through as L315–L317; V06/V11/V12/V14
+re-run under the differentiated specs and B01/B02/B04 wait for the hour-144 freeze (the three
+runtime defects and their repairs: the registry's Stage-6 defect log); P10's realizer-ablation
+re-run went active at the restart; the nine-rung ladder resumes at M08/x1. The four V re-runs LANDED DISTINCT (L318) and the ladder's first pass is written through (L319:
+records and capability boundaries HOLD at scale; breadth holds at 4536 rows; no sign flips). Four
+08-31 infrastructure defects repaired on the clock (one-cell-per-rung admission, expansion-contrast
+pairing, P10 goal-weight completion, reset path for expansion cells — registry defect log); P10 and
+the three VOID contrast cells re-run repaired. P10 landed DIFFERENTIATED (L320) and all three reset contrast cells confirm at fortyfold (L320,
+L321: M08/x1 −0.071, M08/x2 −0.067, M04/x8 −0.021; all perm values ledgered). The rung-one refill landed through V14/x1 (L322: the flag CLOSED, the −0.3 regime representative;
+C03/x1 +0.45 and C11/x1 valid null at 3840; M02/x1 +0.88 at 10240). Instrument note (v-real): the
+collapsed-spec V run realized every unit where the differentiated re-runs leave 23 to 29 percent
+of value worlds unrealized; mechanism unexplained, superseded, low priority. Rung one CLOSED (L323: A10/x1 +0.79; F11/x1 at the marginal with a hidden-goal attractor; T01/x1
+and T04/x1 repeat the records boundary, T01/x1 an offset-inert duplicate of x4 by construction).
+Rungs two and three landed (L324: the paraphrase asymmetry holds at scale, TV 0.000 against 0.470
+for the realizer and 0.168 against 0.332 for the label posterior; the ablation ordering replicates
+on fresh worlds; P10 and I08 code their unit counts so their multipliers were inert). PACE: the
+locked ladder exhausts near hour 45 against a 158-hour forecast; by rule the run then freezes,
+confirms, closes SHORT, and the packet waits for `scheduler.py final-packet` after hour 168 (a
+queued packet-waiter stage does that). Gear two is loaded behind the close (2026-09-01): the (l2) archaic cross, the (m2)
+equal-length construction, and the packet waiter are queued as produces-guarded stages. Rungs four to seven landed (L325: A12 holds +0.28; A13's discovery separation DIES at scale,
+−0.03 on 1248 fresh units against the 48-world +0.67; V06 tightens just over its band; F02, F03,
+and F09 named as one statistic under three questions; records duplicates as predicted). CLOSED SHORT BY RULE 2026-09-01 14:43 at hour 47.1 (L326): 160 cells complete; confirmations
++0.85 and +0.23 on untouched lineages, B01/x9 +0.89 at 3584; routing reads 'a published scaffold
+wins'; SHORT_RUN and RUNTIME written; the reporter refused the early packet; the chain launched
+the general queue; both receipts landed within the hour (L327). THE PACKET WAS TAKEN EARLY on
+his ruling (2026-09-01 15:17, L328): validation clean, the synthesis written, the waiter
+cancelled; staged, committed, and pushed on his order the same day. His read is the open item.
+Ordered next (same transcript): BUILT AND QUEUED 2026-09-01, gear two relaunched
+(`runners/s6_consolidation.py` writing results/phase_2_4_aux/S6T1_CONSOLIDATION.json;
+`runners/s5_conf_series.py` writing the stage-5r post CONF_SERIES.json); their landings write
+through as they come; the freeze fires at hour 144 and not before; the packet only after hour 168. Opened by the
+2026-08-31 update errata: (s6-t1) consolidation-map worlds — attention specified INDEPENDENTLY
+of the resulting expertise (the K-update line's non-circularity requirement), a lossy
+consolidation transform with interference, and recoverability asked of the exact layer before
+any reader; BUILT AND QUEUED 2026-09-01 on his order, the design-only note superseded
+(runners/s6_consolidation.py, exact layer first).
+
 Landed so far: the reader gate admitted Qwen2.5-1.5B only (L256; SmolLM2 0.104 on the 0.10 position
 band, the 3B 0.33 on the cheap option), so every Stage-5 card is single-reader; the bridge on SmolLM2
 as the steered checkpoint showed no congruent benefit with both controls negative and its decode at
 chance (L257). Opened: (a) DONE 2026-08-29 (L282: SmolLM2 admitted at 96, the 3B refused on a stable per-option
-failure); (b) a same-family second checkpoint for the bridge
-once one passes the gate; (c) a direction-transfer check (directions fit on SmolLM2-made artifacts,
+failure); (b) BLOCKED 2026-08-30 (L313: no local checkpoint passes the reader gate; the 3B's failure is stable and
+there is no other Qwen instruct checkpoint here); a candidate needs a download or gear 3, his call; (c) a direction-transfer check (directions fit on SmolLM2-made artifacts,
 tested within family) to separate representation-not-used from directions-not-transferring.
 Then: the anchor's congruent effect held on a second artifact domain in both folds but the random
 direction was not quiet (L258; B03's arms decide whether that is dose); the next-stroke predictor fell
@@ -89,34 +134,45 @@ plan orders so the equifinality abstention ruler has worlds; (h) DONE (L290: the
 a prompt effect); (g) DONE (L290: 220 equifinal worlds, abstention 0.52).
 Then: J02 v1 died to option wording (L263): J04/J05 withdrawn, J02/v2, J04/v2, J05/v2 queued on the
 repaired question; the trajectories show no appropriate revision after a contradiction (L264).
-Opened: (i) the repair cells' results are read against the uniform floor and the exact ceiling,
-not only against each other, since the probe shows the reader using stated latents no better
-than none on the repaired question.
+Opened: (i) DONE (L278 reads every variant against the uniform floor of −1.39 and the exact ceiling of −1.04;
+the repair cells are under the floor).
 Then, the appraisal track (L265 to L269): the reader answers constants on the source world's legible
 factors, predicts no behavior, never abstains on twins, and every influence warning is a criterion
-shift. Opened: (j) a source-world register gate (calm/alarmed, act/inform) for any reader before the
-track is re-run, and the re-run on a reader that passes it; (k) DONE (design 2, L296: 1,024 pairs); (u) DONE 2026-08-29 (the near-equal clause removed; abstention is unknown mass; guarded by test 18).
+shift. Opened: (j) BLOCKED 2026-08-30 (L313: six local checkpoints from four families, none reads the calm-against-alarmed
+half in both domains; the 3B reads the action half at 0.96); the re-run waits on a reader this machine does not
+hold, a gear-3 question for him; (k) DONE (design 2, L296: 1,024 pairs); (u) DONE 2026-08-29 (the near-equal clause removed; abstention is unknown mass; guarded by test 18).
 Then: R01's support over random is a fluency policy (always-easiest beats the reader; L270). Opened:
-(l) STILL OPEN after design 2 (L300): rendering the descriptions per world left the note's description
-the most fluent in every world; ease must be varied within a route type (the same route's description
-plain or stilted, with the reader's token probabilities checked to flip the ordering) before the
-information-against-ease question is asked.
+(l) DONE 2026-08-30 (L311: the harder-rendered description is taken MORE, −0.25 of probability for the plain one on
+both readers; the fluency policy is dead; anomaly attraction replaces it). Opened: (l2) LANDED 2026-09-01 (L327: difficulty attracts, −0.24 pooled, not visual anomaly): the same cross with the
+archaic rendering (harder by the ruler, not visually deviant) to separate difficulty from anomaly; and the anomaly
+bias is a confound for every menu whose options differ in surface form (the J-track candidates, the source-gate
+options), to be checked by a surface-matched audit of those menus. The build: each world asked three times, both
+descriptions plain, the record's in the validated hard rendering with the note's plain, and the reverse; the
+rendering chosen per reader by the margin with which it flips the record/note ease order (a description's ease is
+a per-reader constant); the within-world contrast is the probability of taking the record when its own
+description is plain minus when it is hard; a fluency policy moves it, an information policy does not.
 Then: R02's stilted rendering is the more fluent text by the reader's token probabilities, so its ease
-arm was unrealized; stated reliance rises with the number of records (L271). Opened: (m) NOW A RULER ITEM (L301): the mean per-token log probability rewards filler tokens, rating
-capitals and mid-dots as easier than plain; ease needs a measure validated on those known-answer
-renderings (total content-token log probability, token count, or a reading-time proxy) before the
-R02 contrast is re-run.
+arm was unrealized; stated reliance rises with the number of records (L271). Opened: (m) RULER VALIDATED 2026-08-30 (L310: the total log probability and the token count pass at 64 of 64 on both
+readers; the mean fails every sample; the content-only total fails the mid-dots on Qwen); R02 re-run under it DONE
+(L314: ease never draws reliance on either reader, capitals relied on slightly more by Qwen; the quantity effect is
+Qwen's alone, SmolLM2 flat). Opened: (m2) LANDED 2026-09-01 (L327: information +0.075, length −0.003): an information-at-equal-length construction to separate quantity from
+information in stated reliance (design item). The build: four rulers
+(content-token total, total log probability, token count, and L301's mean) validated on the known-answer
+renderings at 0.95 of 64 samples on both readers; the passing ruler and the rendering it rates hardest realize
+the ease arm, and R02's interaction is asked again on 256 worlds per reader; VOID if no ruler passes.
 Then: demonstrations are followed to the letter in every world, familiarization not expertise (L272);
 the forensic purchase is cost-blind (L273). Opened: (n) DONE (design 2, L303: the step pays in a third of worlds; the readers buy at one rate
 everywhere and realize nothing from what they buy).
 Then: enactable drawing orders from shuffled strokes at 37 percent validity, determinacy claimed on
 equifinal artifacts (L274); foraging for the familiar, a coin flip's gain, no hope bias (L275 to L277).
-Opened: (o) REVISED (L304): the comma format parses everything and two thirds of replies echo the
-listing order; an echo counts as no proposal, and a second turn asks again; the genuine third is the
-measured population.
+Opened: (o) DONE 2026-08-30 (L312: genuine first-turn proposals enactable at 0.82 against 0.17; a second turn
+recovers Qwen at half the quality and SmolLM2 not at all; the attempt rate is the reader's). The build: an echo of
+the listing is no proposal, one
+second turn shows the reader its echo and asks again, the genuine population is scored against the 23-order blind
+rate, the two turns reported apart; 240 drawings per reader.
 Then: J02/v2 lands every reader under uniform with the oracle no better than the recurrent reader
-(L278). Opened: (p) a latent-to-choice gate (true latents stated, the choice predicted above uniform)
-for any reader before the joint track is asked again.
+(L278). Opened: (p) BLOCKED 2026-08-30 (L313: no local checkpoint maps stated latents onto the choice above uniform;
+the 3B inverts it at −3.94 against −1.39); the joint track's third run waits on a reader this machine does not hold.
 Then: the opened missing-goal hypothesis is never taken; the conflict goes undetected (L279); the
 inferred preference predicts the next episode worse than the topic prior (L280). Opened: (q) DONE (design 2, L293: the ceiling raised to 0.68 above uniform; the readers still lose to the
 topic prior).
@@ -127,9 +183,10 @@ verdicts stay as landed, the fixed-order receipts are the standing numbers (L283
 appraisal cards ran; on the repaired text the action question reaches 0.88 / 0.75 for Qwen (from 0.25 /
 0.34) and the arousal half is the readers' floor.
 (v) DONE 2026-08-29 (the integrity runners' card directory honors S5_CELL; guarded by test 18).
-(r) HIS CALL: a second-reader re-run of the joint, appraisal, route, and foraging tracks on
-SmolLM2 (admitted at 96 items, L282) under a new contract, with the source-world register gate (j)
-and the latent-to-choice gate (p) run first; about one and a half GPU-hours at today's rates.
+(r) RESOLVED BY THE SECOND CONTRACT for SmolLM2 (it ran every track, L284 to L308, gate-failed on the joint and
+appraisal tracks); what remains his call is a third run of those two tracks on a reader the gate census (j)/(p)
+admits; the census (L313) admits none, so the question is a gear-3 question: whether to gate a 7B-class reader on
+the three gates before any third run (recommended: not yet).
 
 **Stage 4 (context, appraisal, selective uptake) is CLOSED: RUN_TO_EMPTY at 19:33 on 2026-08-28,
 21.2 hours elapsed, 14.95 GPU hours held, 307 of 322 expected cells complete, both eligible
@@ -186,7 +243,7 @@ disk, which the closure block and the packet read, carry the repaired ones.
 
 **Stage 3 (E24-S3, the week-long inversion forest) is PROGRAM-EXHAUSTED (2026-08-27 05:07, validator-confirmed).** 73 cells: 61 LANDED, 11 INSTRUMENT_FAILED (all informative), 1 RESOURCE_BLOCKED (H07, no OpenReview mirror); 72 of 48 required valid attempts; 0 GPU-hours remaining. Every result is written through as L171-L235 with theory rows, the tools ledger, five new method lessons, and the multiplicity audit rerun; the theory-citation completeness pass of 08-27 closed every filing gap it found (L178, L204, L210-L213, L218, L221 added to their rows; L184 retracted by its adversary, L226). The queue drained inside one second-gear window and the until-empty chain ended on its own; gear is idle. Build and record committed and pushed 2026-08-27 (6feda02, 858f83a); the 08-27 write-through goes up in the next commit. The reserve-quarter refresh landed (L235: all three expansion contrasts hold on the untouched quarter). Remaining before his assessment: the final two-pass curator packet; then the program waits on his read. H08 protocol and V07 case-study spec stand LANDED as documents (prepare-only).
 
-**RE-RUNS OWED BY THE STAGE-4 THEORY ERRATA (2026-08-28, `docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md`).**
+**RE-RUNS OWED BY THE STAGE-4 THEORY ERRATA (2026-08-28; the errata was applied and its file removed with the rest 2026-08-30 — the theory owners are the record).**
 The errata's audit corrections are applied to the theory files, which means six claims are now
 stated at the strength their measurements actually support. Five of them are recoverable by
 re-running with the defect fixed; each needs its runner arm written or corrected first, and none

@@ -1,0 +1,100 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03568|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach to handling concerns was driven by a focus on organization, thoroughness, and revisiting and revising previous work."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.016480877503645474,
+   "write:sec1:s1.2": 0.016480877503645474,
+   "write:sec2:s2.3": 0.013950761616996744,
+   "write:sec3:s3.2": 0.011809064757093162,
+   "revise:sec3:s3.1": 0.03547639111784255,
+   "revise:sec3:s3.3": 0.03547639111784255,
+   "check:sec3:s3.1": 0.870325636382934
+  },
+  "next_edit_type": {
+   "write": 0.05872158138138085,
+   "revise": 0.0709527822356851,
+   "check": 0.870325636382934
+  },
+  "next_section": {
+   "sec1": 0.03296175500729095,
+   "sec2": 0.013950761616996744,
+   "sec3": 0.9530874833757123
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.42255646436882116
+ },
+ "uncertainty": {
+  "posterior_weight": 0.2896814833423656,
+  "abstain": false
+ }
+}

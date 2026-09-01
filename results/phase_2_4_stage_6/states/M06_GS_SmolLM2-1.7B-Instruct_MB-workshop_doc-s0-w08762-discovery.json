@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|workshop_doc|s0|w08762|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 12,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.1030191393118193,
+   "write:sec1:s1.3": 0.1030191393118193,
+   "write:sec2:s2.2": 0.08720381874141528,
+   "write:sec2:s2.3": 0.08720381874141528,
+   "write:sec3:s3.3": 0.07381643890528167,
+   "check:sec1:s1.1": 0.15368649635511872,
+   "check:sec2:s2.1": 0.130092810527076,
+   "consult:sec1:src": 0.1461911174814107,
+   "cite:sec3:ref": 0.11576722062464381
+  },
+  "next_edit_type": {
+   "write": 0.45426235501175083,
+   "check": 0.2837793068821947,
+   "consult": 0.1461911174814107,
+   "cite": 0.11576722062464381
+  },
+  "next_section": {
+   "sec1": 0.505915892460168,
+   "sec2": 0.30450044800990655,
+   "sec3": 0.18958365952992548
+  },
+  "changed_context": {
+   "finish_quietly": 0.24167595100157666,
+   "expand_scope": 0.16200023460108376,
+   "recheck_sources": 0.39845628103298136,
+   "polish_wording": 0.1978675333643583
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.46423144018828244
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "focal_habit|MB|essay|s0|w09202|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "pursues one concern while old routines keep steering some choices"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "focal_habit",
+  "controller": "focal_habit"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {
+   "revise": 1.0,
+   "write": 0.4
+  }
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec3:s3.2": 0.027616213234171613,
+   "write:sec4:s4.2": 0.02437122264027216,
+   "write:sec4:s4.3": 0.02437122264027216,
+   "revise:sec2:s2.3": 0.12690046465160593,
+   "revise:sec3:s3.3": 0.11198926699158815,
+   "check:sec1:s1.1": 0.039189272015644566,
+   "check:sec2:s2.1": 0.034584411168351495,
+   "check:sec3:s3.1": 0.030520635733782282,
+   "check:sec4:s4.1": 0.026934366499975583,
+   "consult:sec1:src": 0.07140750931332362,
+   "cite:sec4:ref": 0.44292614309536793,
+   "fix:sec1:urgent": 0.039189272015644566
+  },
+  "next_edit_type": {
+   "write": 0.07635865851471593,
+   "revise": 0.23888973164319408,
+   "check": 0.13122868541775393,
+   "consult": 0.07140750931332362,
+   "cite": 0.44292614309536793,
+   "fix": 0.039189272015644566
+  },
+  "next_section": {
+   "sec3": 0.17012611595954202,
+   "sec4": 0.5186029548758878,
+   "sec2": 0.16148487581995738,
+   "sec1": 0.14978605334461273
+  },
+  "changed_context": {
+   "finish_quietly": 0.19792987774900608,
+   "expand_scope": 0.13267636476454223,
+   "recheck_sources": 0.32633119955186235,
+   "polish_wording": 0.3430625579345894
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5449852821341605
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

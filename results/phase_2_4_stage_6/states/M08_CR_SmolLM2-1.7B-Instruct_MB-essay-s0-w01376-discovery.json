@@ -1,0 +1,103 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w01376|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on continuous improvement and reworking, with a focus on refining and revising their work rather than solely on completing the initial draft."
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec2:s2.1": 0.022629778534284942,
+   "revise:sec1:s1.3": 0.02673392451232099,
+   "check:sec1:s1.1": 0.03265288913579464,
+   "check:sec2:s2.1": 0.027640073918329428,
+   "check:sec3:s3.1": 0.023396817446491573,
+   "consult:sec1:src": 0.059497443181398386,
+   "cite:sec3:ref": 0.7747961841355855,
+   "fix:sec1:urgent": 0.03265288913579464
+  },
+  "next_edit_type": {
+   "revise": 0.049363703046605936,
+   "check": 0.08368978050061564,
+   "consult": 0.059497443181398386,
+   "cite": 0.7747961841355855,
+   "fix": 0.03265288913579464
+  },
+  "next_section": {
+   "sec2": 0.050269852452614366,
+   "sec1": 0.15153714596530865,
+   "sec3": 0.7981930015820771
+  },
+  "changed_context": {
+   "finish_quietly": 0.24167595100157666,
+   "expand_scope": 0.16200023460108376,
+   "recheck_sources": 0.39845628103298136,
+   "polish_wording": 0.1978675333643583
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.40388510988340265
+ },
+ "uncertainty": {
+  "posterior_weight": 0.24919895513728893,
+  "abstain": false
+ }
+}

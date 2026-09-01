@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02642|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by prioritizing urgency and ensuring completeness across all sections while addressing any outstanding issues or corrections."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.3": 0.009226838387461992,
+   "write:sec2:s2.1": 0.007810350073505764,
+   "write:sec3:s3.1": 0.006611318602220692,
+   "revise:sec3:s3.2": 0.019861498718276437,
+   "check:sec1:s1.1": 0.6800160856554605,
+   "consult:sec1:src": 0.27647390856307463
+  },
+  "next_edit_type": {
+   "write": 0.023648507063188447,
+   "revise": 0.019861498718276437,
+   "check": 0.6800160856554605,
+   "consult": 0.27647390856307463
+  },
+  "next_section": {
+   "sec1": 0.965716832605997,
+   "sec2": 0.007810350073505764,
+   "sec3": 0.026472817320497128
+  },
+  "changed_context": {
+   "finish_quietly": 0.18052990059364782,
+   "expand_scope": 0.5993803780209169,
+   "recheck_sources": 0.09907691010869184,
+   "polish_wording": 0.1210128112767434
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5590854954303026
+ },
+ "uncertainty": {
+  "posterior_weight": 0.6244364931898259,
+  "abstain": false
+ }
+}

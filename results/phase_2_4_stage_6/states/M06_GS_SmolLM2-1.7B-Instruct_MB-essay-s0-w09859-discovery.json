@@ -1,0 +1,100 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|essay|s0|w09859|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.12015079584888323,
+   "write:sec2:s2.2": 0.10826489107202966,
+   "write:sec2:s2.3": 0.10826489107202966,
+   "write:sec3:s3.2": 0.09755479816863315,
+   "revise:sec2:s2.1": 0.14798056081429836,
+   "check:sec2:s2.1": 0.13901487187141584,
+   "consult:sec1:src": 0.14953008139803425,
+   "cite:sec3:ref": 0.12923910975467584
+  },
+  "next_edit_type": {
+   "write": 0.43423537616157576,
+   "revise": 0.14798056081429836,
+   "check": 0.13901487187141584,
+   "consult": 0.14953008139803425,
+   "cite": 0.12923910975467584
+  },
+  "next_section": {
+   "sec1": 0.26968087724691747,
+   "sec2": 0.5035252148297735,
+   "sec3": 0.226793907923309
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5276101701724147
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

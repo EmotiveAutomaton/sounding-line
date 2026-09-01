@@ -1,0 +1,96 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w02707|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's primary concern was to ensure that all sections were completed before moving on to the next section, which is why they prioritized finishing each section before revising or adding content "
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.27226372643939306,
+   "write:sec2:s2.1": 0.24533006608544866,
+   "write:sec3:s3.1": 0.2210608152345568,
+   "write:sec3:s3.2": 0.2210608152345568,
+   "check:sec1:s1.1": 0.019722718192509536,
+   "cite:sec3:ref": 0.020561858813535165
+  },
+  "next_edit_type": {
+   "write": 0.9597154229939553,
+   "check": 0.019722718192509536,
+   "cite": 0.020561858813535165
+  },
+  "next_section": {
+   "sec1": 0.2919864446319026,
+   "sec2": 0.24533006608544866,
+   "sec3": 0.4626834892826488
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5858032350422508
+ },
+ "uncertainty": {
+  "posterior_weight": 0.7310826649052529,
+  "abstain": false
+ }
+}

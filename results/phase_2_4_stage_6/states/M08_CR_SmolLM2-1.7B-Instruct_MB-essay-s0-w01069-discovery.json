@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w01069|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was working in a linear, sequential manner, with each section building upon the previous one, driven by a focus on organization and sequential progression."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec1:s1.2": 0.2707624708627492,
+   "revise:sec2:s2.2": 0.24397732205800962,
+   "revise:sec1:s1.1": 0.2707624708627492,
+   "check:sec1:s1.1": 0.04152276974200781,
+   "check:sec2:s2.1": 0.0374151341351205,
+   "check:sec3:s3.1": 0.033713845946379974,
+   "consult:sec1:src": 0.028538154469388163,
+   "cite:sec3:ref": 0.026256369623389435,
+   "fix:sec1:urgent": 0.04705146230020618
+  },
+  "next_edit_type": {
+   "revise": 0.785502263783508,
+   "check": 0.11265174982350828,
+   "consult": 0.028538154469388163,
+   "cite": 0.026256369623389435,
+   "fix": 0.04705146230020618
+  },
+  "next_section": {
+   "sec1": 0.6586373282371005,
+   "sec2": 0.28139245619313014,
+   "sec3": 0.059970215569769406
+  },
+  "changed_context": {
+   "finish_quietly": 0.23043860150943757,
+   "expand_scope": 0.1233448950298599,
+   "recheck_sources": 0.15837798023702163,
+   "polish_wording": 0.48783852322368093
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.3929038256671884
+ },
+ "uncertainty": {
+  "posterior_weight": 0.443346584792977,
+  "abstain": false
+ }
+}

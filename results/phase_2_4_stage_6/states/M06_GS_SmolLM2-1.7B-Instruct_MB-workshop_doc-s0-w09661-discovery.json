@@ -1,0 +1,109 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "concurrent|MB|workshop_doc|s0|w09661|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "weighs several concerns at once in every choice"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "concurrent",
+  "controller": "concurrent"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec4:s4.1": 0.07401715844177789,
+   "revise:sec1:s1.2": 0.1278901813118137,
+   "revise:sec2:s2.2": 0.11827908240823616,
+   "revise:sec3:s3.1": 0.10939026899355891,
+   "revise:sec4:s4.2": 0.10116946045609436,
+   "check:sec1:s1.1": 0.12014170692990166,
+   "check:sec3:s3.1": 0.10276264763722917,
+   "consult:sec1:src": 0.11644533520317758,
+   "fix:sec1:urgent": 0.12990415861821056
+  },
+  "next_edit_type": {
+   "write": 0.07401715844177789,
+   "revise": 0.45672899316970317,
+   "check": 0.2229043545671308,
+   "consult": 0.11644533520317758,
+   "fix": 0.12990415861821056
+  },
+  "next_section": {
+   "sec4": 0.17518661889787226,
+   "sec1": 0.4943813820631035,
+   "sec2": 0.11827908240823617,
+   "sec3": 0.2121529166307881
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.3667908685047611
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

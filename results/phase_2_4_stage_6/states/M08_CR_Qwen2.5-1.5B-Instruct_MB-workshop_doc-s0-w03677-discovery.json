@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03677|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach to organizing and drafting the workshop document was driven by prioritizing completed sections over those that were still under revision or draft status. This strategy likely aime"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.03407306955633077,
+   "write:sec2:s2.2": 0.03407306955633077,
+   "revise:sec1:s1.2": 0.40653661139265174,
+   "revise:sec3:s3.2": 0.33008185083061026,
+   "check:sec1:s1.1": 0.06234440856136968,
+   "check:sec3:s3.1": 0.05061969129024087,
+   "consult:sec1:src": 0.042848643596793495,
+   "cite:sec3:ref": 0.03942265521567237
+  },
+  "next_edit_type": {
+   "write": 0.06814613911266154,
+   "revise": 0.736618462223262,
+   "check": 0.11296409985161054,
+   "consult": 0.042848643596793495,
+   "cite": 0.03942265521567237
+  },
+  "next_section": {
+   "sec2": 0.06814613911266154,
+   "sec1": 0.511729663550815,
+   "sec3": 0.4201241973365235
+  },
+  "changed_context": {
+   "finish_quietly": 0.24825380588960336,
+   "expand_scope": 0.19334025842727964,
+   "recheck_sources": 0.33932272093070476,
+   "polish_wording": 0.21908321475241235
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.311716138797978
+ },
+ "uncertainty": {
+  "posterior_weight": 0.16885563759733346,
+  "abstain": false
+ }
+}

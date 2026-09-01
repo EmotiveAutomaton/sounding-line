@@ -1,0 +1,99 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w04033|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and organizing tasks based on their importance and relevance to the overall project goals. They likely used a structured approach like Agile or Scrum wh"
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.45607889073338137,
+   "write:sec3:s3.1": 0.37030702809849636,
+   "revise:sec2:s2.1": 0.049082332044262114,
+   "check:sec1:s1.1": 0.03303824403317707,
+   "check:sec2:s2.1": 0.029769939235040815,
+   "fix:sec1:urgent": 0.06172356585564231
+  },
+  "next_edit_type": {
+   "write": 0.8263859188318777,
+   "revise": 0.049082332044262114,
+   "check": 0.06280818326821788,
+   "fix": 0.06172356585564231
+  },
+  "next_section": {
+   "sec1": 0.5508407006222007,
+   "sec3": 0.37030702809849636,
+   "sec2": 0.07885227127930293
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.530684123787925
+ },
+ "uncertainty": {
+  "posterior_weight": 0.7567549202934694,
+  "abstain": false
+ }
+}

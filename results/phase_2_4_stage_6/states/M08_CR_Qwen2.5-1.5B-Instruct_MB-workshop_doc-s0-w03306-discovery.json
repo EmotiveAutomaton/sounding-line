@@ -1,0 +1,103 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w03306|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and revising content based on its relevance to the audience and the current state of the project."
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.013968546632281397,
+   "revise:sec1:s1.2": 0.02720701377975414,
+   "revise:sec3:s3.1": 0.019494677240406384,
+   "check:sec1:s1.1": 0.03323072167189346,
+   "check:sec3:s3.1": 0.023810852550874638,
+   "consult:sec1:src": 0.060550322708901386,
+   "cite:sec3:ref": 0.7885071437439951,
+   "fix:sec1:urgent": 0.03323072167189346
+  },
+  "next_edit_type": {
+   "write": 0.013968546632281397,
+   "revise": 0.04670169102016052,
+   "check": 0.0570415742227681,
+   "consult": 0.060550322708901386,
+   "cite": 0.7885071437439951,
+   "fix": 0.03323072167189346
+  },
+  "next_section": {
+   "sec2": 0.013968546632281397,
+   "sec1": 0.15421877983244245,
+   "sec3": 0.8318126735352761
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.37962240664961383
+ },
+ "uncertainty": {
+  "posterior_weight": 0.4840636003724087,
+  "abstain": false
+ }
+}

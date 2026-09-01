@@ -84,7 +84,8 @@ rules in `docs/theory/README.md`; the linter enforces the mechanical half.
 `docs/design/PHASE_2_4_REGISTRY.md` (which also carries the Phase 2.3 closure
 dispositions — the ratification closed the 2.3 Stage-1 gate; the audit-interface
 product is DEFERRED, not dropped). The Phase 2.4 theory errata is applied
-(`docs/design/PHASE_2_4_THEORY_ERRATA.md`): invertibility is reader-qualified three
+(2026-08-22; every errata file was removed 2026-08-30 on curator ruling, the theory owners
+now the record): invertibility is reader-qualified three
 ways (model / engineered human-shaped / human), similarity is a shortcut not a proof,
 27 is a soft ceiling never a count. Two lanes: confirmatory trunk G172-G180 (only
 route to verdicts, cards frozen before scoring) and the quarantined E24 discovery
@@ -337,6 +338,20 @@ survive the fair induction control on the two strong ladders (G76/L94).
 
 ## Queue / infrastructure state
 
+- **2026-08-30 15:39, STAGE 6 LAUNCHED: the one 168-hour clock started at the discarded pilot; deadline
+  2026-09-06 15:39.** Continuous gear 2 for the week; Ghost-governed CPU cap; the wrapper chains into the
+  general queue at close. Built the same day front to back:
+- **2026-08-30, Stage 6 built front to back on his order** (brief filed at
+  docs/design/PHASE_2_4_STAGE_6_CONTEXT.md; build log and deviations in the registry's Stage-6 section):
+  104 cards, 24 attacks, nine architecture arms, exact process worlds, the 168-hour clock, the Ghost
+  coexistence governor, 21 guard tests. Launch via `run_stage6.sh` (gear 2, continuous through the week;
+  the discarded pilot starts the one clock; CLOSED SHORT by rule 2026-09-01 at hour 47.1, the
+  locked ladder exhausted early with SHORT_RUN carrying the cause, 160 cells complete, both
+  frozen confirmations landing on untouched lineages at +0.85 and +0.23 with the seeds rung at
+  +0.89, L326; the one packet was taken EARLY on his ruling, 2026-09-01 15:17: validation clean, the
+  synthesis written, the waiter cancelled; his read is the open item). Earlier the same day: the five Stage-5 receipts ran to empty
+  (07:40 to 08:04) and are written through (L310 to L314); the Stage-5 open items that remain need a reader
+  this machine does not hold, a gear-3 question for him, or a design pass ((l2), (m2)).
 - **Two infra defects found and structurally fixed 2026-08-19 (LESSONS §5, both):** the GPU
   lock self-deadlocked a runner that acquired per arm (five hours of a live window; the lock
   is now reentrant by pid and runners acquire once per invocation), and shard ownership by
@@ -449,8 +464,8 @@ survive the fair induction control on the two strong ladders (G76/L94).
   Performed by hand instead, it found the T-track construction defect now recorded as TODO R7
   (`make_lesson_world` ignores its domain argument; 128 nominal T01 units are 31 distinct
   worlds). This is the project's named recurring death, a criterion that could not fire.
-- **Stage-4 theory errata APPLIED 2026-08-28** (`docs/design/PHASE_2_4_STAGE_4_THEORY_ERRATA.md`,
-  now the source record). Five small theory additions across the four owners, each carrying a
+- **Stage-4 theory errata APPLIED 2026-08-28** (folded into the four owners; the errata files
+  were removed 2026-08-30 on curator ruling — the canonical theory files are the record). Five small theory additions across the four owners, each carrying a
   reconstructed-speech attribution; eight evidence corrections to the Stage-3 record; six
   afterwords revised in the same edit. The corrections narrow how existing measurements may be
   read and retract none of the larger hypotheses. Where the working tree had moved past the

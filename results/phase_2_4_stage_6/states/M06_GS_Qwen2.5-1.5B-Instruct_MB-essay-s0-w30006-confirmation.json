@@ -1,0 +1,114 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "focal_habit|MB|essay|s0|w30006|confirmation",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "pursues one concern while old routines keep steering some choices"
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "focal_habit",
+  "controller": "focal_habit"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 11,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {
+   "revise": 1.0,
+   "write": 0.4
+  }
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10",
+   "step11"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.004319898290833714,
+   "write:sec3:s3.3": 0.00336434017169012,
+   "revise:sec3:s3.2": 0.18368674945647143,
+   "revise:sec1:s1.3": 0.23585845501086247,
+   "revise:sec4:s4.1": 0.16210298744116863,
+   "revise:sec2:s2.1": 0.2081443559954743,
+   "revise:sec3:s3.1": 0.18368674945647143,
+   "check:sec2:s2.1": 0.0046563499011232695,
+   "check:sec3:s3.1": 0.004109214365091373,
+   "check:sec4:s4.1": 0.003626368949249261,
+   "fix:sec1:urgent": 0.006444530961564045
+  },
+  "next_edit_type": {
+   "write": 0.007684238462523832,
+   "revise": 0.9734792973604481,
+   "check": 0.0123919332154639,
+   "fix": 0.006444530961564043
+  },
+  "next_section": {
+   "sec1": 0.24662288426326023,
+   "sec3": 0.37484705344972435,
+   "sec4": 0.1657293563904179,
+   "sec2": 0.21280070589659755
+  },
+  "changed_context": {
+   "finish_quietly": 0.11178956623841964,
+   "expand_scope": 0.041125083156587756,
+   "recheck_sources": 0.061351414745548616,
+   "polish_wording": 0.7857339358594441
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.48653048497783125
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

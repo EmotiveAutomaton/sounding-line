@@ -1,0 +1,102 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w01074|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and organizing tasks into distinct sections (sec1, sec2, sec3) to manage and sequence their work effectively, ensuring that each section is completed be"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.3": 0.013779057813868636,
+   "revise:sec2:s2.2": 0.02271782570793204,
+   "revise:sec3:s3.1": 0.01923022429101465,
+   "revise:sec2:s2.1": 0.02271782570793204,
+   "check:sec1:s1.1": 0.03277993388771137,
+   "check:sec2:s2.1": 0.0277476149790702,
+   "check:sec3:s3.1": 0.023487848989083987,
+   "consult:sec1:src": 0.059728933812356805,
+   "cite:sec3:ref": 0.7778107348110302
+  },
+  "next_edit_type": {
+   "write": 0.013779057813868636,
+   "revise": 0.06466587570687873,
+   "check": 0.08401539785586555,
+   "consult": 0.059728933812356805,
+   "cite": 0.7778107348110302
+  },
+  "next_section": {
+   "sec2": 0.08696232420880294,
+   "sec3": 0.8205288080911289,
+   "sec1": 0.09250886770006818
+  },
+  "changed_context": {
+   "finish_quietly": 0.18052990059364782,
+   "expand_scope": 0.5993803780209169,
+   "recheck_sources": 0.09907691010869184,
+   "polish_wording": 0.1210128112767434
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.42337186362971047
+ },
+ "uncertainty": {
+  "posterior_weight": 0.7614332207861866,
+  "abstain": false
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02679|discovery",
+ "artifact_context": {
+  "task": "the glaze recipe",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by addressing and resolving specific issues or concerns within each section, with updates and corrections being made sequentially based on priority and relevance."
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.4271562540905162,
+   "write:sec3:s3.1": 0.3848998668141223,
+   "revise:sec2:s2.3": 0.05101653933972344,
+   "revise:sec1:s1.1": 0.056617410708384684,
+   "revise:sec3:s3.2": 0.04596973357907569,
+   "check:sec1:s1.1": 0.03434019546817768
+  },
+  "next_edit_type": {
+   "write": 0.8120561209046385,
+   "revise": 0.15360368362718382,
+   "check": 0.03434019546817768
+  },
+  "next_section": {
+   "sec2": 0.47817279343023966,
+   "sec3": 0.430869600393198,
+   "sec1": 0.09095760617656237
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5088369604326171
+ },
+ "uncertainty": {
+  "posterior_weight": 0.7599469973220718,
+  "abstain": false
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w03126|discovery",
+ "artifact_context": {
+  "task": "the survey method",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach to revising and correcting drafts was driven by urgency and ensuring that all necessary changes were made promptly."
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 12,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10",
+   "step11",
+   "step12"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.018221529078413786,
+   "write:sec1:s1.3": 0.018221529078413786,
+   "write:sec3:s3.1": 0.014190941115027039,
+   "write:sec3:s3.3": 0.014190941115027039,
+   "write:sec4:s4.2": 0.012523461578771745,
+   "revise:sec4:s4.1": 0.020647697487716776,
+   "consult:sec1:src": 0.06686019592635088,
+   "cite:sec4:ref": 0.835143704620279
+  },
+  "next_edit_type": {
+   "write": 0.0773484019656534,
+   "revise": 0.020647697487716776,
+   "consult": 0.06686019592635088,
+   "cite": 0.835143704620279
+  },
+  "next_section": {
+   "sec1": 0.10330325408317845,
+   "sec3": 0.028381882230054077,
+   "sec4": 0.8683148636867675
+  },
+  "changed_context": {
+   "finish_quietly": 0.24167595100157666,
+   "expand_scope": 0.16200023460108376,
+   "recheck_sources": 0.39845628103298136,
+   "polish_wording": 0.1978675333643583
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5506881845440065
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3444599293285806,
+  "abstain": false
+ }
+}

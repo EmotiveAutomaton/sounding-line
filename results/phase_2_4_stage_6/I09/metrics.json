@@ -1,0 +1,40 @@
+{
+ "card": "I09",
+ "lane": "discovery",
+ "written_at": "2026-08-30T15:40:49",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "checks": {
+  "no_information_near_uniform": true,
+  "full_order_concentrates": true,
+  "twins_flat_before_event": true,
+  "twins_diverge_after": true,
+  "equifinal_exactly_flat": true
+ },
+ "early": {
+  "strict_switch": 0.24050375344118086,
+  "maintained": 0.2807022987566339,
+  "focal_habit": 0.2531218952965545,
+  "concurrent": 0.22567205250563077
+ },
+ "full": {
+  "strict_switch": 0.08016208160454483,
+  "maintained": 0.14639067133406677,
+  "focal_habit": 0.18298776913628517,
+  "concurrent": 0.5904594779251032
+ },
+ "twin_early": {
+  "value:accuracy": 0.5,
+  "value:prestige": 0.5
+ },
+ "twin_full": {
+  "value:accuracy": 0.007398140373762775,
+  "value:prestige": 0.9926018596262371
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "card": "M14",
+ "cell_id": "M14",
+ "lane": "discovery",
+ "track": "realization",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 3.68,
+ "gpu_lock_min": 3.67,
+ "strongest_surviving_rival": "context-swap interaction; copied realization fails",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "reason": "directional support at or above the frozen threshold",
+ "point": 2.1872232374786433,
+ "ci": [
+  1.6896325692867862,
+  2.7367843947044372
+ ],
+ "n_units": 128,
+ "threshold": 0.03,
+ "perm_p": null,
+ "primary": "the same proposal realized in the new context beats the copied realization",
+ "capability_note": "no admitted reader passed the I05 capability gate; architecture claims close as reader-bounded",
+ "marker": {
+  "contract_version": "6.0.0",
+  "contract_hash": "fab4f6184600f45d",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M14\\metrics.json",
+    "sha256": "b471ec5e763071b177851bbdba70e2e7394c39295ab4f41ec14308a6587b4c2a"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6\\M14\\cases.jsonl",
+    "sha256": "9f24eeeba8f142a92df3eba1e039b97b7cf086506bc929b0a95f36423f6fb5ff"
+   }
+  },
+  "written_at": "2026-08-30T16:27:09"
+ }
+}

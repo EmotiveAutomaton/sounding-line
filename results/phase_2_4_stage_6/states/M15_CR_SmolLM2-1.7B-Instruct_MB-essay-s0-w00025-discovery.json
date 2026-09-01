@@ -1,0 +1,106 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w00025|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on thoroughness and attention to detail, as evidenced by their meticulous re-drafting of sections and checking of references."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 8,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec4:s4.1": 0.20013805397630985,
+   "revise:sec2:s2.1": 0.23398509068417178,
+   "revise:sec4:s4.2": 0.20013805397630985,
+   "revise:sec3:s3.2": 0.21640083342954233,
+   "check:sec1:s1.1": 0.03879853151272878,
+   "check:sec2:s2.1": 0.03588277582407874,
+   "check:sec4:s4.1": 0.030692164631945504,
+   "fix:sec1:urgent": 0.04396449596491315
+  },
+  "next_edit_type": {
+   "revise": 0.8506620320663338,
+   "check": 0.10537347196875305,
+   "fix": 0.043964495964913156
+  },
+  "next_section": {
+   "sec4": 0.4309682725845652,
+   "sec2": 0.2698678665082505,
+   "sec3": 0.21640083342954233,
+   "sec1": 0.08276302747764193
+  },
+  "changed_context": {
+   "finish_quietly": 0.23043860150943757,
+   "expand_scope": 0.1233448950298599,
+   "recheck_sources": 0.15837798023702163,
+   "polish_wording": 0.48783852322368093
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.6147082759294025
+ },
+ "uncertainty": {
+  "posterior_weight": 0.31629444323640266,
+  "abstain": false
+ }
+}

@@ -1,0 +1,321 @@
+{
+ "written_at": "2026-08-30T07:53:57",
+ "design": "2",
+ "checkpoints": {
+  "Qwen/Qwen2.5-3B-Instruct": {
+   "family": "qwen",
+   "same_family_as_anchor": true,
+   "reader_gate": {
+    "reader": "Qwen/Qwen2.5-3B-Instruct",
+    "domains": {
+     "workshop": {
+      "n": 96,
+      "validity": 1.0,
+      "accuracy": 0.8333333333333334,
+      "accuracy_second_permutation": 0.8229166666666666,
+      "per_option": {
+       "robust": 1.0,
+       "cheap": 0.4583333333333333,
+       "fast": 0.875,
+       "precedent": 1.0
+      },
+      "position_swing": 0.01041666666666674,
+      "probability_swing_mean": 0.15035196943001822
+     },
+     "civic": {
+      "n": 96,
+      "validity": 1.0,
+      "accuracy": 0.8125,
+      "accuracy_second_permutation": 0.8229166666666666,
+      "per_option": {
+       "robust": 0.9166666666666666,
+       "cheap": 0.5833333333333334,
+       "fast": 0.7916666666666666,
+       "precedent": 0.9583333333333334
+      },
+      "position_swing": 0.01041666666666663,
+      "probability_swing_mean": 0.1783198997654809
+     }
+    },
+    "admitted": false,
+    "gate": {
+     "validity": 0.95,
+     "accuracy": 0.75,
+     "per_option": 0.5,
+     "swing_pp": 0.1
+    },
+    "failing_bands": [
+     "workshop:per_option"
+    ],
+    "verdict": "REFUSED_AT_96",
+    "source": "REGATE_96.json"
+   },
+   "source_gate": {
+    "n_per_domain": 48,
+    "domains": {
+     "memo": {
+      "validity": 1.0,
+      "arousal_acc": 0.5625,
+      "action_acc": 0.9583333333333334
+     },
+     "notice": {
+      "validity": 1.0,
+      "arousal_acc": 0.3958333333333333,
+      "action_acc": 0.9583333333333334
+     }
+    },
+    "passed": false
+   },
+   "latent_gate": {
+    "n": 96,
+    "validity": 1.0,
+    "mean_log_score": -3.942678814161937,
+    "uniform": -1.3862943611198906,
+    "accuracy": 0.2916666666666667,
+    "passed": false
+   },
+   "error": null,
+   "passes": {
+    "reader": false,
+    "source": false,
+    "latent": false,
+    "all": false
+   }
+  },
+  "allenai/OLMo-2-0425-1B-Instruct": {
+   "family": "olmo",
+   "same_family_as_anchor": false,
+   "reader_gate": {
+    "reader": "allenai/OLMo-2-0425-1B-Instruct",
+    "domains": {
+     "workshop": {
+      "n": 96,
+      "validity": 1.0,
+      "accuracy": 0.53125,
+      "accuracy_second_permutation": 0.5625,
+      "per_option": {
+       "robust": 0.5416666666666666,
+       "cheap": 0.625,
+       "fast": 0.7083333333333334,
+       "precedent": 0.25
+      },
+      "position_swing": 0.03125,
+      "probability_swing_mean": 0.22215076779626186
+     },
+     "civic": {
+      "n": 96,
+      "validity": 1.0,
+      "accuracy": 0.59375,
+      "accuracy_second_permutation": 0.4479166666666667,
+      "per_option": {
+       "robust": 0.625,
+       "cheap": 0.4583333333333333,
+       "fast": 0.5416666666666666,
+       "precedent": 0.75
+      },
+      "position_swing": 0.14583333333333331,
+      "probability_swing_mean": 0.2363834940791357
+     }
+    },
+    "admitted": false,
+    "gate": {
+     "validity": 0.95,
+     "accuracy": 0.75,
+     "per_option": 0.5,
+     "swing_pp": 0.1
+    }
+   },
+   "source_gate": {
+    "n_per_domain": 48,
+    "domains": {
+     "memo": {
+      "validity": 1.0,
+      "arousal_acc": 0.6041666666666666,
+      "action_acc": 0.25
+     },
+     "notice": {
+      "validity": 1.0,
+      "arousal_acc": 0.7916666666666666,
+      "action_acc": 0.3333333333333333
+     }
+    },
+    "passed": false
+   },
+   "latent_gate": {
+    "n": 96,
+    "validity": 1.0,
+    "mean_log_score": -1.513764145594222,
+    "uniform": -1.3862943611198906,
+    "accuracy": 0.20833333333333334,
+    "passed": false
+   },
+   "error": null,
+   "passes": {
+    "reader": false,
+    "source": false,
+    "latent": false,
+    "all": false
+   }
+  },
+  "HuggingFaceTB/SmolLM2-360M-Instruct": {
+   "family": "smollm",
+   "same_family_as_anchor": false,
+   "reader_gate": {
+    "reader": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "domains": {
+     "workshop": {
+      "n": 96,
+      "validity": 1.0,
+      "accuracy": 0.2604166666666667,
+      "accuracy_second_permutation": 0.22916666666666666,
+      "per_option": {
+       "robust": 0.25,
+       "cheap": 0.25,
+       "fast": 0.25,
+       "precedent": 0.2916666666666667
+      },
+      "position_swing": 0.03125000000000003,
+      "probability_swing_mean": 0.064021170760567
+     },
+     "civic": {
+      "n": 96,
+      "validity": 1.0,
+      "accuracy": 0.15625,
+      "accuracy_second_permutation": 0.19791666666666666,
+      "per_option": {
+       "robust": 0.125,
+       "cheap": 0.16666666666666666,
+       "fast": 0.125,
+       "precedent": 0.20833333333333334
+      },
+      "position_swing": 0.04166666666666666,
+      "probability_swing_mean": 0.07516762396222697
+     }
+    },
+    "admitted": false,
+    "gate": {
+     "validity": 0.95,
+     "accuracy": 0.75,
+     "per_option": 0.5,
+     "swing_pp": 0.1
+    }
+   },
+   "source_gate": {
+    "n_per_domain": 48,
+    "domains": {
+     "memo": {
+      "validity": 1.0,
+      "arousal_acc": 0.5833333333333334,
+      "action_acc": 0.4166666666666667
+     },
+     "notice": {
+      "validity": 1.0,
+      "arousal_acc": 0.3541666666666667,
+      "action_acc": 0.4791666666666667
+     }
+    },
+    "passed": false
+   },
+   "latent_gate": {
+    "n": 96,
+    "validity": 1.0,
+    "mean_log_score": -1.4914572483587956,
+    "uniform": -1.3862943611198906,
+    "accuracy": 0.22916666666666666,
+    "passed": false
+   },
+   "error": null,
+   "passes": {
+    "reader": false,
+    "source": false,
+    "latent": false,
+    "all": false
+   }
+  },
+  "TinyLlama/TinyLlama-1.1B-Chat-v1.0": {
+   "family": "llama",
+   "same_family_as_anchor": false,
+   "reader_gate": {
+    "reader": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "domains": {
+     "workshop": {
+      "n": 96,
+      "validity": 1.0,
+      "accuracy": 0.15625,
+      "accuracy_second_permutation": 0.23958333333333334,
+      "per_option": {
+       "robust": 0.08333333333333333,
+       "cheap": 0.16666666666666666,
+       "fast": 0.16666666666666666,
+       "precedent": 0.20833333333333334
+      },
+      "position_swing": 0.08333333333333334,
+      "probability_swing_mean": 0.029201796341664945
+     },
+     "civic": {
+      "n": 96,
+      "validity": 1.0,
+      "accuracy": 0.22916666666666666,
+      "accuracy_second_permutation": 0.22916666666666666,
+      "per_option": {
+       "robust": 0.041666666666666664,
+       "cheap": 0.3333333333333333,
+       "fast": 0.2916666666666667,
+       "precedent": 0.25
+      },
+      "position_swing": 0.0,
+      "probability_swing_mean": 0.040313504679428507
+     }
+    },
+    "admitted": false,
+    "gate": {
+     "validity": 0.95,
+     "accuracy": 0.75,
+     "per_option": 0.5,
+     "swing_pp": 0.1
+    }
+   },
+   "source_gate": {
+    "n_per_domain": 48,
+    "domains": {
+     "memo": {
+      "validity": 1.0,
+      "arousal_acc": 0.4166666666666667,
+      "action_acc": 0.625
+     },
+     "notice": {
+      "validity": 1.0,
+      "arousal_acc": 0.6458333333333334,
+      "action_acc": 0.5416666666666666
+     }
+    },
+    "passed": false
+   },
+   "latent_gate": {
+    "n": 96,
+    "validity": 1.0,
+    "mean_log_score": -1.4763719588944546,
+    "uniform": -1.3862943611198906,
+    "accuracy": 0.20833333333333334,
+    "passed": false
+   },
+   "error": null,
+   "passes": {
+    "reader": false,
+    "source": false,
+    "latent": false,
+    "all": false
+   }
+  }
+ },
+ "bands": "the frozen Stage-5 gate bands",
+ "gpu_lock_s": 0.0,
+ "summary": {
+  "passing_all_three": [],
+  "passing_reader_gate": [],
+  "passing_source_gate": [],
+  "passing_latent_gate": [],
+  "same_family_second_checkpoint_for_the_bridge": [],
+  "errors": {}
+ }
+}

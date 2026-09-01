@@ -1,0 +1,108 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w03533|discovery",
+ "artifact_context": {
+  "task": "the archive index",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "The maker's workflow was driven by prioritizing and updating content based on references and sources found during research, with a focus on completing sections that had been referenced or required add"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.017192198710765993,
+   "write:sec4:s4.1": 0.013600148578892414,
+   "write:sec4:s4.2": 0.013600148578892414,
+   "revise:sec3:s3.2": 0.029244915151777164,
+   "revise:sec3:s3.1": 0.029244915151777164,
+   "revise:sec2:s2.1": 0.03162129283604377,
+   "check:sec1:s1.1": 0.2526375158267299,
+   "check:sec2:s2.1": 0.23365150668624132,
+   "check:sec3:s3.1": 0.21609231866494844,
+   "fix:sec1:urgent": 0.16311503981393138
+  },
+  "next_edit_type": {
+   "write": 0.044392495868550826,
+   "revise": 0.09011112313959811,
+   "check": 0.7023813411779197,
+   "fix": 0.1631150398139314
+  },
+  "next_section": {
+   "sec1": 0.43294475435142726,
+   "sec4": 0.02720029715778483,
+   "sec3": 0.27458214896850275,
+   "sec2": 0.2652727995222851
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4823318966985082
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3934440795569675,
+  "abstain": false
+ }
+}

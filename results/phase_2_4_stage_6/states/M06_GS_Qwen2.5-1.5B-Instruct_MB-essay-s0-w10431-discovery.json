@@ -1,0 +1,106 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "focal_habit|MB|essay|s0|w10431|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "pursues one concern while old routines keep steering some choices"
+ },
+ "episode_goal": "attribute",
+ "control_state": {
+  "hypothesis": "focal_habit",
+  "controller": "focal_habit"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 13,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {
+   "revise": 1.0,
+   "write": 0.4
+  }
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.0746439078008499,
+   "write:sec1:s1.2": 0.0746439078008499,
+   "write:sec3:s3.2": 0.06384631774942302,
+   "write:sec4:s4.1": 0.05904819119877859,
+   "write:sec4:s4.2": 0.05904819119877859,
+   "revise:sec2:s2.1": 0.16560474757733112,
+   "check:sec2:s2.1": 0.07348666127409692,
+   "check:sec3:s3.1": 0.06796405146656977,
+   "cite:sec4:ref": 0.3617140239333223
+  },
+  "next_edit_type": {
+   "write": 0.33123051574867995,
+   "revise": 0.16560474757733112,
+   "check": 0.14145071274066667,
+   "cite": 0.3617140239333223
+  },
+  "next_section": {
+   "sec1": 0.1492878156016998,
+   "sec3": 0.1318103692159928,
+   "sec4": 0.47981040633087946,
+   "sec2": 0.23909140885142804
+  },
+  "changed_context": {
+   "finish_quietly": 0.19806649848421296,
+   "expand_scope": 0.41930678058149323,
+   "recheck_sources": 0.13612898089586795,
+   "polish_wording": 0.2464977400384259
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "cite"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.39123767805150117
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|workshop_doc|s0|w08724|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "workshop_doc",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "proposal_text": "works on one concern at a time and switches wholly between concerns"
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 17,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.1": 0.024879296771808296,
+   "write:sec1:s1.3": 0.024879296771808296,
+   "write:sec2:s2.1": 0.021955902339603747,
+   "write:sec2:s2.2": 0.021955902339603747,
+   "write:sec2:s2.3": 0.021955902339603747,
+   "write:sec4:s4.1": 0.01709927393512269,
+   "write:sec4:s4.2": 0.01709927393512269,
+   "revise:sec3:s3.1": 0.05820876837029379,
+   "consult:sec1:src": 0.7454857375793457,
+   "cite:sec4:ref": 0.046480645617687416
+  },
+  "next_edit_type": {
+   "write": 0.1498248484326732,
+   "revise": 0.05820876837029379,
+   "consult": 0.7454857375793457,
+   "cite": 0.046480645617687416
+  },
+  "next_section": {
+   "sec1": 0.7952443311229622,
+   "sec2": 0.06586770701881124,
+   "sec4": 0.0806791934879328,
+   "sec3": 0.05820876837029379
+  },
+  "changed_context": {
+   "finish_quietly": 0.08417935430484626,
+   "expand_scope": 0.1028168955280814,
+   "recheck_sources": 0.6874229103836077,
+   "polish_wording": 0.12558083978346465
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "consult"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "recheck_sources"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4771772719437022
+ },
+ "uncertainty": {
+  "posterior_weight": 1.0,
+  "abstain": false
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w04053|discovery",
+ "artifact_context": {
+  "task": "the delivery route",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's workflow was driven by addressing and correcting specific issues or references mentioned during the drafting process."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 7,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7",
+   "step8",
+   "step9",
+   "step10"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec3:s3.2": 0.24357681039335957,
+   "revise:sec1:s1.3": 0.29999495840794627,
+   "revise:sec1:s1.1": 0.29999495840794627,
+   "check:sec1:s1.1": 0.04600571690029629,
+   "check:sec2:s2.1": 0.041454606219718255,
+   "check:sec3:s3.1": 0.037353713682067094,
+   "consult:sec1:src": 0.0316192359886663
+  },
+  "next_edit_type": {
+   "revise": 0.843566727209252,
+   "check": 0.12481403680208161,
+   "consult": 0.03161923598866629
+  },
+  "next_section": {
+   "sec3": 0.2809305240754266,
+   "sec1": 0.6776148697048551,
+   "sec2": 0.04145460621971825
+  },
+  "changed_context": {
+   "finish_quietly": 0.23043860150943757,
+   "expand_scope": 0.1233448950298599,
+   "recheck_sources": 0.15837798023702163,
+   "polish_wording": 0.48783852322368093
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.5263482790672395
+ },
+ "uncertainty": {
+  "posterior_weight": 0.6929542640217252,
+  "abstain": false
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w03686|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by a focus on organization and efficiency, with a clear structure and sequential progression in their work."
+ },
+ "episode_goal": "audit",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 9,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec2:s2.1": 0.004280186907775613,
+   "write:sec2:s2.2": 0.004280186907775613,
+   "revise:sec1:s1.1": 0.015190395381709462,
+   "check:sec1:s1.1": 0.3726588334078178,
+   "check:sec3:s3.1": 0.26702172229860305,
+   "consult:sec1:src": 0.15151177509794508,
+   "fix:sec1:urgent": 0.18505689999837344
+  },
+  "next_edit_type": {
+   "write": 0.008560373815551225,
+   "revise": 0.015190395381709458,
+   "check": 0.6396805557064208,
+   "consult": 0.15151177509794506,
+   "fix": 0.1850568999983734
+  },
+  "next_section": {
+   "sec2": 0.008560373815551227,
+   "sec1": 0.7244179038858458,
+   "sec3": 0.26702172229860305
+  },
+  "changed_context": {
+   "finish_quietly": 0.18052990059364782,
+   "expand_scope": 0.5993803780209169,
+   "recheck_sources": 0.09907691010869184,
+   "polish_wording": 0.1210128112767434
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "check"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.513141452393362
+ },
+ "uncertainty": {
+  "posterior_weight": 0.3989317035549446,
+  "abstain": false
+ }
+}

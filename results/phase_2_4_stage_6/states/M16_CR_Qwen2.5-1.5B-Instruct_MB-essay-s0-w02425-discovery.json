@@ -1,0 +1,101 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w02425|discovery",
+ "artifact_context": {
+  "task": "the kiln schedule",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker's approach was driven by prioritizing and revising tasks based on their current status and urgency, with an emphasis on completing unfinished work before moving on to new tasks."
+ },
+ "episode_goal": "tighten",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 7,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "revise:sec1:s1.2": 0.3988571473700535,
+   "revise:sec3:s3.2": 0.3238466148717066,
+   "check:sec1:s1.1": 0.06116672461079731,
+   "check:sec2:s2.1": 0.05511581284529926,
+   "check:sec3:s3.1": 0.0496634868864929,
+   "consult:sec1:src": 0.04203923404376091,
+   "fix:sec1:urgent": 0.06931097937188956
+  },
+  "next_edit_type": {
+   "revise": 0.72270376224176,
+   "check": 0.16594602434258948,
+   "consult": 0.04203923404376091,
+   "fix": 0.06931097937188956
+  },
+  "next_section": {
+   "sec1": 0.5713740853965013,
+   "sec3": 0.3735101017581995,
+   "sec2": 0.05511581284529926
+  },
+  "changed_context": {
+   "finish_quietly": 0.23043860150943757,
+   "expand_scope": 0.1233448950298599,
+   "recheck_sources": 0.15837798023702163,
+   "polish_wording": 0.48783852322368093
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "revise"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "polish_wording"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4231404318329945
+ },
+ "uncertainty": {
+  "posterior_weight": 0.254693205994553,
+  "abstain": false
+ }
+}

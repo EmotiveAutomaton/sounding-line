@@ -1,0 +1,32 @@
+{
+ "card": "A06",
+ "lane": "discovery",
+ "written_at": "2026-08-30T15:53:05",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "means_by_level": {
+  "pressure": 0.21938795497631647,
+  "free": 0.22369495238593537
+ },
+ "contrast": {
+  "point": -0.004306997409618895,
+  "lo": -0.019345702720189532,
+  "hi": 0.010569577391849062,
+  "n_units": 48,
+  "n_boot": 2000
+ },
+ "levels": [
+  "pressure",
+  "free"
+ ],
+ "n_per_level": {
+  "pressure": 48,
+  "free": 48
+ }
+}

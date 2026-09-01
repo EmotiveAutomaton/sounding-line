@@ -1,0 +1,103 @@
+{
+ "version": "s6-maker-state-1.0",
+ "proposal_id": "strict_switch|MB|essay|s0|w01897|discovery",
+ "artifact_context": {
+  "task": "the flood notice",
+  "domain": "essay",
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3"
+  ],
+  "proposal_text": "The maker was driven by a sequential and iterative approach, focusing on one section at a time and gradually building up the essay in a step-by-step manner."
+ },
+ "episode_goal": "produce",
+ "control_state": {
+  "hypothesis": "strict_switch",
+  "controller": "strict_switch"
+ },
+ "maintained_intentions": [],
+ "process_model": {
+  "pending_n": 10,
+  "action_types": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "probe",
+   "fix"
+  ]
+ },
+ "expertise_state": {
+  "habit": {}
+ },
+ "selection_history": {
+  "bias": {}
+ },
+ "standing_tendencies": {
+  "value": null
+ },
+ "evidence_scope": {
+  "observed": [
+   "step0",
+   "step1",
+   "step2",
+   "step3",
+   "step4",
+   "step5",
+   "step6",
+   "step7"
+  ],
+  "withheld": [
+   "tail",
+   "stop",
+   "changed_context"
+  ]
+ },
+ "decision_likelihoods": {
+  "next_edit": {
+   "write:sec1:s1.2": 0.41483281247794557,
+   "write:sec3:s3.2": 0.33681783802673465,
+   "revise:sec1:s1.3": 0.04954471412867252,
+   "revise:sec2:s2.3": 0.044643508521424714,
+   "check:sec2:s2.1": 0.027077656675386294,
+   "check:sec3:s3.1": 0.02439900235145853,
+   "consult:sec1:src": 0.04654295164583434,
+   "fix:sec1:urgent": 0.056141516172543406
+  },
+  "next_edit_type": {
+   "write": 0.7516506505046803,
+   "revise": 0.09418822265009724,
+   "check": 0.051476659026844826,
+   "consult": 0.04654295164583434,
+   "fix": 0.056141516172543406
+  },
+  "next_section": {
+   "sec1": 0.5670619944249958,
+   "sec3": 0.3612168403781932,
+   "sec2": 0.07172116519681102
+  },
+  "changed_context": {
+   "finish_quietly": 0.2181933985318337,
+   "expand_scope": 0.46191542831666793,
+   "recheck_sources": 0.1499619835138952,
+   "polish_wording": 0.16992918963760323
+  }
+ },
+ "counterfactual_predictions": {
+  "if_no_interrupt": {
+   "next_edit_type": "write"
+  },
+  "if_deadline_lifted": {
+   "changed_context": "expand_scope"
+  }
+ },
+ "stop_model": {
+  "p_stop": 0.4510226389621733
+ },
+ "uncertainty": {
+  "posterior_weight": 0.41350902793400063,
+  "abstain": false
+ }
+}
