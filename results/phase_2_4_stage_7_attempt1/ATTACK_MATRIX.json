@@ -1,0 +1,194 @@
+{
+ "written_at": "2026-09-02T10:46:18",
+ "attacks": {
+  "X01": {
+   "covers": [
+    "I05",
+    "K04",
+    "R13"
+   ],
+   "expect": "byte-identical non-oracle predictions",
+   "consequence": "any non-oracle movement voids every affected result"
+  },
+  "X02": {
+   "covers": [
+    "I06",
+    "K15",
+    "P05"
+   ],
+   "expect": "byte-identical non-oracle predictions",
+   "consequence": "any movement voids stopping and state-use claims"
+  },
+  "X03": {
+   "covers": [
+    "I07",
+    "P07",
+    "P08"
+   ],
+   "expect": "byte-identical non-oracle predictions",
+   "consequence": "any movement voids current and counterfactual claims"
+  },
+  "X04": {
+   "covers": [
+    "I04"
+   ],
+   "expect": "every attempt raises",
+   "consequence": "successful access blocks the scientific lock"
+  },
+  "X05": {
+   "covers": [
+    "I09",
+    "I10"
+   ],
+   "expect": "semantic results invariant",
+   "consequence": "an identifier-driven result is a leak"
+  },
+  "X06": {
+   "covers": [
+    "K04",
+    "R13"
+   ],
+   "expect": "posterior and prediction invariant within tolerance",
+   "consequence": "an order-driven contrast is re-run under fixed order"
+  },
+  "X07": {
+   "covers": [
+    "I08"
+   ],
+   "expect": "the relevant prediction moves",
+   "consequence": "global invariance fails the reader"
+  },
+  "X08": {
+   "covers": [
+    "I12"
+   ],
+   "expect": "equal evidence bytes across paired arms",
+   "consequence": "unequal evidence voids the comparison"
+  },
+  "X09": {
+   "covers": [
+    "I13",
+    "A15"
+   ],
+   "expect": "priced compute on every arm",
+   "consequence": "unpriced compute forbids an efficiency or architecture claim"
+  },
+  "X10": {
+   "covers": [
+    "K05"
+   ],
+   "expect": "behavior stable where semantics are preserved",
+   "consequence": "an unstable reader's language-state claims close"
+  },
+  "X11": {
+   "covers": [
+    "K05",
+    "K09"
+   ],
+   "expect": "the prediction changes in the declared direction",
+   "consequence": "a meaning-blind reader fails"
+  },
+  "X12": {
+   "covers": [
+    "R13",
+    "K11"
+   ],
+   "expect": "confidence does not sharpen as if observations were independent",
+   "consequence": "the double-count defect closes the affected posterior claims"
+  },
+  "X13": {
+   "covers": [
+    "K14",
+    "R09"
+   ],
+   "expect": "selection follows behavior, not tags",
+   "consequence": "a tag-driven selector is renamed"
+  },
+  "X14": {
+   "covers": [
+    "R16",
+    "P10"
+   ],
+   "expect": "the reader preserves the equivalence class",
+   "consequence": "forced point accuracy on equifinal classes voids the cell"
+  },
+  "X15": {
+   "covers": [
+    "K13",
+    "R04"
+   ],
+   "expect": "availability, selection, and competence distinguished",
+   "consequence": "an opportunity-blind reading closes"
+  },
+  "X16": {
+   "covers": [
+    "K09",
+    "K12"
+   ],
+   "expect": "belief-sensitive futures reverse; copied-world inference fails",
+   "consequence": "a copied-world reader fails"
+  },
+  "X17": {
+   "covers": [
+    "K08",
+    "K14"
+   ],
+   "expect": "future-action predictions follow the law only when evidence supports it",
+   "consequence": "a law-blind reading is bounded"
+  },
+  "X18": {
+   "covers": [
+    "K10",
+    "K11"
+   ],
+   "expect": "the goal-sensitive diagnostic event reverses",
+   "consequence": "a goal-blind reading is bounded"
+  },
+  "X19": {
+   "covers": [
+    "V02",
+    "V06"
+   ],
+   "expect": "context effects are not reported as preference change",
+   "consequence": "context-blind attribution is a defect"
+  },
+  "X20": {
+   "covers": [
+    "K03",
+    "R13"
+   ],
+   "expect": "maker claims require gain beyond the frozen common-process rival",
+   "consequence": "a claim under the strengthened rival is renamed"
+  },
+  "X21": {
+   "covers": [
+    "R14",
+    "A16"
+   ],
+   "expect": "conditional failures reported before pooling",
+   "consequence": "a pooled rescue is refused"
+  },
+  "X22": {
+   "covers": [
+    "P12"
+   ],
+   "expect": "the discontinuity reader follows process, not surface register",
+   "consequence": "a style detector is renamed as such"
+  },
+  "X23": {
+   "covers": [
+    "I15",
+    "I14"
+   ],
+   "expect": "independent-unit estimates stable; pooled masking detected",
+   "consequence": "a pooled mean over a planned reversal blocks the packet"
+  },
+  "X24": {
+   "covers": [
+    "B05"
+   ],
+   "expect": "the fresh clone reproduces manifests, hashes, dispositions, and packet inputs",
+   "consequence": "any mismatch blocks the final packet"
+  }
+ }
+}

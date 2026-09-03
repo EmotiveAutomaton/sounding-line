@@ -1,0 +1,54 @@
+{
+ "card": "K11",
+ "cell_id": "K11",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 16.67,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "goal posterior plus hidden-action score; classification alone cannot pass",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "With C_m+B+K+A+H supplied, can the reader infer only G and preserve prospective gain?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+ "point": -0.0013188234332076147,
+ "ci": [
+  -0.20969878237876097,
+  0.22211329684859601
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.0013188234332076147
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.1483093092177071
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.07481406632545734
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K11\\metrics.json",
+    "sha256": "0c11be95bf2ef1456a8e398db14c0dc746d2d45792e3088dafc98a0c84227f40"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K11\\cases.jsonl",
+    "sha256": "7be7e2d700332cebe851e962df2df8f3427b9050fcd954c422689d2015d6af7b"
+   }
+  },
+  "written_at": "2026-09-02T15:37:30"
+ }
+}

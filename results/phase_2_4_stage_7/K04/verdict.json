@@ -1,0 +1,54 @@
+{
+ "card": "K04",
+ "cell_id": "K04",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.19,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "positive U_state on untouched units with no generator access",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "Can a reader use the complete executable C_m+B+K+A+G+H state to improve next action over DOM?",
+ "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+ "point": -0.4629540864215622,
+ "ci": [
+  -0.7371778404582386,
+  -0.1760122345799853
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.4629540864215622
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.623759716743185
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.5433569015823736
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K04\\metrics.json",
+    "sha256": "fa48c69479d8ad0acfbcfaa7952f83a9610631f860c829d8b10f9517da46ee32"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K04\\cases.jsonl",
+    "sha256": "1e1aa9e99505ac3c9e00e8e06c462933e58a183c6c329c684e8b344a8fa344aa"
+   }
+  },
+  "written_at": "2026-09-02T14:20:28"
+ }
+}

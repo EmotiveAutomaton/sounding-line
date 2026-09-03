@@ -1,0 +1,223 @@
+{
+ "card": "K14",
+ "lane": "discovery",
+ "written_at": "2026-09-02T16:41:01",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.629956986857983,
+  "n": 48,
+  "oracle_mean": -2.0500798408239205,
+  "dom_mean": -2.6800368276819033
+ },
+ "floor": 0.1259913973715966,
+ "kl_mass_on_true_law": 0.5204091380930401,
+ "learned_minus_selected": {
+  "-": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.01672041422879169,
+   "ci": [
+    -0.13352272210493452,
+    0.10281551549539121
+   ],
+   "n_units": 48,
+   "threshold": 0.03,
+   "perm_p": 0.791710414479276,
+   "arm": "LEARN",
+   "rival": "KL"
+  }
+ },
+ "recall_law": {
+  "recall": 0.0,
+  "n": 120,
+  "redundancy": 1.0,
+  "posterior_mass_on_truth": 0.0,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.0,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.0
+  }
+ },
+ "all_cells": {
+  "LEARN|-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5738943509281512,
+   "ci": [
+    0.3101461324873022,
+    0.8505558459908259
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 9.99950002499875e-05,
+   "arm": "LEARN",
+   "rival": "DOM"
+  },
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.0013188234332076147,
+   "ci": [
+    -0.2063550097697809,
+    0.2204860740989906
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.9911004449777511,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.0013188234332076147,
+   "ci": [
+    -0.20784132730462912,
+    0.21408408047293515
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.9907004649767511,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "SLJ|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.0013188234332076147,
+   "ci": [
+    -0.20482260731873525,
+    0.2197181862257637
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.9904504774761262,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  },
+  "KL|-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5906147651569428,
+   "ci": [
+    0.3417940938068012,
+    0.8391777624426106
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "KL",
+   "rival": "DOM"
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.43179029132584573,
+   "ci": [
+    -0.8234569419324861,
+    -0.06183155586749552
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.02839858007099645,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -2.709377425564423,
+   "ci": [
+    -3.5842822164881842,
+    -1.8855632626136989
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.5705838584451348,
+   "ci": [
+    -2.1087063069954968,
+    -1.0686964146330657
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIR",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "cells": {
+  "LEARN|-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5738943509281512,
+   "ci": [
+    0.3101461324873022,
+    0.8505558459908259
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 9.99950002499875e-05,
+   "arm": "LEARN",
+   "rival": "DOM"
+  },
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.0013188234332076147,
+   "ci": [
+    -0.2063550097697809,
+    0.2204860740989906
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.9911004449777511,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.0013188234332076147,
+   "ci": [
+    -0.20784132730462912,
+    0.21408408047293515
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.9907004649767511,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "SLJ|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.0013188234332076147,
+   "ci": [
+    -0.20482260731873525,
+    0.2197181862257637
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.9904504774761262,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 19
+}

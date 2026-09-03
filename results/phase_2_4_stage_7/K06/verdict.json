@@ -1,0 +1,54 @@
+{
+ "card": "K06",
+ "cell_id": "K06",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 6.64,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "context-only gain without hidden action law or goal",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "What does supplied external and maker-interpreted context add by itself?",
+ "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+ "point": -0.3453337751854774,
+ "ci": [
+  -0.6321361628124369,
+  -0.045138312306680396
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.3453337751854774
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.846671348689055
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.5960025619372662
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K06\\metrics.json",
+    "sha256": "ba59599a1cc044314c32abce0481e63de48e2e8e5819bd5725bfbeb9de1406f7"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K06\\cases.jsonl",
+    "sha256": "3cadc2856e698d4da17e1562375e865b68f3786d442861752a141042ae3b30ff"
+   }
+  },
+  "written_at": "2026-09-02T14:40:22"
+ }
+}

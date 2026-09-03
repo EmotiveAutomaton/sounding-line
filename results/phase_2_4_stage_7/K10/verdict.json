@@ -1,0 +1,54 @@
+{
+ "card": "K10",
+ "cell_id": "K10",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 8.98,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "goal-swap worlds with matched prefix and surface",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "What does the true proximal goal add by itself?",
+ "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.146 nats (20 percent of gap 0.7280935166110662)",
+ "point": -0.505520287661572,
+ "ci": [
+  -0.8235484200388928,
+  -0.2081617988115519
+ ],
+ "n_units": 74,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.505520287661572
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -3.1603872925739975
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.8329537901177848
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K10\\metrics.json",
+    "sha256": "e4624330ed9a66917f61fb7e94bdb09a3815b13221e31cae29457514e381916d"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K10\\cases.jsonl",
+    "sha256": "0da468f2540391158eec7e8d2fa5c92cfb215fd1a927e1543b1747a952d17d2c"
+   }
+  },
+  "written_at": "2026-09-02T15:11:02"
+ }
+}

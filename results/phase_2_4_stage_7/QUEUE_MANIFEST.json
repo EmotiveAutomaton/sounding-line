@@ -1,0 +1,3345 @@
+{
+ "I01": {
+  "cell_id": "I01",
+  "card": "I01",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I01\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Do the reviewed repository heads, Stage 6 runtime anchors, and raw hashes reproduce?",
+  "reason": "head 5936b0b0; reviewed 5936b0b in history True; Stage 6 elapsed 47.07 h; ghost head ce4c06b",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:49:41",
+  "finished_at": "2026-09-02T12:50:01",
+  "detail": "head 5936b0b0; reviewed 5936b0b in history True; Stage 6 elapsed 47.07 h; ghost head ce4c06b"
+ },
+ "I02": {
+  "cell_id": "I02",
+  "card": "I02",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I02\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does the manifest recursively enumerate all 100 questions, 24 attacks, factor corners, lineages, outputs, and closures?",
+  "reason": "794 expected cells over 124 questions and attacks; duplicates []; removal fails coverage True",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:49:41",
+  "finished_at": "2026-09-02T12:50:01",
+  "detail": "794 expected cells over 124 questions and attacks; duplicates []; removal fails coverage True"
+ },
+ "I03": {
+  "cell_id": "I03",
+  "card": "I03",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I03\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does VisibleEvidenceV1 contain only allowlisted fields for each rung?",
+  "reason": "133 rung evidences accepted, 0 rejected; planted fields caught 57",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:50:01",
+  "finished_at": "2026-09-02T12:50:21",
+  "detail": "133 rung evidences accepted, 0 rejected; planted fields caught 57"
+ },
+ "I11": {
+  "cell_id": "I11",
+  "card": "I11",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I11\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does every reader emit normalized PredictionV1 objects with uncertainty, equivalence classes, and abstention?",
+  "reason": "7/7 fixtures; hazard form True",
+  "budget_charged_min": 7.84,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:50:42",
+  "finished_at": "2026-09-02T12:58:32",
+  "detail": "7/7 fixtures; hazard form True"
+ },
+ "I14": {
+  "cell_id": "I14",
+  "card": "I14",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I14\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Are discovery, transfer, confirmation, conformance, and attack lineages descendant-clean?",
+  "reason": "0 lineages, 0 roots, 0 violations",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:50:01",
+  "finished_at": "2026-09-02T12:50:22",
+  "detail": "0 lineages, 0 roots, 0 violations"
+ },
+ "I04": {
+  "cell_id": "I04",
+  "card": "I04",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I04\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Is the reader physically unable to import or read constructor and oracle state?",
+  "reason": "24 forbidden attempts; not raised: []",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:50:22",
+  "finished_at": "2026-09-02T12:50:42",
+  "detail": "24 forbidden attempts; not raised: []"
+ },
+ "I10": {
+  "cell_id": "I10",
+  "card": "I10",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I10\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Are targets absent from filenames, identifiers, ordering, lengths, seeds, schemas, prompts, caches, and logs?",
+  "reason": "canaries caught 60/60; clean identifier hits 0/15",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:50:22",
+  "finished_at": "2026-09-02T12:50:42",
+  "detail": "canaries caught 60/60; clean identifier hits 0/15"
+ },
+ "D07": {
+  "cell_id": "D07",
+  "card": "D07",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D07\\verdict.json",
+  "est_minutes": 0.6666666666666666,
+  "gpu": false,
+  "why": "Does the repaired CoAuthor loader record acceptance alongside applying suggestion-select deltas?",
+  "reason": "fixtures all exact; marginal {'accept': 391, 'edit': 182, 'dismiss': 211, 'ignore': 3}",
+  "budget_charged_min": 7.84,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:50:42",
+  "finished_at": "2026-09-02T12:58:32",
+  "detail": "fixtures all exact; marginal {'accept': 391, 'edit': 182, 'dismiss': 211, 'ignore': 3}"
+ },
+ "D08": {
+  "cell_id": "D08",
+  "card": "D08",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D08\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "What CoAuthor reconstruction claim is licensed by the source fields?",
+  "reason": "200/200 sessions reconstruct under standard delta semantics; no final reference exists in the source",
+  "budget_charged_min": 7.78,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:58:32",
+  "finished_at": "2026-09-02T13:06:19",
+  "detail": "200/200 sessions reconstruct under standard delta semantics; no final reference exists in the source"
+ },
+ "D01": {
+  "cell_id": "D01",
+  "card": "D01",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D01\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Which Stage 6 predictions depended on hidden constructor fields?",
+  "reason": "non-oracle arms reach ['cut', 'events', 'hidden', 'stop_shift', 'target_actions', 'trajectory']; realize touched ['cut', 'events', 'stop_shift', 'target_actions', 'trajectory']",
+  "budget_charged_min": 7.78,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:58:32",
+  "finished_at": "2026-09-02T13:06:19",
+  "detail": "non-oracle arms reach ['cut', 'events', 'hidden', 'stop_shift', 'target_actions', 'trajectory']; realize touched ['cut', 'events', 'stop_shift', 'target_actions', 'trajectory']"
+ },
+ "D03": {
+  "cell_id": "D03",
+  "card": "D03",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D03\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Which Stage 6 cards remain clean after transitive dependency tracing?",
+  "reason": "{\"CLEAN\": 59, \"DEPENDENCY_TAINTED\": 63, \"DUPLICATE_ESTIMAND\": 5, \"CONSTRUCTION_INVALID\": 1}",
+  "budget_charged_min": 7.22,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:06:19",
+  "finished_at": "2026-09-02T13:13:32",
+  "detail": "{\"CLEAN\": 59, \"DEPENDENCY_TAINTED\": 63, \"DUPLICATE_ESTIMAND\": 5, \"CONSTRUCTION_INVALID\": 1}"
+ },
+ "D04": {
+  "cell_id": "D04",
+  "card": "D04",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D04\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Do the architecture ranking, reader-boundary claim, M14, M15, and CoAuthor conclusion survive their dependency audit?",
+  "reason": "five conclusions suspended; supplied-law selection retained under its name",
+  "budget_charged_min": 7.19,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:13:32",
+  "finished_at": "2026-09-02T13:20:43",
+  "detail": "five conclusions suspended; supplied-law selection retained under its name"
+ },
+ "D06": {
+  "cell_id": "D06",
+  "card": "D06",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D06\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Which value and foraging questions shared identical worlds or statistics?",
+  "reason": "identical vectors [['F02', 'F03'], ['F02', 'F09'], ['F02', 'V09'], ['F03', 'F09'], ['F03', 'V09'], ['F09', 'V09'], ['V02', 'V03'], ['V04', 'V05']]; constant []",
+  "budget_charged_min": 7.22,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:06:19",
+  "finished_at": "2026-09-02T13:13:32",
+  "detail": "identical vectors [['F02', 'F03'], ['F02', 'F09'], ['F02', 'V09'], ['F03', 'F09'], ['F03', 'V09'], ['F09', 'V09'], ['V02', 'V03'], ['V04', 'V05']]; constant []"
+ },
+ "D09": {
+  "cell_id": "D09",
+  "card": "D09",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D09\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Do the ScholaWrite and drawing negative results reproduce through reader-free, lineage-clean baselines?",
+  "reason": "{\"n_sessions\": 60, \"n_transitions\": 11055, \"persistence_rate\": 0.9535052012663953}",
+  "budget_charged_min": 7.19,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:13:32",
+  "finished_at": "2026-09-02T13:20:43",
+  "detail": "{\"n_sessions\": 60, \"n_transitions\": 11055, \"persistence_rate\": 0.9535052012663953}"
+ },
+ "D05": {
+  "cell_id": "D05",
+  "card": "D05",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D05\\verdict.json",
+  "est_minutes": 15.0,
+  "gpu": false,
+  "why": "Can Stage 6's exact arm be renamed and isolated as supplied-law selection?",
+  "reason": "{\"n\": 128, \"exact_selection_map_accuracy\": 0.789, \"exact_selection_mean_mass_on_truth\": 0.717, \"label_reader_map_accuracy\": 0.297, \"label_reader_mean_mass_on_truth\": 0.261, \"marginal\": 0.25}",
+  "budget_charged_min": 3.02,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:20:43",
+  "finished_at": "2026-09-02T13:23:44",
+  "detail": "{\"n\": 128, \"exact_selection_map_accuracy\": 0.789, \"exact_selection_mean_mass_on_truth\": 0.717, \"label_reader_map_accuracy\": 0.297, \"label_reader_mean_mass_on_truth\": 0.261, \"marginal\": 0.25}"
+ },
+ "D02": {
+  "cell_id": "D02",
+  "card": "D02",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D02\\verdict.json",
+  "est_minutes": 30.0,
+  "gpu": false,
+  "why": "How much of the reported tournament gain is reproduced by equal mixing over privileged simulators, label weighting, and exact adaptation?",
+  "reason": "{\"n_units\": 128, \"direct_D\": -2.0272, \"equal_mix_exact\": -1.084, \"label_weights_L_recomputed\": -1.0837, \"L_committed\": -1.0819, \"exact_posterior_mix\": -1.0173, \"CR_committed\": -1.1013, \"OR_committed\": -0.9952, \"delta_equal_mix_minus_D\": 0.9432, \"delta_label_weights_minus_equal\": 0.0003, \"delta_exact_adaptation_minus_labels\": 0.0663, \"delta_CR_minus_L\": -0.0195}",
+  "budget_charged_min": 3.02,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:20:43",
+  "finished_at": "2026-09-02T13:23:44",
+  "detail": "{\"n_units\": 128, \"direct_D\": -2.0272, \"equal_mix_exact\": -1.084, \"label_weights_L_recomputed\": -1.0837, \"L_committed\": -1.0819, \"exact_posterior_mix\": -1.0173, \"CR_committed\": -1.1013, \"OR_committed\": -0.9952, \"delta_equal_mix_minus_D\": 0.9432, \"delta_label_weights_minus_equal\": 0.0003, \"delta_exact_adaptation_minus_labels\": 0.0663, \"delta_CR_minus_L\": -0.0195}"
+ },
+ "D10": {
+  "cell_id": "D10",
+  "card": "D10",
+  "track": "dependency",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "D04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D10\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Is the Stage 6 correction written through findings, theory afterwords, state, and the dependency-audit artifact before Stage 7 begins?",
+  "reason": "lint 0; multiplicity 0; findings entry True; theory markers 4",
+  "budget_charged_min": 0.49,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:23:44",
+  "finished_at": "2026-09-02T13:24:14",
+  "detail": "lint 0; multiplicity 0; findings entry True; theory markers 4"
+ },
+ "A01": {
+  "cell_id": "A01",
+  "card": "A01",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A01\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Are every external source, paper version, repository commit, license, and borrowed component pinned before use?",
+  "reason": "2 clones pinned; every entry pinned True",
+  "budget_charged_min": 0.49,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:23:44",
+  "finished_at": "2026-09-02T13:24:14",
+  "detail": "2 clones pinned; every entry pinned True"
+ },
+ "A02": {
+  "cell_id": "A02",
+  "card": "A02",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A02\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Can external reference code run only in its sealed conformance workspace without access to Stage 7 science or confirmation data?",
+  "reason": "sealed True: inside repo False, on path False",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:24:14",
+  "finished_at": "2026-09-02T13:24:34",
+  "detail": "sealed True: inside repo False, on path False"
+ },
+ "A03": {
+  "cell_id": "A03",
+  "card": "A03",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A03\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does the LAIP-style arm generate hypotheses and likelihood functions, then compute the Bayesian posterior externally?",
+  "reason": "laip: PASS {'proposes_hypotheses': True, 'proposes_likelihood_rules': True, 'external_posterior': True, 'should_break_no_rule_is_unrealized': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:24:34",
+  "finished_at": "2026-09-02T13:24:54",
+  "detail": "laip: PASS {'proposes_hypotheses': True, 'proposes_likelihood_rules': True, 'external_posterior': True, 'should_break_no_rule_is_unrealized': True} "
+ },
+ "A04": {
+  "cell_id": "A04",
+  "card": "A04",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A04\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does ThoughtTracing preprocessing recover state, action, and perception steps on an official-style example?",
+  "reason": "thought_tracing: PASS {'preprocess_state_action_steps': True, 'initialize': True, 'propagate': True, 'weight': True, 'ess_recorded': True, 'resample_fires_on_collapse': True, 'rejuvenate_fires_on_diversity_loss': True, 'posterior_after_contradiction': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:24:34",
+  "finished_at": "2026-09-02T13:24:54",
+  "detail": "thought_tracing: PASS {'preprocess_state_action_steps': True, 'initialize': True, 'propagate': True, 'weight': True, 'ess_recorded': True, 'resample_fires_on_collapse': True, 'rejuvenate_fires_on_diversity_loss': True, 'posterior_after_contradiction': True} "
+ },
+ "A05": {
+  "cell_id": "A05",
+  "card": "A05",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A05\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does the ThoughtTracing arm initialize, propagate, weight, ESS-resample, and diversity-rejuvenate hypotheses?",
+  "reason": "thought_tracing: PASS {'preprocess_state_action_steps': True, 'initialize': True, 'propagate': True, 'weight': True, 'ess_recorded': True, 'resample_fires_on_collapse': True, 'rejuvenate_fires_on_diversity_loss': True, 'posterior_after_contradiction': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:24:54",
+  "finished_at": "2026-09-02T13:25:14",
+  "detail": "thought_tracing: PASS {'preprocess_state_action_steps': True, 'initialize': True, 'propagate': True, 'weight': True, 'ess_recorded': True, 'resample_fires_on_collapse': True, 'rejuvenate_fires_on_diversity_loss': True, 'posterior_after_contradiction': True} "
+ },
+ "A06": {
+  "cell_id": "A06",
+  "card": "A06",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A06\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does the ThoughtTracing posterior recover after contradiction without fabricated full importance weights?",
+  "reason": "thought_tracing: PASS {'preprocess_state_action_steps': True, 'initialize': True, 'propagate': True, 'weight': True, 'ess_recorded': True, 'resample_fires_on_collapse': True, 'rejuvenate_fires_on_diversity_loss': True, 'posterior_after_contradiction': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:25:14",
+  "finished_at": "2026-09-02T13:25:34",
+  "detail": "thought_tracing: PASS {'preprocess_state_action_steps': True, 'initialize': True, 'propagate': True, 'weight': True, 'ess_recorded': True, 'resample_fires_on_collapse': True, 'rejuvenate_fires_on_diversity_loss': True, 'posterior_after_contradiction': True} "
+ },
+ "A07": {
+  "cell_id": "A07",
+  "card": "A07",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A07\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does AutoToM propose an initial agent-model structure and explicit local conditionals?",
+  "reason": "autotom: PASS {'initial_model_goal_only': True, 'explicit_bayesian_inference': True, 'utility_gated_addition': True, 'false_expansion_rejected': True, 'window_extension_recorded': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:24:54",
+  "finished_at": "2026-09-02T13:25:14",
+  "detail": "autotom: PASS {'initial_model_goal_only': True, 'explicit_bayesian_inference': True, 'utility_gated_addition': True, 'false_expansion_rejected': True, 'window_extension_recorded': True} "
+ },
+ "A09": {
+  "cell_id": "A09",
+  "card": "A09",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A09\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does AutoToM extend the time window only when the current window remains insufficient?",
+  "reason": "autotom: PASS {'initial_model_goal_only': True, 'explicit_bayesian_inference': True, 'utility_gated_addition': True, 'false_expansion_rejected': True, 'window_extension_recorded': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:25:14",
+  "finished_at": "2026-09-02T13:25:34",
+  "detail": "autotom: PASS {'initial_model_goal_only': True, 'explicit_bayesian_inference': True, 'utility_gated_addition': True, 'false_expansion_rejected': True, 'window_extension_recorded': True} "
+ },
+ "A10": {
+  "cell_id": "A10",
+  "card": "A10",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A10\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does the LIRAS-style reproduction synthesize a valid situation-specific environment/action model?",
+  "reason": "liras: PASS {'synthesizes_model': True, 'validates_semantics': True, 'executes_inverse_inference': True, 'should_break_unparseable': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:25:34",
+  "finished_at": "2026-09-02T13:25:54",
+  "detail": "liras: PASS {'synthesizes_model': True, 'validates_semantics': True, 'executes_inverse_inference': True, 'should_break_unparseable': True} "
+ },
+ "A12": {
+  "cell_id": "A12",
+  "card": "A12",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A12\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does InversePlanning.jl or an exact independently checked equivalent reproduce the known-law posterior?",
+  "reason": "inverse_planning: PASS {'exact_posterior': True, 'matches_analytic_ratio': True, 'bounded_rational_likelihood': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:25:34",
+  "finished_at": "2026-09-02T13:25:54",
+  "detail": "inverse_planning: PASS {'exact_posterior': True, 'matches_analytic_ratio': True, 'bounded_rational_likelihood': True} "
+ },
+ "A13": {
+  "cell_id": "A13",
+  "card": "A13",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A13\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does LaBToM-style epistemic translation preserve belief content and change inference when that content changes?",
+  "reason": "labtom: PASS {'compositional_belief_representation': True, 'belief_content_preserved': True, 'belief_sensitive_inference': True} ",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:25:54",
+  "finished_at": "2026-09-02T13:26:14",
+  "detail": "labtom: PASS {'compositional_belief_representation': True, 'belief_content_preserved': True, 'belief_sensitive_inference': True} "
+ },
+ "I05": {
+  "cell_id": "I05",
+  "card": "I05",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I05\\verdict.json",
+  "est_minutes": 6.0,
+  "gpu": true,
+  "why": "Does hidden-tail mutation leave every non-oracle prediction byte-identical?",
+  "reason": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 21/24; leaking arms []",
+  "budget_charged_min": 7.84,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:50:42",
+  "finished_at": "2026-09-02T12:58:32",
+  "detail": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 21/24; leaking arms []"
+ },
+ "I06": {
+  "cell_id": "I06",
+  "card": "I06",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I06\\verdict.json",
+  "est_minutes": 6.0,
+  "gpu": true,
+  "why": "Do hidden trajectory length, stop parameters, and stop outcomes leave non-oracle output unchanged?",
+  "reason": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 24/24; leaking arms []",
+  "budget_charged_min": 7.78,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T12:58:32",
+  "finished_at": "2026-09-02T13:06:18",
+  "detail": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 24/24; leaking arms []"
+ },
+ "I07": {
+  "cell_id": "I07",
+  "card": "I07",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I07\\verdict.json",
+  "est_minutes": 6.0,
+  "gpu": true,
+  "why": "Do future cues, interruptions, source invalidations, and changed-context truth leave current output unchanged?",
+  "reason": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 19/22; leaking arms []",
+  "budget_charged_min": 7.22,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:06:19",
+  "finished_at": "2026-09-02T13:13:32",
+  "detail": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 19/22; leaking arms []"
+ },
+ "I08": {
+  "cell_id": "I08",
+  "card": "I08",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I05",
+   "I06",
+   "I07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I08\\verdict.json",
+  "est_minutes": 6.0,
+  "gpu": true,
+  "why": "Does a diagnostic visible observation move the relevant prediction in the declared direction?",
+  "reason": "sensitivity TV {'DOM': 0.03581751180559156, 'SOL': 0.034605173466560085, 'DIR': 0.5586939789041246, 'SLJ': 0.034605173466560085}; bytes changed {'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}",
+  "budget_charged_min": 7.19,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:13:32",
+  "finished_at": "2026-09-02T13:20:43",
+  "detail": "sensitivity TV {'DOM': 0.03581751180559156, 'SOL': 0.034605173466560085, 'DIR': 0.5586939789041246, 'SLJ': 0.034605173466560085}; bytes changed {'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}"
+ },
+ "I09": {
+  "cell_id": "I09",
+  "card": "I09",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I09\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "Are serialization, key order, whitespace, and opaque lineage relabeling irrelevant?",
+  "reason": "serialization identity {'SOL': 1.0, 'DIR': 1.0}",
+  "budget_charged_min": 3.02,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:20:43",
+  "finished_at": "2026-09-02T13:23:44",
+  "detail": "serialization identity {'SOL': 1.0, 'DIR': 1.0}"
+ },
+ "I12": {
+  "cell_id": "I12",
+  "card": "I12",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I12\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Do paired arms receive the same visible bytes and only their declared supplied factors?",
+  "reason": "140/140 units with one evidence hash across arms; declared difference True",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:24:14",
+  "finished_at": "2026-09-02T13:24:34",
+  "detail": "140/140 units with one evidence hash across arms; declared difference True"
+ },
+ "I13": {
+  "cell_id": "I13",
+  "card": "I13",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I13\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Are compute, model calls, solver work, context, retries, and cache reuse recorded and constrained?",
+  "reason": "6/6 cells reconcile",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:25:54",
+  "finished_at": "2026-09-02T13:26:14",
+  "detail": "6/6 cells reconcile"
+ },
+ "I15": {
+  "cell_id": "I15",
+  "card": "I15",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I15\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Do checkpoint, kill/resume, atomic write, and produces guards prevent duplicate scientific units?",
+  "reason": "32 rows before the kill, 32 after resume, 0 duplicates; deadline kept True; reorder invariant True",
+  "budget_charged_min": 0.67,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:26:14",
+  "finished_at": "2026-09-02T13:26:54",
+  "detail": "32 rows before the kill, 32 after resume, 0 duplicates; deadline kept True; reorder invariant True"
+ },
+ "I16": {
+  "cell_id": "I16",
+  "card": "I16",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I05",
+   "I08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\I16\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": true,
+  "why": "Does one keystone world pass a manual constructor-to-score audit before scale?",
+  "reason": "keystone trace written; SOL reproduces oracle True; denials 0; awaiting the signed lock",
+  "budget_charged_min": 0.49,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:23:44",
+  "finished_at": "2026-09-02T13:24:14",
+  "detail": "keystone trace written; SOL reproduces oracle True; denials 0; awaiting the signed lock"
+ },
+ "X04": {
+  "cell_id": "X04",
+  "card": "X04",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X04\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Attempt forbidden imports, file opens, environment reads, cache reads, and callbacks from the reader process.",
+  "reason": "I04 INFRASTRUCTURE; gate isolation True",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:26:14",
+  "finished_at": "2026-09-02T13:26:34",
+  "detail": "I04 INFRASTRUCTURE; gate isolation True"
+ },
+ "X08": {
+  "cell_id": "X08",
+  "card": "X08",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X08\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Hash paired-arm evidence and remove any undeclared field advantage.",
+  "reason": "I12 INFRASTRUCTURE",
+  "budget_charged_min": 32.44,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:26:54",
+  "finished_at": "2026-09-02T13:59:21",
+  "detail": "I12 INFRASTRUCTURE"
+ },
+ "X09": {
+  "cell_id": "X09",
+  "card": "X09",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "I13",
+   "A15"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X09\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Equalize or explicitly price model calls, tokens, context, solver work, retries, cache, and wall time.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X05": {
+  "cell_id": "X05",
+  "card": "X05",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I09",
+   "I10"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X05\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Permute filenames, opaque IDs, source order, seeds, path lengths, and output paths.",
+  "reason": "I09 INFRASTRUCTURE, I10 INFRASTRUCTURE",
+  "budget_charged_min": 32.44,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:26:54",
+  "finished_at": "2026-09-02T13:59:21",
+  "detail": "I09 INFRASTRUCTURE, I10 INFRASTRUCTURE"
+ },
+ "X07": {
+  "cell_id": "X07",
+  "card": "X07",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X07\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Change one diagnostic visible observation while preserving hidden truth.",
+  "reason": "I08 INFRASTRUCTURE; gate sensitivity True",
+  "budget_charged_min": 8.37,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:59:21",
+  "finished_at": "2026-09-02T14:07:43",
+  "detail": "I08 INFRASTRUCTURE; gate sensitivity True"
+ },
+ "K01": {
+  "cell_id": "K01",
+  "card": "K01",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "I16"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K01\\verdict.json",
+  "est_minutes": 12.0,
+  "gpu": false,
+  "why": "Can the exact oracle predict every hidden target in each known-answer world?",
+  "reason": "next_action gap +0.501 (n 245); stop gap +0.029 (n 300); changed_context gap +0.586 (n 300); next_type gap +0.468 (n 245); invalidation gap +0.114 (n 300); stop truths 55",
+  "budget_charged_min": 8.37,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:59:21",
+  "finished_at": "2026-09-02T14:07:43",
+  "detail": "next_action gap +0.501 (n 245); stop gap +0.029 (n 300); changed_context gap +0.586 (n 300); next_type gap +0.468 (n 245); invalidation gap +0.114 (n 300); stop truths 55"
+ },
+ "K02": {
+  "cell_id": "K02",
+  "card": "K02",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "K01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K02\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": false,
+  "why": "How well do uniform, marginal, persistence, position, and opportunity-only baselines predict?",
+  "reason": "{\"U\": -2.685, \"PERS\": -2.809, \"OR\": -1.977}",
+  "budget_charged_min": 3.32,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:07:43",
+  "finished_at": "2026-09-02T14:11:02",
+  "detail": "{\"U\": -2.685, \"PERS\": -2.809, \"OR\": -1.977}"
+ },
+ "K03": {
+  "cell_id": "K03",
+  "card": "K03",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "K01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K03\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": false,
+  "why": "How well does the strongest common-domain process model predict without maker-specific state?",
+  "reason": "{\"DOM\": -2.627, \"OR\": -1.977}",
+  "budget_charged_min": 3.32,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:07:43",
+  "finished_at": "2026-09-02T14:11:02",
+  "detail": "{\"DOM\": -2.627, \"OR\": -1.977}"
+ },
+ "K04": {
+  "cell_id": "K04",
+  "card": "K04",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K04\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "Can a reader use the complete executable C_m+B+K+A+G+H state to improve next action over DOM?",
+  "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "budget_charged_min": 0.21,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:20:16",
+  "finished_at": "2026-09-02T14:20:29",
+  "detail": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "FAILED",
+     "outcome": "INSTRUMENT_FAILED",
+     "attempts": 3
+    },
+    "moved": [
+     "cases.jsonl",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K15": {
+  "cell_id": "K15",
+  "card": "K15",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K15\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "Can the complete state improve continuation/stopping when the stop law genuinely depends on maker state?",
+  "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 6.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:20:29",
+  "finished_at": "2026-09-02T14:26:49",
+  "detail": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K05": {
+  "cell_id": "K05",
+  "card": "K05",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K05\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "Can the same reader use a complete natural-language rendering of that state?",
+  "reason": "interval includes zero and excludes a practically useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "budget_charged_min": 6.91,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:26:49",
+  "finished_at": "2026-09-02T14:33:43",
+  "detail": "interval includes zero and excludes a practically useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K06": {
+  "cell_id": "K06",
+  "card": "K06",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K06\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "What does supplied external and maker-interpreted context add by itself?",
+  "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "budget_charged_min": 6.66,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:33:43",
+  "finished_at": "2026-09-02T14:40:23",
+  "detail": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K07": {
+  "cell_id": "K07",
+  "card": "K07",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K07\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "What does the true subjective action space add by itself?",
+  "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "budget_charged_min": 6.62,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:40:23",
+  "finished_at": "2026-09-02T14:47:00",
+  "detail": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K08": {
+  "cell_id": "K08",
+  "card": "K08",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K08\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "What does the true expertise/transition law add by itself?",
+  "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "budget_charged_min": 6.65,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:47:00",
+  "finished_at": "2026-09-02T14:53:39",
+  "detail": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K09": {
+  "cell_id": "K09",
+  "card": "K09",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K09\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "What does the true belief/information state add by itself?",
+  "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.078 nats (20 percent of gap 0.38922811011771813)",
+  "budget_charged_min": 8.39,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:53:39",
+  "finished_at": "2026-09-02T15:02:03",
+  "detail": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.078 nats (20 percent of gap 0.38922811011771813)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K10": {
+  "cell_id": "K10",
+  "card": "K10",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K10\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "What does the true proximal goal add by itself?",
+  "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.146 nats (20 percent of gap 0.7280935166110662)",
+  "budget_charged_min": 9.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T15:02:03",
+  "finished_at": "2026-09-02T15:11:03",
+  "detail": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.146 nats (20 percent of gap 0.7280935166110662)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X16": {
+  "cell_id": "X16",
+  "card": "X16",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "K09",
+   "K12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X16\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Swap maker beliefs while holding objective facts, goal, and law fixed.",
+  "reason": "K09 twin reversal follow rate 0.14285714285714285 over 14 oracle changes",
+  "budget_charged_min": 15.5,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T15:53:11",
+  "finished_at": "2026-09-02T16:08:41",
+  "detail": "K09 twin reversal follow rate 0.14285714285714285 over 14 oracle changes"
+ },
+ "X17": {
+  "cell_id": "X17",
+  "card": "X17",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "K08",
+   "K14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X17\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Swap expertise/action laws while matching observed prefix, endpoint, and surface.",
+  "reason": "K08 COUNTEREVIDENCE -0.6627763327706936",
+  "budget_charged_min": 22.54,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-02T17:07:54",
+  "finished_at": "2026-09-02T17:30:27",
+  "detail": "K08 COUNTEREVIDENCE -0.6627763327706936"
+ },
+ "X18": {
+  "cell_id": "X18",
+  "card": "X18",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "K10",
+   "K11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X18\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Swap proximal goals while matching belief, expertise, prefix, and endpoint.",
+  "reason": "K10 twin reversal follow rate 0.05357142857142857 over 56 oracle changes",
+  "budget_charged_min": 15.67,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T15:37:31",
+  "finished_at": "2026-09-02T15:53:11",
+  "detail": "K10 twin reversal follow rate 0.05357142857142857 over 56 oracle changes"
+ },
+ "X10": {
+  "cell_id": "X10",
+  "card": "X10",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "K05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X10\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": true,
+  "why": "Paraphrase prompts, state descriptions, and serialization without changing operative meaning.",
+  "reason": "paraphrase TV 0.5705244634070396; meaning-change (should-break) TV 0.593420396337059",
+  "budget_charged_min": 5.38,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T15:11:03",
+  "finished_at": "2026-09-02T15:16:25",
+  "detail": "paraphrase TV 0.5705244634070396; meaning-change (should-break) TV 0.593420396337059",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X11": {
+  "cell_id": "X11",
+  "card": "X11",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "K05",
+   "K09"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X11\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": true,
+  "why": "Change operative meaning while matching length, fluency, specificity, and confidence language.",
+  "reason": "meaning-change TV 0.6092684878732796; band at or above 0.05",
+  "budget_charged_min": 4.4,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T15:16:25",
+  "finished_at": "2026-09-02T15:20:50",
+  "detail": "meaning-change TV 0.6092684878732796; band at or above 0.05",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K11": {
+  "cell_id": "K11",
+  "card": "K11",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K11\\verdict.json",
+  "est_minutes": 48.0,
+  "gpu": true,
+  "why": "With C_m+B+K+A+H supplied, can the reader infer only G and preserve prospective gain?",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "budget_charged_min": 23.54,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T16:44:49",
+  "finished_at": "2026-09-02T16:51:40",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T16:44:45",
+    "tag": "grammar",
+    "why": "the proposal grammars rejected the readers' competent answers (fields split across lines; skill lists without a pace); the joint arm's rows re-run under the tolerant parsers, the other arms' rows restored",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K12": {
+  "cell_id": "K12",
+  "card": "K12",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K12\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "With C_m+K+A+G+H supplied, can it infer only B?",
+  "reason": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct; floor 0.078 nats (20 percent of gap 0.38922811011771813)",
+  "budget_charged_min": 23.61,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T16:51:40",
+  "finished_at": "2026-09-02T16:59:37",
+  "detail": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct; floor 0.078 nats (20 percent of gap 0.38922811011771813)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T16:44:45",
+    "tag": "grammar",
+    "why": "the proposal grammars rejected the readers' competent answers (fields split across lines; skill lists without a pace); the joint arm's rows re-run under the tolerant parsers, the other arms' rows restored",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "SUPPORT_CANDIDATE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K13": {
+  "cell_id": "K13",
+  "card": "K13",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K13\\verdict.json",
+  "est_minutes": 48.0,
+  "gpu": true,
+  "why": "With C_ext+B+K+G+H supplied, can it reconstruct A?",
+  "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "budget_charged_min": 31.03,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T16:12:55",
+  "finished_at": "2026-09-02T16:28:27",
+  "detail": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T16:12:51",
+    "tag": "propose",
+    "why": "the joint reader was made to propose a derivable factor whose grammar returned nothing, so every row was unrealized; the rung now proposes the action set with the context derived",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K14": {
+  "cell_id": "K14",
+  "card": "K14",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K14\\verdict.json",
+  "est_minutes": 64.0,
+  "gpu": true,
+  "why": "With C_m+B+A+G+H supplied plus demonstrations, can it infer the missing expertise law?",
+  "reason": "directional support at or above the frozen threshold; reader LEARN|-; learned (LEARN, SLJ) versus selected (KL) scored apart",
+  "budget_charged_min": 21.01,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T16:59:37",
+  "finished_at": "2026-09-02T17:07:54",
+  "detail": "directional support at or above the frozen threshold; reader LEARN|-; learned (LEARN, SLJ) versus selected (KL) scored apart",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T16:44:45",
+    "tag": "grammar",
+    "why": "the proposal grammars rejected the readers' competent answers (fields split across lines; skill lists without a pace); the joint arm's rows re-run under the tolerant parsers, the other arms' rows restored",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "SUPPORT_CANDIDATE",
+     "attempts": 2
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "K16": {
+  "cell_id": "K16",
+  "card": "K16",
+  "track": "supplied_state",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K16\\verdict.json",
+  "est_minutes": 64.0,
+  "gpu": true,
+  "why": "Conditional on K04, how do structured computation, inference-time compute, and model size affect state use?",
+  "reason": "interval entirely below zero; reader qwen9b|small; diagnosis under a failed K04 gate",
+  "budget_charged_min": 22.54,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-02T17:07:54",
+  "finished_at": "2026-09-02T17:30:27",
+  "detail": "interval entirely below zero; reader qwen9b|small; diagnosis under a failed K04 gate",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X13": {
+  "cell_id": "X13",
+  "card": "X13",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "K14",
+   "R09"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X13\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Relabel supplied laws and candidate hypotheses while preserving executable behavior.",
+  "reason": "true-law mass difference under relabeling 0.0",
+  "budget_charged_min": 14.12,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T18:40:49",
+  "finished_at": "2026-09-02T18:54:56",
+  "detail": "true-law mass difference under relabeling 0.0"
+ },
+ "X15": {
+  "cell_id": "X15",
+  "card": "X15",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "K13",
+   "R04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X15\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Swap objective and subjective action spaces while holding the observed choice fixed.",
+  "reason": "K13 SLJ mass on unavailable 0.17008380201726922",
+  "budget_charged_min": 6.76,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T18:19:25",
+  "finished_at": "2026-09-02T18:26:11",
+  "detail": "K13 SLJ mass on unavailable 0.17008380201726922"
+ },
+ "X01": {
+  "cell_id": "X01",
+  "card": "X01",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "I05",
+   "K04",
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X01\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Replace the entire hidden future while holding visible bytes fixed.",
+  "reason": "reset (residue): the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside; first attempt preserved under superseded_residue/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": "2026-09-02T20:09:08",
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T20:18:48",
+    "tag": "residue",
+    "why": "the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X02": {
+  "cell_id": "X02",
+  "card": "X02",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "I06",
+   "K15",
+   "P05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X02\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Replace hidden length, stopping parameters, and stop outcome.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X03": {
+  "cell_id": "X03",
+  "card": "X03",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "I07",
+   "P07",
+   "P08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X03\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Replace future cues, interruptions, invalidations, and changed-context truth.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X06": {
+  "cell_id": "X06",
+  "card": "X06",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "K04",
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X06\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": true,
+  "why": "Permute answer, action, and candidate order with fixed-order paired scoring.",
+  "reason": "reset (residue): the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside; first attempt preserved under superseded_residue/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": "2026-09-02T20:09:08",
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T20:18:48",
+    "tag": "residue",
+    "why": "the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl"
+    ]
+   }
+  ]
+ },
+ "R01": {
+  "cell_id": "R01",
+  "card": "R01",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "K11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R01\\verdict.json",
+  "est_minutes": 24.0,
+  "gpu": true,
+  "why": "Does candidate generation include the true/equivalent proximal goal before selection?",
+  "reason": "recall 0.23333333333333334; redundancy 0.36666666666666664; posterior mass on truth 0.23333333333333334; gate closed",
+  "budget_charged_min": 13.25,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T17:38:27",
+  "finished_at": "2026-09-02T17:44:59",
+  "detail": "recall 0.23333333333333334; redundancy 0.36666666666666664; posterior mass on truth 0.23333333333333334; gate closed",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T17:38:23",
+    "tag": "prose",
+    "why": "the goal grammar rejected SmolLM2's prose answers naming the action types in order; decoded now as the pull ordering",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "DESCRIPTIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R02": {
+  "cell_id": "R02",
+  "card": "R02",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "K12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R02\\verdict.json",
+  "est_minutes": 24.0,
+  "gpu": true,
+  "why": "Does it include the true/equivalent belief state?",
+  "reason": "recall 0.37383177570093457; redundancy 0.037383177570093455; posterior mass on truth 0.368973937141033; gate closed",
+  "budget_charged_min": 11.52,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-02T17:44:59",
+  "finished_at": "2026-09-02T17:56:30",
+  "detail": "recall 0.37383177570093457; redundancy 0.037383177570093455; posterior mass on truth 0.368973937141033; gate closed",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R03": {
+  "cell_id": "R03",
+  "card": "R03",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "K14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R03\\verdict.json",
+  "est_minutes": 24.0,
+  "gpu": true,
+  "why": "Does it include a behaviorally equivalent expertise law not named in the prompt?",
+  "reason": "recall 0.3333333333333333; redundancy 0.55; posterior mass on truth 0.3333333333333333; gate closed",
+  "budget_charged_min": 14.37,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T18:04:42",
+  "finished_at": "2026-09-02T18:11:59",
+  "detail": "recall 0.3333333333333333; redundancy 0.55; posterior mass on truth 0.3333333333333333; gate closed",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T18:04:38",
+    "tag": "lawlines",
+    "why": "the law grammar rejected Qwen's proposal split across skill, weak, and pace lines; merged now",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "DESCRIPTIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R04": {
+  "cell_id": "R04",
+  "card": "R04",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "K13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R04\\verdict.json",
+  "est_minutes": 24.0,
+  "gpu": true,
+  "why": "Does it reconstruct the maker's subjective action space rather than repeat the objective list?",
+  "reason": "recall 0.03333333333333333; redundancy 0.26666666666666666; posterior mass on truth 0.03333333333333333; gate closed",
+  "budget_charged_min": 7.44,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-02T18:11:59",
+  "finished_at": "2026-09-02T18:19:25",
+  "detail": "recall 0.03333333333333333; redundancy 0.26666666666666666; posterior mass on truth 0.03333333333333333; gate closed",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R05": {
+  "cell_id": "R05",
+  "card": "R05",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R05\\verdict.json",
+  "est_minutes": 24.0,
+  "gpu": true,
+  "why": "Does it reconstruct maker-interpreted context rather than copy external context?",
+  "reason": "recall 0.09166666666666666; redundancy 0.525; posterior mass on truth 0.09166666666666666; gate closed",
+  "budget_charged_min": 6.76,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T18:19:25",
+  "finished_at": "2026-09-02T18:26:11",
+  "detail": "recall 0.09166666666666666; redundancy 0.525; posterior mass on truth 0.09166666666666666; gate closed",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R06": {
+  "cell_id": "R06",
+  "card": "R06",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "VOID",
+  "depends_on": [
+   "K11",
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R06\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "With all other factors supplied, does inferred G recover the K11 prospective advantage?",
+  "reason": "{\"HuggingFaceTB/SmolLM2-1.7B-Instruct\": null, \"Qwen/Qwen2.5-1.5B-Instruct\": null}",
+  "budget_charged_min": 15.67,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T15:37:31",
+  "finished_at": "2026-09-02T15:53:11",
+  "detail": "{\"HuggingFaceTB/SmolLM2-1.7B-Instruct\": null, \"Qwen/Qwen2.5-1.5B-Instruct\": null}",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R07": {
+  "cell_id": "R07",
+  "card": "R07",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "VOID",
+  "depends_on": [
+   "K12",
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R07\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "With all other factors supplied, does inferred B recover the K12 advantage?",
+  "reason": "{\"HuggingFaceTB/SmolLM2-1.7B-Instruct\": null, \"Qwen/Qwen2.5-1.5B-Instruct\": null, \"changed_context\": null}",
+  "budget_charged_min": 15.5,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T15:53:11",
+  "finished_at": "2026-09-02T16:08:41",
+  "detail": "{\"HuggingFaceTB/SmolLM2-1.7B-Instruct\": null, \"Qwen/Qwen2.5-1.5B-Instruct\": null, \"changed_context\": null}",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R08": {
+  "cell_id": "R08",
+  "card": "R08",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "VOID",
+  "depends_on": [
+   "K13",
+   "K04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R08\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "With all other factors supplied, does inferred A recover the K13 advantage?",
+  "reason": "{\"HuggingFaceTB/SmolLM2-1.7B-Instruct\": null, \"Qwen/Qwen2.5-1.5B-Instruct\": null, \"unavailable_mass\": null}",
+  "budget_charged_min": 12.72,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-02T16:28:27",
+  "finished_at": "2026-09-02T16:41:10",
+  "detail": "{\"HuggingFaceTB/SmolLM2-1.7B-Instruct\": null, \"Qwen/Qwen2.5-1.5B-Instruct\": null, \"unavailable_mass\": null}",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R09": {
+  "cell_id": "R09",
+  "card": "R09",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "K14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R09\\verdict.json",
+  "est_minutes": 48.0,
+  "gpu": true,
+  "why": "Can K be learned from demonstrations or earlier artifacts and transfer to an untouched episode?",
+  "reason": "directional support at or above the frozen threshold; reader LEARN|-",
+  "budget_charged_min": 14.63,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T18:26:11",
+  "finished_at": "2026-09-02T18:40:49",
+  "detail": "directional support at or above the frozen threshold; reader LEARN|-",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R10": {
+  "cell_id": "R10",
+  "card": "R10",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "R05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R10\\verdict.json",
+  "est_minutes": 48.0,
+  "gpu": true,
+  "why": "Can C_m be inferred from artifact/source evidence and improve a later choice?",
+  "reason": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "budget_charged_min": 28.49,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T18:58:35",
+  "finished_at": "2026-09-02T19:12:57",
+  "detail": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T18:58:31",
+    "tag": "changed",
+    "why": "the program routes answered the changed-context and invalidation targets uniform; they now execute the changed context and the invalidation response through the law",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R11": {
+  "cell_id": "R11",
+  "card": "R11",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "K11",
+   "K12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R11\\verdict.json",
+  "est_minutes": 64.0,
+  "gpu": true,
+  "why": "Can G and B be inferred jointly without collapsing one into the other?",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 10.75,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-02T19:12:57",
+  "finished_at": "2026-09-02T19:23:43",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R12": {
+  "cell_id": "R12",
+  "card": "R12",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "K13",
+   "K14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R12\\verdict.json",
+  "est_minutes": 64.0,
+  "gpu": true,
+  "why": "Can K and A be inferred jointly without treating objective opportunity as competence?",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 23.93,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T19:23:43",
+  "finished_at": "2026-09-02T19:47:39",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R13": {
+  "cell_id": "R13",
+  "card": "R13",
+  "track": "reconstruction",
+  "exec_state": "RUNNING",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R11",
+   "R12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R13\\verdict.json",
+  "est_minutes": 96.0,
+  "gpu": true,
+  "why": "Can the full factor set be inferred jointly from visible evidence and improve prediction over DOM and DIR?",
+  "reason": "reset (residue): the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside; first attempt preserved under superseded_residue/",
+  "budget_charged_min": 21.49,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T20:19:43",
+  "finished_at": "2026-09-02T20:09:08",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T20:18:48",
+    "tag": "residue",
+    "why": "the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R14": {
+  "cell_id": "R14",
+  "card": "R14",
+  "track": "reconstruction",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R14\\verdict.json",
+  "est_minutes": 80.0,
+  "gpu": true,
+  "why": "Does maker familiarity help where cold reading fails, independently of domain expertise?",
+  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "R15": {
+  "cell_id": "R15",
+  "card": "R15",
+  "track": "reconstruction",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R15\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Does domain expertise help reconstruct feasible processes without falsely increasing maker certainty?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "R16": {
+  "cell_id": "R16",
+  "card": "R16",
+  "track": "reconstruction",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R16\\verdict.json",
+  "est_minutes": 48.0,
+  "gpu": true,
+  "why": "Does the reader preserve observationally equivalent maker models and choose a useful next discriminator?",
+  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X12": {
+  "cell_id": "X12",
+  "card": "X12",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13",
+   "K11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X12\\verdict.json",
+  "est_minutes": 12.0,
+  "gpu": true,
+  "why": "Duplicate or paraphrase evidence from one causal source.",
+  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X14": {
+  "cell_id": "X14",
+  "card": "X14",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R16",
+   "P10"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X14\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Hold the final artifact and visible prefix fixed while swapping valid hidden histories.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X20": {
+  "cell_id": "X20",
+  "card": "X20",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "K03",
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X20\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Strengthen persistence, position, grammar, genre, and opportunity baselines.",
+  "reason": "reset (residue): the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside; first attempt preserved under superseded_residue/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": "2026-09-02T20:09:08",
+  "finished_at": null,
+  "detail": null,
+  "resets": [
+   {
+    "at": "2026-09-02T20:18:48",
+    "tag": "residue",
+    "why": "the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": []
+   }
+  ]
+ },
+ "A08": {
+  "cell_id": "A08",
+  "card": "A08",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "A07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A08\\verdict.json",
+  "est_minutes": 24.0,
+  "gpu": true,
+  "why": "Does AutoToM-style utility add a genuinely missing latent and reject false expansion in a complete world?",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader missing_variable|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 32.44,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:26:54",
+  "finished_at": "2026-09-02T13:59:21",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader missing_variable|HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ },
+ "A11": {
+  "cell_id": "A11",
+  "card": "A11",
+  "track": "architecture",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "A10"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A11\\verdict.json",
+  "est_minutes": 24.0,
+  "gpu": true,
+  "why": "Does it synthesize the agent model, parse observations/actions, and run inverse inference over that model?",
+  "reason": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "budget_charged_min": 8.37,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T13:59:21",
+  "finished_at": "2026-09-02T14:07:43",
+  "detail": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct"
+ },
+ "A14": {
+  "cell_id": "A14",
+  "card": "A14",
+  "track": "architecture",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A14\\verdict.json",
+  "est_minutes": 36.0,
+  "gpu": true,
+  "why": "Does the Sounding joint reader revise mutually constraining factor hypotheses rather than produce a longer rationale?",
+  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "A15": {
+  "cell_id": "A15",
+  "card": "A15",
+  "track": "architecture",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A15\\verdict.json",
+  "est_minutes": 64.0,
+  "gpu": true,
+  "why": "At matched evidence and measured compute, does structured computation beat direct inference-time computation?",
+  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "A16": {
+  "cell_id": "A16",
+  "card": "A16",
+  "track": "architecture",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "K04",
+   "R01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A16\\verdict.json",
+  "est_minutes": 60.0,
+  "gpu": true,
+  "why": "Conditional on the supplied-state gate, does a larger local model improve factor use or only verbal proposal quality?",
+  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X21": {
+  "cell_id": "X21",
+  "card": "X21",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R14",
+   "A16"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X21\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Transfer across reader size/family, maker family, domain, and evidence regime.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P01": {
+  "cell_id": "P01",
+  "card": "P01",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P01\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can the reader predict the exact next feasible action?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P02": {
+  "cell_id": "P02",
+  "card": "P02",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P02\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can it predict next edit type?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P03": {
+  "cell_id": "P03",
+  "card": "P03",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P03\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can it predict location and scope of the next edit?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P04": {
+  "cell_id": "P04",
+  "card": "P04",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P04\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can it predict which available alternative the maker rejects?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P05": {
+  "cell_id": "P05",
+  "card": "P05",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13",
+   "K15"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P05\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can it predict continuation versus stopping at a real decision boundary?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P06": {
+  "cell_id": "P06",
+  "card": "P06",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P06\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can it distinguish satisfaction, deadline, and fatigue boundaries or abstain when they are equivalent?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P07": {
+  "cell_id": "P07",
+  "card": "P07",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P07\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can it predict a later action after a context or opportunity change?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P08": {
+  "cell_id": "P08",
+  "card": "P08",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P08\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Can it predict response to a later-invalidated source without treating this as the product target?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P09": {
+  "cell_id": "P09",
+  "card": "P09",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P09\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "Does the model improve the whole withheld tail rather than one queried event?",
+  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": "2026-09-02T14:18:59",
+  "detail": "BLOCKED_DEPENDENCY",
+  "resets": [
+   {
+    "at": "2026-09-02T14:19:43",
+    "tag": "k04guard",
+    "why": "K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked",
+    "before": {
+     "exec_state": "BLOCKED",
+     "outcome": "NOT_RUN",
+     "attempts": 0
+    },
+    "moved": [
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "P10": {
+  "cell_id": "P10",
+  "card": "P10",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "P01",
+   "P05",
+   "R16"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P10\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Is uncertainty calibrated across evidence dose, contradiction, and exact equifinality?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P11": {
+  "cell_id": "P11",
+  "card": "P11",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "I16"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P11\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": true,
+  "why": "Can it localize a known human/model control change in a held-out revision history?",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader HPROC|-",
+  "budget_charged_min": 3.32,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:07:43",
+  "finished_at": "2026-09-02T14:11:02",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader HPROC|-"
+ },
+ "P12": {
+  "cell_id": "P12",
+  "card": "P12",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "P11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P12\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": true,
+  "why": "Does discontinuity localization survive surface normalization and defeat stylometry-only rivals?",
+  "reason": "re-planned at restart; resumes from its rows",
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:18:59",
+  "finished_at": null,
+  "detail": null
+ },
+ "P13": {
+  "cell_id": "P13",
+  "card": "P13",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "D07",
+   "D08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P13\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "After loader repair, can CoAuthor suggestion accept/edit/reject behavior be predicted beyond position and prior-decision baselines?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "P14": {
+  "cell_id": "P14",
+  "card": "P14",
+  "track": "prospective",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "D09"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P14\\verdict.json",
+  "est_minutes": 26.666666666666668,
+  "gpu": true,
+  "why": "In ScholaWrite, can the reader predict the moment and direction of a goal switch rather than win on label persistence?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X22": {
+  "cell_id": "X22",
+  "card": "X22",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "P12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X22\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Normalize style around a real human/model switch and create a style switch without a control switch.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X19": {
+  "cell_id": "X19",
+  "card": "X19",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "V02",
+   "V06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X19\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Swap context, cost, opportunity, or audience while holding standing tendency fixed.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "V01": {
+  "cell_id": "V01",
+  "card": "V01",
+  "track": "history",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "K11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V01\\verdict.json",
+  "est_minutes": 42.666666666666664,
+  "gpu": true,
+  "why": "Can trained automatic capture be separated from current costly redirection?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "V02": {
+  "cell_id": "V02",
+  "card": "V02",
+  "track": "history",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "K11"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V02\\verdict.json",
+  "est_minutes": 32.0,
+  "gpu": true,
+  "why": "After context and functional competence are matched, does current allocation/redirection predict the next local choice?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "V03": {
+  "cell_id": "V03",
+  "card": "V03",
+  "track": "history",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "K11",
+   "K14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V03\\verdict.json",
+  "est_minutes": 42.666666666666664,
+  "gpu": true,
+  "why": "Can lagging expertise oppose a current proximal goal without either being erased from the maker model?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "V04": {
+  "cell_id": "V04",
+  "card": "V04",
+  "track": "history",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "K14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V04\\verdict.json",
+  "est_minutes": 48.0,
+  "gpu": true,
+  "why": "Does one artifact support a dated present focus plus an uncertain historical mixture, rather than two clean time points?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "V05": {
+  "cell_id": "V05",
+  "card": "V05",
+  "track": "history",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "V04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V05\\verdict.json",
+  "est_minutes": 48.0,
+  "gpu": true,
+  "why": "Do multiple dated artifacts improve trajectory prediction over an aggregate expertise/style profile?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "V06": {
+  "cell_id": "V06",
+  "card": "V06",
+  "track": "history",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "V05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V06\\verdict.json",
+  "est_minutes": 48.0,
+  "gpu": true,
+  "why": "Does any inferred trajectory predict a later costly choice beyond context, proximal goal, identity, topic, and expertise baselines?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X23": {
+  "cell_id": "X23",
+  "card": "X23",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I15",
+   "I14"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X23\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Duplicate/reorder rows, leak descendants across splits, and construct planned sign reversals.",
+  "reason": "I15 INFRASTRUCTURE, I14 INFRASTRUCTURE; 0 planned-reversal alarm(s) surfaced",
+  "budget_charged_min": 7.42,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:11:02",
+  "finished_at": "2026-09-02T14:18:27",
+  "detail": "I15 INFRASTRUCTURE, I14 INFRASTRUCTURE; 0 planned-reversal alarm(s) surfaced"
+ },
+ "B04": {
+  "cell_id": "B04",
+  "card": "B04",
+  "track": "closure",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\B04\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "What, if anything, can be read from completed Ghost V15 without importing partial evidence?",
+  "reason": "V15 head ce4c06b (reviewed ce4c06b); complete False; live True; nothing imported",
+  "budget_charged_min": 7.42,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-02T14:11:02",
+  "finished_at": "2026-09-02T14:18:27",
+  "detail": "V15 head ce4c06b (reviewed ce4c06b); complete False; live True; nothing imported"
+ },
+ "B05": {
+  "cell_id": "B05",
+  "card": "B05",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "B04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\B05\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Do coverage, source, access, compute, pursuit, warrant, dependency, and claim ledgers agree?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "B01": {
+  "cell_id": "B01",
+  "card": "B01",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\B01\\verdict.json",
+  "est_minutes": 60.0,
+  "gpu": true,
+  "why": "Does the strongest supplied-state capability effect replicate on untouched worlds?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "B02": {
+  "cell_id": "B02",
+  "card": "B02",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "B01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\B02\\verdict.json",
+  "est_minutes": 60.0,
+  "gpu": true,
+  "why": "Does the strongest qualified reconstruction or architecture effect replicate on untouched lineages?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "B03": {
+  "cell_id": "B03",
+  "card": "B03",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "B02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\B03\\verdict.json",
+  "est_minutes": 40.0,
+  "gpu": true,
+  "why": "Does process-discontinuity localization replicate on untouched mixed-control histories?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "B06": {
+  "cell_id": "B06",
+  "card": "B06",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "B05",
+   "B03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\B06\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": false,
+  "why": "What moves in the project world model, and should a Stage 8, human bridge, or product confirmation open?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X24": {
+  "cell_id": "X24",
+  "card": "X24",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "B05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\X24\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": false,
+  "why": "Fresh-clone every manifest, source hash, access receipt, completion state, confirmation input, and report dependency; force kill/resume once.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ }
+}

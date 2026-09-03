@@ -1,0 +1,78 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "49cadb255fc9fe59",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 78,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1879,
+  "tokens_out": 78,
+  "wall_s": 7.335
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "d067445e4c3d30ef",
+ "notes": {
+  "proposals": {
+   "belief_state": [],
+   "expertise_law": [],
+   "history_residue": [],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "check",
+      "fix"
+     ],
+     "text": "pull: check > fix > rework"
+    }
+   ]
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25,
+   "revise:sec1:s1.1": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25,
+   "revise:sec1:s1.1": 0.25
+  },
+  "next_section": {
+   "sec1": 0.5,
+   "sec2": 0.25,
+   "sec3": 0.25
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.25,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.25,
+   "restructure": 0.25,
+   "revise": 0.25,
+   "write": 0.0
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

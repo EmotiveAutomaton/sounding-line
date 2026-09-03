@@ -1,0 +1,66 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "2272fee9b5f5a4e1",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 17,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 889,
+  "tokens_out": 17,
+  "wall_s": 3.257
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "bb6006c5af319b3c",
+ "notes": {
+  "proposals": {
+   "subjective_action_space": []
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25,
+   "write:sec3:s3.1": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25,
+   "write:sec3:s3.1": 0.25
+  },
+  "next_section": {
+   "sec1": 0.25,
+   "sec2": 0.5,
+   "sec3": 0.25
+  },
+  "next_type": {
+   "check": 0.25,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.25,
+   "restructure": 0.25,
+   "revise": 0.0,
+   "write": 0.25
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

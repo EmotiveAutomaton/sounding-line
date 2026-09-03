@@ -1,0 +1,54 @@
+{
+ "card": "K05",
+ "cell_id": "K05",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 6.89,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "executable-versus-language interaction isolates interface loss",
+ "exec": "COMPLETE",
+ "outcome": "VALID_NULL",
+ "primary": "Can the same reader use a complete natural-language rendering of that state?",
+ "reason": "interval includes zero and excludes a practically useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+ "point": -0.3363277881294274,
+ "ci": [
+  -0.6786697792562048,
+  0.03177625791670367
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "VALID_NULL",
+   "point": -0.3363277881294274
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -3.2970509287874816
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.8166893584584545
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K05\\metrics.json",
+    "sha256": "972ea842032ff06c39885779c68ae6a59a44cb5212c2ca3c9caa5558a172c1fd"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K05\\cases.jsonl",
+    "sha256": "be2d5823c8ff7fe547dd5ab04f43cf90f3f4b3c484ead127b96768a927295ee5"
+   }
+  },
+  "written_at": "2026-09-02T14:33:42"
+ }
+}

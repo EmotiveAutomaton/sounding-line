@@ -1,0 +1,270 @@
+{
+ "card": "P11",
+ "lane": "discovery",
+ "written_at": "2026-09-02T14:10:54",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "by_kind": {
+  "human_then_model": {
+   "HU": {
+    "cp_ls": -2.995732273553991,
+    "abs_error": 5.9,
+    "tol2": 0.4,
+    "none_mass": 0.05
+   },
+   "HSTYLE": {
+    "cp_ls": -2.5863089748737953,
+    "abs_error": 5.8091190461676065,
+    "tol2": 0.2,
+    "none_mass": 0.037788508923931444
+   },
+   "HPERS": {
+    "cp_ls": -2.4993254209792424,
+    "abs_error": 4.948441152780821,
+    "tol2": 0.6,
+    "none_mass": 0.04100630332296932
+   },
+   "HSTACK": {
+    "cp_ls": -2.5863089748737953,
+    "abs_error": 5.8091190461676065,
+    "tol2": 0.2,
+    "none_mass": 0.037788508923931444
+   },
+   "HPROC": {
+    "cp_ls": -1.0203549844365987,
+    "abs_error": 1.6292529843642949,
+    "tol2": 0.8,
+    "none_mass": 0.00909820529858511
+   },
+   "HDIR": {
+    "cp_ls": -4.0235567312888865,
+    "abs_error": 5.449645107819896,
+    "tol2": 0.1,
+    "none_mass": 0.02982886574519699
+   }
+  },
+  "model_then_human": {
+   "HU": {
+    "cp_ls": -2.995732273553991,
+    "abs_error": 6.050000000000001,
+    "tol2": 0.6,
+    "none_mass": 0.05
+   },
+   "HSTYLE": {
+    "cp_ls": -2.7001452219525683,
+    "abs_error": 5.719356072123886,
+    "tol2": 0.2,
+    "none_mass": 0.03987150020042526
+   },
+   "HPERS": {
+    "cp_ls": -2.3837767603471636,
+    "abs_error": 4.521790089046495,
+    "tol2": 0.6,
+    "none_mass": 0.03897572551885757
+   },
+   "HSTACK": {
+    "cp_ls": -2.7001452219525683,
+    "abs_error": 5.719356072123886,
+    "tol2": 0.2,
+    "none_mass": 0.03987150020042526
+   },
+   "HPROC": {
+    "cp_ls": -1.7020517856550519,
+    "abs_error": 1.7258129258695,
+    "tol2": 0.4,
+    "none_mass": 0.00014615848048595435
+   },
+   "HDIR": {
+    "cp_ls": -4.032060046496394,
+    "abs_error": 6.171340803615665,
+    "tol2": 0.2,
+    "none_mass": 0.06620799264493929
+   }
+  },
+  "alternating_normalized": {
+   "HU": {
+    "cp_ls": -2.995732273553991,
+    "abs_error": 8.92,
+    "tol2": 0.0,
+    "none_mass": 0.05
+   },
+   "HSTYLE": {
+    "cp_ls": -2.49075381848009,
+    "abs_error": 8.283385233745213,
+    "tol2": 0.8,
+    "none_mass": 0.04631600588981444
+   },
+   "HPERS": {
+    "cp_ls": -3.3789672189534663,
+    "abs_error": 10.062676648557682,
+    "tol2": 0.4,
+    "none_mass": 0.04014886491526147
+   },
+   "HSTACK": {
+    "cp_ls": -2.49075381848009,
+    "abs_error": 8.283385233745213,
+    "tol2": 0.8,
+    "none_mass": 0.04631600588981444
+   },
+   "HPROC": {
+    "cp_ls": -4.114977346113334,
+    "abs_error": 9.650973648003808,
+    "tol2": 0.2,
+    "none_mass": 0.06147513349238235
+   },
+   "HDIR": {
+    "cp_ls": -4.064943454513268,
+    "abs_error": 8.743761718233099,
+    "tol2": 0.1,
+    "none_mass": 0.02215467314083836
+   }
+  },
+  "human_only": {
+   "HU": {
+    "cp_ls": -2.995732273553991,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.05
+   },
+   "HSTYLE": {
+    "cp_ls": -3.0637531893424397,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.04677177602538813
+   },
+   "HPERS": {
+    "cp_ls": -3.300772889955905,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.037832734895032846
+   },
+   "HSTACK": {
+    "cp_ls": -3.0637531893424397,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.04677177602538813
+   },
+   "HPROC": {
+    "cp_ls": -2.3153901716759107,
+    "abs_error": null,
+    "tol2": 0.4,
+    "none_mass": 0.17722948900145757
+   },
+   "HDIR": {
+    "cp_ls": -4.162482215627309,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.02674491441894334
+   }
+  },
+  "model_only": {
+   "HU": {
+    "cp_ls": -2.995732273553991,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.05
+   },
+   "HSTYLE": {
+    "cp_ls": -3.1991934320347553,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.04227977584324135
+   },
+   "HPERS": {
+    "cp_ls": -3.1494520046722583,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.043000169208873014
+   },
+   "HSTACK": {
+    "cp_ls": -3.1991934320347553,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.04227977584324135
+   },
+   "HPROC": {
+    "cp_ls": -5.693589146559694,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.032111800577492675
+   },
+   "HDIR": {
+    "cp_ls": -5.463931818655195,
+    "abs_error": null,
+    "tol2": 0.0,
+    "none_mass": 0.01444575577245744
+   }
+  }
+ },
+ "stack_weights": {
+  "style": 1.0,
+  "pers": 0.0
+ },
+ "oracle_cp_ls": -2.311397207709244,
+ "cells": {
+  "HPROC|-": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.3132746330338228,
+   "ci": [
+    -0.6727189844545334,
+    1.20191949963973
+   ],
+   "n_units": 15,
+   "threshold": 0.1,
+   "perm_p": 0.5524223788810559,
+   "arm": "HPROC",
+   "rival": "HSTACK"
+  },
+  "HDIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.1081481229098857,
+   "ci": [
+    -1.5056282083086066,
+    -0.6724009185469298
+   ],
+   "n_units": 15,
+   "threshold": 0.1,
+   "perm_p": 0.000599970001499925,
+   "arm": "HDIR",
+   "rival": "HSTACK"
+  },
+  "HDIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.787420021751511,
+   "ci": [
+    -2.4764333451116434,
+    -1.0206739837761434
+   ],
+   "n_units": 15,
+   "threshold": 0.1,
+   "perm_p": 0.0007999600019999,
+   "arm": "HDIR",
+   "rival": "HSTACK"
+  },
+  "HDIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.4477840723306983,
+   "ci": [
+    -1.891044592799075,
+    -0.9480192684702319
+   ],
+   "n_units": 15,
+   "threshold": 0.1,
+   "perm_p": 0.0002999850007499625,
+   "arm": "HDIR",
+   "rival": "HSTACK",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 0
+}

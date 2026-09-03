@@ -1,0 +1,54 @@
+{
+ "card": "R10",
+ "cell_id": "R10",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 14.35,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "context reconstruction beyond topic/style and copied biography",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "primary": "Can C_m be inferred from artifact/source evidence and improve a later choice?",
+ "reason": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct",
+ "point": 0.5888892007049784,
+ "ci": [
+  0.30620942211485597,
+  0.9032007197042928
+ ],
+ "n_units": 60,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11098654066814927
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.5888892007049784
+  },
+  "pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.34993787068656396
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R10\\metrics.json",
+    "sha256": "5df99d8fdcfca75060edd065ef00cd6e8c457b3baa525e144fbaab506eb4806b"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R10\\cases.jsonl",
+    "sha256": "fa66484c320c7ca947750f8bd0e08488a91acd7c47c909be8c32fee6a0231397"
+   }
+  },
+  "written_at": "2026-09-02T19:12:57"
+ }
+}

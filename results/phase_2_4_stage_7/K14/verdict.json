@@ -1,0 +1,58 @@
+{
+ "card": "K14",
+ "cell_id": "K14",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 8.27,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "held-out action under a new state; selecting a listed law is scored separately",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "primary": "With C_m+B+A+G+H supplied plus demonstrations, can it infer the missing expertise law?",
+ "reason": "directional support at or above the frozen threshold; reader LEARN|-; learned (LEARN, SLJ) versus selected (KL) scored apart",
+ "point": 0.5738943509281512,
+ "ci": [
+  0.3101461324873022,
+  0.8505558459908259
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "LEARN|-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.5738943509281512
+  },
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.0013188234332076147
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.17111565754243585
+  },
+  "SLJ|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.0848984170546141
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K14\\metrics.json",
+    "sha256": "cdc1b421552382ca440da745ef70f403f2f95fc0394eda7e414b55dd14568e9f"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K14\\cases.jsonl",
+    "sha256": "5fba64cd9b0e5ad3abef6e843e19d561ceab6646b31be4b8c0411c7a84f65a4b"
+   }
+  },
+  "written_at": "2026-09-02T17:07:53"
+ }
+}

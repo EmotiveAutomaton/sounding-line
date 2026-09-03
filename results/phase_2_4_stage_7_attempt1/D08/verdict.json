@@ -1,0 +1,30 @@
+{
+ "card": "D08",
+ "cell_id": "D08",
+ "lane": "discovery",
+ "track": "dependency",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.22,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "validate only against independent fields actually present; reject invented final-text ground truth",
+ "exec": "COMPLETE",
+ "outcome": "DESCRIPTIVE",
+ "primary": "What CoAuthor reconstruction claim is licensed by the source fields?",
+ "reason": "200/200 sessions reconstruct under standard delta semantics; no final reference exists in the source",
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3f8dbcaf1bf6e665",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\D08\\metrics.json",
+    "sha256": "f1384c744643a0b46b29186aa0e62d15b552e1e744f45df89937543a5793ef56"
+   }
+  },
+  "written_at": "2026-09-02T10:57:38"
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "abstain": false,
+ "arm": "LEARN",
+ "canonical_sha": "e40967b763b6ba58",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 0,
+  "model_calls": 0,
+  "retries": 0,
+  "solver_operations": 48,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "wall_s": 0.015
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "4fffcd54442f7859",
+ "notes": {
+  "demo_ll": -36.87535946885255,
+  "fitted_law": {
+   "chain": {},
+   "confidence": 0.5,
+   "cost": {
+    "check": -0.3,
+    "cite": 0.9,
+    "consult": 0.3,
+    "fix": -0.1,
+    "probe": -0.3,
+    "restructure": 0.3,
+    "revise": 0.1,
+    "write": 0.9
+   },
+   "expected_len": 12.0,
+   "feasible_min_skill": {
+    "fix": 0.3,
+    "probe": 0.4,
+    "restructure": 0.6
+   },
+   "fluency": 1.6,
+   "skill": {
+    "check": 0.7,
+    "cite": 0.7,
+    "consult": 0.7,
+    "fix": 0.7,
+    "probe": 0.7,
+    "restructure": 0.7,
+    "revise": 0.7,
+    "write": 0.7
+   }
+  },
+  "subjective_ids": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.2",
+   "write:sec1:s1.3",
+   "write:sec2:s2.1",
+   "write:sec2:s2.2",
+   "write:sec2:s2.3",
+   "write:sec3:s3.1",
+   "write:sec3:s3.2",
+   "write:sec4:s4.1",
+   "write:sec4:s4.2",
+   "revise:sec2:s2.2",
+   "revise:sec4:s4.2",
+   "revise:sec3:s3.2",
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "check:sec3:s3.1",
+   "check:sec4:s4.1",
+   "consult:sec1:src",
+   "probe:sec1:tech"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0,
+   "equivalent": 0.0,
+   "fatigue": 0.0,
+   "satisfaction": 0.0
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.047619047619047616,
+   "check:sec2:s2.1": 0.047619047619047616,
+   "check:sec3:s3.1": 0.047619047619047616,
+   "check:sec4:s4.1": 0.047619047619047616,
+   "cite:sec4:ref": 0.047619047619047616,
+   "consult:sec1:src": 0.047619047619047616,
+   "probe:sec1:tech": 0.047619047619047616,
+   "restructure:sec3:order": 0.047619047619047616,
+   "revise:sec2:s2.2": 0.047619047619047616,
+   "revise:sec3:s3.2": 0.047619047619047616,
+   "revise:sec4:s4.2": 0.047619047619047616,
+   "write:sec1:s1.1": 0.047619047619047616,
+   "write:sec1:s1.2": 0.047619047619047616,
+   "write:sec1:s1.3": 0.047619047619047616,
+   "write:sec2:s2.1": 0.047619047619047616,
+   "write:sec2:s2.2": 0.047619047619047616,
+   "write:sec2:s2.3": 0.047619047619047616,
+   "write:sec3:s3.1": 0.047619047619047616,
+   "write:sec3:s3.2": 0.047619047619047616,
+   "write:sec4:s4.1": 0.047619047619047616,
+   "write:sec4:s4.2": 0.047619047619047616
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.10013672809683832,
+   "check:sec2:s2.1": 0.09261133413971472,
+   "check:sec3:s3.1": 0.08565148246948455,
+   "check:sec4:s4.1": 0.07921467191211136,
+   "cite:sec4:ref": 0.0,
+   "consult:sec1:src": 0.10013672809683832,
+   "probe:sec1:tech": 0.08837035238041566,
+   "restructure:sec3:order": 0.0,
+   "revise:sec2:s2.2": 0.06365077704875428,
+   "revise:sec3:s3.2": 0.05886734561382964,
+   "revise:sec4:s4.2": 0.0544433947281385,
+   "write:sec1:s1.1": 0.03053997658464028,
+   "write:sec1:s1.2": 0.03053997658464028,
+   "write:sec1:s1.3": 0.03053997658464028,
+   "write:sec2:s2.1": 0.02824486109995525,
+   "write:sec2:s2.2": 0.02824486109995525,
+   "write:sec2:s2.3": 0.02824486109995525,
+   "write:sec3:s3.1": 0.026122226267750164,
+   "write:sec3:s3.2": 0.026122226267750164,
+   "write:sec4:s4.1": 0.02415910996229391,
+   "write:sec4:s4.2": 0.02415910996229391
+  },
+  "next_section": {
+   "sec1": 0.38026373832801313,
+   "sec2": 0.24099669448833472,
+   "sec3": 0.1967632806188145,
+   "sec4": 0.1819762865648377
+  },
+  "next_type": {
+   "check": 0.3576142166181489,
+   "cite": 0.0,
+   "consult": 0.10013672809683831,
+   "fix": 0.0,
+   "probe": 0.08837035238041564,
+   "restructure": 0.0,
+   "revise": 0.1769615173907224,
+   "write": 0.27691718551387473
+  },
+  "stop": 0.026596993576865856
+ },
+ "version": "PredictionV1"
+}

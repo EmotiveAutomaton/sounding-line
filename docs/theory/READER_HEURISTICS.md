@@ -897,19 +897,19 @@ repair, matched counterfactual, held-out segment, or second artifact under the s
 process. This is not unconstrained prediction of the person. It is the minimum distinction between
 reconstruction and a flexible story fitted after the fact.
 
-**The archaeologist's position, measured (2026-08-30).** On the three local recorded-process
-corpora the admitted readers UNDER-run the sequential baselines everywhere: −0.53
-[−0.79, −0.29] against previous-label on ScholaWrite next-revision (whose label persistence
-alone hits 0.86), −0.37 [−0.42, −0.32] against the action base rate on CoAuthor with the
-document-state reconstruction gate passed at 1.0, −0.48 [−0.56, −0.41] against the placement
-prior on drawings (T01/T02/T04, L317); no frozen reader is positive on any record type and
-the trunk closes as a descriptive boundary by its own routing rule (T10). The same readers'
-realized states pay on constructed worlds at the same hour (L315 to L317), so the gap is not
-the machinery but the evidence: real records reward their own sequential regularity before
-they reward any maker state these readers can realize. Withheld-evidence prediction on real
-process records currently sits exactly in the position this section warned about: now
-measured rather than assumed, and confirmed at the locked scale (ScholaWrite −0.575 at 144
-units, CoAuthor −0.383 [−0.397, −0.369] at 1448; T01/x4, T02/x7, L319).
+**The archaeologist's position, measured and then re-read (2026-08-30; corrected 2026-09-02).**
+Two narrow results survive. On ScholaWrite next-revision the admitted readers under-run
+previous-label, whose persistence alone reaches 0.86: −0.575 at 144 units (T01/x4, L319). On
+drawings they under-run the placement prior, about −0.39 at 2448 units (T04/x1, L323). The
+CoAuthor result is invalid: the loader consumed each suggestion-select event as a document
+delta before recording the acceptance, so all 686 scored Stage 6 decisions were dismissals, and
+the perfect reconstruction gate validated delta consistency, not the intended document state.
+The constructed-world comparator that was set beside these gaps is dependency-tainted (its
+realizer read the hidden world), so it cannot show that the ecological gap belongs to the
+evidence rather than to the machinery. The Stage 6 run therefore cannot close every real-record
+path or establish a general reader boundary. What survives is only that cheap sequential priors
+beat these frozen readers on two corpora; CoAuthor awaits the repaired event semantics (Stage 7
+D07, P13), and all three await a clean artifact-visible comparator (Stage 7 R13, P13, P14).
 
 ## §11. The instrument dashboard: adopted heuristics with measured strength
 

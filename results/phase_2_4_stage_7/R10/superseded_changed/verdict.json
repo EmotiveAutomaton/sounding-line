@@ -1,0 +1,54 @@
+{
+ "card": "R10",
+ "cell_id": "R10",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 14.1,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "context reconstruction beyond topic/style and copied biography",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can C_m be inferred from artifact/source evidence and improve a later choice?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader Qwen/Qwen2.5-1.5B-Instruct",
+ "point": 0.11098654066814927,
+ "ci": [
+  -0.10721171567227844,
+  0.35558293387562073
+ ],
+ "n_units": 60,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11098654066814927
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11098654066814927
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11098654066814927
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R10\\metrics.json",
+    "sha256": "b4e1d94d76872aaee99030e46b21c5f28ae15ee65bc915d939172478bfbf83f9"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R10\\cases.jsonl",
+    "sha256": "da3ed2395683721eadf5f5ca4ab4e1d9abaed30724cd6a401b97e51b6b7331f2"
+   }
+  },
+  "written_at": "2026-09-02T18:54:55"
+ }
+}

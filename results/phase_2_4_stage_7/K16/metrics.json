@@ -1,0 +1,141 @@
+{
+ "card": "K16",
+ "lane": "discovery",
+ "written_at": "2026-09-02T17:30:18",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.587834805161635,
+  "n": 36,
+  "oracle_mean": -2.005691468665282,
+  "dom_mean": -2.593526273826917
+ },
+ "floor": 0.117566961032327,
+ "interaction": {
+  "size_effect_small": -1.4416038592726717,
+  "structure_effect_1.5B": 0.019562931188325194
+ },
+ "k04_gate": false,
+ "caveats": "Qwen3.5 9B via Ollama: different family, Q4_K_M quantization, top-20 log-probability interface",
+ "cells": {
+  "qwen05|small": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.6546160365684395,
+   "ci": [
+    -2.2932561318465545,
+    -0.9923160392782788
+   ],
+   "n_units": 36,
+   "threshold": 0.117566961032327,
+   "perm_p": 9.99950002499875e-05,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "qwen05|expanded": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.645483677822461,
+   "ci": [
+    -2.26077774161415,
+    -1.036855855834373
+   ],
+   "n_units": 36,
+   "threshold": 0.117566961032327,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIRS",
+   "rival": "DOM"
+  },
+  "qwen15|small": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -2.50435871321636,
+   "ci": [
+    -3.535122319339615,
+    -1.5657602321504882
+   ],
+   "n_units": 36,
+   "threshold": 0.117566961032327,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "qwen15|expanded": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -2.484795782028035,
+   "ci": [
+    -3.614994557740409,
+    -1.3887865078669073
+   ],
+   "n_units": 36,
+   "threshold": 0.117566961032327,
+   "perm_p": 0.000199990000499975,
+   "arm": "DIRS",
+   "rival": "DOM"
+  },
+  "qwen3|small": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -3.096219895841111,
+   "ci": [
+    -4.19100442006522,
+    -1.958879522638437
+   ],
+   "n_units": 36,
+   "threshold": 0.117566961032327,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "qwen3|expanded": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -4.202390090689446,
+   "ci": [
+    -5.799345041693666,
+    -2.6414459235530505
+   ],
+   "n_units": 36,
+   "threshold": 0.117566961032327,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIRS",
+   "rival": "DOM"
+  },
+  "qwen9b|small": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.0591750148900425,
+   "ci": [
+    -1.7197204697592199,
+    -0.43622554960102883
+   ],
+   "n_units": 36,
+   "threshold": 0.117566961032327,
+   "perm_p": 0.0026998650067496625,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "qwen9b|expanded": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -2.0489802940617023,
+   "ci": [
+    -2.980456269435083,
+    -1.1702111945912343
+   ],
+   "n_units": 36,
+   "threshold": 0.117566961032327,
+   "perm_p": 0.00014999250037498125,
+   "arm": "DIRS",
+   "rival": "DOM"
+  }
+ },
+ "degenerate_worlds": 12
+}

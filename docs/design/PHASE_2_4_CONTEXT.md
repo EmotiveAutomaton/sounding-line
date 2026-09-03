@@ -110,7 +110,7 @@ Phase 2.4 therefore treats “mirror” as a **shared-generative-organization hy
 
 ### 1.5 The visual map remains binding
 
-The intervention should be interpreted against `docs/assets/visual-map.png`:
+The intervention should be interpreted against `docs/assets/visual-map.jpg`:
 
 - affective structure and expertise deform which trajectories are reachable and cheap;
 - focal goals temporarily promote regions of that space;
@@ -203,7 +203,7 @@ Read before implementation:
 2. `docs/design/archive/PHASE_2_3_REGISTRY.md`;
 3. the five living files in `docs/theory/`, newest state first;
 4. `docs/method/NEURAL_ANALOGUES.md`, `docs/method/CONTROLS.md`, and `docs/method/LESSONS.md`;
-5. `docs/assets/visual-map.png` directly;
+5. `docs/assets/visual-map.jpg` directly;
 6. the folded entries for G40, G124, G159, G166, G167, G169, and G171 in `FINDINGS.md` and `docs/STATE.md`;
 7. the current activation, CKA, and process-reader runners before creating replacements.
 

@@ -1,0 +1,58 @@
+{
+ "splits": {
+  "passed": true,
+  "at": "2026-09-02T10:51:16",
+  "detail": {
+   "card": "I14",
+   "reason": "0 lineages, 0 roots, 0 violations"
+  }
+ },
+ "isolation": {
+  "passed": true,
+  "at": "2026-09-02T10:51:36",
+  "detail": {
+   "card": "I04",
+   "reason": "24 forbidden attempts; not raised: []"
+  }
+ },
+ "canaries": {
+  "passed": false,
+  "at": "2026-09-02T10:51:37",
+  "detail": {
+   "card": "I10",
+   "reason": "canaries caught 60/80; clean identifier hits 0/20"
+  }
+ },
+ "coauthor_loader": {
+  "passed": true,
+  "at": "2026-09-02T10:51:57",
+  "detail": {
+   "card": "D07",
+   "reason": "fixtures all exact; marginal {'accept': 391, 'edit': 182, 'dismiss': 211, 'ignore': 3}"
+  }
+ },
+ "mutation_tail": {
+  "passed": false,
+  "at": "2026-09-02T10:57:14",
+  "detail": {
+   "card": "I05",
+   "reason": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 0/21; leaking arms []"
+  }
+ },
+ "record": {
+  "passed": true,
+  "at": "2026-09-02T10:57:24",
+  "detail": {
+   "card": "D01",
+   "reason": "non-oracle arms reach ['cut', 'events', 'hidden', 'stop_shift', 'target_actions', 'trajectory']; realize touched ['cut', 'events', 'stop_shift', 'target_actions', 'trajectory']"
+  }
+ },
+ "mutation_stop": {
+  "passed": false,
+  "at": "2026-09-02T11:02:44",
+  "detail": {
+   "card": "I06",
+   "reason": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 0/21; leaking arms []"
+  }
+ }
+}

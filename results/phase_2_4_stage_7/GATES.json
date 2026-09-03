@@ -1,0 +1,391 @@
+{
+ "splits": {
+  "passed": true,
+  "at": "2026-09-02T12:50:02",
+  "detail": {
+   "card": "I14",
+   "reason": "0 lineages, 0 roots, 0 violations"
+  }
+ },
+ "isolation": {
+  "passed": true,
+  "at": "2026-09-02T12:50:22",
+  "detail": {
+   "card": "I04",
+   "reason": "24 forbidden attempts; not raised: []"
+  }
+ },
+ "canaries": {
+  "passed": true,
+  "at": "2026-09-02T12:50:23",
+  "detail": {
+   "card": "I10",
+   "reason": "canaries caught 60/60; clean identifier hits 0/15"
+  }
+ },
+ "coauthor_loader": {
+  "passed": true,
+  "at": "2026-09-02T12:50:42",
+  "detail": {
+   "card": "D07",
+   "reason": "fixtures all exact; marginal {'accept': 391, 'edit': 182, 'dismiss': 211, 'ignore': 3}"
+  }
+ },
+ "mutation_tail": {
+  "passed": true,
+  "at": "2026-09-02T12:58:22",
+  "detail": {
+   "card": "I05",
+   "reason": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 21/24; leaking arms []"
+  }
+ },
+ "record": {
+  "passed": true,
+  "at": "2026-09-02T12:58:32",
+  "detail": {
+   "card": "D01",
+   "reason": "non-oracle arms reach ['cut', 'events', 'hidden', 'stop_shift', 'target_actions', 'trajectory']; realize touched ['cut', 'events', 'stop_shift', 'target_actions', 'trajectory']"
+  }
+ },
+ "mutation_stop": {
+  "passed": true,
+  "at": "2026-09-02T13:06:08",
+  "detail": {
+   "card": "I06",
+   "reason": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 24/24; leaking arms []"
+  }
+ },
+ "mutation_event": {
+  "passed": true,
+  "at": "2026-09-02T13:13:21",
+  "detail": {
+   "card": "I07",
+   "reason": "identity rates {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; oracle differs on 19/22; leaking arms []"
+  }
+ },
+ "sensitivity": {
+  "passed": true,
+  "at": "2026-09-02T13:20:32",
+  "detail": {
+   "card": "I08",
+   "reason": "sensitivity TV {'DOM': 0.03581751180559156, 'SOL': 0.034605173466560085, 'DIR': 0.5586939789041246, 'SLJ': 0.034605173466560085}; bytes changed {'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}"
+  }
+ },
+ "record_written": {
+  "passed": true,
+  "at": "2026-09-02T13:23:45",
+  "detail": {
+   "card": "D10",
+   "reason": "lint 0; multiplicity 0; findings entry True; theory markers 4"
+  }
+ },
+ "conformance_laip": {
+  "passed": true,
+  "at": "2026-09-02T13:24:34",
+  "detail": {
+   "ops": {
+    "proposes_hypotheses": true,
+    "proposes_likelihood_rules": true,
+    "external_posterior": true,
+    "should_break_no_rule_is_unrealized": true
+   }
+  }
+ },
+ "conformance_thought_tracing": {
+  "passed": true,
+  "at": "2026-09-02T13:25:14",
+  "detail": {
+   "ops": {
+    "preprocess_state_action_steps": true,
+    "initialize": true,
+    "propagate": true,
+    "weight": true,
+    "ess_recorded": true,
+    "resample_fires_on_collapse": true,
+    "rejuvenate_fires_on_diversity_loss": true,
+    "posterior_after_contradiction": true
+   }
+  }
+ },
+ "conformance_autotom": {
+  "passed": true,
+  "at": "2026-09-02T13:25:14",
+  "detail": {
+   "ops": {
+    "initial_model_goal_only": true,
+    "explicit_bayesian_inference": true,
+    "utility_gated_addition": true,
+    "false_expansion_rejected": true,
+    "window_extension_recorded": true
+   }
+  }
+ },
+ "conformance_inverse_planning": {
+  "passed": true,
+  "at": "2026-09-02T13:25:34",
+  "detail": {
+   "ops": {
+    "exact_posterior": true,
+    "matches_analytic_ratio": true,
+    "bounded_rational_likelihood": true
+   }
+  }
+ },
+ "conformance_liras": {
+  "passed": true,
+  "at": "2026-09-02T13:25:34",
+  "detail": {
+   "ops": {
+    "synthesizes_model": true,
+    "validates_semantics": true,
+    "executes_inverse_inference": true,
+    "should_break_unparseable": true
+   }
+  }
+ },
+ "conformance_labtom": {
+  "passed": true,
+  "at": "2026-09-02T13:25:54",
+  "detail": {
+   "ops": {
+    "compositional_belief_representation": true,
+    "belief_content_preserved": true,
+    "belief_sensitive_inference": true
+   }
+  }
+ },
+ "construction": {
+  "passed": false,
+  "at": "2026-09-02T14:03:54",
+  "detail": {
+   "gaps": {
+    "next_action": 0.5014571703308267,
+    "stop": 0.02871020311500039,
+    "changed_context": 0.5856175303204909,
+    "next_type": 0.467530913265523,
+    "invalidation": 0.11361427603527022
+   }
+  }
+ },
+ "oracle_gaps": {
+  "next_action": 0.5014571703308267,
+  "stop": 0.02871020311500039,
+  "changed_context": 0.5856175303204909,
+  "next_type": 0.467530913265523,
+  "invalidation": 0.11361427603527022
+ },
+ "discontinuity": {
+  "passed": false,
+  "at": "2026-09-02T14:10:54",
+  "detail": {
+   "card": "P11",
+   "cells": {
+    "HPROC|-": "INCONCLUSIVE",
+    "HDIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": "COUNTEREVIDENCE",
+    "HDIR|Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "HDIR|pooled": "COUNTEREVIDENCE"
+   }
+  }
+ },
+ "supplied_state": {
+  "passed": false,
+  "at": "2026-09-02T14:20:22",
+  "detail": {
+   "card": "K04",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "COUNTEREVIDENCE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "pooled": "COUNTEREVIDENCE"
+   }
+  }
+ },
+ "stop_state": {
+  "passed": false,
+  "at": "2026-09-02T14:26:40",
+  "detail": {
+   "card": "K15",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "COUNTEREVIDENCE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "pooled": "COUNTEREVIDENCE"
+   }
+  }
+ },
+ "infer_goal": {
+  "passed": false,
+  "at": "2026-09-02T16:51:31",
+  "detail": {
+   "card": "K11",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "INCONCLUSIVE",
+    "pooled": "INCONCLUSIVE"
+   }
+  }
+ },
+ "infer_belief": {
+  "passed": true,
+  "at": "2026-09-02T16:59:28",
+  "detail": {
+   "card": "K12",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "SUPPORT_CANDIDATE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "SUPPORT_CANDIDATE",
+    "pooled": "SUPPORT_CANDIDATE"
+   }
+  }
+ },
+ "infer_action_space": {
+  "passed": false,
+  "at": "2026-09-02T16:28:18",
+  "detail": {
+   "card": "K13",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "COUNTEREVIDENCE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "pooled": "COUNTEREVIDENCE"
+   }
+  }
+ },
+ "infer_law": {
+  "passed": true,
+  "at": "2026-09-02T17:07:45",
+  "detail": {
+   "card": "K14",
+   "cells": {
+    "LEARN|-": "SUPPORT_CANDIDATE",
+    "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "SLJ|Qwen/Qwen2.5-1.5B-Instruct": "INCONCLUSIVE",
+    "SLJ|pooled": "INCONCLUSIVE"
+   }
+  }
+ },
+ "recall_proximal_goal": {
+  "passed": false,
+  "at": "2026-09-02T17:44:50",
+  "detail": {
+   "recall": 0.23333333333333334,
+   "n": 120,
+   "redundancy": 0.36666666666666664,
+   "posterior_mass_on_truth": 0.23333333333333334,
+   "by_reader": {
+    "Qwen/Qwen2.5-1.5B-Instruct": 0.3,
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.16666666666666666
+   }
+  }
+ },
+ "recall_belief_state": {
+  "passed": false,
+  "at": "2026-09-02T17:56:21",
+  "detail": {
+   "recall": 0.37383177570093457,
+   "n": 214,
+   "redundancy": 0.037383177570093455,
+   "posterior_mass_on_truth": 0.368973937141033,
+   "by_reader": {
+    "Qwen/Qwen2.5-1.5B-Instruct": 0.37383177570093457,
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.37383177570093457
+   }
+  }
+ },
+ "recall_expertise_law": {
+  "passed": false,
+  "at": "2026-09-02T18:11:50",
+  "detail": {
+   "recall": 0.3333333333333333,
+   "n": 120,
+   "redundancy": 0.55,
+   "posterior_mass_on_truth": 0.3333333333333333,
+   "by_reader": {
+    "Qwen/Qwen2.5-1.5B-Instruct": 0.6666666666666666,
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.0
+   }
+  }
+ },
+ "recall_subjective_action_space": {
+  "passed": false,
+  "at": "2026-09-02T18:19:16",
+  "detail": {
+   "recall": 0.03333333333333333,
+   "n": 120,
+   "redundancy": 0.26666666666666666,
+   "posterior_mass_on_truth": 0.03333333333333333,
+   "by_reader": {
+    "Qwen/Qwen2.5-1.5B-Instruct": 0.0,
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.06666666666666667
+   }
+  }
+ },
+ "recall_maker_context": {
+  "passed": false,
+  "at": "2026-09-02T18:26:02",
+  "detail": {
+   "recall": 0.09166666666666666,
+   "n": 120,
+   "redundancy": 0.525,
+   "posterior_mass_on_truth": 0.09166666666666666,
+   "by_reader": {
+    "Qwen/Qwen2.5-1.5B-Instruct": 0.18333333333333332,
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.0
+   }
+  }
+ },
+ "learn_law": {
+  "passed": true,
+  "at": "2026-09-02T18:40:40",
+  "detail": {
+   "card": "R09",
+   "cells": {
+    "LEARN|-": "SUPPORT_CANDIDATE"
+   }
+  }
+ },
+ "infer_context": {
+  "passed": true,
+  "at": "2026-09-02T19:12:28",
+  "detail": {
+   "card": "R10",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "SUPPORT_CANDIDATE",
+    "pooled": "SUPPORT_CANDIDATE"
+   }
+  }
+ },
+ "joint_goal_belief": {
+  "passed": false,
+  "at": "2026-09-02T19:23:34",
+  "detail": {
+   "card": "R11",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "pooled": "COUNTEREVIDENCE"
+   }
+  }
+ },
+ "joint_law_space": {
+  "passed": false,
+  "at": "2026-09-02T19:47:27",
+  "detail": {
+   "card": "R12",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "INCONCLUSIVE",
+    "pooled": "INCONCLUSIVE"
+   }
+  }
+ },
+ "joint_all": {
+  "passed": false,
+  "at": "2026-09-02T20:08:56",
+  "detail": {
+   "card": "R13",
+   "cells": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "Qwen/Qwen2.5-1.5B-Instruct": "INCONCLUSIVE",
+    "pooled": "INCONCLUSIVE"
+   }
+  }
+ }
+}

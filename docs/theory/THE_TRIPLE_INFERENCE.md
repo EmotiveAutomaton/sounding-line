@@ -22,6 +22,11 @@ inference names the targets, expertise moves decisions between them
 ([`DECISION_TRACES.md`](DECISION_TRACES.md)), and a reader instantiates them on whatever machinery
 it has ([`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md)).
 
+**Operational definition, ratified 2026-09-01.** Sounding Line is an artifact-grounded
+inverse-generative system that reconstructs a revisable model of how a maker transformed their
+perceived possibilities into an artifact, then tests that reconstruction through hidden future
+and counterfactual behavior. This is ratified project language, not a result claim.
+
 On the words. *Variational inference*, technically, means approximating an intractable posterior by
 optimizing over a restricted family (Blei et al.); the cognitive claim as evidenced is **Bayesian
 inverse planning / joint latent-variable inference** (Baker, Saxe & Tenenbaum is the direct
@@ -58,28 +63,49 @@ rows live in the section that interprets them *(the single end-of-file ledger di
 > can read their book and get more of a sense of why they made certain choices. **This is why
 > information is passed more easily between people who are close.**
 
-The current claim for the expert and friend cases is deliberately modest. Expertise and
-familiarity supply **priors and entry points that may improve recovery**, nothing stronger, and
-the closeness prior itself is untested (G59, canonical in
-[`READER_HEURISTICS.md`](READER_HEURISTICS.md) §1).
+> You can arrive with expertise already, and you can arrive with strong knowledge of who the maker
+> is and what they want. The one thing you have to infer on the spot is the proximal goal, and it is
+> usually the easiest inference to make.
+
+*2026-09-01 walkthrough; spoken wording lightly reconstructed.*
+
+The current claim for the expert and friend cases is deliberately modest. Domain expertise and
+maker familiarity are possible priors a reader may bring, **priors and entry points that may
+improve recovery**, never guaranteed recovery, and the closeness prior itself is untested (G59,
+canonical in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §1). What must be inferred on the
+spot is the proximal goal, and the realized process remains episode-specific even when useful
+expertise is already present.
 
 Translated into objects, before any claims about their shape:
 
-| object | definition | timescale |
+| object | canonical meaning | timescale |
 |---|---|---|
-| **proximal goal** G | what the maker is locally trying to accomplish in this artifact or episode | episode-local |
-| **process** P | the realized sequence of decisions and actions that produced it | artifact-local |
-| **expertise** K | the maker's learned competence, the transition model constraining which processes are available and how reliably they execute | cross-episode, domain-relative |
-| **drives** D | currently active motivational pressures or primitive constraints | state-dependent |
-| **values** V | the more persistent organization of tradeoffs among goals, drives, and trajectories | longitudinal |
-| **context** C | commission, coercion, medium, audience, constraints, available alternatives | episode-local |
+| **proximal goal** `G` | what the maker is locally trying to accomplish | episode-local |
+| **process** `P`, realized as `tau` | the particular decisions and actions that produced the artifact | artifact-local |
+| **expertise** `K` | the maker's learned transition model, shaping reachable actions and expected consequences | cross-episode, domain-relative |
+| **drives** `D` | currently active motivational pressures or primitive constraints | state-dependent |
+| **values** `V` | persistent organization of tradeoffs among goals, drives, and trajectories | longitudinal |
+| **external context** `C_ext` | commission, coercion, medium, audience, tools, and objective constraints | episode-local |
+| **maker beliefs** `B` | information the maker possessed and what they believed | episode-local, history-shaped |
+| **maker context** `C_m` | external context interpreted through the maker's beliefs and expertise | episode-local |
+| **subjective action set** `A_tilde` | alternatives the maker believed were available after context and expertise shaped the possibility space | step-local |
 
-Two conflations this table dissolves. **Process is not expertise.** Process is what happened;
-expertise is the maker-model used to predict what could happen. The "process" target family has
-two scales, and results about one do not automatically transfer to the other. **Drives are not
-values.** Drives may be inputs to action selection; values describe their persistent organization.
-Treating them as synonyms is why the third vertex has repeatedly appeared and disappeared in this
-file's history. Where his quotes say "values/drives" as one item, the prose keeps them split.
+> Sounding Line has to infer the information the maker possessed and believed, and the actions they
+> thought were available. Those belong in the maker model: external context as transformed through
+> the maker's beliefs and expertise.
+
+*2026-09-01 walkthrough; spoken wording lightly reconstructed.*
+
+Three conflations this table dissolves. **Expertise is not process.** Expertise is the maker's
+learned transition model, the map of which actions are reachable and what they are expected to
+do; process is one realized path through it, and results about one do not automatically transfer
+to the other. **External context is not maker-interpreted context.** The commission, medium,
+audience, tools, and objective constraints are one thing; the situation as the maker perceived it
+through their beliefs and expertise is another, and an objectively available action was not
+necessarily available to the maker. **Drives are not values.** Drives may be inputs to action
+selection; values describe their persistent organization. Treating any of these pairs as synonyms
+is why a vertex of this file has repeatedly appeared and disappeared.
+Where his quotes say "values/drives" as one item, the prose keeps them split.
 
 **Current appraisal, intended audience response, and persistent value are different quantities.** A
 maker can try to induce fear without feeling it; a reader can identify that intention without
@@ -107,44 +133,49 @@ different *kind* of thing, defined across episodes, which is most of why it has 
 |---|---|---|
 | **L-tier2** | Values need many artifacts; a goal needs one, because they live at different timescales | **SUPPORTED (test), indirectly.** Every single-artifact values attempt failed; every within-maker multi-work design worked (7.6× and 2.05× chance) |
 
-**State of the section's claim.** The object table is definitional and mostly untestable as
-stated, but its load-bearing asymmetry, that the third target is a different timescale of thing,
-has the project's most consistent indirect evidence behind it. Nothing has ever recovered values
-from one artifact and everything multi-work has found signal, which is exactly the pattern the
-timescale column predicts. The two conflation-dissolving distinctions (process against expertise,
-drives against values) remain unmeasured distinctions of vocabulary whose first bites arrive
-through §5 and §6. Confidence: the timescale asymmetry is one bad test away, resting on
-convergent nulls rather than a designed comparison; the rest is untested, logic only.
+**State of the section's claim.** The object table is definitional, and its three distinctions
+(expertise against process, external against maker-interpreted context, drives against values)
+are identifiability constraints on the reconstruction rather than claims with evidence: none of
+the three has yet been isolated by a clean designed comparison, and Stage 7's factor worlds are
+the first construction that varies them separately behind a boundary the reader cannot cross.
+The table's load-bearing asymmetry, that the third target is a different timescale of thing,
+keeps the project's most consistent indirect evidence behind it: nothing has ever recovered
+values from one artifact and everything multi-work has found signal, which is exactly the
+pattern the timescale column predicts. Confidence: the timescale asymmetry is one bad test away,
+resting on convergent nulls rather than a designed comparison; the identifiability constraints
+are untested, logic only.
 
 ## §2. Forward generation and inverse recovery
 
 What the maker generates, what the artifact preserves, and what the reader reconstructs are three
 different things, and the theory has to keep them apart. A minimal generative account, held loosely:
 
-    G_t = f(V, D_t, C_t, A_t)    the goal at time t is selected under values, drives,
-                                 context, and the current allocation of attention
-    P_t ~ pi(K, H, G_t, C_t)     the process step is drawn from what expertise and habit
-                                 make available
-    K_t+1 ~ L(K_t, E_t, A_t, C_t) + epsilon_t
-                                 expertise is updated through a lossy consolidation map
-    O   = h(P_1:T, C_1:T)        the artifact preserves the realized trajectory, lossy,
-                                 shaped by the medium
+    C_m,t = phi(C_ext,t, B_t, K_t)       maker-interpreted context
+    A_tilde,t = afford(C_m,t, B_t, K_t)  actions the maker believes are available
+    G_t = f(V, D_t, C_m,t, alpha_t)      the locally governing goal
+    a_t ~ pi_K(a | A_tilde,t, G_t, H_t)  one action through the expertise transition model
+    tau = (a_1, ..., a_T)                the realized process path
+    K_t+1 ~ L(K_t, E_t, alpha_t, C_m,t) + epsilon_t
+                                         lossy consolidation into later expertise
+    O = h(tau, C_ext,1:T)                the medium's lossy artifact record
 
-    reader R approximates  q_R(G, P, V, D, K, H | O, C)
+    reader R approximates q_R(G, tau, V, D, K, H, B, A_tilde, C_m | O, C_ext)
 
-Here A names the time-varying allocation of attention, H the historical residue of
-repeated behavior, E the experienced material of the episode, L a
-consolidation-and-learning transform, and epsilon interference or forgetting. The
-K-update line records the curator's LIVE expertise-formation hypothesis (the 2026-08-31
-pass), not an established identity, and it is testable only if attention is specified
-independently of its later effect on expertise (defining A as whatever changed K is
-circular). Naming attention does not explain why it moves; the allocation law
-remains open, and the reader recovers only a posterior over the hidden objects,
-conditioned on the reader's own machinery and declared context (the subscript R is doing
-real work: the output belongs to the reader-artifact-context relation, not to the maker).
-The reader's output includes both a posterior over maker histories and a distribution
-over routes the reader could enact; the latter is conditioned on the reader's body,
-expertise, and tools, and therefore cannot be silently reported as the former.
+Here `alpha` names the time-varying allocation of attention, `H` the control and history
+residue of repeated behavior, `E` the experienced material of the episode, `L` the
+consolidation-and-learning transform, and `epsilon` interference or forgetting. Five things
+the schematic fixes. `K` is the transition model and `tau` the realized path through it: the
+expertise line predicts what could happen, the process line records what did. Consolidation
+encodes and compresses the historical record into later expertise; interference and forgetting
+are error in that record, not part of it. The expertise-formation line is the curator's LIVE
+hypothesis (the 2026-08-31 pass), not an established identity, and it is testable only if
+attention is measured independently of its later effect on expertise: defining `alpha` as
+whatever changed `K` is circular. Naming attention does not explain why it moves; the
+allocation law remains open. And the posterior belongs to the reader-artifact-context relation,
+not directly to the maker: the subscript does real work, and the reader's output includes both
+a posterior over maker histories and a distribution over routes the reader could enact, the
+latter conditioned on the reader's own body, expertise, and tools, never silently reported as
+the former.
 
 **Historical process and reader-enactable process** *(the 2026-08-21 pass)*:
 
@@ -198,7 +229,7 @@ coverage of the conditional distribution, especially alternatives that predict h
 or later handling, increasingly constrains the maker's auxiliary goal organization and historical
 process. Stable cross-context structure in that distribution may later provide evidence about
 values, but it is not itself value recovery. This is an explicit reading of the existing
-`q_R(G, P, V, D, K, H | O, C)` output, not a fourth inference.
+`q_R(G, tau, V, D, K, H, B, A_tilde, C_m | O, C_ext)` output, not a fourth inference.
 
 Stated this way, two facts fall out that the old formulation suppressed. A single artifact can
 support goal and process inference while values require multiple observations. And a commissioned,
@@ -247,9 +278,10 @@ entails a distribution over the maker's remaining decisions. Different descripti
 the same predictive state, and the same words may realize different states for different
 makers; a longer rationale does not solve this by itself. The representation may be language,
 structured slots, a program, or a latent vector; what earns credit is prospective constraint
-on a hidden continuation, next edit, stopping decision, or changed-context choice. This is an
-evaluation rule for the Stage-6 program (the M-S6 row below carries its first measurements),
-not a claim that language is the required representation of the maker state.
+on a hidden continuation, next edit, stopping decision, or changed-context choice. Stage 6
+attempted to instrument this rule, but its hidden dependencies voided the interpretation
+(M-S6). The rule remains a prospective criterion, not a claim that language is the required
+representation of the maker state.
 
 His account of the machinery, which is about reading *other people*, corrected after I wrote it as
 self-generation:
@@ -327,64 +359,85 @@ method. Each informs a part of this file; none is the claim.
 | **J01-S5** | Given the other two latents, the reader recovers each of the episode goal, the standing preference, and the process plan above chance | **NARROWED to the plan (test, L261), one reader, 256 worlds.** Plan +0.72 nats over chance (0.80 accuracy); goal −0.31 (0.50 accuracy, confidently wrong on thrift); preference −1.34, the reader assigning the episode goal's own axis to the standing preference in 171 of 256 worlds with the goal stated as true; no equifinal world arose under the plan's partial order, so the abstention ruler had no test. Second contract (L290, two readers, the goal set aside in the question, equifinal worlds present): plan +0.53, goal −0.08, preference −0.57; the Qwen reader's attribution unchanged (166 of 256), the SmolLM2 reader at chance; abstention on equifinal plans 0.52 |
 | **J02-S5** | A recurrent joint reader predicts the hidden future choice better than staged readers at the same evidence | **NOT SUPPORTED, every variant under the uniform floor (test, L278; the first question died to option wording, L263).** Recurrent −1.86 nats against the best staged −1.92 (+0.07 [−0.15, +0.28]), uniform −1.39, exact ceiling −1.04; the oracle handed the true latents scores −1.87, so the reader does not map latents onto a choice; the second contract repeats it on two readers (L291: SmolLM2 −1.55 recurrent against −1.54 oracle, Qwen −1.83 against −1.87, both under uniform) |
 | **J04-S5** | Opening a hypothesis the fixed set lacks (the note misrepresents the goal) improves prediction on conflict worlds without false alarms | **NOT SUPPORTED (test, L279), 256 worlds per version.** The opened hypothesis taken in 7 percent of conflict worlds and 5 of consistent ones; opened minus fixed −0.08 [−0.23, +0.06] on conflict worlds, −0.14 on consistent; the exact posterior registers the conflict at 1.5 nats; on two readers −0.04 [−0.13, +0.04], the hypothesis taken in a tenth of worlds either way (L294) |
-| **M-S6** | Realizing a short hypothesis about the maker into a predictive state beats reading the artifact directly, and the Sounding realization beats the published scaffolds | **REALIZATION PAYS, THE READER'S WEIGHING IS THE BOTTLENECK (test, L315), 256 world-readers per contrast, first block of the running Stage-6 week.** Label inverse planning +0.95 nats over direct reading (which sits below the cheap prefix baselines); definitions add nothing; particles and grammar constraint subtract; exact-likelihood-weighted adaptive expansion closes 0.81 of the oracle gap and beats contextual realization by 0.07; both readers fail the supplied-true-state gate (I05), so every claim is reader-bounded; the realized-state instrument passes the paraphrase attack the label posterior failed (TV 0.000 against 0.425 under a meaning change, M15, L317); the AD-over-CR ordering holds at fortyfold scale (−0.071 [−0.075, −0.066], 10240 paired world-readers, M08/x1, L320; −0.067 under the surface axis, M08/x2, L321) and the ablation instrument locates the realized state's value in the control state and the episode goal (P10, L320); label inverse planning over direct reading holds at fortyfold (+0.885 [+0.866, +0.904], 10240 paired world-readers, M02/x1, L322); at fortyfold the realizer stays exactly paraphrase-invariant (TV 0.000 against 0.470, M15/x2) while the label posterior's sensitivity is unchanged (0.168 against 0.332, I08/x3), and the ablation ordering replicates on fresh worlds with the governing fields larger (control state −0.24, episode goal −0.17, P10/x2, L324); at the close both frozen confirmations land on untouched confirmation lineages (L over D +0.849 [+0.737, +0.974] at 256 and +0.887 at 3584; AD over EX +0.231 [+0.164, +0.292]; B01, B01/x9, B02, L326) |
+| **M-S6** | Realizing a short hypothesis about the maker into a predictive state beats reading the artifact directly, and the Sounding realization beats the published scaffolds | **VOID AS EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The shared predictor accessed the complete hidden action inventory, the future events and trajectory length, the stop shift, and the exact transition and utility laws; the supplied-true-state gate (I05) supplied prose labels rather than the full operative state; the realization card (M14) received constructor variables; the semantic-invariance card (M15) followed hypothesis tags while ignoring the semantic text; exact-likelihood selection survives only as known-law system identification (MAP 0.79 against the label reader's 0.30, n 128); no architecture ranking, reader-boundary, realization, semantic-invariance, or reader-capacity conclusion is licensed |
+|   | | *(this row's history is REALIZATION PAYS on the Stage-6 block, L315 to L326, then voided by the 2026-09-02 dependency audit, L330; the landed numbers stay in FINDINGS as method archive)* |
+| **K04-S7** | A bounded reader can USE a complete supplied executable maker state (context, beliefs, law, maker context, subjective action set, goal, residue) to predict the next feasible action better than a frozen common-domain model | **COUNTEREVIDENCE on both admitted readers (test, L335), 48 paired worlds behind the clean-room boundary.** SmolLM2 −0.46 [−0.74, −0.18] and Qwen2.5-1.5B −2.62 [−3.42, −1.82] nats against the domain model, where the capsule solver executing the same bytes equals the exact oracle on every world (+0.63 over the domain model); the boundary is state use, not supply; the size ladder answers for four readers from 0.5B to the 9B route, every one under the domain model (−1.66, −2.50, −3.10, −1.06; K16, L340) and the solver's own line printed beside the state helping none of them, so the boundary is not a small-model artifact within this family and readout |
+| **K-S7** | Some single true factor (context, action set, law, belief, goal), or the whole state rendered in language, lifts the reader over the domain model; a reader given a swapped belief or goal follows the oracle's reversal | **COUNTEREVIDENCE on every rung and both readers (test, L336), 48 to 74 paired worlds.** Each single factor leaves SmolLM2 a third to two thirds of a nat under the domain model and Qwen2.5-1.5B about three nats under; the prose rendering is no better than the executable one (SmolLM2 −0.34 [−0.68, +0.03] VALID_NULL, Qwen −3.30); where the swapped belief or goal reverses the oracle's expectation, the reader follows on 14 and 5 percent of pairs (K09, K10) |
+| **X10-S7** | The language-state reader is invariant to paraphrase of the supplied state and moves under a meaning change | **COUNTEREVIDENCE, the attack fails (test, L336).** Total variation 0.57 under paraphrase against 0.59 under an inversion of the belief and goal statements, on 48 units; the reader's response to the supplied text is a response to surface, so its language-state claims close (the semantic-invariance question Stage 6 voided at M15, now measured with the leak closed) |
+| **KI-S7** | With every factor but one supplied, the joint reader (proposals executed through the law) infers the withheld goal or belief and keeps the prospective gain | **NARROWED (test, L337), 48 and 66 worlds.** The joint arm returns to the domain model's level with the goal withheld (−0.00 [−0.21, +0.22] SmolLM2; −0.15 Qwen) and clears the floor for SmolLM2 with the belief withheld (+0.29 [+0.07, +0.51], three quarters of the way to the true-state solver), half a nat to two nats above the direct reader, and with the belief withheld both readers clear the floor once their split-line answers are parsed (the tolerant-grammar rerun: SmolLM2 +0.29 [+0.05, +0.50], Qwen +0.36 [+0.13, +0.58], 0.73 and 0.92 of the way to the true-state solver); but the goal is in the candidates one time in four (R01, L341: 0.23 against the 0.5 bar that opens selection), the belief in 39 percent of worlds, and the reader follows the oracle's belief reversal on 1 of 14 twin pairs: the gain is the law's execution of the supplied factors under a proposal that is wrong three times in five; asked for the subjective action set with the context derived (K13, L338), the readers' proposed sets contain the truth in 5 percent of worlds and the arm's full commitment to them lands −5.0 [−7.4, −2.6] and −11.5 [−14.1, −8.9] nats under the domain model: the maker-relative possibility space is not computed from its determinants; asked for the maker context with the beliefs supplied (R10, L343), Qwen's proposed context improves the changed-context choice over the domain model by +0.59 [+0.31, +0.90], which is exactly what copying the visible brief with accurate beliefs gives (−0.03 [−0.10, +0.02] against that rival, itself the oracle here) |
+| **KL-S7** | The expertise law is recoverable from process evidence: by exact selection among supplied candidate laws, by a law learned from a few demonstrations, or by a reader's proposal | **SUPPORTED FOR THE TWO PROGRAM ROUTES, NOT FOR THE READERS (test, L339), 48 worlds behind the clean-room boundary.** Exact selection +0.59 [+0.34, +0.84] over the domain model with 0.52 of its mass on the true law; a law fitted from two demonstrations +0.57 [+0.31, +0.85], indistinguishable from selection (−0.02); the joint reader realizes a proposal on 16 of 120 rows (the readers echo the candidate tables in view) and lands at +0.17 [−0.06, +0.40] and at the domain model; the Stage 6 survivor (supplied-law selection as system identification, L330) replicated with no privileged call; and the learned law TRANSFERS (R09, L342): fitted from three earlier episodes and executed on an untouched one it lands +0.64 [+0.22, +1.12], within a hundredth of the oracle, while the joint reader proposing the law from the same demonstrations with no table to copy clears the floor on Qwen (+0.56 [+0.14, +1.03]; SmolLM2 +0.21 [−0.08, +0.53]), the one reconstruction rung a reader passes on its own proposals |
+| **RJ-S7** | The goal and the belief can be inferred jointly without one collapsing into the other, and the joint inference keeps the prospective gain | **NARROWED (test, L344), 60 worlds.** No collapse: the goal is in the candidates in 23 percent of worlds and the belief in 34, about as often as alone, with the factor marginals apart; no gain either: the committed pairs leave SmolLM2 at the domain model (−0.17 [−0.47, +0.13]) and Qwen 1.4 nats [0.4, 2.7] under it, the goal-by-belief cells running from +1.9 to −8 nats where a confident wrong pair is executed; with the law withheld and no demonstrations (R12, 108 worlds with law twins), Qwen names the law's shape in 56 percent of worlds and gains a tenth of a nat that does not clear the interval (+0.11 [−0.33, +0.50]; SmolLM2 +0.04), the executed shape being a standard table rather than the maker's numbers, and a swapped law that reverses the oracle's expectation moves neither reader (0 of 8); R13 appends |
 | **J05-S5** | The standing preference inferred from one episode predicts the maker's choice in a second episode under a stated new goal, beyond habit, topic, and last-goal baselines | **COUNTEREVIDENCE (test, L280), 256 worlds.** −0.73 nats [−0.93, −0.55] against the topic baseline; the reader half a nat under uniform; the preference recovered in a third of worlds; the exact ceiling a quarter of a nat above uniform. Second contract (L293, two readers, the ceiling raised to 0.68 above uniform): −0.26 against the topic prior, both readers under uniform |
 | **J03-S5** | Along the stream the reader's records become useful in a diagnostic order and a contradiction lowers its confidence | **NARROWED, descriptive (test, L264).** The plan record is reached last and most reliably; the preference record is never useful in two thirds of worlds; after an exact contradiction the reader is more confident and less right in 44 to 62 percent of worlds; on two readers with equifinal plans present the never-useful shares rise to 0.56 to 0.74 and overconfidence sits at half (L292) |
 
 **State of the section's claim.** The generative account remains a framework rather than a
-finding, and its composition claim now stands in the restated form, expertise distorting the
-available possibilities under context rather than a multiplicative shorthand, with drive
-commonality named as the assumption that keeps the distortion decodable. Both composition rows
-are open, and the restated claim carries the same testable direction the one coupling run
-already leaned toward. The single behavioral fact here cuts the right way for a *joint* account,
-since a staged pipeline would care about stage order and the simulated reader's answer does not
-move at all when the order changes. The distortion story's weakest named part is attention,
-flagged by its own author before anyone else could. The process target is now explicit about its
-output shape: one route is a sample, while a stronger reconstruction constrains a conditional
-family of choices and unrealized alternatives. The products the walkthrough insisted on
-keeping apart now have one direct measurement: a small reader recovers a maker's appraisal
-and its intended audience response above the floor and crossed, thinly, not where the maker
-induces a feeling it does not hold, and with no abstention when the fact is withheld
-(A01-S4), and it held on a fresh confirmation split at the same size, the first Stage-4
-claim to survive its own reserve, and it does not extend to a notice register, where the same
-reader family gives one answer per question whatever the world (A01-S5); the products are separable in principle in that reader,
-which is the precondition the intervention cards needed and, as they found (A02-S4,
-A03-S4), no more. Confidence: the order-insensitivity is sim-only; the appraisal-versus-aim
-separation is one bad test away, confirmed on a fresh split but two readers of one family
-and one construction family; the composition claims are untested, logic only. The triple's
-first direct test of goal against standing preference finds the reader collapsing them: told
-the goal, it still reads the goal's axis as the chooser's disposition in two thirds of worlds
-while recovering the plan cleanly (J01-S5), so in this reader the situational and the
-dispositional products are not separated and only the process product is; told in the question
-itself to set the goal aside it does the same, and a second reader family answers at chance
-without attributing, so the confound is a reading and not a prompt effect; where several plan
-orders fit, the readers decline to name one in half the worlds. Two readers on one construction,
-one bad test away, and it is the confound the walkthrough named. Along the
-evidence stream the same reader reaches the plan late and reliably, the preference rarely, and
-does not lower its confidence at a contradiction the exact posterior registers (J03-S5); its
-prediction of the hidden future choice, on the repaired question, sits half a nat under a
-uniform guess for every reader variant, the one handed the true latents included (J02-S5), so
-the joint-over-staged question has no purchase on a reader that does not map what it holds
-onto what the maker will do; the exact ceiling a third of a nat above uniform says the
-construction would have paid a reader that did. Nor does it see a maker's note contradict the
-maker's record: offered the hypothesis that the note misrepresents the goal, it takes it in one
-world in fourteen whether the note lies or not (J04-S5), while the exact posterior moves by a
-nat and a half; and carried into a second episode under a new goal, the preference it inferred
-predicts the maker's choice worse than the scenario's own prior (J05-S5). In this reader the
-triple's dispositional product is neither recovered nor used, its situational product is half
-recovered and unused, and only the process product is read. The Stage-6 tournament gives that
-boundary its constructive half: on worlds whose latents entail exact action distributions, ANY
-route that compiles a hypothesis into such a distribution clears direct reading by a nat, and
-the routes rank by how little of the reader's own judgment they use (exact-likelihood weighing
-above bare label likelihoods above free-language proposal-and-weighing, M-S6), so the triple's
-machinery is worth building around these readers' UNDERSTANDING of the vocabulary while routing
-the WEIGHING through the world model, and the joint account's failure here stays a reader fact,
-not a framework fact. Confidence: one construction family, both admitted readers, the week's
-first block; one bad test away, and the reader boundary it leans on is thrice-measured.
-Naming the intended latent, or producing a coherent rationale, does not establish
-understanding here: a reader HANDED the true latents could not use them to predict what
-happens next (J02-S5), so the maker-state realization requirement stands as an open
-architectural proposal, never a reinterpretation of that failed reader.
+finding, now with its objects kept apart: expertise as the transition model, process as the
+realized path, the maker's context and subjective action set derived through belief and
+expertise, and the composition claim in its restated form, expertise distorting the available
+possibilities under context, with drive commonality named as the assumption that keeps the
+distortion decodable. Both composition rows are open. The single behavioral fact here cuts the
+right way for a joint account, since a staged pipeline would care about stage order and the
+simulated reader's answer does not move when the order changes; the distortion story's weakest
+named part is attention, flagged by its own author. The products the walkthrough insisted on
+keeping apart have one direct measurement: a small reader recovers a maker's appraisal and its
+intended audience response above the floor and crossed, thinly, confirmed on a fresh split
+(A01-S4), and not on a notice register, where the same reader family gives one answer per
+question whatever the world (A01-S5). The triple's first direct test of goal against standing
+preference finds the reader collapsing them: told the goal, it still reads the goal's axis as
+the chooser's disposition in two thirds of worlds while recovering the plan cleanly, on two
+reader families (J01-S5); along the evidence stream it reaches the plan late and reliably, the
+preference rarely, and does not lower its confidence at a contradiction the exact posterior
+registers (J03-S5); its prediction of the hidden future choice sits under a uniform guess for
+every variant, the one handed the true latents included (J02-S5); it does not see a maker's
+note contradict the record (J04-S5); and the preference it infers predicts a second-episode
+choice worse than the scenario's own prior (J05-S5). In these readers the dispositional product
+is neither recovered nor used, the situational product is half recovered and unused, and only
+the process product is read. Those Stage-5 failures keep their original scope: two reader
+families, one construction family each, and the confound the walkthrough named. The Stage-6
+tournament supplies no constructive comparator to set against them: its routes compiled
+hypotheses through a realizer that read the hidden world, so the nat they cleared over direct
+reading belonged to the privileged simulator, and what that block leaves standing is that an
+exact selector among four supplied controller laws identifies the planted one from the prefix
+where the label reader does not, which is system identification and not reconstruction (M-S6).
+Whether a reader can use a complete supplied maker state, and recover one factor while keeping
+the rest, is the Stage 7 ladder's question, asked behind a boundary the reader cannot cross,
+and its first rung answers the first half for the two admitted readers: handed the whole
+executable state, both predict the next feasible action worse than a frozen domain model
+that knows nothing about the maker, while a program executing the same bytes reaches the
+exact oracle (K04-S7). The boundary is therefore state USE, not state recovery or supply,
+which is the same shape as the Stage-5 finding that a reader handed the true latents could
+not map them onto a choice (J02-S5), now measured with the leak closed; and it holds at
+every rung of the ladder: no single true factor lifts either reader, the prose rendering is
+no better than the data, a swapped belief or goal that reverses the oracle's expectation
+moves the reader one time in seven at best, and paraphrasing the supplied state moves the
+reader as much as inverting its meaning (K-S7, X10-S7), so these readers answer to the
+surface of what they are handed and not to the state it names, and a reader eighteen times
+larger through another route answers the same way, a nat under the domain model with the
+whole state in hand (K16, L340). Give the same readers a
+program that executes the state and reduce their job to naming one missing factor, and the
+gain comes back to the domain model's level or above it, without the factor being named:
+the belief is in the candidate list two times in five and a swapped belief that changes
+the oracle's expectation moves the joint reader one time in fourteen, and asked for the set
+of options the maker believes open, given the beliefs and the law that fix it, the readers
+propose a set that holds the truth one time in twenty (KI-S7). The realizer that the
+maker-state rule needs exists, then, as a program handed the state; for these readers it is
+not the reader, and the open question is whether a reader can propose a whole state that
+program can use (the reconstruction trunk). The expertise law itself is in the evidence
+for such a program: exact selection among supplied laws and a law learned by likelihood
+from two demonstrations both clear the floor by half a nat, the Stage 6 survivor
+replicated clean, while neither reader proposes a law when shown what one looks like; shown three of the
+maker's earlier episodes instead, the law learned from them transfers to a new episode at
+the oracle's level, and one reader proposes it well enough for the solver to use (KL-S7,
+L342), the first reconstruction rung a reader passes on its own proposals, with every
+other factor supplied. Asked for the goal and the belief together, the reader keeps them
+apart and gets both wrong about as often as it gets each wrong alone, and its arm's full
+commitment to a wrong pair is what puts it under the domain model (RJ-S7). Naming the intended
+latent, or producing a coherent rationale, does not establish understanding, and neither
+does possessing the complete state; the maker-state realization requirement stands as an
+architectural proposal whose realizer, for these readers, is not the reader. Confidence: the
+Stage-5 reader boundary is one bad test away; the Stage-7 state-use boundary is one bad test
+away (two readers, one construction family, the size ladder pending); the Stage-6
+architecture interpretation is instrument-dead.
 
 ## §3. Coupling, without premature topology
 
@@ -559,7 +612,8 @@ been recovered.**
 | **V02/V04-S3** | A standing preference profile is recoverable from enacted artifacts and transfers across surface domains | **SPLIT (test, L216), the reader gap replicated on a third domain (L223).** Recovery rises with artifact dose at 0.92 yield; the exact reader transfers across domains PERFECTLY (1.00 on the third, events, domain as well) while model readers drop 0.67→0.42 and 0.42→0.33 on the second domain and read the third at 0.50 (p=0.007) and 0.33 (chance); the construct transfers, the readers do not carry it. Under exact inference the goal side, not the profile side, is the fragile one (L172) |
 | **V05-S3** | An editor's standing preference is recoverable from the direction of their edits | **CEILING STANDS, INSTRUCTED PROFILE LOSES (test, L216).** Exact recovery 4/4 with maker residual ~0; the model editor instructed to be frugal switches 90 percent of choices and its edits still read robust (0.998), so instructed identity loses to intrinsic grain in editing too, the third independent sighting of the L169 appetite fact |
 | **L01-L05-S3** | Maker traits cross to a same-base student through semantically empty artifacts (the subliminal channel) | **REJECTED at the tested scale for transmission; informative carrier unresolved (test, L183-L185; twelve seeds L222; adversary L226; XV4 audit).** The uptake null stands: owl gap exactly 0.000 across LoRA ranks and templates, +0.009 pooled over twelve seeds (p=1.0), −0.075 full-finetune, policy channel −0.003. The original 4/4 representation separation does not establish a nontrivial carrier: a cheap scalar adversary (count, mean, spread) scores 3/4 on the same held-out cells, and the length-matched representation scores 2/4, on a tiny held-out set. On twelve leave-one-seed-out decisions with an exact swap null, the three scalars and the length-matched representation separate alike, 11 of 12 each (L254): the carrier is present and surface-trivial, so the failure is at uptake |
-| **V-S6** | On constructed value worlds the reader preserves the policy-equivalent class until the diagnostic event, selects the separating probe, and its inferred trajectory predicts the changed-context choice beyond goal-utility baselines | **SPLIT (test, L318), 74 to 180 rows per card, both admitted readers.** Breadth held across the pre-event staircase (0.072, doubling to 0.144 only after the event) and the diagnostic consult elevated +0.20 with no post-resolution perseveration; the changed-context prediction inverts to −0.28 against the best of uniform, domain-marginal, modal-goal, and last-goal baselines: the search behavior is right and the prediction it should feed is not; the run-to-run stability flag closed at rung one, where the inversion replicates on 2710 fresh world-readers (−0.306 [−0.330, −0.282], V14/x1, L322) and the collapsed-spec +0.32 is superseded; the staircase holds at scale (+0.082 [+0.080, +0.085], 4536 rows, V11/x6, L319) |
+| **V-S6** | On constructed value worlds the reader preserves the policy-equivalent class until the diagnostic event, selects the separating probe, and its inferred trajectory predicts the changed-context choice beyond goal-utility baselines | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The value cards inherit the dependency-tainted predictor; several of the questions duplicate one planted mapping or one statistic (V02 with V03, V04 with V05); the changed-context target exposes hidden generator structure; no Stage 6 conclusion about breadth, search, value trajectory, preference, or changed-context choice is licensed |
+|   | | *(this row's history is SPLIT on the Stage-6 block, L316 to L322, then voided by the 2026-09-02 dependency audit, L330; the twins and the staircase geometry stand as construction facts, rebuilt behind the Stage 7 boundary as V01 to V06)* |
 
 **Value change against concealment: dated evidence and the trajectory** *(the 2026-08-30/31
 passes; provenance in `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*:
@@ -573,6 +627,33 @@ passes; provenance in `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*
 
 *2026-08-30/31 walkthroughs; spoken wording lightly reconstructed.*
 
+> An artifact gives you two different kinds of evidence: a probabilistic distribution of previous
+> attention, compressed lossily through expertise, and a record of what the maker chose to attend to
+> when the artifact was created. Because we can separate current from past, we get a much richer
+> preference estimate: not a single point, but a weighted trajectory.
+
+> If someone repeatedly pays costs to redirect effort away from an old trained tendency, that
+> redirection is a preference expressed currently. The trained tendency may preserve an older
+> history; the present allocation records what they are trying to become.
+
+> I am not assuming that there has to be a separate latent value field. A context-controlled
+> probabilistic mapping of where attention chooses to focus may itself be the latent preference.
+
+*2026-09-01/02 walkthroughs; spoken wording lightly reconstructed.*
+
+**The two-timescale trace, and what it may and may not say about preference.** One artifact
+supplies one dated present allocation plus an anterior, context-filtered mixture carried by
+expertise; it does not supply two equally dated points. Weak relative-age cues may exist inside
+the historical mixture, but they do not precisely date it. Several dated artifacts can make
+their mixtures constrain one another and narrow the posterior over directions of change.
+Present costly redirection is present preference evidence even when automatic capture reflects
+older training or pressure. Preference may be stable parameters of a context-conditioned
+attention-allocation policy, or that policy may be evidence for a deeper `V`; both ontologies
+stay live. A vector or slope is shorthand until coordinates, a time basis, and uncertainty are
+specified. Direction earns a preference interpretation only by predicting later costly choices
+beyond context, local goal, habit, and expertise. And homeostatic return can express a stable
+preference, so movement alone is not the target.
+
 **Diagnostic value evidence may arrive after an initially ambiguous choice.** An
 accuracy-oriented and a prestige-oriented maker can cite the same prestigious source;
 discovering later that the source is wrong creates the separating opportunity, where direct
@@ -583,9 +664,9 @@ when it predicts later choices, while lagging expertise can preserve an older te
 mismatch is only a CANDIDATE direction of change, not literally a linear slope (temporary
 context, coercion, concealment, relearning, and nonlinear return toward an older mean remain
 rivals), and it earns a trajectory interpretation only by predicting later edits, stopping, or
-changed-context choices. The Stage-6 V track constructs exactly this geometry (exact twins to
-the diagnostic consult, divergence after), its first block finds genuine change separating from
-concealment where the event exists (L316), and nothing in it promotes value recovery.
+changed-context choices. The Stage-6 V track constructed exactly this geometry (exact twins to
+the diagnostic consult, divergence after), which stands as a construction fact; its reader read
+of the separation is void (V-S6), and nothing in it promotes value recovery.
 
 **Preference evidence requires an opportunity-defined tradeoff.** A high-order structural
 choice, such as how prominently to place a rival account, which caveat to preserve, or which
@@ -596,31 +677,31 @@ convention, and local goal are controlled. One coherent placement is a qualitati
 not ground truth. In collaborative work, role records or discriminating longitudinal evidence are
 required before the event is assigned to the author, editor, or director.
 
-**State of the section's claim.** Four accounts stand, plus one prospective SEPARATOR (the
-dated-trajectory rule above, which discriminates change from concealment without being a fifth
-account of where value lives); none dead, one favoured, and the favourite
-was a surprise, since the section's original headline account (residue) now runs last by the
-program's own sequencing while conjunctive satisfaction, the account he flagged as the first
-non-dithering idea, is the one the constructed world discriminates toward. The residue account
-itself now stands in its restated, weaker form, a candidate value signal defined as the
-cross-episode remainder after modeling domain competence and each episode's attention-weighted
-goal, expected messy because habit also records training, convenience, accident, and repeated
-attention. The absence mechanism is the section's cleanest result anywhere, reading a *missing*
-drive through pursuit style at sim-perfect strength under commission. Every one of these remains
-a claim about constructed worlds; no real maker's values have been read by any account.
-The scale-scoped transmission null stands, and the repaired carrier comparison locates the
-failure at uptake: the trait leaves a surface trace in the sequences (three scalars separate
-held-out seeds as well as the representation does) that the student never took up. Confidence: the sim discriminations are sim-only, authoritative about
-method; all four accounts are untested on real text; the Stage-3 environment rows are
-exact-construction facts about model readers and programmatic makers, where the cross-domain
-reader gap, now replicated on a third domain, and the three-sighted instructed-versus-intrinsic
-asymmetry are the section's first live constraints from the model side; the scoped transmission
-null is one bad test away; the carrier's presence is one bad test away and its triviality is
-measured on twelve decisions. The Stage-6 V quartet adds the reader-side shape: the search
-behavior the residue accounts would need (breadth until the evidence, the separating probe
-chosen, no perseveration) is present in these readers, and the prediction that would cash it
-is not: the same weighing bottleneck as M-S6, now measured inside the value track (V-S6,
-L318).
+**State of the section's claim.** Four accounts of where value information could live stand,
+none dead, one favoured, and the favourite was a surprise: the residue account, the section's
+original headline, now runs last by the program's own sequencing in its restated, weaker form
+(a candidate value signal as the cross-episode remainder after modeling domain competence and
+each episode's attention-weighted goal, expected messy because habit also records training,
+convenience, accident, and repeated attention), while conjunctive satisfaction, the account he
+flagged as the first non-dithering idea, is the one the constructed world discriminates toward.
+The dated-trajectory rule and the two-timescale trace are a SEPARATOR, not a fifth account: they
+say how change might be told from concealment, not where value lives, and the ontology under
+them stays unresolved, since the stable parameters of a context-conditioned attention policy
+may be the preference itself or evidence for a deeper organization. The absence mechanism is
+the section's cleanest result anywhere, reading a missing drive through pursuit style at
+sim-perfect strength under commission. Every one of these remains a claim about constructed
+worlds: the Stage-3 environment rows are exact-construction facts about model readers and
+programmatic makers, where the cross-domain reader gap, replicated on a third domain, and the
+three-sighted instructed-versus-intrinsic asymmetry are the section's first live constraints
+from the model side; the scoped transmission null stands, with its carrier present,
+surface-trivial, and never taken up by the student. Stage 6 contributes no reader-side
+evidence: its value quartet realized its states through the privileged call and is void
+(V-S6), and the constructed geometry of policy-equivalent twins separated only by the
+diagnostic event survives as a construction fact rebuilt behind the Stage 7 boundary. No real
+maker's values have been recovered by any account. Confidence: the sim discriminations are
+sim-only, authoritative about method; all four accounts and the separator are untested on real
+text; the Stage-3 rows are one bad test away, the carrier's triviality measured on twelve
+decisions; the Stage-6 quartet is instrument-dead.
 
 ## §6. Value blindness, and where longitudinal ground truth could come from
 

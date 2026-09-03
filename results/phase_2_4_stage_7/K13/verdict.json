@@ -1,0 +1,54 @@
+{
+ "card": "K13",
+ "cell_id": "K13",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 15.51,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "objective-versus-subjective option mismatch and correct refusal of unavailable choices",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "With C_ext+B+K+G+H supplied, can it reconstruct A?",
+ "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+ "point": -5.002829890917878,
+ "ci": [
+  -7.388560772599463,
+  -2.592069205425549
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -5.002829890917878
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -11.523923669525985
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -8.26337678022193
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K13\\metrics.json",
+    "sha256": "89166f1aed6143f50ec788bb2900756b50090d4d0e2d0cf36325b8085444f683"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K13\\cases.jsonl",
+    "sha256": "9bbf5f6e34149fa5f740052c9889fe26bfebea523563b2ab1938138d67282831"
+   }
+  },
+  "written_at": "2026-09-02T16:28:26"
+ }
+}

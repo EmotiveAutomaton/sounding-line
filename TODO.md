@@ -68,7 +68,90 @@ position gate stricter than its Stage-4 band). Predicted in advance from the Sta
 the model-choice cards (R01, R04, F02) are likely void or null; their fail-closed rulers are
 the deliverable. When the scheduler exhausts, the wrapper chains into the general queue.
 Landings write through internally as they come; one final packet, then the synthesis.
-**STAGE 6 (2026-08-30, his order: build front to back, continuous gear 2 through the week).** LAUNCHED
+**STAGE 7 (2026-09-02, his order: review the brief, ask on decision points, then build the whole
+thing and set it to run in gear two).** Brief at docs/design/PHASE_2_4_STAGE_7_CONTEXT.md (filed from
+the repository root the same day, with his two rulings appended under §5: the interpreter capsule
+as the isolation mechanism, and the local-only hard stop retired in favor of clone-or-download
+with confirmation). RECORD GATE FIRST: the Stage 6 dependency audit (results/phase_2_4_stage_7/
+STAGE6_DEPENDENCY_AUDIT.{json,md}, L330) suspends the tournament ranking, the reader boundary,
+M14, M15, and the CoAuthor result; the theory rows carry SUSPENDED (Stage 7 D04, L330) in place.
+BUILT (one pass): `runners/stage7/` (contracts; the reader capsule package; constructor worlds
+with seven separable factors and a maker-state stop law; controlled mixed-control histories; the
+repaired CoAuthor loader; ScholaWrite switches; the six conformance fixtures over the two cloned
+reference programs; the isolation runtime with a raising audit hook and the loopback model
+server, including the Ollama 9B route; the 100-question registry with identity hashes; the
+manifest; the engines for every trunk; the 24 attacks; confirmations; validator; reporter;
+fresh-clone verifier; scheduler with the 72-hour ceiling and the signed-keystone gate);
+`soundingline/stage7.py`; `tools/test_s7.py` (30 guard tests green); `run_stage7.sh`. RUNS:
+`run_stage7.sh` in gear two: the discarded pilot starts the one 72-hour ceiling; the integrity
+block and the record gate; the scientific lock waits on the signed keystone audit; the ladder;
+the confirmation freeze at hour 64 or exhaustion (at most three claims); one packet at closure.
+OPEN ON HIS WORD: none for the launch (he ordered it); his read of the packet at closure.
+ATTEMPT 1 STOPPED 2026-09-02 11:04 in its integrity block (L332): I05, I06, I10, and I11
+failed on their own should-break cases (the mutant never recomputed its hidden targets; the
+order canary was a tautology; a negative fixture went through the builder), and the
+read-through of every queued engine found the stop truth false in every world (the cut rule
+always left two future steps). REPAIRED the same day: the boundary-walk cut with a reweighted
+terminal stratum, the hazard on the last step's goal on both sides of the boundary, the stop
+constants raised (natural stop rate 0.047, stop gap 0.080 nats against the 0.05 floor), the
+canary, fixture, ledger, sensitivity-gate, rival-pairing, and forced-keyword repairs; 30 guard
+tests green; a full scheduler dress rehearsal on a scratch root through the fake transport
+(`S7_FAKE_SERVER`) before the clock restarts. RELAUNCHED 2026-09-02 12:44:47 after the rehearsal's fifth pass closed with its packet (a
+fresh clock; deadline 2026-09-05 12:44:47); attempt 1 preserved under
+results/phase_2_4_stage_7_attempt1/. KEYSTONE SIGNED 13:24:53 (all ten lock gates passed);
+THE SCIENTIFIC LOCK OPENED 13:26:54 (L333: 38 integrity cells clean); the ladder runs.
+K01 LANDED 14:07 (L334): next action and changed context live; the STOP target under the
+0.05 floor (+0.034 [+0.011, +0.064] on 300 worlds), so no reader is tested on stopping this
+run; K15 and P05 read as descriptive. OPEN ON HIS WORD: a per-event stop ruler for the next
+stage (recommended yes, declared before that run).
+K04 LANDED 14:20 (L335): COUNTEREVIDENCE on both readers (−0.46 and −2.62 nats against the
+domain model with the complete executable state supplied; the capsule solver equals the
+oracle on every world): the reader boundary is state USE; K16 (size ladder) and K05 (language
+form) are the diagnosis; K11 to K14 read as diagnosis for this target.
+K05 to K10, K15, X10 LANDED by 15:16 (L336): every rung COUNTEREVIDENCE on both readers (the
+prose rendering no better; twin reversal followed on 5 to 14 percent of reversing pairs; the
+paraphrase attack fails, TV 0.57 against 0.59 under a meaning change, so K05's language-state
+claims close). Pending on this trunk: K11 to K14 (diagnosis), K16 (the size ladder).
+K11, K12, R06, R07, X11, X16, X18 LANDED by 15:53 (L337): the joint arm returns to the domain
+model's level (K11) and clears the floor for SmolLM2 with the belief withheld (K12 +0.29), but
+goal recall 12 percent, belief recall 6 percent, twin reversal followed 0 of 14: the gain is
+the solver's under a wrong proposal; the ratios void by rule; the twin attacks fail. Pending:
+K13, K14, K16; then the reconstruction trunk (R13 cold is the live question).
+K12 RERUN (tolerant grammar) LANDED 16:59: SUPPORT_CANDIDATE on both readers (+0.29 and +0.36;
+belief recall 0.39; twin follow 1 of 14); K11 rerun identical (L337 reversal block).
+R01 LANDED 17:37, RERUN 17:45 under the prose decoding (L341): goal recall 0.23 (Qwen 0.30, SmolLM2
+0.17); the gate closed. R02 LANDED 17:56: belief recall 0.37 on both readers, gate closed. R03
+RERUN 18:12 (merged law lines): recall 0.33 pooled, Qwen 0.67 (over the bar alone), SmolLM2 0.00;
+the pooled gate closed. R04 LANDED 18:19: action-set recall 0.03 (sets of three and seven ids
+against nine or ten live options), closed. R05 LANDED 18:26: context recall 0.09 (Qwen 0.18,
+SmolLM2 echoes the template), closed. The five recall gates are landed (L341): belief 0.37, law
+0.33 (Qwen 0.67), goal 0.23, context 0.09, action set 0.03. X15 INSTRUMENT_FAILED (the
+opportunity-blind reading closes). R09 LANDED 18:40 (L342): the learned law transfers (+0.64,
+at the oracle's level) and Qwen's proposed law clears the floor (+0.56); the learn_law gate
+passes. R10 RERUN 19:13 (L343, after the changed-context repair): the inferred context lands
++0.59 over the domain model on the counterfactual choice and −0.03 against the copied-context
+rival, which equals the oracle here; SmolLM2 unrealized on every world. R11 LANDED 19:23 (L344,
+the joint rungs; R12 and R13 append): no collapse of goal into belief (recall 0.23 and 0.34), no
+gain (Qwen −1.4 nats under the domain model, the price of confident wrong pairs). R12 LANDED
+19:47: the law from the prefix alone, Qwen's shape right in 56 percent of worlds, a tenth of a nat
+that does not clear the interval; twin reversal followed 0 of 8. R13 FIRST LANDING 20:09 VOID (an
+instrument hole: the residue grammar rejected both readers' copy of the prompt's notation on every
+row, the joint arm abstained on 120 of 120); the residue, law, and goal grammars repaired; R13,
+X01, X20, X06 reset; relaunched 20:19 on the same clock. Next: R13 (cold, rerun), R14 to R16,
+the A cells, P, V, the attacks.
+K16 LANDED 17:30 (L340): the size ladder (0.5B, 1.5B, 3B, the 9B route) COUNTEREVIDENCE at every
+size with the complete state supplied (the 9B −1.06 nats, the best); the solver's line beside
+the state helps none. The K trunk is closed; the R trunk runs.
+K14 LANDED 16:41 and RERUN 17:07 (L339): the two program routes SUPPORT (selection +0.59, a law
+learned from two demonstrations +0.57; indistinguishable); the joint reader realized on 16 of
+120 rows (the readers echo the candidate tables). Pending: K16; R03 (law recall without
+candidates); R09 (learned-law transfer).
+K13 RERUN LANDED 16:28 (L338): COUNTEREVIDENCE (−5.0 and −11.5 nats against the domain model;
+recall of the true subjective set 5 percent); the first landing (every row unrealized at zero
+contrast) was an instrument defect, repaired and rerun. Pending: K14, K16; the R trunk. THEORY ERRATA
+(Stage 7) APPLIED 2026-09-02 (L331), archived under docs/design/archive/.
+
+**STAGE 6 (2026-08-30, his order: build front to back, continuous gear 2 through the week; INTERPRETATION SUSPENDED 2026-09-02 by the Stage 7 dependency audit, L330: the tournament ranking, the reader boundary, M14, M15, and T02 do not stand; supplied-law selection and the construction facts do).** LAUNCHED
 15:39 (the pilot started the immutable 168-hour clock; deadline 2026-09-06 15:39). BUILT:
 the full 104-card, 24-attack contextual maker-state program (registry Stage-6 section for the build log
 and deviations; `runners/stage6/`; 21 guard tests green). RUNS: `run_stage6.sh` — the discarded pilot

@@ -1,0 +1,164 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "1d318034da0351ef",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 67,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 6,
+  "tokens_in": 1559,
+  "tokens_out": 67,
+  "wall_s": 3.266
+ },
+ "confidence": 0.3333333333333333,
+ "equivalence_class": [
+  "b0|g0",
+  "b0|g1",
+  "b0|g2"
+ ],
+ "evidence_sha": "3c90592d0e4c6af8",
+ "notes": {
+  "band": 0.2,
+  "candidate_preds": {
+   "b0|g0": {
+    "restructure:sec2:order": 0.08555985811035732,
+    "revise:sec1:s1.1": 0.31278389542917673,
+    "revise:sec2:s2.2": 0.2599078998617194,
+    "revise:sec3:s3.2": 0.1714053193957982
+   },
+   "b0|g1": {
+    "restructure:sec2:order": 0.08555985811035732,
+    "revise:sec1:s1.1": 0.31278389542917673,
+    "revise:sec2:s2.2": 0.2599078998617194,
+    "revise:sec3:s3.2": 0.1714053193957982
+   },
+   "b0|g2": {
+    "restructure:sec2:order": 0.08555985811035732,
+    "revise:sec1:s1.1": 0.31278389542917673,
+    "revise:sec2:s2.2": 0.2599078998617194,
+    "revise:sec3:s3.2": 0.1714053193957982
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 0.3333333333333333,
+    "g1": 0.3333333333333333,
+    "g2": 0.3333333333333333
+   }
+  },
+  "posterior": {
+   "b0|g0": 0.3333333333333333,
+   "b0|g1": 0.3333333333333333,
+   "b0|g2": 0.3333333333333333
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "yes",
+      "yes",
+      "tight",
+      "none"
+     ],
+     "text": "belief: library=yes source=yes deadline=tight checked=none"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "consult"
+     ],
+     "text": "pull: revise > consult"
+    },
+    {
+     "ref": "g1",
+     "signature": [
+      "revise",
+      "fix"
+     ],
+     "text": "pull: revise > fix"
+    },
+    {
+     "ref": "g2",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "pull: revise > restructure"
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.07692307692307693,
+   "probe:sec1:tech": 0.07692307692307693,
+   "restructure:sec2:order": 0.07692307692307693,
+   "revise:sec1:s1.1": 0.07692307692307693,
+   "revise:sec2:s2.2": 0.07692307692307693,
+   "revise:sec3:s3.2": 0.07692307692307693,
+   "write:sec1:s1.1": 0.07692307692307693,
+   "write:sec1:s1.2": 0.07692307692307693,
+   "write:sec1:s1.3": 0.07692307692307693,
+   "write:sec2:s2.1": 0.07692307692307693,
+   "write:sec2:s2.2": 0.07692307692307693,
+   "write:sec3:s3.1": 0.07692307692307693,
+   "write:sec3:s3.2": 0.07692307692307693
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.01487358165883508,
+   "probe:sec1:tech": 0.03033126985606156,
+   "restructure:sec2:order": 0.08555985811035734,
+   "revise:sec1:s1.1": 0.3127838954291768,
+   "revise:sec2:s2.2": 0.2599078998617194,
+   "revise:sec3:s3.2": 0.17140531939579823,
+   "write:sec1:s1.1": 0.021733304541331062,
+   "write:sec1:s1.2": 0.021733304541331062,
+   "write:sec1:s1.3": 0.021733304541331062,
+   "write:sec2:s2.1": 0.018059297882462563,
+   "write:sec2:s2.2": 0.018059297882462563,
+   "write:sec3:s3.1": 0.011909833149566666,
+   "write:sec3:s3.2": 0.011909833149566666
+  },
+  "next_section": {
+   "sec1": 0.4083150789092316,
+   "sec2": 0.3815863537370019,
+   "sec3": 0.21009856735376664
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.01487358165883508,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.03033126985606156,
+   "restructure": 0.08555985811035734,
+   "revise": 0.7440971146866944,
+   "write": 0.12513817568805166
+  },
+  "stop": 0.028378532420135803
+ },
+ "version": "PredictionV1"
+}

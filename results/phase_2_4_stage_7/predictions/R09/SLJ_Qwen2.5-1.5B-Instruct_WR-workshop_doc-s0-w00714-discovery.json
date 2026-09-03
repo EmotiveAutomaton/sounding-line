@@ -1,0 +1,101 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "a44c031dff989de0",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 21,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 2,
+  "tokens_in": 1330,
+  "tokens_out": 21,
+  "wall_s": 3.404
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "k0"
+ ],
+ "evidence_sha": "f0f9f94d8edb94a1",
+ "notes": {
+  "band": 0.07692307692307693,
+  "candidate_preds": {
+   "k0": {
+    "consult:sec1:src": 0.0,
+    "write:sec2:s2.1": 0.43777815740441695,
+    "write:sec3:s3.1": 0.2811109212977915,
+    "write:sec3:s3.2": 0.2811109212977915
+   }
+  },
+  "factor_marginals": {
+   "expertise_law": {
+    "k0": 1.0
+   }
+  },
+  "posterior": {
+   "k0": 1.0
+  },
+  "proposals": {
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "write",
+      "revise",
+      "cite",
+      "restructure",
+      "steady"
+     ],
+     "text": "skill: write,revise weak: cite,restructure pace: steady"
+    }
+   ]
+  },
+  "proposed": [
+   "expertise_law"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "consult:sec1:src": 0.2,
+   "restructure:sec2:order": 0.2,
+   "write:sec2:s2.1": 0.2,
+   "write:sec3:s3.1": 0.2,
+   "write:sec3:s3.2": 0.2
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "consult:sec1:src": 0.0,
+   "restructure:sec2:order": 0.0,
+   "write:sec2:s2.1": 0.43777815740441695,
+   "write:sec3:s3.1": 0.2811109212977915,
+   "write:sec3:s3.2": 0.2811109212977915
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.43777815740441695,
+   "sec3": 0.562221842595583
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 1.0
+  },
+  "stop": 0.08975200914554239
+ },
+ "version": "PredictionV1"
+}

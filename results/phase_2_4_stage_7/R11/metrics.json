@@ -1,0 +1,213 @@
+{
+ "card": "R11",
+ "lane": "discovery",
+ "written_at": "2026-09-02T19:23:34",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.3376853594326965,
+  "n": 48,
+  "oracle_mean": -2.2554614439645655,
+  "dom_mean": -2.593146803397262
+ },
+ "floor": 0.0675370718865393,
+ "slj_vs_dir": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.574188990269921,
+   "ci": [
+    0.26497936315685533,
+    0.8575595212087719
+   ],
+   "n_units": 48,
+   "threshold": 0.03,
+   "perm_p": 0.0004999750012499375,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 1.0567850019692182,
+   "ci": [
+    -0.4490149340931491,
+    2.38344350538249
+   ],
+   "n_units": 48,
+   "threshold": 0.03,
+   "perm_p": 0.1552922353882306,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.8154869961195695,
+   "ci": [
+    0.038790607570533576,
+    1.503660480933979
+   ],
+   "n_units": 96,
+   "threshold": 0.03,
+   "perm_p": 0.027498625068746563,
+   "arm": "SLJ",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "n_worlds": 60,
+ "recall_belief_state": {
+  "recall": 0.3416666666666667,
+  "n": 120,
+  "redundancy": 0.0,
+  "posterior_mass_on_truth": 0.2624510852332034,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.31666666666666665,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.36666666666666664
+  }
+ },
+ "recall_proximal_goal": {
+  "recall": 0.23333333333333334,
+  "n": 120,
+  "redundancy": 0.2833333333333333,
+  "posterior_mass_on_truth": 0.23333333333333334,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.31666666666666665,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.15
+  }
+ },
+ "component_posteriors": {
+  "proximal_goal": 0.23333333333333334,
+  "belief_state": 0.2624510852332034
+ },
+ "by_cross": {
+  "attribute|accurate": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.0498371022924986,
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.005456037081385312,
+   "pooled": 0.027646569686941975
+  },
+  "attribute|checked_illusion": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 1.9185710750186509,
+   "Qwen/Qwen2.5-1.5B-Instruct": 1.902761616628803,
+   "pooled": 1.910666345823727
+  },
+  "attribute|false_deadline": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.6673805695185268,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.568872259227835,
+   "pooled": -0.6181264143731809
+  },
+  "attribute|false_library": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.6062907746712736,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.920943367004643,
+   "pooled": -0.7636170708379584
+  },
+  "audit|accurate": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.6905339420877603,
+   "Qwen/Qwen2.5-1.5B-Instruct": -3.953117781735351,
+   "pooled": -2.321825861911555
+  },
+  "audit|checked_illusion": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -1.0554010116949666,
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.025132806953734543,
+   "pooled": -0.5151341023706162
+  },
+  "audit|false_library": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.36437963694399217,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.2923938315331421,
+   "pooled": 0.0359929027054251
+  },
+  "produce|accurate": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.015286242099612194,
+   "Qwen/Qwen2.5-1.5B-Instruct": -1.7212678540270039,
+   "pooled": -0.8529908059636959
+  },
+  "produce|checked_illusion": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.8666045746667856,
+   "Qwen/Qwen2.5-1.5B-Instruct": -8.006204379649292,
+   "pooled": -3.569799902491253
+  },
+  "produce|false_deadline": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 1.1880687364560194,
+   "Qwen/Qwen2.5-1.5B-Instruct": -8.107163109497197,
+   "pooled": -3.459547186520588
+  },
+  "produce|false_library": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.1638625367029206,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.8033847165213616,
+   "pooled": -0.483623626612141
+  },
+  "tighten|accurate": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.6386458925277564,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.6296420536548967,
+   "pooled": -0.6341439730913266
+  },
+  "tighten|checked_illusion": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.5078817891460433,
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.7602971755611504,
+   "pooled": 0.6340894823535969
+  },
+  "tighten|false_deadline": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.48455345198162414,
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.37260010396147214,
+   "pooled": 0.42857677797154814
+  },
+  "tighten|false_library": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.2855647449313668,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.518986646456357,
+   "pooled": -0.40227569569386185
+  }
+ },
+ "cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.16834336262231897,
+   "ci": [
+    -0.4675255544467371,
+    0.12502480216492914
+   ],
+   "n_units": 48,
+   "threshold": 0.0675370718865393,
+   "perm_p": 0.288235588220589,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.3973941691637102,
+   "ci": [
+    -2.6559708070957457,
+    -0.40116395419554923
+   ],
+   "n_units": 48,
+   "threshold": 0.0675370718865393,
+   "perm_p": 0.003249837508124594,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.7828687658930146,
+   "ci": [
+    -1.4068332619809476,
+    -0.2584132330244543
+   ],
+   "n_units": 48,
+   "threshold": 0.0675370718865393,
+   "perm_p": 0.0026498675066246686,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 13
+}

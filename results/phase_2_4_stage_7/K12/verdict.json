@@ -1,0 +1,54 @@
+{
+ "card": "K12",
+ "cell_id": "K12",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 7.92,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "false-belief collision resolved by later action",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "primary": "With C_m+K+A+G+H supplied, can it infer only B?",
+ "reason": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct; floor 0.078 nats (20 percent of gap 0.38922811011771813)",
+ "point": 0.3571254997679385,
+ "ci": [
+  0.12946299282287166,
+  0.5775568328226952
+ ],
+ "n_units": 66,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.2850749498631913
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.3571254997679385
+  },
+  "pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.32110022481556494
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K12\\metrics.json",
+    "sha256": "cc1875c1ae8f6102cdcc1e6baf673f29ce7a47d4e1a5d18ee1c4ae99ad1ccbc8"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K12\\cases.jsonl",
+    "sha256": "d3416b35306bb009d056336ebe5aa7a8503ffd8ee7c6efa03d5ccc7f6df4941f"
+   }
+  },
+  "written_at": "2026-09-02T16:59:36"
+ }
+}

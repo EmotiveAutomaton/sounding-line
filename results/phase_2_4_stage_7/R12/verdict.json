@@ -1,0 +1,54 @@
+{
+ "card": "R12",
+ "cell_id": "R12",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 23.91,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "expertise/action-space swaps with identical observed prefix",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can K and A be inferred jointly without treating objective opportunity as competence?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": 0.04077971832076096,
+ "ci": [
+  -0.1296489121019548,
+  0.2239923143095331
+ ],
+ "n_units": 94,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.04077971832076096
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11230359056332381
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.07654165444204238
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R12\\metrics.json",
+    "sha256": "cb5726c5d3a9470a6922fa9683020a0ebd5cbdc1162a861e648c4514378e7f7c"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R12\\cases.jsonl",
+    "sha256": "eefe98bbc4fd16f0f3ba0318888b4da2487da00a3b976e5549853685a78096e7"
+   }
+  },
+  "written_at": "2026-09-02T19:47:38"
+ }
+}

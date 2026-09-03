@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-08-29.**
+**Last updated: 2026-09-02.**
 
 ---
 
@@ -13999,6 +13999,863 @@ the same pass.
 > separable construction. Next obligation: none queued; the packet awaits his read. Public
 > claim: unchanged. Decision: **No**. Detail:
 > results/phase_2_4_stage_5r/post/CONF_SERIES.json, results/phase_2_4_aux/.
+
+## L330 · The Stage 6 record is corrected without being rewritten: the realizer every non-oracle arm predicted through read the hidden action inventory, the future events, the trajectory length, and the stop shift from the live world object, so the tournament ranking, the reader-boundary claim, the two realization conclusions, and the CoAuthor result are SUSPENDED; what survives under its own name is supplied-law selection (exact MAP 0.79 against the label reader's 0.30 on the same 128 units) and the reader-free construction facts
+
+**Hypothesis.** None of the Stage 6 headline claims was a hypothesis this entry tests; the
+question here is the audit's: did any non-oracle Stage 6 prediction depend on constructor
+fields the design said were withheld, and if so which cards survive (the Stage 7 brief §2,
+docs/design/PHASE_2_4_STAGE_7_CONTEXT.md, filed 2026-09-02).
+
+**Method.** A static access graph over runners/stage6 (every function reading the world's
+target_actions, events, trajectory, cut, or stop_shift, and every architecture arm's
+transitive reach to those reads), a dynamic trace (a recording world object handed to the
+exact realizer for every hypothesis tag on four committed worlds), the tournament
+decomposition recomputed from the committed rows and their reconstructed worlds (the
+direct arm, an equal mixture over the four exact controller realizations, the label reader's
+own weights, the exact posterior's weights, and the free-language arm, each scored by the
+Stage 6 scorer on the same 128 units), exact-likelihood identification recomputed and
+renamed, an implementation-identity matrix over the value and foraging cards (identical
+per-unit primary vectors), and one disposition per card and attack under five audit classes.
+Nothing under results/phase_2_4_stage_6 was edited. Receipts:
+results/phase_2_4_stage_7/STAGE6_DEPENDENCY_AUDIT.{json,md}.
+
+| finding | evidence | number |
+|---|---|---|
+| the realizer read the hidden fields | predictive_at_cut takes the whole world: the full target-action inventory, the future events (interrupts and cues), the trajectory length, and the stop shift through the hazard; every non-oracle arm (D excepted) called realize(world, tag) on the live object; the dynamic trace confirms target_actions, events, trajectory, cut, stop_shift touched | 8 of 9 arms reach hidden fields; the renderer touches none |
+| the tournament gain was the privileged mixture | the equal mixture over the four exact controller realizations, with NO model weights, already carries the label arm's whole gain over direct reading; the model-derived weights add a third of a thousandth of a nat; exact-likelihood adaptation adds 0.066; free-language weighting subtracts 0.019 | +0.943 (equal mix minus D), +0.0003 (labels minus equal mix), +0.066 (exact minus labels), −0.019 (CR minus L); the brief's cited +0.230, +0.002, +0.055, −0.017 sit in the JSON beside them |
+| exact selection is system identification | the exact posterior over the four supplied controller laws from the prefix likelihood, against the label reader's posterior | exact MAP 0.79, mass on truth 0.72; label reader MAP 0.30, mass 0.26; marginal 0.25; n 128 (the brief cited 0.699 and 0.289/0.257) |
+| duplicate estimands | identical per-unit primary vectors on shared lineages | F02, F03, F09 one statistic (with V09 sharing their constant vector); V02 with V03; V04 with V05; verdict points also tie A14 with V13 |
+| the CoAuthor loader | suggestion-select was routed into the delta branch first; the acceptance branch beneath it never fired; every scored decision was a dismissal | T02 CONSTRUCTION_INVALID (the repaired loader reads accept 236, edit 120, dismiss 146, ignore 3 on 40 sessions) |
+| dispositions | one per card and attack | CLEAN 59, DEPENDENCY_TAINTED 63, DUPLICATE_ESTIMAND 5, CONSTRUCTION_INVALID 1, UNRESOLVED 0 |
+
+*Table: one row per audit finding; the numbers are descriptive audit quantities recomputed
+from the committed rows, never confirmatory results.*
+
+**What we found.** The Stage 6 tournament measured how well an exact simulator with the
+hidden inventory in hand predicts its own worlds, weighted by a reader who contributed a
+third of a thousandth of a nat. The "reader boundary" (I05) supplied a prose goal, a
+controller label, and a remaining-item count and realized them through the same privileged
+call, so it never tested a reader against an operative supplied state. M14's contextual gain
+handed fresh realization the new world's constructor variables; M15's invariance preserved
+predictions through a hypothesis tag while ignoring the paraphrase. The CoAuthor result was
+the loader's. The reader-free construction statistics (the C, A, V, F world facts) and the
+narrow natural negatives (ScholaWrite, drawings) stand as construction facts and narrow
+negatives; nothing in Stage 6 licenses a reconstruction claim.
+
+**What it means.** The five suspended conclusions are marked in place in the theory files
+(SUSPENDED (Stage 7 D04, L330)); their afterwords are rewritten to what survives; the
+Stage 6 packet stays on disk as an honest execution record and its Pass A synthesis is
+superseded by this entry. Stage 7 opens on this correction: a physically separated reader
+that receives only an allowlisted evidence object, mutation tests that prove non-access,
+and the capability ladder that asks the supplied-state question the way Stage 6 intended.
+
+> **Curator roll-up.** Theory group: the triple inference and the three layers (every
+> Stage 6 row). Question: which Stage 6 results depended on hidden constructor fields?
+> Outcome class: **Kills** (the tournament ranking, the reader boundary, M14, M15, and the
+> CoAuthor result; supplied-law selection and the construction facts survive). Result: the
+> equal exact mixture alone carries +0.943 of the label arm's gain over direct reading.
+> Meaning: Stage 6 is an execution record, not an accepted interpretation; the question it
+> meant to ask is Stage 7's. Next obligation: the Stage 7 run (built and launched this day).
+> Public claim: weakened (no Stage 6 realization or reader-boundary claim stands). Decision:
+> **No** (his filing of the brief is the ruling). Detail:
+> results/phase_2_4_stage_7/STAGE6_DEPENDENCY_AUDIT.md.
+
+
+## L331 · The Stage 7 theory reconciliation errata is applied: the operational definition ratified, expertise fixed as the transition model against process as the realized path, the maker-relative possibility space named (external context, beliefs, maker context, subjective action set), the two-timescale attention trace filed with the preference ontology left open, and every Stage 6 reader row re-labeled VOID AS EVIDENCE with its audit pointer
+
+**Hypothesis.** None; a theory-record pass on the curator's packet
+(PHASE_2_4_STAGE_7_THEORY_ERRATA.md, filed at the repo's top level 2026-09-02, archived under
+docs/design/archive/ on application per the 2026-08-31 filing ruling).
+
+**Method.** Exact-string application to the four named owners (THE_TRIPLE_INFERENCE,
+THREE_COGNITIVE_LAYERS, DECISION_TRACES, READER_HEURISTICS), every pre-existing blockquote
+line counted before and after across the six theory files, every changed table's afterword
+rewritten in the same edit, then the theory lint, the lock verifier, and the whitespace check.
+ALIGNMENT.md, the essays, the locked specifications, and the Stage 6 raw results untouched.
+
+| file | quotation blocks added | rows changed | afterwords rewritten | prose corrected |
+|---|---|---|---|---|
+| THE_TRIPLE_INFERENCE.md | 5 (arriving expertise; the maker-model objects; the three two-timescale statements) | M-S6, V-S6 to VOID AS EVIDENCE | §1, §2, §5 | the operational definition; the nine-object table; three conflations; the generative schematic; the prospective rule's Stage 6 support withdrawn; the eight two-timescale constraints; the V-track geometry as construction fact |
+| THREE_COGNITIVE_LAYERS.md | 3 (the transition-model correction) | C-S6, A-S6 to VOID AS CURRENT EVIDENCE | §1 | the expertise paragraph with its eight constraints |
+| DECISION_TRACES.md | 1 (the two kinds of evidence) | none | §3 | the F-track claim withdrawn; the two-timescale automatic channel |
+| READER_HEURISTICS.md | 0 | none | none (prose under §10) | the archaeological-boundary paragraph replaced |
+
+*Table: what the errata changed in each theory owner; the blockquote count over the six files
+rose by 24 lines with zero prior lines missing or altered.*
+
+**What we found.** Verification: theory lint clean, all 21 locks intact, the whitespace check
+clean, no prior blockquote removed or altered, and no suspended Stage 6 interpretation
+survives in the five files (every remaining Stage 6 mention is a void status, a timeline line,
+or a construction fact). Two conflicts with newer prose, both resolved in the same pass: the
+D10 record gate of the running Stage 7 counted the first pass's SUSPENDED prefix in the
+theory files, which the errata replaces, so the gate now accepts either marker; and one
+sentence in the triple inference's §5 still credited the Stage 6 V track's first block with
+finding change separate from concealment, and now reads as the construction fact it is. The
+surviving narrow results are stated as the errata requires: the ScholaWrite reader under-runs
+previous-label at 144 units and the drawing reader under-runs the placement prior at 2448
+units; the CoAuthor result is invalid because every scored decision was a dismissal.
+
+**What it means.** The theory now states the maker model in the vocabulary Stage 7 constructs
+(the external context, the beliefs, the expertise law, the maker context and subjective action
+set derived from them, the goal, the residue, and the realized path) and cites Stage 6 only as
+void evidence or as construction fact; the preference ontology stays open on both sides.
+
+> **Curator roll-up.** Theory group: all four theory owners. Question: does the record match
+> the 2026-09-01/02 walkthroughs and the dependency audit? Outcome class: **Infrastructure**.
+> Result: four files changed, 24 quotation lines added, four rows voided, zero prior quotes
+> altered. Meaning: the theory and the Stage 7 construction now share one vocabulary, and no
+> Stage 6 reader claim survives anywhere in the record. Next obligation: the Stage 7 relaunch
+> (L332). Public claim: unchanged. Decision: **No**. Detail:
+> docs/design/archive/PHASE_2_4_STAGE_7_THEORY_ERRATA.md.
+
+## L332 · The Stage 7 first attempt is stopped in its integrity block before any science ran and superseded: three gate cells failed on their own should-break cases (the mutation constructor never recomputed the hidden targets, the order canary ended in a tautology, a negative fixture was repaired by the builder it tested), the audit of the queue found the stop truth false in every constructed world (0 of 254: the cut rule always left two future steps), and the repaired construction carries a natural stop rate of 0.047 with an oracle-minus-DOM stop gap of 0.080 nats on 173 worlds, above the 0.05 floor; every cell then runs end to end on a scratch root through a fake transport before the clock restarts
+
+**Hypothesis.** The curator's order (2026-09-02, audio): check every running or queued cell
+for errors before it runs, so the voids stop. The instrument's question: does each integrity
+cell's should-break case break, and does every hidden target have a truth that varies?
+
+**Method.** The first attempt's integrity verdicts read against their code (I05, I06, I10, I11
+INSTRUMENT_FAILED at 11:03; the engine stopped mid-I07 by pid, the card verified idle, the GPU
+lock released); the stop truth counted over 254 constructed worlds; the repair measured by
+refitting the common-domain model and scoring the exact oracle against it on fresh worlds
+under the natural-boundary weighting, in a sweep of four stop-law settings at 110 lineages per
+domain; the 30 guard tests and the constructor self-tests (two added: the stop truth exists and
+the oracle's hazard equals the generator's at a terminal cut; a tail mutant differs from its
+original); then a dress rehearsal of the whole scheduler (prepare, pilot, run, the keystone
+auto-signed under the smoke flag, the ladder, the freeze, validation, the packet) on a scratch
+root through a hash-seeded fake model transport, so every engine, capsule, scorer, and verdict
+path executes with no GPU and no model.
+
+| cell or target | what the first attempt showed | cause | repair |
+|---|---|---|---|
+| I05, I06 (the tail and stop mutations) | identity 1.0 on every arm; the oracle differed on 0 of 21 pairs | the mutant re-simulated its trajectory and then copied the original's hidden targets, oracle, and class | one finisher computes the hidden targets of worlds, twins, and mutants from the trajectory in hand; the self-test asserts a tail mutant differs |
+| I10 (the canaries) | 60 of 80 caught | the order canary's check ended in a comparison of a value with itself, always false | the query's option order must equal the declared at-cut order; clean evidence 0 of 20 hits |
+| I11 (the prediction contract) | 3 of 4 fixtures | the negative fixture went through the builder, which normalizes what it is given | the negative fixtures are raw objects; seven fixtures |
+| the stop target (every stop card, K01's gate) | never measured: the truth was constant | the cut rule chose a boundary with two future steps, so "the maker stops here" was false in 254 of 254 worlds; the oracle judged satisfaction on the post-transition goal while the generator fired it on the goal just served; a change scheduled at the boundary applied after its stop decision | a prefix-only boundary walk with a terminal stratum and exact reweighting; the hazard judged on the last step's goal in the generator, the oracle, and the capsule solver alike; a change takes effect before the boundary's stop decision; the base hazard lowered and the satisfaction, deadline, and fatigue terms raised |
+| I13 (the compute ledger) | would have landed VOID | the isolation cards never wrote their server ledgers | every card that opens a server writes its ledger |
+| I08 (the sensitivity gate) | untested; its gate depended on a reader's competence | | the gate proves the pipeline (the solver moves; every model arm's bytes change on the flip); reader movement reported, never gated |
+| V03 | would have crashed on its first world | a forced-factor keyword the constructor does not take | the constructor's keyword, and an alias |
+| the reader-matched rival | a model rival paired across readers | | a model rival is paired within the same reader; the pooled cell keys on reader and unit |
+| I10, I12, I16, P09 | would fail on a terminal cut, which has no next action | | worlds with a next action are required where the target needs one; terminal cuts skipped and counted |
+| R16 | its information-gain receipt would always be empty | the candidate predictions were dropped from the row's notes | kept |
+| I09 (found by the rehearsal) | serialization identity 1.0 for the solver, 0.17 for the direct reader | the option order every reader sees was seeded from the whole evidence hash, which the opaque identifiers change | the seed is the evidence content without identifiers; identity 1.0 on recheck |
+| X06 (found by the rehearsal) | order-permutation TV 0.17 against a 0.05 band | the same seed changed when the option lists were permuted; a joint-reader prompt printed ids in evidence order | the seed is computed over a canonical sorted listing; ids printed sorted; TV 0.000 on recheck |
+| A06, A07, A10 (found by the rehearsal) | crashed reading a registry: extra data after the JSON | two parallel cells wrote one shared temp file and one replaced the other's half-written bytes onto the registry; every read-modify-write of a shared registry could also lose an update | per-process temp names; a directory lock and an update helper around every shared-registry write; a reader retries through a replace |
+| I15 (found by the rehearsal) | 0 rows before and after the kill | its kill-and-resume K01 runs in the pilot lane, whose rows live under K01/pilot; the receipt read the discovery path | the pilot path; rows required |
+| B05 (found by the rehearsal) | INSTRUMENT_FAILED two minutes after the lock | the closure ledger ran as soon as its dependencies landed, before any science | a late cell, after the freeze |
+| I10 (found by the rehearsal) | 7 of 8 canaries | the order canary was a no-op when the truth already led the list | the truth moves to the front, or to the end when it leads; a one-option query plants none |
+| X24 (found by the rehearsal) | the fresh-clone verifier flagged the keystone as a substantive cell without rows | I16 traced its two arms through the capsule directly and wrote no rows | the keystone writes a row per arm with its prediction reference, like every substantive cell |
+| B02 (found by the rehearsal's closure) | the second confirmation crashed three times without a log line, and B03 and B06 were blocked without dispositions, so the packet was refused | a confirmation-lane capsule path with an external arm name crossed the Windows path limit; the scheduler logged neither retries nor failures; a blocked or failed cell wrote no disposition file | capsule names shortened by hash; retries and failures logged; blocked and failed cells write NOT_RUN or INSTRUMENT_FAILED dispositions so validation and the packet complete |
+| X24 (second finding) | the verifier flagged a confirmation cell as a substantive cell without rows | a confirmation cell's rows live under its source card's confirmation lane | the confirmation cells are exempt from the rows rule (their rows are checked against the frozen registry) |
+| K01 under smoke | the construction gate failed on five worlds with no stop truth | a rehearsal at a handful of worlds cannot carry a rare event | the stop conditions bind the real run only; smoke world units four |
+
+*Table 1: the defects found by the first attempt's own gates, by the read-through of the
+queued engines, and by five passes of the dress rehearsal, each with its cause and repair;
+none of them reached a scientific cell. Under the hash transport the paraphrase attack,
+the twin-reversal attacks, the abstention attack, and the capability ratios land as reader
+facts (a hash readout is maximally surface-sensitive and its proposals are random); only a
+real reader can pass or fail those.*
+
+| construction | natural stop rate | terminal share | degenerate share | stop gap (nats) | next-action gap (nats) |
+|---|---|---|---|---|---|
+| the first attempt's cut rule and constants | 0.000 | 0.00 | 0.15 | undefined (constant truth) | 0.53 |
+| the boundary walk, first constants | 0.038 | 0.12 | 0.13 | 0.022 | 0.58 |
+| the walk with the terminal stratum, satisfaction raised | 0.067 | 0.27 | 0.27 | 0.064 | 0.53 |
+| the final constants (base lowered; satisfaction, deadline, fatigue raised) | 0.047 | 0.22 | 0.21 | 0.080 | 0.57 |
+
+*Table 2: the stop repair measured on fresh worlds against a refit common-domain model, the
+stop rows weighted back to the natural boundary design; the floor is 0.05 nats.*
+
+**What we found.** The first attempt would have idled at the scientific lock for the whole
+ceiling with four failed gates, and had it passed, every stopping card would have scored a
+target whose truth never varied. The repaired construction stops at a satisfied goal about
+two times in five and at a base boundary about one time in seventy, so the stop is a
+maker-state fact the oracle knows and the common-domain model cannot: 0.080 nats of gap,
+thin against the 0.05 floor but above it, with the satisfaction boundary carrying most stops
+(24 of 39 in the sweep's final setting) and the deadline and fatigue terms the rest. Terminal
+cuts carry no next action, so the next-action target is scored on the continuing four fifths
+of worlds and the stop target on all of them, the terminal rows reweighted by the design's
+own selection probabilities so the oracle stays the exact ceiling.
+
+**What it means.** The attempt's clock (started 10:46) is discarded with its outputs preserved
+under results/phase_2_4_stage_7_attempt1/; nothing scientific ran, so nothing is lost but the
+hour. The relaunch followed the rehearsal's fifth pass, which closed with its packet: 12:44:47 on a
+fresh clock (deadline 2026-09-05 12:44:47); the keystone signature stays the curator loop's
+obligation.
+
+> **Curator roll-up.** Theory group: none (instrument). Question: do the integrity cells and
+> the stopping target measure anything? Outcome class: **Infrastructure**. Result: the stop
+> gap goes from undefined (a constant truth) to 0.080 nats. Meaning: the first attempt's gates
+> did their job, the read-through found the defect the gates could not see (a target with no
+> variation), and five rehearsal passes found eleven more before any clock. Next obligation:
+> the keystone read and signed on the relaunched run (12:44:47). Public claim: none. Decision: **No**. Detail: the registry's
+> Stage-7 runtime log; results/phase_2_4_stage_7_attempt1/.
+
+## L333 · The relaunched Stage 7 integrity block lands clean on the real readers and the scientific lock opens at 13:26:54: every mutation card is byte-identical on all six arms while the oracle differs on most pairs, the canaries are caught 60 of 60, serialization identity is exact, the sensitivity flip moves the solver and the direct reader alike, the six conformance fixtures pass, the keystone trace is read and signed, and the 38 cells of the block carry no failure, void, or retry
+
+**Hypothesis.** None; the instrument's own gates (brief §12.1, gates 1 to 4) on the relaunched
+run, whose first attempt (L332) had failed four of them.
+
+**Method.** The scheduler's integrity block (16 isolation cells, 10 dependency cells, 11
+conformance and sealing cells, the probe attack) under the Ghost governor at CPU cap 2, the
+GPU cells serial; each gate's should-break case read from its metrics; the keystone audit read
+against its trace by the curator loop's agent before signing.
+
+| gate | cell | what landed |
+|---|---|---|
+| anchors, enumeration, allowlist, splits | I01, I02, I03, I14 | head and reviewed commit in history; 794 expected cells, removal fails coverage; 133 rung evidences accepted, 57 planted fields caught; 0 split violations |
+| isolation | I04, X04 | 24 forbidden attempts, every one raised |
+| mutation invariance | I05, I06, I07 | identity 1.0 on U, PERS, DOM, SOL, DIR, SLJ; the oracle differs on 21 of 24, 24 of 24, and 19 of 22 pairs |
+| sensitivity | I08 | solver TV 0.035 under the flipped outcome; the direct reader 0.56, the joint reader 0.035; bytes changed on every pair |
+| serialization | I09 | identity 1.0 for the solver and the direct reader under relabeled identifiers and reordered keys |
+| canaries | I10 | 60 of 60 planted canaries caught; 0 of 15 clean hits |
+| contracts, parity, ledger, resume | I11, I12, I13, I15 | 7 of 7 fixtures; 140 of 140 units with one evidence hash across arms; 6 of 6 ledgers reconcile; 32 rows before and after the kill, 0 duplicates, the deadline kept |
+| keystone | I16 | signed 13:24:53 after the six-item read: capsule listing without oracle files, zero denials, the direct arm's 17 calls and 15648 prompt tokens equal to the server ledger, one prediction per arm, the solver's score equal to the oracle's |
+| record | D01 to D10 | the dependency audit reproduced (the equal exact mixture −1.084 against the label arm's −1.082 on 128 units; exact selection 0.789 against the label reader's 0.297); the CoAuthor loader exact on its fixtures; the theory lint and the multiplicity audit clean |
+| conformance and sealing | A01 to A07, A09, A10, A12, A13 | two clones pinned and sealed; every defining-operation fixture passes with its should-break case |
+
+*Table: the integrity block of the relaunched run, one row per gate family; every cell landed
+INFRASTRUCTURE or DESCRIPTIVE with no retry.*
+
+**What we found.** The repaired construction does what the first attempt could not show: the
+hidden future, the stop law, and the future events can be replaced without moving any
+non-oracle prediction by a byte while the oracle moves, so a reader's later gain cannot come
+from the hidden side. The direct reader's response to a single flipped outcome (0.56 total
+variation) says the flipped text reaches the model and matters to it, which the first
+attempt's gate would have mistaken for a competence question.
+
+**What it means.** The scientific lock opened at 13:26:54 with the design frozen (readers,
+thresholds, gates, the frozen domain model, the 20-percent-of-gap floor rule); the K ladder
+opens on K01's construction gate next, with the stop truth present by construction for the
+first time.
+
+> **Curator roll-up.** Theory group: none (instrument). Question: do the instrument's own
+> gates pass on the repaired construction? Outcome class: **Infrastructure**. Result: 38
+> integrity cells clean, every should-break case breaking. Meaning: the clean-room bridge is
+> in force; whatever the ladder finds is the reader's. Next obligation: K01's construction
+> gate (the stop gap at 300 worlds), then the ladder; the freeze at hour 64 or exhaustion.
+> Public claim: none. Decision: **No**. Detail: results/phase_2_4_stage_7/GATES.json,
+> KEYSTONE_AUDIT.md, KEYSTONE_LOCK.json, SCIENTIFIC_LOCK.json.
+
+## L334 · The construction gate closes the stopping target for the run: on 300 worlds the exact oracle's stop hazard beats the frozen common-domain model by 0.034 nats per boundary [0.011, 0.064], under the declared 0.05 floor, while the next-action and changed-context gaps clear it by ten times; the ladder runs on the live targets
+
+**Hypothesis.** The construction's own known-answer check (K01, brief §12.2): does every hidden
+target carry a nontrivial oracle gap over the frozen common-domain model, at or above the 0.05
+nats declared before any reader outcome?
+
+**Method.** 300 live worlds (384 lineages drawn, 78 percent kept) on the K family, the uniform,
+persistence, and common-domain arms in their capsules and the exact oracle outside; the
+oracle-minus-DOM gap per target as the mean over worlds, the stop rows weighted back to the
+natural boundary design (the terminal stratum was oversampled at construction); the interval
+here is a 2000-draw bootstrap over worlds on the self-normalized weighted mean, recomputed from
+the landed rows.
+
+| target | oracle gap over DOM (nats) | worlds | floor | verdict |
+|---|---|---|---|---|
+| next action | +0.501 | 245 (continuing cuts) | 0.05 | live |
+| changed context | +0.586 | 300 | 0.05 | live |
+| next type | +0.468 | 245 | reported | live |
+| invalidation | +0.114 | 300 | reported | live |
+| stop | +0.034 [+0.011, +0.064] (the cell's unnormalized read +0.029) | 300, 55 stop truths | 0.05 | UNDER THE FLOOR |
+
+*Table: K01's gaps by target; the stop row is the self-normalized weighted mean with its
+bootstrap interval, the cell's own metric having divided by the row count (a factor 0.85 low,
+repaired in the estimator for every later cell, verdict unchanged).*
+
+**What we found.** The oracle's hazard at the boundaries where makers stopped averages 0.21
+against the domain model's 0.11, and at the boundaries where they continued 0.029 against
+0.042; the stop rows carry +0.245 nats each and the continue rows +0.014, and at a natural
+stop rate of 0.038 per boundary that mixes to 0.034. Against persistence the oracle's stop
+gap is +0.091. The morning's sweep read 0.080 on 173 worlds of another family with a lighter
+domain fit; the relaunched run's 300 worlds and the pilot's 192-world domain fit put it at a
+third of that, inside the sweep's own noise.
+
+**What it means.** Under the rule declared before any reader ran, stopping is a dead ruler in
+this construction: the maker-state stop law is real (it beats persistence and beats the
+domain model in the right direction at both kinds of boundary) but too thin per boundary
+for a 0.05-nat floor at this hazard scale, because most boundaries are continues both
+models predict well. The stop cards still run (K15, P05, I06's invariance) and their numbers
+are reported, but by §12.2 no reader is tested on stopping this run; the next-action and
+changed-context targets carry the ladder. A future stop instrument scores the hazard at the
+stop events with their own floor (a per-event proper score), declared before the run.
+
+> **Curator roll-up.** Theory group: none (the construction's ruler). Question: does every
+> hidden target carry a usable oracle gap? Outcome class: **Infrastructure**. Result: the
+> stop gap is 0.034 nats per boundary against a 0.05 floor. Meaning: the run tests readers
+> on next action and changed context, not on stopping; nothing is void, the gate measured.
+> Next obligation: read K15 and P05 as descriptive when they land; design the per-event stop
+> ruler for the next stage. Public claim: none. Decision: **Yes**: whether the next stage's
+> stop ruler scores per stop event at its own declared floor (recommended: yes, declared
+> before that run; this run's rule stands as landed). Detail:
+> results/phase_2_4_stage_7/K01/{metrics,verdict}.json; GATES.json (construction).
+
+## L335 · The supplied-state gate fails on both readers: handed the COMPLETE executable maker state (context, beliefs, law, maker context, subjective action set, goal, residue), the direct reader predicts the next feasible action worse than the frozen common-domain model, −0.46 [−0.74, −0.18] nats for SmolLM2 and −2.62 [−3.42, −1.82] for Qwen2.5-1.5B on 48 paired worlds, while the capsule solver run on the same bytes reproduces the exact oracle on every world; the boundary is state USE, not state recovery, and the factor-inference rungs close for this target
+
+**Hypothesis.** Brief §10 K04: can a bounded reader use a complete supplied executable maker
+state to predict the hidden next feasible action better than the frozen common-domain model
+(the §12.4 floor: 20 percent of the oracle-minus-DOM gap, here 0.126 nats)?
+
+**Method.** 48 live worlds with a next action on the K family (terminal cuts carry no next
+action and are excluded from this target), the complete state supplied in executable form
+inside the capsule; arms DOM, SOL, and DIR on both admitted readers; the paired contrast at
+the world with the cluster bootstrap interval, reader by reader before any pooling; the exact
+oracle outside the capsule as the ceiling.
+
+| arm | reader | next-action log score | accuracy | contrast against DOM |
+|---|---|---|---|---|
+| exact oracle (ceiling) | | −2.05 | 0.29 | +0.63 |
+| SOL (the supplied state run through the law inside the capsule) | | −2.05 | 0.29 | equals the oracle on every world |
+| DOM (frozen common-domain model) | | −2.68 | 0.10 | 0 |
+| DIR | SmolLM2-1.7B-Instruct | −3.14 | 0.08 | −0.46 [−0.74, −0.18] COUNTEREVIDENCE |
+| DIR | Qwen2.5-1.5B-Instruct | −5.30 | 0.06 | −2.62 [−3.42, −1.82] COUNTEREVIDENCE |
+| DIR | pooled | | | −1.54 [−1.99, −1.11] |
+
+*Table: K04 at 48 worlds; the state-use ratio U_state is −0.73 for SmolLM2 and −4.16 for
+Qwen, both below zero; no row was invalid.*
+
+**What we found.** The interface carries the state: the solver executes the same bytes the
+readers receive and lands on the oracle's numbers exactly, so nothing was lost in supply. The
+readers cannot use it. Both fall under the domain model that knows nothing about this maker,
+Qwen by two and a half nats, and both sit near or under the uniform floor on accuracy over
+about ten live options. This is the reader-boundary question Stage 6 could not ask (its
+"supplied state" was three prose labels realized through a privileged call); asked behind a
+boundary the reader cannot cross, the answer for these two readers is no.
+
+**What it means.** By §12.2 the supplied-state gate fails with the executable true state: K16
+(the size ladder to the 9B route) diagnoses whether size or structure moves it, K05 asks
+whether the language rendering does better or worse than the executable one, and the
+factor-inference comparisons (K11 to K14) are read as diagnosis, not as capability, for
+this target. What survives untouched is the construction: a complete maker state that a
+program can execute to the oracle exists and is small enough to hand over. The gap between
+that program and these readers is the measurement.
+
+> **Curator roll-up.** Theory group: the triple inference (§2, the maker-state realization
+> rule). Question: can a bounded reader use a complete supplied maker state? Outcome class:
+> **Kills** (for the two admitted readers on this construction; the size ladder is the
+> diagnosis). Result: −0.46 and −2.62 nats against the domain model, intervals below zero.
+> Meaning: the reader boundary is state use, not state recovery. Next obligation: K16 and K05
+> when they land; the ladder continues. Public claim: none yet (two readers, one
+> construction family). Decision: **No**. Detail: results/phase_2_4_stage_7/K04/.
+
+## L336 · The supplied-state ladder lands under the failed gate: every single true factor handed to the readers (context, action space, law, belief, goal) leaves them under the domain model on both readers, the language rendering does no better than the executable one (SmolLM2 −0.34 [−0.68, +0.03], Qwen −3.30), the readers follow the oracle's reversal on a swapped belief or goal in 14 and 5 percent of the pairs where it reverses, the complete state does not improve the stop hazard, and the paraphrase attack fails on the language-state reader (TV 0.57 under paraphrase against 0.59 under a meaning change), so the reader's language-state claims close
+
+**Hypothesis.** Brief §10 K05 to K10 and K15: given the failed K04 gate, does any single true
+factor, or the language rendering of the whole state, lift a reader over the frozen domain
+model on the next feasible action (the §12.4 floor), and does the complete state improve the
+stop hazard? And §11 X10: is the language-state reader invariant to paraphrase while it moves
+under a meaning change?
+
+**Method.** The shared batch on the K family behind the clean-room boundary (48 to 74 paired
+worlds per rung; K09 and K10 add belief and goal twins with the prefix held fixed), both
+admitted readers, the exact oracle outside; the twin reversal counts the pairs where the
+oracle's most likely next action changes under the swap and how often the reader's changes
+with it; X10 replays 48 units with the supplied language state paraphrased and, as its
+should-break case, with the belief and goal statements inverted.
+
+| rung | supplied | SmolLM2 against DOM | Qwen2.5-1.5B against DOM | beside |
+|---|---|---|---|---|
+| K05 | the whole state, language form | −0.34 [−0.68, +0.03] VALID_NULL | −3.30 [−4.51, −2.08] | executable form −0.46 and −2.62 (K04) |
+| K06 | external and maker context | −0.35 [−0.63, −0.05] | −2.85 [−3.74, −1.98] | |
+| K07 | the subjective action set | −0.57 [−0.96, −0.17] | −3.43 [−4.13, −2.71] | mass on unavailable options 0.085 against DOM's 0.038 |
+| K08 | the expertise law | −0.66 [−0.96, −0.35] | −2.81 [−3.67, −1.96] | |
+| K09 | the belief state (with twins) | −0.68 [−0.99, −0.37] | −3.39 [−4.21, −2.65] | the oracle reverses on 14 of 60 twin pairs; the reader follows on 2 |
+| K10 | the proximal goal (with twins) | −0.51 [−0.82, −0.21] | −3.16 [−3.89, −2.41] | the oracle reverses on 56 of 80; the reader follows on 3 |
+| K15 | the whole state, the stop hazard | −0.40 [−0.52, −0.26] | −1.32 [−1.74, −0.92] | against persistence −0.34 and −1.26; the solver's own hazard gain +0.02 INCONCLUSIVE (the dead stop ruler, L334) |
+| X10 | the language state paraphrased | TV 0.57 under paraphrase, 0.59 under a meaning change | | INSTRUMENT_FAILED; K05's language-state claims close |
+
+*Table: the K ladder under the failed supplied-state gate, next-action log-score contrasts in
+nats with cluster intervals over worlds, every cell COUNTEREVIDENCE unless marked; the
+oracle-minus-DOM gap was 0.39 to 0.73 nats per rung, the floor a fifth of it.*
+
+**What we found.** Nothing a reader is handed helps it. The single factors each leave both
+readers under a model that knows nothing about the maker, by a third to two thirds of a nat
+for the larger reader and by three nats for the smaller; the whole state in prose does no
+better than the whole state as data, and for the smaller reader the prose is worse. The twins
+are the sharpest fact: where swapping the maker's belief or goal changes what the oracle
+expects next, the reader's expectation moves with it one time in seven and one time in
+twenty. And the language-state reader is not reading the state: paraphrasing it moves the
+prediction as much as inverting its meaning does, so its response to the supplied text is a
+response to surface, which is the semantic-invariance question Stage 6 voided (M15) now
+answered against the reader with the leak closed.
+
+**What it means.** The state-use boundary of L335 holds at every rung and in both forms; for
+these readers the maker state is not an input they can compute with, whether whole or by
+factor, executable or in prose. The inference rungs (K11 to K14) read as diagnosis of the
+same boundary; K16's size ladder to the 9B route is the remaining question on this trunk,
+and the reconstruction trunk asks whether a reader that cannot use a supplied state can
+nevertheless propose one the solver can use (R01 to R13, the joint reader's proposals
+executed by the law).
+
+> **Curator roll-up.** Theory group: the triple inference (§2). Question: does any supplied
+> factor, or the prose rendering, lift the reader; is the language-state reader invariant to
+> paraphrase? Outcome class: **Kills** (for the two admitted readers on this construction).
+> Result: every rung under the domain model; twin reversal followed on 5 to 14 percent of
+> reversing pairs. Meaning: the readers respond to surface, not to state. Next obligation:
+> K16 (size), then the reconstruction trunk's proposal route. Public claim: none yet.
+> Decision: **No**. Detail: results/phase_2_4_stage_7/K05 to K10, K15, X10.
+
+## L337 · The inference rungs return the joint reader to the domain model's level without recovering the withheld factor: with everything but the goal supplied the joint arm sits at the domain model (−0.00 [−0.21, +0.22] for SmolLM2) and half a nat to two nats above the direct reader, with everything but the belief supplied it clears the floor for SmolLM2 alone (+0.29 [+0.07, +0.51], three quarters of the way to the true-state solver) while the belief candidates contain the truth in 6 percent of worlds and the reader follows the oracle's belief reversal on 0 of 14 twin pairs; the gain is the law executing the supplied factors under a mostly wrong proposal, and the capability ratios are void by rule because the supplied ceiling sits under the domain model
+
+**Hypothesis.** Brief §10 K11 and K12: with every factor but one supplied, can the joint reader
+infer the missing goal or belief and preserve the prospective gain? §8 R06 and R07: what
+fraction of the supplied ceiling does the inferred factor recover? §11 X11, X16, X18: does a
+meaning change move the reader; does the reader follow a belief or goal reversal on twins?
+
+**Method.** The shared batch behind the boundary (48 worlds for K11, 66 with belief twins for
+K12), arms DOM, DIR, and the joint reader (proposals in a strict grammar for the withheld
+factor, each executed with the supplied factors through the law inside the capsule, weighted
+by the exact prefix likelihood), the exact oracle outside; recall of the withheld factor read
+from the proposal lists against the bundle's truth signature; the twin reversal as in L336.
+
+| cell | SmolLM2 | Qwen2.5-1.5B | beside |
+|---|---|---|---|
+| K11, goal withheld, joint against DOM | −0.00 [−0.21, +0.22] INCONCLUSIVE | −0.15 [−0.52, +0.21] INCONCLUSIVE | joint over direct +0.48 and +2.10; goal recall 0.00 and 0.23 (12 percent pooled, 120 rows) |
+| K12, belief withheld, joint against DOM | +0.29 [+0.07, +0.51] SUPPORT_CANDIDATE (floor 0.078) | −0.08 [−0.25, +0.09] INCONCLUSIVE | joint over direct +0.49 and +2.45; belief recall 0.10 and 0.01 (6 percent pooled, 140 rows); the reader follows the oracle's belief reversal on 0 of 14 pairs; Qwen's proposals unrealized in 63 of 70 rows, SmolLM2's in 8 of 70 |
+| R06, R07 | VOID | VOID | the capability ratio needs a supplied ceiling above the domain model; K04's sits under it |
+| X11, meaning change | TV 0.61 | | INFRASTRUCTURE (the band 0.05): the reader moves under a meaning change, as it moved under paraphrase (L336) |
+| X16, X18, twin reversal | follow rates 0.14 (belief, K09) and 0.05 (goal, K10) | | INSTRUMENT_FAILED by the attacks' bands: a copied-world reader fails; a goal-blind reading is bounded |
+
+*Table: the inference rungs and the attacks that read them; next-action log-score contrasts
+in nats with cluster intervals over worlds; U_state for K12 is 0.75 for SmolLM2 and −0.20 for
+Qwen.*
+
+**What we found.** The joint reader's score is the law's. Handed all but one factor and a
+solver, both readers climb from two to three nats under the domain model (as direct readers)
+to its level, and SmolLM2 with the belief withheld to three quarters of the way to the
+true-state solver; but the withheld factor is not what they recover. The goal is in the
+candidate list one time in eight (never for SmolLM2), the belief one time in seventeen, and
+when the belief is swapped so that the oracle expects a different next action, the joint
+reader's expectation never moves with it. A wrong belief mostly leaves the next action
+unchanged in these worlds (the belief's leverage is through perceived tools, and K09's
+oracle gap was the smallest of the rungs), so executing the supplied factors under any
+parseable belief lands near the ceiling; the smaller reader profits because its proposals
+parse (62 of 70 realized) and the larger does not because its proposals fail the grammar
+(63 of 70 unrealized, falling back to chance).
+
+**What it means.** K12's candidate support is real by the band and belongs to the solver and
+the supplied factors, not to the reader's inference of the belief; the recall gate (R02) will
+read the same proposal lists and close selection on this factor. The inference rungs
+therefore narrow the state-use boundary rather than cross it: a reader that cannot use a
+state can profit from a program that can, if the reader's job is reduced to emitting a
+parseable candidate for one factor and the program does the rest. Whether that route
+survives when the reader must propose everything is the reconstruction trunk's question
+(R13, cold), which runs next.
+
+> **Curator roll-up.** Theory group: the triple inference (§2). Question: can the joint reader
+> infer one withheld factor and keep the prospective gain? Outcome class: **Narrows** (the
+> gain returns through the solver; the factor is not recovered). Result: belief recall 6
+> percent, goal recall 12 percent, twin reversal followed 0 of 14. Meaning: the joint arm's
+> value is the law executing the supplied state under a wrong but parseable proposal. Next
+> obligation: K13, K14, K16, then R13 cold. Public claim: none. Decision: **No**. Detail:
+> results/phase_2_4_stage_7/K11, K12, R06, R07, X11, X16, X18.
+
+**REVERSAL, 16:59 (the tolerant-grammar rerun of the joint arm; the first rows preserved
+under K12/superseded_grammar/).** The strict belief grammar had rejected Qwen's competent
+answers (a belief split across three lines) and most of the recall shortfall was the
+parser's: under the tolerant parser the belief candidates contain the truth in 39 percent
+of worlds (Qwen 0.43, SmolLM2 0.34; the posterior's mass on the truth 0.38), every Qwen row
+realizes, and the joint arm clears the floor on BOTH readers, SmolLM2 +0.29 [+0.05, +0.50]
+and Qwen +0.36 [+0.13, +0.58] against the domain model (pooled +0.32 [+0.10, +0.54]),
+which is 0.73 and 0.92 of the way to the true-state solver. What does not move: the twin
+reversal, followed on 1 of 14 pairs, so the reader still does not track a swapped belief,
+and the recall gate's bar (0.5) is not met. K11's rerun landed identical to its first pass
+(the goal grammar was never at issue; SmolLM2 yields no parseable goal line on 59 of 60
+worlds). The roll-up's class stands (Narrows): the gain is now partly the reader's
+proposal, wrong three times in five, executed by the law.
+
+## L338 · Asked to reconstruct the maker's subjective action set with everything else supplied and the maker context derived through the law, the joint reader proposes a set that contains the truth in 5 percent of worlds and commits to it, so its next-action score falls five nats under the domain model for SmolLM2 (−5.0 [−7.4, −2.6]) and eleven for Qwen (−11.5 [−14.1, −8.9]), below even the direct reader; the first landing of this rung (every row unrealized at exactly zero contrast) was an instrument defect repaired and rerun the same hour
+
+**Hypothesis.** Brief §10 K13: with context, beliefs, law, goal, and residue supplied, can the
+joint reader reconstruct the subjective action set (which objective options the maker
+believed open) and keep the prospective gain?
+
+**Method.** 48 paired worlds behind the boundary; the joint arm proposes the action set in its
+grammar (a list of option ids) and executes it with the supplied factors through the law, the
+maker context derived from the supplied belief and law (the repaired rung; the first landing
+made the reader propose the context as well, and its grammar returned nothing on either
+reader, so every row fell back to the domain model at zero contrast: reset and rerun); recall
+of the proposed sets against the true subjective set (a three-quarter overlap counts).
+
+| cell | SmolLM2 | Qwen2.5-1.5B |
+|---|---|---|
+| joint against DOM | −5.00 [−7.39, −2.59] | −11.52 [−14.08, −8.93] |
+| joint against the direct reader | −4.47 | −7.88 |
+| realized rows (a parseable set) | 34 of 60 | 54 of 60 |
+| recall of the true set | 0.10 | 0.00 |
+| mass on subjectively unavailable options | joint 0.17, direct 0.10, DOM 0.04 | |
+
+*Table: K13 rerun; next-action log-score contrasts in nats with cluster intervals over
+worlds; the joint arm commits its whole mass to the proposed set, so a set that omits the
+true action scores at the floor.*
+
+**What we found.** The readers do not see which options the maker sees. Their proposed sets
+contain the true subjective set one time in ten for the smaller reader and never for the
+larger, and the joint arm executes the proposal as the law does the truth, with no mass
+outside it; a wrong set is therefore catastrophic under the log score, and the arm lands far
+below a domain model that hedges over every live option. The recall row is the diagnosis
+(candidate generation scored apart from selection, as the method demands): the readers'
+candidates are wrong, and the arm's confidence in them is the arm's declared design, not a
+post hoc choice.
+
+**What it means.** The maker-relative possibility space, the distinction the theory's
+object table draws between what is objectively open and what the maker believes open,
+is not something these readers reconstruct from the pieces that determine it; handed the
+beliefs and the law that fix the set, they cannot compute it. The recall gate on this factor
+(R04) will read the same lists and close its selection questions.
+
+> **Curator roll-up.** Theory group: the triple inference (§1 objects, §2). Question: can
+> the joint reader reconstruct the subjective action set? Outcome class: **Kills** (for the
+> two admitted readers on this construction). Result: recall of the true set 5 percent;
+> −5 and −11.5 nats against the domain model. Meaning: the readers cannot compute the
+> maker's possibility space from its determinants. Next obligation: K14, K16, then the
+> reconstruction trunk; R04 reads the recall gate. Public claim: none. Decision: **No**.
+> Detail: results/phase_2_4_stage_7/K13 (the first landing under superseded_propose/).
+
+## L339 · The expertise law is recoverable by two programs and by neither reader: with everything but the law supplied, exact selection among four supplied candidate laws lands +0.59 [+0.34, +0.84] over the domain model with half its posterior mass on the true law, a law fitted by likelihood from two demonstrations lands +0.57 [+0.31, +0.85] (the two indistinguishable, −0.02), while the joint reader asked to propose the law realizes on 16 of 120 rows and sits at +0.17 [−0.06, +0.40] for Qwen and at the domain model for SmolLM2, because with candidate laws in view the readers echo the candidates' tables instead of answering in the proposal grammar
+
+**Hypothesis.** Brief §10 K14: with context, beliefs, maker context, action set, goal, and
+residue supplied plus two demonstrations, can the reader infer the missing expertise law;
+and, scored apart, does a law LEARNED from the demonstrations match a law SELECTED among
+supplied candidates (system identification, the one Stage 6 survivor, L330)?
+
+**Method.** 48 worlds behind the boundary; arms DOM, DIR, the joint reader (a law proposed
+in the skill grammar and executed with the supplied factors), KL (the exact prefix
+likelihood of each supplied candidate law, mixing their executions by the posterior), and
+LEARN (a coordinate search over per-type costs and the fluency temperature maximizing the
+two demonstrations' exact likelihood, no candidate consulted); the joint arm's first landing
+was unrealized on every row under the strict grammar and rerun under the tolerant one, with
+the readers' raw lines recorded where nothing parsed.
+
+| arm | against DOM (nats) | beside |
+|---|---|---|
+| KL, exact selection among the four supplied laws | +0.59 [+0.34, +0.84] SUPPORT_CANDIDATE | posterior mass on the true law 0.52 |
+| LEARN, a law fitted from two demonstrations | +0.57 [+0.31, +0.85] SUPPORT_CANDIDATE | learned minus selected −0.02, INCONCLUSIVE |
+| joint reader, Qwen2.5-1.5B | +0.17 [−0.06, +0.40] INCONCLUSIVE | realized 16 of 60; law recall 0.20 |
+| joint reader, SmolLM2 | −0.00 [−0.22, +0.21] INCONCLUSIVE | realized 0 of 60; law recall 0.00 |
+| direct reader | −0.43 and −2.71 COUNTEREVIDENCE | as on every rung |
+
+*Table: K14 at 48 worlds (the oracle gap 0.63, the floor 0.126); the joint arm's second
+landing under the tolerant grammar, its first preserved under superseded_grammar/.*
+
+**What we found.** The law is in the prefix and in two demonstrations, for a program: exact
+selection puts half its mass on the planted law and a search over costs and temperature
+from two episodes reaches the same score without any candidate in view, the clean-room
+replication of the one claim that survived the Stage 6 audit, now with no privileged call.
+The readers do not propose a law. With the four candidate tables printed in their evidence,
+both answer by echoing a table ("law_a: {skill: {write: 0.90, ...", "skill: write, revise,
+check, consult, fluency: 1.60, expected_len: 10.00 ...") instead of naming two strong and
+two weak types with a pace; Qwen's few parseable lines hold the true law's shape one time
+in five and lift it to a quarter nat that does not clear the interval.
+
+**What it means.** The transition law is identifiable from process evidence and learnable
+from a little of it, by a program; the readers' contribution on this rung is a format
+failure under a condition that shows them what a law looks like, which the recall gate on
+the R family (R03, no candidates in view) measures again. What survives under its own name
+is the same as before the audit, and stronger for being clean: known-law system
+identification and, new, law learning from demonstrations by likelihood.
+
+> **Curator roll-up.** Theory group: the triple inference (§2, expertise as the transition
+> model). Question: is the missing law recoverable, and by whom? Outcome class: **Narrows**
+> (recoverable by two programs; not proposed by either reader). Result: +0.59 selected and
+> +0.57 learned against the domain model; the joint reader realized on 16 of 120 rows.
+> Meaning: the law is in the evidence for a program that can execute it. Next obligation:
+> K16 (size), R03 (law recall without candidates), R09 (learned-law transfer to untouched
+> episodes). Public claim: none yet. Decision: **No**. Detail:
+> results/phase_2_4_stage_7/K14.
+
+## L340 · Size does not cross the state-use boundary: handed the complete executable maker state, four readers from 0.5B to the 9B route all predict the next feasible action under the frozen domain model (−1.66, −2.50, −3.10, and −1.06 nats), the 9B least badly and still a nat under, and giving each reader the solver's own output line beside the state (expanded compute) changes nothing for the small ones and hurts the 3B and the 9B (−4.20 and −2.05); the 9B's accuracy edges the domain model's (0.17 against 0.14) while its log score says its confident answers are wrong
+
+**Hypothesis.** Brief §10 K16, the diagnosis under the failed K04 gate: does the state-use
+failure shrink with reader size (Qwen2.5 0.5B, 1.5B, 3B, and Qwen3.5 9B through Ollama), or
+with structured computation (the solver's execution of the supplied state printed beside
+it, the DIRS arm)?
+
+**Method.** 36 worlds with a next action on the K family, the complete executable state
+supplied, the direct reader at each size with and without the solver's output line, the
+domain model and the exact oracle beside; contrasts against the domain model per size and
+compute cell; the 9B read through the Ollama route with thinking off and top-20 letter log
+probabilities (a different family, a Q4_K_M quantization, and a different tokenizer, the
+caveats the registry carries).
+
+| reader | small compute | expanded compute (the solver's line beside the state) | accuracy (small) |
+|---|---|---|---|
+| Qwen2.5-0.5B | −1.66 [−2.29, −0.99] | −1.65 [−2.26, −1.04] | 0.06 |
+| Qwen2.5-1.5B | −2.50 [−3.54, −1.57] | −2.49 [−3.62, −1.39] | 0.08 |
+| Qwen2.5-3B | −3.10 [−4.19, −1.96] | −4.20 [−5.80, −2.64] | 0.11 |
+| Qwen3.5-9B (Ollama) | −1.06 [−1.72, −0.44] | −2.05 [−2.98, −1.17] | 0.17 |
+| domain model | 0 | | 0.14 |
+| exact oracle | +0.59 | | 0.31 |
+
+*Table: K16 at 36 worlds, next-action log-score contrasts against the domain model in nats
+with cluster intervals over worlds; every cell COUNTEREVIDENCE; the floor 0.118.*
+
+**What we found.** No size in reach uses the state. The ordering is not even monotone: the
+1.5B and 3B are worse than the 0.5B, and the 9B, the least bad, still sits a nat under a
+model that knows nothing about the maker, with an accuracy a shade above it and a log score
+that says the mass it places is on the wrong options. Printing the solver's own answer
+beside the state (the structure the expanded arm adds) is ignored by the small readers
+and harms the larger two, which read it as more text to be surface-sensitive to.
+
+**What it means.** The state-use boundary of L335 is not a small-model artifact within
+this family and this readout; the reader that can execute a maker state in this program
+is the program. The size-ladder question the brief posed is answered for the sizes a
+single card can hold; a frontier reader is a different instrument and a different stage.
+
+> **Curator roll-up.** Theory group: the triple inference (§2). Question: does size or
+> structured computation cross the state-use boundary? Outcome class: **Kills** (for
+> readers up to the 9B route on this construction). Result: −1.06 nats for the 9B, the
+> best of four, against the domain model. Meaning: not a small-model artifact. Next
+> obligation: the reconstruction trunk (R01 to R16) and the architecture cells. Public
+> claim: none yet. Decision: **No**. Detail: results/phase_2_4_stage_7/K16.
+
+## L341 · The recall gates of the reconstruction trunk: the goal is in the joint reader's candidate list in 23 percent of worlds (Qwen 0.30, SmolLM2 0.17 once its prose answers are decoded), under the 0.5 bar that opens the selection questions, so goal selection is bounded before it is compared
+
+**Hypothesis.** Brief §10 R01 to R05: before any selection comparison, does candidate
+generation include the true or an equivalent factor at least half the time (the gate the
+selection questions depend on)? This entry opens with the goal (R01) and takes the belief,
+law, action-set, and context gates (R02 to R05) as they land.
+
+**Method.** The R family behind the boundary, everything but the target factor supplied,
+the joint reader's proposal lists read against the bundle's truth signature (a goal matches
+when its top pull type, or its top two, agree with the true goal's utility ordering); recall
+is the share of worlds whose list holds a match, redundancy the share of duplicate
+signatures, and the posterior's mass on matching candidates rides beside. R01's first
+landing (recall 0.15, SmolLM2 0.00) preceded the prose decoding of the goal proposer and
+is preserved under superseded_prose/; the numbers below are the rerun.
+
+| gate | recall (pooled) | Qwen2.5-1.5B | SmolLM2 | realized rows | gate (0.5) |
+|---|---|---|---|---|---|
+| R01, the proximal goal | 0.23 (120 rows) | 0.30 | 0.17 | 59 of 60; 17 of 60 | closed |
+| R02, the belief state (with belief twins) | 0.37 (214 rows) | 0.37 | 0.37 | 107 of 107; 99 of 107 | closed |
+| R03, the expertise law (no candidates in view) | 0.33 (120 rows) | 0.67 | 0.00 | 54 of 60; 0 of 60 | closed pooled; open for Qwen alone |
+| R04, the subjective action set (a three-quarter overlap counts) | 0.03 (120 rows) | 0.00 | 0.07 | 55 of 60; 33 of 60 | closed |
+| R05, the maker context (library usable, deadline, audience weight) | 0.09 (120 rows) | 0.18 | 0.00 | 57 of 60; 0 of 60 | closed |
+
+*Table: the recall gates as they land; a closed gate bounds the selection questions on that
+factor (the capability ratio on the goal, R06, was already void by the ceiling rule).*
+
+**What we found.** Asked what the maker is after, Qwen names a pull ordering on every world
+and is right about it three times in ten; SmolLM2 answers in prose two thirds of the time
+without naming two action types at all, and when it does name them it is right one time in
+six. The candidate lists are short (one proposal per world for Qwen) and the truth is mostly
+not in them. *(R02, 17:56)* The belief fares better and still not well enough: under the
+tolerant grammar both readers put the true belief in their lists in 37 percent of worlds
+(the same figure K12 gave), with near-zero redundancy, on the originals and their belief
+twins alike, so the belief gate closes too at 0.37 against 0.5. *(R03, 18:12, the rerun
+under the merged law grammar; the first landing at 0.025 preserved under superseded_lawlines/)*
+The law splits the readers: with no candidate table in view, Qwen names two strong and two
+weak types that match the true law's shape two times in three (0.67, the only reader-factor
+pair over the bar so far), while SmolLM2 lists every type in every slot on all 60 worlds,
+which is no proposal; pooled the gate closes at 0.33. Set beside K14, where the same Qwen
+echoed the candidate tables instead of proposing, the law is the one factor this reader can
+name when nothing is put in front of it to copy. *(R04, 18:19)* The action set is the
+factor the readers do not see at all: Qwen proposes about three option ids per world and
+SmolLM2 about seven, against subjective sets of nine or ten live options, so a three-quarter
+overlap with the truth occurs in 3 percent of worlds and the joint arm's mass on options the
+maker could not see is 0.16; the gate closes at 0.03, the same reading K13 gave from the
+prospective side. *(R05, 18:26)* The maker context closes the set: Qwen names how the maker
+sees the situation on every world and matches the truth's three signs (library usable,
+deadline, audience weight) one time in five; SmolLM2 returns the template with its
+alternatives on all 60 worlds, which is no commitment; the gate closes at 0.09. Five gates,
+five closed on the pooled figure, one open for one reader (the law, Qwen).
+
+**What it means.** Selection cannot rescue absent candidates: whatever the joint reader's
+posterior does with a goal list that holds the truth one time in four is bounded by that
+list, which is the reading the K11 rung already forced (the joint arm at the domain model
+with the goal withheld). With all five gates landed: the belief and the law are the factors
+these readers can sometimes name (0.37; 0.67 for Qwen on the law), the goal and the context
+rarely (0.23, 0.09), and the maker's own option set almost never (0.03); the selection
+questions R06 to R08 were already void by the ceiling rule, and the attack that reads the
+action-set mass (X15) closes the opportunity-blind reading at 0.17 mass on options the maker
+could not see.
+
+> **Curator roll-up.** Theory group: the triple inference (§2). Question: do the readers'
+> candidate lists contain the true goal? Outcome class: **Narrows** (recall 0.23; the goal
+> selection questions bounded). Result: 0.23 against a 0.5 bar. Meaning: the goal is
+> proposed, and mostly wrongly. Next obligation: R02 to R05 append here; then R09 to R13.
+> Public claim: none. Decision: **No**. Detail: results/phase_2_4_stage_7/R01.
+
+## L342 · The expertise law transfers: learned by likelihood from three earlier episodes of the same maker and executed on an untouched one, it lands +0.64 [+0.22, +1.12] nats over the domain model, within a hundredth of the exact oracle; and the joint reader that proposes the law from the same demonstrations clears the floor on Qwen (+0.56 [+0.14, +1.03]) with SmolLM2 at +0.21 [−0.08, +0.53], the first reconstruction rung a reader passes on its own proposals
+
+**Hypothesis.** Brief §10 R09: can the expertise law be learned from demonstrations or earlier
+artifacts and transfer to an untouched episode (no candidate law supplied), and does that
+learning improve prediction over the domain model at the §12.4 floor?
+
+**Method.** 46 worlds with a next action on the R family behind the boundary, everything but
+the law supplied, three demonstrations by the same maker under the same law rendered as
+logs; arms DOM, DIR, LEARN (the coordinate search over per-type costs and the fluency
+temperature maximizing the demonstrations' exact likelihood from the generic shape), and the
+joint reader (the law proposed in the merged skill grammar and executed with the supplied
+factors); the exact oracle outside; contrasts against the domain model per arm and reader.
+
+| arm | against DOM (nats) | log score | beside |
+|---|---|---|---|
+| exact oracle | +0.65 | −2.26 | |
+| LEARN, a law fitted from three demonstrations | +0.64 [+0.22, +1.12] SUPPORT_CANDIDATE | −2.28 | the learn_law gate passes |
+| joint reader, Qwen2.5-1.5B (law proposed) | +0.56 [+0.14, +1.03] SUPPORT_CANDIDATE | −2.36 | realized 45 of 60 |
+| joint reader, SmolLM2 (law proposed) | +0.21 [−0.08, +0.53] INCONCLUSIVE | −2.70 | realized 10 of 60 |
+| direct reader | −0.26 and −2.31 | −3.18 and −5.22 | as on every rung |
+
+*Table: R09 at 46 worlds (the oracle gap 0.65, the floor 0.13); the joint reader's
+proposals under the merged law grammar of the same afternoon.*
+
+**What we found.** Three earlier episodes carry the law. A search over eight costs and a
+temperature, started from the generic shape, reaches the exact oracle's score on an
+episode it never saw, so the transition model is identifiable from a little of the maker's
+own history for a program, and it transfers. And for once the reader is in the picture:
+asked how this maker works with the demonstrations in view and no table to copy, Qwen
+names two strong and two weak types and a pace that, executed by the law, beat the domain
+model by half a nat on three worlds in four (the other quarter unrealized); SmolLM2 mostly
+lists every type and gains a fifth of a nat that does not clear the interval.
+
+**What it means.** The theory's expertise claim, that the law is a cross-episode object
+carried in the maker's earlier work, has its first clean measurement on the reader side as
+well as the program side: expertise is learnable from three demonstrations and moves to a
+new episode, and one small reader can propose it well enough for a solver to use. The
+supplied factors around it (context, beliefs, action set, goal, residue) are the caveat the
+K rungs earned: this is the law inferred with everything else known, which the cold
+question (R13) removes.
+
+> **Curator roll-up.** Theory group: the triple inference (§2, expertise as the transition
+> model); the three layers (expertise as a cross-episode record). Question: is the law
+> learnable from earlier episodes and does it transfer? Outcome class: **Strengthens**
+> (learnable and transferable by a program at the oracle's level; proposed usably by one
+> reader). Result: +0.64 nats for the learned law, +0.56 for Qwen's proposed one. Meaning:
+> the law is in the maker's history; the reader's other factors are not. Next obligation:
+> R13 cold, R14's regimes, A15's compute pricing. Public claim: none yet (one construction
+> family; one reader for the reader half). Decision: **No**. Detail:
+> results/phase_2_4_stage_7/R09.
+
+## L343 · An inferred maker context improves the changed-context choice over the domain model by exactly what copying the visible brief gives: the joint reader with Qwen's proposed context lands +0.59 [+0.31, +0.90] nats over DOM on the counterfactual choice and −0.03 [−0.10, +0.02] against the rival that copies the external context with accurate beliefs, which itself equals the exact oracle here; SmolLM2 returns the template on every world and its arm falls to chance; the first landing of this rung, with every program route answering the counterfactual uniform, was an instrument hole repaired and rerun
+
+**Hypothesis.** Brief §10 R10: can the maker-interpreted context be inferred from the
+artifact and source evidence, and does the inferred context improve a LATER choice (the
+changed-context counterfactual) beyond a rival that copies the external context verbatim
+with accurate beliefs?
+
+**Method.** 60 worlds on the R family behind the boundary, everything but the maker
+context and the action set supplied (the context proposed by the joint reader, the action
+set derived); the target is the changed-context choice, scored by the choice the oracle
+draws after the query's change (a deadline lifted, a library arriving, an audience
+changing) from the same law; the copied-context rival is the solver run on the external
+context taken as the maker's perception with accurate beliefs. The first landing had every
+program route answering this target uniform (the hole of the registry's 18:55 entry);
+repaired, reset, rerun.
+
+| arm | changed-context log score | against DOM | against the copied-context rival |
+|---|---|---|---|
+| exact oracle | −2.17 | +0.62 | |
+| copied-context solver (the rival) | −2.17 | +0.62 | 0 |
+| joint reader, Qwen2.5-1.5B (context proposed) | −2.20 | +0.59 [+0.31, +0.90] SUPPORT_CANDIDATE | −0.03 [−0.10, +0.02] VALID_NULL |
+| joint reader, SmolLM2 (unrealized on 60 of 60; chance) | −2.68 | +0.11 [−0.11, +0.35] | −0.51 [−0.72, −0.30] |
+| domain model | −2.79 | 0 | |
+| direct reader | −3.32 and −5.98 | | |
+
+*Table: R10 at 60 worlds on the changed-context target (the oracle gap 0.62, the floor
+0.12); the context-recall gate from R05 stands at 0.09 (Qwen 0.18).*
+
+**What we found.** In these worlds the maker's perception of the situation is the brief's
+account of it: the copied context with accurate beliefs reproduces the oracle exactly on
+the counterfactual choice, because the beliefs that would make perception differ from the
+brief are supplied here as they are. Qwen proposes a context on every world and the law's
+execution of it lands within three hundredths of the copy, so the proposal neither adds
+nor loses; its match to the truth's three signs is one in five. SmolLM2 gives the template
+with its alternatives on every world and its arm is chance.
+
+**What it means.** The changed-context target is live and the program computes it (a
+repair the registry records); the reader's inferred context is not distinguishable from
+copying the brief where the brief is what the maker perceives. The construction that
+would separate them, a false belief that the reader must discover from the prefix while
+the context is withheld, is the cold question (R13) and the belief rungs' business; R10
+as built does not ask it.
+
+> **Curator roll-up.** Theory group: the triple inference (§1, external against maker
+> context; §2). Question: does an inferred maker context improve a later choice beyond a
+> copy of the external one? Outcome class: **Narrows** (the gain over the domain model is
+> the copy's; the reader adds nothing beyond it). Result: −0.03 [−0.10, +0.02] against the
+> copied-context rival. Meaning: where perception equals the brief, inferring it is
+> copying it. Next obligation: R11 to R13; V06 (the changed-context target under dated
+> histories). Public claim: none. Decision: **No**. Detail: results/phase_2_4_stage_7/R10
+> (the first landing under superseded_changed/).
+
+## L344 · The joint rungs of the reconstruction trunk: asked to infer the goal and the belief together with the rest supplied, the joint reader's candidate pairs hold the true goal in 23 percent of worlds and the true belief in 34 (no worse than one at a time, so nothing collapses into the other), but the pairs it commits to cost Qwen 1.4 nats [0.4, 2.7] under the domain model and leave SmolLM2 at it (−0.17 [−0.47, +0.13]); the goal-by-belief cells scatter from +1.9 to −8 nats, the catastrophes where a confident wrong pair is executed
+
+**Hypothesis.** Brief §10 R11: can the goal and the belief be inferred jointly without one
+collapsing into the other, and does the joint inference keep the prospective gain? This
+entry opens with R11 and takes R12 (law and action set jointly) and R13 (everything cold)
+as they land.
+
+**Method.** 60 worlds on the R family behind the boundary (48 with a next action), the
+context, law, maker context, action set, and residue supplied, the goal and the belief
+proposed together by the joint reader and every pair executed through the law, the
+posterior by the exact prefix likelihood; recall of each factor from the proposal lists;
+the contrast against the domain model per reader and per goal-by-belief cell; the exact
+oracle outside.
+
+| cell | SmolLM2 | Qwen2.5-1.5B | beside |
+|---|---|---|---|
+| R11, goal and belief withheld, joint against DOM | −0.17 [−0.47, +0.13] INCONCLUSIVE | −1.40 [−2.66, −0.40] COUNTEREVIDENCE | joint over direct +0.57 and +1.06; goal recall 0.15 and 0.32, belief recall 0.37 and 0.32; realized 27 of 60 and 59 of 60 |
+| R12, law withheld with the action set and the maker context derived from it, law twins, no demonstrations | +0.04 [−0.13, +0.22] INCONCLUSIVE | +0.11 [−0.33, +0.50] INCONCLUSIVE | joint over direct +0.55 and +3.28; law recall 0.00 and 0.56 (216 rows with twins); realized 0 of 108 and 90 of 108; the oracle's expectation reverses on 8 of 96 twin pairs and the reader follows on 0; the joint arm's mass on unavailable options 0.08 |
+| R13 first landing (everything withheld), 20:09, VOID as an instrument hole | −0.11 [−0.31, +0.13] INCONCLUSIVE, the abstention fallback | −0.11 [−0.31, +0.12] INCONCLUSIVE, identical to the digit | the joint arm abstained on 120 of 120 rows (no solvable proposal set): the residue grammar rejected both readers' copy of the prompt's own notation on every row; law proposals empty on 104 rows, goal on 40; repaired, reset, rerun from 20:19 |
+
+*Table: the joint rungs as they land; next-action log-score contrasts in nats with cluster
+intervals over worlds (the oracle gap 0.34 on this family, the floor 0.068).*
+
+**What we found.** The two factors do not collapse: each is recovered about as often in
+the pair as alone (the goal in a quarter of worlds, the belief in a third), and the
+factor marginals keep them apart. What the joint proposal loses is the cost of being
+wrong twice with full commitment: the goal-by-belief cells run from +1.9 nats (the
+attribute goal under the checked-illusion belief, both readers) to −8 (Qwen's produce goal
+under a false deadline or a checked illusion), so the average under the domain model is
+the price of confident wrong pairs, not of a confusion between the two.
+
+**What it means.** The reader's problem is not that goal and belief blur into one another
+when asked together; it is that it names the wrong ones and the arm believes it. A joint
+reader that hedged over its candidates the way the domain model hedges over options
+would sit near the domain model rather than under it, which the direct-reader contrast
+already shows (the joint arm is half a nat to a nat above the direct one). *(R12, 19:47)* With
+the law withheld and no demonstrations, only the prefix, Qwen names the law's shape (two
+strong and two weak types) in 56 percent of worlds, as in R03, but the executed shape is a
+standard table with the named types promoted, not the maker's numbers, so the gain over the
+domain model is a tenth of a nat that does not clear the interval, against half a nat when
+three demonstrations were in view (R09); SmolLM2 lists every type on every world and its arm
+is chance; and where a swapped law reverses what the oracle expects next (8 of 96 pairs),
+neither reader's expectation moves. The action set and the maker context derive from the
+proposed law and are not proposed, so their recall rows read zero by construction.
+*(R13 first landing, 20:09, an instrument hole, not a result)* With everything withheld,
+both readers' joint arms abstained on every one of 120 rows, and the verdict's identical
+figures on both readers (−0.11 to the digit) were the abstention fallback, not an inference.
+The residue proposer's prompt showed its notation as habit TYPE-or-none, intention id-or-none
+with a bar between the alternatives, and both readers copied the bar ("habit: write|none
+intention: none"); the grammar required whitespace after the type, so the residue list was
+empty on 120 of 120 rows, and a joint set with one empty factor is unsolvable, so nothing else
+the readers proposed was ever executed. Beside it, the law grammar missed "Weakness:" (empty
+on 104 of 120 rows, Qwen's "Weakness: None" among them) and the goal grammar dropped prose
+naming a single type (40 of 120). The repair, 20:18: the prompt's notation made unambiguous
+and the grammar tolerant of the copied forms; an intention that is not an option id reads as
+no held intention; the null residue (no carried habit, no held intention) is the fallback
+candidate when nothing parses, flagged so the notes still record the raw text as unparsed;
+"Weakness" and "Strength" read as the weak and skill fields and "weak: none" is a shape with
+two strong types and no weak ones; a prose goal naming one type proposes the goal that owns
+it. Against R13's own raw outputs the repaired grammars parse the residue on 59 of 60 Qwen
+rows and 11 of 60 SmolLM2 rows (the rest take the null), the law on 53 of 57 Qwen rows and 2
+of 47 SmolLM2 rows (the template echo stays no proposal), and the goal on all 37 SmolLM2
+prose rows; the card rehearsed through the fake transport realizes the posterior on 16 of 16
+rows. The engine was stopped at 20:16 with X01, X20, and X06 (readers of R13's rows) mid-run;
+the four cells were reset with rows preserved under superseded_residue/ (the scheduler counts
+this as R13's second repair; the first was the K04 chain block, not R13's own failure) and the
+engine relaunched on the same clock at 20:19 with R13 first. Every cold condition (R14, R16,
+A15, P09, B01) and the dated histories that withhold the residue (V01 to V03) call the same
+proposer and would have inherited the hole.
+
+> **Curator roll-up.** Theory group: the triple inference (§2, §3 coupling). Question: can
+> goal and belief be inferred jointly without collapse? Outcome class: **Narrows** (no
+> collapse; no recovery either). Result: goal recall 0.23, belief 0.34, Qwen −1.4 nats
+> under the domain model. Meaning: the joint reader is wrong twice and sure. Next
+> obligation: the R13 rerun appends here (its first landing, below, was an instrument hole). Public claim: none. Decision: **No**. Detail:
+> results/phase_2_4_stage_7/R11.
+
 
 
 

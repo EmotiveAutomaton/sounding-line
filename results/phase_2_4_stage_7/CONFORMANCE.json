@@ -1,0 +1,77 @@
+{
+ "laip": {
+  "pass": true,
+  "ops": {
+   "proposes_hypotheses": true,
+   "proposes_likelihood_rules": true,
+   "external_posterior": true,
+   "should_break_no_rule_is_unrealized": true
+  },
+  "admitted_name": "LLM-Augmented Inverse Planning",
+  "card": "A03",
+  "at": "2026-09-02T13:24:34"
+ },
+ "thought_tracing": {
+  "pass": true,
+  "ops": {
+   "preprocess_state_action_steps": true,
+   "initialize": true,
+   "propagate": true,
+   "weight": true,
+   "ess_recorded": true,
+   "resample_fires_on_collapse": true,
+   "rejuvenate_fires_on_diversity_loss": true,
+   "posterior_after_contradiction": true
+  },
+  "admitted_name": "ThoughtTracing",
+  "card": "A06",
+  "at": "2026-09-02T13:25:14"
+ },
+ "autotom": {
+  "pass": true,
+  "ops": {
+   "initial_model_goal_only": true,
+   "explicit_bayesian_inference": true,
+   "utility_gated_addition": true,
+   "false_expansion_rejected": true,
+   "window_extension_recorded": true
+  },
+  "admitted_name": "AutoToM",
+  "card": "A09",
+  "at": "2026-09-02T13:25:14"
+ },
+ "inverse_planning": {
+  "pass": true,
+  "ops": {
+   "exact_posterior": true,
+   "matches_analytic_ratio": true,
+   "bounded_rational_likelihood": true
+  },
+  "admitted_name": "InversePlanning.jl",
+  "card": "A12",
+  "at": "2026-09-02T13:25:34"
+ },
+ "liras": {
+  "pass": true,
+  "ops": {
+   "synthesizes_model": true,
+   "validates_semantics": true,
+   "executes_inverse_inference": true,
+   "should_break_unparseable": true
+  },
+  "admitted_name": "LIRAS-style paper reproduction",
+  "card": "A10",
+  "at": "2026-09-02T13:25:34"
+ },
+ "labtom": {
+  "pass": true,
+  "ops": {
+   "compositional_belief_representation": true,
+   "belief_content_preserved": true,
+   "belief_sensitive_inference": true
+  },
+  "admitted_name": "LaBToM.jl",
+  "card": "A13",
+  "at": "2026-09-02T13:25:54"
+ }
+}

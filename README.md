@@ -122,7 +122,7 @@ goals, expertise, constraints, and temporary state, a persistent residual may su
 about stable motivational weighting. That is an open hypothesis, not a current result.
 
 <p align="center">
-  <img src="docs/assets/visual-map.png" alt="Layered visual map of behavior selection: a latent preference field, an attention beam lifting the current proximal goal, an elastic expertise lattice, a habit layer, and the composed policy-propensity landscape whose peaks meet a selection plane where one behavior point is chosen among lower-likelihood alternatives" width="100%">
+  <img src="docs/assets/visual-map.jpg" alt="Layered visual map of behavior selection: a latent preference field, an attention beam lifting the current proximal goal, an elastic expertise lattice, a habit layer, and the composed policy-propensity landscape whose peaks meet a selection plane where one behavior point is chosen among lower-likelihood alternatives" width="100%">
 </p>
 
 <div align="center">

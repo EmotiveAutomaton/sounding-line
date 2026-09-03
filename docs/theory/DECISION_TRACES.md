@@ -187,13 +187,13 @@ learned. The rivals have their own mechanics: an ordinary error may be repaired 
 reveals an outcome; a familiar technique used in the wrong context may run FARTHER because it
 is weakly monitored; a hidden artifact-level goal should integrate the unusual action with
 wider structure. These rivals can remain observationally equivalent in a finished artifact, in
-which case the trace stays `indeterminate`. The Stage-6 F track instruments this standard in
-constructed worlds (the outcome-read is the discriminating event); no artifact READER has yet
-separated the four rivals (the Stage-6 tetrad card at the reader lands at the marginal, +0.009
-[+0.001, +0.016] on 3840 world-readers at fortyfold units, with a hidden-goal attractor: 0.55
-posterior on that account against 0.07 on habitual misuse, F11/x1, L323); this is a
-classification standard and a ruling, never a result, and not a claim that unusual action
-implies exploration.
+which case the trace stays `indeterminate`. The Stage-6 F track attempted to instrument this
+standard in constructed worlds, and the attempt is void as evidence: its outcome read inherited
+the hidden future and the generator's laws through the shared predictor, several of its
+questions reduced to one planted statistic (F02, F03, and F09 were one statistic under three
+names), and it supplies no evidence that a reader separates exploration, error, habit, and
+hidden goal. The outcome-sufficient exploration rule remains a classification standard and a
+ruling, never a result, and not a claim that unusual action implies exploration.
 
 No direct test of the coordinate system itself exists; its components are tested below.
 
@@ -315,6 +315,12 @@ is one bad test away and constructed-world only; the rest is untested or sim-onl
 > Emblematic may end up being more complicated than a conscious social decision, but I want to stay
 > with that. Perhaps it **moves with attention** in some way.
 
+> An artifact gives you two different kinds of evidence. It gives you a probabilistic distribution
+> of previous attention, compressed lossily through expertise, and it gives you a record of what the
+> maker chose to attend to when the artifact was created.
+
+*2026-09-01/02 walkthroughs; spoken wording lightly reconstructed.*
+
 He arrived at the original split from ten artifacts and a think-aloud. It maps onto the field's central
 unresolved debate, leaked onto primary-process core affect and emblematic onto constructed emotion,
 and the reconciliation position (*basic emotion theories are theories of emotion; constructed
@@ -372,6 +378,18 @@ restated goal they are recorded decisions like any other, recovered first and su
 Automaticity is therefore not zero decision structure. It is compiled reachability: earlier
 learning makes some present actions cheap and frees focal attention for another level. The
 artifact may preserve the resulting competence without preserving how much practice formed it.
+
+**Two timescales in one automatic channel.** Automatic fluency, omissions, and deformations can
+carry a graded historical mixture from related prior contexts, compressed through expertise.
+Present costly allocation, including effort spent resisting or redirecting an old tendency,
+supplies a more sharply dated trace. The present action may express preference while the
+automatic tendency records older pressures. Neither channel identifies one cause or one date
+for every component of the historical mixture; multiple dated artifacts can progressively
+narrow that uncertainty. Artifacts are privileged because they persist and accumulate
+decisions, not because other behavior is excluded: speech, gesture, tool use, and edits can
+carry the same trace classes. The preference interpretation of the two timescales lives in
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §5; this file owns the observable traces
+only.
 
 **Anomaly-handling traces are a sequence, not a type** *(restated 2026-08-21; the
 earlier mutually exclusive label list fell to the curator's sequential ruling, and the
@@ -461,11 +479,15 @@ git history. The anomaly-trace half of the section now has its second constructe
 instrument: the ordered-accident ruler reads the multilabel sequence exactly as the schema
 above demands, recovering integration, repair, abandonment, and purpose at ceiling while
 refusing to name an origin the trajectory cannot show, which is the schema's
-origin-versus-adoption asymmetry passing from ruling to measurement. Confidence: the capacity
+origin-versus-adoption asymmetry passing from ruling to measurement. The two-timescale trace
+named above has no instrument yet: nothing has separated the dated present allocation from the
+expertise-borne historical mixture inside one artifact, so that trace inherits no evidence from
+the automatic-channel rows here. Confidence: the capacity
 results are replicated and controlled; the state reading
 under its control is replicated on two corpora and one bad test away as a set; the visibility
 crossover is one bad test away; the ordered-accident ruler is one bad test away and
-constructed-world only; the sim rows are sim-only.
+constructed-world only; the sim rows are sim-only; the two-timescale trace is untested, logic
+only.
 
 ## §4. Terminal organisation: layered, flattened, and non-invertible
 

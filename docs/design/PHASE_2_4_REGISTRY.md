@@ -677,6 +677,229 @@ expertise-as-attended-record candidate preserved and canonically narrowed
 errata texts remain in git history.
 
 
+## Stage 7 (his build order 2026-09-02; brief at PHASE_2_4_STAGE_7_CONTEXT.md, filed in this folder)
+
+**Review and rulings, 2026-09-02.** The brief's two code claims about Stage 6 were verified before
+anything was built: the realizer every non-oracle arm predicted through takes the whole world
+object (runners/stage6/realization.py predictive_at_cut reads target_actions, events, the
+trajectory length, and stop_shift through the hazard), and the CoAuthor loader's
+suggestion-select branch is unreachable behind the delta branch (runners/stage6/records.py).
+Two decision points were put to the curator and ruled: the isolation mechanism is the
+interpreter capsule (a fresh base-interpreter process in isolated mode, capsule-only path,
+scrubbed environment, a raising audit hook, a loopback model endpoint; honestly labeled
+interpreter-level), and the standing local-only rule is retired (clones and downloads with
+confirmation; ThoughtTracing and AutoToM cloned read-only into the sibling reference workspace,
+pinned in SOURCE_MANIFEST.json; the Julia programs stay uncloned, their operations reproduced
+locally as the brief's A12 admits).
+
+**Build, 2026-09-02 (one pass, front to back).** `runners/stage7/`: contracts (the immutable
+capsule contract, stdlib only); `reader/` (law: the ONE executable maker-law semantics shared by
+constructor and capsule; client; baselines U/PERS/DOM/SOL; the direct reader and the known-law
+selector; the Sounding joint reader with strict proposal grammars and the six locally named
+external mechanisms; history, record, and extra arms; the worker entry); `constructor/`
+(worlds with seven separable factors, a stop law that depends on the goal, the perceived
+deadline, and the expertise; factor twins; hidden-tail, stop, and event mutations; allowlisted
+evidence; oracle bundles; histories with actor-blind events and the style-matched and
+style-shifted adversaries); `records/` (the repaired CoAuthor loader with six mini-log fixtures;
+ScholaWrite switches under both protocols; mixed-control units); `conformance/` (source manifest,
+sealed-workspace check, six defining-operation fixtures with should-break cases); `scoring/`;
+`dependency_audit.py` (static graph, dynamic trace, decomposition, identity matrix,
+dispositions); `runtime.py` (capsule materialization, the audit-hook bootstrap, the probe);
+`model_server.py` (HF readers through runners/s4_lib, plus the Ollama Qwen3.5 9B route with
+thinking off and top-20 log probabilities, unloaded before any HF load); `cards.py` (100
+questions and 24 attacks with identity tuples; duplicate hashes refuse the manifest);
+`manifest.py`; `cardrun.py`; `engines.py` (batch machinery, the I and D trunks);
+`engine_supplied.py` (K, R, A); `engine_prospective.py` (P, V); `attacks.py`; `confirmation.py`;
+`validate.py`; `report.py`; `fresh_clone.py`; `scheduler.py` (72-hour ceiling, the integrity
+block, the scientific lock on the signed keystone, the Ghost V15 governor, the ladder, the
+three-claim freeze, the honest short run). `soundingline/stage7.py`; `tools/test_s7.py`;
+`run_stage7.sh`.
+
+**Defects caught by the build's own tests before the clock (each repaired in the same pass):**
+the changed-context query leaked the hidden scheduled event into visible evidence (the query's
+counterfactual is now a function of the visible context at the cut); a belief grid name collided
+with a field name; the executable external context carried reader-facing field names the law
+could not read; the supplied goal carried an opaque tag so the capsule solver's satisfaction
+term misfired against the oracle (the goal factor is now the initial goal with its owner,
+replayed through the shared evolution rule on both sides: solver equals oracle on 40 of 40
+worlds); Python's HTTP client consulted the Windows registry for proxies inside the capsule (the
+client now uses a proxy-free opener); the CoAuthor corpus carries the selected text as the
+NEXT text-insert rather than on the select event (the loader now reads that form; an edit is a
+change strictly inside the accepted span; marginal on 40 sessions accept 236, edit 120, dismiss
+146, ignore 3); capsule directory names carried a pipe; the joint reader tried to propose the
+external context in the cold condition (it derives from the brief); the workload lock admitted
+every ladder rung regardless of budget (rungs are now admitted in order while the budget lasts,
+never past the ceiling). The dependency audit's identity matrix found F02/F03/F09 (with V09) as
+one constant vector, V02 with V03, and V04 with V05.
+
+**Runtime log (2026-09-02 onward).**
+
+- 10:46 attempt 1 launched (pilot 4.6 min; workload tier 0.705; base 56.0 h, ladder 4.0 h).
+  10:51 to 11:03: I01, I02, I03, I14, I04, D07, D08, D01, D03, D06 landed; I05, I06, I10, I11
+  landed INSTRUMENT_FAILED. 11:04 the engine stopped mid-I07 by pid (the card verified idle, the
+  GPU lock released) on the curator's order to check every queued cell before it runs.
+- **Attempt-1 defects and repairs (L332).** I05/I06: the mutant copied the original's hidden
+  targets (one finisher now computes them for worlds, twins, and mutants). I10: the order
+  canary's check was a tautology (the option order must equal the declared at-cut order).
+  I11: a negative fixture went through the normalizing builder (raw negatives, seven fixtures).
+  The stop target: the cut rule always left two future steps, so the stop truth was false in
+  254 of 254 worlds; the oracle judged satisfaction on the post-transition goal while the
+  generator fired it on the goal just served; a change scheduled at a boundary applied after
+  its stop decision. Repair: a prefix-only boundary walk (rates 0.10 rising 0.02 per step to
+  0.30, 0.45 after the first diagnostic step) with a terminal stratum (probability 0.22) and
+  exact reweighting of stop rows; the hazard on the last step's goal in the generator, the
+  oracle, and the capsule solver; the change before the stop decision; the stop constants
+  (base −4.2, satisfaction 3.8, deadline 2.4, fatigue 1.8) chosen by a four-setting sweep for
+  the natural gap (0.080 nats, stop rate 0.047, 173 worlds). Also: the isolation cards write
+  their compute ledgers (I13 had nothing to reconcile); the I08 gate proves the pipeline (the
+  solver moves, model bytes change) and reports reader movement; a model rival is paired
+  within the same reader; V03's forced keyword; terminal cuts skipped where a next action is
+  required (I10, I12, I16, P09); the candidate predictions kept on the row (R16); the D10 gate
+  accepts the errata's VOID marker. Guard suite 30 of 30; worlds and histories self-tests
+  green (two stop self-tests added).
+- **Dress rehearsal.** `S7_FAKE_SERVER=1 S7_SMOKE=1 S7_AUTO_SIGN=1` on a scratch root: the
+  model server's fake route (hash-seeded readouts; one well-formed line per proposal grammar)
+  drives every engine, capsule, scorer, and verdict path with no GPU; the keystone is
+  auto-signed under the smoke flag only, labeled as such. Never science.
+- **Rehearsal-found defects (five passes, 11:29 to 12:30).** I09: the reader's option order
+  was seeded from the whole evidence hash, so relabeled units reshuffled the letters (seed
+  from the content only). X06: the same seed moved under a permutation of the option lists
+  (seed over a canonical sorted listing; the joint reader prints ids sorted). A06/A07/A10: two
+  parallel cells shared one temp file when writing a registry and one clobbered the other
+  mid-write (per-process temp names; a directory lock and an update helper around every
+  read-modify-write; readers retry through a replace). I15 read the discovery path for a
+  pilot-lane run. B05 ran before any science (now a late cell). I10's order canary was a no-op
+  when the truth already led. K01's stop conditions bind the real run only (a smoke at a
+  handful of worlds carries no stop truth). X24 flagged the keystone as a substantive cell
+  without rows (I16 now writes a row per arm) and a confirmation cell likewise (exempt; its rows
+  are checked under its source card's confirmation lane). The closure: B02 crashed three times
+  without a log line on a capsule path over the Windows limit (names shortened by hash;
+  retries and failures logged), and the blocked B03/B06 left no dispositions so the packet
+  was refused (blocked and failed cells now write their own NOT_RUN or INSTRUMENT_FAILED
+  files). Each rechecked standalone on the rehearsal root; the closure re-run on it.
+- 12:44:47 RELAUNCHED (`run_stage7.sh`, gear two) on a fresh root and a fresh clock (deadline
+  2026-09-05 12:44:47) after the rehearsal's fifth pass closed with its packet; attempt 1
+  preserved under results/phase_2_4_stage_7_attempt1/ (its dependency audit copied forward, it
+  is deterministic). 12:49 pilot clean (probe all raised; five readers measured; six
+  conformance fixtures pass); workload tier 0.623 (base 56.3 h, ladder 3.5 h, total 67.8 h).
+  13:24 I16 landed INFRASTRUCTURE; KEYSTONE SIGNED 13:24:53 by the curator loop's agent after
+  reading the audit against the trace (capsule listing without oracle files; zero denials;
+  the direct arm's 17 calls and 15648 prompt tokens equal the server ledger; one prediction
+  per arm; the solver reproduces the oracle score); every lock gate passed; THE SCIENTIFIC
+  LOCK OPENED 13:26:54 (L333: 38 integrity cells clean, no retry); the ladder runs.
+- 14:07 K01 INSTRUMENT_FAILED on the stop target only (L334): the stop gap +0.029 as read by
+  the cell (unnormalized weights; +0.034 [+0.011, +0.064] self-normalized) against the 0.05
+  floor on 300 worlds; next action +0.50, changed context +0.59, both live. The stop-weight
+  estimator was corrected to self-normalized weights for every later cell (a factor 0.85; the
+  verdict does not change). By §12.2 stopping is closed for this run; the ladder continues on
+  the live targets; no cell reset.
+- 14:18 K04 crashed in its analysis step (a terminal cut has no next action, and the
+  solver-equals-oracle check cast that None to a float); the guard landed between its second and
+  third attempts, but the third had already imported the old module, so K04 FAILED and the
+  scheduler blocked the 36 cells behind it (each with a NOT_RUN disposition file). 14:19 the
+  engine stopped by pid, K04 and the 36 blocked cells reset (tag k04guard), K04's 300
+  checkpointed rows restored for resume (its capsules had all run; only the analysis failed),
+  the loop resumed on the same clock at 14:21. Lost: about three minutes of wall.
+- 14:20 K04 COUNTEREVIDENCE on both readers (L335): SmolLM2 −0.46 [−0.74, −0.18], Qwen −2.62
+  [−3.42, −1.82] against DOM at 48 worlds; the solver reproduces the oracle on every world; the
+  supplied_state gate is closed; by §12.2 K16 and K05 diagnose and K11 to K14 read as diagnosis.
+- by 15:16 K05 to K10, K15, and X10 landed (L336): COUNTEREVIDENCE on every rung and both
+  readers (K05 VALID_NULL for SmolLM2 alone); twin follow rates 0.14 (belief) and 0.05 (goal);
+  X10 INSTRUMENT_FAILED (paraphrase TV 0.57 against 0.59 under a meaning change), closing K05's
+  language-state claims per the attack registry. No repair; the instrument behaved (the
+  should-break case broke) and the readers did not.
+- by 15:53 K11 INCONCLUSIVE, K12 SUPPORT_CANDIDATE (SmolLM2 +0.29 [+0.07, +0.51]; Qwen
+  inconclusive; belief recall 0.057; twin follow 0 of 14; Qwen's proposals unrealized in 63 of
+  70 rows), R06 and R07 VOID by the ceiling rule, X11 INFRASTRUCTURE (TV 0.61), X16 and X18
+  INSTRUMENT_FAILED (follow rates 0.14 and 0.05) (L337). No repair.
+- 16:08 K13 landed INCONCLUSIVE at exactly the domain model on both readers with EVERY joint
+  row unrealized: with belief and law supplied the joint reader was made to propose both the
+  maker context and the action set, and the 'sees:' grammar returned nothing on either reader,
+  so no proposal set was solvable and the arm fell back. Repair (an instrument defect, not a
+  reader fact): each rung names the factor the reader proposes (K13 and R04 the action set,
+  R05 and R10 the context) and the other derivable factor derives through the law; the
+  proposal grammars accept commas, semicolons, and spaces around '='; an empty proposal list
+  records the reader's raw lines. Engine stopped, K13 reset (tag propose), resumed.
+- 16:28 K13 rerun COUNTEREVIDENCE (L338): SmolLM2 −5.00 [−7.39, −2.59], Qwen −11.52 [−14.08,
+  −8.93] against DOM; realized 34 and 54 of 60; recall of the true set 0.10 and 0.00. A reader
+  fact under the declared arm (full commitment to the proposed set); no repair.
+- 16:41 K14 landed SUPPORT_CANDIDATE on its two solver arms (known-law selection +0.59 [+0.34,
+  +0.84], the law learned from two demonstrations +0.57 [+0.31, +0.85]) with the joint arm
+  unrealized on all 120 rows and the law recall 0.0. 16:45 the engine stopped and the readers
+  PROBED on a real K14 prompt: Qwen splits a belief or context across lines ('belief:
+  library=no' then 'belief: source=yes' ...) and lists more than two skills with no pace;
+  SmolLM2 echoes the template with its alternatives. The strict grammars had rejected the
+  competent answers (Qwen unrealized on 63 of 70 K12 rows). Repair: tolerant parsers (partial
+  lines merged, missing fields from the visible brief, the first two of each skill group, both
+  paces when none is given; a template echo still parses to nothing), checked on the probe's
+  exact outputs; fixtures and the guard suite green. K11, K12, K14 reset (tag grammar) with
+  only their joint-arm rows re-run; resumed 16:44:49 on the same clock.
+- 16:51 K11 rerun identical to its first landing (the goal grammar was never at issue; SmolLM2
+  yields no parseable goal line on 59 of 60 worlds, Qwen one per world with the truth in 23
+  percent); the worker now passes the readers' raw lines into the notes where a grammar
+  parsed nothing, so the next such case is readable on the row.
+- 16:59 K12 rerun SUPPORT_CANDIDATE on both readers (SmolLM2 +0.29 [+0.05, +0.50], Qwen +0.36
+  [+0.13, +0.58]; belief recall 0.39 against 0.06 under the strict grammar; Qwen realized 70 of
+  70; twin follow 1 of 14): the reversal recorded inside L337.
+- 17:07 K14 rerun: the joint arm realized on 16 of 120 rows (Qwen +0.17 [−0.06, +0.40]; SmolLM2
+  at the domain model); the raw lines show both readers echoing the candidate-law tables shown
+  in their evidence instead of the proposal grammar (a reader fact under this condition; no
+  repair). KL +0.59 and LEARN +0.57 unchanged (L339).
+- 17:30 K16 COUNTEREVIDENCE in all eight size-by-compute cells (L340); X17 INFRASTRUCTURE (K08
+  landed a verdict). The K trunk is complete; the reconstruction trunk runs next.
+- 17:37 R01 (goal recall) landed DESCRIPTIVE with recall 0.15 (Qwen 0.30, SmolLM2 0.00) and the
+  gate closed; SmolLM2's raw lines were prose naming the action types in order ('working on
+  revising sec1 and checking sec2'). The goal proposer now decodes such prose as the pull
+  ordering of the first two types named when no 'pull:' line parses (the decoded text kept
+  on the proposal); fixtures green. Engine stopped, R01 reset (tag prose), resumed 17:38.
+  K11's landing (strict goal grammar) stands as recorded.
+- 17:45 R01 rerun: recall 0.23 (Qwen 0.30, SmolLM2 0.17, realized 17 of 60); the gate closed
+  (L341).
+- 17:56 R02 belief recall 0.37 on both readers (214 rows with twins; SmolLM2 realized 99 of 107);
+  the gate closed (L341).
+- 18:03 R03 law recall 0.025 with the joint arm unrealized on 117 of 120 rows; the raw lines
+  show Qwen splitting the law across three lines ('skill: ...' / 'weak: ...' / 'pace: ...') and
+  SmolLM2 listing every type in every slot. The law proposer now merges split lines and
+  rejects a proposal whose strong and weak groups overlap; fixtures green. Engine stopped,
+  R03 reset (tag lawlines), resumed 18:04. K14's landing (single-line parser) stands.
+- 18:12 R03 rerun: recall 0.33 pooled (Qwen 0.67, realized 54 of 60; SmolLM2 0.00, every type in
+  every slot); the pooled gate closed (L341).
+- 18:19 R04 action-set recall 0.03 (proposed sets of about three and seven ids against nine or
+  ten live options; the joint arm's unavailable mass 0.16); the gate closed (L341).
+- 18:26 R05 context recall 0.09 (Qwen 0.18; SmolLM2 echoes the template on 60 of 60); the gate
+  closed; X15 INSTRUMENT_FAILED (K13's joint arm at 0.17 mass on unavailable options) (L341).
+- 18:40 R09 SUPPORT_CANDIDATE: LEARN +0.64 [+0.22, +1.12] (log score −2.28 against the oracle's
+  −2.26); the joint reader Qwen +0.56 [+0.14, +1.03] (realized 45 of 60), SmolLM2 +0.21
+  INCONCLUSIVE (10 of 60); the learn_law gate passed (L342).
+- 18:55 R10 landed INCONCLUSIVE with the joint arm equal to its copied-context rival to the
+  digit on every row: the program routes (SOL, KL, LEARN, the joint reader, the dated and
+  goal-blind arms) had left the changed-context and invalidation targets None, which the
+  worker filled uniform, so no solver route was ever scored on those two targets (the oracle
+  computes both). Repair: the context-change semantics and the invalidation response moved
+  into law.py as the one code path (the constructor delegates to them); every program route
+  executes the changed context and the invalidation response through the law and the joint
+  and known-law arms mix them over candidates; the self-test asserts the capsule equals the
+  oracle on both. Fixtures and the guard suite green. Engine stopped, R10 reset (tag changed),
+  resumed 18:5x. Landed cells scored on the primary target are unaffected; R13, P07, and V06
+  (which read those targets) had not run. X13 INFRASTRUCTURE (mass on the true law identical
+  under relabeling).
+- 19:13 R10 rerun SUPPORT_CANDIDATE against DOM (Qwen +0.59 [+0.31, +0.90]) and VALID_NULL
+  against the copied-context rival (−0.03 [−0.10, +0.02]), which equals the oracle on this
+  target; SmolLM2 unrealized on 60 of 60 (the template echo) (L343). The infer_context gate
+  passed by its rule (SLJ against DOM); the entry reads the rival as the comparator.
+- 19:23 R11 INCONCLUSIVE for SmolLM2 (−0.17), COUNTEREVIDENCE for Qwen (−1.40 [−2.66, −0.40]);
+  goal recall 0.23, belief recall 0.34; by-cross cells from +1.9 to −8 nats (L344).
+- 19:47 R12 INCONCLUSIVE on both readers (SmolLM2 +0.04, Qwen +0.11 [−0.33, +0.50]); law recall
+  0.56 for Qwen, 0.00 for SmolLM2 (unrealized 108 of 108); twin follow 0 of 8 (L344).
+- 20:09 R13 first landing INCONCLUSIVE on both readers to the digit (−0.11 [−0.31, +0.13]):
+  the joint arm abstained on 120 of 120 rows; the residue grammar rejected both readers' copy
+  of the prompt's own notation on every row (L344, an instrument hole). 20:16 engine stopped
+  (X01, X20, X06 mid-run, all readers of R13's rows). 20:18 reset R13, X01, X20, X06 (tag
+  residue; rows preserved); the joint reader's residue, law, and goal grammars repaired and
+  probed against R13's raw outputs; the card rehearsed through the fake transport (16 of 16
+  rows realized). 20:19:43 relaunched on the same clock (elapsed 7.58 h; R13 first).
+
+
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 
 Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after

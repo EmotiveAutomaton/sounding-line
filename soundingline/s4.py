@@ -139,7 +139,10 @@ def write_json(p: Path, obj) -> None:
     the scheduler's retry carried it); the replace is retried for a few seconds before
     the error is raised."""
     p.parent.mkdir(parents=True, exist_ok=True)
-    tmp = p.with_suffix(p.suffix + ".tmp")
+    # a per-process temp name: two cells writing the same registry at once each used to
+    # write ONE shared temp file, and one replaced the other's half-written bytes onto the
+    # target (the Stage-7 rehearsal's A07 crashed reading CONFORMANCE.json, 2026-09-02)
+    tmp = p.with_suffix(p.suffix + f".{os.getpid()}.tmp")
     tmp.write_text(json.dumps(obj, indent=1, ensure_ascii=False, default=_json_default),
                    encoding="utf-8", newline="\n")
     for attempt in range(20):

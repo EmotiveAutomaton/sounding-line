@@ -1,0 +1,103 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "b4e35167273a12ae",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 26,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 2,
+  "tokens_in": 868,
+  "tokens_out": 26,
+  "wall_s": 3.502
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "a0"
+ ],
+ "evidence_sha": "b3dbdc5dae7df0a5",
+ "notes": {
+  "band": 0.07692307692307693,
+  "candidate_preds": {
+   "a0": {
+    "cite:sec3:ref": 0.3199817079609382,
+    "restructure:sec2:order": 0.5090296446311801,
+    "write:sec2:s2.1": 0.17098864740788183,
+    "write:sec2:s2.2": 0.0
+   }
+  },
+  "factor_marginals": {
+   "subjective_action_space": {
+    "a0": 1.0
+   }
+  },
+  "posterior": {
+   "a0": 1.0
+  },
+  "proposals": {
+   "subjective_action_space": [
+    {
+     "ref": "a0",
+     "signature": [
+      "cite:sec3:ref",
+      "restructure:sec2:order",
+      "write:sec2:s2.1"
+     ],
+     "text": "open: cite:sec3:ref, restructure:sec2:order, write:sec2:s2.1"
+    }
+   ]
+  },
+  "proposed": [
+   "subjective_action_space"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "write:sec2:s2.1": 0.14285714285714285,
+   "write:sec2:s2.2": 0.14285714285714285,
+   "write:sec2:s2.3": 0.14285714285714285,
+   "write:sec3:s3.1": 0.14285714285714285,
+   "write:sec3:s3.2": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.3199817079609382,
+   "restructure:sec2:order": 0.5090296446311801,
+   "write:sec2:s2.1": 0.17098864740788183,
+   "write:sec2:s2.2": 0.0,
+   "write:sec2:s2.3": 0.0,
+   "write:sec3:s3.1": 0.0,
+   "write:sec3:s3.2": 0.0
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.6800182920390618,
+   "sec3": 0.3199817079609382
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.3199817079609382,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.5090296446311801,
+   "revise": 0.0,
+   "write": 0.17098864740788183
+  },
+  "stop": 0.07656219735181215
+ },
+ "version": "PredictionV1"
+}

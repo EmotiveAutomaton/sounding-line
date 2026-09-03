@@ -1,0 +1,24 @@
+{
+ "card": "R02",
+ "lane": "discovery",
+ "written_at": "2026-09-02T17:56:21",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "recall": {
+  "recall": 0.37383177570093457,
+  "n": 214,
+  "redundancy": 0.037383177570093455,
+  "posterior_mass_on_truth": 0.368973937141033,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.37383177570093457,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.37383177570093457
+  }
+ },
+ "band": "recall at or above 0.5 opens the selection questions"
+}

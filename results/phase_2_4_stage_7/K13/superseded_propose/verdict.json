@@ -1,0 +1,54 @@
+{
+ "card": "K13",
+ "cell_id": "K13",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 15.48,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "objective-versus-subjective option mismatch and correct refusal of unavailable choices",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "With C_ext+B+K+G+H supplied, can it reconstruct A?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+ "point": -0.0013188234332076147,
+ "ci": [
+  -0.20324912151137872,
+  0.23264437956732045
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.0013188234332076147
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.0013188234332076147
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.0013188234332076147
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K13\\metrics.json",
+    "sha256": "0f2c8ab02c132ed7abd02ed6353a50945daa96b1e4289ce33bb6de10bd0e97d4"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K13\\cases.jsonl",
+    "sha256": "e7048b7431a5d22a02fa0f7bdaaee1fc6d069ecf4507003fd362bfe623762550"
+   }
+  },
+  "written_at": "2026-09-02T16:08:40"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "card": "K07",
+ "lane": "discovery",
+ "written_at": "2026-09-02T14:46:51",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.629956986857983,
+  "n": 48,
+  "oracle_mean": -2.0500798408239205,
+  "dom_mean": -2.6800368276819033
+ },
+ "floor": 0.1259913973715966,
+ "u_state_by_reader": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.910702855928968,
+  "Qwen/Qwen2.5-1.5B-Instruct": -5.448583853501345,
+  "pooled": -3.1796433547151577
+ },
+ "unavailable_mass": {
+  "DOM": 0.0381271194012224,
+  "DIR": 0.08516271097996053
+ },
+ "cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.5737036270439725,
+   "ci": [
+    -0.9555349069133391,
+    -0.1696102026998375
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.0055997200139993,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -3.4323734669947648,
+   "ci": [
+    -4.132731127604068,
+    -2.706322831249235
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -2.0030385470193686,
+   "ci": [
+    -2.411523894231008,
+    -1.5705738219987448
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIR",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 19
+}

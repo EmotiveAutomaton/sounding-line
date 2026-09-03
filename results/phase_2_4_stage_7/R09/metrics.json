@@ -1,0 +1,85 @@
+{
+ "card": "R09",
+ "lane": "discovery",
+ "written_at": "2026-09-02T18:40:40",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.6516278308732101,
+  "n": 46,
+  "oracle_mean": -2.263950493891743,
+  "dom_mean": -2.9155783247649527
+ },
+ "floor": 0.13032556617464203,
+ "slj_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.21351709082501377,
+   "ci": [
+    -0.07832405373956727,
+    0.525177281557851
+   ],
+   "n_units": 46,
+   "threshold": 0.13032556617464203,
+   "perm_p": 0.17369131543422828,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5596214087279235,
+   "ci": [
+    0.14375906353407839,
+    1.034367836585663
+   ],
+   "n_units": 46,
+   "threshold": 0.13032556617464203,
+   "perm_p": 0.01319934003299835,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.38656924977646867,
+   "ci": [
+    0.05385483205387511,
+    0.7733662269858665
+   ],
+   "n_units": 46,
+   "threshold": 0.13032556617464203,
+   "perm_p": 0.03654817259137043,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "kl_on_K14_mean": -2.0894220625249607,
+ "learn_mean": -2.2767148999621725,
+ "note": "no candidate law supplied on these untouched episodes",
+ "cells": {
+  "LEARN|-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.6388634248027808,
+   "ci": [
+    0.22377887347015551,
+    1.121047701424623
+   ],
+   "n_units": 46,
+   "threshold": 0.13032556617464203,
+   "perm_p": 0.0055997200139993,
+   "arm": "LEARN",
+   "rival": "DOM"
+  }
+ },
+ "degenerate_worlds": 24
+}

@@ -1,0 +1,122 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "0c4792bfff045465",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 57,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 4,
+  "tokens_in": 2142,
+  "tokens_out": 57,
+  "wall_s": 4.643
+ },
+ "confidence": 0.5094493031207779,
+ "equivalence_class": [
+  "k0",
+  "k1"
+ ],
+ "evidence_sha": "e0e2adde5f8438cf",
+ "notes": {
+  "band": 0.045454545454545456,
+  "candidate_preds": {
+   "k0": {
+    "cite:sec4:ref": 0.0,
+    "consult:sec1:src": 0.0,
+    "probe:sec1:tech": 0.5825702064623147,
+    "write:sec1:s1.3": 0.41742979353768533
+   },
+   "k1": {
+    "cite:sec4:ref": 0.0,
+    "consult:sec1:src": 0.0,
+    "probe:sec1:tech": 0.5467381519846138,
+    "write:sec1:s1.3": 0.45326184801538616
+   }
+  },
+  "factor_marginals": {
+   "expertise_law": {
+    "k0": 0.4905506968792221,
+    "k1": 0.5094493031207779
+   }
+  },
+  "posterior": {
+   "k0": 0.4905506968792221,
+   "k1": 0.5094493031207779
+  },
+  "proposals": {
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "write",
+      "revise",
+      "cite",
+      "restructure",
+      "steady"
+     ],
+     "text": "skill: write,revise weak: cite,restructure pace: steady"
+    },
+    {
+     "ref": "k1",
+     "signature": [
+      "write",
+      "revise",
+      "cite",
+      "restructure",
+      "erratic"
+     ],
+     "text": "skill: write,revise weak: cite,restructure pace: erratic"
+    }
+   ]
+  },
+  "proposed": [
+   "expertise_law"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.2,
+   "consult:sec1:src": 0.2,
+   "probe:sec1:tech": 0.2,
+   "restructure:sec3:order": 0.2,
+   "write:sec1:s1.3": 0.2
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "probe:sec1:tech": 0.5643155912792642,
+   "restructure:sec3:order": 0.0,
+   "write:sec1:s1.3": 0.43568440872073577
+  },
+  "next_section": {
+   "sec1": 1.0,
+   "sec2": 0.0,
+   "sec3": 0.0,
+   "sec4": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.5643155912792642,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.43568440872073577
+  },
+  "stop": 0.06297335605699649
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,72 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "2b0b27f88c035cd9",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 36,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 982,
+  "tokens_out": 36,
+  "wall_s": 2.992
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "0874489b3fce00c7",
+ "notes": {
+  "proposals": {
+   "belief_state": []
+  },
+  "proposed": [
+   "belief_state"
+  ],
+  "unparsed": {
+   "belief_state": "1. The maker believes that the library is available.\n2. The maker believes that source access is available.\n3. The maker believes that the deadline is loose."
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25,
+   "write:sec3:s3.1": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25,
+   "write:sec3:s3.1": 0.25
+  },
+  "next_section": {
+   "sec1": 0.25,
+   "sec2": 0.5,
+   "sec3": 0.25
+  },
+  "next_type": {
+   "check": 0.25,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.25,
+   "restructure": 0.25,
+   "revise": 0.0,
+   "write": 0.25
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

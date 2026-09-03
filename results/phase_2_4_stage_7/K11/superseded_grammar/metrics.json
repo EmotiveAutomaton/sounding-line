@@ -1,0 +1,126 @@
+{
+ "card": "K11",
+ "lane": "discovery",
+ "written_at": "2026-09-02T15:37:23",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.629956986857983,
+  "n": 48,
+  "oracle_mean": -2.0500798408239205,
+  "dom_mean": -2.6800368276819033
+ },
+ "floor": 0.1259913973715966,
+ "u_state_by_reader": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.0020935134631733876,
+  "Qwen/Qwen2.5-1.5B-Instruct": -0.2354276757170749,
+  "pooled": -0.11876059459012414
+ },
+ "slj_vs_dir": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.47724405193261127,
+   "ci": [
+    0.19416811390321595,
+    0.7650490248578476
+   ],
+   "n_units": 48,
+   "threshold": 0.03,
+   "perm_p": 0.0023998800059997,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 2.103277035620755,
+   "ci": [
+    1.3290465708033385,
+    2.843409150564213
+   ],
+   "n_units": 48,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.290260543776683,
+   "ci": [
+    0.8618149184943166,
+    1.7340844890617486
+   ],
+   "n_units": 96,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "SLJ",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "recall_proximal_goal": {
+  "recall": 0.11666666666666667,
+  "n": 120,
+  "redundancy": 0.49166666666666664,
+  "posterior_mass_on_truth": 0.11666666666666667,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.23333333333333334,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.0
+  }
+ },
+ "cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.0013188234332076147,
+   "ci": [
+    -0.20969878237876097,
+    0.22211329684859601
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.9909004549772511,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.1483093092177071,
+   "ci": [
+    -0.5182053754431691,
+    0.21170906299191408
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.43557822108894556,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.07481406632545734,
+   "ci": [
+    -0.34160582368444065,
+    0.18828607998312594
+   ],
+   "n_units": 48,
+   "threshold": 0.1259913973715966,
+   "perm_p": 0.5818209089545523,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 19
+}

@@ -123,22 +123,38 @@ candidate, canonically narrowed just below rather than adopted as an identity)*:
 remains historical evidence; the second statement narrows its identity claim without removing
 the example.*
 
-Expertise is the learned transition structure through which all three functional levels can
-constrain action; it is not identical to any one depth, to conscious executive control, or to
-a stored policy. The curator's live FORMATION hypothesis is that it is an imperfect,
-consolidation-transformed record of prior attention under prior context: practice, feedback,
-and instruction shape what is attended and repeated; constraints, tools, opportunity, and
-embodiment define the context in which that attention occurred; consolidation compresses and
-reorganizes the record, and interference adds noise. The hypothesis is testable only if
-attention is measured independently (defining attention as whatever later changed expertise
-is circular). The mapping runs many-to-many in both directions: the same attended material can
-produce different expertise, and the same expertise can later direct attention away from the
-current goal, because goal selection and attention allocation are different operations. A
-background concern can deform the reachable trajectories without becoming the current focal
-goal; when attention promotes it, it becomes an active proximal goal, and automaticity
-pre-solves lower-level control so focal attention can operate elsewhere. Calling expertise
-"compiled decision structure" (the 2026-08-21 pass) describes its formation history, not
-intact storage of past decisions. The functional object remains the trajectory constraint.
+> The transition model is just expertise. You can already have expertise when you walk up to
+> something; that is one of the pieces that changes the rest of the equation.
+
+> All the times you have been in a situation like this, what did you choose to attend to, and what
+> decisions did you make while attending to it? That is what expertise compresses.
+
+> If you make those decisions repeatedly, your expertise bends in a different direction. You become
+> your choices in a lot of ways.
+
+*2026-09-01 walkthrough; spoken wording lightly reconstructed.*
+
+Expertise is the maker's learned transition model, the structure through which all three
+functional levels can constrain action; a realized process is one path through it, and neither
+is identical to any one depth, to conscious executive control, or to a stored policy. A reader
+may arrive with domain expertise before seeing the artifact, which changes the rest of the
+equation without recovering the episode's path. The curator's live FORMATION hypothesis is that
+expertise is a lossy, consolidation-transformed record of prior attention and choice under
+prior context, not an intact historical log: practice, feedback, and instruction shape what is
+attended and repeated; constraints, tools, opportunity, and embodiment define the context in
+which that attention occurred; consolidation is encoding and compression, and interference and
+forgetting are error. Transfer and unequal learning change which contexts and repetitions bear
+on the present case; they do not require a separate object beside expertise. Repeated choices
+reshape the later transition model, which is the sense in which a maker becomes their choices.
+Goal selection and attention allocation remain distinct operations: the same attended material
+can produce different expertise, and the same expertise can later direct attention away from
+the current goal; a background concern can deform the reachable trajectories without becoming
+the focal goal, and when attention promotes it, it becomes an active proximal goal while
+automaticity pre-solves lower-level control so focal attention can operate elsewhere. The
+formation hypothesis is circular unless attention is measured independently of its later
+effect on expertise. Calling expertise "compiled decision structure" (the 2026-08-21 pass)
+describes its formation history, not intact storage of past decisions. The functional object
+remains the trajectory constraint.
 
 Expertise can be expressed at mechanics, technique, and purpose levels. Media literacy is one
 high-level entry competence, not the definition of expertise. The transition map spans the
@@ -182,25 +198,33 @@ focal control, not a frozen mechanism.
 | **G27** | Level boundaries in a model are soft rather than sharp | **assumed, not tested.** Any test requiring a clean boundary is testing the wrong thing |
 | **G73** | Positive affect is a readout over the seven channels | **OPEN.** Suppressing one channel should move it proportionally |
 | **G74** | Positive affect is a conjoined gate requiring all seven un-inhibited | **OPEN.** Suppressing any one should collapse it; a single suppression experiment separates the two |
-| **C-S6** | A bounded reader recovers which control architecture governs a constructed maker (one foreground goal with switching, maintained intention, compiled habit, concurrent control) from the order of work | **NARROWED (test, L316, L322), 3840 world-readers at the locked scale.** The reader reads the discriminating EVENT across all four controllers (+0.45 [+0.39, +0.51], C03/x1) and recovers a cue-triggered dormant intention (+0.65, C07), but inferring the controller beyond a controller-agnostic mixture is a valid null (−0.003 [−0.009, +0.002], C11/x1); the strict switcher leaves more hanging section-writes than the concurrent controller, opposite the declared direction (C06) |
-| **A-S6** | A bounded reader reads the discriminating event on constructed makers whose expertise history (a practiced skill) or current goal governs it, and reads dated history as such | **SPLIT (test, L315, L317, L323), 3838 world-readers at the locked scale.** The event read pays and scales (+0.79 [+0.72, +0.85], practiced skill +0.81 and current goal +0.77, A10/x1; +0.99 at discovery), while dated-versus-shuffled history separates NOWHERE at scale: the exact layer's discovery separation (+0.67 on a 48-world interval that barely excluded zero, A13) sits at −0.03 [−0.15, +0.10] on 1248 fresh units (A13/x5, L325), and the reader's changed-context read of it stays inconclusive (+0.04, A14); the history-governed event read itself holds (+0.28 changed-context at 2496, A12/x5) |
+| **C-S6** | A bounded reader recovers which control architecture governs a constructed maker (one foreground goal with switching, maintained intention, compiled habit, concurrent control) from the order of work | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event reader and the controller comparison inherit hidden future and generator-law dependencies; no architecture recovery, controller comparison, or switching conclusion is licensed; the reader-free construction fact stands: the strict switcher leaves more hanging section-writes than the concurrent controller, opposite the declared direction (C06, CLEAN) |
+|   | | *(this row's history is NARROWED on the Stage-6 block, L316 and L322, then voided by the 2026-09-02 dependency audit, L330)* |
+| **A-S6** | A bounded reader reads the discriminating event on constructed makers whose expertise history (a practiced skill) or current goal governs it, and reads dated history as such | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event and changed-context reads inherit the common predictor's privileged state; the dated-history contrast does not validate the rest of the family; no Stage 6 attention-history, expertise-versus-goal, or changed-context inference is licensed; the reader-free construction fact stands: dated-versus-shuffled history separates nowhere at scale on the exact layer (−0.03 [−0.15, +0.10] on 1248 fresh units, A13/x5, CLEAN) |
+|   | | *(this row's history is SPLIT on the Stage-6 block, L315 to L325, then voided by the 2026-09-02 dependency audit, L330)* |
 
-**What the table says.** The scaffold itself is theory. Its one adopted position (a proximal
-goal as the currently governing local control target, expressed through every level; goal,
-attention, and expertise distinct but coupled, no pair identical; expertise itself the
-learned transition structure rather than a stored policy or a single depth) and its one testable sharpening (late blocks making expertise more
-decodable, with no single anatomical address claimed) have never been run, and every affect
-reading the project has produced is blind to positive affect except where it leaks through
-seeking, play, or care, with the two positive-affect rows held as candidate modelings rather
-than an exhaustive pair. The one measured row is the reader's, not the scaffold's: on constructed
-makers the four control candidates leave events a bounded reader reads at scale and a governing
-architecture it cannot name (C-S6), so the serial-switching candidate stays a candidate on the
-model side too, discriminated by construction and not yet by any reader; the attention-history row reads the
-same way, the event a practiced skill or current goal governs read at scale while
-dated-versus-shuffled history is separated by nothing at scale, the exact layer's discovery
-separation having died on 1248 fresh units (A-S6, L325). Confidence:
-untested, logic only, except the two reader rows, which are two readers on one construction
-family at the locked scale.
+**What the table says.** The scaffold itself is theory, and its surviving content is about
+expertise rather than about any reader: expertise is the transition model through which the
+levels constrain action, repetition reshapes it, consolidation compresses the record of prior
+attention and choice into it, and interference corrupts that record; a reader may bring
+expertise of its own, and what it must infer on the spot is the proximal goal. The scaffold's
+one adopted position (a proximal goal as the currently governing local control target,
+expressed through every level; goal, attention, and expertise distinct but coupled, no pair
+identical) and its one testable sharpening (late blocks making expertise more decodable, with
+no single anatomical address claimed) have never been run, and every affect reading the
+project has produced is blind to positive affect except where it leaks through seeking, play,
+or care, with the two positive-affect rows held as candidate modelings rather than an
+exhaustive pair. The expertise-formation account is logic only. The two Stage-6 rows are void
+as reader evidence: their numbers were produced through a realizer that read the hidden world
+(C-S6, A-S6), and what survives of them is construction fact, that the four control candidates
+can be built to share endpoints and differ in order, that the strict switcher leaves more
+hanging writes than concurrent control, and that dated-versus-shuffled history separates
+nothing at scale on the exact layer. The serial-switching candidate therefore stays a candidate
+discriminated by construction and by no reader; whether any reader recovers a control or
+history factor behind a boundary it cannot cross is asked again in Stage 7 (K11 to K13, V01 to
+V06). Confidence: untested, logic only, for the scaffold and the formation account; the two
+construction facts are exact-layer facts on one construction family; the Stage 6 reader
+instrument is instrument-dead.
 
 On mirror systems *(the 2026-08-22 pass)*:
 

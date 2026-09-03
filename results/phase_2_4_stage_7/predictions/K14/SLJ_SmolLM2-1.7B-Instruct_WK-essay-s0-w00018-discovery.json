@@ -1,0 +1,81 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "7f0c1271193ec42f",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 64,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1924,
+  "tokens_out": 64,
+  "wall_s": 3.579
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "d0d2a9c800ddb915",
+ "notes": {
+  "proposals": {
+   "expertise_law": []
+  },
+  "proposed": [
+   "expertise_law"
+  ],
+  "unparsed": {
+   "expertise_law": "law_a: {skill: {write: 0.90, revise: 0.90, check: 0.80, consult: 0.70, cite: 0.70, restructure: 0.80, probe: 0.60"
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.125,
+   "check:sec2:s2.1": 0.125,
+   "check:sec3:s3.1": 0.125,
+   "check:sec4:s4.1": 0.125,
+   "consult:sec1:src": 0.125,
+   "fix:sec2:s2.1": 0.125,
+   "restructure:sec3:order": 0.125,
+   "write:sec4:s4.2": 0.125
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.125,
+   "check:sec2:s2.1": 0.125,
+   "check:sec3:s3.1": 0.125,
+   "check:sec4:s4.1": 0.125,
+   "consult:sec1:src": 0.125,
+   "fix:sec2:s2.1": 0.125,
+   "restructure:sec3:order": 0.125,
+   "write:sec4:s4.2": 0.125
+  },
+  "next_section": {
+   "sec1": 0.25,
+   "sec2": 0.25,
+   "sec3": 0.25,
+   "sec4": 0.25
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.0,
+   "consult": 0.125,
+   "fix": 0.125,
+   "probe": 0.0,
+   "restructure": 0.125,
+   "revise": 0.0,
+   "write": 0.125
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

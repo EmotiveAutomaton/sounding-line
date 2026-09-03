@@ -1,0 +1,105 @@
+{
+ "card": "D01",
+ "lane": "discovery",
+ "written_at": "2026-09-02T10:57:24",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "arm_reach": {
+  "D": [
+   "cut",
+   "hidden",
+   "trajectory"
+  ],
+  "L": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "LD": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "TT": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "GS": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "EX": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "AD": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "CR": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "OR": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ]
+ },
+ "dynamic": [
+  "cut",
+  "events",
+  "stop_shift",
+  "target_actions",
+  "trajectory"
+ ],
+ "direct": [
+  "realization.predictive_at_cut",
+  "realization.realize",
+  "realization._selftest",
+  "architectures.arm_D",
+  "architectures.arm_TT",
+  "architectures._fit_markov_policy",
+  "architectures.arm_EX",
+  "architectures.arm_AD",
+  "architectures._selftest",
+  "worlds._stop_prob",
+  "worlds.simulate",
+  "worlds.trajectory_log_lik",
+  "worlds.make_process_world",
+  "worlds.hidden_targets",
+  "worlds.changed_context_dist",
+  "worlds.oracle_posterior",
+  "worlds.oracle_state",
+  "worlds.cheap_baselines",
+  "worlds.render_evidence",
+  "worlds.render_artifact"
+ ]
+}

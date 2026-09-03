@@ -1,0 +1,107 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "32fc25b21cefed8a",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 26,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 2,
+  "tokens_in": 852,
+  "tokens_out": 26,
+  "wall_s": 3.513
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "a0"
+ ],
+ "evidence_sha": "3b164c210b0d743b",
+ "notes": {
+  "band": 0.08333333333333333,
+  "candidate_preds": {
+   "a0": {
+    "check:sec1:s1.1": 0.3913186260840765,
+    "probe:sec1:tech": 0.24488093886385312,
+    "restructure:sec2:order": 0.36380043505207044,
+    "write:sec1:s1.2": 0.0
+   }
+  },
+  "factor_marginals": {
+   "subjective_action_space": {
+    "a0": 1.0
+   }
+  },
+  "posterior": {
+   "a0": 1.0
+  },
+  "proposals": {
+   "subjective_action_space": [
+    {
+     "ref": "a0",
+     "signature": [
+      "check:sec1:s1.1",
+      "probe:sec1:tech",
+      "restructure:sec2:order"
+     ],
+     "text": "open: check:sec1:s1.1, probe:sec1:tech, restructure:sec2:order"
+    }
+   ]
+  },
+  "proposed": [
+   "subjective_action_space"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.1111111111111111,
+   "cite:sec3:ref": 0.1111111111111111,
+   "probe:sec1:tech": 0.1111111111111111,
+   "restructure:sec2:order": 0.1111111111111111,
+   "write:sec1:s1.2": 0.1111111111111111,
+   "write:sec2:s2.1": 0.1111111111111111,
+   "write:sec2:s2.2": 0.1111111111111111,
+   "write:sec3:s3.1": 0.1111111111111111,
+   "write:sec3:s3.3": 0.1111111111111111
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.3913186260840765,
+   "cite:sec3:ref": 0.0,
+   "probe:sec1:tech": 0.24488093886385312,
+   "restructure:sec2:order": 0.36380043505207044,
+   "write:sec1:s1.2": 0.0,
+   "write:sec2:s2.1": 0.0,
+   "write:sec2:s2.2": 0.0,
+   "write:sec3:s3.1": 0.0,
+   "write:sec3:s3.3": 0.0
+  },
+  "next_section": {
+   "sec1": 0.6361995649479296,
+   "sec2": 0.36380043505207044,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.3913186260840765,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.24488093886385312,
+   "restructure": 0.36380043505207044,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.07446794516602803
+ },
+ "version": "PredictionV1"
+}

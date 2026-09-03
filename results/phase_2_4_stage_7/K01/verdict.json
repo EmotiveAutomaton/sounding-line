@@ -1,0 +1,34 @@
+{
+ "card": "K01",
+ "cell_id": "K01",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 4.7,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "nontrivial oracle gap on next action, stopping, and the declared counterfactual",
+ "exec": "COMPLETE",
+ "outcome": "INSTRUMENT_FAILED",
+ "primary": "Can the exact oracle predict every hidden target in each known-answer world?",
+ "reason": "next_action gap +0.501 (n 245); stop gap +0.029 (n 300); changed_context gap +0.586 (n 300); next_type gap +0.468 (n 245); invalidation gap +0.114 (n 300); stop truths 55",
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K01\\metrics.json",
+    "sha256": "9cac2d8577aed9ee5e183967c09cb53a878ef8fc8168db3e3c6112411506b15c"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K01\\cases.jsonl",
+    "sha256": "cc29f0d64aade0bc22d1e95072e32873634e61aab9fb8bfd384e8e1dba4834c6"
+   }
+  },
+  "written_at": "2026-09-02T14:04:03"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "card": "K16",
+ "cell_id": "K16",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 22.52,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "factorial interaction, not three incomparable runs; if K04 fails, this diagnoses rather than rescues it",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "Conditional on K04, how do structured computation, inference-time compute, and model size affect state use?",
+ "reason": "interval entirely below zero; reader qwen9b|small; diagnosis under a failed K04 gate",
+ "point": -1.0591750148900425,
+ "ci": [
+  -1.7197204697592199,
+  -0.43622554960102883
+ ],
+ "n_units": 36,
+ "conditional_cells": {
+  "qwen05|small": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.6546160365684395
+  },
+  "qwen05|expanded": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.645483677822461
+  },
+  "qwen15|small": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.50435871321636
+  },
+  "qwen15|expanded": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.484795782028035
+  },
+  "qwen3|small": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -3.096219895841111
+  },
+  "qwen3|expanded": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -4.202390090689446
+  },
+  "qwen9b|small": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.0591750148900425
+  },
+  "qwen9b|expanded": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.0489802940617023
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K16\\metrics.json",
+    "sha256": "adb1b46aea8975d931d98da60c629d8fbca5a0dfe32b43868bbb4ff9197bad90"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K16\\cases.jsonl",
+    "sha256": "1030e510fa2d87eec41bc75c04cb7b3f68bb032a77322e0372d320a357d983c2"
+   }
+  },
+  "written_at": "2026-09-02T17:30:26"
+ }
+}

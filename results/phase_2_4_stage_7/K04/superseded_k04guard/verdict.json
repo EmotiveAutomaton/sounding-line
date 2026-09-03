@@ -1,0 +1,8 @@
+{
+ "card": "K04",
+ "cell_id": "K04",
+ "exec": "FAILED",
+ "outcome": "INSTRUMENT_FAILED",
+ "reason": "exit 1 after 3 attempts: \n    metrics[\"sol_reproduces_oracle\"] = all(abs(float(r[\"primary_score\"]) - float(orr.get(r[\"unit_id\"], 1e9))) < 1e-6 for r in sol) if sol else None\n                                               ~~~~~^^^^^^^^^^^^^^^^^^^^\nTypeError: float() argument must be a string or a real number, not 'NoneType'\n",
+ "written_at": "2026-09-02T14:18:59"
+}

@@ -1,0 +1,75 @@
+{
+ "card": "K03",
+ "lane": "discovery",
+ "written_at": "2026-09-02T14:08:20",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "table": {
+  "DOM": {
+   "next_action_ls": -2.6268851951441516,
+   "stop_ls": -0.149760523206925,
+   "next_type_ls": -1.65191752719771,
+   "next_section_ls": -1.1542297016020309,
+   "changed_context_ls": -2.791568264992767,
+   "invalidation_ls": -0.9592903374003192,
+   "n": 120
+  },
+  "OR": {
+   "next_action_ls": -1.9772131721801698,
+   "stop_ls": -0.1017489740438911,
+   "next_type_ls": -1.0325698512237946,
+   "next_section_ls": -0.9977634642014045,
+   "changed_context_ls": -2.2179547944479094,
+   "invalidation_ls": -0.8401734132661854,
+   "n": 120
+  }
+ },
+ "calibration_dom": {
+  "n": 97,
+  "ece": 0.3866,
+  "slope": null,
+  "intercept": null,
+  "brier_conf": 0.25,
+  "bins": [
+   {
+    "lo": 0.0,
+    "hi": 0.2,
+    "n": 0
+   },
+   {
+    "lo": 0.2,
+    "hi": 0.4,
+    "n": 0
+   },
+   {
+    "lo": 0.4,
+    "hi": 0.6,
+    "n": 97,
+    "mean_conf": 0.5,
+    "accuracy": 0.1134
+   },
+   {
+    "lo": 0.6,
+    "hi": 0.8,
+    "n": 0
+   },
+   {
+    "lo": 0.8,
+    "hi": 1.0,
+    "n": 0
+   }
+  ]
+ },
+ "dom_params_fitted_on": {
+  "family": "WD",
+  "n_per_domain": 96,
+  "lane": "discovery",
+  "at": "2026-09-02T12:44:57"
+ }
+}

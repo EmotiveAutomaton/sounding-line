@@ -1,0 +1,57 @@
+{
+ "card": "K01",
+ "lane": "discovery",
+ "written_at": "2026-09-02T14:03:54",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "gaps": {
+  "next_action": {
+   "gap": 0.5014571703308267,
+   "n": 245,
+   "oracle_mean": -2.1218093875369095,
+   "dom_mean": -2.623266557867736
+  },
+  "stop": {
+   "gap": 0.02871020311500039,
+   "n": 300,
+   "oracle_mean": -0.11627075147017199,
+   "dom_mean": -0.14498095458517238
+  },
+  "changed_context": {
+   "gap": 0.5856175303204909,
+   "n": 300,
+   "oracle_mean": -2.103795385679623,
+   "dom_mean": -2.689412916000114
+  },
+  "next_type": {
+   "gap": 0.467530913265523,
+   "n": 245,
+   "oracle_mean": -1.1152688725977573,
+   "dom_mean": -1.5827997858632805
+  },
+  "invalidation": {
+   "gap": 0.11361427603527022,
+   "n": 300,
+   "oracle_mean": -0.8386743160481644,
+   "dom_mean": -0.9522885920834346
+  }
+ },
+ "live": {
+  "next_action": true,
+  "stop": false,
+  "changed_context": true,
+  "next_type": true,
+  "invalidation": true,
+  "stop_truth_present": true
+ },
+ "degenerate_worlds": 84,
+ "floor": 0.05,
+ "stop_truth_worlds": 55,
+ "kept_fraction": 0.7812
+}

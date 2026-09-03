@@ -1,0 +1,54 @@
+{
+ "card": "D09",
+ "lane": "discovery",
+ "written_at": "2026-09-02T13:13:32",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "natural": {
+  "T01": {
+   "committed_outcome": "COUNTEREVIDENCE",
+   "point": -0.5286909214916341,
+   "ci": [
+    -0.7909401822246089,
+    -0.29057698590821274
+   ],
+   "n_units": 32,
+   "baseline_keys": [
+    "primary_reader_minus_best_baseline"
+   ]
+  },
+  "T02": {
+   "committed_outcome": "COUNTEREVIDENCE",
+   "point": -0.3675772268346841,
+   "ci": [
+    -0.4158367258930072,
+    -0.31649703485646846
+   ],
+   "n_units": 120,
+   "baseline_keys": []
+  },
+  "T04": {
+   "committed_outcome": "COUNTEREVIDENCE",
+   "point": -0.4824311660519284,
+   "ci": [
+    -0.5590777139663042,
+    -0.40734550305037853
+   ],
+   "n_units": 240,
+   "baseline_keys": [
+    "primary_reader_minus_placement_prior"
+   ]
+  },
+  "scholawrite_previous_category_persistence": {
+   "n_sessions": 60,
+   "n_transitions": 11055,
+   "persistence_rate": 0.9535052012663953
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "written_at": "2026-09-02T10:46:18",
+ "reference_workspace": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\reference",
+ "policy": "read-only clones outside the repository (his ruling 2026-09-02); never vendored, never a runtime dependency, never on a capsule path",
+ "sources": {
+  "laip": {
+   "paper": "arXiv:2507.03682 (LLM-Augmented Inverse Planning)",
+   "repo": null,
+   "clone": null,
+   "borrowed": "the defining operation only: model-proposed hypotheses and likelihood functions with an external Bayesian posterior",
+   "local_name": "weighted_language_hypotheses",
+   "status": "PAPER_ONLY (no official repository located; fixture from the paper's description)"
+  },
+  "thought_tracing": {
+   "paper": "arXiv:2502.11881v2 (ThoughtTracing)",
+   "repo": "https://github.com/skywalker023/thought-tracing",
+   "clone": "thought-tracing",
+   "borrowed": "tracer.py: propagate, weigh, resample (hypothesis.py resample_hypotheses/compute_ess), rejuvenate_hypotheses; preprocess_input state/action interleaving; data/bigtom example as the official-style fixture input",
+   "local_name": "sequential_hypothesis_particles",
+   "status": "CLONED_PINNED",
+   "clone_receipt": {
+    "present": true,
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\reference\\thought-tracing",
+    "head": "966eb2712714aa29b4d5d2395e39af94a2be90d7",
+    "committed": "2025-08-08 13:15:49 -0700",
+    "files_at_head": 29,
+    "files_on_disk": 29,
+    "unmaterializable_colon_paths": 0,
+    "license_first_line": "MIT License",
+    "read_only": true,
+    "on_sys_path": false
+   }
+  },
+  "autotom": {
+   "paper": "arXiv:2502.15676v3 (AutoToM)",
+   "repo": "https://github.com/SCAI-JHU/AutoToM",
+   "clone": "AutoToM",
+   "borrowed": "model/model_adjustment.py: initial_model_proposal, model_discovery (utility-driven variable addition), Bayesian_inference; model/BayesianInference.py; benchmarks/data/bigToM example as the official-style fixture input",
+   "local_name": "adaptive_factor_expansion",
+   "status": "CLONED_PINNED",
+   "clone_receipt": {
+    "present": true,
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\reference\\AutoToM",
+    "head": "3f569b7ab1d0ee2702ab43ebdc724679d5fc5231",
+    "committed": "2026-06-28 11:00:41 -0700",
+    "files_at_head": 135,
+    "files_on_disk": 127,
+    "unmaterializable_colon_paths": 8,
+    "license_first_line": "Apache License",
+    "read_only": true,
+    "on_sys_path": false
+   }
+  },
+  "liras": {
+   "paper": "ACL Findings EMNLP 2025 (LIRAS)",
+   "repo": null,
+   "clone": null,
+   "borrowed": "the defining operation from the paper: synthesize and validate a situation-specific environment model, agent model, parsed state/action sequence, inverse-planning computation",
+   "local_name": "synthesized_agent_model",
+   "status": "NO_PUBLIC_IMPLEMENTATION_LOCATED (LIRAS-style paper reproduction label retained)"
+  },
+  "inverse_planning": {
+   "paper": "InversePlanning.jl (cosilab)",
+   "repo": "https://github.com/cosilab/InversePlanning.jl",
+   "clone": null,
+   "borrowed": "none executed: Julia is not installed on this machine; §10 A12 admits an exact independently checked equivalent (the grid posterior, verified against analytic tiny-world answers)",
+   "local_name": "known_law_inverse_planning",
+   "status": "NOT_CLONED (Julia absent; exact equivalent admitted by A12)"
+  },
+  "labtom": {
+   "paper": "LaBToM.jl (cosilab)",
+   "repo": "https://github.com/cosilab/LaBToM.jl",
+   "clone": null,
+   "borrowed": "none executed: Julia absent; the defining operation (epistemic language to a compositional belief representation, belief-sensitive inference) reproduced locally",
+   "local_name": "epistemic_translation",
+   "status": "NOT_CLONED (Julia absent)"
+  },
+  "clips": {
+   "paper": "CLIPS.jl (cosilab)",
+   "repo": "https://github.com/cosilab/CLIPS.jl",
+   "clone": null,
+   "borrowed": "none: cooperative instructions are stronger evidence than the artifacts here provide (§5)",
+   "local_name": null,
+   "status": "NOT_USED"
+  },
+  "inverse_inverse": {
+   "paper": "Acting as Inverse Inverse Planning (kach)",
+   "repo": "https://github.com/kach/acting-as-inverse-inverse-planning",
+   "clone": null,
+   "borrowed": "none this stage: the audience-shaping worlds are the audience factor of C_ext, not a reproduction",
+   "local_name": null,
+   "status": "NOT_USED"
+  }
+ },
+ "sealed": {
+  "inside_repo": false,
+  "on_sys_path": false,
+  "path_insertions_to_reference": [],
+  "sealed": true
+ },
+ "all_pinned": true
+}

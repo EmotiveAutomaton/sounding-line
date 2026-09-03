@@ -1,0 +1,54 @@
+{
+ "card": "R11",
+ "cell_id": "R11",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 10.73,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "crossed goal/belief worlds and both component posteriors",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can G and B be inferred jointly without collapsing one into the other?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": -0.16834336262231897,
+ "ci": [
+  -0.4675255544467371,
+  0.12502480216492914
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.16834336262231897
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.3973941691637102
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.7828687658930146
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R11\\metrics.json",
+    "sha256": "20d75359088131a863607cc7db6992b570bd794b8c25b2e683508eaf3fe41036"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R11\\cases.jsonl",
+    "sha256": "2f127dde423686960903fd8c242761c8d0be0af003da261da0bc6c583a0e52dc"
+   }
+  },
+  "written_at": "2026-09-02T19:23:42"
+ }
+}

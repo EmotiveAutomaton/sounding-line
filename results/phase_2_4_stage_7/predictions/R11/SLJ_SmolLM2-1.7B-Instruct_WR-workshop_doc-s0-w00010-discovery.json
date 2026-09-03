@@ -1,0 +1,122 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "176b693d9c1864d7",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 62,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 1591,
+  "tokens_out": 62,
+  "wall_s": 3.508
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|g0"
+ ],
+ "evidence_sha": "0d1b1640c78fad07",
+ "notes": {
+  "band": 0.125,
+  "candidate_preds": {
+   "b0|g0": {
+    "write:sec1:s1.1": 0.3378432006537568,
+    "write:sec2:s2.1": 0.28073093930873966,
+    "write:sec3:s3.1": 0.1851377982050485,
+    "write:sec3:s3.2": 0.1851377982050485
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|g0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "no",
+      "tight",
+      "none"
+     ],
+     "text": "belief: library=no source=no deadline=tight checked=none"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "write"
+     ],
+     "text": "prose: revise > write | The maker is currently working on revising sec1 (s1.2) and writing sec2 (s2.2)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.0046870533746270005,
+   "check:sec2:s2.1": 0.0038947088291344726,
+   "check:sec3:s3.1": 0.0025685014236450816,
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "write:sec1:s1.1": 0.3378432006537568,
+   "write:sec2:s2.1": 0.28073093930873966,
+   "write:sec3:s3.1": 0.1851377982050485,
+   "write:sec3:s3.2": 0.1851377982050485
+  },
+  "invalidation": {
+   "correct": 0.6199594166685282,
+   "retain": 0.12516764752337356,
+   "rewrite": 0.2548729358080984
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.0046870533746270005,
+   "check:sec2:s2.1": 0.0038947088291344726,
+   "check:sec3:s3.1": 0.0025685014236450816,
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "write:sec1:s1.1": 0.3378432006537568,
+   "write:sec2:s2.1": 0.28073093930873966,
+   "write:sec3:s3.1": 0.1851377982050485,
+   "write:sec3:s3.2": 0.1851377982050485
+  },
+  "next_section": {
+   "sec1": 0.3425302540283838,
+   "sec2": 0.2846256481378741,
+   "sec3": 0.37284409783374206
+  },
+  "next_type": {
+   "check": 0.011150263627406554,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.9888497363725934
+  },
+  "stop": 0.6746761751250987
+ },
+ "version": "PredictionV1"
+}

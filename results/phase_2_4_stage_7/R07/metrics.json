@@ -1,0 +1,42 @@
+{
+ "card": "R07",
+ "lane": "discovery",
+ "written_at": "2026-09-02T15:53:12",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "ratios": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "dom": -2.5488307906522025,
+   "slj": -2.2578450539319004,
+   "supplied_ceiling": -3.1429909141034655,
+   "oracle": -2.1596026805344843,
+   "r_ratio": null,
+   "u_state_slj": 0.7475969210761689
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "dom": -2.5488307906522025,
+   "slj": -2.6282011236556597,
+   "supplied_ceiling": -5.303796544425088,
+   "oracle": -2.1596026805344843,
+   "r_ratio": null,
+   "u_state_slj": -0.20391726840965424
+  },
+  "changed_context": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+    "dom": -2.5881298051535455,
+    "slj": -2.5942400598496813
+   },
+   "Qwen/Qwen2.5-1.5B-Instruct": {
+    "dom": -2.5881298051535455,
+    "slj": -2.5942400598496813
+   }
+  }
+ },
+ "source": "K12"
+}

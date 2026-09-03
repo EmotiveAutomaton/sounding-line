@@ -1,0 +1,92 @@
+{
+ "abstain": false,
+ "arm": "SOL",
+ "canonical_sha": "4e930520f5c0600c",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 0,
+  "model_calls": 0,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "wall_s": 0.0
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "e194184fd317acba",
+ "notes": {
+  "subjective_ids": [
+   "write:sec2:s2.3",
+   "write:sec3:s3.2",
+   "revise:sec2:s2.1",
+   "revise:sec3:s3.2",
+   "revise:sec2:s2.3",
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "consult:sec1:src",
+   "cite:sec3:ref",
+   "restructure:sec2:order",
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.0,
+   "equivalent": 1.0,
+   "fatigue": 0.0,
+   "satisfaction": 0.0
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.08333333333333333,
+   "check:sec2:s2.1": 0.08333333333333333,
+   "cite:sec3:ref": 0.08333333333333333,
+   "consult:sec1:src": 0.08333333333333333,
+   "fix:sec2:s2.1": 0.08333333333333333,
+   "probe:sec1:tech": 0.08333333333333333,
+   "restructure:sec2:order": 0.08333333333333333,
+   "revise:sec2:s2.1": 0.08333333333333333,
+   "revise:sec2:s2.3": 0.08333333333333333,
+   "revise:sec3:s3.2": 0.08333333333333333,
+   "write:sec2:s2.3": 0.08333333333333333,
+   "write:sec3:s3.2": 0.08333333333333333
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.044044558815611624,
+   "check:sec2:s2.1": 0.046114514461237065,
+   "cite:sec3:ref": 0.014902040026866886,
+   "consult:sec1:src": 0.028240507329619847,
+   "fix:sec2:s2.1": 0.05153384925620484,
+   "probe:sec1:tech": 0.02139119951042597,
+   "restructure:sec2:order": 0.03125685958689732,
+   "revise:sec2:s2.1": 0.06088004943386611,
+   "revise:sec2:s2.3": 0.06088004943386611,
+   "revise:sec3:s3.2": 0.05058830081428097,
+   "write:sec2:s2.3": 0.3223288159997278,
+   "write:sec3:s3.2": 0.2678392553313956
+  },
+  "next_section": {
+   "sec1": 0.09367626565565744,
+   "sec2": 0.5729941381717992,
+   "sec3": 0.33332959617254343
+  },
+  "next_type": {
+   "check": 0.09015907327684869,
+   "cite": 0.014902040026866886,
+   "consult": 0.028240507329619847,
+   "fix": 0.05153384925620484,
+   "probe": 0.02139119951042597,
+   "restructure": 0.03125685958689732,
+   "revise": 0.17234839968201318,
+   "write": 0.5901680713311234
+  },
+  "stop": 0.014774031693273055
+ },
+ "version": "PredictionV1"
+}

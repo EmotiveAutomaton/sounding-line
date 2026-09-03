@@ -23,7 +23,8 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
   synthesis at day six.**
 - **Theory application order:** the Phase 2.2 errata (applied 2026-08-20), the Phase 2.3
   errata (theory delta applied 2026-08-21), the Phase 2.4 errata (applied 2026-08-22), then
-  the Phase 2.4 Stage-2 errata (applied 2026-08-23)
+  the Phase 2.4 Stage-2 errata (applied 2026-08-23), the Stage-6 errata (applied 2026-08-30/31),
+  then the Stage-7 theory reconciliation errata (applied 2026-09-02)
 - **Live work:** [`../../TODO.md`](../../TODO.md) and `runners/run_queue.py`
 - **Empirical state:** [`../STATE.md`](../STATE.md) and [`../../FINDINGS.md`](../../FINDINGS.md)
 
@@ -53,6 +54,9 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 | [`PHASE_2_4_DAILY_MAPS.md`](PHASE_2_4_DAILY_MAPS.md) | **OPERATIVE** (running, newest first) | the Stage-2 daily cold maps: result shape, pursuit and warrant movement, open questions per queue-day |
 | [`archive/PHASE_2_3_CONTEXT.md`](archive/PHASE_2_3_CONTEXT.md) | **HISTORICAL PRECURSOR** (Stage 1 complete; Stage-2 branches absorbed or deferred per the 2.4 registry) | the adaptive process-inversion program: seven wing roots, branching discipline, reporting protocol |
 | [`archive/PHASE_2_3_REGISTRY.md`](archive/PHASE_2_3_REGISTRY.md) | **HISTORICAL PRECURSOR** (closed at the 2026-08-22 ratification) | the Phase 2.3 root states and the reconciliation against the live head |
+| [`PHASE_2_4_STAGE_7_CONTEXT.md`](PHASE_2_4_STAGE_7_CONTEXT.md) | **OPERATIVE** (filed 2026-09-02 from the root on his order; his two rulings appended under §5; built and launched the same day) | the clean-room capability bridge: the Stage 6 correction as the record gate, the physically separated reader, the seven-factor maker model, the supplied-state and reconstruction ladders, conformance-gated architecture names, the mixed-control discontinuity target, 100 questions and 24 attacks under one 72-hour ceiling |
+| [`PHASE_2_4_STAGE_6_CONTEXT.md`](PHASE_2_4_STAGE_6_CONTEXT.md) | **HISTORICAL PRECURSOR** (executed 2026-08-30 to 09-01; its INTERPRETATION SUSPENDED 2026-09-02 by the Stage 7 dependency audit, L330) | the contextual maker-state program as an execution record; the packet stays on disk as such |
+| [`archive/PHASE_2_4_STAGE_7_THEORY_ERRATA.md`](archive/PHASE_2_4_STAGE_7_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR** (applied 2026-09-02; archived per the 2026-08-31 filing ruling) | provenance for the six-joint Stage-7 theory reconciliation: the operational definition, expertise as the transition model against process as the realized path, the maker-relative possibility space (external context, beliefs, maker context, subjective action set), the two-timescale attention trace, the open preference ontology, and the Stage 6 interpretation voided as evidence |
 | [`archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`](archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR** (applied 2026-08-30/31; archived per the 2026-08-31 filing ruling) | provenance for the four-joint Stage-6 theory reconciliation: label-as-lossy-pointer with prospective realization tests, goal/attention/expertise de-aliased with the consolidation formation hypothesis, the dated value-change separator, the outcome-bearing exploration standard |
 | *(theory errata, phases 2.2-2.4)* | **APPLIED AND REMOVED** (each applied in its own pass; those files removed 2026-08-30 on curator ruling, succeeded 2026-08-31 by archive-the-provenance) | the canonical files under `docs/theory/` are the record; the tracked texts remain in git history |
 | [`archive/PHASE_2_2_CONTEXT.md`](archive/PHASE_2_2_CONTEXT.md) | **HISTORICAL PRECURSOR** | the transition from binary attribution to reconstruction profiles; ruler gates; result routing |

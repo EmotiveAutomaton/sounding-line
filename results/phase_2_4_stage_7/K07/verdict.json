@@ -1,0 +1,54 @@
+{
+ "card": "K07",
+ "cell_id": "K07",
+ "lane": "discovery",
+ "track": "supplied_state",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 6.6,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "opportunity-conditioned gain; unavailable actions receive zero mass",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "What does the true subjective action space add by itself?",
+ "reason": "interval entirely below zero; reader HuggingFaceTB/SmolLM2-1.7B-Instruct; floor 0.126 nats (20 percent of gap 0.629956986857983)",
+ "point": -0.5737036270439725,
+ "ci": [
+  -0.9555349069133391,
+  -0.1696102026998375
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.5737036270439725
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -3.4323734669947648
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.0030385470193686
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K07\\metrics.json",
+    "sha256": "8e95e7c9bcd47d89f95fa73e0a87b1107bd3a340c24b624f0d28c9b710f5a1fa"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K07\\cases.jsonl",
+    "sha256": "c1c4bde749686f911b553e595e34d6bb9dc32d47ede9815e475ca15e387992a5"
+   }
+  },
+  "written_at": "2026-09-02T14:46:59"
+ }
+}

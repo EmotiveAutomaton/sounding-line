@@ -1,0 +1,46 @@
+{
+ "card": "R09",
+ "cell_id": "R09",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 14.61,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "new-state prediction; no supplied candidate law",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "primary": "Can K be learned from demonstrations or earlier artifacts and transfer to an untouched episode?",
+ "reason": "directional support at or above the frozen threshold; reader LEARN|-",
+ "point": 0.6388634248027808,
+ "ci": [
+  0.22377887347015551,
+  1.121047701424623
+ ],
+ "n_units": 46,
+ "conditional_cells": {
+  "LEARN|-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.6388634248027808
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R09\\metrics.json",
+    "sha256": "09414ee250265f9bcad31f5932dfb8b9d7e379a472293ca7578a445656d68c21"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R09\\cases.jsonl",
+    "sha256": "0f5fa12173339781b2fc94e2ea7cd898f8d26e647cf1210f254a328615251d58"
+   }
+  },
+  "written_at": "2026-09-02T18:40:48"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "card": "P11",
+ "cell_id": "P11",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 3.3,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "change-point log score and boundary error against process records",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can it localize a known human/model control change in a held-out revision history?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader HPROC|-",
+ "point": 0.3132746330338228,
+ "ci": [
+  -0.6727189844545334,
+  1.20191949963973
+ ],
+ "n_units": 15,
+ "conditional_cells": {
+  "HPROC|-": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.3132746330338228
+  },
+  "HDIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.1081481229098857
+  },
+  "HDIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.787420021751511
+  },
+  "HDIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.4477840723306983
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P11\\metrics.json",
+    "sha256": "9d929302346708b14c4005be33e1bec6b50bd9added6a454ea4cc14f40303682"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P11\\cases.jsonl",
+    "sha256": "862d80f7de581242531912d6faa0b9e00dbe8857f91208498799ff585a97c898"
+   }
+  },
+  "written_at": "2026-09-02T14:11:01"
+ }
+}

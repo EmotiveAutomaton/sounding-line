@@ -544,6 +544,23 @@ L132 (a shuffle gate that voided the alternative's own signature).
   sixty draws a 0.05 TV is noise, and the sanity arm runs on gated worlds under the same
   constants as the main loop. (L329, runners/s6_consolidation.py, 2026-09-01)
 
+- **Count the truth marginal of every hidden target on the constructed worlds before the
+  clock; a target whose truth is constant by construction scores every reader identically,
+  passes every unit test, and dies only when someone counts.** The Stage-7 cut rule kept two
+  future steps after every cut, so "the maker stops here" was false in 254 of 254 worlds;
+  the solver-equals-oracle test, the mutation identity test, and the stop-gap guard test all
+  passed, because each compared predictions with predictions. The repair also showed the
+  cheap way to keep a rare event testable without biasing the ceiling: select the boundary by
+  a rule that reads the prefix only, oversample the rare stratum, and weight it back at
+  scoring; the exact hazard stays the Bayes predictor because selection never read the
+  outcome. (2026-09-02, Stage-7 attempt 1, L332)
+- **A should-break case that never breaks is a defect in the instrument, not a pass; read
+  the instrument the day its should-break case is quiet.** The Stage-7 mutation cards
+  reported identity on every arm AND an oracle that never differed; the constructor had
+  re-simulated the mutant and then copied the original's hidden targets over it. The gate
+  fired as designed (INSTRUMENT_FAILED); the lesson is that the quiet oracle was the
+  diagnosis. (2026-09-02, L332)
+
 ## §4. Before the model arm
 
 - **Base language models below the low billions cannot satisfy multi-constraint generation;
@@ -777,3 +794,70 @@ L132 (a shuffle gate that voided the alternative's own signature).
   without a produce every pass after its gate failed, and any emptiness test over
   produces would never have reached zero. Resolved cells retire their stages in the same
   pass, a tombstone comment keeping the history. (2026-08-27, run_queue.py)
+- **Before a clock starts, drive the WHOLE scheduler on the scratch root through a fake
+  model transport (hash-seeded readouts, one well-formed line per grammar the readers
+  parse), keystone auto-signed under the smoke flag, ladder and packet included; a pilot
+  measures cost and a guard suite measures fixtures, and neither runs the hundred cells.**
+  The Stage-7 fake route (`model_server.py --fake`, `S7_FAKE_SERVER=1`) ran every engine,
+  capsule, scorer, and verdict path in under an hour with no GPU and found the terminal-cut
+  crash in I10 that no test reached; the same rehearsal is the standing precondition for a
+  relaunch after any repair. Never science: the fake readouts are labeled on every response.
+  The five passes found what no unit test had: a readout seeded from a hash that the
+  attack's own relabeling changed, a shared temp file two parallel cells clobbered, a
+  closure cell admitted before the science, a receipt reading the wrong lane's path.
+  (2026-09-02, Stage-7 dress rehearsal)
+- **Every seed that fixes a presentation (option order, grouping, letter assignment) is
+  derived from the evidence CONTENT in a canonical form, never from the evidence bytes or
+  its identifiers; an invariance attack that changes the bytes must not change the
+  seed.** The Stage-7 readers seeded their option order from the full evidence hash, so the
+  relabeling attack (I09) and the permutation attack (X06) both moved the letters and failed
+  before any model was involved. (2026-09-02, L332)
+- **Parallel cells that update one shared JSON take a lock around the read-modify-write and
+  write through a per-process temp name; an atomic replace protects readers from a torn
+  file only if no two writers share the temp file.** (2026-09-02, the Stage-7 rehearsal's
+  A07 crash on a registry with extra bytes)
+- **A per-unit working directory is named by a hash, never by the unit id, the arm, and the
+  reader spelled out; and every cell the scheduler cannot run (blocked, failed) still writes
+  its own disposition file, because the closure counts files.** The Stage-7 rehearsal's
+  second confirmation crashed three times, silently, on a capsule path over the Windows
+  limit (a confirmation-lane id plus an external arm name), and the two cells behind it
+  were blocked without files, so validation refused the packet at the very end of the run.
+  (2026-09-02, Stage-7 rehearsal closure)
+- **A repair written while a cell is retrying races the retry: the next attempt imports
+  whatever is on disk the moment it starts. Stop the engine before patching a running
+  card's module, or accept that the attempts may burn through and the chain behind the
+  cell will block; either way the chain is reset as one unit with its checkpointed rows
+  restored, never re-run from nothing.** (2026-09-02, K04 on the relaunched Stage 7)
+- **A rung that withholds two factors the law can derive from what it supplies must name
+  the ONE the reader proposes; the other derives. And a proposal grammar that a real
+  reader never satisfies is an instrument fact to record (the raw lines), not a silent
+  fallback.** Stage 7's K13 asked the joint reader for both the maker context and the
+  action set with belief and law supplied; the context grammar returned nothing on
+  either reader, no proposal set was solvable, and every row fell back to the domain
+  model at exactly zero contrast, which read as a clean null until the notes were
+  opened. (2026-09-02, K13 on the relaunched Stage 7)
+- **Before a proposal grammar goes live, PROBE the real readers on a real prompt and read
+  their raw lines; a strict parser that rejects a competent answer on format turns a reader
+  result into an unrealized fallback, which reads as a clean null.** Stage 7's readers split
+  a belief across three lines and listed skills without a pace; the strict grammars dropped
+  them and the joint arm sat at exactly the domain model for two rungs. Decode the
+  reader's competent intended answer (the curator's own rule for his transcripts); a
+  template echoed with its alternatives is still no answer. (2026-09-02, K12 and K14)
+- **Every target the oracle computes, every program route must compute through the same
+  law; an arm that leaves a target None and lets the worker fill it uniform is a hole that
+  scores as a null against the oracle's ceiling.** Stage 7's solver, selector, learner,
+  joint, dated, and goal-blind arms all answered the changed-context and invalidation
+  targets uniform; the first cell whose verdict rested on that target (R10) landed with the
+  joint arm equal to its rival to the digit, which is how it was noticed. Check the
+  capsule's PredictionV1 against the oracle's fields target by target in the self-test,
+  not only on the primary. (2026-09-02, R10)
+- **A reader writes the notation the prompt shows it, bars included; the grammar must
+  accept the prompt's own notation, and a factor whose null is a legitimate hypothesis
+  takes its null as the fallback candidate rather than leaving the joint set unsolvable.**
+  R13's residue prompt showed its alternatives with a bar; both readers copied the bar, the
+  grammar wanted whitespace, the residue list was empty on 120 of 120 rows, and one empty
+  factor made every joint set unsolvable, so the cold rung landed as identical abstention
+  figures on both readers (which is how it was noticed: two readers never agree to the
+  digit). Probe every proposer a rung will call against the readers' raw outputs before the
+  run, on the cold condition above all, where every proposer is called at once.
+  (2026-09-02, R13)

@@ -1,0 +1,30 @@
+{
+ "card": "A03",
+ "cell_id": "A03",
+ "lane": "discovery",
+ "track": "architecture",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.16,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "tiny paper-style fixture; a fixed label-weighting shortcut fails conformance",
+ "exec": "COMPLETE",
+ "outcome": "INFRASTRUCTURE",
+ "primary": "Does the LAIP-style arm generate hypotheses and likelihood functions, then compute the Bayesian posterior externally?",
+ "reason": "laip: PASS {'proposes_hypotheses': True, 'proposes_likelihood_rules': True, 'external_posterior': True, 'should_break_no_rule_is_unrealized': True} ",
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "84542c58626b3b1c",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A03\\metrics.json",
+    "sha256": "5467adf562438acfc71d7fb1de90b4d216cec6069010a37081c8e31f822b35f8"
+   }
+  },
+  "written_at": "2026-09-02T13:24:43"
+ }
+}

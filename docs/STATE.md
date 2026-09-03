@@ -338,6 +338,55 @@ survive the fair induction control on the two strong ladders (G76/L94).
 
 ## Queue / infrastructure state
 
+- **2026-09-02, STAGE 7 BUILT AND LAUNCHED on his order** (brief at docs/design/PHASE_2_4_STAGE_7_CONTEXT.md;
+  build log in the registry's Stage-7 section): the clean-room capability bridge, 100 questions and 24
+  attacks over eight trunks, a physically separated reader (the interpreter capsule, his ruling), a
+  loopback model server (HF readers plus the Ollama 9B route), the Stage 6 dependency audit as the
+  record gate (L330: the Stage 6 interpretation is SUSPENDED; the realizer read the hidden world),
+  the repaired CoAuthor loader, controlled mixed-control histories, six conformance fixtures over two
+  cloned reference programs (the local-only rule retired the same day, with confirmation per
+  download), 30 guard tests green, one 72-hour ceiling from the discarded pilot. Launch via
+  `run_stage7.sh` (gear 2). The scientific lock waits on the signed keystone audit
+  (`scheduler.py sign-keystone`), which the curator loop's agent signs after reading
+  results/phase_2_4_stage_7/KEYSTONE_AUDIT.md. ATTEMPT 1 STOPPED 11:04 in the integrity
+  block and superseded (L332: four gate failures on their own should-break cases; the stop
+  truth constant in every world); repaired, re-guarded, dress-rehearsed on a scratch root
+  through the fake transport (five passes, eleven more defects), and RELAUNCHED 12:44:47 on a
+  fresh clock (deadline 2026-09-05 12:44:47; attempt 1 preserved under
+  results/phase_2_4_stage_7_attempt1/). The Stage 7 theory errata applied the same day (L331).
+  Integrity block clean and the keystone signed; THE SCIENTIFIC LOCK OPENED 13:26:54 (L333);
+  the K ladder runs. Watch: `scheduler.py status`; the freeze at hour 64 or exhaustion; one packet.
+  K01 (L334): the stop target's oracle gap sits under the 0.05 floor (0.034 on 300 worlds), so
+  stopping is closed for this run; next action and changed context carry the ladder.
+  K04 (L335): the supplied-state gate FAILS on both readers (COUNTEREVIDENCE against the domain
+  model with the complete executable state; the solver on the same bytes equals the oracle): the
+  boundary is state use; K16 and K05 diagnose.
+  K05 to K10, K15, X10 (L336): every rung under the domain model on both readers; prose no better;
+  twin reversals followed one time in seven at best; the paraphrase attack fails (the reader
+  answers to surface). K16 and the reconstruction trunk remain.
+  K11, K12 (L337): the joint arm (proposals executed by the law) returns to the domain model's
+  level and above it for SmolLM2 with the belief withheld, without recovering the factor (recall
+  6 to 12 percent; belief reversal followed 0 of 14): the solver's gain, not the reader's. REVERSED
+  in part by the tolerant-grammar rerun: belief recall 0.39 and both readers above the floor
+  with the belief withheld (+0.29, +0.36); the twin reversal still followed 1 of 14.
+  K13 (L338): the subjective action set is not reconstructed (recall 5 percent; −5 and −11.5 nats
+  against the domain model under the arm's full commitment to its proposal).
+  K14 (L339): the law is recoverable by two programs (selection +0.59, learned from two demos
+  +0.57, the Stage 6 survivor replicated clean); neither reader proposes one.
+  K16 (L340): size does not cross the state-use boundary (the 9B route −1.06 nats under the
+  domain model, the best of four); the K trunk is closed.
+  R01 (L341): goal recall 0.23, the gate closed; R02: belief recall 0.37, closed; R03: law recall
+  0.33 pooled (Qwen 0.67 alone, SmolLM2 0.00), closed pooled; R04: action-set recall 0.03, closed;
+  R05: context recall 0.09, closed. All five recall gates closed on the pooled figure (L341).
+  R09 (L342): the law learned from three demonstrations transfers at the oracle's level (+0.64);
+  Qwen's proposed law clears the floor (+0.56), the first reader pass on a reconstruction rung.
+  R10 (L343): the inferred context improves the changed-context choice by exactly what copying
+  the brief gives (−0.03 against the copied-context rival, itself the oracle here).
+  R11 (L344): goal and belief inferred together do not collapse (recall 0.23, 0.34) and do not
+  pay (Qwen −1.4 nats under DOM under full commitment to wrong pairs); R12: the law from the prefix
+  alone, shape right in 56 percent of worlds for Qwen, a tenth of a nat, inconclusive. R13's first
+  landing (20:09) was an instrument hole (the residue grammar; every joint set unsolvable),
+  repaired, reset, and rerunning from 20:19; it appends.
 - **2026-08-30 15:39, STAGE 6 LAUNCHED: the one 168-hour clock started at the discarded pilot; deadline
   2026-09-06 15:39.** Continuous gear 2 for the week; Ghost-governed CPU cap; the wrapper chains into the
   general queue at close. Built the same day front to back:

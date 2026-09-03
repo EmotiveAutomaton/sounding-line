@@ -1,0 +1,35 @@
+{
+ "card": "R01",
+ "cell_id": "R01",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 6.71,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "goal-set recall and redundancy, separated from posterior ranking",
+ "exec": "COMPLETE",
+ "outcome": "DESCRIPTIVE",
+ "primary": "Does candidate generation include the true/equivalent proximal goal before selection?",
+ "point": 0.15,
+ "reason": "recall 0.15; redundancy 0.5083333333333333; posterior mass on truth 0.15; gate closed",
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R01\\metrics.json",
+    "sha256": "f1317b319bb64612e5c8e6606369bac094177bf78968ad47138808d1918d7a56"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R01\\cases.jsonl",
+    "sha256": "5782cd8fa1d16a04f495f2b62d9cb8f75af389d750e385e54936a81a9f5aedcf"
+   }
+  },
+  "written_at": "2026-09-02T17:37:10"
+ }
+}

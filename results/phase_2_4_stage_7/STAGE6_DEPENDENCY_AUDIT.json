@@ -1,0 +1,1331 @@
+{
+ "written_at": "2026-09-02T10:34:16",
+ "stage6_root": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_6",
+ "raw_untouched": true,
+ "D01_static": {
+  "direct_hidden_reads": {
+   "realization.predictive_at_cut": [
+    "cut",
+    "events",
+    "target_actions",
+    "trajectory"
+   ],
+   "realization.realize": [
+    "cut",
+    "events"
+   ],
+   "realization._selftest": [
+    "hidden"
+   ],
+   "architectures.arm_D": [
+    "hidden"
+   ],
+   "architectures.arm_TT": [
+    "cut"
+   ],
+   "architectures._fit_markov_policy": [
+    "trajectory"
+   ],
+   "architectures.arm_EX": [
+    "cut",
+    "trajectory"
+   ],
+   "architectures.arm_AD": [
+    "cut",
+    "trajectory"
+   ],
+   "architectures._selftest": [
+    "trajectory"
+   ],
+   "worlds._stop_prob": [
+    "stop_shift"
+   ],
+   "worlds.simulate": [
+    "events",
+    "target_actions"
+   ],
+   "worlds.trajectory_log_lik": [
+    "events",
+    "target_actions"
+   ],
+   "worlds.make_process_world": [
+    "cut",
+    "events",
+    "hidden",
+    "target_actions",
+    "trajectory"
+   ],
+   "worlds.hidden_targets": [
+    "cut",
+    "trajectory"
+   ],
+   "worlds.changed_context_dist": [
+    "cut",
+    "trajectory"
+   ],
+   "worlds.oracle_posterior": [
+    "cut",
+    "trajectory"
+   ],
+   "worlds.oracle_state": [
+    "cut",
+    "events",
+    "target_actions",
+    "trajectory"
+   ],
+   "worlds.cheap_baselines": [
+    "cut",
+    "trajectory"
+   ],
+   "worlds.render_evidence": [
+    "cut",
+    "trajectory"
+   ],
+   "worlds.render_artifact": [
+    "cut",
+    "trajectory"
+   ],
+   "worlds._selftest": [
+    "cut",
+    "hidden",
+    "trajectory"
+   ],
+   "engines.run_I04": [
+    "trajectory"
+   ],
+   "engines.run_I05": [
+    "hidden"
+   ],
+   "engines.run_I09": [
+    "trajectory"
+   ],
+   "engines._tournament_batch": [
+    "hidden"
+   ],
+   "engines.run_m_special": [
+    "trajectory"
+   ],
+   "engines.run_prospective": [
+    "cut"
+   ],
+   "track_models._traj_stats": [
+    "events",
+    "hidden",
+    "trajectory"
+   ],
+   "track_models._audit_liveness": [
+    "trajectory"
+   ],
+   "track_models._habit_gap": [
+    "trajectory"
+   ],
+   "track_models._consult_idx": [
+    "trajectory"
+   ],
+   "track_models._recut": [
+    "cut",
+    "trajectory"
+   ],
+   "track_models._value_reader_card": [
+    "cut"
+   ],
+   "track_models.run_card": [
+    "trajectory"
+   ],
+   "prediction.score_predictions": [
+    "hidden"
+   ],
+   "attacks.run_card": [
+    "trajectory"
+   ]
+  },
+  "arm_transitive_hidden_reach": {
+   "D": [
+    "cut",
+    "hidden",
+    "trajectory"
+   ],
+   "L": [
+    "cut",
+    "events",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "LD": [
+    "cut",
+    "events",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "TT": [
+    "cut",
+    "events",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "GS": [
+    "cut",
+    "events",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "EX": [
+    "cut",
+    "events",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "AD": [
+    "cut",
+    "events",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "CR": [
+    "cut",
+    "events",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "OR": [
+    "cut",
+    "events",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ]
+  },
+  "entry_transitive_hidden_reach": {
+   "architectures.run_arm": [
+    "cut",
+    "trajectory"
+   ],
+   "engines.run_I01": [],
+   "engines.run_I02": [],
+   "engines.run_I03": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_I04": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_I05": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_I06": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_I07": [],
+   "engines.run_I08": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_I09": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_I10": [],
+   "engines.run_tournament": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_m_special": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_prospective": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines._p10_ablations": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "engines.run_card": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "track_models._stat_card": [
+    "events",
+    "hidden",
+    "trajectory"
+   ],
+   "track_models._value_reader_card": [
+    "cut",
+    "hidden",
+    "trajectory"
+   ],
+   "track_models._reader_card": [
+    "cut",
+    "hidden",
+    "trajectory"
+   ],
+   "track_models.run_card": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "trecords.run_t01": [],
+   "trecords.run_t02": [],
+   "trecords.run_t03": [],
+   "trecords.run_t04": [],
+   "trecords.run_card": [],
+   "attacks.run_card": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "confirmation._confirm": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ],
+   "confirmation.run_b03": [],
+   "confirmation.run_b04": [],
+   "confirmation.run_card": [
+    "cut",
+    "events",
+    "hidden",
+    "stop_shift",
+    "target_actions",
+    "trajectory"
+   ]
+  },
+  "note": "predictive_at_cut reads target_actions, events, trajectory (its full length) and the stop hazard reads stop_shift; every non-oracle arm calls realize -> predictive_at_cut on the live world object"
+ },
+ "D01_dynamic": {
+  "realize": [
+   "cut",
+   "doc",
+   "domain",
+   "events",
+   "lid",
+   "maker_family",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "predictive_at_cut": [
+   "cut",
+   "doc",
+   "events",
+   "lid",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "render_evidence": [
+   "cut",
+   "doc",
+   "surface_family",
+   "trajectory"
+  ],
+  "hidden_touched_by_realize": [
+   "cut",
+   "events",
+   "stop_shift",
+   "target_actions",
+   "trajectory"
+  ],
+  "hidden_touched_by_render": [
+   "cut",
+   "trajectory"
+  ]
+ },
+ "D06_identity": {
+  "identical_unit_vectors": [
+   [
+    "F02",
+    "F03"
+   ],
+   [
+    "F02",
+    "F09"
+   ],
+   [
+    "F02",
+    "V09"
+   ],
+   [
+    "F03",
+    "F09"
+   ],
+   [
+    "F03",
+    "V09"
+   ],
+   [
+    "F09",
+    "V09"
+   ],
+   [
+    "V02",
+    "V03"
+   ],
+   [
+    "V04",
+    "V05"
+   ]
+  ],
+  "identical_verdict_points": [
+   [
+    "A14",
+    "V13"
+   ],
+   [
+    "F02",
+    "F03"
+   ],
+   [
+    "F02",
+    "F09"
+   ],
+   [
+    "F03",
+    "F09"
+   ],
+   [
+    "V02",
+    "V03"
+   ],
+   [
+    "V04",
+    "V05"
+   ],
+   [
+    "V04",
+    "V09"
+   ],
+   [
+    "V05",
+    "V09"
+   ]
+  ],
+  "n_cards_with_rows": 30,
+  "constant_vectors": [],
+  "note": "a pair whose shared vector is constant is two dead statistics, not one live estimand; both are listed"
+ },
+ "D03_dispositions": {
+  "I01": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": false
+  },
+  "I02": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": false
+  },
+  "I03": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": false
+  },
+  "I04": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": false
+  },
+  "I05": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "the supplied-state gate realized the state through predictive_at_cut on the live world (target_actions, events, stop_shift, trajectory length)",
+   "engine": "integrity",
+   "gpu": true
+  },
+  "I06": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": true
+  },
+  "I07": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": false
+  },
+  "I08": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": true
+  },
+  "I09": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": false
+  },
+  "I10": {
+   "class": "CLEAN",
+   "why": "infrastructure receipt; no prediction path",
+   "engine": "integrity",
+   "gpu": false
+  },
+  "M01": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M02": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M03": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M04": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M05": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M06": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M07": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M08": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M09": {
+   "class": "CLEAN",
+   "why": "the exact oracle ceiling (construction, never a competitor)",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M10": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M11": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M12": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M13": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M14": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M15": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "M16": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "non-oracle arms ['AD', 'CR', 'D', 'EX', 'GS', 'L', 'LD', 'TT'] reach hidden fields through realize -> predictive_at_cut",
+   "engine": "tournament",
+   "gpu": true
+  },
+  "C01": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "C02": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "C03": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "C04": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "C05": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "C06": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "C07": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "C08": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "C09": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "C10": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "C11": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "C12": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "records reader cards depend on T02's loader or on tainted realization",
+   "engine": "records",
+   "gpu": false
+  },
+  "A01": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A02": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A03": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A04": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A05": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A06": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A07": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A08": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A09": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A10": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "A11": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "A12": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "A13": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "A14": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V01": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V02": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V03": {
+   "class": "DUPLICATE_ESTIMAND",
+   "why": "identical per-unit primary vector with ['V02']",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V04": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V05": {
+   "class": "DUPLICATE_ESTIMAND",
+   "why": "identical per-unit primary vector with ['V04']",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V06": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "V07": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V08": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V09": {
+   "class": "DUPLICATE_ESTIMAND",
+   "why": "identical per-unit primary vector with ['F02', 'F03', 'F09']",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V10": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V11": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "V12": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "V13": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "V14": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "F01": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F02": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F03": {
+   "class": "DUPLICATE_ESTIMAND",
+   "why": "identical per-unit primary vector with ['F02']",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F04": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F05": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F06": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F07": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F08": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F09": {
+   "class": "DUPLICATE_ESTIMAND",
+   "why": "identical per-unit primary vector with ['F02', 'F03']",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F10": {
+   "class": "CLEAN",
+   "why": "exact construction statistics on constructed worlds (no reader; no prediction path); interpretation retained only as construction facts",
+   "engine": "worldtrack",
+   "gpu": false
+  },
+  "F11": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "reader cards realized supplied or inferred states through the live world object",
+   "engine": "worldtrack",
+   "gpu": true
+  },
+  "F12": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "records reader cards depend on T02's loader or on tainted realization",
+   "engine": "records",
+   "gpu": false
+  },
+  "P01": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P02": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P03": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P04": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P05": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P06": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P07": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P08": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P09": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P10": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": true
+  },
+  "P11": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "P12": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "scores adapted predictions produced by tainted arms (M08 rows)",
+   "engine": "prospective",
+   "gpu": false
+  },
+  "T01": {
+   "class": "CLEAN",
+   "why": "narrow negative under reader-free, lineage-clean baselines pending D09",
+   "engine": "records",
+   "gpu": true
+  },
+  "T02": {
+   "class": "CONSTRUCTION_INVALID",
+   "why": "the CoAuthor loader consumed suggestion-select as a delta before the acceptance branch; every scored decision was a dismissal (§2.1.8)",
+   "engine": "records",
+   "gpu": true
+  },
+  "T03": {
+   "class": "CLEAN",
+   "why": "narrow negative under reader-free, lineage-clean baselines pending D09",
+   "engine": "records",
+   "gpu": false
+  },
+  "T04": {
+   "class": "CLEAN",
+   "why": "narrow negative under reader-free, lineage-clean baselines pending D09",
+   "engine": "records",
+   "gpu": true
+  },
+  "T05": {
+   "class": "CLEAN",
+   "why": "narrow negative under reader-free, lineage-clean baselines pending D09",
+   "engine": "records",
+   "gpu": false
+  },
+  "T06": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "records reader cards depend on T02's loader or on tainted realization",
+   "engine": "records",
+   "gpu": true
+  },
+  "T07": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "records reader cards depend on T02's loader or on tainted realization",
+   "engine": "records",
+   "gpu": true
+  },
+  "T08": {
+   "class": "CLEAN",
+   "why": "narrow negative under reader-free, lineage-clean baselines pending D09",
+   "engine": "records",
+   "gpu": false
+  },
+  "T09": {
+   "class": "CLEAN",
+   "why": "narrow negative under reader-free, lineage-clean baselines pending D09",
+   "engine": "records",
+   "gpu": false
+  },
+  "T10": {
+   "class": "CLEAN",
+   "why": "narrow negative under reader-free, lineage-clean baselines pending D09",
+   "engine": "records",
+   "gpu": false
+  },
+  "B01": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "confirmation of a tainted discovery claim, or a ledger over tainted verdicts",
+   "engine": "closure",
+   "gpu": true
+  },
+  "B02": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "confirmation of a tainted discovery claim, or a ledger over tainted verdicts",
+   "engine": "closure",
+   "gpu": true
+  },
+  "B03": {
+   "class": "CLEAN",
+   "why": "read-only Ghost bridge ledger (CLEAN)",
+   "engine": "closure",
+   "gpu": false
+  },
+  "B04": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "confirmation of a tainted discovery claim, or a ledger over tainted verdicts",
+   "engine": "closure",
+   "gpu": false
+  },
+  "X01": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['M15', 'M08']: ['DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": true
+  },
+  "X02": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['I08', 'M02']: ['CLEAN', 'DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": true
+  },
+  "X03": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['M02', 'M03', 'M08']: ['DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X04": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['M04', 'V06']: ['DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": true
+  },
+  "X05": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['P09', 'F01']: ['CLEAN', 'DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X06": {
+   "class": "CLEAN",
+   "why": "covers ['V01', 'V02']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X07": {
+   "class": "CLEAN",
+   "why": "covers ['V09', 'A06']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X08": {
+   "class": "CLEAN",
+   "why": "covers ['I04']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X09": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['I08', 'M01']: ['CLEAN', 'DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": true
+  },
+  "X10": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['M05', 'M08']: ['DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": true
+  },
+  "X11": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['I07', 'M08']: ['CLEAN', 'DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X12": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['M16', 'P11']: ['DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X13": {
+   "class": "CLEAN",
+   "why": "covers ['C01', 'F01']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X14": {
+   "class": "CLEAN",
+   "why": "covers ['T08']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X15": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['A13', 'T06']: ['CLEAN', 'DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X16": {
+   "class": "CLEAN",
+   "why": "covers ['V13', 'A13']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X17": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['A07', 'T07']: ['CLEAN', 'DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X18": {
+   "class": "CLEAN",
+   "why": "covers ['A02', 'A03', 'A04']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X19": {
+   "class": "CLEAN",
+   "why": "covers ['F02', 'F04']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X20": {
+   "class": "CLEAN",
+   "why": "covers ['F06']: clean",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X21": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['P03', 'M12']: ['DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X22": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['A12', 'V07']: ['CLEAN', 'DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X23": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['P12', 'B04']: ['DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  },
+  "X24": {
+   "class": "DEPENDENCY_TAINTED",
+   "why": "covers ['I10', 'B04']: ['CLEAN', 'DEPENDENCY_TAINTED']",
+   "engine": "attack",
+   "gpu": false
+  }
+ },
+ "class_counts": {
+  "CLEAN": 59,
+  "DEPENDENCY_TAINTED": 63,
+  "DUPLICATE_ESTIMAND": 5,
+  "CONSTRUCTION_INVALID": 1
+ },
+ "D04_suspended": {
+  "architecture_ranking": "the nine-arm tournament (L over D +0.945 and every arm contrast): every non-oracle arm predicted through the exact realizer on the live world object; SUSPENDED (D04)",
+  "reader_boundary": "the supplied-true-state gate and the 'reader boundary' (I05; event/cue reads pay, latent inference nulls): the supplied state was a prose goal, controller label, and remaining count realized by the constructor, not an operative supplied state; SUSPENDED (D04)",
+  "M14_realization": "contextual realization beats copied realization (+2.187): fresh realization received the new world's constructor variables; close to tautological; SUSPENDED (D04)",
+  "M15_semantic_invariance": "paraphrase-invariant realization (TV 0.000 vs 0.425): predictions preserved through the hypothesis tag while paraphrase semantics were ignored; SUSPENDED (D04)",
+  "coauthor_T02": "CoAuthor accept/dismiss prediction (-0.368): the loader recorded no acceptance; INVALID (D04, D07)",
+  "retained": "exact supplied-family likelihood selection, renamed supplied-law selection / known-model system identification (D05); construction facts from reader-free world statistics; the narrow natural negatives pending D09"
+ },
+ "D09_natural": {
+  "T01": {
+   "committed_outcome": "COUNTEREVIDENCE",
+   "point": -0.5286909214916341,
+   "ci": [
+    -0.7909401822246089,
+    -0.29057698590821274
+   ],
+   "n_units": 32,
+   "baseline_keys": [
+    "primary_reader_minus_best_baseline"
+   ]
+  },
+  "T02": {
+   "committed_outcome": "COUNTEREVIDENCE",
+   "point": -0.3675772268346841,
+   "ci": [
+    -0.4158367258930072,
+    -0.31649703485646846
+   ],
+   "n_units": 120,
+   "baseline_keys": []
+  },
+  "T04": {
+   "committed_outcome": "COUNTEREVIDENCE",
+   "point": -0.4824311660519284,
+   "ci": [
+    -0.5590777139663042,
+    -0.40734550305037853
+   ],
+   "n_units": 240,
+   "baseline_keys": [
+    "primary_reader_minus_placement_prior"
+   ]
+  },
+  "scholawrite_previous_category_persistence": {
+   "n_sessions": 60,
+   "n_transitions": 11055,
+   "persistence_rate": 0.9535052012663953
+  }
+ },
+ "D02_decomposition": {
+  "n_units": 128,
+  "direct_D": -2.02720893156093,
+  "equal_mix_exact": -1.0839810487936103,
+  "label_weights_L_recomputed": -1.0836680670057879,
+  "L_committed": -1.081852574474817,
+  "exact_posterior_mix": -1.0173194369611873,
+  "CR_committed": -1.101335187891873,
+  "OR_committed": -0.9952447901050193,
+  "delta_equal_mix_minus_D": 0.9432278827673197,
+  "delta_label_weights_minus_equal": 0.0003129817878224639,
+  "delta_exact_adaptation_minus_labels": 0.06634863004460057,
+  "delta_CR_minus_L": -0.019482613417055816,
+  "brief_cited": {
+   "equal_mix": 0.23,
+   "label_weights": 0.002,
+   "exact_adaptation": 0.055,
+   "free_language": -0.017,
+   "note": "the brief's audit numbers, recomputed above on the committed units; descriptive, no confirmatory language"
+  }
+ },
+ "D05_supplied_law_selection": {
+  "n": 128,
+  "exact_selection_map_accuracy": 0.7890625,
+  "exact_selection_mean_mass_on_truth": 0.7166522080133247,
+  "label_reader_map_accuracy": 0.296875,
+  "label_reader_mean_mass_on_truth": 0.2614089667974822,
+  "marginal": 0.25,
+  "name": "supplied-law selection (known-model system identification), never law learning or reconstruction",
+  "brief_cited": {
+   "label_mass": 0.257,
+   "label_map": 0.289,
+   "exact_map": 0.699
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "abstain": false,
+ "arm": "adaptive_factor_expansion",
+ "canonical_sha": "8fa0eac7d3f45bab",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 161,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 2836,
+  "tokens_out": 161,
+  "wall_s": 9.075
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "69c6ef7eea4d4431",
+ "notes": {
+  "proposals": null,
+  "receipt": {
+   "added": [],
+   "rejected": [
+    {
+     "factor": "proximal_goal",
+     "why": "no parseable proposal"
+    },
+    {
+     "factor": "belief_state",
+     "why": "unsolvable"
+    },
+    {
+     "factor": "history_residue",
+     "why": "no parseable proposal"
+    },
+    {
+     "factor": "expertise_law",
+     "why": "no parseable proposal"
+    }
+   ],
+   "window_extended": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec3:s3.1": 0.5,
+   "consult:sec1:src": 0.5
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec3:s3.1": 0.5,
+   "consult:sec1:src": 0.5
+  },
+  "next_section": {
+   "sec1": 0.5,
+   "sec2": 0.0,
+   "sec3": 0.5,
+   "sec4": 0.0
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.0,
+   "consult": 0.5,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}
