@@ -1,0 +1,109 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "4d9e30e2cb2c4431",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 30,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 1865,
+  "tokens_out": 30,
+  "wall_s": 3.948
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|g0"
+ ],
+ "evidence_sha": "fda5569fd20e7364",
+ "notes": {
+  "band": 0.0625,
+  "candidate_preds": {
+   "b0|g0": {
+    "check:sec2:s2.1": 0.24008550154979705,
+    "consult:sec1:src": 0.04369752274125145,
+    "restructure:sec2:order": 0.2032279894731004,
+    "revise:sec3:s3.1": 0.5129889862358511
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|g0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "yes",
+      "yes",
+      "tight",
+      "sec1"
+     ],
+     "text": "belief: library=yes source=yes deadline=tight checked=sec1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | The maker is currently drafting sec1 (s1.1)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.24008550154979705,
+   "consult:sec1:src": 0.04369752274125145,
+   "restructure:sec2:order": 0.2032279894731004,
+   "revise:sec3:s3.1": 0.5129889862358511
+  },
+  "invalidation": {
+   "correct": 0.2782344263384382,
+   "retain": 0.044981072776945796,
+   "rewrite": 0.6767845008846161
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.24008550154979705,
+   "consult:sec1:src": 0.04369752274125145,
+   "restructure:sec2:order": 0.2032279894731004,
+   "revise:sec3:s3.1": 0.5129889862358511
+  },
+  "next_section": {
+   "sec1": 0.04369752274125145,
+   "sec2": 0.4433134910228974,
+   "sec3": 0.5129889862358511
+  },
+  "next_type": {
+   "check": 0.24008550154979705,
+   "cite": 0.0,
+   "consult": 0.04369752274125145,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.2032279894731004,
+   "revise": 0.5129889862358511,
+   "write": 0.0
+  },
+  "stop": 0.1515035115553112
+ },
+ "version": "PredictionV1"
+}

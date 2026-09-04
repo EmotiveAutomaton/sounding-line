@@ -1,0 +1,62 @@
+{
+ "card": "P03",
+ "cell_id": "P03",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.22,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "hierarchical proper score against position and section priors",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can it predict location and scope of the next edit?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": 0.04006174747475038,
+ "ci": [
+  -0.07713558102720611,
+  0.14615337521791583
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.04006174747475038
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.10954272519493874
+  },
+  "SLJ|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.034740488860094176
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.3136777481610048
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.8245605583097914
+  },
+  "DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.5691191532353981
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P03\\metrics.json",
+    "sha256": "bdb0f3c80b91029d37b26f75d2e8eea6c6ffac7a4a535b6773bdf4390d0a4e10"
+   }
+  },
+  "written_at": "2026-09-02T23:16:58"
+ }
+}

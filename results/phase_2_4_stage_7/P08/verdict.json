@@ -1,0 +1,62 @@
+{
+ "card": "P08",
+ "cell_id": "P08",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.21,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "correction/retention/rewrite distribution; secondary consequence only",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can it predict response to a later-invalidated source without treating this as the product target?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": -0.08512771771440344,
+ "ci": [
+  -0.21000902154171378,
+  0.035206660338629715
+ ],
+ "n_units": 60,
+ "conditional_cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.08512771771440344
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "VALID_NULL",
+   "point": -0.14628042147424075
+  },
+  "SLJ|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.1157040695943221
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.1708059434060565
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.7274717518802752
+  },
+  "DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.4491388476431659
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P08\\metrics.json",
+    "sha256": "f61cc977607aeacd95434c366a975e799ba9d9462802f82f414f5685dff347e2"
+   }
+  },
+  "written_at": "2026-09-03T00:39:55"
+ }
+}

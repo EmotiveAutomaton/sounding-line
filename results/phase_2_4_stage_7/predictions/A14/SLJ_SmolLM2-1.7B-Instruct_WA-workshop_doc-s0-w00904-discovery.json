@@ -1,0 +1,116 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "c7839400e17052cf",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 82,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 1993,
+  "tokens_out": 82,
+  "wall_s": 5.61
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|g0"
+ ],
+ "evidence_sha": "d501e2fd87a65760",
+ "notes": {
+  "band": 0.058823529411764705,
+  "candidate_preds": {
+   "b0|g0": {
+    "write:sec1:s1.3": 0.2973402321542409,
+    "write:sec2:s2.2": 0.21029544219286686,
+    "write:sec3:s3.1": 0.23689199469621114,
+    "write:sec4:s4.3": 0.2114456422988372
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|g0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "yes",
+      "tight",
+      "none"
+     ],
+     "text": "belief: library=no source=yes deadline=tight checked=none"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | 1. The maker is currently drafting sec1 (s1.2).\n2. The maker is drafting sec4 (s4.2).\n3. The maker is drafting sec3 (s3."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.0207040967519074,
+   "check:sec3:s3.1": 0.02332259190593648,
+   "restructure:sec3:order": 0.0,
+   "write:sec1:s1.3": 0.2973402321542409,
+   "write:sec2:s2.2": 0.21029544219286686,
+   "write:sec3:s3.1": 0.23689199469621114,
+   "write:sec4:s4.3": 0.2114456422988372
+  },
+  "invalidation": {
+   "correct": 0.605146537942457,
+   "retain": 0.25982701813317466,
+   "rewrite": 0.13502644392436833
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.0207040967519074,
+   "check:sec3:s3.1": 0.02332259190593648,
+   "restructure:sec3:order": 0.0,
+   "write:sec1:s1.3": 0.2973402321542409,
+   "write:sec2:s2.2": 0.21029544219286686,
+   "write:sec3:s3.1": 0.23689199469621114,
+   "write:sec4:s4.3": 0.2114456422988372
+  },
+  "next_section": {
+   "sec1": 0.2973402321542409,
+   "sec2": 0.23099953894477426,
+   "sec3": 0.26021458660214764,
+   "sec4": 0.2114456422988372
+  },
+  "next_type": {
+   "check": 0.04402668865784388,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.9559733113421561
+  },
+  "stop": 0.14804719803168948
+ },
+ "version": "PredictionV1"
+}

@@ -258,6 +258,14 @@ discontinuity*; the interpretation that the variation is **goal** variation is e
 open. Intrinsic plagiarism detection is also a different thing, a spliced author rather than one
 author's goals moving, a distinction he separated after I collapsed it.
 
+Stage 7's constructed histories give the honesty note a measurement (L351): a process reader
+localizes a one-time control switch from the event record and survives a surface matched from
+one word pool, where stylometry sits at chance; a pure style shift with no change of control
+still draws three quarters of its mass; and the free-text readers read under the stylometry
+stack on every kind. Detection of discontinuity from process statistics is real on the record
+and absent from the final artifact; whether the variation is goal variation stays the open
+interpretation.
+
 **And the revision-wobble test is retired on his own account.** Human redrafting was the wrong
 axis, before the null even needed explaining:
 

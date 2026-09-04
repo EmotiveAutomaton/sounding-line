@@ -386,7 +386,66 @@ survive the fair induction control on the two strong ladders (G76/L94).
   pay (Qwen −1.4 nats under DOM under full commitment to wrong pairs); R12: the law from the prefix
   alone, shape right in 56 percent of worlds for Qwen, a tenth of a nat, inconclusive. R13's first
   landing (20:09) was an instrument hole (the residue grammar; every joint set unsolvable),
-  repaired, reset, and rerunning from 20:19; it appends.
+  repaired, reset, rerun 20:42: cold, the realizing reader (Qwen) 1.3 nats under the domain model,
+  counterevidence, and 1.6 over the direct reader; the law named in 68 percent of worlds, the
+  belief in 7; the reconstruction claim narrows to the supplied and demonstrated regimes.
+  X06 and X01 pass as infrastructure on R13's rows; X20 crashed on terminal-cut rows, repaired
+  (the shared guard), reset with R14 and P01, relaunched 20:56 on the same clock. R14's first
+  landing (21:15) ran only its cold regime (L345, the batches shared unit ids); repaired, reset
+  with R15, R16, P02, relaunched 21:21; X20 infrastructure; P01 reproduces R13. R14 rerun (L345):
+  maker familiarity leaves the failing reader failing (Qwen −1.75 under DOM) and the generic law
+  silences it (prose answers, the set unsolvable); the demonstrations carry the law alone (E-S7,
+  RG-S7). P02, P03 fold into L344. R16 (L346, EQ-S7): abstention does not track the prefix's
+  ambiguity (false abstention 0.73 against 0.59), SmolLM2 abstaining by failure to propose; the
+  discriminator measure is 1.0 by construction (an instrument gap). R15: the generic law halves
+  candidate entropy with calibration at chance. P04: the rejected alternative, counterevidence.
+  22:35: P06's cells identical to the digit exposed R13's target list (two of seven targets
+  asked; the rest filled uniform); R13 and every consumer of its rows reset and rerun from
+  22:41 with all seven targets asked (L344 corrected). The rerun reproduces R13's primary and
+  the attacks; P01 to P04 landed with real direct-reader cells. A14's first landing (23:26) was
+  hollow (the particle arm never initialized: proposers called bare); one proposer dispatch
+  now serves every arm; A14, A15, P05, P06 reset and relaunched 23:30. A14 rerun (L347, RV-S7):
+  the revising arm equals the one-shot posterior; the readers' limit is candidate breadth, not
+  revision. P05: on the stop DOM is within 0.05 nats of the oracle and every reader arm is under
+  it. P06: the joint arm's point-mass boundary label hits the floor on 8 of 10 Qwen worlds.
+  A15 (L348, AC-S7): every structured architecture beats the direct reader at matched evidence
+  and none beats the domain model; the margin is the direct reader's collapse and the fallback
+  to the prior. P07: the changed-context choice, a valid null on the joint arm. X02 passes.
+  A16 (L349): the size ladder with everything supplied repeats K16's shape on the A family (worse
+  to 3B, within noise at the 9B route, goal recall rising); size buys proposal quality, not state
+  use. P08 closes the eight P analyses: on no target does either reader beat the domain model.
+  P09 (L350): over the whole withheld tail the joint arm is a nat under the domain model, the loss
+  spread across the events; X03 and X21 pass (the regime and size cells stand before pooling).
+  P11 and P12 (L351, H-S7): a one-time control switch is readable from the process record by a
+  program and by no free-text reader, survives style matching, and is absent from the final
+  artifact. P10 (L346): the joint arm's confidence is anti-informative, worse with dose. X14 fired:
+  the readers do not preserve the equivalence class by the run's criterion. P13 (L352): on the
+  CoAuthor record uptake is its marginal; no reader beats the position table. X22 passes on P12.
+  P14 (L353): on ScholaWrite the switch is not read (under persistence where the label holds,
+  under uniform where it changes); the support label rests on two sessions.
+  V01 (L354, V-S7): the compiled habit is named on half the worlds and the redirecting goal is
+  not; the joint arm is under the domain model in the opposed and unopposed cells alike. V02: with
+  everything but the goal supplied, the reader's goal is worth less than none (−0.33 against the
+  goal-blind solver) while the oracle's goal is worth 0.47 over DOM. V03: the law and the goal both
+  withheld, the reader names neither; the opposed worlds cost the committed arm more (0.77) than
+  the aligned (0.45); a lagging expertise is invisible to a prefix reader. V04: a mixture over
+  dated episodes and a forced point date predict the present episode alike (−0.01). V05: the dated,
+  ordered, and aggregate views of earlier episodes predict a later one alike (valid nulls). V06: the
+  dated trajectory carries the law and nothing beyond the aggregate for a later costly choice.
+  X19 passes. The V family is closed (V-S7, TT-S7); the ladder began 02:06 (P09/x4). Rung 4's P09
+  (02:32) agrees with the base on every line over the tail. R13/x4 (02:56): the cold rung on a
+  fresh draw sits at the domain model. THE FREEZE FIRED 02:56 (ladder exhausted): K14 (slot 1) and
+  A11 (slot 2: +2.86 against the direct reader, −0.72 against DOM; L356). A08 (L355) and A11
+  entered. B05 failed by timing (coverage counted the pending closure tail) and double-started;
+  patched for its rerun after B03. B01 (03:15) CONFIRMED the learned-law claim on untouched
+  lineages (+0.62 [+0.25, +1.02] over DOM; readers inconclusive). B02 (03:24) CONFIRMED the
+  synthesized-model claim against the direct reader (Qwen +3.59) and found it counterevidence
+  against DOM (pooled −0.32). B03 not run (no third claim). B01/x9 (rung 9) runs; B06 started early
+  on the failed B05. STAGE 7 CLOSED SHORT 2026-09-03 03:43 at hour 15.0 (L357): 124 of 124 cells,
+  two program effects confirmed on untouched lineages (the learned law +0.62; a synthesized model
+  +3.6 over free text and −0.32 against DOM), no reader effect; the packet at
+  results/phase_2_4_stage_7/CURATOR_PACKET_FINAL.md; B05 and X24 rerun as addendum cells (clean).
+  Decisions open: a Stage 8; whether to regenerate the packet (recommended no).
 - **2026-08-30 15:39, STAGE 6 LAUNCHED: the one 168-hour clock started at the discarded pilot; deadline
   2026-09-06 15:39.** Continuous gear 2 for the week; Ghost-governed CPU cap; the wrapper chains into the
   general queue at close. Built the same day front to back:

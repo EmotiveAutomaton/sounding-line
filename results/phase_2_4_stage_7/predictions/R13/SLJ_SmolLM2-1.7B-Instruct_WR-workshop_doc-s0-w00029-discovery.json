@@ -1,0 +1,139 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "02d6595ad421c17e",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 159,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 951,
+  "tokens_out": 159,
+  "wall_s": 8.547
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "eb063a431f524a54",
+ "notes": {
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "no",
+      "tight",
+      "none"
+     ],
+     "text": "belief: library=no source=no deadline=tight checked=none"
+    }
+   ],
+   "expertise_law": [],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "write",
+      "none"
+     ],
+     "text": "1. habit: write intention: s1.1"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "5. habit: revise intention: s1.2"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | The maker is currently drafting sec1 (s1.1)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "expertise_law": "skill: A,B weak: C,D pace: steady|erratic\n\nStep 1: The maker checks sec3 (s3.1).\nStep 2: The maker drafts sec2 (s2.2).\nStep 3: The maker drafts sec1 (s1.1"
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.0625,
+   "check:sec2:s2.1": 0.0625,
+   "cite:sec3:ref": 0.0625,
+   "consult:sec1:src": 0.0625,
+   "fix:sec2:s2.1": 0.0625,
+   "probe:sec1:tech": 0.0625,
+   "restructure:sec2:order": 0.0625,
+   "revise:sec1:s1.1": 0.0625,
+   "revise:sec2:s2.1": 0.0625,
+   "revise:sec2:s2.3": 0.0625,
+   "revise:sec3:s3.1": 0.0625,
+   "write:sec1:s1.2": 0.0625,
+   "write:sec2:s2.1": 0.0625,
+   "write:sec2:s2.3": 0.0625,
+   "write:sec3:s3.1": 0.0625,
+   "write:sec3:s3.3": 0.0625
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.0625,
+   "check:sec2:s2.1": 0.0625,
+   "cite:sec3:ref": 0.0625,
+   "consult:sec1:src": 0.0625,
+   "fix:sec2:s2.1": 0.0625,
+   "probe:sec1:tech": 0.0625,
+   "restructure:sec2:order": 0.0625,
+   "revise:sec1:s1.1": 0.0625,
+   "revise:sec2:s2.1": 0.0625,
+   "revise:sec2:s2.3": 0.0625,
+   "revise:sec3:s3.1": 0.0625,
+   "write:sec1:s1.2": 0.0625,
+   "write:sec2:s2.1": 0.0625,
+   "write:sec2:s2.3": 0.0625,
+   "write:sec3:s3.1": 0.0625,
+   "write:sec3:s3.3": 0.0625
+  },
+  "next_section": {
+   "sec1": 0.3125,
+   "sec2": 0.4375,
+   "sec3": 0.25
+  },
+  "next_type": {
+   "check": 0.125,
+   "cite": 0.0625,
+   "consult": 0.0625,
+   "fix": 0.0625,
+   "probe": 0.0625,
+   "restructure": 0.0625,
+   "revise": 0.25,
+   "write": 0.3125
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

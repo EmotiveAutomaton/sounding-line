@@ -1,0 +1,78 @@
+{
+ "abstain": false,
+ "arm": "weighted_language_hypotheses",
+ "canonical_sha": "05f15dd9a1c8d74f",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 98,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 2,
+  "tokens_in": 486,
+  "tokens_out": 98,
+  "wall_s": 5.619
+ },
+ "confidence": 0.9991922997251744,
+ "equivalence_class": [
+  "h1"
+ ],
+ "evidence_sha": "778374744c6f65f0",
+ "notes": {
+  "posterior": {
+   "h0": 0.0008077002748255851,
+   "h1": 0.9991922997251744
+  },
+  "proposals": [
+   {
+    "rule": {
+     "check": 3.0
+    },
+    "text": "step 3 prioritizes checking sec3 due to its high weight for ensuring quality before proceeding with other steps."
+   },
+   {
+    "rule": {
+     "revise": 2.0
+    },
+    "text": "step 4 involves revising sec1 because it has low weight but critical importance for consistency across all recipes."
+   }
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.5,
+   "consult:sec1:src": 0.5
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.5,
+   "consult:sec1:src": 0.5
+  },
+  "next_section": {
+   "sec1": 0.5,
+   "sec2": 0.0,
+   "sec3": 0.5
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.5,
+   "consult": 0.5,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.15
+ },
+ "version": "PredictionV1"
+}

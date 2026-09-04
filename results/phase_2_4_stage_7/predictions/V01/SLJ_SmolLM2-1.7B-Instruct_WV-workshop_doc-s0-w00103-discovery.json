@@ -1,0 +1,149 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "3b5615572b779a54",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 110,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 9,
+  "tokens_in": 1655,
+  "tokens_out": 110,
+  "wall_s": 6.614
+ },
+ "confidence": 0.6219306624890978,
+ "equivalence_class": [
+  "g0|h2"
+ ],
+ "evidence_sha": "29554c28871d401c",
+ "notes": {
+  "band": 0.1111111111111111,
+  "candidate_preds": {
+   "g0|h0": {
+    "revise:sec1:s1.2": 0.023622324099970695,
+    "write:sec1:s1.1": 0.3298228980151069,
+    "write:sec1:s1.2": 0.3298228980151069,
+    "write:sec3:s3.1": 0.24359951252099535
+   },
+   "g0|h1": {
+    "revise:sec1:s1.2": 0.09284489677562874,
+    "write:sec1:s1.1": 0.25237859577034744,
+    "write:sec1:s1.2": 0.25237859577034744,
+    "write:sec3:s3.1": 0.18640095417988245
+   },
+   "g0|h2": {
+    "cite:sec3:ref": 0.0641745649002438,
+    "write:sec1:s1.1": 0.2832855591084452,
+    "write:sec1:s1.2": 0.2832855591084452,
+    "write:sec3:s3.1": 0.2092281176302504
+   }
+  },
+  "factor_marginals": {
+   "history_residue": {
+    "h0": 0.028239338177937133,
+    "h1": 0.3498299993329651,
+    "h2": 0.6219306624890978
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0|h0": 0.028239338177937133,
+   "g0|h1": 0.3498299993329651,
+   "g0|h2": 0.6219306624890978
+  },
+  "proposals": {
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "write",
+      "none"
+     ],
+     "text": "habit: write intention: s1.1"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: s2.3"
+    },
+    {
+     "ref": "h2",
+     "signature": [
+      "cite",
+      "none"
+     ],
+     "text": "habit: cite intention: ref"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | 1. The maker is currently drafting sec2 (s2.2).\n2. The maker is drafting sec3 (s3.2).\n3. The maker is drafting sec2 (s2."
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "equivalent": 1.0
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.041186452844071804,
+   "probe:sec1:tech": 0.035030601704527826,
+   "restructure:sec2:order": 0.0,
+   "revise:sec1:s1.2": 0.06499698375085167,
+   "revise:sec2:s2.1": 0.05585872377857338,
+   "revise:sec2:s2.3": 0.05585872377857338,
+   "write:sec1:s1.1": 0.28897612077522794,
+   "write:sec1:s1.2": 0.28897612077522794,
+   "write:sec3:s3.1": 0.16911627259294607
+  },
+  "invalidation": {
+   "correct": 0.6056668227386732,
+   "retain": 0.21681778712652525,
+   "rewrite": 0.17751539013480158
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.04914794097669576,
+   "probe:sec1:tech": 0.03319010223783494,
+   "restructure:sec2:order": 0.0,
+   "revise:sec1:s1.2": 0.061745299551372416,
+   "revise:sec2:s2.1": 0.05306421057146654,
+   "revise:sec2:s2.3": 0.05306421057146654,
+   "write:sec1:s1.1": 0.27378755979578095,
+   "write:sec1:s1.2": 0.27378755979578095,
+   "write:sec3:s3.1": 0.20221311649960186
+  },
+  "next_section": {
+   "sec1": 0.6425105213807693,
+   "sec2": 0.10612842114293308,
+   "sec3": 0.2513610574762976
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.04914794097669576,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.03319010223783494,
+   "restructure": 0.0,
+   "revise": 0.1678737206943055,
+   "write": 0.7497882360911637
+  },
+  "stop": 0.019840305734077503
+ },
+ "version": "PredictionV1"
+}

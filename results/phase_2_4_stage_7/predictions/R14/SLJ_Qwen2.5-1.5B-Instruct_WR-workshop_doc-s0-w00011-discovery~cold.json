@@ -1,0 +1,174 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "acec0796ac211f53",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 112,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 6,
+  "tokens_in": 1418,
+  "tokens_out": 112,
+  "wall_s": 11.872
+ },
+ "confidence": 0.9926076447154072,
+ "equivalence_class": [
+  "b0|k0|g0|h1"
+ ],
+ "evidence_sha": "053144a83357a35e",
+ "notes": {
+  "band": 0.1,
+  "candidate_preds": {
+   "b0|k0|g0|h0": {
+    "fix:sec2:s2.1": 0.024071725859153233,
+    "probe:sec1:tech": 0.022147056927202178,
+    "write:sec4:s4.1": 0.4413891178404379,
+    "write:sec4:s4.2": 0.4413891178404379
+   },
+   "b0|k0|g0|h1": {
+    "fix:sec2:s2.1": 0.05097634876793426,
+    "revise:sec4:s4.1": 0.1012941279026896,
+    "write:sec4:s4.1": 0.3438655247082224,
+    "write:sec4:s4.2": 0.3438655247082224
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "expertise_law": {
+    "k0": 1.0
+   },
+   "history_residue": {
+    "h0": 0.007392355284592867,
+    "h1": 0.9926076447154072
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|k0|g0|h0": 0.007392355284592867,
+   "b0|k0|g0|h1": 0.9926076447154072
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "yes",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=no source=yes deadline=loose checked=none"
+    }
+   ],
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "write",
+      "revise",
+      "consult",
+      "fix",
+      "steady"
+     ],
+     "text": "skill: write,revise weak: consult,fix pace: steady"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "write",
+      "none"
+     ],
+     "text": "habit: write intention: s1.1"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: s2.1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "revise"
+     ],
+     "text": "prose: write > revise | pull: draft > rework > add"
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.019410100555027083,
+   "check:sec2:s2.1": 0.016893090443952485,
+   "check:sec3:s3.1": 0.014702474309111618,
+   "check:sec4:s4.1": 0.012795926922150036,
+   "consult:sec1:src": 0.030272448916530643,
+   "fix:sec2:s2.1": 0.041091183197446,
+   "probe:sec1:tech": 0.0378057135913205,
+   "restructure:sec3:order": 0.0,
+   "revise:sec4:s4.1": 0.1054328449062247,
+   "write:sec4:s4.1": 0.3607981085791185,
+   "write:sec4:s4.2": 0.3607981085791185
+  },
+  "invalidation": {
+   "correct": 0.5154583025429051,
+   "retain": 0.23419814344032674,
+   "rewrite": 0.25034355401676817
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.02398557384890413,
+   "check:sec2:s2.1": 0.020875237984004022,
+   "check:sec3:s3.1": 0.018168235775135082,
+   "check:sec4:s4.1": 0.012219195483732305,
+   "consult:sec1:src": 0.03740846457833358,
+   "fix:sec2:s2.1": 0.05077746023659456,
+   "probe:sec1:tech": 0.046717518679741374,
+   "restructure:sec3:order": 0.0,
+   "revise:sec4:s4.1": 0.10067540589898323,
+   "write:sec4:s4.1": 0.34458645375728586,
+   "write:sec4:s4.2": 0.34458645375728586
+  },
+  "next_section": {
+   "sec1": 0.10811155710697909,
+   "sec2": 0.07165269822059858,
+   "sec3": 0.018168235775135082,
+   "sec4": 0.8020675088972873
+  },
+  "next_type": {
+   "check": 0.07524824309177554,
+   "cite": 0.0,
+   "consult": 0.03740846457833358,
+   "fix": 0.05077746023659456,
+   "probe": 0.046717518679741374,
+   "restructure": 0.0,
+   "revise": 0.10067540589898323,
+   "write": 0.6891729075145717
+  },
+  "stop": 0.014774031693273057
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,114 @@
+{
+ "card": "R14",
+ "cell_id": "R14",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 54.02,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "cold x domain-expert x maker-familiar crossing on the same targets",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does maker familiarity help where cold reading fails, independently of domain expertise?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader maker_familiar|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": 0.017132105967203142,
+ "ci": [
+  -0.23715174557432134,
+  0.27648534399728136
+ ],
+ "n_units": 35,
+ "conditional_cells": {
+  "cold|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.4327765763170643
+  },
+  "cold|SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.5749317797061446
+  },
+  "cold|SLJ|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.0038541780116044
+  },
+  "cold|DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.1151142242793521
+  },
+  "cold|DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.886428179910516
+  },
+  "cold|DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.000771202094934
+  },
+  "domain_expert|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.20693939064426686
+  },
+  "domain_expert|SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.020540083513693373
+  },
+  "domain_expert|SLJ|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.09319965356528677
+  },
+  "domain_expert|DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.6957627877935165
+  },
+  "domain_expert|DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -4.063218354364396
+  },
+  "domain_expert|DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.3794905710789562
+  },
+  "maker_familiar|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.017132105967203142
+  },
+  "maker_familiar|SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.7544108081838201
+  },
+  "maker_familiar|SLJ|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.8686393511083085
+  },
+  "maker_familiar|DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.3336633507821286
+  },
+  "maker_familiar|DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -3.0972951538818094
+  },
+  "maker_familiar|DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.7154792523319689
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R14\\metrics.json",
+    "sha256": "2e8a13523e226f0cff0edec58a0e1c5b33d8311483c42b61fb60bbaab69187d6"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R14\\cases.jsonl",
+    "sha256": "0c99753d3a6b2d6d7a19776ef4f3090121a55c35c33529fa0ae76f420eb8f654"
+   }
+  },
+  "written_at": "2026-09-02T22:15:19"
+ }
+}

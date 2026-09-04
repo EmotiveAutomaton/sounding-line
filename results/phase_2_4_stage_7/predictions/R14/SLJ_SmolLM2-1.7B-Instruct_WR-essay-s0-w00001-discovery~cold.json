@@ -1,0 +1,143 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "0bcd03377beee137",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 150,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 967,
+  "tokens_out": 150,
+  "wall_s": 8.213
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "3d79e12efb941f9d",
+ "notes": {
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "no",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=no source=no deadline=loose checked=none"
+    }
+   ],
+   "expertise_law": [],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "none",
+      "none"
+     ],
+     "text": "default: no carried habit, no held intention"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "check"
+     ],
+     "text": "pull: revise > check"
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "expertise_law": "skill: A,B weak: C,D pace: steady|erratic\n\nStep 1: The maker checks sec3 (s3.1).\nStep 2: The maker repairs sec2 (s2.1).\nStep 3: The maker checks sec4 (s4.1",
+   "history_residue": "sec2 [fix@s2.1]; sec3 [check@s3.1, restructure@order]; sec4 [check@s4.1]\n\nThe work so far:\nThe maker is working on the glaze recipe.\nStep 1: the maker checks sec3 (s"
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.047619047619047616,
+   "check:sec2:s2.1": 0.047619047619047616,
+   "cite:sec4:ref": 0.047619047619047616,
+   "consult:sec1:src": 0.047619047619047616,
+   "probe:sec1:tech": 0.047619047619047616,
+   "revise:sec1:s1.1": 0.047619047619047616,
+   "revise:sec1:s1.2": 0.047619047619047616,
+   "revise:sec2:s2.3": 0.047619047619047616,
+   "revise:sec3:s3.2": 0.047619047619047616,
+   "revise:sec4:s4.2": 0.047619047619047616,
+   "write:sec1:s1.1": 0.047619047619047616,
+   "write:sec1:s1.2": 0.047619047619047616,
+   "write:sec1:s1.3": 0.047619047619047616,
+   "write:sec2:s2.1": 0.047619047619047616,
+   "write:sec2:s2.2": 0.047619047619047616,
+   "write:sec2:s2.3": 0.047619047619047616,
+   "write:sec3:s3.1": 0.047619047619047616,
+   "write:sec3:s3.2": 0.047619047619047616,
+   "write:sec3:s3.3": 0.047619047619047616,
+   "write:sec4:s4.1": 0.047619047619047616,
+   "write:sec4:s4.2": 0.047619047619047616
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.047619047619047616,
+   "check:sec2:s2.1": 0.047619047619047616,
+   "cite:sec4:ref": 0.047619047619047616,
+   "consult:sec1:src": 0.047619047619047616,
+   "probe:sec1:tech": 0.047619047619047616,
+   "revise:sec1:s1.1": 0.047619047619047616,
+   "revise:sec1:s1.2": 0.047619047619047616,
+   "revise:sec2:s2.3": 0.047619047619047616,
+   "revise:sec3:s3.2": 0.047619047619047616,
+   "revise:sec4:s4.2": 0.047619047619047616,
+   "write:sec1:s1.1": 0.047619047619047616,
+   "write:sec1:s1.2": 0.047619047619047616,
+   "write:sec1:s1.3": 0.047619047619047616,
+   "write:sec2:s2.1": 0.047619047619047616,
+   "write:sec2:s2.2": 0.047619047619047616,
+   "write:sec2:s2.3": 0.047619047619047616,
+   "write:sec3:s3.1": 0.047619047619047616,
+   "write:sec3:s3.2": 0.047619047619047616,
+   "write:sec3:s3.3": 0.047619047619047616,
+   "write:sec4:s4.1": 0.047619047619047616,
+   "write:sec4:s4.2": 0.047619047619047616
+  },
+  "next_section": {
+   "sec1": 0.38095238095238093,
+   "sec2": 0.23809523809523808,
+   "sec3": 0.19047619047619047,
+   "sec4": 0.19047619047619047
+  },
+  "next_type": {
+   "check": 0.09523809523809525,
+   "cite": 0.04761904761904762,
+   "consult": 0.04761904761904762,
+   "fix": 0.0,
+   "probe": 0.04761904761904762,
+   "restructure": 0.0,
+   "revise": 0.2380952380952381,
+   "write": 0.5238095238095238
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

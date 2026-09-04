@@ -1,0 +1,118 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "5d1175bfddcee278",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 136,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 2211,
+  "tokens_out": 136,
+  "wall_s": 7.575
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "fadb58b3fbc5590d",
+ "notes": {
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "yes",
+      "yes",
+      "tight",
+      "none"
+     ],
+     "text": "belief: library=yes source=yes deadline=tight checked=none"
+    }
+   ],
+   "expertise_law": [],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: s1.1"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "write",
+      "none"
+     ],
+     "text": "habit: write intention: s2.1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | The maker is currently drafting sec1 (s1.2)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "expertise_law": "skill: revise, check, write, consult, cite, restructure, probe, fix\nweak: rewrite, revise, check, consult, cite, restructure, probe, fix\npace: steady"
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.2,
+   "probe:sec1:tech": 0.2,
+   "restructure:sec3:order": 0.2,
+   "write:sec2:s2.2": 0.2,
+   "write:sec4:s4.1": 0.2
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.2,
+   "probe:sec1:tech": 0.2,
+   "restructure:sec3:order": 0.2,
+   "write:sec2:s2.2": 0.2,
+   "write:sec4:s4.1": 0.2
+  },
+  "next_section": {
+   "sec1": 0.2,
+   "sec2": 0.4,
+   "sec3": 0.2,
+   "sec4": 0.2
+  },
+  "next_type": {
+   "check": 0.2,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.2,
+   "restructure": 0.2,
+   "revise": 0.0,
+   "write": 0.4
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

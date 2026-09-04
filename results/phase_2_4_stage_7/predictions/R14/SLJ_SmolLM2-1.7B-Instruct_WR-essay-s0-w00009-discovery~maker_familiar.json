@@ -1,0 +1,137 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "db43a5aa79541d21",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 138,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 3087,
+  "tokens_out": 138,
+  "wall_s": 7.251
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "c7063b928b0400f8",
+ "notes": {
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "yes",
+      "yes",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=yes source=yes deadline=loose checked=none"
+    }
+   ],
+   "expertise_law": [],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "none",
+      "none"
+     ],
+     "text": "default: no carried habit, no held intention"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "prose: revise > restructure | pull: revise > rewrite"
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "expertise_law": "skill: A,B weak: C,D pace: steady\nskill: A,B weak: C,D pace: steady\nskill: A,B weak: C,D pace: steady",
+   "history_residue": "sec1 [empty]; sec2 [write@s2.1, revise@s2.1]; sec3 [write@s3.3, write@s3.1]; sec4 [write@s4.1, cite@ref]\n\nThe maker is working on the archive index."
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.05555555555555555,
+   "check:sec2:s2.1": 0.05555555555555555,
+   "check:sec3:s3.1": 0.05555555555555555,
+   "check:sec4:s4.1": 0.05555555555555555,
+   "consult:sec1:src": 0.05555555555555555,
+   "fix:sec2:s2.1": 0.05555555555555555,
+   "probe:sec1:tech": 0.05555555555555555,
+   "restructure:sec3:order": 0.05555555555555555,
+   "revise:sec1:s1.2": 0.05555555555555555,
+   "revise:sec1:s1.3": 0.05555555555555555,
+   "revise:sec2:s2.2": 0.05555555555555555,
+   "revise:sec4:s4.2": 0.05555555555555555,
+   "write:sec1:s1.1": 0.05555555555555555,
+   "write:sec1:s1.2": 0.05555555555555555,
+   "write:sec1:s1.3": 0.05555555555555555,
+   "write:sec2:s2.2": 0.05555555555555555,
+   "write:sec3:s3.2": 0.05555555555555555,
+   "write:sec4:s4.2": 0.05555555555555555
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.05555555555555555,
+   "check:sec2:s2.1": 0.05555555555555555,
+   "check:sec3:s3.1": 0.05555555555555555,
+   "check:sec4:s4.1": 0.05555555555555555,
+   "consult:sec1:src": 0.05555555555555555,
+   "fix:sec2:s2.1": 0.05555555555555555,
+   "probe:sec1:tech": 0.05555555555555555,
+   "restructure:sec3:order": 0.05555555555555555,
+   "revise:sec1:s1.2": 0.05555555555555555,
+   "revise:sec1:s1.3": 0.05555555555555555,
+   "revise:sec2:s2.2": 0.05555555555555555,
+   "revise:sec4:s4.2": 0.05555555555555555,
+   "write:sec1:s1.1": 0.05555555555555555,
+   "write:sec1:s1.2": 0.05555555555555555,
+   "write:sec1:s1.3": 0.05555555555555555,
+   "write:sec2:s2.2": 0.05555555555555555,
+   "write:sec3:s3.2": 0.05555555555555555,
+   "write:sec4:s4.2": 0.05555555555555555
+  },
+  "next_section": {
+   "sec1": 0.44444444444444453,
+   "sec2": 0.2222222222222222,
+   "sec3": 0.16666666666666666,
+   "sec4": 0.16666666666666666
+  },
+  "next_type": {
+   "check": 0.2222222222222222,
+   "cite": 0.0,
+   "consult": 0.05555555555555555,
+   "fix": 0.05555555555555555,
+   "probe": 0.05555555555555555,
+   "restructure": 0.05555555555555555,
+   "revise": 0.2222222222222222,
+   "write": 0.33333333333333337
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

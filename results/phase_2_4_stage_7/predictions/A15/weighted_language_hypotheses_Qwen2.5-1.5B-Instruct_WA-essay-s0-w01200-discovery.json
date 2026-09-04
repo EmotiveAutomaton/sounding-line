@@ -1,0 +1,103 @@
+{
+ "abstain": false,
+ "arm": "weighted_language_hypotheses",
+ "canonical_sha": "6230522ad8c1d4aa",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 131,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 315,
+  "tokens_out": 131,
+  "wall_s": 8.611
+ },
+ "confidence": 0.7153904068346909,
+ "equivalence_class": [
+  "h2"
+ ],
+ "evidence_sha": "4ebe506c7ffe2def",
+ "notes": {
+  "posterior": {
+   "h0": 0.021432170079552254,
+   "h1": 0.26317742308575687,
+   "h2": 0.7153904068346909
+  },
+  "proposals": [
+   {
+    "rule": {
+     "check": 3.0
+    },
+    "text": "the maker prioritizes checking sec1 first because it's an essential step in ensuring accuracy before moving forward with other sections."
+   },
+   {
+    "rule": {
+     "revise": 1.0,
+     "write": 3.0
+    },
+    "text": "after securing sec1, the maker proceeds to draft sec2 due to its importance in providing context or additional information that sec3 will build upon."
+   },
+   {
+    "rule": {
+     "consult": 1.0,
+     "revise": 3.0
+    },
+    "text": "once sec2 is drafted, the maker revises it based on feedback received during consultation with the source material. this ensures that the content aligns with the intended narrative flow."
+   }
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.1,
+   "cite:sec3:ref": 0.1,
+   "fix:sec2:s2.1": 0.1,
+   "probe:sec1:tech": 0.1,
+   "restructure:sec2:order": 0.1,
+   "write:sec1:s1.2": 0.1,
+   "write:sec2:s2.1": 0.1,
+   "write:sec3:s3.1": 0.1,
+   "write:sec3:s3.2": 0.1,
+   "write:sec3:s3.3": 0.1
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.03966518487200021,
+   "cite:sec3:ref": 0.02815041371715109,
+   "fix:sec2:s2.1": 0.02815041371715109,
+   "probe:sec1:tech": 0.02815041371715109,
+   "restructure:sec2:order": 0.02815041371715109,
+   "write:sec1:s1.2": 0.1695466320518791,
+   "write:sec2:s2.1": 0.1695466320518791,
+   "write:sec3:s3.1": 0.1695466320518791,
+   "write:sec3:s3.2": 0.1695466320518791,
+   "write:sec3:s3.3": 0.1695466320518791
+  },
+  "next_section": {
+   "sec1": 0.1976970457690302,
+   "sec2": 0.2655126443581815,
+   "sec3": 0.5367903098727884
+  },
+  "next_type": {
+   "check": 0.03966518487200021,
+   "cite": 0.02815041371715109,
+   "consult": 0.0,
+   "fix": 0.02815041371715109,
+   "probe": 0.02815041371715109,
+   "restructure": 0.02815041371715109,
+   "revise": 0.0,
+   "write": 0.8477331602593954
+  },
+  "stop": 0.15
+ },
+ "version": "PredictionV1"
+}

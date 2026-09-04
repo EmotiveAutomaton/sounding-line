@@ -1,0 +1,128 @@
+{
+ "abstain": false,
+ "arm": "adaptive_factor_expansion",
+ "canonical_sha": "79972aa9f9691a56",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 124,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 99,
+  "tokens_in": 1910,
+  "tokens_out": 124,
+  "wall_s": 7.012
+ },
+ "confidence": 0.7782214094530684,
+ "equivalence_class": [
+  "g1|b0|h0"
+ ],
+ "evidence_sha": "778374744c6f65f0",
+ "notes": {
+  "posterior": {
+   "g0|b0|h0": 0.10082732427169495,
+   "g0|b0|h1": 4.318392973149786e-06,
+   "g0|b0|h2": 0.02584422987366768,
+   "g1|b0|h0": 0.7782214094530684,
+   "g1|b0|h1": 0.012496217802801322,
+   "g1|b0|h2": 0.019655028413861877,
+   "g2|b0|h0": 3.450625346762171e-05,
+   "g2|b0|h1": 0.00916376663686356,
+   "g2|b0|h2": 0.0537531989016015
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "text": "belief: library=no source=yes deadline=loose checked=none"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "text": "habit: write intention: s1.2"
+    },
+    {
+     "ref": "h1",
+     "text": "habit: revise intention: s1.1"
+    },
+    {
+     "ref": "h2",
+     "text": "habit: check intention: s3.1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "text": "pull: revise > check"
+    },
+    {
+     "ref": "g1",
+     "text": "pull: check > probe"
+    },
+    {
+     "ref": "g2",
+     "text": "pull: probe > fix"
+    }
+   ]
+  },
+  "receipt": {
+   "added": [
+    {
+     "factor": "proximal_goal",
+     "gain": null
+    },
+    {
+     "factor": "belief_state",
+     "gain": 1.6689
+    },
+    {
+     "factor": "history_residue",
+     "gain": 3.0602
+    }
+   ],
+   "rejected": [
+    {
+     "factor": "expertise_law",
+     "why": "gain -16.559 under 0.5"
+    }
+   ],
+   "window_extended": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "fatigue": 0.8103726556697316,
+   "satisfaction": 0.18962734433026845
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 1.0
+  },
+  "invalidation": {
+   "correct": 0.7339725406409902,
+   "retain": 0.086670015412872,
+   "rewrite": 0.17935744394613787
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 1.0
+  },
+  "next_section": {
+   "sec1": 1.0,
+   "sec2": 0.0,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 1.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.12581703705057667
+ },
+ "version": "PredictionV1"
+}

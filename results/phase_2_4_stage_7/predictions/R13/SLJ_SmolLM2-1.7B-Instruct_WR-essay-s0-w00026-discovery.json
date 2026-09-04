@@ -1,0 +1,154 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "8973089ea68fa79d",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 120,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1083,
+  "tokens_out": 120,
+  "wall_s": 7.035
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "366bca9c79d46ccf",
+ "notes": {
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "yes",
+      "tight",
+      "sec1"
+     ],
+     "text": "belief: library=no source=yes deadline=tight checked=sec1"
+    }
+   ],
+   "expertise_law": [],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "1. habit: revise intention: s2.2"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "fix",
+      "none"
+     ],
+     "text": "3. habit: fix intention: s2.1"
+    },
+    {
+     "ref": "h2",
+     "signature": [
+      "check",
+      "none"
+     ],
+     "text": "4. habit: check intention: s1.3"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "check"
+     ],
+     "text": "pull: revise > check"
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "expertise_law": "skill: revise, check, consult, cite, restructure, probe, fix\nweak: write, revise, check, consult, cite, restructure, probe, fix\npace: steady"
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.05263157894736842,
+   "check:sec3:s3.1": 0.05263157894736842,
+   "check:sec4:s4.1": 0.05263157894736842,
+   "cite:sec4:ref": 0.05263157894736842,
+   "consult:sec1:src": 0.05263157894736842,
+   "restructure:sec3:order": 0.05263157894736842,
+   "revise:sec1:s1.1": 0.05263157894736842,
+   "revise:sec3:s3.3": 0.05263157894736842,
+   "revise:sec4:s4.1": 0.05263157894736842,
+   "write:sec1:s1.1": 0.05263157894736842,
+   "write:sec1:s1.2": 0.05263157894736842,
+   "write:sec1:s1.3": 0.05263157894736842,
+   "write:sec2:s2.1": 0.05263157894736842,
+   "write:sec2:s2.2": 0.05263157894736842,
+   "write:sec3:s3.1": 0.05263157894736842,
+   "write:sec3:s3.2": 0.05263157894736842,
+   "write:sec3:s3.3": 0.05263157894736842,
+   "write:sec4:s4.1": 0.05263157894736842,
+   "write:sec4:s4.2": 0.05263157894736842
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.05263157894736842,
+   "check:sec3:s3.1": 0.05263157894736842,
+   "check:sec4:s4.1": 0.05263157894736842,
+   "cite:sec4:ref": 0.05263157894736842,
+   "consult:sec1:src": 0.05263157894736842,
+   "restructure:sec3:order": 0.05263157894736842,
+   "revise:sec1:s1.1": 0.05263157894736842,
+   "revise:sec3:s3.3": 0.05263157894736842,
+   "revise:sec4:s4.1": 0.05263157894736842,
+   "write:sec1:s1.1": 0.05263157894736842,
+   "write:sec1:s1.2": 0.05263157894736842,
+   "write:sec1:s1.3": 0.05263157894736842,
+   "write:sec2:s2.1": 0.05263157894736842,
+   "write:sec2:s2.2": 0.05263157894736842,
+   "write:sec3:s3.1": 0.05263157894736842,
+   "write:sec3:s3.2": 0.05263157894736842,
+   "write:sec3:s3.3": 0.05263157894736842,
+   "write:sec4:s4.1": 0.05263157894736842,
+   "write:sec4:s4.2": 0.05263157894736842
+  },
+  "next_section": {
+   "sec1": 0.2631578947368421,
+   "sec2": 0.15789473684210525,
+   "sec3": 0.3157894736842105,
+   "sec4": 0.2631578947368421
+  },
+  "next_type": {
+   "check": 0.15789473684210525,
+   "cite": 0.05263157894736842,
+   "consult": 0.05263157894736842,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.05263157894736842,
+   "revise": 0.15789473684210525,
+   "write": 0.5263157894736842
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

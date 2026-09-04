@@ -1,0 +1,62 @@
+{
+ "card": "P02",
+ "cell_id": "P02",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.25,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "beat persistence and domain marginals on held-out worlds/sessions",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can it predict next edit type?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": -0.1106890361658704,
+ "ci": [
+  -0.2991263021081921,
+  0.12175130871061879
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.3878268998813543
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.3550602801585112
+  },
+  "SLJ|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.8714435900199328
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.1106890361658704
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.1106890361658704
+  },
+  "DIR|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.1106890361658704
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P02\\metrics.json",
+    "sha256": "c1625df9829ee41ba5794f36ab0d5473e5c38195004f3bca3bbf421d906274ea"
+   }
+  },
+  "written_at": "2026-09-02T21:15:38"
+ }
+}

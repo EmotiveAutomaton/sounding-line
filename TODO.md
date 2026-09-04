@@ -137,8 +137,83 @@ gain (Qwen −1.4 nats under the domain model, the price of confident wrong pair
 that does not clear the interval; twin reversal followed 0 of 8. R13 FIRST LANDING 20:09 VOID (an
 instrument hole: the residue grammar rejected both readers' copy of the prompt's notation on every
 row, the joint arm abstained on 120 of 120); the residue, law, and goal grammars repaired; R13,
-X01, X20, X06 reset; relaunched 20:19 on the same clock. Next: R13 (cold, rerun), R14 to R16,
-the A cells, P, V, the attacks.
+X01, X20, X06 reset; relaunched 20:19 on the same clock. R13 RERUN LANDED 20:42: cold, Qwen's
+joint arm 1.3 nats under the domain model (counterevidence) and 1.6 over the direct reader;
+SmolLM2 realizes 15 of 60 (inconclusive); Qwen recalls the law in 68 percent of worlds, the goal
+in 42, the belief in 7. X06 and X01 LANDED 20:52 as infrastructure (order permutation TV 0.0;
+tail replacement identity 1.0); X20 crashed twice on R13's terminal-cut rows, repaired to the
+shared guard, reset with the interrupted R14 and P01, relaunched 20:56 on the same clock. Next:
+X20 LANDED 21:15 as infrastructure; P01 reproduces R13's cells. R14 FIRST LANDING 21:15 VOID on
+two of three regimes (L345: the batches shared unit ids); the batch takes a unit suffix, R14,
+R15, R16, P02 reset, relaunched 21:21 on the same clock. R14 RERUN LANDED 22:15 (L345): maker familiarity does not rescue the cold failure (Qwen −1.75
+under DOM, committed on every world); the generic law silences Qwen (prose law on 35 of 40) and
+misleads both direct readers; P02 and P03 read R13's rows on the next type and section (folded
+into L344). Open instrument note: a prose law decoder for the next stage. R16 LANDED 22:30 (L346):
+abstention does not track ambiguity (false abstention 0.73 against 0.59 on equivalence cases;
+SmolLM2 abstains by failure to propose); the discriminator measure is 1.0 by construction, an
+instrument gap for the next stage. R15 (L345): the generic law halves candidate entropy with
+calibration at chance. P04 (L344): the rejected alternative, counterevidence on both arms. X12 LANDED
+22:35 as infrastructure; P05, P06 counterevidence, P06's six cells identical to the digit: R13's
+target list covered two of the seven targets the P analyses read (L344, a fill hole). R13 asks
+every target now; R13, P01 to P07, X01, X06, X12, X20, A14, X02 reset and rerun from 22:41.
+R13 RERUN 23:06 reproduces its primary; the attacks pass again; P01 to P04 LANDED with real
+direct-reader cells (L344). A14 FIRST LANDING 23:26 hollow (the particle arm never initialized:
+the proposers called bare); one proposer dispatch for every arm, A14, A15, P05, P06 reset,
+relaunched 23:30. A14 RERUN LANDED 23:39 (L347): the sequential particle arm equals the one-shot
+joint posterior (+0.02) because the readers propose one candidate set on 48 of 60 worlds (a
+breadth-forcing proposer is next-stage work). P05 (the stop: DOM within 0.05 nats of the oracle,
+every reader arm under it) and P06 (the boundary type: the joint arm's point mass hits the floor on
+8 of 10 Qwen worlds; the direct reader a valid null on SmolLM2) folded into L344. A15 LANDED 00:39
+(L348): every structured arm beats the direct reader (+1.4 to +2.1 nats) and none beats the domain
+model; the direct reader is 2.1 under the prior; unrealized arms fall back to it. P07 (the changed
+context: joint pooled a valid null, direct counterevidence) and X02 (I06 identity 1.0) folded into
+L344. A16 LANDED 00:57 (L349): with everything supplied a larger model uses the state no better
+(−1.0, −1.6, −3.1 nats to 3B; −0.55 at the 9B route, goal recall 0.67); P08 (the invalidation
+response: nothing to take on a target the prior nearly owns) closes the eight P analyses over
+R13's rows; X09 confirms the compute pricing. P09 LANDED 01:18 (L350): over the whole withheld
+tail the joint arm is a nat under the domain model, spread across the events; the direct reader
+2.7 and 8.7 under. X03 (I07 identity 1.0) and X21 (22 conditional cells before pooling; a sign
+reversal under pooling) pass. P12 LANDED 01:24 and P11 (14:11, unwritten until now) with it (L351): the process reader
+localizes a one-time control switch from the record and survives style matching (+1.92 over the
+stylometry stack); not alternating control, not a pure style shift; no free-text reader beats the
+stack; nothing from the final artifact. P10 (L346): the joint arm's confidence is anti-informative
+(ECE 0.51, worse with dose). P13 LANDED 01:34 (L352): on the CoAuthor record the
+position table is the best predictor and the readers are under it (−0.30, −1.57 nats), no better
+than the prior decision. X14 FIRED (INSTRUMENT_FAILED): the readers do not preserve the equivalence
+class by the run's criterion (R16's false abstention 0.73 against a ceiling of 0.5; L346). X22
+passes on P12. P14 LANDED 01:41 (L353): on ScholaWrite the reader is under persistence where the
+label holds and under uniform where it switches; the card's support label rests on two sessions
+(a switch-dense window is next-stage work). V01 LANDED 01:50 (L354, the V-family entry; V02 to V06 append): the habit is named on 56 percent
+of worlds, the goal on 24, and the executed pairs are under the domain model whether the goal
+opposes the habit or not (the redirection is not read). V02 LANDED 01:56: with everything but the
+goal supplied, the reader's goal is under the goal-blind solver (−0.33 pooled, counterevidence)
+while the oracle's goal is worth 0.47 over DOM. V03 LANDED 02:03: the law and the goal both withheld, the reader names
+neither (law recall 0; SmolLM2 unrealized on every world); Qwen's pairs 0.77 under DOM where a
+lagging expertise opposes the goal, 0.45 where aligned. V04 LANDED 02:03 (programs): the mixture
+over dated episodes and a forced point date predict the present alike (−0.01). V05 LANDED 02:05
+(programs): the dated, ordered, and aggregate views of earlier episodes predict a later one alike
+(valid nulls). V06 LANDED 02:06 (programs): the dated trajectory carries the law (+0.42 over DOM)
+and nothing beyond the aggregate for a later costly choice (+0.05); X19 passes. The V family is
+closed (L354, V-S7, TT-S7). LADDER RUNG 4: P09/x4 LANDED 02:32 (L350): a fresh draw with longer tails
+agrees with the base on every line (joint pooled −0.94 under DOM over the tail). R13/x4 LANDED
+02:56: the cold rung on a fresh draw sits at the domain model (SmolLM2 −0.10 valid null, Qwen +0.03),
+so its counterevidence narrows to "at or under, by the draw" (L344). THE FREEZE FIRED 02:56 on
+ladder exhaustion: two claims, K14 (slot 1, +0.57) and A11 (slot 2, +2.86 against the direct
+reader; −0.72 against DOM, L356). A08 (L355) and A11 (L356), landed 2026-09-02 and unwritten until
+now, are entered. B05 FAILED BY TIMING (its coverage counted the pending closure cells, itself
+included) and was started twice; the coverage check now excludes the closure tail, a cell in two
+lists starts once (both effective at the next launch); B05 reruns after B03 lands (stop, reset
+B05 and any B06/X24 that ran, relaunch). B01 LANDED 03:15 CONFIRMED (L339): the learned law transfers on untouched lineages (+0.62 [+0.25,
++1.02] over DOM); the readers inconclusive. X24 started early (before B02, B03; to be reset with
+B05). B02 LANDED 03:24 CONFIRMED against the direct reader (Qwen +3.59 [+2.34, +4.78]) and
+counterevidence against DOM (pooled −0.32) (L356). B03 NOT_RUN (no third claim). Rung 9 admitted:
+B01/x9 runs; B06 started early on the failed B05. B01/x9 LANDED 03:43
+(+0.55 [+0.28, +0.81], 98 worlds; Qwen's proposed law +0.27 at the threshold). B06 DESCRIPTIVE.
+STAGE 7 CLOSED SHORT 03:43 at hour 15.0 (the locked workload and ladder exhausted; cause written);
+THE PACKET IS WRITTEN (L357). B05 and X24 rerun after closure as addendum cells (B05/rerun: every
+ledger agrees; X24/rerun: 124 verdicts clean); the packet stands. Curator decisions (L357): a
+Stage 8 on the construction list; whether to regenerate the packet with the addendum (recommended
+no). Nothing since 514e80b5 is committed; the commit waits on his word.
 K16 LANDED 17:30 (L340): the size ladder (0.5B, 1.5B, 3B, the 9B route) COUNTEREVIDENCE at every
 size with the complete state supplied (the 9B −1.06 nats, the best); the solver's line beside
 the state helps none. The K trunk is closed; the R trunk runs.

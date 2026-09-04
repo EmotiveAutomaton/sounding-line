@@ -815,8 +815,8 @@
   "cell_id": "X09",
   "card": "X09",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "I13",
    "A15"
@@ -825,13 +825,13 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Equalize or explicitly price model calls, tokens, context, solver work, retries, cache, and wall time.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "I13 INFRASTRUCTURE; A15 compute priced True",
+  "budget_charged_min": 17.64,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T00:39:42",
+  "finished_at": "2026-09-03T00:57:20",
+  "detail": "I13 INFRASTRUCTURE; A15 compute priced True"
  },
  "X05": {
   "cell_id": "X05",
@@ -1655,8 +1655,8 @@
   "cell_id": "X01",
   "card": "X01",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "I05",
    "K04",
@@ -1666,13 +1666,13 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Replace the entire hidden future while holding visible bytes fixed.",
-  "reason": "reset (residue): the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside; first attempt preserved under superseded_residue/",
-  "budget_charged_min": 0.0,
+  "reason": "I05: {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; gate mutation_tail True",
+  "budget_charged_min": 15.61,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": "2026-09-02T20:09:08",
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-02T23:06:47",
+  "finished_at": "2026-09-02T23:12:36",
+  "detail": "I05: {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; gate mutation_tail True",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -1700,6 +1700,20 @@
      "metrics.json",
      "verdict.json"
     ]
+   },
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INFRASTRUCTURE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
    }
   ]
  },
@@ -1707,8 +1721,8 @@
   "cell_id": "X02",
   "card": "X02",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "I06",
    "K15",
@@ -1718,20 +1732,36 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Replace hidden length, stopping parameters, and stop outcome.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "I06: {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; gate mutation_stop True",
+  "budget_charged_min": 59.73,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T23:39:58",
+  "finished_at": "2026-09-03T00:39:42",
+  "detail": "I06: {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; gate mutation_stop True",
+  "resets": [
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "X03": {
   "cell_id": "X03",
   "card": "X03",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "I07",
    "P07",
@@ -1741,20 +1771,20 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Replace future cues, interruptions, invalidations, and changed-context truth.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "I07: {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; gate mutation_event True",
+  "budget_charged_min": 21.26,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T00:57:20",
+  "finished_at": "2026-09-03T01:18:36",
+  "detail": "I07: {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'DIR': 1.0, 'SLJ': 1.0}; gate mutation_event True"
  },
  "X06": {
   "cell_id": "X06",
   "card": "X06",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "K04",
    "R13"
@@ -1763,13 +1793,13 @@
   "est_minutes": 8.0,
   "gpu": true,
   "why": "Permute answer, action, and candidate order with fixed-order paired scoring.",
-  "reason": "reset (residue): the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside; first attempt preserved under superseded_residue/",
-  "budget_charged_min": 0.0,
+  "reason": "order permutation TV 0.0; band at or under 0.05",
+  "budget_charged_min": 15.6,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": "2026-09-02T20:09:08",
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-02T23:06:47",
+  "finished_at": "2026-09-02T23:12:35",
+  "detail": "order permutation TV 0.0; band at or under 0.05",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -1795,6 +1825,21 @@
     },
     "moved": [
      "cases.jsonl"
+    ]
+   },
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INFRASTRUCTURE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
     ]
    }
   ]
@@ -2285,8 +2330,8 @@
   "cell_id": "R13",
   "card": "R13",
   "track": "reconstruction",
-  "exec_state": "RUNNING",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "R11",
    "R12"
@@ -2295,13 +2340,13 @@
   "est_minutes": 96.0,
   "gpu": true,
   "why": "Can the full factor set be inferred jointly from visible evidence and improve prediction over DOM and DIR?",
-  "reason": "reset (residue): the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside; first attempt preserved under superseded_residue/",
-  "budget_charged_min": 21.49,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 69.48,
   "gpu_lock_min": 0.0,
   "attempts": 1,
-  "started_at": "2026-09-02T20:19:43",
-  "finished_at": "2026-09-02T20:09:08",
-  "detail": "interval includes zero and cannot exclude a useful benefit; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "started_at": "2026-09-02T22:41:50",
+  "finished_at": "2026-09-02T23:06:47",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -2330,6 +2375,21 @@
      "metrics.json",
      "verdict.json"
     ]
+   },
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
    }
   ]
  },
@@ -2337,8 +2397,8 @@
   "cell_id": "R14",
   "card": "R14",
   "track": "reconstruction",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "R13"
   ],
@@ -2346,13 +2406,13 @@
   "est_minutes": 80.0,
   "gpu": true,
   "why": "Does maker familiarity help where cold reading fails, independently of domain expertise?",
-  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader maker_familiar|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 72.86,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-02T21:21:18",
+  "finished_at": "2026-09-02T22:15:21",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader maker_familiar|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -2364,6 +2424,34 @@
      "attempts": 0
     },
     "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T20:55:28",
+    "tag": "terminal",
+    "why": "X20 crashed twice on R13's terminal-cut rows (no next action, primary score None) in the paired contrast; it now takes the valid rows with a primary score through the shared guard; R14 and P01 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl"
+    ]
+   },
+   {
+    "at": "2026-09-02T21:19:30",
+    "tag": "regime",
+    "why": "R14's three regime batches ran on the same worlds with the same unit ids, so the done-check skipped the domain-expert and maker-familiar regimes (cells 'no units'); the unit id now carries the regime on every arm, twin, and oracle row; R15 read the hollow rows; R16 and P02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
      "verdict.json"
     ]
    }
@@ -2373,8 +2461,8 @@
   "cell_id": "R15",
   "card": "R15",
   "track": "reconstruction",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
   "depends_on": [
    "R14"
   ],
@@ -2382,20 +2470,36 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Does domain expertise help reconstruct feasible processes without falsely increasing maker certainty?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "{\"cold\": [-3.686, 0.16281612369206208], \"domain_expert\": [-2.775, 0.07940221967640416], \"maker_familiar\": [-3.551, 0.21072232621336004]}",
+  "budget_charged_min": 15.53,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T22:15:21",
+  "finished_at": "2026-09-02T22:30:52",
+  "detail": "{\"cold\": [-3.686, 0.16281612369206208], \"domain_expert\": [-2.775, 0.07940221967640416], \"maker_familiar\": [-3.551, 0.21072232621336004]}",
+  "resets": [
+   {
+    "at": "2026-09-02T21:19:30",
+    "tag": "regime",
+    "why": "R14's three regime batches ran on the same worlds with the same unit ids, so the done-check skipped the domain-expert and maker-familiar regimes (cells 'no units'); the unit id now carries the regime on every arm, twin, and oracle row; R15 read the hollow rows; R16 and P02 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "R16": {
   "cell_id": "R16",
   "card": "R16",
   "track": "reconstruction",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
   "depends_on": [
    "R13"
   ],
@@ -2403,13 +2507,13 @@
   "est_minutes": 48.0,
   "gpu": true,
   "why": "Does the reader preserve observationally equivalent maker models and choose a useful next discriminator?",
-  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
-  "budget_charged_min": 0.0,
+  "reason": "abstain on equivalence 0.5909; false abstain 0.7308",
+  "budget_charged_min": 15.53,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-02T22:15:21",
+  "finished_at": "2026-09-02T22:30:52",
+  "detail": "abstain on equivalence 0.5909; false abstain 0.7308",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -2423,6 +2527,19 @@
     "moved": [
      "verdict.json"
     ]
+   },
+   {
+    "at": "2026-09-02T21:19:30",
+    "tag": "regime",
+    "why": "R14's three regime batches ran on the same worlds with the same unit ids, so the done-check skipped the domain-expert and maker-familiar regimes (cells 'no units'); the unit id now carries the regime on every arm, twin, and oracle row; R15 read the hollow rows; R16 and P02 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl"
+    ]
    }
   ]
  },
@@ -2430,8 +2547,8 @@
   "cell_id": "X12",
   "card": "X12",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "R13",
    "K11"
@@ -2440,13 +2557,13 @@
   "est_minutes": 12.0,
   "gpu": true,
   "why": "Duplicate or paraphrase evidence from one causal source.",
-  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
-  "budget_charged_min": 0.0,
+  "reason": "duplicate-evidence confidence sharpening 0.010416666666666666; band at or under 0.05",
+  "budget_charged_min": 8.64,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-02T23:12:36",
+  "finished_at": "2026-09-02T23:16:45",
+  "detail": "duplicate-evidence confidence sharpening 0.010416666666666666; band at or under 0.05",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -2458,6 +2575,21 @@
      "attempts": 0
     },
     "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INFRASTRUCTURE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
      "verdict.json"
     ]
    }
@@ -2467,8 +2599,8 @@
   "cell_id": "X14",
   "card": "X14",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
   "depends_on": [
    "R16",
    "P10"
@@ -2477,20 +2609,20 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Hold the final artifact and visible prefix fixed while swapping valid hidden histories.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "abstain on equivalence 0.5909; false abstain 0.7308",
+  "budget_charged_min": 9.61,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T01:24:37",
+  "finished_at": "2026-09-03T01:34:13",
+  "detail": "abstain on equivalence 0.5909; false abstain 0.7308"
  },
  "X20": {
   "cell_id": "X20",
   "card": "X20",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "K03",
    "R13"
@@ -2499,13 +2631,13 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Strengthen persistence, position, grammar, genre, and opportunity baselines.",
-  "reason": "reset (residue): the residue grammar rejected the readers' copied 'TYPE|none' notation on 120 of 120 rows, so the cold joint posterior abstained everywhere (X01, X20, X06 read those rows); the grammar is tolerant and the null residue is the fallback candidate; law synonyms and single-type goals beside; first attempt preserved under superseded_residue/",
-  "budget_charged_min": 0.0,
+  "reason": "strengthened rival table {\"next_action_ls\": [\"DOM\", -2.6268851951441516], \"stop_ls\": [\"DOM\", -0.149760523206925], \"next_type_ls\": [\"DOM\", -1.65191752719771]}; R13 vs rivals {'SLJ_vs_DOM': -0.842140580411769, 'SLJ_vs_PERS': None, 'DIR_vs_DOM': -1.9686256942758276, 'DIR_vs_PERS': None}",
+  "budget_charged_min": 34.42,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": "2026-09-02T20:09:08",
-  "finished_at": null,
-  "detail": null,
+  "attempts": 1,
+  "started_at": "2026-09-02T23:06:47",
+  "finished_at": "2026-09-02T23:12:36",
+  "detail": "strengthened rival table {\"next_action_ls\": [\"DOM\", -2.6268851951441516], \"stop_ls\": [\"DOM\", -0.149760523206925], \"next_type_ls\": [\"DOM\", -1.65191752719771]}; R13 vs rivals {'SLJ_vs_DOM': -0.842140580411769, 'SLJ_vs_PERS': None, 'DIR_vs_DOM': -1.9686256942758276, 'DIR_vs_PERS': None}",
   "resets": [
    {
     "at": "2026-09-02T20:18:48",
@@ -2517,6 +2649,31 @@
      "attempts": 1
     },
     "moved": []
+   },
+   {
+    "at": "2026-09-02T20:55:28",
+    "tag": "terminal",
+    "why": "X20 crashed twice on R13's terminal-cut rows (no next action, primary score None) in the paired contrast; it now takes the valid rows with a primary score through the shared guard; R14 and P01 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 2
+    },
+    "moved": []
+   },
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INFRASTRUCTURE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
    }
   ]
  },
@@ -2566,8 +2723,8 @@
   "cell_id": "A14",
   "card": "A14",
   "track": "architecture",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "R11"
   ],
@@ -2575,13 +2732,13 @@
   "est_minutes": 36.0,
   "gpu": true,
   "why": "Does the Sounding joint reader revise mutually constraining factor hypotheses rather than produce a longer rationale?",
-  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "budget_charged_min": 19.54,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-02T23:30:12",
+  "finished_at": "2026-09-02T23:39:58",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader Qwen/Qwen2.5-1.5B-Instruct",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -2593,6 +2750,34 @@
      "attempts": 0
     },
     "moved": [
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl"
+    ]
+   },
+   {
+    "at": "2026-09-02T23:29:18",
+    "tag": "proposers",
+    "why": "the particle and adaptive arms called the belief and context proposers without the brief's defaults, so their candidate lists were empty and the arms never initialized (A14: 60 of 60 rows 'initialized: false', its contrast against a fallback); one proposer dispatch now serves the joint, particle, and adaptive arms and the worker marks unrealized architecture arms; A15 (the same arms cold), P05 and P06 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
      "verdict.json"
     ]
    }
@@ -2602,8 +2787,8 @@
   "cell_id": "A15",
   "card": "A15",
   "track": "architecture",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
   "depends_on": [
    "R13"
   ],
@@ -2611,13 +2796,13 @@
   "est_minutes": 64.0,
   "gpu": true,
   "why": "At matched evidence and measured compute, does structured computation beat direct inference-time computation?",
-  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
-  "budget_charged_min": 0.0,
+  "reason": "directional support at or above the frozen threshold; reader SLJ|pooled",
+  "budget_charged_min": 59.73,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-02T23:39:58",
+  "finished_at": "2026-09-03T00:39:42",
+  "detail": "directional support at or above the frozen threshold; reader SLJ|pooled",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -2631,6 +2816,19 @@
     "moved": [
      "verdict.json"
     ]
+   },
+   {
+    "at": "2026-09-02T23:29:18",
+    "tag": "proposers",
+    "why": "the particle and adaptive arms called the belief and context proposers without the brief's defaults, so their candidate lists were empty and the arms never initialized (A14: 60 of 60 rows 'initialized: false', its contrast against a fallback); one proposer dispatch now serves the joint, particle, and adaptive arms and the worker marks unrealized architecture arms; A15 (the same arms cold), P05 and P06 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl"
+    ]
    }
   ]
  },
@@ -2638,8 +2836,8 @@
   "cell_id": "A16",
   "card": "A16",
   "track": "architecture",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "K04",
    "R01"
@@ -2648,13 +2846,13 @@
   "est_minutes": 60.0,
   "gpu": true,
   "why": "Conditional on the supplied-state gate, does a larger local model improve factor use or only verbal proposal quality?",
-  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader qwen9b; diagnosis under a failed K04 gate",
+  "budget_charged_min": 17.64,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-03T00:39:42",
+  "finished_at": "2026-09-03T00:57:20",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader qwen9b; diagnosis under a failed K04 gate",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -2675,8 +2873,8 @@
   "cell_id": "X21",
   "card": "X21",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "R14",
    "A16"
@@ -2685,20 +2883,20 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Transfer across reader size/family, maker family, domain, and evidence regime.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "22 conditional cells emitted before pooling; reversal True",
+  "budget_charged_min": 21.26,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T00:57:20",
+  "finished_at": "2026-09-03T01:18:36",
+  "detail": "22 conditional cells emitted before pooling; reversal True"
  },
  "P01": {
   "cell_id": "P01",
   "card": "P01",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "R13"
   ],
@@ -2706,20 +2904,50 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Can the reader predict the exact next feasible action?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 22.98,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T23:12:36",
+  "finished_at": "2026-09-02T23:16:45",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T20:55:28",
+    "tag": "terminal",
+    "why": "X20 crashed twice on R13's terminal-cut rows (no next action, primary score None) in the paired contrast; it now takes the valid rows with a primary score through the shared guard; R14 and P01 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "P02": {
   "cell_id": "P02",
   "card": "P02",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "R13"
   ],
@@ -2727,20 +2955,50 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Can it predict next edit type?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 58.21,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T23:12:36",
+  "finished_at": "2026-09-02T23:16:45",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T21:19:30",
+    "tag": "regime",
+    "why": "R14's three regime batches ran on the same worlds with the same unit ids, so the done-check skipped the domain-expert and maker-familiar regimes (cells 'no units'); the unit id now carries the regime on every arm, twin, and oracle row; R15 read the hollow rows; R16 and P02 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "P03": {
   "cell_id": "P03",
   "card": "P03",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "R13"
   ],
@@ -2748,20 +3006,36 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Can it predict location and scope of the next edit?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 63.81,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T23:16:45",
+  "finished_at": "2026-09-02T23:26:31",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "P04": {
   "cell_id": "P04",
   "card": "P04",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
   "depends_on": [
    "R13"
   ],
@@ -2769,20 +3043,36 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Can it predict which available alternative the maker rejects?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval entirely below zero; reader DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 25.29,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T23:16:45",
+  "finished_at": "2026-09-02T23:26:31",
+  "detail": "interval entirely below zero; reader DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "COUNTEREVIDENCE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "P05": {
   "cell_id": "P05",
   "card": "P05",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
   "depends_on": [
    "R13",
    "K15"
@@ -2791,20 +3081,50 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Can it predict continuation versus stopping at a real decision boundary?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval entirely below zero; reader SLJ|Qwen/Qwen2.5-1.5B-Instruct",
+  "budget_charged_min": 14.26,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T23:30:11",
+  "finished_at": "2026-09-02T23:39:58",
+  "detail": "interval entirely below zero; reader SLJ|Qwen/Qwen2.5-1.5B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "COUNTEREVIDENCE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T23:29:18",
+    "tag": "proposers",
+    "why": "the particle and adaptive arms called the belief and context proposers without the brief's defaults, so their candidate lists were empty and the arms never initialized (A14: 60 of 60 rows 'initialized: false', its contrast against a fallback); one proposer dispatch now serves the joint, particle, and adaptive arms and the worker marks unrealized architecture arms; A15 (the same arms cold), P05 and P06 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "P06": {
   "cell_id": "P06",
   "card": "P06",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
   "depends_on": [
    "R13"
   ],
@@ -2812,20 +3132,50 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Can it distinguish satisfaction, deadline, and fatigue boundaries or abstain when they are equivalent?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and excludes a practically useful benefit; reader DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 14.26,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T23:30:12",
+  "finished_at": "2026-09-02T23:39:58",
+  "detail": "interval includes zero and excludes a practically useful benefit; reader DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "COUNTEREVIDENCE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   },
+   {
+    "at": "2026-09-02T23:29:18",
+    "tag": "proposers",
+    "why": "the particle and adaptive arms called the belief and context proposers without the brief's defaults, so their candidate lists were empty and the arms never initialized (A14: 60 of 60 rows 'initialized: false', its contrast against a fallback); one proposer dispatch now serves the joint, particle, and adaptive arms and the worker marks unrealized architecture arms; A15 (the same arms cold), P05 and P06 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "P07": {
   "cell_id": "P07",
   "card": "P07",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
   "depends_on": [
    "R13"
   ],
@@ -2833,20 +3183,36 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Can it predict a later action after a context or opportunity change?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval entirely below zero; reader DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 59.73,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-02T23:39:58",
+  "finished_at": "2026-09-03T00:39:42",
+  "detail": "interval entirely below zero; reader DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "resets": [
+   {
+    "at": "2026-09-02T22:39:31",
+    "tag": "targets",
+    "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
  },
  "P08": {
   "cell_id": "P08",
   "card": "P08",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "R13"
   ],
@@ -2854,20 +3220,20 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Can it predict response to a later-invalidated source without treating this as the product target?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 17.64,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T00:39:42",
+  "finished_at": "2026-09-03T00:57:20",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct"
  },
  "P09": {
   "cell_id": "P09",
   "card": "P09",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "R13"
   ],
@@ -2875,13 +3241,13 @@
   "est_minutes": 32.0,
   "gpu": true,
   "why": "Does the model improve the whole withheld tail rather than one queried event?",
-  "reason": "reset (k04guard): K04's analysis step crashed on a terminal cut (no next action) before the guard landed; the chain behind it was blocked; first attempt preserved under superseded_k04guard/",
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|pooled",
+  "budget_charged_min": 21.26,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": "2026-09-02T14:18:59",
-  "detail": "BLOCKED_DEPENDENCY",
+  "attempts": 1,
+  "started_at": "2026-09-03T00:57:20",
+  "finished_at": "2026-09-03T01:18:36",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader SLJ|pooled",
   "resets": [
    {
     "at": "2026-09-02T14:19:43",
@@ -2902,8 +3268,8 @@
   "cell_id": "P10",
   "card": "P10",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
   "depends_on": [
    "P01",
    "P05",
@@ -2913,13 +3279,13 @@
   "est_minutes": 10.0,
   "gpu": false,
   "why": "Is uncertainty calibrated across evidence dose, contradiction, and exact equifinality?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "{\"SLJ\": 0.51, \"DIR\": 0.3691, \"DOM\": 0.375}",
+  "budget_charged_min": 6.02,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T01:18:36",
+  "finished_at": "2026-09-03T01:24:37",
+  "detail": "{\"SLJ\": 0.51, \"DIR\": 0.3691, \"DOM\": 0.375}"
  },
  "P11": {
   "cell_id": "P11",
@@ -2946,8 +3312,8 @@
   "cell_id": "P12",
   "card": "P12",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
   "depends_on": [
    "P11"
   ],
@@ -2955,20 +3321,20 @@
   "est_minutes": 20.0,
   "gpu": true,
   "why": "Does discontinuity localization survive surface normalization and defeat stylometry-only rivals?",
-  "reason": "re-planned at restart; resumes from its rows",
-  "budget_charged_min": 0.0,
+  "reason": "directional support at or above the frozen threshold; reader matched|HPROC|-; stylometry fires on the style shift 1.0; the process reader's none-mass there 0.2297692638167922",
+  "budget_charged_min": 6.02,
   "gpu_lock_min": 0.0,
-  "attempts": 1,
-  "started_at": "2026-09-02T14:18:59",
-  "finished_at": null,
-  "detail": null
+  "attempts": 2,
+  "started_at": "2026-09-03T01:18:36",
+  "finished_at": "2026-09-03T01:24:37",
+  "detail": "directional support at or above the frozen threshold; reader matched|HPROC|-; stylometry fires on the style shift 1.0; the process reader's none-mass there 0.2297692638167922"
  },
  "P13": {
   "cell_id": "P13",
   "card": "P13",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "D07",
    "D08"
@@ -2977,20 +3343,20 @@
   "est_minutes": 32.0,
   "gpu": true,
   "why": "After loader repair, can CoAuthor suggestion accept/edit/reject behavior be predicted beyond position and prior-decision baselines?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader vsCPRIOR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 9.61,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T01:24:37",
+  "finished_at": "2026-09-03T01:34:13",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader vsCPRIOR|HuggingFaceTB/SmolLM2-1.7B-Instruct"
  },
  "P14": {
   "cell_id": "P14",
   "card": "P14",
   "track": "prospective",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
   "depends_on": [
    "D09"
   ],
@@ -2998,20 +3364,20 @@
   "est_minutes": 26.666666666666668,
   "gpu": true,
   "why": "In ScholaWrite, can the reader predict the moment and direction of a goal switch rather than win on label persistence?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "directional support at or above the frozen threshold; reader leave_project_out|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 7.28,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T01:34:13",
+  "finished_at": "2026-09-03T01:41:30",
+  "detail": "directional support at or above the frozen threshold; reader leave_project_out|HuggingFaceTB/SmolLM2-1.7B-Instruct"
  },
  "X22": {
   "cell_id": "X22",
   "card": "X22",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "P12"
   ],
@@ -3019,20 +3385,20 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Normalize style around a real human/model switch and create a style switch without a control switch.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "P12 SUPPORT_CANDIDATE; gate style_crossover True",
+  "budget_charged_min": 9.61,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T01:24:37",
+  "finished_at": "2026-09-03T01:34:13",
+  "detail": "P12 SUPPORT_CANDIDATE; gate style_crossover True"
  },
  "X19": {
   "cell_id": "X19",
   "card": "X19",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "V02",
    "V06"
@@ -3041,20 +3407,20 @@
   "est_minutes": 5.0,
   "gpu": false,
   "why": "Swap context, cost, opportunity, or audience while holding standing tendency fixed.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "V02 COUNTEREVIDENCE, V06 INCONCLUSIVE",
+  "budget_charged_min": 0.33,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T02:05:57",
+  "finished_at": "2026-09-03T02:06:17",
+  "detail": "V02 COUNTEREVIDENCE, V06 INCONCLUSIVE"
  },
  "V01": {
   "cell_id": "V01",
   "card": "V01",
   "track": "history",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "K11"
   ],
@@ -3062,20 +3428,20 @@
   "est_minutes": 42.666666666666664,
   "gpu": true,
   "why": "Can trained automatic capture be separated from current costly redirection?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader opposes=yes|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 8.96,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T01:41:30",
+  "finished_at": "2026-09-03T01:50:28",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader opposes=yes|HuggingFaceTB/SmolLM2-1.7B-Instruct"
  },
  "V02": {
   "cell_id": "V02",
   "card": "V02",
   "track": "history",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
   "depends_on": [
    "K11"
   ],
@@ -3083,20 +3449,20 @@
   "est_minutes": 32.0,
   "gpu": true,
   "why": "After context and functional competence are matched, does current allocation/redirection predict the next local choice?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval entirely below zero; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "budget_charged_min": 5.61,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T01:50:28",
+  "finished_at": "2026-09-03T01:56:05",
+  "detail": "interval entirely below zero; reader Qwen/Qwen2.5-1.5B-Instruct"
  },
  "V03": {
   "cell_id": "V03",
   "card": "V03",
   "track": "history",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "K11",
    "K14"
@@ -3105,20 +3471,20 @@
   "est_minutes": 42.666666666666664,
   "gpu": true,
   "why": "Can lagging expertise oppose a current proximal goal without either being erased from the maker model?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader aligned|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 7.26,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T01:56:05",
+  "finished_at": "2026-09-03T02:03:21",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader aligned|HuggingFaceTB/SmolLM2-1.7B-Instruct"
  },
  "V04": {
   "cell_id": "V04",
   "card": "V04",
   "track": "history",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "K14"
   ],
@@ -3126,20 +3492,20 @@
   "est_minutes": 48.0,
   "gpu": true,
   "why": "Does one artifact support a dated present focus plus an uncertain historical mixture, rather than two clean time points?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader -",
+  "budget_charged_min": 0.6,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T02:03:21",
+  "finished_at": "2026-09-03T02:03:57",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader -"
  },
  "V05": {
   "cell_id": "V05",
   "card": "V05",
   "track": "history",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
   "depends_on": [
    "V04"
   ],
@@ -3147,20 +3513,20 @@
   "est_minutes": 48.0,
   "gpu": true,
   "why": "Do multiple dated artifacts improve trajectory prediction over an aggregate expertise/style profile?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and excludes a practically useful benefit; reader -",
+  "budget_charged_min": 1.01,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T02:03:57",
+  "finished_at": "2026-09-03T02:04:57",
+  "detail": "interval includes zero and excludes a practically useful benefit; reader -"
  },
  "V06": {
   "cell_id": "V06",
   "card": "V06",
   "track": "history",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
   "depends_on": [
    "V05"
   ],
@@ -3168,13 +3534,13 @@
   "est_minutes": 48.0,
   "gpu": true,
   "why": "Does any inferred trajectory predict a later costly choice beyond context, proximal goal, identity, topic, and expertise baselines?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader -",
+  "budget_charged_min": 0.99,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T02:04:57",
+  "finished_at": "2026-09-03T02:05:57",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader -"
  },
  "X23": {
   "cell_id": "X23",
@@ -3221,8 +3587,8 @@
   "cell_id": "B05",
   "card": "B05",
   "track": "closure",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
   "depends_on": [
    "B04"
   ],
@@ -3230,39 +3596,39 @@
   "est_minutes": 10.0,
   "gpu": false,
   "why": "Do coverage, source, access, compute, pursuit, warrant, dependency, and claim ledgers agree?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "{\"coverage_ok\": false, \"source_manifest\": true, \"access_receipt\": true, \"compute_ledger\": true, \"dependency_audit\": true, \"conformance\": true, \"gates\": true, \"confirmation_registry\": true, \"split_receipt\": true}",
+  "budget_charged_min": 19.37,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 2,
+  "started_at": "2026-09-03T02:55:51",
+  "finished_at": "2026-09-03T03:15:13",
+  "detail": "{\"coverage_ok\": false, \"source_manifest\": true, \"access_receipt\": true, \"compute_ledger\": true, \"dependency_audit\": true, \"conformance\": true, \"gates\": true, \"confirmation_registry\": true, \"split_receipt\": true}"
  },
  "B01": {
   "cell_id": "B01",
   "card": "B01",
   "track": "closure",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
   "depends_on": [],
   "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\B01\\verdict.json",
   "est_minutes": 60.0,
   "gpu": true,
   "why": "Does the strongest supplied-state capability effect replicate on untouched worlds?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "directional support at or above the frozen threshold; reader LEARN|-; learned (LEARN, SLJ) versus selected (KL) scored apart",
+  "budget_charged_min": 19.37,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T02:55:51",
+  "finished_at": "2026-09-03T03:15:13",
+  "detail": "directional support at or above the frozen threshold; reader LEARN|-; learned (LEARN, SLJ) versus selected (KL) scored apart"
  },
  "B02": {
   "cell_id": "B02",
   "card": "B02",
   "track": "closure",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
   "depends_on": [
    "B01"
   ],
@@ -3270,19 +3636,19 @@
   "est_minutes": 60.0,
   "gpu": true,
   "why": "Does the strongest qualified reconstruction or architecture effect replicate on untouched lineages?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "budget_charged_min": 9.51,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T03:15:13",
+  "finished_at": "2026-09-03T03:24:44",
+  "detail": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct"
  },
  "B03": {
   "cell_id": "B03",
   "card": "B03",
   "track": "closure",
-  "exec_state": "PLANNED",
+  "exec_state": "COMPLETE",
   "outcome": "NOT_RUN",
   "depends_on": [
    "B02"
@@ -3291,20 +3657,20 @@
   "est_minutes": 40.0,
   "gpu": true,
   "why": "Does process-discontinuity localization replicate on untouched mixed-control histories?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "no frozen claim in this slot (fewer eligible discoveries at the freeze)",
+  "budget_charged_min": 0.18,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T03:24:44",
+  "finished_at": "2026-09-03T03:24:55",
+  "detail": "no frozen claim in this slot (fewer eligible discoveries at the freeze)"
  },
  "B06": {
   "cell_id": "B06",
   "card": "B06",
   "track": "closure",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
   "depends_on": [
    "B05",
    "B03"
@@ -3313,20 +3679,20 @@
   "est_minutes": 20.0,
   "gpu": false,
   "why": "What moves in the project world model, and should a Stage 8, human bridge, or product confirmation open?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "{\"INFRASTRUCTURE\": 50, \"DESCRIPTIVE\": 17, \"INSTRUMENT_FAILED\": 7, \"COUNTEREVIDENCE\": 13, \"VALID_NULL\": 3, \"INCONCLUSIVE\": 19, \"SUPPORT_CANDIDATE\": 10, \"VOID\": 3, \"NOT_RUN\": 1, \"null\": 1}",
+  "budget_charged_min": 18.93,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T03:24:55",
+  "finished_at": "2026-09-03T03:43:51",
+  "detail": "{\"INFRASTRUCTURE\": 50, \"DESCRIPTIVE\": 17, \"INSTRUMENT_FAILED\": 7, \"COUNTEREVIDENCE\": 13, \"VALID_NULL\": 3, \"INCONCLUSIVE\": 19, \"SUPPORT_CANDIDATE\": 10, \"VOID\": 3, \"NOT_RUN\": 1, \"null\": 1}"
  },
  "X24": {
   "cell_id": "X24",
   "card": "X24",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "B05"
   ],
@@ -3334,12 +3700,75 @@
   "est_minutes": 20.0,
   "gpu": false,
   "why": "Fresh-clone every manifest, source hash, access receipt, completion state, confirmation input, and report dependency; force kill/resume once.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "120 verdicts re-hashed; 0 problems",
+  "budget_charged_min": 9.51,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-03T03:15:13",
+  "finished_at": "2026-09-03T03:24:44",
+  "detail": "120 verdicts re-hashed; 0 problems"
+ },
+ "P09/x4": {
+  "cell_id": "P09/x4",
+  "card": "P09",
+  "track": "prospective",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "P09"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P09\\x4\\verdict.json",
+  "est_minutes": 12.0,
+  "gpu": true,
+  "why": "expansion rung 4 (x1 units): prefix_and_tail",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 25.81,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-03T02:06:17",
+  "finished_at": "2026-09-03T02:32:06",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ },
+ "R13/x4": {
+  "cell_id": "R13/x4",
+  "card": "R13",
+  "track": "reconstruction",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "R13"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R13\\x4\\verdict.json",
+  "est_minutes": 36.0,
+  "gpu": true,
+  "why": "expansion rung 4 (x1 units): prefix_and_tail",
+  "reason": "interval includes zero and excludes a practically useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "budget_charged_min": 23.76,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-03T02:32:06",
+  "finished_at": "2026-09-03T02:55:51",
+  "detail": "interval includes zero and excludes a practically useful benefit; reader HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ },
+ "B01/x9": {
+  "cell_id": "B01/x9",
+  "card": "B01",
+  "track": "closure",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "depends_on": [
+   "B01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\B01\\x9\\verdict.json",
+  "est_minutes": 12.0,
+  "gpu": true,
+  "why": "expansion rung 9 (x1 units): confirmation_seeds",
+  "reason": "directional support at or above the frozen threshold; reader LEARN|-; learned (LEARN, SLJ) versus selected (KL) scored apart",
+  "budget_charged_min": 18.93,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-03T03:24:55",
+  "finished_at": "2026-09-03T03:43:50",
+  "detail": "directional support at or above the frozen threshold; reader LEARN|-; learned (LEARN, SLJ) versus selected (KL) scored apart"
  }
 }

@@ -1,0 +1,62 @@
+{
+ "card": "P06",
+ "cell_id": "P06",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.19,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "boundary-type posterior and resumption counterfactual; no generic human claim",
+ "exec": "COMPLETE",
+ "outcome": "VALID_NULL",
+ "primary": "Can it distinguish satisfaction, deadline, and fatigue boundaries or abstain when they are equivalent?",
+ "reason": "interval includes zero and excludes a practically useful benefit; reader DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": -0.2799527791094268,
+ "ci": [
+  -0.622332135978492,
+  0.03302204081829193
+ ],
+ "n_units": 10,
+ "conditional_cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -4.168792960748551
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -15.770975846244463
+  },
+  "SLJ|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -9.969884403496506
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "VALID_NULL",
+   "point": -0.2799527791094268
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.4060653491824995
+  },
+  "DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.843009064145963
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P06\\metrics.json",
+    "sha256": "2825f3f7c4318ac16996f76730f5ee26cdd9ac56911b501aa52b454e80ea94dd"
+   }
+  },
+  "written_at": "2026-09-02T23:30:23"
+ }
+}

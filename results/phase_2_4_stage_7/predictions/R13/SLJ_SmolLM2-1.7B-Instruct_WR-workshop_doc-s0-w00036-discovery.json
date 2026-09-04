@@ -1,0 +1,182 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "27ca2d6f2265d5f3",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 111,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 9,
+  "tokens_in": 1315,
+  "tokens_out": 111,
+  "wall_s": 6.688
+ },
+ "confidence": 0.9502816122817117,
+ "equivalence_class": [
+  "b0|k0|g0|h0"
+ ],
+ "evidence_sha": "b3dbd0018e68baa4",
+ "notes": {
+  "band": 0.125,
+  "candidate_preds": {
+   "b0|k0|g0|h0": {
+    "revise:sec1:s1.2": 0.34782723283066425,
+    "revise:sec3:s3.1": 0.24016724354138108,
+    "revise:sec3:s3.2": 0.24016724354138108,
+    "write:sec1:s1.1": 0.06569607828421273
+   },
+   "b0|k0|g0|h1": {
+    "probe:sec1:tech": 0.014323589826701387,
+    "revise:sec1:s1.2": 0.4015134971651438,
+    "revise:sec3:s3.1": 0.27723645751958315,
+    "revise:sec3:s3.2": 0.27723645751958315
+   },
+   "b0|k0|g0|h2": {
+    "check:sec2:s2.1": 0.08352381247552934,
+    "revise:sec1:s1.2": 0.3535746841179914,
+    "revise:sec3:s3.1": 0.24413573537519256,
+    "revise:sec3:s3.2": 0.24413573537519256
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "expertise_law": {
+    "k0": 1.0
+   },
+   "history_residue": {
+    "h0": 0.9502816122817117,
+    "h1": 8.486755268652327e-05,
+    "h2": 0.04963352016560181
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|k0|g0|h0": 0.9502816122817117,
+   "b0|k0|g0|h1": 8.486755268652327e-05,
+   "b0|k0|g0|h2": 0.04963352016560181
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "yes",
+      "tight",
+      "sec1"
+     ],
+     "text": "belief: library=no source=yes deadline=tight checked=sec1"
+    }
+   ],
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "write",
+      "revise",
+      "consult",
+      "cite",
+      "steady"
+     ],
+     "text": "skill: write,revise weak: consult,cite pace: steady"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "write",
+      "none"
+     ],
+     "text": "habit: write intention: s1.2"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: s1.1"
+    },
+    {
+     "ref": "h2",
+     "signature": [
+      "check",
+      "none"
+     ],
+     "text": "habit: check intention: s1.1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "consult"
+     ],
+     "text": "pull: revise > consult"
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.03287104425137588,
+   "cite:sec3:ref": 0.0,
+   "probe:sec1:tech": 0.03375550714165615,
+   "restructure:sec2:order": 0.0,
+   "revise:sec1:s1.2": 0.34811705529190157,
+   "revise:sec3:s3.1": 0.24036735973431195,
+   "revise:sec3:s3.2": 0.24036735973431195,
+   "write:sec1:s1.1": 0.06365002215352268,
+   "write:sec2:s2.1": 0.04087165169291991
+  },
+  "invalidation": {
+   "correct": 0.33194626408391337,
+   "retain": 0.12076686959149692,
+   "rewrite": 0.5472868663245898
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.03287104425137588,
+   "cite:sec3:ref": 0.0,
+   "probe:sec1:tech": 0.03375550714165615,
+   "restructure:sec2:order": 0.0,
+   "revise:sec1:s1.2": 0.34811705529190157,
+   "revise:sec3:s3.1": 0.24036735973431195,
+   "revise:sec3:s3.2": 0.24036735973431195,
+   "write:sec1:s1.1": 0.06365002215352268,
+   "write:sec2:s2.1": 0.04087165169291991
+  },
+  "next_section": {
+   "sec1": 0.4455225845870804,
+   "sec2": 0.07374269594429579,
+   "sec3": 0.4807347194686239
+  },
+  "next_type": {
+   "check": 0.032871044251375874,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.03375550714165614,
+   "restructure": 0.0,
+   "revise": 0.8288517747605253,
+   "write": 0.10452167384644256
+  },
+  "stop": 0.04433689670965069
+ },
+ "version": "PredictionV1"
+}

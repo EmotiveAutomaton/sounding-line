@@ -241,7 +241,7 @@ def run_card(run: CardRun7) -> int:
             cands = {a: v.get(key) for a, v in {**t2, **t3}.items() if a != "OR" and v.get(key) is not None}
             best[key] = max(cands.items(), key=lambda kv: kv[1]) if cands else None
         r13 = _verdict("R13")
-        rows = [r for r in read_jsonl(S7 / "R13" / "cases.jsonl") if r.get("valid")] if (S7 / "R13" / "cases.jsonl").exists() else []
+        rows = E.rows_valid(read_jsonl(S7 / "R13" / "cases.jsonl")) if (S7 / "R13" / "cases.jsonl").exists() else []     # valid rows with a primary score (terminal cuts carry none)
         strengthened = {}
         for arm in ("SLJ", "DIR"):
             for rival in ("DOM", "PERS"):

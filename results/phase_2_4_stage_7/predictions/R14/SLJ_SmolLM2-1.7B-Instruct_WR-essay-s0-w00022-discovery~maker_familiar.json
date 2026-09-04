@@ -1,0 +1,164 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "d93e942005e561ea",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 118,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 2507,
+  "tokens_out": 118,
+  "wall_s": 6.341
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|k0|g0|h0"
+ ],
+ "evidence_sha": "ed1bab74c600c874",
+ "notes": {
+  "band": 0.2,
+  "candidate_preds": {
+   "b0|k0|g0|h0": {
+    "check:sec1:s1.1": 0.08870420309169515,
+    "check:sec2:s2.1": 0.07370879214492744,
+    "probe:sec1:tech": 0.06355933889469588,
+    "revise:sec2:s2.2": 0.544638400143288
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "expertise_law": {
+    "k0": 1.0
+   },
+   "history_residue": {
+    "h0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|k0|g0|h0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "yes",
+      "yes",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=yes source=yes deadline=loose checked=none"
+    }
+   ],
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "fix",
+      "revise",
+      "consult",
+      "cite",
+      "steady"
+     ],
+     "text": "skill: fix,revise weak: consult,cite pace: steady"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "none",
+      "none"
+     ],
+     "text": "default: no carried habit, no held intention"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "check"
+     ],
+     "text": "pull: revise > check"
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "history_residue": "sec1 [empty]; sec2 [fix@s2.1, write@s2.1, revise@s2.3]; sec3 [revise@s3.2, check@s3.1]\n\nThe work so far:\nThe maker is working on the glaze recipe."
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.08870420309169515,
+   "check:sec2:s2.1": 0.07370879214492744,
+   "cite:sec3:ref": 0.024300391439879308,
+   "consult:sec1:src": 0.032632452662930925,
+   "probe:sec1:tech": 0.06355933889469588,
+   "restructure:sec2:order": 0.0,
+   "revise:sec2:s2.2": 0.544638400143288,
+   "write:sec1:s1.1": 0.036467388110641534,
+   "write:sec1:s1.2": 0.036467388110641534,
+   "write:sec2:s2.2": 0.030302590369219323,
+   "write:sec2:s2.3": 0.030302590369219323,
+   "write:sec3:s3.1": 0.0194582323314308,
+   "write:sec3:s3.2": 0.0194582323314308
+  },
+  "invalidation": {
+   "correct": 0.5670139354168319,
+   "retain": 0.04865858829507562,
+   "rewrite": 0.3843274762880925
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.08870420309169515,
+   "check:sec2:s2.1": 0.07370879214492744,
+   "cite:sec3:ref": 0.024300391439879308,
+   "consult:sec1:src": 0.032632452662930925,
+   "probe:sec1:tech": 0.06355933889469588,
+   "restructure:sec2:order": 0.0,
+   "revise:sec2:s2.2": 0.544638400143288,
+   "write:sec1:s1.1": 0.036467388110641534,
+   "write:sec1:s1.2": 0.036467388110641534,
+   "write:sec2:s2.2": 0.030302590369219323,
+   "write:sec2:s2.3": 0.030302590369219323,
+   "write:sec3:s3.1": 0.0194582323314308,
+   "write:sec3:s3.2": 0.0194582323314308
+  },
+  "next_section": {
+   "sec1": 0.257830770870605,
+   "sec2": 0.6789523730266541,
+   "sec3": 0.0632168561027409
+  },
+  "next_type": {
+   "check": 0.1624129952366226,
+   "cite": 0.024300391439879308,
+   "consult": 0.032632452662930925,
+   "fix": 0.0,
+   "probe": 0.06355933889469588,
+   "restructure": 0.0,
+   "revise": 0.544638400143288,
+   "write": 0.1724564216225833
+  },
+  "stop": 0.014774031693273055
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,82 @@
+{
+ "card": "R14",
+ "cell_id": "R14",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 18.78,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "cold x domain-expert x maker-familiar crossing on the same targets",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does maker familiarity help where cold reading fails, independently of domain expertise?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader cold|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": -0.4327765763170643,
+ "ci": [
+  -1.4482340315296658,
+  0.24848806184233635
+ ],
+ "n_units": 35,
+ "conditional_cells": {
+  "cold|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.4327765763170643
+  },
+  "cold|SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.5749317797061446
+  },
+  "cold|SLJ|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.0038541780116044
+  },
+  "cold|DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.1151142242793521
+  },
+  "cold|DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.886428179910516
+  },
+  "cold|DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.000771202094934
+  },
+  "domain_expert|SLJ|-": {
+   "outcome": "VOID",
+   "point": null
+  },
+  "domain_expert|DIR|-": {
+   "outcome": "VOID",
+   "point": null
+  },
+  "maker_familiar|SLJ|-": {
+   "outcome": "VOID",
+   "point": null
+  },
+  "maker_familiar|DIR|-": {
+   "outcome": "VOID",
+   "point": null
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R14\\metrics.json",
+    "sha256": "aaea0fdcf44400a40511d0abbb3db16acde198800276d8b83340770571709c2b"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R14\\cases.jsonl",
+    "sha256": "b32ad729954bab0fb1b11382491310a9c13c8c3e2bdb47cb0fe79dcfe1f24f2b"
+   }
+  },
+  "written_at": "2026-09-02T21:15:21"
+ }
+}

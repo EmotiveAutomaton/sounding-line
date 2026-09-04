@@ -249,13 +249,13 @@
  },
  "infer_law": {
   "passed": true,
-  "at": "2026-09-02T17:07:45",
+  "at": "2026-09-03T03:43:39",
   "detail": {
    "card": "K14",
    "cells": {
     "LEARN|-": "SUPPORT_CANDIDATE",
     "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
-    "SLJ|Qwen/Qwen2.5-1.5B-Instruct": "INCONCLUSIVE",
+    "SLJ|Qwen/Qwen2.5-1.5B-Instruct": "SUPPORT_CANDIDATE",
     "SLJ|pooled": "INCONCLUSIVE"
    }
   }
@@ -378,13 +378,63 @@
  },
  "joint_all": {
   "passed": false,
-  "at": "2026-09-02T20:08:56",
+  "at": "2026-09-03T02:55:40",
   "detail": {
    "card": "R13",
    "cells": {
-    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": "VALID_NULL",
     "Qwen/Qwen2.5-1.5B-Instruct": "INCONCLUSIVE",
     "pooled": "INCONCLUSIVE"
+   }
+  }
+ },
+ "regimes": {
+  "passed": false,
+  "at": "2026-09-02T22:15:09",
+  "detail": {
+   "card": "R14",
+   "cells": {
+    "cold|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "cold|SLJ|Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "cold|SLJ|pooled": "COUNTEREVIDENCE",
+    "cold|DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": "COUNTEREVIDENCE",
+    "cold|DIR|Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "cold|DIR|pooled": "COUNTEREVIDENCE",
+    "domain_expert|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "domain_expert|SLJ|Qwen/Qwen2.5-1.5B-Instruct": "INCONCLUSIVE",
+    "domain_expert|SLJ|pooled": "INCONCLUSIVE",
+    "domain_expert|DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": "COUNTEREVIDENCE",
+    "domain_expert|DIR|Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "domain_expert|DIR|pooled": "COUNTEREVIDENCE",
+    "maker_familiar|SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "maker_familiar|SLJ|Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "maker_familiar|SLJ|pooled": "COUNTEREVIDENCE",
+    "maker_familiar|DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "maker_familiar|DIR|Qwen/Qwen2.5-1.5B-Instruct": "COUNTEREVIDENCE",
+    "maker_familiar|DIR|pooled": "COUNTEREVIDENCE"
+   }
+  }
+ },
+ "style_crossover": {
+  "passed": true,
+  "at": "2026-09-03T01:24:26",
+  "detail": {
+   "card": "P12",
+   "cells": {
+    "matched|HPROC|-": "SUPPORT_CANDIDATE",
+    "matched|HDIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": "INCONCLUSIVE",
+    "matched|HDIR|Qwen/Qwen2.5-1.5B-Instruct": "INCONCLUSIVE",
+    "matched|HDIR|pooled": "INCONCLUSIVE"
+   }
+  }
+ },
+ "dated_history": {
+  "passed": false,
+  "at": "2026-09-03T02:04:45",
+  "detail": {
+   "card": "V05",
+   "cells": {
+    "-": "VALID_NULL"
    }
   }
  }

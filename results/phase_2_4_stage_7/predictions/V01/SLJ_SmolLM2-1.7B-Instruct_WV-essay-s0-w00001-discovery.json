@@ -1,0 +1,146 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "89291df815e20b6d",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 110,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 9,
+  "tokens_in": 1863,
+  "tokens_out": 110,
+  "wall_s": 6.274
+ },
+ "confidence": 0.8106840084209888,
+ "equivalence_class": [
+  "g0|h1"
+ ],
+ "evidence_sha": "927f2d6ea847b791",
+ "notes": {
+  "band": 0.06666666666666667,
+  "candidate_preds": {
+   "g0|h0": {
+    "check:sec3:s3.1": 0.08784407600134561,
+    "check:sec4:s4.1": 0.08124248943791859,
+    "cite:sec4:ref": 0.08382140288638798,
+    "write:sec4:s4.2": 0.7470920316743478
+   },
+   "g0|h1": {
+    "check:sec3:s3.1": 0.1294512327914309,
+    "check:sec4:s4.1": 0.11972281901652951,
+    "cite:sec4:ref": 0.12352322924751252,
+    "write:sec4:s4.2": 0.6273027189445272
+   },
+   "g0|h2": {
+    "check:sec3:s3.1": 0.19121819277639415,
+    "check:sec4:s4.1": 0.17684791865459562,
+    "cite:sec4:ref": 0.10396352813184444,
+    "write:sec4:s4.2": 0.5279703604371658
+   }
+  },
+  "factor_marginals": {
+   "history_residue": {
+    "h0": 0.07437314763714771,
+    "h1": 0.8106840084209888,
+    "h2": 0.11494284394186352
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0|h0": 0.07437314763714771,
+   "g0|h1": 0.8106840084209888,
+   "g0|h2": 0.11494284394186352
+  },
+  "proposals": {
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "write",
+      "none"
+     ],
+     "text": "habit: write intention: s1.2"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: s2.1"
+    },
+    {
+     "ref": "h2",
+     "signature": [
+      "check",
+      "none"
+     ],
+     "text": "habit: check intention: s1.1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "consult"
+     ],
+     "text": "prose: write > consult | 1. The maker is currently drafting sec4 (s4.1).\n2. The maker is consulting a source for sec1 (src).\n3. The maker is draf"
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "fatigue": 1.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.0,
+   "check:sec3:s3.1": 0.13345644761903486,
+   "check:sec4:s4.1": 0.123427037196515,
+   "cite:sec4:ref": 0.11832223178120449,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec3:order": 0.0,
+   "write:sec4:s4.2": 0.6247942834032456
+  },
+  "invalidation": {
+   "correct": 0.46670381033369057,
+   "retain": 0.3128409196278877,
+   "rewrite": 0.22045527003842172
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.0,
+   "check:sec3:s3.1": 0.13345644761903488,
+   "check:sec4:s4.1": 0.123427037196515,
+   "cite:sec4:ref": 0.11832223178120448,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec3:order": 0.0,
+   "write:sec4:s4.2": 0.6247942834032457
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.0,
+   "sec3": 0.13345644761903486,
+   "sec4": 0.866543552380965
+  },
+  "next_type": {
+   "check": 0.2568834848155499,
+   "cite": 0.11832223178120448,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.6247942834032457
+  },
+  "stop": 0.04742587317756678
+ },
+ "version": "PredictionV1"
+}

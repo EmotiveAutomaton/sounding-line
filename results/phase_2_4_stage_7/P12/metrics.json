@@ -1,0 +1,106 @@
+{
+ "card": "P12",
+ "lane": "discovery",
+ "written_at": "2026-09-03T01:24:26",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "crossover": {
+  "matched_switch_gain": {
+   "matched|HPROC|-": 1.9198318488900925,
+   "matched|HDIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.2609785899679631,
+   "matched|HDIR|Qwen/Qwen2.5-1.5B-Instruct": -0.6037473768394358,
+   "matched|HDIR|pooled": -0.43236298340369944
+  },
+  "style_shift_no_switch_gain_over_uniform": {
+   "HPROC": {
+    "-": 1.3470134865290087
+   },
+   "HDIR": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": -1.655433001100528,
+    "Qwen/Qwen2.5-1.5B-Instruct": -0.516302780032536,
+    "pooled": -1.085867890566532
+   },
+   "HSTYLE": {
+    "-": -0.092966636454287
+   }
+  },
+  "stylometry_fires_on_style_shift": 1.0,
+  "process_none_mass_on_style_shift": 0.2297692638167922
+ },
+ "final_only_interface": {
+  "HU": -11.84812567607416,
+  "HSTYLE": -11.84812567607416,
+  "HPERS": -11.84812567607416,
+  "HSTACK": -11.84812567607416,
+  "HPROC": -11.84812567607416,
+  "HDIR": -3.6660817121705773
+ },
+ "n_matched": 84,
+ "n_shift": 84,
+ "cells": {
+  "matched|HPROC|-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.9198318488900925,
+   "ci": [
+    1.3004404898190924,
+    2.403874979861976
+   ],
+   "n_units": 12,
+   "threshold": 0.1,
+   "perm_p": 0.00119994000299985,
+   "arm": "HPROC",
+   "rival": "HSTACK"
+  },
+  "matched|HDIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.2609785899679631,
+   "ci": [
+    -0.7315652657725252,
+    0.24016968806758446
+   ],
+   "n_units": 12,
+   "threshold": 0.1,
+   "perm_p": 0.35268236588170593,
+   "arm": "HDIR",
+   "rival": "HSTACK"
+  },
+  "matched|HDIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.6037473768394358,
+   "ci": [
+    -1.4218427499092237,
+    0.21093400039018428
+   ],
+   "n_units": 12,
+   "threshold": 0.1,
+   "perm_p": 0.2086895655217239,
+   "arm": "HDIR",
+   "rival": "HSTACK"
+  },
+  "matched|HDIR|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.43236298340369944,
+   "ci": [
+    -1.0245384702667588,
+    0.20350874488171547
+   ],
+   "n_units": 12,
+   "threshold": 0.1,
+   "perm_p": 0.19979001049947503,
+   "arm": "HDIR",
+   "rival": "HSTACK",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 0
+}

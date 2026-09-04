@@ -1,0 +1,62 @@
+{
+ "card": "P07",
+ "cell_id": "P07",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.23,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "changed-context proper score from the same maker law",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can it predict a later action after a context or opportunity change?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader DIR|pooled",
+ "point": 0.11098654066814927,
+ "ci": [
+  -0.10741870149381118,
+  0.355273831810196
+ ],
+ "n_units": 60,
+ "conditional_cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.25712771237029014
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.507544151747681
+  },
+  "SLJ|pooled": {
+   "outcome": "VALID_NULL",
+   "point": -0.3823359320589856
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11098654066814927
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11098654066814927
+  },
+  "DIR|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11098654066814927
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P07\\metrics.json",
+    "sha256": "1d0a1016790f62f42ebbf1a443a47ca54ea7cd08faafba0926d88f5d746317c6"
+   }
+  },
+  "written_at": "2026-09-02T22:35:35"
+ }
+}

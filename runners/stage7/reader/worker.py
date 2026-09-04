@@ -208,6 +208,8 @@ def run_task(ev: dict, task: dict) -> dict:
         res = J.weighted_language_hypotheses(ev, client, sha, seed)
         notes["proposals"] = res.get("proposals")
         core = None if res.get("unrealized") else res
+        if core is None:
+            notes["unrealized"] = "no weighted hypothesis realized"
         if core:
             eq, conf = res["equivalence_class"], res["confidence"]
             notes["posterior"] = res["posterior"]
@@ -215,6 +217,8 @@ def run_task(ev: dict, task: dict) -> dict:
         res = J.sequential_hypothesis_particles(ev, client, sha, withheld, seed)
         notes["receipt"] = res.get("receipt")
         core = None if res.get("unrealized") else res
+        if core is None:
+            notes["unrealized"] = "no solvable proposal set (particles not initialized)"
         if core:
             eq, abstain, conf = res["equivalence_class"], res["abstain"], res["confidence"]
     elif arm == "adaptive_factor_expansion":
@@ -222,6 +226,8 @@ def run_task(ev: dict, task: dict) -> dict:
         notes["receipt"] = res.get("receipt")
         notes["proposals"] = res.get("proposals")
         core = None if res.get("unrealized") else res
+        if core is None:
+            notes["unrealized"] = "no solvable proposal set (expansion never realized)"
         if core:
             eq, abstain, conf = res["equivalence_class"], res["abstain"], res["confidence"]
             notes["posterior"] = res.get("posterior")
@@ -229,6 +235,8 @@ def run_task(ev: dict, task: dict) -> dict:
         res = J.synthesized_agent_model(ev, client, sha, seed)
         notes["receipt"] = res.get("receipt")
         core = None if res.get("unrealized") else res
+        if core is None:
+            notes["unrealized"] = "no agent model synthesized"
         if core:
             conf = res["confidence"]
     elif arm == "known_law_inverse_planning":

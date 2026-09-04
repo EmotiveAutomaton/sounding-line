@@ -1,0 +1,98 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "ab17f82c5a557eaa",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 71,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 2001,
+  "tokens_out": 71,
+  "wall_s": 4.483
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "g0|h0"
+ ],
+ "evidence_sha": "dedd6366b9fb2de3",
+ "notes": {
+  "band": 0.05263157894736842,
+  "candidate_preds": {
+   "g0|h0": {
+    "cite:sec3:ref": 0.0
+   }
+  },
+  "factor_marginals": {
+   "history_residue": {
+    "h0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0|h0": 1.0
+  },
+  "proposals": {
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: 1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "pull: revise > restructure"
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "satisfaction": 1.0
+  },
+  "changed_context": {
+   "cite:sec3:ref": 1.0
+  },
+  "invalidation": {
+   "correct": 0.7151889177255055,
+   "retain": 0.07413442962621214,
+   "rewrite": 0.21067665264828228
+  },
+  "next_action": {
+   "cite:sec3:ref": 1.0
+  },
+  "next_section": {
+   "sec1": 0.3333333333333333,
+   "sec2": 0.3333333333333333,
+   "sec3": 0.3333333333333333
+  },
+  "next_type": {
+   "check": 0.125,
+   "cite": 0.125,
+   "consult": 0.125,
+   "fix": 0.125,
+   "probe": 0.125,
+   "restructure": 0.125,
+   "revise": 0.125,
+   "write": 0.125
+  },
+  "stop": 0.5604176266255372
+ },
+ "version": "PredictionV1"
+}

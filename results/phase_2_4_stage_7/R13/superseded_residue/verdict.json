@@ -1,0 +1,54 @@
+{
+ "card": "R13",
+ "cell_id": "R13",
+ "lane": "discovery",
+ "track": "reconstruction",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 21.47,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "all-factor posterior plus prospective score; no credit borrowed from oracle fields",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can the full factor set be inferred jointly from visible evidence and improve prediction over DOM and DIR?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader Qwen/Qwen2.5-1.5B-Instruct",
+ "point": -0.1066415687264612,
+ "ci": [
+  -0.312067110954061,
+  0.1226362563970345
+ ],
+ "n_units": 48,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.1066415687264612
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.1066415687264612
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.1066415687264612
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R13\\metrics.json",
+    "sha256": "0645e70a5d091fd0fb3e4a2755a422c2574c10d15138b93c2589d23f74957d97"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\R13\\cases.jsonl",
+    "sha256": "12b63abaca495aee81ef05aef38c2d9ac307325d813e3bacd7b81e646a0aa35e"
+   }
+  },
+  "written_at": "2026-09-02T20:09:07"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "abstain": false,
+ "arm": "DIR",
+ "canonical_sha": "3b883b82acf5fe2e",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 13,
+  "model_calls": 13,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 4453,
+  "tokens_out": 0,
+  "wall_s": 3.913
+ },
+ "confidence": 0.9190189552732095,
+ "equivalence_class": [],
+ "evidence_sha": "5b47952f7710549c",
+ "notes": {},
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.021778421185605436,
+   "equivalent": 0.020141746987229838,
+   "fatigue": 0.0026420228745701766,
+   "satisfaction": 0.9554378089525946
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 9.67720809612709e-05,
+   "check:sec2:s2.1": 0.9912614396197461,
+   "check:sec3:s3.1": 4.2171644372595274e-05,
+   "check:sec4:s4.1": 8.456384208311768e-07,
+   "cite:sec4:ref": 1.2497725699477534e-06,
+   "consult:sec1:src": 0.00025180257820680424,
+   "fix:sec2:s2.1": 0.007711903788565514,
+   "probe:sec1:tech": 7.010147703882632e-06,
+   "restructure:sec3:order": 0.0004631358208628691,
+   "revise:sec3:s3.1": 9.356189352270099e-05,
+   "revise:sec4:s4.1": 1.6556796525441888e-06,
+   "revise:sec4:s4.2": 6.845133541501407e-05
+  },
+  "invalidation": {
+   "correct": 0.9897622142914173,
+   "retain": 0.005358665367921675,
+   "rewrite": 0.004879120340661039
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.9190189552732095,
+   "check:sec2:s2.1": 0.00016854865831877485,
+   "check:sec3:s3.1": 0.006489476032232169,
+   "check:sec4:s4.1": 0.0006396983019918154,
+   "cite:sec4:ref": 0.00023400663777392044,
+   "consult:sec1:src": 0.00025020726961522626,
+   "fix:sec2:s2.1": 0.0009152201640933209,
+   "probe:sec1:tech": 3.8200533501031465e-05,
+   "restructure:sec3:order": 0.0009454128043114693,
+   "revise:sec3:s3.1": 0.04083303956650727,
+   "revise:sec4:s4.1": 0.030007033159143694,
+   "revise:sec4:s4.2": 0.0004602015993018681
+  },
+  "next_section": {
+   "sec1": 0.18040526615549266,
+   "sec2": 0.7361661411804892,
+   "sec3": 0.03781499808821581,
+   "sec4": 0.04561359457580247
+  },
+  "next_type": {
+   "check": 0.033380764568269446,
+   "cite": 0.004339801892441471,
+   "consult": 0.037238933854305954,
+   "fix": 0.0001906775422258647,
+   "probe": 0.00017970878559799347,
+   "restructure": 0.9164245715504659,
+   "revise": 0.008235493174147469,
+   "write": 1.0048632545984143e-05
+  },
+  "stop": 0.08882030023892026
+ },
+ "version": "PredictionV1"
+}

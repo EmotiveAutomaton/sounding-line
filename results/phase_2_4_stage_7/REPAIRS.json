@@ -575,6 +575,306 @@
     "outcome": "NOT_RUN",
     "attempts": 1
    }
+  },
+  {
+   "cell": "X20",
+   "tag": "terminal",
+   "why": "X20 crashed twice on R13's terminal-cut rows (no next action, primary score None) in the paired contrast; it now takes the valid rows with a primary score through the shared guard; R14 and P01 were interrupted by the stop",
+   "at": "2026-09-02T20:55:28",
+   "preserved": "superseded_terminal",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 2
+   }
+  },
+  {
+   "cell": "R14",
+   "tag": "terminal",
+   "why": "X20 crashed twice on R13's terminal-cut rows (no next action, primary score None) in the paired contrast; it now takes the valid rows with a primary score through the shared guard; R14 and P01 were interrupted by the stop",
+   "at": "2026-09-02T20:55:28",
+   "preserved": "superseded_terminal",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P01",
+   "tag": "terminal",
+   "why": "X20 crashed twice on R13's terminal-cut rows (no next action, primary score None) in the paired contrast; it now takes the valid rows with a primary score through the shared guard; R14 and P01 were interrupted by the stop",
+   "at": "2026-09-02T20:55:28",
+   "preserved": "superseded_terminal",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "R14",
+   "tag": "regime",
+   "why": "R14's three regime batches ran on the same worlds with the same unit ids, so the done-check skipped the domain-expert and maker-familiar regimes (cells 'no units'); the unit id now carries the regime on every arm, twin, and oracle row; R15 read the hollow rows; R16 and P02 were interrupted by the stop",
+   "at": "2026-09-02T21:19:30",
+   "preserved": "superseded_regime",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INCONCLUSIVE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "R15",
+   "tag": "regime",
+   "why": "R14's three regime batches ran on the same worlds with the same unit ids, so the done-check skipped the domain-expert and maker-familiar regimes (cells 'no units'); the unit id now carries the regime on every arm, twin, and oracle row; R15 read the hollow rows; R16 and P02 were interrupted by the stop",
+   "at": "2026-09-02T21:19:30",
+   "preserved": "superseded_regime",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "R16",
+   "tag": "regime",
+   "why": "R14's three regime batches ran on the same worlds with the same unit ids, so the done-check skipped the domain-expert and maker-familiar regimes (cells 'no units'); the unit id now carries the regime on every arm, twin, and oracle row; R15 read the hollow rows; R16 and P02 were interrupted by the stop",
+   "at": "2026-09-02T21:19:30",
+   "preserved": "superseded_regime",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P02",
+   "tag": "regime",
+   "why": "R14's three regime batches ran on the same worlds with the same unit ids, so the done-check skipped the domain-expert and maker-familiar regimes (cells 'no units'); the unit id now carries the regime on every arm, twin, and oracle row; R15 read the hollow rows; R16 and P02 were interrupted by the stop",
+   "at": "2026-09-02T21:19:30",
+   "preserved": "superseded_regime",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "R13",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INCONCLUSIVE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P01",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INCONCLUSIVE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P02",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INCONCLUSIVE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P03",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INCONCLUSIVE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P04",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "COUNTEREVIDENCE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P05",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "COUNTEREVIDENCE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P06",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "COUNTEREVIDENCE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P07",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "X01",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INFRASTRUCTURE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "X06",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INFRASTRUCTURE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "X12",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INFRASTRUCTURE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "X20",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INFRASTRUCTURE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "A14",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "X02",
+   "tag": "targets",
+   "why": "R13's card asked its reader arms for two targets (next action, stop) while P02 to P08 read five others from its rows, filled uniform when unasked (the boundary type on both arms, four targets on the direct reader); R13 now asks all seven targets and the joint arm mixes the boundary type from the executed law; the P analyses and the attacks over R13's rows follow it; A14 and X02 were interrupted by the stop",
+   "at": "2026-09-02T22:39:31",
+   "preserved": "superseded_targets",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "A14",
+   "tag": "proposers",
+   "why": "the particle and adaptive arms called the belief and context proposers without the brief's defaults, so their candidate lists were empty and the arms never initialized (A14: 60 of 60 rows 'initialized: false', its contrast against a fallback); one proposer dispatch now serves the joint, particle, and adaptive arms and the worker marks unrealized architecture arms; A15 (the same arms cold), P05 and P06 were interrupted by the stop",
+   "at": "2026-09-02T23:29:18",
+   "preserved": "superseded_proposers",
+   "before": {
+    "exec_state": "COMPLETE",
+    "outcome": "INCONCLUSIVE",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "A15",
+   "tag": "proposers",
+   "why": "the particle and adaptive arms called the belief and context proposers without the brief's defaults, so their candidate lists were empty and the arms never initialized (A14: 60 of 60 rows 'initialized: false', its contrast against a fallback); one proposer dispatch now serves the joint, particle, and adaptive arms and the worker marks unrealized architecture arms; A15 (the same arms cold), P05 and P06 were interrupted by the stop",
+   "at": "2026-09-02T23:29:18",
+   "preserved": "superseded_proposers",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P05",
+   "tag": "proposers",
+   "why": "the particle and adaptive arms called the belief and context proposers without the brief's defaults, so their candidate lists were empty and the arms never initialized (A14: 60 of 60 rows 'initialized: false', its contrast against a fallback); one proposer dispatch now serves the joint, particle, and adaptive arms and the worker marks unrealized architecture arms; A15 (the same arms cold), P05 and P06 were interrupted by the stop",
+   "at": "2026-09-02T23:29:18",
+   "preserved": "superseded_proposers",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
+  },
+  {
+   "cell": "P06",
+   "tag": "proposers",
+   "why": "the particle and adaptive arms called the belief and context proposers without the brief's defaults, so their candidate lists were empty and the arms never initialized (A14: 60 of 60 rows 'initialized: false', its contrast against a fallback); one proposer dispatch now serves the joint, particle, and adaptive arms and the worker marks unrealized architecture arms; A15 (the same arms cold), P05 and P06 were interrupted by the stop",
+   "at": "2026-09-02T23:29:18",
+   "preserved": "superseded_proposers",
+   "before": {
+    "exec_state": "RUNNING",
+    "outcome": "NOT_RUN",
+    "attempts": 1
+   }
   }
  ]
 }

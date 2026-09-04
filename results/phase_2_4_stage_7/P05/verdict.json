@@ -1,0 +1,62 @@
+{
+ "card": "P05",
+ "cell_id": "P05",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 0.26,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "discrete-time hazard score with censoring and matched progress/length",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "Can it predict continuation versus stopping at a real decision boundary?",
+ "reason": "interval entirely below zero; reader SLJ|Qwen/Qwen2.5-1.5B-Instruct",
+ "point": -0.07457035153186889,
+ "ci": [
+  -0.14091504968429283,
+  -0.015149206197091708
+ ],
+ "n_units": 60,
+ "conditional_cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.32409285167834073
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.07457035153186889
+  },
+  "SLJ|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.19933160160510482
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.21732963338632175
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.9308154014221627
+  },
+  "DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.5740725174042421
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P05\\metrics.json",
+    "sha256": "f5658b5a264649403dd44f2100683a94ea62cddd7bf71d0e77e62ebab674a9e7"
+   }
+  },
+  "written_at": "2026-09-02T23:30:27"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "card": "P14",
+ "lane": "discovery",
+ "written_at": "2026-09-03T01:41:20",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "switch_conditioned": true,
+ "overall_means": {
+  "SU": -1.0986122886681098,
+  "SPERS": -0.7545400586171503,
+  "SDIR": -1.7929431905934667
+ },
+ "kept_fraction": 0.16666666666666666,
+ "cells": {
+  "leave_project_out|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.7779488999625257,
+   "ci": [
+    1.6874219592344,
+    1.8684758406906516
+   ],
+   "n_units": 2,
+   "threshold": 0.03,
+   "perm_p": 0.49947502624868756,
+   "arm": "SDIR",
+   "rival": "SPERS"
+  },
+  "leave_project_out|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.12214892240195563,
+   "ci": [
+    -0.8807479765670698,
+    1.125045821370981
+   ],
+   "n_units": 2,
+   "threshold": 0.03,
+   "perm_p": 1.0,
+   "arm": "SDIR",
+   "rival": "SPERS"
+  },
+  "leave_project_out|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.9500489111822406,
+   "ci": [
+    0.40333699133366485,
+    1.4967608310308163
+   ],
+   "n_units": 2,
+   "threshold": 0.03,
+   "perm_p": 0.4989250537473126,
+   "arm": "SDIR",
+   "rival": "SPERS",
+   "note": "pooled after the conditional cells"
+  },
+  "leave_author_out|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.767190796593495,
+   "ci": [
+    1.6766638558653693,
+    1.857717737321621
+   ],
+   "n_units": 2,
+   "threshold": 0.03,
+   "perm_p": 0.49947502624868756,
+   "arm": "SDIR",
+   "rival": "SPERS"
+  },
+  "leave_author_out|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.11139081903292491,
+   "ci": [
+    -0.8915060799361005,
+    1.1142877180019504
+   ],
+   "n_units": 2,
+   "threshold": 0.03,
+   "perm_p": 1.0,
+   "arm": "SDIR",
+   "rival": "SPERS"
+  },
+  "leave_author_out|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.9392908078132098,
+   "ci": [
+    0.39257888796463414,
+    1.4860027276617855
+   ],
+   "n_units": 2,
+   "threshold": 0.03,
+   "perm_p": 0.4989250537473126,
+   "arm": "SDIR",
+   "rival": "SPERS",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 0
+}

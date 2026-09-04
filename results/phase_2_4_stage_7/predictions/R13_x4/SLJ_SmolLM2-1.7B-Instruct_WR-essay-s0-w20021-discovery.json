@@ -1,0 +1,157 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "b11acd5513675dff",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 153,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 6,
+  "tokens_in": 2599,
+  "tokens_out": 153,
+  "wall_s": 7.784
+ },
+ "confidence": 0.999999191558436,
+ "equivalence_class": [
+  "b0|k0|g0|h1"
+ ],
+ "evidence_sha": "eb45e65895520514",
+ "notes": {
+  "band": 0.047619047619047616,
+  "candidate_preds": {
+   "b0|k0|g0|h0": {
+    "cite:sec4:ref": 0.0,
+    "consult:sec1:src": 0.0,
+    "restructure:sec3:order": 0.0,
+    "write:sec4:s4.2": 1.0
+   },
+   "b0|k0|g0|h1": {
+    "cite:sec4:ref": 0.0,
+    "consult:sec1:src": 0.0,
+    "restructure:sec3:order": 0.0,
+    "write:sec4:s4.2": 1.0
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "expertise_law": {
+    "k0": 1.0
+   },
+   "history_residue": {
+    "h0": 8.084415639754625e-07,
+    "h1": 0.999999191558436
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|k0|g0|h0": 8.084415639754625e-07,
+   "b0|k0|g0|h1": 0.999999191558436
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "no",
+      "tight",
+      "none"
+     ],
+     "text": "belief: library=no source=no deadline=tight checked=none"
+    }
+   ],
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "write",
+      "revise",
+      "fix",
+      "consult",
+      "steady"
+     ],
+     "text": "skill: write,revise weak: fix,consult pace: steady"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "write",
+      "none"
+     ],
+     "text": "1. habit: write intention: s1.1"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "4. habit: revise intention: s3.1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | The maker is currently drafting sec1 (s1.1)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "restructure:sec3:order": 0.0,
+   "write:sec4:s4.2": 1.0
+  },
+  "invalidation": {
+   "correct": 0.39188453965535996,
+   "retain": 0.3769371134918528,
+   "rewrite": 0.23117834685278715
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "restructure:sec3:order": 0.0,
+   "write:sec4:s4.2": 1.0
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.0,
+   "sec3": 0.0,
+   "sec4": 1.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 1.0
+  },
+  "stop": 0.3027999561061045
+ },
+ "version": "PredictionV1"
+}

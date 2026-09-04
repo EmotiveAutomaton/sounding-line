@@ -1,0 +1,84 @@
+{
+ "abstain": true,
+ "arm": "sequential_hypothesis_particles",
+ "canonical_sha": "37bc81523a990ee9",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 219,
+  "model_calls": 8,
+  "retries": 0,
+  "solver_operations": 36,
+  "tokens_in": 3484,
+  "tokens_out": 219,
+  "wall_s": 13.373
+ },
+ "confidence": 0.24999908863650533,
+ "equivalence_class": [
+  "belief: library=no source=yes deadline=loose checked=none / skill: write,revise weak: consult,fix pace: steady / pull: consult > probe / habit: revise intention: s4.1",
+  "belief: library=no source=yes deadline=loose checked=sec1 / skill: write,revise weak: consult,fix pace: steady / pull: check > fix / habit: revise intention: s1.1"
+ ],
+ "evidence_sha": "05cfb0e4b3d3e5dd",
+ "notes": {
+  "receipt": {
+   "ess": [
+    2.514,
+    4.117,
+    4.0
+   ],
+   "initialized": true,
+   "propagated": 3,
+   "rejuvenated": 1,
+   "resampled": 1,
+   "weighted": 3
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec3:order": 0.14285714285714285,
+   "revise:sec1:s1.2": 0.14285714285714285,
+   "revise:sec2:s2.3": 0.14285714285714285,
+   "write:sec1:s1.2": 0.14285714285714285,
+   "write:sec2:s2.2": 0.14285714285714285,
+   "write:sec3:s3.1": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "probe:sec1:tech": 0.021391300097034875,
+   "restructure:sec3:order": 0.0,
+   "revise:sec1:s1.2": 0.09068933431113811,
+   "revise:sec2:s2.3": 0.07892917002035399,
+   "write:sec1:s1.2": 0.30785954754681666,
+   "write:sec2:s2.2": 0.26793777631387483,
+   "write:sec3:s3.1": 0.23319287171078149
+  },
+  "next_section": {
+   "sec1": 0.41994018195498967,
+   "sec2": 0.3468669463342288,
+   "sec3": 0.23319287171078149,
+   "sec4": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.021391300097034875,
+   "restructure": 0.0,
+   "revise": 0.16961850433149211,
+   "write": 0.808990195571473
+  },
+  "stop": 0.04742587317756678
+ },
+ "version": "PredictionV1"
+}

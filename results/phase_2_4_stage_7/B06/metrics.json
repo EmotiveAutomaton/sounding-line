@@ -1,0 +1,98 @@
+{
+ "card": "B06",
+ "lane": "discovery",
+ "written_at": "2026-09-03T03:24:55",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "routing": [
+  {
+   "shape": "K01 has no oracle gap on a target",
+   "action": "that target INSTRUMENT_FAILED; no reader tested on it"
+  },
+  {
+   "shape": "K04 fails with executable true state",
+   "action": "K16 diagnoses; factor-inference comparisons close for that target; a state-use/interface boundary"
+  },
+  {
+   "shape": "candidate recall fails for proximal_goal",
+   "action": "selection comparisons cannot rescue absent candidates"
+  },
+  {
+   "shape": "candidate recall fails for belief_state",
+   "action": "selection comparisons cannot rescue absent candidates"
+  },
+  {
+   "shape": "candidate recall fails for expertise_law",
+   "action": "selection comparisons cannot rescue absent candidates"
+  },
+  {
+   "shape": "candidate recall fails for subjective_action_space",
+   "action": "selection comparisons cannot rescue absent candidates"
+  },
+  {
+   "shape": "candidate recall fails for maker_context",
+   "action": "selection comparisons cannot rescue absent candidates"
+  }
+ ],
+ "outcome_counts": {
+  "INFRASTRUCTURE": 50,
+  "DESCRIPTIVE": 17,
+  "INSTRUMENT_FAILED": 7,
+  "COUNTEREVIDENCE": 13,
+  "VALID_NULL": 3,
+  "INCONCLUSIVE": 19,
+  "SUPPORT_CANDIDATE": 10,
+  "VOID": 3,
+  "NOT_RUN": 1,
+  "null": 1
+ },
+ "gates": {
+  "splits": true,
+  "isolation": true,
+  "canaries": true,
+  "coauthor_loader": true,
+  "mutation_tail": true,
+  "record": true,
+  "mutation_stop": true,
+  "mutation_event": true,
+  "sensitivity": true,
+  "record_written": true,
+  "conformance_laip": true,
+  "conformance_thought_tracing": true,
+  "conformance_autotom": true,
+  "conformance_inverse_planning": true,
+  "conformance_liras": true,
+  "conformance_labtom": true,
+  "construction": false,
+  "discontinuity": false,
+  "supplied_state": false,
+  "stop_state": false,
+  "infer_goal": false,
+  "infer_belief": true,
+  "infer_action_space": false,
+  "infer_law": true,
+  "recall_proximal_goal": false,
+  "recall_belief_state": false,
+  "recall_expertise_law": false,
+  "recall_subjective_action_space": false,
+  "recall_maker_context": false,
+  "learn_law": true,
+  "infer_context": true,
+  "joint_goal_belief": false,
+  "joint_law_space": false,
+  "joint_all": false,
+  "regimes": false,
+  "style_crossover": true,
+  "dated_history": false
+ },
+ "stage8": {
+  "ruling_needed": true,
+  "machine_view": "opened only by the curator after Pass A; no result opens it automatically (§19)"
+ }
+}

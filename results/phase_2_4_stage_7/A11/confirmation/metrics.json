@@ -1,0 +1,111 @@
+{
+ "card": "A11",
+ "lane": "confirmation",
+ "written_at": "2026-09-03T03:24:32",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "validated_rate": 0.4791666666666667,
+ "vs_dom": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "VALID_NULL",
+   "reason": "interval includes zero and excludes a practically useful benefit",
+   "point": -0.2184875139813742,
+   "ci": [
+    -0.5118957619444978,
+    0.08502554649469163
+   ],
+   "n_units": 24,
+   "threshold": 0.08522202935263976,
+   "perm_p": 0.17864106794660267,
+   "arm": "synthesized_agent_model",
+   "rival": "DOM"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "VALID_NULL",
+   "reason": "interval includes zero and excludes a practically useful benefit",
+   "point": -0.4155792625128487,
+   "ci": [
+    -0.8661706381371661,
+    0.021828460488075335
+   ],
+   "n_units": 24,
+   "threshold": 0.08522202935263976,
+   "perm_p": 0.08819559022048898,
+   "arm": "synthesized_agent_model",
+   "rival": "DOM"
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.3170333882471115,
+   "ci": [
+    -0.5386783732306065,
+    -0.06315086918138826
+   ],
+   "n_units": 24,
+   "threshold": 0.08522202935263976,
+   "perm_p": 0.01719914004299785,
+   "arm": "synthesized_agent_model",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "oracle_gap": {
+  "gap": 0.42611014676319875,
+  "n": 24,
+  "oracle_mean": -2.0236597345062797,
+  "dom_mean": -2.4497698812694786
+ },
+ "cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.7933089513157188,
+   "ci": [
+    0.4261702810051276,
+    1.1692191809836423
+   ],
+   "n_units": 24,
+   "threshold": 0.03,
+   "perm_p": 0.0005499725013749313,
+   "arm": "synthesized_agent_model",
+   "rival": "DIR"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 3.585477916072112,
+   "ci": [
+    2.339134296603409,
+    4.782746770051163
+   ],
+   "n_units": 24,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "synthesized_agent_model",
+   "rival": "DIR"
+  },
+  "pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 2.1893934336939154,
+   "ci": [
+    1.4582405719313263,
+    2.9659339344312285
+   ],
+   "n_units": 48,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "synthesized_agent_model",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 8
+}

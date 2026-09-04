@@ -1,0 +1,220 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "WV|essay|s0|w00509|discovery",
+ "cut": 13,
+ "hidden": {
+  "next_action": "write:sec1:s1.2",
+  "next_type": "write",
+  "next_section": "sec1",
+  "next_slot": "s1.2",
+  "stop_next": false,
+  "stopped_at": 14,
+  "boundary_type": "none",
+  "stop_weight": 1.0,
+  "tail": [
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.2",
+    "outcome": "done"
+   },
+   {
+    "type": "restructure",
+    "section": "sec2",
+    "slot": "order",
+    "outcome": "done"
+   }
+  ],
+  "tail_stop": [
+   false,
+   true
+  ],
+  "rejected_alternative": "restructure:sec2:order",
+  "changed_context": {
+   "change": "deadline_lifted",
+   "dist": {
+    "write:sec1:s1.2": 0.7009554663192125,
+    "consult:sec1:src": 0.0,
+    "cite:sec3:ref": 0.0,
+    "restructure:sec2:order": 0.2990445336807876
+   },
+   "choice": "write:sec1:s1.2"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.8407790722450236,
+    "rewrite": 0.12715922483913533,
+    "retain": 0.032061702915841185
+   },
+   "choice": "correct"
+  },
+  "subjective_ids": [
+   "write:sec1:s1.2",
+   "restructure:sec2:order"
+  ],
+  "unavailable_ids": [
+   "consult:sec1:src",
+   "cite:sec3:ref"
+  ],
+  "equivalence_class": [
+   "audit|expert|accurate|habit_write",
+   "audit|expert|false_deadline|habit_write"
+  ]
+ },
+ "oracle": {
+  "next_action": {
+   "write:sec1:s1.2": 0.7009554663192125,
+   "consult:sec1:src": 0.0,
+   "cite:sec3:ref": 0.0,
+   "restructure:sec2:order": 0.2990445336807876
+  },
+  "next_type": {
+   "write": 0.7009554663192125,
+   "revise": 0.0,
+   "check": 0.0,
+   "consult": 0.0,
+   "cite": 0.0,
+   "restructure": 0.2990445336807876,
+   "probe": 0.0,
+   "fix": 0.0
+  },
+  "next_section": {
+   "sec1": 0.7009554663192125,
+   "sec2": 0.2990445336807876,
+   "sec3": 0.0
+  },
+  "p_stop": 0.014774031693273055,
+  "stop_terms": {
+   "satisfaction": 0.0,
+   "deadline": 0.0,
+   "fatigue": 0.0,
+   "audience": 0.0
+  },
+  "boundary_type": "none"
+ },
+ "state_names": {
+  "goal": "audit",
+  "law": "expert",
+  "belief": "false_deadline",
+  "residue": "habit_write",
+  "tendency": "speed"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec1",
+    "sec2"
+   ],
+   "audience": "editor",
+   "tools": {
+    "library": false,
+    "source_access": false
+   },
+   "deadline": "tight",
+   "scheduled_change": "audience_changes"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": false,
+    "source_access": false
+   },
+   "believed_deadline": "loose",
+   "believed_checked": []
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.9,
+    "revise": 0.9,
+    "check": 0.8,
+    "consult": 0.7,
+    "cite": 0.7,
+    "restructure": 0.8,
+    "probe": 0.6,
+    "fix": 0.9
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.1,
+    "revise": 0.1,
+    "check": 0.25,
+    "consult": 0.45,
+    "cite": 0.3,
+    "restructure": 0.3,
+    "probe": 0.3,
+    "fix": 0.25
+   },
+   "chain": {
+    "write>revise": 0.5,
+    "check>fix": 0.9,
+    "restructure>revise": 0.6
+   },
+   "fluency": 0.9,
+   "expected_len": 14.0,
+   "confidence": 0.8
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": false,
+    "source_access": false
+   },
+   "perceived_deadline": "loose",
+   "perceived_required": [
+    "sec1",
+    "sec2"
+   ],
+   "audience": "editor",
+   "audience_weight": 0.52,
+   "believed_checked": []
+  },
+  "subjective_action_space": [
+   "write:sec1:s1.2",
+   "restructure:sec2:order"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": -0.8,
+    "revise": 0.3,
+    "check": 2.1,
+    "consult": 1.2,
+    "cite": 0.2,
+    "restructure": -0.3,
+    "probe": 0.3,
+    "fix": 1.4
+   },
+   "name_ref": "audit"
+  },
+  "history_residue": {
+   "habit": {
+    "write": 0.9
+   },
+   "maintained": null
+  }
+ },
+ "condition": {
+  "supplied": [
+   "external_context",
+   "belief_state",
+   "expertise_law",
+   "maker_context",
+   "subjective_action_space",
+   "history_residue"
+  ],
+  "form": "executable",
+  "regime": "cold",
+  "demos": 0,
+  "candidate_laws": false,
+  "with_options": true,
+  "with_brief": true,
+  "twin": null,
+  "twin_values": null,
+  "unit_ref": "u392da9dedf",
+  "condition_ref": "V02",
+  "render": "prose"
+ },
+ "n_options": 4,
+ "evidence_sha": "9259675ad069f116"
+}

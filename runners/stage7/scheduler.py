@@ -440,7 +440,7 @@ def _cpu_starts(m: Manifest7, running: dict, cap: int, allow_conf: bool, locked:
         if len(running) + len(out) >= cap:
             break
         c = m.cells.get(cell)
-        if not c or c["gpu"] or cell in running:
+        if not c or c["gpu"] or cell in running or cell in out:          # a cell in two lists starts once
             continue
         card = cell.split("/")[0]
         if card in LATE_CELLS and not allow_conf:

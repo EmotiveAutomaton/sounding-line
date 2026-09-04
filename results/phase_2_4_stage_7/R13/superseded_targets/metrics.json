@@ -1,0 +1,250 @@
+{
+ "card": "R13",
+ "lane": "discovery",
+ "written_at": "2026-09-02T20:42:31",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.3376853594326965,
+  "n": 48,
+  "oracle_mean": -2.2554614439645655,
+  "dom_mean": -2.593146803397262
+ },
+ "floor": 0.0675370718865393,
+ "slj_vs_dir": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.6234273743010273,
+   "ci": [
+    -0.4149249380431897,
+    1.3804972354509981
+   ],
+   "n_units": 48,
+   "threshold": 0.03,
+   "perm_p": 0.21963901804909755,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.6295428534270904,
+   "ci": [
+    0.1680916559995839,
+    2.9989779662999307
+   ],
+   "n_units": 48,
+   "threshold": 0.03,
+   "perm_p": 0.029648517574121295,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.1264851138640588,
+   "ci": [
+    0.23937051006824075,
+    1.934120885827845
+   ],
+   "n_units": 96,
+   "threshold": 0.03,
+   "perm_p": 0.012149392530373481,
+   "arm": "SLJ",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "n_worlds": 60,
+ "recall_belief_state": {
+  "recall": 0.175,
+  "n": 120,
+  "redundancy": 0.0,
+  "posterior_mass_on_truth": 0.058333333333333334,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.06666666666666667,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.2833333333333333
+  }
+ },
+ "recall_expertise_law": {
+  "recall": 0.44166666666666665,
+  "n": 120,
+  "redundancy": 0.4083333333333333,
+  "posterior_mass_on_truth": 0.425,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.6833333333333333,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.2
+  }
+ },
+ "recall_maker_context": {
+  "recall": 0.0,
+  "n": 120,
+  "redundancy": 1.0,
+  "posterior_mass_on_truth": 0.0,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.0,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.0
+  }
+ },
+ "recall_subjective_action_space": {
+  "recall": 0.0,
+  "n": 120,
+  "redundancy": 1.0,
+  "posterior_mass_on_truth": 0.0,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.0,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.0
+  }
+ },
+ "recall_proximal_goal": {
+  "recall": 0.3333333333333333,
+  "n": 120,
+  "redundancy": 0.016666666666666666,
+  "posterior_mass_on_truth": 0.19418835640967577,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.4166666666666667,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.25
+  }
+ },
+ "recall_history_residue": {
+  "recall": 0.4083333333333333,
+  "n": 120,
+  "redundancy": 0.0,
+  "posterior_mass_on_truth": 0.168019912056689,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.4,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.4166666666666667
+  }
+ },
+ "cells_stop_ls": {
+  "SLJ": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.32409285167834073,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.07457035153186889,
+   "pooled": -0.19933160160510482
+  },
+  "DIR": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.21732963338632175,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.9308154014221627,
+   "pooled": -0.5740725174042421
+  }
+ },
+ "cells_next_type_ls": {
+  "SLJ": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.3878268998813543,
+   "Qwen/Qwen2.5-1.5B-Instruct": -1.3550602801585112,
+   "pooled": -0.8714435900199328
+  },
+  "DIR": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.1106890361658704,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.1106890361658704,
+   "pooled": -0.1106890361658704
+  }
+ },
+ "cells_next_section_ls": {
+  "SLJ": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.04006174747475038,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.10954272519493874,
+   "pooled": -0.034740488860094176
+  },
+  "DIR": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.0003859612581684745,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.0003859612581684745,
+   "pooled": -0.0003859612581684745
+  }
+ },
+ "cells_changed_context_ls": {
+  "SLJ": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.25712771237029014,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.507544151747681,
+   "pooled": -0.3823359320589856
+  },
+  "DIR": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.11098654066814927,
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.11098654066814927,
+   "pooled": 0.11098654066814927
+  }
+ },
+ "cells_invalidation_ls": {
+  "SLJ": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.08512771771440344,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.14628042147424075,
+   "pooled": -0.1157040695943221
+  },
+  "DIR": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": -0.10264031608529114,
+   "Qwen/Qwen2.5-1.5B-Instruct": -0.10264031608529114,
+   "pooled": -0.10264031608529114
+  }
+ },
+ "class_coverage": {
+  "SLJ": {
+   "n_equivalence": 62,
+   "abstain_rate_on_equivalence": 0.5968,
+   "n_singleton": 34,
+   "false_abstain_rate": 0.5,
+   "coverage_correct_equivalence": 0.5968,
+   "coverage_correct_singleton": 0.5
+  },
+  "DIR": {
+   "n_equivalence": 62,
+   "abstain_rate_on_equivalence": 0.0,
+   "n_singleton": 34,
+   "false_abstain_rate": 0.0,
+   "coverage_correct_equivalence": 0.0,
+   "coverage_correct_singleton": 1.0
+  }
+ },
+ "cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.35867331370733013,
+   "ci": [
+    -1.1227080324340781,
+    0.16738668322048897
+   ],
+   "n_units": 48,
+   "threshold": 0.0675370718865393,
+   "perm_p": 0.4114794260286986,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.3256078471162078,
+   "ci": [
+    -2.5690483350275986,
+    -0.35463631206583246
+   ],
+   "n_units": 48,
+   "threshold": 0.0675370718865393,
+   "perm_p": 0.0066996650167491624,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.842140580411769,
+   "ci": [
+    -1.7159304166270315,
+    -0.21455392067646342
+   ],
+   "n_units": 48,
+   "threshold": 0.0675370718865393,
+   "perm_p": 0.006249687515624219,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 13
+}

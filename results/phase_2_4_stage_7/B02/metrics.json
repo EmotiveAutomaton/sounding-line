@@ -1,0 +1,74 @@
+{
+ "card": "B02",
+ "lane": "discovery",
+ "written_at": "2026-09-03T03:24:43",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "claim": {
+  "card": "A11",
+  "what": "the strongest qualified reconstruction or architecture effect (Does it synthesize the agent model, parse observations/actions, and run inverse inference over that )",
+  "point": 2.8570949827113523,
+  "slot": 2
+ },
+ "confirmation_verdict": {
+  "card": "A11",
+  "cell_id": "A11/confirmation",
+  "lane": "confirmation",
+  "track": "architecture",
+  "readers": [
+   "Qwen/Qwen2.5-1.5B-Instruct",
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+  ],
+  "tier": "minimum",
+  "minutes": 9.48,
+  "gpu_lock_min": 0.0,
+  "strongest_surviving_rival": "end-to-end official-style fixture; direct-answer ablation included",
+  "exec": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "primary": "Does it synthesize the agent model, parse observations/actions, and run inverse inference over that model?",
+  "reason": "directional support at or above the frozen threshold; reader Qwen/Qwen2.5-1.5B-Instruct",
+  "point": 3.585477916072112,
+  "ci": [
+   2.339134296603409,
+   4.782746770051163
+  ],
+  "n_units": 24,
+  "conditional_cells": {
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.7933089513157188
+   },
+   "Qwen/Qwen2.5-1.5B-Instruct": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 3.585477916072112
+   },
+   "pooled": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 2.1893934336939154
+   }
+  },
+  "marker": {
+   "contract_version": "7.0.0",
+   "contract_hash": "3e735f854d500ff6",
+   "inputs": {},
+   "outputs": {
+    "metrics": {
+     "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A11\\confirmation\\metrics.json",
+     "sha256": "4866d46cd98ff38cd0bf48c3c3d4367461f2fc491ac763a3a7bf4f94852c401e"
+    },
+    "cases": {
+     "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A11\\confirmation\\cases.jsonl",
+     "sha256": "c18aafccb0c3f40403bcd767c2544fd18d52b8f47c55402ff006a4b4c99120ad"
+    }
+   },
+   "written_at": "2026-09-03T03:24:43"
+  }
+ },
+ "rc": 0
+}

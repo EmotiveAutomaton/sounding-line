@@ -1,0 +1,465 @@
+{
+ "card": "A15",
+ "lane": "discovery",
+ "written_at": "2026-09-03T00:39:31",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "all_cells": {
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "VALID_NULL",
+   "reason": "interval includes zero and excludes a practically useful benefit",
+   "point": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 1.0,
+   "arm": "DIR",
+   "rival": "DIR"
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "VALID_NULL",
+   "reason": "interval includes zero and excludes a practically useful benefit",
+   "point": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 1.0,
+   "arm": "DIR",
+   "rival": "DIR"
+  },
+  "DIR|pooled": {
+   "outcome": "VALID_NULL",
+   "reason": "interval includes zero and excludes a practically useful benefit",
+   "point": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "n_units": 62,
+   "threshold": 0.03,
+   "perm_p": 1.0,
+   "arm": "DIR",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  },
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5229941242183699,
+   "ci": [
+    0.06337533847496546,
+    0.9839996918944155
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.037398130093495324,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 2.5298930377205076,
+   "ci": [
+    0.2040563837129126,
+    4.3685381104603715
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.019349032548372582,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "SLJ|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.5264435809694388,
+   "ci": [
+    0.3469274429932648,
+    2.499162950645073
+   ],
+   "n_units": 62,
+   "threshold": 0.03,
+   "perm_p": 0.005449727513624319,
+   "arm": "SLJ",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  },
+  "weighted_language_hypotheses|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5858668131597832,
+   "ci": [
+    0.1572796135528659,
+    1.0163957504917651
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.014949252537373132,
+   "arm": "weighted_language_hypotheses",
+   "rival": "DIR"
+  },
+  "weighted_language_hypotheses|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 3.6790803881437832,
+   "ci": [
+    2.7067199341596124,
+    4.673995061958101
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "weighted_language_hypotheses",
+   "rival": "DIR"
+  },
+  "weighted_language_hypotheses|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 2.132473600651783,
+   "ci": [
+    1.4991522902836234,
+    2.7714814686160145
+   ],
+   "n_units": 62,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "weighted_language_hypotheses",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  },
+  "sequential_hypothesis_particles|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.6223920718500486,
+   "ci": [
+    0.0326619693929973,
+    1.2291394284193653
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.04329783510824459,
+   "arm": "sequential_hypothesis_particles",
+   "rival": "DIR"
+  },
+  "sequential_hypothesis_particles|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 2.374346321280163,
+   "ci": [
+    0.03627094157315128,
+    4.2089923138803975
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.027898605069746514,
+   "arm": "sequential_hypothesis_particles",
+   "rival": "DIR"
+  },
+  "sequential_hypothesis_particles|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.498369196565106,
+   "ci": [
+    0.3259394379437629,
+    2.4880968597763857
+   ],
+   "n_units": 62,
+   "threshold": 0.03,
+   "perm_p": 0.007099645017749113,
+   "arm": "sequential_hypothesis_particles",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  },
+  "adaptive_factor_expansion|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5406179539422741,
+   "ci": [
+    0.0010604538070086273,
+    1.0807258200282128
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.05984700764961752,
+   "arm": "adaptive_factor_expansion",
+   "rival": "DIR"
+  },
+  "adaptive_factor_expansion|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 3.676129985685612,
+   "ci": [
+    2.609356144844588,
+    4.720025798055593
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "adaptive_factor_expansion",
+   "rival": "DIR"
+  },
+  "adaptive_factor_expansion|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 2.1083739698139428,
+   "ci": [
+    1.4398224438278793,
+    2.8116432664048365
+   ],
+   "n_units": 62,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "adaptive_factor_expansion",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  },
+  "synthesized_agent_model|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5858668131597832,
+   "ci": [
+    0.1572796135528659,
+    1.0163957504917651
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.014949252537373132,
+   "arm": "synthesized_agent_model",
+   "rival": "DIR"
+  },
+  "synthesized_agent_model|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 3.2334082880467516,
+   "ci": [
+    1.794689237013871,
+    4.465195077343492
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "synthesized_agent_model",
+   "rival": "DIR"
+  },
+  "synthesized_agent_model|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.9096375506032675,
+   "ci": [
+    1.1263045788046162,
+    2.6455452406055766
+   ],
+   "n_units": 62,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "synthesized_agent_model",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  },
+  "epistemic_translation|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.12731336130856152,
+   "ci": [
+    -0.44582172157094757,
+    0.7156953750244731
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.6822658867056647,
+   "arm": "epistemic_translation",
+   "rival": "DIR"
+  },
+  "epistemic_translation|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 2.702609211261931,
+   "ci": [
+    1.0804252189092034,
+    4.081748571329716
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.0015499225038748063,
+   "arm": "epistemic_translation",
+   "rival": "DIR"
+  },
+  "epistemic_translation|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.414961286285246,
+   "ci": [
+    0.5282019186114997,
+    2.2578371715714134
+   ],
+   "n_units": 62,
+   "threshold": 0.03,
+   "perm_p": 0.0015999200039998,
+   "arm": "epistemic_translation",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "compute_by_arm": {
+  "DIR": {
+   "model_calls": 4.709677419354839,
+   "tokens_in": 1502.8225806451612,
+   "tokens_out": 0.0,
+   "solver_operations": 0.0,
+   "wall_s": 3.276241935483871,
+   "retries": 0.0,
+   "cache_hits": 0.0,
+   "n": 62,
+   "vs_dom_point": -2.0838995016985162
+  },
+  "SLJ": {
+   "model_calls": 4.0,
+   "tokens_in": 1247.1451612903227,
+   "tokens_out": 112.43548387096774,
+   "solver_operations": 7.983870967741935,
+   "wall_s": 7.188548387096774,
+   "retries": 0.0,
+   "cache_hits": 0.0,
+   "n": 62,
+   "vs_dom_point": -0.5574559207290777
+  },
+  "weighted_language_hypotheses": {
+   "model_calls": 1.0,
+   "tokens_in": 319.16129032258067,
+   "tokens_out": 127.37096774193549,
+   "solver_operations": 0.14516129032258066,
+   "wall_s": 7.613806451612903,
+   "retries": 0.0,
+   "cache_hits": 0.0,
+   "n": 62,
+   "vs_dom_point": 0.048574098953266906
+  },
+  "sequential_hypothesis_particles": {
+   "model_calls": 4.580645161290323,
+   "tokens_in": 1109.532258064516,
+   "tokens_out": 131.1290322580645,
+   "solver_operations": 12.935483870967742,
+   "wall_s": 7.954354838709678,
+   "retries": 0.0,
+   "cache_hits": 0.0,
+   "n": 62,
+   "vs_dom_point": -0.5855303051334104
+  },
+  "adaptive_factor_expansion": {
+   "model_calls": 4.0,
+   "tokens_in": 1247.1451612903227,
+   "tokens_out": 112.43548387096774,
+   "solver_operations": 36.435483870967744,
+   "wall_s": 7.1788225806451615,
+   "retries": 0.0,
+   "cache_hits": 0.0,
+   "n": 62,
+   "vs_dom_point": 0.024474468115426716
+  },
+  "synthesized_agent_model": {
+   "model_calls": 1.0,
+   "tokens_in": 341.16129032258067,
+   "tokens_out": 72.96774193548387,
+   "solver_operations": 0.16129032258064516,
+   "wall_s": 5.486,
+   "retries": 0.0,
+   "cache_hits": 0.0,
+   "n": 62,
+   "vs_dom_point": -0.1742619510952489
+  },
+  "epistemic_translation": {
+   "model_calls": 1.0,
+   "tokens_in": 278.16129032258067,
+   "tokens_out": 31.35483870967742,
+   "solver_operations": 1.0,
+   "wall_s": 3.857177419354839,
+   "retries": 0.0,
+   "cache_hits": 0.0,
+   "n": 62,
+   "vs_dom_point": -0.6689382154132701
+  }
+ },
+ "gain_per_unit_compute": {
+  "DIR": -0.44247181200447944,
+  "SLJ": -0.13663675463610522,
+  "weighted_language_hypotheses": 0.04850369037047106,
+  "sequential_hypothesis_particles": -0.12431641297949265,
+  "adaptive_factor_expansion": 0.005607808947693767,
+  "synthesized_agent_model": -0.17398133603712448,
+  "epistemic_translation": -0.662315064765614
+ },
+ "names_after_conformance": {
+  "DIR": "DIR",
+  "SLJ": "SLJ",
+  "weighted_language_hypotheses": "LLM-Augmented Inverse Planning",
+  "sequential_hypothesis_particles": "ThoughtTracing",
+  "adaptive_factor_expansion": "AutoToM",
+  "synthesized_agent_model": "LIRAS-style paper reproduction",
+  "epistemic_translation": "LaBToM.jl"
+ },
+ "oracle_gap": {
+  "gap": 0.808787207396256,
+  "n": 31,
+  "oracle_mean": -1.8293337576096744,
+  "dom_mean": -2.63812096500593
+ },
+ "cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.5229941242183699,
+   "ci": [
+    0.06337533847496546,
+    0.9839996918944155
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.037398130093495324,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 2.5298930377205076,
+   "ci": [
+    0.2040563837129126,
+    4.3685381104603715
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.019349032548372582,
+   "arm": "SLJ",
+   "rival": "DIR"
+  },
+  "SLJ|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.5264435809694388,
+   "ci": [
+    0.3469274429932648,
+    2.499162950645073
+   ],
+   "n_units": 62,
+   "threshold": 0.03,
+   "perm_p": 0.005449727513624319,
+   "arm": "SLJ",
+   "rival": "DIR",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 6
+}

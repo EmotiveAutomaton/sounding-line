@@ -1,0 +1,142 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "0a4f878c9c2da873",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 31,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 1607,
+  "tokens_out": 31,
+  "wall_s": 3.537
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|g0"
+ ],
+ "evidence_sha": "7c7e36e19ac3d9b9",
+ "notes": {
+  "band": 0.3333333333333333,
+  "candidate_preds": {
+   "b0|g0": {
+    "check:sec1:s1.1": 0.405858674378081,
+    "check:sec4:s4.1": 0.2675585282693228,
+    "consult:sec1:src": 0.04398210224981175,
+    "fix:sec2:s2.1": 0.1287956743105441
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|g0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "yes",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=no source=yes deadline=loose checked=none"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "check",
+      "fix"
+     ],
+     "text": "prose: check > fix | The maker is currently pulling the habit of checking the source access available."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "equivalent": 1.0
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.40133326268374664,
+   "check:sec4:s4.1": 0.26457519301203336,
+   "cite:sec4:ref": 0.011150215530735731,
+   "consult:sec1:src": 0.043491692330231486,
+   "fix:sec2:s2.1": 0.12735957478255505,
+   "probe:sec1:tech": 0.018901411571659643,
+   "restructure:sec3:order": 0.007350675113353,
+   "revise:sec1:s1.2": 0.023605006463802446,
+   "revise:sec2:s2.2": 0.01630478833946502,
+   "revise:sec3:s3.1": 0.017879969251915345,
+   "revise:sec3:s3.2": 0.017879969251915345,
+   "write:sec1:s1.1": 0.0069534407263335775,
+   "write:sec1:s1.2": 0.0069534407263335775,
+   "write:sec1:s1.3": 0.0069534407263335775,
+   "write:sec2:s2.1": 0.004802980225730549,
+   "write:sec2:s2.2": 0.004802980225730549,
+   "write:sec3:s3.1": 0.005266988872572959,
+   "write:sec3:s3.2": 0.005266988872572959,
+   "write:sec4:s4.1": 0.004583990646489582,
+   "write:sec4:s4.2": 0.004583990646489582
+  },
+  "invalidation": {
+   "correct": 0.8407790722450236,
+   "retain": 0.032061702915841185,
+   "rewrite": 0.12715922483913533
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.4058586743780809,
+   "check:sec4:s4.1": 0.26755852826932275,
+   "cite:sec4:ref": 0.0,
+   "consult:sec1:src": 0.04398210224981174,
+   "fix:sec2:s2.1": 0.12879567431054406,
+   "probe:sec1:tech": 0.019114542844143323,
+   "restructure:sec3:order": 0.00743356091976928,
+   "revise:sec1:s1.2": 0.023871175212392577,
+   "revise:sec2:s2.2": 0.016488640231859007,
+   "revise:sec3:s3.1": 0.018081582797241428,
+   "revise:sec3:s3.2": 0.018081582797241428,
+   "write:sec1:s1.1": 0.007031847339751031,
+   "write:sec1:s1.2": 0.007031847339751031,
+   "write:sec1:s1.3": 0.007031847339751031,
+   "write:sec2:s2.1": 0.004857138365366996,
+   "write:sec2:s2.2": 0.004857138365366996,
+   "write:sec3:s3.1": 0.0053263791480723825,
+   "write:sec3:s3.2": 0.0053263791480723825,
+   "write:sec4:s4.1": 0.0046356794717307866,
+   "write:sec4:s4.2": 0.0046356794717307866
+  },
+  "next_section": {
+   "sec1": 0.5139220367036816,
+   "sec2": 0.15499859127313706,
+   "sec3": 0.054249484810396896,
+   "sec4": 0.27682988721278434
+  },
+  "next_type": {
+   "check": 0.6734172026474037,
+   "cite": 0.0,
+   "consult": 0.04398210224981174,
+   "fix": 0.12879567431054406,
+   "probe": 0.019114542844143323,
+   "restructure": 0.00743356091976928,
+   "revise": 0.07652298103873444,
+   "write": 0.05073393598959343
+  },
+  "stop": 0.014774031693273055
+ },
+ "version": "PredictionV1"
+}

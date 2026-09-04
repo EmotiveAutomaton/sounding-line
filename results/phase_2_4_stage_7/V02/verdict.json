@@ -1,0 +1,54 @@
+{
+ "card": "V02",
+ "cell_id": "V02",
+ "lane": "discovery",
+ "track": "history",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 5.59,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "prospective choice, not an unexplained residual relabeled preference",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "After context and functional competence are matched, does current allocation/redirection predict the next local choice?",
+ "reason": "interval entirely below zero; reader Qwen/Qwen2.5-1.5B-Instruct",
+ "point": -0.3408395290148446,
+ "ci": [
+  -0.6574851839122274,
+  -0.0385947918748887
+ ],
+ "n_units": 31,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "VALID_NULL",
+   "point": -0.311280039396499
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.3408395290148446
+  },
+  "pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.32605978420567183
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V02\\metrics.json",
+    "sha256": "0d0ec623d2a618bba4d506d50cf5b7460c860457101de7a023895dcbd287d7ec"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V02\\cases.jsonl",
+    "sha256": "bcb4625d0c6336c467c6d7449e59459e423675b6a093fc1b927a60faf54184c9"
+   }
+  },
+  "written_at": "2026-09-03T01:56:04"
+ }
+}

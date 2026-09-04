@@ -1,0 +1,80 @@
+{
+ "abstain": false,
+ "arm": "epistemic_translation",
+ "canonical_sha": "03fafcb91712ec21",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 31,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 1,
+  "tokens_in": 435,
+  "tokens_out": 31,
+  "wall_s": 4.193
+ },
+ "confidence": 0.28417569694245864,
+ "equivalence_class": [],
+ "evidence_sha": "98c47200c3af7fc9",
+ "notes": {
+  "receipt": {
+   "parsed": {
+    "believed_checked": [],
+    "believed_deadline": "loose",
+    "believed_tools": {
+     "library": false,
+     "source_access": false
+    }
+   },
+   "source_text": "The maker believes that the library is unavailable but has source access, with no specific deadline mentioned yet, and all sections except Sec4 have been checked."
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec3:s3.1": 0.14285714285714285,
+   "cite:sec4:ref": 0.14285714285714285,
+   "restructure:sec3:order": 0.14285714285714285,
+   "write:sec1:s1.2": 0.14285714285714285,
+   "write:sec2:s2.1": 0.14285714285714285,
+   "write:sec4:s4.1": 0.14285714285714285,
+   "write:sec4:s4.2": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec3:s3.1": 0.01775852043678376,
+   "cite:sec4:ref": 0.0,
+   "restructure:sec3:order": 0.040247473976035716,
+   "write:sec1:s1.2": 0.28417569694245864,
+   "write:sec2:s2.1": 0.25365024615025084,
+   "write:sec4:s4.1": 0.2020840312472355,
+   "write:sec4:s4.2": 0.2020840312472355
+  },
+  "next_section": {
+   "sec1": 0.28417569694245864,
+   "sec2": 0.25365024615025084,
+   "sec3": 0.05800599441281948,
+   "sec4": 0.404168062494471
+  },
+  "next_type": {
+   "check": 0.01775852043678376,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.040247473976035716,
+   "revise": 0.0,
+   "write": 0.9419940055871805
+  },
+  "stop": 0.030768859357148008
+ },
+ "version": "PredictionV1"
+}

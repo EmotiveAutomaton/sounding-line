@@ -1,0 +1,147 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "4ebfe7b274521fe5",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 112,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 9,
+  "tokens_in": 1785,
+  "tokens_out": 112,
+  "wall_s": 6.093
+ },
+ "confidence": 0.9917311535183486,
+ "equivalence_class": [
+  "g0|h0"
+ ],
+ "evidence_sha": "ed644f63bb8450ec",
+ "notes": {
+  "band": 0.08333333333333333,
+  "candidate_preds": {
+   "g0|h0": {
+    "check:sec1:s1.1": 0.11870455150524739,
+    "fix:sec2:s2.1": 0.08852670980248367,
+    "revise:sec3:s3.1": 0.2991305408946656,
+    "revise:sec3:s3.2": 0.2991305408946656
+   },
+   "g0|h1": {
+    "check:sec1:s1.1": 0.06908602901672464,
+    "fix:sec2:s2.1": 0.05152253021990645,
+    "revise:sec3:s3.1": 0.39456218893933087,
+    "revise:sec3:s3.2": 0.39456218893933087
+   },
+   "g0|h2": {
+    "check:sec1:s1.1": 0.24216892036603901,
+    "fix:sec2:s2.1": 0.07968810672930704,
+    "revise:sec3:s3.1": 0.26926502207066877,
+    "revise:sec3:s3.2": 0.26926502207066877
+   }
+  },
+  "factor_marginals": {
+   "history_residue": {
+    "h0": 0.9917311535183486,
+    "h1": 0.00010469311757066705,
+    "h2": 0.008164153364080724
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0|h0": 0.9917311535183486,
+   "g0|h1": 0.00010469311757066705,
+   "g0|h2": 0.008164153364080724
+  },
+  "proposals": {
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "write",
+      "none"
+     ],
+     "text": "habit: write intention: 1"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: 2"
+    },
+    {
+     "ref": "h2",
+     "signature": [
+      "check",
+      "none"
+     ],
+     "text": "habit: check intention: 3"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "write"
+     ],
+     "text": "prose: revise > write | 1. The maker will revise sec1 (s1.2) and write sec2 (s2.3).\n2. The maker will revise sec3 (s3.2) and write sec1 (s1.3"
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "equivalent": 1.0
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.11970733882981777,
+   "cite:sec3:ref": 0.058186722014123296,
+   "fix:sec2:s2.1": 0.08845067600854639,
+   "probe:sec1:tech": 0.06568491572041828,
+   "restructure:sec2:order": 0.0,
+   "revise:sec3:s3.1": 0.2988967052554374,
+   "revise:sec3:s3.2": 0.2988967052554374,
+   "write:sec2:s2.1": 0.0701769369162196
+  },
+  "invalidation": {
+   "correct": 0.4581298596564803,
+   "retain": 0.10409818064501057,
+   "rewrite": 0.43777195969850924
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.11970733882981777,
+   "cite:sec3:ref": 0.058186722014123296,
+   "fix:sec2:s2.1": 0.08845067600854639,
+   "probe:sec1:tech": 0.06568491572041828,
+   "restructure:sec2:order": 0.0,
+   "revise:sec3:s3.1": 0.2988967052554374,
+   "revise:sec3:s3.2": 0.2988967052554374,
+   "write:sec2:s2.1": 0.0701769369162196
+  },
+  "next_section": {
+   "sec1": 0.185392254550236,
+   "sec2": 0.15862761292476596,
+   "sec3": 0.655980132524998
+  },
+  "next_type": {
+   "check": 0.11970733882981777,
+   "cite": 0.058186722014123296,
+   "consult": 0.0,
+   "fix": 0.08845067600854639,
+   "probe": 0.06568491572041828,
+   "restructure": 0.0,
+   "revise": 0.5977934105108748,
+   "write": 0.0701769369162196
+  },
+  "stop": 0.014774031693273057
+ },
+ "version": "PredictionV1"
+}

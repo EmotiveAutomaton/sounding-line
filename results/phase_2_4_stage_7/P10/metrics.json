@@ -1,0 +1,261 @@
+{
+ "card": "P10",
+ "lane": "discovery",
+ "written_at": "2026-09-03T01:18:36",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "by_arm": {
+  "SLJ": {
+   "reliability": {
+    "n": 96,
+    "ece": 0.51,
+    "slope": -0.0577,
+    "intercept": 0.1609,
+    "brier_conf": 0.4187
+   },
+   "risk_coverage": [
+    {
+     "coverage": 0.104,
+     "risk": 4.6555
+    },
+    {
+     "coverage": 0.198,
+     "risk": 4.5007
+    },
+    {
+     "coverage": 0.302,
+     "risk": 4.4465
+    },
+    {
+     "coverage": 0.396,
+     "risk": 4.0321
+    },
+    {
+     "coverage": 0.5,
+     "risk": 3.7812
+    },
+    {
+     "coverage": 0.604,
+     "risk": 3.6103
+    },
+    {
+     "coverage": 0.698,
+     "risk": 3.5052
+    },
+    {
+     "coverage": 0.802,
+     "risk": 3.4099
+    },
+    {
+     "coverage": 0.896,
+     "risk": 3.3078
+    },
+    {
+     "coverage": 1.0,
+     "risk": 3.4353
+    }
+   ],
+   "by_dose": {
+    "low": {
+     "n": 46,
+     "ece": 0.4367,
+     "slope": 0.0873,
+     "intercept": 0.123,
+     "brier_conf": 0.3537
+    },
+    "mid": {
+     "n": 26,
+     "ece": 0.5105,
+     "slope": -0.2987,
+     "intercept": 0.2524,
+     "brier_conf": 0.4127
+    },
+    "high": {
+     "n": 24,
+     "ece": 0.6497,
+     "slope": 0.0262,
+     "intercept": 0.0642,
+     "brier_conf": 0.5497
+    }
+   },
+   "class_coverage": {
+    "n_equivalence": 170,
+    "abstain_rate_on_equivalence": 0.5588,
+    "n_singleton": 70,
+    "false_abstain_rate": 0.5429,
+    "coverage_correct_equivalence": 0.5588,
+    "coverage_correct_singleton": 0.4571
+   }
+  },
+  "DIR": {
+   "reliability": {
+    "n": 96,
+    "ece": 0.3691,
+    "slope": -0.0267,
+    "intercept": 0.1489,
+    "brier_conf": 0.3147
+   },
+   "risk_coverage": [
+    {
+     "coverage": 0.104,
+     "risk": 9.0454
+    },
+    {
+     "coverage": 0.198,
+     "risk": 6.9747
+    },
+    {
+     "coverage": 0.302,
+     "risk": 5.979
+    },
+    {
+     "coverage": 0.396,
+     "risk": 5.7179
+    },
+    {
+     "coverage": 0.5,
+     "risk": 5.522
+    },
+    {
+     "coverage": 0.604,
+     "risk": 5.265
+    },
+    {
+     "coverage": 0.698,
+     "risk": 5.2305
+    },
+    {
+     "coverage": 0.802,
+     "risk": 4.9386
+    },
+    {
+     "coverage": 0.896,
+     "risk": 4.699
+    },
+    {
+     "coverage": 1.0,
+     "risk": 4.5618
+    }
+   ],
+   "by_dose": {
+    "low": {
+     "n": 46,
+     "ece": 0.4324,
+     "slope": -0.1278,
+     "intercept": 0.1288,
+     "brier_conf": 0.3321
+    },
+    "mid": {
+     "n": 26,
+     "ece": 0.2749,
+     "slope": -0.3433,
+     "intercept": 0.4467,
+     "brier_conf": 0.3417
+    },
+    "high": {
+     "n": 24,
+     "ece": 0.379,
+     "slope": 0.5088,
+     "intercept": -0.1314,
+     "brier_conf": 0.2521
+    }
+   },
+   "class_coverage": {
+    "n_equivalence": 84,
+    "abstain_rate_on_equivalence": 0.0,
+    "n_singleton": 36,
+    "false_abstain_rate": 0.0,
+    "coverage_correct_equivalence": 0.0,
+    "coverage_correct_singleton": 1.0
+   }
+  },
+  "DOM": {
+   "reliability": {
+    "n": 48,
+    "ece": 0.375,
+    "slope": null,
+    "intercept": null,
+    "brier_conf": 0.25
+   },
+   "risk_coverage": [
+    {
+     "coverage": 0.104,
+     "risk": 2.4157
+    },
+    {
+     "coverage": 0.208,
+     "risk": 2.33
+    },
+    {
+     "coverage": 0.292,
+     "risk": 2.4958
+    },
+    {
+     "coverage": 0.396,
+     "risk": 2.5005
+    },
+    {
+     "coverage": 0.5,
+     "risk": 2.4531
+    },
+    {
+     "coverage": 0.604,
+     "risk": 2.6072
+    },
+    {
+     "coverage": 0.708,
+     "risk": 2.5888
+    },
+    {
+     "coverage": 0.792,
+     "risk": 2.5647
+    },
+    {
+     "coverage": 0.896,
+     "risk": 2.6039
+    },
+    {
+     "coverage": 1.0,
+     "risk": 2.5931
+    }
+   ],
+   "by_dose": {
+    "low": {
+     "n": 23,
+     "ece": 0.413,
+     "slope": null,
+     "intercept": null,
+     "brier_conf": 0.25
+    },
+    "mid": {
+     "n": 13,
+     "ece": 0.3462,
+     "slope": null,
+     "intercept": null,
+     "brier_conf": 0.25
+    },
+    "high": {
+     "n": 12,
+     "ece": 0.3333,
+     "slope": null,
+     "intercept": null,
+     "brier_conf": 0.25
+    }
+   },
+   "class_coverage": {
+    "n_equivalence": 42,
+    "abstain_rate_on_equivalence": 0.0,
+    "n_singleton": 18,
+    "false_abstain_rate": 0.0,
+    "coverage_correct_equivalence": 0.0,
+    "coverage_correct_singleton": 1.0
+   }
+  }
+ }
+}

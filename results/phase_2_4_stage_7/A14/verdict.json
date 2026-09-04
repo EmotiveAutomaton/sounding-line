@@ -1,0 +1,54 @@
+{
+ "card": "A14",
+ "cell_id": "A14",
+ "lane": "discovery",
+ "track": "architecture",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 9.75,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "executable factor graph, posterior updates, and predictions at each revision",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does the Sounding joint reader revise mutually constraining factor hypotheses rather than produce a longer rationale?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader Qwen/Qwen2.5-1.5B-Instruct",
+ "point": 0.004375673144751342,
+ "ci": [
+  -0.03666497577699448,
+  0.06459777846579655
+ ],
+ "n_units": 24,
+ "conditional_cells": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.04273873615788795
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.004375673144751342
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.023557204651319646
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A14\\metrics.json",
+    "sha256": "f5872e95b9b6efd3d1394326d01f84ff0ca139a423334f4c968fb9027549d7ab"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A14\\cases.jsonl",
+    "sha256": "33b6c4bf80d8a7b1693c3690e2e9aa8dcf12fff895aebeaebd3c9981e73fab07"
+   }
+  },
+  "written_at": "2026-09-02T23:39:57"
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "card": "R16",
+ "lane": "discovery",
+ "written_at": "2026-09-02T22:30:40",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "class_coverage": {
+  "n_equivalence": 66,
+  "abstain_rate_on_equivalence": 0.5909,
+  "n_singleton": 26,
+  "false_abstain_rate": 0.7308,
+  "coverage_correct_equivalence": 0.5909,
+  "coverage_correct_singleton": 0.2692
+ },
+ "eig_ratio_mean": 1.0,
+ "n_eig": 46,
+ "note": "the discriminator is the option whose observation most reduces the reader's own candidate entropy; the ratio is against the reader's best option (1.0 by construction when chosen greedily), reported with the class coverage as the R16 receipt"
+}

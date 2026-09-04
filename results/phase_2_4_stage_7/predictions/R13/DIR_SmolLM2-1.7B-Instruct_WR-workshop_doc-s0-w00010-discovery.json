@@ -1,0 +1,71 @@
+{
+ "abstain": false,
+ "arm": "DIR",
+ "canonical_sha": "899a3fe14545529a",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 13,
+  "model_calls": 13,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 4308,
+  "tokens_out": 0,
+  "wall_s": 3.643
+ },
+ "confidence": 0.42536523760405925,
+ "equivalence_class": [],
+ "evidence_sha": "654244313e6761e6",
+ "notes": {},
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.5813012844100163,
+   "equivalent": 0.07163037700621022,
+   "fatigue": 0.1492905256199038,
+   "satisfaction": 0.1977778129638698
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.011863032979847752,
+   "check:sec2:s2.1": 0.22658040688961395,
+   "check:sec3:s3.1": 0.0989856371208647,
+   "cite:sec3:ref": 0.056400315926516405,
+   "consult:sec1:src": 0.020179698872438416,
+   "write:sec1:s1.1": 0.08411620816281674,
+   "write:sec2:s2.1": 0.016320999302992117,
+   "write:sec3:s3.1": 0.3379251402842219,
+   "write:sec3:s3.2": 0.14762856046068815
+  },
+  "invalidation": {
+   "correct": 0.27611727933623204,
+   "retain": 0.5665558372865523,
+   "rewrite": 0.1573268833772156
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.2040301646404006,
+   "check:sec2:s2.1": 0.42536523760405925,
+   "check:sec3:s3.1": 0.011268324728420062,
+   "cite:sec3:ref": 0.059394288185696364,
+   "consult:sec1:src": 0.03279063147396233,
+   "write:sec1:s1.1": 0.11092927641117062,
+   "write:sec2:s2.1": 0.13384711054405124,
+   "write:sec3:s3.1": 0.013178027808291611,
+   "write:sec3:s3.2": 0.009196938603947873
+  },
+  "next_section": {
+   "sec1": 0.5548169057150464,
+   "sec2": 0.23128210965364238,
+   "sec3": 0.2139009846313113
+  },
+  "next_type": {
+   "check": 0.015250059739854747,
+   "cite": 0.021506031279315573,
+   "consult": 0.002124852045463733,
+   "fix": 0.0038944841824248037,
+   "probe": 0.04697349095770712,
+   "restructure": 0.8756567498125811,
+   "revise": 0.010518118640354585,
+   "write": 0.024076213342298307
+  },
+  "stop": 0.19682619893177905
+ },
+ "version": "PredictionV1"
+}

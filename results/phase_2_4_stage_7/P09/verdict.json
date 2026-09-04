@@ -1,0 +1,66 @@
+{
+ "card": "P09",
+ "cell_id": "P09",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 21.23,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "sum of per-event proper scores plus localization audit",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does the model improve the whole withheld tail rather than one queried event?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader SLJ|pooled",
+ "point": -1.1728468100589375,
+ "ci": [
+  -2.735653797948437,
+  0.10287943288617366
+ ],
+ "n_units": 26,
+ "conditional_cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -1.2358664791704348
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -1.1098271409474405
+  },
+  "SLJ|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -1.1728468100589375
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -2.7019414841760185
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -8.733112882230829
+  },
+  "DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -5.717527183203424
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P09\\metrics.json",
+    "sha256": "d37545a061065e79a0c935feae88f222d8596a82e8d4c1ba715ac6e0c2641307"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P09\\cases.jsonl",
+    "sha256": "de9946d6b5a178ec3403d283ac7c88e5b9edd91ce20fceb1022ce4eebdd32c1a"
+   }
+  },
+  "written_at": "2026-09-03T01:18:35"
+ }
+}

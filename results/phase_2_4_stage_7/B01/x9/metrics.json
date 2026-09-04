@@ -1,0 +1,78 @@
+{
+ "card": "B01",
+ "lane": "discovery",
+ "written_at": "2026-09-03T03:43:49",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "claim": {
+  "card": "K14",
+  "what": "the strongest supplied-state capability effect (With C_m+B+A+G+H supplied plus demonstrations, can it infer the missing expertise law?)",
+  "point": 0.5738943509281512,
+  "slot": 1
+ },
+ "confirmation_verdict": {
+  "card": "K14",
+  "cell_id": "K14/confirmation",
+  "lane": "confirmation",
+  "track": "supplied_state",
+  "readers": [
+   "Qwen/Qwen2.5-1.5B-Instruct",
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+  ],
+  "tier": "minimum",
+  "minutes": 18.91,
+  "gpu_lock_min": 0.0,
+  "strongest_surviving_rival": "held-out action under a new state; selecting a listed law is scored separately",
+  "exec": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
+  "primary": "With C_m+B+A+G+H supplied plus demonstrations, can it infer the missing expertise law?",
+  "reason": "directional support at or above the frozen threshold; reader LEARN|-; learned (LEARN, SLJ) versus selected (KL) scored apart",
+  "point": 0.5450589191032437,
+  "ci": [
+   0.28472856577412214,
+   0.8106829371351065
+  ],
+  "n_units": 98,
+  "conditional_cells": {
+   "LEARN|-": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.5450589191032437
+   },
+   "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+    "outcome": "INCONCLUSIVE",
+    "point": 0.05797460913308168
+   },
+   "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "point": 0.2676432710399067
+   },
+   "SLJ|pooled": {
+    "outcome": "INCONCLUSIVE",
+    "point": 0.16280894008649419
+   }
+  },
+  "marker": {
+   "contract_version": "7.0.0",
+   "contract_hash": "3e735f854d500ff6",
+   "inputs": {},
+   "outputs": {
+    "metrics": {
+     "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K14\\confirmation\\metrics.json",
+     "sha256": "709b6aa292dbd8bffd24daa354a129ed7248fad009bc769e17c40fdafa16b11c"
+    },
+    "cases": {
+     "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\K14\\confirmation\\cases.jsonl",
+     "sha256": "ba1d6f48c2b8b4c30fb7efa5e13e86aebb65355fc276ae2dac9ba28e46c9cdfe"
+    }
+   },
+   "written_at": "2026-09-03T03:43:49"
+  }
+ },
+ "rc": 0
+}

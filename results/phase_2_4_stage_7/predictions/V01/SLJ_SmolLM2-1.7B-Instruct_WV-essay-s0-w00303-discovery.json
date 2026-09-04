@@ -1,0 +1,105 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "f9e56d84c1f80ae3",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 112,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 2131,
+  "tokens_out": 112,
+  "wall_s": 6.069
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "g0|h0"
+ ],
+ "evidence_sha": "0da35c4d7557661c",
+ "notes": {
+  "band": 0.047619047619047616,
+  "candidate_preds": {
+   "g0|h0": {
+    "cite:sec4:ref": 1.0,
+    "consult:sec1:src": 0.0,
+    "restructure:sec3:order": 0.0
+   }
+  },
+  "factor_marginals": {
+   "history_residue": {
+    "h0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0|h0": 1.0
+  },
+  "proposals": {
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: 1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "prose: revise > restructure | 1. pull: revise > sec2\n2. pull: revise > sec3\n3. pull: revise > sec1\n4. pull: revise > sec4\n5. pull: revise > sec2\n6. pu"
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "fatigue": 1.0
+  },
+  "changed_context": {
+   "cite:sec4:ref": 1.0,
+   "consult:sec1:src": 0.0,
+   "restructure:sec3:order": 0.0
+  },
+  "invalidation": {
+   "correct": 0.4581298596564803,
+   "retain": 0.10409818064501057,
+   "rewrite": 0.43777195969850924
+  },
+  "next_action": {
+   "cite:sec4:ref": 1.0,
+   "consult:sec1:src": 0.0,
+   "restructure:sec3:order": 0.0
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.0,
+   "sec3": 0.0,
+   "sec4": 1.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 1.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.05468131721594076
+ },
+ "version": "PredictionV1"
+}

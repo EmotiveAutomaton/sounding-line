@@ -1,0 +1,58 @@
+{
+ "card": "P12",
+ "cell_id": "P12",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 5.99,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "style-matched discontinuity and style-shifted no-discontinuity crossover",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "primary": "Does discontinuity localization survive surface normalization and defeat stylometry-only rivals?",
+ "reason": "directional support at or above the frozen threshold; reader matched|HPROC|-; stylometry fires on the style shift 1.0; the process reader's none-mass there 0.2297692638167922",
+ "point": 1.9198318488900925,
+ "ci": [
+  1.3004404898190924,
+  2.403874979861976
+ ],
+ "n_units": 12,
+ "conditional_cells": {
+  "matched|HPROC|-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 1.9198318488900925
+  },
+  "matched|HDIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.2609785899679631
+  },
+  "matched|HDIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.6037473768394358
+  },
+  "matched|HDIR|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.43236298340369944
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P12\\metrics.json",
+    "sha256": "bba031c10420800cb0731feb44d184f10dbfa0dbc4173e9e0faa6c4a55e0d17a"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P12\\cases.jsonl",
+    "sha256": "ccbf1b307bfd2f9b7374d974a3af38a486f1fb3a03de947cf9a9a5d1deffd71c"
+   }
+  },
+  "written_at": "2026-09-03T01:24:36"
+ }
+}

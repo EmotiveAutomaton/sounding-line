@@ -1,0 +1,66 @@
+{
+ "card": "P14",
+ "cell_id": "P14",
+ "lane": "discovery",
+ "track": "prospective",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 7.26,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "switch-conditioned score under leave-project-out and leave-author-out splits",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "primary": "In ScholaWrite, can the reader predict the moment and direction of a goal switch rather than win on label persistence?",
+ "reason": "directional support at or above the frozen threshold; reader leave_project_out|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": 1.7779488999625257,
+ "ci": [
+  1.6874219592344,
+  1.8684758406906516
+ ],
+ "n_units": 2,
+ "conditional_cells": {
+  "leave_project_out|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 1.7779488999625257
+  },
+  "leave_project_out|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.12214892240195563
+  },
+  "leave_project_out|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.9500489111822406
+  },
+  "leave_author_out|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 1.767190796593495
+  },
+  "leave_author_out|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.11139081903292491
+  },
+  "leave_author_out|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.9392908078132098
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P14\\metrics.json",
+    "sha256": "424704dd45d8ecd8a891258884f477a6335cd9ebbf1aa590e3742eebd53f1275"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\P14\\cases.jsonl",
+    "sha256": "dac478866d6e78b03db9865b94cf372bc9eaaa825d0d50ceef22f54bc71ab4bb"
+   }
+  },
+  "written_at": "2026-09-03T01:41:29"
+ }
+}

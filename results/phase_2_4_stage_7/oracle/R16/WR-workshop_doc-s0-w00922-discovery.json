@@ -1,0 +1,198 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "WR|workshop_doc|s0|w00922|discovery",
+ "cut": 14,
+ "hidden": {
+  "next_action": null,
+  "next_type": null,
+  "next_section": null,
+  "next_slot": null,
+  "stop_next": true,
+  "stopped_at": 13,
+  "boundary_type": "satisfaction",
+  "stop_weight": 0.08110305158253951,
+  "tail": [],
+  "tail_stop": [],
+  "rejected_alternative": null,
+  "changed_context": {
+   "change": "library_arrives",
+   "dist": {
+    "check:sec1:s1.1": 0.45619811041860264,
+    "check:sec2:s2.1": 0.47763798584425765,
+    "consult:sec1:src": 0.04943728742362816,
+    "cite:sec3:ref": 0.016726616313511578
+   },
+   "choice": "check:sec1:s1.1"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.8407790722450236,
+    "rewrite": 0.12715922483913533,
+    "retain": 0.032061702915841185
+   },
+   "choice": "correct"
+  },
+  "subjective_ids": [
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "consult:sec1:src"
+  ],
+  "unavailable_ids": [
+   "cite:sec3:ref"
+  ],
+  "equivalence_class": [
+   "produce|expert|accurate|habit_check",
+   "produce|expert|false_deadline|habit_check"
+  ]
+ },
+ "oracle": {
+  "next_action": {
+   "check:sec1:s1.1": 0.4639585673602032,
+   "check:sec2:s2.1": 0.48576315983810864,
+   "consult:sec1:src": 0.05027827280168805,
+   "cite:sec3:ref": 0.0
+  },
+  "next_type": {
+   "write": 0.0,
+   "revise": 0.0,
+   "check": 0.9497217271983118,
+   "consult": 0.05027827280168805,
+   "cite": 0.0,
+   "restructure": 0.0,
+   "probe": 0.0,
+   "fix": 0.0
+  },
+  "next_section": {
+   "sec1": 0.5142368401618912,
+   "sec2": 0.48576315983810864,
+   "sec3": 0.0
+  },
+  "p_stop": 0.40131233988754794,
+  "stop_terms": {
+   "satisfaction": 3.8,
+   "deadline": 0.0,
+   "fatigue": 0.0,
+   "audience": 0.0
+  },
+  "boundary_type": "satisfaction"
+ },
+ "state_names": {
+  "goal": "produce",
+  "law": "expert",
+  "belief": "accurate",
+  "residue": "habit_check",
+  "tendency": "speed"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec2",
+    "sec3"
+   ],
+   "audience": "editor",
+   "tools": {
+    "library": false,
+    "source_access": true
+   },
+   "deadline": "loose",
+   "scheduled_change": "library_withdrawn"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": false,
+    "source_access": true
+   },
+   "believed_deadline": "loose",
+   "believed_checked": []
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.9,
+    "revise": 0.9,
+    "check": 0.8,
+    "consult": 0.7,
+    "cite": 0.7,
+    "restructure": 0.8,
+    "probe": 0.6,
+    "fix": 0.9
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.1,
+    "revise": 0.1,
+    "check": 0.25,
+    "consult": 0.45,
+    "cite": 0.3,
+    "restructure": 0.3,
+    "probe": 0.3,
+    "fix": 0.25
+   },
+   "chain": {
+    "write>revise": 0.5,
+    "check>fix": 0.9,
+    "restructure>revise": 0.6
+   },
+   "fluency": 0.9,
+   "expected_len": 14.0,
+   "confidence": 0.8
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": false,
+    "source_access": true
+   },
+   "perceived_deadline": "loose",
+   "perceived_required": [
+    "sec2",
+    "sec3"
+   ],
+   "audience": "editor",
+   "audience_weight": 0.52,
+   "believed_checked": []
+  },
+  "subjective_action_space": [
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "consult:sec1:src"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": -0.8,
+    "revise": 0.3,
+    "check": 2.1,
+    "consult": 1.2,
+    "cite": 0.2,
+    "restructure": -0.3,
+    "probe": 0.3,
+    "fix": 1.4
+   },
+   "name_ref": "audit"
+  },
+  "history_residue": {
+   "habit": {
+    "check": 0.9
+   },
+   "maintained": null
+  }
+ },
+ "condition": {
+  "supplied": [],
+  "form": "executable",
+  "regime": "cold",
+  "demos": 0,
+  "candidate_laws": false,
+  "with_options": true,
+  "with_brief": true,
+  "twin": null,
+  "twin_values": null,
+  "unit_ref": "u94baaf2a82",
+  "condition_ref": "R16",
+  "render": "prose"
+ },
+ "n_options": 4,
+ "evidence_sha": "3cc1928f6a7cfb6f"
+}

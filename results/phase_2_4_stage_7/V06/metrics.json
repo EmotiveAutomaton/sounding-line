@@ -1,0 +1,69 @@
+{
+ "card": "V06",
+ "lane": "discovery",
+ "written_at": "2026-09-03T02:05:45",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.5451084805587264,
+  "n": 40,
+  "oracle_mean": -2.0880374574817235,
+  "dom_mean": -2.63314593804045
+ },
+ "floor": 0.10902169611174528,
+ "dated_vs_sol_ceiling": {
+  "-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.4843162323581677,
+   "ci": [
+    0.25900506551389213,
+    0.713130191038852
+   ],
+   "n_units": 40,
+   "threshold": 0.03,
+   "perm_p": 0.00034998250087495624,
+   "arm": "DATED",
+   "rival": "SOL"
+  }
+ },
+ "dated_vs_dom": {
+  "-": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 0.4222926873036254,
+   "ci": [
+    0.05116230680062393,
+    0.8426880870702826
+   ],
+   "n_units": 40,
+   "threshold": 0.10902169611174528,
+   "perm_p": 0.04389780510974451,
+   "arm": "DATED",
+   "rival": "DOM"
+  }
+ },
+ "cells": {
+  "-": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.046937782383967744,
+   "ci": [
+    -0.02133235450185124,
+    0.11234392334040244
+   ],
+   "n_units": 40,
+   "threshold": 0.10902169611174528,
+   "perm_p": 0.1903904804759762,
+   "arm": "DATED",
+   "rival": "AGG"
+  }
+ },
+ "degenerate_worlds": 8
+}

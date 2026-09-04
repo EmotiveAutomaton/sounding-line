@@ -1,0 +1,146 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "04496d221dc4588e",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 32,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 1655,
+  "tokens_out": 32,
+  "wall_s": 3.796
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|g0"
+ ],
+ "evidence_sha": "f602cd7a12e6ccb5",
+ "notes": {
+  "band": 0.3333333333333333,
+  "candidate_preds": {
+   "b0|g0": {
+    "revise:sec1:s1.2": 0.1519018500401819,
+    "revise:sec1:s1.3": 0.1519018500401819,
+    "revise:sec2:s2.2": 0.16657685775984898,
+    "revise:sec3:s3.3": 0.14497595806002828
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|g0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "yes",
+      "yes",
+      "tight",
+      "none"
+     ],
+     "text": "belief: library=yes source=yes deadline=tight checked=none"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "prose: revise > restructure | The maker is currently working on revising sec2 (s2.1)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.033259674925120095,
+   "check:sec4:s4.1": 0.025193043937597453,
+   "cite:sec4:ref": 0.010948851762119962,
+   "consult:sec1:src": 0.012468863151516012,
+   "probe:sec1:tech": 0.0147302213206402,
+   "restructure:sec3:order": 0.04772506879409431,
+   "revise:sec1:s1.2": 0.1519018500401819,
+   "revise:sec1:s1.3": 0.1519018500401819,
+   "revise:sec2:s2.2": 0.16657685775984898,
+   "revise:sec3:s3.3": 0.14497595806002828,
+   "revise:sec4:s4.1": 0.12617616095102724,
+   "write:sec1:s1.1": 0.010554664787920293,
+   "write:sec1:s1.2": 0.010554664787920293,
+   "write:sec1:s1.3": 0.010554664787920293,
+   "write:sec2:s2.1": 0.011574334971004019,
+   "write:sec2:s2.2": 0.011574334971004019,
+   "write:sec2:s2.3": 0.011574334971004019,
+   "write:sec3:s3.1": 0.010073429910342897,
+   "write:sec3:s3.2": 0.010073429910342897,
+   "write:sec3:s3.3": 0.010073429910342897,
+   "write:sec4:s4.1": 0.008767155124921058,
+   "write:sec4:s4.2": 0.008767155124921058
+  },
+  "invalidation": {
+   "correct": 0.34980350286215595,
+   "retain": 0.04052082424588788,
+   "rewrite": 0.6096756728919561
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.033259674925120095,
+   "check:sec4:s4.1": 0.025193043937597453,
+   "cite:sec4:ref": 0.010948851762119962,
+   "consult:sec1:src": 0.012468863151516012,
+   "probe:sec1:tech": 0.0147302213206402,
+   "restructure:sec3:order": 0.04772506879409431,
+   "revise:sec1:s1.2": 0.1519018500401819,
+   "revise:sec1:s1.3": 0.1519018500401819,
+   "revise:sec2:s2.2": 0.16657685775984898,
+   "revise:sec3:s3.3": 0.14497595806002828,
+   "revise:sec4:s4.1": 0.12617616095102724,
+   "write:sec1:s1.1": 0.010554664787920293,
+   "write:sec1:s1.2": 0.010554664787920293,
+   "write:sec1:s1.3": 0.010554664787920293,
+   "write:sec2:s2.1": 0.011574334971004019,
+   "write:sec2:s2.2": 0.011574334971004019,
+   "write:sec2:s2.3": 0.011574334971004019,
+   "write:sec3:s3.1": 0.010073429910342897,
+   "write:sec3:s3.2": 0.010073429910342897,
+   "write:sec3:s3.3": 0.010073429910342897,
+   "write:sec4:s4.1": 0.008767155124921058,
+   "write:sec4:s4.2": 0.008767155124921058
+  },
+  "next_section": {
+   "sec1": 0.3626667789162809,
+   "sec2": 0.23455953759798115,
+   "sec3": 0.22292131658515127,
+   "sec4": 0.17985236690058676
+  },
+  "next_type": {
+   "check": 0.05845271886271755,
+   "cite": 0.010948851762119962,
+   "consult": 0.012468863151516012,
+   "fix": 0.0,
+   "probe": 0.0147302213206402,
+   "restructure": 0.04772506879409431,
+   "revise": 0.7415326768512682,
+   "write": 0.11414159925764374
+  },
+  "stop": 0.019608285384129086
+ },
+ "version": "PredictionV1"
+}

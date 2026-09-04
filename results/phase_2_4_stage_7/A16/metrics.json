@@ -1,0 +1,87 @@
+{
+ "card": "A16",
+ "lane": "discovery",
+ "written_at": "2026-09-03T00:57:09",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.4448517974048964,
+  "n": 23,
+  "oracle_mean": -2.229095944644983,
+  "dom_mean": -2.67394774204988
+ },
+ "floor": 0.08897035948097928,
+ "goal_recall_by_size": {
+  "qwen05": 0.3333333333333333,
+  "qwen15": 0.4,
+  "qwen3": 0.3,
+  "qwen9b": 0.6666666666666666
+ },
+ "k04_gate": false,
+ "caveats": "0.5B/1.5B/3B share the Qwen2.5 family and the HF letter readout; the 9B is Qwen3.5 through Ollama (Q4_K_M, top-20 log probabilities)",
+ "cells": {
+  "qwen05": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.0339648511968953,
+   "ci": [
+    -1.8496170847969224,
+    -0.18594040113521673
+   ],
+   "n_units": 23,
+   "threshold": 0.08897035948097928,
+   "perm_p": 0.029048547572621368,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "qwen15": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -1.6396420178262665,
+   "ci": [
+    -2.7918348735627285,
+    -0.5203525018268828
+   ],
+   "n_units": 23,
+   "threshold": 0.08897035948097928,
+   "perm_p": 0.014499275036248187,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "qwen3": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -3.1141075190092713,
+   "ci": [
+    -4.823831578052094,
+    -1.4529755134680273
+   ],
+   "n_units": 23,
+   "threshold": 0.08897035948097928,
+   "perm_p": 0.0018999050047497626,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "qwen9b": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.5466954061378828,
+   "ci": [
+    -1.6250330986401955,
+    0.3557063324599446
+   ],
+   "n_units": 23,
+   "threshold": 0.08897035948097928,
+   "perm_p": 0.2998850057497125,
+   "arm": "DIR",
+   "rival": "DOM"
+  }
+ },
+ "degenerate_worlds": 16
+}

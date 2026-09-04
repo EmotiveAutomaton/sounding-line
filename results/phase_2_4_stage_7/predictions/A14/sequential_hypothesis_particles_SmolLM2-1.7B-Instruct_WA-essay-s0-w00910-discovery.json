@@ -1,0 +1,82 @@
+{
+ "abstain": false,
+ "arm": "sequential_hypothesis_particles",
+ "canonical_sha": "3dd474ad6d697199",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 50,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 6,
+  "tokens_in": 1333,
+  "tokens_out": 50,
+  "wall_s": 4.302
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "belief: library=yes source=yes deadline=loose checked=none / prose: revise > restructure | The maker is currently working on revising sec3 (s3.2)."
+ ],
+ "evidence_sha": "3e3fbb6a102825f7",
+ "notes": {
+  "receipt": {
+   "ess": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "initialized": true,
+   "propagated": 3,
+   "rejuvenated": 0,
+   "resampled": 0,
+   "weighted": 3
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.14285714285714285,
+   "cite:sec3:ref": 0.14285714285714285,
+   "consult:sec1:src": 0.14285714285714285,
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "write:sec2:s2.2": 0.14285714285714285,
+   "write:sec3:s3.2": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.44804252202042805,
+   "cite:sec3:ref": 0.14395078588423466,
+   "consult:sec1:src": 0.13998773474423393,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec2:order": 0.0,
+   "write:sec2:s2.2": 0.14098283468364803,
+   "write:sec3:s3.2": 0.12703612266745543
+  },
+  "next_section": {
+   "sec1": 0.13998773474423393,
+   "sec2": 0.5890253567040761,
+   "sec3": 0.27098690855169005
+  },
+  "next_type": {
+   "check": 0.44804252202042805,
+   "cite": 0.14395078588423466,
+   "consult": 0.13998773474423393,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.2680189573511035
+  },
+  "stop": 0.05796323926507352
+ },
+ "version": "PredictionV1"
+}

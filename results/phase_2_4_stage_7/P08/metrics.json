@@ -1,0 +1,112 @@
+{
+ "card": "P08",
+ "lane": "discovery",
+ "written_at": "2026-09-03T00:39:44",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "source": "R13",
+ "key": "invalidation_ls",
+ "oracle_gap": {
+  "gap": 0.08041156563252468,
+  "n": 60,
+  "oracle_mean": -0.915560406950294,
+  "dom_mean": -0.9959719725828187
+ },
+ "floor": 0.03,
+ "vs_pers": null,
+ "cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.08512771771440344,
+   "ci": [
+    -0.21000902154171378,
+    0.035206660338629715
+   ],
+   "n_units": 60,
+   "threshold": 0.03,
+   "perm_p": 0.17564121793910303,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "VALID_NULL",
+   "reason": "interval includes zero and excludes a practically useful benefit",
+   "point": -0.14628042147424075,
+   "ci": [
+    -0.2952214367497573,
+    0.0042637675838326445
+   ],
+   "n_units": 60,
+   "threshold": 0.03,
+   "perm_p": 0.06134693265336733,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "SLJ|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.1157040695943221,
+   "ci": [
+    -0.21278270986204523,
+    -0.019688641751695667
+   ],
+   "n_units": 60,
+   "threshold": 0.03,
+   "perm_p": 0.020198990050497474,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  },
+  "DIR|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.1708059434060565,
+   "ci": [
+    -0.318814482086547,
+    -0.022876784711654795
+   ],
+   "n_units": 60,
+   "threshold": 0.03,
+   "perm_p": 0.030198490075496225,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "DIR|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.7274717518802752,
+   "ci": [
+    -1.191793584924701,
+    -0.31878229157665294
+   ],
+   "n_units": 60,
+   "threshold": 0.03,
+   "perm_p": 0.0015999200039998,
+   "arm": "DIR",
+   "rival": "DOM"
+  },
+  "DIR|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.4491388476431659,
+   "ci": [
+    -0.6281559784283129,
+    -0.2797921948367146
+   ],
+   "n_units": 60,
+   "threshold": 0.03,
+   "perm_p": 4.999750012499375e-05,
+   "arm": "DIR",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 0
+}

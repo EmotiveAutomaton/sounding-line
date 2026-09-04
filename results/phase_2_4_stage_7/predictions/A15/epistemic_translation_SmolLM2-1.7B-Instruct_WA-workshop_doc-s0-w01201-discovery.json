@@ -1,0 +1,82 @@
+{
+ "abstain": false,
+ "arm": "epistemic_translation",
+ "canonical_sha": "c31dc4d98856dce9",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 27,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 1,
+  "tokens_in": 541,
+  "tokens_out": 27,
+  "wall_s": 3.287
+ },
+ "confidence": 0.3054876075874989,
+ "equivalence_class": [],
+ "evidence_sha": "05cfb0e4b3d3e5dd",
+ "notes": {
+  "receipt": {
+   "parsed": {
+    "believed_checked": [
+     "sec1"
+    ],
+    "believed_deadline": "loose",
+    "believed_tools": {
+     "library": true,
+     "source_access": true
+    }
+   },
+   "source_text": "The maker believes that the library is available, source access is available, the deadline is loose, and sec1 is already checked."
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec3:order": 0.14285714285714285,
+   "revise:sec1:s1.2": 0.14285714285714285,
+   "revise:sec2:s2.3": 0.14285714285714285,
+   "write:sec1:s1.2": 0.14285714285714285,
+   "write:sec2:s2.2": 0.14285714285714285,
+   "write:sec3:s3.1": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "probe:sec1:tech": 0.04134325189812937,
+   "restructure:sec3:order": 0.04326585513351921,
+   "revise:sec1:s1.2": 0.04958693517208342,
+   "revise:sec2:s2.3": 0.04426042919068584,
+   "write:sec1:s1.2": 0.30548760758749893,
+   "write:sec2:s2.2": 0.27267288404367074,
+   "write:sec3:s3.1": 0.24338303697441258
+  },
+  "next_section": {
+   "sec1": 0.39641779465771165,
+   "sec2": 0.31693331323435653,
+   "sec3": 0.28664889210793176,
+   "sec4": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.04134325189812937,
+   "restructure": 0.04326585513351921,
+   "revise": 0.09384736436276926,
+   "write": 0.8215435286055822
+  },
+  "stop": 0.04742587317756678
+ },
+ "version": "PredictionV1"
+}

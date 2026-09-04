@@ -1,0 +1,97 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "a0f555a6f8b74b17",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 48,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 833,
+  "tokens_out": 48,
+  "wall_s": 3.935
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "g0"
+ ],
+ "evidence_sha": "214adf9b06f4fe0d",
+ "notes": {
+  "band": 0.09090909090909091,
+  "candidate_preds": {
+   "g0": {
+    "cite:sec3:ref": 0.0,
+    "consult:sec1:src": 0.09758090776620823,
+    "write:sec1:s1.1": 0.4512095461168959,
+    "write:sec1:s1.2": 0.4512095461168959
+   }
+  },
+  "factor_marginals": {
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0": 1.0
+  },
+  "proposals": {
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "revise"
+     ],
+     "text": "prose: write > revise | 1. The maker will write sec1 (s1.1) and s1.2.\n2. The maker will revise sec1 (s1.2).\n3. The maker will write sec2 (s2."
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.06728535166818664,
+   "consult:sec1:src": 0.09101514207105801,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec2:order": 0.0,
+   "write:sec1:s1.1": 0.42084975313037765,
+   "write:sec1:s1.2": 0.42084975313037765
+  },
+  "invalidation": {
+   "correct": 0.37383824026459483,
+   "retain": 0.4131551512050068,
+   "rewrite": 0.21300660853039832
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.09758090776620823,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec2:order": 0.0,
+   "write:sec1:s1.1": 0.4512095461168959,
+   "write:sec1:s1.2": 0.4512095461168959
+  },
+  "next_section": {
+   "sec1": 1.0,
+   "sec2": 0.0,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.09758090776620823,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.9024190922337918
+  },
+  "stop": 0.10274786605251501
+ },
+ "version": "PredictionV1"
+}

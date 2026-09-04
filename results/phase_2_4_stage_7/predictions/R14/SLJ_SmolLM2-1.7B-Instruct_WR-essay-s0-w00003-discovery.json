@@ -1,0 +1,170 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "f999bf5d2feb1e4f",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 125,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 867,
+  "tokens_out": 125,
+  "wall_s": 7.089
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|k0|g0|h0"
+ ],
+ "evidence_sha": "c1807a1a47c97e95",
+ "notes": {
+  "band": 0.3333333333333333,
+  "candidate_preds": {
+   "b0|k0|g0|h0": {
+    "check:sec1:s1.1": 0.038262810940816225,
+    "revise:sec1:s1.1": 0.2827260565444684,
+    "revise:sec1:s1.2": 0.2827260565444684,
+    "revise:sec2:s2.1": 0.2349313269208809
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "expertise_law": {
+    "k0": 1.0
+   },
+   "history_residue": {
+    "h0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|k0|g0|h0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "no",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=no source=no deadline=loose checked=none"
+    }
+   ],
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "fix",
+      "revise",
+      "none",
+      "none",
+      "steady"
+     ],
+     "text": "skill: fix,revise weak: none,none pace: steady"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "none",
+      "none"
+     ],
+     "text": "default: no carried habit, no held intention"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "prose: revise > restructure | The maker is after revising sec2 (s2.1)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "history_residue": "sec1 [empty]; sec2 [fix@s2.1]; sec3 [write@s3.2]\n\nThe work so far:\nThe maker is working on the delivery route.\nStep 1: the maker repairs sec2 (s2.1).\nStep 2: the"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.03776840411062297,
+   "check:sec2:s2.1": 0.03138367012167172,
+   "check:sec3:s3.1": 0.020152427142359968,
+   "cite:sec3:ref": 0.012921341062944725,
+   "consult:sec1:src": 0.0,
+   "probe:sec1:tech": 0.02706224409566516,
+   "restructure:sec2:order": 0.0,
+   "revise:sec1:s1.1": 0.27907285674047594,
+   "revise:sec1:s1.2": 0.27907285674047594,
+   "revise:sec2:s2.1": 0.23189569911936603,
+   "write:sec1:s1.1": 0.01552705512271928,
+   "write:sec1:s1.2": 0.01552705512271928,
+   "write:sec1:s1.3": 0.01552705512271928,
+   "write:sec2:s2.1": 0.012902212508242441,
+   "write:sec2:s2.2": 0.012902212508242441,
+   "write:sec3:s3.1": 0.008284910481774824
+  },
+  "invalidation": {
+   "correct": 0.5670139354168319,
+   "retain": 0.04865858829507562,
+   "rewrite": 0.3843274762880925
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.038262810940816225,
+   "check:sec2:s2.1": 0.031794497669990665,
+   "check:sec3:s3.1": 0.0204162322423841,
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "probe:sec1:tech": 0.027416502069660165,
+   "restructure:sec2:order": 0.0,
+   "revise:sec1:s1.1": 0.2827260565444684,
+   "revise:sec1:s1.2": 0.2827260565444684,
+   "revise:sec2:s2.1": 0.2349313269208809,
+   "write:sec1:s1.1": 0.015730311847122428,
+   "write:sec1:s1.2": 0.015730311847122428,
+   "write:sec1:s1.3": 0.015730311847122428,
+   "write:sec2:s2.1": 0.013071108762635297,
+   "write:sec2:s2.2": 0.013071108762635297,
+   "write:sec3:s3.1": 0.008393364000693224
+  },
+  "next_section": {
+   "sec1": 0.6783223616407805,
+   "sec2": 0.2928680421161422,
+   "sec3": 0.028809596243077325
+  },
+  "next_type": {
+   "check": 0.09047354085319098,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.027416502069660165,
+   "restructure": 0.0,
+   "revise": 0.8003834400098178,
+   "write": 0.08172651706733111
+  },
+  "stop": 0.014774031693273055
+ },
+ "version": "PredictionV1"
+}

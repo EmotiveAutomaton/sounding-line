@@ -1,0 +1,77 @@
+{
+ "abstain": false,
+ "arm": "epistemic_translation",
+ "canonical_sha": "cbc79c01a44da161",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 42,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 1,
+  "tokens_in": 406,
+  "tokens_out": 42,
+  "wall_s": 4.711
+ },
+ "confidence": 0.6943581874520762,
+ "equivalence_class": [],
+ "evidence_sha": "19371bcba94f6eb1",
+ "notes": {
+  "receipt": {
+   "parsed": {
+    "believed_checked": [],
+    "believed_deadline": "tight",
+    "believed_tools": {
+     "library": false,
+     "source_access": false
+    }
+   },
+   "source_text": "The maker believes that the library is unavailable, sources are inaccessible, and there's a tight deadline for completing all sections including Sec1, Sec2, and Sec3. Section Sec1 has been checked."
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.16666666666666666,
+   "cite:sec3:ref": 0.16666666666666666,
+   "consult:sec1:src": 0.16666666666666666,
+   "probe:sec1:tech": 0.16666666666666666,
+   "restructure:sec2:order": 0.16666666666666666,
+   "write:sec3:s3.1": 0.16666666666666666
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.06337367495412749,
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "probe:sec1:tech": 0.09863959925009547,
+   "restructure:sec2:order": 0.1436285383437009,
+   "write:sec3:s3.1": 0.6943581874520762
+  },
+  "next_section": {
+   "sec1": 0.09863959925009547,
+   "sec2": 0.2070022132978284,
+   "sec3": 0.6943581874520762
+  },
+  "next_type": {
+   "check": 0.06337367495412749,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.09863959925009547,
+   "restructure": 0.1436285383437009,
+   "revise": 0.0,
+   "write": 0.6943581874520762
+  },
+  "stop": 0.09796880429755393
+ },
+ "version": "PredictionV1"
+}

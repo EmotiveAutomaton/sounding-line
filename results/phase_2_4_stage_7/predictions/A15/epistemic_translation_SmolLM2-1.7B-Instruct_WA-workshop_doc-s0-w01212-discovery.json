@@ -1,0 +1,79 @@
+{
+ "abstain": false,
+ "arm": "epistemic_translation",
+ "canonical_sha": "bea314093f0589df",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 52,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 1,
+  "tokens_in": 442,
+  "tokens_out": 52,
+  "wall_s": 4.127
+ },
+ "confidence": 0.626661751622832,
+ "equivalence_class": [],
+ "evidence_sha": "19371bcba94f6eb1",
+ "notes": {
+  "receipt": {
+   "parsed": {
+    "believed_checked": [
+     "sec1"
+    ],
+    "believed_deadline": "tight",
+    "believed_tools": {
+     "library": false,
+     "source_access": true
+    }
+   },
+   "source_text": "The maker believes that the library and source access are unavailable, the deadline is tight, and the source access is available, but the library is unavailable. The maker believes that sec1 is alread"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.16666666666666666,
+   "cite:sec3:ref": 0.16666666666666666,
+   "consult:sec1:src": 0.16666666666666666,
+   "probe:sec1:tech": 0.16666666666666666,
+   "restructure:sec2:order": 0.16666666666666666,
+   "write:sec3:s3.1": 0.16666666666666666
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.05719505994342515,
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.09749497745198898,
+   "probe:sec1:tech": 0.08902273374533419,
+   "restructure:sec2:order": 0.12962547723641965,
+   "write:sec3:s3.1": 0.6266617516228321
+  },
+  "next_section": {
+   "sec1": 0.18651771119732316,
+   "sec2": 0.1868205371798448,
+   "sec3": 0.6266617516228321
+  },
+  "next_type": {
+   "check": 0.05719505994342515,
+   "cite": 0.0,
+   "consult": 0.09749497745198898,
+   "fix": 0.0,
+   "probe": 0.08902273374533419,
+   "restructure": 0.12962547723641965,
+   "revise": 0.0,
+   "write": 0.6266617516228321
+  },
+  "stop": 0.09796880429755393
+ },
+ "version": "PredictionV1"
+}

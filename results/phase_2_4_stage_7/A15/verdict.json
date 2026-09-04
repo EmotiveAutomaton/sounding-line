@@ -1,0 +1,54 @@
+{
+ "card": "A15",
+ "cell_id": "A15",
+ "lane": "discovery",
+ "track": "architecture",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 59.71,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "same base model and targets; calls, tokens, solver operations, and wall time reported",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "primary": "At matched evidence and measured compute, does structured computation beat direct inference-time computation?",
+ "reason": "directional support at or above the frozen threshold; reader SLJ|pooled",
+ "point": 1.5264435809694388,
+ "ci": [
+  0.3469274429932648,
+  2.499162950645073
+ ],
+ "n_units": 62,
+ "conditional_cells": {
+  "SLJ|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.5229941242183699
+  },
+  "SLJ|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 2.5298930377205076
+  },
+  "SLJ|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 1.5264435809694388
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A15\\metrics.json",
+    "sha256": "2b685c95f8341285c4abf92194155b89f6f3d9b7e4211086ac3982e8428230d7"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A15\\cases.jsonl",
+    "sha256": "74ad4c2e51ec1440458c8da56d6127694d695870da58aa8d4b9b8a0324a75cab"
+   }
+  },
+  "written_at": "2026-09-03T00:39:41"
+ }
+}

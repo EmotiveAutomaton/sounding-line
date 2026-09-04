@@ -1,0 +1,73 @@
+{
+ "abstain": false,
+ "arm": "epistemic_translation",
+ "canonical_sha": "42fe31a2aa3f17ec",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 40,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 1,
+  "tokens_in": 403,
+  "tokens_out": 40,
+  "wall_s": 3.742
+ },
+ "confidence": 0.706570976843413,
+ "equivalence_class": [],
+ "evidence_sha": "97abb32ba904aacf",
+ "notes": {
+  "receipt": {
+   "parsed": {
+    "believed_checked": [],
+    "believed_deadline": "loose",
+    "believed_tools": {
+     "library": false,
+     "source_access": false
+    }
+   },
+   "source_text": "The maker believes that the library is unavailable and source access is restricted, with no specific deadline set yet, but has already checked section s1.1 of the draft for the lathe manual."
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.25,
+   "consult:sec1:src": 0.25,
+   "restructure:sec2:order": 0.25,
+   "revise:sec1:s1.3": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "restructure:sec2:order": 0.2934290231565871,
+   "revise:sec1:s1.3": 0.706570976843413
+  },
+  "next_section": {
+   "sec1": 0.706570976843413,
+   "sec2": 0.2934290231565871,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.2934290231565871,
+   "revise": 0.706570976843413,
+   "write": 0.0
+  },
+  "stop": 0.026596993576865856
+ },
+ "version": "PredictionV1"
+}

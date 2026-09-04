@@ -1,0 +1,66 @@
+{
+ "card": "V03",
+ "cell_id": "V03",
+ "lane": "discovery",
+ "track": "history",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 7.24,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "goal x expertise conflict and diagnostic future action",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Can lagging expertise oppose a current proximal goal without either being erased from the maker model?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader aligned|HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "point": -0.13507445027759596,
+ "ci": [
+  -0.37059973661346857,
+  0.13579603813419577
+ ],
+ "n_units": 18,
+ "conditional_cells": {
+  "opposed|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.1989757817371241
+  },
+  "opposed|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.7712349062554857
+  },
+  "opposed|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -0.48510534399630495
+  },
+  "aligned|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.13507445027759596
+  },
+  "aligned|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.44460464668626565
+  },
+  "aligned|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.2898395484819308
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V03\\metrics.json",
+    "sha256": "94bdef0475c1f48a09918f5d3447b8d4622c26831609760a3575c7fedba3a80e"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\V03\\cases.jsonl",
+    "sha256": "eb177bddc0a86953d5ce0f7d3f60ddac3ee9b3f65b35480e9f940b148d9a1603"
+   }
+  },
+  "written_at": "2026-09-03T02:03:20"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "287b637c93377d46",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 106,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 2049,
+  "tokens_out": 106,
+  "wall_s": 5.836
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "g0|h0"
+ ],
+ "evidence_sha": "d882c4e990899b6a",
+ "notes": {
+  "band": 0.05263157894736842,
+  "candidate_preds": {
+   "g0|h0": {
+    "check:sec1:s1.1": 0.5283785592571777,
+    "check:sec2:s2.1": 0.47162144074282236,
+    "restructure:sec3:order": 0.0
+   }
+  },
+  "factor_marginals": {
+   "history_residue": {
+    "h0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0|h0": 1.0
+  },
+  "proposals": {
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: 1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "prose: revise > restructure | 1. pull: revise:sec1:s1.1\n2. pull: revise:sec2:s2.1\n3. pull: revise:sec3:s3.1"
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal",
+   "history_residue"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "fatigue": 1.0
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.47026241089377774,
+   "check:sec2:s2.1": 0.5297375891062224,
+   "restructure:sec3:order": 0.0
+  },
+  "invalidation": {
+   "correct": 0.39159777904675636,
+   "retain": 0.11687959824002472,
+   "rewrite": 0.49152262271321895
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.5283785592571777,
+   "check:sec2:s2.1": 0.47162144074282236,
+   "restructure:sec3:order": 0.0
+  },
+  "next_section": {
+   "sec1": 0.5283785592571777,
+   "sec2": 0.47162144074282236,
+   "sec3": 0.0,
+   "sec4": 0.0
+  },
+  "next_type": {
+   "check": 1.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.054681317215940724
+ },
+ "version": "PredictionV1"
+}

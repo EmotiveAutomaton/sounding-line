@@ -1,0 +1,107 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "c6fd964cb1111f08",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 86,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1065,
+  "tokens_out": 86,
+  "wall_s": 5.133
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "cd909689f233ca7d",
+ "notes": {
+  "proposals": {
+   "expertise_law": [],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | The maker is currently trying to write sec1 (s1.1) and s1.2."
+    }
+   ]
+  },
+  "proposed": [
+   "expertise_law",
+   "proximal_goal"
+  ],
+  "unparsed": {
+   "expertise_law": "1. The maker starts by checking the deadline, which is loose.\n2. The maker then checks the tools, finding that the library is unavailable and the source access is unavailable.\n3. The maker drafts sec2"
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.0625,
+   "check:sec3:s3.1": 0.0625,
+   "cite:sec3:ref": 0.0625,
+   "consult:sec1:src": 0.0625,
+   "fix:sec2:s2.1": 0.0625,
+   "probe:sec1:tech": 0.0625,
+   "restructure:sec2:order": 0.0625,
+   "revise:sec1:s1.1": 0.0625,
+   "revise:sec1:s1.2": 0.0625,
+   "revise:sec3:s3.2": 0.0625,
+   "write:sec1:s1.1": 0.0625,
+   "write:sec1:s1.2": 0.0625,
+   "write:sec2:s2.2": 0.0625,
+   "write:sec3:s3.1": 0.0625,
+   "write:sec3:s3.2": 0.0625,
+   "write:sec3:s3.3": 0.0625
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.0625,
+   "check:sec3:s3.1": 0.0625,
+   "cite:sec3:ref": 0.0625,
+   "consult:sec1:src": 0.0625,
+   "fix:sec2:s2.1": 0.0625,
+   "probe:sec1:tech": 0.0625,
+   "restructure:sec2:order": 0.0625,
+   "revise:sec1:s1.1": 0.0625,
+   "revise:sec1:s1.2": 0.0625,
+   "revise:sec3:s3.2": 0.0625,
+   "write:sec1:s1.1": 0.0625,
+   "write:sec1:s1.2": 0.0625,
+   "write:sec2:s2.2": 0.0625,
+   "write:sec3:s3.1": 0.0625,
+   "write:sec3:s3.2": 0.0625,
+   "write:sec3:s3.3": 0.0625
+  },
+  "next_section": {
+   "sec1": 0.4375,
+   "sec2": 0.1875,
+   "sec3": 0.375
+  },
+  "next_type": {
+   "check": 0.125,
+   "cite": 0.0625,
+   "consult": 0.0625,
+   "fix": 0.0625,
+   "probe": 0.0625,
+   "restructure": 0.0625,
+   "revise": 0.1875,
+   "write": 0.375
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

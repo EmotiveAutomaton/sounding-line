@@ -1,0 +1,135 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "4d987bdf9fb00700",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 80,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 2859,
+  "tokens_out": 80,
+  "wall_s": 5.724
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|k0|g0|h0"
+ ],
+ "evidence_sha": "c76f8f24dd3f1580",
+ "notes": {
+  "band": 0.041666666666666664,
+  "candidate_preds": {
+   "b0|k0|g0|h0": {
+    "cite:sec4:ref": 0.0
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "expertise_law": {
+    "k0": 1.0
+   },
+   "history_residue": {
+    "h0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|k0|g0|h0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "yes",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=no source=yes deadline=loose checked=none"
+    }
+   ],
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "write",
+      "revise",
+      "fix",
+      "consult",
+      "steady"
+     ],
+     "text": "skill: write,revise weak: fix,consult pace: steady"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "none",
+      "none"
+     ],
+     "text": "default: no carried habit, no held intention"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | The maker is currently drafting sec1 (s1.3)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "history_residue": "sec1: none, none; sec2: none, none; sec3: none, none; sec4: none, none."
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "satisfaction": 1.0
+  },
+  "changed_context": {
+   "cite:sec4:ref": 1.0
+  },
+  "invalidation": {
+   "correct": 0.43876670483299895,
+   "retain": 0.3023984823250799,
+   "rewrite": 0.25883481284192117
+  },
+  "next_action": {
+   "cite:sec4:ref": 1.0
+  },
+  "next_section": {
+   "sec1": 0.25,
+   "sec2": 0.25,
+   "sec3": 0.25,
+   "sec4": 0.25
+  },
+  "next_type": {
+   "check": 0.125,
+   "cite": 0.125,
+   "consult": 0.125,
+   "fix": 0.125,
+   "probe": 0.125,
+   "restructure": 0.125,
+   "revise": 0.125,
+   "write": 0.125
+  },
+  "stop": 0.8021838885585817
+ },
+ "version": "PredictionV1"
+}

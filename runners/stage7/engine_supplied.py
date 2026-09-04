@@ -65,10 +65,14 @@ def _alt(names: dict, factor: str) -> str:
 def batch(run: CardRun7, arms: list[str], readers: list[str], cond_spec: dict, n: int, family: str,
           targets: list | None = None, forced: dict | None = None, twin: str | None = None,
           offset: int = 0, regime: str | None = None, task_extra: dict | None = None,
-          evidence_hook=None, factors_of=None, worlds: list[dict] | None = None) -> list[dict]:
+          evidence_hook=None, factors_of=None, worlds: list[dict] | None = None,
+          unit_suffix: str | None = None) -> list[dict]:
     """The shared batch. Returns the worlds used. `twin` runs every arm on the world's
     factor twin as well (unit_id = the twin's lid, pair = 'twin'). `evidence_hook(w, ev)`
-    may alter the evidence per unit (a condition variant). `factors_of(w)` adds factors."""
+    may alter the evidence per unit (a condition variant). `factors_of(w)` adds factors.
+    `unit_suffix` is appended to every unit id (every arm, the twins, the oracle rows) when
+    the same worlds are crossed with a condition such as a regime: without it the done-check
+    treats the second crossing as already run (R14's first landing)."""
     model_readers = readers if any(a in E.MODEL_ARMS for a in arms) else []
     used = []
     with E.ModelServer(f"s7_{run.card.lower()}", model_readers) as server:
@@ -85,7 +89,8 @@ def batch(run: CardRun7, arms: list[str], readers: list[str], cond_spec: dict, n
                 facs.update(factors_of(w))
             for arm in arms:
                 for reader in (readers if arm in E.MODEL_ARMS else [None]):
-                    E.run_unit(run, server, w, ev, b, arm, reader, task_extra=task_extra, factors=facs, targets=targets)
+                    E.run_unit(run, server, w, ev, b, arm, reader, task_extra=task_extra, factors=facs, targets=targets,
+                               unit_id=(w["lid"] + unit_suffix) if unit_suffix else None)
             used.append(w)
             if twin:
                 t = W.factor_twin(w, twin, _alt(w["state"]["names"], twin))
@@ -99,9 +104,10 @@ def batch(run: CardRun7, arms: list[str], readers: list[str], cond_spec: dict, n
                 ft = dict(facs, pair="twin", collides=bool(t.get("prefix_collides")))
                 for arm in arms:
                     for reader in (readers if arm in E.MODEL_ARMS else [None]):
-                        E.run_unit(run, server, t, evt, bt, arm, reader, task_extra=task_extra, factors=ft, targets=targets, unit_id=t["lid"])
+                        E.run_unit(run, server, t, evt, bt, arm, reader, task_extra=task_extra, factors=ft, targets=targets,
+                                   unit_id=t["lid"] + (unit_suffix or ""))
                 used.append(t)
-        E.oracle_rows(run, used, E.build_condition(cond_spec, "u", run.card, regime=regime))
+        E.oracle_rows(run, used, E.build_condition(cond_spec, "u", run.card, regime=regime), unit_suffix=unit_suffix)
     update_registry("COMPUTE_LEDGER", lambda led: {**led, run.cell_id.replace("/", "_"): {"ledger": server.ledger, "gpu_held_s": server.held_s, "at": E.now_iso()}})
     return used
 
@@ -609,7 +615,7 @@ def run_R14(run: CardRun7) -> int:
     spec = C.ALL["R14"]
     for regime in spec["factors"]["regime"]:
         batch(run, spec["arms"], run.readers, spec["condition"], E.n_units("R14"), "worlds_R", targets=spec["targets"], regime=regime,
-              factors_of=lambda w, rg=regime: {"regime": rg}, task_extra={"regime": regime})
+              factors_of=lambda w, rg=regime: {"regime": rg}, task_extra={"regime": regime}, unit_suffix=f"~{regime}")
     rows = run.rows()
     floor, g = _gate_floor(rows)
     cells = {}

@@ -1,0 +1,71 @@
+{
+ "abstain": false,
+ "arm": "DIR",
+ "canonical_sha": "baaa2cfb85371ed9",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 13,
+  "model_calls": 13,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 5278,
+  "tokens_out": 0,
+  "wall_s": 3.396
+ },
+ "confidence": 0.5782418983596768,
+ "equivalence_class": [],
+ "evidence_sha": "a694695262cc514f",
+ "notes": {},
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.3405141079635875,
+   "equivalent": 0.29125715112890976,
+   "fatigue": 0.26108122291301317,
+   "satisfaction": 0.10714751799448964
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.010108225250095053,
+   "consult:sec1:src": 0.00210686759655996,
+   "probe:sec1:tech": 0.030177586308472282,
+   "restructure:sec2:order": 0.0651028039674275,
+   "write:sec1:s1.1": 0.003273780519950028,
+   "write:sec1:s1.2": 0.06612802395248267,
+   "write:sec2:s2.1": 0.8029957680945286,
+   "write:sec3:s3.1": 0.01698308111542761,
+   "write:sec3:s3.2": 0.0031238631950563913
+  },
+  "invalidation": {
+   "correct": 0.5253552242971304,
+   "retain": 0.32875889872737757,
+   "rewrite": 0.14588587697549196
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.16518968607443327,
+   "consult:sec1:src": 0.006674685762540078,
+   "probe:sec1:tech": 0.059827732459833936,
+   "restructure:sec2:order": 0.05295100815288271,
+   "write:sec1:s1.1": 0.004459202467165316,
+   "write:sec1:s1.2": 0.007467758827382691,
+   "write:sec2:s2.1": 0.5782418983596768,
+   "write:sec3:s3.1": 0.08704884746216368,
+   "write:sec3:s3.2": 0.03813918043392161
+  },
+  "next_section": {
+   "sec1": 0.13296906889049748,
+   "sec2": 0.6443496455460997,
+   "sec3": 0.22268128556340275
+  },
+  "next_type": {
+   "check": 0.3665339521947693,
+   "cite": 0.012863983661504416,
+   "consult": 0.09561610567279956,
+   "fix": 0.009865749326645433,
+   "probe": 0.14805421195573618,
+   "restructure": 0.07924771843674436,
+   "revise": 0.23665210612034426,
+   "write": 0.05116617263145649
+  },
+  "stop": 0.48438008427698437
+ },
+ "version": "PredictionV1"
+}

@@ -77,7 +77,12 @@ def run_B05(run: CardRun7) -> int:
     gates, and claims reconcile with the verdicts on disk."""
     from runners.stage7.validate import validate                                  # noqa: PLC0415
     cov = validate(write=True)
-    checks = {"coverage_ok": cov.get("ok"), "source_manifest": bool(read_registry("SOURCE_MANIFEST")),
+    # the closure tail (this cell, the world-model cell, the fresh clone) is due after this check; every other
+    # mandatory cell must be complete for the ledgers to agree (the first landing counted the tail as missing)
+    tail = {"B05", "B06", "X24"}
+    missing_due = [c for c in (cov.get("missing_mandatory") or []) if c not in tail]
+    coverage_ok = bool(cov.get("ok")) or (not missing_due and not cov.get("invalid_dispositions"))
+    checks = {"coverage_ok": coverage_ok, "missing_due": missing_due, "source_manifest": bool(read_registry("SOURCE_MANIFEST")),
               "access_receipt": bool((read_registry("ACCESS_RECEIPT") or {}).get("all_raised")),
               "compute_ledger": bool(read_registry("COMPUTE_LEDGER")), "dependency_audit": bool(read_registry("STAGE6_DEPENDENCY_AUDIT")),
               "conformance": bool(read_registry("CONFORMANCE")), "gates": bool(read_registry("GATES")),
@@ -92,7 +97,7 @@ def run_B05(run: CardRun7) -> int:
     warrant = {s["card"]: (read_json(S7 / f"B0{i + 1}" / "verdict.json").get("outcome") if (S7 / f"B0{i + 1}" / "verdict.json").exists() else None)
                for i, s in enumerate(conf.get("selected") or [])}
     update_registry("COMPLETION", lambda _r: {**_r, "pursuit": pursuit, "warrant": warrant, "checks": checks, "at": now_iso()})
-    ok = all(v for k, v in checks.items() if k not in ("confirmation_registry",))
+    ok = all(v for k, v in checks.items() if k not in ("confirmation_registry", "missing_due"))
     run.finish({"checks": checks, "pursuit": pursuit, "warrant": warrant, "n_verdicts": len(verdicts)},
                {"exec": "COMPLETE", "outcome": "INFRASTRUCTURE" if ok else "INSTRUMENT_FAILED", "primary": C.ALL["B05"]["primary"],
                 "reason": json.dumps(checks)})

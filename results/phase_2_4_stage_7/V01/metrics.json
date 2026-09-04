@@ -1,0 +1,130 @@
+{
+ "card": "V01",
+ "lane": "discovery",
+ "written_at": "2026-09-03T01:50:17",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "oracle_gap": {
+  "gap": 0.19277450553498815,
+  "n": 32,
+  "oracle_mean": -2.1661698073963898,
+  "dom_mean": -2.358944312931378
+ },
+ "floor": 0.038554901106997636,
+ "recall_goal": {
+  "recall": 0.2375,
+  "n": 80,
+  "redundancy": 0.0,
+  "posterior_mass_on_truth": 0.23124786690326232,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.2,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.275
+  }
+ },
+ "recall_residue": {
+  "recall": 0.5625,
+  "n": 80,
+  "redundancy": 0.0,
+  "posterior_mass_on_truth": 0.28511164611533374,
+  "by_reader": {
+   "Qwen/Qwen2.5-1.5B-Instruct": 0.5,
+   "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.625
+  }
+ },
+ "note": "present choice (next action) and compiled residue (the residue marginal) scored apart",
+ "cells": {
+  "opposes=yes|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.20965471794991927,
+   "ci": [
+    -0.5287305155726933,
+    0.09157546337259752
+   ],
+   "n_units": 17,
+   "threshold": 0.038554901106997636,
+   "perm_p": 0.2207389630518474,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "opposes=yes|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.5321476633517697,
+   "ci": [
+    -1.2591323447902023,
+    0.14613028048475918
+   ],
+   "n_units": 17,
+   "threshold": 0.038554901106997636,
+   "perm_p": 0.1745412729363532,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "opposes=yes|pooled": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -0.37090119065084454,
+   "ci": [
+    -0.7255612119869393,
+    -0.02244315124887339
+   ],
+   "n_units": 17,
+   "threshold": 0.038554901106997636,
+   "perm_p": 0.07099645017749112,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  },
+  "opposes=no|HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.35591670628745115,
+   "ci": [
+    -0.7829448773644558,
+    0.06985286645995052
+   ],
+   "n_units": 15,
+   "threshold": 0.038554901106997636,
+   "perm_p": 0.14134293285335733,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "opposes=no|Qwen/Qwen2.5-1.5B-Instruct": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.30998292266511834,
+   "ci": [
+    -0.9463110945071065,
+    0.23242923014490607
+   ],
+   "n_units": 15,
+   "threshold": 0.038554901106997636,
+   "perm_p": 0.3419329033548323,
+   "arm": "SLJ",
+   "rival": "DOM"
+  },
+  "opposes=no|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.3329498144762848,
+   "ci": [
+    -0.8193255145185054,
+    0.06850394116224161
+   ],
+   "n_units": 15,
+   "threshold": 0.038554901106997636,
+   "perm_p": 0.15834208289585522,
+   "arm": "SLJ",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "degenerate_worlds": 3
+}

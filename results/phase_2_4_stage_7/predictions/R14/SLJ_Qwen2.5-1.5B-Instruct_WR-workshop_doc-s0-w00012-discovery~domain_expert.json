@@ -1,0 +1,141 @@
+{
+ "abstain": true,
+ "arm": "SLJ",
+ "canonical_sha": "fa23c848eb15e93f",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 121,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1846,
+  "tokens_out": 121,
+  "wall_s": 8.66
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "be12d2bd87e776fa",
+ "notes": {
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "yes",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=no source=yes deadline=loose checked=none"
+    }
+   ],
+   "expertise_law": [],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "revise",
+      "none"
+     ],
+     "text": "habit: revise intention: S1.2"
+    },
+    {
+     "ref": "h1",
+     "signature": [
+      "check",
+      "none"
+     ],
+     "text": "habit: check intention: S2.1"
+    },
+    {
+     "ref": "h2",
+     "signature": [
+      "consult",
+      "none"
+     ],
+     "text": "habit: consult intention: S3.1"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "check"
+     ],
+     "text": "pull: revise > check"
+    },
+    {
+     "ref": "g1",
+     "signature": [
+      "check",
+      "fix"
+     ],
+     "text": "pull: check > fix"
+    },
+    {
+     "ref": "g2",
+     "signature": [
+      "probe",
+      "revise"
+     ],
+     "text": "pull: probe > revise"
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "expertise_law": "Skill Guesses:\n\n1. **Write**: Strongest skill for drafting and revising documents.\n2. **Check**: Good at verifying information and ensuring accuracy before moving forward.\n3. **Probe**: Effective in t"
+  },
+  "unrealized": "no solvable proposal set"
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "consult:sec1:src": 0.2,
+   "restructure:sec2:order": 0.2,
+   "write:sec1:s1.1": 0.2,
+   "write:sec1:s1.2": 0.2,
+   "write:sec3:s3.1": 0.2
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "consult:sec1:src": 0.2,
+   "restructure:sec2:order": 0.2,
+   "write:sec1:s1.1": 0.2,
+   "write:sec1:s1.2": 0.2,
+   "write:sec3:s3.1": 0.2
+  },
+  "next_section": {
+   "sec1": 0.6000000000000001,
+   "sec2": 0.2,
+   "sec3": 0.2
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.2,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.2,
+   "revise": 0.0,
+   "write": 0.6000000000000001
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

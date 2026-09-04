@@ -265,7 +265,9 @@ QUESTIONS: dict[str, dict] = {
     "R13": _q("reconstruct", "Can the full factor set be inferred jointly from visible evidence and improve prediction over DOM and DIR?",
               "all-factor posterior plus prospective score; no credit borrowed from oracle fields",
               ["R11", "R12"], True, "world", 48, 120.0, ("worlds_R", "none_cold", "all_and_next_action", "slj", "slj_vs_dom_and_dir", "gain_nats"),
-              condition=_cond([]), arms=["DOM", "DIR", "SLJ"]),
+              condition=_cond([]), arms=["DOM", "DIR", "SLJ"],
+              # every target the P analyses read from these rows (P01 to P08): an unasked target is filled uniform
+              targets=("next_action", "next_type", "next_section", "stop", "changed_context", "invalidation", "boundary_type")),
     "R14": _q("reconstruct", "Does maker familiarity help where cold reading fails, independently of domain expertise?",
               "cold x domain-expert x maker-familiar crossing on the same targets",
               ["R13"], True, "world", 32, 150.0, ("worlds_R", "regime_crossed", "next_action", "slj_dir", "regime_cells", "gain_by_regime"),

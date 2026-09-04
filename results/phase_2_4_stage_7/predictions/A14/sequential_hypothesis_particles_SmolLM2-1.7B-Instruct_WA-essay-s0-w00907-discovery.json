@@ -1,0 +1,88 @@
+{
+ "abstain": false,
+ "arm": "sequential_hypothesis_particles",
+ "canonical_sha": "f4dd7030148a0b1b",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 64,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 6,
+  "tokens_in": 1437,
+  "tokens_out": 64,
+  "wall_s": 4.892
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "belief: library=yes source=yes deadline=loose checked=none / prose: consult > check | The maker is currently working on sec1. The maker has consulted a source for sec1 (src), checked sec1 (s1.1), and tried "
+ ],
+ "evidence_sha": "56d4135957138e3a",
+ "notes": {
+  "receipt": {
+   "ess": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "initialized": true,
+   "propagated": 3,
+   "rejuvenated": 0,
+   "resampled": 0,
+   "weighted": 3
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.1,
+   "restructure:sec2:order": 0.1,
+   "revise:sec3:s3.3": 0.1,
+   "write:sec1:s1.1": 0.1,
+   "write:sec1:s1.2": 0.1,
+   "write:sec1:s1.3": 0.1,
+   "write:sec2:s2.2": 0.1,
+   "write:sec2:s2.3": 0.1,
+   "write:sec3:s3.2": 0.1,
+   "write:sec3:s3.3": 0.1
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.0,
+   "restructure:sec2:order": 0.0,
+   "revise:sec3:s3.3": 0.2558588909539459,
+   "write:sec1:s1.1": 0.12744136651157642,
+   "write:sec1:s1.2": 0.12744136651157642,
+   "write:sec1:s1.3": 0.12744136651157642,
+   "write:sec2:s2.2": 0.08678327893277982,
+   "write:sec2:s2.3": 0.08678327893277982,
+   "write:sec3:s3.2": 0.09412522582288263,
+   "write:sec3:s3.3": 0.09412522582288263
+  },
+  "next_section": {
+   "sec1": 0.38232409953472923,
+   "sec2": 0.17356655786555963,
+   "sec3": 0.4441093425997112
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.2558588909539459,
+   "write": 0.7441411090460541
+  },
+  "stop": 0.014774031693273055
+ },
+ "version": "PredictionV1"
+}

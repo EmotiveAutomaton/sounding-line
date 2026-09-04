@@ -1,0 +1,91 @@
+{
+ "abstain": false,
+ "arm": "weighted_language_hypotheses",
+ "canonical_sha": "d69b32b7fd2d7760",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 160,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 444,
+  "tokens_out": 160,
+  "wall_s": 10.153
+ },
+ "confidence": 0.4999984092633078,
+ "equivalence_class": [
+  "h0",
+  "h2"
+ ],
+ "evidence_sha": "97abb32ba904aacf",
+ "notes": {
+  "posterior": {
+   "h0": 0.4999984092633078,
+   "h1": 3.181473384358011e-06,
+   "h2": 0.4999984092633078
+  },
+  "proposals": [
+   {
+    "rule": {
+     "write": 3.0
+    },
+    "text": "the maker prioritizes thoroughness over speed when drafting sec1 (s1.1) and sec1 (s1.3), assigning higher weight to these sections for detailed content."
+   },
+   {
+    "rule": {
+     "check": 2.0,
+     "revise": 3.0
+    },
+    "text": "the maker revises sec2 (s2.2) more frequently than sec2 (s2.1) due to its critical nature, giving it a slightly heavier revision load compared to other sections."
+   },
+   {
+    "rule": {
+     "write": 3.0
+    },
+    "text": "the maker tends to focus on sec3 (s3.1) and sec3 (s3.2) after completing sec1 (s1.2) because they require additional refinement before finalizing the manual."
+   }
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.25,
+   "consult:sec1:src": 0.25,
+   "restructure:sec2:order": 0.25,
+   "revise:sec1:s1.3": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.24999620504962328,
+   "consult:sec1:src": 0.24999620504962328,
+   "restructure:sec2:order": 0.24999620504962328,
+   "revise:sec1:s1.3": 0.25001138485113017
+  },
+  "next_section": {
+   "sec1": 0.5000075899007534,
+   "sec2": 0.24999620504962328,
+   "sec3": 0.24999620504962328
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.24999620504962328,
+   "consult": 0.24999620504962328,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.24999620504962328,
+   "revise": 0.25001138485113017,
+   "write": 0.0
+  },
+  "stop": 0.15
+ },
+ "version": "PredictionV1"
+}

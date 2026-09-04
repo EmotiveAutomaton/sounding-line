@@ -898,6 +898,139 @@ one constant vector, V02 with V03, and V04 with V05.
   residue; rows preserved); the joint reader's residue, law, and goal grammars repaired and
   probed against R13's raw outputs; the card rehearsed through the fake transport (16 of 16
   rows realized). 20:19:43 relaunched on the same clock (elapsed 7.58 h; R13 first).
+- 20:42 R13 rerun: SmolLM2 INCONCLUSIVE (−0.36 [−1.12, +0.17], realized 15 of 60), Qwen
+  COUNTEREVIDENCE (−1.33 [−2.57, −0.36], realized 54 of 60), pooled COUNTEREVIDENCE (−0.84);
+  over DIR +0.62 and +1.63; recall law 0.20 and 0.68, goal 0.25 and 0.42, belief 0.28 and 0.07,
+  residue 0.42 and 0.40 (L344). X01, X20, X06 started.
+- 20:52 X06 INFRASTRUCTURE (order permutation, total variation 0.0, band 0.05); X01
+  INFRASTRUCTURE (tail replacement, identity rates 1.0 on every non-oracle arm, the mutation_tail
+  gate standing); X20 crashed twice on R13's terminal-cut rows (no next action, no primary
+  score) in its paired contrast. 20:54 engine stopped before the third attempt (R14 and P01
+  interrupted); X20 takes the valid rows through the shared guard; 20:55 reset X20, R14, P01
+  (tag terminal; rows preserved); X20 rehearsed through the fake transport; 20:56:33 relaunched
+  on the same clock (elapsed 8.20 h).
+- 21:15 R14 first landing: cold cells only (SmolLM2 −0.43 INCONCLUSIVE, Qwen −1.57 [−3.18, −0.22]
+  COUNTEREVIDENCE); the domain-expert and maker-familiar cells VOID 'no units' (the batches shared
+  unit ids; L345). X20 INFRASTRUCTURE (the domain model is the strongest cheap rival on every
+  target). P01 reproduces the R13 cells (L344). 21:19 engine stopped (R16, P02, R15 interrupted);
+  the batch takes a unit suffix and R14 crosses its regimes on the same worlds under
+  regime-suffixed ids; 21:20 reset R14, R15, R16, P02 (tag regime; rows preserved); R14 rehearsed
+  through the fake transport (rows and cells in all three regimes); 21:21:17 relaunched on the
+  same clock (elapsed 8.61 h).
+- 22:15 R14 rerun, 720 rows in three regimes: cold SLJ −0.43 / −1.57 (SmolLM2 / Qwen against
+  DOM), domain expert −0.21 / +0.02 (Qwen realized 5 of 40, prose law), maker familiar +0.02 /
+  −1.75 [−3.41, −0.44] (Qwen realized 40 of 40); pooled maker-familiar COUNTEREVIDENCE −0.87;
+  the card's primary INCONCLUSIVE by its rule (L345). P02 (next type) and P03 (next section)
+  INCONCLUSIVE over R13's rows (L344). R15, P04, R16 started.
+- 22:30 R16 DESCRIPTIVE: abstention on equivalence 0.59, false abstention 0.73, coverage correct
+  on singletons 0.27, SmolLM2 unrealized 36 of 60, EIG ratio 1.0 by construction (L346). R15
+  DESCRIPTIVE: factor entropy 0.16 / 0.08 / 0.21 (cold / domain expert / maker familiar), ECE
+  0.49 / 0.50 / 0.44 (L345). P04 COUNTEREVIDENCE on both arms (SLJ pooled −1.09 [−2.02, −0.41];
+  DIR pooled −0.89) (L344). X12, P05, P06 started.
+- 22:35 X12 INFRASTRUCTURE (duplicate-evidence sharpening 0.010, band 0.05); P05 and P06
+  COUNTEREVIDENCE, P06's six cells identical to the digit: R13's card asked its reader arms for
+  two targets and the worker filled the other five uniform (the boundary type on both arms,
+  four targets on the direct reader), so P02, P03, P06, P07, P08 read fills (L344). 22:38
+  engine stopped (A14, X02, P07 interrupted); R13 asks all seven targets, the joint arm mixes
+  the boundary type from the executed law; 22:39 reset R13, P01 to P07, X01, X06, X12, X20,
+  A14, X02 (tag targets; rows preserved); R13 rehearsed through the fake transport (every
+  target on every arm); 22:41 relaunched on the same clock.
+- 23:06 R13 rerun reproduces its primary to the digit; the direct reader's per-target cells now
+  read (next type −1.51 / −2.31, section −0.31 / −0.83, changed context −0.38 / −2.62,
+  invalidation −0.17 / −0.73 against DOM, SmolLM2 / Qwen). 23:12 X06, X01, X20 INFRASTRUCTURE
+  (the same figures). 23:16 X12 INFRASTRUCTURE; P01, P02 INCONCLUSIVE (joint), the direct reader
+  COUNTEREVIDENCE on both. 23:26 P03 INCONCLUSIVE, P04 COUNTEREVIDENCE (L344). 23:26 A14 first
+  landing INCONCLUSIVE against a fallback: the particle arm 'initialized: false' on 60 of 60
+  rows (the belief proposer called without the brief's defaults; the adaptive arm the same).
+  23:28 engine stopped (A15, the same arms cold, and P05, P06 interrupted); one proposer
+  dispatch for the joint, particle, and adaptive arms; the worker marks unrealized architecture
+  arms; 23:29 reset A14, A15, P05, P06 (tag proposers; rows preserved); A14 rehearsed through
+  the fake transport (the particles initialize, propagate, weigh, resample, rejuvenate on 16 of
+  16 rows); 23:30 relaunched on the same clock.
+- 23:39 A14 rerun INCONCLUSIVE, the particle arm initialized on 60 of 60 (joint against particles
+  +0.04 / +0.00, pooled +0.02 [−0.16, +0.21]; 48 rows single-candidate, resampled 0, rejuvenated 0)
+  (L347). P05 COUNTEREVIDENCE on both arms (SLJ pooled −0.20 [−0.29, −0.11]; the oracle gap on
+  the stop 0.054). P06 VALID_NULL by its rule (DIR SmolLM2 −0.28 [−0.62, +0.03]); the joint arm
+  −4.2 / −15.8 (point-mass labels at the floor) (L344). A15, P07, X02 started.
+- 00:39 A15 SUPPORT_CANDIDATE by its rule (SLJ against DIR pooled +1.53 [+0.35, +2.50]; every
+  rival +1.4 to +2.1 against DIR; against DOM: SLJ −0.56, adaptive +0.02, epistemic −0.67, DIR
+  −2.08; realization: adaptive 61 of 62, epistemic 62 of 62, weighted 3 of 62, synthesized 10 of
+  62) (L348). X02 INFRASTRUCTURE (I06 identity 1.0). P07 VALID_NULL pooled on the joint arm,
+  COUNTEREVIDENCE on the direct reader (L344). A16, X09, P08 started.
+- 00:57 A16 INCONCLUSIVE by its rule (the 9B route −0.55 [−1.63, +0.36]); 0.5B −1.03, 1.5B
+  −1.64, 3B −3.11 COUNTEREVIDENCE; goal recall 0.33 / 0.40 / 0.30 / 0.67; diagnosis under the
+  failed K04 gate (L349). X09 INFRASTRUCTURE (I13 ledger; A15 priced). P08 INCONCLUSIVE on the
+  joint arm (pooled −0.12 [−0.21, −0.02]), COUNTEREVIDENCE on the direct (L344). P09, X03, X21
+  started.
+- 01:18 P09 INCONCLUSIVE (SLJ tail sum against DOM −1.24 / −1.11, pooled −1.17 [−2.74, +0.10];
+  DIR −2.70 / −8.73 COUNTEREVIDENCE; 26 worlds with a tail, 14 terminal cuts skipped) (L350).
+  X03 INFRASTRUCTURE (I07 identity 1.0). X21 INFRASTRUCTURE (22 conditional cells before pooling;
+  sign reversal present) (L345, L349). P10, P12 started.
+- 01:24 P12 SUPPORT_CANDIDATE (HPROC against HSTACK on the style-matched switch +1.92 [+1.30,
+  +2.40]; HDIR −0.43 INCONCLUSIVE; stylometry fires on the style shift 1.0; the process reader's
+  no-change mass there 0.23; the final-artifact interface uniform or at the floor for the programs)
+  and P11 (landed 14:11: HPROC +0.31 [−0.67, +1.20] INCONCLUSIVE over the switch histories, HDIR
+  −1.45 COUNTEREVIDENCE) written through together (L351). P10 DESCRIPTIVE (SLJ ECE 0.51, DIR 0.37,
+  DOM 0.375; dose 0.44 / 0.51 / 0.65) (L346). P13, X14, X22 started.
+- 01:34 X14 INSTRUMENT_FAILED (the equivalence criterion: abstention on equivalence 0.59 at or
+  above 0.5, false abstention 0.73 above the 0.5 ceiling; recorded in the attack matrix) (L346).
+  P13 INCONCLUSIVE by its rule (SmolLM2 against the prior decision −0.02 [−0.13, +0.09]); against
+  the position table COUNTEREVIDENCE on both readers (−0.30, −1.57) (L352). X22 INFRASTRUCTURE
+  (the style crossover gate on P12 passed) (L351). P14 started.
+- 01:41 P14 SUPPORT_CANDIDATE by its rule (SDIR SmolLM2 against SPERS at switch positions +1.78
+  [+1.69, +1.87], n = 2 clusters per split; Qwen +0.12 INCONCLUSIVE); overall means SU −1.10, SPERS
+  −0.18, SDIR −1.27 / −2.50; kept fraction 0.17 (L353, read as narrowed: under uniform at the
+  switches). V01 started.
+- 01:50 V01 INCONCLUSIVE by its rule (opposes=yes SmolLM2 −0.21 [−0.53, +0.09]); pooled opposed
+  −0.37 [−0.73, −0.02] COUNTEREVIDENCE, unopposed −0.33 INCONCLUSIVE; recall goal 0.24, residue
+  0.56; realized 160 of 160 (L354). V02 started.
+- 01:56 V02 COUNTEREVIDENCE (SLJ against GBLIND: SmolLM2 −0.31 [−0.74, +0.07] VALID_NULL, Qwen
+  −0.34 [−0.66, −0.04], pooled −0.33 [−0.59, −0.09]; against DOM −0.12 / −0.15 INCONCLUSIVE;
+  GBLIND +0.19 over DOM; the oracle gap 0.47) (L354). V03 started.
+- 02:03 V03 INCONCLUSIVE by its rule (aligned SmolLM2 −0.14); opposed Qwen −0.77 [−1.39, −0.13]
+  COUNTEREVIDENCE, pooled −0.49 [−0.93, −0.02]; aligned pooled −0.29; recall law 0.0, goal 0.14;
+  SmolLM2 unrealized 40 of 40 (no law proposed) (L354). V04 started.
+- 02:03 V04 INCONCLUSIVE (MIX against POINT −0.01 [−0.09, +0.07], 30 worlds; mixture mass on the
+  present-law demos 0.66) (L354). V05 started.
+- 02:05 V05 VALID_NULL (ORDERED against AGG +0.04 [−0.03, +0.12]; DATED against ORDERED +0.00
+  [−0.01, +0.01]; 31 worlds; the oracle gap 0.81, floor 0.16) (L354). V06 started.
+- 02:06 V06 INCONCLUSIVE (DATED against AGG +0.05 [−0.02, +0.11], floor 0.11; DATED against DOM
+  +0.42 [+0.05, +0.84] SUPPORT_CANDIDATE; against SOL +0.48 [+0.26, +0.71]; 40 worlds) (L354).
+  X19 INFRASTRUCTURE (the standing-tendency swap on V02 and V06). Ladder rung 4 admitted: P09/x4
+  started.
+- 02:32 P09/x4 INCONCLUSIVE (SLJ tail sum against DOM −0.07 / −1.81, pooled −0.94 [−2.02, +0.18];
+  DIR −1.19 / −11.71 COUNTEREVIDENCE; 29 fresh worlds with a tail, mean 3.9 events) (L350). Rung 4
+  admitted R13/x4; started.
+- 02:56 R13/x4 VALID_NULL (SmolLM2 −0.10 [−0.31, +0.13]; Qwen +0.03 [−0.39, +0.43] INCONCLUSIVE;
+  pooled −0.04; against DIR +0.31 / +3.12; 60 fresh worlds) (L344). LADDER EXHAUSTED; THE
+  CONFIRMATION FREEZE fired at elapsed 14.2 h: slot 1 K14 (+0.574, the strongest supplied-state
+  effect), slot 2 A11 (+2.857 against DIR, the strongest qualified architecture effect; −0.72
+  against DOM, L356); no discontinuity claim (P11 INCONCLUSIVE). B01 started (K14 on untouched
+  lineages, with rung 9's second lineage). B05 started twice in the same tick (it sits in the
+  preservation order and in the late list) and landed INSTRUMENT_FAILED at 02:56 by timing: its
+  coverage check counted B01, B02, B03, B05, B06, X24 as missing. The coverage check now excludes
+  the closure tail and a cell in two lists starts once (both effective at the next launch); B05
+  is to be rerun after B03 lands. A08 (landed 2026-09-02 13:59) and A11 (14:07), unwritten until now, entered as L355 and
+  L356.
+- 03:15 B01 SUPPORT_CANDIDATE (the K14 claim on untouched lineages: LEARN +0.617 [+0.25, +1.02]
+  over DOM, 51 worlds; SLJ SmolLM2 +0.10, Qwen +0.26 INCONCLUSIVE; law recall 0.17) (L339).
+  B05's second process recorded COMPLETE/INSTRUMENT_FAILED. X24 started (early; reset with B05
+  after B03). B02 started.
+- 03:24 B02 SUPPORT_CANDIDATE (the A11 claim on untouched lineages against DIR: Qwen +3.585
+  [+2.34, +4.78], SmolLM2 +0.79, pooled +2.19; against DOM: Qwen −0.42 VALID_NULL, SmolLM2 −0.22
+  VALID_NULL, pooled −0.32 [−0.54, −0.06] COUNTEREVIDENCE; validated 0.48) (L356). X24
+  INFRASTRUCTURE (early). B03 NOT_RUN (no claim in slot 3). Ladder rung 9 admitted: B01/x9
+  started; B06 started on the CPU (reads the failed B05; to be reset).
+- 03:43 B01/x9 SUPPORT_CANDIDATE (rung 9, a second untouched lineage: LEARN +0.545 [+0.28, +0.81],
+  98 worlds; Qwen SLJ +0.27 SUPPORT_CANDIDATE, SmolLM2 +0.06) (L339). B06 DESCRIPTIVE (the routing
+  shapes: K01 no oracle gap on a target; K04 fails with the executable state; candidate recall
+  fails for five factors). SHORT RUN at 15.0 h: the locked workload and the whole ladder
+  exhausted before the 54-hour floor; cause written (SHORT_RUN); THE FINAL PACKET WRITTEN
+  03:43:51 (results/phase_2_4_stage_7/CURATOR_PACKET_FINAL.md); the scheduler returned 0; the
+  queue emptied 03:44. 03:5x B05 and X24 rerun as addendum cells with the engine stopped
+  (B05/rerun INFRASTRUCTURE: every ledger agrees, nothing missing due; X24/rerun INFRASTRUCTURE:
+  124 verdicts re-hashed, 0 problems); the packet stands as written and its B05 line is the
+  timing artifact of the 02:56 landing (L357).
 
 
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)

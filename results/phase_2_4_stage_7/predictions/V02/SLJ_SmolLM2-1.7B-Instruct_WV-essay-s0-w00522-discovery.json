@@ -1,0 +1,104 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "6a938f34404240ff",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 48,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 962,
+  "tokens_out": 48,
+  "wall_s": 3.974
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "g0"
+ ],
+ "evidence_sha": "f6360abac4f0c1f6",
+ "notes": {
+  "band": 0.07692307692307693,
+  "candidate_preds": {
+   "g0": {
+    "write:sec1:s1.1": 0.18810466239586365,
+    "write:sec1:s1.2": 0.18810466239586365,
+    "write:sec2:s2.1": 0.21189469549105136,
+    "write:sec3:s3.1": 0.1891334911729648
+   }
+  },
+  "factor_marginals": {
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0": 1.0
+  },
+  "proposals": {
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "check",
+      "fix"
+     ],
+     "text": "prose: check > fix | 1. The maker pulls out the document and reads it carefully.\n2. The maker pulls out the source and reads it as well.\n3. T"
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.0,
+   "probe:sec1:tech": 0.023244985512365132,
+   "restructure:sec3:order": 0.0,
+   "revise:sec3:s3.1": 0.030700263882152322,
+   "write:sec1:s1.1": 0.18810466239586365,
+   "write:sec1:s1.2": 0.18810466239586365,
+   "write:sec2:s2.1": 0.21189469549105136,
+   "write:sec3:s3.1": 0.1891334911729648,
+   "write:sec4:s4.2": 0.16881723914973906
+  },
+  "invalidation": {
+   "correct": 0.5384809164791151,
+   "retain": 0.3036952662335061,
+   "rewrite": 0.15782381728737882
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.0,
+   "probe:sec1:tech": 0.023244985512365132,
+   "restructure:sec3:order": 0.0,
+   "revise:sec3:s3.1": 0.030700263882152322,
+   "write:sec1:s1.1": 0.18810466239586365,
+   "write:sec1:s1.2": 0.18810466239586365,
+   "write:sec2:s2.1": 0.21189469549105136,
+   "write:sec3:s3.1": 0.1891334911729648,
+   "write:sec4:s4.2": 0.16881723914973906
+  },
+  "next_section": {
+   "sec1": 0.39945431030409245,
+   "sec2": 0.21189469549105136,
+   "sec3": 0.21983375505511712,
+   "sec4": 0.16881723914973906
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.023244985512365132,
+   "restructure": 0.0,
+   "revise": 0.030700263882152322,
+   "write": 0.9460547506054826
+  },
+  "stop": 0.06711851799769468
+ },
+ "version": "PredictionV1"
+}

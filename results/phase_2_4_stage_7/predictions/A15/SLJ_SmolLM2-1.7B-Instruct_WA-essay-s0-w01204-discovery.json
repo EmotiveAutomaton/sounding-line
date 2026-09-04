@@ -1,0 +1,165 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "a37385fc41692800",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 126,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 1063,
+  "tokens_out": 126,
+  "wall_s": 6.761
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|k0|g0|h0"
+ ],
+ "evidence_sha": "5a14286951a5883c",
+ "notes": {
+  "band": 0.2,
+  "candidate_preds": {
+   "b0|k0|g0|h0": {
+    "check:sec1:s1.1": 0.06057167072536079,
+    "check:sec2:s2.1": 0.050332053406211205,
+    "revise:sec2:s2.3": 0.37190636619286827,
+    "revise:sec3:s3.1": 0.23881260284169709
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "expertise_law": {
+    "k0": 1.0
+   },
+   "history_residue": {
+    "h0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|k0|g0|h0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "no",
+      "yes",
+      "tight",
+      "none"
+     ],
+     "text": "belief: library=no source=yes deadline=tight checked=none"
+    }
+   ],
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "revise",
+      "write",
+      "restructure",
+      "fix",
+      "steady"
+     ],
+     "text": "skill: revise,write weak: restructure,fix pace: steady"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "none",
+      "none"
+     ],
+     "text": "default: no carried habit, no held intention"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "prose: revise > restructure | The maker is after step 5: the maker reworks sec2 (s2.2)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "history_residue": "revise:1 write:2 revise:2 write:3 revise:3 write:1 revise:2 write:2 revise:2 write:3 revise:3 write:1 revise:2 write:2 revise:2 write:3 revise:3 write:1 revise:2 write:2 revise:2"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.0605716707253608,
+   "check:sec2:s2.1": 0.05033205340621121,
+   "check:sec3:s3.1": 0.032319771246053786,
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.031098532678805538,
+   "fix:sec2:s2.1": 0.05033205340621121,
+   "probe:sec1:tech": 0.04340149860848679,
+   "restructure:sec2:order": 0.0,
+   "revise:sec2:s2.3": 0.3719063661928683,
+   "revise:sec3:s3.1": 0.2388126028416971,
+   "write:sec1:s1.2": 0.031098532678805538,
+   "write:sec1:s1.3": 0.031098532678805538,
+   "write:sec2:s2.2": 0.025841337854811526,
+   "write:sec3:s3.1": 0.016593523840941336,
+   "write:sec3:s3.2": 0.016593523840941336
+  },
+  "invalidation": {
+   "correct": 0.22184426202734017,
+   "retain": 0.14067046927108776,
+   "rewrite": 0.6374852687015721
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.0605716707253608,
+   "check:sec2:s2.1": 0.05033205340621121,
+   "check:sec3:s3.1": 0.032319771246053786,
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.031098532678805538,
+   "fix:sec2:s2.1": 0.05033205340621121,
+   "probe:sec1:tech": 0.04340149860848679,
+   "restructure:sec2:order": 0.0,
+   "revise:sec2:s2.3": 0.3719063661928683,
+   "revise:sec3:s3.1": 0.2388126028416971,
+   "write:sec1:s1.2": 0.031098532678805538,
+   "write:sec1:s1.3": 0.031098532678805538,
+   "write:sec2:s2.2": 0.025841337854811526,
+   "write:sec3:s3.1": 0.016593523840941336,
+   "write:sec3:s3.2": 0.016593523840941336
+  },
+  "next_section": {
+   "sec1": 0.19726876737026416,
+   "sec2": 0.4984118108601022,
+   "sec3": 0.30431942176963356
+  },
+  "next_type": {
+   "check": 0.1432234953776258,
+   "cite": 0.0,
+   "consult": 0.031098532678805538,
+   "fix": 0.05033205340621121,
+   "probe": 0.04340149860848679,
+   "restructure": 0.0,
+   "revise": 0.6107189690345655,
+   "write": 0.12122545089430527
+  },
+  "stop": 0.026596993576865856
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,164 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "2c8a56add4bfa845",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 117,
+  "model_calls": 4,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 1171,
+  "tokens_out": 117,
+  "wall_s": 8.718
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|k0|g0|h0"
+ ],
+ "evidence_sha": "8b5f064549fd5e1f",
+ "notes": {
+  "band": 0.2,
+  "candidate_preds": {
+   "b0|k0|g0|h0": {
+    "check:sec1:s1.1": 0.10516984659091992,
+    "check:sec2:s2.1": 0.08739092503058399,
+    "probe:sec1:tech": 0.06034155923997134,
+    "revise:sec2:s2.2": 0.5170653260106832
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "expertise_law": {
+    "k0": 1.0
+   },
+   "history_residue": {
+    "h0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|k0|g0|h0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "yes",
+      "yes",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=yes source=yes deadline=loose checked=none"
+    }
+   ],
+   "expertise_law": [
+    {
+     "ref": "k0",
+     "signature": [
+      "revise",
+      "check",
+      "fix",
+      "cite",
+      "steady"
+     ],
+     "text": "skill: revise,check weak: fix,cite pace: steady"
+    }
+   ],
+   "history_residue": [
+    {
+     "ref": "h0",
+     "signature": [
+      "none",
+      "none"
+     ],
+     "text": "default: no carried habit, no held intention"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "revise",
+      "restructure"
+     ],
+     "text": "prose: revise > restructure | The maker is currently revising sec2 (s2.3)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "expertise_law",
+   "proximal_goal",
+   "history_residue"
+  ],
+  "unparsed": {
+   "history_residue": "sec1 [empty]; sec2 [fix@s2.1, write@s2.1, revise@s2.3]; sec3 [revise@s3.2, check@s3.1]\n\nThe work so far:\nThe maker is working on the glaze recipe."
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.10516984659091994,
+   "check:sec2:s2.1": 0.087390925030584,
+   "cite:sec3:ref": 0.023070150431447244,
+   "consult:sec1:src": 0.04323661652428262,
+   "probe:sec1:tech": 0.060341559239971344,
+   "restructure:sec2:order": 0.0,
+   "revise:sec2:s2.2": 0.5170653260106833,
+   "write:sec1:s1.1": 0.03462117602656402,
+   "write:sec1:s1.2": 0.03462117602656402,
+   "write:sec2:s2.2": 0.02876847971811463,
+   "write:sec2:s2.3": 0.02876847971811463,
+   "write:sec3:s3.1": 0.018473132341377152,
+   "write:sec3:s3.2": 0.018473132341377152
+  },
+  "invalidation": {
+   "correct": 0.20274742356305891,
+   "retain": 0.0895945344600854,
+   "rewrite": 0.7076580419768557
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.10516984659091994,
+   "check:sec2:s2.1": 0.087390925030584,
+   "cite:sec3:ref": 0.023070150431447244,
+   "consult:sec1:src": 0.04323661652428262,
+   "probe:sec1:tech": 0.060341559239971344,
+   "restructure:sec2:order": 0.0,
+   "revise:sec2:s2.2": 0.5170653260106833,
+   "write:sec1:s1.1": 0.03462117602656402,
+   "write:sec1:s1.2": 0.03462117602656402,
+   "write:sec2:s2.2": 0.02876847971811463,
+   "write:sec2:s2.3": 0.02876847971811463,
+   "write:sec3:s3.1": 0.018473132341377152,
+   "write:sec3:s3.2": 0.018473132341377152
+  },
+  "next_section": {
+   "sec1": 0.27799037440830193,
+   "sec2": 0.6619932104774966,
+   "sec3": 0.06001641511420155
+  },
+  "next_type": {
+   "check": 0.19256077162150395,
+   "cite": 0.023070150431447244,
+   "consult": 0.04323661652428262,
+   "fix": 0.0,
+   "probe": 0.060341559239971344,
+   "restructure": 0.0,
+   "revise": 0.5170653260106833,
+   "write": 0.16372557617211161
+  },
+  "stop": 0.014774031693273055
+ },
+ "version": "PredictionV1"
+}

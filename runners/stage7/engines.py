@@ -298,10 +298,11 @@ def mean_score(rows: list[dict], key: str = "primary_score") -> float | None:
     return sum(vals) / len(vals) if vals else None
 
 
-def oracle_rows(run: CardRun7, worlds: list[dict], conds: dict) -> None:
-    """The exact oracle's scores per world (the OR rows), from the bundles alone."""
+def oracle_rows(run: CardRun7, worlds: list[dict], conds: dict, unit_suffix: str | None = None) -> None:
+    """The exact oracle's scores per world (the OR rows), from the bundles alone. A unit
+    suffix (a regime crossed on the same worlds) keeps the OR row paired with its arms."""
     for w in worlds:
-        uid = w["lid"]
+        uid = w["lid"] + (unit_suffix or "")
         if run.is_done("-", uid, "OR"):
             continue
         bundle = W.oracle_bundle(w, conds)

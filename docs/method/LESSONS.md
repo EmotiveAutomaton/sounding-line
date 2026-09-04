@@ -861,3 +861,48 @@ L132 (a shuffle gate that voided the alternative's own signature).
   digit). Probe every proposer a rung will call against the readers' raw outputs before the
   run, on the cold condition above all, where every proposer is called at once.
   (2026-09-02, R13)
+- **A world cut at its stop has no next action and its row carries no primary score; every
+  consumer of rows goes through the one guard that keeps valid rows with a score, never a
+  valid-only filter of its own.** K04's analysis step and then X20's paired contrast each took
+  the valid rows, called float on None, and cost a retry and a stop of the engine; the guard
+  existed both times and the callers did not use it. Grep the consumers of rows for their
+  own filters before a run, not after the crash. (2026-09-02, K04 and X20)
+- **When conditions are crossed on the same worlds, the unit identity must carry the
+  condition, and a cell that reads 'no units' is a hole, never a null.** R14's three regime
+  batches drew the same worlds under the same (reader, world, arm) identity; the done-check
+  that makes a cell resumable skipped the second and third regimes without a word, the two
+  cells the card exists for were built from no rows, and the verdict rule read them as VOID
+  beside an INCONCLUSIVE primary. Count rows per condition before reading any cell, and give a
+  crossed batch its own unit suffix. (2026-09-02, R14)
+- **A card's target list must name every target the analyses downstream read from its rows;
+  an unasked target is filled uniform, and the fill scores as a null.** R13 asked its reader
+  arms for the next action and the stop while P02 to P08 read five other targets from its
+  rows; the joint arm's executed law filled four of them honestly, the direct reader's were
+  fills, and the boundary type was a fill on both arms, so P06 landed with six cells identical
+  to the digit. Two arms or two readers agreeing to the digit is a fill until shown otherwise
+  (the third catch of that kind in one day). Before a run, list every target each analysis
+  reads and check it against the source card's target list. (2026-09-02, P06)
+- **One dispatch for anything several arms do alike; an arm that calls a shared proposer
+  bare inherits none of the repairs the main arm earned.** The joint arm asked each factor's
+  proposer with what it needs (option ids, the brief's defaults); the particle and adaptive
+  arms called the same proposers bare, their belief lists came back empty, and the particle
+  arm never initialized on any A14 world, so the card compared the joint arm to a fallback
+  and read inconclusive. The worker did not mark those rows unrealized either, so the rows
+  looked like readings. Every arm goes through one dispatch, and every arm's unrealized rows
+  say so in their notes. (2026-09-02, A14)
+- **A ledger-agreement cell must run after every cell its ledgers count, and a cell that
+  appears in two start lists starts twice.** B05 checks that coverage, sources, access,
+  compute, dependencies, conformance, gates, and claims agree; its dependency was the ghost
+  receipt alone, so it ran at the freeze while five closure cells including itself were
+  pending, counted them as missing, and failed; the same tick started it twice because it
+  sits in the preservation order and in the late list. The closure tail is excluded from
+  its own coverage check, a cell in two lists starts once, and the cell is rerun after the
+  confirmations land. Order the closure by what each cell reads, not by what it depends on
+  for its inputs alone. (2026-09-03, B05)
+- **Size the workload from the pilot's measured throughput, not from card estimates, and let
+  the ladder fill the floor from what is measured.** Stage 7's lock forecast 56 hours of base
+  work and 3.5 of ladder against a 54-hour floor; the cells ran at a third of the estimates and
+  the gated branches closed more than the conditional forecast allowed, so the run exhausted
+  its whole locked program at hour 15 and closed short with a ladder that could have run
+  three more rungs. The short-run cause was written honestly and nothing was padded, which is
+  the right behavior; the sizing was the mistake. (2026-09-03, the closure)

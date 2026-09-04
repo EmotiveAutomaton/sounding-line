@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-02.**
+**Last updated: 2026-09-03.**
 
 ---
 
@@ -14554,6 +14554,19 @@ failure under a condition that shows them what a law looks like, which the recal
 the R family (R03, no candidates in view) measures again. What survives under its own name
 is the same as before the audit, and stronger for being clean: known-law system
 identification and, new, law learning from demonstrations by likelihood.
+*(B01, the first confirmation, 2026-09-03 03:15)* The freeze took this cell's learned-law
+effect as the strongest supplied-state claim (slot 1), and the confirmation reran the card on
+untouched lineages, 51 worlds with a next action across the two confirmation lineages (rung 9
+added the second). It replicates: the law fitted from the demonstrations lands +0.62 nats
+[+0.25, +1.02] over the domain model (the base +0.57 [+0.31, +0.85]; the oracle gap 0.67, the
+floor 0.13), and the readers' joint arm stays inconclusive (SmolLM2 +0.10 [−0.14, +0.35], Qwen
++0.26 [−0.03, +0.55]; law recall 0.17, Qwen 0.33). The confirmed claim is a program's: the
+expertise law is learnable from three earlier episodes and transfers to an untouched one; no
+reader's proposal confirms with it. *(Rung 9, 03:43)* The ladder's last rung added a second
+untouched confirmation lineage (98 worlds with a next action over both): the learned law
++0.55 [+0.28, +0.81] over the domain model, Qwen's proposed law +0.27 (support at the frozen
+threshold, the one reader cell of the confirmations that clears it), SmolLM2 +0.06. Three
+draws (the base, the confirmation, the second lineage) agree on the program result.
 
 > **Curator roll-up.** Theory group: the triple inference (§2, expertise as the transition
 > model). Question: is the missing law recoverable, and by whom? Outcome class: **Narrows**
@@ -14561,7 +14574,9 @@ identification and, new, law learning from demonstrations by likelihood.
 > +0.57 learned against the domain model; the joint reader realized on 16 of 120 rows.
 > Meaning: the law is in the evidence for a program that can execute it. Next obligation:
 > K16 (size), R03 (law recall without candidates), R09 (learned-law transfer to untouched
-> episodes). Public claim: none yet. Decision: **No**. Detail:
+> episodes). Confirmed on untouched lineages (B01, +0.62 [+0.25, +1.02]) for the program; the
+> readers inconclusive there too. Public claim: the learned law transfers, at this construction
+> family and scale, as a program result. Decision: **No**. Detail:
 > results/phase_2_4_stage_7/K14.
 
 ## L340 · Size does not cross the state-use boundary: handed the complete executable maker state, four readers from 0.5B to the 9B route all predict the next feasible action under the frozen domain model (−1.66, −2.50, −3.10, and −1.06 nats), the 9B least badly and still a nat under, and giving each reader the solver's own output line beside the state (expanded compute) changes nothing for the small ones and hurts the 3B and the 9B (−4.20 and −2.05); the 9B's accuracy edges the domain model's (0.17 against 0.14) while its log score says its confident answers are wrong
@@ -14798,6 +14813,7 @@ oracle outside.
 | R11, goal and belief withheld, joint against DOM | −0.17 [−0.47, +0.13] INCONCLUSIVE | −1.40 [−2.66, −0.40] COUNTEREVIDENCE | joint over direct +0.57 and +1.06; goal recall 0.15 and 0.32, belief recall 0.37 and 0.32; realized 27 of 60 and 59 of 60 |
 | R12, law withheld with the action set and the maker context derived from it, law twins, no demonstrations | +0.04 [−0.13, +0.22] INCONCLUSIVE | +0.11 [−0.33, +0.50] INCONCLUSIVE | joint over direct +0.55 and +3.28; law recall 0.00 and 0.56 (216 rows with twins); realized 0 of 108 and 90 of 108; the oracle's expectation reverses on 8 of 96 twin pairs and the reader follows on 0; the joint arm's mass on unavailable options 0.08 |
 | R13 first landing (everything withheld), 20:09, VOID as an instrument hole | −0.11 [−0.31, +0.13] INCONCLUSIVE, the abstention fallback | −0.11 [−0.31, +0.12] INCONCLUSIVE, identical to the digit | the joint arm abstained on 120 of 120 rows (no solvable proposal set): the residue grammar rejected both readers' copy of the prompt's own notation on every row; law proposals empty on 104 rows, goal on 40; repaired, reset, rerun from 20:19 |
+| R13 rerun, everything withheld (goal, belief, law, and residue proposed; the maker context and the action set derived from them), 20:42 | −0.36 [−1.12, +0.17] INCONCLUSIVE | −1.33 [−2.57, −0.36] COUNTEREVIDENCE | joint over direct +0.62 and +1.63; recall of the law 0.20 and 0.68, the goal 0.25 and 0.42, the belief 0.28 and 0.07, the residue's habit 0.42 and 0.40; realized 15 of 60 and 54 of 60; abstains on 46 and 21 of 60; pooled −0.84 [−1.72, −0.22] COUNTEREVIDENCE |
 
 *Table: the joint rungs as they land; next-action log-score contrasts in nats with cluster
 intervals over worlds (the oracle gap 0.34 on this family, the floor 0.068).*
@@ -14848,13 +14864,114 @@ this as R13's second repair; the first was the K04 chain block, not R13's own fa
 engine relaunched on the same clock at 20:19 with R13 first. Every cold condition (R14, R16,
 A15, P09, B01) and the dated histories that withhold the residue (V01 to V03) call the same
 proposer and would have inherited the hole.
+*(R13 rerun, 20:42, the cold rung)* With the goal, the belief, the law, and the residue
+proposed from the prefix and the maker context and the action set derived from them by the
+law, the joint arm lands 1.3 nats under the domain model on Qwen and a third of a nat under
+it on SmolLM2 (inconclusive, because SmolLM2 proposes a law on 15 worlds of 60 and abstains
+on the rest), and above the direct reader by 1.6 and 0.6 nats; the card's primary reads
+INCONCLUSIVE by its rule, the pooled cell is counterevidence. Qwen's candidate lists hold the
+true law's shape in 68 percent of worlds and the true goal in 42, the true belief in 7; the
+residue's habit is right in 40 percent, in part because the null fallback matches worlds that
+carry no habit. By target, the committed sets cost the most on the next type (Qwen 1.4 nats
+under the domain model) and the changed-context choice (half a nat), and nothing on the stop
+or the invalidation response (a tenth of a nat each); on the equivalence classes the joint
+arm abstains on 60 percent and falsely on half the singletons. The cold rung is the K rungs'
+lesson in one place: these readers can name the law (as in R03, R09, R12) and sometimes the
+goal, they cannot name the belief (R02's figure again), and the arm's full commitment to a
+wrong set, executed by an exact law, costs more than the domain model's ignorance. What
+survives is the contrast with the direct reader: the executed reconstruction beats free-text
+prediction by a nat and a half on the reader that realizes it, and that gain is the
+realizer's, not the reader's. P01, the prospective engine's own analysis of the same rows on
+the next action (21:15), reproduces the R13 cells to the digit (SmolLM2 −0.36, Qwen −1.33
+under the domain model; the direct reader −0.98 and −2.96), so the two engines agree on what
+the rows say. *(The P analyses' first landings, 22:15 to 22:35, SUPERSEDED at 22:41)* P02
+and P03 read the same rows on the next type and the next section, P04 on the rejected
+alternative, P05 on the stop, P06 on the boundary type; their joint-arm cells stood (the
+executed law fills every target), but R13's card had asked its reader arms for two targets
+only (the next action and the stop), the worker fills an unasked target uniform, and so the
+direct reader's next-type, section, changed-context, and invalidation cells were fills
+(−0.11 on both readers to the digit, which is how it was noticed) and the boundary type was
+a fill on both arms, P06's six cells identical to the digit. R13 now asks every target the
+analyses read and the joint arm mixes the boundary type from the executed law's stop terms;
+R13, P01 to P07, and the attacks over its rows (X01, X06, X12, X20) were reset with rows
+preserved under superseded_targets/ (the scheduler's third repair of R13) and rerun from
+22:41. *(The rerun, 23:06 to 23:26)* R13 reproduces its primary to the digit (SmolLM2 −0.36,
+Qwen −1.33; realized 54 and 15 of 60; every recall figure identical), the three attacks pass
+with the same figures (order permutation TV 0.0; tail replacement identity 1.0 on every arm;
+the domain model the strongest cheap rival on every target), X12 passes again
+(duplicate-evidence sharpening 0.010, band 0.05), X02 passes (00:39: the hidden length, stop
+parameters, and stop outcome replaced with the visible bytes fixed leave every non-oracle
+arm's prediction byte-identical on I06), X03 passes the same way on I07 (01:18: future cues,
+interruptions, invalidations, and the changed-context truth replaced, identity 1.0 on every
+arm), and the direct reader's cells are now
+readings. P01 (next action) repeats the R13 cells. P02 (next type): the joint arm −0.39
+[−1.18, +0.11] and −1.36 [−2.61, −0.38] under the domain model, the direct reader −1.51
+[−2.07, −0.98] and −2.31 [−3.07, −1.58]. P03 (next section): the oracle's own gap is 0.03
+nats, the joint arm within a tenth of the domain model (+0.04 and −0.11), the direct reader
+−0.31 [−0.51, −0.12] and −0.83 [−1.19, −0.46] under it. P04 (the rejected alternative, the
+pairwise choice between the action taken and an open alternative): the joint arm −0.41
+[−1.20, +0.07] and −1.77 [−3.17, −0.72], the direct reader −0.69 [−1.06, −0.32] and −1.08
+[−1.76, −0.39], every pooled cell counterevidence. On every prospective target the free-text
+reader is under the domain model by half a nat to three nats, and the executed
+reconstruction is under it by less on the reader that realizes it. P05 (the stop, 23:39, 60
+worlds): the domain model's hazard sits within 0.05 nats of the exact oracle, and every reader
+arm is under it, the joint arm by −0.32 [−0.48, −0.15] and −0.08 [−0.14, −0.02], the direct
+reader by −0.22 and −0.93 (the supplied-state direct reader of K15 by −0.40 and −1.32 beside).
+P06 (the boundary type, why the maker stops, on the 10 worlds that stop at a live boundary):
+the reason is a function of the state (the oracle gains 0.95 nats over the domain model's
+prior), the direct reader names it no better than the prior (SmolLM2 −0.28 [−0.62, +0.03], a
+valid null; Qwen −1.41 [−2.39, −0.41]), and the joint arm names the wrong reason with full
+commitment: its executed state's stop terms put a point mass on one label, Qwen hits the
+log-score floor on 8 worlds of 10 (−15.8 [−19.9, −9.6] against the domain model), SmolLM2's
+fallback prior sits at −4.2. The stop terms of a wrong reconstructed state are wrong reasons,
+and the arm's commitment makes each cost twenty nats. P07 (the later action after a context
+change, 00:39, 60 worlds; the oracle gains 0.62 nats over the domain model): the joint arm
+−0.26 [−0.99, +0.25] and −0.51 [−1.32, +0.17], pooled a valid null (−0.38 [−0.87, +0.02]),
+the direct reader −0.38 [−0.62, −0.11] and −2.62 [−3.25, −1.95] under it: the counterfactual
+choice is where the domain model is weakest and neither reader takes any of the gap. P08
+(the response to a later-invalidated source, 00:57, 60 worlds; the oracle gains 0.08 nats
+over the domain model): the joint arm −0.09 [−0.21, +0.04] and −0.15 [−0.30, +0.00], pooled
+−0.12 [−0.21, −0.02], the direct reader −0.17 and −0.73 under it; on a target the prior
+already nearly owns there is nothing to take. That closes the eight prospective analyses
+over R13's rows: on no target does either reader beat the domain model, the joint arm loses
+least where it executes a state (the section, the stop, the invalidation, the changed
+context) and most where a wrong state commits fully (the next action, the next type, the
+boundary type), and the free-text reader loses on every target by more.
+*(Ladder rung 4, R13 on fresh worlds, 02:56)* The expansion ladder reruns the cold rung on a
+fresh lineage band of 60 worlds (48 with a next action) with longer prefixes and tails. The
+joint arm lands at the domain model: SmolLM2 −0.10 [−0.31, +0.13], a valid null, Qwen +0.03
+[−0.39, +0.43], pooled −0.04; over the direct reader +0.31 and +3.12. Recall on the fresh
+draw: the law 0.39, the goal 0.38, the belief 0.23, the residue 0.27. The base cell's
+counterevidence on Qwen (−1.33 [−2.56, −0.32]) does not reproduce: the fresh draw has fewer
+worlds where a confident wrong set is executed, so the cold rung's reading narrows from
+"under the domain model" to "at or under it, by the draw"; what holds on both draws is that
+nothing is above it and that the executed reconstruction beats free text on the reader that
+realizes it.
+*(X01, X06, X20 on R13's rows, 20:52)* Two attacks pass as infrastructure: replacing the
+entire hidden future while holding the visible bytes fixed leaves every non-oracle arm's
+prediction byte-identical (identity rates 1.0 on I05's tail mutation, the gate standing), and
+permuting answer, action, and candidate order moves the posterior and the prediction by a
+total variation of zero (band 0.05). The third, the strengthened cheap rivals against R13,
+crashed twice on R13's terminal-cut rows: a world cut at its stop has no next action, its row
+carries no primary score, and the attack's paired contrast took the valid rows without the
+shared guard (K04's analysis step fell the same way this morning). The engine was stopped at
+20:54 before the third attempt could load stale code, the attack now takes the valid rows with
+a primary score through the shared guard, X20 with the interrupted R14 and P01 were reset with
+rows preserved under superseded_terminal/, the card rehearsed through the fake transport, and
+the engine relaunched on the same clock at 20:56. Rerun, X20 passes as infrastructure (21:15):
+the strongest cheap rival on every target (next action, stop, next type) is the domain model
+itself, no persistence rival exists on the R family, and R13 makes no maker claim for a
+strengthened rival to erode.
 
 > **Curator roll-up.** Theory group: the triple inference (§2, §3 coupling). Question: can
 > goal and belief be inferred jointly without collapse? Outcome class: **Narrows** (no
 > collapse; no recovery either). Result: goal recall 0.23, belief 0.34, Qwen −1.4 nats
-> under the domain model. Meaning: the joint reader is wrong twice and sure. Next
-> obligation: the R13 rerun appends here (its first landing, below, was an instrument hole). Public claim: none. Decision: **No**. Detail:
-> results/phase_2_4_stage_7/R11.
+> under the domain model; cold (R13), the realizing reader 1.3 nats under it and 1.6 over the
+> direct reader. Meaning: the joint reader is wrong and sure, and cold it names the law but
+> not the belief; what beats free text is the realizer. Next obligation: R14's regimes, R16's
+> equivalence classes, A15's compute pricing, the P analyses over R13's rows. Public claim:
+> none. Decision: **No**. Detail: results/phase_2_4_stage_7/R11, R12, R13 (the first R13
+> landing under superseded_residue/).
 
 
 
@@ -14872,6 +14989,825 @@ proposer and would have inherited the hole.
 
 
 # TIER 2 · SETTLED
+
+## L345 · The regime crossing of the reconstruction trunk (cold, domain expert, maker familiar) landed first with two regimes empty: the three batches ran on the same worlds under the same unit ids, the done-check skipped the second and third, and the domain-expert and maker-familiar cells read "no units" while the cold cells repeated R13 (Qwen 1.6 nats [0.2, 3.2] under the domain model, SmolLM2 −0.43 [−1.45, +0.25]); the unit id now carries the regime and the rerun appends here
+
+**Hypothesis.** Brief §10 R14: does maker familiarity (two earlier episodes by the same
+maker in view) help where cold reading fails, independently of domain expertise (the
+domain's generic shape in view), crossed on the same targets?
+
+**Method.** The R family behind the boundary, 40 worlds (35 with a next action), the three
+regimes crossed on the same worlds, every arm (domain model, direct reader, joint reader,
+exact oracle) per regime, contrasts per regime cell before any pooling (X21 attacks the
+pooling). The first landing produced rows for the cold regime only.
+
+| cell (first landing, 21:15) | SmolLM2 | Qwen2.5-1.5B | beside |
+|---|---|---|---|
+| cold, joint against DOM | −0.43 [−1.45, +0.25] INCONCLUSIVE | −1.57 [−3.18, −0.22] COUNTEREVIDENCE | pooled −1.00 [−2.13, −0.18] |
+| cold, direct against DOM | −1.12 [−1.67, −0.51] COUNTEREVIDENCE | −2.89 [−3.93, −1.86] COUNTEREVIDENCE | |
+| domain expert, both arms | VOID, no units | VOID, no units | the batch skipped the regime |
+| maker familiar, both arms | VOID, no units | VOID, no units | the batch skipped the regime |
+
+*Table: R14's first landing, next-action log-score contrasts in nats with cluster intervals
+over 35 worlds (the oracle gap 0.39, the floor 0.078); the two regimes that carry the
+question produced no rows.*
+
+| cell (rerun, 22:15) | SmolLM2 | Qwen2.5-1.5B | beside |
+|---|---|---|---|
+| cold, joint against DOM | −0.43 [−1.51, +0.25] INCONCLUSIVE | −1.57 [−3.26, −0.24] COUNTEREVIDENCE | realized 10 and 36 of 40; pooled −1.00 |
+| domain expert (the domain's generic law in view), joint against DOM | −0.21 [−0.51, +0.09] INCONCLUSIVE | +0.02 [−0.29, +0.36] INCONCLUSIVE | realized 27 and 5 of 40: Qwen answers the law question in prose on 35 worlds and its arm is the abstention fallback |
+| maker familiar (two earlier episodes by the same maker in view), joint against DOM | +0.02 [−0.24, +0.28] INCONCLUSIVE | −1.75 [−3.41, −0.44] COUNTEREVIDENCE | realized 15 and 40 of 40; pooled −0.87 [−1.59, −0.26] |
+| cold, direct against DOM | −1.12 [−1.63, −0.49] | −2.89 [−3.91, −1.87] | |
+| domain expert, direct against DOM | −0.70 [−1.20, −0.17] | −4.06 [−5.13, −3.01] | the generic law misleads free text |
+| maker familiar, direct against DOM | −0.33 [−0.77, +0.11] | −3.10 [−4.24, −1.98] | the demonstrations help SmolLM2's free text by 0.8 nats |
+
+*Table: R14 rerun, the three regimes crossed on the same 40 worlds (35 with a next action),
+next-action log-score contrasts in nats with cluster intervals; realized counts are the
+joint arm's worlds with a solvable proposal set.*
+
+**What we found.** The cold regime repeats R13 on a fresh draw of the same family (the
+joint arm a nat and a half under the domain model on Qwen, within noise of it on SmolLM2).
+The two regimes the card exists for never ran: the shared batch identifies a unit by
+(reader, world, arm), the three regime batches drew the same worlds, and after the cold
+batch every unit of the other two was already done, so their cells were built from no rows
+and the card's own verdict rule read the empty cells as VOID beside an INCONCLUSIVE primary.
+Repaired at 21:20 (the unit id carries the regime on every arm, twin, and oracle row, so the
+crossing stays on the same worlds as the brief specifies), rehearsed through the fake
+transport with rows and cells in all three regimes, R14 reset with R15 (which had read the
+hollow rows) and the interrupted R16 and P02, relaunched on the same clock at 21:21.
+
+**What it means.** Nothing about the question yet. A cell that reads "no units" is a hole
+in the instrument, not a null, and the rerun's cells are the entry's content.
+*(rerun, 22:15)* The answer to the card's question is no. Where cold reading fails (Qwen,
+1.6 nats under the domain model), two earlier episodes by the same maker in view leave it
+failing (1.75 under) while making it commit on every world; where cold reading sits within
+noise of the domain model (SmolLM2) the demonstrations leave it there. Domain expertise, the
+generic law in view, brings Qwen's cell to the domain model by silencing it: shown the
+domain's shape it answers the law question in prose on 35 worlds of 40, the grammar takes
+none of it, the set is unsolvable, and the cell is the abstention fallback; SmolLM2 realizes
+more worlds there than anywhere (27 of 40, the shape gives it something to name from) and
+sits a fifth of a nat under. Free-text prediction moves the other way: the generic law makes
+the direct reader worse on both readers (Qwen by more than a nat), and the demonstrations
+improve SmolLM2's direct reading by 0.8 nats while Qwen's stays three nats under. Beside
+R09, where the same demonstrations with every other factor supplied let Qwen's proposed law
+clear the floor, the crossing says what the demonstrations carry: the law, and not the
+belief, the goal, or the residue, which is where the cold reading fails. The open instrument
+note is the prose law (a decoder for it is the next stage's business, not a mid-run change).
+*(R15, 22:30, certainty by regime)* The joint arm's candidate entropy over the factor
+marginals is 0.16 cold, 0.08 with the generic law in view, and 0.21 with the demonstrations,
+and its calibration on the next action stays at chance in every regime (expected calibration
+error 0.49, 0.50, 0.44 on 70 rows each; the cold confidence slope is negative, −0.17): the
+generic law halves what the reader entertains and does not make its confidence mean anything,
+so the better mean score in that regime (−2.78 against −3.69 cold) is the abstention fallback
+of the paragraph above and not a reconstruction with earned certainty.
+*(X21, 01:18)* The transfer attack confirms that the 22 conditional cells of this entry and
+of the size ladder (L349) were emitted before any pooling and that pooling would reverse at
+least one sign (SmolLM2 at the domain model and Qwen 1.75 nats under it in the maker-familiar
+regime pool to counterevidence), so the cells stand as the report and no pooled figure does.
+
+> **Curator roll-up.** Theory group: the three layers (expertise as a cross-episode record);
+> the triple inference (§2). Question: does maker familiarity help where cold reading fails,
+> apart from domain expertise? Outcome class: **Narrows** (maker familiarity informs the
+> law, R09, and not the state; the first landing was an infrastructure hole, repaired).
+> Result: with two of the maker's episodes in view the failing reader is 1.75 nats under the
+> domain model. Meaning: the demonstrations carry the law and the cold reading fails
+> elsewhere, and the generic law halves the candidate entropy without moving calibration (R15).
+> Next obligation: X21 (the pooling attack); a prose law decoder for the next stage. Public
+> claim: none.
+> Decision: **No**. Detail: results/phase_2_4_stage_7/R14 (the first landing under
+> superseded_regime/).
+
+## L346 · Where the visible prefix leaves several maker models equivalent, the joint reader's abstention does not track it: it withholds on 59 percent of the equivalence cases and on 73 percent of the singletons, the wrong way round and within noise of each other, and SmolLM2's abstention is mostly failure to propose (36 of 60 unrealized); the discriminator half of the question is untested by construction, the reader's expected-information ratio being 1.0 against its own greedy choice
+
+**Hypothesis.** Brief §10 R16: does the reader preserve observationally equivalent maker
+models rather than collapsing them, and choose a useful next discriminator (the observation
+whose outcome most separates the survivors, per unit of cost)?
+
+**Method.** 60 cold worlds on the R family (offset 900), the joint arm only with the exact
+oracle beside it; each world's truth carries its equivalence class (the maker models the
+prefix cannot separate) and each joint row its own candidate class and abstention; coverage
+is the match between abstaining and the truth class being larger than one, split by class
+size; the discriminator is the option whose observation most reduces the reader's candidate
+entropy, its expected information reported as a ratio against the reader's best option.
+
+| measure | value | beside |
+|---|---|---|
+| truth classes larger than one (equivalence rows, both readers) | 66 | 26 singleton rows |
+| abstention on equivalence rows | 0.59 | SmolLM2 30 of 43 worlds, Qwen 16 of 43 |
+| abstention on singleton rows (false abstention) | 0.73 | 10 of 17 worlds on each reader |
+| coverage correct on singletons | 0.27 | |
+| SmolLM2 unrealized (no solvable set) | 36 of 60 | Qwen 4 of 60 |
+| expected-information ratio of the chosen discriminator | 1.00 (n 46) | 1.0 by construction against the reader's own greedy choice |
+
+*Table: R16 at 60 worlds, descriptive by the card's rule (no contrast); rates over the joint
+arm's rows pooled across both readers unless a reader is named.*
+
+**What we found.** The reader's abstention is not a reading of the prefix's ambiguity. It
+withholds more often when the truth is a single maker model than when several are equivalent,
+and the two rates sit within noise of each other on 26 and 66 rows. SmolLM2's abstention is
+almost all failure to produce a solvable proposal set (36 of 60 worlds), and Qwen, which
+realizes 56 of 60, keeps a class of two or more candidates on 22 worlds and abstains on 26,
+with no relation to whether the truth is ambiguous. The discriminator measure cannot fail as
+built: the chosen option is the reader's own entropy-minimizing option, and the ratio against
+the best option is therefore one.
+
+**What it means.** Preserving equivalence is a property the theory wants of a reader that
+reasons about maker models, and at this scale the readers do not show it: their abstention
+is driven by whether they managed to propose at all, not by what the prefix leaves open. The
+discriminator half is an instrument gap to redesign for the next stage (a ratio against a
+non-greedy or oracle discriminator, or the realized information after the observation), not
+a result.
+*(P10, 01:24, calibration over R13's and R16's rows)* The joint arm's confidence is
+anti-informative: expected calibration error 0.51 against 0.37 for the direct reader and
+0.375 for the domain model's own top probability, a negative reliability slope, the risk of
+its most confident tenth the highest at any coverage (4.66 nats against 3.31 at nine tenths),
+and calibration worse the more evidence the prefix carries (0.44 low, 0.51 mid, 0.65 high).
+Pooled with R16's rows the abstention picture holds: withholding on 56 percent of the
+equivalence cases and on 54 percent of the singletons.
+*(X14, 01:34, a criterion that fired)* The attack that holds the final artifact and the
+visible prefix fixed while swapping valid hidden histories asks whether the reader preserves
+the equivalence class, with its rule fixed before the run: abstention on at least half the
+equivalence cases and false abstention on at most half the singletons. R16's figures (0.59
+and 0.73) fail the second clause, so X14 lands INSTRUMENT_FAILED and the attack matrix carries
+it: the readers do not preserve the equivalence class, by the run's own criterion.
+
+> **Curator roll-up.** Theory group: the triple inference (§2, equivalence and abstention).
+> Question: does the reader keep equivalent maker models apart and pick a useful
+> discriminator? Outcome class: **Narrows** (abstention does not track ambiguity at this
+> scale; the discriminator measure is uninformative by construction). Result: false
+> abstention 0.73 against 0.59 on equivalence cases. Meaning: the readers abstain by failure,
+> not by judgment. Next obligation: P10 (calibration over R13 and R16 rows); a discriminator
+> measure with a rival for the next stage. Public claim: none. Decision: **No**. Detail:
+> results/phase_2_4_stage_7/R16.
+
+## L347 · Asked whether the joint reader revises mutually constraining factor hypotheses rather than producing a longer rationale, the sequential particle arm that re-weighs, resamples, and re-proposes candidate states at prefix checkpoints predicts exactly what the one-shot joint posterior predicts (+0.02 [−0.16, +0.21] nats, both readers within four hundredths), because there is nothing to revise: the reader proposes a single candidate set on 48 worlds of 60, and no resampling or rejuvenation ever fires; the first landing compared the joint arm to an uninitialized fallback (the proposers called bare) and was superseded
+
+**Hypothesis.** Brief §10 A14: does the joint reader revise mutually constraining factor
+hypotheses as the prefix grows (a particle set over candidate states, re-weighed by prefix
+likelihood at checkpoints, resampled when the effective sample size collapses, re-proposed
+when text diversity collapses), rather than producing a longer rationale, and does the
+revision change what it predicts?
+
+**Method.** 30 worlds on the A family (offset 900; 23 with a next action), the belief and the
+goal withheld with the context, law, action set, and residue supplied; the joint arm and the
+sequential particle arm on both readers, every prediction emitted through the solver so a
+rationale never enters; the contrast between the two arms per reader with cluster intervals;
+the particle receipts per row. The first landing (23:26) had the particle arm uninitialized
+on every row, the particle and adaptive arms having called the belief proposer without the
+brief's defaults the joint arm passes; one proposer dispatch now serves every arm, the worker
+marks unrealized architecture arms, and the card was reset and rerun (23:39).
+
+| cell | SmolLM2 | Qwen2.5-1.5B | beside |
+|---|---|---|---|
+| joint against the sequential particle arm | +0.04 [−0.30, +0.41] INCONCLUSIVE | +0.00 [−0.04, +0.06] INCONCLUSIVE | pooled +0.02 [−0.16, +0.21]; particles initialized on 60 of 60 rows |
+| particle receipts | 48 rows with one candidate set (effective sample size 1.0 at every checkpoint), 12 with more; resampled 0, rejuvenated 0 | | joint rows with more than one live candidate on a factor: 8 of 59 |
+
+*Table: A14 rerun, next-action log-score contrast between the joint and the sequential
+particle arm in nats with cluster intervals over 23 worlds with a next action; the first
+landing's figures are under superseded_proposers/.*
+
+**What we found.** Given the same proposals, the arm built to revise them predicts what the
+arm that scores them once predicts, to four hundredths of a nat on Qwen. The receipts say why:
+on four worlds of five the reader proposes one belief and one goal, so the particle set is a
+single state whose weight is 1.0 at every checkpoint, nothing collapses, and nothing is
+re-proposed; on the other 12 worlds the set has two or three members and the checkpoints
+re-weigh them without ever crossing the resampling or diversity thresholds. The joint arm's own
+factor marginals are live on 8 rows of 59.
+
+**What it means.** Revision is not what separates these readers from the maker: the
+sequential machinery is sound (it initializes, propagates, weighs on every row) and has nothing
+to work on, because the readers' candidate breadth is one. The question the brief asked is
+answerable only for a reader that proposes several candidates per factor, and at this scale
+neither does; the claim narrows to that condition rather than failing.
+
+> **Curator roll-up.** Theory group: the triple inference (§3, coupling and revision of the
+> three inferences). Question: does revising factor hypotheses across the prefix change what
+> the joint reader predicts? Outcome class: **Narrows** (no revision happens where one
+> candidate per factor is proposed; where a few are, no measurable difference). Result: +0.02
+> nats between the revising and the one-shot arm. Meaning: candidate breadth, not revision, is
+> the limit. Next obligation: A15's compute pricing of the architectures; a breadth-forcing
+> proposer for the next stage. Public claim: none. Decision: **No**. Detail:
+> results/phase_2_4_stage_7/A14 (the first landing under superseded_proposers/).
+
+## L348 · At matched evidence and measured compute, every structured architecture beats direct inference-time computation on the next action (the joint arm +1.5 nats [+0.4, +2.5] pooled; the reproduced rivals +1.4 to +2.1), and none beats the domain model: the direct reader sits 2.1 nats under the prior, the two arms that realize on every world sit at it (the adaptive expansion) or a nat under it (the epistemic translation), and the arms that rarely realize get the prior's score by fallback, so the margin over direct is the direct reader's collapse and the structured arms' retreat to the prior, at two to twelve times the solver work
+
+**Hypothesis.** Brief §10 A15: at matched evidence (the same visible evidence, the same base
+model, the same targets) and measured compute (model calls, tokens in and out, solver
+operations, wall time), does structured computation beat direct inference-time computation?
+
+**Method.** 40 cold worlds on the A family (31 with a next action; nothing supplied), seven
+arms on both readers: the direct reader, the joint reader, and the five conformance-reproduced
+rivals (LLM-augmented inverse planning, ThoughtTracing-style particles, AutoToM-style
+adaptive factor expansion, a LIRAS-style synthesized agent model, LaBToM-style epistemic
+translation), each priced per unit; contrasts against the direct reader per arm and reader
+with cluster intervals; the domain model and the exact oracle beside; the rows split by
+whether the arm realized a prediction of its own or fell back.
+
+| arm (name after conformance) | against DIR, SmolLM2 / Qwen | against DOM, all rows | realized, SmolLM2 / Qwen (of 31) | realized rows against DOM, Qwen | solver operations, wall per unit |
+|---|---|---|---|---|---|
+| joint reader (SLJ) | +0.52 [+0.06, +0.98] / +2.53 [+0.20, +4.37] | −0.56 | 8 / 29 | −1.12 | 8.0, 7.2 s |
+| LLM-augmented inverse planning | +0.59 / +3.68 | +0.05 | 0 / 3 | +0.18 (3 rows) | 0.1, 7.6 s |
+| ThoughtTracing-style particles | +0.62 / +2.37 | −0.59 | 7 / 29 | −1.29 | 12.9, 8.0 s |
+| AutoToM-style adaptive expansion | +0.54 / +3.68 | +0.02 | 30 / 31 | +0.04 | 36.4, 7.2 s |
+| LIRAS-style synthesized agent model | +0.59 / +3.23 | −0.17 | 0 / 10 | −1.68 | 0.2, 5.5 s |
+| LaBToM-style epistemic translation | +0.13 [−0.45, +0.72] / +2.70 | −0.67 | 31 / 31 | −0.93 | 1.0, 3.9 s |
+| direct reader (DIR) | 0 | −2.08 | 31 / 31 | | 0, 3.3 s |
+
+*Table: A15 at 31 worlds with a next action per reader, next-action log-score contrasts in
+nats (cluster intervals on the pooled and headline cells; the oracle gap 0.81); an
+unrealized row carries the arm's fallback, which scores within a few hundredths of the
+domain model.*
+
+**What we found.** The card's own contrast is support on every structured arm: pooled over
+readers the joint arm is +1.5 nats over the direct reader and the rivals +1.4 to +2.1. The
+split says what the support is made of. The direct reader is two nats under the domain
+model's prior on this family. The two arms that produce a prediction of their own on every
+world sit at the prior (the adaptive expansion, +0.04 on Qwen's realized rows, at thirty-six
+solver operations a unit) or a nat under it (the epistemic translation). The joint arm and
+the particle arm realize on 29 worlds of 31 for Qwen and sit 1.1 to 1.3 nats under the prior
+there, while on SmolLM2 they realize on a quarter of the worlds and fall back on the rest.
+The inverse-planning and synthesized-model arms realize on none or a third of the worlds and
+their cells are the fallback's, which is the prior's score. No arm's gain per unit of compute
+exceeds five hundredths of a nat. X09 (00:57) confirms the pricing: every arm's calls, tokens,
+context, solver work, retries, cache, and wall time are recorded in the I13 ledger and the
+comparison reads them.
+
+**What it means.** Structured computation beats direct inference-time computation here in
+the sense the card names, and the mechanism is not that structure recovers the maker: it is
+that a structured arm which fails to realize returns to the prior, and one that realizes
+executes a wrong state through an exact law and pays for it, while free-text prediction pays
+more. Against the domain model, which is the comparison the theory needs, no architecture
+gains, and the one that never fails to realize matches the prior at the highest solver cost
+on the table. The priced comparison the brief asked for is therefore answered on the letter
+and negative on the substance: at this scale, structure buys back the direct reader's losses
+and nothing beyond the prior.
+
+> **Curator roll-up.** Theory group: the triple inference (§2, the reader as realizer;
+> architecture conformance). Question: does structured computation beat direct computation
+> at matched evidence and priced compute? Outcome class: **Narrows** (support over the direct
+> reader on every arm; no arm over the domain model; the margin is the direct reader's
+> collapse plus fallback to the prior). Result: +1.5 nats over the direct reader and −0.56
+> against the domain model for the joint arm. Meaning: structure buys back free text's
+> losses and nothing beyond the prior. Next obligation: A16 (the fixed-evidence architecture
+> comparison with everything supplied); the ladder's rung on the A family. Public claim: none.
+> Decision: **No**. Detail: results/phase_2_4_stage_7/A15.
+
+## L349 · With the complete maker state supplied in executable form, a larger local model does not use it better: on the A family the joint arm sits 1.0, 1.6, and 3.1 nats under the domain model at 0.5B, 1.5B, and 3B (worse with size, each interval below zero) and 0.55 nats [−1.63, +0.36] under it on the 9B route, while goal recall rises with size to 0.67; the ladder K16 read on the K family (L340) repeats here as a diagnosis under the failed supplied-state gate
+
+**Hypothesis.** Brief §10 A16: conditional on the supplied-state gate (K04), does a larger
+local model improve factor use, or only the verbal quality of its proposals? Under §12.2
+routing the gate failed (K04, L335), so the ladder reads as a diagnosis.
+
+**Method.** 30 worlds on the A family (offset 900; 23 with a next action, 16 degenerate
+draws discarded), every factor supplied in executable form, the direct and joint arms on
+four readers (Qwen2.5 at 0.5B, 1.5B, 3B through the letter readout; Qwen3.5 9B through the
+Ollama route at Q4_K_M with top-20 log probabilities), the joint arm against the domain model
+per size with cluster intervals; goal recall per size beside; the exact oracle outside.
+
+| reader | joint against DOM | goal recall |
+|---|---|---|
+| Qwen2.5 0.5B | −1.03 [−1.85, −0.19] COUNTEREVIDENCE | 0.33 |
+| Qwen2.5 1.5B | −1.64 [−2.79, −0.52] COUNTEREVIDENCE | 0.40 |
+| Qwen2.5 3B | −3.11 [−4.82, −1.45] COUNTEREVIDENCE | 0.30 |
+| Qwen3.5 9B (Ollama route) | −0.55 [−1.63, +0.36] INCONCLUSIVE | 0.67 |
+
+*Table: A16 at 23 worlds with a next action per reader, next-action log-score contrasts in
+nats with cluster intervals (the oracle gap 0.44, the floor 0.089); the 9B differs in family
+and readout from the other three, as the card's caveat records.*
+
+**What we found.** Size within the family makes the arm worse, not better: the 3B commits
+harder to the same wrong readings and pays three nats. The 9B, a different family through a
+different readout, names the goal in two worlds of three and sits within noise of the domain
+model, still not above it. This is K16's ladder on the K family (−1.66, −2.50, −3.10, −1.06)
+repeated on the A family with the same shape: worse to 3B, least bad at 9B, nothing above the
+prior.
+
+**What it means.** The state-use boundary K04 drew is not a small-model artifact within this
+family and readout, and the one reader that approaches the domain model does so by naming the
+goal more often, which is proposal quality, not factor use. Whether a reader of another
+family or scale uses a supplied state is the ladder's remaining rung and the next stage's
+question; nothing in this ladder says a larger model would.
+
+> **Curator roll-up.** Theory group: the triple inference (§2, the state-use boundary; the
+> size ladder). Question: does a larger local model use a supplied state better? Outcome
+> class: **Narrows** (worse with size within the family; within noise at 9B on another route;
+> goal recall rises, use does not). Result: −3.1 nats at 3B, −0.55 at 9B. Meaning: size buys
+> proposal quality, not state use, at this scale. Next obligation: the ladder's second-domain
+> rung; a reader of another family for the next stage. Public claim: none. Decision: **No**.
+> Detail: results/phase_2_4_stage_7/A16.
+
+## L350 · Over the whole withheld tail (up to four events, teacher-forced), the joint reader is a nat under the domain model summed over the tail on both readers (−1.24 [−3.32, +0.30] and −1.11 [−3.11, +0.51]), the loss spread across every event rather than concentrated at the queried one, and the free-text reader is 2.7 and 8.7 nats under; no model improves the tail
+
+**Hypothesis.** Brief §10 P09: does the model improve the whole withheld tail rather than
+one queried event, and where along the tail does any gain or loss sit?
+
+**Method.** 40 cold worlds on the tail family (26 with a tail of at least one event; 14
+terminal cuts skipped, 12 degenerate draws discarded), the domain model, the direct reader,
+and the joint reader on both readers, each scored sequentially over up to four tail events
+with the true earlier events fed forward (teacher forcing), the per-world sum contrasted
+against the domain model with cluster intervals, and the per-event mean log score reported
+as the localization audit.
+
+| arm | tail sum against DOM, SmolLM2 / Qwen | per-event log score, events 1 to 4 (pooled) |
+|---|---|---|
+| domain model | 0 | −2.85, −2.43, −2.61, −2.77 |
+| joint reader | −1.24 [−3.32, +0.30] / −1.11 [−3.11, +0.51] INCONCLUSIVE | −3.32, −2.63, −3.24, −2.76 |
+| direct reader | −2.70 [−3.71, −1.73] / −8.73 [−11.00, −6.36] COUNTEREVIDENCE | −4.61, −4.36, −3.95, −4.13 |
+| ladder rung 4 (fresh worlds, tails of 3.9 events), joint reader | −0.07 [−0.82, +0.67] / −1.81 [−3.88, +0.19] INCONCLUSIVE, pooled −0.94 [−2.02, +0.18] | −2.79, −2.92, −2.89, −3.23 (DOM −2.89, −2.51, −2.68, −2.77) |
+| ladder rung 4, direct reader | −1.19 [−2.32, −0.06] / −11.71 [−14.16, −9.28] COUNTEREVIDENCE | −4.50, −4.17, −4.38, −4.49 |
+
+*Table: P09 at 26 worlds with a tail, next-action log scores in nats summed over the tail
+(cluster intervals over worlds) and per event; the domain model's own line is the reference.*
+
+**What we found.** The joint arm's loss against the domain model is not a first-event
+effect that the tail dilutes: it is a third to two thirds of a nat at the first, second, and
+third events and nothing at the fourth, summed to a nat over the tail with an interval that
+reaches a third of a nat above zero and three nats below. The free-text reader loses one and
+a half nats at every event on both readers and far more on Qwen, whose sequences drift from
+the option set as the tail lengthens.
+
+**What it means.** Nothing in the reconstruction improves the tail, and the joint arm's
+executed state costs the same at each step it is asked to predict, which is what a wrong
+state executed by an exact law does: it is wrong about the process, not about one event. The
+tail scoring itself is sound (teacher-forced, the domain model's line flat across events) and
+is the instrument the next stage's tail questions can use.
+*(Ladder rung 4, 02:32)* The expansion ladder's first rung reruns the card on a fresh lineage
+band of 29 worlds with a tail (11 terminal cuts skipped, 12 degenerate draws discarded), the
+tails a little longer (3.9 events against 3.5). The picture holds: the joint arm is under the
+domain model over the tail on both readers (pooled −0.94 [−2.02, +0.18]), at the first event
+within a tenth of it and under it at the second, third, and fourth, and the free-text reader
+is far under on both, Qwen by twelve nats as its sequences leave the option set. The base cell
+and its rung agree on every line, so the tail result is not a draw of worlds.
+
+> **Curator roll-up.** Theory group: the triple inference (§2, the reconstruction trunk on
+> the tail). Question: does the model improve the whole withheld tail rather than one event?
+> Outcome class: **Narrows** (no improvement anywhere along the tail; the loss is spread, not
+> localized). Result: −1.2 nats over the tail against the domain model. Meaning: a wrong
+> state is wrong about the process, and the ladder's fresh draw agrees (rung 4, pooled −0.94).
+> Next obligation: the ladder's R13 rung; the closure cells. Public claim: none. Decision: **No**. Detail: results/phase_2_4_stage_7/P09.
+
+## L351 · A control discontinuity in a mixed human-and-model revision history is read from the process record by process statistics and by nothing else: the process reader localizes a one-time switch within two events on 80 percent of human-then-model histories (log score −1.02 against the stylometry-weighted stack's −2.59), survives the style-matched adversary where stylometry sits at chance (+1.92 nats [+1.30, +2.40] over the stack), does not localize alternating control (−4.11) and puts three quarters of its mass on a spurious change under a pure style shift; both free-text readers are under the stack on every kind (−1.45 [−1.89, −0.95]); from the final artifact alone no program localizes anything and the direct reader reads under uniform
+
+**Hypothesis.** Brief §7.3 and §16.4 (P11): the location and type of a control change in a
+mixed human-and-model revision history are recoverable from the process record beyond
+stylometry and persistence. P12: the localization survives surface normalization (a
+discontinuity written from one word pool, so only process statistics separate the regimes)
+and defeats a stylometry-only rival (a style shift with no change of control), and it needs
+the process log rather than the final artifact.
+
+**Method.** Constructed histories with independently logged actors and event roles
+(proposal, selection, ratification, veto, integration, repair, acceptance, execution): under
+human control edits are small, local, and revisit recent spans; under model control proposals
+are large spans a ratifier accepts, edits, or vetoes. P11 (landed 14:11, written through
+here): 5 histories per kind on five kinds (human draft then model proposals; model draft then
+human selection or rewrite; alternating local edits with a normalized register; human-only and
+model-only controls with no switch), the target the change point's position and type. P12: 12
+histories per adversary kind (a style-matched switch; a style shift with no switch), each under
+two interfaces (the process log; the final artifact only). Arms: uniform over positions,
+stylometry, persistence, the frozen stack of the two (weights style 1.0, persistence 0.0,
+frozen before the adversaries), the process reader (a program over event roles and revisit
+statistics), and the direct reader on both models; the change-point log score (on a no-switch
+history the log mass on "no change"), the boundary error, the within-two-events rate, and the
+mass on "no change"; the process and direct readers contrasted against the stack over
+histories with cluster intervals.
+
+| P11 kind (5 histories each) | stack | process reader | direct reader, pooled | process reader within two events |
+|---|---|---|---|---|
+| human draft, then model proposals | −2.59 | −1.02 | −4.02 | 0.80 |
+| model draft, then human selection | −2.70 | −1.70 | −4.03 | 0.40 |
+| alternating, normalized register | −2.49 | −4.11 | −4.06 | 0.20 |
+| human-only, model-only (no switch): mass on "no change" | 0.05, 0.04 | 0.18, 0.03 | 0.03, 0.01 | |
+| contrast over the 15 switch histories, against the stack | | +0.31 [−0.67, +1.20] INCONCLUSIVE | −1.45 [−1.89, −0.95] COUNTEREVIDENCE | |
+
+| P12 adversary and interface (12 histories each) | uniform | stylometry and stack | process reader | direct reader, pooled |
+|---|---|---|---|---|
+| style-matched switch, process log | −3.00 | −3.31 | −1.39 (+1.92 [+1.30, +2.40] over the stack, SUPPORT_CANDIDATE) | −3.74 (−0.43 [−1.02, +0.20] against the stack) |
+| style shift, no switch, process log | −3.00 | −3.09 (stylometry fires on 100 percent) | −1.65 (mass on "no change" 0.23) | −4.08 |
+| style-matched switch, final artifact only | −2.97 | −2.97 | −2.97 | −3.77 |
+| style shift, no switch, final artifact only | floor | floor | floor | −3.56 |
+
+*Tables: P11 and P12 change-point log scores in nats per kind, interface, and arm (the exact
+process oracle sits at −2.31 on P11's mixed kinds); on the final-artifact interface the
+program arms have no record to read, sit uniform over positions on a switch, and hold no mass
+on "no change" without one, which scores at the floor.*
+
+**What we found.** A one-time change of control is in the process record and the process
+reader finds it: on four histories in five where a human drafts and a model then proposes,
+it puts the change within two events, at four times the stack's mass on the true position,
+and when both regimes write from one word pool, so that nothing on the surface separates
+them, it keeps that margin (+1.92 nats over the stack) while stylometry drops to chance.
+Alternating control it does not read (its score there is below uniform), and a pure style
+shift with no change of control still draws three quarters of its mass, four times what
+uniform gives to "no change" but a spurious localization all the same; stylometry, as the
+falsifier's gate requires, fires on every style shift. The free-text readers read the record
+worse than the stylometry stack on every kind, matched or not. From the final artifact alone
+no program has anything to read, and the direct reader, which can read the text, sits under
+uniform.
+
+**What it means.** The claim narrows to what a program can do with the record: the regime
+change is a process fact, readable from event roles and revisit statistics and from nothing
+on the surface, which is what the theory's history trace predicts and what the section's
+older rows (H02-S4, the final artifact carrying no history) found from the other side. It is
+not a reader result: neither small model reads the record better than a stylometry stack,
+and the process reader's own failures (alternating control; the pure style shift) mark the
+next stage's construction work. X22 (01:34), the attack that normalizes style around a real
+switch and builds a style switch without a control switch, reads P12's cells as its gate and
+passes: the discontinuity reader follows process, not surface register.
+
+> **Curator roll-up.** Theory group: decision traces (§3, the history trace and the
+> revision record); reader heuristics (§10, discontinuity). Question: is a control
+> discontinuity recoverable from the process record beyond stylometry, surviving surface
+> normalization? Outcome class: **Narrows** (a program reads a one-time switch from the record
+> and survives style matching; not alternating control, not a pure style shift, and no
+> free-text reader; nothing from the final artifact). Result: +1.92 nats over the stylometry
+> stack on the style-matched adversary. Meaning: the regime change is a process fact on the
+> record, not on the surface and not in the artifact. Next obligation: P13 and P14 (the
+> dated-history rungs); B03's confirmation history. Public claim: none. Decision: **No**.
+> Detail: results/phase_2_4_stage_7/P11, P12.
+
+## L352 · On the CoAuthor record after the loader repair, three thousand accept, edit, dismiss, or ignore decisions over thirty held-out sessions: the position table (accept 51 percent, edit 25, dismiss 23, ignore 1, nearly flat across positions) is the best predictor, the prior-decision baseline sits at uniform, and the readers are under position by 0.30 [0.23, 0.36] and 1.57 [1.34, 1.82] nats and no better than the prior decision (−0.02 [−0.13, +0.09] and −1.30); nothing beyond position is read from the record
+
+**Hypothesis.** Brief §10 P13: after the loader repair (L207's instrument represented a
+dismissed set by its first suggestion; L253 corrected the decision unit), can a reader
+predict a writer's accept, edit, dismiss, or ignore of a suggestion beyond the position and
+prior-decision baselines, on held-out sessions, with the state-reconstruction gate first?
+
+**Method.** The CoAuthor record at the individual-suggestion grain, 30 sessions held out,
+292 decisions scored; the arms: uniform over the four decisions, the position table (the
+decision marginal by suggestion position, fitted on the training sessions), the prior
+decision (the writer's previous decision carried forward), and the direct reader on both
+models given the session state; the choice log score per session, the readers contrasted
+against the position and prior-decision baselines with session-clustered intervals.
+
+| arm | mean choice log score | against the position table, SmolLM2 / Qwen | against the prior decision |
+|---|---|---|---|
+| uniform | −1.39 | | |
+| position table | −1.10 | 0 | |
+| prior decision | −1.37 | | 0 |
+| direct reader | −2.03 | −0.30 [−0.36, −0.23] / −1.57 [−1.82, −1.34] COUNTEREVIDENCE | −0.02 [−0.13, +0.09] INCONCLUSIVE / −1.30 [−1.59, −1.03] COUNTEREVIDENCE |
+
+*Table: P13 over 30 held-out CoAuthor sessions, choice log scores in nats with
+session-clustered intervals; decision marginal accept 141, edit 78, dismiss 70, ignore 3.*
+
+**What we found.** The record is a marginal: writers accept half the suggestions, edit a
+quarter, dismiss a quarter, and ignore almost none, at every position, so the position table
+is nearly the marginal and beats uniform by three tenths of a nat; the previous decision
+carries nothing (its arm sits at uniform). The direct reader, given the session state, is
+under the position table on both models and under uniform on Qwen, which commits to wrong
+decisions; SmolLM2 matches the prior-decision baseline exactly and nothing better.
+
+**What it means.** At the corrected decision unit, the uptake question L207 could not ask
+now has its answer at this scale: the decision is not read from the state beyond its
+marginal. This is the record's second null on uptake (L207's fit AUC 0.499 at the wrong
+unit, L253's small fit preference at the right one), and it holds the H04-S3 row where it
+stands: a small fit preference under a large position default, and no reader that reads the
+default's remainder.
+
+> **Curator roll-up.** Theory group: decision traces (§3, the human writing record;
+> H04-S3). Question: can suggestion uptake be predicted beyond position and the prior
+> decision? Outcome class: **Narrows** (no reader beats the position table; the prior
+> decision is uniform). Result: −0.30 and −1.57 nats against the position table. Meaning:
+> the record's uptake is its marginal at this scale. Next obligation: P14 (the ScholaWrite
+> record); the human-record rung of the ladder. Public claim: none. Decision: **No**.
+> Detail: results/phase_2_4_stage_7/P13.
+
+## L353 · On the ScholaWrite record the direct reader does not predict the moment or the direction of a goal switch: over the scored windows it sits a nat and two nats under label persistence (−1.27 and −2.50 against −0.18), and at the four switch positions the record offers (two sessions of twelve carry a switch in the scored window) it beats persistence only because persistence cannot predict a switch at all (−3.53 there) and stays under uniform (−1.67 and −1.85 against −1.10 on SmolLM2, −2.41 and −4.42 on Qwen); the card's support label rests on two clusters and is not at the run's grade
+
+**Hypothesis.** Brief §10 P14: in ScholaWrite, can the reader predict the moment and the
+direction of a goal switch (the next annotation category at a switch position), rather than
+win on label persistence, under leave-project-out and leave-author-out splits?
+
+**Method.** 12 held-out sessions per split protocol (the same sessions under both
+protocols), up to 10 scored positions each, the next category among the record's categories;
+the arms: uniform, label persistence (the current category carried forward at the
+discovery-lane persistence rate), and the direct reader on both models given the window and
+the current category; the switch-conditioned log score (positions where the category
+changes) is the primary and the per-split contrast against persistence carries the verdict;
+the overall mean log score beside.
+
+| arm | overall mean log score (24 windows) | at the four switch positions (two sessions) |
+|---|---|---|
+| uniform | −1.10 | −1.10 |
+| label persistence | −0.18 | −3.53 |
+| direct reader, SmolLM2 | −1.27 | −1.67 and −1.85 (+1.78 [+1.69, +1.87] against persistence, SUPPORT_CANDIDATE by the card's rule) |
+| direct reader, Qwen2.5-1.5B | −2.50 | −2.41 and −4.42 (+0.12 [−0.88, +1.13] INCONCLUSIVE) |
+
+*Table: P14 over 12 ScholaWrite sessions per split, next-category log scores in nats; the
+switch-conditioned cells rest on two sessions (n = 2 clusters, the same two under both
+splits), so their intervals are not at the run's grade; kept fraction 0.17.*
+
+**What we found.** The record is persistence: over the scored windows the current category
+carries forward with a log score near zero, and both readers are a nat and more under it.
+Where the category does switch, persistence pays the full price of having predicted no
+switch (−3.53, the persistence rate's complement), so any arm beats it there, uniform
+included; the readers do not beat uniform at those positions, which is the test the card's
+question names, and only two of the twelve sessions carry a switch within the scored window,
+so the switch-conditioned contrast rests on four positions.
+
+**What it means.** The switch is not predicted: not its moment (the reader is under
+persistence everywhere the label holds) and not its direction (under uniform where it
+changes). The card's support label is the artifact of a rival that cannot score at the
+positions the primary conditions on, and of a record too sparse in switches at this window
+to cluster; the row H05-S3 stands (persistence predicts the next label) and the switch
+question goes to the next stage with a scored window that holds enough switches to cluster.
+
+> **Curator roll-up.** Theory group: decision traces (§3, the human writing record;
+> H05-S3). Question: does the reader predict the moment and direction of a goal switch
+> rather than win on persistence? Outcome class: **Narrows** (under persistence where the
+> label holds, under uniform where it switches; the support label rests on two clusters).
+> Result: −1.67 nats at switch positions against uniform's −1.10 on the better reader.
+> Meaning: the record's switches are not read at this scale and this window. Next
+> obligation: a switch-dense window for the next stage; the V cells. Public claim: none.
+> Decision: **No**. Detail: results/phase_2_4_stage_7/P14.
+
+## L354 · The dated-history cells of the bounded-attention track: asked to separate a maker's trained automatic capture (a compiled habit) from a current costly redirection (a goal that opposes it), the joint reader names the habit on 56 percent of worlds and the goal on 24, and its executed pairs sit under the domain model whether the goal opposes the habit (−0.37 [−0.73, −0.02] pooled, COUNTEREVIDENCE) or not (−0.33 [−0.82, +0.07]), with no difference between the two cells; the redirection is not read
+
+**Hypothesis.** Brief §10 V01: can trained automatic capture be separated from current
+costly redirection, with the same capture tendency crossed against whether the present goal
+opposes it, the present choice and the compiled residue scored apart? This entry opens with
+V01 and takes V02 to V06 as they land.
+
+**Method.** 40 worlds on the V family crossing the compiled residue (a habit of checking or a
+habit of writing) with whether the present goal opposes it, the context, belief, law, and
+action set supplied, the goal and the residue proposed by the joint reader and executed
+through the law; the next-action contrast against the domain model per opposition cell and
+reader with cluster intervals; recall of the goal and of the residue's habit from the
+proposal lists; the exact oracle outside (gap 0.19, floor 0.039).
+
+| cell | SmolLM2 | Qwen2.5-1.5B | pooled |
+|---|---|---|---|
+| V01, the goal opposes the habit, joint against DOM | −0.21 [−0.53, +0.09] INCONCLUSIVE | −0.53 [−1.26, +0.15] INCONCLUSIVE | −0.37 [−0.73, −0.02] COUNTEREVIDENCE |
+| V01, the goal does not oppose it | −0.36 [−0.78, +0.07] INCONCLUSIVE | −0.31 [−0.95, +0.23] INCONCLUSIVE | −0.33 [−0.82, +0.07] INCONCLUSIVE |
+| V01 recall: the goal, the residue's habit | 0.28, 0.63 | 0.20, 0.50 | posterior mass on the true goal 0.23, on the true habit 0.29 |
+| V02, context and competence matched, the goal proposed, joint against the goal-blind solver | −0.31 [−0.74, +0.07] VALID_NULL | −0.34 [−0.66, −0.04] COUNTEREVIDENCE | −0.33 [−0.59, −0.09] COUNTEREVIDENCE; against DOM −0.12 and −0.15; the goal-blind solver +0.19 over DOM, the oracle +0.28 over it |
+| V03, a lagging expertise opposed to the present goal, the law and the goal proposed, joint against DOM | −0.20 [−0.54, +0.18] INCONCLUSIVE (unrealized on 40 of 40; the fallback) | −0.77 [−1.39, −0.13] COUNTEREVIDENCE | pooled −0.49 [−0.93, −0.02]; aligned: −0.14 and −0.45, pooled −0.29 [−0.67, +0.13]; recall of the law 0 and 0, of the goal 0.25 and 0.03 |
+| V04, a dated series of the maker's episodes under a drifting law, the mixture over dates against a forced point date (programs, no reader) | −0.01 [−0.09, +0.07] INCONCLUSIVE | | 30 worlds; the mixture's mass on the present-law episodes 0.66 |
+| V05, a held-out later episode predicted from the dated series, the ordered undated series, and an aggregate profile (programs, no reader) | ordered against aggregate +0.04 [−0.03, +0.12] VALID_NULL; dated against ordered +0.00 [−0.01, +0.01] VALID_NULL | | 31 worlds; the oracle gap 0.81, the floor 0.16 |
+| V06, a later costly choice after a context change, the dated trajectory against an aggregate profile (programs, no reader; the law withheld) | +0.05 [−0.02, +0.11] INCONCLUSIVE | | 40 worlds; the dated program +0.42 [+0.05, +0.84] over DOM and +0.48 [+0.26, +0.71] over the solver without the law; the oracle gap 0.55, the floor 0.11 |
+
+*Table: the V cells as they land; next-action log-score contrasts in nats with cluster
+intervals over 17 and 15 worlds with a next action per cell; the joint arm realized on
+every one of 160 rows.*
+
+**What we found.** The compiled residue is the most nameable withheld factor the run has
+seen: the habit is in the candidate list on half the worlds for Qwen and five in eight for
+SmolLM2, at a posterior mass near three tenths on the truth. Naming it does not read the
+maker: where the present goal pulls against the habit, the executed pairs sit a third of a
+nat under the domain model, and where it does not, the same third, so the arm predicts the
+redirected and the unredirected choice equally badly, and the oracle's own margin over the
+domain model on these worlds is a fifth of a nat, most of which the domain model already has.
+
+**What it means.** Separating a trained capture from a costly redirection needs the goal,
+and the goal is what the reader does not name (a quarter of worlds, as on every rung since
+R01). The habit half of the separation is readable, which is the three layers' compiled
+record showing through the prefix; the redirection half is not, and the two cells being
+equal says the arm is not sensitive to the opposition at all.
+*(V02, 01:56)* With the context, belief, law, maker context, action set, and residue supplied
+and only the present goal withheld, the goal is worth half a nat on these worlds: the exact
+oracle sits 0.47 nats over the domain model, and a solver that runs the supplied state under
+each of the four standard goals and averages them, the goal-blind rival, already takes 0.19
+of that. The joint reader's proposed goal, executed through the same state, is under that
+rival on both readers (−0.31 [−0.74, +0.07] and −0.34 [−0.66, −0.04], pooled counterevidence)
+and within noise of the domain model: naming the current allocation subtracts from a program
+that declines to name it. The card's question, whether the current allocation predicts the next
+local choice once context and competence are matched, is answered yes by the oracle and no by
+the reader, which is the goal rung's finding (R01, K05) at the far end of the supply gradient.
+*(V03, 02:03)* With the law and the goal both withheld, crossed on whether a lagging expertise
+opposes or aligns with the present goal, the reader names neither of the two factors the card
+asks it to hold apart: the law's shape on no world (Qwen proposes one shape almost everywhere,
+the shape the prefix shows, and a lagging expertise is by construction what the prefix does not
+show; SmolLM2 proposes no law at all and its arm is the fallback on 40 of 40 worlds), the goal
+on one world in forty for Qwen and one in four for SmolLM2. Executed, Qwen's pairs are 0.77 nats
+[0.13, 1.39] under the domain model where the expertise opposes the goal and 0.45 [−0.15, 1.01]
+under it where they align (the oracle's margin 0.26). Whether a maker model can hold a lagging
+expertise and a present goal apart without erasing either cannot be asked of a reader that
+names neither; what the cell says is that the lagging expertise is invisible to a prefix
+reader, which the construction intended, and that the opposed worlds cost the committed arm
+more than the aligned ones, which is the conflict showing in the arm's error.
+*(V04, 02:03, programs only)* Given a dated series of the maker's earlier episodes under a
+drifting law (the oldest under a different law, the newest under the present one, with ages),
+does one artifact support a dated present focus plus an uncertain historical mixture rather than
+two clean time points? Two programs answer on the present episode: a forced point dating that
+commits to one episode's law, and a mixture over the dated episodes weighted by likelihood.
+They predict the present episode alike (−0.01 [−0.09, +0.07], 30 worlds), and the mixture puts
+two thirds of its mass on the present-law episodes. The artifact does not penalize the forced
+point date here: the present law is legible enough in the newest episodes that a point and a
+mixture converge, which narrows the two-timescale claim to a construction where the drift is
+not that legible.
+*(V05, 02:05, programs only)* Do multiple dated artifacts improve trajectory prediction over
+an aggregate expertise and style profile? On a held-out later episode, a program given the
+dated series, one given the same series ordered but undated, and one given only an aggregate
+profile of the earlier episodes predict alike: the ordered view gains four hundredths of a
+nat over the aggregate and the dates add nothing to the order (+0.00 [−0.01, +0.01]), both
+valid nulls against a floor of 0.16 on a family where the oracle holds 0.81 nats over the
+domain model. What the earlier episodes carry about the later one is in their aggregate;
+their order and their dates carry nothing more, at this construction's drift.
+*(V06, 02:06, programs only)* Does an inferred trajectory predict a later costly choice (the
+choice after a context change) beyond context, goal, identity, topic, and expertise? With
+everything but the law supplied, the program that learns from the dated series beats the domain
+model by 0.42 nats [0.05, 0.84] and the solver that has the state but no law by 0.48 [0.26,
+0.71]: the series carries the law, and the law carries the later choice, as R09 found on the
+next action. Against the aggregate profile of the same episodes it gains five hundredths of a
+nat, under the floor of 0.11, so what the trajectory adds beyond expertise is nothing the
+aggregate did not already hold. X19 (02:06), the attack that swaps context, cost, opportunity,
+or audience while holding the standing tendency fixed, passes on V02 and V06. That closes the
+V family: the compiled record and the law show through the prefix and the earlier episodes; the
+present goal, the redirection against a habit, a lagging expertise, and the dates and order of
+the record do not add to what a reader or a program already holds.
+
+> **Curator roll-up.** Theory group: the three layers (the habit layer and its override);
+> the triple inference (§5, two timescales). Question: can a compiled habit be separated
+> from a present redirection against it? Outcome class: **Narrows** (the habit is named on
+> half the worlds; the redirection is not read; no difference between opposed and unopposed
+> cells). Result: −0.37 nats pooled where the goal opposes the habit. Meaning: the compiled
+> record shows through the prefix and the present goal does not; with everything else supplied
+> the reader's goal is worth less than no goal (V02, −0.33 nats against the goal-blind solver).
+> With the law and the goal both withheld (V03), the reader names neither, and the opposed worlds
+> cost its committed pairs 0.77 nats against 0.45 on the aligned ones. A mixture over dated
+> episodes and a forced point date predict the present alike (V04, −0.01 nats), and the dates
+> and order of earlier episodes add nothing to their aggregate for a later one (V05, valid
+> nulls); the dated trajectory carries the law and nothing beyond the aggregate for a later costly
+> choice (V06, +0.05 nats against the aggregate, +0.42 over the domain model). Next obligation:
+> the ladder rungs and the closure cells; a two-timescale construction with a less legible
+> drift for the next stage. Public claim: none. Decision: **No**. Detail:
+> results/phase_2_4_stage_7/V01.
+
+## L355 · The AutoToM-style adaptive expansion, asked to add a genuinely missing latent and to refuse a false expansion in a complete world, adds factors at the same rate in both (0.42 of worlds with a variable missing, 0.45 with the world complete), costs 0.22 nats [0.05, 0.39] against the joint reader where the world is complete, and gains 0.08 [−0.06, +0.24] where a variable is missing; landed 2026-09-02 afternoon, written through here
+
+**Hypothesis.** Brief §10 A08: does AutoToM-style utility (expanding the factor set when the
+current model explains the prefix poorly) add a genuinely missing latent, and reject a false
+expansion in a world that is already complete? The interaction of the missing-variable gain
+with the complete-world cost is the discriminator.
+
+**Method.** 30 worlds per completeness condition on the A family (23 and 27 with a next
+action), only the external context supplied, the adaptive expansion arm against the joint
+reader on both models; the next-action contrast per condition and reader with cluster
+intervals; the mean number of factors the expansion added per world.
+
+| condition | SmolLM2 | Qwen2.5-1.5B | pooled | factors added per world |
+|---|---|---|---|---|
+| the world complete (a false expansion should be refused) | −0.07 [−0.22, +0.09] INCONCLUSIVE | −0.36 [−0.66, −0.08] COUNTEREVIDENCE | −0.22 [−0.39, −0.05] COUNTEREVIDENCE | 0.45 |
+| a variable missing (a genuine latent should be added) | +0.03 [−0.04, +0.12] INCONCLUSIVE | +0.13 [−0.14, +0.43] INCONCLUSIVE | +0.08 [−0.06, +0.24] INCONCLUSIVE | 0.42 |
+
+*Table: A08, next-action log-score contrasts of the adaptive expansion against the joint
+reader in nats with cluster intervals; realized on 23 of 30 complete and 27 of 30
+missing-variable worlds per reader.*
+
+**What we found.** The expansion does not know when it is needed: it adds a factor on the
+same share of worlds whether or not one is missing. Where the world is complete the added
+factor costs the arm a fifth of a nat against the joint reader (Qwen a third); where a
+variable is missing the added factor is worth eight hundredths, an interval that reaches a
+quarter of a nat and crosses zero.
+
+**What it means.** The utility that should drive expansion (the prefix explained poorly under
+the current model) does not separate the two conditions for these readers, so the mechanism
+pays its cost and does not collect its gain; the AutoToM-style claim narrows to a construction
+where the missing latent changes the prefix likelihood enough to trigger it.
+
+> **Curator roll-up.** Theory group: the triple inference (architecture conformance; the
+> reader as realizer). Question: does adaptive expansion add a missing latent and refuse a
+> false one? Outcome class: **Narrows** (expands at the same rate in both; costs where
+> complete, gains under noise where incomplete). Result: −0.22 nats where the world is
+> complete. Meaning: the expansion trigger does not read completeness. Next obligation: none
+> in this run. Public claim: none. Decision: **No**. Detail: results/phase_2_4_stage_7/A08.
+
+## L356 · The LIRAS-style synthesized agent model, asked to write the maker's working model as one executable line and run inverse inference over it, validates on 28 of 30 worlds for Qwen and on none for SmolLM2, beats the direct reader by 2.86 nats [1.50, 4.31] on Qwen (0.69 on SmolLM2, where the arm is its fallback) and sits under the domain model (Qwen −0.72 [−1.14, −0.28], pooled −0.38 [−0.61, −0.09]); the confirmation freeze took its 2.86 as the strongest qualified architecture effect, so this reading travels with the confirmation; landed 2026-09-02 afternoon, written through here
+
+**Hypothesis.** Brief §10 A11: does the reader synthesize the agent model, parse
+observations and actions, and run inverse inference over that model (the LIRAS-style
+end-to-end fixture, with a direct-answer ablation)?
+
+**Method.** 30 cold worlds on the A family (24 with a next action), only the external context
+supplied, the synthesized-agent arm (one line of skills and costs per type, validated for
+syntax and semantics, then executed through the law) against the direct reader on both
+models, with the domain model beside; the next-action contrast per reader with cluster
+intervals; the validation receipts per row.
+
+| cell | SmolLM2 | Qwen2.5-1.5B | pooled |
+|---|---|---|---|
+| synthesized model against the direct reader | +0.69 [+0.22, +1.19] SUPPORT_CANDIDATE | +2.86 [+1.50, +4.31] SUPPORT_CANDIDATE (the frozen claim, slot 2) | +1.78 [+1.03, +2.64] |
+| synthesized model against the domain model | −0.05 [−0.31, +0.30] INCONCLUSIVE | −0.72 [−1.14, −0.28] COUNTEREVIDENCE | −0.38 [−0.61, −0.09] COUNTEREVIDENCE |
+| the model validated (syntax and semantics) | 0 of 30 (syntax only on every row) | 28 of 30 | validated rate 0.46 |
+
+*Table: A11, next-action log-score contrasts in nats with cluster intervals over 24 worlds
+per reader (the oracle gap 0.49); a row whose model does not validate carries the arm's
+fallback, which scores near the domain model.*
+
+**What we found.** Qwen writes a model that validates on nearly every world and, executed,
+beats free-text prediction by close to three nats while losing seven tenths of a nat to the
+domain model's prior; SmolLM2 never writes a model that validates, so its arm is the fallback
+on every row, near the prior, and its margin over the direct reader is the direct reader's
+own distance below the prior. This is the A15 picture on the same family a day earlier and
+with the same mechanism (L348).
+
+**What it means.** The end-to-end synthesis runs for one reader and is worth less than the
+prior. The freeze rule of §12.5 selects the strongest qualified reconstruction or architecture
+effect by its point against the direct reader, and this cell's 2.86 is that point; the
+confirmation (B02) will replicate the contrast against the direct reader on untouched
+lineages, and a confirmed 2.86 will mean what it means here: the synthesized model beats
+free text and loses to the prior. The packet carries both cells.
+*(B02, the second confirmation, 03:24)* On untouched lineages (24 worlds with a next action)
+the claim replicates against the direct reader, larger than the base: Qwen +3.59 nats [+2.34,
++4.78], SmolLM2 +0.79 [+0.43, +1.17], pooled +2.19 [+1.46, +2.97]; the model validates on 48
+percent of rows (Qwen's nearly all, SmolLM2's none). Against the domain model on the same
+worlds: Qwen −0.42 [−0.87, +0.02] and SmolLM2 −0.22 [−0.51, +0.09], valid nulls, pooled −0.32
+[−0.54, −0.06], counterevidence. The confirmed effect is the one the base named: synthesis
+beats free-text prediction by two to three and a half nats and does not reach the prior. B03,
+the third slot, had no frozen claim (P11 inconclusive) and landed as not run; the ladder's rung
+9 reruns B01 on a second untouched confirmation lineage.
+
+> **Curator roll-up.** Theory group: the triple inference (architecture conformance; the
+> reader as realizer). Question: does a synthesized agent model with inverse inference beat
+> direct prediction? Outcome class: **Narrows** (yes against free text on the reader whose
+> model validates; no against the domain model on either). Result: +2.86 nats against the
+> direct reader, −0.72 against the domain model on Qwen. Meaning: synthesis realizes a state
+> and the state is wrong less badly than free text guesses. Next obligation: B02 replicates
+> the frozen claim; the packet reports both cells. Public claim: none. Decision: **No**.
+> Confirmed against the direct reader on untouched lineages (B02, +3.59 [+2.34, +4.78] on Qwen)
+> and counterevidence against the domain model there (pooled −0.32 [−0.54, −0.06]). Public claim:
+> a synthesized agent model beats free-text prediction and not the domain prior, at this
+> construction family and scale. Detail: results/phase_2_4_stage_7/A11, B02.
+
+## L357 · STAGE 7 CLOSES SHORT at hour 15.0 of 72 with the whole locked workload and ladder exhausted: 124 of 124 mandatory cells landed (15,158 rows; 50 infrastructure passes, 18 descriptive, 19 inconclusive, 13 counterevidence, 3 valid nulls, 10 support candidates, 7 instrument failures of which 4 are the integrity block's own should-break cases, 3 void, 1 not run); the freeze took two claims and both confirmed on untouched lineages as program results (the learned law transfers, +0.62 [+0.25, +1.02]; a synthesized agent model beats free text by 3.6 nats and loses to the domain prior); no reader arm beat the domain model on any target, rung, regime, or record; the packet is at results/phase_2_4_stage_7/CURATOR_PACKET_FINAL.md
+
+**Hypothesis.** The brief's eight questions (§10): did the physical evidence boundary hold;
+could any reader use a complete supplied maker model; was the bottleneck proposal coverage,
+representation, inference, or capacity; could the system learn a maker law rather than select
+one; could it reconstruct the maker's perceived action space; did joint factor reconstruction
+improve hidden behavior beyond common process; could it localize a hidden human-and-model
+discontinuity beyond style; did dated histories add prospective information beyond an
+aggregate.
+
+**Method.** The Stage 7 program as locked (brief §11 to §13): 100 questions and 24 attacks on
+one 72-hour clock started 2026-09-02 12:44:47, the integrity block then the keystone audit and
+the scientific lock, the supplied-state ladder K01 to K16, the recall gates and the
+reconstruction trunk R01 to R16, the architecture conformance and pricing cells A01 to A16,
+the prospective analyses P01 to P14, the dated histories V01 to V06, the attacks X01 to X24,
+the expansion ladder (rungs 4 and 9 admitted), the freeze at ladder exhaustion with two claims
+confirmed on untouched lineages (B01, B02; rung 9 a second lineage), the closure cells
+(B04 to B06), and one packet written by the scheduler at closure. Nine same-clock resets with
+rows preserved repaired six instrument holes caught on first landing (L344, L345, L347,
+L348, the registry's runtime log); every landing is written through in L331 to L356.
+
+| question | cells | answer |
+|---|---|---|
+| the evidence boundary | I04 to I08, X01 to X07 | held: every mutation of the hidden future, length, stop, cues, and truth leaves every non-oracle prediction byte-identical; the diagnostic observation moves the declared prediction; the canaries are caught |
+| a complete supplied maker model used by a reader | K04, K05, K15, K16, A16, B01 | no reader: −0.46 executable, −0.34 in language, −0.40 on the stop; worse with size to 3B, within noise at the 9B route; the confirmed effect is the learned law's, a program's (+0.62) |
+| the bottleneck | R01 to R05, K16, A16 | proposal coverage: the goal in the candidates on 23 percent of worlds, the belief 37, the law 33, the action space 3, the context 9; capacity does not move it |
+| a law learned rather than selected | K14, R09, B01, rung 9 | yes, by likelihood from three episodes, at the oracle's level, three draws agreeing; one reader proposes it usably with everything else supplied (R09) |
+| the perceived action space | K13, R04, R08 | no: −5.0 nats when the reader proposes it; recall 0.03; R08 void by construction |
+| joint reconstruction beyond common process | R11 to R13, R14, P01 to P09, B02 | no: at or under the domain model on every target, the loss where a wrong state commits fully; the confirmed architecture effect beats free text (+3.6) and not the prior (−0.32) |
+| a discontinuity beyond style | P11, P12, X22 | a program reads a one-time control switch from the process record and survives style matching (+1.92 over the stylometry stack); no free-text reader does; the final artifact carries none of it |
+| dated histories beyond an aggregate | V04 to V06, X19 | no: a point date and a mixture predict alike; order and dates add nothing to the aggregate; the dated trajectory carries the law and nothing more |
+
+*Table: the eight answers of the packet, read against the domain model rather than the direct
+reader wherever the packet's headline contrast is against the direct reader (A11, A15, B02).*
+
+**What we found.** The instrument held and the readers did not. Every isolation, canary,
+serialization, and mutation attack passed, the exact oracle reproduced the solver on the
+keystone world, and the compute of every arm was priced; the one attack that fired (X14) says
+the readers do not preserve the equivalence class, and the one instrument failure outside the
+integrity block's own should-break cases (B05) is a timing artifact: the ledger check ran at
+the freeze while the closure tail was pending and counted it as missing; rerun after closure
+as an addendum cell with every verdict on disk, every ledger agrees, and the fresh clone
+re-hashes 124 verdicts with no problem (results/phase_2_4_stage_7/B05/rerun, X24/rerun; the
+packet stands as written and records the original verdict). The run closed at hour 15 rather
+than at the 54-hour floor because the cells ran at a third of the locked forecast and the
+gated branches closed more cells than the conditional forecast allowed; the cause is written
+in the contract (SHORT_RUN) and nothing was padded. The science: two program effects are
+confirmed on untouched lineages, the learned law's transfer and a synthesized model's margin
+over free text, and no reader effect is; on the supplied-state ladder, the recall gates, the
+joint rungs, the regimes, the prospective targets, the human records, and the dated histories
+the readers sit at or under the domain model, with the one reader cell at the frozen
+threshold being Qwen's proposed law with everything else supplied. The GPU-lock accounting in
+the compute ledger reads zero for every cell (the per-arm calls, tokens, solver operations,
+and wall time are recorded; the lock seconds are not), an instrument gap for the next stage.
+
+**What it means.** The Stage 6 headline is not recovered by a clean instrument: with the
+realizer no longer reading the hidden world, nothing a 1.5B or 1.7B reader proposes about a
+maker's state predicts the maker's next move better than the domain's own process model, and
+what the readers can name (the law, half of the compiled habit, a quarter of the goals) is
+either what a program learns better from the record or not enough to execute. The theory's
+reconstruction claim narrows to the regimes where the law is supplied or demonstrated; its
+history claims narrow to the process record read by process statistics; its two-timescale
+claim is untested at this drift. What the stage built stands: the boundary, the oracle, the
+priced arms, the attack matrix, and the lessons file, which the next stage inherits with a
+list of constructions this one could not ask.
+
+> **Curator roll-up.** Theory group: the triple inference (the whole trunk); the three layers;
+> decision traces (§3). Question: the brief's eight. Outcome class: **Narrows** (two program
+> effects confirmed; no reader effect; the instrument held). Result: 124 of 124 cells, two
+> confirmations, no reader arm above the domain model. Meaning: the realizer is the result,
+> the reader is not, at this scale. Next obligation: the next stage's construction list (a
+> switch-dense annotation window, a two-timescale construction with less legible drift, a
+> per-event stop ruler, a prose-law decoder, a breadth-forcing proposer, a discriminator
+> measure with a rival, a reader of another family or scale, GPU-lock accounting in the
+> ledger). Public claim: the two confirmed program results, at one construction family and
+> this scale, with the direct-reader contrasts read beside their domain-model contrasts.
+> Decision: **Yes**, two: whether a Stage 8 opens on that construction list (recommended:
+> yes, after his read of the packet) and whether the packet is regenerated with the B05 and
+> X24 addendum cells (recommended: no; the packet stands and the addendum is the record).
+> Detail: results/phase_2_4_stage_7/CURATOR_PACKET_FINAL.md; B05/rerun; X24/rerun.
 
 ## POSITIVE
 

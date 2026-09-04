@@ -1,0 +1,45 @@
+{
+ "card": "R15",
+ "lane": "discovery",
+ "written_at": "2026-09-02T21:15:23",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "by_regime": {
+  "cold": {
+   "n": 80,
+   "mean_primary": -3.685874473353375,
+   "mean_factor_entropy": 0.16281612369206208,
+   "calibration": {
+    "n": 70,
+    "ece": 0.4868,
+    "slope": -0.1743,
+    "intercept": 0.2653,
+    "brier_conf": 0.4219
+   }
+  },
+  "domain_expert": {
+   "n": 0,
+   "mean_primary": null,
+   "mean_factor_entropy": null,
+   "calibration": {
+    "n": 0,
+    "ece": null
+   }
+  },
+  "maker_familiar": {
+   "n": 0,
+   "mean_primary": null,
+   "mean_factor_entropy": null,
+   "calibration": {
+    "n": 0,
+    "ece": null
+   }
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "7c030adcc341c509",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 58,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 1563,
+  "tokens_out": 58,
+  "wall_s": 4.611
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "b0|g0"
+ ],
+ "evidence_sha": "3e3fbb6a102825f7",
+ "notes": {
+  "band": 0.1,
+  "candidate_preds": {
+   "b0|g0": {
+    "check:sec2:s2.1": 0.12643219674627812,
+    "consult:sec1:src": 0.08902104807866897,
+    "write:sec2:s2.2": 0.3774568171049292,
+    "write:sec3:s3.2": 0.34011694137804593
+   }
+  },
+  "factor_marginals": {
+   "belief_state": {
+    "b0": 1.0
+   },
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "b0|g0": 1.0
+  },
+  "proposals": {
+   "belief_state": [
+    {
+     "ref": "b0",
+     "signature": [
+      "yes",
+      "yes",
+      "loose",
+      "none"
+     ],
+     "text": "belief: library=yes source=yes deadline=loose checked=none"
+    }
+   ],
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "fix"
+     ],
+     "text": "prose: write > fix | The maker is currently drafting sec1 (s1.1) and drafting sec1 (s1.2)."
+    }
+   ]
+  },
+  "proposed": [
+   "belief_state",
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "equivalent": 1.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.12643219674627815,
+   "cite:sec3:ref": 0.06697299669207771,
+   "consult:sec1:src": 0.08902104807866898,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec2:order": 0.0,
+   "write:sec2:s2.2": 0.37745681710492923,
+   "write:sec3:s3.2": 0.340116941378046
+  },
+  "invalidation": {
+   "correct": 0.46670381033369057,
+   "retain": 0.31284091962788774,
+   "rewrite": 0.22045527003842172
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.12643219674627815,
+   "cite:sec3:ref": 0.06697299669207771,
+   "consult:sec1:src": 0.08902104807866898,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec2:order": 0.0,
+   "write:sec2:s2.2": 0.37745681710492923,
+   "write:sec3:s3.2": 0.340116941378046
+  },
+  "next_section": {
+   "sec1": 0.08902104807866898,
+   "sec2": 0.5038890138512074,
+   "sec3": 0.40708993807012367
+  },
+  "next_type": {
+   "check": 0.12643219674627815,
+   "cite": 0.06697299669207771,
+   "consult": 0.08902104807866898,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.7175737584829752
+  },
+  "stop": 0.014774031693273055
+ },
+ "version": "PredictionV1"
+}

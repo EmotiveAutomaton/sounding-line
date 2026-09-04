@@ -1,0 +1,58 @@
+{
+ "card": "A16",
+ "cell_id": "A16",
+ "lane": "discovery",
+ "track": "architecture",
+ "readers": [
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+ ],
+ "tier": "minimum",
+ "minutes": 17.62,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "Qwen2.5 0.5B/1.5B/3B and the Ollama Qwen3.5 9B route where probability interfaces are comparable; family and interface caveats explicit",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Conditional on the supplied-state gate, does a larger local model improve factor use or only verbal proposal quality?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader qwen9b; diagnosis under a failed K04 gate",
+ "point": -0.5466954061378828,
+ "ci": [
+  -1.6250330986401955,
+  0.3557063324599446
+ ],
+ "n_units": 23,
+ "conditional_cells": {
+  "qwen05": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.0339648511968953
+  },
+  "qwen15": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -1.6396420178262665
+  },
+  "qwen3": {
+   "outcome": "COUNTEREVIDENCE",
+   "point": -3.1141075190092713
+  },
+  "qwen9b": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.5466954061378828
+  }
+ },
+ "marker": {
+  "contract_version": "7.0.0",
+  "contract_hash": "3e735f854d500ff6",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A16\\metrics.json",
+    "sha256": "dd527ccbbb54337dd02ce701708d159d5901f3f032afee4260e0d02de41b7710"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_7\\A16\\cases.jsonl",
+    "sha256": "03c1a928cbf98717995ee5f7a8cb69d1116ee7d0e2e6a943128f6060486af8bb"
+   }
+  },
+  "written_at": "2026-09-03T00:57:19"
+ }
+}

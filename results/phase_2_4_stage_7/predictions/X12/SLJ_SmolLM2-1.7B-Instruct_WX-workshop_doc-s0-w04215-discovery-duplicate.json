@@ -1,0 +1,101 @@
+{
+ "abstain": false,
+ "arm": "SLJ",
+ "canonical_sha": "193d6f0c10300f71",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 47,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 3,
+  "tokens_in": 993,
+  "tokens_out": 47,
+  "wall_s": 1.616
+ },
+ "confidence": 1.0,
+ "equivalence_class": [
+  "g0"
+ ],
+ "evidence_sha": "80dd440aa2f19659",
+ "notes": {
+  "band": 0.07692307692307693,
+  "candidate_preds": {
+   "g0": {
+    "write:sec1:s1.2": 0.27954257192956056,
+    "write:sec2:s2.2": 0.24024024514154005,
+    "write:sec2:s2.3": 0.24024024514154005,
+    "write:sec3:s3.2": 0.2064636344556866
+   }
+  },
+  "factor_marginals": {
+   "proximal_goal": {
+    "g0": 1.0
+   }
+  },
+  "posterior": {
+   "g0": 1.0
+  },
+  "proposals": {
+   "proximal_goal": [
+    {
+     "ref": "g0",
+     "signature": [
+      "write",
+      "revise"
+     ],
+     "text": "prose: write > revise | 1. The maker is currently drafting sec1 (s1.1).\n2. The maker is drafting sec3 (s3.1).\n3. The maker is reworking sec2 (s2"
+    }
+   ]
+  },
+  "proposed": [
+   "proximal_goal"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.0,
+   "cite:sec3:ref": 0.0,
+   "restructure:sec2:order": 0.0,
+   "revise:sec3:s3.1": 0.033513303331672746,
+   "write:sec1:s1.2": 0.27954257192956056,
+   "write:sec2:s2.2": 0.24024024514154005,
+   "write:sec2:s2.3": 0.24024024514154005,
+   "write:sec3:s3.2": 0.2064636344556866
+  },
+  "invalidation": {
+   "correct": 0.605146537942457,
+   "retain": 0.25982701813317466,
+   "rewrite": 0.13502644392436833
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.0,
+   "cite:sec3:ref": 0.0,
+   "restructure:sec2:order": 0.0,
+   "revise:sec3:s3.1": 0.033513303331672746,
+   "write:sec1:s1.2": 0.27954257192956056,
+   "write:sec2:s2.2": 0.24024024514154005,
+   "write:sec2:s2.3": 0.24024024514154005,
+   "write:sec3:s3.2": 0.2064636344556866
+  },
+  "next_section": {
+   "sec1": 0.27954257192956056,
+   "sec2": 0.4804804902830801,
+   "sec3": 0.23997693778735935
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.033513303331672746,
+   "write": 0.9664866966683273
+  },
+  "stop": 0.09412431165601863
+ },
+ "version": "PredictionV1"
+}

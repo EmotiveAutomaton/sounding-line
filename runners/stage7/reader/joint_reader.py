@@ -358,6 +358,7 @@ def joint_posterior(ev: dict, supplied: dict, proposals: dict, client: Client) -
     na: dict = {}
     cc: dict = {}
     inv: dict = {}
+    bt: dict = {}
     p_stop = 0.0
     for k, w in post.items():
         for a, p in execs[k]["next_action"].items():
@@ -366,6 +367,11 @@ def joint_posterior(ev: dict, supplied: dict, proposals: dict, client: Client) -
             cc[a] = cc.get(a, 0.0) + w * p
         for a, p in (execs[k].get("invalidation") or {}).items():
             inv[a] = inv.get(a, 0.0) + w * p
+        b = execs[k].get("boundary_type")                  # the executed law's stop terms name the boundary
+        if b:
+            if b not in ev["query"].get("boundary_types", ()):
+                b = "equivalent"                           # no live stop term: no single reason stands out (as DOM reads it)
+            bt[b] = bt.get(b, 0.0) + w
         p_stop += w * execs[k]["p_stop"]
     opts = LAW.options_at_cut(ev)
     td = {t: 0.0 for t in TYPES}
@@ -381,7 +387,7 @@ def joint_posterior(ev: dict, supplied: dict, proposals: dict, client: Client) -
             marg[n][r] = marg[n].get(r, 0.0) + w
     cand_preds = {k: dict(sorted(execs[k]["next_action"].items(), key=lambda kv: -kv[1])[:4]) for k in post}
     return {"next_action": na, "next_type": td, "next_section": sd, "p_stop": p_stop, "posterior": post,
-            "changed_context": cc or None, "invalidation": inv or None,
+            "changed_context": cc or None, "invalidation": inv or None, "boundary_type": bt or None,
             "factor_marginals": marg, "equivalence_class": eq, "abstain": len(eq) > 1,
             "confidence": max(post.values()), "band": band, "n_combos": len(lls), "candidate_preds": cand_preds}
 
@@ -405,6 +411,32 @@ def proposable(withheld: list[str]) -> list[str]:
     return out
 
 
+def brief_defaults(ev: dict) -> dict:
+    """The visible brief's defaults for the belief and the maker context (a partial proposal
+    is completed from them); empty when the evidence carries no brief."""
+    b = ev.get("brief") or {}
+    if not b:
+        return {}
+    tools = b.get("tools_available") or {}
+    return {"belief_state": {"library": "yes" if tools.get("library") else "no", "source": "yes" if tools.get("source_access") else "no",
+                             "deadline": b.get("deadline", "loose"), "checked": "none"},
+            "maker_context": {"library": "usable" if tools.get("library") else "not", "deadline": b.get("deadline", "loose"),
+                              "audience": "none" if b.get("audience") == "self" else "high"}}
+
+
+def propose_factor(name: str, client: Client, body: str, ev: dict, seed: int) -> list[dict]:
+    """One dispatch for every arm that proposes a factor: the option ids for the residue and
+    the action space, the brief's defaults for the belief and the context, nothing else for
+    the goal and the law. Every arm calls this, so no arm asks a proposer bare."""
+    fn = PROPOSERS[name]
+    if name in ("subjective_action_space", "history_residue"):
+        return fn(client, body, ev["query"]["next_action_options"], seed)
+    defaults = brief_defaults(ev)
+    if name in defaults:
+        return fn(client, body, seed, defaults=defaults[name])
+    return fn(client, body, seed)
+
+
 def sounding_joint(ev: dict, client: Client, evidence_sha: str, withheld: list[str], seed: int,
                    propose: list[str] | None = None) -> dict:
     """SL-J proper: propose for every withheld factor, then the joint posterior. When the
@@ -424,20 +456,8 @@ def sounding_joint(ev: dict, client: Client, evidence_sha: str, withheld: list[s
     if propose is not None:
         withheld = [f for f in withheld if f in propose]
     unparsed = {}
-    b = ev.get("brief") or {}
-    tools = b.get("tools_available") or {}
-    defaults = {"belief_state": {"library": "yes" if tools.get("library") else "no", "source": "yes" if tools.get("source_access") else "no",
-                                 "deadline": b.get("deadline", "loose"), "checked": "none"},
-                "maker_context": {"library": "usable" if tools.get("library") else "not", "deadline": b.get("deadline", "loose"),
-                                  "audience": "none" if b.get("audience") == "self" else "high"}} if b else {}
     for i, name in enumerate(withheld):
-        fn = PROPOSERS[name]
-        if name in ("subjective_action_space", "history_residue"):
-            proposals[name] = fn(client, body, options, seed + i)
-        elif name in defaults:
-            proposals[name] = fn(client, body, seed + i, defaults=defaults[name])
-        else:
-            proposals[name] = fn(client, body, seed + i)
+        proposals[name] = propose_factor(name, client, body, ev, seed + i)
         if not proposals[name] or all(p.get("default") for p in proposals[name]):
             unparsed[name] = LAST_RAW.get(name, "")[:200]
     supplied = {k: v for k, v in sf.items() if k not in withheld}
@@ -612,9 +632,7 @@ def sequential_hypothesis_particles(ev: dict, client: Client, evidence_sha: str,
         body = evidence_text(ev_k)
         pool = []
         for i, name in enumerate(withheld):
-            fn = PROPOSERS[name]
-            ps = fn(client, body, ev_k["query"]["next_action_options"], s + i) if name in ("subjective_action_space", "history_residue") else fn(client, body, s + i)
-            pool.append(ps)
+            pool.append(propose_factor(name, client, body, ev_k, s + i))
         if any(not p for p in pool):
             return []
         combos = list(itertools.product(*pool))[:n_particles]
@@ -711,8 +729,7 @@ def adaptive_factor_expansion(ev: dict, client: Client, evidence_sha: str, withh
     receipt = {"added": [], "rejected": [], "window_extended": False}
     current = None
     for name in order:
-        fn = PROPOSERS[name]
-        ps = fn(client, body, options, seed + len(added)) if name in ("subjective_action_space", "history_residue") else fn(client, body, seed + len(added))
+        ps = propose_factor(name, client, body, ev, seed + len(added))
         if not ps:
             receipt["rejected"].append({"factor": name, "why": "no parseable proposal"})
             continue
