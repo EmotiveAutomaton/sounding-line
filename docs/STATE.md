@@ -383,6 +383,8 @@ survive the fair induction control on the two strong ladders (G76/L94).
   D01/x1 closed as a claim; admission now reads both gates (engines.admitted_readers), D01/x1 reset and recomputed as
   diagnosis; relaunched 03:35:39 in gear two. 05:25 G01/x1 holds (0.33 / 0.53 on 384; L369 addendum). 08:47 G02/x1
   (L370): the proposed purpose hurts at 327 worlds (−0.09 / −0.06, intervals below zero). A01/x1 running (rung 1's last).
+  13:40 committed and pushed on his order (374839b1e); the adapter weights stay OUT of git by the standing safetensors
+  ignore rule (hashes in ADAPTERS.json, recipe in TRAINING.json); the run continues live.
 
 - **2026-09-02, STAGE 7 BUILT AND LAUNCHED on his order** (brief at docs/design/PHASE_2_4_STAGE_7_CONTEXT.md;
   build log in the registry's Stage-7 section): the clean-room capability bridge, 100 questions and 24

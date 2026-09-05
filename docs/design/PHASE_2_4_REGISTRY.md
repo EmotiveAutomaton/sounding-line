@@ -1164,8 +1164,16 @@ smallest reader cost 80.0 s; unit costs
   his order: gear two on every process, cap 2 under Ghost live; fresh-clone verifier read-only 51 of 51 re-hashed clean;
   validator clean but for the closure tail; the stale interrupt surprise_not_localized annotated as diagnosis.
 - 08:47 G02/x1 INCONCLUSIVE whole vs DOM, the proposal vs the plain reader COUNTEREVIDENCE-grade on both (−0.087 / −0.058 on
-  327), tail SUPPORT_CANDIDATE as diagnosis (L370); 202 min on the card. A01/x1 started (1,051 rows by 12:57, one endpoint
-  failure, under the guard's fifth).
+  327), tail SUPPORT_CANDIDATE as diagnosis (L370); 202 min on the card. A01/x1 started (1,051 rows by 12:57, one capsule
+  timeout, under the guard's fifth).
+- 13:40 COMMITTED AND PUSHED on his order (374839b1e, 21,662 files, the run live at hour 25): the Stage 8 build, the
+  results tree to date, L358 to L370 and their write-through. CORRECTION to that commit's message: the frozen adapter
+  weights are NOT in git; the repository's standing rule ignores every safetensors file under results (.gitignore line
+  66, older than this stage), so the adapters live on disk only, with their hashes in the ADAPTERS registry and their
+  training recipe (corpus, seed, curve) in TRAINING.json; the epoch checkpoints are ignored the same way. A fresh clone
+  that needs the weights retrains from TRAINING.json or copies the adapters directory beside the clone. The nine CRLF
+  files the commit found (six capsule access files, three adapter configs) were converted to LF and the adapter
+  directory marked -text so its bytes never move under the hash.
 
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 
