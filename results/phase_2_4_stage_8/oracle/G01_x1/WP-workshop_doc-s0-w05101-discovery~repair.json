@@ -1,0 +1,215 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "WP|workshop_doc|s0|w05101|discovery",
+ "cut": 14,
+ "hidden": {
+  "next_action": null,
+  "next_type": null,
+  "next_section": null,
+  "next_slot": null,
+  "stop_next": true,
+  "stopped_at": 13,
+  "boundary_type": "deadline",
+  "stop_weight": 0.05463290231894174,
+  "tail": [],
+  "tail_stop": [],
+  "rejected_alternative": null,
+  "changed_context": {
+   "change": "deadline_lifted",
+   "dist": {
+    "check:sec2:s2.1": 0.0,
+    "restructure:sec2:order": 0.0,
+    "probe:sec1:tech": 0.3495058236014318,
+    "fix:sec2:s2.1": 0.6504941763985682
+   },
+   "choice": "fix:sec2:s2.1"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.23794379162247425,
+    "rewrite": 0.6768766270909021,
+    "retain": 0.08517958128662367
+   },
+   "choice": "rewrite"
+  },
+  "subjective_ids": [
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "unavailable_ids": [
+   "check:sec2:s2.1",
+   "restructure:sec2:order"
+  ],
+  "equivalence_class": [
+   "persuade|specialist|checked_illusion|habit_check"
+  ],
+  "purpose_class": [
+   "persuade"
+  ]
+ },
+ "oracle": {
+  "next_action": {
+   "check:sec2:s2.1": 0.0,
+   "restructure:sec2:order": 0.0,
+   "probe:sec1:tech": 0.3495058236014318,
+   "fix:sec2:s2.1": 0.6504941763985682
+  },
+  "next_type": {
+   "write": 0.0,
+   "revise": 0.0,
+   "check": 0.0,
+   "consult": 0.0,
+   "cite": 0.0,
+   "restructure": 0.0,
+   "probe": 0.3495058236014318,
+   "fix": 0.6504941763985682
+  },
+  "next_section": {
+   "sec1": 0.3495058236014318,
+   "sec2": 0.6504941763985682,
+   "sec3": 0.0
+  },
+  "p_stop": 0.11574731858902221,
+  "stop_terms": {
+   "satisfaction": 0.0,
+   "deadline": 1.8666666666666667,
+   "fatigue": 0.30000000000000016,
+   "audience": 0.0
+  },
+  "boundary_type": "deadline"
+ },
+ "state_names": {
+  "goal": "persuade",
+  "law": "specialist",
+  "belief": "checked_illusion",
+  "residue": "habit_check",
+  "tendency": "care"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec1",
+    "sec2"
+   ],
+   "audience": "editor",
+   "tools": {
+    "library": true,
+    "source_access": true
+   },
+   "deadline": "tight",
+   "scheduled_change": "audience_changes"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": true,
+    "source_access": true
+   },
+   "believed_deadline": "tight",
+   "believed_checked": [
+    "sec2"
+   ]
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.6,
+    "revise": 0.5,
+    "check": 0.7,
+    "consult": 0.9,
+    "cite": 0.9,
+    "restructure": 0.4,
+    "probe": 0.5,
+    "fix": 0.6
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.3,
+    "revise": 0.3,
+    "check": 0.05,
+    "consult": -0.05,
+    "cite": 0.1,
+    "restructure": 0.7,
+    "probe": 0.4,
+    "fix": 0.15
+   },
+   "chain": {
+    "consult>cite": 1.0,
+    "check>consult": 0.5
+   },
+   "fluency": 1.1,
+   "expected_len": 12.0,
+   "confidence": 0.6
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": true,
+    "source_access": true
+   },
+   "perceived_deadline": "tight",
+   "perceived_required": [
+    "sec1",
+    "sec2"
+   ],
+   "audience": "editor",
+   "audience_weight": 0.64,
+   "believed_checked": [
+    "sec2"
+   ]
+  },
+  "subjective_action_space": [
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": 4.0,
+    "revise": 3.2,
+    "restructure": 2.0,
+    "check": 0.0,
+    "fix": 0.6,
+    "probe": 0.0,
+    "cite": 3.0,
+    "consult": -1.0
+   },
+   "name_ref": "persuade"
+  },
+  "history_residue": {
+   "habit": {
+    "check": 0.9
+   },
+   "maintained": null
+  }
+ },
+ "condition": {
+  "supplied": [],
+  "form": "language",
+  "render": "log",
+  "unit_ref": "u5a1d270231",
+  "condition_ref": "G01"
+ },
+ "n_options": 4,
+ "purpose": "persuade",
+ "pull_ordering": [
+  "write",
+  "revise",
+  "cite",
+  "restructure",
+  "fix",
+  "check",
+  "probe",
+  "consult"
+ ],
+ "shape": "essay",
+ "reveal": null,
+ "maker": null,
+ "purpose_class": [
+  "persuade"
+ ],
+ "cut_gap": null,
+ "tail": false,
+ "tau_cut": 0.09928776332536886,
+ "evidence_sha": "aed5bbae31171998"
+}

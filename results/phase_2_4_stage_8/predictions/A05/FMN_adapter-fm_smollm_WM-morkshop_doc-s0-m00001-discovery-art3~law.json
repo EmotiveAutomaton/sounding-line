@@ -1,0 +1,73 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "6ef0918d5f7dfddf",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 2084,
+  "tokens_out": 0,
+  "wall_s": 4.025
+ },
+ "confidence": 0.4291945393353737,
+ "equivalence_class": [],
+ "evidence_sha": "5c4fc6cd7cdc6d64",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the bench layout\naudience: editor\ntools: library=yes source=no\ndeadline: loose\nsections: sec1(2) sec2(3) sec3(3)\nmaker: The maker is strongest at write and revise, weakest at probe and consult; of the skilled moves, the maker can carry out restructure, probe, fix; after write the maker tends to revise, after check the maker tends to fix, after restructure the maker tends to revise; choices are steady and an episode usually runs about 14 moves.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "consult:sec1:src": -1.7991716861724854,
+   "probe:sec1:tech": -1.3769956827163696,
+   "restructure:sec2:order": -2.132265329360962,
+   "revise:sec2:s2.1": -2.964460611343384
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -1.9392180442810059
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "consult:sec1:src": 0.32165440551846614,
+   "probe:sec1:tech": 0.3942013641953503,
+   "restructure:sec2:order": 0.194342508153062,
+   "revise:sec2:s2.1": 0.08980172213312163
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "consult:sec1:src": 0.28138793935559286,
+   "probe:sec1:tech": 0.4291945393353737,
+   "restructure:sec2:order": 0.2016716018688947,
+   "revise:sec2:s2.1": 0.08774591944013871
+  },
+  "next_section": {
+   "sec1": 0.7105824786909666,
+   "sec2": 0.2894175213090334,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.28138793935559286,
+   "fix": 0.0,
+   "probe": 0.4291945393353737,
+   "restructure": 0.2016716018688947,
+   "revise": 0.08774591944013871,
+   "write": 0.0
+  },
+  "stop": 0.19653906453706727
+ },
+ "version": "PredictionV1"
+}

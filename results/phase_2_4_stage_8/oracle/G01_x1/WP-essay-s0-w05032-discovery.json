@@ -1,0 +1,217 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "WP|essay|s0|w05032|discovery",
+ "cut": 12,
+ "hidden": {
+  "next_action": null,
+  "next_type": null,
+  "next_section": null,
+  "next_slot": null,
+  "stop_next": true,
+  "stopped_at": 11,
+  "boundary_type": "deadline",
+  "stop_weight": 0.14048503632348344,
+  "tail": [],
+  "tail_stop": [],
+  "rejected_alternative": null,
+  "changed_context": {
+   "change": "deadline_lifted",
+   "dist": {
+    "check:sec1:s1.1": 0.3158209057198918,
+    "check:sec2:s2.1": 0.3306634943251773,
+    "check:sec3:s3.1": 0.2747649595356297,
+    "cite:sec3:ref": 0.0,
+    "probe:sec1:tech": 0.0787506404193012
+   },
+   "choice": "check:sec3:s3.1"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.12940198492654903,
+    "rewrite": 0.8556082421141333,
+    "retain": 0.014989772959317612
+   },
+   "choice": "rewrite"
+  },
+  "subjective_ids": [
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "check:sec3:s3.1",
+   "probe:sec1:tech"
+  ],
+  "unavailable_ids": [
+   "cite:sec3:ref"
+  ],
+  "equivalence_class": [
+   "teach|expert|false_library|habit_check"
+  ],
+  "purpose_class": [
+   "teach"
+  ]
+ },
+ "oracle": {
+  "next_action": {
+   "check:sec1:s1.1": 0.3158209057198918,
+   "check:sec2:s2.1": 0.3306634943251773,
+   "check:sec3:s3.1": 0.2747649595356297,
+   "cite:sec3:ref": 0.0,
+   "probe:sec1:tech": 0.0787506404193012
+  },
+  "next_type": {
+   "write": 0.0,
+   "revise": 0.0,
+   "check": 0.9212493595806988,
+   "consult": 0.0,
+   "cite": 0.0,
+   "restructure": 0.0,
+   "probe": 0.0787506404193012,
+   "fix": 0.0
+  },
+  "next_section": {
+   "sec1": 0.394571546139193,
+   "sec2": 0.3306634943251773,
+   "sec3": 0.2747649595356297
+  },
+  "p_stop": 0.07544683269594248,
+  "stop_terms": {
+   "satisfaction": 0.0,
+   "deadline": 1.6941176470588235,
+   "fatigue": 0.0,
+   "audience": 0.0
+  },
+  "boundary_type": "deadline"
+ },
+ "state_names": {
+  "goal": "teach",
+  "law": "expert",
+  "belief": "false_library",
+  "residue": "habit_check",
+  "tendency": "care"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec2",
+    "sec3"
+   ],
+   "audience": "peer",
+   "tools": {
+    "library": false,
+    "source_access": true
+   },
+   "deadline": "tight",
+   "scheduled_change": "library_withdrawn"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": false,
+    "source_access": true
+   },
+   "believed_deadline": "tight",
+   "believed_checked": []
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.9,
+    "revise": 0.9,
+    "check": 0.8,
+    "consult": 0.7,
+    "cite": 0.7,
+    "restructure": 0.8,
+    "probe": 0.6,
+    "fix": 0.9
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.1,
+    "revise": 0.1,
+    "check": -0.05,
+    "consult": 0.15,
+    "cite": 0.3,
+    "restructure": 0.3,
+    "probe": 0.3,
+    "fix": -0.05
+   },
+   "chain": {
+    "write>revise": 0.5,
+    "check>fix": 0.9,
+    "restructure>revise": 0.6
+   },
+   "fluency": 0.9,
+   "expected_len": 14.0,
+   "confidence": 0.8
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": false,
+    "source_access": true
+   },
+   "perceived_deadline": "tight",
+   "perceived_required": [
+    "sec2",
+    "sec3"
+   ],
+   "audience": "peer",
+   "audience_weight": 0.52,
+   "believed_checked": []
+  },
+  "subjective_action_space": [
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "check:sec3:s3.1",
+   "probe:sec1:tech"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": 4.0,
+    "revise": 3.2,
+    "restructure": 2.0,
+    "check": 0.0,
+    "fix": 0.6,
+    "probe": 0.0,
+    "cite": -1.0,
+    "consult": 3.0
+   },
+   "name_ref": "teach"
+  },
+  "history_residue": {
+   "habit": {
+    "check": 0.9
+   },
+   "maintained": null
+  }
+ },
+ "condition": {
+  "supplied": [],
+  "form": "language",
+  "render": "log",
+  "unit_ref": "u3700b8f07e",
+  "condition_ref": "G01"
+ },
+ "n_options": 5,
+ "purpose": "teach",
+ "pull_ordering": [
+  "write",
+  "revise",
+  "consult",
+  "restructure",
+  "fix",
+  "check",
+  "probe",
+  "cite"
+ ],
+ "shape": "essay",
+ "reveal": null,
+ "maker": null,
+ "purpose_class": [
+  "teach"
+ ],
+ "cut_gap": null,
+ "tail": false,
+ "tau_cut": 0.09928776332536886,
+ "evidence_sha": "fa5b874a5a441ff4"
+}

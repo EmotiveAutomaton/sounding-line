@@ -1,0 +1,73 @@
+{
+ "card": "G02",
+ "cell_id": "G02/x1",
+ "lane": "discovery",
+ "track": "purpose",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 202.1,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "FM+P against FM and against DOM, whole and tail; the floor a fifth of the relevant gap",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does executing the inferred purpose through the reader's own forward model improve the rest of the artifact?",
+ "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_smollm; tail SUPPORT_CANDIDATE 0.8577472616392828; vs FM -0.05813036594629889; true purpose vs DOM 0.198342688120025; FM vs DOM 0.12563759473250133",
+ "point": 0.04180933546139627,
+ "ci": [
+  -0.04719399225516005,
+  0.13426099553435514
+ ],
+ "n_units": 327,
+ "tail_point": 0.8577472616392828,
+ "tail_ci": [
+  0.5858345147667274,
+  1.1283372065599278
+ ],
+ "tail_outcome": "SUPPORT_CANDIDATE",
+ "conditional_cells": {
+  "whole|adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.03895588779984292
+  },
+  "whole|adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.04180933546139627
+  },
+  "whole|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.04038261163061959
+  },
+  "tail|adapter:fm_qwen": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.8577472616392828
+  },
+  "tail|adapter:fm_smollm": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.6252391359686964
+  },
+  "tail|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 0.7414931988039896
+  }
+ },
+ "diagnosis_only": true,
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G02\\x1\\metrics.json",
+    "sha256": "eae5d34dc17b45e73a9b86aedf644e94789253c830d922688d45ae651e222eca"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G02\\x1\\cases.jsonl",
+    "sha256": "f367a38d8e20d7956f1867f1a9fae1b1d6e344b291543e5e290ff6eee71b854b"
+   }
+  },
+  "written_at": "2026-09-05T08:47:07"
+ }
+}

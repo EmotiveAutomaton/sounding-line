@@ -13,3 +13,6 @@
 *.png binary
 *.pdf binary
 *.jpg binary
+
+# frozen adapters are hashed as bytes by the ADAPTERS registry: stored as-is, never eol-converted
+results/**/adapters/** -text

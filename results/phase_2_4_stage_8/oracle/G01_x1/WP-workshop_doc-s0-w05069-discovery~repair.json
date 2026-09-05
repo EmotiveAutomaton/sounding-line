@@ -1,0 +1,299 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "WP|workshop_doc|s0|w05069|discovery",
+ "cut": 6,
+ "hidden": {
+  "next_action": "cite:sec3:ref",
+  "next_type": "cite",
+  "next_section": "sec3",
+  "next_slot": "ref",
+  "stop_next": false,
+  "stopped_at": 13,
+  "boundary_type": "none",
+  "stop_weight": 1.0,
+  "tail": [
+   {
+    "type": "cite",
+    "section": "sec3",
+    "slot": "ref",
+    "outcome": "done"
+   },
+   {
+    "type": "check",
+    "section": "sec1",
+    "slot": "s1.1",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.2",
+    "outcome": "done"
+   },
+   {
+    "type": "fix",
+    "section": "sec2",
+    "slot": "s2.1",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec3",
+    "slot": "s3.1",
+    "outcome": "done"
+   },
+   {
+    "type": "revise",
+    "section": "sec1",
+    "slot": "s1.1",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec3",
+    "slot": "s3.2",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.1",
+    "outcome": "done"
+   }
+  ],
+  "tail_stop": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "rejected_alternative": "check:sec1:s1.1",
+  "changed_context": {
+   "change": "deadline_lifted",
+   "dist": {
+    "write:sec1:s1.1": 0.12393022216023962,
+    "write:sec1:s1.2": 0.12393022216023962,
+    "write:sec3:s3.1": 0.08197262494305144,
+    "write:sec3:s3.2": 0.08197262494305144,
+    "revise:sec3:s3.2": 0.019470205019878357,
+    "revise:sec1:s1.1": 0.029436007878182225,
+    "check:sec1:s1.1": 0.3938494314986698,
+    "check:sec2:s2.1": 0.0,
+    "cite:sec3:ref": 0.07234058760897162,
+    "restructure:sec2:order": 0.0,
+    "probe:sec1:tech": 0.0,
+    "fix:sec2:s2.1": 0.07309807378771589
+   },
+   "choice": "fix:sec2:s2.1"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.6962454742740412,
+    "rewrite": 0.12098932167412561,
+    "retain": 0.18276520405183316
+   },
+   "choice": "correct"
+  },
+  "subjective_ids": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.2",
+   "write:sec3:s3.1",
+   "write:sec3:s3.2",
+   "revise:sec3:s3.2",
+   "revise:sec1:s1.1",
+   "check:sec1:s1.1",
+   "cite:sec3:ref",
+   "fix:sec2:s2.1"
+  ],
+  "unavailable_ids": [
+   "check:sec2:s2.1",
+   "restructure:sec2:order",
+   "probe:sec1:tech"
+  ],
+  "equivalence_class": [
+   "explore|novice|checked_illusion|habit_check"
+  ],
+  "purpose_class": [
+   "explore"
+  ]
+ },
+ "oracle": {
+  "next_action": {
+   "write:sec1:s1.1": 0.12393022216023962,
+   "write:sec1:s1.2": 0.12393022216023962,
+   "write:sec3:s3.1": 0.08197262494305144,
+   "write:sec3:s3.2": 0.08197262494305144,
+   "revise:sec3:s3.2": 0.019470205019878357,
+   "revise:sec1:s1.1": 0.029436007878182225,
+   "check:sec1:s1.1": 0.3938494314986698,
+   "check:sec2:s2.1": 0.0,
+   "cite:sec3:ref": 0.07234058760897162,
+   "restructure:sec2:order": 0.0,
+   "probe:sec1:tech": 0.0,
+   "fix:sec2:s2.1": 0.07309807378771589
+  },
+  "next_type": {
+   "write": 0.4118056942065821,
+   "revise": 0.04890621289806058,
+   "check": 0.3938494314986698,
+   "consult": 0.0,
+   "cite": 0.07234058760897162,
+   "restructure": 0.0,
+   "probe": 0.0,
+   "fix": 0.07309807378771589
+  },
+  "next_section": {
+   "sec1": 0.6711458836973312,
+   "sec2": 0.07309807378771589,
+   "sec3": 0.2557560425149529
+  },
+  "p_stop": 0.032295464698450495,
+  "stop_terms": {
+   "satisfaction": 0.0,
+   "deadline": 0.7999999999999999,
+   "fatigue": 0.0,
+   "audience": 0.0
+  },
+  "boundary_type": "deadline"
+ },
+ "state_names": {
+  "goal": "explore",
+  "law": "novice",
+  "belief": "checked_illusion",
+  "residue": "habit_check",
+  "tendency": "care"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec1"
+   ],
+   "audience": "editor",
+   "tools": {
+    "library": true,
+    "source_access": true
+   },
+   "deadline": "tight",
+   "scheduled_change": "deadline_lifted"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": true,
+    "source_access": true
+   },
+   "believed_deadline": "tight",
+   "believed_checked": [
+    "sec2"
+   ]
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.5,
+    "revise": 0.4,
+    "check": 0.4,
+    "consult": 0.3,
+    "cite": 0.3,
+    "restructure": 0.2,
+    "probe": 0.2,
+    "fix": 0.3
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.3,
+    "revise": 0.4,
+    "check": 0.15,
+    "consult": 0.35,
+    "cite": 0.5,
+    "restructure": 0.9,
+    "probe": 0.6,
+    "fix": 0.25
+   },
+   "chain": {},
+   "fluency": 1.6,
+   "expected_len": 10.0,
+   "confidence": 0.3
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": true,
+    "source_access": true
+   },
+   "perceived_deadline": "tight",
+   "perceived_required": [
+    "sec1"
+   ],
+   "audience": "editor",
+   "audience_weight": 0.82,
+   "believed_checked": [
+    "sec2"
+   ]
+  },
+  "subjective_action_space": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.2",
+   "write:sec3:s3.1",
+   "write:sec3:s3.2",
+   "revise:sec3:s3.2",
+   "revise:sec1:s1.1",
+   "check:sec1:s1.1",
+   "cite:sec3:ref",
+   "fix:sec2:s2.1"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": 2.8,
+    "revise": 0.6,
+    "restructure": -0.4,
+    "check": 3.6,
+    "fix": 2.4,
+    "probe": -0.8,
+    "cite": 2.8,
+    "consult": 0.4
+   },
+   "name_ref": "explore"
+  },
+  "history_residue": {
+   "habit": {
+    "check": 0.9
+   },
+   "maintained": null
+  }
+ },
+ "condition": {
+  "supplied": [],
+  "form": "language",
+  "render": "log",
+  "unit_ref": "u99cc8eb430",
+  "condition_ref": "G01"
+ },
+ "n_options": 12,
+ "purpose": "explore",
+ "pull_ordering": [
+  "check",
+  "write",
+  "cite",
+  "fix",
+  "revise",
+  "consult",
+  "restructure",
+  "probe"
+ ],
+ "shape": "essay",
+ "reveal": null,
+ "maker": null,
+ "purpose_class": [
+  "explore"
+ ],
+ "cut_gap": 0.05449996078993463,
+ "tail": false,
+ "tau_cut": 0.09928776332536886,
+ "evidence_sha": "35e26575c17e0bb1"
+}

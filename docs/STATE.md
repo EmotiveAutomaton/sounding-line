@@ -338,6 +338,52 @@ survive the fair induction control on the two strong ladders (G76/L94).
 
 ## Queue / infrastructure state
 
+- **STAGE 8 RUNNING since 2026-09-04T08:06:58** (his order 2026-09-04; brief docs/design/PHASE_2_4_STAGE_8_CONTEXT.md;
+  L358 the record gate and the build): `run_stage8.sh` in the background under S7_STAGE=phase_2_4_stage_8,
+  a 48-hour ceiling (deadline 2026-09-06T08:06:58), the closure freeze at hour 40, the floor at 36; the
+  scheduler re-locks the ladder from the base run's actual charges before any rung; theory-change
+  interrupts close their branch and the run continues; the frontier probe on Gemini under a forty-dollar
+  cap (gemini-3.5-flash-lite); stop with `taskkill //F //T //PID $(sed -n 2p results/.gear2.lock)`, then verify no stage8
+  python remains and remove results/.gpu.lock; reset cells only with the engine stopped
+  (`runners/stage8/scheduler.py reset --cells ... --tag ... --why ...`); relaunch with
+  `S7_THEN_QUEUE=1 bash run_stage8.sh`. Landed 10:53: the integrity block whole, both adapters
+  trained within band, the expertise gate PASSED on both readers (L359); the scientific lock is written. 14:0x: the
+  generation gate FAILED on both after its one repair (L360): no admitted reader; the interrupt is
+  recorded; the remaining trunks run as labeled diagnosis under his ruling. 14:12 GEAR ONE on his call, the run
+  never stopped: the live process tree set below normal priority on eight cores (tools/gear1_throttle.ps1);
+  `results/.gear` = one, which the scheduler reads between units (one CPU cell beside the GPU cell, children
+  started below normal) and the wrapper reads at any relaunch (the tree pinned again). The GPU cells still
+  hold the card while they run (the two 1.5B-class readers); nothing in the run can lower that live. Shift
+  back with `results/.gear` = two (the scheduler's next start reads it; the live throttle needs the script
+  rerun with Normal and the full mask). 18:18 RELAUNCHED in gear one after the shared-card void (L361): the model
+  server answered out of memory as 503 for eighty minutes under a game; D01 and D04 closed on fragments; the fragment
+  guard (STARVED, exit 4) now refuses that; D01, D04, D02, D03 reset with the valid rows restored; G02 resumes at row
+  656. A reset issued without S7_STAGE set had resolved to the closed Stage 7 root: restored from git the same minute
+  (checkout only, Stage 7 tree clean), and the scheduler now refuses any root that is not this stage's. Landed whole
+  (L361): G01 recall 0.55 / 0.35, G04 fails both, D05 the frontier under DOM by 0.25 AUROC, X11 an unseen law family
+  returns both readers to DOM. 18:59 the localization block whole (L362): the trained readers' surprise is
+  anti-aligned with the maker's events (AUROC 0.34 / 0.37 against DOM 0.56), the purpose supplied moves the residue
+  by under 0.01, the first explanation fires under chance; the difference gate failed on both. 19:22 G02, G03, X05
+  (L363): the purpose route is inert (proposed purpose −0.03 / −0.08 against the plain reader; a nat over DOM on the
+  tail either way); X05's FM order bound reset to fp16 batch noise (0.01), rows restored, verdict recomputed; relaunched
+  19:21:51 in gear one after the reset. The purpose-execution gate failed. 19:33 G05, G08, X07 (L364): the pull
+  ordering is the easier goal object (recall 0.59 / 0.70 against the purpose's 0.35 / 0.55); the frontier names the
+  purpose on 16 percent and loses 1.8 nats using it. 19:53 GEAR TWO on his call (the run never stopped): results/.gear
+  = two, the live tree restored to normal priority on all cores; the scheduler's next starts use the Ghost-governed cap.
+  19:51 G06, X04 (L365): the purpose readout survives a paraphrase and rises under a meaning change on both readers;
+  the purpose route is closed from every side on these readers. 23:21 A01, X08, X09 (L366): nothing accumulates across
+  a maker's artifacts (under 0.02 for three earlier artifacts; every cell under DOM); the compute ledger repaired (a
+  re-analysis attempt erased four first-attempt entries; merge now, rows' budgets beside), X09 reset and clean;
+  relaunched 23:23:41 in gear two. 2026-09-05 00:24 A02, A03, A04, X10, D06 (L367): the accumulation trunk closes as
+  diagnosis (recall at chance across N; the maker model worth nothing against the plain reader). 01:09 A05, X06 (L368);
+  the BASE RUN COMPLETE at 17.0 h and RE-LOCKED: an eight-rung ladder (E03 at four times the units first) on 25 h of
+  budget, running to the freeze at hour 40; then X12, the confirmations (diagnosis cells are barred), B04, B03, the packet.
+  03:33 rung 1 (L369): E03/x1 the gate wider (+0.24 / +0.20 on 306 units), D01/x1 the anti-alignment tighter (0.36 / 0.39
+  on 334 worlds). HOLE REPAIRED: the rung's E03 rerun re-admitted the readers in EXPERTISE_GATE with E04 failed, and
+  D01/x1 closed as a claim; admission now reads both gates (engines.admitted_readers), D01/x1 reset and recomputed as
+  diagnosis; relaunched 03:35:39 in gear two. 05:25 G01/x1 holds (0.33 / 0.53 on 384; L369 addendum). 08:47 G02/x1
+  (L370): the proposed purpose hurts at 327 worlds (−0.09 / −0.06, intervals below zero). A01/x1 running (rung 1's last).
+
 - **2026-09-02, STAGE 7 BUILT AND LAUNCHED on his order** (brief at docs/design/PHASE_2_4_STAGE_7_CONTEXT.md;
   build log in the registry's Stage-7 section): the clean-room capability bridge, 100 questions and 24
   attacks over eight trunks, a physically separated reader (the interpreter capsule, his ruling), a

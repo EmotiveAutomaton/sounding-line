@@ -1,0 +1,67 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "562d95602cebf749",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 464,
+  "tokens_out": 0,
+  "wall_s": 3.353
+ },
+ "confidence": 0.9977482099028924,
+ "equivalence_class": [],
+ "evidence_sha": "4381b45674c1a015",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the lathe manual\naudience: editor\ntools: library=yes source=no\ndeadline: tight\nsections: sec1(3) sec2(3) sec3(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec2:s2.1": -0.5337613224983215,
+   "consult:sec1:src": -6.627536773681641
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -0.9398929476737976
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.9978512099643698,
+   "consult:sec1:src": 0.0021487900356301584
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.9977482099028921,
+   "consult:sec1:src": 0.0022517900971077798
+  },
+  "next_section": {
+   "sec1": 0.0022517900971077798,
+   "sec2": 0.9977482099028921,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.9977482099028921,
+   "cite": 0.0,
+   "consult": 0.0022517900971077798,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.39929920208905456
+ },
+ "version": "PredictionV1"
+}

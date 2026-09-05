@@ -1,0 +1,90 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "9497748edaf0bc84",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 36,
+  "tokens_out": 336,
+  "wall_s": 20.843
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "268d2a331070d121",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "- user sees a list of sections (sec, sec1 or sec2). \n  user selects one section.\n- system shows information about the section selected.\n\nuser stories from user persona:\n\n\"as an individual person i want to be able to easily find a particular section. when i search for something in library it can show me a result.\"\n\n---\n\n### **Survey Method:** \n\nPlease answer the following questions:\n\n**Sec 1 - Title: How would you describe your job?**\n\n- Options: 1) Student, 2) Teacher, 3) Researcher, 4) Consultant\n\n**Sec 2 - Title: What is your level of education?**\n\n- Options: 5) High School Graduate, 6) Bachelor's Degree, 7) Master's Degree, 8) PhD Level\n\nWould you like more options available?\n\n**Additional Section (optional): Would you consider taking an advanced degree? Please specify your highest completed degree if applicable.**\n\nUser story:\n",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.07142857142857142,
+   "check:sec2:s2.1": 0.07142857142857142,
+   "cite:sec2:ref": 0.07142857142857142,
+   "consult:sec1:src": 0.07142857142857142,
+   "fix:sec2:s2.1": 0.07142857142857142,
+   "probe:sec1:tech": 0.07142857142857142,
+   "restructure:sec2:order": 0.07142857142857142,
+   "revise:sec1:s1.1": 0.07142857142857142,
+   "revise:sec2:s2.1": 0.07142857142857142,
+   "revise:sec2:s2.3": 0.07142857142857142,
+   "write:sec1:s1.4": 0.07142857142857142,
+   "write:sec2:s2.2": 0.07142857142857142,
+   "write:sec2:s2.3": 0.07142857142857142,
+   "write:sec2:s2.4": 0.07142857142857142
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.07142857142857142,
+   "check:sec2:s2.1": 0.07142857142857142,
+   "cite:sec2:ref": 0.07142857142857142,
+   "consult:sec1:src": 0.07142857142857142,
+   "fix:sec2:s2.1": 0.07142857142857142,
+   "probe:sec1:tech": 0.07142857142857142,
+   "restructure:sec2:order": 0.07142857142857142,
+   "revise:sec1:s1.1": 0.07142857142857142,
+   "revise:sec2:s2.1": 0.07142857142857142,
+   "revise:sec2:s2.3": 0.07142857142857142,
+   "write:sec1:s1.4": 0.07142857142857142,
+   "write:sec2:s2.2": 0.07142857142857142,
+   "write:sec2:s2.3": 0.07142857142857142,
+   "write:sec2:s2.4": 0.07142857142857142
+  },
+  "next_section": {
+   "sec1": 0.35714285714285715,
+   "sec2": 0.6428571428571428
+  },
+  "next_type": {
+   "check": 0.14285714285714285,
+   "cite": 0.07142857142857142,
+   "consult": 0.07142857142857142,
+   "fix": 0.07142857142857142,
+   "probe": 0.07142857142857142,
+   "restructure": 0.07142857142857142,
+   "revise": 0.21428571428571427,
+   "write": 0.2857142857142857
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

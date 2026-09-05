@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "713fc24e9cda556b",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 168,
+  "tokens_out": 0,
+  "wall_s": 4.245
+ },
+ "confidence": 0.16099274851043716,
+ "equivalence_class": [],
+ "evidence_sha": "7f5dfbd4ac8d5650",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the kiln schedule\naudience: peer\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(3) sec4(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -3.2412097454071045,
+   "check:sec2:s2.1": -3.851466655731201,
+   "check:sec3:s3.1": -3.4883570671081543,
+   "check:sec4:s4.1": -3.584561586380005,
+   "cite:sec4:ref": -3.616795539855957,
+   "consult:sec1:src": -3.881283760070801,
+   "fix:sec2:s2.1": -3.818781852722168,
+   "probe:sec1:tech": -5.679009914398193,
+   "restructure:sec3:order": -6.482905864715576,
+   "revise:sec1:s1.1": -3.9430387020111084,
+   "revise:sec1:s1.2": -3.7711637020111084,
+   "revise:sec2:s2.1": -4.220498085021973,
+   "revise:sec3:s3.3": -4.515511989593506,
+   "write:sec1:s1.2": -2.4089882373809814,
+   "write:sec2:s2.1": -2.3152384757995605,
+   "write:sec3:s3.2": -2.785276174545288,
+   "write:sec3:s3.3": -2.050901174545288,
+   "write:sec4:s4.1": -2.073988914489746,
+   "write:sec4:s4.2": -1.917738914489746
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -4.037324905395508
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.04365477151259417,
+   "check:sec2:s2.1": 0.023356594939437314,
+   "check:sec3:s3.1": 0.03399875932150789,
+   "check:sec4:s4.1": 0.030902877835601802,
+   "cite:sec4:ref": 0.029893738669724987,
+   "consult:sec1:src": 0.022242412771747218,
+   "fix:sec2:s2.1": 0.024429903457888286,
+   "probe:sec1:tech": 0.003802150237905425,
+   "restructure:sec3:order": 0.0015729211618762521,
+   "revise:sec1:s1.1": 0.020516638291440768,
+   "revise:sec1:s1.2": 0.024364110806608448,
+   "revise:sec2:s2.1": 0.015545257041083631,
+   "revise:sec3:s3.3": 0.011866223382593957,
+   "write:sec1:s1.2": 0.11199349293046998,
+   "write:sec2:s2.1": 0.11025716847047752,
+   "write:sec3:s3.2": 0.06106831002419663,
+   "write:sec3:s3.3": 0.1354859675020409,
+   "write:sec4:s4.1": 0.1394646460648658,
+   "write:sec4:s4.2": 0.15558405557793903
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.04285783574034502,
+   "check:sec2:s2.1": 0.02328086043440105,
+   "check:sec3:s3.1": 0.03347306786090802,
+   "check:sec4:s4.1": 0.030402859052574466,
+   "cite:sec4:ref": 0.02943848106576329,
+   "consult:sec1:src": 0.02259693952998898,
+   "fix:sec2:s2.1": 0.02405436279818745,
+   "probe:sec1:tech": 0.003743752024890863,
+   "restructure:sec3:order": 0.001675635294113762,
+   "revise:sec1:s1.1": 0.021243682055768896,
+   "revise:sec1:s1.2": 0.025227496639302797,
+   "revise:sec2:s2.1": 0.016096472572825073,
+   "revise:sec3:s3.3": 0.011984165641399999,
+   "write:sec1:s1.2": 0.0985052652211287,
+   "write:sec2:s2.1": 0.10818684324069039,
+   "write:sec3:s3.2": 0.06761447339488916,
+   "write:sec3:s3.3": 0.14092066375360351,
+   "write:sec4:s4.1": 0.13770439516878144,
+   "write:sec4:s4.2": 0.16099274851043716
+  },
+  "next_section": {
+   "sec1": 0.21417497121142523,
+   "sec2": 0.17161853904610397,
+   "sec3": 0.25566800594491446,
+   "sec4": 0.3585384837975564
+  },
+  "next_type": {
+   "check": 0.13001462308822856,
+   "cite": 0.02943848106576329,
+   "consult": 0.02259693952998898,
+   "fix": 0.02405436279818745,
+   "probe": 0.003743752024890863,
+   "restructure": 0.001675635294113762,
+   "revise": 0.07455181690929676,
+   "write": 0.7139243892895304
+  },
+  "stop": 0.018965577061107734
+ },
+ "version": "PredictionV1"
+}

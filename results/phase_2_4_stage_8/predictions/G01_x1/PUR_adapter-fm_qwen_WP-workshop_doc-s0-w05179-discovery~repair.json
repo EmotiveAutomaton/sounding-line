@@ -1,0 +1,95 @@
+{
+ "abstain": true,
+ "arm": "PUR",
+ "canonical_sha": "9cb37b17677c19a1",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 397,
+  "tokens_out": 0,
+  "wall_s": 4.626
+ },
+ "confidence": 0.4127333662519246,
+ "equivalence_class": [
+  "document",
+  "explore"
+ ],
+ "evidence_sha": "75fc03b4f4529a33",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": true,
+   "confidence": 0.4127333662519246,
+   "equivalence_class": [
+    "document",
+    "explore"
+   ],
+   "purpose": {
+    "document": 0.3264989661256945,
+    "explore": 0.4127333662519246,
+    "persuade": 0.01813423851717631,
+    "teach": 0.24263342910520455
+   },
+   "raw": {
+    "document": 0.2039951131771692,
+    "explore": 0.2578739858188158,
+    "persuade": 0.011330192198124815,
+    "teach": 0.15159629575006384,
+    "unknown": 0.37520441305582636
+   },
+   "unknown": 0.37520441305582636,
+   "weights": "base"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25,
+   "revise:sec2:s2.3": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25,
+   "revise:sec2:s2.3": 0.25
+  },
+  "next_section": {
+   "sec1": 0.25,
+   "sec2": 0.5,
+   "sec3": 0.25
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.25,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.25,
+   "restructure": 0.25,
+   "revise": 0.25,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.3264989661256945,
+   "explore": 0.4127333662519246,
+   "persuade": 0.01813423851717631,
+   "teach": 0.24263342910520455
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

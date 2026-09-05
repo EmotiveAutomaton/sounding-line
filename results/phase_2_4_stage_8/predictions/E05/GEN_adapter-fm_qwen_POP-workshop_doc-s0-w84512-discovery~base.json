@@ -1,0 +1,103 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "be53904f55a4ebb7",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 52,
+  "tokens_out": 336,
+  "wall_s": 23.822
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "a9a339bb662d5630",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "01.16 - 01.30 - setup of machine tools and tools\n\n02.16 - 02.49 - description of workpiece\n\n03.0 - 04.51 - process design\n\n05.16 - 07.48 - cutting speed, feedrate, and machining accuracy \n08.0 - end-of-segment processing\n\n09.0 - start-of-segment processing\n\n010.45 - quality assurance tests for each part and overall assembly quality control\n012.16 - end of job completion checklist with tasks to perform upon departure.\n\n013.12 - feedback to project manager regarding findings and next steps.\nsec1(2), sec2(2), sec3(2), sec4(3), sec5(2)\n\n\n```\n# Lathe Manual\n\n\n## Introduction\n\nThis manual is a guide for all operations performed on a lathe using a high-quality milling cutter. The lathe is equipped with various accessories, including a chuck, tailstock, and an automatic tool changer (ATC). It offers precise manufacturing capabilities, supporting both turning and reaming jobs while maintaining a steady finish through precision cutting processes.\n\n### Tools Required:\n",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.05263157894736842,
+   "check:sec2:s2.1": 0.05263157894736842,
+   "check:sec3:s3.1": 0.05263157894736842,
+   "check:sec4:s4.1": 0.05263157894736842,
+   "check:sec5:s5.1": 0.05263157894736842,
+   "cite:sec5:ref": 0.05263157894736842,
+   "consult:sec1:src": 0.05263157894736842,
+   "fix:sec2:s2.1": 0.05263157894736842,
+   "restructure:sec3:order": 0.05263157894736842,
+   "revise:sec1:s1.1": 0.05263157894736842,
+   "revise:sec2:s2.2": 0.05263157894736842,
+   "revise:sec3:s3.1": 0.05263157894736842,
+   "revise:sec4:s4.1": 0.05263157894736842,
+   "revise:sec4:s4.2": 0.05263157894736842,
+   "write:sec1:s1.1": 0.05263157894736842,
+   "write:sec1:s1.2": 0.05263157894736842,
+   "write:sec3:s3.2": 0.05263157894736842,
+   "write:sec4:s4.2": 0.05263157894736842,
+   "write:sec5:s5.1": 0.05263157894736842
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.05263157894736842,
+   "check:sec2:s2.1": 0.05263157894736842,
+   "check:sec3:s3.1": 0.05263157894736842,
+   "check:sec4:s4.1": 0.05263157894736842,
+   "check:sec5:s5.1": 0.05263157894736842,
+   "cite:sec5:ref": 0.05263157894736842,
+   "consult:sec1:src": 0.05263157894736842,
+   "fix:sec2:s2.1": 0.05263157894736842,
+   "restructure:sec3:order": 0.05263157894736842,
+   "revise:sec1:s1.1": 0.05263157894736842,
+   "revise:sec2:s2.2": 0.05263157894736842,
+   "revise:sec3:s3.1": 0.05263157894736842,
+   "revise:sec4:s4.1": 0.05263157894736842,
+   "revise:sec4:s4.2": 0.05263157894736842,
+   "write:sec1:s1.1": 0.05263157894736842,
+   "write:sec1:s1.2": 0.05263157894736842,
+   "write:sec3:s3.2": 0.05263157894736842,
+   "write:sec4:s4.2": 0.05263157894736842,
+   "write:sec5:s5.1": 0.05263157894736842
+  },
+  "next_section": {
+   "sec1": 0.2631578947368421,
+   "sec2": 0.15789473684210525,
+   "sec3": 0.21052631578947367,
+   "sec4": 0.21052631578947367,
+   "sec5": 0.15789473684210525
+  },
+  "next_type": {
+   "check": 0.2631578947368421,
+   "cite": 0.05263157894736842,
+   "consult": 0.05263157894736842,
+   "fix": 0.05263157894736842,
+   "probe": 0.0,
+   "restructure": 0.05263157894736842,
+   "revise": 0.2631578947368421,
+   "write": 0.2631578947368421
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

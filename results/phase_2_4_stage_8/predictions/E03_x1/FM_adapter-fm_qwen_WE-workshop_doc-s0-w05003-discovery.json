@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "cc8eddd742c3e6d9",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 268,
+  "tokens_out": 0,
+  "wall_s": 3.879
+ },
+ "confidence": 0.13482697176582348,
+ "equivalence_class": [],
+ "evidence_sha": "5d75149c177f3707",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the safety sheet\naudience: self\ntools: library=yes source=yes\ndeadline: loose\nsections: sec1(3) sec2(3) sec3(3) sec4(3)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -2.0994555950164795,
+   "check:sec4:s4.1": -2.4275805950164795,
+   "cite:sec4:ref": -3.3517961502075195,
+   "consult:sec1:src": -3.2580277919769287,
+   "fix:sec2:s2.1": -2.945420742034912,
+   "probe:sec1:tech": -5.070957660675049,
+   "restructure:sec3:order": -5.918625831604004,
+   "revise:sec1:s1.1": -4.499033451080322,
+   "revise:sec1:s1.2": -4.545908451080322,
+   "revise:sec1:s1.3": -4.514658451080322,
+   "revise:sec2:s2.3": -4.656219482421875,
+   "revise:sec4:s4.1": -4.5985236167907715,
+   "write:sec1:s1.3": -2.158569812774658,
+   "write:sec2:s2.3": -2.2724175453186035,
+   "write:sec3:s3.1": -2.835442543029785,
+   "write:sec3:s3.2": -2.897942543029785,
+   "write:sec3:s3.3": -2.882317543029785,
+   "write:sec4:s4.1": -2.818089246749878,
+   "write:sec4:s4.2": -2.771214246749878
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.554746389389038
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.14329329494730098,
+   "check:sec4:s4.1": 0.10321026395207883,
+   "cite:sec4:ref": 0.03351390644238668,
+   "consult:sec1:src": 0.03511935843174232,
+   "fix:sec2:s2.1": 0.05272713892289112,
+   "probe:sec1:tech": 0.007023318871793558,
+   "restructure:sec3:order": 0.003403858858231238,
+   "revise:sec1:s1.1": 0.01226273584742283,
+   "revise:sec1:s1.2": 0.012072619749726276,
+   "revise:sec1:s1.3": 0.011701184288630189,
+   "revise:sec2:s2.3": 0.01053957094812214,
+   "revise:sec4:s4.1": 0.010759674914796128,
+   "write:sec1:s1.3": 0.13714020304870625,
+   "write:sec2:s2.3": 0.10852752363591021,
+   "write:sec3:s3.1": 0.06309841956733721,
+   "write:sec3:s3.2": 0.059275479584441994,
+   "write:sec3:s3.3": 0.059275479584441994,
+   "write:sec4:s4.1": 0.06745732157819274,
+   "write:sec4:s4.2": 0.06959864682584732
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.13482697176582348,
+   "check:sec4:s4.1": 0.09711222473213763,
+   "cite:sec4:ref": 0.03853826757227543,
+   "consult:sec1:src": 0.04232678364555885,
+   "fix:sec2:s2.1": 0.05786004739780611,
+   "probe:sec1:tech": 0.006906687879595105,
+   "restructure:sec3:order": 0.0029589131716126946,
+   "revise:sec1:s1.1": 0.012236391355073171,
+   "revise:sec1:s1.2": 0.011676046198418569,
+   "revise:sec1:s1.3": 0.012046683690873318,
+   "revise:sec2:s2.3": 0.01045654792987372,
+   "revise:sec4:s4.1": 0.011077591056107934,
+   "write:sec1:s1.3": 0.12708778243798713,
+   "write:sec2:s2.3": 0.11341235267148568,
+   "write:sec3:s3.1": 0.0645864940007087,
+   "write:sec3:s3.2": 0.06067339614558994,
+   "write:sec3:s3.3": 0.06162886310705524,
+   "write:sec4:s4.1": 0.06571706375149605,
+   "write:sec4:s4.2": 0.06887089149052128
+  },
+  "next_section": {
+   "sec1": 0.3471073469733296,
+   "sec2": 0.1817289479991655,
+   "sec3": 0.1898476664249666,
+   "sec4": 0.2813160386025383
+  },
+  "next_type": {
+   "check": 0.2319391964979611,
+   "cite": 0.03853826757227543,
+   "consult": 0.04232678364555885,
+   "fix": 0.05786004739780611,
+   "probe": 0.006906687879595105,
+   "restructure": 0.0029589131716126946,
+   "revise": 0.05749326023034672,
+   "write": 0.561976843604844
+  },
+  "stop": 0.030499999510964174
+ },
+ "version": "PredictionV1"
+}

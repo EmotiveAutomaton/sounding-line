@@ -1,0 +1,103 @@
+{
+ "abstain": false,
+ "arm": "FMS",
+ "canonical_sha": "d8624bdaf8b15788",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 820,
+  "tokens_out": 0,
+  "wall_s": 7.713
+ },
+ "confidence": 0.13209447058753562,
+ "equivalence_class": [],
+ "evidence_sha": "acf86afc332a9c1b",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the order ledger\naudience: self\ntools: library=yes source=yes\ndeadline: loose\nsections: sec1(3) sec2(2) sec3(3)\nmaker: The brief requires sec1, sec3; the audience is self; the library is available and source access is available; the deadline is loose.\nmaker: The maker believes the library is available and source access is available, believes the deadline is tight, and believes no section is already checked.\nmaker: The maker is strongest at write and revise, weakest at restructure and probe; of the skilled moves, the maker can carry out fix; no fixed sequence habits; choices are erratic and an episode usually runs about 10 moves.\nmaker: As the maker sees it, the library is usable, source access is usable, the deadline feels tight, the audience matters not at all, and no section is taken as already checked.\nmaker: The moves the maker sees as open right now: write:sec1:s1.1, write:sec1:s1.3, write:sec2:s2.1, write:sec2:s2.2, write:sec3:s3.2, write:sec3:s3.3, revise:sec2:s2.1, revise:sec2:s2.2, revise:sec1:s1.3, revise:sec1:s1.2, check:sec1:s1.1, check:sec3:s3.1.\nmaker: Right now the maker is pulled most strongly toward checksing work, then toward repairsing, and least toward draftsing.\nmaker: The maker carries a standing habit of check and no held intention.\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -2.2457382678985596,
+   "check:sec3:s3.1": -2.495741367340088,
+   "probe:sec1:tech": -3.0874102115631104,
+   "restructure:sec2:order": -3.4535439014434814,
+   "revise:sec1:s1.2": -3.7016584873199463,
+   "revise:sec1:s1.3": -3.6547834873199463,
+   "revise:sec2:s2.1": -3.384594678878784,
+   "revise:sec2:s2.2": -3.384594678878784,
+   "write:sec1:s1.1": -2.5754716396331787,
+   "write:sec1:s1.3": -2.6535966396331787,
+   "write:sec2:s2.1": -2.8169023990631104,
+   "write:sec2:s2.2": -2.5825273990631104,
+   "write:sec3:s3.2": -3.0419199466705322,
+   "write:sec3:s3.3": -2.4325449466705322
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -2.4471170902252197
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.12888175851902736,
+   "check:sec3:s3.1": 0.10037280763479675,
+   "probe:sec1:tech": 0.061849054587224166,
+   "restructure:sec2:order": 0.04204651590446361,
+   "revise:sec1:s1.2": 0.03197257936758101,
+   "revise:sec1:s1.3": 0.03298749798324353,
+   "revise:sec2:s2.1": 0.042772758583348586,
+   "revise:sec2:s2.2": 0.042772758583348586,
+   "write:sec1:s1.1": 0.09461504028085593,
+   "write:sec1:s1.3": 0.08750460771615302,
+   "write:sec2:s2.1": 0.07319494976170032,
+   "write:sec2:s2.2": 0.09252708627615358,
+   "write:sec3:s3.2": 0.05994898916473986,
+   "write:sec3:s3.3": 0.1085535956373637
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.13209447058753562,
+   "check:sec3:s3.1": 0.10287495827756335,
+   "probe:sec1:tech": 0.05693130748344132,
+   "restructure:sec2:order": 0.03947674322242232,
+   "revise:sec1:s1.2": 0.030802539363655464,
+   "revise:sec1:s1.3": 0.03228078409237406,
+   "revise:sec2:s2.1": 0.04229466443864155,
+   "revise:sec2:s2.2": 0.04229466443864155,
+   "write:sec1:s1.1": 0.09499117391624143,
+   "write:sec1:s1.3": 0.08785247446245,
+   "write:sec2:s2.1": 0.07461587018955165,
+   "write:sec2:s2.2": 0.09432329800179017,
+   "write:sec3:s3.2": 0.05958093701113571,
+   "write:sec3:s3.3": 0.10958611451455579
+  },
+  "next_section": {
+   "sec1": 0.4349527499056979,
+   "sec2": 0.29300524029104724,
+   "sec3": 0.2720420098032549
+  },
+  "next_type": {
+   "check": 0.23496942886509897,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.05693130748344132,
+   "restructure": 0.03947674322242232,
+   "revise": 0.14767265233331262,
+   "write": 0.5209498680957247
+  },
+  "stop": 0.09747356668603714
+ },
+ "version": "PredictionV1"
+}

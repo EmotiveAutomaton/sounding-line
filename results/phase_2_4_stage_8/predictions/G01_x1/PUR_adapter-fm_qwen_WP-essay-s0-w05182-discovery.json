@@ -1,0 +1,97 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "dd24680b34bb5f85",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 335,
+  "tokens_out": 0,
+  "wall_s": 3.578
+ },
+ "confidence": 0.9751676472110793,
+ "equivalence_class": [
+  "explore"
+ ],
+ "evidence_sha": "51112246ba8519fc",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.9751676472110793,
+   "equivalence_class": [
+    "explore"
+   ],
+   "purpose": {
+    "document": 0.002003928310792175,
+    "explore": 0.9751676472110793,
+    "persuade": 0.0022707482654309714,
+    "teach": 0.02055767621269754
+   },
+   "raw": {
+    "document": 0.0019539379010333744,
+    "explore": 0.9508409135624408,
+    "persuade": 0.00221410170994461,
+    "teach": 0.020044840173590314,
+    "unknown": 0.02494620665299077
+   },
+   "unknown": 0.02494620665299077,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.16666666666666666,
+   "cite:sec3:ref": 0.16666666666666666,
+   "consult:sec1:src": 0.16666666666666666,
+   "fix:sec2:s2.1": 0.16666666666666666,
+   "probe:sec1:tech": 0.16666666666666666,
+   "restructure:sec2:order": 0.16666666666666666
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.16666666666666666,
+   "cite:sec3:ref": 0.16666666666666666,
+   "consult:sec1:src": 0.16666666666666666,
+   "fix:sec2:s2.1": 0.16666666666666666,
+   "probe:sec1:tech": 0.16666666666666666,
+   "restructure:sec2:order": 0.16666666666666666
+  },
+  "next_section": {
+   "sec1": 0.3333333333333333,
+   "sec2": 0.5,
+   "sec3": 0.16666666666666666
+  },
+  "next_type": {
+   "check": 0.16666666666666666,
+   "cite": 0.16666666666666666,
+   "consult": 0.16666666666666666,
+   "fix": 0.16666666666666666,
+   "probe": 0.16666666666666666,
+   "restructure": 0.16666666666666666,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.002003928310792175,
+   "explore": 0.9751676472110793,
+   "persuade": 0.0022707482654309714,
+   "teach": 0.02055767621269754
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

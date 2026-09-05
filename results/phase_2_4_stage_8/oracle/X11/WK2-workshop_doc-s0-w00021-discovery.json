@@ -1,0 +1,214 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "WK2|workshop_doc|s0|w00021|discovery",
+ "cut": 17,
+ "hidden": {
+  "next_action": null,
+  "next_type": null,
+  "next_section": null,
+  "next_slot": null,
+  "stop_next": true,
+  "stopped_at": 16,
+  "boundary_type": "equivalent",
+  "stop_weight": 0.029384068089415228,
+  "tail": [],
+  "tail_stop": [],
+  "rejected_alternative": null,
+  "changed_context": {
+   "change": "deadline_lifted",
+   "dist": {
+    "revise:sec1:s1.2": 0.3025164676201538,
+    "revise:sec1:s1.1": 0.3025164676201538,
+    "check:sec2:s2.1": 0.0,
+    "check:sec3:s3.1": 0.3949670647596924,
+    "cite:sec4:ref": 0.0,
+    "restructure:sec3:order": 0.0,
+    "probe:sec1:tech": 0.0,
+    "fix:sec2:s2.1": 0.0
+   },
+   "choice": "check:sec3:s3.1"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.3712224404120447,
+    "rewrite": 0.18434360834620367,
+    "retain": 0.4444339512417515
+   },
+   "choice": "retain"
+  },
+  "subjective_ids": [
+   "revise:sec1:s1.2",
+   "revise:sec1:s1.1",
+   "check:sec3:s3.1"
+  ],
+  "unavailable_ids": [
+   "check:sec2:s2.1",
+   "cite:sec4:ref",
+   "restructure:sec3:order",
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "equivalence_class": []
+ },
+ "oracle": {
+  "next_action": {
+   "revise:sec1:s1.2": 0.3025164676201538,
+   "revise:sec1:s1.1": 0.3025164676201538,
+   "check:sec2:s2.1": 0.0,
+   "check:sec3:s3.1": 0.3949670647596924,
+   "cite:sec4:ref": 0.0,
+   "restructure:sec3:order": 0.0,
+   "probe:sec1:tech": 0.0,
+   "fix:sec2:s2.1": 0.0
+  },
+  "next_type": {
+   "write": 0.0,
+   "revise": 0.6050329352403075,
+   "check": 0.3949670647596924,
+   "consult": 0.0,
+   "cite": 0.0,
+   "restructure": 0.0,
+   "probe": 0.0,
+   "fix": 0.0
+  },
+  "next_section": {
+   "sec1": 0.6050329352403075,
+   "sec2": 0.0,
+   "sec3": 0.3949670647596924,
+   "sec4": 0.0
+  },
+  "p_stop": 0.27527932406581773,
+  "stop_terms": {
+   "satisfaction": 0.0,
+   "deadline": 1.6320000000000001,
+   "fatigue": 1.5999999999999999,
+   "audience": 0.0
+  },
+  "boundary_type": "equivalent"
+ },
+ "state_names": {
+  "goal": "attribute",
+  "law": "novice2",
+  "belief": "checked_illusion",
+  "residue": "habit_write",
+  "tendency": "care"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec1",
+    "sec3",
+    "sec4"
+   ],
+   "audience": "peer",
+   "tools": {
+    "library": false,
+    "source_access": true
+   },
+   "deadline": "tight",
+   "scheduled_change": "library_withdrawn"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": false,
+    "source_access": true
+   },
+   "believed_deadline": "tight",
+   "believed_checked": [
+    "sec2"
+   ]
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.6,
+    "revise": 0.3,
+    "check": 0.5,
+    "consult": 0.2,
+    "cite": 0.4,
+    "restructure": 0.3,
+    "probe": 0.1,
+    "fix": 0.2
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.2,
+    "revise": 0.5,
+    "check": 0.05,
+    "consult": 0.45,
+    "cite": 0.4,
+    "restructure": 0.8,
+    "probe": 0.7,
+    "fix": 0.35
+   },
+   "chain": {
+    "write>write": 0.4
+   },
+   "fluency": 1.5,
+   "expected_len": 9.0,
+   "confidence": 0.35
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": false,
+    "source_access": true
+   },
+   "perceived_deadline": "tight",
+   "perceived_required": [
+    "sec1",
+    "sec3",
+    "sec4"
+   ],
+   "audience": "peer",
+   "audience_weight": 0.79,
+   "believed_checked": [
+    "sec2"
+   ]
+  },
+  "subjective_action_space": [
+   "revise:sec1:s1.2",
+   "revise:sec1:s1.1",
+   "check:sec3:s3.1"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": -0.5,
+    "revise": 0.0,
+    "check": 0.2,
+    "consult": 0.8,
+    "cite": 2.3,
+    "restructure": -0.2,
+    "probe": 0.0,
+    "fix": 0.2
+   },
+   "name_ref": "attribute"
+  },
+  "history_residue": {
+   "habit": {
+    "write": 0.9
+   },
+   "maintained": null
+  }
+ },
+ "condition": {
+  "supplied": [],
+  "form": "language",
+  "render": "log",
+  "unit_ref": "u9f34be0c3f",
+  "condition_ref": "X11"
+ },
+ "n_options": 8,
+ "purpose": null,
+ "pull_ordering": null,
+ "shape": "essay",
+ "reveal": null,
+ "maker": null,
+ "purpose_class": null,
+ "cut_gap": null,
+ "tail": false,
+ "tau_cut": 0.21729520307056777,
+ "evidence_sha": "b0b674c328eddb9d"
+}

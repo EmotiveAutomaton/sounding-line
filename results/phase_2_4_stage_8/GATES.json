@@ -1,0 +1,166 @@
+{
+ "isolation": {
+  "passed": true,
+  "at": "2026-09-04T08:10:35",
+  "detail": {
+   "card": "I03",
+   "reason": "all raised True; attempts 26"
+  }
+ },
+ "canaries": {
+  "passed": true,
+  "at": "2026-09-04T08:10:57",
+  "detail": {
+   "card": "I06",
+   "reason": "canaries caught 90/90; clean hits 0/15; purpose leaks 0/15"
+  }
+ },
+ "construction": {
+  "passed": true,
+  "at": "2026-09-04T08:27:59",
+  "detail": {
+   "card": "E01",
+   "reason": "DOM refit within -0.121 nats of the Stage 7 DOM; factor deviation {'goal': 0.022, 'law': 0.038, 'belief': 0.017, 'residue': 0.02, 'tendency': 0.027}; per-topic law recall 0.35 vs chance 0.33"
+  }
+ },
+ "training": {
+  "passed": true,
+  "at": "2026-09-04T10:12:47",
+  "detail": {
+   "card": "E02",
+   "reason": "fm_qwen: band_ok True gap 0.1444050471572659; fm_smollm: band_ok True gap 0.11917429260998666; repairs {}"
+  }
+ },
+ "splits": {
+  "passed": true,
+  "at": "2026-09-04T10:13:18",
+  "detail": {
+   "card": "I07",
+   "reason": "34 lineages, 34 roots, 1600 training roots, overlap 0, violations 0"
+  }
+ },
+ "record": {
+  "passed": true,
+  "at": "2026-09-04T10:13:19",
+  "detail": {
+   "markers": 10,
+   "lint_rc": 0
+  }
+ },
+ "mutation_tail": {
+  "passed": true,
+  "at": "2026-09-04T10:29:25",
+  "detail": {
+   "card": "I04"
+  }
+ },
+ "mutation_stop": {
+  "passed": true,
+  "at": "2026-09-04T10:29:25",
+  "detail": {
+   "card": "I04"
+  }
+ },
+ "mutation_event": {
+  "passed": true,
+  "at": "2026-09-04T10:29:25",
+  "detail": {
+   "card": "I04"
+  }
+ },
+ "mutation": {
+  "passed": true,
+  "at": "2026-09-04T10:29:25",
+  "detail": {
+   "card": "I04",
+   "reason": "identity {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'FM': 1.0, 'DIR0': 1.0}; oracle differs 39/45"
+  }
+ },
+ "sensitivity": {
+  "passed": true,
+  "at": "2026-09-04T10:37:49",
+  "detail": {
+   "card": "I05",
+   "reason": "TV {'DOM': 0.09759711863862558, 'SOL': 0.19495115439984737, 'FM': 0.019328101028674105, 'DIR0': 0.6522322712328464}; bytes changed {'DOM': 1.0, 'SOL': 1.0, 'FM': 1.0, 'DIR0': 1.0}"
+  }
+ },
+ "keystone": {
+  "passed": true,
+  "at": "2026-09-04T10:38:17",
+  "detail": {
+   "card": "I08",
+   "reason": "keystone checks {'inputs_clean': True, 'no_denials': True, 'sol_equals_oracle': True, 'fm_scored_options_with_adapter': True, 'one_prediction_per_arm': True}"
+  }
+ },
+ "expertise": {
+  "passed": true,
+  "at": "2026-09-05T02:06:05",
+  "detail": {
+   "card": "E03",
+   "readers": {
+    "adapter:fm_qwen": true,
+    "adapter:fm_smollm": true
+   }
+  }
+ },
+ "generation": {
+  "passed": false,
+  "at": "2026-09-04T14:03:02",
+  "detail": {
+   "card": "E04",
+   "readers": {
+    "adapter:fm_qwen": false,
+    "adapter:fm_smollm": false
+   }
+  }
+ },
+ "difference": {
+  "passed": false,
+  "at": "2026-09-05T03:36:03",
+  "detail": {
+   "card": "D01",
+   "cells": {
+    "adapter:fm_qwen": "INFERIOR",
+    "adapter:fm_smollm": "INFERIOR"
+   }
+  }
+ },
+ "purpose_recall": {
+  "passed": true,
+  "at": "2026-09-05T05:24:47",
+  "detail": {
+   "card": "G01",
+   "recall": {
+    "adapter:fm_qwen": 0.3333333333333333,
+    "adapter:fm_smollm": 0.53125
+   },
+   "repaired": true
+  }
+ },
+ "equivalence": {
+  "passed": false,
+  "at": "2026-09-04T18:18:08",
+  "detail": {
+   "card": "G04"
+  }
+ },
+ "purpose_execution": {
+  "passed": false,
+  "at": "2026-09-05T08:46:40",
+  "detail": {
+   "card": "G02",
+   "cells": {
+    "adapter:fm_qwen": "INCONCLUSIVE",
+    "adapter:fm_smollm": "INCONCLUSIVE",
+    "pooled": "INCONCLUSIVE"
+   }
+  }
+ },
+ "accumulation": {
+  "passed": false,
+  "at": "2026-09-04T23:21:26",
+  "detail": {
+   "card": "A01"
+  }
+ }
+}

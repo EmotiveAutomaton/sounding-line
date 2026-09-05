@@ -1,0 +1,28 @@
+{
+ "card": "G05",
+ "lane": "discovery",
+ "written_at": "2026-09-04T19:32:54",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "per_reader": {
+  "adapter:fm_qwen": {
+   "pull_recall": 0.59375,
+   "n": 96,
+   "purpose_recall": 0.3541666666666667,
+   "difference_purpose_minus_pull": -0.23958333333333331
+  },
+  "adapter:fm_smollm": {
+   "pull_recall": 0.6979166666666666,
+   "n": 96,
+   "purpose_recall": 0.5520833333333334,
+   "difference_purpose_minus_pull": -0.14583333333333326
+  }
+ },
+ "degenerate": 33
+}

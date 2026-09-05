@@ -1,0 +1,56 @@
+{
+ "card": "D02",
+ "cell_id": "D02",
+ "lane": "discovery",
+ "track": "difference",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 0.24,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "AUROC by task shape with the construction fact (tail gap by shape) beside it",
+ "exec": "COMPLETE",
+ "outcome": "DESCRIPTIVE",
+ "primary": "Does surprise alignment rise across the artful gradient?",
+ "reason": "alignment by shape {\"adapter:fm_qwen|essay\": 0.3750273199023199, \"adapter:fm_qwen|free\": 0.37486528993881935, \"adapter:fm_qwen|structured\": 0.2522660052365935, \"adapter:fm_smollm|essay\": 0.36713764095381746, \"adapter:fm_smollm|free\": 0.39980077112430057, \"adapter:fm_smollm|structured\": 0.2674756171116465}; monotone {'adapter:fm_qwen': False, 'adapter:fm_smollm': False}",
+ "conditional_cells": {
+  "adapter:fm_qwen|essay": {
+   "outcome": "INFERIOR",
+   "point": -0.2012327802916038
+  },
+  "adapter:fm_qwen|free": {
+   "outcome": "INFERIOR",
+   "point": -0.15772895405248347
+  },
+  "adapter:fm_qwen|structured": {
+   "outcome": "INFERIOR",
+   "point": -0.2870292668932375
+  },
+  "adapter:fm_smollm|essay": {
+   "outcome": "INFERIOR",
+   "point": -0.20912245924010628
+  },
+  "adapter:fm_smollm|free": {
+   "outcome": "INFERIOR",
+   "point": -0.13279347286700227
+  },
+  "adapter:fm_smollm|structured": {
+   "outcome": "INFERIOR",
+   "point": -0.27181965501818445
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D02\\metrics.json",
+    "sha256": "3b584771d997168c27c982d6af276e2044b5b1ecafbbc4f88a1adaee2c42ee59"
+   }
+  },
+  "written_at": "2026-09-04T14:39:33"
+ }
+}

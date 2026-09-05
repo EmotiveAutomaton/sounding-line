@@ -1,0 +1,80 @@
+{
+ "abstain": false,
+ "arm": "FMPT",
+ "canonical_sha": "91a53c68be85b133",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 500,
+  "tokens_out": 0,
+  "wall_s": 3.864
+ },
+ "confidence": 0.25474255539755647,
+ "equivalence_class": [],
+ "evidence_sha": "5d8ae5b73eea0770",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the order ledger\naudience: self\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(3) sec4(3)\ngoal: explore\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec4:ref": -3.419454336166382,
+   "probe:sec1:tech": -2.934518814086914,
+   "restructure:sec3:order": -4.278360366821289,
+   "revise:sec2:s2.1": -2.333815813064575,
+   "revise:sec2:s2.2": -2.411940813064575,
+   "revise:sec3:s3.3": -2.36271071434021
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.137448787689209
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.0808905440806963,
+   "probe:sec1:tech": 0.14885374810377142,
+   "restructure:sec3:order": 0.03535237453637412,
+   "revise:sec2:s2.1": 0.2556324725190569,
+   "revise:sec2:s2.2": 0.23275601493379813,
+   "revise:sec3:s3.3": 0.24651484582630312
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.0860230191871481,
+   "probe:sec1:tech": 0.13970742961413293,
+   "restructure:sec3:order": 0.03644152403858764,
+   "revise:sec2:s2.1": 0.25474255539755647,
+   "revise:sec2:s2.2": 0.23559835003509344,
+   "revise:sec3:s3.3": 0.24748712172748139
+  },
+  "next_section": {
+   "sec1": 0.13970742961413293,
+   "sec2": 0.4903409054326499,
+   "sec3": 0.283928645766069,
+   "sec4": 0.0860230191871481
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0860230191871481,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.13970742961413293,
+   "restructure": 0.03644152403858764,
+   "revise": 0.7378280271601313,
+   "write": 0.0
+  },
+  "stop": 0.23664992417355968
+ },
+ "version": "PredictionV1"
+}

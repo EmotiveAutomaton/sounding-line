@@ -1,0 +1,94 @@
+{
+ "abstain": false,
+ "arm": "FMS",
+ "canonical_sha": "649a6089317befbf",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 816,
+  "tokens_out": 0,
+  "wall_s": 6.077
+ },
+ "confidence": 0.3690079393818411,
+ "equivalence_class": [],
+ "evidence_sha": "092c9b6937808143",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the flood notice\naudience: editor\ntools: library=yes source=no\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(2)\nmaker: The brief requires sec2, sec3; the audience is editor; the library is available and source access is unavailable; the deadline is tight.\nmaker: The maker believes the library is available and source access is unavailable, believes the deadline is tight, and believes no section is already checked.\nmaker: The maker is strongest at write and revise, weakest at restructure and probe; of the skilled moves, the maker can carry out fix; no fixed sequence habits; choices are erratic and an episode usually runs about 10 moves.\nmaker: As the maker sees it, the library is usable, source access is not usable, the deadline feels tight, the audience matters a lot, and no section is taken as already checked.\nmaker: The moves the maker sees as open right now: write:sec1:s1.1, write:sec2:s2.3, revise:sec2:s2.1, revise:sec2:s2.3, check:sec1:s1.1, check:sec3:s3.1, cite:sec3:ref, fix:sec2:s2.1.\nmaker: Right now the maker is pulled most strongly toward draftsing work, then toward repairsing, and least toward checksing.\nmaker: The maker carries a standing habit of check and no held intention.\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -2.675891399383545,
+   "check:sec3:s3.1": -3.020343065261841,
+   "cite:sec3:ref": -4.1581807136535645,
+   "consult:sec1:src": -4.081242561340332,
+   "fix:sec2:s2.1": -2.2491955757141113,
+   "probe:sec1:tech": -3.190009117126465,
+   "restructure:sec2:order": -2.723680019378662,
+   "revise:sec2:s2.1": -3.452071189880371,
+   "revise:sec2:s2.3": -3.952071189880371,
+   "write:sec1:s1.1": -1.2652884721755981,
+   "write:sec2:s2.3": -2.671539545059204
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.7178955078125
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.08949160655047493,
+   "check:sec3:s3.1": 0.06341786636023916,
+   "cite:sec3:ref": 0.020646077457816964,
+   "consult:sec1:src": 0.022298114512222102,
+   "fix:sec2:s2.1": 0.13927642901012582,
+   "probe:sec1:tech": 0.053518791949870775,
+   "restructure:sec2:order": 0.08133377772570609,
+   "revise:sec2:s2.1": 0.04045684160158934,
+   "revise:sec2:s2.3": 0.025715933142824898,
+   "write:sec1:s1.1": 0.3748177111240235,
+   "write:sec2:s2.3": 0.08902685056510644
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.09003650800160448,
+   "check:sec3:s3.1": 0.06380066201214178,
+   "cite:sec3:ref": 0.020448835114925394,
+   "consult:sec1:src": 0.022084236436157857,
+   "fix:sec2:s2.1": 0.13795272530465655,
+   "probe:sec1:tech": 0.053844352034100366,
+   "restructure:sec2:order": 0.08583497972775432,
+   "revise:sec2:s2.1": 0.041431250622988205,
+   "revise:sec2:s2.3": 0.02512932377308049,
+   "write:sec1:s1.1": 0.3690079393818411,
+   "write:sec2:s2.3": 0.0904291875907494
+  },
+  "next_section": {
+   "sec1": 0.5349730358537038,
+   "sec2": 0.380777467019229,
+   "sec3": 0.08424949712706717
+  },
+  "next_type": {
+   "check": 0.15383717001374625,
+   "cite": 0.020448835114925394,
+   "consult": 0.022084236436157857,
+   "fix": 0.13795272530465655,
+   "probe": 0.053844352034100366,
+   "restructure": 0.08583497972775432,
+   "revise": 0.06656057439606869,
+   "write": 0.45943712697259054
+  },
+  "stop": 0.07947189064811308
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "ebc1669debc3ad4c",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 378,
+  "tokens_out": 0,
+  "wall_s": 4.268
+ },
+ "confidence": 0.5255119513338948,
+ "equivalence_class": [],
+ "evidence_sha": "ed2d2a7bdb5cc49c",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the archive index\naudience: editor\ntools: library=yes source=no\ndeadline: loose\nsections: sec1(2) sec2(2) sec3(3)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec2:s2.1": -2.173502206802368,
+   "check:sec3:s3.1": -0.907878041267395,
+   "consult:sec1:src": -7.097072124481201,
+   "probe:sec1:tech": -1.8158087730407715,
+   "restructure:sec2:order": -2.4429805278778076
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -1.9093947410583496
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.13195578146402856,
+   "check:sec3:s3.1": 0.5301135147042445,
+   "consult:sec1:src": 0.0014940211190131592,
+   "probe:sec1:tech": 0.22171560999763687,
+   "restructure:sec2:order": 0.11472107271507695
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.14822757583429153,
+   "check:sec3:s3.1": 0.5255119513338948,
+   "consult:sec1:src": 0.0010780769473067986,
+   "probe:sec1:tech": 0.2119694585966868,
+   "restructure:sec2:order": 0.11321293728782002
+  },
+  "next_section": {
+   "sec1": 0.2130475355439936,
+   "sec2": 0.26144051312211153,
+   "sec3": 0.5255119513338948
+  },
+  "next_type": {
+   "check": 0.6737395271681864,
+   "cite": 0.0,
+   "consult": 0.0010780769473067988,
+   "fix": 0.0,
+   "probe": 0.21196945859668684,
+   "restructure": 0.11321293728782003,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.16179955040922175
+ },
+ "version": "PredictionV1"
+}

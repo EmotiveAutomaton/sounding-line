@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "9a492a04dfba46ef",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1818,
+  "tokens_out": 0,
+  "wall_s": 4.384
+ },
+ "confidence": 0.5796289630308307,
+ "equivalence_class": [],
+ "evidence_sha": "595d926e6cf9c761",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the survey method\naudience: editor\ntools: library=yes source=yes\ndeadline: loose\nsections: sec1(3) sec2(2) sec3(2)\nmaker: The document is meant to teach a novice how something works.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec1:s1.1": -1.5003440380096436,
+   "check:sec2:s2.1": -3.0472183227539062,
+   "cite:sec3:ref": -3.2761683464050293,
+   "fix:sec2:s2.1": -0.7135704159736633,
+   "restructure:sec2:order": -3.058181047439575
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -2.432316541671753
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.1897534715895279,
+   "check:sec2:s2.1": 0.04103709064986435,
+   "cite:sec3:ref": 0.04615847403231878,
+   "fix:sec2:s2.1": 0.6783304140798936,
+   "restructure:sec2:order": 0.04472054964839533
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.2639116948227889,
+   "check:sec2:s2.1": 0.056190082487896593,
+   "cite:sec3:ref": 0.0446918093802756,
+   "fix:sec2:s2.1": 0.5796289630308307,
+   "restructure:sec2:order": 0.055577450278208276
+  },
+  "next_section": {
+   "sec1": 0.2639116948227889,
+   "sec2": 0.6913964957969355,
+   "sec3": 0.0446918093802756
+  },
+  "next_type": {
+   "check": 0.3201017773106855,
+   "cite": 0.0446918093802756,
+   "consult": 0.0,
+   "fix": 0.5796289630308307,
+   "probe": 0.0,
+   "restructure": 0.055577450278208276,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.09413901999231762
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,95 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "8db34a94907a5cb7",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 375,
+  "tokens_out": 0,
+  "wall_s": 3.393
+ },
+ "confidence": 0.4285820103221146,
+ "equivalence_class": [
+  "document"
+ ],
+ "evidence_sha": "ea79e4d44a3a7a5c",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.4285820103221146,
+   "equivalence_class": [
+    "document"
+   ],
+   "purpose": {
+    "document": 0.4285820103221146,
+    "explore": 0.1993091444570992,
+    "persuade": 0.19621914258061038,
+    "teach": 0.17588970264017573
+   },
+   "raw": {
+    "document": 0.26079335529852915,
+    "explore": 0.12128017339220568,
+    "persuade": 0.11939989858402461,
+    "teach": 0.10702937736354416,
+    "unknown": 0.3914971953616963
+   },
+   "unknown": 0.3914971953616963,
+   "weights": "base"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.2,
+   "check:sec3:s3.1": 0.2,
+   "consult:sec1:src": 0.2,
+   "probe:sec1:tech": 0.2,
+   "restructure:sec2:order": 0.2
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.2,
+   "check:sec3:s3.1": 0.2,
+   "consult:sec1:src": 0.2,
+   "probe:sec1:tech": 0.2,
+   "restructure:sec2:order": 0.2
+  },
+  "next_section": {
+   "sec1": 0.4,
+   "sec2": 0.4,
+   "sec3": 0.2
+  },
+  "next_type": {
+   "check": 0.4,
+   "cite": 0.0,
+   "consult": 0.2,
+   "fix": 0.0,
+   "probe": 0.2,
+   "restructure": 0.2,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.4285820103221146,
+   "explore": 0.1993091444570992,
+   "persuade": 0.19621914258061038,
+   "teach": 0.17588970264017573
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

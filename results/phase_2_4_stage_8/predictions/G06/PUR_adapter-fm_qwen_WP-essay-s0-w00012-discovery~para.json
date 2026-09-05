@@ -1,0 +1,106 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "74b58906bbbd3f80",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 349,
+  "tokens_out": 0,
+  "wall_s": 3.525
+ },
+ "confidence": 0.5631252163585956,
+ "equivalence_class": [
+  "teach"
+ ],
+ "evidence_sha": "f77a6c7c10771353",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.5631252163585956,
+   "equivalence_class": [
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.22052300324961585,
+    "explore": 0.1976755425427401,
+    "persuade": 0.018676237849048448,
+    "teach": 0.5631252163585956
+   },
+   "raw": {
+    "document": 0.20535431122730163,
+    "explore": 0.18407841489170482,
+    "persuade": 0.01739159136821381,
+    "teach": 0.5243906043178108,
+    "unknown": 0.06878507819496889
+   },
+   "unknown": 0.06878507819496889,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:partb:u2-1": 0.1,
+   "cite:partd:ref": 0.1,
+   "consult:parta:src": 0.1,
+   "probe:parta:tech": 0.1,
+   "restructure:partc:order": 0.1,
+   "revise:partb:u2-1": 0.1,
+   "revise:partb:u2-2": 0.1,
+   "revise:partd:u4-1": 0.1,
+   "write:partd:u4-2": 0.1,
+   "write:partd:u4-3": 0.1
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:partb:u2-1": 0.1,
+   "cite:partd:ref": 0.1,
+   "consult:parta:src": 0.1,
+   "probe:parta:tech": 0.1,
+   "restructure:partc:order": 0.1,
+   "revise:partb:u2-1": 0.1,
+   "revise:partb:u2-2": 0.1,
+   "revise:partd:u4-1": 0.1,
+   "write:partd:u4-2": 0.1,
+   "write:partd:u4-3": 0.1
+  },
+  "next_section": {
+   "parta": 0.2,
+   "partb": 0.30000000000000004,
+   "partc": 0.1,
+   "partd": 0.4
+  },
+  "next_type": {
+   "check": 0.1,
+   "cite": 0.1,
+   "consult": 0.1,
+   "fix": 0.0,
+   "probe": 0.1,
+   "restructure": 0.1,
+   "revise": 0.30000000000000004,
+   "write": 0.2
+  },
+  "purpose": {
+   "document": 0.22052300324961585,
+   "explore": 0.1976755425427401,
+   "persuade": 0.018676237849048448,
+   "teach": 0.5631252163585956
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

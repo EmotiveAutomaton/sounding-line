@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "5c1d56b2f59700ae",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 234,
+  "tokens_out": 0,
+  "wall_s": 4.245
+ },
+ "confidence": 0.11880292490829603,
+ "equivalence_class": [],
+ "evidence_sha": "5d6f263dc5b6da2a",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the order ledger\naudience: editor\ntools: library=yes source=yes\ndeadline: loose\nsections: sec1(2) sec2(3) sec3(3) sec4(3)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -3.593008518218994,
+   "check:sec2:s2.1": -4.311792373657227,
+   "check:sec3:s3.1": -3.817026376724243,
+   "check:sec4:s4.1": -3.7702388763427734,
+   "cite:sec4:ref": -3.4641377925872803,
+   "consult:sec1:src": -3.5101826190948486,
+   "fix:sec2:s2.1": -3.8225111961364746,
+   "probe:sec1:tech": -4.8071441650390625,
+   "restructure:sec3:order": -4.778904438018799,
+   "revise:sec3:s3.2": -4.333741188049316,
+   "revise:sec4:s4.1": -3.8836255073547363,
+   "write:sec1:s1.2": -2.29119610786438,
+   "write:sec2:s2.1": -2.5998692512512207,
+   "write:sec2:s2.2": -2.7092442512512207,
+   "write:sec2:s2.3": -2.7092442512512207,
+   "write:sec3:s3.1": -2.5704355239868164,
+   "write:sec3:s3.3": -2.5548105239868164,
+   "write:sec4:s4.1": -2.550642490386963,
+   "write:sec4:s4.2": -2.394392251968384
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.713045358657837
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.030840993477579973,
+   "check:sec2:s2.1": 0.0159998982739184,
+   "check:sec3:s3.1": 0.024145829337310642,
+   "check:sec4:s4.1": 0.022681631233568793,
+   "cite:sec4:ref": 0.044370198545564024,
+   "consult:sec1:src": 0.04042728482955658,
+   "fix:sec2:s2.1": 0.03249301204860293,
+   "probe:sec1:tech": 0.008465786231389365,
+   "restructure:sec3:order": 0.010530015102992205,
+   "revise:sec3:s3.2": 0.016558528532725804,
+   "revise:sec4:s4.1": 0.024251293558090404,
+   "write:sec1:s1.2": 0.12175816629686964,
+   "write:sec2:s2.1": 0.08579812160039503,
+   "write:sec2:s2.2": 0.07935029093830495,
+   "write:sec2:s2.3": 0.07690893914277225,
+   "write:sec3:s3.1": 0.09137692858654523,
+   "write:sec3:s3.3": 0.09137692858654523,
+   "write:sec4:s4.1": 0.08563218064577251,
+   "write:sec4:s4.2": 0.09703397303149613
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.0323189458376316,
+   "check:sec2:s2.1": 0.015750462993823634,
+   "check:sec3:s3.1": 0.025832561199833584,
+   "check:sec4:s4.1": 0.027069922984905598,
+   "cite:sec4:ref": 0.036764192527943745,
+   "consult:sec1:src": 0.03510977268647796,
+   "fix:sec2:s2.1": 0.025691262120890353,
+   "probe:sec1:tech": 0.009597647054004019,
+   "restructure:sec3:order": 0.009872545243131088,
+   "revise:sec3:s3.2": 0.015408525295793118,
+   "revise:sec4:s4.1": 0.02416817361123264,
+   "write:sec1:s1.2": 0.11880292490829603,
+   "write:sec2:s2.1": 0.08725133690676884,
+   "write:sec2:s2.2": 0.07821159292439928,
+   "write:sec2:s2.3": 0.07821159292439928,
+   "write:sec3:s3.1": 0.08985763736914759,
+   "write:sec3:s3.3": 0.091272689256725,
+   "write:sec4:s4.1": 0.0916539108125252,
+   "write:sec4:s4.2": 0.10715430334207152
+  },
+  "next_section": {
+   "sec1": 0.1958292904864096,
+   "sec2": 0.2851162478702814,
+   "sec3": 0.23224395836463035,
+   "sec4": 0.28681050327867863
+  },
+  "next_type": {
+   "check": 0.10097189301619441,
+   "cite": 0.036764192527943745,
+   "consult": 0.03510977268647796,
+   "fix": 0.025691262120890353,
+   "probe": 0.009597647054004019,
+   "restructure": 0.009872545243131088,
+   "revise": 0.039576698907025754,
+   "write": 0.7424159884443328
+  },
+  "stop": 0.027864587172882288
+ },
+ "version": "PredictionV1"
+}

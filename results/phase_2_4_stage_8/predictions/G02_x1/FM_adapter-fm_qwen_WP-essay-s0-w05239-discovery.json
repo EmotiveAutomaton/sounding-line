@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "6a31f4cbc2ba6a05",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 218,
+  "tokens_out": 0,
+  "wall_s": 5.112
+ },
+ "confidence": 0.22298873904009744,
+ "equivalence_class": [],
+ "evidence_sha": "246e9baa8b102ec1",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the flood notice\naudience: peer\ntools: library=yes source=yes\ndeadline: loose\nsections: sec1(3) sec2(3) sec3(3) sec4(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -3.7395808696746826,
+   "check:sec2:s2.1": -4.250141143798828,
+   "check:sec3:s3.1": -3.968902111053467,
+   "check:sec4:s4.1": -4.000158786773682,
+   "consult:sec1:src": -4.611944198608398,
+   "fix:sec2:s2.1": -3.6742846965789795,
+   "probe:sec1:tech": -5.440284729003906,
+   "restructure:sec3:order": -6.159409523010254,
+   "revise:sec1:s1.1": -4.206427097320557,
+   "revise:sec1:s1.3": -4.190802097320557,
+   "revise:sec2:s2.3": -4.467337608337402,
+   "revise:sec3:s3.1": -4.722133159637451,
+   "revise:sec3:s3.3": -4.675258159637451,
+   "write:sec1:s1.1": -1.6228151321411133,
+   "write:sec2:s2.1": -2.0586750507354736,
+   "write:sec2:s2.3": -2.0118000507354736,
+   "write:sec3:s3.2": -2.20859956741333,
+   "write:sec3:s3.3": -2.08359956741333,
+   "write:sec4:s4.1": -4.184909820556641
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.189885139465332
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.028809706612322246,
+   "check:sec2:s2.1": 0.016653858557165207,
+   "check:sec3:s3.1": 0.021720596856914614,
+   "check:sec4:s4.1": 0.021052254076787732,
+   "consult:sec1:src": 0.008075914377210804,
+   "fix:sec2:s2.1": 0.025271005874477854,
+   "probe:sec1:tech": 0.004975153687000282,
+   "restructure:sec3:order": 0.0025361706281642766,
+   "revise:sec1:s1.1": 0.018614990532509198,
+   "revise:sec1:s1.3": 0.018614990532509198,
+   "revise:sec2:s2.3": 0.01375649147245954,
+   "revise:sec3:s3.1": 0.010277605820449745,
+   "revise:sec3:s3.3": 0.01060385205012343,
+   "write:sec1:s1.1": 0.23315322967945903,
+   "write:sec2:s2.1": 0.138412264236882,
+   "write:sec2:s2.3": 0.1428059411434268,
+   "write:sec3:s3.2": 0.11817922511074047,
+   "write:sec3:s3.3": 0.1339146061188718,
+   "write:sec4:s4.1": 0.03257214263252582
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.026852408932140186,
+   "check:sec2:s2.1": 0.016115721092796895,
+   "check:sec3:s3.1": 0.021349627531577067,
+   "check:sec4:s4.1": 0.02069263040862344,
+   "consult:sec1:src": 0.011223302599790841,
+   "fix:sec2:s2.1": 0.028664278849521354,
+   "probe:sec1:tech": 0.004902041131081607,
+   "restructure:sec3:order": 0.002388168804629611,
+   "revise:sec1:s1.1": 0.01683582922522451,
+   "revise:sec1:s1.3": 0.017100954957678553,
+   "revise:sec2:s2.3": 0.012969478591609518,
+   "revise:sec3:s3.1": 0.010052317903842735,
+   "revise:sec3:s3.3": 0.010534738712637885,
+   "write:sec1:s1.1": 0.22298873904009744,
+   "write:sec2:s2.1": 0.1442086708858192,
+   "write:sec2:s2.3": 0.15112938950111646,
+   "write:sec3:s3.2": 0.12413092276188796,
+   "write:sec3:s3.3": 0.14065876310539102,
+   "write:sec4:s4.1": 0.01720201596453371
+  },
+  "next_section": {
+   "sec1": 0.2999032758860131,
+   "sec2": 0.3530875389208634,
+   "sec3": 0.30911453881996626,
+   "sec4": 0.03789464637315715
+  },
+  "next_type": {
+   "check": 0.08501038796513759,
+   "cite": 0.0,
+   "consult": 0.011223302599790841,
+   "fix": 0.028664278849521354,
+   "probe": 0.004902041131081607,
+   "restructure": 0.002388168804629611,
+   "revise": 0.06749331939099319,
+   "write": 0.8003185012588458
+  },
+  "stop": 0.04445926519187531
+ },
+ "version": "PredictionV1"
+}

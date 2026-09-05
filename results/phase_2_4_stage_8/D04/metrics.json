@@ -1,0 +1,52 @@
+{
+ "card": "D04",
+ "lane": "discovery",
+ "written_at": "2026-09-04T18:58:58",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "per_reader": {
+  "adapter:fm_qwen": {
+   "tail_alignment_gain": {
+    "point": -0.026777098844153278,
+    "lo": -0.039510710243809456,
+    "hi": -0.0150675645973056,
+    "n_units": 67,
+    "n_boot": 2000
+   },
+   "residue_alignment_gain": {
+    "point": -0.007912819889860704,
+    "lo": -0.02442106421323108,
+    "hi": 0.006281133332453863,
+    "n_units": 49,
+    "n_boot": 2000
+   },
+   "mean_residue_auroc_with_purpose": 0.26277079399011066,
+   "mean_residue_auroc_without": 0.27068361387997136
+  },
+  "adapter:fm_smollm": {
+   "tail_alignment_gain": {
+    "point": -0.0294244995837748,
+    "lo": -0.04468052055738623,
+    "hi": -0.013521192726924898,
+    "n_units": 67,
+    "n_boot": 2000
+   },
+   "residue_alignment_gain": {
+    "point": 0.007831220239525667,
+    "lo": -0.01594191095241516,
+    "hi": 0.028607016661172536,
+    "n_units": 49,
+    "n_boot": 2000
+   },
+   "mean_residue_auroc_with_purpose": 0.2779128188933822,
+   "mean_residue_auroc_without": 0.2700815986538565
+  }
+ },
+ "degenerate": 28
+}

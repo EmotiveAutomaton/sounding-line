@@ -1,0 +1,97 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "85152ad96421f196",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1434,
+  "tokens_out": 0,
+  "wall_s": 4.829
+ },
+ "confidence": 0.24159981457674626,
+ "equivalence_class": [],
+ "evidence_sha": "9f306da0682f3a04",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the survey method\naudience: self\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(3) sec2(2) sec3(3)\nmaker: The document is meant to teach a novice how something works.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec2:s2.1": -3.976639986038208,
+   "check:sec3:s3.1": -3.007894277572632,
+   "cite:sec3:ref": -3.3581182956695557,
+   "consult:sec1:src": -2.7800400257110596,
+   "fix:sec2:s2.1": -3.1548635959625244,
+   "probe:sec1:tech": -4.639380931854248,
+   "restructure:sec2:order": -6.0933003425598145,
+   "revise:sec1:s1.3": -3.548607349395752,
+   "revise:sec2:s2.2": -2.886007785797119,
+   "write:sec1:s1.2": -1.6259899139404297,
+   "write:sec3:s3.1": -1.9028929471969604,
+   "write:sec3:s3.3": -1.5747679471969604
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.6548585891723633
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.0212312260320075,
+   "check:sec3:s3.1": 0.055936563592711104,
+   "cite:sec3:ref": 0.040660345174849934,
+   "consult:sec1:src": 0.07135716404306568,
+   "fix:sec2:s2.1": 0.04982390476129547,
+   "probe:sec1:tech": 0.011290754714465681,
+   "restructure:sec2:order": 0.002439693896620959,
+   "revise:sec1:s1.3": 0.034444209794662776,
+   "revise:sec2:s2.2": 0.06681530203268472,
+   "write:sec1:s1.2": 0.22523135989609927,
+   "write:sec3:s3.1": 0.17617487917817712,
+   "write:sec3:s3.3": 0.24459459688335983
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.021876448774428802,
+   "check:sec3:s3.1": 0.0576365184804368,
+   "cite:sec3:ref": 0.04060667045799707,
+   "consult:sec1:src": 0.07238583420283706,
+   "fix:sec2:s2.1": 0.04975878593965485,
+   "probe:sec1:tech": 0.011275922654469854,
+   "restructure:sec2:order": 0.002634649887686558,
+   "revise:sec1:s1.3": 0.0335636385973264,
+   "revise:sec2:s2.2": 0.06510770248645743,
+   "write:sec1:s1.2": 0.22953619554008417,
+   "write:sec3:s3.1": 0.17401781840187477,
+   "write:sec3:s3.3": 0.24159981457674629
+  },
+  "next_section": {
+   "sec1": 0.3467615909947175,
+   "sec2": 0.13937758708822762,
+   "sec3": 0.5138608219170548
+  },
+  "next_type": {
+   "check": 0.0795129672548656,
+   "cite": 0.04060667045799707,
+   "consult": 0.07238583420283706,
+   "fix": 0.04975878593965485,
+   "probe": 0.011275922654469854,
+   "restructure": 0.002634649887686558,
+   "revise": 0.09867134108378382,
+   "write": 0.6451538285187053
+  },
+  "stop": 0.029296209619254707
+ },
+ "version": "PredictionV1"
+}

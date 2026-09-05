@@ -1,0 +1,99 @@
+{
+ "abstain": true,
+ "arm": "PUR",
+ "canonical_sha": "1cf4ecc9be68807e",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 382,
+  "tokens_out": 0,
+  "wall_s": 3.109
+ },
+ "confidence": 0.32153811348479333,
+ "equivalence_class": [
+  "document",
+  "explore",
+  "persuade",
+  "teach"
+ ],
+ "evidence_sha": "5c9a127acac49b86",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": true,
+   "confidence": 0.32153811348479333,
+   "equivalence_class": [
+    "document",
+    "explore",
+    "persuade",
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.32153811348479333,
+    "explore": 0.31164542574028803,
+    "persuade": 0.1919991998943953,
+    "teach": 0.17481726088052327
+   },
+   "raw": {
+    "document": 0.17780777793456115,
+    "explore": 0.17233720772256622,
+    "persuade": 0.1061738862881355,
+    "teach": 0.0966724235733329,
+    "unknown": 0.4470087044814041
+   },
+   "unknown": 0.4470087044814041,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.25,
+   "check:sec3:s3.1": 0.25,
+   "cite:sec3:ref": 0.25,
+   "consult:sec1:src": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.25,
+   "check:sec3:s3.1": 0.25,
+   "cite:sec3:ref": 0.25,
+   "consult:sec1:src": 0.25
+  },
+  "next_section": {
+   "sec1": 0.5,
+   "sec2": 0.0,
+   "sec3": 0.5
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.25,
+   "consult": 0.25,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.3215381134847934,
+   "explore": 0.3116454257402881,
+   "persuade": 0.19199919989439532,
+   "teach": 0.1748172608805233
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

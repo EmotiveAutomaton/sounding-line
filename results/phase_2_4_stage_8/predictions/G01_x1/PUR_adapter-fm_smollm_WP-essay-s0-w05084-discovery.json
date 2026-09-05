@@ -1,0 +1,97 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "d97f005d422bfcf2",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 385,
+  "tokens_out": 0,
+  "wall_s": 3.052
+ },
+ "confidence": 0.48787256109153704,
+ "equivalence_class": [
+  "document"
+ ],
+ "evidence_sha": "d0f4284ed4e7a20f",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.48787256109153704,
+   "equivalence_class": [
+    "document"
+   ],
+   "purpose": {
+    "document": 0.48787256109153704,
+    "explore": 0.20022249564837505,
+    "persuade": 0.15838903071480473,
+    "teach": 0.15351591254528318
+   },
+   "raw": {
+    "document": 0.3394306611545111,
+    "explore": 0.13930206266136552,
+    "persuade": 0.110197001640888,
+    "teach": 0.10680659632999286,
+    "unknown": 0.30426367821324257
+   },
+   "unknown": 0.30426367821324257,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.16666666666666666,
+   "check:sec2:s2.1": 0.16666666666666666,
+   "check:sec3:s3.1": 0.16666666666666666,
+   "consult:sec1:src": 0.16666666666666666,
+   "probe:sec1:tech": 0.16666666666666666,
+   "restructure:sec2:order": 0.16666666666666666
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.16666666666666666,
+   "check:sec2:s2.1": 0.16666666666666666,
+   "check:sec3:s3.1": 0.16666666666666666,
+   "consult:sec1:src": 0.16666666666666666,
+   "probe:sec1:tech": 0.16666666666666666,
+   "restructure:sec2:order": 0.16666666666666666
+  },
+  "next_section": {
+   "sec1": 0.5,
+   "sec2": 0.3333333333333333,
+   "sec3": 0.16666666666666666
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.0,
+   "consult": 0.16666666666666666,
+   "fix": 0.0,
+   "probe": 0.16666666666666666,
+   "restructure": 0.16666666666666666,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.48787256109153704,
+   "explore": 0.20022249564837505,
+   "persuade": 0.15838903071480473,
+   "teach": 0.15351591254528318
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

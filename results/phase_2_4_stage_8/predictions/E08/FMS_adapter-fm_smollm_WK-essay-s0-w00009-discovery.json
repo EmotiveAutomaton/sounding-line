@@ -1,0 +1,110 @@
+{
+ "abstain": false,
+ "arm": "FMS",
+ "canonical_sha": "16e4130937d4145c",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 934,
+  "tokens_out": 0,
+  "wall_s": 24.039
+ },
+ "confidence": 0.26970726101240744,
+ "equivalence_class": [],
+ "evidence_sha": "72bce4aa74e22254",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the archive index\naudience: editor\ntools: library=no source=yes\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(3) sec4(2)\nmaker: The brief requires sec1, sec3, sec4; the audience is editor; the library is unavailable and source access is available; the deadline is tight.\nmaker: The maker believes the library is unavailable and source access is available, believes the deadline is tight, and believes sec2 is already checked.\nmaker: The maker is strongest at write and revise, weakest at restructure and probe; of the skilled moves, the maker can carry out fix; no fixed sequence habits; choices are erratic and an episode usually runs about 10 moves.\nmaker: As the maker sees it, the library is not usable, source access is usable, the deadline feels tight, the audience matters a lot, and sec2 is taken as already checked.\nmaker: The moves the maker sees as open right now: write:sec2:s2.2, write:sec3:s3.2, write:sec4:s4.1, revise:sec3:s3.2, revise:sec1:s1.1, revise:sec3:s3.3, revise:sec2:s2.2, revise:sec2:s2.1, check:sec3:s3.1, check:sec4:s4.1, consult:sec1:src, fix:sec2:s2.1.\nmaker: Right now the maker is pulled most strongly toward draftsing work, then toward repairsing, and least toward checksing.\nmaker: The maker carries a standing habit of write and no held intention.\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec2:s2.1": -3.3062658309936523,
+   "check:sec3:s3.1": -2.5714125633239746,
+   "check:sec4:s4.1": -3.04018235206604,
+   "cite:sec4:ref": -5.004123687744141,
+   "consult:sec1:src": -2.968245267868042,
+   "fix:sec2:s2.1": -2.249615430831909,
+   "probe:sec1:tech": -3.705047845840454,
+   "restructure:sec3:order": -3.7575602531433105,
+   "revise:sec1:s1.1": -3.3388664722442627,
+   "revise:sec2:s2.1": -4.041698932647705,
+   "revise:sec2:s2.2": -3.979198932647705,
+   "revise:sec3:s3.2": -3.708942413330078,
+   "revise:sec3:s3.3": -3.927692413330078,
+   "write:sec2:s2.2": -2.4366683959960938,
+   "write:sec3:s3.2": -6.483543395996094,
+   "write:sec4:s4.1": -1.5454885959625244
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.640181541442871
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.044416385027688125,
+   "check:sec3:s3.1": 0.09557114699216146,
+   "check:sec4:s4.1": 0.0607470370531177,
+   "cite:sec4:ref": 0.00865201375451743,
+   "consult:sec1:src": 0.06615324411165353,
+   "fix:sec2:s2.1": 0.13380484239311338,
+   "probe:sec1:tech": 0.030789482184241636,
+   "restructure:sec3:order": 0.02792091330215816,
+   "revise:sec1:s1.1": 0.045329084851949815,
+   "revise:sec2:s2.1": 0.022480805247481764,
+   "revise:sec2:s2.2": 0.023930692617955877,
+   "revise:sec3:s3.2": 0.031550647784508966,
+   "revise:sec3:s3.3": 0.025750888227162202,
+   "write:sec2:s2.2": 0.10834831103539508,
+   "write:sec3:s3.2": 0.0020157188907973,
+   "write:sec4:s4.1": 0.27253878652609753
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.04636569794003012,
+   "check:sec3:s3.1": 0.09668064090728669,
+   "check:sec4:s4.1": 0.060500001887325405,
+   "cite:sec4:ref": 0.008488413029698895,
+   "consult:sec1:src": 0.06501255989806337,
+   "fix:sec2:s2.1": 0.13338108308497332,
+   "probe:sec1:tech": 0.0311177346444113,
+   "restructure:sec3:order": 0.029525830640621992,
+   "revise:sec1:s1.1": 0.04487851965041585,
+   "revise:sec2:s2.1": 0.022222978378170666,
+   "revise:sec2:s2.2": 0.023656237344214074,
+   "revise:sec3:s3.2": 0.030996780212197036,
+   "revise:sec3:s3.3": 0.024906612612178712,
+   "write:sec2:s2.2": 0.11062624442476007,
+   "write:sec3:s3.2": 0.0019334043332450202,
+   "write:sec4:s4.1": 0.26970726101240744
+  },
+  "next_section": {
+   "sec1": 0.14100881419289052,
+   "sec2": 0.33625224117214825,
+   "sec3": 0.18404326870552945,
+   "sec4": 0.3386956759294317
+  },
+  "next_type": {
+   "check": 0.20354634073464223,
+   "cite": 0.008488413029698895,
+   "consult": 0.06501255989806337,
+   "fix": 0.13338108308497332,
+   "probe": 0.0311177346444113,
+   "restructure": 0.029525830640621992,
+   "revise": 0.14666112819717633,
+   "write": 0.38226690977041256
+  },
+  "stop": 0.08278378109912463
+ },
+ "version": "PredictionV1"
+}

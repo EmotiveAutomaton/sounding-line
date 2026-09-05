@@ -1,0 +1,83 @@
+{
+ "abstain": false,
+ "arm": "SOL",
+ "canonical_sha": "6f384350be87647c",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 0,
+  "model_calls": 0,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "wall_s": 0.002
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "3084885f13dd7575",
+ "notes": {
+  "subjective_ids": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.3",
+   "write:sec3:s3.1",
+   "write:sec4:s4.1",
+   "revise:sec1:s1.3",
+   "fix:sec2:s2.1"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 1.0,
+   "equivalent": 0.0,
+   "fatigue": 0.0,
+   "satisfaction": 0.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.0,
+   "cite:sec4:ref": 0.0,
+   "fix:sec2:s2.1": 0.20430230259838156,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec3:order": 0.0,
+   "revise:sec1:s1.3": 0.21410697481438318,
+   "write:sec1:s1.1": 0.16674667964649117,
+   "write:sec1:s1.3": 0.16674667964649117,
+   "write:sec3:s3.1": 0.11618988267578252,
+   "write:sec4:s4.1": 0.13190748061847035
+  },
+  "invalidation": {
+   "correct": 0.3543453586335451,
+   "retain": 0.44375474199394155,
+   "rewrite": 0.20189989937251332
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.0,
+   "cite:sec4:ref": 0.0,
+   "fix:sec2:s2.1": 0.20430230259838156,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec3:order": 0.0,
+   "revise:sec1:s1.3": 0.21410697481438318,
+   "write:sec1:s1.1": 0.16674667964649117,
+   "write:sec1:s1.3": 0.16674667964649117,
+   "write:sec3:s3.1": 0.11618988267578252,
+   "write:sec4:s4.1": 0.13190748061847035
+  },
+  "next_section": {
+   "sec1": 0.5476003341073655,
+   "sec2": 0.20430230259838156,
+   "sec3": 0.11618988267578252,
+   "sec4": 0.13190748061847035
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.20430230259838156,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.21410697481438318,
+   "write": 0.5815907225872352
+  },
+  "stop": 0.07371954529173431
+ },
+ "version": "PredictionV1"
+}

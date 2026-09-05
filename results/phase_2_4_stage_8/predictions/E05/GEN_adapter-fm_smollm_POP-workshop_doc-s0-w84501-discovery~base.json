@@ -1,0 +1,72 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "a0f56fef707e69d7",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 41,
+  "tokens_out": 336,
+  "wall_s": 20.44
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "060d044b553013e1",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "[\n]\n\n## Section sec1\n\n//\n\ntask_stats_desc_t bench_init_stats_desc;\n\n__FUNCTION__\nstruct benchmark_task_stats_desc\n{\n    uint32_t num_events;\n    uint32_t events[MAX_FLOWS];\n};\n\nconst struct benchmark_stats_descs_info *g_bench_init_stats_descs_info;\nuint64_t g_num_flows;\nint g_num_flows_by_start_time;\nint32_t g_time_since_seed;\nstruct task_stats_info_s *g_task_stats_info;\nstruct task_stats_desc g_active_stats;\nstruct benchmark_task_stats_desc g_stats;\nbool g_bench_initialized;\n\nvoid bench_init_stats_init(void *arg)\n{\n    g_bench_initialized = true;",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.2,
+   "fix:sec2:s2.1": 0.2,
+   "restructure:sec2:order": 0.2,
+   "revise:sec1:s1.4": 0.2,
+   "write:sec1:s1.3": 0.2
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.2,
+   "fix:sec2:s2.1": 0.2,
+   "restructure:sec2:order": 0.2,
+   "revise:sec1:s1.4": 0.2,
+   "write:sec1:s1.3": 0.2
+  },
+  "next_section": {
+   "sec1": 0.4,
+   "sec2": 0.6000000000000001
+  },
+  "next_type": {
+   "check": 0.2,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.2,
+   "probe": 0.0,
+   "restructure": 0.2,
+   "revise": 0.2,
+   "write": 0.2
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

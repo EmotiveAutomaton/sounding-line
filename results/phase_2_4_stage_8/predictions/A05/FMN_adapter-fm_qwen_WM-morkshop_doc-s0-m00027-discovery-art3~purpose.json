@@ -1,0 +1,100 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "644ee7b39719b413",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1402,
+  "tokens_out": 0,
+  "wall_s": 4.891
+ },
+ "confidence": 0.2893052769263279,
+ "equivalence_class": [],
+ "evidence_sha": "c6c200e671a4a8ca",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the finishing guide\naudience: editor\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(3) sec2(2) sec3(2)\nmaker: The document is meant to teach a novice how something works.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec1:s1.1": -3.3702340126037598,
+   "check:sec2:s2.1": -3.8389835357666016,
+   "check:sec3:s3.1": -3.7764832973480225,
+   "cite:sec3:ref": -3.6190571784973145,
+   "fix:sec2:s2.1": -3.596003293991089,
+   "probe:sec1:tech": -5.634941577911377,
+   "restructure:sec2:order": -6.416438102722168,
+   "revise:sec1:s1.1": -3.1301136016845703,
+   "revise:sec1:s1.3": -3.1769886016845703,
+   "revise:sec3:s3.1": -3.542029619216919,
+   "write:sec1:s1.1": -1.4532055854797363,
+   "write:sec2:s2.2": -1.7813013792037964,
+   "write:sec3:s3.2": -1.8750512599945068
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.5178709030151367
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.04161348266628493,
+   "check:sec2:s2.1": 0.02563733517065646,
+   "check:sec3:s3.1": 0.02729080773721858,
+   "cite:sec3:ref": 0.033182920010802995,
+   "fix:sec2:s2.1": 0.03515490148815499,
+   "probe:sec1:tech": 0.004420212807852406,
+   "restructure:sec2:order": 0.001991853953294911,
+   "revise:sec1:s1.1": 0.0546824834390026,
+   "revise:sec1:s1.3": 0.05217839020924603,
+   "revise:sec3:s3.1": 0.036116762390000355,
+   "write:sec1:s1.1": 0.2894335857466944,
+   "write:sec2:s2.2": 0.20847685757015771,
+   "write:sec3:s3.2": 0.18982040681063359
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.04254039201835741,
+   "check:sec2:s2.1": 0.026621109781330157,
+   "check:sec3:s3.1": 0.028338030608782167,
+   "cite:sec3:ref": 0.033169502658229995,
+   "fix:sec2:s2.1": 0.03394307115994182,
+   "probe:sec1:tech": 0.004418262236901038,
+   "restructure:sec2:order": 0.002022329237318331,
+   "revise:sec1:s1.1": 0.05408594935447867,
+   "revise:sec1:s1.3": 0.05160917340931547,
+   "revise:sec3:s3.1": 0.03582544583380679,
+   "write:sec1:s1.1": 0.28930527692632796,
+   "write:sec2:s2.2": 0.20838485998540646,
+   "write:sec3:s3.2": 0.1897365967898038
+  },
+  "next_section": {
+   "sec1": 0.44195905394538054,
+   "sec2": 0.27097137016399675,
+   "sec3": 0.28706957589062276
+  },
+  "next_type": {
+   "check": 0.09749953240846972,
+   "cite": 0.03316950265822999,
+   "consult": 0.0,
+   "fix": 0.033943071159941815,
+   "probe": 0.004418262236901037,
+   "restructure": 0.0020223292373183306,
+   "revise": 0.14152056859760093,
+   "write": 0.6874267337015382
+  },
+  "stop": 0.03540216986078936
+ },
+ "version": "PredictionV1"
+}

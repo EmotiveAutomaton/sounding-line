@@ -1,0 +1,105 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "2527da962dac19f2",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 338,
+  "tokens_out": 0,
+  "wall_s": 4.325
+ },
+ "confidence": 0.18733693336863372,
+ "equivalence_class": [],
+ "evidence_sha": "7760185dfb8cfb16",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the tool inventory\naudience: editor\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(2) sec4(2) sec5(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "consult:sec1:src": -2.4019241333007812,
+   "probe:sec1:tech": -4.2142462730407715,
+   "restructure:sec3:order": -5.7300190925598145,
+   "revise:sec1:s1.1": -3.7585482597351074,
+   "revise:sec2:s2.2": -3.8917324542999268,
+   "revise:sec3:s3.1": -4.306247711181641,
+   "revise:sec4:s4.1": -4.196877956390381,
+   "revise:sec4:s4.2": -4.071877956390381,
+   "write:sec2:s2.2": -1.8694798946380615,
+   "write:sec3:s3.1": -1.8538553714752197,
+   "write:sec4:s4.1": -2.3910093307495117,
+   "write:sec4:s4.2": -2.4222593307495117,
+   "write:sec5:s5.1": -2.5864169597625732,
+   "write:sec5:s5.2": -2.6332919597625732
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -2.901548385620117
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "consult:sec1:src": 0.10001342743536253,
+   "probe:sec1:tech": 0.01738017934715445,
+   "restructure:sec3:order": 0.003758114469121059,
+   "revise:sec1:s1.1": 0.027031407378959867,
+   "revise:sec2:s2.2": 0.02403338265742866,
+   "revise:sec3:s3.1": 0.015746212731048623,
+   "revise:sec4:s4.1": 0.01771302021957855,
+   "revise:sec4:s4.2": 0.02007148146095685,
+   "write:sec2:s2.2": 0.1833761009426537,
+   "write:sec3:s3.1": 0.18919701557833538,
+   "write:sec4:s4.1": 0.11230879489112777,
+   "write:sec4:s4.2": 0.10885341653246809,
+   "write:sec5:s5.1": 0.0923737747390586,
+   "write:sec5:s5.2": 0.08814367161674594
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "consult:sec1:src": 0.10829294583619242,
+   "probe:sec1:tech": 0.01768148199150853,
+   "restructure:sec3:order": 0.0038835320325956786,
+   "revise:sec1:s1.1": 0.027888541067968682,
+   "revise:sec2:s2.2": 0.024410947396887536,
+   "revise:sec3:s3.1": 0.016127347582629365,
+   "revise:sec4:s4.1": 0.01799126196061062,
+   "revise:sec4:s4.2": 0.02038677065938596,
+   "write:sec2:s2.2": 0.18443263136525034,
+   "write:sec3:s3.1": 0.18733693336863372,
+   "write:sec4:s4.1": 0.10948141611811844,
+   "write:sec4:s4.2": 0.1061130270592145,
+   "write:sec5:s5.1": 0.09004838977648784,
+   "write:sec5:s5.2": 0.0859247737845164
+  },
+  "next_section": {
+   "sec1": 0.15386296889566964,
+   "sec2": 0.20884357876213788,
+   "sec3": 0.20734781298385876,
+   "sec4": 0.2539724757973295,
+   "sec5": 0.17597316356100423
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.10829294583619242,
+   "fix": 0.0,
+   "probe": 0.01768148199150853,
+   "restructure": 0.0038835320325956786,
+   "revise": 0.10680486866748215,
+   "write": 0.7633371714722212
+  },
+  "stop": 0.06165637930832559
+ },
+ "version": "PredictionV1"
+}

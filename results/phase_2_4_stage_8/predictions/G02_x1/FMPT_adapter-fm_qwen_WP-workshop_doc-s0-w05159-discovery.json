@@ -1,0 +1,74 @@
+{
+ "abstain": false,
+ "arm": "FMPT",
+ "canonical_sha": "586e550167761292",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 550,
+  "tokens_out": 0,
+  "wall_s": 4.244
+ },
+ "confidence": 0.7555288912254658,
+ "equivalence_class": [],
+ "evidence_sha": "5b1bb2fabd29dbaf",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the bench layout\naudience: editor\ntools: library=no source=yes\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(3) sec4(2)\ngoal: document\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec4:ref": -7.298844337463379,
+   "probe:sec1:tech": -0.8455110788345337,
+   "restructure:sec3:order": -3.1270318031311035,
+   "revise:sec3:s3.3": -2.360220432281494
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -1.7671986818313599
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.0011783070870707466,
+   "probe:sec1:tech": 0.7717885185472061,
+   "restructure:sec3:order": 0.07176687225531643,
+   "revise:sec3:s3.3": 0.15526630211040682
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.0011901564434316444,
+   "probe:sec1:tech": 0.7555288912254658,
+   "restructure:sec3:order": 0.07716124304573142,
+   "revise:sec3:s3.3": 0.1661197092853711
+  },
+  "next_section": {
+   "sec1": 0.7555288912254658,
+   "sec2": 0.0,
+   "sec3": 0.24328095233110253,
+   "sec4": 0.0011901564434316444
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0011901564434316444,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.7555288912254658,
+   "restructure": 0.07716124304573142,
+   "revise": 0.1661197092853711,
+   "write": 0.0
+  },
+  "stop": 0.23111520107208855
+ },
+ "version": "PredictionV1"
+}

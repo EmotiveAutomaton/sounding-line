@@ -1,0 +1,77 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "858dc22458d2c404",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 46,
+  "tokens_out": 336,
+  "wall_s": 20.871
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "23ad259cff2d4857",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "- [2010-12-01T00:00:00Z] [CST/20100101 (1)] [HW-CMIS-29841] [Task: 1587996] [Task: INFO] START: 2010-12-01 00:00:00 -\n- [2010-12-01T00:00:01Z] [CST/20100101 (2)] [HW-CMIS-29841] [Task: 1587996] [Task: INFO] END: 2010-12-01 00:00:11 -\n\nThe output consists of several parts.\n\nFirst is a timestamp at the beginning of each log entry. This is a modified version of the \"Log\" output field in the RPT view in the CMIS Browse UI.\n\nNext is a section name that identifies which part of the log this is. If multiple sections are enabled for a log, the log entry can be identified by specifying the section name.\n\nFollowing that is a date-time field that consists of the year (in two digits), month (in two digits), and time (in 24-hour clock format, without a leading zero if the minute is zero).\n\nThe output then contains a [section] field followed by a comma-delim",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.14285714285714285,
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "revise:sec1:s1.3": 0.14285714285714285,
+   "revise:sec2:s2.1": 0.14285714285714285,
+   "revise:sec3:s3.3": 0.14285714285714285,
+   "write:sec3:s3.3": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.14285714285714285,
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "revise:sec1:s1.3": 0.14285714285714285,
+   "revise:sec2:s2.1": 0.14285714285714285,
+   "revise:sec3:s3.3": 0.14285714285714285,
+   "write:sec3:s3.3": 0.14285714285714285
+  },
+  "next_section": {
+   "sec1": 0.2857142857142857,
+   "sec2": 0.2857142857142857,
+   "sec3": 0.42857142857142855
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.14285714285714285,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.14285714285714285,
+   "restructure": 0.14285714285714285,
+   "revise": 0.42857142857142855,
+   "write": 0.14285714285714285
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

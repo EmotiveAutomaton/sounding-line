@@ -1,0 +1,74 @@
+{
+ "card": "D01",
+ "cell_id": "D01/x1",
+ "lane": "discovery",
+ "track": "difference",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 87.41,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "surprise AUROC for FM minus DOM's, per family and shape; the gate is non-inferiority",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "Does the admitted reader's surprise land on the maker's events at least as well as the standard process's surprise does?",
+ "reason": "adapter:fm_qwen: INFERIOR diff -0.195 reader 0.359 dom 0.554; adapter:fm_smollm: INFERIOR diff -0.164 reader 0.390 dom 0.554",
+ "point": -0.16406068902082652,
+ "ci": [
+  -0.19243544182265424,
+  -0.13600457814443928
+ ],
+ "n_units": 334,
+ "conditional_cells": {
+  "adapter:fm_qwen": {
+   "outcome": "INFERIOR",
+   "point": -0.19517958570266133
+  },
+  "adapter:fm_smollm": {
+   "outcome": "INFERIOR",
+   "point": -0.16406068902082652
+  },
+  "adapter:fm_qwen|essay": {
+   "outcome": "INFERIOR",
+   "point": -0.19810883126010906
+  },
+  "adapter:fm_qwen|free": {
+   "outcome": "INFERIOR",
+   "point": -0.16190614588861765
+  },
+  "adapter:fm_qwen|structured": {
+   "outcome": "INFERIOR",
+   "point": -0.21929336650880918
+  },
+  "adapter:fm_smollm|essay": {
+   "outcome": "INFERIOR",
+   "point": -0.18097946645469518
+  },
+  "adapter:fm_smollm|free": {
+   "outcome": "INFERIOR",
+   "point": -0.11755697725394694
+  },
+  "adapter:fm_smollm|structured": {
+   "outcome": "INFERIOR",
+   "point": -0.18608478977145892
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D01\\x1\\metrics.json",
+    "sha256": "ea829fe7c5a4f6208e033c3f5dc983d10d32840dfef8e942874ad057f56f0d0f"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D01\\x1\\cases.jsonl",
+    "sha256": "367eea067195b3ecad372ff839965ac20cc781e82f1a6a5ffa3acb04cd43568e"
+   }
+  },
+  "written_at": "2026-09-05T03:33:42"
+ }
+}

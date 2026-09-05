@@ -1,0 +1,51 @@
+{
+ "card": "D04",
+ "cell_id": "D04",
+ "lane": "discovery",
+ "track": "difference",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 27.03,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "FM with p supplied: alignment against D01; the residue should become the remaining surprise",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does supplying the true purpose sharpen surprise onto the residue?",
+ "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": -0.007912819889860704, \"adapter:fm_smollm\": 0.007831220239525667}",
+ "point": 0.007831220239525667,
+ "ci": [
+  -0.01594191095241516,
+  0.028607016661172536
+ ],
+ "n_units": 49,
+ "conditional_cells": {
+  "adapter:fm_qwen|residue": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.007912819889860704
+  },
+  "adapter:fm_smollm|residue": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.007831220239525667
+  }
+ },
+ "diagnosis_only": true,
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D04\\metrics.json",
+    "sha256": "ed8dd40bd17f7ff33b50bf22716a201491dc96e4f503bfea631bcee11cc73241"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D04\\cases.jsonl",
+    "sha256": "61617bc770a51a375f9d24c156ec0f433e2214366d644dd82faffdd68cb581e8"
+   }
+  },
+  "written_at": "2026-09-04T18:59:08"
+ }
+}

@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-03.**
+**Last updated: 2026-09-05.**
 
 ---
 
@@ -15808,6 +15808,681 @@ list of constructions this one could not ask.
 > yes, after his read of the packet) and whether the packet is regenerated with the B05 and
 > X24 addendum cells (recommended: no; the packet stands and the addendum is the record).
 > Detail: results/phase_2_4_stage_7/CURATOR_PACKET_FINAL.md; B05/rerun; X24/rerun.
+
+## L358 · STAGE 8 RECORD GATE APPLIED and the instrument built: the ten walkthrough errata of 2026-09-04 enter the four theory owners as lightly cleaned transcripts (five in the triple inference with two new open rows, one in the three layers, two in the reader heuristics, two in the decision traces), every changed table's afterword revisited, lint clean, locks intact; the clean-room constructor extended with the population corpus, the purpose family, the artful gradient, and the maker series; adapter training, the generative option readout, the frontier probe under a forty-dollar cap, and the testbed track built and guarded
+
+**Hypothesis.** None tested here: this entry records the record gate (brief §2) and the build
+(brief §13) that Stage 8's questions run on. The stage's working account, from the curator's two
+walkthroughs of the Stage 7 theory pass: the reader is the realizer; reading is running one's own
+forward model of the domain's standard process against the artifact and attending to where they
+differ; expertise is the largest part of the ability to recreate and never the whole; the maker's
+share is small by nature and lives in the divergences from the standard process, mostly the
+proximal goal (an artifact-level purpose, stable across the artifact) and the record of earlier
+purposes that diverged; prediction tests expertise first and the maker is in the residue.
+
+**Method.** Exact-string edits to the four owners with the new quotations marked as lightly
+cleaned transcripts of the 2026-09-04 walkthroughs, existing quotations byte-preserved
+(`tools/theory_lint.py` clean on all four; `tools/verify_locks.py` 21 of 21). Rows added: P-S8
+(prediction tests expertise first; the maker in the residue) and MS-S8 (the maker's share as
+divergence; the artful gradient as a construction variable), both OPEN. The child's-drawing
+tension and the three-inferences question are recorded OPEN and left to the curator. The build:
+`soundingline/stage8.py` on the Stage 7 records; `runners/stage8/` (cards, manifest, engines for
+the isolation and expertise trunks, the difference, purpose, and accumulation trunks, the attacks,
+the closure, the testbed cells, the scheduler with the re-lock, the reporter, the fresh-clone
+verifier); the constructor extended in `runners/stage8/constructor/` (population, purpose,
+gradient, series); the capsule reader package (the one log grammar, the forward-model readout,
+the Stage 8 worker over the Stage 7 capsule); the loopback server with frozen adapters under a
+registry hash; adapter training outside the capsule; the frontier probe; `run_stage8.sh`;
+22 guards in `tests/test_stage8_guards.py`.
+
+| decision taken in the build | what it is | reversible by |
+|---|---|---|
+| the population spans the purposes | the eight goal objects (the four Stage 7 goals and the four purposes) are sampled uniformly into the training corpus, so the expertise gate on maker-free purpose worlds tests expertise and not transfer | a word: retrain on the four goals only |
+| purposes as goal objects | a purpose is a utility table registered into the law's goal table at runtime; every inventory action of a purpose world belongs to it, so the goal holds across the artifact; pairs differ only on the two tool-gated types, so exact equivalence exists by construction while neither tool is perceived | a word: the file is untouched |
+| adapters served, not loaded in the capsule | the capsule imports no torch; the loopback server loads the frozen adapter under the registry's hash and stamps it on every response; interpreter-level, as ruled | none needed; recorded as the deviation from the brief's letter |
+| interrupts close the branch and the run continues | a theory-change interrupt writes its consequence, blocks the cells it names, and lets everything else run; the packet carries it for the ruling | a word: stop the engine at the interrupt instead |
+| the keystone auto-signs on mechanical checks | the audit's six items are checked by the machine and the lock signed by the checklist, countersigned by the agent at its next pass | a word: wait for the signature |
+| the frontier probe on Gemini | the one key present; the cheapest thinking-capable model that passes the pilot's calibration fixture; unit prices recorded before the first call; the cap enforced before every request | a word: skip FR |
+
+*Table: the decisions the build took inside the brief's degrees of freedom, each with what it
+is and how the curator reverses it.*
+
+**What we found.** Nothing measured yet; the errata are in and the instrument exists. What
+runs: the pilot (the smallest reader's adapter for one epoch to measure cost, one unit of every
+arm class, the frontier fixture), the workload lock, then the integrity block, the training, the
+gates, the trunks, the re-locked ladder, the freeze, and one packet.
+
+**What it means.** The theory now says what the instrument tests: a reader must hold the
+standard process before its surprise can be read as the maker's share, so Stage 8 installs the
+process by training and gates on it before any reading claim.
+
+> **Curator roll-up.** Theory group: the reading model (P-S8, MS-S8; the expertise row; the
+> proximal goal as purpose). Question: does the record carry the walkthrough's account, and does
+> an instrument exist that can test it? Class: **Infrastructure**. Result: ten errata applied and
+> lint clean; the Stage 8 instrument built and guarded. Project meaning: the reader-is-the-realizer
+> account is on record with its two open rows, and the first test of it can run. Next engineering
+> obligation: the pilot, the lock, the run. Public claim: unchanged. Decision: **No**. Detail:
+> docs/design/PHASE_2_4_STAGE_8_CONTEXT.md; runners/stage8/; results/phase_2_4_stage_8/.
+
+## L359 · THE READER CAN MAKE: both trained forward-model readers pass the expertise gate, predicting the next move on held-out population and maker-free purpose worlds at the frozen domain model's level (Qwen2.5-1.5B +0.19 nats [+0.003, +0.39] over the domain model, SmolLM2-1.7B +0.13 [−0.06, +0.31]; the band was −0.05); the integrity block passed whole (mutation identity 1.0 on every arm with the oracle differing on 39 of 45 pairs; 90 of 90 canaries caught, 0 purpose leaks; 1600 training roots and zero overlap with any test lineage; the keystone's six checks); the two adapters converged monotonically over three epochs
+
+**Hypothesis.** The first executive question of Stage 8 (brief §0): can the reader make? A reader
+that holds the domain's standard process in its weights should predict the next move of a
+population-sampled maker at the level of the frozen common-domain model, with nothing supplied,
+and an untrained reader should not. The gate is the precondition of every reading claim in the
+stage: a reader that cannot produce the standard process has nothing to be surprised by.
+
+**Method.** E01 refit the domain model on the population corpus (the eight goal objects, the
+three task shapes, both domains; the refit sits 0.12 nats from the Stage 7 fit on the shared K
+family; every factor level's corpus share within 0.04 of uniform; a per-topic majority selector
+recovers a held-out world's law at chance, 0.35 against 0.33) and wrote the tail thresholds
+before any reader ran. E02 trained a low-rank adapter (rank 16 on every attention and feed-forward
+projection) on each base reader over 1600 population logs (the goal line on half, one to three
+earlier artifacts by a fresh sampled maker on two in five) for three epochs, freezing the epoch
+with the best held-out next-move score under a registry hash. E03 scored the frozen readers'
+own generative distribution over the live option lines at the cut against the domain model on
+83 held-out units (39 population worlds, 44 maker-free purpose worlds), paired at the world with
+the cluster interval, per reader before pooling. The integrity block ran on the trained reader:
+I04 (the three hidden mutations), I05 (the diagnostic flip with the state's two derived factors
+left to the law), I06 (canaries including the purpose and the required sections), I07 (the
+training manifest against every test root by hash), I08 (the keystone through the adapter).
+
+| reader | epoch 1 | epoch 2 | epoch 3 | gate: all units | population | purpose, maker-free |
+|---|---|---|---|---|---|---|
+| Qwen2.5-1.5B + adapter | +0.06 | +0.10 | +0.14 | +0.19 [+0.003, +0.39], n 83 | +0.26 [−0.00, +0.55], n 39 | +0.12 [−0.15, +0.41], n 44 |
+| SmolLM2-1.7B + adapter | +0.07 | +0.09 | +0.12 | +0.13 [−0.06, +0.31], n 83 | +0.17 [−0.09, +0.46], n 39 | +0.08 [−0.18, +0.35], n 44 |
+
+*Table: held-out next-move log score of the reader's forward model minus the domain model's, in
+nats; the three epoch columns are the training's own held-out measurement (80 worlds); the gate
+columns are E03's paired contrasts at the world with 95 percent cluster intervals. The pass band
+is −0.05; the exact oracle's gap over the domain model on the same units is +0.52.*
+
+**What we found.** Both readers pass the gate, and not at the band's edge: each sits above the
+domain model by a tenth to a fifth of a nat, a quarter to a third of the way to the exact
+oracle, with the Qwen reader's interval clearing zero on all units and the SmolLM2 reader's
+covering it. The curves rise monotonically over the three epochs on both readers with the
+held-out loss flat from the second epoch on, so no repair epoch was spent. The gate holds on
+both families the readers were tested on, the population's own worlds and the maker-free purpose
+worlds, with the purpose worlds' point lower on both readers. The integrity block found no hole:
+identity 1.0 on every non-oracle arm under all three mutations while the oracle differed on 39
+of 45 pairs; the diagnostic flip moved the solver by 0.19 and changed every model arm's bytes,
+while the forward model itself moved only 0.02 in total variation where the untrained letter
+readout moved 0.65 (a fact about the readers, reported and not gated); 90 of 90 canaries caught
+with zero purpose leaks; zero overlap between the 1600 training roots and the 34 test roots;
+the keystone's six checks passed through the adapter. What runs next is the generation gate,
+the untrained comparators, and the context and state diagnostics.
+
+**What it means.** The first premise of the walkthrough's account is measured: expertise can be
+installed in a small reader by training on the population's process logs, and the installed
+reader predicts the standard process as well as the program that was fitted to it. That is the
+precondition, not the claim; whether the reader's surprise now lands on the maker is the next
+gate.
+
+> **Curator roll-up.** Theory group: the reading model (P-S8; the expertise row). Question: can a
+> small reader be made to hold the domain's standard process? Class: **Strengthens**. Result: both
+> trained readers predict the next move at or above the domain model (+0.19 and +0.13 nats).
+> Project meaning: the reader that Stage 7 lacked exists, on this construction. Next engineering
+> obligation: the generation gate and the surprise-localization trunk. Public claim: unchanged
+> until the localization cells land. Decision: **No**. Detail: results/phase_2_4_stage_8/E01,
+> E02, E03, I04 to I08.
+
+## L370 · AT FOUR TIMES THE SAMPLE THE PROPOSED PURPOSE HURTS: on 327 fresh purpose worlds the reader executing its own proposed purpose predicts the rest of the artifact WORSE than the same reader without it, by −0.087 [−0.120, −0.053] and −0.058 [−0.088, −0.029] nats (the base read −0.03 and −0.08 on 80), the true purpose supplied is worth +0.20 [+0.11, +0.29] and +0.15 [+0.05, +0.24] against the domain model where the plain reader is worth +0.13 [+0.04, +0.21] and +0.10 [+0.02, +0.19], and the tail advantage over the domain model stands at +0.87 and +0.74 with no purpose at all
+
+**2026-09-05 08:47, Stage 8, the re-locked ladder, rung 1, gear two.** DIAGNOSIS on readers the generation gate
+did not admit (L360); the tail support is barred from confirmation by the label. The cell held the card 202
+minutes at four times the units.
+
+METHOD: as G02 (L363) with the world offset moved and the units multiplied by four: 327 purpose worlds, the
+reader with its proposed purpose against the same reader without it and against the domain model, the true
+purpose supplied beside, whole log and tail events, bootstrapped over worlds.
+
+| contrast | scope | Qwen2.5 + adapter | SmolLM2 + adapter | base (80) |
+|---|---|---|---|---|
+| proposed purpose vs plain reader | whole (327) | −0.087 [−0.120, −0.053] | −0.058 [−0.088, −0.029] | −0.03 / −0.08 |
+| proposed purpose vs plain reader | tail (66) | −0.01 | −0.11 | −0.01 / +0.01 |
+| true purpose vs domain model | whole | +0.198 [+0.108, +0.289] | +0.145 [+0.052, +0.239] | +0.25 / |
+| plain reader vs domain model | whole | +0.126 [+0.038, +0.212] | +0.100 [+0.018, +0.186] | +0.21 / |
+| plain reader vs domain model | tail | +0.87 | +0.74 | +1.01 / +0.87 (vs DOM with the proposal) |
+
+*Table: rung 1 of G02 against the base run; nats per event on the remainder of the log after the cut; the
+tail rows are the events where the exact state diverges from the population process.*
+
+**Found.** What was null or borderline at 80 worlds is a loss at 327: a purpose the reader proposes and
+executes makes its prediction worse on both readers, with intervals entirely below zero. The true purpose
+adds about +0.05 to +0.07 over the plain reader, consistent in sign on both and small against the floor.
+The plain reader's advantage over the domain model holds (+0.13 and +0.10 whole, +0.87 and +0.74 on the
+tail), which is the E03 gain seen on purpose worlds.
+
+**Means.** The proposal route is not inert, it is harmful: the purpose these readers name is wrong often
+enough (recall 0.33 and 0.53, L369) that executing it costs more than it returns, and the true purpose
+returns little because the readers cannot weigh the tool-gated choices it governs (L364, L365). The tail
+advantage without any purpose is the surface fact of L362 and L363 again, tightened. Class: **Narrows**
+(the base reading at a larger sample, in the same direction and now decisive on the proposal).
+
+> **Curator roll-up.** Theory group: the purpose route (G). Question: does executing a proposed purpose help
+> at four times the sample? Class: **Narrows**. Result: it hurts on both readers (−0.09 and −0.06 nats,
+> intervals below zero); the true purpose adds +0.05 to +0.07. Project meaning: a wrong purpose executed is
+> worse than none; the purpose route on surface-trained readers is closed with a sign. Next engineering
+> obligation: none new. Public claim: unchanged (none licensed). Decision: **No**. Detail:
+> results/phase_2_4_stage_8/G02/x1.
+
+## L369 · AT FOUR TIMES THE SAMPLE THE EXPERTISE GATE SHARPENS AND THE ANTI-ALIGNMENT HOLDS: on 306 fresh held-out units both trained readers predict the next move above the domain model by +0.24 [+0.13, +0.36] and +0.20 [+0.09, +0.32] nats (the base read +0.19 and +0.13 on 83), and on 334 fresh worlds their surprise ranks the maker's events below the ordinary ones at AUROC 0.36 and 0.39 against the domain model's 0.55 (−0.20 and −0.16, INFERIOR on every shape); the rung's rerun of the expertise gate re-admitted the readers in the registry while the generation gate stood failed, so one rung cell ran as a claim until admission was made to read both gates
+
+**2026-09-05 02:06 and 03:33, Stage 8, the re-locked ladder, rung 1, gear two.** Rung 1 reruns the base
+cells at four times the units on fresh world offsets.
+
+METHOD: as E03 and D01 (L359, L362) with the world offset moved by 5000 and the units multiplied by four:
+the expertise gate on 306 held-out population and maker-free purpose units (whole-log next-move
+log-likelihood against the domain model, band −0.05); surprise localization on 334 population worlds
+across the three task shapes (per-event surprise AUROC against the exact tail flag, minus the domain
+model's).
+
+| cell | reader | measure | rung 1 (x4) | base |
+|---|---|---|---|---|
+| E03/x1 | Qwen2.5 + adapter | nats over the domain model (306) | +0.24 [+0.13, +0.36] | +0.19 [+0.003, +0.39] (83) |
+| E03/x1 | SmolLM2 + adapter | same | +0.20 [+0.09, +0.32] | +0.13 [−0.06, +0.31] |
+| D01/x1 | Qwen2.5 + adapter | surprise AUROC; minus DOM (334) | 0.36; −0.20 [−0.22, −0.17] | 0.34; −0.22 (86) |
+| D01/x1 | SmolLM2 + adapter | same | 0.39; −0.16 [−0.19, −0.14] | 0.37; −0.19 |
+| G01/x1 | Qwen2.5 / SmolLM2 | purpose recall within band (384) | 0.33 / 0.53 | 0.35 / 0.55 (96) |
+
+*Table: rung 1 of the re-locked ladder against the base run; the D01 row is diagnosis (no reader passed
+the generation gate).*
+
+**Found.** Both base readings hold at four times the sample and tighten: the prediction gain is real and
+clears the band with room on both readers, and the anti-alignment of the readers' surprise is not a
+small-sample artifact, at 334 worlds the interval sits entirely below −0.13 on both. The two together are
+the stage's shape: the training bought prediction of the family's next move and, with it, blindness to
+the maker's departures. The purpose recall holds at four times the sample too (G01/x1, 05:25, 109 minutes:
+0.33 and 0.53 on 384 worlds against 0.35 and 0.55 on 96, the SmolLM2 reader still calibrated at 0.14 and
+the Qwen reader still overconfident at 0.51), so the split by reader is the object's and stable.
+
+**The hole.** The rung's E03 rerun rewrote the expertise registry with passed = true for both readers,
+and admission read that registry alone, so D01/x1 ran and closed as a reader claim although the
+generation gate (E04) stood failed. Admission now reads the expertise and generation gates together
+(E03 predict AND E04 produce, the brief's rule); D01/x1 was reset with its rows restored and recomputed
+as diagnosis in 0.6 minutes; the B04 routing and the freeze read the same admission. The mislabeled close
+had also recorded the interrupt surprise_not_localized as if an admitted reader had failed; the record
+stands, annotated as diagnosis (no reader is admitted), and blocks nothing. A health pass at hour 23 (his
+order): gear two confirmed on every process (normal priority, all cores, cap two under Ghost live), the
+fresh-clone verifier run read-only re-hashes 51 verdicts with no problem, the validator reports no invalid
+disposition with only the closure tail outstanding, and rung 1 continues on G02/x1 (1,954 valid rows at
+hour 23, no endpoint failure) with A01/x1 (about eight hours at four times the units) to follow before
+rung 2. Class: **Strengthens**
+for the two measurements (they are the base readings at a larger sample); Infrastructure for the repair.
+
+> **Curator roll-up.** Theory group: the reading model (P-S8). Question: do the base readings of the
+> expertise gate and the surprise localization hold at four times the sample? Class: **Strengthens**.
+> Result: the gate passes wider (+0.24, +0.20 nats on 306) and the anti-alignment tightens (AUROC 0.36,
+> 0.39 on 334). Project meaning: prediction of the family and blindness to the maker come together from
+> the same training. Next engineering obligation: the admission repair stays; rung 1 continues (G01/x1).
+> Public claim: unchanged (none licensed). Decision: **No**. Detail: results/phase_2_4_stage_8/E03/x1,
+> D01/x1 (superseded_admission/ holds the mislabeled first close); EXPERTISE_GATE.json; GATES.json.
+
+## L368 · THE BASE RUN IS COMPLETE AT HOUR 17 AND RE-LOCKED INTO AN EIGHT-RUNG LADDER: supplying the maker's law, residue, or purpose beside three earlier artifacts moves the reader by +0.009, −0.019, and +0.016 nats (A05: the accumulation, being nothing, belongs to nothing), a triplicated earlier artifact raises confidence by 0.006 (X06 passes), and the scheduler re-locked the ladder from the base run's actual charges at 17.0 hours with 25 hours of budget
+
+**2026-09-05 01:09, Stage 8, gear two.** All 44 questions and 12 attacks of the base run have verdicts (X12, the
+fresh-clone attack, and the closure tail wait for the freeze). DIAGNOSIS labels stand on every reader cell after
+E04.
+
+**A05.** METHOD: the A03 arm (three earlier artifacts) with the maker's law, residue, or purpose supplied
+beside them, against the same arm without, 35 units, whole and tail. Found: +0.009 [−0.060, +0.085] with the
+law, −0.019 with the residue, +0.016 with the purpose on the Qwen reader; −0.10 [−0.21, +0.01] with the law on
+SmolLM2. Means: there is no accumulation to attribute; the tail support against the domain model (+1.56) is
+the same surface fact as A03's and stays diagnosis.
+
+**X06.** A single earlier artifact shown once against the same artifact shown three times: the purpose
+confidence rises by 0.006 on 48 pairs. The readers do not sharpen on duplicated evidence, which is the one
+attack result here that reads in the readers' favor and is also what a reader that ignores context would show.
+
+**The re-lock.** At 17.0 hours the base run's actual charges re-sized the ladder within the remaining
+budget of 25 hours: rung 1 the expertise gate at four times the units (E03/x1), then rungs 2 to 8 at two,
+one, one, one, one, zero, and one units' multiples, on fresh world offsets, running until the freeze at hour 40.
+The first rung is the one reading the packet most needs: the expertise gate at four times the sample.
+
+*No table: two nulls and a schedule.* Class: **Infrastructure**.
+
+> **Curator roll-up.** Theory group: the maker's share (MS-S8); the run. Question: does the accumulation
+> belong to the law, the residue, or the purpose, and did the base run complete? Class: **Infrastructure**.
+> Result: nothing to attribute (moves under 0.02 nats); the base run complete at hour 17, the ladder
+> re-locked with 25 hours of budget. Project meaning: the stage now spends its remaining hours sharpening
+> the expertise gate and the trunks at larger samples. Next engineering obligation: read rung 1 (E03 at
+> four times the units) when it lands. Public claim: unchanged. Decision: **No**. Detail:
+> results/phase_2_4_stage_8/{A05,X06}; WORKLOAD_LOCK.json; scheduler.log 01:09:38.
+
+## L367 · THE ACCUMULATION TRUNK CLOSES AS DIAGNOSIS: recall of the maker's law and residue does not rise with earlier artifacts on either reader (law recall 0.44 to 0.29 and 0.31 to 0.35 across N = 0 to 3 against chance 0.33; residue 0.33 to 0.21 and 0.33 to 0.35 against chance 0.25, where Stage 7 read 0.56), the maker model built from three earlier artifacts predicts a new artifact's divergences no better than the plain reader (+0.002 [−0.067, +0.074] and −0.056 [−0.108, −0.000] nats) while both sit 1.5 nats over the domain model on the tail either way, the reveal parameter moves alignment by 0.02, the strengthened cheap rival is the domain model itself on both targets, and the whole-against-tail table shows one sign difference in five prospective cards (E08)
+
+**2026-09-05, Stage 8, discovery lane, gear two.** DIAGNOSIS on readers the generation gate did not admit
+(L360); the tail supports are barred from confirmation by the label.
+
+**Hypothesis.** With N earlier artifacts by the same maker the reader recalls the maker's law and residue
+more often (A02), a model of the maker built from three earlier artifacts predicts a new artifact's
+divergences better than the reader without them (A03), and the reveal parameter (how much of the
+maker's state each artifact exposes) changes what is learned (A04).
+
+METHOD: 48 maker series; closed-set recall of the law and of the residue by the letter readouts with N
+earlier logs in context (A02, chance 0.33 and 0.25, the Stage 7 cold-law and residue recalls beside);
+next-move log-likelihood on the remainder of a fourth artifact with three earlier artifacts against the
+same reader with none, whole and tail, floor a fifth of the oracle-minus-domain gap (A03); the N = 3
+alignment split by reveal low and high (A04); X10 strengthens the cheap rivals and re-reads the G02 and
+A03 contrasts against the best of them; D06 tabulates whole against tail across the five prospective cards.
+
+| cell | reader | measure | value | comparator |
+|---|---|---|---|---|
+| A02 | Qwen2.5 / SmolLM2 | law recall at N = 0 and N = 3 | 0.44 to 0.29 / 0.31 to 0.35 | chance 0.33; Stage 7 cold 0.33 |
+| A02 | Qwen2.5 / SmolLM2 | residue recall at N = 0 and N = 3 | 0.33 to 0.21 / 0.33 to 0.35 | chance 0.25; Stage 7 0.56 |
+| A03 | Qwen2.5 / SmolLM2 | three earlier artifacts vs none, whole (35) | +0.002 [−0.067, +0.074] / −0.056 [−0.108, −0.000] | floor 0.07 |
+| A03 | Qwen2.5 / SmolLM2 | three earlier artifacts vs domain model, tail | +1.56 [+1.15, +2.04] / +1.45 | floor from the tail gap |
+| A04 | Qwen2.5 / SmolLM2 | N = 3 alignment, reveal low against high | 0.234 vs 0.219 / 0.285 vs 0.266 | |
+| X10 | | strengthened cheap rival, next action and stop | the domain model on both | claims re-read: G02 +0.14, A03 +0.17 (whole, pooled) |
+| D06 | | sign differences between whole and tail | E08 only (−0.05 whole, +0.23 tail) | |
+
+*Table: the accumulation trunk on 48 maker series, the strengthened-rival attack, and the whole-against-tail
+table; every reader value is diagnosis.*
+
+**Found.** Earlier artifacts do not raise recall of the law or the residue on either reader; both hover
+at chance, and the residue recall is half what Stage 7's reader reached cold from the executable state.
+The maker model of A03 is worth nothing against the reader without it, on both readers, and both sit a
+nat and a half over the domain model on the tail either way (L363's shape on the maker-series family).
+The reveal parameter moves alignment by 0.02. The cheapest strong rival is the domain model itself, and
+the claims re-read against it stand where they were. Whole and tail agree in sign on four of five
+prospective cards; the fifth (the supplied state) is inconclusive both ways.
+
+**Means.** The accumulation trunk says what the difference and purpose trunks said: on surface-trained
+readers nothing about the maker is read, so nothing accumulates, and the tail advantage that looks like
+a maker effect is the family's surface at the divergent events. Class: **Narrows**.
+
+> **Curator roll-up.** Theory group: the maker's share (MS-S8). Question: does a model of the maker built
+> from earlier artifacts predict a new artifact's divergences? Class: **Narrows**. Result: no better than
+> the reader without it (+0.002 and −0.056 nats), law and residue recall flat at chance across N. Project
+> meaning: nothing about the maker accumulates on surface expertise. Next engineering obligation: none
+> new. Public claim: unchanged (none licensed). Decision: **No**. Detail:
+> results/phase_2_4_stage_8/{A02,A03,A04,X10,D06}.
+
+## L366 · EARLIER ARTIFACTS BY THE SAME MAKER DO NOT ACCUMULATE: on 48 maker series the trained readers' surprise alignment on the fourth artifact moves by −0.002 and +0.016 [−0.003, +0.035] when zero to three earlier artifacts by the same maker stand in context, not monotone on either reader, and every N cell sits 0.25 to 0.29 of AUROC under the domain model; the pooling attack finds no sign reversal hidden in 24 conditional cells, and the pricing attack passes once the compute ledger stops erasing a first attempt's counts on a re-analysis
+
+**2026-09-04, Stage 8, discovery lane, gear two (his call at 19:53).** DIAGNOSIS on readers the generation
+gate did not admit (L360). A01 ran 210 minutes on the card (per-event scoring of 384 reader rows, all valid).
+
+**Hypothesis.** The maker's share accumulates: with N earlier artifacts by the same maker in context, the
+reader's surprise on artifact N+1 lands better on the maker's divergent events, rising with N (A01); the
+attacks ask that every conditional cell be reported before pooling (X08) and that every arm be priced (X09).
+
+METHOD: 48 maker series (four artifacts each, reveal low and high), the trained reader handed 0, 1, 2, or
+3 earlier logs by the same maker, per-event surprise on the fourth artifact against the exact tail flag,
+AUROC per world minus the domain model's, bootstrapped over worlds (38 scored); the N3 minus N0 paired
+difference is the primary; X08 counts the conditional cells of E03, D01, G02, A01 and looks for a sign
+reversal across them; X09 checks every ledger entry and the frontier total against the cap.
+
+| reader | N = 0 | N = 1 | N = 2 | N = 3 | N3 − N0 | domain model |
+|---|---|---|---|---|---|---|
+| Qwen2.5 + adapter | 0.230 | 0.233 | 0.241 | 0.228 | −0.002 | 0.517 |
+| SmolLM2 + adapter | 0.262 | 0.283 | 0.291 | 0.278 | +0.016 [−0.003, +0.035] | 0.517 |
+
+*Table: surprise AUROC on the fourth artifact's tail events by the number of earlier artifacts in context,
+48 maker series (38 scored), against the frozen domain model with no maker context at all.*
+
+**Found.** Nothing accumulates: the fourth artifact is read the same with three earlier artifacts as with
+none, on both readers, and every cell sits well under the domain model, which is the anti-alignment of
+L362 carried to the maker-series family. X08 surfaces no reversal among the 24 conditional cells (the
+readers agree in sign everywhere). X09 first read four cells as unpriced: a cell rerun from restored rows
+(E04, E05, E08, X05) made no model call and overwrote its first attempt's ledger entry with an empty one.
+The ledger now merges instead of overwriting, every cell also carries its rows' own budgets (model calls,
+forward passes, tokens) as the second source, the four entries were backfilled from their rows, and X09
+reruns clean: 17 of 17 priced, the frontier at 2.14 of 40 USD, the card held 3.92 hours.
+
+**Means.** The accumulation claim (MS-S8's record of earlier goals that diverged) has no purchase on a
+reader whose expertise is the family's surface: earlier artifacts add more surface of the same family and
+nothing about the maker. Class: **Narrows** for A01; the ledger repair is Infrastructure.
+
+> **Curator roll-up.** Theory group: the maker's share (MS-S8). Question: does a maker's earlier work
+> sharpen the reading of the next artifact? Class: **Narrows**. Result: three earlier artifacts move
+> alignment by under 0.02 on both readers, all cells under the domain model. Project meaning: with
+> surface expertise nothing accumulates across a maker's artifacts. Next engineering obligation: the
+> ledger merge stays; no new build. Public claim: unchanged (none licensed). Decision: **No**. Detail:
+> results/phase_2_4_stage_8/{A01,X08,X09}; COMPUTE_LEDGER.json.
+
+## L365 · THE READER'S PURPOSE DOES NOT TRACK THE ARTIFACT'S MEANING: on 96 purpose worlds the purpose recall of both trained readers survives a paraphrase of the artifact (0.27 to 0.35 and 0.46 to 0.52) and RISES under a change of its meaning (0.31 and 0.58), so the crossover the brief requires (paraphrase holds, meaning falls) appears on neither reader and the attack that reads it records the failure as the reader's
+
+**2026-09-04, Stage 8, discovery lane, gear one into gear two (his call at 19:53).** DIAGNOSIS on readers the
+generation gate did not admit (L360).
+
+**Hypothesis.** A purpose read from the artifact is a reading of what the artifact means: it should survive a
+paraphrase that keeps the meaning and fall under an edit that changes it (the crossover, G06; the attack X04
+reads the same rows).
+
+METHOD: the G01 closed-set purpose readout on 96 purpose worlds under three renderings of the artifact, the
+base, a meaning-preserving paraphrase, and a meaning change (the tool-gated events rewritten so the
+purpose they imply differs); recall within the 0.15 band against the truth or its equivalence partner.
+
+| reader | base | paraphrase | meaning changed | crossover |
+|---|---|---|---|---|
+| Qwen2.5 + adapter | 0.27 | 0.35 | 0.31 | no (paraphrase survives; meaning does not fall) |
+| SmolLM2 + adapter | 0.46 | 0.52 | 0.58 | no |
+
+*Table: purpose recall under the three renderings, 96 worlds each (13 degenerate); the crossover requires
+the paraphrase column at or near the base and the meaning column below it.*
+
+**Found.** Recall is insensitive to what the artifact says: the paraphrase helps a little and the meaning
+change helps more. Whatever the readout keys on, it is not the purpose the events imply.
+
+**Means.** With L361 to L364 this closes the purpose route on these readers from every side: the purpose
+is not localized (L362), not usable when proposed or supplied (L363), harder than the pull ordering
+(L364), and now not a reading of meaning at all. The readout is a surface response to the rendering.
+Class: **Narrows**.
+
+> **Curator roll-up.** Theory group: the purpose route (G). Question: does the reader's purpose track the
+> artifact's meaning? Class: **Narrows**. Result: recall rises under a meaning change on both readers
+> (0.31 and 0.58 against 0.27 and 0.46 at base). Project meaning: the purpose readout on surface-trained
+> readers is a response to the rendering, not to meaning. Next engineering obligation: none new. Public
+> claim: unchanged (none licensed). Decision: **No**. Detail: results/phase_2_4_stage_8/{G06,X04}.
+
+## L364 · THE PULL ORDERING IS THE EASIER GOAL OBJECT FOR BOTH READERS, BY 0.24 AND 0.15 OF RECALL, AND THE FRONTIER PROBE NAMES THE PURPOSE ON 16 PERCENT OF WORLDS AND LOSES 1.8 NATS USING IT: on 96 purpose worlds the same closed-set readout recalls the maker's pull ordering on 59 and 70 percent of worlds against the purpose on 35 and 55, the frontier probe with thinking recalls the purpose on 5 of 32 worlds and predicts the remainder 1.82 nats [0.23, 3.97] under the domain model with its own purpose in hand, and the equifinal-history attack finds no reader that preserves the equivalence class (X07 records the G04 failure as the reader's, not the instrument's)
+
+**2026-09-04, Stage 8, discovery lane, gear one.** DIAGNOSIS on readers the generation gate did not admit
+(L360); the frontier cells are the brief's capped probe, never a reader arm.
+
+**Hypothesis.** The brief asks which goal object is easier for the same reader, the purpose (a
+goal-level utility table) or the pull ordering (the Stage 7 goal as an ordering of what to attend to);
+whether the frontier probe names the purpose and profits from it; and whether a reader's purpose class
+survives a swap of valid hidden histories under a fixed final artifact.
+
+METHOD: G05 asks each trained reader for the pull ordering by the same closed-set readout G01 used for
+the purpose (recall within the 0.15 band, 96 worlds, the G01 purpose recall beside it); G08 asks
+gemini-3.5-flash-lite for the purpose on 32 worlds and scores the remainder of the log with its own
+named purpose against the domain model (27 scored); X07 reads G04's nine equivalence worlds for class
+preservation across the swapped histories.
+
+| cell | reader | measure | value | comparator |
+|---|---|---|---|---|
+| G05 | Qwen2.5 + adapter | pull recall; purpose recall; difference | 0.59; 0.35; −0.24 | the purpose easier |
+| G05 | SmolLM2 + adapter | same | 0.70; 0.55; −0.15 | the purpose easier |
+| G08 | gemini-3.5-flash-lite | purpose recall (32) | 0.16 | 0.5 |
+| G08 | gemini-3.5-flash-lite | gain with its own purpose vs DOM, nats (27) | −1.82 [−3.97, −0.23] | ≥ 0 |
+| X07 | both | equivalence class preserved across swapped histories | none | preserved |
+
+*Table: the goal-object comparison, the frontier's purpose, and the equifinal attack; the G08 spend is
+1.99 USD (ledger 2.14 of 40).*
+
+**Found.** Both readers recover the pull ordering more often than the purpose by a wide margin, and the
+better purpose reader (SmolLM2) is also the better pull reader, so the gap is the object's and not the
+reader's. The frontier probe, which failed the expertise band by 2.6 nats (E07), names the purpose on one
+world in six and is nearly two nats worse than the domain model when it uses what it named. No reader
+holds the purpose class fixed across histories that end in the same artifact, which is G04 restated.
+
+**Means.** The ordering of what to attend to is a more legible goal object than a utility table, for a
+reader whose expertise is the family's surface: the pull is visible in the log's section traffic, the
+purpose only in tool-gated choices the reader does not weigh. B04's routing rule (a G05 difference of
+0.2 or more) fires as theory movement in the packet, no interrupt: the purpose construction may be the
+harder object by construction, not the maker's goal being less readable. Class: **Narrows**.
+
+> **Curator roll-up.** Theory group: the purpose route (G). Question: which goal object is easier for
+> the same reader, and does the frontier profit from a named purpose? Class: **Narrows**. Result: the pull
+> ordering by 0.24 and 0.15 of recall; the frontier loses 1.8 nats using its own purpose. Project meaning:
+> the purpose as a utility table is the harder object on surface-trained readers; the pull ordering is
+> the goal object to carry forward. Next engineering obligation: none new. Public claim: unchanged (none
+> licensed). Decision: **No**. Detail: results/phase_2_4_stage_8/{G05,G08,X07}.
+
+## L363 · THE PROPOSED PURPOSE ADDS NOTHING TO THE TRAINED READER, WHICH SITS A NAT OVER THE DOMAIN MODEL ON THE TAIL EVENTS EITHER WAY: on 80 purpose worlds the reader executing its own proposed purpose beats the domain model by +0.18 nats [−0.02, +0.39] on the whole log and by +1.01 [+0.65, +1.39] on the tail events (SmolLM2 +0.10 and +0.87), but against the same reader with no purpose the proposal is null or worse (−0.03 [−0.09, +0.04] and −0.08 [−0.15, −0.01]) and the true purpose supplied is worth +0.25 against the domain model where the plain reader is worth +0.21; the changed-context choice improves by +0.07 [+0.02, +0.13] on one reader and worsens by the same on the other, pooled zero; the order attack passes once its bound is set at fp16 batch noise
+
+**2026-09-04, Stage 8, discovery lane, gear one.** DIAGNOSIS on readers the generation gate did not admit
+(L360); no reader claim; the tail support is barred from confirmation by the diagnosis label.
+
+**Hypothesis.** A reader that names the purpose and executes it through its own forward model predicts
+the rest of the artifact better than the reader without it (G02); the same inferred purpose improves the
+choice the maker makes when the context changes (G03); and the generative readout is invariant to option
+order (X05).
+
+METHOD: 80 purpose worlds, six arms (the reader with its proposed purpose, with the true purpose, plain,
+the domain model, persistence, uniform) plus the oracle; next-move log-likelihood on the remainder of the
+log after the cut, whole and on the tail events (E01's cut-event quantile per family), bootstrapped over
+worlds with the frozen floor of a fifth of the oracle-minus-domain gap (0.10 whole, 0.33 tail); G03 reads
+G02's rows on the changed-context truth against the copied-brief rival; X05 reverses the option and
+candidate order on 48 worlds and measures the total variation of each readout's next-action distribution.
+
+| contrast | scope | Qwen2.5 + adapter | SmolLM2 + adapter | floor |
+|---|---|---|---|---|
+| proposed purpose vs domain model | whole | +0.18 [−0.02, +0.39] | +0.10 | 0.10 |
+| proposed purpose vs domain model | tail (22 worlds) | +1.01 [+0.65, +1.39] | +0.87 | 0.33 |
+| proposed purpose vs plain reader | whole | −0.03 [−0.09, +0.04] | −0.08 [−0.15, −0.01] | 0.10 |
+| proposed purpose vs plain reader | tail | −0.01 [−0.11, +0.08] | +0.01 [−0.11, +0.11] | 0.33 |
+| true purpose vs domain model; plain vs domain model | whole | +0.25; +0.21 | | |
+| changed-context choice, proposed vs copied brief (G03) | whole (96) | +0.07 [+0.02, +0.13] | −0.07 [−0.14, −0.01] | 0.03 |
+| order attack, total variation under reversed order (X05) | 48 worlds | FM 0.0013; DIR0 0.033 | | 0.01; 0.10 |
+
+*Table: the purpose executed through the reader's own forward model on 80 purpose worlds, nats per event
+against the named rival; the tail rows read the events where the exact state diverges from the population
+process. The G03 pooled contrast is 0.00 [−0.01, +0.01].*
+
+**Found.** Whatever the trained reader gains over the domain model, it gains without the purpose: the
+proposal subtracts a little, the truth adds a little, and neither moves the tail. On the tail events the
+readers sit a nat over the domain model, which is the same fact as L362 seen from the likelihood side:
+the divergent events are the ones the readers assign high probability to and are not surprised by. The
+changed-context choice splits by reader with opposite signs and pools to zero. The order attack's first
+reading failed on a bound of one in a million where batched fp16 scoring moves per-option log-probabilities
+at the fourth decimal when the order changes the padding; the bound is now fp16 batch noise (0.01), the
+rows stand, the verdict was recomputed without a call to the card (Infrastructure).
+
+**Means.** The purpose route through the forward model is inert on these readers, in both directions of
+supply. The trained readers' whole advantage over the domain model on purpose worlds is a tail advantage
+that the purpose does not touch, so it is the family's surface again (L361, L362), not a maker inference.
+Class: **Narrows**. The purpose-execution gate reads failed.
+
+> **Curator roll-up.** Theory group: the reading model (P-S8), the purpose route (G). Question: does
+> executing an inferred purpose through the reader's own forward model improve prediction of the rest?
+> Class: **Narrows**. Result: the proposed purpose is null or worse against the plain reader (−0.03 and
+> −0.08 nats) while both sit a nat over the domain model on the tail either way. Project meaning: the
+> purpose route is inert on surface-trained expertise; the tail advantage is the surface, not the maker.
+> Next engineering obligation: none new beyond L361's (a process-holding expertise first). Public claim:
+> unchanged (none licensed). Decision: **No**. Detail: results/phase_2_4_stage_8/{G02,G03,X05};
+> X05/superseded_ordertol.
+
+## L362 · THE TRAINED READER'S SURPRISE LANDS AWAY FROM THE MAKER'S EVENTS: on 96 held-out population worlds the per-event surprise of both trained readers ranks the maker's divergent events BELOW the ordinary ones (AUROC 0.34 and 0.37 against 0.5 for chance and 0.56 for the domain model; −0.22 [−0.27, −0.16] and −0.19 [−0.25, −0.14] against the domain model, INFERIOR on every task shape), supplying the true purpose moves the residue alignment by less than 0.01 either way, the reader's first explanation fires at the most divergent event on 1 to 2 percent of worlds against 8 for chance and 20 for the domain model, and confidence falls as the log lengthens
+
+**2026-09-04, Stage 8, discovery lane, gear one; the block rerun whole after the shared-card void (L361).** Every
+reader value is DIAGNOSIS on readers the generation gate did not admit (L360); none is a reader claim or a
+confirmation candidate. The fragment guard held: D01 landed 192 valid reader rows of 192 units and D04 320 of
+320 (the 232 invalid rows in the files are the void's, superseded by valid rows on the same keys).
+
+**Hypothesis.** A reader holding the standard process localizes its surprise on the events where the maker
+departs from that process (P-S8): its per-event surprise should rank the tail events (the exact
+state's divergences from the population process, the 80th percentile flag) above the rest at least as well
+as the domain model's does; supplying the true purpose should sharpen the residue; the first explanation
+should fire at the most divergent event.
+
+METHOD: per-event next-move log-likelihood from each trained reader on the whole log of 96 held-out
+population worlds across the three task shapes, the tail flag from E01's per-event quantile; AUROC of
+the reader's surprise against the flag, minus the domain model's, bootstrapped over worlds (D01, D02 by
+shape); the same with the true purpose supplied as the goal line on 80 purpose worlds, scored on the
+residue events (D04); the reader's argmax-surprise event against the oracle's most divergent event (D03);
+purpose-distribution confidence against accuracy by log length (G07).
+
+| cell | reader | measure | value | comparator |
+|---|---|---|---|---|
+| D01 | Qwen2.5 + adapter | surprise AUROC on the tail flag; minus DOM | 0.34; −0.22 [−0.27, −0.16] | DOM 0.56; non-inferiority |
+| D01 | SmolLM2 + adapter | same | 0.37; −0.19 [−0.25, −0.14] | same |
+| D02 | both | AUROC by shape, structured / essay / free | 0.30 / 0.37 / 0.35 and 0.34 / 0.39 / 0.38 | monotone along the gradient: no |
+| D04 | Qwen / SmolLM2 | residue alignment gain with the purpose supplied (49 units) | −0.008 [−0.024, +0.006] / +0.008 [−0.016, +0.029] | > 0 |
+| D04 | Qwen / SmolLM2 | residue AUROC with the purpose | 0.26 / 0.28 | 0.5 chance |
+| D03 | Qwen / SmolLM2 | first explanation at the most divergent event (96) | 0.021 / 0.010 | chance 0.08; DOM 0.20 |
+| G07 | Qwen / SmolLM2 | confidence slope against log length; calibration error | −0.31; 0.48 / −0.42; 0.10 | flat; 0 |
+
+*Table: the surprise-localization block on the two trained readers, 96 population worlds (D01 to D03) and
+80 purpose worlds (D04), whole after the rerun; intervals are 2000-resample bootstraps over worlds.*
+
+**Found.** The readers' surprise is not merely uninformative about the maker's events; it is anti-aligned.
+An AUROC of 0.34 says a tail event is ranked as LESS surprising than an ordinary one two times in three, on
+every shape, for both readers, while the domain model sits just above chance. Handing the reader the true
+purpose changes nothing on the residue (the residue AUROC stays near 0.27 with or without it). The
+reader's single most surprising event is the oracle's most divergent event on one world in fifty to a
+hundred, under chance. And the purpose confidence falls as the log lengthens on both readers, the
+calibrated one included.
+
+**Means.** The events where the maker departs from the standard process are, to a reader trained on that
+process's logs, the LEAST surprising events in the log. That is consistent with what the training did
+(L361: a family's surface, not the process): the maker's divergences are the frequent surface patterns of
+the corpus (a goal-directed move, a section revisited), which the adapter learned to expect, while the
+domain model, which never saw those logs, is mildly surprised by them. The residue is invisible to a
+reader that learned the population's surface, and the purpose does not open it. For P-S8 this is the
+localization half measured, as diagnosis: the precondition (expertise as a forward model of the process)
+was not installed, and the surprise a surface-trained reader has points away from the maker. Class:
+**Narrows**. The difference gate reads failed on both readers (B04 will route on it).
+
+> **Curator roll-up.** Theory group: the reading model (P-S8). Question: does a reader holding the standard
+> process localize its surprise on the maker's departures from it? Class: **Narrows**. Result: both trained
+> readers rank the maker's events as less surprising than ordinary ones (AUROC 0.34 and 0.37). Project
+> meaning: surface-trained expertise points the reader's surprise away from the maker; the residue is
+> invisible to it and the purpose does not open it. Next engineering obligation: an expertise that passes
+> the generation gate before this block is read as a claim; a second training family. Public claim:
+> unchanged (none licensed). Decision: **No**. Detail: results/phase_2_4_stage_8/{D01,D02,D03,D04,G07};
+> GATES.json difference.
+
+## L361 · THE SHARED CARD VOIDS TWO CELLS, AND THE DIAGNOSIS TRUNK READS THE TRAINED READERS AS DOMAIN-MODEL-BLIND ON THE MAKER'S SHARE: the model server answered out-of-memory as 503 for eighty minutes while a game held the card, D01 closed on two thirds of its rows and D04 on 3 units of 80 (both VOID, reset, rerunning behind a fragment guard); on the cells that landed whole the SmolLM2 reader recalls the purpose by the affordance route on 55 percent of worlds (Qwen 35), neither reader keeps two purposes alive where the prefix leaves two (class coverage 0.00 and 0.22 against a required half), the frontier probe's surprise lands under the domain model's by 0.25 AUROC, and a second law family the readers never saw leaves them level with the domain model (−0.005 and −0.018 nats, intervals ±0.3) where the seen family gave +0.19 and +0.13
+
+**2026-09-04, Stage 8, discovery lane, gear one from 14:12 (his call; the run never stopped for the shift).** Every reader
+cell here is DIAGNOSIS: no reader passed the generation gate (L360), so no verdict below is a reader claim,
+and none is eligible for confirmation.
+
+**The hole first (Infrastructure; LESSONS §5 receipt).** From 14:51 to 16:12 and again from 16:42 to 17:22
+the model server answered every call with 503 (CUDA out of memory: a game held 11 of 12 GB), the client gave up
+after five tries, and each lost unit landed as an invalid row. The cells then CLOSED on the survivors: D01 on
+128 of 192 reader rows (the difference gate written from the fragment) and D04 on 3 units of 80 (its verdict
+an interval of width 0.06 on three worlds). Nothing in the Stage 7 scaffold refused a fragment. Repair, in
+place on the live tree and in code for the rest of the stage: a cell whose model arm lost more than a fifth
+of its units to the endpoint refuses to close (STARVED, exit 4, rows checkpointed), the scheduler waits five
+minutes and reruns the lost units without charging an attempt, and on resume an endpoint-failed row is not
+a done unit. D01, D04, and the two cells that read D01's rows (D02, D03) were reset with the valid rows
+restored, so only the lost units rerun. One more receipt against myself: the reset was first issued
+without the stage variable set and resolved to the CLOSED Stage 7 root, moving four of its cells; restored
+from git within the minute (checkout, no staging; the Stage 7 tree is clean), and the scheduler now refuses
+any op whose root is not this stage's. The rerun then starved again with the game gone, which exposed the
+second cause: the scoring op materialized full-vocabulary logits over the whole padded sequence in float32
+(twelve rows by 1,500 positions by 152 thousand vocabulary entries by four bytes is eleven gigabytes on a long
+log), so every per-event call ran at the card's edge and any other GPU user tipped it. The op now keeps
+only the continuation span's logits (the same numbers to the fourth decimal on a CPU check of five
+continuations, 0.0 difference) and halves its batch on out-of-memory; the D01 rerun's first 213 calls
+landed with zero out-of-memory at 4.7 GB on the card where the first attempt held 10.5.
+
+**The landings that stand.** METHOD: G01 asks each trained reader for a distribution over the closed purpose
+set with an unknown option on 96 purpose worlds (candidates within 0.15 of the top form its class; recall
+counts the truth or its equivalence partner in the class); G04 reads the same rows on the nine worlds whose
+prefix leaves two purposes exactly equivalent (coverage of both and abstention required on at least half,
+false abstention on singleton worlds at most half); D05 scores the frontier probe's per-event surprise
+against the exact tail flag on 32 population worlds (AUROC, minus the domain model's); X11 runs the trained
+readers on a second law family under the frozen ontology, 31 worlds, whole-log next-move likelihood
+against the domain model; D02 and D03 were descriptive readings of D01's rows and rerun with it.
+
+| cell | reader | measure | value | required or comparator |
+|---|---|---|---|---|
+| G01 purpose recall | SmolLM2 + adapter | recall within band, top-1 | 0.55, 0.27 | recall 0.5 |
+| G01 purpose recall | Qwen2.5 + adapter | recall within band, top-1 | 0.35, 0.31 | recall 0.5 |
+| G01 calibration | SmolLM2 / Qwen | expected calibration error | 0.10 / 0.48 | mean confidence 0.41 / 0.80 |
+| G04 equivalence | SmolLM2 | class coverage, abstention, false abstention | 0.22, 0.56, 0.67 | ≥0.5, ≥0.5, ≤0.5 |
+| G04 equivalence | Qwen2.5 | class coverage, abstention, false abstention | 0.00, 0.00, 0.10 | ≥0.5, ≥0.5, ≤0.5 |
+| D05 frontier surprise | gemini-3.5-flash-lite | AUROC minus DOM (29 scored of 32) | −0.25 [−0.38, −0.14] | ≥ 0 |
+| X11 unseen law family | Qwen / SmolLM2 | nats over DOM, whole log (31) | −0.005 [−0.30, +0.29] / −0.018 [−0.26, +0.23] | seen family +0.19 / +0.13 |
+
+*Table: the Stage 8 cells that landed whole between 14:39 and 17:50; every reader value is diagnosis on
+readers the generation gate did not admit. D05 spent 1.92 USD (ledger 2.18 of 40).*
+
+**Found.** The SmolLM2 reader names the purpose by the affordance route on 55 percent of worlds with a
+calibrated distribution (Qwen 35 percent, overconfident by 0.4), and both fail the equivalence cell in
+opposite ways: Qwen never abstains and never covers both, SmolLM2 abstains on the equivalence worlds and
+on two thirds of the singleton worlds too. The frontier probe with thinking localizes surprise WORSE than
+the domain model, as it predicted worse (E07). On a law family the readers never saw, the trained gain
+vanishes exactly: the adapter's advantage over the domain model is family-specific, not a general
+forward model of the process.
+
+**Means.** The expertise the training installed is expertise about the trained family (X11), which is
+the shape L360 predicted from the generation failure: the readers learned the surface of one family's
+logs rather than the process that generates them. The purpose route splits by reader, one honest and
+half-right, one confident and wrong, so the affordance route exists and its calibration is the variable
+to watch. Class: **Narrows** (the reader claims were already closed; this narrows what the training did).
+
+> **Curator roll-up.** Theory group: the reading model (P-S8, MS-S8). Question: with expertise installed,
+> where does the reader's surprise land and can it name the purpose? Class: **Narrows**. Result: the trained
+> gain vanishes on an unseen law family (−0.005 nats), while one reader recalls the purpose on 55 percent of
+> worlds. Project meaning: the adapter learned a family, not the process; the surprise cells (D01, D04) are
+> rerunning after a shared-card void. Next engineering obligation: the fragment guard stays for every
+> stage; a second training family before any expertise claim. Public claim: unchanged (none licensed).
+> Decision: **No**. Detail: results/phase_2_4_stage_8/{G01,G04,D05,X11}; D01, D04 under superseded_oom503/;
+> REPAIRS.json.
+
+## L360 · THE READER PREDICTS BUT DOES NOT PRODUCE: both trained readers fail the generation gate after its one repair (logs feasible under the visible structure on 72% and 57% of worlds against a required 100 percent, medians -3.18 and -2.77 nats per event under the population's 20th percentile of -2.65), so no reader is admitted and the reader claims close by the brief's rule; the untrained readers fail both gates by one to two nats; a true context beats a false one by +0.06 nats [-0.02, +0.17] with both above the domain model; the frontier probe fails the expertise band by -2.64 nats; the complete state supplied as header lines moves the trained reader -0.08 nats against the domain model where the solver executing the same state gains +0.83
+
+**Hypothesis.** The second half of the first executive question (can the reader make?): a reader
+that predicts the standard process should also produce it, writing a whole log from the header
+alone whose likelihood under the exact standard process sits at or above the real logs' 20th
+percentile with every event feasible; the untrained readers should fail both halves; after the
+gate a true context should help and a false one cost (E06); a frontier model with thinking on
+should say whether the Stage 7 boundary is a small-model boundary (E07); and the trained reader
+handed the complete state should be measured against the Stage 7 comparator (E08).
+
+**Method.** E04 sampled one log per world at the reader's own temperature on 40 held-out population
+worlds without a scheduled change (28 lines at most), judged feasibility, and scored each log's
+per-event mean log-likelihood under the exact population process (the uniform grid over eight
+goal objects, three laws, four beliefs, four residues) against the 40 real logs' distribution. The
+first landing judged feasibility against the hidden inventory (which slots carry a revise, which
+section holds the restructure, fix, and probe), structure the header never shows, and read
+22% and 18%; the one repair judges feasibility against the visible structure
+(sections, slot counts, the fixed slots of the tool and structure moves, no action repeated, the
+outcome agreeing with the header's tools) and scores the log under the inventory extended by the
+reader's visibly valid moves; the world's own log passes the corrected ruler on 40 of 40 (LESSONS
+§3). E05 ran the untrained letter readout (DIR0) and the base weights through the generative
+readout (FMB) on E03's units, and the base weights through E04's gate. E06 scored the forward
+model on 65 purpose worlds under the true header and under a header with the tools and deadline
+inverted. E07 asked gemini-3.5-flash-lite (thinking on, one-call verbalized distribution) the
+next move on E03's units. E08 supplied the seven factors as language lines in the header and the
+solver the same state executable.
+
+| cell | what | Qwen2.5-1.5B + adapter | SmolLM2-1.7B + adapter |
+|---|---|---|---|
+| E04 generation gate, feasibility (visible rule) | share of logs with every event feasible | 0.72 | 0.57 |
+| E04 median per-event likelihood | against the real logs' 20th percentile -2.65 | -3.18 | -2.77 |
+| E04 events per log, stopped share | | 6.5, 1.00 | 16.6, 0.57 |
+| E05 untrained letter readout vs DOM | nats, 83 units | -2.39 [-3.01, -1.79] | -0.89 [-1.18, -0.58] |
+| E05 base weights, generative readout vs DOM | nats | -1.78 | -2.01 |
+| E06 true minus false context | nats, whole; tail | +0.06 [-0.03, +0.17]; tail +0.17 | +0.05 [-0.05, +0.17]; tail +0.09 |
+| E06 true context vs DOM; false vs DOM | nats | +0.12; +0.02 | +0.11; +0.10 |
+| E08 state as header lines vs DOM | nats, whole; tail | -0.11 [-0.57, +0.33]; tail -0.05 | -0.05 [-0.37, +0.27]; tail +0.23 |
+
+*Table: the gate and diagnostic cells per reader; E07 (the frontier, one model) sits -2.64 nats
+[-4.52, -0.94] under the domain model on 41 units with 98% of its answers parsed, at 0.26 USD; the solver
+executing the supplied state in E08 gains +0.83 over the domain model (the oracle gap 0.83, the tail gap 1.86).*
+
+**What we found.** The readers predict the standard process and do not produce it. Sampled from
+their own distribution, a quarter to two fifths of their logs contain a move the header rules
+out, most often a tool-gated move written as done when the header says the tool is absent, and
+the median log sits under the population's 20th percentile on both; the shorter, always-stopping
+Qwen logs and the longer SmolLM2 logs fail the same way. The gate is the brief's conjunction, so
+no reader is admitted and the reader claims of the stage close by rule; the interrupt is recorded
+and the difference, purpose, and accumulation cells run as labeled diagnosis on the trained
+readers under the curator's ruling that every test runs, barred from confirmation. The untrained
+comparators fail both halves as the Stage 7 reading predicted, by one to two nats. A true
+context helps a little and a false one costs a little on the trained readers, both sides still
+above the domain model, the difference a tenth of a nat with an interval that covers zero, so the
+sign-difference prediction is not resolved on this construction. The frontier probe with
+thinking on sits two and a half nats under the domain model at the same task, the Stage 7
+readers' order, so the boundary on this construction is not a small-model boundary. The
+complete state as header lines moves the trained reader nowhere (a tenth of a nat under the
+domain model, the interval covering zero) where the program executing the same bytes gains
+a tenth; in Stage 7 the untrained reader handed the state lost half a nat (K04), so installed
+expertise removes the loss and adds no use.
+
+**What it means.** Prediction and production come apart at this scale: the installed forward
+model ranks the population's moves as well as the fitted program and cannot write a legal log
+from a header, which is the first measured gap between holding the standard process and being
+able to run it. The reading model's precondition is therefore half met, and everything after it
+in this stage is diagnosis.
+
+> **Curator roll-up.** Theory group: the reading model (P-S8). Question: does the reader that
+> predicts the standard process also produce it? Class: **Narrows**. Result: both readers fail
+> the generation gate (feasible logs on 73 and 58 percent of worlds against a required 100).
+> Project meaning: the reader claims close by the brief's rule; the trunks that follow are
+> diagnosis. Next engineering obligation: a decoding readout that respects the header's tools
+> (constrained sampling) as the next stage's declared gate variant, measured against this one.
+> Public claim: unchanged (none licensed). Decision: **Yes**, whether the diagnosis cells' results
+> may inform a Stage 9 gate design (recommended: yes, as diagnosis, never as claims). Detail:
+> results/phase_2_4_stage_8/E04, E05, E06, E07, E08; INTERRUPTS.json.
 
 ## POSITIVE
 

@@ -134,6 +134,19 @@ the example.*
 
 *2026-09-01 walkthrough; spoken wording lightly reconstructed.*
 
+> Finding the things that are actually interesting about the thing requires the full ability to
+> encapsulate the expertise. That is probably why children's drawings are only interesting to their
+> parents: all of the interesting things about them are expressions of that child, and the parents
+> deeply analyze that.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+Expertise is the precondition for seeing the maker: without the standard process a reader has nothing
+to be surprised by. The child's-drawing case sits in tension with the essay's account of where
+interest lives, since there the interesting things are the child's own expressions read by a
+reader whose expertise is in the child rather than in drawing; the tension is recorded OPEN and is the
+curator's to resolve.
+
 Expertise is the maker's learned transition model, the structure through which all three
 functional levels can constrain action; a realized process is one path through it, and neither
 is identical to any one depth, to conscious executive control, or to a stored policy. A reader
@@ -230,7 +243,9 @@ the record shows through the prefix and the redirection does not. The cross-epis
 maker's earlier episodes and transfers, a program recovers it at the oracle's level and one
 small reader proposes it usably, and that is all the earlier episodes carry, since the same
 demonstrations do not rescue a reader that fails on the belief, the goal, and the residue
-cold. Confidence: untested, logic only, for the scaffold and the formation account; the two
+cold. The walkthrough adds the precondition the scaffold had left implicit: seeing the maker requires
+the expertise to run the standard process first, which Stage 8 installs by training and gates before
+any reading claim, with the child's-drawing tension left open. Confidence: untested, logic only, for the scaffold and the formation account; the two
 construction facts are exact-layer facts on one construction family; the Stage 6 reader
 instrument is instrument-dead.
 

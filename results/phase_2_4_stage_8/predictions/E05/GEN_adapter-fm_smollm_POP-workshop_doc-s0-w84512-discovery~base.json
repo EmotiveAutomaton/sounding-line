@@ -1,0 +1,103 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "92449745ce6ebf0e",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 57,
+  "tokens_out": 336,
+  "wall_s": 16.858
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "a9a339bb662d5630",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "\nsection sec1[0]\nThe lathe is a widely used machine tool in mechanical manufacturing and the most ancient.\n\nsection sec2[1]\nIt is widely used in the mechanical industry, used for making gears, gears and other various parts, and is a powerful tool for making symmetrical curves.\n\nsection sec3[2]\nIf the axis of rotation of the milling machine tool is fixed, it is called a \"lathe\", for example, lathe, which is used for making parts with symmetry on both sides of the axis, such as gears and pulleys.\n\nsection sec4[4]\nThe lathe is the oldest machine tool. It is made of wood and stone.\n\nsection sec5[6]\nThe method of cutting tools. First, clamp the material to be processed on the lathe and perform the cutting. First, the cutter is fixed to any position on the tool post, holding it firmly to the spindle head.\n\nsubsection s1c1[7]\nWith this method, the method of tool wear reduction on the cross slide can be solved.\n\nsubsection s1c2[8]\nCutting tools with different cutting paths are used for cutting tools.\n\nsubsection s1c3[9]\nLathe tools can be divided into three categories: drilling tools, reaming tools and turning tools.\n\nsubsection s1c4[10]\nThe method of turning the center of the workpiece.\n",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.05263157894736842,
+   "check:sec2:s2.1": 0.05263157894736842,
+   "check:sec3:s3.1": 0.05263157894736842,
+   "check:sec4:s4.1": 0.05263157894736842,
+   "check:sec5:s5.1": 0.05263157894736842,
+   "cite:sec5:ref": 0.05263157894736842,
+   "consult:sec1:src": 0.05263157894736842,
+   "fix:sec2:s2.1": 0.05263157894736842,
+   "restructure:sec3:order": 0.05263157894736842,
+   "revise:sec1:s1.1": 0.05263157894736842,
+   "revise:sec2:s2.2": 0.05263157894736842,
+   "revise:sec3:s3.1": 0.05263157894736842,
+   "revise:sec4:s4.1": 0.05263157894736842,
+   "revise:sec4:s4.2": 0.05263157894736842,
+   "write:sec1:s1.1": 0.05263157894736842,
+   "write:sec1:s1.2": 0.05263157894736842,
+   "write:sec3:s3.2": 0.05263157894736842,
+   "write:sec4:s4.2": 0.05263157894736842,
+   "write:sec5:s5.1": 0.05263157894736842
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.05263157894736842,
+   "check:sec2:s2.1": 0.05263157894736842,
+   "check:sec3:s3.1": 0.05263157894736842,
+   "check:sec4:s4.1": 0.05263157894736842,
+   "check:sec5:s5.1": 0.05263157894736842,
+   "cite:sec5:ref": 0.05263157894736842,
+   "consult:sec1:src": 0.05263157894736842,
+   "fix:sec2:s2.1": 0.05263157894736842,
+   "restructure:sec3:order": 0.05263157894736842,
+   "revise:sec1:s1.1": 0.05263157894736842,
+   "revise:sec2:s2.2": 0.05263157894736842,
+   "revise:sec3:s3.1": 0.05263157894736842,
+   "revise:sec4:s4.1": 0.05263157894736842,
+   "revise:sec4:s4.2": 0.05263157894736842,
+   "write:sec1:s1.1": 0.05263157894736842,
+   "write:sec1:s1.2": 0.05263157894736842,
+   "write:sec3:s3.2": 0.05263157894736842,
+   "write:sec4:s4.2": 0.05263157894736842,
+   "write:sec5:s5.1": 0.05263157894736842
+  },
+  "next_section": {
+   "sec1": 0.2631578947368421,
+   "sec2": 0.15789473684210525,
+   "sec3": 0.21052631578947367,
+   "sec4": 0.21052631578947367,
+   "sec5": 0.15789473684210525
+  },
+  "next_type": {
+   "check": 0.2631578947368421,
+   "cite": 0.05263157894736842,
+   "consult": 0.05263157894736842,
+   "fix": 0.05263157894736842,
+   "probe": 0.0,
+   "restructure": 0.05263157894736842,
+   "revise": 0.2631578947368421,
+   "write": 0.2631578947368421
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

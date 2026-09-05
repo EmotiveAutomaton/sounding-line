@@ -1,0 +1,66 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "9cc2efb0ca5db01b",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 37,
+  "tokens_out": 336,
+  "wall_s": 31.861
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "a82bbbb3e3aa9596",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "sec1 (3/9)\n\n* set the time to start in minutes from now\n  * how much earlier than now is that?\n  \n  * what's currently turned on? \n    - if there are multiple things, list them and explain briefly.\n    \n  * how long before it's ready will that take?\n\nsec2 (5/9)\n\n* turn off everything you can safely turn off that isn't already completely off. \n\n  * make a note of anything that can't be turned off without turning something else on or off as well\n\n  * do this carefully, making sure no one accidentally switches anything back.\n\n---\n\n**I apologize for any formatting issues; I'm not able to preview here.**\nCertainly! Let's break down your task into two main sections:\n\n### Section 1 (Duration: Approximately 10-12 minutes):\n\n#### Step-by-Step Instructions:\n\n1. **Set the Time to Start:**",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec2:ref": 0.5,
+   "restructure:sec2:order": 0.5
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec2:ref": 0.5,
+   "restructure:sec2:order": 0.5
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 1.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.5,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.5,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

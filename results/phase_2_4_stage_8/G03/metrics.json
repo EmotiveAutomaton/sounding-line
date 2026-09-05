@@ -1,0 +1,237 @@
+{
+ "card": "G03",
+ "lane": "discovery",
+ "written_at": "2026-09-04T19:22:01",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "fmp_vs_copied_brief": {
+  "whole": {
+   "adapter:fm_qwen": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "reason": "directional support at or above the frozen threshold",
+    "point": 0.07336329544849976,
+    "ci": [
+     0.019898603719559513,
+     0.13050206612857754
+    ],
+    "n_units": 96,
+    "threshold": 0.03,
+    "perm_p": 0.008999550022498875,
+    "arm": "FMP",
+    "rival": "COPIED",
+    "n_arm": 96,
+    "n_rival": 192
+   },
+   "adapter:fm_smollm": {
+    "outcome": "COUNTEREVIDENCE",
+    "reason": "interval entirely below zero",
+    "point": -0.07332519802480272,
+    "ci": [
+     -0.14074948388052105,
+     -0.010626220968990399
+    ],
+    "n_units": 96,
+    "threshold": 0.03,
+    "perm_p": 0.02769861506924654,
+    "arm": "FMP",
+    "rival": "COPIED",
+    "n_arm": 96,
+    "n_rival": 192
+   },
+   "pooled": {
+    "outcome": "VALID_NULL",
+    "reason": "interval includes zero and excludes a practically useful benefit",
+    "point": 1.904871184850154e-05,
+    "ci": [
+     -0.012821330686532004,
+     0.013247760999820427
+    ],
+    "n_units": 96,
+    "threshold": 0.03,
+    "perm_p": 0.9975501224938753,
+    "arm": "FMP",
+    "rival": "COPIED",
+    "note": "pooled after the conditional cells"
+   }
+  },
+  "tail": {
+   "adapter:fm_qwen": {
+    "outcome": "INCONCLUSIVE",
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "point": 0.06339697933869994,
+    "ci": [
+     -0.037320488242031664,
+     0.16698721371606462
+    ],
+    "n_units": 22,
+    "threshold": 0.03,
+    "perm_p": 0.24948752562371881,
+    "arm": "FMP",
+    "rival": "COPIED",
+    "n_arm": 22,
+    "n_rival": 44
+   },
+   "adapter:fm_smollm": {
+    "outcome": "INCONCLUSIVE",
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "point": -0.02889064791537923,
+    "ci": [
+     -0.14457444815413503,
+     0.11699788357700296
+    ],
+    "n_units": 22,
+    "threshold": 0.03,
+    "perm_p": 0.7011149442527873,
+    "arm": "FMP",
+    "rival": "COPIED",
+    "n_arm": 22,
+    "n_rival": 44
+   },
+   "pooled": {
+    "outcome": "INCONCLUSIVE",
+    "reason": "interval includes zero and cannot exclude a useful benefit",
+    "point": 0.01725316571166035,
+    "ci": [
+     -0.013538343458704234,
+     0.0533368729712917
+    ],
+    "n_units": 22,
+    "threshold": 0.03,
+    "perm_p": 0.3619319034048298,
+    "arm": "FMP",
+    "rival": "COPIED",
+    "note": "pooled after the conditional cells"
+   }
+  },
+  "floor_whole": 0.03,
+  "floor_tail": 0.03,
+  "gap_whole": {
+   "gap": null,
+   "n": 0
+  },
+  "gap_tail": {
+   "gap": null,
+   "n": 0
+  }
+ },
+ "note": "the changed-context log score; the copied-brief rival predicts the unchanged choice",
+ "whole": {
+  "adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.10089577954467786,
+   "ci": [
+    -0.08072241063912204,
+    0.2810562696123868
+   ],
+   "n_units": 96,
+   "threshold": 0.03,
+   "perm_p": 0.27488625568721564,
+   "arm": "FMP",
+   "rival": "DOM",
+   "n_arm": 96,
+   "n_rival": 96
+  },
+  "adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.04579271392862463,
+   "ci": [
+    -0.24230587526584169,
+    0.15946550310363092
+   ],
+   "n_units": 96,
+   "threshold": 0.03,
+   "perm_p": 0.6812659367031648,
+   "arm": "FMP",
+   "rival": "DOM",
+   "n_arm": 96,
+   "n_rival": 96
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.027551532808026597,
+   "ci": [
+    -0.16914886122529038,
+    0.22355880925069113
+   ],
+   "n_units": 96,
+   "threshold": 0.03,
+   "perm_p": 0.7728113594320284,
+   "arm": "FMP",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "tail": {
+  "adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.4094220914090648,
+   "ci": [
+    -0.08128004250832298,
+    0.8502869867759262
+   ],
+   "n_units": 22,
+   "threshold": 0.03,
+   "perm_p": 0.10109494525273736,
+   "arm": "FMP",
+   "rival": "DOM",
+   "n_arm": 22,
+   "n_rival": 22
+  },
+  "adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.31713446415498564,
+   "ci": [
+    -0.18622347346259113,
+    0.7979861870320122
+   ],
+   "n_units": 22,
+   "threshold": 0.03,
+   "perm_p": 0.231938403079846,
+   "arm": "FMP",
+   "rival": "DOM",
+   "n_arm": 22,
+   "n_rival": 22
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.3632782777820252,
+   "ci": [
+    -0.11024156633080437,
+    0.8143443222200123
+   ],
+   "n_units": 22,
+   "threshold": 0.03,
+   "perm_p": 0.14619269036548171,
+   "arm": "FMP",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "floors": {
+  "whole": 0.03,
+  "tail": 0.03
+ },
+ "gaps": {
+  "whole": {
+   "gap": null,
+   "n": 0
+  },
+  "tail": {
+   "gap": null,
+   "n": 0
+  }
+ },
+ "degenerate_worlds": 0
+}

@@ -1,0 +1,182 @@
+{
+ "name": "stage8_testbed",
+ "written_at": "2026-09-04T08:26:57",
+ "policy": "manifests only: hashes, URLs, lengths, license hints; text in the gitignored store; bulk data never re-hosted",
+ "items": {
+  "argrewrite_v2": {
+   "in_hand": true,
+   "path": "corpora/public/argrewrite",
+   "human_input": "readers' inferred revision purposes (the reader-guess corpus)",
+   "card": "the reader-guess corpus",
+   "fetched": [],
+   "n_local_files": 635,
+   "status": "IN_HAND"
+  },
+  "newsedits_2": {
+   "human_input": "professional editors' intention labels; a prospective update task with published baselines",
+   "card": "the real-record ceiling",
+   "fetched": [
+    {
+     "url": "https://raw.githubusercontent.com/isi-nlp/newsedits/master/README.md",
+     "final_url": "https://raw.githubusercontent.com/isi-nlp/newsedits/master/README.md",
+     "sha256": "807c784ceecfe89546f8ed729b7fc92d7fbc0606bd97a7adef72faaefbba7601",
+     "n_chars": 3434,
+     "content_type": "text/plain; charset=utf-8",
+     "robots_allowed": true,
+     "license_hint": "see page",
+     "fetched_at": "2026-09-04T15:11:15Z"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/isi-nlp/newsedits/master/LICENSE",
+     "error": "<HTTPError 404: 'Not Found'>"
+    }
+   ],
+   "n_local_files": null,
+   "status": "MANIFEST_PARTIAL"
+  },
+  "arxivedits": {
+   "human_input": "annotator intention labels on real revisions",
+   "card": "small, clean intention truth",
+   "fetched": [
+    {
+     "url": "https://arxiv.org/abs/2210.15067",
+     "final_url": "https://arxiv.org/abs/2210.15067",
+     "sha256": "99115054674b620277e60153fdf4cee00a096d79a1036f6c61bc88d3aaa0d168",
+     "n_chars": 4724,
+     "content_type": "text/html; charset=utf-8",
+     "robots_allowed": true,
+     "license_hint": "see page",
+     "fetched_at": "2026-09-04T15:11:18Z"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/chaojiang06/arXivEdits/main/README.md",
+     "final_url": "https://raw.githubusercontent.com/chaojiang06/arXivEdits/main/README.md",
+     "sha256": "9c42107fe9d8bf3eb57fb9fb4350eb2e3c92f74f05fb078c4b2d264f811d170a",
+     "n_chars": 2466,
+     "content_type": "text/plain; charset=utf-8",
+     "robots_allowed": true,
+     "license_hint": "see page",
+     "fetched_at": "2026-09-04T15:11:19Z"
+    }
+   ],
+   "n_local_files": null,
+   "status": "MANIFESTED"
+  },
+  "iterater": {
+   "human_input": "annotator intention labels on real revisions",
+   "card": "small, clean intention truth",
+   "fetched": [
+    {
+     "url": "https://raw.githubusercontent.com/vipulraheja/iterater/main/README.md",
+     "final_url": "https://raw.githubusercontent.com/vipulraheja/iterater/main/README.md",
+     "sha256": "dc5bfb1e2e9f2b571c243d93a33e94b4ec6780bb7cae5731235129265c55935e",
+     "n_chars": 14236,
+     "content_type": "text/plain; charset=utf-8",
+     "robots_allowed": true,
+     "license_hint": "see page",
+     "fetched_at": "2026-09-04T15:11:21Z"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/vipulraheja/iterater/main/LICENSE",
+     "final_url": "https://raw.githubusercontent.com/vipulraheja/iterater/main/LICENSE",
+     "sha256": "c0ce83e35fe5d08830446c0921d094bc561566f09debe1946fa9ad89106eea8d",
+     "n_chars": 10253,
+     "content_type": "text/plain; charset=utf-8",
+     "robots_allowed": true,
+     "license_hint": "apache license",
+     "fetched_at": "2026-09-04T15:11:23Z"
+    },
+    {
+     "url": "https://huggingface.co/datasets/wanghaoxu/IteraTeR_full_sent",
+     "error": "<HTTPError 401: 'Unauthorized'>"
+    }
+   ],
+   "n_local_files": null,
+   "status": "MANIFEST_PARTIAL"
+  },
+  "genius_expertise": {
+   "human_input": "crowd inferences and, where obtainable, the maker's own statements on the same lines",
+   "card": "the human bridge without recruitment; licensing is the catch",
+   "fetched": [
+    {
+     "url": "https://www.cs.cornell.edu/~arb/data/genius-expertise/",
+     "error": "URLError(SSLCertVerificationError(5, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)'))"
+    }
+   ],
+   "n_local_files": null,
+   "status": "MANIFEST_FAILED"
+  },
+  "woolf_online": {
+   "human_input": "drafts with scholarly commentary",
+   "card": "one maker across drafts",
+   "fetched": [
+    {
+     "url": "http://www.woolfonline.com/",
+     "final_url": "http://www.woolfonline.com/",
+     "sha256": "4b386e8fdac8ba62f548fce3dd16a9e8ecf45a73a69902402d1768a1489e6f56",
+     "n_chars": 5741,
+     "content_type": "text/html",
+     "robots_allowed": true,
+     "license_hint": "see page",
+     "fetched_at": "2026-09-04T15:11:25Z"
+    }
+   ],
+   "n_local_files": null,
+   "status": "MANIFESTED"
+  },
+  "shelley_godwin": {
+   "human_input": "manuscript drafts with editorial transcription (a second genetic edition)",
+   "card": "one maker across drafts",
+   "fetched": [
+    {
+     "url": "https://shelleygodwinarchive.org/",
+     "final_url": "https://shelleygodwinarchive.org/",
+     "sha256": "02b748b3a0091ca2d40b6949dfdd527f589f64f0757cdb592a0b2553c4e20c50",
+     "n_chars": 1329,
+     "content_type": "text/html",
+     "robots_allowed": true,
+     "license_hint": "see page",
+     "fetched_at": "2026-09-04T15:11:25Z"
+    }
+   ],
+   "n_local_files": null,
+   "status": "MANIFESTED"
+  },
+  "commitbench": {
+   "human_input": "makers' stated intentions per change (commit messages) in code; a domain caveat",
+   "card": "stated proximal goals at scale, in code",
+   "fetched": [
+    {
+     "url": "https://huggingface.co/datasets/Maxscha/commitbench",
+     "final_url": "https://huggingface.co/datasets/Maxscha/commitbench",
+     "sha256": "a81fb823b1fd40c4d09fbbd1481c7f3f782b1722f0cde302cedf44d1e10f3c8a",
+     "n_chars": 165070,
+     "content_type": "text/html; charset=utf-8",
+     "robots_allowed": true,
+     "license_hint": "mit license",
+     "fetched_at": "2026-09-04T15:11:26Z"
+    }
+   ],
+   "n_local_files": null,
+   "status": "MANIFESTED"
+  },
+  "coauthor": {
+   "in_hand": true,
+   "path": "corpora/coauthor",
+   "human_input": "the writer's suggestion decisions (accept, edit, dismiss, ignore)",
+   "card": "already measured (Stage 7 P13)",
+   "fetched": [],
+   "n_local_files": 1447,
+   "status": "IN_HAND"
+  },
+  "scholawrite": {
+   "in_hand": true,
+   "path": "",
+   "human_input": "the writer's own labels on keystroke-level revision",
+   "card": "already measured (Stage 7 P14)",
+   "fetched": [],
+   "n_local_files": null,
+   "status": "IN_HAND"
+  }
+ }
+}

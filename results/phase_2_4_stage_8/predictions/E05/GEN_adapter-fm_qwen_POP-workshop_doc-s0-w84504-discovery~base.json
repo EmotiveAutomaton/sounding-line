@@ -1,0 +1,88 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "df095f50437db760",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 37,
+  "tokens_out": 336,
+  "wall_s": 22.035
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "26186deb376849e8",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "  - time=05-18-2023 time=07-19-2023\n  - user=Alex B.\n  - topic=The Lathe Manual\n  - summary=Started reading, found basic information on lathe setup and operations.\n\n---\n\n## Introduction to the Lathe Manual\n\nWelcome to the \"Lathe Manual,\" a comprehensive guide intended for individuals with an interest in learning about how to use CNC lathes safely and effectively. This document will introduce you to foundational concepts, safety precautions, and essential skills required to operate a CNC lathe confidently.\n\n### Chapter One: Understanding the Setup\n\nTo utilize a CNC lathe properly, it's crucial to understand its structure, parts, and their functions:\n\n#### Basic Components of the CNC Lathe\n\n1. **Headstock**: Holds the tool holder and spindle that rotates the workpiece.\n2. **Spindle Head**: Controls the speed and direction of rotation.\n3. **Tool Holder**:\n   - **CNC Spindle**: Equipped with various tools such as drills, taps, milling bits, etc., for performing specific tasks.\n   - **Magnetic Tool Holders** (MTH): Available for quick changing of cutters.\n   \n4. **Coolant System**: Injects water or oil to cool chips and ensure smooth cutting.\n\n5. **Feed Mechanism**: Adjusts feed rate along X,Y,Z directions for precise positioning.\n6. **Workpiece Support**: Ensures stable mounting of the stock during machining operations.\n",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.07692307692307693,
+   "cite:sec2:ref": 0.07692307692307693,
+   "consult:sec1:src": 0.07692307692307693,
+   "probe:sec1:tech": 0.07692307692307693,
+   "restructure:sec2:order": 0.07692307692307693,
+   "revise:sec1:s1.2": 0.07692307692307693,
+   "revise:sec1:s1.3": 0.07692307692307693,
+   "revise:sec2:s2.1": 0.07692307692307693,
+   "revise:sec2:s2.2": 0.07692307692307693,
+   "write:sec1:s1.4": 0.07692307692307693,
+   "write:sec2:s2.1": 0.07692307692307693,
+   "write:sec2:s2.3": 0.07692307692307693,
+   "write:sec2:s2.4": 0.07692307692307693
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.07692307692307693,
+   "cite:sec2:ref": 0.07692307692307693,
+   "consult:sec1:src": 0.07692307692307693,
+   "probe:sec1:tech": 0.07692307692307693,
+   "restructure:sec2:order": 0.07692307692307693,
+   "revise:sec1:s1.2": 0.07692307692307693,
+   "revise:sec1:s1.3": 0.07692307692307693,
+   "revise:sec2:s2.1": 0.07692307692307693,
+   "revise:sec2:s2.2": 0.07692307692307693,
+   "write:sec1:s1.4": 0.07692307692307693,
+   "write:sec2:s2.1": 0.07692307692307693,
+   "write:sec2:s2.3": 0.07692307692307693,
+   "write:sec2:s2.4": 0.07692307692307693
+  },
+  "next_section": {
+   "sec1": 0.46153846153846156,
+   "sec2": 0.5384615384615385
+  },
+  "next_type": {
+   "check": 0.07692307692307693,
+   "cite": 0.07692307692307693,
+   "consult": 0.07692307692307693,
+   "fix": 0.0,
+   "probe": 0.07692307692307693,
+   "restructure": 0.07692307692307693,
+   "revise": 0.3076923076923077,
+   "write": 0.3076923076923077
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

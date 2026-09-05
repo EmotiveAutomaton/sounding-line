@@ -1,0 +1,105 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "90984033ecda9012",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 277,
+  "tokens_out": 0,
+  "wall_s": 3.82
+ },
+ "confidence": 0.540562550956661,
+ "equivalence_class": [
+  "document"
+ ],
+ "evidence_sha": "e4edeeec0594196f",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.540562550956661,
+   "equivalence_class": [
+    "document"
+   ],
+   "purpose": {
+    "document": 0.540562550956661,
+    "explore": 0.1225152311694358,
+    "persuade": 0.15010879907386177,
+    "teach": 0.18681341880004157
+   },
+   "raw": {
+    "document": 0.41925449741934834,
+    "explore": 0.09502149488390148,
+    "persuade": 0.11642276921062464,
+    "teach": 0.1448904772844338,
+    "unknown": 0.2244107612016917
+   },
+   "unknown": 0.2244107612016917,
+   "weights": "base"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.1,
+   "check:sec2:s2.1": 0.1,
+   "check:sec3:s3.1": 0.1,
+   "consult:sec1:src": 0.1,
+   "fix:sec2:s2.1": 0.1,
+   "probe:sec1:tech": 0.1,
+   "restructure:sec2:order": 0.1,
+   "revise:sec1:s1.1": 0.1,
+   "revise:sec3:s3.1": 0.1,
+   "write:sec3:s3.1": 0.1
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.1,
+   "check:sec2:s2.1": 0.1,
+   "check:sec3:s3.1": 0.1,
+   "consult:sec1:src": 0.1,
+   "fix:sec2:s2.1": 0.1,
+   "probe:sec1:tech": 0.1,
+   "restructure:sec2:order": 0.1,
+   "revise:sec1:s1.1": 0.1,
+   "revise:sec3:s3.1": 0.1,
+   "write:sec3:s3.1": 0.1
+  },
+  "next_section": {
+   "sec1": 0.4,
+   "sec2": 0.30000000000000004,
+   "sec3": 0.30000000000000004
+  },
+  "next_type": {
+   "check": 0.30000000000000004,
+   "cite": 0.0,
+   "consult": 0.1,
+   "fix": 0.1,
+   "probe": 0.1,
+   "restructure": 0.1,
+   "revise": 0.2,
+   "write": 0.1
+  },
+  "purpose": {
+   "document": 0.540562550956661,
+   "explore": 0.1225152311694358,
+   "persuade": 0.15010879907386177,
+   "teach": 0.18681341880004157
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

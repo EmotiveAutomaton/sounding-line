@@ -1,0 +1,101 @@
+{
+ "card": "A02",
+ "cell_id": "A02",
+ "lane": "discovery",
+ "track": "accumulation",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 43.81,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "recall from the closed distributions at each N; the Stage 7 recall figures are the N=0 comparator",
+ "exec": "COMPLETE",
+ "outcome": "DESCRIPTIVE",
+ "primary": "Does the reader's recall of the maker's law and residue rise with N?",
+ "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"LAWR\": {\"recall_by_n\": {\"0\": 0.4375, \"1\": 0.3541666666666667, \"2\": 0.25, \"3\": 0.2916666666666667}, \"chance\": 0.3333333333333333, \"rises\": false}, \"RESR\": {\"recall_by_n\": {\"0\": 0.3333333333333333, \"1\": 0.20833333333333334, \"2\": 0.2708333333333333, \"3\": 0.20833333333333334}, \"chance\": 0.25, \"rises\": false}}, \"adapter:fm_smollm\": {\"LAWR\": {\"recall_by_n\": {\"0\": 0.3125, \"1\": 0.3958333333333333, \"2\": 0.10416666666666667, \"3\": 0.3541666666666667}, \"chance\": 0.3333333333333333, \"rises\": false}, \"RESR\": {\"recall_by_n\": {\"0\": 0.3333333333333333, \"1\": 0.20833333333333334, \"2\": 0.375, \"3\": 0.3541666666666667}, \"chance\": 0.25, \"rises\": false}}}",
+ "conditional_cells": {
+  "adapter:fm_qwen|LAWR|n0": {
+   "outcome": "flat",
+   "point": 0.4375
+  },
+  "adapter:fm_qwen|LAWR|n1": {
+   "outcome": "flat",
+   "point": 0.3541666666666667
+  },
+  "adapter:fm_qwen|LAWR|n2": {
+   "outcome": "flat",
+   "point": 0.25
+  },
+  "adapter:fm_qwen|LAWR|n3": {
+   "outcome": "flat",
+   "point": 0.2916666666666667
+  },
+  "adapter:fm_qwen|RESR|n0": {
+   "outcome": "flat",
+   "point": 0.3333333333333333
+  },
+  "adapter:fm_qwen|RESR|n1": {
+   "outcome": "flat",
+   "point": 0.20833333333333334
+  },
+  "adapter:fm_qwen|RESR|n2": {
+   "outcome": "flat",
+   "point": 0.2708333333333333
+  },
+  "adapter:fm_qwen|RESR|n3": {
+   "outcome": "flat",
+   "point": 0.20833333333333334
+  },
+  "adapter:fm_smollm|LAWR|n0": {
+   "outcome": "flat",
+   "point": 0.3125
+  },
+  "adapter:fm_smollm|LAWR|n1": {
+   "outcome": "flat",
+   "point": 0.3958333333333333
+  },
+  "adapter:fm_smollm|LAWR|n2": {
+   "outcome": "flat",
+   "point": 0.10416666666666667
+  },
+  "adapter:fm_smollm|LAWR|n3": {
+   "outcome": "flat",
+   "point": 0.3541666666666667
+  },
+  "adapter:fm_smollm|RESR|n0": {
+   "outcome": "flat",
+   "point": 0.3333333333333333
+  },
+  "adapter:fm_smollm|RESR|n1": {
+   "outcome": "flat",
+   "point": 0.20833333333333334
+  },
+  "adapter:fm_smollm|RESR|n2": {
+   "outcome": "flat",
+   "point": 0.375
+  },
+  "adapter:fm_smollm|RESR|n3": {
+   "outcome": "flat",
+   "point": 0.3541666666666667
+  }
+ },
+ "diagnosis_only": true,
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A02\\metrics.json",
+    "sha256": "c47402635d2713dc174ef720da5e7c1aaa2f6712dc794ea88695b6d1ccb83634"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A02\\cases.jsonl",
+    "sha256": "83e7782fe1c6f52c3f9c95a8a09cac2da6b9a03c6395cf8eb6fd885e474debd7"
+   }
+  },
+  "written_at": "2026-09-05T00:07:30"
+ }
+}

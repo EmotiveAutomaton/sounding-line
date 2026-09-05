@@ -1,0 +1,531 @@
+{
+ "card": "E05",
+ "lane": "discovery",
+ "written_at": "2026-09-04T14:03:38",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "readers": {
+  "DIR0|adapter:fm_qwen": {
+   "passed": false,
+   "gap": -2.3891406811073255,
+   "ci": [
+    -3.0116647701331383,
+    -1.7877210619726358
+   ],
+   "outcome": "COUNTEREVIDENCE"
+  },
+  "DIR0|adapter:fm_smollm": {
+   "passed": false,
+   "gap": -0.8935865834419218,
+   "ci": [
+    -1.1811524960678443,
+    -0.5792290068613678
+   ],
+   "outcome": "COUNTEREVIDENCE"
+  },
+  "FMB|adapter:fm_qwen": {
+   "passed": false,
+   "gap": -1.7824429617432271,
+   "ci": [
+    -2.6956029164107003,
+    -0.940568295719781
+   ],
+   "outcome": "COUNTEREVIDENCE"
+  },
+  "FMB|adapter:fm_smollm": {
+   "passed": false,
+   "gap": -2.009541538159074,
+   "ci": [
+    -2.9701018524633827,
+    -1.107188755504003
+   ],
+   "outcome": "COUNTEREVIDENCE"
+  }
+ },
+ "generation": {
+  "real_percentile_value": -2.65249094195846,
+  "n_real": 32,
+  "readers": {
+   "adapter:fm_qwen": {
+    "n": 32,
+    "feasibility": 0.0,
+    "feasibility_hidden_inventory": 0.0,
+    "median_per_event_ll": null,
+    "share_at_or_above_percentile": 0.0,
+    "passed": false,
+    "rule": "visible structure (the one repair); the hidden-inventory reading beside it",
+    "mean_events": 0.0,
+    "stopped_share": 0.0,
+    "gens": [
+     {
+      "lid": "POP|essay|s0|w84500|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84502|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84503|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84504|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84505|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84506|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84507|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84508|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84509|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84510|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84511|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84512|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84513|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84514|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84515|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84516|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84501|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84502|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84503|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84504|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84507|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84508|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84509|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84510|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84512|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84513|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84515|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84516|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84518|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84519|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84520|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84522|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     }
+    ]
+   },
+   "adapter:fm_smollm": {
+    "n": 32,
+    "feasibility": 0.0,
+    "feasibility_hidden_inventory": 0.0,
+    "median_per_event_ll": null,
+    "share_at_or_above_percentile": 0.0,
+    "passed": false,
+    "rule": "visible structure (the one repair); the hidden-inventory reading beside it",
+    "mean_events": 0.0,
+    "stopped_share": 0.0,
+    "gens": [
+     {
+      "lid": "POP|essay|s0|w84500|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84502|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84503|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84504|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84505|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84506|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84507|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84508|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84509|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84510|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84511|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84512|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84513|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84514|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84515|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|essay|s0|w84516|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84501|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84502|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84503|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84504|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84507|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84508|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84509|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84510|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84512|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84513|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84515|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84516|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84518|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84519|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84520|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     },
+     {
+      "lid": "POP|workshop_doc|s0|w84522|discovery",
+      "per_event": null,
+      "feasible": false,
+      "n_events": 0,
+      "stopped": false
+     }
+    ]
+   }
+  }
+ }
+}

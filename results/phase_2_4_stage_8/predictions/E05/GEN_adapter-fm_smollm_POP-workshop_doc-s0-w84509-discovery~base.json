@@ -1,0 +1,86 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "fb4a36017cdd05ac",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 42,
+  "tokens_out": 336,
+  "wall_s": 14.912
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "8a3a2bac5b774cb9",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "rev:1\ndate: 2014-09-01 22:41:05\ntask: review 4 lathe operators and 3 machines.\nrev:2\ndate: 2014-09-01 22:41:08\ntask: update 4 lathe operators and 3 machines.\naction:\nsubject: reviewing lathe manual\nstatus: draft\nstatus_modified: draft\nstatus_published:\nversion: 1.1\n\nA: One thing you may want to check: are you doing a single pass of the tool through the workpiece while holding constant rotation/cutting action? Or are you doing multiple passes (with the rotation and/or cutting action changing between each pass)? For example, are you doing a single cut at a time (with a single pass at constant rotation and cutting angle), or are you drilling, reaming, etc., using sequential passes?\n\nA: Check your lathe controls. On our machine we had a tool change issue where we were changing the direction of rotation of the spindle, so our lathe would stall. The problem was caused by two issues that we did not mention to you... that we didn't document... and that you didn't know existed (because the lathe's controls don't indicate when the spindle is in reverse rotation).\n\nA: The lathe will throw all of the parts out the same location (assuming same speed). You may have to make adjustments, otherwise this will be very hard to do (especially with many parts). If it is possible, try",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.08333333333333333,
+   "cite:sec2:ref": 0.08333333333333333,
+   "consult:sec1:src": 0.08333333333333333,
+   "fix:sec2:s2.1": 0.08333333333333333,
+   "probe:sec1:tech": 0.08333333333333333,
+   "restructure:sec2:order": 0.08333333333333333,
+   "write:sec1:s1.1": 0.08333333333333333,
+   "write:sec1:s1.4": 0.08333333333333333,
+   "write:sec2:s2.1": 0.08333333333333333,
+   "write:sec2:s2.2": 0.08333333333333333,
+   "write:sec2:s2.3": 0.08333333333333333,
+   "write:sec2:s2.4": 0.08333333333333333
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.08333333333333333,
+   "cite:sec2:ref": 0.08333333333333333,
+   "consult:sec1:src": 0.08333333333333333,
+   "fix:sec2:s2.1": 0.08333333333333333,
+   "probe:sec1:tech": 0.08333333333333333,
+   "restructure:sec2:order": 0.08333333333333333,
+   "write:sec1:s1.1": 0.08333333333333333,
+   "write:sec1:s1.4": 0.08333333333333333,
+   "write:sec2:s2.1": 0.08333333333333333,
+   "write:sec2:s2.2": 0.08333333333333333,
+   "write:sec2:s2.3": 0.08333333333333333,
+   "write:sec2:s2.4": 0.08333333333333333
+  },
+  "next_section": {
+   "sec1": 0.4166666666666667,
+   "sec2": 0.5833333333333334
+  },
+  "next_type": {
+   "check": 0.08333333333333334,
+   "cite": 0.08333333333333334,
+   "consult": 0.08333333333333334,
+   "fix": 0.08333333333333334,
+   "probe": 0.08333333333333334,
+   "restructure": 0.08333333333333334,
+   "revise": 0.0,
+   "write": 0.5
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

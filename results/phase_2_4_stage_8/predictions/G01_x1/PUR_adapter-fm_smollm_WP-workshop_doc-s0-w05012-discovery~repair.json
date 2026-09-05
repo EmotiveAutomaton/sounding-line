@@ -1,0 +1,94 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "60f4c6588fe3d4af",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 544,
+  "tokens_out": 0,
+  "wall_s": 3.567
+ },
+ "confidence": 0.4764628758813732,
+ "equivalence_class": [
+  "teach"
+ ],
+ "evidence_sha": "49c7f1bf5ae70d1b",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.4764628758813732,
+   "equivalence_class": [
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.2017470752315669,
+    "explore": 0.1955399702728339,
+    "persuade": 0.12625007861422596,
+    "teach": 0.4764628758813732
+   },
+   "raw": {
+    "document": 0.14652127775790955,
+    "explore": 0.14201329196090548,
+    "persuade": 0.09169066175735334,
+    "teach": 0.3460369836748134,
+    "unknown": 0.2737377848490183
+   },
+   "unknown": 0.2737377848490183,
+   "weights": "base"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.25,
+   "check:sec3:s3.1": 0.25,
+   "consult:sec1:src": 0.25,
+   "restructure:sec3:order": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.25,
+   "check:sec3:s3.1": 0.25,
+   "consult:sec1:src": 0.25,
+   "restructure:sec3:order": 0.25
+  },
+  "next_section": {
+   "sec1": 0.5,
+   "sec2": 0.0,
+   "sec3": 0.5,
+   "sec4": 0.0
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.0,
+   "consult": 0.25,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.25,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.2017470752315669,
+   "explore": 0.1955399702728339,
+   "persuade": 0.12625007861422596,
+   "teach": 0.4764628758813732
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

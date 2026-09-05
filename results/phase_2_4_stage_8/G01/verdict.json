@@ -1,0 +1,46 @@
+{
+ "card": "G01",
+ "cell_id": "G01",
+ "lane": "discovery",
+ "track": "purpose",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 11.99,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "recall of p (or its equivalence partner) from the closed affordance distribution with an unknown option; bar 0.5",
+ "exec": "COMPLETE",
+ "outcome": "INFRASTRUCTURE",
+ "primary": "Does the admitted reader name the purpose by the affordance route?",
+ "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: recall 0.354 top1 0.312 n 96; adapter:fm_smollm: recall 0.552 top1 0.270 n 96",
+ "point": 0.5520833333333334,
+ "conditional_cells": {
+  "adapter:fm_qwen": {
+   "outcome": "FAIL",
+   "point": 0.3541666666666667
+  },
+  "adapter:fm_smollm": {
+   "outcome": "PASS",
+   "point": 0.5520833333333334
+  }
+ },
+ "diagnosis_only": true,
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G01\\metrics.json",
+    "sha256": "89aa75807792304a4025f37cc72a3261eac739abd105736e40682755408b21a1"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G01\\cases.jsonl",
+    "sha256": "ce0c322d6f20f219de143beccc43f7453d0674a901edda1b395eba298af5087d"
+   }
+  },
+  "written_at": "2026-09-04T17:41:46"
+ }
+}

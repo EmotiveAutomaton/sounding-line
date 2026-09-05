@@ -1,0 +1,99 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "c9ff8314219dead2",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 253,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 56,
+  "tokens_out": 253,
+  "wall_s": 11.943
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "14ea76a8bfc7f69f",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 253,
+   "raw": "\nEvent: \"task: the flood notice\" is an event type and its main topic is \"self\".\n\nEvent: \"the flood notice\" is a topic and its subtopic is \"weather report\" and its subtopic is \"flood\".\nEvent: \"the flood notice\" is a topic and its subtopic is \"people and society\" and its subtopic is \"disaster management\".\nEvent: \"the flood notice\" is a topic and its subtopic is \"emergencies\" and its subtopic is \"natural disasters\".\n\nEvent: \"the flood notice\" is a topic and its subtopic is \"flood control\" as of 2013-06-22T06:12:37Z.\n\nEvent: \"the flood notice\" is a topic and its subtopic is \"flood preparedness\" as of 2013-06-22T06:12:37Z.\n\nEvent: \"the flood notice\" is a topic and its subtopic is \"flood management\" as of 2013-06-22T06:12:37Z.\n```",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.058823529411764705,
+   "cite:sec5:ref": 0.058823529411764705,
+   "consult:sec1:src": 0.058823529411764705,
+   "probe:sec1:tech": 0.058823529411764705,
+   "revise:sec1:s1.2": 0.058823529411764705,
+   "revise:sec3:s3.2": 0.058823529411764705,
+   "revise:sec5:s5.2": 0.058823529411764705,
+   "write:sec1:s1.1": 0.058823529411764705,
+   "write:sec1:s1.2": 0.058823529411764705,
+   "write:sec2:s2.1": 0.058823529411764705,
+   "write:sec2:s2.2": 0.058823529411764705,
+   "write:sec3:s3.1": 0.058823529411764705,
+   "write:sec3:s3.2": 0.058823529411764705,
+   "write:sec4:s4.1": 0.058823529411764705,
+   "write:sec4:s4.2": 0.058823529411764705,
+   "write:sec5:s5.1": 0.058823529411764705,
+   "write:sec5:s5.2": 0.058823529411764705
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.058823529411764705,
+   "cite:sec5:ref": 0.058823529411764705,
+   "consult:sec1:src": 0.058823529411764705,
+   "probe:sec1:tech": 0.058823529411764705,
+   "revise:sec1:s1.2": 0.058823529411764705,
+   "revise:sec3:s3.2": 0.058823529411764705,
+   "revise:sec5:s5.2": 0.058823529411764705,
+   "write:sec1:s1.1": 0.058823529411764705,
+   "write:sec1:s1.2": 0.058823529411764705,
+   "write:sec2:s2.1": 0.058823529411764705,
+   "write:sec2:s2.2": 0.058823529411764705,
+   "write:sec3:s3.1": 0.058823529411764705,
+   "write:sec3:s3.2": 0.058823529411764705,
+   "write:sec4:s4.1": 0.058823529411764705,
+   "write:sec4:s4.2": 0.058823529411764705,
+   "write:sec5:s5.1": 0.058823529411764705,
+   "write:sec5:s5.2": 0.058823529411764705
+  },
+  "next_section": {
+   "sec1": 0.29411764705882354,
+   "sec2": 0.1764705882352941,
+   "sec3": 0.1764705882352941,
+   "sec4": 0.11764705882352941,
+   "sec5": 0.23529411764705882
+  },
+  "next_type": {
+   "check": 0.058823529411764705,
+   "cite": 0.058823529411764705,
+   "consult": 0.058823529411764705,
+   "fix": 0.0,
+   "probe": 0.058823529411764705,
+   "restructure": 0.0,
+   "revise": 0.1764705882352941,
+   "write": 0.5882352941176471
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

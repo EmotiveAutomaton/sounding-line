@@ -1,0 +1,73 @@
+{
+ "abstain": false,
+ "arm": "PULL",
+ "canonical_sha": "3d0e0131c39b7c47",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 520,
+  "tokens_out": 0,
+  "wall_s": 3.182
+ },
+ "confidence": 0.5769567604795969,
+ "equivalence_class": [],
+ "evidence_sha": "c642393d625afe95",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "recall": {
+   "confidence": 0.5769567604795969,
+   "dist": {
+    "check>cite": 0.15050816349203266,
+    "check>consult": 0.2725350760283705,
+    "write>revise": 0.5769567604795969
+   }
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "restructure:sec3:order": 0.5,
+   "revise:sec4:s4.2": 0.5
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "restructure:sec3:order": 0.5,
+   "revise:sec4:s4.2": 0.5
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.0,
+   "sec3": 0.5,
+   "sec4": 0.5
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.5,
+   "revise": 0.5,
+   "write": 0.0
+  },
+  "pull": {
+   "check>cite": 0.15050816349203266,
+   "check>consult": 0.2725350760283705,
+   "write>revise": 0.5769567604795969
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

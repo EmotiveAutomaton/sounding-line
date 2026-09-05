@@ -1,0 +1,95 @@
+{
+ "abstain": true,
+ "arm": "PUR",
+ "canonical_sha": "752fabf68bab67fc",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 381,
+  "tokens_out": 0,
+  "wall_s": 3.713
+ },
+ "confidence": 0.37266160508032653,
+ "equivalence_class": [
+  "document",
+  "explore"
+ ],
+ "evidence_sha": "56052e28319b1b69",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": true,
+   "confidence": 0.37266160508032653,
+   "equivalence_class": [
+    "document",
+    "explore"
+   ],
+   "purpose": {
+    "document": 0.37266160508032653,
+    "explore": 0.285729563949527,
+    "persuade": 0.1788050135061238,
+    "teach": 0.16280381746402264
+   },
+   "raw": {
+    "document": 0.2280784196572464,
+    "explore": 0.17487379034101255,
+    "persuade": 0.10943323473980884,
+    "teach": 0.09964009410992944,
+    "unknown": 0.3879744611520028
+   },
+   "unknown": 0.3879744611520028,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.25,
+   "check:sec3:s3.1": 0.25,
+   "cite:sec3:ref": 0.25,
+   "probe:sec1:tech": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.25,
+   "check:sec3:s3.1": 0.25,
+   "cite:sec3:ref": 0.25,
+   "probe:sec1:tech": 0.25
+  },
+  "next_section": {
+   "sec1": 0.25,
+   "sec2": 0.25,
+   "sec3": 0.5
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.25,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.25,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.37266160508032653,
+   "explore": 0.285729563949527,
+   "persuade": 0.1788050135061238,
+   "teach": 0.16280381746402264
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

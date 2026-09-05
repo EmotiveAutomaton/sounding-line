@@ -1,0 +1,211 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "POP|essay|s0|w87044|discovery",
+ "cut": 18,
+ "hidden": {
+  "next_action": null,
+  "next_type": null,
+  "next_section": null,
+  "next_slot": null,
+  "stop_next": true,
+  "stopped_at": 17,
+  "boundary_type": "deadline",
+  "stop_weight": 0.01472275502134513,
+  "tail": [],
+  "tail_stop": [],
+  "rejected_alternative": null,
+  "changed_context": {
+   "change": "audience_changes",
+   "dist": {
+    "check:sec1:s1.1": 0.07430165417231141,
+    "check:sec2:s2.1": 0.06466656679648433,
+    "check:sec4:s4.1": 0.03887515809023131,
+    "consult:sec1:src": 0.01958570339708574,
+    "restructure:sec3:order": 0.38990806972211156,
+    "probe:sec1:tech": 0.07028635331973387,
+    "fix:sec2:s2.1": 0.34237649450204183
+   },
+   "choice": "restructure:sec3:order"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.09625120382433713,
+    "rewrite": 0.888188240060925,
+    "retain": 0.015560556114737816
+   },
+   "choice": "correct"
+  },
+  "subjective_ids": [
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "check:sec4:s4.1",
+   "consult:sec1:src",
+   "restructure:sec3:order",
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "unavailable_ids": [],
+  "equivalence_class": []
+ },
+ "oracle": {
+  "next_action": {
+   "check:sec1:s1.1": 0.06684909572698418,
+   "check:sec2:s2.1": 0.05818042091079758,
+   "check:sec4:s4.1": 0.04406963999538683,
+   "consult:sec1:src": 0.017621230319257292,
+   "restructure:sec3:order": 0.44200741831240237,
+   "probe:sec1:tech": 0.06323653509079546,
+   "fix:sec2:s2.1": 0.30803565964437624
+  },
+  "next_type": {
+   "write": 0.0,
+   "revise": 0.0,
+   "check": 0.16909915663316857,
+   "consult": 0.017621230319257292,
+   "cite": 0.0,
+   "restructure": 0.44200741831240237,
+   "probe": 0.06323653509079546,
+   "fix": 0.30803565964437624
+  },
+  "next_section": {
+   "sec1": 0.14770686113703693,
+   "sec2": 0.3662160805551738,
+   "sec3": 0.44200741831240237,
+   "sec4": 0.04406963999538683
+  },
+  "p_stop": 0.1600690655589821,
+  "stop_terms": {
+   "satisfaction": 0.0,
+   "deadline": 1.728,
+   "fatigue": 0.5142857142857145,
+   "audience": 0.3
+  },
+  "boundary_type": "deadline"
+ },
+ "state_names": {
+  "goal": "persuade",
+  "law": "expert",
+  "belief": "false_deadline",
+  "residue": "maintained_cite",
+  "tendency": "speed"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec1",
+    "sec2"
+   ],
+   "audience": "self",
+   "tools": {
+    "library": true,
+    "source_access": true
+   },
+   "deadline": "loose",
+   "scheduled_change": "audience_changes"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": true,
+    "source_access": true
+   },
+   "believed_deadline": "tight",
+   "believed_checked": []
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.9,
+    "revise": 0.9,
+    "check": 0.8,
+    "consult": 0.7,
+    "cite": 0.7,
+    "restructure": 0.8,
+    "probe": 0.6,
+    "fix": 0.9
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.1,
+    "revise": 0.1,
+    "check": 0.25,
+    "consult": 0.45,
+    "cite": 0.3,
+    "restructure": 0.3,
+    "probe": 0.3,
+    "fix": 0.25
+   },
+   "chain": {
+    "write>revise": 0.5,
+    "check>fix": 0.9,
+    "restructure>revise": 0.6
+   },
+   "fluency": 0.9,
+   "expected_len": 14.0,
+   "confidence": 0.8
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": true,
+    "source_access": true
+   },
+   "perceived_deadline": "tight",
+   "perceived_required": [
+    "sec1",
+    "sec2"
+   ],
+   "audience": "self",
+   "audience_weight": 0.0,
+   "believed_checked": []
+  },
+  "subjective_action_space": [
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "check:sec4:s4.1",
+   "consult:sec1:src",
+   "restructure:sec3:order",
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": 4.0,
+    "revise": 3.2,
+    "restructure": 2.0,
+    "check": 0.0,
+    "fix": 0.6,
+    "probe": 0.0,
+    "cite": 3.0,
+    "consult": -1.0
+   },
+   "name_ref": "persuade"
+  },
+  "history_residue": {
+   "habit": {},
+   "maintained": {
+    "cue_step": 8,
+    "option": "cite:sec4:ref"
+   }
+  }
+ },
+ "condition": {
+  "supplied": [],
+  "form": "language",
+  "render": "log",
+  "unit_ref": "u835202073d",
+  "condition_ref": "E03"
+ },
+ "n_options": 7,
+ "purpose": "persuade",
+ "pull_ordering": null,
+ "shape": "essay",
+ "reveal": null,
+ "maker": null,
+ "purpose_class": null,
+ "cut_gap": null,
+ "tail": false,
+ "tau_cut": 0.06744777847545835,
+ "evidence_sha": "40bd9397692b0a16"
+}

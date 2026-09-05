@@ -1,0 +1,93 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "52c16bb1178a3d9e",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 379,
+  "tokens_out": 0,
+  "wall_s": 3.734
+ },
+ "confidence": 0.46997135676265,
+ "equivalence_class": [
+  "document"
+ ],
+ "evidence_sha": "aed5bbae31171998",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.46997135676265,
+   "equivalence_class": [
+    "document"
+   ],
+   "purpose": {
+    "document": 0.46997135676265,
+    "explore": 0.12452999749028001,
+    "persuade": 0.18694166766647932,
+    "teach": 0.2185569780805907
+   },
+   "raw": {
+    "document": 0.33371106035807946,
+    "explore": 0.08842461760889377,
+    "persuade": 0.13274107292797124,
+    "teach": 0.15519005542451775,
+    "unknown": 0.2899331936805378
+   },
+   "unknown": 0.2899331936805378,
+   "weights": "base"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.25,
+   "fix:sec2:s2.1": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.25,
+   "fix:sec2:s2.1": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec2:order": 0.25
+  },
+  "next_section": {
+   "sec1": 0.25,
+   "sec2": 0.75,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.25,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.25,
+   "probe": 0.25,
+   "restructure": 0.25,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.46997135676265,
+   "explore": 0.12452999749028001,
+   "persuade": 0.18694166766647932,
+   "teach": 0.2185569780805907
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,76 @@
+{
+ "card": "T04",
+ "lane": "discovery",
+ "written_at": "2026-09-04T08:28:02",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "fixtures": {
+  "newsedits_2": {
+   "parsed": 3,
+   "expect": 3,
+   "pass": true
+  },
+  "arxivedits": {
+   "parsed": 3,
+   "expect": 3,
+   "pass": true
+  },
+  "iterater": {
+   "parsed": 2,
+   "expect": 2,
+   "pass": true
+  },
+  "genius_expertise": {
+   "parsed": 2,
+   "expect": 2,
+   "pass": true
+  },
+  "woolf_online": {
+   "parsed": 2,
+   "expect": 2,
+   "pass": true
+  },
+  "shelley_godwin": {
+   "parsed": 3,
+   "expect": 3,
+   "pass": true
+  },
+  "commitbench": {
+   "parsed": 2,
+   "expect": 2,
+   "pass": true
+  },
+  "argrewrite_v2": {
+   "fixture": "in-hand loader (smoke read below)",
+   "pass": null
+  },
+  "coauthor": {
+   "fixture": "in-hand loader (smoke read below)",
+   "pass": null
+  },
+  "scholawrite": {
+   "fixture": "in-hand loader (smoke read below)",
+   "pass": null
+  }
+ },
+ "smoke": {
+  "argrewrite_v2": {
+   "files": 635,
+   "present": true
+  },
+  "coauthor": {
+   "sessions": 690,
+   "present": true
+  },
+  "scholawrite": {
+   "sessions": 79,
+   "present": true
+  }
+ }
+}

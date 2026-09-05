@@ -1,0 +1,72 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "5693c9aa9ffa1c0f",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 36,
+  "tokens_out": 336,
+  "wall_s": 28.837
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "060d044b553013e1",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "**sec1**\n- **09_45am**: arrived in the workshop venue. Setup and started work.\n\n  - checked library availability\n        - discovered a very helpful reference book for today's tasks\n\n**sec2**\n\n- **09_06am**: started writing up notes in my notebook  \n   \n  - took screenshots of code to quickly review them later.\n    \n  - decided on what tools were going to be useful (e.g., Git, terminal for commands).\n\n**sec3 (afternoon)**\n\n- **12_45pm**: worked through some exercises from the manual using my laptop.\n        - I had chosen two books specifically designed for beginners that would guide me.\n    *Note*: By the end of this section it looked like everyone else in group was more familiar with basic bash script syntax. This made sense given how many people were new to working with code.\n\n   - reviewed notes while trying out different combinations until satisfied with solutions.\n       \n     *Also* took some time out for lunch at the provided canteen; good food here though!\n\n  - used git clone command to install a few programs into the repo\n\n- **13_35pm**: cleaned up my workstation by reorganizing files into folders based on project types.\n",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.2,
+   "fix:sec2:s2.1": 0.2,
+   "restructure:sec2:order": 0.2,
+   "revise:sec1:s1.4": 0.2,
+   "write:sec1:s1.3": 0.2
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.2,
+   "fix:sec2:s2.1": 0.2,
+   "restructure:sec2:order": 0.2,
+   "revise:sec1:s1.4": 0.2,
+   "write:sec1:s1.3": 0.2
+  },
+  "next_section": {
+   "sec1": 0.4,
+   "sec2": 0.6000000000000001
+  },
+  "next_type": {
+   "check": 0.2,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.2,
+   "probe": 0.0,
+   "restructure": 0.2,
+   "revise": 0.2,
+   "write": 0.2
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

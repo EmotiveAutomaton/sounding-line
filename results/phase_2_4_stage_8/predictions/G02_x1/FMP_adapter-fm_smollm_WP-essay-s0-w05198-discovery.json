@@ -1,0 +1,133 @@
+{
+ "abstain": false,
+ "arm": "FMP",
+ "canonical_sha": "533b4205f32afa4f",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 5,
+  "model_calls": 3,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 389,
+  "tokens_out": 0,
+  "wall_s": 4.876
+ },
+ "confidence": 0.171394313863536,
+ "equivalence_class": [
+  "teach"
+ ],
+ "evidence_sha": "f074943ac81bef5e",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the delivery route\naudience: self\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(2)\ngoal: teach\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec2:s2.1": -3.1497867107391357,
+   "consult:sec1:src": -2.821586847305298,
+   "fix:sec2:s2.1": -2.8835434913635254,
+   "probe:sec1:tech": -4.634015083312988,
+   "restructure:sec2:order": -5.698026180267334,
+   "revise:sec1:s1.1": -3.8687667846679688,
+   "revise:sec2:s2.1": -4.240202903747559,
+   "revise:sec2:s2.2": -4.255827903747559,
+   "write:sec1:s1.1": -1.8673663139343262,
+   "write:sec1:s1.2": -1.8673663139343262,
+   "write:sec2:s2.1": -2.4778478145599365,
+   "write:sec2:s2.2": -2.3059728145599365,
+   "write:sec2:s2.3": -2.1965980529785156,
+   "write:sec3:s3.1": -2.5648317337036133
+  },
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.4364663823528803,
+   "equivalence_class": [
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.16566395282230453,
+    "explore": 0.23730265599471648,
+    "persuade": 0.1605670088300987,
+    "teach": 0.4364663823528803
+   },
+   "raw": {
+    "document": 0.12697449021852913,
+    "explore": 0.1818825595979339,
+    "persuade": 0.12306789585048991,
+    "teach": 0.33453322495707705,
+    "unknown": 0.23354182937597004
+   },
+   "unknown": 0.23354182937597004,
+   "weights": "base"
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.7897801399230957
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.04837863988057548,
+   "consult:sec1:src": 0.06409235440945787,
+   "fix:sec2:s2.1": 0.0615005576172089,
+   "probe:sec1:tech": 0.01119624701521917,
+   "restructure:sec2:order": 0.0036662202482110858,
+   "revise:sec1:s1.1": 0.02320594497821194,
+   "revise:sec2:s2.1": 0.01599024177612511,
+   "revise:sec2:s2.2": 0.015498273756732503,
+   "write:sec1:s1.1": 0.16818050208788013,
+   "write:sec1:s1.2": 0.17351912429905939,
+   "write:sec2:s2.1": 0.09009326961401773,
+   "write:sec2:s2.2": 0.11388853698436024,
+   "write:sec2:s2.3": 0.1270518440897455,
+   "write:sec3:s3.1": 0.08373824324319494
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.04753881019413515,
+   "consult:sec1:src": 0.06600604294342383,
+   "fix:sec2:s2.1": 0.062040639959386155,
+   "probe:sec1:tech": 0.010775963603778575,
+   "restructure:sec2:order": 0.0037184501853022097,
+   "revise:sec1:s1.1": 0.02316323585211257,
+   "revise:sec2:s2.1": 0.015976681311497033,
+   "revise:sec2:s2.2": 0.015728985826339723,
+   "write:sec1:s1.1": 0.171394313863536,
+   "write:sec1:s1.2": 0.171394313863536,
+   "write:sec2:s2.1": 0.09308241935704727,
+   "write:sec2:s2.2": 0.11053810800517043,
+   "write:sec2:s2.3": 0.12331414106943916,
+   "write:sec3:s3.1": 0.08532789396529586
+  },
+  "next_section": {
+   "sec1": 0.442733870126387,
+   "sec2": 0.4719382359083171,
+   "sec3": 0.08532789396529586
+  },
+  "next_type": {
+   "check": 0.04753881019413516,
+   "cite": 0.0,
+   "consult": 0.06600604294342384,
+   "fix": 0.06204063995938616,
+   "probe": 0.010775963603778577,
+   "restructure": 0.00371845018530221,
+   "revise": 0.054868902989949335,
+   "write": 0.7550511901240248
+  },
+  "purpose": {
+   "document": 0.16566395282230453,
+   "explore": 0.23730265599471648,
+   "persuade": 0.1605670088300987,
+   "teach": 0.4364663823528803
+  },
+  "stop": 0.024454029546113767
+ },
+ "version": "PredictionV1"
+}

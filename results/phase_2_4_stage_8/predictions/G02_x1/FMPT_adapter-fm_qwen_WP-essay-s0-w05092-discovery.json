@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FMPT",
+ "canonical_sha": "ec0f6149f4aa4c03",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 386,
+  "tokens_out": 0,
+  "wall_s": 4.498
+ },
+ "confidence": 0.49088491339882223,
+ "equivalence_class": [],
+ "evidence_sha": "ed2d2a7bdb5cc49c",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the archive index\naudience: editor\ntools: library=yes source=no\ndeadline: loose\nsections: sec1(2) sec2(2) sec3(3)\ngoal: persuade\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec2:s2.1": -2.2758638858795166,
+   "check:sec3:s3.1": -0.9789895415306091,
+   "consult:sec1:src": -7.268693923950195,
+   "probe:sec1:tech": -1.8468241691589355,
+   "restructure:sec2:order": -2.0518248081207275
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -1.752925157546997
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.12195593941632747,
+   "check:sec3:s3.1": 0.4899405476008011,
+   "consult:sec1:src": 0.0012572638040351126,
+   "probe:sec1:tech": 0.2250617822434539,
+   "restructure:sec2:order": 0.16178446693538237
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.1342005554778684,
+   "check:sec3:s3.1": 0.4908849133988223,
+   "consult:sec1:src": 0.0009107428676998201,
+   "probe:sec1:tech": 0.20610280143999374,
+   "restructure:sec2:order": 0.16790098681561583
+  },
+  "next_section": {
+   "sec1": 0.20701354430769353,
+   "sec2": 0.3021015422934842,
+   "sec3": 0.49088491339882223
+  },
+  "next_type": {
+   "check": 0.6250854688766907,
+   "cite": 0.0,
+   "consult": 0.0009107428676998201,
+   "fix": 0.0,
+   "probe": 0.20610280143999374,
+   "restructure": 0.16790098681561583,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.18460094549229925
+ },
+ "version": "PredictionV1"
+}

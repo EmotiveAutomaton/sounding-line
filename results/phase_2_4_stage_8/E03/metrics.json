@@ -1,0 +1,158 @@
+{
+ "card": "E03",
+ "lane": "discovery",
+ "written_at": "2026-09-04T10:53:05",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "readers": {
+  "adapter:fm_qwen": {
+   "passed": true,
+   "gap": 0.18558531383705862,
+   "ci": [
+    0.0025969069986556937,
+    0.38665864931641936
+   ],
+   "cells": {
+    "all": {
+     "outcome": "SUPPORT_CANDIDATE",
+     "reason": "directional support at or above the frozen threshold",
+     "point": 0.18558531383705862,
+     "ci": [
+      0.0025969069986556937,
+      0.38665864931641936
+     ],
+     "n_units": 83,
+     "threshold": 0.03,
+     "perm_p": 0.06909654517274136,
+     "arm": "FM",
+     "rival": "DOM",
+     "n_arm": 83,
+     "n_rival": 83
+    },
+    "POP": {
+     "outcome": "INCONCLUSIVE",
+     "reason": "interval includes zero and cannot exclude a useful benefit",
+     "point": 0.2594635991449869,
+     "ci": [
+      -0.001092319637273187,
+      0.5507315728920728
+     ],
+     "n_units": 39,
+     "threshold": 0.03,
+     "perm_p": 0.07909604519774012,
+     "arm": "FM",
+     "rival": "DOM",
+     "n_arm": 39,
+     "n_rival": 39
+    },
+    "PU": {
+     "outcome": "INCONCLUSIVE",
+     "reason": "interval includes zero and cannot exclude a useful benefit",
+     "point": 0.12010228822321309,
+     "ci": [
+      -0.1462347172791137,
+      0.40895422166978257
+     ],
+     "n_units": 44,
+     "threshold": 0.03,
+     "perm_p": 0.4087795610219489,
+     "arm": "FM",
+     "rival": "DOM",
+     "n_arm": 44,
+     "n_rival": 44
+    }
+   },
+   "band": -0.05
+  },
+  "adapter:fm_smollm": {
+   "passed": true,
+   "gap": 0.1252519565378365,
+   "ci": [
+    -0.05856354501922374,
+    0.3111036143984362
+   ],
+   "cells": {
+    "all": {
+     "outcome": "INCONCLUSIVE",
+     "reason": "interval includes zero and cannot exclude a useful benefit",
+     "point": 0.1252519565378365,
+     "ci": [
+      -0.05856354501922374,
+      0.3111036143984362
+     ],
+     "n_units": 83,
+     "threshold": 0.03,
+     "perm_p": 0.19414029298535074,
+     "arm": "FM",
+     "rival": "DOM",
+     "n_arm": 83,
+     "n_rival": 83
+    },
+    "POP": {
+     "outcome": "INCONCLUSIVE",
+     "reason": "interval includes zero and cannot exclude a useful benefit",
+     "point": 0.1719298947946705,
+     "ci": [
+      -0.08824063021675761,
+      0.46276394405504373
+     ],
+     "n_units": 39,
+     "threshold": 0.03,
+     "perm_p": 0.2279386030698465,
+     "arm": "FM",
+     "rival": "DOM",
+     "n_arm": 39,
+     "n_rival": 39
+    },
+    "PU": {
+     "outcome": "INCONCLUSIVE",
+     "reason": "interval includes zero and cannot exclude a useful benefit",
+     "point": 0.08387832944655181,
+     "ci": [
+      -0.18100434823641146,
+      0.35487870436195695
+     ],
+     "n_units": 44,
+     "threshold": 0.03,
+     "perm_p": 0.5376231188440578,
+     "arm": "FM",
+     "rival": "DOM",
+     "n_arm": 44,
+     "n_rival": 44
+    }
+   },
+   "band": -0.05
+  }
+ },
+ "oracle_gap": {
+  "gap": 0.5205567045400259,
+  "n": 83,
+  "oracle_mean": -2.004232952074363,
+  "dom_mean": -2.524789656614389
+ },
+ "dom_vs_uniform": {
+  "-": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.15331954969708925,
+   "ci": [
+    -0.06357630450237417,
+    0.35585778868078066
+   ],
+   "n_units": 83,
+   "threshold": 0.03,
+   "perm_p": 0.15339233038348082,
+   "arm": "DOM",
+   "rival": "U",
+   "n_arm": 83,
+   "n_rival": 83
+  }
+ },
+ "degenerate": 19
+}

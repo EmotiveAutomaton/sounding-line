@@ -1,0 +1,252 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "WK2|workshop_doc|s0|w00005|discovery",
+ "cut": 4,
+ "hidden": {
+  "next_action": "revise:sec2:s2.1",
+  "next_type": "revise",
+  "next_section": "sec2",
+  "next_slot": "s2.1",
+  "stop_next": false,
+  "stopped_at": 4,
+  "boundary_type": "none",
+  "stop_weight": 1.0,
+  "tail": [
+   {
+    "type": "revise",
+    "section": "sec2",
+    "slot": "s2.1",
+    "outcome": "done"
+   }
+  ],
+  "tail_stop": [
+   true
+  ],
+  "rejected_alternative": "check:sec1:s1.1",
+  "changed_context": {
+   "change": "audience_changes",
+   "dist": {
+    "write:sec1:s1.1": 0.10501269380689619,
+    "write:sec1:s1.2": 0.10501269380689619,
+    "write:sec2:s2.1": 0.06964525486236399,
+    "write:sec3:s3.1": 0.07524488312033936,
+    "write:sec3:s3.2": 0.07524488312033936,
+    "revise:sec2:s2.1": 0.051594473786061246,
+    "revise:sec3:s3.2": 0.055742780428613636,
+    "revise:sec3:s3.1": 0.055742780428613636,
+    "check:sec1:s1.1": 0.11039680975177547,
+    "check:sec2:s2.1": 0.073216043436545,
+    "check:sec3:s3.1": 0.07910277077460495,
+    "consult:sec1:src": 0.0,
+    "cite:sec3:ref": 0.0,
+    "restructure:sec2:order": 0.0,
+    "probe:sec1:tech": 0.07779531697501889,
+    "fix:sec2:s2.1": 0.06624861570193205
+   },
+   "choice": "probe:sec1:tech"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.622203233751881,
+    "rewrite": 0.15343342839786356,
+    "retain": 0.22436333785025542
+   },
+   "choice": "correct"
+  },
+  "subjective_ids": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.2",
+   "write:sec2:s2.1",
+   "write:sec3:s3.1",
+   "write:sec3:s3.2",
+   "revise:sec2:s2.1",
+   "revise:sec3:s3.2",
+   "revise:sec3:s3.1",
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "check:sec3:s3.1",
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "unavailable_ids": [
+   "consult:sec1:src",
+   "cite:sec3:ref",
+   "restructure:sec2:order"
+  ],
+  "equivalence_class": []
+ },
+ "oracle": {
+  "next_action": {
+   "write:sec1:s1.1": 0.0979555654656021,
+   "write:sec1:s1.2": 0.0979555654656021,
+   "write:sec2:s2.1": 0.08291759601795834,
+   "write:sec3:s3.1": 0.07018822970106448,
+   "write:sec3:s3.2": 0.07018822970106448,
+   "revise:sec2:s2.1": 0.06142686594522939,
+   "revise:sec3:s3.2": 0.051996719439942295,
+   "revise:sec3:s3.1": 0.051996719439942295,
+   "check:sec1:s1.1": 0.10297785470315692,
+   "check:sec2:s2.1": 0.08716887207466331,
+   "check:sec3:s3.1": 0.07378685719053027,
+   "consult:sec1:src": 0.0,
+   "cite:sec3:ref": 0.0,
+   "restructure:sec2:order": 0.0,
+   "probe:sec1:tech": 0.07256726771409888,
+   "fix:sec2:s2.1": 0.0788736571411452
+  },
+  "next_type": {
+   "write": 0.4192051863512915,
+   "revise": 0.165420304825114,
+   "check": 0.26393358396835054,
+   "consult": 0.0,
+   "cite": 0.0,
+   "restructure": 0.0,
+   "probe": 0.07256726771409888,
+   "fix": 0.0788736571411452
+  },
+  "next_section": {
+   "sec1": 0.37145625334846,
+   "sec2": 0.31038699117899626,
+   "sec3": 0.31815675547254385
+  },
+  "p_stop": 0.019840305734077503,
+  "stop_terms": {
+   "satisfaction": 0.0,
+   "deadline": 0.0,
+   "fatigue": 0.0,
+   "audience": 0.3
+  },
+  "boundary_type": "none"
+ },
+ "state_names": {
+  "goal": "attribute",
+  "law": "scholar2",
+  "belief": "false_library",
+  "residue": "habit_write",
+  "tendency": "care"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec1",
+    "sec3"
+   ],
+   "audience": "self",
+   "tools": {
+    "library": true,
+    "source_access": false
+   },
+   "deadline": "loose",
+   "scheduled_change": "library_withdrawn"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": false,
+    "source_access": false
+   },
+   "believed_deadline": "loose",
+   "believed_checked": []
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.5,
+    "revise": 0.6,
+    "check": 0.6,
+    "consult": 0.95,
+    "cite": 0.95,
+    "restructure": 0.5,
+    "probe": 0.7,
+    "fix": 0.5
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.4,
+    "revise": 0.3,
+    "check": 0.15,
+    "consult": -0.05,
+    "cite": 0.05,
+    "restructure": 0.6,
+    "probe": 0.3,
+    "fix": 0.25
+   },
+   "chain": {
+    "consult>cite": 1.2,
+    "cite>consult": 0.6,
+    "probe>consult": 0.5
+   },
+   "fluency": 1.0,
+   "expected_len": 13.0,
+   "confidence": 0.65
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": false,
+    "source_access": false
+   },
+   "perceived_deadline": "loose",
+   "perceived_required": [
+    "sec1",
+    "sec3"
+   ],
+   "audience": "self",
+   "audience_weight": 0.0,
+   "believed_checked": []
+  },
+  "subjective_action_space": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.2",
+   "write:sec2:s2.1",
+   "write:sec3:s3.1",
+   "write:sec3:s3.2",
+   "revise:sec2:s2.1",
+   "revise:sec3:s3.2",
+   "revise:sec3:s3.1",
+   "check:sec1:s1.1",
+   "check:sec2:s2.1",
+   "check:sec3:s3.1",
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": -0.5,
+    "revise": 0.0,
+    "check": 0.2,
+    "consult": 0.8,
+    "cite": 2.3,
+    "restructure": -0.2,
+    "probe": 0.0,
+    "fix": 0.2
+   },
+   "name_ref": "attribute"
+  },
+  "history_residue": {
+   "habit": {
+    "write": 0.9
+   },
+   "maintained": null
+  }
+ },
+ "condition": {
+  "supplied": [],
+  "form": "language",
+  "render": "log",
+  "unit_ref": "u3153a6ca4c",
+  "condition_ref": "X11"
+ },
+ "n_options": 16,
+ "purpose": null,
+ "pull_ordering": null,
+ "shape": "essay",
+ "reveal": null,
+ "maker": null,
+ "purpose_class": null,
+ "cut_gap": -0.016699084197807565,
+ "tail": false,
+ "tau_cut": 0.21729520307056777,
+ "evidence_sha": "459e94c8798d0c7d"
+}

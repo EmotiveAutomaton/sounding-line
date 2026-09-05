@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "5cd01e60c1be9fce",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 406,
+  "tokens_out": 0,
+  "wall_s": 0.335
+ },
+ "confidence": 0.37532930265265746,
+ "equivalence_class": [],
+ "evidence_sha": "b5a6f9b7d5806f9d",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the glaze recipe\naudience: editor\ntools: library=no source=no\ndeadline: loose\nsections: sec1(3) sec2(2) sec3(3)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -1.9830961227416992,
+   "check:sec2:s2.1": -4.029971599578857,
+   "consult:sec1:src": -4.50283145904541,
+   "revise:sec3:s3.1": -2.205024003982544,
+   "revise:sec3:s3.2": -2.408149003982544
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.299107313156128
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.3685611690118705,
+   "check:sec2:s2.1": 0.0506647791164126,
+   "consult:sec1:src": 0.03958959982655864,
+   "revise:sec3:s3.1": 0.29798017733586846,
+   "revise:sec3:s3.2": 0.24320427470928985
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.3753293026526575,
+   "check:sec2:s2.1": 0.04846918834481752,
+   "consult:sec1:src": 0.03020684168952977,
+   "revise:sec3:s3.1": 0.30062868536549836,
+   "revise:sec3:s3.2": 0.24536598194749693
+  },
+  "next_section": {
+   "sec1": 0.40553614434218727,
+   "sec2": 0.04846918834481752,
+   "sec3": 0.5459946673129953
+  },
+  "next_type": {
+   "check": 0.423798490997475,
+   "cite": 0.0,
+   "consult": 0.03020684168952977,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.5459946673129953,
+   "write": 0.0
+  },
+  "stop": 0.21484527399137976
+ },
+ "version": "PredictionV1"
+}

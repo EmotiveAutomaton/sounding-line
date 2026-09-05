@@ -1,0 +1,82 @@
+{
+ "abstain": false,
+ "arm": "FMB",
+ "canonical_sha": "293670babe0d76f4",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 326,
+  "tokens_out": 0,
+  "wall_s": 4.507
+ },
+ "confidence": 0.5899539413418939,
+ "equivalence_class": [],
+ "evidence_sha": "48a733002f93aba5",
+ "notes": {
+  "adapter_sha": null,
+  "header": "task: the lathe manual\naudience: self\ntools: library=yes source=no\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -8.778802871704102,
+   "check:sec2:s2.1": -9.67525577545166,
+   "check:sec3:s3.1": -10.02700138092041,
+   "cite:sec3:ref": -20.27216339111328,
+   "consult:sec1:src": -24.15441131591797,
+   "probe:sec1:tech": -29.647377014160156,
+   "restructure:sec2:order": -22.25039291381836
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -10.843722343444824
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.566578851211438,
+   "check:sec2:s2.1": 0.254022926969122,
+   "check:sec3:s3.1": 0.17938984259706162,
+   "cite:sec3:ref": 7.393834353978695e-06,
+   "consult:sec1:src": 1.7746377398063816e-07,
+   "probe:sec1:tech": 6.535310714913959e-10,
+   "restructure:sec2:order": 8.072707194050641e-07
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.5899539413418939,
+   "check:sec2:s2.1": 0.24070968109902705,
+   "check:sec3:s3.1": 0.169329404880046,
+   "cite:sec3:ref": 6.0161001146272974e-06,
+   "consult:sec1:src": 1.2395846899946945e-07,
+   "probe:sec1:tech": 5.101659999319585e-10,
+   "restructure:sec2:order": 8.321102833832646e-07
+  },
+  "next_section": {
+   "sec1": 0.589954065810529,
+   "sec2": 0.24071051320931042,
+   "sec3": 0.16933542098016063
+  },
+  "next_type": {
+   "check": 0.999993027320967,
+   "cite": 6.0161001146272974e-06,
+   "consult": 1.2395846899946945e-07,
+   "fix": 0.0,
+   "probe": 5.101659999319585e-10,
+   "restructure": 8.321102833832646e-07,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.06961423153710451
+ },
+ "version": "PredictionV1"
+}

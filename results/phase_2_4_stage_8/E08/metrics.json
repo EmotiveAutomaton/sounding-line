@@ -1,0 +1,186 @@
+{
+ "card": "E08",
+ "lane": "discovery",
+ "written_at": "2026-09-04T14:04:46",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "sol_vs_dom": {
+  "whole": {
+   "-": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "reason": "directional support at or above the frozen threshold",
+    "point": 0.8276791992399783,
+    "ci": [
+     0.5404638850628936,
+     1.128248445759792
+    ],
+    "n_units": 63,
+    "threshold": 0.1655358398479957,
+    "perm_p": 4.999750012499375e-05,
+    "arm": "SOL",
+    "rival": "DOM",
+    "n_arm": 63,
+    "n_rival": 63
+   }
+  },
+  "tail": {
+   "-": {
+    "outcome": "SUPPORT_CANDIDATE",
+    "reason": "directional support at or above the frozen threshold",
+    "point": 1.8637379016027633,
+    "ci": [
+     1.4789407023247765,
+     2.2997241019693595
+    ],
+    "n_units": 21,
+    "threshold": 0.37274758032055266,
+    "perm_p": 9.99950002499875e-05,
+    "arm": "SOL",
+    "rival": "DOM",
+    "n_arm": 21,
+    "n_rival": 21
+   }
+  },
+  "floor_whole": 0.1655358398479957,
+  "floor_tail": 0.37274758032055266,
+  "gap_whole": {
+   "gap": 0.8276791992399783,
+   "n": 63,
+   "oracle_mean": -1.955091792197371,
+   "dom_mean": -2.7827709914373497
+  },
+  "gap_tail": {
+   "gap": 1.8637379016027633,
+   "n": 21,
+   "oracle_mean": -1.1683632654238791,
+   "dom_mean": -3.0321011670266422
+  }
+ },
+ "stage7_K04": {
+  "outcome": "COUNTEREVIDENCE",
+  "point": -0.4629540864215622
+ },
+ "whole": {
+  "adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.10712542729842862,
+   "ci": [
+    -0.5653298770457296,
+    0.3275359198086073
+   ],
+   "n_units": 63,
+   "threshold": 0.1655358398479957,
+   "perm_p": 0.6411679416029199,
+   "arm": "FMS",
+   "rival": "DOM",
+   "n_arm": 63,
+   "n_rival": 63
+  },
+  "adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.053503335649708376,
+   "ci": [
+    -0.3744103767915708,
+    0.27008731316886425
+   ],
+   "n_units": 63,
+   "threshold": 0.1655358398479957,
+   "perm_p": 0.744562771861407,
+   "arm": "FMS",
+   "rival": "DOM",
+   "n_arm": 63,
+   "n_rival": 63
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.08031438147406852,
+   "ci": [
+    -0.4324494027636405,
+    0.2638005463602025
+   ],
+   "n_units": 63,
+   "threshold": 0.1655358398479957,
+   "perm_p": 0.6549172541372932,
+   "arm": "FMS",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "tail": {
+  "adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.0493125965972665,
+   "ci": [
+    -1.0310537487054408,
+    0.8002816512660887
+   ],
+   "n_units": 21,
+   "threshold": 0.37274758032055266,
+   "perm_p": 0.9253537323133844,
+   "arm": "FMS",
+   "rival": "DOM",
+   "n_arm": 21,
+   "n_rival": 21
+  },
+  "adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.23365535641922397,
+   "ci": [
+    -0.30593101668229494,
+    0.7556851728608562
+   ],
+   "n_units": 21,
+   "threshold": 0.37274758032055266,
+   "perm_p": 0.4311784410779461,
+   "arm": "FMS",
+   "rival": "DOM",
+   "n_arm": 21,
+   "n_rival": 21
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.0921713799109787,
+   "ci": [
+    -0.585625528650404,
+    0.7318293435890977
+   ],
+   "n_units": 21,
+   "threshold": 0.37274758032055266,
+   "perm_p": 0.8048597570121494,
+   "arm": "FMS",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "floors": {
+  "whole": 0.1655358398479957,
+  "tail": 0.37274758032055266
+ },
+ "gaps": {
+  "whole": {
+   "gap": 0.8276791992399783,
+   "n": 63,
+   "oracle_mean": -1.955091792197371,
+   "dom_mean": -2.7827709914373497
+  },
+  "tail": {
+   "gap": 1.8637379016027633,
+   "n": 21,
+   "oracle_mean": -1.1683632654238791,
+   "dom_mean": -3.0321011670266422
+  }
+ },
+ "degenerate_worlds": 23
+}

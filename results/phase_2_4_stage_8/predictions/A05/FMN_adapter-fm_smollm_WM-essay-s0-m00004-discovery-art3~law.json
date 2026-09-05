@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "48c7787160e842f2",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1904,
+  "tokens_out": 0,
+  "wall_s": 4.133
+ },
+ "confidence": 0.2362102664411794,
+ "equivalence_class": [],
+ "evidence_sha": "5116038f4c81cc77",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the delivery route\naudience: peer\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(3)\nmaker: The maker is strongest at write and revise, weakest at probe and consult; of the skilled moves, the maker can carry out restructure, probe, fix; after write the maker tends to revise, after check the maker tends to fix, after restructure the maker tends to revise; choices are steady and an episode usually runs about 14 moves.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec2:s2.1": -2.1997311115264893,
+   "restructure:sec2:order": -2.4965593814849854,
+   "revise:sec1:s1.1": -2.222234010696411,
+   "revise:sec1:s1.2": -2.253484010696411,
+   "revise:sec3:s3.2": -2.770784616470337
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -1.808977723121643
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.24101921386961658,
+   "restructure:sec2:order": 0.17633998228704748,
+   "revise:sec1:s1.1": 0.2314824465516705,
+   "revise:sec1:s1.2": 0.22088209355446034,
+   "revise:sec3:s3.2": 0.1302762637372052
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.2362102664411794,
+   "restructure:sec2:order": 0.17554476785944173,
+   "revise:sec1:s1.1": 0.23095421067415925,
+   "revise:sec1:s1.2": 0.22384849662764636,
+   "revise:sec3:s3.2": 0.13344225839757334
+  },
+  "next_section": {
+   "sec1": 0.4548027073018056,
+   "sec2": 0.4117550343006211,
+   "sec3": 0.13344225839757334
+  },
+  "next_type": {
+   "check": 0.2362102664411794,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.17554476785944173,
+   "revise": 0.5882449656993789,
+   "write": 0.0
+  },
+  "stop": 0.25878761019365815
+ },
+ "version": "PredictionV1"
+}

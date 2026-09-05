@@ -1,0 +1,88 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "2be0557507cc2432",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 41,
+  "tokens_out": 336,
+  "wall_s": 14.975
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "6f04a4be90fc30d0",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "--- \n## Benchmarking\n\nWe compare the performance of the C++17 SFINAE-based version and the new C++20 SFINAE-based version.\n\nWe measure the size of each version using Valgrind's `memcheck` tool (which also reports the memory leaks, if any).\n\nWe use `time` to benchmark the two versions. We make each tool wait for 10 minutes so the measurement is not unduplicated, since the smaller tool makes an order of magnitude more function calls that takes a much longer time to run. As a result the time reported is not the exact difference in running time. The time is rounded to two decimal digits.\n\n```c\n#include <stdio.h>\n#include <string.h>\n#include <stdlib.h>\n#include <utmpx.h>\n\n#include <sys/utsname.h>\n#include <unistd.h>\n#include <sys/types.h>\n#include <time.h>\n\n#include <algorithm>\n#include <cmath>\n#include <cstdint>\n#include <cstdlib>\n#include <cstring>\n#include <cstdbool>\n#include <cstdio>\n#include <vector>",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.07692307692307693,
+   "consult:sec1:src": 0.07692307692307693,
+   "probe:sec1:tech": 0.07692307692307693,
+   "restructure:sec2:order": 0.07692307692307693,
+   "revise:sec1:s1.2": 0.07692307692307693,
+   "revise:sec2:s2.2": 0.07692307692307693,
+   "revise:sec2:s2.4": 0.07692307692307693,
+   "write:sec1:s1.1": 0.07692307692307693,
+   "write:sec1:s1.3": 0.07692307692307693,
+   "write:sec1:s1.4": 0.07692307692307693,
+   "write:sec2:s2.1": 0.07692307692307693,
+   "write:sec2:s2.2": 0.07692307692307693,
+   "write:sec2:s2.3": 0.07692307692307693
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.07692307692307693,
+   "consult:sec1:src": 0.07692307692307693,
+   "probe:sec1:tech": 0.07692307692307693,
+   "restructure:sec2:order": 0.07692307692307693,
+   "revise:sec1:s1.2": 0.07692307692307693,
+   "revise:sec2:s2.2": 0.07692307692307693,
+   "revise:sec2:s2.4": 0.07692307692307693,
+   "write:sec1:s1.1": 0.07692307692307693,
+   "write:sec1:s1.3": 0.07692307692307693,
+   "write:sec1:s1.4": 0.07692307692307693,
+   "write:sec2:s2.1": 0.07692307692307693,
+   "write:sec2:s2.2": 0.07692307692307693,
+   "write:sec2:s2.3": 0.07692307692307693
+  },
+  "next_section": {
+   "sec1": 0.46153846153846156,
+   "sec2": 0.5384615384615385
+  },
+  "next_type": {
+   "check": 0.07692307692307693,
+   "cite": 0.0,
+   "consult": 0.07692307692307693,
+   "fix": 0.0,
+   "probe": 0.07692307692307693,
+   "restructure": 0.07692307692307693,
+   "revise": 0.23076923076923078,
+   "write": 0.46153846153846156
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

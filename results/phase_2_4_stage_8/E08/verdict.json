@@ -1,0 +1,72 @@
+{
+ "card": "E08",
+ "cell_id": "E08",
+ "lane": "discovery",
+ "track": "expertise",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 0.64,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "FM with the complete state supplied against DOM; a diagnostic, not a gate",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does the trained reader use a supplied executable state better than the untrained one did (the Stage 7 K04 comparator)?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_smollm; tail INCONCLUSIVE 0.23365535641922397; Stage 7 K04 COUNTEREVIDENCE -0.4629540864215622; SOL 0.8276791992399783",
+ "point": -0.053503335649708376,
+ "ci": [
+  -0.3744103767915708,
+  0.27008731316886425
+ ],
+ "n_units": 63,
+ "tail_point": 0.23365535641922397,
+ "tail_ci": [
+  -0.30593101668229494,
+  0.7556851728608562
+ ],
+ "tail_outcome": "INCONCLUSIVE",
+ "conditional_cells": {
+  "whole|adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.10712542729842862
+  },
+  "whole|adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.053503335649708376
+  },
+  "whole|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.08031438147406852
+  },
+  "tail|adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.0493125965972665
+  },
+  "tail|adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.23365535641922397
+  },
+  "tail|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.0921713799109787
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E08\\metrics.json",
+    "sha256": "9ac8c1b9b48a1067a67a1c4f330490bc15db26bd28bd02fa56cfd44a4c27e099"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E08\\cases.jsonl",
+    "sha256": "7757db7f840bc83fbca1d3e3ba5de24ad03cfd8696654e2a453800e56b9163cf"
+   }
+  },
+  "written_at": "2026-09-04T14:04:55"
+ }
+}

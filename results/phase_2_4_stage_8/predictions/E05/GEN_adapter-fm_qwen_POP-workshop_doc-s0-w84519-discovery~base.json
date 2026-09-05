@@ -1,0 +1,77 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "3699445062c39748",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 42,
+  "tokens_out": 336,
+  "wall_s": 23.344
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "e0cee1430588a6ca",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "- [+] Created table of contents and section titles.\n- [+] Added index for searching in sections.\n- [+] Edited chapter text for readability, conciseness.\n- [✓] Inserted subsections into main chapter text with proper structure. - [-] Checked for any potential errors or typos throughout.\n  ✓ The edits are clear and organized; no typos have been found.\n\n### Updated Lathe Manual\n\n---\n\n#### Index\n\nThis is an example index. Use this to search chapters by key terms.\n\n1. Introduction <br> \n2. Tools of the Trade <br>\n3. Basic Machining Operations (Chapter One)\n\n### Section Title List\n\nThis list includes all section title options currently available:\n\n- Sec1(2), Sec2(3), Sec3(2); each being a different number, depending on your needs.\n\n[Table of Contents]: https://path_to_your_toc.pdf \"See here\" <a name=\"table-of-contents\"></a>\n\n---\n# Chapter Title",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.14285714285714285,
+   "check:sec3:s3.1": 0.14285714285714285,
+   "cite:sec3:ref": 0.14285714285714285,
+   "fix:sec2:s2.1": 0.14285714285714285,
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "write:sec2:s2.1": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.14285714285714285,
+   "check:sec3:s3.1": 0.14285714285714285,
+   "cite:sec3:ref": 0.14285714285714285,
+   "fix:sec2:s2.1": 0.14285714285714285,
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "write:sec2:s2.1": 0.14285714285714285
+  },
+  "next_section": {
+   "sec1": 0.2857142857142857,
+   "sec2": 0.42857142857142855,
+   "sec3": 0.2857142857142857
+  },
+  "next_type": {
+   "check": 0.2857142857142857,
+   "cite": 0.14285714285714285,
+   "consult": 0.0,
+   "fix": 0.14285714285714285,
+   "probe": 0.14285714285714285,
+   "restructure": 0.14285714285714285,
+   "revise": 0.0,
+   "write": 0.14285714285714285
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,91 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "e168f577861af592",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 41,
+  "tokens_out": 336,
+  "wall_s": 21.931
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "3f5a0b02c76f105d",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "```\nsec1\n  - question: Why did you decide to take this particular course?\n    answers (in table format)\n\nsec2\n  - question: What were your expectations for the course before taking it?\n    answers (in table format)\n\nsec3\n  - question: How do you evaluate or rate this course based on your experience?\n    answers (in table format)\n``` To complete this survey, follow these steps:\n\n1. **Open Your Choice Survey Tool**: Navigate to the choice survey tool that you will be using for your project.\n\n2. **Begin with Section 1** \n   In section 1, ask users about why they decided to take this particular course and provide three options for them to select. Use a table format in your tool to organize responses easily.\n\n3. **Proceed with Section 2**\n   Next, ask them what their expectations were for the course prior to enrolling in it. Again, use this section to collect feedback through multiple choices, formatted similarly to Section 1.\n\n4. **Conclude with Section 3**\n   For your final section, inquire about how the user evaluates or rates the course based on their personal experience. Utilize the same table structure to record their evaluations. \n\n5. **Finalize the Process**\n   Ensure all sections are clearly marked and accessible at the top of the page within the survey tools interface. Make sure there is space provided at the bottom to submit the response form once completed by respondents.\n",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.07142857142857142,
+   "cite:sec3:ref": 0.07142857142857142,
+   "probe:sec1:tech": 0.07142857142857142,
+   "restructure:sec2:order": 0.07142857142857142,
+   "revise:sec2:s2.1": 0.07142857142857142,
+   "revise:sec3:s3.2": 0.07142857142857142,
+   "revise:sec3:s3.3": 0.07142857142857142,
+   "write:sec1:s1.2": 0.07142857142857142,
+   "write:sec2:s2.1": 0.07142857142857142,
+   "write:sec2:s2.2": 0.07142857142857142,
+   "write:sec2:s2.3": 0.07142857142857142,
+   "write:sec3:s3.1": 0.07142857142857142,
+   "write:sec3:s3.2": 0.07142857142857142,
+   "write:sec3:s3.3": 0.07142857142857142
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.07142857142857142,
+   "cite:sec3:ref": 0.07142857142857142,
+   "probe:sec1:tech": 0.07142857142857142,
+   "restructure:sec2:order": 0.07142857142857142,
+   "revise:sec2:s2.1": 0.07142857142857142,
+   "revise:sec3:s3.2": 0.07142857142857142,
+   "revise:sec3:s3.3": 0.07142857142857142,
+   "write:sec1:s1.2": 0.07142857142857142,
+   "write:sec2:s2.1": 0.07142857142857142,
+   "write:sec2:s2.2": 0.07142857142857142,
+   "write:sec2:s2.3": 0.07142857142857142,
+   "write:sec3:s3.1": 0.07142857142857142,
+   "write:sec3:s3.2": 0.07142857142857142,
+   "write:sec3:s3.3": 0.07142857142857142
+  },
+  "next_section": {
+   "sec1": 0.14285714285714288,
+   "sec2": 0.4285714285714286,
+   "sec3": 0.4285714285714286
+  },
+  "next_type": {
+   "check": 0.07142857142857144,
+   "cite": 0.07142857142857144,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.07142857142857144,
+   "restructure": 0.07142857142857144,
+   "revise": 0.2142857142857143,
+   "write": 0.49999999999999994
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

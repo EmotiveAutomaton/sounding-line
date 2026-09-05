@@ -1,0 +1,40 @@
+{
+ "card": "G04",
+ "cell_id": "G04",
+ "lane": "discovery",
+ "track": "purpose",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 0.13,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "class coverage and abstention on the equivalence worlds; at least half on equivalence cases, at most half false abstention",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "Does the reader keep two purposes alive where the prefix leaves two, and abstain?",
+ "reason": "{\"adapter:fm_qwen\": {\"equivalence_worlds\": 9, \"class_coverage\": 0.0, \"abstain_on_equivalence\": 0.0, \"singleton_worlds\": 87, \"false_abstain\": 0.10344827586206896, \"passed\": false}, \"adapter:fm_smollm\": {\"equivalence_worlds\": 9, \"class_coverage\": 0.2222222222222222, \"abstain_on_equivalence\": 0.5555555555555556, \"singleton_worlds\": 87, \"false_abstain\": 0.6666666666666666, \"passed\": false}}",
+ "conditional_cells": {
+  "adapter:fm_qwen": {
+   "outcome": "FAIL",
+   "point": 0.0
+  },
+  "adapter:fm_smollm": {
+   "outcome": "FAIL",
+   "point": 0.2222222222222222
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G04\\metrics.json",
+    "sha256": "dfb10a21b0cc3cd48ced56782fd9e516bb046a337ecb08066d27c32ba5b24afb"
+   }
+  },
+  "written_at": "2026-09-04T18:18:16"
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "0a3b66189229ce85",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 202,
+  "tokens_out": 0,
+  "wall_s": 3.524
+ },
+ "confidence": 0.15457882118789634,
+ "equivalence_class": [],
+ "evidence_sha": "772cce1d94fab146",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the flood notice\naudience: editor\ntools: library=yes source=no\ndeadline: tight\nsections: sec1(3) sec2(3) sec3(2) sec4(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -3.7685680389404297,
+   "check:sec2:s2.1": -4.174815654754639,
+   "check:sec3:s3.1": -3.983835458755493,
+   "check:sec4:s4.1": -4.015085697174072,
+   "cite:sec4:ref": -4.149501323699951,
+   "consult:sec1:src": -6.743276596069336,
+   "fix:sec2:s2.1": -3.8993940353393555,
+   "probe:sec1:tech": -5.1651835441589355,
+   "restructure:sec3:order": -5.735093593597412,
+   "revise:sec2:s2.1": -4.17429256439209,
+   "revise:sec2:s2.2": -4.22116756439209,
+   "revise:sec2:s2.3": -4.14304256439209,
+   "revise:sec3:s3.2": -3.922497272491455,
+   "write:sec1:s1.1": -2.004896879196167,
+   "write:sec1:s1.3": -2.145521879196167,
+   "write:sec2:s2.1": -2.051558494567871,
+   "write:sec3:s3.2": -2.2854790687561035,
+   "write:sec4:s4.1": -2.2990329265594482,
+   "write:sec4:s4.2": -2.2834079265594482
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.8212368488311768
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.025556629696210063,
+   "check:sec2:s2.1": 0.01702442211365293,
+   "check:sec3:s3.1": 0.0203718445705399,
+   "check:sec4:s4.1": 0.020055998831476737,
+   "cite:sec4:ref": 0.01918294787225488,
+   "consult:sec1:src": 0.001265222392277716,
+   "fix:sec2:s2.1": 0.023141418816195206,
+   "probe:sec1:tech": 0.006425176293243288,
+   "restructure:sec3:order": 0.0034181813221712174,
+   "revise:sec2:s2.1": 0.01703077147723733,
+   "revise:sec2:s2.2": 0.016250875670177783,
+   "revise:sec2:s2.3": 0.01757138619626337,
+   "revise:sec3:s3.2": 0.02225226928989615,
+   "write:sec1:s1.1": 0.15377801841123945,
+   "write:sec1:s1.3": 0.13360465771794955,
+   "write:sec2:s2.1": 0.14676624004768507,
+   "write:sec3:s3.2": 0.11798474285641623,
+   "write:sec4:s4.1": 0.11915959821255656,
+   "write:sec4:s4.2": 0.11915959821255656
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.026497038605248817,
+   "check:sec2:s2.1": 0.017650875052365487,
+   "check:sec3:s3.1": 0.021365245423113455,
+   "check:sec4:s4.1": 0.02070790098967624,
+   "cite:sec4:ref": 0.01810339864781764,
+   "consult:sec1:src": 0.0013530000942834183,
+   "fix:sec2:s2.1": 0.023247718067992404,
+   "probe:sec1:tech": 0.006556241330160334,
+   "restructure:sec3:order": 0.0037080547810679986,
+   "revise:sec2:s2.1": 0.017660110470264397,
+   "revise:sec2:s2.2": 0.01685139513247854,
+   "revise:sec2:s2.3": 0.018220702553401167,
+   "revise:sec3:s3.2": 0.022716777364726288,
+   "write:sec1:s1.1": 0.15457882118789634,
+   "write:sec1:s1.3": 0.13430040722740613,
+   "write:sec2:s2.1": 0.1475316192163386,
+   "write:sec3:s3.2": 0.11676016348754599,
+   "write:sec4:s4.1": 0.11518828937725248,
+   "write:sec4:s4.2": 0.11700224099096429
+  },
+  "next_section": {
+   "sec1": 0.32328550844499504,
+   "sec2": 0.2411624204928406,
+   "sec3": 0.16455024105645374,
+   "sec4": 0.27100183000571065
+  },
+  "next_type": {
+   "check": 0.086221060070404,
+   "cite": 0.01810339864781764,
+   "consult": 0.0013530000942834183,
+   "fix": 0.023247718067992404,
+   "probe": 0.006556241330160334,
+   "restructure": 0.0037080547810679986,
+   "revise": 0.0754489855208704,
+   "write": 0.7853615414874038
+  },
+  "stop": 0.024521182418868945
+ },
+ "version": "PredictionV1"
+}

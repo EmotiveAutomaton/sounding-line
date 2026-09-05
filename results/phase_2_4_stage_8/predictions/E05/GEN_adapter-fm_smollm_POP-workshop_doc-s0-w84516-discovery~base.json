@@ -1,0 +1,80 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "9eae412161afa74b",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 52,
+  "tokens_out": 336,
+  "wall_s": 16.435
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "2d49b94a79fcd856",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "- [I] entered lathe project at 01:03:45\n- [I] started section 1 at 01:03:49\n- [I] finished section 1 at 01:04:21\n- [I] started section 2 at 01:04:23\n- [I] started section 3 at 01:04:26\n- [I] started section 4 at 01:04:32\n- [I] finished section 4 at 01:04:34\n- [I] finished section 3 at 01:05:28\n- [I] finished section 4 at 01:05:30\n- [I] finished section 2 at 01:05:45\n- [I] finished section 1 at 01:28:29\n- [I] finished complete at 01:28:30\n- ^ done I: entered lathe project is no\n\nOutput: \"This is your task: the lathe manual. You are editing library=no source=yes and deadlines are loose, with 3 sections (1,2,3,4) You have logged: [I]* entered lathe project, [I]* started section 1, [I]* ended section 1, [I]* finished section 1, [I]* started section 2, [I]* started section 3, [I]* finished section",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.125,
+   "check:sec2:s2.1": 0.125,
+   "check:sec3:s3.1": 0.125,
+   "check:sec4:s4.1": 0.125,
+   "cite:sec4:ref": 0.125,
+   "consult:sec1:src": 0.125,
+   "revise:sec1:s1.2": 0.125,
+   "revise:sec3:s3.1": 0.125
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.125,
+   "check:sec2:s2.1": 0.125,
+   "check:sec3:s3.1": 0.125,
+   "check:sec4:s4.1": 0.125,
+   "cite:sec4:ref": 0.125,
+   "consult:sec1:src": 0.125,
+   "revise:sec1:s1.2": 0.125,
+   "revise:sec3:s3.1": 0.125
+  },
+  "next_section": {
+   "sec1": 0.375,
+   "sec2": 0.125,
+   "sec3": 0.25,
+   "sec4": 0.25
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.125,
+   "consult": 0.125,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.25,
+   "write": 0.0
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

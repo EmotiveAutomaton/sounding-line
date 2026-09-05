@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "9091b1b7aedf4672",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 228,
+  "tokens_out": 0,
+  "wall_s": 4.138
+ },
+ "confidence": 0.16082411047437473,
+ "equivalence_class": [],
+ "evidence_sha": "d857d36ad5a68d14",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the kiln schedule\naudience: editor\ntools: library=yes source=no\ndeadline: tight\nsections: sec1(3) sec2(3) sec3(3) sec4(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -3.987539768218994,
+   "check:sec2:s2.1": -4.659532070159912,
+   "check:sec3:s3.1": -4.221986770629883,
+   "check:sec4:s4.1": -4.331806182861328,
+   "consult:sec1:src": -4.682151794433594,
+   "fix:sec2:s2.1": -4.338284015655518,
+   "probe:sec1:tech": -5.760449409484863,
+   "restructure:sec3:order": -6.093454837799072,
+   "revise:sec1:s1.1": -4.137086868286133,
+   "revise:sec1:s1.2": -4.168336868286133,
+   "revise:sec1:s1.3": -4.121461868286133,
+   "revise:sec2:s2.3": -4.377057075500488,
+   "revise:sec3:s3.1": -4.471056938171387,
+   "write:sec1:s1.1": -1.94633948802948,
+   "write:sec1:s1.2": -2.1650896072387695,
+   "write:sec3:s3.2": -2.0914225578308105,
+   "write:sec3:s3.3": -2.5601725578308105,
+   "write:sec4:s4.1": -1.9315032958984375,
+   "write:sec4:s4.2": -1.9471282958984375
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.9318249225616455
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.020643515193906517,
+   "check:sec2:s2.1": 0.009902770041712056,
+   "check:sec3:s3.1": 0.016074280571243084,
+   "check:sec4:s4.1": 0.013959551607104569,
+   "consult:sec1:src": 0.010365570629879455,
+   "fix:sec2:s2.1": 0.01416956861122051,
+   "probe:sec1:tech": 0.003471531298745394,
+   "restructure:sec3:order": 0.002324003971951212,
+   "revise:sec1:s1.1": 0.016593669405798005,
+   "revise:sec1:s1.2": 0.016083135870012755,
+   "revise:sec1:s1.3": 0.016854981675984315,
+   "revise:sec2:s2.3": 0.012985297637647403,
+   "revise:sec3:s3.1": 0.011579476619912238,
+   "write:sec1:s1.1": 0.16212369955608913,
+   "write:sec1:s1.2": 0.13027008338210525,
+   "write:sec3:s3.2": 0.13348487285785365,
+   "write:sec3:s3.3": 0.0875415168827211,
+   "write:sec4:s4.1": 0.16329831761732658,
+   "write:sec4:s4.2": 0.1582741565687868
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.020579075640001537,
+   "check:sec2:s2.1": 0.010509530498471779,
+   "check:sec3:s3.1": 0.016278216639314464,
+   "check:sec4:s4.1": 0.014585215801013433,
+   "consult:sec1:src": 0.010274476269353468,
+   "fix:sec2:s2.1": 0.014491040566814906,
+   "probe:sec1:tech": 0.0034951111322598476,
+   "restructure:sec3:order": 0.0025051778859360115,
+   "revise:sec1:s1.1": 0.017720598391490084,
+   "revise:sec1:s1.2": 0.017175392895840233,
+   "revise:sec1:s1.3": 0.01799965721094096,
+   "revise:sec2:s2.3": 0.013939931712728117,
+   "revise:sec3:s3.1": 0.012689281287517295,
+   "write:sec1:s1.1": 0.15845570556999578,
+   "write:sec1:s1.2": 0.127322721177267,
+   "write:sec3:s3.2": 0.1370563320734638,
+   "write:sec3:s3.3": 0.08576766102663048,
+   "write:sec4:s4.1": 0.16082411047437473,
+   "write:sec4:s4.2": 0.1583307637465861
+  },
+  "next_section": {
+   "sec1": 0.37302273828714894,
+   "sec2": 0.0389405027780148,
+   "sec3": 0.254296668912862,
+   "sec4": 0.33374009002197425
+  },
+  "next_type": {
+   "check": 0.0619520385788012,
+   "cite": 0.0,
+   "consult": 0.010274476269353466,
+   "fix": 0.014491040566814902,
+   "probe": 0.0034951111322598467,
+   "restructure": 0.002505177885936011,
+   "revise": 0.07952486149851667,
+   "write": 0.8277572940683178
+  },
+  "stop": 0.021294840489611756
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,80 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "98669a97479704d7",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 47,
+  "tokens_out": 336,
+  "wall_s": 23.752
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "2d49b94a79fcd856",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "- [ ] added a title to the file.\n- [x] updated the `editor` role based on feedback from `librarian`.\n\nThe Lathe Manual is a book designed as an introduction and overview document for editors. It should be used alongside the Lathe Style Guide with the following structure:\n\n**sec 1 (Chapter One)** - A quick summary of how Lathe works, what its conventions are, why we choose certain ways of presenting content, etc.\n\n**sec 2 (Chapter Two)** - How do you format articles and books using Lathe? What are its rules?\n\n**sec 3 (Chapter Three)** - What's all those technical details in Lathe files and how can they be used effectively to make your documents look neat and tidy?\n- *Note:* This chapter focuses specifically on making sure things are formatted uniformly throughout.\n\n**sec 4 (Chapter Four)** - More advanced usage including tips for dealing with complex text layouts or handling more than one kind of file.\n\n### Editor Handbook for Lathe Version 4.0\n\n*This handbook provides guidelines to assist editors with the use of the Lathe Markdown syntax.*\n\n#### Chapter One: Introduction\n\nIn this first portion of the guide, we will get acquainted with some basic aspects of the **Lathe System,** which includes its core functions, layout conventions, and style expectations. \n\n#### Chapter Two: Text Formatting Guidelines\n\nText formatting in **Lathe** is governed by our strict set of rules that dictate the way paragraphs, sections, lists, blockquotes, headings, emphasis/marks/bulletin bullets should appear. These formats are crucial when you want to ensure consistent readability across different types of",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.125,
+   "check:sec2:s2.1": 0.125,
+   "check:sec3:s3.1": 0.125,
+   "check:sec4:s4.1": 0.125,
+   "cite:sec4:ref": 0.125,
+   "consult:sec1:src": 0.125,
+   "revise:sec1:s1.2": 0.125,
+   "revise:sec3:s3.1": 0.125
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.125,
+   "check:sec2:s2.1": 0.125,
+   "check:sec3:s3.1": 0.125,
+   "check:sec4:s4.1": 0.125,
+   "cite:sec4:ref": 0.125,
+   "consult:sec1:src": 0.125,
+   "revise:sec1:s1.2": 0.125,
+   "revise:sec3:s3.1": 0.125
+  },
+  "next_section": {
+   "sec1": 0.375,
+   "sec2": 0.125,
+   "sec3": 0.25,
+   "sec4": 0.25
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.125,
+   "consult": 0.125,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.25,
+   "write": 0.0
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

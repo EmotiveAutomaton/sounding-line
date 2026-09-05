@@ -1,0 +1,68 @@
+{
+ "card": "G03",
+ "cell_id": "G03",
+ "lane": "discovery",
+ "track": "purpose",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 0.27,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "FM+P on the counterfactual target against DOM and the copied-brief rival",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does it improve the changed-context choice?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail INCONCLUSIVE 0.4094220914090648; vs copied brief 0.07336329544849976",
+ "point": 0.10089577954467786,
+ "ci": [
+  -0.08072241063912204,
+  0.2810562696123868
+ ],
+ "n_units": 96,
+ "tail_point": 0.4094220914090648,
+ "tail_ci": [
+  -0.08128004250832298,
+  0.8502869867759262
+ ],
+ "tail_outcome": "INCONCLUSIVE",
+ "conditional_cells": {
+  "whole|adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.10089577954467786
+  },
+  "whole|adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "point": -0.04579271392862463
+  },
+  "whole|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.027551532808026597
+  },
+  "tail|adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.4094220914090648
+  },
+  "tail|adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.31713446415498564
+  },
+  "tail|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.3632782777820252
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G03\\metrics.json",
+    "sha256": "dab331c82281c5a299530c6be1be4c9d3570d1289bdcf1551636372d4cb16bae"
+   }
+  },
+  "written_at": "2026-09-04T19:22:12"
+ }
+}

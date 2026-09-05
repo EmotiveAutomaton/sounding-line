@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "3bcb7d1b274977e5",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 346,
+  "tokens_out": 0,
+  "wall_s": 3.748
+ },
+ "confidence": 0.3214223085999138,
+ "equivalence_class": [],
+ "evidence_sha": "e74709ee0d5905be",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the kiln schedule\naudience: peer\ntools: library=no source=yes\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -1.1894720792770386,
+   "check:sec2:s2.1": -1.892595648765564,
+   "check:sec3:s3.1": -1.439467191696167,
+   "cite:sec3:ref": -3.2920448780059814,
+   "probe:sec1:tech": -1.5246808528900146
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.1335411071777344
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.31603132200863543,
+   "check:sec2:s2.1": 0.15891079354462262,
+   "check:sec3:s3.1": 0.2500028727082133,
+   "cite:sec3:ref": 0.0434421310482871,
+   "probe:sec1:tech": 0.23161288069024163
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.3214223085999138,
+   "check:sec2:s2.1": 0.15911580844667467,
+   "check:sec3:s3.1": 0.2503251691157499,
+   "cite:sec3:ref": 0.0392590920845332,
+   "probe:sec1:tech": 0.22987762175312842
+  },
+  "next_section": {
+   "sec1": 0.5512999303530421,
+   "sec2": 0.15911580844667467,
+   "sec3": 0.28958426120028313
+  },
+  "next_type": {
+   "check": 0.7308632861623384,
+   "cite": 0.03925909208453321,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.22987762175312845,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.04397896580880219
+ },
+ "version": "PredictionV1"
+}

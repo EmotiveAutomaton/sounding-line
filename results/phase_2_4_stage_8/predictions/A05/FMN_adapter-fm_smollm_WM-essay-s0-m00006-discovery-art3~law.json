@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "685d6ea71bc7b1dc",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1958,
+  "tokens_out": 0,
+  "wall_s": 4.409
+ },
+ "confidence": 0.34603584643962604,
+ "equivalence_class": [],
+ "evidence_sha": "595d926e6cf9c761",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the survey method\naudience: editor\ntools: library=yes source=yes\ndeadline: loose\nsections: sec1(3) sec2(2) sec3(2)\nmaker: The maker is strongest at consult and cite, weakest at restructure and revise; of the skilled moves, the maker can carry out probe, fix; after consult the maker tends to cite, after check the maker tends to consult; choices are steady and an episode usually runs about 12 moves.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec1:s1.1": -2.4072377681732178,
+   "check:sec2:s2.1": -3.2353599071502686,
+   "cite:sec3:ref": -2.499638080596924,
+   "fix:sec2:s2.1": -1.7007445096969604,
+   "restructure:sec2:order": -2.0138978958129883
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.1694648265838623
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.1391176395494502,
+   "check:sec2:s2.1": 0.06173325495490428,
+   "cite:sec3:ref": 0.22714489852361575,
+   "fix:sec2:s2.1": 0.32607405461276356,
+   "restructure:sec2:order": 0.24593015235926624
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.17072415300031227,
+   "check:sec2:s2.1": 0.07458407217275866,
+   "cite:sec3:ref": 0.15565605557682755,
+   "fix:sec2:s2.1": 0.3460358464396261,
+   "restructure:sec2:order": 0.25299987281047553
+  },
+  "next_section": {
+   "sec1": 0.17072415300031227,
+   "sec2": 0.6736197914228602,
+   "sec3": 0.15565605557682755
+  },
+  "next_type": {
+   "check": 0.2453082251730709,
+   "cite": 0.15565605557682755,
+   "consult": 0.0,
+   "fix": 0.3460358464396261,
+   "probe": 0.0,
+   "restructure": 0.25299987281047553,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.1780034561584377
+ },
+ "version": "PredictionV1"
+}

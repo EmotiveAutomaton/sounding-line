@@ -1,0 +1,105 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "e4ad1ab21585d23a",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 266,
+  "tokens_out": 0,
+  "wall_s": 3.293
+ },
+ "confidence": 0.7544066074502479,
+ "equivalence_class": [
+  "teach"
+ ],
+ "evidence_sha": "cf302fb1f12bf705",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.7544066074502479,
+   "equivalence_class": [
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.0032819293306391283,
+    "explore": 0.24112282718487607,
+    "persuade": 0.001188636034236892,
+    "teach": 0.7544066074502479
+   },
+   "raw": {
+    "document": 0.0032371995250131138,
+    "explore": 0.23783653546272182,
+    "persuade": 0.001172435972195599,
+    "teach": 0.7441247099702497,
+    "unknown": 0.013629119069819744
+   },
+   "unknown": 0.013629119069819744,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.1,
+   "cite:sec3:ref": 0.1,
+   "consult:sec1:src": 0.1,
+   "fix:sec2:s2.1": 0.1,
+   "probe:sec1:tech": 0.1,
+   "restructure:sec2:order": 0.1,
+   "revise:sec1:s1.2": 0.1,
+   "revise:sec3:s3.2": 0.1,
+   "write:sec1:s1.1": 0.1,
+   "write:sec1:s1.2": 0.1
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.1,
+   "cite:sec3:ref": 0.1,
+   "consult:sec1:src": 0.1,
+   "fix:sec2:s2.1": 0.1,
+   "probe:sec1:tech": 0.1,
+   "restructure:sec2:order": 0.1,
+   "revise:sec1:s1.2": 0.1,
+   "revise:sec3:s3.2": 0.1,
+   "write:sec1:s1.1": 0.1,
+   "write:sec1:s1.2": 0.1
+  },
+  "next_section": {
+   "sec1": 0.6,
+   "sec2": 0.2,
+   "sec3": 0.2
+  },
+  "next_type": {
+   "check": 0.1,
+   "cite": 0.1,
+   "consult": 0.1,
+   "fix": 0.1,
+   "probe": 0.1,
+   "restructure": 0.1,
+   "revise": 0.2,
+   "write": 0.2
+  },
+  "purpose": {
+   "document": 0.0032819293306391283,
+   "explore": 0.24112282718487607,
+   "persuade": 0.001188636034236892,
+   "teach": 0.7544066074502479
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

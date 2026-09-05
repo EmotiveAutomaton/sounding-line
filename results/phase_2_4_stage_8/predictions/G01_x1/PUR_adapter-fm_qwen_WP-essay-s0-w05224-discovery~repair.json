@@ -1,0 +1,95 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "42a4159e8ea01bca",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 381,
+  "tokens_out": 0,
+  "wall_s": 3.369
+ },
+ "confidence": 0.6360030117827122,
+ "equivalence_class": [
+  "teach"
+ ],
+ "evidence_sha": "754480dfb5f23d35",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.6360030117827122,
+   "equivalence_class": [
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.21303433047024833,
+    "explore": 0.07135755390373108,
+    "persuade": 0.07960510384330828,
+    "teach": 0.6360030117827122
+   },
+   "raw": {
+    "document": 0.2062947093823376,
+    "explore": 0.06910006388318025,
+    "persuade": 0.07708669173863292,
+    "teach": 0.6158822204495795,
+    "unknown": 0.03163631454626972
+   },
+   "unknown": 0.03163631454626972,
+   "weights": "base"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.2,
+   "probe:sec1:tech": 0.2,
+   "restructure:sec2:order": 0.2,
+   "revise:sec2:s2.3": 0.2,
+   "revise:sec3:s3.3": 0.2
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.2,
+   "probe:sec1:tech": 0.2,
+   "restructure:sec2:order": 0.2,
+   "revise:sec2:s2.3": 0.2,
+   "revise:sec3:s3.3": 0.2
+  },
+  "next_section": {
+   "sec1": 0.2,
+   "sec2": 0.4,
+   "sec3": 0.4
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.2,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.2,
+   "restructure": 0.2,
+   "revise": 0.4,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.21303433047024836,
+   "explore": 0.0713575539037311,
+   "persuade": 0.0796051038433083,
+   "teach": 0.6360030117827123
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

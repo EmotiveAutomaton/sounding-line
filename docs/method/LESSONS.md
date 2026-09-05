@@ -561,6 +561,17 @@ L132 (a shuffle gate that voided the alternative's own signature).
   fired as designed (INSTRUMENT_FAILED); the lesson is that the quiet oracle was the
   diagnosis. (2026-09-02, L332)
 
+- **A feasibility ruler is validated on the population's own logs before it judges a
+  reader's.** Stage 8's generation gate first judged a reader's generated logs against the
+  hidden inventory (which slots carry a revise, which section holds the restructure, the fix,
+  the probe), structure the header never shows; 25 of 31 first-landing failures were moves that
+  were legal under everything the reader could see, and the gate read 0.2 where the honest
+  reading was 0.6 to 0.7. The known-answer check that catches this costs one line: the world's
+  own log must pass the ruler at 1.0. The repair (feasibility against the visible structure; the
+  process likelihood under the inventory extended by the reader's visibly valid actions) was
+  itself first drafted with an order clause the population violates (revise before write), and
+  the same one-line check caught that too. (Stage 8 E04, 2026-09-04)
+
 ## §4. Before the model arm
 
 - **Base language models below the low billions cannot satisfy multi-constraint generation;
@@ -651,6 +662,19 @@ L132 (a shuffle gate that voided the alternative's own signature).
   failures, permanently freezing a thin corpus. Retry loops in every ollama caller;
   manifests withheld (nonzero exit, stage retries) below 90% yield. (2026-08-17,
   run_g129_confirm.py / run_g153_local_gen.py)
+- **A cell never closes on a fragment: when a model arm loses more than a fifth of its units to
+  the endpoint, the cell exits STARVED with rows checkpointed, the lost units rerun, and no
+  verdict is written.** Under a shared card (a game at 11 of 12 GB) the model server answered
+  out of memory as 503 for eighty minutes; the client's five retries died; every lost unit
+  landed as an invalid row; and two cells CLOSED on the survivors, one on two thirds of its
+  rows with a gate written from the fragment, one on three units of eighty. The retry lesson
+  above protects the call, not the cell. And a reset issued without the stage variable set
+  resolves to another stage's root: every scheduler op checks its root first. And the starvation
+  had a second cause inside the instrument: a scoring op that keeps full-vocabulary logits over
+  the whole padded sequence in float32 costs eleven gigabytes on a long log; score the
+  continuation span only (`logits_to_keep`), and halve the batch on out-of-memory before the
+  error leaves the server. (2026-09-04, L361, runners/stage8/cardrun.py STARVED, scheduler.py
+  exit 4 and the root guard, model_server.py sequence_logprobs)
 - **Underestimate runtimes 2-3×** and keep the queue loaded to the gear: second gear
   (`run_second_gear.sh`, the whole machine) carries about a day's worth of analyses, first gear
   (`run_first_gear.sh`, part of the CPU, the GPU mostly the curator's) four to eight hours of

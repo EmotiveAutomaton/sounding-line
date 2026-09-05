@@ -1,0 +1,73 @@
+{
+ "card": "A03",
+ "cell_id": "A03",
+ "lane": "discovery",
+ "track": "accumulation",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 16.71,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "tail contrast on artifact N+1 for FM+3 against DOM and against FM+0",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "Does the model of the maker predict a new artifact's divergences?",
+ "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail SUPPORT_CANDIDATE 1.5599736083661113; vs FM+0 0.0018676257603910467",
+ "point": 0.2072076475279264,
+ "ci": [
+  -0.07607115548764451,
+  0.5246246801891449
+ ],
+ "n_units": 35,
+ "tail_point": 1.5599736083661113,
+ "tail_ci": [
+  1.1480773630367693,
+  2.0361670656656266
+ ],
+ "tail_outcome": "SUPPORT_CANDIDATE",
+ "conditional_cells": {
+  "whole|adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.2072076475279264
+  },
+  "whole|adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.13283876128233552
+  },
+  "whole|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.170023204405131
+  },
+  "tail|adapter:fm_qwen": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 1.5599736083661113
+  },
+  "tail|adapter:fm_smollm": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 1.4497049727080924
+  },
+  "tail|pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "point": 1.5048392905371017
+  }
+ },
+ "diagnosis_only": true,
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A03\\metrics.json",
+    "sha256": "47185560777fd080a3e5d390f85ced8c348cd96f4deabd038cf98c044b6ed176"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A03\\cases.jsonl",
+    "sha256": "70ae90a892ca50f61baa6a50bf42ee9013c1c80ce01a81acdabf203a62d4495d"
+   }
+  },
+  "written_at": "2026-09-05T00:24:14"
+ }
+}

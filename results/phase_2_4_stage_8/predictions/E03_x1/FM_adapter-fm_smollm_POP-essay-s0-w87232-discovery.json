@@ -1,0 +1,120 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "f30060a22d260e52",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 244,
+  "tokens_out": 0,
+  "wall_s": 3.223
+ },
+ "confidence": 0.10725582224001706,
+ "equivalence_class": [],
+ "evidence_sha": "19f73c824ae9fed2",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the kiln schedule\naudience: editor\ntools: library=yes source=no\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(2) sec4(2) sec5(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec5:ref": -2.8424439430236816,
+   "consult:sec1:src": -2.465991973876953,
+   "probe:sec1:tech": -3.295206069946289,
+   "restructure:sec3:order": -4.515583038330078,
+   "revise:sec1:s1.2": -3.09194278717041,
+   "revise:sec2:s2.1": -3.368955612182617,
+   "revise:sec3:s3.2": -3.429356813430786,
+   "revise:sec4:s4.2": -3.436697483062744,
+   "revise:sec5:s5.2": -3.6871514320373535,
+   "write:sec1:s1.1": -2.949918270111084,
+   "write:sec1:s1.2": -3.043668270111084,
+   "write:sec2:s2.1": -2.9424219131469727,
+   "write:sec2:s2.2": -3.0205469131469727,
+   "write:sec3:s3.1": -3.2067456245422363,
+   "write:sec3:s3.2": -3.2223706245422363,
+   "write:sec4:s4.1": -3.183495044708252,
+   "write:sec4:s4.2": -3.214745044708252,
+   "write:sec5:s5.1": -3.333254337310791,
+   "write:sec5:s5.2": -3.442629337310791
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.356520175933838
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec5:ref": 0.07166097394190231,
+   "consult:sec1:src": 0.11115757806640722,
+   "probe:sec1:tech": 0.047020779683395894,
+   "restructure:sec3:order": 0.012834018477443709,
+   "revise:sec1:s1.2": 0.05471379315079806,
+   "revise:sec2:s2.1": 0.04101695649532561,
+   "revise:sec3:s3.2": 0.038115410440010614,
+   "revise:sec4:s4.2": 0.038435616524152505,
+   "revise:sec5:s5.2": 0.029385164476703838,
+   "write:sec1:s1.1": 0.06888869465744814,
+   "write:sec1:s1.2": 0.06272387026755194,
+   "write:sec2:s2.1": 0.06728571853442537,
+   "write:sec2:s2.2": 0.06222911693296291,
+   "write:sec3:s3.1": 0.0512463271472275,
+   "write:sec3:s3.2": 0.0512463271472275,
+   "write:sec4:s4.1": 0.05286942981240836,
+   "write:sec4:s4.2": 0.05286942981240836,
+   "write:sec5:s5.1": 0.04449840835196032,
+   "write:sec5:s5.2": 0.04180238608023979
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec5:ref": 0.0736088213467956,
+   "consult:sec1:src": 0.10725582224001706,
+   "probe:sec1:tech": 0.0468055949918354,
+   "restructure:sec3:order": 0.01381321549530922,
+   "revise:sec1:s1.2": 0.05735534447104513,
+   "revise:sec2:s2.1": 0.04347791920117794,
+   "revise:sec3:s3.2": 0.04092953802147005,
+   "revise:sec4:s4.2": 0.040630187864186686,
+   "revise:sec5:s5.2": 0.03162846115812921,
+   "write:sec1:s1.1": 0.0661080514612741,
+   "write:sec1:s1.2": 0.06019206582613457,
+   "write:sec2:s2.1": 0.0666054831465244,
+   "write:sec2:s2.2": 0.061600002041755024,
+   "write:sec3:s3.1": 0.05113469309026729,
+   "write:sec3:s3.2": 0.050341923154733216,
+   "write:sec4:s4.1": 0.05233753353674535,
+   "write:sec4:s4.2": 0.050727276914333826,
+   "write:sec5:s5.1": 0.04505817711280603,
+   "write:sec5:s5.2": 0.04038988892545985
+  },
+  "next_section": {
+   "sec1": 0.3377168789903063,
+   "sec2": 0.17168340438945737,
+   "sec3": 0.1562193697617798,
+   "sec4": 0.14369499831526586,
+   "sec5": 0.1906853485431907
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0736088213467956,
+   "consult": 0.10725582224001706,
+   "fix": 0.0,
+   "probe": 0.0468055949918354,
+   "restructure": 0.01381321549530922,
+   "revise": 0.21402145071600898,
+   "write": 0.5444950952100337
+  },
+  "stop": 0.042165743056667204
+ },
+ "version": "PredictionV1"
+}

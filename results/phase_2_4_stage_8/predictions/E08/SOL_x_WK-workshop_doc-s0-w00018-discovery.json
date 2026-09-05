@@ -1,0 +1,84 @@
+{
+ "abstain": false,
+ "arm": "SOL",
+ "canonical_sha": "2d1708280bc3266a",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 0,
+  "model_calls": 0,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "wall_s": 0.001
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "c0f8917e4258a08c",
+ "notes": {
+  "subjective_ids": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.2",
+   "write:sec3:s3.2",
+   "revise:sec3:s3.2",
+   "revise:sec3:s3.1",
+   "check:sec3:s3.1"
+  ]
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.0,
+   "equivalent": 1.0,
+   "fatigue": 0.0,
+   "satisfaction": 0.0
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.0,
+   "check:sec3:s3.1": 0.12721776108777483,
+   "cite:sec3:ref": 0.3798020790208281,
+   "consult:sec1:src": 0.0,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec2:order": 0.0,
+   "revise:sec3:s3.1": 0.09602900414542856,
+   "revise:sec3:s3.2": 0.09602900414542856,
+   "write:sec1:s1.1": 0.11306734398725651,
+   "write:sec1:s1.2": 0.11306734398725651,
+   "write:sec3:s3.2": 0.07478746362602695
+  },
+  "invalidation": {
+   "correct": 0.4480409837278347,
+   "retain": 0.34031944130195496,
+   "rewrite": 0.21163957497021035
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.0,
+   "check:sec3:s3.1": 0.20512445589453557,
+   "cite:sec3:ref": 0.0,
+   "consult:sec1:src": 0.0,
+   "probe:sec1:tech": 0.0,
+   "restructure:sec2:order": 0.0,
+   "revise:sec3:s3.1": 0.15483606264564292,
+   "revise:sec3:s3.2": 0.15483606264564292,
+   "write:sec1:s1.1": 0.18230848598902938,
+   "write:sec1:s1.2": 0.18230848598902938,
+   "write:sec3:s3.2": 0.12058644683611981
+  },
+  "next_section": {
+   "sec1": 0.36461697197805876,
+   "sec2": 0.0,
+   "sec3": 0.6353830280219412
+  },
+  "next_type": {
+   "check": 0.20512445589453557,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.30967212529128585,
+   "write": 0.48520341881417856
+  },
+  "stop": 0.014774031693273055
+ },
+ "version": "PredictionV1"
+}

@@ -1033,6 +1033,140 @@ one constant vector, V02 with V03, and V04 with V05.
   timing artifact of the 02:56 landing (L357).
 
 
+## Stage 8 (his build order 2026-09-04; brief at PHASE_2_4_STAGE_8_CONTEXT.md, filed in this folder)
+
+**Review, 2026-09-04.** The brief was read against the Stage 7 code before anything was built.
+No large structural error; six decisions taken inside its degrees of freedom and recorded in
+L358 so a word reverses each: the population corpus spans the eight goal objects (the four
+Stage 7 goals and the four purposes) so the expertise gate on maker-free purpose worlds tests
+expertise rather than transfer; a purpose is a goal-level utility table registered at runtime
+(the Stage 7 law file untouched), every inventory action of a purpose world owned by it, and
+purpose pairs differing only on the two tool-gated types so exact equivalence exists by
+construction; the adapters are served by the loopback endpoint under a registry hash rather
+than loaded inside the capsule (the capsule imports no torch; interpreter-level, as ruled); a
+theory-change interrupt closes the cells it names and lets the rest run, the packet carrying
+it for the ruling; the keystone signs on mechanical checks, countersigned at the agent's next
+pass; the frontier probe runs on Gemini (the one key present), the cheapest thinking-capable
+model that passes the pilot's calibration fixture, prices recorded before the first call, the
+cap enforced before every request.
+
+**The record gate (L358).** Ten errata applied as lightly cleaned transcripts of the
+2026-09-04 walkthroughs: five in the triple inference (the expertise row and its afterword;
+the proximal goal as an artifact-level purpose with the pull ordering demoted to a derived
+variable; P-S8 and MS-S8 as new open rows after the realization rule; the several-makers
+sentence in §3), one in the three layers (expertise as the precondition for seeing the
+maker; the child's-drawing tension OPEN), two in the reader heuristics (the forward model
+as the initialization; the affordance route to the goal, canonical), two in the decision
+traces (the record result as a program result about ground truth; the reveal parameter as a
+construction note). Lint clean on all four; 21 locks OK.
+
+**The build.** `soundingline/stage8.py` on the Stage 7 records (the registry list extended by
+rebinding, nothing in runners/stage7 edited); `runners/stage8/`: cards (44 questions, 12
+attacks, the ladder), manifest, engines (the isolation and expertise trunks, the shared batch
+with the tail flag), engine_dpa (difference, purpose, accumulation, the frontier cells),
+attacks, confirmation (the freeze rule, the closure tail in reading order), testbed
+(clones, corpora manifests under the fetch discipline, loaders with fixtures, the catalog
+cards), validate, report, fresh_clone, scheduler (the pilot that trains the smallest reader
+for one epoch to measure cost, the workload lock, the RE-LOCK from the base run's actual
+charges before any rung, the interrupts, the closure tail), student (rung 6), frontier;
+`runners/stage8/constructor/` (population, purpose, gradient, series); `runners/stage8/reader/`
+(the one log grammar, the forward-model readout, the Stage 8 worker over the Stage 7 capsule,
+the client with the generative ops); `runners/stage8/model_server.py` (adapters under hash,
+batched sequence log probabilities, raw log sampling, the fake route); `train_adapter.py`;
+`run_stage8.sh`; `tests/test_stage8_guards.py` (22 guards). Two build-time defects caught
+by the guards before any clock: the purpose leaked through the inventory's goal-owner
+labels on purpose worlds (stripped); the frontier ledger's per-cell tally read a key before
+creating it.
+
+**Launch.** Prepared and rehearsed end to end through the fake transport on a scratch root;
+the real pilot started THE CLOCK at 2026-09-04T08:06:58 (deadline 2026-09-06T08:06:58); the adapter epoch on the
+smallest reader cost 80.0 s; unit costs
+(seconds, with the 1.6 margin): {"model": 9.98, "per_event": 7.08, "gen": 15.77, "proposal": 0.61, "dir0": 1.63, "solver": 0.39, "fr": 25.0, "train_epoch_s": 127.36}; base forecast 18.6 h, provisional ladder
+[(1, 4), (2, 2), (3, 1), (4, 1), (5, 1), (6, 0), (7, 0), (8, 0)], to be re-locked at base completion; frontier model gemini-3.5-flash-lite, fixture dollars 0.04096.
+
+**Runtime log.**
+- 2026-09-04T08:06:58 the pilot began (the clock); the workload locked; `S7_THEN_QUEUE=1 bash run_stage8.sh` in the background.
+- 08:10 to 08:29 the validity pass (his order): read the first landed rows against the cells that read them.
+  Two structural holes found and repaired before any purpose cell ran, with the engine stopped and the
+  cells reset (rows preserved under superseded_validity1/): the purpose worlds' exact-minus-DOM gap at the
+  cut was 0.35 nats with a median near zero (too thin a ruler for a fifth-of-the-gap floor), so the four
+  purpose utility tables are doubled (0.55 nats, median 0.3, the K family's order; the equivalence share
+  unchanged at 0.17); and the tail flag at the cut was near empty on every family (0 of 24 purpose worlds)
+  because one per-event quantile served both the whole-log surprise cells and the prospective cells, so
+  E01 now writes a second, cut-event quantile per family and the prospective cells read it (the
+  per-event cells keep theirs). Three implementation defects repaired: a reader filter added in the pass
+  hid every reader from the training cell that creates their adapters (E02 trained nothing; reset with I01
+  and I04, relaunched 08:29:28 on the same clock); the calibration helpers were called with the wrong
+  signature (G01, G07); the purpose-recall and crossover cells looked up their oracle bundles under a
+  stripped unit id (G06 read null). Every trunk cell then ran end to end through the fake transport
+  with the gate forced open, the frontier cells under a stubbed API, and the closure tail with a forced
+  kill and resume; the packet writes. The testbed landed on the relaunch: 17 clones pinned; corpora 7 of
+  10 manifested or in hand (a missing license file, a gated dataset page, a certificate refusal recorded).
+- 08:29:28 E02 training (the 1.5B reader, 1600 examples, three epochs; about 24 minutes per epoch beside Ghost).
+- 10:38 E02 landed (fm_qwen epochs 28, 28, 23 min, held-out gap +0.06, +0.10, +0.14; fm_smollm 7.5 min an epoch, +0.07,
+  +0.09, +0.12; both within band, no repair), I01, I07, I04 (identity 1.0, the oracle differing 39 of 45), I05 (SOL TV
+  0.19, FM 0.02, DIR0 0.65, bytes changed 1.0), I08 (six checks, signed by the checklist); the scientific lock written.
+- 10:53 E03 INFRASTRUCTURE: the expertise gate PASSED on both readers (Qwen +0.186 [+0.003, +0.387], SmolLM2 +0.125
+  [−0.059, +0.311] on 83 units; POP +0.26 / +0.17, PU maker-free +0.12 / +0.08; the oracle gap +0.52) (L359). X01, T03
+  landed; E04 and E07 started.
+- 11:10 E07 COUNTEREVIDENCE (gemini-3.5-flash-lite vs DOM -2.64 nats; 0.26 USD). 11:57 E05 COUNTEREVIDENCE (DIR0 −2.39 / −0.89,
+  FMB −1.78 / −2.01 vs DOM). 12:26 E06 INCONCLUSIVE (true minus false +0.06 [−0.03, +0.17]). 13:17 E08 INCONCLUSIVE.
+- 13:5x to 14:05 E04's first reading (feasibility 0.23 / 0.18) found to read the hidden inventory; the one repair (the
+  visible-structure rule, the extended-inventory likelihood; the world's own logs pass at 40 of 40); E04 and E05 reset with
+  their generated rows restored and re-analyzed: E04 FAILS on both readers (feasibility 0.73 / 0.58, medians under the
+  percentile); the interrupt generation_gate_failed_all recorded; diagnosis labeling added for the trunks. E08's solver
+  comparator had been handed the state in language form (unrealized on 80 rows): reset with the model rows restored,
+  executable form for the solver, the solver rows rerun (L360).
+- 14:12 GEAR ONE on his call (the run never stopped; D01 at row 143 of its checkpointed cases, no row lost): the live
+  tree throttled in place (below normal priority, cores 16 to 23, inherited by every cell the scheduler starts);
+  `results/.gear` = one now governs the scheduler between units (one CPU cell beside the GPU cell) and the wrapper
+  at any relaunch. The card stays held by whichever GPU cell runs; the game and the readers share 12 GB.
+- 14:39 D01 closed; 17:22 D04, D02, D03; 17:29 X11; 17:41 G01; 17:50 D05, G04. 18:10 the read found the shared-card
+  void: 503 out of memory from 14:51 to 16:12 and 16:42 to 17:22 (the game at 11 of 12 GB); D01 had closed on 128 of
+  192 reader rows, D04 on 3 units of 80. 18:15 stopped; the fragment guard added (STARVED, exit 4; lost units rerun
+  without an attempt charged; endpoint-failed rows not done on resume); a reset issued without the stage variable
+  resolved to the Stage 7 root and moved four of its cells, restored from git within the minute (checkout only) and
+  the root guard added; D01, D04, D02, D03 reset (oom503) with the valid rows restored; 18:18 relaunched in gear one
+  (cap 1, below normal, eight cores). G01, G04, D05, X11 stand (L361). 18:21 the D01 rerun starved with the game
+  gone: the scoring op held 10.5 GB (full-vocabulary logits over the whole padded sequence in float32); repaired to
+  score the continuation span only (identical numbers on a CPU check) with batch halving on out-of-memory; the
+  failing attempt cut at 18:24, the retry's first 213 calls landed with zero out-of-memory at 4.7 GB.
+- 18:32 D01 whole (192 of 192 reader units; COUNTEREVIDENCE, AUROC 0.34 / 0.37 vs DOM 0.56; the difference gate
+  failed); G07 DESCRIPTIVE. 18:59 D04 whole (320 of 320; INCONCLUSIVE, residue gain under 0.01), D02, D03
+  DESCRIPTIVE (L362). G02 resumed at row 656.
+- 19:07 G02 INCONCLUSIVE whole (+0.18 [−0.02, +0.39] vs DOM), tail SUPPORT_CANDIDATE (+1.01) as diagnosis, the proposed
+  purpose null or worse against the plain reader; 19:19 X05 read INSTRUMENT_FAILED on an FM order bound of 1e-6 (TV
+  0.0013, fp16 batch padding); 19:20 G03 INCONCLUSIVE (split by reader, pooled zero). 19:21 stopped, X05 reset
+  (ordertol) with the rows restored and the bound set to 0.01, relaunched 19:21:51 in gear one; 19:22 X05
+  INFRASTRUCTURE recomputed from its rows (L363). G05 resumed at row 25.
+- 19:26 G08 DESCRIPTIVE (frontier purpose recall 0.16; −1.82 nats with its own purpose; 1.99 USD); 19:33 G05 DESCRIPTIVE
+  (pull easier by 0.24 / 0.15), X07 records G04's failure as the reader's (L364). G06 started, X07 done.
+- 19:53 GEAR TWO on his call, the run never stopped: the gear file set to two, the live tree restored to normal priority
+  on all 24 cores (tools/gear1_throttle.ps1 -Prio Normal -Mask 0xFFFFFF); the scheduler's next starts read cap 2 under
+  Ghost live, 3 when Ghost is quiet.
+- 19:51 G06 COUNTEREVIDENCE (no crossover: paraphrase 0.35 / 0.52, meaning change 0.31 / 0.58 against base 0.27 / 0.46),
+  X04 records it (L365). A01 started.
+- 23:21 A01 VALID_NULL after 210 min on the card (N3 minus N0 −0.002 / +0.016; all cells INFERIOR to DOM); X08
+  INFRASTRUCTURE (24 conditional cells, no reversal); X09 read four cells unpriced (E04, E05, E08, X05: a rerun from
+  restored rows had overwritten the first attempt's ledger with an empty entry). 23:23 stopped; the ledger merge and the
+  rows'-budget source added, the four entries backfilled, X09 reset (ledger); relaunched 23:23:41 in gear two; X09
+  INFRASTRUCTURE 17 of 17 priced (L366). A02 resumed at row 28.
+- 2026-09-05 00:07 A02 DESCRIPTIVE (law and residue recall flat at chance across N); 00:24 A03 INCONCLUSIVE whole, tail
+  SUPPORT_CANDIDATE as diagnosis (+1.56 vs DOM; +0.002 / −0.056 vs the plain reader), A04 DESCRIPTIVE (reveal 0.02), X10
+  INFRASTRUCTURE (the strengthened rival is DOM), D06 DESCRIPTIVE (one sign difference, E08) (L367). A05 started.
+- 01:01 A05 INCONCLUSIVE (attribution under 0.02 nats); 01:09 X06 INFRASTRUCTURE (0.006). 01:09:38 RE-LOCK at 17.0 h,
+  budget 25.0 h, ladder (1, 4), (2, 2), (3, 1), (4, 1), (5, 1), (6, 1), (7, 0), (8, 1); E03/x1 admitted and started (L368).
+- 02:06 E03/x1 INFRASTRUCTURE (PASS +0.24 / +0.20 on 306 units), which rewrote EXPERTISE_GATE with passed = true; 03:33
+  D01/x1 COUNTEREVIDENCE (−0.20 / −0.16 on 334) closed WITHOUT the diagnosis label because admission read the expertise
+  registry alone. 03:35 stopped; admitted_readers now folds in the generation gate; D01/x1 reset (admission) with rows
+  restored; relaunched 03:35:39 in gear two; 03:36 D01/x1 recomputed as diagnosis (L369). G01/x1 resumed at row 5.
+- 05:25 G01/x1 INFRASTRUCTURE as diagnosis (recall 0.33 / 0.53 on 384; L369 addendum); G02/x1 started. 07:25 health pass on
+  his order: gear two on every process, cap 2 under Ghost live; fresh-clone verifier read-only 51 of 51 re-hashed clean;
+  validator clean but for the closure tail; the stale interrupt surprise_not_localized annotated as diagnosis.
+- 08:47 G02/x1 INCONCLUSIVE whole vs DOM, the proposal vs the plain reader COUNTEREVIDENCE-grade on both (−0.087 / −0.058 on
+  327), tail SUPPORT_CANDIDATE as diagnosis (L370); 202 min on the card. A01/x1 started (1,051 rows by 12:57, one endpoint
+  failure, under the guard's fifth).
+
 ## Scout registry (all discovery-lane; codes are local, never global identifiers)
 
 Registered now, verdict-free; the always-run set (addendum §9.1) is marked ⚙ and runs after

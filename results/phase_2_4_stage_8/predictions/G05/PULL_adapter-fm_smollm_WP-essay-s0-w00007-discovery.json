@@ -1,0 +1,75 @@
+{
+ "abstain": false,
+ "arm": "PULL",
+ "canonical_sha": "872465f854f2119a",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 430,
+  "tokens_out": 0,
+  "wall_s": 3.52
+ },
+ "confidence": 0.5312093733737563,
+ "equivalence_class": [],
+ "evidence_sha": "0c12207c1e18098c",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "recall": {
+   "confidence": 0.5312093733737563,
+   "dist": {
+    "check>write": 0.46879062662624377,
+    "write>revise": 0.5312093733737563
+   }
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.25,
+   "check:sec3:s3.1": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec3:order": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.25,
+   "check:sec3:s3.1": 0.25,
+   "probe:sec1:tech": 0.25,
+   "restructure:sec3:order": 0.25
+  },
+  "next_section": {
+   "sec1": 0.25,
+   "sec2": 0.25,
+   "sec3": 0.5,
+   "sec4": 0.0
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.25,
+   "restructure": 0.25,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "pull": {
+   "check>write": 0.46879062662624377,
+   "write>revise": 0.5312093733737563
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

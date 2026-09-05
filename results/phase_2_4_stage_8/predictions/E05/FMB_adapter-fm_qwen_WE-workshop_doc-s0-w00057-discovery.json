@@ -1,0 +1,91 @@
+{
+ "abstain": false,
+ "arm": "FMB",
+ "canonical_sha": "f53cf517c16653a8",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 302,
+  "tokens_out": 0,
+  "wall_s": 3.746
+ },
+ "confidence": 0.7078268801567437,
+ "equivalence_class": [],
+ "evidence_sha": "cc22230f6b54fce7",
+ "notes": {
+  "adapter_sha": null,
+  "header": "task: the tool inventory\naudience: editor\ntools: library=no source=no\ndeadline: loose\nsections: sec1(3) sec2(2) sec3(3)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -10.622426986694336,
+   "check:sec2:s2.1": -10.3592529296875,
+   "check:sec3:s3.1": -11.936230659484863,
+   "cite:sec3:ref": -19.528289794921875,
+   "consult:sec1:src": -23.170949935913086,
+   "fix:sec2:s2.1": -10.16999626159668,
+   "probe:sec1:tech": -27.653343200683594,
+   "restructure:sec2:order": -20.9108943939209,
+   "revise:sec1:s1.2": -3.265402317047119,
+   "revise:sec2:s2.1": -4.156679153442383
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -11.423969268798828
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.0005551982488240586,
+   "check:sec2:s2.1": 0.000678724188447191,
+   "check:sec3:s3.1": 0.0001487228549475742,
+   "cite:sec3:ref": 6.357831247085939e-08,
+   "consult:sec1:src": 2.6232395332816057e-09,
+   "fix:sec2:s2.1": 0.0008606503550966138,
+   "probe:sec1:tech": 1.9447039590251626e-11,
+   "restructure:sec2:order": 1.4539867754975471e-08,
+   "revise:sec1:s1.2": 0.6941488135720525,
+   "revise:sec2:s2.1": 0.3036078100197652
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.0004516602119130863,
+   "check:sec2:s2.1": 0.0005876339444485104,
+   "check:sec3:s3.1": 0.000121404322179201,
+   "cite:sec3:ref": 6.124135057376488e-08,
+   "consult:sec1:src": 1.6034578977555818e-09,
+   "fix:sec2:s2.1": 0.0007100680983989188,
+   "probe:sec1:tech": 1.8129210868757356e-11,
+   "restructure:sec2:order": 1.536693349574208e-08,
+   "revise:sec1:s1.2": 0.7078268801567437,
+   "revise:sec2:s2.1": 0.29030227503644546
+  },
+  "next_section": {
+   "sec1": 0.7082785419902439,
+   "sec2": 0.29159999244622636,
+   "sec3": 0.00012146556352977475
+  },
+  "next_type": {
+   "check": 0.0011606984785407976,
+   "cite": 6.124135057376488e-08,
+   "consult": 1.6034578977555818e-09,
+   "fix": 0.0007100680983989188,
+   "probe": 1.8129210868757356e-11,
+   "restructure": 1.536693349574208e-08,
+   "revise": 0.9981291551931891,
+   "write": 0.0
+  },
+  "stop": 0.00020259020836075296
+ },
+ "version": "PredictionV1"
+}

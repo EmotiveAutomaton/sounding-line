@@ -1,0 +1,73 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "139f3c2bc3c1bdde",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1916,
+  "tokens_out": 0,
+  "wall_s": 3.821
+ },
+ "confidence": 0.5798081238113273,
+ "equivalence_class": [],
+ "evidence_sha": "5c4fc6cd7cdc6d64",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the bench layout\naudience: editor\ntools: library=yes source=no\ndeadline: loose\nsections: sec1(2) sec2(3) sec3(3)\nmaker: The document is meant to explore an open question.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "consult:sec1:src": -6.862603664398193,
+   "probe:sec1:tech": -1.721725583076477,
+   "restructure:sec2:order": -2.7063486576080322,
+   "revise:sec2:s2.1": -2.7851369380950928
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -1.8779300451278687
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "consult:sec1:src": 0.003574546721668245,
+   "probe:sec1:tech": 0.7029564679700088,
+   "restructure:sec2:order": 0.15197337475211659,
+   "revise:sec2:s2.1": 0.14149561055620646
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "consult:sec1:src": 0.0033933551322316065,
+   "probe:sec1:tech": 0.5798081238113273,
+   "restructure:sec2:order": 0.21660472598061759,
+   "revise:sec2:s2.1": 0.20019379507582355
+  },
+  "next_section": {
+   "sec1": 0.5832014789435589,
+   "sec2": 0.4167985210564411,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0033933551322316065,
+   "fix": 0.0,
+   "probe": 0.5798081238113273,
+   "restructure": 0.21660472598061759,
+   "revise": 0.20019379507582355,
+   "write": 0.0
+  },
+  "stop": 0.33153237185511336
+ },
+ "version": "PredictionV1"
+}

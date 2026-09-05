@@ -1,0 +1,133 @@
+{
+ "abstain": false,
+ "arm": "FMP",
+ "canonical_sha": "8e0ae4b39a84ca17",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 5,
+  "model_calls": 3,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 378,
+  "tokens_out": 0,
+  "wall_s": 4.589
+ },
+ "confidence": 0.22771017475413433,
+ "equivalence_class": [
+  "teach"
+ ],
+ "evidence_sha": "d4fcf3c47e46f046",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the order ledger\naudience: self\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(2) sec2(3) sec3(2)\ngoal: teach\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -3.775547981262207,
+   "check:sec2:s2.1": -4.291170597076416,
+   "check:sec3:s3.1": -4.072422027587891,
+   "cite:sec3:ref": -3.9098358154296875,
+   "consult:sec1:src": -3.3160431385040283,
+   "probe:sec1:tech": -4.9719085693359375,
+   "restructure:sec2:order": -5.534717082977295,
+   "revise:sec1:s1.1": -3.145162343978882,
+   "revise:sec2:s2.2": -3.5300748348236084,
+   "revise:sec3:s3.2": -3.499546527862549,
+   "write:sec1:s1.1": -1.7623168230056763,
+   "write:sec1:s1.2": -1.6685668230056763,
+   "write:sec2:s2.1": -1.7399097681045532,
+   "write:sec3:s3.2": -2.67740797996521
+  },
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.4350514745739766,
+   "equivalence_class": [
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.2292560168152096,
+    "explore": 0.11348995790984498,
+    "persuade": 0.2222025507009688,
+    "teach": 0.4350514745739766
+   },
+   "raw": {
+    "document": 0.2103694772209559,
+    "explore": 0.10414044284197142,
+    "persuade": 0.20389708884196472,
+    "teach": 0.39921112013432486,
+    "unknown": 0.08238187096078303
+   },
+   "unknown": 0.08238187096078303,
+   "weights": "base"
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.6590864658355713
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.023809821239052013,
+   "check:sec2:s2.1": 0.014441424457855317,
+   "check:sec3:s3.1": 0.017693977806299308,
+   "cite:sec3:ref": 0.02443814286777267,
+   "consult:sec1:src": 0.03555724567425705,
+   "probe:sec1:tech": 0.00689628701424063,
+   "restructure:sec2:order": 0.004522481944967085,
+   "revise:sec1:s1.1": 0.04826176783008417,
+   "revise:sec2:s2.2": 0.03205559329451585,
+   "revise:sec3:s3.2": 0.03203267354521746,
+   "write:sec1:s1.1": 0.21963234408803753,
+   "write:sec1:s1.2": 0.23747918681352448,
+   "write:sec2:s2.1": 0.2159337386927609,
+   "write:sec3:s3.2": 0.08724531473141554
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.027690585969312113,
+   "check:sec2:s2.1": 0.016534843521394497,
+   "check:sec3:s3.1": 0.02057791580417567,
+   "cite:sec3:ref": 0.024210941632559706,
+   "consult:sec1:src": 0.043842222693655716,
+   "probe:sec1:tech": 0.008370653104357013,
+   "restructure:sec2:order": 0.004767983155864617,
+   "revise:sec1:s1.1": 0.052012191135069955,
+   "revise:sec2:s2.2": 0.03539482578403815,
+   "revise:sec3:s3.2": 0.036492032610791564,
+   "write:sec1:s1.1": 0.20733247350529757,
+   "write:sec1:s1.2": 0.22771017475413433,
+   "write:sec2:s2.1": 0.21203062290022676,
+   "write:sec3:s3.2": 0.0830325334291224
+  },
+  "next_section": {
+   "sec1": 0.5669583011618267,
+   "sec2": 0.26872827536152405,
+   "sec3": 0.16431342347664935
+  },
+  "next_type": {
+   "check": 0.06480334529488228,
+   "cite": 0.024210941632559706,
+   "consult": 0.043842222693655716,
+   "fix": 0.0,
+   "probe": 0.008370653104357013,
+   "restructure": 0.004767983155864617,
+   "revise": 0.12389904952989966,
+   "write": 0.730105804588781
+  },
+  "purpose": {
+   "document": 0.2292560168152096,
+   "explore": 0.11348995790984498,
+   "persuade": 0.2222025507009688,
+   "teach": 0.4350514745739766
+  },
+  "stop": 0.03017209157052861
+ },
+ "version": "PredictionV1"
+}

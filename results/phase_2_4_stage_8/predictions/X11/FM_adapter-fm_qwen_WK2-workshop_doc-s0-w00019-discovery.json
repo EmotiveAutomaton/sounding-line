@@ -1,0 +1,67 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "3d8108652ca0a382",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 424,
+  "tokens_out": 0,
+  "wall_s": 3.536
+ },
+ "confidence": 0.9149028529998787,
+ "equivalence_class": [],
+ "evidence_sha": "ebebd80c7f052b95",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the safety sheet\naudience: editor\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(2) sec2(2) sec3(3)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec3:ref": -2.8743507862091064,
+   "consult:sec1:src": -0.4993264079093933
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -1.249141812324524
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.08633595417973128,
+   "consult:sec1:src": 0.9136640458202687
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.08509714700012126,
+   "consult:sec1:src": 0.9149028529998787
+  },
+  "next_section": {
+   "sec1": 0.9149028529998787,
+   "sec2": 0.0,
+   "sec3": 0.08509714700012126
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.08509714700012126,
+   "consult": 0.9149028529998787,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.30179752471472066
+ },
+ "version": "PredictionV1"
+}

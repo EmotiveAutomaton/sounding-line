@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FMPT",
+ "canonical_sha": "0f0e099c28a92cea",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 244,
+  "tokens_out": 0,
+  "wall_s": 3.874
+ },
+ "confidence": 0.13601549873273025,
+ "equivalence_class": [],
+ "evidence_sha": "a43c4d35658aa693",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the lathe manual\naudience: self\ntools: library=yes source=no\ndeadline: loose\nsections: sec1(3) sec2(3) sec3(3) sec4(2)\ngoal: document\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec4:ref": -3.5809249877929688,
+   "consult:sec1:src": -2.9388763904571533,
+   "fix:sec2:s2.1": -2.360513687133789,
+   "probe:sec1:tech": -4.642737865447998,
+   "restructure:sec3:order": -6.584693908691406,
+   "revise:sec1:s1.3": -5.143126487731934,
+   "revise:sec2:s2.2": -5.435446739196777,
+   "revise:sec3:s3.1": -5.503458499908447,
+   "revise:sec3:s3.3": -5.503458499908447,
+   "revise:sec4:s4.1": -5.246153831481934,
+   "write:sec1:s1.2": -2.2643895149230957,
+   "write:sec1:s1.3": -2.0925145149230957,
+   "write:sec2:s2.1": -2.590878486633301,
+   "write:sec2:s2.2": -2.575253486633301,
+   "write:sec2:s2.3": -2.622128486633301,
+   "write:sec3:s3.1": -2.7478432655334473,
+   "write:sec3:s3.2": -2.6853432655334473,
+   "write:sec3:s3.3": -2.6384682655334473,
+   "write:sec4:s4.1": -3.1567318439483643
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.626103401184082
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.027012633197523103,
+   "consult:sec1:src": 0.05639297137443195,
+   "fix:sec2:s2.1": 0.10373867314357041,
+   "probe:sec1:tech": 0.011456192289444105,
+   "restructure:sec3:order": 0.0015385940617172664,
+   "revise:sec1:s1.3": 0.00829018034595964,
+   "revise:sec2:s2.2": 0.005968056016508024,
+   "revise:sec3:s3.1": 0.005921211292140929,
+   "revise:sec3:s3.3": 0.005739034772699605,
+   "revise:sec4:s4.1": 0.007903117914630348,
+   "write:sec1:s1.2": 0.10320305284502639,
+   "write:sec1:s1.3": 0.13887488702270392,
+   "write:sec2:s2.1": 0.0769989780824641,
+   "write:sec2:s2.2": 0.07580521957524344,
+   "write:sec2:s2.3": 0.07821153555077935,
+   "write:sec3:s3.1": 0.07043745604983277,
+   "write:sec3:s3.2": 0.07267338092042275,
+   "write:sec3:s3.3": 0.0773604113006169,
+   "write:sec4:s4.1": 0.07247441424428497
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.030702938531260982,
+   "consult:sec1:src": 0.058346942904565234,
+   "fix:sec2:s2.1": 0.10403939945391882,
+   "probe:sec1:tech": 0.010617944954590088,
+   "restructure:sec3:order": 0.0015228589353559893,
+   "revise:sec1:s1.3": 0.006437606874423229,
+   "revise:sec2:s2.2": 0.004805862929668624,
+   "revise:sec3:s3.1": 0.004489874972183894,
+   "revise:sec3:s3.3": 0.004489874972183894,
+   "revise:sec4:s4.1": 0.005807380008369076,
+   "write:sec1:s1.2": 0.11453653333297263,
+   "write:sec1:s1.3": 0.13601549873273028,
+   "write:sec2:s2.1": 0.08263264900241574,
+   "write:sec2:s2.2": 0.08393392387865167,
+   "write:sec2:s2.3": 0.08009030966595986,
+   "write:sec3:s3.1": 0.0706289480786467,
+   "write:sec3:s3.2": 0.0751841238689166,
+   "write:sec3:s3.3": 0.07879228530912855,
+   "write:sec4:s4.1": 0.04692504359405824
+  },
+  "next_section": {
+   "sec1": 0.32595452679928144,
+   "sec2": 0.3555021449306147,
+   "sec3": 0.23510796613641557,
+   "sec4": 0.08343536213368831
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.03070293853126098,
+   "consult": 0.05834694290456523,
+   "fix": 0.10403939945391881,
+   "probe": 0.010617944954590086,
+   "restructure": 0.001522858935355989,
+   "revise": 0.026030599756828716,
+   "write": 0.7687393154634802
+  },
+  "stop": 0.028510020710547725
+ },
+ "version": "PredictionV1"
+}

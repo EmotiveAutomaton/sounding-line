@@ -1,0 +1,79 @@
+{
+ "abstain": false,
+ "arm": "FMC",
+ "canonical_sha": "abc8fe9ad86af4db",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 352,
+  "tokens_out": 0,
+  "wall_s": 3.683
+ },
+ "confidence": 0.6118173289480394,
+ "equivalence_class": [],
+ "evidence_sha": "347d8a377606c885",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the lathe manual\naudience: peer\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(3) sec2(2) sec3(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec3:ref": -2.9964475631713867,
+   "fix:sec2:s2.1": -1.120648980140686,
+   "probe:sec1:tech": -4.0584259033203125,
+   "restructure:sec2:order": -4.652581691741943,
+   "revise:sec1:s1.1": -2.9466686248779297,
+   "revise:sec2:s2.1": -2.5563135147094727
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.792489767074585
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.10236900331291328,
+   "fix:sec2:s2.1": 0.6083265471812837,
+   "probe:sec1:tech": 0.02934662031695369,
+   "restructure:sec2:order": 0.017793795008120828,
+   "revise:sec1:s1.1": 0.09644373387685508,
+   "revise:sec2:s2.1": 0.1457203003038735
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.09375032887233374,
+   "fix:sec2:s2.1": 0.6118173289480394,
+   "probe:sec1:tech": 0.032416152504695955,
+   "restructure:sec2:order": 0.017894636735677132,
+   "revise:sec1:s1.1": 0.0985352262461617,
+   "revise:sec2:s2.1": 0.14558632669309207
+  },
+  "next_section": {
+   "sec1": 0.13095137875085766,
+   "sec2": 0.7752982923768086,
+   "sec3": 0.09375032887233374
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.09375032887233374,
+   "consult": 0.0,
+   "fix": 0.6118173289480394,
+   "probe": 0.032416152504695955,
+   "restructure": 0.017894636735677132,
+   "revise": 0.24412155293925378,
+   "write": 0.0
+  },
+  "stop": 0.1031076449658537
+ },
+ "version": "PredictionV1"
+}

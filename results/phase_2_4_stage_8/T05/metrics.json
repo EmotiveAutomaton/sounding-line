@@ -1,0 +1,50 @@
+{
+ "card": "T05",
+ "lane": "discovery",
+ "written_at": "2026-09-04T08:28:17",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "baselines": {
+  "newsedits_2": {
+   "published": "the persistence rate of sentences across versions (the paper's cheap baseline)",
+   "reproduced": null,
+   "status": "NOT_REPRODUCED: bulk data not fetched under the text-only, four-megabyte fetch discipline; manifest only"
+  },
+  "arxivedits": {
+   "published": "the majority intention class",
+   "reproduced": null,
+   "status": "NOT_REPRODUCED: bulk data not fetched; manifest only"
+  },
+  "genius_expertise": {
+   "published": "the annotation count stated on the dataset page",
+   "reproduced": null,
+   "status": "NOT_REPRODUCED: the archive is not fetched (size, terms); manifest only"
+  },
+  "iterater": {
+   "published": "the label distribution",
+   "reproduced": null,
+   "status": "NOT_REPRODUCED: manifest only"
+  },
+  "coauthor": {
+   "published": "1,445 sessions (Lee et al. 2022)",
+   "reproduced": 690,
+   "status": "REPRODUCED_COUNT (the repaired Stage 7 loader's reconstructed sessions; the paper's count is the whole release)"
+  },
+  "scholawrite": {
+   "published": "the project count of the release",
+   "reproduced": 79,
+   "status": "MEASURED_COUNT (no published number adopted as a gate)"
+  },
+  "argrewrite_v2": {
+   "published": "the essay count of the v2 release",
+   "reproduced": 635,
+   "status": "MEASURED_COUNT (files on disk; see the Stage 3 replication for the published pair-task numbers)"
+  }
+ }
+}

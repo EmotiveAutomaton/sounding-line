@@ -1,0 +1,265 @@
+# Keystone audit (I08): one world, constructor to score through the trained reader
+
+Written 2026-09-04T10:38:17. World `WX|essay|s0|w53002|conformance`; evidence sha `4d15639d596c2e4a`; prefix 4 steps.
+
+## Checklist (each item mechanically checked; signed in KEYSTONE_LOCK.json)
+
+- inputs_clean: PASS
+- no_denials: PASS
+- sol_equals_oracle: PASS
+- fm_scored_options_with_adapter: PASS
+- one_prediction_per_arm: PASS
+
+## Trace
+
+```json
+{
+ "lid": "WX|essay|s0|w53002|conformance",
+ "evidence_sha": "4d15639d596c2e4a",
+ "evidence_keys": [
+  "artifact_state",
+  "brief",
+  "condition_ref",
+  "domain",
+  "objective_options",
+  "process_prefix",
+  "query",
+  "regime",
+  "render",
+  "supplied_factors",
+  "unit_ref",
+  "version"
+ ],
+ "prefix_len": 4,
+ "hidden_keys_in_bundle": [
+  "boundary_type",
+  "changed_context",
+  "equivalence_class",
+  "invalidation",
+  "next_action",
+  "next_section",
+  "next_slot",
+  "next_type",
+  "rejected_alternative",
+  "stop_next",
+  "stop_weight",
+  "stopped_at",
+  "subjective_ids",
+  "tail",
+  "tail_stop",
+  "unavailable_ids"
+ ],
+ "FM": {
+  "capsule_files": [
+   "bootstrap.py",
+   "dom.json",
+   "evidence.json",
+   "reader\\__init__.py",
+   "reader\\baselines.py",
+   "reader\\client.py",
+   "reader\\client8.py",
+   "reader\\contracts.py",
+   "reader\\extra_arms.py",
+   "reader\\forward_model.py",
+   "reader\\history_reader.py",
+   "reader\\joint_reader.py",
+   "reader\\law.py",
+   "reader\\logfmt.py",
+   "reader\\records_reader.py",
+   "reader\\supplied_state.py",
+   "reader\\worker.py",
+   "reader\\worker7.py",
+   "task.json"
+  ],
+  "access_counts": {
+   "allowed": 103,
+   "denied": 0,
+   "events": {}
+  },
+  "rc": 0,
+  "prediction_sha": "3f7817dbb2d75025",
+  "adapter_sha": "7dce6645c26923f9",
+  "option_lps": {
+   "check:sec4:s4.1": -1.931621789932251,
+   "cite:sec4:ref": -3.5569405555725098,
+   "fix:sec2:s2.1": -1.9472626447677612,
+   "probe:sec1:tech": -3.260338544845581,
+   "restructure:sec3:order": -5.4952592849731445,
+   "revise:sec1:s1.3": -3.829164743423462,
+   "revise:sec2:s2.2": -3.67077898979187,
+   "revise:sec3:s3.2": -4.142514705657959,
+   "revise:sec3:s3.3": -4.157384395599365,
+   "revise:sec4:s4.2": -3.777947187423706,
+   "write:sec1:s1.1": -3.0402016639709473,
+   "write:sec1:s1.2": -3.1808266639709473,
+   "write:sec1:s1.3": -3.1495766639709473,
+   "write:sec2:s2.1": -2.966390609741211,
+   "write:sec2:s2.2": -2.935140609741211,
+   "write:sec3:s3.1": -3.5235559940338135,
+   "write:sec3:s3.2": -3.4766809940338135,
+   "write:sec3:s3.3": -3.4454309940338135,
+   "write:sec4:s4.1": -3.325658082962036,
+   "write:sec4:s4.2": -3.325658082962036
+  },
+  "next_action_top": [
+   [
+    "check:sec4:s4.1",
+    0.16826444709875873
+   ],
+   [
+    "fix:sec2:s2.1",
+    0.16565312221958775
+   ],
+   [
+    "write:sec2:s2.2",
+    0.06168359497749465
+   ]
+  ],
+  "compute": {
+   "cache_hits": 0,
+   "forward_passes": 4,
+   "model_calls": 2,
+   "retries": 0,
+   "solver_operations": 0,
+   "tokens_in": 174,
+   "tokens_out": 0,
+   "wall_s": 13.286
+  },
+  "score": {
+   "next_action_ls": -3.1109352021995704,
+   "next_action_brier": 0.9952119885768806,
+   "next_action_correct": false,
+   "mass_on_unavailable": 0,
+   "next_type_ls": -3.1109352021995704,
+   "next_section_ls": -1.499035474850735,
+   "stop_ls": -0.04103109485769971,
+   "stop_brier": 0.001616097513718501,
+   "stop_conf": 0.04020071533839294,
+   "stop_truth": false,
+   "stop_weight": 1.0,
+   "changed_context_ls": -1.804725407739838,
+   "invalidation_ls": -1.0986122886681098,
+   "boundary_type_ls": null,
+   "truth_class_size": 2,
+   "abstained": false,
+   "class_coverage_correct": false,
+   "confidence": 0.16826444709875873,
+   "primary": -3.1109352021995704,
+   "combined": -3.15196629705727
+  }
+ },
+ "SOL": {
+  "capsule_files": [
+   "bootstrap.py",
+   "dom.json",
+   "evidence.json",
+   "reader\\__init__.py",
+   "reader\\baselines.py",
+   "reader\\client.py",
+   "reader\\client8.py",
+   "reader\\contracts.py",
+   "reader\\extra_arms.py",
+   "reader\\forward_model.py",
+   "reader\\history_reader.py",
+   "reader\\joint_reader.py",
+   "reader\\law.py",
+   "reader\\logfmt.py",
+   "reader\\records_reader.py",
+   "reader\\supplied_state.py",
+   "reader\\worker.py",
+   "reader\\worker7.py",
+   "task.json"
+  ],
+  "access_counts": {
+   "allowed": 102,
+   "denied": 0,
+   "events": {}
+  },
+  "rc": 0,
+  "prediction_sha": "fbd6d310b12b97ef",
+  "adapter_sha": null,
+  "option_lps": null,
+  "next_action_top": [
+   [
+    "check:sec4:s4.1",
+    0.3422666066294246
+   ],
+   [
+    "fix:sec2:s2.1",
+    0.20759519071654925
+   ],
+   [
+    "revise:sec1:s1.3",
+    0.05947701794539736
+   ]
+  ],
+  "compute": {
+   "cache_hits": 0,
+   "forward_passes": 0,
+   "model_calls": 0,
+   "retries": 0,
+   "solver_operations": 0,
+   "tokens_in": 0,
+   "tokens_out": 0,
+   "wall_s": 0.001
+  },
+  "score": {
+   "next_action_ls": -3.044387516286218,
+   "next_action_brier": 1.080561739713625,
+   "next_action_correct": false,
+   "mass_on_unavailable": 0,
+   "next_type_ls": -3.044387516286218,
+   "next_section_ls": -1.834685000398414,
+   "stop_ls": -0.022124216454879178,
+   "stop_brier": 0.0004787900177803478,
+   "stop_conf": 0.021881270936130466,
+   "stop_truth": false,
+   "stop_weight": 1.0,
+   "changed_context_ls": -1.5721652940639959,
+   "invalidation_ls": -0.14495779872312342,
+   "boundary_type_ls": null,
+   "truth_class_size": 2,
+   "abstained": false,
+   "class_coverage_correct": false,
+   "confidence": 0.5,
+   "primary": -3.044387516286218,
+   "combined": -3.0665117327410973
+  }
+ },
+ "server_ledger": {
+  "56df59fcf9b8318ea7cfb4ff": {
+   "model_calls": 2,
+   "tokens_in": 174,
+   "tokens_out": 0,
+   "forward_passes": 4,
+   "oom": 0
+  }
+ },
+ "truth": {
+  "next_action": "probe:sec1:tech",
+  "stop_next": false
+ },
+ "oracle_score": {
+  "next_action_ls": -3.044387516286218,
+  "next_action_brier": 1.080561739713625,
+  "next_action_correct": false,
+  "mass_on_unavailable": 0,
+  "next_type_ls": -3.044387516286218,
+  "next_section_ls": -1.834685000398414,
+  "stop_ls": -0.022124216454879178,
+  "stop_brier": 0.0004787900177803478,
+  "stop_conf": 0.021881270936130466,
+  "stop_truth": false,
+  "stop_weight": 1.0,
+  "changed_context_ls": -1.5721652940639959,
+  "invalidation_ls": -0.14495779872312342,
+  "boundary_type_ls": null,
+  "truth_class_size": 2,
+  "abstained": true,
+  "class_coverage_correct": true,
+  "confidence": 0.3422666066294246,
+  "primary": -3.044387516286218,
+  "combined": -3.0665117327410973
+ }
+}
+```

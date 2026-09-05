@@ -1,0 +1,93 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "b9f80a202fdbe801",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 56,
+  "tokens_out": 336,
+  "wall_s": 15.572
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "812b593355ce6659",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "the job has a deadline and at least 3 sections, so we know this is a kiln\ntask, a job of type task, which takes a section as an argument\nto do with it, so we can try all jobs of type task, and in this case\none of them has a section so we can try it\nthere are 2 job of type task so we try one of them\nthe next thing to try to is pick a job from section 1, so we do that\nthere is only one recipe of type task for section 1, so we take it\nso we pick section 1\nwe take the first recipe in section 1, so we do that\nthe recipe has the format\nthe first thing the recipe says is of task type, so we do that\nit says to do something to the section, so we do that\nwe pick the first argument the recipe gives us, so we do that\nwe pick the first possible value for the first argument, so we do that\nthe value is for job of type task, so we take that, we get\n\n\\documentclass[preview]{standalone}\n\n\\usepackage[all,margin=1in]{geometry}\n\\usepackage[T1]{fontenc}\n\\usepackage{lmodern}\n\\usepackage{nccmap}\n\\usepackage{booktabs}\n\\usepackage{graphicx}\n\\usepackage[top=3cm,bottom=3cm,left=2.5in,right=2in]{geometry}\n\\usepackage{enum",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.07142857142857142,
+   "check:sec2:s2.1": 0.07142857142857142,
+   "check:sec4:s4.1": 0.07142857142857142,
+   "check:sec5:s5.1": 0.07142857142857142,
+   "cite:sec5:ref": 0.07142857142857142,
+   "fix:sec2:s2.1": 0.07142857142857142,
+   "probe:sec1:tech": 0.07142857142857142,
+   "restructure:sec3:order": 0.07142857142857142,
+   "revise:sec1:s1.1": 0.07142857142857142,
+   "revise:sec4:s4.1": 0.07142857142857142,
+   "write:sec1:s1.2": 0.07142857142857142,
+   "write:sec3:s3.1": 0.07142857142857142,
+   "write:sec4:s4.2": 0.07142857142857142,
+   "write:sec5:s5.2": 0.07142857142857142
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.07142857142857142,
+   "check:sec2:s2.1": 0.07142857142857142,
+   "check:sec4:s4.1": 0.07142857142857142,
+   "check:sec5:s5.1": 0.07142857142857142,
+   "cite:sec5:ref": 0.07142857142857142,
+   "fix:sec2:s2.1": 0.07142857142857142,
+   "probe:sec1:tech": 0.07142857142857142,
+   "restructure:sec3:order": 0.07142857142857142,
+   "revise:sec1:s1.1": 0.07142857142857142,
+   "revise:sec4:s4.1": 0.07142857142857142,
+   "write:sec1:s1.2": 0.07142857142857142,
+   "write:sec3:s3.1": 0.07142857142857142,
+   "write:sec4:s4.2": 0.07142857142857142,
+   "write:sec5:s5.2": 0.07142857142857142
+  },
+  "next_section": {
+   "sec1": 0.2857142857142857,
+   "sec2": 0.14285714285714285,
+   "sec3": 0.14285714285714285,
+   "sec4": 0.21428571428571427,
+   "sec5": 0.21428571428571427
+  },
+  "next_type": {
+   "check": 0.2857142857142857,
+   "cite": 0.07142857142857142,
+   "consult": 0.0,
+   "fix": 0.07142857142857142,
+   "probe": 0.07142857142857142,
+   "restructure": 0.07142857142857142,
+   "revise": 0.14285714285714285,
+   "write": 0.2857142857142857
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

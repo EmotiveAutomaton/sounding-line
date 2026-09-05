@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "241b62d890914810",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 168,
+  "tokens_out": 0,
+  "wall_s": 3.702
+ },
+ "confidence": 0.12174373679914983,
+ "equivalence_class": [],
+ "evidence_sha": "01bc2e47bf7dbff3",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the glaze recipe\naudience: self\ntools: library=no source=no\ndeadline: loose\nsections: sec1(2) sec2(2) sec3(3) sec4(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec2:s2.1": -2.775726318359375,
+   "check:sec3:s3.1": -2.1917576789855957,
+   "check:sec4:s4.1": -2.3636112213134766,
+   "cite:sec4:ref": -4.5817952156066895,
+   "consult:sec1:src": -4.393475532531738,
+   "fix:sec2:s2.1": -3.0960960388183594,
+   "probe:sec1:tech": -5.752635478973389,
+   "restructure:sec3:order": -6.771587371826172,
+   "revise:sec2:s2.1": -4.47084379196167,
+   "revise:sec2:s2.2": -4.31459379196167,
+   "revise:sec3:s3.2": -4.884096622467041,
+   "revise:sec3:s3.3": -4.837221622467041,
+   "write:sec1:s1.1": -2.3609867095947266,
+   "write:sec1:s1.2": -2.3141117095947266,
+   "write:sec2:s2.1": -2.729851484298706,
+   "write:sec2:s2.2": -2.604851484298706,
+   "write:sec3:s3.1": -2.6910407543182373,
+   "write:sec4:s4.1": -2.745492458343506,
+   "write:sec4:s4.2": -2.620492696762085
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.971081018447876
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.06580447380243264,
+   "check:sec3:s3.1": 0.11969853373739942,
+   "check:sec4:s4.1": 0.10238519260028002,
+   "cite:sec4:ref": 0.021185999319742844,
+   "consult:sec1:src": 0.02292683653069489,
+   "fix:sec2:s2.1": 0.04632542080137801,
+   "probe:sec1:tech": 0.0035158922838890443,
+   "restructure:sec3:order": 0.001580975065847715,
+   "revise:sec2:s2.1": 0.012960310835064067,
+   "revise:sec2:s2.2": 0.01563311897115277,
+   "revise:sec3:s3.2": 0.008630954449620276,
+   "revise:sec3:s3.3": 0.008904930353820766,
+   "write:sec1:s1.1": 0.10057139343765574,
+   "write:sec1:s1.2": 0.10539791538293784,
+   "write:sec2:s2.1": 0.06954702086783918,
+   "write:sec2:s2.2": 0.07880709911179826,
+   "write:sec3:s3.1": 0.07007126471039965,
+   "write:sec4:s4.1": 0.06790011473469339,
+   "write:sec4:s4.2": 0.07815255300335348
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.06789413665177203,
+   "check:sec3:s3.1": 0.12174373679914985,
+   "check:sec4:s4.1": 0.10252070469287182,
+   "cite:sec4:ref": 0.01115492139105594,
+   "consult:sec1:src": 0.013466437299857973,
+   "fix:sec2:s2.1": 0.04928303763659505,
+   "probe:sec1:tech": 0.003459210962432415,
+   "restructure:sec3:order": 0.0012486820369950434,
+   "revise:sec2:s2.1": 0.012463846885771538,
+   "revise:sec2:s2.2": 0.014571713304387836,
+   "revise:sec3:s3.2": 0.008244772589697243,
+   "revise:sec3:s3.3": 0.00864044748767608,
+   "write:sec1:s1.1": 0.1027901248773199,
+   "write:sec1:s1.2": 0.10772312596759727,
+   "write:sec2:s2.1": 0.07108131562562345,
+   "write:sec2:s2.2": 0.08054568284313003,
+   "write:sec3:s3.1": 0.07389426663360918,
+   "write:sec4:s4.1": 0.06997818412750666,
+   "write:sec4:s4.2": 0.07929565218695074
+  },
+  "next_section": {
+   "sec1": 0.22743889910720752,
+   "sec2": 0.29583973294727994,
+   "sec3": 0.21377190554712738,
+   "sec4": 0.2629494623983852
+  },
+  "next_type": {
+   "check": 0.2921585781437937,
+   "cite": 0.01115492139105594,
+   "consult": 0.013466437299857975,
+   "fix": 0.049283037636595056,
+   "probe": 0.0034592109624324153,
+   "restructure": 0.0012486820369950434,
+   "revise": 0.04392078026753269,
+   "write": 0.5853083522617372
+  },
+  "stop": 0.020130954094506697
+ },
+ "version": "PredictionV1"
+}

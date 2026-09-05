@@ -1,0 +1,109 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "214209ed978db30a",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 176,
+  "tokens_out": 0,
+  "wall_s": 3.291
+ },
+ "confidence": 0.17196881329300362,
+ "equivalence_class": [],
+ "evidence_sha": "8f3000866f70c2a1",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the lathe manual\naudience: peer\ntools: library=yes source=yes\ndeadline: loose\nsections: sec1(3) sec2(3) sec3(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -2.9716310501098633,
+   "check:sec2:s2.1": -3.3467373847961426,
+   "check:sec3:s3.1": -3.378303050994873,
+   "consult:sec1:src": -3.7252767086029053,
+   "fix:sec2:s2.1": -3.7246837615966797,
+   "probe:sec1:tech": -4.962412357330322,
+   "restructure:sec2:order": -6.006608963012695,
+   "revise:sec1:s1.1": -3.7608022689819336,
+   "revise:sec2:s2.2": -3.838461399078369,
+   "revise:sec3:s3.1": -3.7981457710266113,
+   "revise:sec3:s3.2": -3.8918957710266113,
+   "write:sec1:s1.2": -2.007918119430542,
+   "write:sec1:s1.3": -1.976668119430542,
+   "write:sec2:s2.1": -1.9025347232818604,
+   "write:sec2:s2.2": -2.5744097232818604,
+   "write:sec3:s3.1": -2.2678558826446533
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.771524429321289
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.06369926216746043,
+   "check:sec2:s2.1": 0.04242978110930094,
+   "check:sec3:s3.1": 0.04516324104322285,
+   "consult:sec1:src": 0.027985214775516958,
+   "fix:sec2:s2.1": 0.025094739427056357,
+   "probe:sec1:tech": 0.008264388360323434,
+   "restructure:sec2:order": 0.003186957689356747,
+   "revise:sec1:s1.1": 0.02887297571858024,
+   "revise:sec2:s2.2": 0.02615883991354514,
+   "revise:sec3:s3.1": 0.02752289652815077,
+   "revise:sec3:s3.2": 0.025059882464071846,
+   "write:sec1:s1.2": 0.1286927983457322,
+   "write:sec1:s1.3": 0.17317506805932245,
+   "write:sec2:s2.1": 0.16732277756301944,
+   "write:sec2:s2.2": 0.08154661875294046,
+   "write:sec3:s3.1": 0.1258245580823997
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.0590400965416489,
+   "check:sec2:s2.1": 0.040573310792194166,
+   "check:sec3:s3.1": 0.039312589637938516,
+   "consult:sec1:src": 0.027787079792211917,
+   "fix:sec2:s2.1": 0.02780356094372831,
+   "probe:sec1:tech": 0.008064208029142397,
+   "restructure:sec2:order": 0.00283839542860566,
+   "revise:sec1:s1.1": 0.026817256957314056,
+   "revise:sec2:s2.2": 0.02481346542515639,
+   "revise:sec3:s3.1": 0.025834274894723036,
+   "revise:sec3:s3.2": 0.023522374970385417,
+   "write:sec1:s1.2": 0.15476839074644186,
+   "write:sec1:s1.3": 0.1596812668418865,
+   "write:sec2:s2.1": 0.17196881329300362,
+   "write:sec2:s2.2": 0.08783307536687013,
+   "write:sec3:s3.1": 0.11934184033874912
+  },
+  "next_section": {
+   "sec1": 0.4361582989086456,
+   "sec2": 0.35583062124955833,
+   "sec3": 0.20801107984179612
+  },
+  "next_type": {
+   "check": 0.1389259969717816,
+   "cite": 0.0,
+   "consult": 0.027787079792211917,
+   "fix": 0.02780356094372831,
+   "probe": 0.008064208029142397,
+   "restructure": 0.00283839542860566,
+   "revise": 0.10098737224757891,
+   "write": 0.6935933865869512
+  },
+  "stop": 0.025845539478824453
+ },
+ "version": "PredictionV1"
+}

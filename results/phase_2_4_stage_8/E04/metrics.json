@@ -1,0 +1,1372 @@
+{
+ "card": "E04",
+ "lane": "discovery",
+ "written_at": "2026-09-04T14:03:02",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "real_percentile_value": -2.65333164251247,
+ "n_real": 40,
+ "readers": {
+  "adapter:fm_qwen": {
+   "n": 40,
+   "feasibility": 0.725,
+   "feasibility_hidden_inventory": 0.225,
+   "median_per_event_ll": -3.1773713625032425,
+   "share_at_or_above_percentile": 0.0,
+   "passed": false,
+   "rule": "visible structure (the one repair); the hidden-inventory reading beside it",
+   "mean_events": 6.525,
+   "stopped_share": 1.0,
+   "gens": [
+    {
+     "lid": "POP|essay|s0|w84000|discovery",
+     "per_event": -3.4459043899343773,
+     "total": -20.675426339606265,
+     "feasible": true,
+     "n_feasible": 6,
+     "n_events": 6,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec3:s3.3"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84001|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 11,
+     "n_events": 12,
+     "first_bad": {
+      "i": 10,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec5:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 5,
+      "why": "not pending",
+      "id": "revise:sec1:s1.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84003|discovery",
+     "per_event": -3.0922779298213108,
+     "total": -9.276833789463932,
+     "feasible": true,
+     "n_feasible": 3,
+     "n_events": 3,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|essay|s0|w84004|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 3,
+     "n_events": 4,
+     "first_bad": {
+      "i": 2,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "consult:sec1:src"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 0,
+      "why": "not pending",
+      "id": "revise:sec2:s2.3"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84005|discovery",
+     "per_event": -3.5248269781024395,
+     "total": -31.723442802921955,
+     "feasible": true,
+     "n_feasible": 9,
+     "n_events": 9,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec5:s5.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84006|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 3,
+     "n_events": 4,
+     "first_bad": {
+      "i": 3,
+      "why": "outcome ok disagrees with the header's tools",
+      "id": "cite:sec5:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 2,
+      "why": "not pending",
+      "id": "revise:sec1:s1.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84007|discovery",
+     "per_event": -2.801370013430728,
+     "total": -5.602740026861456,
+     "feasible": true,
+     "n_feasible": 2,
+     "n_events": 2,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|essay|s0|w84008|discovery",
+     "per_event": -2.9272702698801205,
+     "total": -26.345432428921086,
+     "feasible": true,
+     "n_feasible": 9,
+     "n_events": 9,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "not pending",
+      "id": "revise:sec1:s1.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84009|discovery",
+     "per_event": -3.4725630931037266,
+     "total": -20.83537855862236,
+     "feasible": true,
+     "n_feasible": 6,
+     "n_events": 6,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 2,
+      "why": "not pending",
+      "id": "revise:sec4:s4.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84010|discovery",
+     "per_event": -3.9332260653800155,
+     "total": -27.53258245766011,
+     "feasible": true,
+     "n_feasible": 7,
+     "n_events": 7,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 2,
+      "why": "not pending",
+      "id": "revise:sec2:s2.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84011|discovery",
+     "per_event": -3.2330944108628237,
+     "total": -16.16547205431412,
+     "feasible": true,
+     "n_feasible": 5,
+     "n_events": 5,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|essay|s0|w84012|discovery",
+     "per_event": -3.2718735484475228,
+     "total": -26.174988387580182,
+     "feasible": true,
+     "n_feasible": 8,
+     "n_events": 8,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|essay|s0|w84013|discovery",
+     "per_event": -2.802074519641588,
+     "total": -22.416596157132705,
+     "feasible": true,
+     "n_feasible": 8,
+     "n_events": 8,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec3:s3.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84014|discovery",
+     "per_event": -3.2816217714332936,
+     "total": -32.816217714332936,
+     "feasible": true,
+     "n_feasible": 10,
+     "n_events": 10,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "not pending",
+      "id": "revise:sec5:s5.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84015|discovery",
+     "per_event": -2.7218726337055,
+     "total": -32.662471604466,
+     "feasible": true,
+     "n_feasible": 12,
+     "n_events": 12,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|essay|s0|w84016|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 7,
+     "n_events": 8,
+     "first_bad": {
+      "i": 7,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec3:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 7,
+      "why": "outcome done disagrees with tools",
+      "id": "cite:sec3:ref"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84020|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 8,
+     "n_events": 9,
+     "first_bad": {
+      "i": 3,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec2:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "outcome done disagrees with tools",
+      "id": "cite:sec2:ref"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84021|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 6,
+     "n_events": 7,
+     "first_bad": {
+      "i": 3,
+      "why": "outcome failed disagrees with the header's tools",
+      "id": "cite:sec4:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "outcome failed disagrees with tools",
+      "id": "cite:sec4:ref"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84022|discovery",
+     "per_event": -3.2053251498728086,
+     "total": -16.026625749364044,
+     "feasible": true,
+     "n_feasible": 5,
+     "n_events": 5,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec1:s1.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84023|discovery",
+     "per_event": -3.729657079294132,
+     "total": -11.188971237882397,
+     "feasible": true,
+     "n_feasible": 3,
+     "n_events": 3,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec4:s4.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84001|discovery",
+     "per_event": -3.1286464568506696,
+     "total": -28.157818111656027,
+     "feasible": true,
+     "n_feasible": 9,
+     "n_events": 9,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 5,
+      "why": "not pending",
+      "id": "revise:sec1:s1.3"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84002|discovery",
+     "per_event": -3.1754882022810147,
+     "total": -6.350976404562029,
+     "feasible": true,
+     "n_feasible": 2,
+     "n_events": 2,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 0,
+      "why": "not pending",
+      "id": "revise:sec3:s3.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84003|discovery",
+     "per_event": -3.181226062448289,
+     "total": -9.543678187344867,
+     "feasible": true,
+     "n_feasible": 3,
+     "n_events": 3,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec1:s1.3"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84004|discovery",
+     "per_event": -3.407916972941736,
+     "total": -13.631667891766943,
+     "feasible": true,
+     "n_feasible": 4,
+     "n_events": 4,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84005|discovery",
+     "per_event": -3.2645729969343082,
+     "total": -29.381156972408775,
+     "feasible": true,
+     "n_feasible": 9,
+     "n_events": 9,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec2:s2.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84006|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 3,
+     "n_events": 4,
+     "first_bad": {
+      "i": 3,
+      "why": "outcome ok disagrees with the header's tools",
+      "id": "cite:sec4:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "outcome ok disagrees with tools",
+      "id": "cite:sec4:ref"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84007|discovery",
+     "per_event": -2.8521497404323,
+     "total": -5.7042994808646,
+     "feasible": true,
+     "n_feasible": 2,
+     "n_events": 2,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84008|discovery",
+     "per_event": -3.3604896563534377,
+     "total": -30.244406907180938,
+     "feasible": true,
+     "n_feasible": 9,
+     "n_events": 9,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 7,
+      "why": "not pending",
+      "id": "revise:sec1:s1.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84009|discovery",
+     "per_event": -3.120358231146625,
+     "total": -18.72214938687975,
+     "feasible": true,
+     "n_feasible": 6,
+     "n_events": 6,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec3:s3.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84010|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 5,
+     "n_events": 6,
+     "first_bad": {
+      "i": 4,
+      "why": "outcome failed disagrees with the header's tools",
+      "id": "cite:sec5:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 2,
+      "why": "not pending",
+      "id": "revise:sec3:s3.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84011|discovery",
+     "per_event": -3.346737926969801,
+     "total": -6.693475853939602,
+     "feasible": true,
+     "n_feasible": 2,
+     "n_events": 2,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 0,
+      "why": "not pending",
+      "id": "revise:sec2:s2.3"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84013|discovery",
+     "per_event": -3.167891961781788,
+     "total": -28.51102765603609,
+     "feasible": true,
+     "n_feasible": 9,
+     "n_events": 9,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84014|discovery",
+     "per_event": -2.8298967975186065,
+     "total": -28.298967975186066,
+     "feasible": true,
+     "n_feasible": 10,
+     "n_events": 10,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 4,
+      "why": "not pending",
+      "id": "revise:sec1:s1.3"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84015|discovery",
+     "per_event": -3.159129833518027,
+     "total": -22.11390883462619,
+     "feasible": true,
+     "n_feasible": 7,
+     "n_events": 7,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 4,
+      "why": "not pending",
+      "id": "revise:sec4:s4.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84016|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 7,
+     "n_events": 8,
+     "first_bad": {
+      "i": 7,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec2:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 4,
+      "why": "not pending",
+      "id": "revise:sec1:s1.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84017|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 3,
+     "n_events": 4,
+     "first_bad": {
+      "i": 3,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec3:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "outcome done disagrees with tools",
+      "id": "cite:sec3:ref"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84018|discovery",
+     "per_event": -3.1773713625032425,
+     "total": -9.532114087509727,
+     "feasible": true,
+     "n_feasible": 3,
+     "n_events": 3,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 2,
+      "why": "not pending",
+      "id": "revise:sec1:s1.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84019|discovery",
+     "per_event": -2.8813327338059165,
+     "total": -20.169329136641416,
+     "feasible": true,
+     "n_feasible": 7,
+     "n_events": 7,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84020|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 7,
+     "n_events": 8,
+     "first_bad": {
+      "i": 3,
+      "why": "outcome failed disagrees with the header's tools",
+      "id": "cite:sec4:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "outcome failed disagrees with tools",
+      "id": "cite:sec4:ref"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84021|discovery",
+     "per_event": -3.06317722890957,
+     "total": -36.75812674691484,
+     "feasible": true,
+     "n_feasible": 12,
+     "n_events": 12,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 7,
+      "why": "not pending",
+      "id": "revise:sec2:s2.3"
+     }
+    }
+   ]
+  },
+  "adapter:fm_smollm": {
+   "n": 40,
+   "feasibility": 0.575,
+   "feasibility_hidden_inventory": 0.175,
+   "median_per_event_ll": -2.7731874046761025,
+   "share_at_or_above_percentile": 0.25,
+   "passed": false,
+   "rule": "visible structure (the one repair); the hidden-inventory reading beside it",
+   "mean_events": 16.65,
+   "stopped_share": 0.575,
+   "gens": [
+    {
+     "lid": "POP|essay|s0|w84000|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 18,
+     "n_events": 19,
+     "first_bad": {
+      "i": 12,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec4:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 11,
+      "why": "not pending",
+      "id": "revise:sec4:s4.3"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84001|discovery",
+     "per_event": -2.8010667253381625,
+     "total": -56.02133450676325,
+     "feasible": true,
+     "n_feasible": 20,
+     "n_events": 20,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec3:s3.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84003|discovery",
+     "per_event": -3.155469633220645,
+     "total": -3.155469633220645,
+     "feasible": true,
+     "n_feasible": 1,
+     "n_events": 1,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|essay|s0|w84004|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 7,
+     "n_events": 9,
+     "first_bad": {
+      "i": 1,
+      "why": "outcome failed disagrees with the header's tools",
+      "id": "cite:sec2:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "outcome failed disagrees with tools",
+      "id": "cite:sec2:ref"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84005|discovery",
+     "per_event": -2.7731874046761025,
+     "total": -44.37099847481764,
+     "feasible": true,
+     "n_feasible": 16,
+     "n_events": 16,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 12,
+      "why": "not pending",
+      "id": "revise:sec2:s2.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84006|discovery",
+     "per_event": -3.396611347973794,
+     "total": -84.91528369934484,
+     "feasible": true,
+     "n_feasible": 25,
+     "n_events": 25,
+     "first_bad": null,
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 2,
+      "why": "not pending",
+      "id": "check:sec4:s4.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84007|discovery",
+     "per_event": -2.662742375456878,
+     "total": -58.58033226005132,
+     "feasible": true,
+     "n_feasible": 22,
+     "n_events": 22,
+     "first_bad": null,
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 14,
+      "why": "not pending",
+      "id": "revise:sec3:s3.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84008|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 16,
+     "n_events": 17,
+     "first_bad": {
+      "i": 13,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec2:ref"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 0,
+      "why": "not pending",
+      "id": "revise:sec1:s1.3"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84009|discovery",
+     "per_event": -3.0268633607581266,
+     "total": -36.32236032909752,
+     "feasible": true,
+     "n_feasible": 12,
+     "n_events": 12,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 4,
+      "why": "not pending",
+      "id": "revise:sec4:s4.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84010|discovery",
+     "per_event": -2.177689651762461,
+     "total": -30.48765512467445,
+     "feasible": true,
+     "n_feasible": 14,
+     "n_events": 14,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|essay|s0|w84011|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 21,
+     "n_events": 22,
+     "first_bad": {
+      "i": 11,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec4:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 6,
+      "why": "not pending",
+      "id": "revise:sec2:s2.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84012|discovery",
+     "per_event": -2.8194026205936353,
+     "total": -67.66566289424725,
+     "feasible": true,
+     "n_feasible": 24,
+     "n_events": 24,
+     "first_bad": null,
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "check:sec2:s2.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84013|discovery",
+     "per_event": -2.3070537163507288,
+     "total": -6.921161149052186,
+     "feasible": true,
+     "n_feasible": 3,
+     "n_events": 3,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|essay|s0|w84014|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 23,
+     "n_events": 24,
+     "first_bad": {
+      "i": 16,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "consult:sec1:src"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "not pending",
+      "id": "revise:sec5:s5.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84015|discovery",
+     "per_event": -2.528230823321418,
+     "total": -40.45169317314269,
+     "feasible": true,
+     "n_feasible": 16,
+     "n_events": 16,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 14,
+      "why": "not pending",
+      "id": "revise:sec2:s2.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84016|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 15,
+     "n_events": 17,
+     "first_bad": {
+      "i": 15,
+      "why": "action repeated",
+      "id": "write:sec2:s2.1"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 7,
+      "why": "not pending",
+      "id": "revise:sec1:s1.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84020|discovery",
+     "per_event": -2.3562927742371933,
+     "total": -32.988098839320706,
+     "feasible": true,
+     "n_feasible": 14,
+     "n_events": 14,
+     "first_bad": null,
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 0,
+      "why": "not pending",
+      "id": "revise:sec1:s1.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84021|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 18,
+     "n_events": 19,
+     "first_bad": {
+      "i": 15,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "consult:sec1:src"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 11,
+      "why": "not pending",
+      "id": "revise:sec3:s3.1"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84022|discovery",
+     "per_event": -3.06674720069987,
+     "total": -70.53518561609701,
+     "feasible": true,
+     "n_feasible": 23,
+     "n_events": 23,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 8,
+      "why": "not pending",
+      "id": "revise:sec1:s1.2"
+     }
+    },
+    {
+     "lid": "POP|essay|s0|w84023|discovery",
+     "per_event": -2.569556661529882,
+     "total": -53.96068989212752,
+     "feasible": true,
+     "n_feasible": 21,
+     "n_events": 21,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec5:s5.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84001|discovery",
+     "per_event": -2.805064805407676,
+     "total": -50.49116649733816,
+     "feasible": true,
+     "n_feasible": 18,
+     "n_events": 18,
+     "first_bad": null,
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "not pending",
+      "id": "revise:sec3:s3.3"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84002|discovery",
+     "per_event": -3.3792385006479946,
+     "total": -10.137715501943983,
+     "feasible": true,
+     "n_feasible": 3,
+     "n_events": 3,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84003|discovery",
+     "per_event": -3.421771538365416,
+     "total": -3.421771538365416,
+     "feasible": true,
+     "n_feasible": 1,
+     "n_events": 1,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84004|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 24,
+     "n_events": 25,
+     "first_bad": {
+      "i": 1,
+      "why": "outcome failed disagrees with the header's tools",
+      "id": "cite:sec5:ref"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 1,
+      "why": "outcome failed disagrees with tools",
+      "id": "cite:sec5:ref"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84005|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 17,
+     "n_events": 18,
+     "first_bad": {
+      "i": 16,
+      "why": "no such type or section",
+      "id": "write:sec5:s5.2"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 12,
+      "why": "not pending",
+      "id": "revise:sec2:s2.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84006|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 20,
+     "n_events": 21,
+     "first_bad": {
+      "i": 20,
+      "why": "no such slot",
+      "id": "write:sec3:s3.3"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 2,
+      "why": "not pending",
+      "id": "check:sec4:s4.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84007|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 22,
+     "n_events": 23,
+     "first_bad": {
+      "i": 9,
+      "why": "outcome failed disagrees with the header's tools",
+      "id": "cite:sec5:ref"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 9,
+      "why": "outcome failed disagrees with tools",
+      "id": "cite:sec5:ref"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84008|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 24,
+     "n_events": 25,
+     "first_bad": {
+      "i": 8,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec5:ref"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 0,
+      "why": "not pending",
+      "id": "revise:sec5:s5.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84009|discovery",
+     "per_event": -2.5524559605412906,
+     "total": -30.629471526495486,
+     "feasible": true,
+     "n_feasible": 12,
+     "n_events": 12,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 9,
+      "why": "not pending",
+      "id": "revise:sec3:s3.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84010|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 23,
+     "n_events": 24,
+     "first_bad": {
+      "i": 18,
+      "why": "no such slot",
+      "id": "write:sec5:s5.3"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 15,
+      "why": "not pending",
+      "id": "revise:sec3:s3.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84011|discovery",
+     "per_event": -3.533029987652187,
+     "total": -56.528479802434994,
+     "feasible": true,
+     "n_feasible": 16,
+     "n_events": 16,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 2,
+      "why": "not pending",
+      "id": "revise:sec1:s1.4"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84013|discovery",
+     "per_event": -2.8213239369245144,
+     "total": -8.463971810773543,
+     "feasible": true,
+     "n_feasible": 3,
+     "n_events": 3,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84014|discovery",
+     "per_event": -2.338275376941286,
+     "total": -37.41240603106058,
+     "feasible": true,
+     "n_feasible": 16,
+     "n_events": 16,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 7,
+      "why": "not pending",
+      "id": "revise:sec2:s2.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84015|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 15,
+     "n_events": 16,
+     "first_bad": {
+      "i": 3,
+      "why": "outcome failed disagrees with the header's tools",
+      "id": "cite:sec5:ref"
+     },
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 0,
+      "why": "not pending",
+      "id": "revise:sec1:s1.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84016|discovery",
+     "per_event": -2.148281034115772,
+     "total": -30.075934477620805,
+     "feasible": true,
+     "n_feasible": 14,
+     "n_events": 14,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": true,
+     "first_bad_hidden": null
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84017|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 15,
+     "n_events": 16,
+     "first_bad": {
+      "i": 14,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "cite:sec3:ref"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 9,
+      "why": "not pending",
+      "id": "revise:sec3:s3.3"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84018|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 21,
+     "n_events": 22,
+     "first_bad": {
+      "i": 21,
+      "why": "outcome done disagrees with the header's tools",
+      "id": "consult:sec1:src"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 6,
+      "why": "not pending",
+      "id": "revise:sec1:s1.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84019|discovery",
+     "per_event": -1.9303159650030075,
+     "total": -27.024423510042105,
+     "feasible": true,
+     "n_feasible": 14,
+     "n_events": 14,
+     "first_bad": null,
+     "stopped": true,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 11,
+      "why": "not pending",
+      "id": "revise:sec1:s1.2"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84020|discovery",
+     "per_event": null,
+     "total": null,
+     "feasible": false,
+     "n_feasible": 20,
+     "n_events": 21,
+     "first_bad": {
+      "i": 20,
+      "why": "no such type or section",
+      "id": "check:sec5:s5.1"
+     },
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 0,
+      "why": "not pending",
+      "id": "revise:sec3:s3.1"
+     }
+    },
+    {
+     "lid": "POP|workshop_doc|s0|w84021|discovery",
+     "per_event": -2.306702420986975,
+     "total": -46.1340484197395,
+     "feasible": true,
+     "n_feasible": 20,
+     "n_events": 20,
+     "first_bad": null,
+     "stopped": false,
+     "feasible_hidden_inventory": false,
+     "first_bad_hidden": {
+      "i": 3,
+      "why": "not pending",
+      "id": "revise:sec1:s1.2"
+     }
+    }
+   ]
+  }
+ },
+ "degenerate": 6
+}

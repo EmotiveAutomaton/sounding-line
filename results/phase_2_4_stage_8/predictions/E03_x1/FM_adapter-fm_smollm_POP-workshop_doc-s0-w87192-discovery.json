@@ -1,0 +1,120 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "2fcbf378b3ae01e2",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 244,
+  "tokens_out": 0,
+  "wall_s": 3.761
+ },
+ "confidence": 0.1153226687597665,
+ "equivalence_class": [],
+ "evidence_sha": "69764107d213958b",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the finishing guide\naudience: editor\ntools: library=yes source=no\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(2) sec4(2) sec5(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -2.625443696975708,
+   "check:sec2:s2.1": -3.531704902648926,
+   "check:sec4:s4.1": -3.033562183380127,
+   "check:sec5:s5.1": -3.111692190170288,
+   "cite:sec5:ref": -3.4197940826416016,
+   "consult:sec1:src": -3.7317450046539307,
+   "fix:sec2:s2.1": -3.200705051422119,
+   "probe:sec1:tech": -4.481828212738037,
+   "restructure:sec3:order": -4.364734649658203,
+   "revise:sec1:s1.1": -3.7377965450286865,
+   "revise:sec3:s3.2": -3.9471688270568848,
+   "write:sec1:s1.1": -2.3353681564331055,
+   "write:sec2:s2.1": -2.7884933948516846,
+   "write:sec3:s3.1": -2.8653323650360107,
+   "write:sec3:s3.2": -2.7872073650360107,
+   "write:sec4:s4.1": -2.951611280441284,
+   "write:sec4:s4.2": -2.857861280441284,
+   "write:sec5:s5.1": -3.067676305770874,
+   "write:sec5:s5.2": -3.052051305770874
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.4970481395721436
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.09010751529240578,
+   "check:sec2:s2.1": 0.03584153270693644,
+   "check:sec4:s4.1": 0.058147692911084015,
+   "check:sec5:s5.1": 0.05212299408514825,
+   "cite:sec5:ref": 0.0395594945572763,
+   "consult:sec1:src": 0.028066071190605335,
+   "fix:sec2:s2.1": 0.048479950153489416,
+   "probe:sec1:tech": 0.01346620638558766,
+   "restructure:sec3:order": 0.015121609914839958,
+   "revise:sec1:s1.1": 0.02779837884989404,
+   "revise:sec3:s3.2": 0.02167336238089885,
+   "write:sec1:s1.1": 0.11485637702376597,
+   "write:sec2:s2.1": 0.07651082346132859,
+   "write:sec3:s3.1": 0.06601854927172794,
+   "write:sec3:s3.2": 0.07250719164981884,
+   "write:sec4:s4.1": 0.06201879107879426,
+   "write:sec4:s4.2": 0.06811431666169529,
+   "write:sec5:s5.1": 0.05393847570525533,
+   "write:sec5:s5.2": 0.055650666719447704
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.08628523326933019,
+   "check:sec2:s2.1": 0.03486199503930783,
+   "check:sec4:s4.1": 0.057371059585067795,
+   "check:sec5:s5.1": 0.053059290712806385,
+   "cite:sec5:ref": 0.038990112506211656,
+   "consult:sec1:src": 0.028541442860298864,
+   "fix:sec2:s2.1": 0.04854043295086418,
+   "probe:sec1:tech": 0.013480901207543135,
+   "restructure:sec3:order": 0.015155560911759175,
+   "revise:sec1:s1.1": 0.02836924472397057,
+   "revise:sec3:s3.2": 0.02301010216560056,
+   "write:sec1:s1.1": 0.1153226687597665,
+   "write:sec2:s2.1": 0.07330353075561333,
+   "write:sec3:s3.1": 0.0678819254940416,
+   "write:sec3:s3.2": 0.07339786192510649,
+   "write:sec4:s4.1": 0.062270692559634536,
+   "write:sec4:s4.2": 0.0683909763149237,
+   "write:sec5:s5.1": 0.05544690329154212,
+   "write:sec5:s5.2": 0.056320064966611474
+  },
+  "next_section": {
+   "sec1": 0.27199949082090924,
+   "sec2": 0.1567059587457853,
+   "sec3": 0.1794454504965078,
+   "sec4": 0.188032728459626,
+   "sec5": 0.20381637147717158
+  },
+  "next_type": {
+   "check": 0.23157757860651218,
+   "cite": 0.038990112506211656,
+   "consult": 0.028541442860298864,
+   "fix": 0.04854043295086418,
+   "probe": 0.013480901207543135,
+   "restructure": 0.015155560911759175,
+   "revise": 0.05137934688957113,
+   "write": 0.5723346240672398
+  },
+  "stop": 0.0348341660374628
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,103 @@
+{
+ "fixtures": {
+  "newsedits_2": {
+   "parsed": 3,
+   "expect": 3,
+   "pass": true
+  },
+  "arxivedits": {
+   "parsed": 3,
+   "expect": 3,
+   "pass": true
+  },
+  "iterater": {
+   "parsed": 2,
+   "expect": 2,
+   "pass": true
+  },
+  "genius_expertise": {
+   "parsed": 2,
+   "expect": 2,
+   "pass": true
+  },
+  "woolf_online": {
+   "parsed": 2,
+   "expect": 2,
+   "pass": true
+  },
+  "shelley_godwin": {
+   "parsed": 3,
+   "expect": 3,
+   "pass": true
+  },
+  "commitbench": {
+   "parsed": 2,
+   "expect": 2,
+   "pass": true
+  },
+  "argrewrite_v2": {
+   "fixture": "in-hand loader (smoke read below)",
+   "pass": null
+  },
+  "coauthor": {
+   "fixture": "in-hand loader (smoke read below)",
+   "pass": null
+  },
+  "scholawrite": {
+   "fixture": "in-hand loader (smoke read below)",
+   "pass": null
+  }
+ },
+ "smoke": {
+  "argrewrite_v2": {
+   "files": 635,
+   "present": true
+  },
+  "coauthor": {
+   "sessions": 690,
+   "present": true
+  },
+  "scholawrite": {
+   "sessions": 79,
+   "present": true
+  }
+ },
+ "at": "2026-09-04T08:28:17",
+ "baselines": {
+  "newsedits_2": {
+   "published": "the persistence rate of sentences across versions (the paper's cheap baseline)",
+   "reproduced": null,
+   "status": "NOT_REPRODUCED: bulk data not fetched under the text-only, four-megabyte fetch discipline; manifest only"
+  },
+  "arxivedits": {
+   "published": "the majority intention class",
+   "reproduced": null,
+   "status": "NOT_REPRODUCED: bulk data not fetched; manifest only"
+  },
+  "genius_expertise": {
+   "published": "the annotation count stated on the dataset page",
+   "reproduced": null,
+   "status": "NOT_REPRODUCED: the archive is not fetched (size, terms); manifest only"
+  },
+  "iterater": {
+   "published": "the label distribution",
+   "reproduced": null,
+   "status": "NOT_REPRODUCED: manifest only"
+  },
+  "coauthor": {
+   "published": "1,445 sessions (Lee et al. 2022)",
+   "reproduced": 690,
+   "status": "REPRODUCED_COUNT (the repaired Stage 7 loader's reconstructed sessions; the paper's count is the whole release)"
+  },
+  "scholawrite": {
+   "published": "the project count of the release",
+   "reproduced": 79,
+   "status": "MEASURED_COUNT (no published number adopted as a gate)"
+  },
+  "argrewrite_v2": {
+   "published": "the essay count of the v2 release",
+   "reproduced": 635,
+   "status": "MEASURED_COUNT (files on disk; see the Stage 3 replication for the published pair-task numbers)"
+  }
+ }
+}

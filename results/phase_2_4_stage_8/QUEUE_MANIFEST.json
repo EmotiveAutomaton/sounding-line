@@ -1,0 +1,1542 @@
+{
+ "I02": {
+  "cell_id": "I02",
+  "card": "I02",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I02\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does the manifest enumerate all 44 questions, 12 attacks, families, lineages, outputs, and closures, rejecting duplicate estimands?",
+  "reason": "271 expected cells over 56 questions; removal fails True; duplicates []",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T08:10:15",
+  "finished_at": "2026-09-04T08:10:35",
+  "detail": "271 expected cells over 56 questions; removal fails True; duplicates []"
+ },
+ "I03": {
+  "cell_id": "I03",
+  "card": "I03",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I03\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Is the reader physically unable to reach constructor, oracle, or training-corpus state?",
+  "reason": "all raised True; attempts 26",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T08:10:35",
+  "finished_at": "2026-09-04T08:10:55",
+  "detail": "all raised True; attempts 26"
+ },
+ "I06": {
+  "cell_id": "I06",
+  "card": "I06",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I06\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Are targets absent from identifiers, ordering, lengths, seeds, schemas, prompts, caches, and logs, the purpose and required sections included?",
+  "reason": "canaries caught 90/90; clean hits 0/15; purpose leaks 0/15",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T08:10:55",
+  "finished_at": "2026-09-04T08:11:15",
+  "detail": "canaries caught 90/90; clean hits 0/15; purpose leaks 0/15"
+ },
+ "E01": {
+  "cell_id": "E01",
+  "card": "E01",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E01\\verdict.json",
+  "est_minutes": 15.0,
+  "gpu": false,
+  "why": "Does the population corpus carry the standard process and nothing maker-specific?",
+  "reason": "DOM refit within -0.121 nats of the Stage 7 DOM; factor deviation {'goal': 0.022, 'law': 0.038, 'belief': 0.017, 'residue': 0.02, 'tendency': 0.027}; per-topic law recall 0.35 vs chance 0.33",
+  "budget_charged_min": 1.66,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T08:26:56",
+  "finished_at": "2026-09-04T08:28:16",
+  "detail": "DOM refit within -0.121 nats of the Stage 7 DOM; factor deviation {'goal': 0.022, 'law': 0.038, 'belief': 0.017, 'residue': 0.02, 'tendency': 0.027}; per-topic law recall 0.35 vs chance 0.33",
+  "resets": [
+   {
+    "at": "2026-09-04T08:26:39",
+    "tag": "validity1",
+    "why": "the purpose contrast doubled and the tail defined at the cut per family before any purpose cell ran (validity pass 2026-09-04); the population, its DOM, and the training corpus are rebuilt",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INFRASTRUCTURE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "E02": {
+  "cell_id": "E02",
+  "card": "E02",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E02\\verdict.json",
+  "est_minutes": 60.0,
+  "gpu": true,
+  "why": "Does adapter training converge to a forward model of the standard process on each reader?",
+  "reason": "fm_qwen: band_ok True gap 0.1444050471572659; fm_smollm: band_ok True gap 0.11917429260998666; repairs {}",
+  "budget_charged_min": 104.02,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T08:29:28",
+  "finished_at": "2026-09-04T10:13:18",
+  "detail": "fm_qwen: band_ok True gap 0.1444050471572659; fm_smollm: band_ok True gap 0.11917429260998666; repairs {}",
+  "resets": [
+   {
+    "at": "2026-09-04T08:26:39",
+    "tag": "validity1",
+    "why": "the purpose contrast doubled and the tail defined at the cut per family before any purpose cell ran (validity pass 2026-09-04); the population, its DOM, and the training corpus are rebuilt",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": []
+   },
+   {
+    "at": "2026-09-04T08:29:24",
+    "tag": "validity1b",
+    "why": "E02 trained nothing: the reader filter added by the validity pass dropped every reader whose adapter had not yet frozen, on the cell that freezes them; I04 and I01 ran without adapters",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INSTRUMENT_FAILED",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "I01": {
+  "cell_id": "I01",
+  "card": "I01",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I01\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Do the reviewed heads, the Stage 7 anchors, and the adapter file hashes reproduce?",
+  "reason": "head 41eab74e (reviewed 41eab74e); Stage 7 complete 124; adapters {'fm_qwen05': True, 'fm_qwen': True, 'fm_smollm': True}; errata markers 10; lint 0",
+  "budget_charged_min": 16.28,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:13:18",
+  "finished_at": "2026-09-04T10:29:35",
+  "detail": "head 41eab74e (reviewed 41eab74e); Stage 7 complete 124; adapters {'fm_qwen05': True, 'fm_qwen': True, 'fm_smollm': True}; errata markers 10; lint 0",
+  "resets": [
+   {
+    "at": "2026-09-04T08:29:24",
+    "tag": "validity1b",
+    "why": "E02 trained nothing: the reader filter added by the validity pass dropped every reader whose adapter had not yet frozen, on the cell that freezes them; I04 and I01 ran without adapters",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "I07": {
+  "cell_id": "I07",
+  "card": "I07",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I07\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Do the training lineages and every test lineage share no descendant, by hash?",
+  "reason": "34 lineages, 34 roots, 1600 training roots, overlap 0, violations 0",
+  "budget_charged_min": 16.28,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T10:13:18",
+  "finished_at": "2026-09-04T10:29:35",
+  "detail": "34 lineages, 34 roots, 1600 training roots, overlap 0, violations 0"
+ },
+ "I04": {
+  "cell_id": "I04",
+  "card": "I04",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03",
+   "E02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I04\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "Do hidden-tail, hidden-stop, and hidden-event mutations leave every non-oracle prediction byte-identical?",
+  "reason": "identity {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'FM': 1.0, 'DIR0': 1.0}; oracle differs 39/45",
+  "budget_charged_min": 16.28,
+  "gpu_lock_min": 16.11,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:13:18",
+  "finished_at": "2026-09-04T10:29:35",
+  "detail": "identity {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'FM': 1.0, 'DIR0': 1.0}; oracle differs 39/45",
+  "resets": [
+   {
+    "at": "2026-09-04T08:29:24",
+    "tag": "validity1b",
+    "why": "E02 trained nothing: the reader filter added by the validity pass dropped every reader whose adapter had not yet frozen, on the cell that freezes them; I04 and I01 ran without adapters",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl"
+    ]
+   }
+  ]
+ },
+ "I05": {
+  "cell_id": "I05",
+  "card": "I05",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I05\\verdict.json",
+  "est_minutes": 6.0,
+  "gpu": true,
+  "why": "Does a diagnostic visible observation move the declared prediction?",
+  "reason": "TV {'DOM': 0.09759711863862558, 'SOL': 0.19495115439984737, 'FM': 0.019328101028674105, 'DIR0': 0.6522322712328464}; bytes changed {'DOM': 1.0, 'SOL': 1.0, 'FM': 1.0, 'DIR0': 1.0}",
+  "budget_charged_min": 8.41,
+  "gpu_lock_min": 8.23,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:29:35",
+  "finished_at": "2026-09-04T10:38:00",
+  "detail": "TV {'DOM': 0.09759711863862558, 'SOL': 0.19495115439984737, 'FM': 0.019328101028674105, 'DIR0': 0.6522322712328464}; bytes changed {'DOM': 1.0, 'SOL': 1.0, 'FM': 1.0, 'DIR0': 1.0}"
+ },
+ "I08": {
+  "cell_id": "I08",
+  "card": "I08",
+  "track": "isolation",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04",
+   "I05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I08\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": true,
+  "why": "Does one keystone world pass a manual constructor-to-score audit through the trained reader before scale?",
+  "reason": "keystone checks {'inputs_clean': True, 'no_denials': True, 'sol_equals_oracle': True, 'fm_scored_options_with_adapter': True, 'one_prediction_per_arm': True}",
+  "budget_charged_min": 0.47,
+  "gpu_lock_min": 0.29,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:38:00",
+  "finished_at": "2026-09-04T10:38:28",
+  "detail": "keystone checks {'inputs_clean': True, 'no_denials': True, 'sol_equals_oracle': True, 'fm_scored_options_with_adapter': True, 'one_prediction_per_arm': True}"
+ },
+ "X02": {
+  "cell_id": "X02",
+  "card": "X02",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I03",
+   "E02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X02\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Attempt forbidden reads from the capsule, including the training corpus and adapter training logs.",
+  "reason": "training corpus and adapter reads all raised True; attempts 34",
+  "budget_charged_min": 8.41,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:29:35",
+  "finished_at": "2026-09-04T10:38:00",
+  "detail": "training corpus and adapter reads all raised True; attempts 34"
+ },
+ "X03": {
+  "cell_id": "X03",
+  "card": "X03",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I07"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X03\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Search every test lineage's ancestry against the adapter's training manifest, by hash.",
+  "reason": "overlap 0 across 50 roots and 1600 training roots",
+  "budget_charged_min": 8.41,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:29:35",
+  "finished_at": "2026-09-04T10:38:00",
+  "detail": "overlap 0 across 50 roots and 1600 training roots"
+ },
+ "E03": {
+  "cell_id": "E03",
+  "card": "E03",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E02",
+   "I08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E03\\verdict.json",
+  "est_minutes": 4.8,
+  "gpu": true,
+  "why": "The expertise gate: does the trained reader's own forward model predict the next move at the standard process's level with nothing supplied?",
+  "reason": "adapter:fm_qwen: PASS gap 0.18558 [0.0025969069986556937, 0.38665864931641936]; adapter:fm_smollm: PASS gap 0.12525 [-0.05856354501922374, 0.3111036143984362]",
+  "budget_charged_min": 14.79,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:38:28",
+  "finished_at": "2026-09-04T10:53:16",
+  "detail": "adapter:fm_qwen: PASS gap 0.18558 [0.0025969069986556937, 0.38665864931641936]; adapter:fm_smollm: PASS gap 0.12525 [-0.05856354501922374, 0.3111036143984362]"
+ },
+ "E04": {
+  "cell_id": "E04",
+  "card": "E04",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "E02",
+   "I08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E04\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "The generation gate: does the trained reader produce the standard process?",
+  "reason": "adapter:fm_qwen: FAIL feas 0.725 median -3.1773 pct -2.6533; adapter:fm_smollm: FAIL feas 0.575 median -2.7731 pct -2.6533",
+  "budget_charged_min": 17.22,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T14:02:38",
+  "finished_at": "2026-09-04T14:03:14",
+  "detail": "adapter:fm_qwen: FAIL feas 0.725 median -3.1773 pct -2.6533; adapter:fm_smollm: FAIL feas 0.575 median -2.7731 pct -2.6533",
+  "resets": [
+   {
+    "at": "2026-09-04T14:02:34",
+    "tag": "e04repair",
+    "why": "the generation gate's feasibility ruler read the hidden inventory (which slots carry a revise, which section the restructure, fix, and probe); the one repair: feasibility against the header-visible structure and the process likelihood under the inventory extended by the reader's visibly valid actions; the generated rows are restored so only the analysis reruns",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "COUNTEREVIDENCE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "E05": {
+  "cell_id": "E05",
+  "card": "E05",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "E03",
+   "E04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E05\\verdict.json",
+  "est_minutes": 6.4,
+  "gpu": true,
+  "why": "Do the untrained readers fail the same gates?",
+  "reason": "untrained: {'DIR0|adapter:fm_qwen': {'passed': False, 'gap': -2.3891406811073255, 'ci': [-3.0116647701331383, -1.7877210619726358], 'outcome': 'COUNTEREVIDENCE'}, 'DIR0|adapter:fm_smollm': {'passed': False, 'gap': -0.8935865834419218, 'ci': [-1.1811524960678443, -0.5792290068613678], 'outcome': 'COUNTEREVIDENCE'}, 'FMB|adapter:fm_qwen': {'passed': False, 'gap': -1.7824429617432271, 'ci': [-2.6956029164107003, -0.940568295719781], 'outcome': 'COUNTEREVIDENCE'}, 'FMB|adapter:fm_smollm': {'passed': False, 'gap': -2.009541538159074, 'ci': [-2.9701018524633827, -1.107188755504003], 'outcome': 'COUNTEREVIDENCE'}}; generation pass False",
+  "budget_charged_min": 48.46,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T14:03:14",
+  "finished_at": "2026-09-04T14:03:47",
+  "detail": "untrained: {'DIR0|adapter:fm_qwen': {'passed': False, 'gap': -2.3891406811073255, 'ci': [-3.0116647701331383, -1.7877210619726358], 'outcome': 'COUNTEREVIDENCE'}, 'DIR0|adapter:fm_smollm': {'passed': False, 'gap': -0.8935865834419218, 'ci': [-1.1811524960678443, -0.5792290068613678], 'outcome': 'COUNTEREVIDENCE'}, 'FMB|adapter:fm_qwen': {'passed': False, 'gap': -1.7824429617432271, 'ci': [-2.6956029164107003, -0.940568295719781], 'outcome': 'COUNTEREVIDENCE'}, 'FMB|adapter:fm_smollm': {'passed': False, 'gap': -2.009541538159074, 'ci': [-2.9701018524633827, -1.107188755504003], 'outcome': 'COUNTEREVIDENCE'}}; generation pass False",
+  "resets": [
+   {
+    "at": "2026-09-04T14:02:34",
+    "tag": "e04repair",
+    "why": "the generation gate's feasibility ruler read the hidden inventory (which slots carry a revise, which section the restructure, fix, and probe); the one repair: feasibility against the header-visible structure and the process likelihood under the inventory extended by the reader's visibly valid actions; the generated rows are restored so only the analysis reruns",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "COUNTEREVIDENCE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "E06": {
+  "cell_id": "E06",
+  "card": "E06",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E06\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "After the gate, does a true context help and a false context cost?",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail INCONCLUSIVE 0.16556689812293218; true vs DOM 0.12330553324993529; false vs DOM 0.09809252512439814",
+  "budget_charged_min": 28.26,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T11:57:48",
+  "finished_at": "2026-09-04T12:26:04",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail INCONCLUSIVE 0.16556689812293218; true vs DOM 0.12330553324993529; false vs DOM 0.09809252512439814"
+ },
+ "E08": {
+  "cell_id": "E08",
+  "card": "E08",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E08\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "Does the trained reader use a supplied executable state better than the untrained one did (the Stage 7 K04 comparator)?",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_smollm; tail INCONCLUSIVE 0.23365535641922397; Stage 7 K04 COUNTEREVIDENCE -0.4629540864215622; SOL 0.8276791992399783",
+  "budget_charged_min": 51.77,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T14:04:17",
+  "finished_at": "2026-09-04T14:04:57",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_smollm; tail INCONCLUSIVE 0.23365535641922397; Stage 7 K04 COUNTEREVIDENCE -0.4629540864215622; SOL 0.8276791992399783",
+  "resets": [
+   {
+    "at": "2026-09-04T14:04:13",
+    "tag": "solform",
+    "why": "the state was supplied in language form, which the capsule solver cannot execute: the SOL ceiling comparator was uniform on all 80 rows; supplied executable for SOL (FMS reads the language lines unchanged); the FMS, DOM, U, and oracle rows are restored so only the solver rows rerun",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "E07": {
+  "cell_id": "E07",
+  "card": "E07",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E07\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": false,
+  "why": "Does the frontier probe pass the expertise gate cold?",
+  "reason": "FR vs DOM -2.640772397354511 [-4.5239380245309295, -0.9442116993654535]; FAIL the expertise band; parse 0.98; capped False",
+  "budget_charged_min": 16.61,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:53:16",
+  "finished_at": "2026-09-04T11:09:53",
+  "detail": "FR vs DOM -2.640772397354511 [-4.5239380245309295, -0.9442116993654535]; FAIL the expertise band; parse 0.98; capped False"
+ },
+ "X01": {
+  "cell_id": "X01",
+  "card": "X01",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "I04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X01\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Replace the hidden future, length, stop, and events with visible bytes fixed.",
+  "reason": "I04 INFRASTRUCTURE: {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'FM': 1.0, 'DIR0': 1.0}",
+  "budget_charged_min": 14.79,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:38:28",
+  "finished_at": "2026-09-04T10:53:16",
+  "detail": "I04 INFRASTRUCTURE: {'U': 1.0, 'PERS': 1.0, 'DOM': 1.0, 'SOL': 1.0, 'FM': 1.0, 'DIR0': 1.0}"
+ },
+ "X05": {
+  "cell_id": "X05",
+  "card": "X05",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "G02",
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X05\\verdict.json",
+  "est_minutes": 2.4,
+  "gpu": true,
+  "why": "Permute option and candidate order with fixed-order paired scoring.",
+  "reason": "order TV {'FM': 0.0013197763946822983, 'DIR0': 0.03335366832869385} (FM within fp16 batch noise 0.01; DIR0 within 0.10)",
+  "budget_charged_min": 12.86,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T19:21:55",
+  "finished_at": "2026-09-04T19:22:13",
+  "detail": "order TV {'FM': 0.0013197763946822983, 'DIR0': 0.03335366832869385} (FM within fp16 batch noise 0.01; DIR0 within 0.10)",
+  "resets": [
+   {
+    "at": "2026-09-04T19:21:39",
+    "tag": "ordertol",
+    "why": "the FM order bound was 1e-6 where batched fp16 scoring moves per-option log-probabilities at the fourth decimal when the option order changes the batch padding (TV 0.0013 read as a failure); bound set to fp16 batch noise 0.01; rows restored, the verdict recomputed",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INSTRUMENT_FAILED",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "D01": {
+  "cell_id": "D01",
+  "card": "D01",
+  "track": "difference",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D01\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "Does the admitted reader's surprise land on the maker's events at least as well as the standard process's surprise does?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: INFERIOR diff -0.215 reader 0.343 dom 0.558; adapter:fm_smollm: INFERIOR diff -0.191 reader 0.367 dom 0.558",
+  "budget_charged_min": 42.11,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T18:24:20",
+  "finished_at": "2026-09-04T18:32:06",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: INFERIOR diff -0.215 reader 0.343 dom 0.558; adapter:fm_smollm: INFERIOR diff -0.191 reader 0.367 dom 0.558",
+  "resets": [
+   {
+    "at": "2026-09-04T18:17:39",
+    "tag": "oom503",
+    "why": "the model server answered CUDA out of memory as 503 while a game held the card (14:51 to 16:12 and 16:42 to 17:22): D01 closed on two thirds of its FM rows and D04 on 3 units of 80; the fragment guard (STARVED, exit 4) now refuses such a close; the valid rows are restored so only the lost units rerun; D02 and D03 read D01's rows and rerun after it",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "COUNTEREVIDENCE",
+     "attempts": 3
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "D04": {
+  "cell_id": "D04",
+  "card": "D04",
+  "track": "difference",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D04\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": true,
+  "why": "Does supplying the true purpose sharpen surprise onto the residue?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": -0.007912819889860704, \"adapter:fm_smollm\": 0.007831220239525667}",
+  "budget_charged_min": 190.38,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T18:32:06",
+  "finished_at": "2026-09-04T18:59:09",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": -0.007912819889860704, \"adapter:fm_smollm\": 0.007831220239525667}",
+  "resets": [
+   {
+    "at": "2026-09-04T18:17:39",
+    "tag": "oom503",
+    "why": "the model server answered CUDA out of memory as 503 while a game held the card (14:51 to 16:12 and 16:42 to 17:22): D01 closed on two thirds of its FM rows and D04 on 3 units of 80; the fragment guard (STARVED, exit 4) now refuses such a close; the valid rows are restored so only the lost units rerun; D02 and D03 read D01's rows and rerun after it",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "INCONCLUSIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "D02": {
+  "cell_id": "D02",
+  "card": "D02",
+  "track": "difference",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D02\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does surprise alignment rise across the artful gradient?",
+  "reason": "alignment by shape {\"adapter:fm_qwen|essay\": 0.3713902655504218, \"adapter:fm_qwen|free\": 0.3539481062918563, \"adapter:fm_qwen|structured\": 0.3045256952560874, \"adapter:fm_smollm|essay\": 0.3874149510109988, \"adapter:fm_smollm|free\": 0.37722075378325376, \"adapter:fm_smollm|structured\": 0.33782189424591386}; monotone {'adapter:fm_qwen': False, 'adapter:fm_smollm': False}",
+  "budget_charged_min": 190.38,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T18:32:06",
+  "finished_at": "2026-09-04T18:59:09",
+  "detail": "alignment by shape {\"adapter:fm_qwen|essay\": 0.3713902655504218, \"adapter:fm_qwen|free\": 0.3539481062918563, \"adapter:fm_qwen|structured\": 0.3045256952560874, \"adapter:fm_smollm|essay\": 0.3874149510109988, \"adapter:fm_smollm|free\": 0.37722075378325376, \"adapter:fm_smollm|structured\": 0.33782189424591386}; monotone {'adapter:fm_qwen': False, 'adapter:fm_smollm': False}",
+  "resets": [
+   {
+    "at": "2026-09-04T18:17:39",
+    "tag": "oom503",
+    "why": "the model server answered CUDA out of memory as 503 while a game held the card (14:51 to 16:12 and 16:42 to 17:22): D01 closed on two thirds of its FM rows and D04 on 3 units of 80; the fragment guard (STARVED, exit 4) now refuses such a close; the valid rows are restored so only the lost units rerun; D02 and D03 read D01's rows and rerun after it",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "DESCRIPTIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "D03": {
+  "cell_id": "D03",
+  "card": "D03",
+  "track": "difference",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D03\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does the reader's first explanation fire at the most divergent event?",
+  "reason": "first-explanation hit rates {\"adapter:fm_qwen\": {\"hit_rate\": 0.020833333333333332, \"within1_rate\": 0.11458333333333333, \"dom_hit_rate\": 0.19791666666666666, \"n\": 96, \"chance\": 0.08084127259750241}, \"adapter:fm_smollm\": {\"hit_rate\": 0.010416666666666666, \"within1_rate\": 0.08333333333333333, \"dom_hit_rate\": 0.19791666666666666, \"n\": 96, \"chance\": 0.08084127259750241}}",
+  "budget_charged_min": 171.23,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T18:59:09",
+  "finished_at": "2026-09-04T19:07:04",
+  "detail": "first-explanation hit rates {\"adapter:fm_qwen\": {\"hit_rate\": 0.020833333333333332, \"within1_rate\": 0.11458333333333333, \"dom_hit_rate\": 0.19791666666666666, \"n\": 96, \"chance\": 0.08084127259750241}, \"adapter:fm_smollm\": {\"hit_rate\": 0.010416666666666666, \"within1_rate\": 0.08333333333333333, \"dom_hit_rate\": 0.19791666666666666, \"n\": 96, \"chance\": 0.08084127259750241}}",
+  "resets": [
+   {
+    "at": "2026-09-04T18:17:39",
+    "tag": "oom503",
+    "why": "the model server answered CUDA out of memory as 503 while a game held the card (14:51 to 16:12 and 16:42 to 17:22): D01 closed on two thirds of its FM rows and D04 on 3 units of 80; the fragment guard (STARVED, exit 4) now refuses such a close; the valid rows are restored so only the lost units rerun; D02 and D03 read D01's rows and rerun after it",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "DESCRIPTIVE",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "D05": {
+  "cell_id": "D05",
+  "card": "D05",
+  "track": "difference",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D05\\verdict.json",
+  "est_minutes": 10.666666666666666,
+  "gpu": false,
+  "why": "Does the frontier probe's surprise align better than DOM's?",
+  "reason": "{\"gemini-3.5-flash-lite\": {\"diff\": -0.251746632996633, \"reader\": 0.2988358544393027, \"dom\": 0.5505824874359357}}; capped False",
+  "budget_charged_min": 12.56,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T19:07:04",
+  "finished_at": "2026-09-04T19:19:38",
+  "detail": "{\"gemini-3.5-flash-lite\": {\"diff\": -0.251746632996633, \"reader\": 0.2988358544393027, \"dom\": 0.5505824874359357}}; capped False"
+ },
+ "X11": {
+  "cell_id": "X11",
+  "card": "X11",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E03",
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X11\\verdict.json",
+  "est_minutes": 3.2,
+  "gpu": true,
+  "why": "Run the trained reader on a maker family it never saw (a second law family under the frozen ontology).",
+  "reason": "unseen law family: adapter:fm_qwen: -0.005 [-0.2984126336841976, 0.2907960233265548]; adapter:fm_smollm: -0.018 [-0.2611396562661689, 0.22994653399738943]; seen-family gaps {'adapter:fm_qwen': 0.18558531383705862, 'adapter:fm_smollm': 0.1252519565378365}",
+  "budget_charged_min": 7.15,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T17:22:37",
+  "finished_at": "2026-09-04T17:29:46",
+  "detail": "unseen law family: adapter:fm_qwen: -0.005 [-0.2984126336841976, 0.2907960233265548]; adapter:fm_smollm: -0.018 [-0.2611396562661689, 0.22994653399738943]; seen-family gaps {'adapter:fm_qwen': 0.18558531383705862, 'adapter:fm_smollm': 0.1252519565378365}"
+ },
+ "G01": {
+  "cell_id": "G01",
+  "card": "G01",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G01\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "Does the admitted reader name the purpose by the affordance route?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: recall 0.354 top1 0.312 n 96; adapter:fm_smollm: recall 0.552 top1 0.270 n 96",
+  "budget_charged_min": 12.01,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T17:29:46",
+  "finished_at": "2026-09-04T17:41:47",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: recall 0.354 top1 0.312 n 96; adapter:fm_smollm: recall 0.552 top1 0.270 n 96"
+ },
+ "G02": {
+  "cell_id": "G02",
+  "card": "G02",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "G01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G02\\verdict.json",
+  "est_minutes": 6.4,
+  "gpu": true,
+  "why": "Does executing the inferred purpose through the reader's own forward model improve the rest of the artifact?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail SUPPORT_CANDIDATE 1.0117973531518507; vs FM -0.025374117860500495; true purpose vs DOM 0.2464050924582833; FM vs DOM 0.21029293426005086",
+  "budget_charged_min": 7.91,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T18:59:09",
+  "finished_at": "2026-09-04T19:07:04",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail SUPPORT_CANDIDATE 1.0117973531518507; vs FM -0.025374117860500495; true purpose vs DOM 0.2464050924582833; FM vs DOM 0.21029293426005086"
+ },
+ "G05": {
+  "cell_id": "G05",
+  "card": "G05",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "G01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G05\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "Which goal object is easier for the same reader, the purpose or the pull ordering?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"pull_recall\": 0.59375, \"n\": 96, \"purpose_recall\": 0.3541666666666667, \"difference_purpose_minus_pull\": -0.23958333333333331}, \"adapter:fm_smollm\": {\"pull_recall\": 0.6979166666666666, \"n\": 96, \"purpose_recall\": 0.5520833333333334, \"difference_purpose_minus_pull\": -0.14583333333333326}}",
+  "budget_charged_min": 10.9,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T19:22:13",
+  "finished_at": "2026-09-04T19:33:07",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"pull_recall\": 0.59375, \"n\": 96, \"purpose_recall\": 0.3541666666666667, \"difference_purpose_minus_pull\": -0.23958333333333331}, \"adapter:fm_smollm\": {\"pull_recall\": 0.6979166666666666, \"n\": 96, \"purpose_recall\": 0.5520833333333334, \"difference_purpose_minus_pull\": -0.14583333333333326}}"
+ },
+ "G06": {
+  "cell_id": "G06",
+  "card": "G06",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "G01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G06\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "Does purpose recall survive paraphrase of the artifact and fail under a meaning change?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"base\": 0.2708333333333333, \"para\": 0.3541666666666667, \"mean\": 0.3125, \"paraphrase_survives\": true, \"meaning_falls\": false, \"crossover\": false}, \"adapter:fm_smollm\": {\"base\": 0.4583333333333333, \"para\": 0.5208333333333334, \"mean\": 0.5833333333333334, \"paraphrase_survives\": true, \"meaning_falls\": false, \"crossover\": false}}",
+  "budget_charged_min": 18.52,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T19:33:07",
+  "finished_at": "2026-09-04T19:51:38",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"base\": 0.2708333333333333, \"para\": 0.3541666666666667, \"mean\": 0.3125, \"paraphrase_survives\": true, \"meaning_falls\": false, \"crossover\": false}, \"adapter:fm_smollm\": {\"base\": 0.4583333333333333, \"para\": 0.5208333333333334, \"mean\": 0.5833333333333334, \"paraphrase_survives\": true, \"meaning_falls\": false, \"crossover\": false}}"
+ },
+ "G03": {
+  "cell_id": "G03",
+  "card": "G03",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "G02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G03\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does it improve the changed-context choice?",
+  "reason": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail INCONCLUSIVE 0.4094220914090648; vs copied brief 0.07336329544849976",
+  "budget_charged_min": 0.3,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T19:21:55",
+  "finished_at": "2026-09-04T19:22:13",
+  "detail": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail INCONCLUSIVE 0.4094220914090648; vs copied brief 0.07336329544849976"
+ },
+ "G04": {
+  "cell_id": "G04",
+  "card": "G04",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "G01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G04\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does the reader keep two purposes alive where the prefix leaves two, and abstain?",
+  "reason": "{\"adapter:fm_qwen\": {\"equivalence_worlds\": 9, \"class_coverage\": 0.0, \"abstain_on_equivalence\": 0.0, \"singleton_worlds\": 87, \"false_abstain\": 0.10344827586206896, \"passed\": false}, \"adapter:fm_smollm\": {\"equivalence_worlds\": 9, \"class_coverage\": 0.2222222222222222, \"abstain_on_equivalence\": 0.5555555555555556, \"singleton_worlds\": 87, \"false_abstain\": 0.6666666666666666, \"passed\": false}}",
+  "budget_charged_min": 6.21,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T18:18:08",
+  "finished_at": "2026-09-04T18:24:20",
+  "detail": "{\"adapter:fm_qwen\": {\"equivalence_worlds\": 9, \"class_coverage\": 0.0, \"abstain_on_equivalence\": 0.0, \"singleton_worlds\": 87, \"false_abstain\": 0.10344827586206896, \"passed\": false}, \"adapter:fm_smollm\": {\"equivalence_worlds\": 9, \"class_coverage\": 0.2222222222222222, \"abstain_on_equivalence\": 0.5555555555555556, \"singleton_worlds\": 87, \"false_abstain\": 0.6666666666666666, \"passed\": false}}"
+ },
+ "G07": {
+  "cell_id": "G07",
+  "card": "G07",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "G01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G07\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Is the reader's confidence over purposes an information meter?",
+  "reason": "{\"adapter:fm_qwen\": {\"slope\": -0.3137975915566558, \"ece\": 0.48333497278445614, \"rho\": 0.10537259537322065}, \"adapter:fm_smollm\": {\"slope\": -0.4216217464780244, \"ece\": 0.1049279795044487, \"rho\": -0.12543480130454127}}",
+  "budget_charged_min": 7.76,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T18:24:20",
+  "finished_at": "2026-09-04T18:32:06",
+  "detail": "{\"adapter:fm_qwen\": {\"slope\": -0.3137975915566558, \"ece\": 0.48333497278445614, \"rho\": 0.10537259537322065}, \"adapter:fm_smollm\": {\"slope\": -0.4216217464780244, \"ece\": 0.1049279795044487, \"rho\": -0.12543480130454127}}"
+ },
+ "G08": {
+  "cell_id": "G08",
+  "card": "G08",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "G02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G08\\verdict.json",
+  "est_minutes": 10.666666666666666,
+  "gpu": false,
+  "why": "Does the frontier probe name the purpose and profit from it?",
+  "reason": "FR purpose recall 0.15625; gain with its own purpose vs DOM -1.8201028379113127 [-3.9698254184881643, -0.22910497200188576]; capped False",
+  "budget_charged_min": 10.9,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T19:22:13",
+  "finished_at": "2026-09-04T19:33:07",
+  "detail": "FR purpose recall 0.15625; gain with its own purpose vs DOM -1.8201028379113127 [-3.9698254184881643, -0.22910497200188576]; capped False"
+ },
+ "X04": {
+  "cell_id": "X04",
+  "card": "X04",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "G06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X04\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Paraphrase the artifact and, separately, change its meaning, on the purpose prompts.",
+  "reason": "G06 COUNTEREVIDENCE: crossover []",
+  "budget_charged_min": 209.95,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T19:51:38",
+  "finished_at": "2026-09-04T23:21:35",
+  "detail": "G06 COUNTEREVIDENCE: crossover []"
+ },
+ "X07": {
+  "cell_id": "X07",
+  "card": "X07",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INSTRUMENT_FAILED",
+  "depends_on": [
+   "G04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X07\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Hold the final artifact fixed while swapping valid hidden histories.",
+  "reason": "G04 COUNTEREVIDENCE; class preserved on []",
+  "budget_charged_min": 18.52,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T19:33:07",
+  "finished_at": "2026-09-04T19:51:38",
+  "detail": "G04 COUNTEREVIDENCE; class preserved on []"
+ },
+ "A01": {
+  "cell_id": "A01",
+  "card": "A01",
+  "track": "accumulation",
+  "exec_state": "COMPLETE",
+  "outcome": "VALID_NULL",
+  "depends_on": [
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A01\\verdict.json",
+  "est_minutes": 16.0,
+  "gpu": true,
+  "why": "Does surprise alignment on artifact N+1 improve with N earlier artifacts by the same maker in context?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: means by N [0.23, 0.233, 0.241, 0.228]; N3-N0 -0.002 monotone False; adapter:fm_smollm: means by N [0.262, 0.283, 0.291, 0.278]; N3-N0 0.0160 monotone False",
+  "budget_charged_min": 209.95,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T19:51:38",
+  "finished_at": "2026-09-04T23:21:35",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: means by N [0.23, 0.233, 0.241, 0.228]; N3-N0 -0.002 monotone False; adapter:fm_smollm: means by N [0.262, 0.283, 0.291, 0.278]; N3-N0 0.0160 monotone False"
+ },
+ "A02": {
+  "cell_id": "A02",
+  "card": "A02",
+  "track": "accumulation",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A02\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": true,
+  "why": "Does the reader's recall of the maker's law and residue rise with N?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"LAWR\": {\"recall_by_n\": {\"0\": 0.4375, \"1\": 0.3541666666666667, \"2\": 0.25, \"3\": 0.2916666666666667}, \"chance\": 0.3333333333333333, \"rises\": false}, \"RESR\": {\"recall_by_n\": {\"0\": 0.3333333333333333, \"1\": 0.20833333333333334, \"2\": 0.2708333333333333, \"3\": 0.20833333333333334}, \"chance\": 0.25, \"rises\": false}}, \"adapter:fm_smollm\": {\"LAWR\": {\"recall_by_n\": {\"0\": 0.3125, \"1\": 0.3958333333333333, \"2\": 0.10416666666666667, \"3\": 0.3541666666666667}, \"chance\": 0.3333333333333333, \"rises\": false}, \"RESR\": {\"recall_by_n\": {\"0\": 0.3333333333333333, \"1\": 0.20833333333333334, \"2\": 0.375, \"3\": 0.3541666666666667}, \"chance\": 0.25, \"rises\": false}}}",
+  "budget_charged_min": 43.83,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T23:23:41",
+  "finished_at": "2026-09-05T00:07:31",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"LAWR\": {\"recall_by_n\": {\"0\": 0.4375, \"1\": 0.3541666666666667, \"2\": 0.25, \"3\": 0.2916666666666667}, \"chance\": 0.3333333333333333, \"rises\": false}, \"RESR\": {\"recall_by_n\": {\"0\": 0.3333333333333333, \"1\": 0.20833333333333334, \"2\": 0.2708333333333333, \"3\": 0.20833333333333334}, \"chance\": 0.25, \"rises\": false}}, \"adapter:fm_smollm\": {\"LAWR\": {\"recall_by_n\": {\"0\": 0.3125, \"1\": 0.3958333333333333, \"2\": 0.10416666666666667, \"3\": 0.3541666666666667}, \"chance\": 0.3333333333333333, \"rises\": false}, \"RESR\": {\"recall_by_n\": {\"0\": 0.3333333333333333, \"1\": 0.20833333333333334, \"2\": 0.375, \"3\": 0.3541666666666667}, \"chance\": 0.25, \"rises\": false}}}"
+ },
+ "A03": {
+  "cell_id": "A03",
+  "card": "A03",
+  "track": "accumulation",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A03\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": true,
+  "why": "Does the model of the maker predict a new artifact's divergences?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail SUPPORT_CANDIDATE 1.5599736083661113; vs FM+0 0.0018676257603910467",
+  "budget_charged_min": 16.73,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T00:07:31",
+  "finished_at": "2026-09-05T00:24:15",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail SUPPORT_CANDIDATE 1.5599736083661113; vs FM+0 0.0018676257603910467"
+ },
+ "A05": {
+  "cell_id": "A05",
+  "card": "A05",
+  "track": "accumulation",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "A03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A05\\verdict.json",
+  "est_minutes": 8.0,
+  "gpu": true,
+  "why": "Is the accumulation the law's or the goal's?",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail SUPPORT_CANDIDATE 1.5599736083661113; +law: 0.009384238227339664; +residue: -0.018761255101807914; +purpose: 0.015665189417412347",
+  "budget_charged_min": 37.49,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T00:24:15",
+  "finished_at": "2026-09-05T01:01:45",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail SUPPORT_CANDIDATE 1.5599736083661113; +law: 0.009384238227339664; +residue: -0.018761255101807914; +purpose: 0.015665189417412347"
+ },
+ "A04": {
+  "cell_id": "A04",
+  "card": "A04",
+  "track": "accumulation",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "A01",
+   "A02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A04\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Does the reveal parameter change what is learned?",
+  "reason": "{\"adapter:fm_qwen\": {\"alignment_n3_low\": 0.23357207380491696, \"n_low\": 24, \"alignment_n3_high\": 0.21870423577356352, \"n_high\": 14}, \"adapter:fm_smollm\": {\"alignment_n3_low\": 0.2850037820748605, \"n_low\": 24, \"alignment_n3_high\": 0.26597141187477324, \"n_high\": 14}}",
+  "budget_charged_min": 16.73,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T00:07:31",
+  "finished_at": "2026-09-05T00:24:15",
+  "detail": "{\"adapter:fm_qwen\": {\"alignment_n3_low\": 0.23357207380491696, \"n_low\": 24, \"alignment_n3_high\": 0.21870423577356352, \"n_high\": 14}, \"adapter:fm_smollm\": {\"alignment_n3_low\": 0.2850037820748605, \"n_low\": 24, \"alignment_n3_high\": 0.26597141187477324, \"n_high\": 14}}"
+ },
+ "X06": {
+  "cell_id": "X06",
+  "card": "X06",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "A01",
+   "A03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X06\\verdict.json",
+  "est_minutes": 4.0,
+  "gpu": true,
+  "why": "Duplicate evidence from one causal source.",
+  "reason": "confidence rise with a triplicated earlier artifact 0.0056999957044815",
+  "budget_charged_min": 7.89,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T01:01:45",
+  "finished_at": "2026-09-05T01:09:38",
+  "detail": "confidence rise with a triplicated earlier artifact 0.0056999957044815"
+ },
+ "D06": {
+  "cell_id": "D06",
+  "card": "D06",
+  "track": "difference",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "G02",
+   "G03",
+   "E08",
+   "A03",
+   "E06"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D06\\verdict.json",
+  "est_minutes": 1.0,
+  "gpu": false,
+  "why": "Is the tail contrast what the whole contrast hides?",
+  "reason": "5 prospective cards; sign differences on ['E08']",
+  "budget_charged_min": 37.49,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T00:24:15",
+  "finished_at": "2026-09-05T01:01:45",
+  "detail": "5 prospective cards; sign differences on ['E08']"
+ },
+ "X08": {
+  "cell_id": "X08",
+  "card": "X08",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E03",
+   "D01",
+   "G02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X08\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Report every reader, family, shape, and N cell before pooling.",
+  "reason": "conditional cells {'E03': 2, 'D01': 8, 'G02': 6, 'A01': 8}; reversals surfaced []",
+  "budget_charged_min": 43.83,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T23:23:41",
+  "finished_at": "2026-09-05T00:07:31",
+  "detail": "conditional cells {'E03': 2, 'D01': 8, 'G02': 6, 'A01': 8}; reversals surfaced []"
+ },
+ "X09": {
+  "cell_id": "X09",
+  "card": "X09",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E07",
+   "D05",
+   "G08"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X09\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Price every arm's compute and dollars.",
+  "reason": "17/17 cells priced; frontier 2.1413 of 40.0 USD; GPU lock 3.92 h",
+  "budget_charged_min": 43.83,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T23:23:41",
+  "finished_at": "2026-09-05T00:07:31",
+  "detail": "17/17 cells priced; frontier 2.1413 of 40.0 USD; GPU lock 3.92 h",
+  "resets": [
+   {
+    "at": "2026-09-04T23:23:30",
+    "tag": "ledger",
+    "why": "four cells rerun from restored rows overwrote their first attempt's compute ledger with an empty entry and X09 read them as unpriced; the ledger now merges, X09 prices from the rows' budgets, the four entries are backfilled",
+    "before": {
+     "exec_state": "RUNNING",
+     "outcome": "NOT_RUN",
+     "attempts": 1
+    },
+    "moved": [
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "X10": {
+  "cell_id": "X10",
+  "card": "X10",
+  "track": "attack",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "G02",
+   "A03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X10\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Strengthen the cheap rivals (PERS, DOM, copied brief).",
+  "reason": "strengthened rival {\"next_action_ls\": [\"DOM\", -2.524789656614389], \"stop_ls\": [\"DOM\", -0.3884445655198047]}; claims against it {'G02:FMP_vs_DOM': 0.1429488872719894, 'G02:FMP_vs_PERS': 0.3282512176314125, 'A03:FMN_vs_DOM': 0.170023204405131, 'A03:FMN_vs_PERS': 0.3890231114335256}",
+  "budget_charged_min": 37.49,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T00:24:15",
+  "finished_at": "2026-09-05T01:01:45",
+  "detail": "strengthened rival {\"next_action_ls\": [\"DOM\", -2.524789656614389], \"stop_ls\": [\"DOM\", -0.3884445655198047]}; claims against it {'G02:FMP_vs_DOM': 0.1429488872719894, 'G02:FMP_vs_PERS': 0.3282512176314125, 'A03:FMN_vs_DOM': 0.170023204405131, 'A03:FMN_vs_PERS': 0.3890231114335256}"
+ },
+ "T01": {
+  "cell_id": "T01",
+  "card": "T01",
+  "track": "testbed",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\T01\\verdict.json",
+  "est_minutes": 30.0,
+  "gpu": false,
+  "why": "Are the sibling programs' repositories cloned read-only into the reference workspace, pinned, and manifested?",
+  "reason": "17/17 pinned; failed []",
+  "budget_charged_min": 0.67,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T08:10:15",
+  "finished_at": "2026-09-04T08:10:55",
+  "detail": "17/17 pinned; failed []"
+ },
+ "T02": {
+  "cell_id": "T02",
+  "card": "T02",
+  "track": "testbed",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\T02\\verdict.json",
+  "est_minutes": 30.0,
+  "gpu": false,
+  "why": "Are the human-input corpora fetched as manifests under the fetch discipline?",
+  "reason": "7/10 manifested or in hand; failed ['genius_expertise']",
+  "budget_charged_min": 0.33,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-04T08:26:56",
+  "finished_at": "2026-09-04T08:27:16",
+  "detail": "7/10 manifested or in hand; failed ['genius_expertise']"
+ },
+ "T04": {
+  "cell_id": "T04",
+  "card": "T04",
+  "track": "testbed",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "T02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\T04\\verdict.json",
+  "est_minutes": 5.0,
+  "gpu": false,
+  "why": "Do the loaders parse?",
+  "reason": "fixtures 7 pass of 7; smoke {'argrewrite_v2': {'files': 635, 'present': True}, 'coauthor': {'sessions': 690, 'present': True}, 'scholawrite': {'sessions': 79, 'present': True}}",
+  "budget_charged_min": 1.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T08:27:16",
+  "finished_at": "2026-09-04T08:28:16",
+  "detail": "fixtures 7 pass of 7; smoke {'argrewrite_v2': {'files': 635, 'present': True}, 'coauthor': {'sessions': 690, 'present': True}, 'scholawrite': {'sessions': 79, 'present': True}}"
+ },
+ "T05": {
+  "cell_id": "T05",
+  "card": "T05",
+  "track": "testbed",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
+  "depends_on": [
+   "T04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\T05\\verdict.json",
+  "est_minutes": 10.0,
+  "gpu": false,
+  "why": "Does each corpus reproduce one published cheap baseline?",
+  "reason": "3/7 corpora with a measured number; the rest NOT_REPRODUCED with the reason on the card",
+  "budget_charged_min": 0.18,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T08:28:16",
+  "finished_at": "2026-09-04T08:28:27",
+  "detail": "3/7 corpora with a measured number; the rest NOT_REPRODUCED with the reason on the card"
+ },
+ "T03": {
+  "cell_id": "T03",
+  "card": "T03",
+  "track": "testbed",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "T01",
+   "T02",
+   "T04",
+   "T05"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\T03\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "Does every corpus and repository carry a catalog card in docs/TOOLS.md?",
+  "reason": "27 catalog cards written to docs/TOOLS.md",
+  "budget_charged_min": 14.79,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-04T10:38:28",
+  "finished_at": "2026-09-04T10:53:16",
+  "detail": "27 catalog cards written to docs/TOOLS.md"
+ },
+ "B04": {
+  "cell_id": "B04",
+  "card": "B04",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "D06",
+   "G04",
+   "A04",
+   "T03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\B04\\verdict.json",
+  "est_minutes": 2.0,
+  "gpu": false,
+  "why": "What moves in the project world model, and should Stage 9 open on the testbed?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "B01": {
+  "cell_id": "B01",
+  "card": "B01",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\B01\\verdict.json",
+  "est_minutes": 40.0,
+  "gpu": true,
+  "why": "Does the strongest gate-passing reader effect replicate on untouched lineages?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "B02": {
+  "cell_id": "B02",
+  "card": "B02",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "B01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\B02\\verdict.json",
+  "est_minutes": 40.0,
+  "gpu": true,
+  "why": "Does the strongest purpose or accumulation effect replicate on untouched lineages?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "X12": {
+  "cell_id": "X12",
+  "card": "X12",
+  "track": "attack",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "B04"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\X12\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": false,
+  "why": "Fresh-clone every manifest, hash, receipt, and confirmation input; force one kill and resume.",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "B03": {
+  "cell_id": "B03",
+  "card": "B03",
+  "track": "closure",
+  "exec_state": "PLANNED",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "B04",
+   "X12"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\B03\\verdict.json",
+  "est_minutes": 20.0,
+  "gpu": false,
+  "why": "Do coverage, source, access, compute, dollar, pursuit, warrant, and claim ledgers agree, and does a fresh clone reproduce them?",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 0,
+  "started_at": null,
+  "finished_at": null,
+  "detail": null
+ },
+ "E03/x1": {
+  "cell_id": "E03/x1",
+  "card": "E03",
+  "track": "expertise",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "E03"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E03\\x1\\verdict.json",
+  "est_minutes": 11.52,
+  "gpu": true,
+  "why": "expansion rung 1 (x4 units): independent_units",
+  "reason": "adapter:fm_qwen: PASS gap 0.24101 [0.13447319750337286, 0.3563094731399969]; adapter:fm_smollm: PASS gap 0.20144 [0.08917311498965187, 0.31863728317177314]",
+  "budget_charged_min": 56.65,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T01:09:38",
+  "finished_at": "2026-09-05T02:06:17",
+  "detail": "adapter:fm_qwen: PASS gap 0.24101 [0.13447319750337286, 0.3563094731399969]; adapter:fm_smollm: PASS gap 0.20144 [0.08917311498965187, 0.31863728317177314]"
+ },
+ "D01/x1": {
+  "cell_id": "D01/x1",
+  "card": "D01",
+  "track": "difference",
+  "exec_state": "COMPLETE",
+  "outcome": "COUNTEREVIDENCE",
+  "depends_on": [
+   "D01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\D01\\x1\\verdict.json",
+  "est_minutes": 23.04,
+  "gpu": true,
+  "why": "expansion rung 1 (x4 units): independent_units",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: INFERIOR diff -0.195 reader 0.359 dom 0.554; adapter:fm_smollm: INFERIOR diff -0.164 reader 0.390 dom 0.554",
+  "budget_charged_min": 88.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T03:35:39",
+  "finished_at": "2026-09-05T03:36:13",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: INFERIOR diff -0.195 reader 0.359 dom 0.554; adapter:fm_smollm: INFERIOR diff -0.164 reader 0.390 dom 0.554",
+  "resets": [
+   {
+    "at": "2026-09-05T03:35:26",
+    "tag": "admission",
+    "why": "the ladder rerun of E03 rewrote EXPERTISE_GATE with passed=True while the generation gate stood failed, so this rung ran as a claim; admission now reads E03 and E04 together; rows restored, the verdict recomputed as diagnosis",
+    "before": {
+     "exec_state": "COMPLETE",
+     "outcome": "COUNTEREVIDENCE",
+     "attempts": 1
+    },
+    "moved": [
+     "cases.jsonl",
+     "metrics.json",
+     "verdict.json"
+    ]
+   }
+  ]
+ },
+ "G01/x1": {
+  "cell_id": "G01/x1",
+  "card": "G01",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
+  "depends_on": [
+   "G01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G01\\x1\\verdict.json",
+  "est_minutes": 9.6,
+  "gpu": true,
+  "why": "expansion rung 1 (x4 units): independent_units",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: recall 0.333 top1 0.252 n 384; adapter:fm_smollm: recall 0.531 top1 0.257 n 384 (repaired readout)",
+  "budget_charged_min": 108.78,
+  "gpu_lock_min": 0.0,
+  "attempts": 2,
+  "started_at": "2026-09-05T03:36:13",
+  "finished_at": "2026-09-05T05:25:00",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: recall 0.333 top1 0.252 n 384; adapter:fm_smollm: recall 0.531 top1 0.257 n 384 (repaired readout)"
+ },
+ "G02/x1": {
+  "cell_id": "G02/x1",
+  "card": "G02",
+  "track": "purpose",
+  "exec_state": "COMPLETE",
+  "outcome": "INCONCLUSIVE",
+  "depends_on": [
+   "G02"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G02\\x1\\verdict.json",
+  "est_minutes": 15.36,
+  "gpu": true,
+  "why": "expansion rung 1 (x4 units): independent_units",
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_smollm; tail SUPPORT_CANDIDATE 0.8577472616392828; vs FM -0.05813036594629889; true purpose vs DOM 0.198342688120025; FM vs DOM 0.12563759473250133",
+  "budget_charged_min": 202.13,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T05:25:00",
+  "finished_at": "2026-09-05T08:47:08",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. interval includes zero and cannot exclude a useful benefit; reader adapter:fm_smollm; tail SUPPORT_CANDIDATE 0.8577472616392828; vs FM -0.05813036594629889; true purpose vs DOM 0.198342688120025; FM vs DOM 0.12563759473250133"
+ },
+ "A01/x1": {
+  "cell_id": "A01/x1",
+  "card": "A01",
+  "track": "accumulation",
+  "exec_state": "RUNNING",
+  "outcome": "NOT_RUN",
+  "depends_on": [
+   "A01"
+  ],
+  "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A01\\x1\\verdict.json",
+  "est_minutes": 38.4,
+  "gpu": true,
+  "why": "expansion rung 1 (x4 units): independent_units",
+  "reason": null,
+  "budget_charged_min": 0.0,
+  "gpu_lock_min": 0.0,
+  "attempts": 1,
+  "started_at": "2026-09-05T08:47:08",
+  "finished_at": null,
+  "detail": null
+ }
+}

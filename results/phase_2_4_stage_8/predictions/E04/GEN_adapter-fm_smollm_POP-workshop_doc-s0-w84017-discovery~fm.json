@@ -1,0 +1,174 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "30b3fd804210c7cd",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 173,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 46,
+  "tokens_out": 173,
+  "wall_s": 13.79
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "b1b9b1ce7bb945f8",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": "69e7cb84b5c15c2f",
+   "events": [
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.1",
+     "type": "check"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.1",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.3",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.3",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.3",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.3",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.2",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.1",
+     "type": "check"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.1",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "ref",
+     "type": "cite"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.1",
+     "type": "check"
+    }
+   ],
+   "n_new_tokens": 173,
+   "raw": "00 check sec2 s2.1 done\n01 revise sec3 s3.1 done\n02 write sec1 s1.1 done\n03 write sec3 s3.1 done\n04 write sec1 s1.3 done\n05 write sec2 s2.1 done\n06 write sec2 s2.2 done\n07 write sec2 s2.3 done\n08 write sec3 s3.3 done\n09 revise sec3 s3.3 done\n10 write sec3 s3.2 done\n11 revise sec1 s1.2 done\n12 check sec1 s1.1 done\n13 revise sec2 s2.1 done\n14 cite sec3 ref done\n15 check sec3 s3.1 done",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "write:sec1:s1.2": 0.14285714285714285,
+   "write:sec2:s2.2": 0.14285714285714285,
+   "write:sec2:s2.3": 0.14285714285714285,
+   "write:sec3:s3.1": 0.14285714285714285,
+   "write:sec3:s3.3": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "write:sec1:s1.2": 0.14285714285714285,
+   "write:sec2:s2.2": 0.14285714285714285,
+   "write:sec2:s2.3": 0.14285714285714285,
+   "write:sec3:s3.1": 0.14285714285714285,
+   "write:sec3:s3.3": 0.14285714285714285
+  },
+  "next_section": {
+   "sec1": 0.14285714285714285,
+   "sec2": 0.42857142857142855,
+   "sec3": 0.42857142857142855
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.14285714285714288,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.14285714285714288,
+   "revise": 0.0,
+   "write": 0.7142857142857143
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

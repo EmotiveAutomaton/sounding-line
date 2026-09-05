@@ -1,0 +1,95 @@
+{
+ "abstain": false,
+ "arm": "FMS",
+ "canonical_sha": "18612181629092bc",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 954,
+  "tokens_out": 0,
+  "wall_s": 5.015
+ },
+ "confidence": 0.16372834180101462,
+ "equivalence_class": [],
+ "evidence_sha": "71cfd0b7dc8bc9b2",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the lathe manual\naudience: editor\ntools: library=no source=no\ndeadline: tight\nsections: sec1(3) sec2(2) sec3(3) sec4(2)\nmaker: The brief requires sec1, sec2, sec3; the audience is editor; the library is unavailable and source access is unavailable; the deadline is tight.\nmaker: The maker believes the library is unavailable and source access is unavailable, believes the deadline is tight, and believes no section is already checked.\nmaker: The maker is strongest at write and revise, weakest at restructure and probe; of the skilled moves, the maker can carry out fix; no fixed sequence habits; choices are erratic and an episode usually runs about 10 moves.\nmaker: As the maker sees it, the library is not usable, source access is not usable, the deadline feels tight, the audience matters a lot, and no section is taken as already checked.\nmaker: The moves the maker sees as open right now: write:sec1:s1.1, write:sec1:s1.3, write:sec3:s3.1, write:sec4:s4.1, write:sec4:s4.2, revise:sec3:s3.1, fix:sec2:s2.1.\nmaker: Right now the maker is pulled most strongly toward addsing work, then toward consultsing, and least toward draftsing.\nmaker: The maker carries a standing habit of check and no held intention.\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec4:ref": -4.555975437164307,
+   "consult:sec1:src": -3.4540746212005615,
+   "fix:sec2:s2.1": -2.1429545879364014,
+   "probe:sec1:tech": -2.20908522605896,
+   "restructure:sec3:order": -2.681126832962036,
+   "revise:sec3:s3.1": -5.239984512329102,
+   "write:sec1:s1.1": -1.960585355758667,
+   "write:sec1:s1.3": -2.226210355758667,
+   "write:sec3:s3.1": -2.782139778137207,
+   "write:sec4:s4.1": -2.361778497695923,
+   "write:sec4:s4.2": -2.189903497695923
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.408505916595459
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.011904159982412451,
+   "consult:sec1:src": 0.03720185012640604,
+   "fix:sec2:s2.1": 0.13813572260368007,
+   "probe:sec1:tech": 0.12930642528587344,
+   "restructure:sec3:order": 0.0783280193337186,
+   "revise:sec3:s3.1": 0.005988722432449622,
+   "write:sec1:s1.1": 0.15977177949270735,
+   "write:sec1:s1.3": 0.12443038698163231,
+   "write:sec3:s3.1": 0.07185173597883188,
+   "write:sec4:s4.1": 0.1111213406766902,
+   "write:sec4:s4.2": 0.13195985710559816
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.012216879005014144,
+   "consult:sec1:src": 0.03677136203022519,
+   "fix:sec2:s2.1": 0.13643378014629437,
+   "probe:sec1:tech": 0.1277031885323695,
+   "restructure:sec3:order": 0.0796519983159446,
+   "revise:sec3:s3.1": 0.006164514887656763,
+   "write:sec1:s1.1": 0.16372834180101464,
+   "write:sec1:s1.3": 0.12553487418941173,
+   "write:sec3:s3.1": 0.07199914036563461,
+   "write:sec4:s4.1": 0.1096195199095085,
+   "write:sec4:s4.2": 0.13017640081692605
+  },
+  "next_section": {
+   "sec1": 0.45373776655302106,
+   "sec2": 0.13643378014629437,
+   "sec3": 0.15781565356923596,
+   "sec4": 0.2520127997314487
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.012216879005014144,
+   "consult": 0.03677136203022519,
+   "fix": 0.13643378014629437,
+   "probe": 0.1277031885323695,
+   "restructure": 0.0796519983159446,
+   "revise": 0.006164514887656763,
+   "write": 0.6010582770824955
+  },
+  "stop": 0.09470729967483182
+ },
+ "version": "PredictionV1"
+}

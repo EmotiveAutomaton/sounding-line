@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "c31040b8cb71bf17",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1740,
+  "tokens_out": 0,
+  "wall_s": 3.826
+ },
+ "confidence": 0.429623652975237,
+ "equivalence_class": [],
+ "evidence_sha": "5116038f4c81cc77",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the delivery route\naudience: peer\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(3)\nmaker: The document is meant to explore an open question.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec2:s2.1": -1.7581595182418823,
+   "restructure:sec2:order": -1.27202570438385,
+   "revise:sec1:s1.1": -2.6804099082946777,
+   "revise:sec1:s1.2": -2.4929099082946777,
+   "revise:sec3:s3.2": -3.025843620300293
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -2.209261894226074
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.2387075586448164,
+   "restructure:sec2:order": 0.45350880615693206,
+   "revise:sec1:s1.1": 0.10714526767197308,
+   "revise:sec1:s1.2": 0.12723815358448537,
+   "revise:sec3:s3.2": 0.07340021394179319
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.2642183344962754,
+   "restructure:sec2:order": 0.4296236529752371,
+   "revise:sec1:s1.1": 0.10505934656858623,
+   "revise:sec1:s1.2": 0.12672576181543105,
+   "revise:sec3:s3.2": 0.07437290414447033
+  },
+  "next_section": {
+   "sec1": 0.23178510838401725,
+   "sec2": 0.6938419874715125,
+   "sec3": 0.07437290414447033
+  },
+  "next_type": {
+   "check": 0.2642183344962754,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.4296236529752371,
+   "revise": 0.30615801252848757,
+   "write": 0.0
+  },
+  "stop": 0.1440462557622538
+ },
+ "version": "PredictionV1"
+}

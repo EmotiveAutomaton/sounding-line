@@ -1,0 +1,45 @@
+{
+ "card": "E03",
+ "cell_id": "E03",
+ "lane": "discovery",
+ "track": "expertise",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 14.77,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "FM against DOM on held-out POP and on maker-free PU worlds within -0.05 nats, per reader before pooling",
+ "exec": "COMPLETE",
+ "outcome": "INFRASTRUCTURE",
+ "primary": "The expertise gate: does the trained reader's own forward model predict the next move at the standard process's level with nothing supplied?",
+ "reason": "adapter:fm_qwen: PASS gap 0.18558 [0.0025969069986556937, 0.38665864931641936]; adapter:fm_smollm: PASS gap 0.12525 [-0.05856354501922374, 0.3111036143984362]",
+ "point": 0.18558531383705862,
+ "conditional_cells": {
+  "adapter:fm_qwen": {
+   "outcome": "PASS",
+   "point": 0.18558531383705862
+  },
+  "adapter:fm_smollm": {
+   "outcome": "PASS",
+   "point": 0.1252519565378365
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E03\\metrics.json",
+    "sha256": "684e3a21d2869dd4b02ed61a7a3378d89ae1ef42e2bf1c512c799d4ac9792d99"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E03\\cases.jsonl",
+    "sha256": "6281de94b92b60b27f23a17ed44d4ad3b09f8e665d6398abaaa9907d661acb20"
+   }
+  },
+  "written_at": "2026-09-04T10:53:15"
+ }
+}

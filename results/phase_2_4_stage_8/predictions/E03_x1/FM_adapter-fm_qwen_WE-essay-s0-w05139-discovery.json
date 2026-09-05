@@ -1,0 +1,74 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "ab736dc9275c4d12",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 526,
+  "tokens_out": 0,
+  "wall_s": 3.607
+ },
+ "confidence": 0.45227260733179564,
+ "equivalence_class": [],
+ "evidence_sha": "8f3f6cd8223e9b34",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the archive index\naudience: peer\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(3) sec2(3) sec3(2) sec4(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec4:ref": -2.2994635105133057,
+   "probe:sec1:tech": -1.7838290929794312,
+   "restructure:sec3:order": -3.2528979778289795,
+   "revise:sec2:s2.2": -2.7414770126342773
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -1.5179020166397095
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.28128655978742256,
+   "probe:sec1:tech": 0.422271055585453,
+   "restructure:sec3:order": 0.11362671626537003,
+   "revise:sec2:s2.2": 0.18281566836175436
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.27006176553152444,
+   "probe:sec1:tech": 0.45227260733179564,
+   "restructure:sec3:order": 0.10408586950152385,
+   "revise:sec2:s2.2": 0.17357975763515615
+  },
+  "next_section": {
+   "sec1": 0.45227260733179564,
+   "sec2": 0.17357975763515615,
+   "sec3": 0.10408586950152385,
+   "sec4": 0.27006176553152444
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.27006176553152444,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.45227260733179564,
+   "restructure": 0.10408586950152385,
+   "revise": 0.17357975763515615,
+   "write": 0.0
+  },
+  "stop": 0.37109010510814816
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,96 @@
+{
+ "abstain": true,
+ "arm": "PUR",
+ "canonical_sha": "0c14e94b6461f3ff",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 510,
+  "tokens_out": 0,
+  "wall_s": 3.187
+ },
+ "confidence": 0.33406515346675575,
+ "equivalence_class": [
+  "document",
+  "explore",
+  "teach"
+ ],
+ "evidence_sha": "bd9fa416bd38e374",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": true,
+   "confidence": 0.33406515346675575,
+   "equivalence_class": [
+    "document",
+    "explore",
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.33406515346675575,
+    "explore": 0.20581157056851831,
+    "persuade": 0.17881221257910693,
+    "teach": 0.28131106338561906
+   },
+   "raw": {
+    "document": 0.24439640662940113,
+    "explore": 0.15056825822063724,
+    "persuade": 0.130815985331841,
+    "teach": 0.20580240807242037,
+    "unknown": 0.2684169417457003
+   },
+   "unknown": 0.2684169417457003,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:partd:ref": 0.3333333333333333,
+   "probe:parta:tech": 0.3333333333333333,
+   "revise:partc:u3-2": 0.3333333333333333
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:partd:ref": 0.3333333333333333,
+   "probe:parta:tech": 0.3333333333333333,
+   "revise:partc:u3-2": 0.3333333333333333
+  },
+  "next_section": {
+   "parta": 0.3333333333333333,
+   "partb": 0.0,
+   "partc": 0.3333333333333333,
+   "partd": 0.3333333333333333
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.3333333333333333,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.3333333333333333,
+   "restructure": 0.0,
+   "revise": 0.3333333333333333,
+   "write": 0.0
+  },
+  "purpose": {
+   "document": 0.33406515346675575,
+   "explore": 0.20581157056851831,
+   "persuade": 0.17881221257910693,
+   "teach": 0.28131106338561906
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

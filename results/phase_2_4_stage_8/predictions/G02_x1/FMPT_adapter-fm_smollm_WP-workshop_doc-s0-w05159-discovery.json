@@ -1,0 +1,74 @@
+{
+ "abstain": false,
+ "arm": "FMPT",
+ "canonical_sha": "804835abc8435dbc",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 560,
+  "tokens_out": 0,
+  "wall_s": 4.277
+ },
+ "confidence": 0.7004064375457241,
+ "equivalence_class": [],
+ "evidence_sha": "5b1bb2fabd29dbaf",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the bench layout\naudience: editor\ntools: library=no source=yes\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(3) sec4(2)\ngoal: document\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec4:ref": -5.975208759307861,
+   "probe:sec1:tech": -1.0527434349060059,
+   "restructure:sec3:order": -2.3500969409942627,
+   "revise:sec3:s3.3": -2.9686570167541504
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.0837509632110596
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.004817729252186782,
+   "probe:sec1:tech": 0.6933469327535378,
+   "restructure:sec3:order": 0.20484553676349498,
+   "revise:sec3:s3.3": 0.09698980123078056
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.005099770135323613,
+   "probe:sec1:tech": 0.7004064375457241,
+   "restructure:sec3:order": 0.19138886208896488,
+   "revise:sec3:s3.3": 0.10310493022998743
+  },
+  "next_section": {
+   "sec1": 0.7004064375457241,
+   "sec2": 0.0,
+   "sec3": 0.29449379231895234,
+   "sec4": 0.005099770135323613
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.005099770135323613,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.7004064375457241,
+   "restructure": 0.19138886208896488,
+   "revise": 0.10310493022998743,
+   "write": 0.0
+  },
+  "stop": 0.19987080658114453
+ },
+ "version": "PredictionV1"
+}

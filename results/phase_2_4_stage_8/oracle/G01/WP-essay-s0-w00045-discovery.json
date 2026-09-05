@@ -1,0 +1,379 @@
+{
+ "version": "OracleBundleV1",
+ "lid": "WP|essay|s0|w00045|discovery",
+ "cut": 5,
+ "hidden": {
+  "next_action": "write:sec4:s4.2",
+  "next_type": "write",
+  "next_section": "sec4",
+  "next_slot": "s4.2",
+  "stop_next": false,
+  "stopped_at": 19,
+  "boundary_type": "none",
+  "stop_weight": 1.0,
+  "tail": [
+   {
+    "type": "write",
+    "section": "sec4",
+    "slot": "s4.2",
+    "outcome": "done"
+   },
+   {
+    "type": "fix",
+    "section": "sec2",
+    "slot": "s2.1",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.3",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec3",
+    "slot": "s3.2",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec2",
+    "slot": "s2.2",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.1",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec3",
+    "slot": "s3.1",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec2",
+    "slot": "s2.3",
+    "outcome": "done"
+   },
+   {
+    "type": "revise",
+    "section": "sec1",
+    "slot": "s1.1",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.2",
+    "outcome": "done"
+   },
+   {
+    "type": "write",
+    "section": "sec2",
+    "slot": "s2.1",
+    "outcome": "done"
+   },
+   {
+    "type": "revise",
+    "section": "sec1",
+    "slot": "s1.3",
+    "outcome": "done"
+   },
+   {
+    "type": "revise",
+    "section": "sec4",
+    "slot": "s4.1",
+    "outcome": "done"
+   },
+   {
+    "type": "consult",
+    "section": "sec1",
+    "slot": "src",
+    "outcome": "done"
+   },
+   {
+    "type": "revise",
+    "section": "sec4",
+    "slot": "s4.2",
+    "outcome": "done"
+   }
+  ],
+  "tail_stop": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "rejected_alternative": "fix:sec2:s2.1",
+  "changed_context": {
+   "change": "deadline_lifted",
+   "dist": {
+    "write:sec1:s1.1": 0.12181997706738652,
+    "write:sec1:s1.2": 0.12181997706738652,
+    "write:sec1:s1.3": 0.12181997706738652,
+    "write:sec2:s2.1": 0.0841452403178991,
+    "write:sec2:s2.2": 0.0841452403178991,
+    "write:sec2:s2.3": 0.0841452403178991,
+    "write:sec3:s3.1": 0.07323368320986029,
+    "write:sec3:s3.2": 0.07323368320986029,
+    "write:sec4:s4.2": 0.06373708526139105,
+    "revise:sec4:s4.2": 0.005530742836179869,
+    "revise:sec4:s4.1": 0.005530742836179869,
+    "revise:sec3:s3.2": 0.00635480375544178,
+    "revise:sec1:s1.3": 0.010570846826551905,
+    "revise:sec1:s1.1": 0.010570846826551905,
+    "consult:sec1:src": 0.005737300488883855,
+    "cite:sec4:ref": 0.0,
+    "restructure:sec3:order": 0.001675108083221526,
+    "probe:sec1:tech": 0.00178661386880523,
+    "fix:sec2:s2.1": 0.1241428906412156
+   },
+   "choice": "write:sec1:s1.2"
+  },
+  "invalidation": {
+   "dist": {
+    "correct": 0.9162857700694891,
+    "rewrite": 0.0636666976107705,
+    "retain": 0.02004753231974039
+   },
+   "choice": "correct"
+  },
+  "subjective_ids": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.2",
+   "write:sec1:s1.3",
+   "write:sec2:s2.1",
+   "write:sec2:s2.2",
+   "write:sec2:s2.3",
+   "write:sec3:s3.1",
+   "write:sec3:s3.2",
+   "write:sec4:s4.2",
+   "revise:sec4:s4.2",
+   "revise:sec4:s4.1",
+   "revise:sec3:s3.2",
+   "revise:sec1:s1.3",
+   "revise:sec1:s1.1",
+   "consult:sec1:src",
+   "restructure:sec3:order",
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "unavailable_ids": [
+   "cite:sec4:ref"
+  ],
+  "equivalence_class": [
+   "explore|expert|false_library|habit_check"
+  ],
+  "purpose_class": [
+   "explore"
+  ]
+ },
+ "oracle": {
+  "next_action": {
+   "write:sec1:s1.1": 0.12181997706738652,
+   "write:sec1:s1.2": 0.12181997706738652,
+   "write:sec1:s1.3": 0.12181997706738652,
+   "write:sec2:s2.1": 0.0841452403178991,
+   "write:sec2:s2.2": 0.0841452403178991,
+   "write:sec2:s2.3": 0.0841452403178991,
+   "write:sec3:s3.1": 0.07323368320986029,
+   "write:sec3:s3.2": 0.07323368320986029,
+   "write:sec4:s4.2": 0.06373708526139105,
+   "revise:sec4:s4.2": 0.005530742836179869,
+   "revise:sec4:s4.1": 0.005530742836179869,
+   "revise:sec3:s3.2": 0.00635480375544178,
+   "revise:sec1:s1.3": 0.010570846826551905,
+   "revise:sec1:s1.1": 0.010570846826551905,
+   "consult:sec1:src": 0.005737300488883855,
+   "cite:sec4:ref": 0.0,
+   "restructure:sec3:order": 0.001675108083221526,
+   "probe:sec1:tech": 0.00178661386880523,
+   "fix:sec2:s2.1": 0.1241428906412156
+  },
+  "next_type": {
+   "write": 0.8281001038369686,
+   "revise": 0.03855798308090533,
+   "check": 0.0,
+   "consult": 0.005737300488883855,
+   "cite": 0.0,
+   "restructure": 0.001675108083221526,
+   "probe": 0.00178661386880523,
+   "fix": 0.1241428906412156
+  },
+  "next_section": {
+   "sec1": 0.3941255392129525,
+   "sec2": 0.3765786115949129,
+   "sec3": 0.15449727825838389,
+   "sec4": 0.07479857093375078
+  },
+  "p_stop": 0.024127021417669196,
+  "stop_terms": {
+   "satisfaction": 0.0,
+   "deadline": 0.5,
+   "fatigue": 0.0,
+   "audience": 0.0
+  },
+  "boundary_type": "deadline"
+ },
+ "state_names": {
+  "goal": "explore",
+  "law": "expert",
+  "belief": "false_library",
+  "residue": "habit_check",
+  "tendency": "speed"
+ },
+ "state_at_cut": {
+  "external_context": {
+   "brief_sections": [
+    "sec1"
+   ],
+   "audience": "peer",
+   "tools": {
+    "library": true,
+    "source_access": true
+   },
+   "deadline": "tight",
+   "scheduled_change": "library_withdrawn"
+  },
+  "belief_state": {
+   "believed_tools": {
+    "library": false,
+    "source_access": true
+   },
+   "believed_deadline": "tight",
+   "believed_checked": []
+  },
+  "expertise_law": {
+   "skill": {
+    "write": 0.9,
+    "revise": 0.9,
+    "check": 0.8,
+    "consult": 0.7,
+    "cite": 0.7,
+    "restructure": 0.8,
+    "probe": 0.6,
+    "fix": 0.9
+   },
+   "feasible_min_skill": {
+    "restructure": 0.6,
+    "probe": 0.4,
+    "fix": 0.3
+   },
+   "cost": {
+    "write": 0.1,
+    "revise": 0.1,
+    "check": 0.25,
+    "consult": 0.45,
+    "cite": 0.3,
+    "restructure": 0.3,
+    "probe": 0.3,
+    "fix": 0.25
+   },
+   "chain": {
+    "write>revise": 0.5,
+    "check>fix": 0.9,
+    "restructure>revise": 0.6
+   },
+   "fluency": 0.9,
+   "expected_len": 14.0,
+   "confidence": 0.8
+  },
+  "maker_context": {
+   "perceived_tools": {
+    "library": false,
+    "source_access": true
+   },
+   "perceived_deadline": "tight",
+   "perceived_required": [
+    "sec1"
+   ],
+   "audience": "peer",
+   "audience_weight": 0.52,
+   "believed_checked": []
+  },
+  "subjective_action_space": [
+   "write:sec1:s1.1",
+   "write:sec1:s1.2",
+   "write:sec1:s1.3",
+   "write:sec2:s2.1",
+   "write:sec2:s2.2",
+   "write:sec2:s2.3",
+   "write:sec3:s3.1",
+   "write:sec3:s3.2",
+   "write:sec4:s4.2",
+   "revise:sec4:s4.2",
+   "revise:sec4:s4.1",
+   "revise:sec3:s3.2",
+   "revise:sec1:s1.3",
+   "revise:sec1:s1.1",
+   "consult:sec1:src",
+   "restructure:sec3:order",
+   "probe:sec1:tech",
+   "fix:sec2:s2.1"
+  ],
+  "proximal_goal": {
+   "utility": {
+    "write": 2.8,
+    "revise": 0.6,
+    "restructure": -0.4,
+    "check": 3.6,
+    "fix": 2.4,
+    "probe": -0.8,
+    "cite": 2.8,
+    "consult": 0.4
+   },
+   "name_ref": "explore"
+  },
+  "history_residue": {
+   "habit": {
+    "check": 0.9
+   },
+   "maintained": null
+  }
+ },
+ "condition": {
+  "supplied": [],
+  "form": "language",
+  "render": "log",
+  "unit_ref": "u3332df89fc",
+  "condition_ref": "G01"
+ },
+ "n_options": 19,
+ "purpose": "explore",
+ "pull_ordering": [
+  "check",
+  "write",
+  "cite",
+  "fix",
+  "revise",
+  "consult",
+  "restructure",
+  "probe"
+ ],
+ "shape": "essay",
+ "reveal": null,
+ "maker": null,
+ "purpose_class": [
+  "explore"
+ ],
+ "cut_gap": -0.005696706297789775,
+ "tail": false,
+ "tau_cut": 0.09928776332536886,
+ "evidence_sha": "37af810bd234bd89"
+}

@@ -1,0 +1,44 @@
+{
+ "card": "E04",
+ "cell_id": "E04",
+ "lane": "discovery",
+ "track": "expertise",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 16.59,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "generated logs' likelihood under the exact standard process at or above the real logs' 20th percentile; feasibility 1.0",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "The generation gate: does the trained reader produce the standard process?",
+ "reason": "adapter:fm_qwen: FAIL feas 0.225 median -3.0922 pct -2.6533; adapter:fm_smollm: FAIL feas 0.175 median -2.8213 pct -2.6533",
+ "conditional_cells": {
+  "adapter:fm_qwen": {
+   "outcome": "FAIL",
+   "point": -3.0922779298213108
+  },
+  "adapter:fm_smollm": {
+   "outcome": "FAIL",
+   "point": -2.8213239369245144
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E04\\metrics.json",
+    "sha256": "30bfa50116f27e132d26a86984a8c3944fd4ba2b221e8713165e3edd6d122d30"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E04\\cases.jsonl",
+    "sha256": "80690be78d0a7e8a780f27e8bef111bc86c7ffbe0c2e63f832f8606bd5be6892"
+   }
+  },
+  "written_at": "2026-09-04T11:09:52"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "card": "D03",
+ "lane": "discovery",
+ "written_at": "2026-09-04T18:59:10",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "per_reader": {
+  "adapter:fm_qwen": {
+   "hit_rate": 0.020833333333333332,
+   "within1_rate": 0.11458333333333333,
+   "dom_hit_rate": 0.19791666666666666,
+   "n": 96,
+   "chance": 0.08084127259750241
+  },
+  "adapter:fm_smollm": {
+   "hit_rate": 0.010416666666666666,
+   "within1_rate": 0.08333333333333333,
+   "dom_hit_rate": 0.19791666666666666,
+   "n": 96,
+   "chance": 0.08084127259750241
+  }
+ }
+}

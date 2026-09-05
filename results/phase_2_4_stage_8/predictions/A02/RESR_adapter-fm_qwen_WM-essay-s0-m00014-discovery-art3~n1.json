@@ -1,0 +1,72 @@
+{
+ "abstain": false,
+ "arm": "RESR",
+ "canonical_sha": "8f1afe8d18b8a83c",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 682,
+  "tokens_out": 0,
+  "wall_s": 3.213
+ },
+ "confidence": 0.7130496823955581,
+ "equivalence_class": [],
+ "evidence_sha": "635b3b8b74c777c8",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "recall": {
+   "confidence": 0.7130496823955581,
+   "dist": {
+    "habit_check": 0.10598537350252242,
+    "habit_write": 0.7130496823955581,
+    "maintained_cite": 0.04487703072753716,
+    "none": 0.13608791337438228
+   }
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "restructure:sec2:order": 1.0
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "restructure:sec2:order": 1.0
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 1.0,
+   "sec3": 0.0
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 1.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "resr": {
+   "habit_check": 0.10598537350252242,
+   "habit_write": 0.7130496823955581,
+   "maintained_cite": 0.04487703072753716,
+   "none": 0.13608791337438228
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

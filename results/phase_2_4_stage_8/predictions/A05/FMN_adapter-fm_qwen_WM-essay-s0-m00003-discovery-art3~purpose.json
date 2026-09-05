@@ -1,0 +1,106 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "5149457993b04c8f",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1600,
+  "tokens_out": 0,
+  "wall_s": 5.064
+ },
+ "confidence": 0.19769642995673567,
+ "equivalence_class": [],
+ "evidence_sha": "14f39e9c6a807bcf",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the flood notice\naudience: self\ntools: library=yes source=no\ndeadline: loose\nsections: sec1(3) sec2(2) sec3(3)\nmaker: The document is meant to record a procedure so it can be followed.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec1:s1.1": -2.258342981338501,
+   "check:sec2:s2.1": -3.1177175045013428,
+   "cite:sec3:ref": -3.5617122650146484,
+   "consult:sec1:src": -5.74924373626709,
+   "fix:sec2:s2.1": -2.764655828475952,
+   "probe:sec1:tech": -5.296448707580566,
+   "restructure:sec2:order": -6.610905647277832,
+   "revise:sec1:s1.3": -3.9055700302124023,
+   "revise:sec2:s2.1": -3.5508527755737305,
+   "revise:sec3:s3.1": -4.060983657836914,
+   "revise:sec3:s3.2": -4.107858657836914,
+   "write:sec1:s1.1": -1.8995267152786255,
+   "write:sec2:s2.1": -1.743249535560608,
+   "write:sec3:s3.1": -2.2189040184020996,
+   "write:sec3:s3.2": -2.1251540184020996
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.67089581489563
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.12304569357766788,
+   "check:sec2:s2.1": 0.05375472091584197,
+   "cite:sec3:ref": 0.028857405946740425,
+   "consult:sec1:src": 0.0036687261082549516,
+   "fix:sec2:s2.1": 0.0681604151965825,
+   "probe:sec1:tech": 0.005680641190956393,
+   "restructure:sec2:order": 0.001675338576633472,
+   "revise:sec1:s1.3": 0.02396525265280489,
+   "revise:sec2:s2.1": 0.03325669956274202,
+   "revise:sec3:s3.1": 0.02093458980868174,
+   "revise:sec3:s3.2": 0.019975929907407007,
+   "write:sec1:s1.1": 0.17365529908514188,
+   "write:sec2:s2.1": 0.19073260659920283,
+   "write:sec3:s3.1": 0.12138653845147342,
+   "write:sec3:s3.2": 0.1312501424198687
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.11811269680451757,
+   "check:sec2:s2.1": 0.050012086348696916,
+   "cite:sec3:ref": 0.03208119210465794,
+   "consult:sec1:src": 0.0035992967221702065,
+   "fix:sec2:s2.1": 0.07118815051497482,
+   "probe:sec1:tech": 0.005660620414694809,
+   "restructure:sec2:order": 0.0015205567647898761,
+   "revise:sec1:s1.3": 0.022746520246036017,
+   "revise:sec2:s2.1": 0.03243147598123548,
+   "revise:sec3:s3.1": 0.01947240918131473,
+   "revise:sec3:s3.2": 0.018580702643290137,
+   "write:sec1:s1.1": 0.169094121595851,
+   "write:sec2:s2.1": 0.19769642995673567,
+   "write:sec3:s3.1": 0.12286401679574119,
+   "write:sec3:s3.2": 0.1349397239252937
+  },
+  "next_section": {
+   "sec1": 0.3192132557832696,
+   "sec2": 0.3528486995664328,
+   "sec3": 0.3279380446502977
+  },
+  "next_type": {
+   "check": 0.16812478315321447,
+   "cite": 0.032081192104657937,
+   "consult": 0.0035992967221702057,
+   "fix": 0.0711881505149748,
+   "probe": 0.005660620414694808,
+   "restructure": 0.0015205567647898757,
+   "revise": 0.09323110805187636,
+   "write": 0.6245942922736215
+  },
+  "stop": 0.027958726790900102
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "b0e98b8c7ee6f265",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1492,
+  "tokens_out": 0,
+  "wall_s": 6.237
+ },
+ "confidence": 0.25955328606269723,
+ "equivalence_class": [],
+ "evidence_sha": "d5af8cbc84d6600f",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the glaze recipe\naudience: editor\ntools: library=no source=no\ndeadline: tight\nsections: sec1(3) sec2(3) sec3(3) sec4(2)\nmaker: The document is meant to explore an open question.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec2:s2.1": -1.436792016029358,
+   "cite:sec4:ref": -3.858802318572998,
+   "consult:sec1:src": -6.999704360961914,
+   "fix:sec2:s2.1": -2.452441453933716,
+   "probe:sec1:tech": -4.249387741088867,
+   "restructure:sec3:order": -5.4697675704956055,
+   "revise:sec1:s1.1": -4.607436656951904,
+   "revise:sec2:s2.1": -4.716583728790283,
+   "revise:sec2:s2.2": -4.763458728790283,
+   "revise:sec3:s3.3": -4.81019926071167,
+   "revise:sec4:s4.1": -4.850656986236572,
+   "write:sec1:s1.2": -2.739933490753174,
+   "write:sec1:s1.3": -2.708683490753174,
+   "write:sec2:s2.2": -2.709900140762329,
+   "write:sec2:s2.3": -2.616150140762329,
+   "write:sec3:s3.2": -2.859480619430542,
+   "write:sec3:s3.3": -2.718855619430542,
+   "write:sec4:s4.1": -2.9209234714508057,
+   "write:sec4:s4.2": -2.8115484714508057
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.5774097442626953
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.2524094443667525,
+   "cite:sec4:ref": 0.022752379858036045,
+   "consult:sec1:src": 0.0009536216745138234,
+   "fix:sec2:s2.1": 0.09431629221694951,
+   "probe:sec1:tech": 0.01588424741085249,
+   "restructure:sec3:order": 0.004990246229545617,
+   "revise:sec1:s1.1": 0.010823792580433148,
+   "revise:sec2:s2.1": 0.010065583638782745,
+   "revise:sec2:s2.2": 0.009604647004996893,
+   "revise:sec3:s3.3": 0.009212339360053282,
+   "revise:sec4:s4.1": 0.009039715386602434,
+   "write:sec1:s1.2": 0.0695308448361091,
+   "write:sec1:s1.3": 0.07173799077749861,
+   "write:sec2:s2.2": 0.07392606685412768,
+   "write:sec2:s2.3": 0.08119190070729135,
+   "write:sec3:s3.2": 0.063654726152645,
+   "write:sec3:s3.3": 0.07326614069794331,
+   "write:sec4:s4.1": 0.05986064504957084,
+   "write:sec4:s4.2": 0.06677937519729561
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.25955328606269723,
+   "cite:sec4:ref": 0.023033547041258855,
+   "consult:sec1:src": 0.0009960574701342439,
+   "fix:sec2:s2.1": 0.09400167346249351,
+   "probe:sec1:tech": 0.015585894363554396,
+   "restructure:sec3:order": 0.0045996787695132945,
+   "revise:sec1:s1.1": 0.01089514614094549,
+   "revise:sec2:s2.1": 0.009768572160155508,
+   "revise:sec2:s2.2": 0.00932123667222142,
+   "revise:sec3:s3.3": 0.008895582259144804,
+   "revise:sec4:s4.1": 0.008542870304846352,
+   "write:sec1:s1.2": 0.07051465412056768,
+   "write:sec1:s1.3": 0.07275302952097513,
+   "write:sec2:s2.2": 0.0726645683709838,
+   "write:sec2:s2.3": 0.07980641566873355,
+   "write:sec3:s3.2": 0.06256921721646197,
+   "write:sec3:s3.3": 0.0720167275709974,
+   "write:sec4:s4.1": 0.05884051024231565,
+   "write:sec4:s4.2": 0.06564133258199968
+  },
+  "next_section": {
+   "sec1": 0.17074478161617693,
+   "sec2": 0.525115752397285,
+   "sec3": 0.14808120581611747,
+   "sec4": 0.15605826017042054
+  },
+  "next_type": {
+   "check": 0.25955328606269723,
+   "cite": 0.023033547041258855,
+   "consult": 0.0009960574701342439,
+   "fix": 0.09400167346249351,
+   "probe": 0.015585894363554396,
+   "restructure": 0.0045996787695132945,
+   "revise": 0.047423407537313576,
+   "write": 0.5548064552930349
+  },
+  "stop": 0.0296150266065001
+ },
+ "version": "PredictionV1"
+}

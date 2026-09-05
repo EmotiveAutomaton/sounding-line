@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FMC",
+ "canonical_sha": "1808b934c4f48a3b",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 356,
+  "tokens_out": 0,
+  "wall_s": 4.381
+ },
+ "confidence": 0.2751804068600741,
+ "equivalence_class": [],
+ "evidence_sha": "5e626309d33f8ea9",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the safety sheet\naudience: editor\ntools: library=yes source=no\ndeadline: tight\nsections: sec1(3) sec2(2) sec3(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec3:ref": -2.66450572013855,
+   "restructure:sec2:order": -2.9462006092071533,
+   "revise:sec1:s1.1": -2.3648574352264404,
+   "revise:sec2:s2.2": -2.1979820728302,
+   "revise:sec3:s3.1": -2.5729854106903076
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -1.4456645250320435
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.16593334424564715,
+   "restructure:sec2:order": 0.14187739659192874,
+   "revise:sec1:s1.1": 0.23082525541027094,
+   "revise:sec2:s2.2": 0.26383053008425833,
+   "revise:sec3:s3.1": 0.1975334736678949
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.17258731118443796,
+   "restructure:sec2:order": 0.13021779192197727,
+   "revise:sec1:s1.1": 0.23288657794881054,
+   "revise:sec2:s2.2": 0.2751804068600741,
+   "revise:sec3:s3.1": 0.18912791208470014
+  },
+  "next_section": {
+   "sec1": 0.23288657794881054,
+   "sec2": 0.4053981987820514,
+   "sec3": 0.3617152232691381
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.17258731118443796,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.13021779192197727,
+   "revise": 0.6971948968935848,
+   "write": 0.0
+  },
+  "stop": 0.3686504365842478
+ },
+ "version": "PredictionV1"
+}

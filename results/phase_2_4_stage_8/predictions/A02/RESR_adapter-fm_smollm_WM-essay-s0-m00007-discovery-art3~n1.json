@@ -1,0 +1,82 @@
+{
+ "abstain": false,
+ "arm": "RESR",
+ "canonical_sha": "d5955be1419b0a8c",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 668,
+  "tokens_out": 0,
+  "wall_s": 2.824
+ },
+ "confidence": 0.3588669569454074,
+ "equivalence_class": [],
+ "evidence_sha": "994b6dd40308567c",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "recall": {
+   "confidence": 0.3588669569454074,
+   "dist": {
+    "habit_check": 0.23535069628107877,
+    "habit_write": 0.20447622843094476,
+    "maintained_cite": 0.2013061183425691,
+    "none": 0.3588669569454074
+   }
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.16666666666666666,
+   "check:sec3:s3.1": 0.16666666666666666,
+   "cite:sec3:ref": 0.16666666666666666,
+   "restructure:sec2:order": 0.16666666666666666,
+   "revise:sec1:s1.2": 0.16666666666666666,
+   "write:sec3:s3.1": 0.16666666666666666
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.16666666666666666,
+   "check:sec3:s3.1": 0.16666666666666666,
+   "cite:sec3:ref": 0.16666666666666666,
+   "restructure:sec2:order": 0.16666666666666666,
+   "revise:sec1:s1.2": 0.16666666666666666,
+   "write:sec3:s3.1": 0.16666666666666666
+  },
+  "next_section": {
+   "sec1": 0.3333333333333333,
+   "sec2": 0.16666666666666666,
+   "sec3": 0.5
+  },
+  "next_type": {
+   "check": 0.3333333333333333,
+   "cite": 0.16666666666666666,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.16666666666666666,
+   "revise": 0.16666666666666666,
+   "write": 0.16666666666666666
+  },
+  "resr": {
+   "habit_check": 0.23535069628107877,
+   "habit_write": 0.20447622843094476,
+   "maintained_cite": 0.2013061183425691,
+   "none": 0.3588669569454074
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

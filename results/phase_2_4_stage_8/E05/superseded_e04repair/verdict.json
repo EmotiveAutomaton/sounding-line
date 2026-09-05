@@ -1,0 +1,52 @@
+{
+ "card": "E05",
+ "cell_id": "E05",
+ "lane": "discovery",
+ "track": "expertise",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 47.9,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "DIR0 and the base weights through the generative readout on E03 and E04; the expected outcome is failure",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "Do the untrained readers fail the same gates?",
+ "reason": "untrained: {'DIR0|adapter:fm_qwen': {'passed': False, 'gap': -2.3891406811073255, 'ci': [-2.981183765934525, -1.8120174767469974], 'outcome': 'COUNTEREVIDENCE'}, 'DIR0|adapter:fm_smollm': {'passed': False, 'gap': -0.8935865834419218, 'ci': [-1.192834953153136, -0.5895702364489687], 'outcome': 'COUNTEREVIDENCE'}, 'FMB|adapter:fm_qwen': {'passed': False, 'gap': -1.7824429617432271, 'ci': [-2.6940435661370383, -0.9564807541817913], 'outcome': 'COUNTEREVIDENCE'}, 'FMB|adapter:fm_smollm': {'passed': False, 'gap': -2.009541538159074, 'ci': [-2.9863709857157836, -1.114368606884615], 'outcome': 'COUNTEREVIDENCE'}}; generation pass False",
+ "conditional_cells": {
+  "DIR0|adapter:fm_qwen": {
+   "outcome": "FAIL",
+   "point": -2.3891406811073255
+  },
+  "DIR0|adapter:fm_smollm": {
+   "outcome": "FAIL",
+   "point": -0.8935865834419218
+  },
+  "FMB|adapter:fm_qwen": {
+   "outcome": "FAIL",
+   "point": -1.7824429617432271
+  },
+  "FMB|adapter:fm_smollm": {
+   "outcome": "FAIL",
+   "point": -2.009541538159074
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E05\\metrics.json",
+    "sha256": "8afc4b473c29590ac6a32201d20517b1a29a1971d8b66944b22db26612cf6097"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E05\\cases.jsonl",
+    "sha256": "f189e218ccef08a0c933855b0385730c3995e91c3eb92f4f900c343eb18bb183"
+   }
+  },
+  "written_at": "2026-09-04T11:57:47"
+ }
+}

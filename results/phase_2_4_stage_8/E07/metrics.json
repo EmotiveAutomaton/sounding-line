@@ -1,0 +1,35 @@
+{
+ "card": "E07",
+ "lane": "discovery",
+ "written_at": "2026-09-04T10:57:29",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "n_worlds": 48,
+ "capped": false,
+ "usd_total": 0.257494,
+ "contrast": {
+  "gemini-3.5-flash-lite": {
+   "outcome": "COUNTEREVIDENCE",
+   "reason": "interval entirely below zero",
+   "point": -2.640772397354511,
+   "ci": [
+    -4.5239380245309295,
+    -0.9442116993654535
+   ],
+   "n_units": 41,
+   "threshold": 0.03,
+   "perm_p": 0.0010999450027498626,
+   "arm": "FR",
+   "rival": "DOM",
+   "n_arm": 41,
+   "n_rival": 41
+  }
+ },
+ "parse_rate": 0.9791666666666666
+}

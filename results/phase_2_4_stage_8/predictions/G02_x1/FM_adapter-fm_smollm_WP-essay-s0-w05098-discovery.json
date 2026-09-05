@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "fdb3ed607647ce1f",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 234,
+  "tokens_out": 0,
+  "wall_s": 4.602
+ },
+ "confidence": 0.1524340903160091,
+ "equivalence_class": [],
+ "evidence_sha": "7dedda94a1062845",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the survey method\naudience: self\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(3) sec2(3) sec3(2) sec4(3)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -3.8978521823883057,
+   "check:sec2:s2.1": -4.476020812988281,
+   "check:sec3:s3.1": -4.193350315093994,
+   "check:sec4:s4.1": -4.3027143478393555,
+   "cite:sec4:ref": -3.818394422531128,
+   "consult:sec1:src": -3.6458606719970703,
+   "fix:sec2:s2.1": -3.895658016204834,
+   "probe:sec1:tech": -5.365773677825928,
+   "restructure:sec3:order": -5.324726581573486,
+   "revise:sec1:s1.2": -3.929549217224121,
+   "revise:sec1:s1.3": -4.023299217224121,
+   "revise:sec4:s4.1": -4.138801097869873,
+   "revise:sec4:s4.2": -4.279426097869873,
+   "write:sec1:s1.1": -2.0314931869506836,
+   "write:sec2:s2.3": -2.1096107959747314,
+   "write:sec3:s3.1": -2.3351752758026123,
+   "write:sec3:s3.2": -2.2414252758026123,
+   "write:sec4:s4.1": -2.4749386310577393,
+   "write:sec4:s4.2": -2.1624386310577393
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.739356279373169
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.02292755800911378,
+   "check:sec2:s2.1": 0.012860639427778908,
+   "check:sec3:s3.1": 0.01646039315612928,
+   "check:sec4:s4.1": 0.015463351673521007,
+   "cite:sec4:ref": 0.029437019461392787,
+   "consult:sec1:src": 0.025194568096265357,
+   "fix:sec2:s2.1": 0.02519976456004018,
+   "probe:sec1:tech": 0.004172294806022141,
+   "restructure:sec3:order": 0.005336522655526763,
+   "revise:sec1:s1.2": 0.02502312977840679,
+   "revise:sec1:s1.3": 0.022783818937396658,
+   "revise:sec4:s4.1": 0.0202014011172186,
+   "revise:sec4:s4.2": 0.0178276739138144,
+   "write:sec1:s1.1": 0.15440849884779242,
+   "write:sec2:s2.3": 0.1362658016828547,
+   "write:sec3:s3.1": 0.11312132380562875,
+   "write:sec3:s3.2": 0.12231331455380699,
+   "write:sec4:s4.1": 0.09759980668669194,
+   "write:sec4:s4.2": 0.13340311883059852
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.02357939677067949,
+   "check:sec2:s2.1": 0.013226265748524924,
+   "check:sec3:s3.1": 0.017546862865519597,
+   "check:sec4:s4.1": 0.01572907872113884,
+   "cite:sec4:ref": 0.025529408761188286,
+   "consult:sec1:src": 0.03033690089721021,
+   "fix:sec2:s2.1": 0.02363119068715083,
+   "probe:sec1:tech": 0.00543278458327095,
+   "restructure:sec3:order": 0.005660424635565949,
+   "revise:sec1:s1.2": 0.022843720777193308,
+   "revise:sec1:s1.3": 0.020799444460106873,
+   "revise:sec4:s4.1": 0.01853061811105074,
+   "revise:sec4:s4.2": 0.016099680016737807,
+   "write:sec1:s1.1": 0.1524340903160091,
+   "write:sec2:s2.3": 0.14097952949491444,
+   "write:sec3:s3.1": 0.11251091274562389,
+   "write:sec3:s3.2": 0.12356906359098908,
+   "write:sec4:s4.1": 0.09783543807071424,
+   "write:sec4:s4.2": 0.13372518874641148
+  },
+  "next_section": {
+   "sec1": 0.25542633780446994,
+   "sec2": 0.1778369859305902,
+   "sec3": 0.2592872638376985,
+   "sec4": 0.3074494124272414
+  },
+  "next_type": {
+   "check": 0.07008160410586285,
+   "cite": 0.025529408761188286,
+   "consult": 0.03033690089721021,
+   "fix": 0.02363119068715083,
+   "probe": 0.00543278458327095,
+   "restructure": 0.005660424635565949,
+   "revise": 0.07827346336508872,
+   "write": 0.7610542229646622
+  },
+  "stop": 0.02688624777323452
+ },
+ "version": "PredictionV1"
+}

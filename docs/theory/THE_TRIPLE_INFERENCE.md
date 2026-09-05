@@ -69,7 +69,15 @@ rows live in the section that interprets them *(the single end-of-file ledger di
 
 *2026-09-01 walkthrough; spoken wording lightly reconstructed.*
 
-The current claim for the expert and friend cases is deliberately modest. Domain expertise and
+> To recreate, you have to have flawless knowledge of the maker, their context, their process, and
+> their expertise. Expertise is the largest part of the ability to recreate, not the whole of it. It
+> is the shared language that allows people to communicate complex ideas quickly.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+Expertise is therefore the largest part of the ability to recreate and never the whole of it: the
+shared language of a domain, which is what lets a reader run the domain's standard process against
+the artifact at all. The current claim for the expert and friend cases is deliberately modest. Domain expertise and
 maker familiarity are possible priors a reader may bring, **priors and entry points that may
 improve recovery**, never guaranteed recovery, and the closeness prior itself is untested (G59,
 canonical in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §1). What must be inferred on the
@@ -82,7 +90,7 @@ Translated into objects, before any claims about their shape:
 |---|---|---|
 | **proximal goal** `G` | what the maker is locally trying to accomplish | episode-local |
 | **process** `P`, realized as `tau` | the particular decisions and actions that produced the artifact | artifact-local |
-| **expertise** `K` | the maker's learned transition model, shaping reachable actions and expected consequences | cross-episode, domain-relative |
+| **expertise** `K` | the maker's learned transition model, shaping reachable actions and expected consequences; the shared language of a domain; the largest part, never the whole, of the ability to recreate | cross-episode, domain-relative |
 | **drives** `D` | currently active motivational pressures or primitive constraints | state-dependent |
 | **values** `V` | persistent organization of tradeoffs among goals, drives, and trajectories | longitudinal |
 | **external context** `C_ext` | commission, coercion, medium, audience, tools, and objective constraints | episode-local |
@@ -141,7 +149,10 @@ the first construction that varies them separately behind a boundary the reader 
 The table's load-bearing asymmetry, that the third target is a different timescale of thing,
 keeps the project's most consistent indirect evidence behind it: nothing has ever recovered
 values from one artifact and everything multi-work has found signal, which is exactly the
-pattern the timescale column predicts. Confidence: the timescale asymmetry is one bad test away,
+pattern the timescale column predicts. The expertise row now carries the walkthrough's sharpening: the
+shared language of a domain is the largest part of recreation and not the whole, so a reader that
+cannot produce the standard process has no ruler for the maker's share, which is what Stage 8's
+expertise gate measures before any reading claim. Confidence: the timescale asymmetry is one bad test away,
 resting on convergent nulls rather than a designed comparison; the identifiability constraints
 are untested, logic only.
 
@@ -215,6 +226,20 @@ correction, and informs later character and uptake judgments. Reconstruction acc
 character evaluation, and uptake are scored separately, so a preferred maker model cannot make
 itself appear more accurate.
 
+> The proximal goal is the reason you started spending resources to do this whole string of work in
+> the first place. You do not hold that main goal in attention the whole time; you slide through
+> sub-goals that stay in alignment with it. The proximal goal is the thing you are attending to, and
+> it is always hierarchically in support of the larger goal. It is rare to see a proximal goal change
+> midway through the creation of an artifact.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+The proximal goal is therefore an artifact-level purpose, the reason the resources were spent, and
+it is stable across the artifact; what moves are the subordinate goals that stay aligned with it.
+The K-family pull ordering that Stage 7 supplied and scored as the goal is a derived variable, a
+preference over move types that the purpose and the law produce together, and not the goal itself;
+Stage 8 rebuilds the goal as a purpose and scores the pull ordering beside it.
+
 On the output's shape *(the 2026-08-23 pass)*:
 
 > If you had a flawless reconstruction of the distribution of choices the maker would make, you
@@ -282,6 +307,31 @@ on a hidden continuation, next edit, stopping decision, or changed-context choic
 attempted to instrument this rule, but its hidden dependencies voided the interpretation
 (M-S6). The rule remains a prospective criterion, not a claim that language is the required
 representation of the maker state.
+
+> Predicting the next move largely captures whether you have a full picture of their expertise. What
+> remains are the creator's specific decisions, which you could only recreate with a truly flawless
+> mapping. You explain what you can as expected behavior, and then notice the things that defy your
+> expectations, which creates a demand for an explanation. Interesting is a part of the map you can
+> almost figure out. That is why mistakes are almost always interesting.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+Prediction of the next move tests expertise first; the maker is in the residue, the events the
+standard process does not expect, and interesting names the part of that residue a reader can
+almost solve (P-S8).
+
+> The maker's share is small by nature. Process, context, and constraints are the biggest piece. The
+> maker's main share is probably the proximal goal and the attendance thereof, and then records of
+> previous proximal goals that diverge from the standard process. It can be expanded by working in
+> spaces that are more artful, defined by the concentration of decisions one can put into a given
+> medium.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+The maker's share is small by nature and lives in the divergences from the standard process: the
+proximal goal, the attention paid to it, and the record of earlier goals that diverged. The artful
+gradient, from a diary through a painting to a sonnet, is the concentration of decisions a medium
+admits, and it enters Stage 8 as a construction variable rather than a claim (MS-S8).
 
 His account of the machinery, which is about reading *other people*, corrected after I wrote it as
 self-generation:
@@ -373,6 +423,8 @@ method. Each informs a part of this file; none is the claim.
 | **AC-S7** | At matched evidence and measured compute, structured computation (a realizer over proposed maker states) beats direct inference-time computation | **NARROWED (test, L348), 40 cold worlds, seven arms.** Every structured arm beats the direct reader (the joint arm +1.5 nats [+0.4, +2.5] pooled; the five conformance-reproduced rivals +1.4 to +2.1), and none beats the domain model: the direct reader is 2.1 nats under the prior, the arms that realize on every world sit at it or a nat under it, and the arms that rarely realize fall back to it; no arm's gain per unit of compute exceeds five hundredths of a nat; the two conformance cells of the day before say the same (L355, L356): the adaptive expansion adds factors at one rate whether a variable is missing or not and costs 0.22 nats against the joint reader where the world is complete, and the synthesized agent model validates on 28 of 30 worlds for one reader, beats the direct reader by 2.86 [1.50, 4.31] and sits 0.72 under the domain model, the effect the freeze selected for confirmation; B02 confirms it on untouched lineages against the direct reader (+3.59 [+2.34, +4.78] on Qwen, pooled +2.19) and finds it counterevidence against the domain model there (pooled −0.32 [−0.54, −0.06]), so the run's second confirmed effect reads: synthesis beats free text and not the prior |
 | **TT-S7** | The maker's record supports a dated present focus plus an uncertain historical mixture (two timescales), and the dates and order of earlier episodes inform a later choice beyond an aggregate profile | **NARROWED (test, L354; V04 to V06, programs only).** A mixture over dated episodes and a forced point date predict the present episode alike (−0.01 [−0.09, +0.07]); the dated, ordered, and aggregate views of earlier episodes predict a later episode alike (valid nulls); for a later costly choice the dated trajectory beats the domain model (+0.42 [+0.05, +0.84]) and the law-less solver (+0.48) because it carries the law, and beats the aggregate by five hundredths under the floor: the record's two timescales are not separated at this construction's drift, and its history informs through the law alone |
 | **J05-S5** | The standing preference inferred from one episode predicts the maker's choice in a second episode under a stated new goal, beyond habit, topic, and last-goal baselines | **COUNTEREVIDENCE (test, L280), 256 worlds.** −0.73 nats [−0.93, −0.55] against the topic baseline; the reader half a nat under uniform; the preference recovered in a third of worlds; the exact ceiling a quarter of a nat above uniform. Second contract (L293, two readers, the ceiling raised to 0.68 above uniform): −0.26 against the topic prior, both readers under uniform |
+| **P-S8** | Prediction of the next move tests expertise first; the maker's share is the residue, the events the standard process does not expect, and a reader that holds the standard process localizes its surprise on those events | **OPEN, the precondition met (test, L359).** Both trained readers pass the expertise gate, predicting the next move on held-out population and maker-free purpose worlds above the domain model (+0.19 [+0.003, +0.39] and +0.13 [−0.06, +0.31] nats; the band −0.05; the oracle's gap +0.52), with monotone training curves and the integrity block whole; the generation half FAILS on both (E04, L360): sampled from their own distribution the readers write a header-illegal move in a quarter to two fifths of their logs and sit under the population's 20th percentile, so no reader is admitted and the localization cells run as diagnosis; at four times the sample (L369) the gate passes wider (+0.24 [+0.13, +0.36] and +0.20 [+0.09, +0.32] on 306 units) and the anti-alignment tightens (AUROC 0.36 and 0.39 on 334 worlds); as diagnosis (L361) the trained gain vanishes on a law family the readers never saw (−0.005 and −0.018 nats against +0.19 and +0.13 on the seen family), so the installed expertise is family-specific; and the localization half, measured whole as diagnosis (L362), is ANTI-aligned: both readers rank the maker's divergent events as less surprising than ordinary ones (AUROC 0.34 and 0.37 against the domain model's 0.56) on every task shape, the true purpose supplied moves the residue by under 0.01, and the first explanation fires at the most divergent event under chance, so a surface-trained reader's surprise points away from the maker; the purpose route is inert on the same readers (L363): the proposed purpose executed through the reader's own forward model is null or worse against the plain reader (−0.03 and −0.08 nats) and the true purpose adds +0.04, while both readers sit a nat over the domain model on the tail events either way, the likelihood face of the same surface expertise, and at four times the sample the proposal HURTS on both readers (−0.09 and −0.06 nats with intervals below zero, L370) while the true purpose adds +0.05 to +0.07; and the pull ordering is the easier goal object for both readers by 0.24 and 0.15 of recall (L364), the frontier probe naming the purpose on one world in six and losing 1.8 nats using it; and the purpose readout does not track meaning (L365): recall survives a paraphrase and rises under a meaning change on both readers, so the purpose route on these readers is closed from every side |
+| **MS-S8** | The maker's share is small by nature and lives in the divergences from the standard process, mostly the proximal goal and the record of earlier goals that diverged; it widens along the artful gradient | **OPEN.** Stage 8's tail contrast (the events where the exact state diverges from the population process) and the artful-gradient construction (AG) measure the share's size per task shape before any reader is tested. As diagnosis on the surface-trained readers (L366), nothing accumulates across a maker's artifacts: three earlier artifacts in context move the fourth's surprise alignment by under 0.02 on both readers, every cell under the domain model; recall of the law and the residue is flat at chance across N and the maker model of three artifacts is worth nothing against the reader without it (L367), so the accumulation trunk closes as diagnosis |
 | **J03-S5** | Along the stream the reader's records become useful in a diagnostic order and a contradiction lowers its confidence | **NARROWED, descriptive (test, L264).** The plan record is reached last and most reliably; the preference record is never useful in two thirds of worlds; after an exact contradiction the reader is more confident and less right in 44 to 62 percent of worlds; on two readers with equifinal plans present the never-useful shares rise to 0.56 to 0.74 and overconfidence sits at half (L292) |
 
 **State of the section's claim.** The generative account remains a framework rather than a
@@ -462,7 +514,42 @@ realizer is the result and the reader is not, at this scale and construction fam
 the intended
 latent, or producing a coherent rationale, does not establish understanding, and neither
 does possessing the complete state; the maker-state realization requirement stands as an
-architectural proposal whose realizer, for these readers, is not the reader. Confidence: the
+architectural proposal whose realizer, for these readers, is not the reader. The walkthrough after
+Stage 7 rereads that result rather than softening it: the reader is the realizer, reading is running
+one's own forward model of the standard process and attending to where the artifact departs from it,
+and none of the Stage 7 readers held that process in the first place, so what they lacked was
+expertise before it was anything about the maker; prediction tests expertise first and the maker is
+in the residue (P-S8), which is small by nature and mostly the purpose and the record of earlier
+purposes that diverged (MS-S8), both open; the reader that passes the expertise gate now exists (both
+trained readers predict the standard process above the domain model, L359), and the same readers cannot write a legal log from a header (L360), so the precondition is half met:
+prediction and production come apart, and the localization half of P-S8 is measured as diagnosis;
+the first diagnosis (L361) says the installed expertise is the trained family's and not the process's,
+since an unseen law family returns both readers to the domain model's level, and that one reader names
+the purpose by the affordance route on half the worlds while neither holds two purposes open where the
+prefix leaves two. The localization block then read whole (L362): the surprise of a reader trained on the
+population's logs is anti-aligned with the maker's departures, ranking them as the least surprising events
+in the log, and the purpose handed to it does not open the residue, which is what a surface-trained
+expertise predicts and what a process-holding expertise would not. The purpose route confirms the
+reading from the other side (L363): a purpose the reader proposes and executes through its own forward
+model buys nothing against the reader without it, and the truth buys almost nothing, while the reader's
+nat over the domain model on the tail events stands with or without any purpose, so the advantage the
+training bought is the family's surface at the divergent events and not an inference about the maker.
+Of the two goal objects the stage carries, the pull ordering is the more legible to both readers by a
+wide margin (L364), which is expected of surface expertise: the pull shows in the log's section traffic,
+the purpose only in tool-gated choices, so the goal object to carry forward is the ordering. The
+purpose readout does not even track the artifact's meaning, since a meaning change raises recall on
+both readers (L365), which closes the purpose route on surface-trained readers from every side. And the
+record of a maker's earlier artifacts adds nothing on the same readers (L366): three earlier logs in
+context leave the fourth's reading where it was, so the accumulation half of the maker's share waits, like
+the rest, on an expertise that holds the process rather than the surface; the rest of that trunk agrees
+(L367): law and residue recall stay at chance whatever the number of earlier artifacts, and a maker model
+built from three of them predicts a new artifact no better than the reader without it. The ladder's
+first rung holds both ends at four times the sample (L369): the prediction gain tightens and the
+anti-alignment tightens with it, so the two are one fact about what the training installed. The purpose
+route closes with a sign at the same rung (L370): a purpose the reader proposes and executes costs it
+prediction on both readers, since the purpose it names is wrong more often than not, and the true purpose
+returns little.
+Confidence: the
 Stage-5 reader boundary is one bad test away; the Stage-7 state-use boundary is one bad test
 away (two readers, one construction family; the size ladder run on two families finds no size to 3B that uses the state and the 9B route within noise of the domain model); the Stage-6
 architecture interpretation is instrument-dead.
@@ -500,6 +587,15 @@ And entry is finer-grained than three:
 
 > Your expertise can be applied at multiple layers of the problem. **You kind of find the piece that
 > you already understand and you work your way out from there.**
+
+> Several possible makers is part of what reading is. You are comparing convergent solutions to
+> explain the irregularities you are seeing, all of them, as a total.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+Holding several possible makers at once is part of reading rather than a failure to decide: the
+irregularities are explained as a total by comparing convergent candidate makers, which is why an
+equivalence class kept alive until a diagnostic event closes it is the right shape for the output.
 
 *"I agree that the top layer carries goal, but let's not assume it's the only layer that does so."*
 An instrument that assumes exactly three levels, or goal only at the top, assumes more than the

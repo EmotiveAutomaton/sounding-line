@@ -1,0 +1,72 @@
+{
+ "card": "E06",
+ "cell_id": "E06",
+ "lane": "discovery",
+ "track": "expertise",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 28.24,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "supplied true against false context on PU worlds; the theory predicts a sign difference; the Stage 4 frame-not-content comparator is the rival",
+ "exec": "COMPLETE",
+ "outcome": "INCONCLUSIVE",
+ "primary": "After the gate, does a true context help and a false context cost?",
+ "reason": "interval includes zero and cannot exclude a useful benefit; reader adapter:fm_qwen; tail INCONCLUSIVE 0.16556689812293218; true vs DOM 0.12330553324993529; false vs DOM 0.09809252512439814",
+ "point": 0.06300253159090093,
+ "ci": [
+  -0.025395745703051066,
+  0.17292905170505052
+ ],
+ "n_units": 65,
+ "tail_point": 0.16556689812293218,
+ "tail_ci": [
+  -0.0523338274097746,
+  0.4845566560735087
+ ],
+ "tail_outcome": "INCONCLUSIVE",
+ "conditional_cells": {
+  "whole|adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.06300253159090093
+  },
+  "whole|adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.04839356176936681
+  },
+  "whole|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.05569804668013386
+  },
+  "tail|adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.16556689812293218
+  },
+  "tail|adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.08762493814311526
+  },
+  "tail|pooled": {
+   "outcome": "INCONCLUSIVE",
+   "point": 0.1265959181330237
+  }
+ },
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E06\\metrics.json",
+    "sha256": "790472814ca85604d915ea37474572755a22949743b156e9b0e274ed173f1948"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\E06\\cases.jsonl",
+    "sha256": "1a6a026f214cccec72c574292265b73e4ee1a0c756d2d654705e5552db5a3e1f"
+   }
+  },
+  "written_at": "2026-09-04T12:26:03"
+ }
+}

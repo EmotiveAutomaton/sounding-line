@@ -1,0 +1,84 @@
+{
+ "abstain": false,
+ "arm": "RESR",
+ "canonical_sha": "e4283b759fdd122d",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 336,
+  "tokens_out": 0,
+  "wall_s": 3.383
+ },
+ "confidence": 0.5579144228184882,
+ "equivalence_class": [],
+ "evidence_sha": "c26b835b17a731cb",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "recall": {
+   "confidence": 0.5579144228184882,
+   "dist": {
+    "habit_check": 0.0022800688641844537,
+    "habit_write": 0.5579144228184882,
+    "maintained_cite": 0.0053013189394577895,
+    "none": 0.4345041893778695
+   }
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.14285714285714285,
+   "cite:sec3:ref": 0.14285714285714285,
+   "fix:sec2:s2.1": 0.14285714285714285,
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "revise:sec1:s1.1": 0.14285714285714285,
+   "revise:sec2:s2.3": 0.14285714285714285
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.14285714285714285,
+   "cite:sec3:ref": 0.14285714285714285,
+   "fix:sec2:s2.1": 0.14285714285714285,
+   "probe:sec1:tech": 0.14285714285714285,
+   "restructure:sec2:order": 0.14285714285714285,
+   "revise:sec1:s1.1": 0.14285714285714285,
+   "revise:sec2:s2.3": 0.14285714285714285
+  },
+  "next_section": {
+   "sec1": 0.2857142857142857,
+   "sec2": 0.5714285714285714,
+   "sec3": 0.14285714285714285
+  },
+  "next_type": {
+   "check": 0.14285714285714285,
+   "cite": 0.14285714285714285,
+   "consult": 0.0,
+   "fix": 0.14285714285714285,
+   "probe": 0.14285714285714285,
+   "restructure": 0.14285714285714285,
+   "revise": 0.2857142857142857,
+   "write": 0.0
+  },
+  "resr": {
+   "habit_check": 0.0022800688641844537,
+   "habit_write": 0.5579144228184882,
+   "maintained_cite": 0.0053013189394577895,
+   "none": 0.4345041893778695
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

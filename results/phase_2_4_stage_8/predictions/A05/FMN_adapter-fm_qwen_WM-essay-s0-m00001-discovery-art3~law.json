@@ -1,0 +1,107 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "bd6dde9ea47e524d",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1650,
+  "tokens_out": 0,
+  "wall_s": 5.679
+ },
+ "confidence": 0.22404174158501694,
+ "equivalence_class": [],
+ "evidence_sha": "d3994125342a1aab",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the glaze recipe\naudience: peer\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(3) sec2(3) sec3(3) sec4(3)\nmaker: The maker is strongest at consult and cite, weakest at restructure and revise; of the skilled moves, the maker can carry out probe, fix; after consult the maker tends to cite, after check the maker tends to consult; choices are steady and an episode usually runs about 12 moves.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec1:s1.1": -3.6016218662261963,
+   "check:sec2:s2.1": -4.023495197296143,
+   "check:sec3:s3.1": -3.710996627807617,
+   "check:sec4:s4.1": -3.804746389389038,
+   "cite:sec4:ref": -3.512347936630249,
+   "consult:sec1:src": -3.559035062789917,
+   "fix:sec2:s2.1": -3.0572609901428223,
+   "probe:sec1:tech": -4.322893142700195,
+   "restructure:sec3:order": -4.139756202697754,
+   "revise:sec1:s1.3": -3.912653923034668,
+   "revise:sec3:s3.1": -3.776890516281128,
+   "write:sec1:s1.1": -1.6586898565292358,
+   "write:sec2:s2.1": -1.9762681722640991,
+   "write:sec2:s2.2": -1.9450181722640991,
+   "write:sec3:s3.3": -2.220411777496338
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -3.5103671550750732
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.031686049426637254,
+   "check:sec2:s2.1": 0.020780248274291233,
+   "check:sec3:s3.1": 0.0288504831926435,
+   "check:sec4:s4.1": 0.025460462055576817,
+   "cite:sec4:ref": 0.03465928028893874,
+   "consult:sec1:src": 0.033599943111510336,
+   "fix:sec2:s2.1": 0.05514294732004209,
+   "probe:sec1:tech": 0.015798613452725593,
+   "restructure:sec3:order": 0.018680022252097448,
+   "revise:sec1:s1.3": 0.022862808533220338,
+   "revise:sec3:s3.1": 0.027248235728445834,
+   "write:sec1:s1.1": 0.2200408926775548,
+   "write:sec2:s2.1": 0.16524708128904075,
+   "write:sec2:s2.2": 0.17049258672843612,
+   "write:sec3:s3.3": 0.1294503456688391
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.03210142337841003,
+   "check:sec2:s2.1": 0.021052662571558554,
+   "check:sec3:s3.1": 0.02877553680177071,
+   "check:sec4:s4.1": 0.026200430658953427,
+   "cite:sec4:ref": 0.03509905828958602,
+   "consult:sec1:src": 0.03349804820497773,
+   "fix:sec2:s2.1": 0.05532701172581191,
+   "probe:sec1:tech": 0.01560558861551375,
+   "restructure:sec3:order": 0.01874198200743086,
+   "revise:sec1:s1.3": 0.023520404343334637,
+   "revise:sec3:s3.1": 0.02694052668544275,
+   "write:sec1:s1.1": 0.22404174158501694,
+   "write:sec2:s2.1": 0.16308215057794187,
+   "write:sec2:s2.2": 0.16825893373956752,
+   "write:sec3:s3.3": 0.12775450081468329
+  },
+  "next_section": {
+   "sec1": 0.3287672061272531,
+   "sec2": 0.4077207586148799,
+   "sec3": 0.20221254630932758,
+   "sec4": 0.06129948894853944
+  },
+  "next_type": {
+   "check": 0.10813005341069272,
+   "cite": 0.03509905828958602,
+   "consult": 0.03349804820497773,
+   "fix": 0.05532701172581191,
+   "probe": 0.01560558861551375,
+   "restructure": 0.01874198200743086,
+   "revise": 0.050460931028777384,
+   "write": 0.6831373267172097
+  },
+  "stop": 0.033973836757989574
+ },
+ "version": "PredictionV1"
+}

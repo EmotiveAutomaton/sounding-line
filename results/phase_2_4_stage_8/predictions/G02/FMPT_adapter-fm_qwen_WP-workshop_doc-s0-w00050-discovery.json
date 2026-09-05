@@ -1,0 +1,76 @@
+{
+ "abstain": false,
+ "arm": "FMPT",
+ "canonical_sha": "8f7377ab57cd8bae",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 370,
+  "tokens_out": 0,
+  "wall_s": 3.712
+ },
+ "confidence": 0.9055297446116082,
+ "equivalence_class": [],
+ "evidence_sha": "93d11335cd795632",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the tool inventory\naudience: editor\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(2) sec2(3) sec3(2)\ngoal: document\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec3:ref": -3.92960524559021,
+   "probe:sec1:tech": -3.7109086513519287,
+   "restructure:sec2:order": -5.226598262786865,
+   "revise:sec2:s2.1": -3.6399474143981934,
+   "write:sec2:s2.2": -0.3203165829181671
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -2.366966962814331
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec3:ref": 0.02408938981872466,
+   "probe:sec1:tech": 0.030929331349814595,
+   "restructure:sec2:order": 0.006793844799935439,
+   "revise:sec2:s2.1": 0.03426477667246078,
+   "write:sec2:s2.2": 0.9039226573590644
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec3:ref": 0.02451368328162126,
+   "probe:sec1:tech": 0.030506142512104047,
+   "restructure:sec2:order": 0.006700877217025679,
+   "revise:sec2:s2.1": 0.032749552377640885,
+   "write:sec2:s2.2": 0.9055297446116082
+  },
+  "next_section": {
+   "sec1": 0.030506142512104047,
+   "sec2": 0.9449801742062748,
+   "sec3": 0.02451368328162126
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.02451368328162126,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.030506142512104047,
+   "restructure": 0.006700877217025679,
+   "revise": 0.032749552377640885,
+   "write": 0.9055297446116082
+  },
+  "stop": 0.10471633087730631
+ },
+ "version": "PredictionV1"
+}

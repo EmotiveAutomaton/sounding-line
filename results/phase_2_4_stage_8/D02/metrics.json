@@ -1,0 +1,111 @@
+{
+ "card": "D02",
+ "lane": "discovery",
+ "written_at": "2026-09-04T18:32:06",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "by_shape": {
+  "adapter:fm_qwen|essay": {
+   "point": -0.1837689995870143,
+   "lo": -0.27048812579373244,
+   "hi": -0.09747663462966773,
+   "n_units": 32,
+   "n_boot": 2000,
+   "mean_reader": 0.3713902655504218,
+   "mean_dom": 0.5551592651374361,
+   "n_worlds": 33,
+   "n_scored": 32,
+   "outcome": "INFERIOR"
+  },
+  "adapter:fm_qwen|free": {
+   "point": -0.22497531403781404,
+   "lo": -0.3421866906241906,
+   "hi": -0.11729624542124543,
+   "n_units": 24,
+   "n_boot": 2000,
+   "mean_reader": 0.3539481062918563,
+   "mean_dom": 0.5789234203296704,
+   "n_worlds": 31,
+   "n_scored": 24,
+   "outcome": "INFERIOR"
+  },
+  "adapter:fm_qwen|structured": {
+   "point": -0.2425654514330985,
+   "lo": -0.34070899362075835,
+   "hi": -0.1436077079238844,
+   "n_units": 30,
+   "n_boot": 2000,
+   "mean_reader": 0.3045256952560874,
+   "mean_dom": 0.5470911466891859,
+   "n_worlds": 32,
+   "n_scored": 30,
+   "outcome": "INFERIOR"
+  },
+  "adapter:fm_smollm|essay": {
+   "point": -0.16774431412643728,
+   "lo": -0.2586190730480712,
+   "hi": -0.0789378324902222,
+   "n_units": 32,
+   "n_boot": 2000,
+   "mean_reader": 0.3874149510109988,
+   "mean_dom": 0.5551592651374361,
+   "n_worlds": 33,
+   "n_scored": 32,
+   "outcome": "INFERIOR"
+  },
+  "adapter:fm_smollm|free": {
+   "point": -0.20170266654641655,
+   "lo": -0.3226453812391312,
+   "hi": -0.08569113178488179,
+   "n_units": 24,
+   "n_boot": 2000,
+   "mean_reader": 0.37722075378325376,
+   "mean_dom": 0.5789234203296704,
+   "n_worlds": 31,
+   "n_scored": 24,
+   "outcome": "INFERIOR"
+  },
+  "adapter:fm_smollm|structured": {
+   "point": -0.20926925244327205,
+   "lo": -0.30238333833922065,
+   "hi": -0.11495917662584329,
+   "n_units": 30,
+   "n_boot": 2000,
+   "mean_reader": 0.33782189424591386,
+   "mean_dom": 0.5470911466891859,
+   "n_worlds": 32,
+   "n_scored": 30,
+   "outcome": "INFERIOR"
+  }
+ },
+ "construction_tail_gap_by_shape": {
+  "structured": {
+   "oracle_minus_dom_nats_at_cut": 0.22493763154219826,
+   "n": 16,
+   "tau": 0.12532441163337055,
+   "share_tail_events": 0.6821192052980133
+  },
+  "essay": {
+   "oracle_minus_dom_nats_at_cut": 0.6109372588238908,
+   "n": 16,
+   "tau": 0.13892605370732533,
+   "share_tail_events": 0.6605922551252847
+  },
+  "free": {
+   "oracle_minus_dom_nats_at_cut": 0.4669071266242675,
+   "n": 15,
+   "tau": 0.16906763461601523,
+   "share_tail_events": 0.6626984126984127
+  }
+ },
+ "monotone_free_to_structured": {
+  "adapter:fm_qwen": false,
+  "adapter:fm_smollm": false
+ }
+}

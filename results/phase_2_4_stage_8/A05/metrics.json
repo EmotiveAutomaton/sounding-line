@@ -1,0 +1,475 @@
+{
+ "card": "A05",
+ "lane": "discovery",
+ "written_at": "2026-09-05T01:01:36",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "gain_change_when_supplied": {
+  "law": {
+   "whole": {
+    "adapter:fm_qwen": {
+     "outcome": "INCONCLUSIVE",
+     "reason": "interval includes zero and cannot exclude a useful benefit",
+     "point": 0.009384238227339664,
+     "ci": [
+      -0.05997012350924629,
+      0.08470669059307868
+     ],
+     "n_units": 35,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.8135093245337733,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 35,
+     "n_rival": 35
+    },
+    "adapter:fm_smollm": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.10103673157206194,
+     "ci": [
+      -0.2142980407878236,
+      0.008250470193358311
+     ],
+     "n_units": 35,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.0840957952102395,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 35,
+     "n_rival": 35
+    },
+    "pooled": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.04582624667236113,
+     "ci": [
+      -0.11213352536642952,
+      0.021793034121048483
+     ],
+     "n_units": 70,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.1961401929903505,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "note": "pooled after the conditional cells"
+    }
+   },
+   "tail": {
+    "adapter:fm_qwen": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.03246598513232277,
+     "ci": [
+      -0.1282225412816022,
+      0.06163994507160612
+     ],
+     "n_units": 6,
+     "threshold": 0.3460337577741438,
+     "perm_p": 0.5366231688415579,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 6,
+     "n_rival": 6
+    },
+    "adapter:fm_smollm": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.1045201304211788,
+     "ci": [
+      -0.2641317471180363,
+      0.05509148627567869
+     ],
+     "n_units": 6,
+     "threshold": 0.3460337577741438,
+     "perm_p": 0.31488425578721063,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 6,
+     "n_rival": 6
+    },
+    "pooled": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.06849305777675078,
+     "ci": [
+      -0.16563785427179112,
+      0.027683497881685584
+     ],
+     "n_units": 12,
+     "threshold": 0.3460337577741438,
+     "perm_p": 0.20513974301284935,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "note": "pooled after the conditional cells"
+    }
+   },
+   "floor_whole": 0.07008562028497212,
+   "floor_tail": 0.3460337577741438,
+   "gap_whole": {
+    "gap": 0.3504281014248606,
+    "n": 35,
+    "oracle_mean": -2.009615650806824,
+    "dom_mean": -2.3600437522316846
+   },
+   "gap_tail": {
+    "gap": 1.730168788870719,
+    "n": 6,
+    "oracle_mean": -0.8494332312227252,
+    "dom_mean": -2.579602020093444
+   }
+  },
+  "residue": {
+   "whole": {
+    "adapter:fm_qwen": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.018761255101807914,
+     "ci": [
+      -0.04633178393817845,
+      0.008945440450548209
+     ],
+     "n_units": 35,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.22288885555722213,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 35,
+     "n_rival": 35
+    },
+    "adapter:fm_smollm": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.032630851630723094,
+     "ci": [
+      -0.08048040807241291,
+      0.015156608688087896
+     ],
+     "n_units": 35,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.2024898755062247,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 35,
+     "n_rival": 35
+    },
+    "pooled": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.025696053366265504,
+     "ci": [
+      -0.05471396516573895,
+      0.0022202237145544346
+     ],
+     "n_units": 70,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.0815459227038648,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "note": "pooled after the conditional cells"
+    }
+   },
+   "tail": {
+    "adapter:fm_qwen": {
+     "outcome": "COUNTEREVIDENCE",
+     "reason": "interval entirely below zero",
+     "point": -0.04497296260481038,
+     "ci": [
+      -0.0830640562015617,
+      -0.00020866072601270305
+     ],
+     "n_units": 6,
+     "threshold": 0.3460337577741438,
+     "perm_p": 0.12594370281485925,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 6,
+     "n_rival": 6
+    },
+    "adapter:fm_smollm": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.007493641862425275,
+     "ci": [
+      -0.09451661425919437,
+      0.07660087735929089
+     ],
+     "n_units": 6,
+     "threshold": 0.3460337577741438,
+     "perm_p": 0.872606369681516,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 6,
+     "n_rival": 6
+    },
+    "pooled": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.02623330223361783,
+     "ci": [
+      -0.07730802338710636,
+      0.02592187389042423
+     ],
+     "n_units": 12,
+     "threshold": 0.3460337577741438,
+     "perm_p": 0.36043197840107993,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "note": "pooled after the conditional cells"
+    }
+   },
+   "floor_whole": 0.07008562028497212,
+   "floor_tail": 0.3460337577741438,
+   "gap_whole": {
+    "gap": 0.3504281014248606,
+    "n": 35,
+    "oracle_mean": -2.009615650806824,
+    "dom_mean": -2.3600437522316846
+   },
+   "gap_tail": {
+    "gap": 1.730168788870719,
+    "n": 6,
+    "oracle_mean": -0.8494332312227252,
+    "dom_mean": -2.579602020093444
+   }
+  },
+  "purpose": {
+   "whole": {
+    "adapter:fm_qwen": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": 0.015665189417412347,
+     "ci": [
+      -0.012460292114862237,
+      0.04633482502727638
+     ],
+     "n_units": 35,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.3322833858307085,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 35,
+     "n_rival": 35
+    },
+    "adapter:fm_smollm": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": 0.004872971598958444,
+     "ci": [
+      -0.0432248137644413,
+      0.06297570698273125
+     ],
+     "n_units": 35,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.8631068446577671,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 35,
+     "n_rival": 35
+    },
+    "pooled": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": 0.010269080508185396,
+     "ci": [
+      -0.01934957297118986,
+      0.042514317193446206
+     ],
+     "n_units": 70,
+     "threshold": 0.07008562028497212,
+     "perm_p": 0.5203239838008099,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "note": "pooled after the conditional cells"
+    }
+   },
+   "tail": {
+    "adapter:fm_qwen": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.029476499805552836,
+     "ci": [
+      -0.07354557358864618,
+      0.016716513469274052
+     ],
+     "n_units": 6,
+     "threshold": 0.3460337577741438,
+     "perm_p": 0.2871856407179641,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 6,
+     "n_rival": 6
+    },
+    "adapter:fm_smollm": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.0017715147222238474,
+     "ci": [
+      -0.11635301351078038,
+      0.11922789081279946
+     ],
+     "n_units": 6,
+     "threshold": 0.3460337577741438,
+     "perm_p": 1.0,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "n_arm": 6,
+     "n_rival": 6
+    },
+    "pooled": {
+     "outcome": "VALID_NULL",
+     "reason": "interval includes zero and excludes a practically useful benefit",
+     "point": -0.015624007263888342,
+     "ci": [
+      -0.07583896380756194,
+      0.0561118113069532
+     ],
+     "n_units": 12,
+     "threshold": 0.3460337577741438,
+     "perm_p": 0.6538173091345433,
+     "arm": "FMNX",
+     "rival": "FMN",
+     "note": "pooled after the conditional cells"
+    }
+   },
+   "floor_whole": 0.07008562028497212,
+   "floor_tail": 0.3460337577741438,
+   "gap_whole": {
+    "gap": 0.3504281014248606,
+    "n": 35,
+    "oracle_mean": -2.009615650806824,
+    "dom_mean": -2.3600437522316846
+   },
+   "gap_tail": {
+    "gap": 1.730168788870719,
+    "n": 6,
+    "oracle_mean": -0.8494332312227252,
+    "dom_mean": -2.579602020093444
+   }
+  }
+ },
+ "note": "a factor whose supply ADDS nothing to FM+3 is one the earlier artifacts already carried; a factor that adds is one they did not",
+ "whole": {
+  "adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.2072076475279264,
+   "ci": [
+    -0.07691956066708432,
+    0.5273242107786383
+   ],
+   "n_units": 35,
+   "threshold": 0.07008562028497212,
+   "perm_p": 0.20193990300484976,
+   "arm": "FMN",
+   "rival": "DOM",
+   "n_arm": 35,
+   "n_rival": 35
+  },
+  "adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.13283876128233552,
+   "ci": [
+    -0.16644329213990067,
+    0.4424918122410622
+   ],
+   "n_units": 35,
+   "threshold": 0.07008562028497212,
+   "perm_p": 0.4204289785510724,
+   "arm": "FMN",
+   "rival": "DOM",
+   "n_arm": 35,
+   "n_rival": 35
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": 0.170023204405131,
+   "ci": [
+    -0.13815208895547637,
+    0.47816453895576644
+   ],
+   "n_units": 35,
+   "threshold": 0.07008562028497212,
+   "perm_p": 0.2875356232188391,
+   "arm": "FMN",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "tail": {
+  "adapter:fm_qwen": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.5599736083661113,
+   "ci": [
+    1.1480773630367693,
+    2.0337234847811967
+   ],
+   "n_units": 6,
+   "threshold": 0.3460337577741438,
+   "perm_p": 0.03169841507924604,
+   "arm": "FMN",
+   "rival": "DOM",
+   "n_arm": 6,
+   "n_rival": 6
+  },
+  "adapter:fm_smollm": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.4497049727080924,
+   "ci": [
+    0.9378362038803875,
+    1.875448626924677
+   ],
+   "n_units": 6,
+   "threshold": 0.3460337577741438,
+   "perm_p": 0.030498475076246187,
+   "arm": "FMN",
+   "rival": "DOM",
+   "n_arm": 6,
+   "n_rival": 6
+  },
+  "pooled": {
+   "outcome": "SUPPORT_CANDIDATE",
+   "reason": "directional support at or above the frozen threshold",
+   "point": 1.5048392905371017,
+   "ci": [
+    1.0711395773925692,
+    1.9390230436862026
+   ],
+   "n_units": 6,
+   "threshold": 0.3460337577741438,
+   "perm_p": 0.02984850757462127,
+   "arm": "FMN",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "floors": {
+  "whole": 0.07008562028497212,
+  "tail": 0.3460337577741438
+ },
+ "gaps": {
+  "whole": {
+   "gap": 0.3504281014248606,
+   "n": 35,
+   "oracle_mean": -2.009615650806824,
+   "dom_mean": -2.3600437522316846
+  },
+  "tail": {
+   "gap": 1.730168788870719,
+   "n": 6,
+   "oracle_mean": -0.8494332312227252,
+   "dom_mean": -2.579602020093444
+  }
+ },
+ "degenerate_worlds": 12
+}

@@ -1,0 +1,133 @@
+{
+ "abstain": false,
+ "arm": "FMP",
+ "canonical_sha": "b5e4699e1c5028cf",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 5,
+  "model_calls": 3,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 380,
+  "tokens_out": 0,
+  "wall_s": 4.113
+ },
+ "confidence": 0.22106609440848396,
+ "equivalence_class": [
+  "explore"
+ ],
+ "evidence_sha": "504d69101f05ff13",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the lathe manual\naudience: editor\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(2) sec2(3) sec3(2)\ngoal: explore\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec2:s2.1": -1.7456120252609253,
+   "cite:sec3:ref": -3.44893741607666,
+   "consult:sec1:src": -3.3863964080810547,
+   "fix:sec2:s2.1": -2.4813666343688965,
+   "probe:sec1:tech": -5.091183662414551,
+   "restructure:sec2:order": -6.37219762802124,
+   "revise:sec2:s2.1": -4.943894386291504,
+   "revise:sec2:s2.2": -4.990769386291504,
+   "revise:sec2:s2.3": -4.975144386291504,
+   "write:sec1:s1.2": -1.5583323240280151,
+   "write:sec2:s2.1": -2.266862154006958,
+   "write:sec2:s2.2": -2.329362154006958,
+   "write:sec2:s2.3": -2.298112154006958,
+   "write:sec3:s3.1": -2.4333341121673584
+  },
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.9674272306844017,
+   "equivalence_class": [
+    "explore"
+   ],
+   "purpose": {
+    "document": 0.0018675740242046145,
+    "explore": 0.9674272306844017,
+    "persuade": 0.0010313723307278102,
+    "teach": 0.029673822960665754
+   },
+   "raw": {
+    "document": 0.0017804667144174812,
+    "explore": 0.9223045301180215,
+    "persuade": 0.0009832671054707566,
+    "teach": 0.028289777747087616,
+    "unknown": 0.04664195831500251
+   },
+   "unknown": 0.04664195831500251,
+   "weights": "adapted"
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -4.450106143951416
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.19784941598295677,
+   "cite:sec3:ref": 0.031794141201989895,
+   "consult:sec1:src": 0.030814711374626436,
+   "fix:sec2:s2.1": 0.073609624541094,
+   "probe:sec1:tech": 0.00585402962549691,
+   "restructure:sec2:order": 0.001847899863945414,
+   "revise:sec2:s2.1": 0.006722580962981557,
+   "revise:sec2:s2.2": 0.006414731567394568,
+   "revise:sec2:s2.3": 0.006515748890779711,
+   "write:sec1:s1.2": 0.22642144954491306,
+   "write:sec2:s2.1": 0.10975301518968787,
+   "write:sec2:s2.2": 0.10310341615235862,
+   "write:sec2:s2.3": 0.1063762699058325,
+   "write:sec3:s3.1": 0.0929229651959428
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.18331060796013168,
+   "cite:sec3:ref": 0.0333766526960887,
+   "consult:sec1:src": 0.035530718865900555,
+   "fix:sec2:s2.1": 0.0878321332635239,
+   "probe:sec1:tech": 0.0064598777155920415,
+   "restructure:sec2:order": 0.0017942667138856664,
+   "revise:sec2:s2.1": 0.007484989868250114,
+   "revise:sec2:s2.2": 0.007142227226996095,
+   "revise:sec2:s2.3": 0.007254700940026723,
+   "write:sec1:s1.2": 0.221066094408484,
+   "write:sec2:s2.1": 0.1088457667825415,
+   "write:sec2:s2.2": 0.1022511351474686,
+   "write:sec2:s2.3": 0.10549693459770051,
+   "write:sec3:s3.1": 0.09215389381340996
+  },
+  "next_section": {
+   "sec1": 0.2630566909899765,
+   "sec2": 0.6114127625005248,
+   "sec3": 0.12553054650949863
+  },
+  "next_type": {
+   "check": 0.18331060796013166,
+   "cite": 0.03337665269608869,
+   "consult": 0.03553071886590055,
+   "fix": 0.08783213326352389,
+   "probe": 0.006459877715592041,
+   "restructure": 0.0017942667138856662,
+   "revise": 0.02188191803527293,
+   "write": 0.6298138247496046
+  },
+  "purpose": {
+   "document": 0.0018675740242046148,
+   "explore": 0.9674272306844018,
+   "persuade": 0.0010313723307278104,
+   "teach": 0.029673822960665758
+  },
+  "stop": 0.012115653094379975
+ },
+ "version": "PredictionV1"
+}

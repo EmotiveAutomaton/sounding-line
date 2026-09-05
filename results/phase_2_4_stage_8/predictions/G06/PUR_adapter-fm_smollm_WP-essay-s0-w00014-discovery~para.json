@@ -1,0 +1,117 @@
+{
+ "abstain": true,
+ "arm": "PUR",
+ "canonical_sha": "73592501ba2993bf",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 266,
+  "tokens_out": 0,
+  "wall_s": 3.153
+ },
+ "confidence": 0.3285590822158457,
+ "equivalence_class": [
+  "explore",
+  "persuade",
+  "teach"
+ ],
+ "evidence_sha": "ac82e1f0b56550b4",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": true,
+   "confidence": 0.3285590822158457,
+   "equivalence_class": [
+    "explore",
+    "persuade",
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.12667082538502578,
+    "explore": 0.2723850461995642,
+    "persuade": 0.2723850461995642,
+    "teach": 0.3285590822158457
+   },
+   "raw": {
+    "document": 0.06394621956091125,
+    "explore": 0.1375059641116488,
+    "persuade": 0.1375059641116488,
+    "teach": 0.16586385338726656,
+    "unknown": 0.4951779988285245
+   },
+   "unknown": 0.4951779988285245,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:parta:u1-1": 0.07142857142857142,
+   "check:partb:u2-1": 0.07142857142857142,
+   "check:partc:u3-1": 0.07142857142857142,
+   "cite:partc:ref": 0.07142857142857142,
+   "consult:parta:src": 0.07142857142857142,
+   "fix:partb:u2-1": 0.07142857142857142,
+   "probe:parta:tech": 0.07142857142857142,
+   "restructure:partb:order": 0.07142857142857142,
+   "revise:partb:u2-3": 0.07142857142857142,
+   "revise:partc:u3-2": 0.07142857142857142,
+   "revise:partc:u3-3": 0.07142857142857142,
+   "write:parta:u1-2": 0.07142857142857142,
+   "write:parta:u1-3": 0.07142857142857142,
+   "write:partc:u3-3": 0.07142857142857142
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:parta:u1-1": 0.07142857142857142,
+   "check:partb:u2-1": 0.07142857142857142,
+   "check:partc:u3-1": 0.07142857142857142,
+   "cite:partc:ref": 0.07142857142857142,
+   "consult:parta:src": 0.07142857142857142,
+   "fix:partb:u2-1": 0.07142857142857142,
+   "probe:parta:tech": 0.07142857142857142,
+   "restructure:partb:order": 0.07142857142857142,
+   "revise:partb:u2-3": 0.07142857142857142,
+   "revise:partc:u3-2": 0.07142857142857142,
+   "revise:partc:u3-3": 0.07142857142857142,
+   "write:parta:u1-2": 0.07142857142857142,
+   "write:parta:u1-3": 0.07142857142857142,
+   "write:partc:u3-3": 0.07142857142857142
+  },
+  "next_section": {
+   "parta": 0.35714285714285715,
+   "partb": 0.28571428571428575,
+   "partc": 0.35714285714285715
+  },
+  "next_type": {
+   "check": 0.21428571428571427,
+   "cite": 0.07142857142857142,
+   "consult": 0.07142857142857142,
+   "fix": 0.07142857142857142,
+   "probe": 0.07142857142857142,
+   "restructure": 0.07142857142857142,
+   "revise": 0.21428571428571427,
+   "write": 0.21428571428571427
+  },
+  "purpose": {
+   "document": 0.1266708253850258,
+   "explore": 0.2723850461995643,
+   "persuade": 0.2723850461995643,
+   "teach": 0.32855908221584573
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

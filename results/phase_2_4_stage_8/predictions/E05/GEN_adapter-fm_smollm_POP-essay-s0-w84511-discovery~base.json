@@ -1,0 +1,71 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "583c2c50acc67c04",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 46,
+  "tokens_out": 336,
+  "wall_s": 30.743
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "90330572c13a4913",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "section(1)\n#line 1 \"C:\\Users\\Me\\Desktop\\School\\Term 1\\Computer Science\\Advanced\\Oo Programming and AI in Managed Code\\Projects\\1\\Main.cpp\"\nmain()\nsection(2)\n#line 42 \"C:\\Users\\Me\\Desktop\\School\\Term 1\\Computer Science\\Advanced\\Oo Programming and AI in Managed Code\\Projects\\1\\Main.cpp\"\ntask description \n: \ntodo: write this\nsection(3)\n#line 22 \"C:\\Users\\Me\\Desktop\\School\\Term 1\\Computer Science\\Advanced\\Oo Programming and AI in Managed Code\\Projects\\1\\Main.cpp\"\nsection(4)\n#line 27 \"C:\\Users\\Me\\Desktop\\School\\Term 1\\Computer Science\\Advanced\\Oo Programming and AI in Managed Code\\Projects\\1\\Main.cpp\"\nsection(5)\n#line 7 \"C:\\Users\\Me\\Desktop\\School\\Term 1\\Computer Science\\Advanced\\Oo Programming and AI in Managed Code\\Projects\\1\\Main.cpp\"\n{\n#line 8 \"C:\\Users\\Me\\Desktop\\School\\Term 1\\Computer Science\\Advanced\\Oo Programming and AI in Managed Code\\Projects\\1\\Main.cpp\"\n\nstring result;\nif (task == \"yes\")\n{\n    int n, m;",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.25,
+   "fix:sec2:s2.1": 0.25,
+   "restructure:sec2:order": 0.25,
+   "revise:sec3:s3.3": 0.25
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.25,
+   "fix:sec2:s2.1": 0.25,
+   "restructure:sec2:order": 0.25,
+   "revise:sec3:s3.3": 0.25
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.75,
+   "sec3": 0.25
+  },
+  "next_type": {
+   "check": 0.25,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.25,
+   "probe": 0.0,
+   "restructure": 0.25,
+   "revise": 0.25,
+   "write": 0.0
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

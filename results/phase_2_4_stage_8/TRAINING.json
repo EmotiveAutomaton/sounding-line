@@ -1,0 +1,195 @@
+{
+ "fm_qwen05": {
+  "base": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "seed": 8001,
+  "lr": 0.0002,
+  "lora": {
+   "r": 16,
+   "alpha": 32,
+   "dropout": 0.05,
+   "targets": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+   ]
+  },
+  "n_trainable": 8798208,
+  "curve": [
+   {
+    "epoch": 0,
+    "train_loss": 0.4491512429714203,
+    "heldout_loss": 0.295359682043035,
+    "n": 15,
+    "fm_next_move_ls": -2.8279544653710933,
+    "dom_next_move_ls": -2.6537519949614983,
+    "gap_fm_minus_dom": -0.1742024704095949,
+    "epoch_s": 79.6,
+    "batch": 4,
+    "n_examples": 400,
+    "at": "2026-09-04T08:08:31"
+   }
+  ],
+  "corpus_s": 2.3,
+  "pilot": true,
+  "env": {
+   "torch": "2.13.0+cu126",
+   "transformers": "5.14.1",
+   "datasets": "5.0.1",
+   "peft": "0.20.0",
+   "numpy": "2.4.6",
+   "sklearn": "1.9.0"
+  },
+  "at": "2026-09-04T08:08:31"
+ },
+ "fm_qwen": {
+  "base": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "seed": 8001,
+  "lr": 0.0002,
+  "lora": {
+   "r": 16,
+   "alpha": 32,
+   "dropout": 0.05,
+   "targets": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+   ]
+  },
+  "n_trainable": 18464768,
+  "curve": [
+   {
+    "epoch": 0,
+    "train_loss": 0.29092775329947473,
+    "heldout_loss": 0.23972735485442404,
+    "n": 80,
+    "fm_next_move_ls": -2.4955281866799224,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.06153296965111288,
+    "epoch_s": 1704.4,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T08:58:15"
+   },
+   {
+    "epoch": 1,
+    "train_loss": 0.2337266219779849,
+    "heldout_loss": 0.23197892197941217,
+    "n": 80,
+    "fm_next_move_ls": -2.4581768611313697,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.09888429519966593,
+    "epoch_s": 1676.4,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T09:26:12"
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.22599284294992686,
+    "heldout_loss": 0.2283471854941421,
+    "n": 80,
+    "fm_next_move_ls": -2.4126561091737697,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.1444050471572659,
+    "epoch_s": 1400.1,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T09:49:32"
+   }
+  ],
+  "corpus_s": 9.8,
+  "pilot": false,
+  "env": {
+   "torch": "2.13.0+cu126",
+   "transformers": "5.14.1",
+   "datasets": "5.0.1",
+   "peft": "0.20.0",
+   "numpy": "2.4.6",
+   "sklearn": "1.9.0"
+  },
+  "at": "2026-09-04T09:49:32"
+ },
+ "fm_smollm": {
+  "base": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "seed": 8001,
+  "lr": 0.0002,
+  "lora": {
+   "r": 16,
+   "alpha": 32,
+   "dropout": 0.05,
+   "targets": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+   ]
+  },
+  "n_trainable": 18087936,
+  "curve": [
+   {
+    "epoch": 0,
+    "train_loss": 0.32022905457764866,
+    "heldout_loss": 0.23972218532207795,
+    "n": 80,
+    "fm_next_move_ls": -2.491360860147552,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.06570029618348343,
+    "epoch_s": 442.7,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T09:57:46"
+   },
+   {
+    "epoch": 1,
+    "train_loss": 0.23169036630541087,
+    "heldout_loss": 0.2314417709726005,
+    "n": 80,
+    "fm_next_move_ls": -2.471003248776449,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.08605790755458642,
+    "epoch_s": 450.5,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T10:05:18"
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.22369948454201222,
+    "heldout_loss": 0.22745520246242565,
+    "n": 80,
+    "fm_next_move_ls": -2.4378868637210487,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.11917429260998666,
+    "epoch_s": 447.9,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T10:12:46"
+   }
+  ],
+  "corpus_s": 10.5,
+  "pilot": false,
+  "env": {
+   "torch": "2.13.0+cu126",
+   "transformers": "5.14.1",
+   "datasets": "5.0.1",
+   "peft": "0.20.0",
+   "numpy": "2.4.6",
+   "sklearn": "1.9.0"
+  },
+  "at": "2026-09-04T10:12:46"
+ }
+}

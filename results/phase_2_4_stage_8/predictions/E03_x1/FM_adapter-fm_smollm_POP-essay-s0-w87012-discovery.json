@@ -1,0 +1,81 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "5e252a9de105a384",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 340,
+  "tokens_out": 0,
+  "wall_s": 3.028
+ },
+ "confidence": 0.24930607387067247,
+ "equivalence_class": [],
+ "evidence_sha": "e2e21f99a084f683",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the glaze recipe\naudience: self\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(4) sec2(4)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec2:ref": -3.7970104217529297,
+   "probe:sec1:tech": -3.484123706817627,
+   "restructure:sec2:order": -4.015329360961914,
+   "write:sec1:s1.2": -1.5999515056610107,
+   "write:sec1:s1.3": -1.5374515056610107,
+   "write:sec2:s2.2": -1.7000495195388794,
+   "write:sec2:s2.3": -1.6531745195388794
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.1085057258605957
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec2:ref": 0.02990216597603108,
+   "probe:sec1:tech": 0.032349893165256945,
+   "restructure:sec2:order": 0.021890838398021403,
+   "write:sec1:s1.2": 0.23361818236648538,
+   "write:sec1:s1.3": 0.25260148364581586,
+   "write:sec2:s2.2": 0.20475645954646565,
+   "write:sec2:s2.3": 0.22488097690192368
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec2:ref": 0.026026687082125487,
+   "probe:sec1:tech": 0.035588023146251896,
+   "restructure:sec2:order": 0.02092204731957738,
+   "write:sec1:s1.2": 0.23420138243285107,
+   "write:sec1:s1.3": 0.24930607387067247,
+   "write:sec2:s2.2": 0.21189340466887333,
+   "write:sec2:s2.3": 0.2220623814796484
+  },
+  "next_section": {
+   "sec1": 0.5190954794497754,
+   "sec2": 0.48090452055022453
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.026026687082125487,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.035588023146251896,
+   "restructure": 0.02092204731957738,
+   "revise": 0.0,
+   "write": 0.9174632424520452
+  },
+  "stop": 0.1234531799794338
+ },
+ "version": "PredictionV1"
+}

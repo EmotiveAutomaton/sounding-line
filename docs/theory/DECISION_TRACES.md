@@ -107,6 +107,17 @@ events do not by themselves identify control.
 > everyone else's work a little bit, and the human decision may be recognition and integration
 > rather than generation.
 
+> Who made this part is a question about the artifact. Sounding Line cannot read records. The text
+> carries very little of the change of hand, and detecting it is the work of a full human brain with
+> expertise and all the context it can get; you would need multiple artifacts from the same creator
+> and a powerful model.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+The record result of Stage 7 is therefore a program result about ground truth, and the artifact
+claim stands as a claim that is power-bound: several artifacts by one maker and a stronger reader
+than any admitted so far.
+
 Mixed production is therefore represented as a directed event graph. An event may
 propose, select, ratify, veto, integrate, repair, reject, or accept another event; the
 same participant may occupy several roles, and one event may have several parents.
@@ -129,6 +140,15 @@ event schema carries these optional fields where interaction records exist:
 The event graph is the ground-truth object where interaction logs exist
 (`soundingline/process_record.py` is the enforced form). Any downstream scalar must
 declare its aggregation rule and is never a human/AI decision ratio.
+
+> You can variably reveal yourself or cover yourself up through how you choose to express, across
+> several artifacts.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+A construction note for the accumulation trunk: how much of the maker's residue an artifact expresses
+is a per-artifact variable the maker controls, so a maker series carries a reveal parameter beside
+the law and the residue.
 
 **Global coherence does not identify a director.** A central director, a shared brief, common
 training and conventions, institutional filtering, an editor, or a genuinely distributed
@@ -772,7 +792,9 @@ family transfer, of which thirteen points exceed the word-overlap bar. The Stage
 rhetorical purpose reads MORE easily than detail on dense passages (the maker built the
 legibility in), while suggestion uptake tracks contextual fit by five points within the set the
 writer saw and position by twenty-three (H04-S3 at its right grain), and local annotation
-persistence does not establish the timescale of a governing goal. And the director rows put a measured floor
+persistence does not establish the timescale of a governing goal. The Stage 7 record row reads as the
+walkthrough says it should: a program result about ground truth, with the artifact claim standing as a
+power-bound claim that needs several artifacts by one maker and a stronger reader. And the director rows put a measured floor
 under the errata's caution: a coherent team record identified its workers, not its lead, in
 two of three directed worlds; social intent then reads on a second human bank at the same
 lift as purpose (L233), and the one director effect that exists survives a fresh worker

@@ -1,0 +1,80 @@
+{
+ "fm_qwen05": {
+  "base": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\adapters\\fm_qwen05\\frozen",
+  "sha": "d34609b001064b1e",
+  "epoch": 0,
+  "heldout": {
+   "epoch": 0,
+   "train_loss": 0.4491512429714203,
+   "heldout_loss": 0.295359682043035,
+   "n": 15,
+   "fm_next_move_ls": -2.8279544653710933,
+   "dom_next_move_ls": -2.6537519949614983,
+   "gap_fm_minus_dom": -0.1742024704095949,
+   "epoch_s": 79.6,
+   "batch": 4,
+   "n_examples": 400,
+   "at": "2026-09-04T08:08:31"
+  },
+  "band_ok": false,
+  "band_miss_nats": 0.12420247040959491,
+  "pilot": true,
+  "seed": 8001,
+  "frozen_at": "2026-09-04T08:08:31",
+  "training_lineages_registry": "POP_CORPUS"
+ },
+ "fm_qwen": {
+  "base": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\adapters\\fm_qwen\\frozen",
+  "sha": "7dce6645c26923f9",
+  "epoch": 2,
+  "heldout": {
+   "epoch": 2,
+   "train_loss": 0.22599284294992686,
+   "heldout_loss": 0.2283471854941421,
+   "n": 80,
+   "fm_next_move_ls": -2.4126561091737697,
+   "dom_next_move_ls": -2.5570611563310353,
+   "gap_fm_minus_dom": 0.1444050471572659,
+   "epoch_s": 1400.1,
+   "batch": 4,
+   "n_examples": 1600,
+   "at": "2026-09-04T09:49:32"
+  },
+  "band_ok": true,
+  "band_miss_nats": 0.0,
+  "pilot": false,
+  "seed": 8001,
+  "frozen_at": "2026-09-04T09:49:32",
+  "training_lineages_registry": "POP_CORPUS"
+ },
+ "fm_smollm": {
+  "base": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\adapters\\fm_smollm\\frozen",
+  "sha": "69e7cb84b5c15c2f",
+  "epoch": 2,
+  "heldout": {
+   "epoch": 2,
+   "train_loss": 0.22369948454201222,
+   "heldout_loss": 0.22745520246242565,
+   "n": 80,
+   "fm_next_move_ls": -2.4378868637210487,
+   "dom_next_move_ls": -2.5570611563310353,
+   "gap_fm_minus_dom": 0.11917429260998666,
+   "epoch_s": 447.9,
+   "batch": 4,
+   "n_examples": 1600,
+   "at": "2026-09-04T10:12:46"
+  },
+  "band_ok": true,
+  "band_miss_nats": 0.0,
+  "pilot": false,
+  "seed": 8001,
+  "frozen_at": "2026-09-04T10:12:46",
+  "training_lineages_registry": "POP_CORPUS"
+ }
+}

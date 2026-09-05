@@ -1,0 +1,194 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "503a6f9b3b821cfd",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 177,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 56,
+  "tokens_out": 177,
+  "wall_s": 13.693
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "7556b350a5c60ca8",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": "69e7cb84b5c15c2f",
+   "events": [
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.1",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.1",
+     "type": "write"
+    },
+    {
+     "outcome": "failed",
+     "section": "sec5",
+     "slot": "ref",
+     "type": "cite"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec5",
+     "slot": "s5.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec4",
+     "slot": "s4.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.1",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec4",
+     "slot": "s4.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec5",
+     "slot": "s5.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec4",
+     "slot": "s4.1",
+     "type": "check"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.2",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.2",
+     "type": "revise"
+    }
+   ],
+   "n_new_tokens": 177,
+   "raw": "00 revise sec1 s1.1 done\n01 write sec3 s3.1 done\n02 write sec1 s1.1 done\n03 cite sec5 ref failed\n04 write sec1 s1.2 done\n05 write sec5 s5.1 done\n06 write sec2 s2.2 done\n07 write sec4 s4.2 done\n08 revise sec3 s3.1 done\n09 write sec3 s3.2 done\n10 write sec4 s4.1 done\n11 write sec5 s5.2 done\n12 check sec4 s4.1 done\n13 write sec2 s2.1 done\n14 revise sec2 s2.2 done\n15 revise sec3 s3.2 done\n16 stop",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": true
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.0625,
+   "check:sec3:s3.1": 0.0625,
+   "cite:sec5:ref": 0.0625,
+   "consult:sec1:src": 0.0625,
+   "probe:sec1:tech": 0.0625,
+   "restructure:sec3:order": 0.0625,
+   "revise:sec1:s1.1": 0.0625,
+   "revise:sec1:s1.2": 0.0625,
+   "revise:sec2:s2.1": 0.0625,
+   "revise:sec3:s3.1": 0.0625,
+   "revise:sec3:s3.2": 0.0625,
+   "write:sec1:s1.1": 0.0625,
+   "write:sec2:s2.2": 0.0625,
+   "write:sec3:s3.1": 0.0625,
+   "write:sec4:s4.1": 0.0625,
+   "write:sec5:s5.2": 0.0625
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.0625,
+   "check:sec3:s3.1": 0.0625,
+   "cite:sec5:ref": 0.0625,
+   "consult:sec1:src": 0.0625,
+   "probe:sec1:tech": 0.0625,
+   "restructure:sec3:order": 0.0625,
+   "revise:sec1:s1.1": 0.0625,
+   "revise:sec1:s1.2": 0.0625,
+   "revise:sec2:s2.1": 0.0625,
+   "revise:sec3:s3.1": 0.0625,
+   "revise:sec3:s3.2": 0.0625,
+   "write:sec1:s1.1": 0.0625,
+   "write:sec2:s2.2": 0.0625,
+   "write:sec3:s3.1": 0.0625,
+   "write:sec4:s4.1": 0.0625,
+   "write:sec5:s5.2": 0.0625
+  },
+  "next_section": {
+   "sec1": 0.3125,
+   "sec2": 0.1875,
+   "sec3": 0.3125,
+   "sec4": 0.0625,
+   "sec5": 0.125
+  },
+  "next_type": {
+   "check": 0.125,
+   "cite": 0.0625,
+   "consult": 0.0625,
+   "fix": 0.0,
+   "probe": 0.0625,
+   "restructure": 0.0625,
+   "revise": 0.3125,
+   "write": 0.3125
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,105 @@
+{
+ "abstain": false,
+ "arm": "PUR",
+ "canonical_sha": "afb656b7283e71b6",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 1,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 310,
+  "tokens_out": 0,
+  "wall_s": 3.585
+ },
+ "confidence": 0.9829193186308818,
+ "equivalence_class": [
+  "explore"
+ ],
+ "evidence_sha": "5da6ee090d40c255",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "proposal": {
+   "abstain": false,
+   "confidence": 0.9829193186308818,
+   "equivalence_class": [
+    "explore"
+   ],
+   "purpose": {
+    "document": 0.0008824106481754884,
+    "explore": 0.9829193186308818,
+    "persuade": 0.004016967465628612,
+    "teach": 0.012181303255314078
+   },
+   "raw": {
+    "document": 0.0008630736215671219,
+    "explore": 0.961379758724684,
+    "persuade": 0.003928940188387103,
+    "teach": 0.01191436383696093,
+    "unknown": 0.02191386362840101
+   },
+   "unknown": 0.02191386362840101,
+   "weights": "adapted"
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:parta:u1-1": 0.1,
+   "check:partb:u2-1": 0.1,
+   "check:partc:u3-1": 0.1,
+   "cite:partc:ref": 0.1,
+   "consult:parta:src": 0.1,
+   "fix:partb:u2-1": 0.1,
+   "probe:parta:tech": 0.1,
+   "restructure:partb:order": 0.1,
+   "revise:partc:u3-2": 0.1,
+   "write:partb:u2-1": 0.1
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:parta:u1-1": 0.1,
+   "check:partb:u2-1": 0.1,
+   "check:partc:u3-1": 0.1,
+   "cite:partc:ref": 0.1,
+   "consult:parta:src": 0.1,
+   "fix:partb:u2-1": 0.1,
+   "probe:parta:tech": 0.1,
+   "restructure:partb:order": 0.1,
+   "revise:partc:u3-2": 0.1,
+   "write:partb:u2-1": 0.1
+  },
+  "next_section": {
+   "parta": 0.30000000000000004,
+   "partb": 0.4,
+   "partc": 0.30000000000000004
+  },
+  "next_type": {
+   "check": 0.30000000000000004,
+   "cite": 0.1,
+   "consult": 0.1,
+   "fix": 0.1,
+   "probe": 0.1,
+   "restructure": 0.1,
+   "revise": 0.1,
+   "write": 0.1
+  },
+  "purpose": {
+   "document": 0.0008824106481754884,
+   "explore": 0.9829193186308818,
+   "persuade": 0.004016967465628612,
+   "teach": 0.012181303255314078
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

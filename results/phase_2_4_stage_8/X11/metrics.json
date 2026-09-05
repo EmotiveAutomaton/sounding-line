@@ -1,0 +1,67 @@
+{
+ "card": "X11",
+ "lane": "discovery",
+ "written_at": "2026-09-04T17:29:35",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "cells": {
+  "adapter:fm_qwen": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.005500054452465962,
+   "ci": [
+    -0.2984126336841976,
+    0.2907960233265548
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.9738513074346282,
+   "arm": "FM",
+   "rival": "DOM",
+   "n_arm": 31,
+   "n_rival": 31
+  },
+  "adapter:fm_smollm": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.018635042291195406,
+   "ci": [
+    -0.2611396562661689,
+    0.22994653399738943
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.8887555622218889,
+   "arm": "FM",
+   "rival": "DOM",
+   "n_arm": 31,
+   "n_rival": 31
+  },
+  "pooled": {
+   "outcome": "INCONCLUSIVE",
+   "reason": "interval includes zero and cannot exclude a useful benefit",
+   "point": -0.01206754837183069,
+   "ci": [
+    -0.2602081786792832,
+    0.2687350299147219
+   ],
+   "n_units": 31,
+   "threshold": 0.03,
+   "perm_p": 0.9348032598370082,
+   "arm": "FM",
+   "rival": "DOM",
+   "note": "pooled after the conditional cells"
+  }
+ },
+ "e03_gaps_on_the_seen_family": {
+  "adapter:fm_qwen": 0.18558531383705862,
+  "adapter:fm_smollm": 0.1252519565378365
+ },
+ "degenerate": 13
+}

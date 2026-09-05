@@ -1,0 +1,68 @@
+{
+ "abstain": false,
+ "arm": "FMB",
+ "canonical_sha": "e12062a411ba0ea6",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 592,
+  "tokens_out": 0,
+  "wall_s": 2.974
+ },
+ "confidence": 0.9999890966779083,
+ "equivalence_class": [],
+ "evidence_sha": "b234a639df4f11c9",
+ "notes": {
+  "adapter_sha": null,
+  "header": "task: the glaze recipe\naudience: editor\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(2) sec2(3) sec3(3) sec4(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "cite:sec4:ref": -7.5688605308532715,
+   "consult:sec1:src": -18.99529266357422
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -7.631659984588623
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "cite:sec4:ref": 0.9999885163813803,
+   "consult:sec1:src": 1.148361861974229e-05
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "cite:sec4:ref": 0.9999890966779083,
+   "consult:sec1:src": 1.090332209178015e-05
+  },
+  "next_section": {
+   "sec1": 1.090332209178015e-05,
+   "sec2": 0.0,
+   "sec3": 0.0,
+   "sec4": 0.9999890966779083
+  },
+  "next_type": {
+   "check": 0.0,
+   "cite": 0.9999890966779083,
+   "consult": 1.090332209178015e-05,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.4843025710956278
+ },
+ "version": "PredictionV1"
+}

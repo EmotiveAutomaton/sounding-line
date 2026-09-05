@@ -1,0 +1,45 @@
+{
+ "card": "G05",
+ "cell_id": "G05",
+ "lane": "discovery",
+ "track": "purpose",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 10.87,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "recall of p against recall of the derived pull ordering on the same worlds and reader",
+ "exec": "COMPLETE",
+ "outcome": "DESCRIPTIVE",
+ "primary": "Which goal object is easier for the same reader, the purpose or the pull ordering?",
+ "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"pull_recall\": 0.59375, \"n\": 96, \"purpose_recall\": 0.3541666666666667, \"difference_purpose_minus_pull\": -0.23958333333333331}, \"adapter:fm_smollm\": {\"pull_recall\": 0.6979166666666666, \"n\": 96, \"purpose_recall\": 0.5520833333333334, \"difference_purpose_minus_pull\": -0.14583333333333326}}",
+ "conditional_cells": {
+  "adapter:fm_qwen": {
+   "outcome": "pull_easier",
+   "point": -0.23958333333333331
+  },
+  "adapter:fm_smollm": {
+   "outcome": "pull_easier",
+   "point": -0.14583333333333326
+  }
+ },
+ "diagnosis_only": true,
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G05\\metrics.json",
+    "sha256": "a2d146f1e8d3500b776e34cda40857ba6f82fdeb1491554cf5711abcbb2f4a43"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G05\\cases.jsonl",
+    "sha256": "0dd7f64b604048daefab25179a8c07ea42bbe5889fa3004385168b8e72daaf5f"
+   }
+  },
+  "written_at": "2026-09-04T19:33:06"
+ }
+}

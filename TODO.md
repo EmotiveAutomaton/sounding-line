@@ -68,6 +68,50 @@ position gate stricter than its Stage-4 band). Predicted in advance from the Sta
 the model-choice cards (R01, R04, F02) are likely void or null; their fail-closed rulers are
 the deliverable. When the scheduler exhausts, the wrapper chains into the general queue.
 Landings write through internally as they come; one final packet, then the synthesis.
+**STAGE 8 (2026-09-04, his order: build it, set it up, start running; gear two, a day or two; brief at
+docs/design/PHASE_2_4_STAGE_8_CONTEXT.md). RECORD GATE APPLIED (L358) and LAUNCHED 2026-09-04T08:06:58
+(48-hour ceiling, deadline 2026-09-06T08:06:58; useful-work target 36 to 42 h; re-lock at base completion).**
+Readers that can make: install the standard process in small readers by training on
+population-sampled process logs (E02), admit a reader only if it predicts (E03) and produces
+(E04) that process at the frozen domain model's level; then surprise localization of the
+maker's share (D01 to D06, whole and tail), the goal rebuilt as a purpose with the pull ordering
+scored beside it (G01 to G08), accumulation across a maker's artifacts (A01 to A05), the testbed
+track (T01 to T05, clones and manifests into docs/TOOLS.md), one capped frontier probe (E07, D05,
+G08; Gemini, forty dollars), twelve attacks, at most three confirmations, one packet.
+LANDED 10:53: the integrity block whole (I04 to I08), E01, E02 (both adapters within band, monotone
+curves), E03 the expertise gate PASSED on both readers (+0.19, +0.13 nats over DOM; L359). E04 the generation gate FAILED on both readers after its one repair (L360): no reader admitted; E05
+the untrained comparators fail both halves; E06 true minus false context inconclusive; E07 the frontier
+fails the band by 2.6 nats; E08 the supplied state moves the trained reader nowhere. The trunks run
+as labeled diagnosis (his ruling). GEAR ONE from 14:12 (his call; the run never stopped). LANDED 17:50
+(L361): G01 purpose recall 0.55 / 0.35; G04 equivalence fails both readers; D05 the frontier's surprise
+under DOM by 0.25 AUROC; X11 an unseen law family returns both readers to DOM (the gain is family-specific).
+VOID and rerunning: D01 and D04 (the shared card answered out of memory for eighty minutes; the cells closed
+on fragments; the fragment guard now refuses that; valid rows restored), D02 and D03 with them. OPENED:
+S8-X11a a second training family before any expertise claim (the adapter learned a family, not the
+process); S8-G01a calibration of the affordance route as the variable (one reader honest and half right,
+one confident and wrong). LANDED 18:59 (L362), the block whole: D01 both readers' surprise ANTI-aligned with the maker's events (AUROC
+0.34 / 0.37 vs DOM 0.56), D02 no monotone gradient, D04 the true purpose moves the residue by under 0.01, D03
+the first explanation under chance, G07 confidence falls with log length. LANDED 19:22 (L363): G02 the proposed purpose null or worse against the
+plain reader (−0.03 / −0.08) with both readers a nat over DOM on the tail either way; G03 the changed-context
+choice splits by reader and pools to zero; X05 passes once its FM bound is fp16 batch noise (0.01; the 1e-6
+bound read a 0.0013 TV as failure; reset ordertol, rows restored, verdict recomputed). LANDED 19:33 (L364): G05 the pull
+ordering easier than the purpose for both readers (0.59 / 0.70 against 0.35 / 0.55); G08 the frontier names the
+purpose on 16 percent and loses 1.8 nats using it; X07 no reader preserves the equivalence class. LANDED 19:51 (L365): G06 no crossover on either reader
+(recall rises under a meaning change); X04 records it. GEAR TWO 19:53 (his call). LANDED 23:21 (L366): A01 nothing accumulates (N3 minus N0 −0.002 / +0.016, every
+cell under DOM); X08 no reversal in 24 conditional cells; X09 passes after the ledger repair (a re-analysis attempt
+had erased four first-attempt ledgers; merge now, rows' budgets as the second source; reset ledger, relaunched
+23:23:41 in gear two). LANDED 00:24 (L367): A02 law and residue recall flat at chance across N; A03 the maker model worth nothing
+against the plain reader (+0.002 / −0.056), 1.5 nats over DOM on the tail either way; A04 reveal moves 0.02; X10 the
+strengthened rival is DOM itself; D06 one whole-against-tail sign difference (E08). LANDED 01:09 (L368): A05 nothing to attribute (law, residue,
+purpose each move under 0.02); X06 passes (duplication raises confidence 0.006); the BASE RUN COMPLETE at 17.0 h,
+RE-LOCKED into an eight-rung ladder (E03 at four times the units first) with 25 h of budget. LANDED 03:33 (L369): rung 1 E03/x1 the gate
+passes wider (+0.24 / +0.20 on 306), D01/x1 the anti-alignment tightens (AUROC 0.36 / 0.39 on 334); the rung's E03
+rerun had re-admitted the readers in the registry with E04 failed (D01/x1 closed as a claim): admission now reads
+both gates, D01/x1 reset (admission) and recomputed as diagnosis, relaunched 03:35:39 in gear two. G01/x1 holds (0.33 / 0.53
+on 384). LANDED 08:47 (L370): G02/x1 the proposed purpose HURTS at 327 worlds (−0.09 / −0.06, intervals below zero); the true
+purpose adds +0.05 to +0.07. Next: A01/x1 (running, about two hours left), rungs 2 to 5 as the budget allows to the freeze at hour 40,
+X12, the confirmations (none eligible while every reader cell is diagnosis), B04, B03, the packet.
+
 **STAGE 7 (2026-09-02, his order: review the brief, ask on decision points, then build the whole
 thing and set it to run in gear two).** Brief at docs/design/PHASE_2_4_STAGE_7_CONTEXT.md (filed from
 the repository root the same day, with his two rulings appended under §5: the interpreter capsule

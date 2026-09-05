@@ -1,0 +1,119 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "954e8ddc72e06bbe",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 4,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 212,
+  "tokens_out": 0,
+  "wall_s": 4.021
+ },
+ "confidence": 0.16824896635222045,
+ "equivalence_class": [],
+ "evidence_sha": "5e3a992ef6902622",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the survey method\naudience: peer\ntools: library=yes source=no\ndeadline: loose\nsections: sec1(2) sec2(2) sec3(3) sec4(3)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -3.70953369140625,
+   "check:sec2:s2.1": -4.287700653076172,
+   "check:sec3:s3.1": -4.0028300285339355,
+   "check:sec4:s4.1": -4.113612651824951,
+   "cite:sec4:ref": -3.479879140853882,
+   "consult:sec1:src": -4.197880268096924,
+   "fix:sec2:s2.1": -4.025834083557129,
+   "probe:sec1:tech": -5.295477390289307,
+   "restructure:sec3:order": -5.229876518249512,
+   "revise:sec1:s1.2": -3.3242621421813965,
+   "revise:sec3:s3.3": -3.800973653793335,
+   "revise:sec4:s4.3": -3.6714835166931152,
+   "write:sec1:s1.1": -1.9581830501556396,
+   "write:sec1:s1.2": -1.9425580501556396,
+   "write:sec2:s2.2": -2.6790285110473633,
+   "write:sec3:s3.1": -2.7106595039367676,
+   "write:sec4:s4.1": -2.6651854515075684,
+   "write:sec4:s4.2": -2.7901854515075684,
+   "write:sec4:s4.3": -2.6495604515075684
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.8070287704467773
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.028333834182968913,
+   "check:sec2:s2.1": 0.01614351238929725,
+   "check:sec3:s3.1": 0.022417253204823004,
+   "check:sec4:s4.1": 0.020652573523604882,
+   "cite:sec4:ref": 0.025094750293397187,
+   "consult:sec1:src": 0.01781411875498667,
+   "fix:sec2:s2.1": 0.01867223228800163,
+   "probe:sec1:tech": 0.005871358795820679,
+   "restructure:sec3:order": 0.006444300991265935,
+   "revise:sec1:s1.2": 0.04622998866898461,
+   "revise:sec3:s3.3": 0.02634240380795922,
+   "revise:sec4:s4.3": 0.032061614731565435,
+   "write:sec1:s1.1": 0.16242296055692243,
+   "write:sec1:s1.2": 0.1675788187810915,
+   "write:sec2:s2.2": 0.0975551084358968,
+   "write:sec3:s3.1": 0.06495637354130933,
+   "write:sec4:s4.1": 0.0843858765019299,
+   "write:sec4:s4.2": 0.06995834878327511,
+   "write:sec4:s4.3": 0.0870645717668996
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.02874515363257298,
+   "check:sec2:s2.1": 0.016123893207994674,
+   "check:sec3:s3.1": 0.021438167181360494,
+   "check:sec4:s4.1": 0.01919001752611677,
+   "cite:sec4:ref": 0.03616615491094541,
+   "consult:sec1:src": 0.017639180755028773,
+   "fix:sec2:s2.1": 0.020950631551734007,
+   "probe:sec1:tech": 0.005885698850736765,
+   "restructure:sec3:order": 0.0062847518407106945,
+   "revise:sec1:s1.2": 0.04225576241217637,
+   "revise:sec3:s3.3": 0.026233290168775007,
+   "revise:sec4:s4.3": 0.029859987050743178,
+   "write:sec1:s1.1": 0.16564050790360388,
+   "write:sec1:s1.2": 0.16824896635222045,
+   "write:sec2:s2.2": 0.0805577536705583,
+   "write:sec3:s3.1": 0.07804951017848381,
+   "write:sec4:s4.1": 0.08168067384435415,
+   "write:sec4:s4.2": 0.07208294166866512,
+   "write:sec4:s4.3": 0.08296695729321917
+  },
+  "next_section": {
+   "sec1": 0.4284152699063392,
+   "sec2": 0.11763227843028698,
+   "sec3": 0.13200571936933,
+   "sec4": 0.3219467322940438
+  },
+  "next_type": {
+   "check": 0.08549723154804492,
+   "cite": 0.036166154910945415,
+   "consult": 0.017639180755028776,
+   "fix": 0.02095063155173401,
+   "probe": 0.005885698850736766,
+   "restructure": 0.006284751840710695,
+   "revise": 0.09834903963169457,
+   "write": 0.7292273109111049
+  },
+  "stop": 0.025412300661169843
+ },
+ "version": "PredictionV1"
+}

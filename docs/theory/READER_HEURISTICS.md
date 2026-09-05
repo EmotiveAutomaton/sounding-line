@@ -114,6 +114,18 @@ creates a characteristic failure: a sufficiently flexible reader can explain alm
 something the reader might have done. Reader identity, domain competence, and conditioning must
 therefore be recorded as part of the instrument.
 
+> You are running your forward predictive model and checking for what would be different, and
+> through that you are adjusting your own expertise map. You are becoming them, but only in this
+> space and in adjacent spaces. Empathy at its limit is pretty indistinguishable from impersonation,
+> but only at its limit, and only for the topic at hand. There is a lot of control in which areas you
+> are attending to and how rapidly you are moving through them.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+The initialization is the reader's own forward model of the domain's process, and the correction is
+local adjustment at the differences; becoming the maker is bounded to the topic at hand, and the
+reader keeps control of where it attends and how fast it moves.
+
 > If I'm looking at an artist, what I will try to do is find the biggest difference between their
 > contextual space and mine that would affect a whole bunch of other things associatively. I'll set
 > that in place almost manually: "Oh, this artist is from the 1400s."
@@ -155,7 +167,9 @@ exists. **Model-side evidence is split (test, L179, L192).** Relatedness predict
 reading; no prospective self advantage was demonstrated in the separate record task
 (self-minus-other −0.10, ns). Agreement between two target samples measures repeatability, not a
 predictive ceiling. This does not establish a general representational-versus-predictive
-division.)**
+division. The walkthrough after Stage 7 fixes what the initialization is: the reader's own forward
+model of the standard process, corrected locally where the artifact differs from it, so the
+similarity that helps is expertise shared with the maker before it is anything about the person.)**
 
 **Model-family similarity is the present analogue construction. If sibling models recover one
 another's recorded process choices better after surface and capacity controls, the shared-
@@ -219,6 +233,17 @@ is one of the more useful pieces of information once you have observed it."*
 > if you can find it, a way into the author's perspective. Sometimes the author tries to fix it, or
 > conceal it, or cover it up in some way, and you can catch them. That's very different from making
 > a mistake and not noticing or making a mistake repeatedly.
+
+> It is generally true that identifying the goal is one of the easiest vertices to solve. You start
+> with what you could use this to do if you were in their context, and expand from there. It relies a
+> great deal on shared humanity. If you are not finding it to be the easiest, the inference is not
+> being worked properly.
+
+*2026-09-04 walkthrough; lightly cleaned transcript.*
+
+The affordance route to the goal is canonical here: the reader asks what the artifact could be used
+for in the maker's context and expands from there, and a goal inference that is not the easiest is
+being worked wrong.
 
 A mistake is a sharpened anomaly for which evidence supports a mismatch between a choice and the
 maker's operative trajectory. The strongest evidence often comes from handling: repair exposes a
@@ -313,7 +338,9 @@ actively damages where it is weak, with a measured fabrication cost the direct f
 carry, so the bounded reader's value is direct reading plus calibrated refusal and any future
 generate-then-judge stage owes its own fabrication gate. That bounds the strategy, not the §1
 self-model prior itself, whose implicit form the direct reader may already be using and which
-no test here reaches. Confidence: the
+no test here reaches. The anomaly rows gain their route: the goal is entered by asking what the
+artifact affords, and Stage 8 measures that route directly (G01) beside the entry position of a
+reader's first explanation (D03), so the family's core stops being unrun. Confidence: the
 probe-activation result is one
 bad test away; the surface defeats are replicated and controlled; the generation bound is
 one bad test away as a pair, two substrates deep in one reader family; the record-route gate

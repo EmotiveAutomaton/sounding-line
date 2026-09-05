@@ -1,0 +1,86 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "768a5414006c45e6",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1854,
+  "tokens_out": 0,
+  "wall_s": 4.803
+ },
+ "confidence": 0.27324510983875916,
+ "equivalence_class": [],
+ "evidence_sha": "27a818133c2f483d",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the tool inventory\naudience: editor\ntools: library=yes source=yes\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(2) sec4(3)\nmaker: The document is meant to record a procedure so it can be followed.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec2:s2.1": -2.232961416244507,
+   "cite:sec4:ref": -3.842578649520874,
+   "probe:sec1:tech": -2.5298614501953125,
+   "restructure:sec3:order": -1.8439626693725586,
+   "revise:sec2:s2.2": -2.8079540729522705,
+   "revise:sec3:s3.2": -2.7993273735046387,
+   "revise:sec4:s4.1": -3.0873987674713135,
+   "revise:sec4:s4.2": -3.0873987674713135
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -2.107954740524292
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.16934971884104494,
+   "cite:sec4:ref": 0.03282222371754448,
+   "probe:sec1:tech": 0.1318860775262658,
+   "restructure:sec3:order": 0.2921052818860453,
+   "revise:sec2:s2.2": 0.10676661461095338,
+   "revise:sec3:s3.2": 0.10851265516741382,
+   "revise:sec4:s4.1": 0.07865936177196636,
+   "revise:sec4:s4.2": 0.07989806647876599
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.18518780711534932,
+   "cite:sec4:ref": 0.037030920411813634,
+   "probe:sec1:tech": 0.13761644752446914,
+   "restructure:sec3:order": 0.27324510983875916,
+   "revise:sec2:s2.2": 0.1042068459260035,
+   "revise:sec3:s3.2": 0.10510969577417346,
+   "revise:sec4:s4.1": 0.07880158670471592,
+   "revise:sec4:s4.2": 0.07880158670471592
+  },
+  "next_section": {
+   "sec1": 0.13761644752446914,
+   "sec2": 0.2893946530413528,
+   "sec3": 0.3783548056129326,
+   "sec4": 0.19463409382124547
+  },
+  "next_type": {
+   "check": 0.18518780711534932,
+   "cite": 0.037030920411813634,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.13761644752446914,
+   "restructure": 0.27324510983875916,
+   "revise": 0.3669197151096088,
+   "write": 0.0
+  },
+  "stop": 0.1734489847704246
+ },
+ "version": "PredictionV1"
+}

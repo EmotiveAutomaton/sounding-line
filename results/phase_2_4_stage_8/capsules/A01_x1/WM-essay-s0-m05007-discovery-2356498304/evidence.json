@@ -1,0 +1,1138 @@
+{
+ "version": "VisibleEvidenceV1",
+ "unit_ref": "u4d73c00477",
+ "condition_ref": "A01",
+ "domain": "essay",
+ "artifact_state": {
+  "topic": "the kiln schedule",
+  "sections": [
+   {
+    "name": "sec1",
+    "slots": [
+     "s1.1",
+     "s1.2",
+     "s1.3"
+    ],
+    "filled": [
+     "write@s1.2",
+     "write@s1.1",
+     "consult@src",
+     "revise@s1.3",
+     "write@s1.3",
+     "revise@s1.1",
+     "check@s1.1"
+    ]
+   },
+   {
+    "name": "sec2",
+    "slots": [
+     "s2.1",
+     "s2.2"
+    ],
+    "filled": [
+     "revise@s2.1",
+     "write@s2.2",
+     "write@s2.1",
+     "check@s2.1",
+     "fix@s2.1"
+    ]
+   },
+   {
+    "name": "sec3",
+    "slots": [
+     "s3.1",
+     "s3.2"
+    ],
+    "filled": [
+     "write@s3.2",
+     "write@s3.1",
+     "revise@s3.1",
+     "check@s3.1"
+    ]
+   },
+   {
+    "name": "sec4",
+    "slots": [
+     "s4.1",
+     "s4.2",
+     "s4.3"
+    ],
+    "filled": [
+     "write@s4.1",
+     "write@s4.3",
+     "write@s4.2",
+     "revise@s4.3",
+     "check@s4.1"
+    ]
+   }
+  ],
+  "prefix_text": "00 write sec4 s4.1 done\n01 revise sec2 s2.1 done\n02 write sec1 s1.2 done\n03 write sec1 s1.1 done\n04 write sec3 s3.2 done\n05 write sec3 s3.1 done\n06 write sec2 s2.2 done\n07 consult sec1 src done\n08 revise sec1 s1.3 done\n09 write sec2 s2.1 done\n10 write sec4 s4.3 done\n11 check sec2 s2.1 done\n12 write sec1 s1.3 done\n13 write sec4 s4.2 done\n14 revise sec4 s4.3 done\n15 revise sec1 s1.1 done\n16 revise sec3 s3.1 done\n17 check sec3 s3.1 done\n18 fix sec2 s2.1 done\n19 check sec1 s1.1 done\n20 check sec4 s4.1 done"
+ },
+ "process_prefix": [
+  {
+   "step": 0,
+   "type": "write",
+   "section": "sec4",
+   "slot": "s4.1",
+   "outcome": "done"
+  },
+  {
+   "step": 1,
+   "type": "revise",
+   "section": "sec2",
+   "slot": "s2.1",
+   "outcome": "done"
+  },
+  {
+   "step": 2,
+   "type": "write",
+   "section": "sec1",
+   "slot": "s1.2",
+   "outcome": "done"
+  },
+  {
+   "step": 3,
+   "type": "write",
+   "section": "sec1",
+   "slot": "s1.1",
+   "outcome": "done"
+  },
+  {
+   "step": 4,
+   "type": "write",
+   "section": "sec3",
+   "slot": "s3.2",
+   "outcome": "done"
+  },
+  {
+   "step": 5,
+   "type": "write",
+   "section": "sec3",
+   "slot": "s3.1",
+   "outcome": "done"
+  },
+  {
+   "step": 6,
+   "type": "write",
+   "section": "sec2",
+   "slot": "s2.2",
+   "outcome": "done"
+  },
+  {
+   "step": 7,
+   "type": "consult",
+   "section": "sec1",
+   "slot": "src",
+   "outcome": "done"
+  },
+  {
+   "step": 8,
+   "type": "revise",
+   "section": "sec1",
+   "slot": "s1.3",
+   "outcome": "done"
+  },
+  {
+   "step": 9,
+   "type": "write",
+   "section": "sec2",
+   "slot": "s2.1",
+   "outcome": "done"
+  },
+  {
+   "step": 10,
+   "type": "write",
+   "section": "sec4",
+   "slot": "s4.3",
+   "outcome": "done"
+  },
+  {
+   "step": 11,
+   "type": "check",
+   "section": "sec2",
+   "slot": "s2.1",
+   "outcome": "done"
+  },
+  {
+   "step": 12,
+   "type": "write",
+   "section": "sec1",
+   "slot": "s1.3",
+   "outcome": "done"
+  },
+  {
+   "step": 13,
+   "type": "write",
+   "section": "sec4",
+   "slot": "s4.2",
+   "outcome": "done"
+  },
+  {
+   "step": 14,
+   "type": "revise",
+   "section": "sec4",
+   "slot": "s4.3",
+   "outcome": "done"
+  },
+  {
+   "step": 15,
+   "type": "revise",
+   "section": "sec1",
+   "slot": "s1.1",
+   "outcome": "done"
+  },
+  {
+   "step": 16,
+   "type": "revise",
+   "section": "sec3",
+   "slot": "s3.1",
+   "outcome": "done"
+  },
+  {
+   "step": 17,
+   "type": "check",
+   "section": "sec3",
+   "slot": "s3.1",
+   "outcome": "done"
+  },
+  {
+   "step": 18,
+   "type": "fix",
+   "section": "sec2",
+   "slot": "s2.1",
+   "outcome": "done"
+  },
+  {
+   "step": 19,
+   "type": "check",
+   "section": "sec1",
+   "slot": "s1.1",
+   "outcome": "done"
+  },
+  {
+   "step": 20,
+   "type": "check",
+   "section": "sec4",
+   "slot": "s4.1",
+   "outcome": "done"
+  }
+ ],
+ "query": {
+  "next_action_options": [
+   "check:sec4:s4.1",
+   "cite:sec4:ref",
+   "restructure:sec3:order",
+   "probe:sec1:tech"
+  ],
+  "type_vocabulary": [
+   "write",
+   "revise",
+   "check",
+   "consult",
+   "cite",
+   "restructure",
+   "probe",
+   "fix"
+  ],
+  "sections": [
+   "sec1",
+   "sec2",
+   "sec3",
+   "sec4"
+  ],
+  "stop": [
+   "stop",
+   "continue"
+  ],
+  "context_change": null,
+  "invalidation_responses": [
+   "correct",
+   "retain",
+   "rewrite"
+  ],
+  "boundary_types": [
+   "satisfaction",
+   "deadline",
+   "fatigue",
+   "equivalent"
+  ]
+ },
+ "regime": "cold",
+ "render": "log",
+ "brief": {
+  "required_sections": [],
+  "audience": "self",
+  "tools_available": {
+   "library": true,
+   "source_access": true
+  },
+  "deadline": "tight"
+ },
+ "objective_options": {
+  "initial": [
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.1",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.2",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec1",
+    "slot": "s1.3",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec2",
+    "slot": "s2.1",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec2",
+    "slot": "s2.2",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec3",
+    "slot": "s3.1",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec3",
+    "slot": "s3.2",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec4",
+    "slot": "s4.1",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec4",
+    "slot": "s4.2",
+    "requires": []
+   },
+   {
+    "type": "write",
+    "section": "sec4",
+    "slot": "s4.3",
+    "requires": []
+   },
+   {
+    "type": "revise",
+    "section": "sec3",
+    "slot": "s3.1",
+    "requires": []
+   },
+   {
+    "type": "revise",
+    "section": "sec1",
+    "slot": "s1.3",
+    "requires": []
+   },
+   {
+    "type": "revise",
+    "section": "sec4",
+    "slot": "s4.3",
+    "requires": []
+   },
+   {
+    "type": "revise",
+    "section": "sec1",
+    "slot": "s1.1",
+    "requires": []
+   },
+   {
+    "type": "revise",
+    "section": "sec2",
+    "slot": "s2.1",
+    "requires": []
+   },
+   {
+    "type": "check",
+    "section": "sec1",
+    "slot": "s1.1",
+    "requires": []
+   },
+   {
+    "type": "check",
+    "section": "sec2",
+    "slot": "s2.1",
+    "requires": []
+   },
+   {
+    "type": "check",
+    "section": "sec3",
+    "slot": "s3.1",
+    "requires": []
+   },
+   {
+    "type": "check",
+    "section": "sec4",
+    "slot": "s4.1",
+    "requires": []
+   },
+   {
+    "type": "consult",
+    "section": "sec1",
+    "slot": "src",
+    "requires": [
+     "source_access"
+    ]
+   },
+   {
+    "type": "cite",
+    "section": "sec4",
+    "slot": "ref",
+    "requires": [
+     "library"
+    ]
+   },
+   {
+    "type": "restructure",
+    "section": "sec3",
+    "slot": "order",
+    "requires": []
+   },
+   {
+    "type": "probe",
+    "section": "sec1",
+    "slot": "tech",
+    "requires": []
+   },
+   {
+    "type": "fix",
+    "section": "sec2",
+    "slot": "s2.1",
+    "requires": []
+   }
+  ],
+  "at_cut": [
+   {
+    "type": "check",
+    "section": "sec4",
+    "slot": "s4.1",
+    "requires": []
+   },
+   {
+    "type": "cite",
+    "section": "sec4",
+    "slot": "ref",
+    "requires": [
+     "library"
+    ]
+   },
+   {
+    "type": "restructure",
+    "section": "sec3",
+    "slot": "order",
+    "requires": []
+   },
+   {
+    "type": "probe",
+    "section": "sec1",
+    "slot": "tech",
+    "requires": []
+   }
+  ],
+  "per_event": [
+   [
+    "write:sec1:s1.1",
+    "write:sec1:s1.2",
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec2:s2.2",
+    "write:sec3:s3.1",
+    "write:sec3:s3.2",
+    "write:sec4:s4.1",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "revise:sec2:s2.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "consult:sec1:src",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.1",
+    "write:sec1:s1.2",
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec2:s2.2",
+    "write:sec3:s3.1",
+    "write:sec3:s3.2",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "revise:sec2:s2.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "consult:sec1:src",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.1",
+    "write:sec1:s1.2",
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec2:s2.2",
+    "write:sec3:s3.1",
+    "write:sec3:s3.2",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "consult:sec1:src",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.1",
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec2:s2.2",
+    "write:sec3:s3.1",
+    "write:sec3:s3.2",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "consult:sec1:src",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec2:s2.2",
+    "write:sec3:s3.1",
+    "write:sec3:s3.2",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "consult:sec1:src",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec2:s2.2",
+    "write:sec3:s3.1",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "consult:sec1:src",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec2:s2.2",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "consult:sec1:src",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "consult:sec1:src",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.3",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec2:s2.1",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec4:s4.2",
+    "write:sec4:s4.3",
+    "revise:sec3:s3.1",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec4:s4.2",
+    "revise:sec3:s3.1",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec2:s2.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec1:s1.3",
+    "write:sec4:s4.2",
+    "revise:sec3:s3.1",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "write:sec4:s4.2",
+    "revise:sec3:s3.1",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "revise:sec3:s3.1",
+    "revise:sec4:s4.3",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "revise:sec3:s3.1",
+    "revise:sec1:s1.1",
+    "check:sec1:s1.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "revise:sec3:s3.1",
+    "check:sec1:s1.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "check:sec1:s1.1",
+    "check:sec3:s3.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "check:sec1:s1.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech",
+    "fix:sec2:s2.1"
+   ],
+   [
+    "check:sec1:s1.1",
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech"
+   ],
+   [
+    "check:sec4:s4.1",
+    "cite:sec4:ref",
+    "restructure:sec3:order",
+    "probe:sec1:tech"
+   ]
+  ]
+ },
+ "demonstrations": [
+  {
+   "episode_ref": "earlier-1",
+   "topic": "the archive index",
+   "sections": [
+    "sec1",
+    "sec2",
+    "sec3",
+    "sec4"
+   ],
+   "events": [
+    {
+     "step": 0,
+     "type": "write",
+     "section": "sec3",
+     "slot": "s3.2",
+     "outcome": "done"
+    },
+    {
+     "step": 1,
+     "type": "write",
+     "section": "sec2",
+     "slot": "s2.1",
+     "outcome": "done"
+    },
+    {
+     "step": 2,
+     "type": "write",
+     "section": "sec1",
+     "slot": "s1.1",
+     "outcome": "done"
+    },
+    {
+     "step": 3,
+     "type": "write",
+     "section": "sec4",
+     "slot": "s4.1",
+     "outcome": "done"
+    },
+    {
+     "step": 4,
+     "type": "check",
+     "section": "sec1",
+     "slot": "s1.1",
+     "outcome": "done"
+    },
+    {
+     "step": 5,
+     "type": "check",
+     "section": "sec2",
+     "slot": "s2.1",
+     "outcome": "done"
+    },
+    {
+     "step": 6,
+     "type": "write",
+     "section": "sec4",
+     "slot": "s4.2",
+     "outcome": "done"
+    },
+    {
+     "step": 7,
+     "type": "check",
+     "section": "sec3",
+     "slot": "s3.1",
+     "outcome": "done"
+    },
+    {
+     "step": 8,
+     "type": "write",
+     "section": "sec1",
+     "slot": "s1.2",
+     "outcome": "done"
+    },
+    {
+     "step": 9,
+     "type": "write",
+     "section": "sec3",
+     "slot": "s3.1",
+     "outcome": "done"
+    },
+    {
+     "step": 10,
+     "type": "revise",
+     "section": "sec1",
+     "slot": "s1.1",
+     "outcome": "done"
+    },
+    {
+     "step": 11,
+     "type": "fix",
+     "section": "sec2",
+     "slot": "s2.1",
+     "outcome": "done"
+    },
+    {
+     "step": 12,
+     "type": "check",
+     "section": "sec4",
+     "slot": "s4.1",
+     "outcome": "done"
+    },
+    {
+     "step": 13,
+     "type": "write",
+     "section": "sec2",
+     "slot": "s2.2",
+     "outcome": "done"
+    },
+    {
+     "step": 14,
+     "type": "consult",
+     "section": "sec1",
+     "slot": "src",
+     "outcome": "done"
+    }
+   ],
+   "text": "task: the archive index\naudience: self\ntools: library=no source=yes\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(2) sec4(2)\nlog:\n00 write sec3 s3.2 done\n01 write sec2 s2.1 done\n02 write sec1 s1.1 done\n03 write sec4 s4.1 done\n04 check sec1 s1.1 done\n05 check sec2 s2.1 done\n06 write sec4 s4.2 done\n07 check sec3 s3.1 done\n08 write sec1 s1.2 done\n09 write sec3 s3.1 done\n10 revise sec1 s1.1 done\n11 fix sec2 s2.1 done\n12 check sec4 s4.1 done\n13 write sec2 s2.2 done\n14 consult sec1 src done\n15 stop"
+  },
+  {
+   "episode_ref": "earlier-2",
+   "topic": "the delivery route",
+   "sections": [
+    "sec1",
+    "sec2",
+    "sec3",
+    "sec4"
+   ],
+   "events": [
+    {
+     "step": 0,
+     "type": "write",
+     "section": "sec2",
+     "slot": "s2.2",
+     "outcome": "done"
+    },
+    {
+     "step": 1,
+     "type": "write",
+     "section": "sec4",
+     "slot": "s4.2",
+     "outcome": "done"
+    },
+    {
+     "step": 2,
+     "type": "write",
+     "section": "sec2",
+     "slot": "s2.1",
+     "outcome": "done"
+    },
+    {
+     "step": 3,
+     "type": "write",
+     "section": "sec1",
+     "slot": "s1.1",
+     "outcome": "done"
+    },
+    {
+     "step": 4,
+     "type": "revise",
+     "section": "sec1",
+     "slot": "s1.3",
+     "outcome": "done"
+    },
+    {
+     "step": 5,
+     "type": "write",
+     "section": "sec1",
+     "slot": "s1.2",
+     "outcome": "done"
+    },
+    {
+     "step": 6,
+     "type": "write",
+     "section": "sec1",
+     "slot": "s1.3",
+     "outcome": "done"
+    },
+    {
+     "step": 7,
+     "type": "write",
+     "section": "sec3",
+     "slot": "s3.2",
+     "outcome": "done"
+    },
+    {
+     "step": 8,
+     "type": "revise",
+     "section": "sec3",
+     "slot": "s3.2",
+     "outcome": "done"
+    },
+    {
+     "step": 9,
+     "type": "write",
+     "section": "sec2",
+     "slot": "s2.3",
+     "outcome": "done"
+    },
+    {
+     "step": 10,
+     "type": "revise",
+     "section": "sec4",
+     "slot": "s4.2",
+     "outcome": "done"
+    },
+    {
+     "step": 11,
+     "type": "write",
+     "section": "sec3",
+     "slot": "s3.3",
+     "outcome": "done"
+    },
+    {
+     "step": 12,
+     "type": "revise",
+     "section": "sec3",
+     "slot": "s3.3",
+     "outcome": "done"
+    }
+   ],
+   "text": "task: the delivery route\naudience: self\ntools: library=yes source=no\ndeadline: loose\nsections: sec1(3) sec2(3) sec3(3) sec4(2)\nlog:\n00 write sec2 s2.2 done\n01 write sec4 s4.2 done\n02 write sec2 s2.1 done\n03 write sec1 s1.1 done\n04 revise sec1 s1.3 done\n05 write sec1 s1.2 done\n06 write sec1 s1.3 done\n07 write sec3 s3.2 done\n08 revise sec3 s3.2 done\n09 write sec2 s2.3 done\n10 revise sec4 s4.2 done\n11 write sec3 s3.3 done\n12 revise sec3 s3.3 done\n13 stop"
+  },
+  {
+   "episode_ref": "earlier-3",
+   "topic": "the flood notice",
+   "sections": [
+    "sec1",
+    "sec2",
+    "sec3",
+    "sec4"
+   ],
+   "events": [
+    {
+     "step": 0,
+     "type": "write",
+     "section": "sec2",
+     "slot": "s2.2",
+     "outcome": "done"
+    },
+    {
+     "step": 1,
+     "type": "write",
+     "section": "sec1",
+     "slot": "s1.1",
+     "outcome": "done"
+    },
+    {
+     "step": 2,
+     "type": "check",
+     "section": "sec3",
+     "slot": "s3.1",
+     "outcome": "done"
+    },
+    {
+     "step": 3,
+     "type": "write",
+     "section": "sec2",
+     "slot": "s2.1",
+     "outcome": "done"
+    },
+    {
+     "step": 4,
+     "type": "write",
+     "section": "sec1",
+     "slot": "s1.2",
+     "outcome": "done"
+    },
+    {
+     "step": 5,
+     "type": "cite",
+     "section": "sec4",
+     "slot": "ref",
+     "outcome": "failed"
+    },
+    {
+     "step": 6,
+     "type": "check",
+     "section": "sec2",
+     "slot": "s2.1",
+     "outcome": "done"
+    },
+    {
+     "step": 7,
+     "type": "write",
+     "section": "sec4",
+     "slot": "s4.1",
+     "outcome": "done"
+    },
+    {
+     "step": 8,
+     "type": "revise",
+     "section": "sec2",
+     "slot": "s2.1",
+     "outcome": "done"
+    },
+    {
+     "step": 9,
+     "type": "check",
+     "section": "sec4",
+     "slot": "s4.1",
+     "outcome": "done"
+    },
+    {
+     "step": 10,
+     "type": "revise",
+     "section": "sec2",
+     "slot": "s2.2",
+     "outcome": "done"
+    },
+    {
+     "step": 11,
+     "type": "write",
+     "section": "sec3",
+     "slot": "s3.3",
+     "outcome": "done"
+    },
+    {
+     "step": 12,
+     "type": "write",
+     "section": "sec4",
+     "slot": "s4.2",
+     "outcome": "done"
+    },
+    {
+     "step": 13,
+     "type": "check",
+     "section": "sec1",
+     "slot": "s1.1",
+     "outcome": "done"
+    },
+    {
+     "step": 14,
+     "type": "fix",
+     "section": "sec2",
+     "slot": "s2.1",
+     "outcome": "done"
+    },
+    {
+     "step": 15,
+     "type": "write",
+     "section": "sec3",
+     "slot": "s3.1",
+     "outcome": "done"
+    }
+   ],
+   "text": "task: the flood notice\naudience: self\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(2) sec2(2) sec3(3) sec4(2)\nlog:\n00 write sec2 s2.2 done\n01 write sec1 s1.1 done\n02 check sec3 s3.1 done\n03 write sec2 s2.1 done\n04 write sec1 s1.2 done\n05 cite sec4 ref failed\n06 check sec2 s2.1 done\n07 write sec4 s4.1 done\n08 revise sec2 s2.1 done\n09 check sec4 s4.1 done\n10 revise sec2 s2.2 done\n11 write sec3 s3.3 done\n12 write sec4 s4.2 done\n13 check sec1 s1.1 done\n14 fix sec2 s2.1 done\n15 write sec3 s3.1 done\n16 stop"
+  }
+ ]
+}

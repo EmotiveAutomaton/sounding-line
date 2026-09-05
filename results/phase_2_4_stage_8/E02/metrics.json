@@ -1,0 +1,156 @@
+{
+ "card": "E02",
+ "lane": "discovery",
+ "written_at": "2026-09-04T10:12:47",
+ "env": {
+  "torch": "2.13.0+cu126",
+  "transformers": "5.14.1",
+  "datasets": "5.0.1",
+  "peft": "0.20.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0"
+ },
+ "results": {
+  "fm_qwen": {
+   "base": "Qwen/Qwen2.5-1.5B-Instruct",
+   "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+   "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\adapters\\fm_qwen\\frozen",
+   "sha": "7dce6645c26923f9",
+   "epoch": 2,
+   "heldout": {
+    "epoch": 2,
+    "train_loss": 0.22599284294992686,
+    "heldout_loss": 0.2283471854941421,
+    "n": 80,
+    "fm_next_move_ls": -2.4126561091737697,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.1444050471572659,
+    "epoch_s": 1400.1,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T09:49:32"
+   },
+   "band_ok": true,
+   "band_miss_nats": 0.0,
+   "pilot": false,
+   "seed": 8001,
+   "frozen_at": "2026-09-04T09:49:32",
+   "training_lineages_registry": "POP_CORPUS"
+  },
+  "fm_smollm": {
+   "base": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\adapters\\fm_smollm\\frozen",
+   "sha": "69e7cb84b5c15c2f",
+   "epoch": 2,
+   "heldout": {
+    "epoch": 2,
+    "train_loss": 0.22369948454201222,
+    "heldout_loss": 0.22745520246242565,
+    "n": 80,
+    "fm_next_move_ls": -2.4378868637210487,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.11917429260998666,
+    "epoch_s": 447.9,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T10:12:46"
+   },
+   "band_ok": true,
+   "band_miss_nats": 0.0,
+   "pilot": false,
+   "seed": 8001,
+   "frozen_at": "2026-09-04T10:12:46",
+   "training_lineages_registry": "POP_CORPUS"
+  }
+ },
+ "curves": {
+  "fm_qwen": [
+   {
+    "epoch": 0,
+    "train_loss": 0.29092775329947473,
+    "heldout_loss": 0.23972735485442404,
+    "n": 80,
+    "fm_next_move_ls": -2.4955281866799224,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.06153296965111288,
+    "epoch_s": 1704.4,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T08:58:15"
+   },
+   {
+    "epoch": 1,
+    "train_loss": 0.2337266219779849,
+    "heldout_loss": 0.23197892197941217,
+    "n": 80,
+    "fm_next_move_ls": -2.4581768611313697,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.09888429519966593,
+    "epoch_s": 1676.4,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T09:26:12"
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.22599284294992686,
+    "heldout_loss": 0.2283471854941421,
+    "n": 80,
+    "fm_next_move_ls": -2.4126561091737697,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.1444050471572659,
+    "epoch_s": 1400.1,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T09:49:32"
+   }
+  ],
+  "fm_smollm": [
+   {
+    "epoch": 0,
+    "train_loss": 0.32022905457764866,
+    "heldout_loss": 0.23972218532207795,
+    "n": 80,
+    "fm_next_move_ls": -2.491360860147552,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.06570029618348343,
+    "epoch_s": 442.7,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T09:57:46"
+   },
+   {
+    "epoch": 1,
+    "train_loss": 0.23169036630541087,
+    "heldout_loss": 0.2314417709726005,
+    "n": 80,
+    "fm_next_move_ls": -2.471003248776449,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.08605790755458642,
+    "epoch_s": 450.5,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T10:05:18"
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.22369948454201222,
+    "heldout_loss": 0.22745520246242565,
+    "n": 80,
+    "fm_next_move_ls": -2.4378868637210487,
+    "dom_next_move_ls": -2.5570611563310353,
+    "gap_fm_minus_dom": 0.11917429260998666,
+    "epoch_s": 447.9,
+    "batch": 4,
+    "n_examples": 1600,
+    "at": "2026-09-04T10:12:46"
+   }
+  ]
+ },
+ "monotone": {
+  "fm_qwen": true,
+  "fm_smollm": true
+ },
+ "repairs": {}
+}

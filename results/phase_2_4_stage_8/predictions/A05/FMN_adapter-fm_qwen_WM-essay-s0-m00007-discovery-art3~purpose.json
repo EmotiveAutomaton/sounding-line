@@ -1,0 +1,79 @@
+{
+ "abstain": false,
+ "arm": "FMN",
+ "canonical_sha": "0aade6acb5140b9e",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 1782,
+  "tokens_out": 0,
+  "wall_s": 4.02
+ },
+ "confidence": 0.6070901306798582,
+ "equivalence_class": [],
+ "evidence_sha": "b71810369a60f82e",
+ "notes": {
+  "adapter_sha": "7dce6645c26923f9",
+  "header": "task: the kiln schedule\naudience: editor\ntools: library=no source=yes\ndeadline: loose\nsections: sec1(3) sec2(3) sec3(2)\nmaker: The document is meant to teach a novice how something works.\nlog:",
+  "n_earlier": 3,
+  "option_lps": {
+   "check:sec1:s1.1": -2.007384777069092,
+   "check:sec3:s3.1": -2.25738525390625,
+   "cite:sec3:ref": -3.3067467212677,
+   "restructure:sec2:order": -4.884973049163818,
+   "revise:sec1:s1.2": -3.727323532104492,
+   "write:sec3:s3.1": -0.7451108694076538
+  },
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "stop_lp": -2.4470267295837402
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.15335733616187394,
+   "check:sec3:s3.1": 0.1194347565416686,
+   "cite:sec3:ref": 0.051238177513445685,
+   "restructure:sec2:order": 0.010247930829220323,
+   "revise:sec1:s1.2": 0.0322299131796795,
+   "write:sec3:s3.1": 0.633491885774112
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.1718124298865989,
+   "check:sec3:s3.1": 0.13380759113263735,
+   "cite:sec3:ref": 0.04685423566390277,
+   "restructure:sec2:order": 0.009667938346476055,
+   "revise:sec1:s1.2": 0.030767674290526754,
+   "write:sec3:s3.1": 0.6070901306798582
+  },
+  "next_section": {
+   "sec1": 0.20258010417712566,
+   "sec2": 0.009667938346476055,
+   "sec3": 0.7877519574763983
+  },
+  "next_type": {
+   "check": 0.30562002101923624,
+   "cite": 0.04685423566390277,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.009667938346476055,
+   "revise": 0.030767674290526754,
+   "write": 0.6070901306798582
+  },
+  "stop": 0.09966127443540025
+ },
+ "version": "PredictionV1"
+}

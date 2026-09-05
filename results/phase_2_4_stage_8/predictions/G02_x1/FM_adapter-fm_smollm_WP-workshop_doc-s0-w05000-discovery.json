@@ -1,0 +1,73 @@
+{
+ "abstain": false,
+ "arm": "FM",
+ "canonical_sha": "0a5a0994a73fbd39",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 376,
+  "tokens_out": 0,
+  "wall_s": 4.456
+ },
+ "confidence": 0.5030056380203527,
+ "equivalence_class": [],
+ "evidence_sha": "5e54f8eaa1e294e5",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the lathe manual\naudience: peer\ntools: library=no source=no\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(2)\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec2:s2.1": -0.7767521739006042,
+   "cite:sec3:ref": -3.277736186981201,
+   "consult:sec1:src": -2.7456769943237305,
+   "probe:sec1:tech": -1.0427534580230713
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.511009693145752
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec2:s2.1": 0.4783645332389283,
+   "cite:sec3:ref": 0.04445393494427581,
+   "consult:sec1:src": 0.07450286700832037,
+   "probe:sec1:tech": 0.4026786648084755
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec2:s2.1": 0.5030056380203527,
+   "cite:sec3:ref": 0.04124860795823777,
+   "consult:sec1:src": 0.07022304674768473,
+   "probe:sec1:tech": 0.3855227072737248
+  },
+  "next_section": {
+   "sec1": 0.4557457540214095,
+   "sec2": 0.5030056380203527,
+   "sec3": 0.04124860795823777
+  },
+  "next_type": {
+   "check": 0.5030056380203527,
+   "cite": 0.04124860795823777,
+   "consult": 0.07022304674768473,
+   "fix": 0.0,
+   "probe": 0.3855227072737248,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.08155447297512507
+ },
+ "version": "PredictionV1"
+}

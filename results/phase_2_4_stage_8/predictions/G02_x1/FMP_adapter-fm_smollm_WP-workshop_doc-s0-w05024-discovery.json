@@ -1,0 +1,136 @@
+{
+ "abstain": true,
+ "arm": "FMP",
+ "canonical_sha": "399fb99e4dbf3e3d",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 5,
+  "model_calls": 3,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 401,
+  "tokens_out": 0,
+  "wall_s": 3.278
+ },
+ "confidence": 0.3161836964460722,
+ "equivalence_class": [
+  "document",
+  "explore",
+  "persuade",
+  "teach"
+ ],
+ "evidence_sha": "b9c1d4e863070598",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the finishing guide\naudience: editor\ntools: library=no source=yes\ndeadline: tight\nsections: sec1(2) sec2(2) sec3(2)\ngoal: persuade\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -4.1284308433532715,
+   "check:sec2:s2.1": -4.706557750701904,
+   "check:sec3:s3.1": -4.409718036651611,
+   "cite:sec3:ref": -3.898867130279541,
+   "consult:sec1:src": -4.476866245269775,
+   "fix:sec2:s2.1": -4.555209159851074,
+   "probe:sec1:tech": -5.491878986358643,
+   "restructure:sec2:order": -4.429900646209717,
+   "revise:sec1:s1.2": -3.248622417449951,
+   "revise:sec2:s2.2": -3.3012757301330566,
+   "write:sec2:s2.1": -1.284879207611084,
+   "write:sec2:s2.2": -1.691129207611084,
+   "write:sec3:s3.2": -1.4149818420410156
+  },
+  "proposal": {
+   "abstain": true,
+   "confidence": 0.3042154090777081,
+   "equivalence_class": [
+    "document",
+    "explore",
+    "persuade",
+    "teach"
+   ],
+   "purpose": {
+    "document": 0.19641623058768065,
+    "explore": 0.2902843712324926,
+    "persuade": 0.3042154090777081,
+    "teach": 0.20908398910211862
+   },
+   "raw": {
+    "document": 0.1477996954596703,
+    "explore": 0.218433790000424,
+    "persuade": 0.22891664645683507,
+    "teach": 0.15733195684656615,
+    "unknown": 0.24751791123650446
+   },
+   "unknown": 0.24751791123650446,
+   "weights": "base"
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -3.9614124298095703
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.01850732138777159,
+   "check:sec2:s2.1": 0.010062256105477669,
+   "check:sec3:s3.1": 0.014189405975709677,
+   "cite:sec3:ref": 0.02472727112021628,
+   "consult:sec1:src": 0.012240166000411442,
+   "fix:sec2:s2.1": 0.01220098377844427,
+   "probe:sec1:tech": 0.004649508558997578,
+   "restructure:sec2:order": 0.013445570832798206,
+   "revise:sec1:s1.2": 0.04313870037795196,
+   "revise:sec2:s2.2": 0.039952413021105464,
+   "write:sec2:s2.1": 0.3242562831288843,
+   "write:sec2:s2.2": 0.21265246223130763,
+   "write:sec3:s3.2": 0.2699776574809239
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.01840774917575875,
+   "check:sec2:s2.1": 0.01032579175772156,
+   "check:sec3:s3.1": 0.01389438127386479,
+   "cite:sec3:ref": 0.023157887607456677,
+   "consult:sec1:src": 0.012992033018903832,
+   "fix:sec2:s2.1": 0.012013048215175905,
+   "probe:sec1:tech": 0.0047082843454632735,
+   "restructure:sec2:order": 0.013616767312150904,
+   "revise:sec1:s1.2": 0.04437073598570384,
+   "revise:sec2:s2.2": 0.04209491039006318,
+   "write:sec2:s2.1": 0.3161836964460722,
+   "write:sec2:s2.2": 0.21062374919616206,
+   "write:sec3:s3.2": 0.27761096527550305
+  },
+  "next_section": {
+   "sec1": 0.0804788025258297,
+   "sec2": 0.6048579633173458,
+   "sec3": 0.3146632341568245
+  },
+  "next_type": {
+   "check": 0.0426279222073451,
+   "cite": 0.023157887607456677,
+   "consult": 0.012992033018903832,
+   "fix": 0.012013048215175905,
+   "probe": 0.0047082843454632735,
+   "restructure": 0.013616767312150904,
+   "revise": 0.08646564637576702,
+   "write": 0.8044184109177372
+  },
+  "purpose": {
+   "document": 0.19641623058768065,
+   "explore": 0.2902843712324926,
+   "persuade": 0.3042154090777081,
+   "teach": 0.20908398910211862
+  },
+  "stop": 0.02129068263225133
+ },
+ "version": "PredictionV1"
+}

@@ -1,0 +1,216 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "210137541f1b87f6",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 253,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 56,
+  "tokens_out": 253,
+  "wall_s": 18.022
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "914a1242342205dc",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": "69e7cb84b5c15c2f",
+   "events": [
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.2",
+     "type": "check"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.1",
+     "type": "check"
+    },
+    {
+     "outcome": "done",
+     "section": "sec5",
+     "slot": "s5.1",
+     "type": "check"
+    },
+    {
+     "outcome": "done",
+     "section": "sec4",
+     "slot": "s4.1",
+     "type": "check"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.1",
+     "type": "fix"
+    },
+    {
+     "outcome": "done",
+     "section": "sec5",
+     "slot": "s5.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec4",
+     "slot": "s4.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec4",
+     "slot": "s4.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec5",
+     "slot": "s5.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.1",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.2",
+     "type": "write"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "s2.2",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec5",
+     "slot": "s5.1",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "s1.2",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.2",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "s3.1",
+     "type": "revise"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "src",
+     "type": "consult"
+    },
+    {
+     "outcome": "done",
+     "section": "sec1",
+     "slot": "tech",
+     "type": "probe"
+    },
+    {
+     "outcome": "done",
+     "section": "sec2",
+     "slot": "src",
+     "type": "consult"
+    },
+    {
+     "outcome": "done",
+     "section": "sec3",
+     "slot": "order",
+     "type": "restructure"
+    }
+   ],
+   "n_new_tokens": 253,
+   "raw": "00 write sec1 s1.1 done\n01 check sec2 s2.2 done\n02 check sec3 s3.1 done\n03 check sec5 s5.1 done\n04 check sec4 s4.1 done\n05 fix sec2 s2.1 done\n06 write sec5 s5.1 done\n07 write sec4 s4.2 done\n08 write sec1 s1.2 done\n09 write sec4 s4.1 done\n10 write sec5 s5.2 done\n11 write sec3 s3.1 done\n12 write sec2 s2.1 done\n13 write sec3 s3.2 done\n14 write sec2 s2.2 done\n15 revise sec2 s2.2 done\n16 revise sec5 s5.1 done\n17 revise sec1 s1.2 done\n18 revise sec3 s3.2 done\n19 revise sec3 s3.1 done\n20 consult sec1 src done\n21 probe sec1 tech done\n22 consult sec2 src done\n23 restructure sec3 order done",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec3:s3.1": 0.3333333333333333,
+   "check:sec4:s4.1": 0.3333333333333333,
+   "check:sec5:s5.1": 0.3333333333333333
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec3:s3.1": 0.3333333333333333,
+   "check:sec4:s4.1": 0.3333333333333333,
+   "check:sec5:s5.1": 0.3333333333333333
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.0,
+   "sec3": 0.3333333333333333,
+   "sec4": 0.3333333333333333,
+   "sec5": 0.3333333333333333
+  },
+  "next_type": {
+   "check": 1.0,
+   "cite": 0.0,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}

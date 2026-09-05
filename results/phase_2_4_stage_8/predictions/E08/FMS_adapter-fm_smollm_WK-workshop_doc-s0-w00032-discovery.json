@@ -1,0 +1,94 @@
+{
+ "abstain": false,
+ "arm": "FMS",
+ "canonical_sha": "675a722b8187897c",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 2,
+  "model_calls": 2,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 806,
+  "tokens_out": 0,
+  "wall_s": 8.661
+ },
+ "confidence": 0.33743234331132055,
+ "equivalence_class": [],
+ "evidence_sha": "3cfc004027c7d1f7",
+ "notes": {
+  "adapter_sha": "69e7cb84b5c15c2f",
+  "header": "task: the tool inventory\naudience: editor\ntools: library=yes source=yes\ndeadline: loose\nsections: sec1(2) sec2(2) sec3(2)\nmaker: The brief requires sec1, sec2; the audience is editor; the library is available and source access is available; the deadline is loose.\nmaker: The maker believes the library is available and source access is available, believes the deadline is loose, and believes no section is already checked.\nmaker: The maker is strongest at write and revise, weakest at restructure and probe; of the skilled moves, the maker can carry out fix; no fixed sequence habits; choices are erratic and an episode usually runs about 10 moves.\nmaker: As the maker sees it, the library is usable, source access is usable, the deadline feels loose, the audience matters a lot, and no section is taken as already checked.\nmaker: The moves the maker sees as open right now: write:sec3:s3.1, revise:sec1:s1.1, revise:sec3:s3.2, revise:sec3:s3.1, check:sec1:s1.1, check:sec3:s3.1, consult:sec1:src, cite:sec3:ref, fix:sec2:s2.1.\nmaker: Right now the maker is pulled most strongly toward draftsing work, then toward repairsing, and least toward checksing.\nmaker: The maker carries a standing habit of check and no held intention.\nlog:",
+  "n_earlier": 0,
+  "option_lps": {
+   "check:sec1:s1.1": -2.5929129123687744,
+   "check:sec3:s3.1": -2.7959933280944824,
+   "cite:sec3:ref": -3.9200332164764404,
+   "consult:sec1:src": -2.981271743774414,
+   "fix:sec2:s2.1": -2.1836962699890137,
+   "probe:sec1:tech": -3.3718931674957275,
+   "restructure:sec2:order": -2.808816432952881,
+   "revise:sec1:s1.1": -3.0378224849700928,
+   "revise:sec3:s3.1": -3.6785521507263184,
+   "revise:sec3:s3.2": -3.6316771507263184,
+   "write:sec3:s3.1": -1.341612458229065
+  },
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "stop_lp": -2.730415105819702
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec1:s1.1": 0.08781934672833101,
+   "check:sec3:s3.1": 0.07167901828432978,
+   "cite:sec3:ref": 0.03135037734187287,
+   "consult:sec1:src": 0.07295955030862998,
+   "fix:sec2:s2.1": 0.1498304661424951,
+   "probe:sec1:tech": 0.04360267326697699,
+   "restructure:sec2:order": 0.07394642055502545,
+   "revise:sec1:s1.1": 0.0668922203378982,
+   "revise:sec3:s3.1": 0.03665917362038177,
+   "revise:sec3:s3.2": 0.0384184840955256,
+   "write:sec3:s3.1": 0.3268422693185333
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec1:s1.1": 0.09655034400246518,
+   "check:sec3:s3.1": 0.07880560754643673,
+   "cite:sec3:ref": 0.025609010640667396,
+   "consult:sec1:src": 0.0654774455379062,
+   "fix:sec2:s2.1": 0.14536985430386307,
+   "probe:sec1:tech": 0.04430441425580771,
+   "restructure:sec2:order": 0.07780152645455508,
+   "revise:sec1:s1.1": 0.061877399455339335,
+   "revise:sec3:s3.1": 0.03260368547805584,
+   "revise:sec3:s3.2": 0.03416836901358288,
+   "write:sec3:s3.1": 0.33743234331132055
+  },
+  "next_section": {
+   "sec1": 0.26820960325151844,
+   "sec2": 0.22317138075841814,
+   "sec3": 0.5086190159900634
+  },
+  "next_type": {
+   "check": 0.1753559515489019,
+   "cite": 0.025609010640667396,
+   "consult": 0.0654774455379062,
+   "fix": 0.14536985430386307,
+   "probe": 0.04430441425580771,
+   "restructure": 0.07780152645455508,
+   "revise": 0.12864945394697805,
+   "write": 0.33743234331132055
+  },
+  "stop": 0.07761565139390685
+ },
+ "version": "PredictionV1"
+}

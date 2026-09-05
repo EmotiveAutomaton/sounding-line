@@ -1,0 +1,45 @@
+{
+ "card": "G06",
+ "cell_id": "G06",
+ "lane": "discovery",
+ "track": "purpose",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 18.49,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "the X04 crossover on G01",
+ "exec": "COMPLETE",
+ "outcome": "COUNTEREVIDENCE",
+ "primary": "Does purpose recall survive paraphrase of the artifact and fail under a meaning change?",
+ "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. {\"adapter:fm_qwen\": {\"base\": 0.2708333333333333, \"para\": 0.3541666666666667, \"mean\": 0.3125, \"paraphrase_survives\": true, \"meaning_falls\": false, \"crossover\": false}, \"adapter:fm_smollm\": {\"base\": 0.4583333333333333, \"para\": 0.5208333333333334, \"mean\": 0.5833333333333334, \"paraphrase_survives\": true, \"meaning_falls\": false, \"crossover\": false}}",
+ "conditional_cells": {
+  "adapter:fm_qwen": {
+   "outcome": "FAIL",
+   "point": 0.2708333333333333
+  },
+  "adapter:fm_smollm": {
+   "outcome": "FAIL",
+   "point": 0.4583333333333333
+  }
+ },
+ "diagnosis_only": true,
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G06\\metrics.json",
+    "sha256": "0b127dfdc864a10be9e5a66c95750027f20ddc3f02c3c4480bf41f16a36581e3"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\G06\\cases.jsonl",
+    "sha256": "da200adc0f3c7cca25515f7ba4907d236a40414cc8b5c696ffaa130d13719bfe"
+   }
+  },
+  "written_at": "2026-09-04T19:51:37"
+ }
+}

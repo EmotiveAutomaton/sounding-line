@@ -1,0 +1,69 @@
+{
+ "abstain": false,
+ "arm": "GEN",
+ "canonical_sha": "02e7af1711e69e18",
+ "compute": {
+  "cache_hits": 0,
+  "forward_passes": 336,
+  "model_calls": 1,
+  "retries": 0,
+  "solver_operations": 0,
+  "tokens_in": 56,
+  "tokens_out": 336,
+  "wall_s": 17.767
+ },
+ "confidence": 0.5,
+ "equivalence_class": [],
+ "evidence_sha": "bb4aa599b280d5d9",
+ "notes": {
+  "fill": "the process targets are uniform fills; this arm answers its own target",
+  "generated": {
+   "adapter_sha": null,
+   "events": [],
+   "n_new_tokens": 336,
+   "raw": "# 2023-04-13 11:16:28.100  INFO 14450 --- 2.082 --- [          main] o.h.e.s.SqlConnection : Connection is now open for the time of 12 months, 82 days, 20 hours, 29 minutes and 58 seconds\n# 2023-04-13 11:16:28.844  INFO 14450 --- 2.082 --- [          main] o.h.j.j.e.a.jdbc.AbstractExecutorService$TxInfo : Starting transaction (state READY) with a transaction manager of type org.apache.hadoop.hbase.client.HTableFactoryImpl@f3973a0 which uses Hadoop JMS messaging between instances of HBase. Note that the JMS connection used here will be closed once JMS is down\n# 2023-04-13 11:16:29.532  INFO 14450 --- 2.082 --- [          main] o.r.a.c.c.s.ConnectionSource : SPOOL_STARTUP_FILE=${F_SPOOL_STARTUP_FILE} SPOOL_FILE=${F_SPOOL_FILE} SPOOL_TIMEOUT=",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "stopped": false
+  }
+ },
+ "targets": {
+  "boundary_type": {
+   "deadline": 0.25,
+   "equivalent": 0.25,
+   "fatigue": 0.25,
+   "satisfaction": 0.25
+  },
+  "changed_context": {
+   "check:sec3:s3.1": 0.5,
+   "cite:sec5:ref": 0.5
+  },
+  "invalidation": {
+   "correct": 0.3333333333333333,
+   "retain": 0.3333333333333333,
+   "rewrite": 0.3333333333333333
+  },
+  "next_action": {
+   "check:sec3:s3.1": 0.5,
+   "cite:sec5:ref": 0.5
+  },
+  "next_section": {
+   "sec1": 0.0,
+   "sec2": 0.0,
+   "sec3": 0.5,
+   "sec4": 0.0,
+   "sec5": 0.5
+  },
+  "next_type": {
+   "check": 0.5,
+   "cite": 0.5,
+   "consult": 0.0,
+   "fix": 0.0,
+   "probe": 0.0,
+   "restructure": 0.0,
+   "revise": 0.0,
+   "write": 0.0
+  },
+  "stop": 0.5
+ },
+ "version": "PredictionV1"
+}
