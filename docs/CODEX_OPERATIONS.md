@@ -232,8 +232,9 @@ its prompt reaches the owner; `acknowledged` remains reserved for completed writ
 native queue. This receipt was recorded by the agent, not fabricated as a hook event.
 The research landing batch subsequently reached the owner and left the native queue.
 `landing-delivery-receipt.json` records its seven matching hashes, readable file formats,
-fresh watcher heartbeat, and absence of native hook audit entries. Its final-produce events
-remain unacknowledged pending scientific write-through. Checking final-file metadata does
+fresh watcher heartbeat, and absence of native hook audit entries at that earlier inspection.
+Its final-produce events remained unacknowledged until the subsequent full write-through
+and corrected-packet delivery in L371/L372; all seven are now acknowledged. Checking final-file metadata does
 not convert a final-produce event into a liveness-only event.
 
 If a queued turn arrives but the hook audit remains empty, do not declare native execution
