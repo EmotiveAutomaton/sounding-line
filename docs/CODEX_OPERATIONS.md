@@ -27,9 +27,22 @@ The latest reconciliation verified the saved defaults at both Sounding Line entr
 and the installed shared command-rule hash. The supported client permission menu was set
 to **Approve for me**. In this installed extension that preset uses the native automatic
 reviewer (`guardian_subagent`, accepted alongside `auto_review`) with a workspace sandbox
-and network access off. The turn already in progress still records `never`, Full Access
-and the user reviewer; adoption requires inspection of the next turn's effective context.
-The local `.agent-state/permission-recheck.json` separates saved configuration from runtime.
+and network access off. Effective adoption is now verified from the native rollout's
+fresh turn context at 2026-09-06 15:41:34 UTC: `on-request`, `auto_review`,
+`workspace-write`, and `network_access: false`. The managed filesystem profile permits
+the enclosing SoundingLine workspace and temporary directories, with the runtime's
+protected metadata exclusions. This is not an OS write prohibition on `reference/`;
+the separate project instruction forbidding reference edits still applies.
+
+Actual `UserPromptSubmit`, `PreToolUse` and `PostToolUse` audit rows name this new turn.
+The earlier successful targeted window reload already established native startup-hook
+execution. The final permission-reload helper did not invoke its command: it stopped
+when the command-palette match was not unique, but its queued continuation succeeded.
+The new turn adopted the supported client permission selection without another reload;
+do not describe the failed second invocation as a successful reload. No further restart
+is needed for the verified settings. Local `.agent-state/permission-adoption-evidence.json`
+contains the native turn context and audit rows; the earlier configuration and reload
+receipts remain separate historical evidence.
 
 ## Reading continuity (curator-approved 2026-09-06)
 

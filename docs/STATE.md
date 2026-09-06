@@ -61,12 +61,17 @@ updated PostCompact hooks actually executed in the registered owner; idle queued
 verified separately. The complete initial theory read is finished (local progress receipt);
 after compaction resume only newly unread or changed portions and re-read relevant owners.
 The supported client menu is set to Approve for me and saved defaults match Agent Core GPT:
-workspace sandbox, network off, on-request with native automatic review. The current
-already-running turn still reports Full Access/never; next-turn adoption must be verified
-after the authorized targeted window reload. Saved configuration is not runtime evidence.
+workspace sandbox, network off, on-request with native automatic review. The fresh turn
+at 15:41:34 UTC now confirms those settings in the native rollout, with prompt/pre/post-tool
+hook audit entries belonging to that turn. The second reload helper stopped before invoking
+its ambiguous palette command; its queued continuation adopted the already selected mode.
+The earlier successful reload and startup-hook acceptance remain separately verified.
+The effective workspace is the enclosing SoundingLine folder, not an exclusive inner-repo
+write boundary; reference edits remain forbidden by project instruction.
 
-**Next eligible action:** complete release verification/push and the permission reload
-acceptance check, then the curator's verbal Stage 8 pass. Do not rerun finished maintenance
+**Transition acceptance is complete.** Implementation and maintenance were pushed at
+`2e4402afe`; this final acceptance update records actual runtime adoption.
+**Next eligible action:** the curator's verbal Stage 8 pass. Do not rerun finished maintenance
 jobs merely to keep gear two busy. All seven original and three maintenance events are acknowledged after full write-through
 and final-packet delivery; the watcher is healthy with no pending events. No delegation or Ghost/reference edits.
 

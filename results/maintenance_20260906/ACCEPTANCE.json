@@ -11,5 +11,21 @@
   "gear2_workload": "3 jobs, drained 08:17:15 PDT",
   "admission": "zero",
   "scientific_grade": "diagnosis; curator processing pending",
-  "runtime_permission_adoption": "saved and client-selected; next-turn acceptance pending"
+  "runtime_permission_adoption": {
+    "verified_at_utc": "2026-09-06T15:41:34.125Z",
+    "approval_policy": "on-request",
+    "reviewer": "auto_review",
+    "sandbox": "workspace-write",
+    "network_access": false,
+    "basis": "native turn_context, not saved configuration",
+    "workspace_scope": "enclosing SoundingLine workspace and temporary directories; protected metadata exclusions",
+    "native_hooks_this_turn": [
+      "PostToolUse",
+      "PreToolUse",
+      "UserPromptSubmit"
+    ],
+    "earlier_startup_after_reload_verified": true,
+    "second_reload_invoked": false,
+    "continuation_accepted": true
+  }
 }

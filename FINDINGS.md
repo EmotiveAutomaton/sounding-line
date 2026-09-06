@@ -16553,17 +16553,31 @@ and the completed list passes resource and duplicate-produce checks. No new expe
 commissioned and no research score was changed. The lock-perturbation test now uses a temporary
 copy instead of touching the live locked family.
 
-**Meaning.** This is infrastructure, not new scientific warrant. Stage 8's original process
-closed and its successor queue drained. Its final scientific packet still requires the
-maintenance handoff's admission/integrity review and analyst write-through. Existing results
-and transient capsule deletions were preserved. No new research tests were harvested.
+**Final acceptance, 2026-09-06.** The next native turn context at 15:41:34 UTC records
+on-request approval, the automatic reviewer, a workspace sandbox and network access off.
+Actual prompt, pre-tool and post-tool audit rows belong to that turn. The first targeted
+window reload had already verified native startup execution. The final helper stopped
+before its second reload command because the palette match was not unique, but its queued
+continuation succeeded and adopted the client selection. This is effective runtime proof,
+not an inference from saved settings or a manually inserted hook receipt.
+
+**Meaning.** This is infrastructure, not new scientific warrant. The authorized maintenance
+and final scientific write-through are now complete (OPS-ERRATA-2, L371/L372). The three
+gear-two repair jobs drained and all ten events were acknowledged after landing. All
+246 snapshot files still match the original stage evidence; the nineteen tracked capsule
+files removed by runtime cleanup were restored from their exact committed bytes. Release
+verification passed 167 tests, both standalone guard suites and all 21 locks. The effective
+write workspace is the enclosing project folder; the reference-edit prohibition remains
+a project instruction, not an exclusive inner-repo filesystem boundary. No new research
+tests were harvested from transport or acceptance messages.
 
 **Curator roll-up.** Theory group: research infrastructure. Question: can the coding-agent
 transition preserve the existing operating contract? Class: **Infrastructure**. Result:
 the migration is installed with exact native hook trust and a durable pending-landings queue.
 Project meaning: the coding environment changes without promoting scientific claims.
-Next engineering obligation: the curator-authorized coding-agent errata maintenance pass.
-Research write-through remains separate from transport receipt. Public claim: unchanged.
+Next engineering obligation: none for transition acceptance; subsequent scientific pursuit
+awaits the curator's verbal pass. Research write-through remains separate from transport
+receipt. Public claim: unchanged.
 Curator decision required: No.
 Detail: `docs/CODEX_OPERATIONS.md`; local `.agent-state/` installation and acceptance receipts.
 

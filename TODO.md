@@ -29,10 +29,13 @@ method sketch and its gate.
 
 ## Phase 0 — running or just landed
 
-**OPS-CODEX-1: installed and native hooks/wake verified.** Shared permission defaults
-match Agent Core GPT; the client selects Approve for me. The current running turn retains
-its old Full Access context. Finish next-turn runtime adoption verification after the
-authorized targeted reload, and repository push. See docs/CODEX_OPERATIONS.md.
+**OPS-CODEX-1: COMPLETE, including effective permissions.** The fresh turn at
+2026-09-06 15:41:34 UTC records on-request, native automatic review, workspace-write and
+network off; actual prompt/pre/post-tool hooks ran in that turn. The first targeted reload
+established startup-hook execution. The final helper's second reload invocation failed,
+but its queued continuation adopted the client selection, completing acceptance without
+another restart. Implementation/maintenance are pushed at `2e4402afe`; the final acceptance
+receipt accompanies this update. See docs/CODEX_OPERATIONS.md.
 
 **OPS-ERRATA-1/2 and OPS-READOUT-1/2/3: maintenance landed 2026-09-06.** Admission,
 confirmation identity, final integrity, actual source receipts, inherited-reader dependency
