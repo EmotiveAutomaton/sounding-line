@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-05.**
+**Last updated: 2026-09-06.**
 
 ---
 
@@ -51,6 +51,18 @@ interpretability at once, and the same word means different things in each.
 ---
 
 ## Where we are, in one paragraph
+
+**2026-09-06 current state.** Stage 8 is closed and the final scientific write-through is
+complete in L371/L372 and the [corrected final packet](results/maintenance_20260906/STAGE8_CURATOR_PACKET_CORRECTED.md).
+Both trained readers passed prediction and failed generation, so composite admission and
+confirmation counts are zero. Difference, purpose and accumulation findings remain diagnosis.
+Affected inherited direct-reader and supplied-state interpretations are limited by the
+maintenance audit; unaffected FM-versus-domain and learned-law evidence remain. No Stage 9
+has been selected. The authorized gear-two repair workload completed and drained at
+08:17:15 PDT. S1-S5/D1-D5 and workflow corrections are recorded in OPS-ERRATA-1/2 and
+OPS-READOUT-1/2/3; the future matched-information scientific comparison remains separate.
+
+**Historical snapshot retained:**
 
 **2026-08-29.** Stage 5 (routed joint reconstruction, 29 cards) ran under second gear from 11:49
 to 13:04 (RUN_TO_EMPTY; one confirmation, R02, L281; packet and synthesis at
@@ -2254,8 +2266,8 @@ assumptions. **The bounded hypothesis family is the load-bearing prior**, worth 
 baseline alone, while a known planner barely doubles it, and the two compound to forty times,
 holding under noise. Read against §7's table, "convergent midbrains" is the assumption doing the
 heavy lifting in this toy, and near-optimality only pays once the family is already bounded.
-Means: the project's convergence position now has a running existence proof at toy scale, that
-substantive priors buy large posterior narrowing without unique identification (0.31 is nowhere
+Means: substantive priors buy finite-data posterior narrowing in this toy family,
+without demonstrating asymptotic convergence or unique identification (0.31 is nowhere
 near 1.0, exactly as the position claims). A seven-state chain with one-step lookahead is the
 loudest caveat; the gridworld recreation (G137) is where this grows teeth.
 
@@ -14292,6 +14304,8 @@ stop events with their own floor (a per-event proper score), declared before the
 
 ## L335 · The supplied-state gate fails on both readers: handed the COMPLETE executable maker state (context, beliefs, law, maker context, subjective action set, goal, residue), the direct reader predicts the next feasible action worse than the frozen common-domain model, −0.46 [−0.74, −0.18] nats for SmolLM2 and −2.62 [−3.42, −1.82] for Qwen2.5-1.5B on 48 paired worlds, while the capsule solver run on the same bytes reproduces the exact oracle on every world; the boundary is state USE, not state recovery, and the factor-inference rungs close for this target
 
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** The direct text rounds numeric parameters and omits the solver's full operative law and execution access. Its next-action scores also depend on the defective grouped readout. The claim that this cleanly isolates state USE rather than supply is withdrawn; the solver-oracle equality remains evidence about the program. Original measurements and the historical account below are retained.
+
 **Hypothesis.** Brief §10 K04: can a bounded reader use a complete supplied executable maker
 state to predict the hidden next feasible action better than the frozen common-domain model
 (the §12.4 floor: 20 percent of the oracle-minus-DOM gap, here 0.126 nats)?
@@ -14339,6 +14353,8 @@ that program and these readers is the measurement.
 > construction family). Decision: **No**. Detail: results/phase_2_4_stage_7/K04/.
 
 ## L336 · The supplied-state ladder lands under the failed gate: every single true factor handed to the readers (context, action space, law, belief, goal) leaves them under the domain model on both readers, the language rendering does no better than the executable one (SmolLM2 −0.34 [−0.68, +0.03], Qwen −3.30), the readers follow the oracle's reversal on a swapped belief or goal in 14 and 5 percent of the pairs where it reverses, the complete state does not improve the stop hazard, and the paraphrase attack fails on the language-state reader (TV 0.57 under paraphrase against 0.59 under a meaning change), so the reader's language-state claims close
+
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** The direct/prose arms inherit the grouped option and invalid-component defects; supplied prose and executable solver information are not operationally matched. Their historical scores and perturbations cannot isolate an inability to use fully specified state. Original measurements and the historical account below are retained.
 
 **Hypothesis.** Brief §10 K05 to K10 and K15: given the failed K04 gate, does any single true
 factor, or the language rendering of the whole state, lift a reader over the frozen domain
@@ -14580,6 +14596,8 @@ draws (the base, the confirmation, the second lineage) agree on the program resu
 > results/phase_2_4_stage_7/K14.
 
 ## L340 · Size does not cross the state-use boundary: handed the complete executable maker state, four readers from 0.5B to the 9B route all predict the next feasible action under the frozen domain model (−1.66, −2.50, −3.10, and −1.06 nats), the 9B least badly and still a nat under, and giving each reader the solver's own output line beside the state (expanded compute) changes nothing for the small ones and hurts the 3B and the 9B (−4.20 and −2.05); the 9B's accuracy edges the domain model's (0.17 against 0.14) while its log score says its confident answers are wrong
+
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** The direct and expanded-prose readouts inherit option truncation. The 9B route changes model family/version, quantization, server and scoring as well as size. A pure size boundary or proof that larger readers cannot use state is unsupported. Original measurements and the historical account below are retained.
 
 **Hypothesis.** Brief §10 K16, the diagnosis under the failed K04 gate: does the state-use
 failure shrink with reader size (Qwen2.5 0.5B, 1.5B, 3B, and Qwen3.5 9B through Ollama), or
@@ -15254,6 +15272,8 @@ and nothing beyond the prior.
 
 ## L349 · With the complete maker state supplied in executable form, a larger local model does not use it better: on the A family the joint arm sits 1.0, 1.6, and 3.1 nats under the domain model at 0.5B, 1.5B, and 3B (worse with size, each interval below zero) and 0.55 nats [−1.63, +0.36] under it on the 9B route, while goal recall rises with size to 0.67; the ladder K16 read on the K family (L340) repeats here as a diagnosis under the failed supplied-state gate
 
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** The size ladder changes the 9B package in several ways. Comparisons to free text inherit the readout limitation, and all supplied-state comparisons lack a fully matched operative-information contract. Joint-arm scores against the domain model remain recorded results; they do not isolate a pure size effect. Original measurements and the historical account below are retained.
+
 **Hypothesis.** Brief §10 A16: conditional on the supplied-state gate (K04), does a larger
 local model improve factor use, or only the verbal quality of its proposals? Under §12.2
 routing the gate failed (K04, L335), so the ladder reads as a diagnosis.
@@ -15297,6 +15317,8 @@ question; nothing in this ladder says a larger model would.
 > Detail: results/phase_2_4_stage_7/A16.
 
 ## L350 · Over the whole withheld tail (up to four events, teacher-forced), the joint reader is a nat under the domain model summed over the tail on both readers (−1.24 [−3.32, +0.30] and −1.11 [−3.11, +0.51]), the loss spread across every event rather than concentrated at the queried one, and the free-text reader is 2.7 and 8.7 nats under; no model improves the tail
+
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** The direct tail arm calls the defective helper, but the per-event prediction references needed to recover actual candidate counts are absent on 110 aggregate rows across the base and expansion. Those direct contrasts remain unresolved, not diagnosed from guessed counts. Joint-versus-domain evidence is retained. Original measurements and the historical account below are retained.
 
 **Hypothesis.** Brief §10 P09: does the model improve the whole withheld tail rather than
 one queried event, and where along the tail does any gain or loss sit?
@@ -15347,6 +15369,8 @@ and its rung agree on every line, so the tail result is not a draw of worlds.
 > Next obligation: the ladder's R13 rung; the closure cells. Public claim: none. Decision: **No**. Detail: results/phase_2_4_stage_7/P09.
 
 ## L351 · A control discontinuity in a mixed human-and-model revision history is read from the process record by process statistics and by nothing else: the process reader localizes a one-time switch within two events on 80 percent of human-then-model histories (log score −1.02 against the stylometry-weighted stack's −2.59), survives the style-matched adversary where stylometry sits at chance (+1.92 nats [+1.30, +2.40] over the stack), does not localize alternating control (−4.11) and puts three quarters of its mass on a spurious change under a pure style shift; both free-text readers are under the stack on every kind (−1.45 [−1.89, −0.95]); from the final artifact alone no program localizes anything and the direct reader reads under uniform
+
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** The direct change-point reader offers 20 positions and is exposed to finalist truncation (146 saved prediction rows). Its three-way change-type target does not have that truncation. The process-program result survives this defect; direct-reader inferiority cannot establish an artifact or reader impossibility. Original measurements and the historical account below are retained.
 
 **Hypothesis.** Brief §7.3 and §16.4 (P11): the location and type of a control change in a
 mixed human-and-model revision history are recoverable from the process record beyond
@@ -15730,6 +15754,8 @@ the third slot, had no frozen claim (P11 inconclusive) and landed as not run; th
 
 ## L357 · STAGE 7 CLOSES SHORT at hour 15.0 of 72 with the whole locked workload and ladder exhausted: 124 of 124 mandatory cells landed (15,158 rows; 50 infrastructure passes, 18 descriptive, 19 inconclusive, 13 counterevidence, 3 valid nulls, 10 support candidates, 7 instrument failures of which 4 are the integrity block's own should-break cases, 3 void, 1 not run); the freeze took two claims and both confirmed on untouched lineages as program results (the learned law transfers, +0.62 [+0.25, +1.02]; a synthesized agent model beats free text by 3.6 nats and loses to the domain prior); no reader arm beat the domain model on any target, rung, regime, or record; the packet is at results/phase_2_4_stage_7/CURATOR_PACKET_FINAL.md
 
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** The Stage 7 instrument-whole and universal reader/state-use conclusions are superseded for affected direct-reader dependencies. Preserve learned-law and solver-versus-domain evidence and the original confirmation rows. A confirmation against a defective direct baseline cannot by itself validate the size of a structural advantage. Original measurements and the historical account below are retained.
+
 **Hypothesis.** The brief's eight questions (§10): did the physical evidence boundary hold;
 could any reader use a complete supplied maker model; was the bottleneck proposal coverage,
 representation, inference, or capacity; could the system learn a maker law rather than select
@@ -16100,6 +16126,8 @@ a maker effect is the family's surface at the divergent events. Class: **Narrows
 
 ## L366 · EARLIER ARTIFACTS BY THE SAME MAKER DO NOT ACCUMULATE: on 48 maker series the trained readers' surprise alignment on the fourth artifact moves by −0.002 and +0.016 [−0.003, +0.035] when zero to three earlier artifacts by the same maker stand in context, not monotone on either reader, and every N cell sits 0.25 to 0.29 of AUROC under the domain model; the pooling attack finds no sign reversal hidden in 24 conditional cells, and the pricing attack passes once the compute ledger stops erasing a first attempt's counts on a re-analysis
 
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** The larger A01/x1 result is now landed as L371: a small paired gain on Qwen, an interval spanning zero on SmolLM2, no monotone dose response and every reader-condition below the domain model. The categorical headline that nothing accumulates is superseded by that bounded diagnosis. Original measurements and the historical account below are retained.
+
 **2026-09-04, Stage 8, discovery lane, gear two (his call at 19:53).** DIAGNOSIS on readers the generation
 gate did not admit (L360). A01 ran 210 minutes on the card (per-event scoring of 384 reader rows, all valid).
 
@@ -16223,6 +16251,8 @@ harder object by construction, not the maker's goal being less readable. Class: 
 > licensed). Decision: **No**. Detail: results/phase_2_4_stage_8/{G05,G08,X07}.
 
 ## L363 · THE PROPOSED PURPOSE ADDS NOTHING TO THE TRAINED READER, WHICH SITS A NAT OVER THE DOMAIN MODEL ON THE TAIL EVENTS EITHER WAY: on 80 purpose worlds the reader executing its own proposed purpose beats the domain model by +0.18 nats [−0.02, +0.39] on the whole log and by +1.01 [+0.65, +1.39] on the tail events (SmolLM2 +0.10 and +0.87), but against the same reader with no purpose the proposal is null or worse (−0.03 [−0.09, +0.04] and −0.08 [−0.15, −0.01]) and the true purpose supplied is worth +0.25 against the domain model where the plain reader is worth +0.21; the changed-context choice improves by +0.07 [+0.02, +0.13] on one reader and worsens by the same on the other, pooled zero; the order attack passes once its bound is set at fp16 batch noise
+
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** X05 first failed its 1e-6 total-variation tolerance (0.0013197764), then passed an outcome-informed 0.01 amendment on retained rows. This is not fresh confirmation or a predeclared fp16 bound. Independent fixed-input precision measurements are in OPS-READOUT-3; proposed/true-purpose FM contrasts against the plain FM remain separate from DIR0 defects. Original measurements and the historical account below are retained.
 
 **2026-09-04, Stage 8, discovery lane, gear one.** DIAGNOSIS on readers the generation gate did not admit
 (L360); no reader claim; the tail support is barred from confirmation by the diagnosis label.
@@ -16409,6 +16439,8 @@ to watch. Class: **Narrows** (the reader claims were already closed; this narrow
 
 ## L360 · THE READER PREDICTS BUT DOES NOT PRODUCE: both trained readers fail the generation gate after its one repair (logs feasible under the visible structure on 72% and 57% of worlds against a required 100 percent, medians -3.18 and -2.77 nats per event under the population's 20th percentile of -2.65), so no reader is admitted and the reader claims close by the brief's rule; the untrained readers fail both gates by one to two nats; a true context beats a false one by +0.06 nats [-0.02, +0.17] with both above the domain model; the frontier probe fails the expertise band by -2.64 nats; the complete state supplied as header lines moves the trained reader -0.08 nats against the domain model where the solver executing the same state gains +0.83
 
+**2026-09-06 maintenance correction (OPS-ERRATA-2).** E04 changed feasibility from hidden inventory to visible-header legality after inspection; both readers still fail, so composite admission is zero. E08 repaired solver execution without making the direct text carry the same operative information. DIR0 contrasts inherit the option defect where actual support exceeds its reliable range; FM-versus-domain scores do not. Original measurements and the historical account below are retained.
+
 **Hypothesis.** The second half of the first executive question (can the reader make?): a reader
 that predicts the standard process should also produce it, writing a whole log from the header
 alone whose likelihood under the exact standard process sits at or above the real logs' 20th
@@ -16483,6 +16515,205 @@ in this stage is diagnosis.
 > Public claim: unchanged (none licensed). Decision: **Yes**, whether the diagnosis cells' results
 > may inform a Stage 9 gate design (recommended: yes, as diagnosis, never as claims). Detail:
 > results/phase_2_4_stage_8/E04, E05, E06, E07, E08; INTERRUPTS.json.
+
+## OPS-CODEX-1: The operating contract moves to Codex
+
+**Hypothesis.** The existing research environment can keep its operating discipline while
+its coding agent changes from Claude/Fable to Codex/GPT.
+
+**METHOD.** Ported the canonical instructions and grind skill, adapted the existing linters
+to Codex patch and shell payloads, tested known failure cases and rollback in temporary
+roots, queried the installed Codex runtime for actual discovery and trust, and tested
+completion/input notification delivery through the existing private bus. Research model
+arms, frozen adapters, scientific scorers, and run clocks were retained.
+
+**Finding.** The instructions, skills, nine trusted hook definitions at each supported
+entry point, private notifications, and durable final-produce watcher are installed.
+All 160 pytest tests and both standalone Stage 7/8 guard programs (30/30 and 22/22) pass; all 21 hash locks
+hold. The notification bus accepted both labeled test messages. The watcher recorded seven
+Stage 8 landings that occurred during migration and queued one batch to the existing owner.
+A live restart loaded the current watcher code and retained all seven events with the same
+queue IDs and attempt counts, without retransmission. Project-local Claude hooks are retired
+with their exact original configuration archived for rollback.
+The migration transport probe resumed the existing conversation after its final response,
+was acknowledged with its exact marker, and is absent from the remaining native queue.
+That verifies the idle wake. A targeted reload of this project's VS Code window then
+produced actual startup, prompt, pre-tool and post-tool audit entries in the registered
+owner, completing native execution acceptance. The shared Agent Core notification policy
+is respected: automated approval review does not page the curator; explicit questions do.
+The watcher's separate landing batch also reached the same conversation and left the native
+queue. File inspection found all seven hashes identical to their queued versions, the JSON
+files parseable, and the final packet readable. The original scheduler and successor queue
+owners have exited. These are operational receipts only; no scientific landing was marked
+processed, and no tests were harvested from the transport messages.
+
+The full suite also exposed an existing queue metadata defect: twelve late-added stages
+escaped resource declaration. Their actual runners now supply explicit CPU/GPU declarations,
+and the completed list passes resource and duplicate-produce checks. No new experiment was
+commissioned and no research score was changed. The lock-perturbation test now uses a temporary
+copy instead of touching the live locked family.
+
+**Meaning.** This is infrastructure, not new scientific warrant. Stage 8's original process
+closed and its successor queue drained. Its final scientific packet still requires the
+maintenance handoff's admission/integrity review and analyst write-through. Existing results
+and transient capsule deletions were preserved. No new research tests were harvested.
+
+**Curator roll-up.** Theory group: research infrastructure. Question: can the coding-agent
+transition preserve the existing operating contract? Class: **Infrastructure**. Result:
+the migration is installed with exact native hook trust and a durable pending-landings queue.
+Project meaning: the coding environment changes without promoting scientific claims.
+Next engineering obligation: the curator-authorized coding-agent errata maintenance pass.
+Research write-through remains separate from transport receipt. Public claim: unchanged.
+Curator decision required: No.
+Detail: `docs/CODEX_OPERATIONS.md`; local `.agent-state/` installation and acceptance receipts.
+
+## OPS-ERRATA-1: Administrative completion must follow compatible evidence
+
+**Hypothesis.** A failed reader-admission gate, a mismatched confirmation, or invalid
+required evidence must prevent a validated-complete report, while a valid null and an
+honestly blocked branch must remain completed work.
+
+**METHOD.** Built source fixes in an isolated checkout at revision `7384809b00760f984120f8c8a59d16f6e84768df`.
+Used deterministic temporary-root fixtures for admission, missing and malformed evidence,
+identity mismatches, confirmation failures, manifest omissions, source hashes, cap failures,
+and reporter/scheduler refusal. Revalidated a read-only snapshot separately from the
+original stage files; this check reads administrative identities and receipts, not a new
+model run or a scientific rescore. Verified no production scheduler or engine remained
+before installing the reviewed source files.
+
+**Finding.** The S1-S3 administrative repairs and W4 copied-source receipts are installed
+from branch `codex/maintenance-errata-20260906`, revision
+`31c0e2ded4c81d75d895994c54a4826449e49687`. Twenty-seven maintenance cases pass, and the
+combined main-checkout pytest suite passes 161 tests. All 21 locks hold. The reporter now
+uses the same per-reader predicate as runtime and confirmation; missing compatible evidence
+cannot admit a reader. Frozen confirmations carry their own reader, estimand, source hashes
+and result path; failed confirmations remain failed, and the third unimplemented path
+cannot borrow B03. Invalid evidence prevents validated closure; a packet-write failure exits
+unsuccessfully without relabeling a passed integrity check as a scientific instrument failure.
+
+The detached administrative check passes under `stage8-integrity-20260906.1`. It records the
+exact historical manifest's ten non-applicable declarations as superseded: the single-world
+keystone was over-enumerated as a reader/domain matrix, and the shared unsupplied baseline
+was over-enumerated under supplied treatments. Arbitrary removal of a required declaration
+or measured factor still fails. The original manifest remains unchanged. All 246 snapshot
+files matched both their recorded hashes and the original stage files at installation.
+Snapshot-manifest SHA256: `ed31042cb89d72154d89746106c5a164ff428fbfb24f5b5553db92026249746f`.
+
+**Meaning and limits.** This is infrastructure, with no change to scientific scores,
+thresholds, locked specifications, model weights or the run clock. It does not complete the
+seven scientific landings or endorse the original curator packet. S4's inherited-reader
+counterexamples are reproduced in fixtures; its full dependency inventory and interpretive
+write-through, S5's amendment lineage, and D1-D5's theory/literature corrections were subsequently completed in OPS-ERRATA-2.
+Copied-source receipts cover new capsule copies; historical rows are not assigned current
+source hashes, and this patch does not establish a complete imported server/dependency
+closure. The root errata was subsequently retired to docs/archive/maintenance/ with its unresolved scope retained. No new research tests were harvested.
+
+**Curator roll-up.** Theory group: research infrastructure. Question: does administrative
+completion require compatible gate and result evidence? Class: **Infrastructure**. Result:
+the administrative repairs pass their adversarial fixtures. Project meaning: execution,
+integrity, scientific warrant and curator processing remain distinct. Next engineering
+obligation: complete the remaining errata and scientific write-through using the approved
+reading-continuity rule. Public claim: unchanged. Curator decision required: No for this
+operating rule; the curator approved the proposal on 2026-09-06. It is installed in AGENTS.md,
+the theory index and the recovery hook, whose updated reminder executed natively after
+compaction. The full initial read remains required and resumes its recorded unread portion.
+Detail: `docs/CODEX_OPERATIONS.md`, `docs/STATE.md`, and local `.agent-state/errata-derived/`.
+
+## L371 · More earlier artifacts give one small diagnostic gain, without a monotone or above-domain reading
+
+**Hypothesis.** Seeing more of the same maker's earlier artifacts should help a process-trained reader locate that maker's divergences in a later artifact.
+
+**METHOD.** A01/x1 expanded the discovery sample to 192 maker series over the two construction domains. Each reader saw zero, one, two or three earlier logs and scored surprise on the fourth. Area under the receiver operating characteristic curve measures how well surprise ranks planted maker-divergence events above other events (0.5 is random ranking). The paired three-minus-zero contrast uses the same scored series on both sides; its interval is the recorded 2,000-resample bootstrap. Degenerate logs cannot contribute that statistic. This is diagnosis because both readers failed generation admission.
+
+The first table shows the completed per-reader, per-context measurements; intervals are the recorded 95% bootstrap intervals, and counts distinguish scored from available series. All eight reader-minus-domain intervals lie below zero.
+
+| Reader | Earlier artifacts | Reader surprise alignment | Domain alignment | Paired reader-minus-domain interval | Scored / available series |
+|---|---:|---:|---:|---|---|
+| Qwen2.5-1.5B | 0 | 0.2422 | 0.4904 | -0.2481 [-0.2790, -0.2158]; n=165 | 165 / 192 |
+| Qwen2.5-1.5B | 1 | 0.2519 | 0.4904 | -0.2385 [-0.2677, -0.2076]; n=165 | 165 / 192 |
+| Qwen2.5-1.5B | 2 | 0.2567 | 0.4904 | -0.2337 [-0.2630, -0.2030]; n=165 | 165 / 192 |
+| Qwen2.5-1.5B | 3 | 0.2563 | 0.4898 | -0.2336 [-0.2636, -0.2038]; n=164 | 164 / 191 |
+| SmolLM2-1.7B | 0 | 0.2761 | 0.4904 | -0.2143 [-0.2438, -0.1841]; n=165 | 165 / 192 |
+| SmolLM2-1.7B | 1 | 0.2770 | 0.4907 | -0.2137 [-0.2430, -0.1850]; n=164 | 164 / 191 |
+| SmolLM2-1.7B | 2 | 0.2864 | 0.4904 | -0.2039 [-0.2342, -0.1728]; n=165 | 165 / 192 |
+| SmolLM2-1.7B | 3 | 0.2842 | 0.4955 | -0.2114 [-0.2425, -0.1801]; n=162 | 162 / 189 |
+
+The paired dose contrast below uses matched series, so it need not equal subtraction of the unpaired column means above.
+
+| Reader | Three earlier artifacts minus none | Monotone from zero to three? |
+|---|---|---|
+| Qwen2.5-1.5B | +0.0136 [+0.0032, +0.0235]; n=164 | No |
+| SmolLM2-1.7B | +0.0073 [-0.0041, +0.0195]; n=162 | No |
+
+**Finding.** Qwen has a small positive paired gain; SmolLM2's interval includes zero. Neither dose sequence is monotone and neither reader reaches the domain baseline. The cell records 59 degenerate cases; available series range from 189 to 192 and scored series from 162 to 165. The original support-candidate label is retained as a diagnostic disposition, not admission or confirmation. This supersedes L366's categorical “nothing accumulates” gloss while leaving the missing above-domain and convergent accumulation result explicit.
+
+**Meaning.** Earlier context can move this diagnostic statistic slightly on one reader. It does not establish the proposed maker-accumulation mechanism, and a failed generation gate means it cannot test that mechanism on an admitted process-holding reader.
+
+**Curator roll-up.** Theory group: the maker's share. Question: does a maker become more legible across earlier work? Class: **Narrows**. Result: a small diagnostic gain appears on one reader without monotone or above-domain recovery. Project meaning: categorical absence is too strong, and accumulation remains unestablished. Next engineering obligation: resolve the reader/process interpretation in the stage discussion before a successor. Public claim: unchanged, diagnosis only. Curator decision required: Yes; recommended action is the final example-led walkthrough, without selecting a Stage 9 in advance. Detail: results/phase_2_4_stage_8/A01/x1; theory MS-S8.
+
+## L372 · Stage 8 closure is administratively reconciled, with zero confirmations and a diagnostic scientific packet
+
+**Hypothesis.** Final closure must agree with reader eligibility and preserved evidence, without converting administrative checks into scientific support.
+
+**METHOD.** Read the six delivered verdicts, their metrics, confirmation registry and complete original packet. Checked an immutable 246-file evidence snapshot through the repaired detached validator, retaining the original outputs and their hashes. The original fresh-clone receipt was inspected for what it actually exercised, not treated as a second scientific run.
+
+The rows are the delivered closure artifacts. Execution states concern the work performed; scientific or integrity meaning is stated separately.
+
+| Artifact | Execution / retained disposition | What it establishes and what it does not |
+|---|---|---|
+| B01 | COMPLETE / NOT_RUN | No eligible frozen first claim; no confirmation executed and no negative confirmation result |
+| B02 | COMPLETE / NOT_RUN | No eligible frozen second claim; no confirmation executed |
+| B03 | COMPLETE / INFRASTRUCTURE | Original presence/ledger reconciliation checked 55 verdicts; superseded for final integrity by the versioned detached check |
+| B04 | COMPLETE / DESCRIPTIVE | Original routing incorrectly admitted two prediction-pass readers despite failed generation; corrected composite admission is zero. Administrative counts do not choose a successor |
+| X12 | COMPLETE / INFRASTRUCTURE | Rehashed 54 verdicts without problems; fake scratch kill/resume grew 23 rows to 36 without duplicates and kept the deadline. This is a rehearsal, not a fresh scientific clone of all final cells |
+| Original final packet | Preserved; interpretation superseded | Detailed base cards omitted expansion detail and inherited wrong admission routing; the corrected packet below includes all 61 terminal cells |
+
+**Finding.** The original scheduler closed at 00:09:03 PDT on 2026-09-06 after 40.03 elapsed hours; its successor queue drained at 00:09:18. The repaired detached validator passes its explicit administrative checks and records ten superseded over-enumerated manifest declarations. Both prediction-pass readers still fail generation; the confirmation registry selected no claims. Historical frontier spending is $2.141298 under its then-authorized $40 cap; this repair incurred no paid calls. Recorded GPU-lock reservation is 26.567 hours and does not prove useful GPU utilization or zero lost time. Original raw evidence and locks are preserved.
+
+**Meaning.** Administrative integrity is reconciled under a dated validator, scientific warrant remains bounded by instrument limits and diagnosis, and curator processing/pursuit remain pending. Original B04's two-admitted routing and empty testbed counts are not current conclusions. The completed catalog records 17 repositories, seven available corpus manifests of ten, and three cheap-baseline reproductions of seven. No Stage 9 is selected.
+
+**Final curator report (same text in the delivered packet).**
+
+The hypothesis was that a reader able to run the standard process could recognize a maker in its departures and accumulate that maker across works. METHOD: Stage 8 trained two local readers on maker-free process logs, tested prediction and generation separately, then compared surprise, purpose use and earlier-artifact context with the domain model and known construction truth. Neither reader passed generation, so the subsequent results are diagnoses rather than tests on admitted experts. Prediction improved while surprise ranked maker departures in the wrong direction; proposed purposes hurt prediction, and earlier artifacts produced one small diagnostic gain without monotone or above-domain recovery. The instrument audit also withdraws the claim that Stage 7 cleanly isolated an inability to use fully supplied state, because operative information was unmatched and some direct scores used a defective option readout. The curator's account of reading as running a forward process therefore remains open: the experiment did not establish that its required reader had been built.
+
+**Curator roll-up.** Theory group: inference and measurement. Question: what does the completed stage actually license? Class: **Narrows**. Result: no reader met composite admission and no confirmation ran. Project meaning: the forward-process theory is still open under a missing precondition and explicit measurement limitations. Next engineering obligation: the curator's verbal theory pass, then one ratified operational handoff. Public claim: unchanged for bounded prior findings; new Stage 8 general claims forbidden. Curator decision required: Yes, the example-led discussion; no successor is recommended before it. Detail: results/maintenance_20260906/STAGE8_CURATOR_PACKET_CORRECTED.md and STAGE8_INTEGRITY.json.
+
+## OPS-ERRATA-2: Repair the warrant without rewriting its evidence
+
+**Hypothesis.** Administrative passes and defective comparisons must not license stronger scientific claims than their actual evidence supports.
+
+**METHOD.** Read the complete theory and current implementations, compared the errata with their primary owners, and audited preserved Stage 7/8 predictions and repair attempts by source, cell, arm, target and observed candidate count. Read Armstrong and Mindermann's theorem/proof and conclusion, and the complete Hurwitz, Brady and Schachner paper; no new scientific significance test was run.
+
+**Finding.** S4's inventory contains 663 grouped records and 110 explicit missing-reference gaps (P09 and P09/x4). Direct next-action supports reach 24 in Stage 7 and 23 in Stage 8; Stage 7 mixed-history change-point support is 20. The inherited helper can discard late-group finalists and silently replace invalid components with uniform mass. Stage 8 PULL, LAWR and RESR use small actual supports (at most four here), so this grouping defect does not invalidate them. The sequence-scored FM arms, domain model and learned-law solver retain their separate evidence. A target filled uniformly is not a model reading. The complete inventory distinguishes observed supports, source-declared calls and fills; it does not reconstruct unavailable historical component failures or capsule sources.
+
+Supplied numeric state, operative transition rules and execution access were not the same information. The direct text rounds parameters and lacks the solver's full operative law. Thus the Stage 7 claim that the defect isolates state use rather than supply is withdrawn, as is the pure-size interpretation of a 9B route that also changes family/version, quantization, server and scoring. Original numerical results remain in their entries, with corrections adjacent. A replacement all-option instrument is separately validated below; no historical capsule received it.
+
+S5's amendment ledger records fifteen resets and the G01 proposal-weight change. E01/E02 construction changes followed inspected pilot outcomes; E04 changed feasibility semantics and still failed; E08 repaired the solver but did not establish matched operative information; OOM/fragment handling retained compatible completed rows and reran missing units; D02/D03 were dependent reanalyses; X09 restored lost accounting. X05's original 1e-6 rule failed and its outcome-informed 0.01 rule passed on retained rows. Both judgments remain. Missing original verdicts and incomplete historical lineage stay explicit; a one-repair allowance does not make any amendment predeclared. GPU lock duration measures reservation, not utilization, and missing accounting cannot become zero lost time.
+
+D1-D5 are folded into their existing owners and afterwords: missing motivation does not make an artifact impossible; unrestricted planner/reward non-identifiability differs from bounded useful narrowing; activation and family similarity retain their later register/erasure corrections; alignment has no demonstrated capture-prevention or safety guarantee and stays dormant; inverse planning already includes completed tools. G138/L60 retains its finite-data toy results without an asymptotic-convergence claim. All curator blockquote lines are unchanged. Novel differentiation remains for the curator's theory discussion. No substantive disagreement with the Sounding Line errata was found.
+
+**Meaning.** These are source-confirmed limitations and factual corrections, not new theory ratification. The later matched-information scientific rerun remains a separate obligation; this pass repairs the apparatus and its reporting. Ghost items are unassigned and untouched. No new research hypotheses were harvested from the operational request.
+
+**Curator roll-up.** Theory group: inference and measurement. Question: what survives the identified instrument and documentation defects? Class: **Narrows**. Result: affected direct-reader interpretations lose their former warrant while unaffected comparisons remain. Project meaning: failure of a reader interface does not establish failure of the theory. Next engineering obligation: freeze matched operative information and readout before an affected scientific rerun. Public claim: weakened for those comparisons. Curator decision required: Yes, discuss the remaining theoretical account before a successor stage; recommended action is the example-led pass in the corrected packet. Detail: results/maintenance_20260906/DEPENDENCIES.json, AMENDMENTS.json and INPUT_HASHES.json; existing theory owners.
+
+## OPS-READOUT-1 / OPS-READOUT-2 / OPS-READOUT-3: Validate the replacement readout on known answers
+
+**Hypothesis.** Every offered option must be scored by one common probability rule; invalid components must invalidate the aggregate, and numerical drift must be measured independently of historical outcomes.
+
+**METHOD.** An isolated readout sums each continuation's token log probabilities under the same prefix, then normalizes across the offered set. Deterministic tests put the maximum in every position for supports through 64, permute options, exercise 65-way ties and extreme values, and inject missing, duplicate, invalid and wrong-identity components. Separate arithmetic fixtures use known vectors. A frozen artificial 16-event prefix and 25 unique continuations test the two resident Stage 8 adapters at fp16 CUDA batches 1, 4 and 12 in both orders, with fp32 CPU batch 1 as a numerical reference. Inputs and sources were frozen before queue launch; adapters and base revisions were checked. No training, downloads or paid calls occurred.
+
+The table reports completed apparatus measurements, not scientific effects. Total variation is half the absolute difference summed over the option probabilities (zero means identical distributions). Each row is one reader package; the first maximum compares fp16 batching/order to that reader's fp16 serial result, the second to its fp32 CPU reference.
+
+| Reader | Maximum batch/order total variation | Maximum distance from fp32 CPU | Original 1e-6 criterion | Amended 0.01 criterion |
+|---|---:|---:|---|---|
+| Qwen2.5-1.5B frozen adapter | 0.002929 | 0.002731 | Fails for nonserial batches | Holds on these fixtures |
+| SmolLM2-1.7B frozen adapter | 0.005175 | 0.003078 | Fails for nonserial batches | Holds on these fixtures |
+
+**Finding.** All deterministic readout tests pass, including invalidity propagation. The measured maximum is an observed finite fixture envelope, not a universal error bound. No threshold was changed in this maintenance pass. The CPU/GPU reference comparison changes device as well as precision and cannot isolate a pure precision effect. Arithmetic-only fixtures are separately labeled. The local model check took 154.3 seconds and held the GPU lock for 153.4 seconds; that is reservation, not GPU utilization. Gear two ran the three produces-guarded jobs and drained on 2026-09-06 at 08:17:15 PDT. The first queue pass hit a transient Windows status-write error; the next pass completed. After closure, atomic status writing with bounded sharing-error retries replaced direct overwrite, with failure fixtures retaining the last readable status. The orphan sweep now requires this repository's resolved path boundary and rechecks process creation time before acting.
+
+**Meaning.** The replacement fixes the demonstrated option-selection defect under its explicit summed-log-probability semantics. It has not been deployed to historical scientific capsules, and these fixtures do not independently confirm the amended X05 scientific result or a matched-information state-use comparison.
+
+**Curator roll-up.** Theory group: measurement infrastructure. Question: does the replacement preserve every option and expose invalid measurements? Class: **Infrastructure**. Result: the deterministic replacement fixtures pass. Project meaning: a usable repair instrument exists under an explicit contract. Next engineering obligation: match operative information and freeze a scoped comparison before scientific use. Public claim: unchanged. Curator decision required: No for these repairs. Detail: results/maintenance_20260906/FIXTURES.json and MODEL_PRECISION.json, runners/readout_repair.py, tests/test_readout_repair.py and tests/test_queue_status.py.
 
 ## POSITIVE
 

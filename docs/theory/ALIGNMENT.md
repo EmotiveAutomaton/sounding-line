@@ -32,16 +32,10 @@ them, is the one the impossibility results bite, because it must act on an estim
 estimate is wrong. **Here the imprecision is a term in the objective rather than a defect the design
 tolerates.**
 
-**And the structure fights capture.** The signal is weak, the inference is intractable in the exact
-sense [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §7 sets out (approached through error,
-never certainly attained), and
-[`READER_HEURISTICS.md`](READER_HEURISTICS.md) is the record of how much machinery a *person* needs to
-do it badly. **That weakness is what protects the objective from being owned.** A system whose
-terminal value includes reducing uncertainty about what humans want has an appetite for evidence
-**no individual and no subgroup can satisfy**, so narrowing the target does not sharpen the
-estimate, it enlarges the residual, and under this objective a larger residual is more costly. **The
-captured system stays maximally uncertain, and an uncertain optimiser with capability is exactly what
-kills whoever captured it.** Value breadth is instrumentally forced, never an ethical add-on.
+**Anti-capture is an untested proposal.** An objective retaining uncertainty and action might
+favor broader evidence about human values. Its reference population, sampling, aggregation,
+and weighting governor remain unspecified. Neither capture prevention, safety, nor population
+breadth follows from uncertainty alone; §3 retains the live failure cases.
 
 ## Where this sits in the project
 
@@ -82,13 +76,11 @@ alignment consequence.)*
 > derived from different sets of motivational weightings.** Which is a much weaker claim and
 > honestly pretty lame. But worth keeping in this file, at least as a future thought.
 
-Two makers producing the same artifact under the same instruction reach it through different
-motivational weightings, and the route carries information. **The absent value is as informative
-as the present one**, a mechanism for why an artifact reads as made-under-duress. The recoverability of an
-absent drive now has a working simulated form (the architecture file's missing-middle section);
-what this section owns is the consequence. **A system whose values are seeded rather than specified
-can still only route attention onto what the seed contains**, which is a design constraint on any
-bootstrap, and unexplored.
+Different motivational weightings can produce the same action or artifact. Differences may
+become visible under other choices and constraints, but an absent drive is not automatically
+observable and does not establish inability to make the artifact. The constructed simulation
+in the architecture file shows one conditional route to discrimination, not a general
+recoverability guarantee or a bootstrap constraint derived from motivational absence.
 
 ## §1. The core claim: one objective, two terms
 
@@ -100,9 +92,9 @@ terms:**
 
 **Neither term alone is an alignment proposal.**
 
-- **Epistemic value alone** is a system that only ever seeks. **Safe, and useless**, since it never
-  acts. And an unbalanced information-maximiser is precisely the one with an incentive to experiment
-  on people.
+- **Epistemic value alone** can motivate consequential action to acquire information. It does
+  not guarantee safety or useful pursuit of human ends; an unbalanced information-maximiser
+  can have an incentive to experiment on people.
 - **Pragmatic value alone** is the standard framing, learn *W* then maximise it. **That is the one
   the impossibility results bite.**
 
@@ -125,8 +117,8 @@ alignment problem reappears.
 
 **And this is why the limit framing in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §7 is
 load-bearing rather than a hedge.** Values are approached through inference with error and never
-certainly attained. **A design whose objective already contains its own uncertainty does not need
-the limit to be reached. It is correctly specified at every point along the way.**
+certainly attained. **A design that represents uncertainty need not assume certainty before acting.
+Whether its objective is correctly specified remains open at every point along the way.**
 
 ## §2. How this differs from the proposals it sits next to
 
@@ -159,10 +151,9 @@ objective, while **this makes the balance itself the objective.**
 > have extracted them, and they will be something we can assemble. **It's the first step. We'll
 > deal with the second step when we get there.**
 
-**A structural argument rather than a moral one, and that is what makes it interesting.** A system
-whose objective includes reducing uncertainty about human values has **an appetite for evidence that
-no subgroup can satisfy.** Narrowing the target population does not improve the estimate, it enlarges
-the residual uncertainty, and under this objective larger uncertainty is *more* costly, not less.
+**The proposed structural argument requires a fixed, justified reference population and an
+aggregation rule.** Without them, narrowing the target can change what uncertainty the system
+measures rather than necessarily increasing it.
 
 The proposed anti-capture mechanism is that no subgroup can satisfy an objective that prices
 residual uncertainty over the breadth of humanity. That conclusion does not yet follow. A system
@@ -183,9 +174,9 @@ them.**
    reading of the objective.**
 3. **Whose values, and at what resolution.** "Humanity" is not one agent. Reducing uncertainty about an
    aggregate may mean sharpening a fiction.
-4. **It may not be action-guiding.** A system that only ever seeks never acts on what it learns.
-   Something has to convert the estimate into behaviour, **and that converter is where the original
-   problem may simply reappear.**
+4. **It may not guide useful action.** Seeking information already involves behavior, but does
+   not determine which human ends to pursue. The rule connecting estimates to those ends is
+   where the original alignment problem may reappear.
 5. **Counterfeit invertibility.** Optimizing for human-readable decision traces may produce
    artifacts that are easy to rationalize while the system's operative mechanism remains foreign or
    hidden. A legibility loss can be Goodharted unless reconstruction is constrained by independent
@@ -229,25 +220,25 @@ exposing the mechanism that actually produced the choice.
 | # | hypothesis | status |
 |---|---|---|
 | **AL-1** | Making the terminal value the *balanced sum* avoids the failure mode that bites "learn W then maximise W" | **OPEN, unsearched.** Nearest literatures are assistance games, cooperative IRL, value learning under uncertainty, and active preference elicitation. **None fetched.** He has since said he believes most components are already occupied |
-| **AL-2** | Epistemic value alone is safe and useless | **OPEN.** My first write-up, **which he corrected as exactly half the argument** |
+| **AL-2** | Epistemic value alone guarantees safety through inaction | **REJECTED as an analyst inference.** Information seeking can itself be consequential action; usefulness and safety do not follow from this objective alone |
 | **AL-3** | An unbalanced information-maximiser has an incentive to experiment on people | **OPEN.** Failure mode 1, and **not answerable by a side-constraint**, since side-constraints are what this design exists to avoid needing |
 | **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and the one to take most seriously.** **Same structure as this project's own recurring error**, an instrument that optimises a proxy destroying the thing. We have watched it happen ten times at small scale |
-| **AL-5** | Value capture fails structurally, because no subgroup can satisfy the appetite for evidence | **OPEN, unsearched.** **Social-choice work on value aggregation usually argues the opposite**, that aggregation is where alignment gets hard. A collision worth finding |
+| **AL-5** | Retaining uncertainty and action creates pressure for evidence broad enough to resist capture | **OPEN, unsearched.** Reference population, sampling, aggregation, and the weighting governor are unspecified; no protection or breadth guarantee follows yet |
 | **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment. The only row here that could be settled without a literature pass |
 | **F01-S5** | A reader's examination choice follows learning progress or reducible structure rather than novelty, complexity, or raw error | **REVERSED for this reader (test, L275), 96 sets.** Rank correlation with learning progress −0.38 and reducible structure −0.38; it examines the item whose rule is already stated first and the learnable one last; on two readers learning progress −0.34, the same order (L305) |
 | **F02-S5** | The reader's selection realizes more held-out gain per cost than raw-signal policies | **NO BETTER THAN RANDOM (test, L276), 96 sets.** 0.28 against 0.29 random, 0.04 novelty, 0.00 surprise, 0.97 for the exact learning-progress policy; on two readers 0.12 against 0.22 novelty and 0.26 learning progress (L306) |
 | **F03-S5** | The reader pursues a hoped-for explanation beyond its warrant, and a counter-bias prompt removes the excess | **NO EXCESS (test, L277), 96 worlds.** Pursuit minus warrant 0.00 on incongruent worlds; the counter-bias prompt lowers pursuit 0.11 to 0.14 below warrant in every cell; on two readers +0.01 and 0.06 to 0.07 (L307) |
 | **AL-7** | The reconstruction instrument can become both the seeking apparatus and a reciprocal human-invertibility interface | **OPEN.** Upstream choice/process recovery is still gated; artifact legibility must be separated from causal transparency, and no alignment work wakes until the existing conditions hold. It is why this file lives in this repository rather than in a notebook |
 
-**What these add up to.** **The seven alignment rows have been checked against nothing, and that is
-the file's defining fact**; the three foraging rows under them are the first numbers the epistemic
+**What these add up to.** **The alignment proposal remains untested and dormant; its safety-through-inaction
+argument is withdrawn on logical grounds**; the three foraging rows under them are the first numbers the epistemic
 term has, and they say that a small reader's own epistemic appetite is for the familiar: it examines
 what it has been told, gains what a coin flip gains, and shows no pull toward a hoped-for answer,
 while the exact learning-progress policy it does not implement would triple its gain (F01-S5 to
 F03-S5), so the objective's epistemic term is well defined as a ruler and absent as a drive in the
-reader at hand. The seven rows are not independent. AL-1 is the claim, AL-2 and AL-3 are the halves
-it is built from, AL-4 and AL-5 are the two attacks that would kill it, and AL-6 and AL-7 are what it
-would take to build. **The ordering that matters is that AL-4 is cheap to reason about and fatal if
+reader at hand. The seven rows are not independent. AL-1 is the claim; AL-2 withdraws an unsupported guarantee, AL-3 and AL-4 retain
+risks, AL-5 requires a population and governance account, and AL-6 and AL-7 name possible build
+components rather than licenses to start them. **The ordering that matters is that AL-4 is cheap to reason about and fatal if
 right, while AL-1 needs a literature sweep before it can even be stated as novel.** Do AL-4 first.
 **A proposal that dies to its own second failure mode does not need a priority search.**
 **Confidence: the alignment rows untested, logic only, by design and by declared distance; the

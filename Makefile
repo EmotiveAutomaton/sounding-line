@@ -9,15 +9,13 @@ help:           ## list targets
 	@grep -E '^[a-z0-9]+:.*?##' $(MAKEFILE_LIST) | sed 's/:.*##/\t/'
 
 locks:          ## verify every hash-locked artifact still matches (run before anything else)
-	$(PYTHON) -m soundingline.locks
+	$(PYTHON) -B tools/verify_locks.py
 
 test:           ## full test suite; includes the lock checks and the control on the control
 	$(PYTHON) -m pytest -q
 
 hashes:         ## print current hashes of the lockable artifacts, for a deviation entry
-	$(PYTHON) -c "from soundingline.hashlock import hash_file; \
-	  [print(f'{hash_file(p)}  {p}') for p in ['SOUNDING_LINE_SPEC.md', \
-	   'docs/gate0/LITERATURE.md','soundingline/family/family_v1.yaml','prereg/gate1.py'])]"
+	$(PYTHON) -c "import sys; sys.path.insert(0,'tools'); from verify_locks import current_path, LOCKS, hash_file; [print(hash_file(current_path(k)), k) for k in LOCKS]"
 
 gate1:          ## print the Gate 1 pre-registration hashes
 	$(PYTHON) prereg/gate1.py

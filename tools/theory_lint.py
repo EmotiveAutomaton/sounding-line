@@ -8,10 +8,10 @@ mechanically decidable subset of docs/theory/README.md's format spec:
     2. that afterword carries a Confidence line using the fixed vocabulary
     3. no em or en dashes in prose (quote blocks and code blocks excepted; his style ruling)
 
-Violations exit 2 with the specific rule text on stderr, which Claude Code shows to the model
-for same-turn self-correction. PostToolUse cannot block; this is a corrective nudge with teeth.
+Violations exit 2 with the specific rule text on stderr; the Codex dispatcher returns it
+for same-turn self-correction. PostToolUse cannot undo the completed edit.
 Judgment-shaped rules (blockquotes are the curator's only, load-bearing order) stay in
-.claude/rules/theory-format.md and the README itself.
+docs/theory/AGENTS.md and the README itself.
 """
 
 from __future__ import annotations

@@ -1,0 +1,75 @@
+{
+ "card": "A01",
+ "cell_id": "A01/x1",
+ "lane": "discovery",
+ "track": "accumulation",
+ "readers": [
+  "adapter:fm_qwen",
+  "adapter:fm_smollm"
+ ],
+ "tier": "minimum",
+ "minutes": 804.87,
+ "gpu_lock_min": 0.0,
+ "strongest_surviving_rival": "FM+N for N in 0 to 3 against DOM; monotone in N is the alternative",
+ "exec": "COMPLETE",
+ "outcome": "SUPPORT_CANDIDATE",
+ "primary": "Does surprise alignment on artifact N+1 improve with N earlier artifacts by the same maker in context?",
+ "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: means by N [0.242, 0.252, 0.257, 0.256]; N3-N0 0.0136 monotone False; adapter:fm_smollm: means by N [0.276, 0.277, 0.286, 0.284]; N3-N0 0.0073 monotone False",
+ "point": 0.013625624350653611,
+ "ci": [
+  0.00323969959869586,
+  0.023524347859173338
+ ],
+ "n_units": 164,
+ "conditional_cells": {
+  "adapter:fm_qwen|0": {
+   "outcome": "INFERIOR",
+   "point": 0.2422383323026676
+  },
+  "adapter:fm_qwen|1": {
+   "outcome": "INFERIOR",
+   "point": 0.2518992752217257
+  },
+  "adapter:fm_qwen|2": {
+   "outcome": "INFERIOR",
+   "point": 0.25665385617534037
+  },
+  "adapter:fm_qwen|3": {
+   "outcome": "INFERIOR",
+   "point": 0.25625700881505836
+  },
+  "adapter:fm_smollm|0": {
+   "outcome": "INFERIOR",
+   "point": 0.27612156718002717
+  },
+  "adapter:fm_smollm|1": {
+   "outcome": "INFERIOR",
+   "point": 0.2769735903505749
+  },
+  "adapter:fm_smollm|2": {
+   "outcome": "INFERIOR",
+   "point": 0.2864382745867407
+  },
+  "adapter:fm_smollm|3": {
+   "outcome": "INFERIOR",
+   "point": 0.28416423505718263
+  }
+ },
+ "diagnosis_only": true,
+ "marker": {
+  "contract_version": "8.0.0",
+  "contract_hash": "2ffb7b662fbc540b",
+  "inputs": {},
+  "outputs": {
+   "metrics": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A01\\x1\\metrics.json",
+    "sha256": "1fc2b9ad22784bf15236bee0f81fa0d25db826645683b5f30aa79a2d503d06f3"
+   },
+   "cases": {
+    "path": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A01\\x1\\cases.jsonl",
+    "sha256": "352df45468a3c40700da39d1c88756a64e5f8407af2c1cb74884f4992615f94e"
+   }
+  },
+  "written_at": "2026-09-05T22:12:00"
+ }
+}

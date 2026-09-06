@@ -9,7 +9,8 @@ gates: I02: NULL of a broken enumeration is any removal leaving coverage unchang
   DOWN); ALTERNATIVE: every removal drops it; the identity check refuses duplicates (fails
   DOWN). I07: NULL of a leaky split is any test lineage whose root or descendant appears in
   the training manifest (fails DOWN: FM results on that lineage void); ALTERNATIVE: zero
-  overlap. bands: exhaustive.
+  overlap. Failure direction is DOWN for either incomplete enumeration or leakage.
+  bands: exhaustive.
 """
 
 from __future__ import annotations
@@ -41,7 +42,7 @@ def lineage_ids(card: str, domain: str, n: int, split: str = "discovery", offset
     return [f"{tag}|{domain}|s0|w{base + i:05d}|{split}" for i in range(n)]
 
 
-def expected_cells() -> list[dict]:
+def _declared_cells() -> list[dict]:
     out = []
     for q, spec in C.ALL.items():
         corners = [{}]
@@ -58,6 +59,20 @@ def expected_cells() -> list[dict]:
                         out.append({"question": q, "arm": arm, "reader": r, "domain": d, "corner": corner,
                                     "targets": spec.get("targets"), "output": str(S8 / q / "verdict.json")})
     return out
+
+
+def inapplicability(cell: dict) -> str | None:
+    """Explicit structural exclusions, from the actual card and brief, not outcomes."""
+    if cell["question"] == "I08" and (cell["domain"] != "essay" or
+            (cell["arm"] == "FM" and cell["reader"] != C.ALL["I08"]["readers"][0])):
+        return "I08 is one essay keystone on the first reader plus SOL (brief I08; run_I08), not a reader/domain factorial"
+    if cell["question"] == "A05" and cell["arm"] == "DOM" and cell["corner"].get("supplied") != "none":
+        return "run_A05 supplies the factor only to FMN; DOM is the shared unsupplied baseline"
+    return None
+
+
+def expected_cells() -> list[dict]:
+    return [x for x in _declared_cells() if inapplicability(x) is None]
 
 
 def removal_fails(expected: list[dict]) -> bool:
@@ -82,7 +97,9 @@ def prepare_manifest() -> dict:
     m.add("B03", "B03", ["B04", "X12"], str(S8 / "B03" / "verdict.json"), 20.0, False, C.ALL["B03"]["primary"][:160])
     Lineages8().save()
     exp = expected_cells()
-    write_registry("EXPECTED_CELLS", {"written_at": now_iso(), "cells": exp, "n": len(exp), "removal_fails": removal_fails(exp)})
+    write_registry("EXPECTED_CELLS", {"written_at": now_iso(), "cells": exp, "n": len(exp), "removal_fails": removal_fails(exp),
+                                     "enumeration_version": "applicable-20260906",
+                                     "inapplicable": [dict(x, reason=inapplicability(x)) for x in _declared_cells() if inapplicability(x)]})
     write_registry("IDENTITY_HASHES", {"written_at": now_iso(), "hashes": {c: C.identity_hash(c) for c in C.ALL}, "duplicates": dup})
     write_registry("ATTACK_MATRIX", {"written_at": now_iso(), "attacks": {x: {"covers": s["covers"], "expect": s["discriminator"], "consequence": s["consequence"]} for x, s in C.ATTACKS.items()}})
     return {"cells": len(m.cells), "expected": len(exp), "duplicates": dup}

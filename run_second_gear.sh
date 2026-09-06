@@ -14,7 +14,7 @@
 #   1. ONE LOOP.         Lock stores msys pid (line 1) AND Windows pid (line 2); liveness is
 #                        checked with tasklist on the winpid, which works from ANY session.
 #   2. MUTUAL EXCLUSION. Refuses while first gear's winpid is alive, and vice versa.
-#   3. NO SHARED STAGES. Workers are SHARDS: stage i is owned by shard i % N by arithmetic.
+#   3. NO SHARED STAGES. Workers are SHARDS: a stable digest of the stage name chooses its owner.
 #   4. RUNS UNTIL EMPTY. Second gear has NO time window (his standing ruling 2026-08-28): it
 #                        ends when the queue has no pending stage (tools/queue_pending_count.py
 #                        reads 0). An hours argument is an optional cap, never a default.

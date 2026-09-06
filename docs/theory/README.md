@@ -4,7 +4,13 @@ Every claim this project makes, with what we checked and what came back. **`FIND
 claims index and is now the method archive.** It holds how each test was run, looked up when a row
 here needs its detail.
 
-**After a compaction, re-read this whole folder.** The folder, not a named file; filenames go stale.
+**Complete the initial read of this whole folder, newest first, before research or scientific
+interpretation.** Under the curator-approved continuity rule in `../../AGENTS.md` (2026-09-06),
+this read may span context windows. Record source hashes and the last fully read portion;
+after compaction resume the first unread portion and re-read changed sources. Reload this
+index and the current operating records after compaction. Before research, literature
+comparison or theory edits, re-read the relevant sections, afterwords, correction history
+and this README. Hashes, summaries and truncated output do not establish that text was read.
 
 ---
 
@@ -108,7 +114,7 @@ edits here.
 
 ## His methodology record: 5 for 5
 
-**Cited by `CLAUDE.md` as a prior: when he pushes back on a method, assume he is right until shown
+**Cited by `AGENTS.md` as a prior: when he pushes back on a method, assume he is right until shown
 otherwise.**
 
 | | claim | outcome |

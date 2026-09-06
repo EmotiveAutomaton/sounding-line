@@ -16,8 +16,12 @@ foreach ($f in @('results/.gear1.lock', 'results/.gear2.lock',
     }
 }
 
+$repositoryRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
+$repositoryPattern = [regex]::Escape($repositoryRoot.Replace('/', '\')) + '(?:\\|["\s])'
 $procs = Get-CimInstance Win32_Process | Where-Object {
-    $_.CommandLine -match 'run_queue\.py|runners[\\/]run_' -and $_.Name -match 'python'
+    $_.Name -match 'python' -and
+    $_.CommandLine -match 'run_queue\.py|runners[\\/]run_' -and
+    $_.CommandLine.Replace('/', '\') -match $repositoryPattern
 }
 foreach ($p in $procs) {
     # walk to the root of the bash/python ancestry so the whole lineage is judged at its loop
@@ -31,6 +35,11 @@ foreach ($p in $procs) {
     $rootId = [string]$root.ProcessId
     $selfId = [string]$p.ProcessId
     if ($keep -notcontains $rootId -and $keep -notcontains $selfId) {
+        # A relative command with no repository identity is deliberately not a target.
+        # Recheck creation time so PID reuse cannot turn this inspection into another kill.
+        $currentProcess = Get-CimInstance Win32_Process -Filter "ProcessId = $($p.ProcessId)" `
+            -ErrorAction SilentlyContinue
+        if ($null -eq $currentProcess -or $currentProcess.CreationDate -ne $p.CreationDate) { continue }
         Write-Host "orphan sweep: killing tree $selfId ($($p.Name), root $rootId)"
         taskkill /F /T /PID $p.ProcessId | Out-Null
     }

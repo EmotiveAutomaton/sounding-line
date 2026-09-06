@@ -1,23 +1,79 @@
 # STATE: the agent's operational file
 
-> ## ⚠ IF YOU HAVE JUST BEEN COMPACTED: RELOAD THE THEORY FIRST
+> ## Context recovery (curator-approved 2026-09-06)
 >
-> Before any research, any literature reading, or any judgement about a result:
-> **read the whole of `docs/theory/`, newest first, then `FINDINGS.md`, then this file.** A
-> compaction preserves what happened and loses the framework's shape, which is exactly the state
-> in which confident literature overwrites it. That has happened twice. See `CLAUDE.md`, first
-> section. Then read `docs/method/LESSONS.md`'s trigger index before designing or building
-> anything.
+> Complete the initial theory read newest first before research or scientific interpretation.
+> It may span context windows: resume from recorded unread portions after compaction; do not
+> restart solely because of compaction. Reload shared/project instructions, this current handoff,
+> TODO, relevant current FINDINGS and the theory index. Before research, literature comparison
+> or theory edits, re-read relevant sections, afterwords, correction history and the folder
+> README. Hashes, summaries and truncated output are not proof of reading. See AGENTS.md for
+> the complete rule, and read the method lessons before designing or building.
 
 **Rewritten 2026-08-14 immediately before an expected compaction; consolidated 2026-08-16 at
 the curator's direction for the Phase-1 wrap (the distilled-chronology section is the load-
 bearing addition — it exists because interim summaries kept outliving their corrections).**
-Everything below is current.
+Historical snapshots below retain their dates. The latest dated entry and current run
+receipts determine execution state; later ratified stage contracts override older defaults.
+
+## Current operating handoff: 2026-09-06
+
+**Current authorization (2026-09-06, latest curator instruction):** install the approved
+reading-continuity rule, reconcile permissions with Agent Core's GPT contract, complete
+appropriate errata repairs and necessary repair runs, start eligible work in gear two,
+update documentation and push the repository. This supersedes the earlier maintenance-only
+execution restriction. Preserve original stage evidence and locks; repaired measurements
+require a separate lineage and known-answer fixtures. No delegation, Ghost/reference edits
+or new paid-use authorization was supplied. Report substantial disagreements before filing
+the root errata; delete it only if fully implemented with nothing worth retaining.
+
+**Execution:** the closed Stage 8 scheduler ended at 00:09:03 PDT and its successor
+queue drained at 00:09:18 on 2026-09-06. The newly authorized gear-two maintenance run
+(`run_second_gear.sh 0 2`) completed three finite jobs and drained at 08:17:15 PDT.
+No eligible queued job remains. Do not invent filler or open Stage 9 from a general gear rule.
+
+**Scientific state:** zero admitted readers (prediction passes, generation fails), zero
+frozen confirmations. Difference, purpose and accumulation are diagnosis. Seven original
+delivered artifacts now have full internal write-through in L371/L372, the relevant theory
+rows/afterwords, TOOLS and this TODO/STATE handoff. The single corrected final packet is
+`results/maintenance_20260906/STAGE8_CURATOR_PACKET_CORRECTED.md`; the original stays
+byte-preserved. Curator processing and chosen pursuit remain pending the example-led pass.
+The historical $40 frontier exception totaled $2.141298 and grants no new paid use.
+Administrative revalidation passes with explicit historical-provenance limits; it is not
+independent scientific replication. GPU-lock hours are reservation, not utilization.
+
+**Maintenance:** S1-S3 admission/confirmation/integrity and copied-source receipts are
+installed from isolated revision `31c0e2ded4c81d75d895994c54a4826449e49687`, with subsequent
+isolated all-option and queue recovery fixes installed after the appropriate process
+boundaries. S4's actual-dependency inventory, S5's amendment ledger, D1-D5's factual
+corrections and the three apparatus jobs are landed (OPS-ERRATA-1/2, OPS-READOUT-1/2/3).
+Original evidence and locks are preserved. The all-option replacement is validated on
+known answers and independent fixed-input local-model precision measurements; it has not
+been deployed to historical capsules. A matched operative-information contract and scoped
+scientific rerun remain owed before restoring affected direct/state-use conclusions.
+Ghost items are unassigned. No substantive Sounding Line errata disagreement was found;
+the handoff is retained in `docs/archive/maintenance/` because those remaining obligations
+and historical amendment evidence are worth keeping. No new research hypotheses harvested.
+
+**Runtime:** canonical contract `../AGENTS.md`, grind `../.agents/skills/grind/SKILL.md`,
+mechanics and rollback `CODEX_OPERATIONS.md`. Native startup, prompt, pre/post-tool and
+updated PostCompact hooks actually executed in the registered owner; idle queued wake was
+verified separately. The complete initial theory read is finished (local progress receipt);
+after compaction resume only newly unread or changed portions and re-read relevant owners.
+The supported client menu is set to Approve for me and saved defaults match Agent Core GPT:
+workspace sandbox, network off, on-request with native automatic review. The current
+already-running turn still reports Full Access/never; next-turn adoption must be verified
+after the authorized targeted window reload. Saved configuration is not runtime evidence.
+
+**Next eligible action:** complete release verification/push and the permission reload
+acceptance check, then the curator's verbal Stage 8 pass. Do not rerun finished maintenance
+jobs merely to keep gear two busy. All seven original and three maintenance events are acknowledged after full write-through
+and final-packet delivery; the watcher is healthy with no pending events. No delegation or Ghost/reference edits.
 
 ## ⚠ HARD CONSTRAINTS AND STANDING RULINGS, SET BY THE CURATOR
 
 1. **SUBAGENTS ONLY WHEN HE ASKS.** He asks → spawn (recent asks have been Opus referees and a
-   nine-agent consensus fleet, all his explicit orders); "ultracode" → Workflow tool; otherwise
+   nine-agent consensus fleet, all his explicit orders); "ultracode" → per-task Codex delegation; otherwise
    inline. The consensus-ballot form (fixed claims, dual coverage, capped findings channel) is
    the preferred fleet shape — he ordered it because open-ended agents each returned a new path.
 2. **AUTHOR CONTACT IS OFF THE TABLE (2026-08-14).** Never suggest contacting a paper's authors
@@ -29,7 +85,8 @@ Everything below is current.
    interval (§1c), faithful means the training framework not the printed hyperparameters (§1b),
    and underdetermined protocols report the specification curve.
 4. **Token posture:** he opens budget explicitly when he wants fleets; otherwise dense and
-   inline. Model is Fable at max effort.
+   inline. The coding operator is Codex; user configuration is `gpt-6-astra` at xhigh effort.
+   Scientific model arms remain independently specified.
 5. **Gears, not day/night (renamed 2026-08-12).** First gear = his machine (serial, GPU mostly
    his); second gear = everything, loaded about a day deep, ONLY on his call, **and with no
    time window: it runs until the queue is empty (his standing ruling, 2026-08-28). A stated
@@ -545,10 +602,9 @@ survive the fair induction control on the two strong ladders (G76/L94).
   entirely and someone had reasonably run it with a file path. **A rule enforced only by a
   PostToolUse hook is not enforced at all against a `sed` edit or a runner write.**
   `design_lint --changed` and `theory_lint --all` are the CI-shaped entry points.
-  **Still open for the curator: `.claude/settings.json` names machine-specific absolute Windows
-  paths for both hooks, and the project's `command`+`args` hook form is unverified on this
-  install (the user-level hooks use the single-command form). The portable adapter is written
-  and tested; rewiring live hooks was left as his call.**
+  **Codex transition (2026-09-06): the portable linters are wired through the Codex
+  dispatcher. See `CODEX_OPERATIONS.md` for installation, exact-definition trust, live
+  acceptance status, and rollback; the old unverified hook wiring is retired.**
 - **Stage 5R CLOSED 2026-08-29 16:32 (RUN_TO_EMPTY, 1.35 h; launched 15:11 under second gear via
   `run_stage5r.sh`, restarted 15:24 for the source-text repair; root `results/phase_2_4_stage_5r`;
   packet and synthesis at its CURATOR_PACKET_FINAL.md; landings L284 to L308; two confirmations, R02 and

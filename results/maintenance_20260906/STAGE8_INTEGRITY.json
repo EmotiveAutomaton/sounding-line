@@ -1,0 +1,3297 @@
+{
+  "ok": true,
+  "reasons": [],
+  "input_hashes": {
+    "RUN_CONTRACT.json": "26eb328f95f42fbfaf6e02d3f2eaaa4b552371db521383e3799e36aa42922c54",
+    "EXPECTED_CELLS.json": "724a0a6841827d21bb2a124657b8a446393930f40eacdbab09ddb8412da03b10",
+    "QUEUE_MANIFEST.json": "28ba2ea7e0fe4a39cd75580b21108d85ba3425d4a53a82156dd3a3ac1b1d9b21",
+    "IDENTITY_HASHES.json": "2c4bd2d4f5787c3219912fdc6027e4e91d5f9dcd7556db0d41def04d139bdf6d",
+    "TESTBED_SOURCES.json": "067f2aa850b2f51dbb389d7c7d4a80cdc57d79e6b9d607911d813652e53ec641",
+    "CORPUS_MANIFESTS.json": "3b1a635880c5892b6b45751fb07ea6fc1e52e0e2dea80ee4a88d1c375de269c0",
+    "ACCESS_RECEIPT.json": "26c06ddd911f0718cd650f7106ff893867d13e0d60ae7d0fb608576d261371fe",
+    "COMPUTE_LEDGER.json": "f50c7d054c42d3ce16ea2c55fc81ff5ea9aceb440726a4d096bed534c7153822",
+    "ADAPTERS.json": "c3866be2afe4ba8d405138b07e89dac552c4572a4d7d391061397710d201daa9",
+    "GATES.json": "2439fe3e7515b5d137cd908f8853d1b7a1057f98057ceb466cf12cd417e9fe50",
+    "EXPERTISE_GATE.json": "df024750ea6169e56bfab6d4e314cc9eb88f7800e21cd7887bee0414a92f6497",
+    "GENERATION_GATE.json": "3658965138acf5a5b0f1bf35b779552bffcb18dde36d401305da8bb8a176b245",
+    "SPLIT_RECEIPT.json": "1c948b0b0258593814434fef508b4890ea23c24d8b29e85b2056d2caed300523",
+    "CONFIRMATION_REGISTRY.json": "0eb5794beeb2b46a5850bb863b4ded9d2f11494a1d587b2eb3b191f0060dee6a",
+    "FRONTIER_LEDGER.json": "a7503b95cb0d4b425f5eefa5b6d312a00d611357327d64ad42d558025bd42352",
+    "KEYSTONE_LOCK.json": "7e7efb38bd3b7cbfd81242b2b227509817505a30c0f5541edd124ccb3e525527",
+    "SCIENTIFIC_LOCK.json": "fad8256b003f47a526825617de2b0eada79663be04b56ee589c4970835b2d537",
+    "A01/verdict.json": "f0dcc111e23547c77235c975668779a2379159eb3d43dbc7ff51b794149aab49",
+    "A01/metrics.json": "07f06f3e22db8a4e89ba8f7714a99c36a8f4a7add953234f424767969ec8f4bf",
+    "A01/cases.jsonl": "e315123e4d1cf95081eaed0f27a96691ffce9b1826d15d2b681b0089db4e0f9b",
+    "A01/x1/verdict.json": "10216461053a3eae76fe46d5d6ba8fb8c595b298f71227a4245e8fb8ec7c3fc6",
+    "A01/x1/metrics.json": "1fc2b9ad22784bf15236bee0f81fa0d25db826645683b5f30aa79a2d503d06f3",
+    "A01/x1/cases.jsonl": "352df45468a3c40700da39d1c88756a64e5f8407af2c1cb74884f4992615f94e",
+    "A02/verdict.json": "499f16e2328c345611b4e21dba89f6c3ed2ebb35b2211c27a082267cddff154f",
+    "A02/metrics.json": "c47402635d2713dc174ef720da5e7c1aaa2f6712dc794ea88695b6d1ccb83634",
+    "A02/cases.jsonl": "83e7782fe1c6f52c3f9c95a8a09cac2da6b9a03c6395cf8eb6fd885e474debd7",
+    "A03/verdict.json": "b53c4f0de416360bd924fea97a10a9f88c66e6b9aaaa4ce52b6e4ac22af4140a",
+    "A03/metrics.json": "47185560777fd080a3e5d390f85ced8c348cd96f4deabd038cf98c044b6ed176",
+    "A03/cases.jsonl": "70ae90a892ca50f61baa6a50bf42ee9013c1c80ce01a81acdabf203a62d4495d",
+    "A04/verdict.json": "f035647894b2052f167435305dc7b7d80f587e0ad1eeb52f3bbb9d17d5c4afca",
+    "A04/metrics.json": "bcde488cf82eb01484801a3ffd890b1843486ab0a824d73a5966d87c42b98674",
+    "A05/verdict.json": "ebc5ffa5ebf9d032e47467e95fd97bf0820343c224602b7895aff4980b39e894",
+    "A05/metrics.json": "c65e53b0ec935e636986c2e4462413a8fe7619c7af207a24faad093f31e08487",
+    "A05/cases.jsonl": "a1e2bb1d6a8523e3510d379c7f589e8460ec449f4b45d8a7dcac44b5029715fe",
+    "B01/verdict.json": "a4cbc44432f25ea769f06744ff142496df84b111e0ea7a844851e3bffff46809",
+    "B01/metrics.json": "ec0efa50a4c86b01b7a47b346a4a0fa686d7a73ca6981cc4c79c405b63d25980",
+    "B02/verdict.json": "3e5cddef5b17c4ef18fc4a9605a625bc321e88aa9e681b56d4bd4d54e1c7ac67",
+    "B02/metrics.json": "f654e0e2222a86f3b6bdc8475e83095226355a91daeb981c911d4ddda680d72e",
+    "B03/verdict.json": "29d420be57b79283cec43d2c4b0982b4da83a3105d5fe08cb4bc541c3b4443c2",
+    "B03/metrics.json": "484898a457b17e9f0ffd90d99590a86ce170d3ce0095cc1b0939d854e415e4dc",
+    "B04/verdict.json": "edd74b6d073dfc645a48f2db7cfb976e9504742393319728b0ba682e1165f42b",
+    "B04/metrics.json": "771b79fa080c56a5d8abf166529654d05e3604e7dfbdbeabfadd820d2acef156",
+    "D01/verdict.json": "25f498dc14c29278f151c44653f78ad8ad664416eae795cddd437b63937bb333",
+    "D01/metrics.json": "2707a8f904a72c07d899b498efbec260e01f7587a84dddf991604eb2057987f2",
+    "D01/cases.jsonl": "be60c01bb430c466d389a59e0762af36f06412d9d9c6d4de537f786578d17dec",
+    "D01/x1/verdict.json": "c6a15b8ba93aef536530b6d10ddd00d02879eaa65b343badaf75465cd20af03c",
+    "D01/x1/metrics.json": "7e78ed3ab69eb5bc2a5d48d3d9c4a7c6fac52e16c14cd66e58f71d4211b842e5",
+    "D01/x1/cases.jsonl": "367eea067195b3ecad372ff839965ac20cc781e82f1a6a5ffa3acb04cd43568e",
+    "D02/verdict.json": "b86226560ec2913128328653083dd06bd30b3ff7dc853e3472da31793e017388",
+    "D02/metrics.json": "2056641055868552836feb4bf461ca49bf597f1d69986357a6f34d2dfb4a9664",
+    "D03/verdict.json": "be2015f9203d9acb15cc54a7bad905dc20490b8b541ccc57c6cb1b530a4a246f",
+    "D03/metrics.json": "c8883b6ad4d5ae4b88a3b3322853de7d1864214e1a16547a54d44c877d0eedb3",
+    "D04/verdict.json": "3fe352e8e5a18b81ecf6d1db96bbdc6f6a7144dc89a101ac7db01312d4160edd",
+    "D04/metrics.json": "ed8dd40bd17f7ff33b50bf22716a201491dc96e4f503bfea631bcee11cc73241",
+    "D04/cases.jsonl": "61617bc770a51a375f9d24c156ec0f433e2214366d644dd82faffdd68cb581e8",
+    "D05/verdict.json": "86cc2bd8f0f5f4ddb7661d59f2426f51a352ff3241949b990e50d2087cee2911",
+    "D05/metrics.json": "e7b0be9a7ace482c3372f5828ef94c98dedfd7f93142ec4c9019f8d2e7936268",
+    "D05/cases.jsonl": "676cd7be7fde9ee72c1232adb1c66ce9af1d545731b43befe056fd74cc30ecac",
+    "D06/verdict.json": "4e413d4531c7701d27d57550574166d15875a5f423ac578c1b0f2512d79da3b8",
+    "D06/metrics.json": "0f6a289e5febb4edcbccd8a65c726ef07be45b333f3699189a81af3a46e98e11",
+    "E01/verdict.json": "7b4c30ee246acd3768c8937e8a2b163075326e61c845a91e925e5c479388370a",
+    "E01/metrics.json": "19611756dc5405245ca458142f094b0cb3c0a969e67d1980bf9447f27e63f2c9",
+    "E02/verdict.json": "40e50797668a32e202582fb0f79d264f5209affb1c35da76293e93676fbf5b0f",
+    "E02/metrics.json": "00a5e457020979120c52dfd5e0c64f3b90d35383639826212ba2bd244b270e42",
+    "E03/verdict.json": "f54ea0907a24d11b61d52a72cc77c1dc3a340693b89e573859c2d65d39ca4c0c",
+    "E03/metrics.json": "684e3a21d2869dd4b02ed61a7a3378d89ae1ef42e2bf1c512c799d4ac9792d99",
+    "E03/cases.jsonl": "6281de94b92b60b27f23a17ed44d4ad3b09f8e665d6398abaaa9907d661acb20",
+    "E03/x1/verdict.json": "4035af6bfb51ce7da78a9dd6cf6b23ac0dda9beb6bc400f3822017f6a9e1b2ec",
+    "E03/x1/metrics.json": "319ee12fe2e44e00fd42c2f37c463fc15e5f73b914f1c159bed205384320fd87",
+    "E03/x1/cases.jsonl": "e6f4f675f40d149a5f45e44361fe3606219d05a3fcd7de95cc912b01d48ae466",
+    "E04/verdict.json": "574b4702a33770a110287c0e00a74d99f7bcdbfc8ea854282cb3ffc199402820",
+    "E04/metrics.json": "b2e18c20337397a6c8d02311d6fc6b60a33c319a2bd7fbcaf93f0e27ec286483",
+    "E04/cases.jsonl": "80690be78d0a7e8a780f27e8bef111bc86c7ffbe0c2e63f832f8606bd5be6892",
+    "E05/verdict.json": "9ef962679c21ad90267446c439a8a947557bc8801fdca73829402596afef3943",
+    "E05/metrics.json": "c927131ef6c43da2bafaceca052b8220311aa3646527290ecd78f2268155a6bb",
+    "E05/cases.jsonl": "f189e218ccef08a0c933855b0385730c3995e91c3eb92f4f900c343eb18bb183",
+    "E06/verdict.json": "e2e5847aef634669fdbe780f82012fcf038c61caba1bbe8f662a47d8d72eb315",
+    "E06/metrics.json": "790472814ca85604d915ea37474572755a22949743b156e9b0e274ed173f1948",
+    "E06/cases.jsonl": "1a6a026f214cccec72c574292265b73e4ee1a0c756d2d654705e5552db5a3e1f",
+    "E07/verdict.json": "3b81ef613b508fe91c2c996cae1bad27a242623cb6c73903917a36fe77df84f3",
+    "E07/metrics.json": "aab95a2db208d3764a94d06753c9494921dd64618d1b6cbe03515ad35a39eb55",
+    "E07/cases.jsonl": "47d02123f99ddfdce8bb3e9655612e23399c07b3485e0cee783fcfad21f83928",
+    "E08/verdict.json": "45fb88a76d5ef0a52d951777f708ebaefc39bd35fd9f621049271fc60f862c63",
+    "E08/metrics.json": "9ac8c1b9b48a1067a67a1c4f330490bc15db26bd28bd02fa56cfd44a4c27e099",
+    "E08/cases.jsonl": "7757db7f840bc83fbca1d3e3ba5de24ad03cfd8696654e2a453800e56b9163cf",
+    "G01/verdict.json": "c93e6f7dec72f32d930dc63b41dc6215d87853e9436da982e5f61b6a8616ebf9",
+    "G01/metrics.json": "89aa75807792304a4025f37cc72a3261eac739abd105736e40682755408b21a1",
+    "G01/cases.jsonl": "ce0c322d6f20f219de143beccc43f7453d0674a901edda1b395eba298af5087d",
+    "G01/x1/verdict.json": "b429c4916e2808e67b57006b2117ea1269229c57ea72f5df0fefddcc92581d12",
+    "G01/x1/metrics.json": "b0f667644c4bb2d647038e60636a99464819038f5c7a1b458a154772513ec3e2",
+    "G01/x1/cases.jsonl": "e5b1f455ff9ea8309e44e89e58dd5315af08a46b71c211cf483419e5db318044",
+    "G02/verdict.json": "0cbafa69f5390fc9caf212af49300d176a258736e49e37c77a4191f354aa01c2",
+    "G02/metrics.json": "1ce740d09a73b075efbd03a0bec5b9f6d683205bf11751ad0793bfa2b74c139f",
+    "G02/cases.jsonl": "d21fac58bb11839a757ea4c5ade2b8c4c471dffa6e19ffb971d9d350417f65b3",
+    "G02/x1/verdict.json": "4ccc5f0d21c6e3a10dd5255906f65ab1470def614e4ac3aa62dc29d18bc909b8",
+    "G02/x1/metrics.json": "eae5d34dc17b45e73a9b86aedf644e94789253c830d922688d45ae651e222eca",
+    "G02/x1/cases.jsonl": "f367a38d8e20d7956f1867f1a9fae1b1d6e344b291543e5e290ff6eee71b854b",
+    "G03/verdict.json": "042786ee08a282dba39b563c25b779523618eddb4556d6731ab36211dd5a3b9e",
+    "G03/metrics.json": "dab331c82281c5a299530c6be1be4c9d3570d1289bdcf1551636372d4cb16bae",
+    "G04/verdict.json": "7507b2cd5c092acd0ea2b12b98905bf8163d8b0c0541b39531d1a2e364e17d9f",
+    "G04/metrics.json": "dfb10a21b0cc3cd48ced56782fd9e516bb046a337ecb08066d27c32ba5b24afb",
+    "G05/verdict.json": "f7b7b4d2110fefddde86a7c7ad198dc74dc18be51c648cb06e2a1b53e4147db7",
+    "G05/metrics.json": "a2d146f1e8d3500b776e34cda40857ba6f82fdeb1491554cf5711abcbb2f4a43",
+    "G05/cases.jsonl": "0dd7f64b604048daefab25179a8c07ea42bbe5889fa3004385168b8e72daaf5f",
+    "G06/verdict.json": "1b39ce3982ecdea23d3e234d59ae139bb08e0a4ebb35763651fd5d0c3bcbab41",
+    "G06/metrics.json": "0b127dfdc864a10be9e5a66c95750027f20ddc3f02c3c4480bf41f16a36581e3",
+    "G06/cases.jsonl": "da200adc0f3c7cca25515f7ba4907d236a40414cc8b5c696ffaa130d13719bfe",
+    "G07/verdict.json": "1e8a0adef7b3087563aea8eca8c31f4835a769edea344b3e8f2568ef7e0ae11f",
+    "G07/metrics.json": "c81dea04e7e167995fe4aac424fd033cbbed56f010cc401a96e19f46da2ad9cf",
+    "G08/verdict.json": "24de8437f4bba3501be69d8548ff8bdff6512a7f5bc4e40e55ae6f4c356d4f81",
+    "G08/metrics.json": "848d517b58475c34e87fd2dc973d40389d1e987fab4367018e5eb1540129bce2",
+    "G08/cases.jsonl": "df07b59cfcb280014d0c95375885c312a87fa6938092e759fdfb0b00956b91fa",
+    "I01/verdict.json": "ed911e47eafb61ffb28294bbffc07fd224aa4d9612fb9162d89dc86ff6667963",
+    "I01/metrics.json": "40ca4779df4417b469bb2f8fdf69269ec6f4c18afa2dbb36aec16e7316d35f55",
+    "I02/verdict.json": "d11abbff47ef568ebb056fdf394aa1a00fd9d949cbaad94c2f5b0f9284172021",
+    "I02/metrics.json": "82e6a4278b3778d67f81cbbf611787426fd1247eb52d47946db06fe44ba87285",
+    "I03/verdict.json": "faadae11e00e09ea81845c376605f75aab53c9096fb924806e3495b83fbc31da",
+    "I03/metrics.json": "313f4e2f39728fc2e3ed25a69b84b7bbf33d572631ce5c0a7145982bafeb90b1",
+    "I04/verdict.json": "ab0096bd41a42cf487df7dc35fb351effa854e826693d603e289ff262ed2b0e3",
+    "I04/metrics.json": "d9e7c9da58cbb41072e99579717f49a8463cc62e27dfb971fa47afb1e0a152b3",
+    "I04/cases.jsonl": "721a4e9c6974bd063b21d1f34d395412a02a73c56ec87e62b208f36541d2b8e0",
+    "I05/verdict.json": "5293aad55bd03956fdadddf10cdb4e70ef9dbe2c85f270e47111e04287dd9691",
+    "I05/metrics.json": "04e4d40a70fa84826322b8a3e0c16ddd98744005627f61068a112c7be29c9619",
+    "I05/cases.jsonl": "181f6a494ab835608e227001de4953d3a08ec4a67627f8217eefe69533819b28",
+    "I06/verdict.json": "4529f71c4bb448bee6505c5ecc4d9e7e37765eee1d4a129f1d2b30e9e96e58cc",
+    "I06/metrics.json": "1d55f54818e7c27fa7290e96ca5f300d7e2e9c7ecafd1b9b5145d3576d4fe0fe",
+    "I07/verdict.json": "2e3fb97a39dc4c349dece0cf7a0f569980681289a9fbeb9e22d54c0a7f30a68b",
+    "I07/metrics.json": "4441d2596c18795e7568aa1533a16511c55bdcb39582e5d0f87034d5bc20c001",
+    "I08/verdict.json": "2b46a09a6b275e0932acf05fb09558b426089fbf6b28dc099dd07a5af2fba153",
+    "I08/metrics.json": "65f29bab3c039fc0b43f4f2153996d25a84f2f4647086861b2444fbd4054cecd",
+    "I08/cases.jsonl": "3f19e41cf0ce75b125e3f3678c6e46c34f85b78151fe55a02e037cd89c601ffc",
+    "T01/verdict.json": "0ad691838a5a57df846f632ede49e3c60d9f6406955d00238af3c91ff1b11a9f",
+    "T01/metrics.json": "776dd7f023ea1d9254ead8256690479ef17aaeeb2416cc033eb099160950f37d",
+    "T02/verdict.json": "893591dfa64cfd215f4d158dd2ea27ad5c7e1356e88b1254c093cd15e976c462",
+    "T02/metrics.json": "b278cfcbca15a2eedc4898369c2244c25680e69ed1c535c4716f2bab6eaa705d",
+    "T03/verdict.json": "bb76a5bdef5f094fe5880677f56876867d0070883618ce03dd4845bd36d44a1b",
+    "T03/metrics.json": "d391805d9ace687e895b3ec9cffaff11d4564496dfc3808c4166e48af0fead7c",
+    "T04/verdict.json": "a19b6f96f47dbce4c48906e318cce1e6f1934d72e1ab19799bf8444c688d43a0",
+    "T04/metrics.json": "488d82d60e334b0930a47514a922206ba677b5d9f6567e13898a2adede5f873f",
+    "T05/verdict.json": "4742250424bad1f1fac68c4853b5fd8ad55e18d6491986397fac1e8d5e5a4ae1",
+    "T05/metrics.json": "1d10b14b4221d94cb2896a30fdcb7612de92f7f29c32188d99cde408eac8db01",
+    "X01/verdict.json": "1be2ab921c379dff5230a4002138333776ba8bf7f5849850ce997aef7869711c",
+    "X01/metrics.json": "85ce92dd2e46eb35e37af9042d261dfbaf3b326899ab3271179208f3294eb577",
+    "X02/verdict.json": "d8dd22cab1d768f2e3aee2bee94f792ff5ffa6a25f023df7a9403bffb07caed1",
+    "X02/metrics.json": "4d497fdf83b8965baa2f760a6e2f966db5c774cc5df860870d2e0f89dcd01757",
+    "X03/verdict.json": "ea6aa297caccdb01022418874765775881439015d072c7962b1fd1dd7c21f619",
+    "X03/metrics.json": "63e1ad746cc75edc8c0bc3fd83bd7bdefae79ee764c80d58cd8cbcc45133f963",
+    "X04/verdict.json": "08bb606cf221f73c5e2a1b1d8d52e56e438bfcf6c1fad820012b1a62154dcf41",
+    "X04/metrics.json": "d719aef3b81a0f88805a7255594845efa1618fbc682d0c3a23ed95241fcb25f0",
+    "X05/verdict.json": "fe2d2986e3d19c863378ea700b1d75f60416584f1aaee3a5d40142e09ad8dd5b",
+    "X05/metrics.json": "33298cbbb3e1dcf23668c03d7fae66ce9dd7b69bcf4ce516c297bdad72eac110",
+    "X05/cases.jsonl": "55d46987f0327cff95f4d150e0abc84ec9b898a9340860e331b800872a16848b",
+    "X06/verdict.json": "c1d314176463688dadd0e75ebfc2d1694007b7f84e7f1cf5c3b63cf0b1ca295d",
+    "X06/metrics.json": "a123d82349cc218463634369b30dba490059b46655e350438f6aa8716ce08bd0",
+    "X06/cases.jsonl": "86146fd58b6673b13b1c1225c16d24939e4ce271a7ad45eba7be0a1c06e8d930",
+    "X07/verdict.json": "3de0562ab24e7b34dd50022a068637b3e5c2c232a180b47f3c021d09be766a4c",
+    "X07/metrics.json": "81c73b09f9c65b39c20983c95d48d6e7c6d7dd5f83d1dfea3fa43ec6b28b94d1",
+    "X08/verdict.json": "37c35f016af69a554011ee447e486e63ed77f72fb239bd10d4db2f1ae1b73bc0",
+    "X08/metrics.json": "a1f2a5133c4d0509d67385e0e894719e306ae3dbdf8097e7845f7820325c533e",
+    "X09/verdict.json": "cc95d96b6f75725b4588bf292845ac3e9d8e694528aad9336fbb154263fa9ffa",
+    "X09/metrics.json": "f1b549cefd62365399016fda70a70c14bc001fc8fbb2a807cf317e8cf6879b89",
+    "X10/verdict.json": "0bded7d20d44e19e408ddef54ef2a99cd6c406175e84c477ab14d756d6c29f33",
+    "X10/metrics.json": "771e833bf77756be7c5ca4e498a0c01e4bcc345d377641489c11b7d7baa7dd8e",
+    "X11/verdict.json": "375cd3d892fcea675740ef36c74f3456e2e6891c2f889de34326fa0e80e0b90b",
+    "X11/metrics.json": "11b70434001f4a3c3f7bb5eb18d788a28037e656cdd73244078094ca84d01082",
+    "X11/cases.jsonl": "664bd3ef4a6af5294ca9304465822ed408adcc415e9a2648a5d2ebc69bdd0a78",
+    "X12/verdict.json": "0325f418a642ffd64291e3e68745bb6ef08e643703d687d7e10dd7835431666a",
+    "X12/metrics.json": "8cf384b9bffff9af59f7d581fa0c96f9487e6b9ae7f7f1b36ebf5e4b24888db5"
+  },
+  "original_expected": 271,
+  "superseded_enumeration": [
+    {
+      "question": "I08",
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I08\\verdict.json",
+      "reason": "I08 is one essay keystone on the first reader plus SOL (brief I08; run_I08), not a reader/domain factorial"
+    },
+    {
+      "question": "I08",
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I08\\verdict.json",
+      "reason": "I08 is one essay keystone on the first reader plus SOL (brief I08; run_I08), not a reader/domain factorial"
+    },
+    {
+      "question": "I08",
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I08\\verdict.json",
+      "reason": "I08 is one essay keystone on the first reader plus SOL (brief I08; run_I08), not a reader/domain factorial"
+    },
+    {
+      "question": "I08",
+      "arm": "SOL",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\I08\\verdict.json",
+      "reason": "I08 is one essay keystone on the first reader plus SOL (brief I08; run_I08), not a reader/domain factorial"
+    },
+    {
+      "question": "A05",
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {
+        "supplied": "law"
+      },
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A05\\verdict.json",
+      "reason": "run_A05 supplies the factor only to FMN; DOM is the shared unsupplied baseline"
+    },
+    {
+      "question": "A05",
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "law"
+      },
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A05\\verdict.json",
+      "reason": "run_A05 supplies the factor only to FMN; DOM is the shared unsupplied baseline"
+    },
+    {
+      "question": "A05",
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {
+        "supplied": "residue"
+      },
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A05\\verdict.json",
+      "reason": "run_A05 supplies the factor only to FMN; DOM is the shared unsupplied baseline"
+    },
+    {
+      "question": "A05",
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "residue"
+      },
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A05\\verdict.json",
+      "reason": "run_A05 supplies the factor only to FMN; DOM is the shared unsupplied baseline"
+    },
+    {
+      "question": "A05",
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {
+        "supplied": "purpose"
+      },
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A05\\verdict.json",
+      "reason": "run_A05 supplies the factor only to FMN; DOM is the shared unsupplied baseline"
+    },
+    {
+      "question": "A05",
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "purpose"
+      },
+      "targets": [
+        "next_action",
+        "stop"
+      ],
+      "output": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\A05\\verdict.json",
+      "reason": "run_A05 supplies the factor only to FMN; DOM is the shared unsupplied baseline"
+    }
+  ],
+  "expected": 261,
+  "complete": 56,
+  "mandatory_total": 56,
+  "missing_mandatory": [],
+  "invalid_dispositions": [],
+  "outcomes": {
+    "VALID_NULL": 1,
+    "SUPPORT_CANDIDATE": 1,
+    "DESCRIPTIVE": 11,
+    "INCONCLUSIVE": 8,
+    "NOT_RUN": 2,
+    "INFRASTRUCTURE": 28,
+    "COUNTEREVIDENCE": 8,
+    "INSTRUMENT_FAILED": 2
+  },
+  "rows_total": 20543,
+  "confirmations_selected": 0,
+  "confirmation_cap_ok": true,
+  "factor_coverage": [
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A01",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A01/x1",
+      "valid_rows": 95,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A01/x1",
+      "valid_rows": 96,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A01/x1",
+      "valid_rows": 95,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A01/x1",
+      "valid_rows": 95,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A01/x1",
+      "valid_rows": 94,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 0
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 1
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 2
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "LAWR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "RESR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "n_earlier": 3
+      },
+      "cell": "A02",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "A03",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "supplied": "none"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "none"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "supplied": "none"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "none"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {
+        "supplied": "none"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "none"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "supplied": "law"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "law"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "supplied": "law"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "law"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "supplied": "residue"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "residue"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "supplied": "residue"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "residue"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "supplied": "purpose"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "purpose"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "supplied": "purpose"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "supplied": "purpose"
+      },
+      "cell": "A05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "B01",
+      "valid_rows": 0,
+      "status": "INSTRUMENT_UNRESOLVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "B01",
+      "valid_rows": 0,
+      "status": "INSTRUMENT_UNRESOLVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "B01",
+      "valid_rows": 0,
+      "status": "INSTRUMENT_UNRESOLVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "B01",
+      "valid_rows": 0,
+      "status": "INSTRUMENT_UNRESOLVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "B02",
+      "valid_rows": 0,
+      "status": "INSTRUMENT_UNRESOLVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "B02",
+      "valid_rows": 0,
+      "status": "INSTRUMENT_UNRESOLVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "B02",
+      "valid_rows": 0,
+      "status": "INSTRUMENT_UNRESOLVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "B02",
+      "valid_rows": 0,
+      "status": "INSTRUMENT_UNRESOLVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "shape": "structured"
+      },
+      "cell": "D01",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "structured"
+      },
+      "cell": "D01",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "shape": "structured"
+      },
+      "cell": "D01",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "structured"
+      },
+      "cell": "D01",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "shape": "essay"
+      },
+      "cell": "D01",
+      "valid_rows": 17,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "essay"
+      },
+      "cell": "D01",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "shape": "essay"
+      },
+      "cell": "D01",
+      "valid_rows": 17,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "essay"
+      },
+      "cell": "D01",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "shape": "free"
+      },
+      "cell": "D01",
+      "valid_rows": 15,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "free"
+      },
+      "cell": "D01",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "shape": "free"
+      },
+      "cell": "D01",
+      "valid_rows": 15,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "free"
+      },
+      "cell": "D01",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "shape": "structured"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 71,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "structured"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 71,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "shape": "structured"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 71,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "structured"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 71,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "shape": "essay"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 63,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "essay"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 63,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "shape": "essay"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 63,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "essay"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 63,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {
+        "shape": "free"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 58,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "free"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 58,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {
+        "shape": "free"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 58,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {
+        "shape": "free"
+      },
+      "cell": "D01/x1",
+      "valid_rows": 58,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMPT",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "D04",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMPT",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "D04",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMPT",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "D04",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMPT",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "D04",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "D04",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "D04",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "D04",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "D04",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FR",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "D05",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FR",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "D05",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E03/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "GEN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E04",
+      "valid_rows": 20,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "GEN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E04",
+      "valid_rows": 20,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "GEN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E04",
+      "valid_rows": 20,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "GEN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E04",
+      "valid_rows": 20,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMB",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMB",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMB",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMB",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "GEN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "GEN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "GEN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "GEN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E05",
+      "valid_rows": 16,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMC",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E06",
+      "valid_rows": 80,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMC",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E06",
+      "valid_rows": 80,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMC",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E06",
+      "valid_rows": 80,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMC",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E06",
+      "valid_rows": 80,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E06",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E06",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FR",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E07",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FR",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E07",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMS",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E08",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMS",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E08",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMS",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E08",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMS",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E08",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "SOL",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E08",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "SOL",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E08",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "E08",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "E08",
+      "valid_rows": 40,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G01",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G01",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G01",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G01",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G01/x1",
+      "valid_rows": 384,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G01/x1",
+      "valid_rows": 384,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G01/x1",
+      "valid_rows": 384,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G01/x1",
+      "valid_rows": 384,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMP",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMP",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMP",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMP",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMP",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMP",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMP",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMP",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G02/x1",
+      "valid_rows": 192,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PULL",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PULL",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PULL",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PULL",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G05",
+      "valid_rows": 48,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G06",
+      "valid_rows": 72,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G06",
+      "valid_rows": 72,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G06",
+      "valid_rows": 72,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PUR",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G06",
+      "valid_rows": 72,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FR",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "G08",
+      "valid_rows": 32,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FR",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "G08",
+      "valid_rows": 32,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 46,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 44,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 46,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "PERS",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 44,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 46,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 44,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "SOL",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 46,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "SOL",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 44,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 46,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 44,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 46,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 44,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 46,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 44,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 46,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I04",
+      "valid_rows": 44,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "SOL",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "SOL",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "I05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I08",
+      "valid_rows": 1,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "SOL",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "I08",
+      "valid_rows": 1,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DIR0",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X05",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X06",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X06",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X06",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FMN",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X06",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X11",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_qwen",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X11",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X11",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "FM",
+      "reader": "adapter:fm_smollm",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X11",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X11",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "DOM",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X11",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "essay",
+      "corner": {},
+      "cell": "X11",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    },
+    {
+      "arm": "U",
+      "reader": "-",
+      "domain": "workshop_doc",
+      "corner": {},
+      "cell": "X11",
+      "valid_rows": 24,
+      "status": "OBSERVED"
+    }
+  ],
+  "frontier_usd": 2.141298,
+  "frontier_under_cap": true,
+  "admission": {
+    "adapter:fm_qwen": {
+      "passed": false,
+      "gap": 0.24101690609925705,
+      "ci": [
+        0.13447319750337286,
+        0.3563094731399969
+      ],
+      "cells": {
+        "all": {
+          "outcome": "SUPPORT_CANDIDATE",
+          "reason": "directional support at or above the frozen threshold",
+          "point": 0.24101690609925705,
+          "ci": [
+            0.13447319750337286,
+            0.3563094731399969
+          ],
+          "n_units": 306,
+          "threshold": 0.03,
+          "perm_p": 4.999750012499375e-05,
+          "arm": "FM",
+          "rival": "DOM",
+          "n_arm": 306,
+          "n_rival": 306
+        },
+        "POP": {
+          "outcome": "SUPPORT_CANDIDATE",
+          "reason": "directional support at or above the frozen threshold",
+          "point": 0.4271729012466364,
+          "ci": [
+            0.26988805798069637,
+            0.5959541760574197
+          ],
+          "n_units": 150,
+          "threshold": 0.03,
+          "perm_p": 4.999750012499375e-05,
+          "arm": "FM",
+          "rival": "DOM",
+          "n_arm": 150,
+          "n_rival": 150
+        },
+        "PU": {
+          "outcome": "INCONCLUSIVE",
+          "reason": "interval includes zero and cannot exclude a useful benefit",
+          "point": 0.06202075691908458,
+          "ci": [
+            -0.075216521530347,
+            0.21148291305952868
+          ],
+          "n_units": 156,
+          "threshold": 0.03,
+          "perm_p": 0.3966801659917004,
+          "arm": "FM",
+          "rival": "DOM",
+          "n_arm": 156,
+          "n_rival": 156
+        }
+      },
+      "band": -0.05,
+      "prediction_passed": true,
+      "generation_passed": false,
+      "admission": "NOT_ADMITTED",
+      "admitted": false,
+      "reasons": [
+        "generation failed",
+        "model/adapter/construction/scoring/copied-source identity incomplete"
+      ],
+      "prediction_identity": {},
+      "generation_identity": {}
+    },
+    "adapter:fm_smollm": {
+      "passed": false,
+      "gap": 0.2014459250047122,
+      "ci": [
+        0.08917311498965187,
+        0.31863728317177314
+      ],
+      "cells": {
+        "all": {
+          "outcome": "SUPPORT_CANDIDATE",
+          "reason": "directional support at or above the frozen threshold",
+          "point": 0.2014459250047122,
+          "ci": [
+            0.08917311498965187,
+            0.31863728317177314
+          ],
+          "n_units": 306,
+          "threshold": 0.03,
+          "perm_p": 0.00014999250037498125,
+          "arm": "FM",
+          "rival": "DOM",
+          "n_arm": 306,
+          "n_rival": 306
+        },
+        "POP": {
+          "outcome": "SUPPORT_CANDIDATE",
+          "reason": "directional support at or above the frozen threshold",
+          "point": 0.38705397033404676,
+          "ci": [
+            0.22056528307446507,
+            0.5546250196452945
+          ],
+          "n_units": 150,
+          "threshold": 0.03,
+          "perm_p": 4.999750012499375e-05,
+          "arm": "FM",
+          "rival": "DOM",
+          "n_arm": 150,
+          "n_rival": 150
+        },
+        "PU": {
+          "outcome": "INCONCLUSIVE",
+          "reason": "interval includes zero and cannot exclude a useful benefit",
+          "point": 0.022976650649582823,
+          "ci": [
+            -0.12222299818809826,
+            0.16504143699683213
+          ],
+          "n_units": 156,
+          "threshold": 0.03,
+          "perm_p": 0.751812409379531,
+          "arm": "FM",
+          "rival": "DOM",
+          "n_arm": 156,
+          "n_rival": 156
+        }
+      },
+      "band": -0.05,
+      "prediction_passed": true,
+      "generation_passed": false,
+      "admission": "NOT_ADMITTED",
+      "admitted": false,
+      "reasons": [
+        "generation failed",
+        "model/adapter/construction/scoring/copied-source identity incomplete"
+      ],
+      "prediction_identity": {},
+      "generation_identity": {}
+    }
+  },
+  "warrant": {},
+  "recorded_row_source_hashes": [
+    "422761e5ab98cca6",
+    "ab9eed64222b80e5",
+    "b43fc8b06be5e0a3",
+    "bdf30e1521f79e34",
+    "e40f018e3cffc901"
+  ],
+  "recorded_contract_hashes": [
+    "129240ab66eefe69",
+    "2ffb7b662fbc540b"
+  ],
+  "written_at": "2026-09-06T07:05:53",
+  "validator_version": "stage8-integrity-20260906.1",
+  "validator_sources": {
+    "validate.py": "8e2268c16448ac2eed7b7b53444d47bb39b0dc9f78d5aa3f50e58316dbb6b6c3",
+    "admission.py": "9288f51272566371b96db4a71c1561bf077e52cd1483badae765152894682804",
+    "claims.py": "b3357f12a4a1e2cdefb001e2d6fef43995b5dfc591587d538b1959816c07cbc9",
+    "manifest.py": "8f2bf40ca489b836ec467863af05356f5cdb7471495ca4a4ba58f78cdf33e2bb",
+    "cards.py": "a750cd6d1cc24bb67e6ecea653cb0241ee142e2fbc3dfaadc979d0b261dc2db6"
+  },
+  "evidence_root": "private immutable snapshot; input hashes below",
+  "origin_root": "results/phase_2_4_stage_8",
+  "phase": "final",
+  "excluded_pending": [],
+  "limitations": [
+    "Factor coverage checks observed valid rows for world/maker cells; analysis and administrative cards are checked through their own terminal receipts and result hashes.",
+    "Copied-source references are verified where recorded; historical rows without them are not retroactively assigned current source identity.",
+    "Historical contract hashes include mutable closure fields; recorded hashes are retained, not relabeled as the closure hash."
+  ]
+}

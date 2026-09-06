@@ -72,7 +72,11 @@ def main() -> int:
     argv = sys.argv[1:]
     if "--changed" in argv:
         import design_lint                                            # noqa: PLC0415
-        return _dispatch(design_lint._changed_paths())
+        try:
+            return _dispatch(design_lint._changed_paths())
+        except RuntimeError as e:
+            print(str(e), file=sys.stderr)
+            return 3
     if "--all" in argv:
         root = TOOLS.parent
         return _dispatch(sorted((root / "docs" / "theory").rglob("*.md")))

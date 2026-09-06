@@ -18,7 +18,10 @@ lessons read: LESSONS §5 (all of it: produces guards; one manifest writer; retr
 gates: admission by dependency; the workload lock before any discovery output; the
   scientific lock before discovery GPU cells beyond the integrity block; the confirmation
   freeze before B01 and B02; the packet only after closure plus validation; the re-lock
-  before any rung. bands: the engines'.
+  before any rung. Under the NULL, incomplete integrity or a failed packet write
+  returns a nonzero closure exit and records the failure; the failure direction is
+  DOWN. Under the ALTERNATIVE, resolved valid evidence writes the packet and exits
+  successfully. These closure bands are exhaustive; scientific bands remain the engines'.
 """
 
 from __future__ import annotations
@@ -720,13 +723,29 @@ def run() -> int:
     write_registry("RUNTIME", {"written_at": now_iso(), "elapsed_h": round(contract.elapsed_h(), 2),
                                "gpu_lock_seconds": sum(float((v or {}).get("gpu_held_s") or 0.0) for v in (read_registry("COMPUTE_LEDGER") or {}).values() if isinstance(v, dict)),
                                "cells": m.state_counts()})
-    validate(write=True)
+    return finalize_report()
+
+
+def finalize_report() -> int:
+    """Closed execution and successful packet validation are separate states."""
+    from soundingline.stage8 import update_registry
+    cov = validate(write=True)
     from runners.stage8 import report as REP                                      # noqa: PLC0415
+    status = {"at": now_iso(), "execution_closed": True, "integrity_ok": cov.get("ok") is True,
+              "integrity_reasons": cov.get("reasons", []), "packet_written": False, "packet_error": None,
+              "validator_version": cov.get("validator_version"), "running_cpu": []}
     try:
+        if cov.get("ok") is not True:
+            raise REP.PacketRefused("final integrity failed; see COVERAGE reasons")
         p = REP.write_final_packet()
+        status.update(packet_written=True, note="execution closed; final packet validated and written")
         log(f"final packet written: {p}")
     except Exception as e:                                                        # noqa: BLE001
+        status.update(packet_error=str(e), note=f"execution closed; packet refused or failed: {e}")
+        update_registry("SCHEDULER_STATUS", lambda previous: {**previous, **status})
         log(f"packet refused or failed: {e}")
+        return 2
+    update_registry("SCHEDULER_STATUS", lambda previous: {**previous, **status})
     return 0
 
 

@@ -32,14 +32,25 @@ instrumentalist by design, so it licenses prediction, not identification; Rasmus
 hierarchy (means-ends diagnosis from any level) is the best unexplored formal match. The standing
 humanities objection to name in any write-up: Wimsatt & Beardsley's Intentional Fallacy.
 
-**"Values need many artifacts" is a theorem; unconditional recovery is refuted.** Amin, Jiang &
-Singh (NeurIPS 2017, READ): impossible to identify the intrinsic reward from one task. Armstrong
-& Mindermann (2018, READ), Skalse et al. (2023), Cao et al. (2021): rewards are only partially
-identifiable **in the infinite-data limit**. The operative variable is not the COUNT of artifacts
-but the **DIVERSITY of conditions** under which they were made; N artifacts under identical
-conditions are informationally one. Our bounded human-shaped hypothesis family is the normative
-assumption the proofs say you cannot do without, and should be labelled as such. (The project's
-response and its first toy number live in `../theory/THE_TRIPLE_INFERENCE.md` §7.)
+**Reward recovery depends on assumptions, not simply episode count.** Armstrong and
+Mindermann's policy-compatibility theorem leaves reward unconstrained when the planner is
+unrestricted and unknown; their conclusion explicitly calls for substantive assumptions beyond
+observations and simplicity (READ: §4.1 and §7, rechecked 2026-09-06,
+[primary source](https://arxiv.org/html/1712.05812v6)). Useful narrowing within a restricted
+family is compatible with that theorem; the seven-state result is finite-data narrowing, not
+asymptotic convergence (FINDINGS L60; `../theory/THE_TRIPLE_INFERENCE.md` §7). Other previously
+reviewed identifiability sources remain Amin, Jiang & Singh (2017), Skalse et al. (2023), and
+Cao et al. (2021); their distinct assumptions must not be collapsed into a universal
+episode-count rule.
+
+**Inverse planning includes finished artifacts.** Hurwitz, Brady and Schachner (2019),
+*Detecting social transmission in the design of artifacts via inverse planning*, models
+copying judgments from completed tools, incorporating material availability and functional
+constraints (READ: methods, results and discussion, 2026-09-06,
+[primary paper](https://bradylab.ucsd.edu/pdfs/HurwitzBradySchachner2019.pdf)). This corrects the
+categorical action-sequences-versus-residue distinction in DECISION_TRACES §9. It establishes
+prior art for artifact inference, not human value recovery or validation of Sounding Line's
+proposed extensions. Differentiation remains pending the analyst-curator theory discussion.
 
 **Value blindness, strong form, is false as stated.** Boer & Fischer (k=91, N≈30k): self-reported
 values do predict behaviour moderately. The defensible version is domain-specific self-knowledge

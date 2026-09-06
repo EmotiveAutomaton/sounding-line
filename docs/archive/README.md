@@ -15,3 +15,8 @@ Kept because they carry the reasoning of the day they were written, and the reve
 | `TEST_PLAN.md` | 2026-08-05, before the second sim batch | `TODO.md` + `docs/design/QUEUE.md` |
 
 **Do not add to this folder without retiring something.**
+
+The September 5 coding-agent errata is retired to `maintenance/` after the Sounding Line
+repair/write-through (FINDINGS OPS-ERRATA-1/2 and L371/L372). Its bytes are retained: Ghost
+items are unassigned, and matched-information scientific reruns and historical limitations
+remain useful. Current obligations live in TODO/STATE, not the archived handoff.

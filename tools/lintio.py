@@ -32,6 +32,35 @@ from pathlib import Path
 EXIT_OK, EXIT_VIOLATION, EXIT_BAD_INPUT = 0, 2, 3
 
 
+def paths_from_payload(payload: dict) -> list[Path]:
+    """Decode Claude edits and Codex multi-file patches, including moves/deletions.
+
+    Shell edits require a changed-file scan in the dispatcher. An unknown edit shape
+    is an unusable invocation, not an empty successful check.
+    """
+    if not isinstance(payload, dict) or not isinstance(payload.get("tool_input"), dict):
+        raise ValueError("hook payload needs an object tool_input")
+    inp = payload["tool_input"]
+    names = []
+    if isinstance(inp.get("file_path"), str) and inp["file_path"]:
+        names.append(inp["file_path"])
+    else:
+        patch = inp.get("command", inp.get("patch", inp.get("input")))
+        if not isinstance(patch, str) or not patch.startswith("*** Begin Patch\n"):
+            raise ValueError("unrecognized edit payload; no files were checked")
+        if "*** End Patch" not in patch.splitlines():
+            raise ValueError("incomplete apply_patch payload")
+        for line in patch.splitlines():
+            for prefix in ("*** Add File: ", "*** Update File: ",
+                           "*** Delete File: ", "*** Move to: "):
+                if line.startswith(prefix):
+                    names.append(line[len(prefix):])
+        if not names or any(not name.strip() for name in names):
+            raise ValueError("patch names no usable paths")
+    base = Path(inp.get("workdir") or payload.get("cwd") or repo_root())
+    return list(dict.fromkeys((base / name).resolve() for name in names))
+
+
 def paths_from_invocation(argv: list[str] | None = None) -> tuple[list[Path], int | None]:
     """Returns (paths, early_exit_code). A non-None code means exit immediately with it.
 
@@ -56,8 +85,11 @@ def paths_from_invocation(argv: list[str] | None = None) -> tuple[list[Path], in
         print(f"{Path(sys.argv[0]).name}: hook payload is not valid JSON ({e}). "
               f"Nothing was checked.", file=sys.stderr)
         return [], EXIT_BAD_INPUT
-    fp = (payload.get("tool_input") or {}).get("file_path") or ""
-    return ([Path(fp)] if fp else []), None
+    try:
+        return paths_from_payload(payload), None
+    except (ValueError, TypeError, OSError) as e:
+        print(f"{Path(sys.argv[0]).name}: {e}", file=sys.stderr)
+        return [], EXIT_BAD_INPUT
 
 
 def repo_root() -> Path:

@@ -54,26 +54,29 @@ def _fmt(x, nd=3):
 
 
 def write_final_packet(force: bool = False) -> Path:
+    from runners.stage8.validate import validate
+    from runners.stage8.admission import admitted_readers
+    from runners.stage8.claims import eligible_support_readers
     contract = RunContract8.load()
     if contract is None or not contract.data.get("execution_start"):
         raise PacketRefused("the clock has not started; no packet before the pilot")
-    cov = read_registry("COVERAGE")
-    if not cov:
-        raise PacketRefused("validation has not run")
-    if cov.get("missing_mandatory"):
-        raise PacketRefused(f"validation incomplete: {len(cov['missing_mandatory'])} mandatory dispositions missing")
-    if not force and not (contract.data.get("exhausted") or contract.deadline_passed()):
+    cov = validate()
+    if cov.get("ok") is not True or cov.get("phase") != "final":
+        raise PacketRefused(f"integrity failed under {cov.get('validator_version')}: {json.dumps(cov.get('reasons'))}")
+    if not (contract.data.get("exhausted") or contract.deadline_passed()):
         raise PacketRefused("closure has not been recorded; no early packet exists (§12.2)")
     verdicts = {c: _v(c) for c in list(C.QUESTIONS) + list(C.ATTACKS) if _v(c)}
     gates = read_registry("GATES") or {}
-    eg = (read_registry("EXPERTISE_GATE") or {}).get("readers") or {}
+    eg = admitted_readers()
     lines = ["# Stage 8 curator packet (final, the only one)", "",
              f"Run {contract.data.get('execution_start')} to closure; elapsed {contract.elapsed_h():.1f} h of the 48-hour ceiling; label {contract.data.get('run_label')}; contract {contract.hash()}.", "",
              "## Pass A", "", "### How the world model moved (machine draft; the analyst synthesis is written above this after the run)", ""]
-    support = [c for c, v in verdicts.items() if v.get("outcome") == "SUPPORT_CANDIDATE"]
+    reader_claims = {c for c in C.ALL if c[0] in "DGA" or c in ("E06", "E08")} - {"D05", "G08"}
+    support = [c for c, v in verdicts.items() if v.get("outcome") == "SUPPORT_CANDIDATE" and not v.get("diagnosis_only")
+               and (c not in reader_claims or eligible_support_readers(v, eg))]
     nulls = [c for c, v in verdicts.items() if v.get("outcome") in ("VALID_NULL", "COUNTEREVIDENCE")]
     instr = [c for c, v in verdicts.items() if v.get("outcome") == "INSTRUMENT_FAILED"]
-    lines.append(f"Expertise gate: {json.dumps({k: {'passed': v.get('passed'), 'gap': v.get('gap')} for k, v in eg.items()})}. "
+    lines.append(f"Reader admission: {json.dumps({k: {f: v.get(f) for f in ('prediction_passed', 'generation_passed', 'admission', 'reasons')} for k, v in eg.items()})}. "
                  f"Gates: {json.dumps({k: v.get('passed') for k, v in gates.items() if isinstance(v, dict) and 'passed' in v})}. "
                  f"Support candidates: {', '.join(support) or 'none'}. Valid nulls or counterevidence: {', '.join(nulls) or 'none'}. "
                  f"Instrument failures: {', '.join(instr) or 'none'}. Interrupts: {json.dumps([i['name'] for i in interrupts()])}.")
@@ -110,10 +113,10 @@ def write_final_packet(force: bool = False) -> Path:
     lines += ["", "### Open theory questions (three to six; the analyst prunes)", ""]
     qs = []
     if not any(v.get("passed") for v in eg.values()):
-        qs.append("No trained reader reached the standard process's level: is the band, the corpus, the adapter, or the readout the boundary?")
+        qs.append("No trained reader passed both prediction and generation with matching identity: which measured failure needs explaining, and what evidence distinguishes its competing explanations?")
     if verdicts.get("E05", {}).get("outcome") == "SUPPORT_CANDIDATE":
         qs.append("An untrained reader passed a gate: what did Stage 7's boundary measure?")
-    if (gates.get("difference") or {}).get("passed") is False:
+    if (gates.get("difference") or {}).get("passed") is False and any(v.get("admitted") for v in eg.values()):
         qs.append("An admitted reader's surprise did not localize the maker: is the tail threshold, the shape, or the reader the reason?")
     g05d = [v.get("difference_purpose_minus_pull") for v in g05.values() if v.get("difference_purpose_minus_pull") is not None]
     if g05d:
@@ -129,6 +132,8 @@ def write_final_packet(force: bool = False) -> Path:
     fr = read_registry("FRONTIER_LEDGER") or {}
     lines.append(f"Elapsed {dur['elapsed_hours']} h; GPU lock held {dur['gpu_lock_held_hours']} h; lost time {dur['lost_hours_recorded']} h; short run {bool(read_registry('SHORT_RUN'))}.")
     lines.append(f"Coverage: {cov.get('complete')}/{cov.get('mandatory_total')} mandatory; outcomes {json.dumps(cov.get('outcomes'))}; rows {cov.get('rows_total')}.")
+    lines.append(f"Administrative integrity passed under {cov['validator_version']}; validator source hashes {json.dumps(cov['validator_sources'])}. This does not confer scientific warrant or record curator processing.")
+    lines.append(f"Confirmation warrant by explicit claim identity: {json.dumps(cov.get('warrant'))}.")
     lines.append(f"Confirmations: {json.dumps((read_registry('CONFIRMATION_REGISTRY') or {}).get('selected'))}.")
     lines.append(f"Adapters: {json.dumps({k: {'sha': v.get('sha'), 'epoch': v.get('epoch'), 'band_ok': v.get('band_ok'), 'heldout_gap': (v.get('heldout') or {}).get('gap_fm_minus_dom')} for k, v in (read_registry('ADAPTERS') or {}).items()})}.")
     lines.append(f"Frontier: model {json.dumps((fr.get('model') or {}).get('model'))}; total {fr.get('total_usd')} USD of the {fr.get('cap_usd')} cap; by cell {json.dumps(fr.get('by_cell'))}; fixture {json.dumps(fr.get('fixture'))}.")
@@ -144,7 +149,7 @@ def write_final_packet(force: bool = False) -> Path:
         if not v:
             lines.append(f"- **{c}**: NO VERDICT")
             continue
-        lines.append(f"- **{c}** {v.get('exec')} / {v.get('outcome')}: {str(v.get('primary', ''))[:140]}; point {_fmt(v.get('point'))}, ci {v.get('ci')}, n {v.get('n_units')}; tail {_fmt(v.get('tail_point'))} {v.get('tail_outcome') or ''}; {str(v.get('reason', ''))[:240]}"
+        lines.append(f"- **{c}** {v.get('exec')} / {v.get('outcome')}; diagnosis only {bool(v.get('diagnosis_only'))}: {str(v.get('primary', ''))[:140]}; point {_fmt(v.get('point'))}, ci {v.get('ci')}, n {v.get('n_units')}; tail {_fmt(v.get('tail_point'))} {v.get('tail_outcome') or ''}; {str(v.get('reason', ''))[:240]}"
                      + (f"; cells {json.dumps({k: x.get('outcome') for k, x in (v.get('conditional_cells') or {}).items()})[:400]}" if v.get("conditional_cells") else ""))
     return write_packet("\n".join(lines) + "\n", contract, exhausted=bool(contract.data.get("exhausted")))
 

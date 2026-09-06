@@ -570,6 +570,7 @@ def run_unit(run: CardRun8, server: ModelServer, w: dict, ev: dict, bundle: dict
         task["per_event"] = True
     task.update(task_extra or {})
     cap = RT.materialize(run.cell_id, f"{uid.replace('|', '-')}__{arm}__{(reader or 'x').split('/')[-1].replace(':', '-')}", ev, task, dom_params())
+    source_receipt = RT.copied_sources(cap)
     res = RT.run_capsule(cap, server.endpoint, server.token, model, timeout_s=2400 if arm in MODEL_ARMS else 300)
     pred = res.get("prediction")
     valid, why = True, "ok"
@@ -599,7 +600,8 @@ def run_unit(run: CardRun8, server: ModelServer, w: dict, ev: dict, bundle: dict
             budget=(pred or {}).get("compute"), evidence_sha=evidence_sha(ev), pred_ref=pref,
             extra={"abstain": (pred or {}).get("abstain"), "equivalence_class": (pred or {}).get("equivalence_class"),
                    "confidence": (pred or {}).get("confidence"), "targets_extra": {k: v for k, v in ((pred or {}).get("targets") or {}).items() if k in ("purpose", "pull", "lawr", "resr")},
-                   "notes": keep, "canonical_sha": prediction_sha(pred) if pred else None, "access": (res.get("access") or {}).get("counts")})
+                   "notes": keep, "capsule_source_sha256": source_receipt["sha256"],
+                   "canonical_sha": prediction_sha(pred) if pred else None, "access": (res.get("access") or {}).get("counts")})
     run.unit_complete(reader, uid, arm)
     RT.cleanup_unit(cap)
     return sc
@@ -756,23 +758,8 @@ def finish_desc(run: CardRun8, metrics: dict, reason: str, outcome: str = "DESCR
 
 
 def admitted_readers() -> dict:
-    """The expertise gate's verdict per reader: E03 (predict) AND E04 (produce). A ladder rerun
-    of E03 rewrote the registry with passed=True while the generation gate stood failed, and a
-    ladder trunk cell ran as a claim (D01/x1, 2026-09-05 03:33); admission now reads both."""
-    g = read_registry("EXPERTISE_GATE") or {}
-    gen = (read_registry("GATES") or {}).get("generation")
-    gen_readers = ((gen or {}).get("detail") or {}).get("readers") or {}
-    out = {}
-    for k, v in (g.get("readers") or {}).items():
-        v = dict(v or {})
-        if gen is not None and not gen.get("passed"):
-            v["passed"] = False
-            v["reason_generation"] = "the generation gate (E04) failed after its one repair; not admitted"
-        elif gen_readers and k in gen_readers and not gen_readers.get(k):
-            v["passed"] = False
-            v["reason_generation"] = "this reader failed the generation gate (E04)"
-        out[k] = v
-    return out
+    from runners.stage8.admission import admitted_readers as read_admission
+    return read_admission()
 
 
 def admitted(run: CardRun8) -> list[str]:
@@ -1014,7 +1001,8 @@ def run_I08(run: CardRun8) -> int:
             res = RT.run_capsule(cap, server.endpoint, server.token, reader or "", timeout_s=900)
             pred = res.get("prediction")
             sc = PS.score(pred, b) if pred else None
-            trace[arm] = {"capsule_files": listing, "access_counts": (res.get("access") or {}).get("counts"), "rc": res["rc"],
+            trace[arm] = {"capsule_files": listing, "copied_sources": RT.copied_sources(cap),
+                          "access_counts": (res.get("access") or {}).get("counts"), "rc": res["rc"],
                           "prediction_sha": prediction_sha(pred) if pred else None, "adapter_sha": ((pred or {}).get("notes") or {}).get("adapter_sha"),
                           "option_lps": ((pred or {}).get("notes") or {}).get("option_lps"),
                           "next_action_top": sorted(pred["targets"]["next_action"].items(), key=lambda kv: -kv[1])[:3] if pred else None,
@@ -1250,6 +1238,7 @@ def _gate_worlds(run: CardRun8, card: str, n: int) -> list[dict]:
 
 
 def run_E03(run: CardRun8) -> int:
+    from runners.stage8.admission import gate_identity
     spec = C.ALL["E03"]
     n = n_units("E03")
     readers = reader_set(run)
@@ -1266,7 +1255,8 @@ def run_E03(run: CardRun8) -> int:
         gap = (cells["all"] or {}).get("point")
         ci = (cells["all"] or {}).get("ci")
         passed = gap is not None and gap >= -EXPERTISE_BAND_NATS
-        per[rd] = {"passed": passed, "gap": gap, "ci": ci, "cells": cells, "band": -EXPERTISE_BAND_NATS}
+        per[rd] = {"prediction_passed": passed, "gap": gap, "ci": ci, "cells": cells,
+                   "band": -EXPERTISE_BAND_NATS, "identity": gate_identity(rows, rd, "FM")}
         passed_any = passed_any or passed
     fw, gw = gain_floor(rows)
     dom_vs_u = contrast_by_reader(run, rows, "DOM", "U")
@@ -1275,15 +1265,15 @@ def run_E03(run: CardRun8) -> int:
     reg["at"] = now_iso()
     reg["oracle_gap"] = gw
     write_registry("EXPERTISE_GATE", reg)
-    set_gate("expertise", passed_any, {"card": "E03", "readers": {k: v["passed"] for k, v in per.items()}})
+    set_gate("expertise", passed_any, {"card": "E03", "readers": {k: v["prediction_passed"] for k, v in per.items()}})
     if not passed_any and not os.environ.get("S8_READER_SET"):
         record_interrupt("expertise_gate_failed_all", "no trained reader predicts the next move at the standard process's level; the stage's reader claims close; E08 and D01 run as diagnosis; the testbed and construction facts stand",
                          blocks=["G01", "G02", "G03", "G05", "G06", "G07", "G08", "A01", "A02", "A03", "A04", "A05", "D04"], detail={k: {"gap": v["gap"], "ci": v["ci"]} for k, v in per.items()})
-    reason = "; ".join(f"{k}: {'PASS' if v['passed'] else 'FAIL'} gap {v['gap']!s:.7} {v['ci']}" for k, v in per.items())
+    reason = "; ".join(f"{k}: {'PASS' if v['prediction_passed'] else 'FAIL'} gap {v['gap']!s:.7} {v['ci']}" for k, v in per.items())
     return finish_desc(run, {"readers": per, "oracle_gap": gw, "dom_vs_uniform": dom_vs_u, "degenerate": run._degenerate},
                        reason, outcome="INFRASTRUCTURE" if passed_any else "COUNTEREVIDENCE",
                        point=max((v["gap"] for v in per.values() if v["gap"] is not None), default=None),
-                       conditional_cells={k: {"outcome": "PASS" if v["passed"] else "FAIL", "point": v["gap"]} for k, v in per.items()})
+                       conditional_cells={k: {"outcome": "PASS" if v["prediction_passed"] else "FAIL", "point": v["gap"]} for k, v in per.items()})
 
 
 def _generation_gate(run: CardRun8, ws: list[dict], readers: list[str], adapter: bool, tag: str) -> dict:
@@ -1335,19 +1325,18 @@ def _generation_gate(run: CardRun8, ws: list[dict], readers: list[str], adapter:
 
 
 def run_E04(run: CardRun8) -> int:
+    from runners.stage8.admission import gate_identity
     n = n_units("E04")
     readers = reader_set(run)
     ws = worlds_for(run, "E04", n, family="POP", offset=4000, no_change=True)
     out = _generation_gate(run, ws, readers, True, "fm")
+    for rd, rec in out["readers"].items():
+        rec["generation_passed"] = rec["passed"]
+        rec["identity"] = gate_identity(run.rows(), rd, "GEN")
     reg = read_registry("GENERATION_GATE") or {}
     reg["fm"] = out
     reg["at"] = now_iso()
     write_registry("GENERATION_GATE", reg)
-    eg = read_registry("EXPERTISE_GATE") or {"readers": {}}
-    for rd, rec in out["readers"].items():
-        eg.setdefault("readers", {}).setdefault(rd, {})["generation_passed"] = rec["passed"]
-        eg["readers"][rd]["passed"] = bool(eg["readers"][rd].get("passed")) and rec["passed"]
-    write_registry("EXPERTISE_GATE", eg)
     passed_any = any(r["passed"] for r in out["readers"].values())
     set_gate("generation", passed_any, {"card": "E04", "readers": {k: v["passed"] for k, v in out["readers"].items()}})
     if not passed_any and not os.environ.get("S8_READER_SET"):

@@ -318,7 +318,7 @@ He predicts a vague unifying effect there and declines to claim even that.
 | **lit** | Within-artifact variation of polish carries the maker | **SUPPORTED (READ).** Seven years of shared-task baselines at 0.830 on topic-controlled data; what they validate is variation-detection, with the goal-variation reading open |
 | **L7** | Variance of arbitrary surface features is the right operationalisation | **REJECTED (test).** 0 of 313 features survive with maker, prompt, topic and register fixed; the plain average found 12, so windowing was not the problem |
 | **L11** | Our feature bank beats the field's bar on the topic-controlled split | **REJECTED (test).** 0.565 against floor 0.444 and bar 0.830; the uncontrolled-split 0.969 probably rides topic |
-| **HH-3** | Within-artifact variance of *probe activations* carries what surface variance does not | **SUPPORTED (test), first pass.** Dashboard §11; genre and register uncontrolled in the pairing |
+| **HH-3** | Within-artifact variance of *probe activations* carries a general human-provenance signal | **REJECTED as provenance; model/register sensitivity remains (test, L39, L101, L105).** The uncontrolled initial comparison is superseded; the trajectory dissociates from the artifact-side sign across families |
 | **HH-4** | Redrafting is the wrong axis; the claim needs artifacts of different kinds by one maker | **OPEN**, and his intent-density quote above says why in advance |
 | **HH-6** | Entering at the anomaly beats entering at the whole artifact | **OPEN.** The machinery exists (`bounded_v6` stage zero); a flag flip and a comparison |
 | **HH-7** | Local decision density around a mistake exceeds baseline | **OPEN.** Needs mistakes located first; the one place a decision and its counterfactual are visible together |
@@ -327,25 +327,15 @@ He predicts a vague unifying effect there and declines to claim even that.
 |   | | *(this row's history is a NO-GAIN root on the strong substrate 08-21 morning and the HURTS discriminator on the weak substrate the same afternoon; the null-discriminator rule is spent)* |
 | **E02-S3** | A reader given a maker's choice RECORD predicts their next choice better than one given nothing or matched filler, on known-policy targets | **SUPPORTED (test), one reader deep.** +20 points paired (p = 0.0026) against an exact ceiling of 1.00, but the entire margin is Qwen's (0.57 vs 0.23); SmolLM-1.7B reads the record at filler level (0.27). The self-first two-step neither helps nor hurts. Instrument gate for the Stage-3 route factorial |
 
-**What the table says.** The entry-point family has one live positive, one honest defeat, and now
-a closed question with a direction. The
-reader's own affective series moves through human text and not machine text, while every surface
-operationalisation of the same idea loses to the field's bar once topic is controlled. Ordering
-effects are bounded near zero, the wobble test is retired on the curator's own account, and the
-anomaly rows, the family's core, remain unrun. The self-simulation STRATEGY is now bounded from
-both sides: externalizing a production route buys nothing where direct reading is strong and
-actively damages where it is weak, with a measured fabrication cost the direct form does not
-carry, so the bounded reader's value is direct reading plus calibrated refusal and any future
-generate-then-judge stage owes its own fabrication gate. That bounds the strategy, not the §1
-self-model prior itself, whose implicit form the direct reader may already be using and which
-no test here reaches. The anomaly rows gain their route: the goal is entered by asking what the
-artifact affords, and Stage 8 measures that route directly (G01) beside the entry position of a
-reader's first explanation (D03), so the family's core stops being unrun. Confidence: the
-probe-activation result is one
-bad test away; the surface defeats are replicated and controlled; the generation bound is
-one bad test away as a pair, two substrates deep in one reader family; the record-route gate
-is one test in one environment, with its reader asymmetry (one model uses records, one does
-not) still unexplained; the rest is untested.
+**What the table says.** Probe trajectories reflect model/register sensitivity whose mechanism
+is unresolved, not general human provenance (HH-3). Surface variation also fails its controlled
+bar. Externalizing a production route buys nothing where direct reading is strong and damages
+it where weak, with a fabrication cost; this bounds the explicit strategy, not the implicit
+self-model prior. Records help only the reader able to consume them. The anomaly hypotheses
+remain distinct from variation detection; Stage 8 supplies their diagnostic tests without
+admitting the trained readers. Confidence: instrument-dead for the probe's provenance reading;
+replicated and controlled for the surface defeats; one bad test away for the explicit-route
+bound and reader-specific record benefit; untested, logic only for the remaining hypotheses.
 
 ## §3. Traversing explanatory levels
 
@@ -955,38 +945,21 @@ rate and next to a field bar.
 | heuristic | measured strength | baseline | status |
 |---|---|---|---|
 | **within-artifact variation, surface features** (§2) | 0.565 macro-F1 topic-controlled; 0.969 on the uncontrolled split | floor 0.444; field bar 0.830 / 0.959 | real, **not competitive where topic is controlled**; the uncontrolled win probably rides topic |
-| **within-artifact variation, probe activations** (§2) | human long-form variance 0.0102 vs machine 0.0065, *p* = 0.002 | matched series length | **SUPPORTED (test), first pass.** The operationalisation nobody pre-empted; register uncontrolled |
+| **within-artifact variation, probe activations** (§2) | historical human long-form variance 0.0102 vs machine 0.0065, *p* = 0.002 | matched series length; register uncontrolled initially | **REJECTED as provenance (test, L39 → L101 → L105).** Initial interpretation superseded by register/family sensitivity and dissociation from the artifact-side sign; mechanism unresolved |
 | **visibility partition** (§6) | authors at 0.78 (low-vis) vs 0.38 (high-vis); draft-stage 0.48 (high) vs 0.30 (low) | chance 0.10 / 0.33 | **SUPPORTED (test).** Clean double crossover, first pass |
 | **revision homogeneity** (§7) | real 0.45 vs spliced 1.94, AUC 1.0 | synthetic cross-author splice | **SUPPORTED (test), first pass, weakest adversary.** The realistic imposition case is untested |
 | **provenance prior** (§1) | ratio shift +0.007, *p* < 2×10⁻⁸, three corpora | paired identical text | **SUPPORTED (test), replicated.** In the reader model; human-side untested |
-| **maker-reader family similarity** (§1, model analogue) | original exact-vs-cross +0.035 and sibling-vs-cross +0.025; after accepted Qwen paraphrase +0.016 and +0.021; capacity-margin Spearman 0.43; crossed own-minus-other +0.020 and +0.014 untouched, +0.012 and +0.011 after cross-family rewriting; the crossed pattern dies when candidates use the maker's own instruction wording | cross-family readers on identical candidates; goal-preserving paraphrase by each family in turn; within-matrix capacity direction; a second maker family | **SUPPORTED (test, L163), first pass; discovery follow-ups PROMISING (test, L164, L165), no claim promotion.** The advantage reverses with the artifact's origin family and follows the original maker through rewriting by the other family, so the relation rather than reader quality or artifact dialect carries it, and it appears only where candidate and artifact barely share vocabulary rather than where they share most (test, L166); the relation now has a representational correlate, with alignment predicting who inverts whom after reader and maker effects are both removed, at rank 0.50 on process-matched texts and 0.77 on fully neutral human essays (test, L168, discovery grade, twice-measured); surface family signal is halved rather than removed, both surviving families are instruction-tuned, and the process-level and geometry legs of the promotion conjunction are untouched |
+| **maker-reader family similarity** (§1, model analogue) | historical exact-vs-cross +0.035, sibling-vs-cross +0.025; accepted Qwen paraphrase +0.016/+0.021; capacity rank 0.43; crossed +0.020/+0.014 original and +0.012/+0.011 weak rewrite; geometry ranks 0.50/0.77. Corrected full matrix: qwen +0.0137, smollm +0.0096, olmo +0.0365. Strong independent erasure: +0.001 in each powered family | identical candidates, within-reader contrasts, weaker rewrites, then stronger independent erasure with both families above floor | **SUPPORTED for original-artifact relatedness; mechanism OPEN (test, L163-L168, L177-L182, L217-L219, L225, L236, L251).** Stronger erasure removes the advantage; weak-rewrite survival does not exclude shared convention. Later hash splits are retrospective robustness, not untouched confirmation; see §1 for retained history |
 | anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | | | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
-**What the dashboard says.** Six heuristics carry numbers, and the family-similarity row is the
-strongest of the new ones on original artifacts. Related readers recover a maker's recorded goals better than
-cross-family readers, and with a second maker family in place the advantage reverses with the
-artifact's origin rather than pointing at one favoured reader family, which is the pattern
-reader quality alone cannot produce. It survives mechanical normalization unchanged, and with each family's artifacts now rewritten
-by the other family in turn, the advantage stays with the original maker while the rewriting
-family gains nothing from having produced the text, which is the pattern an artifact-dialect
-account cannot produce either. A third control points the same way: asking with the maker's own instruction wording, where
-candidate and artifact share most vocabulary, inflates every margin and hands both corpora to
-a single reader family, so the crossed pattern lives precisely where surface overlap is least.
-The relation also has its first representational correlate: after removing what reader
-quality and maker difficulty explain, models whose late representations align read one
-another's goals better, measured on process-matched texts and again more strongly on fully
-neutral human essays, so the correlate belongs to the models rather than the corpus; the
-causal direction remains the open question and its branch's opening condition is met.
-What remains unsettled is what family membership names mechanically, since a surface classifier
-still reads family at half its former strength after erasure, both surviving families are
-instruction-tuned while both losing families are older architectures, and nothing here shows
-the relation helping at a target the instruction did not already state. The two
-variation measures, the visibility partition, and the homogeneity statistic remain plausibly
-distinct channels, but stacking still waits on construct validation. The original-artifact
-relatedness effect survives weaker rewrites and not the strongest independent eraser, where it
-reads zero with both families powered (L251). The mechanism remains open; retrospective re-splitting
-is not fresh confirmation. Confidence: the surface-variation number is replicated and controlled;
-the similarity root and the other measured heuristics are one bad test away each; the crossed
-reversal is one bad test away, since its erasure rung reads zero under the
-strongest eraser and its reserve split is retrospective rather than untouched; everything
+**What the dashboard says.** Original-artifact relatedness survives within-reader and weaker
+rewrite controls, but the strongest independent eraser removes the advantage with both families
+above their floors (L251). Corrected full-matrix aggregation preserves the original relation
+(L236); retrospective splits do not provide untouched confirmation. Shared organization and
+shared convention remain rivals, and representational correlation does not settle causation.
+The probe trajectory's initial human-machine contrast is superseded by model/register sensitivity
+(L101, L105). These measurements do not establish a general provenance mechanism, and stacking
+still requires construct validation. Confidence: replicated and controlled for the surface
+variation number; instrument-dead for the probe's provenance reading; one bad test away for the
+relatedness mechanism and other measured heuristics; untested, logic only for everything
 unmeasured is untested.

@@ -625,6 +625,32 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Queue status is a shared reader-facing file too: atomic unique-temp replacement and
+  bounded Windows sharing-error retries protect the last good record.** The maintenance
+  gear-two launch hit Errno 22 on direct overwrite, recovered next pass, and was repaired
+  after closure. Persistent failure must still raise, leaving prior status readable.
+  Orphan cleanup requires the resolved repository path boundary and process creation-time
+  recheck; a runner-name pattern alone can touch a sibling project. Refresh the reviewed
+  watcher inventory after queue edits or its source-hash guard correctly pauses scanning.
+  (2026-09-06, OPS-READOUT-3, tests/test_queue_status.py)
+- **An independently measured numerical envelope does not make a post-outcome threshold
+  predeclared.** Retain both original and amended judgments; fixed-input batching and
+  precision measurements validate the apparatus only. A candidate readout must score every
+  option under one declared probability rule and propagate component invalidity. Matched
+  numeric state is not matched operative law or execution access. (OPS-ERRATA-2,
+  OPS-READOUT-1/2/3)
+
+- **Every consumer uses the same per-reader admission decision, and final integrity validates
+  record contents before the reporter uses them.** Independent readers of a raw prediction
+  flag disagreed with the composite generation gate; a metadata record shaped as a boolean
+  passed a file-presence check and then crashed the reporter. Temporary-root maintenance
+  fixtures now exercise both cases, changed source evidence, retained failed confirmation,
+  missing realized conditions, and a disk-write failure. Execution closure, evidence
+  integrity and packet delivery remain separate fields. Hash the capsule bytes actually
+  copied, including inherited helpers; a current repository revision cannot identify old
+  capsule contents. Historical records without the receipt remain explicitly limited.
+  (2026-09-06, FINDINGS OPS-ERRATA-1; tests/stage8_maintenance_checks.py)
+
 - **A cell's status belongs to its runner once the runner might have run.** A batch flipping
   Stage-3 cells PLANNED→BUILT clobbered a LANDED status that a background run had set minutes
   earlier (H05, 2026-08-24; caught because the validator's valid-attempt count came up one

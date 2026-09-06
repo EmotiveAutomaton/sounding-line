@@ -29,6 +29,31 @@ method sketch and its gate.
 
 ## Phase 0 — running or just landed
 
+**OPS-CODEX-1: installed and native hooks/wake verified.** Shared permission defaults
+match Agent Core GPT; the client selects Approve for me. The current running turn retains
+its old Full Access context. Finish next-turn runtime adoption verification after the
+authorized targeted reload, and repository push. See docs/CODEX_OPERATIONS.md.
+
+**OPS-ERRATA-1/2 and OPS-READOUT-1/2/3: maintenance landed 2026-09-06.** Admission,
+confirmation identity, final integrity, actual source receipts, inherited-reader dependency
+inventory, amendment lineage, D1-D5 owner corrections, validated all-option apparatus and
+queue recovery are implemented. All three finite gear-two jobs completed; queue drained
+08:17:15 PDT. Root errata retired to docs/archive/maintenance/, with historical evidence
+and unassigned Ghost items retained. No new scientific stage or paid run was started.
+
+**L371/L372: final Stage 8 write-through complete; curator processing pending.** A01/x1
+and B01/B02/B03/B04/X12 plus the original final packet are landed. The corrected packet
+in results/maintenance_20260906/ contains all 61 terminal cells and the requested ten
+example-led prompts. Zero readers admitted; no confirmation ran. The original packet and
+raw rows stay preserved. Next is the curator's verbal pass, not an automatically chosen Stage 9.
+
+**OPS-READOUT follow-through remains open:** before restoring affected scientific
+interpretations, freeze matched numeric state, operative law and execution access together
+with the validated readout, scope reruns from DEPENDENCIES.json, and retain new lineage.
+The current fixtures establish apparatus behavior only. Missing P09 per-event prediction
+references, incomplete historical imported-source closure, and utilization accounting stay
+explicit; they cannot be repaired by assigning current hashes or guessing missing values.
+
 **Stage 5 (routed joint reconstruction; brief at docs/design/PHASE_2_4_STAGE_5_CONTEXT.md) CLOSED
 2026-08-29 13:04, RUN_TO_EMPTY after 1.25 hours under second gear (launched 11:49 on his order;
 28 cards resolved, three as repair cells, two withdrawn; one confirmation, R02; packet and analyst

@@ -9,6 +9,11 @@
 
 # Sounding Line
 
+**Working environment:** Codex/GPT. Start with [AGENTS.md](AGENTS.md) and
+[operations, tests, and rollback](docs/CODEX_OPERATIONS.md). The overview below describes
+the event-recovery program; current experimental status is in
+[STATE](docs/STATE.md), [TODO](TODO.md), and the latest entries in [FINDINGS](FINDINGS.md).
+
 **A research instrument for testing which of a maker's recorded choices remain recoverable from a
 finished artifact.**
 
@@ -17,16 +22,26 @@ instrument there is. It returns a reading when there is a bottom, and runs out o
 is none. That is the design contract here: bounded readings, declared refusal conditions, and a
 record that keeps the failures beside the survivors.
 
-The current result is narrower than the ambition. On a corpus of 86 student essays with revision
+The early result was narrower than the ambition. On a corpus of 86 student essays with revision
 purposes recorded per sentence by trained annotators, a bounded reader shown only the revision
 delta picked the recorded purpose from matched candidate sets at 0.477 against a verified 0.232
 floor, on 616 events ([the pilot chain](results/arg_recovery/)). After matching revisions on
 size, rarity, position, and difficulty, most of that margin proved to ride the matched
 covariates; a smaller delta-specific remainder survived (8.2 points, exact McNemar p = 4.5e-4),
 and the raised matched floor was later shown to be label composition, not hidden signal
-([`results/arg_recovery/floor_decomp.json`](results/arg_recovery/floor_decomp.json)). A powered,
-preregistered confirmatory battery is in the queue
-([`prereg/g129.py`](prereg/g129.py)).
+([`results/arg_recovery/floor_decomp.json`](results/arg_recovery/floor_decomp.json)). The correctly gated confirmatory battery subsequently replicated recovery at 0.4805,
+with the matched draw at pilot power (FINDINGS L141; `prereg/g129b.py`).
+
+**2026-09-06 current state.** Stage 8 is closed and the final scientific write-through is
+complete in L371/L372 and the [corrected final packet](results/maintenance_20260906/STAGE8_CURATOR_PACKET_CORRECTED.md).
+Both trained readers passed prediction and failed generation, so composite admission and
+confirmation counts are zero. Difference, purpose and accumulation findings remain diagnosis.
+Affected inherited direct-reader and supplied-state interpretations are limited by the
+maintenance audit; unaffected FM-versus-domain and learned-law evidence remain. No Stage 9
+has been selected. The authorized gear-two repair workload completed and drained at
+08:17:15 PDT. S1-S5/D1-D5 and workflow corrections are recorded in OPS-ERRATA-1/2 and
+OPS-READOUT-1/2/3; the future matched-information scientific comparison remains separate.
+
 
 Three things this does not establish: it is not a general intent detector, it is not a reader of
 anyone's values, and it is not a tool for judging a person or their work. Nothing in this
@@ -47,7 +62,7 @@ register, or vocabulary, and the record says so.
 
 ## What is being built now
 
-Sounding Line is not defined by AI detection. The current phase tests whether an independently
+Sounding Line is not defined by AI detection. The earlier product program asks whether an independently
 validated representation of decision structure adds information to a conventional binary
 AI-provenance classifier. The classifier is the public wedge and remains a target, not an
 achieved result. Decision recovery is validated first, because a detector score cannot validate
@@ -107,8 +122,8 @@ preference object and `C_context` always means declared making conditions.
 
 | Layer | Object | Current status |
 |---|---|---|
-| Proximal artifact reading | Evidence about a recorded choice or purpose | Narrowly tested here, one corpus, confirmatory battery queued |
-| Longitudinal maker inference | A posterior over a persistent latent profile after conditioning on task, expertise, constraints, and state | Tested only in abstract constructed form in Ghost Scale Sim; not validated on people |
+| Proximal artifact reading | Evidence about a recorded choice or purpose | Narrowly tested here, one corpus, confirmatory battery completed (L141) |
+| Longitudinal maker inference | A posterior over a persistent latent profile after conditioning on task, expertise, constraints, and state | Constructed tests in Ghost Scale Sim and Sounding Line; Stage 8 accumulation remains diagnosis, not validation on people |
 | Preference construction | A justified rule for using profile evidence to propose task-specific `C_AIF` | Not built |
 | Normative adoption | A policy for whose inferred preferences influence an agent, under what trust, consent, and safety constraints | Not solved by inference |
 | Embodied development | Learning across sensorimotor interaction and developmental stages | Outside the current software evidence |
@@ -135,7 +150,16 @@ about stable motivational weighting. That is an open hypothesis, not a current r
 
 ## Quick verification
 
-Two commands, both cheap, both run from a clean environment before publishing them here.
+Use the existing environment for maintenance checks (do not recreate a live venv):
+
+```powershell
+./.venv/Scripts/python.exe -B tools/verify_locks.py
+./.venv/Scripts/python.exe -B -m pytest -q -o addopts= -p no:cacheprovider
+./.venv/Scripts/python.exe -B tools/test_s7.py
+./.venv/Scripts/python.exe -B tests/test_stage8_guards.py
+```
+
+The small event harness below is an earlier standalone demonstration. Environment creation is for a new checkout only:
 
 ```
 python -m venv .venv
@@ -192,9 +216,8 @@ not: executed content choices and long-form handling of mistakes have been recov
 controls, while production route, negotiation, and approval history read at chance from the
 artifact alone and are recoverable only from process records. Ongoing work tests candidate
 mechanisms behind the recoverable half, with every claim gated on known-answer instruments,
-declared baselines, and preregistered verdict bands. All present results are measurements of
-model readers; no human-reader study has been run, and the project's vocabulary keeps that
-distinction explicit.
+declared baselines, and preregistered verdict bands. Programmatic tests measure model readers; a small curator reading record exists but is not
+a population human-reader validation. The project keeps those evidence levels distinct.
 
 The full running record lives in [`docs/STATE.md`](docs/STATE.md) (operational state, standing
 rulings, phase end states) and [`FINDINGS.md`](FINDINGS.md) (every study, how it was run, what
@@ -249,8 +272,8 @@ The instrument may not claim that a machine wrote something. It may not quote an
 quantities alone. It may not read low recoverability as low value: low recoverability is a joint
 property of the artifact, the reader, and the declared conditions.
 
-One curator, one primary reading model, English only, corpora biased by which sources permit
-collection. No claim about prevalence, and none about any individual.
+One curator, multiple model-reader families with study-specific coverage, English-dominant
+corpora biased by which sources permit collection. No claim about prevalence, and none about any individual.
 
 MIT licensed. Read [`docs/method/DEVIATIONS.md`](docs/method/DEVIATIONS.md) before quoting a
 number.

@@ -180,14 +180,18 @@ def _changed_paths() -> list[Path]:
     import subprocess                                                 # noqa: PLC0415
     root = repo_root()
     out: set[str] = set()
-    for cmd in (["git", "diff", "--name-only", "HEAD"],
-                ["git", "ls-files", "--others", "--exclude-standard"]):
+    # Trust only the repository containing this checker, for this invocation.
+    # Do not mutate global Git configuration or silently swallow ownership errors.
+    git = ["git", "-c", f"safe.directory={root.as_posix()}", "--no-optional-locks"]
+    for cmd in (git + ["diff", "--name-only", "-z", "HEAD"],
+                git + ["ls-files", "--others", "--exclude-standard", "-z"]):
         try:
             r = subprocess.run(cmd, cwd=root, capture_output=True, text=True, timeout=30)
-        except (OSError, subprocess.SubprocessError):
-            continue
-        if r.returncode == 0:
-            out.update(x.strip() for x in r.stdout.splitlines() if x.strip())
+        except (OSError, subprocess.SubprocessError) as e:
+            raise RuntimeError(f"Git enumeration failed; nothing certified: {e}") from e
+        if r.returncode != 0:
+            raise RuntimeError(f"Git enumeration failed; nothing certified: {r.stderr.strip()}")
+        out.update(x for x in r.stdout.split("\0") if x)
     return [root / x for x in sorted(out)]
 
 
@@ -201,7 +205,11 @@ def main() -> int:
     mode_changed = "--changed" in argv
     mode_audit = "--audit" in argv
     if mode_changed:
-        paths, early = _changed_paths(), None
+        try:
+            paths, early = _changed_paths(), None
+        except RuntimeError as e:
+            print(str(e), file=sys.stderr)
+            return 3
     elif mode_audit:
         paths, early = _all_gate_paths(), None
     else:

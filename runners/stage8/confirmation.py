@@ -36,56 +36,81 @@ def freeze_confirmations() -> dict:
     if read_registry("CONFIRMATION_REGISTRY"):
         return read_registry("CONFIRMATION_REGISTRY")
 
-    def v(c):
-        p = S8 / c / "verdict.json"
-        x = read_json(p) if p.exists() else {}
-        return {} if x.get("diagnosis_only") else x        # a diagnosis cell is never a confirmation claim
-
-    def lower(x):
-        return (x.get("ci") or [-1e9])[0] if x.get("ci") else -1e9
-    sel = []
-    adm = {k for k, x in ((read_registry("EXPERTISE_GATE") or {}).get("readers") or {}).items() if x.get("passed")}
-    c1 = [(c, v(c)) for c in ("G02", "A03", "E08", "E06") if v(c).get("outcome") == "SUPPORT_CANDIDATE" and adm]
-    if c1:
-        c, x = max(c1, key=lambda kv: lower(kv[1]))
-        sel.append({"card": c, "what": f"the strongest gate-passing reader effect against DOM ({x.get('primary', '')[:100]})", "point": x.get("point"), "slot": 1})
-    c2 = [(c, v(c)) for c in ("G02", "G03", "A01", "A03", "A05") if v(c).get("outcome") == "SUPPORT_CANDIDATE" and c not in {s["card"] for s in sel}]
-    if c2:
-        c, x = max(c2, key=lambda kv: lower(kv[1]))
-        sel.append({"card": c, "what": f"the strongest purpose or accumulation effect ({x.get('primary', '')[:100]})", "point": x.get("point"), "slot": 2})
-    c3 = [(c, v(c)) for c in ("G02", "G03", "E08", "A03", "A05", "E06") if v(c).get("tail_outcome") == "SUPPORT_CANDIDATE" and v(c).get("outcome") != "SUPPORT_CANDIDATE" and c not in {s["card"] for s in sel}]
-    if c3:
-        c, x = max(c3, key=lambda kv: (kv[1].get("tail_ci") or [-1e9])[0])
-        sel.append({"card": c, "what": f"a tail-only effect that cleared its floor ({x.get('primary', '')[:100]})", "point": x.get("tail_point"), "slot": 3, "tail_only": True})
-    reg = {"written_at": now_iso(), "selected": sel[:3],
-           "rule": "the strongest gate-passing reader effect against DOM; the strongest purpose or accumulation effect; a tail-only effect if one cleared its floor (§9); untouched lineages; a failed confirmation is never replaced"}
+    from runners.stage8.admission import admitted_readers
+    from runners.stage8.claims import select_claims
+    reg = {"written_at": now_iso(), **select_claims(S8, admitted_readers()),
+           "rule": "per-reader freeze rule, explicit slots; failed confirmation never replaced"}
     write_registry("CONFIRMATION_REGISTRY", reg)
     return reg
 
 
 def _confirm(run: CardRun8, slot: int) -> int:
     reg = read_registry("CONFIRMATION_REGISTRY") or {}
-    sel = reg.get("selected") or []
-    if len(sel) < slot:
-        run.finish({"registry": reg}, {"exec": "COMPLETE", "outcome": "NOT_RUN", "primary": C.ALL[run.card]["primary"],
-                                       "reason": "no frozen claim in this slot (fewer eligible discoveries at the freeze)"})
+    from runners.stage8.admission import admitted_readers
+    from runners.stage8.claims import mapping_errors, file_hash, measured_identity
+    selected = [x for x in reg.get("selected", []) if x.get("slot") == slot]
+    if not selected:
+        run.finish({"registry": reg}, {"exec": "COMPLETE", "outcome": "NOT_RUN",
+                   "primary": C.ALL[run.card]["primary"], "reason": "no frozen claim in this explicit slot"})
         return 0
-    claim = sel[slot - 1]
+    if len(selected) != 1:
+        raise ValueError("duplicate frozen slot")
+    claim = selected[0]
+    errors = mapping_errors(claim)
+    adm = admitted_readers().get(claim.get("reader")) or {}
+    if not adm.get("admitted") or adm.get("prediction_identity") != claim.get("admission_identity"):
+        errors.append("frozen reader is not admitted under the same identity")
+    if errors:
+        raise ValueError("; ".join(errors))
+    existing = S8 / claim["result_path"]
+    if existing.exists():
+        v = read_json(existing)
+        if v.get("claim_id") != claim["claim_id"] or v.get("reader") != claim["reader"]:
+            raise ValueError("existing confirmation belongs to another claim; preserve it")
+        return 0  # including failed confirmation; never replace it
     src = claim["card"]
-    os.environ["S7_SPLIT"] = "confirmation"
-    try:
-        from runners.stage8 import engines as E                                   # noqa: PLC0415
-        rc = E.run_card(src)
-    finally:
-        os.environ.pop("S7_SPLIT", None)
-    p = S8 / f"{src}/confirmation" / "verdict.json"
+    if file_hash(S8 / claim["source_path"]) != claim["source_sha256"]:
+        raise ValueError("frozen discovery source changed")
+    if file_hash(S8 / src / "metrics.json") != claim["source_metrics_sha256"]:
+        raise ValueError("frozen discovery estimand source changed")
+    if (file_hash(S8 / src / "cases.jsonl") != claim["source_cases_sha256"]
+            or measured_identity(S8, src, claim["reader"], claim["estimand"]["arm"]) != claim["admission_identity"]):
+        raise ValueError("frozen discovery measured lineage changed")
+    # A failed or malformed existing attempt is evidence, never permission to replace it.
+    p = S8 / claim["confirmation_source_path"]
+    if p.exists():
+        rc = None
+    else:
+        prior_split = os.environ.get("S7_SPLIT")
+        os.environ["S7_SPLIT"] = "confirmation"
+        try:
+            from runners.stage8 import engines as E
+            rc = E.run_card(src)
+        finally:
+            if prior_split is None:
+                os.environ.pop("S7_SPLIT", None)
+            else:
+                os.environ["S7_SPLIT"] = prior_split
     cv = read_json(p) if p.exists() else {}
-    oc = cv.get("tail_outcome") if claim.get("tail_only") else cv.get("outcome")
+    mp = p.with_name("metrics.json")
+    metrics = read_json(mp) if mp.exists() else {}
+    measured = (metrics.get(claim["slice"]) or {}).get(claim["reader"]) or {}
+    same = (cv.get("card") == src and cv.get("cell_id") == f"{src}/confirmation"
+            and cv.get("lane") == "confirmation" and not cv.get("diagnosis_only")
+            and cv.get("exec") == "COMPLETE" and measured.get("outcome") is not None
+            and metrics.get("card") == src and metrics.get("lane") == "confirmation"
+            and measured_identity(S8, f"{src}/confirmation", claim["reader"], claim["estimand"]["arm"]) == claim["admission_identity"]
+            and all(measured.get(k) == v for k, v in claim["estimand"].items()))
     run.finish({"claim": claim, "confirmation_verdict": cv, "rc": rc},
-               {"exec": "COMPLETE", "outcome": oc or "INSTRUMENT_FAILED",
-                "primary": f"the frozen claim ({src}: {claim.get('what', '')}) on untouched confirmation lineages",
-                "reason": cv.get("reason", "confirmation run missing"), "point": cv.get("tail_point") if claim.get("tail_only") else cv.get("point"),
-                "ci": cv.get("tail_ci") if claim.get("tail_only") else cv.get("ci"), "n_units": cv.get("n_units"), "conditional_cells": cv.get("conditional_cells")})
+               {"exec": "COMPLETE", "outcome": measured.get("outcome") if same else "INSTRUMENT_FAILED",
+                "claim_id": claim["claim_id"], "reader": claim["reader"],
+                "confirmation_compatible": same,
+                "confirmation_hashes": {name: file_hash(p.with_name(name)) for name in
+                                        ("verdict.json", "metrics.json", "cases.jsonl") if p.with_name(name).is_file()},
+                "primary": f"frozen {claim['what']} on untouched confirmation lineages",
+                "reason": measured.get("reason", "missing or incompatible confirmation evidence"),
+                "point": measured.get("point") if same else None, "ci": measured.get("ci") if same else None,
+                "n_units": measured.get("n_units") if same else None})
     return 0
 
 
@@ -94,11 +119,12 @@ def run_B04(run: CardRun8) -> int:
         p = S8 / c / "verdict.json"
         return read_json(p).get("outcome") if p.exists() else None
     g = read_registry("GATES") or {}
-    eg = (read_registry("EXPERTISE_GATE") or {}).get("readers") or {}
+    from runners.stage8.admission import admitted_readers
+    eg = admitted_readers()
     routing = []
     adm = [k for k, x in eg.items() if x.get("passed")]
     if not adm:
-        routing.append({"shape": "E03 fails on every trained reader", "action": "the stage's reader claims close; E08 and D01 ran as diagnosis; the testbed and construction facts stand; theory-change interrupt"})
+        routing.append({"shape": "no trained reader passes both prediction and generation with matching identity", "action": "the stage's reader claims close; E08 and D01 ran as diagnosis; the testbed and construction facts stand; theory-change interrupt"})
     else:
         routing.append({"shape": f"the expertise gate admits {adm}", "action": "the difference, purpose, and accumulation trunks are interpretable on those readers"})
     if oc("E05") == "SUPPORT_CANDIDATE":
@@ -116,7 +142,9 @@ def run_B04(run: CardRun8) -> int:
         if oc(c) == "SUPPORT_CANDIDATE":
             routing.append({"shape": f"{c} passes on FR", "action": "reported; FR never becomes a reader arm this stage"})
     for c in ("G02", "A03", "E08"):
-        if oc(c) == "SUPPORT_CANDIDATE":
+        from runners.stage8.claims import eligible_support_readers
+        path = S8 / c / "verdict.json"
+        if path.exists() and eligible_support_readers(read_json(path), eg):
             routing.append({"shape": f"an FM arm beats DOM on the whole artifact ({c})", "action": "freeze candidate; never pooled across readers before the per-reader cells are read"})
     if read_registry("SHORT_RUN"):
         routing.append({"shape": "the locked useful work exhausted early", "action": "the re-sized ladder was admitted; the short-run receipt stands"})
@@ -133,10 +161,10 @@ def run_B04(run: CardRun8) -> int:
 
 def run_B03(run: CardRun8) -> int:
     from runners.stage8.validate import validate                                  # noqa: PLC0415
-    cov = validate(write=True)
+    cov = validate(write=True, exclude_pending={"B03"})
     missing_due = [c for c in (cov.get("missing_mandatory") or []) if c != "B03"]
     fr = read_registry("FRONTIER_LEDGER") or {}
-    checks = {"coverage_ok": not missing_due and not cov.get("invalid_dispositions"), "missing_due": missing_due,
+    checks = {"coverage_ok": cov["ok"], "missing_due": missing_due,
               "source_manifest": bool(read_registry("TESTBED_SOURCES")), "corpus_manifests": bool(read_registry("CORPUS_MANIFESTS")),
               "access_receipt": bool((read_registry("ACCESS_RECEIPT") or {}).get("all_raised")),
               "compute_ledger": bool(read_registry("COMPUTE_LEDGER")), "dollar_ledger_under_cap": float(fr.get("total_usd") or 0.0) <= 40.0,
@@ -150,8 +178,9 @@ def run_B03(run: CardRun8) -> int:
             verdicts[c] = read_json(p).get("outcome")
     pursuit = {c: v for c, v in verdicts.items() if v == "SUPPORT_CANDIDATE"}
     conf = read_registry("CONFIRMATION_REGISTRY") or {}
-    warrant = {s["card"]: (read_json(S8 / f"B0{i + 1}" / "verdict.json").get("outcome") if (S8 / f"B0{i + 1}" / "verdict.json").exists() else None)
-               for i, s in enumerate(conf.get("selected") or [])}
+    from runners.stage8.admission import admitted_readers
+    from runners.stage8.claims import confirmation_warrant
+    warrant = confirmation_warrant(S8, conf, admitted_readers())
     update_registry("COMPLETION", lambda _r: {**_r, "pursuit": pursuit, "warrant": warrant, "checks": checks, "at": now_iso()})
     ok = all(v for k, v in checks.items() if k not in ("confirmation_registry", "missing_due"))
     run.finish({"checks": checks, "pursuit": pursuit, "warrant": warrant, "n_verdicts": len(verdicts), "frontier_usd": fr.get("total_usd")},

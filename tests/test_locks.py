@@ -60,22 +60,25 @@ def test_the_canonical_verifier_and_this_module_agree():
     assert r.returncode == 0, f"canonical verifier disagrees with this module: {r.stdout}"
 
 
-def test_lock_actually_fires():
+def test_lock_actually_fires(tmp_path, monkeypatch):
     """A control on the control.
 
     The simulation found four separate criteria unable to do their own job. The failure mode was
     always the same -- nobody checked that the check could fire. So: perturb a byte, confirm the
     verifier raises.
     """
-    path = REPO_ROOT / "soundingline" / "family" / "family_v1.yaml"
-    original = path.read_bytes()
-    try:
-        path.write_bytes(original + b"\n# perturbation\n")
-        with pytest.raises(LockViolation):
-            _verify_all_at_current_paths()
-    finally:
-        path.write_bytes(original)
-    _verify_all_at_current_paths()  # and it is clean again afterwards
+    key = "soundingline/family/family_v1.yaml"
+    original_path = current_path(key)
+    path = tmp_path / "family_v1.yaml"
+    path.write_bytes(original_path.read_bytes())
+    resolve = current_path
+    monkeypatch.setattr(sys.modules[__name__], "current_path",
+                        lambda name: path if name == key else resolve(name))
+    _verify_all_at_current_paths()
+    path.write_bytes(path.read_bytes() + b"\n# perturbation\n")
+    with pytest.raises(LockViolation):
+        _verify_all_at_current_paths()
+    assert hash_file(original_path) == LOCKS[key]
 
 
 def test_hash_obj_is_order_stable():

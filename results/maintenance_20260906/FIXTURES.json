@@ -1,0 +1,69 @@
+{
+  "version": "readout-repair-fixtures-20260906.1",
+  "valid": true,
+  "pytest_returncode": 0,
+  "fixtures": "all-position maxima, permutations, >24 candidates, ties, normalization, missing and invalid components, identity and semantics mismatches",
+  "precision": [
+    {
+      "n": 6,
+      "dtype": "float16",
+      "tv_from_float64": 0.0017191149508395814,
+      "sum_residual": 6.103515625e-05
+    },
+    {
+      "n": 6,
+      "dtype": "float32",
+      "tv_from_float64": 2.1084689701134085e-07,
+      "sum_residual": 0.0
+    },
+    {
+      "n": 6,
+      "dtype": "float64",
+      "tv_from_float64": 0.0,
+      "sum_residual": 2.220446049250313e-16
+    },
+    {
+      "n": 21,
+      "dtype": "float16",
+      "tv_from_float64": 0.0017533008645339836,
+      "sum_residual": 0.00016021728515625
+    },
+    {
+      "n": 21,
+      "dtype": "float32",
+      "tv_from_float64": 2.1613849880870728e-07,
+      "sum_residual": 6.51925802230835e-09
+    },
+    {
+      "n": 21,
+      "dtype": "float64",
+      "tv_from_float64": 0.0,
+      "sum_residual": 0.0
+    },
+    {
+      "n": 65,
+      "dtype": "float16",
+      "tv_from_float64": 0.0017631374956767307,
+      "sum_residual": 5.602836608886719e-06
+    },
+    {
+      "n": 65,
+      "dtype": "float32",
+      "tv_from_float64": 2.2396881673399837e-07,
+      "sum_residual": 3.849254426313564e-08
+    },
+    {
+      "n": 65,
+      "dtype": "float64",
+      "tv_from_float64": 0.0,
+      "sum_residual": 0.0
+    }
+  ],
+  "scope": "deterministic apparatus only; no scientific rescore, model calls or spend",
+  "x05_limit": "independent arithmetic precision only, not empirical calibration of the historical GPU batching tolerance; original and amended judgments stay separate",
+  "sources": {
+    "runners/readout_repair.py": "60d25e5d08cffa773a96829781ea7b3396c77faecc44fba41126c0962e780034",
+    "tests/test_readout_repair.py": "ae7d8ef79c49274d1c4ab3e651fac1fe6e9389014bb7c88b20f6f2986282fbe7",
+    "tools/check_readout_repair.py": "de7fe77a2c032ccafe8f791c4a2739a1b1f6f176734ed87018cb30eb71038765"
+  }
+}

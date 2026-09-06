@@ -29,6 +29,15 @@ the thing waiting.
 
 One entry in `STAGES`. `needs` is a list of file paths that must exist; if any is missing the stage
 is deferred rather than failed, so a queue run after new data arrives will pick it up.
+
+DESIGN CHECK (2026-09-06)
+lessons read: LESSONS §5 (resource declarations, produces ownership, live lineages).
+Infrastructure gates: under the null of complete queue metadata, every stage has a
+declared resource and a unique produce. Under the alternative of a late-added stage
+with missing metadata or a duplicate produce, import fails. The failure direction is
+missing or conflicting declarations, never a scientific outcome. Bands are exhaustive:
+valid declarations proceed; every missing/invalid declaration blocks loading the queue.
+No experimental score, eligibility authorization, or produces path is changed.
 """
 
 from __future__ import annotations
@@ -44,6 +53,7 @@ PY = str(REPO / ".venv" / "Scripts" / "python.exe")
 STATUS = REPO / "results" / "queue_status.json"
 sys.path.insert(0, str(REPO))
 
+from runners.queue_status import save_status
 from soundingline import completion                               # noqa: E402
 
 
@@ -2857,7 +2867,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--shards", type=int, default=1,
-                    help="run this process as one of N. Stage i is owned by shard i %% N, so two "
+                    help="run this process as one of N. A stable digest of each stage name chooses its owner, so two "
                          "shards can never pick the same stage")
     ap.add_argument("--no-gpu", action="store_true",
                     help="first gear: skip stages marked gpu (heavy trainings and sustained "
@@ -2874,7 +2884,7 @@ def main() -> None:
     _status_path().parent.mkdir(parents=True, exist_ok=True)
 
     def save() -> None:
-        _status_path().write_text(json.dumps(state, indent=2), encoding="utf-8", newline="\n")
+        save_status(_status_path(), state)
 
     # ownership by stable NAME digest, never list index: inserting a stage mid-list under a
     # live lineage used to re-own every later stage between passes, and a blocked stage
@@ -3075,6 +3085,49 @@ STAGES += [
      "needs": ["results/phase_2_4_stage_5r/CURATOR_PACKET_FINAL.md"],
      "why": "the confidence series, READER_HEURISTICS' cheapest unbuilt instrument: per-step confidence beside the exact posterior's information on the S5R joint worlds; the J03-S5 series form"},
 ]
+
+# 2026-09-06: curator-authorized maintenance repair pass, separate from closed Stage 8.
+STAGES += [
+    {"name": "ops_readout_dependencies_20260906", "est": 2, "resource": "cpu", "gpu": False,
+     "cmd": [PY, "tools/audit_readout_dependencies.py", "--repo", ".", "--out", "results/maintenance_20260906"],
+     "produces": "results/maintenance_20260906/DEPENDENCIES.json", "needs": [],
+     "why": "OPS-READOUT-1: preserved dependency and amendment inventory; no scientific rescore"},
+    {"name": "ops_readout_fixtures_20260906", "est": 1, "resource": "cpu", "gpu": False,
+     "cmd": [PY, "tools/check_readout_repair.py", "--out", "results/maintenance_20260906/FIXTURES.json"],
+     "produces": "results/maintenance_20260906/FIXTURES.json", "needs": [],
+     "why": "OPS-READOUT-2: all-option known distributions and arithmetic precision fixtures"},
+    {"name": "ops_model_precision_20260906", "est": 30, "resource": "gpu", "gpu": True,
+     "cmd": [PY, "tools/check_model_precision.py", "--out", "results/maintenance_20260906/MODEL_PRECISION.json"],
+     "produces": "results/maintenance_20260906/MODEL_PRECISION.json",
+     "needs": ["results/maintenance_20260906/FIXTURES.json"],
+     "why": "OPS-READOUT-3: independent local batching and precision fixtures, original Stage 8 thresholds retained"},
+]
+
+# Late appended stages must pass the same checks as the original stage list. These
+# declarations follow the runners' actual model calls, keyed by produce rather than name.
+RESOURCE_OVERRIDE.update({
+    "results/phase_2_4_stage_5/post/B03_FIXED_ORDER_smollm_scenes2.json": "gpu",
+    _S5R_POST + "CROSS_CONTRACT.json": "cpu",
+    _S5R_POST + "EASE_RULER.json": "gpu",
+    _S5R_POST + "R02_EASE.json": "gpu",
+    _S5R_POST + "R01_EASE.json": "gpu",
+    _S5R_POST + "P02_ECHO.json": "gpu",
+    _S5R_POST + "GATE_CENSUS.json": "gpu",
+    _S5R_POST + "R01_ARCHAIC.json": "gpu",
+    _S5R_POST + "R02_LENGTH.json": "gpu",
+    "results/phase_2_4_stage_6/CURATOR_PACKET_FINAL.md": "cpu",
+    "results/phase_2_4_aux/S6T1_CONSOLIDATION.json": "cpu",
+    _S5R_POST + "CONF_SERIES.json": "gpu",
+})
+for s_ in STAGES:
+    if "resource" not in s_:
+        declared = RESOURCE_OVERRIDE.get(s_["produces"])
+        assert declared in RESOURCES, f"{s_['name']}: missing explicit resource declaration"
+        s_["resource"] = declared
+        s_["gpu"] = declared == "gpu"
+assert all(s_.get("resource") in RESOURCES for s_ in STAGES)
+_prods = [s_["produces"] for s_ in STAGES]
+assert len(_prods) == len(set(_prods)), "stages share a produces path"
 
 if __name__ == "__main__":
     try:

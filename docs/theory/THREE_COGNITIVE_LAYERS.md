@@ -377,10 +377,10 @@ Stated formally, in his words:
 > the human brain. **The shape of this reconstruction error for the model is a large source of
 > failed goal inference.**
 
-Three consequences make it testable rather than atmospheric. **Absent drives are constraints.** You
-can only route attention onto drives you possess, so a drive the maker lacks bounds what they can
-make (the artifact-side face of this lives with the traces; the alignment face in
-[`ALIGNMENT.md`](ALIGNMENT.md)). **The predicted error is *specific*.** Drive ambiguity should
+The curator's retraction in [`ALIGNMENT.md`](ALIGNMENT.md) §0 bounds the first
+consequence: **different motivational weightings can produce the same action or artifact.**
+Other choices and constraints may distinguish them; a missing drive is neither automatically
+observable nor proof that its maker could not produce the artifact. **The predicted error is *specific*.** Drive ambiguity should
 produce a distinctive goal-inference failure while surface affect, category, and expertise reads
 stay intact; that fingerprint experiment is what keeps this from collapsing into generic emotion
 probing, and it has never been run. **And the prediction prices the middle.** Reconstruction should
@@ -389,11 +389,13 @@ shows is the hard part.
 
 | # | hypothesis | status |
 |---|---|---|
-| **S-14** | An absent drive is recoverable from artifacts | **SUPPORTED (sim, V11) as method; OPEN on real artifacts.** Near-invisible in spontaneous work (0.61), perfect under commission toward the missing channel (1.00), pure compliance collapses to exactly 0.5, so *how the goal is pursued* is the discriminator. The made-under-duress mechanism, first working form; real commissioned work is the missing half |
+| **S-14** | An absent drive is recoverable from artifacts | **SUPPORTED (sim, V11) as method; OPEN on real artifacts.** Near-invisible in spontaneous work (0.61), perfect under commission toward the missing channel (1.00), pure compliance collapses to exactly 0.5, so *how the goal is pursued* discriminates in this construction. This does not make absence generally observable or artifact production impossible; real commissioned work is the missing half |
 
-**What the table says.** The prediction's first mechanism check exists only in simulation, where it
-behaves exactly as the theory wants. Absence reads, and reads through pursuit rather than content.
-Confidence: sim-only; the real-artifact claim is untested.
+**What the table says.** The constructed simulation distinguishes motivational absence through
+pursuit under its commission conditions, while compliance alone does not. Real-artifact
+recoverability and the proposed specific goal-inference error remain untested. Different
+motivational routes may still yield the same artifact. Confidence: one bad test away for the
+simulation mechanism; untested, logic only for transfer to real artifacts.
 
 # Part II: The evidence
 

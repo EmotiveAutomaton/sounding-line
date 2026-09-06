@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "C:\\Users\\abrah\\.claude\\hooks",
+      "e:\\EmotiveAutomaton\\Projects\\SoundingLine"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "e:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+            "args": [
+              "e:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\tools\\theory_lint.py"
+            ],
+            "timeout": 20,
+            "statusMessage": "theory format check"
+          },
+          {
+            "type": "command",
+            "command": "e:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+            "args": [
+              "e:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\tools\\design_lint.py"
+            ],
+            "timeout": 20,
+            "statusMessage": "design check (gates need null+alternative+direction)"
+          }
+        ]
+      }
+    ]
+  }
+}

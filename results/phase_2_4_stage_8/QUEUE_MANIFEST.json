@@ -1314,8 +1314,8 @@
   "cell_id": "B04",
   "card": "B04",
   "track": "closure",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "DESCRIPTIVE",
   "depends_on": [
    "D06",
    "G04",
@@ -1326,38 +1326,38 @@
   "est_minutes": 2.0,
   "gpu": false,
   "why": "What moves in the project world model, and should Stage 9 open on the testbed?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "{\"INFRASTRUCTURE\": 24, \"COUNTEREVIDENCE\": 7, \"INCONCLUSIVE\": 7, \"DESCRIPTIVE\": 10, \"VALID_NULL\": 1, \"NOT_RUN\": 2, \"null\": 3, \"INSTRUMENT_FAILED\": 2}",
+  "budget_charged_min": 0.33,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-06T00:07:23",
+  "finished_at": "2026-09-06T00:07:43",
+  "detail": "{\"INFRASTRUCTURE\": 24, \"COUNTEREVIDENCE\": 7, \"INCONCLUSIVE\": 7, \"DESCRIPTIVE\": 10, \"VALID_NULL\": 1, \"NOT_RUN\": 2, \"null\": 3, \"INSTRUMENT_FAILED\": 2}"
  },
  "B01": {
   "cell_id": "B01",
   "card": "B01",
   "track": "closure",
-  "exec_state": "PLANNED",
+  "exec_state": "COMPLETE",
   "outcome": "NOT_RUN",
   "depends_on": [],
   "produces": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\results\\phase_2_4_stage_8\\B01\\verdict.json",
   "est_minutes": 40.0,
   "gpu": true,
   "why": "Does the strongest gate-passing reader effect replicate on untouched lineages?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "no frozen claim in this slot (fewer eligible discoveries at the freeze)",
+  "budget_charged_min": 0.16,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-06T00:07:04",
+  "finished_at": "2026-09-06T00:07:13",
+  "detail": "no frozen claim in this slot (fewer eligible discoveries at the freeze)"
  },
  "B02": {
   "cell_id": "B02",
   "card": "B02",
   "track": "closure",
-  "exec_state": "PLANNED",
+  "exec_state": "COMPLETE",
   "outcome": "NOT_RUN",
   "depends_on": [
    "B01"
@@ -1366,20 +1366,20 @@
   "est_minutes": 40.0,
   "gpu": true,
   "why": "Does the strongest purpose or accumulation effect replicate on untouched lineages?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "no frozen claim in this slot (fewer eligible discoveries at the freeze)",
+  "budget_charged_min": 0.16,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-06T00:07:13",
+  "finished_at": "2026-09-06T00:07:23",
+  "detail": "no frozen claim in this slot (fewer eligible discoveries at the freeze)"
  },
  "X12": {
   "cell_id": "X12",
   "card": "X12",
   "track": "attack",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "B04"
   ],
@@ -1387,20 +1387,20 @@
   "est_minutes": 20.0,
   "gpu": false,
   "why": "Fresh-clone every manifest, hash, receipt, and confirmation input; force one kill and resume.",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "54 verdicts re-hashed; 0 problems; kill/resume duplicates 0, deadline kept True, rc 0",
+  "budget_charged_min": 1.0,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-06T00:07:43",
+  "finished_at": "2026-09-06T00:08:43",
+  "detail": "54 verdicts re-hashed; 0 problems; kill/resume duplicates 0, deadline kept True, rc 0"
  },
  "B03": {
   "cell_id": "B03",
   "card": "B03",
   "track": "closure",
-  "exec_state": "PLANNED",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "INFRASTRUCTURE",
   "depends_on": [
    "B04",
    "X12"
@@ -1409,13 +1409,13 @@
   "est_minutes": 20.0,
   "gpu": false,
   "why": "Do coverage, source, access, compute, dollar, pursuit, warrant, and claim ledgers agree, and does a fresh clone reproduce them?",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "{\"coverage_ok\": true, \"missing_due\": [], \"source_manifest\": true, \"corpus_manifests\": true, \"access_receipt\": true, \"compute_ledger\": true, \"dollar_ledger_under_cap\": true, \"adapters\": true, \"gates\": true, \"confirmation_registry\": true, \"split_receipt\": true, \"fresh_clone\": true}",
+  "budget_charged_min": 0.33,
   "gpu_lock_min": 0.0,
-  "attempts": 0,
-  "started_at": null,
-  "finished_at": null,
-  "detail": null
+  "attempts": 1,
+  "started_at": "2026-09-06T00:08:43",
+  "finished_at": "2026-09-06T00:09:03",
+  "detail": "{\"coverage_ok\": true, \"missing_due\": [], \"source_manifest\": true, \"corpus_manifests\": true, \"access_receipt\": true, \"compute_ledger\": true, \"dollar_ledger_under_cap\": true, \"adapters\": true, \"gates\": true, \"confirmation_registry\": true, \"split_receipt\": true, \"fresh_clone\": true}"
  },
  "E03/x1": {
   "cell_id": "E03/x1",
@@ -1522,8 +1522,8 @@
   "cell_id": "A01/x1",
   "card": "A01",
   "track": "accumulation",
-  "exec_state": "RUNNING",
-  "outcome": "NOT_RUN",
+  "exec_state": "COMPLETE",
+  "outcome": "SUPPORT_CANDIDATE",
   "depends_on": [
    "A01"
   ],
@@ -1531,12 +1531,12 @@
   "est_minutes": 38.4,
   "gpu": true,
   "why": "expansion rung 1 (x4 units): independent_units",
-  "reason": null,
-  "budget_charged_min": 0.0,
+  "reason": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: means by N [0.242, 0.252, 0.257, 0.256]; N3-N0 0.0136 monotone False; adapter:fm_smollm: means by N [0.276, 0.277, 0.286, 0.284]; N3-N0 0.0073 monotone False",
+  "budget_charged_min": 804.89,
   "gpu_lock_min": 0.0,
   "attempts": 1,
   "started_at": "2026-09-05T08:47:08",
-  "finished_at": null,
-  "detail": null
+  "finished_at": "2026-09-05T22:12:02",
+  "detail": "DIAGNOSIS on readers not admitted by the expertise gate (the generation gate failed after its one repair); no reader claim. adapter:fm_qwen: means by N [0.242, 0.252, 0.257, 0.256]; N3-N0 0.0136 monotone False; adapter:fm_smollm: means by N [0.276, 0.277, 0.286, 0.284]; N3-N0 0.0073 monotone False"
  }
 }

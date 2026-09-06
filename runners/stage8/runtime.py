@@ -16,6 +16,7 @@ gates: I03 (access): NULL of a broken boundary is any probe attempt that does no
 from __future__ import annotations
 
 import hashlib
+import json
 import shutil
 import sys
 from pathlib import Path
@@ -26,11 +27,19 @@ sys.path.insert(0, str(REPO))
 from runners.stage7 import runtime as RT7                                          # noqa: E402
 from runners.stage7.runtime import (BOOTSTRAP, cleanup, cleanup_unit, free_port,    # noqa: E402,F401
                                     run_capsule, scrubbed_env)
-from soundingline.stage8 import S8, now_iso, write_json                            # noqa: E402
+from soundingline.stage8 import S8, now_iso, write_json, update_registry           # noqa: E402
 
 READER7 = REPO / "runners" / "stage7" / "reader"
 READER8 = REPO / "runners" / "stage8" / "reader"
 CAPSULES = S8 / "capsules"
+
+
+def copied_sources(cap: Path) -> dict:
+    """Hash the bytes actually copied, including inherited direct-reader helpers."""
+    files = {p.relative_to(cap).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+             for p in sorted((cap / "reader").glob("*.py"))}
+    files["bootstrap.py"] = hashlib.sha256((cap / "bootstrap.py").read_bytes()).hexdigest()
+    return {"files": files, "sha256": hashlib.sha256(json.dumps(files, sort_keys=True).encode()).hexdigest()}
 
 
 def materialize(cell: str, unit_ref: str, evidence: dict | None, task: dict, dom_params: dict | None = None) -> Path:
@@ -54,6 +63,9 @@ def materialize(cell: str, unit_ref: str, evidence: dict | None, task: dict, dom
     if dom_params is not None:
         write_json(cap / "dom.json", dom_params)
     (cap / "bootstrap.py").write_text(BOOTSTRAP, encoding="utf-8", newline="\n")
+    receipt = copied_sources(cap)
+    update_registry("SOURCE_MANIFEST", lambda previous: {**previous,
+                    "capsule_closures": {**previous.get("capsule_closures", {}), receipt["sha256"]: receipt["files"]}})
     return cap
 
 
