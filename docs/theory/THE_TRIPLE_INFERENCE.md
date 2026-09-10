@@ -38,8 +38,8 @@ variational phrasing survives in §1 as a superseded form.
 convergence. **It does not own** artifact cues ([`DECISION_TRACES.md`](DECISION_TRACES.md)), reader
 heuristics ([`READER_HEURISTICS.md`](READER_HEURISTICS.md)), model depth, or alignment. Evidence
 rows live in the section that interprets them *(the single end-of-file ledger dissolved
-2026-08-10, his instruction)*; sources are (test) real text here, (sim) the parent simulation,
-(lit) published work.
+2026-08-10, his instruction)*; sources are (test) measurements here, (sim) the parent simulation, and (lit) published
+work, with substrate and reader stated separately as required by the folder README.
 
 ---
 
@@ -47,16 +47,10 @@ rows live in the section that interprets them *(the single end-of-file ledger di
 
 ## §1. The three target families
 
-**Superseded** by the restatement at the head of the file, kept as the original form:
-
-> I think empathy is effectively a variational inference problem – **three separate variational
-> inference problems being solved in parallel, and each one bootstraps the others.** The more
-> information you have in one, the easier it is to solve the others. They have relative strengths,
-> relative difficulties, but they all help the other.
->
-> 1. the extraction of the **proximal goal**
-> 2. the extraction of the **process**
-> 3. the extraction of the **values / drives**
+**Superseded:** the earlier formulation called these three separate variational
+inference problems. The opening curator restatement instead names three constrained
+target families at different timescales; it preserves mutual constraint without requiring
+three separate algorithms.
 
 > This is why an expert can more readily understand what a novice was thinking as they were making
 > something, in a way that another person cannot. This is why being close friends with someone, you
@@ -88,7 +82,7 @@ Translated into objects, before any claims about their shape:
 
 | object | canonical meaning | timescale |
 |---|---|---|
-| **proximal goal** `G` | what the maker is locally trying to accomplish | episode-local |
+| **proximal goal** `G` | the governing purpose of the artifact or declared episode; distinct from the subordinate target currently in attention | artifact or episode scale; often maintained during production |
 | **process** `P`, realized as `tau` | the particular decisions and actions that produced the artifact | artifact-local |
 | **expertise** `K` | the maker's learned transition model, shaping reachable actions and expected consequences; the shared language of a domain; the largest part, never the whole, of the ability to recreate | cross-episode, domain-relative |
 | **drives** `D` | currently active motivational pressures or primitive constraints | state-dependent |
@@ -139,22 +133,21 @@ different *kind* of thing, defined across episodes, which is most of why it has 
 
 | # | hypothesis | status |
 |---|---|---|
-| **L-tier2** | Values need many artifacts; a goal needs one, because they live at different timescales | **SUPPORTED (test), indirectly.** Every single-artifact values attempt failed; every within-maker multi-work design worked (7.6× and 2.05× chance) |
+| **L-tier2** | Diverse episodes can narrow persistent motivational organization; the relative evidence needs of goal and value recovery remain to be measured | **OPEN for human value recovery and the relative-timescale comparison.** The author-identification curve measures identity, not values (test, L34; G60). Bounded constructed profiles can be recoverable from one artifact or from repeated artifacts (§5 G54; §6 S-15); these are construction-specific results, not human value ground truth. G65 remains the open comparison |
 
-**State of the section's claim.** The object table is definitional, and its three distinctions
-(expertise against process, external against maker-interpreted context, drives against values)
-are identifiability constraints on the reconstruction rather than claims with evidence: none of
-the three has yet been isolated by a clean designed comparison, and Stage 7's factor worlds are
-the first construction that varies them separately behind a boundary the reader cannot cross.
-The table's load-bearing asymmetry, that the third target is a different timescale of thing,
-keeps the project's most consistent indirect evidence behind it: nothing has ever recovered
-values from one artifact and everything multi-work has found signal, which is exactly the
-pattern the timescale column predicts. The expertise row now carries the walkthrough's sharpening: the
-shared language of a domain is the largest part of recreation and not the whole, so a reader that
-cannot produce the standard process has no ruler for the maker's share, which is what Stage 8's
-expertise gate measures before any reading claim. Confidence: the timescale asymmetry is one bad test away,
-resting on convergent nulls rather than a designed comparison; the identifiability constraints
-are untested, logic only.
+**State of the section's claim.** The object table fixes the working distinctions among
+expertise and process, external and interpreted context, drives and values, and governing
+purpose and focal subgoals. These definitions do not establish recoverability. Repeated,
+diverse episodes are a proposed source of leverage on persistent motivational organization;
+no clean comparison here shows that human values require a particular number of artifacts
+or that goals require only one (L-tier2, G65). The measured real-text curve is a small
+identity-channel improvement followed by an early plateau (G60, L34). Constructed profile
+recovery establishes what can be recovered under its planted assumptions, not recovery of
+human values. Domain competence and familiarity remain candidate priors. Stage 8 passed
+its prediction component and failed generation, admitting no reader; it did not establish
+the complete proposed expertise prerequisite. Confidence: untested, logic only for the
+human recovery and relative-timescale claims; one bad test away for the scoped identity
+curve and constructed demonstrations.
 
 ## §2. Forward generation and inverse recovery
 
@@ -163,7 +156,7 @@ different things, and the theory has to keep them apart. A minimal generative ac
 
     C_m,t = phi(C_ext,t, B_t, K_t)       maker-interpreted context
     A_tilde,t = afford(C_m,t, B_t, K_t)  actions the maker believes are available
-    G_t = f(V, D_t, C_m,t, alpha_t)      the locally governing goal
+    G_t = f(V, D_t, C_m,t, alpha_t)      governing purpose, potentially revised
     a_t ~ pi_K(a | A_tilde,t, G_t, H_t)  one action through the expertise transition model
     tau = (a_1, ..., a_T)                the realized process path
     K_t+1 ~ L(K_t, E_t, alpha_t, C_m,t) + epsilon_t
@@ -171,6 +164,11 @@ different things, and the theory has to keep them apart. A minimal generative ac
     O = h(tau, C_ext,1:T)                the medium's lossy artifact record
 
     reader R approximates q_R(G, tau, V, D, K, H, B, A_tilde, C_m | O, C_ext)
+
+Here `G_t` denotes the governing purpose at time t. A change of attended subgoal does not
+by itself change `G_t`; subordinate control targets remain inside the goal and process
+account. The schematic leaves their selection implicit rather than identifying attention
+with purpose or adding a fourth inference family.
 
 Here `alpha` names the time-varying allocation of attention, `H` the control and history
 residue of repeated behavior, `E` the experienced material of the episode, `L` the
@@ -234,11 +232,22 @@ itself appear more accurate.
 
 *2026-09-04 walkthrough; lightly cleaned transcript.*
 
-The proximal goal is therefore an artifact-level purpose, the reason the resources were spent, and
-it is stable across the artifact; what moves are the subordinate goals that stay aligned with it.
-The K-family pull ordering that Stage 7 supplied and scored as the goal is a derived variable, a
-preference over move types that the purpose and the law produce together, and not the goal itself;
-Stage 8 rebuilds the goal as a purpose and scores the pull ordering beside it.
+The current terminology reserves proximal goal for the artifact's governing purpose,
+the reason resources are spent on the work. The quotation uses goal at both governing
+and attended levels; the prose distinguishes them. Purpose can persist while attention
+moves among subordinate goals, and a genuine change of purpose remains possible. Its
+stability is a working expectation, not a universal fact about artifacts.
+
+The K-family pull ordering supplied and scored in Stage 7 is a preference over move types
+derived jointly from purpose and law. Stage 8 scores an artifact purpose beside that pull
+ordering; their different readability does not decide which is the more fundamental goal.
+
+The director under a camera constraint illustrates a further possibility: a maker may
+preserve an intended audience effect by changing technique, staging, timing, or delegated
+work. A familiar surface device need not persist for the governing purpose to persist.
+This is an interpretation of the curator's hypothetical example, not a finding about a
+particular director. A retained effect, a changed purpose, habit, convention, and other
+contributors' choices remain distinguishable explanations.
 
 On the output's shape *(the 2026-08-23 pass)*:
 
@@ -417,13 +426,13 @@ method. Each informs a part of this file; none is the claim.
 | **KI-S7** | With every factor but one supplied, the joint reader (proposals executed through the law) infers the withheld goal or belief and keeps the prospective gain | **NARROWED (test, L337), 48 and 66 worlds.** The joint arm returns to the domain model's level with the goal withheld (−0.00 [−0.21, +0.22] SmolLM2; −0.15 Qwen) and clears the floor for SmolLM2 with the belief withheld (+0.29 [+0.07, +0.51], three quarters of the way to the true-state solver), half a nat to two nats above the direct reader, and with the belief withheld both readers clear the floor once their split-line answers are parsed (the tolerant-grammar rerun: SmolLM2 +0.29 [+0.05, +0.50], Qwen +0.36 [+0.13, +0.58], 0.73 and 0.92 of the way to the true-state solver); but the goal is in the candidates one time in four (R01, L341: 0.23 against the 0.5 bar that opens selection), the belief in 39 percent of worlds, and the reader follows the oracle's belief reversal on 1 of 14 twin pairs: the gain is the law's execution of the supplied factors under a proposal that is wrong three times in five; asked for the subjective action set with the context derived (K13, L338), the readers' proposed sets contain the truth in 5 percent of worlds and the arm's full commitment to them lands −5.0 [−7.4, −2.6] and −11.5 [−14.1, −8.9] nats under the domain model: the maker-relative possibility space is not computed from its determinants; asked for the maker context with the beliefs supplied (R10, L343), Qwen's proposed context improves the changed-context choice over the domain model by +0.59 [+0.31, +0.90], which is exactly what copying the visible brief with accurate beliefs gives (−0.03 [−0.10, +0.02] against that rival, itself the oracle here); direct-reader contrasts are limited by the inherited option readout and unmatched operative information (OPS-ERRATA-2); program-versus-domain results retain their separate scope |
 | **KL-S7** | The expertise law is recoverable from process evidence: by exact selection among supplied candidate laws, by a law learned from a few demonstrations, or by a reader's proposal | **SUPPORTED FOR THE TWO PROGRAM ROUTES, NOT FOR THE READERS (test, L339), 48 worlds behind the clean-room boundary.** Exact selection +0.59 [+0.34, +0.84] over the domain model with 0.52 of its mass on the true law; a law fitted from two demonstrations +0.57 [+0.31, +0.85], indistinguishable from selection (−0.02); the joint reader realizes a proposal on 16 of 120 rows (the readers echo the candidate tables in view) and lands at +0.17 [−0.06, +0.40] and at the domain model; the Stage 6 survivor (supplied-law selection as system identification, L330) replicated with no privileged call; and the learned law TRANSFERS (R09, L342): fitted from three earlier episodes and executed on an untouched one it lands +0.64 [+0.22, +1.12], within a hundredth of the oracle, while the joint reader proposing the law from the same demonstrations with no table to copy clears the floor on Qwen (+0.56 [+0.14, +1.03]; SmolLM2 +0.21 [−0.08, +0.53]), the one reconstruction rung a reader passes on its own proposals; the confirmation freeze took the learned law as its first claim and B01 replicates it on untouched lineages (+0.62 [+0.25, +1.02] over the domain model, 51 worlds; the readers inconclusive there, +0.10 and +0.26), the run's one confirmed effect so far, a program's |
 | **RJ-S7** | The goal and the belief can be inferred jointly without one collapsing into the other, and the joint inference keeps the prospective gain | **NARROWED (test, L344), 60 worlds.** No collapse: the goal is in the candidates in 23 percent of worlds and the belief in 34, about as often as alone, with the factor marginals apart; no gain either: the committed pairs leave SmolLM2 at the domain model (−0.17 [−0.47, +0.13]) and Qwen 1.4 nats [0.4, 2.7] under it, the goal-by-belief cells running from +1.9 to −8 nats where a confident wrong pair is executed; with the law withheld and no demonstrations (R12, 108 worlds with law twins), Qwen names the law's shape in 56 percent of worlds and gains a tenth of a nat that does not clear the interval (+0.11 [−0.33, +0.50]; SmolLM2 +0.04), the executed shape being a standard table rather than the maker's numbers, and a swapped law that reverses the oracle's expectation moves neither reader (0 of 8); cold (R13, L344), with the goal, belief, law, and residue proposed and the context and action set derived, the realizing reader is 1.3 nats [0.4, 2.6] UNDER the domain model (COUNTEREVIDENCE) and 1.6 [0.2, 3.0] over the direct reader; SmolLM2 realizes 15 worlds of 60 and sits a third of a nat under (inconclusive); Qwen's candidates hold the law's shape in 68 percent of worlds, the goal in 42, the belief in 7: the readers name the law and not the belief, and the arm's commitment to the wrong set costs more than ignorance; on the stop the domain model's hazard is within 0.05 nats of the oracle and every reader arm is under it (P05), and on the boundary type the executed state's stop terms name the wrong reason with full commitment, Qwen at the log-score floor on 8 worlds of 10 (P06, L344); over the whole withheld tail the joint arm is a nat under the domain model summed over up to four events, the loss spread across the events rather than sitting at the queried one (P09, L350), and the ladder's fresh draw of 29 worlds with longer tails agrees on every line (rung 4, pooled −0.94 [−2.02, +0.18]); the cold rung itself on a fresh draw of 60 worlds lands at the domain model (SmolLM2 −0.10 [−0.31, +0.13], Qwen +0.03 [−0.39, +0.43]), so its counterevidence narrows to "at or under the domain model, by the draw", nothing above it on either draw; direct-reader contrasts are limited by the inherited option readout and unmatched operative information (OPS-ERRATA-2); program-versus-domain results retain their separate scope |
-| **RG-S7** | Maker familiarity helps where cold reading fails, independently of domain expertise | **NARROWED (test, L345), 40 worlds crossed with three regimes.** No: two earlier episodes by the same maker leave the failing reader failing (Qwen −1.75 [−3.41, −0.44] against the domain model, committed on every world) and the reader near the domain model near it (SmolLM2 +0.02 [−0.24, +0.28]); the domain's generic law in view brings Qwen to the domain model only by silencing it (the law answered in prose on 35 worlds of 40, the set unsolvable) and makes both direct readers worse; beside R09 the demonstrations carry the law alone; R15 (L345): the generic law halves the joint arm's candidate entropy (0.08 against 0.16 cold) while its calibration stays at chance in every regime (expected calibration error 0.44 to 0.50), certainty moving with the regime and correctness not; direct-reader contrasts are limited by the inherited option readout and unmatched operative information (OPS-ERRATA-2); program-versus-domain results retain their separate scope |
+| **RG-S7** | Maker familiarity helps where cold reading fails, independently of domain expertise | **NARROWED (test, L345), 40 worlds crossed with three regimes.** No: two earlier episodes by the same maker leave the failing reader failing (Qwen −1.75 [−3.41, −0.44] against the domain model, committed on every world) and the reader near the domain model near it (SmolLM2 +0.02 [−0.24, +0.28]); the domain's generic law in view brings Qwen to the domain model only by silencing it (the law answered in prose on 35 worlds of 40, the set unsolvable) and makes both direct readers worse; beside R09 there is demonstrated law recovery but no demonstrated rescue of the full cold state; R15 (L345): the generic law halves the joint arm's candidate entropy (0.08 against 0.16 cold) while its calibration stays at chance in every regime (expected calibration error 0.44 to 0.50), certainty moving with the regime and correctness not; direct-reader contrasts are limited by the inherited option readout and unmatched operative information (OPS-ERRATA-2); program-versus-domain results retain their separate scope |
 | **EQ-S7** | The reader preserves observationally equivalent maker models and chooses a useful next discriminator | **NARROWED (test, L346), 60 worlds, descriptive.** Abstention does not track the prefix's ambiguity: the joint arm withholds on 59 percent of the equivalence cases and on 73 percent of the singletons, within noise of each other, and SmolLM2's abstention is failure to propose on 36 worlds of 60; the discriminator measure is 1.0 against the reader's own greedy choice by construction and is an instrument gap for the next stage; the joint arm's confidence is anti-informative (P10, L346): expected calibration error 0.51, its most confident tenth the worst at any coverage, calibration worse the more evidence the prefix carries; the equivalence attack X14 fires on the same figures (false abstention 0.73 against its ceiling of 0.5), so the run's own criterion records that the readers do not preserve the class |
 | **RV-S7** | The joint reader revises mutually constraining factor hypotheses as the prefix grows, and the revision changes what it predicts | **NARROWED (test, L347), 30 worlds.** A sequential particle arm that re-weighs, resamples, and re-proposes candidate states at prefix checkpoints predicts what the one-shot joint posterior predicts (+0.02 [−0.16, +0.21] nats; Qwen within four hundredths), because the readers propose one candidate set on 48 worlds of 60 and nothing ever collapses or is re-proposed; revision is testable only for a reader with candidate breadth, which neither has at this scale |
 | **AC-S7** | At matched evidence and measured compute, structured computation (a realizer over proposed maker states) beats direct inference-time computation | **NARROWED (test, L348), 40 cold worlds, seven arms.** Every structured arm beats the direct reader (the joint arm +1.5 nats [+0.4, +2.5] pooled; the five conformance-reproduced rivals +1.4 to +2.1), and none beats the domain model: the direct reader is 2.1 nats under the prior, the arms that realize on every world sit at it or a nat under it, and the arms that rarely realize fall back to it; no arm's gain per unit of compute exceeds five hundredths of a nat; the two conformance cells of the day before say the same (L355, L356): the adaptive expansion adds factors at one rate whether a variable is missing or not and costs 0.22 nats against the joint reader where the world is complete, and the synthesized agent model validates on 28 of 30 worlds for one reader, beats the direct reader by 2.86 [1.50, 4.31] and sits 0.72 under the domain model, the effect the freeze selected for confirmation; B02 confirms it on untouched lineages against the direct reader (+3.59 [+2.34, +4.78] on Qwen, pooled +2.19) and finds it counterevidence against the domain model there (pooled −0.32 [−0.54, −0.06]), so the run's second confirmed effect reads: synthesis beats free text and not the prior; direct-reader contrasts are limited by the inherited option readout and unmatched operative information (OPS-ERRATA-2); program-versus-domain results retain their separate scope |
 | **TT-S7** | The maker's record supports a dated present focus plus an uncertain historical mixture (two timescales), and the dates and order of earlier episodes inform a later choice beyond an aggregate profile | **NARROWED (test, L354; V04 to V06, programs only).** A mixture over dated episodes and a forced point date predict the present episode alike (−0.01 [−0.09, +0.07]); the dated, ordered, and aggregate views of earlier episodes predict a later episode alike (valid nulls); for a later costly choice the dated trajectory beats the domain model (+0.42 [+0.05, +0.84]) and the law-less solver (+0.48) because it carries the law, and beats the aggregate by five hundredths under the floor: the record's two timescales are not separated at this construction's drift, and its history informs through the law alone |
 | **J05-S5** | The standing preference inferred from one episode predicts the maker's choice in a second episode under a stated new goal, beyond habit, topic, and last-goal baselines | **COUNTEREVIDENCE (test, L280), 256 worlds.** −0.73 nats [−0.93, −0.55] against the topic baseline; the reader half a nat under uniform; the preference recovered in a third of worlds; the exact ceiling a quarter of a nat above uniform. Second contract (L293, two readers, the ceiling raised to 0.68 above uniform): −0.26 against the topic prior, both readers under uniform |
-| **P-S8** | Prediction of the next move tests expertise first; the maker's share is the residue, the events the standard process does not expect, and a reader that holds the standard process localizes its surprise on those events | **OPEN, the precondition met (test, L359).** Both trained readers pass the expertise gate, predicting the next move on held-out population and maker-free purpose worlds above the domain model (+0.19 [+0.003, +0.39] and +0.13 [−0.06, +0.31] nats; the band −0.05; the oracle's gap +0.52), with monotone training curves and the integrity block whole; the generation half FAILS on both (E04, L360): sampled from their own distribution the readers write a header-illegal move in a quarter to two fifths of their logs and sit under the population's 20th percentile, so no reader is admitted and the localization cells run as diagnosis; at four times the sample (L369) the gate passes wider (+0.24 [+0.13, +0.36] and +0.20 [+0.09, +0.32] on 306 units) and the anti-alignment tightens (AUROC 0.36 and 0.39 on 334 worlds); as diagnosis (L361) the trained gain vanishes on a law family the readers never saw (−0.005 and −0.018 nats against +0.19 and +0.13 on the seen family), so the installed expertise is family-specific; and the localization half, measured whole as diagnosis (L362), is ANTI-aligned: both readers rank the maker's divergent events as less surprising than ordinary ones (AUROC 0.34 and 0.37 against the domain model's 0.56) on every task shape, the true purpose supplied moves the residue by under 0.01, and the first explanation fires at the most divergent event under chance, so a surface-trained reader's surprise points away from the maker; the purpose route is inert on the same readers (L363): the proposed purpose executed through the reader's own forward model is null or worse against the plain reader (−0.03 and −0.08 nats) and the true purpose adds +0.04, while both readers sit a nat over the domain model on the tail events either way, the likelihood face of the same surface expertise, and at four times the sample the proposal HURTS on both readers (−0.09 and −0.06 nats with intervals below zero, L370) while the true purpose adds +0.05 to +0.07; and the pull ordering is the easier goal object for both readers by 0.24 and 0.15 of recall (L364), the frontier probe naming the purpose on one world in six and losing 1.8 nats using it; and the purpose readout does not track meaning (L365): recall survives a paraphrase and rises under a meaning change on both readers, so the purpose route on these readers is closed from every side |
+| **P-S8** | Prediction of the next move tests expertise first; the maker's share is the residue, the events the standard process does not expect, and a reader that holds the standard process localizes its surprise on those events | **OPEN for the proposed expertise-conditioned mechanism; the tested raw-surprise proxy failed (test, constructed worlds and model readers, L359 to L365, L369/L370; OPS-S9-THEORY-1).** Prediction passes: at expanded size, gains over the domain model are +0.24 and +0.20 nats on 306 units, with intervals above zero. Generation fails on both readers (L360), so neither reader is admitted. Raw reader surprise ranks the designated divergence events poorly (root AUROC 0.34 and 0.37, domain baseline 0.56; L362); this is a diagnostic failure, not proof that every form of maker-specific information is absent. The divergence target is an oracle-minus-domain action-probability gap, not raw rarity. Proposed purpose lowers prediction relative to the plain reader on both expanded comparisons (about −0.09 and −0.06 nats, intervals below zero; L370); true purpose adds smaller positive point increments of about +0.073 and +0.045 nats. These observations do not isolate surface familiarity from operative competence. Pull recall exceeds purpose recall on this construction (L364), which does not identify the correct goal ontology. The meaning-change crossover fails (L365), but scoring the changed evidence against the original purpose label does not by itself establish semantic blindness |
 | **MS-S8** | The maker's share lives in divergences from the standard process and may accumulate across artifacts | **OPEN; diagnosis only (test, L366/L367/L371).** At the larger sample, three earlier artifacts improve surprise alignment by +0.0136 [+0.0032, +0.0235] on Qwen and +0.0073 [-0.0041, +0.0195] on SmolLM2; neither series is monotone and all conditions remain below the domain model. Law/residue recall does not rise with earlier artifacts and the inferred maker model adds no established predictive gain. Neither reader is admitted, so this does not establish the proposed process-based accumulation |
 | **J03-S5** | Along the stream the reader's records become useful in a diagnostic order and a contradiction lowers its confidence | **NARROWED, descriptive (test, L264).** The plan record is reached last and most reliably; the preference record is never useful in two thirds of worlds; after an exact contradiction the reader is more confident and less right in 44 to 62 percent of worlds; on two readers with equifinal plans present the never-useful shares rise to 0.56 to 0.74 and overconfidence sits at half (L292) |
 
@@ -485,8 +494,8 @@ domain model while a nat and a half over free-text prediction: the reconstructio
 narrows to the regimes where the law is supplied or demonstrated, and what beats the direct
 reader is the realizer, not the reader (RJ-S7, L344). Crossing the same worlds with the
 maker's earlier episodes in view does not rescue the cold reading, and the domain's generic
-shape in view silences the reader rather than informing it, so what the earlier episodes
-carry is the law and what the cold reading lacks is everything else (RG-S7, L345). Where
+shape in view silences the reader rather than informing it, so law recovery is demonstrated while recovery and use of the remaining cold state are
+not established by these interfaces (RG-S7, L345). Where
 the prefix leaves several maker models equivalent, the reader's abstention does not track
 it, withholding on three singletons in four and on three equivalent cases in five, by
 failure to propose rather than by judgment (EQ-S7, L346). And revising the candidates as
@@ -502,44 +511,41 @@ aggregate of the episodes (TT-S7, L354). Stage 7 closed at hour 15 with two prog
 the intended
 latent, or producing a coherent rationale, does not establish understanding, and neither
 does possessing the complete state; the maker-state realization requirement stands as an
-architectural proposal whose realizer, for these readers, is not the reader. The walkthrough after
-Stage 7 rereads that result rather than softening it: the reader is the realizer, reading is running
-one's own forward model of the standard process and attending to where the artifact departs from it,
-and none of the Stage 7 readers held that process in the first place, so what they lacked was
-expertise before it was anything about the maker; prediction tests expertise first and the maker is
-in the residue (P-S8), which is small by nature and mostly the purpose and the record of earlier
-purposes that diverged (MS-S8), both open; the reader that passes the expertise gate now exists (both
-trained readers predict the standard process above the domain model, L359), and the same readers cannot write a legal log from a header (L360), so the precondition is half met:
-prediction and production come apart, and the localization half of P-S8 is measured as diagnosis;
-the first diagnosis (L361) says the installed expertise is the trained family's and not the process's,
-since an unseen law family returns both readers to the domain model's level, and that one reader names
-the purpose by the affordance route on half the worlds while neither holds two purposes open where the
-prefix leaves two. The localization block then read whole (L362): the surprise of a reader trained on the
-population's logs is anti-aligned with the maker's departures, ranking them as the least surprising events
-in the log, and the purpose handed to it does not open the residue, which is what a surface-trained
-expertise predicts and what a process-holding expertise would not. The purpose route confirms the
-reading from the other side (L363): a purpose the reader proposes and executes through its own forward
-model buys nothing against the reader without it, and the truth buys almost nothing, while the reader's
-nat over the domain model on the tail events stands with or without any purpose, so the advantage the
-training bought is the family's surface at the divergent events and not an inference about the maker.
-Of the two goal objects the stage carries, the pull ordering is the more legible to both readers by a
-wide margin (L364), which is expected of surface expertise: the pull shows in the log's section traffic,
-the purpose only in tool-gated choices, so this construction makes the ordering more legible. Which goal object to carry forward remains for the curator's discussion. The
-purpose readout does not even track the artifact's meaning, since a meaning change raises recall on
-both readers (L365), which closes the purpose route on surface-trained readers from every side. The record of a maker's earlier artifacts gives one small diagnostic gain at the larger sample,
-without monotone or above-domain recovery (L371); categorical absence is too strong, while the
-proposed accumulation mechanism remains unestablished on readers that failed generation;
-the rest of that trunk agrees
-(L367): law and residue recall stay at chance whatever the number of earlier artifacts, and a maker model
-built from three of them predicts a new artifact no better than the reader without it. The ladder's
-first rung holds both ends at four times the sample (L369): the prediction gain tightens and the
-anti-alignment tightens with it, so the two are one fact about what the training installed. The purpose
-route closes with a sign at the same rung (L370): a purpose the reader proposes and executes costs it
-prediction on both readers, since the purpose it names is wrong more often than not, and the true purpose
-returns little.
-Confidence: the
-Stage-5 reader boundary is one bad test away; the Stage-7 clean state-use isolation is instrument-dead (unmatched operative information and defective direct readout); the Stage-6
-architecture interpretation is instrument-dead.
+architectural proposal whose realizer, for these readers, is not the reader. The proposed role of expertise is to give a reader a forward model against which the
+maker's choices can be interpreted. Stage 8 establishes a narrower capability split:
+both trained readers predict within the trained domain better than its baseline, while
+both fail the required generation component. Stage 8 admitted no reader and ran no confirmation. These measurements remain diagnostic for the proposed mechanism (P-S8).
+
+The raw-surprise diagnostic ranks the designated maker-divergence events poorly. The
+construction defines divergence by how much the maker oracle raises an action's
+probability relative to the domain model. Raw surprise instead ranks an action by how
+unlikely the reader finds it. These are different quantities, so their failed alignment
+does not uniquely identify what representation training installed. Surface or family
+familiarity, incomplete operational competence, and a mismatch between cue and scoring
+target remain competing explanations. The unseen-law result establishes a tested transfer
+boundary, not the learning mechanism (L361). Difficulties with generated histories,
+sustained execution, outcome production, and stopping remain candidates, as retained in
+the intervening interpretation correction (OPS-S9-THEORY-1). The observed diagnostic failure stands; changing
+the explanation does not reverse its sign or confirm a replacement measure.
+
+Using a proposed purpose damages expanded prediction compared with the same reader
+without it; supplying the true purpose adds smaller positive point increments. Changed
+context and ambiguity handling have not supplied a robust maker model. Pull ordering is
+more readable than the planted purpose on this construction, not thereby the canonical
+purpose itself. The failed meaning-change crossover does not establish general semantic
+blindness, because it retains the original purpose target when changing the visible
+choices (P-S8).
+
+Additional artifacts give one small diagnostic improvement at the larger sample, without
+a monotone or above-domain recovery curve. Explicit maker modeling has no established
+predictive benefit in these cells. The accumulation mechanism remains open on readers
+that failed admission (MS-S8). The pursuit remains to distinguish these explanations;
+the warrant is a prediction/generation split and failed diagnostics, not an identified
+surface-only mechanism or demonstrated absence of maker information.
+Confidence: one bad test away for the scoped Stage 5 and Stage 8 observations; untested,
+logic only for the proposed expertise and accumulation mechanisms; instrument-dead for
+the clean Stage 7 state-use isolation, the Stage 6 architecture interpretation, and
+the Stage 8 semantic-intervention interpretation.
 
 ## §3. Coupling, without premature topology
 
@@ -826,12 +832,18 @@ Self-report is closed as ground truth, and the reason is not modesty:
 > Anything I say, anything I make will be over-indexed and automatically full of error, because it
 > will be **my view of my own value set.**
 
-If values were introspectively available, art would not be one of the ways people discover them.
-Under the residue account the limited access is a *prediction*, since automaticity put the values
-where introspection reaches poorly. This kills the author-a-value-set-and-generate design class. One
-artifact is insufficient for the same identifiability reason a reward function needs many episodes;
-**diversity of conditions** is what separates value from arbitrary residue; and *everything is an
-artifact* extends the observation set:
+Self-report can supply evidence about what a maker believes or declares about their
+values; it cannot certify the internal value set. Assigning a value description to a
+model likewise supplies an instruction, whose effects must be checked rather than treated
+as that model's actual preferences. These restrictions concern ground truth, not whether
+testimony or instructed constructions can be useful observations.
+
+A single artifact can contain multiple informative tradeoffs under sufficiently strong
+assumptions. Repeated artifacts in diverse conditions can separate some rival accounts,
+while even unlimited observations need not identify an unrestricted reward and planner.
+The required diversity depends on the competing hypotheses and the opportunities observed;
+there is no universal count at which value becomes identifiable. The curator's observation
+set can include behavior and life evidence as well as conventionally artistic works:
 
 > **Everything's an artifact. Even information about their life.** Any action they took that affected
 > the world counts. [...] You will use **epistemic foraging** to find more things out about the artist
@@ -869,22 +881,24 @@ the blocking rows stay below.
 
 | # | hypothesis | status |
 |---|---|---|
-| **S-15** | Value-profile recovery converges with artifacts, residual priced | **SUPPORTED (sim).** 0.53 → 0.98 over 1 to 50 artifacts, residual 0.009; bounded-family assumption worth 0.24; **corpus price ~20 works per maker**; conjunctive-vs-amplification discriminates constructions |
+| **S-15** | Value-profile recovery converges with artifacts, residual priced | **SUPPORTED (sim), within the tested construction.** 0.53 → 0.98 over 1 to 50 artifacts, residual 0.009; bounded-family assumption worth 0.24. Approximately 20 works per maker is this construction's corpus price, not a human sampling requirement; conjunctive versus amplification accounts discriminate these constructions |
 | **G60** | Recovery error shrinks with works, toward a small residual | **EARLY PLATEAU (test, L34), one channel (relabelled 2026-08-09).** 0.54 → 0.61 → 0.60 against 0.20 chance over one-to-three reference works. Rises from one to two works and not at three, on five authors and the cheapest channel. Three points cannot locate an asymptote, so the limit-framing reading this row used to carry was unlicensed |
 | **G48** | A maker's weighting is more stable within than between makers | **OPEN.** The 34-book corpus supports the design, and per the program another stable author vector would be circular without behavioral tradeoffs; G135's held-out tradeoff prediction is the honest form |
 | **G65** | Value recovery improves sharply with works per maker while goal recovery does not | **OPEN.** The follower-corpus design tests this and G48 at once |
 | **G66** | Adherence to a declared value tradition is recoverable as a graded quantity | **OPEN.** A ladder made of humans; the honest output is predicted patterns of uptake or adherence from behavior; blocked on sourcing |
 
-**State of the section's claim.** The longitudinal requirement is the best-motivated unmet need in
-the file. The limited-access argument closes self-report as ground truth while demoting nothing
-else, since every trace, biology and testimony included, enters as an observation rated for
-provenance and reliability, the simulation prices the corpus at roughly
-twenty works per maker with convergence to a small residual, and the one real-text curve rises
-then plateaus early in a single cheap identity channel that cannot speak to an asymptote. What is
-missing is not motivation but material, since every open row waits on either the follower corpus
-or a tradeoff design that no public corpus supplies, which is why the program routes this through
-a commissioned pilot rather than more corpus hunting. Confidence: the convergence pricing is
-sim-only; the plateau curve is one bad test away; the corpus rows are untested and blocked.
+**State of the section's claim.** Longitudinal evidence is a motivated route to separating
+persistent tradeoffs from local purpose, habit, and constraint. The bounded simulation
+provides a construction-specific convergence curve and sampling cost; the real-text curve
+measures author identity and cannot establish convergence of human value recovery
+(S-15, G60). Testimony, biology, behavior, and artifacts remain observations with different
+provenance and reliability. None automatically certifies the target values. No corpus
+currently validated by this project supplies the complete value-recovery comparison
+specified by the open rows. Public process and choice corpora can supply partial tests;
+their suitability remains an intake and construct-validation question. A commissioned
+pilot is one possible source, not evidence that no useful public corpus exists.
+Confidence: one bad test away for the scoped identity curve and bounded simulation;
+untested, logic only for human value recovery and the open corpus comparisons.
 
 # Part III: Epistemic limits and evidence
 
@@ -916,14 +930,23 @@ planning algorithm, even with unlimited data; additional normative assumptions a
 (Armstrong & Mindermann). The project's response, stated carefully. **Human readers use substantive
 priors about human bodies, competence, contexts, and communicative behaviour that may improve
 useful recovery without producing unique identification. That is a narrowing claim, not a
-refutation of the theorem, and the stronger convergence form is conceded above.** The priors line
-up with what the proofs demand:
+refutation of the theorem, and the stronger convergence form is conceded above.** The following are proposed substantive priors that could narrow the problem. The theorem
+does not establish that this particular trio is necessary or sufficient:
 
-| what the proof needs | what he already assumes | his name for it |
+| candidate substantive prior | proposed project counterpart | curator shorthand |
 |---|---|---|
 | a bounded human hypothesis family | shared bodily, affective, and action constraints that narrow candidate human routes | **convergent midbrains**, retained as the curator's shorthand while the exact conserved machinery remains open |
 | a bounded or conditioned transition model | a reader-relative estimate of feasible trajectories, conditioned on domain, tools, context, and maker evidence | **expertise** |
-| a rationality / optimality principle | near-optimality | *"that's just MaxEnt"* |
+| a declared model of decision-making, including its departures from optimality | a constrained likelihood relating preferences and expertise to choices | *"that's just MaxEnt"*, retained as shorthand rather than an equivalence |
+
+The unrestricted planner/reward result leaves useful inference under substantive
+assumptions open; it does not select those assumptions for us. Maximum-entropy IRL, for
+example, obtains a particular trajectory distribution using specified features and
+constraints. It supplies a candidate decision model, not a general identity between
+entropy maximization and human near-optimality.
+([Armstrong and Mindermann, 2018](https://papers.neurips.cc/paper/7803-occams-razor-is-insufficient-to-infer-the-preferences-of-irrational-agents.pdf),
+§§3 to 5 read; [Ziebart et al., 2008](https://ai.stanford.edu/~amaas/papers/amaas_aaai.pdf),
+background and maximum-entropy formulation read.)
 
 **The shorthand does not localize emotion wholesale to the midbrain. It names the conjecture that
 conserved human structure supplies a narrower candidate family than an unconstrained inverse
@@ -955,7 +978,7 @@ concealment caveat carried there; here it is one identifiability assumption amon
 
 | # | hypothesis | status |
 |---|---|---|
-| **lit** | A reward function is not identifiable from one episode | **SUPPORTED (READ).** Amin, Jiang & Singh state the decomposition and the consequence |
+| **lit** | Without substantive restrictions, one episode does not uniquely identify a maker's reward and planner | **SUPPORTED (lit, READ: Armstrong and Mindermann, §§3 and 4.1).** This does not imply that every bounded candidate family requires multiple artifacts; the constructed examples and the human value-recovery question retain their separate scopes |
 | **lit** | Observations alone uniquely identify reward jointly with an unrestricted unknown planner | **REJECTED (lit, READ: Armstrong & Mindermann, §4.1 and §7).** Policy compatibility alone leaves reward unconstrained; substantive priors supply assumptions beyond observations. This does not rule out useful narrowing within a restricted family |
 | **G61** | An explicit competence estimate improves goal recovery | **OPEN.** If yes, the "fatal unknown" is an input |
 | **G138** | The impossibility construction, reproduced exactly, then relaxed with the three human priors one at a time | **RECREATED+NARROWS (test-side toy, L60).** The degeneracy reproduced at exactly 0.5/0.5; the bounded human-shaped family alone narrows the posterior twentyfold, known near-optimality alone barely doubles it, both together fortyfold, holding under noise. Finite-data posterior narrowing in this seven-state toy family, not asymptotic convergence, unique identification, or historical recovery from artifacts |

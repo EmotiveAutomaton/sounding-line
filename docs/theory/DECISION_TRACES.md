@@ -263,10 +263,10 @@ relocating, the same background goals finding different opportunities for expres
 goal drift. A surface shift does not identify which occurred. The measurable claim is
 order-sensitive movement in recoverable constraints; the motivational interpretation remains open.
 
-**Superseded in scope** by the three-candidate distinction above; kept as the hypothesis source:
-
-> **Depth is stationary within an artifact; polish is not. Polish variance across an artifact is a
-> maker signature; depth variance is not.**
+**Superseded in scope:** the earlier stationary-depth and variable-polish shorthand is
+replaced by the distinction among changing attention, changing opportunities for a
+background goal, and genuine goal drift. The original variance instrument was void;
+PD-1 preserves its disposition.
 
 | # | hypothesis | status |
 |---|---|---|
@@ -322,8 +322,10 @@ is one bad test away and constructed-world only; the rest is untested or sim-onl
 
 ## §3. Automatic traces: leakage, concealment, and the channels that carry them
 
-> **leaked** – a layer that is TRUE... emotional leakage that can show up in your text
->
+**Superseded:** the earlier shorthand treated leakage as true. The current account below
+allows automatic traces to preserve a lagging or misleading history rather than the
+maker's present state.
+
 > **emblematic** – a conscious social decision
 
 > Leaked information is **not necessarily true**, but it is information that shows previous
@@ -341,21 +343,25 @@ is one bad test away and constructed-world only; the rest is untested or sim-onl
 
 *2026-09-01/02 walkthroughs; spoken wording lightly reconstructed.*
 
-He arrived at the original split from ten artifacts and a think-aloud. It maps onto the field's central
-unresolved debate, leaked onto primary-process core affect and emblematic onto constructed emotion,
-and the reconciliation position (*basic emotion theories are theories of emotion; constructed
-emotion is a theory of feeling*) requires both to be true of different things. The two layers should
-not be assumed to share a value set; giving both the same eight concepts is a named simplification.
+The original split came from the curator's ten-artifact think-aloud. It concerns the
+control and history of expression. Mapping automatic and deliberate expression onto
+primary affect and constructed emotion is an interpretive proposal, not a demonstrated
+identity between those distinctions. Nor does the split settle the relation between
+emotion and feeling. Using the same eight labels for both reads is a named instrument
+simplification; it does not establish a shared latent value set or an emotion count.
 
-**It also diagnoses the field's LUST problem, called before the argument existed:**
+**The curator proposes a measurement explanation for the LUST difficulty:**
 
 > I think they were just catching the fact that leakage – they were assuming that **leaked fear and
 > performed fear are the same thing.** [...] That's why lust is kind of bullshit in this framework,
 > because **the easiest thing to catch is the performed section.**
 
-A questionnaire reaches only the performed layer, so LUST is the system least available to it, for
-social rather than neural reasons. Artifacts have no such limit. Its signature is his, **the thing a
-reader politely glosses over**. *"Someone ends up talking about feet for a sentence too long and
+The proposal is that socially managed reporting may obscure some motivations while
+artifacts expose other, less deliberately managed traces. This does not establish that
+a questionnaire samples only performance, that LUST is uniquely inaccessible to it, or
+that artifacts escape the same inference limits. His example of lingering on an apparently
+incidental detail is a candidate cue, whose meaning still needs context and rivals.
+*"Someone ends up talking about feet for a sentence too long and
 you're like, ooh, buddy."*
 
 **No additions to the eight concepts.** *"We shouldn't add anything, because that's kind of just
@@ -368,13 +374,13 @@ rated not particularly useful; it stays because a sim result touched it (T-4 bel
 > would get larger. **You perform louder to cover up. I get extra quiet if I'm extra angry. The
 > shield matches the leak.**
 
-**The cheap channel for automatic traces is function words.** More automatic production, article
-selection and function-word distribution, should associate with the leaked layer, while
-content-word choice sits under tighter conscious constraint and associates with the emblematic, a
-formulation he endorses in the general sense without having phrased it. Function words are
-produced non-consciously, are topic-independent, stable across an author's corpus, and very hard
-to fake, the assumption authorship attribution already runs on. His automaticity intuition *is*
-that mechanism. Style survives intent because it was never held.
+**Function words are a candidate inexpensive channel for automatic traces.** The
+hypothesis links less deliberately managed choices to a historical residue of practice.
+Measured author, work, or generated-state separation shows what this channel can
+statistically discriminate under its controls. It does not independently establish
+non-conscious production, topic independence, resistance to deliberate imitation, or
+that the recovered signal is affect. Those mechanism claims cannot be supplied by the
+feature's name or by authorship accuracy alone.
 
 > The goal of Sounding Line is just to be able to measure depth. It's just that.
 
@@ -499,8 +505,10 @@ git history. The anomaly-trace half of the section now has its second constructe
 instrument: the ordered-accident ruler reads the multilabel sequence exactly as the schema
 above demands, recovering integration, repair, abandonment, and purpose at ceiling while
 refusing to name an origin the trajectory cannot show, which is the schema's
-origin-versus-adoption asymmetry passing from ruling to measurement. The two-timescale trace
-named above has no instrument yet: nothing has separated the dated present allocation from the
+origin-versus-adoption asymmetry passing from ruling to measurement. The channel results do not by themselves establish automatic production or the proposed
+mapping between control and emotion theories. Those psychological interpretations remain
+untested, logic only. The two-timescale trace
+named above has no validated instrument for its proposed separation: nothing has separated the dated present allocation from the
 expertise-borne historical mixture inside one artifact, so that trace inherits no evidence from
 the automatic-channel rows here. Confidence: the capacity
 results are replicated and controlled; the state reading
@@ -741,6 +749,24 @@ complete removal can also leave no identifying trace. An unusual surviving detai
 rivals, including convention, constraint, and accident. Neither an annotation run nor an odd
 detail uniquely identifies a governing goal.
 
+> I would also expect them to find ways of using their old skill in the new space. It would
+> actually change how they practiced the new skill in that they'd find similar ways to
+> build someone up for applause that they used to build them up for ridicule. Use similar
+> channels.
+
+*Curator's preceding novelist walkthrough; filed 2026-09-07. Wording preserved. He gave
+this specific expectation greater weight than his tentative claims about the order in
+which small and large habits change; the walkthrough remains a hypothesis source.*
+
+**Expertise can be reused under a different purpose.** The proposed alternatives include
+an old skill obstructing a new goal, an old skill being recruited to serve it, and new
+learning changing which actions are available. Building an audience's attention toward a
+character may precede ridicule or applause. A similar technique can therefore serve
+opposing ends, and a change of purpose need not erase earlier expertise. More edits,
+hesitation, or smoother later execution are possible traces, not a diagnosis by themselves;
+difficulty, fatigue, constraints, and editing practice remain rivals. The distinction is
+an analyst formulation of the example, not a validated sequence of learning stages.
+
 **86 university students, one prompt, three drafts each. Maker, prompt, topic, register, and genre
 all fixed by construction.**
 
@@ -766,6 +792,7 @@ all fixed by construction.**
 | **D01-S3** | A standing director's reach is visible in and attributable from the team record | **NARROWED HARD (test, L186-L191, six cards), the with-grain reach surviving its assignment adversary (L230).** Only the with-grain director moves workers (+0.17 over marginal; cheap nil, fast negative); attribution recovers one of three directors because worker priors drown direction; the dose ruler fails on known doses (firm-minus-none +0.08, ns; hedged ties firm for one worker); central and distributed worlds do not separate by per-worker agreement; per-episode direction-vs-preference attribution is at chance with the record adding bias only; record-based forecasting of a fresh directed choice gains +0.04. The distributed-coherence rival's first measured case: the record identifies the WORKERS |
 | **G130c** | The recovery margin survives the covariate matching that killed content-ness | **BETWEEN ITS OWN BANDS (test, L73), the raised floor DECOMPOSED (test, L126).** On the matched subset recovery holds (0.484) while the blind floor jumps (0.232 to 0.402), so the margin falls 22.7 to 8.2 points, real at exact McNemar p = 4.5 × 10⁻⁴ and 2.8× smaller. The prereg bands (survive ≥ 10, collapse < 5) leave 5 to 10 silent, so the formal call is neither. The floor's rise is 87% label-marginal alignment: matching reweighted the truth labels toward the ones the blind reader guesses by default, no text information involved, so the delta-specific remainder stands against a compositional floor rather than a covariate-information one. Owed: the powered matched replication, now the G129 confirmatory battery, whose matched draw truth-balances within common support to restore the analytic floor |
 | **H-S7** | The location and type of a control change in a mixed human-and-model revision history are recoverable from the process record by process statistics, beyond stylometry and persistence and surviving surface normalization; the final artifact alone does not carry it | **NARROWED (test, L351), 5 histories per kind and 12 per adversary.** The process reader localizes a one-time switch within two events on 80 percent of human-then-model histories (−1.02 against the stylometry stack's −2.59) and survives the style-matched adversary where stylometry sits at chance (+1.92 nats [+1.30, +2.40] over the stack); it does not localize alternating control (−4.11) and puts three quarters of its mass on a spurious change under a pure style shift; both free-text readers are under the stack on every kind (−1.45 [−1.89, −0.95]); from the final artifact alone no program localizes anything and the direct reader reads under uniform; the direct change-point comparison is instrument-dead under the 20-option grouping defect, while process-program evidence remains (OPS-ERRATA-2) |
+| **D-RETARGET** | A maker can reuse a learned technique to serve a changed or opposed governing purpose, leaving some process structure similar while its function changes | **OPEN.** Curator hypothetical and analyst formulation; no existing revision or control-switch result isolates this mechanism |
 
 **What the table says.** Recorded purposes are recoverable from the delta at confirmatory
 grade, earned the hard way: the first battery replicated and then lost its label to its own
@@ -830,8 +857,10 @@ kept just as often, and the readers call every tradition a shared brief (H01-S4)
 ordered twelve-step history tells these readers nothing about how the tradition changed that
 the final artifact did not, while costing them on the next decision (H02-S4). Content of
 choices carries; topology, inheritance, and the timescale of a governing goal do not read at
-this scale, which is the errata's caution measured. The hurried-versus-careful commission
-remains the designed extension.
+this scale, which is the errata's caution measured. The hurried-versus-careful commission remains the designed extension. Reuse of expertise
+under a new purpose is an additional candidate interpretation of revision history
+(D-RETARGET). The present rows do not distinguish it from resisting habit or learning a
+new technique. Its status is untested, logic only.
 Confidence: the paired-delta recovery claim is replicated and controlled (two batteries,
 gates quiet; scope one corpus, one reader family); the realized-choice result is one bad
 test away (preregistered, one corpus pair, one reader family); the route-blindness result

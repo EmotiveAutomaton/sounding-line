@@ -35,15 +35,36 @@ Superseded material takes a bold **Superseded** prefix and stays in the section 
 curator may supply direct edits to his own quote blocks without restating them, and when he
 directs outright removal of a quote, remove it; the git history is the record then.
 
+**Spoken-source quotations (curator instruction, 2026-09-07).** Retain small excerpts
+only when they contribute to the theory. Repair clear transcription errors to recover
+the words the curator probably spoke; preserve his uncertainty, repetitions, unusual
+phrasing, and tiredness rather than polishing his thought. Never turn a stronger analyst
+reconstruction into a curator quotation. Mark substantive lexical repairs individually
+and retain their source wording in the handoff. If the intended words remain uncertain,
+use an explicitly labelled analyst paraphrase outside the quote block or leave the
+passage out. Separate noncontiguous excerpts or mark an omission. Record the source
+walkthrough and distinguish its date from the date the quotation is filed. Identify
+retired or changed older quotes in the curator-facing errata.
+
 **Status:** SUPPORTED · REJECTED · VOID (*could not answer its own question, which is not a negative
 result*) · OPEN · CONTESTED (*the literature says the opposite; that difference is the contribution*) ·
 INSTRUMENT DEAD (*our measure died, not the idea*).
 
-**Source, because they are not equally strong:**
+**Source and scope must both be stated:**
 
-    (test)  real text, here. The strongest thing we have
-    (sim)   the parent simulation. Weaker. Authoritative about a METHOD, suggestive about a MECHANISM
-    (lit)   published work. READ if fetched and opened, SNIPPET if not
+    (test)  a measurement made in this project
+    (sim)   a result from the parent simulation
+    (lit)   published work; READ for the inspected source, SNIPPET otherwise
+
+A result-bearing row also identifies its substrate: human artifact or process record,
+model-generated text, or a constructed world. State whether the readout is a human,
+a model, or an exact program wherever that changes the claim. A `(test)` tag does not
+turn a constructed-world result into human evidence. Simulation can validate a method
+under its assumptions; correspondence to a human mechanism is a separate question.
+Evidence strength depends on the target, construction, controls, and replication rather
+than on the source tag alone. Apply this clarification to changed rows now; retain
+existing identifiers and provenance while bringing other rows into compliance during
+their next substantive maintenance.
 
 **A hypothesis with a history gets one indented timeline line.** Contradiction without a timeline is
 not acceptable.

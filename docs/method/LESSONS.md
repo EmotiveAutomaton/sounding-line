@@ -625,6 +625,17 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **An immutable JSON result must reconstruct in JSON's own value types.** The
+  original-law packing rehearsal produced a correct corpus, then its actual
+  handler reentry failed because integer dose-count keys in memory became string
+  keys on disk. Canonical byte comparison showed the saved calculation agreed;
+  normalizing the metadata keys before freezing repairs the comparison without
+  changing labels or masks. Exercise the actual handler reentry, not only the
+  completed scheduler shortcut. The same rehearsal's other packing job correctly
+  refused insufficient independently correct target tokens; that capacity refusal
+  is a separate issue and cannot be repaired by labeling learner-produced context.
+  (2026-09-08, OPS-S9-COLLECT-1)
+
 - **Queue status is a shared reader-facing file too: atomic unique-temp replacement and
   bounded Windows sharing-error retries protect the last good record.** The maintenance
   gear-two launch hit Errno 22 on direct overwrite, recovered next pass, and was repaired
@@ -681,6 +692,10 @@ L132 (a shuffle gate that voided the alternative's own signature).
   trainer wrote `{enc}_{difficulty}{tag}_val_preds.json`; the vote failed on every tagged
   member across three queue passes before the constructions were unified, and the defect was
   invisible in review because each f-string read plausibly alone. (L133, run_pan_winner.py)
+  A pilot namespace also does not validate the scientific command namespace: five Stage9
+  revision preparation declarations used a singular directory that both handlers rejected
+  as plural. Exercise the literal planned paths through materialization and immutable
+  reentry, with wrong-scope refusals retained. (2026-09-10, OPS-S9-CLOSURE-1)
 - **A model-serving endpoint under VRAM churn throws transient 500s; every caller retries
   with backoff before dying, and a generation stage never writes its manifest over a thin
   yield.** An arm died at 0.6 minutes to one transient 500; and the generation runner's
@@ -956,3 +971,31 @@ L132 (a shuffle gate that voided the alternative's own signature).
   its whole locked program at hour 15 and closed short with a ladder that could have run
   three more rungs. The short-run cause was written honestly and nothing was padded, which is
   the right behavior; the sizing was the mistake. (2026-09-03, the closure)
+- **An immutable final-input comparison must exclude the active reporter's live
+  heartbeat while retaining all prior terminal states and audited attempt costs.**
+  The Stage 9 packet passed its contract fixtures but failed during the real queue
+  because its returned context included the scheduler's half-second heartbeat
+  updates. The draft and failed attempt remain archived. Validate the complete
+  path under a running scheduler, including the manual-review pause, before
+  accepting a reporting component. (2026-09-08, OPS-S9-PACKET-1)
+- **Historical request reconstruction needs an explicitly reviewed protocol
+  version, even when a source change only adjusts waiting time.** The actual
+  Stage 9 final audit correctly refused an older reader before the timeout-only
+  difference was reviewed. Retain that refusal and original source bytes; bind
+  compatibility to the exact reviewed versions and continue refusing unknown
+  versions. Successful current-code fixtures do not establish historical
+  compatibility. (2026-09-08, OPS-S9-CLOSURE-1)
+- **Atomic replacement does not guarantee every concurrent Windows open succeeds.**
+  An actual Stage 9 summary received PermissionError while opening the live queue
+  status. Preserve the original failed attempt; retry only bounded access/sharing
+  errors on the same path, with permanent denial and malformed evidence still
+  failing. Test an actual exclusive Windows handle and a live scheduler. The same
+  rehearsal also selected a byte archive without its required source manifest:
+  verify the exact original archive path before scheduling; never retrofit an old
+  archive to make the pointer pass. (2026-09-08, OPS-S9-CLOSURE-1)
+- **A shared utility can be part of a historical data audit's exact source identity.**
+  Putting the live-status retry in the common record module passed targeted checks
+  but made original overlap-audit verification refuse human case preparation.
+  Retain this integration failure, restore the exact original shared bytes, and
+  isolate scheduler behavior in a separate wrapper. Never relax the historical
+  source guard to make an operational repair pass. (2026-09-08, OPS-S9-CLOSURE-1)

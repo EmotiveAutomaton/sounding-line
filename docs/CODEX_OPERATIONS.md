@@ -318,3 +318,31 @@ completed owner write-through and final-packet delivery; use the current watcher
 The runtime permission adoption check remains separate from this completed workload.
 
 Release verification: **167 pytest tests**, Stage 7 **30/30**, Stage 8 **22/22**, all **21 locks**, and both documentation linters pass. All 246 preserved snapshot files still match their original stage bytes. The seven original final events and three maintenance events were acknowledged only after full write-through and corrected-packet delivery; the watcher reports no pending events, error or notification failure.
+
+## Hidden delivery child, 2026-09-07
+
+The watcher delivery subprocess now sets the Windows no-console creation flag.
+Ten existing delivery/recovery checks pass, and a live sole-watcher restart verifies
+the new source hash and heartbeat with the scientific queue unchanged. The current
+machine's PowerShell execution policy refused the scripted restart. Recovery waited
+for the cancelled watcher's kernel lock to release and launched the same existing
+Python entrypoint directly with `Start-Process -WindowStyle Hidden`; no execution
+policy was changed. The inherited capsule launcher is a separate outstanding flash
+candidate and remains unchanged while the scientific source closure is frozen.
+Receipt: `results/phase_2_4_stage_9/pilot/HIDDEN_WATCH_RESTART_20260907.json`.
+
+The Stage 9 capsule launcher now also uses the hidden-process flag; the installed
+stack passes 324 tests and 21 locks. The first quiet watcher restart was live but
+later delivery failed. A reviewed normal-user restart of the identical entrypoint
+restored acceptance of an actual human-pipeline completion notification, with the
+same owner, source and live research queues preserved. The sandboxed CLI version
+check emitted a home-directory warning; the normal-user check did not. Retain this
+distinction between a live watcher and working transport. No execution or security
+policy changed. Receipt: `results/phase_2_4_stage_9/pilot/WATCH_RESTORATION_20260907.json`.
+
+The restored watcher subsequently delivered an actual operational completion message
+to this owner after its final response. The historical branch produce and prior full
+landing were reconciled before acknowledgement; no job was restarted. This verifies
+post-restoration idle-owner delivery, without claiming prompt delivery of every event
+or physical absence of visible flashes. Receipt:
+`results/phase_2_4_stage_9/pilot/OWNER_IDLE_DELIVERY_OBSERVED_20260907.json`.

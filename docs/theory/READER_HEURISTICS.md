@@ -7,8 +7,8 @@
 
 **A bounded reader approximates the triple inference using priors about the maker, local cues in the
 artifact, strategies for moving between explanatory levels, and calibration rules that limit
-overinterpretation.** Humans do not solve the inference; they run heuristics at it, converging the
-way a series approximation does. The curator's own readings (fifteen artifacts, two sessions) are
+overinterpretation.** The proposed human account uses successive, fallible approximations; neither convergence
+nor improvement on every pass is guaranteed. The curator's own readings (fifteen artifacts, two sessions) are
 **the richest hypothesis source this project has**; they are not a validated instrument, because no
 independent ground truth has scored them, and the calibration literature below shows exactly how
 expertise and confidence coexist with low reliability.
@@ -46,9 +46,9 @@ rather than the text:
 > Showing someone your writing is a kind of intimacy.
 
 **(G59:** closeness as a measurable prior held before the artifact is seen. **OPEN**, canonical
-here.**)** Then **biography and prior artifacts**, which are more observations, not context
-(*"Everything's an artifact. Even information about their life"*, canonical in the triple
-inference, operational here); **provenance framing**; and the **communicative assumption**,
+here.**)** Then **biography and prior artifacts**, which supply observations about the maker and
+context rather than automatically trustworthy context facts (*"Everything's an artifact.
+Even information about their life"*, canonical in the triple inference, operational here); **provenance framing**; and the **communicative assumption**,
 treating the maker as intending to be understood.
 
 The communicative assumption is the strongest and the most dangerous of these. It is standard in
@@ -105,10 +105,10 @@ On why the shortcut works *(the 2026-08-22 pass)*:
 > the easier it is to reverse-engineer and understand. Archaeology is hard; talking to your wife
 > is easy.
 
-**This is the best viewer-coherent reconstruction: the reader begins from itself because shared
-organization supplies a cheap candidate generator, then adjusts toward a maker model using
-artifact evidence and context. Similarity makes this shortcut more useful; it does not make the
-reconstructed route historically correct.** It supplies
+**Proposed self-based initialization.** Shared organization may supply a cheap candidate
+generator that the reader can adjust toward the maker using artifact evidence and context.
+Relevant similarity is expected to make this shortcut more useful; the route is neither
+established as universal nor guaranteed to reconstruct the maker's history. It supplies
 candidate routes and effort estimates, then is adjusted using evidence about the maker. It also
 creates a characteristic failure: a sufficiently flexible reader can explain almost anything as
 something the reader might have done. Reader identity, domain competence, and conditioning must
@@ -168,8 +168,8 @@ reading; no prospective self advantage was demonstrated in the separate record t
 (self-minus-other −0.10, ns). Agreement between two target samples measures repeatability, not a
 predictive ceiling. This does not establish a general representational-versus-predictive
 division. The walkthrough after Stage 7 fixes what the initialization is: the reader's own forward
-model of the standard process, corrected locally where the artifact differs from it, so the
-similarity that helps is expertise shared with the maker before it is anything about the person.)**
+model of the standard process, corrected locally where the artifact differs from it, so shared expertise is one candidate source of useful initialization. Individual
+familiarity can also supply a prior; no fixed priority between the two is established.)**
 
 **Model-family similarity is the present analogue construction. If sibling models recover one
 another's recorded process choices better after surface and capacity controls, the shared-
@@ -205,9 +205,9 @@ and 0 of 40 episodes realized). **NARROWS the self-model prior:** in models it i
 instruction-shaped default, not a stable prior, so every self-projection test fixes its frame
 by construction. The projection itself then split by capability (test, L193): the reader that
 cannot consume records defaults to its own preference on conflict items (error intrusion 0.58
-vs the 0.33 symmetric null) while the record-reading reader errs symmetrically (0.29), which is the
-assumed-similarity initialization with the correction step present versus absent, live in two
-models. Active search is not the correction's source: offered a higher- or lower-information
+vs the 0.33 symmetric null) while the record-reading reader errs symmetrically (0.29), consistent with projection corrected by evidence use in one reader and not the other.
+Those outcomes do not isolate an assumed-similarity initialization or its internal
+correction mechanism. Active search is not the correction's source: offered a higher- or lower-information
 record, both readers take whichever is listed first (position rate 0.86-1.00 vs informative
 rate 0.36-0.38; test, L194). Records predict a maker's next choice on a second domain
 for the stronger reader only (test, L228: Qwen 0.56 on process as on infra, p=0.007;
@@ -241,9 +241,29 @@ is one of the more useful pieces of information once you have observed it."*
 
 *2026-09-04 walkthrough; lightly cleaned transcript.*
 
-The affordance route to the goal is canonical here: the reader asks what the artifact could be used
-for in the maker's context and expands from there, and a goal inference that is not the easiest is
-being worked wrong.
+The affordance route is the curator's proposed starting point: ask what the artifact
+could be used to do in the maker's context, then expand the candidate purposes. His
+expectation that goal is usually easiest guides pursuit. Difficulty alone does not
+establish a defective inference, since different purposes can remain compatible with the
+same artifact. Whether the target is identifiable and whether the reader can recover it
+are separate questions.
+
+> It would feel kind of instinctive, like a reflexive guess that you just are unusually
+> confident about, you don't know why.
+>
+> As far as what would draw you into a deeper reading, the feeling itself would be an
+> explanation that would demand an assessment.
+
+*Curator's preceding director-familiarity walkthrough; filed 2026-09-07. Wording preserved.*
+
+**Familiar recognition can invite reconstruction.** Several small, familiar choices may
+prompt a rapid maker hypothesis before the reader can say which choices support it. The
+felt recognition can itself invite assessment. This is the curator's description of an
+experience, not evidence that its confidence is calibrated or that a particular cognitive
+architecture produced it. Shared convention, imitation, source framing, and mistaken
+association remain alternatives to correct identification. Identifying a maker, predicting
+that maker under a new constraint, and reconstructing a historical process are different
+achievements. An anomaly is therefore one entry route; familiarity is another candidate.
 
 A mistake is a sharpened anomaly for which evidence supports a mismatch between a choice and the
 maker's operative trajectory. The strongest evidence often comes from handling: repair exposes a
@@ -252,6 +272,23 @@ suggests habit or a stable transition-map limitation, and non-response suggests 
 non-recognition or indifference. Unfamiliar order remains unresolved until evidence distinguishes
 expertise, convention, secondary purpose, accident, and error (the trace classes are canonical in
 [`DECISION_TRACES.md`](DECISION_TRACES.md) §3).
+
+> And I think in this case, criticality is when you believe you have the artist's proximal
+> goal and you run your forward generator. If you come up with a better meeting of that
+> goal than the creator did, that's where critics come from.
+
+*Curator's preceding painter/restorer walkthrough; filed 2026-09-07. Wording preserved;
+the missing sentence break after generator is repaired.*
+
+**Criticism can compare possible means to an inferred end.** On this account a critic
+can propose a different choice and assess whether it better serves the maker's inferred
+purpose. The purpose estimate, available alternatives, cost, and consequences of the
+proposed improvement can each be wrong. A local repair may demonstrate useful competence
+without establishing the ability to create the whole work or reconstruct its history.
+The curator's later description of nothing being surprising names a felt limit of fluent
+understanding. Retrospective explanations for every detail do not independently establish
+that the reader's forward model is accurate. A reconstruction earns evidence when it
+constrains a withheld choice, repair, or continuation rather than accommodating any outcome.
 
 Two calibrations on this cue family. **Entry efficiency is not final quality.** The simulation found
 anomaly-first ordering saves ~5% of cost and changes the answer by exactly zero, which bounds the
@@ -283,19 +320,20 @@ discontinuity*; the interpretation that the variation is **goal** variation is e
 open. Intrinsic plagiarism detection is also a different thing, a spliced author rather than one
 author's goals moving, a distinction he separated after I collapsed it.
 
-Stage 7's constructed histories give the honesty note a measurement (L351): a process reader
-localizes a one-time control switch from the event record and survives a surface matched from
-one word pool, where stylometry sits at chance; a pure style shift with no change of control
-still draws three quarters of its mass; and the free-text readers read under the stylometry
-stack on every kind. Detection of discontinuity from process statistics is real on the record
-and absent from the final artifact; whether the variation is goal variation stays the open
-interpretation.
+Stage 7's constructed histories supply a scoped process result (L351): a program
+localizes a one-time change of control from the event record and survives the tested
+surface matching, but also produces false changes under a pure style shift. No tested
+program localizes the change from the final artifact. The direct change-point comparison
+uses the defective 20-option grouping and cannot establish a general reader limitation
+(OPS-ERRATA-2). Whether a discontinuity reflects a change of goal remains a separate
+question; failure of these readers does not prove the artifact lacks usable evidence.
 
 **And the revision-wobble test is retired on his own account.** Human redrafting was the wrong
 axis, before the null even needed explaining:
 
-> The problem is that revisions from a human author are always going to carry **the same level of
-> intent density across the board.**
+**Superseded:** the earlier account treated human revisions as carrying an invariant
+level of intent density. The curator's correction below withdraws that generalization;
+the particular revision-wobble instrument remains retired.
 
 > Actually, I'm going to caveat that. All human behavior having the same level of intent density,
 > by definition that's not the case. But you would expect **a more human-readable resolution in
@@ -322,20 +360,26 @@ He predicts a vague unifying effect there and declines to claim even that.
 | **HH-4** | Redrafting is the wrong axis; the claim needs artifacts of different kinds by one maker | **OPEN**, and his intent-density quote above says why in advance |
 | **HH-6** | Entering at the anomaly beats entering at the whole artifact | **OPEN.** The machinery exists (`bounded_v6` stage zero); a flag flip and a comparison |
 | **HH-7** | Local decision density around a mistake exceeds baseline | **OPEN.** Needs mistakes located first; the one place a decision and its counterfactual are visible together |
+| **HH-CRITIC** | A locally enacted alternative can improve on a maker's choice relative to an inferred purpose, and that competence can inform reconstruction | **OPEN.** Curator walkthrough and analyst formulation; requires independently assessed purpose, constraints, and consequences. Existing explicit-route results do not validate human constructive criticism |
+| **HH-FAMILIARITY** | Felt recognition from several familiar choices can initiate a maker hypothesis and a subsequent assessment | **OPEN.** Curator report; the accuracy, calibration, and predictive usefulness of this route have not been measured on human artifact readers |
 | **S-4/S-5** | Stage ordering changes the answer | **REJECTED (sim)** by exactly zero; ~5% cost saving only |
 | **G165** | Explicit route generation (a self-enacted production route, or predicted evidence per candidate) improves recovery of recorded executed choices over direct reading | **NO-GAIN where direct reading is strong (test, L151); HURTS where it is weak (test, L153), and the wing is CLOSED.** On the realized-choice events: zero delta and minus two points, every gate quiet. On the revision-delta events where the change block beats the direct reader: self-route costs seven points (p = 0.0006) and invents purposes on unrevised text at 0.065 against the direct reader's recorded 0.000, while evidence-prediction gains three points, noise-compatible. Explicit generation is rhetoric the reader then follows over the evidence |
 |   | | *(this row's history is a NO-GAIN root on the strong substrate 08-21 morning and the HURTS discriminator on the weak substrate the same afternoon; the null-discriminator rule is spent)* |
 | **E02-S3** | A reader given a maker's choice RECORD predicts their next choice better than one given nothing or matched filler, on known-policy targets | **SUPPORTED (test), one reader deep.** +20 points paired (p = 0.0026) against an exact ceiling of 1.00, but the entire margin is Qwen's (0.57 vs 0.23); SmolLM-1.7B reads the record at filler level (0.27). The self-first two-step neither helps nor hurts. Instrument gate for the Stage-3 route factorial |
 
-**What the table says.** Probe trajectories reflect model/register sensitivity whose mechanism
-is unresolved, not general human provenance (HH-3). Surface variation also fails its controlled
-bar. Externalizing a production route buys nothing where direct reading is strong and damages
-it where weak, with a fabrication cost; this bounds the explicit strategy, not the implicit
-self-model prior. Records help only the reader able to consume them. The anomaly hypotheses
-remain distinct from variation detection; Stage 8 supplies their diagnostic tests without
-admitting the trained readers. Confidence: instrument-dead for the probe's provenance reading;
-replicated and controlled for the surface defeats; one bad test away for the explicit-route
-bound and reader-specific record benefit; untested, logic only for the remaining hypotheses.
+**What the table says.** Probe trajectories reflect model and register sensitivity whose
+mechanism is unresolved; they do not establish general human provenance (HH-3). Surface
+variation fails its controlled bar. Explicit route generation adds no gain where direct
+reading is strong and damages it where weak, with a fabrication cost; this bounds that
+strategy in the tested readers and does not test the implicit human mechanism (G165).
+Records help the reader able to consume them (E02-S3). Anomalies, familiar recognition,
+and locally constructive criticism remain distinct candidate routes into reconstruction.
+Neither felt certainty nor a plausible improvement establishes historical correspondence.
+Stage 8 supplies diagnostic measurements on readers that were not admitted; it does not
+validate these human routes. Confidence: instrument-dead for the probe's provenance
+interpretation; replicated and controlled for the scoped surface defeats; one bad test
+away for explicit-route and record-reading results; untested, logic only for the new
+criticism and familiarity hypotheses.
 
 ## §3. Traversing explanatory levels
 
@@ -388,8 +432,11 @@ The quote is pulled from a specific reading of one artifact, the updating and ac
 process run live while answering author and provenance questions during early corpus
 construction, and *"the read-alongs ended up being more useful than the actual corpuses."*
 
-**Confidence moves while reading, and the trajectory carries what the endpoint does not.** Every
-reading this project records is a final number, so the series has never existed to be checked. The
+**Confidence may change during a reading.** Whether its trajectory adds information
+beyond the endpoint is an open question (HH-9). A model-side series instrument has been
+built: its pooled tracking of exact information is a valid null at the declared band
+(R05-S5, L329). That is a different question from the trajectory's incremental value over
+its endpoint, and neither comparison validates a human reader's confidence. The
 reader also searches actively. Re-reading (each pass recovering lower-confidence
 attributions from the tail), **epistemic foraging** for biography and further works,
 where *everything is an artifact* becomes operational (context supplies additional
@@ -406,6 +453,15 @@ maker and process hypotheses, which should then change predictions about other e
 A useful context cue improves held-out recovery; a misleading cue should cause a
 measurable, directionally coherent error; if neither occurs, the cue merely inspired a
 narrative. The tool-conditioned form of the same rule lives in §6.
+
+The flower example adds a candidate reason some context cues reorganize many details:
+a condition believed to persist through much of production may affect several choices
+together. Claimed loneliness could therefore change the reader's interpretation of a
+bright flower without establishing either the artist's actual state or the flower's
+intended meaning. Duration, explanatory reach, and source reliability are different
+properties. A broadly applicable cue can be reliable, misleading, or too flexible to
+constrain anything. The account earns support only if it improves predictions beyond
+the story it prompted; it does not inherit support from the reader's felt change alone.
 
 **The current ordering conjecture places context especially at maker differentiation.** The
 artifact first supports a self-based candidate distribution; biography, prior work, tools,
@@ -461,7 +517,7 @@ the reason to expect modest effects.
 
 | # | hypothesis | status |
 |---|---|---|
-| **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN.** Every reading this project records is a final number, so the series has never existed to be checked |
+| **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN for incremental value over the endpoint and for human readers.** A model-side series exists, but its tracking of exact information is a different comparison and is a valid null at the declared band (test, R05-S5, L329) |
 | **G64** | Re-reading one artifact recovers the tail | **OPEN.** Canonical in the triple inference §5; the reader-side strategy is this section's |
 | **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION where evidence is absent (test, L155); MIXED at 0.44 where evidence is strong (test, L157); the wing is PAUSED.** With nothing readable to resist it, a false card steers 95 percent as hard as a true one and erases the reader's abstention. Against evidence the reader provably reads at 0.86, a false note still costs forty-two points, wins the toss-up at 0.53, and the conflict is named only 0.15 of the time even when the format offers the option; a true note lifts the reader to 0.99, so any supplied note is treated as high-grade evidence regardless of truth. Context-trust is a separate defect from evidence-reading in this family |
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
@@ -469,70 +525,36 @@ the reason to expect modest effects.
 | **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size and expanded.** Bundle minus facts +0.10 nats over 128 worlds and +0.09 over 256, the interval crossing zero both times; an incorrect bundle helps as much as the correct facts (+0.59 to +0.72 over no context) and irrelevant background helps by a third to a half of a nat, so the readers take the frame and not the content |
 | **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **REFUTED as a flat curve (test, L241): COUNTEREVIDENCE at 128 worlds, INCONCLUSIVE at 256.** Six records after a misleading prior move the direct log score -0.20 nats at 128 worlds and -0.08 with the interval crossing zero at 256, while the exact ruler climbs 0.13 to 0.16; the valid prior's curve is flat (0.00); a misleading prior helps at zero records as much as a valid one (+0.38 against +0.32); neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
 | **C03** | The readers choose evidence by its expected information about the maker (active reading) | **COUNTEREVIDENCE (test, L246), 204 usable worlds of 256.** The redundant probe is chosen 0.78 of the time and the informative one 0.08, half of every pick going to the first listed; 8 percent of the exact selector's expected gain is captured, a quarter below a random pick; the realized gains are flat at this size |
-| **R01-S5** | The reader chooses the evidence route by its exact information about the hidden future choice, beyond a random selector | **SUPPORT BY BAND, A FLUENCY POLICY BY THE RIVALS (test, L270), 159 worlds past the floor.** +0.11 nats over random; −0.05 against always taking the easiest-rendered route, which is the action record in every world and the most informative in three of four; the reader's departures from it are unrelated to which route is best (27 against 28 percent). Second contract with per-world description rendering (L300): the easiest description is the note in every world, the readers take it a quarter of the time, prefer the action record, and capture +0.06 over random and +0.10 over always-easiest, tracking 0.36 against 0.26. Ease crossed inside a route type under a validated ruler (L311): the description rendered harder (mid-dots) is taken MORE, by 0.25 of probability on both readers (Qwen 0.40, SmolLM2 0.10), so the fluency policy is dead and anomaly attraction replaces it; the both-plain cell keeps the record-over-note preference at +0.08 over random; the archaic cross separates the confound: harder-but-not-deviant is ALSO taken more (−0.24 pooled; Qwen −0.42, SmolLM2 −0.07), so the attraction is difficulty's, not visual anomaly's (L327) |
-| **R02-S5** | Stated reliance follows a record's exact information rather than its ease of reading, the two crossed by construction | **SUPPORT BY BAND ON THE QUANTITY SIDE, CONFIRMED ON THE RESERVE (+0.18 [+0.15, +0.20], L281); THE EASE ARM UNREALIZED (test, L271), 256 worlds.** Reliance +0.16 for six records over two; −0.03 for the stilted rendering, which the reader's own token probabilities rate as the easier text (−2.82 against −3.07 per token), so the fluency contrast never existed. Second contract (L301): +0.07 on two readers; the ease ruler (mean per-token log probability) rates capitals and mid-dotted text as easier than the plain record, so the ease arm cannot be realized under it. Under the validated ruler (L310) with the capitals realized in every world (L314): Qwen +0.15 for six records over two and −0.03 for plain against capitals (the harder text relied on MORE); SmolLM2 flat on both (−0.01, +0.01); the fluency account is dead on both readers and the quantity effect is the Qwen family's; at equal rendered length the effect follows information (+0.075 [+0.066, +0.084]) and not length (−0.003 [−0.011, +0.004]), the padded six matching the two (L327) |
+| **R01-S5** | The reader chooses the evidence route by its exact information about the hidden future choice, beyond a random selector | **NARROWED; the initial fluency explanation is REJECTED (test, L270, L300, L311, L327).** The initial 159-world result was +0.11 nats over random; −0.05 against always taking the easiest-rendered route, which is the action record in every world and the most informative in three of four; the reader's departures from it are unrelated to which route is best (27 against 28 percent). Second contract with per-world description rendering (L300): the easiest description is the note in every world, the readers take it a quarter of the time, prefer the action record, and capture +0.06 over random and +0.10 over always-easiest, tracking 0.36 against 0.26. Ease crossed inside a route type under a validated ruler (L311): the description rendered harder (mid-dots) is taken MORE, by 0.25 of probability on both readers (Qwen 0.40, SmolLM2 0.10), so the fluency policy is dead and anomaly attraction replaces it; the both-plain cell keeps the record-over-note preference at +0.08 over random; the archaic cross separates the confound: harder-but-not-deviant is ALSO taken more (−0.24 pooled; Qwen −0.42, SmolLM2 −0.07), so the attraction is difficulty's, not visual anomaly's (L327) |
+| **R02-S5** | Stated reliance follows a record's exact information rather than its ease of reading, the two crossed by construction | **SUPPORTED for Qwen's information-sensitive stated reliance; ease interpretation REJECTED (test, L271, L281, L301, L310, L314, L327).** The initial 256-world quantity result was confirmed on its reserve (+0.18 [+0.15, +0.20], L281); its ease arm was then unrealized. Reliance +0.16 for six records over two; −0.03 for the stilted rendering, which the reader's own token probabilities rate as the easier text (−2.82 against −3.07 per token), so the fluency contrast never existed. Second contract (L301): +0.07 on two readers; the ease ruler (mean per-token log probability) rates capitals and mid-dotted text as easier than the plain record, so the ease arm cannot be realized under it. Under the validated ruler (L310) with the capitals realized in every world (L314): Qwen +0.15 for six records over two and −0.03 for plain against capitals (the harder text relied on MORE); SmolLM2 flat on both (−0.01, +0.01); the fluency account is dead on both readers and the quantity effect is the Qwen family's; at equal rendered length the effect follows information (+0.075 [+0.066, +0.084]) and not length (−0.003 [−0.011, +0.004]), the padded six matching the two (L327) |
 | **R05-S5** | Along the evidence stream the reader's stated confidence tracks the exact information the stream carries | **VALID_NULL (test, L329), 192 world-series per reader, five cuts each.** Pooled slope agreement +0.012 [−0.001, +0.026] against the analytic half floor; Qwen +0.034 [+0.001, +0.069], under the band; SmolLM2 −0.009 [−0.044, +0.022]; ECE 0.316, the larger reader mostly sure (0.55 of its confidence mass) and worst calibrated (0.414): the J03-S5 one-cut fact in series form, and confidence is not an information meter in these readers |
 | **R03-S5** | Worked demonstrations of choosing the diagnostic route transfer as expertise (used where diagnostic) rather than familiarization (used wherever shown) | **FAMILIARIZATION (test, L272), 256 worlds.** Three demonstrations raise the route's use to 100 percent and three misleading ones lower it to 0 in every world, the same where the route is worthless as where it is diagnostic (interaction −0.02 [−0.06, +0.02]); calibration unchanged; on two readers 1.00 and 0.01 to 0.02 with the interaction −0.01 (L302) |
 | **R04-S5** | The reader buys forensic access when its expected information justifies the cost and declines it otherwise | **NO POLICY (test, L273), 256 worlds.** Buys in 48 percent of worlds with AUROC 0.54 to the exact gain; net gain per cost −0.24 against −0.18 for a coin flip and 0 for never buying; the step never pays on this construction, so only the decline side was tested. Second contract, the step paying in a third of worlds (L303): two readers buy in 0.58 of worlds whether it pays or not (AUROC 0.50), and the exact policy realizes the least gain because the bought evidence is not used |
 | **HH-25** | Reliable maker context is especially useful after an initial artifact/self prior has formed, during maker differentiation | **OPEN for differentiation order (test, L195, L209, L211, L213, L214).** Ordering observations stand: the record-reading reader drops 0.67 to 0.40 when the question precedes the record, biography trades at parity with a six-choice record in both directions, and the late-fusion ruler fails on a second domain too (L229). The easy updating gate failed. Recall does not establish functional evidence use, so the recall split cannot isolate weighing from attention or comprehension. The stored readout follows an outsider's wish at 40/48, and an explicitly ignorant outsider's wish at 45/47 (L231). The re-run with every generation persisted and a parser-free likelihood readout (L252) keeps the numbers, 0.79 and 0.92 hint-following, with refusals and contamination small and separated, so the override is the readers' and not the parser's; what no readout of the answer separates is belief adoption from compliance, which stays open |
 
-**What the table says.** The section's first numbers land on the context-reweighting rule's
-failure side, now measured at both ends of the evidence axis. Where the artifact offers
-nothing readable, a supplied production fact functions as an instruction, followed at full
-strength regardless of truth; where the artifact offers evidence the reader provably reads,
-the false fact still wins about half the time, the true fact lifts performance past the
-evidence alone, and the reader almost never names the disagreement it is silently resolving.
-The coherent summary is that this reader family assigns supplied assertions roughly the
-weight of its own reading and no truth-tracking discount at all, so context-trust is a
-defect class of its own, separate from evidence-reading and from the honest abstention the
-same instrument shows elsewhere. The useful-cue half of the reweighting rule survives only
-in the degenerate true-note case, which no product interface can rely on since truth is what
-the interface does not know. The Stage-3 wish rows point the same way but cannot carry the
-psychological reading: the stored readout follows an outsider's wish at 40/48 and an explicitly
-ignorant outsider's wish at 45/47, and with the raw generations missing and a phrase-matching
-parser standing in for them, compliance, answer contamination, task confusion, and extraction
-error were all unresolved until the repaired readout kept the numbers parser-free (0.79 and
-0.92 hint-following, L252); the override is measured, and belief adoption against compliance
-stays unseparated. Stage 4's first full-size context card lands on the
-same side from a third direction: with content and framing separated by construction, a
-coherent maker model beats the same facts by a tenth of a nat with the interval crossing
-zero, and a wrong model helps exactly as much as the right facts, so what these readers
-take from context is the frame and not the content (C01); and the second card shows the
-trap: six individuating records after a misleading prior leave the prediction where it was
-(worse at the first size, flat at the second) while the valid curve is flat and the exact
-ruler climbs, so these readers do not use the records at all (C02); and the third card
-closes the track from the selection side: offered a probe that would tell them the most
-about the maker, they take the one that restates what they already have, three times in
-four, and capture eight percent of the available information (C03); offered routes by
-description on a fresh construction, the reader takes the easiest-rendered one, which there
-happens to be the informative one, and beats a random selector while losing to the policy of
-always taking the easiest, its departures unrelated to which route is best; when ease is then crossed
-inside a route type, the reader goes to the harder-rendered description, not the easier, by a quarter
-of the probability on both readers, so the fluency reading of that default is dead and what remains is
-a record-over-note preference plus an attraction to the anomalous option, the human anomaly entry
-point showing as a menu bias (R01-S5); asked how much it would rely on a
-record, it says more for six entries than for two and no less for a rendering meant to be
-harder that its own token probabilities call easier, and, once the harder text is one the
-validated ruler calls harder, no less for that either (R02-S5), so what is measured is trust in
-quantity, confirmed on an untouched reserve at the same size, present in one reader family and
-absent in the other, and the fluency question is closed against fluency (the post-close receipts complete both stories: the archaic rendering, harder by the validated ruler and not visually deviant, is taken more by the same quarter of probability, so the attraction is difficulty's rather than visual anomaly's, Qwen carrying it at −0.42 with SmolLM2 at −0.07; and at equal rendered length the reliance effect follows information, +0.075, with length itself at −0.003, so the quantity effect was information all along and remains the Qwen family's, L327; and its stated confidence along the stream tracks exact information at a valid null, +0.012 pooled, the confidence series landing as the file's newest instrument, R05-S5, L329); and shown three demonstrations of a route,
-it takes that route in every world and the opposite route under three misleading ones, with
-no regard to whether the route is diagnostic there (R03-S5), the supplied-fact-as-instruction
-result again, now for procedure rather than content; and offered a costed forensic step that is
-never worth its price here, it buys half the time at random to the gain (R04-S5). The
-adjustment mechanism this section proposes has no model-side analogue at this scale, from any
-of the three directions it could have shown; the reweighting rule's useful-cue half is untested by
-them because they do not read the cue. The confidence series remains the cheapest unbuilt instrument in the file, the uptake-lag row is
-a human hypothesis rather than an interpretation of the model-context failure, and the external
-mean-pooling result remains a reason to expect modest series effects rather than to skip the test.
-Confidence: the earlier true/false context effects are one bad test away, one construction family
-and one reader family deep; the frame-not-content and no-correction reads are one bad test away as
-a pair, two readers, one construction family, the second read expanded and flat; the no-active-
-reading read is one bad test away, its realized side underpowered, and its fresh-construction
-replicate reads as a genre preference with anomaly attraction, the fluency reading dead on two
-readers and one construction, difficulty and anomaly not yet separated; the Stage-3 wish override is
-one bad test away, measured twice, its psychological reading (belief against compliance) untested;
-differentiation order, the uptake interval, and the rest remain untested, logic only.
+**What the table says.** Supplied assertions can dominate these model readers even when
+the artifact contains readable contrary evidence. The verified wish override persists
+under a parser-free readout, so the answer shift is real, while belief adoption and
+compliance remain unseparated (G167, HH-25). On the tested context constructions, coherent
+bundles do not establish an advantage over listed facts, added records fail to correct
+misleading priors, and evidence selection does not generally follow available information
+(C01 to C03). These are scoped behavior results, not a demonstrated human updating mechanism.
+
+The selection and reliance controls narrow earlier explanations. Route preferences do
+not follow ease as first proposed; the archaic rendering separates difficulty attraction
+from visible anomaly (R01-S5, L327). In the Qwen reader, stated reliance follows information
+when length is held constant, while length itself adds no established effect. The second
+reader does not share the benefit (R02-S5). Demonstrations can produce route following
+without sensitivity to diagnosticity, and the forensic purchase rule does not track its
+available value (R03-S5, R04-S5).
+
+The confidence-series instrument exists. Its pooled tracking of exact information does
+not clear the declared band, and the larger reader is particularly overconfident on this
+construction (R05-S5, L329). The additional value of the whole trajectory over its endpoint
+remains untested (HH-9). Context persistence, differentiation order, and process uptake
+before value appraisal remain human hypotheses; no model result licenses their internal
+psychological interpretation. Confidence: one bad test away for these scoped model
+measurements; untested, logic only for the human mechanisms and the endpoint comparison.
 
 ## §5. Continuation and stopping
 
@@ -574,6 +596,15 @@ correlations between interest and recoverability. Per the program, those ratings
 only and are never ground truth, since interest may reflect fluency, novelty, confusion, or
 personal relevance.
 
+**What the reader wants to learn changes what is worth examining.** In the curator's Go
+example, a better move can make the earlier move less useful for learning the game while
+leaving it informative about the player. This changes the reader's reason to continue,
+not what the maker's earlier goal was. Wanting to learn a technique, identify a maker,
+recover a historical process, and assess a maker's values are different reader tasks.
+Stopping may reflect limited relevance or cost rather than a complete reconstruction.
+Later endorsement of a better move does not by itself show whether the maker considered
+it earlier. The claim about earlier knowledge requires its own evidence.
+
 Stopping is the calibration side. Graded attribution when evidence supports only that (§10), and a
 **hard falsifier ends the inference outright**, the two-channel rule of §9.
 
@@ -587,7 +618,11 @@ Stopping is the calibration side. Graded attribution when evidence supports only
 arousal theory is replaced by a sharper formal target (effective complexity), and the live
 opposing account, pleasure from processing ease, predicts the *opposite* correlation between
 interest and recoverability, which is exactly what the blocked ratings test would adjudicate.
-Confidence: untested, logic only, blocked on an hour of the curator's time.
+The proposed relation between interest and unrecovered decisions also depends on the
+reader's purpose: material informative about a maker may add little to a reader's present
+learning task. Interest and stopping are consequently evidence about the reader as well
+as the artifact. Confidence: untested, logic only; the human rating comparison remains
+blocked on curator ratings.
 
 # Part II: Cue families
 
@@ -933,8 +968,10 @@ The constructed-world comparator that was set beside these gaps is dependency-ta
 realizer read the hidden world), so it cannot show that the ecological gap belongs to the
 evidence rather than to the machinery. The Stage 6 run therefore cannot close every real-record
 path or establish a general reader boundary. What survives is only that cheap sequential priors
-beat these frozen readers on two corpora; CoAuthor awaits the repaired event semantics (Stage 7
-D07, P13), and all three await a clean artifact-visible comparator (Stage 7 R13, P13, P14).
+beat these frozen readers on two corpora; the Stage 7 CoAuthor comparison uses the corrected individual-suggestion unit (P13,
+L352; Decision Traces H04-S3); it does not validate the old Stage 6 all-dismissal result.
+A clean comparator with matched operative information and valid readout remains necessary
+before claiming a general reader or evidence boundary across these corpora.
 
 ## §11. The instrument dashboard: adopted heuristics with measured strength
 

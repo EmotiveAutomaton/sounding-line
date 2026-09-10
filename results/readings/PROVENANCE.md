@@ -18,6 +18,25 @@ with the reason.
 
 ---
 
+## Stage 9 commission and supplied reconstruction — 2026-09-06
+
+The filed Stage 9 specification contains an analyst reconstruction of the earlier walkthrough.
+It is not a verbatim transcript and its prose is not entered as curator quotations.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S9.8 | Direct curator clarification, 2026-09-09: give a ballpark only; do not spend time calculating a precise ETA. | Several more days, week or more plausible for the complete stage; no new ETA calculation in the maintenance pass. | CURRENT_STATUS.md; docs/design/STAGE9_FORECAST_REVIEW.md | written |
+| S9.7 | Audio instruction, 2026-09-09: implement the supplied theory errata and correctly file the three root markdowns. | Errata applied with newer corrections preserved; unfinished brief and scheduling review remain active, applied errata archived. | FINDINGS THEORY-MAINT-20260909; docs/design/ | written |
+| S9T.3 | Novelist walkthrough excerpt supplied in the 2026-09-07 errata: old techniques can be used to build toward applause after serving ridicule. Recording date not independently supplied; applied 2026-09-09. | D-RETARGET remains an OPEN hypothesis about reuse of expertise under changed purpose. | docs/theory/DECISION_TRACES.md section 6; filed errata E02h-E02j | written |
+| S9T.2 | Director-familiarity excerpt supplied in the 2026-09-07 errata: felt recognition can itself demand assessment. Recording date not independently supplied; applied 2026-09-09. | HH-FAMILIARITY remains OPEN, with accuracy and calibration unvalidated. | docs/theory/READER_HEURISTICS.md section 2; filed errata E02b/E02d/E02e | written |
+| S9T.1 | Painter/restorer excerpt supplied in the 2026-09-07 errata: criticism can propose a better means to the maker's inferred goal. Recording date not independently supplied; applied 2026-09-09. | HH-CRITIC remains OPEN; local improvement, production ability and historical reconstruction distinguished. Only the missing sentence break after generator repaired. | docs/theory/READER_HEURISTICS.md section 2; filed errata E02a/E02d/E02e | written |
+| S9.6 | Audio status request, 2026-09-09: requested queue health, stage progress, pace, completion ETA and timing of the next judgment call; explicitly reaffirmed Gear 2 and continuing the existing work. | Current queue and schedule report separates healthy apparatus from unlaunched science, records the missed planned pace and pending prelaunch allowance/schedule decision; no new hypothesis, scope, cap or clock change. | CURRENT_STATUS.md; docs/design/STAGE9_FORECAST_REVIEW.md; .agent-state/stage9-current-report-20260909-v22.json | written |
+| S9.5 | Direct curator instruction, 2026-09-08: "Let's shift into gear two and run at full speed with nothing paused, please. Let's kick it into processing for the week, now." | Gear 2 and GPU availability restored in actual scheduler allocation; final scientific workload and launch acceptance still owed. Original campaign record retained. | CURRENT_STATUS.md; docs/STATE.md; ALLOCATION.json; .agent-state/stage9-gear2-restoration-20260908.json | written |
+| S9.4 | Direct curator instruction, 2026-09-07: "Keep us in gear one for now, by the way." | Gear 1 becomes the current allocation; further GPU jobs pause, CPU implementation continues, no automatic Gear 2 return. Last model job had already exited cleanly; no interruption. Original campaign clock retained. | docs/STATE.md; TODO.md; README.md; .agent-state/stage9-gear1-availability.json | written |
+| S9.1 | Current audio-transcribed instruction: inspect requirements/theory, implement Stage 9 unless a critical design decision remains, then run Gear 2 for the coming week | Stage 9 implementation and discarded pilots; approximately 120-hour planning horizon under the supplied brief; scientific launch acceptance remains owed | docs/design/PHASE_2_4_STAGE_9_CONTEXT.md; docs/STATE.md; runners/stage9/ | planned |
+| S9.2 | Supplied specification section 2 reconstructs immediate coherence, prospective execution, familiar recognition, transferable means and changed purpose as live distinctions | Separate competence, maker, transfer and selection questions; familiarity retained as an entry hypothesis instead of requiring surprise | Stage 9 cards C01-C08, M01-M06, T01-T06, S01-S04 in the supplied specification | planned |
+| S9.3 | Supplied specification section 10 requests extended scenes with multiple cases the curator can modify, combine or reject | Difficult-followup format added to the existing curator-first loop; reconstructed wording explicitly distinguished from quotations | AGENTS.md | written |
+
 ## Session 01 — ten artifacts read blind, 2026-08-03
 
 | # | What he said | What it produced | Where | Status |

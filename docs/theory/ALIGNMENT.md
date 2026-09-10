@@ -27,10 +27,11 @@
 > people that we're fighting against. They have always been the villains of this world that we
 > live in.
 
-**The largest claim this project makes.** The standard framing, learn human values then optimise
-them, is the one the impossibility results bite, because it must act on an estimate while the
-estimate is wrong. **Here the imprecision is a term in the objective rather than a defect the design
-tolerates.**
+**The alignment proposal is to retain uncertainty about human values while acting.**
+Unrestricted reward and planner inference is not uniquely identifiable; useful narrowing
+requires substantive assumptions, as stated in `THE_TRIPLE_INFERENCE.md` §7. That limit
+also applies to this proposal. Representing uncertainty makes it available to a decision
+rule; it does not by itself produce a correct rule or protection from misspecification.
 
 **Anti-capture is an untested proposal.** An objective retaining uncertainty and action might
 favor broader evidence about human values. Its reference population, sampling, aggregation,
@@ -43,14 +44,15 @@ breadth follows from uncertainty alone; §3 retains the live failure cases.
 tested.** That is deliberate rather than neglectful. **We are solving the near problems before the far
 ones**, on the expectation that we arrive at this one holding more pieces than we do now.
 
-**The first piece is the one being built.** Collecting value data by reverse-engineering it,
-**laddering up from intent to process to values**, is the project's current best bet for how any of
-this gets grounded, and it is the whole of the rest of this folder. **It genuinely might be the
-answer.**
+**The upstream piece is the reconstruction instrument.** Its present task is to recover
+recorded choices through jointly constrained models of goal, process, and maker context.
+Persistent value inference requires further evidence and remains gated. This is not a
+fixed serial algorithm that first finishes intent, then process, then values.
 
-**What this file is for is the shape from a distance**, so we know what parts we need to arrive with.
-Nothing here has been searched or simulated, and the next honest step is one or two simulations rather
-than an argument.
+This file retains the candidate objective and its failure conditions. It includes
+foraging measurements and a limited recreation record; the full alignment objective has
+not been validated. Neither those upstream results nor a formal clarification wakes an
+alignment program. The existing dormancy rule below controls that decision.
 
 **Dormancy ruling (2026-08-09, the program pass).** This file is formally dormant. It retains the
 failure conditions as a boundary specification and no alignment experiments are engineered against
@@ -62,7 +64,7 @@ this file is premature by the project's own sequencing.
 
 ---
 
-## §0. You can only route attention onto values you possess
+## §0. Different motivations can produce the same action
 
 *(Moved from the architecture file 2026-08-09. It is a values question, and it belongs with the
 alignment consequence.)*
@@ -84,19 +86,28 @@ recoverability guarantee or a bootstrap constraint derived from motivational abs
 
 ## §1. The core claim: one objective, two terms
 
-**Active inference minimises expected free energy, and that quantity decomposes into exactly two
-terms:**
+An expected-free-energy formulation can express policy evaluation through contributions
+from preferred outcomes and expected information gain, under its declared model and
+approximation assumptions. Other decompositions are possible; the epistemic contribution
+is not automatically a measure of human empathy or recovered values.
 
-    epistemic value    reduce uncertainty about the world   ->  the empathy / value-extraction half
-    pragmatic value    bring about preferred outcomes       ->  the acting-on-values half
+    epistemic contribution   expected information gained under the model
+    pragmatic contribution   preferred outcomes under the model
+
+Mapping these quantities to human value inquiry and useful action is this project's
+proposal. It still requires a model, target population, preferences, and a rule for how
+the terms influence action. A defensible balance is not established by naming surprise
+minimization. ([Millidge, Tschantz, and Buckley](https://arxiv.org/html/2004.08128v5),
+§3 and Appendix 10 read; their derivation explicitly states the posterior approximation.)
 
 **Neither term alone is an alignment proposal.**
 
 - **Epistemic value alone** can motivate consequential action to acquire information. It does
   not guarantee safety or useful pursuit of human ends; an unbalanced information-maximiser
   can have an incentive to experiment on people.
-- **Pragmatic value alone** is the standard framing, learn *W* then maximise it. **That is the one
-  the impossibility results bite.**
+- **Pragmatic value alone** does not solve uncertainty about whose preferences are
+  represented or whether they were inferred correctly. Adding an epistemic term does not
+  remove those inference and specification problems.
 
 Together they define the desired objective family, but the governor is not supplied by surprise
 minimization alone. The intended behavior is for epistemic pressure to dominate when the value
@@ -104,9 +115,8 @@ estimate is poor and pragmatic pressure to rise as the estimate improves. How th
 learns that balance is an unsolved design problem and a possible location where the original
 alignment problem reappears.
 
-**Superseded** by his own reading of the research, kept as the original form:
-
-> **The balance is not a safety constraint bolted on. It falls out of surprise minimisation.**
+**Superseded:** the earlier automatic-balance claim is withdrawn by the curator's
+correction below. How the balance is supplied remains an open design problem.
 
 > Upon looking at the research, the balance does apparently not fall out of surprise minimization.
 > **It is a scalar that is adjusted by the model in question.** And that's the kind of future
@@ -115,27 +125,29 @@ alignment problem reappears.
 > it needs recasting as some established psychosis that we can then harvest for information.
 > Nothing comes to mind, though. I can't imagine how it would present, practically speaking.
 
-**And this is why the limit framing in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §7 is
-load-bearing rather than a hedge.** Values are approached through inference with error and never
-certainly attained. **A design that represents uncertainty need not assume certainty before acting.
-Whether its objective is correctly specified remains open at every point along the way.**
+The narrowing claim in `THE_TRIPLE_INFERENCE.md` §7 is relevant here: value estimates
+can improve under substantive assumptions while remaining fallible. A system need not
+assume certainty before acting. Whether its uncertainty estimates, objective, and action
+rule are appropriate remains open.
 
 ## §2. How this differs from the proposals it sits next to
 
-    standard    terminal value = W, the human value function. Learn W, then maximise it
-    this        terminal value = the balanced sum. There is no "then"
-
-Every alignment scheme whose terminal value is *W* has to survive the gap between the estimate and the
-truth. **It must act while the estimate is wrong, and the gap is where the failure modes live.**
+The intended distinction is that inquiry remains part of the objective during action.
+Whether this yields a useful difference from existing uncertainty-aware approaches is an
+open comparison, not an established novelty claim. The proposal must address the same
+possibility of a wrong model, inappropriate preferences, or mispriced information.
 
 > **A system whose terminal value includes the approach has no gap to fall into. Being wrong about W
 > is not a failure state, it is the normal operating condition, and what it optimises is the reduction
 > of that wrongness.**
 
-**Corrigibility and deference are different animals too.** Those are constraints *on top of* an
-objective, while **this makes the balance itself the objective.**
+The quotation states the intended advantage. It does not establish that a system cannot
+be wrong about what to inquire into, how to represent people, or which outcomes to seek.
+The failure modes in §4 still apply. Comparison with corrigibility, deference, and
+assistance-game objectives remains to be made at the level of actual models; it cannot
+be settled by describing them all as constraints added to an otherwise fixed objective.
 
-## §3. The anti-capture argument, which falls out of the same structure
+## §3. The proposed anti-capture mechanism
 
 > This inherently means you have to **weight it across the breadth of humanity**, because you need
 > more information. It prevents assholes like rich people from giving their local values, **because it
@@ -188,18 +200,14 @@ the thing. We have watched that happen ten times at small scale.**
 
 ## §5. Why this belongs in this repository
 
-The project's stated goal has always been **detect depth → give AI empathy → extract values**, with a
-fourth step that was a label rather than a mechanism. Active inference supplies the link:
+The proposed connection is conditional: a calibrated reconstruction instrument could
+supply observations and uncertainty estimates to an objective that combines inquiry and
+action. The current instrument aims to recover recorded choices and model their goal
+and process dependencies. It does not yet provide reliable human value posteriors.
 
-    detect depth  ->  give AI empathy  ->  extract values  ->  OPTIMALLY DEFINED BEHAVIOUR
-
-**The same formalism that describes the extraction also describes what to do with it**, and the two are
-terms in one objective rather than two systems bolted together.
-
-**And the connection is mechanical, not rhetorical.** The instrument this project is building *is* the
-seeking apparatus. It reads artifacts to recover a maker's goals, process and values, and improves
-with more and more varied evidence. **If that instrument worked, it would be the component this
-proposal requires, the part that does the approaching.**
+If successful, such an instrument could supply part of the seeking apparatus. It would
+not determine the target population, aggregation, pragmatic preferences, or action
+policy by itself. Those remain design questions under the existing dormancy rule.
 
 > Fully aligned AI would be able to produce human invertible artifacts easily. And I would in fact
 > even expect them to juice this idea up. They'd be able to, if they knew this human trick that we
@@ -215,41 +223,41 @@ exposing the mechanism that actually produced the choice.
 
 ## §6. Hypotheses
 
-**Every row is unsearched. That is the point of the file and also its largest weakness.**
+**The alignment objective remains unvalidated and dormant.** The foraging rows and
+recreation appendix have evidence of their own. Limited formal source checks do not
+constitute a completed comparison with neighboring alignment proposals.
 
 | # | hypothesis | status |
 |---|---|---|
-| **AL-1** | Making the terminal value the *balanced sum* avoids the failure mode that bites "learn W then maximise W" | **OPEN, unsearched.** Nearest literatures are assistance games, cooperative IRL, value learning under uncertainty, and active preference elicitation. **None fetched.** He has since said he believes most components are already occupied |
+| **AL-1** | Making the terminal value the *balanced sum* avoids the failure mode that bites "learn W then maximise W" | **OPEN.** The specific benefit over other uncertainty-aware objectives is unestablished. A full comparison with assistance games, cooperative IRL, and active preference elicitation remains incomplete; the formal scope checks and appendix recreations do not establish novelty or safety |
 | **AL-2** | Epistemic value alone guarantees safety through inaction | **REJECTED as an analyst inference.** Information seeking can itself be consequential action; usefulness and safety do not follow from this objective alone |
-| **AL-3** | An unbalanced information-maximiser has an incentive to experiment on people | **OPEN.** Failure mode 1, and **not answerable by a side-constraint**, since side-constraints are what this design exists to avoid needing |
+| **AL-3** | An unbalanced information-maximiser has an incentive to experiment on people | **OPEN.** Failure mode 1. No demonstrated control is supplied here; whether it is addressed by the objective, additional constraints, or another design remains open |
 | **AL-4** | Making humans easier to read lowers uncertainty, so manipulation is *closer* under a naive reading | **OPEN, and the one to take most seriously.** **Same structure as this project's own recurring error**, an instrument that optimises a proxy destroying the thing. We have watched it happen ten times at small scale |
-| **AL-5** | Retaining uncertainty and action creates pressure for evidence broad enough to resist capture | **OPEN, unsearched.** Reference population, sampling, aggregation, and the weighting governor are unspecified; no protection or breadth guarantee follows yet |
+| **AL-5** | Retaining uncertainty and action creates pressure for evidence broad enough to resist capture | **OPEN; no derived or tested protection.** Reference population, sampling, aggregation, and the weighting governor are unspecified; no protection or breadth guarantee follows yet |
 | **AL-6** | Residual uncertainty grows under population narrowing, in a toy model | **OPEN.** Formal, and the parent simulation is the right environment. The only row here that could be settled without a literature pass |
 | **F01-S5** | A reader's examination choice follows learning progress or reducible structure rather than novelty, complexity, or raw error | **REVERSED for this reader (test, L275), 96 sets.** Rank correlation with learning progress −0.38 and reducible structure −0.38; it examines the item whose rule is already stated first and the learnable one last; on two readers learning progress −0.34, the same order (L305) |
 | **F02-S5** | The reader's selection realizes more held-out gain per cost than raw-signal policies | **NO BETTER THAN RANDOM (test, L276), 96 sets.** 0.28 against 0.29 random, 0.04 novelty, 0.00 surprise, 0.97 for the exact learning-progress policy; on two readers 0.12 against 0.22 novelty and 0.26 learning progress (L306) |
 | **F03-S5** | The reader pursues a hoped-for explanation beyond its warrant, and a counter-bias prompt removes the excess | **NO EXCESS (test, L277), 96 worlds.** Pursuit minus warrant 0.00 on incongruent worlds; the counter-bias prompt lowers pursuit 0.11 to 0.14 below warrant in every cell; on two readers +0.01 and 0.06 to 0.07 (L307) |
 | **AL-7** | The reconstruction instrument can become both the seeking apparatus and a reciprocal human-invertibility interface | **OPEN.** Upstream choice/process recovery is still gated; artifact legibility must be separated from causal transparency, and no alignment work wakes until the existing conditions hold. It is why this file lives in this repository rather than in a notebook |
 
-**What these add up to.** **The alignment proposal remains untested and dormant; its safety-through-inaction
-argument is withdrawn on logical grounds**; the three foraging rows under them are the first numbers the epistemic
-term has, and they say that a small reader's own epistemic appetite is for the familiar: it examines
-what it has been told, gains what a coin flip gains, and shows no pull toward a hoped-for answer,
-while the exact learning-progress policy it does not implement would triple its gain (F01-S5 to
-F03-S5), so the objective's epistemic term is well defined as a ruler and absent as a drive in the
-reader at hand. The seven rows are not independent. AL-1 is the claim; AL-2 withdraws an unsupported guarantee, AL-3 and AL-4 retain
-risks, AL-5 requires a population and governance account, and AL-6 and AL-7 name possible build
-components rather than licenses to start them. **The ordering that matters is that AL-4 is cheap to reason about and fatal if
-right, while AL-1 needs a literature sweep before it can even be stated as novel.** Do AL-4 first.
-**A proposal that dies to its own second failure mode does not need a priority search.**
-**Confidence: the alignment rows untested, logic only, by design and by declared distance; the
-foraging rows one bad test away, two readers, one construction.**
+**What these add up to.** The alignment objective remains untested and dormant. Its
+intended balance between inquiry and action is a design proposal, and neither safety,
+resistance to capture, nor a correctly specified population follows from it (AL-1 to
+AL-7). The foraging rows measure specific small-reader choices: those readers do not
+reliably select the available learning opportunity or realize its available gain
+(F01-S5 to F03-S5). This does not show that every epistemic drive is absent, and their
+numbers do not validate the full alignment objective. The appendix supplies scoped
+recreations rather than a working solution. The current upstream wake conditions still
+apply; no new alignment experiment follows from this maintenance pass.
+Confidence: untested, logic only for the alignment proposal and protection claims;
+one bad test away for the foraging measurements, two readers in one construction.
 
 ---
 
 **The one thing to preserve if everything else is superseded:** *the terminal value is neither the
 seeking nor the thing sought. It is the balanced sum of both, with the balance itself a quantity
-to be engineered rather than assumed. The imprecision is not a problem the design tolerates; it is
-the term that makes the design work.*
+to be engineered rather than assumed. The proposal makes imprecision part of what the system responds to;
+how that yields useful, safe behavior remains to be established.*
 
 ---
 

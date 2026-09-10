@@ -80,8 +80,9 @@ region")*:
 
 *2026-08-30 assessment; spoken wording lightly reconstructed.*
 
-A proximal goal is a locally governing control target selected under values, drives, context,
-expertise, and attention; its effects can be expressed through every functional level. Other
+A proximal goal is the governing purpose of the artifact or declared episode, selected
+under values, drives, context, expertise, and attention. Its effects can be expressed
+through every functional level, while focal control may pursue a subordinate goal. Other
 motivations may remain as maintained intentions or learned constraints without governing focal
 control. Goal is therefore not a fourth address, but neither is it identical to the attention
 allocated while pursuing it.
@@ -141,11 +142,12 @@ the example.*
 
 *2026-09-04 walkthrough; lightly cleaned transcript.*
 
-Expertise is the precondition for seeing the maker: without the standard process a reader has nothing
-to be surprised by. The child's-drawing case sits in tension with the essay's account of where
-interest lives, since there the interesting things are the child's own expressions read by a
-reader whose expertise is in the child rather than in drawing; the tension is recorded OPEN and is the
-curator's to resolve.
+Domain expertise is proposed to improve the expectations a reader can bring to a maker's
+choices. Individual familiarity may provide a different entry route, including recognition
+without an initial anomaly. The child's-drawing case therefore keeps a live question about
+how expertise in a domain and expertise in a person interact; it is not resolved by calling
+all familiarity domain competence. Neither route guarantees reconstruction. The director
+walkthrough's familiarity account is canonical in `READER_HEURISTICS.md` §2.
 
 Expertise is the maker's learned transition model, the structure through which all three
 functional levels can constrain action; a realized process is one path through it, and neither
@@ -162,8 +164,9 @@ reshape the later transition model, which is the sense in which a maker becomes 
 Goal selection and attention allocation remain distinct operations: the same attended material
 can produce different expertise, and the same expertise can later direct attention away from
 the current goal; a background concern can deform the reachable trajectories without becoming
-the focal goal, and when attention promotes it, it becomes an active proximal goal while
-automaticity pre-solves lower-level control so focal attention can operate elsewhere. The
+the focal control target. When it receives attention it may become an active subordinate
+goal; whether it also changes the artifact's governing purpose is a separate question.
+Automaticity can make lower levels of control cheap enough for attention to operate elsewhere. The
 formation hypothesis is circular unless attention is measured independently of its later
 effect on expertise. Calling expertise "compiled decision structure" (the 2026-08-21 pass)
 describes its formation history, not intact storage of past decisions. The functional object
@@ -215,39 +218,31 @@ focal control, not a frozen mechanism.
 |   | | *(this row's history is NARROWED on the Stage-6 block, L316 and L322, then voided by the 2026-09-02 dependency audit, L330)* |
 | **A-S6** | A bounded reader reads the discriminating event on constructed makers whose expertise history (a practiced skill) or current goal governs it, and reads dated history as such | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event and changed-context reads inherit the common predictor's privileged state; the dated-history contrast does not validate the rest of the family; no Stage 6 attention-history, expertise-versus-goal, or changed-context inference is licensed; the reader-free construction fact stands: dated-versus-shuffled history separates nowhere at scale on the exact layer (−0.03 [−0.15, +0.10] on 1248 fresh units, A13/x5, CLEAN) |
 |   | | *(this row's history is SPLIT on the Stage-6 block, L315 to L325, then voided by the 2026-09-02 dependency audit, L330)* |
-| **E-S7** | Expertise is a cross-episode record a reader can use: the transition model carried in the maker's earlier work informs the reading of a new episode | **SUPPORTED for the law, NARROWED for the state (test, L342, L345).** The law fitted by likelihood from three earlier episodes transfers to an untouched one at the oracle's level (+0.64 [+0.22, +1.12] over the domain model), and one reader proposes it usably from the same demonstrations with every other factor supplied (+0.56); with two episodes in view and nothing supplied, the reader that fails cold fails the same (1.75 nats [0.4, 3.4] under the domain model) while committing on every world, so the demonstrations carry the law and not the belief, goal, or residue |
+| **E-S7** | Expertise is a cross-episode record a reader can use: the transition model carried in the maker's earlier work informs the reading of a new episode | **SUPPORTED for the law, NARROWED for the state (test, L342, L345).** The law fitted by likelihood from three earlier episodes transfers to an untouched one at the oracle's level (+0.64 [+0.22, +1.12] over the domain model), and one reader proposes it usably from the same demonstrations with every other factor supplied (+0.56); with two episodes in view and nothing supplied, the reader that fails cold fails the same (1.75 nats [0.4, 3.4] under the domain model) while committing on every world, so these interfaces demonstrate law recovery without demonstrating recovery and use of the remaining state; they do not establish that belief, goal, or residue information is absent |
 | **V-S7** | A trained automatic capture (a compiled habit) is separable from a current costly redirection (a present goal that opposes it) in a maker's visible record | **NARROWED (test, L354), 40 worlds crossed.** The joint reader names the habit on 56 percent of worlds (the most nameable withheld factor of the run) and the goal on 24, and its executed pairs sit under the domain model where the goal opposes the habit (−0.37 [−0.73, −0.02] pooled) and where it does not (−0.33 [−0.82, +0.07]) alike, so the compiled record shows through the prefix and the redirection is not read; with context and competence matched and only the present goal withheld (V02), the goal is worth half a nat to the oracle and the reader's proposed goal is worth less than none (−0.33 [−0.59, −0.09] against a solver that averages the four standard goals); with the law and the goal both withheld and a lagging expertise crossed against the present goal (V03), the reader names neither (law recall 0 on both readers, the goal on 3 and 25 percent of worlds) and its committed pairs cost 0.77 [0.13, 1.39] nats against the domain model where the expertise opposes the goal and 0.45 where they align, so the lagging expertise is invisible to a prefix reader and the conflict shows only in the arm's error; on a dated series under a drifting law a mixture over the dates and a forced point date predict the present episode alike (V04, −0.01 [−0.09, +0.07], programs only), the mixture's mass two thirds on the present-law episodes; for a held-out later episode the dated series, the ordered undated series, and an aggregate profile of the earlier episodes predict alike (V05, valid nulls: order over aggregate +0.04 [−0.03, +0.12], dates over order +0.00), so the earlier episodes' order and dates carry nothing their aggregate does not at this drift; for a later costly choice the dated trajectory carries the law (+0.42 [+0.05, +0.84] over the domain model, +0.48 over the solver without it) and nothing beyond the aggregate (V06, +0.05 [−0.02, +0.11]) |
 
-**What the table says.** The scaffold itself is theory, and its surviving content is about
-expertise rather than about any reader: expertise is the transition model through which the
-levels constrain action, repetition reshapes it, consolidation compresses the record of prior
-attention and choice into it, and interference corrupts that record; a reader may bring
-expertise of its own, and what it must infer on the spot is the proximal goal. The scaffold's
-one adopted position (a proximal goal as the currently governing local control target,
-expressed through every level; goal, attention, and expertise distinct but coupled, no pair
-identical) and its one testable sharpening (late blocks making expertise more decodable, with
-no single anatomical address claimed) have never been run, and every affect reading the
-project has produced is blind to positive affect except where it leaks through seeking, play,
-or care, with the two positive-affect rows held as candidate modelings rather than an
-exhaustive pair. The expertise-formation account is logic only. The two Stage-6 rows are void
-as reader evidence: their numbers were produced through a realizer that read the hidden world
-(C-S6, A-S6), and what survives of them is construction fact, that the four control candidates
-can be built to share endpoints and differ in order, that the strict switcher leaves more
-hanging writes than concurrent control, and that dated-versus-shuffled history separates
-nothing at scale on the exact layer. The serial-switching candidate therefore stays a candidate
-discriminated by construction and by no reader; whether any reader recovers a control or
-history factor behind a boundary it cannot cross is asked again in Stage 7 (K11 to K13, V01 to
-V06). The first of those answers is in (V-S7, L354): the compiled habit is the one withheld factor
-a reader names on half the worlds, and the present goal that would override it is not named, so
-the record shows through the prefix and the redirection does not. The cross-episode claim has its first exact-layer measurement (E-S7): the law is in the
-maker's earlier episodes and transfers, a program recovers it at the oracle's level and one
-small reader proposes it usably, and that is all the earlier episodes carry, since the same
-demonstrations do not rescue a reader that fails on the belief, the goal, and the residue
-cold. The walkthrough adds the precondition the scaffold had left implicit: seeing the maker requires
-the expertise to run the standard process first, which Stage 8 installs by training and gates before
-any reading claim, with the child's-drawing tension left open. Confidence: untested, logic only, for the scaffold and the formation account; the two
-construction facts are exact-layer facts on one construction family; the Stage 6 reader
-instrument is instrument-dead.
+**What the table says.** The scaffold proposes expertise as a learned transition model
+through which different functional levels constrain action. Its formation from past
+attention and choice, transformed by consolidation and interference, remains a hypothesis.
+The governing purpose, subordinate control targets, attention, and expertise are coupled
+but not identical. The late-weighting and positive-affect proposals remain untested in
+their stated forms; the two positive-affect candidates are not an exhaustive account.
+
+The Stage 6 control and history reader claims are void because their realizer used hidden
+world information. The independently reader-free construction comparisons remain scoped
+facts about those constructions (C-S6, A-S6). Stage 7 demonstrates law transfer through a
+program and a limited reader proposal with the other factors supplied. Its failure to
+recover the complete cold state does not prove the demonstrations contain only law
+information (E-S7). The habit/redirection and dated-history results retain their measured
+construction scope; they do not identify a general human learning mechanism (V-S7).
+
+Domain competence and maker familiarity remain potentially interacting sources of useful
+expectations. Stage 8 passed prediction and failed generation, so the proposed complete
+expertise prerequisite has not been installed and demonstrated by admission. Recognition
+without an anomaly is a candidate entry route, and the relation between domain expertise
+and knowledge of an individual remains open. Confidence: untested, logic only for the
+scaffold, formation account, and universal prerequisite; one bad test away for the scoped
+Stage 7 and Stage 8 measurements; instrument-dead for the Stage 6 reader interpretations.
 
 On mirror systems *(the 2026-08-22 pass)*:
 
@@ -410,17 +405,10 @@ simulation mechanism; untested, logic only for transfer to real artifacts.
 | **G36** | Some recovered components will be unnameable | **OPEN**, behind a working count instrument |
 | **L8 / L9** | Our own two counting attempts | **VOID / INSTRUMENT DEAD (L8/L9/L15).** A criterion that returned components from noise, then a rebuilt instrument with four confirmed defects. This project holds no count of its own |
 
-On the former count heuristic *(the 2026-08-22 pass; superseded in scope 2026-08-24)*:
-
-> When I say 27, I am treating that as a soft upper bound, not anything precise. I do not know how
-> they came up with it, but they certainly did not use Panksepp's method. If they arrived at it
-> behaviorally, they probably also captured some cortical, Barrett-style emotions.
-
-**Supersession note.** The quotation is retained as the historical source of G35. Its live
-disposition is withdrawn. The current theory holds no soft ceiling near 27 and does not treat a
-behavioral language taxonomy as a candidate subcortical inventory. The working candidate basis
-may be closer in kind to Panksepp's functional systems, but neither seven nor any other count is
-licensed as the natural dimensionality.
+**Superseded:** the former soft ceiling near 27 is withdrawn, including as a basis-design
+heuristic (G35). A language taxonomy may be an explicitly scoped comparator; it is not a
+candidate subcortical inventory or a natural emotion count. The working Panksepp vocabulary
+remains a theory-derived candidate, with no privileged dimensionality established.
 
 **What the table says.** Conserved subcortical affective control machinery has strong published
 support, while no component count has privileged standing here. Panksepp's seven were not derived

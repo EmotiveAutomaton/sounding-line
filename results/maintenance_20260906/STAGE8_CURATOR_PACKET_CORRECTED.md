@@ -40,7 +40,7 @@ Rows compare the same reader's goal objects in G05 (96 worlds), execution in the
 | Qwen2.5-1.5B | 0.354 / 0.594 | -0.0867 [-0.1198, -0.0532]; n=327 | -0.0103 [-0.0957, +0.0681]; n=66 | 0.000 |
 | SmolLM2-1.7B | 0.552 / 0.698 | -0.0581 [-0.0879, -0.0292]; n=327 | -0.1113 [-0.1981, -0.0333]; n=66 | 0.222 |
 
-Pull recall is easier in this construction; it does not decide which goal ontology the curator should adopt. Proposed purposes hurt whole-log prediction. Equivalence failed on both readers. The meaning-change control did not establish meaning-sensitive purpose recovery.
+Pull recall is easier in this construction; it does not decide which goal ontology the curator should adopt. Proposed purposes hurt whole-log prediction. Equivalence failed on both readers. The declared rendering crossover failed; the action-type swap did not validate a newly correct purpose, so it does not establish semantic insensitivity (L365, interpretation corrected during Stage 9 preparation).
 
 ### Accumulation
 
@@ -68,13 +68,13 @@ Law and residue recall in A02 do not rise with earlier artifacts (three and four
 
 ### Testbed
 
-The completed catalog records 17 repositories, seven available corpus manifests of ten, and three cheap-baseline reproductions of seven. Availability is not permission to rehost or start corpus studies. License and access details remain in docs/TOOLS.md and the original catalog/manifest receipts; B04's zero counts were stale. No reference checkout was edited during this repair.
+**Stage 9 inheritance correction, 2026-09-06.** The completed catalog records 17 pinned repository records, seven available corpus manifests of ten, and three inventory measurements of seven attempted baseline entries. These do not reproduce predictive baselines. CoAuthor's 690 discovery-lane sessions are not the published 1,445-session total; ArgRewrite counted files and ScholaWrite counted grouped sessions. Minimal invented loader fixtures do not establish readiness on real released schemas. Availability is not permission to rehost. License and access details remain in docs/TOOLS.md and the original catalog/manifest receipts; B04's zero counts were stale. Original numeric evidence is preserved. No reference checkout was edited during this repair.
 
 ### Four executive answers
 
 1. Can the reader make? Neither trained reader passed generation, despite passing prediction.
 2. Does it look in the right places? As diagnosis, surprise is anti-aligned with maker divergences; the larger localization sample remains below the domain model. An admitted expert was not tested.
-3. Does it recover purpose and use it? Recall is partial, equivalence and meaning sensitivity fail, and executing the proposed purpose hurts whole-log prediction.
+3. Does it recover purpose and use it? Recall is partial, equivalence and the declared rendering crossover fail, and executing the proposed purpose hurts whole-log prediction. The rendering test did not validate a changed correct purpose.
 4. Does the maker accumulate? One small diagnostic gain appears on Qwen, without monotonicity or above-domain recovery; law/residue recall and maker-model prediction do not establish the proposed accumulation.
 
 ### The requested verbal walkthrough

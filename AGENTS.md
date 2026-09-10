@@ -241,6 +241,14 @@ the strongest account, distinguish his statements from analyst additions and lit
 challenge narrowly, and produce one operational handoff. Do not ask him to choose code
 architecture or statistical knobs, or treat an analyst proposal as curator ratification.
 
+**Stage 9 difficult-followup format (curator-supplied specification, 2026-09-06):**
+when a result requires another substantive discussion, use an extended concrete scene
+with several cases the curator can modify, combine or reject. Keep the evidence and
+live tension visible without forcing a choice among polished theoretical answers.
+Distinguish the specification's analyst reconstruction of the earlier walkthrough
+from a verbatim curator transcript. This elaborates the example-led format; routine
+implementation remains agent-owned and the theory-change interrupt still applies.
+
 ## Rules for the record itself
 
 **`FINDINGS.md` has two tiers.** Tier 1 is the full write-up. **An item moves to tier 2 when he has

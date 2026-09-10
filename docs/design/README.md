@@ -7,11 +7,19 @@ for one thing we intend to build, dormant until that build is scheduled, and the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
 the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-## Current orientation (2026-08-23)
+## Current orientation (2026-09-09)
 
 - **Layout rule (2026-08-23, the curator's):** the current phase's documents live at this
   folder's top level; closed phases move whole into [`archive/`](archive/), never deleted,
   with every repository reference rewritten at the move.
+- **Active stage:** [Stage 9](PHASE_2_4_STAGE_9_CONTEXT.md), commissioned 2026-09-06.
+  Gear 2 is selected; implementation and launch integration remain unfinished and
+  scientific processing has not launched. [Scheduling review](STAGE9_FORECAST_REVIEW.md)
+  records the resource conflict and existing measurements, not a new deadline.
+  [Current status](../../CURRENT_STATUS.md) is the short operational handoff.
+- **Latest theory maintenance:** the [2026-09-07 errata](archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md)
+  was applied to the current theory on 2026-09-09, preserving intervening corrections.
+  Its archived package is provenance; it does not close Stage 9 or change scientific gates.
 - **Current phase:** [`PHASE_2_4_CONTEXT.md`](PHASE_2_4_CONTEXT.md) with
   [`PHASE_2_4_EXPLORATION_ADDENDUM.md`](PHASE_2_4_EXPLORATION_ADDENDUM.md) (ratified
   2026-08-22, continuous second gear); live registry
@@ -46,6 +54,9 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 | file | status | read it for |
 |---|---|---|
+| [PHASE_2_4_STAGE_9_CONTEXT.md](PHASE_2_4_STAGE_9_CONTEXT.md) | **OPERATIVE; IMPLEMENTATION INCOMPLETE** | the commissioned Stage 9 questions, gates, resource ceiling and final packet contract; moved without changing its bytes |
+| [STAGE9_FORECAST_REVIEW.md](STAGE9_FORECAST_REVIEW.md) | **OPERATIVE scheduling record** | existing runtime measurements, assumptions and unresolved resource constraints; no new scientific authority |
+| [archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md](archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR; APPLIED 2026-09-09** | the exact theory and quotation maintenance package; implementation recorded in FINDINGS under theory/documentation maintenance |
 | [`PHASE_2_4_CONTEXT.md`](PHASE_2_4_CONTEXT.md) | **OPERATIVE** | shared-architecture inversion and affective-prior engineering: G172-G180, claim ladder, rival worlds, the flight standard |
 | [`PHASE_2_4_EXPLORATION_ADDENDUM.md`](PHASE_2_4_EXPLORATION_ADDENDUM.md) | **OPERATIVE** | the two-lane discipline: confirmatory trunk vs discovery forest, automatic branch policy, closure rules |
 | [`PHASE_2_4_REGISTRY.md`](PHASE_2_4_REGISTRY.md) | **OPERATIVE** | the live 2.4 registry: root states, scout registry, firewall, and the 2.3 closure dispositions |

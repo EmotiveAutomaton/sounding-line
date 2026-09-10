@@ -129,7 +129,8 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None):
     if config.get("remote"):
         cmd += ["--remote", config["remote"]]
     try:
-        result = runner(cmd, cwd=repo, capture_output=True, text=True, timeout=45)
+        result = runner(cmd, cwd=repo, capture_output=True, text=True, timeout=45,
+                        creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
         match = re.search(r"Queued message ([0-9a-f-]+) for thread ([0-9a-f-]+)", result.stdout)
         if result.returncode == 0 and match and match[2] == owner:
             status, queue_id, error = "queued", match[1], None

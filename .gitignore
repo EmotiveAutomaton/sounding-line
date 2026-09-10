@@ -82,3 +82,10 @@ results/**/adapters/*/epoch*/
 
 # Machine-specific sandbox boundary is installed locally from Agent Core.
 .codex/config.toml
+
+# Stage 9 source bytes, prepared evidence/truth and model checkpoints stay private.
+results/phase_2_4_stage_9/private/
+results/phase_2_4_stage_9/**/checkpoint-*/
+results/phase_2_4_stage_9/capsules/
+# This original pilot receipt embeds excluded corpus cases; publish its hash-only export.
+results/phase_2_4_stage_9/pilot/ITERATER_STUDY_HANDLER_PILOT.json

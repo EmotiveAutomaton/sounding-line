@@ -1,0 +1,17 @@
+{
+  "returncode": 1,
+  "wall_seconds": 2.022411699872464,
+  "log": ".agent-state\\stage9-disposition-tests-v1.log",
+  "checked_at": "2026-09-08T00:53:03.413353+00:00",
+  "disposition": "IMPLEMENTATION VALIDATION BLOCKED",
+  "reason": "Four fixture setups could not access the existing Windows pytest temporary directory; affected tests did not execute. Existing pytest cache was also not writable.",
+  "log_sha256": "a8297f926db24ba40a04d0be9c670707f998d33a2a53d08f58dc4046cfbddaa6",
+  "sources": {
+    "runners/stage9/disposition_jobs.py": "094fc8bc8257f1e58bbbd2d0031eeb7eef53ab5062362db8f418790f69d85022",
+    "runners/stage9/launch.py": "40c1b8ea69c1efac0946c1944c624f3928bc1a379aeeea0148b40a27248d043e",
+    "tests/test_stage9_disposition_jobs.py": "f2fadc7a8f162d9e2b217c9f299c2f806c4f0042302fb0121c231744e669346d"
+  },
+  "gpu_seconds": 0,
+  "scientific_launch_accepted": false,
+  "remedy": "Use a fresh project-local temporary directory and disable pytest cache; no permission weakening or production change."
+}

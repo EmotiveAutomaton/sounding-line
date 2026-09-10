@@ -210,6 +210,51 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 | instrument | what it is | state |
 |---|---|---|
+| Repository checkpoint validation | Full pytest collection plus corrected temporary-root rerun and standalone guards | 1,811 cases pass across initial and targeted invocations; 30 Stage 7/22 Stage 8 guards, 21 locks and linters pass. Original directory refusal retained; private-case publication export verified. results/phase_2_4_stage_9/pilot/REPOSITORY_CHECKPOINT_VALIDATION_20260910.json. |
+| Current queue liveness | Native watcher, terminal and source/workload inspection | Healthy watcher; no active/paused compute queue or unexplained terminal; Gear 2 selected, scientific launch unaccepted. .agent-state/wake-inspections/3dd4663f7447e85f4e286695.json. |
+| Copied reader source/probe binding | Independent reconstruction of copied source names and declared successful gates | Eleven package maps/175 imports/nine probes/275 consumers verify; four ordering-only terminal jobs and first inspector refusal retained. Metadata only; I01 integration remains open. results/phase_2_4_stage_9/private/copied-source-bindings-v1/INSPECTION.json. |
+| Delivered full fitting-binding regression | Original installed suite after checkpoint binding | 981 cases/147 test files/361 production sources and 21 locks verify; original scope only, no rerun or current scientific acceptance. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/beb3fdb6d5d9021993c9aad0.json. |
+| I04 attribution consumer/source review | Validated instruments bound to the complete current declared roster | Eighteen declarations/four consumers verified; I04 preparation complete, 13 total requirements verified/three I01 unresolved. Actual realization and scientific launch remain unaccepted. results/phase_2_4_stage_9/private/attribution-scope-bindings-v1/INSPECTION.json. |
+| Executed I04 entry attribution fixtures | Independent observation/future joint with actual likelihoods and capsule | Seven new/41 affected checks and 21 locks pass; first unsorted-fixture refusal retained. Full attribution source/consumer binding remains open. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/entry-attribution-instrument-v2/INSPECTION.json. |
+| Actual entry attribution fixtures | Independent observation/future joint with actual reader and capsule | First attempt failed fixture mark ordering; 36/41 checks and 21 locks passed. No production repair or scientific acceptance. results/phase_2_4_stage_9/private/entry-attribution-instrument-v1/INSPECTION.json. |
+| Delivered confirmation fitting binding checks | Original checkpoint/seed/source substitution validation | 483 cases/26 files/361 archived sources verify; design lint and overlap bytes pass. No lock audit or fit executed by this helper; historical scope retained. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/eead27c2f7724b2b71264f1e.json. |
+| Delivered corrected neural confirmation rehearsal | Original commit, source and final-reproduction inspection | Seven completed jobs/eight calls/three services verify; first missing probe prerequisite failure retained. Historical discarded scope, no rerun or scientific acceptance. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/2764d2f4e5dd209a2d7e7bed.json. |
+| Executed I04 attribution fixtures | Independent finite Bayes reference with actual likelihoods and capsule | 11 new/34 targeted checks and 21 locks pass. Exact mark-model scope; full attribution source/consumer binding remains open. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/attribution-instrument-v1/INSPECTION.json. |
+| Delivered full confirmation integration regression | Original installed suite/archive/locks with separate documentation-path recovery | 971 cases/147 files/21 locks verify on original 361-source snapshot; net 24 additional cases. No rerun or newer-source acceptance. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/4069f0168c9e5071b38e20d1.json. |
+| Delivered original neural queue refusal | Original manifest prerequisite failure and retained corrected lineage | Six jobs complete/ledger refuses missing predicate; same-source corrected queue already complete. Current 303 predicates/275 jobs/nine probes checked within declared scope. No rerun or newer-source acceptance. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/eec4202a153973c5a1b5c759.json. |
+| Exact external source-unit preparation | Existing deterministic providers plus projected-unit and parse-input audit | Fourteen providers and 234 parsed files bound; I02 complete for current source/draft. Original inspector defects retained and corrected. Four preparation requirements remain; no scientific scoring or launch. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/eligible-source-units-v2/INSPECTION.json. |
+| Delivered producer binding checks | Archived future-output identity and substituted-producer refusals | 473 cases/26 files/361 sources verify; ten added constructed cases. No actual neural execution or lock audit in helper. Current source and scientific acceptance unchanged. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/6da91901a863aeb5f3f1d0b4.json. |
+| Inherited-code and historical internal-input bindings | Static imports separated from actual declared historical source consumers | 53 import sites, five dynamic imports and 195 historical files recorded; one producer/eight prediction/eight conjunction routes verify. Static reach is not execution. Five preparation requirements remain; source/gates unchanged. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/inherited-code-bindings-v1/INSPECTION.json. |
+| Delivered discarded neural rehearsal checks | Original source/test archives, scope refusals and synthetic interrupted dispatch | 463 cases/26 files/361 sources verify; net 14 added cases. Design check only, no lock audit or actual neural execution in this helper. Current source/scientific acceptance unchanged. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/d973dfef82b0a97fbc5a17d8.json. |
+| Inherited adapter and evidence bindings | Original admission, gaps, amendments and acquisitions connected to the unchanged workload | 36 archive-package jobs and 68 ordering descendants recorded; original failures and missing evidence retained. No new admission; five preparation requirements remain. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/inherited-evidence-bindings-v1/INSPECTION.json. Existing preparation validator passes; inspection-command correction retained in results/phase_2_4_stage_9/private/inherited-evidence-bindings-v1/POSTLANDING_VALIDATION.json. |
+| Delivered full neural-closure regression | Archived source/test inventory, XML, original output closure, locks and native owners | 947 tests/147 files and 21 locks verify on 361 archived sources; original saved absence observations verified. No rerun or newer-source/scientific acceptance. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/8fd5069cf15c27e33b06b3ba.json. |
+| Corpus workload and original split bindings | Source inventory, provider rules, archived raw reviews and unchanged external job declarations | 89 declarations and 14 case producers mapped; exact eligible-unit allocation and final manifest remain incomplete. No source parsing or scientific acceptance. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/corpus-workload-bindings-v1/INSPECTION.json. |
+| Delivered neural recovery completion | Saved compiled outstanding-fixture completion and original-result reinspection | Original archive and saved output verify; query failure and later absence remain separate. No rerun/current-source acceptance. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/9e9ce03ed89bca172ce4c0c4.json. |
+| Revision preparation command boundaries | Actual ArgRewrite/IteraTeR scientific output paths, original pilot paths, materialization and immutable reentry | Two guard strings repaired; 101 affected checks/7 files, including 17 path guards, and 21 locks pass. Constructed input fixtures only; no scientific execution. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/revision-path-repair-v1/INSPECTION.json. |
+| Delivered neural component helper failure | Saved failed inspection and separately completed fixture recovery | Both archived compiled results verify; original error 31 and later saved absence observations remain separate. No worker rerun or failed identity retry. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/2747080b49c04b1d5ed42982.json. |
+| Cached reader-package input bindings | Pinned model/tokenizer bytes, preserved adapters, scorer versions and proposed package jobs | Cached and reference byte identities verify; scientific fit hashes remain future outputs. Historical calibration retains its own scope. No reader load, new test or scientific acceptance. Five preparation requirements remain. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/reader-package-bindings-v1/INSPECTION.json. |
+| Delivered neural-confirmation audit component | Original synthetic fixture/source archives, complete XML, helpers, logs and native owners | 449 checks/26 files on 361 archived sources verify. No lock audit in this helper, rerun, actual scientific fit or current-source acceptance. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/8162844086ab5bff9a3720ed.json. |
+| Nested input metadata binding | Existing model/profile plans, conditional calibration tables, disposition evidence and factorial assignments | Required paths and job references connect to their actual consumer branches. Unused calibration entries remain metadata; no additional waits, test runs or scientific acceptance. Five preparation requirements remain. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/nested-input-bindings-v1/INSPECTION.json. |
+| Delivered full neural-confirmation regression | Archived source/test inventory, XML, original output closure, locks and native owners | 926 tests/146 files and 21 locks verify on 360 archived sources; original owners absent. No rerun or newer-source/scientific acceptance. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/ba668a360d9fe24443d50472.json. |
+| Declared input dependency index | All draft path arguments, canonical training outputs and direct training inputs | Complete declared-input enumeration and separate graph inspection; exact fixed bytes retained. Nested reads and emitted-file semantics remain outside scope. Five preparation requirements remain; no scientific acceptance. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/declared-input-bindings-v1/INSPECTION.json. |
+| Delivered archived neural-choice replay | Original queue/source/checkpoint identities, saved forecasts and direct projection/paired-row checks | Four projections preserve the same exposed source units and discarded fits. No model/dispatcher rerun or scientific seed evidence. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/f74fad3ec2f83343cbcd5191.json. |
+| Borrowed-operation consumer controls | Exact draft uses, finite-profile plans, selection rivals and saved control fixtures | I05 preparation complete for declared local operations; five requirements remain in three other preparation cards. No new execution, paper reproduction or scientific launch. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/borrowed-consumer-controls-v1/INSPECTION.json. |
+| Delivered three-seed confirmation export and resumption checks | Original synthetic executor source/test archives, XML, logs, helper/public receipt and native identities | 428 tests/25 files verify on 360 archived sources; both native identities absent. No neural inference, new test execution or current-source acceptance. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/9b59bcc3a7fe3d5f724f5514.json. |
+| Borrowed-operation fixture and adaptation review | Exact declared operation answers, saved test identities and shared-oracle limits | Nine roles reconciled; two preparation requirements verified. Six remain unresolved, including disabled-operation consumer controls. No rerun, paper reproduction, full I05 or scientific acceptance. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/borrowed-operation-fixtures-v1/INSPECTION.json. |
+| Delivered three-seed confirmation component checks | Original synthetic executor source/test archives, XML, logs, helper/public receipt and native identities | 420 tests/25 files verify on 360 archived sources; both native identities absent. No neural inference, new test execution or current-source acceptance. OPS-S9-CONFIRMATION-1; .agent-state/wake-inspections/871608522a654aa84d6759a2.json. |
+| Stage 9 named borrowed-method register | Commissioned acquisitions, current attributed components, exact saved fixture identities and draft consumer roles | 17 inherited plus 7 second-intake names; nine local operation roles. Only roster requirement verified; eight preparation requirements remain unresolved. No paper reproduction, scientific execution or full I05 acceptance. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/borrowed-method-register-v1/VERIFICATION.json. |
+| Delivered combined external raw-source regression | Original source/test archive, full XML/logs, locks, helper/public receipt and native owners | 895 tests/145 files and 21 locks verify on 359 archived sources; both original identities absent. No rerun or current-source/scientific acceptance. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/a2a0304e2423238c4e0315a2.json. |
+| Stage 9 preparation evidence coverage | Versioned final map, exact source/job/evidence bindings and explicit requirement gaps | 128 affected checks across five files, including 27 new guards, design lint and 21 locks pass. Four actual preparation attachments preserve nine unresolved requirements and all refuse scientific mode. All 686 ordered job objects unchanged; no scientific execution or full launch acceptance. OPS-S9-CLOSURE-1; results/phase_2_4_stage_9/private/preparation-coverage-bindings-v1/INSPECTION.json. |
+| Nested final-validation route review | Source and literal-declaration review of existing collector, probe, disposition, fitting and recipe-selection routes | 56 entries traced, including 13 human fits and 24 neural fits plus their complete recipe selector. Conditional on completed consumers; no independent retraining or claim of final recomputation for human analysis outputs. The remaining 220 static entries are unreviewed, not proven missing validators. No production/test/command changes or scientific execution. Full B03 and coverage remain open. OPS-S9-CLOSURE-1. |
+| Operation diagnostic final reconstruction | Original inputs and unchanged finite, prefix, rollout and supplied-information calculations; immutable unit reads |192 affected checks/30 new guards and21 locks pass; five numeric bodies unchanged. A separate66-source interpreter reproduces all8 original summaries, with original commits and before/after inputs/outputs independently verified; no new reader calls. Final watcher/ACK/orphan inspection healthy; no compute queue running. No science/full B03 acceptance. OPS-S9-CLOSURE-1. |
+| CoAuthor original targeted-check delivery | Original archived source/test bytes, XML/logs and dual-origin preparation code bundle |381 original checks/29 test files/356 sources independently verify;20 original guards. No rerun, original native/completion metadata absent, no lock run in this helper. Current Gear2/source/launch status unchanged. OPS-S9-CLOSURE-1. |
+| Calibration-consumer final reconstruction | Exact fixed/selected target, live calibration and original queue identity; canonical decision and complete output inventory |219 affected checks,31 new checks and21 locks pass. Original replay v1 lock refusal retained. Corrected64-source saved replay verifies8 original consumers (6 fixed/2 selected), unchanged output bytes and no model calls. Final watcher/ACK/orphan inspection passes; no active compute queue or unexplained terminal. Ninety unchanged draft consumers now dispatched; remaining310 unselected routes require nested-validation review, not presumed missing implementation. Full B03/science unaccepted. OPS-S9-CLOSURE-1. |
+| Calibration-consumer final reconstruction | Exact fixed/selected target, live calibration and original queue identity; canonical decision and complete output inventory |218 affected checks,30 new checks and21 locks pass. Historical first source:218 checks passed but actual replay refused the normal empty writer lock. Superseded by the219-check correction and complete8-consumer saved replay above; original failure retained. Ninety unchanged draft consumers now dispatched; remaining310 unselected routes require nested-validation review, not presumed missing implementation. Full B03/science unaccepted. OPS-S9-CLOSURE-1. |
+| Comparator final reconstruction | Shared original baseline/control/comparison inputs and unchanged saved-request forecasts | 30 new checks/23 guards/21 locks,137 prior unaffected passes;3 original jobs/20 calls reproduced,1 failed disposition retained,6 legacy formats refused. FAILED all-history replay and initial helper/fixture failures retained; full regression1521 checks/162 files/21 locks passes with archived source and native exits verified; no scientific admission (OPS-S9-CLOSURE-1). |
+| Genetic-edition final reconstruction | Shared original prediction inputs, packages and saved sequence/copy readout with complete output inventory | 181 affected checks/31 guards/21 locks; separate source-recording replay reconstructs7 original jobs/14 calls with unchanged outputs. No model execution, historical-intention or scientific admission (OPS-S9-CLOSURE-1). |
+| Purpose/context final reconstruction | Shared input/dispatch and three runtime constructors replay original saved requests without capsule creation | Broader339 checks and focused70 identity follow-ups/44 guards/21 locks pass. Two separate processes reconstruct all24 original jobs/1808 calls across10 consumers; exact source-map/annotation/field compatibility preserves old results and first refusals. Full B03/scientific launch remain separate (OPS-S9-CLOSURE-1). |
+| Package-calibration final reconstruction (`closure_calibration.py`) | Original shared discarded inputs and fitting/package identities, exact saved precision grid and unchanged numerical decisions; read-only unit consumption | 256 affected checks/28 new guards/21 locks pass. Separate60-source process rebuilds3 original pilots/99 saved calls with no model inference and unchanged files. Complete B03/queue/scientific acceptance remain separate. OPS-S9-CLOSURE-1. |
+| Ordinary neural-operation final reconstruction (`closure_operations.py`) | Shared actual inputs, saved calls/units/exports and failed/unrun dispositions; no model invocation | 192 affected checks/27 new guards/21 locks pass, including required actual prediction/receipt files and strict unit completion. Saved-data inspection reproduces24 compatible original jobs;18 older contracts explicitly refuse. Independent replay records68 actually compiled sources, reproduces24 compatible originals and preserves bytes with reader/writer entrypoints disabled. Full B03/whole-stage queue integration unfinished. Exact remaining direct semantic-dispatch worklist recorded; package calibration now connected; purpose/context next. OPS-S9-CLOSURE-1. |
 | **the event-recovery harness** (`run_event_harness.py`, G130) | synthetic decision events, five known-answer gates, the code path every choice-recovery test runs through | **VALID (L56).** Two of its gates caught real faults during its own build (a mis-specified decoy arm; deterministic tie-breaking) |
 | **candidate-set construction** (`run_arg_recovery.py`, G129 pilots) | bounded candidate sets for purpose recovery | **TWO LESSONS BANKED (L62/L64).** The blind floor follows the truth's label marginal regardless of decoy scheme; the estimand is the margin over the measured floor; truth-balanced subsampling (pilot-c) makes the floor analytic |
 | **covariate matching** (`run_arg_matched.py`, G130b) | content/surface matching for the lexical-shortcut control | **v2 (coarsened exact) BALANCED AND DELIVERED (L66).** Worst standardized difference 0.20 after matching, 342 pairs on common support; the verdict it enabled was COLLAPSES. The G130c collision runner reconstructs the identical matched set by shared seed |
@@ -271,6 +316,19 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ### Stage 8 testbed catalog (written 2026-09-04T10:38:29 by T03; one card per repository and corpus)
 
+**2026-09-06 readiness correction (Stage 9 inheritance).** These are 17 pinned
+repository records, seven available corpus manifests of ten, and three inventory
+measurements of seven attempted baseline entries. None of those three measurements
+reproduces an ordinary predictive baseline. ArgRewrite counted files, ScholaWrite
+counted grouped sessions, and CoAuthor counted 690 discovery-lane sessions rather
+than reproducing the published 1,445-session total. The historical receipt labels
+and numerical values below are retained. The new-source fixtures used invented
+minimal schemas, including `[[draft]]` markers; they did not establish that the real
+releases could be parsed. Zero materialized files for gpudrive-CoDec and
+inverse_painting do not establish executable checkouts. The old `read_only: true`
+receipt was a declared policy, not a measured filesystem permission. Dataset rights
+must be checked independently of code licenses or text-sample license hints.
+
 | repository | operation worth borrowing | head | license | files | the Stage 9 question |
 |---|---|---|---|---|---|
 | MMToM-QA | the fine-tuned small model as the action-likelihood estimator inside Bayesian inverse planning (BIP-ALM) | 9db1ffd8f4 | Apache License | 19 | a fine-tuned small model as the action-likelihood estimator inside the realizer (the reader as the likelihood, the program as the posterior) |
@@ -291,7 +349,7 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 | thought-tracing | Stage 7's clone (sequential hypothesis particles), re-pinned | 966eb27127 | MIT License | 29 | Stage 7's particle arm, re-pinned |
 | AutoToM | Stage 7's clone (adaptive factor expansion), re-pinned | 3f569b7ab1 | Apache License | 127 | Stage 7's expansion arm, re-pinned |
 
-*Table: the sibling programs cloned read-only into the sibling reference workspace (shallow, blob-limited); head is the pinned commit; none is on any capsule path.*
+*Table: historical sibling reference records (shallow, blob-limited); head is the recorded commit. Read-only handling was stipulated, not measured by this catalog; these paths were excluded from capsule inputs.*
 
 | corpus | human input | fetch status | loader | published baseline | the Stage 9 question |
 |---|---|---|---|---|---|
@@ -309,6 +367,43 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 *Table: the human-input corpora as manifests (hashes, URLs, lengths, license hints in corpora/manifests/stage8_testbed.json; text in the gitignored store; bulk data never re-hosted); no analysis of these corpora ran this stage beyond the loader fixtures and the counts.*
 
 <!-- STAGE8_TESTBED_CATALOG_END -->
+
+### Stage 9 preparation instruments (2026-09-06, OPS-S9-PREP-1)
+
+The bounded intake, separate scoring quantities, grouped splits and interpreter
+capsules, lexical baselines, constructive replay and model services have 78 passing targeted tests. The real capsule denied all 14 attempted
+accesses in its access probe; a separate 65-option loopback fixture retained every
+option and rejected a missing component. This is an interpreter boundary, not OS
+file isolation. The trained-model numerical envelope and full scheduler acceptance
+remain pending. The first real discarded-adapter service pilot caught an exact-tie defect across
+batch shapes. Distinct continuation bytes now share one likelihood measurement;
+the repaired pilot passes its small checks but its 8,190-token request exceeds the
+client timeout. The next version uses a measured smaller-context candidate and
+serial long-context scoring, with full calibration still pending.
+The completed Qwen fit retains its original source and checkpoint hashes through
+600 updates after interruption (OPS-S9-MODEL-1). All 17 inherited reference heads
+match, but two checkouts are empty and AutoToM has a checkout/index inconsistency;
+none of those three is executable. The current reader denies 42 reference-access
+and related probes (OPS-S9-REF-1). Operation reproduction remains separate.
+
+The complete IteraTeR archive is stored privately by hash. Its human document and
+sentence counts reconcile with the release, including the actual `others` label
+and 38 records without a domain field. Missing domains remain unknown. Grouped
+allocation excludes the three schema-inspected lineages from confirmation and
+initially reserved 130 document groups. The duplicate repair now yields 428 total groups and 128 reserved groups, excludes two exposed reserve aliases, and introduces no wholly new reserve unit (OPS-S9-DATA-3). The ordinary lexical predictive baseline now
+runs in restricted reader processes on 60 development lineages and loses to its
+training-label prior under both finished-text and revision-pair views (OPS-S9-DATA-1).
+This establishes a real predictive task, not published-classifier reproduction or
+scientific reader readiness. Within-source duplicate closure and a versioned baseline rerun are complete; cross-source closure remains owed. Shelley-Godwin's
+48 acquired TEI pages yield 134 supported local replacements, with every unsupported
+modification counted. A fixed copied-text baseline has run on 24 prespecified offered
+replacement cases from one famous work (OPS-S9-DATA-2); this licenses only a local
+qualitative diagnostic, with no global manuscript chronology or population inference.
+The continuation replay also matches the existing executor's state and policy on
+40 expert-prefix worlds, preserves legal zero-policy-probability actions, and keeps
+an explicitly empty change schedule empty. These checks do not admit a neural reader.
+Source/rights receipts
+and schemas are under `results/phase_2_4_stage_9/intake/`.
 
 
 ## Codex operating runtime (2026-09-06)
@@ -328,3 +423,1110 @@ change the coding environment; they add no scientific warrant.
 | All-option replacement (`runners/readout_repair.py`) | Common summed continuation log-probability; complete option/identity receipts; no silent fallback | Deterministic known-answer tests and independent local-model precision fixtures complete. New lineage only; no historical scientific scorer deployment. OPS-READOUT-1/2/3. |
 | Stage 7/8 inherited direct readout | Dependency inventory by actual support, target, arm and source | Affected direct-reader claims quarantined; 110 missing tail prediction references explicit. Supplied state is not matched operative information; 9B is a package change. Unaffected solver and FM-versus-domain evidence retained. OPS-ERRATA-2. |
 | Queue status and orphan recovery | Atomic unique-temp status replace with bounded retries; repository path and creation-time process ownership | Deterministic transient/persistent failure tests preserve prior status. Repair installed after gear-two drain; sibling processes are excluded. OPS-READOUT-3. |
+
+Stage 9 recipe, collector, scoped capability and finite numeric-program checks pass
+their stated fixtures (OPS-S9-PREP-2). This includes exact original recipe rendering
+and separate-program agreement with the constructor. The kernel now runs in its own restricted capsule with actual source checks and
+forbidden-access probes. The Qwen discarded collector completed 64 worlds and 256 applied learner actions in 844.85 seconds. SmolLM2 also completes 64 worlds and 256 applied actions in 574.03 seconds. Correct-target masking passes its fixtures; matched-recipe timing and final scientific matching remain owed (OPS-S9-MODEL-3).
+Both complete model calibrations support FP16 as the supported scoring candidate under
+the existing 0.01 finite-fixture tolerance; BF16 exceeds it (OPS-S9-MODEL-2). The
+78 targeted tests include preserved historical generation-parser semantics and a
+separate strict parser. No scientific capability is inferred from those fixtures.
+
+The inherited-sampling policy now records the full effective base generation configuration,
+including its top-k and EOS defaults. The complete discarded generation pilots use FP16
+and retain all attempted calls beside the historical valid-only denominator. Their reused
+discarded pilot band is not independent validation; no scientific reader is admitted.
+
+The finite Stage 9 queue passes an actual 192-unit kernel-job interruption/resume,
+competing-writer refusal and loaded-source omission attack (OPS-S9-QUEUE-1). All 85
+pre-resume unit files retain identical bytes; both attempt costs and the original
+campaign clock remain recorded. The inspection pause is explicit pilot overhead,
+not a runtime forecast. Scientific dispatch and manifest acceptance remain owed.
+
+The full discarded Qwen generation cell now completes all 96 attempts while retaining
+the failed original broad comparator (OPS-S9-MODEL-4). Its 803.12-second clock covers
+service, generation and evaluation, excluding constructor/reference preparation.
+Inherited top-k and multiple EOS tokens are recorded. This reused discarded pilot
+is not independent admission. SmolLM2 also completes all 96 calls and fails the broad
+comparator, with 984.20 seconds in the same timing scope. Matched-training timing is active.
+
+Both 64-example matched training pilots complete their eight updates with source,
+checkpoint and target-count checks (OPS-S9-MODEL-5). A two-continuation packing variant
+retains exact target counts with smaller contexts and completes in 172.64 Qwen and 107.13 SmolLM2 active seconds. These pilots omit earlier-work context; full-dose packing remains owed. Both 1,600-example
+expert cells per family now preserve the original replay and match target counts, with
+small explicitly recorded same-source supplements in the broader-law cell. The mixed
+scientific cells, full dispatch and launch remain unaccepted.
+
+The queue completion guard now revalidates actual compiled-source receipts and leaves completed reruns byte-stable. A fresh 192-unit version completes in 48.77 CPU seconds and passes that rerun check; recovery also refuses live wrappers and unknown spawn windows (OPS-S9-QUEUE-1).
+
+B-roll now has an allowlisted released-schema loader, verified randomized trial chronology and a completed development-only forward-selection baseline (OPS-S9-DATA-4). The release count differs from the paper, partial/tokenization-mismatched highlights retain exclusions, and two held scripts license descriptive results only. Participant and script reserves remain separately sealed; raw data redistribution is unapproved.
+
+The dose-stratified Qwen collector completes all 256 applied actions, then the first packing correctly refuses insufficient correct targets. A new packing preserves earlier expert supervision once while masking the entire current learner history, and meets the exact target budget; both full-epoch streamed-loss timing fits complete in 84.92 Qwen and 75.63 SmolLM2 active seconds with all source, target and checkpoint identities verified (OPS-S9-MODEL-6).
+
+The finite-language operation passes 32 constructed compression/distinction cases and independent exhaustive fixtures (OPS-S9-KERNEL-1). Constant and invented-history readers fail the relevant operations, including a future difference invisible at one step. This is a bounded operation adaptation with full scheduled-context diagnostic access; neural competence and paper-level model reproduction remain untested.
+
+The scientific training dispatcher explicitly enumerates all 24 fits and verifies source, target, split and complete validation identities (OPS-S9-MODEL-5). All four actual prepared expert inputs pass the preflight. Scientific collection, mixed packing and fitting entry points exist, but scientific execution remains unaccepted.
+
+The blocked vocabulary-projection loss candidate matches full-forward loss and gradients on independent masks and both small actual LoRA decoder architectures (OPS-S9-MODEL-7). Both pinned BF16 bases now match full-forward losses and trainable gradients exactly on their finite short fixture. Their long four-example blocked-loss backward passes take 2.47/2.07 seconds at 4.750/4.991 GB peak CUDA allocation. Both full balanced-dose fits now complete with explicit streamed-loss identities and the old full-loss source hash-verified in its archive; this is no scientific admission. The slow balanced-dose Qwen attempt was terminated after its supported checkpoint request remained unacknowledged. Native absence is verified; 2,214.17 wall seconds and the lack of any recoverable checkpoint remain explicit. The separate actual-base memory checks now complete for both families.
+
+CoAuthor task metadata joins all 1,445 published sessions and preserves the two extra logs and writer-count discrepancy. The first strict UTF-16 replay fails acceptance because selected-insertion mismatch blocks later document deltas; its outputs and source remain preserved. The corrected full-document transformation replay now reconstructs 1,444 sessions, retains all 39 excluded handling opportunities and verifies all published per-session counts. Logged selection-index disagreement remains explicit. Its development baseline completes 723 targets from only five held writers/five prompts, with the previous-decision rival retained and no untouched reserve; twelve replay/feature fixtures pass (OPS-S9-DATA-5).
+
+The Stage 9 scheduler now preserves unrelated work after terminal producer failures, emits durable blocked/failed dispositions, and applies the horizon only to new expansion. A six-job actual subprocess rehearsal passes all branch expectations and a byte-stable completed rerun (OPS-S9-QUEUE-2). Device-wide GPU point sampling is implemented but unmeasured in this CPU rehearsal; final scientific recovery/launch validation remains owed.
+
+The Stage 9 launch validator requires concrete manual workload, source, split, package, fixture, wake, recovery, final rehearsal and measurement-linked forecast evidence. Three refusal/forecast tests pass; full positive acceptance and scientific launch remain owed (OPS-S9-LAUNCH-1).
+
+The log-score helper now uses the actual normalized forecast, with negative infinity for a zero-probability observed event and no realized-target floor. The previous source is preserved. All 115 Stage 9 tests pass together in 14.89 seconds; full scientific rehearsal remains owed (OPS-S9-SCORE-1).
+
+ArgRewrite Stage 9 preparation: source schema and two fixtures checked; actual loader fails on omitted trailing blank cells before fitting. Two failed versions and full process costs retained: ragged rows, then ADD/DELETE alignment markers. All index values inspected before the next repair. Third loader completes: exact historical 3,236 units, all release counts, 75 fully corresponding successive-draft lineages and four fixtures pass. Both grouped development baselines complete, with six fixtures passing. Retrospective difference features help; future record loses to the class prior despite beating earlier-cycle frequency. Scientific H01 capsule execution and cross-source closure remain owed (OPS-S9-DATA-6).
+
+ScholaWrite Stage 9: all released per-label counts reproduce, but first successor loader fails acceptance for edges touching tied timestamp blocks. Labels are annotator-assigned spans, author IDs are project-scoped, and editor text need not be the full draft; original source/evidence retained. Corrected loader verifies 48,731 boundaries and every exclusion; five fixtures pass. Grouped baseline completes on 2,000 sampled boundaries across all five held-project folds; record gains over previous-transition rivals are not established for either target. Scientific H08 and cross-source closure remain owed (OPS-S9-DATA-7).
+
+The complete Stage 9 suite after the two revision-loader/baseline additions passes 126 tests in 14.68 seconds; all 21 original locks verify. Scientific workload rehearsal and launch remain unaccepted. Receipt: `results/phase_2_4_stage_9/pilot/COMBINED_TESTS_20260907_REVISIONS.json`.
+
+Stage 9 remaining intake: nine pinned arXivEdits files pass complete-byte/blob checks, with 39 prepared canonical edits from three papers and a completed grouped development baseline; both fitted views lose the prior on their mean, so no H02 claim is licensed. Five fixtures and all source/output identities pass (OPS-S9-DATA-8). Twelve complete CommitBench pages pass snapshot, range and truncation checks; the strict actual loader retains 1,010 complete-hunk diffs with 190 source-conformance exclusions, and the ordinary baseline completes on 194 development questions from 168 repositories. All source/output identities and six fixtures pass; H06 and cross-source closure remain owed (OPS-S9-DATA-9).
+
+Stage 9 source inventory: all twelve named sources have evidence-linked dispositions; eight have real preparations and ordinary baselines, while Woolf/Drawings/NewsEdits2/Genius remain NOT_READY for stated access, edition or data/permission reasons. Scientific closure remains owed. Complete suite137 PASS and original21 locks PASS (OPS-S9-DATA-10).
+
+Stage 9 cross-source overlap search completes, validated against exhaustive fixtures. Shared short fragments, prompts and whole-document overlaps remain distinct; Expanded audit and reserve repair complete; two repeated candidate descriptions remain a code-task familiarity control. Four source/task/crossed-factor guard fixtures pass, with actual scientific consumer enforcement owed (OPS-S9-DATA-11).
+
+The Stage 9 evaluator preserves JSON-safe infinite/undefined scores and complete denominators, refusing nonfinite capability promotion. Sixteen targeted score, capability and overlap tests pass. Predecessor bytes and finite baseline results are preserved (OPS-S9-SCORE-2).
+
+CommitBench prelaunch extension: twelve predetermined additional pages complete with pin/range/EOF checks. Versioned preparation preserves every old task and exposure, and the reserve now holds exactly thirty percent of eligible nonpilot repository components. Three allocation fixtures pass; expanded cross-source and consumer checks remain owed (OPS-S9-DATA-12).
+
+Full Stage 9 verification after overlap, reserve allocation and nonfinite-score changes: 151 tests pass in 13.91 seconds; all 21 original locks pass. Receipt: results/phase_2_4_stage_9/pilot/COMBINED_TESTS_20260907_SPLITS.json.
+
+Stage 9 finite behavioral mixtures, known-density replenishment and symbolic inverse-policy operations pass thirteen independent/capsule checks (OPS-S9-INFERENCE-1). Actual copied/loaded source and access receipts verify. These are operation adaptations, not benchmark reproductions or verified model synthesis; full I05 and scientific handlers remain owed.
+
+Stage 9 finite evidence selection separates observation entropy, model information and prospective-target gain, with duplicate/cost stopping and a finite-policy maximin-regret adaptation. Six independent fixtures pass; full combined suite has 170 passes and original locks remain intact. Scientific acquisition and realized-gain verification remain owed (OPS-S9-SELECTION-1).
+
+Stage 9 visible artifact projection, complete public action support, conditional-choice fitting and deduplicated cheap adaptation pass nine targeted checks. The process view remains separate and failed fits refuse parameters. Actual scientific fits, strongest-rival selection and capsule consumers remain owed (OPS-S9-ARTIFACT-1).
+
+Stage 9 mark-program inference sums erased order and stationary failures, distinguishes persistent/per-work factor assumptions, and performs bounded numeric proposal adaptation. Twelve targeted checks and nine actual capsule calls pass their intended outcomes. Long-artifact inference and data-selected proposals remain explicitly approximate; actual scientific fitting/consumers remain owed. Full suite: 191 passes; original locks intact (OPS-S9-INFERENCE-2).
+
+The Stage 9 mark-program public tool rules are corrected and checked against actual constructor actions; the first source closure is archived. Seventeen targeted inference/capsule/fitting checks pass. Training-only program fitting has an independent gradient/executor check and a complete real 96-world discarded pilot, with all 48 candidate fits and the population fit converged. Original inherited-source omissions remain explicit; fresh reconstruction evidence is separate. Scientific selection and execution remain owed (OPS-S9-INFERENCE-2, OPS-S9-FIT-1).
+
+The fitted Stage 9 artifact comparators complete an actual seven-earlier-work capsule pilot with complete support and verified input/source/output identities. Inference costs are measured; approximation quality and scientific prediction remain unaccepted (OPS-S9-FIT-2).
+
+Stage 9 prospective series preparation passes four fixtures and a real 192-series discarded pilot. All 199 attempts reconstruct exactly; stop and sparse/absent action counts remain explicit. Complete public support, shared factors, duplicate refusal and parameter partitions are checked. Scientific consumers and native preparation-job interruption remain owed (OPS-S9-CASES-1).
+
+Stage 9 shared likelihood tables and comparison capsules reproduce standalone forecasts and preserve duplicate invariance. Complete-grid paired analysis and frozen development-rival selection pass known answers. The real two-seed long-context pilot fails every declared approximation envelope check; its sixteen-permutation estimator is not scientifically accepted. The full suite passes 211 checks with all original locks intact (OPS-S9-MATRIX-1).
+
+The Stage 9 grouped-erasure evaluator exactly matches the checked action-level transitions and subset sums, with thirteen combined fixtures passing. Real matrix execution is faster, but four long-work comparisons still fail the original approximation bar at 128 draws. Original proposal and matrix source closures are archived before changes (OPS-S9-MATRIX-2).
+
+The separate 256-draw grouped-erasure pilot completes with all input/source audits passing, but two long-work agreement checks still fail the unchanged tolerance. Its setting remains unaccepted (OPS-S9-MATRIX-2).
+
+The fixed 384-draw grouped pilot also completes with source/input audits intact and retains two failed approximation checks. Its setting remains unaccepted (OPS-S9-MATRIX-2).
+
+The actual numerical-model training handler completes a real queue rehearsal, fitting its library and every declared population candidate on identical training worlds in both views. Fresh reconstruction, parameter receipts and actual loaded-source/queue commits verify; three tampering and validity fixtures pass. Handler interruption, final scientific source closure and launch remain owed (OPS-S9-FIT-3).
+
+The fixed 1,024-draw grouped pilot completes within its forecast and audited source boundary, but one comparison still fails the unchanged precision bar. This setting remains unaccepted; the explicit computational-budget increase does not change scientific tolerances (OPS-S9-MATRIX-2).
+
+Separate baseline matrices and per-component comparison handling pass five combined fixtures. Actual cold queue execution fails before prediction because saved-world replay did not initialize extended purpose utilities. Failed source and cost evidence are retained before repair; scientific use is unaccepted (OPS-S9-CONSUMER-1).
+
+Fresh-interpreter saved-world validation passes after explicit constructor registration. The complete Stage 9 suite passes 225 checks and all original locks remain intact; the actual repaired handler rehearsal is separately pending (OPS-S9-CONSUMER-1).
+
+The repaired actual artifact-comparison consumer completes two full-dose series through the real queue, with all capsule and input/source/output identities revalidated and completed queue re-entry byte-stable. One program forecast fails precision and remains unscoreable while every baseline remains valid. Whole queue wall time includes validation omitted from the narrower handler counters. Scientific matching, analysis and launch remain owed (OPS-S9-CONSUMER-1).
+
+Count-state particle erasure passes exact randomization and capsule fixtures, with the failed original stochastic fixture retained. Its actual long-work setting fails the unchanged independent precision check and remains unaccepted (OPS-S9-MATRIX-3).
+
+The complete-grid analysis handler passes known-answer and invalid/incomplete-grid checks and both actual queue operations. Model/source identity and disjoint selection units are enforced; independent card controls and scientific warrant remain separate (OPS-S9-ANALYSIS-1).
+
+Other-maker control data reproduce as canonical JSON with exact public conditions and splits, but the fresh saved-file validator fails on tuple/list differences in scheduled changes. The 236-test suite passes only its existing in-memory scope. Scientific control use is unaccepted pending a cold replay repair (OPS-S9-CONTROL-1).
+
+Canonical replay comparison repairs the saved-control validator while preserving the original failure. Four cold/round-trip/tampering checks and the new complete actual handler rehearsal pass; fresh reconstruction verifies unchanged control data. Scientific consumer use and launch remain owed (OPS-S9-CONTROL-1).
+
+The prediction consumer now executes matched other-maker inputs and verifies adopted whole units against immutable capsules. Eleven targeted checks and the complete 238-test suite pass with original locks intact; the actual controlled pilot and its native interruption remain pending (OPS-S9-CONSUMER-1).
+
+The actual controlled prediction worker was interrupted after one complete unit; exact native identities and unchanged saved bytes verify. Recovery started under the original manifest and cell identity, with the entire first attempt retained. Complete recovery acceptance remains pending (OPS-S9-CONSUMER-1).
+
+The actual controlled consumer passes native kill/resume, full saved-call reconstruction and byte-stable completed re-entry. Every assigned whole unit and all attempt costs survive; failed artifact precision components remain unscoreable. Scientific launch remains unaccepted (OPS-S9-CONSUMER-1; pilot/CONTROLLED_CONSUMER_RECOVERY.json).
+
+The actual fitting dispatcher retains the scientific factorial while exposing an isolated discarded rehearsal through the same optimizer/completion path. Six guards and both saved-input audits pass; real handler executions remain pending (pilot/TRAINING_HANDLER_INPUT_CHECKS.json).
+
+The real fitting queue fails before optimization because the direct-script bootstrap shadows the standard-library queue module. Both attempts and the complete source closure are retained; path repair and fresh-process/actual-handler validation remain owed (OPS-S9-QUEUE-3).
+
+The repaired bootstrap passes a cold direct-script standard-library collision fixture; all fourteen queue/dispatcher checks pass. The initial fixture path-setup failure is retained. Actual two-family fitting reruns remain pending (OPS-S9-QUEUE-3).
+
+Both actual fitting handlers complete after the bootstrap repair, with fresh exposure, full validation, optimizer/scheduler/random-state/checkpoint and queue-commit verification. Completed re-entry is byte-stable. The original import failure remains preserved; no scientific fit or admission is counted (OPS-S9-QUEUE-3).
+
+The actual collection/packing dispatch exposes an explicit discarded pilot boundary; fifteen guards pass and both fixed input allocations validate. Actual pilot parameter roles are retained, and scientific collection still rejects pilot weights or held-out combinations. The original overly broad preflight refusal is archived; real handler completion remains pending (OPS-S9-COLLECT-1).
+
+All 245 Stage 9 checks and all 21 original locks pass after collection/packing integration. Actual discarded handler execution and scientific launch remain separately gated (OPS-S9-COLLECT-1).
+
+Both actual collection/packing handlers complete, with all sources, applied states, correct teacher continuations, capsule calls and exact packed targets freshly reconstructed. Original fixed expert targets and masked learner contexts survive. Outer compiled-source receipts verify; nested service compiled-source provenance remains explicitly unverified for this historical run. Scientific launch remains unaccepted (OPS-S9-COLLECT-1).
+
+Nested resident compilation tracking, operation/family-specific rehearsal mapping and scientific series identity guards pass eighteen checks. Actual resident calibration completion remains pending; historical service provenance is unchanged (OPS-S9-EXECUTION-1).
+
+Both complete discarded calibration batteries verify actual outer/nested compiled sources, all capsules and service requests, long context, generation and the unchanged precision comparisons. The queue correctly refuses both completion files because they omit the executed cell identity. Full source and cost are preserved before repair. The fresh suite passes 248 checks and all 21 locks; scientific acceptance remains open (OPS-S9-EXECUTION-1).
+
+Inverse planning now eliminates contradictions when observed instead of rewriting earlier beliefs; both temporal known answers fail the old implementation and pass the repair. Calibration binds its executed cell identity and rechecks complete output closure. All 27 targeted checks pass; actual repaired calibration and scientific consumers remain owed (OPS-S9-INFERENCE-3, OPS-S9-EXECUTION-1).
+
+The repaired two-family calibration completes real queue commit, full nested/capsule/request/base/checkpoint validation and byte-stable completed re-entry. Every probability vector equals its retained original attempt. Both original failures and repaired cost/source closures remain preserved. This is discarded apparatus acceptance, not scientific launch (OPS-S9-EXECUTION-1).
+
+Actual action/outcome/reset/artifact/matched-prefix execution paths pass thirteen known-answer and boundary checks; both real pilot input packages and balanced cases validate. Twelve actual family/operation jobs are prepared. Neural completion and scientific capability/launch are not yet accepted (OPS-S9-OPERATIONS-1).
+
+The full Stage 9 suite passes 261 checks in 34.71 seconds with all 21 original locks intact after the operation and temporal/identity changes. Real neural completion and scientific acceptance remain separate (OPS-S9-OPERATIONS-1).
+
+All twelve actual operation jobs complete, with every saved call/unit freshly reconstructed, nested compiled sources/request ledgers verified and byte-stable queue re-entry. Small-pilot early termination leaves actual sustained/reset timing unmeasured; an already completed full-size discarded adapter rehearsal remains owed. Both serialization-order audit failures are retained and corrected using actual capsule bytes. Full source and cost remain preserved (OPS-S9-OPERATIONS-1).
+
+The operation rehearsal can now use both already completed full-size discarded fits under exact corpus/seed/epoch/validation/checkpoint checks. Ten guards and all four actual small/full input profiles pass. The same twelve jobs are prepared in a fresh lineage; no new training or scientific admission follows (OPS-S9-OPERATIONS-1).
+
+The draft finite objective-rule projection agrees with the original graphs on all 358,528 bounded words. Its thirty-two source cases collapse to seven distinct public input/truth sets; repeated source IDs cannot supply independent neural cases. Fixed query construction is checked, but the neural driver remains unimplemented and scientific admission unaccepted (OPS-S9-KERNEL-1).
+
+The second actual operation rehearsal completes all twelve jobs using existing full-size discarded adapters. All 257 calls, whole rows, source/model/request/queue identities and re-entry verify. Actual sustained and genuine-reset execution now have measured paths; source closure is archived before changes. Scientific capability and launch remain unaccepted (OPS-S9-OPERATIONS-1).
+
+The finite supplied-rule query operation is installed in the real resumable neural handler with content-based grouping and source aliases retained. Eight known-answer/boundary checks and the actual two-family input preflight pass; the two concrete discarded model jobs are prepared. Actual neural execution and scientific evaluation remain owed (OPS-S9-KERNEL-1).
+
+Both actual finite-query family jobs complete. All 192 calls and whole rows reconstruct, with actual model/source/request/case/queue identities and byte-stable re-entry verified; source archive is complete. This validates real execution over two distinct projected cases, not a scientific capability or enlarged independent sample (OPS-S9-KERNEL-1).
+
+The actual operation handler now distinguishes fitted, base-only and archived Stage 8 packages. Seven package/handler checks, all four real identity checks and five launch-mapping checks pass. Historical bytes are independently rehashed under both original and full-closure algorithms; actual reference loading and operation calibration remain owed (OPS-S9-OPERATIONS-1).
+
+| Broad generation source and actual handler | Separate original/expanded reference and reader samples, complete 96-unit scientific cohorts, historical full-log sampling and all-attempt evaluation | Thirteen combined checks pass after correcting event-schema comparison; first source retained. Fourteen actual preparation/model rehearsal jobs are prepared. No scientific admission (OPS-S9-GENERATION-1). |
+
+All 274 Stage 9 checks and all 21 original locks pass after the finite-query, reference-package and broad-generation additions. Actual scientific workload acceptance remains separate (OPS-S9-GENERATION-1).
+
+Both real source-preparation jobs and all twelve broad-generation package/population jobs complete. All source/reference calculations, twenty-four full-log calls, private final evaluations, actual base/archive/fitted loading, compiled-source/request/queue identities and byte-stable re-entry verify. Full source closure is archived. Scientific calibration, admission and launch remain owed (OPS-S9-GENERATION-1).
+
+| Symbolic local-repair execution | Prospective unseen-edit consequence, independent free repair, objective outcome assistance and collateral preservation | Eight execution/gate checks, ten combined handler checks and all 192 discarded input tasks pass known construction checks. Strong class imbalance is retained. No neural operation or full prospective repair gate is accepted (OPS-S9-REPAIR-1). |
+
+| Genuine and structured prospective choice | Raw genuine-prefix diagnostic and artifact/process pair with identical candidate identifiers | Thirteen combined fixtures and actual cached-tokenizer preflight of twenty-eight requests pass; first fixture setup failure retained. Ten model rehearsal jobs prepared, execution and scientific admission owed (OPS-S9-REPAIR-1). |
+
+| Choice/repair combined verification setup | Whole Stage 9 suite | Initial invocation: 221 pass, 60 temp-directory setup errors; 21 locks pass. Actual runner tests unresolved until workspace-temp rerun; original failure retained (OPS-S9-REPAIR-1). |
+
+| Choice/repair combined verification recovery | Same full Stage 9 test suite, new workspace temp directory | All 281 tests pass in 37.68 seconds; all 21 locks verified; prepared runner sources unchanged. Prior setup failure retained (OPS-S9-REPAIR-1). |
+
+| Actual choice/repair handler rehearsal | Two full discarded fits, all five installed choice/repair operations | Ten complete jobs and twenty-eight actual calls fully reconstructed; package/compiled source/capsule/service/queue identities and byte-stable reentry verified. Source closure archived. Scientific admission and launch remain owed (OPS-S9-REPAIR-1). |
+
+| Local consequence cheap-rival fitting and capsule | Class prior, two calibrated public rules and three logistic penalties, equal-unit fitting and separate development selection | Nine targeted known-answer/gradient/null/replication/source/capsule tests pass. Four CPU preparation/fit/predict/select jobs prepared; actual pipeline and complete repair admission owed (OPS-S9-REPAIR-1). |
+
+| Local rival pipeline first manifest | Independent training source preparation and gate refusal | All 96 source cases complete and reconstruct; malformed manifest field path causes fit/predict/select to remain NOT RUN. Existing scheduler gate holds. Source closure, dispositions and byte-stable reentry verified; corrected manifest owed (OPS-S9-REPAIR-1). |
+
+| Actual local consequence-rival pipeline | Independent training, twelve fits, four public-only capsules, separate development selection | All three jobs complete. Fresh audit reconstructs 101 construction attempts and every fit, capsule, unit and selected comparator exactly; completed reentry byte-stable, source archived. Full local gate and scientific adoption owed (OPS-S9-REPAIR-1). |
+
+| Complete local repair calibration and admission | Full saved-call reconstruction, separate exact/blind/story calibration, unchanged per-domain/view gates | Thirty-three targeted execution/scoring/source/queue/launch checks pass. Twelve-job full real rehearsal and complete calibration prepared but unexecuted; no scientific passage (OPS-S9-REPAIR-1). |
+
+| Combined repair-admission verification | Complete Stage 9 suite | All 292 tests pass in 38.28 seconds, all 21 locks pass, prepared source closure unchanged; actual full calibration/admission rehearsal pending (OPS-S9-REPAIR-1). |
+
+| Local admission first complete-path rehearsal | Calibration exposure guard, source preparation, baseline/model calls and final analysis dependency | 192 calibration worlds project to 185 current tasks with seven exposed task identities; guard correctly refuses before gate scoring. Independent four baseline capsules and sixteen neural calls complete and fully audit. Four final analyses NOT RUN. Public-task source preparation repair owed; no local admission (OPS-S9-REPAIR-1). |
+
+| Distinct local-task allocation and grouping | Public input identity before inference; explicit exposed/repeated exclusions and both yield denominators | Sixteen targeted source/future/identity/group/scoring checks pass. Both 0.75 realization floors retained. Six CPU recovery jobs prepared, full calibration and actual final admission pending (OPS-S9-REPAIR-1). |
+
+| Local repair calibration construction after identity repair | Distinct unexposed source questions and fixed per-condition yield | All 192 questions distinct/unexposed; 241 attempts reproduce. Two strata yield 24/33 and fail the unchanged 0.75 all-attempt floor. Calibration/four admissions NOT RUN. Current local admission construction unqualified; retain failure and continue independent capabilities (OPS-S9-REPAIR-1). |
+
+| Historical broad-generation source reconstruction | Verify original task count, full hidden tails and population reference before extending profiles | All forty archived worlds and original reference reproduce exactly; earlier ninety-six-world assumption corrected. Historical replay remains exposed diagnosis; new Stage 9 cohorts stay separate (OPS-S9-GENERATION-1). |
+
+| Exact historical generation replay | Original forty-world source, same-world reference and explicit prior exposure | Implemented; complete 297-check Stage 9 suite and all original locks pass. Actual two-family/base/archive/fitted rehearsal prepared; no admission (OPS-S9-GENERATION-1). |
+
+| Historical replay actual execution | Both pinned families, discarded-fit/base/archive packages, original historical source and reference | Seven jobs and twelve actual calls complete; full source/model/capsule/queue/private-calculation audit and byte-stable reentry pass. No scientific admission (OPS-S9-GENERATION-1). |
+
+| Independent ordinary baselines and complete choice profiles | Actual public-only fitted rivals, separate development selection and complete neural comparison | Eleven known-answer and actual capsule checks pass; source/public-task separation verified; nine CPU rehearsal jobs prepared. No scientific admission (OPS-S9-CHOICE-1). |
+
+| Independent baseline and choice-profile actual pipeline | Full public-only rival execution, separate selection, complete paired neural profiles | Nine CPU jobs, eight actual baseline capsules and six profiles complete; all forecasts, selection, source/call identities, final calculations and byte-stable reentry reproduce. No new neural call or scientific admission (OPS-S9-CHOICE-1). |
+
+| Complete-seed recipe selection | Source-checked actual fits, common development targets, equal-seed ranking and retained failures | Three full-grid known-answer checks pass; actual two-fit pilot consumer prepared. One pilot candidate per family, no empirical treatment ranking or scientific admission (OPS-S9-RECIPE-1). |
+
+| Recipe selection actual fitting consumer | Original queue commits, full epoch/corpus/checkpoint identity and frozen selection | Two actual discarded fits consumed; complete fresh audit and byte-stable reentry pass. One pilot candidate per family, no empirical factorial or scientific admission (OPS-S9-RECIPE-1). |
+
+| Complete Stage 9 suite after selection consumers | Historical replay, independent baseline/choice and seed selection integration | All 305 checks and twenty-one original locks pass; source closure matches the archived actual selection rehearsal. Package-calibration draft excluded (OPS-S9-RECIPE-1). |
+
+| Exact-package precision calibration and consumer | Fixed discarded supports, complete actual calls, original/amended envelope, full scoring identity | Eight targeted checks pass; user-temp setup failure preserved. Actual twelve-job model/consumer rehearsal prepared, no scientific admission (OPS-S9-PRECISION-1). |
+
+| Exact-package long CPU transport | Actual Qwen discarded fit at fixed full support | Long FP32 request exceeds 600-second reader timeout; complete calibration/consumer unavailable. Thirty-one valid calls and failed call/source/lifecycle/cost receipts retained; independent packages continue (OPS-S9-PRECISION-1). |
+
+| Complete-seed and operation-profile drafts | Paired factorial, finite distinction, exact state matching and nested assisted rollouts | Seven known-answer checks pass on draft module objects; frozen queue source unchanged. Installation and actual analysis-handler execution owed; no scientific admission (OPS-S9-PROFILES-1). |
+
+| Independent ordinary maker-control draft | Actual matching construction, two evidence views, duplicate and wrong-maker controls | Four real capsules pass task/support/zero-dose/duplicate checks; draft installation and actual full consumer rehearsal owed. No program inference or neural gate dependency (OPS-S9-CHOICE-1). |
+
+| SmolLM2 long CPU calibration transport | Actual second-family discarded fit and eventual native lifecycle | Same 600-second call failure; dependent precision consumer NOT RUN. Later compiled service exit and native absence verified, late CPU tail separately counted, no cleanup kill (OPS-S9-PRECISION-1). |
+
+| Qwen base actual choice precision | Full short/long precision grid and decision consumer | All 33 calls, actual source/input/weight closure and target decision audited. Historical tolerance pass False; amended tolerance pass True. No generation or scientific admission (OPS-S9-PRECISION-1). |
+
+| Versioned bounded CPU transport draft | Explicit finite-choice request and capsule deadlines | Three draft checks pass; initial capsule-module import setup failure preserved. Source freeze unchanged; actual extended-CPU execution and installation owed (OPS-S9-PRECISION-1). |
+
+| Factorial source queue draft | Distinct original fitting and later profile manifests | Two actual pilot fits verified; mismatched profile queue and incomplete fitting source pair refused. Full profile collection and installation remain owed (OPS-S9-PROFILES-1). |
+
+| Restricted human revision reader drafts | Exact nineteen change features, exported fitted rivals and actual capsule boundary | Three checks pass, with original misconstructed positive fixture and its correct null retained. Actual corpus/split consumers and installation remain owed (OPS-S9-HUMAN-1). |
+
+| Owner-requested queue liveness and console inspection | Native owner, current queue/watcher heartbeats and source closure | Live prelaunch queue and watcher verified; scientific launch still unaccepted. Two console-launch sites lack hidden-window flags; attribution and repair remain open (OPS-S9-QUEUE-2). |
+
+| SmolLM2 base actual choice precision | Full short/long precision grid and decision consumer | All 33 calls, actual source/input/weight closure and target decision audited. Historical tolerance pass False; amended tolerance pass True. No generation or scientific admission (OPS-S9-PRECISION-1). |
+
+| Hidden watcher delivery child | Windows no-console flag; same command and outbox protocol | Ten recovery/delivery checks pass; actual sole watcher restarted with new source and healthy heartbeat. PowerShell script refusal retained; direct hidden Python launch restored service without policy changes. Capsule-host fix still owed (OPS-S9-QUEUE-2). |
+
+| Stage 9 hidden capsule-host draft | Existing isolated interpreter with no-console child creation | Two existing boundary/transport checks pass through three actual capsules. Installation awaits source archival; no claim of observed flash absence (OPS-S9-QUEUE-2). |
+
+| Qwen archived adapter actual choice precision | Full short/long precision grid and decision consumer | All 33 calls, actual source/input/weight closure and target decision audited. Historical tolerance pass False; amended tolerance pass True. No generation or scientific admission (OPS-S9-PRECISION-1). |
+
+| ArgRewrite case-source draft | Canonical retrospective and genuine whole-cycle future tasks | Actual prepared records and cross-source closure verified; future-blind evidence and source/evidence separation pass. Historically exposed only, no reserve. Actual full handler execution owed (OPS-S9-HUMAN-1). |
+
+| Human revision selection/analysis drafts | Separate development rival choice and complete source-grouped evaluation | Two known-answer checks pass, retaining stronger-rival loss, zero differences, invalid attempts and zero forecasts. Full CLI pipeline still untested; no scientific admission (OPS-S9-HUMAN-1). |
+
+| Complete actual package precision rehearsal | Six packages, full short/long support and dependent consumers | All twelve terminal dispositions audited: six complete, three failed, three not run. Every call/cost and actual service exit retained; source archived and completed reentry byte-stable. Three CPU-timeout packages require bounded repair; no scientific launch (OPS-S9-PRECISION-1). |
+
+| Installed Stage 9 transport, analysis, ordinary controls and revision pipeline | Full installed suite plus original content locks | 324 tests and 21 locks pass. Hidden Stage 9 capsule host installed; Stage 7 unchanged. Actual six-job human and six-job bounded calibration rehearsals prepared, scientific launch still unaccepted (OPS-S9-HUMAN-1). |
+
+| Actual canonical human revision pipeline | Actual preparation, fitting, restricted forecasts, frozen rival selection and full analysis | All six real handlers and twenty capsule calls audited; actual inputs and every profile reconstruct, completed reentry byte-stable, source archived. Historically exposed discarded pilot only; no human scientific finding (OPS-S9-HUMAN-1). |
+
+| Quiet operational watcher in normal user context | Native identity, source/owner/queue preservation and actual completion receipt | Reviewed graceful restart preserves both research queues; real completion notification accepted on second attempt and acknowledged after full audit. Earlier delivery failures retained; fresh idle delivery and visual absence of flashes remain unobserved (OPS-S9-QUEUE-2). |
+
+| Actual operation profiles and ordinary maker controls | Seven compiled handlers over real discarded operation outputs | Three complete, four fail on absent historical non-finite metadata. Both finite profiles and eight ordinary capsules audited; all failures/costs retained, completed reentry byte-stable, source archived. Scoped compatibility repair and four consumer reruns owed (OPS-S9-PROFILES-1). |
+
+| Historical non-finite operation metadata compatibility draft | Replay every actual preserved operation source | All fourteen sources reconstruct; altered finite metadata refuses. Draft only: current calibration source unchanged; installation and four compiled consumer reruns still owed (OPS-S9-PROFILES-1). |
+
+| Qwen fitted adapter bounded CPU transport repair | Same actual short/long finite-choice precision fixture | All 33 calls and actual decision consumer audited; original timeout preserved. Historical tolerance pass False, amended tolerance pass True. All services verified exited. No generation/scientific admission (OPS-S9-PRECISION-1). |
+
+| SmolLM2 fitted adapter bounded CPU transport repair | Same actual short/long finite-choice precision fixture | All 33 calls and actual decision consumer audited; original timeout preserved. Historical tolerance pass False, amended tolerance pass True. All services verified exited. No generation/scientific admission (OPS-S9-PRECISION-1). |
+
+| Canonical IteraTeR human case draft | Retrospective text/pair and genuine whole-current-draft future views | Actual source/separation preflight and future-mutation/refusal checks pass; raw votes retained. Case construction uses exposed train/development only; cross-source verifier still rehashes all original inputs. Uninstalled, actual model handlers and domain transfer owed (OPS-S9-HUMAN-2). |
+
+| SmolLM2 archived adapter bounded CPU transport repair | Same actual short/long finite-choice precision fixture | All 33 calls and actual decision consumer audited; original timeout preserved. Historical tolerance pass False, amended tolerance pass True. All services verified exited. No generation/scientific admission (OPS-S9-PRECISION-1). |
+
+| Bounded package calibration transport repair | Three original failed packages and their actual consumers | Six jobs and 99 actual calls independently audited, source archived and terminal reentry byte-stable. All services exited. Prior failures/costs and original/amended precision decisions retained; no scientific admission (OPS-S9-PRECISION-1). |
+
+| Installed HUMAN revision pipeline integration | Explicit source/class/task/view contracts and preserved annotations | Full installed suite passes 326 tests and 21 locks; source projector and four shared/compatibility modules installed. Actual six-handler rehearsal and four profile repair consumers prepared, not yet audited. No scientific allocation or launch acceptance (OPS-S9-HUMAN-2/OPS-S9-PROFILES-1). |
+
+| Complete HUMAN revision handler rehearsal | Actual pipeline rehearsal | Six actual compiled handlers, twelve restricted reader calls, raw disagreement, independent view/target reconstruction and completed byte-stable reentry verified; source archived. Scientific allocation/domain transfer remain owed. (OPS-S9-HUMAN-2) |
+
+| Historical operation profile consumer repair | Actual pipeline rehearsal | Four affected consumers independently reconstructed and completed; no new neural calls. Original failures and successful finite/control branches preserved, repaired source archived, terminal reentry byte-stable. (OPS-S9-PROFILES-1) |
+
+| Fixed HUMAN partitions and domain transfer | Within-source plus arXiv/news/wiki held-domain studies | Full installed suite passes 328 tests and 21 locks. Tested domain excluded from training/selection; unavailable future tasks retain explicit targets/dispositions. Actual exposed-source rehearsals prepared; scientific execution and launch remain owed (OPS-S9-HUMAN-2). |
+
+| Complete HUMAN within-source/domain-transfer handlers | Four compiled discarded studies | All 24 jobs and 36 restricted reader calls independently audited. Actual domain/source exclusions, unavailable future targets and complete profiles retained; source archived and completed reentry byte-stable. Scientific execution and launch remain owed (OPS-S9-HUMAN-2). |
+
+| Draft B-roll selection reader | Commission, population word/POS, budget and personal preferences | Constructed null/preference/wrong-person and private/duplicate/target-history checks pass. Private draft only: actual source consumers, stronger weighting check and capsule execution remain owed (OPS-S9-HUMAN-3). |
+
+| Draft restricted B-roll selection reader | Actual ordinary forecast, private-input refusal and access-denial probe | Three actual capsules and stronger unequal-trial participant weighting pass. Initial missing inherited import failure, original unmeasured cost and measured reproduction retained; source closure repaired. Still uninstalled; canonical human pipeline remains owed (OPS-S9-HUMAN-3). |
+
+| B-roll canonical case and grouped analysis drafts | Actual exposed-source projection and known-answer statistics | Participant/script separation and prior chronology checked on actual records; source labels remain outside readers. Three analysis checks verify rival selection, paired Brier, two dependence axes, failed-attempt retention and fixed pre-discovery scale calibration. Uninstalled; actual compiled pipeline remains owed (OPS-S9-HUMAN-3). |
+
+| Installed B-roll pipeline and human rehearsal mapping | Actual source repeatability and full installed suite | Fresh-process case ordering defect preserved and repaired before execution. Full suite passes 332 tests and 21 locks. Human operations, prediction partitions and study domains now have distinct rehearsal identities. Actual six-handler B-roll pilot prepared (OPS-S9-HUMAN-3). |
+
+| Complete B-roll selection pipeline | Six actual compiled handlers with independent people/scripts | Eight restricted reader calls, actual canonical source and fitted parameters, independent selection and complete profiles reconstructed. Exact source archived and terminal reentry byte-stable; scientific execution/launch remain owed (OPS-S9-HUMAN-3). |
+
+| Actual-fit factorial collector preflight | Two registered small fits and their own basic profiles | Actual fit/checkpoint/corpus identities revalidated. Thirteen produced-guarded jobs prepared for new choice/generation/calibration profiles and the collector; no new training, larger-pilot profile substitution or scientific launch (OPS-S9-PROFILES-1). |
+
+| Diff-to-description reader drafts | Constructed correspondence and actual restricted interpreter | Three numeric checks pass; complete ordinary forecasts/private-field refusal and boundary denials verified. Original malformed probe driver and its cost preserved. Uninstalled; source-separated actual H06 pipeline owed (OPS-S9-HUMAN-6). |
+
+| Canonical code-change case and analysis drafts | Actual source preparation plus constructed selection/analysis | Complete source/diff/allocation and cross-source fingerprints checked; disjoint target/distractor repository menus, candidate-wording exclusions and all source dispositions retained. Three analysis checks pass. Uninstalled; actual compiled H06 pipeline owed (OPS-S9-HUMAN-6). |
+
+| Prospective writing feature/model drafts | Three source-native targets and explicit persistence rivals | Five constructed checks pass for current-text signal, empty-history rates, complete supports, source weighting and private-field refusal. Uninstalled; restricted execution and canonical actual H07/H08 handlers remain owed (OPS-S9-HUMAN-7). |
+
+| Prospective writing restricted reader drafts | Three targets, two evidence views, private-field and boundary probes | Eight actual calls verify complete fitted forecasts, strict views and all inherited boundary denials. Uninstalled; source-case construction and compiled H07/H08 pipeline remain owed (OPS-S9-HUMAN-7). |
+
+| Complete actual-fit factorial collector | Thirteen compiled handlers using each small fit's own profiles | Both actual fits, all calls, calibration consumers, paired choice/generation profiles and collector reconstructed. Expected negative probes verified, source archived, terminal reentry byte-stable. Incomplete pilot factorial remains explicit; all scientific fits and launch owed (OPS-S9-PROFILES-1). |
+
+| Installed code-change and prospective-writing readers | Full installed test suite, locks and dispatcher matching | Ten modules and three tests installed after source archive. All344 checks and21 locks pass; changed-file design lint passes. Six CommitBench operations/partitions remain distinct; actual H06 compiled rehearsal prepared, H07/H08 case consumers owed (OPS-S9-HUMAN-6/7). |
+
+| Complete CommitBench pipeline | Six compiled source/fit/prediction/analysis handlers | Actual cases, fitted parameters, four restricted calls, independent selection and all profiles reconstructed. Target/distractor repositories and candidate wording separated; exact source archived and terminal reentry stable. Scientific H06 remains owed (OPS-S9-HUMAN-6). |
+
+| Canonical CoAuthor prospective cases | Actual source roster, chronology and source/prompt components | Corrected actual-source preflight and two chronology checks pass; connected writers remain dependent. Fixed pilot supports only one opportunity per prediction partition, explicitly retained after original refusal. Uninstalled; compiled H07 consumers remain owed (OPS-S9-HUMAN-7). |
+
+| Prospective writing handler drafts | Independent selection, paired views and crossed source/stimulus analysis | Two constructed checks pass for stronger rivals, zero view gain, source/prompt separation and missing/invalid/nonfinite retention. CoAuthor dispatch drafted; actual compiled pipeline and ScholaWrite integration remain owed (OPS-S9-HUMAN-7). |
+
+| Installed CoAuthor prospective pipeline | Full tests, original locks and actual dispatcher mapping | All349 installed checks and21 locks pass, with changed-file design lint clean. Dataset, operations and prediction partitions map separately. Six CPU rehearsal jobs prepared; actual execution and scientific H07 remain owed (OPS-S9-HUMAN-7). |
+
+| CoAuthor compiled pipeline | Six source/fit/predict/analysis operations | Complete actual rehearsal and independent reconstruction pass; exact source archived. Limited pilot support explicit; scientific H07 remains owed (OPS-S9-HUMAN-7). |
+| ScholaWrite prospective source draft | Native successor chronology and project-separated cases | First fixed historical-data rotation passes actual source preflight; uninstalled. Known-answer checks, all rotations and compiled H08 remain owed (OPS-S9-HUMAN-7). |
+
+| ScholaWrite outer-fold check inputs | Existing bootstrap minimum | First full suite has two test-input refusals and 352 passes; original source retained, test inputs corrected to existing minimum. Corrected verification remains owed (OPS-S9-HUMAN-7). |
+
+| ScholaWrite compiled pipeline and outer collector | Five whole-project rotations with native category/location targets | All 354 Stage 9 tests and 21 original locks pass after correcting fixture draw counts. Thirty-one actual rehearsal jobs prepared; actual execution and scientific H08 remain owed (OPS-S9-HUMAN-7). |
+
+| Genetic-edition source and handler drafts | Local replacement prediction with copied-text/uniform/length rivals | Three known-answer checks pass; all acquired local changes reconstruct, two old pilot tasks pass source preflight. Uninstalled, no actual neural execution; one-work qualitative ceiling retained (OPS-S9-HUMAN-4). |
+
+| Complete ScholaWrite pipeline and outer collector | Thirty-one compiled operations across all five projects | Full actual source/model/readout/profile reconstruction, terminal reentry and source archive pass. Scientific H08 remains owed (OPS-S9-HUMAN-7). |
+| arXiv target exposure inspection | Canonical edits versus saved development predictions | Every currently eligible edit was already predicted in the preparation baseline; zero unscored targets. Preserve earlier qualitative evidence and prevent relabeling as new discovery (OPS-S9-DATA-8). |
+
+| Installed genetic-edition handlers | Source/control/neural/evaluation operations with explicit packages | All 358 Stage 9 tests and 21 locks pass. Fourteen actual jobs prepared for both families and three package kinds; source and scientific ceilings unchanged (OPS-S9-HUMAN-4). |
+
+| Complete manuscript pipeline | Fourteen compiled jobs across both families and three package kinds | Actual source, readouts, profiles, exact request counts, package bytes, service exits and terminal reentry verify; source archived. Two audit-helper defects and unavailable second-attempt cost retained. Scientific H04 remains owed (OPS-S9-HUMAN-4). |
+
+| Purpose uncertainty and commitment | Restricted exact process-record model with separate supplied-purpose input | Fourteen targeted checks pass; null invariance, positive forecast separation, duplicate removal and hidden-input refusal verify. Actual series handler and scientific M03 remain owed (OPS-S9-PURPOSE-1). |
+
+| Purpose source-series handler | Two history doses with separate ordinary and supplied inputs | Constructed grid passes seven actual restricted calls and immutable reentry reconstruction; actual source-series rehearsal remains owed (OPS-S9-PURPOSE-1). |
+
+| Installed purpose pipeline | Complete source validation, purpose forecast grid and paired analysis | All 363 Stage 9 tests, 21 original locks and changed-module design lint pass. Four-job actual rehearsal prepared; scientific M03 remains owed (OPS-S9-PURPOSE-1). |
+
+| Complete purpose pipeline rehearsal | Source-separated prediction, independent selection and twelve paired analyses | Four compiled jobs and twenty-eight restricted calls independently reconstructed; terminal reentry and exact source archive pass. Scientific M03 remains owed (OPS-S9-PURPOSE-1). |
+
+| Proposal pool and evaluator comparison | Three fixed pools crossed with two scoring methods | Analytic null/positive checks, ten-call constructed grid, pool/evidence identity and oracle isolation pass; actual source rehearsal and scientific M02 remain owed (OPS-S9-PROPOSALS-1). |
+
+| Installed proposal/evaluator pipeline | Explicit candidate pools, two evaluators and source-separated paired analysis | All 367 Stage 9 tests, 21 locks and changed-module design lint pass. Five-job actual rehearsal prepared; scientific M02 remains owed (OPS-S9-PROPOSALS-1). |
+
+| Complete proposal/evaluator pipeline rehearsal | Crossed candidate pools and evaluators, independent rival selection and purpose compatibility | Five jobs and forty-seven restricted calls independently audited, all nine paired analyses reconstructed, source archived and terminal reentry stable. Scientific M02 remains owed (OPS-S9-PROPOSALS-1). |
+| Supplied-kernel input sizing | Complete operative code, state and offered action support | Every discarded pilot case fits both pinned tokenizers without truncation. No inference performed; actual matched comparison and scientific I06 remain owed (OPS-S9-SUPPLIED-1). |
+
+| Matched supplied-information operation | Complete operative-source/direct and explicit execution plus code-omitted diagnostic | Eleven targeted checks pass, including actual kernel capsule and future/source boundaries. Actual neural rehearsal and scientific I06 remain owed (OPS-S9-SUPPLIED-1). |
+
+| Independent maker/collaborator and consideration coverage | Source-level constructor inspection | Joint regime changes do not isolate proposer/selector adaptation; subjective availability is not recorded consideration. T05/T06 causal contrasts NOT RUN WITH REASON; local Ghost design note retained (OPS-S9-TRANSFER-1). |
+
+| Complete matched-information pipeline rehearsal | Same operative code/state through direct neural and explicit kernel execution | Twelve jobs and thirty-six restricted calls independently audited across six packages; all complete profiles recomputed and exact sources archived. Full suite passes 369 tests and 21 locks. Scientific acceptance remains owed (OPS-S9-SUPPLIED-1). |
+
+| Tool-removal eligibility inspection | Available familiar means and alternative under unchanged symbolic goal | All discarded cases inspected; ordinary sampling contains substantial ineligibility. No reader or scientific gate; prospective consumer and conditional scientific cohorts remain owed (OPS-S9-TRANSFER-2). |
+
+| Announced-context reader | Old-context inference followed by a witnessed tool-removal prediction | Fourteen targeted checks pass, including actual restricted execution and invariance of historical likelihoods. Actual source consumer and scientific T01 remain owed (OPS-S9-TRANSFER-2). |
+
+| Complete tool-removal source/forecast handlers | Conditional source selection, executed counterfactual, cheap and explicit-reader predictions | Targeted source, null, boundary, full-grid and reentry checks pass. Shortfall refuses; original realization gate retained. Complete rehearsal and scientific T01 remain owed (OPS-S9-TRANSFER-2). |
+
+| Complete tool-removal pipeline rehearsal | Conditional sources and prospective forecasts through independent selection/analysis | Six jobs and eight calls independently audited; all three profiles reconstructed and sources archived. Full suite passes 375 tests and 21 locks. Scientific T01 remains owed (OPS-S9-TRANSFER-2). |
+
+| Goal-transfer sources and restricted reader | New purpose with fixed skill/history, paired unchanged-goal deadline control | Source eligibility inspected; reader, source, full-grid and reentry checks pass. Six new tests. Actual whole rehearsal and scientific T03 remain owed (OPS-S9-TRANSFER-3). |
+
+| Complete paired goal-transfer rehearsal | Same source units and past under new-goal versus unchanged-goal deadline futures | Twelve jobs, eight calls and six complete profiles independently audited; terminal reentry and exact source archive verify. Scientific T03 remains owed (OPS-S9-TRANSFER-3). |
+| Global/local context source inspection | Deadline stopping pressure versus one-section check availability | Distinct operative scope and held-fixed factors inspected on all discarded sources; conditional eligibility retained. Reader/operator and scientific T04 remain owed (OPS-S9-TRANSFER-4). |
+
+| Source-reliability-weighted future cue reader | Deadline or one-section belief report with known-mark redundancy control | Analytic probability, scope, noise, historical invariance and actual capsule checks pass. Source-channel assumptions explicit; actual consumer/scientific T04 remain owed (OPS-S9-TRANSFER-4). |
+
+| Complete cue handlers and paired gain analysis | Same source units across global/local or goal/difficulty conditions | Source, full-grid and checked-reentry tests pass. Paired estimator uses each actual target, refuses mismatches and retains nonfinite cases. Complete rehearsal and scientific acceptance remain owed (OPS-S9-TRANSFER-4). |
+
+| Complete context-cue and paired-intervention rehearsal | Actual forecasts, independent selection and cross-condition gain | Fourteen jobs, twenty-four calls, eighteen profiles and five interactions independently audited; reentry and exact source archive verified. Scientific acceptance remains owed (OPS-S9-TRANSFER-4). |
+| Exact bounded ambiguity source inspection | All six orders of two writes and one consultation under existing tool context | Identical visible artifacts and partial future separation verified through actual replay; no historical/future winner sampled and no reader run. Actual M05 consumer remains owed (OPS-S9-AMBIGUITY-1). |
+
+| Conditional ambiguity source and offered-history reader | Actual conditional history sampling and independent fitted likelihood inference | Six new source/reader tests and affected checks pass; exact-null marginal normalization repaired with unchanged test. Later observation updates history only. Actual complete consumer and scientific M05 remain owed (OPS-S9-AMBIGUITY-1). |
+
+| Complete ambiguity source and comparison handlers | Six historical/future questions with separately matched truths | Actual numerical capsules, neural input boundaries, source refusal, nonfinite retention, known-answer nulls and development separation pass. Whole-chain real-model rehearsal and scientific acceptance remain owed (OPS-S9-AMBIGUITY-1). |
+
+| Ambiguity committed-row analysis entry point | Full selection/evaluation/reentry fixture | Envelope-versus-row accessor corrected before execution; four checks pass, first fixture path error retained. Production path guards unchanged (OPS-S9-AMBIGUITY-1). |
+
+| Complete Stage 9 stack after ambiguity handlers | Combined apparatus and lock regression | All 404 tests across 108 files and 21 original locks pass; five new-module design checks pass. Scientific launch remains unaccepted (OPS-S9-AMBIGUITY-1). |
+
+| Initial freedom/constraint source inspector | Existing tool availability crossed with deadline pressure before creation | Productive-action and pressure separation verified; fixed equal prefixes suppress the stopping trace channel. M06 design/consumer and scientific acceptance remain owed (OPS-S9-CONSTRAINT-1). |
+
+| Complete conditional ambiguity instrument | Separate historical recovery, later-observation updating and prospective prediction | Eighteen actual jobs audited: 12 restricted numeric calls, 72 neural calls, 84 recomputed profiles, exact executed source archive and byte-stable reentry. Two discarded evaluation units per package; scientific admission remains unaccepted (OPS-S9-AMBIGUITY-1). |
+
+| Staged finite observation likelihood | Retain stopping and failed-action opportunities under a bounded earlier-work observation | Known-answer distribution, failure, stopping, total-mass and invalid-record checks pass. Private draft only; installed consumer and capsule validation remain owed (OPS-S9-CONSTRAINT-1). |
+
+| Bounded creation and observation handlers | Freedom × stopping pressure × artifact/record visibility on one separate target | Source, enumerated known answers, informative/null readers, actual restricted transport, shortfall and reentry pass 27 targeted/affected checks. Complete CPU rehearsal and scientific execution remain owed (OPS-S9-CONSTRAINT-1). |
+
+| Complete Stage 9 stack after bounded-creation integration | Combined regression and source-lock verification | All 411 tests across 110 files and all 21 original locks pass; three-module design lint passes. Whole CPU rehearsal and scientific launch remain owed (OPS-S9-CONSTRAINT-1). |
+
+| Complete bounded-creation instrument and real early-stop branch | Same-target freedom/pressure/view comparisons with bounded observations | Six-job chain, 16 actual calls, 36 profiles, complete source/readout reconstruction and stable reentry pass. Separate all-pool source inspection and one actual stopped-source capsule pass. Exact executed source archived; scientific admission remains unaccepted (OPS-S9-CONSTRAINT-1). |
+
+| Restored watcher owner delivery | Actual post-final operational message and preserved historical completion | Operating owner receives the delayed branch completion after its final response; exact produce, dispositions, commits, cost and prior write-through reconcile. No scientific rerun; delivery timeliness and physical flash absence remain unclaimed (OPS-S9-QUEUE-2). |
+
+| Bounded familiarity source and reader | Same-maker versus matched other-maker exposure crossed with pre-future choice expectedness | Nineteen new/affected checks pass, including enumerated erased failures, a known recognition/surprise dissociation, hidden-truth refusal and actual restricted execution. Whole source pool and complete consumers remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Familiarity source realization | Exact earlier-work public matching, conditional expectedness and fresh prospective continuation | All 192 discarded sources realize, including stopped archives and failed actions; no reader scores or scientific admission (OPS-S9-FAMILIARITY-1). |
+
+| Familiarity preparation, prediction and balanced analysis | Separate recognition, surprise and prospective usefulness | All 29 targeted/affected checks pass after retained fixture and extended-number receipt defects. Same/different truth is balanced within each independent maker, and development selects surface/future rivals. Complete rehearsal and entry selection remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Complete Stage 9 stack after familiarity integration | Combined regression, four-module design lint and original locks | All 422 tests across 113 files and all 21 original locks pass. The complete CPU rehearsal and entry-selection integration remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Complete familiarity prediction rehearsal | Preparation, restricted reading, balanced recognition and own-future analysis | Six jobs, sixteen actual calls and all thirty-eight profiles pass reconstruction; transformed templates are disjoint from fitting and the opposite partition; executed source is archived and reentry is byte stable. T02 entry selection and scientific execution remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Restricted sequential observation reader and source | Choose before revealing a private next decision; distinguish noise, maker information and future usefulness | Twenty-two targeted checks pass, including exact noise/duplicate nulls, actual source projections and real restricted calls. Whole source inspection and complete S02/S03/S04 consumers remain owed (OPS-S9-SELECTION-1). |
+
+| Sequential observation source realization | Fresh previews, private next decisions and a separate unseen target | All 192 discarded sources realize; stops, failures and the exact visible duplicate are retained. Complete consumers remain owed (OPS-S9-SELECTION-1). |
+
+| Sequential selection handler first attempt | Actual reveal loop and signed-gain analysis | Twenty-six checks pass; one cost-log initialization defect prevents the actual acquisition chain. Failed source and receipt retained; one scoped repair and fresh checks required (OPS-S9-SELECTION-1). |
+
+| Sequential acquisition and signed-gain analysis handlers | Actual selection before revelation, complete forecasts and costed stopping | Twenty-seven targeted checks pass after the retained cost-log defect. All eight strategies and aggregate gain-calibration profiles pass complete rehearsal reconstruction (OPS-S9-SELECTION-1). |
+
+| Complete Stage 9 stack after sequential selection | Combined regression, four-module design lint and original locks | All 432 tests across 116 files and all 21 locks pass. The complete acquisition rehearsal and archive subsequently pass (OPS-S9-SELECTION-1). |
+
+| Sequential selection rehearsal liveness | Native chain/queue ownership and registered terminal produces | Historical liveness was verified; the completed CPU rehearsal is now audited and archived. GPU pause remains active (OPS-S9-SELECTION-1). |
+
+| Corrected CoAuthor preparation delayed delivery | Exact public/private completion, preparation identity and archived executed source | Already-landed evidence reconciles on actual post-final delivery; no replay or new scientific verdict (OPS-S9-DATA-5). |
+
+| ArgRewrite baseline delayed delivery | Exact completion, preparation identity, group separation and saved probability/truth/score agreement | Previously landed baseline reconciles on actual post-final delivery; no model rerun or new scientific verdict (OPS-S9-DATA-6). |
+
+| ScholaWrite first preparation delayed delivery | Exact original receipt, source archive and failed acceptance audit; separate corrected successor | Original completion remains ineligible and unused by baseline; historical evidence reconciles without replay or new scientific verdict (OPS-S9-DATA-7). |
+
+| Sequential selection rehearsal liveness | Native chain/queue ownership and registered terminal produces | Historical liveness was verified; the completed CPU rehearsal is now audited and archived. GPU pause remains active (OPS-S9-SELECTION-1). |
+
+| ScholaWrite baseline delayed delivery | Exact completion and corrected preparation identity, project folds, all saved forecast/target/score records | Previously landed development baseline reconciles on actual delivery; previous-transition rival and descriptive limits retained. No rerun or new scientific verdict (OPS-S9-DATA-7). |
+
+| Complete sequential-selection CPU rehearsal | All actual calls, selected-only purchases, own futures, development rivals, signed gains and terminal reentry reconstructed | Seven jobs, 536 calls, 114 paired profiles and twenty calibration descriptions verify; exact source archived. Discarded execution evidence only, with scientific launch and T02/S01 integration owed (OPS-S9-SELECTION-1). |
+
+| Familiarity entry observation source core | Matched same/other maker offers, existing expectedness prefixes and own targets | Seventeen affected checks pass, including two new construction tests. Actual private purchases preserve all public matches and old-future invariance. Whole source pool and complete consumer remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Complete familiarity entry source inspection | All fixed source offers, private next decisions and separate targets, with exact source archive | All 192 discarded units realize; stop and failure outcomes retained. No reader or scientific score. Complete selection consumers remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Shared versus independent maker entry reader | Joint relationship/maker posterior and prospective observation selection through actual restricted calls | Thirty-two affected checks pass. Independent joint enumeration, unrelated-maker zero future gain, identical-maker noise, duplicate evidence and selected-only revelation verify. Complete entry handlers and scientific launch remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Familiarity entry full-regression liveness | Verified native wrapper/child identities and hidden watcher heartbeat | Full current suite is running after the targeted pass, with source unchanged and final produce registered. Subsequently completed: all 437 tests and 21 locks pass. Gear 1, GPU paused (OPS-S9-FAMILIARITY-1). |
+
+| Original cross-source audit delayed delivery | Exact completion, all input/output hashes, saved group/overlap summary and separate successor identity | Original audit reconciles with its existing write-through; scientific split acceptance remains withheld pending final consumer closure. No new scientific result (OPS-S9-DATA-11). |
+
+| Full Stage 9 regression after familiarity entry core | Combined source, reader, capsule, prior handler and original lock checks | All 437 tests across 117 files and all 21 locks pass. Complete entry consumers and scientific launch remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Familiarity entry preparation and actual acquisition | Fixed source assignment, all four conditions, selected-only purchases and matched current-only rival | Twenty-eight affected checks pass, including two new actual-handler fixtures. Complete paired analysis and full rehearsal remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Familiarity entry paired analysis | Own-future quality and separate purchase costs | Twenty-eight targeted checks pass after a retained tuple-interface fixture error; complete grid, own future, strong independent rival, zero quality with saved cost and retained infinite loss checked. Full regression and actual rehearsal remain owed (OPS-S9-FAMILIARITY-1). |
+
+| Complete familiarity entry stack regression | Source, restricted acquisitions, paired quality/cost analysis and original locks | All 442 Stage 9 tests across 119 files and 21 locks pass together. All six CPU rehearsal jobs and the independent audit complete. All 1120 actual calls, 208 development selections and 648 descriptive profiles reconstruct; selected-only purchases, matched current-only prior, full-endpoint order invariance and byte-stable reentry verify. The 334-file executed source archive is checked; source freeze ends. Scientific T02 and launch remain owed (OPS-S9-FAMILIARITY-1). |
+| Familiarity-entry handler owner wake | Original archived sources, queue execution commits and committed output integrity | All334 archived files and six commits verify;38736 output files retain1120 calls,208 development selections and648 complete profiles. Original full semantic audit retained, not rerun. Native owners/workers absent; no scientific acceptance or allocation change (OPS-S9-FAMILIARITY-1). |
+
+| Expanded cross-source audit delayed delivery | Exact completion, all input/output and audit/guard source hashes, saved summaries and CoAuthor exclusion ledger | Existing expanded audit reconciles; final scientific consumer/split closure remains owed. No new scientific result (OPS-S9-DATA-11). |
+
+| Long-artifact timing pilot delayed delivery | Original outputs, fit lineage, preserved capsule source/input bytes and visible-world projection | Reconciles with the original execution audit; four later installed source changes are distinguished from preserved capsule bytes. The later approximation failure remains in force (OPS-S9-FIT-2). |
+
+| Series-preparation delayed delivery | Complete saved attempts, selected ordering, exclusions, cell yields and source/target coverage | All recorded attempts freshly reconstruct under unchanged construction code; later broad runner-source changes remain explicit. Pilot population and class limits unchanged (OPS-S9-CASES-1). |
+
+| Comparison-matrix delayed delivery | Exact executed source archive, saved capsules and dose/repetition forecasts | All original approximation failures recompute under the unchanged envelope. Later installed source differs from archived execution; no new reader run or qualification (OPS-S9-MATRIX-1). |
+
+| Grouped-matrix delayed delivery | Exact executed source archive, saved capsules and dose/repetition forecasts | The original mixed pass/failure profile recomputes under the unchanged envelope; the 128-draw setting remains unqualified. Later installed source differs from archived execution; no new reader run or qualification (OPS-S9-MATRIX-2). |
+
+| 256-draw grouped-matrix delayed delivery | Exact executed source archive, saved capsules and dose/repetition forecasts | The original mixed pass/failure profile recomputes under the unchanged envelope; the 256-draw setting remains unqualified. Later installed source differs from archived execution; no new reader run or qualification (OPS-S9-MATRIX-2). |
+
+| 384-draw grouped-matrix delayed delivery | Exact executed source archive, saved capsules and dose/repetition forecasts | The original mixed pass/failure profile recomputes under the unchanged envelope; the 384-draw setting remains unqualified. Later installed source differs from archived execution; no new reader run or qualification (OPS-S9-MATRIX-2). |
+
+| 1024-draw grouped-matrix delayed delivery | Exact executed source archive, saved capsules and dose/repetition forecasts | The original mixed pass/failure profile recomputes under the unchanged envelope; the 1024-draw setting remains unqualified. Later installed source differs from archived execution; no new reader run or qualification (OPS-S9-MATRIX-2). |
+
+| Failed consumer queue delayed delivery | Original failed disposition, archived and actually loaded source, error trace and retained costs | The terminal queue receipt preserves the cold-start initialization failure before prediction; subsequent repair and recovery stay in separate lineages. No rerun or scientific qualification (OPS-S9-CONSUMER-1). |
+
+| Useful-technique source preflight | Public context versus actual visible-action execution | Complete successor checks every public action on all 192 discarded series with explicit visible-action extension. Actual success is determined by public tool context; the wrong always-successful rule fails. Both versions and sources are archived. This measures symbolic execution, not independent reader task performance. The subsequent twelve-source target review finds no independently validated reader-practice outcome in the current tasks; source-scoped S01 is NOT RUN WITH REASON, without a reader-purpose verdict (OPS-S9-OBJECTIVE-1). |
+| Technique-source failed-attempt owner wake | Failure identity, both original archives, caller mode and native ownership | Both335-file archives verify; exact visible-action caller repair and unchanged executor confirmed. First failure remains invalid; completed successor and absent owners show no live freeze. Existing source-scoped S01 disposition retained; no new scientific result (OPS-S9-OBJECTIVE-1). |
+
+| Evidence-backed not-run queue handler, initial validation | Exact named evidence, failure retention and per-card operation matching | Four fixture setups blocked by inaccessible existing Windows pytest temp/cache; affected tests did not execute. Original log/source hashes retained, design lint passes. Retry with fresh project-local temp and no cache (OPS-S9-LAUNCH-1). |
+
+| Evidence-backed not-run queue handler, targeted validation | Original failed evidence, strict card identity, no score fields and changed-file refusal | All thirteen launch/handler checks pass on unchanged sources using project-local temporary storage. Initial setup failure retained; full regression and actual scheduler/reentry still owed (OPS-S9-LAUNCH-1). |
+
+| Complete Stage 9 regression after explicit not-run integration | All installed Stage 9 checks, exact executed source archive and original locks | All 445 tests across 120 files and all 21 locks pass. Native processes exited, source unchanged, zero GPU use; actual queue/reentry rehearsal remains next (OPS-S9-LAUNCH-1). |
+
+| Not-run actual queue pilot, first audit | Native queue/handler reentry and injected-score refusal | Queue job completes with zero scored units and NOT RUN WITH REASON; private audit then fails on wrong timing-field location. Failed audit/source retained; full recovery audit remains owed (OPS-S9-LAUNCH-1). |
+
+| Actual evidence-backed not-run queue handler | Complete commit/identity/evidence audit, unchanged queue and direct-handler reentry, injected-score refusal | Actual operation completes while study remains NOT RUN WITH REASON with zero scored units. Both source failures and initial audit error retained; all 335 sources archived, recovery audit passes. Discarded pilot only (OPS-S9-LAUNCH-1). |
+
+| Current-allocation-aware Stage 9 queue | Missing allocation, prior Gear 2, current pause, revocation and contradictory input checks | Thirty targeted checks and design lint pass. Gear 1/GPU pause recorded separately; original campaign unchanged. Actual CPU-progress/pause/resume and full regression remain owed (OPS-S9-ALLOCATION-1). |
+
+| Actual current-allocation scheduler rehearsal | Missing/explicit pause, independent CPU progress, isolated positive resumption, completed reentry and original clock | Four CPU metadata handlers traverse the actual queue; paused resource/dependency jobs remain pending, existing outputs remain byte-stable, original workstation Gear 1 unchanged. Full source archive verified. No actual GPU workload; full regression next (OPS-S9-ALLOCATION-1). |
+
+| Expanded allocation regression liveness | Exact native owner/child, frozen runner/test sources and watcher health | CPU regression running; terminal wakes registered, no pending acknowledgements or notification failures. No full-suite result inferred; current allocation stays Gear 1/GPU paused (OPS-S9-ALLOCATION-1). |
+
+| Full Stage 9 regression after allocation integration | Complete installed tests, original locks, exact runner/test source archive and native exit | All 453 tests across 121 files and all 21 locks pass. Tested sources unchanged and archived; no GPU workload requested. Final scientific workload/forecast and launch remain owed (OPS-S9-ALLOCATION-1). |
+
+| Delayed repaired-consumer completion delivery | Original queue commit, all archived/loaded sources, complete capsule prediction reconstruction and unchanged precision comparison | Exact historical execution verifies; failed precision remains unscoreable, repetition and timing scopes preserved. No reader rerun or prospective score. Actual post-final delivery recorded separately (OPS-S9-CONSUMER-1). |
+
+| Source-scoped not-run operations for S01/H05/T05/T06 | Real CPU queue, exact reviewed evidence, completed handler/queue reentry | All four operations preserve decisions and completed bytes with zero scored units; original source failure, campaign and Gear 1 allocation retained. Full source archive verified; scientific card outputs and launch remain owed (OPS-S9-LAUNCH-1). |
+
+| B01 independent-unit and seed-aware allocation component | Complete three-seed target grid; directional/equivalence known answers; short-reserve and invalid-input refusal | Twenty-one targeted checks pass. Normal planning remains approximate; short reserves stay exploratory. Packet freezing, actual confirmations and complete closure remain owed (OPS-S9-CONFIRMATION-1). |
+
+| Expanded confirmation-planning regression liveness | Native process identities, current source/test closures and exact archive | CPU regression running; no final verdict yet. Sources/tests frozen; fresh hidden watcher and terminal registrations verified. Last full result remains 453 checks/21 locks (OPS-S9-CONFIRMATION-1). |
+
+| Full confirmation-planning regression | All installed tests, original locks, exact source/test archive and native exits | All 465 tests/122 files and 21 locks pass. Source freeze ends. Actual claim freeze, confirmations and final closure remain owed (OPS-S9-CONFIRMATION-1). |
+
+| Delayed particle-pilot delivery inspection | Original source hashes, complete saved capsules, inputs/support and independent precision arithmetic | Both saved matrices and all original precision decisions verify; rejected long-work setting and first stochastic fixture failure remain rejected/retained. No reader or held-out scoring rerun; actual post-final delivery recorded (OPS-S9-MATRIX-3). |
+
+| B01 manual freeze component | Complete producer-bound forecasts, actual seed binding, source-only reserve metadata and full candidate review | Thirty-three targeted checks pass, including twelve freeze checks; no actual queue acceptance yet. Scope is one-way paired proper log score, with empty and negative claims retained. Queue review waiting and whole rehearsal remain next (OPS-S9-CONFIRMATION-1). |
+
+| B01 queue review pause | Missing manual input, complete upstream dependency coverage and explicit failed-producer inspection | Forty-four targeted checks pass; actual pause/resume and complete closure rehearsal remain owed (OPS-S9-CONFIRMATION-1). |
+
+| Actual B01 freeze and operator-review queue rehearsal | Three separate synthetic seed producers, negative/equivalence/empty review, pending dispatch, immutable resume and full source closure | Five actual CPU jobs complete; all queue/handler reentries byte-stable and 338 source files archived. B02-B04 and scientific launch remain owed (OPS-S9-CONFIRMATION-1). |
+| Confirmation-freeze operational wake inspection | Public/private receipt,338-file archive, five commits/output closures, original review pause/reentry evidence, synthetic arithmetic/ID ordering and thirteen native identities | Original known-answer scope retained, all named processes absent; no handler/model/confirmation/reserve rerun. Current370/1313/156/21 unchanged; full write-through precedes ACK (OPS-S9-CONFIRMATION-1). |
+
+| B02 complete-family numerical calculations | Analytic t-distribution known answers, signed/equivalence/null grids, complete assigned targets/seeds and retained failures | Fifty-four targeted checks pass, including sixteen new checks. Actual reserve execution, source admission and final closure remain owed; the component cannot grant scientific confirmation (OPS-S9-CONFIRMATION-1). |
+
+| Full closure-component regression liveness | Native process identities, exact source/test archive and fresh watcher | Complete CPU suite running; expected 498 checks across 125 files, no final verdict. 339 source files frozen until inspection (OPS-S9-CONFIRMATION-1). |
+
+| Full closure-component regression | Complete test XML, original locks, archived source/test bytes and native exits | All 498 tests/125 files and 21 locks pass; 339 source files archived. Actual B02 reserve execution and B03/B04 remain owed (OPS-S9-CONFIRMATION-1). |
+| Confirmation-closure regression wake inspection |498 XML cases/125 exact archived test files,339 runner sources,21 locks and public/private/output provenance independently verify | Historical wrapper absent; current child identity UNVERIFIED after OS access denial, with original exit receipt retained. No regression/model/reserve rerun; current370/1313/156/21 unchanged (OPS-S9-CONFIRMATION-1). |
+
+| Delayed analysis-pilot delivery inspection | Original archive, actual loaded source/queue commits, complete saved inputs and fresh final arithmetic | Original selection and evaluation verify; no reader rerun or new scientific result. Later installed source changes remain distinct (OPS-S9-ANALYSIS-1). |
+
+| B02 reserve-access boundary | Frozen reader/source metadata, first-open retention, source-byte verification, concurrent writer and canonical output refusal | Forty-four targeted checks pass, including eleven new access checks; actual committed-B01 and reader execution integration remain owed (OPS-S9-CONFIRMATION-1). |
+
+| B02 numerical-baseline executor component | Frozen view/dose/model projection and complete invalid/nonfinite outcome retention | Thirty-five targeted checks pass, including seven new checks; actual full B01-to-reader queue execution and final family assembly remain owed (OPS-S9-CONFIRMATION-1). |
+
+| Actual B01-to-baseline confirmation execution rehearsal | Original input/fitting identities, frozen allocation and contract, real restricted capsules, saved-unit reconstruction and immutable reentry | Three real CPU jobs complete on two explicitly exposed pilot source groups; all source/queue/input/output checks and reentries pass. Final family/lineage/scientific admission remain separate (OPS-S9-CONFIRMATION-1). Actual post-final wake reinspection verifies original archive, commits, output/input identities and saved units; seven named originals absent, no executor rerun ([inspection](../.agent-state/wake-inspections/044165a52ff64020070787d2.json)). |
+
+| B02 complete-family collector | Explicit result mapping, actual closure identity/dependencies, failed and empty family retention | Forty-five targeted checks pass, including six new collector guards; actual full collection rehearsal remains owed (OPS-S9-CONFIRMATION-1). |
+
+| Actual B01-to-B02 complete-family queue rehearsal | Six actual jobs, independent nonempty/empty families, full source/commit/output closure, fresh saved arithmetic and immutable reentry | All six CPU jobs pass; 343 original sources archived. Exposed pilot groups and power shortfall remain explicit; scientific confirmation remains false. Neural execution and final lineage/reporting remain owed (OPS-S9-CONFIRMATION-1). Actual post-final wake verifies original public/private/source/output bindings, saved units and both selection maps; thirteen originals absent, no inference/calculation rerun ([inspection](../.agent-state/wake-inspections/d6465457ac28ca37f39be1c4.json)). |
+
+| Full confirmation-execution regression | Complete XML, original locks, native exits and exact source/test archive | All 522 tests/128 files and 21 locks pass; 343 source files archived. B03/B04, applicable neural execution and scientific launch remain owed (OPS-S9-CONFIRMATION-1). Actual-delivery inspection verifies XML-to-archive mapping, public output binding and both native exits without rerun; current accepted regression remains 1,313 checks ([inspection](../.agent-state/wake-inspections/600e095170787678b1b45447.json)). |
+
+| B03 terminal execution ledger component | Actual invocation/configuration identities, failed-attempt costs, complete dependencies and declared saved-calculation scope | Twenty-eight targeted checks pass, including thirteen new guards; original test setup errors retained. Actual fresh-process whole-queue validation and complete B03 semantic/isolation/coverage checks remain owed (OPS-S9-CLOSURE-1). |
+
+| Actual final-ledger queue rehearsal | Seven actual jobs; distinct native interpreter and compiled-source map; original configurations/commits, complete outputs and both final family calculations | All seven CPU jobs and byte-stable reentries pass; 344 sources archived. Fresh saved-result reproduction is verified; full B03 semantic/isolation/coverage audit and scientific admission remain separate (OPS-S9-CLOSURE-1). Actual-delivery inspection verifies original preceding-job accounting, distinct later-created reproduction process, archived loaded bytes and native exits without rerun ([inspection](../.agent-state/wake-inspections/3320dfe556627c0f2b8ae33f.json)). |
+
+| Full final-ledger regression liveness | Native owner/test-child identities, unchanged source/test archive and hidden watcher heartbeat | CPU regression running; 535 tests expected, no final verdict. All 344 source files and 129 test files frozen; last full result remains 522 tests/21 locks (OPS-S9-CLOSURE-1). |
+
+| Full final-ledger regression | Complete XML, original locks, native exits and exact source/test archive | All 535 tests/129 files and 21 locks pass; 344 source files archived. Complete B03 semantic/isolation/coverage checks, B04 and scientific launch remain owed (OPS-S9-CLOSURE-1). Delayed-delivery inspection verifies exact XML-to-test mapping, public output binding and both native exits without rerun; later1313-check validation remains current ([inspection](../.agent-state/wake-inspections/cc0cf2e0303d4cfda3facb44.json)). |
+
+| Delayed matched-control delivery inspection | Original/repaired source archives, queue/input/output/unit hashes and fresh archived-source reconstruction | Complete canonical controls reconstruct; original cold validator still fails and separate repair remains byte-identical. Latest separate reconstruction-receipt wake also verifies the original audit, loaded archive map and prior evidence without replay; all named owners absent. No reader rerun or new scientific warrant (OPS-S9-CONTROL-1). |
+
+| Final capsule-inspection component | Actual isolated reader/probe processes, copied package/input/output identity, exhaustive denials and retained failed calls | Eighteen targeted checks pass, including fourteen new checks. Complete queue/runtime binding and coverage remain owed; CPython boundary only, no scientific admission (OPS-S9-CLOSURE-1). |
+
+| Queue-bound capsule inspection | Original runtime/probe mapping, explicit successful prerequisite, complete committed call coverage and retained failures | Fifty-six targeted checks pass, including ten new guards; actual full queue/probe execution remains next. No scientific admission follows (OPS-S9-CLOSURE-1). |
+
+| Actual capsule-bound final-audit queue rehearsal | Exact package probe, explicit reader prerequisite, complete saved calls and separate-process audit reproduction | All eight CPU jobs, ten actual denials, both saved-call inspections and byte-stable reentries pass; 346 sources archived. Late baseline-v4 wake independently verifies archived source, original probe/saved calls and fresh-process result without reader/probe reexecution; eighteen original processes absent. Other runtime/storage coverage and full semantic/final closure remain owed (OPS-S9-CLOSURE-1). |
+
+| Full capsule-integration regression | Complete XML, original locks, native exits, exact source/test archive and watcher health | All 559 tests/131 files and 21 locks pass; 346 source files archived. Other runtime/storage coverage, semantic/final closure and scientific launch remain owed (OPS-S9-CLOSURE-1).  Delayed owner wake independently rechecks exact archive/XML/output closure and native exits; current1313-check closure unchanged, no rerun or scientific acceptance ([inspection](../.agent-state/wake-inspections/3671f98634cf6a09d791c4f1.json)). |
+
+| Declared capsule-runtime coverage | Actual eleven-package denial probes and changed transport/materializer/copied-source refusals | Seventy-one targeted checks pass, fifteen new. Actual whole queue rehearsal and full semantic/final closure remain owed (OPS-S9-CLOSURE-1). |
+
+| Actual complete runtime-probe queue | Eleven real CPU jobs, exact source/transport/package bindings and complete native/commit/output/reentry inspection | Every package denies all ten actions and preserves its sentinel; all reentries pass. Full normal-call/semantic/final closure remains owed (OPS-S9-CLOSURE-1).  Delayed owner wake independently verifies all archived bindings/denial records/reentry hashes and23 native exits without rerunning; current closure unchanged ([inspection](../.agent-state/wake-inspections/a65ffa034ce8ae4bd0b441ac.json)). |
+
+| Baseline semantic-audit first targeted invocation | Read-only source/fit/capsule/unit reconstruction and failed/unrun queue guard | Not accepted: wrong production import and two path-collection fixture errors; original three failures retained. Repair before actual execution (OPS-S9-CLOSURE-1). |
+
+| Baseline semantic-audit targeted recovery | Already-open source/fitting identity, exact projected capsule input/task, all units/calls/calculations and retained failures | All 103 targeted checks pass, fourteen new; first three failures and original bytes retained. Actual complete queue reconstruction remains next (OPS-S9-CLOSURE-1). |
+
+| Actual source-bound baseline final audit | Original B01 source/fitting/view/dose/task lineage, every saved call/unit and distinct-process semantic reproduction | Complete eight-job queue and all reentries pass; both baseline units/calls reconstruct read-only, 347 sources archived. Other adapters and full final scientific closure remain owed (OPS-S9-CLOSURE-1).  Delayed owner wake verifies original frozen inputs, all saved unit/call bindings and63-file distinct-process audit record;18 originals absent. Current changed reserve-access helper is not substituted, no recalculation or scientific acceptance ([inspection](../.agent-state/wake-inspections/71c55114359c1360ed1607ba.json)). |
+
+| Full baseline-semantic regression liveness | Native regression/watcher identities, fresh heartbeat and complete source/test archive | CPU suite running: 588 checks expected across 132 files, no final verdict. All 347 sources and 132 tests frozen; last full result is 559 tests/21 locks (OPS-S9-CLOSURE-1). |
+
+| Delayed repaired-control delivery inspection | Both original source archives, exact queue/input/output/unit hashes and prior cold-reconstruction evidence | Repaired controls remain complete and byte-identical; original validator failure retained. Actual owner delivery recorded without a reader rerun or new scientific warrant (OPS-S9-CONTROL-1). |
+
+| Full baseline-semantic regression | Exact historical source/test archive, complete XML/log reconciliation, original locks and native exits | Original 588 checks across 132 test files and 21 locks independently reverified on actual owner delivery; all 347 archived source files match, both original processes absent. No rerun; current validation remains 1,313 checks/156 files/21 locks. Scientific launch and full closure unaccepted (OPS-S9-CLOSURE-1; [.agent-state/wake-inspections/1442d66f1ec1aa0fd9caf1a9.json](../.agent-state/wake-inspections/1442d66f1ec1aa0fd9caf1a9.json)). |
+
+| Human-adapter final semantic composition | Original producer/fitting/lane/capsule/call/unit links for revision, record, code and B-roll | 123 targeted checks pass, twenty new. Actual complete queue validation and raw-source replay remain owed (OPS-S9-CLOSURE-1). |
+
+| Human closure rehearsal path refusal | Original scope-error logs, complete attempt/source/output/disposition evidence and saved fresh-process ledger | Eight original refusals/twelve dependent unrun jobs and eight independent completions reverified; all 34 named original processes absent. Existing corrected-path completion bindings retained. NOT_RUN guard files equal dispositions, not executed results; initial inspector assumption retained and corrected. No rerun or scientific admission (OPS-S9-CLOSURE-1; [inspection](../.agent-state/wake-inspections/8cec6a58af74eaca6fe57789.json)). |
+
+| Human closure rehearsal liveness | Native ownership, exact archived sources, hidden watcher identity and heartbeat | Corrected CPU queue running; all 348 source files frozen. No final execution verdict (OPS-S9-CLOSURE-1). |
+
+| Actual human-adapter final audit | Four real preparation/fitting/prediction pipelines, exact package probes and fresh-process saved-result reconstruction | Original 28-job CPU rehearsal and retained reentry assertions verified again on actual wake: 348 archived sources, 38 saved calls, eight human output sets and 85 fresh-interpreter compiled sources; all 58 named original processes absent. No numerical recomputation or rerun. Independent per-reentry hash maps were not saved. Exposed fixtures remain ineligible for scientific confirmation; raw-source replay and full scientific closure remain owed (OPS-S9-CLOSURE-1). |
+
+| Launch isolation-operation roster | Shared explicit probe roster with distinct rehearsal package signatures | 128 targeted checks pass, five new; missing/unknown/duplicate package arguments refuse. Scientific acceptance gates unchanged (OPS-S9-CLOSURE-1). |
+
+| Full human-semantic regression liveness | Actual regression/watcher ownership, source/test archive and heartbeat | CPU suite running: 613 checks expected/133 files; no final verdict. All 348 sources and 133 tests frozen; last full result588/21 locks (OPS-S9-CLOSURE-1). |
+
+| Full human-semantic regression | Complete XML, original locks, native exits, exact source/test archive and watcher health | Historical 613 tests/133 files and 21 locks pass; 348 source files archived. Actual wake inspection verifies every archived byte, test-case mapping, log completion, helper/output binding and both native exits without rerun. Current accepted record remains 1,313 checks/156 files; full scientific closure remains owed (OPS-S9-CLOSURE-1). |
+
+| Controlled-consumer delayed delivery inspection | Original interrupted/resumed queue, archived sources, preserved units and actual capsule bytes | All original identities verify; failed precision and uncached partial capsule retained. Actual delivery recorded, no reader rerun; mixed/nested final-audit storage remains owed (OPS-S9-CONSUMER-1). |
+
+| Mixed/nested capsule storage | Every committed byte, cache/capsule/sidecar separation and original multiple-package probes | 146 targeted checks pass, eighteen new, with actual two-package probe/call fixture. Original interrupted storage inventory remains byte-stable; uncached partial work retained without admission. Actual queue integration next (OPS-S9-CLOSURE-1). |
+
+| Actual mixed-package storage audit | Original probes, full nested committed bytes and fresh-process inventory | Actual wake verifies ten CPU commits, 349 archived sources, seven saved calls, both package probes, five nested capsule/cache owners and 65 fresh-interpreter compiled sources. All 22 named original processes absent; unchanged read-only inventory agrees. Reentry assertions retained without independent per-reentry hash maps. Exposed pilots and CPython boundary do not establish final scientific closure (OPS-S9-CLOSURE-1). |
+
+| Full mixed-storage regression liveness | Original source/test archive, native ownership and watcher | The complete CPU suite is running, with 631 tests expected across 134 files; last full result remains 613 tests and 21 locks. Both native owners are live. All 349 source files and 134 test files remain frozen until final inspection. Full scientific closure remains owed (OPS-S9-CLOSURE-1). |
+
+| Full mixed-storage regression completed | Original source/test archive, native ownership and watcher, XML/locks | All 631 tests across 134 files and all 21 original locks pass in 205.757146 test-process wall seconds. Native owners exited and every archived source/test byte matches. Source freeze ends. Full scientific closure remains owed (OPS-S9-CLOSURE-1).  Actual delayed owner wake rechecks the complete archive, XML mapping, original locks and native exits without rerunning; the distinct public-review timestamp is verified against its original constructor/receipt. Current accepted stack remains 1,313 checks (inspection 88e958a1e97ec812e540a86d). |
+
+| Original training-failure wake | Original failed queue/configuration/compiled source/dispositions and archived repair checkpoints | Original import failures remain intact before optimization; repaired pilot hashes verify separately. No training or GPU work rerun (OPS-S9-QUEUE-3). |
+
+| Prepared-source reconstruction | Original queue/source identity, projections, allocations and exclusions across six human routes | 182 targeted checks pass, 21 new; actual corpus/queue replay pending. No reader or new reserve opening (OPS-S9-CLOSURE-1). |
+
+| Actual prepared-source final audit | Six original human projections/allocations/exclusions, original payload bytes and fresh-process reconstruction | Fourteen CPU jobs and all reentries pass; independent read-only inspection agrees, 350 sources archived. Raw download parsing and full scientific closure remain owed (OPS-S9-CLOSURE-1).  Delayed owner wake verifies original payload/commit/audit bindings without reconstruction or reader execution; 29 named identities absent and one denied native lookup remains unverified without retry ([inspection](../.agent-state/wake-inspections/ca86a2c4cb6391f4939c6c7f.json)). |
+
+| Full prepared-source regression liveness | Original source/test archive, native ownership and watcher | The complete CPU suite is running, with 652 tests expected across 135 files; last full result remains 631 tests and 21 locks. Both native owners are live. All 350 source files and 135 test files remain frozen until final inspection. Full scientific closure remains owed (OPS-S9-CLOSURE-1). |
+
+| Full prepared-source regression completed | Original source/test archive, native ownership and watcher, XML/locks | All 652 tests across 135 files and all 21 original locks pass in 205.687735 test-process wall seconds. Native owners exited and every archived source/test byte matches. Source freeze ends. Full scientific closure remains owed (OPS-S9-CLOSURE-1). Delayed wake independently rechecks the full archive, exact XML mappings, logs, distinct review time and native exits without a rerun; current accepted regression remains 1,313 checks/156 files ([inspection](../.agent-state/wake-inspections/0b222f22ba8f2d59e8e7e1f6.json)). |
+
+| Repaired training wake inspection | Original queue commits, archived compiled sources, corpus/exposure/epochs and checkpoint bytes | Both discarded fits reconcile; original failed lineage retained. Historical optimizer/validation audit distinguished from current byte checks. No GPU work or new fitting (OPS-S9-QUEUE-3). |
+
+| Coverage test isolation | Combined coverage and capsule fixtures | First run: 183 pass, 3 fixture-path failures. Original source/tests archived; fixture-only repair next (OPS-S9-CLOSURE-1). |
+
+| Final card/attack execution coverage | Manual map, original queue states and exact not-run decisions; audit/packet tail separate | 186 checks pass, 28 new, after retained fixture-isolation failures. Actual queue proof next; no scientific outcome inference (OPS-S9-CLOSURE-1). |
+
+| Actual final-coverage queue | Manually mapped jobs, actual failures/unrun decisions and separate-process reconstruction | Eleven-job CPU rehearsal retains all dispositions and costs; independent audit/reentries verify,351sources archived. Full stage coverage, attack meaning and public claims remain separate (OPS-S9-CLOSURE-1). Delayed wake verifies original attempts, dispositions, archived separate-process evidence and independently rebuilt subset counts without current changed-inspector execution; one historical native identity remains unverified ([inspection](../.agent-state/wake-inspections/826e57e06a775878d2c92b06.json)). |
+
+| Full coverage regression liveness | Original source/test archive, native ownership and watcher | The complete CPU suite is running, with 680 tests expected across 136 files; last full result remains 652 tests and 21 locks. Both native owners are live. All 351 source files and 136 test files remain frozen until final inspection. Full scientific closure remains owed (OPS-S9-CLOSURE-1). |
+
+| Full coverage regression completed | Original source/test archive, native ownership and watcher, XML/locks | All 680 tests across 136 files and all 21 original locks pass in 223.350982 test-process wall seconds. Native owners exited and every archived source/test byte matches. Source freeze ends. Full scientific closure remains owed (OPS-S9-CLOSURE-1). Delayed wake independently verifies exact archived test/source/log/output bindings and native exits without rerunning; current accepted regression remains 1,313 checks ([inspection](../.agent-state/wake-inspections/a12afead60ba37a1b99653f8.json)). |
+
+| Historical collection/packing wake inspection | Original queue/source/capsule/request/state/packing evidence | Saved transitions, teacher continuations, fixed expert halves and target masks reconcile read-only. Missing old nested compiled-source receipt remains explicit; no model rerun (OPS-S9-COLLECT-1). |
+
+| Final manual curator packet | Original audit and committed evidence; fixed case types/seed, scoped readiness and claims, operator review pause | Historical 225 checks/34 packet checks, exact source/test archive and public receipt independently verified on 2026-09-09; original owner/time not recorded. Subsequent heartbeat defect and repaired actual queue remain separately recorded. Scientific closure remains unaccepted (OPS-S9-PACKET-1). |
+
+| Final packet manual pause | Original archive, exact delayed-event digests, current terminal commits/dispositions and original owner identities | Both original pause and later cleared-pause deliveries inspected; pause inactive, original queue terminal, owners absent. Terminal completion includes the retained heartbeat failure and unrun dependent; separate repair verified. No new review/resume or scientific acceptance (OPS-S9-PACKET-1). |
+
+| Final packet actual execution defect | Original queue/source/ledger/draft evidence and native exits | Full-context comparison wrongly includes the active heartbeat. Original failed packet retained; repair and new queue lineage required (OPS-S9-PACKET-1). |
+
+| Final packet stable-input repair | Prior terminal states and audited costs exclude active heartbeat only | 226 targeted checks pass, including 35 packet guards; actual separate queue remains owed. Original failure retained (OPS-S9-PACKET-1). |
+
+| Final packet manual pause | Original archive, exact delayed-event digests, current terminal commits/dispositions and original owner identities | Both original pause and later cleared-pause deliveries inspected; pause inactive, original queue terminal, owners absent. Terminal completion includes the retained heartbeat failure and unrun dependent; separate repair verified. No new review/resume or scientific acceptance (OPS-S9-PACKET-1). |
+
+| Final packet actual queue and immutable reentry | Separate archived CPU lineage, original audit/evidence, manual pause/resume and complete handler/queue reentry | Twelve jobs reach expected fixture states; original failed draft preserved. Independent context and packet reconstruction agree. Scientific closure remains separate (OPS-S9-PACKET-1). |
+
+| Full packet regression liveness | Original source/test archive, native processes and hidden watcher | The complete CPU suite is running, with 715 tests expected across 137 files; last full result remains 680 tests and 21 locks. Both native owners are live. All 353 source files and 137 tests remain frozen until final inspection. Scientific closure remains owed (OPS-S9-PACKET-1). |
+
+| Full packet regression completed | Original source/test archive, native processes and hidden watcher, XML/locks | All 715 tests across 137 files and all 21 original locks pass in 207.225861 test-process wall seconds. Native owners exited; source freeze ends. Scientific closure remains owed (OPS-S9-PACKET-1).  Delayed owner delivery independently verifies original XML/test/source/log/output bindings and native exits; newer validation remains separate ([inspection](../.agent-state/wake-inspections/e1d8b7ee9b406d48b50a6fa0.json)). |
+
+| Historical compiled-service wake inspection | Both original and repaired queue/source/nested compilation/capsule/request/readout/checkpoint records | Original refused completions and later accepted commits verify without model/tokenizer reruns. Historical base/long-source audits remain separately attributed (OPS-S9-EXECUTION-1). |
+
+| Nested-service final audit v1 | Original storage, nested compilation, lifecycle and saved request accounting | 255 of 258 checks pass; three valid-request fixture cases refuse because the fixture hashes the pre-serialization identity insertion order. The actual reader receives canonically saved task JSON, so its nested identity order differs. Original failed XML, source and tests remain archived; repair the fixture to hash its saved task identity, preserving the production wire guard. Fixture repair and targeted rerun are next. (OPS-S9-CLOSURE-1).  Delayed owner delivery verifies the original failure and separately completed same-roster fixture repair; that repair is complete, not a current next step. Original native identity and completion time were not recorded; no rerun ([inspection](../.agent-state/wake-inspections/f8311bb91ef2e568f20defba.json)). |
+
+| Nested-service final audit v2 | Original storage, nested compilation, lifecycle and saved request accounting | All 258 targeted checks pass, including 32 new service guards. The fixture now constructs its expected wire request from the actual canonically saved identity, as the reader does. The original three fixture failures remain archived; production guards are unchanged by that repair. An actual CPU queue must now reproduce historical service inspection in the final ledger and a separately compiled interpreter. (OPS-S9-CLOSURE-1).  Delayed owner delivery verifies the single saved-identity fixture correction and unchanged production bytes. Original native identity and completion time were not recorded; no rerun ([inspection](../.agent-state/wake-inspections/f8311bb91ef2e568f20defba.json)).  Its own completion wake independently verifies original archive/XML/output bytes and actual delivery; no rerun or scientific acceptance ([inspection](../.agent-state/wake-inspections/63197ad9010515ec06b3f351.json)). |
+
+| Historical reader protocol adapter | Exact original versus current source | Actual final audit refuses an unreviewed older reader. Timeout-only source difference inspected; explicit bounded compatibility and separate queue proof next. Failure retained (OPS-S9-CLOSURE-1). |
+
+| Nested-service final audit v3 | Original storage, nested compilation, lifecycle and saved request accounting | All 259 targeted checks pass, including 33 service guards. The actual archived reader was compared against the current one; only the bounded timeout plumbing differs and request payload bytes are unchanged. The adapter explicitly accepts both reviewed hashes and refuses an unknown variant. Original fixture failures and the actual compatibility refusal remain archived. A method lesson records the historical compatibility boundary. An actual CPU queue must now reproduce historical service inspection in the final ledger and a separately compiled interpreter. (OPS-S9-CLOSURE-1). |
+
+| Actual nested-service final audit | Original service bytes and wire requests through a fresh final-ledger process | Eleven-job CPU rehearsal and independent reconstruction pass; old missing compilation proof and failed commits remain explicit. All reentries preserve bytes (OPS-S9-CLOSURE-1). |
+
+| Full nested-service regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 748 tests expected across 138 files; last full715/137/21. Native owner and child are live. All354sourcefiles and138testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Repaired compiled-service wake inspection | Both original and repaired queue/source/nested compilation/capsule/request/readout/checkpoint records | Original refused completions and later accepted commits verify without model/tokenizer reruns. Historical base/long-source audits remain separately attributed (OPS-S9-EXECUTION-1). |
+
+| Full nested-service regression completed | Original source/test archive, native owners, watcher, XML and locks | All 748 tests across 138 files and all 21 original locks pass in 208.892867 test-process seconds. Native owners exited; source freeze ends. Full scientific closure remains separate (OPS-S9-CLOSURE-1). Actual owner delivery independently checked2026-09-09 against exact archived sources/tests, original locks and exited owners; no rerun or current scientific acceptance ([inspection](../.agent-state/wake-inspections/b8373745586aa78ce27dbe66.json)). |
+
+| ArgRewrite raw-source final audit | Complete raw input, original parser archive, canonical units/exclusions and saved preparation | 282 targeted checks pass,19new; actual workbook/whole-queue proof next. No fitting or new reserve (OPS-S9-CLOSURE-1). Historical actual delivery independently verifies355 source files/17 tests and the282 recorded checks;19 composition fixtures mock reconstruction/commits, with original native identity unrecorded. No rerun or scientific acceptance ([inspection](../.agent-state/wake-inspections/345c6ea6783989a3cc88548b.json)). Scientific launch/final raw inspection now requires all supported human preparations, correct parser/dataset and separate folds. All366 affected checks pass, including16 new roster guards; first helper containment failure retained, production unchanged across rerun. Full B03 remains unaccepted. The current686-job draft explicitly binds all13 human preparations to original raw-parser archives and preparation receipts; independent declaration inspection passes. |
+
+| Raw-source queue and live status read | Original source-manifest pointer and Windows shared JSON access | Original missing-manifest and status-read failures retained; separate scoped retry/archive-pointer repair and actual raw-v3 reconstruction previously verified. Delayed raw-v1 delivery independently verifies355 sources, all terminal commits/dispositions,11 attempts and24 native exits; no final-ledger completion or whole-queue reentry is inferred (OPS-S9-CLOSURE-1). |
+
+| Stage 9 durable record read repair | Scoped live_status.py retry preserves historical common.py identity | Delayed scoped completion independently verifies324 checks/356 sources, including12 read guards and an actual Windows handle; original overlap-audit sources remain exact. Original broad-repair failure and separate raw-v3 queue retained. No historical native/time/lock records inferred, no scientific acceptance (OPS-S9-CLOSURE-1).  Delayed raw-v3 inspection verifies all original commits,356-source archive and76-source fresh ledger;24 native identities absent,565728/134333319529453181 denied and unverified without retry. |
+
+| Raw-source historical dependency refusal | Shared read repair against exact original overlap-audit source | Case producer correctly refuses changed common source; final ledger retains failure. Restore exact shared bytes and isolate live-status retry; original evidence retained (OPS-S9-CLOSURE-1). |
+
+| Stage 9 scoped live-status read repair | Bounded same-path Windows access/sharing retry; persistent denial and invalid evidence remain failures | 324 targeted checks pass, including 12 new and actual exclusive Windows handle; separate live queue next (OPS-S9-CLOSURE-1). |
+
+| Actual ArgRewrite raw-source final audit | Complete workbooks/drafts, canonical exclusions, saved essay/ledger/summary and original case linkage | Twelve-job CPU rehearsal, fresh-process and independent reconstruction agree; all reentries and original payloads preserve bytes. Other raw parsers remain separate (OPS-S9-CLOSURE-1). |
+
+| Full raw-source regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 779 tests expected across 140 files; last full748/138/21. Native owner and child are live. All356sourcefiles and140testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Full raw-source regression completed | Original source/test archive, native owners, watcher, XML and locks | All 779 tests across 140 files and all 21 original locks pass in 209.723065 test-process seconds. Native owners exited; source freeze ends. Full scientific closure remains separate (OPS-S9-CLOSURE-1).  Actual delayed owner delivery independently verifies original archives, XML, locks, helper and public receipt; native inspection limits retained. No rerun or current scientific acceptance. |
+
+| Original neural-operation wake inspection | Original archived pure operation functions, complete calls/units/requests and queue/nested compilation | Both lineages reconstruct read-only with original early-stop and realized reset limits retained; no model/tokenizer rerun (OPS-S9-OPERATIONS-1). |
+
+| ScholaWrite raw-source final audit | Original released stream, projects, source-scoped authors, successor/exclusion/summary and actual case binding | Historical349 targeted checks/18new verify against original archives, XML, helper and public receipt on actual delayed delivery. Native owner identity was not recorded; no lock run belongs to this targeted receipt. Later complete-release/queue validation is separate; auxiliary-byte provenance remains limited (OPS-S9-CLOSURE-1). |
+
+| ScholaWrite raw-source rehearsal liveness | Historical source/owner/watcher snapshot | Superseded by the completed rehearsal and actual-delivery inspection below. All27 recorded original process identities are now absent; this row describes no running queue or current source freeze (OPS-S9-CLOSURE-1). |
+
+| Actual ScholaWrite raw-source final audit | Complete released rows/projects, source-scoped authors, successor/exclusion/summary and original case linkage | Original13-job CPU rehearsal retains11 complete/1 failed/1 blocked, both raw origins and82-source fresh ledger verify on actual delayed delivery;27 native owners absent. Original reentry assertions/logs retained, without independent before/after maps. No rerun; historical source/claim limits remain (OPS-S9-CLOSURE-1). |
+
+| Full ScholaWrite raw-source regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 797 tests expected across 141 files; last full779/140/21. Native owner and child are live. All356sourcefiles and141testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Later neural-operation wake inspection | Original archived pure operation functions, complete calls/units/requests and queue/nested compilation | Both lineages reconstruct read-only with original early-stop and realized reset limits retained; no model/tokenizer rerun (OPS-S9-OPERATIONS-1). |
+
+| Full ScholaWrite raw-source regression completed | Original source/test archive, native owners, watcher, XML and locks | All 797 tests across 141 files and all 21 original locks pass in 210.620820 test-process seconds. Native owners exited; source freeze ends. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| CoAuthor raw-source final audit | Original logs/task metadata, UTF-16 replay, session/exclusion/summary and actual case binding | 381 targeted checks pass,20new; full source replay and actual queue pending. Historical source bundle origins and mixed-agency/count limitations retained (OPS-S9-CLOSURE-1). |
+
+| CoAuthor raw-source rehearsal liveness | Native owners, source archive, queue heartbeat and hidden watcher | The fourteen-job CPU rehearsal and inspection helper remain live; original source archives, current source bytes, active worker identities/heartbeats and the hidden watcher verify. The final raw-source audit and subsequent immutable reentries have not yet been accepted. All356sourcefiles remain frozen; no GPU work is requested. (OPS-S9-CLOSURE-1). |
+
+| Original finite-query wake inspection | Archived handler, finite rules, complete cases/calls/readouts, resident compilation/requests and queue | Both original lineages reconstruct read-only; source aliases and historical verification scope retained. Active CPU audit source/native/watcher liveness also verifies (OPS-S9-KERNEL-1). |
+
+| Original broad-generation wake inspection | Archived source cohorts, full-log handler/calculation, all saved calls, adapter bytes and resident/queue provenance | Original complete evidence reconstructs read-only; population reuse and historical base/tokenizer checks retain their scope. Active CPU owner/source/watcher liveness verifies (OPS-S9-GENERATION-1). |
+
+| Original choice-and-repair wake inspection | Archived dispatcher, source cases, permitted inputs, repair executor, complete calls/readouts and queue/service lineage | All original whole units reconstruct read-only; assistance boundaries, case reuse and historical verification scope retained. Current CPU owner/source/watcher liveness verifies (OPS-S9-REPAIR-1). |
+
+| Original repair-baseline refusal wake inspection | Archived source constructor, prerequisite predicate, complete preparation and terminal dispositions | Original construction and gate refusal reproduce read-only; fitting/prediction/selection remain NOT RUN. Historical repaired lineage remains separate. Current CPU owner/source/watcher liveness verified (OPS-S9-REPAIR-1). |
+
+| Repaired baseline wake inspection | Original training/parameters, public-only capsules, whole units, selection and compiled queue source | Complete original evidence reconstructs read-only; historical refitting and reentry remain separately attributed, refused predecessor retained. Current CPU owner/source/watcher liveness verifies (OPS-S9-REPAIR-1). |
+
+| CoAuthor queue-terminal liveness inspection | Historical observation while the post-run helper was active | Superseded by complete helper evidence and actual owner-delivery inspection. All29 recorded original owners are now absent; no current source freeze or running queue is implied. OPS-S9-CLOSURE-1. |
+
+| Original repair-admission refusal wake inspection | Complete source attempts, archived exposure guard, saved neural/baseline calls and terminal dispositions | Original refusal and independent execution reconstruct read-only; final admission remains NOT RUN. CoAuthor post-run owner/source/watcher remains live (OPS-S9-REPAIR-1). |
+
+| Repaired admission source-refusal wake inspection | Complete construction/exclusion inventory, distinct public inputs, fixed yield gates and blocked dispositions | Original source-gate refusal reproduces read-only; calibration and final admission remain NOT RUN. CoAuthor post-run owner/source/watcher remains live (OPS-S9-REPAIR-1). |
+
+| Actual CoAuthor raw-source final audit | Complete original logs/task metadata, UTF-16 session replay, exclusions/summary and original case linkage | Actual delayed parent-helper delivery verifies14 original jobs/13 attempts,12 complete/1 failed/1 blocked;356 archived sources,84 compiled fresh-ledger sources and all three original case lineages.29 native owners absent. Original reentry logs/assertions retained without independent before/after maps. No rerun; mixed agency/exposure/writer-count and source limitations remain. OPS-S9-CLOSURE-1. |
+
+| Original historical-generation wake inspection | Original exposed battery and reference, source/package/capsule/service/queue identities and full saved calculations | Complete historical evidence reconstructs read-only; original exposure and no-admission boundaries retained (OPS-S9-GENERATION-1). |
+
+| Full CoAuthor raw-source regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 817 tests expected across 142 files; last full797/141/21. Native owner and child are live. All356sourcefiles and142testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Full CoAuthor raw-source regression completed | Original source/test archive, native owners, watcher, XML and locks | All 817 tests across 142 files and all 21 original locks pass in 218.596359 test-process seconds. Native owners exited; source freeze ends. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Original baseline and choice-analysis wake inspection | Complete saved baseline forecasts, separate rival selection, paired profiles and original neural provenance | All original complete calculations reconstruct read-only; no refit, new capsule, reader call or scientific admission (OPS-S9-CHOICE-1). |
+
+| IteraTeR scoped raw-source audit v1 | Consumed raw rows, original repair and actual producer binding; unused reserve payloads unparsed | Two positive fixture checks fail among 409 checks because duplicate-component member order was constructed before JSON key canonicalization; both stop at the unchanged identity comparison. The remaining checks pass. Correct fixture construction to read its saved parent identity before reconciliation, then rerun against a separate retained archive. Production guards remain unchanged.  OPS-S9-CLOSURE-1. |
+
+| IteraTeR scoped raw-source audit v2 | Consumed raw rows, original repair and actual producer binding; unused reserve payloads unparsed | All 409 targeted checks pass, including nineteen new guards. Actual consumed-source queue and fresh-process reconstruction are next.  OPS-S9-CLOSURE-1. |
+
+| Actual IteraTeR consumed-source audit | Original raw rows, annotations, offsets, group repair and links in the completed case input | Twelve-job CPU rehearsal and independent fresh-process reconstruction pass; unused reserve payloads unparsed, original cases and every reentry byte-identical. Full raw-file hashes verified; unconsumed rows outside semantic reconstruction (OPS-S9-CLOSURE-1). |
+
+| Full IteraTeR raw-source regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 836 tests expected across 143 files; last full817/142/21. Native owner and child are live. All357sourcefiles and143testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Full IteraTeR raw-source regression completed | Original source/test archive, native owners, watcher, XML and locks | All 836 tests across 143 files and all 21 original locks pass in 216.533023 test-process seconds. Native owners exited; source freeze ends. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Recipe-selection owner wake inspection | Archived pure selection, original fitting commits/corpora/exposure/epochs/checkpoint bytes and saved complete selection | Both original discarded fitting records reconstruct read-only; historical optimizer/tokenization/reentry evidence separately attributed. No empirical three-seed ranking or scientific recipe admission (OPS-S9-RECIPE-1). |
+
+| ArXivEdits archival raw audit | Explicit historic preparation identity, original raw spans/alternatives, rights, correspondence, exclusions and paper counts | 437 targeted checks pass,25new; original complete-source and actual queue/fresh-process validation pending. Three-paper scope preserved (OPS-S9-CLOSURE-1). |
+
+| Actual ArXivEdits archival raw audit | Original canonical/alternative annotations, rights/correspondence, exclusions, spans, paper lineages and summary | Complete original source reconstructs in the twelve-job CPU queue, fresh interpreter and independent inspection; all reentries byte-identical. Three-paper development-only scope retained, no new case-producer execution inferred (OPS-S9-CLOSURE-1). |
+
+| Full ArXivEdits raw-source regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 861 tests expected across 144 files; last full836/143/21. Native owner and child are live. All358sourcefiles and144testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Full ArXivEdits raw-source regression completed | Original source/test archive, native owners, watcher, XML and locks | All 861 tests across 144 files and all 21 original locks pass in 190.997244 test-process seconds. Native owners exited; source freeze ends. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Current Stage 9 allocation | Direct owner Gear 2 instruction, read through scheduler; original campaign hash unchanged | GPU pause removed on 2026-09-08. Scientific launch remains unaccepted; no new hardware occupancy claimed (OPS-S9-ALLOCATION-1). |
+
+| Gear 2 liveness wake | Native owner, source hashes, current allocation and non-test queue statuses | Watcher healthy; actual wake delivered; scientific queue remains unlaunched. One old completed owner query remains unresolved (OPS-S9-ALLOCATION-1). |
+
+| Consumed B-roll and CommitBench raw audits | Original source archive and completed case producer; bounded response decoding | 351 targeted checks and design lint pass, including 34 new known-answer/refusal cases. Actual queue/fresh-process acceptance next; original grouping limits remain (OPS-S9-CLOSURE-1). |
+
+| Actual combined B-roll/CommitBench raw audit | Original raw bytes, complete consumed lanes, producer and fresh-process bindings | Thirteen-job CPU queue, independent reconstruction and all reentries pass. No unselected response decoding; original grouping limits explicit (OPS-S9-CLOSURE-1). |
+
+| Full combined external raw-source regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 895 tests expected across 145 files; last full861/143/21. Native owner and child are live. All359sourcefiles and145testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Full combined external raw-source regression completed | Original source/test archive, native owners, watcher, XML and locks | All 895 tests across 145 files and all 21 original locks pass in 205.006073 test-process seconds. Native owners exited; source freeze ends. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Revision-handler actual owner wake | Original archive, compiled commits, prepared source separation, fitted inputs, saved capsules and full selection/analysis | Original discarded human pipeline reconstructs read-only; historical fitting/reentry evidence separately attributed. No new scientific admission (OPS-S9-HUMAN-1). |
+
+| Three-seed choice confirmation component | Complete source/seed contracts, paired choice support, failed/nonfinite records and synthetic installed execution/reentry | All420affected checks pass; no actual scientific fits or reserve used. Discovery export and actual B01 integration pending (OPS-S9-CONFIRMATION-1). |
+
+| Three-seed choice confirmation component | Complete source/seed contracts, paired choice support, failed/nonfinite records and synthetic installed execution/reentry | All428affected checks pass; no actual scientific fits or reserve used. Constructor/export/B01 projection and interrupted resumption fixtures pass; actual archived-call projection and whole-queue integration pending (OPS-S9-CONFIRMATION-1). |
+
+| Neural confirmation discovery export on original real-model calls | Original archived source/queue/resident/capsule/whole-unit reconstruction, new complete forecast projection and original B01 paired consumer | Four original structured-choice jobs reconcile read-only; same two exposed source units and original discarded fits retain their scope. No new inference or scientific seed evidence (OPS-S9-CONFIRMATION-1). |
+
+| Full neural confirmation regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 926 tests expected across 146 files; last full895/145/21. Native owner and child are live. All360sourcefiles and146testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CONFIRMATION-1). |
+
+| Full neural confirmation regression completed | Original source/test archive, native owners, watcher, XML and locks | All 926 tests across 146 files and all 21 original locks pass in 214.307201 test-process seconds. Native owners exited; source freeze ends. Full scientific closure remains separate (OPS-S9-CONFIRMATION-1). |
+
+| Profile-handler actual owner wake | Both original source archives, queue commits, failed exceptions and complete profile reconstruction | Original failure and corrected historical lineage reproduce read-only; no new model calls or scientific admission (OPS-S9-PROFILES-1). |
+
+| Neural confirmation semantic closure | Frozen opened source, complete seed grid, actual saved capsule inputs and full calculation | All449affected checks pass,21new; constructed sources/synthetic calls only. Separate-interpreter and whole-queue integration remain owed (OPS-S9-CLOSURE-1). |
+
+| Neural closure fresh-process helper v1 | Constructed-source/synthetic-call reconstruction | First worker completed; parent process query failed with Windows error31, second fixture unrun. Original evidence retained, inspection recovery owed (OPS-S9-CLOSURE-1). |
+
+| Neural confirmation fresh-interpreter component | Both constructed/synthetic complete and failed-call fixtures, actual compiled sources and saved reconstruction | Both reproduce; original process-query helper failure retained and first worker not rerun. Process waits completed; later PID queries explicitly unverified. Whole scientific queue remains owed (OPS-S9-CLOSURE-1). |
+
+| Full neural semantic closure regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 947 tests expected across 147 files; last full926/146/21. Native owner and child are live. All361sourcefiles and147testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Full neural semantic closure regression completed | Original source/test archive, native owners, watcher, XML and locks | All 947 tests across 147 files and all 21 original locks pass in 226.812373 test-process seconds. Worker waits completed; post-exit PID observations retained with any query limitations. Source freeze ends. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+
+| Package-calibration actual owner wake | Original source, model bytes, saved capsules, resident requests and all consumers | All six jobs and99saved calls reconstruct read-only. First inspector order mismatch retained and repaired using actual consumed JSON; historical tokenization/reentry separately attributed. Scientific admission unchanged (OPS-S9-PRECISION-1). |
+
+| Discarded neural confirmation execution contract | Actual pilot reader provenance, original paired forecasts, access scope and shared execution/resumption | All463affected checks pass,14new. Scientific three-seed guards retained. Actual compiled reader and complete queue next (OPS-S9-CONFIRMATION-1). |
+
+| Confirmation producer binding | Original manifest references resolve only to terminal committed producer bytes; declaration and resolved hashes both freeze | 473 affected checks pass, including ten new future-output and substitution guards. Actual neural queue next (OPS-S9-CONFIRMATION-1). |
+
+| Neural confirmation queue isolation prerequisite | Require the actual successful probe verdict, beyond an ordering dependency | Final ledger correctly refuses the first manifest; six producers complete and their reentries retain bytes. One corrected manifest rehearsal next (OPS-S9-CLOSURE-1). |
+
+| Full confirmation integration regression | Whole installed suite, original locks and exact archived bytes | All 971 tests/147 files and 21 locks pass. Separate inspector-path collision retained; old receipt preserved and no test rerun. Actual neural-v2 final inspection still required (OPS-S9-CLOSURE-1). |
+
+| Actual neural confirmation queue | Compiled reader/probe, committed future outputs, frozen access, complete family and fresh final reconstruction | Seven actual jobs pass; eight calls/three services reconcile; all reentries retain bytes. First manifest refusal preserved. Full 971 tests/21 locks pass. Discarded integration only (OPS-S9-CONFIRMATION-1). |
+
+| Confirmation fitted-checkpoint binding | Actual fitting-job summary to canonical factorial checkpoint, source input and queue identity | 483 affected checks pass, including ten new fitting-summary substitution guards. No scientific fit executed (OPS-S9-CONFIRMATION-1). |
+
+| Scientific fitting-summary binding full regression | Complete installed suite, original locks and archived source/test bytes | All 981 tests/147 files and 21 locks pass; source freeze ends. Actual scientific launch remains separate (OPS-S9-CONFIRMATION-1). |
+
+| Corrected profile-handler actual owner wake inspected | Archived source, original compiled commits and read-only numerical reconstruction | Four original repaired consumers reconstruct read-only; the prior failure remains separately preserved. No scientific launch acceptance (OPS-S9-PROFILES-1). |
+
+| Original HUMAN handler actual owner wake inspected | Archived source, original compiled commits and read-only numerical reconstruction | The complete original human-revision pilot reconstructs read-only from its archived code and saved evidence. No scientific launch acceptance (OPS-S9-HUMAN-2). |
+
+| Launch source inventory reconciliation | Exact preparation identities, original baseline scope, existing cross-source input closure and inherited checkout roster | All named sources have scoped evidence; opaque evidence bytes and 1592 overlap inputs verify. Workload binding and split assignment remain pending; no launch acceptance (OPS-S9-DATA-10). |
+
+| Original-campaign preparation queue cost inventory | Every original attempt, native identity, configuration and saved occupancy | 623 unique attempts across 81 queue records reconcile. Queue subtotal only; standalone preparation and final workload forecast remain owed (OPS-S9-CLOSURE-1). |
+
+| Four-study HUMAN actual owner wake inspected | Archived source, original compiled commits and read-only numerical reconstruction | All four original revision-study pipelines reconstruct read-only, retaining domain exclusions and unavailable tasks. No scientific launch acceptance (OPS-S9-HUMAN-2). |
+
+| Standalone preparation timing reconciliation | Original complete-handler and cumulative-training timers, exact identities and queue ownership | Sixteen completed and two failed timing components verify; nested costs are separated. Four unresolved coverage/timing categories remain; no complete GPU cost or launch forecast claimed (OPS-S9-CLOSURE-1). |
+
+| B-roll actual owner wake inspected | Archived source, original compiled commits and read-only numerical reconstruction | The original B-roll pipeline reconstructs read-only with its participant, script and chronology boundaries intact. Inspector list-format failure preserved and repaired; no scientific launch acceptance (OPS-S9-HUMAN-3). |
+
+| Concrete training workload draft | Manual literal command/dependency review, actual prepared-input contract and unchanged source checks | All 24 fits plus four collection/four packing jobs are explicit. Incomplete forecast remains non-executable; complete scientific launch not accepted (OPS-S9-LAUNCH-1). |
+
+| Actual-fit factorial owner wake inspected | Original source, compiled cells/services, saved calls and exact fitted package reconstruction | The original factorial collector and each small fit's own profiles reconstruct without borrowing absent recipes or different adapters. Both inspector source refusals retained; no new inference or scientific launch acceptance (OPS-S9-PROFILES-1). |
+
+| Full-seed basic-profile workload draft | Explicit six-operation protocol per fit, exact assignment/source review and scheduler failure-retention check | 146 added draft jobs; failed fits remain visible to both complete-grid collectors. Six external producers and all measured estimates still unresolved; launch unaccepted (OPS-S9-LAUNCH-1). |
+
+| CommitBench actual owner wake inspected | Original compiled commits, archive, saved fit parameters and complete forecast/profile reconstruction | The original code-change pipeline reconstructs with its repository/menu separation and saved model identities intact. No reserved payload, refitting or new reader execution; scientific launch unaccepted (OPS-S9-HUMAN-6). |
+
+| Shared basic-profile scheduling draft | Explicit numerical training, independent case/reference construction, baseline predictions and development-only rival selection | Eight added CPU commands; all 186 draft dependencies and outputs checked. Fixed menu matches installed candidates. Future package-plan materializer, measured estimates and complete launch evidence remain owed; source/test bytes unchanged (OPS-S9-LAUNCH-1). |
+
+| CoAuthor actual owner wake inspected | Original source/cell commits, source chronology, saved parameters, copied forecasts and complete paired analyses | All six jobs/four calls reconstruct; small source support retained. No discovery/reserve access, refitting or reader reentry. Scientific launch unaccepted (OPS-S9-HUMAN-7). |
+
+| Verified future rival-package plan | New rival_plan CPU handler binds only the original completed training producer and unchanged full eligible menu | 38 targeted checks/21 locks/lint pass; original fixture-root failure retained. 187 draft jobs inspected. Actual compiled rehearsal and full regression pass; scientific launch remains owed (OPS-S9-LAUNCH-1). |
+
+| Actual rival-plan CPU rehearsal | Four compiled jobs with native ownership, hidden windows and watched terminal paths | Completed and independently verified; full reconstruction, reentry and source archive pass. No scientific dispatch (OPS-S9-LAUNCH-1). |
+
+| ScholaWrite actual owner wake inspected | Original compilation, project/successor cases, saved models, copied forecasts and complete outer-project calculations | All 31 jobs/80 calls reconstruct; exposed-data and overlapping-fit limits retained. No refitting, new reader call or reserve access; scientific launch unaccepted (OPS-S9-HUMAN-7). |
+
+| Actual future-package binding chain | Original model producer, compiled binding, copied baseline predictions and development selection; independent reconstruction and all reentries | Four jobs/four calls verify, exact 362-source archive, zero GPU use; source hold released. Full new regression and scientific launch integration remain owed (OPS-S9-LAUNCH-1). |
+
+| Full regression after package binding | All installed Stage 9 tests and original locks with immutable source/test archives | All 999 tests/148 files and 21 locks pass; 362-source archive independently verified. Source hold ends; scientific launch integration remains owed (OPS-S9-LAUNCH-1). |
+
+| Input-preparation timing reconciliation | Saved pool and expert-corpus identities, timer sources and previous charged output trees | Four additional CPU intervals verify without producer reruns; complete cost coverage remains open (OPS-S9-CLOSURE-1). |
+
+| Required reference basic-profile workload | Four actual pinned base/archive identities, complete shared cohorts and independent rival selections | All 24 reference commands and combined211job dependencies verify; no fit-success dependency or model execution. Timings, exact historical comparator and paired collectors remain owed (OPS-S9-LAUNCH-1). |
+
+| Resident-service timing census | Saved lifecycle/usage reconstruction and explicit enclosing-cost attribution | 155 histories verify; three late completions and three parent-attribution candidates retained. No duplicate charge or complete GPU bill inferred (OPS-S9-CLOSURE-1). |
+
+| Genetic-edition actual owner wake | Original canonical cases, copied forecasts, six neural packages, complete profiles and exact service compilation/request bytes | Fourteen jobs/calls reconstruct; original300-file queue and299-file service scopes separately verified. Current inspector scope error and earlier audit defects retained. No model calls or scientific claim change (OPS-S9-HUMAN-4). |
+
+| Selected service and interruption timing reconciliation | Original compiled CPU exits, graceful CUDA lifecycles, manual absence bound and actual whole-checkpoint identity | Two CPU tails, two closed CUDA intervals and separate service/training bounds reconcile; both inspector failures retained. Whole preparation coverage remains open (OPS-S9-CLOSURE-1). |
+
+| Exact historical generation workload draft | Original forty-world distribution/reference and all fitted/base/archive packages with literal commands | Twenty-nine additions independently verify; combined240jobs remain non-executable. Prediction/composite and direct paired collectors, all-card coverage and measured launch forecast remain owed (OPS-S9-LAUNCH-1). |
+
+| Purpose-handler actual owner wake | Original compiled source, complete source/model mapping, ordinary versus supplied inputs and paired calculations | Four jobs/twenty-eight saved calls reconstruct without readers or fitting; original302-source archive and evidence unchanged. Qualified process-record scope retained (OPS-S9-PURPOSE-1). |
+
+| Paired fitted/reference choice collector | Complete seeds, fixed references, matched questions/provenance and own calibration, independent of broad generation | Targeted checks and expanded full regression pass: 1,024 tests across 149 files, 363 unchanged sources and 21 locks. Original fixture/setup failures retained. Actual seventeen-job queue, complete saved-profile/calibration/comparison reconstruction, original execution receipts and immutable reentries pass. Exposed discarded pilot only; scientific comparisons remain unrun (OPS-S9-LAUNCH-1). |
+
+| Fitted/reference workload assignment | Bind all fitted seeds and four fixed references to the validated paired collector | One CPU collector, eighty explicit dependencies and 241 combined draft jobs independently checked; first unexecuted builder assertion retained. Full schedule/forecast/launch remains owed (OPS-S9-LAUNCH-1). |
+
+| Historical prediction source reconstruction | Reproduce the original task and normalized baseline before comparison | Original first audit retained: it omitted PredictionV1 normalization and refused its third comparison. Applying the unchanged original contract reconstructs that source exactly; corrected full audit still owed (OPS-S9-LAUNCH-1). |
+
+| Proposal owner-session wake reconstruction | Preserve original proposal pools, both evaluators, rival selection and compatibility | Five original jobs, forty-seven saved calls, nine full profiles and 304 archived sources independently reconstruct without new reader execution; actual delivery is separate from historical ACK. Scientific M02 remains unrun (OPS-S9-PROPOSALS-1). |
+
+| Complete original prediction source audit | Bind historical world, target, evidence and original normalized baseline | All ninety-six original worlds and 195 source files independently reconstruct; original failed inspector retained. No reader calls or fits, original historical exposure and bootstrap-seed limit preserved; new prediction/composite runner still owed (OPS-S9-LAUNCH-1). |
+
+| Historical prediction and conjunction validation historical-targeted-v1 | Original task, complete cohorts and package-bound conjunction | 57 checks; 1 failures; 0 errors; 21 locks; exact 365-source archive independently verified. FAILED; actual scientific admission remains unrun (OPS-S9-LAUNCH-1). |
+
+| Historical prediction and conjunction validation historical-targeted-v2 | Original task, complete cohorts and package-bound conjunction | 59 checks; 1 failures; 0 errors; 21 locks; exact 365-source archive independently verified. FAILED; actual scientific admission remains unrun (OPS-S9-LAUNCH-1). |
+
+| Historical prediction and conjunction validation historical-targeted-v3 | Original task, complete cohorts and package-bound conjunction | 67 checks; 0 failures; 0 errors; 21 locks; exact 365-source archive independently verified. PASSED; actual scientific admission remains unrun (OPS-S9-LAUNCH-1). |
+
+| Historical prediction and conjunction validation historical-regression-v1 | Original task, complete cohorts and package-bound conjunction | 1080 checks; 0 failures; 0 errors; 21 locks; exact 365-source archive independently verified. PASSED; actual scientific admission remains unrun (OPS-S9-LAUNCH-1). |
+
+| Historical prediction/conjunction command coverage | Complete original-task assignment for every declared package | 85 added literal commands, all 28 packages and 326 total unique acyclic draft jobs independently checked. Actual discarded rehearsal running; all scientific outputs absent and launch unaccepted (OPS-S9-LAUNCH-1). |
+
+| Supplied-information owner-session wake | Preserve exact supplied code/state, actual packages, calls and profiles | Twelve original jobs, thirty-six saved calls and six full profiles independently reconstruct with the original 305-source archive. Original service-source verification is bound to its archive; failed inspector retained. Scientific I06 unrun (OPS-S9-SUPPLIED-1). |
+
+| Historical prediction and combined-admission handlers | Exact exposed prediction/generation and own-package calibration | Complete21-job actual rehearsal,36savedcalls,6conjunctions and every byte-stable reentry independently verify against365sources; full1080checks/151files/21locks pass. Scientific admission and launch remain unrun (OPS-S9-LAUNCH-1). |
+
+| Selected-recipe execution validation selected-recipe-targeted-v1 | Complete development ranking, retained seed and own-package calibration | PASS: 109 checks/7 files/21 locks; 366-source and test archive independently verified. Actual rehearsal and scientific launch remain separate (OPS-S9-LAUNCH-1). |
+
+| Selected-recipe execution validation selected-recipe-regression-v1 | Complete development ranking, retained seed and own-package calibration | PASS: 1113 checks/152 files/21 locks; 366-source and test archive independently verified. Actual rehearsal and scientific launch remain separate (OPS-S9-LAUNCH-1). |
+
+| Selected development recipe execution and calibration | Rebuild the entire fitting grid; execute the chosen recipe at its assigned seed; consume its own calibration | PASS: actual6jobs/12savedcalls/2fullprofiles/2calibrationconsumers, independently reconstructed with every byte-stable reentry and366-source archive. Full1113tests/152files/21locks pass. Scientific launch unaccepted (OPS-S9-LAUNCH-1). |
+
+| Supplied-information scientific command subset | Literal complete-program prediction, own-package calibration and profile assignment | Thirty commands/ten packages independently checked; full24-fit calibration map and356-job combined graph verify. NOT EXECUTABLE; no scientific payload preparation or model calls. Final roster/forecast/coverage review pending (OPS-S9-LAUNCH-1). |
+
+| Choice-factorial validation factorial-choice-targeted-v1 | Choice effects independent of generation, retaining original seeds/calibration | SETUP FAILURE: 1 test records/0 failures/1 errors;21locks and367-source/test archive verify. Collection stopped before the intended checks because the new test imported its sibling fixture without the tests package prefix. Correct that import only and retain this failed archive; the production collector and factorial estimand are unchanged. (OPS-S9-LAUNCH-1). |
+
+| Choice-factorial validation factorial-choice-targeted-v2 | Choice effects independent of generation, retaining original seeds/calibration | PASS: 83 test records/0 failures/0 errors;21locks and367-source/test archive verify. Known-answer factorial effects, complete seed/failure retention, package-bound choice/calibration inputs and assignment guards pass. Generation is not an input to the choice collector; the actual CPU rehearsal remains separate. (OPS-S9-LAUNCH-1). |
+
+| Choice-only factorial collector | Actual fitting/choice/calibration identities with no generation prerequisite | PASS: one compiled CPU job, both complete discarded profiles, original paired calculation and every reentry independently reconstruct against367sources. No new model calls. Full expanded regression pending (OPS-S9-LAUNCH-1). |
+
+| Stage9 post-supplied-wake liveness | Exact regression ownership/source and durable wake | Native process identities,367sources/153tests and watcher verify; scoped terminal inventory has no unaccounted result. Full regression pending acceptance (OPS-S9-LAUNCH-1). |
+
+| Choice-factorial validation factorial-choice-regression-v1 | Choice effects independent of generation, retaining original seeds/calibration | PASS: 1124 test records/0 failures/0 errors;21locks and367-source/test archive verify. The whole installed Stage9 regression passes. The actual saved-only CPU rehearsal has already independently reconstructed both original choice/calibration profiles and the unchanged paired calculation, with every byte-stable reentry. (OPS-S9-LAUNCH-1). |
+
+| Consolidated Stage9 core roster | All fits/basic choices, separate selected-recipe generation and original historical comparison |236non-executable jobs independently inspected;24fits/28choiceprofiles retained;8full-generation packages, all3selectedseeds/family. Earlier356-job composition superseded for the core and preserved. Full1124/153/21 and actual component rehearsals pass; complete stage launch pending (OPS-S9-LAUNCH-1). |
+
+| Incremental preparation queue cost census | Preserve original attempts and independently reconcile new committed work | Five new queues and49uniqueattempts reconcile with unchanged81queue baseline; cumulative672attempts. Reservation/occupation only; whole preparation forecast remains incomplete (OPS-S9-CLOSURE-1). |
+
+| Tool-transfer owner-session wake | Preserve eligible familiar means, original history and common executed future | Six original jobs, eight saved calls and three full profiles reconstruct from308archivedsources; receipt failures retained. Scientific T01 remains unrun (OPS-S9-TRANSFER-2). |
+
+| Stage9 post-transfer liveness | Distinguish allocation, native watcher and actual science execution | Native heartbeat and source identity verify; scoped terminal inventory accounted. Liveness queue-transport failure retained; science queue unlaunched (OPS-S9-LAUNCH-1). |
+
+| Horizon, prefix and finite-state scientific command assignments | Same-world assistance and projection diagnostics across every selected seed |104unexecutedcommands,24completecomparisonplans and24exact-package calibration links independently verify;340commands with retained core. Source/test archive unchanged; measured whole-stage launch still owed (OPS-S9-LAUNCH-1). |
+
+| Actual pilot-to-workload candidate inventory | Match exact operations, family, package, collection breadth and profile kind |322of340commands have historical timing candidates;18missing; only1current-source candidate. Whole forecast and single final-source dress rehearsal unaccepted (OPS-S9-LAUNCH-1). |
+
+| Goal-transfer owner-session wake | Preserve reusable operation, matched history and separately changed future | Twelve original jobs, eight saved calls and six complete profiles independently reconstruct from311archivedsources. Actual delivery separate from historical ACK; scientific T03 remains unrun (OPS-S9-TRANSFER-3). |
+
+| Archived-adapter operation rehearsal | Actual rollout, prefix and finite-state execution with exact-package calibration | All 26 jobs, saved calls, complete profiles and immutable reentries independently verify; discarded timing scope only (OPS-S9-LAUNCH-1). |
+
+| Original-law collection validation | Complete original-law discarded lineages, fixed half allocation and strict scientific boundary | 33 checks / 6 files and 21 locks pass; archived source/test bytes verify. Actual collection/packing has separate acceptance (OPS-S9-COLLECT-1). |
+
+| Original-law collection validation | Complete original-law discarded lineages, fixed half allocation and strict scientific boundary | 1138 checks / 154 files and 21 locks pass; archived source/test bytes verify. Actual collection/packing has separate acceptance (OPS-S9-COLLECT-1). |
+
+| Original-law actual collection and packing | Preserve expert exposure and mask learner-produced history | Both collectors and saved evidence reconstruct. Qwen packing refuses insufficient valid targets; SmolLM packs but its actual reentry fails JSON key-type comparison. Both failures retained; no scientific admission (OPS-S9-COLLECT-1). |
+
+| Fixed four-continuation packing probe | Additional correct tails at unchanged learner states and fixed exposure | Both discarded original-law pools meet their original target budgets; no model calls. Installed execution and reentry remain owed (OPS-S9-COLLECT-1). |
+
+| Uniform packing repair validation | Complete original-law discarded lineages, fixed half allocation and strict scientific boundary | 34 checks / 6 files and 21 locks pass; archived source/test bytes verify. Actual collection/packing has separate acceptance (OPS-S9-COLLECT-1). |
+
+| Uniform packing repair validation | Complete original-law discarded lineages, fixed half allocation and strict scientific boundary | 1139 checks / 154 files and 21 locks pass; archived source/test bytes verify. Actual collection/packing has separate acceptance (OPS-S9-COLLECT-1). |
+
+| Context-cue owner-session wake | Original global/local scope, report controls and paired futures | All original jobs, saved forecasts, full profiles and paired interactions reconstruct from the archived source. Actual delivery separate from historical ACK; scientific claims remain unrun (OPS-S9-TRANSFER-4). |
+
+| Actual uniform four-tail collection and packing | Fixed source assignment, expert exposure and immutable output | Both families and both law-coverage arms complete and independently reconstruct. All actual handler/queue reentries preserve bytes; full1139/154/21 passes. Prior failures retained; scientific launch separate (OPS-S9-COLLECT-1). |
+
+| Immutable numerical evaluation binding validation | Original completed training producer and checksum-pinned manual template | 47 checks/4 files/21 locks pass; source and test archive verified. Only actual package checksum inserted; actual queue acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Immutable numerical evaluation binding validation | Original completed training producer and checksum-pinned manual template | 1161 checks/154 files/21 locks pass; source and test archive verified. Only actual package checksum inserted; actual queue acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Proposal/purpose workload and manual queue ordering | Complete declared comparisons, original packages and separate cohorts | Twelve new commands and immutable templates independently inspected; all352 jobs have explicit prior dependencies after moving nine shared prerequisites. Original inventory-order refusal retained. Draft only; forecast and final coverage incomplete (OPS-S9-LAUNCH-1). |
+
+| Actual numerical evaluation binding | Future training identity, immutable templates and independent complete analysis | Seven real jobs, all saved calls and full profiles independently reconstruct; handler/queue reentries preserve bytes. Full1161/154/21 passes. Transfer-specific selection contracts and scientific launch remain separate (OPS-S9-LAUNCH-1). |
+
+| Task-specific rival binding validation | Exact existing transfer query and complete ordinary menu | 68 checks/7 files/21 locks pass; source and test archive verified. Original task menus preserved; actual materializer acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Task-specific rival binding validation | Exact existing transfer query and complete ordinary menu | 1173 checks/154 files/21 locks pass; source and test archive verified. Original task menus preserved; actual materializer acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Task-specific numerical plan binding | Original withdrawal, goal, difficulty and cue menus plus fixed evaluations | Eleven actual CPU jobs and all materializer/queue reentries independently reconstruct; full1173/154/21 passes. Paired-plan binding and scientific launch remain separate (OPS-S9-LAUNCH-1). |
+
+| Paired template validation | Explicit condition/model/baseline plans and distinct launch operations | 99 checks/5 files/21 locks pass; source and test archive verified. Original paired templates preserved; actual materializer acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Transfer workload assignment | Conditional source pools, task-specific rivals and paired future comparisons | Fifty new commands and all declared contrasts independently inspected; all402 dependencies are prior. Pools, roles, gates and immutable templates retained. Draft only; measured forecast and complete launch coverage remain owed (OPS-S9-LAUNCH-1). |
+
+| Paired template validation | Explicit condition/model/baseline plans and distinct launch operations | 1196 checks/154 files/21 locks pass; source and test archive verified. Original paired templates preserved; actual materializer acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Paired numerical plan binding | Explicit paired conditions, models, baselines and original fitted package | Three actual CPU jobs and all materializer/queue reentries independently reconstruct; full1196/154/21 passes. Scientific launch and downstream final integration remain separate (OPS-S9-LAUNCH-1). |
+
+| Incremental preparation queue cost census | Preserve original attempts and independently reconcile new committed work | Six new queues and59uniqueattempts reconcile with unchanged86queue cumulative baseline; cumulative731attempts. Reservation/occupation only; whole preparation forecast remains incomplete (OPS-S9-CLOSURE-1). |
+
+| Consumer plan binding first validation | Original task-specific menus and integration fixtures | Refused: unqualified fixture import and history-versus-future baseline mismatch. Original archive retained; repair and revalidation owed (OPS-S9-LAUNCH-1). |
+
+| Consumer template validation | Complete task-specific questions, groups, rivals and launch operations | 190 checks/10 files/21 locks pass; source and test archive verified. Original consumer templates preserved; actual materializer acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Consumer template validation | Complete task-specific questions, groups, rivals and launch operations | 1274 checks/155 files/21 locks pass; source and test archive verified. Original consumer templates preserved; actual materializer acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Bounded-creation owner-session wake | Original creation conditions, separate target and complete paired analysis | Original six-job source, saved calls and full profiles reconstruct from323 archived sources. Actual delivery is separate from historical ACK; current scientific campaign remains unlaunched (OPS-S9-CONSTRAINT-1). |
+
+| Complete consumer plan materialization | Original questions, groups, comparison declarations and fitted package | Eleven actual CPU jobs and all handler/queue reentries independently reconstruct; full1274/155/21 passes. Final scientific integration remains separate (OPS-S9-LAUNCH-1). |
+
+| Maker and information-selection workload assignment | Original complete consumer protocols and future model binding | Seventy-nine commands, fixed source counts, complete comparisons and full481-command dependency order independently verify. Scientific execution and forecast remain unaccepted (OPS-S9-LAUNCH-1). |
+
+| External numerical workload assignment | Source-specific revision, concept selection, code description and prospective record protocols | Seventy-nine commands across13 protocols and full560-command dependency order verify against actual entrypoints. No data payload or scientific execution; remaining card/forecast/closure integration explicit (OPS-S9-LAUNCH-1). |
+
+| Expanded workload timing setup | Original completed-job timing candidates | First helper fails before execution on a syntax error; source/log/native identity retained, no audit or science performed. Corrected helper must compile before launch (OPS-S9-LAUNCH-1). |
+
+| Expanded original timing inventory | Task-specific original producer/cell/timing candidates | All560 draft commands have historical candidates across93 queue histories; only21 match the entire current source. Independent original evidence audit passes after retained setup/inspector corrections. No rates or forecast accepted (OPS-S9-LAUNCH-1). |
+
+| Familiarity source owner-session wake | Original saved construction, permitted views and source provenance | All 192 saved constructions reconstruct with original-hash dependencies; two early source files are unavailable in retained archives. Original-constructor reproduction is unverified, later fully archived handler evidence remains separate (OPS-S9-FAMILIARITY-1). |
+
+| Refused-card and manuscript workload assignment | Preserve failed source gates and qualitative manuscript scope | Five original card dispositions and ten fixed-reference manuscript commands independently verify in the575-command draft order. Local repair stays closed; S01 is not inferred from acquisition utility. No scientific execution (OPS-S9-LAUNCH-1). |
+
+| Explicit evidence-view execution validation | Requested comparator views, matched controls and failed-route isolation | 38 checks/6 files/21 locks independently pass. The process-record route can be assigned separately; actual rehearsal and scientific acceptance remain distinct (OPS-S9-LAUNCH-1). |
+
+| Actual process-record controlled consumer | Complete dose, wrong-maker and duplicate grid through source-tracked queue | Eight calls and twenty query cells reconstruct with unchanged exact criteria; actual handler/queue reentry is byte-stable and no artifact estimator executes. Scientific M01/M04 remains unrun (OPS-S9-LAUNCH-1). |
+
+| Explicit evidence-view execution validation | Requested comparator views, matched controls and failed-route isolation | 1280 checks/155 files/21 locks independently pass. The process-record route can be assigned separately; actual rehearsal and scientific acceptance remain distinct (OPS-S9-LAUNCH-1). |
+
+| Maker/accumulation workload assignment | Complete record-only differentiated comparison and independent ordinary view grid | Eleven commands,36 record and130 ordinary-view contrasts verify in the586-command order. Full development rival menu and original failed-artifact ceiling retained; no science executed (OPS-S9-LAUNCH-1). |
+
+| Complete-ancestry queue cost census | Preserve original baseline and every cumulative delta | Two queues add12 unique CPU attempts;94 queues/743 attempts independently reconcile. GPU reservation is unchanged; other preparation scopes and final forecast remain separate (OPS-S9-CLOSURE-1). |
+
+| Current-draft original timing census | Operation-specific timings with all preparation ancestry and explicit evidence views | All586 commands have candidates among447 completed jobs from94 queue histories; two match the entire current source. Independent source/commit/scalar inspection passes. Rate selection and complete final-source rehearsal remain unaccepted (OPS-S9-LAUNCH-1). |
+
+| Familiarity handler owner wake | Original archived construction, restricted calls and complete paired profiles | All327 source files and six queue commits verify;16 saved calls and38 profiles reconstruct with original output bytes unchanged. Separate earlier source-only provenance gap retained; no scientific admission (OPS-S9-FAMILIARITY-1). |
+
+| Prelaunch sealed source preparation | Original source-job matching, private reserve payloads and metadata-only allocation | Twelve injected positive/negative/recovery checks pass after retained test parse failure. Original role partitions and all-attempt realization gate preserved; actual discarded construction and scientific source preparation remain unrun (OPS-S9-CLOSURE-1). |
+
+| Complete sealed-source preparation and finite-support audit | Full constructor cohort allocation before prediction | Actual discarded preparation correctly withholds allocation: eight development cohorts have zero eligible parameter combinations. Every saved attempt and all2304 finite assignments independently reconstruct. Scientific source allocation needs explicit repair; no reader result inferred (OPS-S9-CLOSURE-1). |
+
+| Development finite-support allocation | Explicit development-only quotas and original marginal totals | 66 checks/4 files/21 locks independently pass; empty joint cohorts remain explicit, original split/yield rules unchanged. Actual constructor rehearsal and scientific acceptance separate (OPS-S9-CLOSURE-1). |
+
+| Fixed-allocation sealed-source helper | Original role/source/checkpoint checks plus explicit allocation pins | 14 checks independently pass; actual source and queue-handler validation remain owed (OPS-S9-CLOSURE-1). |
+
+| Development finite-support allocation | Explicit development-only quotas and original marginal totals | 1298 checks/156 files/21 locks independently pass; empty joint cohorts remain explicit, original split/yield rules unchanged. Actual constructor rehearsal and scientific acceptance separate (OPS-S9-CLOSURE-1). |
+
+| Supported development allocation, actual queue | Complete constructor, marginal preservation and helper/handler agreement | Three discarded roles complete; every original attempt, all370 source files and actual queue commit independently verify; completed reentry preserves bytes. Full1298/156/21 accepted on same source. Scientific allocation/draft/launch remain separate (OPS-S9-CLOSURE-1). |
+
+| Development workload allocation reconciliation | Literal command delta, original margins and immutable provenance | Exactly8 of586 commands gain allocation pointers; all other commands, unique produces and dependency order independently verify. Draft only; launch unaccepted (OPS-S9-CLOSURE-1). |
+
+| Scientific source preparation preflight | Exact original command location before constructing sources | Existing path guard refuses .agent-state draft before constructing any units; original bytes and absence of outputs independently verified. Use an exact archived declaration within results; guard unchanged (OPS-S9-CLOSURE-1). |
+
+| Original-command prelaunch source allocation | Declared split metadata and private reserve payloads | Complete three-role construction and every original attempt/pointer independently verify; exact archived original draft resolves preflight path refusal without source/guard changes. Scientific prediction and launch unaccepted (OPS-S9-CLOSURE-1). |
+
+| Structured artifact/process workload binding | Same source units, complete selected seeds and actual package checks |60 new literal commands/10 packages independently inspected;646 total,586 previous commands unchanged. Prospective view scope only; final confirmation/coverage/forecast remain owed (OPS-S9-CLOSURE-1). |
+
+| Complete-ancestry queue cost census | Preserve original baseline and every cumulative delta | One queue adds one unique CPU attempt;95 queues/744 attempts independently reconcile. GPU reservation is unchanged; other preparation scopes and final forecast remain separate (OPS-S9-CLOSURE-1). |
+
+| Expanded timing inspector, first attempt | Missing candidates remain visible | Inspector rejects its inherited complete-coverage assumption; inventory retains8 missing operation/package matches. Original failure retained; no rate or launch accepted (OPS-S9-LAUNCH-1). |
+
+| Expanded original timing census | Complete present/absent evidence across actual dispatch identities |646 commands/456 historical candidates/95 queues independently inspected;638 commands have candidates,8 reference-view executions lack them,16 have whole-source matches. Failed inspector retained; no rate/forecast accepted (OPS-S9-LAUNCH-1). |
+
+| Original selection-source wake inspection | Saved previews, private purchases, projections and own future |192 sources independently reconstruct from original kernel dependencies;273/274 source files located. Original constructor-file reproduction remains unverified; later archive stays separate (OPS-S9-SELECTION-1). |
+
+| Missing reference-view timing preflight | Eight actual family/package/view cells, unchanged handler | Balanced discarded cases, matched continuations, original reference identities and370 archived sources verify; execution and measured rates remain pending (OPS-S9-LAUNCH-1). |
+
+| Actual reference structured-view timing | Both families, base/archive packages, artifact/process views | Eight complete jobs and sixteen saved calls independently reconstruct; original package/forecast/commit/reentry and370 source files verify. Measured evidence only; complete forecast and launch remain unaccepted (OPS-S9-LAUNCH-1). |
+
+| Complete-ancestry queue cost census | Preserve original baseline and every cumulative delta | One queue adds eight unique GPU attempts;96 queues/752 attempts independently reconcile. Original reservation is retained; other preparation scopes and final forecast remain separate (OPS-S9-CLOSURE-1). |
+
+| Original-fit paired-view confirmation declarations | Existing future-producer resolver, all original seeds and claim directions | Eight family/recipe routes and24 directional/equivalence variants independently inspected; exact fit/forecast/package/calibration/rival references retained, unexecuted references refused. Component only; complete policy/closure integration and launch remain owed (OPS-S9-CLOSURE-1). |
+
+| Complete timing dispatch coverage | New actual reference cells retained in the original cost lineage |646 commands now have candidates among464 completed jobs/96 original queues;24 have whole-current-source matches. All original commits and scalar evidence independently verify. Units/rates/forecast and final rehearsal remain unaccepted (OPS-S9-LAUNCH-1). |
+
+| arXivEdits chronology and exposure reconciliation | Released current/prior text, canonical labels, paper-level folds | Four future-view records reconstruct but reuse already scored annotations; no fresh target remains. Source-only prototype retained; new scientific subbranch ineligible, IteraTeR-HUMAN separate (OPS-S9-DATA-8). |
+
+| Numerical baseline confirmation export (targeted) | Complete source/query/model projection into B01 | 85 checks/7 files/21 locks independently pass; actual capsule contrast verified, failed rows retained, malformed grids refuse. Handler reentry and scientific integration separate (OPS-S9-CLOSURE-1). |
+
+| Complete baseline confirmation export handler | Actual source-bound CPU execution and immutable restart | One queue job/four calls independently reconstruct, complete exported grid matches original predictions, handler/queue reentries byte-stable. No scientific claim; integration remains owed (OPS-S9-CLOSURE-1). |
+
+| Numerical baseline confirmation export (regression) | Complete source/query/model projection into B01 | 1313 checks/156 files/21 locks independently pass; actual capsule contrast verified, failed rows retained, malformed grids refuse. Actual handler/reentry independently landed; scientific integration separate (OPS-S9-CLOSURE-1). |
+
+| Fixed numerical C08 confirmation declarations | Original training/forecast producers and committed export layout | Three directional/equivalence variants independently inspected, original producer refusal and actual saved layouts verify; no reserve payload or scientific review. Complete policy integration pending (OPS-S9-CLOSURE-1). |
+
+| Preparation ownership coverage census | Original terminal metadata and enclosing queue/standalone owner attribution |97 queue histories/969 completions/197 services independently bind to original hashes;211 completion classifications and three separately reconciled failed-service owners remain explicit. Not a complete preparation bill (OPS-S9-CLOSURE-1). |
+
+| Unmatched and failed preparation cost evidence | Original fixed unmatched roster and non-payload failure records |211 unmatched completions/55 failure records independently reconcile with original pointers and owner candidates; tentative categories and unresolved hardware/cost attribution remain explicit (OPS-S9-CLOSURE-1). |
+
+| Original fitting-rate forecast component | Whole actual pilot cycles, unchanged core sources and all planned seeds |24 original fit forecasts independently verify with fixed example-epoch scaling, explicit1.5 planning margin and measured outer overhead. Full workload/remaining-horizon acceptance separate (OPS-S9-LAUNCH-1). |
+
+| Finite discovery dimension helper, first attempt | Match installed saved-case preflight before grouping | Standalone helper omitted existing constructor registration; original failure and zero-reader scope retained. Production loader already registers via its validator; separate helper successor required (OPS-S9-LAUNCH-1). |
+
+| Finite discovery workload dimensions | Actual saved-source grouping and full fixed query roster |192 discovery inputs independently reconstruct into8 input groups/384 questions per package; CPU preflight timing separate, no reader or reserve access. Prior helper failure retained (OPS-S9-LAUNCH-1). |
+
+| Original neural call/service timing extraction | Preserve complete pilot work before selecting remaining rates |100 historical candidate records independently verify original call time, startup, other occupied time and observed token dimensions. No new reader work; full-horizon/context scaling and final forecast separate (OPS-S9-LAUNCH-1). |
+| Fixed package-calibration runtime component | Original complete-cycle timings, fixed fixture grids and literal prerequisites | All28 commands bind to the latest matching completed pilots; independent decimal arithmetic gives9.645 GPU reservation hours with1.5 margin. Includes CPU reference work under the GPU reservation; no duplicate overhead charge, whole-stack equivalence or scientific acceptance (OPS-S9-LAUNCH-1). |
+| Neural model-startup runtime component | Literal jobs and original lifecycle-to-readiness intervals | All156 jobs retain one startup each using74 selected measurements. Independent arithmetic gives0.879 GPU reservation hours; old timing alternative retained. First metadata-field failure preserved; no per-source scaling, whole-stack equivalence or scientific acceptance (OPS-S9-LAUNCH-1). |
+
+| Original selection-handler post-final wake inspection | Preserve saved sequential purchase, source and analysis boundaries |331 original sources, seven original commits and all saved calls/profiles reconstruct with unchanged outputs; actual delivery separate from old ACK. No reader/queue reexecution, scientific launch or S01 useful-outcome claim (OPS-S9-SELECTION-1). |
+
+| Complete ambiguity timing anomaly check | Same discarded inputs and fitted adapter under current allocation | All12 current calls and request/service timing verify; large prior delays did not recur, their cause remains unverified and original measurements retained. No scientific or new-fit use; full forecast separate (OPS-S9-LAUNCH-1). |
+
+| Rollout call-only planning component | Every declared rollout route; observed stopping and full-horizon scenarios |40 original routes and call-time arithmetic independently verify without startup/preflight scaling. Combined with the existing fit forecast, both scenarios exceed the current planning allowance; assumptions and excluded work explicit (OPS-S9-LAUNCH-1). |
+
+| Original familiarity entry source wake inspection | Original completion/output hashes, all archived sources, exact saved-construction reproduction and immutable evidence | All 277 original files verify and all 192 discarded sources reproduce. No reader, GPU or scientific score; earlier distinct source gaps retained (OPS-S9-FAMILIARITY-1). |
+
+| Original neural input-pool and service workload dimensions | Original source pointers, saved capsule task operations, sealed service usage and named preflight-function comparison | 100 records and six input pools reconcile; 1,085 model requests plus 16 CPU executor calls. Full pool and selected units remain separate; preflight time unmeasured, no new forecast. First older-receipt parsing failure retained (OPS-S9-LAUNCH-1). |
+
+| Queue preparation costs through delta six | Full original baseline/delta ancestry, original attempt identities and compiled output receipts | 98 queues/754 unique attempts reconcile after adding the latest CPU export and GPU timing jobs. Other preparation scopes and forecast remain separate (OPS-S9-CLOSURE-1). |
+| Queue preparation costs through delta seven | Exact baseline/six-delta ancestry and all prior queue states; one new original CPU attempt independently reconstructed |99 queues/755 unique attempts reconcile; new CPU occupation counted once, raw GPU counter unchanged. Enclosing wrappers and other preparation costs remain separate (OPS-S9-CLOSURE-1). |
+
+| Historical familiarity-entry regression wake inspection | Original completion copies, all-pass progress logs, lock logs and native creation records | First receipt: 437 checks/117 files; second: 442/119. Both original 21-lock logs agree and original owners are absent. Per-file executed manifests absent; no historical-stack reproduction claimed or tests rerun. Current 1,313-check acceptance remains separate (OPS-S9-FAMILIARITY-1). |
+
+| Complete declared neural-operation call forecast component | Actual producer cohorts, latest original timings, retained slow alternative and independent arithmetic | All 156 jobs reconcile. Call-only scenarios exclude preparation/overhead and preserve the prior rollout component without adding it twice. No complete forecast or scientific admission; current allowance question remains open (OPS-S9-LAUNCH-1). |
+
+| Instrument | Method | Validation and limits |
+|---|---|---|
+| Genetic neural call/startup forecast | Four literal reference jobs, original committed timings and independently reconstructed source selection | 24 local tasks in one exposed manuscript imply 96 calls; startup charged once per job. Arithmetic and original closures verify; remaining overhead/CPU analysis excluded. Preview metadata assertion retained, no scientific verdict or whole forecast acceptance (OPS-S9-LAUNCH-1). |
+| Historical disposition regression wake | Original completion/public/log agreement, production archive and native owner checks | 335 archived production files verify; original 445-check/120-file/21-lock run retained. Both owners absent; original test bytes unpinned, current 1313-check acceptance separate. No rerun or scientific verdict (OPS-S9-LAUNCH-1). |
+| Collection forecast metadata binding | Original queue identity and completed dispatch | First attempt refused a raw-byte/canonical-JSON digest comparison; original identity verifies and no forecast row or model call was produced. Failed attempt retained, successor uses the queue's existing canonical digest (OPS-S9-LAUNCH-1). |
+| Collection call/startup forecast component | Four literal jobs, latest original timing candidates and independent assignment/arithmetic checks | All future source keys, original calls, startup intervals and committed closures reconcile. Conditional call/startup estimates only; teacher/replay/other overhead excluded. Metadata failure retained, no model run or complete launch forecast (OPS-S9-LAUNCH-1). |
+| Disposition-pilot failed-chain owner wake | Original wrapper failure, successful audit pointer, committed output/source hashes, saved decision and native identities | Original CPU operation completed; first audit used missing timing field, recovery used attempt receipt. All335 archived sources and outputs verify; original reentry retained, all named processes absent, historical freeze ended. No new queue/scientific execution (OPS-S9-LAUNCH-1). |
+| Source-disposition CPU-cycle forecast | Five literal jobs, identical historical evidence payloads, latest native attempts and independent arithmetic | Complete occupied cycles reconcile; nested handler time included, no GPU work or new scientific decision. Future scope/text/source-closure limits retained;425 CPU rates still owed (OPS-S9-LAUNCH-1). |
+| Allocation-pilot actual owner delivery | Archived source/output hashes, both pauses, attempt order, four commits and native identities | Saved CPU progress and isolated-label resumption verify; original reentry retained, all named processes absent and freeze ended. Synthetic reservation counter stays distinct from device work; current Gear2 unchanged (OPS-S9-ALLOCATION-1). |
+| Preparation resource classification overlay | Original attempt identity, archived CPU-only handler, unchanged seven-generation ledger, independent decimal arithmetic | Known synthetic GPU label separated; raw counters and occupied CPU/queue interval preserved. Remaining counters are not certified actual GPU work; full preparation attribution remains owed (OPS-S9-CLOSURE-1). |
+| Allocation-regression actual owner delivery | Original logs,335 archived runner files,121 archived test files and two native creation identities |453 passing checks and21 locks reconcile; original processes absent and historical freeze ended. Current source/test bytes match later accepted regression; no rerun, scientific acceptance or allocation change (OPS-S9-ALLOCATION-1). |
+| Mixed-corpus CPU packing forecast | Four literal jobs/seven saved candidates; latest complete native attempts, exact packed rows, shared module hashes and independent decimal estimates | Conditional whole-cycle estimates include startup and queue overhead scaled with rows. No handler executed; pilot/scientific validation and length/scaling limits retained;421 CPU rates remain (OPS-S9-LAUNCH-1). |
+| Source-scoped disposition actual owner delivery | Original public/private pointer,335 archived source files, four commits/decisions/output closures and six native identities | Saved S01/H05/T05/T06 evidence and scope remain exact; original reentry retained, named processes absent and historical freeze ended. No final scientific card output, rerun or new authority (OPS-S9-LAUNCH-1). |
+| Manuscript CPU control/analysis forecast | Five literal jobs; exact upstream family/package matches, complete pilot cycles, six module hashes, two runtime function bodies and independent decimal estimates | Conditional task-scaled CPU costs include enclosed startup/replay/queue overhead. Case construction remains separately uncosted because its scientific branch differs;416 CPU rates remain. No scientific calculation or handler rerun (OPS-S9-LAUNCH-1). |
+| Complete manuscript case-construction timing | Actual isolated source-bound queue runs the existing scientific selection branch;59 cloned inputs, prior case metadata/evidence,58 loaded modules and handler/queue reentry independently verify | Full CPU cycle with1.5 margin; scientific outputs absent, no score or GPU work. This closes the previously uncosted constructor;415 CPU rates remain. Current370-file source/test closures unchanged (OPS-S9-LAUNCH-1; private/genetic-case-complete-pilot-v1/INSPECTION.json). |
+| Remaining CPU candidate source inventory |415 literal jobs mapped to305 saved candidates in51 queues; input hashes, original commits/attempts and executed module maps independently rechecked |220 direct handlers and11 complete loaded-module sets match current bytes; no entire historical plan closure matches. No candidate choice, semantic equivalence, unit scaling, new forecast or science implied (OPS-S9-LAUNCH-1; private/remaining-cpu-source-inspection-v1/INSPECTION.json). Eight recent calibration consumers now have exact used-function/module-binding compatibility checks and six exact diagnostic target mappings. Fixed replay, output-volume scaling and selected-fit reconstruction remain uncosted ([review](../.agent-state/stage9-calibration-consumer-review-v2.json)). |
+| Calibration-consumer component timings | Existing target-output, fixed-calibration and selected-provenance functions on saved exposed pilots; exact decision/provenance and source/input preservation | Eight target, four fixed-calibration and two selected-grid timings independently inspected; native owner absent. Cache/load uncontrolled, no reader calls or full-job rate accepted. Full workload scaling and handler/queue overhead remain owed (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/calibration-consumer-component-timing-v1/INSPECTION.json)). |
+| Complete calibration-consumer CPU cycles | Eight manually reviewed exposed targets through unchanged current handlers and source-bound queue | All saved decisions/provenance, 5,171 input hashes, compiled sources and ten process exits independently verify; zero reader calls or GPU reservation. Complete-cycle timing retained with nested costs separate; scientific output-volume and selected-grid scaling remain unfinished (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/calibration-consumer-full-handler-pilot-v1/INSPECTION.json)). |
+| Diagnostic calibration-consumer CPU forecast | Six exact archive diagnostic consumers; complete current CPU cycles plus modeled additional output validation | Source/input/count and literal upstream bindings and arithmetic independently verify. Conditional empirical estimates retain fixed replay once, explicit payload/cache/protocol assumptions and 1.5 margin; zero reader calls or GPU reservation. Full forecast and selected-grid costs remain owed (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/diagnostic-consumer-forecast-v1/INSPECTION.json)). |
+| Selected-fit validation cost primitives | Current training-package checks and full corpus reads on two completed full-size discarded fits | Exact input/output hashes,55 actually compiled current modules and exited owner verify; zero readers/fits. Initial corpus-hash count corrected in immutable overlay; complete scientific grid/commit/metadata costs remain unfinished, no new full-job rate (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/selected-fit-validation-timing-v1/INSPECTION.json)). |
+| Confirmation-planning regression actual owner delivery | Original XML/logs/public output hashes,336 runner files,122 test files and two native identities |465 XML cases map to all archived tests;21 locks and exact source bytes verify. Original processes absent and freeze ended; no regression or scientific confirmation rerun (OPS-S9-CONFIRMATION-1). |
+
+| Selected-grid metadata cost primitives | Current saved fit-commit verifier, original plan/status, full pilot corpus/epoch checks and unexecuted draft-size preview | All51 compiled sources/input/output hashes and two original commits independently verify; owner absent, no model or queue run. Preview651277bytes excludes final integration and actual status growth; no full-job rate (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/selected-grid-metadata-timing-v1/INSPECTION.json)). |
+
+| Queue preparation costs through delta nine | Exact baseline/eight-delta ancestry; all prior queue states and both original collector queues independently reconstructed | 102 queues/787 unique attempts reconcile. Both collectors and their retained failures are charged once. Queue reservations are not utilization; standalone/parent attribution remains open (OPS-S9-CLOSURE-1; [inspection](../results/phase_2_4_stage_9/private/preparation-queue-cost-delta-v9/INSPECTION.json)). |
+
+| Selected-grid shared provenance forecast | Original full-fit/metadata timing primitives,42 literal selected consumers, preserved gates and independent decimal arithmetic | Two explicit payload/history scenarios cost shared provenance only; overlapping fixed allowance retained, no full-job rate or scientific execution. Future byte/cache/load/lifecycle limits explicit (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/selected-provenance-forecast-v1/INSPECTION.json)). |
+
+| Selected supplied-operation full consumer forecast | Exact current pilot cycles, literal dependency gates, unit/call counts, input/source/output hashes and independent decimal arithmetic | Six conditional complete CPU rates inspected; 27 complete components/403 remaining. Payload sensitivity and conservative overlapping provenance allowance explicit; no runtime bound or actual charge. Original schema setup error retained, both builders absent (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/selected-supplied-consumer-forecast-v2/INSPECTION.json)). |
+
+| Selected diagnostic complete consumer forecast | Literal jobs/gates, unchanged output-hash validator, exact measured cycles and family/operation target timers, source/input/output hashes and independent decimal arithmetic | Eighteen conditional CPU rates inspected with explicit archive-to-fitted payload assumptions and overlapping allowances; no runtime bound or actual charge. Now 45 complete CPU components/385 rates remain; 24 shared portions included, 18 partial portions separate (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/selected-diagnostic-consumer-forecast-v1/INSPECTION.json)). |
+| Remaining selected consumer forecast | Six read-only saved-pilot output-validation timings, literal historical/structured-choice cells, whole current cycles and independently reconstructed decimal costs | Eighteen complete conditional CPU rates inspected; 63 complete components/367 remaining. All 42 shared selection portions are included, with no separate partial total. Payload, cache and scaling assumptions explicit; no model or scientific execution (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/selected-remaining-consumer-forecast-v1/INSPECTION.json)). |
+| Fixed calibration consumer forecast | Twenty saved-pilot validation timings, literal target/calibration dependencies, current complete cycles, fixed replay and independent decimal costs | Forty-two conditional CPU rates inspected; all ninety calibration consumers covered exactly once. Now 105 full CPU components/325 remaining. Original whole-cohort zero limits retained; failed setup archived. Payload/scaling/overlap assumptions explicit; no model or scientific execution (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/fixed-consumer-forecast-v2/INSPECTION.json)). |
+
+| Input-plan binding CPU forecast | Forty literal declarations/dependencies, ten original cycles and source compatibility, current template/model validation and complete manifest-loop timings, independent decimal arithmetic | Forty complete conditional rates inspected. Whole training-package growth and repeated full-manifest hashing explicitly included, with common-cycle/payload/metadata transfer assumptions and overlapping margins. Now 145 full CPU components/285 remaining; no handler, fit or scientific execution (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/rival-plan-forecast-v1/INSPECTION.json)). |
+| Choice-analysis baseline timing | Two cached pilot replays with nested training validation measured in the same invocation; original inputs and current source bytes verified | Primitive timing inspected; builder absent. Training-world and case growth remain separate; full choice-analysis costs, neural compatibility and lifecycle remain open. No new full rate, model, fit or scientific execution (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/choice-baseline-timing-v1/INSPECTION.json)). |
+| Choice-analysis cached replay and summary timing | Reviewed latest used-function compatibility, original archived executed sources, fixed selection and ten exact completed-pilot reconstructions | All three choice views reproduce without live reader or fit; builder absent and inputs/source unchanged. Primitive timings require scientific group/payload/lifecycle scaling; no full rate added (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/choice-replay-timing-v1/INSPECTION.json)). |
+| Complete choice-analysis CPU forecast | Separates same-call model/case/replay timers; keeps whole pilot cycles and fixed zero-bootstrap runtime with declared workload growth | All 48 original commands/gates and independent decimal costs verify; 193 CPU estimates complete, 237 remain. Payload/linear/bootstrap transfer is conditional, not a bound; no scientific launch (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/choice-analysis-forecast-v1/INSPECTION.json)). |
+| Operation-analysis whole-cycle sensitivity | Original cycles, literal jobs, source/call lineages and decimal totals verify | Scheduling acceptance withheld: fixed whole-case validation is multiplied by call growth. Separate same-call validation/replay/profile costs; no full rate added (OPS-S9-LAUNCH-1; [review](../results/phase_2_4_stage_9/private/workload-templates/operation-analysis-forecast-v3/REVIEW.json)). |
+| Operation-analysis lifecycle forecast | Same-invocation case validation/replay timers, exact saved profiles and complete-cycle/metadata/bootstrap allowances | Eight saved profiles reproduce; all34 literal commands/gates and decimal estimates verify. Conditional rates accepted:227 complete CPU estimates/203 remain; coarse sensitivity excluded, no launch (OPS-S9-LAUNCH-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/operation-analysis-forecast-v4/INSPECTION.json)). |
+
+| Artifact-analysis lifecycle forecast | Original compiled pilots, exact saved selections/contrasts, nested summary timing, original literal gates and declared query/contrast scaling | Twenty-two full CPU estimates independently checked; no scientific execution. Conditional payload/bootstrap/lifecycle assumptions explicit (OPS-S9-LAUNCH-1). |
+| Purpose/context reader lifecycle forecast | Twenty-four literal CPU readers, original pilots, nested validation and saved-capsule replay with reader execution disabled | Complete v2 independently inspected: 48 saved rows verify (four old selection rows translate only exact outer scope wording), original gates/source/capsule/output bindings and Decimal costs pass; builder absent. Pilot-mix and severe full-call/payload scenarios retained. Initial refusal preserved. Adds24 full rates; no scientific launch (OPS-S9-LAUNCH-1). |
+
+| Integrated paired-view confirmation declarations | Exact original candidate/execution comparison, literal producer bindings, conditional dependencies and unique produces | Original neural and numerical variants share one global selection cap; 29 conditional jobs declared, no reserve opened or scientific execution. Full all-card coverage, probe/cost/closure integration and launch remain owed (OPS-S9-CLOSURE-1). |
+
+| Confirmation probe and namespace integration | Exact reader/numerical runtime source bindings, actual scheduler gate reader and scientific path guards | Confirmation consumers require their own probe; unrelated failure stays independent. Original undispatched path defect preserved, corrected paths reach only the pre-access validation boundary. No actual probe/scientific execution; discovery coverage and launch remain owed (OPS-S9-CLOSURE-1). |
+
+| Discovery runtime probe declarations | Manual dispatch/consumer mapping, exact materializer and copied sources, original-command comparison and actual scheduler gate reader | Nine probes cover the declared package prerequisites; mixed packages explicit, unrelated failure independent. Four raw training-collection audits still require closure integration. Draft only; no scientific execution (OPS-S9-CLOSURE-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/discovery-probe-bindings-v1/INSPECTION.json)). |
+
+| Raw collector final-audit component | Original dispatch/source/probe identity and raw learner/teacher reconstruction | Identity-root repair passes176 affected checks, preserving all prior cases. Four historical saved collectors and the failed original queued collector reconstruct without new inference. The separate actual thirteen-job probe/collector/final-ledger rehearsal passes: deliberate failure and blocked dependent retained, saved final ledger reproduced in a fresh process, all original collector records reconciled. Historical service-v2 delivery independently verified. Complete stage-wide coverage and scientific B03 remain unaccepted. [Integration inspection](../results/phase_2_4_stage_9/private/confirmation-execution-pilots/collection-closure-v2/INSPECTION.json). The unchanged684-job draft and all reader/collection bindings verify against the repaired source; scientific scheduling remains unaccepted. |
+
+| Service queue delayed terminal inspection | Original queue, source/commit/disposition and resident-request evidence | Original refusal retained; separate reviewed repair verifies with no rerun. Scientific closure remains unaccepted (OPS-S9-CLOSURE-1; [inspection](../.agent-state/wake-inspections/f8cd5a32245c20f5ce976776.json)). |
+
+| Service rehearsal delayed failure inspection | Original queue, source/commit/disposition and resident-request evidence | Original refusal retained; separate reviewed repair verifies with no rerun. Scientific closure remains unaccepted (OPS-S9-CLOSURE-1; [inspection](../.agent-state/wake-inspections/40519a91a209aba60f579f63.json)). |
+
+| Historical service protocol delivery | Original source/test/XML/log closure and exact legacy/unknown-version case |259 original checks independently verify; no rerun, absent historical native metadata remains unverified (OPS-S9-CLOSURE-1; [inspection](../.agent-state/wake-inspections/023385b7bd3c53e877559510.json)). |
+
+| Scientific workload final audit and packet declarations | Exact original commands/policies, complete predecessor sets and actual closure guards | 686 unexecuted declarations include the reviewed two-job closure tail. Omitted predecessors and work after audit refuse; incomplete scientific B03 still refuses packet acceptance. Full semantic/claim acceptance, card/attack coverage, whole queue rehearsal and launch remain unfinished (OPS-S9-CLOSURE-1; [inspection](../results/phase_2_4_stage_9/private/workload-templates/final-closure-tail-v1/INDEPENDENT_CHECK.json)). |
+
+
+| CoAuthor raw-source regression actual delivery | Exact historical source/test archives, launcher, XML inventory, logs, locks and native owners | 817 tests across142 files and21 locks verify on356 archived sources; both owners absent. Actual post-final delivery recorded separately from original inspection. No rerun or claim of current-source full regression. OPS-S9-CLOSURE-1. |
+
+| Stage 9 question-to-job coverage review | Card definitions, inspected handler portions, literal inputs and producer dependencies | Partial source/declaration map covers38 cards/670 unique jobs; four preparation cards, sixteen basic/probe jobs and exact attack contracts remain unmapped.152 job bindings/24 dispatches/43 fixed inputs verify. Scope gaps explicit; no complete-card, final_coverage or scientific acceptance. OPS-S9-CLOSURE-1; .agent-state/stage9-card-coverage-review-v3.json. |
+
+| IteraTeR raw-audit fixture failure actual delivery | Original failed and repaired suites, exact archives/XML/helper/public-receipt identities | Original409 checks retain2 positive-fixture failures; the saved fixture-only canonical-identity repair passes409 with357 production sources unchanged. No rerun. Native owner/completion time and original lock-run metadata were not recorded; no current-source acceptance inferred. OPS-S9-CLOSURE-1. |
+
+| IteraTeR raw-source queue actual delivery | Original plan, source archive, output inventories, consumed-input hashes and saved independent ledger | Twelve jobs retain ten completed, one deliberate failed and one blocked;25 inspected native owners absent. Original357-source archive and80-source fresh ledger verify. No rerun or current-source/scientific acceptance; source and missing reentry-map limits retained. OPS-S9-CLOSURE-1. |
+
+| IteraTeR raw-source regression actual delivery | Exact historical source/test archives, launcher, XML inventory, logs, locks and native owners | 836 tests across143 files and21 locks verify on357 archived sources; both owners absent. Actual post-final delivery recorded separately from original inspection. No rerun or claim of current-source full regression. OPS-S9-CLOSURE-1. |
+
+| Stage 9 preparation evidence coverage index | Saved source inventory, original pointers and selected known-answer test/source identities | Four preparation cards have an explicit evidence/gap index;1,615 source-evidence files and selected9 scoring/12 finite-program/6 information-selection test identities verify. No test rerun, whole-card acceptance or scheduled-job placeholder. Existing source/split/borrowed-component integration remains owed. OPS-S9-CLOSURE-1. |
+
+| Stage 9 delivered deadline liveness | Current native owner, watcher source/heartbeat, queue status, draft bytes and scoped orphan inspection | Healthy watcher; no active/paused compute queue or unexplained new terminal output. Original delivery metadata/ACK preserved; fresh ACK follows full landing. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/01f18f85e85b962439c55763.json. |
+
+| Stage 9 support assignment and declaration ordering | Original source/command identities, consumer paths, gate dependencies and exact job equality | All existing declarations have a reviewed role. Separate candidate resolves prerequisite ordering without changing a job object or granting launch acceptance. Four preparation-card bindings and full attack/confirmation coverage remain owed. OPS-S9-CLOSURE-1; .agent-state/stage9-dependency-ordered-jobs-v1.json. |
+
+| Delivered ArXivEdits raw-regression inspection | Original archive bytes, XML identities, locks, helper and public receipts, native owners | 861 tests/144 files/21 locks on 358 original sources verify; both owners absent. No rerun or current-source scientific acceptance. Historical live/final gear and inspector hashes remain distinct. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/4615e3abc68aaf518cb1f2cf.json. |
+
+| Delivered external raw-source targeted checks | Original archive, full XML, helper/public receipt and overlap-audit source identities | 351 tests/23 files, including 34 component checks, and design lint verify on 359 original sources. No original owner or lock audit recorded. No rerun or current-source admission. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/077f325c304fe8179984daa7.json. |
+
+| Delivered external raw-source queue | Saved manifest/attempts, consumed records, source archive and independent final calculation | 13 jobs/12 attempts retain 11 COMPLETE, one intended failure and one NOT_RUN; 359 original sources and 84 compiled calculation sources verify. All 27 original identities absent. No rerun or scientific acceptance; retained reentry-map limitation. OPS-S9-CLOSURE-1; .agent-state/wake-inspections/7f27f07d921b3675ed7df7d2.json. |
