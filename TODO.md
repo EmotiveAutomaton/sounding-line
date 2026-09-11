@@ -30,7 +30,14 @@ archive, kept whole, mined but never deleted.
 - [x] Fully inspect and internally land the archived-SmolLM self-generated-outcome producer; retain pending calibration and complete-profile interpretation (OPS-S9-RECOVERY-1).
 - [x] Fully inspect and internally land the archived-SmolLM state-reset producer; retain pending calibration and complete-profile interpretation (OPS-S9-RECOVERY-1).
 - [x] Fully inspect and internally land the archived-SmolLM artifact-context producer; retain pending calibration and complete-profile interpretation (OPS-S9-RECOVERY-1).
-- [ ] Inspect each complete producer/calibration/analysis cell and perform the full internal write-through before acknowledging its wake; do not publish unfinished scores.
+- [x] Fully inspect and internally land the archived-SmolLM matched-prefix producer (OPS-S9-RECOVERY-1).
+- [x] Fully inspect and internally land the archived-SmolLM finite-state producer (OPS-S9-RECOVERY-1).
+- [x] Fully inspect and internally land the archived-SmolLM offered-action calibration consumer; retain numerical-only scope (OPS-S9-RECOVERY-1).
+- [x] Fully inspect and internally land the archived-SmolLM matched-prefix calibration consumer; retain numerical-only scope (OPS-S9-RECOVERY-1).
+- [x] Fully inspect and internally land the archived-SmolLM finite-state calibration consumer; retain numerical-only scope (OPS-S9-RECOVERY-1).
+- [x] Inspect the terminal 26-job overnight queue, reconcile all successful attempts and native worker exit, and retain cooling settings (OPS-S9-RECOVERY-1).
+- [x] Reconstruct and internally land the complete archived-SmolLM rollout, matched-prefix and finite-rule profiles (L381-L383); retain assistance, missing matches, ties and final-integrity limits.
+- [x] Inspect each complete producer/calibration/analysis cell and perform the full internal write-through before acknowledging its wake; do not publish unfinished scores.
 - [ ] Verify thermal readings, native ownership, heartbeat and watcher health on wakes. Reassess sustained verified CPU90C+ or renewed warnings.
 - [ ] Reassess actual pace and remaining useful work after each trunk; continue eligible existing Stage 9 work until the curator returns, within the unchanged compute cap. Do not fill time with repeated completed experiments or waiting.
 - [ ] Complete the separately authorized final-integrity repair and scoped final packet, reusing already reconstructed observations. The original failed B03/B04 remain immutable history; component repair is not full acceptance.
@@ -57,7 +64,7 @@ archive, kept whole, mined but never deleted.
 - [x] Reproduce and internally land all eight original ArgRewrite grouped contrasts, complete target support and source/exposure limits (L377; H01-S9).
 - [x] Fully inspect and retain final-integrity allocation failure and one permitted retry; restore launch allocation with unchanged gear and retained thermal limits.
 - [x] Close the final-audit consumer branch after the second native-process identity defect; preserve both failures and mark the original packet NOT RUN WITH REASON.
-- [ ] Curator decision: authorize a separate bounded closure repair using preserved experiments. No further audit retry or new research follows automatically.
+- [x] Curator separately authorized closure repair and the finite overnight continuation on September 11; preserve the original exhausted branch and both failures.
 - [ ] L373-L377: final selected integrity and accepted scoped packet remain unresolved; retain all scientific limits and both audit failures.
 
 

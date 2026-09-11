@@ -1596,3 +1596,16 @@ Scheduled operational watcher (OPS-WAKE-PACING-1): owner-scoped early deadlines,
 Archived-SmolLM state-reset execution inspection (2026-09-11T16:23:13.515552+00:00; OPS-S9-RECOVERY-1): all 192 assigned units and 2694 saved calls, unique capsules, original sidecars and resident requests reconstruct. Original dispatcher/package identity, delivered inputs and denial evidence verify. The unchanged crosschecked inventory checks all committed files; no model call, source edit or regression. Execution provenance only; SmolLM calibration, complete profiles and final integrity remain pending.
 
 Archived-SmolLM artifact-context execution inspection (2026-09-11T16:58:41.402683+00:00; OPS-S9-RECOVERY-1): all 192 assigned units and 193 saved calls, unique capsules, original sidecars and resident requests reconstruct. Original dispatcher/package identity, delivered inputs and denial evidence verify. The unchanged crosschecked inventory checks all committed files; no model call, source edit or regression. Execution provenance only; SmolLM calibration, complete profiles and final integrity remain pending.
+
+
+Archived-SmolLM matched-prefix producer (2026-09-11T17:38:07.903662+00:00; OPS-S9-RECOVERY-1): all 192 source assignments, 192 reader units and 936 saved calls/capsules/service requests reconstruct. Source, dispatcher, package, delivered inputs, denial boundary and original sidecars verify. No new model call. Evidence: overnight PREFIX_SMOLLM_INSPECTION.json. Execution provenance only; scientific profile and final integrity are separate.
+
+Archived-SmolLM finite-state producer (2026-09-11T17:38:07.903662+00:00; OPS-S9-RECOVERY-1): all 192 source assignments, 8 reader units and 384 saved calls/capsules/service requests reconstruct. Source, dispatcher, package, delivered inputs, denial boundary and original sidecars verify. No new model call. Evidence: overnight FINITE_SMOLLM_INSPECTION.json. Execution provenance only; scientific profile and final integrity are separate.
+
+Archived-SmolLM offered-action calibration (2026-09-11T17:38:07.903662+00:00; OPS-S9-RECOVERY-1): exact original package, target, inputs, decision and output closure reconstruct; shares 33 saved calls with two other consumers. Generation precision and scientific admission are not established. Evidence: overnight CALIBRATION_SMOLLM_INSPECTION.json.
+
+Archived-SmolLM matched-prefix calibration (2026-09-11T17:38:07.903662+00:00; OPS-S9-RECOVERY-1): exact original package, target, inputs, decision and output closure reconstruct; shares 33 saved calls with two other consumers. Generation precision and scientific admission are not established. Evidence: overnight CALIBRATION_SMOLLM_INSPECTION.json.
+
+Archived-SmolLM finite-state calibration (2026-09-11T17:38:07.903662+00:00; OPS-S9-RECOVERY-1): exact original package, target, inputs, decision and output closure reconstruct; shares 33 saved calls with two other consumers. Generation precision and scientific admission are not established. Evidence: overnight CALIBRATION_SMOLLM_INSPECTION.json.
+
+Overnight terminal inspection (2026-09-11T17:38:07.903662+00:00; OPS-S9-RECOVERY-1): all 26 jobs/attempts reconcile and 53 original native process identities are no longer live; frozen source and watcher verify. Actual reserved GPU time 12.973 hours, not device utilization. Final scientific integrity remains separate.

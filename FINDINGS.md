@@ -17252,6 +17252,103 @@ Evidence: original archived-Qwen finite profile and completion under `private/sc
 
 **Curator roll-up.** Theory group: expertise and coherent consequences. Question: can the reader use supplied rules to preserve and distinguish possible futures? Outcome: Narrows. Result: the constant response fails every projection's paired correctness battery. Project meaning: simple query accuracy would overstate the demonstrated competence. Next engineering obligation: retain this failed diagnostic in the final scoped packet and finish existing second-family comparisons and final integrity. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L380 and the original complete finite profile.
 
+## L381 - The second archived reader sustains stepwise action but still fails the artifact interface
+
+**Hypothesis.** Offering actions, supplying their outcomes, periodically restoring the genuine state, and showing an artifact instead of its process record distinguish components of the archived reader's difficulty sustaining a legal process.
+
+**METHOD.** Compared the same archived SmolLM package on all 192 constructed discovery worlds, split equally between essay and workshop-document domains. Five fixed conditions use offered action probabilities with environment-produced outcomes; freely named actions with environment-produced outcomes; freely named actions and claimed outcomes checked by the environment; named actions with genuine-state restoration every four interactions; and the current artifact with its original commission, action format and clock. The offered support comes from visible evidence, with no hidden inventory legality mask. An evaluator executes or refuses each action and retains malformed actions, unavailable resets, invalid calls and STOP. Each trajectory supplies nested horizons of one, four, eight and sixteen executed actions. STOP is counted separately and earns no sustained-action credit. The self-outcome condition is stepwise interaction, not the historical uninterrupted full-log generation test. The artifact condition does not cover every finished-output or partial-artifact task in C08.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** SmolLM sustains freely named legal actions through the longest tested horizon on nearly every world, both with supplied outcomes and with its own claimed outcomes checked stepwise. This differs from Qwen's earlier rollout profile. Offering actions does not improve sustained action here; true-state resets reduce observed reach, with unavailable reset states contributing. Neither action count nor these comparisons establishes correct policy, appropriate stopping, or uninterrupted full-log generation.
+
+Every count is out of 96 assigned worlds per domain. Horizon columns count trajectories executing that many legal non-STOP actions. The last column counts trajectories emitting STOP. The conditions share source worlds and horizons are nested, not independent samples.
+
+| Domain | Assistance condition | 1 action | 4 actions | 8 actions | 16 actions | Emitted STOP |
+|---|---|---:|---:|---:|---:|---:|
+| Constructed essay | Offered actions, environment outcomes | 96 | 96 | 61 | 59 | 37 |
+| Constructed essay | Named actions, environment outcomes | 96 | 96 | 96 | 96 | 0 |
+| Constructed essay | Named actions and outcomes | 96 | 96 | 96 | 96 | 0 |
+| Constructed essay | Named actions, true-state resets | 96 | 96 | 92 | 69 | 0 |
+| Constructed essay | Current artifact, named actions | 0 | 0 | 0 | 0 | 0 |
+| Constructed workshop document | Offered actions, environment outcomes | 96 | 96 | 70 | 58 | 38 |
+| Constructed workshop document | Named actions, environment outcomes | 96 | 96 | 96 | 94 | 2 |
+| Constructed workshop document | Named actions and outcomes | 96 | 96 | 96 | 94 | 2 |
+| Constructed workshop document | Named actions, true-state resets | 96 | 96 | 92 | 65 | 2 |
+| Constructed workshop document | Current artifact, named actions | 1 | 0 | 0 | 0 | 0 |
+
+Differences below are percentage points in reaching each horizon; positive favors the first named condition. Source aliases are averaged within distinct initial public questions, then those questions receive equal weight: 62 essay and 70 workshop groups. Brackets are pointwise 95% paired cluster percentile bootstrap intervals, 4,000 draws, seed 9041, without multiplicity adjustment. Weighted differences need not equal raw count differences.
+
+| Domain | Comparison | 8-action difference [interval] | 16-action difference [interval] |
+|---|---|---:|---:|
+| Constructed essay | Named minus offered actions | +37.10 [+25.81, +50.00] | +40.32 [+29.03, +53.23] |
+| Constructed essay | Self-produced minus supplied outcomes | +0.00 [+0.00, +0.00] | +0.00 [+0.00, +0.00] |
+| Constructed essay | True-state reset minus uninterrupted | -5.38 [-11.83, -0.54] | -27.47 [-38.23, -17.80] |
+| Constructed essay | Artifact view minus process record | -100.00 [-100.00, -100.00] | -100.00 [-100.00, -100.00] |
+| Constructed workshop document | Named minus offered actions | +28.57 [+18.57, +40.00] | +40.00 [+28.57, +51.43] |
+| Constructed workshop document | Self-produced minus supplied outcomes | +0.00 [+0.00, +0.00] | +0.00 [+0.00, +0.00] |
+| Constructed workshop document | True-state reset minus uninterrupted | -5.00 [-10.00, -0.71] | -31.05 [-42.10, -20.24] |
+| Constructed workshop document | Artifact view minus process record | -100.00 [-100.00, -100.00] | -97.14 [-100.00, -92.86] |
+
+At one and four actions the first three contrasts are exactly zero. The artifact-minus-process contrast is minus 100 points except for the workshop one-action contrast, minus 98.57 [-100.00, -95.71]. All model calls meet the execution contract. The artifact condition has 18 first-line grammar failures and 174 invalid or repeated-action terminations; only one workshop trajectory executes even one legal action. Reset failures retain 25 essay and 29 workshop unavailable-state boundaries, plus two invalid essay actions, in the assigned denominators. A reset penalty is therefore not isolated evidence that genuine state information harms the reader. The two workshop STOPs in each named-action condition remain distinct from illegal actions; their appropriateness is unmeasured.
+
+**Meaning and limits.** The completed second-family profile rules out extending Qwen's short stepwise horizon to both archived packages. It establishes bounded interactive execution under this interface, not whole-process generation or an internal expertise mechanism. Identical horizons with supplied versus claimed outcomes do not identify the source of earlier full-log failures. Artifact failures are failures of this package and prompt, not proof that artifacts lack process information. Cross-package observations reuse the same worlds and do not isolate training, size or architecture. Disposition remains DESCRIPTIVE.
+
+**Integrity and controls.** Original queue commits, compiled sources, exact package, all assigned source units and committed output closures verify. Every producer was fully reconstructed from its saved calls and delivered inputs, with capsules, sidecars, denial evidence and resident-service requests reconciled. This combined inspection rechecked unchanged row identities before reproducing all three original grouped profiles exactly in 48.18 seconds. No new model call, fit, capsule execution, reserve access, p-value or research test was introduced. Original numerical calibration binds the scorer, not generation precision. All 380 frozen source files verify. The old final-audit failures remain retained; separately authorized scoped final integrity is still required. Scientific admission remains false and these complete-cell findings stay internal until the final scoped packet.
+
+Evidence: original archived-SmolLM profiles and completion receipts under `private/scientific-operation-analysis/`, the seven original producers and overnight `PROFILES_SMOLLM_INSPECTION.json`. Complete producer and calibration write-through is in OPS-S9-RECOVERY-1.
+
+**Curator roll-up.** Theory group: expertise and process competence. Question: which assistance changes sustained execution? Outcome: Narrows. Result: the second archived package sustains named stepwise actions while the artifact interface fails. Project meaning: the first package's short horizon does not generalize to the second. Next engineering obligation: preserve assistance, stopping and reset-availability limits in scoped final integrity and the single packet. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L381 and C-ROL-S9.
+
+## L382 - Altered histories have no resolved score effect; one generated match cannot support uncertainty
+
+**Hypothesis.** A reader's prospective prediction changes when an original history is replaced by another legal history or a generated history that reaches exactly the same operative state.
+
+**METHOD.** Used all 192 assigned constructed discovery worlds and the same archived SmolLM scorer. An altered history qualifies only when it preserves the complete operative state, clock and previous action. Both histories are scored against the same genuine next-action target with the full common support. The separately generated history uses the actual three-interaction prefix and is scored only if it reaches that same state; no replacement is supplied for a failed match. Every failed construction remains in the allocation. Domain-specific construction requires at least 75% of assigned original/altered pairs to be realized before their conditional score contrast is reported.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** Neither domain has a resolved altered-minus-original mean log-score difference. Exactly one generated essay history reaches the matched state, with zero observed score difference and no estimable grouped uncertainty. No workshop generated history matches, so that comparison is NOT RUN WITH REASON. The single essay observation is retained as descriptive evidence, not a passed invariance or equivalence test.
+
+The table reports assigned worlds, realized original/altered pairs and altered-minus-original mean natural-log predictive score in nats. Brackets are pointwise 95% paired cluster percentile bootstrap intervals, 4,000 draws, seed 9031. Distinct paired-question groups number 94 for essays and 93 for workshop documents. The last column counts generated histories eligible for comparison, not accurate predictions.
+
+| Domain | Assigned worlds | Realized altered pairs | Score difference [interval] | Matched generated histories |
+|---|---:|---:|---:|---:|
+| Constructed essay | 96 | 94 | -0.000705 [-0.025195, +0.023695] | 1 |
+| Constructed workshop document | 96 | 93 | +0.002055 [-0.020208, +0.022608] | 0 |
+
+Both altered-history construction checks pass. Two essay and three workshop assignments retain their nonrealization reasons. All scored predictions retain valid full support. The generated essay contrast has one independent group and no confidence interval; a point estimate of zero is not population equivalence. This changes the first family's zero-match account only to one realized second-family example. There is still no adequately supported generated-history prediction contrast across the assigned population.
+
+**Meaning and limits.** Conditional mean-score similarity neither proves distributional invariance nor identifies an internal state representation. The matched subset is selected by the reader's ability to construct that state. Missing generated matches remain missing comparisons, not poor predictive scores. No surface-only mechanism or human-reader claim follows. Disposition remains DESCRIPTIVE for realized comparisons and NOT RUN WITH REASON for the absent workshop generated comparison.
+
+**Integrity and controls.** Original queue commits, compiled sources, exact package, all assigned source units and committed output closures verify. Every producer was fully reconstructed from its saved calls and delivered inputs, with capsules, sidecars, denial evidence and resident-service requests reconciled. This combined inspection rechecked unchanged row identities before reproducing all three original grouped profiles exactly in 48.18 seconds. No new model call, fit, capsule execution, reserve access, p-value or research test was introduced. Original numerical calibration binds the scorer, not generation precision. All 380 frozen source files verify. The old final-audit failures remain retained; separately authorized scoped final integrity is still required. Scientific admission remains false and these complete-cell findings stay internal until the final scoped packet.
+
+Evidence: original archived-SmolLM profiles and completion receipts under `private/scientific-operation-analysis/`, the seven original producers and overnight `PROFILES_SMOLLM_INSPECTION.json`. Complete producer and calibration write-through is in OPS-S9-RECOVERY-1.
+
+**Curator roll-up.** Theory group: expertise and state-sensitive prediction. Question: does changing history at fixed operative state change prediction? Outcome: Narrows. Result: altered-history differences remain unresolved and the generated contrast lacks sufficient independent matches. Project meaning: a generated-history prediction penalty remains unidentified. Next engineering obligation: retain sparse realization and missing uncertainty in the scoped final packet. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L382 and C01-S9.
+
+## L383 - Variable finite-rule answers still fail every projection consistency battery
+
+**Hypothesis.** Given explicit finite execution rules, the archived reader correctly preserves equivalent futures and distinguishes states with different legal continuations, including differences that require more than one action to reveal.
+
+**METHOD.** Retained all 192 original source assignments but grouped their repeated input-and-truth projections into eight distinct reader units. Each unit supplies explicit compact rules and the same fixed 48 yes/no queries across equivalent and distinguishable states. The bounded rule interpretation is exhaustively checked against the original exact constructor before using reader answers. A compression pair must have matching truth and both answers correct; a distinction pair must have opposite truths and both answers correct. Longer distinctions require more than one action. A tie earns no distinguishing credit. Passing a projection requires every applicable pair to be correct; all queries and original aliases remain recorded.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** SmolLM gives both yes and no answers but passes none of the complete projection batteries. Unlike Qwen's constant-no response, this is variable responding without demonstrated paired correctness. All calls are valid executions; tied scores and incorrect answers remain task failures.
+
+The table counts complete projection passes, not individual query accuracy. Rates have pointwise Wilson 95% intervals. Eight distinct input-and-truth projections are the denominator; 192 original source aliases and 384 calls are not independent competence samples.
+
+| Requirement | Passing projections / tested | Rate [interval] |
+|---|---:|---:|
+| Equivalent-state consistency with correct answers | 0 / 8 | 0.000 [0.000, 0.324] |
+| All tested distinguishing continuations correct | 0 / 8 | 0.000 [0.000, 0.324] |
+| All longer distinguishing continuations correct | 0 / 8 | 0.000 [0.000, 0.324] |
+
+Across the 384 queries, there are 203 no answers, 169 yes answers and 12 exact score ties that receive no categorical correctness credit. The reader answers 187 correctly, with 22 to 24 correct per projection; every all-answers-correct check fails. Each projection contains 32 no and 16 yes truths. Constant no would answer 32 correctly per projection while still failing the paired requirements, demonstrating why raw query accuracy cannot stand in for state discrimination. Ties are retained rather than arbitrarily converted into correct distinctions.
+
+**Meaning and limits.** Variable answers do not rescue supplied-rule consistency. Both tested archived packages fail this bounded battery, through different response patterns. This is a supplied-rule diagnostic on eight projections, not an evaluation of learned world models, a published automaton-training replication or evidence about stochastic maker states and people. Disposition remains DESCRIPTIVE.
+
+**Integrity and controls.** Original queue commits, compiled sources, exact package, all assigned source units and committed output closures verify. Every producer was fully reconstructed from its saved calls and delivered inputs, with capsules, sidecars, denial evidence and resident-service requests reconciled. This combined inspection rechecked unchanged row identities before reproducing all three original grouped profiles exactly in 48.18 seconds. No new model call, fit, capsule execution, reserve access, p-value or research test was introduced. Original numerical calibration binds the scorer, not generation precision. All 380 frozen source files verify. The old final-audit failures remain retained; separately authorized scoped final integrity is still required. Scientific admission remains false and these complete-cell findings stay internal until the final scoped packet.
+
+Evidence: original archived-SmolLM profiles and completion receipts under `private/scientific-operation-analysis/`, the seven original producers and overnight `PROFILES_SMOLLM_INSPECTION.json`. Complete producer and calibration write-through is in OPS-S9-RECOVERY-1.
+
+**Curator roll-up.** Theory group: expertise and coherent consequences. Question: can the reader use supplied rules to preserve and distinguish possible futures? Outcome: Narrows. Result: variable responses fail every projection's paired correctness battery. Project meaning: neither tested archived package demonstrates this supplied-rule competence. Next engineering obligation: retain dependent aliases, ties and failed requirements in scoped final integrity and the single packet. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L383 and C04-S9.
+
 ## OPS-S9-RECOVERY-1: A complete selected branch can pass without completing unrelated branches
 
 Hypothesis: explicit local acceptance can release a scientifically bounded subset without weakening its controls or silently claiming the full stage.
@@ -17590,6 +17687,112 @@ The archived-Qwen branch already has full internal write-through, including all 
 Evidence: private overnight continuation receipts `ARTIFACT_SMOLLM_INSPECTION.json`, `ARTIFACT_SMOLLM_LIVENESS_FINAL.json` and `ARTIFACT_SMOLLM_LANDING.json`; unchanged original `OFFERED_QWEN_STORAGE_CROSSCHECK.json`.
 
 **Curator roll-up.** Theory group: measurement and operational integrity. Question: can the second reader family's diagnostic be recovered from its actual saved execution? Outcome: Infrastructure. Result: the complete SmolLM artifact-context producer reconstructs. Project meaning: the second family's comparison has inspected execution evidence. Next engineering obligation: land its calibration and complete profiles, then finish scoped final integrity while maintaining cooling and queue health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
+
+
+### Archived-SmolLM matched-prefix producer execution inspected, 2026-09-11T17:38:07.903662+00:00
+
+**Hypothesis.** The archived reader's diagnostic using original and altered histories matched on operative state can be recovered completely from its actual inputs and execution records.
+
+**METHOD.** Checked the original queue commit and compiled source, reconstructed every assigned unit and delivered capsule input, and matched the original dispatcher settings and archived model package. Checked all committed files, unique capsules and original sidecars with the previously crosschecked fixed-layout inventory, then reconciled the exact-package denial probe and every model-service request. This diagnostic constructs a legally altered history only when it preserves the exact operative state, action clock and previous action. It retains failed match construction and checks both original and altered histories against their original saved requests. The generated-history condition uses the actual three-interaction prefix only if its complete operative state matches; unsuccessful or early-stopped generation receives no replacement. No unmatched case is promoted to a paired success. Inspection reused saved responses only.
+
+**Finding.** The complete archived-SmolLM matched-prefix producer reconstructs, with its source population, input boundary and actual execution preserved. This is an Infrastructure landing. It does not establish competence; the full paired profile and final integrity remain pending.
+
+The table records execution coverage and provenance, not diagnostic scores.
+
+| Execution check | Observed coverage | Limit |
+|---|---|---|
+| Assigned source units | 192 complete and reconstructed | Original constructed discovery population |
+| Saved calls and unique committed capsules | 936 fully reconciled | Execution validity is separate from action legality and task competence |
+| Actual model-service requests | 936 matched, no unresolved requests or capsules | Recorded resident identity and lifecycle |
+| Original GPU reservation | 2094.60 seconds | Elapsed reservation, not integrated device utilization |
+
+The read-only inspection took 71.56 seconds. Its storage function is unchanged from the earlier rehearsal crosscheck; no generic quadratic rescan, new model invocation, regression run, scoring edit or source change was needed. All original action outcomes and failures remain in their assigned units. No new hypothesis or test was harvested, and no p-value or theory claim is issued.
+
+Queue at inspection: all 26 jobs complete, no failure or pause. All original owner, wrapper and worker identities are terminated; watcher and 380 frozen sources verify. Sensor endpoint reports CPU 63.9 °C / GPU 48.0 °C without an independent hardware timestamp. CPU boost-off/90% maximum, Gear 2 authorization and original cap remain unchanged.
+
+Evidence: the overnight continuation's `PREFIX_SMOLLM_INSPECTION.json`, final liveness and landing receipts, with the original `OFFERED_QWEN_STORAGE_CROSSCHECK.json` reused by exact hash. Complete calibration, grouped analysis and scoped final integrity are still owed; earlier failed final audits remain intact.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: can the state-matched history comparison be reconstructed from its actual saved execution? Outcome: Infrastructure. Result: the complete matched-prefix producer reconstructs. Project meaning: another declared comparison arm has inspected execution evidence. Next engineering obligation: land the complete diagnostic profile and final integrity while maintaining queue and thermal health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
+
+### Archived-SmolLM finite-state producer execution inspected, 2026-09-11T17:38:07.903662+00:00
+
+**Hypothesis.** The archived reader's diagnostic using the declared finite execution rules can be recovered completely from its actual inputs and execution records.
+
+**METHOD.** Checked the original queue commit and compiled source, reconstructed every assigned unit and delivered capsule input, and matched the original dispatcher settings and archived model package. Checked all committed files, unique capsules and original sidecars with the previously crosschecked fixed-layout inventory, then reconciled the exact-package denial probe and every model-service request. This diagnostic supplies explicit execution rules and asks whether declared continuations are legal. All original source assignments retain their mapping into eight distinct input-and-truth projection groups. The original exhaustive bounded-rule checks and fixed query plan reconstruct before saved answers are used. Repeated source aliases remain dependent rather than being counted as independent reader units. Inspection reused saved responses only.
+
+**Finding.** The complete archived-SmolLM finite-state producer reconstructs, with its source population, input boundary and actual execution preserved. This is an Infrastructure landing. It does not establish competence; the full paired profile and final integrity remain pending.
+
+The table records execution coverage and provenance, not diagnostic scores.
+
+| Execution check | Observed coverage | Limit |
+|---|---|---|
+| Original source assignments | 192 preserved | Source aliases are not independent reader units |
+| Distinct projection groups | 8 complete and reconstructed | Original grouping and fixed query plan preserved |
+| Saved calls and unique committed capsules | 384 fully reconciled | Execution validity is separate from action legality and task competence |
+| Actual model-service requests | 384 matched, no unresolved requests or capsules | Recorded resident identity and lifecycle |
+| Original GPU reservation | 240.56 seconds | Elapsed reservation, not integrated device utilization |
+
+The read-only inspection took 97.03 seconds. Its storage function is unchanged from the earlier rehearsal crosscheck; no generic quadratic rescan, new model invocation, regression run, scoring edit or source change was needed. All original action outcomes and failures remain in their assigned units. No new hypothesis or test was harvested, and no p-value or theory claim is issued.
+
+Queue at inspection: all 26 jobs complete, no failure or pause. All original owner, wrapper and worker identities are terminated; watcher and 380 frozen sources verify. Sensor endpoint reports CPU 63.9 °C / GPU 48.0 °C without an independent hardware timestamp. CPU boost-off/90% maximum, Gear 2 authorization and original cap remain unchanged.
+
+Evidence: the overnight continuation's `FINITE_SMOLLM_INSPECTION.json`, final liveness and landing receipts, with the original `OFFERED_QWEN_STORAGE_CROSSCHECK.json` reused by exact hash. Complete calibration, grouped analysis and scoped final integrity are still owed; earlier failed final audits remain intact.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: can the supplied-rule finite diagnostic be reconstructed from its actual saved execution? Outcome: Infrastructure. Result: the complete finite-state producer reconstructs. Project meaning: another declared comparison arm has inspected execution evidence. Next engineering obligation: land the complete diagnostic profile and final integrity while maintaining queue and thermal health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
+
+### Archived-SmolLM offered-action calibration consumer inspected, 2026-09-11T17:38:07.903662+00:00
+
+**Hypothesis.** The offered-action diagnostic uses the exact scoring package whose numerical calibration was measured originally.
+
+**METHOD.** Reconstructed the original command, queue commit, compiled source, target identity and complete decision against the original three-variant calibration. Checked actual delivered inputs and the fully reconstructed target producer. The three consumers share the same 33 original calibration calls; these are not independent calibration samples. No reader was invoked.
+
+**Finding.** The original accepted numerical-calibration decision reconstructs with exact score-package binding. Generation precision remains uncalibrated and scientific admission remains false. This Infrastructure landing validates the instrument binding, not diagnostic competence.
+
+The combined three-consumer saved-only inspection took 37.35 seconds. Original tolerances, ties, option permutations and invalidity controls remain unchanged. No theory claim, p-value or new test follows. Evidence: overnight `CALIBRATION_SMOLLM_INSPECTION.json`, original `DECISION.json` and `COMPLETE.json`, and the terminal infrastructure landing.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: is the offered-action diagnostic bound to its original calibrated scorer? Outcome: Infrastructure. Result: the original numerical-calibration decision reconstructs. Project meaning: declared scorer binding is checked. Next engineering obligation: complete grouped-profile landing and scoped final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and original consumer.
+
+
+### Archived-SmolLM matched-prefix calibration consumer inspected, 2026-09-11T17:38:07.903662+00:00
+
+**Hypothesis.** The matched-prefix diagnostic uses the exact scoring package whose numerical calibration was measured originally.
+
+**METHOD.** Reconstructed the original command, queue commit, compiled source, target identity and complete decision against the original three-variant calibration. Checked actual delivered inputs and the fully reconstructed target producer. The three consumers share the same 33 original calibration calls; these are not independent calibration samples. No reader was invoked.
+
+**Finding.** The original accepted numerical-calibration decision reconstructs with exact score-package binding. Generation precision remains uncalibrated and scientific admission remains false. This Infrastructure landing validates the instrument binding, not diagnostic competence.
+
+The combined three-consumer saved-only inspection took 37.35 seconds. Original tolerances, ties, option permutations and invalidity controls remain unchanged. No theory claim, p-value or new test follows. Evidence: overnight `CALIBRATION_SMOLLM_INSPECTION.json`, original `DECISION.json` and `COMPLETE.json`, and the terminal infrastructure landing.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: is the matched-prefix diagnostic bound to its original calibrated scorer? Outcome: Infrastructure. Result: the original numerical-calibration decision reconstructs. Project meaning: declared scorer binding is checked. Next engineering obligation: complete grouped-profile landing and scoped final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and original consumer.
+
+
+### Archived-SmolLM finite-state calibration consumer inspected, 2026-09-11T17:38:07.903662+00:00
+
+**Hypothesis.** The finite-state diagnostic uses the exact scoring package whose numerical calibration was measured originally.
+
+**METHOD.** Reconstructed the original command, queue commit, compiled source, target identity and complete decision against the original three-variant calibration. Checked actual delivered inputs and the fully reconstructed target producer. The three consumers share the same 33 original calibration calls; these are not independent calibration samples. No reader was invoked.
+
+**Finding.** The original accepted numerical-calibration decision reconstructs with exact score-package binding. Generation precision remains uncalibrated and scientific admission remains false. This Infrastructure landing validates the instrument binding, not diagnostic competence.
+
+The combined three-consumer saved-only inspection took 37.35 seconds. Original tolerances, ties, option permutations and invalidity controls remain unchanged. No theory claim, p-value or new test follows. Evidence: overnight `CALIBRATION_SMOLLM_INSPECTION.json`, original `DECISION.json` and `COMPLETE.json`, and the terminal infrastructure landing.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: is the finite-state diagnostic bound to its original calibrated scorer? Outcome: Infrastructure. Result: the original numerical-calibration decision reconstructs. Project meaning: declared scorer binding is checked. Next engineering obligation: complete grouped-profile landing and scoped final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and original consumer.
+
+
+### Overnight queue terminal inspection, 2026-09-11T17:38:07.903662+00:00
+
+**Hypothesis.** The authorized finite overnight queue can drain without missing jobs or leaving its owned processes active.
+
+**METHOD.** Reconciled the final status and COMPLETE receipt, all job states and original attempts; checked the native creation/executable identities of the owner and every wrapper/worker. Verified all frozen sources, the active watcher and retained CPU settings, and read the sensor endpoint.
+
+**Finding.** All 26 jobs completed in 26 successful attempts, with no failure, pause or unfinished attempt. All 53 recorded original owner/wrapper/worker identities are no longer live. Recorded occupied job time is 13.382 hours, including 12.973 GPU-reserved hours; this measures elapsed reservation, not integrated device utilization. The queue has drained, and no scientific worker is running. Sensor values were CPU 63.9 °C / GPU 48.0 °C, without an independent hardware sample timestamp; CPU boost-off/90% maximum remains active. The terminal event delivered the pending successful outputs ahead of the scheduled check, as intended.
+
+Queue completion is operational evidence only. The original selected queue's two audit failures and not-run packet remain unchanged. The separately authorized final-integrity repair and one scoped scientific packet remain owed. No new research was harvested or admitted by this wake. Evidence: overnight `TERMINAL_INSPECTION.json` and original queue `COMPLETE.json`.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: did the authorized queue finish and release its owned workers? Outcome: Infrastructure. Result: the finite queue drained successfully. Project meaning: experimental execution is complete for this selected continuation. Next engineering obligation: finish internal scientific landings and authorized final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and terminal inspection.
 
 ## OPS-S9-LAUNCH-1: Launch guards reject empty acceptance and inconsistent workload evidence
 
