@@ -53,6 +53,23 @@ research design, or interpreting per-artifact output from an unfinished cell.
   standing ruling, 2026-08-28)**. Never shift to second gear on inference; he calls the gear.
 - If nothing is running and the queue has stages, find out why before anything else.
 
+### Schedule the next useful check-in
+
+- Before yielding with authorized work running, estimate the next point that needs an
+  agent from live progress or existing rates. Wake conservatively early, usually about
+  twenty percent before it; healthy long GPU work normally needs thirty-to-sixty-minute
+  checks, not repeated few-minute turns. Shorter checks need an imminent intervention.
+- Run `python tools/codex_watch.py schedule SECONDS --expected-seconds ESTIMATE --reason REASON`.
+  Record and verify its due time, milestone and basis; report the next check-in. Re-estimate
+  after inspection. Do not create a new forecast project just to set a wake.
+- Routine completion notices accumulate until the check-in. Fully land every delivered
+  result before ACK; notification batching never licenses partial write-through or interim
+  scientific scores. Failures, pauses, interrupts and registered active-queue completion
+  bypass the delay. Keep those terminal paths registered.
+- Suppress redundant routine wakes while already active. Without a recorded estimate the
+  watcher uses a thirty-minute routine cooldown; fixed liveness fallback follows recent
+  owner attention. Waiting belongs to the service, not an occupied agent turn.
+
 ## 3. Gather landings
 
 - Every results file newer than its last write-through is a landing. Check the stage list's

@@ -180,7 +180,7 @@ cognitive preemption, not to withhold evidence. The Strengthens | Narrows | Kill
 Infrastructure tag remains in every result receipt; it is not sufficient as the whole
 theoretical-analyst report.
 
-**No batching, and no verdict-only reporting** — a result that has appeared in any form (a queue
+**No partial write-through, and no verdict-only reporting** — a result that has appeared in any form (a queue
 log, a committed file, a notification) gets its FULL write-through in the same message, appended
 automatically; "entry next pass" is the leak he keeps catching (2026-08-09). That is how an
 eleven-model replication was lost for a day and how a week of results arrived as headlines.
@@ -192,6 +192,30 @@ engines do not wake Codex by themselves. Register final produces with `tools/cod
 verify the owner session and transport receipt, and keep the durable watcher active.
 The watcher owns waiting; the agent does not occupy a turn with sleep loops. A wake is
 an inspection request, never a scientific verdict. **When a run finishes, go straight to A.**
+
+### Planned wakes (curator instruction, 2026-09-11)
+
+Before yielding during authorized background work, estimate the next useful intervention
+from current progress or existing measured rates and schedule one conservatively early
+check-in with `tools/codex_watch.py schedule SECONDS --expected-seconds ESTIMATE --reason REASON`.
+Use a modest early margin (normally about 20 percent), generally thirty to sixty minutes
+between checks of healthy long GPU jobs. Use a shorter interval only for a concrete imminent
+intervention. Do not build a new forecasting exercise or repeatedly wake a few minutes ahead.
+Record the due time, expected milestone and reason in the handoff; verify the plan in watcher
+status. Refresh it after inspection, and tell the curator when the next check is due.
+
+The inexpensive watcher continues collecting produces while routine successful completions
+wait for that check-in. This explicitly permits batching notifications; each result still
+gets its full internal write-through before acknowledgment, and stage final-packet policy
+still applies. Failures, pauses, interrupts and the explicitly registered active queue's
+completion bypass the delay. A fresh active-owner record suppresses redundant routine wakes;
+a stale record cannot disable recovery indefinitely. Without an explicit plan, routine
+notifications are separated by at least thirty minutes after recent owner activity or ACK.
+The fixed liveness fallback starts from recent attention, not an unrelated old clock.
+
+Waiting belongs to the durable watcher. Do not consume an agent turn with sleep/poll loops.
+A scheduled wake, queue acceptance, actual owner delivery and completed landing are distinct.
+No timing plan grants research, gear, spending, delegation or safety-policy authority.
 
 ### C · Every response, before writing anything
 

@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -16,7 +17,53 @@ import subprocess
 import time
 import uuid
 
-from codex_common import REPO, STATE, atomic_json, database, digest, get, put, singleton
+from codex_common import REPO, STATE, atomic_json, audit, database, digest, get, put, singleton
+
+
+DEADLINE_PATH = "[watch deadline: inspect queue liveness]"
+DEFAULT_ROUTINE_SECONDS = 1800
+
+
+def owner_active(db, now):
+    # A stale active hook must not suppress recovery indefinitely after a crash.
+    return (get(db, "owner_phase") == "active"
+            and now - get(db, "owner_seen", 0) < 900)
+
+
+def urgent(event, config):
+    name = Path(event["path"]).name.upper()
+    return (name in {"FAILED.JSON", "PAUSED.JSON", "INTERRUPT.JSON", "INTERRUPTS.JSON"}
+            or name.endswith("_FAILED.JSON")
+            or event["path"] in config.get("urgent_paths", []))
+
+
+def schedule(after_seconds, reason, *, expected_seconds=None, state=STATE, now=None):
+    """Persist one owner-scoped early check-in; this grants no execution authority."""
+    now = time.time() if now is None else now
+    if not math.isfinite(after_seconds) or not 60 <= after_seconds <= 28800:
+        raise ValueError("Next wake must be between 60 seconds and eight hours away")
+    if not isinstance(reason, str) or not reason.strip() or len(reason) > 500:
+        raise ValueError("A brief reason for the next wake is required")
+    if expected_seconds is not None and (not math.isfinite(expected_seconds)
+                                        or expected_seconds < after_seconds):
+        raise ValueError("Expected finish must be at or after the early wake")
+    with database(state) as db:
+        db.execute("BEGIN IMMEDIATE")
+        owner = get(db, "owner")
+        if not owner:
+            raise ValueError("Bind an owner before scheduling a wake")
+        previous = get(db, "wake_plan")
+        if previous and previous.get("event_id"):
+            row = db.execute("SELECT acknowledged FROM events WHERE id=?",
+                             (previous["event_id"],)).fetchone()
+            if row and row["acknowledged"] is None:
+                raise ValueError("Inspect and acknowledge the previous deadline before replacing it")
+        plan = {"id": uuid.uuid4().hex, "owner": owner, "created": now,
+                "due": now + after_seconds, "reason": reason.strip(),
+                "expected_finish": None if expected_seconds is None else now + expected_seconds}
+        put(db, "wake_plan", plan)
+        audit(db, "wake_schedule", {"previous": previous, "plan": plan})
+    return plan
 
 
 def candidates(config, repo=REPO):
@@ -84,9 +131,19 @@ def scan(config, *, repo=REPO, state=STATE, baseline=False, now=None, baseline_s
         if baseline:
             put(db, "baseline_at", now)
             put(db, "last_fallback", now)
-        elif now - get(db, "last_fallback", now) >= config.get("fallback_seconds", 28800):
-            changes.append(add_event(db, "[watch deadline: inspect queue liveness]", str(int(now)), now))
-            put(db, "last_fallback", now)
+        else:
+            plan = get(db, "wake_plan")
+            if plan and plan["owner"] == get(db, "owner"):
+                if now >= plan["due"] and not plan.get("event_id") and not owner_active(db, now):
+                    event = add_event(db, DEADLINE_PATH, "planned:" + plan["id"], now)
+                    changes.append(event)
+                    put(db, "wake_plan", plan | {"event_id": event})
+            elif not owner_active(db, now):
+                attended = max(get(db, "last_fallback", now), get(db, "owner_seen", 0),
+                               get(db, "last_acknowledged", 0))
+                if now - attended >= config.get("fallback_seconds", 28800):
+                    changes.append(add_event(db, DEADLINE_PATH, str(int(now)), now))
+                    put(db, "last_fallback", now)
         put(db, "last_scan", now)
     return changes
 
@@ -115,9 +172,25 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None):
                       "AND acknowledged IS NULL LIMIT 1").fetchone():
             return "awaiting-acknowledgement"
         events = [dict(r) for r in db.execute(
-            "SELECT * FROM events WHERE state='pending' AND next_try<=? ORDER BY created LIMIT 20", (now,))]
+            "SELECT * FROM events WHERE state='pending' AND next_try<=? ORDER BY created", (now,))]
         if not events:
             return "nothing-pending"
+        # Inspect urgency before limiting the batch: a failure must not sit behind
+        # twenty routine successes. Keep the original outbox/acknowledgment guard.
+        events.sort(key=lambda event: (not urgent(event, config), event["created"]))
+        if not urgent(events[0], config):
+            if owner_active(db, now):
+                return "owner-active"
+            plan = get(db, "wake_plan")
+            if plan and plan["owner"] == owner:
+                if now < plan["due"]:
+                    return "scheduled"
+            else:
+                attended = max(get(db, "owner_seen", 0), get(db, "last_acknowledged", 0),
+                               get(db, "last_dispatch", 0))
+                if attended and now < attended + config.get("routine_interval_seconds", DEFAULT_ROUTINE_SECONDS):
+                    return "coalescing"
+        events = events[:20]
         for event in events:
             db.execute("UPDATE events SET state='sending',attempts=attempts+1 WHERE id=?", (event["id"],))
     if (state / "watch.cancel").exists():
@@ -143,6 +216,8 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None):
     except OSError as exc:
         status, queue_id, error = "pending", None, type(exc).__name__
     with database(state) as db:
+        if status == "queued":
+            put(db, "last_dispatch", now)
         for event in events:
             attempts = event["attempts"] + 1
             settled = "failed" if status == "pending" and attempts >= 5 else status
@@ -151,13 +226,19 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None):
     return status
 
 
-def acknowledge(event_id, *, state=STATE):
+def acknowledge(event_id, *, state=STATE, now=None):
+    now = time.time() if now is None else now
     with database(state) as db:
         row = db.execute("SELECT state FROM events WHERE id=?", (event_id,)).fetchone()
         if row is None:
             raise ValueError("Unknown event ID")
         db.execute("UPDATE events SET state='acknowledged',acknowledged=? WHERE id=?",
-                   (time.time(), event_id))
+                   (now, event_id))
+        put(db, "last_acknowledged", now)
+        plan = get(db, "wake_plan")
+        if plan and plan.get("event_id") == event_id:
+            put(db, "wake_plan", None)
+            put(db, "last_fallback", now)
 
 
 def register_queue(*, repo=REPO, state=STATE):
@@ -186,6 +267,9 @@ def register_queue(*, repo=REPO, state=STATE):
 def status(state=STATE):
     with database(state) as db:
         return {"owner": get(db, "owner"), "owner_phase": get(db, "owner_phase"),
+            "owner_seen": get(db, "owner_seen"), "wake_plan": get(db, "wake_plan"),
+            "last_dispatch": get(db, "last_dispatch"), "last_acknowledged": get(db, "last_acknowledged"),
+            "delivery_decision": get(db, "watch_delivery_decision"),
             "watcher": get(db, "watcher"), "last_scan": get(db, "last_scan"),
             "watch_error": get(db, "watch_error"),
             "cancelled": (state / "watch.cancel").exists(),
@@ -212,9 +296,10 @@ def run(config, state=STATE, repo=REPO):
                 if (state / "watch.json").exists():
                     config = json.loads((state / "watch.json").read_text(encoding="utf-8"))
                 scan(config, repo=repo, state=state)
-                deliver(config, repo=repo, state=state)
+                decision = deliver(config, repo=repo, state=state)
                 with database(state) as db:
                     put(db, "watch_error", None)
+                    put(db, "watch_delivery_decision", {"at": time.time(), "decision": decision})
             except Exception as exc:
                 with database(state) as db:
                     put(db, "watch_error", type(exc).__name__ + ": " + str(exc)[:200])
@@ -240,11 +325,16 @@ def wait_stopped(state=STATE, timeout=50):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["baseline", "scan", "run", "deliver", "status", "bind", "handoff", "register", "register-queue", "ack", "retry", "cancel", "wait-stopped"])
+    parser.add_argument("command", choices=["baseline", "scan", "run", "deliver", "status", "bind", "handoff", "register", "register-queue", "ack", "retry", "cancel", "wait-stopped", "schedule"])
     parser.add_argument("value", nargs="?")
     parser.add_argument("--previous", help="Current owner UUID for an explicit cancelled-watcher handoff")
     parser.add_argument("--since", type=float, help="Baseline cutoff epoch; newer produces remain pending")
+    parser.add_argument("--reason", help="Why the next conservative check-in is useful")
+    parser.add_argument("--expected-seconds", type=float, help="Estimated time until the next needed intervention")
     args = parser.parse_args()
+    if args.command == "schedule":
+        print(json.dumps(schedule(float(args.value), args.reason, expected_seconds=args.expected_seconds), indent=2))
+        return
     if args.command == "wait-stopped":
         wait_stopped(); return
     if args.command == "status":

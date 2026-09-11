@@ -17507,6 +17507,34 @@ Evidence: private overnight continuation receipts `ENVIRONMENT_SMOLLM_INSPECTION
 
 **Curator roll-up.** Theory group: measurement and operational integrity. Question: can the second reader family's diagnostic be recovered from its actual saved execution? Outcome: Infrastructure. Result: the complete SmolLM external-outcome producer reconstructs. Project meaning: the second family's comparison has inspected execution evidence. Next engineering obligation: land its calibration and complete profiles, then finish scoped final integrity while maintaining cooling and queue health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
 
+
+### Archived-SmolLM self-generated-outcome execution inspected, 2026-09-11T14:34:02.728250+00:00
+
+**Hypothesis.** The archived SmolLM reader's self-generated-outcome diagnostic can finish on the declared population with its actual inputs and execution fully recoverable.
+
+**METHOD.** Verified the original queue commit and compiled execution, reconstructed every assigned unit from saved calls, and matched delivered capsule inputs to the original dispatcher and archived model package. Checked every committed file, unique capsule and original sidecar using the previously crosschecked fixed-layout inventory, then reconciled the exact-package denial probe and all model-service requests. The reader generates a named action and its claimed outcome. The original executor checks that claim against the environment before continuing, retains the first failed proposal, and stops that trajectory on failure. There is no offered-choice list or legality mask. This is stepwise checked interaction, not an uninterrupted self-generated full log. Inspection reused saved responses only.
+
+**Finding.** The complete archived-SmolLM self-generated-outcome producer reconstructs. This is execution and provenance evidence; its calibration and complete diagnostic comparisons remain pending.
+
+The table records execution coverage, not diagnostic scores.
+
+| Execution check | Observed coverage | Limit |
+|---|---|---|
+| Assigned source units | 192 reconstructed | Original constructed discovery population |
+| Saved calls and unique capsules | 3071 reconciled | Execution validity does not establish task competence |
+| Model-service requests | 3071 matched | No unresolved recorded requests or capsules |
+| Original GPU reservation | 6857.52 seconds | Elapsed reservation, not integrated device utilization |
+
+The saved-output inspection took 212.30 seconds, with no new reader call, regression run, source change or scientific reinterpretation. The unchanged fixed-layout inventory retains its original rehearsal crosscheck. All observed task outcomes remain in their assigned units. No p-value or new test was generated; no theory update is due for this execution-only landing.
+
+At inspection the queue has 16 complete, 1 running and 9 pending, with no failures or pauses; the archived SmolLM state-reset diagnostic is running. Native owner, wrapper and worker identities, heartbeat, watcher and all 380 frozen source files verify. The sensor endpoint reports CPU 67.8 °C / GPU 46.0 °C; it has no independent hardware sample timestamp. CPU boost-off/90% maximum remains active. Gear 2 and the existing compute cap are unchanged.
+
+The archived-Qwen branch already has full internal write-through, including all three complete grouped profiles (L378-L380). SmolLM calibration and complete profiles follow in the same accepted queue. Final scientific integrity and the scoped packet remain owed; both earlier audit failures remain preserved.
+
+Evidence: private overnight continuation receipts `SELF_SMOLLM_INSPECTION.json`, `SELF_SMOLLM_LIVENESS_FINAL.json` and `SELF_SMOLLM_LANDING.json`; unchanged original `OFFERED_QWEN_STORAGE_CROSSCHECK.json`.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: can the second reader family's diagnostic be recovered from its actual saved execution? Outcome: Infrastructure. Result: the complete SmolLM self-generated-outcome producer reconstructs. Project meaning: the second family's comparison has inspected execution evidence. Next engineering obligation: land its calibration and complete profiles, then finish scoped final integrity while maintaining cooling and queue health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
 ## OPS-S9-LAUNCH-1: Launch guards reject empty acceptance and inconsistent workload evidence
 
 **Hypothesis.** A queue must not start scientific work from a Boolean approval flag with empty evidence or a forecast unrelated to its actual jobs.
@@ -21505,3 +21533,40 @@ The table identifies the completed consumer and the evidence it actually covers.
 The three-consumer read-only inspection took 43.63 seconds in total. Original tolerances, tie/permutation checks and invalidity fixtures remain unchanged. No theory row, p-value or new test follows from this unchanged calibration. Evidence: overnight `CALIBRATION_QWEN_INSPECTION.json`, this consumer's original `COMPLETE.json` and `DECISION.json`, and the shared landing receipt.
 
 **Curator roll-up.** Theory group: measurement and operational integrity. Question: is the finite-state diagnostic bound to its original calibrated scorer? Outcome: Infrastructure. Result: the original numerical-calibration decision reconstructs. Project meaning: its declared scorer binding is checked. Next engineering obligation: finish complete grouped profiles and scoped final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the original consumer.
+
+
+## OPS-WAKE-PACING-1: Estimate the next useful check-in instead of waking for every output
+
+**Hypothesis.** Routine completed outputs can be retained and delivered together at a
+conservatively early check-in without losing results or delaying urgent operational events.
+
+**METHOD.** Inspected the existing watcher, owner hooks and delivery records. Added an
+owner-scoped persistent deadline, routine coalescing, fresh-active-owner suppression and
+urgent-path priority to the existing outbox. Tested artificial clocks, stored events,
+queued/ambiguous deliveries and interruption states without real model or message calls.
+Then restarted only the owned watcher in a hidden window and verified its actual source,
+heartbeat, unchanged owner, retained outbox and uninterrupted scientific worker.
+
+**Finding.** All 79 targeted scheduling and existing runtime checks pass. Routine success
+notices wait for the recorded check-in, while failed/paused/interrupt produces and the
+registered active queue's completion bypass the timing delay. A stale active-owner marker
+cannot suppress recovery indefinitely. The fixed fallback accounts for recent attention.
+The new service is loaded and scanning; its first actual scheduled owner delivery remains
+to be observed. Neither a saved plan nor these fixture tests is counted as that delivery.
+
+The curator explicitly requested this permanent policy. Project AGENTS, the grind skill
+and shared long-term instructions now require a measured or practical estimate, an early
+margin and a recorded next check-in. Thirty-to-sixty-minute checks are normal for healthy
+long GPU work; shorter intervals require an imminent intervention. Routine fallback
+coalescing is thirty minutes. Full write-through and final-packet scientific reporting
+remain required. No research test, compute authority, scoring rule or frozen source changed.
+The first rule-proposal text anchor failed before any tracked edit and was corrected; no
+validation failure or live scientific change resulted.
+
+**Curator roll-up.** Theory group: operational reliability. Question: can agent attention
+follow the next useful milestone while preserving results and urgent recovery? Outcome:
+Infrastructure. Result: the scheduled watcher passes 79 runtime checks. Project meaning:
+background polling no longer requires an agent turn for each success. Next engineering
+obligation: record the first actual scheduled delivery and refresh the next estimate after
+inspection. Public claim: unchanged. Curator decision required: No. Detail: CODEX_OPERATIONS
+and private wake-pacing installation/validation records.

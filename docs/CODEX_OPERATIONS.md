@@ -186,6 +186,49 @@ The logon helper honors cancellation and does not silently resume a cancelled wa
 An explicit resume waits for the previous helper to release its kernel lock before
 clearing cancellation. A timeout leaves cancellation in place.
 
+## Estimated check-ins and grouped notifications (2026-09-11)
+
+Before yielding while work runs, estimate the next point needing inspection from current
+progress or existing measured rates. Set a conservatively early check-in, normally with
+about twenty percent margin. For healthy long GPU work, thirty-to-sixty-minute checks are
+usually enough; use a shorter interval only for an imminent intervention.
+
+```powershell
+python -B tools/codex_watch.py schedule 3600 --expected-seconds 4500 --reason "Check the running job before estimated completion"
+python -B tools/codex_watch.py status
+```
+
+The first value is seconds until the check-in; expected-seconds is seconds until the
+estimated milestone. The owner-scoped plan persists in the operational database and is
+visible as `wake_plan` in status. The watcher emits one deadline event when due, even if no
+file changes. Document the inspection before ACK, then replace the plan for the next useful
+milestone. A pending deadline cannot be silently replaced. Allowed plans span one minute
+to eight hours; those bounds are validation limits, not recommended polling intervals.
+
+The watcher still scans cheaply once per minute, without invoking a model. Successful
+produces remain in the outbox until the planned check-in and are delivered together.
+Failures, pauses, interrupts and exact paths listed in private `urgent_paths` bypass the
+delay; register the active queue's terminal COMPLETE path there. Each delivered result
+still needs its full write-through. This changes notification timing, not scientific
+acceptance, source locks, gear, spending, or the one-outstanding-batch ownership rule.
+
+Routine delivery is suppressed while the owner has a fresh active hook. An active marker
+older than fifteen minutes permits recovery if hooks stopped arriving. Without a plan,
+routine notices wait at least thirty minutes after recent owner activity, acknowledgment
+or delivery; the eight-hour fallback likewise accounts for recent attention. Queue errors
+and ambiguous sends retain their previous retry/reconciliation behavior. `delivery_decision`
+in status records the last decision taken by the actual service.
+
+Validation: all 79 targeted scheduling and existing runtime checks pass, including grouped
+successes, one-shot persisted deadlines, urgent backlog priority, active-owner suppression,
+stale-owner recovery, fallback reset and invalid-plan refusal. The same-owner hidden watcher
+restart loaded the new source and resumed scanning while the scientific worker and all 380
+frozen sources remained unchanged. Actual delivery at the first newly scheduled deadline
+will be recorded when it occurs; fixture success and a stored plan alone do not prove it.
+Private prior source/config/rule copies and installation receipts are retained under
+`.agent-state/wake-pacing-20260911/`. Rollback restores the previous watcher/config only after
+its kernel lock is released, retaining the event database and scientific workers.
+
 ## Verification
 
 ```powershell

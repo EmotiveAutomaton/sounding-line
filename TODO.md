@@ -7,6 +7,9 @@ archive, kept whole, mined but never deleted.
 
 ## Active overnight continuation - authorized and launched 2026-09-11
 
+- [x] Implement curator-requested estimated wake scheduling and durable project/shared rules; verify runtime and uninterrupted scientific worker (OPS-WAKE-PACING-1).
+- [ ] Record the first actual scheduled owner delivery, then refresh the next conservative check-in after each inspection (OPS-WAKE-PACING-1).
+
 - [x] Record explicit overnight repair/continuation authority, retain the original failed queue and source archive, and preserve CPU boost-off/90% maximum.
 - [x] Repair native termination inspection and reconcile the original attempt ledger without changing any prior output.
 - [x] Bind and launch the full 26-job archived-package competence diagnostic grid, estimated at 12.61 GPU hours using existing pilot rates; retain prior work in the original 92-hour accounting.
@@ -23,6 +26,7 @@ archive, kept whole, mined but never deleted.
 - [x] Reconstruct and internally land the full archived-Qwen rollout, matched-prefix and finite-rule profiles (L378-L380); retain missing generated matches, assistance, source dependence and final-integrity limits.
 - [x] Fully inspect and internally land the archived-SmolLM offered-action producer; retain pending calibration and complete-profile interpretation (OPS-S9-RECOVERY-1).
 - [x] Fully inspect and internally land the archived-SmolLM external-outcome producer; retain pending calibration and complete-profile interpretation (OPS-S9-RECOVERY-1).
+- [x] Fully inspect and internally land the archived-SmolLM self-generated-outcome producer; retain pending calibration and complete-profile interpretation (OPS-S9-RECOVERY-1).
 - [ ] Inspect each complete producer/calibration/analysis cell and perform the full internal write-through before acknowledging its wake; do not publish unfinished scores.
 - [ ] Verify thermal readings, native ownership, heartbeat and watcher health on wakes. Reassess sustained verified CPU90C+ or renewed warnings.
 - [ ] Reassess actual pace and remaining useful work after each trunk; continue eligible existing Stage 9 work until the curator returns, within the unchanged compute cap. Do not fill time with repeated completed experiments or waiting.
