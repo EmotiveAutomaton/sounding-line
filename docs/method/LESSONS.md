@@ -625,6 +625,8 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Native access denial is not process liveness or exit.** A terminal Stage 9 worker denied both query and synchronization handles while a successful complete OS process list showed it absent. Use independent complete enumeration for absence; grow full buffers and refuse failed or incomplete lists. A still-listed inaccessible process remains unknown. Preserve failed audit attempts and original source before extending the same repair. Sixteen native and thirty-two dependent checks pass, and the original attempt ledger reconciles. (2026-09-11, OPS-S9-RECOVERY-1)
+
 - **An immutable JSON result must reconstruct in JSON's own value types.** The
   original-law packing rehearsal produced a correct corpus, then its actual
   handler reentry failed because integer dose-count keys in memory became string

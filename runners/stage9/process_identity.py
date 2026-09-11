@@ -1,9 +1,43 @@
 """Read-only native process identity. A PID alone is never an ownership identity.
 
-DESIGN CHECK: X12. PID reuse must not turn a stale owner record into a live owner.
-No process is stopped here. Native cleanup still requires inspection of its command.
+DESIGN CHECK: X12; LESSONS 3-5 read 2026-09-11. NULL: an inaccessible but
+enumerated process, incomplete enumeration or API failure remains unknown.
+ALTERNATIVE: independent complete native enumeration can establish PID absence.
+PID reuse still requires creation-time identity. No process is stopped here.
+Native cleanup still requires inspection of its command.
 """
 import os
+
+
+def _enumerated_process_ids(kernel):
+    """Complete native snapshot; a full buffer never establishes absence.
+
+    Microsoft EnumProcesses requires a larger buffer when returned bytes equal
+    its capacity. K32EnumProcesses is the Windows 7+ kernel32 export.
+    """
+    import ctypes
+    from ctypes import wintypes
+    enumerate_ids = kernel.K32EnumProcesses
+    enumerate_ids.argtypes = [ctypes.POINTER(wintypes.DWORD), wintypes.DWORD,
+                             ctypes.POINTER(wintypes.DWORD)]
+    enumerate_ids.restype = wintypes.BOOL
+    capacity = 1024
+    while capacity <= 1048576:
+        ids = (wintypes.DWORD * capacity)()
+        used = wintypes.DWORD()
+        size = ctypes.sizeof(ids)
+        if not enumerate_ids(ids, size, ctypes.byref(used)):
+            raise OSError(ctypes.get_last_error(), 'native process enumeration failed')
+        if not used.value or used.value > size or used.value % ctypes.sizeof(wintypes.DWORD):
+            raise OSError('invalid native process enumeration size')
+        if used.value == size:
+            capacity *= 2
+            continue
+        result = set(ids[:used.value // ctypes.sizeof(wintypes.DWORD)])
+        if os.getpid() not in result:
+            raise OSError('native process enumeration omitted its own caller')
+        return result
+    raise OSError('native process enumeration remained incomplete')
 
 
 def native_identity(pid=None):
@@ -26,8 +60,8 @@ def native_identity(pid=None):
         if error in (87, 1168):
             return None
         # A retained terminated process object may deny query access. Only an
-        # independently signalled process handle establishes termination; an
-        # access error by itself is never evidence that an owner is dead.
+        # independently signalled handle or complete OS process-list absence
+        # establishes termination; access denial alone never establishes exit.
         sync = kernel.OpenProcess(0x100000, False, pid)
         if sync:
             try:
@@ -35,6 +69,8 @@ def native_identity(pid=None):
                     return None
             finally:
                 kernel.CloseHandle(sync)
+        if pid not in _enumerated_process_ids(kernel):
+            return None
         raise OSError(error, 'cannot inspect native process identity')
     try:
         created, exited, system, user = (wintypes.FILETIME() for _ in range(4))

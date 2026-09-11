@@ -9,10 +9,12 @@ The original campaign clock is retained; the new overnight admission horizon is
 separately authorized and recorded. No training, confirmation, or final scientific
 acceptance follows from this launch policy. The existing serial queue is unchanged.
 CPU boost-off and 90% maximum processor state remain the thermal operating limits.
-Current launch and running status belong in `docs/CURRENT_STATUS.md`.
+Current launch and running status belong in [CURRENT_STATUS.md](../../CURRENT_STATUS.md).
 
-`process_identity.py` recognizes an exited process from its native exit time or a
-signalled process handle. Query denial alone remains unknown and fails closed.
+`process_identity.py` recognizes an exited process from its native exit time, a
+signalled process handle, or absence from a successful complete native process
+enumeration. Full enumeration buffers grow; invalid or incomplete snapshots
+refuse. A denied process still present in that list remains unknown and fails closed.
 This avoids querying an executable image after termination while preserving PID
 reuse checks and both original failed final-audit attempts.
 

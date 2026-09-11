@@ -40,8 +40,8 @@ archive, kept whole, mined but never deleted.
 - [x] Inspect each complete producer/calibration/analysis cell and perform the full internal write-through before acknowledging its wake; do not publish unfinished scores.
 - [ ] Verify thermal readings, native ownership, heartbeat and watcher health on wakes. Reassess sustained verified CPU90C+ or renewed warnings.
 - [ ] Reassess actual pace and remaining useful work after each trunk; continue eligible existing Stage 9 work until the curator returns, within the unchanged compute cap. Do not fill time with repeated completed experiments or waiting.
-- [ ] Complete the separately authorized final-integrity repair and scoped final packet, reusing already reconstructed observations. The original failed B03/B04 remain immutable history; component repair is not full acceptance. Original-ledger inspector is running; next check September 11 at 11:28 a.m. Pacific. Then reconcile the overnight extension, perform fresh reproduction and assemble the packet.
-- [ ] Correct the frozen runner README's current-status link to the root CURRENT_STATUS.md after this queue closes; the temporary docs pointer resolves it meanwhile.
+- [ ] Complete the separately authorized final-integrity repair and scoped final packet, reusing already reconstructed observations. The original failed B03/B04 remain immutable history; component repair is not full acceptance. Original-ledger inspector v1 failed on denied native handles despite verified OS process-list absence. The same termination repair passes 48 checks and all original attempts reconcile; v2 is running. Next check September 11 at 11:46 a.m. Pacific. Then reconcile the overnight extension, perform fresh reproduction and assemble the packet.
+- [x] Correct the runner README status link after the scientific queue and first inspector close; preserve original source bytes in the repair archive.
 
 ## Active Stage 9 recovery ? launched 2026-09-10
 

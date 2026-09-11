@@ -1,8 +1,8 @@
 # Sounding Line current status
 
-Updated 2026-09-11T18:00:30+00:00.
+Updated 2026-09-11T18:17:00.890925+00:00.
 
-**Authorized final-integrity repair running, September 11 at 10:57 a.m. Pacific.** A separate saved-evidence inspector is checking the original selected ledger under the explicitly reviewed process-termination repair. Original archived sources, current sources and both rejection checks pass; the full audit remains pending. Actual native ownership is verified. No GPU experiment is active. Earlier failed attempts and the original unrun packet remain unchanged. The next conservative inspection is September 11 at 11:28 a.m. Pacific, with urgent failure monitoring; scientific acceptance is still pending.
+**Final-integrity repair resumed, September 11 at 11:15 a.m. Pacific.** The first separate inspector failed on native process access before completing its audit. Independent complete Windows enumeration established that the original worker was absent. The same termination repair now passes 48 focused checks and reconciles every original attempt; an explicitly source-bound saved-evidence audit is running again. Earlier failures and all scientific outputs remain unchanged. No GPU experiment is active; Gear 2 and cooling limits remain. Next inspection: September 11 at 11:46 a.m. Pacific, earlier on failure. Scientific acceptance and the scoped packet remain pending.
 
 **Overnight execution inspected 2026-09-11T17:33:39.301790+00:00.** All 26 jobs are COMPLETE; no scientific job is running or pending, and all original owner/wrapper/worker identities have exited. Both complete diagnostic branches, including all producers, calibration consumers and grouped profiles, are internally landed (L378-L383). Recorded GPU reservation was 12.973 hours. CPU 63.9 °C / GPU 48.0 °C; boost-off/90% maximum retained. Watcher and all 380 frozen sources verify. Gear 2 authorization continues, with final-integrity repair and the scoped packet next; scientific acceptance remains pending.
 
