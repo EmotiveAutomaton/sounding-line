@@ -21103,3 +21103,29 @@ Evidence: `private/overnight-continuation-v1/PLAN.json`, `EVIDENCE.json`, `LAUNC
 **Curator roll-up.** Theory group: measurement and operational integrity. Question: can the existing competence diagnostics run while preserving prior failures and thermal limits? Outcome: Infrastructure. Result: the separately authorized overnight queue is running. Project meaning: substantive Stage 9 work continues without erasing failed integrity. Next engineering obligation: land complete cells, maintain thermal/queue health, reassess runway from observed pace, then finish scope-bound final integrity and synthesis. Public claim: unchanged; launch does not establish scientific admission. Curator decision required: No; the overnight repair and continuation were explicitly authorized. Detail: OPS-S9-RECOVERY-1 and the overnight launch receipt.
 
 Operational liveness follow-through, 2026-09-11T04:08:03.175936+00:00: **Liveness verified 2026-09-11T04:08:03.175936+00:00.** The overnight queue has one running diagnostic and 25 pending jobs, with no completed produces, failures or pauses. Native owner, wrapper and worker identities match; heartbeat and saved units advance. The latest sensor readings are CPU 68.5 °C / GPU 46.0 °C. CPU boost-off/90% AC maximum and all 380 frozen sources verify. The watcher is healthy. This is an operational inspection; no scientific score, new test or forecast recalculation. Continue the unchanged authorized queue. Event d3845a98cf6e666e3ed086cf is acknowledged only after this documented inspection and current-handoff update. No new scientific finding or theory change.
+
+
+### First overnight producer execution inspected, 2026-09-11T05:51:08.276595+00:00
+
+**Hypothesis.** The archived reader's offered-action diagnostic can finish on the declared source population with its actual inputs and execution fully recoverable.
+
+**METHOD.** Verified the original queue commit and compiled execution, reconstructed all assigned units from saved calls, matched actual capsule inputs to the original dispatcher and archived package, and reconciled committed capsule storage, the reused exact-package denial probe and all model-service requests. No model was called during inspection.
+
+**Finding.** The completed archived-Qwen offered-action producer reconstructs in full. Its calibration consumer and the complete paired diagnostic profile remain pending; this is execution evidence, not a competence verdict.
+
+The table describes execution coverage and provenance only; it contains no diagnostic scores.
+
+| Execution check | Observed coverage | Interpretation limit |
+|---|---|---|
+| Assigned source units | 192 complete and reconstructed | Original constructed discovery population |
+| Saved reader calls and unique committed capsules | 2213 reconciled; all recorded validity flags retained | Valid execution does not establish task competence |
+| Model-service requests | 2213 matched; no unresolved requests or capsules | Resident identity and shutdown provenance only |
+| Live queue | 1 complete, 1 running and 24 pending; no failures or pauses | Remaining paired comparisons still running |
+
+The original job occupied 4,014.62 seconds of GPU reservation; this is elapsed reservation, not integrated GPU utilization. No new forecast or scientific test was calculated. The first supplementary binding inspection omitted constructor registration while reusing already validated cases; its KeyError is retained and the original registration call corrected the inspection before acceptance. The failed inspection made no reader call and changed no scientific output. The direct fixed-layout storage check agrees with the original generic checker on the existing rehearsal and checks every actual committed file, call, capsule and original sidecar. A comparison-script field-name error was corrected before this crosscheck passed. The slower generic inspection is retained with its separate disposition and measured CPU/elapsed cost; no production checker or live source was changed.
+
+Current native owner, wrapper and worker identities match, with a fresh heartbeat and healthy watcher. The sensor endpoint reports CPU 66.4 °C / GPU 44.0 °C; it supplies no independent hardware sample timestamp. CPU boost-off/90% AC maximum and all 380 frozen source files verify. Gear 2 continues. Full calibration, grouped analysis and final integrity remain required. No theory-row change, p-value, reserve opening or new hypothesis is licensed by this producer landing.
+
+Evidence: the overnight continuation's `OFFERED_QWEN_INSPECTION_V2.json`, `OFFERED_QWEN_BINDINGS.json`, preserved first binding-attempt failure, final liveness receipt and landing receipt. The original producer, committed source and prior failed final audit remain intact.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: can the diagnostic execution be recovered from actual saved inputs? Outcome: Infrastructure. Result: the complete offered-action producer reconstructs. Project meaning: the overnight comparison has its first inspected execution. Next engineering obligation: land calibration and complete profiles, maintain cooling and queue health, then finish scoped final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
