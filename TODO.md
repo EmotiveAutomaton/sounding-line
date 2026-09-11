@@ -12,6 +12,7 @@ archive, kept whole, mined but never deleted.
 - [x] Bind and launch the full 26-job archived-package competence diagnostic grid, estimated at 12.61 GPU hours using existing pilot rates; retain prior work in the original 92-hour accounting.
 - [x] Fully inspect and internally land the first archived-Qwen offered-action producer; preserve pending calibration/profile interpretation (OPS-S9-RECOVERY-1).
 - [x] Fully inspect and internally land the archived-Qwen external-outcome producer; preserve the pending complete-profile interpretation (OPS-S9-RECOVERY-1).
+- [x] Fully inspect and internally land the archived-Qwen self-generated-outcome producer; preserve the pending complete-profile interpretation (OPS-S9-RECOVERY-1).
 - [ ] Inspect each complete producer/calibration/analysis cell and perform the full internal write-through before acknowledging its wake; do not publish unfinished scores.
 - [ ] Verify thermal readings, native ownership, heartbeat and watcher health on wakes. Reassess sustained verified CPU90C+ or renewed warnings.
 - [ ] Reassess actual pace and remaining useful work after each trunk; continue eligible existing Stage 9 work until the curator returns, within the unchanged compute cap. Do not fill time with repeated completed experiments or waiting.
