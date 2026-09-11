@@ -14,6 +14,7 @@ archive, kept whole, mined but never deleted.
 - [x] Fully inspect and internally land the archived-Qwen external-outcome producer; preserve the pending complete-profile interpretation (OPS-S9-RECOVERY-1).
 - [x] Fully inspect and internally land the archived-Qwen self-generated-outcome producer; preserve the pending complete-profile interpretation (OPS-S9-RECOVERY-1).
 - [x] Fully inspect and internally land the archived-Qwen state-reset producer; preserve the pending complete-profile interpretation (OPS-S9-RECOVERY-1).
+- [x] Fully inspect and internally land the archived-Qwen artifact-context producer; preserve the pending complete-profile interpretation (OPS-S9-RECOVERY-1).
 - [ ] Inspect each complete producer/calibration/analysis cell and perform the full internal write-through before acknowledging its wake; do not publish unfinished scores.
 - [ ] Verify thermal readings, native ownership, heartbeat and watcher health on wakes. Reassess sustained verified CPU90C+ or renewed warnings.
 - [ ] Reassess actual pace and remaining useful work after each trunk; continue eligible existing Stage 9 work until the curator returns, within the unchanged compute cap. Do not fill time with repeated completed experiments or waiting.

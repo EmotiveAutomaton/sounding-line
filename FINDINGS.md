@@ -21207,3 +21207,29 @@ Queue at inspection: 4 complete, 1 running and 21 pending, no failures or pauses
 Evidence: the overnight continuation's `RESET_QWEN_INSPECTION.json`, final liveness and landing receipts, with the original `OFFERED_QWEN_STORAGE_CROSSCHECK.json` reused by exact hash. Complete calibration, grouped analysis and scoped final integrity are still owed; earlier failed final audits remain intact.
 
 **Curator roll-up.** Theory group: measurement and operational integrity. Question: can the periodically reset rollout be reconstructed from its actual saved execution? Outcome: Infrastructure. Result: the complete state-reset producer reconstructs. Project meaning: another declared comparison arm has inspected execution evidence. Next engineering obligation: land the complete diagnostic profile and final integrity while maintaining queue and thermal health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
+
+### Artifact-context producer execution inspected, 2026-09-11T08:45:52.017101+00:00
+
+**Hypothesis.** The archived reader's diagnostic using the current artifact as context can be recovered completely from its actual inputs and execution records.
+
+**METHOD.** Checked the original queue commit and compiled source, reconstructed every assigned unit and delivered capsule input, and matched the original dispatcher settings and archived model package. Checked all committed files, unique capsules and original sidecars with the previously crosschecked fixed-layout inventory, then reconciled the exact-package denial probe and every model-service request. This diagnostic shows the current constructed artifact, its original commission and the next-action format. The model proposes an action and the environment supplies its outcome. The delivered evidence uses the artifact view, and all original action failures remain recorded. Inspection reused saved responses only.
+
+**Finding.** The complete archived-Qwen artifact-context producer reconstructs, with its source population, input boundary and actual execution preserved. This is an Infrastructure landing. It does not establish competence; the full paired profile and final integrity remain pending.
+
+The table records execution coverage and provenance, not diagnostic scores.
+
+| Execution check | Observed coverage | Limit |
+|---|---|---|
+| Assigned source units | 192 complete and reconstructed | Original constructed discovery population |
+| Saved calls and unique committed capsules | 192 fully reconciled | Execution validity is separate from action legality and task competence |
+| Actual model-service requests | 192 matched, no unresolved requests or capsules | Recorded resident identity and lifecycle |
+| Original GPU reservation | 735.37 seconds | Elapsed reservation, not integrated device utilization |
+
+The read-only inspection took 18.18 seconds. Its storage function is unchanged from the earlier rehearsal crosscheck; no generic quadratic rescan, new model invocation, regression run, scoring edit or source change was needed. All original action outcomes and failures remain in their assigned units. No new hypothesis or test was harvested, and no p-value or theory claim is issued.
+
+Queue at inspection: 5 complete, 1 running and 20 pending, no failures or pauses; the archived-Qwen matched-prefix diagnostic is running. Native owner/wrapper/worker identities, heartbeat, watcher and all 380 frozen sources verify. The sensor endpoint reports CPU 66.5 °C / GPU 47.0 °C, without an independent hardware sample timestamp. CPU boost-off/90% maximum remains active. Gear 2 and the existing compute cap are unchanged.
+
+Evidence: the overnight continuation's `ARTIFACT_QWEN_INSPECTION.json`, final liveness and landing receipts, with the original `OFFERED_QWEN_STORAGE_CROSSCHECK.json` reused by exact hash. Complete calibration, grouped analysis and scoped final integrity are still owed; earlier failed final audits remain intact.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: can the artifact-context rollout be reconstructed from its actual saved execution? Outcome: Infrastructure. Result: the complete artifact-context producer reconstructs. Project meaning: another declared comparison arm has inspected execution evidence. Next engineering obligation: land the complete diagnostic profile and final integrity while maintaining queue and thermal health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
