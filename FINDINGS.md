@@ -17535,6 +17535,34 @@ Evidence: private overnight continuation receipts `SELF_SMOLLM_INSPECTION.json`,
 
 **Curator roll-up.** Theory group: measurement and operational integrity. Question: can the second reader family's diagnostic be recovered from its actual saved execution? Outcome: Infrastructure. Result: the complete SmolLM self-generated-outcome producer reconstructs. Project meaning: the second family's comparison has inspected execution evidence. Next engineering obligation: land its calibration and complete profiles, then finish scoped final integrity while maintaining cooling and queue health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
 
+
+### Archived-SmolLM state-reset execution inspected, 2026-09-11T16:23:13.515552+00:00
+
+**Hypothesis.** The archived SmolLM reader's state-reset diagnostic can finish on the declared population with its actual inputs and execution fully recoverable.
+
+**METHOD.** Verified the original queue commit and compiled execution, reconstructed every assigned unit from saved calls, and matched delivered capsule inputs to the original dispatcher and archived model package. Checked every committed file, unique capsule and original sidecar using the previously crosschecked fixed-layout inventory, then reconciled the exact-package denial probe and all model-service requests. The reader generates named actions and receives environment outcomes. At each declared four-action boundary the executor replaces the carried state with the genuine recorded prefix before continuing; no offered-action list is supplied. This is assisted state-reset interaction. Inspection reused saved responses only.
+
+**Finding.** The complete archived-SmolLM state-reset producer reconstructs. This is execution and provenance evidence; its calibration and complete diagnostic comparisons remain pending.
+
+The table records execution coverage, not diagnostic scores.
+
+| Execution check | Observed coverage | Limit |
+|---|---|---|
+| Assigned source units | 192 reconstructed | Original constructed discovery population |
+| Saved calls and unique capsules | 2694 reconciled | Execution validity does not establish task competence |
+| Model-service requests | 2694 matched | No unresolved recorded requests or capsules |
+| Original GPU reservation | 6558.03 seconds | Elapsed reservation, not integrated device utilization |
+
+The saved-output inspection took 177.97 seconds, with no new reader call, regression run, source change or scientific reinterpretation. The unchanged fixed-layout inventory retains its original rehearsal crosscheck. All observed task outcomes remain in their assigned units. No p-value or new test was generated; no theory update is due for this execution-only landing.
+
+At inspection the queue has 17 complete, 1 running and 8 pending, with no failures or pauses; the archived SmolLM artifact-context diagnostic is running. Native owner, wrapper and worker identities, heartbeat, watcher and all 380 frozen source files verify. The sensor endpoint reports CPU 66.3 °C / GPU 53.0 °C; it has no independent hardware sample timestamp. CPU boost-off/90% maximum remains active. Gear 2 and the existing compute cap are unchanged.
+
+The archived-Qwen branch already has full internal write-through, including all three complete grouped profiles (L378-L380). SmolLM calibration and complete profiles follow in the same accepted queue. Final scientific integrity and the scoped packet remain owed; both earlier audit failures remain preserved.
+
+Evidence: private overnight continuation receipts `RESET_SMOLLM_INSPECTION.json`, `RESET_SMOLLM_LIVENESS_FINAL.json` and `RESET_SMOLLM_LANDING.json`; unchanged original `OFFERED_QWEN_STORAGE_CROSSCHECK.json`.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: can the second reader family's diagnostic be recovered from its actual saved execution? Outcome: Infrastructure. Result: the complete SmolLM state-reset producer reconstructs. Project meaning: the second family's comparison has inspected execution evidence. Next engineering obligation: land its calibration and complete profiles, then finish scoped final integrity while maintaining cooling and queue health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
 ## OPS-S9-LAUNCH-1: Launch guards reject empty acceptance and inconsistent workload evidence
 
 **Hypothesis.** A queue must not start scientific work from a Boolean approval flag with empty evidence or a forecast unrelated to its actual jobs.
