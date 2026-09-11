@@ -16,20 +16,41 @@ def native_identity(pid=None):
     kernel.OpenProcess.argtypes = [wintypes.DWORD, wintypes.BOOL, wintypes.DWORD]
     kernel.OpenProcess.restype = wintypes.HANDLE
     kernel.CloseHandle.argtypes = [wintypes.HANDLE]
+    kernel.WaitForSingleObject.argtypes = [wintypes.HANDLE, wintypes.DWORD]
+    kernel.WaitForSingleObject.restype = wintypes.DWORD
     kernel.GetProcessTimes.argtypes = [wintypes.HANDLE] + [ctypes.POINTER(wintypes.FILETIME)]*4
     kernel.QueryFullProcessImageNameW.argtypes = [wintypes.HANDLE, wintypes.DWORD, wintypes.LPWSTR, ctypes.POINTER(wintypes.DWORD)]
     handle = kernel.OpenProcess(0x1000, False, pid)
     if not handle:
-        if ctypes.get_last_error() in (87, 1168):
+        error = ctypes.get_last_error()
+        if error in (87, 1168):
             return None
-        raise OSError(ctypes.get_last_error(), 'cannot inspect native process identity')
+        # A retained terminated process object may deny query access. Only an
+        # independently signalled process handle establishes termination; an
+        # access error by itself is never evidence that an owner is dead.
+        sync = kernel.OpenProcess(0x100000, False, pid)
+        if sync:
+            try:
+                if kernel.WaitForSingleObject(sync, 0) == 0:
+                    return None
+            finally:
+                kernel.CloseHandle(sync)
+        raise OSError(error, 'cannot inspect native process identity')
     try:
         created, exited, system, user = (wintypes.FILETIME() for _ in range(4))
         if not kernel.GetProcessTimes(handle, ctypes.byref(created), ctypes.byref(exited), ctypes.byref(system), ctypes.byref(user)):
             raise OSError(ctypes.get_last_error(), 'GetProcessTimes failed')
+        if exited.dwHighDateTime or exited.dwLowDateTime:
+            return None
         size, name = wintypes.DWORD(32768), ctypes.create_unicode_buffer(32768)
         if not kernel.QueryFullProcessImageNameW(handle, 0, name, ctypes.byref(size)):
-            raise OSError(ctypes.get_last_error(), 'QueryFullProcessImageNameW failed')
+            error = ctypes.get_last_error()
+            # The process can exit between the first time query and the image
+            # query. Recheck the same handle, which cannot refer to a reused PID.
+            if (kernel.GetProcessTimes(handle, ctypes.byref(created), ctypes.byref(exited), ctypes.byref(system), ctypes.byref(user))
+                    and (exited.dwHighDateTime or exited.dwLowDateTime)):
+                return None
+            raise OSError(error, 'QueryFullProcessImageNameW failed')
         return {'pid': pid, 'created_ticks': (created.dwHighDateTime << 32) | created.dwLowDateTime,
                 'executable': name.value}
     finally:

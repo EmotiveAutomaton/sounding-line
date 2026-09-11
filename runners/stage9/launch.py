@@ -200,6 +200,9 @@ def verify_forecast(forecast,plan):
 
 
 def validate(plan,evidence):
+    if 'overnight_continuation' in plan:
+        from .overnight import validate as validate_overnight
+        return validate_overnight(plan, evidence)
     from runners.stage9.queue import validate_manifest,verify_sources,verify_committed
     from runners.stage9.training_jobs import FITS
     require(plan['kind']=='science','launch acceptance is only for scientific manifests')

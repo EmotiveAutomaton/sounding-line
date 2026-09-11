@@ -1,5 +1,21 @@
 # Stage 9 implementation
 
+`overnight.py` implements the curator's September 11 continuation: the complete
+existing Qwen/SmolLM archived-package diagnostic grid, with original sample sizes
+and gates. It validates completed prerequisites against their original commits,
+retains the failed first queue, reuses operation-matched rehearsals with explicit
+source compatibility, and includes prior GPU charges in the unchanged 92-hour cap.
+The original campaign clock is retained; the new overnight admission horizon is
+separately authorized and recorded. No training, confirmation, or final scientific
+acceptance follows from this launch policy. The existing serial queue is unchanged.
+CPU boost-off and 90% maximum processor state remain the thermal operating limits.
+Current launch and running status belong in `docs/CURRENT_STATUS.md`.
+
+`process_identity.py` recognizes an exited process from its native exit time or a
+signalled process handle. Query denial alone remains unknown and fails closed.
+This avoids querying an executable image after termination while preserving PID
+reuse checks and both original failed final-audit attempts.
+
 The [execution recovery addendum](../../docs/design/STAGE9_EXECUTION_ADDENDUM.md)
 was adopted on 2026-09-10. `tranche.py` adds an explicit opt-in scope to the existing
 launch, coverage and packet paths. It preserves original selected job settings and

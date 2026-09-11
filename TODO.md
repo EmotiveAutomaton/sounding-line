@@ -5,6 +5,17 @@
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
 archive, kept whole, mined but never deleted.
 
+## Active overnight continuation - authorized and launched 2026-09-11
+
+- [x] Record explicit overnight repair/continuation authority, retain the original failed queue and source archive, and preserve CPU boost-off/90% maximum.
+- [x] Repair native termination inspection and reconcile the original attempt ledger without changing any prior output.
+- [x] Bind and launch the full 26-job archived-package competence diagnostic grid, estimated at 12.61 GPU hours using existing pilot rates; retain prior work in the original 92-hour accounting.
+- [ ] Inspect each complete producer/calibration/analysis cell and perform the full internal write-through before acknowledging its wake; do not publish unfinished scores.
+- [ ] Verify thermal readings, native ownership, heartbeat and watcher health on wakes. Reassess sustained verified CPU90C+ or renewed warnings.
+- [ ] Reassess actual pace and remaining useful work after each trunk; continue eligible existing Stage 9 work until the curator returns, within the unchanged compute cap. Do not fill time with repeated completed experiments or waiting.
+- [ ] Complete the separately authorized final-integrity repair and scoped final packet, reusing already reconstructed observations. The original failed B03/B04 remain immutable history; component repair is not full acceptance.
+- [ ] Correct the frozen runner README's current-status link to the root CURRENT_STATUS.md after this queue closes; the temporary docs pointer resolves it meanwhile.
+
 ## Active Stage 9 recovery ? launched 2026-09-10
 
 - [x] Adopt and file the execution addendum; preserve original campaign clock/cap.
