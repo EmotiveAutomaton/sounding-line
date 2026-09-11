@@ -1,6 +1,8 @@
 # Sounding Line current status
 
-Updated 2026-09-11T17:38:07.903662+00:00.
+Updated 2026-09-11T18:00:30+00:00.
+
+**Authorized final-integrity repair running, September 11 at 10:57 a.m. Pacific.** A separate saved-evidence inspector is checking the original selected ledger under the explicitly reviewed process-termination repair. Original archived sources, current sources and both rejection checks pass; the full audit remains pending. Actual native ownership is verified. No GPU experiment is active. Earlier failed attempts and the original unrun packet remain unchanged. The next conservative inspection is September 11 at 11:28 a.m. Pacific, with urgent failure monitoring; scientific acceptance is still pending.
 
 **Overnight execution inspected 2026-09-11T17:33:39.301790+00:00.** All 26 jobs are COMPLETE; no scientific job is running or pending, and all original owner/wrapper/worker identities have exited. Both complete diagnostic branches, including all producers, calibration consumers and grouped profiles, are internally landed (L378-L383). Recorded GPU reservation was 12.973 hours. CPU 63.9 °C / GPU 48.0 °C; boost-off/90% maximum retained. Watcher and all 380 frozen sources verify. Gear 2 authorization continues, with final-integrity repair and the scoped packet next; scientific acceptance remains pending.
 
@@ -8,7 +10,7 @@ Updated 2026-09-11T17:38:07.903662+00:00.
 
 **Overnight launch record, 2026-09-11 (queue now complete).** The curator explicitly authorized additional audit repair and existing Stage 9 experiments through the night, with at least ten hours of estimated GPU work and continued operation until they return. A separate 26-job queue is launch-accepted and observed running: fourteen archived-Qwen/SmolLM diagnostic executions, six calibration checks and six complete grouped analyses. Existing pilot rates give 12.61 GPU hours under the observed call-mixture scenario, 23.32 under the full-declared-call scenario, plus 1.12 CPU hours. These are conditional estimates, not guaranteed duration or measured device utilization. Prior preparation and scientific work remain charged within the unchanged 92 GPU-hour cap; the conservative combined plan is 67.53 hours. CPU boost-off/90% AC maximum remains active. The original 26-complete/one-failed/one-not-run queue and both audit failures remain unchanged; final scientific acceptance is still owed.
 
-Both diagnostic branches have completed. All fourteen producers and six calibration consumers are internally inspected; all six complete profiles are internally landed in L378-L383. No GPU task is active. Authorized scoped final integrity follows.
+Both diagnostic branches have completed. All fourteen producers and six calibration consumers are internally inspected; all six complete profiles are internally landed in L378-L383. No GPU task is active. Authorized scoped final integrity is now running.
 
 The Windows process-identity defect is repaired and the original attempt-ledger component now reconciles all original attempts. Both earlier audit failures remain in the record. Full final integrity and the scientific packet still need completion; no unfinished cell scores are being reported.
 
@@ -16,7 +18,7 @@ The prior supplied-information and ArgRewrite experiments are complete and inter
 
 CPU boost-off and 90% maximum processor state remain enabled. The prelaunch sensor endpoint reported CPU67.3C/GPU42C; hardware sample timestamps remain unavailable. The watcher is healthy. An older unrelated completion-alert timeout remains uncertain and is not being blindly retried.
 
-Next: execute the separately authorized scoped audit repair and final synthesis using the preserved results. No further curator decision is currently needed.
+Next: inspect the running original-ledger audit, reconcile the overnight extension, reproduce the selected final calculations and complete the scoped synthesis using the preserved results. No further curator decision is currently needed.
 
 [Overnight launch receipt](results/phase_2_4_stage_9/OVERNIGHT_CONTINUATION_LAUNCH.json), [full operational record](FINDINGS.md), [original failed closeout](results/phase_2_4_stage_9/EXECUTION_RECOVERY_CLOSEOUT.json).
 
