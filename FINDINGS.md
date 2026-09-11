@@ -17155,6 +17155,103 @@ Evidence: original `private/scientific-revision-analysis/argrewrite-v1/main/eval
 
 **Curator roll-up.** Theory group: decision traces and controlled revision. Question: do lexical features and earlier records improve revision-purpose prediction beyond cheap alternatives? Outcome: Narrows. Result: the lexical increment is retrospective, with no resolved advantage over cheap rivals for future purposes. Project meaning: record access and annotation recovery need task-specific validation before they support claims about continuing intentions. Next engineering obligation: finish selected integrity and the single scoped packet. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L377 and the original comparison profile.
 
+## L378 - Action assistance changes the archived reader's rollout horizon without establishing full generation
+
+**Hypothesis.** Offering actions, supplying their outcomes, periodically restoring the genuine state, and showing an artifact instead of its process record distinguish components of the archived reader's difficulty sustaining a legal process.
+
+**METHOD.** Compared the same archived Qwen package on all 192 constructed discovery worlds, split equally between essay and workshop-document domains. Five fixed conditions use offered action probabilities with environment-produced outcomes; freely named actions with environment-produced outcomes; freely named actions and claimed outcomes checked by the environment; named actions with genuine-state restoration every four interactions; and the current artifact with its original commission, action format and clock. The offered support comes from visible evidence, with no hidden inventory legality mask. An evaluator executes or refuses each action and retains malformed actions, unavailable resets, invalid calls and STOP. Each trajectory supplies nested horizons of one, four, eight and sixteen executed actions. STOP is counted separately and earns no sustained-action credit. The self-outcome condition is stepwise interaction, not the historical uninterrupted full-log generation test. The artifact condition does not cover every finished-output or partial-artifact task in C08.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** Offering actions sustains more trajectories than naming them. Periodic true-state resets improve reaching eight actions but do not produce sixteen-action trajectories. Requiring self-produced outcomes yields the same horizon counts as supplying outcomes in this interface. The current-artifact condition fails at the first action on every assigned world. These are descriptive assistance and interface effects, not evidence that the reader can autonomously generate the process or stop for the right reason.
+
+Every count below is out of 96 assigned worlds in that domain. The four horizon columns count trajectories that executed that many legal non-STOP actions; the final column counts trajectories that emitted STOP during the run. Rows reuse the same source worlds and horizons are nested, not independent samples.
+
+| Domain | Assistance condition | 1 action | 4 actions | 8 actions | 16 actions | Emitted STOP |
+|---|---|---:|---:|---:|---:|---:|
+| Constructed essay | Offered actions, environment outcomes | 96 | 96 | 55 | 53 | 43 |
+| Constructed essay | Named actions, environment outcomes | 96 | 96 | 5 | 0 | 96 |
+| Constructed essay | Named actions and outcomes | 96 | 96 | 5 | 0 | 96 |
+| Constructed essay | Named actions, true-state resets | 96 | 96 | 42 | 0 | 82 |
+| Constructed essay | Current artifact, named actions | 0 | 0 | 0 | 0 | 0 |
+| Constructed workshop document | Offered actions, environment outcomes | 96 | 96 | 57 | 49 | 47 |
+| Constructed workshop document | Named actions, environment outcomes | 96 | 96 | 5 | 0 | 96 |
+| Constructed workshop document | Named actions and outcomes | 96 | 96 | 5 | 0 | 96 |
+| Constructed workshop document | Named actions, true-state resets | 96 | 96 | 30 | 0 | 85 |
+| Constructed workshop document | Current artifact, named actions | 0 | 0 | 0 | 0 | 0 |
+
+The next table reports differences in the rate of reaching the stated action horizon, in percentage points. Positive values favor the first named condition. Each distinct initial public question receives equal weight after averaging its source aliases: 62 groups in the essay domain and 70 in the workshop domain. Brackets are pointwise 95% paired cluster percentile bootstrap intervals from 4,000 draws, seed 9041. These are descriptive intervals without multiplicity adjustment; raw source-world count differences above need not equal these weighted estimates.
+
+| Domain | Comparison | 8-action difference [interval] | 16-action difference [interval] |
+|---|---|---:|---:|
+| Constructed essay | Named minus offered actions | -48.39 [-61.29, -35.48] | -53.23 [-66.13, -40.32] |
+| Constructed essay | Self-produced minus supplied outcomes | +0.00 [+0.00, +0.00] | +0.00 [+0.00, +0.00] |
+| Constructed essay | True-state reset minus uninterrupted | +40.00 [+26.88, +52.85] | +0.00 [+0.00, +0.00] |
+| Constructed essay | Artifact view minus process record | -8.06 [-16.13, -1.61] | +0.00 [+0.00, +0.00] |
+| Constructed workshop document | Named minus offered actions | -57.14 [-68.57, -45.71] | -52.86 [-64.29, -41.43] |
+| Constructed workshop document | Self-produced minus supplied outcomes | +0.00 [+0.00, +0.00] | +0.00 [+0.00, +0.00] |
+| Constructed workshop document | True-state reset minus uninterrupted | +26.95 [+16.05, +38.81] | +0.00 [+0.00, +0.00] |
+| Constructed workshop document | Artifact view minus process record | -7.14 [-14.29, -1.43] | +0.00 [+0.00, +0.00] |
+
+At one and four actions the first three contrasts are exactly zero; the artifact-minus-process contrast is minus 100 percentage points. All recorded reader calls satisfy the execution contract. Task failures remain visible: all 192 artifact-view first responses fail the declared first-line action grammar, while 14 essay and 11 workshop reset trajectories reach a boundary for which the original genuine trajectory supplies no state. Those missing resets are retained in the assigned denominator. They limit what the sixteen-action reset comparison can establish. The other named-action conditions all terminate with STOP, so failure to reach a longer horizon is not itself proof of an illegal action or an incorrect stopping decision.
+
+**Integrity and controls.** The original queue commits, compiled source, exact package, complete source population and output closures verify. Each producer was previously reconstructed from every actual saved call and delivered input, with all capsules, sidecars, denial evidence and service requests reconciled. This inspection rechecks committed bytes and exact canonical row identities before reusing those completed reconstructions; the unchanged grouped calculation reproduces its original profile exactly. The combined three-profile inspection took 70.69 seconds and made no model call, refit, new capsule execution or reserve access. Original exact-package numerical calibration is accepted, but it does not establish generation precision. All 380 frozen sources remain intact. The prior failed final audit remains failed; new scoped final integrity is still required. No p-value, new test or confirmation is introduced.
+
+**Meaning and limits.** The complete profile distinguishes assisted selection, short stepwise execution and the supplied artifact interface. It does not identify an internal mechanism, establish policy quality, decide whether stopping was appropriate, or replace the historical full-generation criterion. The reset benefit is conditional on supplied genuine state and its availability. Artifact-view failures establish failure of this model/package/prompt interface, not absence of process information in artifacts. Similar self-produced and supplied-outcome horizons do not isolate outcome production as the cause of the earlier full-log deficit. The broader expertise mechanism stays open. Disposition: DESCRIPTIVE throughout; scientific admission remains false.
+
+Evidence: the original archived-Qwen rollouts profile and completion under `private/scientific-operation-analysis/`, the seven original diagnostic producers, and overnight `PROFILES_QWEN_INSPECTION.json`. Producer and calibration provenance are in OPS-S9-RECOVERY-1.
+
+**Curator roll-up.** Theory group: expertise and process competence. Question: which assistance changes sustained action execution? Outcome: Narrows. Result: offered actions and true-state resets help under their declared assistance without establishing full generation. Project meaning: prediction, stepwise action and whole-process generation remain distinct capabilities. Next engineering obligation: land the second family's existing diagnostics and finish scoped final integrity and the single packet. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L378 and the original complete rollout profile.
+
+## L379 - Altering a history at the same operative state has no resolved score effect; generated histories provide no matched comparison
+
+**Hypothesis.** A reader's prospective prediction changes when an original history is replaced by another legal history or a generated history that reaches exactly the same operative state.
+
+**METHOD.** Used all 192 assigned constructed discovery worlds and the same archived Qwen scorer. An altered history qualifies only when it preserves the complete operative state, clock and previous action. Both histories are scored against the same genuine next-action target with the full common support. The separately generated history uses the actual three-interaction prefix and is scored only if it reaches that same state; no replacement is supplied for a failed match. Every failed construction remains in the allocation. Domain-specific construction requires at least 75% of assigned original/altered pairs to be realized before their conditional score contrast is reported.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** The original-versus-altered comparison has no resolved mean log-score difference in either domain. No generated history reaches the required exact matched state, so its score contrast is NOT RUN WITH REASON, not zero and not evidence of equivalent performance.
+
+The table reports original assigned worlds, realized original/altered pairs, and altered-minus-original mean natural-log predictive score in nats. Brackets are pointwise 95% paired cluster percentile bootstrap intervals from 4,000 draws, seed 9031. There are 94 distinct paired questions for essays and 93 for workshop documents. The last column is the number of generated histories eligible for the matched-state comparison, not the number of successful predictions.
+
+| Domain | Assigned worlds | Realized altered pairs | Score difference [interval] | Matched generated histories |
+|---|---:|---:|---:|---:|
+| Constructed essay | 96 | 94 | +0.003336 [-0.015757, +0.024265] | 0 |
+| Constructed workshop document | 96 | 93 | +0.014275 [-0.001300, +0.030502] | 0 |
+
+Both original/altered construction checks pass; two essay and three workshop worlds retain their original nonrealization reasons. All scored predictions retain valid full-support calls. The selected original/altered comparisons are DESCRIPTIVE. The generated-history comparison is absent in both domains with its original reason: no assigned generated history reached the declared exact state.
+
+**Integrity and controls.** The original queue commits, compiled source, exact package, complete source population and output closures verify. Each producer was previously reconstructed from every actual saved call and delivered input, with all capsules, sidecars, denial evidence and service requests reconciled. This inspection rechecks committed bytes and exact canonical row identities before reusing those completed reconstructions; the unchanged grouped calculation reproduces its original profile exactly. The combined three-profile inspection took 70.69 seconds and made no model call, refit, new capsule execution or reserve access. Original exact-package numerical calibration is accepted, but it does not establish generation precision. All 380 frozen sources remain intact. The prior failed final audit remains failed; new scoped final integrity is still required. No p-value, new test or confirmation is introduced.
+
+**Meaning and limits.** A small conditional mean score difference is not a proof of distributional invariance, nor does it show the reader internally represents the operative state. The generated-history arm cannot answer whether prediction would deteriorate at matched state because it realizes no matched cases. Failure to construct that contrast is not a measured prediction deficit. These observations leave the earlier prediction/generation explanations unresolved and do not support a surface-only learning conclusion. Scientific admission remains false.
+
+Evidence: original archived-Qwen prefix profile and completion under `private/scientific-operation-analysis/`, original matched-prefix producer and overnight `PROFILES_QWEN_INSPECTION.json`. Complete producer/calibration write-through is in OPS-S9-RECOVERY-1.
+
+**Curator roll-up.** Theory group: expertise and state-sensitive prediction. Question: does changing history at fixed operative state change prediction? Outcome: Narrows. Result: the realized altered-history contrast is unresolved and generated histories supply no matched comparison. Project meaning: this interface does not identify a generated-history prediction penalty. Next engineering obligation: retain the missing comparison and full assistance limits in final integrity and the single packet; finish the queued second-family profiles. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L379 and the original complete prefix profile.
+
+## L380 - The supplied finite-rule reader answers no throughout and fails every projection's consistency battery
+
+**Hypothesis.** Given explicit finite execution rules, the archived reader correctly preserves equivalent futures and distinguishes states with different legal continuations, including differences that require more than one action to reveal.
+
+**METHOD.** Retained all 192 original source assignments but grouped their repeated input-and-truth projections into eight distinct reader units. Each unit supplies explicit compact rules and the same fixed 48 yes/no queries across equivalent and distinguishable states. The bounded rule interpretation is exhaustively checked against the original exact constructor before using reader answers. A compression pair must have matching truth and both answers correct; a distinction pair must have opposite truths and both answers correct. Longer distinctions require more than one action. A tie earns no distinguishing credit. Passing a projection requires every applicable pair to be correct; all queries and original aliases remain recorded.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** The archived reader answers no on every query and passes none of the eight projections on compression, distinction or longer distinction. The exact supported battery fails. All calls are valid executions; these are task failures, not missing or rejected calls.
+
+The table counts complete projection-level passes, not individual query accuracy. Rates have pointwise Wilson 95% intervals. Eight distinct input-and-truth projections are the denominator; neither the 192 source aliases nor the 384 calls are independent competence samples.
+
+| Requirement | Passing projections / tested | Rate [interval] |
+|---|---:|---:|
+| Equivalent-state consistency with correct answers | 0 / 8 | 0.000 [0.000, 0.324] |
+| All tested distinguishing continuations correct | 0 / 8 | 0.000 [0.000, 0.324] |
+| All longer distinguishing continuations correct | 0 / 8 | 0.000 [0.000, 0.324] |
+
+Each projection has 32 no and 16 yes truths among its 48 queries. Constant no therefore answers 32 correctly in every projection while failing all three complete-pair requirements. This is why the observed two-thirds query accuracy is not evidence of state discrimination. All 384 calls are valid, and all eight all-answers-correct checks fail.
+
+**Integrity and controls.** The original queue commits, compiled source, exact package, complete source population and output closures verify. Each producer was previously reconstructed from every actual saved call and delivered input, with all capsules, sidecars, denial evidence and service requests reconciled. This inspection rechecks committed bytes and exact canonical row identities before reusing those completed reconstructions; the unchanged grouped calculation reproduces its original profile exactly. The combined three-profile inspection took 70.69 seconds and made no model call, refit, new capsule execution or reserve access. Original exact-package numerical calibration is accepted, but it does not establish generation precision. All 380 frozen sources remain intact. The prior failed final audit remains failed; new scoped final integrity is still required. No p-value, new test or confirmation is introduced.
+
+**Meaning and limits.** Correctly executing these supplied bounded rules is not demonstrated by this reader. Constant responses are precisely the failure the paired correctness requirement excludes. The conclusion is confined to the eight supplied-rule projections, this archived package and its binary scoring interface. This is neither a learned-world-model evaluation nor a replication of a published finite-automaton training result, and it does not apply directly to stochastic maker states or people. Disposition remains DESCRIPTIVE, with scientific admission false; no whole-reader or internal-representation claim follows.
+
+Evidence: original archived-Qwen finite profile and completion under `private/scientific-operation-analysis/`, the original finite-query producer and overnight `PROFILES_QWEN_INSPECTION.json`. Full source-alias, capsule and calibration records are in OPS-S9-RECOVERY-1.
+
+**Curator roll-up.** Theory group: expertise and coherent consequences. Question: can the reader use supplied rules to preserve and distinguish possible futures? Outcome: Narrows. Result: the constant response fails every projection's paired correctness battery. Project meaning: simple query accuracy would overstate the demonstrated competence. Next engineering obligation: retain this failed diagnostic in the final scoped packet and finish existing second-family comparisons and final integrity. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L380 and the original complete finite profile.
+
 ## OPS-S9-RECOVERY-1: A complete selected branch can pass without completing unrelated branches
 
 Hypothesis: explicit local acceptance can release a scientifically bounded subset without weakening its controls or silently claiming the full stage.
@@ -21233,3 +21330,122 @@ Queue at inspection: 5 complete, 1 running and 20 pending, no failures or pauses
 Evidence: the overnight continuation's `ARTIFACT_QWEN_INSPECTION.json`, final liveness and landing receipts, with the original `OFFERED_QWEN_STORAGE_CROSSCHECK.json` reused by exact hash. Complete calibration, grouped analysis and scoped final integrity are still owed; earlier failed final audits remain intact.
 
 **Curator roll-up.** Theory group: measurement and operational integrity. Question: can the artifact-context rollout be reconstructed from its actual saved execution? Outcome: Infrastructure. Result: the complete artifact-context producer reconstructs. Project meaning: another declared comparison arm has inspected execution evidence. Next engineering obligation: land the complete diagnostic profile and final integrity while maintaining queue and thermal health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
+
+### Matched-prefix producer execution inspected, 2026-09-11T09:32:32.516877+00:00
+
+**Hypothesis.** The archived reader's diagnostic using original and altered histories matched on operative state can be recovered completely from its actual inputs and execution records.
+
+**METHOD.** Checked the original queue commit and compiled source, reconstructed every assigned unit and delivered capsule input, and matched the original dispatcher settings and archived model package. Checked all committed files, unique capsules and original sidecars with the previously crosschecked fixed-layout inventory, then reconciled the exact-package denial probe and every model-service request. This diagnostic constructs a legally altered history only when it preserves the exact operative state, action clock and previous action. It retains failed match construction and checks both original and altered histories against their original saved requests. The generated-history condition uses the actual three-interaction prefix only if its complete operative state matches; unsuccessful or early-stopped generation receives no replacement. No unmatched case is promoted to a paired success. Inspection reused saved responses only.
+
+**Finding.** The complete archived-Qwen matched-prefix producer reconstructs, with its source population, input boundary and actual execution preserved. This is an Infrastructure landing. It does not establish competence; the full paired profile and final integrity remain pending.
+
+The table records execution coverage and provenance, not diagnostic scores.
+
+| Execution check | Observed coverage | Limit |
+|---|---|---|
+| Assigned source units | 192 complete and reconstructed | Original constructed discovery population |
+| Saved calls and unique committed capsules | 935 fully reconciled | Execution validity is separate from action legality and task competence |
+| Actual model-service requests | 935 matched, no unresolved requests or capsules | Recorded resident identity and lifecycle |
+| Original GPU reservation | 2663.20 seconds | Elapsed reservation, not integrated device utilization |
+
+The read-only inspection took 85.53 seconds. Its storage function is unchanged from the earlier rehearsal crosscheck; no generic quadratic rescan, new model invocation, regression run, scoring edit or source change was needed. All original action outcomes and failures remain in their assigned units. No new hypothesis or test was harvested, and no p-value or theory claim is issued.
+
+Queue at inspection: 10 complete, 1 running and 15 pending, no failures or pauses; the qwen archived reader rollouts profile is running. Native owner/wrapper/worker identities, heartbeat, watcher and all 380 frozen sources verify. The sensor endpoint reports CPU 66.5 °C / GPU 42.0 °C, without an independent hardware sample timestamp. CPU boost-off/90% maximum remains active. Gear 2 and the existing compute cap are unchanged.
+
+Evidence: the overnight continuation's `PREFIX_QWEN_INSPECTION.json`, final liveness and landing receipts, with the original `OFFERED_QWEN_STORAGE_CROSSCHECK.json` reused by exact hash. Complete calibration, grouped analysis and scoped final integrity are still owed; earlier failed final audits remain intact.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: can the state-matched history comparison be reconstructed from its actual saved execution? Outcome: Infrastructure. Result: the complete matched-prefix producer reconstructs. Project meaning: another declared comparison arm has inspected execution evidence. Next engineering obligation: land the complete diagnostic profile and final integrity while maintaining queue and thermal health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
+
+### Finite-state producer execution inspected, 2026-09-11T09:38:00.325697+00:00
+
+**Hypothesis.** The archived reader's diagnostic using the declared finite execution rules can be recovered completely from its actual inputs and execution records.
+
+**METHOD.** Checked the original queue commit and compiled source, reconstructed every assigned unit and delivered capsule input, and matched the original dispatcher settings and archived model package. Checked all committed files, unique capsules and original sidecars with the previously crosschecked fixed-layout inventory, then reconciled the exact-package denial probe and every model-service request. This diagnostic supplies explicit execution rules and asks whether declared continuations are legal. All original source assignments retain their mapping into eight distinct input-and-truth projection groups. The original exhaustive bounded-rule checks and fixed query plan reconstruct before saved answers are used. Repeated source aliases remain dependent rather than being counted as independent reader units. Inspection reused saved responses only.
+
+**Finding.** The complete archived-Qwen finite-state producer reconstructs, with its source population, input boundary and actual execution preserved. This is an Infrastructure landing. It does not establish competence; the full paired profile and final integrity remain pending.
+
+The table records execution coverage and provenance, not diagnostic scores.
+
+| Execution check | Observed coverage | Limit |
+|---|---|---|
+| Original source assignments | 192 preserved | Source aliases are not independent reader units |
+| Distinct projection groups | 8 complete and reconstructed | Original grouping and fixed query plan preserved |
+| Saved calls and unique committed capsules | 384 fully reconciled | Execution validity is separate from action legality and task competence |
+| Actual model-service requests | 384 matched, no unresolved requests or capsules | Recorded resident identity and lifecycle |
+| Original GPU reservation | 230.66 seconds | Elapsed reservation, not integrated device utilization |
+
+The read-only inspection took 114.76 seconds. Its storage function is unchanged from the earlier rehearsal crosscheck; no generic quadratic rescan, new model invocation, regression run, scoring edit or source change was needed. All original action outcomes and failures remain in their assigned units. No new hypothesis or test was harvested, and no p-value or theory claim is issued.
+
+Queue at inspection: 12 complete, 1 running and 13 pending, no failures or pauses; the qwen archived reader finite profile is running. Native owner/wrapper/worker identities, heartbeat, watcher and all 380 frozen sources verify. The sensor endpoint reports CPU 66.5 °C / GPU 41.0 °C, without an independent hardware sample timestamp. CPU boost-off/90% maximum remains active. Gear 2 and the existing compute cap are unchanged.
+
+Evidence: the overnight continuation's `FINITE_QWEN_INSPECTION.json`, final liveness and landing receipts, with the original `OFFERED_QWEN_STORAGE_CROSSCHECK.json` reused by exact hash. Complete calibration, grouped analysis and scoped final integrity are still owed; earlier failed final audits remain intact.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: can the supplied-rule finite diagnostic be reconstructed from its actual saved execution? Outcome: Infrastructure. Result: the complete finite-state producer reconstructs. Project meaning: another declared comparison arm has inspected execution evidence. Next engineering obligation: land the complete diagnostic profile and final integrity while maintaining queue and thermal health. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the private overnight receipts.
+
+
+### Archived-Qwen offered-action calibration consumer inspected, 2026-09-11T09:51:29.605247+00:00
+
+**Hypothesis.** The offered-action diagnostic uses the exact scoring package whose numerical calibration was measured originally.
+
+**METHOD.** Reconstructed this consumer's original command, queue commit, source closure, input identity and decision from the saved three-variant calibration. Checked all original delivered calibration inputs and tied the target producer to its completed execution inspection. No reader was invoked; all three diagnostic consumers reuse the same 33 original calibration calls, not independent calibration samples.
+
+**Finding.** The exact score-package calibration consumer reconstructs and retains its original accepted instrument decision. Generation precision is not calibrated by this check, and scientific admission remains false. This is an Infrastructure result, not evidence of diagnostic competence.
+
+The table identifies the completed consumer and the evidence it actually covers.
+
+| Check | Result | Scope |
+|---|---|---|
+| Consumer | Archived-Qwen offered-action | Original complete command and committed outputs |
+| Numerical calibration | Accepted, original decision reproduced | Same 33 shared calls across three precision variants |
+| Target binding | Exact producer and score package verified | No substitute model, parameter change or new sample |
+| Scientific admission | Not granted | Complete grouped analysis and final integrity are separate |
+
+The three-consumer read-only inspection took 43.63 seconds in total. Original tolerances, tie/permutation checks and invalidity fixtures remain unchanged. No theory row, p-value or new test follows from this unchanged calibration. Evidence: overnight `CALIBRATION_QWEN_INSPECTION.json`, this consumer's original `COMPLETE.json` and `DECISION.json`, and the shared landing receipt.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: is the offered-action diagnostic bound to its original calibrated scorer? Outcome: Infrastructure. Result: the original numerical-calibration decision reconstructs. Project meaning: its declared scorer binding is checked. Next engineering obligation: finish complete grouped profiles and scoped final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the original consumer.
+
+
+### Archived-Qwen matched-prefix calibration consumer inspected, 2026-09-11T09:51:29.605247+00:00
+
+**Hypothesis.** The matched-prefix diagnostic uses the exact scoring package whose numerical calibration was measured originally.
+
+**METHOD.** Reconstructed this consumer's original command, queue commit, source closure, input identity and decision from the saved three-variant calibration. Checked all original delivered calibration inputs and tied the target producer to its completed execution inspection. No reader was invoked; all three diagnostic consumers reuse the same 33 original calibration calls, not independent calibration samples.
+
+**Finding.** The exact score-package calibration consumer reconstructs and retains its original accepted instrument decision. Generation precision is not calibrated by this check, and scientific admission remains false. This is an Infrastructure result, not evidence of diagnostic competence.
+
+The table identifies the completed consumer and the evidence it actually covers.
+
+| Check | Result | Scope |
+|---|---|---|
+| Consumer | Archived-Qwen matched-prefix | Original complete command and committed outputs |
+| Numerical calibration | Accepted, original decision reproduced | Same 33 shared calls across three precision variants |
+| Target binding | Exact producer and score package verified | No substitute model, parameter change or new sample |
+| Scientific admission | Not granted | Complete grouped analysis and final integrity are separate |
+
+The three-consumer read-only inspection took 43.63 seconds in total. Original tolerances, tie/permutation checks and invalidity fixtures remain unchanged. No theory row, p-value or new test follows from this unchanged calibration. Evidence: overnight `CALIBRATION_QWEN_INSPECTION.json`, this consumer's original `COMPLETE.json` and `DECISION.json`, and the shared landing receipt.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: is the matched-prefix diagnostic bound to its original calibrated scorer? Outcome: Infrastructure. Result: the original numerical-calibration decision reconstructs. Project meaning: its declared scorer binding is checked. Next engineering obligation: finish complete grouped profiles and scoped final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the original consumer.
+
+
+### Archived-Qwen finite-state calibration consumer inspected, 2026-09-11T09:51:29.605247+00:00
+
+**Hypothesis.** The finite-state diagnostic uses the exact scoring package whose numerical calibration was measured originally.
+
+**METHOD.** Reconstructed this consumer's original command, queue commit, source closure, input identity and decision from the saved three-variant calibration. Checked all original delivered calibration inputs and tied the target producer to its completed execution inspection. No reader was invoked; all three diagnostic consumers reuse the same 33 original calibration calls, not independent calibration samples.
+
+**Finding.** The exact score-package calibration consumer reconstructs and retains its original accepted instrument decision. Generation precision is not calibrated by this check, and scientific admission remains false. This is an Infrastructure result, not evidence of diagnostic competence.
+
+The table identifies the completed consumer and the evidence it actually covers.
+
+| Check | Result | Scope |
+|---|---|---|
+| Consumer | Archived-Qwen finite-state | Original complete command and committed outputs |
+| Numerical calibration | Accepted, original decision reproduced | Same 33 shared calls across three precision variants |
+| Target binding | Exact producer and score package verified | No substitute model, parameter change or new sample |
+| Scientific admission | Not granted | Complete grouped analysis and final integrity are separate |
+
+The three-consumer read-only inspection took 43.63 seconds in total. Original tolerances, tie/permutation checks and invalidity fixtures remain unchanged. No theory row, p-value or new test follows from this unchanged calibration. Evidence: overnight `CALIBRATION_QWEN_INSPECTION.json`, this consumer's original `COMPLETE.json` and `DECISION.json`, and the shared landing receipt.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: is the finite-state diagnostic bound to its original calibrated scorer? Outcome: Infrastructure. Result: the original numerical-calibration decision reconstructs. Project meaning: its declared scorer binding is checked. Next engineering obligation: finish complete grouped profiles and scoped final integrity. Public claim: unchanged. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the original consumer.
