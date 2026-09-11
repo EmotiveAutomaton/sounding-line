@@ -9,13 +9,17 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-09-09)
 
+- **Execution recovery adopted 2026-09-10:** [Stage 9 addendum](STAGE9_EXECUTION_ADDENDUM.md)
+  makes acceptance local to a finite selected tranche, retains the original cap/clock,
+  and limits recovery to two active hours for scope plus four for integration.
+  [Current decision](STAGE9_FORECAST_REVIEW.md) supersedes the older full-workload forecast request.
+
 - **Layout rule (2026-08-23, the curator's):** the current phase's documents live at this
   folder's top level; closed phases move whole into [`archive/`](archive/), never deleted,
   with every repository reference rewritten at the move.
 - **Active stage:** [Stage 9](PHASE_2_4_STAGE_9_CONTEXT.md), commissioned 2026-09-06.
-  Gear 2 is selected; implementation and launch integration remain unfinished and
-  scientific processing has not launched. [Scheduling review](STAGE9_FORECAST_REVIEW.md)
-  records the resource conflict and existing measurements, not a new deadline.
+  The adopted 28-job selection has launched in Gear 2; the wider matrix remains deferred. [Scheduling review](STAGE9_FORECAST_REVIEW.md)
+  records the selected scope, conservative allowance and unchanged deadline.
   [Current status](../../CURRENT_STATUS.md) is the short operational handoff.
 - **Latest theory maintenance:** the [2026-09-07 errata](archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md)
   was applied to the current theory on 2026-09-09, preserving intervening corrections.

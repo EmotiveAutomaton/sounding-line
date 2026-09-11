@@ -62,9 +62,12 @@ def validate(review, plan, evidence, audit_sha):
     fixed = policy(plan)
     fields = {'manifest_sha256', 'audit_complete_sha256', 'scope', 'sections', 'evidence',
               'cases', 'case_roster_review', 'readiness', 'claims', 'next_stage_authorized'}
+    tranche = plan.get('execution_scope')
+    if tranche:
+        fields |= {'execution_scope_sha256', 'full_stage_complete'}
     if not isinstance(review, dict) or set(review) != fields:
         raise ValueError('complete exact manual packet review required')
-    scope = 'scientific' if plan['kind'] == 'science' else 'pilot'
+    scope = 'scientific_tranche' if tranche and plan['kind'] == 'science' else 'scientific' if plan['kind'] == 'science' else 'pilot'
     if (review['manifest_sha256'] != digest(plan) or review['audit_complete_sha256'] != audit_sha
             or review['scope'] != scope or review['next_stage_authorized'] is not False):
         raise ValueError('packet review differs from its original audit/scope or authorizes a next stage')
@@ -130,6 +133,9 @@ def validate(review, plan, evidence, audit_sha):
         claim_ids.add(claim['id']); references(claim['evidence'], evidence)
     if scope == 'pilot' and review['claims']:
         raise ValueError('discarded packet rehearsal cannot contain scientific claims')
+    if tranche:
+        from .tranche import packet_claims
+        packet_claims(review, plan)
     return {'review': review, 'case_selection': chosen, 'policy': fixed,
             'review_sha256': digest(review), 'scientific_interpretation_automated': False}
 
@@ -138,6 +144,8 @@ def render(packet):
     """Render the reviewed account once; identifiers and queue detail follow the prose."""
     review = packet['review']; lines = ['# Sounding Line Stage 9', '']
     if review['scope'] == 'pilot': lines += ['**Discarded infrastructure rehearsal. No scientific result or stage closure.**', '']
+    if review['scope'] == 'scientific_tranche':
+        lines += ['**Selected Stage 9 tranche only. The full commissioned stage is incomplete; deferred work is not run.**', '']
     def refs(keys): return 'Evidence: ' + ', '.join('[' + k + '](#evidence-' + str(list(review['evidence']).index(k)) + ')' for k in keys) + '.'
     for key in ('world_model_changes', 'competence', 'maker', 'substrates', 'confirmations'):
         row = review['sections'][key]; lines += ['## ' + SECTIONS[key], '', row['text'], '', refs(row['evidence']), '']

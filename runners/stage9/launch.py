@@ -191,6 +191,10 @@ def verify_forecast(forecast,plan):
             'forecast claims concurrency the current scheduler does not implement')
     remaining=plan['horizon_epoch']-forecast['forecast_at']
     require(forecast['remaining_wall_seconds']<=remaining,'finite forecast exceeds remaining campaign horizon')
+    if plan.get('execution_scope'):
+        import time
+        require(forecast['forecast_at']<=time.time() and time.time()+gpu+cpu<=plan['horizon_epoch'],
+                'tranche forecast is stale or cannot fit the original live horizon')
     require(forecast['initial_queue_seconds']>=18*3600 or bool(forecast.get('underfill_reason')),
             'roughly one-day initial depth or a concrete underfill explanation is required')
 
@@ -200,6 +204,8 @@ def validate(plan,evidence):
     from runners.stage9.training_jobs import FITS
     require(plan['kind']=='science','launch acceptance is only for scientific manifests')
     validate_manifest(plan);verify_sources(plan['sources'])
+    from .tranche import scope as tranche_scope
+    tranche=tranche_scope(plan)
     from runners.stage9.closure_raw import validate_scientific_reviews
     validate_scientific_reviews(plan,{j['id']:j for j in plan['jobs']})
     require(set(evidence)==REQUIRED,'launch evidence set is empty, incomplete or unregistered')
@@ -217,23 +223,31 @@ def validate(plan,evidence):
                     ('hypothesis','method','null_expectation','alternative_expectation','failure_direction',
                      'independent_unit','evidence_view','strongest_rival','exhaustive_bands')),
                 'manual cell design is missing a load-bearing field')
-    require({tuple(row) for row in review['training_fits']}==set(FITS) and len(review['training_fits'])==24,
-            'all recipes/families/seeds must be explicitly scheduled')
+    if tranche is None:
+        require({tuple(row) for row in review['training_fits']}==set(FITS) and len(review['training_fits'])==24,
+                'all recipes/families/seeds must be explicitly scheduled')
+    else:
+        require(review['training_fits']==[], 'tranche cannot claim deferred factorial fits')
     fit_jobs=[j for j in plan['jobs'] if j['module']=='runners.stage9.training_jobs' and j['arguments'][0]=='fit']
     actual_fits=[]
     for job in fit_jobs:
         args=job['arguments'];actual_fits.append((args[args.index('--family')+1],args[args.index('--recipe')+1],int(args[args.index('--seed')+1])))
-    require(len(actual_fits)==24 and set(actual_fits)==set(FITS),'reviewed factorial differs from actual fit invocations')
+    require((not actual_fits) if tranche else (len(actual_fits)==24 and set(actual_fits)==set(FITS)),
+            'reviewed factorial differs from actual fit invocations')
     for card,keys in review['cards'].items():
-        require(isinstance(keys,list) and (keys or card in coverage.get('preparations', {}))
+        require(isinstance(keys,list) and (keys or card in coverage.get('preparations', {})
+                or tranche and tranche['cards'][card]['status']=='deferred')
                 and set(keys)<=set(jobs),'card has no scheduled cells or checked preparation evidence: '+card)
-    require(set(objects['sources']['corpora'])==CORPORA and len(objects['sources']['inherited_checkouts'])==17,
+    require(set(objects['sources']['corpora'])==(set(tranche['source_corpora']) if tranche else CORPORA)
+            and len(objects['sources']['inherited_checkouts'])==17,
             'source readiness inventory is incomplete')
     from runners.stage9.packet_review import policy as packet_policy
     require(set(packet_policy(plan)['inherited_checkouts'])==set(objects['sources']['inherited_checkouts']),
             'final packet checkout roster differs from the reviewed launch sources')
     for name,row in objects['sources']['corpora'].items():
         require(row.get('status') in ('usable','blocked','unready') and bool(row.get('basis')),'source readiness has no scoped disposition')
+        if tranche:
+            require(row['status']=='usable','selected corpus is blocked or unready')
         if row['status']=='usable':
             loader=checked(row['loader']);baseline=checked(row['baseline'])
             require(loader and baseline and row.get('grouping') and row.get('rights_basis'),'usable corpus lacks real loader/baseline/grouping/rights evidence')
@@ -242,11 +256,18 @@ def validate(plan,evidence):
             'both actual positive and negative instrument fixtures are required')
     require(set(fixtures['attacks'])=={f'X{i:02d}' for i in range(1,13)},'shared attacks are not fully enumerated')
     for name,row in fixtures['attacks'].items():
+        if tranche and row.get('status')=='inapplicable':
+            shared={'X01','X02','X05','X06','X11','X12'} | ({'X07'} if tranche['package_kinds'] else set())
+            require(name not in shared,'selected-task leakage, support, grouping or recovery control cannot be deferred')
+            require(not coverage['attacks'][name]['jobs'] and row.get('reason')==coverage['attacks'][name]['not_applicable_reason'],
+                    'an applicable shared attack cannot be deferred')
+            continue
         require(row.get('null_expected') and row.get('alternative_expected') and row.get('executed_receipts'),
                 'attack lacks known-response execution: '+name)
         for pointer in row['executed_receipts']:checked(pointer)
     packages=objects['packages']
-    require(set(packages['families'])=={'qwen','smollm'},'both pinned reader families are required')
+    require(set(packages['families'])==(set(tranche['package_kinds']) if tranche else {'qwen','smollm'}),
+            'all selected pinned reader families are required')
     for family,row in packages['families'].items():
         from runners.stage9.train import BASES
         require(row.get('base')==BASES[family],'reader base revision differs from the commissioned package')
@@ -255,7 +276,8 @@ def validate(plan,evidence):
         require(row.get('precision')=='float16' and row.get('maximum_context')==4096 and row.get('maximum_support')==128,
                 'reader exceeds the actual calibrated pilot envelope')
         calibration=checked(row['calibration'])
-        require(calibration and row.get('historical_adapter') and row.get('proposed_fit_jobs'),
+        require(calibration and row.get('historical_adapter') and
+                (row.get('package_kinds')==tranche['package_kinds'][family] if tranche else row.get('proposed_fit_jobs')),
                 'reader lacks calibrated and historical/proposed package identities')
     split=objects['splits'];seen={};counts={}
     require(split.get('assignments') and split.get('cross_source_checks') and split.get('reserve_truth_opened') is False,
@@ -266,7 +288,8 @@ def validate(plan,evidence):
             require(key not in seen or seen[key]==role,'source lineage/content crosses split roles')
             seen[key]=role
         counts[role]=counts.get(role,0)+1
-    require(all(counts.get(role,0)>0 for role in ('training','pilot','development','discovery','reserve')),
+    require(all(counts.get(role,0)>0 for role in (tranche['required_split_roles'] if tranche else
+                                                ('training','pilot','development','discovery','reserve'))),
             'required construction partitions are empty')
     wake=objects['wake']
     require(wake.get('probe_id')=='S9-WAKE-20260906-01' and wake.get('delivered') is True
@@ -279,7 +302,30 @@ def validate(plan,evidence):
     require(required_checks<=set(interruption.get('checks',{})) and
             all(interruption['checks'][k] is True for k in required_checks) and interruption['preserved_completed_units']>0,
             'actual interruption/restart evidence is incomplete')
-    rehearsal=objects['dress_rehearsal'];rehearsal_plan=checked(rehearsal['plan'])
+    if tranche:
+        from .tranche import compatibility
+        compatibility(checked(interruption['source']),plan['sources'],interruption['compatibility'])
+    if tranche:
+        from .tranche import rehearsal as verify_tranche_rehearsal
+        verify_tranche_rehearsal(plan,objects['dress_rehearsal'])
+    else:
+        verify_rehearsal(plan,objects['dress_rehearsal'])
+    campaign=read(ROOT/'CAMPAIGN.json')
+    require(plan['campaign_start']==campaign['started_epoch'] and plan['horizon_epoch']==campaign['horizon_epoch'],
+            'scientific lock resets the preparation clock')
+    verify_forecast(objects['forecast'],plan)
+    result={'manifest_sha256':digest(plan),'checked_evidence':evidence,'jobs':len(jobs),'cards':42,
+            'scientific_claim':'none from launch mechanics'}
+    if tranche:
+        result.update(acceptance_scope='tranche',execution_scope_sha256=digest(tranche),
+                      permitted_claims=tranche['permitted_claims'],full_stage_accepted=False)
+    return result
+
+
+def verify_rehearsal(plan,rehearsal):
+    from .queue import verify_committed
+    jobs={j['id']:j for j in plan['jobs']}
+    rehearsal_plan=checked(rehearsal['plan'])
     require(rehearsal_plan['kind']=='prelaunch_rehearsal' and rehearsal_plan['sources']==plan['sources'],
             'dress rehearsal did not execute final scientific source closure')
     require(set(rehearsal['job_mapping'])==set(jobs),'dress rehearsal omits scheduled cells')
@@ -292,12 +338,6 @@ def validate(plan,evidence):
                 'dress rehearsal substituted a different handler operation or model family')
         require(terminal['jobs'][other]['status']=='COMPLETE','actual handler did not complete its dress rehearsal')
         verify_committed(queue_root,rehearsal_jobs[other],rehearsal_plan,digest(rehearsal_plan))
-    campaign=read(ROOT/'CAMPAIGN.json')
-    require(plan['campaign_start']==campaign['started_epoch'] and plan['horizon_epoch']==campaign['horizon_epoch'],
-            'scientific lock resets the preparation clock')
-    verify_forecast(objects['forecast'],plan)
-    return {'manifest_sha256':digest(plan),'checked_evidence':evidence,'jobs':len(jobs),'cards':42,
-            'scientific_claim':'none from launch mechanics'}
 
 
 def certify(manifest,evidence):
@@ -312,4 +352,6 @@ def verify_certificate(plan,certificate):
             and certificate.get('manifest_sha256')==digest(plan),'nonvacuous launch certificate missing or mismatched')
     result=validate(plan,certificate.get('checked_evidence',{}))
     require(result['jobs']==certificate.get('jobs') and certificate.get('cards')==42,'launch workload changed')
+    for key in ('acceptance_scope','execution_scope_sha256','permitted_claims','full_stage_accepted'):
+        require(result.get(key)==certificate.get(key),'launch acceptance scope or claims changed')
     return True

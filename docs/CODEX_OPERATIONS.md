@@ -346,3 +346,8 @@ landing were reconciled before acknowledgement; no job was restarted. This verif
 post-restoration idle-owner delivery, without claiming prompt delivery of every event
 or physical absence of visible flashes. Receipt:
 `results/phase_2_4_stage_9/pilot/OWNER_IDLE_DELIVERY_OBSERVED_20260907.json`.
+
+
+## Extension replacement during Stage 9 recovery, 2026-09-10
+
+The existing watcher remained alive after its configured extension-version executable was removed by an update. Delivery failed with FileNotFoundError. The ignored local executable path was refreshed to the installed Codex CLI 0.153.4 after checking its version and queue help. The same watcher reloaded the configuration and queued the actual launch receipt successfully; no restart, source edit, policy change or scientific-worker interruption was needed. The actual launch wake subsequently reached the operating conversation after its final response. Its unchanged bytes and prior landing were reconciled before re-acknowledgement on September 10 at 15:14 UTC inspection. This proves observed post-repair conversation delivery; no native delivery-hook row was recorded for this already-acknowledged event, so native hook evidence is not inferred. Private repair/transport evidence is under `.agent-state/recovery-wake-launcher/`. When this error recurs, check that the configured binary still exists before retrying or restarting services.

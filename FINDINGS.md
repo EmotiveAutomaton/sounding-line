@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-10.**
+**Last updated: 2026-09-11.**
 
 ---
 
@@ -51,6 +51,10 @@ interpretability at once, and the same word means different things in each.
 ---
 
 ## Where we are, in one paragraph
+
+**Selected execution closed with failed final integrity, 2026-09-11.** All selected experiments finished and are internally documented, but the final audit failed twice. Its first failure came from thermal-response metadata changing a pinned allocation record; exact launch allocation bytes were restored without changing Gear 2, GPU availability or CPU limits. The one retry then failed while inspecting a historical native process identity. Under the stage repair rule, the audit consumer branch is closed and the packet is explicitly NOT RUN WITH REASON. The queue is terminal: 26 complete, one failed and one not run. Both failed attempts remain retained and charged. No successful final integrity, accepted scientific packet or full-stage completion is claimed. Further closure repair needs a separately authorized scope.
+
+**2026-09-10 current state.** The adopted 28-job Stage 9 selection is running in Gear 2 under the retained cooler CPU setting. All four supplied-information package cells and their checks are internally landed in L373-L376; The complete ArgRewrite comparison is internally landed in L377. All selected experiments are finished; the final selected integrity audit is running. The original wider matrix remains deferred. Final selected integrity and the single scoped curator packet remain outstanding; the original compute ceiling and horizon are unchanged.
 
 **2026-09-06 current state.** Stage 8 is closed and the final scientific write-through is
 complete in L371/L372 and the [corrected final packet](results/maintenance_20260906/STAGE8_CURATOR_PACKET_CORRECTED.md).
@@ -16999,6 +17003,354 @@ The real development baseline trains on 3,470 opportunities and predicts 723 of 
 
 **Curator roll-up.** Theory group: measurement infrastructure. Question: does one failure cancel independent authorized work? Class: **Infrastructure**. Result: the executed branch rehearsal retains failures and completes independent work. Project meaning: source-specific failures can now remain local while the finite stage closes honestly. Next engineering obligation: finish scientific recovery/launch validation and the complete manually reviewed workload rehearsal. Public claim: unchanged. Curator decision required: No. Detail: `results/phase_2_4_stage_9/pilot/QUEUE_BRANCH_REHEARSAL.json`, private `queue-branch-rehearsal-1`, and `runners/stage9/queue.py` / `queue_branch_fixture.py`.
 
+
+## L373 · Executing the complete supplied program outpredicts the first direct reader
+
+**Hypothesis.** Explicit execution predicts the next action better than a direct neural reader even when both receive the complete operative program and current state. Removing the program code is a separate information ablation.
+
+**METHOD.** Ran the frozen Qwen2.5-1.5B-Instruct base package on all 192 discovery maker-series assignments, balanced across constructed essay and workshop-document worlds. For each prospective target, compared direct reading of the complete executable law and numeric state with restricted execution of that same law/state, direct reading with the code omitted, and a uniform distribution over the complete offered action set including stopping. The executed program independently agrees with the constructor consequences. Analysis groups identical operative questions before paired resampling; this sample has 192 distinct questions. The saved profile uses 4,000 paired cluster bootstrap draws with the fixed seed 9011. No new model call, fitting or reserve opening occurs during this inspection.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** Explicit execution outpredicts the direct reader in both constructed domains. The direct reader remains below the uniform floor. Adding the operative code to the direct prompt has an interval spanning zero; this comparison does not demonstrate a benefit from that addition. These are completed-package descriptive observations, not acceptance of the unfinished four-package comparison.
+
+The table reports mean paired differences in natural-log predictive score, measured in nats; positive values favor the first named arm. Brackets are pointwise 95% bootstrap intervals, not multiplicity-adjusted confirmation intervals. Each domain contains 96 assigned and distinct operative questions; the pooled row contains all 192. No assigned unit or invalid component was excluded.
+
+| Constructed source group | Explicit execution minus direct full-information reading | Direct full-information reading minus code-omitted reading | Direct full-information reading minus uniform floor |
+|---|---:|---:|---:|
+| Both domains | +1.451 [1.219, 1.698] | +0.049 [-0.111, 0.211] | -0.940 [-1.220, -0.687] |
+| Essay | +1.329 [1.043, 1.662] | +0.120 [-0.109, 0.353] | -0.821 [-1.193, -0.499] |
+| Workshop document | +1.572 [1.225, 1.932] | -0.021 [-0.235, 0.202] | -1.059 [-1.452, -0.694] |
+
+**Producer and analysis integrity.** The original committed producer reconstructs all 192 units and 576 saved calls: 384 neural calls and 192 exact-program calls. Every call is valid and its original copied code, inputs, outputs, access record and successful isolation probe verify. The resident model service accounts for exactly 384 saved requests, with no unmatched accepted request or incomplete model capsule. The completed analysis independently reproduces every saved contrast from its original cases and calls. Original output bytes and all 379 frozen source files remain unchanged. The producer's original handler interval is 4,442.738921 seconds, including the thermal suspension; the calibration consumer takes 9.759394 seconds and analysis 16.916944 seconds. These intervals are not independent GPU charges and the thermal hold is not subtracted.
+
+**Exact-package calibration landing.** The completed consumer binds this target to the already inspected Qwen base calibration and reconstructs its instrument-accepted decision. The existing amended numerical envelope passes; the original 1e-6 calibration failure remains retained. Numerical acceptance does not admit generation or general scientific competence. No calibration fixture or model execution was repeated for this landing.
+
+**Meaning and limits.** For this pinned package, constructed task and option-scoring interface, supplying the complete operative information does not make direct prediction match its explicit execution. The exact program is a privileged consequence benchmark, not a learned reader or ordinary inference from a finished human artifact. This does not identify an internal neural mechanism, establish a pure model-size effect, show recovery of a maker's hidden state, or repair the earlier unmatched-information comparisons retrospectively. The other three package cells and selected final integrity remain outstanding; the permitted four-package claim and final Stage 9 synthesis stay unaccepted. The disposition is DESCRIPTIVE. No new p-value is introduced; the intervals are diagnostic, not confirmation. The operational wake suggests no new research test.
+
+Evidence: original outputs under `private/scientific-neural-operations/supplied-qwen-base`, `private/scientific-calibration-check/supplied-qwen-base` and `private/scientific-operation-analysis/supplied-qwen-base` beneath the Stage 9 result root; saved reconstruction and provenance in `private/recovery-tranche-v1/SUPPLIED_QWEN_BASE_INSPECTION.json`. Event acknowledgements follow the full FINDINGS/theory/TOOLS/TODO/handoff write-through.
+
+**Curator roll-up.** Theory group: operative knowledge and inference. Question: does executing the supplied program improve prediction when direct reading receives the same complete information? Outcome: Strengthens. Result: explicit execution has a positive descriptive advantage on the completed base-package comparison. Project meaning: a bounded execution advantage survives matched operative information in this package, while its wider scope remains unaccepted. Next engineering obligation: land the remaining packages, complete selected final integrity, then present one scoped packet. Public claim: unchanged pending the complete selected comparison and final audit. Curator decision required: No. Detail: L373 and the original profile/inspection above.
+
+## L374 - Supplied code helps the archived reader, but direct prediction remains below the floor
+
+**Hypothesis.** Explicit execution predicts the next action better than the archived neural reader when both receive the complete operative program and current state; adding the code to numeric state separately tests the effect of supplying procedural information.
+
+**METHOD.** Ran the frozen Qwen2.5-1.5B-Instruct package with its existing archived adapter on all 192 discovery maker-series assignments, balanced across constructed essay and workshop-document worlds. Compared direct reading of the complete executable law/state, exact restricted execution of that same law/state, direct reading with the code omitted, and the uniform floor over every offered action including stopping. The executor's consequences agree with the constructor. The profile groups identical operative inputs and uses 4,000 paired cluster bootstrap draws with fixed seed 9011; all 192 questions are distinct. This is the same discovery cohort as L373, not another independent sample to pool with it. The saved-evidence inspection makes no model call, trains no adapter and opens no reserve.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** The archived reader's direct prediction is below the uniform floor in both constructed domains. Explicit execution improves on that direct prediction in both domains. Supplying the operative code substantially improves the direct reader relative to its code-omitted input, but does not bring its full-information prediction to the uniform floor or the executor. This is a descriptive completed-package observation; the other family and selected final integrity remain outstanding.
+
+The table gives mean paired differences in natural-log predictive score, in nats; positive values favor the first named arm. Brackets are pointwise 95% bootstrap intervals, not multiplicity-adjusted confirmation intervals. The pooled row contains all 192 assigned questions and each domain contains 96; no assigned unit or invalid component was excluded.
+
+| Constructed source group | Explicit execution minus direct full-information reading | Direct full-information reading minus code-omitted reading | Direct full-information reading minus uniform floor |
+|---|---:|---:|---:|
+| Both domains | +2.537 [2.117, 2.975] | +3.206 [2.993, 3.409] | -2.027 [-2.472, -1.599] |
+| Essay | +2.304 [1.804, 2.851] | +3.034 [2.762, 3.310] | -1.797 [-2.339, -1.317] |
+| Workshop document | +2.770 [2.126, 3.415] | +3.378 [3.064, 3.657] | -2.257 [-2.918, -1.626] |
+
+**Producer, package and analysis integrity.** The original producer, every saved unit and the complete analysis reconstruct with frozen inputs and sources. All 576 calls are valid: 384 neural and 192 exact-program calls. Their actual copied code, evidence, tasks, outputs and access records match the two original successful isolation probes. The committed capsule roster contains precisely the 576 uniquely referenced capsules; all original copied-source sidecars agree, with no uncached committed capsule. The resident model service accounts for exactly 384 saved requests with no unmatched accepted request or incomplete model capsule. All 379 frozen production files remain unchanged. Package identity binds the original Qwen revision and adapter digest `917683d48ff951447083827e577753ca84e43193e55e849c74636ed8a7e52600`, float16 scoring, full support and the unchanged context limit. The original handler intervals are 3,867.378525 seconds for the producer, 9.376466 for its calibration consumer and 16.260689 for analysis; they remain in their original CPU/GPU reservation accounting. The saved reconstruction takes 100.778394 seconds and launches no experiment.
+
+**Exact-package calibration landing.** The completed consumer reconstructs its accepted numerical decision against the already inspected archived-Qwen calibration and this exact target. The preexisting amended apparatus envelope passes; failure of the original 1e-6 rule remains retained. Numerical calibration does not reverse the archived reader's earlier generation failure or admit general competence. No calibration fixtures were rerun.
+
+**Meaning and limits.** In this archived package, supplying executable code changes the direct predictions usefully relative to removing that code, while explicit execution still supplies better consequences from the same complete information. The ablation cannot identify which internal representation or prompt effect produced its gain. Together with L373, the two Qwen packages provide completed-package diagnostics on shared constructed questions; they are not independent population replications or a causal training-effect estimate. The two SmolLM cells, final selected integrity and permitted four-package claim remain outstanding. No ordinary inference from human artifacts, latent maker-state recovery, pure size effect, generation competence, new recipe, three-seed or confirmation claim is licensed. Disposition: DESCRIPTIVE. No new p-value or research test was introduced.
+
+Evidence: the original producer, calibration consumer and analysis under `private/scientific-neural-operations/supplied-qwen-archive`, `private/scientific-calibration-check/supplied-qwen-archive` and `private/scientific-operation-analysis/supplied-qwen-archive` beneath the Stage 9 result root; complete saved reconstruction in `private/recovery-tranche-v1/SUPPLIED_QWEN_ARCHIVE_INSPECTION.json`. Full internal write-through precedes event acknowledgement.
+
+**Curator roll-up.** Theory group: operative knowledge and inference. Question: can the archived reader use a complete supplied program as effectively as executing it? Outcome: Strengthens. Result: explicit execution retains a descriptive advantage despite a benefit from adding code to the direct prompt. Project meaning: information addition and reliable execution remain distinct in this package. Next engineering obligation: finish the other family, selected final integrity and one scoped packet. Public claim: unchanged pending the complete selected comparison and final audit. Curator decision required: No. Detail: L374 and its original profile/inspection.
+
+## L375 - The second base reader also falls below the uniform floor with the complete program supplied
+
+**Hypothesis.** Explicit execution predicts the next action better than the second family's base neural reader when both receive the same complete operative program and current state. Removing code separately tests information addition.
+
+**METHOD.** Ran the pinned SmolLM2-1.7B-Instruct package without an adapter on all 192 discovery maker-series assignments: 96 constructed essay and 96 workshop-document worlds. Compared direct reading of the full executable law and numeric state, restricted execution of that same law/state, direct reading with code omitted, and a uniform distribution over the entire offered action set including stopping. Executed probabilities independently agree with the constructor. Analysis groups identical operative inputs before paired resampling; all 192 questions are distinct here. The original profile uses 4,000 paired cluster bootstrap draws with fixed seed 9011. These are the same discovery units used for both Qwen packages, not a fresh sample to pool with them. Saved-evidence reconstruction makes no new model calls, fits or reserve openings.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** SmolLM base direct prediction falls below the uniform floor in both constructed domains. Explicit execution improves on it in both domains. Adding the code to numeric state has an interval spanning zero in each domain and pooled, so this comparison does not demonstrate a benefit from that addition. The completed observation is DESCRIPTIVE; archived SmolLM and final selected integrity remain outstanding.
+
+The table gives mean paired differences in natural-log predictive score, measured in nats; positive values favor the first named arm. Brackets are pointwise 95% bootstrap intervals, not multiplicity-adjusted confirmation intervals. There are 192 assigned questions pooled and 96 per domain, with no assigned unit or invalid component excluded.
+
+| Constructed source group | Explicit execution minus direct full-information reading | Direct full-information reading minus code-omitted reading | Direct full-information reading minus uniform floor |
+|---|---:|---:|---:|
+| Both domains | +1.753 [1.460, 2.054] | -0.036 [-0.182, 0.116] | -1.242 [-1.586, -0.897] |
+| Essay | +1.791 [1.396, 2.194] | -0.040 [-0.266, 0.189] | -1.283 [-1.779, -0.830] |
+| Workshop document | +1.715 [1.271, 2.164] | -0.032 [-0.229, 0.167] | -1.202 [-1.707, -0.729] |
+
+**Producer and analysis integrity.** Original committed outputs, all 192 saved units and every diagnostic contrast reconstruct. All 576 calls are valid: 384 neural and 192 exact-program calls. Actual copied code, inputs, outputs and access records match the two original successful isolation probes. All 576 uniquely referenced committed capsules and their original copied-source sidecars agree; no uncached committed capsule is present. The resident model service accounts for exactly 384 saved requests with no unmatched accepted request or incomplete model capsule. Package identity binds revision `31b70e2e869a7173562077fd711b654946d38674`, no adapter, float16 scoring and unchanged support/context limits. All 379 frozen source files remain intact. Original handler intervals are 1,737.963521 seconds for the producer, 9.932206 for the calibration consumer and 16.666453 for analysis, retained in their original CPU/GPU reservation accounting. Saved reconstruction takes 107.461663 seconds; it starts no experiment.
+
+**Exact-package calibration landing.** The consumer reconstructs its instrument-accepted decision against the already inspected SmolLM base calibration and this exact target. The existing amended apparatus envelope passes; the original 1e-6 failure remains retained. Numerical acceptance is not generation or general competence admission. No calibration fixture was rerun.
+
+**Meaning and limits.** The bounded execution advantage is also observed in the other family's base interface when complete operative information is supplied. The code-omission comparison does not identify a gain for this package, and neither contrast identifies a neural mechanism. Three completed packages now supply descriptive evidence on shared constructed questions, not three independent population samples. Archived SmolLM and the selected final ledger still gate the complete comparison. No ordinary artifact inference, hidden maker-state recovery, model-size effect, causal training effect, generation competence, new recipe, three-seed or confirmation claim is licensed. No p-value or new research test is introduced.
+
+Evidence: original `private/scientific-neural-operations/supplied-smollm-base`, `private/scientific-calibration-check/supplied-smollm-base` and `private/scientific-operation-analysis/supplied-smollm-base` outputs beneath the Stage 9 result root; `private/recovery-tranche-v1/SUPPLIED_SMOLLM_BASE_INSPECTION.json`. The analysis was discovered complete during this wake and receives the same full internal write-through before acknowledgement.
+
+**Curator roll-up.** Theory group: operative knowledge and inference. Question: does the second base reader convert the complete supplied program into consequences as reliably as execution? Outcome: Strengthens. Result: execution retains a descriptive advantage in the second base family. Project meaning: the bounded gap appears in another pinned reader interface on the same constructed questions. Next engineering obligation: land archived SmolLM, finish selected final integrity and present one scoped packet. Public claim: unchanged pending the complete selected comparison and final audit. Curator decision required: No. Detail: L375 and its original profile/inspection.
+
+## L376 - Code helps the second archived reader, while explicit execution retains its advantage
+
+**Hypothesis.** Explicit execution predicts the next action better than the archived SmolLM reader when both receive the same complete operative program and current state. Removing code separately tests the contribution of that information.
+
+**METHOD.** Ran the pinned SmolLM2-1.7B-Instruct package with its existing archived adapter on all 192 discovery maker-series assignments: 96 constructed essay and 96 workshop-document worlds. Compared direct reading of the full executable law and numeric state, restricted execution of the same law/state, code-omitted reading and the uniform distribution over the entire action set including stopping. The executed probabilities agree independently with the constructor. Analysis groups identical operative inputs before paired resampling; all 192 questions are distinct here. The original analysis uses 4,000 paired cluster bootstrap draws with fixed seed 9011. These are the same questions used for the other three packages, not additional population samples. Saved-evidence reconstruction invokes no model, fit or reserve opening.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** Explicit execution improves on archived SmolLM direct prediction in both constructed domains. Adding code helps relative to omitting it in both domains, but direct prediction remains below the uniform floor when pooled and within workshop documents. The essay-only floor contrast spans zero: it establishes neither an advantage nor a deficit there. All contrasts remain DESCRIPTIVE pending the selected final integrity check.
+
+The table gives mean paired differences in natural-log predictive score, measured in nats; positive values favor the first named arm. Brackets are pointwise 95% bootstrap intervals, not multiplicity-adjusted confirmation intervals. There are 192 assigned questions pooled and 96 per domain, with no assigned unit or invalid component excluded.
+
+| Constructed source group | Explicit execution minus direct full-information reading | Direct full-information reading minus code-omitted reading | Direct full-information reading minus uniform floor |
+|---|---:|---:|---:|
+| Both domains | +0.983 [0.687, 1.299] | +0.415 [0.262, 0.566] | -0.473 [-0.827, -0.141] |
+| Essay | +0.862 [0.503, 1.281] | +0.374 [0.123, 0.597] | -0.355 [-0.840, 0.061] |
+| Workshop document | +1.104 [0.655, 1.581] | +0.457 [0.256, 0.651] | -0.591 [-1.113, -0.115] |
+
+**Producer and analysis integrity.** Original committed outputs, all 192 saved units and every diagnostic contrast reconstruct. All 576 calls are valid: 384 neural and 192 exact-program calls. The 576 unique committed capsules, their original copied-source sidecars, actual inputs/outputs and access records match the two original successful isolation probes; no uncached committed capsule is present. The resident service reconciles exactly 384 saved requests with no unmatched accepted request or incomplete model capsule. The package binds revision `31b70e2e869a7173562077fd711b654946d38674`, archived adapter `ea6fc35d1f32cfca11f485e67604d755f2a4bb0d95183bb9dea799456609bc94`, float16 scoring and unchanged support/context limits. All 379 frozen source files remain intact. Original handler intervals are 2,105.994952 seconds for the producer, 12.099334 for the calibration consumer and 19.657377 for analysis. Saved reconstruction takes 107.176526 seconds and starts no experiment.
+
+**Exact-package calibration landing.** The consumer reproduces its instrument-accepted decision against the previously inspected archived-SmolLM calibration and this exact target. The existing amended apparatus envelope passes; the original 1e-6 failure remains recorded. This numerical check does not establish generation competence or general admission. No calibration fixture was rerun.
+
+**Meaning and limits.** All four selected packages now show a descriptive execution advantage over direct reading of the complete supplied program and state. Both archived packages benefit from code relative to omission, without demonstrating reliable parity with execution. The complete selection retains domain differences, including the unresolved archived-SmolLM essay floor contrast. These are privileged-input observations in constructed worlds on shared questions, not independent human samples or a causal test of training, size or internal mechanism. No ordinary artifact inference, hidden maker-state recovery, generation competence, new recipe, three-seed or confirmation claim follows. The final selected ledger still gates acceptance. No p-value or new research test is introduced.
+
+Evidence: original `private/scientific-neural-operations/supplied-smollm-archive`, `private/scientific-calibration-check/supplied-smollm-archive` and `private/scientific-operation-analysis/supplied-smollm-archive` outputs beneath the Stage 9 result root; `private/recovery-tranche-v1/SUPPLIED_SMOLLM_ARCHIVE_INSPECTION.json`. The completed analysis was discovered during this wake and receives the same full internal write-through before acknowledgement.
+
+**Curator roll-up.** Theory group: operative knowledge and inference. Question: does the second archived reader use the supplied program as reliably as execution? Outcome: Strengthens. Result: explicit execution retains its descriptive advantage across all selected packages. Project meaning: information addition helps the archived interfaces without eliminating their consequence-prediction gap. Next engineering obligation: complete ArgRewrite and selected final integrity, then present one scoped packet. Public claim: unchanged pending the final audit. Curator decision required: No. Detail: L376 and the original profile/inspection.
+
+## L377 - Lexical features add little to retrospective revision labels and no resolved advantage to the next-cycle forecast
+
+**Hypothesis.** A fitted lexical model improves agreement with recorded revision-purpose annotations beyond a cheap comparator selected on separate development essays, and access to earlier versions and annotations improves the forecast of later revision purposes.
+
+**METHOD.** Used the original ArgRewrite allocation of 86 historically exposed student/essay lineages: 48 for fitting, 16 for comparator selection and 22 for evaluation. All nine canonical annotation classes remain in every probability distribution. The fitted logistic models retain equal lineage training mass, fractional annotation votes, fixed regularization and the original uniform probability mixture. Lexical features add word frequencies to the declared size/change features; their pre-existing extractor reads at most the first 1,024 words per supplied text side. These are fitted feature models, not neural language-model readers. The cheap pool contains the nonlexical feature model, training class prior and majority predictor, plus the earlier-cycle label predictor where that information is permitted. Selection uses the highest equal-lineage mean development log score, with the original fixed tie rule. Every rival remains recorded.
+
+Retrospective evaluation uses 776 usable annotated revisions in 22 lineages. Its three views contain the annotated new span, the old/new pair, or that pair plus available earlier-cycle annotations. The last view supplies annotation assistance; the first is a known revision span, not unrestricted reading of an entire finished essay. Future evaluation uses one forecast from the complete earlier draft per eligible lineage, evaluated against all 297 canonical next-cycle annotations across 18 lineages. The record view supplies both earlier drafts and earlier-cycle annotations. Future labels select no current excerpt, and spreadsheet order establishes no within-cycle chronology. Original exclusions remain visible: 42 compound-purpose retrospective units and 11 lineages with unverifiable raw/annotated draft correspondence for the future task, across the full corpus. No new record was excluded during selection or analysis.
+
+**Complete-cell finding, retained internally pending the final scoped packet.** Lexical features provide small retrospective improvements over the selected nonlexical comparator in each view. They do not establish an improvement over the selected cheap comparator for either future view. Providing the earlier record worsens the future forecast relative to the earlier draft alone. Retrospective access to the pair has an unresolved advantage over the new span alone; adding earlier annotations to the pair gives a small positive contrast. All eight contrasts remain DESCRIPTIVE, with selected final integrity still pending.
+
+The table reports mean paired differences in natural-log predictive score, in nats; positive values favor the first named model/view. Each essay lineage has equal weight after averaging its records, and each future record averages all its target annotations. Brackets are pointwise 95% paired cluster percentile bootstrap intervals from the original 4,000 draws, seed 902109. They are not multiplicity-adjusted confirmation intervals. The retrospective rows share one population, as do the future rows; they are not independent replications.
+
+| Task and comparison | Records / independent lineages | Difference [interval] |
+|---|---:|---:|
+| Future: lexical draft model minus nonlexical draft model | 18 / 18 | +0.000057 [-0.000030, +0.000142] |
+| Future: lexical record model minus training class prior | 18 / 18 | -0.040362 [-0.105891, +0.026381] |
+| Future: lexical record model minus lexical draft model | 18 / 18 | -0.073207 [-0.131926, -0.017513] |
+| Retrospective: lexical new-span model minus nonlexical new-span model | 776 / 22 | +0.007109 [+0.002202, +0.012637] |
+| Retrospective: lexical pair model minus nonlexical pair model | 776 / 22 | +0.006637 [+0.001019, +0.012619] |
+| Retrospective: lexical record model minus nonlexical record model | 776 / 22 | +0.007951 [+0.002385, +0.013817] |
+| Retrospective: lexical pair model minus lexical new-span model | 776 / 22 | +0.056220 [-0.174834, +0.269762] |
+| Retrospective: lexical record model minus lexical pair model | 776 / 22 | +0.010375 [+0.002631, +0.018513] |
+
+Target support is retained in the following table. Retrospective counts are canonical revision annotations; future counts are annotations averaged within the one forecast for each lineage, not independent forecasts.
+
+| Canonical purpose annotation | Retrospective | Future |
+|---|---:|---:|
+| Claim | 41 | 6 |
+| Evidence | 56 | 17 |
+| General content | 162 | 48 |
+| Grammar/spelling | 73 | 21 |
+| Organization | 19 | 4 |
+| Precision | 17 | 6 |
+| Reasoning | 120 | 58 |
+| Rebuttal | 7 | 2 |
+| Word usage | 281 | 135 |
+
+**Integrity and controls.** All six original ArgRewrite queue commits and the final output closure verify. Separate completed inspections reconstructed every development and evaluation prediction/unit and all 1,556 and 2,364 committed capsules and source sidecars, respectively, with zero invalid or uncached committed calls. This analysis inspection reuses those full inspections only after checking unchanged original completion hashes and canonical prediction digests. Original development selection and all eight saved evaluation contrasts reproduce exactly in 2.135498 seconds; no new reader, refit, capsule execution or reserve opening occurs. Original final analysis consumed 1,425.976582 wall seconds and 1,348.421875 parent CPU seconds. All 379 frozen sources remain intact, and development/evaluation lineages remain disjoint. Prior fit inspection established original training input and parameter identities, not an independent numerical refit. The actual final selected ledger remains outstanding.
+
+**Meaning and limits.** The result supports a small lexical increment for retrospective annotation agreement under the declared feature representation. It does not support using this record-based model to forecast future purposes beyond its cheap rival, nor show that more supplied history necessarily improves a bounded model. Annotation agreement does not identify a maker's governing intention, the timescale of a goal, or reuse of expertise under a changed purpose. Historical exposure prevents new confirmation despite disjoint current fitting/development/evaluation groups. This task differs from the earlier candidate-set purpose-recovery batteries and does not reverse their results. Strong cheap features, limited lexical representation, annotation composition and source specificity remain live explanations. No claim about human intent, values, general reader capacity or full Stage 9 completion follows. No p-value or new test is introduced.
+
+Evidence: original `private/scientific-revision-analysis/argrewrite-v1/main/evaluate` profile and completion, original case/fit/development/evaluation/selection commits, and `private/recovery-tranche-v1/ARGREWRITE_COMPARISON_INSPECTION.json` beneath the Stage 9 result root. The prerequisite and prediction inspections are documented in OPS-S9-RECOVERY-1.
+
+**Curator roll-up.** Theory group: decision traces and controlled revision. Question: do lexical features and earlier records improve revision-purpose prediction beyond cheap alternatives? Outcome: Narrows. Result: the lexical increment is retrospective, with no resolved advantage over cheap rivals for future purposes. Project meaning: record access and annotation recovery need task-specific validation before they support claims about continuing intentions. Next engineering obligation: finish selected integrity and the single scoped packet. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L377 and the original comparison profile.
+
+## OPS-S9-RECOVERY-1: A complete selected branch can pass without completing unrelated branches
+
+Hypothesis: explicit local acceptance can release a scientifically bounded subset without weakening its controls or silently claiming the full stage.
+
+METHOD: implemented an opt-in adopted scope in the existing launch, coverage and packet paths, then ran constructed acceptance/refusal cases and the directly affected existing queue, provenance, calibration, human-source and reporting guards. Scientific jobs were not executed.
+
+All 391 checks across 15 test files pass, including 20 new scope checks; all 21 locks and the design lint pass. The positive fixture accepts an unchanged selected branch while preserving the unrelated branch as deferred. Negative fixtures refuse missing leakage controls, source identity, prerequisites, recovery evidence, reserve protection, preparation obligations, changed sample settings, omitted deferrals, over-cap/horizon schedules, clock resets, invented overlap, partial recipe selection and full-stage/unsupported packet claims. The existing writer refuses a competing handle and preserves completed bytes. Constructed receipt fixtures validate the acceptance code; they are not actual scientific rehearsal, resource or source-admission evidence.
+
+The new path binds the adopted scope and permitted claims in the certificate, preserves the original job settings and successful prerequisites, and keeps all excluded jobs/cards visible. The scheduler is unchanged. The original full-stage path remains strict. Selected final reporting still refuses unresolved capsule/service provenance and a claim relying on a failed selected calibration. No scientific result, training fit or confirmation is accepted by these checks.
+
+The curator adopted the execution recovery addendum. The initial candidate selects 28 original jobs and defers 658 declarations, including all new neural training and confirmation. Source/recovery compatibility and actual per-job costs still need their selected evidence binding before launch. The original clock and 92 GPU-hour cap remain; recovery has a two-hour scope limit and four further active hours for integration. Routine preparation checks now update existing records rather than create new research obligations. Initial theory reading and previously implemented errata remain complete.
+
+Evidence: `results/phase_2_4_stage_9/pilot/EXECUTION_RECOVERY_VALIDATION.json`, the adopted addendum in `docs/design/`, and the existing scheduling decision table. Source: 379 files, `579e03ddcc8def8e80104ed2befac838e845372288a75042092c2ab20d2c98b2`.
+
+Curator roll-up: theory group: research instruments; question: can useful complete comparisons run without waiting for unrelated branches? Outcome: Infrastructure. Result: the scoped acceptance path passes 391 affected checks. Project meaning: bounded launch is implementable without full-stage claims. Next engineering obligation: bind selected evidence and costs, then launch or report the concrete blocker within the recovery limit. Public claim: unchanged. Curator decision required: No. Detail: the validation receipt and scheduling decision table.
+
+
+The discovery-only integration now permits an explicitly empty confirmation-calculation list only after validating the adopted scope. All existing selected semantic, raw-source, capsule, service and final coverage audits still execute. METHOD: ran the affected tranche, ledger and packet checks, including a discovery-only closure and refusal of a confirmation claim. All 79 pass. The first invocation had 42 temporary-directory setup errors and 37 passing cases; its XML is retained, and the corrected invocation supplies the 79-case evidence. No validator assertion failed. This corrects a prelaunch integration assumption, not scientific behavior or criteria. Evidence: `results/phase_2_4_stage_9/pilot/EXECUTION_RECOVERY_CLOSURE_VALIDATION.json`.
+
+
+The selected scientific queue launched on September 10 at 14:47 UTC in Gear 2, within the recovery work limit. METHOD: bound the unchanged selected commands to existing original commits, reviewed source/operation compatibility, actual package and split records, complete control declarations, real kill/resume and delivered-owner evidence; then validated the finite manifest and observed its native queue owner and first actual jobs. All nine launch evidence categories pass. There are 28 selected jobs, 658 deferred declarations and all 42 card dispositions. No full-stage acceptance or confirmation is inferred.
+
+The following table records the completed setup outputs in that actual scientific queue. ?Denied probes? counts prohibited access attempts verified by each original isolation fixture; construction counts include every attempted series, including failed realization.
+
+| Completed output | Observed behavior | Meaning |
+|---|---|---|
+| Reader isolation | 10 denied probes, original outputs/commit verify | Permitted reader boundary verified for this source |
+| Revision isolation | 10 denied probes, original outputs/commit verify | Permitted revision boundary verified for this source |
+| Kernel isolation | 10 denied probes, original outputs/commit verify | Permitted supplied-program boundary verified for this source |
+| Discovery construction | All 192 requested series from 198 attempts, 1,536 source worlds, complete cohorts and original realization gate accepted | Construction only; no held-out reader predictions scored |
+
+The first actual Qwen base-package calibration was running at the recorded inspection. The source and native owner verify; there was no stale compute owner. The initial launch inspector used relative Windows path names in an output-map comparison; corrected repository-absolute comparison verifies every byte and commit. Its original inspection error remains private; no source or output changed.
+
+The deliberately conservative schedule reserves approximately 14 serial hours, including closure, and nine GPU hours for the selection. Preparation admission reserves 40 GPU hours, including every recorded queue/standalone CPU interval plus an explicit allowance for unmeasured and remaining preparation. This is a conservative planning reservation, not complete measured GPU accounting. The original 92-hour GPU cap and September 11, 17:07 UTC horizon remain. Selected final integrity, all observed failures and one final scoped curator packet remain owed; unselected training, additional corpora and confirmation remain deferred. Source is frozen under the actual manifest; no code changes beneath this queue.
+
+Curator roll-up: theory group: research instruments; question: can a smaller complete comparison start without waiting for the entire commissioned matrix? Outcome: Infrastructure. Result: the selected 28-job queue is running. Project meaning: setup has released actual processing within the original allowance. Next engineering obligation: land completed selected cells internally, retain failures, and assemble the scoped final packet after final integrity. Public claim: unchanged pending complete scientific results. Curator decision required: No. Detail: `results/phase_2_4_stage_9/EXECUTION_RECOVERY_LAUNCH.json` and the adopted scheduling table.
+
+
+During live launch monitoring, the unchanged watcher first failed four already-landed notifications with FileNotFoundError: its configured Codex binary belonged to an extension version removed by an update. The installed replacement reports Codex CLI 0.153.4 and the same queue command. Only the ignored local executable path changed; the existing native watcher reloaded it and queued the actual launch receipt successfully to the same owner. Queue acceptance was verified first. The actual launch notice subsequently reached this operating conversation after its final response, and its recorded content digest, certificate, canonical manifest identity, frozen sources and original setup produces all reconcile at the September 10, 15:14 UTC inspection. Actual delivery is now verified from the received message; no native delivery-hook row exists for this previously acknowledged event, so no such row is inferred. The first read-only inspection mistakenly compared a raw file hash with the canonical manifest digest; the established digest convention resolves the check without changing any artifact. The inspection correction and original acknowledgement are retained in the private delivery record. No scientific source, manifest, worker, policy or model changed. The four completed produces and launch receipt were written through before acknowledgement. This is routine operational recovery under the adopted addendum, not a new research obligation.
+
+
+The first actual selected package calibration, Qwen base, is complete and internally landed. METHOD: reconstructed its original discarded fixtures, pinned model/scorer identity, all three precision/batch variants, all 33 saved calls and original decision through the current read-only final-audit path. Every original output remains unchanged; no reader call or reserve opening was added. It passes the existing amended apparatus envelope and retains failure of the original 1e-6 judgment. This is instrument acceptance only, not scientific competence or evidence for the supplied-information hypothesis. Its whole handler interval was 671.378090 seconds; all attempt costs remain in the queue. Its delayed operational notice was actually delivered after the owner final response and reconciled on September 10 at 15:19 UTC: the original completed bytes, committed output inventory, saved reconstruction and full internal landing remain unchanged. No rerun or new scientific inference was needed; acknowledgement follows that reconciliation. The next archived Qwen package calibration is running, with no failed or paused jobs at inspection. Detail: `private/recovery-tranche-v1/FIRST_CALIBRATION_INSPECTION.json` beneath the Stage 9 result root. Public scientific claims remain unchanged; no curator decision is needed.
+
+The archived Qwen package also passes its existing instrument envelope. Its delayed operational notice was reconciled at 2026-09-10T15:22:01.748227+00:00: original completed bytes, committed inventory, saved reconstruction and prior full internal landing are unchanged; no rerun or new inference. The separate completion-alert service records a timed-out POST with delivery failed or unknown; that uncertainty is retained without blind resend. The durable queue-wake channel and live scientific queue remain operational. METHOD: used the same read-only final-audit path to reconstruct the original discarded fixture inputs, package/adapter/scorer identity, every saved call, precision comparison, original output inventory and committed producer. No new model call or reserve opening occurred.
+
+This table records the completed archived-package calibration. Variants are original precision/batch configurations; saved calls are original instrument fixtures; wall time is the whole original handler interval, not new audit time.
+
+| Calibration | Variants / saved calls reconstructed | Original wall seconds | Original decisions |
+|---|---|---|---|
+| Qwen archived package | 3 / 33 | 770.713095 | Existing amended apparatus envelope passes; original 1e-6 precision rule fails and is retained |
+
+This is instrument acceptance only. It does not admit scientific competence, supply a result for the selected comparison, or complete final integrity. Both Qwen packages are now internally landed; SmolLM base calibration is running. Native queue owner, wrapper, fresh heartbeat and all frozen sources verify, with six completed jobs, one running and 21 pending, no failures or pauses. Evidence: `private/recovery-tranche-v1/ARCHIVE_QWEN_CALIBRATION_INSPECTION.json` beneath the Stage 9 result root; actual repaired delivery and current liveness are in `.agent-state/recovery-wake-launcher/DELIVERY_INSPECTION.json`. No new research tests were harvested from the operational wake.
+
+Curator roll-up: theory group: research instruments; question: does the archived package retain the declared numerical behavior on discarded known-answer fixtures? Outcome: Infrastructure. Result: all 33 original saved calls reconstruct with the existing instrument decision unchanged. Project meaning: the selected archived-package instrument prerequisite is internally verified. Next engineering obligation: complete the remaining calibrations and selected comparisons, then final integrity and the scoped packet. Public claim: unchanged. Curator decision required: No. Detail: the archived-package inspection receipt.
+
+Hypothesis: the SmolLM base package preserves the declared numerical behavior across the original precision and batch variants on discarded known-answer fixtures. METHOD: reconstructed the completed producer commit, fixed inputs, pinned model/scorer identity, every saved call and capsule output, complete inventory and original precision comparison through the existing read-only final-audit path. No model call, new reserve opening or scientific competence decision was made by this inspection.
+
+This table records the complete SmolLM base instrument result. Variants are original precision/batch configurations; calls are saved fixture executions; wall seconds cover the original handler, not the audit.
+
+| Calibration | Variants / saved calls reconstructed | Original wall seconds | Original decisions |
+|---|---|---|---|
+| SmolLM base package | 3 / 33 | 713.870233 | Existing amended apparatus envelope passes; original 1e-6 precision rule fails and remains retained |
+
+The original output bytes and all frozen production sources verify. This accepts only the numerical instrument prerequisite for the selected package. It supplies no scientific comparison result or full-stage admission. Both Qwen packages and SmolLM base are now internally landed; archived SmolLM calibration is running. The native owner/wrapper and heartbeat verify, with seven jobs complete, one running, twenty pending and no failed or paused scientific jobs. The received event's original completion digest and actual delivery record match. The separate earlier completion-alert timeout remains failed or unknown and was not blindly retried; durable queue transport works. No new research test was harvested. Evidence: `private/recovery-tranche-v1/BASE_SMOLLM_CALIBRATION_INSPECTION.json` beneath the Stage 9 result root.
+
+Curator roll-up: theory group: research instruments; question: does the second family's base package preserve its declared numerical behavior? Outcome: Infrastructure. Result: all 33 original saved calls reconstruct with the instrument decision unchanged. Project meaning: another selected package prerequisite is verified. Next engineering obligation: finish archived SmolLM calibration, then the queued comparisons and final scoped integrity/packet. Public claim: unchanged. Curator decision required: No. Detail: the SmolLM base inspection receipt.
+
+Hypothesis: the archived SmolLM package preserves the declared numerical behavior across the original precision and batch variants on discarded known-answer fixtures. METHOD: reconstructed its original committed producer, fixed inputs, pinned model/adapter/scorer identity, every saved call and capsule output, complete inventory and unchanged precision comparison through the existing read-only final-audit path. This inspection made no model calls or reserve openings.
+
+This table records the complete archived SmolLM instrument result. Variants are original precision/batch configurations; calls are saved fixture executions; wall seconds cover the original handler, not this audit.
+
+| Calibration | Variants / saved calls reconstructed | Original wall seconds | Original decisions |
+|---|---|---|---|
+| SmolLM archived package | 3 / 33 | 785.319094 | Existing amended apparatus envelope passes; original 1e-6 precision rule fails and remains retained |
+
+Original output bytes, the event digest, delivery record and frozen production sources verify. All four selected package calibrations are now internally landed with their original instrument judgments; none supplies a scientific competence verdict. The first Qwen base supplied-information comparison is running on the original discovery sample. Native queue owner, wrapper and heartbeat verify, with eight jobs complete, one running, nineteen pending and no failed or paused scientific jobs. The older separate completion-alert timeout remains uncertain without blind retry; durable queue wakes work. No new research test was harvested. Evidence: `private/recovery-tranche-v1/ARCHIVE_SMOLLM_CALIBRATION_INSPECTION.json` beneath the Stage 9 result root.
+
+Curator roll-up: theory group: research instruments; question: does the second family's archived package preserve its declared numerical behavior? Outcome: Infrastructure. Result: all 33 saved calls reconstruct with the instrument decision unchanged. Project meaning: selected package calibration is fully inspected and processing has advanced to comparisons. Next engineering obligation: land complete selected comparison cells internally, retain controls/failures, then final integrity and the scoped packet. Public claim: unchanged. Curator decision required: No. Detail: the archived SmolLM inspection receipt.
+
+Hypothesis: reducing CPU boost and maximum processor state can keep the resumed Gear 2 workload comfortably below the CPU's operating-temperature limit. The curator reported Wristwork readings of CPU100C/GPU65C and explicitly delegated the throttling judgment. METHOD: inspected the native queue tree and device telemetry, suspended only its seven owned processes while identifying the sensor, then disabled CPU boost and changed the active Windows AC maximum processor state from 100% to 90%. Original settings were retained; DC settings and GPU power limit were unchanged. After cooling below85C, resumed the same processes and sampled Wristwork's underlying Core(Tctl/Tdie), package/board sensors and NVIDIA telemetry six times over roughly a minute under the actual running job.
+
+[AMD specifies95C Tjmax for the Ryzen9 7900X](https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html). [Microsoft documents boost-mode0 as disabled](https://learn.microsoft.com/en-us/windows-hardware/customize/power-settings/options-for-perf-state-engine-perfboostmode). NVIDIA's local driver reports a90C maximum operating GPU temperature. The reported100C CPU warning justified throttling;65C GPU did not justify a GPU power reduction. The initial CPU warning is curator-reported, not a retrospective direct measurement. An implausible historical package-sensor maximum was excluded from current-temperature interpretation; current core/package/board readings agreed.
+
+The table compares current readings during the resumed actual job. Ranges are minima and maxima across six point samples, not a guarantee about unobserved temperatures.
+
+| Observation | Range after CPU limit and resume | Meaning |
+|---|---|---|
+| CPU Core(Tctl/Tdie) | 73.8 to 75.4C | Below the selected conservative90C intervention level during observation |
+| GPU core | 59 to 63C | Within reported operating limits; GPU work remains enabled |
+| Queue/worker | Same owned processes; fresh heartbeat and no failed jobs | Original supplied-information job continued; no scientific restart or source change |
+
+The power-plan setting affects this workstation's AC CPU performance generally, rather than changing scientific samples or model settings. It is a processor performance-state limit, not a90% CPU-utilization quota. Keep this cooler configuration during Gear2 and inspect temperatures on operating wakes; do not automatically restore aggressive boost. If a new sustained warning or CPU at/above90C appears, hold the research load and reassess. Initial immediate suspension-status verification raced with OS state propagation; the next inspection confirmed suspension without issuing a second suspend to that process. Exact identities and reversal settings are private. The suspension interval remains inside the queue's original occupied/reserved-wall accounting; no campaign time or cost was subtracted. CPU work may take longer under the new limit; the old conditional timing estimate is not recalculated or guaranteed. No new scientific tests, p-values or theory claims were introduced.
+
+Curator roll-up: theory group: research infrastructure; question: can processing continue after the reported heat warning under a cooler operating setting? Outcome: Infrastructure. Result: resumed CPU samples remained below76C. Project meaning: the current queue continues under the retained CPU limit. Next engineering obligation: preserve the limit, inspect subsequent temperature/queue readings, and land complete scientific cells. Public claim: unchanged. Curator decision required: No. Detail: local thermal hold, power-limit and observation records under `.agent-state/`.
+
+
+### ArgRewrite case preparation and baseline fitting, 2026-09-10
+
+**Hypothesis.** The selected human-revision branch can preserve its original source groups, eligible cases, exclusions and training-only comparator fits before measuring development or evaluation performance.
+
+**METHOD.** Reconstructed the completed case preparation from its original prepared inputs and split contract. Verified both original queue commits, the fit's case/source/cell identity and training-row digest, the complete task/view/model roster and saved parameter inventory. This inspection did not fit another model, invoke a reader or open a reserve. Fitted numerical parameters were not refit here; prediction reconstruction and final integrity remain separate obligations.
+
+The table counts eligible records in the original split; group counts are essay/student lineages, not annotation counts. Both tasks retain all their source-defined eligible annotations.
+
+| Split | Independent source groups | Retrospective records | Future records |
+|---|---:|---:|---:|
+| Training | 48 | 1556 | 44 |
+| Development | 16 | 510 | 13 |
+| Evaluation | 22 | 776 | 18 |
+
+**Finding.** All case payloads, separation metadata and retained exclusions reconstruct. The original exclusions remain 42 retrospective multi-purpose units and 11 future draft-correspondence mismatches. The five fitted task/view combinations retain majority, class-prior, surface and lexical comparators, plus previous-cycle comparison for record views. All nine canonical purpose classes remain supported. These are the original exposed 86 source lineages, with no untouched reserve. No performance judgment follows from a fitted-parameter completion file, and no maker-intention or population claim is licensed. Original queue occupied intervals are 17.145777 seconds for preparation and 104.233444 seconds for fitting; they remain charged. Evidence: `private/recovery-tranche-v1/ARGREWRITE_CASE_FIT_INSPECTION.json` and original scientific revision-case/revision-fit outputs under the Stage 9 result root.
+
+**Curator roll-up.** Theory group: research infrastructure. Question: do the human baseline prerequisites retain their original data and fitting boundary? Outcome: Infrastructure. Result: both completed prerequisite records pass their applicable saved-evidence checks. Project meaning: the intended comparisons can proceed without relabeling exposed data as confirmation. Next engineering obligation: finish and reconstruct development, evaluation, selection and final comparisons, then final integrity. Public claim: unchanged. Curator decision required: No. Detail: this prerequisite record and its private inspection.
+
+### ArgRewrite development prediction execution, 2026-09-10
+
+**Hypothesis.** The completed development forecasts preserve the original cases, training-only fitted parameters, permitted evidence views and full assigned call roster before comparator selection or evaluation claims.
+
+**METHOD.** Reconstructed every saved development prediction and unit using the original case/fit identities and immutable call cache, then checked the actual copied code, task/evidence bytes, outputs and access records against the original revision-reader denial probe. Checked all original queue commits, capsule-source sidecars and the committed capsule roster. No model was refit, no reader was invoked, no reserve was opened and no performance score was calculated by this inspection.
+
+The table counts assigned records, source lineages and their separate evidence views. The development cohort has 16 essay/student lineages overall; the tasks and views reuse those lineages and do not add independent people.
+
+| Development task | Eligible records | Source lineages represented | Evidence views | Saved calls |
+|---|---:|---:|---|---:|
+| Retrospective revision purpose | 510 | 16 | Finished artifact, revision pair, process record | 1530 |
+| Future revision purpose | 13 | 13 | Current artifact, prior process record | 26 |
+
+**Finding.** All 1,556 assigned calls and their saved units reconstruct, with zero invalid calls. Every uniquely referenced committed capsule and original source sidecar verifies, with no uncached committed capsule. Actual recorded access and copied-source identities match the original successful CPython audit-hook probe; this is not an OS-isolation claim. The completed job retains `scored: false` and no scientific admission. Original case exclusions, training-only fitting, all declared comparators and historical corpus exposure remain unchanged. The original handler records 1,577.589310 wall seconds and 868.328125 parent-CPU seconds; queue occupation is 1,608.736770 seconds including its wrapper, retained without subtraction. Saved-evidence inspection takes 960.317298 seconds and launches no experiment.
+
+**Meaning and limits.** The development forecasts are intact and available for their declared comparator-selection step. They do not establish prediction performance, a selection winner, human maker-intention recovery or confirmation. Evaluation predictions, subsequent selection/comparison and selected final integrity remain outstanding. No new hypothesis test, p-value or scientific claim is introduced. Evidence: original `private/scientific-revision-prediction/argrewrite-v1/main/development` outputs and `private/recovery-tranche-v1/ARGREWRITE_DEVELOPMENT_INSPECTION.json` beneath the Stage 9 result root.
+
+**Curator roll-up.** Theory group: research infrastructure. Question: do the completed development forecasts preserve their original inputs and execution evidence? Outcome: Infrastructure. Result: the full assigned development execution reconstructs without a missing or invalid call. Project meaning: the declared selection input is intact, while scientific comparison remains pending. Next engineering obligation: complete evaluation predictions, comparator selection, grouped comparison and final integrity. Public claim: unchanged. Curator decision required: No. Detail: this execution record and its private inspection.
+
+### ArgRewrite comparator selection execution, 2026-09-10
+
+**Hypothesis.** The declared cheap comparator is selected using only the development essays, with every eligible rival retained and evaluation essays kept separate.
+
+**METHOD.** Recomputed the original selection from its unchanged development predictions after verifying the original committed producer and matching the complete prediction digest to the previous full call/unit/capsule reconstruction. Checked the selection's source, fitted-parameter, case and output identities. The rule averages annotation log scores within each essay/student lineage, gives each lineage equal weight, chooses the highest finite development mean and resolves exact ties by the fixed model-name ordering. This inspection reuses the earlier complete development execution review; it does not repeat that review, refit a model or invoke a reader.
+
+Each row below is a development task and evidence view. Values are mean annotation log scores in natural-log units (nats); higher is better. A dash means prior-cycle labels are unavailable by design in that view, not that a losing eligible arm was dropped. Retrospective rows reuse 510 records from 16 lineages; future rows reuse 13 whole-draft forecasts from 13 lineages. These are selection scores, not evaluation results.
+
+| Task and evidence view | Surface features | Class frequencies | Majority rule | Prior-cycle labels | Selected comparator |
+|---|---:|---:|---:|---:|---|
+| Future, current artifact | -1.711554 | -1.728192 | -4.234463 | - | Surface features |
+| Future, prior process record | -1.732714 | -1.728192 | -4.234463 | -1.976190 | Class frequencies |
+| Retrospective, finished artifact | -1.718066 | -1.741849 | -4.135736 | - | Surface features |
+| Retrospective, revision pair | -1.215865 | -1.741849 | -4.135736 | - | Surface features |
+| Retrospective, process record | -1.207539 | -1.741849 | -4.135736 | -1.872357 | Surface features |
+
+**Finding.** Every declared selection row reproduces exactly, every eligible comparator is retained, and no record is excluded. The selected comparator is surface features in the three retrospective views and the future artifact view, and class frequencies in the future record view. All development source groups are disjoint from evaluation source groups. Original execution records 674.602107 wall seconds and 543.437500 parent-CPU seconds. The unchanged-receipt selection reconstruction takes 0.861095 seconds; this is not a second full capsule audit.
+
+**Meaning and limits.** Comparator selection is intact. It does not establish a lexical-reader advantage, an evidence-view advantage, general maker understanding or confirmation. The original held-apart evaluation comparison and final selected integrity remain required; the entire corpus retains its historical exposure label. No hypothesis test or p-value is introduced. Evidence: original `private/scientific-revision-analysis/argrewrite-v1/main/select` outputs and `private/recovery-tranche-v1/ARGREWRITE_SELECTION_INSPECTION.json` beneath the Stage 9 result root.
+
+**Curator roll-up.** Theory group: research infrastructure. Question: were the cheap rivals selected from development evidence alone under the declared rule? Outcome: Infrastructure. Result: all five task/view selections reproduce with their original eligible rivals. Project meaning: the comparison has a fixed development-selected competitor; scientific evaluation remains pending. Next engineering obligation: finish evaluation evidence review, the grouped comparison and selected final integrity. Public claim: unchanged. Curator decision required: No. Detail: this selection record and its private inspection.
+
+### ArgRewrite evaluation prediction execution, 2026-09-10
+
+**Hypothesis.** The completed evaluation forecasts preserve every assigned case, evidence view, training-only fitted parameter and original execution record before the grouped scientific comparison.
+
+**METHOD.** Reconstructed every saved evaluation prediction and unit against the original case and fit identities and immutable call cache. Checked all copied code, actual task/evidence bytes, outputs and access records against the original revision-reader denial probe, together with original queue commits, source sidecars and the full committed capsule roster. No reader was invoked, no model was refit, no reserve was opened and no performance score was calculated by this inspection.
+
+The table counts assigned records, essay/student lineages and separate evidence views. The evaluation cohort has 22 lineages overall; views reuse those lineages and do not create independent people. Each future record is a whole earlier draft forecast scored later against all its canonical next-cycle annotations.
+
+| Evaluation task | Eligible records | Source lineages represented | Evidence views | Saved calls |
+|---|---:|---:|---|---:|
+| Retrospective revision purpose | 776 | 22 | Finished artifact, revision pair, process record | 2328 |
+| Future revision purpose | 18 | 18 | Current artifact, prior process record | 36 |
+
+**Finding.** All 2,364 assigned calls and their saved units reconstruct, with zero invalid calls. Every uniquely referenced committed capsule and original source sidecar verifies, with no uncached committed capsule. Copied-source identities and actual recorded access match the original successful CPython audit-hook probe; this is not an OS-isolation claim. The original completed output retains `scored: false` and no scientific admission. Original exclusions, full class support, training-only fitting and prior corpus exposure remain unchanged. Original execution records 2,668.909641 wall seconds and 1,499.828125 parent-CPU seconds; queue occupation is 2,786.564423 seconds including its wrapper, retained without subtraction. The complete saved-evidence inspection takes 1,500.626545 seconds and launches no experiment.
+
+**Meaning and limits.** The assigned evaluation execution is intact and available for the original grouped comparison. It does not establish prediction performance, an evidence-view advantage, general maker understanding or confirmation. The separately completed development-only comparator selection remains fixed; the final scientific comparison and selected integrity audit remain required. No new hypothesis test or p-value is introduced. Evidence: original `private/scientific-revision-prediction/argrewrite-v1/main/evaluation` outputs and `private/recovery-tranche-v1/ARGREWRITE_EVALUATION_INSPECTION.json` beneath the Stage 9 result root.
+
+**Curator roll-up.** Theory group: research infrastructure. Question: do the completed evaluation forecasts preserve the assigned inputs and execution evidence? Outcome: Infrastructure. Result: the complete evaluation execution reconstructs without a missing or invalid call. Project meaning: the declared comparison input is intact; scientific interpretation remains gated on the final comparison and integrity. Next engineering obligation: land the grouped comparison, complete final integrity and write the scoped packet. Public claim: unchanged. Curator decision required: No. Detail: this execution record and its private inspection.
+
+### Final integrity failure and exhausted repair branch, 2026-09-11
+
+**Hypothesis.** The completed selected observations can pass the required final source, execution and resource reconciliation without changing their scientific scope or the user's thermal limit.
+
+**METHOD.** Inspected both actual audit attempts, their original configurations, execution receipts, stderr, scheduler dispositions and pauses. Compared every preparation-evidence pointer with its pinned digest, verified all 26 completed producer commits and the 379-file source closure, and tested the exact historical native-process lookup implicated by the retry. Read back the Windows AC limits separately. No model, prediction, score, source or manifest changed.
+
+**Finding.** Final integrity did not pass. The first audit failed at preparation coverage because the allocation record's descriptive metadata changed during the authorized thermal response. The second attempt failed earlier in resource reconciliation when Windows refused the historical child-process identity query. A read-only query outside the sandbox also failed to produce the identity required by the original auditor; this is not established as solely a sandbox restriction, a live owned process, or a recycled PID. No successful final ledger artifact exists, so the original scientific packet cannot execute.
+
+The table describes complete failed attempts, not partial scientific scores. Occupied time is measured CPU-job queue time; it is not GPU use. Both intervals remain in accounting.
+
+| Audit attempt | Occupied seconds | Terminal failure | Disposition |
+|---|---:|---|---|
+| Original | 21,681.977351 | Exact preparation checksum changed for the allocation metadata | FAILED, retained |
+| One authorized retry | 142.593010 | Historical native-process identity could not be inspected | FAILED, retained; consumer branch closed |
+
+**The bounded repair.** All 174 regular original queue files, excluding the OS writer-lock handle, were copied and hash-verified into a private preservation root. The exact thermal allocation remains preserved separately. The saved pre-thermal allocation reconstructs the launch-time pinned hash exactly; restoring it changed only the descriptive basis and timestamp. Gear 2 and GPU availability were identical before and after, and actual AC CPU boost-off/90% maximum processor state remained unchanged. Every preparation pointer then verified without relaxing a guard. Under the exclusive queue writer lock, the operator authorized one explicit second audit attempt; all original failed-attempt files and completed commits remained intact, and actual new ownership/heartbeat was verified. The second failure and pause were then preserved separately.
+
+**Closure.** The second substantive defect closes this instrument's consumer branch under the original Stage 9 repair budget. The final packet is explicitly NOT RUN WITH REASON because no accepted final integrity exists. The unchanged dispatcher completed the terminal queue with 26 completed jobs, one failed audit and one unrun packet; queue completion is an operational closure, not scientific admission. All selected experimental outputs and their full internal landings remain retained in L373-L377. Their final acceptance remains unresolved. The source, manifest, model packages, samples, support, scoring, reserve and original cap/horizon remain unchanged. No further audit retry, experiment, new test or new stage is authorized by this wake.
+
+**Meaning.** A launch evidence file must not double as mutable operating commentary, and terminal-process validation must handle an unavailable historical process identity without inventing proof of either liveness or death. The first issue was repaired; the second remains unresolved. This failure does not turn the completed comparisons into accepted claims or prove their scientific results false. A separately scoped closure repair could reuse preserved experiments, but is beyond this exhausted instrument branch. No scientific scores are presented as a final packet.
+
+Evidence: `private/recovery-tranche-v1/queue/attempts/final-ledger-1` and `final-ledger-2`, immutable queue pauses and dispositions, `closure-allocation-repair-v1/AUTHORIZATION_AND_PRESERVATION.json` and `CLOSED.json`, original queue completion, and the public execution closeout receipt.
+
+**Curator roll-up.** Theory group: measurement and operational integrity. Question: did the selected completed observations pass final integrity? Outcome: Infrastructure. Result: final integrity failed and the packet remains unrun. Project meaning: the scientific output is preserved but not finally accepted. Next engineering obligation: seek a separate bounded closure-repair scope before another attempt. Public claim: unchanged; accepted Stage 9 scientific claims remain unavailable. Curator decision required: Yes, recommend one narrowly bounded audit/packet repair that reuses all experiments and retains both failures. Detail: OPS-S9-RECOVERY-1 and execution closeout.
 
 ## OPS-S9-LAUNCH-1: Launch guards reject empty acceptance and inconsistent workload evidence
 

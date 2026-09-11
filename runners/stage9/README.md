@@ -1,5 +1,17 @@
 # Stage 9 implementation
 
+The [execution recovery addendum](../../docs/design/STAGE9_EXECUTION_ADDENDUM.md)
+was adopted on 2026-09-10. `tranche.py` adds an explicit opt-in scope to the existing
+launch, coverage and packet paths. It preserves original selected job settings and
+dependencies, keeps all deferred jobs/cards visible, and forbids claims about the
+unrun factorial or full-stage completion. The stricter full-stage path remains the
+default. Queue dispatch, one-writer ownership and recovery are unchanged.
+The scope path passes 391 affected checks; discovery-only ledger integration passes 79 further affected checks. No tranche is launch-accepted yet.
+Routine preparation accounting and unchanged-receipt checks update their existing
+record and current handoff. Scientific landings and material defects still require
+the full internal write-through. Recovery is limited to two active operator-hours
+for scope and four further hours for integration, within the original horizon.
+
 Authority: the curator-supplied [Stage 9 brief](../../docs/design/PHASE_2_4_STAGE_9_CONTEXT.md),
 commissioned with Gear 2 on 2026-09-06 and filed byte-for-byte in the design shelf on
 2026-09-09. The curator's direct

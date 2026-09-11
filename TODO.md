@@ -1,8 +1,36 @@
 # TODO: the study queue
 
+
 **Reordered 2026-08-09 (evening) around the program and the frontier-first principle.** Results go
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
 archive, kept whole, mined but never deleted.
+
+## Active Stage 9 recovery ? launched 2026-09-10
+
+- [x] Adopt and file the execution addendum; preserve original campaign clock/cap.
+- [x] Select 28 unchanged jobs and record all 658 deferrals and 42 card dispositions.
+- [x] Validate scoped launch/packet acceptance (391 affected checks), discovery-only closure (79 affected checks), all 21 locks and design lint.
+- [x] Bind selected source/control/recovery evidence and conservative per-job costs; certify and observe the actual Gear 2 queue running within the recovery work limit.
+- [x] Inspect and internally land all three actual isolation probes and complete original discovery construction.
+- [x] Reconstruct and internally land all four actual Qwen/SmolLM base/archive package calibrations; original precision judgments retained. Actual post-repair idle delivery and queue liveness are verified.
+- [x] Respond to the reported CPU heat warning: retain reversible CPU boost-off/90% AC maximum processor state and verify resumed-load temperatures.
+- [ ] On operating wakes, check temperatures alongside queue health; retain cooler CPU limits and hold/reassess sustained CPU90C+ or renewed heat warnings.
+- [x] Reconstruct and internally land the complete Qwen base supplied-information cell, exact-package calibration consumer and analysis (L373); retain full four-package/final-integrity claim gates.
+- [x] Reconstruct and internally land the complete archived-Qwen supplied-information cell, exact-package calibration consumer and analysis (L374); retain shared-cohort and final-integrity limits.
+- [x] Reconstruct and internally land SmolLM base producer, calibration consumer and complete analysis (L375); keep archived SmolLM and final-integrity gates open.
+- [x] Reconstruct and internally land archived SmolLM producer, calibration consumer and full analysis (L376); all four packages now await final selected integrity.
+- [x] Reconstruct ArgRewrite case preparation and verify original training-only fit identity, commits and comparator roster; retain exposed-data/exclusion limits.
+- [x] Reconstruct and internally land ArgRewrite development predictions, full saved-call/capsule coverage and original source/fit boundaries; the separately recorded comparator selection consumes these original predictions.
+- [x] Reproduce and internally land original development-only ArgRewrite comparator selection; retain all eligible rivals and disjoint evaluation lineages.
+- [x] Reconstruct and internally land all original ArgRewrite evaluation calls, units, capsules and source sidecars; no invalid or uncached committed call.
+- [x] Reproduce and internally land all eight original ArgRewrite grouped contrasts, complete target support and source/exposure limits (L377; H01-S9).
+- [x] Fully inspect and retain final-integrity allocation failure and one permitted retry; restore launch allocation with unchanged gear and retained thermal limits.
+- [x] Close the final-audit consumer branch after the second native-process identity defect; preserve both failures and mark the original packet NOT RUN WITH REASON.
+- [ ] Curator decision: authorize a separate bounded closure repair using preserved experiments. No further audit retry or new research follows automatically.
+- [ ] L373-L377: final selected integrity and accepted scoped packet remain unresolved; retain all scientific limits and both audit failures.
+
+
+Current machine and next outputs: [CURRENT_STATUS](CURRENT_STATUS.md). Source and manifest are frozen beneath the live queue. The original deadline and cap remain; no automatic refill or extension. This adopted recovery replaces the older broad preparation priority below. Routine unchanged-receipt checks and arithmetic create no fresh study obligations.
 
 ## THE PLAN (overall plan for AI, not human consumption. The phases that are part of the plan are to be abbreviated, not removed, upon completion and record-transcribing to Findings/Theory. When a particular phase of the plan is complete, include that note as part of the test report.)
 

@@ -1,5 +1,36 @@
 # Stage 9 scheduling constraint
 
+## Adopted execution recovery — 2026-09-10
+
+**Selected execution closed with failed final integrity, 2026-09-11.** All selected experiments finished and are internally documented, but the final audit failed twice. Its first failure came from thermal-response metadata changing a pinned allocation record; exact launch allocation bytes were restored without changing Gear 2, GPU availability or CPU limits. The one retry then failed while inspecting a historical native process identity. Under the stage repair rule, the audit consumer branch is closed and the packet is explicitly NOT RUN WITH REASON. The queue is terminal: 26 complete, one failed and one not run. Both failed attempts remain retained and charged. No successful final integrity, accepted scientific packet or full-stage completion is claimed. Further closure repair needs a separately authorized scope.
+
+The curator adopted the [execution addendum](STAGE9_EXECUTION_ADDENDUM.md) after
+operator review. The smaller scope supersedes the earlier recommendation to finish
+costing the entire workload. It does not extend the campaign or declare Stage 9 complete.
+The decision below uses existing pilots; all numbers remain conditional planning assumptions.
+
+This table describes the selected work, its limits, and what must happen next.
+
+| Decision field | Current recovery decision |
+|---|---|
+| Current workload | The selected 28-job scientific queue launched in Gear 2 on September 10 at 14:47 UTC. The native owner, current source and watcher are verified. After the reported CPU heat warning, the same job resumed under retained Windows AC CPU boost-off/90% maximum processor state; resumed-load CPU73.8?75.4C/GPU59?63C. The brief thermal hold remains charged and CPU-heavy timings may increase. Three isolation jobs and complete discovery construction have landed; all four package calibrations have completed and passed saved-call reconstruction; all four supplied-information packages and their checks are internally landed in L373/L374/L375/L376. The entire original ArgRewrite branch, including separate comparator selection and all eight grouped evaluation contrasts, is complete and internally landed in L377. All selected experimental jobs are finished; the final selected integrity audit is running. Twenty-six jobs are complete, one running and one pending, with no failure or pause at inspection. Actual post-repair idle-owner delivery is now observed. The preceding pushed checkpoint is `91017b733`; recovery code is a later local change. |
+| Remaining resources | Original start September 6, 17:07 UTC; horizon September 11, 17:07 UTC; 92 GPU-hour ceiling unchanged. Admission reserves 40 GPU hours for preparation: every recorded queue/standalone CPU and GPU interval plus an explicit allowance for unmeasured and remaining work. This is a conservative planning reservation, not complete actual GPU measurement; original detailed costs and gaps remain retained. |
+| First tranche | 28 existing jobs including prerequisites and final audit/report: four complete supplied-information comparisons (Qwen and SmolLM, each base and archived package), their calibrations and analyses; the existing six-job ArgRewrite baseline branch; three reader-isolation probes and the original discovery constructor. Exact enumeration and all 42 card dispositions are in the [scope ledger](../../results/phase_2_4_stage_9/EXECUTION_RECOVERY_SCOPE.json). |
+| Comparators and units | Supplied-state comparisons retain explicit execution, direct reading of the same complete law/state, code omission, and uniform floor; original 192 maker-series allocation, with identical operative inputs grouped in analysis. ArgRewrite retains every declared baseline, development selection, evaluation grouping, class coverage and prior exposure. No sample, support, threshold or seed setting is reduced. |
+| Deferred work | 658 original declarations, including all 24 new neural fits, expensive purpose/context searches, new-recipe selection, additional corpora, and unopened confirmation. The ledger distinguishes budget deferrals from existing instrument failures and unavailable data. Selected preparation-only roles do not complete their larger scientific card. Deferred means not run. |
+| Cost | Conservative per-job binding now reserves about nine GPU hours and fourteen serial hours for the complete selection and closure. Whole observed pilot cycles are scaled to original full units, deliberately overcharging repeated fixed startup; final reconstruction includes explicit allowance. No CPU/GPU overlap. This fits the original remaining horizon and cap, including the separate preparation reservation. It supersedes the earlier five-to-seven GPU-hour selection sketch; it is not a whole-stage forecast. |
+| Readiness | All nine selected launch evidence categories pass: explicit manual scope, fixtures/attacks, sources, packages, splits, finite forecast, actual delivered wake, actual interruption recovery and compatible original committed dispatcher rehearsals. The scope path passes391 affected checks; discovery-only closure passes79 affected checks;21 locks and design lint pass. Scientific outputs still require their original gates and selected final integrity. The wider stage remains unaccepted. |
+| Next observable result | All four supplied-information packages and the complete ArgRewrite comparison are internally landed. The final integrity audit is running; the next produce is `private/closure-ledger-scientific/stage9/COMPLETE.json`. Final synthesis waits for the actual final ledger. The queue launched within the two-hour scope/four-hour integration recovery limit; no extension was needed. |
+
+Permitted interpretation is package-specific supplied-state discovery and an exploratory
+comparison on an already exposed human corpus. No full-generation, training-recipe,
+three-seed, independent-confirmation, general human-mechanism or full-stage claim is licensed.
+Routine unchanged-receipt verification and arithmetic update this record and the current
+handoff; they do not generate new research obligations. Scientific findings and material
+instrument defects still receive full internal write-through.
+
+### Dated scheduling history before adoption
+
 Updated 2026-09-10T12:06:50.556758+00:00.
 
 Gear 2/GPU availability remains authorized; scientific processing is unlaunched and the compute queue is empty. The watcher is healthy. Source/data, borrowed-method and attribution preparation have advanced; remaining source/failure integration, required contrasts/controls, complete confirmation and launch rehearsal are unfinished. At the curator's request, the rough judgment is another 2–4 days to first scientific runs and around two weeks from now to finish the stage, with a real risk of longer. This is not a recalculated forecast or accepted deadline. It assumes routine integration fixes and resolution of the existing resource allowance before launch. Original cap and campaign clock are unchanged. The component evidence below retains its original scopes and dates. [Current inspection](../../.agent-state/wake-inspections/3dd4663f7447e85f4e286695.json).

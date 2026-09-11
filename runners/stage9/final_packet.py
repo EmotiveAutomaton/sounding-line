@@ -97,6 +97,12 @@ def scientific_gate(review, ctx):
     if review['scope'] == 'pilot':
         return
     ledger = ctx['ledger']; coverage = ledger['coverage_audit']
+    if ctx.get('plan', {}).get('execution_scope'):
+        from .tranche import final_integrity, packet_claims, claim_gates
+        packet_claims(review, ctx['plan'])
+        final_integrity(ctx['plan'], ledger)
+        claim_gates(review, ctx['plan'], ledger)
+        return
     if (ctx['audit_done'].get('final_b03_complete') is not True or ledger['remaining_validation']
             or not coverage.get('all_commissioned_cards_mapped') or not coverage.get('all_commissioned_attacks_mapped')
             or ledger.get('public_claims') != review['claims']):

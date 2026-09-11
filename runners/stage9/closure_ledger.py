@@ -112,6 +112,10 @@ def calculations(plan, queue_path, prior):
     from .confirmation_access import frozen_review
     from .confirmation_summary import arguments, collect
     selected = plan.get('final_calculations')
+    if selected == [] and plan.get('execution_scope'):
+        from .tranche import scope
+        scope(plan)  # Only an adopted discovery scope may omit confirmation.
+        return {}  # All selected semantic, raw-source and call audits still run.
     if not isinstance(selected, list) or not selected:
         raise ValueError('original manifest must select final calculations before closure')
     result = {}; state = read_status(queue_path / 'STATUS.json')

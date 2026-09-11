@@ -95,6 +95,8 @@ def names(value, allowed, *, empty=False):
 def validate_mapping(plan):
     """Validate the original plan at launch and again at final inspection."""
     review = plan.get('final_coverage')
+    from .tranche import scope as tranche_scope
+    tranche = tranche_scope(plan)
     if review is None and plan['kind'] == 'prelaunch_rehearsal':
         return None  # Retained older component rehearsals did not exercise coverage.
     if (not isinstance(review, dict) or type(review.get('version')) is not int
@@ -118,6 +120,11 @@ def validate_mapping(plan):
         raise ValueError('preparation coverage needs explicitly reviewed preparation cards')
     for card, row in preparations.items():
         preparation_evidence(plan, card, row)
+    if tranche:
+        if set(preparations) != {c for c, r in tranche['cards'].items() if r['status'] == 'preparation'}:
+            raise ValueError('tranche preparation obligations differ from adopted scope')
+        if any(keys != tranche['cards'][card]['selected'] for card, keys in cards.items()):
+            raise ValueError('coverage differs from selected and deferred card ledger')
     audits = [i for i, j in enumerate(plan['jobs']) if j['module'] == AUDIT]
     if len(audits) != 1:
         raise ValueError('coverage needs one actual final audit')
@@ -127,7 +134,8 @@ def validate_mapping(plan):
         raise ValueError('only the final packet may follow the audit')
     mapped = set()
     for card, keys in cards.items():
-        mapped.update(names(keys, jobs, empty=card in preparations))
+        mapped.update(names(keys, jobs, empty=card in preparations or
+                            bool(tranche and tranche['cards'][card]['status'] == 'deferred')))
         for key in set(keys) - prior:
             expected = 'B03' if jobs[key]['module'] == AUDIT else 'B04'
             if card != expected:
@@ -205,7 +213,7 @@ def inspect(plan, queue_path, prior):
         return {'jobs': terminal, 'terminal_counts': dict(sorted(Counter(r['queue_status'] for r in terminal.values()).items())),
                 'closure_tail': [key for key in keys if key not in prior],
                 'explicit_not_run_studies': sum(r['study_disposition'] == 'NOT RUN WITH REASON' for r in terminal.values())}
-    return {'status': 'RECONCILED', 'mapping_sha256': digest(review), 'scheduled_cells': len(jobs),
+    result = {'status': 'RECONCILED', 'mapping_sha256': digest(review), 'scheduled_cells': len(jobs),
             'terminal_cells': len(prior), 'closure_tail': [j['id'] for j in plan['jobs'][index:]],
             'cards': {card: counted(keys) | ({'preparation': preparation_evidence(plan, card, review['preparations'][card])}
                       if card in review.get('preparations', {}) else {}) for card, keys in review['cards'].items()},
@@ -214,3 +222,9 @@ def inspect(plan, queue_path, prior):
             'all_commissioned_attacks_mapped': set(review['attacks']) == ATTACKS,
             'scientific_outcomes_inferred': False, 'scientific_admission': False,
             'scope': 'manual applicability and actual execution accounting; no attack verdict or public-claim inference'}
+    if plan.get('execution_scope'):
+        result.update(execution_scope_sha256=digest(plan['execution_scope']),
+                      deferred_cards={c: r for c, r in plan['execution_scope']['cards'].items()
+                                      if r['status'] in ('deferred', 'partial')},
+                      deferred_jobs=plan['execution_scope']['deferred_jobs'], full_stage_complete=False)
+    return result
