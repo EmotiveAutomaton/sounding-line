@@ -21545,14 +21545,22 @@ owner-scoped persistent deadline, routine coalescing, fresh-active-owner suppres
 urgent-path priority to the existing outbox. Tested artificial clocks, stored events,
 queued/ambiguous deliveries and interruption states without real model or message calls.
 Then restarted only the owned watcher in a hidden window and verified its actual source,
-heartbeat, unchanged owner, retained outbox and uninterrupted scientific worker.
+heartbeat, unchanged owner, retained outbox and uninterrupted scientific worker. On the
+first timed wake, matched the delivered event to its persisted plan and transport record,
+then inspected current native ownership, heartbeat, temperatures and declared produces.
+Private evidence: `wake-pacing-20260911/FIRST_DELIVERY_INSPECTION.json`.
 
 **Finding.** All 79 targeted scheduling and existing runtime checks pass. Routine success
 notices wait for the recorded check-in, while failed/paused/interrupt produces and the
 registered active queue's completion bypass the timing delay. A stale active-owner marker
 cannot suppress recovery indefinitely. The fixed fallback accounts for recent attention.
-The new service is loaded and scanning; its first actual scheduled owner delivery remains
-to be observed. Neither a saved plan nor these fixture tests is counted as that delivery.
+The first scheduled deadline subsequently reached this same operating session after its
+preceding final response, confirmed by the 2026-09-11 16:04 UTC inspection. The event
+was created seven seconds after its planned deadline and queued six seconds later; those
+transport times are distinct from actual delivery, which this resumed turn establishes.
+The current worker continued progressing, with sixteen jobs complete, one running and
+nine pending. Native ownership, heartbeat, retained cooling limits and all frozen sources
+verify. No new completed scientific cell was found during this liveness inspection.
 
 The curator explicitly requested this permanent policy. Project AGENTS, the grind skill
 and shared long-term instructions now require a measured or practical estimate, an early
@@ -21567,6 +21575,5 @@ validation failure or live scientific change resulted.
 follow the next useful milestone while preserving results and urgent recovery? Outcome:
 Infrastructure. Result: the scheduled watcher passes 79 runtime checks. Project meaning:
 background polling no longer requires an agent turn for each success. Next engineering
-obligation: record the first actual scheduled delivery and refresh the next estimate after
-inspection. Public claim: unchanged. Curator decision required: No. Detail: CODEX_OPERATIONS
+obligation: refresh the next estimate after each inspection and retain full result landings. Public claim: unchanged. Curator decision required: No. Detail: CODEX_OPERATIONS
 and private wake-pacing installation/validation records.

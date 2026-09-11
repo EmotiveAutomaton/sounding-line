@@ -223,8 +223,11 @@ Validation: all 79 targeted scheduling and existing runtime checks pass, includi
 successes, one-shot persisted deadlines, urgent backlog priority, active-owner suppression,
 stale-owner recovery, fallback reset and invalid-plan refusal. The same-owner hidden watcher
 restart loaded the new source and resumed scanning while the scientific worker and all 380
-frozen sources remained unchanged. Actual delivery at the first newly scheduled deadline
-will be recorded when it occurs; fixture success and a stored plan alone do not prove it.
+frozen sources remained unchanged. The first scheduled deadline reached this owner after
+its preceding final response, confirmed at 16:04 UTC on September 11. Its event was created
+seven seconds after the planned deadline and queued six seconds later; queue acceptance
+and actual owner delivery are separately recorded. The same worker continued progressing
+under retained cooling limits. Receipt: `FIRST_DELIVERY_INSPECTION.json` in the folder below.
 Private prior source/config/rule copies and installation receipts are retained under
 `.agent-state/wake-pacing-20260911/`. Rollback restores the previous watcher/config only after
 its kernel lock is released, retaining the event database and scientific workers.

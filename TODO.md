@@ -8,7 +8,8 @@ archive, kept whole, mined but never deleted.
 ## Active overnight continuation - authorized and launched 2026-09-11
 
 - [x] Implement curator-requested estimated wake scheduling and durable project/shared rules; verify runtime and uninterrupted scientific worker (OPS-WAKE-PACING-1).
-- [ ] Record the first actual scheduled owner delivery, then refresh the next conservative check-in after each inspection (OPS-WAKE-PACING-1).
+- [x] Record the first actual scheduled owner delivery and complete its liveness inspection before ACK (OPS-WAKE-PACING-1).
+- [ ] Refresh the next conservative check-in after each inspection; retain urgent monitoring and complete write-through before ACK (OPS-WAKE-PACING-1).
 
 - [x] Record explicit overnight repair/continuation authority, retain the original failed queue and source archive, and preserve CPU boost-off/90% maximum.
 - [x] Repair native termination inspection and reconcile the original attempt ledger without changing any prior output.
