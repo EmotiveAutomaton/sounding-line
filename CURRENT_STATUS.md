@@ -1,14 +1,14 @@
 # Sounding Line current status
 
-Updated 2026-09-12T20:55:53.147201+00:00.
+Updated 2026-09-12T21:09:59.358375+00:00.
 
 **Stage 10 remains in Gear 2.** The CoAuthor direct/example and matched-deliberation evaluation producers are complete and verified. The reserved-budget Ghost development producer also completed; all raw records are retained. Scientific comparisons are still pending.
 
-The effort controller and literal model adapter pass their checks. Its policy is fitted on three source groups and reproduced with reserved-outcome reads forbidden. The actual fixed, confidence-only and benefit/cost comparison is running on two reserved groups, with its native worker and progress verified. These are small, historically exposed synthetic cases. Procedures plus memory and broader tasks remain setup work; no curator decision is currently needed.
+The effort controller and literal model adapter pass their checks. Its policy is fitted on three source groups and reproduced with reserved-outcome reads forbidden. The actual fixed, confidence-only and benefit/cost prediction producer is complete on two reserved groups. Every route replays without new model/executor calls, the native worker has exited, and reserved outcomes remain closed. No GPU job is active while the next reader is implemented. These are small, historically exposed synthetic cases. Procedures plus memory and broader tasks remain setup work; no curator decision is currently needed.
 
 CPU boost-off and the 90% maximum remain. The new theory errata is queued for the first results-only wait with no appreciable setup remaining, as requested. Cloud activation is not authorized. Stage 9's selected closure remains historical.
 
-[Policy fit](results/phase_2_4_stage_10/EFFORT_POLICY_FIT.json), [evaluation selection](results/phase_2_4_stage_10/EFFORT_EVALUATION_SELECTION.json), [implementation queue](TODO.md).
+[Policy fit](results/phase_2_4_stage_10/EFFORT_POLICY_FIT.json), [reserved producer](results/phase_2_4_stage_10/EFFORT_EVALUATION_PRODUCER.json), [implementation queue](TODO.md).
 
 ## Historical status snapshots (superseded)
 

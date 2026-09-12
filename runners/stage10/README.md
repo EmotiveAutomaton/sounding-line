@@ -66,3 +66,21 @@ outcomes for the preallocated fitting cases only. `effort_evaluation.py` runs
 actual fixed, confidence-only and benefit/cost policies on the reserved cases,
 with no target outcome access. The small within-stage reserve was chosen before
 outcome access but after prior forecast production; its evidence is descriptive.
+
+`reading_source.py` freezes case-separated reconstruction inputs and verifies
+training truth against the nested original future program through the native
+executor. `reading_memory.py` uses the original native fragment learner on
+reader-reconstructed artifacts and retains a bounded concrete memory. This is a
+LILO-inspired adaptation, not a reproduction or historical-trace recovery. The
+reading-family retrieval pool spans accurately labelled evidence views, with
+the same sources and 6,000-byte representation cap for R1 and R4. No reusable
+procedure is forced when the source evidence does not support one.
+
+`reading_proposal.py` gives each possible library a unique keyed slot, shared by
+the new R3 and R4 routes. The earlier list-shaped failure remains diagnostic.
+`reading_routes.py` charges the complete R0/R1/R2/R3/R4 screen, including both
+opaque and grounded procedure names. R4 can induce from the target case's
+permitted earlier artifacts in addition to global training; it never reads the
+future target outcome. Empty learned libraries are retained. The complete route
+passes constructed transport/native execution checks; actual model admission
+requires a source-bound discarded pilot receipt before development/evaluation.
