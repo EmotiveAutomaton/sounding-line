@@ -19,8 +19,11 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C2: validate the public Ghost executor for proposed finite states and reconstruction; model proposal integration remains next.
 - [x] S10-C2: complete the one structured-proposal clarification and checks; opportunity is supported, repeated-library reading remains diagnostic.
 - [x] S10-C2: launch the supported Ghost opportunity branch with preserved cohort/group identities.
-- [ ] S10-C2: inspect and fully land the Ghost development producer chain; keep common comparison scores private until complete.
+- [x] S10-C2: inspect and fully land the Ghost development producer chain; common comparison scores remain unreported.
 - [ ] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence.
+- [x] S10-C3: validate an explicit evaluation-phase wrapper for the frozen direct/example readers; target outcomes remain closed.
+- [x] S10-C3: launch frozen CoAuthor evaluation for the validated direct/example readers; verify native progress and retained cooling.
+- [ ] S10-C3: land the CoAuthor evaluation producer at completion; add remaining strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.
 

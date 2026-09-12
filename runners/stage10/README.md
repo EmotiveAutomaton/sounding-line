@@ -36,3 +36,7 @@ outcomes. `opportunity_chain.py` runs the finite common development producers.
 Source-case grouping, discarded exclusions and historical exposure stay visible;
 selected cases are not automatically independent makers. Completed checkpoint
 replay is verified; partial-run ownership recovery remains a limitation.
+
+`phase_queue.py` selects the explicitly named frozen development/evaluation public
+record. It preserves the original request builder and only reads training labels;
+the current evaluation is historically exposed data, not a newly untouched reserve.
