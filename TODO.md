@@ -32,7 +32,8 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C2: freeze reading-source cases, reproduce original training outcomes and validate native procedure/memory components.
 - [x] S10-C2: integrate R3/R4 reading proposals and common-budget retrieval; constructed transport and native execution pass, preserving empty libraries and earlier failed versions.
 - [x] S10-C2: inspect and land the literal reading-route pilot; parser admission passes and reconstruction behavior failures remain retained.
-- [ ] S10-C2: run and land the source-separated reading screen, then compare complete prediction and reconstruction outcomes.
+- [x] S10-C2: launch the source-separated reading development/evaluation screen with source-bound literal pilot admission.
+- [ ] S10-C2: land the reading screen, then compare complete prediction and reconstruction outcomes.
 - [ ] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence.
 - [x] S10-C3: validate an explicit evaluation-phase wrapper for the frozen direct/example readers; target outcomes remain closed.
 - [x] S10-C3: launch frozen CoAuthor evaluation for the validated direct/example readers; verify native progress and retained cooling.
