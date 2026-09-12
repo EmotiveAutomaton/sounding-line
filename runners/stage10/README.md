@@ -95,3 +95,15 @@ the executor. No model-generated Python is executed. The constructed queue and
 replay checks and the actual source-bound pilot pass. `human_science_chain.py`
 runs the frozen development/evaluation producers serially; target outcomes stay
 closed and whole-cell scientific analysis remains separate.
+
+`human_memory.py` induces view-specific approximate handling rules from frozen
+training episodes and retains concrete exceptions. The best constant action is
+a training comparator; branch support and training improvement are selection
+rules, not scientific generalization tests. `human_memory_routes.py` compares
+storage-matched retrieval with opaque and grounded procedure memory. Its new
+`human_memory_proposal.py` wrapper exposes the unchanged request builder so the
+common memory allowance reserves feedback space before selecting whole examples.
+The two naming conditions retain identical definitions and episodes. Both
+constructed whole-queue and literal model checks pass; the first context-bound
+failure and original source bytes remain preserved. Science requires the exact
+revised pilot source/memory receipt. Full-cell analysis is still separate.

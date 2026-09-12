@@ -45,7 +45,14 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: implement and validate bounded human program execution and the complete constructed queue/replay path.
 - [x] S10-C3: inspect and land literal human program pilot and validate all frozen first-request bounds.
 - [x] S10-C3: launch the unchanged frozen human structured development/evaluation cohorts with verified native progress.
-- [ ] S10-C3: land the complete human structured chain; retain invalid predictions, costs and rationales that contradict their rules.
+- [x] S10-C3: land the complete human structured chain; retain invalid predictions, costs and rationales that contradict their rules.
+- [x] S10-C3: validate training-only human procedures and concrete exceptions under a common storage cap.
+- [x] S10-C3: validate the whole storage-matched retrieval/procedure-memory queue and frozen training-only fit.
+- [x] S10-C3: land literal memory pilot and full first-request selection refusal.
+- [x] S10-C3: repair common memory packing for large drafts and validate all first/refinement request bounds.
+- [x] S10-C3: inspect and fully land the revised literal memory pilot.
+- [x] S10-C3: launch the common memory comparison on the unchanged frozen cohort with native/source progress verified.
+- [ ] S10-C3: land the complete memory comparison producer; retain invalid proposals and evidence/prose contradictions.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.
