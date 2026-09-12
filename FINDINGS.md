@@ -17422,6 +17422,8 @@ The original seed 9260604 selects one example from each nonempty complete popula
 
 ## OPS-S9-RECOVERY-1: A complete selected branch can pass without completing unrelated branches
 
+**Delayed completion delivery reconciled, 2026-09-12T03:46:31.192186+00:00.** The reproduction notice reached the owner after the final selected report was sent. Its completion, execution and ledger bytes, published packet and prior write-through bindings are unchanged. The earlier acknowledgement followed active-owner observation; this later delivery is recorded separately, without inferring a native delivery-hook receipt. Both queues remain terminal, with no active attempt or audit worker; cooling limits remain in force. L384 and the published selected packet remain current. No new tests, scores or claims were generated. Evidence: `private/scoped-final-reproduction-v1/DELAYED_DELIVERY_INSPECTION.json`; acknowledgement follows this documented reconciliation.
+
 ### Independent original-ledger reproduction verified, September 11
 
 **Hypothesis.** A fresh process can reproduce the entire repaired original evidence audit exactly while retaining every original failure.
