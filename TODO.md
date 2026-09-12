@@ -5,6 +5,18 @@
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
 archive, kept whole, mined but never deleted.
 
+## Stage 10 commissioned - 2026-09-12
+
+The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. No cloud activation is authorized.
+
+- [x] S10: assess the supplied specification against current theory, lessons, model and prepared source interfaces; record adoption and scope.
+- [x] S10-I1: validate literal model calls, public task boundary, Ghost transport and actual resume on discarded cases; preserve every attempt.
+- [x] S10-C1: freeze a small R0/R1 science cohort and implement CoAuthor predecision handling with writer/prompt separation.
+- [ ] S10-E: apply the newly supplied theory errata at the first results-only waiting period with no appreciable setup remaining, then file its source and complete theory/provenance write-through.
+- [ ] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence.
+- [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
+- [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.
+
 ## Selected Stage 9 closeout complete - 2026-09-12 UTC
 
 L384 and the [final selected packet](results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md) close the two authorized queues and their separate final review. No compute job is running. The full agenda remains incomplete, with 632 catalog jobs explicitly deferred. Gear 2 authorization and CPU cooling limits remain; final delivery does not launch a new scope.

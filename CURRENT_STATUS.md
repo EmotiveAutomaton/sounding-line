@@ -1,10 +1,22 @@
 # Sounding Line current status
 
+Updated 2026-09-12T18:56:00+00:00.
+
+**Stage 10 is viable and implementation has begun in Gear 2.** The first local-reader and public Ghost checks pass, including saved responses, missing-evidence handling, private-input refusal and replay. Direct reading and fixed-example retrieval are implemented. The initial CoAuthor cohort is frozen with the existing writer/prompt separation; its development split contains one writer, so routing generalization remains a limitation.
+
+The first small development queue is ready to launch. R2?R5, broader Ghost evaluation, the earlier-artifact human view and second human source remain substantial setup. The theory errata is queued for the first results-only waiting period once appreciable setup is complete, followed by filing and full write-through. No curator design decision is currently required.
+
+CPU boost-off and the 90% maximum remain. Cloud work is local preparation only until a separate per-use approval. Stage 9's selected final packet remains closed and its wider agenda deferred.
+
+[Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) ? [initial validation](results/phase_2_4_stage_10/INITIAL_INTERFACE_VALIDATION.json) ? [study queue](TODO.md).
+
+## Historical status snapshots (superseded)
+
 Updated 2026-09-12T03:30:56.203947+00:00.
 
 **Selected Stage 9 closeout complete, September 11 Pacific / September 12 UTC.** Both scientific queues are finished and the separate final report is validated and written through in L384. The repaired original ledger reproduces exactly; the complete overnight evidence and all eight case types are reconciled. Descriptive findings are accepted within this selection. Original audit failures and the unrun original packet remain unchanged, and 632 catalog jobs remain deferred. No GPU experiment is active. Gear 2 authorization and CPU boost-off/90% maximum remain. The obsolete reproduction wake is retired; no completion timer remains scheduled. Next is curator review of the final synthesis before another bounded research scope. [Final packet](results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md).
 
-## Historical status snapshots (superseded)
+
 
 **Independent audit reproduction verified, September 11 at 7:50 p.m. Pacific.** The original ledger, all fourteen component files and retained attempt ledger reproduce byte for byte. Both audit processes have exited; all 120 compiled sources, 382 frozen source files and thirteen pinned inputs verify. Both scientific queues are finished and internally landed, with no GPU experiment active. Gear 2 authorization and CPU boost-off/90% maximum remain. The obsolete reproduction check-in is being retired. Combined integrity, complete case populations and final packet validation are the remaining work. Original audit failures, the unrun original packet and 632 deferred catalog jobs remain explicit; scientific acceptance is still pending.
 

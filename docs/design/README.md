@@ -9,6 +9,10 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-09-12)
 
+- **Active stage:** [Stage 10](PHASE_2_4_STAGE_10_CONTEXT.md), explicitly commissioned
+  September 12. The supplied prototype study is adopted; local implementation and
+  discarded interface checks begin in Gear 2 with CPU cooling limits retained.
+
 - **Execution recovery adopted 2026-09-10:** [Stage 9 addendum](STAGE9_EXECUTION_ADDENDUM.md)
   makes acceptance local to a finite selected tranche, retains the original cap/clock,
   and limits recovery to two active hours for scope plus four for integration.
@@ -17,7 +21,7 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 - **Layout rule (2026-08-23, the curator's):** the current phase's documents live at this
   folder's top level; closed phases move whole into [`archive/`](archive/), never deleted,
   with every repository reference rewritten at the move.
-- **Active stage:** [Stage 9](PHASE_2_4_STAGE_9_CONTEXT.md), commissioned 2026-09-06.
+- **Previous stage:** [Stage 9](PHASE_2_4_STAGE_9_CONTEXT.md), commissioned 2026-09-06.
   The adopted selection and separately authorized overnight continuation have completed, with their
   [final scoped packet](../../results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md) accepted descriptively (L384).
   The wider matrix remains deferred. [Scheduling review](STAGE9_FORECAST_REVIEW.md)
@@ -60,7 +64,8 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 | file | status | read it for |
 |---|---|---|
-| [PHASE_2_4_STAGE_9_CONTEXT.md](PHASE_2_4_STAGE_9_CONTEXT.md) | **OPERATIVE; IMPLEMENTATION INCOMPLETE** | the commissioned Stage 9 questions, gates, resource ceiling and final packet contract; moved without changing its bytes |
+| [PHASE_2_4_STAGE_10_CONTEXT.md](PHASE_2_4_STAGE_10_CONTEXT.md) | **OPERATIVE; IMPLEMENTATION STARTED** | adopted prototype study, six strategies, small cohorts, independent branches and final report |
+| [PHASE_2_4_STAGE_9_CONTEXT.md](PHASE_2_4_STAGE_9_CONTEXT.md) | **REUSABLE SUBSTRATE; SELECTED CLOSEOUT COMPLETE, WIDER AGENDA DEFERRED** | historical Stage 9 questions, gates, resource ceiling and final packet contract; retained without rewriting frozen evidence |
 | [STAGE9_FORECAST_REVIEW.md](STAGE9_FORECAST_REVIEW.md) | **OPERATIVE scheduling record** | existing runtime measurements, assumptions and unresolved resource constraints; no new scientific authority |
 | [archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md](archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR; APPLIED 2026-09-09** | the exact theory and quotation maintenance package; implementation recorded in FINDINGS under theory/documentation maintenance |
 | [`PHASE_2_4_CONTEXT.md`](PHASE_2_4_CONTEXT.md) | **OPERATIVE** | shared-architecture inversion and affective-prior engineering: G172-G180, claim ladder, rival worlds, the flight standard |

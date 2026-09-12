@@ -18,6 +18,15 @@ with the reason.
 
 ---
 
+## Stage 10 commission and theory maintenance ? 2026-09-12
+
+The supplied specification is a planning document adopted by the direct commissioning request; it is not a verbatim theoretical quotation.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S10.2 | Direct audio instruction: apply the new theory errata at the first results-only wait with no appreciable setup left, then file it. | Explicit deferred trigger retained while substantial Stage 10 setup continues. | TODO S10-E; new supplied errata in docs/; private implementation progress | planned |
+| S10.1 | Direct audio instruction: assess Stage 10, implement immediately if viable, keep Gear 2 and maintain the records. | Supplied study adopted; public forecast, Ghost transport, CoAuthor adapter and direct/example readers implemented and initially checked. | docs/design/PHASE_2_4_STAGE_10_CONTEXT.md; runners/stage10/; OPS-S10-I1 | built |
+
 ## Stage 9 commission and supplied reconstruction — 2026-09-06
 
 The filed Stage 9 specification contains an analyst reconstruction of the earlier walkthrough.

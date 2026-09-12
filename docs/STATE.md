@@ -20,7 +20,11 @@ bearing addition — it exists because interim summaries kept outliving their co
 Historical snapshots below retain their dates. The latest dated entry and current run
 receipts determine execution state; later ratified stage contracts override older defaults.
 
-## Current operating handoff: Stage 9, 2026-09-07
+## Current operating handoff: Stage 10, 2026-09-12
+
+**Stage 10 commissioned; implementation underway.** The curator explicitly requested assessment and implementation of the new [reader prototype study](design/PHASE_2_4_STAGE_10_CONTEXT.md), retaining Gear 2. Assessment found the local Qwen 3.5 model, public Ghost archive and prepared human sources available. The initial task/model interface and discarded Ghost/CoAuthor checks pass (OPS-S10-I1). A frozen small direct-versus-example development cohort is ready; broader task and structured-reader implementation remains. The newly supplied theory errata is queued for the first results-only wait after substantial setup, then filing and full write-through. Six reader strategies and matched compute remain in scope. CPU boost-off/90% maximum remains; optional cloud packaging is local preparation only. Private implementation continuity is recorded in `.agent-state/stage10-implementation-progress.json`. Stage 9's selected closure below remains historical; its 632 deferred declarations are not commissioned by Stage 10.
+
+## Previous operating handoff: Stage 9
 
 **Selected Stage 9 closeout complete, September 11 Pacific / September 12 UTC.** Both scientific queues are finished and the separate final report is validated and written through in L384. The repaired original ledger reproduces exactly; the complete overnight evidence and all eight case types are reconciled. Descriptive findings are accepted within this selection. Original audit failures and the unrun original packet remain unchanged, and 632 catalog jobs remain deferred. No GPU experiment is active. Gear 2 authorization and CPU boost-off/90% maximum remain. The obsolete reproduction wake is retired; no completion timer remains scheduled. Next is curator review of the final synthesis before another bounded research scope. [Final packet](../results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md).
 
