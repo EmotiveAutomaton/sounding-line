@@ -42,6 +42,7 @@ archive, kept whole, mined but never deleted.
 - [ ] Reassess actual pace and remaining useful work after each trunk; continue eligible existing Stage 9 work until the curator returns, within the unchanged compute cap. Do not fill time with repeated completed experiments or waiting.
 - [x] Reconstruct the original selected ledger under the separately authorized native termination repair; verify all fourteen components, compiled-source bindings and native exit. Preserve both original failed audits and unrun packet (OPS-S9-RECOVERY-1).
 - [x] Verify and internally land the complete overnight evidence index, original attempt ledger and selected/deferred scope; retain all original failures (OPS-S9-RECOVERY-1).
+- [x] Assemble the private twelve-corpus/seventeen-checkout readiness draft from existing evidence and verify its record bindings; final packet integration remains pending.
 - [ ] Complete overnight reconciliation, fresh final calculations and the scoped final packet using the saved evidence. Original-ledger reconstruction is complete and acknowledged; byte-identical fresh-process reproduction is running; the overnight evidence index is complete and inspected. Compare the complete reproduced ledger exactly, finish extension integrity and manual packet review; final scientific acceptance remains pending. No repeated experiments or new scope is authorized by completion wakes.
 - [x] Correct the runner README status link after the scientific queue and first inspector close; preserve original source bytes in the repair archive.
 
