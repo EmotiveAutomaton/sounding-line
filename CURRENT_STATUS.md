@@ -1,14 +1,14 @@
 # Sounding Line current status
 
-Updated 2026-09-12T18:56:00+00:00.
+Updated 2026-09-12T19:22:22.483030+00:00.
 
 **Stage 10 is viable and implementation has begun in Gear 2.** The first local-reader and public Ghost checks pass, including saved responses, missing-evidence handling, private-input refusal and replay. Direct reading and fixed-example retrieval are implemented. The initial CoAuthor cohort is frozen with the existing writer/prompt separation; its development split contains one writer, so routing generalization remains a limitation.
 
-The first small CoAuthor development queue has completed: direct and fixed-example forecasts on the same eight events and two evidence views. All predictions and raw records verify, and the native worker has exited. No scientific scores have been inspected. [Launch receipt](results/phase_2_4_stage_10/FIRST_DEVELOPMENT_LAUNCH.json). R2?R5, broader Ghost evaluation, the earlier-artifact human view and second human source remain substantial setup. The theory errata is queued for the first results-only waiting period once appreciable setup is complete, followed by filing and full write-through. No curator design decision is currently required.
+The first small CoAuthor development queue has completed: direct and fixed-example forecasts on the same eight events and two evidence views. All predictions and raw records verify, and the native worker has exited. No scientific scores have been inspected. [Launch receipt](results/phase_2_4_stage_10/FIRST_DEVELOPMENT_LAUNCH.json). Matched deliberation (R2) is now implemented and validated on discarded cases. Its scientific development producer is complete, retained and verified without new inference. The first Ghost opportunity development chain is running direct, retrieved-example, matched-deliberation and executable-hypothesis readers. The structured-reading pilot remains diagnostic after its one clarification failed to remove duplicate libraries; the functioning opportunity branch proceeds. R4-R5, broader Ghost evaluation, the earlier-artifact human view and second human source remain substantial setup. The theory errata is queued for the first results-only waiting period once appreciable setup is complete, followed by filing and full write-through. No curator design decision is currently required.
 
 CPU boost-off and the 90% maximum remain. Cloud work is local preparation only until a separate per-use approval. Stage 9's selected final packet remains closed and its wider agenda deferred.
 
-[Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) ? [initial validation](results/phase_2_4_stage_10/INITIAL_INTERFACE_VALIDATION.json) ? [study queue](TODO.md).
+[Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) | [initial validation](results/phase_2_4_stage_10/INITIAL_INTERFACE_VALIDATION.json) | [study queue](TODO.md).
 
 ## Historical status snapshots (superseded)
 

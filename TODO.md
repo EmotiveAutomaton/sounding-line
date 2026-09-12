@@ -14,6 +14,12 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C1: freeze a small R0/R1 science cohort and implement CoAuthor predecision handling with writer/prompt separation.
 - [ ] S10-E: apply the newly supplied theory errata at the first results-only waiting period with no appreciable setup remaining, then file its source and complete theory/provenance write-through.
 - [x] S10-C1: inspect and internally land the first direct/example development producer; retain pending common-cell analysis and evaluation.
+- [x] S10-C2: implement and validate matched direct deliberation on discarded cases; land its instrument receipt.
+- [x] S10-C2: run and internally land matched deliberation on the same frozen development cases; common comparisons remain pending.
+- [x] S10-C2: validate the public Ghost executor for proposed finite states and reconstruction; model proposal integration remains next.
+- [x] S10-C2: complete the one structured-proposal clarification and checks; opportunity is supported, repeated-library reading remains diagnostic.
+- [x] S10-C2: launch the supported Ghost opportunity branch with preserved cohort/group identities.
+- [ ] S10-C2: inspect and fully land the Ghost development producer chain; keep common comparison scores private until complete.
 - [ ] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.
