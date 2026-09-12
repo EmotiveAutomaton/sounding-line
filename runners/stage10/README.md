@@ -84,3 +84,14 @@ permitted earlier artifacts in addition to global training; it never reads the
 future target outcome. Empty learned libraries are retained. The complete route
 passes constructed transport/native execution checks; actual model admission
 requires a source-bound discarded pilot receipt before development/evaluation.
+
+`human_programs.py` evaluates bounded CoAuthor handling rules over whitelisted
+public features. `human_proposal.py` elicits separate goal conjectures and rule
+programs; `human_routes.py` executes two proposal/refinement rounds within the
+same 768-token allowance. Equal rule mixtures with a fixed 0.15 lapse are an
+explicit approximate behavior model, not a known human law or exact posterior.
+Only current draft/menu features and genuinely supplied earlier handling enter
+the executor. No model-generated Python is executed. The constructed queue and
+replay checks and the actual source-bound pilot pass. `human_science_chain.py`
+runs the frozen development/evaluation producers serially; target outcomes stay
+closed and whole-cell scientific analysis remains separate.

@@ -1,14 +1,14 @@
 # Sounding Line current status
 
-Updated 2026-09-12T21:41:09.880917+00:00.
+Updated 2026-09-12T22:12:03.986137+00:00.
 
 **Stage 10 remains in Gear 2.** The CoAuthor direct/example and matched-deliberation evaluation producers are complete and verified. The reserved-budget Ghost development producer also completed; all raw records are retained. Scientific comparisons are still pending.
 
-The effort controller and literal model adapter pass their checks. Its policy is fitted on three source groups and reproduced with reserved-outcome reads forbidden. The actual fixed, confidence-only and benefit/cost prediction producer is complete on two reserved groups. Every route replays without new model/executor calls, the native worker has exited, and reserved outcomes remain closed. The source-separated Ghost reading development/evaluation comparison is now launched, with native identity, pinned sources and progress verified. These are small, historically exposed synthetic cases. Native procedures plus bounded memory are implemented and their literal interface passes. The discarded pilot programs failed reconstruction, which is retained for separate scoring. Broader human readers and other tasks remain setup work; no curator decision is currently needed.
+The effort controller and literal model adapter pass their checks. Its policy is fitted on three source groups and reproduced with reserved-outcome reads forbidden. The actual fixed, confidence-only and benefit/cost prediction producer is complete on two reserved groups. Every route replays without new model/executor calls, the native worker has exited, and reserved outcomes remain closed. The source-separated Ghost reading development/evaluation prediction producers are complete. The whole chain replays without model/executor calls or target-outcome access; all raw parses and costs reproduce, and native exit and GPU release verify. The human executable-rule comparison is running on the same frozen CoAuthor development/evaluation cohort, with source and native progress verified. These are small, historically exposed synthetic cases. Native procedures plus bounded memory are implemented and their literal interface passes. The discarded pilot programs failed reconstruction, which is retained for separate scoring. The new human rules pass constructed and literal checks; explanatory prose can disagree with the executed rule, which is retained. Human procedures/routing, additional evidence conditions and other tasks remain setup work; no curator decision is currently needed.
 
 CPU boost-off and the 90% maximum remain. The new theory errata is queued for the first results-only wait with no appreciable setup remaining, as requested. Cloud activation is not authorized. Stage 9's selected closure remains historical.
 
-[Policy fit](results/phase_2_4_stage_10/EFFORT_POLICY_FIT.json), [reserved producer](results/phase_2_4_stage_10/EFFORT_EVALUATION_PRODUCER.json), [reading launch](results/phase_2_4_stage_10/READING_SCIENCE_LAUNCH.json), [implementation queue](TODO.md).
+[Policy fit](results/phase_2_4_stage_10/EFFORT_POLICY_FIT.json), [reserved producer](results/phase_2_4_stage_10/EFFORT_EVALUATION_PRODUCER.json), [reading producer](results/phase_2_4_stage_10/READING_SCIENCE_PRODUCERS.json), [human launch](results/phase_2_4_stage_10/HUMAN_PROGRAM_SCIENCE_LAUNCH.json), [implementation queue](TODO.md).
 
 ## Historical status snapshots (superseded)
 
