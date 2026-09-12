@@ -4,7 +4,7 @@ Updated 2026-09-12T18:56:00+00:00.
 
 **Stage 10 is viable and implementation has begun in Gear 2.** The first local-reader and public Ghost checks pass, including saved responses, missing-evidence handling, private-input refusal and replay. Direct reading and fixed-example retrieval are implemented. The initial CoAuthor cohort is frozen with the existing writer/prompt separation; its development split contains one writer, so routing generalization remains a limitation.
 
-The first small development queue is ready to launch. R2?R5, broader Ghost evaluation, the earlier-artifact human view and second human source remain substantial setup. The theory errata is queued for the first results-only waiting period once appreciable setup is complete, followed by filing and full write-through. No curator design decision is currently required.
+The first small CoAuthor development queue has completed: direct and fixed-example forecasts on the same eight events and two evidence views. All predictions and raw records verify, and the native worker has exited. No scientific scores have been inspected. [Launch receipt](results/phase_2_4_stage_10/FIRST_DEVELOPMENT_LAUNCH.json). R2?R5, broader Ghost evaluation, the earlier-artifact human view and second human source remain substantial setup. The theory errata is queued for the first results-only waiting period once appreciable setup is complete, followed by filing and full write-through. No curator design decision is currently required.
 
 CPU boost-off and the 90% maximum remain. Cloud work is local preparation only until a separate per-use approval. Stage 9's selected final packet remains closed and its wider agenda deferred.
 
