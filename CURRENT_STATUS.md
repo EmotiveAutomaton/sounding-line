@@ -4,7 +4,7 @@ Updated 2026-09-12T20:55:53.147201+00:00.
 
 **Stage 10 remains in Gear 2.** The CoAuthor direct/example and matched-deliberation evaluation producers are complete and verified. The reserved-budget Ghost development producer also completed; all raw records are retained. Scientific comparisons are still pending.
 
-The effort controller and literal model adapter pass their checks. Its policy is fitted on three source groups and reproduced with reserved-outcome reads forbidden. The actual fixed, confidence-only and benefit/cost comparison is prepared on two reserved groups. These are small, historically exposed synthetic cases. Procedures plus memory and broader tasks remain setup work; no curator decision is currently needed.
+The effort controller and literal model adapter pass their checks. Its policy is fitted on three source groups and reproduced with reserved-outcome reads forbidden. The actual fixed, confidence-only and benefit/cost comparison is running on two reserved groups, with its native worker and progress verified. These are small, historically exposed synthetic cases. Procedures plus memory and broader tasks remain setup work; no curator decision is currently needed.
 
 CPU boost-off and the 90% maximum remain. The new theory errata is queued for the first results-only wait with no appreciable setup remaining, as requested. Cloud activation is not authorized. Stage 9's selected closure remains historical.
 

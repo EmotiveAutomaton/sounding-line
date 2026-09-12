@@ -26,7 +26,8 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C2: complete and internally land same-budget development forecasts.
 - [x] S10-C2: verify original development sources/outcomes and freeze the effort policy with two groups reserved before outcome access.
 - [x] S10-C2: validate actual reserved policy selection without outcome access.
-- [ ] S10-C2: run and land reserved benefit/cost, confidence-only and fixed policies; keep small-case and historical-exposure limits explicit.
+- [x] S10-C2: launch reserved benefit/cost, confidence-only and fixed policies.
+- [ ] S10-C2: land the reserved policy producer and compare complete cells; keep small-case and historical-exposure limits explicit.
 - [ ] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence.
 - [x] S10-C3: validate an explicit evaluation-phase wrapper for the frozen direct/example readers; target outcomes remain closed.
 - [x] S10-C3: launch frozen CoAuthor evaluation for the validated direct/example readers; verify native progress and retained cooling.
