@@ -1,14 +1,14 @@
 # Sounding Line current status
 
-Updated 2026-09-12T20:25:47.537545+00:00.
+Updated 2026-09-12T20:55:53.147201+00:00.
 
-**Stage 10 is running in Gear 2.** Direct/example CoAuthor evaluation is complete: every request, raw parse and cost record verified. Matched deliberation is now running on the same frozen 192 evaluation tasks. CPU boost-off and the 90% maximum remain; launch endpoint readings were CPU 65.1 C/GPU 63.0 C.
+**Stage 10 remains in Gear 2.** The CoAuthor direct/example and matched-deliberation evaluation producers are complete and verified. The reserved-budget Ghost development producer also completed; all raw records are retained. Scientific comparisons are still pending.
 
-The effort controller passes 26 known-answer checks. Its reserved-budget adapters also pass constructed transport and actual Ghost executor checks. A literal model rehearsal is next after the current GPU job, followed by development-only fitting. Procedures plus memory, broader tasks and final comparison remain substantial setup. Evaluation answers remain closed; no unfinished scientific scores are reported.
+The effort controller and literal model adapter pass their checks. Its policy is fitted on three source groups and reproduced with reserved-outcome reads forbidden. The actual fixed, confidence-only and benefit/cost comparison is prepared on two reserved groups. These are small, historically exposed synthetic cases. Procedures plus memory and broader tasks remain setup work; no curator decision is currently needed.
 
-The new theory errata remains queued for the first results-only wait with no appreciable setup remaining, as requested. No curator design decision is currently needed. Cloud preparation remains local only; Stage 9 selected closure remains historical.
+CPU boost-off and the 90% maximum remain. The new theory errata is queued for the first results-only wait with no appreciable setup remaining, as requested. Cloud activation is not authorized. Stage 9's selected closure remains historical.
 
-Completion/failure hooks are active; the conservative next check is recorded in the durable watch plan. [Current launch](results/phase_2_4_stage_10/R2_EVALUATION_LAUNCH.json), [implementation queue](TODO.md), [effort validation](results/phase_2_4_stage_10/EFFORT_CONTROLLER_VALIDATION.json).
+[Policy fit](results/phase_2_4_stage_10/EFFORT_POLICY_FIT.json), [evaluation selection](results/phase_2_4_stage_10/EFFORT_EVALUATION_SELECTION.json), [implementation queue](TODO.md).
 
 ## Historical status snapshots (superseded)
 

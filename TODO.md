@@ -22,14 +22,19 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C2: inspect and fully land the Ghost development producer chain; common comparison scores remain unreported.
 - [x] S10-C2: implement and validate the effort controller and its bounded route driver on known-answer fixtures.
 - [x] S10-C2: attach budget-aware readers and verify constructed transport, actual exported execution and rejection of changed training inputs.
-- [ ] S10-C2: validate the reserved-budget reader with literal model calls, verify complete development producers, fit and freeze the effort policy before evaluation.
+- [x] S10-C2: validate the reserved-budget reader with literal model calls and verify the actual development selection.
+- [x] S10-C2: complete and internally land same-budget development forecasts.
+- [x] S10-C2: verify original development sources/outcomes and freeze the effort policy with two groups reserved before outcome access.
+- [x] S10-C2: validate actual reserved policy selection without outcome access.
+- [ ] S10-C2: run and land reserved benefit/cost, confidence-only and fixed policies; keep small-case and historical-exposure limits explicit.
 - [ ] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence.
 - [x] S10-C3: validate an explicit evaluation-phase wrapper for the frozen direct/example readers; target outcomes remain closed.
 - [x] S10-C3: launch frozen CoAuthor evaluation for the validated direct/example readers; verify native progress and retained cooling.
 - [x] S10-C3: land the CoAuthor direct/example evaluation producer; all requests, raw parses and costs reproduced.
 - [x] S10-C3: validate explicit-phase matched deliberation against the frozen evaluation population.
 - [x] S10-C3: launch matched-deliberation evaluation on the unchanged frozen cases.
-- [ ] S10-C3: land matched-deliberation evaluation at completion; add remaining evaluation strategies without opening evaluation answers for fitting.
+- [x] S10-C3: land matched-deliberation evaluation with every raw parse and cost reproduced.
+- [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.
 

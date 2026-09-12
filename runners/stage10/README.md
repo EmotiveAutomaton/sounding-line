@@ -53,9 +53,16 @@ known-answer checks pass; this is not evidence of scientific routing benefit.
 
 `effort_readers.py` and `effort_proposal.py` connect this budget to literal local
 requests and the unchanged public opportunity executor. Constructed transport
-and real-executor checks pass. Literal model rehearsal, complete source-verified
-development fitting and policy freezing remain before scientific routing.
+and real-executor checks pass. The literal model rehearsal and source-verified development fit now pass;
+reserved policy comparison and scientific interpretation remain pending.
 Full-budget historical predictions cannot replace the reserved-budget calls.
 
 Pass the adapter's complete `sources` receipt to the effort driver: it binds
 training evidence, training answers and the public envelope as well as code.
+
+`effort_queue.py` collects the smaller-budget forecasts from a discarded pilot
+or the frozen development population. `effort_fit.py` verifies original enacted
+outcomes for the preallocated fitting cases only. `effort_evaluation.py` runs
+actual fixed, confidence-only and benefit/cost policies on the reserved cases,
+with no target outcome access. The small within-stage reserve was chosen before
+outcome access but after prior forecast production; its evidence is descriptive.
