@@ -1,0 +1,62 @@
+{
+  "at": "2026-09-12T20:10:53.733818+00:00",
+  "check_count": 26,
+  "checks": [
+    "confidently_wrong_benefit_buys_useful_route",
+    "confidence_only_misses_confident_error",
+    "fixed_effort_uses_predeclared_route",
+    "no_gain_stops",
+    "gain_below_cost_stops",
+    "single_group_stops",
+    "unstable_group_benefit_stops",
+    "unseen_stratum_stops",
+    "unavailable_good_route_no_oracle_substitution",
+    "unknown_reasoning_count_retained",
+    "evaluation_answers_cannot_fit",
+    "partial_producer_cannot_fit",
+    "missing_route_cannot_fit",
+    "wrong_budget_cannot_fit",
+    "negative_cost_cannot_fit",
+    "undeclared_answer_cannot_fit",
+    "changed_frozen_policy_refused",
+    "development_group_refused",
+    "development_public_twin_refused",
+    "known_correct_brier_zero",
+    "invalid_worst_loss_one",
+    "actual_driver_reserves_256_plus_512",
+    "both_calls_and_controller_charged",
+    "completed_replay_no_calls",
+    "changed_raw_refuses_replay",
+    "failed_refinement_not_replaced_by_correct_initial"
+  ],
+  "fixture_callback_calls": 4,
+  "model_calls": 0,
+  "scope": "constructed controller/driver validation only; no scientific fit or real model adapter",
+  "sources": {
+    "contracts.py": "d521c85fa46aee60d594fc0339b7143311186e22140dee5ae543ca7ca7a2fd02",
+    "effort.py": "f3377e77dabe62e2d29039b3a7e6683701f8764132817349e3546071e19f99fc",
+    "ollama.py": "e5391372759bbd0cd9d69631eec94f9db4cf62536ef00b5a54029bbce2890e54",
+    "reader.py": "cd663a950139f254fadd4668fab0fb1caa2acdcf4c9143c914712bb296135a23"
+  },
+  "status": "PASS",
+  "original_complete_sha256": "7684b61d2dafa6a295a2a9484308cf126d8b79bc3e82b338c2ec19bc4b778317",
+  "protocol": {
+    "allowances": [
+      256,
+      512
+    ],
+    "total_generated_token_limit": 768,
+    "confidence_threshold": 0.8,
+    "brier_loss_per_second": 0.001,
+    "fit_phase": "development only",
+    "minimum_groups": 2,
+    "admission": "positive group-balanced net benefit in every leave-one-group-out mean",
+    "invalid_loss": 1.0
+  },
+  "limitations": [
+    "Constructed fixtures only; actual model adapter and same-budget development fit remain.",
+    "Development producer hashes are a required input, not independent verification by this controller.",
+    "Small-group sign stability is not statistical generalization acceptance.",
+    "Partial interruption retains failed attempt and does not auto-resume."
+  ]
+}

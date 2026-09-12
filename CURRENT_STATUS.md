@@ -1,14 +1,14 @@
 # Sounding Line current status
 
-Updated 2026-09-12T19:55:06.590454+00:00.
+Updated 2026-09-12T20:25:47.537545+00:00.
 
-**Stage 10 is running in Gear 2.** The frozen CoAuthor evaluation is producing direct and retrieved-example predictions for 96 events from fourteen writer components, in two evidence views. Its native worker, source hashes and observed progress verify. CPU boost-off and the 90% maximum remain; latest inspection reported CPU 71.1 C and GPU 53.0 C.
+**Stage 10 is running in Gear 2.** Direct/example CoAuthor evaluation is complete: every request, raw parse and cost record verified. Matched deliberation is now running on the same frozen 192 evaluation tasks. CPU boost-off and the 90% maximum remain; launch endpoint readings were CPU 65.1 C/GPU 63.0 C.
 
-The initial CoAuthor direct/example and matched-deliberation development runs, and the Ghost opportunity development chain, are complete and internally recorded. No unfinished scientific comparison scores are being reported. The structured opportunity interface passes; the structured reading proposal remains diagnostic after its one clarification failed to remove duplicate library hypotheses. Procedures, routing, broader task adapters and final evaluation comparisons remain substantial setup.
+The effort controller passes 26 known-answer checks. Its reserved-budget adapters also pass constructed transport and actual Ghost executor checks. A literal model rehearsal is next after the current GPU job, followed by development-only fitting. Procedures plus memory, broader tasks and final comparison remain substantial setup. Evaluation answers remain closed; no unfinished scientific scores are reported.
 
-The new theory errata is still queued for the first results-only waiting period with no appreciable setup remaining, then filing and full write-through. No curator design decision is currently needed. Cloud preparation remains local only. Stage 9's selected final packet remains closed and its wider agenda deferred.
+The new theory errata remains queued for the first results-only wait with no appreciable setup remaining, as requested. No curator design decision is currently needed. Cloud preparation remains local only; Stage 9 selected closure remains historical.
 
-The next conservative check is scheduled about fifteen minutes after this handoff; the active evaluation's completion or failure can wake the owner sooner. [Launch receipt](results/phase_2_4_stage_10/COAUTHOR_EVALUATION_LAUNCH.json), [Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md), [study queue](TODO.md).
+Completion/failure hooks are active; the conservative next check is recorded in the durable watch plan. [Current launch](results/phase_2_4_stage_10/R2_EVALUATION_LAUNCH.json), [implementation queue](TODO.md), [effort validation](results/phase_2_4_stage_10/EFFORT_CONTROLLER_VALIDATION.json).
 
 ## Historical status snapshots (superseded)
 
