@@ -28,13 +28,13 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C2: validate actual reserved policy selection without outcome access.
 - [x] S10-C2: launch reserved benefit/cost, confidence-only and fixed policies.
 - [x] S10-C2: land the reserved policy producer with native exit and no-call replay verified.
-- [ ] S10-C2: freeze and analyze complete policy comparisons; keep small-case and historical-exposure limits explicit.
+- [ ] S10-C2: analyze complete policy comparisons under the central freeze; keep small-case and historical-exposure limits explicit.
 - [x] S10-C2: freeze reading-source cases, reproduce original training outcomes and validate native procedure/memory components.
 - [x] S10-C2: integrate R3/R4 reading proposals and common-budget retrieval; constructed transport and native execution pass, preserving empty libraries and earlier failed versions.
 - [x] S10-C2: inspect and land the literal reading-route pilot; parser admission passes and reconstruction behavior failures remain retained.
 - [x] S10-C2: launch the source-separated reading development/evaluation screen with source-bound literal pilot admission.
 - [x] S10-C2: land both reading prediction producers with raw replay, source checks and native exit verified.
-- [ ] S10-C2: freeze contrasts, then compare complete prediction and reconstruction outcomes.
+- [ ] S10-C2: apply the frozen comparisons to complete prediction and reconstruction outcomes.
 - [ ] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence.
 - [x] S10-C3: validate an explicit evaluation-phase wrapper for the frozen direct/example readers; target outcomes remain closed.
 - [x] S10-C3: launch frozen CoAuthor evaluation for the validated direct/example readers; verify native progress and retained cooling.
@@ -53,6 +53,11 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: inspect and fully land the revised literal memory pilot.
 - [x] S10-C3: launch the common memory comparison on the unchanged frozen cohort with native/source progress verified.
 - [ ] S10-C3: land the complete memory comparison producer; retain invalid proposals and evidence/prose contradictions.
+- [x] S10-C3: validate reserved-budget human callbacks and whole queue/controller integration.
+- [x] S10-C3: validate all human effort request bounds and constructed development-fit/replay.
+- [x] S10-C3: queue the discarded human effort pilot after memory-worker exit and GPU release.
+- [ ] S10-C3: land the discarded human effort pilot, then produce development forecasts and fit the supported policy.
+- [x] S10: freeze three central strategy comparisons before evaluation-outcome access; source-bound receipt and required supplementary controls retained.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.

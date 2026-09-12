@@ -1,18 +1,18 @@
 # Sounding Line current status
 
-Updated 2026-09-12T22:55:31.216898+00:00.
+Updated 2026-09-12T23:35:37.136773+00:00.
 
-**Stage 10 is running in Gear 2.** The human procedure-memory comparison is producing forecasts on the original frozen development/evaluation cohort. It compares storage-matched retrieval with executable procedures and concrete examples, under opaque or descriptive procedure names. Native progress and source pins verify. Target evaluation answers remain closed.
+**Stage 10 is running in Gear 2.** The human procedure-memory comparison is producing forecasts on the original frozen development/evaluation cohort. At 23:32 UTC, 385 of 624 routes were complete; the native worker and all source pins verified. The discarded human adaptive-effort pilot is queued to start after that worker completes, exits and releases the GPU. Its waiting process and cancellation/terminal guards verify.
 
-The direct/example, matched-deliberation and human executable-rule prediction producers are complete and verified. The latter retains one duplicate-program invalid. The Ghost opportunity, reserved-effort and native-procedure reading producers are also recorded; these are selected, historically exposed synthetic cases. Their scientific comparisons remain pending.
+The direct/example, matched-deliberation and human executable-rule prediction producers are complete and recorded. The latter retains one duplicate-program invalid. Ghost opportunity, reserved-effort and native-procedure reading producers are also recorded. Scientific comparisons remain pending; target evaluation answers are still closed.
 
-The human memory component and complete queue pass constructed checks. Its first full-cohort check caught oversized memory requests; the preserved repair reserves refinement space, keeps all target evidence and applies the same per-task cap across methods. Every frozen first/refinement request now fits, and the revised literal model pilot passes. Fluent explanations can still contradict executed rules or supplied evidence; these failures are retained without repair.
+Human adaptive-effort callbacks, all first/refinement request bounds and the constructed development-fit path pass. Three central strategy comparisons are now frozen before evaluation-outcome access. The required plain-reader, procedure-only, naming, confidence-only and evidence controls remain in scope. One human development writer cannot validate a broadly learned routing rule; unsupported strata retain the first read.
 
-Remaining work includes human adaptive effort, earlier-artifact and mismatched-history comparisons, recipient/constraint tasks, the second human source, frozen central contrasts, calibration, selected second-model work and the final report. No curator design decision is currently needed. The theory errata remains queued for the first results-only wait after appreciable setup is complete, as requested.
+Next after the pilot is reserved-budget human development and policy fitting. Earlier-artifact and mismatched-history comparisons, recipient/constraint tasks, the second human source, complete scoring/calibration, selected second-model work and the final packet remain. No curator design decision is currently needed. Theory errata remains queued for the first results-only wait after appreciable setup is complete.
 
-CPU boost-off and 90% maximum remain verified. The last endpoint observation at 22:41 UTC was CPU 65.6 C and GPU 47.0 C after the pilot; a hardware sample timestamp is unavailable. Cloud activation is not authorized. Stage 9's selected closure remains historical.
+CPU boost is disabled and the AC maximum remains 90%. At 23:32 UTC, the endpoint showed CPU 68 C and GPU 65 C; its hardware sample timestamp is unavailable. The next early inspection is **4:53 p.m. PDT on September 12**, before roughly another half-hour of processing; completion or failure can wake earlier. No cloud activation is authorized.
 
-[Human structured producer](results/phase_2_4_stage_10/HUMAN_PROGRAM_SCIENCE_PRODUCERS.json), [memory validation](results/phase_2_4_stage_10/HUMAN_MEMORY_VALIDATION.json), [packing validation](results/phase_2_4_stage_10/HUMAN_MEMORY_SELECTION_V2.json), [active launch](results/phase_2_4_stage_10/HUMAN_MEMORY_SCIENCE_LAUNCH.json), [implementation queue](TODO.md).
+[Human effort validation](results/phase_2_4_stage_10/HUMAN_EFFORT_VALIDATION.json), [queued pilot](results/phase_2_4_stage_10/HUMAN_EFFORT_PILOT_QUEUED.json), [comparison freeze](docs/design/STAGE10_COMPARISON_FREEZE.md), [implementation queue](TODO.md).
 
 ## Historical status snapshots (superseded)
 

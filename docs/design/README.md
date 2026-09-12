@@ -13,6 +13,8 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
   September 12. The supplied prototype study is adopted; local implementation and
   discarded interface checks begin in Gear 2 with CPU cooling limits retained.
 
+- **Stage 10 comparison plan:** [three frozen strategy comparisons](STAGE10_COMPARISON_FREEZE.md), recorded before evaluation answers are opened; remaining controls and branches stay in scope.
+
 - **Execution recovery adopted 2026-09-10:** [Stage 9 addendum](STAGE9_EXECUTION_ADDENDUM.md)
   makes acceptance local to a finite selected tranche, retains the original cap/clock,
   and limits recovery to two active hours for scope plus four for integration.

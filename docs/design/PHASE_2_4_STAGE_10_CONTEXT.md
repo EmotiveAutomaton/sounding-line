@@ -72,3 +72,12 @@ and unavailable-source outcomes remain legitimate dispositions.
 4. Selected interventions, second human source, frozen evaluation and second
    model contrasts; optional cloud package prepared without activation.
 5. Complete comparison analysis, prototype examples, costs and scoped report.
+
+## Central evaluation comparisons frozen, September 12
+
+The [comparison freeze](STAGE10_COMPARISON_FREEZE.md) fixes three strategy pairs
+before target evaluation access. Required plain, procedure-only, naming and
+confidence-only comparisons remain alongside them. Existing exposed cohorts
+stay descriptive; this declaration neither closes a scientific cell nor drops
+the remaining source and intervention branches. Its receipt binds current
+cohort identities and preserves the pre-access identifier correction.

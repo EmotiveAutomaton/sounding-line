@@ -107,3 +107,17 @@ The two naming conditions retain identical definitions and episodes. Both
 constructed whole-queue and literal model checks pass; the first context-bound
 failure and original source bytes remain preserved. Science requires the exact
 revised pilot source/memory receipt. Full-cell analysis is still separate.
+
+`human_effort_readers.py` and `human_effort_proposal.py` connect the same human
+evidence and approximate executable rules to the existing effort controller.
+The first read reserves 256 tokens; retrieval or two rule proposals share the
+remaining 512. `human_effort_queue.py` collects discarded/development forecasts
+without target outcomes. Constructed whole-queue and controller checks pass;
+the literal model pilot is still required. One development writer cannot
+validate general routing benefit and unsupported strata retain the first read.
+
+`human_effort_fit.py` verifies the complete development producer with model and
+executor access disabled before opening its frozen development outcomes. The
+constructed fit and immutable-policy replay checks pass. The actual discarded
+pilot is queued; human scientific policy fitting remains pending. Central
+evaluation comparisons are recorded in `docs/design/STAGE10_COMPARISON_FREEZE.md`.
