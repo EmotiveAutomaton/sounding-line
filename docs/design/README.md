@@ -7,7 +7,7 @@ for one thing we intend to build, dormant until that build is scheduled, and the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
 the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-## Current orientation (2026-09-09)
+## Current orientation (2026-09-12)
 
 - **Execution recovery adopted 2026-09-10:** [Stage 9 addendum](STAGE9_EXECUTION_ADDENDUM.md)
   makes acceptance local to a finite selected tranche, retains the original cap/clock,
@@ -18,8 +18,10 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
   folder's top level; closed phases move whole into [`archive/`](archive/), never deleted,
   with every repository reference rewritten at the move.
 - **Active stage:** [Stage 9](PHASE_2_4_STAGE_9_CONTEXT.md), commissioned 2026-09-06.
-  The adopted 28-job selection has launched in Gear 2; the wider matrix remains deferred. [Scheduling review](STAGE9_FORECAST_REVIEW.md)
-  records the selected scope, conservative allowance and unchanged deadline.
+  The adopted selection and separately authorized overnight continuation have completed, with their
+  [final scoped packet](../../results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md) accepted descriptively (L384).
+  The wider matrix remains deferred. [Scheduling review](STAGE9_FORECAST_REVIEW.md)
+  records final scope/accounting and preserves the original campaign horizon.
   [Current status](../../CURRENT_STATUS.md) is the short operational handoff.
 - **Latest theory maintenance:** the [2026-09-07 errata](archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md)
   was applied to the current theory on 2026-09-09, preserving intervening corrections.

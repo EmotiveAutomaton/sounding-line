@@ -5,7 +5,13 @@
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
 archive, kept whole, mined but never deleted.
 
-## Active overnight continuation - authorized and launched 2026-09-11
+## Selected Stage 9 closeout complete - 2026-09-12 UTC
+
+L384 and the [final selected packet](results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md) close the two authorized queues and their separate final review. No compute job is running. The full agenda remains incomplete, with 632 catalog jobs explicitly deferred. Gear 2 authorization and CPU cooling limits remain; final delivery does not launch a new scope.
+
+- [ ] L384: curator review of the completed competence/maker/substrate maps before selecting another bounded inference branch. Recommend retaining all original sample/control requirements and choosing an explicit resource limit; no new branch is authorized by this packet.
+
+## Completed overnight continuation - authorized and launched 2026-09-11
 
 - [x] Implement curator-requested estimated wake scheduling and durable project/shared rules; verify runtime and uninterrupted scientific worker (OPS-WAKE-PACING-1).
 - [x] Record the first actual scheduled owner delivery and complete its liveness inspection before ACK (OPS-WAKE-PACING-1).
@@ -44,7 +50,8 @@ archive, kept whole, mined but never deleted.
 - [x] Verify and internally land the complete overnight evidence index, original attempt ledger and selected/deferred scope; retain all original failures (OPS-S9-RECOVERY-1).
 - [x] Assemble the private twelve-corpus/seventeen-checkout readiness draft from existing evidence and verify its record bindings; final packet integration remains pending.
 - [x] Draft all twelve extension attack dispositions with verified evidence bindings and explicit limits; final combined integrity and packet acceptance remain pending.
-- [ ] Complete overnight reconciliation, fresh final calculations and the scoped final packet using the saved evidence. Original-ledger reconstruction is complete and acknowledged; byte-identical fresh-process reproduction is running; the overnight evidence index is complete and inspected. Compare the complete reproduced ledger exactly, finish extension integrity and manual packet review; final scientific acceptance remains pending. No repeated experiments or new scope is authorized by completion wakes.
+- [x] Verify fresh-process original-ledger reproduction: entire ledger, fourteen components and attempt ledger match exactly; compiled sources, pinned inputs and native exit verify (OPS-S9-RECOVERY-1).
+- [x] Complete combined extension integrity, all eight case-type populations, final claims and the separate scoped packet; retain the exact original-ledger reproduction, both original failed audits and unrun original packet (L384).
 - [x] Correct the runner README status link after the scientific queue and first inspector close; preserve original source bytes in the repair archive.
 
 ## Active Stage 9 recovery ? launched 2026-09-10
@@ -69,10 +76,10 @@ archive, kept whole, mined but never deleted.
 - [x] Fully inspect and retain final-integrity allocation failure and one permitted retry; restore launch allocation with unchanged gear and retained thermal limits.
 - [x] Close the final-audit consumer branch after the second native-process identity defect; preserve both failures and mark the original packet NOT RUN WITH REASON.
 - [x] Curator separately authorized closure repair and the finite overnight continuation on September 11; preserve the original exhausted branch and both failures.
-- [ ] L373-L377: final selected integrity and accepted scoped packet remain unresolved; retain all scientific limits and both audit failures.
+- [x] L373-L383: separate scoped final integrity and the descriptive final packet accepted; all scientific limits, both original audit failures and original unrun packet retained (L384).
 
 
-Current machine and next outputs: [CURRENT_STATUS](CURRENT_STATUS.md). Source and manifest are frozen beneath the live queue. The original deadline and cap remain; no automatic refill or extension. This adopted recovery replaces the older broad preparation priority below. Routine unchanged-receipt checks and arithmetic create no fresh study obligations.
+Current machine and next outputs: [CURRENT_STATUS](CURRENT_STATUS.md). Both scientific queues are terminal; their original source and manifest bytes remain preserved. The original deadline and cap remain; no automatic refill or extension. This adopted recovery replaces the older broad preparation priority below. Routine unchanged-receipt checks and arithmetic create no fresh study obligations.
 
 ## THE PLAN (overall plan for AI, not human consumption. The phases that are part of the plan are to be abbreviated, not removed, upon completion and record-transcribing to Findings/Theory. When a particular phase of the plan is complete, include that note as part of the test report.)
 

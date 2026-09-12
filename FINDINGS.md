@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-11.**
+**Last updated: 2026-09-12.**
 
 ---
 
@@ -52,7 +52,11 @@ interpretability at once, and the same word means different things in each.
 
 ## Where we are, in one paragraph
 
-**Audit reproduction has reached final service checks, September 11 at 7:47 p.m. Pacific.** Storage, operation, calibration, diagnostic, human-record and prepared-source reconstruction have returned; final service checks are active, with no terminal receipt or error. Empty component scopes remain empty. The same native process has advancing CPU/read counters; all 382 frozen sources verified at the main inspection. Both scientific queues remain finished and internally landed, with no GPU experiment active. Gear 2 authorization and CPU boost-off/90% maximum remain; latest readings are CPU73.3C/GPU42C. The prior 7:45 p.m. reproduction estimate has passed. Exact completion/failure monitoring remains active, with an 8:03 p.m. Pacific fallback check. Full ledger equality, combined integrity, case selection and final packet validation remain owed. Original failures, 632 deferred jobs and pending scientific acceptance are explicit.
+**Selected Stage 9 closeout complete, September 11 Pacific / September 12 UTC.** Both scientific queues and the separately authorized final review are complete. The original ledger reproduces exactly, the overnight extension and all eight case types are reconciled, and L384 accepts the selected findings as descriptive evidence. Executing complete supplied knowledge outpredicts direct reading; interactive action varies by package, finite-rule consistency fails, and human future-revision prediction has no resolved lexical advantage over cheap rivals. The full agenda remains incomplete: 632 job declarations are deferred, both original audit failures remain and the original packet job is still unrun. The [separate final packet](results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md) is the current synthesis. Gear 2 authorization and CPU cooling limits remain; no experiment or obsolete completion timer is active. Next is curator review before another bounded scope.
+
+**Dated operational history below; final scientific disposition is L384.**
+
+**Independent audit reproduction verified, September 11 at 7:50 p.m. Pacific.** The original ledger, all fourteen component files and retained attempt ledger reproduce byte for byte. Both audit processes have exited; all 120 compiled sources, 382 frozen source files and thirteen pinned inputs verify. Both scientific queues are finished and internally landed, with no GPU experiment active. Gear 2 authorization and CPU boost-off/90% maximum remain. The obsolete reproduction check-in is being retired. Combined integrity, complete case populations and final packet validation are the remaining work. Original audit failures, the unrun original packet and 632 deferred catalog jobs remain explicit; scientific acceptance is still pending.
 
 **Overnight continuation running in Gear 2, 2026-09-11.** The curator explicitly authorized additional audit repair and existing Stage 9 experiments through the night, with at least ten hours of estimated GPU work and continued operation until they return. A separate 26-job queue is launch-accepted and observed running: fourteen archived-Qwen/SmolLM diagnostic executions, six calibration checks and six complete grouped analyses. Existing pilot rates give 12.61 GPU hours under the observed call-mixture scenario, 23.32 under the full-declared-call scenario, plus 1.12 CPU hours. These are conditional estimates, not guaranteed duration or measured device utilization. Prior preparation and scientific work remain charged within the unchanged 92 GPU-hour cap; the conservative combined plan is 67.53 hours. CPU boost-off/90% AC maximum remains active. The original 26-complete/one-failed/one-not-run queue and both audit failures remain unchanged; final scientific acceptance is still owed.
 
@@ -17010,6 +17014,8 @@ The real development baseline trains on 3,470 opportunities and predicts 723 of 
 
 ## L373 · Executing the complete supplied program outpredicts the first direct reader
 
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
+
 **Hypothesis.** Explicit execution predicts the next action better than a direct neural reader even when both receive the complete operative program and current state. Removing the program code is a separate information ablation.
 
 **METHOD.** Ran the frozen Qwen2.5-1.5B-Instruct base package on all 192 discovery maker-series assignments, balanced across constructed essay and workshop-document worlds. For each prospective target, compared direct reading of the complete executable law and numeric state with restricted execution of that same law/state, direct reading with the code omitted, and a uniform distribution over the complete offered action set including stopping. The executed program independently agrees with the constructor consequences. Analysis groups identical operative questions before paired resampling; this sample has 192 distinct questions. The saved profile uses 4,000 paired cluster bootstrap draws with the fixed seed 9011. No new model call, fitting or reserve opening occurs during this inspection.
@@ -17035,6 +17041,8 @@ Evidence: original outputs under `private/scientific-neural-operations/supplied-
 **Curator roll-up.** Theory group: operative knowledge and inference. Question: does executing the supplied program improve prediction when direct reading receives the same complete information? Outcome: Strengthens. Result: explicit execution has a positive descriptive advantage on the completed base-package comparison. Project meaning: a bounded execution advantage survives matched operative information in this package, while its wider scope remains unaccepted. Next engineering obligation: land the remaining packages, complete selected final integrity, then present one scoped packet. Public claim: unchanged pending the complete selected comparison and final audit. Curator decision required: No. Detail: L373 and the original profile/inspection above.
 
 ## L374 - Supplied code helps the archived reader, but direct prediction remains below the floor
+
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
 
 **Hypothesis.** Explicit execution predicts the next action better than the archived neural reader when both receive the complete operative program and current state; adding the code to numeric state separately tests the effect of supplying procedural information.
 
@@ -17062,6 +17070,8 @@ Evidence: the original producer, calibration consumer and analysis under `privat
 
 ## L375 - The second base reader also falls below the uniform floor with the complete program supplied
 
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
+
 **Hypothesis.** Explicit execution predicts the next action better than the second family's base neural reader when both receive the same complete operative program and current state. Removing code separately tests information addition.
 
 **METHOD.** Ran the pinned SmolLM2-1.7B-Instruct package without an adapter on all 192 discovery maker-series assignments: 96 constructed essay and 96 workshop-document worlds. Compared direct reading of the full executable law and numeric state, restricted execution of that same law/state, direct reading with code omitted, and a uniform distribution over the entire offered action set including stopping. Executed probabilities independently agree with the constructor. Analysis groups identical operative inputs before paired resampling; all 192 questions are distinct here. The original profile uses 4,000 paired cluster bootstrap draws with fixed seed 9011. These are the same discovery units used for both Qwen packages, not a fresh sample to pool with them. Saved-evidence reconstruction makes no new model calls, fits or reserve openings.
@@ -17088,6 +17098,8 @@ Evidence: original `private/scientific-neural-operations/supplied-smollm-base`, 
 
 ## L376 - Code helps the second archived reader, while explicit execution retains its advantage
 
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
+
 **Hypothesis.** Explicit execution predicts the next action better than the archived SmolLM reader when both receive the same complete operative program and current state. Removing code separately tests the contribution of that information.
 
 **METHOD.** Ran the pinned SmolLM2-1.7B-Instruct package with its existing archived adapter on all 192 discovery maker-series assignments: 96 constructed essay and 96 workshop-document worlds. Compared direct reading of the full executable law and numeric state, restricted execution of the same law/state, code-omitted reading and the uniform distribution over the entire action set including stopping. The executed probabilities agree independently with the constructor. Analysis groups identical operative inputs before paired resampling; all 192 questions are distinct here. The original analysis uses 4,000 paired cluster bootstrap draws with fixed seed 9011. These are the same questions used for the other three packages, not additional population samples. Saved-evidence reconstruction invokes no model, fit or reserve opening.
@@ -17113,6 +17125,8 @@ Evidence: original `private/scientific-neural-operations/supplied-smollm-archive
 **Curator roll-up.** Theory group: operative knowledge and inference. Question: does the second archived reader use the supplied program as reliably as execution? Outcome: Strengthens. Result: explicit execution retains its descriptive advantage across all selected packages. Project meaning: information addition helps the archived interfaces without eliminating their consequence-prediction gap. Next engineering obligation: complete ArgRewrite and selected final integrity, then present one scoped packet. Public claim: unchanged pending the final audit. Curator decision required: No. Detail: L376 and the original profile/inspection.
 
 ## L377 - Lexical features add little to retrospective revision labels and no resolved advantage to the next-cycle forecast
+
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
 
 **Hypothesis.** A fitted lexical model improves agreement with recorded revision-purpose annotations beyond a cheap comparator selected on separate development essays, and access to earlier versions and annotations improves the forecast of later revision purposes.
 
@@ -17158,6 +17172,8 @@ Evidence: original `private/scientific-revision-analysis/argrewrite-v1/main/eval
 **Curator roll-up.** Theory group: decision traces and controlled revision. Question: do lexical features and earlier records improve revision-purpose prediction beyond cheap alternatives? Outcome: Narrows. Result: the lexical increment is retrospective, with no resolved advantage over cheap rivals for future purposes. Project meaning: record access and annotation recovery need task-specific validation before they support claims about continuing intentions. Next engineering obligation: finish selected integrity and the single scoped packet. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L377 and the original comparison profile.
 
 ## L378 - Action assistance changes the archived reader's rollout horizon without establishing full generation
+
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
 
 **Hypothesis.** Offering actions, supplying their outcomes, periodically restoring the genuine state, and showing an artifact instead of its process record distinguish components of the archived reader's difficulty sustaining a legal process.
 
@@ -17205,6 +17221,8 @@ Evidence: the original archived-Qwen rollouts profile and completion under `priv
 
 ## L379 - Altering a history at the same operative state has no resolved score effect; generated histories provide no matched comparison
 
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
+
 **Hypothesis.** A reader's prospective prediction changes when an original history is replaced by another legal history or a generated history that reaches exactly the same operative state.
 
 **METHOD.** Used all 192 assigned constructed discovery worlds and the same archived Qwen scorer. An altered history qualifies only when it preserves the complete operative state, clock and previous action. Both histories are scored against the same genuine next-action target with the full common support. The separately generated history uses the actual three-interaction prefix and is scored only if it reaches that same state; no replacement is supplied for a failed match. Every failed construction remains in the allocation. Domain-specific construction requires at least 75% of assigned original/altered pairs to be realized before their conditional score contrast is reported.
@@ -17229,6 +17247,8 @@ Evidence: original archived-Qwen prefix profile and completion under `private/sc
 **Curator roll-up.** Theory group: expertise and state-sensitive prediction. Question: does changing history at fixed operative state change prediction? Outcome: Narrows. Result: the realized altered-history contrast is unresolved and generated histories supply no matched comparison. Project meaning: this interface does not identify a generated-history prediction penalty. Next engineering obligation: retain the missing comparison and full assistance limits in final integrity and the single packet; finish the queued second-family profiles. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L379 and the original complete prefix profile.
 
 ## L380 - The supplied finite-rule reader answers no throughout and fails every projection's consistency battery
+
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
 
 **Hypothesis.** Given explicit finite execution rules, the archived reader correctly preserves equivalent futures and distinguishes states with different legal continuations, including differences that require more than one action to reveal.
 
@@ -17255,6 +17275,8 @@ Evidence: original archived-Qwen finite profile and completion under `private/sc
 **Curator roll-up.** Theory group: expertise and coherent consequences. Question: can the reader use supplied rules to preserve and distinguish possible futures? Outcome: Narrows. Result: the constant response fails every projection's paired correctness battery. Project meaning: simple query accuracy would overstate the demonstrated competence. Next engineering obligation: retain this failed diagnostic in the final scoped packet and finish existing second-family comparisons and final integrity. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L380 and the original complete finite profile.
 
 ## L381 - The second archived reader sustains stepwise action but still fails the artifact interface
+
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
 
 **Hypothesis.** Offering actions, supplying their outcomes, periodically restoring the genuine state, and showing an artifact instead of its process record distinguish components of the archived reader's difficulty sustaining a legal process.
 
@@ -17302,6 +17324,8 @@ Evidence: original archived-SmolLM profiles and completion receipts under `priva
 
 ## L382 - Altered histories have no resolved score effect; one generated match cannot support uncertainty
 
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
+
 **Hypothesis.** A reader's prospective prediction changes when an original history is replaced by another legal history or a generated history that reaches exactly the same operative state.
 
 **METHOD.** Used all 192 assigned constructed discovery worlds and the same archived SmolLM scorer. An altered history qualifies only when it preserves the complete operative state, clock and previous action. Both histories are scored against the same genuine next-action target with the full common support. The separately generated history uses the actual three-interaction prefix and is scored only if it reaches that same state; no replacement is supplied for a failed match. Every failed construction remains in the allocation. Domain-specific construction requires at least 75% of assigned original/altered pairs to be realized before their conditional score contrast is reported.
@@ -17327,6 +17351,8 @@ Evidence: original archived-SmolLM profiles and completion receipts under `priva
 
 ## L383 - Variable finite-rule answers still fail every projection consistency battery
 
+**Final disposition (L384):** accepted as descriptive evidence in the separate selected closeout; the original pending-integrity statements below retain their chronology and all substantive limits remain.
+
 **Hypothesis.** Given explicit finite execution rules, the archived reader correctly preserves equivalent futures and distinguishes states with different legal continuations, including differences that require more than one action to reveal.
 
 **METHOD.** Retained all 192 original source assignments but grouped their repeated input-and-truth projections into eight distinct reader units. Each unit supplies explicit compact rules and the same fixed 48 yes/no queries across equivalent and distinguishable states. The bounded rule interpretation is exhaustively checked against the original exact constructor before using reader answers. A compression pair must have matching truth and both answers correct; a distinction pair must have opposite truths and both answers correct. Longer distinctions require more than one action. A tie earns no distinguishing credit. Passing a projection requires every applicable pair to be correct; all queries and original aliases remain recorded.
@@ -17351,7 +17377,64 @@ Evidence: original archived-SmolLM profiles and completion receipts under `priva
 
 **Curator roll-up.** Theory group: expertise and coherent consequences. Question: can the reader use supplied rules to preserve and distinguish possible futures? Outcome: Narrows. Result: variable responses fail every projection's paired correctness battery. Project meaning: neither tested archived package demonstrates this supplied-rule competence. Next engineering obligation: retain dependent aliases, ties and failed requirements in scoped final integrity and the single packet. Public claim: unchanged pending final audit. Curator decision required: No. Detail: L383 and C04-S9.
 
+## L384 - Final selected Stage 9 synthesis: consequences, interactive competence and revision prediction
+
+**Hypothesis.** Complete supplied knowledge should support reliable consequences, and earlier records should improve prediction beyond cheap alternatives.
+
+**METHOD.** Compared four neural packages with exact execution on shared constructed worlds, compared both archived readers under action and state assistance, and evaluated feature models on separately partitioned, historically exposed human revisions.
+
+**Finding.** Executing the supplied program beats direct reading of the same information in every package. The archived readers differ sharply in sustained interactive action; neither passes the supplied finite-rule consistency battery. Lexical features add small retrospective annotation gains but no resolved advantage over cheap rivals for forecasting the next revision cycle.
+
+**Meaning.** These are accepted descriptive findings within the selected scope. They distinguish tested capabilities without establishing whole-process generation, an internal learning mechanism or general recovery of a maker's intentions.
+
+**Final scoped acceptance, September 11 Pacific / September 12 UTC.** The adopted execution addendum and subsequent explicit overnight repair authorization govern this separate closeout. Original supplied-information and ArgRewrite claim prerequisites pass the existing scoped integrity and claim checks. All 26 overnight jobs are reconciled against their separately accepted manifest and permitted package-specific competence scope. This accepts the descriptive interpretations in L373-L383 under their exact limits. It does not grant confirmation or change the original global final-packet gate. The old audit remains FAILED after two retained attempts and its original packet remains NOT RUN WITH REASON; the new report is a separately reviewed scoped deliverable.
+
+**METHOD of final integrity.** Reconstructed the complete original ledger in a fresh process using the reviewed native-identity repair. The ledger, fourteen component files and all-original-attempts ledger match the prior completed reconstruction byte for byte. All 120 compiled sources, 382 frozen source files and thirteen pinned inputs verify; both worker and launcher have exited. Changed-source and omitted-repair negative controls refuse. For the overnight addition, the completed index verifies 249,652 saved files and all 26 producer/consumer commits. Each of fourteen producer inspections verifies its original units, actual saved calls, capsules, copied sources, denial evidence and resident-service requests. Six calibration consumers and six complete grouped profiles retain exact output identities. All 229 final evidence pointers were rechecked. This is internal reproduction and review, not independent external replication. No model calls, new fits, new p-values or reserve openings occur in this closeout.
+
+**What changes, and what remains open.** The matched-information execution advantage survives the original information-boundary objection, within the four pinned interfaces. Archive-versus-base differences do not isolate a causal training effect or size. SmolLM's sustained named actions prevent generalizing Qwen's short interactive horizon to both packages, but neither action counts nor stepwise checked claimed outcomes establish correct stopping, policy quality or the historical full-log generation criterion. Artifact-interface failures do not prove that process information is absent from artifacts. Altered-history score intervals spanning zero do not establish distributional invariance; generated histories supply no adequately supported population contrast. Both finite-rule packages fail all eight independent projection batteries, despite different response patterns. The exposed human revision comparison concerns annotations and bounded lexical features, not independently established governing intentions. Its retrospective and future tasks remain separate from earlier candidate-set recovery findings.
+
+The table gives the complete populations used for the fixed-seed illustrations. Eligible observations may repeat a source question across packages or conditions; groups are distinct original source questions, not new people or independent replications. All types were declared by the original policy. Population definitions were selected by the operator after observing the results and before applying the unchanged illustration seed, so the illustrations are descriptive rather than prospectively preregistered tests.
+
+| Illustration type | Eligible observations / distinct groups | Disposition |
+|---|---:|---|
+| First invalid generated action | 386 / 132 | Complete first-failure population across 1,920 stepwise trajectories; whole-log generation remains a separate unrun battery |
+| Helpful genuine context | 66 / 55 | Every realized eight-action reset benefit across both packages; all losses, ties and missing resets remain in the full study |
+| Cheap-baseline victory | 429 / 173 | Every uniform-floor victory across all 768 supplied-information observations; no selection by effect magnitude |
+| Useful local repair | 0 / 0 | No selected local-repair operation; resets are supplied assistance |
+| Predictable maker signature | 0 / 0 | No selected individual-adaptation or signature comparison |
+| Unsupported confident explanation | 0 / 0 | No selected explanation-confidence test; invalid actions are not explanations |
+| Harmful false context | 0 / 0 | No selected false-context confidence-and-accuracy intervention |
+| Persistent inferential ambiguity | 0 / 0 | No selected posterior over rival maker histories; finite equivalence and missing prefix matches are different questions |
+
+The original seed 9260604 selects one example from each nonempty complete population. All 2,688 original unit files used for the roster were byte-checked against committed outputs. The selected examples and population hashes are in the final packet. Reversing roster order preserves all selections. Five absent types remain absent; no human raw text is exported. Repeated initial questions give 132 independent rollout groups and 192 supplied-information questions. No example substitutes for the complete family/domain tables in L373-L383.
+
+**Coverage and controls.** The public ledger keeps all 42 cards and 632 still-deferred original job declarations. Original terminal jobs are 26 COMPLETE, one FAILED and one NOT_RUN; the overnight queue has 26 COMPLETE. These yield 52 completed jobs and two failed audit attempts, not 54 independent studies. Every one of the twelve attacks has an executed, explicitly compatible inherited or inapplicable disposition with a reason. Shared leakage, support, grouping and source checks remain required. Fixed rendering does not establish wording invariance. The actual inherited interruption was a CPU kernel job, not a newly performed GPU kill/resume. Numerical scorer calibration uses the previously documented amended envelope and retains its original failure; it does not calibrate generation precision. Empty audit components remain empty. The readiness register distinguishes twelve corpus records and seventeen inherited checkouts from executable operations, reproduced anchors and new scientific results; only the selected ArgRewrite branch adds a human-corpus scientific result here.
+
+**Resource and operational closure.** Both scientific queues and the fresh reproduction are complete. Queue GPU reservation totals 61,830.989956378937 seconds (17.175 hours), including 12.973 overnight. Adding the retained conservative preparation allowance of 40 hours gives 57.175 accounted hours against the unchanged 92-hour ceiling. Reservation is not measured utilization; the allowance is not measured preparation use. Separate closed CPU/I/O inspection intervals are retained, including 15,048.774347543716 seconds for fresh reproduction. Manual operator time, failed helper setup and unobserved utilization remain unmeasured, not zero. No obsolete completion wake remains scheduled. Gear 2 authorization and the CPU boost-off/90% maximum setting remain; no deferred experiment is launched by this final packet or wake.
+
+**Next decision.** Review the completed findings before selecting another finite inference branch from the deferred agenda. The strongest objection is that this selection delivered mostly diagnosis, with little direct evidence of individual-maker inference. A later branch should use an operation-competent reader, independent recorded truth and a strong cheap rival under an explicit resource limit. This is an analyst recommendation for discussion, not curator ratification, a newly designed experiment or next-stage authorization. No research tests were harvested from the operational wake.
+
+**Evidence and reproduction.** [Final selected packet](results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md) and [complete machine-readable scoped ledger](results/phase_2_4_stage_9/SCOPED_CLOSEOUT.json). Private original-ledger reproduction, combined review, complete case populations and exact reviewed packet remain under the Stage 9 private result root. The machine-readable export binds those local evidence paths and hashes without redistributing raw human data. Seven focused schema/claim/case checks pass: new-stage, full-stage and confirmation relabeling refuse; missing case type, changed audit hash and incomplete population review refuse; roster-order invariance holds. No global checker or scientific scoring source was changed for this publication.
+
+**Curator roll-up.** Theory group: operative knowledge and inference. Question: does complete information become reliable prediction without explicit execution? Outcome: Strengthens. Result: the execution advantage survives the matched-information comparison in the selected packages. Project meaning: having the operative program and realizing its consequences remain distinguishable capabilities. Next engineering obligation: preserve the scoped packet and discuss an explicit next inference target. Public claim: newly licensed as descriptive package-specific discovery; mechanism, confirmation and general maker inference remain forbidden. Curator decision required: Yes; recommended answer is review the completed scope before authorizing another bounded branch. Detail: L373-L376, L384 and the final packet.
+
+**Curator roll-up.** Theory group: expertise and decision traces. Question: do operational skills and earlier records already establish useful maker inference? Outcome: Narrows. Result: interactive skills vary while finite-rule and future-revision benefits remain unestablished in their tested scopes. Project meaning: these completed diagnoses leave the broader expertise-to-maker bridge open. Next engineering obligation: retain the separate operations, source limits and cheap rivals in the next decision. Public claim: newly licensed descriptive diagnostics; full generation and human-mechanism claims remain forbidden. Curator decision required: Yes; the same single recommended scope-review decision above. Detail: L377-L384 and the final packet.
+
 ## OPS-S9-RECOVERY-1: A complete selected branch can pass without completing unrelated branches
+
+### Independent original-ledger reproduction verified, September 11
+
+**Hypothesis.** A fresh process can reproduce the entire repaired original evidence audit exactly while retaining every original failure.
+
+**METHOD.** Ran the byte-identical worker, request and repair declaration in a separate native interpreter against the saved evidence. Independently compared the complete ledger as JSON and file bytes, all fourteen component files and the retained attempt ledger; verified compiled-source and execution receipts, every frozen source and pinned input, native worker and launcher exit, and both source-refusal controls. No reader calls, reserve openings or new experiments occurred.
+
+**Finding: EXACT REPRODUCTION VERIFIED; scientific acceptance remains pending.** The complete run exited zero after 15,048.77 seconds. Its ledger and all fourteen components match the first completed inspection byte for byte. All 120 compiled sources match the frozen 382-file configuration, and thirteen pinned inputs remain unchanged. Six empty component scopes remain empty; exact reproduction adds no scientific coverage. The original queue remains 26 complete, one failed and one not run, and the overnight queue remains 26 complete.
+
+**Meaning.** Fresh original-ledger reproduction is complete. The combined extension review, complete case populations and single scoped final packet remain owed. Both original failed audits and the original unrun packet remain unchanged. No new tests harvested, p-values or theory claims changed. The completion was observed by the active operator while handling the liveness wake; its queued notification is not claimed as a separate post-final delivery. The obsolete audit check-in is retired after this landing. The completed CPU inspection interval is added to the private resource draft, separately from GPU reservation and unmeasured operator overhead.
+
+Evidence: `private/scoped-final-reproduction-v1/COMPLETION_INSPECTION.json`, COMPLETE, EXECUTION and ORIGINAL_LEDGER beneath the Stage 9 result root. Ledger file SHA-256: `81eded18570ec458953e64736be2e0d46b05d9cbf69dde9e8a81b2387137b32d`.
+
+**Curator roll-up.** Theory group: operational integrity. Question: does a fresh process reproduce the complete original audit without erasing failures? Outcome: Infrastructure. Result: the entire original evidence ledger reproduces exactly. Project meaning: original reconstruction is verified for the scoped closeout. Next engineering obligation: finish combined integrity, complete case populations and packet validation. Public claim: unchanged pending final packet. Curator decision required: No. Detail: OPS-S9-RECOVERY-1 and the reproduction completion inspection.
 
 ### Original selected ledger reconstructed under the authorized repair, September 11
 

@@ -1,15 +1,31 @@
 # Stage 9 scheduling constraint
 
+## Final selected outcome - 2026-09-12 UTC
+
+The selected research and separate scoped closeout are complete. [Final packet](../../results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md); full acceptance and limits in FINDINGS L384. The following current table supersedes the dated launch and forecast records retained below.
+
+Each row states the selected outcome, its accounting or the next decision; it is not a forecast for completing the deferred full stage.
+
+| Decision field | Final selected outcome |
+|---|---|
+| Queue | Original queue: 26 complete, one failed audit, one unrun packet. Overnight queue: all 26 complete. No active GPU or audit worker; both original failed audit attempts remain charged. |
+| Scientific acceptance | Separate authorized repair reproduces the complete original ledger exactly; the complete overnight index, all applicable scoped controls and final manual packet are verified. Descriptive package-specific and exposed-corpus findings only; no confirmation or full-stage completion. |
+| Coverage | All 42 cards retain explicit original/overnight selections and reasons. 632 catalog job declarations remain deferred; incomplete cards are not promoted to completed cards. |
+| Resources | Actual queue GPU reservation 17.175 hours, including 12.973 overnight. With the retained conservative 40-hour preparation allowance, 57.175 accounted hours against the unchanged 92-hour ceiling. CPU audit/I/O and unmeasured operator costs remain separate; allowance is not measured utilization. |
+| Integrity | Fresh original ledger, fourteen components and attempt history reproduce exactly; all 120 compiled sources, 382 frozen files and thirteen pinned inputs verify. The overnight addition retains fourteen producers, six calibration checks and six complete profiles. Twelve attacks and eight complete case-type rosters are explicitly reviewed. |
+| Operating state | Gear 2 authorization and CPU boost-off/90% maximum remain. The obsolete reproduction timer is retired. No experimental expansion follows automatically from this closeout. |
+| Next decision | Curator review of the completed competence/maker/substrate synthesis before choosing one further bounded inference branch with a declared resource limit. The main objection is that the selected work delivers mostly diagnosis, with little direct individual-maker inference. |
+
 ## Adopted execution recovery — 2026-09-10
 
-**Overnight continuation running in Gear 2, 2026-09-11.** The curator explicitly authorized additional audit repair and existing Stage 9 experiments through the night, with at least ten hours of estimated GPU work and continued operation until they return. A separate 26-job queue is launch-accepted and observed running: fourteen archived-Qwen/SmolLM diagnostic executions, six calibration checks and six complete grouped analyses. Existing pilot rates give 12.61 GPU hours under the observed call-mixture scenario, 23.32 under the full-declared-call scenario, plus 1.12 CPU hours. These are conditional estimates, not guaranteed duration or measured device utilization. Prior preparation and scientific work remain charged within the unchanged 92 GPU-hour cap; the conservative combined plan is 67.53 hours. CPU boost-off/90% AC maximum remains active. The original 26-complete/one-failed/one-not-run queue and both audit failures remain unchanged; final scientific acceptance is still owed.
+**Historical overnight launch in Gear 2, 2026-09-11 (now complete).** The curator explicitly authorized additional audit repair and existing Stage 9 experiments through the night, with at least ten hours of estimated GPU work and continued operation until they return. A separate 26-job queue is launch-accepted and observed running: fourteen archived-Qwen/SmolLM diagnostic executions, six calibration checks and six complete grouped analyses. Existing pilot rates give 12.61 GPU hours under the observed call-mixture scenario, 23.32 under the full-declared-call scenario, plus 1.12 CPU hours. These are conditional estimates, not guaranteed duration or measured device utilization. Prior preparation and scientific work remain charged within the unchanged 92 GPU-hour cap; the conservative combined plan is 67.53 hours. CPU boost-off/90% AC maximum remains active. The original 26-complete/one-failed/one-not-run queue and both audit failures remain unchanged; final scientific acceptance is still owed.
 
 **Prior closure, before the new overnight authorization.** **Selected execution closed with failed final integrity, 2026-09-11.** All selected experiments finished and are internally documented, but the final audit failed twice. Its first failure came from thermal-response metadata changing a pinned allocation record; exact launch allocation bytes were restored without changing Gear 2, GPU availability or CPU limits. The one retry then failed while inspecting a historical native process identity. Under the stage repair rule, the audit consumer branch is closed and the packet is explicitly NOT RUN WITH REASON. The queue is terminal: 26 complete, one failed and one not run. Both failed attempts remain retained and charged. No successful final integrity, accepted scientific packet or full-stage completion is claimed. Further closure repair needs a separately authorized scope.
 
 The curator adopted the [execution addendum](STAGE9_EXECUTION_ADDENDUM.md) after
 operator review. The smaller scope supersedes the earlier recommendation to finish
 costing the entire workload. It does not extend the campaign or declare Stage 9 complete.
-The decision below uses existing pilots; all numbers remain conditional planning assumptions.
+The historical launch decision below used existing pilots; its numbers remain conditional planning assumptions, superseded by the final selected outcome above.
 
 This table describes the selected work, its limits, and what must happen next.
 
