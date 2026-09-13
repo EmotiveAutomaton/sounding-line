@@ -158,8 +158,8 @@
         "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
       },
       "recovery_of": null,
-      "status": "SUBMITTED",
-      "owner_ended": false,
+      "status": "CANCELLED",
+      "owner_ended": true,
       "provider_charge_cents": null,
       "service_estimate_cents": null,
       "est_actual_dollars": 0.28,
@@ -170,6 +170,32 @@
           "from": "RESERVED",
           "to": "SUBMITTED",
           "evidence": null
+        },
+        {
+          "at": 1789324407.0517938,
+          "from": "SUBMITTED",
+          "to": "UNKNOWN",
+          "evidence": {
+            "error": "RemoteError('')",
+            "cancellation": {
+              "call_cancel_requested": true,
+              "app_stop": {
+                "app_id": "ap-WUjKm5DZCMRhr3IVxXlJEf",
+                "status": "stop requested; final ownership still requires verification"
+              }
+            }
+          }
+        },
+        {
+          "at": 1789324929.444803,
+          "from": "UNKNOWN",
+          "to": "CANCELLED",
+          "evidence": {
+            "reason": "explicit owner Gear 3 hold",
+            "termination_receipt_sha256": "784cb5eaa61ed08fd1fd3616fb362f5a686b2573d015d6e17736314bcd4ed3ca",
+            "provider_state": "STOPPED",
+            "running_tasks": 0
+          }
         }
       ],
       "call_id": "fc-01M2E06XH70DYKCJZV7C73EHW0"

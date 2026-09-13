@@ -172,3 +172,27 @@ after a complete producer. A single development writer admits no learned extra
 route. The discarded eight-call pilot and complete constructed replay checks pass.
 `earlier_effort_chain.py` runs development, fit and evaluation once, serially,
 with terminal guards and no automatic recovery of ambiguous ownership.
+
+`local_runway.py` and `await_local.py` implement a finite, source-frozen local
+dependency queue and native predecessor wait. Independent branches continue
+after failures; interrupted ownership refuses and complete inventories replay.
+`revision_source.py`, `revision_programs.py`, `revision_memory.py`,
+`revision_proposal.py`, `revision_readers.py` and `revision_bank.py` implement
+source-native ScholaWrite edit targets, whole-project roles, discarded boundary
+admission, all six strategies and development-only effort fitting. Historical
+Stage 9 and Stage 10 reader source bytes remain unchanged.
+
+`local_comparator.py` binds the installed second local model before requests
+are written. `argrewrite_reader.py` preserves a small whole-essay continuity
+anchor, equal-essay scoring and once-per-forecast costs. `reading_effort.py`
+applies reserved budgets before request binding and retains actual native
+reconstruction semantics. Literal admission remains required per new branch.
+
+`comparison_inputs.py`, `comparison_bank.py` and `followon_analysis.py` join
+only complete frozen cells, preserving source groups, invalid forecasts and
+costs. History intervention has a separate exact-evidence-change comparison;
+it cannot bypass the ordinary identical-evidence strategy guard.
+`runway_packet.py` assembles dispositions, numerical analyses, retained sources
+and worked-example candidates privately. Its COMPLETE receipt is not a final
+scientific verdict. The single stage packet still requires agent inspection
+and the full internal write-through. See the local runway design in docs/design.

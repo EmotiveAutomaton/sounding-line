@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-13T18:27:26.848554+00:00.
+Updated 2026-09-13T20:24:32.140931+00:00.
 
-**Local queue:** The earlier-draft effort extension is complete and fully internally landed: 24 development routes, a frozen policy fit and 282 evaluation policy routes. The 498 original model calls and all retained evidence reconcile. Native worker and wrapper exited; the GPU lock is released. No local scientific process is currently running. Gear 2 and CPU boost-off/90% maximum remain authorized. [Producer](results/phase_2_4_stage_10/EARLIER_EFFORT_PRODUCER.json).
+**Local queue:** Stage 10 is running in Gear 2. The current four-job ScholaWrite scientific bank is followed automatically by a frozen 51-job local queue, including 23 GPU jobs. It covers all five prepared project rotations, a second local model, the small ArgRewrite continuity anchor, synthetic adaptive effort, complete comparisons and final-review assembly. Both native controller identities are verified; the follow-on controller is waiting for the current bank. CPU boost-off and 90% AC maximum remain. [Runway](docs/design/STAGE10_LOCAL_RUNWAY.md).
 
-**Gear 3:** The commissioned Gear 3 discarded pilot is launched: CPU caching is submitted through the guarded entry point, followed only on verified completion by the L40S pilot. The fixed chain reserves at most $2.45 within the $3 pilot cap, with the lower account limit and repair reserve retained. Native supervision records identities and terminal outputs; no periodic agent polling. Scientific dispatch awaits full literal-pilot inspection and a measured affordable plan. [Launch](results/gear3/G3-S10-READER-1/PILOT_LAUNCH.json).
+**Gear 3 held, September 13:** the owner withholds release while the remaining local Stage 10 work is built. New dispatch refuses before cloud reservation. The already-submitted CPU cache app is verified stopped with zero running tasks; no cloud GPU invocation occurred. Its 28-cent reservation and original failure records remain retained pending final billing reconciliation.
 
-**Remaining and timing:** Stage 10 is unfinished. Complete common comparisons, selected Ghost interventions, the bounded second human source and final reporting remain; the code-ready queue has drained after the new extension. The week is a study planning envelope, not a requirement to occupy the GPU continuously. A rough remaining target is several days, around September 16-17, with uncertainty because the remaining branches are not all executable yet. This is an operator judgment, not a calculated completion forecast.
+**Remaining and timing:** The full finite local runway is built and source-frozen. Expect several days of useful work at prior local throughput, with final synthesis after complete comparisons. It can finish sooner than a calendar week and does not pad elapsed time. A failed branch retains its evidence and blocks dependent work; independent branches continue. No owner decision is currently required for local execution.
 
 The watcher is active with transition-only supervision and no liveness timer. The latest whole-chain event was acknowledged after full internal landing; native message delivery remains distinct from queued acceptance. No unfinished per-artifact scores are reported.
 

@@ -1,5 +1,7 @@
 # Gear 3 Round 1: viability and filing review
 
+**Current owner hold, September 13:** Gear 3 release is withheld while Stage 10 is built locally. The submitted CPU cache app is verified stopped; no cloud GPU invocation occurred. New dispatch refuses before reservation. The original attempt and its 28-cent reservation remain retained for billing reconciliation. Explicit resumption is required.
+
 **Subsequent commission, September 13:** the curator now requests full careful setup
 of the prescribed Round 1 campaign, following theory application and a sensitive-data
 review before the approved public push. The assessment below remains its dated

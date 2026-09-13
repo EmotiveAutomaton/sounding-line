@@ -9,6 +9,8 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-09-13)
 
+- **Stage 10 local runway:** [finite Gear 2 execution](STAGE10_LOCAL_RUNWAY.md), source rotations, local comparator, complete analyses and explicit limits. Gear 3 remains held.
+
 - **Gear 3 Round 1:** [viability assessment](GEAR_3_ROUND_1_REVIEW.md), with the
   [supplied source archived](../archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md)
   on the curator's naming/filing request. Viable alongside Gear 2; cloud implementation

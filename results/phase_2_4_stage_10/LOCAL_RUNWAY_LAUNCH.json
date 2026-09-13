@@ -1,0 +1,440 @@
+{
+  "at": "2026-09-13T20:22:47.152127+00:00",
+  "scope": "local Stage10 infrastructure validation and native launch; no scientific verdict",
+  "tests": {
+    "tests": 20,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_receipt_sha256": "7a29b37b4caa60e6f0f6430abbee842649394041971670d055c7d28810ada8d7",
+  "frozen_plan_sha256": "4f78d911f9ee06f35f409db2260c92ef52398350be14c2024449d258860ad883",
+  "jobs": 51,
+  "gpu_jobs": 23,
+  "gear": 2,
+  "gear3": "held by owner",
+  "predecessor": "existing ScholaWrite four-job scientific bank; never restarted",
+  "native_identity_verified": true,
+  "transition_only": true,
+  "outputs": [
+    "raw/local-week-runway-v1/COMPLETE.json",
+    "raw/local-week-final-review-v1/RESULT.json"
+  ],
+  "limits": [
+    "no automatic scientific verdict or curator packet",
+    "literal per-branch admission still required",
+    "source unavailable recipient-effect branch explicit",
+    "finite eligible work may finish before a calendar week",
+    "native job elapsed time is not GPU utilization or agent setup time"
+  ],
+  "job_roster": [
+    {
+      "id": "local-week-predecessor-v1",
+      "requires": [],
+      "resource": "cpu",
+      "purpose": "Wait for the existing scientific owner to reach its terminal boundary; never restart or poll through model turns"
+    },
+    {
+      "id": "schola-runway-f0-comparison-inputs-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Join full six-strategy evaluation only after whole prediction completion"
+    },
+    {
+      "id": "schola-runway-f0-comparison-v1",
+      "requires": [
+        "schola-runway-f0-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "coauthor-comparison-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "earlier-comparison-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "matched-history-comparison-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Analyze the frozen exact-length other-writer intervention with unchanged other evidence"
+    },
+    {
+      "id": "opportunity-comparison-inputs-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Join enacted outcomes for the original reserved opportunity cases"
+    },
+    {
+      "id": "opportunity-comparison-v1",
+      "requires": [
+        "opportunity-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "reading-effort-pilot-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Discarded literal reserved-budget native reconstruction interface admission"
+    },
+    {
+      "id": "reading-effort-development-v1",
+      "requires": [
+        "reading-effort-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Collect actual reserved-budget development predictions before outcomes"
+    },
+    {
+      "id": "reading-effort-policy-v1",
+      "requires": [
+        "reading-effort-development-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Fit existing support-limited benefit/cost policy on development only"
+    },
+    {
+      "id": "reading-effort-evaluation-v1",
+      "requires": [
+        "reading-effort-policy-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Execute fixed, confidence-only and benefit/cost routes on frozen evaluation cases"
+    },
+    {
+      "id": "reading-comparison-inputs-v1",
+      "requires": [
+        "reading-effort-evaluation-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Complete native reconstruction R0-R5 cells and retain execution readouts separately"
+    },
+    {
+      "id": "reading-comparison-v1",
+      "requires": [
+        "reading-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "second-local-pilot-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Discarded literal admission for the installed second local model"
+    },
+    {
+      "id": "second-local-evaluation-v1",
+      "requires": [
+        "second-local-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Run original frozen CoAuthor population and development-selected rival with the second model"
+    },
+    {
+      "id": "second-local-comparison-inputs-v1",
+      "requires": [
+        "second-local-evaluation-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Join identical cohorts across local profiles and retain reused original costs"
+    },
+    {
+      "id": "second-local-comparison-v1",
+      "requires": [
+        "second-local-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "argrewrite-continuity-pilot-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Discarded whole-essay continuity interface admission"
+    },
+    {
+      "id": "argrewrite-continuity-evaluation-v1",
+      "requires": [
+        "argrewrite-continuity-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Finite whole-essay direct and deliberative future-purpose forecasts"
+    },
+    {
+      "id": "argrewrite-continuity-comparison-inputs-v1",
+      "requires": [
+        "argrewrite-continuity-evaluation-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Equal-essay future-unit evaluation; charge each whole-cycle forecast once"
+    },
+    {
+      "id": "argrewrite-continuity-comparison-v1",
+      "requires": [
+        "argrewrite-continuity-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "schola-runway-f1-pilot-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Discarded boundary literal admission bound to this training-project rotation"
+    },
+    {
+      "id": "schola-runway-f1-development-v1",
+      "requires": [
+        "schola-runway-f1-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "All full-budget and reserved-budget development forecasts on separate project"
+    },
+    {
+      "id": "schola-runway-f1-policy-v1",
+      "requires": [
+        "schola-runway-f1-development-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Fit supported adaptive policy using development only"
+    },
+    {
+      "id": "schola-runway-f1-evaluation-v1",
+      "requires": [
+        "schola-runway-f1-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "All six full-budget strategy variants on the held-out source project"
+    },
+    {
+      "id": "schola-runway-f1-adaptive-v1",
+      "requires": [
+        "schola-runway-f1-policy-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Three effort policies on the same held-out project"
+    },
+    {
+      "id": "schola-runway-f1-comparison-inputs-v1",
+      "requires": [
+        "schola-runway-f1-evaluation-v1",
+        "schola-runway-f1-adaptive-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Complete common cohort, training prior and source-project-labelled comparison capsule"
+    },
+    {
+      "id": "schola-runway-f1-comparison-v1",
+      "requires": [
+        "schola-runway-f1-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "schola-runway-f2-pilot-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Discarded boundary literal admission bound to this training-project rotation"
+    },
+    {
+      "id": "schola-runway-f2-development-v1",
+      "requires": [
+        "schola-runway-f2-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "All full-budget and reserved-budget development forecasts on separate project"
+    },
+    {
+      "id": "schola-runway-f2-policy-v1",
+      "requires": [
+        "schola-runway-f2-development-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Fit supported adaptive policy using development only"
+    },
+    {
+      "id": "schola-runway-f2-evaluation-v1",
+      "requires": [
+        "schola-runway-f2-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "All six full-budget strategy variants on the held-out source project"
+    },
+    {
+      "id": "schola-runway-f2-adaptive-v1",
+      "requires": [
+        "schola-runway-f2-policy-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Three effort policies on the same held-out project"
+    },
+    {
+      "id": "schola-runway-f2-comparison-inputs-v1",
+      "requires": [
+        "schola-runway-f2-evaluation-v1",
+        "schola-runway-f2-adaptive-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Complete common cohort, training prior and source-project-labelled comparison capsule"
+    },
+    {
+      "id": "schola-runway-f2-comparison-v1",
+      "requires": [
+        "schola-runway-f2-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "schola-runway-f3-pilot-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Discarded boundary literal admission bound to this training-project rotation"
+    },
+    {
+      "id": "schola-runway-f3-development-v1",
+      "requires": [
+        "schola-runway-f3-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "All full-budget and reserved-budget development forecasts on separate project"
+    },
+    {
+      "id": "schola-runway-f3-policy-v1",
+      "requires": [
+        "schola-runway-f3-development-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Fit supported adaptive policy using development only"
+    },
+    {
+      "id": "schola-runway-f3-evaluation-v1",
+      "requires": [
+        "schola-runway-f3-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "All six full-budget strategy variants on the held-out source project"
+    },
+    {
+      "id": "schola-runway-f3-adaptive-v1",
+      "requires": [
+        "schola-runway-f3-policy-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Three effort policies on the same held-out project"
+    },
+    {
+      "id": "schola-runway-f3-comparison-inputs-v1",
+      "requires": [
+        "schola-runway-f3-evaluation-v1",
+        "schola-runway-f3-adaptive-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Complete common cohort, training prior and source-project-labelled comparison capsule"
+    },
+    {
+      "id": "schola-runway-f3-comparison-v1",
+      "requires": [
+        "schola-runway-f3-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "schola-runway-f4-pilot-v1",
+      "requires": [
+        "local-week-predecessor-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Discarded boundary literal admission bound to this training-project rotation"
+    },
+    {
+      "id": "schola-runway-f4-development-v1",
+      "requires": [
+        "schola-runway-f4-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "All full-budget and reserved-budget development forecasts on separate project"
+    },
+    {
+      "id": "schola-runway-f4-policy-v1",
+      "requires": [
+        "schola-runway-f4-development-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Fit supported adaptive policy using development only"
+    },
+    {
+      "id": "schola-runway-f4-evaluation-v1",
+      "requires": [
+        "schola-runway-f4-pilot-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "All six full-budget strategy variants on the held-out source project"
+    },
+    {
+      "id": "schola-runway-f4-adaptive-v1",
+      "requires": [
+        "schola-runway-f4-policy-v1"
+      ],
+      "resource": "gpu",
+      "purpose": "Three effort policies on the same held-out project"
+    },
+    {
+      "id": "schola-runway-f4-comparison-inputs-v1",
+      "requires": [
+        "schola-runway-f4-evaluation-v1",
+        "schola-runway-f4-adaptive-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Complete common cohort, training prior and source-project-labelled comparison capsule"
+    },
+    {
+      "id": "schola-runway-f4-comparison-v1",
+      "requires": [
+        "schola-runway-f4-comparison-inputs-v1"
+      ],
+      "resource": "cpu",
+      "purpose": "Compute all complete frozen contrasts, calibration and costs; preserve invalid forecasts"
+    },
+    {
+      "id": "local-week-final-review-v1",
+      "requires": [],
+      "resource": "cpu",
+      "purpose": "Assemble every job disposition, complete analyses, costs and worked examples for the single final scientific review"
+    }
+  ]
+}
