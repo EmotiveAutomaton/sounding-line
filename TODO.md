@@ -13,7 +13,8 @@ archive, kept whole, mined but never deleted.
 - [ ] Gear 3 Round 1 is commissioned by the September 13 follow-up: implement isolated profiles, campaign reservations/deadlines, complete evidence transport and frozen comparisons; pass the discarded pilot before science. Enforce $3 pilot, $20 initial release, $40 ordinary use and $50 total including reserve. Preserve Gear 2 workers.
 
 - [x] OPS-G3-R1-SETUP: implement and validate the isolated cloud apparatus, native source bundle, complete pilot replay and finite post-pilot driver; 27 focused checks pass.
-- [ ] OPS-G3-R1-SETUP: verify actual workspace billing limits/credits/sharing, execute the discarded literal pilot, freeze measured affordable PLAN, run its finite sequence, complete the local evaluator join/final packet and reconcile/clean up campaign costs.
+- [x] OPS-G3-R1-SETUP: complete extended fault-injection validation and verify workspace, explicit environment, billing-cycle limits, retained storage and payment-method evidence. All 42 checks pass; guide filed.
+- [ ] OPS-G3-R1-SETUP: refresh the private account record before dispatch, execute the discarded literal pilot, freeze measured affordable PLAN, run its finite sequence, complete the local evaluator join/final packet and reconcile/clean up campaign costs.
 
 ## Stage 10 commissioned - 2026-09-12
 
@@ -89,7 +90,9 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: land the literal structured earlier-draft pilot with request/raw/cost/execution checks and native exit verified.
 - [x] S10-C3: launch the common earlier-draft R3/R1/R4 producer with native/source identity and initial completed calls verified.
 - [x] S10-C3: fully land all earlier-draft R3/R1/R4 predictions and retained costs; unchanged no-call replay and native exit verified.
-- [ ] S10-C3: extend earlier-draft adaptive effort and apply the complete paired comparison.
+- [x] S10-C3: implement and validate earlier-draft effort callbacks, identity-only evaluation preparation and discarded literal admission (OPS-S10-I10).
+- [x] S10-C3: fully land the finite earlier-draft development/fit/evaluation chain with complete raw/cost/routing reconstruction and native exit.
+- [ ] S10-C3: apply the complete earlier-draft paired comparison and selected remaining stage branches.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.

@@ -164,3 +164,11 @@ representation; R1 and both R4 naming conditions share the existing storage
 ceiling and full feedback reservation. Selection records additional context
 exclusions for complete whole-draft requests, and comparison must match those
 task IDs rather than pool different populations. Adaptive effort is separate.
+
+`earlier_effort_*` are versioned adaptations of the reserved human callbacks.
+They preserve the original rule executor and 256+512-token allowance. The source
+projection carries only evaluation identities; original development outcomes join
+after a complete producer. A single development writer admits no learned extra
+route. The discarded eight-call pilot and complete constructed replay checks pass.
+`earlier_effort_chain.py` runs development, fit and evaluation once, serially,
+with terminal guards and no automatic recovery of ambiguous ownership.

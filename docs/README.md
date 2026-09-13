@@ -14,6 +14,7 @@ context.
 | [`sim/`](sim/) | traffic with the Ghost Scale Simulation, both directions, newest first | anything about mechanism |
 | [`design/`](design/) | SUCCESSOR, QUEUE, ENGINEERING_LOOP, DWELL_CORPUS; its README states the split from method (method binds every test, design briefs one build) and maps each file to its build | deciding what to build |
 | [`archive/`](archive/) | superseded, nothing deleted | rarely |
+| [`GEAR3_MODAL_WORKSPACE_GUIDE.md`](GEAR3_MODAL_WORKSPACE_GUIDE.md) | Modal workspace selection, usage limits, payment readiness and existing resources | before the bounded cloud pilot |
 | `STATE.md` | agent orientation: hard constraints, the research program, the queue's state | first thing after a compaction, with FINDINGS and the theory folder |
 
 **The working loop is a skill.** `.agents/skills/grind/SKILL.md` (`$grind`) holds the full

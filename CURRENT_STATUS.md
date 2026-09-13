@@ -1,14 +1,14 @@
 # Current status
 
-Updated 2026-09-13T15:26:32.418333+00:00.
+Updated 2026-09-13T17:56:37.504244+00:00.
 
-**Local queue:** the local earlier-draft structured and storage-matched prediction bank is complete and fully internally landed. All 408 routes and 714 calls reconcile, with unchanged input/output bytes and native exit verified. No local scientific worker is running. Gear 2 and CPU boost-off/90% maximum remain authorized; the current implementation focus is the separately commissioned Gear 3 Round 1. [Producer](results/phase_2_4_stage_10/EARLIER_STRUCTURED_PRODUCER.json).
+**Local queue:** The earlier-draft effort extension is complete and fully internally landed: 24 development routes, a frozen policy fit and 282 evaluation policy routes. The 498 original model calls and all retained evidence reconcile. Native worker and wrapper exited; the GPU lock is released. No local scientific process is currently running. Gear 2 and CPU boost-off/90% maximum remain authorized. [Producer](results/phase_2_4_stage_10/EARLIER_EFFORT_PRODUCER.json).
 
-The whole bank finished at 13:32 UTC. The transition watcher remains active; its completion event is acknowledged only after this full landing. No routine wake timer or restart is needed. No unfinished scientific scores are reported.
+**Gear 3:** The isolated Gear 3 apparatus passes 42 focused checks, including the full discarded pilot rehearsal. The actual workspace, billing cycle, lower spending backstop, existing storage and payment-method presence are recorded privately. No paid compute, model download or resource creation has occurred. The next cloud step is the discarded intended-device pilot; scientific dispatch still requires its measured admission and an affordable frozen plan. [Validation](results/gear3/G3-S10-READER-1/REVALIDATION.json), [Modal guide](docs/GEAR3_MODAL_WORKSPACE_GUIDE.md).
 
-**Gear 3 Round 1:** the isolated implementation is pushed as `f9be743ab` on `codex/gear3-round1` and passes all 27 focused offline checks. Its source-bound 44-route pilot is prepared with a proposed $2.45 reservation within the $3 pilot cap. Model/container identities, durable transport, native executors, budget/deadline handling and the finite queue driver are implemented. No paid compute or model-weight download has occurred. The API cannot provide the required workspace usage/spend limits, credits or shared-workload information; those billing-page values are requested before the pilot. Actual device/throughput admission, measured affordable PLAN and final scientific packet remain pending. [Setup and runbook](docs/design/GEAR_3_ROUND_1_REVIEW.md), [validation](results/gear3/G3-S10-READER-1/APPARATUS.json).
+**Remaining and timing:** Stage 10 is unfinished. Complete common comparisons, selected Ghost interventions, the bounded second human source and final reporting remain; the code-ready queue has drained after the new extension. The week is a study planning envelope, not a requirement to occupy the GPU continuously. A rough remaining target is several days, around September 16-17, with uncertainty because the remaining branches are not all executable yet. This is an operator judgment, not a calculated completion forecast.
 
-**Remaining:** complete Gear 3 setup and its discarded pilot, then the frozen affordable study; local adaptive effort, selected task/source branches and the final Stage 10 common analysis remain. No replacement ETA has been calculated during this setup pass.
+The watcher is active with transition-only supervision and no liveness timer. The latest whole-chain event was acknowledged after full internal landing; native message delivery remains distinct from queued acceptance. No unfinished per-artifact scores are reported.
 
 ## Historical status snapshots (superseded)
 

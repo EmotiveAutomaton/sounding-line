@@ -625,6 +625,22 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Partial completion receipts must reproduce their saved result before new calls.**
+  A valid nested file inventory did not prevent a modified unit result/profile
+  from being reused. Reconstruct request bindings, raw parsing and native
+  execution, compare the entire unit, and refuse before dispatching later work.
+  Bind a returned archive to its canonical reservation and input bundle as well
+  as its own checksum. Constructed mutation and swapped-archive tests exposed
+  these defects before paid execution. (2026-09-13, OPS-G3-R1-SETUP)
+- **Billing evidence and cancellation must use the same authenticated client.**
+  Browser workspace selection is not an SDK identity check. Verify the actual
+  token workspace, name its environment and bind app/volume/stop calls to that
+  client. An installed SDK can reject an explicit timeout unless RPC retry is
+  disabled; exercise the actual read-only API. Attempt app stop even when call
+  cancellation fails, and retain the reservation until termination is verified.
+  (2026-09-13, OPS-G3-R1-SETUP)
+
+
 - **Native access denial is not process liveness or exit.** A terminal Stage 9 worker denied both query and synchronization handles while a successful complete OS process list showed it absent. Use independent complete enumeration for absence; grow full buffers and refuse failed or incomplete lists. A still-listed inaccessible process remains unknown. Preserve failed audit attempts and original source before extending the same repair. Sixteen native and thirty-two dependent checks pass, and the original attempt ledger reconciles. (2026-09-11, OPS-S9-RECOVERY-1)
 
 - **An immutable JSON result must reconstruct in JSON's own value types.** The
