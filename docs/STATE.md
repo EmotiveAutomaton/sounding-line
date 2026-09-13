@@ -33,9 +33,9 @@ applied in full, with original source bytes archived. The subsequent September 1
 instruction commissions the prescribed Gear 3 Round 1 setup and bounded execution;
 its $50 limit is campaign-specific. Current local execution remains as recorded below.
 
-**Current run:** The earlier-draft effort extension is complete and fully internally landed: 24 development routes, a frozen policy fit and 282 evaluation policy routes. The 498 original model calls and all retained evidence reconcile. Native worker and wrapper exited; the GPU lock is released. No local scientific process is currently running. Gear 2 and CPU boost-off/90% maximum remain authorized.
+**Current run:** Local Stage 10 runs in the main checkout in Gear 2: the active four-job ScholaWrite bank is followed by 51 frozen local jobs. This isolated cloud checkout remains held and does not run that local queue. CPU cooling limits remain.
 
-**Gear 3 pilot:** The commissioned Gear 3 discarded pilot is launched: CPU caching is submitted through the guarded entry point, followed only on verified completion by the L40S pilot. The fixed chain reserves at most $2.45 within the $3 pilot cap, with the lower account limit and repair reserve retained. Native supervision records identities and terminal outputs; no periodic agent polling. Scientific dispatch awaits full literal-pilot inspection and a measured affordable plan. [Launch](../results/gear3/G3-S10-READER-1/PILOT_LAUNCH.json).
+**Gear 3 held, September 13:** the owner withholds release while the remaining local Stage 10 work is built. New dispatch refuses before cloud reservation. The already-submitted CPU cache app is verified stopped with zero running tasks; no cloud GPU invocation occurred. Its 28-cent reservation and original failure records remain retained pending final billing reconciliation.
 
 **Latest operating override:** transition-only monitoring is active. Native identities and expected outputs are in the private Stage 10 handoff. Routine timers are retired; end healthy-running turns and resume only on completion, failure, disappearance or a predefined checkpoint. Terminal inspection is the next action; Gear 2 and cooling authority are unchanged.
 

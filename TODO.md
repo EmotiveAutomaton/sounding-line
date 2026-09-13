@@ -16,7 +16,7 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-SETUP: complete extended fault-injection validation and verify workspace, explicit environment, billing-cycle limits, retained storage and payment-method evidence. All 42 checks pass; guide filed.
 - [x] OPS-G3-R1-SETUP: remove direct account identity from the public ledger; five affected controller checks pass, full prior validation retained.
 - [x] OPS-G3-R1-SETUP: refresh account inventory and launch the fixed discarded pilot chain with native transition-only supervision.
-- [ ] OPS-G3-R1-SETUP: fully land the literal pilot, freeze measured affordable PLAN, run its finite sequence, complete the local evaluator join/final packet and reconcile/clean up campaign costs.
+- [ ] HELD BY OWNER, September 13: no Gear 3 release. When explicitly resumed, inspect the cancelled cache and retained budget before any new dispatch; fully land the literal pilot, freeze measured affordable PLAN, run its finite sequence, complete the local evaluator join/final packet and reconcile/clean up campaign costs.
 
 ## Stage 10 commissioned - 2026-09-12
 
