@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-13T22:31:09.213304+00:00.
+Updated 2026-09-13T23:04:17.256558+00:00.
 
-**Current local mode:** Stage 10 is entering first gear on the September 13 owner instruction. The current ScholaWrite evaluation finishes normally; both scheduling controllers are parked so no further GPU job can start. Local Python priority is BelowNormal on logical CPUs 16–23. Completed evidence, both frozen plans and all 162 source files remain unchanged. CPU cooling limits stay in place. The preserved four-job bank and 51-job follow-on queue await explicit Gear 2 resumption after the current job. Gear 3 continues separately.
+**Current local mode:** Stage 10 is in first gear on the September 13 owner instruction. The ScholaWrite evaluation finished normally, its complete immutable replay passes, and its GPU lock is released. Both scheduling controllers remain parked so no further GPU job can start. Local Python priority remains BelowNormal on logical CPUs 16–23; CPU cooling limits remain. Both frozen plans and the union of 164 source pins verify unchanged. The remaining bank and 51-job follow-on queue are preserved for explicit Gear 2 resumption. Gear 3 has its separate decision below.
 
-**Gear 3 rollout:** all 62 final offline checks pass. The one permitted cache recovery is complete and its full archive, model identities and original deadline verify. The first GPU pilot is submitted. All original reservations remain booked; combined pilot/recovery ceiling is $3.21. Scientific admission and the measured affordable roster remain pending.
+**Gear 3 rollout stopped:** the GPU pilot failed at the Ghost reading feedback allowance before the final context-boundary check. Complete human/opportunity blocks replay, but scientific admission remains closed. Provider tasks and native supervisor have ended; $3.21 remains fully booked pending invoices. An unchanged-source two-call context supplement is prepared at a maximum $0.64 from Reserve, with Ghost reading deferred; its changed payload/fresh ten-minute cap requires the owner decision under the audited recovery rule.
 
-The transition-only watcher owns waiting. The next cloud checkpoint is completion/failure of the bounded literal pilot; no routine liveness wakes or per-artifact score reports.
+The transition-only watcher owns waiting. Both inspected terminals are recorded; the next cloud action requires the scoped owner decision. Local GPU work remains held in first gear. No routine liveness wake is scheduled.
 
 ## Historical status snapshots (superseded)
 

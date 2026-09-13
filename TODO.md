@@ -18,12 +18,14 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-SETUP: refresh account inventory and launch the fixed discarded pilot chain with native transition-only supervision.
 - [x] OPS-G3-R1-PANEL: implement revision-2 analyst fixes and pass all 62 final checks; conditional owner rollout authority recorded.
 - [x] OPS-G3-R1-PANEL: fully inspect and land provider-preempted CPU cache; retained archive/charges and one original-deadline Reserve recovery verified.
-- [ ] OPS-G3-R1-PANEL: inspect the submitted first literal GPU pilot (cache recovery is complete and internally landed); freeze measured affordable A/B/C/D prefix and complete its finite execution and final packet.
+- [x] OPS-G3-R1-PANEL: fully land the failed GPU pilot, complete-block replay, original gate refusal and stopped provider/native owners.
+- [ ] OPS-G3-R1-PANEL: owner decision on the prepared original two-call context supplement, at most $0.64 from Reserve with a fresh ten-minute cap; defer Ghost reading. After approval and literal admission, freeze affordable retained branches and complete the final packet.
 
 ## Stage 10 commissioned - 2026-09-12
 
 - [x] OPS-S10-GEAR1: park scheduling controllers and lower CPU use without interrupting the active evaluation; completed evidence and source pins verify.
-- [ ] OPS-S10-GEAR1: inspect the current evaluation completion checkpoint; preserve the local GPU hold until explicit Gear 2 authorization.
+- [x] OPS-S10-GEAR1: fully land the completed evaluation, immutable replay, native exit and GPU-lock release; keep both schedulers parked.
+- [ ] OPS-S10-GEAR1: retain local first gear and frozen queues; resume higher GPU use only on explicit Gear 2 authorization.
 
 - [x] S10-I11: validate the finite local dependency queue, ScholaWrite chronology and six-strategy bank; fully land the discarded literal pilot.
 - [x] S10-I11: fully build, validate and launch the finite local runway behind the existing science bank: 51 reviewed jobs, including 23 GPU jobs; full source pins and native transition-only monitoring.
