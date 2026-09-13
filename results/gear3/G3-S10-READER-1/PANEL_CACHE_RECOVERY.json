@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "at": "2026-09-13T22:13:21.969834+00:00",
+  "status": "PROVIDER_PREEMPTED_RECOVERY_SUBMITTED",
+  "invocation": "p-cache-panel-v1",
+  "provider_state": "STOPPED",
+  "remaining_tasks": 0,
+  "provider_task_preempted": true,
+  "provider_log_sha256": "8c690c2801272d39b0edbcdae53decf924b993ba446a6d9778e984b14cfe0729",
+  "archive_sha256": "39991a4dc6357f3a7ddf198ef8b790e10dc33bbc6111b27048e13c603556e2a2",
+  "archive_files": 6,
+  "terminal_sha256": "466d8b902c8edae3659ee807f06430a573c4fd1e56873dc0fe6791e0b61fc7d3",
+  "terminal_error_field": null,
+  "worker_seconds": 87.67935013771057,
+  "scientific_calls": 0,
+  "GPU_started": false,
+  "failed_reservation_cents": 38,
+  "previous_cancelled_reservation_cents": 28,
+  "unknown_charges_fully_booked": true,
+  "recovery": {
+    "invocation": "r-cache-panel-v1",
+    "node": "Reserve",
+    "maximum_cents": 38,
+    "original_expires_at": 1789340254.7594106,
+    "same_payload": true,
+    "same_resources": true,
+    "maximum_attempts": 1,
+    "launch_status": "SUBMITTED"
+  },
+  "combined_P_ceiling_cents": 283,
+  "combined_campaign_ceiling_cents": 321,
+  "test_status": "62 original final checks pass; exact recovery reservation and future P budget preflight pass",
+  "read_only_inspection_failures": [
+    "incorrect streaming SDK invocation",
+    "unsupported streaming keyword timeout"
+  ],
+  "claim": "Infrastructure only; no theory or scientific verdict",
+  "new_research_tests": 0,
+  "launch": {
+    "at": "2026-09-13T22:17:17.299986+00:00",
+    "status": "SUBMITTED",
+    "node": "Reserve",
+    "invocation": "r-cache-panel-v1",
+    "recovery_of": "p-cache-panel-v1",
+    "original_expiry_utc": "2026-09-13T22:57:34.759411+00:00",
+    "reserved_cents": 38,
+    "same_original_payload_and_resources": true,
+    "next": "first GPU pilot only after validated cache completion",
+    "native_identity_recorded_privately": true,
+    "expected_outputs": [
+      ".agent-state/gear3-panel-recovery-v1/COMPLETE.json",
+      ".agent-state/gear3-panel-recovery-v1/FAILED.json"
+    ],
+    "transition_only_watcher_registered": true,
+    "automatic_retries": 0
+  }
+}

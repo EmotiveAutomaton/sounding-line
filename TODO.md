@@ -17,7 +17,8 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-SETUP: remove direct account identity from the public ledger; five affected controller checks pass, full prior validation retained.
 - [x] OPS-G3-R1-SETUP: refresh account inventory and launch the fixed discarded pilot chain with native transition-only supervision.
 - [x] OPS-G3-R1-PANEL: implement revision-2 analyst fixes and pass all 62 final checks; conditional owner rollout authority recorded.
-- [ ] OPS-G3-R1-PANEL: start/inspect the bounded cache-plus-literal pilot, retain previous charges, freeze measured affordable A/B/C/D prefix, complete its finite execution and final packet.
+- [x] OPS-G3-R1-PANEL: fully inspect and land provider-preempted CPU cache; retained archive/charges and one original-deadline Reserve recovery verified.
+- [ ] OPS-G3-R1-PANEL: inspect the submitted one cache recovery and ensuing first literal GPU pilot; freeze measured affordable A/B/C/D prefix and complete its finite execution and final packet.
 
 ## Stage 10 commissioned - 2026-09-12
 

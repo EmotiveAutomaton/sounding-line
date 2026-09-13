@@ -33,9 +33,9 @@ applied in full, with original source bytes archived. The subsequent September 1
 instruction commissions the prescribed Gear 3 Round 1 setup and bounded execution;
 its $50 limit is campaign-specific. Current local execution remains as recorded below.
 
-**Current run:** Local Stage 10 runs in the main checkout in Gear 2: the active four-job ScholaWrite bank is followed by 51 frozen local jobs. This isolated cloud checkout remains held and does not run that local queue. CPU cooling limits remain.
+**Current run:** Local Stage 10 runs in the main checkout in Gear 2: the active four-job ScholaWrite bank is followed by 51 frozen local jobs. This isolated cloud checkout runs only the separately authorized bounded cloud campaign. CPU cooling limits remain.
 
-**Gear 3 panel repairs validated:** all 62 final checks pass. The latest owner instruction authorizes bounded rollout after these repairs. The first GPU pilot remains unrun; its prepared chain completes the retained model cache before the discarded literal check. Prior costs stay booked, total P is capped at $2.83, and science requires actual device/source admission and a whole-plan affordability check. [Repairs](../results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json).
+**Gear 3 rollout:** all 62 final offline checks pass. Modal preempted the CPU cache step before the first GPU pilot; the failed app is stopped and original charges remain booked. One recovery is now submitted under the original deadline and identical payload, capped at $0.38 from Reserve. Total pilot plus recovery ceiling is $3.21; P remains at most $2.83. Scientific admission and the measured affordable roster still follow a complete literal pilot.
 
 **Latest operating override:** transition-only monitoring is active. Native identities and expected outputs are in the private Stage 10 handoff. Routine timers are retired; end healthy-running turns and resume only on completion, failure, disappearance or a predefined checkpoint. Terminal inspection is the next action; Gear 2 and cooling authority are unchanged.
 

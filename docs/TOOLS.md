@@ -1667,3 +1667,7 @@ The final selected report binds the exact fresh original-ledger reproduction and
 **Gear 3 owner hold (OPS-G3-R1-SETUP).** New dispatch is disabled before reservation. Exact-app stop, provider STOPPED/zero tasks and native supervisor exit verify. The original cancellation and 28-cent reservation remain; no cloud GPU call occurred. This is an operational disposition, with no scientific verdict. [Hold](../results/gear3/G3-S10-READER-1/OWNER_HOLD.json).
 
 **Gear 3 analyst-panel repair (OPS-G3-R1-PANEL).** All 62 final checks pass, including native semantic replay, complete private-answer consumer, whole-plan cost and real-roster naming preflight. Literal device admission remains the next gate. [Receipt](../results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json).
+
+- Gear 3 cache recovery: full archive and provider preemption verified; exact one-recovery/original-expiry reservation and subsequent GPU budget preflight pass. Offline 62-check validation remains; literal GPU admission pending. See [receipt](../results/gear3/G3-S10-READER-1/PANEL_CACHE_RECOVERY.json).
+
+- Gear 3 permitted recovery is submitted through the validated controller under its original expiry. Native owner and transition-only terminal/disappearance watch are recorded; no automatic second recovery. [Receipt](../results/gear3/G3-S10-READER-1/PANEL_CACHE_RECOVERY.json).

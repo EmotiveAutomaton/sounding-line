@@ -4,7 +4,7 @@ Updated 2026-09-13T21:51:42.941380+00:00.
 
 **Local queue:** Local Stage 10 remains in Gear 2 under its existing native controllers and frozen source plans. The ScholaWrite bank precedes the 51-job local queue; cooling limits remain.
 
-**Gear 3 panel repairs validated:** all 62 final checks pass. The latest owner instruction authorizes bounded rollout after these repairs. The first GPU pilot remains unrun; its prepared chain completes the retained model cache before the discarded literal check. Prior costs stay booked, total P is capped at $2.83, and science requires actual device/source admission and a whole-plan affordability check. [Repairs](results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json).
+**Gear 3 rollout:** all 62 final offline checks pass. Modal preempted the CPU cache step before the first GPU pilot; the failed app is stopped and original charges remain booked. One recovery is now submitted under the original deadline and identical payload, capped at $0.38 from Reserve. Total pilot plus recovery ceiling is $3.21; P remains at most $2.83. Scientific admission and the measured affordable roster still follow a complete literal pilot.
 
 The transition-only watcher owns waiting. The next cloud checkpoint is completion/failure of the bounded literal pilot; no routine liveness wakes or per-artifact score reports.
 
