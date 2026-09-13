@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "at": "2026-09-13T22:13:21.969834+00:00",
-  "status": "PROVIDER_PREEMPTED_RECOVERY_SUBMITTED",
+  "status": "CACHE_COMPLETE_GPU_PILOT_SUBMITTED",
   "invocation": "p-cache-panel-v1",
   "provider_state": "STOPPED",
   "remaining_tasks": 0,
@@ -53,5 +53,28 @@
     ],
     "transition_only_watcher_registered": true,
     "automatic_retries": 0
+  },
+  "completion": {
+    "at": "2026-09-13T22:34:12.250302+00:00",
+    "status": "COMPLETE",
+    "archive_sha256": "a2b5c15f6d795d730e429b90382a2f2663263166f1d311acc2329d272a335528",
+    "files": 7,
+    "models": {
+      "9b": {
+        "digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "quantization": "Q4_K_M",
+        "server": "0.32.14"
+      },
+      "27b": {
+        "digest": "7653528ba5cba4dd8e19da24aaddc7f4d0b5ecd93571c0825dfd4137958ec06e",
+        "quantization": "Q4_K_M",
+        "server": "0.32.14"
+      }
+    },
+    "original_deadline_preserved": true,
+    "reservation_fully_booked_cents": 38,
+    "GPU_pilot_invocation": "p-gpu-panel-v1",
+    "GPU_pilot_status": "SUBMITTED",
+    "scientific_admission": false
   }
 }
