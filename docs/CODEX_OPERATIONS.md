@@ -26,6 +26,14 @@ detection, but this check does not establish future message transport. Preserve
 uninspected notifications; do not restart science or add timer wakes to retry queue
 cleanup. [Inspection](../results/maintenance_20260912/QUEUE_BACKLOG_INSPECTION.json).
 
+The subsequent bounded native API helper successfully listed the existing owner
+queue without a proxy socket, verified the one pending submission against its two
+already completed landings, removed exactly that submission and confirmed an empty
+inventory. It started no thread or model turn and restarted no existing process.
+Use the installed native API for such bounded owner-only inspection; retain the
+original failure. Queue cleanup does not establish future CLI delivery. [Retirement
+receipt](../results/maintenance_20260912/QUEUE_BACKLOG_RETIREMENT.json).
+
 The curator authorized the full Claude/Fable to Codex/GPT transition on 2026-09-05.
 `AGENTS.md` is the canonical contract; `.agents/skills/grind/SKILL.md` is its operational
 skill. `CLAUDE.md` is a compatibility pointer, and the original contract is archived.

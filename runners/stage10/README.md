@@ -130,3 +130,24 @@ Outcome values are discarded during decoding and never reach a model request.
 The complete constructed evaluation/replay and refusal checks pass, including
 invalid outputs and cross-split dependencies; all frozen request bounds pass.
 The first CRLF mutation-fixture refusal is preserved. Scientific benefit is pending.
+
+`comparison.py` implements the central freeze's complete-cell scores, distinct
+generated-choice and probability readouts, explicit invalid/zero-support handling,
+equal writer/case weights and connected-dependency uncertainty. It refuses changed
+paired evidence or incomplete populations. `human_baselines.py` fits fixed cheap
+controls on training only: class prior, surface-feature logistic prediction,
+always-ignore and previous handling. Surface features use current draft/menu
+length, overlap, menu position and hashed lexical counts; personal history is
+confined to the explicitly named previous-handling control. Its fixed optimizer
+and scaling never use evaluation outcomes. Known-answer whole-producer and replay
+checks are in `comparison_checks.py`; passing them is apparatus validation only.
+
+`human_history.py` freezes a development-selected structured rival and an
+exact-length other-writer history intervention for that rival and R0. It keeps
+all other public evidence and options fixed, retains unmatchable opportunities,
+and verifies each donor assignment from original public records. Original true
+history predictions are reused only on the same eligible task IDs. The worker
+replays complete outputs without calls and requires native ownership recovery
+for interrupted work; it does not automatically restart an unfinished attempt.
+Both rival paths pass constructed full-worker checks. The selected real cohort
+and all first/refinement request bounds are frozen before evaluation answers.
