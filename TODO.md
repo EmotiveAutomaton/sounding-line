@@ -53,11 +53,16 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: repair common memory packing for large drafts and validate all first/refinement request bounds.
 - [x] S10-C3: inspect and fully land the revised literal memory pilot.
 - [x] S10-C3: launch the common memory comparison on the unchanged frozen cohort with native/source progress verified.
-- [ ] S10-C3: land the complete memory comparison producer; retain invalid proposals and evidence/prose contradictions.
+- [x] S10-C3: land the complete memory comparison producer; retain invalid proposals and evidence/prose contradictions.
 - [x] S10-C3: validate reserved-budget human callbacks and whole queue/controller integration.
 - [x] S10-C3: validate all human effort request bounds and constructed development-fit/replay.
 - [x] S10-C3: queue the discarded human effort pilot after memory-worker exit and GPU release.
-- [ ] S10-C3: land the discarded human effort pilot, then produce development forecasts and fit the supported policy.
+- [x] S10-C3: land the discarded human effort pilot with raw/parse/cost/execution and native-exit verification.
+- [x] S10-C3: launch admitted human effort development with native/source verification and transition-only supervision.
+- [x] S10-C3: land human effort development forecasts and fit the supported policy.
+- [x] S10-C3: validate the source-bound human effort evaluation wrapper and full frozen selection.
+- [x] S10-C3: launch reserved human policy predictions with source/native verification and transition-only supervision.
+- [ ] S10-C3: land complete reserved human policy predictions on terminal.
 - [x] S10: freeze three central strategy comparisons before evaluation-outcome access; source-bound receipt and required supplementary controls retained.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.

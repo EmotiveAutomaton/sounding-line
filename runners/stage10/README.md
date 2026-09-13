@@ -19,8 +19,9 @@ New source adapters must validate chronology, contributor roles, allocation and
 the exact public evidence before execution. Run discarded literal interface
 checks before a branch's first scientific cohort. One branch's repair does not
 prevent another validated branch from running. Preserve CPU cooling limits,
-GPU ownership and final-produce guards. Routine watches are thirty to sixty
-minutes apart; failures and drained queues may wake the owner immediately.
+GPU ownership and final-produce guards. Transition-only monitoring wakes the
+owner on completion, failure, disappearance or a predefined checkpoint. Healthy
+running processes end the agent turn; routine liveness timers are disabled.
 
 `deliberation.py` implements R2 with two 384-token direct calls. `proposal.py`,
 `executor.py`, `executor_worker.py` and `structured.py` implement two bounded
@@ -113,11 +114,19 @@ evidence and approximate executable rules to the existing effort controller.
 The first read reserves 256 tokens; retrieval or two rule proposals share the
 remaining 512. `human_effort_queue.py` collects discarded/development forecasts
 without target outcomes. Constructed whole-queue and controller checks pass;
-the literal model pilot is still required. One development writer cannot
+the literal model pilot now passes raw replay and native-exit verification. One development writer cannot
 validate general routing benefit and unsupported strata retain the first read.
 
 `human_effort_fit.py` verifies the complete development producer with model and
 executor access disabled before opening its frozen development outcomes. The
-constructed fit and immutable-policy replay checks pass. The actual discarded
-pilot is queued; human scientific policy fitting remains pending. Central
+constructed fit and immutable-policy replay checks pass. The actual development producer and immutable fit now reproduce; single-writer
+support admits no extra route. Central
 evaluation comparisons are recorded in `docs/design/STAGE10_COMPARISON_FREEZE.md`.
+
+`human_effort_evaluation.py` runs the frozen fixed, confidence-only and benefit/cost
+policies on the reserved human cohort. It reproduces the fit first, then verifies
+the original evaluator bytes and projects only task/writer/prompt/event identity.
+Outcome values are discarded during decoding and never reach a model request.
+The complete constructed evaluation/replay and refusal checks pass, including
+invalid outputs and cross-split dependencies; all frozen request bounds pass.
+The first CRLF mutation-fixture refusal is preserved. Scientific benefit is pending.
