@@ -1,16 +1,16 @@
 # Current status
 
-Updated 2026-09-13T11:18:31.248016+00:00.
+Updated 2026-09-13T12:22:35.005796+00:00.
 
-**Stage 10 is running in Gear 2.** The earlier-draft bank has four sequential development/evaluation jobs: direct plus examples, then matched deliberation. It contains 102 target opportunities, 306 routes and 408 planned local model calls. Jobs advance without an agent between them. At the final inspection, both development jobs had completed, direct/example evaluation was running and matched-deliberation evaluation was queued. Native worker identity, progress, source pins and terminal monitoring are recorded in the [launch receipt](results/phase_2_4_stage_10/EARLIER_ARTIFACT_LAUNCH.json).
+**Stage 10 is running in Gear 2.** The earlier-draft structured comparison has 408 reader runs across 102 opportunities, with at most 714 local model calls. Development and evaluation advance automatically. Native worker identity, initial completed responses and loaded watchdog sources verify. [Launch](results/phase_2_4_stage_10/EARLIER_STRUCTURED_LAUNCH.json).
 
-**The overnight queue had stalled operationally.** The matched-history producer completed at 7:34 p.m. Pacific on September 12. Its five CLI wake attempts failed, leaving no successor running until this recovery. All 154 outputs, requests, costs and rule executions now reproduce and are fully written through. No model inference was repeated. The notification has been acknowledged after landing.
+The preceding four-job direct/deliberation bank is fully internally landed and its completion wake acknowledged. The repaired native transport delivered that actual completion after the previous final response, on its first attempt. No routine liveness timer is active.
 
-The native queue transport replacement passes 96 affected checks and real acceptance/list/deduplication verification. The old failure remains recorded. An actual idle wake on this backend is still unverified. Only final chain completion/failure or native disappearance can trigger a wake; there is no routine timer.
+The new structured branch passes eleven constructed checks and a fourteen-call literal rehearsal, including retained rule executions and complete no-call replay. All eligible target opportunities fit unchanged. CPU boost remains off and maximum AC processor state is 90%; recent temperatures were 65.9 degrees CPU and 51 degrees GPU.
 
-CPU boost remains off and AC maximum processor state is 90%; prelaunch CPU/GPU temperatures were 65.5/44.0 degrees Celsius. The earlier-draft adapter passes eight constructed checks and its eight-call training-only literal rehearsal, with the full four-job/replay path exercised. Two oversized evaluation cases are explicit exclusions; empty and identical prior drafts remain retained.
+**ETA:** roughly 3-6 hours for this batch, with substantial uncertainty from prompt mix and local contention. The working full-stage target remains September 16-17 Pacific. Adaptive effort, synthetic effect/constraint tasks, second human source/anchor, selected second-model work and common analysis/final reporting remain. The whole week is not yet queued. No curator decision is required for the current work.
 
-**Working ETA:** roughly 30-60 minutes for this batch if recent throughput holds; allow local contention. The stage target remains approximately September 16-17 Pacific, about three to four further days. This is a planning estimate, not a precisely calculated deadline. Remaining structured/adaptive earlier-draft, synthetic effect/constraint, second human source/anchor and second-model work, common analysis and final packet can still move it. The new theory errata remains due at the first results-only wait with no appreciable setup remaining. No curator decision is currently required.
+The theory errata remains due at the first results-only wait with no appreciable setup remaining.
 
 ## Historical status snapshots (superseded)
 

@@ -1,6 +1,6 @@
 # STATE: the agent's operational file
 
-Current watcher transport uses the verified native queue API after five CLI failures left the completed history batch idle overnight. Native acceptance/deduplication and loaded watcher sources verify; actual idle delivery on the new backend is still pending. Earlier successful deliveries remain historical evidence.
+Current watcher transport uses the verified native queue API after five CLI failures left the completed history batch idle overnight. Native acceptance/deduplication, loaded watcher sources and actual post-final delivery of the completed earlier-draft bank verify. Earlier successful deliveries remain historical evidence.
 
 
 
@@ -22,7 +22,7 @@ receipts determine execution state; later ratified stage contracts override olde
 
 ## Current operating handoff: Stage 10, 2026-09-12
 
-**Current run:** the four-job earlier-draft science queue is running in Gear 2, with direct, example and matched-deliberation development/evaluation jobs advancing locally. The complete matched-history producer is internally landed and acknowledged. CPU boost-off/90% maximum remains; native identity and final outputs are recorded. The repaired native transport has passed acceptance checks. [Launch](../results/phase_2_4_stage_10/EARLIER_ARTIFACT_LAUNCH.json).
+**Current run:** the earlier-draft structured and storage-matched scientific queue is running in Gear 2: 408 routes, at most 714 calls, automatic development/evaluation advance. The direct/deliberation bank and new literal admission are fully landed. Native identity, initial responses and transition-only supervision verify. CPU boost-off/90% maximum remains. [Launch](../results/phase_2_4_stage_10/EARLIER_STRUCTURED_LAUNCH.json).
 
 **Latest operating override:** transition-only monitoring is active. Native identities and expected outputs are in the private Stage 10 handoff. Routine timers are retired; end healthy-running turns and resume only on completion, failure, disappearance or a predefined checkpoint. Terminal inspection is the next action; Gear 2 and cooling authority are unchanged.
 

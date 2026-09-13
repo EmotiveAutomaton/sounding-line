@@ -1,0 +1,88 @@
+{
+  "at": "2026-09-13T11:53:39.762652+00:00",
+  "status": "COMPLETE",
+  "finished_at": "2026-09-13T11:43:24.353029+00:00",
+  "raw_complete_sha256": "561b68a40097ef4dd5a9d573c1b5e6e77b2acc00598436c1118945bb3efaec27",
+  "sources": {
+    "runners/stage10/__init__.py": "6cf8d2debdfcde8f71c613e781ddd6c5eac1494e4bbb61fef8004837274223d2",
+    "runners/stage10/contracts.py": "d521c85fa46aee60d594fc0339b7143311186e22140dee5ae543ca7ca7a2fd02",
+    "runners/stage10/ollama.py": "e5391372759bbd0cd9d69631eec94f9db4cf62536ef00b5a54029bbce2890e54",
+    "runners/stage10/reader.py": "cd663a950139f254fadd4668fab0fb1caa2acdcf4c9143c914712bb296135a23",
+    "runners/stage10/queue.py": "c4edca31ff97381ff590bf63ce39796e19fb08c682d887d53fe420f9844483b1",
+    "runners/stage10/phase_queue.py": "946c941dc599d7319142731a192c437c378ea356d80a08a85f817803d7c6a392",
+    "runners/stage9/process_identity.py": "a17bc3ca37ffafea5b272acc7bea0d1536049e11e870fc04471fefb1cee84a35",
+    "soundingline/gpulock.py": "be9c75035c02d8bfa5bb46d6d72a947cee2e81352bd122b500aec3062a5578e6",
+    "runners/stage10/deliberation.py": "f7b1343d2c20865e18e165930a20e8ecd992f3314e8b38d8b6c726c013bf549e",
+    "runners/stage10/phase_deliberation.py": "3730f89482e3dad2274cbe30b3e4da88f4f639da880d178508fb528e44850b92",
+    "runners/stage10/earlier_artifacts.py": "2381025b2f6dc0a1221beba530ab13a1941c459c2bf77f756157b3627e3f7ac5"
+  },
+  "prepared_sha256": "9aa3eeda9c4afbae628356e9b0362d8667f84a17751bf1f15e38355718c8f6a5",
+  "jobs": [
+    {
+      "phase": "development",
+      "reader": "direct-example",
+      "opportunities": 8,
+      "routes": 16,
+      "valid_routes": 15,
+      "invalid_routes": 1,
+      "calls": 16,
+      "generated_tokens": 1781,
+      "complete_sha256": "8fd080be9032261773a5b64a121640258e3e8beefadc24dc32db0c0d1b8ed725"
+    },
+    {
+      "phase": "development",
+      "reader": "deliberation",
+      "opportunities": 8,
+      "routes": 8,
+      "valid_routes": 8,
+      "invalid_routes": 0,
+      "calls": 16,
+      "generated_tokens": 1755,
+      "complete_sha256": "3066d04323b0604bb6ab29a6cfcfce9c08181ce1efe7518cb9d752878bde7c6e"
+    },
+    {
+      "phase": "evaluation",
+      "reader": "direct-example",
+      "opportunities": 94,
+      "routes": 188,
+      "valid_routes": 188,
+      "invalid_routes": 0,
+      "calls": 188,
+      "generated_tokens": 20382,
+      "complete_sha256": "a57a8cbe36302a1897f6ac5d53c60458240c464a5ea2f92354868c6a1101a1d2"
+    },
+    {
+      "phase": "evaluation",
+      "reader": "deliberation",
+      "opportunities": 94,
+      "routes": 94,
+      "valid_routes": 93,
+      "invalid_routes": 1,
+      "calls": 188,
+      "generated_tokens": 20461,
+      "complete_sha256": "9cdf7b77220b6d2d102982999805564e1e8b5fd8db101482451f9d7d4bf9ba51"
+    }
+  ],
+  "opportunities": 102,
+  "routes": 306,
+  "valid_routes": 304,
+  "invalid_routes": 2,
+  "costs": {
+    "calls": 408,
+    "eval_count": 44379,
+    "eval_duration": 1262284247993,
+    "load_duration": 112969877800,
+    "prompt_eval_count": 642689,
+    "prompt_eval_duration": 240183119996,
+    "total_duration": 1648334943200,
+    "call_wall_seconds": 1653.3432103996165
+  },
+  "all_literal_requests_parses_costs_and_model_identities_verified": true,
+  "whole_preparation_and_chain_replay_new_calls": 0,
+  "unchanged_files": 1963,
+  "native_worker_and_wrapper_exited": true,
+  "gpu_lock_released": true,
+  "target_access": "original byte-checked identity projection only; development/evaluation outcomes unused",
+  "excluded_evaluation_opportunities": 2,
+  "scope": "full earlier-draft R0/R1/R2 prediction producer only; structured/adaptive extension and scientific comparisons pending"
+}

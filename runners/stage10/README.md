@@ -153,3 +153,14 @@ Both rival paths pass constructed full-worker checks. The selected real cohort
 and all first/refinement request bounds are frozen before evaluation answers.
 
 `earlier_artifacts.py` projects strictly prior within-session draft snapshots from verified CoAuthor replay, retaining empty and identical priors and explicit context exclusions. It adds no handling labels or operations. Its finite R0/R1/R2 development/evaluation chain has four terminal-guarded jobs, source-bound literal admission and known-answer full-chain replay checks. It does not substitute direct deliberation for the still-pending structured/adaptive extensions.
+
+`earlier_programs.py` preserves the original human rule vocabulary and executor.
+Earlier drafts can inform which rule the reader proposes, while a given rule
+still acts on current-draft/menu features. This isolates added evidence from
+added executable features. `earlier_proposal.py`, `earlier_memory.py` and
+`earlier_routes.py` are versioned adaptations of the corresponding human
+memory modules, leaving historical source bytes intact. R3 receives no training
+representation; R1 and both R4 naming conditions share the existing storage
+ceiling and full feedback reservation. Selection records additional context
+exclusions for complete whole-draft requests, and comparison must match those
+task IDs rather than pool different populations. Adaptive effort is separate.

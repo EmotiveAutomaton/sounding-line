@@ -1,0 +1,62 @@
+{
+  "at": "2026-09-13T12:09:07.048182+00:00",
+  "status": "PASS",
+  "sources": {
+    "runners/stage10/__init__.py": "6cf8d2debdfcde8f71c613e781ddd6c5eac1494e4bbb61fef8004837274223d2",
+    "runners/stage10/contracts.py": "d521c85fa46aee60d594fc0339b7143311186e22140dee5ae543ca7ca7a2fd02",
+    "runners/stage10/ollama.py": "e5391372759bbd0cd9d69631eec94f9db4cf62536ef00b5a54029bbce2890e54",
+    "runners/stage10/reader.py": "cd663a950139f254fadd4668fab0fb1caa2acdcf4c9143c914712bb296135a23",
+    "runners/stage10/queue.py": "c4edca31ff97381ff590bf63ce39796e19fb08c682d887d53fe420f9844483b1",
+    "runners/stage9/process_identity.py": "a17bc3ca37ffafea5b272acc7bea0d1536049e11e870fc04471fefb1cee84a35",
+    "soundingline/gpulock.py": "be9c75035c02d8bfa5bb46d6d72a947cee2e81352bd122b500aec3062a5578e6",
+    "runners/stage10/human_routes.py": "850ea068b01978c2c022385d8a335866eea26a213712a6fe03e3d76425eabfe7",
+    "runners/stage10/human_programs.py": "584c347c00cf9b0164678dc08bc6c864a1f76a745b386ff0716aa457f181e775",
+    "runners/stage10/human_proposal.py": "562beadc371dd8c44002cf19aecdf9303c663fcc7419679cb5f7dcc4fe1b996b",
+    "runners/stage10/coauthor.py": "6bd666da549502e4411f9d4edf17f67dfb4c35b83fa136c7aec6b2ecc43a3118",
+    "runners/stage9/program_inference.py": "6e43ade6e80bc477c03818ab176194b35d63d7fabe3a0cad1959e29bbb8390fd",
+    "runners/stage10/earlier_memory.py": "2c532123a0e9c6be038003e484214ab916981f7252ef8ad03055219a7e02af66",
+    "runners/stage10/earlier_programs.py": "1e6774edc0055d6b5725c73b2904dc16bbae189d8b7716e2bf7b36d1470427fb",
+    "runners/stage10/earlier_proposal.py": "1938095783ccf03d5713cae1d6263c8f050b715b4ebd6fd1dd3b2c0bb9ecbf6b",
+    "runners/stage10/earlier_routes.py": "5b883b69ca9db4caf367916e424f8efe95d565923ab286edf3f1befdf85ba2fc"
+  },
+  "known_answer_tests": 11,
+  "counts": {
+    "development": {
+      "tasks": 8,
+      "writers": 1,
+      "prompts": 1
+    },
+    "evaluation": {
+      "tasks": 94,
+      "writers": 14,
+      "prompts": 3
+    }
+  },
+  "additional_context_exclusions": [],
+  "original_context_exclusions": [
+    {
+      "original_task_id": "a8d91b2c2e178d68718846590fd1207d",
+      "phase": "evaluation",
+      "reason": "public prompt exceeds the declared conservative context bound",
+      "task_id": "b81de2dc532733d5b587006c18669ff1"
+    },
+    {
+      "original_task_id": "02a10a78251ec7e3eeadbe30c6bd9c29",
+      "phase": "evaluation",
+      "reason": "public prompt exceeds the declared conservative context bound",
+      "task_id": "1f831d75ecae1f5224a9f88ed61600fe"
+    }
+  ],
+  "selection_sha256": "4cea7b1b2f5902ea2ed6fddee5a4b00c241181979a77f795089731c5f6fa03f2",
+  "memory_sha256": "43e3ff84a9599c6ba9d83dec9cde2da220b18eaf29b62ac89f076b2fb28bdd5a",
+  "fit_cost": {
+    "wall_seconds": 0.012150600086897612,
+    "executor_evaluations": 418,
+    "model_calls": 0
+  },
+  "learned_procedures": {
+    "earlier-artifacts": 3
+  },
+  "frozen_training_and_complete_selection_reproduce": true,
+  "scope": "fixed current-state rule vocabulary; earlier-draft text informs proposal/retrieval; scientific benefit and literal admission separate"
+}

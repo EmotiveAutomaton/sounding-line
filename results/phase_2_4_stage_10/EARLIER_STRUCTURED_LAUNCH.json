@@ -1,0 +1,51 @@
+{
+  "at": "2026-09-13T12:22:35.005796+00:00",
+  "status": "RUNNING",
+  "sources": {
+    "runners/stage10/__init__.py": "6cf8d2debdfcde8f71c613e781ddd6c5eac1494e4bbb61fef8004837274223d2",
+    "runners/stage10/contracts.py": "d521c85fa46aee60d594fc0339b7143311186e22140dee5ae543ca7ca7a2fd02",
+    "runners/stage10/ollama.py": "e5391372759bbd0cd9d69631eec94f9db4cf62536ef00b5a54029bbce2890e54",
+    "runners/stage10/reader.py": "cd663a950139f254fadd4668fab0fb1caa2acdcf4c9143c914712bb296135a23",
+    "runners/stage10/queue.py": "c4edca31ff97381ff590bf63ce39796e19fb08c682d887d53fe420f9844483b1",
+    "runners/stage9/process_identity.py": "a17bc3ca37ffafea5b272acc7bea0d1536049e11e870fc04471fefb1cee84a35",
+    "soundingline/gpulock.py": "be9c75035c02d8bfa5bb46d6d72a947cee2e81352bd122b500aec3062a5578e6",
+    "runners/stage10/human_routes.py": "850ea068b01978c2c022385d8a335866eea26a213712a6fe03e3d76425eabfe7",
+    "runners/stage10/human_programs.py": "584c347c00cf9b0164678dc08bc6c864a1f76a745b386ff0716aa457f181e775",
+    "runners/stage10/human_proposal.py": "562beadc371dd8c44002cf19aecdf9303c663fcc7419679cb5f7dcc4fe1b996b",
+    "runners/stage10/coauthor.py": "6bd666da549502e4411f9d4edf17f67dfb4c35b83fa136c7aec6b2ecc43a3118",
+    "runners/stage9/program_inference.py": "6e43ade6e80bc477c03818ab176194b35d63d7fabe3a0cad1959e29bbb8390fd",
+    "runners/stage10/earlier_memory.py": "2c532123a0e9c6be038003e484214ab916981f7252ef8ad03055219a7e02af66",
+    "runners/stage10/earlier_programs.py": "1e6774edc0055d6b5725c73b2904dc16bbae189d8b7716e2bf7b36d1470427fb",
+    "runners/stage10/earlier_proposal.py": "1938095783ccf03d5713cae1d6263c8f050b715b4ebd6fd1dd3b2c0bb9ecbf6b",
+    "runners/stage10/earlier_routes.py": "5b883b69ca9db4caf367916e424f8efe95d565923ab286edf3f1befdf85ba2fc"
+  },
+  "manifest_sha256": "cf0b925eca695c4ced11d16687ac82c5b8ac1769aab358d6c45f5e40ecee8e78",
+  "native_identity_verified": true,
+  "initial_completed_model_calls": 13,
+  "planned_routes": 408,
+  "maximum_model_calls": 714,
+  "phases": [
+    "development",
+    "evaluation"
+  ],
+  "arms": [
+    "R3",
+    "R1-memory",
+    "R4-opaque",
+    "R4-grounded"
+  ],
+  "opportunities": 102,
+  "frozen_selection_sha256": "4cea7b1b2f5902ea2ed6fddee5a4b00c241181979a77f795089731c5f6fa03f2",
+  "fit_sha256": "43e3ff84a9599c6ba9d83dec9cde2da220b18eaf29b62ac89f076b2fb28bdd5a",
+  "pilot_sha256": "5f8336ebc28f108fcc4a5112530fb3bbadd3cd249f6fc929f24ad9e2c23e6a31",
+  "cooling": {
+    "cpu_boost": "off",
+    "ac_max_processor_state_percent": 90,
+    "recent_cpu_c": 65.9,
+    "recent_gpu_c": 51.0
+  },
+  "monitoring": "final completion/failure/native disappearance only; verified actual native API idle delivery; no routine timer",
+  "rough_batch_eta": "about 3-6 hours, provisional from the literal pilot; local contention and prompt mix can change this",
+  "working_stage_target": "September 16-17 Pacific; remaining sources/targets/model comparisons, adaptive effort and analysis remain",
+  "scope": "new earlier-draft structured and storage-matched comparison predictions; no scientific effect or full-stage completion claimed"
+}
