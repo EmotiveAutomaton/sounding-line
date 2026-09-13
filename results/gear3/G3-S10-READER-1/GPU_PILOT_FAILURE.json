@@ -1,0 +1,52 @@
+{
+  "at": "2026-09-13T22:52:57.438000+00:00",
+  "status": "FAILED_PILOT_NO_SCIENTIFIC_ADMISSION",
+  "failure": "cloud execution feedback exceeded reserved allowance",
+  "feedback_bytes": 4943,
+  "reserved_feedback_bytes": 4096,
+  "provider_state": "STOPPED",
+  "provider_tasks": 0,
+  "native_owner_exited": true,
+  "original_archive_sha256": "19ff8079890e235a879ce4c12e72606ee47a34589e13912a8271aa7e9dc69c18",
+  "original_terminal_sha256": "188b58717a03b9094195bb26956fb829ee95e89eb1f83735d88e4adf3f58f31d",
+  "provider_inspection_sha256": "8b59052d24eadd3d2c89369698e3e2c5eda6510a8c007cab6996158ceef77b6a",
+  "completed_blocks_replayed": [
+    "P-literal-human-001",
+    "P-literal-opportunity-002"
+  ],
+  "incomplete_branch": "Ghost reading",
+  "unrun_required_check": "P-context-boundary-004",
+  "actual_device_and_model_load_check": "L40S; both packages fully in GPU memory at context length 16384",
+  "original_failed_gpu_booking_cents": 217,
+  "total_campaign_booked_cents": 321,
+  "actual_invoice_status": "unsettled; full reservations retained",
+  "original_scientific_admission_gate": "unchanged and still refuses incomplete pilot",
+  "discarded_admission_draft": "22 constructed checks passed, but actual evidence exposed the missing context block; draft archived privately and original gate restored",
+  "proposed_followup": {
+    "status": "PROPOSED_NOT_AUTHORIZED_NOT_DISPATCHED",
+    "invocation": "context-supplement-proposed-v1",
+    "node": "Reserve",
+    "mode": "science",
+    "total_seconds_cap": 600,
+    "startup_seconds": 300,
+    "reservation_cap_cents": 64,
+    "original_context_block": "P-context-boundary-004",
+    "units": 2,
+    "models": [
+      "27b",
+      "9b"
+    ],
+    "bundle_sha256": "a99915e5cfd60d5a9e03a6f04e0e1e877841f357f9a43b84a3083cfe200b8502",
+    "same_original_context_requests": true,
+    "completed_human_and_opportunity_not_repeated": true,
+    "Ghost_reading": "deferred; incomplete reading pilot not admitted",
+    "original_GPU_pilot_status": "FAILED, retained",
+    "original_GPU_booking_cents": 217,
+    "existing_campaign_booked_cents": 321,
+    "required_owner_decision": "Approve one scoped supplemental pilot with a fresh ten-minute cap from the existing Reserve, explicitly distinct from a same-payload retry; retain original deadlines and all costs. This is an exception to the current exact-payload recovery rule, not a new $50 campaign.",
+    "followup_after_approval": "bind the explicit supplemental authorization; run this exact bundle; verify both original complete blocks plus context evidence before selecting affordable science. No method or scoring change."
+  },
+  "combined_ceiling_if_supplement_authorized_cents": 385,
+  "claim": "Infrastructure only; no scientific score or theory verdict",
+  "new_research_tests": 0
+}
