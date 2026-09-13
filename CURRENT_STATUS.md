@@ -1,25 +1,14 @@
 # Current status
 
-Updated 2026-09-13T12:22:35.005796+00:00.
+Updated 2026-09-13T14:05:44.920488+00:00.
 
-**Stage 10 is running in Gear 2.** The earlier-draft structured comparison has 408 reader runs across 102 opportunities, with at most 714 local model calls. Development and evaluation advance automatically. Native worker identity, initial completed responses and loaded watchdog sources verify. [Launch](results/phase_2_4_stage_10/EARLIER_STRUCTURED_LAUNCH.json).
+**Local queue:** the local earlier-draft structured and storage-matched prediction bank is complete and fully internally landed. All 408 routes and 714 calls reconcile, with unchanged input/output bytes and native exit verified. No local scientific worker is running. Gear 2 and CPU boost-off/90% maximum remain authorized; the current implementation focus is the separately commissioned Gear 3 Round 1. [Producer](results/phase_2_4_stage_10/EARLIER_STRUCTURED_PRODUCER.json).
 
-The preceding four-job direct/deliberation bank is fully internally landed and its completion wake acknowledged. The repaired native transport delivered that actual completion after the previous final response, on its first attempt. No routine liveness timer is active.
+The whole bank finished at 13:32 UTC. The transition watcher remains active; its completion event is acknowledged only after this full landing. No routine wake timer or restart is needed. No unfinished scientific scores are reported.
 
-The new structured branch passes eleven constructed checks and a fourteen-call literal rehearsal, including retained rule executions and complete no-call replay. All eligible target opportunities fit unchanged. CPU boost remains off and maximum AC processor state is 90%; recent temperatures were 65.9 degrees CPU and 51 degrees GPU.
+**Gear 3 Round 1:** theory errata are fully applied and archived; commit e93ecef8f is pushed following the public-release review. Implementation is isolated on `codex/gear3-round1`. Explicit model profiles, one shared campaign ledger, durable request/archive handling, native Ghost execution and the bounded cloud controller are implemented in the isolated checkout. Final offline verification and pilot admission remain in setup. No cloud compute has been dispatched. The provider workspace limits, credits and shared-workload information are requested before the discarded pilot.
 
-**ETA:** roughly 3-6 hours for this batch, with substantial uncertainty from prompt mix and local contention. The working full-stage target remains September 16-17 Pacific. Adaptive effort, synthetic effect/constraint tasks, second human source/anchor, selected second-model work and common analysis/final reporting remain. The whole week is not yet queued. No curator decision is required for the current work.
-
-All six new theory errata are applied and the original handoff is archived. Existing quotations and evidence rows are preserved; theory-format checks pass. The September 13 follow-up commissions careful Gear 3 Round 1 implementation under its specific $50 ceiling, alongside Gear 2.
-
-**September 13 maintenance:** suspected restored files were inspected before the
-Gear 3 review. Eleven stale/duplicate untracked files are preserved privately;
-no tracked source changed during containment. [Audit](results/maintenance_20260913/RESTORE_AUDIT.json).
-[Gear 3 Round 1](docs/design/GEAR_3_ROUND_1_REVIEW.md) is viable alongside this local
-work after bounded cloud-adapter preparation. Its source is renamed/archived;
-no cloud run was launched during that review. The later explicit apply-now instruction superseded the errata waiting trigger.
-At 12:59 UTC the original local native worker and wrapper remained alive with
-matching creation identities and no terminal marker; they were not restarted.
+**Remaining:** complete Gear 3 setup and its discarded pilot, then the frozen affordable study; local adaptive effort, selected task/source branches and the final Stage 10 common analysis remain. No replacement ETA has been calculated during this setup pass.
 
 ## Historical status snapshots (superseded)
 

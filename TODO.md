@@ -85,7 +85,7 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: validate earlier-draft R3 and storage-matched R1/R4 against the unchanged human rule vocabulary, preserving all 102 eligible opportunities.
 - [x] S10-C3: land the literal structured earlier-draft pilot with request/raw/cost/execution checks and native exit verified.
 - [x] S10-C3: launch the common earlier-draft R3/R1/R4 producer with native/source identity and initial completed calls verified.
-- [ ] S10-C3: fully land all earlier-draft R3/R1/R4 predictions and retained costs.
+- [x] S10-C3: fully land all earlier-draft R3/R1/R4 predictions and retained costs; unchanged no-call replay and native exit verified.
 - [ ] S10-C3: extend earlier-draft adaptive effort and apply the complete paired comparison.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.

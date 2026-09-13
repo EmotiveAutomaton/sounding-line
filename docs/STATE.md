@@ -33,7 +33,7 @@ applied in full, with original source bytes archived. The subsequent September 1
 instruction commissions the prescribed Gear 3 Round 1 setup and bounded execution;
 its $50 limit is campaign-specific. Current local execution remains as recorded below.
 
-**Current run:** the earlier-draft structured and storage-matched scientific queue is running in Gear 2: 408 routes, at most 714 calls, automatic development/evaluation advance. The direct/deliberation bank and new literal admission are fully landed. Native identity, initial responses and transition-only supervision verify. CPU boost-off/90% maximum remains. [Launch](../results/phase_2_4_stage_10/EARLIER_STRUCTURED_LAUNCH.json).
+**Current run:** the local earlier-draft structured and storage-matched prediction bank is complete and fully internally landed. All 408 routes and 714 calls reconcile, with unchanged input/output bytes and native exit verified. No local scientific worker is running. Gear 2 and CPU boost-off/90% maximum remain authorized; the current implementation focus is the separately commissioned Gear 3 Round 1. [Producer](../results/phase_2_4_stage_10/EARLIER_STRUCTURED_PRODUCER.json).
 
 **Latest operating override:** transition-only monitoring is active. Native identities and expected outputs are in the private Stage 10 handoff. Routine timers are retired; end healthy-running turns and resume only on completion, failure, disappearance or a predefined checkpoint. Terminal inspection is the next action; Gear 2 and cooling authority are unchanged.
 
