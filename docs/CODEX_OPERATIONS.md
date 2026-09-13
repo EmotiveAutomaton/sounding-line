@@ -16,6 +16,16 @@ hook, recursive queue rule or remaining-work condition may extend it merely
 because a simulation is running. Existing timer-based instructions below are
 historical and superseded. No scientific process is restarted for monitoring.
 
+Delayed notices can already have a full landing and a local ACK before their native
+message reaches the owner. Reconcile that original landing and record actual delivery
+separately. The installed experimental protocol exposes `thread/queue/list` and
+`thread/queue/delete`; the CLI queue command has no cancellation flag. The September
+13 inspection could not reach the local control socket (Windows error 10050), so no
+native messages were listed or removed. The local watcher continues transition
+detection, but this check does not establish future message transport. Preserve
+uninspected notifications; do not restart science or add timer wakes to retry queue
+cleanup. [Inspection](../results/maintenance_20260912/QUEUE_BACKLOG_INSPECTION.json).
+
 The curator authorized the full Claude/Fable to Codex/GPT transition on 2026-09-05.
 `AGENTS.md` is the canonical contract; `.agents/skills/grind/SKILL.md` is its operational
 skill. `CLAUDE.md` is a compatibility pointer, and the original contract is archived.

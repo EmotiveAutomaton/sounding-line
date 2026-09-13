@@ -10,6 +10,7 @@ archive, kept whole, mined but never deleted.
 The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. No cloud activation is authorized.
 
 - [x] OPS-WAKE-TRANSITIONS: use transition-only watchdogs; record process identities/outputs and end healthy-running turns. No routine liveness timer or mandatory refill before replying.
+- [ ] OPS-WAKE-TRANSITIONS: inspect and retire only already-landed native notifications when the owner control socket is available; retain the failed inspection and do not schedule polling to retry it.
 - [x] S10: assess the supplied specification against current theory, lessons, model and prepared source interfaces; record adoption and scope.
 - [x] S10-I1: validate literal model calls, public task boundary, Ghost transport and actual resume on discarded cases; preserve every attempt.
 - [x] S10-C1: freeze a small R0/R1 science cohort and implement CoAuthor predecision handling with writer/prompt separation.
@@ -44,7 +45,7 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: launch matched-deliberation evaluation on the unchanged frozen cases.
 - [x] S10-C3: land matched-deliberation evaluation with every raw parse and cost reproduced.
 - [x] S10-C3: implement and validate bounded human program execution and the complete constructed queue/replay path.
-- [x] S10-C3: inspect and land literal human program pilot and validate all frozen first-request bounds.
+- [x] S10-C3: inspect and land literal human program pilot and validate all frozen first-request bounds. Delayed owner delivery reconciled without new computation.
 - [x] S10-C3: launch the unchanged frozen human structured development/evaluation cohorts with verified native progress.
 - [x] S10-C3: land the complete human structured chain; retain invalid predictions, costs and rationales that contradict their rules.
 - [x] S10-C3: validate training-only human procedures and concrete exceptions under a common storage cap.
