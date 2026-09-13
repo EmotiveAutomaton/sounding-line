@@ -35,7 +35,7 @@ def test_cpu_cache_price_and_expired_recovery(tmp_path):
     r=l.reserve('cache','P',['cache'],{},600,25,approval='fixture',cache=True,now=100)
     assert r['resources']['gpu'] is None and r['reserved_cents']==28
     l.transition('cache','SUBMITTED',call_id='fixture');l.transition('cache','FAILED',owner_ended=True,evidence='fixture')
-    with pytest.raises(ValueError,match='expired'):l.reserve('retry','Reserve',['cache'],{},60,0,approval='fixture',recovery_of='cache',now=701)
+    with pytest.raises(ValueError,match='expired'):l.reserve('retry','Reserve',['cache'],{},60,0,approval='fixture',recovery_of='cache',cache=True,now=701)
 
 
 def test_allowlisted_real_bundle_and_source_census(tmp_path):
@@ -70,12 +70,12 @@ def test_complete_prepared_pilot_offline(monkeypatch,tmp_path):
     out=tmp_path/'raw'
     with storage.durable_attempts(out,reservation,lambda:None):
         for name in job['blocks']:
-            m=json.loads((blocks/name).read_text());results.append((m,batch.run_block(m,out/m['block_id'],ghost_root=native)))
+            m=json.loads((blocks/name).read_text());results.append((m,batch.run_block(m,out/m['block_id'],ghost_root=blocks/'ghost-public')))
     assert len(requests)==72
     archive=tmp_path/'full.zip';storage.make_archive(out,archive);restored=tmp_path/'restored';storage.verify_archive(archive,restored)
     def forbidden(*a,**k):raise AssertionError('completed pilot repeated inference')
     monkeypatch.setattr(ollama.urllib.request,'urlopen',forbidden)
-    for m,expected in results:assert batch.run_block(m,restored/m['block_id'],ghost_root=native)==expected
+    for m,expected in results:assert batch.run_block(m,restored/m['block_id'],ghost_root=blocks/'ghost-public')==expected
     controls=json.loads((prepared/'CHEAP_CONTROLS.json').read_text())
     original=json.loads((main/'results/phase_2_4_stage_10/raw/human-baselines-v1/RESULT.json').read_text())
     assert controls['fitted']['models']==original['fitted']['models']
@@ -134,6 +134,7 @@ def test_controller_reserves_then_preserves_complete_or_unknown(tmp_path,monkeyp
         return Call()
     fake=SimpleNamespace(App=App,Volume=SimpleNamespace(from_name=lambda *a,**k:volume),
         Image=SimpleNamespace(from_registry=lambda *a,**k:Image()),concurrent=lambda **k:lambda f:f)
+    monkeypatch.setattr(__import__('runners.gear3_runtime',fromlist=['validate_runtime']),'validate_runtime',lambda: {'fixture':'provider transport only; runtime tested separately'})
     monkeypatch.setitem(sys.modules,'modal',fake)
     class Client:
         @staticmethod

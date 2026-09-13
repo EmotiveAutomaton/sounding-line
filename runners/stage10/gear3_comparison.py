@@ -41,7 +41,7 @@ def interaction(cells):
             'brier':comparison.uncertainty(contrasts,'interaction'),
             'finite_log':comparison.uncertainty(contrasts,'finite_log_interaction'),
             'within_model':{m:comparison.paired(cells[m+'-R3'],cells[m+'-R2']) for m in ('9b','27b')},
-            'direct_model_package_difference':comparison.paired(cells['27b-R2'],cells['9b-R2']),
+            'deliberative_model_package_difference':comparison.paired(cells['27b-R2'],cells['9b-R2']),
             'scope':'descriptive package comparison; parameter count is not isolated; no human-mechanism or confirmatory claim'}
 
 

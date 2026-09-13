@@ -1,14 +1,12 @@
 # Current status
 
-Updated 2026-09-13T18:27:26.848554+00:00.
+Updated 2026-09-13T21:51:42.941380+00:00.
 
-**Local queue:** Local Stage 10 runs in the main checkout in Gear 2: the active four-job ScholaWrite bank is followed by 51 frozen local jobs. This isolated cloud checkout remains held and does not run that local queue. CPU cooling limits remain.
+**Local queue:** Local Stage 10 remains in Gear 2 under its existing native controllers and frozen source plans. The ScholaWrite bank precedes the 51-job local queue; cooling limits remain.
 
-**Gear 3 held, September 13:** the owner withholds release while the remaining local Stage 10 work is built. New dispatch refuses before cloud reservation. The already-submitted CPU cache app is verified stopped with zero running tasks; no cloud GPU invocation occurred. Its 28-cent reservation and original failure records remain retained pending final billing reconciliation.
+**Gear 3 panel repairs validated:** all 62 final checks pass. The latest owner instruction authorizes bounded rollout after these repairs. The first GPU pilot remains unrun; its prepared chain completes the retained model cache before the discarded literal check. Prior costs stay booked, total P is capped at $2.83, and science requires actual device/source admission and a whole-plan affordability check. [Repairs](results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json).
 
-**Remaining and timing:** The main checkout now carries the full finite local runway and final-review assembly. Gear 3 remains held for the owner assessment; no new cloud dispatch is authorized.
-
-The watcher is active with transition-only supervision and no liveness timer. The latest whole-chain event was acknowledged after full internal landing; native message delivery remains distinct from queued acceptance. No unfinished per-artifact scores are reported.
+The transition-only watcher owns waiting. The next cloud checkpoint is completion/failure of the bounded literal pilot; no routine liveness wakes or per-artifact score reports.
 
 ## Historical status snapshots (superseded)
 

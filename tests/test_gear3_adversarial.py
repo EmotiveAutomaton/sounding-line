@@ -32,7 +32,7 @@ def test_cancellation_attempts_app_stop_even_if_call_cancel_raises():
     def stop_app():
         events.append('app'); return {'app_id': 'ap-fixture'}
     result = controller.request_stop(bad_call, stop_app)
-    assert events == ['call', 'app'] and result['app_stop']['app_id'] == 'ap-fixture'
+    assert events == ['app', 'call'] and result['app_stop']['app_id'] == 'ap-fixture'
     assert 'call cancellation unavailable' in result['call_error']
 
 def test_cancel_reports_both_failed_paths():
@@ -43,7 +43,7 @@ def test_cancel_reports_both_failed_paths():
         return run
     with pytest.raises(RuntimeError, match='app failed'):
         controller.request_stop(fail('call'), fail('app'))
-    assert events == ['call', 'app']
+    assert events == ['app', 'call']
 
 @pytest.mark.parametrize('actual', [{'workspace': 'wrong', 'workspace_id': 'wk-other'}, {'workspace': 'inspected', 'workspace_id': ''}, {'workspace': 'inspected', 'workspace_id': 'wk-correct'}])
 def test_actual_authenticated_workspace_must_match_billing(monkeypatch, actual):
@@ -107,6 +107,7 @@ def test_billing_boundary_refuses_before_reservation_or_cloud(tmp_path,monkeypat
     from runners.stage10 import gear3_bundle
     p=tmp_path/'account.json';v=account(p);v['cycle_end_at']=time.time()+80;p.write_text(json.dumps(v))
     monkeypatch.setattr(controller,'provider_client',lambda account:(object(),{'workspace':'fixture-only','workspace_id':'wk-fixture'}))
+    monkeypatch.setattr(__import__('runners.gear3_runtime',fromlist=['validate_runtime']),'validate_runtime',lambda: {'fixture':'provider transport only; runtime tested separately'})
     monkeypatch.setitem(sys.modules,'modal',SimpleNamespace())
     monkeypatch.setattr(controller,'authoritative_ledger',lambda _:tmp_path/'results/ledger.json')
     monkeypatch.setattr(gear3_bundle,'validate_input',lambda *a:({'mode':'cache'},{'archive_sha256':'a'*64}))

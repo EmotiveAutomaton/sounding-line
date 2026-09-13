@@ -16,3 +16,7 @@ $20. The current handoff asks for viability assessment and filing. No cloud laun
 new per-use ledger entry or implementation acceptance follows from this archive.
 [Current assessment](../../design/GEAR_3_ROUND_1_REVIEW.md) records readiness and gaps.
 The source's older suggested destination is retained as historical text.
+
+## Gear 3 Round 1 analyst validation
+
+[Revision-2 handoff](GEAR_3_ROUND_1_VALIDATION_2026-09-13.md) is retained byte for byte after its ten repairs were implemented and validated. Its former loose path was `docs/SOUNDING_LINE_GEAR3_ROUND1_VALIDATION_2026-09-13.md`; SHA-256 `d12d95b2f9fc3e685d06725cd9fdab9ef86ca16001735f7951c6de9f0d7475a9`. Current execution status belongs in the design review and repair receipt, not this historical source.

@@ -28,6 +28,25 @@ def ordered(records,identities):
     return [groups[g][i] for i in range(max(map(len,groups.values()),default=0)) for g in keys if i<len(groups[g])]
 
 
+def capped(records, key, per_group, total):
+    counts=defaultdict(int); kept=[]
+    for row in records:
+        group=key(row)
+        if counts[group]>=per_group: continue
+        if len(kept)>=total: break
+        counts[group]+=1; kept.append(row)
+    return kept
+
+
+def case_first(rows):
+    groups=defaultdict(list)
+    for row in rows: groups[row['group']].append(row)
+    keys=sorted(groups,key=lambda g:digest(['G3-Ghost-case-order',g]))
+    for g in groups: groups[g].sort(key=lambda r:digest(['G3-Ghost-task-order',r['record']['task_id']]))
+    return [groups[g][i] for i in range(max(map(len,groups.values()),default=0))
+            for g in keys if i<len(groups[g])]
+
+
 def human_source(root):
     frozen=read(root/'FROZEN.json');files={};lanes={};groups={}
     for phase in ('train','evaluation'):
@@ -130,15 +149,16 @@ def roster(c,*,human_n=64,ghost_n=12,history_n=24,memory_human_n=24,memory_ghost
     limits=(human_n,ghost_n,history_n,memory_human_n,memory_ghost_n)
     if any(type(x)is not int or x<0 for x in limits) or any(a>b for a,b in zip(limits,(64,12,24,24,6))):
         raise ValueError('roster exceeds commissioned target')
-    h=c['human'];humans=h['evaluation'][:human_n]
+    h=c['human'];humans=capped(h['evaluation'],lambda r:h['groups']['evaluation'][r['task_id']]['writer_component'],8,human_n)
     human_rows=[{'record':r,'envelope':None,'group':h['groups']['evaluation'][r['task_id']]['writer_component']} for r in humans]
     # Interleave the two already-admitted Ghost families without treating calls as sources.
-    lists=[c['ghost'][k]['selected'] for k in ('opportunity','reading')]
+    lists=[case_first(c['ghost'][k]['selected']) for k in ('opportunity','reading')]
     native=[a[i] for i in range(max(map(len,lists),default=0)) for a in lists if i<len(a)][:ghost_n]
     a=human_rows+native;ids={r['record']['task_id'] for r in a}
     rank={r['record']['task_id']:i for i,r in enumerate(human_rows)}
     pairs=sorted((p for p in h['history_pairs'] if p['original']['task_id'] in ids),
-                 key=lambda p:rank[p['original']['task_id']])[:history_n]
+                 key=lambda p:rank[p['original']['task_id']])
+    pairs=capped(pairs,lambda p:p['original_writer'],2,history_n)
     b=[];donors={};sources={r['task_id']:r for r in h['evaluation']}
     for p in pairs:
         original=from_record(p['original']);donor=sources[p['donor_task_id']]
@@ -151,7 +171,7 @@ def roster(c,*,human_n=64,ghost_n=12,history_n=24,memory_human_n=24,memory_ghost
             b.append({'condition':condition,'row':{'record':asdict(task),'envelope':None,'group':p['original_writer']}})
     memory=human_rows[:memory_human_n]+[r for r in native if r['record']['family']=='ghost-reading'][:memory_ghost_n]
     return {'A':a,'B':b,'C':memory,'history_donors':donors,
-            'D_candidates':[{'record':r,'envelope':None,'group':h['groups']['evaluation'][r['task_id']]['writer_component']} for r in h['evaluation'][human_n:]]+
+            'D_candidates':[{'record':r,'envelope':None,'group':h['groups']['evaluation'][r['task_id']]['writer_component']} for r in h['evaluation'] if r['task_id'] not in ids]+
                 [r for part in lists for r in part if r['record']['task_id'] not in ids]}
 
 

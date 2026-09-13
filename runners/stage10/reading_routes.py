@@ -70,10 +70,14 @@ def route(root, envelope, output, training, answers, arm, group, *, profile=None
         if arm.startswith("R4"):
             library = memory.induce(root, training, answers,
                                     prior_observations=task.evidence["permitted_prior_artifacts"], prior_group=group)
-            procedures = memory.representation(library, arm.removeprefix("R4-"))
-            episodes, selection = memory.examples(task, training, answers, reserved_bytes=len(canonical(procedures).encode("utf8")))
-            representation = {"procedures": procedures, "episodes": episodes,
-                              "scope": "training/prior-artifact reconstructions, not the maker's known procedures"}
+            if profile is not None:
+                from .gear3_memory import paired_representation
+                representation,selection=paired_representation(task,envelope,training,answers,library,profile,arm.removeprefix('R4-'))
+            else:
+                procedures = memory.representation(library, arm.removeprefix("R4-"))
+                episodes, selection = memory.examples(task, training, answers, reserved_bytes=len(canonical(procedures).encode("utf8")))
+                representation = {"procedures": procedures, "episodes": episodes,
+                                  "scope": "training/prior-artifact reconstructions, not the maker's known procedures"}
             representation_bytes = len(canonical(representation).encode("utf8"))
             if representation_bytes > memory.STORE_BYTES:
                 raise ValueError("combined representation exceeds common cap")
@@ -91,6 +95,10 @@ def route(root, envelope, output, training, answers, arm, group, *, profile=None
             if not execution["response"]["ok"]:
                 state = "EXECUTOR_INVALID"; break
             feedback = execution["response"]["result"]
+            if profile is not None and arm.startswith('R4'):
+                from .gear3_memory import FEEDBACK_BYTES
+                if len(canonical(feedback).encode('utf8'))>FEEDBACK_BYTES:
+                    raise ValueError('cloud execution feedback exceeded reserved allowance')
         if len(calls) == 2 and state == "VALID":
             if feedback["model_mismatch"]:
                 state = "MISMATCH"

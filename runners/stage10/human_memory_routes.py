@@ -51,7 +51,8 @@ def representation_for(task, training, answers, learned, arm, *, profile=None):
         else:
             raise ValueError('even empty representation exceeds target allowance')
     if arm == 'R4-opaque':
-        rep['procedures'] = [{k: p[k] for k in ('id', 'program')} for p in rep['procedures']]
+        rep['procedures'] = [{k: v for k,v in p.items() if k != 'description'} if profile is not None
+                             else {k: p[k] for k in ('id', 'program')} for p in rep['procedures']]
     receipt.update(arm=arm, context_removed_ids=removed, effective_store_limit_bytes=cap,
                    reserved_feedback_bytes=FEEDBACK_BYTES, store_bytes=len(canonical(rep).encode('utf8')),
                    representation_sha256=digest(rep))

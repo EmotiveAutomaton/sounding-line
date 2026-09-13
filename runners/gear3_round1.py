@@ -24,7 +24,7 @@ def account_backstop(path,*,now=None):
     value=json.loads(path.read_text(encoding='utf8'));now=time.time() if now is None else now
     required={'workspace','observed_at','source','usage_limit_cents','metered_at_check_cents',
               'net_spend_limit_cents','remaining_credits_cents','other_workloads','status','cycle_start_at','cycle_end_at','payment_method_present','storage_allowance_cents','environment'}
-    if set(value)!=required or value['status']!='VERIFIED' or value['source'] not in {'owner-billing-page','provider-api'}:
+    if not required <= set(value) <= required | {'attribution'} or value['status']!='VERIFIED' or value['source'] not in {'owner-billing-page','provider-api'}:
         raise ValueError('verified workspace billing backstop required before paid dispatch')
     if not isinstance(value['workspace'],str) or not value['workspace'].strip() or not 0<=now-value['observed_at']<=86400:
         raise ValueError('workspace budget evidence is absent or stale')
@@ -49,10 +49,38 @@ def account_campaign_cap(account):
     return min(5000,account['usage_limit_cents']-account['metered_at_check_cents']-account['storage_allowance_cents'])
 
 def account_reservation_guard(account, data, node, cost):
+    from .gear3_campaign import CAMPAIGN
     totals=CampaignLedger.totals(data); cap=account_campaign_cap(account)
-    if sum(totals.values())+cost>cap:
+    overlap=0
+    attribution=account.get('attribution')
+    if attribution is not None:
+        required={'baseline_sha256','snapshot_sha256','cycle_start_at','cycle_end_at','settlements'}
+        snapshot=digest({k:v for k,v in account.items() if k!='attribution'})
+        if (set(attribution)!=required or attribution['snapshot_sha256']!=snapshot
+                or any(attribution[k]!=account[k] for k in ('cycle_start_at','cycle_end_at'))
+                or len(attribution['baseline_sha256'])!=64):
+            raise ValueError('billing attribution snapshot/cycle differs')
+        indexed={r['invocation_id']:r for r in data['runs'] if r.get('campaign_id')==CAMPAIGN}
+        for invocation,sha in attribution['settlements'].items():
+            row=indexed.get(invocation,{})
+            settlements=row.get('settlements',[])
+            if len(settlements)!=1 or digest(settlements[0])!=sha:
+                raise ValueError('billing overlap lacks original provider settlement')
+            receipt=settlements[0]
+            if (receipt['baseline_sha256']!=attribution['baseline_sha256']
+                    or receipt['cycle_start_at']!=account['cycle_start_at']
+                    or receipt['cycle_end_at']!=account['cycle_end_at']
+                    or receipt['observed_at']>account['observed_at']):
+                raise ValueError('billing attribution crosses evidence/cycle')
+            overlap+=row['provider_charge_cents']
+        if overlap>account['metered_at_check_cents']:
+            raise ValueError('billing attribution exceeds provider meter')
+    # Campaign totals still count every settled expense and unresolved reservation.
+    # Only provider-attributed charges already in THIS workspace snapshot overlap.
+    additional=sum(totals.values())-overlap+cost
+    if additional>cap:
         raise ValueError('workspace allocation exceeded before reservation')
-    if node!='Reserve' and sum(v for k,v in totals.items() if k!='Reserve')+cost>min(4000,cap-1000):
+    if node!='Reserve' and additional+max(0,1000-totals['Reserve'])>cap:
         raise ValueError('workspace allocation must retain the repair reserve')
 
 
@@ -99,19 +127,30 @@ def stop_app_rpc(client, app_id):
     return {'app_id': app_id, 'status': 'stop requested; final ownership still requires verification'}
 
 
-def request_stop(cancel_call, stop_app):
-    """Always attempt app termination, even if function cancellation fails."""
+def request_stop(cancel_call, stop_app, *, timeout_seconds=16):
+    """Bound both independent requests; neither is proof of owner termination.
+
+    AppStop starts first. A stuck SDK cancellation cannot postpone it, and a
+    stuck AppStop cannot prevent the separate call cancellation attempt.
+    Daemon threads may finish late; they never dispatch work or release money.
+    """
     evidence = {}
-    try:
-        if cancel_call is not None:
-            cancel_call(); evidence['call_cancel_requested'] = True
-    except Exception as exc:
-        evidence['call_error'] = repr(exc)
-    try:
-        evidence['app_stop'] = stop_app()
-    except Exception as exc:
-        evidence['app_error'] = repr(exc)
-        raise RuntimeError('provider termination unresolved: '+json.dumps(evidence)) from exc
+    def bounded(action):
+        finished = threading.Event(); outcome = {}
+        def run():
+            try: outcome['value'] = action()
+            except Exception as exc: outcome['error'] = repr(exc)
+            finally: finished.set()
+        threading.Thread(target=run, daemon=True).start()
+        if not finished.wait(timeout_seconds): return {'error': 'request deadline exceeded'}
+        return dict(outcome)
+    app = bounded(stop_app)
+    evidence['app_error' if 'error' in app else 'app_stop'] = app.get('error', app.get('value'))
+    if cancel_call is not None:
+        call = bounded(cancel_call)
+        evidence['call_error' if 'error' in call else 'call_cancel_requested'] = call.get('error', True)
+    if 'app_error' in evidence:
+        raise RuntimeError('provider termination unresolved: '+json.dumps(evidence))
     return evidence
 
 
@@ -130,6 +169,8 @@ def deadline_guard(expires,cancel,record):
 
 def dispatch(repo,args):
     account=account_backstop(args.account)
+    from .gear3_runtime import validate_runtime
+    runtime = validate_runtime()  # no cloud objects, before any reservation
     client, authenticated = provider_client(account)
     import modal  # import and local API inspection incur no cloud allocation
     from .stage10.gear3_bundle import validate_input
@@ -147,9 +188,17 @@ def dispatch(repo,args):
     if args.node!='P' and args.node!='Reserve':
         # Scientific sizing and literal admission are a single recorded checkpoint.
         if not args.pilot or not args.plan:raise ValueError('science needs passed literal pilot and frozen affordable PLAN')
-        pilot=json.loads(args.pilot.read_text());plan=json.loads(args.plan.read_text())
-        if pilot.get('status')!='PASS' or plan.get('pilot_sha256')!=digest(pilot):raise ValueError('pilot or PLAN admission differs')
-        if checked['archive_sha256'] not in plan['allowed_bundle_sha256']:raise ValueError('bundle was not frozen before science')
+        from .gear3_plan import validate_plan
+        plan=json.loads(args.plan.read_text())
+        book=CampaignLedger(authoritative_ledger(repo))
+        with book.transaction() as data:
+            validate_plan(repo,plan,account,data,main/'results/phase_2_4_stage_10/raw/interface-v3/ghost-public')
+        match=[j for j in plan['jobs'] if j['invocation']==args.invocation]
+        if len(match)!=1:raise ValueError('invocation absent from approved PLAN')
+        planned=match[0]
+        if (planned['bundle_sha256']!=checked['archive_sha256'] or planned['node']!=args.node
+                or any(planned[k]!=getattr(args,k) for k in ('seconds','startup_seconds','overhead_cents'))):
+            raise ValueError('dispatch differs from whole affordable PLAN')
     ledger=CampaignLedger(authoritative_ledger(repo))
     local=repo/'private/gear3/G3-S10-READER-1/invocations'/args.invocation
     if local.exists():raise ValueError('existing invocation requires inspection, not a second dispatch')
@@ -159,7 +208,8 @@ def dispatch(repo,args):
     ledger.enroll(AUTHORITY,repo/'docs/archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md')
     reservation=ledger.reserve(args.invocation,args.node,['runners/gear3.py','round1',checked['archive_sha256']],
         {'job_sha256':digest(job),'image':IMAGE,'account_evidence_sha256':digest(account),'authenticated_workspace_sha256':digest(authenticated),'startup_seconds':args.startup_seconds},
-        args.seconds,args.overhead_cents,approval=args.approval,recovery_of=args.recovery_of,cache=job['mode']=='cache',workspace_cap_cents=account_campaign_cap(account))
+        args.seconds,args.overhead_cents,approval=args.approval,recovery_of=args.recovery_of,cache=job['mode']=='cache',
+        reservation_guard=lambda data,node,cost: account_reservation_guard(account,data,node,cost))
     if reservation.get('existing_reservation'):raise ValueError('existing invocation is inspection-only; never resubmit it')
     app=None;call=None;app_id=None;ledger_terminal=False
     def cancel():
@@ -173,6 +223,7 @@ def dispatch(repo,args):
     try:
         local.mkdir(parents=True,exist_ok=False);atomic_json(local/'RESERVATION.json',reservation)
         atomic_json(local/'AUTHENTICATED_WORKSPACE.json',authenticated)
+        atomic_json(local/'CONTROLLER_RUNTIME.json',runtime)
         app=modal.App('sounding-line-g3-round1')
         with deadline_guard(reservation['expires_at'],cancel,lambda r:atomic_json(local/'DEADLINE.json',r)):
             volume=modal.Volume.from_name('sounding-line-g3-round1',create_if_missing=True,client=client,environment_name=account['environment'])

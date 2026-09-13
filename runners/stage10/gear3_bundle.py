@@ -54,7 +54,7 @@ def build(repo,manifests,ghost_root,destination,*,mode,profiles,server_version):
         if hashlib.sha256(raw).hexdigest()!=expected:raise ValueError('source changed during export')
         target.write_bytes(raw)
     native=source_identity(ghost_root)
-    allowed=['ARCHIVE_MEMBER_MANIFEST.json']+['public/consumer/'+p for p in native['public_sources']]
+    allowed=['ARCHIVE_MEMBER_MANIFEST.json','PUBLIC_MANIFEST.json']+['public/consumer/'+p for p in native['public_sources']]
     for name in allowed:
         source=ghost_root/name;target=root/'ghost-public'/name;target.parent.mkdir(parents=True,exist_ok=True)
         shutil.copyfile(source,target)
@@ -91,7 +91,7 @@ def validate_input(bundle,repo,ghost_root):
             p=ollama.ReaderProfile(**v)
             if p.model!='qwen3.5:'+k or p.model_digest!=batch.PINS[k] or p.server_version!=job['server_version']:
                 raise ValueError('reader profile differs from prescribed pin')
-        allowed=set(closure)|{'JOB.json','ghost-public/ARCHIVE_MEMBER_MANIFEST.json'}|set(job['blocks'])|{'ghost-public/public/consumer/'+p for p in native['public_sources']}
+        allowed=set(closure)|{'JOB.json','ghost-public/ARCHIVE_MEMBER_MANIFEST.json','ghost-public/PUBLIC_MANIFEST.json'}|set(job['blocks'])|{'ghost-public/public/consumer/'+p for p in native['public_sources']}
         if set(checked['files'])!=allowed:raise ValueError('extra data or missing source in cloud upload')
         if job['mode'] not in {'cache','science'} or (job['mode']=='cache' and job['blocks']) or (job['mode']=='science' and not job['blocks']):raise ValueError('empty or unexpected cloud work')
         if set(job['block_sha256'])!=set(job['blocks']) or len(set(job['blocks']))!=len(job['blocks']):raise ValueError('block identity roster differs')
@@ -101,6 +101,11 @@ def validate_input(bundle,repo,ghost_root):
                 raise ValueError('frozen block code/profile/content differs')
         for name,expected in closure.items():
             if hashlib.sha256(z.read(name)).hexdigest()!=expected:raise ValueError('bundled source bytes changed')
+        public=z.read('ghost-public/PUBLIC_MANIFEST.json')
+        original=(ghost_root/'PUBLIC_MANIFEST.json').read_bytes()
+        archive=__import__('json').loads(z.read('ghost-public/ARCHIVE_MEMBER_MANIFEST.json'))
+        if public!=original or hashlib.sha256(public).hexdigest()!=archive['files']['PUBLIC_MANIFEST.json']['sha256']:
+            raise ValueError('native public manifest changed')
         for name,expected in native['public_sources'].items():
             if hashlib.sha256(z.read('ghost-public/public/consumer/'+name)).hexdigest()!=expected:raise ValueError('bundled native bytes changed')
     return job,checked

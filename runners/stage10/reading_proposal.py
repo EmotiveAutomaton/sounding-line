@@ -54,7 +54,7 @@ def parse(text, task, envelope):
     return validate_original(canonical(normalized), task, envelope)
 
 
-def call(task, envelope, directory: Path, previous_execution=None, *, memory=None, profile=None):
+def request_for(task, envelope, previous_execution=None, *, memory=None, profile=None):
     schema = schema_for(task, envelope)
     request = ollama.request_for(task, generated_tokens=384, context_tokens=16384, **ollama.profile_kwargs(profile))
     request["format"] = schema
@@ -76,6 +76,11 @@ def call(task, envelope, directory: Path, previous_execution=None, *, memory=Non
     request["messages"][1]["content"] = canonical(body)
     if sum(len(x["content"].encode("utf8")) for x in request["messages"]) + 384 + 512 > 16384:
         raise ValueError("proposal exceeds conservative context bound")
+    return request
+
+
+def call(task, envelope, directory: Path, previous_execution=None, *, memory=None, profile=None):
+    request = request_for(task,envelope,previous_execution,memory=memory,profile=profile)
     binding = ollama.bind_request(request, profile)
     if (directory / "ATTEMPT.json").exists():
         saved = json.loads((directory / "ATTEMPT.json").read_text(encoding="utf8"))

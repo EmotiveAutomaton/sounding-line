@@ -137,17 +137,16 @@ def run_block(manifest, output: Path, *, ghost_root=None, before_model=None, sto
         if receipt["binding"]!=binding: raise ValueError("completed block changed")
         observed=inventory(output);observed.pop("COMPLETE.json")
         if observed!=receipt["files"]: raise ValueError("completed block evidence changed")
-        # Reconstruct every completed native route, including its literal parse.
-        # No callback/model load occurs, and network access is forbidden.
-        from unittest.mock import patch
-        def forbidden(*args, **kwargs): raise ValueError("completed replay attempted inference")
-        with patch.object(ollama, "api", forbidden):
-            for unit in manifest["units"]:
-                folder=output/"units"/digest(unit)[:32]
-                saved=read(folder/"UNIT.json")
-                task,row=tasks[unit["task_id"]]
-                result=dispatch(task,row,unit["arm"],profiles[unit["model"]],folder/"route",manifest["training"],ghost_root)
-                if result!=saved["result"]: raise ValueError("completed native route does not reproduce")
+        from .gear3_replay import verify_route
+        for unit in manifest['units']:
+            folder=output/'units'/digest(unit)[:32]
+            saved=read(folder/'UNIT.json'); task,row=tasks[unit['task_id']]
+            if (saved['binding'] != digest({'block': binding, 'unit': unit}) or saved['unit'] != unit
+                    or saved['profile'] != asdict(profiles[unit['model']])
+                    or saved['files'] != inventory(folder/'route')):
+                raise ValueError('completed unit identity/inventory differs')
+            result=verify_route(task,row,unit['arm'],profiles[unit['model']],folder/'route',manifest['training'],ghost_root)
+            if result != saved['result']: raise ValueError('completed native route does not reproduce')
         return receipt
     output.mkdir(parents=True,exist_ok=True)
     if (output/"BLOCK.json").exists():
@@ -163,11 +162,9 @@ def run_block(manifest, output: Path, *, ghost_root=None, before_model=None, sto
             if (saved["binding"]!=expected or saved["files"]!=inventory(folder/"route")
                     or saved['unit']!=unit or saved['profile']!=asdict(profiles[unit['model']])):
                 raise ValueError("saved unit changed")
-            from unittest.mock import patch
-            def forbidden(*a, **kw): raise ValueError('saved unit replay attempted inference')
+            from .gear3_replay import verify_route
             task,row=tasks[unit['task_id']]
-            with patch.object(ollama, 'api', forbidden):
-                reproduced=dispatch(task,row,unit['arm'],profiles[unit['model']],folder/'route',manifest['training'],ghost_root)
+            reproduced=verify_route(task,row,unit['arm'],profiles[unit['model']],folder/'route',manifest['training'],ghost_root)
             if reproduced!=saved['result']:
                 raise ValueError('saved unit native result does not reproduce')
             rows.append(saved);continue
@@ -176,6 +173,8 @@ def run_block(manifest, output: Path, *, ghost_root=None, before_model=None, sto
             active=unit["model"]
         task,row=tasks[unit["task_id"]]
         # Existing incomplete attempt directories refuse; never repeat an uncertain request.
+        if (folder/'route').exists():
+            raise ValueError('incomplete unit needs ownership/evidence inspection before further calls')
         started=time.monotonic()
         result=dispatch(task,row,unit["arm"],profiles[unit["model"]],folder/"route",manifest["training"],ghost_root)
         saved={"binding":expected,"unit":unit,"profile":asdict(profiles[unit["model"]]),

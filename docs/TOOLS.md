@@ -1665,3 +1665,5 @@ The final selected report binds the exact fresh original-ledger reproduction and
 **Gear 3 ledger privacy (OPS-G3-R1-SETUP).** Public reservations retain only the account-verification digest; direct identifiers stay in private evidence. All five affected controller checks pass. [Receipt](../results/gear3/G3-S10-READER-1/LEDGER_PRIVACY.json).
 
 **Gear 3 owner hold (OPS-G3-R1-SETUP).** New dispatch is disabled before reservation. Exact-app stop, provider STOPPED/zero tasks and native supervisor exit verify. The original cancellation and 28-cent reservation remain; no cloud GPU call occurred. This is an operational disposition, with no scientific verdict. [Hold](../results/gear3/G3-S10-READER-1/OWNER_HOLD.json).
+
+**Gear 3 analyst-panel repair (OPS-G3-R1-PANEL).** All 62 final checks pass, including native semantic replay, complete private-answer consumer, whole-plan cost and real-roster naming preflight. Literal device admission remains the next gate. [Receipt](../results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json).

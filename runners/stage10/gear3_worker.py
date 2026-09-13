@@ -101,6 +101,9 @@ def run(volume,reservation,bundle_path,mode):
                         ollama.write_new(output/(key+'-CACHE.json'),identity)
                         volume.commit()
                 else:
+                    device=subprocess.run(['nvidia-smi','--query-gpu=name,memory.total,driver_version','--format=csv,noheader'],capture_output=True,text=True,timeout=5)
+                    ollama.write_new(output/'GPU_DEVICE.json',{'returncode':device.returncode,'stdout':device.stdout,'stderr':device.stderr})
+                    if device.returncode or 'L40S' not in device.stdout:raise ValueError('prescribed GPU not observed')
                     monitor_thread=threading.Thread(target=monitor,daemon=True);monitor_thread.start()
                     active=None;loads=0
                     def before_model(profile):

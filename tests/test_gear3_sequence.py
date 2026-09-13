@@ -2,7 +2,8 @@
 import hashlib,json
 from pathlib import Path
 import pytest
-from runners import gear3_sequence as sequence,gear3_campaign as cost
+from runners import gear3_sequence as sequence,gear3_campaign as cost,gear3_plan,gear3_round1
+from runners.stage10 import gear3_consumer
 from runners.stage10 import gear3_io as storage
 from runners.stage10.contracts import digest
 
@@ -10,6 +11,12 @@ from runners.stage10.contracts import digest
 def test_finite_sequence_retirement_replay_and_uncertain_owner(tmp_path,monkeypatch,outcome):
     repo=tmp_path/'repo';repo.mkdir();ledger=repo/'ledger.json'
     monkeypatch.setattr(sequence,'authoritative_ledger',lambda _:ledger)
+    monkeypatch.setattr(gear3_round1,'account_backstop',lambda _: {})
+    def fixture_admission(root,plan,*args):
+        for j in plan['jobs']:
+            if hashlib.sha256((root/j['bundle']).read_bytes()).hexdigest()!=j['bundle_sha256']:raise ValueError('fixture input changed')
+    monkeypatch.setattr(gear3_plan,'validate_plan',fixture_admission)
+    monkeypatch.setattr(gear3_consumer,'consume',lambda *a: {})
     pilot={'status':'PASS','scope':'constructed only'};(repo/'pilot.json').write_text(json.dumps(pilot))
     jobs=[]
     for name,node,domain,deps in [('a1','A','human',[]),('a2','A','human',[]),('b1','B','history',['a1']),('c1','C','ghost',[])]:

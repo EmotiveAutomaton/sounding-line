@@ -183,8 +183,14 @@ def test_actual_exported_ghost_paths_and_restored_replay(monkeypatch,tmp_path,op
     restored=tmp_path/"restored";storage.verify_archive(archive,restored)
     def forbidden(*a,**k):raise AssertionError("replay attempted external computation")
     monkeypatch.setattr(ollama.urllib.request,"urlopen",forbidden)
-    monkeypatch.setattr(subprocess,"run",forbidden)
+    native_run=subprocess.run;executed=[]
+    def checked_native(cmd,**kwargs):
+        assert Path(cmd[4]).name=='executor_worker.py'
+        executed.append(cmd)
+        return native_run(cmd,**kwargs)
+    monkeypatch.setattr(subprocess,'run',checked_native)
     assert batch.run_block(m,restored,ghost_root=root)==saved
+    assert executed  # semantic replay executes original native candidates again
 
 
 def ledger(tmp_path):

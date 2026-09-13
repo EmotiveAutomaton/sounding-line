@@ -108,7 +108,8 @@ class CampaignLedger:
 
     def reserve(self, invocation: str, node: str, command: list[str], profile: dict,
                 seconds: int, overhead_cents: int, *, approval: str, now: float | None = None,
-                recovery_of: str | None = None, cache=False, workspace_cap_cents=5000):
+                recovery_of: str | None = None, cache=False, workspace_cap_cents=5000,
+                reservation_guard=None):
         now = time.time() if now is None else now
         if not math.isfinite(now) or node not in NODE_CENTS or not invocation or not approval.strip():
             raise ValueError("invalid invocation authorization")
@@ -143,12 +144,22 @@ class CampaignLedger:
                 original = [r for r in data["runs"] if r.get("campaign_id") == CAMPAIGN and r.get("invocation_id") == recovery_of]
                 if len(original) != 1 or original[0].get("owner_ended") is not True:
                     raise ValueError("recovery requires verified prior owner termination")
+                parent = original[0]
+                if parent.get('recovery_of') is not None or parent['node'] == 'Reserve':
+                    raise ValueError('recovery of a recovery is forbidden')
+                if command != parent['command'] or resources != parent['resources']:
+                    raise ValueError('recovery changes original work/payload')
+                for key in ('job_sha256', 'image'):
+                    if profile.get(key) != parent['profile'].get(key):
+                        raise ValueError('recovery changes original work/payload')
                 if any(r.get("recovery_of") == recovery_of for r in data["runs"]):
                     raise ValueError("only one recorded recovery per invocation")
                 if now>=original[0]['expires_at']:raise ValueError('recovery cannot reset an expired block clock')
             elif recovery_of is not None:
                 raise ValueError("repair cannot consume a scientific branch silently")
             totals = self.totals(data)
+            if reservation_guard is not None:
+                reservation_guard(data, node, cost)  # same lock as the booking
             if sum(totals.values())+cost>workspace_cap_cents:
                 raise ValueError("workspace allocation exceeded inside reservation lock")
             if node!="Reserve" and sum(v for k,v in totals.items() if k!="Reserve")+cost>workspace_cap_cents-1000:
@@ -191,4 +202,43 @@ class CampaignLedger:
                        service_estimate_cents=service_estimate_cents)
             if call_id is not None: row["call_id"] = call_id
             # Never lower booked cost from a service estimate. Unknown billing stays reserved.
+            return dict(row)
+
+    def settle(self, invocation, receipt):
+        """Append one final provider-attributed reconciliation; no service estimate.
+
+        Receipt is made by the operator from retained provider billing evidence,
+        covering the WHOLE app lifecycle. Raw invoice/account details stay private.
+        The public ledger keeps their hash and original reservation permanently.
+        """
+        required={'provider_record_sha256','baseline_sha256','workspace_sha256',
+                  'cycle_start_at','cycle_end_at','observed_at','charge_cents',
+                  'app_id','call_id','status','coverage'}
+        if (set(receipt)!=required or receipt['status']!='PROVIDER_CONFIRMED_FINAL'
+                or receipt['coverage']!='entire-app-lifecycle'
+                or type(receipt['charge_cents']) is not int or receipt['charge_cents']<0
+                or any(not isinstance(receipt[k],str) or len(receipt[k])!=64
+                       or any(c not in '0123456789abcdef' for c in receipt[k])
+                       for k in ('provider_record_sha256','baseline_sha256','workspace_sha256'))):
+            raise ValueError('verified final provider settlement required')
+        with self.transaction() as data:
+            rows=[r for r in data['runs'] if r.get('campaign_id')==CAMPAIGN and r.get('invocation_id')==invocation]
+            if len(rows)!=1: raise ValueError('unknown settlement invocation')
+            row=rows[0]
+            if not row['owner_ended'] or row['status'] not in {'COMPLETE','FAILED','CANCELLED'}:
+                raise ValueError('settlement requires verified ended ownership')
+            if (row.get('call_id')!=receipt['call_id']
+                    or row['profile'].get('authenticated_workspace_sha256')!=receipt['workspace_sha256']
+                    or not receipt['cycle_start_at']<=row['ts']<receipt['cycle_end_at']
+                    or receipt['observed_at']<row['ts']
+                    or not any(e.get('evidence',{}).get('app_id')==receipt['app_id']
+                               for e in row['events'] if isinstance(e.get('evidence'),dict))):
+                raise ValueError('settlement owner/workspace/cycle differs')
+            if row.get('settlements'):
+                if row['settlements']!=[receipt]: raise ValueError('settlement is append-only and final')
+                return dict(row)
+            row['settlements']=[dict(receipt)]
+            row['provider_charge_cents']=receipt['charge_cents']
+            row['booked_cents']=receipt['charge_cents']
+            row['cost_basis']='final provider attributed charge; original reservation retained'
             return dict(row)

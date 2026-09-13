@@ -16,27 +16,18 @@ from .stage10.gear3_io import verify_archive
 
 def run_plan(repo,plan_path,account_path):
     plan=json.loads(plan_path.read_text(encoding='utf8'))
-    required={'schema','approval','pilot','pilot_sha256','allowed_bundle_sha256','jobs'}
-    if set(plan)!=required or plan['schema']!='gear3.execution_plan.1':raise ValueError('exact frozen execution PLAN required')
+    from .gear3_plan import validate_plan
+    from .gear3_round1 import account_backstop
     def owned(name):
         p=(repo/name).resolve()
         if not p.is_relative_to(repo.resolve()):raise ValueError('PLAN path escapes checkout')
         return p
-    pilot=owned(plan['pilot']);admission=json.loads(pilot.read_text())
-    if admission.get('status')!='PASS' or digest(admission)!=plan['pilot_sha256']:raise ValueError('passed pilot binding required')
-    if not plan['approval'].strip() or not plan['jobs']:raise ValueError('empty execution PLAN')
-    prior=set();phase=-1
-    for job in plan['jobs']:
-        if set(job)!={'invocation','node','bundle','bundle_sha256','seconds','startup_seconds','overhead_cents','dependencies','failure_domain'}:
-            raise ValueError('unknown or missing planned job fields')
-        identifier=job['invocation']
-        if not identifier or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_' for c in identifier):raise ValueError('unsafe invocation')
-        if job['node'] not in {'A','B','C','D'} or 'ABCD'.index(job['node'])<phase:raise ValueError('branch order differs')
-        phase='ABCD'.index(job['node'])
-        if identifier in prior or not set(job['dependencies'])<=prior or not job['failure_domain']:raise ValueError('unresolved dependency or duplicate job')
-        prior.add(identifier)
-        actual=hashlib.sha256(owned(job['bundle']).read_bytes()).hexdigest()
-        if actual!=job['bundle_sha256'] or actual not in plan['allowed_bundle_sha256']:raise ValueError('planned input bytes changed')
+    ledger=CampaignLedger(authoritative_ledger(repo))
+    main=ledger.path.parents[1]
+    account=account_backstop(account_path)
+    with ledger.transaction() as data:
+        validate_plan(repo,plan,account,data,main/'results/phase_2_4_stage_10/raw/interface-v3/ghost-public')
+    pilot=owned(plan['pilot'])
     output=repo/'private/gear3/G3-S10-READER-1/sequences'/digest(plan)
     output.mkdir(parents=True,exist_ok=True)
     states={};retired=set();rows=[]
@@ -85,7 +76,10 @@ def run_plan(repo,plan_path,account_path):
             atomic_json(output/'PROGRESS.json',{'plan_sha256':digest(plan),'jobs':rows})
         result={'status':'COMPLETE','plan_sha256':digest(plan),'jobs':rows,
             'scope':'finite execution exhausted with dispositions; scientific comparison pending'}
-        atomic_json(output/'COMPLETE.json',result);return result
+        atomic_json(output/'COMPLETE.json',result)
+        from .stage10.gear3_consumer import consume
+        consume(repo,plan_path,main,output/'packet')
+        return result
     except Exception as exc:
         atomic_json(output/'FAILED.json',{'status':'NEEDS_INSPECTION','plan_sha256':digest(plan),'jobs':rows,
             'error':repr(exc),'policy':'no automatic recovery or refreshed expiration'})
