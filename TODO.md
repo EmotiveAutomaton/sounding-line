@@ -50,7 +50,7 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: land the complete human structured chain; retain invalid predictions, costs and rationales that contradict their rules. Delayed owner delivery reconciled with the unchanged full landing.
 - [x] S10-C3: validate training-only human procedures and concrete exceptions under a common storage cap.
 - [x] S10-C3: validate the whole storage-matched retrieval/procedure-memory queue and frozen training-only fit.
-- [x] S10-C3: land literal memory pilot and full first-request selection refusal.
+- [x] S10-C3: land literal memory pilot and full first-request selection refusal. Delayed delivery reconciled against archived original source and the unchanged full landing.
 - [x] S10-C3: repair common memory packing for large drafts and validate all first/refinement request bounds.
 - [x] S10-C3: inspect and fully land the revised literal memory pilot.
 - [x] S10-C3: launch the common memory comparison on the unchanged frozen cohort with native/source progress verified.
