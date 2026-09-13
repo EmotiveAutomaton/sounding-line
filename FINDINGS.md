@@ -54,6 +54,30 @@ interpretability at once, and the same word means different things in each.
 
 **Stage 10 implementation is underway, September 12, 2026.** The supplied reader-prototype plan is adopted in Gear 2 with CPU cooling limits retained. The literal local-model, public Ghost transport and saved-call resume checks have passed; direct and fixed-example readers and the initial CoAuthor source adapter are implemented. The initial CoAuthor and Ghost development producers are complete and verified; the direct/example and matched-deliberation CoAuthor evaluations are complete; the fitted effort policy has completed its reserved prediction producer. The native-procedure reading prediction producers are complete and verified; the human executable-rule predictions are complete and verified, and the procedure-memory and reserved-budget human development producers are complete and verified while broader human readers, other tasks and final scientific analysis remain to be completed. Stage 9's selected packet remains closed; its deferred agenda is separate. [Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md).
 
+### OPS-RESTORE-20260913 - returned files must not regain retired authority
+
+**Hypothesis.** A broad accidental restore could reintroduce retired source documents and cause context drift.
+
+**METHOD.** Compared the current working tree with Git, checked all historically deleted paths and exact old blobs, inventoried authoring/code/test folders including ignored non-bytecode files, examined recent Markdown/asset additions and the existing Stage 10 handoff, and matched loose workspace documents to canonical files. Preserved suspicious copies privately with paths and hashes before other filing or assessment.
+
+**Found.** Three previously removed files returned byte for byte; two other stale untracked documents and six loose exact copies were also present. All eleven are quarantined, with every original byte retained and no tracked file changed by containment. No extra source files were found in the code/test folders. None of the 26 recent Markdown/asset additions matches a historically deleted blob. The Stage 10 handoff had explicitly excluded the stale repository files. No evidence was found of a large restored batch adopted into current tracked work. Restore actor/time, edited historical copies and ignored raw-data/cache history are not established. [Audit](results/maintenance_20260913/RESTORE_AUDIT.json).
+
+**Means.** The observed stale-file ambiguity is contained. A standing provenance check now prevents newly appearing archival files from silently becoming current instructions. Existing frozen sources remain authoritative. No theory claim, new scientific test, worker, lock or paid allowance changed. The supplied Gear 3 source was separately renamed/archived as requested; the newer theory errata is filed as pending, not implemented. An unrelated outdated timer sentence in the active Stage 10 context now agrees with the already ratified transition-only policy.
+
+**Curator roll-up:** theory group: record integrity | question: did returned files regain current authority? | **Infrastructure** | result: stale copies preserved and isolated | project meaning: canonical sources remain unambiguous | next engineering obligation: retain provenance checks at future filing | public claim: unchanged | curator decision required: No | detail: audit above.
+
+### OPS-G3-R1-REVIEW - a bounded larger-reader burst alongside Gear 2
+
+**Hypothesis.** Existing Stage 10 readers and source preparations can support the supplied cloud comparison without interrupting the local study.
+
+**METHOD.** Read the complete supplied plan, relevant current theory/method boundaries, existing cloud wrapper and model client, frozen source-support receipts and current official model/provider documentation. No model or scientific scorer was run for the assessment.
+
+**Found.** The bounded design is viable, with useful existing human support and smaller descriptive Ghost support. Launch still needs explicit model profiles, campaign-wide reservation/deadline enforcement, complete artifact transport and a narrow history comparator. The provider's reference pricing agrees with the plan; real throughput, full 27B identity, peak memory and account backstop remain pilot/prelaunch checks. [Review](docs/design/GEAR_3_ROUND_1_REVIEW.md), [unchanged source](docs/archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md).
+
+**Means.** Prepare in an isolated checkout at a stable local execution point; keep the finite pilot/main comparison first and defer only unusable branches. No new campaign, model download, cloud invocation or spend was launched in this assessment. The source's prior acceptance record is retained without turning filing into execution.
+
+**Curator roll-up:** theory group: reader capability | question: can this burst run beside the local study? | **Infrastructure** | result: viable with bounded cloud-adapter work | project meaning: local completion is not a prerequisite | next engineering obligation: implement isolated transport/accounting and complete the literal pilot when commissioned | public claim: unchanged | curator decision required: No for this assessment | detail: review above.
+
 ### OPS-WAKE-TRANSITIONS - healthy computation does not require repeated agent turns
 
 **Hypothesis.** Local process supervision can detect actionable run transitions without waking the operating agent for unchanged healthy computation.

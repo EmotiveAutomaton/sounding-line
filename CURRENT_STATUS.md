@@ -12,6 +12,15 @@ The new structured branch passes eleven constructed checks and a fourteen-call l
 
 The theory errata remains due at the first results-only wait with no appreciable setup remaining.
 
+**September 13 maintenance:** suspected restored files were inspected before the
+Gear 3 review. Eleven stale/duplicate untracked files are preserved privately;
+no tracked source changed during containment. [Audit](results/maintenance_20260913/RESTORE_AUDIT.json).
+[Gear 3 Round 1](docs/design/GEAR_3_ROUND_1_REVIEW.md) is viable alongside this local
+work after bounded cloud-adapter preparation. Its source is renamed/archived;
+no cloud run was launched. The theory errata is filed as application pending.
+At 12:59 UTC the original local native worker and wrapper remained alive with
+matching creation identities and no terminal marker; they were not restarted.
+
 ## Historical status snapshots (superseded)
 
 Updated 2026-09-12T03:30:56.203947+00:00.

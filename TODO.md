@@ -5,6 +5,13 @@
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
 archive, kept whole, mined but never deleted.
 
+## Repository integrity and Gear 3 Round 1 review - 2026-09-13
+
+- [x] Inspect suspected restored files before using the new proposal; preserve stale/duplicate files privately with hashes and original paths (OPS-RESTORE-20260913).
+- [x] Rename/archive the supplied Gear 3 Round 1 spec and assess coexistence with Gear 2 (OPS-G3-R1-REVIEW; [review](docs/design/GEAR_3_ROUND_1_REVIEW.md)).
+- [x] Sort loose Markdown documents and explicitly file the new theory errata as application pending. Canonical operational root files remain in place.
+- [ ] Gear 3 Round 1: isolated cloud profile/accounting/transport implementation and literal pilot remain unperformed; this request commissioned assessment and filing. Preserve the campaign-specific accepted-allocation record in the source and obtain concrete launch readiness before paid dispatch.
+
 ## Stage 10 commissioned - 2026-09-12
 
 The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. No cloud activation is authorized.

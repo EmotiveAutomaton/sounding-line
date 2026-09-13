@@ -53,8 +53,9 @@ completed comparisons and failures; keep agent, CPU and GPU time distinct.
 
 Gear 2 retains the verified CPU boost-off and 90% maximum processor setting.
 Respect native process ownership and the shared GPU lock. Use final produces,
-immutable attempts and conservative thirty-to-sixty-minute routine wakes;
-failure and queue exhaustion may interrupt earlier.
+immutable attempts and transition-only native supervision. The September 12
+waiting override retires routine liveness/ETA wakes; a healthy worker ends the
+agent turn until a terminal or predefined actionable transition.
 
 Each completed comparison receives the full internal FINDINGS, theory/instrument,
 TODO and receipt write-through. Present one final stage report, machine-readable

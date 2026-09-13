@@ -331,6 +331,15 @@ mistake and win, sectioned by trigger moment (adopting a gate, building an extra
 statistic, the model arm, infra). It exists so mistakes are made once; new lessons land there in
 the same pass that earns them. The method shelf's README maps each file to its reach-for moment.
 
+## Unexpected or restored files
+
+Newly appearing files are not automatically current instructions or renewed study
+scope. Check Git history, exact content and the current folder index before using
+an old-looking document. Preserve unresolved/stale copies in a private quarantine
+with original paths and hashes; keep private handoffs out of public commits.
+File moves must record whether a source is operative, pending, or historical.
+The September 13 restore inspection is recorded in FINDINGS (OPS-RESTORE-20260913).
+
 ## Hard rules
 
 - **Validate the ruler, not just the signal — run every measure on data whose answer you already

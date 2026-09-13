@@ -22,6 +22,15 @@ receipts determine execution state; later ratified stage contracts override olde
 
 ## Current operating handoff: Stage 10, 2026-09-12
 
+**September 13 filing/integrity review:** eleven stale or duplicate untracked files
+are preserved in private quarantine; canonical tracked work and live worker sources
+are unchanged. No evidence of a large restored batch adopted into current tracked
+work was found. [Restore audit](../results/maintenance_20260913/RESTORE_AUDIT.json).
+[Gear 3 Round 1](design/GEAR_3_ROUND_1_REVIEW.md) is viable with bounded cloud-adapter
+work; its supplied source is archived, and this assessment has launched no cloud
+resources. [New theory errata](design/STAGE10_THEORY_ERRATA_2026-09-12.md) is filed as
+pending the existing trigger. Current local execution remains as recorded below.
+
 **Current run:** the earlier-draft structured and storage-matched scientific queue is running in Gear 2: 408 routes, at most 714 calls, automatic development/evaluation advance. The direct/deliberation bank and new literal admission are fully landed. Native identity, initial responses and transition-only supervision verify. CPU boost-off/90% maximum remains. [Launch](../results/phase_2_4_stage_10/EARLIER_STRUCTURED_LAUNCH.json).
 
 **Latest operating override:** transition-only monitoring is active. Native identities and expected outputs are in the private Stage 10 handoff. Routine timers are retired; end healthy-running turns and resume only on completion, failure, disappearance or a predefined checkpoint. Terminal inspection is the next action; Gear 2 and cooling authority are unchanged.

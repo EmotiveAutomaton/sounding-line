@@ -20,3 +20,7 @@ The September 5 coding-agent errata is retired to `maintenance/` after the Sound
 repair/write-through (FINDINGS OPS-ERRATA-1/2 and L371/L372). Its bytes are retained: Ghost
 items are unassigned, and matched-information scientific reruns and historical limitations
 remain useful. Current obligations live in TODO/STATE, not the archived handoff.
+
+The curator-requested [Gear 3 Round 1 source archive](study-specs/README.md) retires
+the loose proposal file, not its proposed work. Its assessment and execution status
+are explicit in the design index; archiving is not launch or completion.

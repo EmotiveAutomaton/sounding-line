@@ -18,13 +18,23 @@ with the reason.
 
 ---
 
+## Restore inspection and Gear 3 Round 1 review - 2026-09-13
+
+These rows paraphrase the direct audio request; the supplied specification's prior
+allocation acceptance is a source record, not a new quotation reconstructed here.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| G3R1.2 | Investigate suspected recycle-bin restoration and context drift first. | Exact history/inventory audit; stale copies privately quarantined with original paths/hashes; standing provenance rule. | FINDINGS OPS-RESTORE-20260913; results/maintenance_20260913/RESTORE_AUDIT.json | built |
+| G3R1.1 | Name and archive Gear 3 Round 1, sort loose Markdown files, and assess viability alongside current work. | Source bytes archived, review records viable design and bounded implementation gaps; local work continues, no paid launch. | docs/design/GEAR_3_ROUND_1_REVIEW.md; docs/archive/study-specs/ | written |
+
 ## Stage 10 commission and theory maintenance ? 2026-09-12
 
 The supplied specification is a planning document adopted by the direct commissioning request; it is not a verbatim theoretical quotation.
 
 | # | Contribution and source | What it produced | Where | Status |
 |---|---|---|---|---|
-| S10.2 | Direct audio instruction: apply the new theory errata at the first results-only wait with no appreciable setup left, then file it. | Explicit deferred trigger retained while substantial Stage 10 setup continues. | TODO S10-E; new supplied errata in docs/; private implementation progress | planned |
+| S10.2 | Direct audio instruction: apply the new theory errata at the first results-only wait with no appreciable setup left, then file it. | Explicit deferred trigger retained while substantial Stage 10 setup continues. | TODO S10-E; docs/design/STAGE10_THEORY_ERRATA_2026-09-12.md (filed pending September 13); private implementation progress | planned |
 | S10.1 | Direct audio instruction: assess Stage 10, implement immediately if viable, keep Gear 2 and maintain the records. | Supplied study adopted; public forecast, Ghost transport, CoAuthor adapter and direct/example readers implemented and initially checked. | docs/design/PHASE_2_4_STAGE_10_CONTEXT.md; runners/stage10/; OPS-S10-I1 | built |
 
 ## Stage 9 commission and supplied reconstruction — 2026-09-06
