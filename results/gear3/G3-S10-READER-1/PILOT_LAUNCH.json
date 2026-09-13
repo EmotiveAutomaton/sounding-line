@@ -1,0 +1,38 @@
+{
+  "status": "LAUNCHED",
+  "at": "2026-09-13T18:27:26.848554+00:00",
+  "launched_at": "2026-09-13T18:23:27.913966+00:00",
+  "campaign": "G3-S10-READER-1",
+  "node": "P",
+  "implementation_commit": "54aac56f60f234f44daece930c1b06ffabb51a4b",
+  "source_manifest_sha256": "f793e7d22b37c5ee7676d3e565087f28fd8a71224b7d49f3d894a30df70407ac",
+  "bundle_sha256": {
+    "cache": "dda9c5760d5e096aa335feaa0130a391a5b4a2c04dd82c043fe8b9b95638015c",
+    "science": "080c5b0942d256a9a2addaa82c43e3228287d2ad3d8267c5890a4b1c5ca03eed"
+  },
+  "jobs": [
+    {
+      "invocation": "p-cache-v1",
+      "mode": "cache",
+      "seconds_cap": 600,
+      "reservation_cents": 28,
+      "status_at_launch": "SUBMITTED"
+    },
+    {
+      "invocation": "p-literal-v1",
+      "mode": "science",
+      "seconds_cap": 3000,
+      "reservation_cents": 217,
+      "status_at_launch": "CONDITIONAL_ON_VERIFIED_CACHE_COMPLETE"
+    }
+  ],
+  "combined_reservation_ceiling_cents": 245,
+  "pilot_cap_cents": 300,
+  "provider_call_identity_recorded_privately": true,
+  "native_supervisor_identity_recorded_privately": true,
+  "watcher": "transition-only terminal and native disappearance; no model polling",
+  "scientific_admission": "pending complete literal pilot landing and measured affordable PLAN",
+  "new_authority_from_wake": false,
+  "local_scientific_queue": "completed bank; currently no local scientific worker",
+  "cooling_policy": "unchanged"
+}
