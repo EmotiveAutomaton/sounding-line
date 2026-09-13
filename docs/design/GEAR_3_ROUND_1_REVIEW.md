@@ -11,6 +11,119 @@ The [supplied specification](../archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md
 is archived under the curator's requested name with unchanged bytes. This review
 is an engineering assessment, not a scientific finding or a launch receipt.
 
+## Commissioned implementation and pilot handoff
+
+Implementation lives on `codex/gear3-round1`, separate from the original local
+reader sources. The local earlier-draft bank finished and was fully landed;
+Gear 2 authorization and CPU cooling limits remain. The theory corrections and
+local producer landing are pushed on main. No paid resource has been created.
+
+The new `runners/gear3.py round1` entry applies campaign-wide integer-cent
+reservations before cloud resource creation. It keeps the original absolute
+expiration, all historical ledger entries, uncertain charges and one controlled
+recovery. A completed remote owner with a local receipt failure remains completed;
+its raw archive and reservation remain available for repair. The legacy entry
+keeps its original allowance and refuses overlapping unresolved campaign owners.
+`round1-plan` executes an explicit finite post-pilot sequence without model turns
+between jobs. Known failed domains retire while independent declared jobs can
+continue; unknown ownership stops new submissions. Neither entry invents work.
+
+The private exporter carries selected public inputs, permitted training labels,
+and the complete reviewed execution-source closure. Evaluation answers, unrelated
+records and credentials stay local. Nested requests, raw responses, parsers,
+executions, identities and costs are durably saved and exported with a checked
+manifest. Offline replay forbids model calls. Existing human baseline coefficients
+are reproduced from the original training allocation, preserving all training views.
+
+Both full model digests and the Ollama 0.32.14 container manifest are resolved.
+The 9B/27B Q4_K_M profiles share 16,384 context tokens, temperature zero and seed
+1001, with 768 generated tokens per route or two calls of 384. Cloud resources are
+one L40S, two bounded physical CPU cores, 32 GiB bounded RAM and one active model.
+Model-cache preparation uses CPU only. These are configuration pins; actual load,
+long-request memory and throughput remain literal-pilot observations.
+
+The discarded pilot has 44 route executions and at most 72 model calls: two real
+human training events excluded from their own retrieval/induction pool, the two
+previously discarded native Ghost cases, and a constructed input-boundary request.
+Both model counterparts are present. The boundary request tests transport/memory;
+it supplies neither an effect estimate nor representative throughput. Its longest
+inputs and all method paths are included before evaluating the study roster.
+
+Proposed dispatch limits below are reservations, not observed invoices. Both
+include the listed overhead; the absolute clock begins with each actual reservation.
+
+| Pilot job | Resource and total duration ceiling | Startup sub-limit | Reserved cost |
+|---|---|---|---|
+| Cache both pinned model packages | CPU only, 600 seconds | 300 seconds | $0.28 including $0.25 overhead |
+| Execute and retrieve the literal pilot | L40S, 3,000 seconds | 300 seconds | $2.17 including $0.25 overhead |
+
+Combined planned pilot reservation is $2.45 within its $3 envelope. Retain failed
+attempts and unknown charges. A failed load/transport does not become a scientific
+null. Inspect the affected path once and permit only the prescribed scoped repair;
+retire persistent failures rather than spending the remainder on apparatus retries.
+
+### The single pilot-to-science checkpoint
+
+Verify returned raw requests/responses, actual package/device identity, native rule
+execution, measured model loads, full operation times and archive integrity. Do not
+admit from the offline fixtures or package-file size. Record `PILOT.json` only from
+that literal evidence. The two-model comparison must remain useful within budget;
+otherwise close the burst with explicit dispositions and unused allowance.
+
+Before opening evaluation answers, use measured complete-operation demand plus
+25 percent, observed loading/flush time and reserved overhead to freeze the largest
+affordable source-balanced roster. Preserve the candidate identity order and complete
+paired methods/models within each block: at most eight human or four Ghost tasks,
+one source family, target and evidence condition. The available inventory is 96 human
+opportunities across 14 writers, 77 matched histories, nine Ghost opportunity tasks
+and five reading tasks. Those Ghost counts are tasks, not independent source cases.
+Their existing exposure and source-case grouping remain explicit and descriptive.
+
+A uses up to 64 human plus 12 Ghost tasks with direct, deliberative and executable
+readers. B takes up to 24 matched A tasks, reuses true-history outputs, and adds only
+exact-length other-writer and artifact-only conditions for fixed direct/executable
+readers. C takes up to 24 human plus six reading tasks from A for storage-matched
+examples, opaque procedures and grounded procedures. B/C run regardless of A's
+effect direction. D takes only next unused identity-ordered supported cases; the
+second human anchor is deferred until its independently validated local handoff.
+The $17/$7/$9/$4 envelopes, initial $20 release, ordinary $40 ceiling and total $50
+remain independent checks. Reserved dollars are ceilings, never a reason to spend.
+
+`PLAN.json` binds pilot evidence, source/model/configuration hashes, selected task
+and method blocks, exact commands, durations/reservations, dependencies and failure
+domains. The current candidate roster is not that admission or a launch receipt.
+Native supervision registers the finite controller and its terminal outputs, with
+no routine liveness timers or repeated agent polling.
+
+### Complete-cell analysis and closeout
+
+The implemented comparator preserves the declared reconstruction-benefit interaction,
+within-model contrasts, ordinary evidence checks and the narrowly validated history
+delta. Donor/prompt/writer dependencies use one common graph. Invalid attempts retain
+system loss one; valid-only results and zero-support infinite log loss remain distinct.
+Source-balanced uncertainty stays descriptive, with leave-one-group-out summaries for
+small support and the fixed bootstrap otherwise. No new significance test is introduced.
+
+The final analysis must bind every returned row to PLAN and the unchanged local
+evaluator, verify complete counterpart/control coverage, and then score whole cells.
+That final data join, measured affordable PLAN and paid pilot admission remain the
+post-pilot work; no scientific verdict is claimed by this setup. Select worked
+examples by the supplied stable-hash rule after complete scoring. Produce the five
+specified answers, all branch dispositions and a ledger-derived cost projection,
+including unresolved billing, credits and unused allowance. Perform full internal
+write-through before presenting the single final packet.
+
+Cloud cleanup is restricted to this campaign's own copies after complete local
+archive verification. Preserve original source archives and shared model caches.
+No storage/transfer estimate is an invoice; keep their uncertainty reserved until
+provider reconciliation. Do not extend the run merely to exhaust its allowance.
+
+**Missing account information:** account access is verified, but the API cannot
+supply this workspace's usage limit, net spend limit, remaining credits or workload
+sharing. Environment budgets are unavailable on the current account. The supplied
+specification requires that backstop before paid dispatch; the owner has been asked
+for the billing-page values. No upgraded plan or shared budget change is proposed.
+
 ## Restore concern, handled first
 
 Git establishes three exact reappearances: the original root specification moved

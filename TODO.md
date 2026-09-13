@@ -12,6 +12,9 @@ archive, kept whole, mined but never deleted.
 - [x] Sort loose Markdown documents and explicitly file the new theory errata as application pending. Canonical operational root files remain in place.
 - [ ] Gear 3 Round 1 is commissioned by the September 13 follow-up: implement isolated profiles, campaign reservations/deadlines, complete evidence transport and frozen comparisons; pass the discarded pilot before science. Enforce $3 pilot, $20 initial release, $40 ordinary use and $50 total including reserve. Preserve Gear 2 workers.
 
+- [x] OPS-G3-R1-SETUP: implement and validate the isolated cloud apparatus, native source bundle, complete pilot replay and finite post-pilot driver; 27 focused checks pass.
+- [ ] OPS-G3-R1-SETUP: verify actual workspace billing limits/credits/sharing, execute the discarded literal pilot, freeze measured affordable PLAN, run its finite sequence, complete the local evaluator join/final packet and reconcile/clean up campaign costs.
+
 ## Stage 10 commissioned - 2026-09-12
 
 The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. The separate September 13 Gear 3 Round 1 commission authorizes only its prescribed bounded cloud package.
