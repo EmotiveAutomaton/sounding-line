@@ -1,16 +1,14 @@
 # Sounding Line current status
 
-Updated 2026-09-13T00:38:09.040031+00:00.
+Updated 2026-09-13T01:27:42.099216+00:00.
 
-**Stage 10 is running in Gear 2.** Human effort evaluation is active: 576 planned policy routes on 192 task/views from 96 events, fourteen writers and three prompts. The frozen policy permits at most 960 model calls. Native identity, source pins and initial progress verify. Completion, failure and disappearance are watched; there is no routine liveness timer.
+**Stage 10 human effort evaluation is complete and internally landed.** Its original worker has exited and released the GPU. All 576 prediction routes retain their original attempts and costs. Complete replay, source bindings, every literal request, raw parse and policy decision verify without new model calls. The stage's scientific comparisons remain pending; this is a producer completion, not a claim that adaptive effort helps.
 
-The complete human memory producer, literal effort pilot and effort development producer are internally landed. Original requests, raw parses, costs and rule executions reproduce. Development-only fitting reproduces its immutable policy; the one development writer admits no learned extra route. Eighteen complete evaluation integration checks pass, with the original fixture serialization failure preserved. Evaluation files supplied only checked identity metadata; outcome values are discarded and scientific comparison remains pending.
+No GPU experiment is active during the next implementation step. Gear 2 authorization and CPU boost-off/90% AC maximum remain. Next: common strategy comparisons and the remaining evidence/history, recipient/constraint and second-source controls, followed by selected second-model work and the final packet. No curator design decision is currently needed. The theory errata remains queued for the first results-only wait with no appreciable setup remaining.
 
-The preceding development notification had a failed queue-delivery attempt and was inspected through the pending-state handoff. Full landing and acknowledgement are complete; this is not evidence of successful message transport. The non-LLM watcher remains active.
+The evaluation completion was recovered through the pending-state handoff after native queue delivery failed. The non-LLM watcher continues local transition detection, but current native transport is not verified. Old queued notices are being reconciled as delivered. Routine liveness polling remains disabled; no valid work is restarted for monitoring.
 
-Next on terminal: land the human policy producer. Earlier-artifact/history interventions, recipient/constraint tasks, the second human source, complete comparisons/calibration, selected second-model work and the final packet remain. The new theory errata remains queued for the first results-only wait with no appreciable setup remaining. No curator design decision is currently needed. CPU boost is disabled and AC maximum is 90%; no cloud activation or delegation is authorized.
-
-[Evaluation launch](results/phase_2_4_stage_10/HUMAN_EFFORT_EVALUATION_LAUNCH.json), [development producer](results/phase_2_4_stage_10/HUMAN_EFFORT_DEVELOPMENT_PRODUCER.json), [policy fit](results/phase_2_4_stage_10/HUMAN_EFFORT_POLICY_FIT.json), [comparison freeze](docs/design/STAGE10_COMPARISON_FREEZE.md).
+[Evaluation producer](results/phase_2_4_stage_10/HUMAN_EFFORT_EVALUATION_PRODUCER.json), [comparison freeze](docs/design/STAGE10_COMPARISON_FREEZE.md), [notification transport inspection](results/maintenance_20260912/QUEUE_BACKLOG_INSPECTION.json).
 
 ## Historical status snapshots (superseded)
 

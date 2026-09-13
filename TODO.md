@@ -52,7 +52,7 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: validate the whole storage-matched retrieval/procedure-memory queue and frozen training-only fit.
 - [x] S10-C3: land literal memory pilot and full first-request selection refusal. Delayed delivery reconciled against archived original source and the unchanged full landing.
 - [x] S10-C3: repair common memory packing for large drafts and validate all first/refinement request bounds.
-- [x] S10-C3: inspect and fully land the revised literal memory pilot.
+- [x] S10-C3: inspect and fully land the revised literal memory pilot. Delayed actual delivery reconciled.
 - [x] S10-C3: launch the common memory comparison on the unchanged frozen cohort with native/source progress verified.
 - [x] S10-C3: land the complete memory comparison producer; retain invalid proposals and evidence/prose contradictions.
 - [x] S10-C3: validate reserved-budget human callbacks and whole queue/controller integration.
@@ -63,7 +63,7 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: land human effort development forecasts and fit the supported policy.
 - [x] S10-C3: validate the source-bound human effort evaluation wrapper and full frozen selection.
 - [x] S10-C3: launch reserved human policy predictions with source/native verification and transition-only supervision.
-- [ ] S10-C3: land complete reserved human policy predictions on terminal.
+- [x] S10-C3: land complete reserved human policy predictions; requests, parses, costs, routing, unchanged replay and native exit verified.
 - [x] S10: freeze three central strategy comparisons before evaluation-outcome access; source-bound receipt and required supplementary controls retained.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
